@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futbol Laboratuvarı | Analiz Platformu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#platform" aria-label="Futbol Laboratuvarı">
+        <span class="brand-mark">FL</span>
+        <span>
+          Futbol Laboratuvarı
+          <small>Analiz Platformu</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" aria-label="Ana menü">
+        <a href="#platform">Panel</a>
+        <a href="#guclu-tahmin">Güçlü Tahmin</a>
+        <a href="#son-analizler">Son Analizler</a>
+        <a href="#sonuc-arsivi">Sonuç Arşivi</a>
+        <a href="#basari-takip">Başarı Takibi</a>
+        <a href="#analiz-modulleri">Modüller</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="dashboard-hero" id="platform">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Futbol + veri + yorum disiplini</p>
+          <h1>Gerçek maç analizi için tek panel.</h1>
+          <p>
+            Futbol Laboratuvarı artık yalnızca tanıtım sitesi değil; maçları form, kadro,
+            oran, teknik direktör etkisi, son dakika davranışı ve psikolojik dayanıklılık
+            üzerinden puanlayan bir analiz platformu iskeleti.
+          </p>
+        </div>
+        <aside class="platform-summary reveal" aria-label="Platform özeti">
+          <div>
+            <span>Bugün</span>
+            <strong id="today-count">0</strong>
+            <small>analiz hazır</small>
+          </div>
+          <div>
+            <span>Ortalama güven</span>
+            <strong id="avg-confidence">0</strong>
+            <small>genel skor</small>
+          </div>
+          <div>
+            <span>En güçlü sinyal</span>
+            <strong id="top-market">-</strong>
+            <small>önerilen market</small>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section strongest-pick" id="guclu-tahmin">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Günün En Güçlü Tahmini</p>
+          <h2>Veri modelinin en yüksek güven skoru</h2>
+        </div>
+        <div id="strongest-pick-card" class="strongest-card reveal"></div>
+      </section>
+
+      <section class="section" id="son-analizler">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Son Analizler</p>
+          <h2>Maç bazlı detaylı analiz kartları</h2>
+          <p>
+            Her kart yedi temel modül üzerinden okunur. Şimdilik örnek veri kullanılır;
+            ileride gerçek maçlar aynı alanlara işlenebilir.
+          </p>
+        </div>
+        <div id="analysis-list" class="analysis-list"></div>
+      </section>
+
+      <section class="section archive-section" id="sonuc-arsivi">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Sonuç Arşivi</p>
+          <h2>Kapanan analizlerin kaydı</h2>
+        </div>
+        <div class="table-wrap reveal">
+          <table>
+            <thead>
+              <tr>
+                <th>Tarih</th>
+                <th>Maç</th>
+                <th>Tahmin</th>
+                <th>Skor</th>
+                <th>Güven</th>
+                <th>Sonuç</th>
+              </tr>
+            </thead>
+            <tbody id="result-archive"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section tracking-section" id="basari-takip">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Başarı Takip Tablosu</p>
+          <h2>Market performansı ve güven kalibrasyonu</h2>
+        </div>
+        <div id="success-grid" class="success-grid"></div>
+      </section>
+
+      <section class="section modules-section" id="analiz-modulleri">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Analiz Modülleri</p>
+          <h2>Skoru oluşturan yedi katman</h2>
+        </div>
+        <div class="module-grid">
+          <article class="module-card reveal">
+            <span>01</span>
+            <h3>Form Gücü</h3>
+            <p>Son maç performansı, gol üretimi, savunma kararlılığı ve seri etkisi.</p>
+          </article>
+          <article class="module-card reveal">
+            <span>02</span>
+            <h3>Kadro Kalitesi</h3>
+            <p>Eksikler, rotasyon, takım derinliği ve oyuncu profili dengesi.</p>
+          </article>
+          <article class="module-card reveal">
+            <span>03</span>
+            <h3>Oran Analizi</h3>
+            <p>Piyasa hareketi, oran değeri ve risk-ödül dengesinin okunması.</p>
+          </article>
+          <article class="module-card reveal">
+            <span>04</span>
+            <h3>Teknik Direktör Etkisi</h3>
+            <p>Oyun planı, maç içi hamle alışkanlığı ve taktik uyum.</p>
+          </article>
+          <article class="module-card reveal">
+            <span>05</span>
+            <h3>Son 15 Dakika Analizi</h3>
+            <p>Maç sonu gol yeme/atma alışkanlığı, kondisyon ve baskı tepkisi.</p>
+          </article>
+          <article class="module-card reveal">
+            <span>06</span>
+            <h3>Psikolojik Dayanıklılık</h3>
+            <p>Geriye düşme tepkisi, derbi baskısı, deplasman stresi ve motivasyon.</p>
+          </article>
+          <article class="module-card reveal wide">
+            <span>07</span>
+            <h3>Genel Güven Skoru</h3>
+            <p>Tüm modüllerin ağırlıklı birleşimiyle maçın analiz güveni hesaplanır.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Futbol Laboratuvarı</span>
+      <span>Analizler örnek veridir; yapı gerçek veri girişine hazırdır.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
