@@ -5,7 +5,7 @@ Bu paket GitHub Pages icin hazirlanan guncel Futbol Laboratuvari web sitesi dosy
 
 Degisen ana dosyalar:
 - index.html: Kurucu bolumu, Medya Galerisi, Spor Toto Performansi, Analiz Veritabani, Basari Arsivi baglantilari ve bolumleri guncellendi.
-- style.css: Siyah/dore/neon yesil premium tasarim, kurucu karti, medya galerisi, Spor Toto kartlari ve mobil uyum stilleri guncellendi.
+- style.css: Siyah/dore/neon yesil premium tasarim, Flashscore/Sofascore hissinde kompakt iki kolonlu dashboard hero alani, kurucu karti, medya galerisi, Spor Toto kartlari ve mobil uyum stilleri guncellendi.
 - script.js: 6 genel analiz kaydi, 15 Spor Toto kaydi, ana panel ozet hesaplari, analiz kartlari, Spor Toto kartlari ve arsiv tablolarinin veri uretimi eklendi.
 
 Eklenen/kullanilan gorseller:
@@ -31,3 +31,4 @@ Notlar:
 - Dosya yollari gorelidir; GitHub Pages kok dizin yapisini bozmayin.
 - index.html icindeki gorsel yollarinin assets/images/... olarak kalmasi gerekir.
 - Kurucu karti bagimsiz bolum olarak duzenlenmistir; hero yazisi kurucu fotografi uzerine tasmaz.
+- Hero alani son duzenlemede "Tahmin degil, veri konusur." basligi, sakin koyu dashboard arka plani, hizali metrik kartlari ve mobilde tek kolon akisi ile guncellenmistir.
