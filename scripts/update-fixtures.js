@@ -80,7 +80,7 @@ const normalizeFootballData = (payload) =>
   });
 
 const fetchFixturesFromFootballData = async () => {
-  const token = process.env.FOOTBALL_DATA_API_TOKEN;
+  const token = process.env.FOOTBALL_API_KEY;
   if (!token) return null;
 
   const today = formatTurkeyDate();
