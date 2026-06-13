@@ -27,6 +27,7 @@
         <a href="#medya-galerisi">Medya Galerisi</a>
         <a href="#yorum-kosesi">Yorum Köşesi</a>
         <a href="#spor-toto-performansi">Spor Toto Performansı</a>
+        <a href="#yaklasan-maclar">Maç Bülteni</a>
         <a href="#guclu-tahmin">Güçlü Tahmin</a>
         <a href="#son-analizler">Son Analizler</a>
         <a href="#analiz-veritabani">Analiz Veritabanı</a>
@@ -44,7 +45,7 @@
             <span>Veri | Analiz | Yorum</span>
           </div>
           <p class="eyebrow">Futbol + veri + yorum disiplini</p>
-          <h1></h1>
+          <h1>Tahmin değil, veri konuşur.</h1>
           <p>
             Futbol Laboratuvarı; form, oran, kadro ve maç içi verileri birlikte okuyan
             futbol analiz platformudur.
@@ -75,6 +76,25 @@
         </aside>
       </section>
 
+      <section class="section fixtures-section" id="yaklasan-maclar">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Günlük Maç Bülteni</p>
+          <h2>Bugünün ve Yaklaşan Maçlar</h2>
+          <p>
+            Liste her sabah otomatik güncellenir; bugün, yarın ve sonraki gün programı
+            ayrı sekmelerde takip edilir.
+          </p>
+        </div>
+        <div class="fixtures-panel reveal">
+          <div class="fixture-tabs" role="tablist" aria-label="Maç günleri">
+            <button class="fixture-tab active" type="button" role="tab" aria-selected="true" data-fixture-day="today">Bugün</button>
+            <button class="fixture-tab" type="button" role="tab" aria-selected="false" data-fixture-day="tomorrow">Yarın</button>
+            <button class="fixture-tab" type="button" role="tab" aria-selected="false" data-fixture-day="next">Sonraki Gün</button>
+          </div>
+          <div id="fixtures-list" class="fixtures-list" aria-live="polite"></div>
+        </div>
+      </section>
+
       <section class="section founder-section" id="kurucu">
         <div class="founder-card reveal">
           <div class="founder-copy">
@@ -87,7 +107,7 @@
               Futbol Laboratuvarı kurucusu. Veri analizi, Spor Toto araştırmaları ve maç
               istihbaratı üzerine çalışmaktadır.
             </p>
-            <div class="founder-motto">Futbol Laboratuvarı</div>
+            <div class="founder-motto">Tahmin değil, veri konuşur.</div>
           </div>
           <figure class="founder-photo">
             <img src="assets/images/cem-kaplanoglu-founder.webp" alt="Cem Kaplanoğlu" loading="lazy" decoding="async" />

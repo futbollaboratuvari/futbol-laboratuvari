@@ -817,10 +817,123 @@ th {
 }
 
 .spor-toto-section,
-.database-section {
+.database-section,
+.fixtures-section {
   background:
     linear-gradient(180deg, rgba(215, 180, 90, 0.05), transparent 42%),
     linear-gradient(90deg, rgba(41, 224, 132, 0.05), transparent 28%);
+}
+
+.fixtures-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.fixture-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.28);
+  width: max-content;
+  max-width: 100%;
+}
+
+.fixture-tab {
+  min-width: 112px;
+  padding: 11px 14px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 850;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.fixture-tab:hover,
+.fixture-tab.active {
+  border-color: var(--line-strong);
+  background: rgba(41, 224, 132, 0.11);
+  color: var(--text);
+}
+
+.fixtures-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.fixture-card {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  border: 1px solid rgba(215, 180, 90, 0.2);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(41, 224, 132, 0.08), transparent 34%),
+    linear-gradient(180deg, var(--panel-2), var(--panel-3));
+  box-shadow: var(--shadow);
+}
+
+.fixture-card time {
+  color: var(--green);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.fixture-league {
+  color: #f2df9b;
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fixture-teams {
+  display: grid;
+  gap: 7px;
+}
+
+.fixture-team {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.fixture-team span:first-child {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.fixture-team b {
+  text-align: right;
+}
+
+.fixture-status {
+  justify-self: start;
+}
+
+.fixtures-empty {
+  grid-column: 1 / -1;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+  color: var(--muted);
 }
 
 .spor-summary {
@@ -1008,6 +1121,7 @@ th {
   .analysis-list,
   .success-grid,
   .spor-grid,
+  .fixtures-list,
   .module-grid,
   .media-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1106,9 +1220,18 @@ th {
   .analysis-list,
   .success-grid,
   .spor-grid,
+  .fixtures-list,
   .module-grid,
   .media-grid {
     grid-template-columns: 1fr;
+  }
+
+  .fixture-tabs {
+    width: 100%;
+  }
+
+  .fixture-tab {
+    flex: 1 1 100%;
   }
 
   .media-card,

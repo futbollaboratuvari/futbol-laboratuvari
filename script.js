@@ -163,6 +163,11 @@ const successGrid = document.querySelector("#success-grid");
 const databaseBody = document.querySelector("#analysis-database-body");
 const sporTotoGrid = document.querySelector("#spor-toto-grid");
 const sporTotoSummary = document.querySelector("#spor-toto-summary");
+const fixturesList = document.querySelector("#fixtures-list");
+const fixtureTabs = [...document.querySelectorAll(".fixture-tab")];
+
+let fixtures = [];
+let activeFixtureDay = "today";
 
 const getGeneralScore = (analysis) => {
   if (analysis.confidence) return analysis.confidence;
@@ -174,6 +179,105 @@ const statusClass = (result) => {
   if (result === "Kazandı") return "won";
   if (result === "Kaybetti") return "lost";
   return "pending";
+};
+
+const escapeHtml = (value) =>
+  String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+
+const getTurkeyDateKey = (date = new Date()) => {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  return formatter.format(date);
+};
+
+const addDays = (dateKey, days) => {
+  const [year, month, day] = dateKey.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day + days, 12));
+  return date.toISOString().slice(0, 10);
+};
+
+const fixtureDateMap = () => {
+  const today = getTurkeyDateKey();
+  return {
+    today,
+    tomorrow: addDays(today, 1),
+    next: addDays(today, 2),
+  };
+};
+
+const fixtureStatusLabel = (status) => {
+  const labels = {
+    scheduled: "Planlandı",
+    live: "Canlı",
+    postponed: "Ertelendi",
+    cancelled: "İptal",
+    finished: "Tamamlandı",
+  };
+  return labels[status] || status || "Planlandı";
+};
+
+const renderFixtures = () => {
+  if (!fixturesList) return;
+  const dateKey = fixtureDateMap()[activeFixtureDay];
+  const dailyFixtures = fixtures
+    .filter((fixture) => fixture.date === dateKey)
+    .sort((a, b) => `${a.time || ""}`.localeCompare(`${b.time || ""}`));
+
+  if (dailyFixtures.length === 0) {
+    fixturesList.innerHTML = `
+      <div class="fixtures-empty">
+        Bu gün için kayıtlı maç bulunamadı. Günlük veri dosyası güncellendiğinde liste otomatik dolacak.
+      </div>
+    `;
+    return;
+  }
+
+  fixturesList.innerHTML = dailyFixtures
+    .map(
+      (fixture) => `
+        <article class="fixture-card">
+          <time datetime="${escapeHtml(`${fixture.date}T${fixture.time || "00:00"}`)}">${escapeHtml(fixture.time || "--:--")}</time>
+          <div class="fixture-league">${escapeHtml(fixture.league)}</div>
+          <div class="fixture-teams">
+            <div class="fixture-team"><span>Ev sahibi</span><b>${escapeHtml(fixture.home)}</b></div>
+            <div class="fixture-team"><span>Deplasman</span><b>${escapeHtml(fixture.away)}</b></div>
+          </div>
+          <span class="status pending fixture-status">${escapeHtml(fixtureStatusLabel(fixture.status))}</span>
+        </article>
+      `,
+    )
+    .join("");
+};
+
+const loadFixtures = async () => {
+  if (!fixturesList) return;
+  fixturesList.innerHTML = `<div class="fixtures-empty">Maç bülteni yükleniyor...</div>`;
+
+  try {
+    const response = await fetch("data/fixtures.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`fixtures.json ${response.status}`);
+    const data = await response.json();
+    fixtures = Array.isArray(data) ? data : [];
+  } catch (error) {
+    fixtures = [];
+    fixturesList.innerHTML = `
+      <div class="fixtures-empty">
+        Maç bülteni şu anda okunamadı. data/fixtures.json dosyası kontrol edilmeli.
+      </div>
+    `;
+    return;
+  }
+
+  renderFixtures();
 };
 
 const scoreLine = (label, value) => `
@@ -408,8 +512,9 @@ const setupObservers = () => {
   if (stats) counterObserver.observe(stats);
 };
 
-const init = () => {
+const init = async () => {
   if (analysisList) analysisList.innerHTML = analyses.map(renderAnalysisCard).join("");
+  await loadFixtures();
   renderStrongestPick();
   renderArchive();
   renderSuccess();
@@ -428,6 +533,18 @@ navLinks.forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.remove("open");
     menuButton?.setAttribute("aria-expanded", "false");
+  });
+});
+
+fixtureTabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    activeFixtureDay = tab.dataset.fixtureDay;
+    fixtureTabs.forEach((item) => {
+      const isActive = item === tab;
+      item.classList.toggle("active", isActive);
+      item.setAttribute("aria-selected", String(isActive));
+    });
+    renderFixtures();
   });
 });
 
