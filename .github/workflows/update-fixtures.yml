@@ -23,7 +23,7 @@ jobs:
 
       - name: Update fixtures
         env:
-          FOOTBALL_DATA_API_TOKEN: ${{ secrets.FOOTBALL_DATA_API_TOKEN }}
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: node scripts/update-fixtures.js
 
       - name: Commit changes
