@@ -84,7 +84,7 @@ const fetchFixturesFromFootballData = async () => {
   if (!token) return null;
 
   const today = formatTurkeyDate();
-  const dateTo = addDays(today, 2);
+  sabit tarih = Gün ekle(Bugün, 14);
   const url = `https://api.football-data.org/v4/matches?dateFrom=${today}&dateTo=${dateTo}`;
   const payload = await requestJson(url, { "X-Auth-Token": token });
   return normalizeFootballData(payload);
