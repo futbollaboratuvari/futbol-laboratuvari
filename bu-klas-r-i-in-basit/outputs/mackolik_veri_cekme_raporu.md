@@ -1,148 +1,88 @@
-# Mackolik Veri Cekme Raporu - Faz 7 Son Durum
+# Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-19
+Tarih: 2026-06-19T20:54:30.711097+00:00
 
-Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
+## Ozet
 
-## Amac
+- Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
+- Durum: success
+- Kac mac bulundu: 26
+- Kac mac kaydedildi: 24
+- Kac mac zaten vardi: 2
+- Ham veri havuzu toplam mac sayisi: 49
 
-Mackolik veri cekicisini site entegrasyonuna gecmeden once son kez dogrulamak.
+## Ligler
 
-Bu sistem:
+- ABD USL Lig 1
+- ABD USL Lig 2 Güney Atlantik Grubu
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Lone Star Grubu
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Tazmanya
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avustralya Victoria NPL 1
+- Dünya Kupası 2026 Grup C
+- Dünya Kupası 2026 Grup D
+- Şili Kupa Grup A
+- Şili Kupa Grup G
 
-- Bahis oynatmaz.
-- Kupona ekleme yapmaz.
-- Para yatirma/cekme yapmaz.
-- Uyelik veya satin alma islemi yapmaz.
-- Sadece gorunen mac ve oran verilerini okur.
+## Okunabilen Oran Alanlari
 
-## Kontrol Edilen Dosyalar
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
-- `src/mackolik_veri_cekici.py`
-- `src/robot.py`
-- `data/ham_mac_havuzu.json`
-- `outputs/mackolik_veri_cekme_raporu.md`
-- `MASTER_HAFIZA.md`
-- `proje_hafizasi.md`
-- `gunluk_rapor.md`
+## Okunamayan Oran Alanlari
 
-## Canli Test Sonucu
+- kg_var
+- kg_yok
+- alt_35
+- ust_35
+- iy_kg
+- ikinci_yari_kg
+- iy_ms
 
-Playwright ile Mackolik Arsiv sayfasi acildi ve veri cekici canli sayfa uzerinde test edildi.
+## Mac Detay Pencereleri
 
-| Kontrol | Sonuc |
-|---|---:|
-| Bulunan mac satiri | 66 |
-| Lig sayisi | 28 |
-| Zorunlu alanlari ve temel oranlari tam okunan mac | 39 |
-| Tumu/detail denemesi | 25 |
-| Basariyla acilan Tumu/detail | 25 |
-| Detail hata sayisi | 0 |
-| Ham havuz toplam mac sayisi | 25 |
-| Ham havuz JSON durumu | Gecerli |
-| Ham havuz tekrar eden anahtar | 0 |
+- Denenen Tumu alani: 16
+- Acilan detay: 16
+- Yasakli aksiyon nedeniyle atlanan: 0
 
-## Dogrulanan Zorunlu Alanlar
+## Hatalar
 
-Asagidaki alanlar canli sayfadan okunabildi:
+- Hata yok.
 
-- Tarih
-- Saat
-- Lig
-- Ev sahibi
-- Deplasman
-- Mac kodu
-- MS 1
-- MS X
-- MS 2
-- 2.5 Alt
-- 2.5 Ust
+## Ornek Maclar
 
-Ornek canli okunan mac:
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 20.06.2026 | 06:00 | Dünya Kupası 2026 Grup D | Türkiye | Paraguay | 15063 | 5 |
+| 20.06.2026 | 01:00 | Dünya Kupası 2026 Grup C | İskoçya | Fas | 14916 | 5 |
+| 20.06.2026 | 03:30 | Dünya Kupası 2026 Grup C | Brezilya | Haiti | 14988 | 4 |
+| 20.06.2026 | 03:00 | Şili Kupa Grup A | San Marcos Ari | Deportes Limach | 08984 | 5 |
+| 20.06.2026 | 02:00 | Şili Kupa Grup G | Audax Italiano | Deportes Santa | 08944 | 5 |
+| 20.06.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl | O Connor Knight | 07688 | 3 |
+| 20.06.2026 | 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp | Monaro Panthers | 07299 | 3 |
+| 20.06.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un | Canberra White | 04528 | 3 |
+| 20.06.2026 | 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney | Sutherland Shar | 07792 | 5 |
+| 20.06.2026 | 08:00 | Avustralya NPL Queensland | Gold Coast Uni | Brisbane Roar I | 07738 | 3 |
+| 20.06.2026 | 08:00 | Avustralya NPL Victoria | Avondale Heigh | Dandenong Thund | 07618 | 3 |
+| 20.06.2026 | 07:00 | Avustralya NPL Victoria | Hume City | Green Gully | 07073 | 5 |
+| 20.06.2026 | 08:00 | Avustralya NPL Victoria | Heidelberg Uni | Preston Lions | 07756 | 5 |
+| 20.06.2026 | 07:30 | Avustralya NPL Tazmanya | Launceston Uni | Ulverstone | 07387 | 3 |
+| 20.06.2026 | 07:30 | Avustralya NPL Tazmanya | Devonport City | Clarence Zebras | 07320 | 3 |
+| 20.06.2026 | 07:30 | Avustralya NPL Tazmanya | South East Uni | Glenorchy Knigh | 07495 | 3 |
+| 20.06.2026 | 07:00 | Avustralya NPL Kuzey YGG | Lambton Jaffas | Adamstown Roseb | 07190 | 3 |
+| 20.06.2026 | 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni | Weston Bears | 07046 | 3 |
+| 20.06.2026 | 08:00 | Avustralya NPL Kuzey YGG | Belmont Swanse | Broadmeadow Mag | 07662 | 3 |
+| 20.06.2026 | 08:00 | Avustralya Victoria NPL 1 | Melbourne Srbi | Melbourne Knigh | 07715 | 5 |
 
-| Alan | Deger |
-|---|---|
-| Tarih | 19.06.2026 |
-| Saat | 22:00 |
-| Lig | Dunya Kupasi 2026 Grup D |
-| Ev Sahibi | Abd |
-| Deplasman | Avustralya |
-| Mac Kodu | 14847 |
-| MS 1 | 1.41 |
-| MS X | 3.68 |
-| MS 2 | 4.74 |
-| 2.5 Alt | 1.63 |
-| 2.5 Ust | 1.72 |
+## Sonuc
 
-## Ek Market Durumu
-
-`Tumu` detay alanlari acilabildi. Ancak mevcut parser bu fazda ek marketleri guvenilir sekilde normalize etmedi.
-
-| Ek Alan | Durum |
-|---|---|
-| KG Var | Henuz guvenilir okunmadi |
-| KG Yok | Henuz guvenilir okunmadi |
-| 3.5 Alt/Ust | Henuz guvenilir okunmadi |
-| IY KG / 2Y KG | Henuz guvenilir okunmadi |
-| IY/MS | Henuz guvenilir okunmadi |
-
-Karar: Faz 7'nin bitis kriteri icin temel mac ve temel oran veri cekimi dogrulandi. Ek marketler site entegrasyonu sonrasi gelistirilecek ayri iyilestirme olarak kalabilir.
-
-## Tekrar Kayit Kontrolu
-
-Benzersiz anahtar mantigi:
-
-`tarih + saat + ev_sahibi + deplasman`
-
-Test sonucu:
-
-- Ilk ekleme: `new_matches_added = 1`
-- Ayni mac ikinci kez eklendiginde: `duplicate_matches = 1`
-- Ikinci eklemede yeni kayit: `new_matches_added = 0`
-
-## Ham Veri Havuzu Durumu
-
-- Dosya: `data/ham_mac_havuzu.json`
-- JSON durumu: Gecerli
-- Toplam mac sayisi: 25
-- Mackolik son canli testinde bulunan mac: 66
-- Kalici kaydedilen Mackolik dogrulama kaydi: 20
-- Tekrar eden anahtar sayisi: 0
-
-## Robot Ana Akis Durumu
-
-`src/robot.py` import testi basarili.
-
-Robot calistirma testi:
-
-- Robot demo modda calisti.
-- Maçkolik adimi sandbox icinde Chromium `EPERM` hatasi alsa bile ana robot akisi cokmedi.
-- Demo analiz, kupon ve basari takip raporu terminale uretildi.
-- `run_robot.bat` akisini bozan import veya baglanti hatasi bulunmadi.
-
-Not: Codex sandbox ortaminda Python/PowerShell dosya yazma ve Chromium calistirma kisitlari gorulebiliyor. Yetkili Playwright testinde Maçkolik sayfasi acildi ve veri cekimi dogrulandi.
-
-## Teknik Duzeltmeler
-
-- Lig bilgisi mac satirindan degil, tek hucreli grup basligindan okunacak sekilde parser duzeltildi.
-- Tarih bilgisi market baslik satirindaki tarih degisiminden okunacak sekilde duzeltildi.
-- `Tumu` detay tiklamalarinda reklam/cookie katmani engelini azaltmak icin sadece `Tumu` hucresinde `force=True` kullanildi.
-- Yasakli aksiyon metinleri korunmaya devam ediyor.
-
-## Test Ozeti
-
-- AST testi: Basarili
-- Import testi: Basarili
-- Playwright canli sayfa acma testi: Basarili
-- Zorunlu alan okuma testi: Basarili
-- Detail acma testi: Basarili
-- JSON okuma testi: Basarili
-- Tekrar kayit testi: Basarili
-- Robot import testi: Basarili
-- Robot ana akis testi: Basarili
-
-## Son Karar
-
-MAÇKOLİK VERİ ÇEKİCİ SON DURUM: HAZIR
-
-SİTE ENTEGRASYONUNA GEÇİLEBİLİR Mİ: EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
