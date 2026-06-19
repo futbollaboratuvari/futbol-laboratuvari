@@ -96,6 +96,17 @@
     return labels[status] || "Oynanacak";
   };
 
+  const statusIcon = (status) => {
+    const icons = {
+      scheduled: "🕒",
+      live: "🔴",
+      finished: "✓",
+      postponed: "⏸",
+      cancelled: "×",
+    };
+    return icons[status] || "🕒";
+  };
+
   const groupByLeague = (matches) => {
     const groups = new Map();
     matches.forEach((match) => {
@@ -136,8 +147,8 @@
       .daily-league-name { color:#fff7d6; font-size:13px; font-weight:950; letter-spacing:.08em; text-transform:uppercase; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-shadow:0 1px 0 rgba(0,0,0,.28); }
       .daily-league-count { color:#ffffff; font-size:12px; font-weight:900; white-space:nowrap; }
       .daily-table-scroll { overflow-x:auto; }
-      .daily-match-table { display:grid; min-width:1260px; }
-      .daily-match-header, .daily-match-row { display:grid; grid-template-columns:70px minmax(340px,1fr) 62px 62px 62px 66px 66px 66px 66px 190px; align-items:stretch; }
+      .daily-match-table { display:grid; min-width:1180px; }
+      .daily-match-header, .daily-match-row { display:grid; grid-template-columns:70px minmax(340px,1fr) 62px 62px 62px 66px 66px 66px 66px 118px; align-items:stretch; }
       .daily-match-header { background:linear-gradient(180deg, rgba(35,48,49,.98), rgba(20,31,34,.98)); color:#ffe08a; font-size:11px; font-weight:950; letter-spacing:.06em; text-transform:uppercase; }
       .daily-match-header span, .daily-match-row > * { display:flex; align-items:center; min-height:44px; padding:9px 10px; border-right:1px solid rgba(255,255,255,.08); border-bottom:1px solid rgba(255,255,255,.07); }
       .daily-match-header span:last-child, .daily-match-row > *:last-child { border-right:0; }
@@ -156,15 +167,14 @@
       .daily-odd:hover { background:rgba(255,159,28,.18); color:#ffe08a; }
       .daily-widget-status { justify-content:center; color:#ffe08a; font-size:11px; font-weight:800; }
       .daily-status-pill { display:inline-flex; align-items:center; justify-content:center; padding:6px 9px; border-radius:999px; background:rgba(255,159,28,.16); color:#ffe08a; white-space:nowrap; }
-      .daily-detail-button { width:100%; min-height:36px; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:8px; border:1px solid rgba(255,159,28,.28); border-radius:999px; background:rgba(3,8,23,.74); color:#f8fbff; cursor:pointer; padding:5px 8px; box-shadow:inset 0 1px 0 rgba(255,255,255,.05); }
+      .daily-detail-button { width:100%; min-height:36px; display:grid; grid-template-columns:28px 1fr 28px; align-items:center; gap:6px; border:1px solid rgba(255,159,28,.28); border-radius:999px; background:rgba(3,8,23,.74); color:#f8fbff; cursor:pointer; padding:5px 7px; box-shadow:inset 0 1px 0 rgba(255,255,255,.05); }
       .daily-detail-button:hover { border-color:rgba(57,255,136,.42); background:rgba(57,255,136,.08); }
-      .daily-detail-copy { display:grid; gap:1px; text-align:left; line-height:1.08; min-width:0; }
-      .daily-detail-copy b { color:#c8ffdd; font-size:10px; font-weight:950; text-transform:uppercase; letter-spacing:.04em; white-space:nowrap; }
-      .daily-detail-copy small { color:#aebbd0; font-size:10px; font-weight:800; white-space:nowrap; }
+      .daily-status-icon { display:inline-flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:999px; border:1px solid rgba(255,159,28,.30); background:rgba(255,159,28,.12); font-size:13px; line-height:1; }
+      .daily-odds-badge { display:inline-flex; align-items:center; justify-content:center; min-width:34px; height:26px; padding:0 7px; border-radius:999px; border:1px solid rgba(57,255,136,.30); background:rgba(57,255,136,.10); color:#c8ffdd; font-size:11px; font-weight:950; line-height:1; white-space:nowrap; }
       .daily-chevron { display:inline-flex; align-items:center; justify-content:center; width:24px; height:24px; border-radius:999px; background:rgba(255,159,28,.16); color:#ffe08a; font-size:16px; line-height:1; transition:transform .18s ease, background .18s ease; }
       .daily-detail-button[aria-expanded="true"] .daily-chevron { transform:rotate(180deg); background:rgba(57,255,136,.16); color:#c8ffdd; }
       .daily-widget-empty { padding:18px; border:1px solid rgba(255,159,28,.18); border-radius:16px; background:rgba(3,8,23,.58); color:#aebbd0; }
-      @media (max-width:720px) { .daily-widget-shell{margin:16px 14px 0; padding:14px;} .daily-widget-head{align-items:flex-start; flex-direction:column;} .daily-match-table{min-width:1180px;} }
+      @media (max-width:720px) { .daily-widget-shell{margin:16px 14px 0; padding:14px;} .daily-widget-head{align-items:flex-start; flex-direction:column;} .daily-match-table{min-width:1120px;} }
     `;
     document.head.appendChild(style);
   };
@@ -205,10 +215,11 @@
 
   const detailButton = (match, odds) => {
     const quality = dataQuality(odds);
+    const status = statusLabel(match.status);
     return `
-      <button class="daily-detail-button" type="button" aria-expanded="false" data-daily-detail-toggle>
-        <span class="daily-status-pill">${escapeHtml(statusLabel(match.status))}</span>
-        <span class="daily-detail-copy"><b>${quality.active}/${quality.total} oran</b><small>Detaylı Oranlar</small></span>
+      <button class="daily-detail-button" type="button" aria-expanded="false" aria-label="${escapeHtml(status)}. Detaylı oranları aç." title="${escapeHtml(status)} · Detaylı Oranlar" data-daily-detail-toggle>
+        <span class="daily-status-icon" title="${escapeHtml(status)}" aria-hidden="true">${escapeHtml(statusIcon(match.status))}</span>
+        <span class="daily-odds-badge" title="${quality.active}/${quality.total} oran mevcut">${quality.active}/${quality.total}</span>
         <span class="daily-chevron" aria-hidden="true">⌄</span>
       </button>
     `;
