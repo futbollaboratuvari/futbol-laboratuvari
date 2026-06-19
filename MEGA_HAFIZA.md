@@ -2,7 +2,7 @@
 
 Bu dosya Futbol Laboratuvarı projesinin kalıcı çalışma hafızasıdır.
 
-Amaç: Sohbetlerde alınan kararlar, yapılan site/robot değişiklikleri, ödeme-üyelik planı, robot veri akışı ve gelecek görevler burada tutulur. Bu dosya proje deposunda ana hafıza deposu olarak kullanılacaktır.
+Amaç: Sohbetlerde alınan kararlar, yapılan site/robot değişiklikleri, ödeme-üyelik planı, robot veri akışı, panel tasarım kararları ve gelecek görevler burada tutulur. Bu dosya proje deposunda ana hafıza deposu olarak kullanılacaktır.
 
 ---
 
@@ -47,13 +47,13 @@ Kaçınılacak iç ifadeler:
 - uydurma analiz
 - teknik robot katmanı
 - veri olmadan seçim gösterilmez
-- market kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine seçenek kullanılır.
+- `market` kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine `seçenek` kullanılır.
 
 ---
 
 ## 3. Günlük Maç Bülteni
 
-Günlük maç bülteni `daily-matches-widget.js` ile çalışır.
+Dosya: `daily-matches-widget.js`
 
 Özellikler:
 
@@ -68,8 +68,13 @@ Günlük maç bülteni `daily-matches-widget.js` ile çalışır.
 
 Ek detay paneli:
 
-- `daily-toggle.js`
+- Dosya: `daily-toggle.js`
 - Satıra tıklayınca Alt, Üst, KG Var, KG Yok gibi ekstra oranlar açılır.
+
+Tasarım sınıfı:
+
+- `Neon Sport`
+- Takım isimleri, saatler, skorlar ve maç satırları canlı/spor hissiyle görünür.
 
 ---
 
@@ -83,6 +88,11 @@ Amaç:
 - O gün biten maçları listeler.
 - Veri yoksa sonuç uydurmaz.
 - Sonuç yoksa `Henüz biten maç yok.` gösterir.
+
+Tasarım sınıfı:
+
+- `Neon Sport`
+- Skorlar ve takım isimleri neon/spor yazı diliyle görünür.
 
 ---
 
@@ -104,6 +114,12 @@ Kural:
 
 - Robot gerçek analiz üretmeden kupon gösterilmez.
 - Demo/beta bekleme verisi kupon olarak yayınlanmaz.
+
+Tasarım sınıfı:
+
+- `Diamond Clean`
+- Güven, risk, oran ve veri kutuları temiz mavi/elmas tonuyla gösterilir.
+- Takım/maç adlarında gerektiğinde `Neon Sport` etkisi korunur.
 
 ---
 
@@ -171,7 +187,7 @@ Amaç:
 
 - Projenin ana kilit premium sistemi.
 - Üye maç listesinden karşılaşma seçer.
-- İstediği seçeneği/marketi seçer.
+- İstediği seçeneği seçer.
 - Robot için özel analiz isteği hazırlar.
 
 Seçenekler:
@@ -197,44 +213,94 @@ Mevcut durum:
 - Gerçek üyelik, ödeme ve analiz kuyruğu için backend gerekir.
 - Bu panel projenin ana kilit taşıdır: ödeme yapan kullanıcı özel maç seçip seçeneğe göre robot analizi isteyecek.
 
+Tasarım sınıfı:
+
+- `Premium + Diamond`
+- Başlıklar premium marka diliyle, veri satırları Diamond Clean tarzıyla görünür.
+
 ---
 
-## 9. Üyelik ve Ödeme Paneli
+## 9. Üyelik, Paket ve Ödeme Paneli
 
-Dosyalar:
+Ana dosyalar:
 
 - `data/membership_plans.json`
 - `membership-payment-panel.js`
+- `payment-gold-theme.js`
+- `payment-luxury-tiers.js`
 
-Paketler:
+Backend/API dosyaları:
 
-- Başlangıç: 149 TL / Ay
-- Pro Analiz: 299 TL / Ay
-- VIP Kupon: 499 TL / Ay
+- `api/_lib/plans.js`
+- `api/_lib/membership.js`
+- `api/me/start-trial.js`
+- `api/me/subscription.js`
+- `api/paytr/create-payment.js`
+- `api/paytr/callback.js`
 
-Planlanan ödeme akışı:
+Güncel paket isimleri:
 
-1. Kullanıcı hesap oluşturur.
-2. Paket seçer.
-3. PayTR veya iyzico ödeme sayfasına yönlenir.
-4. Ödeme başarılı olursa backend üyeliği aktif eder.
-5. Premium özel maç analiz paneli açılır.
+- `Gold Paket`
+- `Diamond Paket`
+- `Premium Paket`
 
-Kural:
+İç teknik id'ler korunur:
 
+- `starter` → Gold Paket
+- `pro` → Diamond Paket
+- `vip` → Premium Paket
+
+Güncel paket süreleri:
+
+- Gold Paket: `149 TL / 3 Gün`
+- Diamond Paket: `299 TL / 2 Hafta`
+- Premium Paket: `499 TL / 4 Hafta`
+
+Ücretsiz deneme kararı:
+
+- Her pakette `1 Gün Ücretsiz Deneme` vardır.
+- Deneme süresi bitince erişim kapanır.
+- Deneme bittikten sonra kullanıcı devam etmek için seçtiği paketi satın almalıdır.
+- Deneme her kullanıcı için tek seferlik olacak; gerçek kontrol backend/veritabanı ile yapılacak.
+
+Deneme/üyelik durumları:
+
+- `trial_active`
+- `trial_expired_payment_required`
+- `active`
+- `expired`
+- `none`
+
+Ödeme paneli tasarım kararları:
+
+- Ödeme kartları artık tek tip değildir.
+- Gold, Diamond ve Premium paketler ayrı karakterle görünür.
+- Gold: parlak altın giriş paketi.
+- Diamond: elmas/mavi parlak orta paket.
+- Premium: siyah-altın lüks en güçlü paket.
+- `1 GÜN ÜCRETSİZ DENEME` yazısı kart içinde büyük kampanya bandı olarak görünür.
+- Ücretsiz deneme alanında `🎁 1 GÜN ÜCRETSİZ DENEME` ve `HEMEN DENE` vurgusu kullanılır.
+- Deneme butonu ayrıca parlak kampanya butonu gibi vurgulanır.
+
+Ödeme akışı:
+
+1. Kullanıcı paket seçer.
+2. Ad Soyad, E-posta, Telefon girer.
+3. `1 Gün Ücretsiz Dene` veya `Kartla Satın Al` seçer.
+4. Deneme için `/api/me/start-trial` çağrılır.
+5. Kartlı ödeme için `/api/paytr/create-payment` çağrılır.
+6. PayTR ödeme ekranı açılır.
+7. PayTR sonucu `/api/paytr/callback` ile backend'e döner.
+8. Callback hash doğrulanır.
+9. Başarılıysa üyelik aktif edilir.
+10. PayTR'ye düz metin `OK` dönülür.
+
+Kritik kural:
+
+- GitHub Pages tek başına güvenli üyelik/ödeme backend'i değildir.
+- Gerçek ödeme sonrası üyelik açma için backend ve veritabanı gerekir.
 - Kart bilgisi sitede tutulmayacak.
-- Ödeme sağlayıcı alacak.
-- Backend ödeme onayını alacak.
-- Ücret PayTR/iyzico üzerinden işletme banka hesabına aktarılacak.
-- GitHub Pages tek başına güvenli üyelik/ödeme backend'i değildir; gerçek ödeme sonrası üyelik açma için backend gerekir.
-
-Son geliştirme:
-
-- `membership-payment-panel.js` içine Ad Soyad, E-posta, Telefon alanları eklendi.
-- Paket seçilip üye bilgileri doldurulunca ödeme isteği hazırlanır.
-- Kartla Ödemeye Geç butonu artık `/api/paytr/create-payment` endpointine gerçek istek atacak şekilde bağlandı.
-- Backend çalışır ve PayTR bilgileri doğru olursa kullanıcı PayTR güvenli ödeme ekranına yönlenecek.
-- Backend yoksa veya PayTR bilgileri eksikse kullanıcıya net hata gösterilecek.
+- PayTR merchant key/salt frontend dosyalarına yazılmayacak.
 
 ---
 
@@ -254,7 +320,7 @@ PayTR için planlanan süreç:
 
 PayTR başvuru açıklaması:
 
-`Futbol Laboratuvarı, futbol maçları için veri destekli analiz, kupon takibi, maç bülteni ve üyeye özel maç analiz paneli sunan dijital abonelik platformudur. Kullanıcılar aylık üyelik paketi satın alarak özel analiz paneline erişir.`
+`Futbol Laboratuvarı, futbol maçları için veri destekli analiz, kupon takibi, maç bülteni ve üyeye özel maç analiz paneli sunan dijital üyelik platformudur. Kullanıcılar paket satın alarak özel analiz paneline erişir.`
 
 Son karar:
 
@@ -265,11 +331,11 @@ Son karar:
 
 ## 11. Premium Ödeme Backend Planı
 
-Yeni ödeme planı dosyası:
+Ödeme planı dokümanı:
 
 - `docs/PREMIUM_ODEME_PLANI.md`
 
-Yeni backend taslak klasörü:
+Backend taslak klasörü:
 
 - `serverless/paytr/`
 
@@ -284,9 +350,11 @@ Canlı endpoint dosyaları:
 - `api/paytr/create-payment.js`
 - `api/paytr/callback.js`
 - `api/me/subscription.js`
+- `api/me/start-trial.js`
 - `api/_lib/plans.js`
 - `api/_lib/http.js`
 - `api/_lib/paytr.js`
+- `api/_lib/membership.js`
 
 Serverless/Vercel hazırlığı:
 
@@ -297,6 +365,7 @@ Planlanan backend endpointleri:
 
 - `POST /api/paytr/create-payment`
 - `POST /api/paytr/callback`
+- `POST /api/me/start-trial`
 - `GET /api/me/subscription`
 
 Gerekli ortam değişkenleri:
@@ -307,38 +376,187 @@ Gerekli ortam değişkenleri:
 - `PAYTR_TEST_MODE`
 - `SITE_BASE_URL`
 
-Ödeme mantığı:
+Canlı ödeme için hâlâ gerekenler:
 
-1. Frontend paket ve üye bilgilerini alır.
-2. Backend siparişi `pending` olarak oluşturur.
-3. Backend PayTR token/ödeme linki alır.
-4. Kullanıcı PayTR ödeme ekranına yönlenir.
-5. PayTR ödeme sonucunu callback endpointine gönderir.
-6. Backend hash doğrular.
-7. Başarılıysa sipariş `paid` olur ve üyelik aktif edilir.
-8. Başarısızsa sipariş `failed` olur.
-9. Backend PayTR'ye düz metin `OK` döner.
-
-Kritik güvenlik kuralları:
-
-- PayTR merchant key/salt frontend dosyalarına yazılmayacak.
-- Kart bilgisi sitede tutulmayacak.
-- Callback hash kontrolü zorunlu.
-- Aynı sipariş ikinci kez işlenmeyecek.
-- Üyelik sadece doğrulanmış callback sonrası açılacak.
-
-Durum:
-
-- Frontend ödeme formu hazır.
-- PayTR backend iskeleti hazır.
-- Kartla ödeme butonu endpoint çağırmaya hazır.
-- `create-payment` ve `callback` canlı API dosyaları repoda hazır.
-- Canlı ödeme için şahıs şirketi, PayTR üye işyeri, backend yayını ve veritabanı gerekir.
-- İlk teknik adaylar: Vercel Functions, Supabase Edge Functions, Netlify Functions veya küçük VPS.
+- Şahıs şirketi
+- PayTR üye işyeri onayı
+- Backend yayını
+- Veritabanı
+- Auth/session sistemi
+- PayTR callback URL ayarı
+- Yasal sayfalar
 
 ---
 
-## 12. GitHub / Site Çalışma Notları
+## 12. Yazı Stili Sistemi
+
+Dosya:
+
+- `site-typography-system.js`
+
+Karar verilen yazı stili dağılımı:
+
+### Premium Serif
+
+Kullanım yeri:
+
+- Ana marka başlıkları
+- Hero başlığı
+- Büyük bölüm başlıkları
+- Marka/Hakkımızda alanları
+
+Amaç:
+
+- Lüks, ciddi, marka odaklı görünüm.
+
+### Gold Payment
+
+Kullanım yeri:
+
+- Paket isimleri
+- Fiyatlar
+- Deneme/satın alma butonları
+- Ödeme kartları
+
+Amaç:
+
+- Dore/altın, parlak, satın alma odaklı görünüm.
+
+### Neon Sport
+
+Kullanım yeri:
+
+- Takım isimleri
+- Maç saatleri
+- Skorlar
+- Maç sonuçları
+- Canlı veri/maç satırları
+
+Amaç:
+
+- Canlı, hızlı, sportif, tech hissi.
+
+### Diamond Clean
+
+Kullanım yeri:
+
+- Güven yüzdesi
+- Risk
+- Oran
+- Veri ve istatistik kutuları
+- Kupon metrikleri
+
+Amaç:
+
+- Temiz, net, mavi/elmas veri dili.
+
+Kural:
+
+- Site tek renk gibi durmayacak.
+- Her alan kendi görevine göre yazı rengi, yazı stili ve vurgu dili alacak.
+- Takım isimlerinde özellikle `Neon Sport` kullanılacak.
+
+---
+
+## 13. Panel ve Widget Sistemi
+
+Dosya:
+
+- `panel-widget-system.js`
+
+Amaç:
+
+- Her panel tek tek sınıflandırılacak.
+- Her panelin widget yapısı kendi klasmanına göre tasarlanacak.
+- Yazı rengi, yazı stili ve vurgu dili panelin görevine uygun olacak.
+- Dinamik sonradan yüklenen widgetler tekrar taranıp aynı sisteme dahil edilecek.
+
+Panel sınıflandırması:
+
+### Premium Marka Paneli
+
+Kullanım:
+
+- Ana sayfa
+- Hero alanı
+- Hakkımızda
+- Galeri
+- Değerlendirme modülleri
+
+Stil:
+
+- Premium Serif
+- Altın/marka hissi
+
+### Gold Ödeme Widgeti
+
+Kullanım:
+
+- Üyelik & Ödeme
+- Gold / Diamond / Premium paketleri
+- Fiyatlar
+- Ücretsiz deneme
+- Satın alma butonları
+
+Stil:
+
+- Gold Payment
+- Dore/altın/parlak ödeme dili
+
+### Neon Maç Widgeti
+
+Kullanım:
+
+- Günlük Maç Bülteni
+- Bugünün maçları
+- Takım isimleri
+- Maç sonuçları
+- Skorlar
+- Spor Toto
+
+Stil:
+
+- Neon Sport
+- Canlı/spor/tech görünüm
+
+### Diamond Widget
+
+Kullanım:
+
+- Kupon Merkezi
+- Güven / Risk / Oran
+- Veri kutuları
+- Performans
+- Maç kayıtları
+- Maç yorumları
+
+Stil:
+
+- Diamond Clean
+- Mavi/elmas temiz veri dili
+
+### Premium Analiz Widgeti
+
+Kullanım:
+
+- Özel Maç Analizi paneli
+
+Stil:
+
+- Premium + Diamond
+- Başlıklar premium, veri satırları Diamond Clean
+
+Eklenen panel etiketleri:
+
+- `👑 Premium Marka Paneli`
+- `🏆 Gold Ödeme Widgeti`
+- `⚽ Neon Maç Widgeti`
+- `💎 Kupon Widget Merkezi`
+- `👑 Premium Analiz Widgeti`
+
+---
+
+## 14. GitHub / Site Çalışma Notları
 
 Repo erişimi:
 
@@ -370,12 +588,14 @@ Kullanıcı şu ifadeleri söylediğinde GitHub/repo inceleme komutu kabul edile
 - `github'da kontrol et`
 - `github üzerinden düzenle`
 - `commit/push yap`
+- `kayıt et`
+- `mega hafızaya işle`
 
 Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/futbol-laboratuvari` reposu kontrol edilecek. GitHub aracı yoksa kullanıcıya GitHub/Codex için net talimat verilecek.
 
 ---
 
-## 13. Son Yapılan Büyük İşler
+## 15. Son Yapılan Büyük İşler
 
 - Günlük maç bülteni lig bazlı tasarlandı.
 - Oran ve detay açılır panel eklendi.
@@ -390,13 +610,21 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 - Yeni sohbetlerde GitHub çağırma kelimeleri belirlendi.
 - Premium ödeme planı dokümanı eklendi.
 - PayTR backend iskeleti eklendi.
-- Üyelik ödeme formu geliştirildi.
 - Kartlı ödeme için Vercel/serverless API altyapısı eklendi.
-- Kartla Ödemeye Geç butonu PayTR create-payment endpointine bağlandı.
+- Kartla ödeme butonu PayTR create-payment endpointine bağlandı.
+- Paket süreleri güncellendi: Gold 3 gün, Diamond 2 hafta, Premium 4 hafta.
+- Her pakete 1 gün ücretsiz deneme eklendi.
+- Deneme bittikten sonra ödeme zorunlu olacak şekilde üyelik mantığı kuruldu.
+- Paket isimleri Gold / Diamond / Premium olarak düzenlendi.
+- Ödeme kartlarına dore/altın/parlak tasarım eklendi.
+- `1 Gün Ücretsiz Deneme` rozeti büyük kampanya bandına çevrildi.
+- Site yazı stili sistemi eklendi.
+- Panel/widget sınıflandırma sistemi eklendi.
+- Paneller kendi görevine göre renk, yazı stili ve widget etiketi almaya başladı.
 
 ---
 
-## 14. Sonraki Görevler
+## 16. Sonraki Görevler
 
 1. Şahıs şirketi açma sürecini tamamla.
 2. PayTR başvurusuna hazırlan.
@@ -415,10 +643,13 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 11. Robot bu istekleri okuyup özel analiz üretecek.
 12. Robot arşivi otomatik workflow içine bağlanacak.
 13. PayTR başvurusu öncesi sitedeki üyelik/ödeme alanı yasal metinlerle güçlendirilecek.
+14. Panel/widget sistemi site üzerinde gözle kontrol edilecek.
+15. Mobil görünümde Gold/Diamond/Premium kartlar ve maç widgetleri tekrar incelenecek.
+16. Beğenilmeyen panel etiketleri, renkleri veya yazı stilleri tek tek düzeltilecek.
 
 ---
 
-## 15. Hafıza Kullanım Kuralı
+## 17. Hafıza Kullanım Kuralı
 
 Bu dosya proje hafıza deposudur.
 
@@ -428,18 +659,19 @@ Otomatik sohbet sonu algılama garanti değildir; kullanıcı komut verdiğinde 
 
 ---
 
-## 16. Son Hafıza Kaydı
+## 18. Son Hafıza Kaydı
 
 Bu kayıt, `kayıt et` komutuyla güncellendi.
 
 Özet:
 
-- Kartla ödeme sistemi için çalıştırılabilir serverless altyapı dosyaları eklendi.
-- `package.json` ve `vercel.json` eklendi.
-- `api/_lib/plans.js`, `api/_lib/http.js`, `api/_lib/paytr.js` eklendi.
-- `api/paytr/create-payment.js` canlı ödeme başlatma endpointi eklendi.
-- `api/paytr/callback.js` PayTR bildirim/callback endpointi eklendi.
-- `api/me/subscription.js` üyelik durum API taslağı eklendi.
-- `membership-payment-panel.js` güncellendi ve `Kartla Ödemeye Geç` butonu `/api/paytr/create-payment` endpointine bağlandı.
-- PayTR bilgilerinin frontend'e yazılmayacağı, backend ortam değişkeni olarak tutulacağı kayıt altına alındı.
-- Canlı ödeme için hâlâ PayTR üye işyeri, şirket, backend yayını ve veritabanı gereklidir.
+- Paketler Gold / Diamond / Premium olarak güncellendi.
+- Paket süreleri Gold 3 gün, Diamond 2 hafta, Premium 4 hafta olarak kaydedildi.
+- Tüm paketlerde 1 gün ücretsiz deneme kararı kaydedildi.
+- Deneme bittikten sonra ödeme zorunlu olacak akış kaydedildi.
+- `api/me/start-trial.js`, `api/_lib/membership.js`, `api/me/subscription.js` deneme/üyelik akışı için kaydedildi.
+- `payment-gold-theme.js` ve `payment-luxury-tiers.js` ödeme kartlarının dore/altın/parlak tasarım dosyaları olarak kaydedildi.
+- `1 GÜN ÜCRETSİZ DENEME` alanının kampanya bandı ve `HEMEN DENE` etiketiyle öne çıkarıldığı kaydedildi.
+- `site-typography-system.js` ile Premium Serif, Gold Payment, Neon Sport ve Diamond Clean yazı sistemi kaydedildi.
+- `panel-widget-system.js` ile her panelin kendi klasmanına göre widget yapısı, yazı rengi ve yazı stili alacağı kaydedildi.
+- Canlı ödeme için hâlâ PayTR üye işyeri, şirket, backend yayını, veritabanı ve yasal sayfalar gerektiği tekrar kaydedildi.
