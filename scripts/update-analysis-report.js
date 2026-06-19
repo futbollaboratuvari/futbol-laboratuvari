@@ -32,29 +32,69 @@ const mdTable = (headers, rows) => {
   return [header, separator, ...body].join("\n");
 };
 
-const itemFromRecommendation = (row, type, index) => ({
-  id: `${type}-${index + 1}`,
-  type,
-  title: row.match,
-  match: row.match,
-  fixture: row.match,
-  selection: row.market,
-  option: row.market,
-  market: row.market,
-  prediction: row.market,
-  decision: row.market,
-  odds: row.odds || "-",
-  confidence: row.confidence || "-",
-  confidence_score: row.confidence || "-",
-  score: row.confidence || row.score || "-",
-  risk: row.risk || "Orta",
-  risk_level: row.risk || "Orta",
-  status: "takipte",
-  pro_signals: Array.isArray(row.signals) && row.signals.length ? row.signals : ["Oran verisi okundu", "Robot ön elemesi tamamlandı"],
-  commentary: "Maç programı ve oran verisi üzerinden otomatik ön analiz üretildi. Kesin sonuç garantisi vermez.",
-  source: "robot_analysis_report",
-  created_at: new Date().toISOString(),
+const normalizeLeg = (leg, index) => ({
+  number: leg.number || index + 1,
+  home: leg.home || "Ev sahibi",
+  away: leg.away || "Deplasman",
+  match: leg.match || `${leg.home || "Ev sahibi"} VS ${leg.away || "Deplasman"}`,
+  date: leg.date || "",
+  time: leg.time || "",
+  league: leg.league || "",
+  selection: leg.selection || leg.option || "-",
+  option: leg.option || leg.selection || "-",
+  odds: leg.odds || "-",
+  lab_probability: leg.lab_probability || leg.confidence || "-",
+  confidence: leg.confidence || leg.lab_probability || "-",
+  trust_score: leg.trust_score || "-",
+  risk: leg.risk || "Orta",
+  tag: leg.tag || "Değerli",
+  expected_scores: Array.isArray(leg.expected_scores) ? leg.expected_scores : [],
+  signals: Array.isArray(leg.signals) ? leg.signals : [],
 });
+
+const itemFromRecommendation = (row, type, index) => {
+  const legs = Array.isArray(row.legs) && row.legs.length ? row.legs.map(normalizeLeg) : [normalizeLeg({
+    match: row.match,
+    selection: row.market,
+    option: row.market,
+    odds: row.odds,
+    lab_probability: row.confidence,
+    confidence: row.confidence,
+    trust_score: row.score ? `${Math.round(Number(row.score) || 0)}/100` : row.confidence,
+    risk: row.risk,
+    tag: row.tag,
+    expected_scores: row.expected_scores,
+    signals: row.signals,
+  }, 0)];
+
+  return {
+    id: `${type}-${index + 1}`,
+    type,
+    title: row.match,
+    match: row.match,
+    fixture: row.match,
+    selection: row.market,
+    option: row.market,
+    market: row.market,
+    prediction: row.market,
+    decision: row.market,
+    odds: row.odds || "-",
+    total_odds: row.odds || "-",
+    confidence: row.confidence || "-",
+    confidence_score: row.confidence || "-",
+    score: row.confidence || row.score || "-",
+    risk: row.risk || "Orta",
+    risk_level: row.risk || "Orta",
+    tag: row.tag || "Değerli",
+    expected_scores: Array.isArray(row.expected_scores) ? row.expected_scores : [],
+    legs,
+    status: "takipte",
+    pro_signals: Array.isArray(row.signals) && row.signals.length ? row.signals : ["Oran verisi okundu", "Robot ön elemesi tamamlandı"],
+    commentary: "Maç programı ve oran verisi üzerinden otomatik ön analiz üretildi. Kesin sonuç garantisi vermez.",
+    source: "robot_analysis_report",
+    created_at: new Date().toISOString(),
+  };
+};
 
 const buildActiveItems = (analysis) => [
   ...analysis.singles.map((row, index) => itemFromRecommendation(row, "Tekli", index)),
@@ -85,7 +125,7 @@ const main = () => {
     fixture.status || "scheduled",
   ]);
 
-  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n- Not: Otomatik robot ön elemesidir; kesin sonuç garantisi vermez.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "Seçenek", "Oran", "Güven", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oran", "Oneri Skoru", "Risk"], analysis.singles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Oranlar", "Kupon Skoru", "Risk"], analysis.doubles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Oranlar", "Kupon Skoru", "Risk"], analysis.triples.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n`;
+  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n- Not: Otomatik robot ön elemesidir; kesin sonuç garantisi vermez.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "Seçenek", "Oran", "Güven", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Seçenek", "Oran", "Oneri Skoru", "Risk"], analysis.singles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Skoru", "Risk"], analysis.doubles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Skoru", "Risk"], analysis.triples.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n`;
 
   const scoredRawPool = {
     generated_at: generatedAt,
@@ -113,10 +153,12 @@ const main = () => {
           kg_yok: fixture.bttsNo ?? fixture.kgYok ?? null,
         },
         suggested_option: scored.selection,
-        suggested_market: scored.market,
         suggested_odds: scored.odds,
         confidence_score: scored.confidence,
+        trust_score: scored.trust_score,
         risk_level: scored.risk,
+        tag: scored.tag,
+        expected_scores: scored.expected_scores,
         signals: scored.pro_signals,
       };
     }),
