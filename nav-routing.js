@@ -43,6 +43,11 @@
   matchResultsScript.defer = true;
   document.body.appendChild(matchResultsScript);
 
+  const premiumAnalysisScript = document.createElement("script");
+  premiumAnalysisScript.src = "premium-analysis-panel.js";
+  premiumAnalysisScript.defer = true;
+  document.body.appendChild(premiumAnalysisScript);
+
   const couponDesignScript = document.createElement("script");
   couponDesignScript.src = "coupon-design.js";
   couponDesignScript.defer = true;
