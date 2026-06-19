@@ -16,6 +16,11 @@
   proGuardScript.defer = true;
   document.body.appendChild(proGuardScript);
 
+  const visitorLanguageScript = document.createElement("script");
+  visitorLanguageScript.src = "visitor-language.js";
+  visitorLanguageScript.defer = true;
+  document.body.appendChild(visitorLanguageScript);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
