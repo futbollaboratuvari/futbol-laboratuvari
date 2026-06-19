@@ -3,21 +3,21 @@
   const TAGGED = "data-fl-panel-widget";
 
   const panels = [
-    { selector: "#platform", type: "brand", label: "Premium Marka Paneli", icon: "👑" },
-    { selector: "#robot-analizleri", type: "diamond", label: "Kupon Widget Merkezi", icon: "💎" },
-    { selector: "#daily-matches-widget", type: "sport", label: "Neon Maç Widgeti", icon: "⚽" },
-    { selector: "#yaklasan-maclar", type: "sport", label: "Maç Listesi Paneli", icon: "⚽" },
-    { selector: "#membership-payment-panel", type: "gold", label: "Gold Ödeme Widgeti", icon: "🏆" },
-    { selector: "#premium-analysis-panel", type: "premium", label: "Premium Analiz Widgeti", icon: "👑" },
-    { selector: "#guclu-tahmin", type: "diamond", label: "Günün Seçimi Widgeti", icon: "💎" },
-    { selector: "#son-analizler", type: "diamond", label: "Maç Yorumu Widgeti", icon: "💎" },
-    { selector: "#analiz-veritabani", type: "diamond", label: "Maç Kayıt Widgeti", icon: "💎" },
-    { selector: "#sonuc-arsivi", type: "sport", label: "Sonuç Widgeti", icon: "🏁" },
-    { selector: "#basari-takip", type: "diamond", label: "Performans Widgeti", icon: "📊" },
-    { selector: "#spor-toto-performansi", type: "sport", label: "Spor Toto Widgeti", icon: "1X2" },
-    { selector: "#analiz-modulleri", type: "brand", label: "Değerlendirme Modülleri", icon: "🧠" },
-    { selector: "#kurucu", type: "brand", label: "Marka Paneli", icon: "FL" },
-    { selector: "#medya-galerisi", type: "brand", label: "Görsel Arşiv Widgeti", icon: "🖼️" },
+    { selector: "#platform", type: "brand", label: "Futbol Laboratuvarı", icon: "👑" },
+    { selector: "#robot-analizleri", type: "diamond", label: "Kupon Merkezi", icon: "💎" },
+    { selector: "#daily-matches-widget", type: "sport", label: "Canlı Maç Bülteni", icon: "⚽" },
+    { selector: "#yaklasan-maclar", type: "sport", label: "Bugünün Maçları", icon: "⚽" },
+    { selector: "#membership-payment-panel", type: "gold", label: "Üyelik Paketleri", icon: "🏆" },
+    { selector: "#premium-analysis-panel", type: "premium", label: "Özel Analiz Paneli", icon: "👑" },
+    { selector: "#guclu-tahmin", type: "diamond", label: "Günün Seçimi", icon: "💎" },
+    { selector: "#son-analizler", type: "diamond", label: "Maç Yorumları", icon: "💎" },
+    { selector: "#analiz-veritabani", type: "diamond", label: "Maç Kayıtları", icon: "💎" },
+    { selector: "#sonuc-arsivi", type: "sport", label: "Sonuçlar", icon: "🏁" },
+    { selector: "#basari-takip", type: "diamond", label: "Performans", icon: "📊" },
+    { selector: "#spor-toto-performansi", type: "sport", label: "Spor Toto", icon: "1X2" },
+    { selector: "#analiz-modulleri", type: "brand", label: "Değerlendirme Başlıkları", icon: "🧠" },
+    { selector: "#kurucu", type: "brand", label: "Hakkımızda", icon: "FL" },
+    { selector: "#medya-galerisi", type: "brand", label: "Görsel Arşiv", icon: "🖼️" },
   ];
 
   const injectStyle = () => {
