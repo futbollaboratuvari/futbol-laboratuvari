@@ -12,7 +12,7 @@ const PLANS = {
   },
   pro: {
     id: "pro",
-    name: "Platinum Paket",
+    name: "Diamond Paket",
     amountKurus: 29900,
     durationDays: 14,
     trialDays: 1,
@@ -23,7 +23,7 @@ const PLANS = {
   },
   vip: {
     id: "vip",
-    name: "Diamond Paket",
+    name: "Premium Paket",
     amountKurus: 49900,
     durationDays: 28,
     trialDays: 1,
