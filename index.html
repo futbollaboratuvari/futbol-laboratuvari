@@ -32,7 +32,9 @@
         <a href="#son-analizler">Son Analizler</a>
         <a href="#analiz-veritabani">Analiz Veritabanı</a>
         <a href="#sonuc-arsivi">Başarı Arşivi</a>
+        <a href="#robot-analizleri">Robot Analizleri</a>
         <a href="#analiz-modulleri">Modüller</a>
+        <a href="./admin.html">Admin Panel</a>
       </nav>
     </header>
 
@@ -277,6 +279,38 @@
         <div id="success-grid" class="success-grid"></div>
       </section>
 
+      <section class="section robot-live-section" id="robot-analizleri">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Robot Analizleri</p>
+          <h2>Futbol Laboratuvarı PRO 12.2 çıktıları</h2>
+          <p>Günün maçları, güven skorları ve kupon analizleri robot raporlarından statik olarak okunur.</p>
+        </div>
+        <div class="robot-live-status reveal">
+          <span>Aktif Veri Kaynağı: <strong data-active-source>Yükleniyor</strong></span>
+          <span>Maç Sayısı: <strong data-match-count>-</strong></span>
+          <span>Tahmin Sayısı: <strong data-prediction-count>-</strong></span>
+          <span>Durum: <strong data-load-status>Veriler okunuyor</strong></span>
+        </div>
+        <div class="robot-live-grid" data-home-matches>
+          <article class="robot-live-card">Veriler yükleniyor.</article>
+        </div>
+        <div class="robot-coupon-columns">
+          <div>
+            <h3>Tekli Kuponlar</h3>
+            <div class="robot-stack" data-coupons-single></div>
+          </div>
+          <div>
+            <h3>2'li Kuponlar</h3>
+            <div class="robot-stack" data-coupons-double></div>
+          </div>
+          <div>
+            <h3>3'lü Kuponlar</h3>
+            <div class="robot-stack" data-coupons-triple></div>
+          </div>
+        </div>
+        <p class="robot-disclaimer">Bu bir analizdir, bahis tavsiyesi değildir. Bahis oynama veya para işlemi içermez.</p>
+      </section>
+
       <section class="section modules-section" id="analiz-modulleri">
         <div class="section-heading reveal">
           <p class="eyebrow">Analiz Modülleri</p>
@@ -328,5 +362,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="robot-dashboard.js"></script>
   </body>
 </html>

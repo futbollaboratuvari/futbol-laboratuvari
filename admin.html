@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Futbol Laboratuvarı Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="Futbol Laboratuvarı">
+      <span class="brand-mark">FL</span>
+      <span>Futbol Laboratuvarı <small>Admin Panel</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Admin menü">
+      <a href="./index.html">Ana Site</a>
+      <a href="#maclar">Bugünün Maçları</a>
+      <a href="#kuponlar">Kupon Havuzu</a>
+      <a href="#raporlar">Raporlar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" id="genel-durum">
+      <div class="section-heading reveal visible">
+        <p class="eyebrow">Yerel demo admin paneli</p>
+        <h2>Futbol Laboratuvarı PRO 12.2</h2>
+        <p>Robot çıktıları, ham veri havuzu ve tahmin geçmişi statik JSON/Markdown dosyalarından okunur.</p>
+      </div>
+      <div class="robot-live-status">
+        <span>Aktif Veri Kaynağı: <strong data-active-source>Yükleniyor</strong></span>
+        <span>Ham Maç Havuzu: <strong data-raw-count>-</strong></span>
+        <span>Tahmin Geçmişi: <strong data-prediction-count>-</strong></span>
+        <span>Başarı Durumu: <strong data-success-state>-</strong></span>
+      </div>
+    </section>
+
+    <section class="section" id="maclar">
+      <div class="section-heading reveal visible">
+        <p class="eyebrow">Güncel Analiz</p>
+        <h2>Bugünün Maçları</h2>
+        <p>Kartlar robot raporundan üretilir.</p>
+      </div>
+      <div class="robot-live-grid" data-admin-matches>
+        <article class="robot-live-card">Veriler yükleniyor.</article>
+      </div>
+    </section>
+
+    <section class="section" id="kuponlar">
+      <div class="section-heading reveal visible">
+        <p class="eyebrow">Analiz Kuponları</p>
+        <h2>Kupon Havuzu</h2>
+        <p>Bu bir analizdir, bahis tavsiyesi değildir. Bahis oynama veya para işlemi içermez.</p>
+      </div>
+      <div class="robot-coupon-columns">
+        <div><h3>Tekli</h3><div class="robot-stack" data-coupons-single></div></div>
+        <div><h3>2'li</h3><div class="robot-stack" data-coupons-double></div></div>
+        <div><h3>3'lü</h3><div class="robot-stack" data-coupons-triple></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="veri">
+      <div class="section-heading reveal visible">
+        <p class="eyebrow">Veri İzleme</p>
+        <h2>Ham Veri Havuzu ve Tahmin Geçmişi</h2>
+      </div>
+      <div class="robot-admin-tables">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Maç</th><th>Lig</th><th>Tarih</th><th>Kaynak</th></tr></thead>
+            <tbody data-raw-table><tr><td colspan="4">Veriler yükleniyor.</td></tr></tbody>
+          </table>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Maç</th><th>Market</th><th>Güven</th><th>Durum</th></tr></thead>
+            <tbody data-prediction-table><tr><td colspan="4">Veriler yükleniyor.</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="raporlar">
+      <div class="section-heading reveal visible">
+        <p class="eyebrow">Raporlar</p>
+        <h2>API / Veri Kaynağı Durumu</h2>
+      </div>
+      <div class="robot-live-grid" data-report-status></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Yerel demo admin paneli</span>
+    <span>Bahis, ödeme veya üyelik işlemi içermez.</span>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script src="./robot-dashboard.js"></script>
+</body>
+</html>

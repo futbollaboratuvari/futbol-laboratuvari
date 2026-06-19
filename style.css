@@ -1425,3 +1425,160 @@ th {
     font-size: 30px;
   }
 }
+/* Robot analizleri ve yerel demo admin paneli */
+.robot-live-status {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0;
+}
+
+.robot-live-status span,
+.robot-live-card,
+.robot-stack article,
+.robot-admin-tables article,
+.robot-disclaimer {
+  border: 1px solid rgba(161, 255, 197, 0.18);
+  background: rgba(5, 21, 14, 0.72);
+  border-radius: 14px;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.24);
+}
+
+.robot-live-status span {
+  display: block;
+  padding: 14px;
+  color: rgba(235, 255, 241, 0.78);
+  font-size: 0.92rem;
+}
+
+.robot-live-status strong {
+  display: block;
+  margin-top: 6px;
+  color: #f5fff7;
+}
+
+.robot-live-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.robot-live-card,
+.robot-stack article {
+  padding: 18px;
+}
+
+.robot-live-card h3,
+.robot-stack h4,
+.robot-admin-tables h3 {
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.robot-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(235, 255, 241, 0.78);
+}
+
+.robot-row:first-of-type {
+  border-top: 0;
+}
+
+.robot-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  margin: 2px 6px 8px 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(65, 226, 126, 0.12);
+  color: #b9ffce;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.risk-yuksek,
+.risk-high {
+  background: rgba(255, 107, 107, 0.16);
+  color: #ffd0d0;
+}
+
+.risk-medium,
+.risk-orta {
+  background: rgba(255, 212, 121, 0.16);
+  color: #ffe3a7;
+}
+
+.risk-low,
+.risk-dusuk {
+  background: rgba(65, 226, 126, 0.16);
+  color: #b9ffce;
+}
+
+.risk-cok_yuksek,
+.risk-very_high {
+  background: rgba(255, 74, 74, 0.22);
+  color: #ffb3b3;
+}
+
+.robot-coupon-columns,
+.robot-admin-tables {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.robot-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.robot-disclaimer {
+  margin-top: 22px;
+  padding: 14px 16px;
+  color: rgba(235, 255, 241, 0.78);
+}
+
+.admin-page .hero {
+  min-height: auto;
+  padding-top: 120px;
+}
+
+.data-table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: rgba(235, 255, 241, 0.82);
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: left;
+}
+
+.data-table th {
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .robot-live-status,
+  .robot-live-grid,
+  .robot-coupon-columns,
+  .robot-admin-tables {
+    grid-template-columns: 1fr;
+  }
+}
