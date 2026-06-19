@@ -7,15 +7,18 @@ import json
 import os
 import shutil
 import subprocess
+from datetime import datetime, timezone
 from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE_REPO = Path.home() / "Documents" / "GitHub" / "futbol-laboratuvari"
 DEFAULT_COMMIT_MESSAGE = "Gunluk robot verileri web sitesine aktarildi"
+ANALYSIS_FILE = "analiz_sonuclari.json"
 
 SYNC_FILES = [
     ("data", "canli-veri.json"),
+    ("data", ANALYSIS_FILE),
     ("data", "ham_mac_havuzu.json"),
     ("data", "tahmin_gecmisi.json"),
     ("outputs", "bugunun_en_guclu_maclari.md"),
@@ -71,6 +74,16 @@ def split_match(match: str) -> tuple[str, str]:
     return match.strip(), ""
 
 
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def is_demo_report(markdown: str) -> bool:
+    """Demo raporlar web sitesinde kupon olarak gosterilmez."""
+    text = markdown.lower()
+    return "calisma_modu: demo" in text or "demo modda" in text
+
+
 def build_live_rows() -> list[dict[str, str]]:
     """Robot raporundan web sitesinin okuyacagi canli veri satirlarini uret."""
     report_path = PROJECT_ROOT / "outputs" / "bugunun_en_guclu_maclari.md"
@@ -78,8 +91,10 @@ def build_live_rows() -> list[dict[str, str]]:
         return []
 
     markdown = report_path.read_text(encoding="utf-8", errors="ignore")
-    rows = markdown_table(markdown, "Skorlanan Maclar")
+    if is_demo_report(markdown):
+        return []
 
+    rows = markdown_table(markdown, "Skorlanan Maclar")
     live_rows: list[dict[str, str]] = []
     for row in rows:
         match = row.get("Mac", "")
@@ -108,11 +123,89 @@ def build_live_rows() -> list[dict[str, str]]:
     return live_rows
 
 
+def coupon_item(row: dict[str, str], item_type: str, index: int) -> dict[str, object]:
+    """Markdown kupon satirini web sitesinin okuyacagi analiz objesine cevir."""
+    match = row.get("Mac") or row.get("Maclar") or ""
+    market = row.get("Market") or row.get("Marketler") or ""
+    score = row.get("Oneri Skoru") or row.get("Kupon Skoru") or row.get("Guc") or ""
+    confidence = row.get("Confidence") or score
+    risk = row.get("Risk") or ""
+    signals = []
+    for label, key in [
+        ("Güç", "Guc"),
+        ("KG Var", "KG Var"),
+        ("Üst 2.5", "Ust 2.5"),
+        ("Skor", "Oneri Skoru"),
+        ("Kupon Skoru", "Kupon Skoru"),
+    ]:
+        value = row.get(key)
+        if value:
+            signals.append(f"{label}: {value}")
+
+    return {
+        "id": f"{item_type}-{index}",
+        "type": item_type,
+        "match": match,
+        "market": market,
+        "prediction": market,
+        "selection": market,
+        "confidence_score": confidence,
+        "score": score,
+        "risk_level": risk,
+        "risk": risk,
+        "odds": row.get("Oran", "-"),
+        "status": "takipte",
+        "pro_signals": signals or ["Robot canlı veri raporu"],
+        "commentary": "Günün maç listesi ve robot skorlaması üzerinden oluşturuldu.",
+        "source": "robot_live_report",
+    }
+
+
+def build_analysis_history() -> dict[str, object]:
+    """Robotun canlı kupon raporunu site veri formatina cevir."""
+    report_path = PROJECT_ROOT / "outputs" / "bugunun_en_guclu_maclari.md"
+    result: dict[str, object] = {
+        "generated_at": now_iso(),
+        "timezone": "Europe/Istanbul",
+        "source": "Robot canlı analiz bekleniyor",
+        "active_items": [],
+        "completed_items": [],
+    }
+
+    if not report_path.exists():
+        return result
+
+    markdown = report_path.read_text(encoding="utf-8", errors="ignore")
+    if is_demo_report(markdown):
+        result["source"] = "Demo rapor site kuponuna aktarılmadı"
+        return result
+
+    items: list[dict[str, object]] = []
+    for index, row in enumerate(markdown_table(markdown, "Tek Mac Onerileri"), start=1):
+        items.append(coupon_item(row, "Tekli", index))
+    for index, row in enumerate(markdown_table(markdown, "2'li Kupon Onerileri"), start=1):
+        items.append(coupon_item(row, "2'li", index))
+    for index, row in enumerate(markdown_table(markdown, "3'lu Kupon Onerileri"), start=1):
+        items.append(coupon_item(row, "3'lü", index))
+
+    result["source"] = "Robot canlı kupon raporu"
+    result["active_items"] = items
+    return result
+
+
 def write_live_data() -> Path:
     """data/canli-veri.json dosyasini robot raporundan yeniden uret."""
     target = PROJECT_ROOT / "data" / "canli-veri.json"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(build_live_rows(), ensure_ascii=False, indent=2), encoding="utf-8")
+    return target
+
+
+def write_analysis_data() -> Path:
+    """data/analiz_sonuclari.json dosyasini robot kupon raporundan yeniden uret."""
+    target = PROJECT_ROOT / "data" / ANALYSIS_FILE
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(build_analysis_history(), ensure_ascii=False, indent=2), encoding="utf-8")
     return target
 
 
@@ -192,6 +285,7 @@ def sync_robot_outputs(site_repo: Path | None = None, push: bool = False, commit
     }
 
     write_live_data()
+    write_analysis_data()
 
     if not target_repo.exists():
         result["errors"].append(f"Web site repo klasoru bulunamadi: {target_repo}")
