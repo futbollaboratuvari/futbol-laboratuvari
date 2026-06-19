@@ -1,0 +1,86 @@
+/* Profesyonel sınıflandırılmış üst menü tasarımı */
+.nav-links.nav-classified {
+  align-items: stretch;
+  gap: 10px;
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid rgba(216, 178, 87, 0.16);
+  border-radius: 999px;
+  background: rgba(3, 8, 23, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.nav-group-label {
+  padding: 0 6px 0 8px;
+  color: #f7df9a;
+  font-size: 10px;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.nav-links.nav-classified a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+}
+
+.nav-links.nav-classified a.nav-primary {
+  border-color: rgba(57, 255, 136, 0.34);
+  background: linear-gradient(135deg, rgba(57, 255, 136, 0.18), rgba(10, 47, 99, 0.22));
+  color: #ffffff;
+}
+
+.nav-links.nav-classified a.nav-admin {
+  border-color: rgba(216, 178, 87, 0.35);
+  color: #f7df9a;
+}
+
+@media (max-width: 1180px) {
+  .nav-links.nav-classified {
+    gap: 7px;
+    font-size: 12px;
+  }
+
+  .nav-group {
+    gap: 4px;
+    padding: 5px;
+  }
+
+  .nav-group-label {
+    display: none;
+  }
+}
+
+@media (max-width: 860px) {
+  .nav-links.nav-classified {
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .nav-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 7px;
+    padding: 10px;
+    border-radius: 18px;
+    background: rgba(3, 8, 23, 0.72);
+  }
+
+  .nav-group-label {
+    display: block;
+    padding: 2px 4px 4px;
+  }
+
+  .nav-links.nav-classified a {
+    justify-content: flex-start;
+    min-height: 42px;
+  }
+}
