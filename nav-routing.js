@@ -43,6 +43,11 @@
   matchResultsScript.defer = true;
   document.body.appendChild(matchResultsScript);
 
+  const membershipPaymentScript = document.createElement("script");
+  membershipPaymentScript.src = "membership-payment-panel.js";
+  membershipPaymentScript.defer = true;
+  document.body.appendChild(membershipPaymentScript);
+
   const premiumAnalysisScript = document.createElement("script");
   premiumAnalysisScript.src = "premium-analysis-panel.js";
   premiumAnalysisScript.defer = true;
