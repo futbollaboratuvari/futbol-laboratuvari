@@ -13,8 +13,22 @@
     ["PRO robot analizi", "Güncel analiz"],
     ["PRO analiz bekleniyor", "Analiz bekleniyor"],
     ["PRO Robot", "Seçili Maç"],
+    ["Robot analiz isteği hazır", "Analiz isteği hazır"],
+    ["Robot arşiv kontrolü", "Arşiv kontrolü"],
+    ["robot", "sistem"],
+    ["Robot", "Sistem"],
+    ["Market performansı", "Seçenek performansı"],
+    ["Önerilen market", "Öne çıkan seçim"],
+    ["önerilen market", "öne çıkan seçim"],
     ["Market", "Seçenek"],
     ["market", "seçenek"],
+    ["Widget", "Panel"],
+    ["widget", "panel"],
+    ["Örnek veri", "Hazırlık alanı"],
+    ["örnek veri", "hazırlık alanı"],
+    ["Demo", "Hazırlık"],
+    ["demo", "hazırlık"],
+    ["Beta erişim kodu", "Erişim kodu"],
   ]);
 
   const cleanTextNode = (node) => {
@@ -40,5 +54,6 @@
     setTimeout(run, 800);
     setTimeout(run, 1800);
     setTimeout(run, 3500);
+    setInterval(run, 6000);
   });
 })();
