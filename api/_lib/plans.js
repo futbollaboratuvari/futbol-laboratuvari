@@ -1,7 +1,7 @@
 const PLANS = {
   starter: {
     id: "starter",
-    name: "Başlangıç",
+    name: "Gold Paket",
     amountKurus: 14900,
     durationDays: 3,
     trialDays: 1,
@@ -12,7 +12,7 @@ const PLANS = {
   },
   pro: {
     id: "pro",
-    name: "Pro Analiz",
+    name: "Platinum Paket",
     amountKurus: 29900,
     durationDays: 14,
     trialDays: 1,
@@ -23,7 +23,7 @@ const PLANS = {
   },
   vip: {
     id: "vip",
-    name: "VIP Kupon",
+    name: "Diamond Paket",
     amountKurus: 49900,
     durationDays: 28,
     trialDays: 1,
