@@ -21,6 +21,7 @@ const readJson = (filePath, fallback) => {
 };
 
 const writeJson = (filePath, value) => {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 };
 
@@ -31,88 +32,92 @@ const mdTable = (headers, rows) => {
   return [header, separator, ...body].join("\n");
 };
 
-const resultStatus = (items) => {
-  if (!items || !items.length) return "takipte";
-  if (items.some((item) => item.result === "lost")) return "kaybetti";
-  if (items.every((item) => item.result === "won")) return "kazandı";
-  return "takipte";
-};
+const itemFromRecommendation = (row, type, index) => ({
+  id: `${type}-${index + 1}`,
+  type,
+  title: row.match,
+  match: row.match,
+  fixture: row.match,
+  selection: row.market,
+  option: row.market,
+  market: row.market,
+  prediction: row.market,
+  decision: row.market,
+  odds: row.odds || "-",
+  confidence: row.confidence || "-",
+  confidence_score: row.confidence || "-",
+  score: row.confidence || row.score || "-",
+  risk: row.risk || "Orta",
+  risk_level: row.risk || "Orta",
+  status: "takipte",
+  pro_signals: Array.isArray(row.signals) && row.signals.length ? row.signals : ["Oran verisi okundu", "Robot ön elemesi tamamlandı"],
+  commentary: "Maç programı ve oran verisi üzerinden otomatik ön analiz üretildi. Kesin sonuç garantisi vermez.",
+  source: "robot_analysis_report",
+  created_at: new Date().toISOString(),
+});
 
-const buildActiveItems = (analysis) => {
-  const single = analysis.singles.map((row, index) => ({
-    id: `single-${index + 1}`,
-    type: "Tekli",
-    title: row[0],
-    market: row[1],
-    score: row[2],
-    risk: row[3],
-    status: "takipte",
-    created_at: new Date().toISOString(),
-  }));
-  const double = analysis.doubles.map((row, index) => ({
-    id: `double-${index + 1}`,
-    type: "2'li",
-    title: row[0],
-    market: row[1],
-    score: row[2],
-    risk: row[3],
-    status: "takipte",
-    created_at: new Date().toISOString(),
-  }));
-  const triple = analysis.triples.map((row, index) => ({
-    id: `triple-${index + 1}`,
-    type: "3'lü",
-    title: row[0],
-    market: row[1],
-    score: row[2],
-    risk: row[3],
-    status: "takipte",
-    created_at: new Date().toISOString(),
-  }));
-  return [...single, ...double, ...triple];
-};
+const buildActiveItems = (analysis) => [
+  ...analysis.singles.map((row, index) => itemFromRecommendation(row, "Tekli", index)),
+  ...analysis.doubles.map((row, index) => itemFromRecommendation(row, "2'li", index)),
+  ...analysis.triples.map((row, index) => itemFromRecommendation(row, "3'lü", index)),
+];
 
 const main = () => {
   fs.mkdirSync(outputDir, { recursive: true });
+  fs.mkdirSync(dataDir, { recursive: true });
+
   const fixtures = readJson(fixturesPath, []);
   const previous = readJson(historyPath, { active_items: [], completed_items: [] });
   const analysis = buildCouponAnalysis(fixtures);
   const generatedAt = new Date().toISOString();
   const source = fixtures[0]?.source || "Maçkolik İddaa Programı";
+  const activeItems = buildActiveItems(analysis);
+  const completedItems = Array.isArray(previous.completed_items) ? previous.completed_items : [];
 
-  const matchRows = analysis.ranked.map((fixture) => [
+  const matchRows = analysis.scored.map((fixture) => [
     fixture.match,
-    fixture.league,
-    fixture.time,
+    fixture.league || fixture.competition_name || "-",
+    fixture.time || "-",
     fixture.market,
+    fixture.odds || "-",
     fixture.confidence,
     fixture.risk,
     fixture.status || "scheduled",
   ]);
 
-  const activeItems = buildActiveItems(analysis);
-  const completedItems = Array.isArray(previous.completed_items) ? previous.completed_items : [];
-
-  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n- Not: Otomatik robot ön elemesidir; kesin sonuç garantisi vermez.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Guc Skoru", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], analysis.singles)}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], analysis.doubles)}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], analysis.triples)}\n`;
+  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n- Not: Otomatik robot ön elemesidir; kesin sonuç garantisi vermez.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "Seçenek", "Oran", "Güven", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oran", "Oneri Skoru", "Risk"], analysis.singles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Oranlar", "Kupon Skoru", "Risk"], analysis.doubles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Oranlar", "Kupon Skoru", "Risk"], analysis.triples.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n`;
 
   const scoredRawPool = {
     generated_at: generatedAt,
     timezone: "Europe/Istanbul",
     source,
     match_count: fixtures.length,
-    matches: fixtures.map((fixture, index) => {
+    analysis_count: activeItems.length,
+    matches: analysis.scored.map((fixture, index) => {
       const scored = scoreFixture(fixture, index);
       return {
-        home_team_name: fixture.home,
-        away_team_name: fixture.away,
-        competition_name: fixture.league,
+        home_team_name: fixture.home || fixture.home_team_name,
+        away_team_name: fixture.away || fixture.away_team_name,
+        competition_name: fixture.league || fixture.competition_name,
         date: fixture.date,
         time: fixture.time,
         status: fixture.status,
         source: fixture.source || source,
+        odds: {
+          ms_1: fixture.oneOdd ?? fixture.one ?? fixture.ms1 ?? null,
+          ms_x: fixture.drawOdd ?? fixture.draw ?? fixture.msx ?? null,
+          ms_2: fixture.twoOdd ?? fixture.two ?? fixture.ms2 ?? null,
+          alt_25: fixture.under25 ?? fixture.alt25 ?? fixture.under ?? null,
+          ust_25: fixture.over25 ?? fixture.ust25 ?? fixture.over ?? null,
+          kg_var: fixture.bttsYes ?? fixture.kgVar ?? null,
+          kg_yok: fixture.bttsNo ?? fixture.kgYok ?? null,
+        },
+        suggested_option: scored.selection,
         suggested_market: scored.market,
+        suggested_odds: scored.odds,
         confidence_score: scored.confidence,
         risk_level: scored.risk,
+        signals: scored.pro_signals,
       };
     }),
   };
@@ -120,7 +125,7 @@ const main = () => {
   const history = {
     generated_at: generatedAt,
     timezone: "Europe/Istanbul",
-    source: "Robot analiz geçmişi",
+    source: activeItems.length ? "Robot analiz geçmişi" : "Oranlı analiz bekleniyor",
     active_items: activeItems,
     completed_items: completedItems,
   };
