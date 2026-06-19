@@ -65,6 +65,7 @@
   ensureScript("live-control-center.js", "live-control-center-script");
   ensureScript("section-order.js", "section-order-script");
   ensureScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
+  ensureScript("spor-toto-v3-fix.js", "spor-toto-v3-fix-script");
 
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
