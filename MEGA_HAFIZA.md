@@ -14,6 +14,7 @@ Amaç: Sohbetlerde alınan kararlar, yapılan site/robot değişiklikleri, ödem
 - GitHub Pages site: `https://futbollaboratuvari.github.io/futbol-laboratuvari/`
 - Çalışma prensibi: Eski, sabit veya uydurma veri gösterilmez.
 - Linkler GitHub Pages uyumlu ve relative kalacak.
+- Repo, proje hafıza deposu olarak da kullanılacak.
 
 ---
 
@@ -194,6 +195,7 @@ Mevcut durum:
 
 - Frontend beta panel hazır.
 - Gerçek üyelik, ödeme ve analiz kuyruğu için backend gerekir.
+- Bu panel projenin ana kilit taşıdır: ödeme yapan kullanıcı özel maç seçip seçeneğe göre robot analizi isteyecek.
 
 ---
 
@@ -224,6 +226,7 @@ Kural:
 - Ödeme sağlayıcı alacak.
 - Backend ödeme onayını alacak.
 - Ücret PayTR/iyzico üzerinden işletme banka hesabına aktarılacak.
+- GitHub Pages tek başına güvenli üyelik/ödeme backend'i değildir; gerçek ödeme sonrası üyelik açma için backend gerekir.
 
 ---
 
@@ -245,6 +248,11 @@ PayTR başvuru açıklaması:
 
 `Futbol Laboratuvarı, futbol maçları için veri destekli analiz, kupon takibi, maç bülteni ve üyeye özel maç analiz paneli sunan dijital abonelik platformudur. Kullanıcılar aylık üyelik paketi satın alarak özel analiz paneline erişir.`
 
+Son karar:
+
+- Şahıs şirketi açma süreci ayrı sohbette takip edilecek.
+- PayTR başvurusu için şirket, banka hesabı, yasal metinler ve site açıklaması hazırlanacak.
+
 ---
 
 ## 11. GitHub / Site Çalışma Notları
@@ -265,6 +273,10 @@ Kurallar:
 - GitHub Pages relative link uyumu korunur.
 - Fake veri, eski sabit veri ve uydurma başarı oranı gösterilmez.
 
+Yeni sohbetlerde GitHub erişimi için kullanılacak ifade:
+
+`GitHub hesabım bağlı. Futbol Laboratuvarı web sitesi repo adresim: futbollaboratuvari/futbol-laboratuvari. Bu repoya erişip dosyaları incele, gerekli düzenlemeleri yap, commit/push işlemlerini mümkünse GitHub üzerinden uygula.`
+
 ---
 
 ## 12. Son Yapılan Büyük İşler
@@ -278,6 +290,7 @@ Kurallar:
 - Premium özel maç analiz paneli eklendi.
 - Üyelik ve ödeme paneli eklendi.
 - PayTR/şahıs şirketi süreci için karar verildi.
+- `MEGA_HAFIZA.md` proje hafıza deposu olarak oluşturuldu.
 
 ---
 
@@ -295,6 +308,7 @@ Kurallar:
 6. Özel maç analiz isteklerini backend kuyruğuna gönder.
 7. Robotun bu istekleri okuyup özel analiz üretmesini sağla.
 8. Robot arşivini otomatik workflow içine bağla.
+9. PayTR başvurusu öncesi sitedeki üyelik/ödeme alanını yasal metinlerle güçlendir.
 
 ---
 
@@ -305,3 +319,17 @@ Bu dosya proje hafıza deposudur.
 Sohbet sonunda kullanıcı `hafızaya kaydet`, `mega hafızaya işle`, `hafıza deposunu güncelle` veya benzer bir komut verdiğinde bu dosya güncellenecek.
 
 Otomatik sohbet sonu algılama garanti değildir; kullanıcı komut verdiğinde güncelleme yapılır.
+
+---
+
+## 15. Son Hafıza Kaydı
+
+Bu kayıt, `hafızaya kaydet` komutuyla güncellendi.
+
+Özet:
+
+- Kullanıcı, repo içinde kalıcı hafıza deposu istedi.
+- `MEGA_HAFIZA.md` dosyası oluşturuldu ve proje hafıza deposu olarak belirlendi.
+- Bu dosya sohbetlerde alınan kararların, commitlerin, site/robot akışlarının ve ödeme/üyelik planlarının kayıt yeri olacak.
+- Kullanıcı `hafızaya kaydet` veya benzer komut verdiğinde bu dosya güncellenecek.
+- Son odak: Şahıs şirketi açma süreci, PayTR başvurusu, üyelik/ödeme backend altyapısı ve premium özel maç analiz panelini gerçek ödeme sistemiyle bağlama.
