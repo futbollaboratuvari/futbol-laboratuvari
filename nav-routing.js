@@ -11,6 +11,11 @@
   couponCommentsScript.defer = true;
   document.body.appendChild(couponCommentsScript);
 
+  const proGuardScript = document.createElement("script");
+  proGuardScript.src = "pro-analysis-guard.js";
+  proGuardScript.defer = true;
+  document.body.appendChild(proGuardScript);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
