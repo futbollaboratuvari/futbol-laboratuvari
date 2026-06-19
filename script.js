@@ -87,6 +87,123 @@ const renderFixtures = () => {
     .join("");
 };
 
+const scoreFixtureForCoupon = (fixture, index = 0) => {
+  const league = `${fixture.league || ""}`.toLowerCase();
+  const teams = `${fixture.home || ""} ${fixture.away || ""}`.toLowerCase();
+  const hour = Number(String(fixture.time || "00:00").slice(0, 2)) || 0;
+  let score = 58;
+  let market = "1X / Çifte Şans";
+  let risk = "Orta";
+
+  if (/irlanda|norveç|isveç|finlandiya|izlanda|danimarka|hollanda|belçika|hazırlık|kupa/i.test(league)) {
+    score += 10;
+    market = "2.5 Üst Adayı";
+  }
+  if (/premier|şampiyonluk|kupası|dünya|grup/i.test(league)) {
+    score += 5;
+    market = market === "1X / Çifte Şans" ? "KG Var Adayı" : market;
+  }
+  if (/ii|u19|u20|u21|youth|rezerv/i.test(teams)) {
+    score += 4;
+    market = "KG Var Adayı";
+    risk = "Yüksek";
+  }
+  if (hour >= 20 && hour <= 23) score += 3;
+  score += Math.max(0, 4 - (index % 5));
+  score = Math.min(score, 78);
+  if (score < 65) risk = "Yüksek";
+
+  return { ...fixture, match: `${fixture.home} - ${fixture.away}`, market, score, confidence: `${score}%`, risk };
+};
+
+const couponCard = (title, market, score, risk, status = "takipte") => `
+  <article class="robot-live-card">
+    <h3>${escapeHtml(title)}</h3>
+    <div class="robot-row"><span>Market</span><strong>${escapeHtml(market)}</strong></div>
+    <div class="robot-row"><span>Robot güveni</span><strong>${escapeHtml(score)}</strong></div>
+    <div class="robot-row"><span>Risk</span><strong>${escapeHtml(risk)}</strong></div>
+    <div class="robot-row"><span>Durum</span><strong>${escapeHtml(status)}</strong></div>
+    <p class="robot-note">Otomatik analizdir; kesin sonuç garantisi vermez.</p>
+  </article>
+`;
+
+const renderCouponCenterFromFixtures = () => {
+  const today = fixtureDateMap().today;
+  const rows = fixtures
+    .filter((fixture) => fixture.date === today)
+    .map(scoreFixtureForCoupon)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 9);
+
+  const singleBox = document.querySelector("[data-coupons-single]");
+  const doubleBox = document.querySelector("[data-coupons-double]");
+  const tripleBox = document.querySelector("[data-coupons-triple]");
+  if (!singleBox || !doubleBox || !tripleBox) return;
+
+  singleBox.innerHTML = rows.length
+    ? rows.slice(0, 6).map((item) => couponCard(item.match, item.market, item.confidence, item.risk)).join("")
+    : `<article class="robot-live-card">Tekli analiz bekleniyor.</article>`;
+
+  const pairs = [];
+  for (let index = 0; index + 1 < rows.length && pairs.length < 3; index += 2) {
+    const pair = [rows[index], rows[index + 1]];
+    const avg = Math.round(pair.reduce((sum, item) => sum + item.score, 0) / pair.length);
+    pairs.push(couponCard(pair.map((item) => item.match).join(" + "), pair.map((item) => item.market).join(" + "), `${avg}%`, pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta"));
+  }
+  doubleBox.innerHTML = pairs.length ? pairs.join("") : `<article class="robot-live-card">2'li analiz bekleniyor.</article>`;
+
+  const triples = [];
+  for (let index = 0; index + 2 < rows.length && triples.length < 2; index += 3) {
+    const trio = [rows[index], rows[index + 1], rows[index + 2]];
+    const avg = Math.round(trio.reduce((sum, item) => sum + item.score, 0) / trio.length);
+    triples.push(couponCard(trio.map((item) => item.match).join(" + "), trio.map((item) => item.market).join(" + "), `${avg}%`, "Yüksek"));
+  }
+  tripleBox.innerHTML = triples.length ? triples.join("") : `<article class="robot-live-card">3'lü analiz bekleniyor.</article>`;
+
+  const todayCount = document.querySelector("#today-count");
+  const avgConfidence = document.querySelector("#avg-confidence");
+  const topMarket = document.querySelector("#top-market");
+  const avg = rows.length ? Math.round(rows.reduce((sum, item) => sum + item.score, 0) / rows.length) : 0;
+  if (todayCount) todayCount.textContent = String(rows.length);
+  if (avgConfidence) avgConfidence.textContent = rows.length ? `${avg}%` : "-";
+  if (topMarket) topMarket.textContent = rows[0]?.market || "-";
+};
+
+const ensureCompletedCouponArea = () => {
+  const hub = document.querySelector("#robot-analizleri");
+  if (!hub || document.querySelector("[data-completed-coupons]")) return;
+  const panel = document.createElement("div");
+  panel.className = "robot-stack reveal visible";
+  panel.innerHTML = `
+    <div class="section-heading">
+      <p class="eyebrow">Tamamlanan Analizler</p>
+      <h2>Kazandı / Kaybetti Takibi</h2>
+      <p>Sonuç verisi geldiğinde tamamlanan analizler burada ayrı listelenir.</p>
+    </div>
+    <div class="robot-stack" data-completed-coupons>
+      <article class="robot-live-card">Tamamlanan analiz bekleniyor.</article>
+    </div>
+  `;
+  hub.insertBefore(panel, hub.querySelector(".robot-disclaimer"));
+};
+
+const loadCompletedCouponArea = async () => {
+  ensureCompletedCouponArea();
+  const target = document.querySelector("[data-completed-coupons]");
+  if (!target) return;
+  try {
+    const response = await fetch("./data/analiz_sonuclari.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("sonuç dosyası bekleniyor");
+    const data = await response.json();
+    const completed = Array.isArray(data.completed_items) ? data.completed_items : [];
+    target.innerHTML = completed.length
+      ? completed.map((item) => couponCard(item.title || item.match || "Analiz", item.market || "-", item.score || "-", item.risk || "-", item.status || "sonuçlandı")).join("")
+      : `<article class="robot-live-card">Tamamlanan analiz bekleniyor. Maç sonuçları geldikçe kazandı/kaybetti burada görünecek.</article>`;
+  } catch (error) {
+    target.innerHTML = `<article class="robot-live-card">Tamamlanan analiz bekleniyor.</article>`;
+  }
+};
+
 const loadFixtures = async () => {
   if (!fixturesList) return;
   fixturesList.innerHTML = emptyBox("Maç bülteni yükleniyor...");
@@ -101,6 +218,8 @@ const loadFixtures = async () => {
   }
 
   renderFixtures();
+  renderCouponCenterFromFixtures();
+  setTimeout(renderCouponCenterFromFixtures, 900);
 };
 
 const renderSporToto = (payload) => {
@@ -165,6 +284,7 @@ const renderStaticEmptySections = () => {
   if (successGrid) successGrid.innerHTML = `<article class="success-card reveal visible"><strong data-count="0">0</strong><span>Canlı performans bekleniyor</span><div class="spark"></div></article>`;
   if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
   renderSporToto({ matches: [] });
+  ensureCompletedCouponArea();
 
   const todayCount = document.querySelector("#today-count");
   const avgConfidence = document.querySelector("#avg-confidence");
@@ -210,7 +330,7 @@ const setupObservers = () => {
 
 const init = async () => {
   renderStaticEmptySections();
-  await Promise.all([loadFixtures(), loadSporToto()]);
+  await Promise.all([loadFixtures(), loadSporToto(), loadCompletedCouponArea()]);
   setupObservers();
 };
 
