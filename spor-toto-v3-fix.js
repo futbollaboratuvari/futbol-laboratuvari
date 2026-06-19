@@ -1,5 +1,6 @@
 (() => {
   const STYLE_ID = "spor-toto-v3-fix-style";
+  let observerReady = false;
 
   const injectStyle = () => {
     if (document.getElementById(STYLE_ID)) return;
@@ -14,7 +15,6 @@
         display: none !important;
       }
 
-      #spor-toto-grid.spor-grid.spor-toto-v3-ready,
       #spor-toto-grid.spor-toto-v3-ready {
         display: block !important;
         grid-template-columns: none !important;
@@ -26,6 +26,11 @@
       #spor-toto-grid.spor-toto-v3-ready > .spor-toto-v3-shell {
         width: 100% !important;
         max-width: 100% !important;
+      }
+
+      #spor-toto-grid.spor-toto-v3-ready > .spor-card,
+      #spor-toto-grid.spor-toto-v3-ready > .fixtures-empty {
+        display: none !important;
       }
 
       #spor-toto-grid.spor-toto-v3-ready .spor-v3-hero,
@@ -57,23 +62,47 @@
     const summary = document.querySelector("#spor-toto-summary");
 
     if (section) section.classList.add("spor-toto-v3-section");
+
     if (summary) {
       summary.classList.add("spor-toto-v3-hidden");
       summary.innerHTML = "";
     }
+
     if (grid) {
+      grid.classList.remove("spor-grid");
       grid.classList.add("spor-toto-v3-ready");
       grid.style.display = "block";
       grid.style.gridTemplateColumns = "none";
       grid.style.width = "100%";
+      grid.style.maxWidth = "100%";
     }
+  };
+
+  const watchGrid = () => {
+    if (observerReady) return;
+    const grid = document.querySelector("#spor-toto-grid");
+    if (!grid) return;
+    observerReady = true;
+
+    const observer = new MutationObserver(() => {
+      apply();
+    });
+
+    observer.observe(grid, {
+      childList: true,
+      subtree: false,
+      attributes: true,
+      attributeFilter: ["class", "style"],
+    });
   };
 
   window.addEventListener("load", () => {
     apply();
+    watchGrid();
     setTimeout(apply, 300);
     setTimeout(apply, 900);
     setTimeout(apply, 1800);
     setTimeout(apply, 3200);
+    setTimeout(apply, 5200);
   });
 })();
