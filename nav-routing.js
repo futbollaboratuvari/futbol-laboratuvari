@@ -93,6 +93,11 @@
   userAccessFlowScript.defer = true;
   document.body.appendChild(userAccessFlowScript);
 
+  const liveControlCenterScript = document.createElement("script");
+  liveControlCenterScript.src = "live-control-center.js";
+  liveControlCenterScript.defer = true;
+  document.body.appendChild(liveControlCenterScript);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
