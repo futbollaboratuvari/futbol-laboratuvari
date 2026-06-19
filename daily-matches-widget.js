@@ -91,40 +91,42 @@
         z-index: 3;
         margin: 22px clamp(18px, 6vw, 90px) 0;
         padding: 18px;
-        border: 1px solid rgba(216, 178, 87, 0.22);
+        border: 1px solid rgba(255, 159, 28, 0.3);
         border-radius: 22px;
-        background: linear-gradient(135deg, rgba(57,255,136,.08), transparent 36%), linear-gradient(180deg, rgba(8,23,48,.95), rgba(3,8,23,.96));
+        background: linear-gradient(135deg, rgba(255,159,28,.08), transparent 34%), linear-gradient(180deg, rgba(8,23,48,.96), rgba(3,8,23,.97));
         box-shadow: 0 24px 70px rgba(0,0,0,.38), inset 0 1px 0 rgba(255,255,255,.05);
       }
       .daily-widget-head { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:16px; }
-      .daily-widget-title { margin:0; color:#f7df9a; font-size:clamp(20px,2.2vw,30px); line-height:1.1; }
+      .daily-widget-title { margin:0; color:#ffe08a; font-size:clamp(20px,2.2vw,30px); line-height:1.1; }
       .daily-widget-subtitle { margin:6px 0 0; color:#aebbd0; font-size:13px; }
-      .daily-widget-count { display:inline-flex; align-items:center; gap:8px; padding:9px 12px; border:1px solid rgba(57,255,136,.3); border-radius:999px; background:rgba(57,255,136,.1); color:#c8ffdd; font-size:13px; font-weight:800; white-space:nowrap; }
+      .daily-widget-count { display:inline-flex; align-items:center; gap:8px; padding:9px 12px; border:1px solid rgba(57,255,136,.34); border-radius:999px; background:rgba(57,255,136,.12); color:#c8ffdd; font-size:13px; font-weight:800; white-space:nowrap; }
       .daily-widget-list { display:grid; gap:16px; }
-      .daily-league-block { overflow:hidden; border:1px solid rgba(216,178,87,.18); border-radius:18px; background:rgba(3,8,23,.58); }
-      .daily-league-head { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 14px; background:linear-gradient(90deg, rgba(216,178,87,.18), rgba(57,255,136,.08), rgba(3,8,23,.2)); border-bottom:1px solid rgba(216,178,87,.16); }
+      .daily-league-block { overflow:hidden; border:1px solid rgba(255,159,28,.22); border-radius:18px; background:rgba(3,8,23,.6); }
+      .daily-league-head { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 14px; background:linear-gradient(90deg, rgba(255,159,28,.72), rgba(19,120,69,.62), rgba(3,8,23,.72)); border-bottom:1px solid rgba(255,159,28,.28); }
       .daily-league-title { display:flex; align-items:center; gap:10px; min-width:0; }
       .daily-league-flag { font-size:18px; line-height:1; }
-      .daily-league-name { color:#f7df9a; font-size:13px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-      .daily-league-count { color:#c8ffdd; font-size:12px; font-weight:800; white-space:nowrap; }
+      .daily-league-name { color:#fff7d6; font-size:13px; font-weight:950; letter-spacing:.08em; text-transform:uppercase; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-shadow:0 1px 0 rgba(0,0,0,.28); }
+      .daily-league-count { color:#ffffff; font-size:12px; font-weight:900; white-space:nowrap; }
       .daily-table-scroll { overflow-x:auto; }
       .daily-match-table { display:grid; min-width:1120px; }
       .daily-match-header, .daily-match-row { display:grid; grid-template-columns:70px minmax(340px,1fr) 62px 62px 62px 66px 66px 66px 66px 100px; align-items:stretch; }
-      .daily-match-header { background:rgba(3,8,23,.82); color:#f7df9a; font-size:11px; font-weight:900; letter-spacing:.06em; text-transform:uppercase; }
-      .daily-match-header span, .daily-match-row > * { display:flex; align-items:center; min-height:44px; padding:9px 10px; border-right:1px solid rgba(255,255,255,.07); border-bottom:1px solid rgba(255,255,255,.07); }
+      .daily-match-header { background:linear-gradient(180deg, rgba(35,48,49,.98), rgba(20,31,34,.98)); color:#ffe08a; font-size:11px; font-weight:950; letter-spacing:.06em; text-transform:uppercase; }
+      .daily-match-header span, .daily-match-row > * { display:flex; align-items:center; min-height:44px; padding:9px 10px; border-right:1px solid rgba(255,255,255,.08); border-bottom:1px solid rgba(255,255,255,.07); }
       .daily-match-header span:last-child, .daily-match-row > *:last-child { border-right:0; }
-      .daily-match-row:nth-child(odd) { background:rgba(255,255,255,.026); }
+      .daily-match-row:nth-child(odd) { background:rgba(255,255,255,.03); }
+      .daily-match-row:nth-child(even) { background:rgba(255,159,28,.025); }
       .daily-match-time { justify-content:center; color:#39ff88; font-size:17px; font-weight:950; }
       .daily-match-teams { display:grid; grid-template-columns:minmax(0,1fr) 22px minmax(0,1fr); gap:8px; color:#f8fbff; font-size:14px; font-weight:850; }
       .daily-team { display:flex; align-items:center; gap:8px; min-width:0; }
       .daily-team-name { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-      .daily-team-logo { display:inline-flex; align-items:center; justify-content:center; flex:0 0 auto; width:26px; height:26px; border:1px solid rgba(216,178,87,.28); border-radius:999px; background:rgba(57,255,136,.1); color:#f7df9a; font-size:11px; font-weight:950; overflow:hidden; }
+      .daily-team-logo { display:inline-flex; align-items:center; justify-content:center; flex:0 0 auto; width:26px; height:26px; border:1px solid rgba(255,159,28,.42); border-radius:999px; background:linear-gradient(180deg, rgba(255,159,28,.18), rgba(57,255,136,.08)); color:#ffe08a; font-size:11px; font-weight:950; overflow:hidden; }
       .daily-team-logo img { width:100%; height:100%; object-fit:contain; }
       .daily-match-vs { justify-content:center; color:#aebbd0; font-size:12px; font-weight:900; }
-      .daily-odd { justify-content:center; background:rgba(255,255,255,.035); color:#f8fbff; font-size:12px; font-weight:850; }
-      .daily-widget-status { justify-content:center; color:#f7df9a; font-size:11px; font-weight:800; }
-      .daily-status-pill { display:inline-flex; align-items:center; justify-content:center; padding:6px 9px; border-radius:999px; background:rgba(216,178,87,.14); color:#f7df9a; white-space:nowrap; }
-      .daily-widget-empty { padding:18px; border:1px solid rgba(216,178,87,.16); border-radius:16px; background:rgba(3,8,23,.58); color:#aebbd0; }
+      .daily-odd { justify-content:center; background:rgba(255,255,255,.055); color:#ffffff; font-size:12px; font-weight:900; }
+      .daily-odd:hover { background:rgba(255,159,28,.18); color:#ffe08a; }
+      .daily-widget-status { justify-content:center; color:#ffe08a; font-size:11px; font-weight:800; }
+      .daily-status-pill { display:inline-flex; align-items:center; justify-content:center; padding:6px 9px; border-radius:999px; background:rgba(255,159,28,.16); color:#ffe08a; white-space:nowrap; }
+      .daily-widget-empty { padding:18px; border:1px solid rgba(255,159,28,.18); border-radius:16px; background:rgba(3,8,23,.58); color:#aebbd0; }
       @media (max-width:720px) { .daily-widget-shell{margin:16px 14px 0; padding:14px;} .daily-widget-head{align-items:flex-start; flex-direction:column;} .daily-match-table{min-width:1040px;} }
     `;
     document.head.appendChild(style);
