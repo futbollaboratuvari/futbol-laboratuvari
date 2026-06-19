@@ -25,6 +25,13 @@ const oddValue = (fixture, keys) => {
   return null;
 };
 
+const safeTeam = (value, fallback) => String(value || fallback).trim();
+
+const getTeams = (fixture) => ({
+  home: safeTeam(fixture.home || fixture.home_team_name || fixture.ev_sahibi, "Ev sahibi"),
+  away: safeTeam(fixture.away || fixture.away_team_name || fixture.deplasman, "Deplasman"),
+});
+
 const leagueSignal = (league = "") => {
   const text = String(league).toLowerCase();
   let goalBias = 0;
@@ -119,19 +126,42 @@ const getCandidates = (fixture) => {
   ].filter(Boolean);
 };
 
+const tagFor = (score, risk) => {
+  if (risk === "Yüksek" || score < 60) return "Riskli";
+  if (score >= 75) return "Güçlü";
+  return "Değerli";
+};
+
+const expectedScoresFor = (selection) => {
+  const text = String(selection || "").toLowerCase();
+  if (text.includes("üst") || text.includes("kg var")) return ["2-1", "2-2"];
+  if (text.includes("alt") || text.includes("kg yok")) return ["1-0", "1-1"];
+  if (text.includes("ms 1")) return ["1-0", "2-1"];
+  if (text.includes("ms 2")) return ["0-1", "1-2"];
+  if (text.includes("x")) return ["1-1", "0-0"];
+  return ["1-0", "2-1"];
+};
+
 const scoreFixture = (fixture, index = 0) => {
   const candidates = getCandidates(fixture).sort((a, b) => b.confidence - a.confidence || a.riskNumber - b.riskNumber);
   const best = candidates[0];
-  const match = `${fixture.home || fixture.home_team_name || "Ev sahibi"} - ${fixture.away || fixture.away_team_name || "Deplasman"}`;
+  const { home, away } = getTeams(fixture);
+  const match = `${home} VS ${away}`;
 
   if (!best) {
     return {
       ...fixture,
+      home,
+      away,
       match,
       market: "Analiz bekleniyor",
       selection: "Analiz bekleniyor",
       odds: "-",
       confidence: "-",
+      lab_probability: "-",
+      trust_score: "-",
+      tag: "Beklemede",
+      expected_scores: [],
       score: 0,
       risk: "-",
       status: "waiting_for_odds",
@@ -145,11 +175,17 @@ const scoreFixture = (fixture, index = 0) => {
 
   return {
     ...fixture,
+    home,
+    away,
     match,
     market: best.label,
     selection: best.label,
     odds: formatOdd(best.odd),
     confidence: formatPercent(score),
+    lab_probability: formatPercent(score),
+    trust_score: `${Math.max(45, Math.min(90, Math.round(score - 13)))}/100`,
+    tag: tagFor(score, best.risk),
+    expected_scores: expectedScoresFor(best.label),
     score,
     risk: best.risk,
     status: fixture.status || "scheduled",
@@ -157,6 +193,36 @@ const scoreFixture = (fixture, index = 0) => {
     pro_signals: best.signals,
   };
 };
+
+const legFromItem = (item, number = 1) => ({
+  number,
+  home: item.home,
+  away: item.away,
+  match: item.match,
+  date: item.date || "",
+  time: item.time || "",
+  league: item.league || item.competition_name || "",
+  selection: item.selection || item.market,
+  option: item.selection || item.market,
+  odds: item.odds,
+  lab_probability: item.lab_probability || item.confidence,
+  confidence: item.confidence,
+  trust_score: item.trust_score,
+  risk: item.risk,
+  tag: item.tag,
+  expected_scores: item.expected_scores || [],
+  signals: item.pro_signals || [],
+});
+
+const combinedOdds = (items) => {
+  const product = items.reduce((acc, item) => {
+    const odd = parseOdd(item.odds);
+    return odd ? acc * odd : acc;
+  }, 1);
+  return product > 1 ? product.toFixed(2) : "-";
+};
+
+const combinedSignals = (items, limit = 6) => items.flatMap((item) => item.pro_signals || []).slice(0, limit);
 
 const buildCouponAnalysis = (fixtures = []) => {
   const scored = fixtures.map(scoreFixture);
@@ -172,7 +238,10 @@ const buildCouponAnalysis = (fixtures = []) => {
     confidence: item.confidence,
     score: item.score,
     risk: item.risk,
+    tag: item.tag,
+    expected_scores: item.expected_scores,
     signals: item.pro_signals,
+    legs: [legFromItem(item, 1)],
   }));
 
   const doubles = [];
@@ -184,11 +253,14 @@ const buildCouponAnalysis = (fixtures = []) => {
     doubles.push({
       match: pair.map((item) => item.match).join(" + "),
       market: pair.map((item) => item.market).join(" + "),
-      odds: pair.map((item) => item.odds).join(" x "),
+      odds: combinedOdds(pair),
       confidence: `${avg}%`,
       score: avg,
       risk: pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta",
-      signals: pair.flatMap((item) => item.pro_signals).slice(0, 5),
+      tag: tagFor(avg, pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta"),
+      expected_scores: pair.flatMap((item) => item.expected_scores || []).slice(0, 4),
+      signals: combinedSignals(pair, 5),
+      legs: pair.map((item, legIndex) => legFromItem(item, legIndex + 1)),
     });
   }
 
@@ -198,11 +270,14 @@ const buildCouponAnalysis = (fixtures = []) => {
     triples.push({
       match: trio.map((item) => item.match).join(" + "),
       market: trio.map((item) => item.market).join(" + "),
-      odds: trio.map((item) => item.odds).join(" x "),
+      odds: combinedOdds(trio),
       confidence: `${avg}%`,
       score: avg,
       risk: "Yüksek",
-      signals: trio.flatMap((item) => item.pro_signals).slice(0, 6),
+      tag: tagFor(avg, "Yüksek"),
+      expected_scores: trio.flatMap((item) => item.expected_scores || []).slice(0, 6),
+      signals: combinedSignals(trio, 6),
+      legs: trio.map((item, legIndex) => legFromItem(item, legIndex + 1)),
     });
   }
 
