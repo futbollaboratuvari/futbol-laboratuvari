@@ -83,6 +83,11 @@
   siteTypographyScript.defer = true;
   document.body.appendChild(siteTypographyScript);
 
+  const panelWidgetScript = document.createElement("script");
+  panelWidgetScript.src = "panel-widget-system.js";
+  panelWidgetScript.defer = true;
+  document.body.appendChild(panelWidgetScript);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
