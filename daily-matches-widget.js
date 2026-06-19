@@ -18,6 +18,34 @@
     return "-";
   };
 
+  const displayOdd = (value) => {
+    const text = String(value ?? "").trim();
+    return text && text !== "-" ? text : "—";
+  };
+
+  const hasOdd = (value) => {
+    const text = String(value ?? "").trim();
+    return Boolean(text && text !== "-" && text !== "—");
+  };
+
+  const mainOdds = (match) => ({
+    one: pickOdd(match, ["one", "oneOdd", "ms1", "odd1"]),
+    draw: pickOdd(match, ["draw", "drawOdd", "x", "msx", "oddX"]),
+    two: pickOdd(match, ["two", "twoOdd", "ms2", "odd2"]),
+    under25: pickOdd(match, ["under25", "alt25", "under", "alt"]),
+    over25: pickOdd(match, ["over25", "ust25", "over", "ust"]),
+    bttsYes: pickOdd(match, ["bttsYes", "kgVar", "varOdd", "var"]),
+    bttsNo: pickOdd(match, ["bttsNo", "kgYok", "yokOdd", "yok"]),
+  });
+
+  const dataQuality = (odds) => {
+    const values = Object.values(odds);
+    const active = values.filter(hasOdd).length;
+    if (active >= 6) return { active, total: values.length, label: "Tam Veri", className: "full" };
+    if (active >= 3) return { active, total: values.length, label: "Kısmi Veri", className: "partial" };
+    return { active, total: values.length, label: "Oran Bekleniyor", className: "waiting" };
+  };
+
   const pickLogo = (match, side) => {
     const keys = side === "home"
       ? ["homeLogo", "home_logo", "home_team_logo", "homeCrest"]
@@ -108,13 +136,14 @@
       .daily-league-name { color:#fff7d6; font-size:13px; font-weight:950; letter-spacing:.08em; text-transform:uppercase; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-shadow:0 1px 0 rgba(0,0,0,.28); }
       .daily-league-count { color:#ffffff; font-size:12px; font-weight:900; white-space:nowrap; }
       .daily-table-scroll { overflow-x:auto; }
-      .daily-match-table { display:grid; min-width:1120px; }
-      .daily-match-header, .daily-match-row { display:grid; grid-template-columns:70px minmax(340px,1fr) 62px 62px 62px 66px 66px 66px 66px 100px; align-items:stretch; }
+      .daily-match-table { display:grid; min-width:1260px; }
+      .daily-match-header, .daily-match-row { display:grid; grid-template-columns:70px minmax(340px,1fr) 62px 62px 62px 66px 66px 66px 66px 190px; align-items:stretch; }
       .daily-match-header { background:linear-gradient(180deg, rgba(35,48,49,.98), rgba(20,31,34,.98)); color:#ffe08a; font-size:11px; font-weight:950; letter-spacing:.06em; text-transform:uppercase; }
       .daily-match-header span, .daily-match-row > * { display:flex; align-items:center; min-height:44px; padding:9px 10px; border-right:1px solid rgba(255,255,255,.08); border-bottom:1px solid rgba(255,255,255,.07); }
       .daily-match-header span:last-child, .daily-match-row > *:last-child { border-right:0; }
       .daily-match-row:nth-child(odd) { background:rgba(255,255,255,.03); }
       .daily-match-row:nth-child(even) { background:rgba(255,159,28,.025); }
+      .daily-match-row.is-open { background:rgba(255,159,28,.085)!important; box-shadow: inset 3px 0 0 rgba(57,255,136,.68); }
       .daily-match-time { justify-content:center; color:#39ff88; font-size:17px; font-weight:950; }
       .daily-match-teams { display:grid; grid-template-columns:minmax(0,1fr) 22px minmax(0,1fr); gap:8px; color:#f8fbff; font-size:14px; font-weight:850; }
       .daily-team { display:flex; align-items:center; gap:8px; min-width:0; }
@@ -123,11 +152,19 @@
       .daily-team-logo img { width:100%; height:100%; object-fit:contain; }
       .daily-match-vs { justify-content:center; color:#aebbd0; font-size:12px; font-weight:900; }
       .daily-odd { justify-content:center; background:rgba(255,255,255,.055); color:#ffffff; font-size:12px; font-weight:900; }
+      .daily-odd.is-empty { color:#738096; background:rgba(255,255,255,.025); }
       .daily-odd:hover { background:rgba(255,159,28,.18); color:#ffe08a; }
       .daily-widget-status { justify-content:center; color:#ffe08a; font-size:11px; font-weight:800; }
       .daily-status-pill { display:inline-flex; align-items:center; justify-content:center; padding:6px 9px; border-radius:999px; background:rgba(255,159,28,.16); color:#ffe08a; white-space:nowrap; }
+      .daily-detail-button { width:100%; min-height:36px; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:8px; border:1px solid rgba(255,159,28,.28); border-radius:999px; background:rgba(3,8,23,.74); color:#f8fbff; cursor:pointer; padding:5px 8px; box-shadow:inset 0 1px 0 rgba(255,255,255,.05); }
+      .daily-detail-button:hover { border-color:rgba(57,255,136,.42); background:rgba(57,255,136,.08); }
+      .daily-detail-copy { display:grid; gap:1px; text-align:left; line-height:1.08; min-width:0; }
+      .daily-detail-copy b { color:#c8ffdd; font-size:10px; font-weight:950; text-transform:uppercase; letter-spacing:.04em; white-space:nowrap; }
+      .daily-detail-copy small { color:#aebbd0; font-size:10px; font-weight:800; white-space:nowrap; }
+      .daily-chevron { display:inline-flex; align-items:center; justify-content:center; width:24px; height:24px; border-radius:999px; background:rgba(255,159,28,.16); color:#ffe08a; font-size:16px; line-height:1; transition:transform .18s ease, background .18s ease; }
+      .daily-detail-button[aria-expanded="true"] .daily-chevron { transform:rotate(180deg); background:rgba(57,255,136,.16); color:#c8ffdd; }
       .daily-widget-empty { padding:18px; border:1px solid rgba(255,159,28,.18); border-radius:16px; background:rgba(3,8,23,.58); color:#aebbd0; }
-      @media (max-width:720px) { .daily-widget-shell{margin:16px 14px 0; padding:14px;} .daily-widget-head{align-items:flex-start; flex-direction:column;} .daily-match-table{min-width:1040px;} }
+      @media (max-width:720px) { .daily-widget-shell{margin:16px 14px 0; padding:14px;} .daily-widget-head{align-items:flex-start; flex-direction:column;} .daily-match-table{min-width:1180px;} }
     `;
     document.head.appendChild(style);
   };
@@ -164,6 +201,19 @@
     return `<span class="daily-team-logo">${escapeHtml(teamInitial(name))}</span>`;
   };
 
+  const oddCell = (value) => `<span class="daily-odd ${hasOdd(value) ? "" : "is-empty"}">${escapeHtml(displayOdd(value))}</span>`;
+
+  const detailButton = (match, odds) => {
+    const quality = dataQuality(odds);
+    return `
+      <button class="daily-detail-button" type="button" aria-expanded="false" data-daily-detail-toggle>
+        <span class="daily-status-pill">${escapeHtml(statusLabel(match.status))}</span>
+        <span class="daily-detail-copy"><b>${quality.active}/${quality.total} oran</b><small>Detaylı Oranlar</small></span>
+        <span class="daily-chevron" aria-hidden="true">⌄</span>
+      </button>
+    `;
+  };
+
   const renderLeague = ({ league, items }) => `
     <article class="daily-league-block">
       <div class="daily-league-head">
@@ -172,24 +222,27 @@
       </div>
       <div class="daily-table-scroll">
         <div class="daily-match-table">
-          <div class="daily-match-header"><span>Saat</span><span>Maç</span><span>1</span><span>X</span><span>2</span><span>Alt</span><span>Üst</span><span>Var</span><span>Yok</span><span>Durum</span></div>
-          ${items.map((match) => `
-            <div class="daily-match-row">
-              <div class="daily-match-time">${escapeHtml(match.time || "--:--")}</div>
-              <div class="daily-match-teams">
-                <span class="daily-team">${logoHtml(match, "home")}<span class="daily-team-name">${escapeHtml(match.home || "Ev sahibi")}</span></span>
-                <span class="daily-match-vs">-</span>
-                <span class="daily-team">${logoHtml(match, "away")}<span class="daily-team-name">${escapeHtml(match.away || "Deplasman")}</span></span>
-              </div>
-              <span class="daily-odd">${escapeHtml(pickOdd(match, ["one", "oneOdd", "ms1", "odd1"]))}</span>
-              <span class="daily-odd">${escapeHtml(pickOdd(match, ["draw", "drawOdd", "x", "msx", "oddX"]))}</span>
-              <span class="daily-odd">${escapeHtml(pickOdd(match, ["two", "twoOdd", "ms2", "odd2"]))}</span>
-              <span class="daily-odd">${escapeHtml(pickOdd(match, ["under25", "alt25", "under", "alt"]))}</span>
-              <span class="daily-odd">${escapeHtml(pickOdd(match, ["over25", "ust25", "over", "ust"]))}</span>
-              <span class="daily-odd">${escapeHtml(pickOdd(match, ["bttsYes", "kgVar", "varOdd", "var"]))}</span>
-              <span class="daily-odd">${escapeHtml(pickOdd(match, ["bttsNo", "kgYok", "yokOdd", "yok"]))}</span>
-              <span class="daily-widget-status"><span class="daily-status-pill">${escapeHtml(statusLabel(match.status))}</span></span>
-            </div>`).join("")}
+          <div class="daily-match-header"><span>Saat</span><span>Maç</span><span>1</span><span>X</span><span>2</span><span>Alt</span><span>Üst</span><span>Var</span><span>Yok</span><span>Detay</span></div>
+          ${items.map((match) => {
+            const odds = mainOdds(match);
+            return `
+              <div class="daily-match-row" data-home="${escapeHtml(match.home || "Ev sahibi")}" data-away="${escapeHtml(match.away || "Deplasman")}">
+                <div class="daily-match-time">${escapeHtml(match.time || "--:--")}</div>
+                <div class="daily-match-teams">
+                  <span class="daily-team">${logoHtml(match, "home")}<span class="daily-team-name">${escapeHtml(match.home || "Ev sahibi")}</span></span>
+                  <span class="daily-match-vs">-</span>
+                  <span class="daily-team">${logoHtml(match, "away")}<span class="daily-team-name">${escapeHtml(match.away || "Deplasman")}</span></span>
+                </div>
+                ${oddCell(odds.one)}
+                ${oddCell(odds.draw)}
+                ${oddCell(odds.two)}
+                ${oddCell(odds.under25)}
+                ${oddCell(odds.over25)}
+                ${oddCell(odds.bttsYes)}
+                ${oddCell(odds.bttsNo)}
+                <span class="daily-widget-status">${detailButton(match, odds)}</span>
+              </div>`;
+          }).join("")}
         </div>
       </div>
     </article>`;
