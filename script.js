@@ -103,14 +103,68 @@ const loadFixtures = async () => {
   renderFixtures();
 };
 
+const renderSporToto = (payload) => {
+  if (!sporTotoGrid) return;
+  const matches = Array.isArray(payload?.matches) ? payload.matches : [];
+
+  if (!matches.length) {
+    sporTotoGrid.innerHTML = emptyBox("Haftalık Spor Toto bülteni bekleniyor.");
+    if (sporTotoSummary) {
+      sporTotoSummary.innerHTML = `<span>Toplam: 0</span><span>Durum: Canlı bülten bekleniyor</span>`;
+    }
+    return;
+  }
+
+  sporTotoGrid.innerHTML = matches
+    .map(
+      (pick, index) => `
+        <article class="spor-card reveal visible">
+          <div class="meta-row">
+            <span>${escapeHtml(pick.week || payload.week_label || "Haftalık Bülten")}</span>
+            <span>${escapeHtml(pick.className || "Spor Toto")}</span>
+          </div>
+          <h3>${escapeHtml(pick.match || `${pick.home || "Ev sahibi"} - ${pick.away || "Deplasman"}`)}</h3>
+          <div class="probability-grid">
+            <span>1 <b>${escapeHtml(pick.one ?? "-")}</b><small>${escapeHtml(pick.oneOdd ?? "-")}</small></span>
+            <span>X <b>${escapeHtml(pick.draw ?? "-")}</b><small>${escapeHtml(pick.drawOdd ?? "-")}</small></span>
+            <span>2 <b>${escapeHtml(pick.two ?? "-")}</b><small>${escapeHtml(pick.twoOdd ?? "-")}</small></span>
+          </div>
+          <div class="decision-row">
+            <strong>${escapeHtml(pick.decision || "Bekleniyor")}</strong>
+            <span>${escapeHtml(pick.score ? `Skor ${pick.score}` : `#${pick.no || index + 1}`)}</span>
+          </div>
+        </article>
+      `,
+    )
+    .join("");
+
+  if (sporTotoSummary) {
+    sporTotoSummary.innerHTML = `
+      <span>Hafta: ${escapeHtml(payload.week_label || "Güncel")}</span>
+      <span>Toplam: ${matches.length}</span>
+      <span>Kaynak: ${escapeHtml(payload.source || "Robot")}</span>
+    `;
+  }
+};
+
+const loadSporToto = async () => {
+  if (!sporTotoGrid) return;
+  try {
+    const response = await fetch("./data/spor_toto_bulteni.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`spor_toto_bulteni.json ${response.status}`);
+    renderSporToto(await response.json());
+  } catch (error) {
+    renderSporToto({ matches: [] });
+  }
+};
+
 const renderStaticEmptySections = () => {
   if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı canlı analiz bekleniyor. Eski sabit 12.06.2026 verileri kaldırıldı.");
   if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Günün seçimi canlı veri geldikten sonra otomatik üretilecek.");
   if (resultArchive) resultArchive.innerHTML = `<tr><td colspan="7">Canlı sonuç arşivi bekleniyor.</td></tr>`;
   if (successGrid) successGrid.innerHTML = `<article class="success-card reveal visible"><strong data-count="0">0</strong><span>Canlı performans bekleniyor</span><div class="spark"></div></article>`;
   if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
-  if (sporTotoGrid) sporTotoGrid.innerHTML = emptyBox("Spor Toto canlı bülteni bekleniyor.");
-  if (sporTotoSummary) sporTotoSummary.innerHTML = `<span>Toplam: 0</span><span>Durum: Canlı veri bekleniyor</span>`;
+  renderSporToto({ matches: [] });
 
   const todayCount = document.querySelector("#today-count");
   const avgConfidence = document.querySelector("#avg-confidence");
@@ -156,7 +210,7 @@ const setupObservers = () => {
 
 const init = async () => {
   renderStaticEmptySections();
-  await loadFixtures();
+  await Promise.all([loadFixtures(), loadSporToto()]);
   setupObservers();
 };
 
