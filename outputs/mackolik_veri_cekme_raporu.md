@@ -1,6 +1,7 @@
-# Veri Çekme Raporu
+# Maçkolik Veri Çekme Raporu
 
-- Kaynak: Canlı veri bekleniyor
-- Güncelleme: 2026-06-19T14:30:00.000Z
-- Maç sayısı: 0
-- Not: GitHub Actions günlük olarak çalışır. API anahtarı veya robot veri kaynağı bağlandığında dosyalar otomatik güncellenir.
+- Kaynak: Maçkolik canlı veri bekleniyor
+- URL: https://arsiv.mackolik.com/Iddaa-Programi
+- Güncelleme: 2026-06-19T20:26:58.747Z
+- Maç sayısı: 15
+- Not: Robot API anahtarı kullanmadan Maçkolik eski site İddaa Programı sayfasındaki bugünün maçlarını okur. Haftalık Spor Toto bülteni aynı maç havuzundan otomatik yenilenir.
