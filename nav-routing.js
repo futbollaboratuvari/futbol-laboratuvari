@@ -1,6 +1,11 @@
 // Site içi sekme yönlendirmeleri
 // Ziyaretçi sekmeye bastığında ilgili bölüme yumuşak geçiş yapar.
 (() => {
+  const styleLink = document.createElement("link");
+  styleLink.rel = "stylesheet";
+  styleLink.href = "nav-position.css";
+  document.head.appendChild(styleLink);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
