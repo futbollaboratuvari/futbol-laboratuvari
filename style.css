@@ -1468,11 +1468,58 @@ th {
   padding: 18px;
 }
 
+.robot-match-card {
+  min-height: 100%;
+  padding: 22px;
+  border-color: rgba(65, 226, 126, 0.26);
+  background:
+    linear-gradient(160deg, rgba(13, 56, 34, 0.86), rgba(3, 12, 9, 0.92)),
+    rgba(5, 21, 14, 0.78);
+}
+
+.robot-card-topline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
 .robot-live-card h3,
 .robot-stack h4,
 .robot-admin-tables h3 {
   margin: 0 0 10px;
   color: #ffffff;
+}
+
+.robot-match-card h3 {
+  font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+  line-height: 1.2;
+}
+
+.robot-teams {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  margin: 14px 0 16px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.robot-teams strong {
+  min-width: 0;
+  color: #ffffff;
+  overflow-wrap: anywhere;
+}
+
+.robot-teams span {
+  color: #b9ffce;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .robot-row {
@@ -1487,6 +1534,11 @@ th {
 
 .robot-row:first-of-type {
   border-top: 0;
+}
+
+.robot-row strong {
+  color: #ffffff;
+  text-align: right;
 }
 
 .robot-pill {
@@ -1547,6 +1599,15 @@ th {
   color: rgba(235, 255, 241, 0.78);
 }
 
+.robot-note {
+  margin: 14px 0 0;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(65, 226, 126, 0.09);
+  color: rgba(235, 255, 241, 0.78);
+  line-height: 1.5;
+}
+
 .admin-page .hero {
   min-height: auto;
   padding-top: 120px;
@@ -1580,5 +1641,13 @@ th {
   .robot-coupon-columns,
   .robot-admin-tables {
     grid-template-columns: 1fr;
+  }
+
+  .robot-teams {
+    grid-template-columns: 1fr;
+  }
+
+  .robot-teams span {
+    justify-self: start;
   }
 }

@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#platform" aria-label="Futbol Laboratuvarı">
+      <a class="brand" href="./index.html" aria-label="Futbol Laboratuvarı">
         <span class="brand-mark">
           <img src="assets/images/fl-logo-mark.webp" alt="" />
         </span>
@@ -22,18 +22,18 @@
         <span></span>
       </button>
       <nav class="nav-links" aria-label="Ana menü">
-        <a href="#platform">Panel</a>
-        <a href="#kurucu">Kurucu</a>
-        <a href="#medya-galerisi">Medya Galerisi</a>
-        <a href="#yorum-kosesi">Yorum Köşesi</a>
-        <a href="#spor-toto-performansi">Spor Toto Performansı</a>
-        <a href="#yaklasan-maclar">Maç Bülteni</a>
-        <a href="#guclu-tahmin">Güçlü Tahmin</a>
-        <a href="#son-analizler">Son Analizler</a>
-        <a href="#analiz-veritabani">Analiz Veritabanı</a>
-        <a href="#sonuc-arsivi">Başarı Arşivi</a>
-        <a href="#robot-analizleri">Robot Analizleri</a>
-        <a href="#analiz-modulleri">Modüller</a>
+        <a href="./index.html#platform">Panel</a>
+        <a href="./index.html#kurucu">Kurucu</a>
+        <a href="./index.html#medya-galerisi">Medya Galerisi</a>
+        <a href="./index.html#yorum-kosesi">Yorum Köşesi</a>
+        <a href="./index.html#spor-toto-performansi">Spor Toto Performansı</a>
+        <a href="./index.html#yaklasan-maclar">Maç Bülteni</a>
+        <a href="./index.html#guclu-tahmin">Güçlü Tahmin</a>
+        <a href="./index.html#son-analizler">Son Analizler</a>
+        <a href="./index.html#analiz-veritabani">Analiz Veritabanı</a>
+        <a href="./index.html#sonuc-arsivi">Başarı Arşivi</a>
+        <a href="./index.html#yaklasan-maclar">Robot Analizleri</a>
+        <a href="./index.html#analiz-modulleri">Modüller</a>
         <a href="./admin.html">Admin Panel</a>
       </nav>
     </header>
@@ -88,12 +88,15 @@
           </p>
         </div>
         <div class="fixtures-panel reveal">
-          <div class="fixture-tabs" role="tablist" aria-label="Maç günleri">
-            <button class="fixture-tab active" type="button" role="tab" aria-selected="true" data-fixture-day="today">Bugün</button>
-            <button class="fixture-tab" type="button" role="tab" aria-selected="false" data-fixture-day="tomorrow">Yarın</button>
-            <button class="fixture-tab" type="button" role="tab" aria-selected="false" data-fixture-day="next">Sonraki Gün</button>
+          <div class="robot-live-status">
+            <span>Bugün: <strong data-match-count>-</strong></span>
+            <span>Ortalama Güven: <strong data-average-confidence>-</strong></span>
+            <span>En Güçlü Sinyal: <strong data-strongest-signal>-</strong></span>
+            <span>Veri Durumu: <strong data-load-status>Veriler okunuyor</strong></span>
           </div>
-          <div id="fixtures-list" class="fixtures-list" aria-live="polite"></div>
+          <div id="fixtures-list" class="robot-live-grid fixtures-list" data-home-matches aria-live="polite">
+            <article class="robot-live-card">Veriler yükleniyor.</article>
+          </div>
         </div>
       </section>
 
@@ -290,9 +293,6 @@
           <span>Maç Sayısı: <strong data-match-count>-</strong></span>
           <span>Tahmin Sayısı: <strong data-prediction-count>-</strong></span>
           <span>Durum: <strong data-load-status>Veriler okunuyor</strong></span>
-        </div>
-        <div class="robot-live-grid" data-home-matches>
-          <article class="robot-live-card">Veriler yükleniyor.</article>
         </div>
         <div class="robot-coupon-columns">
           <div>
