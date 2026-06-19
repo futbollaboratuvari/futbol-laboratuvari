@@ -88,6 +88,11 @@
   panelWidgetScript.defer = true;
   document.body.appendChild(panelWidgetScript);
 
+  const userAccessFlowScript = document.createElement("script");
+  userAccessFlowScript.src = "user-access-flow.js";
+  userAccessFlowScript.defer = true;
+  document.body.appendChild(userAccessFlowScript);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
