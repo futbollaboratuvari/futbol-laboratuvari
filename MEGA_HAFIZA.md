@@ -232,8 +232,9 @@ Son geliştirme:
 
 - `membership-payment-panel.js` içine Ad Soyad, E-posta, Telefon alanları eklendi.
 - Paket seçilip üye bilgileri doldurulunca ödeme isteği hazırlanır.
-- Backend bağlanınca bu istek `/api/paytr/create-payment` adresine gönderilecek.
-- Şimdilik canlı para çekmez; ödeme altyapı hazırlığıdır.
+- Kartla Ödemeye Geç butonu artık `/api/paytr/create-payment` endpointine gerçek istek atacak şekilde bağlandı.
+- Backend çalışır ve PayTR bilgileri doğru olursa kullanıcı PayTR güvenli ödeme ekranına yönlenecek.
+- Backend yoksa veya PayTR bilgileri eksikse kullanıcıya net hata gösterilecek.
 
 ---
 
@@ -278,10 +279,25 @@ Eklenen dosyalar:
 - `serverless/paytr/create-payment.example.js`
 - `serverless/paytr/callback.example.js`
 
+Canlı endpoint dosyaları:
+
+- `api/paytr/create-payment.js`
+- `api/paytr/callback.js`
+- `api/me/subscription.js`
+- `api/_lib/plans.js`
+- `api/_lib/http.js`
+- `api/_lib/paytr.js`
+
+Serverless/Vercel hazırlığı:
+
+- `package.json`
+- `vercel.json`
+
 Planlanan backend endpointleri:
 
 - `POST /api/paytr/create-payment`
 - `POST /api/paytr/callback`
+- `GET /api/me/subscription`
 
 Gerekli ortam değişkenleri:
 
@@ -315,7 +331,9 @@ Durum:
 
 - Frontend ödeme formu hazır.
 - PayTR backend iskeleti hazır.
-- Canlı ödeme için şahıs şirketi, PayTR üye işyeri ve backend sağlayıcı gerekir.
+- Kartla ödeme butonu endpoint çağırmaya hazır.
+- `create-payment` ve `callback` canlı API dosyaları repoda hazır.
+- Canlı ödeme için şahıs şirketi, PayTR üye işyeri, backend yayını ve veritabanı gerekir.
 - İlk teknik adaylar: Vercel Functions, Supabase Edge Functions, Netlify Functions veya küçük VPS.
 
 ---
@@ -373,6 +391,8 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 - Premium ödeme planı dokümanı eklendi.
 - PayTR backend iskeleti eklendi.
 - Üyelik ödeme formu geliştirildi.
+- Kartlı ödeme için Vercel/serverless API altyapısı eklendi.
+- Kartla Ödemeye Geç butonu PayTR create-payment endpointine bağlandı.
 
 ---
 
@@ -381,18 +401,20 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 1. Şahıs şirketi açma sürecini tamamla.
 2. PayTR başvurusuna hazırlan.
 3. Siteye KVKK, gizlilik, iade/iptal, kullanım şartları ve mesafeli satış sayfaları ekle.
-4. Üyelik backend altyapısını seç:
-   - Supabase
-   - Firebase
-   - Vercel/Netlify function
+4. Üyelik backend altyapısını seç ve yayına al:
+   - Vercel Functions
+   - Supabase Edge Functions
+   - Netlify Functions
    - küçük VPS/backend
-5. Ödeme başarılı olunca premium erişimi otomatik aç.
-6. Özel maç analiz isteklerini backend kuyruğuna gönder.
-7. Robotun bu istekleri okuyup özel analiz üretmesini sağla.
-8. Robot arşivini otomatik workflow içine bağla.
-9. PayTR başvurusu öncesi sitedeki üyelik/ödeme alanını yasal metinlerle güçlendir.
-10. PayTR üye işyeri bilgileri gelince `PAYTR_MERCHANT_ID`, `PAYTR_MERCHANT_KEY`, `PAYTR_MERCHANT_SALT` backend ortam değişkenlerine girilecek.
-11. `serverless/paytr` taslağı gerçek backend sağlayıcısına taşınacak.
+5. PayTR üye işyeri bilgileri gelince `PAYTR_MERCHANT_ID`, `PAYTR_MERCHANT_KEY`, `PAYTR_MERCHANT_SALT` backend ortam değişkenlerine girilecek.
+6. `PAYTR_TEST_MODE=1` ile test ödeme yapılacak.
+7. Test başarılı olunca ödeme callback doğrulaması kontrol edilecek.
+8. Veritabanı bağlanacak: users, orders, memberships.
+9. Ödeme başarılı olunca premium erişimi otomatik açılacak.
+10. Özel maç analiz istekleri backend kuyruğuna gönderilecek.
+11. Robot bu istekleri okuyup özel analiz üretecek.
+12. Robot arşivi otomatik workflow içine bağlanacak.
+13. PayTR başvurusu öncesi sitedeki üyelik/ödeme alanı yasal metinlerle güçlendirilecek.
 
 ---
 
@@ -412,13 +434,12 @@ Bu kayıt, `kayıt et` komutuyla güncellendi.
 
 Özet:
 
-- Premium ödeme çalışması yapıldı.
-- `docs/PREMIUM_ODEME_PLANI.md` dosyası eklendi.
-- `serverless/paytr/README.md` dosyası eklendi.
-- `serverless/paytr/create-payment.example.js` dosyası eklendi.
-- `serverless/paytr/callback.example.js` dosyası eklendi.
-- `membership-payment-panel.js` geliştirildi; Ad Soyad, E-posta ve Telefon alanları eklendi.
-- Ödeme başlatma hedef endpointi `/api/paytr/create-payment` olarak belirlendi.
-- PayTR callback hedef endpointi `/api/paytr/callback` olarak belirlendi.
-- Canlı ödeme için GitHub Pages tek başına yeterli değildir; backend/serverless sağlayıcı gereklidir.
-- Canlı ödeme öncesi şahıs şirketi, PayTR üye işyeri ve yasal site metinleri tamamlanacak.
+- Kartla ödeme sistemi için çalıştırılabilir serverless altyapı dosyaları eklendi.
+- `package.json` ve `vercel.json` eklendi.
+- `api/_lib/plans.js`, `api/_lib/http.js`, `api/_lib/paytr.js` eklendi.
+- `api/paytr/create-payment.js` canlı ödeme başlatma endpointi eklendi.
+- `api/paytr/callback.js` PayTR bildirim/callback endpointi eklendi.
+- `api/me/subscription.js` üyelik durum API taslağı eklendi.
+- `membership-payment-panel.js` güncellendi ve `Kartla Ödemeye Geç` butonu `/api/paytr/create-payment` endpointine bağlandı.
+- PayTR bilgilerinin frontend'e yazılmayacağı, backend ortam değişkeni olarak tutulacağı kayıt altına alındı.
+- Canlı ödeme için hâlâ PayTR üye işyeri, şirket, backend yayını ve veritabanı gereklidir.
