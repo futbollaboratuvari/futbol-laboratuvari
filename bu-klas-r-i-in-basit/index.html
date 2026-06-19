@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Futbol Laboratuvarı</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Ana menü">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">FL</span>
+        <span>Futbol Laboratuvarı</span>
+      </a>
+      <div class="nav-links">
+        <a href="#robot-analizleri">Robot Analizleri</a>
+        <a href="#kuponlar">Kupon Görünümü</a>
+        <a class="nav-button" href="./admin.html">Admin Panel</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">PRO 12.2 Analiz Paneli</p>
+        <h1>Futbol Laboratuvarı</h1>
+        <p class="hero-copy">Maç verilerini, güven skorlarını ve analiz sinyallerini tek ekranda takip eden statik rapor paneli.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#robot-analizleri">Analizleri Gör</a>
+          <a class="secondary-action" href="./admin.html">Admin Panel</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="status-strip" id="site-status">
+      <div>
+        <span class="label">Aktif Veri Kaynağı</span>
+        <strong data-active-source>Yükleniyor</strong>
+      </div>
+      <div>
+        <span class="label">Maç Sayısı</span>
+        <strong data-match-count>-</strong>
+      </div>
+      <div>
+        <span class="label">Tahmin Sayısı</span>
+        <strong data-prediction-count>-</strong>
+      </div>
+      <div>
+        <span class="label">Durum</span>
+        <strong data-load-status>Veriler okunuyor</strong>
+      </div>
+    </section>
+
+    <section class="content-section" id="robot-analizleri">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Robot Çıktıları</p>
+          <h2>Bugünün En Güçlü Maçları</h2>
+        </div>
+        <p class="section-note">Bu ekran analiz amaçlıdır; bahis tavsiyesi değildir.</p>
+      </div>
+      <div class="card-grid" data-home-matches>
+        <article class="info-card muted">Veriler yükleniyor.</article>
+      </div>
+    </section>
+
+    <section class="content-section" id="kuponlar">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Analiz Havuzu</p>
+          <h2>Kupon Görünümü</h2>
+        </div>
+        <p class="section-note">Kupon oynama, ödeme veya bahis işlemi yoktur.</p>
+      </div>
+      <div class="coupon-layout">
+        <div>
+          <h3>Tekli Kuponlar</h3>
+          <div class="stack" data-coupons-single></div>
+        </div>
+        <div>
+          <h3>2'li Kuponlar</h3>
+          <div class="stack" data-coupons-double></div>
+        </div>
+        <div>
+          <h3>3'lü Kuponlar</h3>
+          <div class="stack" data-coupons-triple></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Bu bir analiz ve veri görüntüleme panelidir; bahis oynatma veya para işlemi içermez.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Futbol Laboratuvarı Admin Panel</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-page="admin">
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Admin menü">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">FL</span>
+        <span>Futbol Laboratuvarı</span>
+      </a>
+      <div class="nav-links">
+        <a href="./index.html">Ana Site</a>
+        <a href="#maclar">Bugünün Maçları</a>
+        <a href="#raporlar">Raporlar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="admin-hero">
+      <p class="eyebrow">Yerel demo admin paneli</p>
+      <h1>Admin Panel</h1>
+      <p>Robot çıktıları, ham veri havuzu, tahmin geçmişi ve raporlar statik JSON/Markdown dosyalarından okunur.</p>
+    </section>
+
+    <section class="dashboard-grid" id="genel-durum">
+      <article class="metric-card">
+        <span>Aktif Veri Kaynağı</span>
+        <strong data-active-source>Yükleniyor</strong>
+      </article>
+      <article class="metric-card">
+        <span>Ham Maç Havuzu</span>
+        <strong data-raw-count>-</strong>
+      </article>
+      <article class="metric-card">
+        <span>Tahmin Geçmişi</span>
+        <strong data-prediction-count>-</strong>
+      </article>
+      <article class="metric-card">
+        <span>Başarı Durumu</span>
+        <strong data-success-state>-</strong>
+      </article>
+    </section>
+
+    <section class="content-section" id="maclar">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Güncel Analiz</p>
+          <h2>Bugünün Maçları</h2>
+        </div>
+        <p class="section-note">Kartlar robot raporundan üretilir.</p>
+      </div>
+      <div class="card-grid" data-admin-matches></div>
+    </section>
+
+    <section class="content-section" id="sinyaller">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Sinyal İzleme</p>
+          <h2>En Güçlü Sinyaller</h2>
+        </div>
+      </div>
+      <div class="signal-list" data-signals></div>
+    </section>
+
+    <section class="content-section" id="kupon-havuzu">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Analiz Kuponları</p>
+          <h2>Kupon Havuzu</h2>
+        </div>
+        <p class="section-note">Bu bir analizdir, bahis tavsiyesi değildir.</p>
+      </div>
+      <div class="coupon-layout">
+        <div>
+          <h3>Tekli</h3>
+          <div class="stack" data-coupons-single></div>
+        </div>
+        <div>
+          <h3>2'li</h3>
+          <div class="stack" data-coupons-double></div>
+        </div>
+        <div>
+          <h3>3'lü</h3>
+          <div class="stack" data-coupons-triple></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section split-panels" id="veri">
+      <div>
+        <div class="section-heading compact">
+          <h2>Ham Veri Havuzu</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Maç</th><th>Lig</th><th>Tarih</th><th>Kaynak</th></tr>
+            </thead>
+            <tbody data-raw-table></tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <div class="section-heading compact">
+          <h2>Tahmin Geçmişi</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Maç</th><th>Market</th><th>Güven</th><th>Durum</th></tr>
+            </thead>
+            <tbody data-prediction-table></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="raporlar">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Dosya Durumu</p>
+          <h2>Raporlar ve API / Veri Kaynağı Durumu</h2>
+        </div>
+      </div>
+      <div class="report-grid" data-report-status></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Yerel demo admin paneli. Kullanıcı yönetimi, ödeme veya bahis işlemi içermez.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
