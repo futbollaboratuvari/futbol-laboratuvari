@@ -53,17 +53,50 @@
         background: linear-gradient(90deg, #1a1003, #ffb92e, #ffe8a3, #ff9f1c, #1a1003) !important;
         box-shadow: 0 0 32px rgba(255, 188, 45, .55) !important;
       }
-      .membership-card.pro .membership-tier,
-      .membership-card.pro .membership-trial-label {
+      .membership-card.pro .membership-tier {
         color: #e9fcff !important;
         border-color: rgba(160, 240, 255, .55) !important;
         background: rgba(160, 240, 255, .14) !important;
       }
-      .membership-card.vip .membership-tier,
-      .membership-card.vip .membership-trial-label {
+      .membership-card.vip .membership-tier {
         color: #ffe8a3 !important;
         border-color: rgba(255, 232, 163, .62) !important;
         background: rgba(255, 188, 45, .16) !important;
+      }
+      .membership-card .membership-trial-label {
+        position: relative !important;
+        width: 100% !important;
+        justify-content: center !important;
+        min-height: 42px !important;
+        padding: 10px 12px !important;
+        border-radius: 14px !important;
+        border: 1px solid rgba(255, 232, 163, .82) !important;
+        background: linear-gradient(135deg, #ff3d00 0%, #ffb92e 38%, #ffe8a3 70%, #39ff88 100%) !important;
+        color: #170b00 !important;
+        font-size: 13px !important;
+        font-weight: 1000 !important;
+        letter-spacing: .06em !important;
+        text-transform: uppercase !important;
+        box-shadow: 0 14px 34px rgba(255, 185, 46, .28), 0 0 24px rgba(255, 232, 163, .25) !important;
+        animation: flTrialPulse 1.8s ease-in-out infinite !important;
+      }
+      .membership-card .membership-trial-label::before {
+        content: "🎁";
+        margin-right: 7px;
+      }
+      .membership-card .membership-trial-label::after {
+        content: "HEMEN DENE";
+        position: absolute;
+        top: -12px;
+        right: 10px;
+        padding: 4px 8px;
+        border-radius: 999px;
+        background: #ff2d55;
+        color: #fff;
+        font-size: 9px;
+        font-weight: 1000;
+        letter-spacing: .08em;
+        box-shadow: 0 8px 20px rgba(255, 45, 85, .30);
       }
       .membership-card.pro h3,
       .membership-card.pro .membership-price,
@@ -85,6 +118,31 @@
         background: linear-gradient(135deg, #1a1003, #ffb92e, #ffe8a3, #ff9f1c) !important;
         color: #140d02 !important;
       }
+      .membership-trial {
+        min-height: 52px !important;
+        border: 1px solid rgba(255, 232, 163, .72) !important;
+        background: linear-gradient(135deg, #ff3d00, #ffb92e, #ffe8a3) !important;
+        color: #170b00 !important;
+        box-shadow: 0 14px 34px rgba(255, 185, 46, .28) !important;
+        animation: flTrialPulse 1.8s ease-in-out infinite !important;
+      }
+      .membership-trial::before {
+        content: "🎁 ";
+      }
+      @keyframes flTrialPulse {
+        0%, 100% { transform: scale(1); filter: brightness(1); }
+        50% { transform: scale(1.018); filter: brightness(1.13); }
+      }
+      @media (max-width: 560px) {
+        .membership-card .membership-trial-label {
+          font-size: 12px !important;
+          min-height: 40px !important;
+        }
+        .membership-card .membership-trial-label::after {
+          right: 8px;
+          top: -10px;
+        }
+      }
     `;
     document.head.appendChild(style);
   };
@@ -97,8 +155,10 @@
       if (!config) return;
       const tier = card.querySelector(".membership-tier");
       const summary = card.querySelector(".membership-card-summary");
+      const trial = card.querySelector(".membership-trial-label");
       if (tier) tier.textContent = config.text;
       if (summary) summary.textContent = config.summary;
+      if (trial) trial.textContent = "1 GÜN ÜCRETSİZ DENEME";
     });
   };
 
