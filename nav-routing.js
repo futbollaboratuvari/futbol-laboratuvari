@@ -48,6 +48,11 @@
   membershipPaymentScript.defer = true;
   document.body.appendChild(membershipPaymentScript);
 
+  const paymentGoldThemeScript = document.createElement("script");
+  paymentGoldThemeScript.src = "payment-gold-theme.js";
+  paymentGoldThemeScript.defer = true;
+  document.body.appendChild(paymentGoldThemeScript);
+
   const premiumAnalysisScript = document.createElement("script");
   premiumAnalysisScript.src = "premium-analysis-panel.js";
   premiumAnalysisScript.defer = true;
