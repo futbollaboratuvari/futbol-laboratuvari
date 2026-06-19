@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Futbol Laboratuvarı Admin Panel</title>
+  <title>Futbol Laboratuvarı | Canlı Veri Görünümü</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="./index.html" aria-label="Futbol Laboratuvarı">
       <span class="brand-mark">FL</span>
-      <span>Futbol Laboratuvarı <small>Admin Panel</small></span>
+      <span>Futbol Laboratuvarı <small>Canlı Veri Görünümü</small></span>
     </a>
-    <nav class="nav-links" aria-label="Admin menü">
+    <nav class="nav-links" aria-label="Canlı veri menüsü">
       <a href="./index.html">Ana Site</a>
-      <a href="./index.html#robot-analizleri">Robot Analizleri</a>
-      <a href="./admin.html">Admin Panel</a>
+      <a href="./index.html#robot-analizleri">Kupon Merkezi</a>
+      <a href="./admin.html">Canlı Veri Görünümü</a>
       <a href="./admin.html#maclar">Bugünün Maçları</a>
       <a href="./admin.html#kuponlar">Kupon Havuzu</a>
       <a href="./admin.html#raporlar">Raporlar</a>
@@ -25,9 +25,9 @@
   <main>
     <section class="section" id="genel-durum">
       <div class="section-heading reveal visible">
-        <p class="eyebrow">Yerel demo admin paneli</p>
-        <h2>Futbol Laboratuvarı PRO 12.2</h2>
-        <p>Robot çıktıları, ham veri havuzu ve tahmin geçmişi statik JSON/Markdown dosyalarından okunur.</p>
+        <p class="eyebrow">Robot veri akışı</p>
+        <h2>Canlı Veri Görünümü</h2>
+        <p>Robot çıktıları, ham veri havuzu ve tahmin geçmişi GitHub üzerinde üretilen JSON/Markdown dosyalarından okunur. Eski sabit demo veriler gösterilmez.</p>
       </div>
       <div class="robot-live-status">
         <span>Aktif Veri Kaynağı: <strong data-active-source>Yükleniyor</strong></span>
@@ -41,10 +41,10 @@
       <div class="section-heading reveal visible">
         <p class="eyebrow">Güncel Analiz</p>
         <h2>Bugünün Maçları</h2>
-        <p>Kartlar robot raporundan üretilir.</p>
+        <p>Kartlar robot raporundan üretilir. Veri yoksa sistem eski maç göstermeden canlı veri bekler.</p>
       </div>
       <div class="robot-live-grid" data-admin-matches>
-        <article class="robot-live-card">Veriler yükleniyor.</article>
+        <article class="robot-live-card">Canlı veri bekleniyor.</article>
       </div>
     </section>
 
@@ -70,13 +70,13 @@
         <div class="table-wrap">
           <table>
             <thead><tr><th>Maç</th><th>Lig</th><th>Tarih</th><th>Kaynak</th></tr></thead>
-            <tbody data-raw-table><tr><td colspan="4">Veriler yükleniyor.</td></tr></tbody>
+            <tbody data-raw-table><tr><td colspan="4">Canlı veri bekleniyor.</td></tr></tbody>
           </table>
         </div>
         <div class="table-wrap">
           <table>
             <thead><tr><th>Maç</th><th>Market</th><th>Güven</th><th>Durum</th></tr></thead>
-            <tbody data-prediction-table><tr><td colspan="4">Veriler yükleniyor.</td></tr></tbody>
+            <tbody data-prediction-table><tr><td colspan="4">Tahmin geçmişi bekleniyor.</td></tr></tbody>
           </table>
         </div>
       </div>
@@ -92,7 +92,7 @@
   </main>
 
   <footer class="footer">
-    <span>Yerel demo admin paneli</span>
+    <span>Canlı Veri Görünümü</span>
     <span>Bahis, ödeme veya üyelik işlemi içermez.</span>
   </footer>
 
