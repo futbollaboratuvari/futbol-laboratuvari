@@ -8,6 +8,7 @@ const outputDir = path.join(rootDir, "outputs");
 const fixturesPath = path.join(dataDir, "fixtures.json");
 const rawPoolPath = path.join(dataDir, "ham_mac_havuzu.json");
 const historyPath = path.join(dataDir, "tahmin_gecmisi.json");
+const sporTotoPath = path.join(dataDir, "spor_toto_bulteni.json");
 const mainReportPath = path.join(outputDir, "bugunun_en_guclu_maclari.md");
 const sourceReportPath = path.join(outputDir, "mackolik_veri_cekme_raporu.md");
 const successReportPath = path.join(outputDir, "basari_yuzdesi_raporu.md");
@@ -188,6 +189,38 @@ const toRawPool = (fixtures, source) => ({
   })),
 });
 
+const toSporTotoBulletin = (fixtures, source) => {
+  const today = formatTurkeyDate();
+  return {
+    generated_at: new Date().toISOString(),
+    timezone: "Europe/Istanbul",
+    source,
+    week_label: `${today} / ${addDays(today, 6)}`,
+    match_count: Math.min(fixtures.length, 15),
+    matches: fixtures.slice(0, 15).map((fixture, index) => ({
+      no: index + 1,
+      week: `${today} / ${addDays(today, 6)}`,
+      date: fixture.date,
+      time: fixture.time,
+      league: fixture.league,
+      home: fixture.home,
+      away: fixture.away,
+      match: `${fixture.home} - ${fixture.away}`,
+      one: null,
+      draw: null,
+      two: null,
+      oneOdd: null,
+      drawOdd: null,
+      twoOdd: null,
+      decision: "Bekleniyor",
+      className: "Haftalık Spor Toto",
+      score: "-",
+      status: fixture.status || "scheduled",
+      source: fixture.source || source,
+    })),
+  };
+};
+
 const toPredictionHistory = () => ({
   generated_at: new Date().toISOString(),
   timezone: "Europe/Istanbul",
@@ -216,7 +249,7 @@ const writeReports = (fixtures, source) => {
 
   const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Guc Skoru", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
 
-  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Robot API anahtarı kullanmadan Maçkolik eski site İddaa Programı sayfasındaki bugünün maçlarını okur.\n`;
+  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Robot API anahtarı kullanmadan Maçkolik eski site İddaa Programı sayfasındaki bugünün maçlarını okur. Haftalık Spor Toto bülteni aynı maç havuzundan otomatik yenilenir.\n`;
 
   const successReport = `# Başarı Yüzdesi Raporu\n\n- Güncelleme: ${generatedAt}\n- Sonuçlanan tahmin sayısı: 0\n- Durum: Canlı tahmin geçmişi bekleniyor.\n`;
 
@@ -246,6 +279,7 @@ const main = async () => {
   writeJson(fixturesPath, fixtures);
   writeJson(rawPoolPath, toRawPool(fixtures, source));
   writeJson(historyPath, toPredictionHistory());
+  writeJson(sporTotoPath, toSporTotoBulletin(fixtures, source));
   writeReports(fixtures, source);
 
   console.log(`Futbol Laboratuvarı Maçkolik veri akışı güncellendi. Kaynak: ${source}. Maç: ${fixtures.length}`);
