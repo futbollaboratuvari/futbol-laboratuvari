@@ -21,8 +21,28 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Update Mackolik data
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python robot dependencies
+        working-directory: bu-klas-r-i-in-basit
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m playwright install chromium
+
+      - name: Update Mackolik fixture list
         run: node scripts/update-fixtures.js
+
+      - name: Run Python Mackolik robot
+        working-directory: bu-klas-r-i-in-basit
+        continue-on-error: true
+        run: python src/mackolik_veri_cekici.py
+
+      - name: Import robot raw pool into site data
+        run: node scripts/import-robot-raw-pool.js
 
       - name: Build robot analysis report
         run: node scripts/update-analysis-report.js
@@ -31,4 +51,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Mackolik fixtures and analysis"
-          file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json data/analiz_sonuclari.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md
+          file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json data/analiz_sonuclari.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md bu-klas-r-i-in-basit/data/ham_mac_havuzu.json bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md
