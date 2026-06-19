@@ -277,6 +277,19 @@ Yeni sohbetlerde GitHub erişimi için kullanılacak ifade:
 
 `GitHub hesabım bağlı. Futbol Laboratuvarı web sitesi repo adresim: futbollaboratuvari/futbol-laboratuvari. Bu repoya erişip dosyaları incele, gerekli düzenlemeleri yap, commit/push işlemlerini mümkünse GitHub üzerinden uygula.`
 
+Kullanıcı şu ifadeleri söylediğinde GitHub/repo inceleme komutu kabul edilecek:
+
+- `github'a gir`
+- `githubuma bak`
+- `github'a erişimin var`
+- `repo'ya bak`
+- `site repo'sunu incele`
+- `github'da kontrol et`
+- `github üzerinden düzenle`
+- `commit/push yap`
+
+Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/futbol-laboratuvari` reposu kontrol edilecek. GitHub aracı yoksa kullanıcıya GitHub/Codex için net talimat verilecek.
+
 ---
 
 ## 12. Son Yapılan Büyük İşler
@@ -291,6 +304,7 @@ Yeni sohbetlerde GitHub erişimi için kullanılacak ifade:
 - Üyelik ve ödeme paneli eklendi.
 - PayTR/şahıs şirketi süreci için karar verildi.
 - `MEGA_HAFIZA.md` proje hafıza deposu olarak oluşturuldu.
+- Yeni sohbetlerde GitHub çağırma kelimeleri belirlendi.
 
 ---
 
@@ -324,12 +338,12 @@ Otomatik sohbet sonu algılama garanti değildir; kullanıcı komut verdiğinde 
 
 ## 15. Son Hafıza Kaydı
 
-Bu kayıt, `hafızaya kaydet` komutuyla güncellendi.
+Bu kayıt, `hafızaya kayıt et` komutuyla güncellendi.
 
 Özet:
 
-- Kullanıcı, repo içinde kalıcı hafıza deposu istedi.
-- `MEGA_HAFIZA.md` dosyası oluşturuldu ve proje hafıza deposu olarak belirlendi.
-- Bu dosya sohbetlerde alınan kararların, commitlerin, site/robot akışlarının ve ödeme/üyelik planlarının kayıt yeri olacak.
-- Kullanıcı `hafızaya kaydet` veya benzer komut verdiğinde bu dosya güncellenecek.
-- Son odak: Şahıs şirketi açma süreci, PayTR başvurusu, üyelik/ödeme backend altyapısı ve premium özel maç analiz panelini gerçek ödeme sistemiyle bağlama.
+- Kullanıcı, yeni sohbetlerde `github'a gir`, `githubuma bak`, `github'a erişimin var` gibi ifadeler söylediğinde GitHub reposunun kontrol edilmesini istedi.
+- Bu ifadeler GitHub/repo inceleme komutu olarak kabul edilecek.
+- GitHub aracı mevcutsa doğrudan `futbollaboratuvari/futbol-laboratuvari` reposuna bakılacak.
+- GitHub aracı yoksa kullanıcıya Codex/GitHub için uygulanacak net talimat verilecek.
+- Proje hafıza deposu: `MEGA_HAFIZA.md`.
