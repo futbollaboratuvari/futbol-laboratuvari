@@ -1,0 +1,406 @@
+/* Futbol Laboratuvarı premium spor analiz teması
+   Dore + neon yeşil + koyu lacivert/parlament renk sistemi */
+:root {
+  --bg: #030817;
+  --panel: rgba(7, 18, 38, 0.88);
+  --panel-2: rgba(9, 28, 55, 0.92);
+  --panel-3: rgba(3, 10, 24, 0.96);
+  --line: rgba(213, 176, 90, 0.18);
+  --line-strong: rgba(57, 255, 136, 0.38);
+  --text: #f8fbff;
+  --muted: #aebbd0;
+  --green: #39ff88;
+  --green-2: #00c86f;
+  --amber: #ffd166;
+  --gold: #d8b257;
+  --gold-soft: rgba(216, 178, 87, 0.16);
+  --navy: #07152e;
+  --parliament: #0a2f63;
+  --shadow: 0 28px 90px rgba(0, 0, 0, 0.54);
+  --radius: 18px;
+}
+
+body {
+  background:
+    radial-gradient(circle at 10% -4%, rgba(57, 255, 136, 0.2), transparent 28%),
+    radial-gradient(circle at 86% 8%, rgba(10, 47, 99, 0.82), transparent 34%),
+    radial-gradient(circle at 60% 0%, rgba(216, 178, 87, 0.14), transparent 32%),
+    linear-gradient(180deg, #020617 0%, #06142b 34%, #020611 100%);
+  color: var(--text);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.026) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.026) 1px, transparent 1px);
+  background-size: 54px 54px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.85), transparent 76%);
+}
+
+.site-header {
+  background: rgba(3, 8, 23, 0.82);
+  border-bottom: 1px solid rgba(216, 178, 87, 0.22);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+}
+
+.brand {
+  letter-spacing: -0.02em;
+}
+
+.brand-mark {
+  border-radius: 16px;
+  border-color: rgba(216, 178, 87, 0.65);
+  background: linear-gradient(145deg, #06142b, #01040d);
+  box-shadow:
+    0 0 0 1px rgba(57, 255, 136, 0.14),
+    0 0 28px rgba(57, 255, 136, 0.22),
+    0 0 52px rgba(216, 178, 87, 0.13);
+}
+
+.nav-links a {
+  border: 1px solid transparent;
+  color: #c5d1e5;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  border-color: rgba(57, 255, 136, 0.28);
+  background: linear-gradient(180deg, rgba(57, 255, 136, 0.16), rgba(57, 255, 136, 0.06));
+  color: #ffffff;
+  box-shadow: 0 0 24px rgba(57, 255, 136, 0.12);
+}
+
+.dashboard-hero {
+  min-height: 620px;
+  padding-top: clamp(42px, 6vw, 76px);
+  padding-bottom: clamp(48px, 7vw, 88px);
+  background: transparent;
+  border-bottom: 1px solid rgba(216, 178, 87, 0.18);
+}
+
+.hero-media {
+  background:
+    radial-gradient(circle at 18% 12%, rgba(57, 255, 136, 0.18), transparent 28%),
+    radial-gradient(circle at 84% 18%, rgba(216, 178, 87, 0.18), transparent 32%),
+    linear-gradient(110deg, rgba(2, 6, 17, 0.98), rgba(7, 21, 46, 0.94) 54%, rgba(3, 8, 23, 0.98)),
+    url("assets/images/hero-studio.webp") center/cover no-repeat;
+  filter: saturate(1.08) contrast(1.05);
+}
+
+.dashboard-hero::before {
+  content: "";
+  position: absolute;
+  inset: 24px clamp(18px, 5vw, 72px);
+  z-index: 0;
+  border: 1px solid rgba(216, 178, 87, 0.18);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(216, 178, 87, 0.08), transparent 28%),
+    linear-gradient(315deg, rgba(57, 255, 136, 0.08), transparent 30%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  pointer-events: none;
+}
+
+.dashboard-hero::after {
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    radial-gradient(circle at 74% 44%, rgba(57, 255, 136, 0.14), transparent 28%);
+  background-size: 76px 76px, auto;
+  opacity: 0.78;
+}
+
+.hero-brand-lockup {
+  border-radius: 999px;
+  border-color: rgba(216, 178, 87, 0.4);
+  background: rgba(3, 8, 23, 0.72);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 0 28px rgba(57, 255, 136, 0.12);
+}
+
+.hero-brand-lockup span,
+.hero-proof span,
+.fixture-league,
+.spor-summary span,
+.media-card h3,
+.pro-market-card strong {
+  color: #f7df9a;
+}
+
+.eyebrow {
+  color: var(--green);
+  text-shadow: 0 0 22px rgba(57, 255, 136, 0.28);
+}
+
+.dashboard-hero h1 {
+  max-width: 720px;
+  font-size: clamp(40px, 5.6vw, 70px);
+  letter-spacing: -0.055em;
+  text-wrap: balance;
+}
+
+.dashboard-hero h1::after {
+  content: "";
+  display: block;
+  width: min(220px, 58vw);
+  height: 4px;
+  margin-top: 18px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--gold), var(--green), transparent);
+  box-shadow: 0 0 28px rgba(57, 255, 136, 0.35);
+}
+
+.hero-content > p:not(.eyebrow) {
+  color: #c7d5e8;
+  font-size: 18px;
+}
+
+.hero-proof span,
+.spor-summary span,
+.opinion-metrics span {
+  border: 1px solid rgba(216, 178, 87, 0.26);
+  border-left: 3px solid var(--green);
+  background: rgba(3, 8, 23, 0.68);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 13px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(57, 255, 136, 0.42);
+  background: linear-gradient(135deg, rgba(57, 255, 136, 0.95), rgba(0, 200, 111, 0.88));
+  color: #02110a;
+  font-size: 14px;
+  font-weight: 950;
+  letter-spacing: 0.02em;
+  box-shadow: 0 0 34px rgba(57, 255, 136, 0.22);
+}
+
+.hero-button.secondary {
+  border-color: rgba(216, 178, 87, 0.44);
+  background: rgba(3, 8, 23, 0.72);
+  color: #f7df9a;
+}
+
+.pro-market-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.pro-market-card {
+  padding: 13px;
+  border: 1px solid rgba(216, 178, 87, 0.2);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(10, 47, 99, 0.42), rgba(3, 8, 23, 0.76)),
+    rgba(3, 8, 23, 0.76);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.pro-market-card span {
+  display: block;
+  margin-bottom: 6px;
+  color: #8fa2c0;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.pro-market-card strong {
+  display: block;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.platform-summary div,
+.strongest-card,
+.analysis-card,
+.module-card,
+.success-card,
+.fixture-card,
+.spor-card,
+.table-wrap,
+.opinion-panel,
+.founder-card,
+.media-card,
+.robot-live-status span,
+.robot-live-card,
+.robot-stack article,
+.robot-admin-tables article,
+.robot-disclaimer {
+  border-radius: 20px;
+  border-color: rgba(216, 178, 87, 0.22);
+  background:
+    linear-gradient(160deg, rgba(10, 47, 99, 0.34), transparent 42%),
+    linear-gradient(180deg, rgba(8, 23, 48, 0.92), rgba(3, 8, 23, 0.95));
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.platform-summary div {
+  border-top-color: rgba(57, 255, 136, 0.5);
+}
+
+.platform-summary strong,
+.prediction-box b,
+.probability-grid b,
+.decision-row strong,
+.success-card strong,
+.module-card span,
+.fixture-card time {
+  color: var(--green);
+  text-shadow: 0 0 20px rgba(57, 255, 136, 0.22);
+}
+
+.section-heading {
+  max-width: 920px;
+}
+
+.section-heading h2,
+.opinion-panel h2,
+.spor-card h3,
+.founder-copy h2 {
+  color: #f7df9a;
+  letter-spacing: -0.035em;
+}
+
+.fixtures-section,
+.spor-toto-section,
+.database-section,
+.robot-live-section {
+  background:
+    linear-gradient(180deg, rgba(216, 178, 87, 0.05), transparent 50%),
+    radial-gradient(circle at 12% 20%, rgba(57, 255, 136, 0.1), transparent 28%),
+    radial-gradient(circle at 90% 0%, rgba(10, 47, 99, 0.5), transparent 35%);
+}
+
+.analysis-card:hover,
+.fixture-card:hover,
+.spor-card:hover,
+.module-card:hover,
+.media-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(57, 255, 136, 0.48);
+  box-shadow:
+    0 32px 88px rgba(0, 0, 0, 0.5),
+    0 0 42px rgba(57, 255, 136, 0.1);
+}
+
+.prediction-box,
+.probability-grid span,
+.fixture-team,
+.summary-grid span {
+  border: 1px solid rgba(216, 178, 87, 0.16);
+  background: rgba(3, 8, 23, 0.56);
+}
+
+.score-line i,
+.spark i {
+  background: linear-gradient(90deg, var(--gold), var(--green));
+  box-shadow: 0 0 18px rgba(57, 255, 136, 0.22);
+}
+
+.confidence-ring {
+  background: conic-gradient(var(--green) var(--percent), rgba(216, 178, 87, 0.16) 0);
+  box-shadow: 0 0 38px rgba(57, 255, 136, 0.16);
+}
+
+.confidence-ring span {
+  background: #06142b;
+}
+
+table {
+  color: #dfe8f7;
+}
+
+th {
+  color: #f7df9a;
+}
+
+td {
+  color: #d9e3f3;
+}
+
+.status.won {
+  background: rgba(57, 255, 136, 0.14);
+  color: #c8ffdd;
+}
+
+.status.pending {
+  background: rgba(216, 178, 87, 0.14);
+  color: #f7df9a;
+}
+
+.robot-match-card {
+  border-color: rgba(57, 255, 136, 0.34);
+  background:
+    linear-gradient(160deg, rgba(10, 47, 99, 0.72), rgba(3, 8, 23, 0.92)),
+    rgba(3, 8, 23, 0.9);
+}
+
+.robot-pill {
+  background: rgba(57, 255, 136, 0.13);
+  color: #c8ffdd;
+}
+
+.footer {
+  background: rgba(3, 8, 23, 0.72);
+  border-top-color: rgba(216, 178, 87, 0.2);
+}
+
+@media (max-width: 1120px) {
+  .pro-market-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  .nav-links {
+    background: rgba(3, 8, 23, 0.98);
+    border-color: rgba(216, 178, 87, 0.24);
+  }
+}
+
+@media (max-width: 640px) {
+  .dashboard-hero::before {
+    inset: 12px;
+    border-radius: 22px;
+  }
+
+  .dashboard-hero h1 {
+    max-width: none;
+    font-size: clamp(34px, 10.8vw, 44px);
+  }
+
+  .hero-actions,
+  .hero-button {
+    width: 100%;
+  }
+
+  .pro-market-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .pro-market-card {
+    padding: 14px;
+  }
+}
