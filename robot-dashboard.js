@@ -6,41 +6,10 @@ const robotPaths = {
   predictionHistory: "./data/tahmin_gecmisi.json"
 };
 
-const robotDemo = {
-  source: "Demo Mode",
-  isDemo: true,
-  matches: [
-    {
-      Mac: "Liverpool FC - AFC Bournemouth",
-      Lig: "Premier League",
-      Saat: "21:45",
-      "En Guclu Market": "Ust 2.5",
-      "Guc Skoru": "82",
-      Confidence: "78",
-      Risk: "orta",
-      source: "Demo veri"
-    },
-    {
-      Mac: "PSV - Utrecht",
-      Lig: "Eredivisie",
-      Saat: "20:30",
-      "En Guclu Market": "KG Var",
-      "Guc Skoru": "79",
-      Confidence: "75",
-      Risk: "orta",
-      source: "Demo veri"
-    },
-    {
-      Mac: "Malmo - Hammarby",
-      Lig: "Allsvenskan",
-      Saat: "19:00",
-      "En Guclu Market": "Ust 2.5",
-      "Guc Skoru": "76",
-      Confidence: "73",
-      Risk: "yuksek",
-      source: "Demo veri"
-    }
-  ],
+const robotEmptyState = {
+  source: "Canlı veri bekleniyor",
+  isDemo: false,
+  matches: [],
   singleCoupons: [],
   doubleCoupons: [],
   tripleCoupons: [],
@@ -98,14 +67,14 @@ function robotTable(markdown, heading) {
     headers.forEach((header, cellIndex) => row[header] = cells[cellIndex] || "");
     rows.push(row);
   }
-  return rows;
+  return rows.filter((row) => Object.values(row).some((value) => value && value !== "-"));
 }
 
 function robotSource(markdown) {
   const lines = markdown.split(/\r?\n/);
   const index = lines.findIndex((line) => line.includes("Aktif Veri"));
   const sourceLine = lines.slice(index + 1, index + 6).find((line) => line.trim().startsWith("- "));
-  return sourceLine ? sourceLine.replace("- ", "").trim() : "Robot verisi";
+  return sourceLine ? sourceLine.replace("- ", "").trim() : "Canlı veri bekleniyor";
 }
 
 function robotSet(selector, value) {
@@ -131,11 +100,7 @@ function robotTeams(row) {
   const away = row.deplasman || row.away_team_name || row.away_team || row.away || "";
   if (home || away) return { home: home || "-", away: away || "-", match: `${home || "-"} - ${away || "-"}` };
   const parts = String(match).split(/\s+-\s+|\s+vs\s+/i);
-  return {
-    home: parts[0] || "Ev sahibi",
-    away: parts[1] || "Deplasman",
-    match: match || "Veri bulunamadi"
-  };
+  return { home: parts[0] || "Ev sahibi", away: parts[1] || "Deplasman", match: match || "Canlı veri bekleniyor" };
 }
 
 function robotTime(row) {
@@ -145,7 +110,7 @@ function robotTime(row) {
 }
 
 function robotMarket(row) {
-  return row["En Guclu Market"] || row["En Güçlü Market"] || row.Market || row.market_name || row.market || "-";
+  return row["En Guclu Market"] || row["En Güçlü Market"] || row.Market || row.market_name || row.market || "Veri bekleniyor";
 }
 
 function robotConfidence(row) {
@@ -166,15 +131,15 @@ function robotStrongestSignal(rows) {
   return best.market || "-";
 }
 
-function robotMatchCard(row, index, isDemo = false) {
+function robotMatchCard(row, index) {
   const teams = robotTeams(row);
   const league = row.Lig || row.competition_name || row.league || "-";
   const market = robotMarket(row);
   const confidence = robotConfidence(row);
   const risk = row.Risk || row.risk_level || "-";
   const power = row["Guc Skoru"] || row["Güç Skoru"] || row.Guc || row.guc_skoru || "-";
-  const source = isDemo ? "Demo veri" : (row.source || "Robot");
-  const status = row.status || row.result_status || "takipte";
+  const source = row.source || "Robot";
+  const status = row.Status || row.status || row.result_status || "takipte";
   const time = robotTime(row);
   return `
     <article class="robot-live-card robot-match-card">
@@ -194,7 +159,7 @@ function robotMatchCard(row, index, isDemo = false) {
       <div class="robot-row"><span>Güven skoru</span><strong>${robotEscape(confidence)}</strong></div>
       <div class="robot-row"><span>Güç skoru</span><strong>${robotEscape(power)}</strong></div>
       <div class="robot-row"><span>Durum</span><strong>${robotEscape(status)}</strong></div>
-      <p class="robot-note">Kısa analiz: ${robotEscape(market)} sinyali öne çıkıyor; bu kart karar destek amaçlıdır.</p>
+      <p class="robot-note">Canlı veri kartı robot çıktısından üretilir; kesin sonuç garantisi vermez.</p>
     </article>
   `;
 }
@@ -215,8 +180,8 @@ function robotCoupon(row) {
   `;
 }
 
-function robotFill(selector, rows, renderer, empty = "Veri bulunamadi.", isDemo = false) {
-  const html = rows.length ? rows.map((row, index) => renderer(row, index, isDemo)).join("") : `<article class="robot-live-card">${robotEscape(empty)}</article>`;
+function robotFill(selector, rows, renderer, empty = "Canlı veri bekleniyor.") {
+  const html = rows.length ? rows.map((row, index) => renderer(row, index)).join("") : `<article class="robot-live-card">${robotEscape(empty)}</article>`;
   document.querySelectorAll(selector).forEach((item) => item.innerHTML = html);
 }
 
@@ -238,17 +203,15 @@ async function robotLoadState() {
   ]);
   const markdown = mainReport.data || "";
   const matches = robotTable(markdown, "Skorlanan Maclar");
-  const noUsableData = !matches.length && !rawPool.ok && !history.ok;
-  if (noUsableData) return { ...robotDemo, reports: { mainReport, mackolikReport, successReport, rawPool, history } };
   return {
-    source: matches.length ? robotSource(markdown) : "Demo Mode",
-    isDemo: !matches.length,
-    matches: matches.length ? matches : robotDemo.matches,
+    ...robotEmptyState,
+    source: matches.length ? robotSource(markdown) : (rawPool.data?.source || "Canlı veri bekleniyor"),
+    matches,
     singleCoupons: robotTable(markdown, "Tek Mac Onerileri"),
     doubleCoupons: robotTable(markdown, "2'li Kupon Onerileri"),
     tripleCoupons: robotTable(markdown, "3'lu Kupon Onerileri"),
-    rawPool: rawPool.data || robotDemo.rawPool,
-    history: history.data || robotDemo.history,
+    rawPool: rawPool.data || robotEmptyState.rawPool,
+    history: history.data || robotEmptyState.history,
     reports: { mainReport, mackolikReport, successReport, rawPool, history }
   };
 }
@@ -256,13 +219,13 @@ async function robotLoadState() {
 function robotRenderReports(state) {
   const reports = [
     ["Bugünün En Güçlü Maçları", state.reports.mainReport, robotPaths.mainReport],
-    ["Maçkolik Veri Çekme", state.reports.mackolikReport, robotPaths.mackolikReport],
+    ["Veri Çekme Raporu", state.reports.mackolikReport, robotPaths.mackolikReport],
     ["Başarı Yüzdesi", state.reports.successReport, robotPaths.successReport],
     ["Ham Veri Havuzu", state.reports.rawPool, robotPaths.rawPool],
     ["Tahmin Geçmişi", state.reports.history, robotPaths.predictionHistory]
   ].map(([name, result, path]) => `
     <article class="robot-live-card">
-      <span class="robot-pill">${result && result.ok ? "okundu" : "veri bulunamadi"}</span>
+      <span class="robot-pill">${result && result.ok ? "okundu" : "veri bekleniyor"}</span>
       <h3>${robotEscape(name)}</h3>
       <p class="robot-note">${robotEscape(result && result.error ? result.error : path)}</p>
     </article>
@@ -279,24 +242,24 @@ async function robotBoot() {
   robotSet("[data-strongest-signal]", robotStrongestSignal(visibleMatches));
   robotSet("[data-raw-count]", String(state.rawPool.match_count || state.rawPool.matches?.length || 0));
   robotSet("[data-prediction-count]", String(state.history.prediction_count || state.history.predictions?.length || 0));
-  robotSet("[data-load-status]", state.isDemo ? "Demo veri" : "Robot verisi");
+  robotSet("[data-load-status]", visibleMatches.length ? "Robot verisi" : "Canlı veri bekleniyor");
   robotSet("[data-success-state]", state.history.predictions?.some((item) => item.result_status !== "pending") ? "sonuçlandı" : "bekliyor");
-  robotFill("[data-home-matches], [data-admin-matches]", visibleMatches, robotMatchCard, "Veri bulunamadi.", state.isDemo);
-  robotFill("[data-coupons-single]", state.singleCoupons, robotCoupon);
-  robotFill("[data-coupons-double]", state.doubleCoupons, robotCoupon);
-  robotFill("[data-coupons-triple]", state.tripleCoupons, robotCoupon);
+  robotFill("[data-home-matches], [data-admin-matches]", visibleMatches, robotMatchCard, "Canlı maç verisi bekleniyor.");
+  robotFill("[data-coupons-single]", state.singleCoupons, robotCoupon, "Tekli kupon verisi bekleniyor.");
+  robotFill("[data-coupons-double]", state.doubleCoupons, robotCoupon, "2'li kupon verisi bekleniyor.");
+  robotFill("[data-coupons-triple]", state.tripleCoupons, robotCoupon, "3'lü kupon verisi bekleniyor.");
   robotTableBody("[data-raw-table]", (state.rawPool.matches || []).slice(0, 12), [
     (row) => `${row.home_team_name || row.home_team || "-"} - ${row.away_team_name || row.away_team || "-"}`,
     (row) => row.competition_name || row.league || "-",
-    (row) => String(row.utc_date || row.date || "-").slice(0, 16),
+    (row) => `${row.date || ""} ${row.time || ""}`.trim() || String(row.utc_date || "-").slice(0, 16),
     (row) => row.source || "unknown"
-  ], "Ham veri bulunamadi.");
+  ], "Ham canlı veri bekleniyor.");
   robotTableBody("[data-prediction-table]", (state.history.predictions || []).slice(0, 12), [
     (row) => row.match || "-",
     (row) => row.market_name || row.market || "-",
     (row) => row.confidence_score || row.confidence || "-",
     (row) => row.result_status || "pending"
-  ], "Tahmin geçmişi bulunamadi.");
+  ], "Tahmin geçmişi bekleniyor.");
   robotRenderReports(state);
 }
 
