@@ -1,0 +1,40 @@
+/* Header çakışma koruması: sahte butonları ve tekrar ayırıcı taşmalarını kapatır. */
+.site-header::after {
+  content: none !important;
+  display: none !important;
+}
+
+.nav-links.nav-classified a:not(:last-child)::after {
+  content: none !important;
+  display: none !important;
+}
+
+.nav-links.nav-classified a {
+  gap: 5px !important;
+}
+
+.nav-link-icon {
+  flex: 0 0 auto !important;
+}
+
+.fl-access-actions {
+  grid-column: 3 !important;
+  grid-row: 1 / span 2 !important;
+  justify-self: end !important;
+  align-self: center !important;
+  margin-left: 0 !important;
+}
+
+@media (max-width: 1180px) {
+  .fl-access-actions {
+    grid-column: 1 / -1 !important;
+    grid-row: auto !important;
+    justify-self: end !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .fl-access-actions {
+    display: none !important;
+  }
+}
