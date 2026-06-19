@@ -1,12 +1,13 @@
 /* Profesyonel sınıflandırılmış üst menü tasarımı */
 .site-header {
-  gap: clamp(18px, 2vw, 32px) !important;
+  gap: clamp(14px, 1.6vw, 26px) !important;
   padding: 16px clamp(18px, 5vw, 78px) !important;
   background:
     radial-gradient(circle at 8% 20%, rgba(255, 185, 46, .10), transparent 32%),
     linear-gradient(180deg, rgba(3, 8, 23, .95), rgba(4, 12, 24, .92)) !important;
   border-bottom: 1px solid rgba(255, 214, 102, .20) !important;
   box-shadow: 0 18px 48px rgba(0, 0, 0, .26), inset 0 -1px 0 rgba(57, 255, 136, .08) !important;
+  flex-wrap: wrap !important;
 }
 
 .brand {
@@ -46,16 +47,18 @@
 .nav-links.nav-classified {
   align-items: stretch;
   justify-content: flex-end;
-  gap: 12px;
-  row-gap: 10px;
-  width: min(100%, 1040px);
+  gap: 10px;
+  row-gap: 9px;
+  flex: 1 1 720px;
+  width: auto;
+  min-width: min(100%, 620px);
 }
 
 .nav-group {
   display: flex;
   align-items: center;
-  gap: 7px;
-  padding: 7px;
+  gap: 6px;
+  padding: 6px;
   border: 1px solid rgba(255, 214, 102, 0.18);
   border-radius: 999px;
   background:
@@ -85,7 +88,7 @@
   align-items: center;
   justify-content: center;
   min-height: 36px;
-  padding: 9px 14px;
+  padding: 9px 12px;
   border: 1px solid transparent;
   border-radius: 999px;
   color: #cfd8e8;
@@ -124,13 +127,32 @@
   background: rgba(255, 214, 102, .12);
 }
 
+@media (max-width: 1450px) {
+  .nav-group-label {
+    display: none;
+  }
+
+  .nav-links.nav-classified {
+    flex-basis: 620px;
+    gap: 8px;
+  }
+
+  .nav-links.nav-classified a {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 1320px) {
   .site-header {
     align-items: flex-start !important;
   }
 
   .nav-links.nav-classified {
-    width: min(100%, 920px);
+    order: 2;
+    flex-basis: 100%;
+    min-width: 100%;
+    justify-content: flex-start;
     gap: 9px;
     font-size: 12px;
   }
@@ -141,14 +163,9 @@
   }
 
   .nav-group-label {
+    display: inline-flex;
     font-size: 10px;
     letter-spacing: .13em;
-  }
-
-  .nav-links.nav-classified a {
-    min-height: 34px;
-    padding: 8px 11px;
-    font-size: 12px;
   }
 }
 
@@ -196,6 +213,7 @@
   .nav-links.nav-classified {
     align-items: stretch;
     width: auto;
+    min-width: 100%;
     gap: 10px;
   }
 
