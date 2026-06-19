@@ -78,6 +78,11 @@
   visitorLanguageScript.defer = true;
   document.body.appendChild(visitorLanguageScript);
 
+  const siteTypographyScript = document.createElement("script");
+  siteTypographyScript.src = "site-typography-system.js";
+  siteTypographyScript.defer = true;
+  document.body.appendChild(siteTypographyScript);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
