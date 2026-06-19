@@ -51,6 +51,12 @@ const keyOf = (item) => [
   normalizeName(item.away || item.away_team_name || item.deplasman),
 ].join("|");
 
+const teamKeyOf = (item) => [
+  normalizeName(item.league || item.competition_name || item.lig),
+  normalizeName(item.home || item.home_team_name || item.ev_sahibi),
+  normalizeName(item.away || item.away_team_name || item.deplasman),
+].join("|");
+
 const pickOdds = (item) => {
   const odds = item.oranlar || item.odds || {};
   const result = {};
@@ -71,6 +77,11 @@ const pickOdds = (item) => {
   set(["kg_yok", "bttsNo", "kgYok", "yokOdd", "yok"], ["bttsNo", "kgYok", "yokOdd", "yok"]);
 
   return result;
+};
+
+const hasOdds = (item) => {
+  const odds = pickOdds(item);
+  return Boolean(odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok);
 };
 
 const rawToFixture = (item) => {
@@ -99,21 +110,38 @@ const main = () => {
   const robotPool = readJson(robotRawPoolPath, { matches: [] });
   const today = formatTurkeyDate();
   const robotMatches = Array.isArray(robotPool.matches) ? robotPool.matches.map(rawToFixture).filter(Boolean) : [];
-  const currentRobotMatches = robotMatches.filter((item) => item.date >= today);
-  const byKey = new Map(siteFixtures.map((item) => [keyOf(item), item]));
+  const currentRobotMatches = robotMatches.filter((item) => item.date >= today || hasOdds(item));
+
+  const byExactKey = new Map(siteFixtures.map((item) => [keyOf(item), item]));
+  const oddsByTeamKey = new Map();
+
+  for (const robotMatch of currentRobotMatches) {
+    if (hasOdds(robotMatch)) oddsByTeamKey.set(teamKeyOf(robotMatch), robotMatch);
+  }
 
   for (const robotMatch of currentRobotMatches) {
     const key = keyOf(robotMatch);
-    const existing = byKey.get(key);
+    const existing = byExactKey.get(key);
     if (existing) {
-      byKey.set(key, { ...existing, ...pickOdds(robotMatch), matchCode: robotMatch.matchCode || existing.matchCode || null, oddsSource: robotMatch.oddsSource });
-    } else {
-      byKey.set(key, robotMatch);
+      byExactKey.set(key, { ...existing, ...pickOdds(robotMatch), matchCode: robotMatch.matchCode || existing.matchCode || null, oddsSource: robotMatch.oddsSource });
+    } else if (robotMatch.date >= today) {
+      byExactKey.set(key, robotMatch);
     }
   }
 
-  const mergedFixtures = [...byKey.values()].sort((a, b) => String(a.date || "").localeCompare(String(b.date || "")) || String(a.time || "99:99").localeCompare(String(b.time || "99:99")));
-  const oddsCount = mergedFixtures.filter((item) => item.oneOdd || item.drawOdd || item.twoOdd || item.under25 || item.over25 || item.kgVar || item.kgYok).length;
+  const mergedFixtures = [...byExactKey.values()].map((fixture) => {
+    if (hasOdds(fixture)) return fixture;
+    const teamMatch = oddsByTeamKey.get(teamKeyOf(fixture));
+    if (!teamMatch) return fixture;
+    return {
+      ...fixture,
+      ...pickOdds(teamMatch),
+      matchCode: teamMatch.matchCode || fixture.matchCode || null,
+      oddsSource: "Robot ham veri havuzu takım eşleşmesi",
+    };
+  }).sort((a, b) => String(a.date || "").localeCompare(String(b.date || "")) || String(a.time || "99:99").localeCompare(String(b.time || "99:99")));
+
+  const oddsCount = mergedFixtures.filter(hasOdds).length;
 
   writeJson(siteFixturesPath, mergedFixtures);
   writeJson(siteRawPoolPath, {
