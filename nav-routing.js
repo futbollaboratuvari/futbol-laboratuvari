@@ -38,6 +38,11 @@
   dailyToggleScript.defer = true;
   document.body.appendChild(dailyToggleScript);
 
+  const couponDesignScript = document.createElement("script");
+  couponDesignScript.src = "coupon-design.js";
+  couponDesignScript.defer = true;
+  document.body.appendChild(couponDesignScript);
+
   const couponCommentsScript = document.createElement("script");
   couponCommentsScript.src = "coupon-comments.js";
   couponCommentsScript.defer = true;
