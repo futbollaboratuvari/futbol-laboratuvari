@@ -6,6 +6,11 @@
   styleLink.href = "nav-position.css";
   document.head.appendChild(styleLink);
 
+  const couponCommentsScript = document.createElement("script");
+  couponCommentsScript.src = "coupon-comments.js";
+  couponCommentsScript.defer = true;
+  document.body.appendChild(couponCommentsScript);
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
