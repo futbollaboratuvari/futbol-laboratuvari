@@ -5,7 +5,10 @@
   "description": "Futbol Laboratuvarı statik site ve premium ödeme altyapısı",
   "scripts": {
     "dev": "vercel dev",
-    "start": "vercel dev"
+    "start": "vercel dev",
+    "update:fixtures": "node scripts/update-fixtures.js",
+    "update:analysis": "node scripts/update-analysis-report.js",
+    "update:all": "node scripts/update-fixtures.js && node scripts/update-analysis-report.js"
   },
   "engines": {
     "node": ">=20"
