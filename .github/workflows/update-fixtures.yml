@@ -24,8 +24,11 @@ jobs:
       - name: Update Mackolik data
         run: node scripts/update-fixtures.js
 
+      - name: Build robot analysis report
+        run: node scripts/update-analysis-report.js
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update Mackolik fixtures"
-          file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md
+          commit_message: "Update Mackolik fixtures and analysis"
+          file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json data/analiz_sonuclari.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md
