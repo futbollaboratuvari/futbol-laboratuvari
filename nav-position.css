@@ -1,0 +1,16 @@
+section[id] {
+  scroll-margin-top: 120px;
+}
+
+.nav-links.nav-classified a.active {
+  border-color: rgba(57, 255, 136, 0.58);
+  background: linear-gradient(135deg, rgba(57, 255, 136, 0.24), rgba(216, 178, 87, 0.12));
+  color: #ffffff;
+  box-shadow: 0 0 26px rgba(57, 255, 136, 0.18);
+}
+
+@media (max-width: 860px) {
+  section[id] {
+    scroll-margin-top: 96px;
+  }
+}
