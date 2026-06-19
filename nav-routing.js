@@ -53,6 +53,11 @@
   paymentGoldThemeScript.defer = true;
   document.body.appendChild(paymentGoldThemeScript);
 
+  const paymentLuxuryTiersScript = document.createElement("script");
+  paymentLuxuryTiersScript.src = "payment-luxury-tiers.js";
+  paymentLuxuryTiersScript.defer = true;
+  document.body.appendChild(paymentLuxuryTiersScript);
+
   const premiumAnalysisScript = document.createElement("script");
   premiumAnalysisScript.src = "premium-analysis-panel.js";
   premiumAnalysisScript.defer = true;
