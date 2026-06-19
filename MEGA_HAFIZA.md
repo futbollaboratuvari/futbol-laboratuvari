@@ -18,7 +18,7 @@ Amaç: Sohbetlerde alınan kararlar, yapılan site/robot değişiklikleri, ödem
 
 ---
 
-## 2. Site Dili ve Ziyaretçi Kuralları
+## 2. Ziyaretçi Dili ve Genel Kurallar
 
 Ziyaretçiye teknik/robot iç dili gösterilmez.
 
@@ -48,12 +48,106 @@ Kaçınılacak iç ifadeler:
 - teknik robot katmanı
 - veri olmadan seçim gösterilmez
 - `market` kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine `seçenek` kullanılır.
+- `Widget` kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine panel/merkez/alan dili kullanılır.
+
+Ziyaretçi dili temizliği dosyası:
+
+- `visitor-language.js`
 
 ---
 
-## 3. Günlük Maç Bülteni
+## 3. Üst Menü, Giriş ve Üyelik Akışı
 
-Dosya: `daily-matches-widget.js`
+Güncel üst menü sadeleştirildi.
+
+Ana menü akışı:
+
+- Futbol Laboratuvarı
+  - Ana Sayfa
+  - Bugünün Maçları
+- Analiz & Üyelik
+  - Kupon Merkezi
+  - Üyelik
+  - Özel Analiz
+- Sonuçlar & Marka
+  - Sonuçlar
+  - Performans
+  - Hakkımızda
+  - Yönetim
+
+Yeni üyelik/giriş akışı dosyası:
+
+- `user-access-flow.js`
+
+Üst erişim butonları:
+
+- `👤 Giriş Yap`
+- `🎁 1 Gün Dene`
+
+Karar:
+
+- Site üyelik olmadan gezilebilir.
+- Ücretsiz deneme, paket satın alma ve özel analiz için üyelik bilgileri gerekir.
+- Kullanıcı paket/deneme aşamasında hızlı üyelik akışına yönlendirilir.
+- Menü ikonları daha anlaşılır ziyaretçi akışı için eklendi.
+
+İkon sistemi:
+
+- Ana Sayfa → 🏠
+- Bugünün Maçları → ⚽
+- Kupon Merkezi → 🎫
+- Üyelik Paketleri → 🏆
+- Özel Analiz → 🎯
+- Sonuçlar → 🏁
+- Performans → 📊
+- Hakkımızda → FL
+- Yönetim → ⚙️
+- Giriş Yap → 👤
+- 1 Gün Dene → 🎁
+
+Üst menü çakışma düzeni:
+
+- `nav-theme.css` güncellendi.
+- Header artık flex-wrap kullanır.
+- Geniş ekran, orta ekran ve mobil için ayrı genişlik ayarları vardır.
+- Logo 1 tık büyütüldü; marka alanı daha premium yapıldı.
+
+---
+
+## 4. Canlı Kontrol Merkezi
+
+Yeni dosya:
+
+- `live-control-center.js`
+
+Amaç:
+
+- Site içinden maç akışı ve analiz durumunu tek bakışta göstermek.
+- Maç listesi aktif mi kontrol etmek.
+- Yayınlanabilir analiz/kupon var mı kontrol etmek.
+- Üyelik/deneme akışının hazır olduğunu göstermek.
+
+Gösterilen kartlar:
+
+- Bugünün maç listesi
+- Toplam maç kaydı
+- Yayınlanabilir analiz / kupon
+- Ücretsiz deneme ve üyelik akışı
+
+Gerçek durum notu:
+
+- `data/fixtures.json` içinde maç listesi vardır; bu yüzden maç akışı site tarafında aktiftir.
+- `data/analiz_sonuclari.json` dosyasında `active_items` ve `completed_items` şu anda boştur.
+- Bu nedenle gerçek yayınlanabilir kupon/analiz henüz aktif değildir.
+- Sistem kupon uydurmaz; analiz gelene kadar hazırlık mesajı gösterir.
+
+---
+
+## 5. Günlük Maç Bülteni
+
+Dosya:
+
+- `daily-matches-widget.js`
 
 Özellikler:
 
@@ -78,9 +172,11 @@ Tasarım sınıfı:
 
 ---
 
-## 4. Maç Sonuçları Paneli
+## 6. Maç Sonuçları Paneli
 
-Dosya: `match-results-widget.js`
+Dosya:
+
+- `match-results-widget.js`
 
 Amaç:
 
@@ -96,9 +192,11 @@ Tasarım sınıfı:
 
 ---
 
-## 5. Kupon Merkezi ve Günün Analiz Kuponları
+## 7. Kupon Merkezi ve Günün Analiz Kuponları
 
-Dosya: `coupon-design.js`
+Dosya:
+
+- `coupon-design.js`
 
 Amaç:
 
@@ -112,8 +210,8 @@ Kaynak veri:
 
 Kural:
 
-- Robot gerçek analiz üretmeden kupon gösterilmez.
-- Demo/beta bekleme verisi kupon olarak yayınlanmaz.
+- Robot/sistem gerçek analiz üretmeden kupon gösterilmez.
+- Beta/hazırlık verisi kupon olarak yayınlanmaz.
 
 Tasarım sınıfı:
 
@@ -123,7 +221,7 @@ Tasarım sınıfı:
 
 ---
 
-## 6. Robot Beta Sürüm Akışı
+## 8. Robot Beta Sürüm Akışı
 
 Robot artık demo adıyla değil beta sürüm adıyla anılacak.
 
@@ -145,11 +243,19 @@ Kural:
 - API yoksa robot durmaz; beta bekleme raporu üretir.
 - Gerçek canlı veri yoksa siteye kupon basılmaz.
 
+Mevcut durum:
+
+- Maç listesi siteye geliyor.
+- Yayınlanabilir analiz/kupon henüz boş.
+- Sonraki teknik iş: robotun gerçek analiz çıktısını `data/analiz_sonuclari.json` içine güvenli biçimde yazdırmak ve workflow/backend akışına bağlamak.
+
 ---
 
-## 7. Robot Kalıcı Maç Arşivi
+## 9. Robot Kalıcı Maç Arşivi
 
-Dosya: `data/robot_match_archive.json`
+Dosya:
+
+- `data/robot_match_archive.json`
 
 Amaç:
 
@@ -162,26 +268,17 @@ Güncelleme scripti:
 
 - `scripts/update-match-archive.js`
 
-Takım istatistikleri:
-
-- maç sayısı
-- biten maç sayısı
-- galibiyet
-- beraberlik
-- mağlubiyet
-- attığı gol
-- yediği gol
-- son 10 maç formu
-
 Not:
 
 - Repo public olduğu için dosyaya direkt link bilen teknik olarak erişebilir. Gerçek gizlilik için ileride private backend/database gerekir.
 
 ---
 
-## 8. Premium Özel Maç Analizi Paneli
+## 10. Premium Özel Maç Analizi Paneli
 
-Dosya: `premium-analysis-panel.js`
+Dosya:
+
+- `premium-analysis-panel.js`
 
 Amaç:
 
@@ -203,13 +300,9 @@ Seçenekler:
 - İY X
 - İY 2
 
-Beta erişim kodu:
-
-- `FL-BETA`
-
 Mevcut durum:
 
-- Frontend beta panel hazır.
+- Frontend panel hazır.
 - Gerçek üyelik, ödeme ve analiz kuyruğu için backend gerekir.
 - Bu panel projenin ana kilit taşıdır: ödeme yapan kullanıcı özel maç seçip seçeneğe göre robot analizi isteyecek.
 
@@ -220,7 +313,7 @@ Tasarım sınıfı:
 
 ---
 
-## 9. Üyelik, Paket ve Ödeme Paneli
+## 11. Üyelik, Paket ve Ödeme Paneli
 
 Ana dosyalar:
 
@@ -228,6 +321,7 @@ Ana dosyalar:
 - `membership-payment-panel.js`
 - `payment-gold-theme.js`
 - `payment-luxury-tiers.js`
+- `user-access-flow.js`
 
 Backend/API dosyaları:
 
@@ -263,17 +357,9 @@ Güncel paket süreleri:
 - Deneme bittikten sonra kullanıcı devam etmek için seçtiği paketi satın almalıdır.
 - Deneme her kullanıcı için tek seferlik olacak; gerçek kontrol backend/veritabanı ile yapılacak.
 
-Deneme/üyelik durumları:
-
-- `trial_active`
-- `trial_expired_payment_required`
-- `active`
-- `expired`
-- `none`
-
 Ödeme paneli tasarım kararları:
 
-- Ödeme kartları artık tek tip değildir.
+- Ödeme kartları tek tip değildir.
 - Gold, Diamond ve Premium paketler ayrı karakterle görünür.
 - Gold: parlak altın giriş paketi.
 - Diamond: elmas/mavi parlak orta paket.
@@ -304,7 +390,7 @@ Kritik kural:
 
 ---
 
-## 10. Şirket ve PayTR Hazırlığı
+## 12. Şirket ve PayTR Hazırlığı
 
 PayTR için planlanan süreç:
 
@@ -322,14 +408,9 @@ PayTR başvuru açıklaması:
 
 `Futbol Laboratuvarı, futbol maçları için veri destekli analiz, kupon takibi, maç bülteni ve üyeye özel maç analiz paneli sunan dijital üyelik platformudur. Kullanıcılar paket satın alarak özel analiz paneline erişir.`
 
-Son karar:
-
-- Şahıs şirketi açma süreci ayrı sohbette takip edilecek.
-- PayTR başvurusu için şirket, banka hesabı, yasal metinler ve site açıklaması hazırlanacak.
-
 ---
 
-## 11. Premium Ödeme Backend Planı
+## 13. Premium Ödeme Backend Planı
 
 Ödeme planı dokümanı:
 
@@ -338,12 +419,6 @@ Son karar:
 Backend taslak klasörü:
 
 - `serverless/paytr/`
-
-Eklenen dosyalar:
-
-- `serverless/paytr/README.md`
-- `serverless/paytr/create-payment.example.js`
-- `serverless/paytr/callback.example.js`
 
 Canlı endpoint dosyaları:
 
@@ -388,7 +463,7 @@ Canlı ödeme için hâlâ gerekenler:
 
 ---
 
-## 12. Yazı Stili Sistemi
+## 14. Yazı Stili Sistemi
 
 Dosya:
 
@@ -398,33 +473,19 @@ Karar verilen yazı stili dağılımı:
 
 ### Premium Serif
 
-Kullanım yeri:
-
 - Ana marka başlıkları
 - Hero başlığı
 - Büyük bölüm başlıkları
 - Marka/Hakkımızda alanları
 
-Amaç:
-
-- Lüks, ciddi, marka odaklı görünüm.
-
 ### Gold Payment
-
-Kullanım yeri:
 
 - Paket isimleri
 - Fiyatlar
 - Deneme/satın alma butonları
 - Ödeme kartları
 
-Amaç:
-
-- Dore/altın, parlak, satın alma odaklı görünüm.
-
 ### Neon Sport
-
-Kullanım yeri:
 
 - Takım isimleri
 - Maç saatleri
@@ -432,23 +493,13 @@ Kullanım yeri:
 - Maç sonuçları
 - Canlı veri/maç satırları
 
-Amaç:
-
-- Canlı, hızlı, sportif, tech hissi.
-
 ### Diamond Clean
-
-Kullanım yeri:
 
 - Güven yüzdesi
 - Risk
 - Oran
 - Veri ve istatistik kutuları
 - Kupon metrikleri
-
-Amaç:
-
-- Temiz, net, mavi/elmas veri dili.
 
 Kural:
 
@@ -458,7 +509,7 @@ Kural:
 
 ---
 
-## 13. Panel ve Widget Sistemi
+## 15. Panel ve Alan Sistemi
 
 Dosya:
 
@@ -466,97 +517,30 @@ Dosya:
 
 Amaç:
 
-- Her panel tek tek sınıflandırılacak.
-- Her panelin widget yapısı kendi klasmanına göre tasarlanacak.
-- Yazı rengi, yazı stili ve vurgu dili panelin görevine uygun olacak.
-- Dinamik sonradan yüklenen widgetler tekrar taranıp aynı sisteme dahil edilecek.
+- Her panel tek tek sınıflandırılır.
+- Her panelin alan yapısı kendi klasmanına göre tasarlanır.
+- Yazı rengi, yazı stili ve vurgu dili panelin görevine uygun olur.
+- Dinamik sonradan yüklenen alanlar tekrar taranıp aynı sisteme dahil edilir.
 
-Panel sınıflandırması:
+Ziyaretçiye gösterilen panel etiketleri:
 
-### Premium Marka Paneli
-
-Kullanım:
-
-- Ana sayfa
-- Hero alanı
-- Hakkımızda
-- Galeri
-- Değerlendirme modülleri
-
-Stil:
-
-- Premium Serif
-- Altın/marka hissi
-
-### Gold Ödeme Widgeti
-
-Kullanım:
-
-- Üyelik & Ödeme
-- Gold / Diamond / Premium paketleri
-- Fiyatlar
-- Ücretsiz deneme
-- Satın alma butonları
-
-Stil:
-
-- Gold Payment
-- Dore/altın/parlak ödeme dili
-
-### Neon Maç Widgeti
-
-Kullanım:
-
-- Günlük Maç Bülteni
-- Bugünün maçları
-- Takım isimleri
-- Maç sonuçları
-- Skorlar
-- Spor Toto
-
-Stil:
-
-- Neon Sport
-- Canlı/spor/tech görünüm
-
-### Diamond Widget
-
-Kullanım:
-
-- Kupon Merkezi
-- Güven / Risk / Oran
-- Veri kutuları
-- Performans
-- Maç kayıtları
-- Maç yorumları
-
-Stil:
-
-- Diamond Clean
-- Mavi/elmas temiz veri dili
-
-### Premium Analiz Widgeti
-
-Kullanım:
-
-- Özel Maç Analizi paneli
-
-Stil:
-
-- Premium + Diamond
-- Başlıklar premium, veri satırları Diamond Clean
-
-Eklenen panel etiketleri:
-
-- `👑 Premium Marka Paneli`
-- `🏆 Gold Ödeme Widgeti`
-- `⚽ Neon Maç Widgeti`
-- `💎 Kupon Widget Merkezi`
-- `👑 Premium Analiz Widgeti`
+- `Futbol Laboratuvarı`
+- `Kupon Merkezi`
+- `Canlı Maç Bülteni`
+- `Bugünün Maçları`
+- `Üyelik Paketleri`
+- `Özel Analiz Paneli`
+- `Günün Seçimi`
+- `Maç Yorumları`
+- `Maç Kayıtları`
+- `Sonuçlar`
+- `Performans`
+- `Spor Toto`
+- `Hakkımızda`
 
 ---
 
-## 14. GitHub / Site Çalışma Notları
+## 16. GitHub / Site Çalışma Notları
 
 Repo erişimi:
 
@@ -574,10 +558,6 @@ Kurallar:
 - GitHub Pages relative link uyumu korunur.
 - Fake veri, eski sabit veri ve uydurma başarı oranı gösterilmez.
 
-Yeni sohbetlerde GitHub erişimi için kullanılacak ifade:
-
-`GitHub hesabım bağlı. Futbol Laboratuvarı web sitesi repo adresim: futbollaboratuvari/futbol-laboratuvari. Bu repoya erişip dosyaları incele, gerekli düzenlemeleri yap, commit/push işlemlerini mümkünse GitHub üzerinden uygula.`
-
 Kullanıcı şu ifadeleri söylediğinde GitHub/repo inceleme komutu kabul edilecek:
 
 - `github'a gir`
@@ -591,11 +571,9 @@ Kullanıcı şu ifadeleri söylediğinde GitHub/repo inceleme komutu kabul edile
 - `kayıt et`
 - `mega hafızaya işle`
 
-Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/futbol-laboratuvari` reposu kontrol edilecek. GitHub aracı yoksa kullanıcıya GitHub/Codex için net talimat verilecek.
-
 ---
 
-## 15. Son Yapılan Büyük İşler
+## 17. Son Yapılan Büyük İşler
 
 - Günlük maç bülteni lig bazlı tasarlandı.
 - Oran ve detay açılır panel eklendi.
@@ -605,26 +583,25 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 - Robot kalıcı maç arşivi kuruldu.
 - Premium özel maç analiz paneli eklendi.
 - Üyelik ve ödeme paneli eklendi.
-- PayTR/şahıs şirketi süreci için karar verildi.
-- `MEGA_HAFIZA.md` proje hafıza deposu olarak oluşturuldu.
-- Yeni sohbetlerde GitHub çağırma kelimeleri belirlendi.
-- Premium ödeme planı dokümanı eklendi.
 - PayTR backend iskeleti eklendi.
 - Kartlı ödeme için Vercel/serverless API altyapısı eklendi.
-- Kartla ödeme butonu PayTR create-payment endpointine bağlandı.
 - Paket süreleri güncellendi: Gold 3 gün, Diamond 2 hafta, Premium 4 hafta.
 - Her pakete 1 gün ücretsiz deneme eklendi.
-- Deneme bittikten sonra ödeme zorunlu olacak şekilde üyelik mantığı kuruldu.
 - Paket isimleri Gold / Diamond / Premium olarak düzenlendi.
 - Ödeme kartlarına dore/altın/parlak tasarım eklendi.
 - `1 Gün Ücretsiz Deneme` rozeti büyük kampanya bandına çevrildi.
 - Site yazı stili sistemi eklendi.
-- Panel/widget sınıflandırma sistemi eklendi.
-- Paneller kendi görevine göre renk, yazı stili ve widget etiketi almaya başladı.
+- Panel/alan sınıflandırma sistemi eklendi.
+- Üst menü sadeleştirildi.
+- Panel etiketleri ziyaretçi diline çevrildi.
+- Giriş Yap / 1 Gün Dene üst erişim alanı eklendi.
+- Menü ikon sistemi eklendi.
+- Canlı Kontrol Merkezi eklendi.
+- Üst menü çakışma riskini azaltmak için header genişlikleri ve responsive yapı düzenlendi.
 
 ---
 
-## 16. Sonraki Görevler
+## 18. Sonraki Görevler
 
 1. Şahıs şirketi açma sürecini tamamla.
 2. PayTR başvurusuna hazırlan.
@@ -634,22 +611,21 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
    - Supabase Edge Functions
    - Netlify Functions
    - küçük VPS/backend
-5. PayTR üye işyeri bilgileri gelince `PAYTR_MERCHANT_ID`, `PAYTR_MERCHANT_KEY`, `PAYTR_MERCHANT_SALT` backend ortam değişkenlerine girilecek.
-6. `PAYTR_TEST_MODE=1` ile test ödeme yapılacak.
-7. Test başarılı olunca ödeme callback doğrulaması kontrol edilecek.
-8. Veritabanı bağlanacak: users, orders, memberships.
-9. Ödeme başarılı olunca premium erişimi otomatik açılacak.
-10. Özel maç analiz istekleri backend kuyruğuna gönderilecek.
-11. Robot bu istekleri okuyup özel analiz üretecek.
+5. PayTR üye işyeri bilgileri gelince backend ortam değişkenlerine girilecek.
+6. Test ödeme yapılacak.
+7. Veritabanı bağlanacak: users, orders, memberships.
+8. Ödeme başarılı olunca premium erişimi otomatik açılacak.
+9. Özel maç analiz istekleri backend kuyruğuna gönderilecek.
+10. Robot bu istekleri okuyup özel analiz üretecek.
+11. Robot analiz çıktısı `data/analiz_sonuclari.json` dosyasına güvenli ve gerçek şekilde yazılacak.
 12. Robot arşivi otomatik workflow içine bağlanacak.
-13. PayTR başvurusu öncesi sitedeki üyelik/ödeme alanı yasal metinlerle güçlendirilecek.
-14. Panel/widget sistemi site üzerinde gözle kontrol edilecek.
-15. Mobil görünümde Gold/Diamond/Premium kartlar ve maç widgetleri tekrar incelenecek.
-16. Beğenilmeyen panel etiketleri, renkleri veya yazı stilleri tek tek düzeltilecek.
+13. PayTR başvurusu öncesi yasal metinler eklenecek.
+14. Mobil görünüm gözle kontrol edilecek.
+15. Beğenilmeyen renk, yazı veya panel yerleşimleri tek tek düzeltilecek.
 
 ---
 
-## 17. Hafıza Kullanım Kuralı
+## 19. Hafıza Kullanım Kuralı
 
 Bu dosya proje hafıza deposudur.
 
@@ -659,19 +635,18 @@ Otomatik sohbet sonu algılama garanti değildir; kullanıcı komut verdiğinde 
 
 ---
 
-## 18. Son Hafıza Kaydı
+## 20. Son Hafıza Kaydı
 
-Bu kayıt, `kayıt et` komutuyla güncellendi.
+Bu kayıt, üst menü/üyelik akışı/canlı kontrol merkezi çalışması bittikten sonra güncellendi.
 
 Özet:
 
-- Paketler Gold / Diamond / Premium olarak güncellendi.
-- Paket süreleri Gold 3 gün, Diamond 2 hafta, Premium 4 hafta olarak kaydedildi.
-- Tüm paketlerde 1 gün ücretsiz deneme kararı kaydedildi.
-- Deneme bittikten sonra ödeme zorunlu olacak akış kaydedildi.
-- `api/me/start-trial.js`, `api/_lib/membership.js`, `api/me/subscription.js` deneme/üyelik akışı için kaydedildi.
-- `payment-gold-theme.js` ve `payment-luxury-tiers.js` ödeme kartlarının dore/altın/parlak tasarım dosyaları olarak kaydedildi.
-- `1 GÜN ÜCRETSİZ DENEME` alanının kampanya bandı ve `HEMEN DENE` etiketiyle öne çıkarıldığı kaydedildi.
-- `site-typography-system.js` ile Premium Serif, Gold Payment, Neon Sport ve Diamond Clean yazı sistemi kaydedildi.
-- `panel-widget-system.js` ile her panelin kendi klasmanına göre widget yapısı, yazı rengi ve yazı stili alacağı kaydedildi.
-- Canlı ödeme için hâlâ PayTR üye işyeri, şirket, backend yayını, veritabanı ve yasal sayfalar gerektiği tekrar kaydedildi.
+- Üyelik sistemi kararı kaydedildi: site gezilebilir, deneme/ödeme/özel analiz için üyelik gerekir.
+- `user-access-flow.js` eklendi.
+- Üstte `Giriş Yap` ve `1 Gün Dene` erişim alanı kaydedildi.
+- Menü ikon sistemi kaydedildi.
+- `live-control-center.js` eklendi ve site akışı kontrol kartları kaydedildi.
+- Maç akışının aktif olduğu, ancak yayınlanabilir analiz/kupon dosyasının şu an boş olduğu kaydedildi.
+- `nav-theme.css` üst üste binme riskini azaltmak için güncellendi.
+- `nav-routing.js` yeni üyelik ve kontrol merkezi dosyalarına bağlandı.
+- Gerçek analiz üretimi için robot/backend bağlantısının sonraki teknik iş olduğu kaydedildi.
