@@ -12,6 +12,8 @@ const mainReportPath = path.join(outputDir, "bugunun_en_guclu_maclari.md");
 const sourceReportPath = path.join(outputDir, "mackolik_veri_cekme_raporu.md");
 const successReportPath = path.join(outputDir, "basari_yuzdesi_raporu.md");
 
+const MACKOLIK_IDDAA_URL = "https://arsiv.mackolik.com/Iddaa-Programi";
+
 const ensureDirs = () => {
   fs.mkdirSync(dataDir, { recursive: true });
   fs.mkdirSync(outputDir, { recursive: true });
@@ -25,13 +27,16 @@ const formatTurkeyDate = (date = new Date()) =>
     day: "2-digit",
   }).format(date);
 
-const formatTurkeyTime = (date = new Date()) =>
-  new Intl.DateTimeFormat("tr-TR", {
-    timeZone: "Europe/Istanbul",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false,
-  }).format(date);
+const formatTurkeyDateDots = (date = new Date()) => {
+  const key = formatTurkeyDate(date);
+  const [year, month, day] = key.split("-");
+  return `${day}.${month}.${year}`;
+};
+
+const toIsoDate = (dotDate) => {
+  const [day, month, year] = dotDate.split(".");
+  return `${year}-${month}-${day}`;
+};
 
 const addDays = (dateKey, days) => {
   const [year, month, day] = dateKey.split("-").map(Number);
@@ -50,9 +55,15 @@ const writeJson = (filePath, value) => {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 };
 
-const requestJson = (url, headers = {}) =>
+const requestText = (url) =>
   new Promise((resolve, reject) => {
-    const request = https.get(url, { headers }, (response) => {
+    const request = https.get(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 FutbolLaboratuvariBot/1.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
+      },
+    }, (response) => {
       let body = "";
       response.setEncoding("utf8");
       response.on("data", (chunk) => {
@@ -60,47 +71,99 @@ const requestJson = (url, headers = {}) =>
       });
       response.on("end", () => {
         if (response.statusCode < 200 || response.statusCode >= 300) {
-          reject(new Error(`Request failed with ${response.statusCode}: ${body}`));
+          reject(new Error(`Request failed with ${response.statusCode}: ${body.slice(0, 200)}`));
           return;
         }
-
-        try {
-          resolve(JSON.parse(body));
-        } catch (error) {
-          reject(error);
-        }
+        resolve(body);
       });
     });
 
     request.on("error", reject);
-    request.setTimeout(20000, () => {
+    request.setTimeout(30000, () => {
       request.destroy(new Error("Request timed out"));
     });
   });
 
-const normalizeFootballData = (payload) =>
-  (payload.matches || []).map((match) => {
-    const kickoff = new Date(match.utcDate);
-    return {
-      date: formatTurkeyDate(kickoff),
-      time: formatTurkeyTime(kickoff),
-      league: match.competition?.name || "Futbol",
-      home: match.homeTeam?.name || "Ev sahibi",
-      away: match.awayTeam?.name || "Deplasman",
-      status: match.status === "FINISHED" ? "finished" : "scheduled",
-      source: "football-data.org",
-    };
-  });
+const decodeHtml = (value) => String(value || "")
+  .replace(/&nbsp;/gi, " ")
+  .replace(/&amp;/gi, "&")
+  .replace(/&quot;/gi, '"')
+  .replace(/&#39;|&apos;/gi, "'")
+  .replace(/&lt;/gi, "<")
+  .replace(/&gt;/gi, ">")
+  .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
 
-const fetchFixturesFromFootballData = async () => {
-  const token = process.env.FOOTBALL_API_KEY;
-  if (!token) return null;
+const htmlToLines = (html) => decodeHtml(html)
+  .replace(/<script[\s\S]*?<\/script>/gi, " ")
+  .replace(/<style[\s\S]*?<\/style>/gi, " ")
+  .replace(/<br\s*\/?\s*>/gi, "\n")
+  .replace(/<\/(tr|li|div|p|h1|h2|h3|h4|h5|h6|table|tbody|thead|section)>/gi, "\n")
+  .replace(/<[^>]+>/g, " ")
+  .split(/\r?\n/)
+  .map((line) => line.replace(/\s+/g, " ").trim())
+  .filter(Boolean);
 
-  const today = formatTurkeyDate();
-  const dateTo = addDays(today, 14);
-  const url = `https://api.football-data.org/v4/matches?dateFrom=${today}&dateTo=${dateTo}`;
-  const payload = await requestJson(url, { "X-Auth-Token": token });
-  return normalizeFootballData(payload);
+const isLeagueLine = (line) => {
+  if (!line || line.length < 4) return false;
+  if (/^\d{2}\.\d{2}\.\d{4}/.test(line)) return false;
+  if (/^\d{2}:\d{2}\b/.test(line)) return false;
+  if (/^(Kod|Hepsi|Tarih|Lig|Futbol|Basketbol|Sadece|Maç Sonucu|Çerez|Reklam|İY|MS|X)$/i.test(line)) return false;
+  if (/\d+\.\d+/.test(line)) return false;
+  if (line.includes(" - ")) return false;
+  return /Lig|Kupa|Kupası|Premier|Dünya|Hazırlık|Grup|Division|League|Ligi|Liga|Serie|NPL|Şampiyonluk/i.test(line);
+};
+
+const cleanTeam = (value) => String(value || "")
+  .replace(/\s+\d{4,5}\b.*$/, "")
+  .replace(/\s+\d+[.,]\d+.*$/, "")
+  .replace(/\s+/g, " ")
+  .trim();
+
+const parseMackolikIddaaProgram = (html) => {
+  const targetDotDate = formatTurkeyDateDots();
+  const fixtures = [];
+  let currentLeague = "Maçkolik İddaa Programı";
+  let currentDate = null;
+
+  for (const line of htmlToLines(html)) {
+    if (isLeagueLine(line)) {
+      currentLeague = line;
+      continue;
+    }
+
+    const dateMatch = line.match(/^(\d{2}\.\d{2}\.\d{4})\b/);
+    if (dateMatch) {
+      currentDate = dateMatch[1];
+    }
+
+    if (currentDate !== targetDotDate) continue;
+
+    const match = line.match(/(?:^|\s)(\d{2}:\d{2})\s+(.+?)\s+-\s+(.+?)(?=\s+\d{4,5}\b|\s+\d+[.,]\d+\b|\s*$)/);
+    if (!match) continue;
+
+    const home = cleanTeam(match[2]);
+    const away = cleanTeam(match[3]);
+    if (!home || !away || home.length < 2 || away.length < 2) continue;
+
+    fixtures.push({
+      date: toIsoDate(currentDate),
+      time: match[1],
+      league: currentLeague,
+      home,
+      away,
+      status: "scheduled",
+      source: "Maçkolik İddaa Programı",
+    });
+  }
+
+  return fixtures.filter((fixture, index, list) =>
+    index === list.findIndex((item) => item.date === fixture.date && item.time === fixture.time && item.home === fixture.home && item.away === fixture.away)
+  );
+};
+
+const fetchFixturesFromMackolik = async () => {
+  const html = await requestText(MACKOLIK_IDDAA_URL);
+  return parseMackolikIddaaProgram(html);
 };
 
 const keepCurrentWindow = (fixtures) => {
@@ -153,7 +216,7 @@ const writeReports = (fixtures, source) => {
 
   const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Guc Skoru", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
 
-  const sourceReport = `# Veri Çekme Raporu\n\n- Kaynak: ${source}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: FOOTBALL_API_KEY secret tanımlıysa GitHub Actions canlı bülteni otomatik çeker. Secret yoksa eski veri yayınlanmaz, ekran canlı veri bekler.\n`;
+  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Robot API anahtarı kullanmadan Maçkolik eski site İddaa Programı sayfasındaki bugünün maçlarını okur.\n`;
 
   const successReport = `# Başarı Yüzdesi Raporu\n\n- Güncelleme: ${generatedAt}\n- Sonuçlanan tahmin sayısı: 0\n- Durum: Canlı tahmin geçmişi bekleniyor.\n`;
 
@@ -165,16 +228,27 @@ const writeReports = (fixtures, source) => {
 const main = async () => {
   ensureDirs();
   const existingFixtures = readJson(fixturesPath, []);
-  const apiFixtures = await fetchFixturesFromFootballData();
-  const source = Array.isArray(apiFixtures) ? "GitHub Actions canlı API" : "Canlı veri bekleniyor";
-  const fixtures = Array.isArray(apiFixtures) ? apiFixtures : keepCurrentWindow(existingFixtures);
+  let fixtures = [];
+  let source = "Maçkolik İddaa Programı";
+
+  try {
+    fixtures = await fetchFixturesFromMackolik();
+  } catch (error) {
+    source = `Maçkolik okunamadı: ${error.message}`;
+    fixtures = keepCurrentWindow(existingFixtures);
+  }
+
+  if (!fixtures.length) {
+    source = "Maçkolik canlı veri bekleniyor";
+    fixtures = keepCurrentWindow(existingFixtures);
+  }
 
   writeJson(fixturesPath, fixtures);
   writeJson(rawPoolPath, toRawPool(fixtures, source));
   writeJson(historyPath, toPredictionHistory());
   writeReports(fixtures, source);
 
-  console.log(`Futbol Laboratuvarı veri akışı güncellendi. Kaynak: ${source}. Maç: ${fixtures.length}`);
+  console.log(`Futbol Laboratuvarı Maçkolik veri akışı güncellendi. Kaynak: ${source}. Maç: ${fixtures.length}`);
 };
 
 main().catch((error) => {
