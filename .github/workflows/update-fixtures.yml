@@ -22,12 +22,10 @@ jobs:
           node-version: "20"
 
       - name: Update fixtures
-        env:
-          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: node scripts/update-fixtures.js
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update daily fixtures"
-          file_pattern: data/fixtures.json
+          commit_message: "Update Mackolik fixtures"
+          file_pattern: data/fixtures.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md
