@@ -293,6 +293,71 @@ body::before {
     radial-gradient(circle at 90% 0%, rgba(10, 47, 99, 0.5), transparent 35%);
 }
 
+.top-robot-hub {
+  position: relative;
+  overflow: hidden;
+  padding-top: clamp(48px, 6vw, 78px);
+  border-bottom: 1px solid rgba(216, 178, 87, 0.18);
+}
+
+.top-robot-hub::before {
+  content: "";
+  position: absolute;
+  inset: 18px clamp(16px, 5vw, 70px);
+  border: 1px solid rgba(57, 255, 136, 0.14);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 8% 20%, rgba(57, 255, 136, 0.12), transparent 28%),
+    radial-gradient(circle at 92% 8%, rgba(216, 178, 87, 0.12), transparent 28%);
+  pointer-events: none;
+}
+
+.top-robot-hub .section-heading,
+.top-robot-hub .robot-live-status,
+.top-robot-hub .robot-coupon-columns,
+.top-robot-hub .robot-disclaimer {
+  position: relative;
+  z-index: 1;
+}
+
+.top-robot-hub .section-heading h2 {
+  max-width: 980px;
+  font-size: clamp(34px, 4.5vw, 58px);
+}
+
+.top-robot-hub .robot-live-status {
+  margin-top: 28px;
+}
+
+.premium-coupon-center > div {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid rgba(216, 178, 87, 0.18);
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, rgba(10, 47, 99, 0.28), rgba(3, 8, 23, 0.66)),
+    rgba(3, 8, 23, 0.7);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.premium-coupon-center h3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  color: #f7df9a;
+  font-size: 18px;
+}
+
+.premium-coupon-center h3::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--green);
+  box-shadow: 0 0 18px rgba(57, 255, 136, 0.65);
+}
+
 .analysis-card:hover,
 .fixture-card:hover,
 .spor-card:hover,
@@ -381,7 +446,8 @@ td {
 }
 
 @media (max-width: 640px) {
-  .dashboard-hero::before {
+  .dashboard-hero::before,
+  .top-robot-hub::before {
     inset: 12px;
     border-radius: 22px;
   }
@@ -400,7 +466,8 @@ td {
     grid-template-columns: 1fr;
   }
 
-  .pro-market-card {
+  .pro-market-card,
+  .premium-coupon-center > div {
     padding: 14px;
   }
 }
