@@ -28,6 +28,11 @@
   `;
   document.head.appendChild(cleanupStyle);
 
+  const dailyMatchesScript = document.createElement("script");
+  dailyMatchesScript.src = "daily-matches-widget.js";
+  dailyMatchesScript.defer = true;
+  document.body.appendChild(dailyMatchesScript);
+
   const couponCommentsScript = document.createElement("script");
   couponCommentsScript.src = "coupon-comments.js";
   couponCommentsScript.defer = true;
