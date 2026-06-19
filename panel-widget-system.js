@@ -222,8 +222,20 @@
     document.head.appendChild(style);
   };
 
+  const removeDuplicateTags = (panel) => {
+    const tags = [...panel.querySelectorAll(".fl-widget-tag")];
+    tags.slice(1).forEach((tag) => tag.remove());
+    return tags[0] || null;
+  };
+
   const addTag = (panel, config) => {
-    if (!panel || panel.querySelector(":scope > .fl-widget-tag")) return;
+    if (!panel) return;
+    const existingTag = removeDuplicateTags(panel);
+    if (existingTag) {
+      existingTag.textContent = `${config.icon} ${config.label}`;
+      return;
+    }
+
     const tag = document.createElement("span");
     tag.className = "fl-widget-tag";
     tag.textContent = `${config.icon} ${config.label}`;
