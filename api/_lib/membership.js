@@ -8,22 +8,40 @@ function nowIso() {
   return new Date().toISOString();
 }
 
-function createMembershipFromPlan(plan, orderId, paidAt = new Date()) {
-  const startedAt = new Date(paidAt);
-  const expiresAt = addDays(startedAt, plan.durationDays);
+function baseMembership(plan, orderId, startedAt, expiresAt, mode) {
+  const isTrial = mode === "trial";
   return {
     plan_id: plan.id,
     plan_name: plan.name,
-    status: "active",
+    status: isTrial ? "trial_active" : "active",
+    access_mode: mode,
     started_at: startedAt.toISOString(),
     expires_at: expiresAt.toISOString(),
-    duration_days: plan.durationDays,
-    monthly_uses_total: plan.monthlyUses,
-    monthly_uses_left: plan.monthlyUses,
+    duration_days: isTrial ? plan.trialDays : plan.durationDays,
+    uses_total: isTrial ? plan.trialUses : plan.paidUses,
+    uses_left: isTrial ? plan.trialUses : plan.paidUses,
     daily_uses_limit: plan.dailyUses,
     daily_uses_left: plan.dailyUses,
-    last_order_id: orderId,
+    payment_required_after_trial: isTrial,
+    auto_renew: false,
+    last_order_id: orderId || null,
   };
+}
+
+function createPaidMembershipFromPlan(plan, orderId, paidAt = new Date()) {
+  const startedAt = new Date(paidAt);
+  const expiresAt = addDays(startedAt, plan.durationDays);
+  return baseMembership(plan, orderId, startedAt, expiresAt, "paid");
+}
+
+function createTrialMembershipFromPlan(plan, startedAtValue = new Date()) {
+  const startedAt = new Date(startedAtValue);
+  const expiresAt = addDays(startedAt, plan.trialDays);
+  return baseMembership(plan, null, startedAt, expiresAt, "trial");
+}
+
+function createMembershipFromPlan(plan, orderId, paidAt = new Date()) {
+  return createPaidMembershipFromPlan(plan, orderId, paidAt);
 }
 
 function daysLeft(expiresAt, from = new Date()) {
@@ -32,14 +50,26 @@ function daysLeft(expiresAt, from = new Date()) {
 }
 
 function isActiveMembership(membership, from = new Date()) {
-  if (!membership || membership.status !== "active") return false;
-  return new Date(membership.expires_at).getTime() > new Date(from).getTime();
+  if (!membership) return false;
+  const status = membership.status === "active" || membership.status === "trial_active";
+  return status && new Date(membership.expires_at).getTime() > new Date(from).getTime();
+}
+
+function membershipStatus(membership, from = new Date()) {
+  if (!membership) return "none";
+  if (!isActiveMembership(membership, from)) {
+    return membership.access_mode === "trial" ? "trial_expired_payment_required" : "expired";
+  }
+  return membership.status;
 }
 
 module.exports = {
   addDays,
   nowIso,
   createMembershipFromPlan,
+  createPaidMembershipFromPlan,
+  createTrialMembershipFromPlan,
   daysLeft,
   isActiveMembership,
+  membershipStatus,
 };
