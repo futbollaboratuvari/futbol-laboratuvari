@@ -1,8 +1,24 @@
 # Futbol Laboratuvarı MEGA HAFIZA
 
-Bu dosya Futbol Laboratuvarı projesinin kalıcı çalışma hafızasıdır.
+Bu dosya Futbol Laboratuvarı projesinin kalıcı çalışma hafızasıdır. Yeni sayfaya/sohbete geçildiğinde buradan devam edilir.
 
-Amaç: Sohbetlerde alınan kararlar, yapılan site/robot değişiklikleri, ödeme-üyelik planı, robot veri akışı, panel tasarım kararları ve gelecek görevler burada tutulur. Bu dosya proje deposunda ana hafıza deposu olarak kullanılacaktır.
+---
+
+## 0. YENİ SAYFAYA GEÇİŞTE EN ÖNEMLİ NOT
+
+**Maç akışı aktiftir.** Site `data/fixtures.json` dosyasından günlük maçları çekip Günlük Maç Bülteni / Bugünün Maçları alanında gösterebiliyor.
+
+**Gerçek analiz / kupon üretimi henüz aktif değildir.** `data/analiz_sonuclari.json` içinde `active_items` ve `completed_items` şu anda boştur. Bu yüzden site kupon veya analiz uydurmayacak; analiz gelene kadar hazırlık/bekleme görünümü gösterecek.
+
+**Yeni sayfadaki ana teknik iş:** robotun gerçek analiz çıktısını güvenli şekilde `data/analiz_sonuclari.json` dosyasına yazdırmak ve bunu workflow/backend akışına bağlamak.
+
+Öncelik sırası:
+
+1. Robot gerçek maç analizini üretecek.
+2. Analiz sonucu `data/analiz_sonuclari.json` içine doğru formatta yazılacak.
+3. Kupon Merkezi bu gerçek veriden Tekli / 2'li / 3'lü kuponları gösterecek.
+4. Premium Özel Analiz istekleri backend kuyruğuna alınacak.
+5. Ödeme sonrası üyelik/premium erişim backend ve veritabanıyla açılacak.
 
 ---
 
@@ -12,13 +28,13 @@ Amaç: Sohbetlerde alınan kararlar, yapılan site/robot değişiklikleri, ödem
 - GitHub repo: `futbollaboratuvari/futbol-laboratuvari`
 - Ana branch: `main`
 - GitHub Pages site: `https://futbollaboratuvari.github.io/futbol-laboratuvari/`
-- Çalışma prensibi: Eski, sabit veya uydurma veri gösterilmez.
+- Çalışma prensibi: eski, sabit veya uydurma veri gösterilmez.
 - Linkler GitHub Pages uyumlu ve relative kalacak.
 - Repo, proje hafıza deposu olarak da kullanılacak.
 
 ---
 
-## 2. Ziyaretçi Dili ve Genel Kurallar
+## 2. Ziyaretçi Dili ve Temizlik Kuralları
 
 Ziyaretçiye teknik/robot iç dili gösterilmez.
 
@@ -40,7 +56,7 @@ Kullanılacak ziyaretçi dili:
 - Analiz hazırlanıyor
 - Sonuçlar güncellenecek
 
-Kaçınılacak iç ifadeler:
+Kaçınılacak ifadeler:
 
 - PRO robot
 - demo mod
@@ -50,15 +66,17 @@ Kaçınılacak iç ifadeler:
 - `market` kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine `seçenek` kullanılır.
 - `Widget` kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine panel/merkez/alan dili kullanılır.
 
-Ziyaretçi dili temizliği dosyası:
+İlgili dosya:
 
 - `visitor-language.js`
 
+Bu dosya ziyaretçi tarafında kalan teknik ifadeleri daha profesyonel dile çevirir.
+
 ---
 
-## 3. Üst Menü, Giriş ve Üyelik Akışı
+## 3. Üst Menü, Logo, Giriş ve Üyelik Akışı
 
-Güncel üst menü sadeleştirildi.
+Üst menü sadeleştirildi ve daha premium hale getirildi.
 
 Ana menü akışı:
 
@@ -110,13 +128,15 @@ Karar:
 - `nav-theme.css` güncellendi.
 - Header artık flex-wrap kullanır.
 - Geniş ekran, orta ekran ve mobil için ayrı genişlik ayarları vardır.
-- Logo 1 tık büyütüldü; marka alanı daha premium yapıldı.
+- Logo 1 tık büyütüldü.
+- Marka alanı daha premium yapıldı.
+- Üst üste binme riskini azaltmak için responsive yapı güçlendirildi.
 
 ---
 
 ## 4. Canlı Kontrol Merkezi
 
-Yeni dosya:
+Dosya:
 
 - `live-control-center.js`
 
@@ -134,20 +154,20 @@ Gösterilen kartlar:
 - Yayınlanabilir analiz / kupon
 - Ücretsiz deneme ve üyelik akışı
 
-Gerçek durum notu:
+Gerçek durum:
 
-- `data/fixtures.json` içinde maç listesi vardır; bu yüzden maç akışı site tarafında aktiftir.
-- `data/analiz_sonuclari.json` dosyasında `active_items` ve `completed_items` şu anda boştur.
-- Bu nedenle gerçek yayınlanabilir kupon/analiz henüz aktif değildir.
+- `data/fixtures.json` içinde maç listesi vardır; maç akışı site tarafında aktiftir.
+- `data/analiz_sonuclari.json` dosyasında yayınlanabilir analiz/kupon henüz yoktur.
 - Sistem kupon uydurmaz; analiz gelene kadar hazırlık mesajı gösterir.
 
 ---
 
 ## 5. Günlük Maç Bülteni
 
-Dosya:
+Dosyalar:
 
 - `daily-matches-widget.js`
+- `daily-toggle.js`
 
 Özellikler:
 
@@ -157,13 +177,8 @@ Dosya:
 - Takım logo alanı vardır; logo yoksa takım baş harfi rozet olarak görünür.
 - Maç satırları sütun yapısındadır.
 - Ana oran alanları görünür.
-- Ekstra oranlar tıklanarak açılabilir.
+- Satıra tıklayınca Alt, Üst, KG Var, KG Yok gibi ekstra oranlar açılabilir.
 - Mobilde yatay kaydırma desteklenir.
-
-Ek detay paneli:
-
-- Dosya: `daily-toggle.js`
-- Satıra tıklayınca Alt, Üst, KG Var, KG Yok gibi ekstra oranlar açılır.
 
 Tasarım sınıfı:
 
@@ -212,6 +227,7 @@ Kural:
 
 - Robot/sistem gerçek analiz üretmeden kupon gösterilmez.
 - Beta/hazırlık verisi kupon olarak yayınlanmaz.
+- Kupon uydurulmaz.
 
 Tasarım sınıfı:
 
@@ -247,7 +263,7 @@ Mevcut durum:
 
 - Maç listesi siteye geliyor.
 - Yayınlanabilir analiz/kupon henüz boş.
-- Sonraki teknik iş: robotun gerçek analiz çıktısını `data/analiz_sonuclari.json` içine güvenli biçimde yazdırmak ve workflow/backend akışına bağlamak.
+- Ana teknik iş: robotun gerçek analiz çıktısını `data/analiz_sonuclari.json` içine güvenli biçimde yazdırmak ve workflow/backend akışına bağlamak.
 
 ---
 
@@ -570,6 +586,7 @@ Kullanıcı şu ifadeleri söylediğinde GitHub/repo inceleme komutu kabul edile
 - `commit/push yap`
 - `kayıt et`
 - `mega hafızaya işle`
+- `nerede kalmıştık`
 
 ---
 
@@ -598,29 +615,26 @@ Kullanıcı şu ifadeleri söylediğinde GitHub/repo inceleme komutu kabul edile
 - Menü ikon sistemi eklendi.
 - Canlı Kontrol Merkezi eklendi.
 - Üst menü çakışma riskini azaltmak için header genişlikleri ve responsive yapı düzenlendi.
+- Yeni sayfaya geçiş için en önemli not en üste sabitlendi.
 
 ---
 
 ## 18. Sonraki Görevler
 
-1. Şahıs şirketi açma sürecini tamamla.
-2. PayTR başvurusuna hazırlan.
-3. Siteye KVKK, gizlilik, iade/iptal, kullanım şartları ve mesafeli satış sayfaları ekle.
-4. Üyelik backend altyapısını seç ve yayına al:
-   - Vercel Functions
-   - Supabase Edge Functions
-   - Netlify Functions
-   - küçük VPS/backend
-5. PayTR üye işyeri bilgileri gelince backend ortam değişkenlerine girilecek.
-6. Test ödeme yapılacak.
-7. Veritabanı bağlanacak: users, orders, memberships.
-8. Ödeme başarılı olunca premium erişimi otomatik açılacak.
-9. Özel maç analiz istekleri backend kuyruğuna gönderilecek.
-10. Robot bu istekleri okuyup özel analiz üretecek.
-11. Robot analiz çıktısı `data/analiz_sonuclari.json` dosyasına güvenli ve gerçek şekilde yazılacak.
-12. Robot arşivi otomatik workflow içine bağlanacak.
-13. PayTR başvurusu öncesi yasal metinler eklenecek.
-14. Mobil görünüm gözle kontrol edilecek.
+1. Robotun gerçek analiz çıktısını `data/analiz_sonuclari.json` dosyasına güvenli ve gerçek şekilde yazdır.
+2. Kupon Merkezi'ni bu gerçek analiz çıktısından çalıştır.
+3. Özel maç analiz isteklerini backend kuyruğuna gönder.
+4. Robot bu istekleri okuyup özel analiz üretsin.
+5. Robot arşivini otomatik workflow içine bağla.
+6. Şahıs şirketi açma sürecini tamamla.
+7. PayTR başvurusuna hazırlan.
+8. Siteye KVKK, gizlilik, iade/iptal, kullanım şartları ve mesafeli satış sayfaları ekle.
+9. Üyelik backend altyapısını seç ve yayına al.
+10. PayTR bilgileri gelince backend ortam değişkenlerine gir.
+11. Test ödeme yap.
+12. Veritabanı bağla: users, orders, memberships.
+13. Ödeme başarılı olunca premium erişimi otomatik aç.
+14. Mobil görünüm gözle kontrol edilsin.
 15. Beğenilmeyen renk, yazı veya panel yerleşimleri tek tek düzeltilecek.
 
 ---
@@ -637,16 +651,18 @@ Otomatik sohbet sonu algılama garanti değildir; kullanıcı komut verdiğinde 
 
 ## 20. Son Hafıza Kaydı
 
-Bu kayıt, üst menü/üyelik akışı/canlı kontrol merkezi çalışması bittikten sonra güncellendi.
+Bu kayıt, yeni sayfaya geçmeden önce güncellendi.
 
 Özet:
 
+- En önemli not dosyanın en üstüne sabitlendi.
+- Maç akışının aktif olduğu kaydedildi.
+- Gerçek analiz/kupon üretiminin henüz aktif olmadığı kaydedildi.
+- Sıradaki ana işin robotun gerçek analiz çıktısını `data/analiz_sonuclari.json` dosyasına yazdırmak olduğu kaydedildi.
 - Üyelik sistemi kararı kaydedildi: site gezilebilir, deneme/ödeme/özel analiz için üyelik gerekir.
-- `user-access-flow.js` eklendi.
+- `user-access-flow.js` eklendiği kaydedildi.
 - Üstte `Giriş Yap` ve `1 Gün Dene` erişim alanı kaydedildi.
 - Menü ikon sistemi kaydedildi.
 - `live-control-center.js` eklendi ve site akışı kontrol kartları kaydedildi.
-- Maç akışının aktif olduğu, ancak yayınlanabilir analiz/kupon dosyasının şu an boş olduğu kaydedildi.
-- `nav-theme.css` üst üste binme riskini azaltmak için güncellendi.
+- `nav-theme.css` üst üste binme riskini azaltmak için güncellendiği kaydedildi.
 - `nav-routing.js` yeni üyelik ve kontrol merkezi dosyalarına bağlandı.
-- Gerçek analiz üretimi için robot/backend bağlantısının sonraki teknik iş olduğu kaydedildi.
