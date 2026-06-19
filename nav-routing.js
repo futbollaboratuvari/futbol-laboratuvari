@@ -50,6 +50,7 @@
 
   ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
   ensureScript("daily-toggle.js", "daily-toggle-script");
+  ensureScript("fixtures-summary-panel.js", "fixtures-summary-panel-script");
   ensureScript("match-results-widget.js", "match-results-widget-script");
   ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
   ensureScript("payment-gold-theme.js", "payment-gold-theme-script");
