@@ -31,6 +31,8 @@
     ["Beta erişim kodu", "Erişim kodu"],
   ]);
 
+  const SKIP_TAGS = new Set(["SCRIPT", "STYLE", "TEXTAREA", "INPUT", "SELECT", "OPTION", "CODE", "PRE"]);
+
   const cleanTextNode = (node) => {
     let value = node.nodeValue;
     replacements.forEach((to, from) => {
@@ -39,15 +41,27 @@
     if (value !== node.nodeValue) node.nodeValue = value;
   };
 
-  const walk = (root = document.body) => {
+  const walk = (root) => {
     if (!root) return;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const walker = document.createTreeWalker(
+      root,
+      NodeFilter.SHOW_TEXT,
+      {
+        acceptNode(node) {
+          const parent = node.parentElement;
+          if (!parent || SKIP_TAGS.has(parent.tagName)) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
+        },
+      },
+    );
     const nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach(cleanTextNode);
   };
 
-  const run = () => walk(document.body);
+  const run = () => {
+    document.querySelectorAll("main, .live-control-center, .daily-widget-shell, .fl-access-flow-note").forEach(walk);
+  };
 
   window.addEventListener("load", () => {
     run();
