@@ -58,11 +58,6 @@
   couponDesignScript.defer = true;
   document.body.appendChild(couponDesignScript);
 
-  const couponCommentsScript = document.createElement("script");
-  couponCommentsScript.src = "coupon-comments.js";
-  couponCommentsScript.defer = true;
-  document.body.appendChild(couponCommentsScript);
-
   const proGuardScript = document.createElement("script");
   proGuardScript.src = "pro-analysis-guard.js";
   proGuardScript.defer = true;
