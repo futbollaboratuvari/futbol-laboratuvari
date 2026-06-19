@@ -1,12 +1,32 @@
 // Site içi sekme yönlendirmeleri
 // Ziyaretçi sekmeye bastığında ilgili bölüme yumuşak geçiş yapar.
 (() => {
-  const styleLink = document.createElement("link");
-  styleLink.rel = "stylesheet";
-  styleLink.href = "nav-position.css";
-  document.head.appendChild(styleLink);
+  const ensureStylesheet = (href, id) => {
+    if (id && document.getElementById(id)) return;
+    if ([...document.querySelectorAll('link[rel="stylesheet"]')].some((link) => String(link.getAttribute("href") || "").endsWith(href))) return;
+    const styleLink = document.createElement("link");
+    if (id) styleLink.id = id;
+    styleLink.rel = "stylesheet";
+    styleLink.href = href;
+    document.head.appendChild(styleLink);
+  };
+
+  const ensureScript = (src, id) => {
+    if (id && document.getElementById(id)) return;
+    if ([...document.querySelectorAll("script[src]")].some((script) => String(script.getAttribute("src") || "").endsWith(src))) return;
+    const script = document.createElement("script");
+    if (id) script.id = id;
+    script.src = src;
+    script.defer = true;
+    script.setAttribute("data-fl-dynamic-script", src);
+    document.body.appendChild(script);
+  };
+
+  ensureStylesheet("nav-position.css", "nav-position-style");
+  ensureStylesheet("header-fixes.css", "header-fixes-style");
 
   const cleanupStyle = document.createElement("style");
+  cleanupStyle.id = "nav-routing-cleanup-style";
   cleanupStyle.textContent = `
     .dashboard-hero h1::after,
     .section-heading h2::after,
@@ -26,77 +46,22 @@
       display: none !important;
     }
   `;
-  document.head.appendChild(cleanupStyle);
+  if (!document.getElementById(cleanupStyle.id)) document.head.appendChild(cleanupStyle);
 
-  const dailyMatchesScript = document.createElement("script");
-  dailyMatchesScript.src = "daily-matches-widget.js";
-  dailyMatchesScript.defer = true;
-  document.body.appendChild(dailyMatchesScript);
-
-  const dailyToggleScript = document.createElement("script");
-  dailyToggleScript.src = "daily-toggle.js";
-  dailyToggleScript.defer = true;
-  document.body.appendChild(dailyToggleScript);
-
-  const matchResultsScript = document.createElement("script");
-  matchResultsScript.src = "match-results-widget.js";
-  matchResultsScript.defer = true;
-  document.body.appendChild(matchResultsScript);
-
-  const membershipPaymentScript = document.createElement("script");
-  membershipPaymentScript.src = "membership-payment-panel.js";
-  membershipPaymentScript.defer = true;
-  document.body.appendChild(membershipPaymentScript);
-
-  const paymentGoldThemeScript = document.createElement("script");
-  paymentGoldThemeScript.src = "payment-gold-theme.js";
-  paymentGoldThemeScript.defer = true;
-  document.body.appendChild(paymentGoldThemeScript);
-
-  const paymentLuxuryTiersScript = document.createElement("script");
-  paymentLuxuryTiersScript.src = "payment-luxury-tiers.js";
-  paymentLuxuryTiersScript.defer = true;
-  document.body.appendChild(paymentLuxuryTiersScript);
-
-  const premiumAnalysisScript = document.createElement("script");
-  premiumAnalysisScript.src = "premium-analysis-panel.js";
-  premiumAnalysisScript.defer = true;
-  document.body.appendChild(premiumAnalysisScript);
-
-  const couponDesignScript = document.createElement("script");
-  couponDesignScript.src = "coupon-design.js";
-  couponDesignScript.defer = true;
-  document.body.appendChild(couponDesignScript);
-
-  const proGuardScript = document.createElement("script");
-  proGuardScript.src = "pro-analysis-guard.js";
-  proGuardScript.defer = true;
-  document.body.appendChild(proGuardScript);
-
-  const visitorLanguageScript = document.createElement("script");
-  visitorLanguageScript.src = "visitor-language.js";
-  visitorLanguageScript.defer = true;
-  document.body.appendChild(visitorLanguageScript);
-
-  const siteTypographyScript = document.createElement("script");
-  siteTypographyScript.src = "site-typography-system.js";
-  siteTypographyScript.defer = true;
-  document.body.appendChild(siteTypographyScript);
-
-  const panelWidgetScript = document.createElement("script");
-  panelWidgetScript.src = "panel-widget-system.js";
-  panelWidgetScript.defer = true;
-  document.body.appendChild(panelWidgetScript);
-
-  const userAccessFlowScript = document.createElement("script");
-  userAccessFlowScript.src = "user-access-flow.js";
-  userAccessFlowScript.defer = true;
-  document.body.appendChild(userAccessFlowScript);
-
-  const liveControlCenterScript = document.createElement("script");
-  liveControlCenterScript.src = "live-control-center.js";
-  liveControlCenterScript.defer = true;
-  document.body.appendChild(liveControlCenterScript);
+  ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
+  ensureScript("daily-toggle.js", "daily-toggle-script");
+  ensureScript("match-results-widget.js", "match-results-widget-script");
+  ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
+  ensureScript("payment-gold-theme.js", "payment-gold-theme-script");
+  ensureScript("payment-luxury-tiers.js", "payment-luxury-tiers-script");
+  ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
+  ensureScript("coupon-design.js", "coupon-design-script");
+  ensureScript("pro-analysis-guard.js", "pro-analysis-guard-script");
+  ensureScript("visitor-language.js", "visitor-language-script");
+  ensureScript("site-typography-system.js", "site-typography-system-script");
+  ensureScript("panel-widget-system.js", "panel-widget-system-script");
+  ensureScript("user-access-flow.js", "user-access-flow-script");
+  ensureScript("live-control-center.js", "live-control-center-script");
 
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
@@ -108,6 +73,11 @@
     } catch {
       return false;
     }
+  });
+
+  menuButton?.addEventListener("click", () => {
+    const isOpen = nav?.classList.toggle("open");
+    menuButton.setAttribute("aria-expanded", String(Boolean(isOpen)));
   });
 
   const getHeaderOffset = () => (header?.offsetHeight || 0) + 18;
@@ -136,6 +106,8 @@
   };
 
   internalLinks.forEach((link) => {
+    if (link.dataset.flNavReady === "1") return;
+    link.dataset.flNavReady = "1";
     link.addEventListener("click", (event) => {
       const url = new URL(link.getAttribute("href"), window.location.href);
       const target = document.querySelector(url.hash);
