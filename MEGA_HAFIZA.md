@@ -228,6 +228,13 @@ Kural:
 - Ücret PayTR/iyzico üzerinden işletme banka hesabına aktarılacak.
 - GitHub Pages tek başına güvenli üyelik/ödeme backend'i değildir; gerçek ödeme sonrası üyelik açma için backend gerekir.
 
+Son geliştirme:
+
+- `membership-payment-panel.js` içine Ad Soyad, E-posta, Telefon alanları eklendi.
+- Paket seçilip üye bilgileri doldurulunca ödeme isteği hazırlanır.
+- Backend bağlanınca bu istek `/api/paytr/create-payment` adresine gönderilecek.
+- Şimdilik canlı para çekmez; ödeme altyapı hazırlığıdır.
+
 ---
 
 ## 10. Şirket ve PayTR Hazırlığı
@@ -255,7 +262,65 @@ Son karar:
 
 ---
 
-## 11. GitHub / Site Çalışma Notları
+## 11. Premium Ödeme Backend Planı
+
+Yeni ödeme planı dosyası:
+
+- `docs/PREMIUM_ODEME_PLANI.md`
+
+Yeni backend taslak klasörü:
+
+- `serverless/paytr/`
+
+Eklenen dosyalar:
+
+- `serverless/paytr/README.md`
+- `serverless/paytr/create-payment.example.js`
+- `serverless/paytr/callback.example.js`
+
+Planlanan backend endpointleri:
+
+- `POST /api/paytr/create-payment`
+- `POST /api/paytr/callback`
+
+Gerekli ortam değişkenleri:
+
+- `PAYTR_MERCHANT_ID`
+- `PAYTR_MERCHANT_KEY`
+- `PAYTR_MERCHANT_SALT`
+- `PAYTR_TEST_MODE`
+- `SITE_BASE_URL`
+
+Ödeme mantığı:
+
+1. Frontend paket ve üye bilgilerini alır.
+2. Backend siparişi `pending` olarak oluşturur.
+3. Backend PayTR token/ödeme linki alır.
+4. Kullanıcı PayTR ödeme ekranına yönlenir.
+5. PayTR ödeme sonucunu callback endpointine gönderir.
+6. Backend hash doğrular.
+7. Başarılıysa sipariş `paid` olur ve üyelik aktif edilir.
+8. Başarısızsa sipariş `failed` olur.
+9. Backend PayTR'ye düz metin `OK` döner.
+
+Kritik güvenlik kuralları:
+
+- PayTR merchant key/salt frontend dosyalarına yazılmayacak.
+- Kart bilgisi sitede tutulmayacak.
+- Callback hash kontrolü zorunlu.
+- Aynı sipariş ikinci kez işlenmeyecek.
+- Üyelik sadece doğrulanmış callback sonrası açılacak.
+
+Durum:
+
+- Frontend ödeme formu hazır.
+- PayTR backend iskeleti hazır.
+- Canlı ödeme için şahıs şirketi, PayTR üye işyeri ve backend sağlayıcı gerekir.
+- İlk teknik adaylar: Vercel Functions, Supabase Edge Functions, Netlify Functions veya küçük VPS.
+
+---
+
+## 12. GitHub / Site Çalışma Notları
 
 Repo erişimi:
 
@@ -292,7 +357,7 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 
 ---
 
-## 12. Son Yapılan Büyük İşler
+## 13. Son Yapılan Büyük İşler
 
 - Günlük maç bülteni lig bazlı tasarlandı.
 - Oran ve detay açılır panel eklendi.
@@ -305,10 +370,13 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 - PayTR/şahıs şirketi süreci için karar verildi.
 - `MEGA_HAFIZA.md` proje hafıza deposu olarak oluşturuldu.
 - Yeni sohbetlerde GitHub çağırma kelimeleri belirlendi.
+- Premium ödeme planı dokümanı eklendi.
+- PayTR backend iskeleti eklendi.
+- Üyelik ödeme formu geliştirildi.
 
 ---
 
-## 13. Sonraki Görevler
+## 14. Sonraki Görevler
 
 1. Şahıs şirketi açma sürecini tamamla.
 2. PayTR başvurusuna hazırlan.
@@ -323,27 +391,34 @@ Bu ifadeler geldiğinde, GitHub aracı mevcutsa doğrudan `futbollaboratuvari/fu
 7. Robotun bu istekleri okuyup özel analiz üretmesini sağla.
 8. Robot arşivini otomatik workflow içine bağla.
 9. PayTR başvurusu öncesi sitedeki üyelik/ödeme alanını yasal metinlerle güçlendir.
+10. PayTR üye işyeri bilgileri gelince `PAYTR_MERCHANT_ID`, `PAYTR_MERCHANT_KEY`, `PAYTR_MERCHANT_SALT` backend ortam değişkenlerine girilecek.
+11. `serverless/paytr` taslağı gerçek backend sağlayıcısına taşınacak.
 
 ---
 
-## 14. Hafıza Kullanım Kuralı
+## 15. Hafıza Kullanım Kuralı
 
 Bu dosya proje hafıza deposudur.
 
-Sohbet sonunda kullanıcı `hafızaya kaydet`, `mega hafızaya işle`, `hafıza deposunu güncelle` veya benzer bir komut verdiğinde bu dosya güncellenecek.
+Sohbet sonunda kullanıcı `hafızaya kaydet`, `mega hafızaya işle`, `hafıza deposunu güncelle`, `kayıt et` veya benzer bir komut verdiğinde bu dosya güncellenecek.
 
 Otomatik sohbet sonu algılama garanti değildir; kullanıcı komut verdiğinde güncelleme yapılır.
 
 ---
 
-## 15. Son Hafıza Kaydı
+## 16. Son Hafıza Kaydı
 
-Bu kayıt, `hafızaya kayıt et` komutuyla güncellendi.
+Bu kayıt, `kayıt et` komutuyla güncellendi.
 
 Özet:
 
-- Kullanıcı, yeni sohbetlerde `github'a gir`, `githubuma bak`, `github'a erişimin var` gibi ifadeler söylediğinde GitHub reposunun kontrol edilmesini istedi.
-- Bu ifadeler GitHub/repo inceleme komutu olarak kabul edilecek.
-- GitHub aracı mevcutsa doğrudan `futbollaboratuvari/futbol-laboratuvari` reposuna bakılacak.
-- GitHub aracı yoksa kullanıcıya Codex/GitHub için uygulanacak net talimat verilecek.
-- Proje hafıza deposu: `MEGA_HAFIZA.md`.
+- Premium ödeme çalışması yapıldı.
+- `docs/PREMIUM_ODEME_PLANI.md` dosyası eklendi.
+- `serverless/paytr/README.md` dosyası eklendi.
+- `serverless/paytr/create-payment.example.js` dosyası eklendi.
+- `serverless/paytr/callback.example.js` dosyası eklendi.
+- `membership-payment-panel.js` geliştirildi; Ad Soyad, E-posta ve Telefon alanları eklendi.
+- Ödeme başlatma hedef endpointi `/api/paytr/create-payment` olarak belirlendi.
+- PayTR callback hedef endpointi `/api/paytr/callback` olarak belirlendi.
+- Canlı ödeme için GitHub Pages tek başına yeterli değildir; backend/serverless sağlayıcı gereklidir.
+- Canlı ödeme öncesi şahıs şirketi, PayTR üye işyeri ve yasal site metinleri tamamlanacak.
