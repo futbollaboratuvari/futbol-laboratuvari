@@ -6,6 +6,28 @@
   styleLink.href = "nav-position.css";
   document.head.appendChild(styleLink);
 
+  const cleanupStyle = document.createElement("style");
+  cleanupStyle.textContent = `
+    .dashboard-hero h1::after,
+    .section-heading h2::after,
+    .opinion-panel h2::after,
+    .founder-copy h2::after,
+    h1::after,
+    h2::after {
+      content: none !important;
+      display: none !important;
+      background: none !important;
+      box-shadow: none !important;
+    }
+    h1, h2, h3 {
+      text-decoration: none !important;
+    }
+    .robot-disclaimer {
+      display: none !important;
+    }
+  `;
+  document.head.appendChild(cleanupStyle);
+
   const couponCommentsScript = document.createElement("script");
   couponCommentsScript.src = "coupon-comments.js";
   couponCommentsScript.defer = true;
