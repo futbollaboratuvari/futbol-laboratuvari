@@ -63,6 +63,7 @@
   ensureScript("panel-widget-system.js", "panel-widget-system-script");
   ensureScript("user-access-flow.js", "user-access-flow-script");
   ensureScript("live-control-center.js", "live-control-center-script");
+  ensureScript("section-order.js", "section-order-script");
 
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
