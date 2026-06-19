@@ -10,6 +10,14 @@
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
 
+  const pickOdd = (match, keys) => {
+    for (const key of keys) {
+      const value = match[key];
+      if (value !== undefined && value !== null && value !== "") return value;
+    }
+    return "-";
+  };
+
   const todayKey = () =>
     new Intl.DateTimeFormat("en-CA", {
       timeZone: "Europe/Istanbul",
@@ -96,10 +104,7 @@
         font-weight: 800;
         white-space: nowrap;
       }
-      .daily-widget-list {
-        display: grid;
-        gap: 14px;
-      }
+      .daily-widget-list { display: grid; gap: 14px; }
       .daily-league-block {
         overflow: hidden;
         border: 1px solid rgba(216, 178, 87, 0.18);
@@ -128,23 +133,29 @@
         font-weight: 800;
         white-space: nowrap;
       }
-      .daily-match-table {
+      .daily-match-table { display: grid; min-width: 980px; }
+      .daily-match-row,
+      .daily-match-header {
         display: grid;
-      }
-      .daily-match-row {
-        display: grid;
-        grid-template-columns: 84px minmax(0, 1fr) 112px;
-        gap: 12px;
+        grid-template-columns: 70px minmax(220px, 1fr) repeat(7, 58px) 96px;
+        gap: 8px;
         align-items: center;
-        padding: 11px 14px;
+        padding: 10px 14px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.07);
       }
-      .daily-match-row:last-child {
-        border-bottom: 0;
+      .daily-table-scroll { overflow-x: auto; }
+      .daily-match-header {
+        background: rgba(3, 8, 23, 0.72);
+        color: #f7df9a;
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
       }
+      .daily-match-row:last-child { border-bottom: 0; }
       .daily-match-time {
         color: #39ff88;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 950;
       }
       .daily-match-teams {
@@ -168,6 +179,19 @@
         font-size: 12px;
         font-weight: 800;
       }
+      .daily-odd {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 30px;
+        padding: 6px 7px;
+        border: 1px solid rgba(216, 178, 87, 0.18);
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.045);
+        color: #f8fbff;
+        font-size: 12px;
+        font-weight: 850;
+      }
       .daily-widget-status {
         justify-self: end;
         width: max-content;
@@ -189,10 +213,7 @@
       @media (max-width: 720px) {
         .daily-widget-shell { margin: 16px 14px 0; padding: 14px; }
         .daily-widget-head { align-items: flex-start; flex-direction: column; }
-        .daily-match-row { grid-template-columns: 68px minmax(0, 1fr); }
-        .daily-widget-status { grid-column: 2; justify-self: start; }
-        .daily-match-teams { display: grid; gap: 3px; }
-        .daily-match-vs { display: none; }
+        .daily-match-table { min-width: 900px; }
       }
     `;
     document.head.appendChild(style);
@@ -234,18 +255,30 @@
         <span class="daily-league-name">${escapeHtml(league)}</span>
         <span class="daily-league-count">${items.length} maç</span>
       </div>
-      <div class="daily-match-table">
-        ${items.map((match) => `
-          <div class="daily-match-row">
-            <div class="daily-match-time">${escapeHtml(match.time || "--:--")}</div>
-            <div class="daily-match-teams">
-              <span>${escapeHtml(match.home || "Ev sahibi")}</span>
-              <b class="daily-match-vs">-</b>
-              <span>${escapeHtml(match.away || "Deplasman")}</span>
-            </div>
-            <span class="daily-widget-status">${escapeHtml(statusLabel(match.status))}</span>
+      <div class="daily-table-scroll">
+        <div class="daily-match-table">
+          <div class="daily-match-header">
+            <span>Saat</span><span>Maç</span><span>1</span><span>X</span><span>2</span><span>Alt</span><span>Üst</span><span>Var</span><span>Yok</span><span>Durum</span>
           </div>
-        `).join("")}
+          ${items.map((match) => `
+            <div class="daily-match-row">
+              <div class="daily-match-time">${escapeHtml(match.time || "--:--")}</div>
+              <div class="daily-match-teams">
+                <span>${escapeHtml(match.home || "Ev sahibi")}</span>
+                <b class="daily-match-vs">-</b>
+                <span>${escapeHtml(match.away || "Deplasman")}</span>
+              </div>
+              <span class="daily-odd">${escapeHtml(pickOdd(match, ["one", "oneOdd", "ms1", "odd1"]))}</span>
+              <span class="daily-odd">${escapeHtml(pickOdd(match, ["draw", "drawOdd", "x", "msx", "oddX"]))}</span>
+              <span class="daily-odd">${escapeHtml(pickOdd(match, ["two", "twoOdd", "ms2", "odd2"]))}</span>
+              <span class="daily-odd">${escapeHtml(pickOdd(match, ["under25", "alt25", "under", "alt"]))}</span>
+              <span class="daily-odd">${escapeHtml(pickOdd(match, ["over25", "ust25", "over", "ust"]))}</span>
+              <span class="daily-odd">${escapeHtml(pickOdd(match, ["bttsYes", "kgVar", "varOdd", "var"]))}</span>
+              <span class="daily-odd">${escapeHtml(pickOdd(match, ["bttsNo", "kgYok", "yokOdd", "yok"]))}</span>
+              <span class="daily-widget-status">${escapeHtml(statusLabel(match.status))}</span>
+            </div>
+          `).join("")}
+        </div>
       </div>
     </article>
   `;
