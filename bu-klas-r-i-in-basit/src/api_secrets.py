@@ -6,7 +6,7 @@ Oncelik zinciri:
 1. FOOTBALL_DATA_API_KEY
 2. API_FOOTBALL_KEY
 3. API_FOOTBALL_KEY2
-4. DEMO MODE
+4. BETA MODE
 
 GitHub Repository Secrets ve Environment Secrets calisma aninda ortam
 degiskeni olarak gelir. Yerel kullanim icin proje kokundeki `.env` dosyasi da
@@ -52,7 +52,7 @@ class ActiveApiSecret:
         """Baslangicta yazilacak standart log satirini doner."""
         if self.env_name:
             return f"[OK] {self.env_name} bulundu"
-        return "[WARNING] API anahtarı bulunamadı. Demo mod aktif."
+        return "[BETA] API anahtarı bulunamadı. Beta mod aktif."
 
 
 def project_root_from_file(file_path: str | Path) -> Path:
@@ -122,7 +122,7 @@ def get_active_api_secret() -> ActiveApiSecret:
         )
     return ActiveApiSecret(
         env_name=None,
-        data_source="Demo Mode",
+        data_source="Beta Mode",
         is_demo=True,
     )
 
