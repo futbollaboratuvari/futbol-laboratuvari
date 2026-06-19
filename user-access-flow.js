@@ -18,43 +18,48 @@
     const style = document.createElement("style");
     style.id = STYLE_ID;
     style.textContent = `
-      .site-header {
-        flex-wrap: wrap !important;
+      .site-header::after {
+        content: none !important;
+        display: none !important;
       }
 
       .fl-access-actions {
+        grid-column: 3 !important;
+        grid-row: 1 / span 2 !important;
+        justify-self: end !important;
+        align-self: center !important;
         display: inline-flex;
         align-items: center;
         justify-content: flex-end;
         gap: 8px;
+        width: auto;
         min-width: max-content;
-        margin-left: auto;
-        padding: 7px;
-        border: 1px solid rgba(255, 214, 102, .20);
+        margin-left: 0 !important;
+        padding: 6px;
+        border: 1px solid rgba(255, 214, 102, .24);
         border-radius: 999px;
-        background:
-          linear-gradient(135deg, rgba(255, 185, 46, .10), rgba(57, 255, 136, .05)),
-          rgba(3,8,23,.62);
-        box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 14px 34px rgba(0,0,0,.18);
+        background: rgba(3, 8, 23, .72);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 12px 28px rgba(0,0,0,.20);
       }
 
       .fl-access-button {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        gap: 7px;
-        min-height: 36px;
-        padding: 8px 13px;
+        gap: 6px;
+        min-height: 34px;
+        padding: 7px 13px;
         border-radius: 999px;
         border: 1px solid rgba(255,255,255,.12);
         background: rgba(255,255,255,.045);
         color: #f8fbff;
         font-family: "DejaVu Sans Condensed", Inter, system-ui, sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 950;
         letter-spacing: .055em;
         text-transform: uppercase;
         cursor: pointer;
+        white-space: nowrap;
         transition: transform .18s ease, background .18s ease, border-color .18s ease, box-shadow .18s ease;
       }
 
@@ -66,14 +71,14 @@
 
       .fl-access-button.trial {
         border-color: rgba(255, 185, 46, .66);
-        background: linear-gradient(135deg, #ff3d00, #ffb92e, #ffe8a3);
+        background: linear-gradient(135deg, #ff7a18, #ffb92e, #ffe8a3);
         color: #170b00;
-        box-shadow: 0 0 26px rgba(255, 185, 46, .22);
+        box-shadow: 0 0 24px rgba(255, 185, 46, .20);
       }
 
       .fl-access-button.login {
-        border-color: rgba(154,236,255,.36);
-        background: rgba(154,236,255,.08);
+        border-color: rgba(154,236,255,.32);
+        background: rgba(154,236,255,.07);
         color: #e9fcff;
       }
 
@@ -101,34 +106,44 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-width: 18px;
-        height: 18px;
-        margin-right: 6px;
+        min-width: 16px;
+        height: 16px;
+        margin-right: 5px;
         border-radius: 999px;
         color: #ffe8a3;
-        font-size: 12px;
+        font-size: 11px;
         line-height: 1;
         text-shadow: 0 0 10px rgba(255,185,46,.22);
       }
 
-      @media (max-width: 1320px) {
+      @media (max-width: 1480px) {
         .fl-access-actions {
-          order: 3;
-          width: 100%;
-          justify-content: flex-end;
-          border-radius: 18px;
+          grid-column: 3 !important;
+          grid-row: 1 / span 2 !important;
+          width: auto;
+          min-width: max-content;
+          justify-self: end !important;
+          padding: 5px;
+        }
+        .fl-access-button {
+          min-height: 32px;
+          padding: 6px 10px;
+          font-size: 10px;
+        }
+      }
+
+      @media (max-width: 1180px) {
+        .fl-access-actions {
+          grid-column: 1 / -1 !important;
+          grid-row: auto !important;
+          justify-self: end !important;
         }
       }
 
       @media (max-width: 860px) {
         .fl-access-actions {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          width: 100%;
-          margin-left: 0;
-          border-radius: 18px;
+          display: none !important;
         }
-        .fl-access-button { width: 100%; min-height: 42px; }
         .fl-access-flow-note { top: 86px; right: 12px; }
       }
     `;
