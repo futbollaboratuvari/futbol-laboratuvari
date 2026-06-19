@@ -666,3 +666,43 @@ Bu kayıt, yeni sayfaya geçmeden önce güncellendi.
 - `live-control-center.js` eklendi ve site akışı kontrol kartları kaydedildi.
 - `nav-theme.css` üst üste binme riskini azaltmak için güncellendiği kaydedildi.
 - `nav-routing.js` yeni üyelik ve kontrol merkezi dosyalarına bağlandı.
+
+---
+
+## 21. Üst Menü Tasarım Kararı - Dar Premium Header
+
+Tarih: 2026-06-20
+
+Kullanıcı son üst menü görselini beğendi ve şu kararı verdi:
+
+> “Bu şekilde tasarla bunu beğendim.”
+
+Ardından kullanıcı görsel gönderilmesini durdurup doğrudan uygulamaya geçilmesini istedi:
+
+> “Bana görsel gönderme artık hazırlamaya başlayalım.”
+
+Bu karar doğrultusunda üst menü için kalıcı tasarım standardı:
+
+- Dar, yatay ve premium header düzeni kullanılacak.
+- Sol tarafta küçük logo + `FUTBOL LABORATUVARI` marka yazısı + `Maç ve Kupon Merkezi` alt başlığı olacak.
+- Ana menü yatay ve kompakt kalacak.
+- `Kupon Merkezi` aktif menü olarak neon yeşil/parlak pill içinde vurgulanacak.
+- Altta ikinci satır/şerit olarak `SONUÇLAR & MARKA`, `Sonuçlar`, `Performans`, `Hakkımızda`, `Yönetim` görünecek.
+- Sağ tarafta koyu `GİRİŞ YAP` ve dore/altın `1 GÜN DENE` erişim alanı korunacak.
+- Renk dili: siyah / koyu lacivert zemin, dore-altın çizgiler, neon yeşil aktif vurgu.
+- Header büyük boş kart gibi durmayacak; ince, premium, kompakt ve siteye bağlı olacak.
+- Üst alan eski büyük/boş header görünümüne dönmeyecek.
+
+Uygulanan repo dosyası:
+
+- `nav-theme.css`
+
+Uygulanan commit:
+
+- `420506369fb99d926beb75490ddcf8228846abd4`
+
+Kural:
+
+- Bundan sonra üst menü düzeni değiştirilirken bu karar baz alınacak.
+- Yeni tasarım yapılmadan doğrudan bu dar premium header standardı korunacak.
+- Kullanıcı özellikle istemedikçe üst menü için yeni görsel mockup üretilmeyecek.
