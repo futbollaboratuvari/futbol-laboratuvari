@@ -33,6 +33,11 @@
   dailyMatchesScript.defer = true;
   document.body.appendChild(dailyMatchesScript);
 
+  const dailyToggleScript = document.createElement("script");
+  dailyToggleScript.src = "daily-toggle.js";
+  dailyToggleScript.defer = true;
+  document.body.appendChild(dailyToggleScript);
+
   const couponCommentsScript = document.createElement("script");
   couponCommentsScript.src = "coupon-comments.js";
   couponCommentsScript.defer = true;
