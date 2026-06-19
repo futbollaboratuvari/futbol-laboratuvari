@@ -244,7 +244,7 @@ async function robotBoot() {
   robotSet("[data-prediction-count]", String(state.history.prediction_count || state.history.predictions?.length || 0));
   robotSet("[data-load-status]", visibleMatches.length ? "Robot verisi" : "Canlı veri bekleniyor");
   robotSet("[data-success-state]", state.history.predictions?.some((item) => item.result_status !== "pending") ? "sonuçlandı" : "bekliyor");
-  robotFill("[data-home-matches], [data-admin-matches]", visibleMatches, robotMatchCard, "Canlı maç verisi bekleniyor.");
+  robotFill("[data-admin-matches]", visibleMatches, robotMatchCard, "Canlı maç verisi bekleniyor.");
   robotFill("[data-coupons-single]", state.singleCoupons, robotCoupon, "Tekli kupon verisi bekleniyor.");
   robotFill("[data-coupons-double]", state.doubleCoupons, robotCoupon, "2'li kupon verisi bekleniyor.");
   robotFill("[data-coupons-triple]", state.tripleCoupons, robotCoupon, "3'lü kupon verisi bekleniyor.");
@@ -265,5 +265,5 @@ async function robotBoot() {
 
 robotBoot().catch((error) => {
   robotSet("[data-load-status]", "Hata");
-  robotFill("[data-home-matches], [data-admin-matches]", [], () => "", `Veri yükleme hatası: ${error.message}`);
+  robotFill("[data-admin-matches]", [], () => "", `Veri yükleme hatası: ${error.message}`);
 });
