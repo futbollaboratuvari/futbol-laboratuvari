@@ -95,6 +95,10 @@ const pickOdds = (item) => {
   set(["ust_25", "over25", "ust25", "over", "ust"], ["over25", "ust25", "over", "ust"]);
   set(["alt_35", "under35", "alt35", "under3_5"], ["under35", "alt35", "under3_5"]);
   set(["ust_35", "over35", "ust35", "over3_5"], ["over35", "ust35", "over3_5"]);
+  set(["gol_araligi_01", "golAraligi01", "goalRange01", "totalGoals01", "toplam_gol_01"], ["golAraligi01", "goalRange01", "totalGoals01", "toplam_gol_01"]);
+  set(["gol_araligi_23", "golAraligi23", "goalRange23", "totalGoals23", "toplam_gol_23"], ["golAraligi23", "goalRange23", "totalGoals23", "toplam_gol_23"]);
+  set(["gol_araligi_45", "golAraligi45", "goalRange45", "totalGoals45", "toplam_gol_45"], ["golAraligi45", "goalRange45", "totalGoals45", "toplam_gol_45"]);
+  set(["gol_araligi_6_plus", "golAraligi6Plus", "goalRange6Plus", "totalGoals6Plus", "toplam_gol_6_plus"], ["golAraligi6Plus", "goalRange6Plus", "totalGoals6Plus", "toplam_gol_6_plus"]);
   set(["iy_alt_15", "iyAlt15", "firstHalfUnder15", "first_half_under_15"], ["iyAlt15", "firstHalfUnder15", "first_half_under_15"]);
   set(["iy_ust_15", "iyUst15", "firstHalfOver15", "first_half_over_15"], ["iyUst15", "firstHalfOver15", "first_half_over_15"]);
   set(["ev_alt_25", "evAlt25", "homeUnder25", "home_team_under_25"], ["evAlt25", "homeUnder25", "home_team_under_25"]);
@@ -132,7 +136,7 @@ const hasOdds = (item) => {
   const odds = pickOdds(item);
   return Boolean(
     odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.cifte1x || odds.cifte12 || odds.cifteX2 || odds.hnd1 || odds.hndX || odds.hnd2 ||
-    odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 ||
+    odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.golAraligi01 || odds.golAraligi23 || odds.golAraligi45 || odds.golAraligi6Plus || odds.iyAlt15 || odds.iyUst15 ||
     odds.evAlt25 || odds.evUst25 || odds.depAlt15 || odds.depUst15 || odds.evIyAlt05 || odds.evIyUst05 || odds.depIyAlt05 || odds.depIyUst05 ||
     odds.kgVar || odds.kgYok || odds.iyKgVar || odds.iyKgYok || odds.ikinciYariKgVar || odds.ikinciYariKgYok ||
     odds.iy1 || odds.iyX || odds.iy2 || odds.ikinciYari1 || odds.ikinciYariX || odds.ikinciYari2 ||
@@ -319,6 +323,10 @@ const main = () => {
         ust_25: fixture.over25 ?? null,
         alt_35: fixture.under35 ?? null,
         ust_35: fixture.over35 ?? null,
+        gol_araligi_01: fixture.golAraligi01 ?? null,
+        gol_araligi_23: fixture.golAraligi23 ?? null,
+        gol_araligi_45: fixture.golAraligi45 ?? null,
+        gol_araligi_6_plus: fixture.golAraligi6Plus ?? null,
         iy_alt_15: fixture.iyAlt15 ?? null,
         iy_ust_15: fixture.iyUst15 ?? null,
         ev_alt_25: fixture.evAlt25 ?? null,
