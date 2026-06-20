@@ -1,5 +1,6 @@
 (() => {
-  const VERSION = "20260620-2135-membership-submit-guard";
+  const VERSION = document.querySelector('meta[name="deploy-version"]')?.content?.trim()
+    || "20260620-2145-live-repo-sync";
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
   const sameAsset = (value, src) => {
