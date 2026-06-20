@@ -102,15 +102,12 @@
   };
 
   const loadReadinessPanel = () => loadScriptOnce("paytr-readiness-panel.js", "paytr-readiness-panel-script");
-  const loadVisibleFix = () => loadScriptOnce("site-visible-fix.js", "site-visible-fix-script");
 
   window.addEventListener("load", () => {
     inject();
-    loadVisibleFix();
     loadReadinessPanel();
   });
   setTimeout(inject, 800);
   setTimeout(inject, 1800);
-  setTimeout(loadVisibleFix, 400);
   setTimeout(loadReadinessPanel, 1200);
 })();
