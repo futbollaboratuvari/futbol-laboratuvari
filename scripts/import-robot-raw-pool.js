@@ -91,6 +91,14 @@ const pickOdds = (item) => {
   set(["ust_35", "over35", "ust35", "over3_5"], ["over35", "ust35", "over3_5"]);
   set(["iy_alt_15", "iyAlt15", "firstHalfUnder15", "first_half_under_15"], ["iyAlt15", "firstHalfUnder15", "first_half_under_15"]);
   set(["iy_ust_15", "iyUst15", "firstHalfOver15", "first_half_over_15"], ["iyUst15", "firstHalfOver15", "first_half_over_15"]);
+  set(["ev_alt_25", "evAlt25", "homeUnder25", "home_team_under_25"], ["evAlt25", "homeUnder25", "home_team_under_25"]);
+  set(["ev_ust_25", "evUst25", "homeOver25", "home_team_over_25"], ["evUst25", "homeOver25", "home_team_over_25"]);
+  set(["dep_alt_15", "depAlt15", "awayUnder15", "away_team_under_15"], ["depAlt15", "awayUnder15", "away_team_under_15"]);
+  set(["dep_ust_15", "depUst15", "awayOver15", "away_team_over_15"], ["depUst15", "awayOver15", "away_team_over_15"]);
+  set(["ev_iy_alt_05", "evIyAlt05", "homeFirstHalfUnder05", "home_first_half_under_05"], ["evIyAlt05", "homeFirstHalfUnder05", "home_first_half_under_05"]);
+  set(["ev_iy_ust_05", "evIyUst05", "homeFirstHalfOver05", "home_first_half_over_05"], ["evIyUst05", "homeFirstHalfOver05", "home_first_half_over_05"]);
+  set(["dep_iy_alt_05", "depIyAlt05", "awayFirstHalfUnder05", "away_first_half_under_05"], ["depIyAlt05", "awayFirstHalfUnder05", "away_first_half_under_05"]);
+  set(["dep_iy_ust_05", "depIyUst05", "awayFirstHalfOver05", "away_first_half_over_05"], ["depIyUst05", "awayFirstHalfOver05", "away_first_half_over_05"]);
   set(["kg_var", "bttsYes", "kgVar", "varOdd", "var"], ["bttsYes", "kgVar", "varOdd", "var"]);
   set(["kg_yok", "bttsNo", "kgYok", "yokOdd", "yok"], ["bttsNo", "kgYok", "yokOdd", "yok"]);
   set(["iy_1", "iy1", "firstHalfOne", "first_half_1", "firstHalf1"], ["iy1", "firstHalfOne", "first_half_1"]);
@@ -113,7 +121,9 @@ const pickOdds = (item) => {
 const hasOdds = (item) => {
   const odds = pickOdds(item);
   return Boolean(
-    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 || odds.kgVar || odds.kgYok ||
+    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 ||
+    odds.evAlt25 || odds.evUst25 || odds.depAlt15 || odds.depUst15 || odds.evIyAlt05 || odds.evIyUst05 || odds.depIyAlt05 || odds.depIyUst05 ||
+    odds.kgVar || odds.kgYok ||
     odds.iy1 || odds.iyX || odds.iy2 || odds.ikinciYari1 || odds.ikinciYariX || odds.ikinciYari2 ||
     odds.iyCifte1x || odds.iyCifte12 || odds.iyCifteX2 ||
     odds.iy2yKgYesYes || odds.iy2yKgYesNo || odds.iy2yKgNoYes || odds.iy2yKgNoNo
@@ -294,6 +304,14 @@ const main = () => {
         ust_35: fixture.over35 ?? null,
         iy_alt_15: fixture.iyAlt15 ?? null,
         iy_ust_15: fixture.iyUst15 ?? null,
+        ev_alt_25: fixture.evAlt25 ?? null,
+        ev_ust_25: fixture.evUst25 ?? null,
+        dep_alt_15: fixture.depAlt15 ?? null,
+        dep_ust_15: fixture.depUst15 ?? null,
+        ev_iy_alt_05: fixture.evIyAlt05 ?? null,
+        ev_iy_ust_05: fixture.evIyUst05 ?? null,
+        dep_iy_alt_05: fixture.depIyAlt05 ?? null,
+        dep_iy_ust_05: fixture.depIyUst05 ?? null,
         kg_var: fixture.kgVar ?? null,
         kg_yok: fixture.kgYok ?? null,
         iy_1: fixture.iy1 ?? null,
