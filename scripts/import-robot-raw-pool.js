@@ -85,6 +85,9 @@ const pickOdds = (item) => {
   set(["ms_1", "one", "oneOdd", "ms1", "odd1"], ["one", "oneOdd", "ms1", "odd1"]);
   set(["ms_x", "draw", "drawOdd", "msx", "oddX"], ["draw", "drawOdd", "msx", "oddX"]);
   set(["ms_2", "two", "twoOdd", "ms2", "odd2"], ["two", "twoOdd", "ms2", "odd2"]);
+  set(["cifte_1x", "cifte1x", "doubleChance1X", "dc_1x"], ["cifte1x", "doubleChance1X", "dc_1x"]);
+  set(["cifte_12", "cifte12", "doubleChance12", "dc_12"], ["cifte12", "doubleChance12", "dc_12"]);
+  set(["cifte_x2", "cifteX2", "doubleChanceX2", "dc_x2"], ["cifteX2", "doubleChanceX2", "dc_x2"]);
   set(["hnd_1", "hnd1", "handicapOne", "handicap_1"], ["hnd1", "handicapOne", "handicap_1"]);
   set(["hnd_x", "hndX", "hndDraw", "handicapDraw", "handicap_x"], ["hndX", "hndDraw", "handicapDraw", "handicap_x"]);
   set(["hnd_2", "hnd2", "handicapTwo", "handicap_2"], ["hnd2", "handicapTwo", "handicap_2"]);
@@ -128,7 +131,7 @@ const pickOdds = (item) => {
 const hasOdds = (item) => {
   const odds = pickOdds(item);
   return Boolean(
-    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.hnd1 || odds.hndX || odds.hnd2 ||
+    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.cifte1x || odds.cifte12 || odds.cifteX2 || odds.hnd1 || odds.hndX || odds.hnd2 ||
     odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 ||
     odds.evAlt25 || odds.evUst25 || odds.depAlt15 || odds.depUst15 || odds.evIyAlt05 || odds.evIyUst05 || odds.depIyAlt05 || odds.depIyUst05 ||
     odds.kgVar || odds.kgYok || odds.iyKgVar || odds.iyKgYok || odds.ikinciYariKgVar || odds.ikinciYariKgYok ||
@@ -306,6 +309,9 @@ const main = () => {
         ms_1: fixture.oneOdd ?? null,
         ms_x: fixture.drawOdd ?? null,
         ms_2: fixture.twoOdd ?? null,
+        cifte_1x: fixture.cifte1x ?? null,
+        cifte_12: fixture.cifte12 ?? null,
+        cifte_x2: fixture.cifteX2 ?? null,
         hnd_1: fixture.hnd1 ?? null,
         hnd_x: fixture.hndX ?? null,
         hnd_2: fixture.hnd2 ?? null,
