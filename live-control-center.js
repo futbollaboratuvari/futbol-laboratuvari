@@ -124,7 +124,7 @@
     panel = document.createElement("section");
     panel.id = PANEL_ID;
     panel.className = "live-control-center";
-    panel.setAttribute("aria-label", "Canlı kontrol merkezi");
+    panel.setAttribute("aria-label", "Canlı veri durumu");
     const target = document.getElementById("platform") || document.querySelector("main");
     if (target && target.parentNode) target.parentNode.insertBefore(panel, target.nextSibling);
     else document.body.appendChild(panel);
@@ -149,9 +149,9 @@
     panel.innerHTML = `
       <div class="live-control-head">
         <div>
-          <span class="live-control-kicker">📡 Canlı Kontrol Merkezi</span>
-          <h2 class="live-control-title">Site akışı ve analiz durumu</h2>
-          <p class="live-control-note">Maç listesi, analiz akışı, üyelik ve ödeme hazırlığı tek bakışta kontrol edilir.</p>
+          <span class="live-control-kicker">📡 Canlı Veri Durumu</span>
+          <h2 class="live-control-title">Maç ve analiz akışı</h2>
+          <p class="live-control-note">Bugünün maç listesi, analiz sayısı ve üyelik deneme durumu tek bakışta gösterilir.</p>
         </div>
       </div>
       <div class="live-control-grid">
