@@ -320,3 +320,82 @@
     display: none !important;
   }
 }
+
+/* Ana sayfa stabilite hotfix */
+.dashboard-hero {
+  min-height: auto !important;
+  padding-top: clamp(34px, 5vw, 58px) !important;
+  padding-bottom: clamp(36px, 5vw, 62px) !important;
+}
+
+.dashboard-hero h1 {
+  max-width: 620px !important;
+  font-size: clamp(34px, 4vw, 52px) !important;
+  line-height: 1.05 !important;
+}
+
+.dashboard-hero h1::after,
+.section-heading h2::after,
+h1::after,
+h2::after {
+  content: none !important;
+  display: none !important;
+}
+
+#daily-matches-widget.daily-widget-shell,
+#membership-payment-panel.membership-shell,
+#premium-analysis-panel.premium-analysis-shell,
+#robot-analizleri.top-robot-hub {
+  min-height: auto !important;
+}
+
+#daily-matches-widget:empty,
+#membership-payment-panel:empty,
+#premium-analysis-panel:empty {
+  min-height: 120px !important;
+  margin: 22px clamp(18px, 6vw, 90px) 0 !important;
+  border: 1px dashed rgba(154, 236, 255, .22) !important;
+  border-radius: 18px !important;
+  background: rgba(3, 8, 23, .54) !important;
+}
+
+#robot-analizleri .premium-coupon-center > div,
+#daily-matches-widget.daily-widget-shell {
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.robot-live-card,
+.fixtures-empty,
+.daily-widget-empty,
+.coupon-empty,
+.results-empty {
+  min-height: auto !important;
+}
+
+#daily-matches-widget,
+#robot-analizleri,
+#membership-payment-panel,
+#premium-analysis-panel,
+#sonuc-arsivi,
+#basari-takip,
+#kurucu,
+#medya-galerisi,
+#guclu-tahmin,
+#son-analizler,
+#spor-toto-performansi,
+#analiz-veritabani,
+#yorum-kosesi,
+#analiz-modulleri {
+  scroll-margin-top: 150px !important;
+}
+
+@media (max-width: 640px) {
+  .dashboard-hero {
+    padding: 30px 16px 38px !important;
+  }
+
+  .dashboard-hero h1 {
+    font-size: clamp(31px, 9vw, 38px) !important;
+  }
+}
