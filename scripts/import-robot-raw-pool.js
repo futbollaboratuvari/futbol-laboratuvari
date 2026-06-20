@@ -101,6 +101,10 @@ const pickOdds = (item) => {
   set(["dep_iy_ust_05", "depIyUst05", "awayFirstHalfOver05", "away_first_half_over_05"], ["depIyUst05", "awayFirstHalfOver05", "away_first_half_over_05"]);
   set(["kg_var", "bttsYes", "kgVar", "varOdd", "var"], ["bttsYes", "kgVar", "varOdd", "var"]);
   set(["kg_yok", "bttsNo", "kgYok", "yokOdd", "yok"], ["bttsNo", "kgYok", "yokOdd", "yok"]);
+  set(["iy_kg_var", "iyKgVar", "firstHalfBttsYes", "first_half_btts_yes"], ["iyKgVar", "firstHalfBttsYes", "first_half_btts_yes"]);
+  set(["iy_kg_yok", "iyKgYok", "firstHalfBttsNo", "first_half_btts_no"], ["iyKgYok", "firstHalfBttsNo", "first_half_btts_no"]);
+  set(["ikinci_yari_kg_var", "ikinciYariKgVar", "secondHalfBttsYes", "second_half_btts_yes"], ["ikinciYariKgVar", "secondHalfBttsYes", "second_half_btts_yes"]);
+  set(["ikinci_yari_kg_yok", "ikinciYariKgYok", "secondHalfBttsNo", "second_half_btts_no"], ["ikinciYariKgYok", "secondHalfBttsNo", "second_half_btts_no"]);
   set(["iy_1", "iy1", "firstHalfOne", "first_half_1", "firstHalf1"], ["iy1", "firstHalfOne", "first_half_1"]);
   set(["iy_x", "iyX", "firstHalfDraw", "first_half_x", "firstHalfX"], ["iyX", "firstHalfDraw", "first_half_x"]);
   set(["iy_2", "iy2", "firstHalfTwo", "first_half_2", "firstHalf2"], ["iy2", "firstHalfTwo", "first_half_2"]);
@@ -123,7 +127,7 @@ const hasOdds = (item) => {
   return Boolean(
     odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 ||
     odds.evAlt25 || odds.evUst25 || odds.depAlt15 || odds.depUst15 || odds.evIyAlt05 || odds.evIyUst05 || odds.depIyAlt05 || odds.depIyUst05 ||
-    odds.kgVar || odds.kgYok ||
+    odds.kgVar || odds.kgYok || odds.iyKgVar || odds.iyKgYok || odds.ikinciYariKgVar || odds.ikinciYariKgYok ||
     odds.iy1 || odds.iyX || odds.iy2 || odds.ikinciYari1 || odds.ikinciYariX || odds.ikinciYari2 ||
     odds.iyCifte1x || odds.iyCifte12 || odds.iyCifteX2 ||
     odds.iy2yKgYesYes || odds.iy2yKgYesNo || odds.iy2yKgNoYes || odds.iy2yKgNoNo
@@ -314,6 +318,10 @@ const main = () => {
         dep_iy_ust_05: fixture.depIyUst05 ?? null,
         kg_var: fixture.kgVar ?? null,
         kg_yok: fixture.kgYok ?? null,
+        iy_kg_var: fixture.iyKgVar ?? null,
+        iy_kg_yok: fixture.iyKgYok ?? null,
+        ikinci_yari_kg_var: fixture.ikinciYariKgVar ?? null,
+        ikinci_yari_kg_yok: fixture.ikinciYariKgYok ?? null,
         iy_1: fixture.iy1 ?? null,
         iy_x: fixture.iyX ?? null,
         iy_2: fixture.iy2 ?? null,
