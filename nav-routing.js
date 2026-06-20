@@ -1,5 +1,5 @@
 (() => {
-  const VERSION = "20260620-2035-summary-sync";
+  const VERSION = "20260620-2055-premium-cache-fix";
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
   const sameAsset = (value, src) => {
