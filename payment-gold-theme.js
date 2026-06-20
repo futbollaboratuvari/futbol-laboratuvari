@@ -91,7 +91,21 @@
     document.head.appendChild(style);
   };
 
-  window.addEventListener("load", inject);
+  const loadReadinessPanel = () => {
+    if (document.getElementById("paytr-readiness-panel-script")) return;
+    if ([...document.querySelectorAll("script[src]")].some((script) => String(script.getAttribute("src") || "").endsWith("paytr-readiness-panel.js"))) return;
+    const script = document.createElement("script");
+    script.id = "paytr-readiness-panel-script";
+    script.src = "paytr-readiness-panel.js";
+    script.defer = true;
+    document.body.appendChild(script);
+  };
+
+  window.addEventListener("load", () => {
+    inject();
+    loadReadinessPanel();
+  });
   setTimeout(inject, 800);
   setTimeout(inject, 1800);
+  setTimeout(loadReadinessPanel, 1200);
 })();
