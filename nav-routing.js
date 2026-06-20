@@ -59,6 +59,7 @@
     ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
     ensureScript("daily-toggle.js", "daily-toggle-script");
     ensureScript("daily-past-filter.js", "daily-past-filter-script");
+    ensureScript("daily-live-score-presenter.js", "daily-live-score-presenter-script");
     ensureScript("match-results-widget.js", "match-results-widget-script");
     ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
     ensureScript("membership-submit-guard.js", "membership-submit-guard-script");
