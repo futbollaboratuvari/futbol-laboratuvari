@@ -25,7 +25,9 @@ if errorlevel 1 (
 
 echo.
 echo Gunluk robot gorevi kuruldu.
-echo Robot her gun %RUN_TIME% saatinde calisir ve web site veri esitlemesini yapar.
-echo GitHub Pages'e yansimasi icin GitHub Desktop ile commit/push gerekir.
+echo Robot her gun %RUN_TIME% saatinde calisir.
+echo Robot calisinca once analiz raporlarini uretir, sonra web site veri esitlemesini dener.
+echo Git kurulu ve repo yetkisi varsa otomatik commit/push yapar.
+echo Git veya yetki yoksa raporlar yerel klasorde kalir; run_robot.bat uyarı verir.
 echo.
 pause
