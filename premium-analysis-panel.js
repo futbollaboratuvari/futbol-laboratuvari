@@ -53,6 +53,20 @@
     document.head.appendChild(style);
   };
 
+  const ensureShell = () => {
+    let shell = document.getElementById(PANEL_ID);
+    if (!shell) {
+      shell = document.createElement("section");
+      shell.id = PANEL_ID;
+      shell.className = "premium-analysis-shell";
+      shell.setAttribute("aria-label", "Özel maç analizi");
+    }
+    const main = document.querySelector("main");
+    if (main && shell.parentElement !== main) main.appendChild(shell);
+    else if (!main && !shell.parentElement) document.body.appendChild(shell);
+    return shell;
+  };
+
   const isUnlocked = () => localStorage.getItem("fl_premium_beta_access") === "1";
   const unlock = (code) => {
     if (String(code || "").trim().toUpperCase() === ACCESS_KEY) {
@@ -80,16 +94,7 @@
 
   const render = (fixtures, archive) => {
     injectStyle();
-    let shell = document.getElementById(PANEL_ID);
-    if (!shell) {
-      shell = document.createElement("section");
-      shell.id = PANEL_ID;
-      shell.className = "premium-analysis-shell";
-      shell.setAttribute("aria-label", "Özel maç analizi");
-      const target = document.querySelector("#kupon-merkezi") || document.querySelector("#yaklasan-maclar") || document.querySelector("main");
-      if (target && target.parentNode) target.parentNode.insertBefore(shell, target.nextSibling);
-      else document.body.appendChild(shell);
-    }
+    const shell = ensureShell();
 
     const unlocked = isUnlocked();
     shell.innerHTML = `
@@ -175,10 +180,14 @@
     const fixtures = await readJson(FIXTURES_URL, []);
     const archive = await readJson(ARCHIVE_URL, { matches: [], team_index: {} });
     render(Array.isArray(fixtures) ? fixtures : [], archive);
+    document.dispatchEvent(new CustomEvent("fl:runtime-ready"));
   };
 
-  window.addEventListener("load", () => {
+  const start = () => {
     load();
     setInterval(load, 5 * 60 * 1000);
-  });
+  };
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
+  else start();
 })();
