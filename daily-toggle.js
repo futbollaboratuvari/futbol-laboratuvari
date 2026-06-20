@@ -109,6 +109,13 @@
     "triple"
   );
 
+  const overUnderHtml = (fixture) => category("Alt / Üst",
+    item("3.5 Alt", pick(fixture, ["under35", "alt35", "alt_35", "under3_5"])) +
+    item("3.5 Üst", pick(fixture, ["over35", "ust35", "ust_35", "over3_5"])) +
+    item("1Y 1.5 Alt", pick(fixture, ["firstHalfUnder15", "iyAlt15", "iy_alt_15", "first_half_under_15"])) +
+    item("1Y 1.5 Üst", pick(fixture, ["firstHalfOver15", "iyUst15", "iy_ust_15", "first_half_over_15"]))
+  );
+
   const firstSecondBttsHtml = (fixture) => category("1. Yarı / 2. Yarı KG",
     item("Evet/Evet", pick(fixture, ["iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes", "iy2y_kg_evet_evet"])) +
     item("Evet/Hayır", pick(fixture, ["iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo", "iy2y_kg_evet_hayir", "iy2y_kg_evet_hayır"])) +
@@ -118,7 +125,7 @@
 
   const extraHtml = (row) => {
     const fixture = findFixture(row);
-    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${halfDoubleChanceHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
+    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
   };
 
   const makeExtra = (row) => {
