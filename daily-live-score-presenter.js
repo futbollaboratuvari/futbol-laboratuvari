@@ -61,6 +61,14 @@
     return `${Math.max(1, Math.round(number))}'`;
   };
 
+  const setText = (node, value) => {
+    if (node && node.textContent !== value) node.textContent = value;
+  };
+
+  const setAttr = (node, name, value) => {
+    if (node && node.getAttribute(name) !== value) node.setAttribute(name, value);
+  };
+
   const injectStyle = () => {
     if (document.getElementById("daily-live-score-presenter-style")) return;
     const style = document.createElement("style");
@@ -74,6 +82,8 @@
     document.head.appendChild(style);
   };
 
+  const liveHtml = (info) => `<span class="daily-live-line"><strong class="daily-live-label">CANLI</strong><small class="daily-live-score">${info}</small></span>`;
+
   const markLive = (row, match) => {
     const minute = minuteOf(match);
     const score = scoreOf(match);
@@ -82,8 +92,8 @@
     const button = row.querySelector(".daily-detail-button");
     const info = `${minute || "Canlı"}${score ? ` · ${score}` : " · Skor bekleniyor"}`;
 
-    row.classList.add("is-live");
-    row.dataset.liveState = "1";
+    if (!row.classList.contains("is-live")) row.classList.add("is-live");
+    if (row.dataset.liveState !== "1") row.dataset.liveState = "1";
     row.dataset.minute = String(match.minute ?? match.elapsed ?? match.matchMinute ?? "");
     row.dataset.homeScore = String(match.homeScore ?? match.home_score ?? match.homeGoals ?? match.home_goals ?? "");
     row.dataset.awayScore = String(match.awayScore ?? match.away_score ?? match.awayGoals ?? match.away_goals ?? "");
@@ -91,35 +101,31 @@
 
     if (timeCell) {
       timeCell.dataset.originalTime = timeCell.dataset.originalTime || String(match.time || timeCell.textContent || "").trim();
-      timeCell.innerHTML = `<span class="daily-live-line"><strong class="daily-live-label">CANLI</strong><small class="daily-live-score">${info}</small></span>`;
+      const next = liveHtml(info);
+      if (timeCell.innerHTML !== next) timeCell.innerHTML = next;
     }
-    if (statusIcon) {
-      statusIcon.textContent = "🔴";
-      statusIcon.setAttribute("title", `Canlı · ${info}`);
-    }
-    if (button) {
-      button.setAttribute("aria-label", `Canlı maç. ${info}. Detaylı oranları aç.`);
-      button.setAttribute("title", `Canlı · ${info}`);
-    }
+    setText(statusIcon, "🔴");
+    setAttr(statusIcon, "title", `Canlı · ${info}`);
+    setAttr(button, "aria-label", `Canlı maç. ${info}. Detaylı oranları aç.`);
+    setAttr(button, "title", `Canlı · ${info}`);
   };
 
   const clearLive = (row, match) => {
     const timeCell = row.querySelector(".daily-match-time");
-    row.classList.remove("is-live");
-    row.dataset.liveState = "0";
-    if (timeCell && timeCell.dataset.originalTime) timeCell.textContent = timeCell.dataset.originalTime;
-    if (timeCell && match?.time) timeCell.textContent = match.time;
+    if (row.classList.contains("is-live")) row.classList.remove("is-live");
+    if (row.dataset.liveState !== "0") row.dataset.liveState = "0";
+    const original = match?.time || timeCell?.dataset.originalTime || "";
+    if (timeCell && original && timeCell.textContent !== original) timeCell.textContent = original;
   };
 
   const updateCounts = (widget) => {
     const rows = widget.querySelectorAll(".daily-match-row").length;
     const liveRows = widget.querySelectorAll(".daily-match-row.is-live").length;
     const count = widget.querySelector("[data-daily-widget-count]");
-    if (count) count.textContent = liveRows ? `${rows} maç · ${liveRows} canlı` : `${rows} maç`;
+    setText(count, liveRows ? `${rows} maç · ${liveRows} canlı` : `${rows} maç`);
     widget.querySelectorAll(".daily-league-block").forEach((block) => {
       const blockRows = block.querySelectorAll(".daily-match-row").length;
-      const blockCount = block.querySelector(".daily-league-count");
-      if (blockCount) blockCount.textContent = `${blockRows} maç`;
+      setText(block.querySelector(".daily-league-count"), `${blockRows} maç`);
       if (!blockRows) block.remove();
     });
   };
@@ -161,7 +167,7 @@
     setTimeout(() => {
       pending = false;
       apply();
-    }, 80);
+    }, 180);
   };
 
   const watch = () => {
