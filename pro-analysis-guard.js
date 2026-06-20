@@ -25,15 +25,17 @@ async function proReadJson(path, fallback) {
 const hasRealProSignals = (item) => {
   if (!item || typeof item !== "object") return false;
   const signals = item.pro_signals || item.signals || item.evidence || item.layers;
-  const hasMarket = Boolean(item.market || item.prediction || item.decision);
+  const hasSelection = Boolean(item.selection || item.option || item.market || item.prediction || item.decision);
   const hasScore = Boolean(item.score || item.confidence || item.confidence_score);
-  return Boolean(hasMarket && hasScore && signals);
+  return Boolean(hasSelection && hasScore && signals);
 };
+
+const proSelection = (item) => item.selection || item.option || item.market || item.prediction || item.decision || "-";
 
 const renderCoupon = (item) => `
   <article class="robot-live-card">
     <h3>${proEscape(item.title || item.match || "PRO analiz")}</h3>
-    <div class="robot-row"><span>Market</span><strong>${proEscape(item.market || item.prediction || item.decision || "-")}</strong></div>
+    <div class="robot-row"><span>Seçenek</span><strong>${proEscape(proSelection(item))}</strong></div>
     <div class="robot-row"><span>Güven</span><strong>${proEscape(item.score || item.confidence || item.confidence_score || "-")}</strong></div>
     <div class="robot-row"><span>Risk</span><strong>${proEscape(item.risk || item.risk_level || "-")}</strong></div>
     <div class="robot-row"><span>Durum</span><strong>${proEscape(item.status || "takipte")}</strong></div>
@@ -50,7 +52,7 @@ const renderComment = (item, index) => {
       <div class="meta-row"><span>PRO Robot #${index + 1}</span><span>${proEscape(item.status || "takipte")}</span></div>
       <h3>${proEscape(item.title || item.match || "Maç analizi")}</h3>
       <p>${proEscape(comment)}</p>
-      <div class="robot-row"><span>Market</span><strong>${proEscape(item.market || item.prediction || item.decision || "-")}</strong></div>
+      <div class="robot-row"><span>Seçenek</span><strong>${proEscape(proSelection(item))}</strong></div>
       <div class="robot-row"><span>Güven / Risk</span><strong>${proEscape(item.score || item.confidence || item.confidence_score || "-")} / ${proEscape(item.risk || item.risk_level || "-")}</strong></div>
       <p class="robot-note">Veri dayanağı: ${proEscape(signalText || "PRO veri katmanları bekleniyor")}</p>
     </article>
@@ -65,6 +67,17 @@ function groupByType(items) {
   };
 }
 
+const isWaitingContent = (element) => {
+  if (!element) return false;
+  const text = String(element.textContent || "").toLowerCase();
+  return !text.trim() || text.includes("bekleniyor") || text.includes("hazırlanıyor") || text.includes("yüzeysel");
+};
+
+const fillOnlyIfWaiting = (element, html) => {
+  if (!element || !isWaitingContent(element)) return;
+  element.innerHTML = html;
+};
+
 async function applyProAnalysisGuard() {
   const data = await proReadJson(proAnalysisPaths.history, { active_items: [], completed_items: [] });
   const activeItems = Array.isArray(data.active_items) ? data.active_items.filter(hasRealProSignals) : [];
@@ -77,25 +90,29 @@ async function applyProAnalysisGuard() {
   const commentsBox = document.querySelector("#analysis-list");
   const completedBox = document.querySelector("[data-completed-coupons]");
 
-  if (singleBox) singleBox.innerHTML = grouped.single.length ? grouped.single.map(renderCoupon).join("") : proEmptyCard("PRO robot tekli analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez.");
-  if (doubleBox) doubleBox.innerHTML = grouped.double.length ? grouped.double.map(renderCoupon).join("") : proEmptyCard("PRO robot 2'li analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez.");
-  if (tripleBox) tripleBox.innerHTML = grouped.triple.length ? grouped.triple.map(renderCoupon).join("") : proEmptyCard("PRO robot 3'lü analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez.");
+  fillOnlyIfWaiting(singleBox, grouped.single.length ? grouped.single.map(renderCoupon).join("") : proEmptyCard("PRO robot tekli analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez."));
+  fillOnlyIfWaiting(doubleBox, grouped.double.length ? grouped.double.map(renderCoupon).join("") : proEmptyCard("PRO robot 2'li analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez."));
+  fillOnlyIfWaiting(tripleBox, grouped.triple.length ? grouped.triple.map(renderCoupon).join("") : proEmptyCard("PRO robot 3'lü analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez."));
 
-  if (commentsBox) {
-    commentsBox.innerHTML = activeItems.length
+  fillOnlyIfWaiting(
+    commentsBox,
+    activeItems.length
       ? activeItems.map(renderComment).join("")
-      : `<div class="fixtures-empty">Maç yorumları için PRO robot analizi bekleniyor. Form, istatistik, oran, haber/durum veya robot katmanı olmadan yorum üretilmez.</div>`;
-  }
+      : `<div class="fixtures-empty">Maç yorumları için PRO robot analizi bekleniyor. Form, istatistik, oran, haber/durum veya robot katmanı olmadan yorum üretilmez.</div>`,
+  );
 
-  if (completedBox) {
-    completedBox.innerHTML = completedItems.length
+  fillOnlyIfWaiting(
+    completedBox,
+    completedItems.length
       ? completedItems.map(renderCoupon).join("")
-      : proEmptyCard("Tamamlanan PRO analiz bekleniyor. Sonuç verisi gelince kazandı/kaybetti burada gösterilecek.");
-  }
+      : proEmptyCard("Tamamlanan PRO analiz bekleniyor. Sonuç verisi gelince kazandı/kaybetti burada gösterilecek."),
+  );
 
-  document.querySelectorAll("[data-load-status]").forEach((item) => {
-    item.textContent = activeItems.length ? "PRO robot analizi" : "PRO analiz bekleniyor";
-  });
+  if (activeItems.length) {
+    document.querySelectorAll("[data-load-status]").forEach((item) => {
+      if (String(item.textContent || "").toLowerCase().includes("bekleniyor")) item.textContent = "PRO robot analizi";
+    });
+  }
 }
 
 window.addEventListener("load", () => {
