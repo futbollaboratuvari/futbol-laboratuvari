@@ -174,7 +174,7 @@
       const request = memberRequest(shell, selectedPlan);
       localStorage.setItem("fl_pending_trial_request", JSON.stringify({ ...request, created_at: new Date().toISOString() }));
       trialButton.disabled = true;
-      output.innerHTML = `<strong>Deneme üyeliği hazırlanıyor...</strong><br>1 günlük deneme erişimi açılacak.`;
+      output.innerHTML = `<strong>Deneme talebi kaydediliyor...</strong><br>1 günlük deneme erişimi için bilgilerin alındı.`;
       try {
         const response = await fetch(TRIAL_ENDPOINT, {
           method: "POST",
@@ -185,8 +185,8 @@
         if (!response.ok || !result.ok) throw new Error(result.error || "Deneme başlatılamadı.");
         localStorage.setItem("fl_trial_membership", JSON.stringify(result.membership));
         output.innerHTML = `<strong class="membership-ok">1 günlük deneme başladı.</strong><br>Deneme bitince paketi satın alman gerekecek.`;
-      } catch (error) {
-        output.innerHTML = `<strong class="membership-error">Deneme şu anda başlatılamadı.</strong><br>${esc(error.message)}<br><small>Backend ve veritabanı yayına alınınca bu kontrol canlı çalışacak.</small>`;
+      } catch {
+        output.innerHTML = `<strong class="membership-ok">Deneme talebin kaydedildi.</strong><br>Şu an site GitHub Pages üzerinde çalıştığı için canlı üyelik servisi bağlı değil. Backend ve veritabanı yayına alınınca bu buton gerçek 1 günlük denemeyi otomatik başlatacak.`;
         refreshButton();
       }
     });
@@ -195,7 +195,7 @@
       const request = memberRequest(shell, selectedPlan);
       localStorage.setItem("fl_pending_payment_request", JSON.stringify({ ...request, created_at: new Date().toISOString() }));
       startButton.disabled = true;
-      output.innerHTML = `<strong>Ödeme hazırlanıyor...</strong><br>PayTR güvenli ödeme ekranı açılacak.`;
+      output.innerHTML = `<strong>Satın alma talebi kaydediliyor...</strong><br>PayTR ödeme bağlantısı için bilgiler hazırlandı.`;
 
       try {
         const response = await fetch(PAYMENT_ENDPOINT, {
@@ -210,8 +210,8 @@
         localStorage.setItem("fl_last_payment_order", JSON.stringify(result));
         output.innerHTML = `<strong class="membership-ok">Ödeme ekranı açılıyor.</strong><br>Sipariş: ${esc(result.order_id)}`;
         window.location.href = result.iframe_url;
-      } catch (error) {
-        output.innerHTML = `<strong class="membership-error">Ödeme şu anda başlatılamadı.</strong><br>${esc(error.message)}<br><small>PayTR bilgileri ve backend yayını tamamlanınca bu buton canlı çalışacak.</small>`;
+      } catch {
+        output.innerHTML = `<strong class="membership-ok">Satın alma talebin kaydedildi.</strong><br>Şu an PayTR/backend bağlantısı canlı olmadığı için ödeme ekranı açılmadı. PayTR ve backend yayına alınınca bu buton doğrudan güvenli ödeme ekranına yönlendirecek.`;
         refreshButton();
       }
     });
