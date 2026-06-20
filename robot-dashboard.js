@@ -109,8 +109,8 @@ function robotTime(row) {
   return "-";
 }
 
-function robotMarket(row) {
-  return row["En Guclu Market"] || row["En Güçlü Market"] || row.Market || row.market_name || row.market || "Veri bekleniyor";
+function robotSelection(row) {
+  return row["En Guclu Secim"] || row["En Güçlü Seçim"] || row["En Guclu Market"] || row["En Güçlü Market"] || row.Secenek || row.Seçenek || row.Market || row.selection || row.option || row.market_name || row.market || row.suggested_option || "Veri bekleniyor";
 }
 
 function robotConfidence(row) {
@@ -126,15 +126,15 @@ function robotAverageConfidence(rows) {
 function robotStrongestSignal(rows) {
   const best = rows.reduce((winner, row) => {
     const score = robotNumber(robotConfidence(row));
-    return score > winner.score ? { score, market: robotMarket(row) } : winner;
-  }, { score: -1, market: "-" });
-  return best.market || "-";
+    return score > winner.score ? { score, selection: robotSelection(row) } : winner;
+  }, { score: -1, selection: "-" });
+  return best.selection || "-";
 }
 
 function robotMatchCard(row, index) {
   const teams = robotTeams(row);
   const league = row.Lig || row.competition_name || row.league || "-";
-  const market = robotMarket(row);
+  const selection = robotSelection(row);
   const confidence = robotConfidence(row);
   const risk = row.Risk || row.risk_level || "-";
   const power = row["Guc Skoru"] || row["Güç Skoru"] || row.Guc || row.guc_skoru || "-";
@@ -155,7 +155,7 @@ function robotMatchCard(row, index) {
       </div>
       <div class="robot-row"><span>Lig</span><strong>${robotEscape(league)}</strong></div>
       <div class="robot-row"><span>Saat</span><strong>${robotEscape(time)}</strong></div>
-      <div class="robot-row"><span>Önerilen market</span><strong>${robotEscape(market)}</strong></div>
+      <div class="robot-row"><span>Öne çıkan seçim</span><strong>${robotEscape(selection)}</strong></div>
       <div class="robot-row"><span>Güven skoru</span><strong>${robotEscape(confidence)}</strong></div>
       <div class="robot-row"><span>Güç skoru</span><strong>${robotEscape(power)}</strong></div>
       <div class="robot-row"><span>Durum</span><strong>${robotEscape(status)}</strong></div>
@@ -166,13 +166,13 @@ function robotMatchCard(row, index) {
 
 function robotCoupon(row) {
   const match = row.Mac || row.Maclar || "Kupon verisi yok";
-  const market = row.Market || row.Marketler || "-";
+  const selection = row.Secenek || row.Seçenek || row.Selection || row.Option || row.Market || row.Marketler || "-";
   const score = row["Oneri Skoru"] || row["Kupon Skoru"] || row.Confidence || "-";
   const risk = row.Risk || "-";
   return `
     <article class="robot-live-card">
       <h3>${robotEscape(match)}</h3>
-      <div class="robot-row"><span>Market</span><strong>${robotEscape(market)}</strong></div>
+      <div class="robot-row"><span>Seçenek</span><strong>${robotEscape(selection)}</strong></div>
       <div class="robot-row"><span>Toplam güven</span><strong>${robotEscape(score)}</strong></div>
       <div class="robot-row"><span>Risk</span><strong><span class="robot-pill ${robotRiskClass(risk)}">${robotEscape(risk)}</span></strong></div>
       <p class="robot-note">Bu bir analizdir, bahis tavsiyesi değildir.</p>
@@ -254,9 +254,9 @@ async function robotBoot() {
     (row) => `${row.date || ""} ${row.time || ""}`.trim() || String(row.utc_date || "-").slice(0, 16),
     (row) => row.source || "unknown"
   ], "Ham canlı veri bekleniyor.");
-  robotTableBody("[data-prediction-table]", (state.history.predictions || []).slice(0, 12), [
+  robotTableBody("[data-prediction-table]", state.history.predictions || [], [
     (row) => row.match || "-",
-    (row) => row.market_name || row.market || "-",
+    (row) => row.selection || row.option || row.market_name || row.market || "-",
     (row) => row.confidence_score || row.confidence || "-",
     (row) => row.result_status || "pending"
   ], "Tahmin geçmişi bekleniyor.");
