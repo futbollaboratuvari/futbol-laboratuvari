@@ -28,6 +28,14 @@ const formatTurkeyDate = (date = new Date()) =>
     day: "2-digit",
   }).format(date);
 
+const formatTurkeyTime = (date = new Date()) =>
+  new Intl.DateTimeFormat("tr-TR", {
+    timeZone: "Europe/Istanbul",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
+
 const dotToIso = (value) => {
   const text = String(value || "").trim();
   if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return text;
@@ -84,6 +92,30 @@ const hasOdds = (item) => {
   return Boolean(odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok);
 };
 
+const isPastMatch = (date, time) => {
+  const dateKey = dotToIso(date) || date;
+  const timeText = String(time || "").trim();
+  const match = timeText.match(/^(\d{1,2}):(\d{2})$/);
+  if (!dateKey || !match) return false;
+  const today = formatTurkeyDate();
+  if (dateKey < today) return true;
+  if (dateKey > today) return false;
+  const [hour, minute] = formatTurkeyTime().split(":").map(Number);
+  const nowTotal = hour * 60 + minute;
+  const matchTotal = Number(match[1]) * 60 + Number(match[2]);
+  return matchTotal < nowTotal;
+};
+
+const normalizeStatus = (item) => {
+  const status = String(item.status || item.durum || "").toLocaleLowerCase("tr-TR").trim();
+  if (item.score || item.result || item.result_score || status === "finished" || status === "tamamlandı" || status === "bitti") return "finished";
+  if (status === "live" || status === "canlı") return "live";
+  if (status === "postponed" || status === "ertelendi") return "postponed";
+  if (status === "cancelled" || status === "canceled" || status === "iptal") return "cancelled";
+  if (isPastMatch(item.date || item.tarih || item.utc_date, item.time || item.saat)) return "sonuc_bekleniyor";
+  return "scheduled";
+};
+
 const rawToFixture = (item) => {
   const date = dotToIso(item.tarih || item.utc_date || item.date);
   const time = item.saat || item.time || "";
@@ -97,8 +129,8 @@ const rawToFixture = (item) => {
     league: item.lig || item.competition_name || item.league || "Diğer Maçlar",
     home,
     away,
-    status: String(item.status || "scheduled").toLowerCase() === "finished" ? "finished" : "scheduled",
-    source: item.source === "mackolik" ? "Maçkolik canlı robot" : (item.source || "Robot ham veri havuzu"),
+    status: normalizeStatus({ ...item, date, time }),
+    source: item.source === "mackolik" || item.kaynak === "mackolik" ? "Maçkolik canlı robot" : (item.source || item.kaynak || "Robot ham veri havuzu"),
     matchCode: item.mac_kodu || item.match_code || null,
     oddsSource: "Robot ham veri havuzu",
     ...pickOdds(item),
@@ -123,20 +155,27 @@ const main = () => {
     const key = keyOf(robotMatch);
     const existing = byExactKey.get(key);
     if (existing) {
-      byExactKey.set(key, { ...existing, ...pickOdds(robotMatch), matchCode: robotMatch.matchCode || existing.matchCode || null, oddsSource: robotMatch.oddsSource });
-    } else if (robotMatch.date >= today) {
+      byExactKey.set(key, {
+        ...existing,
+        ...pickOdds(robotMatch),
+        status: normalizeStatus({ ...existing, ...robotMatch }),
+        matchCode: robotMatch.matchCode || existing.matchCode || null,
+        oddsSource: robotMatch.oddsSource,
+      });
+    } else if (robotMatch.date >= today || hasOdds(robotMatch)) {
       byExactKey.set(key, robotMatch);
     }
   }
 
   const mergedFixtures = [...byExactKey.values()].map((fixture) => {
-    if (hasOdds(fixture)) return fixture;
-    const teamMatch = oddsByTeamKey.get(teamKeyOf(fixture));
-    if (!teamMatch) return fixture;
+    const fixtureWithStatus = { ...fixture, status: normalizeStatus(fixture) };
+    if (hasOdds(fixtureWithStatus)) return fixtureWithStatus;
+    const teamMatch = oddsByTeamKey.get(teamKeyOf(fixtureWithStatus));
+    if (!teamMatch) return fixtureWithStatus;
     return {
-      ...fixture,
+      ...fixtureWithStatus,
       ...pickOdds(teamMatch),
-      matchCode: teamMatch.matchCode || fixture.matchCode || null,
+      matchCode: teamMatch.matchCode || fixtureWithStatus.matchCode || null,
       oddsSource: "Robot ham veri havuzu takım eşleşmesi",
     };
   }).sort((a, b) => String(a.date || "").localeCompare(String(b.date || "")) || String(a.time || "99:99").localeCompare(String(b.time || "99:99")));
