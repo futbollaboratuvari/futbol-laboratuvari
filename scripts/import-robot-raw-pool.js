@@ -89,6 +89,12 @@ const pickOdds = (item) => {
   set(["ust_25", "over25", "ust25", "over", "ust"], ["over25", "ust25", "over", "ust"]);
   set(["kg_var", "bttsYes", "kgVar", "varOdd", "var"], ["bttsYes", "kgVar", "varOdd", "var"]);
   set(["kg_yok", "bttsNo", "kgYok", "yokOdd", "yok"], ["bttsNo", "kgYok", "yokOdd", "yok"]);
+  set(["iy_1", "iy1", "firstHalfOne", "first_half_1", "firstHalf1"], ["iy1", "firstHalfOne", "first_half_1"]);
+  set(["iy_x", "iyX", "firstHalfDraw", "first_half_x", "firstHalfX"], ["iyX", "firstHalfDraw", "first_half_x"]);
+  set(["iy_2", "iy2", "firstHalfTwo", "first_half_2", "firstHalf2"], ["iy2", "firstHalfTwo", "first_half_2"]);
+  set(["ikinci_yari_1", "ikinciYari1", "secondHalfOne", "second_half_1", "secondHalf1"], ["ikinciYari1", "secondHalfOne", "second_half_1"]);
+  set(["ikinci_yari_x", "ikinciYariX", "secondHalfDraw", "second_half_x", "secondHalfX"], ["ikinciYariX", "secondHalfDraw", "second_half_x"]);
+  set(["ikinci_yari_2", "ikinciYari2", "secondHalfTwo", "second_half_2", "secondHalf2"], ["ikinciYari2", "secondHalfTwo", "second_half_2"]);
   set(["iy2y_kg_evet_evet", "iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes"], ["iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes"]);
   set(["iy2y_kg_evet_hayir", "iy2y_kg_evet_hayır", "iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo"], ["iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo"]);
   set(["iy2y_kg_hayir_evet", "iy2y_kg_hayır_evet", "iy2yKgNoYes", "firstSecondBttsNoYes", "ht2hBttsNoYes"], ["iy2yKgNoYes", "firstSecondBttsNoYes", "ht2hBttsNoYes"]);
@@ -101,6 +107,7 @@ const hasOdds = (item) => {
   const odds = pickOdds(item);
   return Boolean(
     odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok ||
+    odds.iy1 || odds.iyX || odds.iy2 || odds.ikinciYari1 || odds.ikinciYariX || odds.ikinciYari2 ||
     odds.iy2yKgYesYes || odds.iy2yKgYesNo || odds.iy2yKgNoYes || odds.iy2yKgNoNo
   );
 };
@@ -277,6 +284,12 @@ const main = () => {
         ust_25: fixture.over25 ?? null,
         kg_var: fixture.kgVar ?? null,
         kg_yok: fixture.kgYok ?? null,
+        iy_1: fixture.iy1 ?? null,
+        iy_x: fixture.iyX ?? null,
+        iy_2: fixture.iy2 ?? null,
+        ikinci_yari_1: fixture.ikinciYari1 ?? null,
+        ikinci_yari_x: fixture.ikinciYariX ?? null,
+        ikinci_yari_2: fixture.ikinciYari2 ?? null,
         iy2y_kg_evet_evet: fixture.iy2yKgYesYes ?? null,
         iy2y_kg_evet_hayir: fixture.iy2yKgYesNo ?? null,
         iy2y_kg_hayir_evet: fixture.iy2yKgNoYes ?? null,
