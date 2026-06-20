@@ -1,5 +1,5 @@
 (() => {
-  const VERSION = "20260620-2130-membership-validation-cache";
+  const VERSION = "20260620-2135-membership-submit-guard";
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
   const sameAsset = (value, src) => {
@@ -59,6 +59,7 @@
     ensureScript("daily-toggle.js", "daily-toggle-script");
     ensureScript("match-results-widget.js", "match-results-widget-script");
     ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
+    ensureScript("membership-submit-guard.js", "membership-submit-guard-script");
     ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
