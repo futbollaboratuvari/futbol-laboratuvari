@@ -34,14 +34,29 @@
   const main = () => document.querySelector("main") || document.body;
   const hero = () => document.querySelector("#platform") || document.querySelector(".dashboard-hero");
 
+  const dailySkeleton = () => `<div class="daily-widget-head"><div><h2 class="daily-widget-title">Bugünün Maçları</h2><p class="daily-widget-subtitle" data-daily-widget-date>Bugünün maçları yükleniyor.</p></div><span class="daily-widget-count" data-daily-widget-count>0 maç</span></div><div class="daily-widget-list" data-daily-widget-list><div class="daily-widget-empty">Bugünün maçları hazırlanıyor.</div></div>`;
+
   const ensurePanel = (panel) => {
     let node = document.getElementById(panel.id);
     if (!node) {
       node = document.createElement("section");
       node.id = panel.id;
-      node.className = `fl-stub ${panel.id.includes("membership") ? "membership-shell" : panel.id.includes("premium") ? "premium-analysis-shell" : ""}`.trim();
-      node.innerHTML = `<strong>${panel.title}</strong><p>${panel.text} hazırlanıyor.</p>`;
+      if (panel.id === "daily-matches-widget") {
+        node.className = "daily-widget-shell";
+        node.setAttribute("aria-label", "Bugünün maçları");
+        node.innerHTML = dailySkeleton();
+      } else {
+        node.className = `fl-stub ${panel.id.includes("membership") ? "membership-shell" : panel.id.includes("premium") ? "premium-analysis-shell" : ""}`.trim();
+        node.innerHTML = `<strong>${panel.title}</strong><p>${panel.text} hazırlanıyor.</p>`;
+      }
       main().appendChild(node);
+    }
+    if (panel.id === "daily-matches-widget") {
+      node.classList.add("daily-widget-shell");
+      node.setAttribute("aria-label", "Bugünün maçları");
+      if (!node.querySelector("[data-daily-widget-list]")) node.innerHTML = dailySkeleton();
+      const title = node.querySelector(".daily-widget-title");
+      if (title) title.textContent = "Bugünün Maçları";
     }
     node.classList.add("fl-stable-panel");
     return node;
