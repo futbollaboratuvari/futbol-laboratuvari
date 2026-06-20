@@ -5,6 +5,7 @@ const rootDir = path.join(__dirname, "..");
 const siteDataDir = path.join(rootDir, "data");
 const siteFixturesPath = path.join(siteDataDir, "fixtures.json");
 const siteRawPoolPath = path.join(siteDataDir, "ham_mac_havuzu.json");
+const siteSporTotoPath = path.join(siteDataDir, "spor_toto_bulteni.json");
 const robotRawPoolPath = path.join(rootDir, "bu-klas-r-i-in-basit", "data", "ham_mac_havuzu.json");
 const LIVE_WINDOW_MINUTES = 130;
 
@@ -40,6 +41,11 @@ const formatTurkeyTime = (date = new Date()) =>
 const turkeyMinutes = () => {
   const [hour, minute] = formatTurkeyTime().split(":").map(Number);
   return hour * 60 + minute;
+};
+
+const addDays = (dateKey, days) => {
+  const [year, month, day] = String(dateKey).split("-").map(Number);
+  return new Date(Date.UTC(year, month - 1, day + days, 12)).toISOString().slice(0, 10);
 };
 
 const dotToIso = (value) => {
@@ -89,13 +95,20 @@ const pickOdds = (item) => {
   set(["ust_25", "over25", "ust25", "over", "ust"], ["over25", "ust25", "over", "ust"]);
   set(["kg_var", "bttsYes", "kgVar", "varOdd", "var"], ["bttsYes", "kgVar", "varOdd", "var"]);
   set(["kg_yok", "bttsNo", "kgYok", "yokOdd", "yok"], ["bttsNo", "kgYok", "yokOdd", "yok"]);
+  set(["iy2y_kg_evet_evet", "iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes"], ["iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes"]);
+  set(["iy2y_kg_evet_hayir", "iy2y_kg_evet_hayır", "iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo"], ["iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo"]);
+  set(["iy2y_kg_hayir_evet", "iy2y_kg_hayır_evet", "iy2yKgNoYes", "firstSecondBttsNoYes", "ht2hBttsNoYes"], ["iy2yKgNoYes", "firstSecondBttsNoYes", "ht2hBttsNoYes"]);
+  set(["iy2y_kg_hayir_hayir", "iy2y_kg_hayır_hayır", "iy2yKgNoNo", "firstSecondBttsNoNo", "ht2hBttsNoNo"], ["iy2yKgNoNo", "firstSecondBttsNoNo", "ht2hBttsNoNo"]);
 
   return result;
 };
 
 const hasOdds = (item) => {
   const odds = pickOdds(item);
-  return Boolean(odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok);
+  return Boolean(
+    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok ||
+    odds.iy2yKgYesYes || odds.iy2yKgYesNo || odds.iy2yKgNoYes || odds.iy2yKgNoNo
+  );
 };
 
 const parseClockMinutes = (time) => {
@@ -198,6 +211,55 @@ const mergeLiveFields = (base, incoming) => {
   };
 };
 
+const toSporTotoBulletin = (fixtures) => {
+  const today = formatTurkeyDate();
+  return {
+    generated_at: new Date().toISOString(),
+    timezone: "Europe/Istanbul",
+    source: "Robot ham veri havuzu siteye aktarıldı",
+    week_label: `${today} / ${addDays(today, 6)}`,
+    match_count: Math.min(fixtures.length, 15),
+    matches: fixtures.slice(0, 15).map((fixture, index) => ({
+      no: index + 1,
+      week: `${today} / ${addDays(today, 6)}`,
+      date: fixture.date,
+      time: fixture.time,
+      league: fixture.league,
+      home: fixture.home,
+      away: fixture.away,
+      match: `${fixture.home} - ${fixture.away}`,
+      one: fixture.oneOdd ?? null,
+      draw: fixture.drawOdd ?? null,
+      two: fixture.twoOdd ?? null,
+      oneOdd: fixture.oneOdd ?? null,
+      drawOdd: fixture.drawOdd ?? null,
+      twoOdd: fixture.twoOdd ?? null,
+      under25: fixture.under25 ?? null,
+      over25: fixture.over25 ?? null,
+      bttsYes: fixture.kgVar ?? null,
+      bttsNo: fixture.kgYok ?? null,
+      firstSecondBtts: {
+        yesYes: fixture.iy2yKgYesYes ?? null,
+        yesNo: fixture.iy2yKgYesNo ?? null,
+        noYes: fixture.iy2yKgNoYes ?? null,
+        noNo: fixture.iy2yKgNoNo ?? null,
+      },
+      iy2yKgYesYes: fixture.iy2yKgYesYes ?? null,
+      iy2yKgYesNo: fixture.iy2yKgYesNo ?? null,
+      iy2yKgNoYes: fixture.iy2yKgNoYes ?? null,
+      iy2yKgNoNo: fixture.iy2yKgNoNo ?? null,
+      decision: "Bekleniyor",
+      className: "Haftalık Spor Toto",
+      minute: fixture.minute,
+      homeScore: fixture.homeScore,
+      awayScore: fixture.awayScore,
+      score: fixture.score || "-",
+      status: fixture.status || "scheduled",
+      source: fixture.source || "Robot ham veri havuzu",
+    })),
+  };
+};
+
 const main = () => {
   const siteFixtures = readJson(siteFixturesPath, []);
   const robotPool = readJson(robotRawPoolPath, { matches: [] });
@@ -241,6 +303,7 @@ const main = () => {
   const liveCount = mergedFixtures.filter((fixture) => fixture.status === "live").length;
 
   writeJson(siteFixturesPath, mergedFixtures);
+  writeJson(siteSporTotoPath, toSporTotoBulletin(mergedFixtures));
   writeJson(siteRawPoolPath, {
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
@@ -270,6 +333,10 @@ const main = () => {
         ust_25: fixture.over25 ?? null,
         kg_var: fixture.kgVar ?? null,
         kg_yok: fixture.kgYok ?? null,
+        iy2y_kg_evet_evet: fixture.iy2yKgYesYes ?? null,
+        iy2y_kg_evet_hayir: fixture.iy2yKgYesNo ?? null,
+        iy2y_kg_hayir_evet: fixture.iy2yKgNoYes ?? null,
+        iy2y_kg_hayir_hayir: fixture.iy2yKgNoNo ?? null,
       },
     })),
   });
