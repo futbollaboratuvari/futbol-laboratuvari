@@ -64,8 +64,6 @@
     ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
-    ensureScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
-    ensureScript("spor-toto-v3-fix.js", "spor-toto-v3-fix-script");
 
     const button = document.querySelector(".menu-toggle");
     const nav = document.querySelector(".nav-links");
