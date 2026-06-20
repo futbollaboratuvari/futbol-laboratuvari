@@ -1,5 +1,5 @@
 (() => {
-  const VERSION = "20260620-2120-membership-selected-cache";
+  const VERSION = "20260620-2130-membership-validation-cache";
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
   const sameAsset = (value, src) => {
