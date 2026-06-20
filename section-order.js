@@ -2,24 +2,21 @@
   const ORDER = [
     "platform",
     "daily-matches-widget",
-    "yaklasan-maclar",
-    "live-control-center",
     "robot-analizleri",
     "guclu-tahmin",
     "son-analizler",
-    "membership-payment-panel",
-    "premium-analysis-panel",
     "spor-toto-performansi",
     "sonuc-arsivi",
     "basari-takip",
     "analiz-veritabani",
-    "yorum-kosesi",
-    "analiz-modulleri",
+    "membership-payment-panel",
+    "premium-analysis-panel",
     "kurucu",
     "medya-galerisi",
   ];
 
   const STYLE_ID = "section-order-style";
+  let reorderTimer = null;
 
   const injectStyle = () => {
     if (document.getElementById(STYLE_ID)) return;
@@ -27,14 +24,22 @@
     style.id = STYLE_ID;
     style.textContent = `
       #daily-matches-widget,
-      #live-control-center,
       #robot-analizleri,
+      #guclu-tahmin,
+      #son-analizler,
+      #spor-toto-performansi,
+      #sonuc-arsivi,
+      #basari-takip,
+      #analiz-veritabani,
+      #membership-payment-panel,
+      #premium-analysis-panel,
       #kurucu,
       #medya-galerisi {
         scroll-margin-top: 130px;
       }
 
-      #yaklasan-maclar.daily-matches-anchor {
+      #yaklasan-maclar.daily-matches-anchor,
+      #live-control-center {
         display: none !important;
         height: 0 !important;
         overflow: hidden !important;
@@ -78,9 +83,33 @@
       });
   };
 
+  const scheduleReorder = () => {
+    clearTimeout(reorderTimer);
+    reorderTimer = setTimeout(reorder, 80);
+  };
+
+  const observeMain = () => {
+    const main = document.querySelector("main");
+    if (!main || main.dataset.flOrderObserver === "1") return;
+    main.dataset.flOrderObserver = "1";
+    const observer = new MutationObserver(scheduleReorder);
+    observer.observe(main, { childList: true, subtree: false });
+  };
+
+  const boot = () => {
+    reorder();
+    observeMain();
+  };
+
+  boot();
+  document.addEventListener("DOMContentLoaded", boot);
+  document.addEventListener("fl:runtime-ready", boot);
   window.addEventListener("load", () => {
-    setTimeout(reorder, 400);
-    setTimeout(reorder, 1400);
-    setTimeout(reorder, 3200);
+    setTimeout(boot, 250);
+    setTimeout(boot, 900);
+    setTimeout(boot, 1800);
   });
+  setTimeout(boot, 400);
+  setTimeout(boot, 1400);
+  setTimeout(boot, 3200);
 })();
