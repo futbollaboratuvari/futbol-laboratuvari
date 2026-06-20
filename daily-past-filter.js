@@ -1,6 +1,6 @@
 (() => {
   const WIDGET_ID = "daily-matches-widget";
-  const FILTER_ID = "daily-past-filter-active";
+  const MATCH_LIVE_WINDOW_MINUTES = 130;
 
   const istanbulParts = () => {
     const parts = new Intl.DateTimeFormat("en-CA", {
@@ -40,13 +40,66 @@
     return parseDate(rowDateText) || parseDate(blockDateText);
   };
 
-  const isPastRow = (row, block, now) => {
+  const rowStartMinutes = (row) => parseMinutes(row.dataset.kickoff || row.querySelector(".daily-match-time")?.textContent);
+
+  const statusText = (row) => String(row.querySelector(".daily-status-icon")?.getAttribute("title") || row.querySelector(".daily-status-icon")?.textContent || "").toLowerCase();
+
+  const isFinishedStatus = (row) => {
+    const status = statusText(row);
+    return status.includes("tamam") || status.includes("bitti") || status.includes("finished") || status.includes("iptal") || status.includes("cancelled");
+  };
+
+  const scoreText = (row) => {
+    const home = row.dataset.homeScore || row.dataset.homeGoals || "";
+    const away = row.dataset.awayScore || row.dataset.awayGoals || "";
+    if (home !== "" && away !== "") return `${home}-${away}`;
+    const inline = row.dataset.score || row.querySelector("[data-live-score]")?.textContent || "";
+    return String(inline || "").trim();
+  };
+
+  const liveMinute = (elapsed) => {
+    if (elapsed < 45) return `${Math.max(1, elapsed)}'`;
+    if (elapsed <= 60) return "İY";
+    if (elapsed <= 105) return `${Math.min(90, elapsed - 15)}'`;
+    return "90+'";
+  };
+
+  const markLive = (row, elapsed) => {
+    row.classList.add("is-live");
+    row.dataset.liveState = "1";
+    const timeCell = row.querySelector(".daily-match-time");
+    const statusIcon = row.querySelector(".daily-status-icon");
+    const button = row.querySelector(".daily-detail-button");
+    const score = scoreText(row);
+    const minute = liveMinute(elapsed);
+    if (timeCell) {
+      timeCell.dataset.originalTime = timeCell.dataset.originalTime || timeCell.textContent.trim();
+      timeCell.innerHTML = `<span style="display:grid;gap:2px;justify-items:center"><strong style="color:#ff4d4d;font-size:12px;letter-spacing:.06em">CANLI</strong><small style="color:#c8ffdd;font-size:11px">${minute}${score ? ` · ${score}` : " · Skor bekleniyor"}</small></span>`;
+    }
+    if (statusIcon) {
+      statusIcon.textContent = "🔴";
+      statusIcon.setAttribute("title", `Canlı · ${minute}${score ? ` · ${score}` : ""}`);
+    }
+    if (button) {
+      button.setAttribute("aria-label", `Canlı maç. ${minute}${score ? ` skor ${score}` : " skor bekleniyor"}. Detaylı oranları aç.`);
+      button.setAttribute("title", `Canlı · ${minute}${score ? ` · ${score}` : " · Skor bekleniyor"}`);
+    }
+  };
+
+  const shouldRemoveRow = (row, block, now) => {
+    if (isFinishedStatus(row)) return true;
     const date = rowDate(row, block);
-    const minutes = parseMinutes(row.querySelector(".daily-match-time")?.textContent);
-    if (!date || minutes === null) return false;
+    const start = rowStartMinutes(row);
+    if (!date || start === null) return false;
     if (date < now.date) return true;
     if (date > now.date) return false;
-    return minutes < now.minutes;
+    const elapsed = now.minutes - start;
+    if (elapsed < 0) return false;
+    if (elapsed <= MATCH_LIVE_WINDOW_MINUTES) {
+      markLive(row, elapsed);
+      return false;
+    }
+    return true;
   };
 
   const updateBlock = (block) => {
@@ -58,22 +111,22 @@
 
   const updateTotal = (widget) => {
     const rows = widget.querySelectorAll(".daily-match-row").length;
+    const liveRows = widget.querySelectorAll(".daily-match-row.is-live").length;
     const count = widget.querySelector("[data-daily-widget-count]");
     const list = widget.querySelector("[data-daily-widget-list]");
-    if (count) count.textContent = `${rows} maç`;
+    if (count) count.textContent = liveRows ? `${rows} maç · ${liveRows} canlı` : `${rows} maç`;
     if (list && rows === 0 && !list.querySelector(".daily-widget-empty")) {
-      list.innerHTML = '<div class="daily-widget-empty">Bugünün kalan maçları hazırlanıyor.</div>';
+      list.innerHTML = '<div class="daily-widget-empty">Bugünün kalan maçı yok.</div>';
     }
   };
 
   const apply = () => {
     const widget = document.getElementById(WIDGET_ID);
     if (!widget) return;
-    widget.dataset[FILTER_ID] = "1";
     const now = istanbulParts();
     widget.querySelectorAll(".daily-league-block").forEach((block) => {
       block.querySelectorAll(".daily-match-row").forEach((row) => {
-        if (isPastRow(row, block, now)) row.remove();
+        if (shouldRemoveRow(row, block, now)) row.remove();
       });
       updateBlock(block);
     });
@@ -97,6 +150,7 @@
   document.addEventListener("DOMContentLoaded", run, { once: true });
   window.addEventListener("load", () => {
     run();
+    setInterval(apply, 60 * 1000);
     setTimeout(run, 500);
     setTimeout(run, 1500);
     setTimeout(run, 3000);
