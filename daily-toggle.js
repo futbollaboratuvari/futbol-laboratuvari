@@ -38,13 +38,12 @@
       .daily-extra{display:none;grid-column:1/-1;width:100%;max-width:100%;box-sizing:border-box;margin:0;padding:14px;border:1px solid rgba(57,255,136,.18);border-radius:0 0 16px 16px;background:rgba(3,8,23,.96);overflow:hidden}
       .daily-extra.open{display:block}
       .daily-extra-title{display:block;max-width:100%;margin:0 0 10px;color:#ffe08a;line-height:1.35;overflow-wrap:anywhere}
-      .daily-extra-subtitle{margin:14px 0 8px;color:#c8ffdd;font-size:12px;font-weight:950;letter-spacing:.04em;text-transform:uppercase}
-      .daily-extra-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;width:100%;max-width:100%;box-sizing:border-box}
-      .daily-extra-grid.secondary{grid-template-columns:repeat(4,minmax(0,1fr))}
+      .daily-extra-subtitle{margin:0 0 8px;color:#c8ffdd;font-size:12px;font-weight:950;letter-spacing:.04em;text-transform:uppercase}
+      .daily-extra-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;width:100%;max-width:100%;box-sizing:border-box}
       .daily-market-item{min-width:0;display:flex;justify-content:space-between;gap:10px;padding:8px 10px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.04);color:#d7e4f5;box-sizing:border-box;overflow:hidden}
       .daily-market-item span,.daily-market-item b{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
       .daily-market-item b{color:#ffe08a}.daily-market-item.is-empty{opacity:.65}
-      @media(max-width:720px){.daily-extra{margin-top:-4px;border-radius:14px;padding:12px}.daily-extra-grid,.daily-extra-grid.secondary{grid-template-columns:1fr}.daily-market-item span,.daily-market-item b{white-space:normal}}
+      @media(max-width:720px){.daily-extra{margin-top:-4px;border-radius:14px;padding:12px}.daily-extra-grid{grid-template-columns:1fr}.daily-market-item span,.daily-market-item b{white-space:normal}}
     `;
     document.head.appendChild(style);
   };
@@ -61,7 +60,6 @@
     }
   };
 
-  const cell = (row, index) => row.children[index]?.textContent?.trim() || "—";
   const item = (label, value) => `<div class="daily-market-item ${empty(value) ? "is-empty" : ""}"><span>${escapeHtml(label)}</span><b>${empty(value) ? "Veri yok" : escapeHtml(value)}</b></div>`;
 
   const fixtureKey = (item) => [
@@ -97,14 +95,16 @@
     const yesNo = pick(fixture, ["iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo", "iy2y_kg_evet_hayir", "iy2y_kg_evet_hayır"]);
     const noYes = pick(fixture, ["iy2yKgNoYes", "firstSecondBttsNoYes", "ht2hBttsNoYes", "iy2y_kg_hayir_evet", "iy2y_kg_hayır_evet"]);
     const noNo = pick(fixture, ["iy2yKgNoNo", "firstSecondBttsNoNo", "ht2hBttsNoNo", "iy2y_kg_hayir_hayir", "iy2y_kg_hayır_hayır"]);
-    return `<div class="daily-extra-subtitle">1. Yarı / 2. Yarı KG</div><div class="daily-extra-grid secondary">${item("Evet/Evet", yesYes)}${item("Evet/Hayır", yesNo)}${item("Hayır/Evet", noYes)}${item("Hayır/Hayır", noNo)}</div>`;
+    return `<div class="daily-extra-subtitle">1. Yarı / 2. Yarı KG</div><div class="daily-extra-grid">${item("Evet/Evet", yesYes)}${item("Evet/Hayır", yesNo)}${item("Hayır/Evet", noYes)}${item("Hayır/Hayır", noNo)}</div>`;
   };
+
+  const extraHtml = (row) => `<strong class="daily-extra-title">Detaylı Oranlar</strong>${firstSecondBttsHtml(row)}`;
 
   const makeExtra = (row) => {
     if (row.nextElementSibling?.classList.contains("daily-extra")) return row.nextElementSibling;
     const extra = document.createElement("div");
     extra.className = "daily-extra";
-    extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar</strong><div class="daily-extra-grid">${item("MS 1", cell(row, 3))}${item("MS X", cell(row, 4))}${item("MS 2", cell(row, 5))}${item("2.5 Alt", cell(row, 6))}${item("2.5 Üst", cell(row, 7))}${item("KG Var", cell(row, 8))}${item("KG Yok", cell(row, 9))}</div>${firstSecondBttsHtml(row)}`;
+    extra.innerHTML = extraHtml(row);
     row.after(extra);
     return extra;
   };
@@ -112,7 +112,7 @@
   const refreshExtra = (row) => {
     const extra = row.nextElementSibling;
     if (!extra?.classList.contains("daily-extra")) return;
-    extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar</strong><div class="daily-extra-grid">${item("MS 1", cell(row, 3))}${item("MS X", cell(row, 4))}${item("MS 2", cell(row, 5))}${item("2.5 Alt", cell(row, 6))}${item("2.5 Üst", cell(row, 7))}${item("KG Var", cell(row, 8))}${item("KG Yok", cell(row, 9))}</div>${firstSecondBttsHtml(row)}`;
+    extra.innerHTML = extraHtml(row);
   };
 
   const closeOthers = (current) => {
