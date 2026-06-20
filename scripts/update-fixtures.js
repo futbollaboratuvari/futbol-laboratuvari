@@ -14,19 +14,36 @@ const sourceReportPath = path.join(outputDir, "mackolik_veri_cekme_raporu.md");
 const successReportPath = path.join(outputDir, "basari_yuzdesi_raporu.md");
 
 const MACKOLIK_IDDAA_URL = "https://arsiv.mackolik.com/Iddaa-Programi";
+const LIVE_WINDOW_MINUTES = 130;
 
 const ensureDirs = () => {
   fs.mkdirSync(dataDir, { recursive: true });
   fs.mkdirSync(outputDir, { recursive: true });
 };
 
-const formatTurkeyDate = (date = new Date()) =>
+const turkeyParts = (date = new Date()) =>
   new Intl.DateTimeFormat("en-CA", {
     timeZone: "Europe/Istanbul",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
-  }).format(date);
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(date).reduce((acc, part) => {
+    if (part.type !== "literal") acc[part.type] = part.value;
+    return acc;
+  }, {});
+
+const formatTurkeyDate = (date = new Date()) => {
+  const parts = turkeyParts(date);
+  return `${parts.year}-${parts.month}-${parts.day}`;
+};
+
+const turkeyClockMinutes = (date = new Date()) => {
+  const parts = turkeyParts(date);
+  return Number(parts.hour) * 60 + Number(parts.minute);
+};
 
 const formatTurkeyDateDots = (date = new Date()) => {
   const key = formatTurkeyDate(date);
@@ -120,6 +137,82 @@ const cleanTeam = (value) => String(value || "")
   .replace(/\s+/g, " ")
   .trim();
 
+const parseClockMinutes = (time) => {
+  const match = String(time || "").trim().match(/^(\d{1,2}):(\d{2})$/);
+  if (!match) return null;
+  return Number(match[1]) * 60 + Number(match[2]);
+};
+
+const normalizeNumber = (value) => {
+  if (value === undefined || value === null || value === "") return null;
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
+};
+
+const fixtureKey = (fixture) => [fixture.date, fixture.time, fixture.home, fixture.away]
+  .map((value) => String(value || "").trim().toLowerCase())
+  .join("|");
+
+const matchExistingFixture = (fixture, existingFixtures) => {
+  if (fixture.matchCode) {
+    const byCode = existingFixtures.find((item) => item.matchCode && String(item.matchCode) === String(fixture.matchCode));
+    if (byCode) return byCode;
+  }
+  const key = fixtureKey(fixture);
+  return existingFixtures.find((item) => fixtureKey(item) === key) || null;
+};
+
+const readScoreState = (fixture, fallback = {}) => {
+  const homeScore = normalizeNumber(fixture.homeScore ?? fixture.home_score ?? fixture.homeGoals ?? fixture.home_goals ?? fallback.homeScore ?? fallback.home_score ?? fallback.homeGoals ?? fallback.home_goals);
+  const awayScore = normalizeNumber(fixture.awayScore ?? fixture.away_score ?? fixture.awayGoals ?? fixture.away_goals ?? fallback.awayScore ?? fallback.away_score ?? fallback.awayGoals ?? fallback.away_goals);
+  const minute = normalizeNumber(fixture.minute ?? fixture.elapsed ?? fixture.matchMinute ?? fallback.minute ?? fallback.elapsed ?? fallback.matchMinute);
+  const score = String(fixture.score ?? fallback.score ?? "").trim();
+  return {
+    homeScore,
+    awayScore,
+    minute,
+    score: homeScore !== null && awayScore !== null ? `${homeScore}-${awayScore}` : score,
+  };
+};
+
+const statusFromTime = (fixture, nowDate = formatTurkeyDate(), nowMinutes = turkeyClockMinutes()) => {
+  const start = parseClockMinutes(fixture.time);
+  if (!fixture.date || start === null) return { status: fixture.status || "scheduled", minute: null };
+  if (fixture.date < nowDate) return { status: "finished", minute: 90 };
+  if (fixture.date > nowDate) return { status: "scheduled", minute: null };
+  const elapsed = nowMinutes - start;
+  if (elapsed < 0) return { status: "scheduled", minute: null };
+  if (elapsed <= LIVE_WINDOW_MINUTES) return { status: "live", minute: Math.max(1, Math.min(90, elapsed > 60 ? elapsed - 15 : elapsed)) };
+  return { status: "finished", minute: 90 };
+};
+
+const enrichLiveState = (fixtures, existingFixtures = []) => {
+  const nowDate = formatTurkeyDate();
+  const nowMinutes = turkeyClockMinutes();
+  return fixtures.map((fixture) => {
+    const existing = matchExistingFixture(fixture, existingFixtures) || {};
+    const scoreState = readScoreState(fixture, existing);
+    const statusState = statusFromTime({ ...fixture, status: fixture.status || existing.status }, nowDate, nowMinutes);
+    const explicitStatus = String(fixture.status || existing.status || "").toLowerCase();
+    const status = ["live", "finished", "postponed", "cancelled"].includes(explicitStatus)
+      ? explicitStatus
+      : statusState.status;
+    const minute = scoreState.minute !== null ? scoreState.minute : statusState.minute;
+    const enriched = {
+      ...existing,
+      ...fixture,
+      status,
+      liveStatus: status,
+      minute: status === "live" ? minute : status === "finished" ? 90 : null,
+      homeScore: scoreState.homeScore,
+      awayScore: scoreState.awayScore,
+      score: scoreState.score || (scoreState.homeScore !== null && scoreState.awayScore !== null ? `${scoreState.homeScore}-${scoreState.awayScore}` : ""),
+      lastLiveUpdate: new Date().toISOString(),
+    };
+    return Object.fromEntries(Object.entries(enriched).filter(([, value]) => value !== undefined));
+  });
+};
+
 const parseMackolikIddaaProgram = (html) => {
   const targetDotDate = formatTurkeyDateDots();
   const fixtures = [];
@@ -153,6 +246,11 @@ const parseMackolikIddaaProgram = (html) => {
       home,
       away,
       status: "scheduled",
+      liveStatus: "scheduled",
+      minute: null,
+      homeScore: null,
+      awayScore: null,
+      score: "",
       source: "Maçkolik İddaa Programı",
     });
   }
@@ -185,6 +283,11 @@ const toRawPool = (fixtures, source) => ({
     date: fixture.date,
     time: fixture.time,
     status: fixture.status,
+    liveStatus: fixture.liveStatus || fixture.status,
+    minute: fixture.minute,
+    homeScore: fixture.homeScore,
+    awayScore: fixture.awayScore,
+    score: fixture.score,
     source: fixture.source || source,
   })),
 });
@@ -214,7 +317,10 @@ const toSporTotoBulletin = (fixtures, source) => {
       twoOdd: null,
       decision: "Bekleniyor",
       className: "Haftalık Spor Toto",
-      score: "-",
+      minute: fixture.minute,
+      homeScore: fixture.homeScore,
+      awayScore: fixture.awayScore,
+      score: fixture.score || "-",
       status: fixture.status || "scheduled",
       source: fixture.source || source,
     })),
@@ -241,15 +347,15 @@ const writeReports = (fixtures, source) => {
     `${fixture.home} - ${fixture.away}`,
     fixture.league,
     fixture.time,
-    "Veri bekleniyor",
-    "-",
+    fixture.status === "live" ? `Canlı ${fixture.minute || "-"}'` : "Veri bekleniyor",
+    fixture.score || "-",
     "-",
     fixture.status || "scheduled",
   ]);
 
-  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Guc Skoru", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
+  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Skor", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
 
-  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Robot API anahtarı kullanmadan Maçkolik eski site İddaa Programı sayfasındaki bugünün maçlarını okur. Haftalık Spor Toto bülteni aynı maç havuzundan otomatik yenilenir.\n`;
+  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Robot API anahtarı kullanmadan Maçkolik eski site İddaa Programı sayfasındaki bugünün maçlarını okur. Canlı skor alanları veri kaynağından gelirse korunur; gelmezse maç saatine göre canlı dakika tahmini yazılır.\n`;
 
   const successReport = `# Başarı Yüzdesi Raporu\n\n- Güncelleme: ${generatedAt}\n- Sonuçlanan tahmin sayısı: 0\n- Durum: Canlı tahmin geçmişi bekleniyor.\n`;
 
@@ -276,13 +382,17 @@ const main = async () => {
     fixtures = keepCurrentWindow(existingFixtures);
   }
 
+  fixtures = enrichLiveState(fixtures, existingFixtures);
+
   writeJson(fixturesPath, fixtures);
   writeJson(rawPoolPath, toRawPool(fixtures, source));
   writeJson(historyPath, toPredictionHistory());
   writeJson(sporTotoPath, toSporTotoBulletin(fixtures, source));
   writeReports(fixtures, source);
 
-  console.log(`Futbol Laboratuvarı Maçkolik veri akışı güncellendi. Kaynak: ${source}. Maç: ${fixtures.length}`);
+  const liveCount = fixtures.filter((fixture) => fixture.status === "live").length;
+  const finishedCount = fixtures.filter((fixture) => fixture.status === "finished").length;
+  console.log(`Futbol Laboratuvarı Maçkolik veri akışı güncellendi. Kaynak: ${source}. Maç: ${fixtures.length}. Canlı: ${liveCount}. Biten: ${finishedCount}`);
 };
 
 main().catch((error) => {
