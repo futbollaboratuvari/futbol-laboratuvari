@@ -4,6 +4,39 @@
   const PAYMENT_ENDPOINT = "/api/paytr/create-payment";
   const TRIAL_ENDPOINT = "/api/me/start-trial";
 
+  const DEFAULT_PLANS = [
+    {
+      id: "starter",
+      name: "Gold Paket",
+      price: "149 TL / 3 Gün",
+      duration_days: 3,
+      duration_label: "3 Gün",
+      trial_label: "1 Gün Ücretsiz Deneme",
+      features: ["1 gün ücretsiz deneme", "Günlük kuponları görme", "Maç bülteni ve sonuçlar", "Paket süresince 10 özel analiz hakkı"],
+      cta: "Gold Paketi Seç"
+    },
+    {
+      id: "pro",
+      name: "Diamond Paket",
+      price: "299 TL / 2 Hafta",
+      duration_days: 14,
+      duration_label: "2 Hafta",
+      trial_label: "1 Gün Ücretsiz Deneme",
+      features: ["1 gün ücretsiz deneme", "Özel maç analizi paneli", "Seçenek seçerek analiz isteği", "Paket süresince 40 özel analiz hakkı"],
+      cta: "Diamond Paketi Seç"
+    },
+    {
+      id: "vip",
+      name: "Premium Paket",
+      price: "499 TL / 4 Hafta",
+      duration_days: 28,
+      duration_label: "4 Hafta",
+      trial_label: "1 Gün Ücretsiz Deneme",
+      features: ["1 gün ücretsiz deneme", "Tüm Diamond özellikleri", "Öncelikli analiz kuyruğu", "Paket süresince 120 özel analiz hakkı"],
+      cta: "Premium Paketi Seç"
+    }
+  ];
+
   const esc = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
@@ -67,17 +100,18 @@
   const render = (plans) => {
     injectStyle();
     const shell = ensureShell();
+    const visiblePlans = Array.isArray(plans) && plans.length ? plans : DEFAULT_PLANS;
 
     shell.innerHTML = `
       <div class="membership-head">
         <div>
           <h2 class="membership-title">Üyelik & Ödeme</h2>
-          <p class="membership-subtitle">Başlangıç, Pro ve Premium paketler ayrı tasarımla sunulur. Her pakette 1 gün ücretsiz deneme vardır.</p>
+          <p class="membership-subtitle">Gold, Diamond ve Premium paketler ayrı tasarımla sunulur. Her pakette 1 gün ücretsiz deneme vardır.</p>
         </div>
         <span class="membership-badge">💳 Kartla Ödeme + Deneme</span>
       </div>
       <div class="membership-grid">
-        ${plans.map((plan) => {
+        ${visiblePlans.map((plan) => {
           const tone = planTone(plan);
           return `
           <article class="membership-card ${tone.className}">
@@ -125,7 +159,7 @@
 
     shell.querySelectorAll("[data-plan]").forEach((button) => {
       button.addEventListener("click", () => {
-        selectedPlan = plans.find((item) => item.id === button.dataset.plan);
+        selectedPlan = visiblePlans.find((item) => item.id === button.dataset.plan);
         localStorage.setItem("fl_selected_membership_plan", JSON.stringify(selectedPlan || {}));
         output.innerHTML = `<strong>Seçilen paket:</strong> ${esc(selectedPlan?.name || "-")}<br><strong>Süre:</strong> ${esc(planDurationText(selectedPlan || {}))}<br><strong>Sonraki adım:</strong> 1 gün dene veya kartla satın al.`;
         refreshButton();
@@ -184,8 +218,8 @@
   };
 
   const load = async () => {
-    const plans = await readJson(PLANS_URL, []);
-    render(Array.isArray(plans) ? plans : []);
+    const plans = await readJson(PLANS_URL, DEFAULT_PLANS);
+    render(Array.isArray(plans) && plans.length ? plans : DEFAULT_PLANS);
     document.dispatchEvent(new CustomEvent("fl:runtime-ready"));
   };
 
