@@ -3,6 +3,7 @@
     "platform",
     "daily-matches-widget",
     "yaklasan-maclar",
+    "live-control-center",
     "robot-analizleri",
     "guclu-tahmin",
     "son-analizler",
@@ -25,9 +26,18 @@
     const style = document.createElement("style");
     style.id = STYLE_ID;
     style.textContent = `
+      #daily-matches-widget,
+      #live-control-center,
+      #robot-analizleri,
       #kurucu,
       #medya-galerisi {
         scroll-margin-top: 130px;
+      }
+
+      #yaklasan-maclar.daily-matches-anchor {
+        display: none !important;
+        height: 0 !important;
+        overflow: hidden !important;
       }
 
       #kurucu .founder-card,
