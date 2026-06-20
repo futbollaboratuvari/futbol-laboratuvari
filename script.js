@@ -6,8 +6,6 @@ const strongestPickCard = document.querySelector("#strongest-pick-card");
 const resultArchive = document.querySelector("#result-archive");
 const successGrid = document.querySelector("#success-grid");
 const databaseBody = document.querySelector("#analysis-database-body");
-const sporTotoGrid = document.querySelector("#spor-toto-grid");
-const sporTotoSummary = document.querySelector("#spor-toto-summary");
 const fixturesList = document.querySelector("#fixtures-list");
 const fixtureTabs = [...document.querySelectorAll(".fixture-tab")];
 
@@ -57,7 +55,6 @@ const fixtureStatusLabel = (status) => {
 };
 
 const emptyBox = (message) => `<div class="fixtures-empty">${escapeHtml(message)}</div>`;
-const emptyCard = (message) => `<article class="robot-live-card">${escapeHtml(message)}</article>`;
 
 const readJson = async (path, fallback) => {
   try {
@@ -111,24 +108,6 @@ const analysisCommentCard = (item, index) => `
   </article>
 `;
 
-const ensureCompletedCouponArea = () => {
-  const hub = document.querySelector("#robot-analizleri");
-  if (!hub || document.querySelector("[data-completed-coupons]")) return;
-  const panel = document.createElement("div");
-  panel.className = "robot-stack reveal visible";
-  panel.innerHTML = `
-    <div class="section-heading">
-      <p class="eyebrow">Tamamlanan Analizler</p>
-      <h2>Kazandı / Kaybetti Takibi</h2>
-      <p>Sonuç verisi geldiğinde tamamlanan PRO analizler burada ayrı listelenir.</p>
-    </div>
-    <div class="robot-stack" data-completed-coupons>
-      ${emptyCard("Tamamlanan PRO analiz bekleniyor.")}
-    </div>
-  `;
-  hub.insertBefore(panel, hub.querySelector(".robot-disclaimer"));
-};
-
 const setSummary = (activeItems, source = "PRO analiz bekleniyor") => {
   const todayCount = document.querySelector("#today-count");
   const avgConfidence = document.querySelector("#avg-confidence");
@@ -151,28 +130,8 @@ const setSummary = (activeItems, source = "PRO analiz bekleniyor") => {
   });
 };
 
-const groupByType = (items) => ({
-  single: items.filter((item) => String(item.type || "").toLowerCase().includes("tek") || String(item.type || "").toLowerCase().includes("single")),
-  double: items.filter((item) => String(item.type || "").includes("2") || String(item.type || "").toLowerCase().includes("double")),
-  triple: items.filter((item) => String(item.type || "").includes("3") || String(item.type || "").toLowerCase().includes("triple")),
-});
-
 const renderProAnalysisCenter = (payload) => {
-  ensureCompletedCouponArea();
-
   const activeItems = (Array.isArray(payload?.active_items) ? payload.active_items : []).filter(hasRealProSignals);
-  const completedItems = (Array.isArray(payload?.completed_items) ? payload.completed_items : []).filter(hasRealProSignals);
-  const grouped = groupByType(activeItems);
-
-  const singleBox = document.querySelector("[data-coupons-single]");
-  const doubleBox = document.querySelector("[data-coupons-double]");
-  const tripleBox = document.querySelector("[data-coupons-triple]");
-  const completedBox = document.querySelector("[data-completed-coupons]");
-
-  if (singleBox) singleBox.innerHTML = grouped.single.length ? grouped.single.map(couponCard).join("") : emptyCard("PRO robot tekli analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez.");
-  if (doubleBox) doubleBox.innerHTML = grouped.double.length ? grouped.double.map(couponCard).join("") : emptyCard("PRO robot 2'li analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez.");
-  if (tripleBox) tripleBox.innerHTML = grouped.triple.length ? grouped.triple.map(couponCard).join("") : emptyCard("PRO robot 3'lü analiz verisi bekleniyor. Yüzeysel/uydurma analiz gösterilmez.");
-  if (completedBox) completedBox.innerHTML = completedItems.length ? completedItems.map(couponCard).join("") : emptyCard("Tamamlanan PRO analiz bekleniyor. Sonuç verisi gelince kazandı/kaybetti burada gösterilecek.");
 
   if (analysisList) {
     analysisList.innerHTML = activeItems.length
@@ -232,21 +191,12 @@ const loadFixtures = async () => {
   if (!Array.isArray(fixtures)) fixtures = [];
 };
 
-const renderSporToto = () => {
-  // Spor Toto alanı artık yalnızca spor-toto-dashboard.js tarafından yönetilir.
-};
-
-const loadSporToto = async () => {
-  // Eski Spor Toto kart renderı devre dışı. Yeni dashboard ayrı modülden yüklenir.
-};
-
 const renderStaticEmptySections = () => {
   if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO analiz bekleniyor. Eski sabit/uydurma veriler gösterilmez.");
   if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Günün seçimi gerçek PRO analiz geldikten sonra otomatik üretilecek.");
   if (resultArchive) resultArchive.innerHTML = `<tr><td colspan="7">Canlı sonuç arşivi bekleniyor.</td></tr>`;
   if (successGrid) successGrid.innerHTML = `<article class="success-card reveal visible"><strong data-count="0">0</strong><span>Canlı performans bekleniyor</span><div class="spark"></div></article>`;
   if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
-  ensureCompletedCouponArea();
   setSummary([], "PRO analiz bekleniyor");
 };
 
