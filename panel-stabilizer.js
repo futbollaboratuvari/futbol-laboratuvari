@@ -2,7 +2,7 @@
   const panels = [
     { id: "daily-matches-widget", title: "Bugünün Maçları", text: "Günün maç listesi ve oran tablosu" },
     { id: "robot-analizleri", title: "Kupon Merkezi", text: "Tekli, 2'li ve 3'lü kupon alanı" },
-    { id: "membership-payment-panel", title: "Üyelik", text: "Paket ve ödeme alanı" },
+    { id: "membership-payment-panel", title: "Üyelik / Satın Al", text: "Gold, Diamond, Premium paketler" },
     { id: "premium-analysis-panel", title: "Özel Analiz", text: "Üyeye özel maç analizi" }
   ];
 
