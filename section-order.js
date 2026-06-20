@@ -3,20 +3,23 @@
     "platform",
     "daily-matches-widget",
     "robot-analizleri",
+    "membership-payment-panel",
+    "premium-analysis-panel",
+    "sonuc-arsivi",
+    "basari-takip",
+    "kurucu",
+    "medya-galerisi",
     "guclu-tahmin",
     "son-analizler",
     "spor-toto-performansi",
-    "sonuc-arsivi",
-    "basari-takip",
     "analiz-veritabani",
-    "membership-payment-panel",
-    "premium-analysis-panel",
-    "kurucu",
-    "medya-galerisi",
+    "yorum-kosesi",
+    "analiz-modulleri",
   ];
 
   const STYLE_ID = "section-order-style";
   let reorderTimer = null;
+  let isReordering = false;
 
   const injectStyle = () => {
     if (document.getElementById(STYLE_ID)) return;
@@ -25,16 +28,18 @@
     style.textContent = `
       #daily-matches-widget,
       #robot-analizleri,
+      #membership-payment-panel,
+      #premium-analysis-panel,
+      #sonuc-arsivi,
+      #basari-takip,
+      #kurucu,
+      #medya-galerisi,
       #guclu-tahmin,
       #son-analizler,
       #spor-toto-performansi,
-      #sonuc-arsivi,
-      #basari-takip,
       #analiz-veritabani,
-      #membership-payment-panel,
-      #premium-analysis-panel,
-      #kurucu,
-      #medya-galerisi {
+      #yorum-kosesi,
+      #analiz-modulleri {
         scroll-margin-top: 130px;
       }
 
@@ -67,9 +72,14 @@
   const findSection = (id) => document.getElementById(id);
 
   const reorder = () => {
+    if (isReordering) return;
+    isReordering = true;
     injectStyle();
     const main = document.querySelector("main");
-    if (!main) return;
+    if (!main) {
+      isReordering = false;
+      return;
+    }
 
     ORDER
       .map(findSection)
@@ -81,6 +91,8 @@
         }
         main.appendChild(section);
       });
+
+    isReordering = false;
   };
 
   const scheduleReorder = () => {
@@ -88,28 +100,39 @@
     reorderTimer = setTimeout(reorder, 80);
   };
 
-  const observeMain = () => {
-    const main = document.querySelector("main");
-    if (!main || main.dataset.flOrderObserver === "1") return;
-    main.dataset.flOrderObserver = "1";
-    const observer = new MutationObserver(scheduleReorder);
-    observer.observe(main, { childList: true, subtree: false });
+  const observePage = () => {
+    if (document.body?.dataset.flOrderObserver === "1") return;
+    if (!document.body) return;
+    document.body.dataset.flOrderObserver = "1";
+    const observer = new MutationObserver((mutations) => {
+      if (isReordering) return;
+      const hasRelevantNode = mutations.some((mutation) =>
+        [...mutation.addedNodes].some((node) => {
+          if (!(node instanceof Element)) return false;
+          return ORDER.some((id) => node.id === id || Boolean(node.querySelector?.(`#${id}`)));
+        })
+      );
+      if (hasRelevantNode) scheduleReorder();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
   };
 
   const boot = () => {
     reorder();
-    observeMain();
+    observePage();
   };
 
   boot();
   document.addEventListener("DOMContentLoaded", boot);
   document.addEventListener("fl:runtime-ready", boot);
   window.addEventListener("load", () => {
-    setTimeout(boot, 250);
-    setTimeout(boot, 900);
-    setTimeout(boot, 1800);
+    setTimeout(boot, 200);
+    setTimeout(boot, 700);
+    setTimeout(boot, 1600);
+    setTimeout(boot, 3200);
   });
   setTimeout(boot, 400);
   setTimeout(boot, 1400);
   setTimeout(boot, 3200);
+  setInterval(reorder, 5000);
 })();
