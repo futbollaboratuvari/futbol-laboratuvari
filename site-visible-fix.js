@@ -13,6 +13,11 @@
         #daily-matches-widget.daily-widget-shell{max-height:calc(100vh - 155px);overflow:auto;scrollbar-width:thin;margin-bottom:22px!important}
         #daily-matches-widget .daily-widget-head{position:sticky;top:0;z-index:5;background:linear-gradient(180deg,rgba(8,23,48,.98),rgba(8,23,48,.92));padding-bottom:10px}
         #daily-matches-widget .daily-league-block:last-child{margin-bottom:10px}
+        #robot-analizleri.top-robot-hub{min-height:auto!important;padding-bottom:34px!important}
+        #robot-analizleri .premium-coupon-center{align-items:start!important}
+        #robot-analizleri .premium-coupon-center>div{max-height:calc(100vh - 170px);overflow:auto;scrollbar-width:thin}
+        #robot-analizleri .robot-stack{align-content:start!important}
+        #robot-analizleri .robot-live-card{min-height:auto!important}
         #yaklasan-maclar,#robot-analizleri,#guclu-tahmin,#son-analizler,#membership-payment-panel,#premium-analysis-panel,#spor-toto-performansi,#sonuc-arsivi,#basari-takip,#kurucu{scroll-margin-top:150px!important}
       `;
       document.head.appendChild(style);
