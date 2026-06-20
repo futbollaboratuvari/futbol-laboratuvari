@@ -68,6 +68,17 @@
   ensureScript("spor-toto-v3-fix.js", "spor-toto-v3-fix-script");
   ensureScript("hero-top-pick-fix.js", "hero-top-pick-fix-script");
 
+  const retargetDailyLinks = () => {
+    document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => {
+      const label = String(link.textContent || "").toLowerCase();
+      if (label.includes("bugünün maç") || label.includes("maçlarını gör")) {
+        link.setAttribute("href", "#daily-matches-widget");
+      }
+    });
+  };
+
+  retargetDailyLinks();
+
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
@@ -142,6 +153,7 @@
   }
 
   window.addEventListener("load", () => {
+    retargetDailyLinks();
     if (window.location.hash && document.querySelector(window.location.hash)) {
       setTimeout(() => goToSection(window.location.hash, false), 80);
     } else {
