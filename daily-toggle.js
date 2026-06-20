@@ -102,6 +102,19 @@
     "triple"
   );
 
+  const halfTimeFullTimeHtml = (fixture) => category("İlk Yarı / Maç Sonucu",
+    item("1/1", pick(fixture, ["htFt11", "iyMs11", "iy_ms_11", "iy_ms_1_1", "half_time_full_time_11"])) +
+    item("1/X", pick(fixture, ["htFt1X", "iyMs1x", "iy_ms_1x", "iy_ms_1_x", "half_time_full_time_1x"])) +
+    item("1/2", pick(fixture, ["htFt12", "iyMs12", "iy_ms_12", "iy_ms_1_2", "half_time_full_time_12"])) +
+    item("X/1", pick(fixture, ["htFtX1", "iyMsX1", "iy_ms_x1", "iy_ms_x_1", "half_time_full_time_x1"])) +
+    item("X/X", pick(fixture, ["htFtXX", "iyMsXx", "iy_ms_xx", "iy_ms_x_x", "half_time_full_time_xx"])) +
+    item("X/2", pick(fixture, ["htFtX2", "iyMsX2", "iy_ms_x2", "iy_ms_x_2", "half_time_full_time_x2"])) +
+    item("2/1", pick(fixture, ["htFt21", "iyMs21", "iy_ms_21", "iy_ms_2_1", "half_time_full_time_21"])) +
+    item("2/X", pick(fixture, ["htFt2X", "iyMs2x", "iy_ms_2x", "iy_ms_2_x", "half_time_full_time_2x"])) +
+    item("2/2", pick(fixture, ["htFt22", "iyMs22", "iy_ms_22", "iy_ms_2_2", "half_time_full_time_22"])),
+    "triple"
+  );
+
   const handicapHtml = (fixture) => category("Handikaplı Maç Sonucu",
     item("HND 1", pick(fixture, ["handicapOne", "hndOne", "hnd_1", "handicap_1"])) +
     item("HND X", pick(fixture, ["handicapDraw", "hndDraw", "hnd_x", "handicap_x"])) +
@@ -164,7 +177,7 @@
 
   const extraHtml = (row) => {
     const fixture = findFixture(row);
-    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${handicapHtml(fixture)}${matchDoubleChanceHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${goalRangeHtml(fixture)}${teamOverUnderHtml(fixture)}${halfBttsHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
+    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${halfTimeFullTimeHtml(fixture)}${handicapHtml(fixture)}${matchDoubleChanceHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${goalRangeHtml(fixture)}${teamOverUnderHtml(fixture)}${halfBttsHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
   };
 
   const makeExtra = (row) => {
