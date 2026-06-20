@@ -78,27 +78,47 @@
     return hint;
   };
 
-  const updateHint = () => {
-    addStyle();
-    const root = panel();
-    if (!root) return;
+  const renderMessage = (root, state, forced = false) => {
     const hint = ensureHint(root);
-    const state = validation(root);
     setButtons(root, state.ready);
     hint.classList.toggle("ok", state.ready);
     const warnings = [...state.missing, ...state.invalid];
     if (warnings.length) {
-      hint.innerHTML = `<strong>Devam etmek için kontrol et:</strong> ${warnings.join(", ")}. Bilgiler doğru olunca 1 Gün Ücretsiz Dene ve Kartla Satın Al butonları aktif olur.`;
+      const prefix = forced ? "İşlem durduruldu" : "Devam etmek için kontrol et";
+      hint.innerHTML = `<strong>${prefix}:</strong> ${warnings.join(", ")}. Bilgiler doğru olunca 1 Gün Ücretsiz Dene ve Kartla Satın Al butonları aktif olur.`;
+      const output = root.querySelector("[data-membership-output]");
+      if (forced && output) output.innerHTML = hint.innerHTML;
     } else {
       hint.innerHTML = `<strong>Hazır:</strong> Paket ve iletişim bilgileri doğru. Deneme veya satın alma adımına geçebilirsin.`;
     }
   };
 
+  const updateHint = () => {
+    addStyle();
+    const root = panel();
+    if (!root) return;
+    renderMessage(root, validation(root));
+  };
+
   const schedule = () => window.setTimeout(updateHint, 30);
 
   document.addEventListener("click", (event) => {
+    const panelRoot = panel();
+    const submitButton = event.target.closest?.("#membership-payment-panel [data-trial-start], #membership-payment-panel [data-payment-start]");
+    if (submitButton && panelRoot) {
+      const state = validation(panelRoot);
+      if (!state.ready) {
+        event.preventDefault();
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        submitButton.disabled = true;
+        renderMessage(panelRoot, state, true);
+        return;
+      }
+    }
     if (event.target.closest?.("#membership-payment-panel [data-plan]")) schedule();
   }, true);
+
   document.addEventListener("input", (event) => {
     if (event.target.closest?.("#membership-payment-panel")) schedule();
   }, true);
