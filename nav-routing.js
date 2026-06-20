@@ -1,24 +1,35 @@
 // Site içi tek sayfa yönlendirmeleri
-// Eski özet paneller devre dışı bırakıldı; tek ana akış index.html + canlı bülten üzerinden ilerler.
+// Tek yetkili router: menü, hero butonları ve dinamik paneller burada yönetilir.
 (() => {
-  const VERSION = "20260620-1810";
+  const VERSION = "20260620-1835";
+  let syntheticLoadTimer = null;
+  let observerReady = false;
 
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
-  const sameScript = (script, src) => {
-    const attr = String(script.getAttribute("src") || "");
-    if (!attr) return false;
+  const sameAsset = (attr, src) => {
+    const value = String(attr || "");
+    if (!value) return false;
     try {
-      const url = new URL(attr, window.location.href);
-      return url.pathname.endsWith(src) || script.dataset.flDynamicScript === src;
+      const url = new URL(value, window.location.href);
+      return url.pathname.endsWith(src);
     } catch {
-      return attr === src || attr.startsWith(`${src}?`) || script.dataset.flDynamicScript === src;
+      return value === src || value.startsWith(`${src}?`);
     }
+  };
+
+  const scheduleSyntheticLoadForLateScripts = () => {
+    if (document.readyState !== "complete") return;
+    clearTimeout(syntheticLoadTimer);
+    syntheticLoadTimer = setTimeout(() => {
+      window.dispatchEvent(new Event("load"));
+      document.dispatchEvent(new CustomEvent("fl:runtime-ready"));
+    }, 120);
   };
 
   const ensureStylesheet = (href, id) => {
     if (id && document.getElementById(id)) return;
-    if ([...document.querySelectorAll('link[rel="stylesheet"]')].some((link) => String(link.getAttribute("href") || "").includes(href))) return;
+    if ([...document.querySelectorAll('link[rel="stylesheet"]')].some((link) => sameAsset(link.getAttribute("href"), href))) return;
     const styleLink = document.createElement("link");
     if (id) styleLink.id = id;
     styleLink.rel = "stylesheet";
@@ -28,12 +39,13 @@
 
   const ensureScript = (src, id) => {
     if (id && document.getElementById(id)) return;
-    if ([...document.querySelectorAll("script[src]")].some((script) => sameScript(script, src))) return;
+    if ([...document.querySelectorAll("script[src]")].some((script) => sameAsset(script.getAttribute("src"), src) || script.dataset.flDynamicScript === src)) return;
     const script = document.createElement("script");
     if (id) script.id = id;
     script.src = versioned(src);
-    script.defer = true;
+    script.async = false;
     script.setAttribute("data-fl-dynamic-script", src);
+    script.addEventListener("load", scheduleSyntheticLoadForLateScripts, { once: true });
     document.body.appendChild(script);
   };
 
@@ -45,12 +57,14 @@
     });
   };
 
+  const resolveHash = (hash) => {
+    if (hash === "#yaklasan-maclar") return "#daily-matches-widget";
+    return hash;
+  };
+
   const retargetDailyLinks = () => {
     document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => {
-      const label = String(link.textContent || "").toLowerCase();
-      if (label.includes("bugünün maç") || label.includes("maçlarını gör") || label.includes("maç bülteni")) {
-        link.setAttribute("href", "#daily-matches-widget");
-      }
+      link.setAttribute("href", "#daily-matches-widget");
     });
   };
 
@@ -76,7 +90,6 @@
     ensureScript("site-typography-system.js", "site-typography-system-script");
     ensureScript("panel-widget-system.js", "panel-widget-system-script");
     ensureScript("user-access-flow.js", "user-access-flow-script");
-    ensureScript("live-control-center.js", "live-control-center-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
     ensureScript("spor-toto-v3-fix.js", "spor-toto-v3-fix-script");
@@ -103,8 +116,12 @@
         text-decoration: none !important;
       }
       .robot-disclaimer,
-      .daily-matches-anchor {
+      .daily-matches-anchor,
+      #live-control-center {
         display: none !important;
+      }
+      a, button, [role="button"], .hero-button, .nav-links a {
+        pointer-events: auto !important;
       }
     `;
     document.head.appendChild(cleanupStyle);
@@ -113,13 +130,30 @@
   const header = () => document.querySelector(".site-header");
   const nav = () => document.querySelector(".nav-links");
   const menuButton = () => document.querySelector(".menu-toggle");
+  const getHeaderOffset = () => (header()?.offsetHeight || 0) + 18;
 
-  const resolveHash = (hash) => {
-    if (hash === "#yaklasan-maclar") return "#daily-matches-widget";
-    return hash;
+  const findTarget = (hash) => {
+    const targetHash = resolveHash(hash);
+    if (!targetHash || targetHash === "#") return null;
+    return document.querySelector(targetHash);
   };
 
-  const getHeaderOffset = () => (header()?.offsetHeight || 0) + 18;
+  const waitForTarget = (hash, timeout = 2200) =>
+    new Promise((resolve) => {
+      const existing = findTarget(hash);
+      if (existing) {
+        resolve(existing);
+        return;
+      }
+      const started = Date.now();
+      const timer = setInterval(() => {
+        const target = findTarget(hash);
+        if (target || Date.now() - started > timeout) {
+          clearInterval(timer);
+          resolve(target || null);
+        }
+      }, 90);
+    });
 
   const setActiveLink = (hash) => {
     const activeHash = resolveHash(hash);
@@ -129,21 +163,19 @@
     });
   };
 
-  const goToSection = (hash, updateHistory = true) => {
+  const goToSection = async (hash, updateHistory = true) => {
     const targetHash = resolveHash(hash);
-    const target = document.querySelector(targetHash);
-    if (!target) return;
+    const target = await waitForTarget(targetHash);
+    if (!target) return false;
 
     const top = target.getBoundingClientRect().top + window.scrollY - getHeaderOffset();
     window.scrollTo({ top: Math.max(top, 0), behavior: "smooth" });
 
-    if (updateHistory) {
-      history.pushState(null, "", targetHash);
-    }
-
+    if (updateHistory) history.pushState(null, "", targetHash);
     setActiveLink(targetHash);
     nav()?.classList.remove("open");
     menuButton()?.setAttribute("aria-expanded", "false");
+    return true;
   };
 
   const bindMenu = () => {
@@ -156,37 +188,32 @@
     });
   };
 
-  const bindInternalLinks = () => {
-    const internalLinks = [...document.querySelectorAll('a[href*="#"]')].filter((link) => {
+  const bindDelegatedNavigation = () => {
+    if (document.documentElement.dataset.flDelegatedNavReady === "1") return;
+    document.documentElement.dataset.flDelegatedNavReady = "1";
+    document.addEventListener("click", async (event) => {
+      const link = event.target.closest?.('a[href*="#"]');
+      if (!link) return;
+      let url;
       try {
-        const url = new URL(link.getAttribute("href"), window.location.href);
-        const current = window.location.pathname.replace(/\/index\.html$/, "/");
-        const target = url.pathname.replace(/\/index\.html$/, "/");
-        return target === current && Boolean(url.hash);
+        url = new URL(link.getAttribute("href"), window.location.href);
       } catch {
-        return false;
+        return;
       }
-    });
-
-    internalLinks.forEach((link) => {
-      if (link.dataset.flNavReady === "1") return;
-      link.dataset.flNavReady = "1";
-      link.addEventListener("click", (event) => {
-        const url = new URL(link.getAttribute("href"), window.location.href);
-        const targetHash = resolveHash(url.hash);
-        const target = document.querySelector(targetHash);
-        if (!target) return;
-        event.preventDefault();
-        goToSection(targetHash);
-      });
-    });
+      const current = window.location.pathname.replace(/\/index\.html$/, "/");
+      const targetPath = url.pathname.replace(/\/index\.html$/, "/");
+      if (targetPath !== current || !url.hash) return;
+      const targetHash = resolveHash(url.hash);
+      event.preventDefault();
+      await goToSection(targetHash);
+    }, true);
   };
 
   const observeSections = () => {
-    if (window.__flSectionObserverReady) return;
+    if (observerReady) return;
     const sections = [...document.querySelectorAll("main section[id]")];
     if (!sections.length) return;
-    window.__flSectionObserverReady = true;
+    observerReady = true;
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries
@@ -208,12 +235,13 @@
     injectCleanupStyle();
     ensureRuntimeAssets();
     bindMenu();
-    bindInternalLinks();
+    bindDelegatedNavigation();
     observeSections();
   };
 
   boot();
   document.addEventListener("DOMContentLoaded", boot);
+  document.addEventListener("fl:runtime-ready", boot);
   window.addEventListener("load", () => {
     boot();
     const hash = resolveHash(window.location.hash);
@@ -225,4 +253,5 @@
   });
   setTimeout(boot, 700);
   setTimeout(boot, 1800);
+  setTimeout(boot, 3600);
 })();
