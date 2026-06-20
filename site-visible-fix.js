@@ -20,7 +20,7 @@
         #robot-analizleri .premium-coupon-center>div{max-height:calc(100vh - 170px);overflow:auto;scrollbar-width:thin}
         #robot-analizleri .robot-stack{align-content:start!important}
         #robot-analizleri .robot-live-card{min-height:auto!important}
-        #yaklasan-maclar,#robot-analizleri,#guclu-tahmin,#son-analizler,#membership-payment-panel,#premium-analysis-panel,#spor-toto-performansi,#sonuc-arsivi,#basari-takip,#kurucu{scroll-margin-top:150px!important}
+        #daily-matches-widget,#robot-analizleri,#guclu-tahmin,#son-analizler,#membership-payment-panel,#premium-analysis-panel,#spor-toto-performansi,#sonuc-arsivi,#basari-takip,#analiz-veritabani,#kurucu,#medya-galerisi{scroll-margin-top:150px!important}
       `;
       document.head.appendChild(style);
     }
@@ -93,34 +93,20 @@
     updatePastMatchStatus();
   };
 
-  const loadNavigationFix = () => {
-    if (document.getElementById("site-navigation-fix-script")) return;
-    if ([...document.querySelectorAll("script[src]")].some((script) => String(script.getAttribute("src") || "").endsWith("site-navigation-fix.js"))) return;
-    const script = document.createElement("script");
-    script.id = "site-navigation-fix-script";
-    script.src = "site-navigation-fix.js";
-    script.defer = true;
-    document.body.appendChild(script);
-  };
-
   run();
   cleanup();
-  loadNavigationFix();
   document.addEventListener("DOMContentLoaded", () => {
     run();
     cleanup();
-    loadNavigationFix();
   });
   window.addEventListener("load", () => {
     run();
     cleanup();
-    loadNavigationFix();
   });
   setTimeout(run, 500);
   setTimeout(run, 1400);
   setTimeout(cleanup, 800);
   setTimeout(cleanup, 1800);
   setTimeout(cleanup, 3500);
-  setTimeout(loadNavigationFix, 700);
   setInterval(cleanup, 5000);
 })();
