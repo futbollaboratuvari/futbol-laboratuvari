@@ -11,6 +11,10 @@ permissions:
 jobs:
   update-fixtures:
     runs-on: ubuntu-latest
+    env:
+      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
 
     steps:
       - name: Checkout repository
@@ -36,10 +40,10 @@ jobs:
       - name: Update Mackolik fixture list
         run: node scripts/update-fixtures.js
 
-      - name: Run Python Mackolik robot
+      - name: Run full Python robot
         working-directory: bu-klas-r-i-in-basit
         continue-on-error: true
-        run: python src/mackolik_veri_cekici.py
+        run: python src/robot.py
 
       - name: Import robot raw pool into site data
         run: node scripts/import-robot-raw-pool.js
@@ -51,4 +55,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Mackolik fixtures and analysis"
-          file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json data/analiz_sonuclari.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md bu-klas-r-i-in-basit/data/ham_mac_havuzu.json bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md
+          file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json data/analiz_sonuclari.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md bu-klas-r-i-in-basit/data/ham_mac_havuzu.json bu-klas-r-i-in-basit/data/tahmin_gecmisi.json bu-klas-r-i-in-basit/data/canli-veri.json bu-klas-r-i-in-basit/data/analiz_sonuclari.json bu-klas-r-i-in-basit/outputs/bugunun_en_guclu_maclari.md bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md bu-klas-r-i-in-basit/outputs/basari_yuzdesi_raporu.md
