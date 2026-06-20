@@ -1,4 +1,7 @@
 (() => {
+  if (window.__flMembershipFormHintReady) return;
+  window.__flMembershipFormHintReady = true;
+
   const PANEL_ID = "membership-payment-panel";
   const STYLE_ID = "membership-form-hint-style";
 
