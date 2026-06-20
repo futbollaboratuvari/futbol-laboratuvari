@@ -1,5 +1,5 @@
 (() => {
-  const VERSION = "20260620-2010-panel-stable";
+  const VERSION = "20260620-2035-summary-sync";
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
   const sameAsset = (value, src) => {
@@ -61,6 +61,7 @@
     ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
     ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
     ensureScript("section-order.js", "section-order-script");
+    ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
 
     const button = document.querySelector(".menu-toggle");
     const nav = document.querySelector(".nav-links");
