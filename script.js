@@ -92,7 +92,7 @@ const getSignalsText = (item) => {
 const couponCard = (item) => `
   <article class="robot-live-card">
     <h3>${escapeHtml(normalizeTitle(item))}</h3>
-    <div class="robot-row"><span>Market</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
+    <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
     <div class="robot-row"><span>PRO güveni</span><strong>${escapeHtml(normalizeScore(item))}</strong></div>
     <div class="robot-row"><span>Risk</span><strong>${escapeHtml(normalizeRisk(item))}</strong></div>
     <div class="robot-row"><span>Durum</span><strong>${escapeHtml(item.status || "takipte")}</strong></div>
@@ -105,7 +105,7 @@ const analysisCommentCard = (item, index) => `
     <div class="meta-row"><span>PRO Robot #${index + 1}</span><span>${escapeHtml(item.status || "takipte")}</span></div>
     <h3>${escapeHtml(normalizeTitle(item))}</h3>
     <p>${escapeHtml(item.commentary || item.comment || item.analysis_note || "PRO robot yorumu bekleniyor.")}</p>
-    <div class="robot-row"><span>Market</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
+    <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
     <div class="robot-row"><span>Güven / Risk</span><strong>${escapeHtml(normalizeScore(item))} / ${escapeHtml(normalizeRisk(item))}</strong></div>
     <p class="robot-note">Veri dayanağı: ${escapeHtml(getSignalsText(item) || "PRO veri katmanları bekleniyor")}</p>
   </article>
@@ -132,7 +132,6 @@ const ensureCompletedCouponArea = () => {
 const setSummary = (activeItems, source = "PRO analiz bekleniyor") => {
   const todayCount = document.querySelector("#today-count");
   const avgConfidence = document.querySelector("#avg-confidence");
-  const topMarket = document.querySelector("#top-market");
   const activeSource = document.querySelector("[data-active-source]");
   const predictionCount = document.querySelector("[data-prediction-count]");
 
@@ -146,7 +145,6 @@ const setSummary = (activeItems, source = "PRO analiz bekleniyor") => {
   const avg = numericScores.length ? Math.round(numericScores.reduce((sum, score) => sum + score, 0) / numericScores.length) : 0;
 
   if (avgConfidence) avgConfidence.textContent = avg ? `${avg}%` : "-";
-  if (topMarket) topMarket.textContent = activeItems[0] ? normalizeMarket(activeItems[0]) : "-";
 
   document.querySelectorAll("[data-load-status]").forEach((item) => {
     item.textContent = activeItems.length ? "PRO robot analizi" : "PRO analiz bekleniyor";
@@ -201,7 +199,7 @@ const loadProAnalysisCenter = async () => {
 };
 
 const renderFixtures = () => {
-  if (!fixturesList) return;
+  if (!fixturesList || fixturesList.classList.contains("fixtures-summary-mode")) return;
   const dateKey = fixtureDateMap()[activeFixtureDay];
   const dailyFixtures = fixtures
     .filter((fixture) => fixture.date === dateKey)
@@ -230,60 +228,16 @@ const renderFixtures = () => {
 };
 
 const loadFixtures = async () => {
-  if (!fixturesList) return;
-  fixturesList.innerHTML = emptyBox("Maç bülteni yükleniyor...");
   fixtures = await readJson("./data/fixtures.json", []);
   if (!Array.isArray(fixtures)) fixtures = [];
-  renderFixtures();
 };
 
-const renderSporToto = (payload) => {
-  if (!sporTotoGrid) return;
-  const matches = Array.isArray(payload?.matches) ? payload.matches : [];
-
-  if (!matches.length) {
-    sporTotoGrid.innerHTML = emptyBox("Haftalık Spor Toto bülteni bekleniyor.");
-    if (sporTotoSummary) {
-      sporTotoSummary.innerHTML = `<span>Toplam: 0</span><span>Durum: Canlı bülten bekleniyor</span>`;
-    }
-    return;
-  }
-
-  sporTotoGrid.innerHTML = matches
-    .map(
-      (pick, index) => `
-        <article class="spor-card reveal visible">
-          <div class="meta-row">
-            <span>${escapeHtml(pick.week || payload.week_label || "Haftalık Bülten")}</span>
-            <span>${escapeHtml(pick.className || "Spor Toto")}</span>
-          </div>
-          <h3>${escapeHtml(pick.match || `${pick.home || "Ev sahibi"} - ${pick.away || "Deplasman"}`)}</h3>
-          <div class="probability-grid">
-            <span>1 <b>${escapeHtml(pick.one ?? "-")}</b><small>${escapeHtml(pick.oneOdd ?? "-")}</small></span>
-            <span>X <b>${escapeHtml(pick.draw ?? "-")}</b><small>${escapeHtml(pick.drawOdd ?? "-")}</small></span>
-            <span>2 <b>${escapeHtml(pick.two ?? "-")}</b><small>${escapeHtml(pick.twoOdd ?? "-")}</small></span>
-          </div>
-          <div class="decision-row">
-            <strong>${escapeHtml(pick.decision || "Bekleniyor")}</strong>
-            <span>${escapeHtml(pick.score ? `Skor ${pick.score}` : `#${pick.no || index + 1}`)}</span>
-          </div>
-        </article>
-      `,
-    )
-    .join("");
-
-  if (sporTotoSummary) {
-    sporTotoSummary.innerHTML = `
-      <span>Hafta: ${escapeHtml(payload.week_label || "Güncel")}</span>
-      <span>Toplam: ${matches.length}</span>
-      <span>Kaynak: ${escapeHtml(payload.source || "Robot")}</span>
-    `;
-  }
+const renderSporToto = () => {
+  // Spor Toto alanı artık yalnızca spor-toto-dashboard.js tarafından yönetilir.
 };
 
 const loadSporToto = async () => {
-  const payload = await readJson("./data/spor_toto_bulteni.json", { matches: [] });
-  renderSporToto(payload);
+  // Eski Spor Toto kart renderı devre dışı. Yeni dashboard ayrı modülden yüklenir.
 };
 
 const renderStaticEmptySections = () => {
@@ -292,28 +246,12 @@ const renderStaticEmptySections = () => {
   if (resultArchive) resultArchive.innerHTML = `<tr><td colspan="7">Canlı sonuç arşivi bekleniyor.</td></tr>`;
   if (successGrid) successGrid.innerHTML = `<article class="success-card reveal visible"><strong data-count="0">0</strong><span>Canlı performans bekleniyor</span><div class="spark"></div></article>`;
   if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
-  renderSporToto({ matches: [] });
   ensureCompletedCouponArea();
   setSummary([], "PRO analiz bekleniyor");
 };
 
 const setupObservers = () => {
   if ("IntersectionObserver" in window) {
-    const sectionObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const id = entry.target.getAttribute("id");
-          const activeLink = document.querySelector(`.nav-links a[href="#${id}"]`);
-          if (!activeLink || !entry.isIntersecting) return;
-          navLinks.forEach((link) => link.classList.remove("active"));
-          activeLink.classList.add("active");
-        });
-      },
-      { rootMargin: "-38% 0px -52% 0px", threshold: 0.1 },
-    );
-
-    document.querySelectorAll("section[id]").forEach((section) => sectionObserver.observe(section));
-
     const revealObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -333,21 +271,9 @@ const setupObservers = () => {
 
 const init = async () => {
   renderStaticEmptySections();
-  await Promise.all([loadFixtures(), loadSporToto(), loadProAnalysisCenter()]);
+  await Promise.all([loadFixtures(), loadProAnalysisCenter()]);
   setupObservers();
 };
-
-menuButton?.addEventListener("click", () => {
-  const isOpen = nav?.classList.toggle("open");
-  menuButton.setAttribute("aria-expanded", String(Boolean(isOpen)));
-});
-
-navLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    nav?.classList.remove("open");
-    menuButton?.setAttribute("aria-expanded", "false");
-  });
-});
 
 fixtureTabs.forEach((tab) => {
   tab.addEventListener("click", () => {
