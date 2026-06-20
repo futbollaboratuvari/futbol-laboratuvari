@@ -26,11 +26,9 @@
 
   const makeExtra = (row) => {
     if (row.nextElementSibling?.classList.contains("daily-extra")) return row.nextElementSibling;
-    const home = row.dataset.home || "Ev sahibi";
-    const away = row.dataset.away || "Deplasman";
     const extra = document.createElement("div");
     extra.className = "daily-extra";
-    extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar · ${home} - ${away}</strong><div class="daily-extra-grid">${item("MS 1", cell(row, 2))}${item("MS X", cell(row, 3))}${item("MS 2", cell(row, 4))}${item("2.5 Alt", cell(row, 5))}${item("2.5 Üst", cell(row, 6))}${item("KG Var", cell(row, 7))}${item("KG Yok", cell(row, 8))}</div>`;
+    extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar</strong><div class="daily-extra-grid">${item("MS 1", cell(row, 2))}${item("MS X", cell(row, 3))}${item("MS 2", cell(row, 4))}${item("2.5 Alt", cell(row, 5))}${item("2.5 Üst", cell(row, 6))}${item("KG Var", cell(row, 7))}${item("KG Yok", cell(row, 8))}</div>`;
     row.after(extra);
     return extra;
   };
