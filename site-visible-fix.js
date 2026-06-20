@@ -4,7 +4,17 @@
     if (!document.getElementById(id)) {
       const style = document.createElement("style");
       style.id = id;
-      style.textContent = `.reveal{opacity:1!important;transform:none!important;visibility:visible!important}.reveal.visible{opacity:1!important;transform:none!important}.hero-media,.dashboard-hero::after,.dashboard-hero::before,.site-header::before,.site-header::after{pointer-events:none!important}.site-header a,.site-header button,.nav-links,.nav-links a{pointer-events:auto!important}main,.section,.hero-content,.platform-summary,.footer{visibility:visible!important}`;
+      style.textContent = `
+        .reveal{opacity:1!important;transform:none!important;visibility:visible!important}
+        .reveal.visible{opacity:1!important;transform:none!important}
+        .hero-media,.dashboard-hero::after,.dashboard-hero::before,.site-header::before,.site-header::after{pointer-events:none!important}
+        .site-header a,.site-header button,.nav-links,.nav-links a,button,a{pointer-events:auto!important}
+        main,.section,.hero-content,.platform-summary,.footer{visibility:visible!important}
+        #daily-matches-widget.daily-widget-shell{max-height:calc(100vh - 155px);overflow:auto;scrollbar-width:thin;margin-bottom:22px!important}
+        #daily-matches-widget .daily-widget-head{position:sticky;top:0;z-index:5;background:linear-gradient(180deg,rgba(8,23,48,.98),rgba(8,23,48,.92));padding-bottom:10px}
+        #daily-matches-widget .daily-league-block:last-child{margin-bottom:10px}
+        #yaklasan-maclar,#robot-analizleri,#guclu-tahmin,#son-analizler,#membership-payment-panel,#premium-analysis-panel,#spor-toto-performansi,#sonuc-arsivi,#basari-takip,#kurucu{scroll-margin-top:150px!important}
+      `;
       document.head.appendChild(style);
     }
     document.querySelectorAll(".reveal").forEach((el) => el.classList.add("visible"));
@@ -31,5 +41,6 @@
     loadNavigationFix();
   });
   setTimeout(run, 500);
+  setTimeout(run, 1400);
   setTimeout(loadNavigationFix, 700);
 })();
