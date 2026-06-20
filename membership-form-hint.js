@@ -34,6 +34,32 @@
   };
   const validPhone = (value) => onlyDigits(value).length >= 10;
 
+  const improveFields = (root) => {
+    const name = input(root, "[data-member-name]");
+    const email = input(root, "[data-member-email]");
+    const phone = input(root, "[data-member-phone]");
+    if (name) {
+      name.required = true;
+      name.autocomplete = "name";
+      name.enterKeyHint = "next";
+    }
+    if (email) {
+      email.type = "email";
+      email.required = true;
+      email.autocomplete = "email";
+      email.inputMode = "email";
+      email.enterKeyHint = "next";
+    }
+    if (phone) {
+      phone.type = "tel";
+      phone.required = true;
+      phone.autocomplete = "tel";
+      phone.inputMode = "tel";
+      phone.enterKeyHint = "done";
+      phone.maxLength = 18;
+    }
+  };
+
   const validation = (root) => {
     const missing = [];
     const invalid = [];
@@ -97,6 +123,7 @@
     addStyle();
     const root = panel();
     if (!root) return;
+    improveFields(root);
     renderMessage(root, validation(root));
   };
 
