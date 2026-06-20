@@ -109,6 +109,13 @@
     "triple"
   );
 
+  const matchDoubleChanceHtml = (fixture) => category("Maç Sonu Çifte Şans",
+    item("1-X", pick(fixture, ["doubleChance1X", "cifte1x", "cifte_1x", "dc_1x"])) +
+    item("1-2", pick(fixture, ["doubleChance12", "cifte12", "cifte_12", "dc_12"])) +
+    item("X-2", pick(fixture, ["doubleChanceX2", "cifteX2", "cifte_x2", "dc_x2"])),
+    "triple"
+  );
+
   const halfDoubleChanceHtml = (fixture) => category("1. Yarı Çifte Şans",
     item("1Y 1-X", pick(fixture, ["firstHalfDoubleChance1X", "iyCifte1x", "iy_cifte_1x", "first_half_dc_1x"])) +
     item("1Y 1-2", pick(fixture, ["firstHalfDoubleChance12", "iyCifte12", "iy_cifte_12", "first_half_dc_12"])) +
@@ -150,7 +157,7 @@
 
   const extraHtml = (row) => {
     const fixture = findFixture(row);
-    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${handicapHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${teamOverUnderHtml(fixture)}${halfBttsHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
+    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${handicapHtml(fixture)}${matchDoubleChanceHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${teamOverUnderHtml(fixture)}${halfBttsHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
   };
 
   const makeExtra = (row) => {
