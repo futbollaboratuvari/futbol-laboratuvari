@@ -6,7 +6,8 @@
     <title>Futbol Laboratuvarı | Analiz Platformu</title>
     <style>
       .reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
-      .hero-media, .dashboard-hero::after, .dashboard-hero::before { pointer-events: none !important; }
+      .hero-media, .dashboard-hero::after, .dashboard-hero::before, .site-header::before, .site-header::after { pointer-events: none !important; }
+      .site-header a, .site-header button, .nav-links, .nav-links a { pointer-events: auto !important; }
     </style>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="premium-theme.css" />
@@ -14,19 +15,11 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="./index.html" aria-label="Futbol Laboratuvarı">
-        <span class="brand-mark">
-          <img src="assets/images/fl-logo-mark.webp" alt="" />
-        </span>
-        <span>
-          Futbol Laboratuvarı
-          <small>Maç ve Kupon Merkezi</small>
-        </span>
+      <a class="brand" href="#platform" aria-label="Futbol Laboratuvarı">
+        <span class="brand-mark"><img src="assets/images/fl-logo-mark.webp" alt="" /></span>
+        <span>Futbol Laboratuvarı<small>Maç ve Kupon Merkezi</small></span>
       </a>
-      <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false">
-        <span></span>
-        <span></span>
-      </button>
+      <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span></button>
       <nav class="nav-links nav-classified" aria-label="Ana menü">
         <div class="nav-group" aria-label="Ana bölüm">
           <span class="nav-group-label">Futbol Laboratuvarı</span>
@@ -59,98 +52,27 @@
           </div>
           <p class="eyebrow">Profesyonel spor kupon ve maç analizi merkezi</p>
           <h1>Futbol Laboratuvarı</h1>
-          <p>
-            Günün maçları, güçlü tahminler, güven seviyesi ve kupon önerileri tek ekranda
-            sade ve anlaşılır şekilde sunulur.
-          </p>
+          <p>Günün maçları, güçlü tahminler, güven seviyesi ve kupon önerileri tek ekranda sade ve anlaşılır şekilde sunulur.</p>
           <div class="hero-proof" aria-label="Öne çıkan alanlar">
-            <span>Bugünün maçları</span>
-            <span>Güçlü tahminler</span>
-            <span>Kupon merkezi</span>
-            <span>Başarı takibi</span>
+            <span>Bugünün maçları</span><span>Güçlü tahminler</span><span>Kupon merkezi</span><span>Başarı takibi</span>
           </div>
           <div class="hero-actions" aria-label="Hızlı erişim bağlantıları">
             <a class="hero-button" href="#robot-analizleri">Kupon Merkezini Aç</a>
             <a class="hero-button secondary" href="#yaklasan-maclar">Bugünün Maçlarını Gör</a>
           </div>
-          <div class="pro-market-strip" aria-label="Karar başlıkları">
-            <div class="pro-market-card">
-              <span>Başlık 01</span>
-              <strong>Oran hareketi</strong>
-            </div>
-            <div class="pro-market-card">
-              <span>Başlık 02</span>
-              <strong>Form ve kadro</strong>
-            </div>
-            <div class="pro-market-card">
-              <span>Başlık 03</span>
-              <strong>Risk seviyesi</strong>
-            </div>
-            <div class="pro-market-card">
-              <span>Başlık 04</span>
-              <strong>Kupon tipi</strong>
-            </div>
-          </div>
         </div>
         <aside class="platform-summary reveal visible" aria-label="Sayfa özeti">
-          <div>
-            <span>Bugün</span>
-            <strong id="today-count">0</strong>
-            <small>maç incelendi</small>
-          </div>
-          <div>
-            <span>Ortalama güven</span>
-            <strong id="avg-confidence">0</strong>
-            <small>genel seviye</small>
-          </div>
-          <div>
-            <span>Öne çıkan seçim</span>
-            <strong id="top-market">-</strong>
-            <small>günün önerisi</small>
-          </div>
+          <div><span>Bugün</span><strong id="today-count">0</strong><small>maç incelendi</small></div>
+          <div><span>Ortalama güven</span><strong id="avg-confidence">0</strong><small>genel seviye</small></div>
+          <div><span>Öne çıkan seçim</span><strong id="top-market">-</strong><small>günün önerisi</small></div>
         </aside>
-      </section>
-
-      <section class="section robot-live-section top-robot-hub" id="robot-analizleri">
-        <div class="section-heading reveal visible">
-          <p class="eyebrow">Premium Kupon Merkezi</p>
-          <h2>Günün kuponları ve öne çıkan tahminler</h2>
-          <p>
-            Tekli, 2'li ve 3'lü kupon seçenekleri günün maçlarına göre ayrı ayrı listelenir.
-            Amaç; karmaşık tablo yerine hızlı okunabilen temiz bir kupon ekranı sunmaktır.
-          </p>
-        </div>
-        <div class="robot-live-status reveal visible">
-          <span>Güncel Liste: <strong data-active-source>Hazırlanıyor</strong></span>
-          <span>Maç Sayısı: <strong data-match-count>-</strong></span>
-          <span>Tahmin Sayısı: <strong data-prediction-count>-</strong></span>
-          <span>Durum: <strong data-load-status>Maçlar hazırlanıyor</strong></span>
-        </div>
-        <div class="robot-coupon-columns premium-coupon-center">
-          <div>
-            <h3>Tekli Kuponlar</h3>
-            <div class="robot-stack" data-coupons-single></div>
-          </div>
-          <div>
-            <h3>2'li Kuponlar</h3>
-            <div class="robot-stack" data-coupons-double></div>
-          </div>
-          <div>
-            <h3>3'lü Kuponlar</h3>
-            <div class="robot-stack" data-coupons-triple></div>
-          </div>
-        </div>
-        <p class="robot-disclaimer">Bu sayfadaki içerikler maç yorumu ve kişisel değerlendirmedir; kesin sonuç garantisi vermez.</p>
       </section>
 
       <section class="section fixtures-section" id="yaklasan-maclar">
         <div class="section-heading reveal visible">
-          <p class="eyebrow">Bugünün Maçları</p>
-          <h2>Bugün ve yakındaki maçlar</h2>
-          <p>
-            Maçlar tarih sırasına göre listelenir. Oynanmayan maçlar ayrı görülür,
-            sonuçlanan maçlar ise başarı bölümüne taşınabilir.
-          </p>
+          <p class="eyebrow">Bugünün Maç Bülteni</p>
+          <h2>Maç bülteni özeti</h2>
+          <p>Asıl maç listesi, oran tablosu ve detaylı oranlar Günlük Maç Bülteni alanında gösterilir. Bu alan, veri gelmese bile sayfanın boş görünmemesi için sabit bırakıldı.</p>
         </div>
         <div class="fixtures-panel reveal visible">
           <div class="robot-live-status">
@@ -159,238 +81,108 @@
             <span>En Güçlü Seçim: <strong data-strongest-signal>-</strong></span>
             <span>Durum: <strong data-load-status>Maçlar hazırlanıyor</strong></span>
           </div>
-          <div id="fixtures-list" class="robot-live-grid fixtures-list" data-home-matches aria-live="polite">
-            <article class="robot-live-card">Maçlar hazırlanıyor.</article>
-          </div>
+          <div id="fixtures-list" class="robot-live-grid fixtures-list" data-home-matches aria-live="polite"><article class="robot-live-card">Maçlar hazırlanıyor.</article></div>
         </div>
       </section>
 
-      <section class="section founder-section" id="kurucu">
-        <div class="founder-card reveal visible">
-          <div class="founder-copy">
-            <p class="eyebrow">Hakkımızda</p>
-            <h2>Cem Kaplanoğlu</h2>
-            <p class="founder-title">
-              Spor Yazarı ve Futbol Yorumcusu
-            </p>
-            <p>
-              Futbol Laboratuvarı; maçları sadece skor olarak değil, form, kadro, oran,
-              saha içi denge ve maç hikayesiyle birlikte okumayı hedefler.
-            </p>
-            <div class="founder-motto">Tahmin değil, veri konuşur.</div>
-          </div>
-          <figure class="founder-photo">
-            <img src="assets/images/cem-kaplanoglu-founder.webp" alt="Cem Kaplanoğlu" loading="lazy" decoding="async" />
-          </figure>
-        </div>
-      </section>
-
-      <section class="section media-section" id="medya-galerisi">
+      <section class="section robot-live-section top-robot-hub" id="robot-analizleri">
         <div class="section-heading reveal visible">
-          <p class="eyebrow">Galeri</p>
-          <h2>Futbol Laboratuvarı görsel arşivi</h2>
-          <p>
-            Logo, sosyal medya içerikleri ve maç yorumu görselleri kompakt kart düzeninde sunulur.
-          </p>
+          <p class="eyebrow">Premium Kupon Merkezi</p>
+          <h2>Günün kuponları ve öne çıkan tahminler</h2>
+          <p>Tekli, 2'li ve 3'lü kupon seçenekleri günün maçlarına göre ayrı ayrı listelenir.</p>
         </div>
-        <div class="media-grid">
-          <article class="media-card logo-card reveal visible">
-            <img src="assets/images/fl-logo-gallery.webp" alt="Futbol Laboratuvarı marka logosu" loading="lazy" decoding="async" />
-            <div>
-              <span>Logo</span>
-              <h3>Futbol Laboratuvarı</h3>
-            </div>
-          </article>
-          <article class="media-card reveal visible">
-            <img src="assets/images/gallery-analiz-serisi.webp" alt="Futbol Laboratuvarı analiz serisi görseli" loading="lazy" decoding="async" />
-            <div>
-              <span>Sosyal Medya</span>
-              <h3>Maç Yorumu Serisi</h3>
-            </div>
-          </article>
-          <article class="media-card reveal visible">
-            <img src="assets/images/gallery-spor-toto.webp" alt="Futbol Laboratuvarı Spor Toto dosyası görseli" loading="lazy" decoding="async" />
-            <div>
-              <span>Spor Toto</span>
-              <h3>Spor Toto Dosyası</h3>
-            </div>
-          </article>
-          <article class="media-card reveal visible">
-            <img src="assets/images/gallery-yorum-kosesi.webp" alt="Futbol Laboratuvarı yorum köşesi görseli" loading="lazy" decoding="async" />
-            <div>
-              <span>Yorum</span>
-              <h3>Yorum Köşesi</h3>
-            </div>
-          </article>
-          <article class="media-card reveal visible">
-            <img src="assets/images/gallery-marka.webp" alt="Futbol Laboratuvarı marka görseli" loading="lazy" decoding="async" />
-            <div>
-              <span>Marka</span>
-              <h3>Futbol Laboratuvarı Görseli</h3>
-            </div>
-          </article>
+        <div class="robot-live-status reveal visible">
+          <span>Güncel Liste: <strong data-active-source>Hazırlanıyor</strong></span>
+          <span>Maç Sayısı: <strong data-match-count>-</strong></span>
+          <span>Tahmin Sayısı: <strong data-prediction-count>-</strong></span>
+          <span>Durum: <strong data-load-status>Maçlar hazırlanıyor</strong></span>
         </div>
+        <div class="robot-coupon-columns premium-coupon-center">
+          <div><h3>Tekli Kuponlar</h3><div class="robot-stack" data-coupons-single></div></div>
+          <div><h3>2'li Kuponlar</h3><div class="robot-stack" data-coupons-double></div></div>
+          <div><h3>3'lü Kuponlar</h3><div class="robot-stack" data-coupons-triple></div></div>
+        </div>
+        <p class="robot-disclaimer">Bu sayfadaki içerikler maç yorumu ve kişisel değerlendirmedir; kesin sonuç garantisi vermez.</p>
       </section>
 
-      <section class="section opinion-section" id="yorum-kosesi">
-        <div class="opinion-panel reveal visible">
-          <div>
-            <p class="eyebrow">Yorum Köşesi</p>
-            <h2>Maçı sadece skorla değil, hikayesiyle oku</h2>
-            <p>
-              Maç önü senaryolar, oran davranışı, kadro dengesi ve psikolojik eşikler tek
-              çatı altında yorumlanır. Amaç hızlı tahminden çok, kararın arkasındaki futbol aklını görünür kılmaktır.
-            </p>
-          </div>
-          <div class="opinion-metrics" aria-label="Yorum köşesi odağı">
-            <span>Yerel basın</span>
-            <span>Oran hareketi</span>
-            <span>Taktik eşleşme</span>
-            <span>Takım psikolojisi</span>
-          </div>
+      <section class="section strongest-pick" id="guclu-tahmin">
+        <div class="section-heading reveal visible"><p class="eyebrow">Günün Seçimi</p><h2>Bugünün en güçlü tahmini</h2></div>
+        <div id="strongest-pick-card" class="strongest-card reveal visible"><div class="fixtures-empty">Günün seçimi canlı robot verisi geldikten sonra üretilecek.</div></div>
+      </section>
+
+      <section class="section" id="son-analizler">
+        <div class="section-heading reveal visible">
+          <p class="eyebrow">Maç Yorumları</p><h2>Maç bazlı detaylı değerlendirmeler</h2>
+          <p>Her maç; form, kadro, oran hareketi, risk ve maç hikayesiyle birlikte okunur.</p>
         </div>
+        <div id="analysis-list" class="analysis-list"></div>
       </section>
 
       <section class="section spor-toto-section" id="spor-toto-performansi">
         <div class="section-heading reveal visible">
-          <p class="eyebrow">Spor Toto</p>
-          <h2>1-X-2 seçimleri ve kupon ayrımı</h2>
-          <p>
-            Banko, beraberlik adayı, sürpriz adayı ve çifte şans seçenekleri maç bazlı değerlendirilir.
-          </p>
+          <p class="eyebrow">Spor Toto</p><h2>1-X-2 seçimleri ve kupon ayrımı</h2>
+          <p>Banko, beraberlik adayı ve sürpriz adayları maç bazlı oran ve yüzde verisiyle değerlendirilir.</p>
         </div>
         <div id="spor-toto-summary" class="spor-summary reveal visible"></div>
         <div id="spor-toto-grid" class="spor-grid"></div>
       </section>
 
-      <section class="section strongest-pick" id="guclu-tahmin">
-        <div class="section-heading reveal visible">
-          <p class="eyebrow">Günün Seçimi</p>
-          <h2>Bugünün en güçlü tahmini</h2>
-        </div>
-        <div id="strongest-pick-card" class="strongest-card reveal visible"></div>
+      <section class="section archive-section" id="sonuc-arsivi">
+        <div class="section-heading reveal visible"><p class="eyebrow">Başarılar</p><h2>Sonuçlanan tahminlerin kaydı</h2></div>
+        <div class="table-wrap reveal visible"><table><thead><tr><th>Tarih</th><th>Maç</th><th>Tahmin</th><th>Oran</th><th>Skor</th><th>Güven</th><th>Sonuç</th></tr></thead><tbody id="result-archive"></tbody></table></div>
       </section>
 
-      <section class="section" id="son-analizler">
-        <div class="section-heading reveal visible">
-          <p class="eyebrow">Maç Yorumları</p>
-          <h2>Maç bazlı detaylı değerlendirmeler</h2>
-          <p>
-            Her maç; form, kadro, oran hareketi, risk ve maç hikayesiyle birlikte okunur.
-          </p>
-        </div>
-        <div id="analysis-list" class="analysis-list"></div>
+      <section class="section tracking-section" id="basari-takip">
+        <div class="section-heading reveal visible"><p class="eyebrow">Performans</p><h2>Kupon türlerine göre başarı takibi</h2></div>
+        <div id="success-grid" class="success-grid"></div>
       </section>
 
       <section class="section database-section" id="analiz-veritabani">
         <div class="section-heading reveal visible">
-          <p class="eyebrow">Maç Kayıtları</p>
-          <h2>Geçmiş maçlar ve tahmin notları</h2>
-          <p>
-            Geçmiş değerlendirmeler, tahminler ve sonuçlar düzenli bir kayıt alanında tutulur.
-          </p>
+          <p class="eyebrow">Maç Kayıtları</p><h2>Geçmiş maçlar ve tahmin notları</h2>
+          <p>Geçmiş değerlendirmeler, tahminler ve sonuçlar düzenli bir kayıt alanında tutulur.</p>
         </div>
-        <div class="table-wrap reveal visible">
-          <table>
-            <thead>
-              <tr>
-                <th>Tarih</th>
-                <th>Lig</th>
-                <th>Maç</th>
-                <th>Yorum Türü</th>
-                <th>Tahmin</th>
-                <th>Oran</th>
-                <th>Güven</th>
-                <th>Skor Tahmini</th>
-                <th>Gerçek Skor</th>
-                <th>Sonuç</th>
-              </tr>
-            </thead>
-            <tbody id="analysis-database-body"></tbody>
-          </table>
-        </div>
+        <div class="table-wrap reveal visible"><table><thead><tr><th>Tarih</th><th>Lig</th><th>Maç</th><th>Yorum Türü</th><th>Tahmin</th><th>Oran</th><th>Güven</th><th>Skor Tahmini</th><th>Gerçek Skor</th><th>Sonuç</th></tr></thead><tbody id="analysis-database-body"></tbody></table></div>
       </section>
 
-      <section class="section archive-section" id="sonuc-arsivi">
-        <div class="section-heading reveal visible">
-          <p class="eyebrow">Başarılar</p>
-          <h2>Sonuçlanan tahminlerin kaydı</h2>
+      <section class="section opinion-section" id="yorum-kosesi">
+        <div class="opinion-panel reveal visible">
+          <div><p class="eyebrow">Yorum Köşesi</p><h2>Maçı sadece skorla değil, hikayesiyle oku</h2><p>Maç önü senaryolar, oran davranışı, kadro dengesi ve psikolojik eşikler tek çatı altında yorumlanır.</p></div>
+          <div class="opinion-metrics" aria-label="Yorum köşesi odağı"><span>Yerel basın</span><span>Oran hareketi</span><span>Taktik eşleşme</span><span>Takım psikolojisi</span></div>
         </div>
-        <div class="table-wrap reveal visible">
-          <table>
-            <thead>
-              <tr>
-                <th>Tarih</th>
-                <th>Maç</th>
-                <th>Tahmin</th>
-                <th>Oran</th>
-                <th>Skor</th>
-                <th>Güven</th>
-                <th>Sonuç</th>
-              </tr>
-            </thead>
-            <tbody id="result-archive"></tbody>
-          </table>
-        </div>
-      </section>
-
-      <section class="section tracking-section" id="basari-takip">
-        <div class="section-heading reveal visible">
-          <p class="eyebrow">Performans</p>
-          <h2>Kupon türlerine göre başarı takibi</h2>
-        </div>
-        <div id="success-grid" class="success-grid"></div>
       </section>
 
       <section class="section modules-section" id="analiz-modulleri">
-        <div class="section-heading reveal visible">
-          <p class="eyebrow">Nasıl Değerlendiriyoruz?</p>
-          <h2>Tahmini oluşturan ana başlıklar</h2>
-        </div>
+        <div class="section-heading reveal visible"><p class="eyebrow">Nasıl Değerlendiriyoruz?</p><h2>Tahmini oluşturan ana başlıklar</h2></div>
         <div class="module-grid">
-          <article class="module-card reveal visible">
-            <span>01</span>
-            <h3>Form Durumu</h3>
-            <p>Takımların son maçlardaki gidişatı, gol üretimi ve savunma dengesi.</p>
-          </article>
-          <article class="module-card reveal visible">
-            <span>02</span>
-            <h3>Kadro Durumu</h3>
-            <p>Eksikler, rotasyon, takım derinliği ve oyuncu dengesi.</p>
-          </article>
-          <article class="module-card reveal visible">
-            <span>03</span>
-            <h3>Oran Hareketi</h3>
-            <p>Maç öncesi oran değişimleri ve risk-ödül dengesi.</p>
-          </article>
-          <article class="module-card reveal visible">
-            <span>04</span>
-            <h3>Oyun Planı</h3>
-            <p>Takımların sahaya nasıl çıkabileceği ve maç içi hamle ihtimali.</p>
-          </article>
-          <article class="module-card reveal visible">
-            <span>05</span>
-            <h3>Maç Sonu Gücü</h3>
-            <p>Son dakikalardaki gol bulma, gol yeme ve baskı tepkisi.</p>
-          </article>
-          <article class="module-card reveal visible">
-            <span>06</span>
-            <h3>Mental Durum</h3>
-            <p>Geriye düşme tepkisi, deplasman baskısı ve motivasyon.</p>
-          </article>
-          <article class="module-card reveal visible wide">
-            <span>07</span>
-            <h3>Genel Güven</h3>
-            <p>Tüm başlıkların birlikte değerlendirilmesiyle tahmin güveni oluşur.</p>
-          </article>
+          <article class="module-card reveal visible"><span>01</span><h3>Form Durumu</h3><p>Takımların son maçlardaki gidişatı, gol üretimi ve savunma dengesi.</p></article>
+          <article class="module-card reveal visible"><span>02</span><h3>Kadro Durumu</h3><p>Eksikler, rotasyon, takım derinliği ve oyuncu dengesi.</p></article>
+          <article class="module-card reveal visible"><span>03</span><h3>Oran Hareketi</h3><p>Maç öncesi oran değişimleri ve risk-ödül dengesi.</p></article>
+          <article class="module-card reveal visible"><span>04</span><h3>Oyun Planı</h3><p>Takımların sahaya nasıl çıkabileceği ve maç içi hamle ihtimali.</p></article>
+          <article class="module-card reveal visible"><span>05</span><h3>Maç Sonu Gücü</h3><p>Son dakikalardaki gol bulma, gol yeme ve baskı tepkisi.</p></article>
+          <article class="module-card reveal visible"><span>06</span><h3>Mental Durum</h3><p>Geriye düşme tepkisi, deplasman baskısı ve motivasyon.</p></article>
+          <article class="module-card reveal visible wide"><span>07</span><h3>Genel Güven</h3><p>Tüm başlıkların birlikte değerlendirilmesiyle tahmin güveni oluşur.</p></article>
+        </div>
+      </section>
+
+      <section class="section founder-section" id="kurucu">
+        <div class="founder-card reveal visible">
+          <div class="founder-copy"><p class="eyebrow">Hakkımızda</p><h2>Cem Kaplanoğlu</h2><p class="founder-title">Spor Yazarı ve Futbol Yorumcusu</p><p>Futbol Laboratuvarı; maçları sadece skor olarak değil, form, kadro, oran, saha içi denge ve maç hikayesiyle birlikte okumayı hedefler.</p><div class="founder-motto">Tahmin değil, veri konuşur.</div></div>
+          <figure class="founder-photo"><img src="assets/images/cem-kaplanoglu-founder.webp" alt="Cem Kaplanoğlu" loading="lazy" decoding="async" /></figure>
+        </div>
+      </section>
+
+      <section class="section media-section" id="medya-galerisi">
+        <div class="section-heading reveal visible"><p class="eyebrow">Galeri</p><h2>Futbol Laboratuvarı görsel arşivi</h2><p>Logo, sosyal medya içerikleri ve maç yorumu görselleri kompakt kart düzeninde sunulur.</p></div>
+        <div class="media-grid">
+          <article class="media-card logo-card reveal visible"><img src="assets/images/fl-logo-gallery.webp" alt="Futbol Laboratuvarı marka logosu" loading="lazy" decoding="async" /><div><span>Logo</span><h3>Futbol Laboratuvarı</h3></div></article>
+          <article class="media-card reveal visible"><img src="assets/images/gallery-analiz-serisi.webp" alt="Futbol Laboratuvarı analiz serisi görseli" loading="lazy" decoding="async" /><div><span>Sosyal Medya</span><h3>Maç Yorumu Serisi</h3></div></article>
+          <article class="media-card reveal visible"><img src="assets/images/gallery-spor-toto.webp" alt="Futbol Laboratuvarı Spor Toto dosyası görseli" loading="lazy" decoding="async" /><div><span>Spor Toto</span><h3>Spor Toto Dosyası</h3></div></article>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <span>Futbol Laboratuvarı</span>
-      <span>Maç yorumları bilgilendirme amaçlıdır; kesin sonuç garantisi vermez.</span>
-    </footer>
+    <footer class="footer"><span>Futbol Laboratuvarı</span><span>Maç yorumları bilgilendirme amaçlıdır; kesin sonuç garantisi vermez.</span></footer>
 
     <script src="site-visible-fix.js"></script>
     <script src="script.js"></script>
