@@ -34,6 +34,7 @@
   const getMatch = (item) => clean(item?.match || item?.fixture || item?.title || item?.legs?.[0]?.match, "Maç bilgisi bekleniyor");
   const getSelection = (item) => normalizeSelection(item?.selection || item?.option || item?.market || item?.prediction || item?.decision || item?.legs?.[0]?.selection);
   const getRisk = (item) => clean(item?.risk_level || item?.risk || item?.legs?.[0]?.risk, "Risk bekleniyor");
+  const getStatus = (item) => clean(item?.status || item?.tag || item?.legs?.[0]?.tag, "takipte");
 
   const hasRealSignal = (item) => {
     if (!item || typeof item !== "object") return false;
@@ -105,6 +106,25 @@
     document.head.appendChild(style);
   };
 
+  const goToCoupons = () => {
+    const target = document.querySelector("#robot-analizleri");
+    if (!target) return;
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    history.replaceState(null, "", "#robot-analizleri");
+  };
+
+  const bindTopCard = (card) => {
+    if (!card || card.dataset.topPickReady === "1") return;
+    card.dataset.topPickReady = "1";
+    card.addEventListener("click", goToCoupons);
+    card.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        goToCoupons();
+      }
+    });
+  };
+
   const renderEmpty = () => {
     const top = document.querySelector("#top-market");
     if (!top) return;
@@ -118,15 +138,23 @@
     if (small) small.textContent = "güncel veri bekleniyor";
   };
 
+  const topHtml = (item) => {
+    const score = getScore(item);
+    const odds = clean(item?.total_odds || item?.odds || item?.legs?.[0]?.odds, "-");
+    const risk = getRisk(item);
+    return `
+      <span class="fl-top-match">${escapeHtml(getMatch(item))}</span>
+      <span class="fl-top-selection">${escapeHtml(getSelection(item))}</span>
+      <span class="fl-top-meta">Güven: ${escapeHtml(score ? `${score}/100` : "-")} · Risk: ${escapeHtml(risk)} · Oran: ${escapeHtml(odds)}</span>
+    `;
+  };
+
   const renderTop = (item) => {
     const top = document.querySelector("#top-market");
     if (!top) return;
     const card = top.closest("div");
     const label = card?.querySelector("span");
     const small = card?.querySelector("small");
-    const score = getScore(item);
-    const odds = clean(item?.total_odds || item?.odds || item?.legs?.[0]?.odds, "-");
-    const risk = getRisk(item);
 
     card?.classList.add("fl-top-pick-card");
     card?.setAttribute("role", "button");
@@ -135,27 +163,33 @@
 
     if (label) label.textContent = "Öne çıkan analiz";
     top.classList.add("fl-top-pick");
-    top.innerHTML = `
-      <span class="fl-top-match">${escapeHtml(getMatch(item))}</span>
-      <span class="fl-top-selection">${escapeHtml(getSelection(item))}</span>
-      <span class="fl-top-meta">Güven: ${escapeHtml(score ? `${score}/100` : "-")} · Risk: ${escapeHtml(risk)} · Oran: ${escapeHtml(odds)}</span>
-    `;
+    top.innerHTML = topHtml(item);
     if (small) small.textContent = "kupon merkezinde incele";
+    bindTopCard(card);
+  };
 
-    const goToCoupons = () => {
-      const target = document.querySelector("#robot-analizleri");
-      if (!target) return;
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-      history.replaceState(null, "", "#robot-analizleri");
-    };
+  const renderStrongestPick = (item) => {
+    const target = document.querySelector("#strongest-pick-card");
+    if (!target) return;
 
-    card?.addEventListener("click", goToCoupons, { once: false });
-    card?.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        goToCoupons();
-      }
-    });
+    if (!item) {
+      target.innerHTML = `<div class="fixtures-empty">Günün seçimi yalnızca gerçek PRO analiz çıktısı geldikten sonra gösterilecek.</div>`;
+      return;
+    }
+
+    const score = getScore(item);
+    const odds = clean(item?.total_odds || item?.odds || item?.legs?.[0]?.odds, "-");
+    target.innerHTML = `
+      <article class="robot-live-card">
+        <h3>${escapeHtml(getMatch(item))}</h3>
+        <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(getSelection(item))}</strong></div>
+        <div class="robot-row"><span>PRO güveni</span><strong>${escapeHtml(score ? `${score}%` : "-")}</strong></div>
+        <div class="robot-row"><span>Risk</span><strong>${escapeHtml(getRisk(item))}</strong></div>
+        <div class="robot-row"><span>Oran</span><strong>${escapeHtml(odds)}</strong></div>
+        <div class="robot-row"><span>Durum</span><strong>${escapeHtml(getStatus(item))}</strong></div>
+        <p class="robot-note">Bu alan artık listedeki ilk kaydı değil, en yüksek güvenli PRO analiz çıktısını gösterir.</p>
+      </article>
+    `;
   };
 
   const run = async () => {
@@ -168,8 +202,10 @@
       const top = pickTopAnalysis(items);
       if (top) renderTop(top);
       else renderEmpty();
+      renderStrongestPick(top);
     } catch {
       renderEmpty();
+      renderStrongestPick(null);
     }
   };
 
