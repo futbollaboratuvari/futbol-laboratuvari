@@ -109,21 +109,11 @@ const analysisCommentCard = (item, index) => `
 `;
 
 const setSummary = (activeItems, source = "PRO analiz bekleniyor") => {
-  const todayCount = document.querySelector("#today-count");
-  const avgConfidence = document.querySelector("#avg-confidence");
   const activeSource = document.querySelector("[data-active-source]");
   const predictionCount = document.querySelector("[data-prediction-count]");
 
-  if (todayCount) todayCount.textContent = String(activeItems.length);
   if (predictionCount) predictionCount.textContent = String(activeItems.length);
   if (activeSource) activeSource.textContent = source;
-
-  const numericScores = activeItems
-    .map((item) => Number(String(normalizeScore(item)).replace("%", "")))
-    .filter(Number.isFinite);
-  const avg = numericScores.length ? Math.round(numericScores.reduce((sum, score) => sum + score, 0) / numericScores.length) : 0;
-
-  if (avgConfidence) avgConfidence.textContent = avg ? `${avg}%` : "-";
 
   document.querySelectorAll("[data-load-status]").forEach((item) => {
     item.textContent = activeItems.length ? "PRO robot analizi" : "PRO analiz bekleniyor";
