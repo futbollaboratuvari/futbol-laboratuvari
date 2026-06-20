@@ -87,6 +87,10 @@ const pickOdds = (item) => {
   set(["ms_2", "two", "twoOdd", "ms2", "odd2"], ["two", "twoOdd", "ms2", "odd2"]);
   set(["alt_25", "under25", "alt25", "under", "alt"], ["under25", "alt25", "under", "alt"]);
   set(["ust_25", "over25", "ust25", "over", "ust"], ["over25", "ust25", "over", "ust"]);
+  set(["alt_35", "under35", "alt35", "under3_5"], ["under35", "alt35", "under3_5"]);
+  set(["ust_35", "over35", "ust35", "over3_5"], ["over35", "ust35", "over3_5"]);
+  set(["iy_alt_15", "iyAlt15", "firstHalfUnder15", "first_half_under_15"], ["iyAlt15", "firstHalfUnder15", "first_half_under_15"]);
+  set(["iy_ust_15", "iyUst15", "firstHalfOver15", "first_half_over_15"], ["iyUst15", "firstHalfOver15", "first_half_over_15"]);
   set(["kg_var", "bttsYes", "kgVar", "varOdd", "var"], ["bttsYes", "kgVar", "varOdd", "var"]);
   set(["kg_yok", "bttsNo", "kgYok", "yokOdd", "yok"], ["bttsNo", "kgYok", "yokOdd", "yok"]);
   set(["iy_1", "iy1", "firstHalfOne", "first_half_1", "firstHalf1"], ["iy1", "firstHalfOne", "first_half_1"]);
@@ -109,7 +113,7 @@ const pickOdds = (item) => {
 const hasOdds = (item) => {
   const odds = pickOdds(item);
   return Boolean(
-    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok ||
+    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 || odds.kgVar || odds.kgYok ||
     odds.iy1 || odds.iyX || odds.iy2 || odds.ikinciYari1 || odds.ikinciYariX || odds.ikinciYari2 ||
     odds.iyCifte1x || odds.iyCifte12 || odds.iyCifteX2 ||
     odds.iy2yKgYesYes || odds.iy2yKgYesNo || odds.iy2yKgNoYes || odds.iy2yKgNoNo
@@ -286,6 +290,10 @@ const main = () => {
         ms_2: fixture.twoOdd ?? null,
         alt_25: fixture.under25 ?? null,
         ust_25: fixture.over25 ?? null,
+        alt_35: fixture.under35 ?? null,
+        ust_35: fixture.over35 ?? null,
+        iy_alt_15: fixture.iyAlt15 ?? null,
+        iy_ust_15: fixture.iyUst15 ?? null,
         kg_var: fixture.kgVar ?? null,
         kg_yok: fixture.kgYok ?? null,
         iy_1: fixture.iy1 ?? null,
