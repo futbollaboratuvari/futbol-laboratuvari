@@ -1,1 +1,3 @@
-// Futbol Laboratuvari deploy version: 20260620-2135
+(() => {
+  document.documentElement.dataset.flCacheVersion = "20260620-2135";
+})();
