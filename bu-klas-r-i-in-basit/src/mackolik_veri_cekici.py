@@ -45,15 +45,28 @@ ODD_FIELDS = {
     "ms_1": ("1", "ms 1", "mac sonucu 1", "maç sonucu 1"),
     "ms_x": ("x", "ms x", "mac sonucu x", "maç sonucu x"),
     "ms_2": ("2", "ms 2", "mac sonucu 2", "maç sonucu 2"),
-    "kg_var": ("kg var", "var"),
-    "kg_yok": ("kg yok", "yok"),
+    "kg_var": ("kg var", "var", "karşılıklı gol var", "karsilikli gol var"),
+    "kg_yok": ("kg yok", "yok", "karşılıklı gol yok", "karsilikli gol yok"),
     "alt_25": ("2.5 alt", "alt 2.5", "2,5 alt", "alt 2,5"),
     "ust_25": ("2.5 üst", "2.5 ust", "üst 2.5", "ust 2.5", "2,5 üst", "2,5 ust"),
     "alt_35": ("3.5 alt", "alt 3.5", "3,5 alt", "alt 3,5"),
     "ust_35": ("3.5 üst", "3.5 ust", "üst 3.5", "ust 3.5", "3,5 üst", "3,5 ust"),
-    "iy_kg": ("iy kg", "ilk yari kg", "ilk yarı kg"),
-    "ikinci_yari_kg": ("2y kg", "ikinci yari kg", "ikinci yarı kg"),
+    "iy_kg": ("iy kg", "ilk yari kg", "ilk yarı kg", "ilk yarı karşılıklı gol", "ilk yari karsilikli gol"),
+    "ikinci_yari_kg": ("2y kg", "ikinci yari kg", "ikinci yarı kg", "ikinci yarı karşılıklı gol", "ikinci yari karsilikli gol"),
     "iy_ms": ("iy/ms", "iy ms", "ilk yari/mac sonucu", "ilk yarı/maç sonucu"),
+    "iy_1": ("ilk yarı 1", "ilk yari 1", "iy 1"),
+    "iy_x": ("ilk yarı x", "ilk yari x", "iy x"),
+    "iy_2": ("ilk yarı 2", "ilk yari 2", "iy 2"),
+    "cifte_1x": ("1x", "çifte şans 1x", "cifte sans 1x"),
+    "cifte_12": ("12", "çifte şans 12", "cifte sans 12"),
+    "cifte_x2": ("x2", "çifte şans x2", "cifte sans x2"),
+}
+
+# Detay metni icinde tek harfli "1", "x", "2" cok fazla yanlis eslesme yapar.
+# Bu nedenle detay okuma icin yalnizca acik market adlari kullanilir.
+DETAIL_ODD_FIELDS = {
+    field: tuple(alias for alias in aliases if len(alias.strip()) > 1)
+    for field, aliases in ODD_FIELDS.items()
 }
 
 
@@ -179,9 +192,6 @@ def satirdan_mac_cikar(
     if len(cells) < 4:
         return None
 
-    # Mackolik standart program satiri pratikte su duzende gelir:
-    # saat, bos kolonlar, "Ev - Deplasman", kod, MS 1/X/2, diger market kodlari
-    # ve oranlari. Basliklar cok parcali oldugu icin once bu net yapida okuruz.
     if re.fullmatch(r"\d{1,2}:\d{2}", cells[0] or ""):
         team_cell_index = next(
             (
@@ -223,7 +233,6 @@ def satirdan_mac_cikar(
                 "raw_cells": cells,
             }
 
-    # Baslik/market yardimci satirlarini mac gibi kaydetme.
     if not any(re.fullmatch(r"\d{1,2}:\d{2}", cell or "") for cell in cells):
         return None
 
@@ -232,7 +241,6 @@ def satirdan_mac_cikar(
     deplasman = hucreden(headers, cells, mapping, "deplasman")
 
     if not ev_sahibi or not deplasman:
-        # Basliklar degisirse pratik yedek: oran olmayan uzun metinleri takim adayi say.
         candidates = [
             value
             for value in cells
@@ -270,17 +278,86 @@ def satirdan_mac_cikar(
     }
 
 
+def detay_oranlarini_metinden_cikar(text: str) -> dict[str, float]:
+    """Acilan detay bolumu metninden ek market oranlarini okur."""
+    normalized = hucre_metnini_temizle(text).casefold().replace(",", ".")
+    odds: dict[str, float] = {}
+    if not normalized:
+        return odds
+
+    for field, aliases in DETAIL_ODD_FIELDS.items():
+        if not aliases:
+            continue
+        for alias in aliases:
+            clean_alias = re.escape(alias.casefold().replace(",", "."))
+            patterns = (
+                rf"{clean_alias}[^0-9]{{0,80}}(\d{{1,3}}\.\d{{1,3}})",
+                rf"(\d{{1,3}}\.\d{{1,3}})[^a-zA-ZğüşöçıİĞÜŞÖÇ0-9]{{0,40}}{clean_alias}",
+            )
+            for pattern in patterns:
+                match = re.search(pattern, normalized)
+                if not match:
+                    continue
+                odd = sayi_metnine_cevir(match.group(1))
+                if odd is not None:
+                    odds[field] = odd
+                    break
+            if field in odds:
+                break
+    return odds
+
+
+def mac_kodu_satirdan_al(cells: list[str], row_text: str = "") -> str | None:
+    """Detay butonunun bulundugu satirdan mac kodunu bulur."""
+    for cell in cells:
+        if re.fullmatch(r"\d{4,5}", cell or ""):
+            return cell
+    match = re.search(r"\b\d{4,5}\b", row_text or "")
+    return match.group(0) if match else None
+
+
+def yakin_detay_metni(row: Any) -> str:
+    """Tumu tiklandiktan sonra mac satiri ve takip eden detay satirlarindan metin toplar."""
+    try:
+        return row.evaluate(
+            """
+            (tr) => {
+              const texts = [];
+              let current = tr;
+              for (let index = 0; index < 8 && current; index += 1) {
+                if (current.innerText) texts.push(current.innerText);
+                current = current.nextElementSibling;
+              }
+              return texts.join('\n');
+            }
+            """
+        )
+    except Exception:
+        try:
+            return row.inner_text(timeout=1000)
+        except Exception:
+            return ""
+
+
 def detaylari_acmayi_dene(page: Any) -> dict[str, Any]:
     """
     Mac detayindaki "Tumu" alanlarini sadece veri okumak icin acmayi dener.
 
     Yasakli aksiyon metinleri iceren buton/linklere tiklanmaz.
     """
-    report = {"attempted": 0, "opened": 0, "skipped_forbidden": 0, "errors": []}
+    report = {
+        "attempted": 0,
+        "opened": 0,
+        "skipped_forbidden": 0,
+        "detail_odds_matches": 0,
+        "detail_odd_fields": 0,
+        "details_by_code": {},
+        "errors": [],
+    }
     try:
         candidates = page.locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i")
         count = min(candidates.count(), 25)
-    except Exception as exc:  # Playwright runtime hatalari rapora yazilir.
+    except Exception as exc:
         report["errors"].append(f"Detay adaylari okunamadi: {exc}")
         return report
 
@@ -292,12 +369,42 @@ def detaylari_acmayi_dene(page: Any) -> dict[str, Any]:
             if yasakli_aksiyon_metni_mi(text):
                 report["skipped_forbidden"] += 1
                 continue
+
+            row = item.locator("xpath=ancestor::tr[1]")
+            row_cells = [hucre_metnini_temizle(value) for value in row.locator("td").all_inner_texts()]
+            row_text = hucre_metnini_temizle(row.inner_text(timeout=1000))
+            match_code = mac_kodu_satirdan_al(row_cells, row_text)
+
             item.click(timeout=2000, force=True)
-            page.wait_for_timeout(300)
+            page.wait_for_timeout(450)
             report["opened"] += 1
+
+            detail_text = yakin_detay_metni(row)
+            detail_odds = detay_oranlarini_metinden_cikar(detail_text)
+            if match_code and detail_odds:
+                existing = report["details_by_code"].setdefault(match_code, {})
+                existing.update(detail_odds)
         except Exception as exc:
             report["errors"].append(f"Detay acilamadi #{index + 1}: {exc}")
+
+    report["detail_odds_matches"] = len(report["details_by_code"])
+    report["detail_odd_fields"] = sum(len(odds) for odds in report["details_by_code"].values())
     return report
+
+
+def detay_oranlarini_maclara_ekle(matches: list[dict[str, Any]], detail_report: dict[str, Any]) -> None:
+    """Detaydan okunan oranlari ayni mac kaydinin oranlar alanina ekler."""
+    details_by_code = detail_report.get("details_by_code") or {}
+    for match in matches:
+        code = str(match.get("mac_kodu") or "").strip()
+        if not code or code not in details_by_code:
+            continue
+        detail_odds = details_by_code[code]
+        odds = match.setdefault("oranlar", {})
+        odds.update(detail_odds)
+        match["detay_oranlar"] = detail_odds
+        match["detay_oran_sayisi"] = len(detail_odds)
+        match["okunamayan_oran_alanlari"] = [field for field in ODD_FIELDS if field not in odds]
 
 
 def sayfadaki_maclari_oku(page: Any, url: str = MACKOLIK_URL) -> tuple[list[dict[str, Any]], dict[str, Any]]:
@@ -361,12 +468,13 @@ def sayfadaki_maclari_oku(page: Any, url: str = MACKOLIK_URL) -> tuple[list[dict
         if match:
             matches.append(match)
 
-    # Ayni sayfada tekrar eden satirlari temizle.
     unique: dict[str, dict[str, Any]] = {}
     for match in matches:
         unique[mac_anahtari(match)] = match
+    unique_matches = list(unique.values())
+    detay_oranlarini_maclara_ekle(unique_matches, detail_report)
 
-    return list(unique.values()), detail_report
+    return unique_matches, detail_report
 
 
 def mackolik_verilerini_cek(
@@ -457,6 +565,8 @@ def rapor_markdown_uret(result: dict[str, Any]) -> str:
             "",
             f"- Denenen Tumu alani: {detail_report.get('attempted', 0)}",
             f"- Acilan detay: {detail_report.get('opened', 0)}",
+            f"- Detaydan oran okunan mac: {detail_report.get('detail_odds_matches', 0)}",
+            f"- Detaydan okunan oran alani: {detail_report.get('detail_odd_fields', 0)}",
             f"- Yasakli aksiyon nedeniyle atlanan: {detail_report.get('skipped_forbidden', 0)}",
         ]
     )
