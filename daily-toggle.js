@@ -116,6 +116,17 @@
     item("1Y 1.5 Üst", pick(fixture, ["firstHalfOver15", "iyUst15", "iy_ust_15", "first_half_over_15"]))
   );
 
+  const teamOverUnderHtml = (fixture) => category("Taraf Alt / Üst",
+    item("Ev Sahibi 2.5 Alt", pick(fixture, ["homeUnder25", "evAlt25", "ev_alt_25", "home_team_under_25"])) +
+    item("Ev Sahibi 2.5 Üst", pick(fixture, ["homeOver25", "evUst25", "ev_ust_25", "home_team_over_25"])) +
+    item("Deplasman 1.5 Alt", pick(fixture, ["awayUnder15", "depAlt15", "dep_alt_15", "away_team_under_15"])) +
+    item("Deplasman 1.5 Üst", pick(fixture, ["awayOver15", "depUst15", "dep_ust_15", "away_team_over_15"])) +
+    item("Ev Sahibi 1Y 0.5 Alt", pick(fixture, ["homeFirstHalfUnder05", "evIyAlt05", "ev_iy_alt_05", "home_first_half_under_05"])) +
+    item("Ev Sahibi 1Y 0.5 Üst", pick(fixture, ["homeFirstHalfOver05", "evIyUst05", "ev_iy_ust_05", "home_first_half_over_05"])) +
+    item("Deplasman 1Y 0.5 Alt", pick(fixture, ["awayFirstHalfUnder05", "depIyAlt05", "dep_iy_alt_05", "away_first_half_under_05"])) +
+    item("Deplasman 1Y 0.5 Üst", pick(fixture, ["awayFirstHalfOver05", "depIyUst05", "dep_iy_ust_05", "away_first_half_over_05"]))
+  );
+
   const firstSecondBttsHtml = (fixture) => category("1. Yarı / 2. Yarı KG",
     item("Evet/Evet", pick(fixture, ["iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes", "iy2y_kg_evet_evet"])) +
     item("Evet/Hayır", pick(fixture, ["iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo", "iy2y_kg_evet_hayir", "iy2y_kg_evet_hayır"])) +
@@ -125,7 +136,7 @@
 
   const extraHtml = (row) => {
     const fixture = findFixture(row);
-    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
+    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${teamOverUnderHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
   };
 
   const makeExtra = (row) => {
