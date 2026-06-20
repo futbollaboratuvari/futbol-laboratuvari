@@ -1,6 +1,6 @@
 (() => {
   const VERSION = document.querySelector('meta[name="deploy-version"]')?.content?.trim()
-    || "20260620-2358-stable-runtime-guard";
+    || "20260620-2145-live-repo-sync";
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
   const sameAsset = (value, src) => {
@@ -32,23 +32,6 @@
     document.head.appendChild(link);
   };
 
-  const disableProblematicSporTotoRuntime = () => {
-    document.querySelectorAll('script[src*="spor-toto-dashboard.js"],script[src*="spor-toto-v3-fix.js"]').forEach((script) => script.remove());
-    document.querySelectorAll("#spor-toto-dashboard-style,#spor-toto-v3-fix-style").forEach((style) => style.remove());
-    const summary = document.querySelector("#spor-toto-summary");
-    const grid = document.querySelector("#spor-toto-grid");
-    if (summary) {
-      summary.classList.remove("spor-toto-v3-hidden");
-      summary.removeAttribute("style");
-    }
-    if (grid) {
-      grid.classList.add("spor-grid");
-      grid.classList.remove("spor-toto-v3-ready");
-      grid.removeAttribute("style");
-      if (grid.querySelector(".spor-toto-v3-shell")) grid.innerHTML = "";
-    }
-  };
-
   const resolveHash = (hash) => hash === "#yaklasan-maclar" ? "#daily-matches-widget" : hash;
   const panelHashes = new Set(["#daily-matches-widget", "#robot-analizleri", "#membership-payment-panel", "#premium-analysis-panel"]);
   const headerOffset = () => (document.querySelector(".site-header")?.offsetHeight || 0) + 18;
@@ -69,7 +52,6 @@
   };
 
   const boot = () => {
-    disableProblematicSporTotoRuntime();
     document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => link.setAttribute("href", "#daily-matches-widget"));
     ensureStylesheet("nav-position.css", "nav-position-style");
     ensureStylesheet("header-fixes.css", "header-fixes-style");
@@ -107,9 +89,6 @@
   document.addEventListener("DOMContentLoaded", boot, { once: true });
   window.addEventListener("load", () => {
     boot();
-    setTimeout(disableProblematicSporTotoRuntime, 300);
-    setTimeout(disableProblematicSporTotoRuntime, 1200);
-    setTimeout(disableProblematicSporTotoRuntime, 2800);
     if (window.location.hash) setTimeout(() => goToSection(window.location.hash, false), 120);
   }, { once: true });
 })();
