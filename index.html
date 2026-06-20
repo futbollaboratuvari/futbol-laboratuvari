@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Futbol Laboratuvarı | Analiz Platformu</title>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
+      .hero-media, .dashboard-hero::after, .dashboard-hero::before { pointer-events: none !important; }
+    </style>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="premium-theme.css" />
     <link rel="stylesheet" href="nav-theme.css" />
@@ -26,20 +30,20 @@
       <nav class="nav-links nav-classified" aria-label="Ana menü">
         <div class="nav-group" aria-label="Ana bölüm">
           <span class="nav-group-label">Futbol Laboratuvarı</span>
-          <a class="nav-primary" href="./index.html#platform">Ana Sayfa</a>
-          <a href="./index.html#yaklasan-maclar">Bugünün Maçları</a>
+          <a class="nav-primary" href="#platform">Ana Sayfa</a>
+          <a href="#yaklasan-maclar">Bugünün Maçları</a>
         </div>
         <div class="nav-group" aria-label="Analiz ve üyelik">
           <span class="nav-group-label">Analiz & Üyelik</span>
-          <a class="nav-primary" href="./index.html#robot-analizleri">Kupon Merkezi</a>
-          <a href="./index.html#membership-payment-panel">Üyelik</a>
-          <a href="./index.html#premium-analysis-panel">Özel Analiz</a>
+          <a class="nav-primary" href="#robot-analizleri">Kupon Merkezi</a>
+          <a href="#membership-payment-panel">Üyelik</a>
+          <a href="#premium-analysis-panel">Özel Analiz</a>
         </div>
         <div class="nav-group" aria-label="Sonuçlar ve marka">
           <span class="nav-group-label">Sonuçlar & Marka</span>
-          <a href="./index.html#sonuc-arsivi">Sonuçlar</a>
-          <a href="./index.html#basari-takip">Performans</a>
-          <a href="./index.html#kurucu">Hakkımızda</a>
+          <a href="#sonuc-arsivi">Sonuçlar</a>
+          <a href="#basari-takip">Performans</a>
+          <a href="#kurucu">Hakkımızda</a>
           <a class="nav-admin" href="./admin.html">Yönetim</a>
         </div>
       </nav>
@@ -48,7 +52,7 @@
     <main>
       <section class="dashboard-hero" id="platform">
         <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-content reveal">
+        <div class="hero-content reveal visible">
           <div class="hero-brand-lockup">
             <img src="assets/images/fl-logo-mark.webp" alt="Futbol Laboratuvarı logosu" />
             <span>Maçlar | Tahminler | Kuponlar</span>
@@ -88,7 +92,7 @@
             </div>
           </div>
         </div>
-        <aside class="platform-summary reveal" aria-label="Sayfa özeti">
+        <aside class="platform-summary reveal visible" aria-label="Sayfa özeti">
           <div>
             <span>Bugün</span>
             <strong id="today-count">0</strong>
@@ -108,7 +112,7 @@
       </section>
 
       <section class="section robot-live-section top-robot-hub" id="robot-analizleri">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Premium Kupon Merkezi</p>
           <h2>Günün kuponları ve öne çıkan tahminler</h2>
           <p>
@@ -116,7 +120,7 @@
             Amaç; karmaşık tablo yerine hızlı okunabilen temiz bir kupon ekranı sunmaktır.
           </p>
         </div>
-        <div class="robot-live-status reveal">
+        <div class="robot-live-status reveal visible">
           <span>Güncel Liste: <strong data-active-source>Hazırlanıyor</strong></span>
           <span>Maç Sayısı: <strong data-match-count>-</strong></span>
           <span>Tahmin Sayısı: <strong data-prediction-count>-</strong></span>
@@ -140,7 +144,7 @@
       </section>
 
       <section class="section fixtures-section" id="yaklasan-maclar">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Bugünün Maçları</p>
           <h2>Bugün ve yakındaki maçlar</h2>
           <p>
@@ -148,7 +152,7 @@
             sonuçlanan maçlar ise başarı bölümüne taşınabilir.
           </p>
         </div>
-        <div class="fixtures-panel reveal">
+        <div class="fixtures-panel reveal visible">
           <div class="robot-live-status">
             <span>Bugün: <strong data-match-count>-</strong></span>
             <span>Ortalama Güven: <strong data-average-confidence>-</strong></span>
@@ -162,7 +166,7 @@
       </section>
 
       <section class="section founder-section" id="kurucu">
-        <div class="founder-card reveal">
+        <div class="founder-card reveal visible">
           <div class="founder-copy">
             <p class="eyebrow">Hakkımızda</p>
             <h2>Cem Kaplanoğlu</h2>
@@ -182,7 +186,7 @@
       </section>
 
       <section class="section media-section" id="medya-galerisi">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Galeri</p>
           <h2>Futbol Laboratuvarı görsel arşivi</h2>
           <p>
@@ -190,35 +194,35 @@
           </p>
         </div>
         <div class="media-grid">
-          <article class="media-card logo-card reveal">
+          <article class="media-card logo-card reveal visible">
             <img src="assets/images/fl-logo-gallery.webp" alt="Futbol Laboratuvarı marka logosu" loading="lazy" decoding="async" />
             <div>
               <span>Logo</span>
               <h3>Futbol Laboratuvarı</h3>
             </div>
           </article>
-          <article class="media-card reveal">
+          <article class="media-card reveal visible">
             <img src="assets/images/gallery-analiz-serisi.webp" alt="Futbol Laboratuvarı analiz serisi görseli" loading="lazy" decoding="async" />
             <div>
               <span>Sosyal Medya</span>
               <h3>Maç Yorumu Serisi</h3>
             </div>
           </article>
-          <article class="media-card reveal">
+          <article class="media-card reveal visible">
             <img src="assets/images/gallery-spor-toto.webp" alt="Futbol Laboratuvarı Spor Toto dosyası görseli" loading="lazy" decoding="async" />
             <div>
               <span>Spor Toto</span>
               <h3>Spor Toto Dosyası</h3>
             </div>
           </article>
-          <article class="media-card reveal">
+          <article class="media-card reveal visible">
             <img src="assets/images/gallery-yorum-kosesi.webp" alt="Futbol Laboratuvarı yorum köşesi görseli" loading="lazy" decoding="async" />
             <div>
               <span>Yorum</span>
               <h3>Yorum Köşesi</h3>
             </div>
           </article>
-          <article class="media-card reveal">
+          <article class="media-card reveal visible">
             <img src="assets/images/gallery-marka.webp" alt="Futbol Laboratuvarı marka görseli" loading="lazy" decoding="async" />
             <div>
               <span>Marka</span>
@@ -229,7 +233,7 @@
       </section>
 
       <section class="section opinion-section" id="yorum-kosesi">
-        <div class="opinion-panel reveal">
+        <div class="opinion-panel reveal visible">
           <div>
             <p class="eyebrow">Yorum Köşesi</p>
             <h2>Maçı sadece skorla değil, hikayesiyle oku</h2>
@@ -248,27 +252,27 @@
       </section>
 
       <section class="section spor-toto-section" id="spor-toto-performansi">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Spor Toto</p>
           <h2>1-X-2 seçimleri ve kupon ayrımı</h2>
           <p>
             Banko, beraberlik adayı, sürpriz adayı ve çifte şans seçenekleri maç bazlı değerlendirilir.
           </p>
         </div>
-        <div id="spor-toto-summary" class="spor-summary reveal"></div>
+        <div id="spor-toto-summary" class="spor-summary reveal visible"></div>
         <div id="spor-toto-grid" class="spor-grid"></div>
       </section>
 
       <section class="section strongest-pick" id="guclu-tahmin">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Günün Seçimi</p>
           <h2>Bugünün en güçlü tahmini</h2>
         </div>
-        <div id="strongest-pick-card" class="strongest-card reveal"></div>
+        <div id="strongest-pick-card" class="strongest-card reveal visible"></div>
       </section>
 
       <section class="section" id="son-analizler">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Maç Yorumları</p>
           <h2>Maç bazlı detaylı değerlendirmeler</h2>
           <p>
@@ -279,14 +283,14 @@
       </section>
 
       <section class="section database-section" id="analiz-veritabani">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Maç Kayıtları</p>
           <h2>Geçmiş maçlar ve tahmin notları</h2>
           <p>
             Geçmiş değerlendirmeler, tahminler ve sonuçlar düzenli bir kayıt alanında tutulur.
           </p>
         </div>
-        <div class="table-wrap reveal">
+        <div class="table-wrap reveal visible">
           <table>
             <thead>
               <tr>
@@ -308,11 +312,11 @@
       </section>
 
       <section class="section archive-section" id="sonuc-arsivi">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Başarılar</p>
           <h2>Sonuçlanan tahminlerin kaydı</h2>
         </div>
-        <div class="table-wrap reveal">
+        <div class="table-wrap reveal visible">
           <table>
             <thead>
               <tr>
@@ -331,7 +335,7 @@
       </section>
 
       <section class="section tracking-section" id="basari-takip">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Performans</p>
           <h2>Kupon türlerine göre başarı takibi</h2>
         </div>
@@ -339,42 +343,42 @@
       </section>
 
       <section class="section modules-section" id="analiz-modulleri">
-        <div class="section-heading reveal">
+        <div class="section-heading reveal visible">
           <p class="eyebrow">Nasıl Değerlendiriyoruz?</p>
           <h2>Tahmini oluşturan ana başlıklar</h2>
         </div>
         <div class="module-grid">
-          <article class="module-card reveal">
+          <article class="module-card reveal visible">
             <span>01</span>
             <h3>Form Durumu</h3>
             <p>Takımların son maçlardaki gidişatı, gol üretimi ve savunma dengesi.</p>
           </article>
-          <article class="module-card reveal">
+          <article class="module-card reveal visible">
             <span>02</span>
             <h3>Kadro Durumu</h3>
             <p>Eksikler, rotasyon, takım derinliği ve oyuncu dengesi.</p>
           </article>
-          <article class="module-card reveal">
+          <article class="module-card reveal visible">
             <span>03</span>
             <h3>Oran Hareketi</h3>
             <p>Maç öncesi oran değişimleri ve risk-ödül dengesi.</p>
           </article>
-          <article class="module-card reveal">
+          <article class="module-card reveal visible">
             <span>04</span>
             <h3>Oyun Planı</h3>
             <p>Takımların sahaya nasıl çıkabileceği ve maç içi hamle ihtimali.</p>
           </article>
-          <article class="module-card reveal">
+          <article class="module-card reveal visible">
             <span>05</span>
             <h3>Maç Sonu Gücü</h3>
             <p>Son dakikalardaki gol bulma, gol yeme ve baskı tepkisi.</p>
           </article>
-          <article class="module-card reveal">
+          <article class="module-card reveal visible">
             <span>06</span>
             <h3>Mental Durum</h3>
             <p>Geriye düşme tepkisi, deplasman baskısı ve motivasyon.</p>
           </article>
-          <article class="module-card reveal wide">
+          <article class="module-card reveal visible wide">
             <span>07</span>
             <h3>Genel Güven</h3>
             <p>Tüm başlıkların birlikte değerlendirilmesiyle tahmin güveni oluşur.</p>
@@ -388,6 +392,7 @@
       <span>Maç yorumları bilgilendirme amaçlıdır; kesin sonuç garantisi vermez.</span>
     </footer>
 
+    <script src="site-visible-fix.js"></script>
     <script src="script.js"></script>
     <script src="robot-dashboard.js"></script>
     <script src="nav-routing.js"></script>
