@@ -89,9 +89,9 @@ const itemFromRecommendation = (row, type, index) => {
     expected_scores: Array.isArray(row.expected_scores) ? row.expected_scores : [],
     legs,
     status: "takipte",
-    pro_signals: Array.isArray(row.signals) && row.signals.length ? row.signals : ["Oran verisi okundu", "Robot ön elemesi tamamlandı"],
-    commentary: "Maç programı ve oran verisi üzerinden otomatik ön analiz üretildi. Kesin sonuç garantisi vermez.",
-    source: "robot_analysis_report",
+    pro_signals: Array.isArray(row.signals) && row.signals.length ? row.signals : ["High Value Coupon Engine", "Robot ön elemesi tamamlandı"],
+    commentary: "High Value Coupon Engine; düşük oranlı ve değersiz marketleri eleyerek veri destekli kupon adayı üretir. Kesin sonuç garantisi vermez.",
+    source: "high_value_coupon_engine",
     created_at: new Date().toISOString(),
   };
 };
@@ -110,7 +110,7 @@ const main = () => {
   const previous = readJson(historyPath, { active_items: [], completed_items: [] });
   const analysis = buildCouponAnalysis(fixtures);
   const generatedAt = new Date().toISOString();
-  const source = fixtures[0]?.source || "Maçkolik İddaa Programı";
+  const source = fixtures[0]?.source || "Güncel veri bekleniyor";
   const activeItems = buildActiveItems(analysis);
   const completedItems = Array.isArray(previous.completed_items) ? previous.completed_items : [];
 
@@ -122,15 +122,22 @@ const main = () => {
     fixture.odds || "-",
     fixture.confidence,
     fixture.risk,
+    fixture.tag || "-",
     fixture.status || "scheduled",
   ]);
 
-  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n- Not: Otomatik robot ön elemesidir; kesin sonuç garantisi vermez.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "Seçenek", "Oran", "Güven", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Seçenek", "Oran", "Oneri Skoru", "Risk"], analysis.singles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Skoru", "Risk"], analysis.doubles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Skoru", "Risk"], analysis.triples.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n`;
+  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- Kaynak: ${source}\n- Motor: High Value Coupon Engine\n- Güncelleme: ${generatedAt}\n- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.\n- Odak marketler: İlk Yarı KG Var, İkinci Yarı KG Var, KG Var, 2.5 Üst, 3.5 Üst.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "Seçenek", "Oran", "Güven", "Risk", "Etiket", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Seçenek", "Oran", "Oneri Skoru", "Risk"], analysis.singles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Skoru", "Risk"], analysis.doubles.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Skoru", "Risk"], analysis.triples.map((row) => [row.match, row.market, row.odds, row.confidence, row.risk]))}\n`;
 
   const scoredRawPool = {
     generated_at: generatedAt,
     timezone: "Europe/Istanbul",
     source,
+    engine: "High Value Coupon Engine",
+    engine_rules: {
+      banned_markets: ["Çifte Şans"],
+      focused_markets: ["İlk Yarı KG Var", "İkinci Yarı KG Var", "KG Var", "2.5 Üst", "3.5 Üst"],
+      stale_data_policy: "Güncel maç değilse analiz dışı bırakılır.",
+    },
     match_count: fixtures.length,
     analysis_count: activeItems.length,
     matches: analysis.scored.map((fixture, index) => {
@@ -144,13 +151,11 @@ const main = () => {
         status: fixture.status,
         source: fixture.source || source,
         odds: {
-          ms_1: fixture.oneOdd ?? fixture.one ?? fixture.ms1 ?? null,
-          ms_x: fixture.drawOdd ?? fixture.draw ?? fixture.msx ?? null,
-          ms_2: fixture.twoOdd ?? fixture.two ?? fixture.ms2 ?? null,
-          alt_25: fixture.under25 ?? fixture.alt25 ?? fixture.under ?? null,
-          ust_25: fixture.over25 ?? fixture.ust25 ?? fixture.over ?? null,
+          iy_kg_var: fixture.iyKgVar ?? fixture.firstHalfBttsYes ?? null,
+          ikinci_yari_kg_var: fixture.ikinciYariKgVar ?? fixture.secondHalfBttsYes ?? null,
           kg_var: fixture.bttsYes ?? fixture.kgVar ?? null,
-          kg_yok: fixture.bttsNo ?? fixture.kgYok ?? null,
+          ust_25: fixture.over25 ?? fixture.ust25 ?? fixture.over ?? null,
+          ust_35: fixture.over35 ?? fixture.ust35 ?? fixture.over3_5 ?? null,
         },
         suggested_option: scored.selection,
         suggested_odds: scored.odds,
@@ -167,18 +172,18 @@ const main = () => {
   const history = {
     generated_at: generatedAt,
     timezone: "Europe/Istanbul",
-    source: activeItems.length ? "Robot analiz geçmişi" : "Oranlı analiz bekleniyor",
+    source: activeItems.length ? "High Value Coupon Engine" : "Oranlı analiz bekleniyor",
     active_items: activeItems,
     completed_items: completedItems,
   };
 
   fs.writeFileSync(mainReportPath, mainReport, "utf8");
-  fs.writeFileSync(sourceReportPath, `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Aktif analiz sayısı: ${activeItems.length}\n- Sonuçlanan analiz sayısı: ${completedItems.length}\n`, "utf8");
+  fs.writeFileSync(sourceReportPath, `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- Motor: High Value Coupon Engine\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Aktif analiz sayısı: ${activeItems.length}\n- Filtre: Çifte şans yok, eski sabit veri yok, düşük oranlı marketler elendi.\n`, "utf8");
   fs.writeFileSync(successReportPath, `# Başarı Yüzdesi Raporu\n\n- Güncelleme: ${generatedAt}\n- Sonuçlanan analiz sayısı: ${completedItems.length}\n- Durum: Sonuç verisi geldiğinde kazandı/kaybetti ayrımı otomatik gösterilecek.\n`, "utf8");
   writeJson(rawPoolPath, scoredRawPool);
   writeJson(historyPath, history);
 
-  console.log(`Robot analiz raporu üretildi. Aktif: ${activeItems.length}. Tamamlanan: ${completedItems.length}.`);
+  console.log(`High Value Coupon Engine raporu üretildi. Aktif: ${activeItems.length}. Tamamlanan: ${completedItems.length}.`);
 };
 
 main();
