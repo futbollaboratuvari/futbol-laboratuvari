@@ -16,21 +16,53 @@
     style.textContent = `
       .membership-missing-hint{margin-top:12px;padding:12px 14px;border:1px solid rgba(255,159,28,.26);border-radius:14px;background:rgba(255,159,28,.08);color:#ffe08a;font-size:13px;line-height:1.45}
       .membership-missing-hint strong{color:#fff7d6}.membership-missing-hint.ok{border-color:rgba(57,255,136,.28);background:rgba(57,255,136,.08);color:#c8ffdd}
+      .membership-input.invalid{border-color:rgba(255,85,85,.68)!important;box-shadow:0 0 0 2px rgba(255,85,85,.16)}
     `;
     document.head.appendChild(style);
   };
 
   const panel = () => document.getElementById(PANEL_ID);
   const selectedPlan = (root) => root?.querySelector(".membership-card.selected,[data-plan][aria-pressed='true']");
-  const valueOf = (root, selector) => root?.querySelector(selector)?.value?.trim() || "";
+  const input = (root, selector) => root?.querySelector(selector);
+  const valueOf = (root, selector) => input(root, selector)?.value?.trim() || "";
+  const onlyDigits = (value) => String(value || "").split("").filter((char) => char >= "0" && char <= "9").join("");
+  const validEmail = (value) => {
+    const email = String(value || "").trim();
+    const at = email.indexOf("@");
+    const dot = email.lastIndexOf(".");
+    return at > 0 && dot > at + 1 && dot < email.length - 1;
+  };
+  const validPhone = (value) => onlyDigits(value).length >= 10;
 
-  const missingFields = (root) => {
+  const validation = (root) => {
     const missing = [];
+    const invalid = [];
+    const email = valueOf(root, "[data-member-email]");
+    const phone = valueOf(root, "[data-member-phone]");
+    const emailInput = input(root, "[data-member-email]");
+    const phoneInput = input(root, "[data-member-phone]");
+
     if (!selectedPlan(root)) missing.push(labels.plan);
     if (!valueOf(root, "[data-member-name]")) missing.push(labels.name);
-    if (!valueOf(root, "[data-member-email]")) missing.push(labels.email);
-    if (!valueOf(root, "[data-member-phone]")) missing.push(labels.phone);
-    return missing;
+    if (!email) missing.push(labels.email);
+    if (!phone) missing.push(labels.phone);
+
+    const badEmail = Boolean(email && !validEmail(email));
+    const badPhone = Boolean(phone && !validPhone(phone));
+    if (badEmail) invalid.push("Geçerli e-posta yaz");
+    if (badPhone) invalid.push("Telefon en az 10 rakam olmalı");
+
+    emailInput?.classList.toggle("invalid", badEmail);
+    phoneInput?.classList.toggle("invalid", badPhone);
+
+    return { missing, invalid, ready: missing.length === 0 && invalid.length === 0 };
+  };
+
+  const setButtons = (root, ready) => {
+    const trial = root.querySelector("[data-trial-start]");
+    const payment = root.querySelector("[data-payment-start]");
+    if (trial) trial.disabled = !ready;
+    if (payment) payment.disabled = !ready;
   };
 
   const ensureHint = (root) => {
@@ -51,12 +83,14 @@
     const root = panel();
     if (!root) return;
     const hint = ensureHint(root);
-    const missing = missingFields(root);
-    hint.classList.toggle("ok", missing.length === 0);
-    if (missing.length) {
-      hint.innerHTML = `<strong>Devam etmek için eksik:</strong> ${missing.join(", ")}. Bu alanlar tamamlanınca 1 Gün Ücretsiz Dene ve Kartla Satın Al butonları aktif olur.`;
+    const state = validation(root);
+    setButtons(root, state.ready);
+    hint.classList.toggle("ok", state.ready);
+    const warnings = [...state.missing, ...state.invalid];
+    if (warnings.length) {
+      hint.innerHTML = `<strong>Devam etmek için kontrol et:</strong> ${warnings.join(", ")}. Bilgiler doğru olunca 1 Gün Ücretsiz Dene ve Kartla Satın Al butonları aktif olur.`;
     } else {
-      hint.innerHTML = `<strong>Hazır:</strong> Paket ve iletişim bilgileri tamamlandı. Deneme veya satın alma adımına geçebilirsin.`;
+      hint.innerHTML = `<strong>Hazır:</strong> Paket ve iletişim bilgileri doğru. Deneme veya satın alma adımına geçebilirsin.`;
     }
   };
 
