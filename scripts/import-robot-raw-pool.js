@@ -6,6 +6,7 @@ const siteDataDir = path.join(rootDir, "data");
 const siteFixturesPath = path.join(siteDataDir, "fixtures.json");
 const siteRawPoolPath = path.join(siteDataDir, "ham_mac_havuzu.json");
 const robotRawPoolPath = path.join(rootDir, "bu-klas-r-i-in-basit", "data", "ham_mac_havuzu.json");
+const LIVE_WINDOW_MINUTES = 130;
 
 const readJson = (filePath, fallback) => {
   try {
@@ -35,6 +36,11 @@ const formatTurkeyTime = (date = new Date()) =>
     minute: "2-digit",
     hour12: false,
   }).format(date);
+
+const turkeyMinutes = () => {
+  const [hour, minute] = formatTurkeyTime().split(":").map(Number);
+  return hour * 60 + minute;
+};
 
 const dotToIso = (value) => {
   const text = String(value || "").trim();
@@ -92,48 +98,103 @@ const hasOdds = (item) => {
   return Boolean(odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok);
 };
 
-const isPastMatch = (date, time) => {
+const parseClockMinutes = (time) => {
+  const match = String(time || "").trim().match(/^(\d{1,2}):(\d{2})$/);
+  if (!match) return null;
+  return Number(match[1]) * 60 + Number(match[2]);
+};
+
+const normalizeNumber = (value) => {
+  if (value === undefined || value === null || value === "") return null;
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
+};
+
+const pickFirst = (...values) => values.find((value) => value !== undefined && value !== null && value !== "");
+
+const pickLiveFields = (item = {}, fallback = {}) => {
+  const homeScore = normalizeNumber(pickFirst(item.homeScore, item.home_score, item.homeGoals, item.home_goals, item.ev_sahibi_skor, fallback.homeScore, fallback.home_score, fallback.homeGoals, fallback.home_goals));
+  const awayScore = normalizeNumber(pickFirst(item.awayScore, item.away_score, item.awayGoals, item.away_goals, item.deplasman_skor, fallback.awayScore, fallback.away_score, fallback.awayGoals, fallback.away_goals));
+  const minute = normalizeNumber(pickFirst(item.minute, item.elapsed, item.matchMinute, item.dakika, fallback.minute, fallback.elapsed, fallback.matchMinute, fallback.dakika));
+  const score = String(pickFirst(item.score, item.skor, item.result_score, item.result, fallback.score, fallback.skor, fallback.result_score, fallback.result, "") || "").trim();
+  return {
+    minute,
+    homeScore,
+    awayScore,
+    score: homeScore !== null && awayScore !== null ? `${homeScore}-${awayScore}` : score,
+  };
+};
+
+const statusFromClock = (date, time) => {
   const dateKey = dotToIso(date) || date;
-  const timeText = String(time || "").trim();
-  const match = timeText.match(/^(\d{1,2}):(\d{2})$/);
-  if (!dateKey || !match) return false;
+  const start = parseClockMinutes(time);
+  if (!dateKey || start === null) return { status: "scheduled", minute: null };
   const today = formatTurkeyDate();
-  if (dateKey < today) return true;
-  if (dateKey > today) return false;
-  const [hour, minute] = formatTurkeyTime().split(":").map(Number);
-  const nowTotal = hour * 60 + minute;
-  const matchTotal = Number(match[1]) * 60 + Number(match[2]);
-  return matchTotal < nowTotal;
+  if (dateKey < today) return { status: "finished", minute: 90 };
+  if (dateKey > today) return { status: "scheduled", minute: null };
+  const elapsed = turkeyMinutes() - start;
+  if (elapsed < 0) return { status: "scheduled", minute: null };
+  if (elapsed <= LIVE_WINDOW_MINUTES) return { status: "live", minute: Math.max(1, Math.min(90, elapsed > 60 ? elapsed - 15 : elapsed)) };
+  return { status: "finished", minute: 90 };
 };
 
-const normalizeStatus = (item) => {
-  const status = String(item.status || item.durum || "").toLocaleLowerCase("tr-TR").trim();
-  if (item.score || item.result || item.result_score || status === "finished" || status === "tamamlandı" || status === "bitti") return "finished";
-  if (status === "live" || status === "canlı") return "live";
-  if (status === "postponed" || status === "ertelendi") return "postponed";
-  if (status === "cancelled" || status === "canceled" || status === "iptal") return "cancelled";
-  if (isPastMatch(item.date || item.tarih || item.utc_date, item.time || item.saat)) return "sonuc_bekleniyor";
-  return "scheduled";
+const normalizeStatus = (item, fallback = {}) => {
+  const status = String(pickFirst(item.status, item.durum, item.liveStatus, fallback.status, fallback.durum, fallback.liveStatus, "") || "").toLocaleLowerCase("tr-TR").trim();
+  if (["live", "canlı", "canli", "1h", "2h", "ht", "devre arası"].includes(status)) return "live";
+  if (["finished", "tamamlandı", "tamamlandi", "bitti", "ms", "fulltime"].includes(status)) return "finished";
+  if (["postponed", "ertelendi"].includes(status)) return "postponed";
+  if (["cancelled", "canceled", "iptal"].includes(status)) return "cancelled";
+  return statusFromClock(item.date || item.tarih || item.utc_date, item.time || item.saat).status;
 };
 
-const rawToFixture = (item) => {
+const rawToFixture = (item, existing = {}) => {
   const date = dotToIso(item.tarih || item.utc_date || item.date);
   const time = item.saat || item.time || "";
   const home = item.ev_sahibi || item.home_team_name || item.home || "";
   const away = item.deplasman || item.away_team_name || item.away || "";
   if (!date || !time || !home || !away) return null;
 
+  const live = pickLiveFields(item, existing);
+  const clock = statusFromClock(date, time);
+  const status = normalizeStatus({ ...item, date, time }, existing);
+  const minute = live.minute !== null ? live.minute : status === "live" ? clock.minute : status === "finished" ? 90 : null;
+
   return {
     date,
     time,
-    league: item.lig || item.competition_name || item.league || "Diğer Maçlar",
+    league: item.lig || item.competition_name || item.league || existing.league || "Diğer Maçlar",
     home,
     away,
-    status: normalizeStatus({ ...item, date, time }),
-    source: item.source === "mackolik" || item.kaynak === "mackolik" ? "Maçkolik canlı robot" : (item.source || item.kaynak || "Robot ham veri havuzu"),
-    matchCode: item.mac_kodu || item.match_code || null,
+    status,
+    liveStatus: status,
+    minute,
+    homeScore: live.homeScore,
+    awayScore: live.awayScore,
+    score: live.score,
+    lastLiveUpdate: new Date().toISOString(),
+    source: item.source === "mackolik" || item.kaynak === "mackolik" ? "Maçkolik canlı robot" : (item.source || item.kaynak || existing.source || "Robot ham veri havuzu"),
+    matchCode: item.mac_kodu || item.match_code || existing.matchCode || null,
     oddsSource: "Robot ham veri havuzu",
     ...pickOdds(item),
+  };
+};
+
+const mergeLiveFields = (base, incoming) => {
+  const live = pickLiveFields(incoming, base);
+  const status = normalizeStatus(incoming, base);
+  const clock = statusFromClock(incoming.date || base.date, incoming.time || base.time);
+  return {
+    ...base,
+    ...pickOdds(incoming),
+    status,
+    liveStatus: status,
+    minute: live.minute !== null ? live.minute : status === "live" ? clock.minute : status === "finished" ? 90 : base.minute ?? null,
+    homeScore: live.homeScore,
+    awayScore: live.awayScore,
+    score: live.score || base.score || "",
+    lastLiveUpdate: new Date().toISOString(),
+    matchCode: incoming.matchCode || base.matchCode || null,
+    oddsSource: incoming.oddsSource || base.oddsSource || "Robot ham veri havuzu",
   };
 };
 
@@ -141,8 +202,11 @@ const main = () => {
   const siteFixtures = readJson(siteFixturesPath, []);
   const robotPool = readJson(robotRawPoolPath, { matches: [] });
   const today = formatTurkeyDate();
-  const robotMatches = Array.isArray(robotPool.matches) ? robotPool.matches.map(rawToFixture).filter(Boolean) : [];
-  const currentRobotMatches = robotMatches.filter((item) => item.date >= today || hasOdds(item));
+  const existingByKey = new Map(siteFixtures.map((item) => [keyOf(item), item]));
+  const robotMatches = Array.isArray(robotPool.matches)
+    ? robotPool.matches.map((item) => rawToFixture(item, existingByKey.get(keyOf(item)) || {})).filter(Boolean)
+    : [];
+  const currentRobotMatches = robotMatches.filter((item) => item.date >= today || hasOdds(item) || item.status === "live");
 
   const byExactKey = new Map(siteFixtures.map((item) => [keyOf(item), item]));
   const oddsByTeamKey = new Map();
@@ -155,32 +219,26 @@ const main = () => {
     const key = keyOf(robotMatch);
     const existing = byExactKey.get(key);
     if (existing) {
-      byExactKey.set(key, {
-        ...existing,
-        ...pickOdds(robotMatch),
-        status: normalizeStatus({ ...existing, ...robotMatch }),
-        matchCode: robotMatch.matchCode || existing.matchCode || null,
-        oddsSource: robotMatch.oddsSource,
-      });
-    } else if (robotMatch.date >= today || hasOdds(robotMatch)) {
+      byExactKey.set(key, mergeLiveFields(existing, robotMatch));
+    } else if (robotMatch.date >= today || hasOdds(robotMatch) || robotMatch.status === "live") {
       byExactKey.set(key, robotMatch);
     }
   }
 
   const mergedFixtures = [...byExactKey.values()].map((fixture) => {
-    const fixtureWithStatus = { ...fixture, status: normalizeStatus(fixture) };
+    const fixtureWithStatus = mergeLiveFields(fixture, fixture);
     if (hasOdds(fixtureWithStatus)) return fixtureWithStatus;
     const teamMatch = oddsByTeamKey.get(teamKeyOf(fixtureWithStatus));
     if (!teamMatch) return fixtureWithStatus;
     return {
-      ...fixtureWithStatus,
-      ...pickOdds(teamMatch),
+      ...mergeLiveFields(fixtureWithStatus, teamMatch),
       matchCode: teamMatch.matchCode || fixtureWithStatus.matchCode || null,
       oddsSource: "Robot ham veri havuzu takım eşleşmesi",
     };
   }).sort((a, b) => String(a.date || "").localeCompare(String(b.date || "")) || String(a.time || "99:99").localeCompare(String(b.time || "99:99")));
 
   const oddsCount = mergedFixtures.filter(hasOdds).length;
+  const liveCount = mergedFixtures.filter((fixture) => fixture.status === "live").length;
 
   writeJson(siteFixturesPath, mergedFixtures);
   writeJson(siteRawPoolPath, {
@@ -189,6 +247,7 @@ const main = () => {
     source: "Robot ham veri havuzu siteye aktarıldı",
     match_count: mergedFixtures.length,
     odds_match_count: oddsCount,
+    live_match_count: liveCount,
     matches: mergedFixtures.map((fixture) => ({
       home_team_name: fixture.home,
       away_team_name: fixture.away,
@@ -196,6 +255,11 @@ const main = () => {
       date: fixture.date,
       time: fixture.time,
       status: fixture.status,
+      liveStatus: fixture.liveStatus || fixture.status,
+      minute: fixture.minute,
+      homeScore: fixture.homeScore,
+      awayScore: fixture.awayScore,
+      score: fixture.score,
       source: fixture.source,
       match_code: fixture.matchCode || null,
       odds: {
@@ -210,7 +274,7 @@ const main = () => {
     })),
   });
 
-  console.log(`Robot ham havuzu site verisine aktarıldı. Maç: ${mergedFixtures.length}. Oranlı maç: ${oddsCount}.`);
+  console.log(`Robot ham havuzu site verisine aktarıldı. Maç: ${mergedFixtures.length}. Oranlı maç: ${oddsCount}. Canlı maç: ${liveCount}.`);
 };
 
 main();
