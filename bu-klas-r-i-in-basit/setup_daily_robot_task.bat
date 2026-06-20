@@ -28,6 +28,6 @@ echo Gunluk robot gorevi kuruldu.
 echo Robot her gun %RUN_TIME% saatinde calisir.
 echo Robot calisinca once analiz raporlarini uretir, sonra web site veri esitlemesini dener.
 echo Git kurulu ve repo yetkisi varsa otomatik commit/push yapar.
-echo Git veya yetki yoksa raporlar yerel klasorde kalir; run_robot.bat uyarı verir.
+echo Git veya yetki yoksa raporlar yerel klasorde kalir; run_robot.bat uyari verir.
 echo.
 pause
