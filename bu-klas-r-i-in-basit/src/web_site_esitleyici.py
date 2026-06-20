@@ -5,11 +5,16 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import subprocess
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:  # pragma: no cover
+    ZoneInfo = None  # type: ignore[assignment]
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE_REPO = Path.home() / "Documents" / "GitHub" / "futbol-laboratuvari"
@@ -26,6 +31,24 @@ SYNC_FILES = [
     ("outputs", "basari_yuzdesi_raporu.md"),
 ]
 
+SELECTION_KEYS = [
+    "Seçenek",
+    "Secenek",
+    "Seçenekler",
+    "Secenekler",
+    "En Güçlü Seçim",
+    "En Guclu Secim",
+    "En Güçlü Market",
+    "En Guclu Market",
+    "Market",
+    "Marketler",
+    "Tahmin",
+    "prediction",
+    "selection",
+    "option",
+    "market",
+]
+
 
 def get_site_repo_path() -> Path:
     """Web site repo yolunu ortam degiskeninden veya varsayilan konumdan al."""
@@ -33,6 +56,21 @@ def get_site_repo_path() -> Path:
     if env_path:
         return Path(env_path).expanduser().resolve()
     return DEFAULT_SITE_REPO
+
+
+def turkey_now() -> datetime:
+    """Europe/Istanbul icin guvenli simdiki zaman."""
+    if ZoneInfo is not None:
+        return datetime.now(ZoneInfo("Europe/Istanbul"))
+    return datetime.now(timezone.utc) + timedelta(hours=3)
+
+
+def today_key() -> str:
+    return turkey_now().strftime("%Y-%m-%d")
+
+
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
 
 
 def clean_cell(value: str) -> str:
@@ -63,19 +101,96 @@ def markdown_table(markdown: str, heading: str) -> list[dict[str, str]]:
     return rows
 
 
+def first_value(row: dict[str, str], keys: list[str], default: str = "") -> str:
+    """Birden fazla baslik varyasyonundan ilk dolu degeri al."""
+    normalized_lookup = {key.casefold(): value for key, value in row.items()}
+    for key in keys:
+        value = row.get(key)
+        if value:
+            return value
+        value = normalized_lookup.get(key.casefold())
+        if value:
+            return value
+    return default
+
+
+def selection_from_row(row: dict[str, str]) -> str:
+    return first_value(row, SELECTION_KEYS, "")
+
+
 def split_match(match: str) -> tuple[str, str]:
-    """Mac adindan ev sahibi/deplasman alanlarini cikarmaya calis."""
-    if " - " in match:
-        home, away = match.split(" - ", 1)
-        return home.strip(), away.strip()
-    if " vs " in match.lower():
-        parts = match.split(" vs ", 1)
-        return parts[0].strip(), parts[1].strip()
-    return match.strip(), ""
+    """Mac adindan ev sahibi/deplasman alanlarini buyuk-kucuk harf fark etmeksizin cikar."""
+    text = str(match or "").strip()
+    if not text:
+        return "", ""
+
+    dash_parts = re.split(r"\s+-\s+", text, maxsplit=1)
+    if len(dash_parts) == 2:
+        return dash_parts[0].strip(), dash_parts[1].strip()
+
+    vs_parts = re.split(r"\s+vs\s+", text, maxsplit=1, flags=re.IGNORECASE)
+    if len(vs_parts) == 2:
+        return vs_parts[0].strip(), vs_parts[1].strip()
+
+    return text, ""
 
 
-def now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
+def dot_to_iso(value: str) -> str:
+    text = str(value or "").strip()
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", text):
+        return text
+    match = re.fullmatch(r"(\d{1,2})\.(\d{1,2})\.(\d{4})", text)
+    if match:
+        return f"{match.group(3)}-{match.group(2).zfill(2)}-{match.group(1).zfill(2)}"
+    return ""
+
+
+def extract_report_date(markdown: str) -> str:
+    """Rapordaki guncelleme tarihinden YYYY-MM-DD uret; yoksa bugunu kullan."""
+    iso_match = re.search(r"G[uü]ncelleme:\s*(\d{4}-\d{2}-\d{2})", markdown, flags=re.IGNORECASE)
+    if iso_match:
+        return iso_match.group(1)
+    date_match = re.search(r"\b(\d{1,2}\.\d{1,2}\.\d{4})\b", markdown)
+    if date_match:
+        converted = dot_to_iso(date_match.group(1))
+        if converted:
+            return converted
+    return today_key()
+
+
+def is_past_match(date_key: str, time_value: str) -> bool:
+    """Skor yoksa gecmis saatli maci sonuc bekleniyor yap."""
+    if not date_key or not time_value:
+        return False
+    match = re.fullmatch(r"(\d{1,2}):(\d{2})", str(time_value).strip())
+    if not match:
+        return False
+    now = turkey_now()
+    if date_key < now.strftime("%Y-%m-%d"):
+        return True
+    if date_key > now.strftime("%Y-%m-%d"):
+        return False
+    total = int(match.group(1)) * 60 + int(match.group(2))
+    now_total = now.hour * 60 + now.minute
+    return total < now_total
+
+
+def normalize_status(status: str, date_key: str = "", time_value: str = "", result_score: str = "") -> str:
+    """Robot/site statulerini tek dile indir."""
+    text = str(status or "").strip().casefold()
+    if result_score and result_score not in {"-", ""}:
+        return "finished"
+    if text in {"finished", "tamamlandı", "tamamlandi", "bitti", "sonuclandi", "sonuçlandı"}:
+        return "finished"
+    if text in {"live", "canli", "canlı"}:
+        return "live"
+    if text in {"postponed", "ertelendi"}:
+        return "postponed"
+    if text in {"cancelled", "canceled", "iptal"}:
+        return "cancelled"
+    if is_past_match(date_key, time_value):
+        return "sonuc_bekleniyor"
+    return "scheduled"
 
 
 def is_demo_report(markdown: str) -> bool:
@@ -94,28 +209,36 @@ def build_live_rows() -> list[dict[str, str]]:
     if is_demo_report(markdown):
         return []
 
+    fallback_date = extract_report_date(markdown)
     rows = markdown_table(markdown, "Skorlanan Maclar")
     live_rows: list[dict[str, str]] = []
     for row in rows:
-        match = row.get("Mac", "")
+        match = first_value(row, ["Mac", "Maç", "match"], "")
         home, away = split_match(match)
+        date_key = dot_to_iso(first_value(row, ["Tarih", "Date", "date"], "")) or fallback_date
+        time_value = first_value(row, ["Saat", "Time", "time"], "")
+        result_score = first_value(row, ["Gercek Skor", "Gerçek Skor", "Skor", "result_score"], "")
+        status = normalize_status(first_value(row, ["Status", "Durum", "Sonuc", "Sonuç"], ""), date_key, time_value, result_score)
+        selection = selection_from_row(row)
         live_rows.append(
             {
-                "date": row.get("Tarih", ""),
-                "league": row.get("Lig", ""),
+                "date": date_key,
+                "league": first_value(row, ["Lig", "league"], ""),
                 "match": match,
                 "home_team": home,
                 "away_team": away,
                 "type": "Canli Veri",
-                "prediction": row.get("En Guclu Market", ""),
-                "market": row.get("En Guclu Market", ""),
-                "odds": row.get("Oran", ""),
-                "confidence": row.get("Confidence", ""),
-                "power_score": row.get("Guc Skoru", ""),
-                "score_prediction": row.get("Skor Tahmini", ""),
-                "result_score": row.get("Gercek Skor", ""),
-                "status": row.get("Sonuc", "Bekliyor") or "Bekliyor",
-                "risk": row.get("Risk", ""),
+                "prediction": selection,
+                "selection": selection,
+                "option": selection,
+                "market": selection,
+                "odds": first_value(row, ["Oran", "Odds", "odds"], ""),
+                "confidence": first_value(row, ["Güven", "Guven", "Confidence", "confidence"], ""),
+                "power_score": first_value(row, ["Guc Skoru", "Güç Skoru", "power_score"], ""),
+                "score_prediction": first_value(row, ["Skor Tahmini", "score_prediction"], ""),
+                "result_score": result_score,
+                "status": status,
+                "risk": first_value(row, ["Risk", "risk"], ""),
                 "source": "robot",
             }
         )
@@ -125,11 +248,11 @@ def build_live_rows() -> list[dict[str, str]]:
 
 def coupon_item(row: dict[str, str], item_type: str, index: int) -> dict[str, object]:
     """Markdown kupon satirini web sitesinin okuyacagi analiz objesine cevir."""
-    match = row.get("Mac") or row.get("Maclar") or ""
-    market = row.get("Market") or row.get("Marketler") or ""
-    score = row.get("Oneri Skoru") or row.get("Kupon Skoru") or row.get("Guc") or ""
-    confidence = row.get("Confidence") or score
-    risk = row.get("Risk") or ""
+    match = first_value(row, ["Mac", "Maç", "Maclar", "Maçlar"], "")
+    selection = selection_from_row(row)
+    score = first_value(row, ["Oneri Skoru", "Öneri Skoru", "Kupon Skoru", "Guc", "Güç"], "")
+    confidence = first_value(row, ["Güven", "Guven", "Confidence"], score)
+    risk = first_value(row, ["Risk"], "")
     signals = []
     for label, key in [
         ("Güç", "Guc"),
@@ -138,7 +261,7 @@ def coupon_item(row: dict[str, str], item_type: str, index: int) -> dict[str, ob
         ("Skor", "Oneri Skoru"),
         ("Kupon Skoru", "Kupon Skoru"),
     ]:
-        value = row.get(key)
+        value = first_value(row, [key], "")
         if value:
             signals.append(f"{label}: {value}")
 
@@ -146,14 +269,15 @@ def coupon_item(row: dict[str, str], item_type: str, index: int) -> dict[str, ob
         "id": f"{item_type}-{index}",
         "type": item_type,
         "match": match,
-        "market": market,
-        "prediction": market,
-        "selection": market,
+        "selection": selection,
+        "option": selection,
+        "market": selection,
+        "prediction": selection,
         "confidence_score": confidence,
         "score": score,
         "risk_level": risk,
         "risk": risk,
-        "odds": row.get("Oran", "-"),
+        "odds": first_value(row, ["Oran", "Odds"], "-"),
         "status": "takipte",
         "pro_signals": signals or ["Robot canlı veri raporu"],
         "commentary": "Günün maç listesi ve robot skorlaması üzerinden oluşturuldu.",
