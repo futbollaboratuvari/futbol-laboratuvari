@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Futbol Laboratuvarı | Analiz Platformu</title>
-    <meta name="deploy-version" content="20260620-1730-cache-fix" />
+    <meta name="deploy-version" content="20260620-1746-fixtures-summary-removed" />
     <style>
       .reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
       .hero-media, .dashboard-hero::after, .dashboard-hero::before, .site-header::before, .site-header::after { pointer-events: none !important; }
@@ -25,7 +25,7 @@
         <div class="nav-group" aria-label="Ana bölüm">
           <span class="nav-group-label">Futbol Laboratuvarı</span>
           <a class="nav-primary" href="#platform">Ana Sayfa</a>
-          <a href="#yaklasan-maclar">Bugünün Maçları</a>
+          <a href="#daily-matches-widget">Bugünün Maçları</a>
         </div>
         <div class="nav-group" aria-label="Analiz ve üyelik">
           <span class="nav-group-label">Analiz & Üyelik</span>
@@ -59,7 +59,7 @@
           </div>
           <div class="hero-actions" aria-label="Hızlı erişim bağlantıları">
             <a class="hero-button" href="#robot-analizleri">Kupon Merkezini Aç</a>
-            <a class="hero-button secondary" href="#yaklasan-maclar">Bugünün Maçlarını Gör</a>
+            <a class="hero-button secondary" href="#daily-matches-widget">Bugünün Maçlarını Gör</a>
           </div>
         </div>
         <aside class="platform-summary reveal visible" aria-label="Sayfa özeti">
@@ -69,22 +69,7 @@
         </aside>
       </section>
 
-      <section class="section fixtures-section" id="yaklasan-maclar">
-        <div class="section-heading reveal visible">
-          <p class="eyebrow">Bugünün Maç Bülteni</p>
-          <h2>Maç bülteni özeti</h2>
-          <p>Asıl maç listesi, oran tablosu ve detaylı oranlar Günlük Maç Bülteni alanında gösterilir. Bu alan, veri gelmese bile sayfanın boş görünmemesi için sabit bırakıldı.</p>
-        </div>
-        <div class="fixtures-panel reveal visible">
-          <div class="robot-live-status">
-            <span>Bugün: <strong data-match-count>-</strong></span>
-            <span>Ortalama Güven: <strong data-average-confidence>-</strong></span>
-            <span>En Güçlü Seçim: <strong data-strongest-signal>-</strong></span>
-            <span>Durum: <strong data-load-status>Maçlar hazırlanıyor</strong></span>
-          </div>
-          <div id="fixtures-list" class="robot-live-grid fixtures-list" data-home-matches aria-live="polite"><article class="robot-live-card">Maçlar hazırlanıyor.</article></div>
-        </div>
-      </section>
+      <div id="yaklasan-maclar" class="daily-matches-anchor" aria-hidden="true"></div>
 
       <section class="section robot-live-section top-robot-hub" id="robot-analizleri">
         <div class="section-heading reveal visible">
