@@ -58,7 +58,7 @@
     if (anchor && anchor.parentNode) anchor.parentNode.insertBefore(switcher, anchor.nextSibling);
     else main().prepend(switcher);
     const buttons = switcher.querySelector(".fl-panel-buttons");
-    panels.forEach((panel, index) => {
+    panels.forEach((panel) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "fl-panel-button";
@@ -66,7 +66,6 @@
       button.innerHTML = `${panel.title}<small>${panel.text}</small>`;
       button.addEventListener("click", () => openPanel(panel.id, true));
       buttons.appendChild(button);
-      if (index === 0) button.classList.add("active");
     });
     return switcher;
   };
@@ -107,4 +106,14 @@
   document.addEventListener("DOMContentLoaded", boot, { once: true });
   window.addEventListener("load", boot, { once: true });
   document.addEventListener("fl:runtime-ready", () => placePanels());
+  window.addEventListener("fl:open-panel", (event) => {
+    const id = event.detail?.id;
+    if (!panels.some((panel) => panel.id === id)) return;
+    placePanels();
+    openPanel(id, Boolean(event.detail?.scroll));
+  });
+  window.addEventListener("hashchange", () => {
+    const id = location.hash ? location.hash.slice(1) : "";
+    if (panels.some((panel) => panel.id === id)) openPanel(id, false);
+  });
 })();
