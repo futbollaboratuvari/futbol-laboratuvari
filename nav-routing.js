@@ -66,6 +66,7 @@
   ensureScript("section-order.js", "section-order-script");
   ensureScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
   ensureScript("spor-toto-v3-fix.js", "spor-toto-v3-fix-script");
+  ensureScript("hero-top-pick-fix.js", "hero-top-pick-fix-script");
 
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
