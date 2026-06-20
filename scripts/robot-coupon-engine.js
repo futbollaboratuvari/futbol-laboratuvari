@@ -11,6 +11,14 @@ const formatOdd = (value) => {
 
 const formatPercent = (value) => `${Math.round(value)}%`;
 
+const formatTurkeyDate = (date = new Date()) =>
+  new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+
 const impliedProbability = (odd) => {
   const parsed = parseOdd(odd);
   if (!parsed) return 0;
@@ -19,7 +27,7 @@ const impliedProbability = (odd) => {
 
 const oddValue = (fixture, keys) => {
   for (const key of keys) {
-    const value = parseOdd(fixture?.[key]);
+    const value = parseOdd(fixture?.[key] ?? fixture?.odds?.[key]);
     if (value) return value;
   }
   return null;
@@ -32,121 +40,183 @@ const getTeams = (fixture) => ({
   away: safeTeam(fixture.away || fixture.away_team_name || fixture.deplasman, "Deplasman"),
 });
 
+const isCurrentFixture = (fixture) => {
+  const date = String(fixture.date || fixture.tarih || fixture.utc_date || "").slice(0, 10);
+  if (!date) return false;
+  return date >= formatTurkeyDate();
+};
+
 const leagueSignal = (league = "") => {
   const text = String(league).toLowerCase();
   let goalBias = 0;
-  let drawBias = 0;
   let riskBias = 0;
 
-  if (/irlanda|norveç|norvec|isveç|isvec|finlandiya|izlanda|danimarka|hazırlık|hazirlik|kupa|npl/i.test(text)) {
-    goalBias += 7;
-    riskBias += 4;
+  if (/irlanda|norveç|norvec|isveç|isvec|finlandiya|izlanda|danimarka|hazırlık|hazirlik|kupa|npl|u19|u20|u21|rezerv|youth/i.test(text)) {
+    goalBias += 8;
+    riskBias += 5;
   }
 
-  if (/dünya|dunya|grup|premier|şampiyonluk|sampiyonluk/i.test(text)) {
+  if (/premier|championship|super|süper|1\.lig|grup|dünya|dunya/i.test(text)) {
     goalBias += 3;
   }
 
-  if (/1\.lig|alt lig|ikinci|u19|u20|u21|youth|rezerv/i.test(text)) {
+  if (/alt lig|ikinci|amatör|amator/i.test(text)) {
     riskBias += 6;
   }
 
-  if (/irlanda|norveç|norvec|kuveyt/i.test(text)) {
-    drawBias += 3;
-  }
-
-  return { goalBias, drawBias, riskBias };
+  return { goalBias, riskBias };
 };
 
-const favoriteQualitySignal = (odd) => {
-  const parsed = parseOdd(odd);
-  if (!parsed) return { label: "Oran yok", delta: 0, risk: 4 };
-  if (parsed >= 1.3 && parsed <= 1.7) {
-    return { label: "Düşük oran alarmı: favori kalite kontrolü gerekir", delta: -4, risk: 8 };
-  }
-  if (parsed < 1.3) {
-    return { label: "Aşırı düşük oran: değer zayıf olabilir", delta: -7, risk: 10 };
-  }
-  return { label: "Oran normal bölgede", delta: 0, risk: 0 };
+const marketRules = {
+  firstHalfBttsYes: {
+    label: "İlk Yarı KG Var",
+    keys: ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"],
+    minOdd: 1.85,
+    maxOdd: 5.50,
+    boost: 15,
+    riskAdd: 10,
+    scores: ["1-1", "2-1"],
+    signals: ["İlk yarı gol değişimi marketi", "Yüksek oran bölgesi kontrol edildi"],
+  },
+  secondHalfBttsYes: {
+    label: "İkinci Yarı KG Var",
+    keys: ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"],
+    minOdd: 1.75,
+    maxOdd: 5.25,
+    boost: 16,
+    riskAdd: 8,
+    scores: ["2-1", "2-2"],
+    signals: ["İkinci yarı tempo marketi", "Maç sonu gol ihtimali kontrol edildi"],
+  },
+  kgVar: {
+    label: "KG Var",
+    keys: ["bttsYes", "kgVar", "varOdd", "var", "kg_var"],
+    minOdd: 1.60,
+    maxOdd: 3.80,
+    boost: 14,
+    riskAdd: 4,
+    scores: ["1-1", "2-1", "2-2"],
+    signals: ["İki takım gol ihtimali marketi", "Düşük oran filtresinden geçti"],
+  },
+  over25: {
+    label: "2.5 Üst",
+    keys: ["over25", "ust25", "over", "ust", "ust_25"],
+    minOdd: 1.58,
+    maxOdd: 3.20,
+    boost: 13,
+    riskAdd: 3,
+    scores: ["2-1", "3-1", "2-2"],
+    signals: ["Ana gol üst marketi", "Değer oran filtresinden geçti"],
+  },
+  over35: {
+    label: "3.5 Üst",
+    keys: ["over35", "ust35", "over3_5", "ust_35"],
+    minOdd: 1.90,
+    maxOdd: 5.80,
+    boost: 14,
+    riskAdd: 12,
+    scores: ["3-1", "2-2", "3-2"],
+    signals: ["Yüksek gol üst marketi", "Yüksek oran / yüksek risk dengesi kontrol edildi"],
+  },
 };
 
-const makeCandidate = (fixture, key, label, odd, baseBoost = 0) => {
+const riskFromScore = (score, odd, riskAdd, riskBias) => {
+  const riskNumber = Math.max(0, Math.round((100 - score) + riskAdd + riskBias + (odd >= 3.5 ? 8 : 0)));
+  if (riskNumber >= 56) return { risk: "Yüksek", riskNumber };
+  if (riskNumber >= 38) return { risk: "Orta", riskNumber };
+  return { risk: "Düşük", riskNumber };
+};
+
+const makeCandidate = (fixture, key, rule) => {
+  const odd = oddValue(fixture, rule.keys);
   if (!odd) return null;
+  if (odd < rule.minOdd || odd > rule.maxOdd) return null;
+
   const league = leagueSignal(fixture.league || fixture.competition_name || "");
-  const favorite = key.startsWith("ms") ? favoriteQualitySignal(odd) : { label: "", delta: 0, risk: 0 };
-  let confidence = impliedProbability(odd) + baseBoost + favorite.delta;
+  const implied = impliedProbability(odd);
+  const valuePremium = Math.min(18, Math.max(0, (odd - rule.minOdd) * 7));
+  let score = implied + rule.boost + league.goalBias + valuePremium;
 
-  if (key === "over25") confidence += league.goalBias;
-  if (key === "draw") confidence += league.drawBias;
-  if (key === "under25" && league.goalBias >= 7) confidence -= 6;
+  if (key === "over35" && league.goalBias < 4) score -= 4;
+  if (key === "firstHalfBttsYes" && odd < 2.00) score -= 3;
+  if (key === "secondHalfBttsYes" && odd < 1.90) score -= 2;
 
-  confidence = Math.max(18, Math.min(86, Math.round(confidence)));
+  score = Math.max(42, Math.min(88, Math.round(score)));
+  if (score < 56) return null;
 
-  const riskNumber = Math.max(0, Math.round((100 - confidence) + league.riskBias + favorite.risk));
-  const risk = riskNumber >= 48 ? "Yüksek" : riskNumber >= 34 ? "Orta" : "Düşük";
-
+  const risk = riskFromScore(score, odd, rule.riskAdd, league.riskBias);
   const signals = [
+    `Market: ${rule.label}`,
     `Oran: ${formatOdd(odd)}`,
-    `Piyasa olasılığı: ${formatPercent(impliedProbability(odd))}`,
+    `Piyasa olasılığı: ${formatPercent(implied)}`,
+    `Değer skoru: ${score}/100`,
+    ...rule.signals,
   ];
 
-  if (key === "over25" && league.goalBias > 0) signals.push("Lig gol eğilimi destekliyor");
-  if (key === "under25" && league.goalBias > 0) signals.push("Lig gol eğilimi nedeniyle alt seçeneği temkinli");
-  if (key === "draw" && league.drawBias > 0) signals.push("Lig beraberlik kontrolü aktif");
-  if (favorite.label) signals.push(favorite.label);
+  if (league.goalBias > 0) signals.push("Lig gol eğilimi pozitif sinyal verdi");
+  if (odd < rule.minOdd) signals.push("Düşük oran filtresine takıldı");
 
   return {
     key,
-    label,
+    label: rule.label,
     odd,
-    confidence,
-    risk,
-    riskNumber,
+    confidence: score,
+    risk: risk.risk,
+    riskNumber: risk.riskNumber,
+    expected_scores: rule.scores,
     signals,
   };
 };
 
-const getCandidates = (fixture) => {
-  const one = oddValue(fixture, ["one", "oneOdd", "ms1", "odd1"]);
-  const draw = oddValue(fixture, ["draw", "drawOdd", "x", "msx", "oddX"]);
-  const two = oddValue(fixture, ["two", "twoOdd", "ms2", "odd2"]);
-  const under25 = oddValue(fixture, ["under25", "alt25", "under", "alt"]);
-  const over25 = oddValue(fixture, ["over25", "ust25", "over", "ust"]);
-  const kgVar = oddValue(fixture, ["bttsYes", "kgVar", "varOdd", "var"]);
-  const kgYok = oddValue(fixture, ["bttsNo", "kgYok", "yokOdd", "yok"]);
-
-  return [
-    makeCandidate(fixture, "ms1", "MS 1", one, 0),
-    makeCandidate(fixture, "draw", "MS X", draw, 2),
-    makeCandidate(fixture, "ms2", "MS 2", two, 0),
-    makeCandidate(fixture, "under25", "2.5 Alt", under25, 1),
-    makeCandidate(fixture, "over25", "2.5 Üst", over25, 2),
-    makeCandidate(fixture, "kgVar", "KG Var", kgVar, 2),
-    makeCandidate(fixture, "kgYok", "KG Yok", kgYok, 1),
-  ].filter(Boolean);
-};
+const getCandidates = (fixture) => Object.entries(marketRules)
+  .map(([key, rule]) => makeCandidate(fixture, key, rule))
+  .filter(Boolean)
+  .sort((a, b) => b.confidence - a.confidence || a.riskNumber - b.riskNumber || b.odd - a.odd);
 
 const tagFor = (score, risk) => {
-  if (risk === "Yüksek" || score < 60) return "Riskli";
-  if (score >= 75) return "Güçlü";
-  return "Değerli";
+  if (risk === "Yüksek" && score < 68) return "Riskli Değer";
+  if (score >= 76) return "Yüksek Değer";
+  if (score >= 66) return "Değerli";
+  return "Takip";
 };
 
-const expectedScoresFor = (selection) => {
+const expectedScoresFor = (selection, fallback = []) => {
+  if (Array.isArray(fallback) && fallback.length) return fallback;
   const text = String(selection || "").toLowerCase();
-  if (text.includes("üst") || text.includes("kg var")) return ["2-1", "2-2"];
-  if (text.includes("alt") || text.includes("kg yok")) return ["1-0", "1-1"];
-  if (text.includes("ms 1")) return ["1-0", "2-1"];
-  if (text.includes("ms 2")) return ["0-1", "1-2"];
-  if (text.includes("x")) return ["1-1", "0-0"];
-  return ["1-0", "2-1"];
+  if (text.includes("ilk yarı") || text.includes("kg var")) return ["1-1", "2-1"];
+  if (text.includes("3.5")) return ["3-1", "2-2"];
+  if (text.includes("2.5")) return ["2-1", "3-1"];
+  return ["2-1", "2-2"];
 };
 
 const scoreFixture = (fixture, index = 0) => {
-  const candidates = getCandidates(fixture).sort((a, b) => b.confidence - a.confidence || a.riskNumber - b.riskNumber);
-  const best = candidates[0];
   const { home, away } = getTeams(fixture);
   const match = `${home} VS ${away}`;
+
+  if (!isCurrentFixture(fixture)) {
+    return {
+      ...fixture,
+      home,
+      away,
+      match,
+      market: "Güncel maç değil",
+      selection: "Güncel maç değil",
+      odds: "-",
+      confidence: "-",
+      lab_probability: "-",
+      trust_score: "-",
+      tag: "Elenmiş",
+      expected_scores: [],
+      score: 0,
+      risk: "-",
+      status: "filtered_old_fixture",
+      hasOdds: false,
+      pro_signals: ["Eski tarihli maç elendi"],
+    };
+  }
+
+  const candidates = getCandidates(fixture);
+  const best = candidates[0];
 
   if (!best) {
     return {
@@ -154,24 +224,24 @@ const scoreFixture = (fixture, index = 0) => {
       home,
       away,
       match,
-      market: "Analiz bekleniyor",
-      selection: "Analiz bekleniyor",
+      market: "Değerli market yok",
+      selection: "Değerli market yok",
       odds: "-",
       confidence: "-",
       lab_probability: "-",
       trust_score: "-",
-      tag: "Beklemede",
+      tag: "Elenmiş",
       expected_scores: [],
       score: 0,
       risk: "-",
-      status: "waiting_for_odds",
+      status: "filtered_no_value_market",
       hasOdds: false,
-      pro_signals: ["Oran verisi bekleniyor"],
+      pro_signals: ["Düşük oran veya eksik veri nedeniyle elendi", "Çifte şans kullanılmadı"],
     };
   }
 
   const rankBoost = Math.max(0, 3 - (index % 4));
-  const score = Math.min(88, best.confidence + rankBoost);
+  const score = Math.min(90, best.confidence + rankBoost);
 
   return {
     ...fixture,
@@ -183,9 +253,9 @@ const scoreFixture = (fixture, index = 0) => {
     odds: formatOdd(best.odd),
     confidence: formatPercent(score),
     lab_probability: formatPercent(score),
-    trust_score: `${Math.max(45, Math.min(90, Math.round(score - 13)))}/100`,
+    trust_score: `${Math.max(50, Math.min(92, Math.round(score - 9)))}/100`,
     tag: tagFor(score, best.risk),
-    expected_scores: expectedScoresFor(best.label),
+    expected_scores: expectedScoresFor(best.label, best.expected_scores),
     score,
     risk: best.risk,
     status: fixture.status || "scheduled",
@@ -227,9 +297,9 @@ const combinedSignals = (items, limit = 6) => items.flatMap((item) => item.pro_s
 const buildCouponAnalysis = (fixtures = []) => {
   const scored = fixtures.map(scoreFixture);
   const ranked = scored
-    .filter((item) => item.hasOdds && item.score >= 45)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 12);
+    .filter((item) => item.hasOdds && item.score >= 56)
+    .sort((a, b) => b.score - a.score || parseOdd(b.odds) - parseOdd(a.odds))
+    .slice(0, 14);
 
   const singles = ranked.slice(0, 6).map((item) => ({
     match: item.match,
@@ -246,14 +316,17 @@ const buildCouponAnalysis = (fixtures = []) => {
 
   const doubles = [];
   const triples = [];
+  const mediumPlus = ranked.filter((item) => parseOdd(item.odds) >= 1.60);
 
-  for (let index = 0; index + 1 < ranked.length && doubles.length < 3; index += 2) {
-    const pair = [ranked[index], ranked[index + 1]];
+  for (let index = 0; index + 1 < mediumPlus.length && doubles.length < 3; index += 2) {
+    const pair = [mediumPlus[index], mediumPlus[index + 1]];
     const avg = Math.round(pair.reduce((sum, item) => sum + item.score, 0) / pair.length);
+    const totalOdd = parseOdd(combinedOdds(pair));
+    if (!totalOdd || totalOdd < 2.40) continue;
     doubles.push({
       match: pair.map((item) => item.match).join(" + "),
       market: pair.map((item) => item.market).join(" + "),
-      odds: combinedOdds(pair),
+      odds: totalOdd.toFixed(2),
       confidence: `${avg}%`,
       score: avg,
       risk: pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta",
@@ -264,13 +337,15 @@ const buildCouponAnalysis = (fixtures = []) => {
     });
   }
 
-  for (let index = 0; index + 2 < ranked.length && triples.length < 2; index += 3) {
-    const trio = [ranked[index], ranked[index + 1], ranked[index + 2]];
+  for (let index = 0; index + 2 < mediumPlus.length && triples.length < 2; index += 3) {
+    const trio = [mediumPlus[index], mediumPlus[index + 1], mediumPlus[index + 2]];
     const avg = Math.round(trio.reduce((sum, item) => sum + item.score, 0) / trio.length);
+    const totalOdd = parseOdd(combinedOdds(trio));
+    if (!totalOdd || totalOdd < 3.20) continue;
     triples.push({
       match: trio.map((item) => item.match).join(" + "),
       market: trio.map((item) => item.market).join(" + "),
-      odds: combinedOdds(trio),
+      odds: totalOdd.toFixed(2),
       confidence: `${avg}%`,
       score: avg,
       risk: "Yüksek",
