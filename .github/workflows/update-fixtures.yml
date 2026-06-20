@@ -1,4 +1,4 @@
-name: Update fixtures
+name: Update fixtures and High Value Engine
 
 on:
   schedule:
@@ -52,11 +52,14 @@ jobs:
       - name: Import robot raw pool into site data
         run: node scripts/import-robot-raw-pool.js
 
-      - name: Build robot analysis report
+      - name: Validate High Value Coupon Engine
+        run: node -e "require('./scripts/robot-coupon-engine'); console.log('High Value Coupon Engine ready')"
+
+      - name: Build High Value Coupon Engine report
         run: node scripts/update-analysis-report.js
 
-      - name: Commit and push changes
+      - name: Commit and push High Value Engine outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update Mackolik fixtures and analysis"
+          commit_message: "Update fixtures and High Value Coupon Engine"
           file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json data/analiz_sonuclari.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md bu-klas-r-i-in-basit/data/ham_mac_havuzu.json bu-klas-r-i-in-basit/data/tahmin_gecmisi.json bu-klas-r-i-in-basit/data/canli-veri.json bu-klas-r-i-in-basit/data/analiz_sonuclari.json bu-klas-r-i-in-basit/outputs/bugunun_en_guclu_maclari.md bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md bu-klas-r-i-in-basit/outputs/basari_yuzdesi_raporu.md
