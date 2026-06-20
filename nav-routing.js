@@ -1,7 +1,7 @@
 // Site içi tek sayfa yönlendirmeleri
 // Tek yetkili router: menü, hero butonları ve dinamik paneller burada yönetilir.
 (() => {
-  const VERSION = "20260620-1835";
+  const VERSION = "20260620-1845";
   let syntheticLoadTimer = null;
   let observerReady = false;
 
