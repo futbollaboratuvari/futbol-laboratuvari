@@ -130,6 +130,13 @@
     item("1Y 1.5 Üst", pick(fixture, ["firstHalfOver15", "iyUst15", "iy_ust_15", "first_half_over_15"]))
   );
 
+  const goalRangeHtml = (fixture) => category("Toplam Gol Aralığı",
+    item("0-1 Gol", pick(fixture, ["totalGoals01", "goalRange01", "golAraligi01", "gol_araligi_01", "toplam_gol_01"])) +
+    item("2-3 Gol", pick(fixture, ["totalGoals23", "goalRange23", "golAraligi23", "gol_araligi_23", "toplam_gol_23"])) +
+    item("4-5 Gol", pick(fixture, ["totalGoals45", "goalRange45", "golAraligi45", "gol_araligi_45", "toplam_gol_45"])) +
+    item("6+ Gol", pick(fixture, ["totalGoals6Plus", "goalRange6Plus", "golAraligi6Plus", "gol_araligi_6_plus", "toplam_gol_6_plus"]))
+  );
+
   const teamOverUnderHtml = (fixture) => category("Taraf Alt / Üst",
     item("Ev Sahibi 2.5 Alt", pick(fixture, ["homeUnder25", "evAlt25", "ev_alt_25", "home_team_under_25"])) +
     item("Ev Sahibi 2.5 Üst", pick(fixture, ["homeOver25", "evUst25", "ev_ust_25", "home_team_over_25"])) +
@@ -157,7 +164,7 @@
 
   const extraHtml = (row) => {
     const fixture = findFixture(row);
-    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${handicapHtml(fixture)}${matchDoubleChanceHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${teamOverUnderHtml(fixture)}${halfBttsHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
+    return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${halfResultHtml(fixture)}${handicapHtml(fixture)}${matchDoubleChanceHtml(fixture)}${halfDoubleChanceHtml(fixture)}${overUnderHtml(fixture)}${goalRangeHtml(fixture)}${teamOverUnderHtml(fixture)}${halfBttsHtml(fixture)}${firstSecondBttsHtml(fixture)}`;
   };
 
   const makeExtra = (row) => {
