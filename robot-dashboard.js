@@ -236,10 +236,14 @@ function robotRenderReports(state) {
 async function robotBoot() {
   const state = await robotLoadState();
   const visibleMatches = state.matches || [];
+  const averageConfidence = robotAverageConfidence(visibleMatches);
+  const strongestSignal = robotStrongestSignal(visibleMatches);
   robotSet("[data-active-source]", state.source);
   robotSet("[data-match-count]", String(visibleMatches.length));
-  robotSet("[data-average-confidence]", robotAverageConfidence(visibleMatches));
-  robotSet("[data-strongest-signal]", robotStrongestSignal(visibleMatches));
+  robotSet("[data-average-confidence]", averageConfidence);
+  robotSet("#avg-confidence", averageConfidence);
+  robotSet("[data-strongest-signal]", strongestSignal);
+  robotSet("#top-market", strongestSignal);
   robotSet("[data-raw-count]", String(state.rawPool.match_count || state.rawPool.matches?.length || 0));
   robotSet("[data-prediction-count]", String(state.history.prediction_count || state.history.predictions?.length || 0));
   robotSet("[data-load-status]", visibleMatches.length ? "Robot verisi" : "Canlı veri bekleniyor");
