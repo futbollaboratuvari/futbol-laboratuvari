@@ -95,6 +95,9 @@ const pickOdds = (item) => {
   set(["ikinci_yari_1", "ikinciYari1", "secondHalfOne", "second_half_1", "secondHalf1"], ["ikinciYari1", "secondHalfOne", "second_half_1"]);
   set(["ikinci_yari_x", "ikinciYariX", "secondHalfDraw", "second_half_x", "secondHalfX"], ["ikinciYariX", "secondHalfDraw", "second_half_x"]);
   set(["ikinci_yari_2", "ikinciYari2", "secondHalfTwo", "second_half_2", "secondHalf2"], ["ikinciYari2", "secondHalfTwo", "second_half_2"]);
+  set(["iy_cifte_1x", "iyCifte1x", "firstHalfDoubleChance1X", "first_half_dc_1x"], ["iyCifte1x", "firstHalfDoubleChance1X", "first_half_dc_1x"]);
+  set(["iy_cifte_12", "iyCifte12", "firstHalfDoubleChance12", "first_half_dc_12"], ["iyCifte12", "firstHalfDoubleChance12", "first_half_dc_12"]);
+  set(["iy_cifte_x2", "iyCifteX2", "firstHalfDoubleChanceX2", "first_half_dc_x2"], ["iyCifteX2", "firstHalfDoubleChanceX2", "first_half_dc_x2"]);
   set(["iy2y_kg_evet_evet", "iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes"], ["iy2yKgYesYes", "firstSecondBttsYesYes", "ht2hBttsYesYes"]);
   set(["iy2y_kg_evet_hayir", "iy2y_kg_evet_hayır", "iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo"], ["iy2yKgYesNo", "firstSecondBttsYesNo", "ht2hBttsYesNo"]);
   set(["iy2y_kg_hayir_evet", "iy2y_kg_hayır_evet", "iy2yKgNoYes", "firstSecondBttsNoYes", "ht2hBttsNoYes"], ["iy2yKgNoYes", "firstSecondBttsNoYes", "ht2hBttsNoYes"]);
@@ -108,6 +111,7 @@ const hasOdds = (item) => {
   return Boolean(
     odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.kgVar || odds.kgYok ||
     odds.iy1 || odds.iyX || odds.iy2 || odds.ikinciYari1 || odds.ikinciYariX || odds.ikinciYari2 ||
+    odds.iyCifte1x || odds.iyCifte12 || odds.iyCifteX2 ||
     odds.iy2yKgYesYes || odds.iy2yKgYesNo || odds.iy2yKgNoYes || odds.iy2yKgNoNo
   );
 };
@@ -290,6 +294,9 @@ const main = () => {
         ikinci_yari_1: fixture.ikinciYari1 ?? null,
         ikinci_yari_x: fixture.ikinciYariX ?? null,
         ikinci_yari_2: fixture.ikinciYari2 ?? null,
+        iy_cifte_1x: fixture.iyCifte1x ?? null,
+        iy_cifte_12: fixture.iyCifte12 ?? null,
+        iy_cifte_x2: fixture.iyCifteX2 ?? null,
         iy2y_kg_evet_evet: fixture.iy2yKgYesYes ?? null,
         iy2y_kg_evet_hayir: fixture.iy2yKgYesNo ?? null,
         iy2y_kg_hayir_evet: fixture.iy2yKgNoYes ?? null,
