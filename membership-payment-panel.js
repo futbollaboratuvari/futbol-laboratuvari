@@ -35,6 +35,20 @@
     document.head.appendChild(style);
   };
 
+  const ensureShell = () => {
+    let shell = document.getElementById(PANEL_ID);
+    if (!shell) {
+      shell = document.createElement("section");
+      shell.id = PANEL_ID;
+      shell.className = "membership-shell";
+      shell.setAttribute("aria-label", "Üyelik ve ödeme paneli");
+    }
+    const main = document.querySelector("main");
+    if (main && shell.parentElement !== main) main.appendChild(shell);
+    else if (!main && !shell.parentElement) document.body.appendChild(shell);
+    return shell;
+  };
+
   const planDurationText = (plan) => `${plan.trial_label || "1 Gün Ücretsiz Deneme"} + satın alınca ${plan.duration_label || `${plan.duration_days} gün`}`;
 
   const planTone = (plan) => {
@@ -52,16 +66,7 @@
 
   const render = (plans) => {
     injectStyle();
-    let shell = document.getElementById(PANEL_ID);
-    if (!shell) {
-      shell = document.createElement("section");
-      shell.id = PANEL_ID;
-      shell.className = "membership-shell";
-      shell.setAttribute("aria-label", "Üyelik ve ödeme paneli");
-      const target = document.getElementById("premium-analysis-panel") || document.querySelector("#kupon-merkezi") || document.querySelector("main");
-      if (target && target.parentNode) target.parentNode.insertBefore(shell, target);
-      else document.body.appendChild(shell);
-    }
+    const shell = ensureShell();
 
     shell.innerHTML = `
       <div class="membership-head">
@@ -181,7 +186,13 @@
   const load = async () => {
     const plans = await readJson(PLANS_URL, []);
     render(Array.isArray(plans) ? plans : []);
+    document.dispatchEvent(new CustomEvent("fl:runtime-ready"));
   };
 
-  window.addEventListener("load", load);
+  const start = () => {
+    load();
+  };
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
+  else start();
 })();
