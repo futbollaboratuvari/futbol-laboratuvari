@@ -28,7 +28,7 @@
     if (row.nextElementSibling?.classList.contains("daily-extra")) return row.nextElementSibling;
     const extra = document.createElement("div");
     extra.className = "daily-extra";
-    extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar</strong><div class="daily-extra-grid">${item("MS 1", cell(row, 2))}${item("MS X", cell(row, 3))}${item("MS 2", cell(row, 4))}${item("2.5 Alt", cell(row, 5))}${item("2.5 Üst", cell(row, 6))}${item("KG Var", cell(row, 7))}${item("KG Yok", cell(row, 8))}</div>`;
+    extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar</strong><div class="daily-extra-grid">${item("MS 1", cell(row, 3))}${item("MS X", cell(row, 4))}${item("MS 2", cell(row, 5))}${item("2.5 Alt", cell(row, 6))}${item("2.5 Üst", cell(row, 7))}${item("KG Var", cell(row, 8))}${item("KG Yok", cell(row, 9))}</div>`;
     row.after(extra);
     return extra;
   };
