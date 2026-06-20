@@ -22,6 +22,42 @@
     document.body.appendChild(script);
   };
 
+  const normalizeSamePageLinks = () => {
+    document.querySelectorAll('a[href^="./index.html#"], a[href^="index.html#"], a[href^="/futbol-laboratuvari/index.html#"]').forEach((link) => {
+      const href = String(link.getAttribute("href") || "");
+      const hashIndex = href.indexOf("#");
+      if (hashIndex >= 0) link.setAttribute("href", href.slice(hashIndex));
+    });
+  };
+
+  const retargetDailyLinks = () => {
+    document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => {
+      const label = String(link.textContent || "").toLowerCase();
+      if (label.includes("bugünün maç") || label.includes("maçlarını gör")) {
+        link.setAttribute("href", "#daily-matches-widget");
+      }
+    });
+  };
+
+  const syncStaticCopy = () => {
+    const section = document.querySelector("#yaklasan-maclar");
+    if (!section) return;
+    const eyebrow = section.querySelector(".section-heading .eyebrow");
+    const title = section.querySelector(".section-heading h2");
+    const paragraph = section.querySelector(".section-heading p:last-child");
+    if (eyebrow) eyebrow.textContent = "Bugünün Maç Bülteni";
+    if (title) title.textContent = "Maç bülteni özeti";
+    if (paragraph) paragraph.textContent = "Asıl maç listesi, oran tablosu ve detaylı oranlar Günlük Maç Bülteni alanında gösterilir.";
+  };
+
+  const prepareLinksAndCopy = () => {
+    normalizeSamePageLinks();
+    retargetDailyLinks();
+    syncStaticCopy();
+  };
+
+  prepareLinksAndCopy();
+
   ensureStylesheet("nav-position.css", "nav-position-style");
   ensureStylesheet("header-fixes.css", "header-fixes-style");
 
@@ -68,24 +104,15 @@
   ensureScript("spor-toto-v3-fix.js", "spor-toto-v3-fix-script");
   ensureScript("hero-top-pick-fix.js", "hero-top-pick-fix-script");
 
-  const retargetDailyLinks = () => {
-    document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => {
-      const label = String(link.textContent || "").toLowerCase();
-      if (label.includes("bugünün maç") || label.includes("maçlarını gör")) {
-        link.setAttribute("href", "#daily-matches-widget");
-      }
-    });
-  };
-
-  retargetDailyLinks();
-
   const header = document.querySelector(".site-header");
   const nav = document.querySelector(".nav-links");
   const menuButton = document.querySelector(".menu-toggle");
   const internalLinks = [...document.querySelectorAll('a[href*="#"]')].filter((link) => {
     try {
       const url = new URL(link.getAttribute("href"), window.location.href);
-      return url.pathname === window.location.pathname && Boolean(url.hash);
+      const current = window.location.pathname.replace(/\/index\.html$/, "/");
+      const target = url.pathname.replace(/\/index\.html$/, "/");
+      return target === current && Boolean(url.hash);
     } catch {
       return false;
     }
@@ -153,7 +180,7 @@
   }
 
   window.addEventListener("load", () => {
-    retargetDailyLinks();
+    prepareLinksAndCopy();
     if (window.location.hash && document.querySelector(window.location.hash)) {
       setTimeout(() => goToSection(window.location.hash, false), 80);
     } else {
