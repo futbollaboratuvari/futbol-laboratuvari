@@ -1,5 +1,5 @@
 (() => {
-  const VERSION = "20260620-1940-stable";
+  const VERSION = "20260620-2010-panel-stable";
   const versioned = (src) => (src.includes("?") ? src : `${src}?v=${VERSION}`);
 
   const sameAsset = (value, src) => {
@@ -32,10 +32,14 @@
   };
 
   const resolveHash = (hash) => hash === "#yaklasan-maclar" ? "#daily-matches-widget" : hash;
+  const panelHashes = new Set(["#daily-matches-widget", "#robot-analizleri", "#membership-payment-panel", "#premium-analysis-panel"]);
   const headerOffset = () => (document.querySelector(".site-header")?.offsetHeight || 0) + 18;
 
   const goToSection = (hash, updateHistory = true) => {
     const targetHash = resolveHash(hash);
+    if (panelHashes.has(targetHash)) {
+      window.dispatchEvent(new CustomEvent("fl:open-panel", { detail: { id: targetHash.slice(1), scroll: true } }));
+    }
     const target = document.querySelector(targetHash);
     if (!target) return false;
     const top = target.getBoundingClientRect().top + window.scrollY - headerOffset();
@@ -50,6 +54,7 @@
     document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => link.setAttribute("href", "#daily-matches-widget"));
     ensureStylesheet("nav-position.css", "nav-position-style");
     ensureStylesheet("header-fixes.css", "header-fixes-style");
+    ensureScript("panel-stabilizer.js", "panel-stabilizer-script");
     ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
     ensureScript("daily-toggle.js", "daily-toggle-script");
     ensureScript("match-results-widget.js", "match-results-widget-script");
