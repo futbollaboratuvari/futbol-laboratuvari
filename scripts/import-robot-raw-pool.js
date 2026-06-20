@@ -85,6 +85,9 @@ const pickOdds = (item) => {
   set(["ms_1", "one", "oneOdd", "ms1", "odd1"], ["one", "oneOdd", "ms1", "odd1"]);
   set(["ms_x", "draw", "drawOdd", "msx", "oddX"], ["draw", "drawOdd", "msx", "oddX"]);
   set(["ms_2", "two", "twoOdd", "ms2", "odd2"], ["two", "twoOdd", "ms2", "odd2"]);
+  set(["hnd_1", "hnd1", "handicapOne", "handicap_1"], ["hnd1", "handicapOne", "handicap_1"]);
+  set(["hnd_x", "hndX", "hndDraw", "handicapDraw", "handicap_x"], ["hndX", "hndDraw", "handicapDraw", "handicap_x"]);
+  set(["hnd_2", "hnd2", "handicapTwo", "handicap_2"], ["hnd2", "handicapTwo", "handicap_2"]);
   set(["alt_25", "under25", "alt25", "under", "alt"], ["under25", "alt25", "under", "alt"]);
   set(["ust_25", "over25", "ust25", "over", "ust"], ["over25", "ust25", "over", "ust"]);
   set(["alt_35", "under35", "alt35", "under3_5"], ["under35", "alt35", "under3_5"]);
@@ -125,7 +128,8 @@ const pickOdds = (item) => {
 const hasOdds = (item) => {
   const odds = pickOdds(item);
   return Boolean(
-    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 ||
+    odds.oneOdd || odds.drawOdd || odds.twoOdd || odds.hnd1 || odds.hndX || odds.hnd2 ||
+    odds.under25 || odds.over25 || odds.under35 || odds.over35 || odds.iyAlt15 || odds.iyUst15 ||
     odds.evAlt25 || odds.evUst25 || odds.depAlt15 || odds.depUst15 || odds.evIyAlt05 || odds.evIyUst05 || odds.depIyAlt05 || odds.depIyUst05 ||
     odds.kgVar || odds.kgYok || odds.iyKgVar || odds.iyKgYok || odds.ikinciYariKgVar || odds.ikinciYariKgYok ||
     odds.iy1 || odds.iyX || odds.iy2 || odds.ikinciYari1 || odds.ikinciYariX || odds.ikinciYari2 ||
@@ -302,6 +306,9 @@ const main = () => {
         ms_1: fixture.oneOdd ?? null,
         ms_x: fixture.drawOdd ?? null,
         ms_2: fixture.twoOdd ?? null,
+        hnd_1: fixture.hnd1 ?? null,
+        hnd_x: fixture.hndX ?? null,
+        hnd_2: fixture.hnd2 ?? null,
         alt_25: fixture.under25 ?? null,
         ust_25: fixture.over25 ?? null,
         alt_35: fixture.under35 ?? null,
