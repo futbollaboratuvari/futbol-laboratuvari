@@ -2,11 +2,15 @@ name: Update fixtures
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-fixtures-live-data
+  cancel-in-progress: true
 
 jobs:
   update-fixtures:
