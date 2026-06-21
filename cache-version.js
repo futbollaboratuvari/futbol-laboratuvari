@@ -1,5 +1,6 @@
 (() => {
-  const version = "20260621-premium-kg-percent-v2";
+  const version = "20260621-premium-kg-percent-v3";
+  const ownerCode = "CEM-ANALIZ-2026";
   document.documentElement.dataset.flCacheVersion = version;
 
   const scripts = [
@@ -19,4 +20,15 @@
     script.defer = true;
     document.body.appendChild(script);
   });
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest?.("[data-premium-unlock]");
+    if (!button) return;
+    const input = document.querySelector("[data-premium-code]");
+    const code = String(input?.value || "").trim().toUpperCase();
+    if (code !== ownerCode) return;
+    localStorage.setItem("fl_premium_beta_access", "1");
+    window.location.hash = "#premium-analysis-panel";
+    window.location.reload();
+  }, true);
 })();
