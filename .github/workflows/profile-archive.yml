@@ -41,8 +41,11 @@ jobs:
       - name: Build lineup signals
         run: node scripts/lineup-lite.js
 
+      - name: Build home away performance
+        run: node scripts/home-away-lite.js
+
       - name: Commit profile archive outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update profile archive"
-          file_pattern: data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/source-reading-plan.json data/team-status-signals.json data/lineup-signals.json data/archive/*-profiles.json data/archive/*-source-plan.json data/archive/*-team-status.json data/archive/*-lineups.json
+          file_pattern: data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/source-reading-plan.json data/team-status-signals.json data/lineup-signals.json data/home-away-performance.json data/archive/*-profiles.json data/archive/*-source-plan.json data/archive/*-team-status.json data/archive/*-lineups.json data/archive/*-home-away.json
