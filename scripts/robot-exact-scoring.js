@@ -23,6 +23,7 @@ const get = (fixture, key) => fixture?.[key]
   ?? fixture?.odds?.[key]
   ?? fixture?.oranlar?.[key]
   ?? fixture?.detay_oranlar?.[key]
+  ?? fixture?.raw_market_guess_odds?.[key]
   ?? fixture?.analysis?.[key]
   ?? fixture?.stats?.[key];
 
@@ -105,9 +106,9 @@ const closedDefense = (fixture) => flag(fixture, [
 const marketRules = {
   firstHalfBttsYes: { label: "İlk Yarı KG Var", keys: ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"], minOdd: 1.85, maxOdd: 5.50, scores: ["1-1", "2-1"] },
   secondHalfBttsYes: { label: "İkinci Yarı KG Var", keys: ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"], minOdd: 1.75, maxOdd: 5.25, scores: ["2-1", "2-2"] },
-  kgVar: { label: "KG Var", keys: ["bttsYes", "kgVar", "varOdd", "var", "kg_var"], minOdd: 1.60, maxOdd: 3.80, scores: ["1-1", "2-1", "2-2"] },
+  kgVar: { label: "KG Var", keys: ["bttsYes", "kgVar", "varOdd", "var", "kg_var", "bttsYes_guess"], minOdd: 1.60, maxOdd: 3.80, scores: ["1-1", "2-1", "2-2"] },
   over25: { label: "2.5 Üst", keys: ["over25", "ust25", "over", "ust", "ust_25"], minOdd: 1.58, maxOdd: 3.20, scores: ["2-1", "3-1", "2-2"] },
-  over35: { label: "3.5 Üst", keys: ["over35", "ust35", "over3_5", "ust_35"], minOdd: 1.90, maxOdd: 5.80, scores: ["3-1", "2-2", "3-2"] },
+  over35: { label: "3.5 Üst", keys: ["over35", "ust35", "over3_5", "ust_35", "over35_guess"], minOdd: 1.90, maxOdd: 5.80, scores: ["3-1", "2-2", "3-2"] },
 };
 
 const oddFor = (fixture, keys) => {
@@ -150,6 +151,7 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
   if (trendHigh(fixture, ["secondHalfGoalTrend", "ikinci_yari_gol_egilimi", "second_half_goal_pct"])) { score += 10; signals.push("İkinci yarı gol eğilimi yüksek: +10"); }
   if (candidate?.odd > 1.70) { score += 10; signals.push("Oran 1.70 üzeri: +10"); }
   if (candidate?.odd > 2.20) signals.push("Oran 2.20 üzeri: Yüksek Değer etiketi");
+  if (candidate?.oddSource === "raw_market_guess_odds") signals.push("Ham detay blok tahmini kullanıldı");
   if (riskyContext(fixture)) { score -= 10; signals.push("Kritik/derbi/belirsiz maç: -10"); }
   if (closedDefense(fixture)) { score -= 10; signals.push("Kapalı savunma riski: -10"); }
   if (missing > 0) { score -= 15; signals.push("Veri eksikliği var: -15"); }
@@ -180,9 +182,10 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
 const candidateFor = (fixture, key, rule) => {
   const odd = oddFor(fixture, rule.keys);
   if (!odd || odd < rule.minOdd || odd > rule.maxOdd) return null;
-  const analysis = buildMatchAnalysis(fixture, { key, odd });
+  const oddSource = rule.keys.some((item) => String(item).includes("_guess")) && fixture?.raw_market_guess_odds ? "raw_market_guess_odds" : "standard";
+  const analysis = buildMatchAnalysis(fixture, { key, odd, oddSource });
   if (analysis.analysis_score < 50) return null;
-  return { key, label: rule.label, odd, confidence: analysis.analysis_score, risk: analysis.analysis_score >= 75 ? "Düşük" : analysis.analysis_score >= 60 ? "Orta" : "Yüksek", expected_scores: rule.scores, analysis, value_label: analysis.value_label, signals: [`Market: ${rule.label}`, `Oran: ${formatOdd(odd)}`, `Değer etiketi: ${analysis.value_label}`, ...analysis.signals] };
+  return { key, label: rule.label, odd, confidence: analysis.analysis_score, risk: analysis.analysis_score >= 75 ? "Düşük" : analysis.analysis_score >= 60 ? "Orta" : "Yüksek", expected_scores: rule.scores, analysis, value_label: analysis.value_label, odd_source_type: oddSource, signals: [`Market: ${rule.label}`, `Oran: ${formatOdd(odd)}`, `Veri tipi: ${oddSource}`, `Değer etiketi: ${analysis.value_label}`, ...analysis.signals] };
 };
 
 const candidatesFor = (fixture) => Object.entries(marketRules)
@@ -202,7 +205,7 @@ const scoreFixture = (fixture) => {
   if (!best) return emptyScore(fixture, "Değerli market yok", "filtered_no_value_market", ["Düşük oran veya eksik veri nedeniyle elendi", "Çifte şans kullanılmadı"]);
   const t = teams(fixture);
   const score = best.confidence;
-  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: best.label, selection: best.label, odds: formatOdd(best.odd), confidence: pct(score), lab_probability: pct(score), trust_score: `${score}/100`, tag: best.analysis.analysis_class, value_label: best.value_label, expected_scores: best.expected_scores, score, risk: best.risk, status: fixture.status || "scheduled", hasOdds: true, analysis_score: score, analysis_class: best.analysis.analysis_class, data_gap_risk: best.analysis.data_gap_risk, analysis_metrics: best.analysis.metrics, pro_signals: best.signals };
+  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: best.label, selection: best.label, odds: formatOdd(best.odd), confidence: pct(score), lab_probability: pct(score), trust_score: `${score}/100`, tag: best.analysis.analysis_class, value_label: best.value_label, expected_scores: best.expected_scores, score, risk: best.risk, status: fixture.status || "scheduled", hasOdds: true, analysis_score: score, analysis_class: best.analysis.analysis_class, data_gap_risk: best.analysis.data_gap_risk, analysis_metrics: best.analysis.metrics, odd_source_type: best.odd_source_type, pro_signals: best.signals };
 };
 
 const legFromItem = (item, number) => ({ number, home: item.home, away: item.away, match: item.match, date: item.date || "", time: item.time || "", league: item.league || item.competition_name || "", selection: item.selection || item.market, option: item.selection || item.market, odds: item.odds, lab_probability: item.lab_probability || item.confidence, confidence: item.confidence, trust_score: item.trust_score, risk: item.risk, tag: item.tag, value_label: item.value_label, analysis_score: item.analysis_score, analysis_class: item.analysis_class, data_gap_risk: item.data_gap_risk, expected_scores: item.expected_scores || [], signals: item.pro_signals || [] });
