@@ -56,6 +56,29 @@ function asOdd(value) {
   return Number.isFinite(n) && n > 1 ? Number(n.toFixed(2)) : null;
 }
 
+function namedBlock(index, block) {
+  const values = block.values || [];
+  if (index === 0 && values.length >= 3) {
+    return { ...block, guess: 'Maç Sonucu', named_values: { ms1: values[0], msx: values[1], ms2: values[2] } };
+  }
+  if (index === 1 && values.length >= 2) {
+    return { ...block, guess: '2.5 Alt / Üst', named_values: { under25: values[0], over25: values[1] } };
+  }
+  if (index === 2 && values.length >= 2) {
+    return { ...block, guess: 'KG Var / Yok tahmini', named_values: { bttsYes_guess: values[0], bttsNo_guess: values[1] } };
+  }
+  if (index === 3 && values.length >= 2) {
+    return { ...block, guess: '3.5 Alt / Üst tahmini', named_values: { under35_guess: values[0], over35_guess: values[1] } };
+  }
+  if (values.length === 2) {
+    return { ...block, guess: 'İki seçenekli ham market', named_values: { option_a: values[0], option_b: values[1] } };
+  }
+  if (values.length === 3) {
+    return { ...block, guess: 'Üç seçenekli ham market', named_values: { option_1: values[0], option_x: values[1], option_2: values[2] } };
+  }
+  return { ...block, guess: 'Ham detay market', named_values: {} };
+}
+
 function parseBlocks(cells = []) {
   const blocks = [];
   for (let i = 0; i < cells.length; i += 1) {
@@ -69,7 +92,17 @@ function parseBlocks(cells = []) {
       blocks.push({ market_code: String(cells[i]).trim(), values });
     }
   }
-  return blocks;
+  return blocks.map((block, index) => namedBlock(index, block));
+}
+
+function flattenGuesses(blocks = []) {
+  const out = {};
+  for (const block of blocks) {
+    for (const [key, value] of Object.entries(block.named_values || {})) {
+      if (out[key] === undefined) out[key] = value;
+    }
+  }
+  return out;
 }
 
 function enrichFixtures() {
@@ -83,6 +116,7 @@ function enrichFixtures() {
     rawMap.set(keyOf(row), {
       matchCode: row.mac_kodu || row.matchCode || null,
       raw_market_blocks: blocks,
+      raw_market_guess_odds: flattenGuesses(blocks),
       raw_market_block_count: blocks.length,
       raw_market_value_count: blocks.reduce((sum, block) => sum + block.values.length, 0)
     });
@@ -94,6 +128,7 @@ function enrichFixtures() {
     return {
       ...fixture,
       raw_market_blocks: details.raw_market_blocks,
+      raw_market_guess_odds: details.raw_market_guess_odds,
       raw_market_block_count: details.raw_market_block_count,
       raw_market_value_count: details.raw_market_value_count,
       raw_market_source: 'Robot ham veri hücreleri'
@@ -107,6 +142,7 @@ function enrichFixtures() {
       league: item.league || item.competition_name || item.lig || '-',
       date: item.date || item.tarih || item.utc_date || '-',
       time: item.time || item.saat || '-',
+      raw_market_guess_odds: item.raw_market_guess_odds,
       raw_market_blocks: item.raw_market_blocks,
       raw_market_block_count: item.raw_market_block_count,
       raw_market_value_count: item.raw_market_value_count
@@ -122,4 +158,4 @@ function enrichFixtures() {
 }
 
 if (require.main === module) enrichFixtures();
-module.exports = { enrichFixtures, parseBlocks };
+module.exports = { enrichFixtures, parseBlocks, namedBlock };
