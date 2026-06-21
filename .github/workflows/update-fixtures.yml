@@ -60,6 +60,10 @@ jobs:
         continue-on-error: true
         run: node scripts/import-robot-raw-pool.js
 
+      - name: Build detail candidates
+        continue-on-error: true
+        run: node scripts/raw-block-lite.js
+
       - name: Validate High Value Coupon Engine
         run: node -e "require('./scripts/robot-exact-scoring'); console.log('High Value Coupon Engine ready')"
 
@@ -85,5 +89,5 @@ jobs:
             echo "No output changes to commit"
             exit 0
           fi
-          git commit -m "Update fixtures and High Value Coupon Engine"
+          git commit -m "Update fixtures and High Value Engine"
           git push origin HEAD:main || true
