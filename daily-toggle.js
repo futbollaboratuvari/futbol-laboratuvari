@@ -35,17 +35,20 @@
     const style = document.createElement("style");
     style.id = "daily-toggle-style";
     style.textContent = `
-      .daily-extra{display:none;grid-column:1/-1;width:100%;max-width:100%;box-sizing:border-box;margin:0;padding:10px;border:1px solid rgba(57,255,136,.18);border-radius:0 0 14px 14px;background:rgba(3,8,23,.96);overflow:hidden}
+      .daily-extra{display:none;grid-column:1/-1;width:100%;max-width:100%;box-sizing:border-box;margin:0;padding:12px;border:1px solid rgba(57,255,136,.2);border-radius:0 0 16px 16px;background:linear-gradient(180deg,rgba(5,12,30,.98),rgba(2,7,18,.98));box-shadow:inset 0 1px 0 rgba(255,255,255,.04);overflow:hidden}
       .daily-extra.open{display:block}
-      .daily-extra-title{display:block;max-width:100%;margin:0 0 8px;color:#ffe08a;font-size:13px;line-height:1.25;overflow-wrap:anywhere}
-      .daily-extra-category{margin:0 0 8px;padding:8px;border:1px solid rgba(255,255,255,.07);border-radius:10px;background:rgba(255,255,255,.025);overflow:hidden}
-      .daily-extra-subtitle{margin:0 0 6px;color:#c8ffdd;font-size:11px;font-weight:950;letter-spacing:.035em;line-height:1.2;text-transform:uppercase}
-      .daily-extra-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;width:100%;max-width:100%;box-sizing:border-box}
+      .daily-extra-title{display:block;max-width:100%;margin:0 0 10px;color:#ffe08a;font-size:13px;font-weight:950;line-height:1.25;letter-spacing:.02em;overflow-wrap:anywhere}
+      .daily-extra-category{margin:0 0 10px;border:1px solid rgba(255,224,138,.16);border-radius:14px;background:rgba(255,255,255,.028);overflow:hidden}
+      .daily-extra-subtitle{display:flex;align-items:center;min-height:32px;margin:0;padding:8px 10px;border-bottom:1px solid rgba(255,224,138,.14);background:rgba(255,224,138,.055);color:#ffe08a;font-size:11px;font-weight:950;letter-spacing:.04em;line-height:1.2;text-transform:uppercase}
+      .daily-extra-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;width:100%;max-width:100%;box-sizing:border-box;padding:10px}
       .daily-extra-grid.triple{grid-template-columns:repeat(3,minmax(0,1fr))}
-      .daily-market-item{min-width:0;min-height:28px;display:flex;align-items:center;justify-content:space-between;gap:6px;padding:5px 8px;border:1px solid rgba(255,255,255,.08);border-radius:8px;background:rgba(255,255,255,.04);color:#d7e4f5;font-size:12px;line-height:1.15;box-sizing:border-box;overflow:hidden}
-      .daily-market-item span,.daily-market-item b{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-      .daily-market-item b{color:#ffe08a;font-weight:900}.daily-extra-empty{padding:6px 8px;border:1px dashed rgba(255,255,255,.09);border-radius:8px;color:#8fa0b5;font-size:12px;line-height:1.2;background:rgba(255,255,255,.025)}
-      @media(max-width:720px){.daily-extra{margin-top:-4px;border-radius:12px;padding:8px}.daily-extra-category{margin-bottom:7px;padding:7px}.daily-extra-grid,.daily-extra-grid.triple{grid-template-columns:1fr;gap:5px}.daily-market-item{min-height:26px;padding:5px 7px;font-size:12px}.daily-market-item span,.daily-market-item b{white-space:normal;overflow-wrap:anywhere}}
+      .daily-market-item{min-width:0;min-height:58px;display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;gap:7px;padding:9px 10px;border:1px solid rgba(255,255,255,.16);border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.035));color:#d7e4f5;box-shadow:inset 0 1px 0 rgba(255,255,255,.045);box-sizing:border-box;overflow:hidden}
+      .daily-market-name{display:block;min-width:0;color:#8fa0b5;font-size:11px;font-weight:800;line-height:1.15;letter-spacing:.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+      .daily-market-value{display:block;min-width:0;color:#ffe08a;font-size:16px;font-weight:950;line-height:1.1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+      .daily-extra-empty{margin:10px;padding:10px 12px;border:1px dashed rgba(255,255,255,.14);border-radius:12px;color:#8fa0b5;font-size:12px;line-height:1.25;background:rgba(255,255,255,.025);text-align:center}
+      @media(max-width:900px){.daily-extra-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.daily-extra-grid.triple{grid-template-columns:repeat(3,minmax(0,1fr))}}
+      @media(max-width:720px){.daily-extra{margin-top:-4px;border-radius:12px;padding:8px}.daily-extra-title{margin-bottom:8px}.daily-extra-category{margin-bottom:8px;border-radius:12px}.daily-extra-subtitle{min-height:30px;padding:7px 9px}.daily-extra-grid,.daily-extra-grid.triple{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding:8px}.daily-market-item{min-height:54px;padding:8px}.daily-market-name,.daily-market-value{white-space:normal;overflow-wrap:anywhere}.daily-market-value{font-size:15px}}
+      @media(max-width:380px){.daily-extra-grid,.daily-extra-grid.triple{grid-template-columns:1fr}.daily-market-item{min-height:48px}}
     `;
     document.head.appendChild(style);
   };
@@ -64,13 +67,13 @@
 
   const item = (label, value) => {
     if (empty(value)) return "";
-    return `<div class="daily-market-item"><span>${escapeHtml(label)}</span><b>${escapeHtml(value)}</b></div>`;
+    return `<div class="daily-market-item"><span class="daily-market-name">${escapeHtml(label)}</span><b class="daily-market-value">${escapeHtml(value)}</b></div>`;
   };
   const category = (title, html, extraClass = "") => {
     const content = String(html || "").trim();
     const body = content
       ? `<div class="daily-extra-grid ${extraClass}">${content}</div>`
-      : `<div class="daily-extra-empty">Bölüm için veri yok</div>`;
+      : `<div class="daily-extra-empty">Bu bölüm için veri yok</div>`;
     return `<section class="daily-extra-category"><div class="daily-extra-subtitle">${escapeHtml(title)}</div>${body}</section>`;
   };
 
