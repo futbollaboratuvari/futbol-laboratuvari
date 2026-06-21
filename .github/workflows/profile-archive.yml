@@ -32,8 +32,11 @@ jobs:
       - name: Update profile archive
         run: node scripts/profile-lite.js
 
+      - name: Build source reading plan
+        run: node scripts/source-plan-lite.js
+
       - name: Commit profile archive outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update profile archive"
-          file_pattern: data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/archive/*-profiles.json
+          file_pattern: data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/source-reading-plan.json data/archive/*-profiles.json data/archive/*-source-plan.json
