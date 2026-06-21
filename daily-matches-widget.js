@@ -52,9 +52,9 @@
     firstSecondBttsNoYes_guess: "Yok/Var", firstSecondBttsNoNo_guess: "Yok/Yok",
     goalRange01_guess: "0-1 Gol", goalRange23_guess: "2-3 Gol",
     goalRange45_guess: "4-5 Gol", goalRange6Plus_guess: "6+ Gol",
-    htFt11_guess: "1/1", htFt1X_guess: "1/X", htFt12_guess: "1/2",
-    htFtX1_guess: "X/1", htFtXX_guess: "X/X", htFtX2_guess: "X/2",
-    htFt21_guess: "2/1", htFt2X_guess: "2/X", htFt22_guess: "2/2",
+    htFt11_guess: "1’den 1", htFt1X_guess: "1’den X", htFt12_guess: "1’den 2",
+    htFtX1_guess: "X’ten 1", htFtXX_guess: "X’ten X", htFtX2_guess: "X’ten 2",
+    htFt21_guess: "2’den 1", htFt2X_guess: "2’den X", htFt22_guess: "2’den 2",
     option_a: "A", option_b: "B", option_1: "1", option_x: "X", option_2: "2"
   };
 
@@ -126,24 +126,33 @@
       market("2Y 1", pick(match, ["secondHalf1", "secondHalfOne", "ikinciYari1", "secondHalf1_guess"])) + market("2Y X", pick(match, ["secondHalfX", "secondHalfDraw", "ikinciYariX", "secondHalfX_guess"])) + market("2Y 2", pick(match, ["secondHalf2", "secondHalfTwo", "ikinciYari2", "secondHalf2_guess"]))
     );
 
+    const iyms = section("İY/MS",
+      market("1’den 1", pick(match, ["htFt11", "iyMs11", "half_time_full_time_11", "htFt11_guess"])) +
+      market("1’den X", pick(match, ["htFt1X", "iyMs1x", "half_time_full_time_1x", "htFt1X_guess"])) +
+      market("1’den 2", pick(match, ["htFt12", "iyMs12", "half_time_full_time_12", "htFt12_guess"])) +
+      market("X’ten 1", pick(match, ["htFtX1", "iyMsX1", "half_time_full_time_x1", "htFtX1_guess"])) +
+      market("X’ten X", pick(match, ["htFtXX", "iyMsXx", "half_time_full_time_xx", "htFtXX_guess"])) +
+      market("X’ten 2", pick(match, ["htFtX2", "iyMsX2", "half_time_full_time_x2", "htFtX2_guess"])) +
+      market("2’den 1", pick(match, ["htFt21", "iyMs21", "half_time_full_time_21", "htFt21_guess"])) +
+      market("2’den X", pick(match, ["htFt2X", "iyMs2x", "half_time_full_time_2x", "htFt2X_guess"])) +
+      market("2’den 2", pick(match, ["htFt22", "iyMs22", "half_time_full_time_22", "htFt22_guess"]))
+    );
+
     const teamGoals = section("Takım Golü",
       market("Ev 1.5 Alt", pick(match, ["homeUnder15", "evAlt15", "homeUnder15_guess"])) + market("Ev 1.5 Üst", pick(match, ["homeOver15", "evUst15", "homeOver15_guess"])) +
       market("Dep 1.5 Alt", pick(match, ["awayUnder15", "depAlt15", "awayUnder15_guess"])) + market("Dep 1.5 Üst", pick(match, ["awayOver15", "depUst15", "awayOver15_guess"]))
     );
 
-    const ranges = section("Gol Aralığı / İY-MS",
+    const ranges = section("Gol Aralığı",
       market("0-1 Gol", pick(match, ["goalRange01", "goalRange01_guess"])) + market("2-3 Gol", pick(match, ["goalRange23", "goalRange23_guess"])) +
-      market("4-5 Gol", pick(match, ["goalRange45", "goalRange45_guess"])) + market("6+ Gol", pick(match, ["goalRange6Plus", "goalRange6Plus_guess"])) +
-      market("1/1", pick(match, ["htFt11", "htFt11_guess"])) + market("1/X", pick(match, ["htFt1X", "htFt1X_guess"])) + market("1/2", pick(match, ["htFt12", "htFt12_guess"])) +
-      market("X/1", pick(match, ["htFtX1", "htFtX1_guess"])) + market("X/X", pick(match, ["htFtXX", "htFtXX_guess"])) + market("X/2", pick(match, ["htFtX2", "htFtX2_guess"])) +
-      market("2/1", pick(match, ["htFt21", "htFt21_guess"])) + market("2/X", pick(match, ["htFt2X", "htFt2X_guess"])) + market("2/2", pick(match, ["htFt22", "htFt22_guess"]))
+      market("4-5 Gol", pick(match, ["goalRange45", "goalRange45_guess"])) + market("6+ Gol", pick(match, ["goalRange6Plus", "goalRange6Plus_guess"]))
     );
 
     const candidates = Array.isArray(match.detail_market_candidates) ? match.detail_market_candidates.slice(0, 14) : [];
     const candidateHtml = candidates.map((item) => market(item.market || "Detay", valuesText(item.values))).join("");
     const candidateSection = section("Diğer Detaylar", candidateHtml);
 
-    const html = kg + totals + halfTotals + halfResult + teamGoals + ranges + candidateSection;
+    const html = kg + totals + halfTotals + halfResult + iyms + teamGoals + ranges + candidateSection;
     return html || `<div class="daily-extra-empty">Bu maç için detay oran akışı yok.</div>`;
   };
 
