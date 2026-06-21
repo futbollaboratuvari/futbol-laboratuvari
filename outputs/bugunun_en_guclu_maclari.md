@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-06-21T04:34:37.363Z
+- Güncelleme: 2026-06-21T10:24:38.072Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -222,6 +222,8 @@
 | Rana VS Follo | Norveç 2.Lig Grup 2 | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Okzhetpes VS Tobol Kostanay | Kazakistan Premier Lig | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Stabaek 2 VS Varhaug | Norveç 3.Lig Grup 4 | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Slutsk VS Bate Ii | Belarus 1.Lig | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Mekelakeya VS Ethiopian Insur | Etiyopya Premier Lig | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Trygg/Lade VS Lorenskog | Norveç 2.Lig Grup 2 | 15:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Nejmeh VS Mabarra | Lübnan Premier Lig | 15:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Oster VS Falkenberg | İsveç Superettan | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
@@ -265,6 +267,7 @@
 | Fk Dainava VS Fa Siauliai Ii | Litvanya 1.Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | B36 Torshavn VS Hb Torshavn | Faroe Adaları Master Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Vestur Sorvagu VS Ab Argir | Faroe Adaları Master Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Energetik-Bgu VS Uni Minsk | Belarus 1.Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Sanat Mes Kerm VS Pars Jam Busheh | İran Azadegan Ligi | 17:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Ostersund VS Norrkoping | İsveç Superettan | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Norrby VS United Nordic | İsveç Superettan | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
@@ -272,10 +275,12 @@
 | Grorud Il VS Ik Junkeren | Norveç 2.Lig Grup 2 | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Riga Fc VS Liepaja | Letonya Virsliga | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Aktobe VS Astana | Kazakistan Premier Lig | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Shire Endasela VS Kedus Giorgis | Etiyopya Premier Lig | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Nassaji Mazand VS Mes Shahr-E Bab | İran Azadegan Ligi | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | İspanya VS Suudi Arabistan | Dünya Kupası 2026 Grup H | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Ir Reykjavik VS Völsungur | İzlanda 1.Lig | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Sanat Naft VS Shahrdari Nosha | İran Azadegan Ligi | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Molde VS Kfum Oslo | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Antofagasta VS La Serena | Şili Kupa Grup C | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Huachipato VS Puerto Montt | Şili Kupa Grup H | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Neman Grodno VS Dinamo Minsk | Belarus Premier Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |

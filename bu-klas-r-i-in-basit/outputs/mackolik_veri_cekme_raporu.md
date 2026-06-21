@@ -1,25 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-21T04:34:36.562748+00:00
+Tarih: 2026-06-21T10:24:37.376819+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 107
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 107
-- Ham veri havuzu toplam mac sayisi: 299
+- Kac mac bulundu: 100
+- Kac mac kaydedildi: 5
+- Kac mac zaten vardi: 95
+- Ham veri havuzu toplam mac sayisi: 304
 - Hedef tarih: 21.06.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL Lig 2 Heartland Grubu
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Queensland
-- Avustralya NPL Victoria
-- Avustralya NPL Yeni Güney Galler
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Brezilya Serie B
 - Dünya Kupası 2026 Grup G
@@ -28,7 +25,7 @@ Tarih: 2026-06-21T04:34:36.562748+00:00
 - Etiyopya Premier Lig
 - Faroe Adaları Master Lig
 - Fas Botola Pro
-- Güney Kore K3 Ligi
+- Hazırlık Kulüpler
 - Kazakistan Premier Lig
 - Kuveyt Premier Lig Küme Düşme Grubu
 - Letonya Virsliga
@@ -110,8 +107,8 @@ Tarih: 2026-06-21T04:34:36.562748+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 49
-- Acilan detay: 49
+- Denenen Tumu alani: 47
+- Acilan detay: 47
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -126,24 +123,24 @@ Tarih: 2026-06-21T04:34:36.562748+00:00
 |---|---|---|---|---|---|---:|
 | 21.06.2026 | 22:00 | Dünya Kupası 2026 Grup G | Belçika | İran | 15477 | 5 |
 | 21.06.2026 | 19:00 | Dünya Kupası 2026 Grup H | İspanya | Suudi Arabistan | 15412 | 4 |
-| 21.06.2026 | 14:00 | Çin Halk Cumhuriyeti FA Kupası 4.Tur | Suzhou Dongwu | Yunnan Yukun | 06674 | 5 |
-| 21.06.2026 | 18:00 | İsveç Superettan | Norrby | United Nordic | 12838 | 5 |
+| 21.06.2026 | 14:00 | Çin Halk Cumhuriyeti FA Kupası 4.Tur | Suzhou Dongwu | Yunnan Yukun | 06674 | 4 |
 | 21.06.2026 | 18:00 | İsveç Superettan | Ostersund | Norrkoping | 12892 | 5 |
+| 21.06.2026 | 18:00 | İsveç Superettan | Norrby | United Nordic | 12838 | 5 |
 | 21.06.2026 | 16:00 | İsveç Superettan | Oster | Falkenberg | 12727 | 5 |
 | 21.06.2026 | 16:00 | İsveç Superettan | Brage | Varnamo | 12671 | 5 |
 | 21.06.2026 | 16:00 | İsveç Superettan | Helsingborg | Sundsvall | 12611 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Raja Casablanc | Codm Meknes | 01821 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Difaa | Wydad Casablanc | 05678 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Ol. Safi | Yacoub El Manso | 03270 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Fus Rabat | Olympique Dchei | 05688 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Husa Agadir | Uts Rabat | 05528 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Ittihad Tanger | Cr Khemis Zemam | 03326 | 5 |
 | 21.06.2026 | 17:00 | Fas Botola Pro | Maghreb Fes | Rsb Berkane | 08386 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Strommen | Stabaek | 13857 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Egersunds | Haugesund | 13645 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Husa Agadir | Uts Rabat | 05528 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Ol. Safi | Yacoub El Manso | 03270 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Raja Casablanc | Codm Meknes | 01821 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Fus Rabat | Olympique Dchei | 05688 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Difaa | Wydad Casablanc | 05678 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Ittihad Tanger | Cr Khemis Zemam | 03326 | 5 |
 | 21.06.2026 | 17:00 | Norveç 1.Lig | Bryne | Asane | 13603 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Kongsvinger | Stromsgodset | 13687 | 5 |
 | 21.06.2026 | 17:00 | Norveç 1.Lig | Moss | Sandnes | 13729 | 5 |
+| 21.06.2026 | 17:00 | Norveç 1.Lig | Raufoss | Sogndal | 13813 | 5 |
+| 21.06.2026 | 17:00 | Norveç 1.Lig | Kongsvinger | Stromsgodset | 13687 | 5 |
+| 21.06.2026 | 17:00 | Norveç 1.Lig | Egersunds | Haugesund | 13645 | 5 |
 
 ## Sonuc
 
