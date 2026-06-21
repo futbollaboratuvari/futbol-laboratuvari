@@ -1,31 +1,50 @@
 (() => {
-  const numberFromText = (value) => {
-    const match = String(value || "").match(/\d+/);
-    return match ? match[0] : "0";
-  };
-
   const setText = (selector, value) => {
     document.querySelectorAll(selector).forEach((node) => {
       node.textContent = value;
     });
   };
 
+  const clean = (value) => String(value || "").trim();
+  const isEmptyNumber = (value) => {
+    const text = clean(value).replace("%", "").replace(",", ".");
+    return text === "" || text === "0" || text === "0.0" || text === "0.00" || text === "-";
+  };
+
+  const numberFromText = (value) => {
+    const match = String(value || "").match(/\d+/);
+    return match ? match[0] : "";
+  };
+
+  const applyFallback = () => {
+    const today = document.querySelector("#today-count");
+    const avg = document.querySelector("#avg-confidence");
+    const top = document.querySelector("#top-market");
+
+    if (today && isEmptyNumber(today.textContent)) today.textContent = "Hazırlanıyor";
+    if (avg && isEmptyNumber(avg.textContent)) avg.textContent = "Veri bekleniyor";
+    if (top && isEmptyNumber(top.textContent)) top.textContent = "Günün sinyali hazırlanıyor";
+  };
+
   const syncTodayCount = () => {
     const countNode = document.querySelector("[data-daily-widget-count]");
     if (!countNode) return;
-    setText("#today-count", numberFromText(countNode.textContent));
+    const count = numberFromText(countNode.textContent);
+    setText("#today-count", count && count !== "0" ? count : "Hazırlanıyor");
   };
 
   const syncRobotSummary = () => {
-    const avg = document.querySelector("[data-average-confidence]")?.textContent?.trim();
-    const top = document.querySelector("[data-strongest-signal]")?.textContent?.trim();
-    if (avg) setText("#avg-confidence", avg);
-    if (top) setText("#top-market", top);
+    const avg = clean(document.querySelector("[data-average-confidence]")?.textContent);
+    const top = clean(document.querySelector("[data-strongest-signal]")?.textContent);
+
+    setText("#avg-confidence", !isEmptyNumber(avg) ? avg : "Veri bekleniyor");
+    setText("#top-market", !isEmptyNumber(top) ? top : "Günün sinyali hazırlanıyor");
   };
 
   const sync = () => {
     syncTodayCount();
     syncRobotSummary();
+    applyFallback();
   };
 
   const observe = () => {
@@ -45,7 +64,8 @@
   window.addEventListener("load", () => {
     sync();
     observe();
-    setTimeout(sync, 500);
+    setTimeout(sync, 250);
+    setTimeout(sync, 800);
     setTimeout(sync, 1500);
     setTimeout(sync, 3000);
   }, { once: true });
