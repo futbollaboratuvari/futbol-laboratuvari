@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+try {
+  require('./update-match-archive.js');
+} catch (error) {
+  console.warn(`match archive cleanup skipped: ${error.message}`);
+}
+
 const file = path.join(__dirname, '..', 'data', 'live-matches.json');
 
 function validJsonText(text) {
