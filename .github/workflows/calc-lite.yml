@@ -1,0 +1,26 @@
+name: Calc lite
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/calc-run.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  calc-lite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node scripts/band-lite.js
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update calc lite"
+          file_pattern: data/*.json
