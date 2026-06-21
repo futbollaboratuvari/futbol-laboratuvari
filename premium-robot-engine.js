@@ -69,39 +69,20 @@
 
   const mapMarket = (market) => {
     const table = {
-      "MS 1": ["ms1", "one", "odd1"],
-      "MS X": ["msx", "draw", "oddX"],
-      "MS 2": ["ms2", "two", "odd2"],
-      "2.5 Alt": ["under25", "alt25", "under25_guess"],
-      "2.5 Üst": ["over25", "ust25", "over25_guess"],
-      "KG Var": ["bttsYes", "kgVar", "bttsYes_guess"],
-      "KG Yok": ["bttsNo", "kgYok", "bttsNo_guess"],
-      "1Y KG Var": ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"],
-      "1Y KG Yok": ["firstHalfBttsNo", "iyKgYok", "firstHalfBttsNo_guess"],
-      "2Y KG Var": ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"],
-      "2Y KG Yok": ["secondHalfBttsNo", "ikinciYariKgYok", "secondHalfBttsNo_guess"],
-      "1Y/2Y KG Evet/Evet": ["firstSecondBttsYesYes", "firstSecondBttsYesYes_guess"],
-      "1Y/2Y KG Hayır/Hayır": ["firstSecondBttsNoNo", "firstSecondBttsNoNo_guess"],
-      "1Y/2Y KG Evet/Hayır": ["firstSecondBttsYesNo", "firstSecondBttsYesNo_guess"],
-      "1Y/2Y KG Hayır/Evet": ["firstSecondBttsNoYes", "firstSecondBttsNoYes_guess"],
-      "1Y KG %": ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"],
-      "2Y KG %": ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"],
+      "MS 1": ["ms1", "one", "odd1"], "MS X": ["msx", "draw", "oddX"], "MS 2": ["ms2", "two", "odd2"],
+      "2.5 Alt": ["under25", "alt25", "under25_guess"], "2.5 Üst": ["over25", "ust25", "over25_guess"],
+      "KG Var": ["bttsYes", "kgVar", "bttsYes_guess"], "KG Yok": ["bttsNo", "kgYok", "bttsNo_guess"],
+      "1Y KG Var": ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"], "1Y KG Yok": ["firstHalfBttsNo", "iyKgYok", "firstHalfBttsNo_guess"],
+      "2Y KG Var": ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"], "2Y KG Yok": ["secondHalfBttsNo", "ikinciYariKgYok", "secondHalfBttsNo_guess"],
+      "1Y/2Y KG Evet/Evet": ["firstSecondBttsYesYes", "firstSecondBttsYesYes_guess"], "1Y/2Y KG Hayır/Hayır": ["firstSecondBttsNoNo", "firstSecondBttsNoNo_guess"],
+      "1Y/2Y KG Evet/Hayır": ["firstSecondBttsYesNo", "firstSecondBttsYesNo_guess"], "1Y/2Y KG Hayır/Evet": ["firstSecondBttsNoYes", "firstSecondBttsNoYes_guess"],
+      "1Y KG %": ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"], "2Y KG %": ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"],
       "1Y KG % + 2Y KG %": ["firstHalfBttsYes", "firstHalfBttsYes_guess", "secondHalfBttsYes", "secondHalfBttsYes_guess"],
-      "İY 1": ["firstHalf1", "iy1", "firstHalf1_guess"],
-      "İY X": ["firstHalfX", "iyX", "firstHalfX_guess"],
-      "İY 2": ["firstHalf2", "iy2", "firstHalf2_guess"],
-      "2Y 1": ["secondHalf1", "ikinciYari1", "secondHalf1_guess"],
-      "2Y X": ["secondHalfX", "ikinciYariX", "secondHalfX_guess"],
-      "2Y 2": ["secondHalf2", "ikinciYari2", "secondHalf2_guess"],
-      "İY/MS 1’den 1": ["htFt11", "iyMs11", "htFt11_guess"],
-      "İY/MS 1’den X": ["htFt1X", "iyMs1x", "htFt1X_guess"],
-      "İY/MS 1’den 2": ["htFt12", "iyMs12", "htFt12_guess"],
-      "İY/MS X’ten 1": ["htFtX1", "iyMsX1", "htFtX1_guess"],
-      "İY/MS X’ten X": ["htFtXX", "iyMsXx", "htFtXX_guess"],
-      "İY/MS X’ten 2": ["htFtX2", "iyMsX2", "htFtX2_guess"],
-      "İY/MS 2’den 1": ["htFt21", "iyMs21", "htFt21_guess"],
-      "İY/MS 2’den X": ["htFt2X", "iyMs2x", "htFt2X_guess"],
-      "İY/MS 2’den 2": ["htFt22", "iyMs22", "htFt22_guess"]
+      "İY 1": ["firstHalf1", "iy1", "firstHalf1_guess"], "İY X": ["firstHalfX", "iyX", "firstHalfX_guess"], "İY 2": ["firstHalf2", "iy2", "firstHalf2_guess"],
+      "2Y 1": ["secondHalf1", "ikinciYari1", "secondHalf1_guess"], "2Y X": ["secondHalfX", "ikinciYariX", "secondHalfX_guess"], "2Y 2": ["secondHalf2", "ikinciYari2", "secondHalf2_guess"],
+      "İY/MS 1’den 1": ["htFt11", "iyMs11", "htFt11_guess"], "İY/MS 1’den X": ["htFt1X", "iyMs1x", "htFt1X_guess"], "İY/MS 1’den 2": ["htFt12", "iyMs12", "htFt12_guess"],
+      "İY/MS X’ten 1": ["htFtX1", "iyMsX1", "htFtX1_guess"], "İY/MS X’ten X": ["htFtXX", "iyMsXx", "htFtXX_guess"], "İY/MS X’ten 2": ["htFtX2", "iyMsX2", "htFtX2_guess"],
+      "İY/MS 2’den 1": ["htFt21", "iyMs21", "htFt21_guess"], "İY/MS 2’den X": ["htFt2X", "iyMs2x", "htFt2X_guess"], "İY/MS 2’den 2": ["htFt22", "iyMs22", "htFt22_guess"]
     };
     return table[market] || [];
   };
@@ -142,22 +123,32 @@
     return { created_at: new Date().toISOString(), match, market, odd, percent, grade: g.label, home_form: formText(home), away_form: formText(away), notes, source: "premium_robot_engine" };
   };
 
+  const riskDistribution = (analyses) => analyses.reduce((acc, item) => {
+    if (item.grade === "Güçlü") acc.strong += 1;
+    else if (item.grade === "Orta") acc.medium += 1;
+    else if (item.grade === "Riskli") acc.risky += 1;
+    else acc.wait += 1;
+    return acc;
+  }, { strong: 0, medium: 0, risky: 0, wait: 0 });
+
+  const couponRisk = (avg, d) => {
+    if (d.risky >= 2 || avg < 55) return "Yüksek Risk";
+    if (d.risky || d.medium >= 2 || avg < 64) return "Orta Risk";
+    return "Dengeli Kupon";
+  };
+
   const buildCoupon = (analyses, market) => {
     const percents = analyses.map((x) => Number(x.percent || 0)).filter(Boolean);
     const avg = percents.length ? Math.round(percents.reduce((a, b) => a + b, 0) / percents.length) : 0;
     const odds = analyses.map((x) => parseOdd(x.odd)).filter(Boolean);
     const totalOdd = odds.length === analyses.length ? odds.reduce((a, b) => a * b, 1).toFixed(2) : "Veri yok";
     const g = grade(avg);
+    const distribution = riskDistribution(analyses);
+    const riskLevel = couponRisk(avg || 0, distribution);
     return {
-      created_at: new Date().toISOString(),
-      coupon: true,
-      match: { home: "Kupon", away: `${analyses.length} maç` },
-      market,
-      analyses,
-      odd: totalOdd,
-      percent: avg,
-      grade: g.label,
-      notes: [`${analyses.length} maç aynı market üzerinden kupon analizi olarak oluşturuldu.`, `Ortalama robot sinyali: ${avg ? `%${avg}` : "veri bekliyor"}.`, `Toplam oran: ${totalOdd}.`],
+      created_at: new Date().toISOString(), coupon: true, match: { home: "Kupon", away: `${analyses.length} maç` }, market,
+      analyses, odd: totalOdd, percent: avg, grade: g.label, risk_level: riskLevel, risk_distribution: distribution,
+      notes: [`${analyses.length} maç aynı market üzerinden kupon analizi olarak oluşturuldu.`, `Ortalama robot sinyali: ${avg ? `%${avg}` : "veri bekliyor"}.`, `Toplam oran: ${totalOdd}.`, `Risk seviyesi: ${riskLevel}.`],
       source: "premium_coupon_engine"
     };
   };
@@ -169,9 +160,18 @@
     localStorage.setItem(QUEUE_KEY, JSON.stringify(next));
   };
 
+  const couponText = (coupon) => {
+    if (!coupon?.coupon) return "";
+    const rows = coupon.analyses.map((a, i) => `${i + 1}) ${a.match.home} - ${a.match.away} | ${a.market} | ${a.grade} | ${a.percent ? `%${a.percent}` : "Veri"} | Oran: ${a.odd || "Yok"}`);
+    return [`Futbol Laboratuvarı Kupon Analizi`, `Market: ${coupon.market}`, `Maç Sayısı: ${coupon.analyses.length}`, `Toplam Oran: ${coupon.odd}`, `Ortalama Sinyal: ${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}`, `Risk: ${coupon.risk_level}`, ...rows].join("\n");
+  };
+
   const renderSingleOutput = (analysis) => `<h3>Robot Analizi</h3><div class="premium-result"><h4>${esc(analysis.grade)} sinyal</h4><div class="premium-row"><span>Maç</span><strong>${esc(analysis.match.home)} - ${esc(analysis.match.away)}</strong></div><div class="premium-row"><span>Market</span><strong>${esc(analysis.market)}</strong></div><div class="premium-row"><span>Oran</span><strong>${esc(analysis.odd || "Veri yok")}</strong></div><div class="premium-row"><span>Olasılık</span><strong>${analysis.percent ? `%${analysis.percent}` : "Veri bekliyor"}</strong></div><div class="premium-factor-list"><span class="premium-factor">📊 Ev sahibi: ${esc(analysis.home_form)}</span><span class="premium-factor">📈 Deplasman: ${esc(analysis.away_form)}</span>${analysis.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
 
-  const renderCouponOutput = (coupon) => `<h3>Kupon Analizi</h3><div class="premium-result"><h4>${coupon.analyses.length} maçlık kupon</h4><div class="premium-row"><span>Market</span><strong>${esc(coupon.market)}</strong></div><div class="premium-row"><span>Toplam Oran</span><strong>${esc(coupon.odd)}</strong></div><div class="premium-row"><span>Ortalama Sinyal</span><strong>${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}</strong></div><div class="premium-factor-list">${coupon.analyses.map((a, i) => `<span class="premium-factor">${i + 1}. ${esc(a.match.home)} - ${esc(a.match.away)} · ${esc(a.grade)} · ${a.percent ? `%${a.percent}` : "Veri"} · Oran: ${esc(a.odd || "Yok")}</span>`).join("")}${coupon.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
+  const renderCouponOutput = (coupon) => {
+    const d = coupon.risk_distribution || { strong: 0, medium: 0, risky: 0, wait: 0 };
+    return `<h3>Kupon Analizi</h3><div class="premium-result"><h4>${coupon.analyses.length} maçlık kupon</h4><div class="premium-row"><span>Market</span><strong>${esc(coupon.market)}</strong></div><div class="premium-row"><span>Toplam Oran</span><strong>${esc(coupon.odd)}</strong></div><div class="premium-row"><span>Ortalama Sinyal</span><strong>${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}</strong></div><div class="premium-row"><span>Risk</span><strong>${esc(coupon.risk_level || "-")}</strong></div><div class="premium-row"><span>Risk Dağılımı</span><strong>G:${d.strong} O:${d.medium} R:${d.risky} V:${d.wait}</strong></div><button class="premium-action" type="button" data-copy-coupon>Kuponu Kopyala</button><div class="premium-factor-list">${coupon.analyses.map((a, i) => `<span class="premium-factor">${i + 1}. ${esc(a.match.home)} - ${esc(a.match.away)} · ${esc(a.grade)} · ${a.percent ? `%${a.percent}` : "Veri"} · Oran: ${esc(a.odd || "Yok")}</span>`).join("")}${coupon.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
+  };
 
   const renderRobotOutput = (analysis) => {
     const output = document.querySelector("#premium-analysis-panel [data-premium-output]");
@@ -200,7 +200,15 @@
     return true;
   };
 
-  document.addEventListener("click", (event) => {
+  document.addEventListener("click", async (event) => {
+    const copyButton = event.target.closest?.("#premium-analysis-panel [data-copy-coupon]");
+    if (copyButton) {
+      const coupon = JSON.parse(localStorage.getItem(RESULT_KEY) || "{}");
+      const text = couponText(coupon);
+      if (text && navigator.clipboard?.writeText) await navigator.clipboard.writeText(text);
+      copyButton.textContent = "Kupon Kopyalandı";
+      return;
+    }
     const button = event.target.closest?.("#premium-analysis-panel [data-premium-analyze]");
     if (!button) return;
     setTimeout(runRobot, 60);
