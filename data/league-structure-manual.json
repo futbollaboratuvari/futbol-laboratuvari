@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-06-21T03:15:00+03:00",
+  "purpose": "Lig yapısı, ülke futbol karakteri ve analiz önceliği için başlangıç dosyası.",
+  "policy": "Bu dosya robotun ligleri tanıması içindir. Güncel takım sayısı ve format bilgileri izinli kaynak/API/manual import ile güncellenir.",
+  "countries": {
+    "japan": {
+      "country_name": "Japonya",
+      "main_leagues": ["J1 League", "J2 League", "J3 League"],
+      "calendar_type": "spring_autumn",
+      "style_tags": ["tempo", "teknik", "disiplin", "gecis_oyunu"],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Uzak lig ve kadro rotasyonu bilgisi eksikse veri riski artar."
+    },
+    "germany": {
+      "country_name": "Almanya",
+      "main_leagues": ["Bundesliga", "2. Bundesliga", "3. Liga"],
+      "calendar_type": "autumn_spring",
+      "style_tags": ["pres", "tempo", "gollu", "gecis_oyunu"],
+      "goal_tendency": "yuksek",
+      "risk_note": "Tempo yüksek olduğu için üst ve KG marketleri takip edilir."
+    },
+    "italy": {
+      "country_name": "İtalya",
+      "main_leagues": ["Serie A", "Serie B", "Serie C"],
+      "calendar_type": "autumn_spring",
+      "style_tags": ["taktik", "savunma", "kontrol", "denge"],
+      "goal_tendency": "orta",
+      "risk_note": "Düşük tempo ve taktiksel maçlarda üst market riski artabilir."
+    },
+    "england": {
+      "country_name": "İngiltere",
+      "main_leagues": ["Premier League", "Championship", "League One", "League Two"],
+      "calendar_type": "autumn_spring",
+      "style_tags": ["tempo", "fizik", "pres", "genis_kadro"],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Yoğun fikstür ve rotasyon kontrol edilmelidir."
+    },
+    "france": {
+      "country_name": "Fransa",
+      "main_leagues": ["Ligue 1", "Ligue 2"],
+      "calendar_type": "autumn_spring",
+      "style_tags": ["fizik", "gencler", "denge", "gecis_oyunu"],
+      "goal_tendency": "orta",
+      "risk_note": "Kadrolar genç ve değişken olabilir; takım haberleri önemlidir."
+    },
+    "spain": {
+      "country_name": "İspanya",
+      "main_leagues": ["La Liga", "Segunda Division", "Primera RFEF"],
+      "calendar_type": "autumn_spring",
+      "style_tags": ["pas", "teknik", "kontrol", "set_oyunu"],
+      "goal_tendency": "orta",
+      "risk_note": "Topa sahip olma yüksek ama tempo düşükse üst market dikkat ister."
+    },
+    "austria": {
+      "country_name": "Avusturya",
+      "main_leagues": ["Austrian Bundesliga", "2. Liga"],
+      "calendar_type": "autumn_spring",
+      "style_tags": ["pres", "tempo", "genc_oyuncu", "gollu"],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Genç kadrolar ve tempo sebebiyle maçtan maça dalgalanma olabilir."
+    },
+    "australia": {
+      "country_name": "Avustralya",
+      "main_leagues": ["A-League Men", "NPL"],
+      "calendar_type": "spring_autumn_or_summer_mix",
+      "style_tags": ["acik_oyun", "fizik", "tempo", "uzak_lig"],
+      "goal_tendency": "orta_yuksek",
+      "risk_note": "Uzak lig ve saat farkı nedeniyle veri tazeliği kontrol edilmelidir."
+    }
+  }
+}
