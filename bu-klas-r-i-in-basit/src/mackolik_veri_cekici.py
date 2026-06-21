@@ -12,6 +12,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 try:
     from ham_veri_havuzu import havuz_oku, havuz_yaz, maclari_havuza_ekle
@@ -23,6 +24,8 @@ MACKOLIK_URL = "https://arsiv.mackolik.com/Iddaa-Programi"
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_RAW_POOL_FILE = Path("data") / "ham_mac_havuzu.json"
 DEFAULT_REPORT_FILE = Path("outputs") / "mackolik_veri_cekme_raporu.md"
+ISTANBUL_TZ = ZoneInfo("Europe/Istanbul")
+MAX_DETAIL_BUTTONS = 90
 
 FORBIDDEN_ACTION_TEXTS = (
     "kupona ekle",
@@ -45,25 +48,52 @@ ODD_FIELDS = {
     "ms_1": ("1", "ms 1", "mac sonucu 1", "maç sonucu 1"),
     "ms_x": ("x", "ms x", "mac sonucu x", "maç sonucu x"),
     "ms_2": ("2", "ms 2", "mac sonucu 2", "maç sonucu 2"),
-    "kg_var": ("kg var", "var", "karşılıklı gol var", "karsilikli gol var"),
-    "kg_yok": ("kg yok", "yok", "karşılıklı gol yok", "karsilikli gol yok"),
+    "kg_var": ("kg var", "karşılıklı gol var", "karsilikli gol var", "both teams to score yes"),
+    "kg_yok": ("kg yok", "karşılıklı gol yok", "karsilikli gol yok", "both teams to score no"),
     "alt_25": ("2.5 alt", "alt 2.5", "2,5 alt", "alt 2,5"),
     "ust_25": ("2.5 üst", "2.5 ust", "üst 2.5", "ust 2.5", "2,5 üst", "2,5 ust"),
     "alt_35": ("3.5 alt", "alt 3.5", "3,5 alt", "alt 3,5"),
     "ust_35": ("3.5 üst", "3.5 ust", "üst 3.5", "ust 3.5", "3,5 üst", "3,5 ust"),
-    "iy_kg": ("iy kg", "ilk yari kg", "ilk yarı kg", "ilk yarı karşılıklı gol", "ilk yari karsilikli gol"),
-    "ikinci_yari_kg": ("2y kg", "ikinci yari kg", "ikinci yarı kg", "ikinci yarı karşılıklı gol", "ikinci yari karsilikli gol"),
-    "iy_ms": ("iy/ms", "iy ms", "ilk yari/mac sonucu", "ilk yarı/maç sonucu"),
-    "iy_1": ("ilk yarı 1", "ilk yari 1", "iy 1"),
-    "iy_x": ("ilk yarı x", "ilk yari x", "iy x"),
-    "iy_2": ("ilk yarı 2", "ilk yari 2", "iy 2"),
-    "cifte_1x": ("1x", "çifte şans 1x", "cifte sans 1x"),
-    "cifte_12": ("12", "çifte şans 12", "cifte sans 12"),
-    "cifte_x2": ("x2", "çifte şans x2", "cifte sans x2"),
+    "iy_kg_var": ("1. yarı kg var", "1. yari kg var", "ilk yarı kg var", "ilk yari kg var", "iy kg var", "ilk yarı karşılıklı gol var"),
+    "iy_kg_yok": ("1. yarı kg yok", "1. yari kg yok", "ilk yarı kg yok", "ilk yari kg yok", "iy kg yok", "ilk yarı karşılıklı gol yok"),
+    "ikinci_yari_kg_var": ("2. yarı kg var", "2. yari kg var", "ikinci yarı kg var", "ikinci yari kg var", "2y kg var"),
+    "ikinci_yari_kg_yok": ("2. yarı kg yok", "2. yari kg yok", "ikinci yarı kg yok", "ikinci yari kg yok", "2y kg yok"),
+    "iy_1": ("ilk yarı 1", "ilk yari 1", "1. yarı 1", "1. yari 1", "iy 1"),
+    "iy_x": ("ilk yarı x", "ilk yari x", "1. yarı x", "1. yari x", "iy x"),
+    "iy_2": ("ilk yarı 2", "ilk yari 2", "1. yarı 2", "1. yari 2", "iy 2"),
+    "ikinci_yari_1": ("2. yarı 1", "2. yari 1", "ikinci yarı 1", "ikinci yari 1"),
+    "ikinci_yari_x": ("2. yarı x", "2. yari x", "ikinci yarı x", "ikinci yari x"),
+    "ikinci_yari_2": ("2. yarı 2", "2. yari 2", "ikinci yarı 2", "ikinci yari 2"),
+    "cifte_1x": ("çifte şans 1x", "cifte sans 1x", "çifte şans 1-x", "1-x"),
+    "cifte_12": ("çifte şans 12", "cifte sans 12", "çifte şans 1-2", "1-2"),
+    "cifte_x2": ("çifte şans x2", "cifte sans x2", "çifte şans x-2", "x-2"),
+    "iy_cifte_1x": ("1. yarı çifte şans 1x", "1. yari cifte sans 1x", "iy çifte şans 1x", "iy cifte sans 1x"),
+    "iy_cifte_12": ("1. yarı çifte şans 12", "1. yari cifte sans 12", "iy çifte şans 12", "iy cifte sans 12"),
+    "iy_cifte_x2": ("1. yarı çifte şans x2", "1. yari cifte sans x2", "iy çifte şans x2", "iy cifte sans x2"),
+    "hnd_1": ("hnd 1", "handikaplı maç sonucu 1", "handikapli mac sonucu 1", "handikap 1"),
+    "hnd_x": ("hnd x", "handikaplı maç sonucu x", "handikapli mac sonucu x", "handikap x"),
+    "hnd_2": ("hnd 2", "handikaplı maç sonucu 2", "handikapli mac sonucu 2", "handikap 2"),
+    "gol_araligi_01": ("0-1 gol", "0 1 gol", "toplam gol 0-1", "toplam gol 0 1"),
+    "gol_araligi_23": ("2-3 gol", "2 3 gol", "toplam gol 2-3", "toplam gol 2 3"),
+    "gol_araligi_45": ("4-5 gol", "4 5 gol", "toplam gol 4-5", "toplam gol 4 5"),
+    "gol_araligi_6_plus": ("6+ gol", "6 ve üstü gol", "6 ve ustu gol", "toplam gol 6+"),
+    "iy_ms_11": ("1/1", "iy/ms 1/1", "ilk yarı/maç sonucu 1/1", "ilk yari/mac sonucu 1/1"),
+    "iy_ms_1x": ("1/x", "iy/ms 1/x", "ilk yarı/maç sonucu 1/x", "ilk yari/mac sonucu 1/x"),
+    "iy_ms_12": ("1/2", "iy/ms 1/2", "ilk yarı/maç sonucu 1/2", "ilk yari/mac sonucu 1/2"),
+    "iy_ms_x1": ("x/1", "iy/ms x/1", "ilk yarı/maç sonucu x/1", "ilk yari/mac sonucu x/1"),
+    "iy_ms_xx": ("x/x", "iy/ms x/x", "ilk yarı/maç sonucu x/x", "ilk yari/mac sonucu x/x"),
+    "iy_ms_x2": ("x/2", "iy/ms x/2", "ilk yarı/maç sonucu x/2", "ilk yari/mac sonucu x/2"),
+    "iy_ms_21": ("2/1", "iy/ms 2/1", "ilk yarı/maç sonucu 2/1", "ilk yari/mac sonucu 2/1"),
+    "iy_ms_2x": ("2/x", "iy/ms 2/x", "ilk yarı/maç sonucu 2/x", "ilk yari/mac sonucu 2/x"),
+    "iy_ms_22": ("2/2", "iy/ms 2/2", "ilk yarı/maç sonucu 2/2", "ilk yari/mac sonucu 2/2"),
+    "ev_ust_25": ("ev sahibi 2.5 üst", "ev sahibi 2.5 ust", "ev sahibi toplam gol 2.5 üst", "ev sahibi gol 2.5 üst"),
+    "ev_alt_25": ("ev sahibi 2.5 alt", "ev sahibi toplam gol 2.5 alt", "ev sahibi gol 2.5 alt"),
+    "dep_ust_15": ("deplasman 1.5 üst", "deplasman 1.5 ust", "deplasman toplam gol 1.5 üst", "deplasman gol 1.5 üst"),
+    "dep_alt_15": ("deplasman 1.5 alt", "deplasman toplam gol 1.5 alt", "deplasman gol 1.5 alt"),
+    "korner_ust": ("korner üst", "korner ust", "toplam korner üst", "toplam korner ust"),
+    "kart_ust": ("kart üst", "kart ust", "toplam kart üst", "toplam kart ust"),
 }
 
-# Detay metni icinde tek harfli "1", "x", "2" cok fazla yanlis eslesme yapar.
-# Bu nedenle detay okuma icin yalnizca acik market adlari kullanilir.
 DETAIL_ODD_FIELDS = {
     field: tuple(alias for alias in aliases if len(alias.strip()) > 1)
     for field, aliases in ODD_FIELDS.items()
@@ -71,12 +101,14 @@ DETAIL_ODD_FIELDS = {
 
 
 def simdi_iso() -> str:
-    """UTC zaman damgasini ISO formatinda doner."""
     return datetime.now(timezone.utc).isoformat()
 
 
+def bugunun_tarihi_tr_nokta() -> str:
+    return datetime.now(ISTANBUL_TZ).strftime("%d.%m.%Y")
+
+
 def bos_sonuc(url: str = MACKOLIK_URL) -> dict[str, Any]:
-    """Mackolik veri cekme isinin varsayilan sonuc sozlugunu olusturur."""
     return {
         "source": "mackolik",
         "url": url,
@@ -97,13 +129,11 @@ def bos_sonuc(url: str = MACKOLIK_URL) -> dict[str, Any]:
 
 
 def oran_metni_mi(value: str) -> bool:
-    """Metnin oran degeri gibi gorunup gorunmedigini kontrol eder."""
     text = value.strip().replace(",", ".")
     return bool(re.fullmatch(r"\d{1,3}\.\d{1,3}", text))
 
 
 def sayi_metnine_cevir(value: str) -> float | None:
-    """Oran metnini float degerine cevirir."""
     cleaned = value.strip().replace(",", ".")
     if not oran_metni_mi(cleaned):
         return None
@@ -114,13 +144,11 @@ def sayi_metnine_cevir(value: str) -> float | None:
 
 
 def yasakli_aksiyon_metni_mi(text: str) -> bool:
-    """Tiklarken kesinlikle dokunulmayacak aksiyon metinlerini denetler."""
     normalized = text.casefold()
     return any(forbidden in normalized for forbidden in FORBIDDEN_ACTION_TEXTS)
 
 
 def mac_anahtari(match: dict[str, Any]) -> str:
-    """Mackolik icin tarih + saat + takimlardan benzersiz anahtar uretir."""
     return "mackolik:{date}:{time}:{home}:{away}".format(
         date=match.get("tarih") or match.get("utc_date") or "",
         time=match.get("saat") or "",
@@ -130,7 +158,6 @@ def mac_anahtari(match: dict[str, Any]) -> str:
 
 
 def normalize_match_for_pool(match: dict[str, Any]) -> dict[str, Any]:
-    """Mackolik kaydini mevcut ham veri havuzu semasina uyumlu hale getirir."""
     normalized = dict(match)
     normalized["match_id"] = mac_anahtari(match)
     normalized["source"] = "mackolik"
@@ -146,12 +173,10 @@ def normalize_match_for_pool(match: dict[str, Any]) -> dict[str, Any]:
 
 
 def hucre_metnini_temizle(value: str) -> str:
-    """DOM hucre metnini tek satirlik temiz metne cevirir."""
     return re.sub(r"\s+", " ", value or "").strip()
 
 
 def kolon_eslestirmesi(headers: list[str]) -> dict[str, int]:
-    """Tablo basliklarindan bilinen alanlara kolon eslestirmesi uretir."""
     mapping: dict[str, int] = {}
     for index, header in enumerate(headers):
         key = header.casefold()
@@ -172,7 +197,6 @@ def kolon_eslestirmesi(headers: list[str]) -> dict[str, int]:
 
 
 def hucreden(headers: list[str], cells: list[str], mapping: dict[str, int], field: str) -> str | None:
-    """Kolon eslestirmesiyle hucre degeri okur."""
     index = mapping.get(field)
     if index is None or index >= len(cells):
         return None
@@ -188,7 +212,6 @@ def satirdan_mac_cikar(
     url: str,
     current_league: str | None = None,
 ) -> dict[str, Any] | None:
-    """Bir tablo satirindan mac kaydi uretmeye calisir."""
     if len(cells) < 4:
         return None
 
@@ -279,7 +302,6 @@ def satirdan_mac_cikar(
 
 
 def detay_oranlarini_metinden_cikar(text: str) -> dict[str, float]:
-    """Acilan detay bolumu metninden ek market oranlarini okur."""
     normalized = hucre_metnini_temizle(text).casefold().replace(",", ".")
     odds: dict[str, float] = {}
     if not normalized:
@@ -291,8 +313,8 @@ def detay_oranlarini_metinden_cikar(text: str) -> dict[str, float]:
         for alias in aliases:
             clean_alias = re.escape(alias.casefold().replace(",", "."))
             patterns = (
-                rf"{clean_alias}[^0-9]{{0,80}}(\d{{1,3}}\.\d{{1,3}})",
-                rf"(\d{{1,3}}\.\d{{1,3}})[^a-zA-ZğüşöçıİĞÜŞÖÇ0-9]{{0,40}}{clean_alias}",
+                rf"{clean_alias}[^0-9]{{0,120}}(\d{{1,3}}\.\d{{1,3}})",
+                rf"(\d{{1,3}}\.\d{{1,3}})[^a-zA-ZğüşöçıİĞÜŞÖÇ0-9]{{0,60}}{clean_alias}",
             )
             for pattern in patterns:
                 match = re.search(pattern, normalized)
@@ -308,7 +330,6 @@ def detay_oranlarini_metinden_cikar(text: str) -> dict[str, float]:
 
 
 def mac_kodu_satirdan_al(cells: list[str], row_text: str = "") -> str | None:
-    """Detay butonunun bulundugu satirdan mac kodunu bulur."""
     for cell in cells:
         if re.fullmatch(r"\d{4,5}", cell or ""):
             return cell
@@ -317,14 +338,13 @@ def mac_kodu_satirdan_al(cells: list[str], row_text: str = "") -> str | None:
 
 
 def yakin_detay_metni(row: Any) -> str:
-    """Tumu tiklandiktan sonra mac satiri ve takip eden detay satirlarindan metin toplar."""
     try:
         return row.evaluate(
             """
             (tr) => {
               const texts = [];
               let current = tr;
-              for (let index = 0; index < 8 && current; index += 1) {
+              for (let index = 0; index < 14 && current; index += 1) {
                 if (current.innerText) texts.push(current.innerText);
                 current = current.nextElementSibling;
               }
@@ -340,11 +360,6 @@ def yakin_detay_metni(row: Any) -> str:
 
 
 def detaylari_acmayi_dene(page: Any) -> dict[str, Any]:
-    """
-    Mac detayindaki "Tumu" alanlarini sadece veri okumak icin acmayi dener.
-
-    Yasakli aksiyon metinleri iceren buton/linklere tiklanmaz.
-    """
     report = {
         "attempted": 0,
         "opened": 0,
@@ -356,7 +371,7 @@ def detaylari_acmayi_dene(page: Any) -> dict[str, Any]:
     }
     try:
         candidates = page.locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i")
-        count = min(candidates.count(), 25)
+        count = min(candidates.count(), MAX_DETAIL_BUTTONS)
     except Exception as exc:
         report["errors"].append(f"Detay adaylari okunamadi: {exc}")
         return report
@@ -376,7 +391,7 @@ def detaylari_acmayi_dene(page: Any) -> dict[str, Any]:
             match_code = mac_kodu_satirdan_al(row_cells, row_text)
 
             item.click(timeout=2000, force=True)
-            page.wait_for_timeout(450)
+            page.wait_for_timeout(650)
             report["opened"] += 1
 
             detail_text = yakin_detay_metni(row)
@@ -393,7 +408,6 @@ def detaylari_acmayi_dene(page: Any) -> dict[str, Any]:
 
 
 def detay_oranlarini_maclara_ekle(matches: list[dict[str, Any]], detail_report: dict[str, Any]) -> None:
-    """Detaydan okunan oranlari ayni mac kaydinin oranlar alanina ekler."""
     details_by_code = detail_report.get("details_by_code") or {}
     for match in matches:
         code = str(match.get("mac_kodu") or "").strip()
@@ -408,11 +422,9 @@ def detay_oranlarini_maclara_ekle(matches: list[dict[str, Any]], detail_report: 
 
 
 def sayfadaki_maclari_oku(page: Any, url: str = MACKOLIK_URL) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    """Acik Playwright sayfasindan tablo satirlarini okuyup mac listesi uretir."""
     detail_report = detaylari_acmayi_dene(page)
-    current_date = hucre_metnini_temizle(page.locator("body").inner_text(timeout=5000))
-    date_match = re.search(r"\b\d{1,2}\.\d{1,2}\.\d{4}\b", current_date)
-    current_date_text = date_match.group(0) if date_match else datetime.now().strftime("%d.%m.%Y")
+    target_date_text = bugunun_tarihi_tr_nokta()
+    current_date_text = target_date_text
     current_league: str | None = None
 
     rows = page.locator("table tr")
@@ -457,6 +469,9 @@ def sayfadaki_maclari_oku(page: Any, url: str = MACKOLIK_URL) -> tuple[list[dict
             current_date_text = row_date
             continue
 
+        if current_date_text != target_date_text:
+            continue
+
         match = satirdan_mac_cikar(
             headers,
             cells,
@@ -482,7 +497,6 @@ def mackolik_verilerini_cek(
     headless: bool = True,
     timeout_ms: int = 30000,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    """Playwright ile Mackolik arsiv sayfasini acip gorunen maclari okur."""
     try:
         from playwright.sync_api import sync_playwright
     except ImportError as exc:
@@ -496,7 +510,7 @@ def mackolik_verilerini_cek(
         page = browser.new_page()
         page.set_default_timeout(timeout_ms)
         page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
-        page.wait_for_timeout(1500)
+        page.wait_for_timeout(1800)
         matches, detail_report = sayfadaki_maclari_oku(page, url)
         browser.close()
     return matches, detail_report
@@ -506,7 +520,6 @@ def havuza_kaydet(
     matches: list[dict[str, Any]],
     raw_pool_file: str | Path = DEFAULT_RAW_POOL_FILE,
 ) -> tuple[dict[str, Any], dict[str, int]]:
-    """Mackolik maclarini mevcut ham havuza tekrar etmeden ekler."""
     normalized_matches = [normalize_match_for_pool(match) for match in matches]
     pool = havuz_oku(raw_pool_file)
     pool, duplicate_report = maclari_havuza_ekle(
@@ -519,7 +532,6 @@ def havuza_kaydet(
 
 
 def rapor_markdown_uret(result: dict[str, Any]) -> str:
-    """Mackolik veri cekme sonucundan Markdown raporu uretir."""
     lines = [
         "# Mackolik Veri Cekme Raporu",
         "",
@@ -533,6 +545,7 @@ def rapor_markdown_uret(result: dict[str, Any]) -> str:
         f"- Kac mac kaydedildi: {result.get('saved_matches')}",
         f"- Kac mac zaten vardi: {result.get('duplicate_matches')}",
         f"- Ham veri havuzu toplam mac sayisi: {result.get('raw_pool_total_matches')}",
+        f"- Hedef tarih: {bugunun_tarihi_tr_nokta()} Europe/Istanbul",
         "",
         "## Ligler",
         "",
@@ -617,7 +630,6 @@ def rapor_markdown_uret(result: dict[str, Any]) -> str:
 
 
 def raporu_yaz(markdown: str, report_file: str | Path = DEFAULT_REPORT_FILE) -> Path:
-    """Markdown raporunu dosyaya yazar."""
     path = Path(report_file)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(markdown, encoding="utf-8")
@@ -630,7 +642,6 @@ def mackolik_veri_cekme_isini_calistir(
     report_file: str | Path = DEFAULT_REPORT_FILE,
     headless: bool = True,
 ) -> dict[str, Any]:
-    """Mackolik veri cekme, havuza yazma ve raporlama isini tek adimda calistirir."""
     result = bos_sonuc(url)
     try:
         matches, detail_report = mackolik_verilerini_cek(url=url, headless=headless)
