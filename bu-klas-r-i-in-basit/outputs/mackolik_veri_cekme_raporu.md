@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-21T01:20:36.474967+00:00
+Tarih: 2026-06-21T03:15:26.248918+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
 - Kac mac bulundu: 107
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 107
-- Ham veri havuzu toplam mac sayisi: 298
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 106
+- Ham veri havuzu toplam mac sayisi: 299
 - Hedef tarih: 21.06.2026 Europe/Istanbul
 
 ## Ligler
@@ -127,23 +127,23 @@ Tarih: 2026-06-21T01:20:36.474967+00:00
 | 21.06.2026 | 22:00 | Dünya Kupası 2026 Grup G | Belçika | İran | 15477 | 5 |
 | 21.06.2026 | 19:00 | Dünya Kupası 2026 Grup H | İspanya | Suudi Arabistan | 15412 | 4 |
 | 21.06.2026 | 14:00 | Çin Halk Cumhuriyeti FA Kupası 4.Tur | Suzhou Dongwu | Yunnan Yukun | 06674 | 5 |
-| 21.06.2026 | 18:00 | İsveç Superettan | Ostersund | Norrkoping | 12892 | 5 |
 | 21.06.2026 | 18:00 | İsveç Superettan | Norrby | United Nordic | 12838 | 5 |
+| 21.06.2026 | 18:00 | İsveç Superettan | Ostersund | Norrkoping | 12892 | 5 |
 | 21.06.2026 | 16:00 | İsveç Superettan | Oster | Falkenberg | 12727 | 5 |
 | 21.06.2026 | 16:00 | İsveç Superettan | Brage | Varnamo | 12671 | 5 |
 | 21.06.2026 | 16:00 | İsveç Superettan | Helsingborg | Sundsvall | 12611 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Ol. Safi | Yacoub El Manso | 03270 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Raja Casablanc | Codm Meknes | 01821 | 5 |
 | 21.06.2026 | 17:00 | Fas Botola Pro | Difaa | Wydad Casablanc | 05678 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Ol. Safi | Yacoub El Manso | 03270 | 5 |
 | 21.06.2026 | 17:00 | Fas Botola Pro | Fus Rabat | Olympique Dchei | 05688 | 5 |
+| 21.06.2026 | 17:00 | Fas Botola Pro | Husa Agadir | Uts Rabat | 05528 | 5 |
 | 21.06.2026 | 17:00 | Fas Botola Pro | Ittihad Tanger | Cr Khemis Zemam | 03326 | 5 |
 | 21.06.2026 | 17:00 | Fas Botola Pro | Maghreb Fes | Rsb Berkane | 08386 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Husa Agadir | Uts Rabat | 05528 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Raja Casablanc | Codm Meknes | 01821 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Moss | Sandnes | 13729 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Raufoss | Sogndal | 13813 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Egersunds | Haugesund | 13645 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Kongsvinger | Stromsgodset | 13687 | 5 |
 | 21.06.2026 | 17:00 | Norveç 1.Lig | Strommen | Stabaek | 13857 | 5 |
+| 21.06.2026 | 17:00 | Norveç 1.Lig | Egersunds | Haugesund | 13645 | 5 |
+| 21.06.2026 | 17:00 | Norveç 1.Lig | Bryne | Asane | 13603 | 5 |
+| 21.06.2026 | 17:00 | Norveç 1.Lig | Kongsvinger | Stromsgodset | 13687 | 5 |
+| 21.06.2026 | 17:00 | Norveç 1.Lig | Moss | Sandnes | 13729 | 5 |
 
 ## Sonuc
 
