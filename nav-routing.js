@@ -32,6 +32,28 @@
     document.head.appendChild(link);
   };
 
+  const removeHeaderAccessButtons = () => {
+    const header = document.querySelector(".site-header");
+    if (!header) return;
+    header.querySelectorAll(".fl-access-actions, .fl-access-flow-note").forEach((element) => element.remove());
+    header.querySelectorAll("button, a, div, span").forEach((element) => {
+      const text = String(element.textContent || "").toLocaleLowerCase("tr-TR");
+      if (text.includes("giriş yap") || text.includes("1 gün dene") || text.includes("1 gün ücretsiz dene")) {
+        const container = element.closest(".fl-access-actions") || element;
+        container.remove();
+      }
+    });
+  };
+
+  const startHeaderAccessGuard = () => {
+    removeHeaderAccessButtons();
+    if (window.__flHeaderAccessGuard === true) return;
+    window.__flHeaderAccessGuard = true;
+    const observer = new MutationObserver(removeHeaderAccessButtons);
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+    setInterval(removeHeaderAccessButtons, 800);
+  };
+
   const resolveHash = (hash) => hash === "#yaklasan-maclar" ? "#daily-matches-widget" : hash;
   const panelHashes = new Set(["#daily-matches-widget", "#robot-analizleri", "#membership-payment-panel", "#premium-analysis-panel"]);
   const headerOffset = () => (document.querySelector(".site-header")?.offsetHeight || 0) + 18;
@@ -52,6 +74,7 @@
   };
 
   const boot = () => {
+    startHeaderAccessGuard();
     document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => link.setAttribute("href", "#daily-matches-widget"));
     ensureStylesheet("nav-position.css", "nav-position-style");
     ensureStylesheet("header-fixes.css", "header-fixes-style");
