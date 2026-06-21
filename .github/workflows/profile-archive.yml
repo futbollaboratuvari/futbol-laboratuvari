@@ -1,0 +1,39 @@
+name: Update profile archive
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/profile-run.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-archive
+  cancel-in-progress: true
+
+jobs:
+  update-profile-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update profile archive
+        run: node scripts/profile-lite.js
+
+      - name: Commit profile archive outputs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update profile archive"
+          file_pattern: data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/archive/*-profiles.json
