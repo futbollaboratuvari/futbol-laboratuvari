@@ -104,10 +104,13 @@ const closedDefense = (fixture) => flag(fixture, [
 ]);
 
 const marketRules = {
-  firstHalfBttsYes: { label: "İlk Yarı KG Var", keys: ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"], minOdd: 1.85, maxOdd: 5.50, scores: ["1-1", "2-1"] },
-  secondHalfBttsYes: { label: "İkinci Yarı KG Var", keys: ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"], minOdd: 1.75, maxOdd: 5.25, scores: ["2-1", "2-2"] },
+  firstHalfBttsYes: { label: "İlk Yarı KG Var", keys: ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes", "firstHalfBttsYes_guess"], minOdd: 1.85, maxOdd: 5.50, scores: ["1-1", "2-1"] },
+  firstHalfBttsNo: { label: "İlk Yarı KG Yok", keys: ["firstHalfBttsNo", "iyKgYok", "iy_kg_yok", "first_half_btts_no", "firstHalfBttsNo_guess"], minOdd: 1.35, maxOdd: 4.50, scores: ["0-0", "1-0"] },
+  secondHalfBttsYes: { label: "İkinci Yarı KG Var", keys: ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes", "secondHalfBttsYes_guess"], minOdd: 1.75, maxOdd: 5.25, scores: ["2-1", "2-2"] },
+  secondHalfBttsNo: { label: "İkinci Yarı KG Yok", keys: ["secondHalfBttsNo", "ikinciYariKgYok", "ikinci_yari_kg_yok", "second_half_btts_no", "secondHalfBttsNo_guess"], minOdd: 1.35, maxOdd: 4.50, scores: ["1-0", "0-1"] },
   kgVar: { label: "KG Var", keys: ["bttsYes", "kgVar", "varOdd", "var", "kg_var", "bttsYes_guess"], minOdd: 1.60, maxOdd: 3.80, scores: ["1-1", "2-1", "2-2"] },
-  over25: { label: "2.5 Üst", keys: ["over25", "ust25", "over", "ust", "ust_25"], minOdd: 1.58, maxOdd: 3.20, scores: ["2-1", "3-1", "2-2"] },
+  kgYok: { label: "KG Yok", keys: ["bttsNo", "kgYok", "yokOdd", "yok", "kg_yok", "bttsNo_guess"], minOdd: 1.45, maxOdd: 4.20, scores: ["1-0", "0-1", "2-0"] },
+  over25: { label: "2.5 Üst", keys: ["over25", "ust25", "over", "ust", "ust_25", "over25_guess"], minOdd: 1.58, maxOdd: 3.20, scores: ["2-1", "3-1", "2-2"] },
   over35: { label: "3.5 Üst", keys: ["over35", "ust35", "over3_5", "ust_35", "over35_guess"], minOdd: 1.90, maxOdd: 5.80, scores: ["3-1", "2-2", "3-2"] },
 };
 
