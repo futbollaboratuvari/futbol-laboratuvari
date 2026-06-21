@@ -120,42 +120,45 @@
 
   const makeAnalysis = (match, market, archive) => {
     const keys = mapMarket(market);
-    const odd = market === "1Y KG % + 2Y KG %"
-      ? ""
-      : pick(match, keys);
-
+    const odd = market === "1Y KG % + 2Y KG %" ? "" : pick(match, keys);
     const p1 = implied(pick(match, ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"]));
     const p2 = implied(pick(match, ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"]));
     const percent = market === "1Y KG %" ? p1
       : market === "2Y KG %" ? p2
       : market === "1Y KG % + 2Y KG %" ? Math.round(((p1 || 50) + (p2 || 50)) / 2)
       : implied(odd);
-
     const g = grade(percent);
     const home = teamArchive(archive, match.home);
     const away = teamArchive(archive, match.away);
     const isIyms = market.startsWith("İY/MS");
     const isCombo = market.startsWith("1Y/2Y KG");
     const isPercent = market.includes("KG %");
-
     const notes = [];
     notes.push(isIyms ? "İY/MS marketi yüksek riskli özel analiz grubudur; robot ilk yarı ve maç sonu yön değişimini birlikte değerlendirir." : "Robot seçilen marketi maç oranları ve arşiv verisiyle eşleştirdi.");
     if (isCombo) notes.push("1.Yarı / 2.Yarı KG kombinasyonu iki ayrı zaman diliminde gol var-yok davranışını birlikte kontrol eder.");
     if (isPercent) notes.push("KG yüzde analizi oranlardan gelen olasılığı yüzdesel gösterir; tek başına garanti değil, risk sinyalidir.");
     if (percent) notes.push(`Robot olasılık sinyali yaklaşık %${percent}. Seviye: ${g.label}.`);
     else notes.push("Bu market için net oran bulunamadı; robot arşiv ve maç bilgisiyle ön değerlendirme oluşturdu.");
+    return { created_at: new Date().toISOString(), match, market, odd, percent, grade: g.label, home_form: formText(home), away_form: formText(away), notes, source: "premium_robot_engine" };
+  };
 
+  const buildCoupon = (analyses, market) => {
+    const percents = analyses.map((x) => Number(x.percent || 0)).filter(Boolean);
+    const avg = percents.length ? Math.round(percents.reduce((a, b) => a + b, 0) / percents.length) : 0;
+    const odds = analyses.map((x) => parseOdd(x.odd)).filter(Boolean);
+    const totalOdd = odds.length === analyses.length ? odds.reduce((a, b) => a * b, 1).toFixed(2) : "Veri yok";
+    const g = grade(avg);
     return {
       created_at: new Date().toISOString(),
-      match,
+      coupon: true,
+      match: { home: "Kupon", away: `${analyses.length} maç` },
       market,
-      odd,
-      percent,
+      analyses,
+      odd: totalOdd,
+      percent: avg,
       grade: g.label,
-      home_form: formText(home),
-      away_form: formText(away),
-      notes,
-      source: "premium_robot_engine"
+      notes: [`${analyses.length} maç aynı market üzerinden kupon analizi olarak oluşturuldu.`, `Ortalama robot sinyali: ${avg ? `%${avg}` : "veri bekliyor"}.`, `Toplam oran: ${totalOdd}.`],
+      source: "premium_coupon_engine"
     };
   };
 
@@ -166,28 +169,34 @@
     localStorage.setItem(QUEUE_KEY, JSON.stringify(next));
   };
 
+  const renderSingleOutput = (analysis) => `<h3>Robot Analizi</h3><div class="premium-result"><h4>${esc(analysis.grade)} sinyal</h4><div class="premium-row"><span>Maç</span><strong>${esc(analysis.match.home)} - ${esc(analysis.match.away)}</strong></div><div class="premium-row"><span>Market</span><strong>${esc(analysis.market)}</strong></div><div class="premium-row"><span>Oran</span><strong>${esc(analysis.odd || "Veri yok")}</strong></div><div class="premium-row"><span>Olasılık</span><strong>${analysis.percent ? `%${analysis.percent}` : "Veri bekliyor"}</strong></div><div class="premium-factor-list"><span class="premium-factor">📊 Ev sahibi: ${esc(analysis.home_form)}</span><span class="premium-factor">📈 Deplasman: ${esc(analysis.away_form)}</span>${analysis.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
+
+  const renderCouponOutput = (coupon) => `<h3>Kupon Analizi</h3><div class="premium-result"><h4>${coupon.analyses.length} maçlık kupon</h4><div class="premium-row"><span>Market</span><strong>${esc(coupon.market)}</strong></div><div class="premium-row"><span>Toplam Oran</span><strong>${esc(coupon.odd)}</strong></div><div class="premium-row"><span>Ortalama Sinyal</span><strong>${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}</strong></div><div class="premium-factor-list">${coupon.analyses.map((a, i) => `<span class="premium-factor">${i + 1}. ${esc(a.match.home)} - ${esc(a.match.away)} · ${esc(a.grade)} · ${a.percent ? `%${a.percent}` : "Veri"} · Oran: ${esc(a.odd || "Yok")}</span>`).join("")}${coupon.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
+
   const renderRobotOutput = (analysis) => {
     const output = document.querySelector("#premium-analysis-panel [data-premium-output]");
     if (!output) return;
-    output.innerHTML = `<h3>Robot Analizi</h3><div class="premium-result"><h4>${esc(analysis.grade)} sinyal</h4><div class="premium-row"><span>Maç</span><strong>${esc(analysis.match.home)} - ${esc(analysis.match.away)}</strong></div><div class="premium-row"><span>Market</span><strong>${esc(analysis.market)}</strong></div><div class="premium-row"><span>Oran</span><strong>${esc(analysis.odd || "Veri yok")}</strong></div><div class="premium-row"><span>Olasılık</span><strong>${analysis.percent ? `%${analysis.percent}` : "Veri bekliyor"}</strong></div><div class="premium-factor-list"><span class="premium-factor">📊 Ev sahibi: ${esc(analysis.home_form)}</span><span class="premium-factor">📈 Deplasman: ${esc(analysis.away_form)}</span>${analysis.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
+    output.innerHTML = analysis.coupon ? renderCouponOutput(analysis) : renderSingleOutput(analysis);
   };
+
+  const selectedIndexes = (select) => Array.from(select?.selectedOptions || [])
+    .map((opt) => Number(opt.value))
+    .filter((n) => Number.isInteger(n) && n >= 0);
 
   const runRobot = async () => {
     const select = document.querySelector("#premium-analysis-panel .premium-select[data-premium-match]");
     const marketButton = document.querySelector("#premium-analysis-panel [data-market].active");
     const market = marketButton?.dataset?.market || "";
-    if (!select || !market || select.value === "") return false;
-
-    const [fixtures, archive] = await Promise.all([
-      readJson(FIXTURES_URL, []),
-      readJson(ARCHIVE_URL, { matches: [], team_index: {} })
-    ]);
-    const match = todayFixtures(Array.isArray(fixtures) ? fixtures : [])[Number(select.value)];
-    if (!match) return false;
-
-    const analysis = makeAnalysis(match, market, archive || {});
-    saveQueue(analysis);
-    renderRobotOutput(analysis);
+    const indexes = selectedIndexes(select);
+    if (!select || !market || !indexes.length) return false;
+    const [fixtures, archive] = await Promise.all([readJson(FIXTURES_URL, []), readJson(ARCHIVE_URL, { matches: [], team_index: {} })]);
+    const list = todayFixtures(Array.isArray(fixtures) ? fixtures : []);
+    const matches = indexes.map((i) => list[i]).filter(Boolean).slice(0, 10);
+    if (!matches.length) return false;
+    const analyses = matches.map((match) => makeAnalysis(match, market, archive || {}));
+    const result = analyses.length > 1 ? buildCoupon(analyses, market) : analyses[0];
+    saveQueue(result);
+    renderRobotOutput(result);
     return true;
   };
 
