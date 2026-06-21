@@ -1,20 +1,17 @@
-/* Ana vitrin: ziyaretçiye ilk ekranda net değer önerisi verir. */
+/* Ana vitrin: ilk ekranda net, okunur ve gerçekçi spor atmosferi */
 .dashboard-hero {
   position: relative !important;
   display: grid !important;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr) !important;
-  gap: clamp(18px, 4vw, 42px) !important;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 520px) !important;
+  gap: clamp(22px, 4vw, 54px) !important;
   align-items: center !important;
   width: 100% !important;
   max-width: 100% !important;
-  min-height: clamp(560px, 74vh, 780px) !important;
+  min-height: auto !important;
   overflow: hidden !important;
   isolation: isolate !important;
-  padding: clamp(38px, 6vw, 76px) clamp(18px, 6vw, 90px) clamp(38px, 6vw, 76px) !important;
-  background:
-    linear-gradient(90deg, rgba(4, 10, 24, .95) 0%, rgba(7, 17, 37, .88) 46%, rgba(4, 10, 24, .80) 100%),
-    radial-gradient(circle at 78% 12%, rgba(57, 255, 136, .14), transparent 28%),
-    radial-gradient(circle at 18% 82%, rgba(255, 159, 28, .13), transparent 32%) !important;
+  padding: clamp(42px, 5vw, 68px) clamp(18px, 6vw, 92px) clamp(34px, 4.6vw, 58px) !important;
+  background: #050b18 !important;
 }
 
 .dashboard-hero .hero-media {
@@ -28,10 +25,10 @@
   inset: 0 !important;
   z-index: -2 !important;
   background:
-    linear-gradient(rgba(5, 11, 24, .74), rgba(5, 11, 24, .90)),
+    linear-gradient(90deg, rgba(4, 9, 22, .94) 0%, rgba(4, 9, 22, .82) 48%, rgba(4, 9, 22, .92) 100%),
     url("https://unsplash.com/photos/pitDMdAjynU/download?force=true&w=2200") center center / cover no-repeat !important;
-  filter: saturate(.82) contrast(1.06) brightness(.72) !important;
-  transform: scale(1.03) !important;
+  filter: saturate(.78) contrast(1.02) brightness(.62) !important;
+  transform: scale(1.015) !important;
   transform-origin: center center !important;
 }
 
@@ -41,62 +38,64 @@
   inset: 0 !important;
   z-index: -1 !important;
   background:
-    linear-gradient(90deg, rgba(3,8,23,.94) 0%, rgba(3,8,23,.76) 48%, rgba(3,8,23,.88) 100%),
-    linear-gradient(180deg, rgba(255,255,255,.045), transparent 18%, rgba(0,0,0,.18)),
-    radial-gradient(circle at 80% 18%, rgba(57,255,136,.11), transparent 26%),
-    radial-gradient(circle at 18% 82%, rgba(255,159,28,.11), transparent 30%) !important;
+    radial-gradient(circle at 78% 20%, rgba(57,255,136,.10), transparent 28%),
+    radial-gradient(circle at 18% 82%, rgba(255,159,28,.09), transparent 32%),
+    linear-gradient(180deg, rgba(255,255,255,.025), transparent 22%, rgba(0,0,0,.24)) !important;
   opacity: 1 !important;
   display: block !important;
   pointer-events: none !important;
 }
 
 .hero-content {
-  max-width: 760px !important;
+  max-width: 720px !important;
   min-width: 0 !important;
   display: grid !important;
-  gap: 16px !important;
+  gap: 14px !important;
 }
 
 .hero-brand-lockup {
   width: max-content !important;
   max-width: 100% !important;
-  padding: 9px 12px !important;
+  padding: 8px 12px !important;
   border: 1px solid rgba(255, 255, 255, .10) !important;
   border-radius: 999px !important;
-  background: rgba(255, 255, 255, .065) !important;
+  background: rgba(255, 255, 255, .060) !important;
   backdrop-filter: blur(10px) !important;
 }
 
 .dashboard-hero .eyebrow {
   color: #ffe08a !important;
-  letter-spacing: .08em !important;
+  letter-spacing: .075em !important;
+  margin: 0 !important;
 }
 
 .dashboard-hero h1 {
-  max-width: 760px !important;
+  max-width: 690px !important;
   margin: 0 !important;
-  font-size: clamp(36px, 5.6vw, 74px) !important;
-  line-height: .96 !important;
-  letter-spacing: -.045em !important;
+  font-size: clamp(40px, 4.6vw, 62px) !important;
+  line-height: 1.03 !important;
+  letter-spacing: -.038em !important;
   text-wrap: balance !important;
 }
 
 .dashboard-hero .hero-content > p:not(.eyebrow) {
-  max-width: 660px !important;
+  max-width: 640px !important;
   color: #d7e4f5 !important;
-  font-size: clamp(15px, 1.45vw, 19px) !important;
-  line-height: 1.68 !important;
+  font-size: clamp(15px, 1.22vw, 18px) !important;
+  line-height: 1.62 !important;
+  margin: 0 !important;
 }
 
 .hero-proof {
   display: flex !important;
   flex-wrap: wrap !important;
   gap: 8px !important;
+  margin-top: 2px !important;
 }
 
 .hero-proof span {
-  border: 1px solid rgba(255, 255, 255, .11) !important;
-  background: rgba(0, 0, 0, .20) !important;
+  border: 1px solid rgba(255, 255, 255, .13) !important;
+  background: rgba(0, 0, 0, .24) !important;
   color: #f8fbff !important;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .05) !important;
 }
@@ -105,7 +104,7 @@
   display: flex !important;
   flex-wrap: wrap !important;
   gap: 10px !important;
-  margin-top: 4px !important;
+  margin-top: 8px !important;
 }
 
 .hero-button {
@@ -114,6 +113,7 @@
 
 .platform-summary {
   display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   gap: 12px !important;
   align-self: center !important;
   min-width: 0 !important;
@@ -122,13 +122,18 @@
 
 .platform-summary::before {
   content: "Günün Maç Panosu" !important;
+  grid-column: 1 / -1 !important;
   display: block !important;
-  padding: 14px 15px !important;
+  width: auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 12px 14px !important;
   border: 1px solid rgba(57, 255, 136, .22) !important;
-  border-radius: 18px !important;
+  border-radius: 16px !important;
   background: linear-gradient(135deg, rgba(57, 255, 136, .13), rgba(255, 255, 255, .045)) !important;
   color: #c8ffdd !important;
-  font-size: 13px !important;
+  font-size: 12px !important;
+  line-height: 1.2 !important;
   font-weight: 950 !important;
   letter-spacing: .06em !important;
   text-transform: uppercase !important;
@@ -137,14 +142,21 @@
 .platform-summary > div {
   position: relative !important;
   display: grid !important;
-  gap: 6px !important;
+  align-content: start !important;
+  gap: 7px !important;
   min-width: 0 !important;
+  min-height: 136px !important;
   padding: 16px !important;
   border: 1px solid rgba(255, 255, 255, .105) !important;
-  border-radius: 20px !important;
-  background: rgba(3, 8, 23, .72) !important;
+  border-radius: 18px !important;
+  background: rgba(3, 8, 23, .74) !important;
   backdrop-filter: blur(14px) !important;
   box-shadow: 0 18px 52px rgba(0, 0, 0, .26), inset 0 1px 0 rgba(255, 255, 255, .06) !important;
+}
+
+.platform-summary > div:nth-child(4) {
+  grid-column: 1 / -1 !important;
+  min-height: 118px !important;
 }
 
 .platform-summary > div::after {
@@ -156,12 +168,12 @@
   height: 2px !important;
   border-radius: 2px !important;
   background: linear-gradient(90deg, rgba(255,159,28,.95), rgba(57,255,136,.95)) !important;
-  opacity: .75 !important;
+  opacity: .72 !important;
 }
 
 .platform-summary span {
   color: #aebbd0 !important;
-  font-size: 12px !important;
+  font-size: 11px !important;
   font-weight: 850 !important;
   letter-spacing: .06em !important;
   text-transform: uppercase !important;
@@ -169,9 +181,9 @@
 
 .platform-summary strong {
   color: #f8fbff !important;
-  font-size: clamp(20px, 2.4vw, 30px) !important;
-  line-height: 1.06 !important;
-  letter-spacing: -.03em !important;
+  font-size: clamp(19px, 1.7vw, 26px) !important;
+  line-height: 1.10 !important;
+  letter-spacing: -.025em !important;
   overflow-wrap: anywhere !important;
 }
 
@@ -205,36 +217,46 @@
   font-size: 12px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1180px) {
   .dashboard-hero {
-    grid-template-columns: minmax(0, 1fr) minmax(300px, .8fr) !important;
-    gap: 22px !important;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 430px) !important;
+    gap: 24px !important;
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+  .dashboard-hero h1 {
+    font-size: clamp(38px, 4.2vw, 54px) !important;
   }
   .platform-summary strong {
-    font-size: clamp(18px, 2.1vw, 24px) !important;
+    font-size: clamp(18px, 2vw, 23px) !important;
   }
 }
 
 @media (max-width: 920px) {
   .dashboard-hero {
     grid-template-columns: 1fr !important;
-    min-height: auto !important;
+    padding: 34px 22px 38px !important;
   }
   .dashboard-hero::before {
     background:
-      linear-gradient(rgba(5, 11, 24, .78), rgba(5, 11, 24, .94)),
+      linear-gradient(rgba(5, 11, 24, .80), rgba(5, 11, 24, .95)),
       url("https://unsplash.com/photos/pitDMdAjynU/download?force=true&w=1400") center top / cover no-repeat !important;
-    transform: scale(1.02) !important;
+    transform: scale(1.01) !important;
   }
   .dashboard-hero::after {
     background:
-      linear-gradient(180deg, rgba(3,8,23,.94) 0%, rgba(3,8,23,.78) 48%, rgba(3,8,23,.96) 100%),
+      linear-gradient(180deg, rgba(3,8,23,.96) 0%, rgba(3,8,23,.82) 48%, rgba(3,8,23,.98) 100%),
       radial-gradient(circle at 75% 18%, rgba(57,255,136,.10), transparent 24%),
       radial-gradient(circle at 18% 82%, rgba(255,159,28,.10), transparent 28%) !important;
   }
   .platform-summary {
     grid-template-columns: 1fr !important;
     align-self: auto !important;
+  }
+  .platform-summary > div,
+  .platform-summary > div:nth-child(4) {
+    grid-column: auto !important;
+    min-height: auto !important;
   }
   .fl-hero-credibility {
     grid-template-columns: 1fr !important;
@@ -247,13 +269,13 @@
     gap: 18px !important;
   }
   .dashboard-hero h1 {
-    font-size: clamp(34px, 10.5vw, 46px) !important;
-    line-height: 1.02 !important;
-    letter-spacing: -.035em !important;
+    font-size: clamp(32px, 9.5vw, 42px) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -.030em !important;
   }
   .dashboard-hero .hero-content > p:not(.eyebrow) {
     font-size: 15px !important;
-    line-height: 1.58 !important;
+    line-height: 1.56 !important;
   }
   .hero-brand-lockup {
     width: 100% !important;
