@@ -75,7 +75,15 @@ jobs:
         run: node scripts/export-high-value-json.js
 
       - name: Commit and push High Value Engine outputs
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update fixtures and High Value Coupon Engine"
-          file_pattern: data/fixtures.json data/spor_toto_bulteni.json data/ham_mac_havuzu.json data/tahmin_gecmisi.json data/analiz_sonuclari.json data/band-signals.json data/live-matches.json data/daily-coupons.json data/robot-analysis.json data/archive/*.json outputs/bugunun_en_guclu_maclari.md outputs/mackolik_veri_cekme_raporu.md outputs/basari_yuzdesi_raporu.md bu-klas-r-i-in-basit/data/ham_mac_havuzu.json bu-klas-r-i-in-basit/data/tahmin_gecmisi.json bu-klas-r-i-in-basit/data/canli-veri.json bu-klas-r-i-in-basit/data/analiz_sonuclari.json bu-klas-r-i-in-basit/outputs/bugunun_en_guclu_maclari.md bu-klas-r-i-in-basit/outputs/basari_yuzdesi_raporu.md
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add -A data outputs bu-klas-r-i-in-basit/data bu-klas-r-i-in-basit/outputs || true
+          if git diff --cached --quiet; then
+            echo "No output changes to commit"
+            exit 0
+          fi
+          git commit -m "Update fixtures and High Value Coupon Engine"
+          git push origin HEAD:main || true
