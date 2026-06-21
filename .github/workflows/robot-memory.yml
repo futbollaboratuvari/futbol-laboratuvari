@@ -1,0 +1,32 @@
+name: Robot Hafiza Motoru
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  robot-memory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Robot hafizasini guncelle
+        run: python tools/robot_memory_engine.py
+
+      - name: Degisiklikleri kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/robot_hafiza.json outputs/robot_hafiza_raporu.md
+          git diff --cached --quiet || git commit -m "Robot hafızası otomatik güncellendi"
+          git push
