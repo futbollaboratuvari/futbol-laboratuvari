@@ -27,6 +27,7 @@
   };
 
   const lastAnalysis = () => readJson(LAST_KEY, null);
+  const unlocked = () => localStorage.getItem("fl_premium_beta_access") === "1";
 
   const score = (analysis) => {
     const percent = Number(analysis?.percent || 0);
@@ -62,11 +63,15 @@
     if (document.getElementById("premium-state-style")) return;
     const s = document.createElement("style");
     s.id = "premium-state-style";
-    s.textContent = `.premium-state-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 14px}.premium-state-card{padding:12px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.premium-state-card span{display:block;color:#8fa0b5;font-size:11px;font-weight:900;text-transform:uppercase}.premium-state-card strong{display:block;margin-top:5px;color:#f8fbff;font-size:18px}.premium-value-card{margin:0 0 12px;padding:14px;border:1px solid rgba(255,159,28,.26);border-radius:18px;background:linear-gradient(135deg,rgba(255,159,28,.12),rgba(57,255,136,.06))}.premium-value-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.premium-value-top h4{margin:0;color:#ffe08a}.premium-risk{padding:6px 9px;border-radius:999px;font-size:11px;font-weight:950}.premium-risk.ok{background:rgba(57,255,136,.15);color:#c8ffdd}.premium-risk.warn{background:rgba(255,224,138,.14);color:#ffe08a}.premium-risk.risk{background:rgba(255,79,79,.14);color:#ffb3b3}.premium-score{margin-top:12px}.premium-score-line{height:9px;border-radius:999px;background:rgba(255,255,255,.10);overflow:hidden}.premium-score-line i{display:block;height:100%;background:linear-gradient(90deg,#39ff88,#ff9f1c)}.premium-score-meta{display:flex;justify-content:space-between;margin-top:6px;color:#aebbd0;font-size:12px}.premium-comment{margin:12px 0 0;color:#d7e4f5;font-size:13px;line-height:1.55}.premium-history-mini{margin-top:12px;padding:12px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(0,0,0,.16)}.premium-history-mini h4{margin:0 0 8px;color:#ffe08a;font-size:13px}.premium-history-mini div{padding:8px;border-radius:10px;background:rgba(255,255,255,.035);color:#d7e4f5;font-size:12px;margin-top:6px}@media(max-width:760px){.premium-state-grid{grid-template-columns:1fr}.premium-value-top{display:grid}}`;
+    s.textContent = `.premium-state-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 14px}.premium-state-card{padding:12px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.premium-state-card span{display:block;color:#8fa0b5;font-size:11px;font-weight:900;text-transform:uppercase}.premium-state-card strong{display:block;margin-top:5px;color:#f8fbff;font-size:18px}.premium-value-card,.premium-teaser,.premium-plan-box{margin:0 0 12px;padding:14px;border:1px solid rgba(255,159,28,.26);border-radius:18px;background:linear-gradient(135deg,rgba(255,159,28,.12),rgba(57,255,136,.06))}.premium-value-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.premium-value-top h4,.premium-teaser h4,.premium-plan-box h4{margin:0;color:#ffe08a}.premium-risk{padding:6px 9px;border-radius:999px;font-size:11px;font-weight:950}.premium-risk.ok{background:rgba(57,255,136,.15);color:#c8ffdd}.premium-risk.warn{background:rgba(255,224,138,.14);color:#ffe08a}.premium-risk.risk{background:rgba(255,79,79,.14);color:#ffb3b3}.premium-score{margin-top:12px}.premium-score-line{height:9px;border-radius:999px;background:rgba(255,255,255,.10);overflow:hidden}.premium-score-line i{display:block;height:100%;background:linear-gradient(90deg,#39ff88,#ff9f1c)}.premium-score-meta{display:flex;justify-content:space-between;margin-top:6px;color:#aebbd0;font-size:12px}.premium-comment,.premium-teaser p{margin:12px 0 0;color:#d7e4f5;font-size:13px;line-height:1.55}.premium-feature-list{display:grid;gap:7px;margin-top:10px}.premium-feature-list span{padding:8px 10px;border-radius:11px;background:rgba(0,0,0,.18);color:#d7e4f5;font-size:12px}.premium-plan-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:10px}.premium-plan{padding:10px;border:1px solid rgba(255,255,255,.10);border-radius:13px;background:rgba(255,255,255,.04)}.premium-plan strong{display:block;color:#f8fbff}.premium-plan small{display:block;color:#8fa0b5;margin-top:4px}.premium-history-mini{margin-top:12px;padding:12px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(0,0,0,.16)}.premium-history-mini h4{margin:0 0 8px;color:#ffe08a;font-size:13px}.premium-history-mini div{padding:8px;border-radius:10px;background:rgba(255,255,255,.035);color:#d7e4f5;font-size:12px;margin-top:6px}@media(max-width:900px){.premium-plan-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){.premium-state-grid,.premium-plan-grid{grid-template-columns:1fr}.premium-value-top{display:grid}}`;
     document.head.appendChild(s);
   };
 
-  const stateGrid = () => `<div class="premium-state-grid"><div class="premium-state-card"><span>Paket</span><strong>Kurucu Beta</strong></div><div class="premium-state-card"><span>Kalan Kullanım</span><strong>${count()}</strong></div><div class="premium-state-card"><span>Robot</span><strong>Premium</strong></div></div>`;
+  const stateGrid = () => `<div class="premium-state-grid"><div class="premium-state-card"><span>Paket</span><strong>${unlocked() ? "Kurucu Beta" : "Ön İzleme"}</strong></div><div class="premium-state-card"><span>Kalan Kullanım</span><strong>${unlocked() ? count() : "Kilitli"}</strong></div><div class="premium-state-card"><span>Robot</span><strong>Premium</strong></div></div>`;
+
+  const teaserBox = () => `<div class="premium-teaser"><h4>Bu alanda kullanıcı ne alır?</h4><p>Maç arama, market seçimi, robot güven puanı, risk seviyesi, oran/olasılık ve premium yorum tek panelde hazırlanır.</p><div class="premium-feature-list"><span>🎯 Takım adına göre hızlı maç bulma</span><span>🧠 Seçilen markete özel robot yorumu</span><span>📊 Güven puanı ve risk etiketi</span><span>🗂️ Son analiz geçmişi</span></div></div>`;
+
+  const planBox = () => `<div class="premium-plan-box"><h4>Paket yapısı</h4><div class="premium-plan-grid"><div class="premium-plan"><strong>Günlük</strong><small>Az sayıda özel analiz</small></div><div class="premium-plan"><strong>Haftalık</strong><small>Düzenli takip</small></div><div class="premium-plan"><strong>Aylık</strong><small>Yoğun kullanım</small></div><div class="premium-plan"><strong>VIP</strong><small>Özel market ve yüksek oran</small></div></div></div>`;
 
   const valueCard = (analysis) => {
     if (!analysis) return `<div class="premium-value-card"><div class="premium-value-top"><h4>Premium sonuç hazır bekliyor</h4><span class="premium-risk warn">Bekliyor</span></div><p class="premium-comment">${premiumComment(null)}</p></div>`;
@@ -87,12 +92,16 @@
     const head = shell.querySelector(".premium-head");
     if (head && !shell.querySelector(".premium-state-grid")) head.insertAdjacentHTML("afterend", stateGrid());
     const stateCount = shell.querySelector(".premium-state-card:nth-child(2) strong");
-    if (stateCount) stateCount.textContent = String(count());
+    if (stateCount) stateCount.textContent = unlocked() ? String(count()) : "Kilitli";
     const out = shell.querySelector("[data-premium-output]");
     if (!out) return;
     out.querySelector(".premium-value-card")?.remove();
+    out.querySelector(".premium-teaser")?.remove();
+    out.querySelector(".premium-plan-box")?.remove();
     out.querySelector(".premium-history-mini")?.remove();
     out.insertAdjacentHTML("afterbegin", valueCard(lastAnalysis()));
+    out.insertAdjacentHTML("beforeend", teaserBox());
+    out.insertAdjacentHTML("beforeend", planBox());
     out.insertAdjacentHTML("beforeend", historyBox());
   };
 
