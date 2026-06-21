@@ -76,7 +76,11 @@ jobs:
         run: node scripts/band-lite.js
 
       - name: Export live JSON for site
+        continue-on-error: true
         run: node scripts/export-high-value-json.js
+
+      - name: Ensure live JSON
+        run: node scripts/ensure-live-json.js
 
       - name: Commit and push High Value Engine outputs
         continue-on-error: true
