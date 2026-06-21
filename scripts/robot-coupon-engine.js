@@ -11,6 +11,8 @@ const formatOdd = (value) => {
 
 const formatPercent = (value) => `${Math.round(value)}%`;
 
+const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+
 const formatTurkeyDate = (date = new Date()) =>
   new Intl.DateTimeFormat("en-CA", {
     timeZone: "Europe/Istanbul",
@@ -19,18 +21,42 @@ const formatTurkeyDate = (date = new Date()) =>
     day: "2-digit",
   }).format(date);
 
-const impliedProbability = (odd) => {
-  const parsed = parseOdd(odd);
-  if (!parsed) return 0;
-  return Math.min(92, Math.max(5, (1 / parsed) * 100));
+const readField = (fixture, key) => fixture?.[key]
+  ?? fixture?.odds?.[key]
+  ?? fixture?.oranlar?.[key]
+  ?? fixture?.detay_oranlar?.[key]
+  ?? fixture?.analysis?.[key]
+  ?? fixture?.stats?.[key];
+
+const readNumber = (fixture, keys) => {
+  for (const key of keys) {
+    const raw = readField(fixture, key);
+    if (raw === undefined || raw === null || raw === "" || raw === "-") continue;
+    const number = Number(String(raw).replace("%", "").replace(",", "."));
+    if (Number.isFinite(number)) return number;
+  }
+  return null;
+};
+
+const readPercent = (fixture, keys) => {
+  const number = readNumber(fixture, keys);
+  if (number === null) return null;
+  if (number <= 1) return clamp(number * 100, 0, 100);
+  return clamp(number, 0, 100);
 };
 
 const oddValue = (fixture, keys) => {
   for (const key of keys) {
-    const value = parseOdd(fixture?.[key] ?? fixture?.odds?.[key]);
+    const value = parseOdd(readField(fixture, key));
     if (value) return value;
   }
   return null;
+};
+
+const impliedProbability = (odd) => {
+  const parsed = parseOdd(odd);
+  if (!parsed) return 0;
+  return Math.min(92, Math.max(5, (1 / parsed) * 100));
 };
 
 const safeTeam = (value, fallback) => String(value || fallback).trim();
@@ -120,8 +146,143 @@ const marketRules = {
   },
 };
 
-const riskFromScore = (score, odd, riskAdd, riskBias) => {
-  const riskNumber = Math.max(0, Math.round((100 - score) + riskAdd + riskBias + (odd >= 3.5 ? 8 : 0)));
+const percentPoints = (percent, maxPoints) => {
+  if (percent === null) return { points: 0, missing: true };
+  if (percent >= 80) return { points: maxPoints, missing: false };
+  if (percent >= 70) return { points: maxPoints * 0.85, missing: false };
+  if (percent >= 60) return { points: maxPoints * 0.65, missing: false };
+  if (percent >= 50) return { points: maxPoints * 0.45, missing: false };
+  return { points: maxPoints * 0.2, missing: false };
+};
+
+const averageKnown = (values) => {
+  const known = values.filter((value) => value !== null && Number.isFinite(value));
+  if (!known.length) return null;
+  return known.reduce((sum, value) => sum + value, 0) / known.length;
+};
+
+const analysisClassFor = (score) => {
+  if (score >= 80) return "Ana kupon adayı";
+  if (score >= 65) return "Orta risk kupon adayı";
+  if (score >= 50) return "Sadece izleme";
+  return "Oynama";
+};
+
+const dataGapLabel = (missingCount) => {
+  if (missingCount >= 9) return "Yüksek";
+  if (missingCount >= 5) return "Orta";
+  return "Düşük";
+};
+
+const formScore = (fixture) => {
+  const home = readPercent(fixture, ["homeFormPercent", "home_form_percent", "ev_form_yuzde", "home_form"]);
+  const away = readPercent(fixture, ["awayFormPercent", "away_form_percent", "dep_form_yuzde", "away_form"]);
+  const avg = averageKnown([home, away]);
+  if (avg === null) return { points: 0, missing: true, home, away };
+  return { points: clamp(avg / 10, 0, 10), missing: false, home, away };
+};
+
+const valueScore = (candidate) => {
+  if (!candidate) return { points: 0, missing: true };
+  const odd = candidate.odd;
+  const rule = marketRules[candidate.key];
+  const mid = (rule.minOdd + rule.maxOdd) / 2;
+  if (odd < rule.minOdd || odd > rule.maxOdd) return { points: 0, missing: false };
+  const premium = odd <= mid ? 10 + ((odd - rule.minOdd) / Math.max(0.01, mid - rule.minOdd)) * 6 : 16 - ((odd - mid) / Math.max(0.01, rule.maxOdd - mid)) * 3;
+  return { points: clamp(premium, 6, 20), missing: false };
+};
+
+const buildMatchAnalysis = (fixture, candidate = null) => {
+  const metrics = {
+    homeScoredLast10: readPercent(fixture, ["homeScoredLast10Percent", "home_scored_last10_pct", "ev_son10_gol_attı", "ev_son10_gol_atti", "home_last10_scored_pct"]),
+    awayScoredLast10: readPercent(fixture, ["awayScoredLast10Percent", "away_scored_last10_pct", "dep_son10_gol_attı", "dep_son10_gol_atti", "away_last10_scored_pct"]),
+    homeConcededLast10: readPercent(fixture, ["homeConcededLast10Percent", "home_conceded_last10_pct", "ev_son10_gol_yedi", "home_last10_conceded_pct"]),
+    awayConcededLast10: readPercent(fixture, ["awayConcededLast10Percent", "away_conceded_last10_pct", "dep_son10_gol_yedi", "away_last10_conceded_pct"]),
+    bttsPercent: readPercent(fixture, ["bttsPercent", "kg_var_yuzdesi", "kgVarPercent", "btts_pct"]),
+    over25Percent: readPercent(fixture, ["over25Percent", "ust25_yuzdesi", "over_25_pct", "ust_25_yuzdesi"]),
+    over35Percent: readPercent(fixture, ["over35Percent", "ust35_yuzdesi", "over_35_pct", "ust_35_yuzdesi"]),
+    firstHalfGoalTrend: readPercent(fixture, ["firstHalfGoalTrend", "ilk_yari_gol_egilimi", "iy_gol_egilimi", "first_half_goal_pct"]),
+    secondHalfGoalTrend: readPercent(fixture, ["secondHalfGoalTrend", "ikinci_yari_gol_egilimi", "second_half_goal_pct"]),
+    leagueGoalAverage: readNumber(fixture, ["leagueGoalAverage", "lig_gol_ortalamasi", "league_goal_avg", "lig_gol_avg"]),
+  };
+
+  const inputs = [
+    [metrics.homeScoredLast10, 5],
+    [metrics.awayScoredLast10, 5],
+    [metrics.homeConcededLast10, 5],
+    [metrics.awayConcededLast10, 5],
+    [metrics.bttsPercent, 9],
+    [metrics.over25Percent, 9],
+    [metrics.over35Percent, 7],
+    [metrics.firstHalfGoalTrend, 7],
+    [metrics.secondHalfGoalTrend, 7],
+  ];
+
+  let score = 0;
+  let missingCount = 0;
+  const signals = [];
+
+  inputs.forEach(([percent, max]) => {
+    const result = percentPoints(percent, max);
+    score += result.points;
+    if (result.missing) missingCount += 1;
+  });
+
+  if (metrics.leagueGoalAverage === null) {
+    missingCount += 1;
+  } else if (metrics.leagueGoalAverage >= 3.2) {
+    score += 8;
+    signals.push("Lig gol ortalaması yüksek");
+  } else if (metrics.leagueGoalAverage >= 2.7) {
+    score += 6;
+    signals.push("Lig gol ortalaması pozitif");
+  } else if (metrics.leagueGoalAverage >= 2.3) {
+    score += 3;
+  }
+
+  const form = formScore(fixture);
+  score += form.points;
+  if (form.missing) missingCount += 1;
+
+  const value = valueScore(candidate);
+  score += value.points;
+  if (value.missing) missingCount += 1;
+
+  const marketFallback = candidate ? Math.min(18, Math.max(6, candidate.confidence / 5)) : 0;
+  score += marketFallback;
+
+  const dataCompleteness = Math.max(0, 10 - missingCount);
+  score += dataCompleteness;
+
+  const league = leagueSignal(fixture.league || fixture.competition_name || "");
+  score += Math.min(6, league.goalBias / 2);
+  score -= Math.min(12, missingCount * 1.5);
+  score = Math.round(clamp(score, 0, 100));
+
+  const dataRisk = dataGapLabel(missingCount);
+  const className = analysisClassFor(score);
+
+  if (metrics.bttsPercent !== null) signals.push(`KG Var yüzdesi: ${formatPercent(metrics.bttsPercent)}`);
+  if (metrics.over25Percent !== null) signals.push(`2.5 Üst yüzdesi: ${formatPercent(metrics.over25Percent)}`);
+  if (metrics.over35Percent !== null) signals.push(`3.5 Üst yüzdesi: ${formatPercent(metrics.over35Percent)}`);
+  if (metrics.firstHalfGoalTrend !== null) signals.push(`İlk yarı gol eğilimi: ${formatPercent(metrics.firstHalfGoalTrend)}`);
+  if (metrics.secondHalfGoalTrend !== null) signals.push(`İkinci yarı gol eğilimi: ${formatPercent(metrics.secondHalfGoalTrend)}`);
+  signals.push(`Veri eksikliği riski: ${dataRisk}`);
+  signals.push(`100 puan analiz sınıfı: ${className}`);
+
+  return {
+    analysis_score: score,
+    analysis_class: className,
+    data_gap_risk: dataRisk,
+    data_missing_count: missingCount,
+    metrics,
+    signals,
+  };
+};
+
+const riskFromScore = (score, odd, riskAdd, riskBias, dataGapRisk = "Düşük") => {
+  const dataAdd = dataGapRisk === "Yüksek" ? 14 : dataGapRisk === "Orta" ? 7 : 0;
+  const riskNumber = Math.max(0, Math.round((100 - score) + riskAdd + riskBias + (odd >= 3.5 ? 8 : 0) + dataAdd));
   if (riskNumber >= 56) return { risk: "Yüksek", riskNumber };
   if (riskNumber >= 38) return { risk: "Orta", riskNumber };
   return { risk: "Düşük", riskNumber };
@@ -142,28 +303,34 @@ const makeCandidate = (fixture, key, rule) => {
   if (key === "secondHalfBttsYes" && odd < 1.90) score -= 2;
 
   score = Math.max(42, Math.min(88, Math.round(score)));
-  if (score < 56) return null;
+  if (score < 50) return null;
 
-  const risk = riskFromScore(score, odd, rule.riskAdd, league.riskBias);
+  const matchAnalysis = buildMatchAnalysis(fixture, { key, odd, confidence: score });
+  const finalScore = Math.round((score * 0.4) + (matchAnalysis.analysis_score * 0.6));
+  if (finalScore < 50) return null;
+
+  const risk = riskFromScore(finalScore, odd, rule.riskAdd, league.riskBias, matchAnalysis.data_gap_risk);
   const signals = [
     `Market: ${rule.label}`,
     `Oran: ${formatOdd(odd)}`,
     `Piyasa olasılığı: ${formatPercent(implied)}`,
-    `Değer skoru: ${score}/100`,
+    `Değer skoru: ${finalScore}/100`,
+    `Analiz sınıfı: ${matchAnalysis.analysis_class}`,
     ...rule.signals,
+    ...matchAnalysis.signals,
   ];
 
   if (league.goalBias > 0) signals.push("Lig gol eğilimi pozitif sinyal verdi");
-  if (odd < rule.minOdd) signals.push("Düşük oran filtresine takıldı");
 
   return {
     key,
     label: rule.label,
     odd,
-    confidence: score,
+    confidence: finalScore,
     risk: risk.risk,
     riskNumber: risk.riskNumber,
     expected_scores: rule.scores,
+    analysis: matchAnalysis,
     signals,
   };
 };
@@ -173,12 +340,7 @@ const getCandidates = (fixture) => Object.entries(marketRules)
   .filter(Boolean)
   .sort((a, b) => b.confidence - a.confidence || a.riskNumber - b.riskNumber || b.odd - a.odd);
 
-const tagFor = (score, risk) => {
-  if (risk === "Yüksek" && score < 68) return "Riskli Değer";
-  if (score >= 76) return "Yüksek Değer";
-  if (score >= 66) return "Değerli";
-  return "Takip";
-};
+const tagFor = (score) => analysisClassFor(score);
 
 const expectedScoresFor = (selection, fallback = []) => {
   if (Array.isArray(fallback) && fallback.length) return fallback;
@@ -189,77 +351,72 @@ const expectedScoresFor = (selection, fallback = []) => {
   return ["2-1", "2-2"];
 };
 
-const scoreFixture = (fixture, index = 0) => {
+const emptyScoredFixture = (fixture, reason, status, signals) => {
   const { home, away } = getTeams(fixture);
-  const match = `${home} VS ${away}`;
+  const analysis = buildMatchAnalysis(fixture, null);
+  return {
+    ...fixture,
+    home,
+    away,
+    match: `${home} VS ${away}`,
+    market: reason,
+    selection: reason,
+    odds: "-",
+    confidence: `${analysis.analysis_score}%`,
+    lab_probability: `${analysis.analysis_score}%`,
+    trust_score: `${analysis.analysis_score}/100`,
+    tag: analysis.analysis_class,
+    expected_scores: [],
+    score: analysis.analysis_score,
+    risk: analysis.analysis_score < 50 ? "Yüksek" : "Orta",
+    status,
+    hasOdds: false,
+    analysis_score: analysis.analysis_score,
+    analysis_class: analysis.analysis_class,
+    data_gap_risk: analysis.data_gap_risk,
+    analysis_metrics: analysis.metrics,
+    pro_signals: [...signals, ...analysis.signals],
+  };
+};
 
+const scoreFixture = (fixture, index = 0) => {
   if (!isCurrentFixture(fixture)) {
-    return {
-      ...fixture,
-      home,
-      away,
-      match,
-      market: "Güncel maç değil",
-      selection: "Güncel maç değil",
-      odds: "-",
-      confidence: "-",
-      lab_probability: "-",
-      trust_score: "-",
-      tag: "Elenmiş",
-      expected_scores: [],
-      score: 0,
-      risk: "-",
-      status: "filtered_old_fixture",
-      hasOdds: false,
-      pro_signals: ["Eski tarihli maç elendi"],
-    };
+    return emptyScoredFixture(fixture, "Güncel maç değil", "filtered_old_fixture", ["Eski tarihli maç elendi"]);
   }
 
   const candidates = getCandidates(fixture);
   const best = candidates[0];
 
   if (!best) {
-    return {
-      ...fixture,
-      home,
-      away,
-      match,
-      market: "Değerli market yok",
-      selection: "Değerli market yok",
-      odds: "-",
-      confidence: "-",
-      lab_probability: "-",
-      trust_score: "-",
-      tag: "Elenmiş",
-      expected_scores: [],
-      score: 0,
-      risk: "-",
-      status: "filtered_no_value_market",
-      hasOdds: false,
-      pro_signals: ["Düşük oran veya eksik veri nedeniyle elendi", "Çifte şans kullanılmadı"],
-    };
+    return emptyScoredFixture(fixture, "Değerli market yok", "filtered_no_value_market", ["Düşük oran veya eksik veri nedeniyle elendi", "Çifte şans kullanılmadı"]);
   }
 
-  const rankBoost = Math.max(0, 3 - (index % 4));
-  const score = Math.min(90, best.confidence + rankBoost);
+  const { home, away } = getTeams(fixture);
+  const rankBoost = Math.max(0, 2 - (index % 3));
+  const score = Math.min(100, best.confidence + rankBoost);
+  const analysisClass = analysisClassFor(score);
 
   return {
     ...fixture,
     home,
     away,
-    match,
+    match: `${home} VS ${away}`,
     market: best.label,
     selection: best.label,
     odds: formatOdd(best.odd),
     confidence: formatPercent(score),
     lab_probability: formatPercent(score),
-    trust_score: `${Math.max(50, Math.min(92, Math.round(score - 9)))}/100`,
-    tag: tagFor(score, best.risk),
+    trust_score: `${score}/100`,
+    tag: analysisClass,
     expected_scores: expectedScoresFor(best.label, best.expected_scores),
     score,
     risk: best.risk,
     status: fixture.status || "scheduled",
     hasOdds: true,
+    analysis_score: score,
+    analysis_class: analysisClass,
+    data_gap_risk: best.analysis.data_gap_risk,
+    analysis_metrics: best.analysis.metrics,
     pro_signals: best.signals,
   };
 };
@@ -280,6 +437,9 @@ const legFromItem = (item, number = 1) => ({
   trust_score: item.trust_score,
   risk: item.risk,
   tag: item.tag,
+  analysis_score: item.analysis_score,
+  analysis_class: item.analysis_class,
+  data_gap_risk: item.data_gap_risk,
   expected_scores: item.expected_scores || [],
   signals: item.pro_signals || [],
 });
@@ -297,7 +457,7 @@ const combinedSignals = (items, limit = 6) => items.flatMap((item) => item.pro_s
 const buildCouponAnalysis = (fixtures = []) => {
   const scored = fixtures.map(scoreFixture);
   const ranked = scored
-    .filter((item) => item.hasOdds && item.score >= 56)
+    .filter((item) => item.hasOdds && item.score >= 65)
     .sort((a, b) => b.score - a.score || parseOdd(b.odds) - parseOdd(a.odds))
     .slice(0, 14);
 
@@ -309,6 +469,9 @@ const buildCouponAnalysis = (fixtures = []) => {
     score: item.score,
     risk: item.risk,
     tag: item.tag,
+    analysis_score: item.analysis_score,
+    analysis_class: item.analysis_class,
+    data_gap_risk: item.data_gap_risk,
     expected_scores: item.expected_scores,
     signals: item.pro_signals,
     legs: [legFromItem(item, 1)],
@@ -330,7 +493,10 @@ const buildCouponAnalysis = (fixtures = []) => {
       confidence: `${avg}%`,
       score: avg,
       risk: pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta",
-      tag: tagFor(avg, pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta"),
+      tag: analysisClassFor(avg),
+      analysis_score: avg,
+      analysis_class: analysisClassFor(avg),
+      data_gap_risk: pair.some((item) => item.data_gap_risk === "Yüksek") ? "Yüksek" : pair.some((item) => item.data_gap_risk === "Orta") ? "Orta" : "Düşük",
       expected_scores: pair.flatMap((item) => item.expected_scores || []).slice(0, 4),
       signals: combinedSignals(pair, 5),
       legs: pair.map((item, legIndex) => legFromItem(item, legIndex + 1)),
@@ -349,7 +515,10 @@ const buildCouponAnalysis = (fixtures = []) => {
       confidence: `${avg}%`,
       score: avg,
       risk: "Yüksek",
-      tag: tagFor(avg, "Yüksek"),
+      tag: analysisClassFor(avg),
+      analysis_score: avg,
+      analysis_class: analysisClassFor(avg),
+      data_gap_risk: trio.some((item) => item.data_gap_risk === "Yüksek") ? "Yüksek" : trio.some((item) => item.data_gap_risk === "Orta") ? "Orta" : "Düşük",
       expected_scores: trio.flatMap((item) => item.expected_scores || []).slice(0, 6),
       signals: combinedSignals(trio, 6),
       legs: trio.map((item, legIndex) => legFromItem(item, legIndex + 1)),
@@ -359,4 +528,4 @@ const buildCouponAnalysis = (fixtures = []) => {
   return { scored, ranked, singles, doubles, triples };
 };
 
-module.exports = { scoreFixture, buildCouponAnalysis };
+module.exports = { scoreFixture, buildCouponAnalysis, buildMatchAnalysis };
