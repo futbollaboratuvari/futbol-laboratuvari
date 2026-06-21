@@ -14,6 +14,11 @@
     radial-gradient(circle at 18% 82%, rgba(255, 159, 28, .13), transparent 32%) !important;
 }
 
+.dashboard-hero .hero-media {
+  display: none !important;
+  background: none !important;
+}
+
 .dashboard-hero::before {
   content: "" !important;
   position: absolute !important;
@@ -21,8 +26,8 @@
   z-index: -2 !important;
   background:
     linear-gradient(rgba(5, 11, 24, .74), rgba(5, 11, 24, .90)),
-    url("assets/images/gallery-spor-toto.webp") center/cover no-repeat !important;
-  filter: saturate(.78) contrast(1.04) brightness(.72) !important;
+    url("https://unsplash.com/photos/pitDMdAjynU/download?force=true&w=2200") center/cover no-repeat !important;
+  filter: saturate(.82) contrast(1.06) brightness(.72) !important;
   transform: scale(1.03) !important;
 }
 
@@ -32,9 +37,11 @@
   inset: 0 !important;
   z-index: -1 !important;
   background:
+    linear-gradient(90deg, rgba(3,8,23,.94) 0%, rgba(3,8,23,.76) 48%, rgba(3,8,23,.88) 100%),
     linear-gradient(180deg, rgba(255,255,255,.045), transparent 18%, rgba(0,0,0,.18)),
-    repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 1px, transparent 1px 110px) !important;
-  opacity: .38 !important;
+    radial-gradient(circle at 80% 18%, rgba(57,255,136,.11), transparent 26%),
+    radial-gradient(circle at 18% 82%, rgba(255,159,28,.11), transparent 30%) !important;
+  opacity: 1 !important;
   display: block !important;
   pointer-events: none !important;
 }
