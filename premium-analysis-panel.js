@@ -27,6 +27,9 @@
     { key: "1Y/2Y KG Hayır/Hayır", label: "Hayır/Hayır", icon: "🚫🚫" },
     { key: "1Y/2Y KG Evet/Hayır", label: "Evet/Hayır", icon: "✅🚫" },
     { key: "1Y/2Y KG Hayır/Evet", label: "Hayır/Evet", icon: "🚫✅" },
+    { key: "1Y KG %", label: "1Y KG %", icon: "%1" },
+    { key: "2Y KG %", label: "2Y KG %", icon: "%2" },
+    { key: "1Y KG % + 2Y KG %", label: "1Y KG % + 2Y KG %", icon: "%+" },
     { key: "İY 1", label: "İY 1", icon: "1️⃣" },
     { key: "İY X", label: "İY X", icon: "🔹" },
     { key: "İY 2", label: "İY 2", icon: "2️⃣" },
@@ -46,7 +49,8 @@
 
   const iymsMarkets = markets.filter((market) => market.key.startsWith("İY/MS"));
   const comboKgMarkets = markets.filter((market) => market.key.startsWith("1Y/2Y KG"));
-  const normalMarkets = markets.filter((market) => !market.key.startsWith("İY/MS") && !market.key.startsWith("1Y/2Y KG"));
+  const kgPercentMarkets = markets.filter((market) => market.key.includes("KG %"));
+  const normalMarkets = markets.filter((market) => !market.key.startsWith("İY/MS") && !market.key.startsWith("1Y/2Y KG") && !market.key.includes("KG %"));
 
   const todayKey = () => new Intl.DateTimeFormat("en-CA", {
     timeZone: "Europe/Istanbul",
@@ -141,6 +145,8 @@
             <div class="premium-market-grid">${marketButtons(normalMarkets, unlocked)}</div>
             <div class="premium-market-group-title">1.Yarı / 2.Yarı KG</div>
             <div class="premium-market-grid">${marketButtons(comboKgMarkets, unlocked)}</div>
+            <div class="premium-market-group-title">KG Yüzde Analizi</div>
+            <div class="premium-market-grid">${marketButtons(kgPercentMarkets, unlocked)}</div>
             <div class="premium-market-group-title">İY/MS Marketleri</div>
             <div class="premium-market-grid">${marketButtons(iymsMarkets, unlocked)}</div>
           </div>
