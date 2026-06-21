@@ -1,0 +1,72 @@
+{
+  "updated_at": "2026-06-21T02:35:00+03:00",
+  "purpose": "Robotun yerel futbol haber, analiz ve istatistik kaynaklarını tanıması için başlangıç kaynak listesi.",
+  "policy": "Bu liste sadece kaynak tanıma ve izinli veri/import planı içindir. Login, paywall veya yasaklı scraping yapılmaz.",
+  "sources": [
+    {
+      "name": "Mackolik",
+      "url": "https://www.mackolik.com/",
+      "type": "score_odds_fixture_stats",
+      "priority": 1,
+      "use_for": ["mac_listesi", "oran", "skor", "program", "istatistik"],
+      "status": "active_existing_source"
+    },
+    {
+      "name": "NTV Spor",
+      "url": "https://www.ntvspor.net/",
+      "type": "news_analysis_video",
+      "priority": 2,
+      "use_for": ["haber", "yorum", "analiz", "guncel_gelisme"],
+      "status": "planned_source"
+    },
+    {
+      "name": "TRT Spor",
+      "url": "https://www.trtspor.com.tr/",
+      "type": "news_broadcast_analysis",
+      "priority": 2,
+      "use_for": ["haber", "resmi_yayin", "mac_onu", "mac_sonu"],
+      "status": "planned_source"
+    },
+    {
+      "name": "beIN Sports Turkiye",
+      "url": "https://beinsports.com.tr/",
+      "type": "league_broadcast_news_analysis",
+      "priority": 2,
+      "use_for": ["super_lig", "ozet", "haber", "yorum"],
+      "status": "planned_source"
+    },
+    {
+      "name": "Fanatik",
+      "url": "https://www.fanatik.com.tr/",
+      "type": "sports_news_columns",
+      "priority": 3,
+      "use_for": ["haber", "yazar_yorumu", "takim_gundemi"],
+      "status": "planned_source"
+    },
+    {
+      "name": "Fotomac",
+      "url": "https://www.fotomac.com.tr/",
+      "type": "sports_news_columns",
+      "priority": 3,
+      "use_for": ["haber", "yazar_yorumu", "takim_gundemi"],
+      "status": "planned_source"
+    },
+    {
+      "name": "Sporx",
+      "url": "https://www.sporx.com/",
+      "type": "sports_news_match_center",
+      "priority": 3,
+      "use_for": ["haber", "mac_merkezi", "takim_gundemi"],
+      "status": "planned_source"
+    },
+    {
+      "name": "Ajansspor",
+      "url": "https://ajansspor.com/",
+      "type": "sports_news_analysis",
+      "priority": 3,
+      "use_for": ["haber", "yorum", "transfer", "takim_gundemi"],
+      "status": "planned_source"
+    }
+  ],
+  "next_step": "Her kaynak icin izinli RSS/API/manual import varsa ayri kucuk adapter dosyasi eklenecek."
+}
