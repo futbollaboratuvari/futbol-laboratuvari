@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260621-premium-kg-percent-v3";
+  const version = "20260621-premium-panel-v4";
   const ownerCode = "CEM-ANALIZ-2026";
   document.documentElement.dataset.flCacheVersion = version;
 
@@ -7,6 +7,7 @@
     "membership-form-hint.js",
     "daily-matches-widget.js",
     "premium-analysis-panel.js",
+    "premium-panel-fix.js",
     "robot-dashboard.js"
   ];
 
