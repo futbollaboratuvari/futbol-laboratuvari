@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-22T01:00:00+03:00",
+  "timezone": "Europe/Istanbul",
+  "project": "Futbol Laboratuvarı AI Analiz Robotu",
+  "status": "Öğrenen hafıza sistemi başlatıldı",
+  "rules": {
+    "no_fake_data": true,
+    "show_empty_when_no_current_data": true,
+    "no_bet_approval": true,
+    "user_final_decision": true,
+    "track_every_prediction": true,
+    "track_failure_reason": true
+  },
+  "prediction_log": [],
+  "result_log": [],
+  "market_performance": {
+    "KG Var": { "total": 0, "won": 0, "lost": 0, "push": 0, "success_rate": 0, "avg_odds": 0 },
+    "İlk Yarı KG Var": { "total": 0, "won": 0, "lost": 0, "push": 0, "success_rate": 0, "avg_odds": 0 },
+    "İkinci Yarı KG Var": { "total": 0, "won": 0, "lost": 0, "push": 0, "success_rate": 0, "avg_odds": 0 },
+    "2.5 Üst": { "total": 0, "won": 0, "lost": 0, "push": 0, "success_rate": 0, "avg_odds": 0 },
+    "3.5 Üst": { "total": 0, "won": 0, "lost": 0, "push": 0, "success_rate": 0, "avg_odds": 0 }
+  },
+  "league_memory": {},
+  "team_memory": {},
+  "odds_memory": {
+    "1.01-1.49": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 },
+    "1.50-1.99": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 },
+    "2.00-2.99": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 },
+    "3.00-4.99": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 },
+    "5.00+": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 }
+  },
+  "coupon_performance": {
+    "dengeli": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 },
+    "yüksek_oran": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 },
+    "riskli": { "total": 0, "won": 0, "lost": 0, "success_rate": 0 }
+  },
+  "error_memory": [],
+  "learning_notes": [
+    "Her tahmin tarih, lig, maç, market, oran, risk, güven, gerekçe ve sonuç alanlarıyla kaydedilecek.",
+    "Sonuçlanan her tahminde robot yanılma sebebini ayrı yazacak.",
+    "Lig, takım, market ve oran aralığı başarıları günlük olarak yeniden hesaplanacak.",
+    "Güncel veri yoksa eski veya uydurma veri gösterilmeyecek."
+  ]
+}
