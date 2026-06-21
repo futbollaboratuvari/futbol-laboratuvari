@@ -2,6 +2,7 @@
   const COUNT_KEY = "fl_premium_count";
   const HISTORY_KEY = "fl_premium_robot_queue";
   const LAST_KEY = "fl_last_premium_robot_analysis";
+  const PLAN_KEY = "fl_selected_membership_plan";
 
   const safe = (v) => String(v ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");
 
@@ -27,7 +28,13 @@
   };
 
   const lastAnalysis = () => readJson(LAST_KEY, null);
+  const selectedPlan = () => readJson(PLAN_KEY, null);
   const unlocked = () => localStorage.getItem("fl_premium_beta_access") === "1";
+  const packageName = () => {
+    const plan = selectedPlan();
+    if (unlocked()) return plan?.name || "Kurucu Beta";
+    return plan?.name ? `${plan.name} Ön İzleme` : "Ön İzleme";
+  };
 
   const score = (analysis) => {
     const percent = Number(analysis?.percent || 0);
@@ -63,17 +70,25 @@
     if (document.getElementById("premium-state-style")) return;
     const s = document.createElement("style");
     s.id = "premium-state-style";
-    s.textContent = `.premium-state-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 14px}.premium-state-card{padding:12px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.premium-state-card span{display:block;color:#8fa0b5;font-size:11px;font-weight:900;text-transform:uppercase}.premium-state-card strong{display:block;margin-top:5px;color:#f8fbff;font-size:18px}.premium-value-card,.premium-teaser,.premium-plan-box,.premium-paywall{margin:0 0 12px;padding:14px;border:1px solid rgba(255,159,28,.26);border-radius:18px;background:linear-gradient(135deg,rgba(255,159,28,.12),rgba(57,255,136,.06))}.premium-value-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.premium-value-top h4,.premium-teaser h4,.premium-plan-box h4,.premium-paywall h4{margin:0;color:#ffe08a}.premium-risk{padding:6px 9px;border-radius:999px;font-size:11px;font-weight:950}.premium-risk.ok{background:rgba(57,255,136,.15);color:#c8ffdd}.premium-risk.warn{background:rgba(255,224,138,.14);color:#ffe08a}.premium-risk.risk{background:rgba(255,79,79,.14);color:#ffb3b3}.premium-score{margin-top:12px}.premium-score-line{height:9px;border-radius:999px;background:rgba(255,255,255,.10);overflow:hidden}.premium-score-line i{display:block;height:100%;background:linear-gradient(90deg,#39ff88,#ff9f1c)}.premium-score-meta{display:flex;justify-content:space-between;margin-top:6px;color:#aebbd0;font-size:12px}.premium-comment,.premium-teaser p,.premium-paywall p{margin:12px 0 0;color:#d7e4f5;font-size:13px;line-height:1.55}.premium-feature-list{display:grid;gap:7px;margin-top:10px}.premium-feature-list span{padding:8px 10px;border-radius:11px;background:rgba(0,0,0,.18);color:#d7e4f5;font-size:12px}.premium-plan-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:10px}.premium-plan{padding:10px;border:1px solid rgba(255,255,255,.10);border-radius:13px;background:rgba(255,255,255,.04)}.premium-plan strong{display:block;color:#f8fbff}.premium-plan small{display:block;color:#8fa0b5;margin-top:4px}.premium-preview-blur{position:relative;margin-top:10px;padding:11px;border-radius:14px;background:rgba(0,0,0,.20);border:1px solid rgba(255,255,255,.08);overflow:hidden}.premium-preview-blur .blurred{filter:blur(3px);opacity:.62;user-select:none}.premium-preview-lock{position:absolute;inset:auto 12px 12px 12px;padding:9px;border-radius:12px;background:rgba(3,8,23,.86);border:1px solid rgba(255,159,28,.24);color:#ffe08a;font-size:12px;font-weight:950;text-align:center}.premium-cta-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.premium-cta{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 13px;border-radius:12px;text-decoration:none;font-weight:950;font-size:12px}.premium-cta.primary{background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c}.premium-cta.secondary{border:1px solid rgba(255,255,255,.14);color:#f8fbff;background:rgba(255,255,255,.05)}.premium-history-mini{margin-top:12px;padding:12px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(0,0,0,.16)}.premium-history-mini h4{margin:0 0 8px;color:#ffe08a;font-size:13px}.premium-history-mini div{padding:8px;border-radius:10px;background:rgba(255,255,255,.035);color:#d7e4f5;font-size:12px;margin-top:6px}@media(max-width:900px){.premium-plan-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){.premium-state-grid,.premium-plan-grid{grid-template-columns:1fr}.premium-value-top{display:grid}}`;
+    s.textContent = `.premium-state-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 14px}.premium-state-card{padding:12px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.premium-state-card span{display:block;color:#8fa0b5;font-size:11px;font-weight:900;text-transform:uppercase}.premium-state-card strong{display:block;margin-top:5px;color:#f8fbff;font-size:18px}.premium-value-card,.premium-teaser,.premium-plan-box,.premium-paywall{margin:0 0 12px;padding:14px;border:1px solid rgba(255,159,28,.26);border-radius:18px;background:linear-gradient(135deg,rgba(255,159,28,.12),rgba(57,255,136,.06))}.premium-value-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.premium-value-top h4,.premium-teaser h4,.premium-plan-box h4,.premium-paywall h4{margin:0;color:#ffe08a}.premium-risk{padding:6px 9px;border-radius:999px;font-size:11px;font-weight:950}.premium-risk.ok{background:rgba(57,255,136,.15);color:#c8ffdd}.premium-risk.warn{background:rgba(255,224,138,.14);color:#ffe08a}.premium-risk.risk{background:rgba(255,79,79,.14);color:#ffb3b3}.premium-score{margin-top:12px}.premium-score-line{height:9px;border-radius:999px;background:rgba(255,255,255,.10);overflow:hidden}.premium-score-line i{display:block;height:100%;background:linear-gradient(90deg,#39ff88,#ff9f1c)}.premium-score-meta{display:flex;justify-content:space-between;margin-top:6px;color:#aebbd0;font-size:12px}.premium-comment,.premium-teaser p,.premium-paywall p{margin:12px 0 0;color:#d7e4f5;font-size:13px;line-height:1.55}.premium-feature-list{display:grid;gap:7px;margin-top:10px}.premium-feature-list span{padding:8px 10px;border-radius:11px;background:rgba(0,0,0,.18);color:#d7e4f5;font-size:12px}.premium-plan-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:10px}.premium-plan{padding:10px;border:1px solid rgba(255,255,255,.10);border-radius:13px;background:rgba(255,255,255,.04)}.premium-plan strong{display:block;color:#f8fbff}.premium-plan small{display:block;color:#8fa0b5;margin-top:4px}.premium-plan.selected{border-color:rgba(57,255,136,.45);background:rgba(57,255,136,.10)}.premium-preview-blur{position:relative;margin-top:10px;padding:11px;border-radius:14px;background:rgba(0,0,0,.20);border:1px solid rgba(255,255,255,.08);overflow:hidden}.premium-preview-blur .blurred{filter:blur(3px);opacity:.62;user-select:none}.premium-preview-lock{position:absolute;inset:auto 12px 12px 12px;padding:9px;border-radius:12px;background:rgba(3,8,23,.86);border:1px solid rgba(255,159,28,.24);color:#ffe08a;font-size:12px;font-weight:950;text-align:center}.premium-cta-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.premium-cta{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 13px;border-radius:12px;text-decoration:none;font-weight:950;font-size:12px}.premium-cta.primary{background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c}.premium-cta.secondary{border:1px solid rgba(255,255,255,.14);color:#f8fbff;background:rgba(255,255,255,.05)}.premium-history-mini{margin-top:12px;padding:12px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(0,0,0,.16)}.premium-history-mini h4{margin:0 0 8px;color:#ffe08a;font-size:13px}.premium-history-mini div{padding:8px;border-radius:10px;background:rgba(255,255,255,.035);color:#d7e4f5;font-size:12px;margin-top:6px}@media(max-width:900px){.premium-plan-grid{grid-template-columns:1fr}}@media(max-width:760px){.premium-state-grid{grid-template-columns:1fr}.premium-value-top{display:grid}}`;
     document.head.appendChild(s);
   };
 
-  const stateGrid = () => `<div class="premium-state-grid"><div class="premium-state-card"><span>Paket</span><strong>${unlocked() ? "Kurucu Beta" : "Ön İzleme"}</strong></div><div class="premium-state-card"><span>Kalan Kullanım</span><strong>${unlocked() ? count() : "Kilitli"}</strong></div><div class="premium-state-card"><span>Robot</span><strong>Premium</strong></div></div>`;
+  const stateGrid = () => `<div class="premium-state-grid"><div class="premium-state-card"><span>Paket</span><strong>${safe(packageName())}</strong></div><div class="premium-state-card"><span>Kalan Kullanım</span><strong>${unlocked() ? count() : "Kilitli"}</strong></div><div class="premium-state-card"><span>Robot</span><strong>Premium</strong></div></div>`;
 
-  const teaserBox = () => `<div class="premium-teaser"><h4>Bu alanda kullanıcı ne alır?</h4><p>Maç arama, market seçimi, robot güven puanı, risk seviyesi, oran/olasılık ve premium yorum tek panelde hazırlanır.</p><div class="premium-feature-list"><span>🎯 Takım adına göre hızlı maç bulma</span><span>🧠 Seçilen markete özel robot yorumu</span><span>📊 Güven puanı ve risk etiketi</span><span>🗂️ Son analiz geçmişi</span></div></div>`;
+  const teaserBox = () => `<div class="premium-teaser"><h4>Bu alanda kullanıcı ne alır?</h4><p>Maç arama, seçenek seçimi, robot güven puanı, risk seviyesi, oran/olasılık ve premium yorum tek panelde hazırlanır.</p><div class="premium-feature-list"><span>🎯 Takım adına göre hızlı maç bulma</span><span>🧠 Seçilen seçeneğe özel robot yorumu</span><span>📊 Güven puanı ve risk etiketi</span><span>🗂️ Son analiz geçmişi</span></div></div>`;
 
-  const paywallBox = () => unlocked() ? "" : `<div class="premium-paywall"><h4>Ön izleme modu</h4><p>Tam robot analizi, güven puanı, oran yorumu ve özel notlar erişim açılınca görünür.</p><div class="premium-preview-blur"><div class="blurred"><div class="premium-score"><div class="premium-score-line"><i style="width:72%"></i></div><div class="premium-score-meta"><span>Robot güven puanı</span><strong>%72</strong></div></div><p class="premium-comment">Seçilen maçta tempo, KG ihtimali ve oran dengesi premium robot tarafından karşılaştırıldı.</p></div><div class="premium-preview-lock">🔒 Tam analiz kilitli</div></div><div class="premium-cta-row"><a class="premium-cta primary" href="#membership-payment-panel">Üyelik alanına git</a><a class="premium-cta secondary" href="#premium-analysis-panel">Kod ile aç</a></div></div>`;
+  const paywallBox = () => {
+    const plan = selectedPlan();
+    const selectedText = plan?.name ? `<p>Seçili üyelik paketi: <strong>${safe(plan.name)}</strong></p>` : "";
+    return unlocked() ? "" : `<div class="premium-paywall"><h4>Ön izleme modu</h4><p>Tam robot analizi, güven puanı, oran yorumu ve özel notlar erişim açılınca görünür.</p>${selectedText}<div class="premium-preview-blur"><div class="blurred"><div class="premium-score"><div class="premium-score-line"><i style="width:72%"></i></div><div class="premium-score-meta"><span>Robot güven puanı</span><strong>%72</strong></div></div><p class="premium-comment">Seçilen maçta tempo, KG ihtimali ve oran dengesi premium robot tarafından karşılaştırıldı.</p></div><div class="premium-preview-lock">🔒 Tam analiz kilitli</div></div><div class="premium-cta-row"><a class="premium-cta primary" href="#membership-payment-panel">Üyelik alanına git</a><a class="premium-cta secondary" href="#premium-analysis-panel">Kod ile aç</a></div></div>`;
+  };
 
-  const planBox = () => `<div class="premium-plan-box"><h4>Paket yapısı</h4><div class="premium-plan-grid"><div class="premium-plan"><strong>Günlük</strong><small>Az sayıda özel analiz</small></div><div class="premium-plan"><strong>Haftalık</strong><small>Düzenli takip</small></div><div class="premium-plan"><strong>Aylık</strong><small>Yoğun kullanım</small></div><div class="premium-plan"><strong>VIP</strong><small>Özel market ve yüksek oran</small></div></div></div>`;
+  const planBox = () => {
+    const plan = selectedPlan();
+    const name = String(plan?.name || "");
+    return `<div class="premium-plan-box"><h4>Üyelik paketleri</h4><div class="premium-plan-grid"><div class="premium-plan ${name.includes("Gold") ? "selected" : ""}"><strong>Gold</strong><small>10 özel analiz hakkı</small></div><div class="premium-plan ${name.includes("Diamond") ? "selected" : ""}"><strong>Diamond</strong><small>40 özel analiz hakkı</small></div><div class="premium-plan ${name.includes("Premium") ? "selected" : ""}"><strong>Premium</strong><small>120 özel analiz hakkı</small></div></div></div>`;
+  };
 
   const valueCard = (analysis) => {
     if (!analysis) return `<div class="premium-value-card"><div class="premium-value-top"><h4>Premium sonuç hazır bekliyor</h4><span class="premium-risk warn">Bekliyor</span></div><p class="premium-comment">${premiumComment(null)}</p></div>`;
@@ -93,8 +108,9 @@
     if (!shell) return;
     const head = shell.querySelector(".premium-head");
     if (head && !shell.querySelector(".premium-state-grid")) head.insertAdjacentHTML("afterend", stateGrid());
-    const stateCount = shell.querySelector(".premium-state-card:nth-child(2) strong");
-    if (stateCount) stateCount.textContent = unlocked() ? String(count()) : "Kilitli";
+    const stateCards = shell.querySelectorAll(".premium-state-card strong");
+    if (stateCards[0]) stateCards[0].textContent = packageName();
+    if (stateCards[1]) stateCards[1].textContent = unlocked() ? String(count()) : "Kilitli";
     const out = shell.querySelector("[data-premium-output]");
     if (!out) return;
     out.querySelector(".premium-value-card")?.remove();
@@ -119,6 +135,7 @@
     }, 900);
   });
 
+  window.addEventListener("storage", render);
   window.addEventListener("load", () => {
     setTimeout(render, 1100);
     setInterval(render, 3000);
