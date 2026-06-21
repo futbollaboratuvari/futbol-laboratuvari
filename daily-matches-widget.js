@@ -2,150 +2,109 @@
   const DATA_URL = "./data/fixtures.json";
   const WIDGET_ID = "daily-matches-widget";
 
-  const escapeHtml = (value) =>
-    String(value ?? "")
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
+  const esc = (value) => String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 
-  const pickOdd = (match, keys) => {
-    for (const key of keys) {
-      const value = match[key];
-      if (value !== undefined && value !== null && value !== "") return value;
-    }
-    return "-";
-  };
-
-  const displayOdd = (value) => {
+  const empty = (value) => {
     const text = String(value ?? "").trim();
-    return text && text !== "-" ? text : "—";
+    return !text || text === "-" || text === "—" || text.toLowerCase() === "null";
   };
 
-  const hasOdd = (value) => {
-    const text = String(value ?? "").trim();
-    return Boolean(text && text !== "-" && text !== "—");
-  };
+  const read = (match, key) => match?.[key]
+    ?? match?.odds?.[key]
+    ?? match?.oranlar?.[key]
+    ?? match?.detay_oranlar?.[key]
+    ?? match?.detailOdds?.[key]
+    ?? match?.raw_market_guess_odds?.[key];
 
-  const mainOdds = (match) => ({
-    one: pickOdd(match, ["one", "oneOdd", "ms1", "odd1"]),
-    draw: pickOdd(match, ["draw", "drawOdd", "x", "msx", "oddX"]),
-    two: pickOdd(match, ["two", "twoOdd", "ms2", "odd2"]),
-    under25: pickOdd(match, ["under25", "alt25", "under", "alt"]),
-    over25: pickOdd(match, ["over25", "ust25", "over", "ust"]),
-    bttsYes: pickOdd(match, ["bttsYes", "kgVar", "varOdd", "var"]),
-    bttsNo: pickOdd(match, ["bttsNo", "kgYok", "yokOdd", "yok"]),
-  });
-
-  const dataQuality = (odds) => {
-    const values = Object.values(odds);
-    const active = values.filter(hasOdd).length;
-    if (active >= 6) return { active, total: values.length, label: "Tam Veri", className: "full" };
-    if (active >= 3) return { active, total: values.length, label: "Kısmi Veri", className: "partial" };
-    return { active, total: values.length, label: "Oran Bekleniyor", className: "waiting" };
-  };
-
-  const pickLogo = (match, side) => {
-    const keys = side === "home"
-      ? ["homeLogo", "home_logo", "home_team_logo", "homeCrest"]
-      : ["awayLogo", "away_logo", "away_team_logo", "awayCrest"];
+  const pick = (match, keys) => {
     for (const key of keys) {
-      if (match[key]) return match[key];
+      const value = read(match, key);
+      if (!empty(value)) return value;
     }
     return "";
   };
 
-  const teamInitial = (name) => String(name || "?").trim().charAt(0).toUpperCase() || "?";
+  const market = (label, value) => empty(value)
+    ? ""
+    : `<div class="daily-market-item"><span class="daily-market-name">${esc(label)}</span><b class="daily-market-value">${esc(value)}</b></div>`;
 
-  const countryFlag = (league = "") => {
-    const text = String(league).toLowerCase();
-    if (text.includes("dünya")) return "🌍";
-    if (text.includes("irlanda")) return "🇮🇪";
-    if (text.includes("norveç")) return "🇳🇴";
-    if (text.includes("kuveyt")) return "🇰🇼";
-    if (text.includes("hazırlık")) return "🌐";
-    if (text.includes("litvanya")) return "🇱🇹";
-    if (text.includes("abd")) return "🇺🇸";
-    if (text.includes("türkiye")) return "🇹🇷";
-    return "⚽";
-  };
+  const section = (title, html) => String(html || "").trim()
+    ? `<section class="daily-extra-category"><div class="daily-extra-subtitle">${esc(title)}</div><div class="daily-extra-grid">${html}</div></section>`
+    : "";
 
-  const todayKey = () =>
-    new Intl.DateTimeFormat("en-CA", {
-      timeZone: "Europe/Istanbul",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    }).format(new Date());
+  const todayKey = () => new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Istanbul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
 
   const formatDate = (dateKey) => {
-    if (!dateKey || !dateKey.includes("-")) return "Bugün";
-    const [year, month, day] = dateKey.split("-");
+    if (!dateKey || !String(dateKey).includes("-")) return "Bugün";
+    const [year, month, day] = String(dateKey).split("-");
     return `${day}.${month}.${year}`;
   };
 
-  const normalizeTime = (match) => {
-    const raw = String(match.time || "").trim();
-    return /^\d{1,2}:\d{2}$/.test(raw) ? raw.padStart(5, "0") : "99:99";
-  };
+  const oddText = (value) => empty(value) ? "—" : String(value);
 
-  const normalizeDate = (match) => {
-    const raw = String(match.date || "").trim();
-    return /^\d{4}-\d{2}-\d{2}$/.test(raw) ? raw : "9999-99-99";
-  };
+  const mainOdds = (match) => ({
+    ms1: pick(match, ["ms1", "one", "oneOdd", "odd1"]),
+    msx: pick(match, ["msx", "draw", "drawOdd", "oddX", "x"]),
+    ms2: pick(match, ["ms2", "two", "twoOdd", "odd2"]),
+    under25: pick(match, ["under25", "alt25", "under", "alt", "under25_guess"]),
+    over25: pick(match, ["over25", "ust25", "over", "ust", "over25_guess"]),
+    bttsYes: pick(match, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]),
+    bttsNo: pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"]),
+  });
 
-  const compareByDateTime = (a, b) => {
-    const dateCompare = normalizeDate(a).localeCompare(normalizeDate(b));
-    if (dateCompare !== 0) return dateCompare;
-    const timeCompare = normalizeTime(a).localeCompare(normalizeTime(b));
-    if (timeCompare !== 0) return timeCompare;
-    const leagueCompare = String(a.league || "").localeCompare(String(b.league || ""), "tr");
-    if (leagueCompare !== 0) return leagueCompare;
-    return `${a.home || ""} ${a.away || ""}`.localeCompare(`${b.home || ""} ${b.away || ""}`, "tr");
-  };
+  const detailOdds = (match) => {
+    const direct = section("KG Var / Yok",
+      market("KG Var", pick(match, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"])) +
+      market("KG Yok", pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"])) +
+      market("1Y KG Var", pick(match, ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes", "firstHalfBttsYes_guess"])) +
+      market("1Y KG Yok", pick(match, ["firstHalfBttsNo", "iyKgYok", "iy_kg_yok", "first_half_btts_no", "firstHalfBttsNo_guess"])) +
+      market("2Y KG Var", pick(match, ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes", "secondHalfBttsYes_guess"])) +
+      market("2Y KG Yok", pick(match, ["secondHalfBttsNo", "ikinciYariKgYok", "ikinci_yari_kg_yok", "second_half_btts_no", "secondHalfBttsNo_guess"]))
+    );
 
-  const statusLabel = (status) => {
-    const labels = {
-      scheduled: "Oynanacak",
-      live: "Canlı",
-      finished: "Tamamlandı",
-      postponed: "Ertelendi",
-      cancelled: "İptal",
-    };
-    return labels[status] || "Oynanacak";
-  };
+    const goals = section("Alt / Üst",
+      market("0.5 Üst", pick(match, ["over05", "ust05", "over05_guess"])) +
+      market("1.5 Üst", pick(match, ["over15", "ust15", "over15_guess"])) +
+      market("2.5 Üst", pick(match, ["over25", "ust25", "over25_guess"])) +
+      market("2.5 Alt", pick(match, ["under25", "alt25", "under25_guess"])) +
+      market("3.5 Üst", pick(match, ["over35", "ust35", "over35_guess"])) +
+      market("3.5 Alt", pick(match, ["under35", "alt35", "under35_guess"])) +
+      market("4.5 Üst", pick(match, ["over45", "ust45", "over45_guess"])) +
+      market("4.5 Alt", pick(match, ["under45", "alt45", "under45_guess"]))
+    );
 
-  const statusIcon = (status) => {
-    const icons = {
-      scheduled: "🕒",
-      live: "🔴",
-      finished: "✓",
-      postponed: "⏸",
-      cancelled: "×",
-    };
-    return icons[status] || "🕒";
-  };
+    const halves = section("Yarı Sonucu / Yarı Gol",
+      market("1Y 1", pick(match, ["firstHalf1", "firstHalfOne", "iy1", "firstHalf1_guess"])) +
+      market("1Y X", pick(match, ["firstHalfX", "firstHalfDraw", "iyX", "firstHalfX_guess"])) +
+      market("1Y 2", pick(match, ["firstHalf2", "firstHalfTwo", "iy2", "firstHalf2_guess"])) +
+      market("2Y 1", pick(match, ["secondHalf1", "secondHalfOne", "ikinciYari1", "secondHalf1_guess"])) +
+      market("2Y X", pick(match, ["secondHalfX", "secondHalfDraw", "ikinciYariX", "secondHalfX_guess"])) +
+      market("2Y 2", pick(match, ["secondHalf2", "secondHalfTwo", "ikinciYari2", "secondHalf2_guess"])) +
+      market("1Y 1.5 Üst", pick(match, ["firstHalfOver15", "iyUst15", "firstHalfOver15_guess"])) +
+      market("2Y 1.5 Üst", pick(match, ["secondHalfOver15", "ikinciYariUst15", "secondHalfOver15_guess"]))
+    );
 
-  const groupByDateTime = (matches) => {
-    const groups = new Map();
-    matches.forEach((match) => {
-      const date = normalizeDate(match);
-      const time = normalizeTime(match);
-      const dateLabel = date === "9999-99-99" ? "Tarih Bekleniyor" : formatDate(date);
-      const timeLabel = time === "99:99" ? "Saat Bekleniyor" : time;
-      const key = `${date}|${time}`;
-      if (!groups.has(key)) groups.set(key, { dateLabel, timeLabel, items: [] });
-      groups.get(key).items.push(match);
-    });
-    return [...groups.values()].map((group) => ({
-      ...group,
-      items: group.items.sort((a, b) => {
-        const leagueCompare = String(a.league || "").localeCompare(String(b.league || ""), "tr");
-        if (leagueCompare !== 0) return leagueCompare;
-        return `${a.home || ""} ${a.away || ""}`.localeCompare(`${b.home || ""} ${b.away || ""}`, "tr");
-      }),
-    }));
+    const candidates = Array.isArray(match.detail_market_candidates) ? match.detail_market_candidates.slice(0, 18) : [];
+    const candidateHtml = candidates.map((item) => {
+      const values = Object.entries(item.values || {})
+        .map(([key, value]) => `${key}: ${value}`)
+        .join(" | ");
+      return market(item.market || item.market_code || "Detay", values);
+    }).join("");
+    const candidateSection = section("Ham Detay Adayları", candidateHtml);
+
+    const html = direct + goals + halves + candidateSection;
+    return html || `<div class="daily-extra-empty">Bu maç için detay oran akışı yok.</div>`;
   };
 
   const injectStyle = () => {
@@ -153,85 +112,101 @@
     const style = document.createElement("style");
     style.id = "daily-matches-widget-style";
     style.textContent = `
-      .daily-widget-shell{position:relative;z-index:3;margin:22px clamp(18px,6vw,90px) 0;padding:18px;border:1px solid rgba(255,159,28,.3);border-radius:22px;background:linear-gradient(135deg,rgba(255,159,28,.08),transparent 34%),linear-gradient(180deg,rgba(8,23,48,.96),rgba(3,8,23,.97));box-shadow:0 24px 70px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.05);box-sizing:border-box}
-      .daily-widget-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:16px}.daily-widget-title{margin:0;color:#ffe08a;font-size:clamp(20px,2.2vw,30px);line-height:1.1}.daily-widget-subtitle{margin:6px 0 0;color:#aebbd0;font-size:13px}.daily-widget-count{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid rgba(57,255,136,.34);border-radius:999px;background:rgba(57,255,136,.12);color:#c8ffdd;font-size:13px;font-weight:800;white-space:nowrap}.daily-widget-list{display:grid;gap:16px}.daily-league-block{overflow:hidden;border:1px solid rgba(255,159,28,.22);border-radius:18px;background:rgba(3,8,23,.6)}.daily-league-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;background:linear-gradient(90deg,rgba(255,159,28,.72),rgba(19,120,69,.62),rgba(3,8,23,.72));border-bottom:1px solid rgba(255,159,28,.28)}.daily-league-title{display:flex;align-items:center;gap:10px;min-width:0}.daily-league-flag{font-size:18px;line-height:1}.daily-league-name{color:#fff7d6;font-size:13px;font-weight:950;letter-spacing:.08em;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-shadow:0 1px 0 rgba(0,0,0,.28)}.daily-time-date{display:inline-flex;align-items:center;margin-right:6px;padding:3px 7px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(3,8,23,.22);color:#c8ffdd;font-size:11px;font-weight:950;letter-spacing:.02em}.daily-league-count{color:#fff;font-size:12px;font-weight:900;white-space:nowrap}.daily-table-scroll{width:100%;overflow-x:auto;overscroll-behavior-x:contain}.daily-match-table{display:grid;width:100%;min-width:900px}.daily-match-header,.daily-match-row{display:grid;grid-template-columns:64px minmax(250px,1fr) repeat(7,minmax(52px,64px)) 92px;align-items:stretch}.daily-match-header{background:linear-gradient(180deg,rgba(35,48,49,.98),rgba(20,31,34,.98));color:#ffe08a;font-size:11px;font-weight:950;letter-spacing:.06em;text-transform:uppercase}.daily-match-header span,.daily-match-row>*{display:flex;align-items:center;min-height:44px;padding:9px 8px;border-right:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.07);box-sizing:border-box}.daily-match-header span:last-child,.daily-match-row>*:last-child{border-right:0}.daily-match-row:nth-child(odd){background:rgba(255,255,255,.03)}.daily-match-row:nth-child(even){background:rgba(255,159,28,.025)}.daily-match-row.is-open{background:rgba(255,159,28,.085)!important;box-shadow:inset 3px 0 0 rgba(57,255,136,.68)}.daily-match-time{justify-content:center;color:#39ff88;font-size:16px;font-weight:950}.daily-match-date{display:none}.daily-match-teams{display:grid;grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr);gap:7px;color:#f8fbff;font-size:13px;font-weight:850;align-content:center}.daily-match-league{grid-column:1/-1;margin-top:2px;color:#aebbd0;font-size:10px;font-weight:850;letter-spacing:.06em;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.daily-team{display:flex;align-items:center;gap:7px;min-width:0}.daily-team-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.daily-team-logo{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;width:24px;height:24px;border:1px solid rgba(255,159,28,.42);border-radius:999px;background:linear-gradient(180deg,rgba(255,159,28,.18),rgba(57,255,136,.08));color:#ffe08a;font-size:10px;font-weight:950;overflow:hidden}.daily-team-logo img{width:100%;height:100%;object-fit:contain}.daily-match-vs{justify-content:center;color:#aebbd0;font-size:12px;font-weight:900}.daily-odd{justify-content:center;background:rgba(255,255,255,.055);color:#fff;font-size:12px;font-weight:900;text-align:center}.daily-odd.is-empty{color:#738096;background:rgba(255,255,255,.025)}.daily-odd:hover{background:rgba(255,159,28,.18);color:#ffe08a}.daily-widget-status{justify-content:center;color:#ffe08a;font-size:11px;font-weight:800}.daily-detail-button{width:100%;min-height:34px;display:grid;grid-template-columns:24px 1fr 22px;align-items:center;gap:5px;border:1px solid rgba(255,159,28,.28);border-radius:999px;background:rgba(3,8,23,.74);color:#f8fbff;cursor:pointer;padding:5px 6px;box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}.daily-detail-button:hover{border-color:rgba(57,255,136,.42);background:rgba(57,255,136,.08)}.daily-status-icon{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:999px;border:1px solid rgba(255,159,28,.30);background:rgba(255,159,28,.12);font-size:12px;line-height:1}.daily-odds-badge{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:24px;padding:0 6px;border-radius:999px;border:1px solid rgba(57,255,136,.30);background:rgba(57,255,136,.10);color:#c8ffdd;font-size:10px;font-weight:950;line-height:1;white-space:nowrap}.daily-chevron{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:999px;background:rgba(255,159,28,.16);color:#ffe08a;font-size:15px;line-height:1;transition:transform .18s ease,background .18s ease}.daily-detail-button[aria-expanded="true"] .daily-chevron{transform:rotate(180deg);background:rgba(57,255,136,.16);color:#c8ffdd}.daily-widget-empty{padding:18px;border:1px solid rgba(255,159,28,.18);border-radius:16px;background:rgba(3,8,23,.58);color:#aebbd0}
-      @media(max-width:720px){.daily-widget-shell{margin:16px 12px 0;padding:12px;border-radius:18px}.daily-widget-head{align-items:flex-start;flex-direction:column}.daily-league-block{overflow:visible}.daily-time-date{width:max-content;margin:0 0 5px;padding:4px 8px}.daily-table-scroll{overflow:visible}.daily-match-table{min-width:0;gap:12px}.daily-match-header{display:none}.daily-match-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:12px;border:1px solid rgba(255,159,28,.18);border-radius:16px;background:linear-gradient(135deg,rgba(57,255,136,.07),transparent 38%),rgba(3,8,23,.74);box-shadow:0 14px 32px rgba(0,0,0,.24)}.daily-match-row>*{min-height:auto;padding:0;border:0}.daily-match-time{grid-column:1/2;justify-content:flex-start;font-size:18px}.daily-match-date{display:flex;grid-column:2/-1;align-items:center;justify-content:flex-end;color:#c8ffdd;font-size:11px;font-weight:900}.daily-match-teams{grid-column:1/-1;grid-template-columns:1fr;gap:8px;font-size:13px}.daily-team{padding:8px 10px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.045)}.daily-team-name{white-space:normal;line-height:1.25}.daily-match-vs{display:none}.daily-odd{display:grid;gap:3px;place-items:center;min-height:52px;padding:7px 5px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.055);font-size:13px}.daily-odd::before{content:attr(data-label);color:#aebbd0;font-size:10px;font-weight:950;letter-spacing:.05em;text-transform:uppercase}.daily-widget-status{grid-column:1/-1}.daily-detail-button{min-height:42px;grid-template-columns:32px 1fr 32px}.daily-status-icon{width:28px;height:28px}.daily-odds-badge{height:28px;font-size:12px}.daily-chevron{width:28px;height:28px}}
-      @media(max-width:420px){.daily-match-row{grid-template-columns:repeat(2,minmax(0,1fr))}.daily-match-time{grid-column:1/-1}.daily-match-date{grid-column:1/-1;justify-content:flex-start}.daily-odd{min-height:48px}.daily-widget-count{white-space:normal}}
+      .daily-widget-shell{position:relative;z-index:3;margin:22px clamp(18px,6vw,90px) 0;padding:18px;border:1px solid rgba(255,159,28,.3);border-radius:22px;background:linear-gradient(180deg,rgba(8,23,48,.96),rgba(3,8,23,.97));box-shadow:0 24px 70px rgba(0,0,0,.38);box-sizing:border-box}.daily-widget-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:16px}.daily-widget-title{margin:0;color:#ffe08a;font-size:clamp(20px,2.2vw,30px)}.daily-widget-subtitle{margin:6px 0 0;color:#aebbd0;font-size:13px}.daily-widget-count{display:inline-flex;padding:9px 12px;border:1px solid rgba(57,255,136,.34);border-radius:999px;background:rgba(57,255,136,.12);color:#c8ffdd;font-size:13px;font-weight:800}.daily-widget-list{display:grid;gap:14px}.daily-league-block{overflow:hidden;border:1px solid rgba(255,159,28,.22);border-radius:18px;background:rgba(3,8,23,.6)}.daily-league-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;background:linear-gradient(90deg,rgba(255,159,28,.72),rgba(19,120,69,.62),rgba(3,8,23,.72));border-bottom:1px solid rgba(255,159,28,.28)}.daily-league-name{color:#fff7d6;font-size:13px;font-weight:950;letter-spacing:.06em;text-transform:uppercase}.daily-table-scroll{width:100%;overflow-x:auto}.daily-match-table{display:grid;min-width:900px}.daily-match-header,.daily-match-row{display:grid;grid-template-columns:64px minmax(250px,1fr) repeat(7,minmax(52px,64px)) 92px;align-items:stretch}.daily-match-header{background:rgba(20,31,34,.98);color:#ffe08a;font-size:11px;font-weight:950;text-transform:uppercase}.daily-match-header span,.daily-match-row>*{display:flex;align-items:center;min-height:44px;padding:9px 8px;border-right:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.07);box-sizing:border-box}.daily-match-row:nth-child(odd){background:rgba(255,255,255,.03)}.daily-match-row.is-open{background:rgba(255,159,28,.085)!important}.daily-match-time{justify-content:center;color:#39ff88;font-weight:950}.daily-match-teams{display:grid;grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr);gap:7px;color:#f8fbff;font-size:13px;font-weight:850}.daily-match-league{grid-column:1/-1;color:#aebbd0;font-size:10px;font-weight:850;text-transform:uppercase}.daily-team{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.daily-odd{justify-content:center;background:rgba(255,255,255,.055);color:#fff;font-size:12px;font-weight:900}.daily-odd.is-empty{color:#738096;background:rgba(255,255,255,.025)}.daily-detail-button{width:100%;min-height:34px;border:1px solid rgba(255,159,28,.28);border-radius:999px;background:rgba(3,8,23,.74);color:#f8fbff;cursor:pointer}.daily-extra{display:none;grid-column:1/-1;padding:12px;border:1px solid rgba(57,255,136,.2);border-radius:0 0 16px 16px;background:linear-gradient(180deg,rgba(5,12,30,.98),rgba(2,7,18,.98))}.daily-extra.open{display:block}.daily-extra-title{display:block;margin:0 0 10px;color:#ffe08a;font-size:13px;font-weight:950}.daily-extra-category{margin:0 0 10px;border:1px solid rgba(255,224,138,.16);border-radius:14px;background:rgba(255,255,255,.028);overflow:hidden}.daily-extra-subtitle{padding:8px 10px;border-bottom:1px solid rgba(255,224,138,.14);background:rgba(255,224,138,.055);color:#ffe08a;font-size:11px;font-weight:950;text-transform:uppercase}.daily-extra-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:10px}.daily-market-item{min-height:58px;display:flex;flex-direction:column;gap:7px;padding:9px 10px;border:1px solid rgba(255,255,255,.16);border-radius:12px;background:rgba(255,255,255,.045);overflow:hidden}.daily-market-name{color:#8fa0b5;font-size:11px;font-weight:800}.daily-market-value{color:#ffe08a;font-size:15px;font-weight:950;overflow-wrap:anywhere}.daily-extra-empty{padding:10px 12px;border:1px dashed rgba(255,255,255,.14);border-radius:12px;color:#8fa0b5;font-size:12px;text-align:center}@media(max-width:720px){.daily-widget-shell{margin:16px 12px 0;padding:12px}.daily-match-table{min-width:760px}.daily-extra-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
     `;
     document.head.appendChild(style);
   };
 
   const ensureWidget = () => {
     let widget = document.querySelector(`#${WIDGET_ID}`);
-    if (widget) {
-      widget.classList.add("daily-widget-shell");
-      widget.setAttribute("aria-label", "Bugünün maçları");
-      if (!widget.querySelector("[data-daily-widget-list]")) {
-        widget.innerHTML = `<div class="daily-widget-head"><div><h2 class="daily-widget-title">Bugünün Maçları</h2><p class="daily-widget-subtitle" data-daily-widget-date>Bugünün maçları yükleniyor.</p></div><span class="daily-widget-count" data-daily-widget-count>0 maç</span></div><div class="daily-widget-list" data-daily-widget-list><div class="daily-widget-empty">Bugünün maçları hazırlanıyor.</div></div>`;
-      } else {
-        const title = widget.querySelector(".daily-widget-title");
-        if (title) title.textContent = "Bugünün Maçları";
-        const empty = widget.querySelector(".daily-widget-empty");
-        if (empty && empty.textContent.includes("Günlük")) empty.textContent = "Bugünün maçları hazırlanıyor.";
-      }
-      return widget;
+    if (!widget) {
+      widget = document.createElement("section");
+      widget.id = WIDGET_ID;
+      const target = document.querySelector("#yaklasan-maclar") || document.querySelector("main");
+      if (target && target.parentNode) target.parentNode.insertBefore(widget, target);
+      else document.body.appendChild(widget);
     }
-    widget = document.createElement("section");
-    widget.id = WIDGET_ID;
     widget.className = "daily-widget-shell";
-    widget.setAttribute("aria-label", "Bugünün maçları");
     widget.innerHTML = `<div class="daily-widget-head"><div><h2 class="daily-widget-title">Bugünün Maçları</h2><p class="daily-widget-subtitle" data-daily-widget-date>Bugünün maçları yükleniyor.</p></div><span class="daily-widget-count" data-daily-widget-count>0 maç</span></div><div class="daily-widget-list" data-daily-widget-list><div class="daily-widget-empty">Bugünün maçları hazırlanıyor.</div></div>`;
-    const target = document.querySelector("#yaklasan-maclar") || document.querySelector("main");
-    if (target && target.parentNode) target.parentNode.insertBefore(widget, target);
-    else document.body.appendChild(widget);
     return widget;
   };
 
-  const logoHtml = (match, side) => {
-    const name = side === "home" ? match.home : match.away;
-    const logo = pickLogo(match, side);
-    if (logo) return `<span class="daily-team-logo"><img src="${escapeHtml(logo)}" alt="" loading="lazy"></span>`;
-    return `<span class="daily-team-logo">${escapeHtml(teamInitial(name))}</span>`;
+  const compareByDateTime = (a, b) => `${a.date || ""} ${a.time || ""}`.localeCompare(`${b.date || ""} ${b.time || ""}`, "tr");
+
+  const groupByTime = (matches) => {
+    const groups = new Map();
+    matches.forEach((match) => {
+      const key = `${match.date || ""}|${match.time || "--:--"}`;
+      if (!groups.has(key)) groups.set(key, { date: match.date || "", time: match.time || "--:--", items: [] });
+      groups.get(key).items.push(match);
+    });
+    return [...groups.values()];
   };
 
-  const oddCell = (label, value) => `<span class="daily-odd ${hasOdd(value) ? "" : "is-empty"}" data-label="${escapeHtml(label)}">${escapeHtml(displayOdd(value))}</span>`;
-
-  const detailButton = (match, odds) => {
-    const quality = dataQuality(odds);
-    const status = statusLabel(match.status);
-    return `<button class="daily-detail-button" type="button" aria-expanded="false" aria-label="${escapeHtml(status)}. Detaylı oranları aç." title="${escapeHtml(status)} · Detaylı Oranlar" data-daily-detail-toggle><span class="daily-status-icon" title="${escapeHtml(status)}" aria-hidden="true">${escapeHtml(statusIcon(match.status))}</span><span class="daily-odds-badge" title="${quality.active}/${quality.total} oran mevcut">${quality.active}/${quality.total}</span><span class="daily-chevron" aria-hidden="true">⌄</span></button>`;
+  const renderRow = (match, index) => {
+    const odds = mainOdds(match);
+    const active = Object.values(odds).filter((value) => !empty(value)).length;
+    return `<div class="daily-match-row" data-index="${index}">
+      <div class="daily-match-time">${esc(match.time || "--:--")}</div>
+      <div class="daily-match-teams"><small class="daily-match-league">${esc(match.league || "Diğer")}</small><span class="daily-team">${esc(match.home || "Ev sahibi")}</span><span>-</span><span class="daily-team">${esc(match.away || "Deplasman")}</span></div>
+      <span class="daily-odd ${empty(odds.ms1) ? "is-empty" : ""}">${esc(oddText(odds.ms1))}</span>
+      <span class="daily-odd ${empty(odds.msx) ? "is-empty" : ""}">${esc(oddText(odds.msx))}</span>
+      <span class="daily-odd ${empty(odds.ms2) ? "is-empty" : ""}">${esc(oddText(odds.ms2))}</span>
+      <span class="daily-odd ${empty(odds.under25) ? "is-empty" : ""}">${esc(oddText(odds.under25))}</span>
+      <span class="daily-odd ${empty(odds.over25) ? "is-empty" : ""}">${esc(oddText(odds.over25))}</span>
+      <span class="daily-odd ${empty(odds.bttsYes) ? "is-empty" : ""}">${esc(oddText(odds.bttsYes))}</span>
+      <span class="daily-odd ${empty(odds.bttsNo) ? "is-empty" : ""}">${esc(oddText(odds.bttsNo))}</span>
+      <span><button class="daily-detail-button" type="button" data-detail-index="${index}">${active}/7 Detay</button></span>
+    </div>`;
   };
 
-  const renderDateTimeGroup = ({ dateLabel, timeLabel, items }) => `<article class="daily-league-block"><div class="daily-league-head"><div class="daily-league-title"><span class="daily-league-flag">🕒</span><span class="daily-league-name"><span class="daily-time-date">${escapeHtml(dateLabel)}</span>${escapeHtml(timeLabel)} Maçları</span></div><span class="daily-league-count">${items.length} maç</span></div><div class="daily-table-scroll"><div class="daily-match-table"><div class="daily-match-header"><span>Saat</span><span>Maç</span><span>1</span><span>X</span><span>2</span><span>Alt</span><span>Üst</span><span>Var</span><span>Yok</span><span>Detay</span></div>${items.map((match) => { const odds = mainOdds(match); const rowDateLabel = formatDate(match.date); return `<div class="daily-match-row" data-home="${escapeHtml(match.home || "Ev sahibi")}" data-away="${escapeHtml(match.away || "Deplasman")}"><div class="daily-match-time">${escapeHtml(match.time || "--:--")}</div><div class="daily-match-date">${escapeHtml(rowDateLabel)}</div><div class="daily-match-teams"><small class="daily-match-league">${escapeHtml(match.league || "Diğer Maçlar")}</small><span class="daily-team">${logoHtml(match, "home")}<span class="daily-team-name">${escapeHtml(match.home || "Ev sahibi")}</span></span><span class="daily-match-vs">-</span><span class="daily-team">${logoHtml(match, "away")}<span class="daily-team-name">${escapeHtml(match.away || "Deplasman")}</span></span></div>${oddCell("1", odds.one)}${oddCell("X", odds.draw)}${oddCell("2", odds.two)}${oddCell("Alt", odds.under25)}${oddCell("Üst", odds.over25)}${oddCell("Var", odds.bttsYes)}${oddCell("Yok", odds.bttsNo)}<span class="daily-widget-status">${detailButton(match, odds)}</span></div>`; }).join("")}</div></div></article>`;
+  const renderGroup = (group, allMatches) => `<article class="daily-league-block"><div class="daily-league-head"><span class="daily-league-name">${esc(formatDate(group.date))} ${esc(group.time)} Maçları</span><span>${group.items.length} maç</span></div><div class="daily-table-scroll"><div class="daily-match-table"><div class="daily-match-header"><span>Saat</span><span>Maç</span><span>1</span><span>X</span><span>2</span><span>Alt</span><span>Üst</span><span>Var</span><span>Yok</span><span>Detay</span></div>${group.items.map((match) => renderRow(match, allMatches.indexOf(match))).join("")}</div></div></article>`;
 
   const render = (matches) => {
+    injectStyle();
     const widget = ensureWidget();
     const list = widget.querySelector("[data-daily-widget-list]");
     const count = widget.querySelector("[data-daily-widget-count]");
     const date = widget.querySelector("[data-daily-widget-date]");
     const today = todayKey();
-    const todaysMatches = matches.filter((match) => match.date === today).sort(compareByDateTime);
+    const todays = matches.filter((match) => match.date === today).sort(compareByDateTime);
+    window.__dailyMatchesData = todays;
     if (date) date.textContent = `${formatDate(today)} programı`;
-    if (count) count.textContent = `${todaysMatches.length} maç`;
-    if (!todaysMatches.length) {
+    if (count) count.textContent = `${todays.length} maç`;
+    if (!todays.length) {
       list.innerHTML = `<div class="daily-widget-empty">Bugünün maçları hazırlanıyor.</div>`;
       return;
     }
-    list.innerHTML = groupByDateTime(todaysMatches).map(renderDateTimeGroup).join("");
+    list.innerHTML = groupByTime(todays).map((group) => renderGroup(group, todays)).join("");
   };
 
   const load = async () => {
-    injectStyle();
-    ensureWidget();
     try {
       const response = await fetch(DATA_URL, { cache: "no-store" });
-      if (!response.ok) throw new Error(String(response.status));
       const data = await response.json();
       render(Array.isArray(data) ? data : []);
     } catch {
       render([]);
     }
   };
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest?.("[data-detail-index]");
+    if (!button) return;
+    const row = button.closest(".daily-match-row");
+    const index = Number(button.dataset.detailIndex);
+    const match = window.__dailyMatchesData?.[index];
+    if (!row || !match) return;
+    const open = row.classList.contains("is-open");
+    document.querySelectorAll(".daily-match-row.is-open").forEach((item) => item.classList.remove("is-open"));
+    document.querySelectorAll(".daily-extra").forEach((item) => item.remove());
+    if (open) return;
+    row.classList.add("is-open");
+    const extra = document.createElement("div");
+    extra.className = "daily-extra open";
+    extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar</strong>${detailOdds(match)}`;
+    row.after(extra);
+  });
 
   window.addEventListener("load", () => {
     load();
