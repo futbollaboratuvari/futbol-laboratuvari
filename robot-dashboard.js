@@ -74,6 +74,61 @@ function emptyCard(message = emptyMessage) {
   return `<article class="robot-live-card"><p class="robot-note">${robotEscape(message)}</p></article>`;
 }
 
+function valueOrDash(value) {
+  return value === undefined || value === null || value === "" ? "-" : value;
+}
+
+function oddsLine(label, value) {
+  const safe = valueOrDash(value);
+  if (safe === "-") return "";
+  return `<div class="robot-row"><span>${robotEscape(label)}</span><strong>${robotEscape(safe)}</strong></div>`;
+}
+
+function oddsBox(item) {
+  const odds = item.available_odds || {};
+  const guess = item.raw_market_guess_odds || {};
+  const html = [
+    oddsLine("MS 1", odds.ms1),
+    oddsLine("MS X", odds.msx),
+    oddsLine("MS 2", odds.ms2),
+    oddsLine("KG Var", odds.bttsYes || guess.bttsYes_guess),
+    oddsLine("KG Yok", odds.bttsNo || guess.bttsNo_guess),
+    oddsLine("1Y KG Var", odds.firstHalfBttsYes || guess.firstHalfBttsYes_guess),
+    oddsLine("1Y KG Yok", odds.firstHalfBttsNo || guess.firstHalfBttsNo_guess),
+    oddsLine("2Y KG Var", odds.secondHalfBttsYes || guess.secondHalfBttsYes_guess),
+    oddsLine("2Y KG Yok", odds.secondHalfBttsNo || guess.secondHalfBttsNo_guess),
+    oddsLine("2.5 Üst", odds.over25 || guess.over25_guess),
+    oddsLine("2.5 Alt", odds.under25 || guess.under25_guess),
+    oddsLine("3.5 Üst", odds.over35 || guess.over35_guess),
+    oddsLine("3.5 Alt", odds.under35 || guess.under35_guess),
+  ].filter(Boolean).join("");
+
+  if (!html) return `<p class="robot-note">Oran verisi bekleniyor.</p>`;
+  return `
+    <div class="robot-detail-box">
+      <h4>Oranlar</h4>
+      ${html}
+    </div>
+  `;
+}
+
+function detailCandidatesBox(item) {
+  const candidates = Array.isArray(item.detail_market_candidates) ? item.detail_market_candidates.slice(0, 12) : [];
+  if (!candidates.length) return "";
+  const rows = candidates.map((candidate) => {
+    const values = Object.entries(candidate.values || {})
+      .map(([key, value]) => `${key}: ${value}`)
+      .join(" | ");
+    return `<div class="robot-row"><span>${robotEscape(candidate.market || candidate.market_code || "Detay")}</span><strong>${robotEscape(values || "-")}</strong></div>`;
+  }).join("");
+  return `
+    <div class="robot-detail-box">
+      <h4>Detay Oran Adayları</h4>
+      ${rows}
+    </div>
+  `;
+}
+
 function matchCard(item, index) {
   return `
     <article class="robot-live-card robot-match-card">
@@ -88,6 +143,8 @@ function matchCard(item, index) {
       <div class="robot-row"><span>Güven skoru</span><strong>${robotEscape(item.confidence_score || item.analysis_score || "-")}</strong></div>
       <div class="robot-row"><span>Risk seviyesi</span><strong>${robotEscape(item.risk_level || "-")}</strong></div>
       <div class="robot-row"><span>Değer etiketi</span><strong>${robotEscape(item.value_label || "-")}</strong></div>
+      ${oddsBox(item)}
+      ${detailCandidatesBox(item)}
       <p class="robot-note">${robotEscape(item.robot_comment || emptyMessage)}</p>
     </article>
   `;
@@ -99,6 +156,7 @@ function couponLeg(leg) {
       <span>${robotEscape(leg.match_name || "Maç")}</span>
       <strong>${robotEscape(leg.recommended_market || "-")} / ${robotEscape(leg.estimated_odds || "-")}</strong>
     </div>
+    ${oddsBox(leg)}
     <p class="robot-note">${robotEscape(leg.robot_reason || "Robot gerekçesi bekleniyor.")}</p>
   `;
 }
