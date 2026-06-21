@@ -9,6 +9,7 @@ const fixturesPath = path.join(dataDir, "fixtures.json");
 const liveMatchesPath = path.join(dataDir, "live-matches.json");
 const dailyCouponsPath = path.join(dataDir, "daily-coupons.json");
 const robotAnalysisPath = path.join(dataDir, "robot-analysis.json");
+const bandSignalsPath = path.join(dataDir, "band-signals.json");
 
 const todayTR = () => new Intl.DateTimeFormat("en-CA", {
   timeZone: "Europe/Istanbul",
@@ -34,6 +35,25 @@ const parseOdd = (value) => {
   const number = Number(String(value || "").replace(",", "."));
   return Number.isFinite(number) && number > 1 ? number : null;
 };
+
+const cleanKey = (value) => String(value || "-")
+  .toLocaleLowerCase("tr-TR")
+  .replace(/ı/g, "i")
+  .normalize("NFD")
+  .replace(/[\u0300-\u036f]/g, "")
+  .replace(/[^a-z0-9]+/g, " ")
+  .trim();
+
+const loadBandMap = () => {
+  const data = readJson(bandSignalsPath, { matches: [] });
+  const map = new Map();
+  for (const item of data.matches || []) {
+    map.set(cleanKey(item.match_name || item.match), item.band_check || { level: "Düşük", notes: [] });
+  }
+  return map;
+};
+
+const bandFor = (item, map) => map.get(cleanKey(item.match_name || item.match)) || { level: "Düşük", notes: ["Bant kontrol verisi yok."] };
 
 const isToday = (fixture, today) => String(fixture.date || fixture.tarih || fixture.utc_date || "").slice(0, 10) === today;
 
@@ -74,6 +94,7 @@ function coupon_type_for_match(match) {
   const score = Number(scored.analysis_score ?? scored.score ?? 0);
   const odd = parseOdd(scored.odds) || 0;
   const market = String(scored.market || scored.selection || "").toLocaleLowerCase("tr-TR");
+  if (scored.band_check?.level === "Yüksek") return "Sadece izleme";
   if (/ilk yarı kg|ikinci yarı kg|3\.5/.test(market) && score >= 50) return "Riskli Laboratuvar Kuponu";
   if (odd >= 2.2 && score >= 65) return "Yüksek Oranlı Kupon";
   if (score >= 65 && (scored.risk === "Düşük" || scored.risk === "Orta")) return "Dengeli Kupon";
@@ -83,6 +104,7 @@ function coupon_type_for_match(match) {
 
 function live_match_output(match) {
   const scored = match?.match ? match : score_match(match);
+  const band = scored.band_check || { level: "Düşük", notes: [] };
   return {
     match_name: scored.match,
     league: scored.league || scored.competition_name || "-",
@@ -93,8 +115,10 @@ function live_match_output(match) {
     risk_level: scored.risk || "-",
     estimated_odds: scored.odds || "-",
     value_label: scored.value_label || "-",
+    band_attention_level: band.level,
+    band_attention_notes: band.notes || [],
     robot_comment: generate_robot_explanation(scored),
-    include_in_coupon: Boolean(scored.hasOdds && Number(scored.score || 0) >= 65),
+    include_in_coupon: Boolean(scored.hasOdds && Number(scored.score || 0) >= 65 && band.level !== "Yüksek"),
     suitable_coupon_type: coupon_type_for_match(scored),
     data_gap_risk: scored.data_gap_risk || "-",
     status: scored.status || "scheduled",
@@ -127,6 +151,7 @@ function make_coupon(type, items, size) {
     risk_level: item.risk || "-",
     estimated_odds: item.odds || "-",
     value_label: item.value_label || "-",
+    band_attention_level: item.band_check?.level || "Düşük",
     robot_reason: generate_robot_explanation(item),
   }));
   const total = legs.reduce((acc, leg) => acc * (parseOdd(leg.estimated_odds) || 1), 1);
@@ -148,8 +173,9 @@ function make_coupon(type, items, size) {
 }
 
 function build_daily_coupons(matches) {
-  const scored = matches.map(score_match);
-  const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 50);
+  const bandMap = loadBandMap();
+  const scored = matches.map(score_match).map((item) => ({ ...item, band_check: bandFor(item, bandMap) }));
+  const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 50 && item.band_check?.level !== "Yüksek");
   const balancedPool = available
     .filter((item) => Number(item.score || 0) >= 65 && item.risk !== "Yüksek")
     .sort((a, b) => Number(b.score || 0) - Number(a.score || 0));
