@@ -78,6 +78,7 @@
     document.querySelectorAll('a[href$="#yaklasan-maclar"], a[href="#yaklasan-maclar"]').forEach((link) => link.setAttribute("href", "#daily-matches-widget"));
     ensureStylesheet("nav-position.css", "nav-position-style");
     ensureStylesheet("header-fixes.css", "header-fixes-style");
+    ensureStylesheet("hero-vitrin.css", "hero-vitrin-style");
     ensureScript("panel-stabilizer.js", "panel-stabilizer-script");
     ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
     ensureScript("daily-toggle.js", "daily-toggle-script");
@@ -89,6 +90,7 @@
     ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
+    ensureScript("hero-vitrin.js", "hero-vitrin-script");
     ensureScript("site-human-language.js", "site-human-language-script");
 
     const button = document.querySelector(".menu-toggle");
