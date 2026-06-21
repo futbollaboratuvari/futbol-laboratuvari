@@ -36,6 +36,29 @@ const parseOdd = (value) => {
   return Number.isFinite(number) && number > 1 ? number : null;
 };
 
+const pickOdd = (row, keys) => {
+  for (const key of keys) {
+    const value = row?.[key] ?? row?.odds?.[key] ?? row?.oranlar?.[key] ?? row?.detay_oranlar?.[key];
+    const odd = parseOdd(value);
+    if (odd) return odd.toFixed(2);
+  }
+  return "-";
+};
+
+const oddsSnapshot = (row) => ({
+  ms1: pickOdd(row, ["ms1", "one", "oneOdd", "odd1", "homeWin", "home_win"]),
+  msx: pickOdd(row, ["msx", "draw", "drawOdd", "oddX", "x", "draw_odd"]),
+  ms2: pickOdd(row, ["ms2", "two", "twoOdd", "odd2", "awayWin", "away_win"]),
+  over25: pickOdd(row, ["over25", "ust25", "over", "ust", "ust_25"]),
+  under25: pickOdd(row, ["under25", "alt25", "under", "alt", "alt_25"]),
+  over35: pickOdd(row, ["over35", "ust35", "over3_5", "ust_35"]),
+  under35: pickOdd(row, ["under35", "alt35", "under3_5", "alt_35"]),
+  bttsYes: pickOdd(row, ["bttsYes", "kgVar", "kg_var", "varOdd", "var"]),
+  bttsNo: pickOdd(row, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok"]),
+  firstHalfBttsYes: pickOdd(row, ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"]),
+  secondHalfBttsYes: pickOdd(row, ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"]),
+});
+
 const cleanKey = (value) => String(value || "-")
   .toLocaleLowerCase("tr-TR")
   .replace(/ı/g, "i")
@@ -105,6 +128,7 @@ function coupon_type_for_match(match) {
 function live_match_output(match) {
   const scored = match?.match ? match : score_match(match);
   const band = scored.band_check || { level: "Düşük", notes: [] };
+  const availableOdds = oddsSnapshot(scored);
   return {
     match_name: scored.match,
     league: scored.league || scored.competition_name || "-",
@@ -114,6 +138,8 @@ function live_match_output(match) {
     analysis_score: scored.analysis_score ?? scored.score ?? 0,
     risk_level: scored.risk || "-",
     estimated_odds: scored.odds || "-",
+    available_odds: availableOdds,
+    odds_source: scored.oddsSource || scored.odds_source || scored.source || "-",
     value_label: scored.value_label || "-",
     band_attention_level: band.level,
     band_attention_notes: band.notes || [],
@@ -150,6 +176,8 @@ function make_coupon(type, items, size) {
     analysis_score: item.analysis_score ?? item.score ?? 0,
     risk_level: item.risk || "-",
     estimated_odds: item.odds || "-",
+    available_odds: oddsSnapshot(item),
+    odds_source: item.oddsSource || item.odds_source || item.source || "-",
     value_label: item.value_label || "-",
     band_attention_level: item.band_check?.level || "Düşük",
     robot_reason: generate_robot_explanation(item),
