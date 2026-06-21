@@ -3,6 +3,7 @@
   const HISTORY_KEY = "fl_premium_robot_queue";
   const LAST_KEY = "fl_last_premium_robot_analysis";
   const PLAN_KEY = "fl_selected_membership_plan";
+  const PLAN_COUNT_KEY = "fl_premium_count_plan";
 
   const safe = (v) => String(v ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");
 
@@ -34,6 +35,24 @@
     const plan = selectedPlan();
     if (unlocked()) return plan?.name || "Kurucu Beta";
     return plan?.name ? `${plan.name} Ön İzleme` : "Ön İzleme";
+  };
+
+  const planLimit = () => {
+    const id = String(selectedPlan()?.id || "");
+    if (id === "starter") return 10;
+    if (id === "pro") return 40;
+    if (id === "vip") return 120;
+    return 20;
+  };
+
+  const activePlanId = () => String(selectedPlan()?.id || "beta");
+  const syncCountWithPlan = () => {
+    const id = activePlanId();
+    if (localStorage.getItem(PLAN_COUNT_KEY) !== id) {
+      localStorage.setItem(PLAN_COUNT_KEY, id);
+      localStorage.setItem(COUNT_KEY, String(planLimit()));
+    }
+    return count();
   };
 
   const score = (analysis) => {
@@ -74,7 +93,7 @@
     document.head.appendChild(s);
   };
 
-  const stateGrid = () => `<div class="premium-state-grid"><div class="premium-state-card"><span>Paket</span><strong>${safe(packageName())}</strong></div><div class="premium-state-card"><span>Kalan Kullanım</span><strong>${unlocked() ? count() : "Kilitli"}</strong></div><div class="premium-state-card"><span>Robot</span><strong>Premium</strong></div></div>`;
+  const stateGrid = () => `<div class="premium-state-grid"><div class="premium-state-card"><span>Paket</span><strong>${safe(packageName())}</strong></div><div class="premium-state-card"><span>Kalan Kullanım</span><strong>${unlocked() ? syncCountWithPlan() : "Kilitli"}</strong></div><div class="premium-state-card"><span>Robot</span><strong>Premium</strong></div></div>`;
 
   const teaserBox = () => `<div class="premium-teaser"><h4>Bu alanda kullanıcı ne alır?</h4><p>Maç arama, seçenek seçimi, robot güven puanı, risk seviyesi, oran/olasılık ve premium yorum tek panelde hazırlanır.</p><div class="premium-feature-list"><span>🎯 Takım adına göre hızlı maç bulma</span><span>🧠 Seçilen seçeneğe özel robot yorumu</span><span>📊 Güven puanı ve risk etiketi</span><span>🗂️ Son analiz geçmişi</span></div></div>`;
 
@@ -110,7 +129,7 @@
     if (head && !shell.querySelector(".premium-state-grid")) head.insertAdjacentHTML("afterend", stateGrid());
     const stateCards = shell.querySelectorAll(".premium-state-card strong");
     if (stateCards[0]) stateCards[0].textContent = packageName();
-    if (stateCards[1]) stateCards[1].textContent = unlocked() ? String(count()) : "Kilitli";
+    if (stateCards[1]) stateCards[1].textContent = unlocked() ? String(syncCountWithPlan()) : "Kilitli";
     const out = shell.querySelector("[data-premium-output]");
     if (!out) return;
     out.querySelector(".premium-value-card")?.remove();
