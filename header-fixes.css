@@ -17,12 +17,14 @@
   flex: 0 0 auto !important;
 }
 
-.fl-access-actions {
-  grid-column: 3 !important;
-  grid-row: 1 / span 2 !important;
-  justify-self: end !important;
-  align-self: center !important;
-  margin-left: 0 !important;
+/* Sağ üstte çakışan Giriş Yap / 1 Gün Dene alanı kapalı. */
+.fl-access-actions,
+.fl-access-flow-note,
+.fl-access-button {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 .dashboard-hero {
@@ -85,9 +87,7 @@ h2::after {
 
 @media (max-width: 1180px) {
   .fl-access-actions {
-    grid-column: 1 / -1 !important;
-    grid-row: auto !important;
-    justify-self: end !important;
+    display: none !important;
   }
 }
 
