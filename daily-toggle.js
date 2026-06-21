@@ -89,16 +89,6 @@
   const rowTeamKey = (row) => [norm(row.dataset.home), norm(row.dataset.away)].join("|");
   const findFixture = (row) => fixtures.find((item) => fixtureKey(item) === rowKey(row)) || fixtures.find((item) => fixtureTeamKey(item) === rowTeamKey(row)) || null;
 
-  const mainOdds = (f) => section("Ana Oranlar",
-    market("MS 1", pick(f, ["oneOdd", "one", "ms1", "odd1", "ms_1"])) +
-    market("MS X", pick(f, ["drawOdd", "draw", "msx", "oddX", "ms_x"])) +
-    market("MS 2", pick(f, ["twoOdd", "two", "ms2", "odd2", "ms_2"])) +
-    market("2.5 Alt", pick(f, ["under25", "alt25", "under", "alt", "alt_25"])) +
-    market("2.5 Üst", pick(f, ["over25", "ust25", "over", "ust", "ust_25"])) +
-    market("KG Var", pick(f, ["bttsYes", "kgVar", "varOdd", "var", "kg_var"])) +
-    market("KG Yok", pick(f, ["bttsNo", "kgYok", "yokOdd", "yok", "kg_yok"]))
-  );
-
   const halfResult = (f) => section("Yarı Sonucu",
     market("1. Yarı 1", pick(f, ["firstHalfOne", "iy1", "iy_1", "first_half_1"])) +
     market("1. Yarı X", pick(f, ["firstHalfDraw", "iyX", "iy_x", "first_half_x"])) +
@@ -167,7 +157,7 @@
 
   const extraHtml = (row) => {
     const fixture = findFixture(row);
-    const sections = [mainOdds(fixture), halfResult(fixture), halfFull(fixture), handicap(fixture), overUnder(fixture), goalRange(fixture), teamGoals(fixture), halfBtts(fixture), splitHalfBtts(fixture)].filter(Boolean).join("");
+    const sections = [halfResult(fixture), halfFull(fixture), handicap(fixture), overUnder(fixture), goalRange(fixture), teamGoals(fixture), halfBtts(fixture), splitHalfBtts(fixture)].filter(Boolean).join("");
     return `<strong class="daily-extra-title">Detaylı Oranlar</strong>${sections || `<div class="daily-extra-empty">Bu bölüm için veri yok</div>`}`;
   };
 
