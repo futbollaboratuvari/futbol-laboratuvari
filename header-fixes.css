@@ -17,6 +17,17 @@
   flex: 0 0 auto !important;
 }
 
+/* Public ana sayfada yönetim bağlantısı gösterilmez. Admin alanı sadece özel backend/auth ile açılmalıdır. */
+.nav-admin,
+a.nav-admin,
+a[href="./admin.html"],
+a[href="admin.html"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 /* Sağ üstte çakışan Giriş Yap / 1 Gün Dene alanı kapalı. */
 .fl-access-actions,
 .fl-access-flow-note,
