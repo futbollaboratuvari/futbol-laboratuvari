@@ -3,100 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Futbol Laboratuvarı | Canlı Veri Görünümü</title>
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Futbol Laboratuvarı | Yönetim Alanı Kapalı</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body{min-height:100vh;display:grid;place-items:center;background:#050b18;color:#f8fbff;margin:0;padding:24px;font-family:Arial,sans-serif}
+    .admin-lock{width:min(720px,100%);border:1px solid rgba(255,159,28,.28);border-radius:24px;background:linear-gradient(180deg,rgba(8,23,48,.96),rgba(3,8,23,.98));box-shadow:0 28px 76px rgba(0,0,0,.38);padding:28px}
+    .admin-lock h1{margin:0 0 10px;color:#ffe08a;font-size:clamp(26px,5vw,42px)}
+    .admin-lock p{color:#c7d5e8;line-height:1.65;margin:0 0 14px}
+    .admin-lock strong{color:#39ff88}
+    .admin-lock a{display:inline-flex;margin-top:10px;padding:12px 16px;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;text-decoration:none;font-weight:900}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="./index.html" aria-label="Futbol Laboratuvarı">
-      <span class="brand-mark">FL</span>
-      <span>Futbol Laboratuvarı <small>Canlı Veri Görünümü</small></span>
-    </a>
-    <nav class="nav-links" aria-label="Canlı veri menüsü">
-      <a href="./index.html">Ana Site</a>
-      <a href="./index.html#robot-analizleri">Kupon Merkezi</a>
-      <a href="./admin.html">Canlı Veri Görünümü</a>
-      <a href="./admin.html#maclar">Bugünün Maçları</a>
-      <a href="./admin.html#kuponlar">Kupon Havuzu</a>
-      <a href="./admin.html#raporlar">Raporlar</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="section" id="genel-durum">
-      <div class="section-heading reveal visible">
-        <p class="eyebrow">Robot veri akışı</p>
-        <h2>Canlı Veri Görünümü</h2>
-        <p>Robot çıktıları, ham veri havuzu ve tahmin geçmişi GitHub üzerinde üretilen JSON/Markdown dosyalarından okunur. Eski sabit demo veriler gösterilmez.</p>
-      </div>
-      <div class="robot-live-status">
-        <span>Aktif Veri Kaynağı: <strong data-active-source>Yükleniyor</strong></span>
-        <span>Ham Maç Havuzu: <strong data-raw-count>-</strong></span>
-        <span>Tahmin Geçmişi: <strong data-prediction-count>-</strong></span>
-        <span>Başarı Durumu: <strong data-success-state>-</strong></span>
-      </div>
-    </section>
-
-    <section class="section" id="maclar">
-      <div class="section-heading reveal visible">
-        <p class="eyebrow">Güncel Analiz</p>
-        <h2>Bugünün Maçları</h2>
-        <p>Kartlar robot raporundan üretilir. Veri yoksa sistem eski maç göstermeden canlı veri bekler.</p>
-      </div>
-      <div class="robot-live-grid" data-admin-matches>
-        <article class="robot-live-card">Canlı veri bekleniyor.</article>
-      </div>
-    </section>
-
-    <section class="section" id="kuponlar">
-      <div class="section-heading reveal visible">
-        <p class="eyebrow">Analiz Kuponları</p>
-        <h2>Kupon Havuzu</h2>
-        <p>Bu bir analizdir, bahis tavsiyesi değildir. Bahis oynama veya para işlemi içermez.</p>
-      </div>
-      <div class="robot-coupon-columns">
-        <div><h3>Tekli</h3><div class="robot-stack" data-coupons-single></div></div>
-        <div><h3>2'li</h3><div class="robot-stack" data-coupons-double></div></div>
-        <div><h3>3'lü</h3><div class="robot-stack" data-coupons-triple></div></div>
-      </div>
-    </section>
-
-    <section class="section" id="veri">
-      <div class="section-heading reveal visible">
-        <p class="eyebrow">Veri İzleme</p>
-        <h2>Ham Veri Havuzu ve Tahmin Geçmişi</h2>
-      </div>
-      <div class="robot-admin-tables">
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Maç</th><th>Lig</th><th>Tarih</th><th>Kaynak</th></tr></thead>
-            <tbody data-raw-table><tr><td colspan="4">Canlı veri bekleniyor.</td></tr></tbody>
-          </table>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Maç</th><th>Seçenek</th><th>Güven</th><th>Durum</th></tr></thead>
-            <tbody data-prediction-table><tr><td colspan="4">Tahmin geçmişi bekleniyor.</td></tr></tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="raporlar">
-      <div class="section-heading reveal visible">
-        <p class="eyebrow">Raporlar</p>
-        <h2>API / Veri Kaynağı Durumu</h2>
-      </div>
-      <div class="robot-live-grid" data-report-status></div>
-    </section>
+  <main class="admin-lock" aria-label="Yönetim alanı kapalı">
+    <h1>Yönetim Alanı Kapalı</h1>
+    <p><strong>Güvenlik nedeniyle public admin paneli kapatıldı.</strong></p>
+    <p>Bu sayfa artık ziyaretçilere canlı veri, kupon havuzu veya rapor yönetimi göstermez. Yönetim işlemleri sadece özel backend / yetkili giriş sistemi kurulduktan sonra açılmalıdır.</p>
+    <p>GitHub Pages statik yayın yaptığı için gerçek kullanıcı doğrulaması bu sayfada güvenli şekilde yapılamaz.</p>
+    <a href="./index.html">Ana siteye dön</a>
   </main>
-
-  <footer class="footer">
-    <span>Canlı Veri Görünümü</span>
-    <span>Bahis, ödeme veya üyelik işlemi içermez.</span>
-  </footer>
-
-  <script src="./script.js"></script>
-  <script src="./robot-dashboard.js"></script>
 </body>
 </html>
