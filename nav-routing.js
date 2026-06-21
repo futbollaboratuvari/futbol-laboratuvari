@@ -89,6 +89,7 @@
     ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
+    ensureScript("site-human-language.js", "site-human-language-script");
 
     const button = document.querySelector(".menu-toggle");
     const nav = document.querySelector(".nav-links");
