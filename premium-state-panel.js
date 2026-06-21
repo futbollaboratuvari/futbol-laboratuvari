@@ -7,7 +7,10 @@
 
   const safe = (v) => String(v ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");
 
+  const isFounder = () => localStorage.getItem("fl_premium_beta_access") === "1";
+
   const count = () => {
+    if (isFounder()) return "Sınırsız";
     const n = Number(localStorage.getItem(COUNT_KEY));
     if (Number.isFinite(n)) return n;
     localStorage.setItem(COUNT_KEY, "20");
@@ -30,10 +33,10 @@
 
   const lastAnalysis = () => readJson(LAST_KEY, null);
   const selectedPlan = () => readJson(PLAN_KEY, null);
-  const unlocked = () => localStorage.getItem("fl_premium_beta_access") === "1";
+  const unlocked = () => isFounder();
   const packageName = () => {
+    if (isFounder()) return "Kurucu Beta";
     const plan = selectedPlan();
-    if (unlocked()) return plan?.name || "Kurucu Beta";
     return plan?.name ? `${plan.name} Ön İzleme` : "Ön İzleme";
   };
 
@@ -47,6 +50,7 @@
 
   const activePlanId = () => String(selectedPlan()?.id || "beta");
   const syncCountWithPlan = () => {
+    if (isFounder()) return "Sınırsız";
     const id = activePlanId();
     if (localStorage.getItem(PLAN_COUNT_KEY) !== id) {
       localStorage.setItem(PLAN_COUNT_KEY, id);
@@ -149,7 +153,7 @@
     const before = localStorage.getItem(LAST_KEY) || "";
     setTimeout(() => {
       const after = localStorage.getItem(LAST_KEY) || "";
-      if (after && after !== before) localStorage.setItem(COUNT_KEY, String(Math.max(0, count() - 1)));
+      if (!isFounder() && after && after !== before) localStorage.setItem(COUNT_KEY, String(Math.max(0, Number(count()) - 1)));
       render();
     }, 900);
   });
