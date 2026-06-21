@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const { buildCouponAnalysis, scoreFixture } = require("./robot-coupon-engine");
+const { buildCouponAnalysis, scoreFixture } = require("./robot-exact-scoring");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -48,6 +48,7 @@ const normalizeLeg = (leg, index) => ({
   trust_score: leg.trust_score || "-",
   risk: leg.risk || "Orta",
   tag: leg.tag || leg.analysis_class || "Değerli",
+  value_label: leg.value_label || "-",
   analysis_score: leg.analysis_score || "-",
   analysis_class: leg.analysis_class || leg.tag || "-",
   data_gap_risk: leg.data_gap_risk || "-",
@@ -66,6 +67,7 @@ const itemFromRecommendation = (row, type, index) => {
     trust_score: row.score ? `${Math.round(Number(row.score) || 0)}/100` : row.confidence,
     risk: row.risk,
     tag: row.tag,
+    value_label: row.value_label,
     analysis_score: row.analysis_score,
     analysis_class: row.analysis_class,
     data_gap_risk: row.data_gap_risk,
@@ -92,6 +94,7 @@ const itemFromRecommendation = (row, type, index) => {
     risk: row.risk || "Orta",
     risk_level: row.risk || "Orta",
     tag: row.tag || row.analysis_class || "Değerli",
+    value_label: row.value_label || "-",
     analysis_score: row.analysis_score || row.score || "-",
     analysis_class: row.analysis_class || row.tag || "-",
     data_gap_risk: row.data_gap_risk || "-",
@@ -99,7 +102,7 @@ const itemFromRecommendation = (row, type, index) => {
     legs,
     status: "takipte",
     pro_signals: Array.isArray(row.signals) && row.signals.length ? row.signals : ["High Value Coupon Engine", "Robot ön elemesi tamamlandı"],
-    commentary: "High Value Coupon Engine; son 10 maç gol verileri, KG/Üst yüzdeleri, yarı gol eğilimleri, lig gol ortalaması, form, oran değeri ve veri eksikliği riskini 100 puan üzerinden değerlendirir.",
+    commentary: "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
     source: "high_value_coupon_engine",
     created_at: new Date().toISOString(),
   };
@@ -131,18 +134,20 @@ const main = () => {
     fixture.odds || "-",
     fixture.analysis_score ?? fixture.score ?? "-",
     fixture.analysis_class || fixture.tag || "-",
+    fixture.value_label || "-",
     fixture.risk,
     fixture.data_gap_risk || "-",
     fixture.status || "scheduled",
   ]);
 
-  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- Kaynak: ${source}\n- Motor: High Value Coupon Engine\n- Güncelleme: ${generatedAt}\n- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.\n- Odak marketler: İlk Yarı KG Var, İkinci Yarı KG Var, KG Var, 2.5 Üst, 3.5 Üst.\n- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "Seçenek", "Oran", "Analiz Puanı", "Sınıf", "Risk", "Veri Eksikliği", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Seçenek", "Oran", "Analiz Puanı", "Sınıf", "Risk", "Veri Eksikliği"], analysis.singles.map((row) => [row.match, row.market, row.odds, row.analysis_score ?? row.score, row.analysis_class ?? row.tag, row.risk, row.data_gap_risk]))}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Puanı", "Sınıf", "Risk", "Veri Eksikliği"], analysis.doubles.map((row) => [row.match, row.market, row.odds, row.analysis_score ?? row.score, row.analysis_class ?? row.tag, row.risk, row.data_gap_risk]))}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Puanı", "Sınıf", "Risk", "Veri Eksikliği"], analysis.triples.map((row) => [row.match, row.market, row.odds, row.analysis_score ?? row.score, row.analysis_class ?? row.tag, row.risk, row.data_gap_risk]))}\n`;
+  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- Kaynak: ${source}\n- Motor: High Value Coupon Engine\n- Puanlama: Net eşik kuralları\n- Güncelleme: ${generatedAt}\n- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.\n- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "Seçenek", "Oran", "Analiz Puanı", "Sınıf", "Değer Etiketi", "Risk", "Veri Eksikliği", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Seçenek", "Oran", "Analiz Puanı", "Sınıf", "Değer Etiketi", "Risk", "Veri Eksikliği"], analysis.singles.map((row) => [row.match, row.market, row.odds, row.analysis_score ?? row.score, row.analysis_class ?? row.tag, row.value_label, row.risk, row.data_gap_risk]))}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Puanı", "Sınıf", "Değer Etiketi", "Risk", "Veri Eksikliği"], analysis.doubles.map((row) => [row.match, row.market, row.odds, row.analysis_score ?? row.score, row.analysis_class ?? row.tag, row.value_label, row.risk, row.data_gap_risk]))}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Seçenekler", "Oran", "Kupon Puanı", "Sınıf", "Değer Etiketi", "Risk", "Veri Eksikliği"], analysis.triples.map((row) => [row.match, row.market, row.odds, row.analysis_score ?? row.score, row.analysis_class ?? row.tag, row.value_label, row.risk, row.data_gap_risk]))}\n`;
 
   const scoredRawPool = {
     generated_at: generatedAt,
     timezone: "Europe/Istanbul",
     source,
     engine: "High Value Coupon Engine",
+    scoring_mode: "net_threshold_rules",
     engine_rules: {
       banned_markets: ["Çifte Şans"],
       focused_markets: ["İlk Yarı KG Var", "İkinci Yarı KG Var", "KG Var", "2.5 Üst", "3.5 Üst"],
@@ -166,19 +171,13 @@ const main = () => {
         time: fixture.time,
         status: fixture.status,
         source: fixture.source || source,
-        odds: {
-          iy_kg_var: fixture.iyKgVar ?? fixture.firstHalfBttsYes ?? null,
-          ikinci_yari_kg_var: fixture.ikinciYariKgVar ?? fixture.secondHalfBttsYes ?? null,
-          kg_var: fixture.bttsYes ?? fixture.kgVar ?? null,
-          ust_25: fixture.over25 ?? fixture.ust25 ?? fixture.over ?? null,
-          ust_35: fixture.over35 ?? fixture.ust35 ?? fixture.over3_5 ?? null,
-        },
         suggested_option: scored.selection,
         suggested_odds: scored.odds,
         confidence_score: scored.confidence,
         trust_score: scored.trust_score,
         analysis_score: scored.analysis_score,
         analysis_class: scored.analysis_class,
+        value_label: scored.value_label,
         risk_level: scored.risk,
         data_gap_risk: scored.data_gap_risk,
         analysis_metrics: scored.analysis_metrics,
@@ -198,7 +197,7 @@ const main = () => {
   };
 
   fs.writeFileSync(mainReportPath, mainReport, "utf8");
-  fs.writeFileSync(sourceReportPath, `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- Motor: High Value Coupon Engine\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Aktif analiz sayısı: ${activeItems.length}\n- Filtre: Çifte şans yok, eski sabit veri yok, düşük oranlı marketler elendi.\n- Puanlama: Son 10 maç gol attı/yedi, KG/Üst yüzdeleri, yarı gol eğilimleri, lig gol ortalaması, form, oran değeri ve veri eksikliği riski.\n`, "utf8");
+  fs.writeFileSync(sourceReportPath, `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- Motor: High Value Coupon Engine\n- Puanlama: Net eşik kuralları\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Aktif analiz sayısı: ${activeItems.length}\n- Filtre: Çifte şans yok, eski sabit veri yok, düşük oranlı marketler elendi.\n`, "utf8");
   fs.writeFileSync(successReportPath, `# Başarı Yüzdesi Raporu\n\n- Güncelleme: ${generatedAt}\n- Sonuçlanan analiz sayısı: ${completedItems.length}\n- Durum: Sonuç verisi geldiğinde kazandı/kaybetti ayrımı otomatik gösterilecek.\n`, "utf8");
   writeJson(rawPoolPath, scoredRawPool);
   writeJson(historyPath, history);
