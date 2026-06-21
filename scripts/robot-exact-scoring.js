@@ -1,3 +1,9 @@
+const fs = require("fs");
+const path = require("path");
+
+const archivePath = path.join(__dirname, "..", "data", "robot_match_archive.json");
+let memoryCache = null;
+
 const parseOdd = (value) => {
   if (value === undefined || value === null || value === "" || value === "-") return null;
   const number = Number(String(value).replace(",", "."));
@@ -92,6 +98,157 @@ const gapRisk = (missing) => {
   return "Düşük";
 };
 
+const cleanKey = (value) => String(value || "")
+  .toLocaleLowerCase("tr-TR")
+  .replace(/ı/g, "i")
+  .normalize("NFD")
+  .replace(/[\u0300-\u036f]/g, "")
+  .replace(/[^a-z0-9]+/g, " ")
+  .trim();
+
+const readJson = (filePath, fallback) => {
+  try {
+    const text = fs.readFileSync(filePath, "utf8").trim();
+    return text ? JSON.parse(text) : fallback;
+  } catch {
+    return fallback;
+  }
+};
+
+const loadMemory = () => {
+  if (memoryCache) return memoryCache;
+  memoryCache = readJson(archivePath, { matches: [], team_index: {} });
+  if (!Array.isArray(memoryCache.matches)) memoryCache.matches = [];
+  return memoryCache;
+};
+
+const parseScore = (match) => {
+  const raw = match.score || match.result || match.result_score || "";
+  const found = String(raw).match(/(\d+)\D+(\d+)/);
+  if (!found) return null;
+  return { home: Number(found[1]), away: Number(found[2]) };
+};
+
+const teamRecentMatches = (teamName) => {
+  const key = cleanKey(teamName);
+  if (!key) return [];
+  return loadMemory().matches
+    .filter((match) => cleanKey(match.home || match.home_team_name) === key || cleanKey(match.away || match.away_team_name) === key)
+    .slice(-10);
+};
+
+const teamProfile = (teamName) => {
+  const key = cleanKey(teamName);
+  const rows = teamRecentMatches(teamName);
+  let count = 0;
+  let scored = 0;
+  let conceded = 0;
+  let btts = 0;
+  let over25 = 0;
+  let over35 = 0;
+  let goalsFor = 0;
+  let goalsAgainst = 0;
+
+  rows.forEach((match) => {
+    const score = parseScore(match);
+    if (!score) return;
+    const isHome = cleanKey(match.home || match.home_team_name) === key;
+    const gf = isHome ? score.home : score.away;
+    const ga = isHome ? score.away : score.home;
+    count += 1;
+    goalsFor += gf;
+    goalsAgainst += ga;
+    if (gf > 0) scored += 1;
+    if (ga > 0) conceded += 1;
+    if (gf > 0 && ga > 0) btts += 1;
+    if (gf + ga >= 3) over25 += 1;
+    if (gf + ga >= 4) over35 += 1;
+  });
+
+  return {
+    count,
+    scored,
+    conceded,
+    bttsRate: count ? Math.round((btts / count) * 100) : 0,
+    over25Rate: count ? Math.round((over25 / count) * 100) : 0,
+    over35Rate: count ? Math.round((over35 / count) * 100) : 0,
+    goalsForAvg: count ? Number((goalsFor / count).toFixed(2)) : 0,
+    goalsAgainstAvg: count ? Number((goalsAgainst / count).toFixed(2)) : 0,
+  };
+};
+
+const leagueProfile = (fixture) => {
+  const league = cleanKey(fixture.league || fixture.competition_name);
+  const rows = loadMemory().matches.filter((match) => league && cleanKey(match.league || match.competition_name) === league).slice(-30);
+  let count = 0;
+  let totalGoals = 0;
+  let btts = 0;
+  let over25 = 0;
+
+  rows.forEach((match) => {
+    const score = parseScore(match);
+    if (!score) return;
+    count += 1;
+    totalGoals += score.home + score.away;
+    if (score.home > 0 && score.away > 0) btts += 1;
+    if (score.home + score.away >= 3) over25 += 1;
+  });
+
+  return {
+    count,
+    goalAverage: count ? Number((totalGoals / count).toFixed(2)) : 0,
+    bttsRate: count ? Math.round((btts / count) * 100) : 0,
+    over25Rate: count ? Math.round((over25 / count) * 100) : 0,
+  };
+};
+
+const memoryFor = (fixture, candidate = null) => {
+  const t = teams(fixture);
+  const home = teamProfile(t.home);
+  const away = teamProfile(t.away);
+  const league = leagueProfile(fixture);
+  const totalMatches = home.count + away.count + league.count;
+  let delta = 0;
+  const signals = [];
+
+  if (home.count >= 3 && away.count >= 3) {
+    if (home.scored >= 5 && away.scored >= 5) { delta += 7; signals.push("Hafıza: iki takım son arşiv maçlarında gol buluyor: +7"); }
+    if (home.conceded >= 5 && away.conceded >= 5) { delta += 7; signals.push("Hafıza: iki takım son arşiv maçlarında gol yiyor: +7"); }
+    const avgBtts = Math.round((home.bttsRate + away.bttsRate) / 2);
+    const avgOver25 = Math.round((home.over25Rate + away.over25Rate) / 2);
+    const avgOver35 = Math.round((home.over35Rate + away.over35Rate) / 2);
+
+    if (["kgVar", "firstHalfBttsYes", "secondHalfBttsYes"].includes(candidate?.key) && avgBtts >= 60) {
+      delta += 8;
+      signals.push(`Hafıza: KG Var eğilimi yüksek (%${avgBtts}): +8`);
+    }
+    if (candidate?.key === "over25" && avgOver25 >= 55) {
+      delta += 8;
+      signals.push(`Hafıza: 2.5 Üst eğilimi yüksek (%${avgOver25}): +8`);
+    }
+    if (candidate?.key === "over35" && avgOver35 >= 40) {
+      delta += 6;
+      signals.push(`Hafıza: 3.5 Üst eğilimi destekli (%${avgOver35}): +6`);
+    }
+  }
+
+  if (league.count >= 8) {
+    if (league.goalAverage >= 2.7) { delta += 5; signals.push(`Hafıza: lig gol ortalaması ${league.goalAverage}: +5`); }
+    if (league.bttsRate >= 60 && ["kgVar", "firstHalfBttsYes", "secondHalfBttsYes"].includes(candidate?.key)) { delta += 4; signals.push(`Hafıza: lig KG Var oranı %${league.bttsRate}: +4`); }
+  }
+
+  if (totalMatches < 6) signals.push("Hafıza: arşiv verisi henüz sınırlı");
+
+  return {
+    scoreDelta: Math.max(-10, Math.min(22, delta)),
+    totalMatches,
+    home,
+    away,
+    league,
+    signals,
+  };
+};
+
 const riskyContext = (fixture) => {
   const t = teams(fixture);
   const text = `${fixture.league || fixture.competition_name || ""} ${t.home} ${t.away} ${readText(fixture, ["matchImportance", "mac_onemi", "risk_note", "belirsizlik_notu"])}`.toLocaleLowerCase("tr-TR");
@@ -137,6 +294,7 @@ const metricsFor = (fixture) => ({
 
 const buildMatchAnalysis = (fixture, candidate = null) => {
   const m = metricsFor(fixture);
+  const memory = memoryFor(fixture, candidate);
   let score = 0;
   let missing = 0;
   const signals = [];
@@ -155,6 +313,9 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
   if (candidate?.odd > 1.70) { score += 10; signals.push("Oran 1.70 üzeri: +10"); }
   if (candidate?.odd > 2.20) signals.push("Oran 2.20 üzeri: Yüksek Değer etiketi");
   if (candidate?.oddSource === "raw_market_guess_odds") signals.push("Ham detay blok tahmini kullanıldı");
+  if (memory.scoreDelta) { score += memory.scoreDelta; signals.push(...memory.signals, `Hafıza toplam etkisi: +${memory.scoreDelta}`); }
+  else signals.push(...memory.signals);
+  if (missing > 0 && memory.totalMatches >= 10) { score += 5; signals.push("Arşiv hafızası veri eksikliğini kısmen dengeledi: +5"); }
   if (riskyContext(fixture)) { score -= 10; signals.push("Kritik/derbi/belirsiz maç: -10"); }
   if (closedDefense(fixture)) { score -= 10; signals.push("Kapalı savunma riski: -10"); }
   if (missing > 0) { score -= 15; signals.push("Veri eksikliği var: -15"); }
@@ -173,6 +334,7 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
     data_missing_count: missing,
     metrics: {
       ...m,
+      memory,
       homeScoredLast10Count: toCount(m.homeScoredLast10),
       awayScoredLast10Count: toCount(m.awayScoredLast10),
       homeConcededLast10Count: toCount(m.homeConcededLast10),
@@ -243,4 +405,4 @@ const buildCouponAnalysis = (fixtures = []) => {
   return { scored, ranked, singles, doubles, triples };
 };
 
-module.exports = { scoreFixture, buildCouponAnalysis, buildMatchAnalysis };
+module.exports = { scoreFixture, buildCouponAnalysis, buildMatchAnalysis, memoryFor };
