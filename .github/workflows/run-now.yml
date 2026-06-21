@@ -56,6 +56,9 @@ jobs:
       - name: Export live JSON
         run: node scripts/export-high-value-json.js
 
+      - name: Update profile archive
+        run: node scripts/profile-lite.js
+
       - name: Commit and push outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
