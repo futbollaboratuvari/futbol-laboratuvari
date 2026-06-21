@@ -19,10 +19,29 @@
     { key: "2.5 Üst", label: "2.5 Üst", icon: "⬆️" },
     { key: "KG Var", label: "KG Var", icon: "✅" },
     { key: "KG Yok", label: "KG Yok", icon: "🚫" },
+    { key: "1Y KG Var", label: "1Y KG Var", icon: "✅" },
+    { key: "1Y KG Yok", label: "1Y KG Yok", icon: "🚫" },
+    { key: "2Y KG Var", label: "2Y KG Var", icon: "✅" },
+    { key: "2Y KG Yok", label: "2Y KG Yok", icon: "🚫" },
     { key: "İY 1", label: "İY 1", icon: "1️⃣" },
     { key: "İY X", label: "İY X", icon: "🔹" },
-    { key: "İY 2", label: "İY 2", icon: "2️⃣" }
+    { key: "İY 2", label: "İY 2", icon: "2️⃣" },
+    { key: "2Y 1", label: "2Y 1", icon: "1️⃣" },
+    { key: "2Y X", label: "2Y X", icon: "🔹" },
+    { key: "2Y 2", label: "2Y 2", icon: "2️⃣" },
+    { key: "İY/MS 1’den 1", label: "1’den 1", icon: "1/1" },
+    { key: "İY/MS 1’den X", label: "1’den X", icon: "1/X" },
+    { key: "İY/MS 1’den 2", label: "1’den 2", icon: "1/2" },
+    { key: "İY/MS X’ten 1", label: "X’ten 1", icon: "X/1" },
+    { key: "İY/MS X’ten X", label: "X’ten X", icon: "X/X" },
+    { key: "İY/MS X’ten 2", label: "X’ten 2", icon: "X/2" },
+    { key: "İY/MS 2’den 1", label: "2’den 1", icon: "2/1" },
+    { key: "İY/MS 2’den X", label: "2’den X", icon: "2/X" },
+    { key: "İY/MS 2’den 2", label: "2’den 2", icon: "2/2" }
   ];
+
+  const iymsMarkets = markets.filter((market) => market.key.startsWith("İY/MS"));
+  const normalMarkets = markets.filter((market) => !market.key.startsWith("İY/MS"));
 
   const todayKey = () => new Intl.DateTimeFormat("en-CA", {
     timeZone: "Europe/Istanbul",
@@ -47,7 +66,7 @@
     style.textContent = `
       .premium-analysis-shell{position:relative;z-index:3;margin:24px clamp(18px,6vw,90px) 0;padding:18px;border:1px solid rgba(255,159,28,.28);border-radius:24px;background:linear-gradient(135deg,rgba(255,159,28,.10),transparent 32%),linear-gradient(180deg,rgba(8,23,48,.96),rgba(3,8,23,.98));box-shadow:0 28px 76px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.05)}
       .premium-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:16px}.premium-title{margin:0;color:#ffe08a;font-size:clamp(21px,2.5vw,32px);line-height:1.1}.premium-subtitle{margin:7px 0 0;color:#aebbd0;font-size:13px;max-width:760px;line-height:1.55}.premium-lock{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid rgba(57,255,136,.32);border-radius:999px;background:rgba(57,255,136,.12);color:#c8ffdd;font-size:12px;font-weight:900;white-space:nowrap}
-      .premium-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:14px}.premium-card{display:grid;gap:12px;padding:15px;border:1px solid rgba(255,255,255,.08);border-radius:18px;background:rgba(255,255,255,.04)}.premium-card h3{margin:0;color:#fff7d6;font-size:16px}.premium-label{display:grid;gap:7px;color:#aebbd0;font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.05em}.premium-select,.premium-input{width:100%;min-height:44px;border:1px solid rgba(255,159,28,.22);border-radius:13px;background:rgba(0,0,0,.25);color:#f8fbff;padding:0 12px;font-weight:800}.premium-market-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.premium-market{min-height:44px;border:1px solid rgba(255,159,28,.20);border-radius:13px;background:rgba(255,255,255,.045);color:#f8fbff;font-weight:900;cursor:pointer}.premium-market.active{border-color:rgba(57,255,136,.55);background:rgba(57,255,136,.16);color:#c8ffdd}.premium-action{min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-size:14px;font-weight:950;cursor:pointer}.premium-action:disabled{opacity:.48;cursor:not-allowed}.premium-note{margin:0;color:#c7d5e8;font-size:13px;line-height:1.55}.premium-output{display:grid;gap:12px}.premium-result{display:grid;gap:10px;padding:14px;border:1px solid rgba(57,255,136,.20);border-radius:16px;background:rgba(57,255,136,.06)}.premium-result h4{margin:0;color:#c8ffdd}.premium-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:12px;background:rgba(0,0,0,.18);color:#aebbd0;font-size:12px}.premium-row strong{color:#f8fbff}.premium-factor-list{display:grid;gap:8px}.premium-factor{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.035);color:#d7e4f5;font-size:12px}.premium-gate{display:grid;gap:10px;padding:13px;border:1px dashed rgba(255,159,28,.32);border-radius:16px;background:rgba(255,159,28,.06)}.premium-gate-row{display:grid;grid-template-columns:1fr auto;gap:8px}.premium-small{color:#aebbd0;font-size:12px;line-height:1.5}.premium-status-ok{color:#39ff88;font-weight:950}.premium-status-wait{color:#ffe08a;font-weight:950}
+      .premium-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:14px}.premium-card{display:grid;gap:12px;padding:15px;border:1px solid rgba(255,255,255,.08);border-radius:18px;background:rgba(255,255,255,.04)}.premium-card h3{margin:0;color:#fff7d6;font-size:16px}.premium-label{display:grid;gap:7px;color:#aebbd0;font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.05em}.premium-select,.premium-input{width:100%;min-height:44px;border:1px solid rgba(255,159,28,.22);border-radius:13px;background:rgba(0,0,0,.25);color:#f8fbff;padding:0 12px;font-weight:800}.premium-market-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.premium-market{min-height:44px;border:1px solid rgba(255,159,28,.20);border-radius:13px;background:rgba(255,255,255,.045);color:#f8fbff;font-weight:900;cursor:pointer}.premium-market.active{border-color:rgba(57,255,136,.55);background:rgba(57,255,136,.16);color:#c8ffdd}.premium-market-group-title{margin-top:4px;color:#ffe08a;font-size:12px;font-weight:950;text-transform:uppercase;letter-spacing:.06em}.premium-action{min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-size:14px;font-weight:950;cursor:pointer}.premium-action:disabled{opacity:.48;cursor:not-allowed}.premium-note{margin:0;color:#c7d5e8;font-size:13px;line-height:1.55}.premium-output{display:grid;gap:12px}.premium-result{display:grid;gap:10px;padding:14px;border:1px solid rgba(57,255,136,.20);border-radius:16px;background:rgba(57,255,136,.06)}.premium-result h4{margin:0;color:#c8ffdd}.premium-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:12px;background:rgba(0,0,0,.18);color:#aebbd0;font-size:12px}.premium-row strong{color:#f8fbff}.premium-factor-list{display:grid;gap:8px}.premium-factor{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.035);color:#d7e4f5;font-size:12px}.premium-gate{display:grid;gap:10px;padding:13px;border:1px dashed rgba(255,159,28,.32);border-radius:16px;background:rgba(255,159,28,.06)}.premium-gate-row{display:grid;grid-template-columns:1fr auto;gap:8px}.premium-small{color:#aebbd0;font-size:12px;line-height:1.5}.premium-status-ok{color:#39ff88;font-weight:950}.premium-status-wait{color:#ffe08a;font-weight:950}
       @media(max-width:900px){.premium-grid{grid-template-columns:1fr}.premium-market-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.premium-head{flex-direction:column}.premium-lock{width:max-content}}@media(max-width:560px){.premium-analysis-shell{margin:18px 14px 0;padding:14px}.premium-gate-row{grid-template-columns:1fr}.premium-market-grid{grid-template-columns:1fr}}
     `;
     document.head.appendChild(style);
@@ -92,6 +111,8 @@
     return `<option value="">Maç seç</option>` + list.map((match, index) => `<option value="${index}">${esc(match.league || "Lig")} — ${esc(fixtureTitle(match))}</option>`).join("");
   };
 
+  const marketButtons = (list, unlocked) => list.map((m) => `<button class="premium-market" type="button" data-market="${esc(m.key)}" ${unlocked ? "" : "disabled"}>${m.icon} ${esc(m.label)}</button>`).join("");
+
   const render = (fixtures, archive) => {
     injectStyle();
     const shell = ensureShell();
@@ -110,7 +131,12 @@
           <h3>Maç ve Seçenek</h3>
           ${unlocked ? "" : `<div class="premium-gate"><strong class="premium-status-wait">Panel kilitli</strong><span class="premium-small">Beta erişim kodu girilince seçim paneli açılır.</span><div class="premium-gate-row"><input class="premium-input" data-premium-code placeholder="Beta erişim kodu"><button class="premium-action" data-premium-unlock>Aç</button></div></div>`}
           <label class="premium-label">Maç Listesi<select class="premium-select" data-premium-match ${unlocked ? "" : "disabled"}>${buildOptions(fixtures)}</select></label>
-          <div class="premium-label">Seçenekler<div class="premium-market-grid">${markets.map((m) => `<button class="premium-market" type="button" data-market="${esc(m.key)}" ${unlocked ? "" : "disabled"}>${m.icon} ${esc(m.label)}</button>`).join("")}</div></div>
+          <div class="premium-label">Seçenekler
+            <div class="premium-market-group-title">Ana Marketler</div>
+            <div class="premium-market-grid">${marketButtons(normalMarkets, unlocked)}</div>
+            <div class="premium-market-group-title">İY/MS Marketleri</div>
+            <div class="premium-market-grid">${marketButtons(iymsMarkets, unlocked)}</div>
+          </div>
           <button class="premium-action" data-premium-analyze ${unlocked ? "" : "disabled"}>Analiz Başlat</button>
           <p class="premium-note">Bu bölüm premium akışın çekirdeğidir. Seçim yapıldığında robot; maç arşivi, takım formu, oran alanları ve günlük veriyle analiz kuyruğu hazırlar.</p>
         </div>
@@ -176,18 +202,13 @@
     }
   };
 
-  const load = async () => {
-    const fixtures = await readJson(FIXTURES_URL, []);
-    const archive = await readJson(ARCHIVE_URL, { matches: [], team_index: {} });
-    render(Array.isArray(fixtures) ? fixtures : [], archive);
-    document.dispatchEvent(new CustomEvent("fl:runtime-ready"));
+  const boot = async () => {
+    const [fixtures, archive] = await Promise.all([
+      readJson(FIXTURES_URL, []),
+      readJson(ARCHIVE_URL, { matches: [], team_index: {} })
+    ]);
+    render(Array.isArray(fixtures) ? fixtures : [], archive || {});
   };
 
-  const start = () => {
-    load();
-    setInterval(load, 5 * 60 * 1000);
-  };
-
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
-  else start();
+  window.addEventListener("load", boot);
 })();
