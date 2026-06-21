@@ -38,7 +38,7 @@ const parseOdd = (value) => {
 
 const pickOdd = (row, keys) => {
   for (const key of keys) {
-    const value = row?.[key] ?? row?.odds?.[key] ?? row?.oranlar?.[key] ?? row?.detay_oranlar?.[key];
+    const value = row?.[key] ?? row?.odds?.[key] ?? row?.oranlar?.[key] ?? row?.detay_oranlar?.[key] ?? row?.raw_market_guess_odds?.[key];
     const odd = parseOdd(value);
     if (odd) return odd.toFixed(2);
   }
@@ -51,10 +51,10 @@ const oddsSnapshot = (row) => ({
   ms2: pickOdd(row, ["ms2", "two", "twoOdd", "odd2", "awayWin", "away_win"]),
   over25: pickOdd(row, ["over25", "ust25", "over", "ust", "ust_25"]),
   under25: pickOdd(row, ["under25", "alt25", "under", "alt", "alt_25"]),
-  over35: pickOdd(row, ["over35", "ust35", "over3_5", "ust_35"]),
-  under35: pickOdd(row, ["under35", "alt35", "under3_5", "alt_35"]),
-  bttsYes: pickOdd(row, ["bttsYes", "kgVar", "kg_var", "varOdd", "var"]),
-  bttsNo: pickOdd(row, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok"]),
+  over35: pickOdd(row, ["over35", "ust35", "over3_5", "ust_35", "over35_guess"]),
+  under35: pickOdd(row, ["under35", "alt35", "under3_5", "alt_35", "under35_guess"]),
+  bttsYes: pickOdd(row, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]),
+  bttsNo: pickOdd(row, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"]),
   firstHalfBttsYes: pickOdd(row, ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"]),
   secondHalfBttsYes: pickOdd(row, ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"]),
 });
@@ -139,7 +139,9 @@ function live_match_output(match) {
     risk_level: scored.risk || "-",
     estimated_odds: scored.odds || "-",
     available_odds: availableOdds,
-    odds_source: scored.oddsSource || scored.odds_source || scored.source || "-",
+    raw_market_guess_odds: scored.raw_market_guess_odds || {},
+    raw_market_blocks: scored.raw_market_blocks || [],
+    odds_source: scored.oddsSource || scored.odds_source || scored.source || scored.raw_market_source || "-",
     value_label: scored.value_label || "-",
     band_attention_level: band.level,
     band_attention_notes: band.notes || [],
@@ -177,7 +179,8 @@ function make_coupon(type, items, size) {
     risk_level: item.risk || "-",
     estimated_odds: item.odds || "-",
     available_odds: oddsSnapshot(item),
-    odds_source: item.oddsSource || item.odds_source || item.source || "-",
+    raw_market_guess_odds: item.raw_market_guess_odds || {},
+    odds_source: item.oddsSource || item.odds_source || item.source || item.raw_market_source || "-",
     value_label: item.value_label || "-",
     band_attention_level: item.band_check?.level || "Düşük",
     robot_reason: generate_robot_explanation(item),
