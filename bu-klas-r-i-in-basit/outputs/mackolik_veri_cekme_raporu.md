@@ -1,50 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-21T10:24:37.376819+00:00
+Tarih: 2026-06-21T16:22:44.412862+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 100
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 95
-- Ham veri havuzu toplam mac sayisi: 304
+- Kac mac bulundu: 30
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 29
+- Ham veri havuzu toplam mac sayisi: 305
 - Hedef tarih: 21.06.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL Lig 2 Heartland Grubu
 - Arjantin Ulusal Primera Lig
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Brezilya Serie B
 - Dünya Kupası 2026 Grup G
-- Dünya Kupası 2026 Grup H
-- Estonya Premium Lig
-- Etiyopya Premier Lig
-- Faroe Adaları Master Lig
-- Fas Botola Pro
 - Hazırlık Kulüpler
-- Kazakistan Premier Lig
 - Kuveyt Premier Lig Küme Düşme Grubu
-- Letonya Virsliga
-- Litvanya 1.Lig
-- Litvanya A Ligi
-- Lübnan Premier Lig
-- Norveç 1.Lig
-- Norveç 2.Lig Grup 1
-- Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
-- Norveç 3.Lig Grup 6
-- Çin Halk Cumhuriyeti FA Kupası 4.Tur
-- İran Azadegan Ligi
-- İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Södra Svealand
-- İsveç Superettan
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
 - Şili Kupa Grup C
@@ -107,8 +83,8 @@ Tarih: 2026-06-21T10:24:37.376819+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 47
-- Acilan detay: 47
+- Denenen Tumu alani: 23
+- Acilan detay: 23
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -122,25 +98,25 @@ Tarih: 2026-06-21T10:24:37.376819+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 21.06.2026 | 22:00 | Dünya Kupası 2026 Grup G | Belçika | İran | 15477 | 5 |
-| 21.06.2026 | 19:00 | Dünya Kupası 2026 Grup H | İspanya | Suudi Arabistan | 15412 | 4 |
-| 21.06.2026 | 14:00 | Çin Halk Cumhuriyeti FA Kupası 4.Tur | Suzhou Dongwu | Yunnan Yukun | 06674 | 4 |
-| 21.06.2026 | 18:00 | İsveç Superettan | Ostersund | Norrkoping | 12892 | 5 |
-| 21.06.2026 | 18:00 | İsveç Superettan | Norrby | United Nordic | 12838 | 5 |
-| 21.06.2026 | 16:00 | İsveç Superettan | Oster | Falkenberg | 12727 | 5 |
-| 21.06.2026 | 16:00 | İsveç Superettan | Brage | Varnamo | 12671 | 5 |
-| 21.06.2026 | 16:00 | İsveç Superettan | Helsingborg | Sundsvall | 12611 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Maghreb Fes | Rsb Berkane | 08386 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Husa Agadir | Uts Rabat | 05528 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Ol. Safi | Yacoub El Manso | 03270 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Raja Casablanc | Codm Meknes | 01821 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Fus Rabat | Olympique Dchei | 05688 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Difaa | Wydad Casablanc | 05678 | 5 |
-| 21.06.2026 | 17:00 | Fas Botola Pro | Ittihad Tanger | Cr Khemis Zemam | 03326 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Bryne | Asane | 13603 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Moss | Sandnes | 13729 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Raufoss | Sogndal | 13813 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Kongsvinger | Stromsgodset | 13687 | 5 |
-| 21.06.2026 | 17:00 | Norveç 1.Lig | Egersunds | Haugesund | 13645 | 5 |
+| 21.06.2026 | 20:00 | Belarus Premier Lig | Neman Grodno | Dinamo Minsk | 18074 | 5 |
+| 21.06.2026 | 19:30 | Şili Kupa Grup C | Antofagasta | La Serena | 09237 | 5 |
+| 21.06.2026 | 22:00 | Şili Kupa Grup D | Union La Caler | Union San Felip | 09297 | 5 |
+| 21.06.2026 | 23:00 | Şili Kupa Grup F | Curico | Atletico Nublen | 09441 | 5 |
+| 21.06.2026 | 22:00 | Şili Kupa Grup H | Temuco | Concepcion | 09353 | 5 |
+| 21.06.2026 | 19:30 | Şili Kupa Grup H | Huachipato | Puerto Montt | 09280 | 5 |
+| 21.06.2026 | 21:30 | Arjantin Ulusal Primera Lig | Patronato | Midland | 12528 | 3 |
+| 21.06.2026 | 21:30 | Arjantin Ulusal Primera Lig | Chacarita Juni | Tristan | 12471 | 3 |
+| 21.06.2026 | 22:30 | Arjantin Ulusal Primera Lig | Central Norte | Godoy Cruz | 12567 | 3 |
+| 21.06.2026 | 21:30 | Arjantin Ulusal Primera Lig | D Belgrano | All Boys | 12454 | 3 |
+| 21.06.2026 | 22:30 | Arjantin Ulusal Primera Lig | Maipu | Gimnasia Y Tiro | 12550 | 3 |
+| 21.06.2026 | 23:00 | Arjantin Ulusal Primera Lig | Club Atletico | Gimnasia Jujuy | 12584 | 5 |
+| 21.06.2026 | 21:30 | Arjantin Ulusal Primera Lig | Ferro Carril O | Moron | 12505 | 3 |
+| 21.06.2026 | 21:30 | Arjantin Ulusal Primera Lig | Almirante | Ca Mitre | 12488 | 3 |
+| 21.06.2026 | 21:00 | Arjantin Ulusal Primera Lig | Deportivo Madr | Los Andes | 12437 | 3 |
+| 21.06.2026 | 16:00 | Hazırlık Kulüpler | Arsenal Tula | Spartak Kostrom | 05673 | 5 |
+| 21.06.2026 | 23:00 | Brezilya Serie B | Sao Bernardo | Juventude | 14141 | 5 |
+| 21.06.2026 | 22:00 | Brezilya Serie B | Regatas | Fortaleza Ce | 14102 | 5 |
+| 21.06.2026 | 20:45 | Kuveyt Premier Lig Küme Düşme Grubu | Al Shabab | Al-Jahra | 10087 | 5 |
 
 ## Sonuc
 
