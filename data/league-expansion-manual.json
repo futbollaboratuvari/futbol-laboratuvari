@@ -1,0 +1,139 @@
+{
+  "updated_at": "2026-06-21T03:25:00+03:00",
+  "purpose": "Alt lig, üst lig, büyük kulüp, ülke takımı ve gollü lig karakteri için genişleme kataloğu.",
+  "policy": "Başlangıç lig hafızasıdır. Güncel format, takım sayısı ve resmi isimler izinli kaynak/API/manual import ile güncellenir.",
+  "countries": {
+    "turkey": {
+      "country_name": "Türkiye",
+      "national_team": "Türkiye Milli Takımı",
+      "upper_leagues": ["Süper Lig"],
+      "lower_leagues": ["1. Lig", "2. Lig", "3. Lig", "Bölgesel Amatör Lig"],
+      "major_clubs": ["Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "Başakşehir", "Bursaspor", "Samsunspor", "Göztepe"],
+      "goal_profile": "orta_yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["tempo", "fizik", "duygusal_momentum", "derbi_riski"],
+      "robot_note": "Derbi, kart, sakatlık ve taraftar etkisi mutlaka kontrol edilir. Alt liglerde veri eksikliği riski yüksektir."
+    },
+    "qatar": {
+      "country_name": "Katar",
+      "national_team": "Katar Milli Takımı",
+      "upper_leagues": ["Qatar Stars League"],
+      "lower_leagues": ["Qatari Second Division"],
+      "major_clubs": ["Al Sadd", "Al Duhail", "Al Rayyan", "Al Arabi", "Al Gharafa"],
+      "goal_profile": "orta_yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["yabanci_oyuncu_etkisi", "tempo", "sicak_iklim", "kadro_farki"],
+      "robot_note": "Kadrolar arası güç farkı ve yabancı oyuncu kalitesi maç sonucunu sert etkileyebilir."
+    },
+    "saudi_arabia": {
+      "country_name": "Suudi Arabistan",
+      "national_team": "Suudi Arabistan Milli Takımı",
+      "upper_leagues": ["Saudi Pro League"],
+      "lower_leagues": ["Saudi First Division", "Saudi Second Division"],
+      "major_clubs": ["Al Hilal", "Al Nassr", "Al Ittihad", "Al Ahli", "Al Shabab", "Al Ettifaq"],
+      "goal_profile": "yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["yildiz_oyuncu", "kadro_farki", "tempo", "gollu"],
+      "robot_note": "Yıldız oyuncu varlığı ve takım kalitesi farkı gol marketlerini güçlendirebilir."
+    },
+    "argentina": {
+      "country_name": "Arjantin",
+      "national_team": "Arjantin Milli Takımı",
+      "upper_leagues": ["Primera División"],
+      "lower_leagues": ["Primera Nacional", "Primera B Metropolitana", "Federal A"],
+      "major_clubs": ["Boca Juniors", "River Plate", "Racing Club", "Independiente", "San Lorenzo", "Estudiantes", "Vélez Sarsfield"],
+      "goal_profile": "orta",
+      "high_scoring_watch": false,
+      "style_tags": ["sertlik", "taktik", "derbi_riski", "düşük_tempo"],
+      "robot_note": "Derbi ve sertlik riski yüksektir. Kart, faul ve düşük tempo etkisi kontrol edilir."
+    },
+    "japan": {
+      "country_name": "Japonya",
+      "national_team": "Japonya Milli Takımı",
+      "upper_leagues": ["J1 League"],
+      "lower_leagues": ["J2 League", "J3 League", "Japan Football League"],
+      "major_clubs": ["Kashima Antlers", "Urawa Red Diamonds", "Yokohama F. Marinos", "Kawasaki Frontale", "Gamba Osaka", "Vissel Kobe"],
+      "goal_profile": "orta_yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["teknik", "tempo", "disiplin", "gecis_oyunu"],
+      "robot_note": "Japon liglerinde tempo ve disiplin takip edilir. Form ve rotasyon bilgisi önemlidir."
+    },
+    "germany": {
+      "country_name": "Almanya",
+      "national_team": "Almanya Milli Takımı",
+      "upper_leagues": ["Bundesliga"],
+      "lower_leagues": ["2. Bundesliga", "3. Liga", "Regionalliga"],
+      "major_clubs": ["Bayern Münih", "Borussia Dortmund", "RB Leipzig", "Bayer Leverkusen", "Eintracht Frankfurt", "Schalke 04", "Hamburger SV"],
+      "goal_profile": "yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["pres", "tempo", "gollu", "gecis_oyunu"],
+      "robot_note": "Almanya ligleri üst ve KG pazarları için öncelikli izlenir."
+    },
+    "england": {
+      "country_name": "İngiltere",
+      "national_team": "İngiltere Milli Takımı",
+      "upper_leagues": ["Premier League"],
+      "lower_leagues": ["Championship", "League One", "League Two", "National League"],
+      "major_clubs": ["Manchester City", "Liverpool", "Manchester United", "Arsenal", "Chelsea", "Tottenham", "Newcastle United", "Aston Villa"],
+      "goal_profile": "orta_yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["tempo", "fizik", "pres", "fikstur_yogunlugu"],
+      "robot_note": "Yoğun fikstür, rotasyon ve kadro derinliği kontrol edilir."
+    },
+    "spain": {
+      "country_name": "İspanya",
+      "national_team": "İspanya Milli Takımı",
+      "upper_leagues": ["La Liga"],
+      "lower_leagues": ["Segunda División", "Primera RFEF", "Segunda RFEF"],
+      "major_clubs": ["Real Madrid", "Barcelona", "Atlético Madrid", "Sevilla", "Valencia", "Real Sociedad", "Villarreal", "Athletic Bilbao"],
+      "goal_profile": "orta",
+      "high_scoring_watch": false,
+      "style_tags": ["pas", "teknik", "kontrol", "set_oyunu"],
+      "robot_note": "Topa sahip olma güçlüdür; tempo düşükse üst market dikkat ister."
+    },
+    "italy": {
+      "country_name": "İtalya",
+      "national_team": "İtalya Milli Takımı",
+      "upper_leagues": ["Serie A"],
+      "lower_leagues": ["Serie B", "Serie C", "Serie D"],
+      "major_clubs": ["Juventus", "Inter", "Milan", "Roma", "Lazio", "Napoli", "Atalanta", "Fiorentina"],
+      "goal_profile": "orta",
+      "high_scoring_watch": false,
+      "style_tags": ["taktik", "savunma", "kontrol", "denge"],
+      "robot_note": "Taktiksel denge, savunma yapısı ve düşük tempo riski takip edilir."
+    },
+    "france": {
+      "country_name": "Fransa",
+      "national_team": "Fransa Milli Takımı",
+      "upper_leagues": ["Ligue 1"],
+      "lower_leagues": ["Ligue 2", "National", "National 2"],
+      "major_clubs": ["Paris Saint-Germain", "Marseille", "Lyon", "Monaco", "Lille", "Rennes", "Lens", "Saint-Étienne"],
+      "goal_profile": "orta",
+      "high_scoring_watch": false,
+      "style_tags": ["fizik", "gencler", "denge", "gecis_oyunu"],
+      "robot_note": "Genç oyuncu ve fiziksel oyun etkisi takip edilir."
+    },
+    "austria": {
+      "country_name": "Avusturya",
+      "national_team": "Avusturya Milli Takımı",
+      "upper_leagues": ["Austrian Bundesliga"],
+      "lower_leagues": ["2. Liga", "Regionalliga"],
+      "major_clubs": ["Red Bull Salzburg", "Rapid Wien", "Austria Wien", "Sturm Graz", "LASK", "Wolfsberger AC"],
+      "goal_profile": "orta_yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["pres", "tempo", "genc_oyuncu", "gollu"],
+      "robot_note": "Tempo ve genç kadro etkisi sebebiyle gol eğilimleri takip edilir."
+    },
+    "australia": {
+      "country_name": "Avustralya",
+      "national_team": "Avustralya Milli Takımı",
+      "upper_leagues": ["A-League Men"],
+      "lower_leagues": ["NPL"],
+      "major_clubs": ["Sydney FC", "Melbourne Victory", "Melbourne City", "Western Sydney Wanderers", "Adelaide United", "Brisbane Roar"],
+      "goal_profile": "orta_yuksek",
+      "high_scoring_watch": true,
+      "style_tags": ["acik_oyun", "fizik", "tempo", "uzak_lig"],
+      "robot_note": "Açık oyun ve veri tazeliği kontrol edilir."
+    }
+  }
+}
