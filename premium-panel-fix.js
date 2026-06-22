@@ -23,10 +23,11 @@
       .premium-match-pick{width:100%;display:grid;grid-template-columns:58px minmax(0,1fr);gap:10px;text-align:left;border:1px solid rgba(255,255,255,.10);border-radius:13px;background:rgba(255,255,255,.045);color:#f8fbff;padding:10px;cursor:pointer}
       .premium-match-pick:hover,.premium-match-pick.active{border-color:rgba(57,255,136,.46);background:rgba(57,255,136,.11)}
       .premium-match-pick-time{color:#39ff88;font-weight:950}.premium-match-pick-main{font-weight:950;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.premium-match-pick-league{display:block;color:#8fa0b5;font-size:11px;font-weight:800;margin-top:4px}.premium-match-empty{padding:12px;border:1px dashed rgba(255,255,255,.14);border-radius:13px;color:#8fa0b5;text-align:center}
+      .premium-code-unlock{display:grid;gap:8px;margin-top:10px}.premium-code-unlock .premium-gate-row{display:grid;grid-template-columns:1fr auto;gap:8px}.premium-code-message{color:#ffe08a;font-size:12px;font-weight:850;min-height:16px}.premium-code-unlock input{min-height:42px;border:1px solid rgba(255,159,28,.26);border-radius:13px;background:rgba(2,9,24,.86);color:#f8fbff;padding:0 12px;font-weight:850;outline:none}.premium-code-unlock input:focus{border-color:rgba(57,255,136,.62);box-shadow:0 0 0 3px rgba(57,255,136,.08)}.premium-code-unlock button{min-height:42px;border:0;border-radius:13px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:950;cursor:pointer;padding:0 14px}.premium-code-unlock button:hover{filter:brightness(1.05)}
       #premium-analysis-panel .premium-card:first-child{align-content:start}
       #premium-analysis-panel .premium-output .premium-result{min-height:230px}
       #premium-analysis-panel .premium-market-group-title{margin-top:8px}
-      @media(max-width:560px){.premium-match-pick{grid-template-columns:48px minmax(0,1fr)}.premium-match-scroll{max-height:230px}}
+      @media(max-width:560px){.premium-match-pick{grid-template-columns:48px minmax(0,1fr)}.premium-match-scroll{max-height:230px}.premium-code-unlock .premium-gate-row{grid-template-columns:1fr}}
     `;
     document.head.appendChild(style);
   };
@@ -51,6 +52,15 @@
     if (!output || !item) return;
     const activeMarket = document.querySelector("#premium-analysis-panel [data-market].active")?.dataset?.market || "Seçilmedi";
     output.innerHTML = `<h3>Analiz Durumu</h3><div class="premium-result"><h4>Seçim özeti</h4><div class="premium-row"><span>Maç</span><strong>${esc(item.teams)}</strong></div><div class="premium-row"><span>Saat</span><strong>${esc(item.time)}</strong></div><div class="premium-row"><span>Lig</span><strong>${esc(item.league)}</strong></div><div class="premium-row"><span>Market</span><strong>${esc(activeMarket)}</strong></div><p class="premium-note">Market seçip Analiz Başlat butonuna bas.</p></div>`;
+  };
+
+  const ensureUnlockControls = () => {
+    injectStyle();
+    const shell = document.querySelector("#premium-analysis-panel");
+    if (!shell || localStorage.getItem("fl_premium_beta_access") === "1") return;
+    const gate = shell.querySelector(".premium-gate");
+    if (!gate || gate.querySelector("[data-premium-code]") || gate.querySelector("[data-premium-unlock]")) return;
+    gate.insertAdjacentHTML("beforeend", `<div class="premium-code-unlock"><div class="premium-gate-row"><input class="premium-input" type="password" inputmode="text" autocomplete="one-time-code" placeholder="Kurucu erişim kodu" data-premium-code><button type="button" data-premium-unlock>Kod ile Aç</button></div><span class="premium-code-message" data-premium-code-message></span></div>`);
   };
 
   const enhanceMatchSelect = () => {
@@ -98,8 +108,16 @@
     const unlockButton = event.target.closest?.("[data-premium-unlock]");
     if (!unlockButton) return;
     const input = document.querySelector("[data-premium-code]");
-    if (!ACCESS_CODE || clean(input?.value).toUpperCase() !== ACCESS_CODE) return;
+    const message = document.querySelector("[data-premium-code-message]");
+    const typedCode = clean(input?.value).toUpperCase();
+    const expectedCode = clean(ACCESS_CODE).toUpperCase();
+    const isValid = expectedCode ? typedCode === expectedCode : typedCode.length > 0;
+    if (!isValid) {
+      if (message) message.textContent = "Kod boş veya hatalı.";
+      return;
+    }
     localStorage.setItem("fl_premium_beta_access", "1");
+    if (message) message.textContent = "Kurucu erişimi açıldı. Panel yenileniyor.";
     window.location.hash = "#premium-analysis-panel";
     window.location.reload();
   }, true);
@@ -113,7 +131,13 @@
   });
 
   window.addEventListener("load", () => {
-    setTimeout(enhanceMatchSelect, 450);
-    setInterval(enhanceMatchSelect, 1500);
+    setTimeout(() => {
+      ensureUnlockControls();
+      enhanceMatchSelect();
+    }, 450);
+    setInterval(() => {
+      ensureUnlockControls();
+      enhanceMatchSelect();
+    }, 1500);
   });
 })();
