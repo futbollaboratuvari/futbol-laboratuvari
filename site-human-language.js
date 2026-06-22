@@ -2,6 +2,9 @@
   const replacements = [
     ["Bugünün odağı", "Bugün İncelenen Maç"],
     ["Güven notu", "Değerlendirme Durumu"],
+    ["Öne çıkan seçim", "Öne Çıkan Aday"],
+    ["Günün seçimi hazırlanıyor", "Aday hazırlanıyor"],
+    ["En güçlü seçenek güncel listeyle belirlenir", "Bugünkü listede dikkat çeken seçenek"],
     ["Net veri gelmeden sayı gösterilmez", "Değerler düşükse izleme olarak görünür"],
     ["Güncel liste oluşunca maç sayısı görünür", "Güncel maç listesinde yer alan karşılaşmalar"],
     ["Canlı Veri Görünümü", "Güncel Maç Merkezi"],
@@ -35,6 +38,7 @@
   const skipTags = new Set(["SCRIPT", "STYLE", "NOSCRIPT", "TEXTAREA", "INPUT"]);
   const couponSelectors = ["[data-coupons-single]", "[data-coupons-double]", "[data-coupons-triple]"];
   const waitingText = "Bugün için uygun kupon adayı hazırlanıyor.";
+  let candidateLoading = false;
 
   const humanizeText = (text) => replacements.reduce((value, [from, to]) => value.split(from).join(to), text);
 
@@ -69,6 +73,28 @@
     }
   };
 
+  const normalizeHeroCandidate = async () => {
+    const target = document.querySelector("#top-market");
+    if (!target || candidateLoading) return;
+    const current = (target.textContent || "").trim();
+    if (current && current !== "-" && !/hazırlanıyor|değerli market yok/i.test(current)) return;
+    candidateLoading = true;
+    try {
+      const response = await fetch("./data/daily-coupons.json", { cache: "no-store" });
+      if (!response.ok) throw new Error("not ready");
+      const data = await response.json();
+      const coupons = data.coupons || {};
+      const lists = [coupons.laboratory_today, coupons.balanced, coupons.high_value, coupons.risk_lab];
+      const leg = lists.flatMap((coupon) => Array.isArray(coupon?.selected_matches) ? coupon.selected_matches : [])
+        .find((item) => item?.match_name && item?.recommended_market);
+      target.textContent = leg ? `${leg.match_name} - ${leg.recommended_market}` : "Aday hazırlanıyor";
+    } catch {
+      target.textContent = "Aday hazırlanıyor";
+    } finally {
+      candidateLoading = false;
+    }
+  };
+
   const isWaitingCard = (card) => /güncel veri henüz oluşmadı|uygun kupon adayı hazırlanıyor|güncel liste hazırlanıyor/i.test(card.textContent || "");
   const isRealCouponCard = (card) => /(Toplam Oran|Güven Skoru|Risk Seviyesi)/i.test(card.textContent || "") && !isWaitingCard(card);
 
@@ -95,6 +121,7 @@
     humanizeNode(document.body);
     humanizeAttributes();
     normalizeHeroStatus();
+    normalizeHeroCandidate();
     cleanupCouponCards();
   };
 
@@ -115,6 +142,7 @@
       });
       humanizeAttributes();
       normalizeHeroStatus();
+      normalizeHeroCandidate();
       cleanupCouponCards();
     });
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
