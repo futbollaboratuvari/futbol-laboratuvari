@@ -25,10 +25,10 @@
   inset: 0 !important;
   z-index: -2 !important;
   background:
-    linear-gradient(90deg, rgba(4, 9, 22, .72) 0%, rgba(4, 9, 22, .44) 48%, rgba(4, 9, 22, .64) 100%),
-    url("https://unsplash.com/photos/pitDMdAjynU/download?force=true&w=2200") center center / cover no-repeat !important;
-  filter: saturate(.96) contrast(1.08) brightness(.92) !important;
-  transform: scale(1.015) !important;
+    linear-gradient(90deg, rgba(4, 9, 22, .76) 0%, rgba(4, 9, 22, .42) 48%, rgba(4, 9, 22, .66) 100%),
+    url("https://source.unsplash.com/2200x1000/?soccer,football,players,duel,stadium") center center / cover no-repeat !important;
+  filter: saturate(.98) contrast(1.08) brightness(.90) !important;
+  transform: scale(1.012) !important;
   transform-origin: center center !important;
 }
 
@@ -38,10 +38,10 @@
   inset: 0 !important;
   z-index: -1 !important;
   background:
-    linear-gradient(90deg, rgba(3,8,23,.66) 0%, rgba(3,8,23,.18) 46%, rgba(3,8,23,.50) 100%),
+    linear-gradient(90deg, rgba(3,8,23,.70) 0%, rgba(3,8,23,.20) 46%, rgba(3,8,23,.48) 100%),
     radial-gradient(circle at 78% 20%, rgba(57,255,136,.09), transparent 28%),
     radial-gradient(circle at 18% 82%, rgba(255,159,28,.08), transparent 32%),
-    linear-gradient(180deg, rgba(255,255,255,.025), transparent 22%, rgba(0,0,0,.16)) !important;
+    linear-gradient(180deg, rgba(255,255,255,.025), transparent 22%, rgba(0,0,0,.18)) !important;
   opacity: 1 !important;
   display: block !important;
   pointer-events: none !important;
@@ -246,9 +246,9 @@
   }
   .dashboard-hero::before {
     background:
-      linear-gradient(rgba(5, 11, 24, .68), rgba(5, 11, 24, .88)),
-      url("https://unsplash.com/photos/pitDMdAjynU/download?force=true&w=1400") center top / cover no-repeat !important;
-    filter: saturate(.96) contrast(1.08) brightness(.86) !important;
+      linear-gradient(rgba(5, 11, 24, .72), rgba(5, 11, 24, .90)),
+      url("https://source.unsplash.com/1400x1200/?soccer,football,players,duel,stadium") 62% center / cover no-repeat !important;
+    filter: saturate(.96) contrast(1.07) brightness(.84) !important;
     transform: scale(1.01) !important;
   }
   .dashboard-hero::after {
