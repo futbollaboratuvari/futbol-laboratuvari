@@ -1,6 +1,8 @@
 (() => {
   const replacements = [
     ["Bugünün odağı", "Bugün İncelenen Maç"],
+    ["Güven notu", "Değerlendirme Durumu"],
+    ["Net veri gelmeden sayı gösterilmez", "Değerler düşükse izleme olarak görünür"],
     ["Güncel liste oluşunca maç sayısı görünür", "Güncel maç listesinde yer alan karşılaşmalar"],
     ["Canlı Veri Görünümü", "Güncel Maç Merkezi"],
     ["Canlı Veri Panelleri", "Güncel Maç Panelleri"],
@@ -58,6 +60,15 @@
     });
   };
 
+  const normalizeHeroStatus = () => {
+    const status = document.querySelector("#avg-confidence");
+    if (!status) return;
+    const text = (status.textContent || "").trim();
+    if (!text || text === "-" || /veri bekleniyor|hazırlanıyor/i.test(text)) {
+      status.textContent = "Düşük / İzleme";
+    }
+  };
+
   const isWaitingCard = (card) => /güncel veri henüz oluşmadı|uygun kupon adayı hazırlanıyor|güncel liste hazırlanıyor/i.test(card.textContent || "");
   const isRealCouponCard = (card) => /(Toplam Oran|Güven Skoru|Risk Seviyesi)/i.test(card.textContent || "") && !isWaitingCard(card);
 
@@ -83,6 +94,7 @@
   const run = () => {
     humanizeNode(document.body);
     humanizeAttributes();
+    normalizeHeroStatus();
     cleanupCouponCards();
   };
 
@@ -102,6 +114,7 @@
         if (mutation.type === "characterData") humanizeNode(mutation.target);
       });
       humanizeAttributes();
+      normalizeHeroStatus();
       cleanupCouponCards();
     });
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
