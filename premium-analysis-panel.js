@@ -123,11 +123,11 @@
     const shell = ensureShell();
     const unlocked = isUnlocked();
     shell.innerHTML = `
-      <div class="premium-head"><div><h2 class="premium-title">Özel Maç / Kupon Analizi</h2><p class="premium-subtitle">Birden fazla maç seçerek kupon analizi oluştur. Üye kodunu girmek için sağdaki Üye Kodunu Gir butonuna bas.</p></div><button class="premium-lock" type="button">🔐 Üye Kodunu Gir</button></div>
+      <div class="premium-head"><div><h2 class="premium-title">Özel Maç / Kupon Analizi</h2><p class="premium-subtitle">Üye kodunu aşağıdaki kod kutusuna yaz. Kod açılınca maç ve seçenek seçerek özel analiz oluşturabilirsin.</p></div><button class="premium-lock" type="button">🔐 Üye Kodunu Gir</button></div>
       <div class="premium-grid">
         <div class="premium-card">
           <h3>Maçlar ve Seçenek</h3>
-          ${unlocked ? "" : `<div class="premium-gate"><strong class="premium-status-wait">Panel kilitli</strong><span class="premium-small">Paket aldıysan sana verilen kodu buraya gir. Yukarıdaki Üye Kodunu Gir butonuna tıklayınca kod kutusu açılır.</span></div>`}
+          ${unlocked ? "" : `<div class="premium-gate"><strong class="premium-status-wait">Panel kilitli</strong><span class="premium-small">Paket aldıysan sana verilen kodu aşağıdaki kutuya yaz ve Kod ile Aç butonuna bas.</span><div class="premium-gate-row"><input class="premium-input" type="password" inputmode="text" autocomplete="one-time-code" placeholder="Üye / kurucu kodu" data-premium-code><button class="premium-action" type="button" data-premium-unlock>Kod ile Aç</button></div><span class="premium-small" data-premium-code-message>Kod girilmeden özel analiz paneli açılmaz.</span></div>`}
           <label class="premium-label">Maç Listesi<select class="premium-select" data-premium-match multiple size="8" ${unlocked ? "" : "disabled"}>${buildOptions(fixtures)}</select></label>
           <div class="premium-multi-help">Birden fazla maç seçmek için Ctrl tuşuna basılı tutarak seçim yap. Mobilde maçlara tek tek dokun.</div>
           <div class="premium-label">Seçenekler
@@ -150,6 +150,16 @@
         selectedMarket = button.dataset.market || "";
       });
     });
+
+    const lockButton = shell.querySelector(".premium-lock");
+    if (lockButton) {
+      lockButton.addEventListener("click", () => {
+        const input = shell.querySelector("[data-premium-code]");
+        const gate = shell.querySelector(".premium-gate");
+        if (gate) gate.scrollIntoView({ behavior: "smooth", block: "center" });
+        setTimeout(() => input?.focus(), 250);
+      });
+    }
 
     const unlockButton = shell.querySelector("[data-premium-unlock]");
     if (unlockButton) {
