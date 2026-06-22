@@ -178,27 +178,37 @@
 }
 
 .platform-summary span {
+  background: linear-gradient(115deg, #fff8dc 0%, #e7c56b 26%, #fff3b0 48%, #b8872e 72%, #fff4c7 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
   color: #f2df9b !important;
+  -webkit-text-fill-color: transparent !important;
   font-size: 11px !important;
-  font-weight: 900 !important;
-  letter-spacing: .065em !important;
+  font-weight: 950 !important;
+  letter-spacing: .07em !important;
   text-transform: uppercase !important;
+  text-shadow: 0 1px 12px rgba(255,224,138,.18), 0 2px 12px rgba(0,0,0,.48) !important;
 }
 
 .platform-summary strong {
+  background: linear-gradient(115deg, #fffbe8 0%, #f6d77e 20%, #fff1a8 42%, #c79639 68%, #fff7d1 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
   color: #ffe08a !important;
+  -webkit-text-fill-color: transparent !important;
   font-size: clamp(19px, 1.7vw, 26px) !important;
   line-height: 1.10 !important;
   letter-spacing: -.025em !important;
   overflow-wrap: anywhere !important;
-  text-shadow: 0 0 18px rgba(255,224,138,.24), 0 3px 18px rgba(0,0,0,.58) !important;
+  filter: drop-shadow(0 0 12px rgba(255,224,138,.28)) drop-shadow(0 3px 14px rgba(0,0,0,.58)) !important;
 }
 
 .platform-summary small {
-  color: #d8e6dc !important;
+  color: #f3ead0 !important;
   font-size: 12px !important;
   line-height: 1.48 !important;
-  font-weight: 750 !important;
+  font-weight: 780 !important;
+  text-shadow: 0 1px 10px rgba(0,0,0,.55) !important;
 }
 
 .fl-hero-credibility {
