@@ -29,6 +29,8 @@
   ];
 
   const skipTags = new Set(["SCRIPT", "STYLE", "NOSCRIPT", "TEXTAREA", "INPUT"]);
+  const couponSelectors = ["[data-coupons-single]", "[data-coupons-double]", "[data-coupons-triple]"];
+  const waitingText = "Bugün için uygun kupon adayı hazırlanıyor.";
 
   const humanizeText = (text) => replacements.reduce((value, [from, to]) => value.split(from).join(to), text);
 
@@ -54,9 +56,32 @@
     });
   };
 
+  const isWaitingCard = (card) => /güncel veri henüz oluşmadı|uygun kupon adayı hazırlanıyor|güncel liste hazırlanıyor/i.test(card.textContent || "");
+  const isRealCouponCard = (card) => /(Toplam Oran|Güven Skoru|Risk Seviyesi)/i.test(card.textContent || "") && !isWaitingCard(card);
+
+  const cleanupCouponCards = () => {
+    couponSelectors.forEach((selector) => {
+      document.querySelectorAll(selector).forEach((container) => {
+        const cards = Array.from(container.querySelectorAll(".robot-live-card"));
+        if (!cards.length) return;
+        const realCards = cards.filter(isRealCouponCard);
+        if (realCards.length) {
+          const html = realCards.map((card) => card.outerHTML).join("");
+          if (container.innerHTML !== html) container.innerHTML = html;
+          return;
+        }
+        if (cards.length > 1 || isWaitingCard(cards[0])) {
+          const html = `<article class="robot-live-card"><p class="robot-note">${waitingText}</p></article>`;
+          if (container.innerHTML !== html) container.innerHTML = html;
+        }
+      });
+    });
+  };
+
   const run = () => {
     humanizeNode(document.body);
     humanizeAttributes();
+    cleanupCouponCards();
   };
 
   run();
@@ -75,6 +100,7 @@
         if (mutation.type === "characterData") humanizeNode(mutation.target);
       });
       humanizeAttributes();
+      cleanupCouponCards();
     });
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
   }
