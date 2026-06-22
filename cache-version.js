@@ -28,6 +28,21 @@
     });
   };
 
+  const focusPremiumCode = () => {
+    const input = document.querySelector("#premium-analysis-panel [data-premium-code]");
+    if (!input) return;
+    input.disabled = false;
+    input.removeAttribute("disabled");
+    input.focus();
+    input.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest?.("#premium-analysis-panel .premium-lock")) return;
+    event.preventDefault();
+    focusPremiumCode();
+  }, true);
+
   const scripts = [
     "site-visible-fix.js",
     "daily-matches-widget.js",
@@ -55,6 +70,7 @@
 
   window.addEventListener("load", () => {
     setTimeout(lockVisitorDetails, 400);
+    setTimeout(focusPremiumCode, 800);
     setTimeout(lockVisitorDetails, 1400);
     setInterval(lockVisitorDetails, 2000);
   });
