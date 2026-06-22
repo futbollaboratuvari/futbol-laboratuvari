@@ -1,0 +1,44 @@
+name: Stats Memory
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/fixtures.json"
+      - "scripts/stats-memory-lite.js"
+      - "ops/main-run.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  stats-memory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update stats memory
+        run: node scripts/stats-memory-lite.js
+
+      - name: Commit memory data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add data/robot_match_archive.json || true
+          if git diff --cached --quiet; then
+            echo "No memory changes"
+            exit 0
+          fi
+          git commit -m "Update stats memory"
+          git push origin HEAD:main || true
