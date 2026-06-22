@@ -11,6 +11,7 @@
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+  const clamp = (value, min = 1, max = 99) => Math.max(min, Math.min(max, Math.round(Number(value) || 0)));
 
   const empty = (value) => {
     const text = clean(value);
@@ -57,13 +58,14 @@
 
   const implied = (odd) => {
     const value = parseOdd(odd);
-    return value ? Math.max(1, Math.min(98, Math.round(100 / value))) : 0;
+    return value ? clamp(100 / value, 1, 98) : 0;
   };
 
-  const grade = (percent) => {
-    if (percent >= 64) return { label: "Güçlü", cls: "ok" };
-    if (percent >= 55) return { label: "Orta", cls: "wait" };
-    if (percent > 0) return { label: "Riskli", cls: "risk" };
+  const grade = (score) => {
+    if (score >= 70) return { label: "Çok Güçlü", cls: "ok" };
+    if (score >= 62) return { label: "Güçlü", cls: "ok" };
+    if (score >= 54) return { label: "Orta", cls: "wait" };
+    if (score > 0) return { label: "Riskli", cls: "risk" };
     return { label: "Veri bekliyor", cls: "wait" };
   };
 
@@ -93,10 +95,57 @@
 
   const teamArchive = (archive, team) => archive?.team_index?.[team] || null;
 
+  const resultValue = (text) => {
+    const value = String(text || "").toUpperCase();
+    if (value.includes("W") || value.includes("G")) return 3;
+    if (value.includes("D") || value.includes("B")) return 1;
+    if (value.includes("L") || value.includes("M")) return 0;
+    return 1;
+  };
+
+  const teamFormScore = (item) => {
+    if (!item) return 50;
+    const finished = Math.max(1, Number(item.finished || 0));
+    const wins = Number(item.wins || 0);
+    const draws = Number(item.draws || 0);
+    const losses = Number(item.losses || 0);
+    const base = ((wins * 3 + draws) / (finished * 3)) * 100;
+    const recent = Array.isArray(item.recent) ? item.recent.slice(0, 5) : [];
+    const recentScore = recent.length ? (recent.reduce((sum, r) => sum + resultValue(r.result), 0) / (recent.length * 3)) * 100 : base;
+    return clamp((base * 0.55) + (recentScore * 0.45), 30, 78);
+  };
+
   const formText = (item) => {
     if (!item) return "Arşiv verisi bekleniyor";
     const recent = Array.isArray(item.recent) ? item.recent.map((r) => r.result).join("-") : "-";
     return `${item.finished || 0} maç | G:${item.wins || 0} B:${item.draws || 0} M:${item.losses || 0} | Form:${recent || "-"}`;
+  };
+
+  const marketPenalty = (market) => {
+    if (market.startsWith("İY/MS")) return 13;
+    if (market.startsWith("1Y/2Y KG")) return 8;
+    if (market.includes("KG %")) return 4;
+    if (market.includes("KG")) return 3;
+    if (market.includes("2.5")) return 4;
+    return 2;
+  };
+
+  const oddPenalty = (odd) => {
+    const n = parseOdd(odd);
+    if (!n) return 4;
+    if (n >= 5) return 16;
+    if (n >= 3.5) return 11;
+    if (n >= 2.6) return 7;
+    if (n >= 2.1) return 4;
+    return 1;
+  };
+
+  const qualityScore = ({ market, odd, oddsPercent, homeScore, awayScore }) => {
+    const archiveScore = (homeScore + awayScore) / 2;
+    const oddsScore = oddsPercent || 48;
+    const balanceBonus = Math.abs(homeScore - awayScore) <= 12 ? 3 : 0;
+    const raw = (oddsScore * 0.48) + (archiveScore * 0.42) + 10 + balanceBonus - marketPenalty(market) - oddPenalty(odd);
+    return clamp(raw, 1, 95);
   };
 
   const makeAnalysis = (match, market, archive) => {
@@ -104,27 +153,31 @@
     const odd = market === "1Y KG % + 2Y KG %" ? "" : pick(match, keys);
     const p1 = implied(pick(match, ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"]));
     const p2 = implied(pick(match, ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"]));
-    const percent = market === "1Y KG %" ? p1
+    const oddsPercent = market === "1Y KG %" ? p1
       : market === "2Y KG %" ? p2
       : market === "1Y KG % + 2Y KG %" ? Math.round(((p1 || 50) + (p2 || 50)) / 2)
       : implied(odd);
-    const g = grade(percent);
     const home = teamArchive(archive, match.home);
     const away = teamArchive(archive, match.away);
+    const homeScore = teamFormScore(home);
+    const awayScore = teamFormScore(away);
+    const score = qualityScore({ market, odd, oddsPercent, homeScore, awayScore });
+    const g = grade(score);
     const isIyms = market.startsWith("İY/MS");
     const isCombo = market.startsWith("1Y/2Y KG");
     const isPercent = market.includes("KG %");
     const notes = [];
-    notes.push(isIyms ? "İY/MS marketi yüksek riskli özel analiz grubudur; robot ilk yarı ve maç sonu yön değişimini birlikte değerlendirir." : "Robot seçilen marketi maç oranları ve arşiv verisiyle eşleştirdi.");
+    notes.push(isIyms ? "İY/MS marketi yüksek riskli özel analiz grubudur; robot ilk yarı ve maç sonu yön değişimini birlikte değerlendirir." : "Robot seçilen marketi oran, arşiv ve takım formu ile birlikte değerlendirdi.");
     if (isCombo) notes.push("1.Yarı / 2.Yarı KG kombinasyonu iki ayrı zaman diliminde gol var-yok davranışını birlikte kontrol eder.");
     if (isPercent) notes.push("KG yüzde analizi oranlardan gelen olasılığı yüzdesel gösterir; tek başına garanti değil, risk sinyalidir.");
-    if (percent) notes.push(`Robot olasılık sinyali yaklaşık %${percent}. Seviye: ${g.label}.`);
-    else notes.push("Bu market için net oran bulunamadı; robot arşiv ve maç bilgisiyle ön değerlendirme oluşturdu.");
-    return { created_at: new Date().toISOString(), match, market, odd, percent, grade: g.label, home_form: formText(home), away_form: formText(away), notes, source: "premium_robot_engine" };
+    if (parseOdd(odd) >= 3.5) notes.push("Yüksek oran tespit edildi: potansiyel değer var ama kupon riski yükselir.");
+    notes.push(`Takım form puanları: ev ${homeScore}, deplasman ${awayScore}.`);
+    notes.push(`Robot kalite skoru: %${score}. Seviye: ${g.label}.`);
+    return { created_at: new Date().toISOString(), match, market, odd, odds_percent: oddsPercent, percent: score, grade: g.label, home_score: homeScore, away_score: awayScore, home_form: formText(home), away_form: formText(away), notes, source: "premium_robot_engine_v2" };
   };
 
   const riskDistribution = (analyses) => analyses.reduce((acc, item) => {
-    if (item.grade === "Güçlü") acc.strong += 1;
+    if (item.grade === "Çok Güçlü" || item.grade === "Güçlü") acc.strong += 1;
     else if (item.grade === "Orta") acc.medium += 1;
     else if (item.grade === "Riskli") acc.risky += 1;
     else acc.wait += 1;
@@ -132,9 +185,19 @@
   }, { strong: 0, medium: 0, risky: 0, wait: 0 });
 
   const couponRisk = (avg, d) => {
-    if (d.risky >= 2 || avg < 55) return "Yüksek Risk";
-    if (d.risky || d.medium >= 2 || avg < 64) return "Orta Risk";
+    if (d.risky >= 2 || avg < 54) return "Yüksek Risk";
+    if (d.risky || d.medium >= 2 || avg < 62) return "Orta Risk";
     return "Dengeli Kupon";
+  };
+
+  const couponAdvice = (coupon) => {
+    const risky = coupon.analyses.filter((x) => x.grade === "Riskli").sort((a, b) => (a.percent || 0) - (b.percent || 0));
+    const best = [...coupon.analyses].sort((a, b) => (b.percent || 0) - (a.percent || 0))[0];
+    const out = [];
+    if (best) out.push(`En güçlü maç: ${best.match.home} - ${best.match.away} (%${best.percent || 0}).`);
+    if (risky[0]) out.push(`Kuponu bozabilecek maç: ${risky[0].match.home} - ${risky[0].match.away}.`);
+    if (!risky.length) out.push("Kuponda açık riskli maç yok; yine de oran değişimi takip edilmeli.");
+    return out;
   };
 
   const buildCoupon = (analyses, market) => {
@@ -145,11 +208,12 @@
     const g = grade(avg);
     const distribution = riskDistribution(analyses);
     const riskLevel = couponRisk(avg || 0, distribution);
+    const advice = couponAdvice({ analyses, percent: avg, risk_level: riskLevel });
     return {
       created_at: new Date().toISOString(), coupon: true, match: { home: "Kupon", away: `${analyses.length} maç` }, market,
       analyses, odd: totalOdd, percent: avg, grade: g.label, risk_level: riskLevel, risk_distribution: distribution,
-      notes: [`${analyses.length} maç aynı market üzerinden kupon analizi olarak oluşturuldu.`, `Ortalama robot sinyali: ${avg ? `%${avg}` : "veri bekliyor"}.`, `Toplam oran: ${totalOdd}.`, `Risk seviyesi: ${riskLevel}.`],
-      source: "premium_coupon_engine"
+      notes: [`${analyses.length} maç aynı market üzerinden kupon analizi olarak oluşturuldu.`, `Ortalama robot kalite skoru: ${avg ? `%${avg}` : "veri bekliyor"}.`, `Toplam oran: ${totalOdd}.`, `Risk seviyesi: ${riskLevel}.`, ...advice],
+      source: "premium_coupon_engine_v2"
     };
   };
 
@@ -163,14 +227,14 @@
   const couponText = (coupon) => {
     if (!coupon?.coupon) return "";
     const rows = coupon.analyses.map((a, i) => `${i + 1}) ${a.match.home} - ${a.match.away} | ${a.market} | ${a.grade} | ${a.percent ? `%${a.percent}` : "Veri"} | Oran: ${a.odd || "Yok"}`);
-    return [`Futbol Laboratuvarı Kupon Analizi`, `Market: ${coupon.market}`, `Maç Sayısı: ${coupon.analyses.length}`, `Toplam Oran: ${coupon.odd}`, `Ortalama Sinyal: ${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}`, `Risk: ${coupon.risk_level}`, ...rows].join("\n");
+    return [`Futbol Laboratuvarı Kupon Analizi`, `Market: ${coupon.market}`, `Maç Sayısı: ${coupon.analyses.length}`, `Toplam Oran: ${coupon.odd}`, `Ortalama Kalite: ${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}`, `Risk: ${coupon.risk_level}`, ...rows].join("\n");
   };
 
-  const renderSingleOutput = (analysis) => `<h3>Robot Analizi</h3><div class="premium-result"><h4>${esc(analysis.grade)} sinyal</h4><div class="premium-row"><span>Maç</span><strong>${esc(analysis.match.home)} - ${esc(analysis.match.away)}</strong></div><div class="premium-row"><span>Market</span><strong>${esc(analysis.market)}</strong></div><div class="premium-row"><span>Oran</span><strong>${esc(analysis.odd || "Veri yok")}</strong></div><div class="premium-row"><span>Olasılık</span><strong>${analysis.percent ? `%${analysis.percent}` : "Veri bekliyor"}</strong></div><div class="premium-factor-list"><span class="premium-factor">📊 Ev sahibi: ${esc(analysis.home_form)}</span><span class="premium-factor">📈 Deplasman: ${esc(analysis.away_form)}</span>${analysis.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
+  const renderSingleOutput = (analysis) => `<h3>Robot Analizi</h3><div class="premium-result"><h4>${esc(analysis.grade)} sinyal</h4><div class="premium-row"><span>Maç</span><strong>${esc(analysis.match.home)} - ${esc(analysis.match.away)}</strong></div><div class="premium-row"><span>Market</span><strong>${esc(analysis.market)}</strong></div><div class="premium-row"><span>Oran</span><strong>${esc(analysis.odd || "Veri yok")}</strong></div><div class="premium-row"><span>Kalite Skoru</span><strong>${analysis.percent ? `%${analysis.percent}` : "Veri bekliyor"}</strong></div><div class="premium-row"><span>Form</span><strong>Ev:${analysis.home_score} / Dep:${analysis.away_score}</strong></div><div class="premium-factor-list"><span class="premium-factor">📊 Ev sahibi: ${esc(analysis.home_form)}</span><span class="premium-factor">📈 Deplasman: ${esc(analysis.away_form)}</span>${analysis.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
 
   const renderCouponOutput = (coupon) => {
     const d = coupon.risk_distribution || { strong: 0, medium: 0, risky: 0, wait: 0 };
-    return `<h3>Kupon Analizi</h3><div class="premium-result"><h4>${coupon.analyses.length} maçlık kupon</h4><div class="premium-row"><span>Market</span><strong>${esc(coupon.market)}</strong></div><div class="premium-row"><span>Toplam Oran</span><strong>${esc(coupon.odd)}</strong></div><div class="premium-row"><span>Ortalama Sinyal</span><strong>${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}</strong></div><div class="premium-row"><span>Risk</span><strong>${esc(coupon.risk_level || "-")}</strong></div><div class="premium-row"><span>Risk Dağılımı</span><strong>G:${d.strong} O:${d.medium} R:${d.risky} V:${d.wait}</strong></div><button class="premium-action" type="button" data-copy-coupon>Kuponu Kopyala</button><div class="premium-factor-list">${coupon.analyses.map((a, i) => `<span class="premium-factor">${i + 1}. ${esc(a.match.home)} - ${esc(a.match.away)} · ${esc(a.grade)} · ${a.percent ? `%${a.percent}` : "Veri"} · Oran: ${esc(a.odd || "Yok")}</span>`).join("")}${coupon.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
+    return `<h3>Kupon Analizi</h3><div class="premium-result"><h4>${coupon.analyses.length} maçlık kupon</h4><div class="premium-row"><span>Market</span><strong>${esc(coupon.market)}</strong></div><div class="premium-row"><span>Toplam Oran</span><strong>${esc(coupon.odd)}</strong></div><div class="premium-row"><span>Ortalama Kalite</span><strong>${coupon.percent ? `%${coupon.percent}` : "Veri bekliyor"}</strong></div><div class="premium-row"><span>Risk</span><strong>${esc(coupon.risk_level || "-")}</strong></div><div class="premium-row"><span>Risk Dağılımı</span><strong>G:${d.strong} O:${d.medium} R:${d.risky} V:${d.wait}</strong></div><button class="premium-action" type="button" data-copy-coupon>Kuponu Kopyala</button><div class="premium-factor-list">${coupon.analyses.map((a, i) => `<span class="premium-factor">${i + 1}. ${esc(a.match.home)} - ${esc(a.match.away)} · ${esc(a.grade)} · ${a.percent ? `%${a.percent}` : "Veri"} · Oran: ${esc(a.odd || "Yok")}</span>`).join("")}${coupon.notes.map((note) => `<span class="premium-factor">🧠 ${esc(note)}</span>`).join("")}</div></div>`;
   };
 
   const renderRobotOutput = (analysis) => {
