@@ -102,6 +102,10 @@ jobs:
       - name: Ensure live JSON
         run: node scripts/ensure-live-json.js
 
+      - name: Fill user choice cards
+        continue-on-error: true
+        run: node scripts/cards-user-choice.js
+
       - name: Commit and push High Value Engine outputs
         continue-on-error: true
         run: |
