@@ -13,9 +13,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: live-data-trigger
+  cancel-in-progress: true
+
 jobs:
   live-data:
     runs-on: ubuntu-latest
+    env:
+      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,12 +34,39 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Update fixtures
-        env:
-          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-          API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python robot dependencies
+        working-directory: bu-klas-r-i-in-basit
+        continue-on-error: true
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m playwright install chromium
+
+      - name: Update fixtures from site source
+        continue-on-error: true
         run: node scripts/update-fixtures.js
+
+      - name: Run Python robot source collector
+        working-directory: bu-klas-r-i-in-basit
+        continue-on-error: true
+        run: python src/robot.py
+
+      - name: Import robot raw pool into site data
+        continue-on-error: true
+        run: node scripts/import-robot-raw-pool.js
+
+      - name: Build detail market candidates
+        continue-on-error: true
+        run: node scripts/raw-block-lite.js
+
+      - name: Export High Value JSON
+        continue-on-error: true
+        run: node scripts/export-high-value-json.js
 
       - name: Ensure live json
         run: node scripts/ensure-live-json.js
@@ -40,7 +76,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
-          git add data outputs || true
+          git add -A data outputs bu-klas-r-i-in-basit/data bu-klas-r-i-in-basit/outputs || true
           if git diff --cached --quiet; then
             echo "No data changes"
             exit 0
