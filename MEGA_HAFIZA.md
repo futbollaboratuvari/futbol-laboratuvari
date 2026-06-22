@@ -10,6 +10,8 @@ Bu dosya Futbol Laboratuvarı projesinin kalıcı çalışma hafızasıdır. Yen
 
 **Kupon Merkezi kart akışı güncellendi.** Kartlar boş kalmasın diye `data/daily-coupons.json` içine düşük puanlı adaylar da kullanıcı tercihine bırakılacak şekilde yazıldı. Güncel çalışma kaydı: `MEGA_HAFIZA_KAYITLAR/2026-06-22_kupon_merkezi_kart_akisi_kaydi.md`.
 
+**Kurucu erişimi ve ziyaretçi kilidi netleştirildi.** Özel analiz / kupon detay alanları normal ziyaretçiye kapalı kalacak; kurucu Cem Kaplanoğlu `CEM-ANALIZ-2026` kodu ile sınırsız erişim kullanacak. Güncel çalışma kaydı: `MEGA_HAFIZA_KAYITLAR/2026-06-22_kurucu_erisim_ve_ziyaretci_kilidi_kaydi.md`.
+
 **Gerçek analiz / kupon üretimi geliştirme aşamasındadır.** `data/analiz_sonuclari.json` aktif analiz üretmediğinde kartlar tamamen boş kalmayacak; düşük puanlı adaylar bilgi amaçlı gösterilecek ve son karar kullanıcıya bırakılacak.
 
 **Yeni sayfadaki ana teknik iş:** gerçek analiz puanlamasını güçlendirip `data/analiz_sonuclari.json` ve `data/daily-coupons.json` akışını daha sağlam hale getirmek.
