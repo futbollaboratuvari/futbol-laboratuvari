@@ -1,0 +1,15 @@
+.dashboard-hero::before {
+  background:
+    linear-gradient(90deg, rgba(4, 9, 22, .62) 0%, rgba(4, 9, 22, .20) 48%, rgba(4, 9, 22, .38) 100%),
+    url("assets/images/gallery-analiz-serisi.webp") center center / cover no-repeat !important;
+  filter: saturate(1.04) contrast(1.08) brightness(1.02) !important;
+  transform: scale(1.006) !important;
+}
+
+.dashboard-hero::after {
+  background:
+    linear-gradient(90deg, rgba(3,8,23,.62) 0%, rgba(3,8,23,.10) 46%, rgba(3,8,23,.26) 100%),
+    radial-gradient(circle at 78% 20%, rgba(57,255,136,.06), transparent 28%),
+    radial-gradient(circle at 18% 82%, rgba(255,159,28,.06), transparent 32%),
+    linear-gradient(180deg, rgba(255,255,255,.025), transparent 22%, rgba(0,0,0,.08)) !important;
+}
