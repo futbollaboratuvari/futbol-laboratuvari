@@ -1,0 +1,64 @@
+/* Futbol Laboratuvarı canlı maç göstergesi
+   Kırmızı nokta kullanılmaz. Maç başladığında Canlı yazısı yanıp söner. */
+
+@keyframes fl-live-text-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .35; }
+}
+
+.live-dot,
+.live-indicator-dot,
+.status-dot,
+.pulse-dot,
+.blink-dot,
+.match-live-dot,
+.daily-live-dot,
+.live-badge-dot,
+.live-status-dot,
+.fixture-live-dot,
+[class*="live-dot"],
+[class*="pulse-dot"] {
+  display: none !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+.live-dot::before,
+.live-dot::after,
+.live-indicator-dot::before,
+.live-indicator-dot::after,
+.status-dot::before,
+.status-dot::after,
+.pulse-dot::before,
+.pulse-dot::after,
+.match-live-dot::before,
+.match-live-dot::after,
+.daily-live-dot::before,
+.daily-live-dot::after,
+[class*="live-dot"]::before,
+[class*="live-dot"]::after,
+[class*="pulse-dot"]::before,
+[class*="pulse-dot"]::after {
+  content: none !important;
+  display: none !important;
+}
+
+.live-badge,
+.live-label,
+.match-live-label,
+.daily-live-label,
+.fixture-live-label,
+.status-live,
+.badge-live,
+.is-live .match-status,
+.is-live .fixture-status,
+.is-live [class*="status"],
+[class*="live-label"],
+[class*="live-badge"] {
+  animation: fl-live-text-blink 1s ease-in-out infinite;
+  font-weight: 800;
+}
