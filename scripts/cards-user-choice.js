@@ -1,12 +1,22 @@
 const fs = require('fs');
-const live = JSON.parse(fs.readFileSync('data/live-matches.json', 'utf8'));
 const out = 'data/daily-coupons.json';
+const read = (file, fallback) => { try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; } };
+const live = read('data/live-matches.json', { matches: [] });
+const existing = read(out, { coupons: {} });
 const n = v => { const x = Number(String(v ?? '').replace(',', '.')); return Number.isFinite(x) && x > 1 ? x : null; };
 const pick = m => [['MS 1', m.oneOdd], ['MS X', m.drawOdd], ['MS 2', m.twoOdd]]
   .map(([name, val]) => ({ name, odd: n(val) }))
   .filter(x => x.odd)
   .sort((a, b) => b.odd - a.odd)[0] || null;
-const rows = (live.matches || []).map((m, i) => {
+const matches = Array.isArray(live.matches) ? live.matches : [];
+if (!matches.length) {
+  existing.card_flow_note = 'Güncel maç listesi boş olduğu için mevcut kart verisi korundu.';
+  existing.card_flow_checked_at = new Date().toISOString();
+  fs.writeFileSync(out, JSON.stringify(existing, null, 2) + '\n');
+  console.log('cards kept: no live matches');
+  process.exit(0);
+}
+const rows = matches.map((m, i) => {
   const p = pick(m); if (!p) return null;
   return {
     no: i + 1,
@@ -23,6 +33,13 @@ const rows = (live.matches || []).map((m, i) => {
     robot_reason: 'Güncel maç ve oran bilgisi bulunduğu için kartta gösterilir. Son karar kullanıcıya bırakılır.'
   };
 }).filter(Boolean);
+if (!rows.length) {
+  existing.card_flow_note = 'Oran bilgisi bulunamadığı için mevcut kart verisi korundu.';
+  existing.card_flow_checked_at = new Date().toISOString();
+  fs.writeFileSync(out, JSON.stringify(existing, null, 2) + '\n');
+  console.log('cards kept: no odds');
+  process.exit(0);
+}
 const byOdd = a => a.slice().sort((x, y) => n(y.estimated_odds) - n(x.estimated_odds));
 const make = (type, name, list, count) => {
   const selected = (list.length ? list : rows).slice(0, count);
@@ -43,8 +60,9 @@ const data = {
   generated_at: new Date().toISOString(),
   date: live.date,
   source: 'Güncel maç listesi',
-  message: rows.length ? 'Kart verisi hazırlandı.' : 'Bugün için uygun kupon adayı hazırlanıyor.',
+  message: 'Kart verisi hazırlandı.',
   user_choice_mode: true,
+  card_flow_ready: true,
   coupons: {
     laboratory_today: make('balanced', 'Dengeli Kupon', rows.filter(x => n(x.estimated_odds) <= 2.20), 3),
     balanced: make('balanced', 'Dengeli Kupon', rows.filter(x => n(x.estimated_odds) <= 2.20), 3),
