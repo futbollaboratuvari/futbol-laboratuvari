@@ -103,7 +103,7 @@ const payload = {
   date: today,
   timezone: 'Europe/Istanbul',
   source,
-  engine: 'Futbol Laboratuvarı Canlı Veri Robotu',
+  title: 'Futbol Laboratuvarı Canlı Veri',
   status: windowMatches.length ? 'active' : 'waiting',
   message: windowMatches.length ? 'Canlı veri alanı güncel maç akışını gösteriyor.' : 'Bugün için güncel veri henüz oluşmadı.',
   counts: {
