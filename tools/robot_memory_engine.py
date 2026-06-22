@@ -6,11 +6,12 @@ Futbol Laboratuvarı - Robot Hafıza Motoru
 Görev:
 - data/analiz_sonuclari.json, data/robot-analysis.json, data/live-matches.json ve data/daily-coupons.json dosyalarını okur.
 - Tahminleri, sonuçları, ligleri, takımları, marketleri ve oran aralıklarını hafızaya işler.
+- Başarı/yanılma geçmişinden öğrenme profili, ağırlık önerileri ve risk uyarıları üretir.
 - data/robot_hafiza.json ve outputs/robot_hafiza_raporu.md dosyalarını günceller.
 
 Not:
 - Güncel veri yoksa eski veri uydurmaz.
-- Robot kupon onaylamaz; sadece analiz ve kayıt üretir.
+- Robot kupon onaylamaz; sadece analiz, kayıt ve öğrenme önerisi üretir.
 """
 
 from __future__ import annotations
@@ -19,7 +20,7 @@ import json
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Tuple
+from typing import Any, Dict, List, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -48,6 +49,8 @@ ODDS_BUCKETS = [
     (3.00, 4.99, "3.00-4.99"),
     (5.00, 999.0, "5.00+"),
 ]
+
+LEARNING_MIN_SETTLED = 3
 
 
 def now_iso() -> str:
@@ -137,7 +140,7 @@ def split_match_name(match_name: str) -> Tuple[str, str]:
 
 def default_memory() -> Dict[str, Any]:
     return {
-        "schema_version": "1.0.0",
+        "schema_version": "1.1.0",
         "generated_at": now_iso(),
         "timezone": "Europe/Istanbul",
         "project": "Futbol Laboratuvarı AI Analiz Robotu",
@@ -149,6 +152,7 @@ def default_memory() -> Dict[str, Any]:
             "user_final_decision": True,
             "track_every_prediction": True,
             "track_failure_reason": True,
+            "learning_is_advisory": True,
         },
         "prediction_log": [],
         "result_log": [],
@@ -157,6 +161,9 @@ def default_memory() -> Dict[str, Any]:
         "team_memory": {},
         "odds_memory": {},
         "coupon_performance": {},
+        "learning_profile": {},
+        "learning_weights": {},
+        "learning_alerts": [],
         "error_memory": [],
         "learning_notes": [],
     }
@@ -237,6 +244,85 @@ def finalize_stat(stat: Dict[str, Any]) -> Dict[str, Any]:
     return stat
 
 
+def learning_score(stat: Dict[str, Any]) -> Dict[str, Any]:
+    settled = int(stat.get("won", 0)) + int(stat.get("lost", 0))
+    success = float(stat.get("success_rate", 0))
+    avg_odds = float(stat.get("avg_odds", 0))
+    if settled < LEARNING_MIN_SETTLED:
+        return {
+            "weight": 1.0,
+            "confidence": "veri_yetersiz",
+            "advice": "Yeterli sonuç yok; ağırlık değiştirme.",
+            "settled": settled,
+        }
+    if success >= 65:
+        weight = 1.18
+        advice = "Güçlü geçmiş; benzer sinyallerde puanı kontrollü artır."
+        confidence = "guclu"
+    elif success >= 55:
+        weight = 1.08
+        advice = "Olumlu geçmiş; küçük puan artışı uygulanabilir."
+        confidence = "olumlu"
+    elif success <= 38:
+        weight = 0.78
+        advice = "Zayıf geçmiş; bu grupta risk puanını artır, güveni düşür."
+        confidence = "zayif"
+    elif success <= 45:
+        weight = 0.9
+        advice = "Dikkatli kullan; ek doğrulama olmadan yüksek güven verme."
+        confidence = "dikkat"
+    else:
+        weight = 1.0
+        advice = "Nötr geçmiş; mevcut ağırlık korunmalı."
+        confidence = "notr"
+    if avg_odds >= 5 and weight > 1:
+        weight = min(weight, 1.08)
+        advice += " Yüksek oran nedeniyle artış sınırlandı."
+    return {
+        "weight": round(weight, 2),
+        "confidence": confidence,
+        "advice": advice,
+        "settled": settled,
+    }
+
+
+def build_learning_profile(memory: Dict[str, Any]) -> Tuple[Dict[str, Any], Dict[str, Any], List[str]]:
+    groups = {
+        "market": memory.get("market_performance", {}),
+        "league": memory.get("league_memory", {}),
+        "team": memory.get("team_memory", {}),
+        "odds": memory.get("odds_memory", {}),
+        "coupon": memory.get("coupon_performance", {}),
+    }
+    profile: Dict[str, Any] = {}
+    weights: Dict[str, Any] = {}
+    alerts: List[str] = []
+    for group_name, stats in groups.items():
+        profile[group_name] = {}
+        weights[group_name] = {}
+        if not isinstance(stats, dict):
+            continue
+        for name, stat in sorted(stats.items()):
+            if not isinstance(stat, dict):
+                continue
+            score = learning_score(stat)
+            profile[group_name][name] = {
+                "success_rate": stat.get("success_rate", 0),
+                "total": stat.get("total", 0),
+                "won": stat.get("won", 0),
+                "lost": stat.get("lost", 0),
+                "pending": stat.get("pending", 0),
+                "avg_odds": stat.get("avg_odds", 0),
+                **score,
+            }
+            weights[group_name][name] = score["weight"]
+            if score["confidence"] in ["zayif", "dikkat"]:
+                alerts.append(f"{group_name}/{name}: {score['advice']}")
+    if not alerts:
+        alerts.append("Yeterli negatif sinyal yok; öğrenme ağırlıkları kayıt için hazır bekliyor.")
+    return profile, weights, alerts[:20]
+
+
 def build_memory() -> Dict[str, Any]:
     memory = read_json(MEMORY_PATH, default_memory())
     history = read_json(HISTORY_PATH, {})
@@ -296,8 +382,14 @@ def build_memory() -> Dict[str, Any]:
                 coupon_stats[label]["_odds_count"] += 1
 
     memory.update({
+        "schema_version": "1.1.0",
         "generated_at": now_iso(),
         "status": "Öğrenen hafıza sistemi aktif",
+        "rules": {
+            **memory.get("rules", {}),
+            "learning_is_advisory": True,
+            "no_auto_bet_decision": True,
+        },
         "prediction_log": predictions,
         "result_log": result_log,
         "market_performance": {k: finalize_stat(v) for k, v in sorted(market_stats.items())},
@@ -306,10 +398,19 @@ def build_memory() -> Dict[str, Any]:
         "odds_memory": {k: finalize_stat(v) for k, v in sorted(odds_stats.items())},
         "coupon_performance": {k: finalize_stat(v) for k, v in sorted(coupon_stats.items())},
         "error_memory": error_memory,
+    })
+
+    learning_profile, learning_weights, learning_alerts = build_learning_profile(memory)
+    memory.update({
+        "learning_profile": learning_profile,
+        "learning_weights": learning_weights,
+        "learning_alerts": learning_alerts,
         "learning_notes": [
             "Robot her tahmini prediction_log içine alır.",
             "Sonuçlanan tahminler result_log içine düşer.",
             "Market, lig, takım ve oran aralığı başarıları otomatik hesaplanır.",
+            "Öğrenme profili başarı/yanılma geçmişinden ağırlık önerisi üretir.",
+            "Ağırlıklar kupon onayı değil, sonraki analizlerde kullanılacak yardımcı sinyaldir.",
             "Kaybeden tahminlerde failure_reason alanı zorunlu takip edilir.",
             "Güncel veri yoksa robot eski veri uydurmaz, boş veri raporu üretir.",
         ],
@@ -326,9 +427,20 @@ def build_report(memory: Dict[str, Any]) -> str:
             rows.append(f"| {name} | {s.get('total', 0)} | {s.get('won', 0)} | {s.get('lost', 0)} | {s.get('pending', 0)} | %{s.get('success_rate', 0)} | {s.get('avg_odds', 0)} |")
         return "\n".join(rows)
 
+    def learning_table(profile: Dict[str, Any], group: str, limit: int = 12) -> str:
+        rows_data = profile.get(group, {}) if isinstance(profile, dict) else {}
+        if not rows_data:
+            return "Veri yok."
+        rows = ["| Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |", "|---|---:|---|---:|---|"]
+        for name, item in list(rows_data.items())[:limit]:
+            rows.append(f"| {name} | {item.get('weight', 1)} | {item.get('confidence', '-')} | {item.get('settled', 0)} | {item.get('advice', '-')} |")
+        return "\n".join(rows)
+
     prediction_count = len(memory.get("prediction_log", []))
     result_count = len(memory.get("result_log", []))
     error_count = len(memory.get("error_memory", []))
+    alerts = memory.get("learning_alerts", [])
+    alert_text = "\n".join(f"- {x}" for x in alerts[:10]) if alerts else "- Uyarı yok."
     return f"""# Robot Hafıza Raporu
 
 Güncelleme: {memory.get('generated_at')}
@@ -357,10 +469,23 @@ Güncelleme: {memory.get('generated_at')}
 
 {table(memory.get('team_memory', {}))}
 
+## Öğrenme Ağırlıkları - Market
+
+{learning_table(memory.get('learning_profile', {}), 'market')}
+
+## Öğrenme Ağırlıkları - Oran Aralığı
+
+{learning_table(memory.get('learning_profile', {}), 'odds')}
+
+## Öğrenme Uyarıları
+
+{alert_text}
+
 ## Eksik / Takip Edilecek Alanlar
 
 - Kaybeden tahminlerde yanılma sebebi boşsa manuel veya otomatik sebep girilecek.
 - Veri kaynağı güçlendikçe lig ve takım hafızası dolacak.
+- Öğrenme ağırlıkları sonraki analiz motoruna bağlanacak.
 - Güncel veri yoksa eski veri gösterilmeyecek.
 """
 
