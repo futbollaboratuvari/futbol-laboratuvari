@@ -52,8 +52,9 @@ const formatTurkeyDateDots = (date = new Date()) => {
 };
 
 const toIsoDate = (dotDate) => {
-  const [day, month, year] = dotDate.split(".");
-  return `${year}-${month}-${day}`;
+  const [day, month, year] = String(dotDate || "").split(".");
+  if (!day || !month || !year) return "";
+  return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
 };
 
 const addDays = (dateKey, days) => {
@@ -63,7 +64,9 @@ const addDays = (dateKey, days) => {
 
 const readJson = (filePath, fallback) => {
   try {
-    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+    const text = fs.readFileSync(filePath, "utf8").trim();
+    if (!text) return fallback;
+    return JSON.parse(text);
   } catch (error) {
     return fallback;
   }
@@ -104,6 +107,7 @@ const requestText = (url) =>
 
 const decodeHtml = (value) => String(value || "")
   .replace(/&nbsp;/gi, " ")
+  .replace(/\u00a0/g, " ")
   .replace(/&amp;/gi, "&")
   .replace(/&quot;/gi, '"')
   .replace(/&#39;|&apos;/gi, "'")
@@ -121,14 +125,20 @@ const htmlToLines = (html) => decodeHtml(html)
   .map((line) => line.replace(/\s+/g, " ").trim())
   .filter(Boolean);
 
+const normalizeLine = (line) => decodeHtml(line)
+  .replace(/\u00a0/g, " ")
+  .replace(/\s+/g, " ")
+  .trim();
+
 const isLeagueLine = (line) => {
-  if (!line || line.length < 4) return false;
-  if (/^\d{2}\.\d{2}\.\d{4}/.test(line)) return false;
-  if (/^\d{2}:\d{2}\b/.test(line)) return false;
-  if (/^(Kod|Hepsi|Tarih|Lig|Futbol|Basketbol|Sadece|Maç Sonucu|Çerez|Reklam|İY|MS|X)$/i.test(line)) return false;
-  if (/\d+\.\d+/.test(line)) return false;
-  if (line.includes(" - ")) return false;
-  return /Lig|Kupa|Kupası|Premier|Dünya|Hazırlık|Grup|Division|League|Ligi|Liga|Serie|NPL|Şampiyonluk/i.test(line);
+  const text = normalizeLine(line);
+  if (!text || text.length < 4) return false;
+  if (/^\d{1,2}\.\d{1,2}\.\d{4}/.test(text)) return false;
+  if (/^\d{1,2}:\d{2}\b/.test(text)) return false;
+  if (/^(Kod|Hepsi|Tarih|Lig|Futbol|Basketbol|Sadece|Maç Sonucu|Çerez|Reklam|İY|MS|X)$/i.test(text)) return false;
+  if (/\d+\.\d+/.test(text)) return false;
+  if (text.includes(" - ")) return false;
+  return /Lig|Kupa|Kupası|Premier|Dünya|Hazırlık|Grup|Division|League|Ligi|Liga|Serie|NPL|Şampiyonluk|Urvalsdeild|Superettan|Virsliga|Erovnuli/i.test(text);
 };
 
 const cleanTeam = (value) => String(value || "")
@@ -147,6 +157,13 @@ const normalizeNumber = (value) => {
   if (value === undefined || value === null || value === "") return null;
   const number = Number(value);
   return Number.isFinite(number) ? number : null;
+};
+
+const parseOdd = (value) => {
+  const text = String(value || "").replace(",", ".");
+  const number = Number(text);
+  if (!Number.isFinite(number)) return null;
+  return number;
 };
 
 const fixtureKey = (fixture) => [fixture.date, fixture.time, fixture.home, fixture.away]
@@ -213,51 +230,78 @@ const enrichLiveState = (fixtures, existingFixtures = []) => {
   });
 };
 
+const addFixture = (fixtures, currentDate, currentLeague, time, home, away, tail = "") => {
+  const date = toIsoDate(currentDate);
+  const cleanHome = cleanTeam(home);
+  const cleanAway = cleanTeam(away);
+  if (!date || !time || !cleanHome || !cleanAway || cleanHome.length < 2 || cleanAway.length < 2) return;
+
+  const numbers = String(tail || "").match(/\b\d{4,5}\b|\b\d+[.,]\d+\b/g) || [];
+  const matchCode = numbers.find((item) => /^\d{4,5}$/.test(item)) || null;
+  const odds = numbers.filter((item) => /^\d+[.,]\d+$/.test(item)).map(parseOdd).filter((item) => item !== null);
+
+  fixtures.push({
+    date,
+    time,
+    league: currentLeague || "Maçkolik İddaa Programı",
+    home: cleanHome,
+    away: cleanAway,
+    matchCode,
+    status: "scheduled",
+    liveStatus: "scheduled",
+    minute: null,
+    homeScore: null,
+    awayScore: null,
+    score: "",
+    source: "Maçkolik İddaa Programı",
+    oneOdd: odds[0] ?? null,
+    drawOdd: odds[1] ?? null,
+    twoOdd: odds[2] ?? null,
+    under25: odds[3] ?? null,
+    over25: odds[4] ?? null,
+    cifte1x: odds[5] ?? null,
+    cifte12: odds[6] ?? null,
+    cifteX2: odds[7] ?? null,
+  });
+};
+
 const parseMackolikIddaaProgram = (html) => {
   const targetDotDate = formatTurkeyDateDots();
   const fixtures = [];
   let currentLeague = "Maçkolik İddaa Programı";
   let currentDate = null;
 
-  for (const line of htmlToLines(html)) {
+  for (const rawLine of htmlToLines(html)) {
+    const line = normalizeLine(rawLine);
+    if (!line) continue;
+
+    const dateMatch = line.match(/\b(\d{1,2}\.\d{1,2}\.\d{4})\b/);
+    if (dateMatch) currentDate = dateMatch[1];
+
     if (isLeagueLine(line)) {
       currentLeague = line;
       continue;
     }
 
-    const dateMatch = line.match(/^(\d{2}\.\d{2}\.\d{4})\b/);
-    if (dateMatch) {
-      currentDate = dateMatch[1];
-    }
-
     if (currentDate !== targetDotDate) continue;
 
-    const match = line.match(/(?:^|\s)(\d{2}:\d{2})\s+(.+?)\s+-\s+(.+?)(?=\s+\d{4,5}\b|\s+\d+[.,]\d+\b|\s*$)/);
-    if (!match) continue;
+    const singleLineMatch = line.match(/(?:^|\s)(\d{1,2}:\d{2})\s+(.+?)\s+-\s+(.+?)(?=\s+\d{4,5}\b|\s+\d+[.,]\d+\b|\s*$)(.*)$/);
+    if (singleLineMatch) {
+      addFixture(fixtures, currentDate, currentLeague, singleLineMatch[1], singleLineMatch[2], singleLineMatch[3], singleLineMatch[4]);
+      continue;
+    }
 
-    const home = cleanTeam(match[2]);
-    const away = cleanTeam(match[3]);
-    if (!home || !away || home.length < 2 || away.length < 2) continue;
-
-    fixtures.push({
-      date: toIsoDate(currentDate),
-      time: match[1],
-      league: currentLeague,
-      home,
-      away,
-      status: "scheduled",
-      liveStatus: "scheduled",
-      minute: null,
-      homeScore: null,
-      awayScore: null,
-      score: "",
-      source: "Maçkolik İddaa Programı",
-    });
+    const looseMatch = line.match(/(?:^|\s)(\d{1,2}:\d{2}).{0,160}?([A-Za-zÇĞİÖŞÜçğıöşü0-9.'’\- ]{2,60})\s+-\s+([A-Za-zÇĞİÖŞÜçğıöşü0-9.'’\- ]{2,60})(.*)$/);
+    if (looseMatch) {
+      addFixture(fixtures, currentDate, currentLeague, looseMatch[1], looseMatch[2], looseMatch[3], looseMatch[4]);
+    }
   }
 
-  return fixtures.filter((fixture, index, list) =>
+  const unique = fixtures.filter((fixture, index, list) =>
     index === list.findIndex((item) => item.date === fixture.date && item.time === fixture.time && item.home === fixture.home && item.away === fixture.away)
   );
+
+  return unique;
 };
 
 const fetchFixturesFromMackolik = async () => {
@@ -289,6 +333,17 @@ const toRawPool = (fixtures, source) => ({
     awayScore: fixture.awayScore,
     score: fixture.score,
     source: fixture.source || source,
+    match_code: fixture.matchCode || null,
+    odds: {
+      ms_1: fixture.oneOdd ?? null,
+      ms_x: fixture.drawOdd ?? null,
+      ms_2: fixture.twoOdd ?? null,
+      alt_25: fixture.under25 ?? null,
+      ust_25: fixture.over25 ?? null,
+      cifte_1x: fixture.cifte1x ?? null,
+      cifte_12: fixture.cifte12 ?? null,
+      cifte_x2: fixture.cifteX2 ?? null,
+    },
   })),
 });
 
@@ -309,12 +364,12 @@ const toSporTotoBulletin = (fixtures, source) => {
       home: fixture.home,
       away: fixture.away,
       match: `${fixture.home} - ${fixture.away}`,
-      one: null,
-      draw: null,
-      two: null,
-      oneOdd: null,
-      drawOdd: null,
-      twoOdd: null,
+      one: fixture.oneOdd ?? null,
+      draw: fixture.drawOdd ?? null,
+      two: fixture.twoOdd ?? null,
+      oneOdd: fixture.oneOdd ?? null,
+      drawOdd: fixture.drawOdd ?? null,
+      twoOdd: fixture.twoOdd ?? null,
       decision: "Bekleniyor",
       className: "Haftalık Spor Toto",
       minute: fixture.minute,
@@ -349,13 +404,13 @@ const writeReports = (fixtures, source) => {
     fixture.time,
     fixture.status === "live" ? `Canlı ${fixture.minute || "-"}'` : "Veri bekleniyor",
     fixture.score || "-",
-    "-",
+    fixture.oneOdd || "-",
     fixture.status || "scheduled",
   ]);
 
-  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Skor", "Risk", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
+  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Skor", "Oran", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
 
-  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Robot API anahtarı kullanmadan Maçkolik eski site İddaa Programı sayfasındaki bugünün maçlarını okur. Canlı skor alanları veri kaynağından gelirse korunur; gelmezse maç saatine göre canlı dakika tahmini yazılır.\n`;
+  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Parser güçlendirildi. Tarih başlığı, lig başlığı, maç satırı, maç kodu ve ana oran alanlarını daha esnek okur.\n`;
 
   const successReport = `# Başarı Yüzdesi Raporu\n\n- Güncelleme: ${generatedAt}\n- Sonuçlanan tahmin sayısı: 0\n- Durum: Canlı tahmin geçmişi bekleniyor.\n`;
 
