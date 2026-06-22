@@ -41,11 +41,11 @@
   let candidateLoading = false;
 
   const injectLiveBlinkCss = () => {
-    if (document.querySelector('link[href*="live-label-blink.css"]')) return;
-    const link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = "./live-label-blink.css?v=20260622-live-label";
-    document.head.appendChild(link);
+    if (document.querySelector("#fl-live-text-style")) return;
+    const style = document.createElement("style");
+    style.id = "fl-live-text-style";
+    style.textContent = "@keyframes flLiveTextBlink{0%,100%{opacity:1}50%{opacity:.35}}.daily-status-icon,.daily-live-label{animation:flLiveTextBlink 1s ease-in-out infinite;font-weight:800}";
+    document.head.appendChild(style);
   };
 
   const normalizeLiveStatusText = () => {
