@@ -15,6 +15,7 @@
     const style = document.createElement("style");
     style.id = FIX_ID;
     style.textContent = `
+      #premium-analysis-panel .premium-lock{cursor:pointer;user-select:none}
       #premium-analysis-panel .premium-select[data-premium-match]{display:none!important}
       .premium-match-searchbox{display:grid;gap:8px;margin-top:6px}
       .premium-match-searchbox input{min-height:42px;border:1px solid rgba(57,255,136,.26);border-radius:13px;background:rgba(2,9,24,.86);color:#f8fbff;padding:0 12px;font-weight:850;outline:none}
@@ -51,7 +52,7 @@
     const output = document.querySelector("#premium-analysis-panel [data-premium-output]");
     if (!output || !item) return;
     const activeMarket = document.querySelector("#premium-analysis-panel [data-market].active")?.dataset?.market || "Seçilmedi";
-    output.innerHTML = `<h3>Analiz Durumu</h3><div class="premium-result"><h4>Seçim özeti</h4><div class="premium-row"><span>Maç</span><strong>${esc(item.teams)}</strong></div><div class="premium-row"><span>Saat</span><strong>${esc(item.time)}</strong></div><div class="premium-row"><span>Lig</span><strong>${esc(item.league)}</strong></div><div class="premium-row"><span>Market</span><strong>${esc(activeMarket)}</strong></div><p class="premium-note">Market seçip Analiz Başlat butonuna bas.</p></div>`;
+    output.innerHTML = `<h3>Analiz Durumu</h3><div class="premium-result"><h4>Seçim özeti</h4><div class="premium-row"><span>Maç</span><strong>${esc(item.teams)}</strong></div><div class="premium-row"><span>Saat</span><strong>${esc(item.time)}</strong></div><div class="premium-row"><span>Lig</span><strong>${esc(item.league)}</strong></div><div class="premium-row"><span>Seçenek</span><strong>${esc(activeMarket)}</strong></div><p class="premium-note">Seçenek seçip Analiz Başlat butonuna bas.</p></div>`;
   };
 
   const ensureUnlockControls = () => {
@@ -60,7 +61,15 @@
     if (!shell || localStorage.getItem("fl_premium_beta_access") === "1") return;
     const gate = shell.querySelector(".premium-gate");
     if (!gate || gate.querySelector("[data-premium-code]") || gate.querySelector("[data-premium-unlock]")) return;
-    gate.insertAdjacentHTML("beforeend", `<div class="premium-code-unlock"><div class="premium-gate-row"><input class="premium-input" type="password" inputmode="text" autocomplete="one-time-code" placeholder="Kurucu erişim kodu" data-premium-code><button type="button" data-premium-unlock>Kod ile Aç</button></div><span class="premium-code-message" data-premium-code-message></span></div>`);
+    gate.insertAdjacentHTML("beforeend", `<div class="premium-code-unlock"><div class="premium-gate-row"><input class="premium-input" type="password" inputmode="text" autocomplete="one-time-code" placeholder="Üye / kurucu erişim kodu" data-premium-code><button type="button" data-premium-unlock>Kod ile Aç</button></div><span class="premium-code-message" data-premium-code-message>Üye ya da kurucu kodunu gir.</span></div>`);
+  };
+
+  const focusUnlockControls = () => {
+    ensureUnlockControls();
+    const gate = document.querySelector("#premium-analysis-panel .premium-gate");
+    const input = document.querySelector("#premium-analysis-panel [data-premium-code]");
+    if (gate) gate.scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(() => input?.focus(), 250);
   };
 
   const enhanceMatchSelect = () => {
@@ -105,6 +114,12 @@
   };
 
   document.addEventListener("click", (event) => {
+    const lockButton = event.target.closest?.("#premium-analysis-panel .premium-lock");
+    if (!lockButton) return;
+    focusUnlockControls();
+  }, true);
+
+  document.addEventListener("click", (event) => {
     const unlockButton = event.target.closest?.("[data-premium-unlock]");
     if (!unlockButton) return;
     const input = document.querySelector("[data-premium-code]");
@@ -117,10 +132,17 @@
       return;
     }
     localStorage.setItem("fl_premium_beta_access", "1");
-    if (message) message.textContent = "Kurucu erişimi açıldı. Panel yenileniyor.";
+    localStorage.setItem("fl_premium_access_note", "code_entered");
+    if (message) message.textContent = "Erişim açıldı. Panel yenileniyor.";
     window.location.hash = "#premium-analysis-panel";
     window.location.reload();
   }, true);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" || !event.target.matches?.("[data-premium-code]")) return;
+    event.preventDefault();
+    document.querySelector("[data-premium-unlock]")?.click();
+  });
 
   document.addEventListener("click", (event) => {
     const market = event.target.closest?.("#premium-analysis-panel [data-market]");
