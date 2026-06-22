@@ -1,22 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-22T18:32:54.621834+00:00
+Tarih: 2026-06-22T22:26:24.998271+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 4
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 4
-- Ham veri havuzu toplam mac sayisi: 327
-- Hedef tarih: 22.06.2026 Europe/Istanbul
+- Kac mac bulundu: 14
+- Kac mac kaydedildi: 14
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 341
+- Hedef tarih: 23.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- Kuveyt Premier Lig Şampiyonluk Grubu
-- İrlanda Premier Lig
-- İzlanda Urvalsdeild
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Dünya Kupası 2026 Grup K
+- Dünya Kupası 2026 Grup L
+- Finlandiya Veikkausliiga
+- Gürcistan Erovnuli Liga
+- Litvanya Kupa Çeyrek Final
+- Şili Kupa Grup A
 
 ## Okunabilen Oran Alanlari
 
@@ -73,8 +78,8 @@ Tarih: 2026-06-22T18:32:54.621834+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 7
-- Acilan detay: 7
+- Denenen Tumu alani: 20
+- Acilan detay: 20
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -87,10 +92,20 @@ Tarih: 2026-06-22T18:32:54.621834+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 22.06.2026 | 22:00 | İrlanda Premier Lig | Shamrock Rover | Derry City | 11752 | 5 |
-| 22.06.2026 | 21:45 | İrlanda Premier Lig | Shelbourne | Bohemian | 11750 | 5 |
-| 22.06.2026 | 21:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia | Kazma | 06929 | 5 |
-| 22.06.2026 | 22:15 | İzlanda Urvalsdeild | Kr Reykjavik | Akranes | 13366 | 3 |
+| 23.06.2026 | 20:00 | Dünya Kupası 2026 Grup K | Portekiz | Özbekistan | 15961 | 4 |
+| 23.06.2026 | 23:00 | Dünya Kupası 2026 Grup L | İngiltere | Gana | 16029 | 5 |
+| 23.06.2026 | 20:00 | Finlandiya Veikkausliiga | Mariehamn | Helsinki | 09230 | 5 |
+| 23.06.2026 | 19:00 | Finlandiya Veikkausliiga | Inter Turku | Seinajoen Jk | 09151 | 5 |
+| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Lahti | Turku | 08875 | 5 |
+| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Vaasa | Oulu | 08981 | 5 |
+| 23.06.2026 | 19:00 | Finlandiya Veikkausliiga | Jaro | Gnistan | 09077 | 5 |
+| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Kuopion | Ilves | 08815 | 5 |
+| 23.06.2026 | 22:00 | Şili Kupa Grup A | Coquimbo Unido | Deportes Limach | 09500 | 5 |
+| 23.06.2026 | 12:30 | Avustralya NPL Queensland | Gold Coast Kni | Eastern Suburbs | 10034 | 3 |
+| 23.06.2026 | 13:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl | Lambton Jaffas | 07660 | 3 |
+| 23.06.2026 | 18:30 | Litvanya Kupa Çeyrek Final | Minija | Fk Panevezys | 06709 | 3 |
+| 23.06.2026 | 20:00 | Gürcistan Erovnuli Liga | Dinamo Tiflis | Dinamo Batumi | 08659 | 5 |
+| 23.06.2026 | 18:00 | Gürcistan Erovnuli Liga | Fc Iberia | Meshakhte | 03560 | 5 |
 
 ## Sonuc
 
