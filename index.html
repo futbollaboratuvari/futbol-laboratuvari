@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Futbol Laboratuvarı | Analiz Platformu</title>
-    <meta name="deploy-version" content="20260621-header-after-fix" />
+    <meta name="deploy-version" content="20260622-hero-vitrin-direct" />
     <style>
       .reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
       .hero-media, .dashboard-hero::after, .dashboard-hero::before, .site-header::before, .site-header::after { pointer-events: none !important; }
       .site-header a, .site-header button, .nav-links, .nav-links a { pointer-events: auto !important; }
     </style>
-    <link rel="stylesheet" href="style.css?v=20260621-header-after-fix" />
-    <link rel="stylesheet" href="premium-theme.css?v=20260621-header-after-fix" />
-    <link rel="stylesheet" href="nav-theme.css?v=20260621-header-after-fix" />
-    <link rel="stylesheet" href="header-fixes.css?v=20260621-header-after-fix" />
+    <link rel="stylesheet" href="style.css?v=20260622-hero-vitrin-direct" />
+    <link rel="stylesheet" href="premium-theme.css?v=20260622-hero-vitrin-direct" />
+    <link rel="stylesheet" href="nav-theme.css?v=20260622-hero-vitrin-direct" />
+    <link rel="stylesheet" href="header-fixes.css?v=20260622-hero-vitrin-direct" />
+    <link rel="stylesheet" href="hero-vitrin.css?v=20260622-hero-vitrin-direct" />
     <style id="remove-header-after-widget">
       .site-header::after { content: none !important; display: none !important; visibility: hidden !important; opacity: 0 !important; width: 0 !important; height: 0 !important; overflow: hidden !important; }
     </style>
@@ -36,13 +37,15 @@
       <section class="dashboard-hero" id="platform">
         <div class="hero-media" aria-hidden="true"></div>
         <div class="hero-content reveal visible">
-          <div class="hero-brand-lockup"><img src="assets/images/fl-logo-mark.webp" alt="Futbol Laboratuvarı logosu" /><span>Maçlar | Tahminler | Kuponlar</span></div>
-          <p class="eyebrow">Profesyonel spor kupon ve maç analizi merkezi</p><h1>Futbol Laboratuvarı</h1>
-          <p>Günün maçları, güçlü tahminler, güven seviyesi ve kupon önerileri tek ekranda sade ve anlaşılır şekilde sunulur.</p>
-          <div class="hero-proof" aria-label="Öne çıkan alanlar"><span>Bugünün maçları</span><span>Güçlü tahminler</span><span>Kupon merkezi</span><span>Başarı takibi</span></div>
-          <div class="hero-actions" aria-label="Hızlı erişim bağlantıları"><a class="hero-button" href="#robot-analizleri">Kupon Merkezini Aç</a><a class="hero-button secondary" href="#daily-matches-widget">Bugünün Maçlarını Gör</a><a class="hero-button secondary" href="#membership-payment-panel">Premium Satın Al</a></div>
+          <div class="hero-brand-lockup"><img src="assets/images/fl-logo-mark.webp" alt="Futbol Laboratuvarı logosu" /><span>Maçlar | Gerekçeli Tahminler | Kuponlar</span></div>
+          <p class="eyebrow">Günlük maç değerlendirme merkezi</p>
+          <h1>Bugünün maçlarını daha bilinçli oku</h1>
+          <p>Form durumu, gol eğilimi, oran hareketi ve maç hikayesi birlikte değerlendirilir. Amaç kesin sonuç vaat etmek değil, daha temiz ve gerekçeli maç yorumu sunmaktır.</p>
+          <div class="hero-proof" aria-label="Öne çıkan alanlar"><span>Günlük maç seçimi</span><span>Gerekçeli tahmin</span><span>Risk seviyesi</span><span>Sonuç takibi</span></div>
+          <div class="fl-hero-credibility"><span><strong>1</strong> Maç formu ve son dönem gidişatı birlikte okunur.</span><span><strong>2</strong> Gol eğilimi, risk seviyesi ve maç senaryosu ayrılır.</span><span><strong>3</strong> Sonuçlar takip edilerek değerlendirme kalitesi ölçülür.</span></div>
+          <div class="hero-actions" aria-label="Hızlı erişim bağlantıları"><a class="hero-button" href="#robot-analizleri">Kupon Merkezini Aç</a><a class="hero-button secondary" href="#daily-matches-widget">Bugünün Maçlarını Gör</a><a class="hero-button secondary" href="#premium-analysis-panel">Özel Analiz Al</a></div>
         </div>
-        <aside class="platform-summary reveal visible" aria-label="Sayfa özeti"><div><span>Bugün</span><strong id="today-count">0</strong><small>maç incelendi</small></div><div><span>Ortalama güven</span><strong id="avg-confidence">0</strong><small>genel seviye</small></div><div><span>Öne çıkan seçim</span><strong id="top-market">-</strong><small>günün önerisi</small></div></aside>
+        <aside class="platform-summary reveal visible" aria-label="Günün maç panosu"><div><span>Bugünün odağı</span><strong id="today-count">Hazırlanıyor</strong><small>Güncel liste oluşunca maç sayısı görünür</small></div><div><span>Güven notu</span><strong id="avg-confidence">Veri bekleniyor</strong><small>Net veri gelmeden sayı gösterilmez</small></div><div><span>Öne çıkan seçim</span><strong id="top-market">Günün sinyali hazırlanıyor</strong><small>En güçlü seçenek güncel listeyle belirlenir</small></div></aside>
       </section>
 
       <div id="yaklasan-maclar" class="daily-matches-anchor" aria-hidden="true"></div>
@@ -71,16 +74,18 @@
     </main>
 
     <footer class="footer"><span>Futbol Laboratuvarı</span><span>Maç yorumları bilgilendirme amaçlıdır; kesin sonuç garantisi vermez.</span></footer>
-    <script src="site-visible-fix.js?v=20260621-header-after-fix"></script>
-    <script src="script.js?v=20260621-header-after-fix"></script>
-    <script src="daily-matches-widget.js?v=20260621-header-after-fix"></script>
-    <script src="premium-analysis-panel.js?v=20260621-header-after-fix"></script>
-    <script src="premium-panel-fix.js?v=20260621-header-after-fix"></script>
-    <script src="premium-robot-engine.js?v=20260621-header-after-fix"></script>
-    <script src="premium-state-panel.js?v=20260621-header-after-fix"></script>
-    <script src="robot-dashboard.js?v=20260621-header-after-fix"></script>
-    <script src="cache-version.js?v=20260621-header-after-fix"></script>
-    <script src="membership-form-hint.js?v=20260621-header-after-fix"></script>
-    <script src="nav-routing.js?v=20260621-header-after-fix"></script>
+    <script src="site-visible-fix.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="script.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="daily-matches-widget.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="premium-analysis-panel.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="premium-panel-fix.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="premium-robot-engine.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="premium-state-panel.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="robot-dashboard.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="cache-version.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="membership-form-hint.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="hero-vitrin.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="site-human-language.js?v=20260622-hero-vitrin-direct"></script>
+    <script src="nav-routing.js?v=20260622-hero-vitrin-direct"></script>
   </body>
 </html>
