@@ -1,5 +1,5 @@
 (() => {
-  const ACCESS_CODE = "CEM-ANALIZ-2026";
+  const ACCESS_CODE = "";
   const FIX_ID = "premium-panel-fix-style";
 
   const clean = (value) => String(value || "").trim();
@@ -98,7 +98,7 @@
     const unlockButton = event.target.closest?.("[data-premium-unlock]");
     if (!unlockButton) return;
     const input = document.querySelector("[data-premium-code]");
-    if (clean(input?.value).toUpperCase() !== ACCESS_CODE) return;
+    if (!ACCESS_CODE || clean(input?.value).toUpperCase() !== ACCESS_CODE) return;
     localStorage.setItem("fl_premium_beta_access", "1");
     window.location.hash = "#premium-analysis-panel";
     window.location.reload();
