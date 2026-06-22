@@ -10,6 +10,7 @@ on:
     paths:
       - "data/fixtures.json"
       - "scripts/stats-memory-lite.js"
+      - "scripts/team-style-note.js"
       - "ops/main-run.txt"
 
 permissions:
@@ -30,12 +31,15 @@ jobs:
       - name: Update stats memory
         run: node scripts/stats-memory-lite.js
 
+      - name: Link team style memory
+        run: node scripts/team-style-note.js
+
       - name: Commit memory data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
-          git add data/robot_match_archive.json || true
+          git add data/robot_match_archive.json data/ham_mac_havuzu.json || true
           if git diff --cached --quiet; then
             echo "No memory changes"
             exit 0
