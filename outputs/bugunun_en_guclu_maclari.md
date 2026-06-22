@@ -2,10 +2,10 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-22T02:38:52.372Z
+- Güncelleme: 2026-06-22T02:48:20.676Z
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Risk | Status |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 
 ## Tek Mac Onerileri
