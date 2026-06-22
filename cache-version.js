@@ -1,6 +1,9 @@
 (() => {
   const version = "20260622-pages-v4";
+  const founderKey = "fl_premium_beta_access";
+  const hasFounderAccess = () => localStorage.getItem(founderKey) === "1";
   document.documentElement.dataset.flCacheVersion = version;
+  document.documentElement.classList.toggle("fl-founder-access", hasFounderAccess());
 
   if (!document.getElementById("founder-access-style")) {
     const style = document.createElement("style");
@@ -10,9 +13,20 @@
       #premium-analysis-panel .premium-gate{display:grid!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;position:relative!important;z-index:30!important}
       #premium-analysis-panel [data-premium-code]{display:block!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;user-select:text!important;min-height:44px!important;background:rgba(2,9,24,.96)!important;color:#f8fbff!important;border:1px solid rgba(255,224,138,.45)!important;position:relative!important;z-index:31!important}
       #premium-analysis-panel [data-premium-unlock]{display:inline-flex!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;cursor:pointer!important;position:relative!important;z-index:31!important}
+      html:not(.fl-founder-access) .daily-detail-button{pointer-events:none!important;cursor:not-allowed!important;opacity:.48!important;filter:grayscale(.45)!important}
     `;
     document.head.appendChild(style);
   }
+
+  const lockVisitorDetails = () => {
+    document.documentElement.classList.toggle("fl-founder-access", hasFounderAccess());
+    if (hasFounderAccess()) return;
+    document.querySelectorAll(".daily-detail-button").forEach((button) => {
+      button.setAttribute("aria-disabled", "true");
+      button.setAttribute("title", "Üyelere özel alan");
+      button.textContent = "Üye Alanı";
+    });
+  };
 
   const scripts = [
     "site-visible-fix.js",
@@ -37,5 +51,11 @@
     script.src = `${name}?v=${version}`;
     script.defer = true;
     document.body.appendChild(script);
+  });
+
+  window.addEventListener("load", () => {
+    setTimeout(lockVisitorDetails, 400);
+    setTimeout(lockVisitorDetails, 1400);
+    setInterval(lockVisitorDetails, 2000);
   });
 })();
