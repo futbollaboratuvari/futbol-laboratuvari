@@ -1,26 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-22T03:09:24.469239+00:00
+Tarih: 2026-06-22T15:59:56.059903+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 22
+- Kac mac bulundu: 16
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 22
+- Kac mac zaten vardi: 16
 - Ham veri havuzu toplam mac sayisi: 327
 - Hedef tarih: 22.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avustralya Victoria NPL 1
 - Dünya Kupası 2026 Grup J
-- Etiyopya Premier Lig
 - Gürcistan Erovnuli Liga
 - Kuveyt Premier Lig Şampiyonluk Grubu
-- Letonya Virsliga
-- Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - İrlanda Premier Lig
@@ -83,8 +79,8 @@ Tarih: 2026-06-22T03:09:24.469239+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 17
-- Acilan detay: 17
+- Denenen Tumu alani: 13
+- Acilan detay: 13
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -98,25 +94,21 @@ Tarih: 2026-06-22T03:09:24.469239+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 22.06.2026 | 20:00 | Dünya Kupası 2026 Grup J | Arjantin | Avusturya | 15679 | 5 |
-| 22.06.2026 | 21:45 | İrlanda Premier Lig | Shelbourne | Bohemian | 11750 | 5 |
 | 22.06.2026 | 22:00 | İrlanda Premier Lig | Shamrock Rover | Derry City | 11752 | 5 |
+| 22.06.2026 | 21:45 | İrlanda Premier Lig | Shelbourne | Bohemian | 11750 | 5 |
+| 22.06.2026 | 20:00 | İsveç Superettan | Varbergs | Landskrona | 13000 | 5 |
 | 22.06.2026 | 20:05 | İsveç Superettan | Orebro | Sandvikens | 13055 | 5 |
 | 22.06.2026 | 20:00 | İsveç Superettan | Oddevold | Ljungskile | 12946 | 5 |
-| 22.06.2026 | 20:00 | İsveç Superettan | Varbergs | Landskrona | 13000 | 5 |
-| 22.06.2026 | 19:05 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Salmiyah | Al Fahaheel | 06917 | 5 |
-| 22.06.2026 | 21:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia | Kazma | 06929 | 5 |
 | 22.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al-Kuwait | Al Arabi | 06919 | 5 |
+| 22.06.2026 | 21:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia | Kazma | 06929 | 5 |
+| 22.06.2026 | 19:05 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Salmiyah | Al Fahaheel | 06917 | 5 |
 | 22.06.2026 | 22:15 | İzlanda Urvalsdeild | Kr Reykjavik | Akranes | 13366 | 3 |
-| 22.06.2026 | 18:00 | Letonya Virsliga | Daugava Riga | Ogre United | 18246 | 2 |
-| 22.06.2026 | 18:00 | Norveç 3.Lig Grup 2 | Aalesund B | Ranheim Ii | 03102 | 3 |
 | 22.06.2026 | 19:00 | Norveç 3.Lig Grup 3 | Forde | Asane Ii | 06044 | 5 |
 | 22.06.2026 | 19:00 | Norveç 3.Lig Grup 3 | Fana | Sogndal Ii | 05903 | 5 |
-| 22.06.2026 | 18:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii | Flekkeroy | 01870 | 3 |
 | 22.06.2026 | 19:00 | Norveç 3.Lig Grup 4 | Haugesund Ii | Madla | 05768 | 3 |
-| 22.06.2026 | 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict | Brunswick City | 05330 | 3 |
-| 22.06.2026 | 20:30 | İsveç 2.Lig Södra Svealand | Sleipner | Nykobing Fa | 13110 | 5 |
 | 22.06.2026 | 20:30 | İsveç 2.Lig Södra Svealand | Syrianska | Ragsved | 03196 | 3 |
-| 22.06.2026 | 18:00 | Gürcistan Erovnuli Liga | Dila Gori | Fc Rustavi | 06729 | 5 |
+| 22.06.2026 | 20:30 | İsveç 2.Lig Södra Svealand | Sleipner | Nykobing Fa | 13110 | 5 |
+| 22.06.2026 | 20:00 | Gürcistan Erovnuli Liga | Torpedo Kutais | Spaeri | 18244 | 5 |
 
 ## Sonuc
 
