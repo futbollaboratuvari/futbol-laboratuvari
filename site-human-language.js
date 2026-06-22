@@ -1,5 +1,7 @@
 (() => {
   const replacements = [
+    ["Bugünün odağı", "Bugün İncelenen Maç"],
+    ["Güncel liste oluşunca maç sayısı görünür", "Güncel maç listesinde yer alan karşılaşmalar"],
     ["Canlı Veri Görünümü", "Güncel Maç Merkezi"],
     ["Canlı Veri Panelleri", "Güncel Maç Panelleri"],
     ["Robot veri akışı", "Güncel maç değerlendirmeleri"],
