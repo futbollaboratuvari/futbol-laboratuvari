@@ -48,6 +48,12 @@
     document.head.appendChild(link);
   };
 
+  const normalizeLiveStatusText = () => {
+    document.querySelectorAll(".daily-status-icon").forEach((node) => {
+      if ((node.textContent || "").trim() === "🔴") node.textContent = "CANLI";
+    });
+  };
+
   const humanizeText = (text) => replacements.reduce((value, [from, to]) => value.split(from).join(to), text);
 
   const humanizeNode = (node) => {
@@ -131,6 +137,7 @@
     humanizeAttributes();
     normalizeHeroStatus();
     normalizeHeroCandidate();
+    normalizeLiveStatusText();
     cleanupCouponCards();
   };
 
@@ -153,6 +160,7 @@
       humanizeAttributes();
       normalizeHeroStatus();
       normalizeHeroCandidate();
+      normalizeLiveStatusText();
       cleanupCouponCards();
     });
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
