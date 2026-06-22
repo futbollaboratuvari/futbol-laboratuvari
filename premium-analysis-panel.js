@@ -2,7 +2,6 @@
   const FIXTURES_URL = "./data/fixtures.json";
   const ARCHIVE_URL = "./data/robot_match_archive.json";
   const PANEL_ID = "premium-analysis-panel";
-  const ACCESS_KEY = "FL-BETA";
 
   const esc = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -96,13 +95,7 @@
   };
 
   const isUnlocked = () => localStorage.getItem("fl_premium_beta_access") === "1";
-  const unlock = (code) => {
-    if (["FL-BETA", "CEM-ANALIZ-2026"].includes(String(code || "").trim().toUpperCase())) {
-      localStorage.setItem("fl_premium_beta_access", "1");
-      return true;
-    }
-    return false;
-  };
+  const unlock = () => false;
 
   const teamSummary = (archive, team) => {
     const item = archive?.team_index?.[team];
@@ -134,7 +127,7 @@
       <div class="premium-grid">
         <div class="premium-card">
           <h3>Maçlar ve Seçenek</h3>
-          ${unlocked ? "" : `<div class="premium-gate"><strong class="premium-status-wait">Panel kilitli</strong><span class="premium-small">Beta erişim kodu girilince seçim paneli açılır.</span><div class="premium-gate-row"><input class="premium-input" data-premium-code placeholder="Beta erişim kodu"><button class="premium-action" data-premium-unlock>Aç</button></div></div>`}
+          ${unlocked ? "" : `<div class="premium-gate"><strong class="premium-status-wait">Panel kilitli</strong><span class="premium-small">Erişim kodu public repoda tutulmaz. Kurucu erişimi güvenli sisteme taşınacak.</span></div>`}
           <label class="premium-label">Maç Listesi<select class="premium-select" data-premium-match multiple size="8" ${unlocked ? "" : "disabled"}>${buildOptions(fixtures)}</select></label>
           <div class="premium-multi-help">Birden fazla maç seçmek için Ctrl tuşuna basılı tutarak seçim yap. Mobilde maçlara tek tek dokun.</div>
           <div class="premium-label">Seçenekler
@@ -161,9 +154,7 @@
     const unlockButton = shell.querySelector("[data-premium-unlock]");
     if (unlockButton) {
       unlockButton.addEventListener("click", () => {
-        const code = shell.querySelector("[data-premium-code]")?.value;
-        if (unlock(code)) render(fixtures, archive);
-        else shell.querySelector("[data-premium-code]").value = "";
+        if (unlock()) render(fixtures, archive);
       });
     }
 
