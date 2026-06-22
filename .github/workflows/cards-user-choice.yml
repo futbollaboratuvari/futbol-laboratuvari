@@ -1,0 +1,44 @@
+name: Cards User Choice
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/live-matches.json"
+      - "scripts/cards-user-choice.js"
+      - "ops/main-run.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  cards-user-choice:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fill cards
+        run: node scripts/cards-user-choice.js
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add data/daily-coupons.json || true
+          if git diff --cached --quiet; then
+            echo "No card changes"
+            exit 0
+          fi
+          git commit -m "Update cards user choice"
+          git push origin HEAD:main || true
