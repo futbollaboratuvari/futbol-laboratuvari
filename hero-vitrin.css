@@ -25,10 +25,10 @@
   inset: 0 !important;
   z-index: -2 !important;
   background:
-    linear-gradient(90deg, rgba(4, 9, 22, .58) 0%, rgba(4, 9, 22, .18) 48%, rgba(4, 9, 22, .34) 100%),
-    url("assets/images/gallery-analiz-serisi.webp") center center / cover no-repeat !important;
-  filter: saturate(1.05) contrast(1.08) brightness(1.05) !important;
-  transform: scale(1.006) !important;
+    linear-gradient(90deg, rgba(4, 9, 22, .72) 0%, rgba(4, 9, 22, .44) 48%, rgba(4, 9, 22, .64) 100%),
+    url("https://unsplash.com/photos/pitDMdAjynU/download?force=true&w=2200") center center / cover no-repeat !important;
+  filter: saturate(.96) contrast(1.08) brightness(.92) !important;
+  transform: scale(1.015) !important;
   transform-origin: center center !important;
 }
 
@@ -38,10 +38,10 @@
   inset: 0 !important;
   z-index: -1 !important;
   background:
-    linear-gradient(90deg, rgba(3,8,23,.58) 0%, rgba(3,8,23,.08) 46%, rgba(3,8,23,.24) 100%),
-    radial-gradient(circle at 78% 20%, rgba(57,255,136,.06), transparent 28%),
-    radial-gradient(circle at 18% 82%, rgba(255,159,28,.06), transparent 32%),
-    linear-gradient(180deg, rgba(255,255,255,.025), transparent 22%, rgba(0,0,0,.08)) !important;
+    linear-gradient(90deg, rgba(3,8,23,.66) 0%, rgba(3,8,23,.18) 46%, rgba(3,8,23,.50) 100%),
+    radial-gradient(circle at 78% 20%, rgba(57,255,136,.09), transparent 28%),
+    radial-gradient(circle at 18% 82%, rgba(255,159,28,.08), transparent 32%),
+    linear-gradient(180deg, rgba(255,255,255,.025), transparent 22%, rgba(0,0,0,.16)) !important;
   opacity: 1 !important;
   display: block !important;
   pointer-events: none !important;
@@ -246,16 +246,16 @@
   }
   .dashboard-hero::before {
     background:
-      linear-gradient(rgba(5, 11, 24, .62), rgba(5, 11, 24, .84)),
-      url("assets/images/gallery-analiz-serisi.webp") center center / cover no-repeat !important;
-    filter: saturate(1.03) contrast(1.06) brightness(.98) !important;
+      linear-gradient(rgba(5, 11, 24, .68), rgba(5, 11, 24, .88)),
+      url("https://unsplash.com/photos/pitDMdAjynU/download?force=true&w=1400") center top / cover no-repeat !important;
+    filter: saturate(.96) contrast(1.08) brightness(.86) !important;
     transform: scale(1.01) !important;
   }
   .dashboard-hero::after {
     background:
-      linear-gradient(180deg, rgba(3,8,23,.76) 0%, rgba(3,8,23,.38) 48%, rgba(3,8,23,.84) 100%),
-      radial-gradient(circle at 75% 18%, rgba(57,255,136,.08), transparent 24%),
-      radial-gradient(circle at 18% 82%, rgba(255,159,28,.08), transparent 28%) !important;
+      linear-gradient(180deg, rgba(3,8,23,.82) 0%, rgba(3,8,23,.54) 48%, rgba(3,8,23,.92) 100%),
+      radial-gradient(circle at 75% 18%, rgba(57,255,136,.10), transparent 24%),
+      radial-gradient(circle at 18% 82%, rgba(255,159,28,.10), transparent 28%) !important;
   }
   .platform-summary {
     grid-template-columns: 1fr !important;
