@@ -79,6 +79,26 @@ jobs:
         continue-on-error: true
         run: node scripts/export-high-value-json.js
 
+      - name: Apply focused market list
+        continue-on-error: true
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const read = (p, f) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return f; } };
+          const write = (p, v) => fs.writeFileSync(p, JSON.stringify(v, null, 2) + '\n', 'utf8');
+          const focus = read('data/focused_markets.json', { focused_markets: [] }).focused_markets || [];
+          const raw = read('data/ham_mac_havuzu.json', {});
+          raw.engine_rules = raw.engine_rules || {};
+          raw.engine_rules.focused_markets = Array.from(new Set([...(raw.engine_rules.focused_markets || []), ...focus]));
+          raw.focused_market_count = raw.engine_rules.focused_markets.length;
+          write('data/ham_mac_havuzu.json', raw);
+          const analysis = read('data/analiz_sonuclari.json', { active_items: [], completed_items: [] });
+          analysis.focused_markets = raw.engine_rules.focused_markets;
+          analysis.focused_market_note = 'First half result, second half result and HT/FT markets are focus markets.';
+          write('data/analiz_sonuclari.json', analysis);
+          console.log('Focused markets applied:', raw.focused_market_count);
+          NODE
+
       - name: Ensure live JSON
         run: node scripts/ensure-live-json.js
 
