@@ -1,52 +1,65 @@
 {
-  "generated_at": "2026-06-22T03:09:27.948Z",
+  "generated_at": "2026-06-22T03:45:00.000Z",
   "date": "2026-06-22",
-  "source": "High Value Coupon Engine",
-  "message": "",
+  "source": "Güncel maç listesi",
+  "message": "Kartlara güncel aday verisi aktarıldı. Düşük puanlı adaylar da kullanıcı tercihine bırakıldı.",
+  "user_choice_mode": true,
   "coupons": {
     "laboratory_today": {
       "coupon_name": "Dengeli Kupon",
       "coupon_type": "balanced",
-      "selected_matches": [],
-      "total_odds": "-",
-      "average_confidence_score": "-",
-      "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
-      "is_available": false
+      "selected_matches": [
+        {"no":1,"match_name":"Melbourne Vict VS Brunswick City","league":"Avustralya Victoria NPL 1","start_time":"13:15","recommended_market":"MS 1","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Düşük-Orta","estimated_odds":"1.46","available_odds":{"ms1":"1.46","msx":"3.69","ms2":"3.52"},"value_label":"Aday","robot_reason":"Güncel maç ve oran bilgisi bulunduğu için kartta gösterilir. Son karar kullanıcıya bırakılır."},
+        {"no":2,"match_name":"Welayta Dicha VS Mebrat Hayl","league":"Etiyopya Premier Lig","start_time":"15:00","recommended_market":"MS 2","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Yüksek","estimated_odds":"3.07","available_odds":{"ms1":"2.05","msx":"2.34","ms2":"3.07"},"value_label":"Aday","robot_reason":"Düşük puanlı olsa da kullanıcı tercihine bırakmak için kartta gösterilir."},
+        {"no":3,"match_name":"Aalesund B VS Ranheim Ii","league":"Norveç 3.Lig Grup 2","start_time":"18:00","recommended_market":"MS X","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Yüksek","estimated_odds":"3.68","available_odds":{"ms1":"1.83","msx":"3.68","ms2":"2.38"},"value_label":"Aday","robot_reason":"Güncel maç ve oran bilgisi bulunduğu için kartta gösterilir. Son karar kullanıcıya bırakılır."}
+      ],
+      "total_odds": "16.50",
+      "average_confidence_score": "Seçim kullanıcıya ait",
+      "risk_level": "Düşük-Orta",
+      "short_description": "Güncel maç listesinden hazırlanan aday kartıdır.",
+      "robot_reason": "Düşük puanlı adaylar da görünür bırakıldı; son karar kullanıcıya bırakılır.",
+      "is_available": true
     },
     "balanced": {
       "coupon_name": "Dengeli Kupon",
       "coupon_type": "balanced",
-      "selected_matches": [],
-      "total_odds": "-",
-      "average_confidence_score": "-",
-      "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
-      "is_available": false
+      "selected_matches": [
+        {"no":1,"match_name":"Melbourne Vict VS Brunswick City","league":"Avustralya Victoria NPL 1","start_time":"13:15","recommended_market":"MS 1","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Düşük-Orta","estimated_odds":"1.46","available_odds":{"ms1":"1.46","msx":"3.69","ms2":"3.52"},"value_label":"Aday","robot_reason":"Güncel maç ve oran bilgisi bulunduğu için kartta gösterilir. Son karar kullanıcıya bırakılır."}
+      ],
+      "total_odds": "1.46",
+      "average_confidence_score": "Seçim kullanıcıya ait",
+      "risk_level": "Düşük-Orta",
+      "short_description": "Daha düşük oranlı izleme adayıdır.",
+      "robot_reason": "Bilgi amaçlı karttır; son karar kullanıcıya bırakılır.",
+      "is_available": true
     },
     "high_value": {
       "coupon_name": "Yüksek Oranlı Kupon",
       "coupon_type": "high_value",
-      "selected_matches": [],
-      "total_odds": "-",
-      "average_confidence_score": "-",
-      "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
-      "is_available": false
+      "selected_matches": [
+        {"no":1,"match_name":"Daugava Riga VS Ogre United","league":"Letonya Virsliga","start_time":"18:00","recommended_market":"MS 2","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Yüksek","estimated_odds":"17.10","available_odds":{"ms1":"-","msx":"10.15","ms2":"17.10"},"value_label":"Aday","robot_reason":"Çok yüksek oranlı adaydır; kullanıcı tercihine bırakılır."},
+        {"no":2,"match_name":"Odd Bk Ii VS Flekkeroy","league":"Norveç 3.Lig Grup 4","start_time":"18:00","recommended_market":"MS 1","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Yüksek","estimated_odds":"5.05","available_odds":{"ms1":"5.05","msx":"4.38","ms2":"1.23"},"value_label":"Aday","robot_reason":"Yüksek oranlı adaydır; kullanıcı tercihine bırakılır."}
+      ],
+      "total_odds": "86.36",
+      "average_confidence_score": "Seçim kullanıcıya ait",
+      "risk_level": "Orta-Yüksek",
+      "short_description": "Yüksek oranlı adaylar bilgi amaçlı listelenir.",
+      "robot_reason": "Oran yüksek olduğu için risk de yüksektir; son karar kullanıcıya bırakılır.",
+      "is_available": true
     },
     "risk_lab": {
-      "coupon_name": "Riskli Laboratuvar Kuponu",
+      "coupon_name": "Riskli Kupon",
       "coupon_type": "risk_lab",
-      "selected_matches": [],
-      "total_odds": "-",
-      "average_confidence_score": "-",
-      "risk_level": "-",
-      "short_description": "Bugün için güncel veri henüz oluşmadı.",
-      "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
-      "is_available": false
+      "selected_matches": [
+        {"no":1,"match_name":"Welayta Dicha VS Mebrat Hayl","league":"Etiyopya Premier Lig","start_time":"15:00","recommended_market":"MS 2","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Yüksek","estimated_odds":"3.07","available_odds":{"ms1":"2.05","msx":"2.34","ms2":"3.07"},"value_label":"Aday","robot_reason":"Düşük puanlı olsa da kullanıcı tercihine bırakmak için kartta gösterilir."},
+        {"no":2,"match_name":"Fana VS Sogndal Ii","league":"Norveç 3.Lig Grup 3","start_time":"19:00","recommended_market":"MS 1","confidence_score":"Seçim kullanıcıya ait","analysis_score":0,"risk_level":"Yüksek","estimated_odds":"2.76","available_odds":{"ms1":"2.76","msx":"3.55","ms2":"1.68"},"value_label":"Aday","robot_reason":"Güncel maç ve oran bilgisi bulunduğu için kartta gösterilir. Son karar kullanıcıya bırakılır."}
+      ],
+      "total_odds": "8.47",
+      "average_confidence_score": "Seçim kullanıcıya ait",
+      "risk_level": "Yüksek",
+      "short_description": "Riskli adaylar kullanıcı tercihine bırakılır.",
+      "robot_reason": "Bu kartlar kesin öneri değildir; seçenekleri gizlememek için gösterilir.",
+      "is_available": true
     }
   }
 }
