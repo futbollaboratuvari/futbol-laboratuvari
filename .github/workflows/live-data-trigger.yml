@@ -1,0 +1,49 @@
+name: Live Data Trigger
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/live-data-trigger.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  live-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update fixtures
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
+        run: node scripts/update-fixtures.js
+
+      - name: Ensure live json
+        run: node scripts/ensure-live-json.js
+
+      - name: Commit data outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add data outputs || true
+          if git diff --cached --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+          git commit -m "Live data outputs updated"
+          git push origin HEAD:main || true
