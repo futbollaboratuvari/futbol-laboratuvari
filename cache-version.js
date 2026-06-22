@@ -1,36 +1,29 @@
 (() => {
-  const version = "20260621-premium-robot-v5";
-  const ownerCode = "CEM-ANALIZ-2026";
+  const version = "20260622-pages-v4";
   document.documentElement.dataset.flCacheVersion = version;
 
   const scripts = [
-    "membership-form-hint.js",
+    "site-visible-fix.js",
     "daily-matches-widget.js",
     "premium-analysis-panel.js",
     "premium-panel-fix.js",
     "premium-robot-engine.js",
-    "robot-dashboard.js"
+    "premium-state-panel.js",
+    "robot-dashboard.js",
+    "membership-form-hint.js",
+    "hero-vitrin.js",
+    "site-human-language.js",
+    "nav-routing.js"
   ];
 
   scripts.forEach((name) => {
-    const alreadyLoaded = Array.from(document.scripts).some((script) =>
+    const current = Array.from(document.scripts).some((script) =>
       String(script.src || "").includes(name) && String(script.src || "").includes(version)
     );
-    if (alreadyLoaded) return;
+    if (current) return;
     const script = document.createElement("script");
     script.src = `${name}?v=${version}`;
     script.defer = true;
     document.body.appendChild(script);
   });
-
-  document.addEventListener("click", (event) => {
-    const button = event.target.closest?.("[data-premium-unlock]");
-    if (!button) return;
-    const input = document.querySelector("[data-premium-code]");
-    const code = String(input?.value || "").trim().toUpperCase();
-    if (code !== ownerCode) return;
-    localStorage.setItem("fl_premium_beta_access", "1");
-    window.location.hash = "#premium-analysis-panel";
-    window.location.reload();
-  }, true);
 })();
