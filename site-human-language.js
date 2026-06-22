@@ -40,6 +40,14 @@
   const waitingText = "Bugün için uygun kupon adayı hazırlanıyor.";
   let candidateLoading = false;
 
+  const injectLiveBlinkCss = () => {
+    if (document.querySelector('link[href*="live-label-blink.css"]')) return;
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "./live-label-blink.css?v=20260622-live-label";
+    document.head.appendChild(link);
+  };
+
   const humanizeText = (text) => replacements.reduce((value, [from, to]) => value.split(from).join(to), text);
 
   const humanizeNode = (node) => {
@@ -118,6 +126,7 @@
   };
 
   const run = () => {
+    injectLiveBlinkCss();
     humanizeNode(document.body);
     humanizeAttributes();
     normalizeHeroStatus();
@@ -140,6 +149,7 @@
         mutation.addedNodes.forEach(humanizeNode);
         if (mutation.type === "characterData") humanizeNode(mutation.target);
       });
+      injectLiveBlinkCss();
       humanizeAttributes();
       normalizeHeroStatus();
       normalizeHeroCandidate();
