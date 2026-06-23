@@ -32,7 +32,7 @@
         <h2 style="margin:0 0 12px;color:var(--gold)">Yeni Kod Kaydı</h2>
         <div class="grid">
           <input id="newCode" class="input" placeholder="Kod">
-          <select id="newPlan" class="select"><option>Kurucu Üye</option><option>Diamond Paket</option><option>Gold Paket</option><option>Premium Paket</option><option>Hediyelik Kod</option></select>
+          <select id="newPlan" class="select"><option>Gold Paket</option><option>Diamond Paket</option><option>Premium Paket</option><option>Kurucu Üye</option><option>Hediyelik Kod</option></select>
           <input id="newOwner" class="input" placeholder="Kime verildi">
           <input id="newLimit" class="input" type="number" placeholder="Kullanım" value="25">
           <select id="newStatus" class="select"><option>Aktif</option><option>Pasif</option></select>
@@ -55,11 +55,13 @@
     const ADMIN_CODES = ['KURUCU-U1NZ-MGHT-KZ9L'];
     const STORE = 'fl_admin_membership_codes_v1';
     const AUTH = 'fl_admin_unlocked';
+    const planLimits = {'Gold Paket':25,'Diamond Paket':50,'Premium Paket':100,'Kurucu Üye':9999,'Hediyelik Kod':10};
+    const packageOrder = ['Gold Paket','Diamond Paket','Premium Paket','Kurucu Üye','Hediyelik Kod'];
     const sample = [
       {code:'KURUCU-U1NZ-MGHT-KZ9L', plan:'Kurucu Üye', owner:'Cem / Kurucu', limit:9999, status:'Aktif', date:'23.06.2026', note:'Ana kurucu kodu'},
-      {code:'DIAMOND-G12O-3SW2-43RZ', plan:'Diamond Paket', owner:'Test', limit:100, status:'Aktif', date:'23.06.2026', note:'Diamond test kodu'},
-      {code:'GOLD-C1GO-QXW3-SWVU', plan:'Gold Paket', owner:'Test', limit:50, status:'Aktif', date:'23.06.2026', note:'Gold test kodu'},
-      {code:'PREMIUM-Y9GW-VSYI-CVGF', plan:'Premium Paket', owner:'Test', limit:25, status:'Aktif', date:'23.06.2026', note:'Premium test kodu'},
+      {code:'GOLD-C1GO-QXW3-SWVU', plan:'Gold Paket', owner:'Test', limit:25, status:'Aktif', date:'23.06.2026', note:'Giriş paketi test kodu'},
+      {code:'DIAMOND-G12O-3SW2-43RZ', plan:'Diamond Paket', owner:'Test', limit:50, status:'Aktif', date:'23.06.2026', note:'Orta/üst paket test kodu'},
+      {code:'PREMIUM-Y9GW-VSYI-CVGF', plan:'Premium Paket', owner:'Test', limit:100, status:'Aktif', date:'23.06.2026', note:'En yüksek paket test kodu'},
       {code:'HEDIYE-CABO-04TA-LK35', plan:'Hediyelik Kod', owner:'Test', limit:10, status:'Aktif', date:'23.06.2026', note:'Hediye test kodu'}
     ];
     const $ = s => document.querySelector(s);
@@ -73,18 +75,19 @@
     function render(){
       const q = ($('#search')?.value || '').toLowerCase();
       const filtered = rows.filter(r => Object.values(r).join(' ').toLowerCase().includes(q));
-      const counts = {total:rows.length, active:rows.filter(r=>r.status==='Aktif').length, founder:rows.filter(r=>r.plan==='Kurucu Üye').length, diamond:rows.filter(r=>r.plan==='Diamond Paket').length, gift:rows.filter(r=>r.plan==='Hediyelik Kod').length};
-      $('#stats').innerHTML = `<div class="stat"><span>Toplam Kod</span><strong>${counts.total}</strong></div><div class="stat"><span>Aktif</span><strong>${counts.active}</strong></div><div class="stat"><span>Kurucu</span><strong>${counts.founder}</strong></div><div class="stat"><span>Diamond</span><strong>${counts.diamond}</strong></div><div class="stat"><span>Hediye</span><strong>${counts.gift}</strong></div>`;
-      $('#tbody').innerHTML = filtered.map((r,i)=>{ const realIndex = rows.indexOf(r); return `<tr><td><input class="input" value="${r.code}" data-i="${realIndex}" data-k="code"></td><td><select class="select" data-i="${realIndex}" data-k="plan">${['Kurucu Üye','Diamond Paket','Gold Paket','Premium Paket','Hediyelik Kod'].map(p=>`<option ${p===r.plan?'selected':''}>${p}</option>`).join('')}</select></td><td><input class="input" value="${r.owner||''}" data-i="${realIndex}" data-k="owner"></td><td><input class="input" type="number" value="${r.limit||0}" data-i="${realIndex}" data-k="limit"></td><td><select class="select" data-i="${realIndex}" data-k="status"><option ${r.status==='Aktif'?'selected':''}>Aktif</option><option ${r.status==='Pasif'?'selected':''}>Pasif</option></select><br><span class="pill ${r.status==='Aktif'?'active':'passive'}">${r.status}</span></td><td>${r.date||''}</td><td><textarea class="textarea" data-i="${realIndex}" data-k="note">${r.note||''}</textarea></td><td><button class="btn danger" data-del="${realIndex}">Sil</button></td></tr>` }).join('');
+      const counts = {total:rows.length, active:rows.filter(r=>r.status==='Aktif').length, founder:rows.filter(r=>r.plan==='Kurucu Üye').length, premium:rows.filter(r=>r.plan==='Premium Paket').length, gift:rows.filter(r=>r.plan==='Hediyelik Kod').length};
+      $('#stats').innerHTML = `<div class="stat"><span>Toplam Kod</span><strong>${counts.total}</strong></div><div class="stat"><span>Aktif</span><strong>${counts.active}</strong></div><div class="stat"><span>Kurucu</span><strong>${counts.founder}</strong></div><div class="stat"><span>Premium</span><strong>${counts.premium}</strong></div><div class="stat"><span>Hediye</span><strong>${counts.gift}</strong></div>`;
+      $('#tbody').innerHTML = filtered.map((r,i)=>{ const realIndex = rows.indexOf(r); return `<tr><td><input class="input" value="${r.code}" data-i="${realIndex}" data-k="code"></td><td><select class="select" data-i="${realIndex}" data-k="plan">${packageOrder.map(p=>`<option ${p===r.plan?'selected':''}>${p}</option>`).join('')}</select></td><td><input class="input" value="${r.owner||''}" data-i="${realIndex}" data-k="owner"></td><td><input class="input" type="number" value="${r.limit||0}" data-i="${realIndex}" data-k="limit"></td><td><select class="select" data-i="${realIndex}" data-k="status"><option ${r.status==='Aktif'?'selected':''}>Aktif</option><option ${r.status==='Pasif'?'selected':''}>Pasif</option></select><br><span class="pill ${r.status==='Aktif'?'active':'passive'}">${r.status}</span></td><td>${r.date||''}</td><td><textarea class="textarea" data-i="${realIndex}" data-k="note">${r.note||''}</textarea></td><td><button class="btn danger" data-del="${realIndex}">Sil</button></td></tr>` }).join('');
     }
 
     $('#loginBtn').onclick = () => { if(ADMIN_CODES.includes(normalize($('#adminCode').value))){ localStorage.setItem(AUTH,'1'); showApp(); } else { $('#loginMsg').textContent='Kurucu kodu hatalı.'; } };
     $('#logoutBtn').onclick = () => { localStorage.removeItem(AUTH); location.reload(); };
+    $('#newPlan').onchange = () => { $('#newLimit').value = planLimits[$('#newPlan').value] || 25; };
     $('#addBtn').onclick = () => { const code=normalize($('#newCode').value); if(!code) return alert('Kod boş olamaz'); rows.unshift({code,plan:$('#newPlan').value,owner:$('#newOwner').value,limit:Number($('#newLimit').value||0),status:$('#newStatus').value,date:today(),note:$('#newNote').value}); save(rows); render(); $('#newCode').value=''; $('#newOwner').value=''; $('#newNote').value=''; };
     $('#search').oninput = render;
     $('#exportBtn').onclick = () => { navigator.clipboard.writeText(JSON.stringify(rows,null,2)); alert('Kod listesi JSON olarak kopyalandı.'); };
     $('#resetBtn').onclick = () => { if(confirm('Örnek kod listesi sıfırlansın mı?')){ rows=sample; save(rows); render(); } };
-    document.addEventListener('input', e => { const i=e.target.dataset.i, k=e.target.dataset.k; if(i!==undefined && k){ rows[Number(i)][k] = k==='limit' ? Number(e.target.value||0) : e.target.value; save(rows); render(); } });
+    document.addEventListener('input', e => { const i=e.target.dataset.i, k=e.target.dataset.k; if(i!==undefined && k){ rows[Number(i)][k] = k==='limit' ? Number(e.target.value||0) : e.target.value; if(k==='plan') rows[Number(i)].limit = planLimits[e.target.value] || rows[Number(i)].limit; save(rows); render(); } });
     document.addEventListener('click', e => { const i=e.target.dataset.del; if(i!==undefined && confirm('Bu kod kaydı silinsin mi?')){ rows.splice(Number(i),1); save(rows); render(); } });
     if(localStorage.getItem(AUTH)==='1') showApp();
   </script>
