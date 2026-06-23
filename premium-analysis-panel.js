@@ -1,7 +1,7 @@
 (() => {
   const PANEL_ID = "premium-analysis-panel";
   const FIXTURES_URL = "./data/fixtures.json";
-  const VERIFY_CODE_URL = window.FL_VERIFY_CODE_URL || "/api/verify-code";
+  const VERIFY_CODE_URL = window.FL_VERIFY_CODE_URL || "https://futbol-laboratuvari.vercel.app/api/verify-code";
   const ACCESS_KEY = "fl_premium_beta_access";
   const CODE_KEY = "fl_premium_code_entered";
   const MEMBER_KEY = "fl_premium_membership";
