@@ -1,28 +1,203 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-23T22:55:00+03:00",
+  "updatedAt": "2026-06-23T23:20:00+03:00",
   "plans": {
-    "gold": { "name": "Gold Paket", "defaultLimit": 25, "level": 1, "saleStatus": "active" },
-    "diamond": { "name": "Diamond Paket", "defaultLimit": 50, "level": 2, "saleStatus": "active" },
-    "premium": { "name": "Premium Paket", "defaultLimit": 100, "level": 3, "saleStatus": "active" },
-    "founder": { "name": "Kurucu Üye", "defaultLimit": 9999, "level": 99, "saleStatus": "private" },
-    "gift": { "name": "Hediyelik Kod", "defaultLimit": 10, "level": 0, "saleStatus": "campaign" }
+    "gold": {
+      "name": "Gold Paket",
+      "defaultLimit": 25,
+      "level": 1,
+      "saleStatus": "active"
+    },
+    "diamond": {
+      "name": "Diamond Paket",
+      "defaultLimit": 50,
+      "level": 2,
+      "saleStatus": "active"
+    },
+    "premium": {
+      "name": "Premium Paket",
+      "defaultLimit": 100,
+      "level": 3,
+      "saleStatus": "active"
+    },
+    "founder": {
+      "name": "Kurucu Üye",
+      "defaultLimit": 9999,
+      "level": 99,
+      "saleStatus": "private"
+    },
+    "gift": {
+      "name": "Hediyelik Kod",
+      "defaultLimit": 10,
+      "level": 0,
+      "saleStatus": "campaign"
+    }
   },
   "codes": [
-    { "codeHash": "d0e366399638702f7f4fd5cae64e544617bc4ec948a277a34c2a9d7cb855d290", "codeLabel": "KURUCU-U1NZ-****-KZ9L", "planCode": "founder", "planName": "Kurucu Üye", "remainingAnalysisCount": 9999, "active": true, "owner": "Cem / Kurucu", "note": "Ana kurucu kodu", "createdAt": "2026-06-23" },
-    { "codeHash": "79a8ad54b8f8846d574f41f27ffae13e837dfe3f386db9598a4b7f5c13cf4e6e", "codeLabel": "KURUCU-1ZL0-****-UUTR", "planCode": "founder", "planName": "Kurucu Üye", "remainingAnalysisCount": 9999, "active": true, "owner": "", "note": "Kurucu kod", "createdAt": "2026-06-23" },
-    { "codeHash": "6d5bd708687b4e43841417d3f633c204eb0d6f38fa2188af391bdfbf70223494", "codeLabel": "KURUCU-QMQY-****-8BOV", "planCode": "founder", "planName": "Kurucu Üye", "remainingAnalysisCount": 9999, "active": true, "owner": "", "note": "Kurucu kod", "createdAt": "2026-06-23" },
-    { "codeHash": "7c36216aba3befd142477a671d29d0bcb41ebedf0ddb5f2eea288cc0ad8aa497", "codeLabel": "GOLD-C1GO-****-SWVU", "planCode": "gold", "planName": "Gold Paket", "remainingAnalysisCount": 25, "active": true, "owner": "Test", "note": "Giriş paketi", "createdAt": "2026-06-23" },
-    { "codeHash": "f8e38c5484e6ab2e5e31a1b137296044d22ec2973f62ad533615240a6bf15dae", "codeLabel": "GOLD-MV06-****-AEDD", "planCode": "gold", "planName": "Gold Paket", "remainingAnalysisCount": 25, "active": true, "owner": "", "note": "Giriş paketi", "createdAt": "2026-06-23" },
-    { "codeHash": "26f9791481d49d93316e4d9059e1e3426d4664df7300e5a3506852a14c0e9dad", "codeLabel": "GOLD-ZH8E-****-AVVR", "planCode": "gold", "planName": "Gold Paket", "remainingAnalysisCount": 25, "active": true, "owner": "", "note": "Giriş paketi", "createdAt": "2026-06-23" },
-    { "codeHash": "b1815e0b6801061a3dc77efba12eb3c4d27c0ecfef51490ba7dc286b4f6c6340", "codeLabel": "DIAMOND-G12O-****-43RZ", "planCode": "diamond", "planName": "Diamond Paket", "remainingAnalysisCount": 50, "active": true, "owner": "Test", "note": "Gold üstü paket", "createdAt": "2026-06-23" },
-    { "codeHash": "c950f3d3f72d1a2c51d582f0f907611753bc1c30caa3d78bcf4c90ce51a67116", "codeLabel": "DIAMOND-ASXL-****-DUG9", "planCode": "diamond", "planName": "Diamond Paket", "remainingAnalysisCount": 50, "active": true, "owner": "", "note": "Gold üstü paket", "createdAt": "2026-06-23" },
-    { "codeHash": "fc048150686974c734a729e95c17463cda8779d00ba573b099b9a865b89e11a1", "codeLabel": "DIAMOND-Y58F-****-YBI3", "planCode": "diamond", "planName": "Diamond Paket", "remainingAnalysisCount": 50, "active": true, "owner": "", "note": "Gold üstü paket", "createdAt": "2026-06-23" },
-    { "codeHash": "2deb19baf472497bf6061bd9a9d70ea9a3aed64ab49bebdd1487b2d08186690f", "codeLabel": "PREMIUM-Y9GW-****-CVGF", "planCode": "premium", "planName": "Premium Paket", "remainingAnalysisCount": 100, "active": true, "owner": "Test", "note": "En yüksek paket", "createdAt": "2026-06-23" },
-    { "codeHash": "a4771e2bd3ee8c598d5fb15655845ccd72a83887cc227cd4a16ad340acfc8b80", "codeLabel": "PREMIUM-7I4Y-****-VK21", "planCode": "premium", "planName": "Premium Paket", "remainingAnalysisCount": 100, "active": true, "owner": "", "note": "En yüksek paket", "createdAt": "2026-06-23" },
-    { "codeHash": "fb0e56cabd621a033f03be29be8e65adc258420e7e6e9d3a9b02ce134ac361bf", "codeLabel": "PREMIUM-5IGN-****-69A1", "planCode": "premium", "planName": "Premium Paket", "remainingAnalysisCount": 100, "active": true, "owner": "", "note": "En yüksek paket", "createdAt": "2026-06-23" },
-    { "codeHash": "72a3d85246bd1e04aa877ffed6584fe15e4970fb80d9513a7579de5a2372bda1", "codeLabel": "HEDIYE-CABO-****-LK35", "planCode": "gift", "planName": "Hediyelik Kod", "remainingAnalysisCount": 10, "active": true, "owner": "Test", "note": "Deneme / kampanya", "createdAt": "2026-06-23" },
-    { "codeHash": "1b42bae60f528f26ae3e0427237b1a0a76e7311acc30ad6c8171a57d9fc7d019", "codeLabel": "HEDIYE-5V2F-****-K7US", "planCode": "gift", "planName": "Hediyelik Kod", "remainingAnalysisCount": 10, "active": true, "owner": "", "note": "Deneme / kampanya", "createdAt": "2026-06-23" },
-    { "codeHash": "15f6e3b9fa29d79e8abad020db1dfeab5b9fc223828ecab38a7960bc58bd46ea", "codeLabel": "HEDIYE-FUXT-****-3NFN", "planCode": "gift", "planName": "Hediyelik Kod", "remainingAnalysisCount": 10, "active": true, "owner": "", "note": "Deneme / kampanya", "createdAt": "2026-06-23" }
+    {
+      "codeHash": "d0e366399638702f7f4fd5cae64e544617bc4ec948a277a34c2a9d7cb855d290",
+      "codeLabel": "KURUCU-U1NZ-****-KZ9L",
+      "planCode": "founder",
+      "planName": "Kurucu Üye",
+      "remainingAnalysisCount": 9999,
+      "active": true,
+      "owner": "Cem / Kurucu",
+      "note": "Ana kurucu kodu",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "79a8ad54b8f8846d574f41f27ffae13e837dfe3f386db9598a4b7f5c13cf4e6e",
+      "codeLabel": "KURUCU-1ZL0-****-UUTR",
+      "planCode": "founder",
+      "planName": "Kurucu Üye",
+      "remainingAnalysisCount": 9999,
+      "active": true,
+      "owner": "",
+      "note": "Kurucu kod",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "6d5bd708687b4e43841417d3f633c204eb0d6f38fa2188af391bdfbf70223494",
+      "codeLabel": "KURUCU-QMQY-****-8BOV",
+      "planCode": "founder",
+      "planName": "Kurucu Üye",
+      "remainingAnalysisCount": 9999,
+      "active": true,
+      "owner": "",
+      "note": "Kurucu kod",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "7c36216aba3befd142477a671d29d0bcb41ebedf0ddb5f2eea288cc0ad8aa497",
+      "codeLabel": "GOLD-C1GO-****-SWVU",
+      "planCode": "gold",
+      "planName": "Gold Paket",
+      "remainingAnalysisCount": 25,
+      "active": true,
+      "owner": "Test",
+      "note": "Giriş paketi",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "f8e38c5484e6ab2e5e31a1b137296044d22ec2973f62ad533615240a6bf15dae",
+      "codeLabel": "GOLD-MV06-****-AEDD",
+      "planCode": "gold",
+      "planName": "Gold Paket",
+      "remainingAnalysisCount": 25,
+      "active": true,
+      "owner": "",
+      "note": "Giriş paketi",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "26f9791481d49d93316e4d9059e1e3426d4664df7300e5a3506852a14c0e9dad",
+      "codeLabel": "GOLD-ZH8E-****-AVVR",
+      "planCode": "gold",
+      "planName": "Gold Paket",
+      "remainingAnalysisCount": 25,
+      "active": true,
+      "owner": "",
+      "note": "Giriş paketi",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "b1815e0b6801061a3dc77efba12eb3c4d27c0ecfef51490ba7dc286b4f6c6340",
+      "codeLabel": "DIAMOND-G12O-****-43RZ",
+      "planCode": "diamond",
+      "planName": "Diamond Paket",
+      "remainingAnalysisCount": 50,
+      "active": true,
+      "owner": "Test",
+      "note": "Gold üstü paket",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "c950f3d3f72d1a2c51d582f0f907611753bc1c30caa3d78bcf4c90ce51a67116",
+      "codeLabel": "DIAMOND-ASXL-****-DUG9",
+      "planCode": "diamond",
+      "planName": "Diamond Paket",
+      "remainingAnalysisCount": 50,
+      "active": true,
+      "owner": "",
+      "note": "Gold üstü paket",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "fc048150686974c734a729e95c17463cda8779d00ba573b099b9a865b89e11a1",
+      "codeLabel": "DIAMOND-Y58F-****-YBI3",
+      "planCode": "diamond",
+      "planName": "Diamond Paket",
+      "remainingAnalysisCount": 50,
+      "active": true,
+      "owner": "",
+      "note": "Gold üstü paket",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "2deb19baf472497bf6061bd9a9d70ea9a3aed64ab49bebdd1487b2d08186690f",
+      "codeLabel": "PREMIUM-Y9GW-****-CVGF",
+      "planCode": "premium",
+      "planName": "Premium Paket",
+      "remainingAnalysisCount": 100,
+      "active": true,
+      "owner": "Test",
+      "note": "En yüksek paket",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "a4771e2bd3ee8c598d5fb15655845ccd72a83887cc227cd4a16ad340acfc8b80",
+      "codeLabel": "PREMIUM-7I4Y-****-VK21",
+      "planCode": "premium",
+      "planName": "Premium Paket",
+      "remainingAnalysisCount": 100,
+      "active": true,
+      "owner": "",
+      "note": "En yüksek paket",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "fb0e56cabd621a033f03be29be8e65adc258420e7e6e9d3a9b02ce134ac361bf",
+      "codeLabel": "PREMIUM-5IGN-****-69A1",
+      "planCode": "premium",
+      "planName": "Premium Paket",
+      "remainingAnalysisCount": 100,
+      "active": true,
+      "owner": "",
+      "note": "En yüksek paket",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "72a3d85246bd1e04aa877ffed6584fe15e4970fb80d9513a7579de5a2372bda1",
+      "codeLabel": "HEDIYE-CABO-****-LK35",
+      "planCode": "gift",
+      "planName": "Hediyelik Kod",
+      "remainingAnalysisCount": 10,
+      "active": true,
+      "owner": "Test",
+      "note": "Deneme / kampanya",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "1b42bae60f528f26ae3e0427237b1a0a76e7311acc30ad6c8171a57d9fc7d019",
+      "codeLabel": "HEDIYE-5V2F-****-K7US",
+      "planCode": "gift",
+      "planName": "Hediyelik Kod",
+      "remainingAnalysisCount": 10,
+      "active": true,
+      "owner": "",
+      "note": "Deneme / kampanya",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "15f6e3b9fa29d79e8abad020db1dfeab5b9fc223828ecab38a7960bc58bd46ea",
+      "codeLabel": "HEDIYE-FUXT-****-3NFN",
+      "planCode": "gift",
+      "planName": "Hediyelik Kod",
+      "remainingAnalysisCount": 10,
+      "active": true,
+      "owner": "",
+      "note": "Deneme / kampanya",
+      "createdAt": "2026-06-23"
+    }
   ]
 }
