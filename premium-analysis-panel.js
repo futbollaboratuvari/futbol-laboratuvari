@@ -1,8 +1,11 @@
 (() => {
   const PANEL_ID = "premium-analysis-panel";
   const FIXTURES_URL = "./data/fixtures.json";
+  const VERIFY_CODE_URL = window.FL_VERIFY_CODE_URL || "/api/verify-code";
   const ACCESS_KEY = "fl_premium_beta_access";
   const CODE_KEY = "fl_premium_code_entered";
+  const MEMBER_KEY = "fl_premium_membership";
+  const CLIENT_KEY = "fl_premium_client_id";
 
   const esc = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -10,6 +13,23 @@
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+
+  const getClientId = () => {
+    let id = localStorage.getItem(CLIENT_KEY);
+    if (!id) {
+      id = (crypto?.randomUUID?.() || `client-${Date.now()}-${Math.random().toString(16).slice(2)}`);
+      localStorage.setItem(CLIENT_KEY, id);
+    }
+    return id;
+  };
+
+  const readMembership = () => {
+    try {
+      return JSON.parse(localStorage.getItem(MEMBER_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  };
 
   const isActive = () => localStorage.getItem(ACCESS_KEY) === "1";
 
@@ -33,18 +53,37 @@
     .filter((m) => m.date === todayKey())
     .sort((a, b) => String(a.time || "99:99").localeCompare(String(b.time || "99:99")));
 
-  const activateCode = (code) => {
+  const verifyCode = async (code) => {
     const cleanCode = String(code || "").trim();
-    if (!cleanCode) return false;
-    localStorage.setItem(ACCESS_KEY, "1");
-    localStorage.setItem(CODE_KEY, cleanCode);
-    localStorage.setItem("fl_premium_access_note", "code_entered");
-    return true;
+    if (!cleanCode) return { ok: false, message: "Kod boş olamaz." };
+
+    try {
+      const res = await fetch(VERIFY_CODE_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code: cleanCode, clientId: getClientId() })
+      });
+      const data = await res.json().catch(() => ({}));
+
+      if (!res.ok || !data.ok) {
+        return { ok: false, message: data.message || "Kod hatalı veya backend bağlantısı yok." };
+      }
+
+      localStorage.setItem(ACCESS_KEY, "1");
+      localStorage.setItem(CODE_KEY, cleanCode);
+      localStorage.setItem(MEMBER_KEY, JSON.stringify(data.membership || {}));
+      localStorage.setItem("fl_premium_access_note", "backend_verified");
+      localStorage.setItem("fl_premium_access_level", data.membership?.planCode || "premium");
+      return { ok: true, message: data.message || "Kod kabul edildi. Üyelik aktif." };
+    } catch {
+      return { ok: false, message: "Backend bağlantısı kurulamadı. Vercel deploy tamamlanınca tekrar dene." };
+    }
   };
 
   const deactivateCode = () => {
     localStorage.removeItem(ACCESS_KEY);
     localStorage.removeItem(CODE_KEY);
+    localStorage.removeItem(MEMBER_KEY);
     localStorage.removeItem("fl_premium_access_note");
     localStorage.removeItem("fl_premium_access_level");
   };
@@ -80,15 +119,16 @@
   const render = (fixtures) => {
     style();
     const active = isActive();
+    const member = readMembership();
     const shell = ensureShell();
     const list = todayMatches(fixtures);
     shell.innerHTML = `
-      <div class="pa-head"><div><h2 class="pa-title">Özel Maç / Kupon Analizi</h2><p class="pa-sub">Üye kodunu aşağıdaki kutuya yaz. Kod aktif olunca maç ve seçenek seçerek özel analiz kullanabilirsin.</p></div><div class="pa-badge">${active ? "✅ Üyelik aktif" : "🔒 Üyelik kilitli"}</div></div>
-      <div class="pa-state"><div><span>Paket</span><strong>${active ? "Aktif Üye" : "Ön İzleme"}</strong></div><div><span>Kalan Kullanım</span><strong>${active ? "Aktif" : "Kilitli"}</strong></div><div><span>Analiz Sistemi</span><strong>Premium</strong></div></div>
+      <div class="pa-head"><div><h2 class="pa-title">Özel Maç / Kupon Analizi</h2><p class="pa-sub">Üye kodunu aşağıdaki kutuya yaz. Kod backend tarafından doğrulanınca özel analiz açılır.</p></div><div class="pa-badge">${active ? "✅ Üyelik aktif" : "🔒 Üyelik kilitli"}</div></div>
+      <div class="pa-state"><div><span>Paket</span><strong>${active ? esc(member.planName || "Premium Üye") : "Ön İzleme"}</strong></div><div><span>Kalan Kullanım</span><strong>${active ? esc(member.remainingAnalysisCount ?? "Aktif") : "Kilitli"}</strong></div><div><span>Analiz Sistemi</span><strong>Premium</strong></div></div>
       <div class="pa-grid">
         <div class="pa-card">
           <h3>Üye Kodu</h3>
-          <div class="pa-code"><span class="pa-small">Paket aldıysan sana verilen kodu buraya yaz ve Kod ile Aç butonuna bas.</span><div class="pa-code-row"><input class="pa-input" type="password" placeholder="Üye / kurucu kodu" data-pa-code><button class="pa-button" type="button" data-pa-unlock>Kod ile Aç</button></div><span class="pa-message" data-pa-message>${active ? "Üyelik aktif. Yeni kod denemek istersen tekrar yazabilirsin." : "Kod girilmeden özel analiz açılmaz."}</span></div>
+          <div class="pa-code"><span class="pa-small">Paket aldıysan sana verilen kodu buraya yaz ve Kod ile Aç butonuna bas.</span><div class="pa-code-row"><input class="pa-input" type="password" placeholder="Üye / kurucu kodu" data-pa-code><button class="pa-button" type="button" data-pa-unlock>Kod ile Aç</button></div><span class="pa-message" data-pa-message>${active ? "Üyelik backend tarafından doğrulandı." : "Kod girilmeden özel analiz açılmaz."}</span></div>
           <h3>Maçlar ve Seçenek</h3>
           <label class="pa-small">Maç Listesi<select class="pa-select" data-pa-match multiple size="8" ${active ? "" : "disabled"}>${list.length ? list.map((m, i) => `<option value="${i}">${esc(m.league || "Lig")} — ${esc(m.time || "--:--")} | ${esc(m.home || "Ev sahibi")} - ${esc(m.away || "Deplasman")}</option>`).join("") : `<option>Bugünün maç listesi hazırlanıyor</option>`}</select></label>
           <div class="pa-market-grid">${markets.map((m) => `<button class="pa-market" type="button" data-pa-market="${esc(m)}" ${active ? "" : "disabled"}>${esc(m)}</button>`).join("")}</div>
@@ -106,16 +146,21 @@
       });
     });
 
-    shell.querySelector("[data-pa-unlock]")?.addEventListener("click", () => {
+    shell.querySelector("[data-pa-unlock]")?.addEventListener("click", async () => {
       const input = shell.querySelector("[data-pa-code]");
+      const button = shell.querySelector("[data-pa-unlock]");
       const msg = shell.querySelector("[data-pa-message]");
-      if (!activateCode(input?.value)) {
-        if (msg) msg.textContent = "Kod boş olamaz.";
+      button.disabled = true;
+      if (msg) msg.textContent = "Kod backend ile kontrol ediliyor...";
+      const result = await verifyCode(input?.value);
+      if (!result.ok) {
+        if (msg) msg.textContent = result.message;
+        button.disabled = false;
         input?.focus();
         return;
       }
-      if (msg) msg.textContent = "Kod kabul edildi. Üyelik aktif ediliyor...";
-      setTimeout(() => render(fixtures), 300);
+      if (msg) msg.textContent = result.message;
+      setTimeout(() => render(fixtures), 450);
     });
 
     shell.querySelector("[data-pa-analyze]")?.addEventListener("click", () => {
