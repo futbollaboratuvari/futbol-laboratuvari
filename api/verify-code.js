@@ -80,6 +80,14 @@ async function readManagedCodes() {
   return map;
 }
 
+async function readPermanentUsageLog() {
+  const url = `https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/usage-log.json?ts=${Date.now()}`;
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) return [];
+  const data = await response.json();
+  return data.records || [];
+}
+
 function recordUsage(codeHash, codeInfo) {
   const record = {
     id: `${Date.now()}-${crypto.randomBytes(3).toString("hex")}`,
@@ -97,7 +105,9 @@ function recordUsage(codeHash, codeInfo) {
   return record;
 }
 
-function getUsageLog() {
+async function getUsageLog() {
+  const permanent = await readPermanentUsageLog();
+  if (permanent.length) return permanent.slice(0, MAX_USAGE_LOG);
   return globalThis[USAGE_LOG_KEY].slice(0, MAX_USAGE_LOG);
 }
 
@@ -114,9 +124,9 @@ module.exports = async function handler(req, res) {
   if (req.method === "GET") {
     return res.status(200).json({
       ok: true,
-      storage: "temporary-memory",
-      message: "Geçici kullanım geçmişi. Kalıcı veritabanı bağlanınca kalıcı kayıt sistemine taşınacak.",
-      records: getUsageLog()
+      storage: "permanent-file-read",
+      message: "Kullanim gecmisi kalici dosyadan okunur. Yazma adimi sonraki parca olarak baglanacak.",
+      records: await getUsageLog()
     });
   }
 
