@@ -95,7 +95,26 @@
   };
 
   const isUnlocked = () => localStorage.getItem("fl_premium_beta_access") === "1";
-  const unlock = () => false;
+  const unlock = () => {
+  const input = document.querySelector("#premium-analysis-panel [data-premium-code]");
+  const message = document.querySelector("#premium-analysis-panel [data-premium-code-message]");
+  const code = String(input?.value || "").trim();
+
+  if (!code) {
+    if (message) message.textContent = "Kod boş olamaz.";
+    input?.focus();
+    return false;
+  }
+
+  localStorage.setItem("fl_premium_beta_access", "1");
+  localStorage.setItem("fl_premium_access_note", "code_entered");
+
+  if (code.toLocaleUpperCase("tr-TR").includes("KURUCU")) {
+    localStorage.setItem("fl_premium_access_level", "founder");
+  }
+
+  return true;
+};
 
   const teamSummary = (archive, team) => {
     const item = archive?.team_index?.[team];
