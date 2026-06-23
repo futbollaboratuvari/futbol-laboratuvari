@@ -4,24 +4,89 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive">
-  <title>Futbol Laboratuvarı | Yönetim Alanı Kapalı</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Futbol Laboratuvarı | Admin Panel</title>
   <style>
-    body{min-height:100vh;display:grid;place-items:center;background:#050b18;color:#f8fbff;margin:0;padding:24px;font-family:Arial,sans-serif}
-    .admin-lock{width:min(720px,100%);border:1px solid rgba(255,159,28,.28);border-radius:24px;background:linear-gradient(180deg,rgba(8,23,48,.96),rgba(3,8,23,.98));box-shadow:0 28px 76px rgba(0,0,0,.38);padding:28px}
-    .admin-lock h1{margin:0 0 10px;color:#ffe08a;font-size:clamp(26px,5vw,42px)}
-    .admin-lock p{color:#c7d5e8;line-height:1.65;margin:0 0 14px}
-    .admin-lock strong{color:#39ff88}
-    .admin-lock a{display:inline-flex;margin-top:10px;padding:12px 16px;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;text-decoration:none;font-weight:900}
+    :root{--bg:#050b18;--panel:#09172f;--panel2:#0d1d38;--line:rgba(255,159,28,.28);--gold:#ffe08a;--green:#39ff88;--text:#f8fbff;--muted:#9fb0c7;--danger:#ff5f6d}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102a4e 0,#050b18 42%,#020611 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-height:100vh}.wrap{width:min(1380px,100%);margin:0 auto;padding:22px}.top{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px}.brand h1{margin:0;color:var(--gold);font-size:clamp(26px,4vw,44px)}.brand p{margin:7px 0 0;color:var(--muted)}.btn{border:0;border-radius:14px;padding:12px 15px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:900;cursor:pointer}.btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--text)}.btn.danger{background:rgba(255,95,109,.16);border:1px solid rgba(255,95,109,.35);color:#ffd0d5}.panel{border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(9,23,47,.96),rgba(3,8,23,.98));box-shadow:0 20px 70px rgba(0,0,0,.35);padding:18px;margin-bottom:16px}.lock{max-width:680px;margin:10vh auto}.lock h2{margin:0 0 10px;color:var(--gold)}.input,.select,.textarea{width:100%;min-height:44px;border:1px solid rgba(255,159,28,.24);border-radius:12px;background:rgba(0,0,0,.25);color:var(--text);padding:0 12px;font-weight:800}.textarea{min-height:76px;padding:10px 12px;resize:vertical}.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.stat{padding:14px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.stat span{display:block;color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.stat strong{display:block;margin-top:6px;font-size:24px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}.table-wrap{overflow:auto;border:1px solid rgba(255,255,255,.08);border-radius:16px}table{width:100%;border-collapse:collapse;min-width:1060px}th,td{border-bottom:1px solid rgba(255,255,255,.08);padding:10px;text-align:left;font-size:13px;vertical-align:top}th{color:var(--gold);font-size:12px;text-transform:uppercase;background:rgba(255,159,28,.08)}td input,td select{min-height:36px;font-size:12px}.pill{display:inline-flex;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:900}.active{background:rgba(57,255,136,.14);color:#c8ffdd;border:1px solid rgba(57,255,136,.25)}.passive{background:rgba(255,95,109,.12);color:#ffd0d5;border:1px solid rgba(255,95,109,.25)}.small{color:var(--muted);font-size:12px;line-height:1.5}.hide{display:none!important}@media(max-width:900px){.grid,.stats{grid-template-columns:1fr}.top{display:grid}.toolbar{display:grid;align-items:stretch}}
   </style>
 </head>
 <body>
-  <main class="admin-lock" aria-label="Yönetim alanı kapalı">
-    <h1>Yönetim Alanı Kapalı</h1>
-    <p><strong>Güvenlik nedeniyle public admin paneli kapatıldı.</strong></p>
-    <p>Bu sayfa artık ziyaretçilere canlı veri, kupon havuzu veya rapor yönetimi göstermez. Yönetim işlemleri sadece özel backend / yetkili giriş sistemi kurulduktan sonra açılmalıdır.</p>
-    <p>GitHub Pages statik yayın yaptığı için gerçek kullanıcı doğrulaması bu sayfada güvenli şekilde yapılamaz.</p>
-    <a href="./index.html">Ana siteye dön</a>
-  </main>
+  <div class="wrap">
+    <section id="lock" class="panel lock">
+      <h2>Admin Girişi</h2>
+      <p class="small">Kod yönetim tablosunu açmak için kurucu kodunu gir.</p>
+      <input id="adminCode" class="input" type="password" placeholder="Kurucu kodu">
+      <div style="display:flex;gap:10px;margin-top:12px"><button id="loginBtn" class="btn">Admin Paneli Aç</button><a class="btn secondary" href="./index.html">Ana Site</a></div>
+      <p id="loginMsg" class="small"></p>
+    </section>
+
+    <main id="app" class="hide">
+      <div class="top">
+        <div class="brand"><h1>Futbol Laboratuvarı Admin</h1><p>Üyelik kodları yönetim tablosu</p></div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn secondary" href="./index.html">Ana Site</a><button id="logoutBtn" class="btn danger">Çıkış</button></div>
+      </div>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="panel">
+        <h2 style="margin:0 0 12px;color:var(--gold)">Yeni Kod Kaydı</h2>
+        <div class="grid">
+          <input id="newCode" class="input" placeholder="Kod">
+          <select id="newPlan" class="select"><option>Kurucu Üye</option><option>Diamond Paket</option><option>Gold Paket</option><option>Premium Paket</option><option>Hediyelik Kod</option></select>
+          <input id="newOwner" class="input" placeholder="Kime verildi">
+          <input id="newLimit" class="input" type="number" placeholder="Kullanım" value="25">
+          <select id="newStatus" class="select"><option>Aktif</option><option>Pasif</option></select>
+          <button id="addBtn" class="btn">Ekle</button>
+        </div>
+        <textarea id="newNote" class="textarea" placeholder="Not" style="margin-top:10px"></textarea>
+      </section>
+
+      <section class="panel">
+        <div class="toolbar">
+          <div><h2 style="margin:0;color:var(--gold)">Kod Listesi</h2><p class="small" style="margin:6px 0 0">Bu tablo tarayıcıda saklanır. Gerçek kullanım düşümü sonraki aşamada backend veritabanına bağlanacak.</p></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap"><input id="search" class="input" style="width:240px" placeholder="Ara"><button id="exportBtn" class="btn secondary">JSON Dışa Aktar</button><button id="resetBtn" class="btn danger">Örnekleri Sıfırla</button></div>
+        </div>
+        <div class="table-wrap" style="margin-top:14px"><table><thead><tr><th>Kod</th><th>Paket</th><th>Kime Verildi</th><th>Kullanım</th><th>Durum</th><th>Tarih</th><th>Not</th><th>İşlem</th></tr></thead><tbody id="tbody"></tbody></table></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const ADMIN_CODES = ['KURUCU-U1NZ-MGHT-KZ9L'];
+    const STORE = 'fl_admin_membership_codes_v1';
+    const AUTH = 'fl_admin_unlocked';
+    const sample = [
+      {code:'KURUCU-U1NZ-MGHT-KZ9L', plan:'Kurucu Üye', owner:'Cem / Kurucu', limit:9999, status:'Aktif', date:'23.06.2026', note:'Ana kurucu kodu'},
+      {code:'DIAMOND-G12O-3SW2-43RZ', plan:'Diamond Paket', owner:'Test', limit:100, status:'Aktif', date:'23.06.2026', note:'Diamond test kodu'},
+      {code:'GOLD-C1GO-QXW3-SWVU', plan:'Gold Paket', owner:'Test', limit:50, status:'Aktif', date:'23.06.2026', note:'Gold test kodu'},
+      {code:'PREMIUM-Y9GW-VSYI-CVGF', plan:'Premium Paket', owner:'Test', limit:25, status:'Aktif', date:'23.06.2026', note:'Premium test kodu'},
+      {code:'HEDIYE-CABO-04TA-LK35', plan:'Hediyelik Kod', owner:'Test', limit:10, status:'Aktif', date:'23.06.2026', note:'Hediye test kodu'}
+    ];
+    const $ = s => document.querySelector(s);
+    const today = () => new Intl.DateTimeFormat('tr-TR',{timeZone:'Europe/Istanbul'}).format(new Date());
+    const normalize = v => String(v||'').trim().replace(/\s+/g,'').toLocaleUpperCase('tr-TR');
+    const load = () => JSON.parse(localStorage.getItem(STORE) || 'null') || sample;
+    const save = rows => localStorage.setItem(STORE, JSON.stringify(rows));
+    let rows = load();
+
+    function showApp(){ $('#lock').classList.add('hide'); $('#app').classList.remove('hide'); render(); }
+    function render(){
+      const q = ($('#search')?.value || '').toLowerCase();
+      const filtered = rows.filter(r => Object.values(r).join(' ').toLowerCase().includes(q));
+      const counts = {total:rows.length, active:rows.filter(r=>r.status==='Aktif').length, founder:rows.filter(r=>r.plan==='Kurucu Üye').length, diamond:rows.filter(r=>r.plan==='Diamond Paket').length, gift:rows.filter(r=>r.plan==='Hediyelik Kod').length};
+      $('#stats').innerHTML = `<div class="stat"><span>Toplam Kod</span><strong>${counts.total}</strong></div><div class="stat"><span>Aktif</span><strong>${counts.active}</strong></div><div class="stat"><span>Kurucu</span><strong>${counts.founder}</strong></div><div class="stat"><span>Diamond</span><strong>${counts.diamond}</strong></div><div class="stat"><span>Hediye</span><strong>${counts.gift}</strong></div>`;
+      $('#tbody').innerHTML = filtered.map((r,i)=>{ const realIndex = rows.indexOf(r); return `<tr><td><input class="input" value="${r.code}" data-i="${realIndex}" data-k="code"></td><td><select class="select" data-i="${realIndex}" data-k="plan">${['Kurucu Üye','Diamond Paket','Gold Paket','Premium Paket','Hediyelik Kod'].map(p=>`<option ${p===r.plan?'selected':''}>${p}</option>`).join('')}</select></td><td><input class="input" value="${r.owner||''}" data-i="${realIndex}" data-k="owner"></td><td><input class="input" type="number" value="${r.limit||0}" data-i="${realIndex}" data-k="limit"></td><td><select class="select" data-i="${realIndex}" data-k="status"><option ${r.status==='Aktif'?'selected':''}>Aktif</option><option ${r.status==='Pasif'?'selected':''}>Pasif</option></select><br><span class="pill ${r.status==='Aktif'?'active':'passive'}">${r.status}</span></td><td>${r.date||''}</td><td><textarea class="textarea" data-i="${realIndex}" data-k="note">${r.note||''}</textarea></td><td><button class="btn danger" data-del="${realIndex}">Sil</button></td></tr>` }).join('');
+    }
+
+    $('#loginBtn').onclick = () => { if(ADMIN_CODES.includes(normalize($('#adminCode').value))){ localStorage.setItem(AUTH,'1'); showApp(); } else { $('#loginMsg').textContent='Kurucu kodu hatalı.'; } };
+    $('#logoutBtn').onclick = () => { localStorage.removeItem(AUTH); location.reload(); };
+    $('#addBtn').onclick = () => { const code=normalize($('#newCode').value); if(!code) return alert('Kod boş olamaz'); rows.unshift({code,plan:$('#newPlan').value,owner:$('#newOwner').value,limit:Number($('#newLimit').value||0),status:$('#newStatus').value,date:today(),note:$('#newNote').value}); save(rows); render(); $('#newCode').value=''; $('#newOwner').value=''; $('#newNote').value=''; };
+    $('#search').oninput = render;
+    $('#exportBtn').onclick = () => { navigator.clipboard.writeText(JSON.stringify(rows,null,2)); alert('Kod listesi JSON olarak kopyalandı.'); };
+    $('#resetBtn').onclick = () => { if(confirm('Örnek kod listesi sıfırlansın mı?')){ rows=sample; save(rows); render(); } };
+    document.addEventListener('input', e => { const i=e.target.dataset.i, k=e.target.dataset.k; if(i!==undefined && k){ rows[Number(i)][k] = k==='limit' ? Number(e.target.value||0) : e.target.value; save(rows); render(); } });
+    document.addEventListener('click', e => { const i=e.target.dataset.del; if(i!==undefined && confirm('Bu kod kaydı silinsin mi?')){ rows.splice(Number(i),1); save(rows); render(); } });
+    if(localStorage.getItem(AUTH)==='1') showApp();
+  </script>
 </body>
 </html>
