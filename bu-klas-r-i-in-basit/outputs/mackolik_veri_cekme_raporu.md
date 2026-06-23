@@ -1,24 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-23T11:45:08.055384+00:00
+Tarih: 2026-06-23T17:31:45.233983+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 13
+- Kac mac bulundu: 2
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 13
+- Kac mac zaten vardi: 2
 - Ham veri havuzu toplam mac sayisi: 342
 - Hedef tarih: 23.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- Dünya Kupası 2026 Grup K
 - Dünya Kupası 2026 Grup L
-- Finlandiya Veikkausliiga
-- Gürcistan Erovnuli Liga
-- Litvanya Kupa Çeyrek Final
 - Şili Kupa Grup A
 
 ## Okunabilen Oran Alanlari
@@ -76,8 +72,8 @@ Tarih: 2026-06-23T11:45:08.055384+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 15
+- Acilan detay: 15
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -90,19 +86,8 @@ Tarih: 2026-06-23T11:45:08.055384+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.06.2026 | 20:00 | Dünya Kupası 2026 Grup K | Portekiz | Özbekistan | 15961 | 4 |
 | 23.06.2026 | 23:00 | Dünya Kupası 2026 Grup L | İngiltere | Gana | 16029 | 4 |
-| 23.06.2026 | 20:00 | Finlandiya Veikkausliiga | Mariehamn | Helsinki | 09230 | 5 |
-| 23.06.2026 | 19:00 | Finlandiya Veikkausliiga | Inter Turku | Seinajoen Jk | 09151 | 5 |
-| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Vaasa | Oulu | 08981 | 5 |
-| 23.06.2026 | 19:00 | Finlandiya Veikkausliiga | Jaro | Gnistan | 09077 | 5 |
-| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Lahti | Turku | 08875 | 5 |
-| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Kuopion | Ilves | 08815 | 5 |
 | 23.06.2026 | 22:00 | Şili Kupa Grup A | Coquimbo Unido | Deportes Limach | 09500 | 5 |
-| 23.06.2026 | 18:00 | Litvanya Kupa Çeyrek Final | Bfa | Kauno Zalgiris | 06708 | 4 |
-| 23.06.2026 | 18:30 | Litvanya Kupa Çeyrek Final | Minija | Fk Panevezys | 06709 | 5 |
-| 23.06.2026 | 20:00 | Gürcistan Erovnuli Liga | Dinamo Tiflis | Dinamo Batumi | 08659 | 5 |
-| 23.06.2026 | 18:00 | Gürcistan Erovnuli Liga | Fc Iberia | Meshakhte | 03560 | 5 |
 
 ## Sonuc
 
