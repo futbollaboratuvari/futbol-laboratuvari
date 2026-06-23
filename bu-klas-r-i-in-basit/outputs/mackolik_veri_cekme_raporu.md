@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-23T22:08:19.061025+00:00
+Tarih: 2026-06-23T22:53:51.684167+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
 - Kac mac bulundu: 20
-- Kac mac kaydedildi: 20
-- Kac mac zaten vardi: 0
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 20
 - Ham veri havuzu toplam mac sayisi: 362
 - Hedef tarih: 24.06.2026 Europe/Istanbul
 
@@ -100,8 +100,8 @@ Tarih: 2026-06-23T22:08:19.061025+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 24.06.2026 | 22:00 | Dünya Kupası 2026 Grup B | İsviçre | Kanada | 16303 | 5 |
 | 24.06.2026 | 22:00 | Dünya Kupası 2026 Grup B | Bosna Hersek | Katar | 16231 | 5 |
+| 24.06.2026 | 22:00 | Dünya Kupası 2026 Grup B | İsviçre | Kanada | 16303 | 5 |
 | 24.06.2026 | 23:00 | Şili Kupa Grup C | La Serena | Cobresal | 09617 | 5 |
 | 24.06.2026 | 21:45 | Hazırlık Kulüpler | Glentoran | The New Saints | 07509 | 5 |
 | 24.06.2026 | 15:30 | Lübnan Premier Lig | Ahed | Safa | 10321 | 5 |
