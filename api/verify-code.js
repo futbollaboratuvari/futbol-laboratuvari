@@ -119,10 +119,32 @@ function readEnvCodes() {
   return extra;
 }
 
+async function readManagedCodes() {
+  const url = `https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/membership-codes.json?ts=${Date.now()}`;
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) return {};
+
+  const data = await response.json();
+  const map = {};
+
+  for (const item of data.codes || []) {
+    if (!item.codeHash) continue;
+    map[String(item.codeHash).toLowerCase()] = {
+      planCode: item.planCode,
+      planName: item.planName,
+      remainingAnalysisCount: Number(item.remainingAnalysisCount || 0),
+      active: item.active !== false
+    };
+  }
+
+  return map;
+}
+
 module.exports = async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Cache-Control", "no-store");
 
   if (req.method === "OPTIONS") {
     return res.status(200).end();
@@ -141,7 +163,14 @@ module.exports = async function handler(req, res) {
     }
 
     const codeHash = sha256(code);
-    const codeInfo = CODE_DATABASE[codeHash] || readEnvCodes()[codeHash];
+    const managedCodes = await readManagedCodes();
+    const managedCode = managedCodes[codeHash];
+
+    if (managedCode && !managedCode.active) {
+      return res.status(401).json({ ok: false, message: "Kod pasif durumda." });
+    }
+
+    const codeInfo = managedCode || CODE_DATABASE[codeHash] || readEnvCodes()[codeHash];
 
     if (!codeInfo) {
       return res.status(401).json({ ok: false, message: "Kod hatalı veya aktif değil." });
