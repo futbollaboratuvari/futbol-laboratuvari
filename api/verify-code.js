@@ -2,86 +2,23 @@ const crypto = require("crypto");
 
 const CODE_DATABASE = {
   "340e3aa6b3669a195f3691ae3c605fcf2c21e96b759e7e93fa31133eea828bdf": {
-    "planCode": "founder",
-    "planName": "Kurucu Test Kodu",
-    "remainingAnalysisCount": 9999
+    planCode: "founder",
+    planName: "Kurucu Test Kodu",
+    remainingAnalysisCount: 9999
   },
   "d0e366399638702f7f4fd5cae64e544617bc4ec948a277a34c2a9d7cb855d290": {
-    "planCode": "founder",
-    "planName": "Kurucu Üye",
-    "remainingAnalysisCount": 9999
-  },
-  "79a8ad54b8f8846d574f41f27ffae13e837dfe3f386db9598a4b7f5c13cf4e6e": {
-    "planCode": "founder",
-    "planName": "Kurucu Üye",
-    "remainingAnalysisCount": 9999
-  },
-  "6d5bd708687b4e43841417d3f633c204eb0d6f38fa2188af391bdfbf70223494": {
-    "planCode": "founder",
-    "planName": "Kurucu Üye",
-    "remainingAnalysisCount": 9999
-  },
-  "b1815e0b6801061a3dc77efba12eb3c4d27c0ecfef51490ba7dc286b4f6c6340": {
-    "planCode": "diamond",
-    "planName": "Diamond Paket",
-    "remainingAnalysisCount": 50
-  },
-  "c950f3d3f72d1a2c51d582f0f907611753bc1c30caa3d78bcf4c90ce51a67116": {
-    "planCode": "diamond",
-    "planName": "Diamond Paket",
-    "remainingAnalysisCount": 50
-  },
-  "fc048150686974c734a729e95c17463cda8779d00ba573b099b9a865b89e11a1": {
-    "planCode": "diamond",
-    "planName": "Diamond Paket",
-    "remainingAnalysisCount": 50
-  },
-  "7c36216aba3befd142477a671d29d0bcb41ebedf0ddb5f2eea288cc0ad8aa497": {
-    "planCode": "gold",
-    "planName": "Gold Paket",
-    "remainingAnalysisCount": 25
-  },
-  "f8e38c5484e6ab2e5e31a1b137296044d22ec2973f62ad533615240a6bf15dae": {
-    "planCode": "gold",
-    "planName": "Gold Paket",
-    "remainingAnalysisCount": 25
-  },
-  "26f9791481d49d93316e4d9059e1e3426d4664df7300e5a3506852a14c0e9dad": {
-    "planCode": "gold",
-    "planName": "Gold Paket",
-    "remainingAnalysisCount": 25
-  },
-  "2deb19baf472497bf6061bd9a9d70ea9a3aed64ab49bebdd1487b2d08186690f": {
-    "planCode": "premium",
-    "planName": "Premium Paket",
-    "remainingAnalysisCount": 100
-  },
-  "a4771e2bd3ee8c598d5fb15655845ccd72a83887cc227cd4a16ad340acfc8b80": {
-    "planCode": "premium",
-    "planName": "Premium Paket",
-    "remainingAnalysisCount": 100
-  },
-  "fb0e56cabd621a033f03be29be8e65adc258420e7e6e9d3a9b02ce134ac361bf": {
-    "planCode": "premium",
-    "planName": "Premium Paket",
-    "remainingAnalysisCount": 100
-  },
-  "72a3d85246bd1e04aa877ffed6584fe15e4970fb80d9513a7579de5a2372bda1": {
-    "planCode": "gift",
-    "planName": "Hediyelik Kod",
-    "remainingAnalysisCount": 10
-  },
-  "1b42bae60f528f26ae3e0427237b1a0a76e7311acc30ad6c8171a57d9fc7d019": {
-    "planCode": "gift",
-    "planName": "Hediyelik Kod",
-    "remainingAnalysisCount": 10
-  },
-  "15f6e3b9fa29d79e8abad020db1dfeab5b9fc223828ecab38a7960bc58bd46ea": {
-    "planCode": "gift",
-    "planName": "Hediyelik Kod",
-    "remainingAnalysisCount": 10
+    planCode: "founder",
+    planName: "Kurucu Üye",
+    remainingAnalysisCount: 9999,
+    codeLabel: "KURUCU-U1NZ-****-KZ9L",
+    owner: "Cem / Kurucu"
   }
 };
+
+const USAGE_LOG_KEY = "__FL_USAGE_LOG__";
+const MAX_USAGE_LOG = 200;
+
+globalThis[USAGE_LOG_KEY] = globalThis[USAGE_LOG_KEY] || [];
 
 function normalizeCode(value) {
   return String(value || "")
@@ -92,6 +29,22 @@ function normalizeCode(value) {
 
 function sha256(value) {
   return crypto.createHash("sha256").update(value).digest("hex");
+}
+
+function nowTR() {
+  return new Date().toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
+}
+
+function getClientIp(req) {
+  const forwardedFor = req.headers["x-forwarded-for"] || "";
+  const realIp = req.headers["x-real-ip"] || "";
+  const ip = String(forwardedFor || realIp || "").split(",")[0].trim();
+  return ip;
+}
+
+function anonymizeIp(ip) {
+  if (!ip) return "";
+  return sha256(ip).slice(0, 12);
 }
 
 function readEnvCodes() {
@@ -112,7 +65,9 @@ function readEnvCodes() {
     extra[hash] = {
       planCode: "premium",
       planName: "Premium Paket",
-      remainingAnalysisCount: 100
+      remainingAnalysisCount: 100,
+      codeLabel: "ENV-****",
+      owner: ""
     };
   }
 
@@ -133,21 +88,55 @@ async function readManagedCodes() {
       planCode: item.planCode,
       planName: item.planName,
       remainingAnalysisCount: Number(item.remainingAnalysisCount || 0),
-      active: item.active !== false
+      active: item.active !== false,
+      codeLabel: item.codeLabel || "",
+      owner: item.owner || ""
     };
   }
 
   return map;
 }
 
+function recordUsage(req, codeHash, codeInfo) {
+  const record = {
+    id: `${Date.now()}-${crypto.randomBytes(3).toString("hex")}`,
+    at: nowTR(),
+    planCode: codeInfo.planCode,
+    planName: codeInfo.planName,
+    remainingAnalysisCount: codeInfo.remainingAnalysisCount,
+    codeLabel: codeInfo.codeLabel || `${codeHash.slice(0, 10)}...`,
+    owner: codeInfo.owner || "",
+    codeHashShort: `${codeHash.slice(0, 12)}...`,
+    ipHash: anonymizeIp(getClientIp(req)),
+    userAgent: String(req.headers["user-agent"] || "").slice(0, 120)
+  };
+
+  globalThis[USAGE_LOG_KEY].unshift(record);
+  globalThis[USAGE_LOG_KEY] = globalThis[USAGE_LOG_KEY].slice(0, MAX_USAGE_LOG);
+  return record;
+}
+
+function getUsageLog() {
+  return globalThis[USAGE_LOG_KEY].slice(0, MAX_USAGE_LOG);
+}
+
 module.exports = async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   res.setHeader("Cache-Control", "no-store");
 
   if (req.method === "OPTIONS") {
     return res.status(200).end();
+  }
+
+  if (req.method === "GET") {
+    return res.status(200).json({
+      ok: true,
+      storage: "temporary-memory",
+      message: "Geçici kullanım geçmişi. Kalıcı veritabanı bağlanınca kalıcı kayıt sistemine taşınacak.",
+      records: getUsageLog()
+    });
   }
 
   if (req.method !== "POST") {
@@ -176,6 +165,8 @@ module.exports = async function handler(req, res) {
       return res.status(401).json({ ok: false, message: "Kod hatalı veya aktif değil." });
     }
 
+    const usageRecord = recordUsage(req, codeHash, codeInfo);
+
     return res.status(200).json({
       ok: true,
       message: `${codeInfo.planName} kabul edildi. Üyelik aktif.`,
@@ -183,7 +174,8 @@ module.exports = async function handler(req, res) {
         planCode: codeInfo.planCode,
         planName: codeInfo.planName,
         remainingAnalysisCount: codeInfo.remainingAnalysisCount
-      }
+      },
+      usageRecordId: usageRecord.id
     });
   } catch (error) {
     return res.status(500).json({ ok: false, message: "Backend kod kontrolünde hata oluştu." });
