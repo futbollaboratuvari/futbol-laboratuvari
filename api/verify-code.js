@@ -1,11 +1,6 @@
 const crypto = require("crypto");
 
 const CODE_DATABASE = {
-  "340e3aa6b3669a195f3691ae3c605fcf2c21e96b759e7e93fa31133eea828bdf": {
-    planCode: "founder",
-    planName: "Kurucu Test Kodu",
-    remainingAnalysisCount: 9999
-  },
   "d0e366399638702f7f4fd5cae64e544617bc4ec948a277a34c2a9d7cb855d290": {
     planCode: "founder",
     planName: "Kurucu Üye",
@@ -33,18 +28,6 @@ function sha256(value) {
 
 function nowTR() {
   return new Date().toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
-}
-
-function getClientIp(req) {
-  const forwardedFor = req.headers["x-forwarded-for"] || "";
-  const realIp = req.headers["x-real-ip"] || "";
-  const ip = String(forwardedFor || realIp || "").split(",")[0].trim();
-  return ip;
-}
-
-function anonymizeIp(ip) {
-  if (!ip) return "";
-  return sha256(ip).slice(0, 12);
 }
 
 function readEnvCodes() {
@@ -97,7 +80,7 @@ async function readManagedCodes() {
   return map;
 }
 
-function recordUsage(req, codeHash, codeInfo) {
+function recordUsage(codeHash, codeInfo) {
   const record = {
     id: `${Date.now()}-${crypto.randomBytes(3).toString("hex")}`,
     at: nowTR(),
@@ -106,9 +89,7 @@ function recordUsage(req, codeHash, codeInfo) {
     remainingAnalysisCount: codeInfo.remainingAnalysisCount,
     codeLabel: codeInfo.codeLabel || `${codeHash.slice(0, 10)}...`,
     owner: codeInfo.owner || "",
-    codeHashShort: `${codeHash.slice(0, 12)}...`,
-    ipHash: anonymizeIp(getClientIp(req)),
-    userAgent: String(req.headers["user-agent"] || "").slice(0, 120)
+    codeHashShort: `${codeHash.slice(0, 12)}...`
   };
 
   globalThis[USAGE_LOG_KEY].unshift(record);
@@ -165,7 +146,7 @@ module.exports = async function handler(req, res) {
       return res.status(401).json({ ok: false, message: "Kod hatalı veya aktif değil." });
     }
 
-    const usageRecord = recordUsage(req, codeHash, codeInfo);
+    const usageRecord = recordUsage(codeHash, codeInfo);
 
     return res.status(200).json({
       ok: true,
