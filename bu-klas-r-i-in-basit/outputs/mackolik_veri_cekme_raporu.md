@@ -1,21 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-22T23:50:49.347706+00:00
+Tarih: 2026-06-23T10:48:44.720164+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 14
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 14
-- Ham veri havuzu toplam mac sayisi: 341
+- Kac mac bulundu: 13
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 12
+- Ham veri havuzu toplam mac sayisi: 342
 - Hedef tarih: 23.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Queensland
 - Dünya Kupası 2026 Grup K
 - Dünya Kupası 2026 Grup L
 - Finlandiya Veikkausliiga
@@ -78,8 +76,8 @@ Tarih: 2026-06-22T23:50:49.347706+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -93,17 +91,16 @@ Tarih: 2026-06-22T23:50:49.347706+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 23.06.2026 | 20:00 | Dünya Kupası 2026 Grup K | Portekiz | Özbekistan | 15961 | 4 |
-| 23.06.2026 | 23:00 | Dünya Kupası 2026 Grup L | İngiltere | Gana | 16029 | 5 |
+| 23.06.2026 | 23:00 | Dünya Kupası 2026 Grup L | İngiltere | Gana | 16029 | 4 |
 | 23.06.2026 | 20:00 | Finlandiya Veikkausliiga | Mariehamn | Helsinki | 09230 | 5 |
 | 23.06.2026 | 19:00 | Finlandiya Veikkausliiga | Inter Turku | Seinajoen Jk | 09151 | 5 |
-| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Lahti | Turku | 08875 | 5 |
 | 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Vaasa | Oulu | 08981 | 5 |
 | 23.06.2026 | 19:00 | Finlandiya Veikkausliiga | Jaro | Gnistan | 09077 | 5 |
+| 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Lahti | Turku | 08875 | 5 |
 | 23.06.2026 | 18:00 | Finlandiya Veikkausliiga | Kuopion | Ilves | 08815 | 5 |
 | 23.06.2026 | 22:00 | Şili Kupa Grup A | Coquimbo Unido | Deportes Limach | 09500 | 5 |
-| 23.06.2026 | 12:30 | Avustralya NPL Queensland | Gold Coast Kni | Eastern Suburbs | 10034 | 3 |
-| 23.06.2026 | 13:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl | Lambton Jaffas | 07660 | 3 |
-| 23.06.2026 | 18:30 | Litvanya Kupa Çeyrek Final | Minija | Fk Panevezys | 06709 | 3 |
+| 23.06.2026 | 18:00 | Litvanya Kupa Çeyrek Final | Bfa | Kauno Zalgiris | 06708 | 4 |
+| 23.06.2026 | 18:30 | Litvanya Kupa Çeyrek Final | Minija | Fk Panevezys | 06709 | 5 |
 | 23.06.2026 | 20:00 | Gürcistan Erovnuli Liga | Dinamo Tiflis | Dinamo Batumi | 08659 | 5 |
 | 23.06.2026 | 18:00 | Gürcistan Erovnuli Liga | Fc Iberia | Meshakhte | 03560 | 5 |
 
