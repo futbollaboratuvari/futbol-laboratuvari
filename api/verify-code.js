@@ -24,47 +24,47 @@ const CODE_DATABASE = {
   "b1815e0b6801061a3dc77efba12eb3c4d27c0ecfef51490ba7dc286b4f6c6340": {
     "planCode": "diamond",
     "planName": "Diamond Paket",
-    "remainingAnalysisCount": 100
+    "remainingAnalysisCount": 50
   },
   "c950f3d3f72d1a2c51d582f0f907611753bc1c30caa3d78bcf4c90ce51a67116": {
     "planCode": "diamond",
     "planName": "Diamond Paket",
-    "remainingAnalysisCount": 100
+    "remainingAnalysisCount": 50
   },
   "fc048150686974c734a729e95c17463cda8779d00ba573b099b9a865b89e11a1": {
     "planCode": "diamond",
     "planName": "Diamond Paket",
-    "remainingAnalysisCount": 100
+    "remainingAnalysisCount": 50
   },
   "7c36216aba3befd142477a671d29d0bcb41ebedf0ddb5f2eea288cc0ad8aa497": {
     "planCode": "gold",
     "planName": "Gold Paket",
-    "remainingAnalysisCount": 50
+    "remainingAnalysisCount": 25
   },
   "f8e38c5484e6ab2e5e31a1b137296044d22ec2973f62ad533615240a6bf15dae": {
     "planCode": "gold",
     "planName": "Gold Paket",
-    "remainingAnalysisCount": 50
+    "remainingAnalysisCount": 25
   },
   "26f9791481d49d93316e4d9059e1e3426d4664df7300e5a3506852a14c0e9dad": {
     "planCode": "gold",
     "planName": "Gold Paket",
-    "remainingAnalysisCount": 50
+    "remainingAnalysisCount": 25
   },
   "2deb19baf472497bf6061bd9a9d70ea9a3aed64ab49bebdd1487b2d08186690f": {
     "planCode": "premium",
     "planName": "Premium Paket",
-    "remainingAnalysisCount": 25
+    "remainingAnalysisCount": 100
   },
   "a4771e2bd3ee8c598d5fb15655845ccd72a83887cc227cd4a16ad340acfc8b80": {
     "planCode": "premium",
     "planName": "Premium Paket",
-    "remainingAnalysisCount": 25
+    "remainingAnalysisCount": 100
   },
   "fb0e56cabd621a033f03be29be8e65adc258420e7e6e9d3a9b02ce134ac361bf": {
     "planCode": "premium",
     "planName": "Premium Paket",
-    "remainingAnalysisCount": 25
+    "remainingAnalysisCount": 100
   },
   "72a3d85246bd1e04aa877ffed6584fe15e4970fb80d9513a7579de5a2372bda1": {
     "planCode": "gift",
@@ -112,7 +112,7 @@ function readEnvCodes() {
     extra[hash] = {
       planCode: "premium",
       planName: "Premium Paket",
-      remainingAnalysisCount: 25
+      remainingAnalysisCount: 100
     };
   }
 
