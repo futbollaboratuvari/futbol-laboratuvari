@@ -1,5 +1,6 @@
 const crypto = require("crypto");
 const { appendUsageRecord } = require("./lib/usage-write");
+const { decreaseMembershipCount } = require("./lib/membership-decrement");
 
 const CODE_DATABASE = {
   "d0e366399638702f7f4fd5cae64e544617bc4ec948a277a34c2a9d7cb855d290": {
@@ -126,7 +127,7 @@ module.exports = async function handler(req, res) {
     return res.status(200).json({
       ok: true,
       storage: "permanent-file-read",
-      message: "Kullanim gecmisi kalici dosyadan okunur. Yazma modulu baglandi.",
+      message: "Kullanim gecmisi kalici dosyadan okunur. Hak dusurme modulu baglandi.",
       records: await getUsageLog()
     });
   }
@@ -157,8 +158,14 @@ module.exports = async function handler(req, res) {
       return res.status(401).json({ ok: false, message: "Kod hatalı veya aktif değil." });
     }
 
+    if (codeInfo.planCode !== "founder" && Number(codeInfo.remainingAnalysisCount || 0) <= 0) {
+      return res.status(403).json({ ok: false, message: "Kullanım hakkı bitti." });
+    }
+
     const usageRecord = recordUsage(codeHash, codeInfo);
     const saveResult = await appendUsageRecord(usageRecord);
+    const decrementResult = await decreaseMembershipCount(codeHash);
+    const nextRemaining = decrementResult.changed ? decrementResult.remainingAnalysisCount : codeInfo.remainingAnalysisCount;
 
     return res.status(200).json({
       ok: true,
@@ -166,10 +173,11 @@ module.exports = async function handler(req, res) {
       membership: {
         planCode: codeInfo.planCode,
         planName: codeInfo.planName,
-        remainingAnalysisCount: codeInfo.remainingAnalysisCount
+        remainingAnalysisCount: nextRemaining
       },
       usageRecordId: usageRecord.id,
-      saveResult
+      saveResult,
+      decrementResult
     });
   } catch (error) {
     return res.status(500).json({ ok: false, message: "Backend kod kontrolünde hata oluştu." });
