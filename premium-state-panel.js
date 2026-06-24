@@ -4,6 +4,7 @@
   const LAST_KEY = "fl_last_premium_robot_analysis";
   const PLAN_KEY = "fl_selected_membership_plan";
   const PLAN_COUNT_KEY = "fl_premium_count_plan";
+  const MEMBER_KEY = "fl_premium_membership";
 
   const safe = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -11,8 +12,6 @@
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
-
-  const isFounder = () => localStorage.getItem("fl_premium_beta_access") === "1";
 
   const readJson = (key, fallback) => {
     try {
@@ -23,7 +22,11 @@
     }
   };
 
+  const accessLevel = () => String(localStorage.getItem("fl_premium_access_level") || "");
+  const isFounder = () => accessLevel() === "founder";
+  const isTrial = () => accessLevel() === "trial";
   const selectedPlan = () => readJson(PLAN_KEY, null);
+  const member = () => readJson(MEMBER_KEY, {});
   const lastAnalysis = () => readJson(LAST_KEY, null);
   const history = () => {
     const data = readJson(HISTORY_KEY, []);
@@ -41,6 +44,7 @@
   const activePlanId = () => String(selectedPlan()?.id || "preview");
   const syncCountWithPlan = () => {
     if (isFounder()) return "Sınırsız";
+    if (isTrial()) return member()?.remainingAnalysisCount ?? planLimit();
     const id = activePlanId();
     if (localStorage.getItem(PLAN_COUNT_KEY) !== id) {
       localStorage.setItem(PLAN_COUNT_KEY, id);
@@ -51,6 +55,7 @@
 
   const packageName = () => {
     if (isFounder()) return "Kurucu Beta";
+    if (isTrial() && member()?.planName) return member().planName;
     const plan = selectedPlan();
     return plan?.name ? `${plan.name} Ön İzleme` : "Ön İzleme";
   };
