@@ -1,4 +1,3 @@
-const { Octokit } = require("@octokit/rest");
 const { getUsageToken } = require("./usage-token");
 
 const owner = "futbollaboratuvari";
@@ -12,6 +11,11 @@ function decodeContent(value) {
 
 function encodeContent(value) {
   return Buffer.from(value, "utf8").toString("base64");
+}
+
+async function loadOctokit() {
+  const mod = await import("@octokit/rest");
+  return mod.Octokit;
 }
 
 async function getCurrentFile(octokit) {
@@ -30,31 +34,38 @@ async function getCurrentFile(octokit) {
 }
 
 async function appendUsageRecord(record) {
+  const recordId = record && record.id ? record.id : "";
   const token = getUsageToken();
+
   if (!token) {
-    return { saved: false, reason: "token-missing", recordId: record && record.id ? record.id : "" };
+    return { saved: false, reason: "token-missing", recordId };
   }
 
-  const octokit = new Octokit({ auth: token });
-  const current = await getCurrentFile(octokit);
+  try {
+    const Octokit = await loadOctokit();
+    const octokit = new Octokit({ auth: token });
+    const current = await getCurrentFile(octokit);
 
-  const nextData = {
-    version: 1,
-    updatedAt: new Date().toISOString(),
-    records: [record, ...(current.data.records || [])].slice(0, MAX_RECORDS)
-  };
+    const nextData = {
+      version: 1,
+      updatedAt: new Date().toISOString(),
+      records: [record, ...(current.data.records || [])].slice(0, MAX_RECORDS)
+    };
 
-  await octokit.repos.createOrUpdateFileContents({
-    owner,
-    repo,
-    path,
-    branch: "main",
-    message: "Kullanim gecmisi kaydi eklendi",
-    content: encodeContent(JSON.stringify(nextData, null, 2) + "\n"),
-    sha: current.sha
-  });
+    await octokit.repos.createOrUpdateFileContents({
+      owner,
+      repo,
+      path,
+      branch: "main",
+      message: "Kullanim gecmisi kaydi eklendi",
+      content: encodeContent(JSON.stringify(nextData, null, 2) + "\n"),
+      sha: current.sha
+    });
 
-  return { saved: true, recordId: record && record.id ? record.id : "" };
+    return { saved: true, recordId };
+  } catch (error) {
+    return { saved: false, reason: "write-failed", recordId };
+  }
 }
 
 module.exports = {
