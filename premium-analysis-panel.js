@@ -6,6 +6,7 @@
   const CODE_KEY = "fl_premium_code_entered";
   const MEMBER_KEY = "fl_premium_membership";
   const CLIENT_KEY = "fl_premium_client_id";
+  const TRIAL_KEY = "fl_premium_trial";
 
   const esc = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -31,7 +32,44 @@
     }
   };
 
-  const isActive = () => localStorage.getItem(ACCESS_KEY) === "1";
+  const readTrial = () => {
+    try {
+      return JSON.parse(localStorage.getItem(TRIAL_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  };
+
+  const isTrialActive = () => {
+    const trial = readTrial();
+    return Number(trial.expiresAt || 0) > Date.now();
+  };
+
+  const clearTrialAccess = () => {
+    if (localStorage.getItem("fl_premium_access_note") !== "trial") return;
+    localStorage.removeItem(ACCESS_KEY);
+    localStorage.removeItem(MEMBER_KEY);
+    localStorage.removeItem("fl_premium_access_note");
+    localStorage.removeItem("fl_premium_access_level");
+  };
+
+  const isActive = () => {
+    if (localStorage.getItem(ACCESS_KEY) !== "1") return false;
+    if (localStorage.getItem("fl_premium_access_note") === "trial" && !isTrialActive()) {
+      clearTrialAccess();
+      return false;
+    }
+    return true;
+  };
+
+  const trialMessage = () => {
+    if (localStorage.getItem("fl_premium_access_note") !== "trial") return "Üyelik backend tarafından doğrulandı.";
+    const trial = readTrial();
+    const end = Number(trial.expiresAt || 0);
+    if (!end || end <= Date.now()) return "1 günlük deneme süresi doldu. Kod veya üyelik gerekir.";
+    const text = new Date(end).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
+    return `1 günlük deneme aktif. Bitiş: ${text}`;
+  };
 
   const readFixtures = async () => {
     try {
@@ -86,6 +124,7 @@
     localStorage.removeItem(MEMBER_KEY);
     localStorage.removeItem("fl_premium_access_note");
     localStorage.removeItem("fl_premium_access_level");
+    localStorage.removeItem(TRIAL_KEY);
   };
 
   const style = () => {
@@ -123,12 +162,12 @@
     const shell = ensureShell();
     const list = todayMatches(fixtures);
     shell.innerHTML = `
-      <div class="pa-head"><div><h2 class="pa-title">Özel Maç / Kupon Analizi</h2><p class="pa-sub">Üye kodunu aşağıdaki kutuya yaz. Kod backend tarafından doğrulanınca özel analiz açılır.</p></div><div class="pa-badge">${active ? "✅ Üyelik aktif" : "🔒 Üyelik kilitli"}</div></div>
+      <div class="pa-head"><div><h2 class="pa-title">Özel Maç / Kupon Analizi</h2><p class="pa-sub">Üye kodunu aşağıdaki kutuya yaz. Kod backend tarafından doğrulanınca özel analiz açılır. Paket seçersen 1 günlük deneme de açılır.</p></div><div class="pa-badge">${active ? "✅ Üyelik aktif" : "🔒 Üyelik kilitli"}</div></div>
       <div class="pa-state"><div><span>Paket</span><strong>${active ? esc(member.planName || "Premium Üye") : "Ön İzleme"}</strong></div><div><span>Kalan Kullanım</span><strong>${active ? esc(member.remainingAnalysisCount ?? "Aktif") : "Kilitli"}</strong></div><div><span>Analiz Sistemi</span><strong>Premium</strong></div></div>
       <div class="pa-grid">
         <div class="pa-card">
           <h3>Üye Kodu</h3>
-          <div class="pa-code"><span class="pa-small">Paket aldıysan sana verilen kodu buraya yaz ve Kod ile Aç butonuna bas.</span><div class="pa-code-row"><input class="pa-input" type="password" placeholder="Üye / kurucu kodu" data-pa-code><button class="pa-button" type="button" data-pa-unlock>Kod ile Aç</button></div><span class="pa-message" data-pa-message>${active ? "Üyelik backend tarafından doğrulandı." : "Kod girilmeden özel analiz açılmaz."}</span></div>
+          <div class="pa-code"><span class="pa-small">Paket aldıysan sana verilen kodu buraya yaz ve Kod ile Aç butonuna bas. 1 günlük deneme aktifse ayrıca kod gerekmez.</span><div class="pa-code-row"><input class="pa-input" type="password" placeholder="Üye / kurucu kodu" data-pa-code><button class="pa-button" type="button" data-pa-unlock>Kod ile Aç</button></div><span class="pa-message" data-pa-message>${active ? esc(trialMessage()) : "Kod girilmeden veya deneme açılmadan özel analiz açılmaz."}</span></div>
           <h3>Maçlar ve Seçenek</h3>
           <label class="pa-small">Maç Listesi<select class="pa-select" data-pa-match multiple size="8" ${active ? "" : "disabled"}>${list.length ? list.map((m, i) => `<option value="${i}">${esc(m.league || "Lig")} — ${esc(m.time || "--:--")} | ${esc(m.home || "Ev sahibi")} - ${esc(m.away || "Deplasman")}</option>`).join("") : `<option>Bugünün maç listesi hazırlanıyor</option>`}</select></label>
           <div class="pa-market-grid">${markets.map((m) => `<button class="pa-market" type="button" data-pa-market="${esc(m)}" ${active ? "" : "disabled"}>${esc(m)}</button>`).join("")}</div>
@@ -175,5 +214,7 @@
     });
   };
 
-  window.addEventListener("load", async () => render(await readFixtures()));
+  const refresh = async () => render(await readFixtures());
+  window.addEventListener("load", refresh);
+  document.addEventListener("fl:trial-access-started", refresh);
 })();
