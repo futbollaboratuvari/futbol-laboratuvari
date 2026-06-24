@@ -62,13 +62,21 @@
     return true;
   };
 
+  const accessBadgeText = () => {
+    if (!isActive()) return "🔒 Üyelik kilitli";
+    if (localStorage.getItem("fl_premium_access_note") === "trial") return "✅ Deneme aktif";
+    return "✅ Üyelik aktif";
+  };
+
   const trialMessage = () => {
     if (localStorage.getItem("fl_premium_access_note") !== "trial") return "Üyelik backend tarafından doğrulandı.";
     const trial = readTrial();
+    const member = readMembership();
     const end = Number(trial.expiresAt || 0);
     if (!end || end <= Date.now()) return "1 günlük deneme süresi doldu. Kod veya üyelik gerekir.";
     const text = new Date(end).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
-    return `1 günlük deneme aktif. Bitiş: ${text}`;
+    const remaining = member.remainingAnalysisCount ?? "Aktif";
+    return `1 Günlük Deneme Aktif · Bitiş: ${text} · Kalan analiz hakkı: ${remaining}`;
   };
 
   const readFixtures = async () => {
@@ -136,7 +144,7 @@
       .pa-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin-bottom:14px}.pa-title{margin:0;color:#ffe08a;font-size:clamp(22px,2.5vw,34px)}.pa-sub{margin:7px 0 0;color:#aebbd0;font-size:13px;line-height:1.55}.pa-badge{padding:9px 12px;border:1px solid rgba(57,255,136,.32);border-radius:999px;background:rgba(57,255,136,.12);color:#c8ffdd;font-size:12px;font-weight:900;white-space:nowrap}
       .pa-state{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:14px}.pa-state div{padding:12px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.pa-state span{display:block;color:#8fa0b5;font-size:11px;font-weight:900;text-transform:uppercase}.pa-state strong{display:block;margin-top:5px;color:#f8fbff;font-size:18px}
       .pa-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:14px}.pa-card{display:grid;gap:12px;padding:15px;border:1px solid rgba(255,255,255,.08);border-radius:18px;background:rgba(255,255,255,.04)}.pa-card h3{margin:0;color:#fff7d6;font-size:16px}
-      .pa-code{display:grid;gap:10px;padding:13px;border:1px dashed rgba(255,159,28,.34);border-radius:16px;background:rgba(255,159,28,.07)}.pa-code-row{display:grid;grid-template-columns:1fr auto;gap:8px}.pa-input,.pa-select{width:100%;min-height:46px;border:1px solid rgba(255,159,28,.24);border-radius:13px;background:rgba(0,0,0,.25);color:#f8fbff;padding:0 12px;font-weight:850}.pa-select[multiple]{min-height:220px;padding:10px}.pa-button{min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-size:14px;font-weight:950;cursor:pointer;padding:0 14px}.pa-button.secondary{background:rgba(255,255,255,.08);color:#f8fbff;border:1px solid rgba(255,255,255,.16)}.pa-small{color:#aebbd0;font-size:12px;line-height:1.5}.pa-message{color:#ffe08a;font-size:12px;font-weight:850;min-height:16px}
+      .pa-code{display:grid;gap:10px;padding:13px;border:1px dashed rgba(255,159,28,.34);border-radius:16px;background:rgba(255,159,28,.07)}.pa-code-row{display:grid;grid-template-columns:1fr auto;gap:8px}.pa-input,.pa-select{width:100%;min-height:46px;border:1px solid rgba(255,159,28,.24);border-radius:13px;background:rgba(0,0,0,.25);color:#f8fbff;padding:0 12px;font-weight:850}.pa-select[multiple]{min-height:220px;padding:10px}.pa-button{min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-size:14px;font-weight:950;cursor:pointer;padding:0 14px}.pa-button.secondary{background:rgba(255,255,255,.08);color:#f8fbff;border:1px solid rgba(255,255,255,.16)}.pa-small{color:#aebbd0;font-size:12px;line-height:1.5}.pa-message{display:block;color:#ffe08a;font-size:12px;font-weight:900;min-height:16px;line-height:1.55}
       .pa-market-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.pa-market{min-height:42px;border:1px solid rgba(255,159,28,.20);border-radius:13px;background:rgba(255,255,255,.045);color:#f8fbff;font-weight:900;cursor:pointer}.pa-market.active{border-color:rgba(57,255,136,.55);background:rgba(57,255,136,.16);color:#c8ffdd}.pa-market:disabled,.pa-button:disabled,.pa-select:disabled{opacity:.45;cursor:not-allowed}.pa-result{display:grid;gap:10px;padding:14px;border:1px solid rgba(57,255,136,.20);border-radius:16px;background:rgba(57,255,136,.06)}.pa-row{display:flex;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:12px;background:rgba(0,0,0,.18);color:#aebbd0;font-size:12px}.pa-row strong{color:#f8fbff;text-align:right}
       @media(max-width:900px){.pa-grid,.pa-state{grid-template-columns:1fr}.pa-market-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){#premium-analysis-panel{margin:18px 14px 0;padding:14px}.pa-code-row{grid-template-columns:1fr}.pa-market-grid{grid-template-columns:1fr}.pa-head{display:grid}}
     `;
@@ -162,7 +170,7 @@
     const shell = ensureShell();
     const list = todayMatches(fixtures);
     shell.innerHTML = `
-      <div class="pa-head"><div><h2 class="pa-title">Özel Maç / Kupon Analizi</h2><p class="pa-sub">Üye kodunu aşağıdaki kutuya yaz. Kod backend tarafından doğrulanınca özel analiz açılır. Paket seçersen 1 günlük deneme de açılır.</p></div><div class="pa-badge">${active ? "✅ Üyelik aktif" : "🔒 Üyelik kilitli"}</div></div>
+      <div class="pa-head"><div><h2 class="pa-title">Özel Maç / Kupon Analizi</h2><p class="pa-sub">Üye kodunu aşağıdaki kutuya yaz. Kod backend tarafından doğrulanınca özel analiz açılır. Paket seçersen 1 günlük deneme de açılır.</p></div><div class="pa-badge">${accessBadgeText()}</div></div>
       <div class="pa-state"><div><span>Paket</span><strong>${active ? esc(member.planName || "Premium Üye") : "Ön İzleme"}</strong></div><div><span>Kalan Kullanım</span><strong>${active ? esc(member.remainingAnalysisCount ?? "Aktif") : "Kilitli"}</strong></div><div><span>Analiz Sistemi</span><strong>Premium</strong></div></div>
       <div class="pa-grid">
         <div class="pa-card">
