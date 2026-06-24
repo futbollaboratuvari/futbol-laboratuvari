@@ -3,7 +3,6 @@
   const PANEL_ID = "membership-payment-panel";
   const SELECTED_PLAN_KEY = "fl_selected_membership_plan";
   const CUSTOMER_KEY = "fl_membership_customer_info";
-  const PAYTR_CREATE_PAYMENT_URL = "https://futbol-laboratuvari.vercel.app/api/paytr/create-payment";
 
   const DEFAULT_PLANS = [
     {
@@ -13,7 +12,7 @@
       duration_label: "3 Gün",
       trial_label: "1 Gün Ücretsiz Deneme",
       features: ["10 özel analiz hakkı", "Günlük kuponları görme", "Maç bülteni ve sonuçlar", "Özel Analiz paneli öncelikli erişim"],
-      cta: "Gold Paketi Seç"
+      cta: "Kartla Satın Al"
     },
     {
       id: "pro",
@@ -22,7 +21,7 @@
       duration_label: "2 Hafta",
       trial_label: "1 Gün Ücretsiz Deneme",
       features: ["40 özel analiz hakkı", "Özel maç analizi paneli", "Seçenek seçerek analiz isteği", "Daha geniş analiz geçmişi"],
-      cta: "Diamond Paketi Seç"
+      cta: "Kartla Satın Al"
     },
     {
       id: "vip",
@@ -31,7 +30,7 @@
       duration_label: "4 Hafta",
       trial_label: "1 Gün Ücretsiz Deneme",
       features: ["120 özel analiz hakkı", "Tüm Diamond özellikleri", "Öncelikli analiz kuyruğu", "Yüksek oranlı özel analiz odağı"],
-      cta: "Premium Paketi Seç"
+      cta: "Kartla Satın Al"
     }
   ];
 
@@ -85,15 +84,6 @@
     return { className: "vip", badge: "Premium", icon: "👑", summary: "En güçlü kullanım, öncelik ve geniş analiz hakkı." };
   };
 
-  const paymentBody = (plan, customer) => {
-    const data = new URLSearchParams();
-    data.set("plan_id", plan.id);
-    data.set("name", customer.name);
-    data.set("email", customer.email);
-    data.set("phone", customer.phone);
-    return data;
-  };
-
   const startPayment = async (button, output, plan, customer) => {
     if (!plan) return;
 
@@ -102,33 +92,7 @@
       return;
     }
 
-    const oldText = button.textContent;
-    button.disabled = true;
-    button.textContent = "Ödeme açılıyor...";
-    output.innerHTML = `<strong>Ödeme hazırlanıyor:</strong> ${esc(plan.name)} için PayTR ödeme ekranı açılacak.`;
-
-    try {
-      const response = await fetch(PAYTR_CREATE_PAYMENT_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" },
-        body: paymentBody(plan, customer)
-      });
-      const result = await response.json();
-
-      if (!response.ok || !result.ok || !result.iframe_url) {
-        output.innerHTML = `<strong>Ödeme başlatılamadı:</strong> ${esc(result.error || "Bilinmeyen hata")}`;
-        button.disabled = false;
-        button.textContent = oldText;
-        return;
-      }
-
-      output.innerHTML = `<strong>Ödeme ekranı açılıyor:</strong> ${esc(plan.name)} için PayTR sayfasına yönlendiriliyorsun.`;
-      window.location.href = result.iframe_url;
-    } catch (error) {
-      output.innerHTML = `<strong>Ödeme bağlantısı kurulamadı:</strong> Lütfen tekrar dene.`;
-      button.disabled = false;
-      button.textContent = oldText;
-    }
+    output.innerHTML = `<strong>${esc(plan.name)} seçildi.</strong><br>PayTR sanal POS başvurusu tamamlanınca kartla ödeme açılacak. Şimdilik üyelik kodu manuel verilecek.<br><a class="membership-return" href="#premium-analysis-panel">Özel Analiz paneline dön</a>`;
   };
 
   const injectStyle = () => {
@@ -142,7 +106,7 @@
       .membership-customer{display:grid;gap:12px;margin:16px 0 0;padding:14px;border:1px solid rgba(255,159,28,.24);border-radius:16px;background:rgba(255,159,28,.07)}.membership-customer-title{color:#ffe08a;font-size:13px;font-weight:950}.membership-customer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.membership-customer label{display:grid;gap:6px;color:#d7e4f5;font-size:12px;font-weight:900}.membership-customer input{min-height:40px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(2,8,23,.72);color:#fff;padding:0 12px;outline:none}.membership-customer input:focus{border-color:rgba(57,255,136,.55);box-shadow:0 0 0 2px rgba(57,255,136,.13)}.membership-customer-note{color:#aebbd0;font-size:12px;line-height:1.45}
       .membership-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.membership-card{position:relative;overflow:hidden;display:grid;gap:13px;padding:18px;border:1px solid rgba(255,255,255,.08);border-radius:22px;background:rgba(255,255,255,.04);box-shadow:0 18px 48px rgba(0,0,0,.22);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}.membership-card:hover{transform:translateY(-3px);box-shadow:0 24px 62px rgba(0,0,0,.32)}.membership-card.selected{border-color:rgba(57,255,136,.78)!important;box-shadow:0 0 0 2px rgba(57,255,136,.22),0 24px 68px rgba(0,0,0,.34);transform:translateY(-5px)}.membership-card.selected::after{content:"Seçildi";position:absolute;right:14px;top:12px;padding:6px 9px;border-radius:999px;background:rgba(57,255,136,.18);border:1px solid rgba(57,255,136,.42);color:#c8ffdd;font-size:11px;font-weight:950}.membership-card::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:rgba(255,255,255,.18)}.membership-card.starter::before{background:linear-gradient(90deg,#aebbd0,#f8fbff)}.membership-card.pro{border-color:rgba(57,255,136,.42);background:linear-gradient(180deg,rgba(57,255,136,.12),rgba(255,255,255,.04))}.membership-card.pro::before{background:linear-gradient(90deg,#39ff88,#ff9f1c)}.membership-card.vip{border-color:rgba(255,159,28,.46);background:linear-gradient(135deg,rgba(255,159,28,.14),rgba(57,255,136,.06) 48%,rgba(255,255,255,.04))}.membership-card.vip::before{background:linear-gradient(90deg,#ff9f1c,#ffe08a,#39ff88)}
       .membership-tier{display:inline-flex;width:max-content;align-items:center;gap:7px;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:950;letter-spacing:.05em;text-transform:uppercase}.starter .membership-tier{background:rgba(174,187,208,.14);border:1px solid rgba(174,187,208,.22);color:#d7e4f5}.pro .membership-tier{background:rgba(57,255,136,.14);border:1px solid rgba(57,255,136,.32);color:#c8ffdd}.vip .membership-tier{background:rgba(255,159,28,.14);border:1px solid rgba(255,159,28,.34);color:#ffe08a}.membership-card h3{margin:0;color:#fff7d6;font-size:20px}.membership-price{color:#39ff88;font-size:24px;font-weight:950}.vip .membership-price{color:#ffe08a}.membership-duration{color:#ffe08a;font-size:12px;font-weight:900}.membership-card-summary{min-height:38px;color:#aebbd0;font-size:12px;line-height:1.45}.membership-trial-label{display:inline-flex;width:max-content;padding:6px 9px;border-radius:999px;border:1px solid rgba(57,255,136,.28);background:rgba(57,255,136,.10);color:#c8ffdd;font-size:11px;font-weight:950}.membership-list{display:grid;gap:8px;margin:0;padding:0;list-style:none}.membership-list li{display:flex;gap:8px;color:#d7e4f5;font-size:13px;line-height:1.45}.membership-list li::before{content:"✓";color:#39ff88;font-weight:950}.vip .membership-list li::before{color:#ffe08a}
-      .membership-pay{min-height:44px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:950;cursor:pointer}.membership-pay:hover{filter:brightness(1.06)}.membership-pay:disabled{opacity:.65;cursor:wait}.membership-output{margin-top:14px;padding:14px;border:1px solid rgba(57,255,136,.2);border-radius:16px;background:rgba(57,255,136,.06);color:#c8ffdd;font-size:13px;line-height:1.55}.membership-output strong{color:#ffe08a}.membership-small{margin-top:10px;color:#aebbd0;font-size:12px;line-height:1.5}.membership-return{display:inline-flex;margin-top:10px;min-height:38px;align-items:center;justify-content:center;padding:0 13px;border-radius:12px;text-decoration:none;background:rgba(57,255,136,.12);border:1px solid rgba(57,255,136,.26);color:#c8ffdd;font-weight:950;font-size:12px}
+      .membership-pay{min-height:44px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-weight:950;cursor:pointer}.membership-pay:hover{filter:brightness(1.06)}.membership-output{margin-top:14px;padding:14px;border:1px solid rgba(57,255,136,.2);border-radius:16px;background:rgba(57,255,136,.06);color:#c8ffdd;font-size:13px;line-height:1.55}.membership-output strong{color:#ffe08a}.membership-small{margin-top:10px;color:#aebbd0;font-size:12px;line-height:1.5}.membership-return{display:inline-flex;margin-top:10px;min-height:38px;align-items:center;justify-content:center;padding:0 13px;border-radius:12px;text-decoration:none;background:rgba(57,255,136,.12);border:1px solid rgba(57,255,136,.26);color:#c8ffdd;font-weight:950;font-size:12px}
       @media(max-width:900px){.membership-grid,.membership-customer-grid{grid-template-columns:1fr}.membership-head{flex-direction:column}.membership-badge{width:max-content}}@media(max-width:560px){.membership-shell{margin:18px 14px 0;padding:14px}}
     `;
     document.head.appendChild(style);
@@ -200,7 +164,7 @@
             <div class="membership-duration">${esc(plan.duration_label || "Paket")}</div>
             <span class="membership-trial-label">${esc(plan.trial_label || "1 Gün Ücretsiz Deneme")}</span>
             <ul class="membership-list">${(plan.features || []).map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
-            <button class="membership-pay" type="button" data-plan="${esc(plan.id)}" aria-pressed="${selected?.id === plan.id ? "true" : "false"}">Kartla Satın Al</button>
+            <button class="membership-pay" type="button" data-plan="${esc(plan.id)}" aria-pressed="${selected?.id === plan.id ? "true" : "false"}">${esc(plan.cta || "Kartla Satın Al")}</button>
           </article>`;
         }).join("")}
       </div>
@@ -211,9 +175,9 @@
           <label>E-posta<input data-customer-field="email" type="email" placeholder="ornek@mail.com" value="${esc(customer.email || "")}"></label>
           <label>Telefon<input data-customer-field="phone" type="tel" placeholder="05xx xxx xx xx" value="${esc(customer.phone || "")}"></label>
         </div>
-        <div class="membership-customer-note">Devam etmek için müşteri bilgilerini doldur. Bilgiler paket seçimiyle birlikte saklanır ve ödeme bağlantısında kullanılacaktır.</div>
+        <div class="membership-customer-note">Devam etmek için müşteri bilgilerini doldur. Bilgiler paket seçimiyle birlikte saklanır. PayTR sanal POS açılınca kartla ödeme aktif edilecektir.</div>
       </div>
-      <div class="membership-output" data-membership-output><strong>Durum:</strong> ${selected?.name ? `${esc(selected.name)} seçildi.` : "Paket seç."}<br><strong>Müşteri:</strong> ${customerReady(customer) ? `${esc(customer.name)} / ${esc(customer.email)} / ${esc(customer.phone)}` : "Ad Soyad, E-posta ve Telefon bilgilerini doldur."}<br><strong>Kod girişi:</strong> Kodunu Özel Analiz panelindeki Üye / kurucu kodu kutusuna yaz.<br><a class="membership-return" href="#premium-analysis-panel">Özel Analiz paneline dön</a></div>
+      <div class="membership-output" data-membership-output><strong>Durum:</strong> ${selected?.name ? `${esc(selected.name)} seçildi.` : "Paket seç."}<br><strong>Müşteri:</strong> ${customerReady(customer) ? `${esc(customer.name)} / ${esc(customer.email)} / ${esc(customer.phone)}` : "Ad Soyad, E-posta ve Telefon bilgilerini doldur."}<br><strong>Ödeme:</strong> PayTR sanal POS başvurusu tamamlanınca kartla ödeme aktif edilecek.<br><a class="membership-return" href="#premium-analysis-panel">Özel Analiz paneline dön</a></div>
       <p class="membership-small">Bu alan paket seçimi ve Özel Analiz kod giriş akışı için kullanılacak.</p>
     `;
 
