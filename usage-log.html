@@ -5,17 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive">
   <title>Kullanim Gecmisi</title>
-  <style>body{background:#050b18;color:#f8fbff;font-family:Arial;margin:0}.wrap{max-width:900px;margin:auto;padding:24px}.box{border:1px solid #ff9f1c;border-radius:18px;padding:18px;background:#09172f}.btn{display:inline-block;margin:8px 8px 8px 0;padding:12px 14px;border-radius:12px;background:#ff9f1c;color:#07110c;font-weight:900;text-decoration:none}.small{color:#9fb0c7;line-height:1.6}</style>
+  <style>
+    body{background:#050b18;color:#f8fbff;font-family:Arial;margin:0}
+    .wrap{max-width:1100px;margin:auto;padding:24px}
+    .box{border:1px solid #ff9f1c;border-radius:18px;padding:18px;background:#09172f}
+    .btn{display:inline-block;margin:8px 8px 8px 0;padding:12px 14px;border-radius:12px;background:#ff9f1c;color:#07110c;font-weight:900;text-decoration:none;border:0;cursor:pointer}
+    .small{color:#9fb0c7;line-height:1.6}
+    .status{margin:12px 0;color:#d8e5ff;font-weight:700}
+    table{width:100%;border-collapse:collapse;margin-top:16px;background:#071225;border-radius:14px;overflow:hidden}
+    th,td{padding:12px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;font-size:14px}
+    th{color:#ffcf75;background:#0b1b35}
+    td{color:#f8fbff}
+    .empty{padding:16px;color:#9fb0c7;background:#071225;border-radius:14px;margin-top:14px}
+    @media(max-width:700px){th,td{font-size:12px;padding:10px}.wrap{padding:14px}}
+  </style>
 </head>
 <body>
   <div class="wrap">
     <h1>Kullanim Gecmisi</h1>
     <div class="box">
-      <p class="small">Kod dogrulama basarili olunca backend gecici kullanim kaydi olusturur.</p>
-      <p class="small">Kayitlar gecicidir. Kalici veritabani sonraki asamada baglanacak.</p>
-      <a class="btn" href="https://futbol-laboratuvari.vercel.app/api/verify-code?usageLog=1" target="_blank" rel="noopener">Kayitlari Ac</a>
+      <p class="small">Kod dogrulama basarili olunca kullanim kaydi burada tablo halinde gorunur.</p>
+      <p class="small">Kayitlar GitHub merkezi usage-log dosyasindan okunur.</p>
+      <button class="btn" id="loadBtn" type="button">Kayitlari Yenile</button>
       <a class="btn" href="./admin.html">Admin Panele Don</a>
+      <div class="status" id="status">Hazir.</div>
+      <div id="result"></div>
     </div>
   </div>
+  <script>
+    const API_URL = "https://futbol-laboratuvari.vercel.app/api/verify-code?usageLog=1";
+    const statusEl = document.getElementById("status");
+    const resultEl = document.getElementById("result");
+    const loadBtn = document.getElementById("loadBtn");
+
+    function clean(value){
+      return String(value ?? "").replace(/[&<>"']/g, function(ch){
+        return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[ch];
+      });
+    }
+
+    function render(records){
+      if(!records || !records.length){
+        resultEl.innerHTML = '<div class="empty">Kayit bulunamadi.</div>';
+        return;
+      }
+      const rows = records.map(function(item){
+        return `<tr>
+          <td>${clean(item.at)}</td>
+          <td>${clean(item.planName)}</td>
+          <td>${clean(item.codeLabel)}</td>
+          <td>${clean(item.remainingAnalysisCount)}</td>
+          <td>${clean(item.owner)}</td>
+        </tr>`;
+      }).join("");
+      resultEl.innerHTML = `<table>
+        <thead><tr><th>Tarih</th><th>Paket</th><th>Kod</th><th>Kalan Hak</th><th>Sahip</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+    }
+
+    async function loadRecords(){
+      statusEl.textContent = "Kayitlar yukleniyor...";
+      try{
+        const response = await fetch(API_URL, {cache:"no-store"});
+        const data = await response.json();
+        if(!data.ok){
+          statusEl.textContent = "Kayitlar alinamadi.";
+          resultEl.innerHTML = '<div class="empty">Backend cevap vermedi.</div>';
+          return;
+        }
+        statusEl.textContent = `Toplam kayit: ${(data.records || []).length}`;
+        render(data.records || []);
+      }catch(error){
+        statusEl.textContent = "Baglanti hatasi.";
+        resultEl.innerHTML = '<div class="empty">Kayitlar yuklenemedi.</div>';
+      }
+    }
+
+    loadBtn.addEventListener("click", loadRecords);
+    loadRecords();
+  </script>
 </body>
 </html>
