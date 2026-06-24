@@ -3,6 +3,10 @@
   const PANEL_ID = "membership-payment-panel";
   const SELECTED_PLAN_KEY = "fl_selected_membership_plan";
   const CUSTOMER_KEY = "fl_membership_customer_info";
+  const ACCESS_KEY = "fl_premium_beta_access";
+  const MEMBER_KEY = "fl_premium_membership";
+  const TRIAL_KEY = "fl_premium_trial";
+  const TRIAL_MS = 24 * 60 * 60 * 1000;
 
   const DEFAULT_PLANS = [
     {
@@ -12,7 +16,7 @@
       duration_label: "3 Gün",
       trial_label: "1 Gün Ücretsiz Deneme",
       features: ["10 özel analiz hakkı", "Günlük kuponları görme", "Maç bülteni ve sonuçlar", "Özel Analiz paneli öncelikli erişim"],
-      cta: "Kartla Satın Al"
+      cta: "1 Gün Ücretsiz Dene"
     },
     {
       id: "pro",
@@ -21,7 +25,7 @@
       duration_label: "2 Hafta",
       trial_label: "1 Gün Ücretsiz Deneme",
       features: ["40 özel analiz hakkı", "Özel maç analizi paneli", "Seçenek seçerek analiz isteği", "Daha geniş analiz geçmişi"],
-      cta: "Kartla Satın Al"
+      cta: "1 Gün Ücretsiz Dene"
     },
     {
       id: "vip",
@@ -30,7 +34,7 @@
       duration_label: "4 Hafta",
       trial_label: "1 Gün Ücretsiz Deneme",
       features: ["120 özel analiz hakkı", "Tüm Diamond özellikleri", "Öncelikli analiz kuyruğu", "Yüksek oranlı özel analiz odağı"],
-      cta: "Kartla Satın Al"
+      cta: "1 Gün Ücretsiz Dene"
     }
   ];
 
@@ -78,6 +82,40 @@
 
   const customerReady = (customer) => Boolean(customer?.name && customer?.email && customer?.phone);
 
+  const trialCountForPlan = (plan) => {
+    if (plan?.id === "starter") return 10;
+    if (plan?.id === "pro") return 40;
+    if (plan?.id === "vip") return 120;
+    return 10;
+  };
+
+  const activateTrial = (plan, customer) => {
+    const startedAt = Date.now();
+    const expiresAt = startedAt + TRIAL_MS;
+    const membership = {
+      planCode: plan.id,
+      planName: `${plan.name} Deneme`,
+      remainingAnalysisCount: trialCountForPlan(plan),
+      trial: true
+    };
+    localStorage.setItem(TRIAL_KEY, JSON.stringify({
+      planId: plan.id,
+      planName: plan.name,
+      customerName: customer.name,
+      customerEmail: customer.email,
+      customerPhone: customer.phone,
+      startedAt,
+      expiresAt
+    }));
+    localStorage.setItem(ACCESS_KEY, "1");
+    localStorage.setItem(MEMBER_KEY, JSON.stringify(membership));
+    localStorage.setItem("fl_premium_access_note", "trial");
+    localStorage.setItem("fl_premium_access_level", "trial");
+    return { expiresAt };
+  };
+
+  const trialUntilText = (expiresAt) => new Date(expiresAt).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
+
   const planTone = (plan) => {
     if (plan.id === "starter") return { className: "starter", badge: "Başlangıç", icon: "🌱", summary: "Denemek ve temel özel analiz erişimi için giriş paketi." };
     if (plan.id === "pro") return { className: "pro", badge: "En Popüler", icon: "⚡", summary: "Özel maç analizi için ana önerilen paket." };
@@ -88,11 +126,13 @@
     if (!plan) return;
 
     if (!customerReady(customer)) {
-      output.innerHTML = `<strong>Eksik bilgi:</strong> Kartla satın almak için Ad Soyad, E-posta ve Telefon alanlarını doldur.`;
+      output.innerHTML = `<strong>Eksik bilgi:</strong> 1 günlük denemeyi başlatmak için Ad Soyad, E-posta ve Telefon alanlarını doldur.`;
       return;
     }
 
-    output.innerHTML = `<strong>${esc(plan.name)} seçildi.</strong><br>PayTR sanal POS başvurusu tamamlanınca kartla ödeme açılacak. Şimdilik üyelik kodu manuel verilecek.<br><a class="membership-return" href="#premium-analysis-panel">Özel Analiz paneline dön</a>`;
+    const trial = activateTrial(plan, customer);
+    output.innerHTML = `<strong>${esc(plan.name)} 1 günlük deneme aktif.</strong><br>Deneme bitişi: ${esc(trialUntilText(trial.expiresAt))}<br>PayTR sanal POS başvurusu tamamlanınca kartla ödeme açılacak. Şimdilik üyelik kodu manuel verilecek.<br><a class="membership-return" href="#premium-analysis-panel">Özel Analiz paneline dön</a>`;
+    document.dispatchEvent(new CustomEvent("fl:trial-access-started", { detail: { plan, customer, expiresAt: trial.expiresAt } }));
   };
 
   const injectStyle = () => {
@@ -137,18 +177,17 @@
       <div class="membership-head">
         <div>
           <h2 class="membership-title">Üyelik Paketleri</h2>
-          <p class="membership-subtitle">Paketini seçtikten sonra sana verilen kodu Özel Analiz panelindeki kod kutusuna yazarsın. Kod kutusu, Özel Analiz alanındaki Ücretli Üye Alanı bölümündedir.</p>
+          <p class="membership-subtitle">Paketini seçtikten sonra 1 günlük deneme erişimi açılır. PayTR sanal POS tamamlanana kadar kartla ödeme kapalıdır.</p>
         </div>
         <span class="membership-badge">🧠 Özel Analiz Paketi</span>
       </div>
       <div class="membership-guide" aria-label="Kod kullanım adımları">
-        <strong>Kodunu nereye gireceksin?</strong>
+        <strong>Deneme ve kod kullanımı</strong>
         <ol>
-          <li>Paketini seç.</li>
-          <li>Aşağıdaki <span class="membership-code-path">Özel Analiz paneline dön</span> butonuna bas.</li>
-          <li>Özel Analiz alanında <span class="membership-code-path">Ücretli Üye Alanı</span> yazısına tıkla.</li>
-          <li>Açılan <span class="membership-code-path">Üye / kurucu kodu</span> kutusuna kodunu yaz.</li>
-          <li><span class="membership-code-path">Kod ile Aç</span> butonuna bas.</li>
+          <li>Müşteri bilgilerini doldur.</li>
+          <li>Paketlerden birini seç.</li>
+          <li>1 günlük deneme erişimi otomatik açılır.</li>
+          <li>Deneme bitince üye kodu veya ödeme gerekecektir.</li>
         </ol>
       </div>
       <div class="membership-grid">
@@ -164,7 +203,7 @@
             <div class="membership-duration">${esc(plan.duration_label || "Paket")}</div>
             <span class="membership-trial-label">${esc(plan.trial_label || "1 Gün Ücretsiz Deneme")}</span>
             <ul class="membership-list">${(plan.features || []).map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
-            <button class="membership-pay" type="button" data-plan="${esc(plan.id)}" aria-pressed="${selected?.id === plan.id ? "true" : "false"}">${esc(plan.cta || "Kartla Satın Al")}</button>
+            <button class="membership-pay" type="button" data-plan="${esc(plan.id)}" aria-pressed="${selected?.id === plan.id ? "true" : "false"}">${esc(plan.cta || "1 Gün Ücretsiz Dene")}</button>
           </article>`;
         }).join("")}
       </div>
@@ -175,10 +214,10 @@
           <label>E-posta<input data-customer-field="email" type="email" placeholder="ornek@mail.com" value="${esc(customer.email || "")}"></label>
           <label>Telefon<input data-customer-field="phone" type="tel" placeholder="05xx xxx xx xx" value="${esc(customer.phone || "")}"></label>
         </div>
-        <div class="membership-customer-note">Devam etmek için müşteri bilgilerini doldur. Bilgiler paket seçimiyle birlikte saklanır. PayTR sanal POS açılınca kartla ödeme aktif edilecektir.</div>
+        <div class="membership-customer-note">Devam etmek için müşteri bilgilerini doldur. Paket seçilince 1 günlük deneme aktif olur.</div>
       </div>
-      <div class="membership-output" data-membership-output><strong>Durum:</strong> ${selected?.name ? `${esc(selected.name)} seçildi.` : "Paket seç."}<br><strong>Müşteri:</strong> ${customerReady(customer) ? `${esc(customer.name)} / ${esc(customer.email)} / ${esc(customer.phone)}` : "Ad Soyad, E-posta ve Telefon bilgilerini doldur."}<br><strong>Ödeme:</strong> PayTR sanal POS başvurusu tamamlanınca kartla ödeme aktif edilecek.<br><a class="membership-return" href="#premium-analysis-panel">Özel Analiz paneline dön</a></div>
-      <p class="membership-small">Bu alan paket seçimi ve Özel Analiz kod giriş akışı için kullanılacak.</p>
+      <div class="membership-output" data-membership-output><strong>Durum:</strong> ${selected?.name ? `${esc(selected.name)} seçildi.` : "Paket seç."}<br><strong>Müşteri:</strong> ${customerReady(customer) ? `${esc(customer.name)} / ${esc(customer.email)} / ${esc(customer.phone)}` : "Ad Soyad, E-posta ve Telefon bilgilerini doldur."}<br><strong>Deneme:</strong> Paket seçilince 1 günlük ücretsiz deneme açılır.<br><a class="membership-return" href="#premium-analysis-panel">Özel Analiz paneline dön</a></div>
+      <p class="membership-small">PayTR sanal POS başvurusu tamamlanınca kartla ödeme tekrar aktif edilecek.</p>
     `;
 
     const output = shell.querySelector("[data-membership-output]");
