@@ -1,4 +1,3 @@
-const { Octokit } = require("@octokit/rest");
 const { getUsageToken } = require("./usage-token");
 
 const owner = "futbollaboratuvari";
@@ -11,6 +10,11 @@ function decodeContent(value) {
 
 function encodeContent(value) {
   return Buffer.from(value, "utf8").toString("base64");
+}
+
+async function loadOctokit() {
+  const mod = await import("@octokit/rest");
+  return mod.Octokit;
 }
 
 async function getCurrentFile(octokit) {
@@ -27,6 +31,7 @@ async function decreaseMembershipCount(codeHash) {
   if (!token) return { changed: false, reason: "token-missing" };
 
   try {
+    const Octokit = await loadOctokit();
     const octokit = new Octokit({ auth: token });
     const current = await getCurrentFile(octokit);
     const codes = current.data.codes || [];
