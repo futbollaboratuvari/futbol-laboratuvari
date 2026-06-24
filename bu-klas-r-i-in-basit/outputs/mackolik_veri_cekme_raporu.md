@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-23T22:53:51.684167+00:00
+Tarih: 2026-06-24T10:30:08.549856+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 20
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 20
-- Ham veri havuzu toplam mac sayisi: 362
+- Kac mac bulundu: 28
+- Kac mac kaydedildi: 10
+- Kac mac zaten vardi: 18
+- Ham veri havuzu toplam mac sayisi: 372
 - Hedef tarih: 24.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avustralya NPL Kuzey YGG
 - Dünya Kupası 2026 Grup B
 - Faroe Adaları Kupa Yarı Final
 - Gürcistan Erovnuli Liga
@@ -24,6 +23,11 @@ Tarih: 2026-06-23T22:53:51.684167+00:00
 - Lübnan Premier Lig
 - Norveç 3.Lig Grup 1
 - Tanzanya Kuu Bara Ligi
+- Venezuela Kupa 1.Tur Grup A
+- Venezuela Kupa 1.Tur Grup B
+- Venezuela Kupa 1.Tur Grup C
+- Venezuela Kupa 1.Tur Grup D
+- Venezuela Kupa 1.Tur Grup E
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Södra Götaland
@@ -86,8 +90,8 @@ Tarih: 2026-06-23T22:53:51.684167+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 34
-- Acilan detay: 34
+- Denenen Tumu alani: 40
+- Acilan detay: 40
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -102,15 +106,15 @@ Tarih: 2026-06-23T22:53:51.684167+00:00
 |---|---|---|---|---|---|---:|
 | 24.06.2026 | 22:00 | Dünya Kupası 2026 Grup B | Bosna Hersek | Katar | 16231 | 5 |
 | 24.06.2026 | 22:00 | Dünya Kupası 2026 Grup B | İsviçre | Kanada | 16303 | 5 |
-| 24.06.2026 | 23:00 | Şili Kupa Grup C | La Serena | Cobresal | 09617 | 5 |
+| 24.06.2026 | 19:00 | Litvanya Kupa Çeyrek Final | Fk Dainava | Transinvest Vil | 11979 | 3 |
+| 24.06.2026 | 18:00 | Litvanya Kupa Çeyrek Final | Fa Siauliai | Dziugas Telsiai | 11962 | 5 |
+| 24.06.2026 | 15:00 | Hazırlık Kulüpler | Mjallby | Halmstads | 10390 | 5 |
 | 24.06.2026 | 21:45 | Hazırlık Kulüpler | Glentoran | The New Saints | 07509 | 5 |
+| 24.06.2026 | 19:00 | Gürcistan Erovnuli Liga | Gagra | Samgurali | 08187 | 5 |
+| 24.06.2026 | 23:00 | Şili Kupa Grup C | La Serena | Cobresal | 09617 | 5 |
 | 24.06.2026 | 15:30 | Lübnan Premier Lig | Ahed | Safa | 10321 | 5 |
 | 24.06.2026 | 22:00 | Lübnan Premier Lig | Ansar | Jwaya | 10342 | 5 |
 | 24.06.2026 | 20:30 | Faroe Adaları Kupa Yarı Final | Runavik (2) | (4) Kí Klaksvík | 09489 | 5 |
-| 24.06.2026 | 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit | Cooks Hill Unit | 09408 | 3 |
-| 24.06.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Adamstown Roseb | 09410 | 3 |
-| 24.06.2026 | 19:00 | Litvanya Kupa Çeyrek Final | Fk Dainava | Transinvest Vil | 11979 | 3 |
-| 24.06.2026 | 18:00 | Litvanya Kupa Çeyrek Final | Fa Siauliai | Dziugas Telsiai | 11962 | 5 |
 | 24.06.2026 | 20:00 | Norveç 3.Lig Grup 1 | Gamle Oslo | Lokomotiv Oslo | 07407 | 3 |
 | 24.06.2026 | 20:30 | İsveç 2.Lig Norra Svealand | Angby | Enskede | 09379 | 5 |
 | 24.06.2026 | 20:00 | İsveç 2.Lig Vastra Götaland | Frolunda | Qviding | 09377 | 3 |
@@ -118,8 +122,8 @@ Tarih: 2026-06-23T22:53:51.684167+00:00
 | 24.06.2026 | 20:30 | İsveç 2.Lig Södra Svealand | Lindo Ff | Smedby Ais | 09381 | 3 |
 | 24.06.2026 | 19:00 | İsveç 2.Lig Norra Götaland | Grebbestads If | Ifk Kumla | 09373 | 5 |
 | 24.06.2026 | 18:00 | Litvanya 1.Lig | Babrungas | Kauno Zalgiris | 09634 | 2 |
-| 24.06.2026 | 19:00 | Gürcistan Erovnuli Liga | Gagra | Samgurali | 08187 | 5 |
-| 24.06.2026 | 16:00 | Tanzanya Kuu Bara Ligi | Fountain Gate | Mashujaa | 08021 | 3 |
+| 24.06.2026 | 23:00 | Venezuela Kupa 1.Tur Grup A | Academia Anzoa | Atletico Avila | 08133 | 5 |
+| 24.06.2026 | 22:30 | Venezuela Kupa 1.Tur Grup B | Real Frontera | Atletico Barina | 08130 | 5 |
 
 ## Sonuc
 
