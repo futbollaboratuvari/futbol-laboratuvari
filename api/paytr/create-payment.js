@@ -1,6 +1,7 @@
 const { json, readBody, requireEnv } = require("../_lib/http");
 const { getPlan } = require("../_lib/plans");
 const { paytrToken, orderId, getIframeToken } = require("../_lib/paytr");
+const { appendPendingOrder } = require("../lib/order-write");
 
 function clean(value) {
   return String(value || "").trim();
@@ -63,14 +64,24 @@ module.exports = async function handler(req, res) {
 
     payload.paytr_token = paytrToken(payload, merchantSalt, merchantKey);
 
-    // Üretim ortamında burada sipariş DB'ye pending olarak kaydedilecek.
-    // Zorunlu alanlar: merchant_oid, email, name, phone, plan_id, amount_kurus, status=pending.
+    const orderSaveResult = await appendPendingOrder({
+      merchant_oid: merchantOid,
+      email,
+      name,
+      phone,
+      plan_id: plan.id,
+      plan_name: plan.name,
+      amount_kurus: plan.amountKurus,
+      status: "pending",
+      created_at: new Date().toISOString()
+    });
 
     const paytrResult = await getIframeToken(payload);
     if (paytrResult.status !== "success") {
       return json(res, 400, {
         ok: false,
         error: paytrResult.reason || "PayTR ödeme token alınamadı.",
+        order_save: orderSaveResult
       });
     }
 
@@ -80,6 +91,7 @@ module.exports = async function handler(req, res) {
       order_id: merchantOid,
       plan_id: plan.id,
       amount_kurus: plan.amountKurus,
+      order_save: orderSaveResult,
       iframe_token: paytrResult.token,
       iframe_url: `https://www.paytr.com/odeme/guvenli/${paytrResult.token}`,
       test_mode: testMode === "1",
