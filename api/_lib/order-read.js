@@ -1,3 +1,5 @@
+const { generateMembershipCode } = require("./code-generate");
+
 const owner = "futbollaboratuvari";
 const repo = "futbol-laboratuvari";
 const ordersPath = "data/orders.json";
@@ -36,12 +38,14 @@ async function readOrdersFile(token) {
 async function findOrderByMerchantOid(token, merchantOid) {
   const file = await readOrdersFile(token);
   const order = (file.orders || []).find(item => item && item.merchant_oid === merchantOid) || null;
+  const generated = order ? generateMembershipCode(order.plan_id) : null;
 
   return {
     ok: file.ok,
     reason: file.reason || null,
     found: Boolean(order),
-    order
+    order,
+    generated
   };
 }
 
