@@ -70,6 +70,15 @@ async function decreaseMembershipCount(codeHash) {
   }
 }
 
+async function stageCodeRecord(record) {
+  return {
+    ready: false,
+    reason: "stage-only",
+    codeLabel: record && record.codeLabel ? record.codeLabel : ""
+  };
+}
+
 module.exports = {
-  decreaseMembershipCount
+  decreaseMembershipCount,
+  stageCodeRecord
 };
