@@ -1,5 +1,12 @@
+function allowPublicResponse(res) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+}
+
 function json(res, statusCode, payload) {
   res.statusCode = statusCode;
+  allowPublicResponse(res);
   res.setHeader("Content-Type", "application/json; charset=utf-8");
   res.setHeader("Cache-Control", "no-store");
   res.end(JSON.stringify(payload));
@@ -7,6 +14,7 @@ function json(res, statusCode, payload) {
 
 function text(res, statusCode, payload) {
   res.statusCode = statusCode;
+  allowPublicResponse(res);
   res.setHeader("Content-Type", "text/plain; charset=utf-8");
   res.setHeader("Cache-Control", "no-store");
   res.end(payload);
