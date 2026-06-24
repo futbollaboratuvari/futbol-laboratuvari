@@ -1,0 +1,23 @@
+name: Auto relaxed analysis
+
+on:
+  schedule:
+    - cron: "10 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  auto-relaxed-analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node scripts/robot-threshold-patch.js
+      - run: node scripts/update-analysis-report.js
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto relaxed robot analysis"
+          file_pattern: data/*.json outputs/*.md
