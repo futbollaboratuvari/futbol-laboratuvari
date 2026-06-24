@@ -1,5 +1,7 @@
 const { readBody, text } = require("../_lib/http");
 const { verifyCallbackHash } = require("../_lib/paytr");
+const { findOrderByMerchantOid } = require("../_lib/order-read");
+const { getUsageToken } = require("../lib/usage-token");
 
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {
@@ -22,13 +24,16 @@ module.exports = async function handler(req, res) {
     const merchantOid = post.merchant_oid;
     const status = post.status;
     const totalAmount = post.total_amount;
+    const token = getUsageToken();
+    const orderLookup = await findOrderByMerchantOid(token, merchantOid);
 
-    // Üretim ortamında burada DB kontrolü yapılacak:
-    // 1. merchantOid ile pending sipariş bulunur.
-    // 2. Daha önce paid/failed ise tekrar işlenmez.
-    // 3. status success ise sipariş paid yapılır ve üyelik aktif edilir.
-    // 4. Başarısız ise sipariş failed yapılır.
-    console.log("PayTR callback verified", { merchantOid, status, totalAmount });
+    console.log("PayTR callback verified", {
+      merchantOid,
+      status,
+      totalAmount,
+      orderFound: orderLookup.found,
+      orderReadOk: orderLookup.ok
+    });
 
     return text(res, 200, "OK");
   } catch (error) {
