@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-23T23:45:00+03:00",
+  "updatedAt": "2026-06-24T04:10:00+03:00",
   "systemStatus": {
     "membershipSource": "data/membership-codes.json",
-    "usageLogStorage": "temporary-memory",
+    "usageLogStorage": "github-json-file",
     "usageLogEnabled": true,
-    "usageLogNote": "Kod basarili girildiginde gecici kullanim kaydi olusur. Kalici veritabani sonraki asamada baglanacak."
+    "usageLogNote": "Kod basarili girildiginde kalici kullanim kaydi data/usage-log.json dosyasina yazilir. Normal paketlerde kalan hak 1 azaltılır; kurucu kod sabit kalir."
   },
   "plans": {
     "gold": {
@@ -50,6 +50,17 @@
       "owner": "Cem / Kurucu",
       "note": "Ana kurucu kodu",
       "createdAt": "2026-06-23"
+    },
+    {
+      "codeHash": "2d5419b1c84819010c94baef9ccd9e2ea0c1781167c62acb9a97104317fd32bf",
+      "codeLabel": "GOLD-TEST-****",
+      "planCode": "gold",
+      "planName": "Gold Paket",
+      "remainingAnalysisCount": 25,
+      "active": true,
+      "owner": "Test / Gold",
+      "note": "Hak dusurme testi icin gecici Gold kodu",
+      "createdAt": "2026-06-24"
     }
   ]
 }
