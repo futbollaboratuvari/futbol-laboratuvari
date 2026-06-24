@@ -2,6 +2,7 @@ const robotPaths = {
   liveMatches: "./data/live-matches.json",
   dailyCoupons: "./data/daily-coupons.json",
   robotAnalysis: "./data/robot-analysis.json",
+  robotBridge: "./data/robot-engine-bridge.json",
   rawPool: "./data/ham_mac_havuzu.json",
   history: "./data/analiz_sonuclari.json",
   mainReport: "./outputs/bugunun_en_guclu_maclari.md",
@@ -202,10 +203,11 @@ function renderReports(reports) {
 }
 
 async function robotLoadState() {
-  const [live, coupons, analysis, raw, history, mainReport, sourceReport, successReport] = await Promise.all([
+  const [live, coupons, analysis, bridge, raw, history, mainReport, sourceReport, successReport] = await Promise.all([
     robotReadJson(robotPaths.liveMatches, { matches: [], message: emptyMessage }),
     robotReadJson(robotPaths.dailyCoupons, { coupons: {}, message: emptyMessage }),
     robotReadJson(robotPaths.robotAnalysis, { matches: [], summary: {} }),
+    robotReadJson(robotPaths.robotBridge, { status: "missing" }),
     robotReadJson(robotPaths.rawPool, { match_count: 0, matches: [] }),
     robotReadJson(robotPaths.history, { active_items: [], completed_items: [] }),
     robotReadText(robotPaths.mainReport),
@@ -217,6 +219,7 @@ async function robotLoadState() {
     live: live.data,
     coupons: coupons.data,
     analysis: analysis.data,
+    bridge: bridge.data,
     raw: raw.data,
     history: history.data,
     reports: {
@@ -225,7 +228,8 @@ async function robotLoadState() {
       "Başarı Yüzdesi": { ...successReport, path: robotPaths.successReport },
       "Canlı Maç JSON": { ...live, path: robotPaths.liveMatches },
       "Günlük Kupon JSON": { ...coupons, path: robotPaths.dailyCoupons },
-      "Robot Analiz JSON": { ...analysis, path: robotPaths.robotAnalysis }
+      "Robot Analiz JSON": { ...analysis, path: robotPaths.robotAnalysis },
+      "Robot Köprü JSON": { ...bridge, path: robotPaths.robotBridge }
     }
   };
 }
@@ -239,16 +243,17 @@ async function robotBoot() {
     ...(Array.isArray(state.history.active_items) ? state.history.active_items : []),
     ...(Array.isArray(state.history.predictions) ? state.history.predictions : []),
   ];
+  const bridgeReady = state.bridge?.status === "ready";
 
-  robotSet("[data-active-source]", state.live.source || state.coupons.source || "Canlı veri bekleniyor");
-  robotSet("[data-match-count]", String(matches.length));
+  robotSet("[data-active-source]", state.live.source || state.coupons.source || state.bridge?.source_file || "Canlı veri bekleniyor");
+  robotSet("[data-match-count]", String(matches.length || state.bridge?.match_count || 0));
   robotSet("[data-average-confidence]", averageConfidence(matches));
   robotSet("#avg-confidence", averageConfidence(matches));
   robotSet("[data-strongest-signal]", strongestMarket(matches));
   robotSet("#top-market", strongestMarket(matches));
   robotSet("[data-raw-count]", String(state.raw.match_count || state.raw.matches?.length || 0));
   robotSet("[data-prediction-count]", String(historyItems.length || analysisMatches.length));
-  robotSet("[data-load-status]", matches.length ? "High Value Engine" : emptyMessage);
+  robotSet("[data-load-status]", matches.length ? "High Value Engine" : bridgeReady ? "Robot köprüsü hazır" : emptyMessage);
   robotSet("[data-success-state]", state.history.completed_items?.length ? "sonuçlandı" : "bekliyor");
 
   fill("[data-admin-matches]", matches.length ? matches.map(matchCard).join("") : emptyCard(state.live.message || emptyMessage));
