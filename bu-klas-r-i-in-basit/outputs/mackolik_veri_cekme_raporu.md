@@ -1,30 +1,36 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-24T17:34:04.061644+00:00
+Tarih: 2026-06-24T22:04:12.609435+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 14
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 14
-- Ham veri havuzu toplam mac sayisi: 372
-- Hedef tarih: 24.06.2026 Europe/Istanbul
+- Kac mac bulundu: 32
+- Kac mac kaydedildi: 32
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 404
+- Hedef tarih: 25.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- Dünya Kupası 2026 Grup B
-- Hazırlık Kulüpler
+- Dünya Kupası 2026 Grup E
+- Faroe Adaları Kupa Yarı Final
+- Fas Botola Pro
+- Finlandiya Ykkönen
+- Kuveyt Premier Lig Şampiyonluk Grubu
+- Letonya Virsliga
 - Lübnan Premier Lig
-- Venezuela Kupa 1.Tur Grup A
-- Venezuela Kupa 1.Tur Grup B
-- Venezuela Kupa 1.Tur Grup C
-- Venezuela Kupa 1.Tur Grup D
-- Venezuela Kupa 1.Tur Grup E
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 6
+- İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Södra Svealand
-- Şili Kupa Grup C
+- İsveç 2.Lig Vastra Götaland
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -81,8 +87,8 @@ Tarih: 2026-06-24T17:34:04.061644+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 24
+- Acilan detay: 24
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -95,20 +101,26 @@ Tarih: 2026-06-24T17:34:04.061644+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 24.06.2026 | 22:00 | Dünya Kupası 2026 Grup B | Bosna Hersek | Katar | 16231 | 5 |
-| 24.06.2026 | 22:00 | Dünya Kupası 2026 Grup B | İsviçre | Kanada | 16303 | 5 |
-| 24.06.2026 | 21:45 | Hazırlık Kulüpler | Glentoran | The New Saints | 07509 | 5 |
-| 24.06.2026 | 23:00 | Şili Kupa Grup C | La Serena | Cobresal | 09617 | 5 |
-| 24.06.2026 | 22:00 | Lübnan Premier Lig | Ansar | Jwaya | 10342 | 5 |
-| 24.06.2026 | 20:30 | İsveç 2.Lig Norra Svealand | Angby | Enskede | 09379 | 5 |
-| 24.06.2026 | 20:30 | İsveç 2.Lig Södra Svealand | Lindo Ff | Smedby Ais | 09381 | 5 |
-| 24.06.2026 | 23:00 | Venezuela Kupa 1.Tur Grup A | Academia Anzoa | Atletico Avila | 08133 | 5 |
-| 24.06.2026 | 22:30 | Venezuela Kupa 1.Tur Grup B | Real Frontera | Atletico Barina | 08130 | 5 |
-| 24.06.2026 | 23:00 | Venezuela Kupa 1.Tur Grup C | Fundacion Lara | Yaracuyanos | 08135 | 5 |
-| 24.06.2026 | 23:00 | Venezuela Kupa 1.Tur Grup C | Caracas Fc | Aragua | 08137 | 5 |
-| 24.06.2026 | 22:30 | Venezuela Kupa 1.Tur Grup D | Rayo Zuliano | Trujillanos | 11486 | 5 |
-| 24.06.2026 | 23:00 | Venezuela Kupa 1.Tur Grup D | Urena Fc | Deportivo Lara | 08139 | 5 |
-| 24.06.2026 | 22:30 | Venezuela Kupa 1.Tur Grup E | Mineros | Bolívar | 08113 | 5 |
+| 25.06.2026 | 23:00 | Dünya Kupası 2026 Grup E | Ekvador | Almanya | 16751 | 5 |
+| 25.06.2026 | 23:00 | Dünya Kupası 2026 Grup E | Curacao | Fildişi Sahili | 16684 | 4 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Yacoub El Mans | Raja Casablanca | 09690 | 5 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Kawkab Marrake | Fus Rabat | 08946 | 5 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Uts Rabat | Difaa | 09964 | 5 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Cr Khemis Zema | Ol. Safi | 08693 | 5 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Wydad Casablan | Maghreb Fes | 10117 | 5 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Olympique Dche | Ittihad Tanger | 09043 | 5 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Codm Meknes | Husa Agadir | 08305 | 5 |
+| 25.06.2026 | 20:00 | Fas Botola Pro | Rsb Berkane | Far Rabat | 09304 | 5 |
+| 25.06.2026 | 19:00 | Finlandiya Ykkönen | Fc Jazz | Tampere Utd | 08159 | 5 |
+| 25.06.2026 | 19:00 | Finlandiya Ykkönen | Jyvaskyla | Inter Turku Ii | 08231 | 5 |
+| 25.06.2026 | 19:05 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Fahaheel | Al Qadsia | 10015 | 5 |
+| 25.06.2026 | 21:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Salmiyah | Al Arabi | 10175 | 5 |
+| 25.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al-Kuwait | Kazma | 10112 | 5 |
+| 25.06.2026 | 15:30 | Lübnan Premier Lig | Nejmeh | Tadamon Tyre | 04025 | 5 |
+| 25.06.2026 | 22:15 | İzlanda Urvalsdeild | Breidablik | Vikingur Reykja | 09804 | 3 |
+| 25.06.2026 | 20:30 | Faroe Adaları Kupa Yarı Final | Vikingur Gota (1) | (2) Hb Torshavn | 01810 | 5 |
+| 25.06.2026 | 18:00 | Letonya Virsliga | Bfc Daugavpils | Riga Fc | 09801 | 5 |
+| 25.06.2026 | 17:00 | Letonya Virsliga | Grobina | Auda | 09799 | 5 |
 
 ## Sonuc
 
