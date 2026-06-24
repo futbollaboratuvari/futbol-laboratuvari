@@ -32,12 +32,21 @@
     }
   };
 
+  const writeMembership = (membership) => {
+    localStorage.setItem(MEMBER_KEY, JSON.stringify(membership || {}));
+  };
+
   const readTrial = () => {
     try {
       return JSON.parse(localStorage.getItem(TRIAL_KEY) || "{}");
     } catch {
       return {};
     }
+  };
+
+  const hasNoRights = () => {
+    const remaining = Number(readMembership().remainingAnalysisCount);
+    return Number.isFinite(remaining) && remaining <= 0;
   };
 
   const isTrialActive = () => {
@@ -59,6 +68,7 @@
       clearTrialAccess();
       return false;
     }
+    if (hasNoRights()) return false;
     return true;
   };
 
@@ -77,6 +87,18 @@
     const text = new Date(end).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
     const remaining = member.remainingAnalysisCount ?? "Aktif";
     return `1 Günlük Deneme Aktif · Bitiş: ${text} · Kalan analiz hakkı: ${remaining}`;
+  };
+
+  const consumeAnalysisRight = () => {
+    const member = readMembership();
+    const remaining = Number(member.remainingAnalysisCount);
+
+    if (!Number.isFinite(remaining)) return { ok: true, remaining: member.remainingAnalysisCount ?? "Aktif" };
+    if (remaining <= 0) return { ok: false, remaining: 0, message: "Analiz hakkın bitti. Devam etmek için üyelik kodu veya yeni paket gerekir." };
+
+    const nextRemaining = Math.max(0, remaining - 1);
+    writeMembership({ ...member, remainingAnalysisCount: nextRemaining });
+    return { ok: true, remaining: nextRemaining };
   };
 
   const readFixtures = async () => {
@@ -218,7 +240,18 @@
         output.innerHTML = `<h4>Eksik seçim</h4><p class="pa-small">En az 1 maç ve 1 seçenek seç.</p>`;
         return;
       }
-      output.innerHTML = `<h4>${selected.length} maçlık analiz hazır</h4><div class="pa-row"><span>Seçenek</span><strong>${esc(selectedMarket)}</strong></div><div class="pa-row"><span>Maç Sayısı</span><strong>${selected.length}</strong></div>${selected.map((m, i) => `<div class="pa-row"><span>${i + 1}. Maç</span><strong>${esc(m.home)} - ${esc(m.away)}</strong></div>`).join("")}`;
+      const usage = consumeAnalysisRight();
+      if (!usage.ok) {
+        output.innerHTML = `<h4>Analiz hakkı bitti</h4><p class="pa-small">${esc(usage.message)}</p>`;
+        setTimeout(() => render(fixtures), 500);
+        return;
+      }
+      output.innerHTML = `<h4>${selected.length} maçlık analiz hazır</h4><div class="pa-row"><span>Seçenek</span><strong>${esc(selectedMarket)}</strong></div><div class="pa-row"><span>Maç Sayısı</span><strong>${selected.length}</strong></div><div class="pa-row"><span>Kalan Hak</span><strong>${esc(usage.remaining)}</strong></div>${selected.map((m, i) => `<div class="pa-row"><span>${i + 1}. Maç</span><strong>${esc(m.home)} - ${esc(m.away)}</strong></div>`).join("")}`;
+      const stateCards = shell.querySelectorAll(".pa-state strong");
+      if (stateCards[1]) stateCards[1].textContent = String(usage.remaining);
+      const message = shell.querySelector("[data-pa-message]");
+      if (message) message.textContent = trialMessage();
+      if (Number(usage.remaining) <= 0) setTimeout(() => render(fixtures), 900);
     });
   };
 
