@@ -11,9 +11,6 @@
     "update:analysis": "node scripts/update-analysis-report.js",
     "update:all": "node scripts/update-fixtures.js && node scripts/update-analysis-report.js"
   },
-  "engines": {
-    "node": "20.x"
-  },
   "dependencies": {
     "@octokit/rest": "latest"
   }
