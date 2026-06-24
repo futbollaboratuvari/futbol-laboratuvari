@@ -2,6 +2,11 @@ name: Relaxed analysis
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/relaxed-analysis.txt"
 
 permissions:
   contents: write
