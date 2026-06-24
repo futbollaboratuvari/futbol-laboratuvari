@@ -1,4 +1,5 @@
 const crypto = require("crypto");
+const { appendUsageRecord } = require("./lib/usage-write");
 
 const CODE_DATABASE = {
   "d0e366399638702f7f4fd5cae64e544617bc4ec948a277a34c2a9d7cb855d290": {
@@ -125,7 +126,7 @@ module.exports = async function handler(req, res) {
     return res.status(200).json({
       ok: true,
       storage: "permanent-file-read",
-      message: "Kullanim gecmisi kalici dosyadan okunur. Yazma adimi sonraki parca olarak baglanacak.",
+      message: "Kullanim gecmisi kalici dosyadan okunur. Yazma modulu baglandi.",
       records: await getUsageLog()
     });
   }
@@ -157,6 +158,7 @@ module.exports = async function handler(req, res) {
     }
 
     const usageRecord = recordUsage(codeHash, codeInfo);
+    const saveResult = await appendUsageRecord(usageRecord);
 
     return res.status(200).json({
       ok: true,
@@ -166,7 +168,8 @@ module.exports = async function handler(req, res) {
         planName: codeInfo.planName,
         remainingAnalysisCount: codeInfo.remainingAnalysisCount
       },
-      usageRecordId: usageRecord.id
+      usageRecordId: usageRecord.id,
+      saveResult
     });
   } catch (error) {
     return res.status(500).json({ ok: false, message: "Backend kod kontrolünde hata oluştu." });
