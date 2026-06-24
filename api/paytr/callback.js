@@ -32,7 +32,8 @@ module.exports = async function handler(req, res) {
       status,
       totalAmount,
       orderFound: orderLookup.found,
-      orderReadOk: orderLookup.ok
+      orderReadOk: orderLookup.ok,
+      generatedReady: Boolean(orderLookup.generated)
     });
 
     return text(res, 200, "OK");
