@@ -20,6 +20,10 @@ function pct(won, total) {
   return total ? Math.round((won / total) * 100) : 0;
 }
 
+function pickMemory(memory, snake, camel) {
+  return memory?.[snake] || memory?.[camel] || {};
+}
+
 function bucketRows(items) {
   return Object.entries(items || {}).map(([name, data]) => {
     const won = Number(data.won || 0);
@@ -37,14 +41,14 @@ function adviceFrom(rows, label) {
 }
 
 function runRobotDevelopmentReport() {
-  const memory = readJson(memoryFile, { predictions: [], marketMemory: {}, leagueMemory: {}, leagueMarketMemory: {} });
+  const memory = readJson(memoryFile, { predictions: [], market_memory: {}, league_memory: {}, league_market_memory: {} });
   const outputStatus = readJson(statusFile, {});
   const predictions = Array.isArray(memory.predictions) ? memory.predictions : [];
   const pending = predictions.filter((item) => item.status === "pending").length;
   const finished = predictions.length - pending;
-  const marketRows = bucketRows(memory.marketMemory);
-  const leagueRows = bucketRows(memory.leagueMemory);
-  const leagueMarketRows = bucketRows(memory.leagueMarketMemory);
+  const marketRows = bucketRows(pickMemory(memory, "market_memory", "marketMemory"));
+  const leagueRows = bucketRows(pickMemory(memory, "league_memory", "leagueMemory"));
+  const leagueMarketRows = bucketRows(pickMemory(memory, "league_market_memory", "leagueMarketMemory"));
   const report = {
     generated_at: new Date().toISOString(),
     totals: { predictions: predictions.length, finished, pending },
