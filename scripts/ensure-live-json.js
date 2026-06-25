@@ -102,10 +102,6 @@ function scoreOf(match) {
   return String(match.score || match.skor || match.result_score || match.result || '').trim();
 }
 
-function pick(value, fallback = '') {
-  return value === undefined || value === null || value === '' ? fallback : value;
-}
-
 function pickOdd(match, analysis, keys) {
   for (const key of keys) {
     const value = match?.[key]
@@ -231,3 +227,10 @@ const payload = {
 
 writeJson(liveFile, payload);
 console.log(`live-matches.json updated. Matches: ${payload.counts.current_window}. Analysis: ${payload.counts.active_analysis}. Coupon candidates: ${payload.counts.coupon_candidates}.`);
+
+try {
+  const { runLearningMemory } = require('./robot-learning-memory.js');
+  runLearningMemory();
+} catch (error) {
+  console.warn(`robot learning memory skipped: ${error.message}`);
+}
