@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-25T10:21:58.746419+00:00
+Tarih: 2026-06-25T10:24:01.198570+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
 - Kac mac bulundu: 32
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 31
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 32
 - Ham veri havuzu toplam mac sayisi: 405
 - Hedef tarih: 25.06.2026 Europe/Istanbul
 
