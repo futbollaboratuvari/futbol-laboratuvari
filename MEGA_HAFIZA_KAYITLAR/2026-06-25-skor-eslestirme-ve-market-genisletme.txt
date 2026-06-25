@@ -1,0 +1,31 @@
+2026-06-25 skor eslestirme ve market genisletme kaydi
+
+Bu adimda robot ogrenme sistemine skor eslestirme katmani ve genisletilmis market finalizer eklendi.
+
+Eklenen dosya:
+scripts/learning-score-linker.js
+
+Guncellenen dosyalar:
+scripts/learning-finalizer.js
+scripts/learning-result-sync.js
+.github/workflows/learning-output.yml
+
+Yapilan is:
+- Arşiv ve canlı maç skorlarını learning-memory kayıtlarına result_score olarak bağlayacak score-linker eklendi.
+- learning-result-sync.js içinde önce score-linker sonra finalizer çalışacak şekilde bağlandı.
+- finalizer marketleri genişletildi.
+- workflow tetik listesine yeni öğrenme dosyaları eklendi.
+- workflow içine sync:results adımı eklendi.
+
+Genişleyen marketler:
+KG Var, KG Yok, 1.5 Üst/Alt, 2.5 Üst/Alt, 3.5 Üst/Alt, 4.5 Üst/Alt, MS 1/X/2, ÇŞ 1X/X2/12, ev sahibi/deplasman gol atar, takım 1.5 üst, toplam tek/çift, 0-1 gol, 2-3 gol, 4-6 gol.
+
+Commitler:
+22e307f
+4d3fcf5
+2981a0c
+98a2f06
+4749c25
+
+Siradaki is:
+Workflow çıktısını kontrol etmek ve learning-memory içinde result_score, won/lost güncellemelerinin oluştuğunu doğrulamak.
