@@ -1,0 +1,32 @@
+2026-06-25 asama 3 tahmini kaydeder
+
+Durum:
+Asama 2 baslatildi ve derin analiz kontrolu eklendi.
+Asama 3 baslatildi.
+
+Hedef:
+Robot analiz urettikten sonra tahmini ogrenme hafizasina kaydetmek.
+
+Eklenenler:
+scripts/prediction-memory-health-check.js
+scripts/stage-3-prediction-record-check.js
+outputs/prediction-memory-health-report.md
+
+Kontrol edilenler:
+- tahmin id
+- tarih
+- mac adi
+- lig
+- market
+- analiz skoru
+- risk
+- guven
+- durum
+- tekrar eden tahminler
+- eksik tahmin alanlari
+
+Manuel komut:
+node scripts/stage-3-prediction-record-check.js
+
+Not:
+Bu asama tahminleri pending/won/lost durumlariyla ogrenme hafizasina kaydeder ve kayit sagligini kontrol eder.
