@@ -45,6 +45,9 @@ jobs:
       - name: Track results
         run: node scripts/stage-4-result-tracking-check.js
 
+      - name: Measure predictions
+        run: node scripts/stage-5-prediction-measurement-check.js
+
       - name: Build robot development report
         run: node scripts/robot-development-report.js
 
