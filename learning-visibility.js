@@ -2,6 +2,7 @@
   const ROBOT_URL = "./data/robot-analysis.json";
   const MEMORY_URL = "./data/learning-memory.json";
   const PANEL_ID = "learning-memory-panel";
+  let refreshing = false;
 
   const esc = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -137,21 +138,36 @@
   };
 
   const refresh = async () => {
-    const [robot, memory] = await Promise.all([
-      readJson(ROBOT_URL, { matches: [], summary: {} }),
-      readJson(MEMORY_URL, { status: "hazırlanıyor", summary: {}, market_memory: {} })
-    ]);
-    const robotMap = buildRobotMap(robot);
-    renderPanel(robot, memory);
-    decoratePremiumCards(robotMap);
-    decorateRobotHeadlines(robotMap);
+    if (refreshing) return;
+    refreshing = true;
+    try {
+      const [robot, memory] = await Promise.all([
+        readJson(ROBOT_URL, { matches: [], summary: {} }),
+        readJson(MEMORY_URL, { status: "hazırlanıyor", summary: {}, market_memory: {} })
+      ]);
+      const robotMap = buildRobotMap(robot);
+      renderPanel(robot, memory);
+      decoratePremiumCards(robotMap);
+      decorateRobotHeadlines(robotMap);
+    } finally {
+      refreshing = false;
+    }
+  };
+
+  const isOwnMutation = (mutation) => {
+    const node = mutation.target?.nodeType === 1 ? mutation.target : mutation.target?.parentElement;
+    return Boolean(node?.closest?.("#learning-memory-panel, .fl-learning-note, .fl-learning-inline"));
   };
 
   const boot = () => {
     refresh();
     if (window.__flLearningVisibilityObserver) return;
     window.__flLearningVisibilityObserver = true;
-    const observer = new MutationObserver(() => window.clearTimeout(window.__flLearningVisibilityTimer) || (window.__flLearningVisibilityTimer = window.setTimeout(refresh, 250)));
+    const observer = new MutationObserver((mutations) => {
+      if (mutations.length && mutations.every(isOwnMutation)) return;
+      window.clearTimeout(window.__flLearningVisibilityTimer);
+      window.__flLearningVisibilityTimer = window.setTimeout(refresh, 300);
+    });
     observer.observe(document.body, { childList: true, subtree: true });
     window.setInterval(refresh, 60000);
   };
