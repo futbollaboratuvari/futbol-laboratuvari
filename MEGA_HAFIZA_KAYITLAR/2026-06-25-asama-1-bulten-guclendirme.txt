@@ -1,0 +1,22 @@
+2026-06-25 asama 1 bulten guclendirme
+
+Hedef:
+Bulteni ceker asamasini guclendirmek.
+
+Eklenenler:
+scripts/bulletin-health-check.js
+scripts/stage-1-bulletin-check.js
+outputs/bulletin-health-report.md
+
+Kontrol edilenler:
+- toplam mac sayisi
+- bugunku mac sayisi
+- gelecek mac sayisi
+- eski mac sayisi
+- eksik tarih/saat/lig/takim alanlari
+- tekrar eden maclar
+- ham veri kaynagi
+
+Not:
+data/bulletin-health-status.json baslangic dosyasi filtreye takildi. Script calisinca dosyayi kendisi olusturacak.
+package.json komut ekleme filtreye takildi. Manuel komut: node scripts/stage-1-bulletin-check.js
