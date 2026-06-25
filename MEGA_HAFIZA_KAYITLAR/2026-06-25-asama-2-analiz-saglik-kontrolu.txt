@@ -1,0 +1,26 @@
+2026-06-25 asama 2 analiz eder
+
+Durum:
+Asama 1 tamamlandi. Asama 2 baslatildi.
+
+Hedef:
+Robotun analiz uretimini kontrol etmek.
+
+Eklenenler:
+scripts/analysis-health-check.js
+scripts/stage-2-analysis-check.js
+outputs/analysis-health-report.md
+
+Kontrol edilenler:
+- bugunku bulten mac sayisi
+- robot analiz mac sayisi
+- canli veri mac sayisi
+- marketsiz analizler
+- skorsuz analizler
+- tekrar eden analizler
+
+Manuel komut:
+node scripts/stage-2-analysis-check.js
+
+Not:
+Bu asama analiz uretiminin saglikli olup olmadigini olcer. Sonraki asama tahmin kaydidir.
