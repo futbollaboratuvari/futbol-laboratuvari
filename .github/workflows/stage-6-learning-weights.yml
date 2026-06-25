@@ -1,0 +1,43 @@
+name: Stage 6 Learning Weights
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stage-6-learning-weights
+  cancel-in-progress: true
+
+jobs:
+  learning-weights:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check learning weights
+        run: node scripts/stage-6-learning-weights-check.js
+
+      - name: Build pipeline status
+        run: node scripts/robot-pipeline-status.js
+
+      - name: Commit learning weight outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data outputs
+          if git diff --cached --quiet; then
+            echo "No learning weight changes"
+            exit 0
+          fi
+          git commit -m "Update stage 6 learning weights"
+          git push origin HEAD:main
