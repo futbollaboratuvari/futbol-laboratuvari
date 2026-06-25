@@ -1,0 +1,22 @@
+2026-06-25 asama 1.1 gunluk bulten akisi
+
+Hedef:
+Asama 1 bulten ceker kismini gunluk otomatik akisa baglamak ve iki gunluk bulten penceresi hazirlamak.
+
+Eklenenler:
+.github/workflows/stage-1-bulletin.yml
+scripts/two-day-bulletin-window.js
+data/two-day-bulletin.json
+outputs/two-day-bulletin-report.md
+
+Akis:
+1. update-fixtures.js calisir
+2. stage-1-bulletin-check.js calisir
+3. two-day-bulletin-window.js calisir
+4. data ve outputs dosyalari commit edilir
+
+Zaman:
+Her gun 05:10 UTC calisir. Turkiye saatiyle 08:10 civari.
+
+Not:
+Kaynak yarin maclarini verirse iki gunluk rapora alinir. Vermezse yarin icin 0 gorunur.
