@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
-const { buildCouponAnalysis, scoreFixture } = require("./robot-exact-scoring");
+const { scoreFixture } = require("./robot-exact-scoring");
+const { applyLearningWeightsToScoredItem } = require("./apply-learning-weights");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -82,7 +83,7 @@ const bandFor = (item, map) => map.get(cleanKey(item.match_name || item.match)) 
 
 const isToday = (fixture, today) => String(fixture.date || fixture.tarih || fixture.utc_date || "").slice(0, 10) === today;
 
-const score_match = (match) => scoreFixture(match);
+const score_match = (match) => applyLearningWeightsToScoredItem(scoreFixture(match));
 
 function calculate_match_score(match) {
   return score_match(match).analysis_score || 0;
@@ -154,6 +155,7 @@ function live_match_output(match) {
     data_gap_risk: scored.data_gap_risk || "-",
     status: scored.status || "scheduled",
     expected_scores: scored.expected_scores || [],
+    learning_adjustment: scored.learning_adjustment || null,
   };
 }
 
@@ -188,6 +190,7 @@ function make_coupon(type, items, size) {
     value_label: item.value_label || "-",
     band_attention_level: item.band_check?.level || "Düşük",
     robot_reason: generate_robot_explanation(item),
+    learning_adjustment: item.learning_adjustment || null,
   }));
   const total = legs.reduce((acc, leg) => acc * (parseOdd(leg.estimated_odds) || 1), 1);
   const averageScore = legs.length ? Math.round(legs.reduce((acc, leg) => acc + Number(leg.analysis_score || 0), 0) / legs.length) : 0;
@@ -254,18 +257,20 @@ function export_json_outputs(couponBundle, matches) {
   const robotAnalysis = {
     generated_at: new Date().toISOString(),
     date: today,
-    engine: "High Value Coupon Engine",
-    scoring_mode: "net_threshold_rules",
+    engine: "High Value Coupon Engine + Learning Memory",
+    scoring_mode: "net_threshold_rules_with_learning_memory",
     stale_data_policy: "Eski veri gösterme. Bugünün verisi yoksa boş mesaj göster.",
     summary: {
       fixture_count: matches.length,
       scored_match_count: scored.length,
       coupon_candidate_count: couponBundle.available.length,
+      learning_adjusted_count: scored.filter((item) => item.learning_adjustment?.applied).length,
     },
     matches: scored.map((item) => ({
       ...live_match_output(item),
       metrics: item.analysis_metrics || {},
       signals: item.pro_signals || [],
+      learning_adjustment: item.learning_adjustment || null,
     })),
   };
 
