@@ -1,0 +1,23 @@
+2026-06-25 asama 6 agirlik sistemi
+
+Durum:
+Asama 6 baslatildi.
+
+Hedef:
+Olculen tahminlerden sonra market ve lig agirliklarini takip etmek.
+
+Eklenenler:
+scripts/learning-weights-health-check.js
+scripts/stage-6-learning-weights-check.js
+.github/workflows/stage-6-learning-weights.yml
+
+Guncellenenler:
+scripts/robot-development-report.js
+.github/workflows/stage-4-result-tracking.yml
+
+Otomatik:
+Ana robot hattinda calisir.
+Stage 6 workflow saatte bir calisir.
+
+Manuel:
+GitHub Actions icinden Run workflow ile calistirilir.
