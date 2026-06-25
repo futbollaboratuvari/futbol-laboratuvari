@@ -1,0 +1,95 @@
+(() => {
+  function style() {
+    if (document.getElementById("pa-usability-style")) return;
+    const s = document.createElement("style");
+    s.id = "pa-usability-style";
+    s.textContent = `
+      #premium-analysis-panel .pa-select[data-pa-match]{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
+      .pa-row-list{display:grid;gap:8px;max-height:360px;overflow:auto;padding:8px;border:1px solid rgba(255,159,28,.18);border-radius:15px;background:rgba(0,0,0,.18)}
+      .pa-match-row{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:10px;border:1px solid rgba(255,255,255,.08);border-radius:13px;background:rgba(255,255,255,.04);cursor:pointer}
+      .pa-match-row.active{border-color:rgba(57,255,136,.45);background:rgba(57,255,136,.10)}
+      .pa-match-row input{accent-color:#39ff88}.pa-match-main{display:grid;gap:3px}.pa-match-main b{color:#fff7d6;font-size:13px}.pa-match-main span{color:#8fa0b5;font-size:11px}.pa-match-score{color:#c8ffdd;font-size:11px;font-weight:950}.pa-market-tools{display:grid;gap:8px}.pa-market-search{min-height:42px;border:1px solid rgba(57,255,136,.24);border-radius:13px;background:rgba(0,0,0,.24);color:#f8fbff;padding:0 12px;font-weight:850}.pa-market-active-note{color:#ffe08a;font-size:12px;font-weight:950}
+    `;
+    document.head.appendChild(s);
+  }
+
+  function splitOption(text) {
+    const parts = String(text || "").split("|");
+    const left = (parts[0] || "").trim();
+    const right = (parts[1] || text || "").trim();
+    const leftParts = left.split("—");
+    return {
+      league: (leftParts[0] || "Lig").trim(),
+      time: (leftParts[1] || "--:--").trim(),
+      match: right.split(" · ")[0] || right,
+      extra: right.split(" · ").slice(1).join(" · ")
+    };
+  }
+
+  function buildRows(select) {
+    const old = document.querySelector("#premium-analysis-panel [data-pa-row-list]");
+    if (old) old.remove();
+    const box = document.createElement("div");
+    box.className = "pa-row-list";
+    box.dataset.paRowList = "1";
+    Array.from(select.options || []).forEach((option) => {
+      if (!option.value || !option.textContent || option.textContent.includes("bulunamadı")) return;
+      const data = splitOption(option.textContent);
+      const row = document.createElement("label");
+      row.className = `pa-match-row${option.selected ? " active" : ""}`;
+      row.innerHTML = `<input type="checkbox" ${option.selected ? "checked" : ""}><span class="pa-match-main"><b>${data.match}</b><span>${data.league} · ${data.time}</span></span><span class="pa-match-score">${data.extra || "Seç"}</span>`;
+      row.querySelector("input").addEventListener("change", (event) => {
+        option.selected = event.target.checked;
+        row.classList.toggle("active", option.selected);
+        select.dispatchEvent(new Event("change", { bubbles: true }));
+      });
+      box.appendChild(row);
+    });
+    select.parentElement.appendChild(box);
+  }
+
+  function marketTools(grid) {
+    if (!grid || grid.dataset.usabilityTools === "1") return;
+    grid.dataset.usabilityTools = "1";
+    const tools = document.createElement("div");
+    tools.className = "pa-market-tools";
+    tools.style.gridColumn = "1 / -1";
+    tools.innerHTML = `<input class="pa-market-search" placeholder="Market ara: gol, MS, ust, alt, KG"><span class="pa-market-active-note">Seçili market: Robot Önerisi</span>`;
+    grid.prepend(tools);
+    const input = tools.querySelector("input");
+    const note = tools.querySelector("span");
+    input.addEventListener("input", () => {
+      const term = input.value.toLowerCase();
+      grid.querySelectorAll(".pa-market").forEach((btn) => {
+        btn.style.display = !term || btn.textContent.toLowerCase().includes(term) ? "" : "none";
+      });
+    });
+    grid.addEventListener("click", (e) => {
+      const btn = e.target.closest(".pa-market");
+      if (btn) note.textContent = `Seçili market: ${btn.textContent.trim()}`;
+    });
+  }
+
+  function apply() {
+    style();
+    const panel = document.getElementById("premium-analysis-panel");
+    const select = panel?.querySelector("[data-pa-match]");
+    if (select && select.dataset.rowListReady !== "1") {
+      select.dataset.rowListReady = "1";
+      buildRows(select);
+      new MutationObserver(() => buildRows(select)).observe(select, { childList: true });
+    }
+    marketTools(panel?.querySelector(".pa-market-grid"));
+  }
+
+  function boot() {
+    apply();
+    if (window.__paUsabilityReady) return;
+    window.__paUsabilityReady = true;
+    new MutationObserver(() => setTimeout(apply, 200)).observe(document.body, { childList: true, subtree: true });
+  }
+
+  window.addEventListener("load", () => setTimeout(boot, 700));
+  document.addEventListener("DOMContentLoaded", () => setTimeout(boot, 700), { once: true });
+  document.addEventListener("fl:runtime-ready", () => setTimeout(boot, 700));
+})();
