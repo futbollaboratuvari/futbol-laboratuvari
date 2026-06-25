@@ -1,13 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.06.2026 Europe/Istanbul
+Oluşturma: 25.06.2026 04:08:09
 
-## Durum
+## Özet
 
-- Öğrenme hafızası altyapısı eklendi.
-- İlk gerçek rapor, canlı veri akışı tekrar çalıştığında `scripts/robot-learning-memory.js` tarafından üretilecek.
-- Hafıza dosyası: `data/learning-memory.json`
-- Script: `scripts/robot-learning-memory.js`
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
+- Kazanan tahmin: 0
+- Kaybeden tahmin: 0
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -15,3 +17,11 @@ Oluşturma: 25.06.2026 Europe/Istanbul
 - Maç sonucu geldiğinde uygun seçeneklerde kazandı/kaybetti değerlendirmesi yapılır.
 - Lig ve seçenek başarı oranları oluşunca ağırlık ve güven ayarı hesaplanır.
 - 5 sonuçtan az veri varsa ağırlık nötr kalır; robot acele öğrenmez.
+
+## En Güçlü Seçenek Hafızası
+
+- Henüz seçenek hafızası oluşmadı.
+
+## Son Tahmin Kayıtları
+
+

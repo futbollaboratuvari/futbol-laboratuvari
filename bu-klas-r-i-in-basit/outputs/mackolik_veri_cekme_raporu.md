@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-24T22:43:22.782449+00:00
+Tarih: 2026-06-25T01:08:01.584263+00:00
 
 ## Ozet
 
@@ -116,7 +116,7 @@ Tarih: 2026-06-24T22:43:22.782449+00:00
 | 25.06.2026 | 19:05 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Fahaheel | Al Qadsia | 10015 | 5 |
 | 25.06.2026 | 21:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Salmiyah | Al Arabi | 10175 | 5 |
 | 25.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al-Kuwait | Kazma | 10112 | 5 |
-| 25.06.2026 | 15:30 | Lübnan Premier Lig | Nejmeh | Tadamon Tyre | 04025 | 5 |
+| 25.06.2026 | 15:30 | Lübnan Premier Lig | Nejmeh | Tadamon Tyre | 04025 | 4 |
 | 25.06.2026 | 22:15 | İzlanda Urvalsdeild | Breidablik | Vikingur Reykja | 09804 | 3 |
 | 25.06.2026 | 20:30 | Faroe Adaları Kupa Yarı Final | Vikingur Gota (1) | (2) Hb Torshavn | 01810 | 5 |
 | 25.06.2026 | 18:00 | Letonya Virsliga | Bfc Daugavpils | Riga Fc | 09801 | 5 |
