@@ -9,8 +9,9 @@
     "build": "node scripts/vercel-build.js",
     "update:fixtures": "node scripts/update-fixtures.js",
     "update:analysis": "node scripts/update-analysis-report.js",
+    "export:live": "node scripts/export-high-value-json.js && node scripts/ensure-live-json.js",
     "learn:robot": "node scripts/robot-learning-memory.js",
-    "update:all": "node scripts/update-fixtures.js && node scripts/update-analysis-report.js && node scripts/ensure-live-json.js"
+    "update:all": "node scripts/update-fixtures.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js"
   },
   "dependencies": {
     "@octokit/rest": "latest"
