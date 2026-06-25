@@ -88,6 +88,7 @@
     ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
     ensureScript("membership-submit-guard.js", "membership-submit-guard-script");
     ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
+    ensureScript("premium-analysis-history.js", "premium-analysis-history-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
     ensureScript("hero-vitrin.js", "hero-vitrin-script");
