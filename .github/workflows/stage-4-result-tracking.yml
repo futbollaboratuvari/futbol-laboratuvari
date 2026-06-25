@@ -27,8 +27,17 @@ jobs:
       - name: Update bulletin before result tracking
         run: node scripts/update-fixtures.js
 
+      - name: Check bulletin health
+        run: node scripts/stage-1-bulletin-check.js
+
+      - name: Build two day bulletin
+        run: node scripts/two-day-bulletin-window.js
+
       - name: Refresh robot analysis
         run: node scripts/export-high-value-json.js
+
+      - name: Check analysis health
+        run: node scripts/stage-2-analysis-check.js
 
       - name: Record predictions
         run: node scripts/stage-3-prediction-record-check.js
@@ -36,14 +45,20 @@ jobs:
       - name: Track results
         run: node scripts/stage-4-result-tracking-check.js
 
-      - name: Commit result tracking outputs
+      - name: Build robot development report
+        run: node scripts/robot-development-report.js
+
+      - name: Build robot pipeline status
+        run: node scripts/robot-pipeline-status.js
+
+      - name: Commit robot pipeline outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data outputs
           if git diff --cached --quiet; then
-            echo "No result tracking changes"
+            echo "No robot pipeline changes"
             exit 0
           fi
-          git commit -m "Update stage 4 result tracking"
+          git commit -m "Update robot automatic pipeline"
           git push origin HEAD:main
