@@ -37,6 +37,9 @@ jobs:
       - name: Build learning outputs
         run: npm run export:live
 
+      - name: Sync learning results
+        run: npm run sync:results
+
       - name: Commit learning outputs
         run: |
           git config user.name "github-actions[bot]"
