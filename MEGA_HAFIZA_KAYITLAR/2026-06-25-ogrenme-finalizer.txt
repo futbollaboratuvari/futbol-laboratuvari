@@ -1,0 +1,24 @@
+2026-06-25 ogrenme finalizer kaydi
+
+Bu adimda ogrenme hafizasinda result_score olusan pending kayitlari sonuc durumuna cevirecek finalizer katmani eklendi.
+
+Eklenen dosyalar:
+scripts/learning-finalizer.js
+data/learning-finalizer-status.json
+
+Guncellenen dosya:
+scripts/learning-result-sync.js
+
+Yapilan is:
+- learning-finalizer.js eklendi.
+- result_score olan pending kayitlar KG Var, KG Yok, 2.5 Ust, 2.5 Alt, 3.5 Ust, MS 1, MS X, MS 2 icin won/lost durumuna cevrilecek.
+- learning-result-sync.js sonunda finalizer cagrisi yapildi.
+- package.json filtreye takildigi icin mevcut sync:results akisi uzerinden baglanti kuruldu.
+
+Commitler:
+b9241cc
+4cbc624
+7691002
+
+Siradaki is:
+Skor eslestirme katmanini daha kucuk bir dosya olarak eklemek ve result_score alanini otomatik doldurmak.
