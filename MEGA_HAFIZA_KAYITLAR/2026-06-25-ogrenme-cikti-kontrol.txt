@@ -1,0 +1,28 @@
+2026-06-25 ogrenme cikti kontrol kaydi
+
+Bu adimda ogrenme ciktisinin veri dosyalarina dusmesini takip edecek kontrol katmani eklendi.
+
+Eklenen dosyalar:
+scripts/learning-output-check.js
+.github/workflows/learning-output.yml
+data/learning-output-status.json
+
+Guncellenen dosya:
+package.json
+
+Yapilan is:
+- learning-output-check scripti eklendi.
+- npm komut zincirine check:learning eklendi.
+- export:live ve update:all sonuna kontrol eklendi.
+- ayrica kucuk bir workflow eklendi.
+- ops/main-run.txt 16 yapilarak test akisi tetiklendi.
+
+Commitler:
+bf991be
+2dfa1a1
+771c909
+c2e9343
+342708c
+
+Siradaki is:
+workflow ciktisini kontrol et ve learning-output-status.json dosyasinda ready/waiting durumunu dogrula.
