@@ -1,0 +1,43 @@
+{
+  "project": "Futbol Laboratuvari Robot Gelisim Hatti",
+  "created_at": "2026-06-25T00:00:00.000Z",
+  "status": "active",
+  "stages": [
+    {
+      "id": 1,
+      "name": "Bulteni ceker",
+      "goal": "Gunluk mac listesini ve bulten verisini toplar.",
+      "primary_files": ["data/fixtures.json", "scripts/update-fixtures.js"]
+    },
+    {
+      "id": 2,
+      "name": "Analiz eder",
+      "goal": "Maclari robot kurallari ve skor motoru ile analiz eder.",
+      "primary_files": ["scripts/robot-exact-scoring.js", "scripts/export-high-value-json.js"]
+    },
+    {
+      "id": 3,
+      "name": "Tahmini kaydeder",
+      "goal": "Market, guven, risk, lig ve mac bilgisini ogrenme hafizasina yazar.",
+      "primary_files": ["data/learning-memory.json", "scripts/robot-learning-memory.js"]
+    },
+    {
+      "id": 4,
+      "name": "Mac sonucunu takip eder",
+      "goal": "Oynanan maclarin skorlarini arsive ve sonuc senkronuna alir.",
+      "primary_files": ["data/robot_match_archive.json", "scripts/update-match-archive.js", "scripts/learning-score-linker.js"]
+    },
+    {
+      "id": 5,
+      "name": "Kendi tahminini olcer",
+      "goal": "Tahmin ile gercek skoru karsilastirir ve sonucu basarili/basarisiz olarak isler.",
+      "primary_files": ["scripts/learning-finalizer.js", "data/learning-finalizer-status.json"]
+    },
+    {
+      "id": 6,
+      "name": "Sonraki tahminde agirlik degistirir",
+      "goal": "Lig ve market performansina gore robotun guven ve market agirliklarini gunceller.",
+      "primary_files": ["scripts/apply-learning-weights.js", "scripts/robot-development-report.js"]
+    }
+  ]
+}
