@@ -28,10 +28,16 @@ function runLearningResultSync() {
     memory_items: Array.isArray(memory.predictions) ? memory.predictions.length : 0,
     archive_items: Array.isArray(archive.matches) ? archive.matches.length : 0,
     updated: 0,
-    note: "Result sync bootstrap. Next step will attach scores to pending memory items."
+    note: "Result sync bootstrap. Finalizer is attached after this step."
   };
   writeJson(statusPath, status);
   console.log(`Learning result sync bootstrap: ${status.memory_items}/${status.archive_items}`);
+  try {
+    const { runLearningFinalizer } = require("./learning-finalizer");
+    runLearningFinalizer();
+  } catch (error) {
+    console.warn(`Learning finalizer skipped: ${error.message}`);
+  }
   return status;
 }
 
