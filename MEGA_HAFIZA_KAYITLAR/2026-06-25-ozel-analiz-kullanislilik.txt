@@ -1,0 +1,27 @@
+2026-06-25 ozel analiz kullanislilik kaydi
+
+Bu adimda ozel analiz paneli uyeler icin daha kullanisli hale getirildi.
+
+Eklenen dosya:
+premium-analysis-usability.js
+
+Guncellenen dosya:
+premium-analysis-extra-markets.js
+
+Yapilan is:
+- Ozel analiz mac secimi satir liste gorunumune cevrildi.
+- Eski coklu select arkada korunuyor, bu yuzden mevcut analiz butonu kirilmiyor.
+- Satir icinde lig, saat, mac adi, robot marketi ve skor bilgisi daha okunur hale getirildi.
+- Market arama kutusu eklendi.
+- Secili market notu eklendi.
+- Ek market modulunden kullanislilik modulu yukleniyor.
+
+Not:
+cache-version.js dogrudan guncelleme filtreye takildi. Bunun yerine zaten yuklenen premium-analysis-extra-markets.js uzerinden premium-analysis-usability.js guvenli sekilde cagrildi.
+
+Commitler:
+b3b5c9c
+ccbe2ee
+
+Siradaki is:
+Canli sitede ozel analiz mac satirlarini ve market aramasini kontrol etmek.
