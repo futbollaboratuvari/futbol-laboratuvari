@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-06-24T15:11:15+03:00
+Güncelleme: 2026-06-25T15:08:57+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 31
+- Toplam tahmin kaydı: 33
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -17,7 +17,7 @@ Güncelleme: 2026-06-24T15:11:15+03:00
 | - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 30 | 0 | 0 | 30 | %0 | 0 |
+| Değerli market yok | 32 | 0 | 0 | 32 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
@@ -31,41 +31,41 @@ Güncelleme: 2026-06-24T15:11:15+03:00
 | 2.00-2.99 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.00-4.99 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 5.00+ | 0 | 0 | 0 | 0 | %0 | 0 |
-| bilinmiyor | 31 | 0 | 0 | 31 | %0 | 0 |
+| bilinmiyor | 33 | 0 | 0 | 33 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Avustralya NPL Kuzey YGG | 3 | 0 | 0 | 3 | %0 | 0 |
-| Dünya Kupası 2026 Grup B | 2 | 0 | 0 | 2 | %0 | 0 |
+| Dünya Kupası 2026 Grup E | 2 | 0 | 0 | 2 | %0 | 0 |
 | Faroe Adaları Kupa Yarı Final | 1 | 0 | 0 | 1 | %0 | 0 |
-| Gürcistan Erovnuli Liga | 1 | 0 | 0 | 1 | %0 | 0 |
-| Hazırlık Kulüpler | 2 | 0 | 0 | 2 | %0 | 0 |
-| Litvanya 1.Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Litvanya Kupa Çeyrek Final | 2 | 0 | 0 | 2 | %0 | 0 |
+| Fas Botola Pro | 8 | 0 | 0 | 8 | %0 | 0 |
+| Finlandiya Ykkönen | 2 | 0 | 0 | 2 | %0 | 0 |
+| Kuveyt Premier Lig Şampiyonluk Grubu | 3 | 0 | 0 | 3 | %0 | 0 |
+| Letonya Virsliga | 3 | 0 | 0 | 3 | %0 | 0 |
 | Lübnan Premier Lig | 2 | 0 | 0 | 2 | %0 | 0 |
 | Norveç 3.Lig Grup 1 | 1 | 0 | 0 | 1 | %0 | 0 |
-| Tanzanya Kuu Bara Ligi | 3 | 0 | 0 | 3 | %0 | 0 |
-| Venezuela Kupa 1.Tur Grup A | 1 | 0 | 0 | 1 | %0 | 0 |
-| Venezuela Kupa 1.Tur Grup B | 1 | 0 | 0 | 1 | %0 | 0 |
+| Norveç 3.Lig Grup 2 | 1 | 0 | 0 | 1 | %0 | 0 |
+| Norveç 3.Lig Grup 3 | 1 | 0 | 0 | 1 | %0 | 0 |
+| Norveç 3.Lig Grup 4 | 2 | 0 | 0 | 2 | %0 | 0 |
+| Norveç 3.Lig Grup 6 | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Academia Anzoa VS Atletico Avila | 1 | 0 | 0 | 1 | %0 | 0 |
-| Ahed VS Safa | 1 | 0 | 0 | 1 | %0 | 0 |
-| Angby VS Enskede | 1 | 0 | 0 | 1 | %0 | 0 |
-| Ansar VS Jwaya | 1 | 0 | 0 | 1 | %0 | 0 |
-| Babrungas VS Kauno Zalgiris | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bosna Hersek VS Katar | 1 | 0 | 0 | 1 | %0 | 0 |
-| Caracas Fc VS Aragua | 1 | 0 | 0 | 1 | %0 | 0 |
-| Charlestow Cit VS Cooks Hill Unit | 1 | 0 | 0 | 1 | %0 | 0 |
-| Dodoma Jiji VS Jkt Tanzania | 1 | 0 | 0 | 1 | %0 | 0 |
-| Fa Siauliai VS Dziugas Telsiai | 1 | 0 | 0 | 1 | %0 | 0 |
-| Fk Dainava VS Transinvest Vil | 1 | 0 | 0 | 1 | %0 | 0 |
-| Fountain Gate VS Mashujaa | 1 | 0 | 0 | 1 | %0 | 0 |
+| Al Fahaheel VS Al Qadsia | 1 | 0 | 0 | 1 | %0 | 0 |
+| Al Salmiyah VS Al Arabi | 1 | 0 | 0 | 1 | %0 | 0 |
+| Al-Kuwait VS Kazma | 1 | 0 | 0 | 1 | %0 | 0 |
+| Asane Ii VS Os Turn Fotball | 1 | 0 | 0 | 1 | %0 | 0 |
+| Bfc Daugavpils VS Riga Fc | 1 | 0 | 0 | 1 | %0 | 0 |
+| Bjorkelangen VS Sarpsborg 08 Ii | 1 | 0 | 0 | 1 | %0 | 0 |
+| Breidablik VS Vikingur Reykja | 1 | 0 | 0 | 1 | %0 | 0 |
+| Brumunddal VS Gjovik-Lyn | 1 | 0 | 0 | 1 | %0 | 0 |
+| Codm Meknes VS Husa Agadir | 1 | 0 | 0 | 1 | %0 | 0 |
+| Cr Khemis Zema VS Ol. Safi | 1 | 0 | 0 | 1 | %0 | 0 |
+| Curacao VS Fildişi Sahili | 1 | 0 | 0 | 1 | %0 | 0 |
+| Ekvador VS Almanya | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
