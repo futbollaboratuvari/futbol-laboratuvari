@@ -34,4 +34,5 @@
 
   loadScript("learning-visibility.js", "learning-visibility-script");
   loadScript("learning-output-visibility.js", "learning-output-visibility-script");
+  loadScript("premium-analysis-extra-markets.js", "premium-analysis-extra-markets-script");
 })();
