@@ -22,6 +22,15 @@
     extra.classList.add("active");
   }
 
+  function loadUsability() {
+    if (document.getElementById("premium-analysis-usability-script")) return;
+    const script = document.createElement("script");
+    script.id = "premium-analysis-usability-script";
+    script.src = `premium-analysis-usability.js?v=${Date.now()}`;
+    script.async = false;
+    document.body.appendChild(script);
+  }
+
   function apply() {
     const grid = document.querySelector("#premium-analysis-panel .pa-market-grid");
     if (!grid || grid.dataset.extraMarketAdded === "1") return;
@@ -34,10 +43,12 @@
       button.addEventListener("click", () => choose(grid, name, button));
       grid.appendChild(button);
     });
+    loadUsability();
   }
 
   function boot() {
     apply();
+    loadUsability();
     if (window.__extraMarketObserver) return;
     window.__extraMarketObserver = true;
     new MutationObserver(() => setTimeout(apply, 200)).observe(document.body, { childList: true, subtree: true });
