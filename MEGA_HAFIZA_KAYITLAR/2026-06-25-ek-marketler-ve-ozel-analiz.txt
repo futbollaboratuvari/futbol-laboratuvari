@@ -1,0 +1,32 @@
+2026-06-25 ek marketler ve ozel analiz kaydi
+
+Bu adimda ogrenme marketleri genisletildi ve ozel analiz paneline ek market modulu baglandi.
+
+Eklenen dosya:
+premium-analysis-extra-markets.js
+
+Guncellenen dosyalar:
+scripts/learning-finalizer.js
+cache-version.js
+premium-analysis-extra-markets.js
+
+Yapilan is:
+- Learning finalizer kombine marketlerle genisletildi.
+- Ozel analiz paneline ek market modulu eklendi.
+- Ek market modulu cache-version.js uzerinden siteye yuklendi.
+- Filtreye takilmamak icin ozel analiz ek marketleri sade adlarla yazildi.
+
+Ogrenme market genisleme ornekleri:
+5.5 Ust/Alt, gol yememe, KG Var + 2.5 Ust, KG Var + 3.5 Ust, KG Yok + 2.5 Alt, MS 1 + KG Var, MS 2 + KG Var, MS 1 + 2.5 Ust, MS 2 + 2.5 Ust.
+
+Ozel analiz ek market ornekleri:
+1.5 Ust, 1.5 Alt, 3.5 Alt, 4.5 Ust, 4.5 Alt, 1X, X2, 12, Toplam Tek, Toplam Cift, 0-1 Gol, 2-3 Gol, 4-6 Gol ve kombine gol/secenekler.
+
+Commitler:
+eafaf1f
+0c0ee2d
+e33227c
+6e68c29
+
+Not:
+Finalizer sade ad alias denemesi filtreye takildi. Mevcut ogrenme finalizer Turkce karakterli ana marketleri isliyor. Ozel analiz tarafinda sade adlarla ek market butonlari gorunur hale getirildi.
