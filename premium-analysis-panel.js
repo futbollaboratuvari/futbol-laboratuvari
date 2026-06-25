@@ -35,11 +35,7 @@
   };
 
   const readMembership = () => {
-    try {
-      return JSON.parse(localStorage.getItem(MEMBER_KEY) || "{}");
-    } catch {
-      return {};
-    }
+    try { return JSON.parse(localStorage.getItem(MEMBER_KEY) || "{}"); } catch { return {}; }
   };
 
   const writeMembership = (membership) => {
@@ -47,11 +43,7 @@
   };
 
   const readTrial = () => {
-    try {
-      return JSON.parse(localStorage.getItem(TRIAL_KEY) || "{}");
-    } catch {
-      return {};
-    }
+    try { return JSON.parse(localStorage.getItem(TRIAL_KEY) || "{}"); } catch { return {}; }
   };
 
   const hasNoRights = () => {
@@ -59,10 +51,7 @@
     return Number.isFinite(remaining) && remaining <= 0;
   };
 
-  const isTrialActive = () => {
-    const trial = readTrial();
-    return Number(trial.expiresAt || 0) > Date.now();
-  };
+  const isTrialActive = () => Number(readTrial().expiresAt || 0) > Date.now();
 
   const clearTrialAccess = () => {
     if (localStorage.getItem("fl_premium_access_note") !== "trial") return;
@@ -78,8 +67,7 @@
       clearTrialAccess();
       return false;
     }
-    if (hasNoRights()) return false;
-    return true;
+    return !hasNoRights();
   };
 
   const accessBadgeText = () => {
@@ -95,8 +83,7 @@
     const end = Number(trial.expiresAt || 0);
     if (!end || end <= Date.now()) return "1 günlük deneme süresi doldu. Kod veya üyelik gerekir.";
     const text = new Date(end).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
-    const remaining = member.remainingAnalysisCount ?? "Aktif";
-    return `1 Günlük Deneme Aktif · Bitiş: ${text} · Kalan analiz hakkı: ${remaining}`;
+    return `1 Günlük Deneme Aktif · Bitiş: ${text} · Kalan analiz hakkı: ${member.remainingAnalysisCount ?? "Aktif"}`;
   };
 
   const consumeAnalysisRight = () => {
@@ -113,9 +100,7 @@
     try {
       const res = await fetch(`${url}${url.includes("?") ? "&" : "?"}ts=${Date.now()}`, { cache: "no-store" });
       return res.ok ? await res.json() : fallback;
-    } catch {
-      return fallback;
-    }
+    } catch { return fallback; }
   };
 
   const readData = async () => {
@@ -213,6 +198,8 @@
       .sort((a, b) => String(a.time || "99:99").localeCompare(String(b.time || "99:99")));
   };
 
+  const isCouponCandidate = (match) => String(match.decision || "").includes("Kupon") || Number(match.analysis_score || 0) >= 65;
+
   const verifyCode = async (code) => {
     const cleanCode = String(code || "").trim();
     if (!cleanCode) return { ok: false, message: "Kod boş olamaz." };
@@ -244,9 +231,9 @@
       .pa-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin-bottom:14px}.pa-title{margin:0;color:#ffe08a;font-size:clamp(22px,2.5vw,34px)}.pa-sub{margin:7px 0 0;color:#aebbd0;font-size:13px;line-height:1.55}.pa-badge{padding:9px 12px;border:1px solid rgba(57,255,136,.32);border-radius:999px;background:rgba(57,255,136,.12);color:#c8ffdd;font-size:12px;font-weight:900;white-space:nowrap}
       .pa-state{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:14px}.pa-state div{padding:12px;border:1px solid rgba(57,255,136,.18);border-radius:16px;background:rgba(57,255,136,.06)}.pa-state span{display:block;color:#8fa0b5;font-size:11px;font-weight:900;text-transform:uppercase}.pa-state strong{display:block;margin-top:5px;color:#f8fbff;font-size:18px}
       .pa-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,.95fr);gap:14px}.pa-card{display:grid;gap:12px;padding:15px;border:1px solid rgba(255,255,255,.08);border-radius:18px;background:rgba(255,255,255,.04)}.pa-card h3{margin:0;color:#fff7d6;font-size:16px}
-      .pa-code{display:grid;gap:10px;padding:13px;border:1px dashed rgba(255,159,28,.34);border-radius:16px;background:rgba(255,159,28,.07)}.pa-code-row{display:grid;grid-template-columns:1fr auto;gap:8px}.pa-input,.pa-select{width:100%;min-height:46px;border:1px solid rgba(255,159,28,.24);border-radius:13px;background:rgba(0,0,0,.25);color:#f8fbff;padding:0 12px;font-weight:850}.pa-select[multiple]{min-height:260px;padding:10px}.pa-button{min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-size:14px;font-weight:950;cursor:pointer;padding:0 14px}.pa-button.secondary{background:rgba(255,255,255,.08);color:#f8fbff;border:1px solid rgba(255,255,255,.16)}.pa-small{color:#aebbd0;font-size:12px;line-height:1.5}.pa-message{display:block;color:#ffe08a;font-size:12px;font-weight:900;min-height:16px;line-height:1.55}
-      .pa-market-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.pa-market{min-height:42px;border:1px solid rgba(255,159,28,.20);border-radius:13px;background:rgba(255,255,255,.045);color:#f8fbff;font-weight:900;cursor:pointer}.pa-market.active{border-color:rgba(57,255,136,.55);background:rgba(57,255,136,.16);color:#c8ffdd}.pa-market:disabled,.pa-button:disabled,.pa-select:disabled{opacity:.45;cursor:not-allowed}.pa-result{display:grid;gap:10px;padding:14px;border:1px solid rgba(57,255,136,.20);border-radius:16px;background:rgba(57,255,136,.06)}.pa-row{display:flex;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:12px;background:rgba(0,0,0,.18);color:#aebbd0;font-size:12px}.pa-row strong{color:#f8fbff;text-align:right}.pa-analysis-card{display:grid;gap:8px;padding:12px;border:1px solid rgba(255,159,28,.22);border-radius:14px;background:rgba(2,8,23,.55)}.pa-analysis-title{display:flex;justify-content:space-between;gap:10px;color:#fff7d6;font-weight:950}.pa-tag{display:inline-flex;width:max-content;padding:5px 8px;border-radius:999px;border:1px solid rgba(57,255,136,.26);background:rgba(57,255,136,.1);color:#c8ffdd;font-size:11px;font-weight:950}.pa-reason{color:#aebbd0;font-size:12px;line-height:1.45}.pa-odds-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}.pa-odd{padding:7px;border-radius:10px;background:rgba(255,255,255,.055);color:#d7e4f5;font-size:11px}.pa-odd b{display:block;color:#fff;margin-top:3px}
-      @media(max-width:900px){.pa-grid,.pa-state{grid-template-columns:1fr}.pa-market-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pa-odds-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){#premium-analysis-panel{margin:18px 14px 0;padding:14px}.pa-code-row{grid-template-columns:1fr}.pa-market-grid{grid-template-columns:1fr}.pa-head{display:grid}}
+      .pa-code{display:grid;gap:10px;padding:13px;border:1px dashed rgba(255,159,28,.34);border-radius:16px;background:rgba(255,159,28,.07)}.pa-code-row,.pa-tool-row{display:grid;grid-template-columns:1fr auto;gap:8px}.pa-input,.pa-select{width:100%;min-height:46px;border:1px solid rgba(255,159,28,.24);border-radius:13px;background:rgba(0,0,0,.25);color:#f8fbff;padding:0 12px;font-weight:850}.pa-select[multiple]{min-height:260px;padding:10px}.pa-button{min-height:46px;border:0;border-radius:14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;font-size:14px;font-weight:950;cursor:pointer;padding:0 14px}.pa-button.secondary{background:rgba(255,255,255,.08);color:#f8fbff;border:1px solid rgba(255,255,255,.16)}.pa-small{color:#aebbd0;font-size:12px;line-height:1.5}.pa-message{display:block;color:#ffe08a;font-size:12px;font-weight:900;min-height:16px;line-height:1.55}
+      .pa-check{display:flex;align-items:center;gap:8px;color:#d7e4f5;font-size:12px;font-weight:850}.pa-check input{accent-color:#39ff88}.pa-filter-note{color:#8fa0b5;font-size:11px;font-weight:850}.pa-market-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.pa-market{min-height:42px;border:1px solid rgba(255,159,28,.20);border-radius:13px;background:rgba(255,255,255,.045);color:#f8fbff;font-weight:900;cursor:pointer}.pa-market.active{border-color:rgba(57,255,136,.55);background:rgba(57,255,136,.16);color:#c8ffdd}.pa-market:disabled,.pa-button:disabled,.pa-select:disabled{opacity:.45;cursor:not-allowed}.pa-result{display:grid;gap:10px;padding:14px;border:1px solid rgba(57,255,136,.20);border-radius:16px;background:rgba(57,255,136,.06)}.pa-row{display:flex;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:12px;background:rgba(0,0,0,.18);color:#aebbd0;font-size:12px}.pa-row strong{color:#f8fbff;text-align:right}.pa-analysis-card{display:grid;gap:8px;padding:12px;border:1px solid rgba(255,159,28,.22);border-radius:14px;background:rgba(2,8,23,.55)}.pa-analysis-title{display:flex;justify-content:space-between;gap:10px;color:#fff7d6;font-weight:950}.pa-tag{display:inline-flex;width:max-content;padding:5px 8px;border-radius:999px;border:1px solid rgba(57,255,136,.26);background:rgba(57,255,136,.1);color:#c8ffdd;font-size:11px;font-weight:950}.pa-reason{color:#aebbd0;font-size:12px;line-height:1.45}.pa-odds-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}.pa-odd{padding:7px;border-radius:10px;background:rgba(255,255,255,.055);color:#d7e4f5;font-size:11px}.pa-odd b{display:block;color:#fff;margin-top:3px}
+      @media(max-width:900px){.pa-grid,.pa-state{grid-template-columns:1fr}.pa-market-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pa-odds-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){#premium-analysis-panel{margin:18px 14px 0;padding:14px}.pa-code-row,.pa-tool-row{grid-template-columns:1fr}.pa-market-grid{grid-template-columns:1fr}.pa-head{display:grid}}
     `;
     document.head.appendChild(s);
   };
@@ -269,12 +256,13 @@
     return `${match.league || "Lig"} — ${match.time || "--:--"} | ${match.home} - ${match.away}${market}${score}`;
   };
 
+  const optionHtml = (list, indexes) => indexes.length
+    ? indexes.map((i) => `<option value="${i}">${esc(matchOptionText(list[i]))}</option>`).join("")
+    : `<option value="">Filtreye uygun maç bulunamadı</option>`;
+
   const oddsGrid = (match) => {
     const odds = match.available_odds || {};
-    const cells = [
-      ["MS 1", odds.ms1], ["MS X", odds.msx], ["MS 2", odds.ms2], ["2.5 Üst", odds.over25],
-      ["2.5 Alt", odds.under25], ["KG Var", odds.bttsYes], ["1Y KG", odds.firstHalfBttsYes], ["2Y KG", odds.secondHalfBttsYes]
-    ];
+    const cells = [["MS 1", odds.ms1], ["MS X", odds.msx], ["MS 2", odds.ms2], ["2.5 Üst", odds.over25], ["2.5 Alt", odds.under25], ["KG Var", odds.bttsYes], ["1Y KG", odds.firstHalfBttsYes], ["2Y KG", odds.secondHalfBttsYes]];
     return `<div class="pa-odds-grid">${cells.map(([label, value]) => `<span class="pa-odd">${esc(label)}<b>${esc(value || "—")}</b></span>`).join("")}</div>`;
   };
 
@@ -282,11 +270,7 @@
   const selectedOddFor = (match, selectedMarket) => selectedMarket === "Robot Önerisi" ? (match.estimated_odds || oddsForMarket(match, match.recommended_market) || "-") : (oddsForMarket(match, selectedMarket) || "-");
 
   const renderOutput = (selected, selectedMarket, usage) => {
-    const legs = selected.map((match) => {
-      const market = selectedMarketFor(match, selectedMarket);
-      const odd = selectedOddFor(match, selectedMarket);
-      return { match, market, odd };
-    });
+    const legs = selected.map((match) => ({ match, market: selectedMarketFor(match, selectedMarket), odd: selectedOddFor(match, selectedMarket) }));
     const numericOdds = legs.map((leg) => Number(String(leg.odd).replace(",", "."))).filter((value) => Number.isFinite(value) && value > 1);
     const totalOdd = numericOdds.length === legs.length ? numericOdds.reduce((acc, value) => acc * value, 1).toFixed(2) : "-";
     const avgScore = Math.round(legs.reduce((acc, leg) => acc + Number(leg.match.analysis_score || 0), 0) / Math.max(legs.length, 1));
@@ -306,8 +290,7 @@
           <div class="pa-row"><span>Güven / Risk</span><strong>${esc(leg.match.confidence_score || "-")} · ${esc(leg.match.risk_level || "-")}</strong></div>
           ${oddsGrid(leg.match)}
           <p class="pa-reason">${esc(leg.match.robot_reason || "Robot gerekçesi henüz oluşmadı. Canlı veri ve detaylı analiz çıktısı güncellendikçe bu alan dolacak.")}</p>
-        </article>
-      `).join("")}
+        </article>`).join("")}
     `;
   };
 
@@ -318,7 +301,7 @@
     const shell = ensureShell();
     const list = todayMatches(data);
     const analyzedCount = list.filter((match) => match.analysis_score !== null && match.analysis_score !== undefined).length;
-    const couponCount = list.filter((match) => String(match.decision || "").includes("Kupon") || match.analysis_score >= 65).length;
+    const couponCount = list.filter(isCouponCandidate).length;
     shell.innerHTML = `
       <div class="pa-head"><div><h2 class="pa-title">Özel Maç / Kupon Analizi</h2><p class="pa-sub">Üye kodu veya deneme aktifse maç seç, robot önerisini ya da kendi marketini seç. Panel canlı veri, robot analizi, oran ve gerekçeyi birlikte gösterir.</p></div><div class="pa-badge">${accessBadgeText()}</div></div>
       <div class="pa-state"><div><span>Paket</span><strong>${active ? esc(member.planName || "Premium Üye") : "Ön İzleme"}</strong></div><div><span>Kalan Kullanım</span><strong>${active ? esc(member.remainingAnalysisCount ?? "Aktif") : "Kilitli"}</strong></div><div><span>Analizli Maç</span><strong>${analyzedCount}</strong></div><div><span>Kupon Adayı</span><strong>${couponCount}</strong></div></div>
@@ -327,7 +310,10 @@
           <h3>Üye Kodu</h3>
           <div class="pa-code"><span class="pa-small">Kod aktif değilse özel analiz kilitli kalır. 1 günlük deneme aktifse ayrıca kod gerekmez.</span><div class="pa-code-row"><input class="pa-input" type="password" placeholder="Üye / kurucu kodu" data-pa-code><button class="pa-button" type="button" data-pa-unlock>Kod ile Aç</button></div><span class="pa-message" data-pa-message>${active ? esc(trialMessage()) : "Kod girilmeden veya deneme açılmadan özel analiz açılmaz."}</span></div>
           <h3>Maçlar ve Seçenek</h3>
-          <label class="pa-small">Maç Listesi<select class="pa-select" data-pa-match multiple size="9" ${active ? "" : "disabled"}>${list.length ? list.map((m, i) => `<option value="${i}">${esc(matchOptionText(m))}</option>`).join("") : `<option>Bugünün maç listesi hazırlanıyor</option>`}</select></label>
+          <div class="pa-tool-row"><input class="pa-input" type="search" placeholder="Maç, lig veya takım ara" data-pa-search ${active ? "" : "disabled"}><button class="pa-button secondary" type="button" data-pa-top ${active ? "" : "disabled"}>En güçlü 5</button></div>
+          <label class="pa-check"><input type="checkbox" data-pa-only-coupon ${active ? "" : "disabled"}> Sadece kupon adaylarını göster</label>
+          <span class="pa-filter-note" data-pa-count>${list.length} maç listeleniyor · 0 maç seçildi</span>
+          <label class="pa-small">Maç Listesi<select class="pa-select" data-pa-match multiple size="9" ${active ? "" : "disabled"}>${list.length ? optionHtml(list, list.map((_, i) => i)) : `<option>Bugünün maç listesi hazırlanıyor</option>`}</select></label>
           <div class="pa-market-grid">${markets.map((market, index) => `<button class="pa-market${index === 0 ? " active" : ""}" type="button" data-pa-market="${esc(market)}" ${active ? "" : "disabled"}>${esc(market)}</button>`).join("")}</div>
           <button class="pa-button" type="button" data-pa-analyze ${active ? "" : "disabled"}>Özel Analizi Başlat</button>
         </div>
@@ -335,6 +321,42 @@
       </div>`;
 
     let selectedMarket = "Robot Önerisi";
+    let visibleIndexes = list.map((_, i) => i);
+    const select = shell.querySelector("[data-pa-match]");
+    const search = shell.querySelector("[data-pa-search]");
+    const onlyCoupon = shell.querySelector("[data-pa-only-coupon]");
+    const count = shell.querySelector("[data-pa-count]");
+
+    const updateCount = () => {
+      const selectedCount = Array.from(select?.selectedOptions || []).filter((o) => o.value !== "").length;
+      if (count) count.textContent = `${visibleIndexes.length} maç listeleniyor · ${selectedCount} maç seçildi`;
+    };
+
+    const refreshOptions = () => {
+      const term = cleanKey(search?.value || "");
+      visibleIndexes = list
+        .map((match, index) => ({ match, index }))
+        .filter(({ match }) => !onlyCoupon?.checked || isCouponCandidate(match))
+        .filter(({ match }) => !term || cleanKey(`${match.league} ${match.home} ${match.away} ${match.recommended_market}`).includes(term))
+        .map(({ index }) => index);
+      if (select) select.innerHTML = optionHtml(list, visibleIndexes);
+      updateCount();
+    };
+
+    search?.addEventListener("input", refreshOptions);
+    onlyCoupon?.addEventListener("change", refreshOptions);
+    select?.addEventListener("change", updateCount);
+    shell.querySelector("[data-pa-top]")?.addEventListener("click", () => {
+      const top = list
+        .map((match, index) => ({ match, index }))
+        .filter(({ match }) => visibleIndexes.includes(index))
+        .sort((a, b) => Number(b.match.analysis_score || 0) - Number(a.match.analysis_score || 0))
+        .slice(0, 5)
+        .map(({ index }) => String(index));
+      Array.from(select?.options || []).forEach((option) => { option.selected = top.includes(option.value); });
+      updateCount();
+    });
+
     shell.querySelectorAll("[data-pa-market]").forEach((button) => {
       button.addEventListener("click", () => {
         shell.querySelectorAll("[data-pa-market]").forEach((b) => b.classList.remove("active"));
@@ -361,7 +383,6 @@
     });
 
     shell.querySelector("[data-pa-analyze]")?.addEventListener("click", () => {
-      const select = shell.querySelector("[data-pa-match]");
       const selected = Array.from(select?.selectedOptions || []).map((o) => list[Number(o.value)]).filter(Boolean);
       const output = shell.querySelector("[data-pa-output]");
       if (!selected.length) {
