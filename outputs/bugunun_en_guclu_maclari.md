@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-25T10:23:32.665Z
+- Güncelleme: 2026-06-25T12:37:09.181Z
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Nejmeh - Tadamon Tyre | Lübnan Premier Lig | 15:30 | Veri bekleniyor | - | 1.07 | scheduled |
+| Nejmeh - Tadamon Tyre | Lübnan Premier Lig | 15:30 | Canlı 7' | - | 1.07 | live |
 | Grobina - Auda | Letonya Virsliga | 17:00 | Veri bekleniyor | - | 4.86 | scheduled |
 | Bfc Daugavpils - Riga Fc | Letonya Virsliga | 18:00 | Veri bekleniyor | - | 5.73 | scheduled |
 | Bjorkelangen - Sarpsborg 08 Ii | Norveç 3.Lig Grup 6 | 18:00 | Veri bekleniyor | - | 4.26 | scheduled |
@@ -32,13 +32,13 @@
 | Ifk Skövde - Lidkopings | İsveç 2.Lig Norra Götaland | 20:00 | Veri bekleniyor | - | 1.14 | scheduled |
 | Vikingur Gota (1) - (2) Hb Torshavn | Faroe Adaları Kupa Yarı Final | 20:30 | Veri bekleniyor | - | 1.98 | scheduled |
 | Konnerud - If Ready | Norveç 3.Lig Grup 1 | 20:30 | Veri bekleniyor | - | 4.61 | scheduled |
-| Brumunddal - Gjovik-Lyn | Norveç 3.Lig Grup 6 | 20:30 | Veri bekleniyor | - | 6.28 | scheduled |
+| Brumunddal - Gjovik-Lyn | Norveç 3.Lig Grup 6 | 20:30 | Veri bekleniyor | - | 6.51 | scheduled |
 | Al-Kuwait - Kazma | Kuveyt Premier Lig Şampiyonluk Grubu | 20:45 | Veri bekleniyor | - | 1.09 | scheduled |
 | Helges - Sunnersta Aif | İsveç 2.Lig Norra Svealand | 21:00 | Veri bekleniyor | - | 8.72 | scheduled |
 | Al Salmiyah - Al Arabi | Kuveyt Premier Lig Şampiyonluk Grubu | 21:45 | Veri bekleniyor | - | 3.8 | scheduled |
 | Al-Kuwait - Kazma | Kuveyt Premier Lig Şampiyonluk Grubu | 21:45 | Veri bekleniyor | - | 1.25 | scheduled |
 | Breidablik - Vikingur Reykja | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 3.73 | scheduled |
-| Ekvador - Almanya | Dünya Kupası 2026 Grup E | 23:00 | Veri bekleniyor | - | 4.94 | scheduled |
+| Ekvador - Almanya | Dünya Kupası 2026 Grup E | 23:00 | Veri bekleniyor | - | 4.78 | scheduled |
 | Curacao - Fildişi Sahili | Dünya Kupası 2026 Grup E | 23:00 | Veri bekleniyor | - | 15.9 | scheduled |
 
 ## Tek Mac Onerileri

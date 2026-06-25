@@ -1,3 +1,13 @@
 # Tahmin Kayit Saglik Kontrolu
 
-Baslangic raporu.
+Durum: empty
+Robot analiz maci: 33
+Toplam tahmin: 0
+Bekleyen: 0
+Kazanan: 0
+Kaybeden: 0
+Eksik kayit: 0
+Tekrar eden: 0
+
+Sonraki aksiyon: Tahmin kaydi kontrol edilmeli.
+

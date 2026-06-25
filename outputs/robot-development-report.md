@@ -1,5 +1,16 @@
 # Robot Gelişim Raporu
 
-Başlangıç dosyası oluşturuldu.
+Oluşturma: 2026-06-25T12:37:09.657Z
+Toplam tahmin: 0
+Sonuçlanan: 0
+Bekleyen: 0
 
-Bu dosya `node scripts/robot-development-report.js` çalışınca güncellenecek.
+## Güçlü Marketler
+
+## Zayıf Marketler
+
+## Sonraki Aksiyonlar
+- Pending kayitlar icin skor senkronunu takip et.
+- Hazir olmayan marketlerde en az 5 sonuc birikene kadar agirlik degistirme.
+- Basari orani dusuk marketleri kupon adaylarinda daha dusuk guvenle kullan.
+- Basari orani yuksek marketleri o liglerde one cikar.
