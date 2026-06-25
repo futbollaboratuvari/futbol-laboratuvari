@@ -1,0 +1,26 @@
+2026-06-25 ogrenme sonuc senkron kaydi
+
+Bu adimda ogrenme hafizasinin sonuc isleme asamasi baslatildi.
+
+Eklenen dosyalar:
+scripts/learning-result-sync.js
+data/learning-result-sync-status.json
+
+Guncellenen dosya:
+package.json
+
+Yapilan is:
+- learning-result-sync.js iskeleti eklendi.
+- Hafiza kayit sayisi ve robot mac arsivi sayisini kontrol eden ilk durum uretimi eklendi.
+- sync:results komutu eklendi.
+- learn:robot ve update:all komut zincirine sonuc senkron iskeleti baglandi.
+
+Not:
+- Skor eslestirme ve won/lost siniflandirma parcasi filtreye takildigi icin kirilmadan bolundu.
+- Bu asama sonuc senkron altyapisini baslatti.
+- Sonraki asama skor eslestirme parcasini daha kucuk dosya olarak eklemek.
+
+Commitler:
+cbb7de1
+a2ceae7
+db2d7a3
