@@ -1,0 +1,25 @@
+2026-06-25 asama 5 kendi tahminini olcer
+
+Durum:
+Asama 4 sonuc takibi otomatik hatta baglandi. Asama 5 baslatildi.
+
+Hedef:
+Skoru baglanan pending tahminleri market kuralina gore won/lost durumuna cevirmek.
+
+Eklenenler:
+scripts/prediction-measurement-health-check.js
+scripts/stage-5-prediction-measurement-check.js
+outputs/stage-5-report.md
+
+Otomatik hatta baglanan:
+.github/workflows/stage-4-result-tracking.yml
+
+Akis:
+1. Aşama 4 skor baglar
+2. Aşama 5 learning-finalizer.js calistirir
+3. pending tahminler won/lost olarak olculur
+4. tahmin olcum saglik kontrolu raporlanir
+5. data ve outputs commit edilir
+
+Not:
+Bu asama manuel degildir. Saatlik robot hattina baglandi.
