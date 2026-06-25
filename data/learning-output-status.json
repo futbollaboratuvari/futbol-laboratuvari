@@ -1,13 +1,30 @@
 {
-  "generated_at": "2026-06-25T00:00:00.000Z",
-  "status": "bootstrap",
-  "note": "Workflow bu dosyayi sonraki calismada guncelleyecek.",
+  "generated_at": "2026-06-25T01:41:01.020Z",
+  "status": "ready",
+  "checks": {
+    "robot_exists": true,
+    "memory_exists": true,
+    "live_exists": true,
+    "learning_engine_name": true,
+    "learning_mode_name": true,
+    "learning_fields_ready": true,
+    "memory_has_predictions": false
+  },
   "robot": {
-    "match_count": 0,
+    "engine": "High Value Coupon Engine + Learning Memory",
+    "scoring_mode": "net_threshold_rules_with_learning_memory",
+    "match_count": 32,
     "learning_adjusted_count": 0
   },
   "memory": {
     "total_predictions": 0,
-    "pending_predictions": 0
-  }
+    "pending_predictions": 0,
+    "won_predictions": 0,
+    "lost_predictions": 0
+  },
+  "live": {
+    "match_count": 32,
+    "status": "active"
+  },
+  "note": "Learning output fields are present. The site can display learning notes."
 }
