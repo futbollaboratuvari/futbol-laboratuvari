@@ -1,0 +1,47 @@
+name: Learning Output Check
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/main-run.txt"
+      - "scripts/learning-output-check.js"
+      - "scripts/apply-learning-weights.js"
+      - "scripts/export-high-value-json.js"
+      - "package.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: learning-output-check
+  cancel-in-progress: true
+
+jobs:
+  check-learning-output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build learning outputs
+        run: npm run export:live
+
+      - name: Commit learning outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data outputs || true
+          if git diff --cached --quiet; then
+            echo "No learning output changes"
+            exit 0
+          fi
+          git commit -m "Update learning output check"
+          git push origin HEAD:main
