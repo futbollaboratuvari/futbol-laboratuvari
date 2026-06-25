@@ -1,0 +1,46 @@
+name: Stage 1 Bulletin Flow
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stage-1-bulletin-flow
+  cancel-in-progress: true
+
+jobs:
+  bulletin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update bulletin
+        run: node scripts/update-fixtures.js
+
+      - name: Check bulletin health
+        run: node scripts/stage-1-bulletin-check.js
+
+      - name: Build two day bulletin
+        run: node scripts/two-day-bulletin-window.js
+
+      - name: Commit bulletin outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data outputs
+          if git diff --cached --quiet; then
+            echo "No bulletin changes"
+            exit 0
+          fi
+          git commit -m "Update stage 1 bulletin flow"
+          git push origin HEAD:main
