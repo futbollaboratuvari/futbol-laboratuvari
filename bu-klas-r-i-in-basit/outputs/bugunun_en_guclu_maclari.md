@@ -87,7 +87,7 @@ MAC_SAYISI: 5
 
 ## Rapor Bilgisi
 
-OLUSTURMA_ZAMANI: 2026-06-25T17:35:24.667446+00:00
+OLUSTURMA_ZAMANI: 2026-06-25T23:01:58.388373+00:00
 TOPLAM_TAHMIN: 30
 SONUCLANAN_TAHMIN: 0
 BEKLEYEN_TAHMIN: 30
@@ -139,7 +139,7 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 - Gelen mac: 5
 - Yeni eklenen mac: 0
 - Tekrar mac: 5
-- Toplam benzersiz mac: 405
+- Toplam benzersiz mac: 460
 - Dosya: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Tahmin Performans Takibi
@@ -165,8 +165,8 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 ## Mackolik Veri Cekme Durumu
 
 - Durum: success
-- Bulunan mac: 6
-- Yeni kaydedilen mac: 0
-- Tekrar mac: 6
-- Ham havuz toplam mac: 405
+- Bulunan mac: 55
+- Yeni kaydedilen mac: 55
+- Tekrar mac: 0
+- Ham havuz toplam mac: 460
 - Rapor: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md
