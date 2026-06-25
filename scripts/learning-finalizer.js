@@ -33,6 +33,8 @@ function settle(market, score) {
   if (market === "3.5 Alt") return total < 4 ? "won" : "lost";
   if (market === "4.5 Üst") return total > 4 ? "won" : "lost";
   if (market === "4.5 Alt") return total < 5 ? "won" : "lost";
+  if (market === "5.5 Üst") return total > 5 ? "won" : "lost";
+  if (market === "5.5 Alt") return total < 6 ? "won" : "lost";
   if (market === "MS 1") return h > a ? "won" : "lost";
   if (market === "MS X") return h === a ? "won" : "lost";
   if (market === "MS 2") return a > h ? "won" : "lost";
@@ -41,6 +43,8 @@ function settle(market, score) {
   if (market === "ÇŞ 12") return h !== a ? "won" : "lost";
   if (market === "Ev Sahibi Gol Atar") return h > 0 ? "won" : "lost";
   if (market === "Deplasman Gol Atar") return a > 0 ? "won" : "lost";
+  if (market === "Ev Sahibi Gol Yemez") return a === 0 ? "won" : "lost";
+  if (market === "Deplasman Gol Yemez") return h === 0 ? "won" : "lost";
   if (market === "Ev Sahibi 1.5 Üst") return h > 1 ? "won" : "lost";
   if (market === "Deplasman 1.5 Üst") return a > 1 ? "won" : "lost";
   if (market === "Toplam Tek") return total % 2 === 1 ? "won" : "lost";
@@ -48,6 +52,14 @@ function settle(market, score) {
   if (market === "0-1 Gol") return total <= 1 ? "won" : "lost";
   if (market === "2-3 Gol") return total >= 2 && total <= 3 ? "won" : "lost";
   if (market === "4-6 Gol") return total >= 4 && total <= 6 ? "won" : "lost";
+  if (market === "7+ Gol") return total >= 7 ? "won" : "lost";
+  if (market === "KG Var + 2.5 Üst") return both && total > 2 ? "won" : "lost";
+  if (market === "KG Var + 3.5 Üst") return both && total > 3 ? "won" : "lost";
+  if (market === "KG Yok + 2.5 Alt") return !both && total < 3 ? "won" : "lost";
+  if (market === "MS 1 + KG Var") return h > a && both ? "won" : "lost";
+  if (market === "MS 2 + KG Var") return a > h && both ? "won" : "lost";
+  if (market === "MS 1 + 2.5 Üst") return h > a && total > 2 ? "won" : "lost";
+  if (market === "MS 2 + 2.5 Üst") return a > h && total > 2 ? "won" : "lost";
   return "pending";
 }
 
