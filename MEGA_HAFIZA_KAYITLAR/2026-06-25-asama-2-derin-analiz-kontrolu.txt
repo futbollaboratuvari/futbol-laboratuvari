@@ -1,0 +1,24 @@
+2026-06-25 asama 2 derin analiz kontrolu
+
+Hedef:
+Robotun analiz urettigi her macta zorunlu alanlari kontrol etmek.
+
+Kontrol edilen zorunlu alanlar:
+- market
+- skor
+- risk
+- guven
+- gerekce
+
+Eklenenler:
+scripts/analysis-required-fields-check.js
+outputs/analysis-required-fields-report.md
+
+Guncellenen:
+scripts/stage-2-analysis-check.js
+
+Manuel komut:
+node scripts/stage-2-analysis-check.js
+
+Not:
+Bu adim ana analiz motorunu bozmaz. Sadece uretilen analizleri denetler ve eksik alanlari raporlar.
