@@ -25,12 +25,29 @@ function settle(market, score) {
   const h = s[0], a = s[1], total = h + a, both = h > 0 && a > 0;
   if (market === "KG Var") return both ? "won" : "lost";
   if (market === "KG Yok") return !both ? "won" : "lost";
+  if (market === "1.5 Üst") return total > 1 ? "won" : "lost";
+  if (market === "1.5 Alt") return total < 2 ? "won" : "lost";
   if (market === "2.5 Üst") return total > 2 ? "won" : "lost";
   if (market === "2.5 Alt") return total < 3 ? "won" : "lost";
   if (market === "3.5 Üst") return total > 3 ? "won" : "lost";
+  if (market === "3.5 Alt") return total < 4 ? "won" : "lost";
+  if (market === "4.5 Üst") return total > 4 ? "won" : "lost";
+  if (market === "4.5 Alt") return total < 5 ? "won" : "lost";
   if (market === "MS 1") return h > a ? "won" : "lost";
   if (market === "MS X") return h === a ? "won" : "lost";
   if (market === "MS 2") return a > h ? "won" : "lost";
+  if (market === "ÇŞ 1X") return h >= a ? "won" : "lost";
+  if (market === "ÇŞ X2") return a >= h ? "won" : "lost";
+  if (market === "ÇŞ 12") return h !== a ? "won" : "lost";
+  if (market === "Ev Sahibi Gol Atar") return h > 0 ? "won" : "lost";
+  if (market === "Deplasman Gol Atar") return a > 0 ? "won" : "lost";
+  if (market === "Ev Sahibi 1.5 Üst") return h > 1 ? "won" : "lost";
+  if (market === "Deplasman 1.5 Üst") return a > 1 ? "won" : "lost";
+  if (market === "Toplam Tek") return total % 2 === 1 ? "won" : "lost";
+  if (market === "Toplam Çift") return total % 2 === 0 ? "won" : "lost";
+  if (market === "0-1 Gol") return total <= 1 ? "won" : "lost";
+  if (market === "2-3 Gol") return total >= 2 && total <= 3 ? "won" : "lost";
+  if (market === "4-6 Gol") return total >= 4 && total <= 6 ? "won" : "lost";
   return "pending";
 }
 
