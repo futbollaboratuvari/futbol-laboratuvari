@@ -1,0 +1,23 @@
+2026-06-25 ogrenme cikti gorunum kaydi
+
+Bu adimda ogrenme cikti kontrol durumu site paneline baglandi.
+
+Eklenen dosya:
+learning-output-visibility.js
+
+Guncellenen dosya:
+cache-version.js
+
+Islev:
+- data/learning-output-status.json dosyasini okur.
+- Ogrenme Hafizasi panelinin altinda cikti kontrol durumunu gosterir.
+- Robot mac sayisi, ogrenme etkisi, hafiza tahmini ve bekleyen sayisini gosterir.
+- Durum bootstrap, waiting, ready veya warning olarak gorunur.
+- Veri yoksa sayfayi kirmadan hazirlaniyor mesaji verir.
+
+Commitler:
+326fa5f
+92a24ac
+
+Siradaki is:
+Canli sitede Ogrenme Hafizasi ve Cikti Kontrol panelini kontrol etmek.
