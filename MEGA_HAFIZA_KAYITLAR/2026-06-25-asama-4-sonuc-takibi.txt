@@ -1,0 +1,26 @@
+2026-06-25 asama 4 mac sonucunu takip eder
+
+Durum:
+Asama 3 tahmin kaydi baslatildi. Asama 4 baslatildi.
+
+Hedef:
+Mac sonucunu takip etmek, biten maclari arsive almak ve skor ile tahminleri eslestirmek.
+
+Eklenenler:
+scripts/result-tracking-health-check.js
+scripts/stage-4-result-tracking-check.js
+outputs/result-tracking-health-report.md
+.github/workflows/stage-4-result-tracking.yml
+
+Otomatik akis:
+1. update-fixtures.js calisir
+2. export-high-value-json.js calisir
+3. stage-3-prediction-record-check.js calisir
+4. stage-4-result-tracking-check.js calisir
+5. data ve outputs dosyalari commit edilir
+
+Zaman:
+Saatte bir, 15. dakikada calisir.
+
+Not:
+Bu asama manuel degildir. Robot otomatik olarak sonuc takip akisina baglandi.
