@@ -1,0 +1,28 @@
+2026-06-25 otomatik robot hatti kontrol
+
+Hedef:
+Manuel kalan asamalari otomatik robot hattina baglamak.
+
+Kontrol sonucu:
+Stage 4 Result Tracking workflow otomatik calisiyordu fakat asama 1 saglik kontrolu, iki gunluk bulten, asama 2 kontrolu ve pipeline raporu tam hatta dahil degildi.
+
+Yapilan:
+.github/workflows/stage-4-result-tracking.yml guncellendi.
+
+Yeni otomatik akis:
+1. update-fixtures.js
+2. stage-1-bulletin-check.js
+3. two-day-bulletin-window.js
+4. export-high-value-json.js
+5. stage-2-analysis-check.js
+6. stage-3-prediction-record-check.js
+7. stage-4-result-tracking-check.js
+8. robot-development-report.js
+9. robot-pipeline-status.js
+10. data ve outputs commit edilir
+
+Zaman:
+Saatte bir otomatik calisir.
+
+Not:
+Bu kayit, robotun manuel degil otomatik calismasi icin yapilan baglanti kontroludur.
