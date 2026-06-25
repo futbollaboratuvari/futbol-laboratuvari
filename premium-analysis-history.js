@@ -80,7 +80,7 @@
     const style = document.createElement("style");
     style.id = "premium-analysis-history-style";
     style.textContent = `
-      .pa-action-row{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 2px}.pa-copy-button,.pa-history-button{min-height:38px;border-radius:12px;border:1px solid rgba(255,159,28,.24);background:rgba(255,255,255,.08);color:#f8fbff;font-size:12px;font-weight:950;cursor:pointer;padding:0 12px}.pa-copy-button.primary{background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;border:0}.pa-history-box{display:grid;gap:8px;margin-top:8px;padding:10px;border:1px solid rgba(255,159,28,.18);border-radius:14px;background:rgba(255,159,28,.055)}.pa-history-title{color:#ffe08a;font-size:12px;font-weight:950;text-transform:uppercase}.pa-history-item{display:grid;gap:3px;text-align:left;padding:9px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(0,0,0,.18);color:#f8fbff;cursor:pointer}.pa-history-item span,.pa-history-empty{color:#aebbd0;font-size:11px}.pa-toast{position:fixed;left:50%;bottom:22px;z-index:9999;transform:translateX(-50%);padding:10px 14px;border-radius:999px;background:rgba(3,8,23,.96);border:1px solid rgba(57,255,136,.35);color:#c8ffdd;font-size:12px;font-weight:950;box-shadow:0 18px 50px rgba(0,0,0,.35)}
+      .pa-action-row{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 2px}.pa-copy-button,.pa-history-button{min-height:38px;border-radius:12px;border:1px solid rgba(255,159,28,.24);background:rgba(255,255,255,.08);color:#f8fbff;font-size:12px;font-weight:950;cursor:pointer;padding:0 12px}.pa-copy-button.primary{background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#07110c;border:0}.pa-history-box{display:grid;gap:8px;margin-top:8px;padding:10px;border:1px solid rgba(255,159,28,.18);border-radius:14px;background:rgba(255,159,28,.055)}.pa-history-head{display:flex;align-items:center;justify-content:space-between;gap:8px}.pa-history-title{color:#ffe08a;font-size:12px;font-weight:950;text-transform:uppercase}.pa-history-clear{min-height:28px;border:1px solid rgba(255,255,255,.12);border-radius:999px;background:rgba(255,255,255,.06);color:#aebbd0;font-size:11px;font-weight:900;cursor:pointer;padding:0 9px}.pa-history-item{display:grid;gap:3px;text-align:left;padding:9px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(0,0,0,.18);color:#f8fbff;cursor:pointer}.pa-history-item span,.pa-history-empty{color:#aebbd0;font-size:11px}.pa-toast{position:fixed;left:50%;bottom:22px;z-index:9999;transform:translateX(-50%);padding:10px 14px;border-radius:999px;background:rgba(3,8,23,.96);border:1px solid rgba(57,255,136,.35);color:#c8ffdd;font-size:12px;font-weight:950;box-shadow:0 18px 50px rgba(0,0,0,.35)}
     `;
     document.head.appendChild(style);
   };
@@ -109,27 +109,48 @@
     }
   };
 
+  const safeFileName = (value) => String(value || "ozel-analiz")
+    .toLocaleLowerCase("tr-TR")
+    .replace(/ı/g, "i")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 70) || "ozel-analiz";
+
+  const downloadText = (item) => {
+    const blob = new Blob([item.text], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${safeFileName(item.summary)}.txt`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    toast("Özel analiz TXT olarak indirildi");
+  };
+
   const decorateResult = (result) => {
-    if (!result || result.dataset.paHistoryReady === "1") return;
+    if (!result) return;
     injectStyle();
 
     const hasAnalysis = Boolean(result.querySelector(".pa-analysis-card"));
+    result.querySelectorAll(".pa-action-row").forEach((node) => node.remove());
+
     if (hasAnalysis) {
       const saved = saveResult(result);
       const actions = document.createElement("div");
       actions.className = "pa-action-row";
-      actions.innerHTML = `<button class="pa-copy-button primary" type="button" data-pa-copy-latest>Sonucu Kopyala</button><button class="pa-copy-button" type="button" data-pa-copy-history>Son Kayıtları Göster</button>`;
+      actions.innerHTML = `<button class="pa-copy-button primary" type="button" data-pa-copy-latest>Sonucu Kopyala</button><button class="pa-copy-button" type="button" data-pa-download-latest>TXT İndir</button><button class="pa-copy-button" type="button" data-pa-copy-history>Son Kayıtları Göster</button>`;
       result.insertBefore(actions, result.children[1] || null);
       actions.querySelector("[data-pa-copy-latest]")?.addEventListener("click", () => copyText(saved.text));
-      actions.querySelector("[data-pa-copy-history]")?.addEventListener("click", () => {
-        appendHistory(result, true);
-      });
-      result.dataset.paHistoryReady = "1";
+      actions.querySelector("[data-pa-download-latest]")?.addEventListener("click", () => downloadText(saved));
+      actions.querySelector("[data-pa-copy-history]")?.addEventListener("click", () => appendHistory(result, true));
       return;
     }
 
     appendHistory(result, false);
-    result.dataset.paHistoryReady = "1";
   };
 
   const appendHistory = (result, force = false) => {
@@ -139,7 +160,7 @@
     if (box) box.remove();
     box = document.createElement("div");
     box.className = "pa-history-box";
-    box.innerHTML = `<div class="pa-history-title">Son Özel Analizler</div>${historyHtml()}`;
+    box.innerHTML = `<div class="pa-history-head"><div class="pa-history-title">Son Özel Analizler</div><button class="pa-history-clear" type="button" data-pa-clear-history>Temizle</button></div>${historyHtml()}`;
     result.appendChild(box);
     box.querySelectorAll("[data-pa-history-index]").forEach((button) => {
       button.addEventListener("click", () => {
@@ -147,20 +168,25 @@
         if (item?.text) copyText(item.text);
       });
     });
+    box.querySelector("[data-pa-clear-history]")?.addEventListener("click", () => {
+      writeHistory([]);
+      appendHistory(result, true);
+      toast("Özel analiz geçmişi temizlendi");
+    });
   };
 
   const boot = () => {
     const panel = document.getElementById(PANEL_ID);
     if (!panel || panel.dataset.paHistoryObserver === "1") return;
     panel.dataset.paHistoryObserver = "1";
+    let timer = null;
     const scan = () => decorateResult(panel.querySelector("[data-pa-output]"));
     scan();
-    const observer = new MutationObserver(() => {
-      const result = panel.querySelector("[data-pa-output]");
-      if (result) {
-        result.dataset.paHistoryReady = "0";
-        setTimeout(scan, 20);
-      }
+    const observer = new MutationObserver((mutations) => {
+      const relevant = mutations.some((mutation) => [...mutation.addedNodes].some((node) => node.nodeType === 1 && !node.classList?.contains("pa-action-row") && !node.classList?.contains("pa-history-box") && !node.classList?.contains("pa-toast")));
+      if (!relevant) return;
+      clearTimeout(timer);
+      timer = setTimeout(scan, 40);
     });
     observer.observe(panel, { childList: true, subtree: true });
   };
