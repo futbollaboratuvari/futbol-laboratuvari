@@ -1,14 +1,10 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-06-25 / 2026-06-26
-Toplam mac: 33
-Bugun: 33
+Toplam mac: 29
+Bugun: 29
 Yarin: 0
 
-- 2026-06-25 15:30 | Lübnan Premier Lig | Nejmeh - Tadamon Tyre
-- 2026-06-25 17:00 | Letonya Virsliga | Grobina - Auda
-- 2026-06-25 18:00 | Letonya Virsliga | Bfc Daugavpils - Riga Fc
-- 2026-06-25 18:00 | Norveç 3.Lig Grup 6 | Bjorkelangen - Sarpsborg 08 Ii
 - 2026-06-25 19:00 | Finlandiya Ykkönen | Fc Jazz - Tampere Utd
 - 2026-06-25 19:00 | Finlandiya Ykkönen | Jyvaskyla - Inter Turku Ii
 - 2026-06-25 19:00 | Norveç 3.Lig Grup 3 | Asane Ii - Os Turn Fotball

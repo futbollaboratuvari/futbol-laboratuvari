@@ -1,7 +1,7 @@
 # Tahmin Kayit Saglik Kontrolu
 
 Durum: empty
-Robot analiz maci: 33
+Robot analiz maci: 29
 Toplam tahmin: 0
 Bekleyen: 0
 Kazanan: 0

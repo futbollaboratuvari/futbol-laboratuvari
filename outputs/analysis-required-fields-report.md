@@ -1,14 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 33
+Toplam analiz: 29
 Tam analiz: 0
-Eksik analiz: 33
+Eksik analiz: 29
 
-- Nejmeh VS Tadamon Tyre: eksik score, confidence
-- Grobina VS Auda: eksik score, confidence
-- Bfc Daugavpils VS Riga Fc: eksik score, confidence
-- Bjorkelangen VS Sarpsborg 08 Ii: eksik score, confidence
 - Fc Jazz VS Tampere Utd: eksik score, confidence
 - Jyvaskyla VS Inter Turku Ii: eksik score, confidence
 - Asane Ii VS Os Turn Fotball: eksik score, confidence
@@ -25,3 +21,7 @@ Eksik analiz: 33
 - Rsb Berkane VS Far Rabat: eksik score, confidence
 - Super Nova VS Fs Jelgava: eksik score, confidence
 - Strindheim VS Melhus: eksik score, confidence
+- Galtabacks VS Böljan: eksik score, confidence
+- Nykobing Fa VS Nacka Iliria: eksik score, confidence
+- Ifk Skövde VS Lidkopings: eksik score, confidence
+- Vikingur Gota (1) VS (2) Hb Torshavn: eksik score, confidence
