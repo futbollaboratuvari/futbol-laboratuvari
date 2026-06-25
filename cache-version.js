@@ -33,4 +33,5 @@
   };
 
   loadScript("learning-visibility.js", "learning-visibility-script");
+  loadScript("learning-output-visibility.js", "learning-output-visibility-script");
 })();
