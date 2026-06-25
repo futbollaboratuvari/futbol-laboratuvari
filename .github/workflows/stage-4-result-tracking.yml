@@ -1,0 +1,49 @@
+name: Stage 4 Result Tracking
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stage-4-result-tracking
+  cancel-in-progress: true
+
+jobs:
+  result-tracking:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update bulletin before result tracking
+        run: node scripts/update-fixtures.js
+
+      - name: Refresh robot analysis
+        run: node scripts/export-high-value-json.js
+
+      - name: Record predictions
+        run: node scripts/stage-3-prediction-record-check.js
+
+      - name: Track results
+        run: node scripts/stage-4-result-tracking-check.js
+
+      - name: Commit result tracking outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data outputs
+          if git diff --cached --quiet; then
+            echo "No result tracking changes"
+            exit 0
+          fi
+          git commit -m "Update stage 4 result tracking"
+          git push origin HEAD:main
