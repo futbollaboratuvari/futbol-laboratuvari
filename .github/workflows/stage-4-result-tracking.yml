@@ -48,8 +48,8 @@ jobs:
       - name: Measure predictions
         run: node scripts/stage-5-prediction-measurement-check.js
 
-      - name: Build robot development report
-        run: node scripts/robot-development-report.js
+      - name: Apply learning weights status
+        run: node scripts/stage-6-learning-weights-check.js
 
       - name: Build robot pipeline status
         run: node scripts/robot-pipeline-status.js
