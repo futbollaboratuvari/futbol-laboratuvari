@@ -1,0 +1,35 @@
+name: A8 MS Apply
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Apply MS options
+        run: node scripts/a8-ms-options-apply.js
+
+      - name: Check syntax
+        run: |
+          node --check scripts/robot-coupon-engine.js
+          node --check scripts/robot-exact-scoring.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "futbollaboratuvari-bot"
+          git config user.email "actions@github.com"
+          git add scripts/robot-coupon-engine.js scripts/robot-exact-scoring.js
+          git diff --cached --quiet || git commit -m "A8 MS 1 X 2 secenekleri eklendi"
+          git push
