@@ -106,6 +106,9 @@ jobs:
         continue-on-error: true
         run: node scripts/cards-user-choice.js
 
+      - name: Validate data outputs before commit
+        run: node scripts/validate-json-no-conflicts.js
+
       - name: Commit and push High Value Engine outputs
         continue-on-error: true
         run: |
