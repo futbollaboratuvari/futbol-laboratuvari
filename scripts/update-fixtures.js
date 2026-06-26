@@ -1,6 +1,7 @@
 const fs = require("fs");
 const https = require("https");
 const path = require("path");
+const { filterActiveBulletinMatches, countInactiveBulletinMatches } = require("./bulletin-active-filter");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -349,13 +350,19 @@ const toRawPool = (fixtures, source) => ({
 
 const toSporTotoBulletin = (fixtures, source) => {
   const today = formatTurkeyDate();
+  const activeFixtures = filterActiveBulletinMatches(fixtures);
+  const visibleFixtures = activeFixtures.slice(0, 15);
   return {
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
     source,
     week_label: `${today} / ${addDays(today, 6)}`,
-    match_count: Math.min(fixtures.length, 15),
-    matches: fixtures.slice(0, 15).map((fixture, index) => ({
+    total_source_matches: fixtures.length,
+    active_match_count: activeFixtures.length,
+    removed_finished_count: countInactiveBulletinMatches(fixtures),
+    removed_statuses: ["finished", "cancelled", "postponed"],
+    match_count: visibleFixtures.length,
+    matches: visibleFixtures.map((fixture, index) => ({
       no: index + 1,
       week: `${today} / ${addDays(today, 6)}`,
       date: fixture.date,
@@ -398,7 +405,8 @@ const mdTable = (headers, rows) => {
 
 const writeReports = (fixtures, source) => {
   const generatedAt = new Date().toISOString();
-  const matchRows = fixtures.map((fixture) => [
+  const activeFixtures = filterActiveBulletinMatches(fixtures);
+  const matchRows = activeFixtures.map((fixture) => [
     `${fixture.home} - ${fixture.away}`,
     fixture.league,
     fixture.time,
@@ -408,9 +416,9 @@ const writeReports = (fixtures, source) => {
     fixture.status || "scheduled",
   ]);
 
-  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Skor", "Oran", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
+  const mainReport = `# Bugünün En Güçlü Maçları\n\n## Aktif Veri\n- ${source}\n- Güncelleme: ${generatedAt}\n- Ham maç sayısı: ${fixtures.length}\n- Aktif bülten maçı: ${activeFixtures.length}\n- Bültenden düşürülen maç: ${countInactiveBulletinMatches(fixtures)}\n\n## Skorlanan Maclar\n${mdTable(["Mac", "Lig", "Saat", "En Guclu Market", "Skor", "Oran", "Status"], matchRows)}\n\n## Tek Mac Onerileri\n${mdTable(["Mac", "Market", "Oneri Skoru", "Risk"], [])}\n\n## 2'li Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n\n## 3'lu Kupon Onerileri\n${mdTable(["Maclar", "Marketler", "Kupon Skoru", "Risk"], [])}\n`;
 
-  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Not: Parser güçlendirildi. Tarih başlığı, lig başlığı, maç satırı, maç kodu ve ana oran alanlarını daha esnek okur.\n`;
+  const sourceReport = `# Maçkolik Veri Çekme Raporu\n\n- Kaynak: ${source}\n- URL: ${MACKOLIK_IDDAA_URL}\n- Güncelleme: ${generatedAt}\n- Maç sayısı: ${fixtures.length}\n- Aktif bülten maçı: ${activeFixtures.length}\n- Bültenden düşürülen maç: ${countInactiveBulletinMatches(fixtures)}\n- Not: Parser güçlendirildi. Tarih başlığı, lig başlığı, maç satırı, maç kodu ve ana oran alanlarını daha esnek okur.\n`;
 
   const successReport = `# Başarı Yüzdesi Raporu\n\n- Güncelleme: ${generatedAt}\n- Sonuçlanan tahmin sayısı: 0\n- Durum: Canlı tahmin geçmişi bekleniyor.\n`;
 
@@ -447,7 +455,8 @@ const main = async () => {
 
   const liveCount = fixtures.filter((fixture) => fixture.status === "live").length;
   const finishedCount = fixtures.filter((fixture) => fixture.status === "finished").length;
-  console.log(`Futbol Laboratuvarı Maçkolik veri akışı güncellendi. Kaynak: ${source}. Maç: ${fixtures.length}. Canlı: ${liveCount}. Biten: ${finishedCount}`);
+  const activeBulletinCount = filterActiveBulletinMatches(fixtures).length;
+  console.log(`Futbol Laboratuvarı Maçkolik veri akışı güncellendi. Kaynak: ${source}. Maç: ${fixtures.length}. Aktif bülten: ${activeBulletinCount}. Canlı: ${liveCount}. Biten: ${finishedCount}`);
 };
 
 main().catch((error) => {
