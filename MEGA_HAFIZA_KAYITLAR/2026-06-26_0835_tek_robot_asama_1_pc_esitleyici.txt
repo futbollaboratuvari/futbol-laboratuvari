@@ -1,0 +1,31 @@
+Tarih: 26.06.2026
+Saat: 08:35
+Baslik: Tek Robot Asama 1 - PC esitleyici baglantisi
+
+Amac:
+PC'den gelen robot ciktilarini, yeni Robot + PRO 12.2 canli site dosya sozlesmesine baglamak.
+
+Yapilan:
+1. bu-klas-r-i-in-basit/src/tek_robot_esitleyici.py eklendi.
+2. Eski web_site_esitleyici.py silinmedi ve bozulmadi.
+3. Yeni wrapper once eski esitleyiciyi calistirir, sonra ek PRO 12.2 JSON dosyalarini da web site reposuna tasir.
+4. bu-klas-r-i-in-basit/run_robot.bat guncellendi ve artik tek_robot_esitleyici.py dosyasini cagirir.
+
+Ek dosya sozlesmesi:
+- data/fixtures.json
+- data/live-matches.json
+- data/robot-analysis.json
+- data/daily-coupons.json
+- data/robot_match_archive.json
+- data/robot_hafiza.json
+- outputs/robot_hafiza_raporu.md
+
+Commitler:
+- tek_robot_esitleyici.py eklendi: 903238613c0500fa998af2c2cdb2530d29193485
+- run_robot.bat tek robot esitleyiciye baglandi: 5fe386a8e1672352811adda8a68bfe256354ecee
+
+Son durum:
+PC robotu calistiginda robot.py bittikten sonra Tek Robot + PRO 12.2 web site esitlemesi baslayacak. Bu islem eski dosyalari da yeni PRO 12.2 JSON dosyalarini da ayni web site repo akisi icine tasiyacak.
+
+Sonraki asama:
+robot-pro122-core.js eski ve yeni JSON kaynaklarini tek okuma sirasiyla birlestirecek.
