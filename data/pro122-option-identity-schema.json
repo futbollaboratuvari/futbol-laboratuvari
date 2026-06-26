@@ -1,0 +1,55 @@
+{
+  "schema_version": "pro122_option_identity_v1",
+  "created_at_tr": "2026-06-26 09:00 TRT",
+  "purpose": "PRO 12.2 genis secenek sonuclarini tek robot veritabanina baglamak icin ortak match_id ve option_id semasi.",
+  "safe_mode": true,
+  "match_id_rule": {
+    "format": "date|league|home|away|time",
+    "example": "2026 06 26|belarus premier lig|arsenal|gomel|20 00",
+    "required_fields": [
+      "date",
+      "league",
+      "home",
+      "away",
+      "time"
+    ]
+  },
+  "option_id_rule": {
+    "format": "match_id|option_type|selection",
+    "example": "2026 06 26|belarus premier lig|arsenal|gomel|20 00|ms|1",
+    "required_fields": [
+      "match_id",
+      "option_type",
+      "selection"
+    ]
+  },
+  "option_groups": [
+    {
+      "option_type": "MS",
+      "selections": ["1", "X", "2"],
+      "score_requirement": "full_time_score"
+    },
+    {
+      "option_type": "KG",
+      "selections": ["Var", "Yok"],
+      "score_requirement": "full_time_score"
+    },
+    {
+      "option_type": "2.5",
+      "selections": ["Ust", "Alt"],
+      "score_requirement": "full_time_score"
+    },
+    {
+      "option_type": "IY_MS",
+      "selections": ["1 / 1", "1 / X", "1 / 2", "X / 1", "X / X", "X / 2", "2 / 1", "2 / X", "2 / 2"],
+      "score_requirement": "half_time_score + full_time_score"
+    },
+    {
+      "option_type": "IY_KG_2Y_KG",
+      "selections": ["Evet / Evet", "Evet / Hayir", "Hayir / Evet", "Hayir / Hayir"],
+      "score_requirement": "half_time_score + full_time_score"
+    }
+  ],
+  "write_rule": "Eski id alanlari silinmez. match_id ve option_id yeni bag alanlari olarak eklenir.",
+  "next_stage": "Aşama 2: robot-learning-memory kayitlari bu semaya gore genis secenek satirlarina ayrilacak."
+}
