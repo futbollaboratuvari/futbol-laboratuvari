@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260622-pages-v10-learning";
+  const version = "20260626-widget-links-v1";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -35,4 +35,6 @@
   loadScript("learning-visibility.js", "learning-visibility-script");
   loadScript("learning-output-visibility.js", "learning-output-visibility-script");
   loadScript("premium-analysis-extra-markets.js", "premium-analysis-extra-markets-script");
+  loadScript("kupon-center-fallback.js", "kupon-center-fallback-script");
+  loadScript("widget-navigation-buttons.js", "widget-navigation-buttons-script");
 })();
