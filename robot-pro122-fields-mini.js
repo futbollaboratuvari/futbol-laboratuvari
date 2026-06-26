@@ -6,6 +6,11 @@
   const card = (m) => `<article class="robot-card reveal visible"><div class="robot-card-head"><span>${esc(m.league)}</span><strong>${esc(m.time)}</strong></div><h3>${esc(m.name)}</h3><div class="robot-pick"><span>Seçenek</span><strong>${esc(m.option)}</strong></div><div class="robot-meta"><span>Oran: ${esc(m.odd)}</span><span>Güven: ${m.confidence || "-"}/100</span></div><p>${esc(m.reason)}</p></article>`;
   const empty = (text) => `<div class="fixtures-empty">${esc(text)}</div>`;
   const fill = (selector, html) => { const el = document.querySelector(selector); if (el) el.innerHTML = html; };
+  const fillDatabase = (matches) => {
+    const body = document.getElementById("analysis-database-body");
+    if (!body) return;
+    body.innerHTML = matches.length ? matches.slice(0, 30).map((m) => `<tr><td>${esc(m.date)}</td><td>${esc(m.league)}</td><td>${esc(m.name)}</td><td>Robot + PRO 12.2</td><td>${esc(m.option)}</td><td>${esc(m.odd)}</td><td>${m.confidence || "-"}</td><td>-</td><td>-</td><td>${esc(m.decision)}</td></tr>`).join("") : `<tr><td colspan="10">Analiz veritabanı için canlı veri bekleniyor.</td></tr>`;
+  };
   const render = (state) => {
     const matches = state.matches || [];
     const top = best(matches);
@@ -20,6 +25,7 @@
     setText("[data-load-status]", matches.length ? "Alanlara aktarıldı" : "Maçlar hazırlanıyor");
     fill("#strongest-pick-card", top ? card(top) : empty("Günün seçimi güncel maç listesi oluştuktan sonra gösterilecek."));
     fill("#analysis-list", matches.length ? matches.slice(0, 10).map(card).join("") : empty("Maç yorumu için canlı veri bekleniyor."));
+    fillDatabase(matches);
   };
   document.addEventListener("fl:robot-pro122-core", (event) => render(event.detail || {}));
   window.addEventListener("load", () => setTimeout(() => window.FL_ROBOT_PRO122_CORE?.refresh?.(), 1400), { once: true });
