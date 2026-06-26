@@ -1,0 +1,37 @@
+{
+  "generated_at": null,
+  "timezone": "Europe/Istanbul",
+  "source": "Tam bulten sistemi hazirlaniyor",
+  "status": "waiting",
+  "message": "Tam iddaa bulteni verisi henuz uretilmedi.",
+  "date_window": {
+    "main_day": null,
+    "includes_next_day_until": "08:00"
+  },
+  "match_count": 0,
+  "live_count": 0,
+  "scheduled_count": 0,
+  "finished_count": 0,
+  "schema": {
+    "description": "Nesine benzeri tam mac bulteni veri modeli. Analiz ve kupon dosyalarindan bagimsizdir.",
+    "match_fields": [
+      "date",
+      "time",
+      "league",
+      "home",
+      "away",
+      "matchCode",
+      "status",
+      "minute",
+      "score",
+      "odds.ms1",
+      "odds.msx",
+      "odds.ms2",
+      "odds.under25",
+      "odds.over25",
+      "odds.bttsYes",
+      "odds.bttsNo"
+    ]
+  },
+  "matches": []
+}
