@@ -3,6 +3,7 @@ const path = require("path");
 
 const root = path.join(__dirname, "..");
 const memoryFile = path.join(root, "data", "learning-memory.json");
+const measurementFile = path.join(root, "data", "prediction-measurement-health-status.json");
 const outJson = path.join(root, "data", "learning-weights-health-status.json");
 const outMd = path.join(root, "outputs", "learning-weights-health-report.md");
 
@@ -50,19 +51,22 @@ function summarize(items) {
 
 function runLearningWeightsHealthCheck() {
   const memory = readJson(memoryFile, { market_memory: {}, league_memory: {}, league_market_memory: {}, predictions: [] });
+  const measurement = readJson(measurementFile, {});
   const markets = summarize(rows(memory.market_memory));
   const leagues = summarize(rows(memory.league_memory));
   const leagueMarkets = summarize(rows(memory.league_market_memory));
+  const predictionCount = Array.isArray(memory.predictions) ? memory.predictions.length : 0;
   const totalReady = markets.ready + leagues.ready + leagueMarkets.ready;
-  const status = totalReady > 0 ? "active" : "waiting_data";
+  const watchOnly = predictionCount === 0 && measurement.status === "izleme";
+  const status = totalReady > 0 ? "active" : watchOnly ? "izleme" : "waiting_data";
   const report = {
     generated_at: new Date().toISOString(),
     status,
-    prediction_count: Array.isArray(memory.predictions) ? memory.predictions.length : 0,
+    prediction_count: predictionCount,
     market_memory: markets,
     league_memory: leagues,
     league_market_memory: leagueMarkets,
-    next_action: status === "active" ? "Sonraki analizlerde agirliklar uygulanir." : "En az 5 sonuclu veri birikene kadar agirliklar notr kalir."
+    next_action: status === "active" ? "Sonraki analizlerde agirliklar uygulanir." : status === "izleme" ? "Ogrenme icin veri yok. Izleme devam." : "En az 5 sonuclu veri birikene kadar agirliklar notr kalir."
   };
   const md = [
     "# Ogrenme Agirlik Saglik Kontrolu",
