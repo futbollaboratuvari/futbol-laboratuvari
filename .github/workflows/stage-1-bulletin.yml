@@ -3,7 +3,12 @@ name: Stage 1 Bulletin Flow
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 5 * * *"
+    # Türkiye saati 00:00 / UTC 21:00
+    - cron: "0 21 * * *"
+    # Türkiye saati 08:00 / UTC 05:00
+    - cron: "0 5 * * *"
+    # Türkiye saati 12:00 / UTC 09:00
+    - cron: "0 9 * * *"
 
 permissions:
   contents: write
