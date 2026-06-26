@@ -178,6 +178,71 @@
     }
   };
 
+  const injectPremiumMatchListCss = () => {
+    if (document.getElementById("premium-match-list-polish-style")) return;
+    const style = document.createElement("style");
+    style.id = "premium-match-list-polish-style";
+    style.textContent = `
+      #premium-analysis-panel .pa-select[data-pa-match]{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+      .pa-match-list-pro{display:grid;gap:8px;max-height:330px;overflow:auto;padding:8px;border:1px solid rgba(255,159,28,.22);border-radius:16px;background:rgba(2,8,23,.72)}
+      .pa-match-row-pro{width:100%;display:grid;grid-template-columns:76px minmax(0,1fr) 118px;gap:9px;align-items:center;text-align:left;padding:10px;border:1px solid rgba(255,255,255,.10);border-radius:14px;background:rgba(255,255,255,.045);color:#d7e4f5;cursor:pointer}
+      .pa-match-row-pro:hover{border-color:rgba(255,159,28,.40);background:rgba(255,159,28,.08)}.pa-match-row-pro.selected{border-color:rgba(57,255,136,.62);background:rgba(57,255,136,.13)}
+      .pa-match-time-pro{font-weight:950;color:#ffe08a}.pa-match-main-pro{display:grid;gap:4px;min-width:0}.pa-match-league-pro{font-size:11px;color:#8fa0b5;font-weight:850}.pa-match-teams-pro{font-size:13px;color:#f8fbff;font-weight:950;white-space:normal;line-height:1.25}.pa-match-side-pro{display:grid;gap:4px;justify-items:end}.pa-match-market-pro,.pa-match-score-pro{font-size:11px;font-weight:900;border-radius:999px;padding:4px 7px;background:rgba(0,0,0,.22);color:#c8ffdd}.pa-match-score-pro{color:#fff7d6}
+      @media(max-width:680px){.pa-match-row-pro{grid-template-columns:1fr}.pa-match-side-pro{justify-items:start;grid-template-columns:auto auto}.pa-match-time-pro{font-size:12px}}
+    `;
+    document.head.appendChild(style);
+  };
+
+  const parsePremiumOption = (text) => {
+    const parts = String(text || "").split("|");
+    const left = parts[0] || "";
+    const right = parts.slice(1).join("|") || "";
+    const leftParts = left.split("—");
+    const league = (leftParts[0] || "Lig").trim();
+    const time = (leftParts[1] || "--:--").trim();
+    const detail = right.split("·").map((item) => item.trim()).filter(Boolean);
+    return {
+      league,
+      time,
+      teams: detail[0] || right.trim() || "Maç hazırlanıyor",
+      market: detail[1] || "Analiz sistemi önerisi",
+      score: detail[2] || "-"
+    };
+  };
+
+  const polishPremiumMatchList = () => {
+    injectPremiumMatchListCss();
+    document.querySelectorAll("#premium-analysis-panel select[data-pa-match]").forEach((select) => {
+      const label = select.closest("label");
+      if (!label) return;
+      let box = label.querySelector(".pa-match-list-pro");
+      if (!box) {
+        box = document.createElement("div");
+        box.className = "pa-match-list-pro";
+        select.insertAdjacentElement("afterend", box);
+      }
+      const options = Array.from(select.options || []).filter((option) => option.value !== "");
+      const signature = options.map((option) => `${option.value}:${option.textContent}:${option.selected}`).join("||");
+      if (box.dataset.signature === signature) return;
+      box.dataset.signature = signature;
+      box.innerHTML = options.length
+        ? options.map((option) => {
+          const data = parsePremiumOption(option.textContent);
+          return `<button type="button" class="pa-match-row-pro${option.selected ? " selected" : ""}" data-pa-pro-value="${safe(option.value)}"><span class="pa-match-time-pro">${safe(data.time)}</span><span class="pa-match-main-pro"><span class="pa-match-league-pro">${safe(data.league)}</span><span class="pa-match-teams-pro">${safe(data.teams)}</span></span><span class="pa-match-side-pro"><span class="pa-match-market-pro">${safe(data.market)}</span><span class="pa-match-score-pro">${safe(data.score)}</span></span></button>`;
+        }).join("")
+        : `<div class="pa-filter-note">Filtreye uygun maç bulunamadı</div>`;
+      box.querySelectorAll("[data-pa-pro-value]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const option = Array.from(select.options || []).find((item) => item.value === button.dataset.paProValue);
+          if (!option) return;
+          option.selected = !option.selected;
+          select.dispatchEvent(new Event("change", { bubbles: true }));
+          polishPremiumMatchList();
+        });
+      });
+    });
+  };
+
   const isWaitingCard = (card) => /güncel veri henüz oluşmadı|uygun kupon adayı hazırlanıyor|güncel liste hazırlanıyor/i.test(card.textContent || "");
   const isRealCouponCard = (card) => /(Toplam Oran|Güven Skoru|Risk Seviyesi)/i.test(card.textContent || "") && !isWaitingCard(card);
 
@@ -207,6 +272,7 @@
     normalizeHeroStatus();
     normalizeHeroCandidate();
     normalizeLiveStatusText();
+    polishPremiumMatchList();
     renderCouponFallback().then(cleanupCouponCards);
   };
 
@@ -230,6 +296,7 @@
       normalizeHeroStatus();
       normalizeHeroCandidate();
       normalizeLiveStatusText();
+      polishPremiumMatchList();
       renderCouponFallback().then(cleanupCouponCards);
     });
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
