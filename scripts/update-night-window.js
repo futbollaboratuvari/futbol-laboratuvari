@@ -132,17 +132,15 @@ const fixtureKey = (item) => [item.date, item.time, item.home, item.away]
   .map((value) => String(value || "").trim().toLocaleLowerCase("tr-TR"))
   .join("|");
 
-const normalizeNightDate = (dot, time, todayKey, yesterdayKey) => {
-  const baseDate = toIsoDate(dot);
+const isNightWindowMatch = (dateKey, time, todayKey, tomorrowKey) => {
   const minute = parseClockMinutes(time);
-  if (baseDate === yesterdayKey && minute !== null && minute < NIGHT_WINDOW_END_MINUTE) return todayKey;
-  return baseDate;
+  if (minute === null || minute >= NIGHT_WINDOW_END_MINUTE) return false;
+  return dateKey === todayKey || dateKey === tomorrowKey;
 };
 
-const addFixture = (fixtures, currentDate, currentLeague, time, home, away, tail, todayKey, yesterdayKey) => {
-  const actualDate = normalizeNightDate(currentDate, time, todayKey, yesterdayKey);
-  const minute = parseClockMinutes(time);
-  if (actualDate !== todayKey || minute === null || minute >= NIGHT_WINDOW_END_MINUTE) return;
+const addFixture = (fixtures, currentDate, currentLeague, time, home, away, tail, todayKey, tomorrowKey) => {
+  const date = toIsoDate(currentDate);
+  if (!isNightWindowMatch(date, time, todayKey, tomorrowKey)) return;
 
   const cleanHome = cleanTeam(home);
   const cleanAway = cleanTeam(away);
@@ -153,7 +151,7 @@ const addFixture = (fixtures, currentDate, currentLeague, time, home, away, tail
   const odds = numbers.filter((item) => /^\d+[.,]\d+$/.test(item)).map(parseOdd).filter((item) => item !== null);
 
   fixtures.push({
-    date: actualDate,
+    date,
     time,
     league: currentLeague || "Maçkolik İddaa Programı",
     home: cleanHome,
@@ -174,15 +172,15 @@ const addFixture = (fixtures, currentDate, currentLeague, time, home, away, tail
     cifte1x: odds[5] ?? null,
     cifte12: odds[6] ?? null,
     cifteX2: odds[7] ?? null,
-    bulletin_day_source: toIsoDate(currentDate),
-    actual_day_note: "Gece maçı gerçek takvim gününe taşındı"
+    night_window: true,
+    actual_day_note: "00:00-07:59 bülten maçı"
   });
 };
 
 const parseNightMatches = (html) => {
   const today = formatTurkeyDate();
-  const yesterday = addDays(today, -1);
-  const allowedDotDates = new Set([dotDate(today), dotDate(yesterday)]);
+  const tomorrow = addDays(today, 1);
+  const allowedDotDates = new Set([dotDate(today), dotDate(tomorrow)]);
   const fixtures = [];
   let currentLeague = "Maçkolik İddaa Programı";
   let currentDate = null;
@@ -198,11 +196,11 @@ const parseNightMatches = (html) => {
 
     const single = line.match(/(?:^|\s)(\d{1,2}:\d{2})\s+(.+?)\s+-\s+(.+?)(?=\s+\d{4,5}\b|\s+\d+[.,]\d+\b|\s*$)(.*)$/);
     if (single) {
-      addFixture(fixtures, currentDate, currentLeague, single[1], single[2], single[3], single[4], today, yesterday);
+      addFixture(fixtures, currentDate, currentLeague, single[1], single[2], single[3], single[4], today, tomorrow);
       continue;
     }
     const loose = line.match(/(?:^|\s)(\d{1,2}:\d{2}).{0,160}?([A-Za-zÇĞİÖŞÜçğıöşü0-9.'’\- ]{2,60})\s+-\s+([A-Za-zÇĞİÖŞÜçğıöşü0-9.'’\- ]{2,60})(.*)$/);
-    if (loose) addFixture(fixtures, currentDate, currentLeague, loose[1], loose[2], loose[3], loose[4], today, yesterday);
+    if (loose) addFixture(fixtures, currentDate, currentLeague, loose[1], loose[2], loose[3], loose[4], today, tomorrow);
   }
 
   return fixtures.filter((fixture, index, list) => index === list.findIndex((item) => fixtureKey(item) === fixtureKey(fixture)));
@@ -210,7 +208,7 @@ const parseNightMatches = (html) => {
 
 const mergeFixtures = (existing, additions) => {
   const map = new Map();
-  [...additions, ...existing].forEach((item) => {
+  [...existing, ...additions].forEach((item) => {
     const key = fixtureKey(item);
     if (!key.includes("||")) map.set(key, { ...item });
   });
