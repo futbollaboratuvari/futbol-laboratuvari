@@ -22,13 +22,21 @@
     extra.classList.add("active");
   }
 
-  function loadUsability() {
-    if (document.getElementById("premium-analysis-usability-script")) return;
+  function loadScriptOnce(id, src) {
+    if (document.getElementById(id)) return;
     const script = document.createElement("script");
-    script.id = "premium-analysis-usability-script";
-    script.src = `premium-analysis-usability.js?v=${Date.now()}`;
+    script.id = id;
+    script.src = `${src}?v=20260626-pro122`;
     script.async = false;
     document.body.appendChild(script);
+  }
+
+  function loadUsability() {
+    loadScriptOnce("premium-analysis-usability-script", "premium-analysis-usability.js");
+  }
+
+  function loadPro122() {
+    loadScriptOnce("pro122-decision-engine-script", "pro12-2-decision-engine.js");
   }
 
   function apply() {
@@ -44,11 +52,13 @@
       grid.appendChild(button);
     });
     loadUsability();
+    loadPro122();
   }
 
   function boot() {
     apply();
     loadUsability();
+    loadPro122();
     if (window.__extraMarketObserver) return;
     window.__extraMarketObserver = true;
     new MutationObserver(() => setTimeout(apply, 200)).observe(document.body, { childList: true, subtree: true });
