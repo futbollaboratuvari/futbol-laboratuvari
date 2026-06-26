@@ -26,15 +26,21 @@ function stage(id, name, ok, detail) {
 
 function runRobotPipelineStatus() {
   const fixtures = readJson("data/fixtures.json", []);
-  const robot = readJson("data/robot-analysis.json", { matches: [] });
+  const robot = readJson("data/robot-analysis.json", { matches: [], summary: {} });
   const memory = readJson("data/learning-memory.json", { predictions: [] });
   const archive = readJson("data/robot_match_archive.json", { matches: [] });
   const finalizer = readJson("data/learning-finalizer-status.json", {});
   const dev = readJson("data/robot-development-report.json", {});
+  const memoryRows = countRows(memory);
+  const robotRows = countRows(robot);
+  const pickRows = Number(robot.summary?.coupon_candidate_count || 0);
+  const watchOnly = robotRows > 0 && pickRows === 0;
+  const stage3Ready = exists("scripts/robot-learning-memory.js") && (memoryRows > 0 || watchOnly);
+  const stage3Text = watchOnly ? "0 hafiza kaydi, izleme" : `${memoryRows} hafiza kaydi`;
   const stages = [
     stage(1, "Bulteni ceker", countRows(fixtures) > 0 && exists("scripts/update-fixtures.js"), `${countRows(fixtures)} mac`),
-    stage(2, "Analiz eder", countRows(robot) > 0 && exists("scripts/export-high-value-json.js"), `${countRows(robot)} analiz`),
-    stage(3, "Tahmini kaydeder", countRows(memory) > 0 && exists("scripts/robot-learning-memory.js"), `${countRows(memory)} hafiza kaydi`),
+    stage(2, "Analiz eder", robotRows > 0 && exists("scripts/export-high-value-json.js"), `${robotRows} analiz`),
+    stage(3, "Tahmini kaydeder", stage3Ready, stage3Text),
     stage(4, "Mac sonucunu takip eder", exists("scripts/learning-score-linker.js") && exists("scripts/update-match-archive.js"), `${countRows(archive)} arsiv kaydi`),
     stage(5, "Kendi tahminini olcer", exists("scripts/learning-finalizer.js"), `${finalizer.updated || 0} guncelleme`),
     stage(6, "Sonraki tahminde agirlik degistirir", exists("scripts/apply-learning-weights.js") && exists("scripts/robot-development-report.js"), dev.status || "rapor hazir")
