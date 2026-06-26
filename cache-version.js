@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260626-mobile-hero-v1";
+  const version = "20260627-bulletin-active-filter-v1";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -32,6 +32,7 @@
     document.body.appendChild(script);
   };
 
+  loadScript("site-bulletin-active-guard.js", "site-bulletin-active-guard-script");
   loadScript("learning-visibility.js", "learning-visibility-script");
   loadScript("learning-output-visibility.js", "learning-output-visibility-script");
   loadScript("premium-analysis-extra-markets.js", "premium-analysis-extra-markets-script");
