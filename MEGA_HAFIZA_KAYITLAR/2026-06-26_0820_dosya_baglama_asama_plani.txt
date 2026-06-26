@@ -1,0 +1,48 @@
+Tarih: 26.06.2026
+Saat: 08:20
+Baslik: Robot ve PRO 12.2 dosya baglama asama plani
+
+Ana hedef:
+Robot veri uretimi, PRO 12.2 karar motoru, canli site alanlari ve hafiza tek akis icinde calisacak.
+
+A0 Koruma:
+Silme yok. Once baglama, sonra test, sonra kayit.
+
+A1 Veri sozlesmesi:
+Ana dosyalar fixtures.json, live-matches.json, robot-analysis.json, daily-coupons.json, robot_match_archive.json, analiz_sonuclari.json, robot_hafiza.json olacak.
+
+A2 Yerel robot esitleyici:
+bu-klas-r-i-in-basit/src/web_site_esitleyici.py yeni JSON dosyalarini da tasiyacak.
+
+A3 GitHub Actions:
+update-fixtures.yml ve live-data-trigger.yml canli veri hattinin ana kaynagi olarak kontrol edilecek.
+
+A4 Site yukleme zinciri:
+index.html, cache-version.js ve premium-analysis-extra-markets.js uzerinden PRO 12.2 ve robot kopru dosyalari yuklenecek.
+
+A5 Ozel analiz:
+premium-analysis-panel.js sadece secim ve hak kontrolu yapacak. Nihai karar pro12-2-decision-engine.js tarafindan verilecek.
+
+A6 Eski premium robot engine:
+premium-robot-engine.js karar motoru olmaktan cikarilip adapter hale getirilecek.
+
+A7 Ana sayfa alanlari:
+script.js, robot-dashboard.js ve robot-pro122-fields-mini.js cakismasi temizlenecek. Ana yazici robot-pro122-fields-mini.js olacak.
+
+A8 Eski bridge:
+robot-bridge-lite.js silinmeden adapter yapilacak.
+
+A9 Hafiza:
+PRO 12.2 ciktilari robot hafiza sistemine tanitilacak. tools/robot_memory_engine.py bu ciktilari okuyacak hale getirilecek.
+
+A10 Kupon merkezi:
+daily-coupons.json, robot-analysis.json ve FL_ROBOT_PRO122_STATE ayni sirali veri kaynagi olarak kullanilacak.
+
+Testler:
+- window.FL_ROBOT_PRO122_STATE bos degil mi?
+- Ozel analizde PRO 12.2 Nihai Karar Motoru Aktif yaziyor mu?
+- today-count, avg-confidence, top-market, strongest-pick-card, analysis-list ve analysis-database-body doluyor mu?
+- live-matches.json, robot-analysis.json ve daily-coupons.json Actions tarafindan uretiliyor mu?
+
+Ilk uygulanacak dosya:
+bu-klas-r-i-in-basit/src/web_site_esitleyici.py
