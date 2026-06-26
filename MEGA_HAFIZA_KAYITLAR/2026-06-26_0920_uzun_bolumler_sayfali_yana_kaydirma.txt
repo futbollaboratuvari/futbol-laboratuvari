@@ -1,0 +1,39 @@
+Tarih: 26.06.2026
+Saat: 09:20
+Baslik: Uzun bolumler icin sayfali yana kaydirma
+
+Onaylanan kural:
+Her uzun bolum kendi icinde 1-2-3-4-5 seklinde sayfalansin. Sayfanin tamami bolunmesin. Mobilde yana kaydirma gibi calissin.
+
+Yapilan:
+1. fl-pagination-slider.js eklendi.
+2. Uzun kart ve tablo bolumleri icin bolum ici pagination sistemi kuruldu.
+3. Mobilde saga/sola parmak hareketi ile sayfa gecisi eklendi.
+4. Alt kontrol yapisi olarak onceki, 1-2-3-4-5, sonraki mantigi eklendi.
+5. cache-version.js guncellendi ve fl-pagination-slider.js site yukleyicisine baglandi.
+
+Baglanan bolumler:
+- data-coupons-single
+- data-coupons-double
+- data-coupons-triple
+- analysis-list
+- spor-toto-grid
+- success-grid
+- analysis-database-body
+- result-archive
+- data-pro122-wide-markets tbody
+
+Sayfa kurali:
+- Kupon kartlari mobil 2, masaustu 3
+- Analiz ve spor toto kartlari mobil 3, masaustu 6
+- Tablolar mobil 5 satir, masaustu 10 satir
+
+Commitler:
+- fl-pagination-slider.js eklendi: 9ff19215f3315841590e3cf174c2dd0bf2ebdc08
+- cache-version.js baglandi: 5c6b9fa375db8d2028f54e6b65e2252d35befa4a
+
+Son durum:
+Canli veri geldikce uzun bolumler asagi uzamak yerine kendi icinde sayfalaniyor. Mobilde yana kaydirma ve numara ile gecis destekleniyor.
+
+Kontrol:
+Canli sitede Ctrl+F5 yapilacak. Console kontrolu: window.FL_PAGINATION_SLIDER ve document.documentElement.dataset.flPaginationSlider.
