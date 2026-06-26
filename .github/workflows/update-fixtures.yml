@@ -63,6 +63,11 @@ jobs:
         continue-on-error: true
         run: node scripts/import-robot-raw-pool.js
 
+      - name: Rebuild bulletin after fixture import
+        run: |
+          node scripts/rebuild-spor-toto-bulletin.js
+          node scripts/two-day-bulletin-window.js
+
       - name: Build detail candidates
         continue-on-error: true
         run: node scripts/raw-block-lite.js
