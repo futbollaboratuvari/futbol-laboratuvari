@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260626-pagination-v1";
+  const version = "20260626-mobile-hero-v1";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -37,6 +37,7 @@
   loadScript("premium-analysis-extra-markets.js", "premium-analysis-extra-markets-script");
   loadScript("pro12-2-wide-market-engine.js", "pro122-wide-market-engine-script");
   loadScript("fl-pagination-slider.js", "fl-pagination-slider-script");
+  loadScript("mobile-hero-panel-fix.js", "mobile-hero-panel-fix-script");
   loadScript("kupon-center-fallback.js", "kupon-center-fallback-script");
   loadScript("widget-navigation-buttons.js", "widget-navigation-buttons-script");
 })();
