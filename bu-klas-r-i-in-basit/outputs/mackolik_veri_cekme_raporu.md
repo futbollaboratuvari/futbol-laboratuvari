@@ -1,47 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-06-26T10:39:49.200183+00:00
-=======
-Tarih: 2026-06-26T10:39:54.251280+00:00
->>>>>>> Stashed changes
+Tarih: 2026-06-26T17:19:06.361543+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-- Kac mac bulundu: 52
-- Kac mac kaydedildi: 7
-- Kac mac zaten vardi: 45
-- Ham veri havuzu toplam mac sayisi: 467
+- Durum: error
+- Kac mac bulundu: 24
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 26.06.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL Lig 2 Güney Florida Grubu
-- Avustralya NPL Batı Avustralya
-- Avustralya NPL Güney Avustralya
-- Belarus Premier Lig
 - Dünya Kupası 2026 Grup I
-- Estonya Premium Lig
-- Etiyopya Premier Lig
-- Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Kuveyt Premier Lig Küme Düşme Grubu
-- Letonya Virsliga
-- Litvanya 1.Lig
-- Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
-- Çin Halk Cumhuriyeti Süper Lig
 - İrlanda 1.Lig
 - İrlanda Premier Lig
 - İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Vastra Götaland
-- İsveç Superettan
 - İzlanda 1.Lig
 - İzlanda 2.Lig
 
@@ -100,15 +81,16 @@ Tarih: 2026-06-26T10:39:54.251280+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 39
-- Acilan detay: 39
+- Denenen Tumu alani: 24
+- Acilan detay: 24
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -116,25 +98,25 @@ Tarih: 2026-06-26T10:39:54.251280+00:00
 |---|---|---|---|---|---|---:|
 | 26.06.2026 | 22:00 | Dünya Kupası 2026 Grup I | Senegal | Irak | 17231 | 5 |
 | 26.06.2026 | 22:00 | Dünya Kupası 2026 Grup I | Norveç | Fransa | 17163 | 5 |
+| 26.06.2026 | 22:00 | İrlanda Premier Lig | Bohemian | St Patricks | 13629 | 5 |
 | 26.06.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Waterford | 13476 | 5 |
 | 26.06.2026 | 21:45 | İrlanda Premier Lig | Derry City | Drogheda | 13422 | 5 |
 | 26.06.2026 | 21:30 | İrlanda Premier Lig | Shamrock Rover | Galway United | 13283 | 5 |
-| 26.06.2026 | 22:00 | İrlanda Premier Lig | Bohemian | St Patricks | 13629 | 5 |
-| 26.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn | Yunnan Yukun | 14072 | 5 |
-| 26.06.2026 | 20:00 | İsveç Superettan | Brage | Falkenberg | 11683 | 5 |
-| 26.06.2026 | 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry | Mikkelin | 11078 | 5 |
-| 26.06.2026 | 19:00 | Finlandiya Ykkösliiga | Klubi 04 | Sjk Ii | 11036 | 5 |
-| 26.06.2026 | 20:00 | Hazırlık Kulüpler | Sturm Graz | Mura | 04528 | 5 |
-| 26.06.2026 | 16:30 | Hazırlık Kulüpler | Jablonec | Vlasim | 05231 | 3 |
-| 26.06.2026 | 18:45 | Hazırlık Kulüpler | Dukla Prag | Mlada Boleslav | 01824 | 5 |
-| 26.06.2026 | 19:00 | Hazırlık Kulüpler | Rappersvil Jon | Basel | 05373 | 3 |
-| 26.06.2026 | 19:00 | Hazırlık Kulüpler | Sv Horn | St Polten | 05401 | 3 |
 | 26.06.2026 | 18:00 | Hazırlık Kulüpler | Mtk | Kazincbarcika | 04198 | 3 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Athlone | Finn Harps | 13342 | 5 |
 | 26.06.2026 | 21:45 | İrlanda 1.Lig | Kerry | Longford | 13530 | 5 |
+| 26.06.2026 | 21:45 | İrlanda 1.Lig | Athlone | Finn Harps | 13342 | 5 |
 | 26.06.2026 | 21:45 | İrlanda 1.Lig | Wexford Youths | Treaty Unt. | 13596 | 5 |
 | 26.06.2026 | 21:45 | İrlanda 1.Lig | Ucd | Cobh Ramblers | 13563 | 5 |
+| 26.06.2026 | 21:45 | İrlanda 1.Lig | Cork City | Bray Wanderers | 13382 | 5 |
+| 26.06.2026 | 20:45 | Kuveyt Premier Lig Küme Düşme Grubu | Al Nasar | Al-Jahra | 13777 | 5 |
+| 26.06.2026 | 20:45 | Kuveyt Premier Lig Küme Düşme Grubu | Al Tadhamon | Al Shabab | 02161 | 5 |
+| 26.06.2026 | 22:15 | İzlanda 1.Lig | Fylkir | Hk Kopavogur | 13835 | 3 |
+| 26.06.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Njardvik | 13818 | 5 |
+| 26.06.2026 | 22:15 | İzlanda 1.Lig | Grindavik | Aegir | 13852 | 3 |
+| 26.06.2026 | 22:15 | İzlanda 1.Lig | Leiknir Reykja | Ir Reykjavik | 13869 | 3 |
+| 26.06.2026 | 20:30 | İsveç 2.Lig Vastra Götaland | Dalstorps If | Lindome Gif | 11945 | 3 |
+| 26.06.2026 | 20:30 | İsveç 2.Lig Södra Götaland | Ifk Berga | Växjö Norra | 12115 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
