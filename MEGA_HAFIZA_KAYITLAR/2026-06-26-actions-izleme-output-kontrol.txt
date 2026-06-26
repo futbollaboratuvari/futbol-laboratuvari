@@ -1,0 +1,28 @@
+2026-06-26 actions izleme output kontrol
+
+Kontrol konusu:
+Actions sonrasi Stage 3-6 izleme modlari output dosyalarina yazildi mi?
+
+Son otomatik pipeline commit:
+d04ee7f0210ed7c241808294ddaa93edce98b9b4
+
+Tespit:
+Yeni izleme modu degisikliklerinden sonra yeni Update robot automatic pipeline commiti gorunmedi.
+
+Okunan output dosyalari:
+- outputs/prediction-memory-health-report.md
+- outputs/result-tracking-health-report.md
+- outputs/prediction-measurement-health-report.md
+- outputs/learning-weights-health-report.md
+- outputs/robot-pipeline-status.md
+
+Sonuc:
+- Stage 3 output halen empty / bekliyor gorunuyor.
+- Stage 4 output halen empty gorunuyor.
+- Stage 5 output halen empty gorunuyor.
+- Stage 6 output halen waiting_data gorunuyor.
+- robot-pipeline-status halen 5/6 gorunuyor.
+
+Karar:
+Actions henuz yeni izleme modu kodlariyla output uretmemis.
+Bir sonraki Actions calismasindan sonra tekrar kontrol edilecek.
