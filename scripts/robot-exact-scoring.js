@@ -261,6 +261,10 @@ const closedDefense = (fixture) => flag(fixture, [
 ]);
 
 const marketRules = {
+  ms1: { label: "MS 1", keys: ["ms1", "homeWin", "home_win", "macSonucu1", "ms_1"], minOdd: 1.25, maxOdd: 6.50, scores: ["1-0", "2-0", "2-1"] },
+  msx: { label: "MS X", keys: ["msx", "draw", "beraberlik", "macSonucuX", "ms_x"], minOdd: 2.20, maxOdd: 5.80, scores: ["0-0", "1-1", "2-2"] },
+  ms2: { label: "MS 2", keys: ["ms2", "awayWin", "away_win", "macSonucu2", "ms_2"], minOdd: 1.25, maxOdd: 7.50, scores: ["0-1", "0-2", "1-2"] },
+
   firstHalfBttsYes: { label: "İlk Yarı KG Var", keys: ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes", "firstHalfBttsYes_guess"], minOdd: 1.85, maxOdd: 5.50, scores: ["1-1", "2-1"] },
   firstHalfBttsNo: { label: "İlk Yarı KG Yok", keys: ["firstHalfBttsNo", "iyKgYok", "iy_kg_yok", "first_half_btts_no", "firstHalfBttsNo_guess"], minOdd: 1.35, maxOdd: 4.50, scores: ["0-0", "1-0"] },
   secondHalfBttsYes: { label: "İkinci Yarı KG Var", keys: ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes", "secondHalfBttsYes_guess"], minOdd: 1.75, maxOdd: 5.25, scores: ["2-1", "2-2"] },

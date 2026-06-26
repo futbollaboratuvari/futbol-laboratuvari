@@ -94,6 +94,37 @@ const leagueSignal = (league = "") => {
 };
 
 const marketRules = {
+  ms1: {
+    label: "MS 1",
+    keys: ["ms1", "homeWin", "home_win", "macSonucu1", "ms_1"],
+    minOdd: 1.25,
+    maxOdd: 6.50,
+    boost: 8,
+    riskAdd: 5,
+    scores: ["1-0", "2-0", "2-1"],
+    signals: ["MS 1 secenegi kontrol edildi"],
+  },
+  msx: {
+    label: "MS X",
+    keys: ["msx", "draw", "beraberlik", "macSonucuX", "ms_x"],
+    minOdd: 2.20,
+    maxOdd: 5.80,
+    boost: 10,
+    riskAdd: 9,
+    scores: ["0-0", "1-1", "2-2"],
+    signals: ["MS X secenegi kontrol edildi"],
+  },
+  ms2: {
+    label: "MS 2",
+    keys: ["ms2", "awayWin", "away_win", "macSonucu2", "ms_2"],
+    minOdd: 1.25,
+    maxOdd: 7.50,
+    boost: 9,
+    riskAdd: 7,
+    scores: ["0-1", "0-2", "1-2"],
+    signals: ["MS 2 secenegi kontrol edildi"],
+  },
+
   firstHalfBttsYes: {
     label: "İlk Yarı KG Var",
     keys: ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"],
