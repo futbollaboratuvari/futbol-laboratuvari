@@ -26,7 +26,7 @@
     if (document.getElementById(id)) return;
     const script = document.createElement("script");
     script.id = id;
-    script.src = `${src}?v=20260626-pro122`;
+    script.src = `${src}?v=20260626-pro122-live`;
     script.async = false;
     document.body.appendChild(script);
   }
@@ -37,6 +37,11 @@
 
   function loadPro122() {
     loadScriptOnce("pro122-decision-engine-script", "pro12-2-decision-engine.js");
+  }
+
+  function loadRobotPro122Bridge() {
+    loadScriptOnce("robot-pro122-core-script", "robot-pro122-core.js");
+    loadScriptOnce("robot-pro122-fields-mini-script", "robot-pro122-fields-mini.js");
   }
 
   function apply() {
@@ -53,12 +58,14 @@
     });
     loadUsability();
     loadPro122();
+    loadRobotPro122Bridge();
   }
 
   function boot() {
     apply();
     loadUsability();
     loadPro122();
+    loadRobotPro122Bridge();
     if (window.__extraMarketObserver) return;
     window.__extraMarketObserver = true;
     new MutationObserver(() => setTimeout(apply, 200)).observe(document.body, { childList: true, subtree: true });
