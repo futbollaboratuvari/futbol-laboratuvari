@@ -4,9 +4,27 @@ Bu dosya Futbol Laboratuvarı projesinin kalıcı çalışma hafızasıdır. Yen
 
 ---
 
-## 0. YENİ SAYFADA MUTLAKA OKUNACAK DEVAM DOSYASI
+## 0. EN GÜNCEL DEVAM DOSYASI / 26.06.2026 12:16:09
 
-**26.06.2026 son çalışma özeti ayrı dosyaya kaydedildi. Yeni sohbette önce şu dosya okunacak:**
+**AdSense reklam bağlantısı ve politika sayfaları devam kaydı oluşturuldu. Yeni sohbette reklam/politika işine devam edilecekse önce şu dosya okunacak:**
+
+`MEGA_HAFIZA_KAYITLAR/2026-06-26_12-16_adsense_reklam_politika_devam_kaydi.md`
+
+Bu dosyada kayıtlı ana başlıklar:
+
+- AdSense client kodunun `index.html` içine eklenmesi
+- `ads.txt` dosyasının oluşturulması
+- Otomatik reklamların kullanıcı tarafından açıldığının not edilmesi
+- Admin paneline reklam koymama kararı
+- Gizlilik politikası, kullanım şartları, çerez politikası, yasal uyarı, sorumlu kullanım ve iletişim sayfalarının sıradaki iş olarak işaretlenmesi
+
+**Yeni sayfada ilk iş:** politika/gizlilik sayfalarını oluştur, footer linklerini bağla, sonra AdSense site durumunu kontrol et.
+
+---
+
+## 0.1. ÖNCEKİ YENİ SAYFA DEVAM DOSYASI
+
+**26.06.2026 önceki çalışma özeti ayrı dosyaya kaydedildi:**
 
 `MEGA_HAFIZA_KAYITLAR/2026-06-26_yeni_sayfa_devam_ozeti.md`
 
@@ -20,7 +38,7 @@ Bu dosyada bu sayfada yapılan bütün işler kayıtlıdır:
 - Özel Analiz maç listesi kart düzeni
 - Ana widgetlara buton ekleme devam işi
 
-**Yeni sayfada ilk iş:** ana widgetların yanına görünür butonları ekleyip canlıda kontrol etmek.
+**İlgili eski ilk iş:** ana widgetların yanına görünür butonları ekleyip canlıda kontrol etmek.
 
 ---
 
@@ -36,12 +54,15 @@ Bu dosyada bu sayfada yapılan bütün işler kayıtlıdır:
 
 Öncelik sırası:
 
-1. Yeni sayfa devam dosyası okunacak.
-2. Ana widgetlara görünür buton eklenecek.
-3. Kupon Merkezi canlıda kontrol edilecek.
-4. Özel Analiz maç listesi canlıda kontrol edilecek.
-5. Actions ve JSON üretimi kontrol edilecek.
-6. Resmi kupon üretimi güçlendirilecek.
+1. En güncel devam dosyası okunacak.
+2. Politika/gizlilik/yasal sayfalar tamamlanacak.
+3. Footer linkleri bağlanacak.
+4. AdSense site durumu kontrol edilecek.
+5. Ana widgetlara görünür buton eklenecek.
+6. Kupon Merkezi canlıda kontrol edilecek.
+7. Özel Analiz maç listesi canlıda kontrol edilecek.
+8. Actions ve JSON üretimi kontrol edilecek.
+9. Resmi kupon üretimi güçlendirilecek.
 
 ---
 
@@ -78,29 +99,3 @@ Kullanılacak ziyaretçi dili:
 - Risk
 - Durum
 - Analiz hazırlanıyor
-- Sonuçlar güncellenecek
-- Seçim kullanıcıya ait
-- Son karar kullanıcıya bırakılır
-
-Kaçınılacak ifadeler:
-
-- PRO robot
-- demo mod
-- uydurma analiz
-- teknik robot katmanı
-- veri olmadan seçim gösterilmez
-- `market` kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine `seçenek` kullanılır.
-- `Widget` kelimesi ziyaretçiye mümkün olduğunca gösterilmez; yerine panel/merkez/alan dili kullanılır.
-
-İlgili dosya:
-
-- `visitor-language.js`
-- `site-human-language.js`
-
-Bu dosyalar ziyaretçi tarafında kalan teknik ifadeleri daha profesyonel dile çevirir.
-
----
-
-## 4. Üst Menü, Logo, Giriş ve Üyelik Akışı
-
-Üst menü sadeleştirildi ve daha premium hale getirildi.
