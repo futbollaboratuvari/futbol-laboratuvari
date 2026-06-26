@@ -2,6 +2,11 @@ name: Auto relaxed analysis
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "package.json"
+      - "scripts/**"
+      - ".github/workflows/auto-relaxed-analysis.yml"
   schedule:
     - cron: "*/30 * * * *"
 
