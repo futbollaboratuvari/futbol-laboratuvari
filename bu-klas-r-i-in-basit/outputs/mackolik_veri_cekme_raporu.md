@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-26T17:19:06.361543+00:00
+Tarih: 2026-06-26T17:20:25.287722+00:00
 
 ## Ozet
 
