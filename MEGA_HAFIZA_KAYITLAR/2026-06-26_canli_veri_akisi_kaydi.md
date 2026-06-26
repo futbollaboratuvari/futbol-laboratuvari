@@ -59,3 +59,15 @@ Kontrol mantığı:
 7. `analiz_sonuclari.json` içinde `active_items` boş mu dolu mu kontrol edilecek.
 
 Bu kontrol tamamlanmadan kart tahmini, Günün Seçimi ve Kupon Merkezi düzeltmesine geçilmeyecek.
+
+## Sıradaki Net İş
+
+Sıradaki iş net olarak şudur: Actions çalışmasını kontrol etmek ve aşağıdaki 5 JSON dosyasının gerçekten dolup dolmadığını doğrulamak.
+
+- `data/fixtures.json`
+- `data/live-matches.json`
+- `data/robot-analysis.json`
+- `data/daily-coupons.json`
+- `data/analiz_sonuclari.json`
+
+Bu doğrulama tamamlanınca bir sonraki aşamada kartlarda maç tahminlerinin neden görünmediği ve robot analizlerinin siteye neden yansımadığı incelenecek.
