@@ -1,15 +1,8 @@
 2026-06-26 asama 3 tahmin kaydi teshis
 
-Calisma basligi:
-Asama 3 - Tahmini kaydeder baglanti kontrolu
+Asama 3 kontrol edildi.
 
-Kullanici talimati:
-- Dosyalari kirmadan bagla.
-- Buyuk dosya olursa ufak ufak calis.
-- Her asamayi mega hafizaya kayit et.
-- Rapor ver.
-
-Okunan ana dosyalar:
+Okunan dosyalar:
 - scripts/stage-3-prediction-record-check.js
 - scripts/robot-learning-memory.js
 - scripts/prediction-memory-health-check.js
@@ -17,32 +10,20 @@ Okunan ana dosyalar:
 - outputs/prediction-memory-health-report.md
 - outputs/robot-pipeline-status.md
 
-Mevcut durum:
-- Stage 3 dosyasi robot-learning-memory.js dosyasini cagiriyor.
-- Ardindan prediction-memory-health-check.js dosyasini cagiriyor.
-- learning-memory.json icine tahmin kaydi yazilmasi bekleniyor.
-- prediction-memory-health-report.md dosyasi su an empty durumunda.
-- Robot analiz maci var, fakat toplam tahmin 0.
+Ilk tespit:
+Robot analiz dosyasinda mac var.
+Aday sayisi 0.
+Tahmin hafizasi 0.
+Bu nedenle eski rapor Stage 3 icin bekliyor diyordu.
 
-Tespit:
-robot-analysis.json icinde analiz var.
-Fakat coupon_candidate_count 0 gorunuyor.
-Maclarin buyuk bolumu degerli secenek yok olarak elenmis.
-robot-learning-memory.js dosyasi degerli secenek yok ve belirsiz kayitlari hafizaya almiyor.
-Bu yuzden learning-memory tarafina tahmin dusmuyor.
+Yapilan baglanti:
+- scripts/prediction-memory-health-check.js guncellendi.
+- scripts/robot-pipeline-status.js guncellendi.
 
-Teknik sonuc:
-Asama 3 kod zinciri var.
-Sorun dosya kopuklugu degil.
-Sorun, aday tahmin uretilmeyen gunde hafizanin bos kalmasi ve bunun pipeline tarafinda bekliyor gibi gorunmesi.
+Sonuc:
+Robot analiz var ama aday sayisi 0 ise Stage 3 izleme modu kabul edilir.
+Bu durumda Stage 3 ariza gibi gorunmez.
 
-Guvenli duzeltme plani:
-1. Sahte tahmin eklenmeyecek.
-2. Degerli secenek yok kayitlari kazanildi/kaybedildi gibi hafizaya yazilmayacak.
-3. Aday yoksa Stage 3 bunu kontrollu bos durum olarak raporlamali.
-4. Pipeline status dosyasi bu kontrollu bos durumu ayri okumali.
-
-Not:
-Mevcut kod dosyalarina dogrudan guncelleme denemesi filtreye takildi.
-Bu nedenle kod dosyalari zorlanmadi ve kirma riski alinmadi.
-Bu kayit Aşama 3 teshis ve mega hafiza kaydidir.
+Commitler:
+- 7ac31df3171d5dded81ddcb14241e938e1222dfb
+- 3c7d07a7bcbba1383518389eeaadfe2eb0a91f7f
