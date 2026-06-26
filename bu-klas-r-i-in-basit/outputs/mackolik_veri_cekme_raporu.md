@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-25T23:01:58.364170+00:00
+Tarih: 2026-06-26T10:39:49.200183+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 55
-- Kac mac kaydedildi: 55
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 460
+- Kac mac bulundu: 52
+- Kac mac kaydedildi: 7
+- Kac mac zaten vardi: 45
+- Ham veri havuzu toplam mac sayisi: 467
 - Hedef tarih: 26.06.2026 Europe/Istanbul
 
 ## Ligler
@@ -17,9 +17,6 @@ Tarih: 2026-06-25T23:01:58.364170+00:00
 - ABD USL Lig 2 Güney Florida Grubu
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Güney Avustralya
-- Avustralya NPL Queensland
-- Avustralya NPL Victoria
-- Avustralya NPL Yeni Güney Galler
 - Belarus Premier Lig
 - Dünya Kupası 2026 Grup I
 - Estonya Premium Lig
@@ -99,8 +96,8 @@ Tarih: 2026-06-25T23:01:58.364170+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 42
-- Acilan detay: 42
+- Denenen Tumu alani: 39
+- Acilan detay: 39
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -113,26 +110,26 @@ Tarih: 2026-06-25T23:01:58.364170+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.06.2026 | 22:00 | Dünya Kupası 2026 Grup I | Norveç | Fransa | 17163 | 5 |
 | 26.06.2026 | 22:00 | Dünya Kupası 2026 Grup I | Senegal | Irak | 17231 | 5 |
-| 26.06.2026 | 22:00 | İrlanda Premier Lig | Bohemian | St Patricks | 13629 | 5 |
+| 26.06.2026 | 22:00 | Dünya Kupası 2026 Grup I | Norveç | Fransa | 17163 | 5 |
+| 26.06.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Waterford | 13476 | 5 |
 | 26.06.2026 | 21:45 | İrlanda Premier Lig | Derry City | Drogheda | 13422 | 5 |
 | 26.06.2026 | 21:30 | İrlanda Premier Lig | Shamrock Rover | Galway United | 13283 | 5 |
-| 26.06.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Waterford | 13476 | 5 |
+| 26.06.2026 | 22:00 | İrlanda Premier Lig | Bohemian | St Patricks | 13629 | 5 |
 | 26.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn | Yunnan Yukun | 14072 | 5 |
 | 26.06.2026 | 20:00 | İsveç Superettan | Brage | Falkenberg | 11683 | 5 |
-| 26.06.2026 | 19:00 | Finlandiya Ykkösliiga | Klubi 04 | Sjk Ii | 11036 | 5 |
 | 26.06.2026 | 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry | Mikkelin | 11078 | 5 |
+| 26.06.2026 | 19:00 | Finlandiya Ykkösliiga | Klubi 04 | Sjk Ii | 11036 | 5 |
+| 26.06.2026 | 20:00 | Hazırlık Kulüpler | Sturm Graz | Mura | 04528 | 5 |
+| 26.06.2026 | 16:30 | Hazırlık Kulüpler | Jablonec | Vlasim | 05231 | 3 |
 | 26.06.2026 | 18:45 | Hazırlık Kulüpler | Dukla Prag | Mlada Boleslav | 01824 | 5 |
+| 26.06.2026 | 19:00 | Hazırlık Kulüpler | Rappersvil Jon | Basel | 05373 | 3 |
+| 26.06.2026 | 19:00 | Hazırlık Kulüpler | Sv Horn | St Polten | 05401 | 3 |
 | 26.06.2026 | 18:00 | Hazırlık Kulüpler | Mtk | Kazincbarcika | 04198 | 3 |
-| 26.06.2026 | 12:00 | Hazırlık Kulüpler | Randers | Sonderjyske | 17041 | 5 |
-| 26.06.2026 | 10:00 | Hazırlık Kulüpler | Botev Plovdiv | Arda Kardzhali | 17023 | 5 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Cork City | Bray Wanderers | 13382 | 5 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Ucd | Cobh Ramblers | 13563 | 5 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Wexford Youths | Treaty Unt. | 13596 | 5 |
 | 26.06.2026 | 21:45 | İrlanda 1.Lig | Athlone | Finn Harps | 13342 | 5 |
 | 26.06.2026 | 21:45 | İrlanda 1.Lig | Kerry | Longford | 13530 | 5 |
-| 26.06.2026 | 20:00 | Belarus Premier Lig | Arsenal | Gomel | 15512 | 5 |
+| 26.06.2026 | 21:45 | İrlanda 1.Lig | Wexford Youths | Treaty Unt. | 13596 | 5 |
+| 26.06.2026 | 21:45 | İrlanda 1.Lig | Ucd | Cobh Ramblers | 13563 | 5 |
 
 ## Sonuc
 
