@@ -1,6 +1,7 @@
 name: Auto relaxed analysis
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
 
@@ -15,9 +16,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: node scripts/robot-threshold-patch.js
-      - run: node scripts/update-analysis-report.js
+      - run: npm run update:all
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto relaxed robot analysis"
+          commit_message: "Auto live data and robot analysis update"
           file_pattern: data/*.json outputs/*.md
