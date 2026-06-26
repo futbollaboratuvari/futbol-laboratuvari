@@ -1,0 +1,49 @@
+Tarih: 26.06.2026
+Saat: 09:05
+Baslik: Tek Robot Asama 3 - Genis marketleri PRO 12.2 final karar motoruna baglama
+
+Amac:
+PRO 12.2 analiz ciktisi sadece MS, KG, IY KG / 2Y KG, 2.5 ve IY/MS ile kalmasin. Daha once gelistirilen genis market havuzu da final analiz ekranina baglansin.
+
+Yapilan:
+1. pro12-2-wide-market-engine.js dosyasi eklendi.
+2. Bu dosya fl_last_pro122_analysis icindeki PRO 12.2 analizlerini okur.
+3. Her mac icin genis market havuzunu skorlar.
+4. extraBestMarket ve wideMarkets alanlarini analiz kaydina ekler.
+5. PRO 12.2 analiz kutusunun altina Genis Market Skorlayici tablosu basar.
+6. cache-version.js guncellendi ve pro12-2-wide-market-engine.js site yukleyicisine baglandi.
+
+Baglanan market aileleri:
+- 1.5 Ust / Alt
+- 3.5 Ust / Alt
+- 4.5 Ust / Alt
+- 5.5 Ust / Alt
+- 1X / X2 / 12
+- Ev Sahibi Gol Atar
+- Deplasman Gol Atar
+- Ev Sahibi Gol Yemez
+- Deplasman Gol Yemez
+- Ev Sahibi 1.5 Ust
+- Deplasman 1.5 Ust
+- Toplam Tek / Cift
+- 0-1 Gol
+- 2-3 Gol
+- 4-6 Gol
+- 7+ Gol
+- KG Var + 2.5 Ust
+- KG Var + 3.5 Ust
+- KG Yok + 2.5 Alt
+- MS 1 + KG Var
+- MS 2 + KG Var
+- MS 1 + 2.5 Ust
+- MS 2 + 2.5 Ust
+
+Commitler:
+- pro12-2-wide-market-engine.js eklendi: 5f4b66953c85566d1b035de97e2744d4659a68c1
+- cache-version.js genis market motoruna baglandi: e3981e1c3021c724f0d8fcc607f4b830c7d31279
+
+Son durum:
+Ozel analiz calistiginda PRO 12.2 ana karar tablosu korunur. Bunun altina Genis Market Skorlayici gelir ve ekstra en guclu secenek, oran, skor, risk ve alternatif marketleri gosterir.
+
+Sonraki asama:
+Genis market skorlayici daha sonra robot hafiza motoruna ve analiz arsivine de baglanacak.
