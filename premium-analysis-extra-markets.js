@@ -41,6 +41,7 @@
 
   function loadRobotPro122Bridge() {
     loadScriptOnce("robot-pro122-core-script", "robot-pro122-core.js");
+    loadScriptOnce("robot-pro122-legacy-link-script", "robot-pro122-legacy-link.js");
     loadScriptOnce("robot-pro122-fields-mini-script", "robot-pro122-fields-mini.js");
   }
 
