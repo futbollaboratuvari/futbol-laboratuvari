@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 26.06.2026 13:39:50
-=======
-Oluşturma: 26.06.2026 13:39:55
->>>>>>> Stashed changes
+Oluşturma: 26.06.2026 19:34:05
 
 ## Özet
 
-- Toplam tahmin: 23
-- Bekleyen tahmin: 23
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 12
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 26.06.2026 13:39:55
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
-- MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-06-26 | Belarus Premier Lig | Arsenal - Gomel | MS 1 | pending | 40/100
-- 2026-06-26 | İsveç 2.Lig Södra Götaland | Ifk Berga - Växjö Norra | MS X | pending | 50/100
-- 2026-06-26 | İrlanda Premier Lig | Derry City - Drogheda | MS 2 | pending | 60/100
-- 2026-06-26 | İrlanda 1.Lig | Cork City - Bray Wanderers | MS 2 | pending | 60/100
-- 2026-06-26 | İrlanda 1.Lig | Ucd - Cobh Ramblers | MS 2 | pending | 50/100
-- 2026-06-26 | İrlanda 1.Lig | Wexford Youths - Treaty Unt. | MS 2 | pending | 60/100
-- 2026-06-26 | İrlanda 1.Lig | Athlone - Finn Harps | MS 2 | pending | 60/100
-- 2026-06-26 | İrlanda 1.Lig | Kerry - Longford | MS X | pending | 40/100
-- 2026-06-26 | İrlanda Premier Lig | Bohemian - St Patricks | MS X | pending | 40/100
-- 2026-06-26 | İzlanda 1.Lig | Afturelding - Njardvik | MS X | pending | 50/100
-- 2026-06-26 | Hazırlık Kulüpler | Randers - Sonderjyske | MS X | pending | 50/100
-- 2026-06-26 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Sydney United | MS X | pending | 50/100
-- 2026-06-26 | Avustralya NPL Victoria | Heidelberg Uni - Oakleigh Cannon | MS X | pending | 50/100
-- 2026-06-26 | Avustralya NPL Victoria | St. Albans Sai - Melbourne City | MS X | pending | 50/100
-- 2026-06-26 | Avustralya NPL Victoria | Bentleigh Gree - Altona Magic | MS X | pending | 50/100
 
