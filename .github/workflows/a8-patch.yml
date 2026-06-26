@@ -2,6 +2,12 @@ name: A8 Patch Apply
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - apply_a8_patch.ps1
+      - .github/workflows/a8-patch.yml
 
 permissions:
   contents: write
