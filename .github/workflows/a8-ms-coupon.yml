@@ -64,3 +64,5 @@ jobs:
           git add scripts/robot-coupon-engine.js
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) { git commit -m "A8 MS coupon secenekleri"; git push }
+
+# trigger: ms-coupon
