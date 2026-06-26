@@ -1,0 +1,48 @@
+2026-06-26 asama 3 tahmin kaydi teshis
+
+Calisma basligi:
+Asama 3 - Tahmini kaydeder baglanti kontrolu
+
+Kullanici talimati:
+- Dosyalari kirmadan bagla.
+- Buyuk dosya olursa ufak ufak calis.
+- Her asamayi mega hafizaya kayit et.
+- Rapor ver.
+
+Okunan ana dosyalar:
+- scripts/stage-3-prediction-record-check.js
+- scripts/robot-learning-memory.js
+- scripts/prediction-memory-health-check.js
+- data/robot-analysis.json
+- outputs/prediction-memory-health-report.md
+- outputs/robot-pipeline-status.md
+
+Mevcut durum:
+- Stage 3 dosyasi robot-learning-memory.js dosyasini cagiriyor.
+- Ardindan prediction-memory-health-check.js dosyasini cagiriyor.
+- learning-memory.json icine tahmin kaydi yazilmasi bekleniyor.
+- prediction-memory-health-report.md dosyasi su an empty durumunda.
+- Robot analiz maci var, fakat toplam tahmin 0.
+
+Tespit:
+robot-analysis.json icinde analiz var.
+Fakat coupon_candidate_count 0 gorunuyor.
+Maclarin buyuk bolumu degerli secenek yok olarak elenmis.
+robot-learning-memory.js dosyasi degerli secenek yok ve belirsiz kayitlari hafizaya almiyor.
+Bu yuzden learning-memory tarafina tahmin dusmuyor.
+
+Teknik sonuc:
+Asama 3 kod zinciri var.
+Sorun dosya kopuklugu degil.
+Sorun, aday tahmin uretilmeyen gunde hafizanin bos kalmasi ve bunun pipeline tarafinda bekliyor gibi gorunmesi.
+
+Guvenli duzeltme plani:
+1. Sahte tahmin eklenmeyecek.
+2. Degerli secenek yok kayitlari kazanildi/kaybedildi gibi hafizaya yazilmayacak.
+3. Aday yoksa Stage 3 bunu kontrollu bos durum olarak raporlamali.
+4. Pipeline status dosyasi bu kontrollu bos durumu ayri okumali.
+
+Not:
+Mevcut kod dosyalarina dogrudan guncelleme denemesi filtreye takildi.
+Bu nedenle kod dosyalari zorlanmadi ve kirma riski alinmadi.
+Bu kayit Aşama 3 teshis ve mega hafiza kaydidir.
