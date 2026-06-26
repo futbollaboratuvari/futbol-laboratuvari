@@ -80,6 +80,21 @@ const normalizeRisk = (item) => item.risk || item.risk_level || "-";
 const normalizeMarket = (item) => item.market || item.prediction || item.decision || "-";
 const normalizeTitle = (item) => item.title || item.match || "PRO analiz";
 
+const scoreNumber = (item) => {
+  const number = Number(String(normalizeScore(item)).replace("%", "").replace(",", "."));
+  return Number.isFinite(number) ? number : 0;
+};
+
+const isBlockedMarket = (item) => /değerli market yok|degerli market yok|güncel maç değil|guncel mac degil|oynama|filtered_no_value|filtered_old/i.test(
+  `${normalizeMarket(item)} ${item.status || ""} ${item.decision || ""}`,
+);
+
+const isCandidateItem = (item) => {
+  if (!hasRealProSignals(item) || isBlockedMarket(item)) return false;
+  const decision = String(item.decision || "").toLocaleLowerCase("tr-TR");
+  return item.include_in_coupon || decision.includes("kupon") || decision.includes("izleme") || scoreNumber(item) >= 50;
+};
+
 const getSignalsText = (item) => {
   const signals = item.pro_signals || item.signals || item.evidence || item.layers || [];
   if (Array.isArray(signals)) return signals.join("; ");
@@ -121,21 +136,24 @@ const setSummary = (activeItems, source = "PRO analiz bekleniyor") => {
 };
 
 const renderProAnalysisCenter = (payload) => {
-  const activeItems = (Array.isArray(payload?.active_items) ? payload.active_items : []).filter(hasRealProSignals);
+  const visibleItems = (Array.isArray(payload?.active_items) ? payload.active_items : []).filter(hasRealProSignals);
+  const candidateItems = visibleItems.filter(isCandidateItem);
 
   if (analysisList) {
-    analysisList.innerHTML = activeItems.length
-      ? activeItems.map(analysisCommentCard).join("")
+    analysisList.innerHTML = visibleItems.length
+      ? visibleItems.map(analysisCommentCard).join("")
       : emptyBox("Maç yorumları için PRO robot analizi bekleniyor. Form, istatistik, oran, haber/durum veya robot katmanı olmadan yorum üretilmez.");
   }
 
   if (strongestPickCard) {
-    strongestPickCard.innerHTML = activeItems[0]
-      ? couponCard(activeItems[0])
-      : emptyBox("Günün seçimi yalnızca gerçek PRO analiz çıktısı geldikten sonra gösterilecek.");
+    strongestPickCard.innerHTML = candidateItems[0]
+      ? couponCard(candidateItems[0])
+      : emptyBox(visibleItems.length
+        ? `${visibleItems.length} robot kaydı geldi ancak kupon/izleme eşiğini geçen güçlü aday yok.`
+        : "Günün seçimi yalnızca gerçek PRO analiz çıktısı geldikten sonra gösterilecek.");
   }
 
-  setSummary(activeItems, payload?.source || "PRO analiz bekleniyor");
+  setSummary(visibleItems, payload?.source || "PRO analiz bekleniyor");
 };
 
 const loadProAnalysisCenter = async () => {
