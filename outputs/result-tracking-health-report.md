@@ -1,13 +1,14 @@
 # Sonuc Takip Saglik Kontrolu
 
-Durum: empty
+Durum: izleme
+Aktif bulten maci: 55
 Arsiv maci: 0
 Biten mac: 0
 Skorlu arsiv maci: 0
-Tahmin sayisi: 0
-Bekleyen tahmin: 0
+Tahmin sayisi: 23
+Bekleyen tahmin: 23
 Skor baglanan tahmin: 0
-Son kontrol: 0
+Son kontrol: 23
 Son baglanan: 0
 
-Sonraki aksiyon: Sonuc kaynagi ve skor eslestirme takip edilmeli.
+Sonraki aksiyon: Sonuc bekleniyor. Izleme devam.
