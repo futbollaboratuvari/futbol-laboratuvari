@@ -1,0 +1,29 @@
+Tarih/Saat: 2026-06-26 09:00 TRT
+Konu: Asama 1 - PRO 12.2 option identity omurgasi
+
+Eklenen dosyalar:
+- scripts/pro122-option-identity.js
+- data/pro122-option-identity-schema.json
+
+Amac:
+- Genis secenek sonuclarini tek robot veri yapisina baglamak icin ortak kimlik semasi hazirlandi.
+- Eski id yapisi bozulmadan match_id ve option_id yapisi tanimlandi.
+
+Kural:
+- match_id = date | league | home | away | time
+- option_id = match_id | option_type | selection
+
+Kapsam:
+- MS: 1 / X / 2
+- KG: Var / Yok
+- 2.5: Ust / Alt
+- IY_MS: 1/1, 1/X, 1/2, X/1, X/X, X/2, 2/1, 2/X, 2/2
+- IY_KG_2Y_KG: Evet/Evet, Evet/Hayir, Hayir/Evet, Hayir/Hayir
+
+Koruma:
+- Mevcut calisan dosyalar silinmedi.
+- Mevcut veri dosyalari degistirilmedi.
+- Asama 1 ayri yardimci dosya ve sema dosyasi ile tamamlandi.
+
+Sonraki asama:
+- Asama 2: robot-learning-memory kayitlari bu semaya gore genis secenek satirlarina ayrilacak.
