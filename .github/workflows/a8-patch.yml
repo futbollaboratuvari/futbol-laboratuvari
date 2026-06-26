@@ -1,0 +1,34 @@
+name: A8 Patch Apply
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply-a8-patch:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run A8 patch
+        shell: pwsh
+        run: .\apply_a8_patch.ps1
+
+      - name: Commit A8 changes
+        shell: pwsh
+        run: |
+          git config user.name "futbollaboratuvari-bot"
+          git config user.email "actions@github.com"
+          git status
+          git add scripts/robot-exact-scoring.js scripts/robot-coupon-engine.js scripts/export-high-value-json.js data outputs
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "Commit edilecek degisiklik yok."
+          } else {
+            git commit -m "A8 aday havuzu ve secenek genisletme"
+            git push
+          }
