@@ -1,0 +1,37 @@
+Tarih: 26.06.2026
+Saat: 09:35
+Baslik: Asama 4 - Mobil ana sayfa hero / ust panel duzeltmesi
+
+Amac:
+Mobilde ana sayfa ust bolumunde kartlarin ust uste binmesini, saga tasmasini ve buton blogunun arka kartlarin uzerine oturmasini engellemek.
+
+Gozlenen sorun:
+- Bugun incelenen mac ve degerlendirme durumu kartlari mobilde yan yana tasiyordu.
+- One cikan aday karti baslik/hero metnine biniyordu.
+- Kupon merkezi, mac yorumlari ve ozel analiz butonlari arka kartlarin ustune oturuyordu.
+- Sayfada yatay tasma riski vardi.
+
+Yapilan:
+1. mobile-hero-panel-fix.js eklendi.
+2. Sadece max-width 760px mobil kurallari eklendi.
+3. dashboard-hero mobilde normal akisa alindi.
+4. hero-content tek kolon flex yapildi.
+5. platform-summary kartlari mobilde tek kolon yapildi.
+6. hero-proof ve fl-hero-credibility mobilde kontrollu grid yapildi.
+7. hero-actions ayri blok yapildi ve kartlarin ustune binmesi engellendi.
+8. html/body overflow-x hidden ile yatay tasma engellendi.
+9. cache-version.js guncellendi ve mobile-hero-panel-fix.js siteye baglandi.
+
+Degisen / eklenen dosyalar:
+- mobile-hero-panel-fix.js
+- cache-version.js
+
+Commitler:
+- mobile-hero-panel-fix.js eklendi: 1f493cfd6b7930dafcf3958e5b66e0577167225b
+- cache-version.js mobil hero fix'e baglandi: 08ec4df91e1bc9167fc65a225a68072cdc94eb4d
+
+Son durum:
+Mobilde ust hero bolumu alt alta ve temiz akacak. Kartlar ekrandan saga tasmayacak. Buton blogu ayri bir blok olacak. Masaustu hedeflenmedi, duzeltme yalniz mobil breakpoint icinde calisir.
+
+Kontrol:
+Canli sitede Ctrl+F5 veya mobil tarayicida sayfayi yenile. Console kontrolu: window.MOBILE_HERO_PANEL_FIX ve document.documentElement.dataset.mobileHeroPanelFix.
