@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { filterActiveBulletinMatches, countInactiveBulletinMatches } = require("./bulletin-active-filter");
 
 const root = path.join(__dirname, "..");
 const fixturesFile = path.join(root, "data", "fixtures.json");
@@ -27,21 +28,28 @@ function trDate(offset = 0) {
 
 function runTwoDayBulletinWindow() {
   const fixtures = readJson(fixturesFile, []);
+  const sourceMatches = Array.isArray(fixtures) ? fixtures : [];
   const days = [trDate(0), trDate(1)];
-  const matches = (Array.isArray(fixtures) ? fixtures : []).filter((m) => days.includes(m.date));
+  const sourceWindowMatches = sourceMatches.filter((m) => days.includes(m.date));
+  const matches = filterActiveBulletinMatches(sourceWindowMatches);
   const byDay = Object.fromEntries(days.map((day) => [day, matches.filter((m) => m.date === day).length]));
+  const removedInactiveCount = countInactiveBulletinMatches(sourceWindowMatches);
   const report = {
     generated_at: new Date().toISOString(),
     days,
+    total_source_matches: sourceWindowMatches.length,
     total_matches: matches.length,
+    active_match_count: matches.length,
+    removed_finished_count: removedInactiveCount,
+    removed_statuses: ["finished", "cancelled", "postponed"],
     by_day: byDay,
     matches
   };
   const rows = matches.map((m) => `- ${m.date} ${m.time || "--:--"} | ${m.league || "Lig"} | ${m.home || "?"} - ${m.away || "?"}`).join("\n");
-  const md = `# Iki Gunluk Bulten\n\nGunler: ${days.join(" / ")}\nToplam mac: ${matches.length}\nBugun: ${byDay[days[0]]}\nYarin: ${byDay[days[1]]}\n\n${rows || "Mac bekleniyor."}\n`;
+  const md = `# Iki Gunluk Bulten\n\nGunler: ${days.join(" / ")}\nHam mac: ${sourceWindowMatches.length}\nAktif mac: ${matches.length}\nBultenden dusurulen mac: ${removedInactiveCount}\nBugun: ${byDay[days[0]]}\nYarin: ${byDay[days[1]]}\n\n${rows || "Mac bekleniyor."}\n`;
   write(outJson, `${JSON.stringify(report, null, 2)}\n`);
   write(outMd, md);
-  console.log(`Two-day bulletin window: ${matches.length} matches.`);
+  console.log(`Two-day bulletin window: ${matches.length} active matches. Removed: ${removedInactiveCount}.`);
   return report;
 }
 
