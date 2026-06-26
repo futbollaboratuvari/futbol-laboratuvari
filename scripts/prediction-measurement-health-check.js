@@ -4,6 +4,7 @@ const path = require("path");
 const root = path.join(__dirname, "..");
 const memoryFile = path.join(root, "data", "learning-memory.json");
 const finalizerFile = path.join(root, "data", "learning-finalizer-status.json");
+const resultTrackingFile = path.join(root, "data", "result-tracking-health-status.json");
 const outJson = path.join(root, "data", "prediction-measurement-health-status.json");
 const outMd = path.join(root, "outputs", "prediction-measurement-health-report.md");
 
@@ -23,13 +24,15 @@ function hasScore(value) {
 function runPredictionMeasurementHealthCheck() {
   const memory = readJson(memoryFile, { predictions: [], summary: {} });
   const finalizer = readJson(finalizerFile, {});
+  const resultTracking = readJson(resultTrackingFile, {});
   const predictions = Array.isArray(memory.predictions) ? memory.predictions : [];
   const pending = predictions.filter((p) => p.status === "pending");
   const won = predictions.filter((p) => p.status === "won");
   const lost = predictions.filter((p) => p.status === "lost");
   const scoredPending = pending.filter((p) => hasScore(p.result_score));
   const measured = won.length + lost.length;
-  const status = predictions.length === 0 ? "empty" : scoredPending.length ? "warning" : "ok";
+  const watchOnly = predictions.length === 0 && resultTracking.status === "izleme";
+  const status = watchOnly ? "izleme" : predictions.length === 0 ? "empty" : scoredPending.length ? "warning" : "ok";
   const report = {
     generated_at: new Date().toISOString(),
     status,
@@ -42,7 +45,7 @@ function runPredictionMeasurementHealthCheck() {
     last_checked: finalizer.checked || 0,
     last_updated: finalizer.updated || 0,
     scored_pending_examples: scoredPending.slice(0, 50).map((p) => ({ id: p.id, match_name: p.match_name, market: p.market, result_score: p.result_score })),
-    next_action: status === "ok" ? "Agirlik degistirme asamasina gecilebilir." : "Skoru olan pending tahminler finalizer tarafindan olculmeli."
+    next_action: status === "ok" ? "Agirlik degistirme asamasina gecilebilir." : status === "izleme" ? "Olculecek tahmin yok. Izleme devam." : "Skoru olan pending tahminler finalizer tarafindan olculmeli."
   };
   const md = [
     "# Tahmin Olcum Saglik Kontrolu",
