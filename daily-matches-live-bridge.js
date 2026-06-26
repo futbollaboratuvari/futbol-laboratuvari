@@ -46,7 +46,7 @@
     style.id = STYLE_ID;
     style.textContent = `
       #${WIDGET_ID}.daily-widget-shell{position:relative;z-index:3;margin:22px clamp(18px,6vw,90px) 0;padding:18px;border:1px solid rgba(255,159,28,.3);border-radius:22px;background:linear-gradient(180deg,rgba(8,23,48,.96),rgba(3,8,23,.97));box-shadow:0 24px 70px rgba(0,0,0,.38);box-sizing:border-box}
-      .daily-live-source-note{margin:8px 0 0;color:#aebbd0;font-size:12px;line-height:1.45}.daily-night-badge{display:inline-flex;margin-left:8px;padding:4px 8px;border:1px solid rgba(57,255,136,.30);border-radius:999px;background:rgba(57,255,136,.10);color:#c8ffdd;font-size:11px;font-weight:950}
+      .daily-live-source-note{margin:8px 0 0;color:#aebbd0;font-size:12px;line-height:1.45}
       .daily-live-bridge-list{display:grid;gap:14px}.daily-live-bridge-date{overflow:hidden;border:1px solid rgba(255,159,28,.22);border-radius:18px;background:rgba(3,8,23,.6)}.daily-live-date-head{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:12px 14px;background:linear-gradient(90deg,rgba(255,159,28,.72),rgba(19,120,69,.62),rgba(3,8,23,.72));color:#fff7d6;font-size:13px;font-weight:950;text-transform:uppercase}.daily-live-scroll{overflow-x:auto}.daily-live-table{display:grid;min-width:900px}.daily-live-head,.daily-live-row{display:grid;grid-template-columns:68px minmax(320px,1fr) repeat(7,minmax(54px,64px));align-items:stretch}.daily-live-head{background:rgba(20,31,34,.98);color:#ffe08a;font-size:11px;font-weight:950;text-transform:uppercase}.daily-live-head span,.daily-live-row>*{display:flex;align-items:center;min-height:44px;padding:9px 8px;border-right:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.07);box-sizing:border-box}.daily-live-row:nth-child(odd){background:rgba(255,255,255,.03)}.daily-live-time{justify-content:center;color:#39ff88;font-weight:950}.daily-live-match{display:grid;gap:3px}.daily-live-league{color:#8fa0b5;font-size:10px;font-weight:850;text-transform:uppercase}.daily-live-teams{color:#f8fbff;font-size:13px;font-weight:900;white-space:normal;line-height:1.25}.daily-live-odd{justify-content:center;background:rgba(255,255,255,.055);color:#fff;font-size:12px;font-weight:900}.daily-live-odd.is-empty{color:#738096;background:rgba(255,255,255,.025)}
       @media(max-width:720px){#${WIDGET_ID}.daily-widget-shell{margin:16px 12px 0;padding:12px}.daily-live-table{min-width:760px}.daily-live-head,.daily-live-row{grid-template-columns:62px minmax(260px,1fr) repeat(7,minmax(50px,60px))}}
     `;
@@ -82,23 +82,18 @@
   });
 
   const sourceData = async () => {
-    const live = await readJson(LIVE_URL, { matches: [], source: "", generated_at: "" });
-    const liveMatches = Array.isArray(live.matches) ? live.matches : [];
-    if (liveMatches.length) {
-      return {
-        matches: liveMatches.map(normalize),
-        source: live.source || "Canlı maç akışı",
-        generatedAt: live.generated_at || "",
-        sourceType: "live-matches"
-      };
+    const fixtures = await readJson(FIXTURES_URL, []);
+    if (Array.isArray(fixtures) && fixtures.length) {
+      return { matches: fixtures.map(normalize), source: "Fikstür akışı", generatedAt: "", sourceType: "fixtures" };
     }
 
-    const fixtures = await readJson(FIXTURES_URL, []);
+    const live = await readJson(LIVE_URL, { matches: [], source: "", generated_at: "" });
+    const liveMatches = Array.isArray(live.matches) ? live.matches : [];
     return {
-      matches: Array.isArray(fixtures) ? fixtures.map(normalize) : [],
-      source: "Fikstür akışı",
-      generatedAt: "",
-      sourceType: "fixtures"
+      matches: liveMatches.map(normalize),
+      source: live.source || "Canlı maç akışı",
+      generatedAt: live.generated_at || "",
+      sourceType: "live-matches"
     };
   };
 
@@ -142,9 +137,9 @@
     widget.innerHTML = `
       <div class="daily-widget-head">
         <div>
-          <h2 class="daily-widget-title">Bugünün Maç Bülteni <span class="daily-night-badge">Gece maçları dahil</span></h2>
+          <h2 class="daily-widget-title">Bugünün Maç Bülteni</h2>
           <p class="daily-widget-subtitle">Güncel bülten: ${esc(data.source)} · ${esc(data.sourceType)}</p>
-          <p class="daily-live-source-note">${data.generatedAt ? `Son güncelleme: ${esc(data.generatedAt)}` : "Canlı akış dosyası okunuyor."}</p>
+          <p class="daily-live-source-note">${data.generatedAt ? `Son güncelleme: ${esc(data.generatedAt)}` : "Maç akış dosyası okunuyor."}</p>
         </div>
         <span class="daily-widget-count">${matches.length} maç</span>
       </div>
