@@ -1,0 +1,65 @@
+Tarih: 26.06.2026
+Saat: 08:18
+Baslik: Buraya kadar yapilan calismalar - toplu mega hafiza kaydi
+
+Genel hedef:
+Futbol Laboratuvari projesinde PC robotu, PRO 12.2 karar motoru, canli site, genis market skorlama, sayfali mobil gorunum ve mobil ana sayfa duzeni tek akis icinde baglaniyor. Dosyalari kirmadan, eski akislari silmeden adapter / kopru dosyalariyla ilerleniyor.
+
+Asama 1 - PC robotu tek robot esitleyiciye baglandi:
+- bu-klas-r-i-in-basit/src/tek_robot_esitleyici.py eklendi.
+- Eski web_site_esitleyici.py silinmedi.
+- Yeni esitleyici once eski esitleyiciyi calistirir, sonra PRO 12.2 dosya sozlesmesindeki yeni JSON dosyalarini da web site reposuna tasir.
+- bu-klas-r-i-in-basit/run_robot.bat artik tek_robot_esitleyici.py dosyasini cagirir.
+- Commitler: 903238613c0500fa998af2c2cdb2530d29193485, 5fe386a8e1672352811adda8a68bfe256354ecee.
+- Mega kaydi: MEGA_HAFIZA_KAYITLAR/2026-06-26_0835_tek_robot_asama_1_pc_esitleyici.txt.
+
+Asama 2 - Eski PC veri kaynaklari yeni Robot + PRO 12.2 akisina baglandi:
+- robot-pro122-legacy-link.js eklendi.
+- Eski kaynaklar: data/canli-veri.json, data/analiz_sonuclari.json, data/daily-coupons.json.
+- Yeni state: window.FL_ROBOT_PRO122_STATE.
+- premium-analysis-extra-markets.js icine robot-pro122-legacy-link.js yukleme baglantisi eklendi.
+- Commitler: f48cdc5fb9637f6579467ba382793c1ad6f173c6, 714b15fcbbec7a9703dc0831ec7178e8861c1b4b.
+- Mega kaydi: MEGA_HAFIZA_KAYITLAR/2026-06-26_0845_tek_robot_asama_2_eski_kaynak_linki.txt.
+
+Asama 3 - Genis marketler PRO 12.2 final analizine baglandi:
+- pro12-2-wide-market-engine.js eklendi.
+- PRO 12.2 analiz ciktisindan fl_last_pro122_analysis okunuyor.
+- Her mac icin wideMarkets, extraBestMarket, wide_source alanlari uretiliyor.
+- PRO 12.2 kutusu altina Genis Market Skorlayici tablosu basiliyor.
+- Baglanan market aileleri: 1.5 Ust/Alt, 3.5 Ust/Alt, 4.5 Ust/Alt, 5.5 Ust/Alt, 1X, X2, 12, Ev Sahibi Gol Atar, Deplasman Gol Atar, Ev Sahibi Gol Yemez, Deplasman Gol Yemez, Ev Sahibi 1.5 Ust, Deplasman 1.5 Ust, Toplam Tek/Cift, 0-1 Gol, 2-3 Gol, 4-6 Gol, 7+ Gol, KG Var + 2.5 Ust, KG Var + 3.5 Ust, KG Yok + 2.5 Alt, MS 1 + KG Var, MS 2 + KG Var, MS 1 + 2.5 Ust, MS 2 + 2.5 Ust.
+- cache-version.js icine pro12-2-wide-market-engine.js yukleme baglantisi eklendi.
+- Commitler: 5f4b66953c85566d1b035de97e2744d4659a68c1, e3981e1c3021c724f0d8fcc607f4b830c7d31279.
+- Mega kaydi: MEGA_HAFIZA_KAYITLAR/2026-06-26_0905_tek_robot_asama_3_genis_market.txt.
+
+Uzun bolumler icin sayfali yana kaydirma:
+- Kullanici onayi: Her uzun bolum kendi icinde 1-2-3-4-5 seklinde sayfalansin. Sayfanin tamami bolunmesin. Mobilde yana kaydirma gibi calissin.
+- fl-pagination-slider.js eklendi.
+- Baglanan bolumler: data-coupons-single, data-coupons-double, data-coupons-triple, analysis-list, spor-toto-grid, success-grid, analysis-database-body, result-archive, data-pro122-wide-markets tbody.
+- Mobilde saga/sola parmak hareketi ve numarali gecis eklendi.
+- cache-version.js icine fl-pagination-slider.js yukleme baglantisi eklendi.
+- Commitler: 9ff19215f3315841590e3cf174c2dd0bf2ebdc08, 5c6b9fa375db8d2028f54e6b65e2252d35befa4a.
+- Mega kaydi: MEGA_HAFIZA_KAYITLAR/2026-06-26_0920_uzun_bolumler_sayfali_yana_kaydirma.txt.
+
+Asama 4 - Mobil ana sayfa hero / ust panel duzeltmesi:
+- Kullanici mobil ekran goruntuleri gonderdi.
+- Tespit: Hero ust panelde kartlar ust uste biniyor, saga tasiyor, buton blogu arka kartlarin uzerine oturuyor.
+- mobile-hero-panel-fix.js eklendi.
+- Sadece @media max-width 760px icinde calisir.
+- dashboard-hero mobilde normal akisa alindi.
+- hero-content tek kolon yapildi.
+- platform-summary kartlari mobilde tek kolon yapildi.
+- hero-proof ve fl-hero-credibility mobilde kontrollu grid yapildi.
+- hero-actions ayri mobil CTA blogu yapildi.
+- html/body overflow-x hidden ile yatay tasma engellendi.
+- cache-version.js icine mobile-hero-panel-fix.js yukleme baglantisi eklendi.
+- Commitler: 1f493cfd6b7930dafcf3958e5b66e0577167225b, 08ec4df91e1bc9167fc65a225a68072cdc94eb4d.
+- Mega kaydi: MEGA_HAFIZA_KAYITLAR/2026-06-26_0935_mobil_hero_panel_duzeltmesi.txt.
+
+Simdiki canli site kontrol komutlari:
+- Telefonda sayfayi kapat ac veya yenile.
+- Gerekirse tarayici onbellegini temizle.
+- Console kontrolu: window.MOBILE_HERO_PANEL_FIX, document.documentElement.dataset.mobileHeroPanelFix.
+- Pagination kontrolu: window.FL_PAGINATION_SLIDER, document.documentElement.dataset.flPaginationSlider.
+
+Kaldigimiz yer:
+Asama 4 siteye baglandi. Siradaki is, kullanicinin mobilde tekrar ekran goruntusu atip hero panelin duzelip duzelmedigini kontrol etmesi. Eger hala tasma veya ust uste binme varsa mobile-hero-panel-fix.js icinde mobil selector duzeltmesi yapilacak. Sonra genis market skorlayicinin hafiza motoruna ve analiz arsivine baglanmasi sonraki teknik asama olacak.
