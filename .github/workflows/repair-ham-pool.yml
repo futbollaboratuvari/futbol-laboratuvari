@@ -1,0 +1,60 @@
+name: Repair Ham Pool Only
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/repair-ham-pool-run.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repair-ham-pool-only
+  cancel-in-progress: true
+
+jobs:
+  repair-ham-pool:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Repair ham raw pool only
+        run: node scripts/repair-ham-pool-only.js
+
+      - name: Validate ham raw pool only
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const file = 'bu-klas-r-i-in-basit/data/ham_mac_havuzu.json';
+          const text = fs.readFileSync(file, 'utf8');
+          const left = '<'.repeat(7);
+          const mid = '='.repeat(7);
+          const right = '>'.repeat(7);
+          if (text.includes(left) || text.includes(mid) || text.includes(right)) {
+            throw new Error('Ham havuzda conflict marker kaldı.');
+          }
+          const payload = JSON.parse(text);
+          if (!Array.isArray(payload.matches)) throw new Error('Ham havuz matches array değil.');
+          console.log('Ham havuz valid. Maç:', payload.matches.length);
+          NODE
+
+      - name: Commit repaired ham pool
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+          if git diff --cached --quiet; then
+            echo "No ham pool changes"
+            exit 0
+          fi
+          git commit -m "Repair robot ham raw pool JSON"
+          git push origin HEAD:main
