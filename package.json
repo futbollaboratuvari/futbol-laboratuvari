@@ -8,12 +8,13 @@
     "start": "vercel dev",
     "build": "node scripts/vercel-build.js",
     "update:fixtures": "node scripts/update-fixtures.js",
+    "enrich:metrics": "node scripts/enrich-fixture-metrics.js",
     "update:analysis": "node scripts/update-analysis-report.js",
-    "export:live": "node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-output-check.js",
+    "export:live": "node scripts/enrich-fixture-metrics.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-output-check.js",
     "sync:results": "node scripts/learning-result-sync.js",
     "learn:robot": "node scripts/robot-learning-memory.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js",
     "check:learning": "node scripts/learning-output-check.js",
-    "update:all": "node scripts/update-fixtures.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js"
+    "update:all": "node scripts/update-fixtures.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js"
   },
   "dependencies": {
     "@octokit/rest": "latest"
