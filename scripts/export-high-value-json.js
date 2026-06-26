@@ -213,7 +213,8 @@ function make_coupon(type, items, size) {
 function build_daily_coupons(matches) {
   const bandMap = loadBandMap();
   const scored = matches.map(score_match).map((item) => ({ ...item, band_check: bandFor(item, bandMap) }));
-  const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 50 && item.band_check?.level !== "Yüksek");
+    const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 65 && item.band_check?.level !== "Yüksek");
+  const watchlist = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 40 && Number(item.score || 0) < 65 && item.band_check?.level !== "Yüksek");
   const balancedPool = available
     .filter((item) => Number(item.score || 0) >= 65 && item.risk !== "Yüksek")
     .sort((a, b) => Number(b.score || 0) - Number(a.score || 0));
@@ -226,6 +227,7 @@ function build_daily_coupons(matches) {
 
   return {
     scored,
+    watchlist,
     available,
     coupons: {
       laboratory_today: make_coupon("balanced", balancedPool, 3),
@@ -264,8 +266,10 @@ function export_json_outputs(couponBundle, matches) {
       fixture_count: matches.length,
       scored_match_count: scored.length,
       coupon_candidate_count: couponBundle.available.length,
+      watch_candidate_count: (couponBundle.watchlist || []).length,
       learning_adjusted_count: scored.filter((item) => item.learning_adjustment?.applied).length,
     },
+    watchlist: (couponBundle.watchlist || []).map((item) => live_match_output(item)),
     matches: scored.map((item) => ({
       ...live_match_output(item),
       metrics: item.analysis_metrics || {},
@@ -301,3 +305,7 @@ module.exports = {
   generate_robot_explanation,
   export_json_outputs,
 };
+
+
+
+

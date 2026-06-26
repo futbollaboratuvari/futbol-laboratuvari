@@ -124,6 +124,46 @@ const marketRules = {
     scores: ["1-1", "2-1", "2-2"],
     signals: ["İki takım gol ihtimali marketi", "Düşük oran filtresinden geçti"],
   },
+  kgYok: {
+    label: "KG Yok",
+    keys: ["bttsNo", "kgYok", "yokOdd", "yok", "kg_yok"],
+    minOdd: 1.40,
+    maxOdd: 4.50,
+    boost: 11,
+    riskAdd: 5,
+    scores: ["1-0", "0-1", "2-0"],
+    signals: ["KG Yok seçeneği kontrol edildi"],
+  },
+  over15: {
+    label: "1.5 Üst",
+    keys: ["over15", "ust15", "over1_5", "ust_15"],
+    minOdd: 1.20,
+    maxOdd: 2.80,
+    boost: 8,
+    riskAdd: 2,
+    scores: ["1-1", "2-0", "2-1"],
+    signals: ["1.5 Üst düşük risk gol seçeneği kontrol edildi"],
+  },
+  homeGoal: {
+    label: "Ev Sahibi Gol Atar",
+    keys: ["homeGoalYes", "homeScores", "home_to_score", "evGolAtar", "ev_sahibi_gol_atar"],
+    minOdd: 1.20,
+    maxOdd: 3.80,
+    boost: 8,
+    riskAdd: 3,
+    scores: ["1-0", "1-1", "2-1"],
+    signals: ["Ev sahibi gol bulur seçeneği kontrol edildi"],
+  },
+  awayGoal: {
+    label: "Deplasman Gol Atar",
+    keys: ["awayGoalYes", "awayScores", "away_to_score", "depGolAtar", "deplasman_gol_atar"],
+    minOdd: 1.20,
+    maxOdd: 3.80,
+    boost: 9,
+    riskAdd: 4,
+    scores: ["0-1", "1-1", "1-2"],
+    signals: ["Deplasman gol bulur seçeneği kontrol edildi"],
+  },
   over25: {
     label: "2.5 Üst",
     keys: ["over25", "ust25", "over", "ust", "ust_25"],
@@ -164,7 +204,7 @@ const averageKnown = (values) => {
 const analysisClassFor = (score) => {
   if (score >= 80) return "Ana kupon adayı";
   if (score >= 65) return "Orta risk kupon adayı";
-  if (score >= 50) return "Sadece izleme";
+  if (score >= 40) return "Sadece izleme";
   return "Oynama";
 };
 
@@ -303,11 +343,11 @@ const makeCandidate = (fixture, key, rule) => {
   if (key === "secondHalfBttsYes" && odd < 1.90) score -= 2;
 
   score = Math.max(42, Math.min(88, Math.round(score)));
-  if (score < 50) return null;
+  if (score < 40) return null;
 
   const matchAnalysis = buildMatchAnalysis(fixture, { key, odd, confidence: score });
   const finalScore = Math.round((score * 0.4) + (matchAnalysis.analysis_score * 0.6));
-  if (finalScore < 50) return null;
+  if (finalScore < 40) return null;
 
   const risk = riskFromScore(finalScore, odd, rule.riskAdd, league.riskBias, matchAnalysis.data_gap_risk);
   const signals = [
@@ -529,3 +569,7 @@ const buildCouponAnalysis = (fixtures = []) => {
 };
 
 module.exports = { scoreFixture, buildCouponAnalysis, buildMatchAnalysis };
+
+
+
+

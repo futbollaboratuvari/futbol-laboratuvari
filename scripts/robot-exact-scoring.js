@@ -88,7 +88,7 @@ const isCurrent = (fixture) => {
 const classFor = (score) => {
   if (score >= 80) return "Ana kupon adayı";
   if (score >= 65) return "Orta risk kupon adayı";
-  if (score >= 50) return "Sadece izleme";
+  if (score >= 40) return "Sadece izleme";
   return "Oynama";
 };
 
@@ -267,6 +267,9 @@ const marketRules = {
   secondHalfBttsNo: { label: "İkinci Yarı KG Yok", keys: ["secondHalfBttsNo", "ikinciYariKgYok", "ikinci_yari_kg_yok", "second_half_btts_no", "secondHalfBttsNo_guess"], minOdd: 1.35, maxOdd: 4.50, scores: ["1-0", "0-1"] },
   kgVar: { label: "KG Var", keys: ["bttsYes", "kgVar", "varOdd", "var", "kg_var", "bttsYes_guess"], minOdd: 1.60, maxOdd: 3.80, scores: ["1-1", "2-1", "2-2"] },
   kgYok: { label: "KG Yok", keys: ["bttsNo", "kgYok", "yokOdd", "yok", "kg_yok", "bttsNo_guess"], minOdd: 1.45, maxOdd: 4.20, scores: ["1-0", "0-1", "2-0"] },
+  over15: { label: "1.5 Üst", keys: ["over15", "ust15", "over1_5", "ust_15", "over15_guess"], minOdd: 1.20, maxOdd: 2.80, scores: ["1-1", "2-0", "2-1"] },
+  homeGoal: { label: "Ev Sahibi Gol Atar", keys: ["homeGoalYes", "homeScores", "home_to_score", "evGolAtar", "ev_sahibi_gol_atar", "homeGoalYes_guess"], minOdd: 1.20, maxOdd: 3.80, scores: ["1-0", "1-1", "2-1"] },
+  awayGoal: { label: "Deplasman Gol Atar", keys: ["awayGoalYes", "awayScores", "away_to_score", "depGolAtar", "deplasman_gol_atar", "awayGoalYes_guess"], minOdd: 1.20, maxOdd: 3.80, scores: ["0-1", "1-1", "1-2"] },
   over25: { label: "2.5 Üst", keys: ["over25", "ust25", "over", "ust", "ust_25", "over25_guess"], minOdd: 1.58, maxOdd: 3.20, scores: ["2-1", "3-1", "2-2"] },
   over35: { label: "3.5 Üst", keys: ["over35", "ust35", "over3_5", "ust_35", "over35_guess"], minOdd: 1.90, maxOdd: 5.80, scores: ["3-1", "2-2", "3-2"] },
 };
@@ -349,7 +352,7 @@ const candidateFor = (fixture, key, rule) => {
   if (!odd || odd < rule.minOdd || odd > rule.maxOdd) return null;
   const oddSource = rule.keys.some((item) => String(item).includes("_guess")) && fixture?.raw_market_guess_odds ? "raw_market_guess_odds" : "standard";
   const analysis = buildMatchAnalysis(fixture, { key, odd, oddSource });
-  if (analysis.analysis_score < 50) return null;
+  if (analysis.analysis_score < 40) return null;
   return { key, label: rule.label, odd, confidence: analysis.analysis_score, risk: analysis.analysis_score >= 75 ? "Düşük" : analysis.analysis_score >= 60 ? "Orta" : "Yüksek", expected_scores: rule.scores, analysis, value_label: analysis.value_label, odd_source_type: oddSource, signals: [`Market: ${rule.label}`, `Oran: ${formatOdd(odd)}`, `Veri tipi: ${oddSource}`, `Değer etiketi: ${analysis.value_label}`, ...analysis.signals] };
 };
 
@@ -406,3 +409,6 @@ const buildCouponAnalysis = (fixtures = []) => {
 };
 
 module.exports = { scoreFixture, buildCouponAnalysis, buildMatchAnalysis, memoryFor };
+
+
+
