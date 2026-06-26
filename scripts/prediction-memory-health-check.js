@@ -32,6 +32,26 @@ function scoreNumber(value) {
   return Number.isFinite(n) ? n : null;
 }
 
+function simpleText(value) {
+  return String(value || "")
+    .toLocaleLowerCase("tr-TR")
+    .replaceAll("ğ", "g")
+    .replaceAll("ü", "u")
+    .replaceAll("ş", "s")
+    .replaceAll("ı", "i")
+    .replaceAll("ö", "o")
+    .replaceAll("ç", "c");
+}
+
+function hasPick(item) {
+  const market = simpleText(item.recommended_market || item.market || item.selection);
+  if (!market) return false;
+  if (market.includes("degerli market yok")) return false;
+  if (market.includes("degerli secenek yok")) return false;
+  if (market.includes("belirsiz")) return false;
+  return true;
+}
+
 function missingPredictionFields(item) {
   const missing = [];
   if (!text(item.id)) missing.push("id");
@@ -48,9 +68,14 @@ function missingPredictionFields(item) {
 
 function runPredictionMemoryHealthCheck() {
   const memory = readJson(memoryFile, { predictions: [], summary: {} });
-  const robot = readJson(robotFile, { matches: [] });
+  const robot = readJson(robotFile, { matches: [], summary: {} });
   const predictions = rows(memory);
   const robotMatches = rows(robot);
+  const reportedCandidateCount = Number(robot?.summary?.coupon_candidate_count);
+  const candidateCount = Number.isFinite(reportedCandidateCount)
+    ? reportedCandidateCount
+    : robotMatches.reduce((total, item) => total + (hasPick(item) ? 1 : 0), 0);
+  const noCandidateRun = predictions.length === 0 && robotMatches.length > 0 && candidateCount === 0;
   const pending = predictions.filter((item) => item.status === "pending").length;
   const won = predictions.filter((item) => item.status === "won").length;
   const lost = predictions.filter((item) => item.status === "lost").length;
@@ -65,11 +90,12 @@ function runPredictionMemoryHealthCheck() {
     if (miss.length) missing.push({ id: item.id || item.match_name || "unknown", missing: miss });
   }
 
-  const status = predictions.length === 0 ? "empty" : missing.length || duplicates.length ? "warning" : "ok";
+  const status = noCandidateRun ? "aday_yok_izleme" : predictions.length === 0 ? "empty" : missing.length || duplicates.length ? "warning" : "ok";
   const report = {
     generated_at: new Date().toISOString(),
     status,
     robot_match_count: robotMatches.length,
+    candidate_count: candidateCount,
     prediction_count: predictions.length,
     pending_count: pending,
     won_count: won,
@@ -78,7 +104,7 @@ function runPredictionMemoryHealthCheck() {
     missing_count: missing.length,
     missing_examples: missing.slice(0, 50),
     duplicate_examples: duplicates.slice(0, 50),
-    next_action: status === "ok" ? "Sonuc takip asamasina gecilebilir." : "Tahmin kaydi kontrol edilmeli."
+    next_action: status === "ok" ? "Sonuc takip asamasina gecilebilir." : status === "aday_yok_izleme" ? "Aday yok. Izleme devam." : "Tahmin kaydi kontrol edilmeli."
   };
 
   const md = [
@@ -86,6 +112,7 @@ function runPredictionMemoryHealthCheck() {
     "",
     `Durum: ${report.status}`,
     `Robot analiz maci: ${report.robot_match_count}`,
+    `Aday tahmin: ${report.candidate_count}`,
     `Toplam tahmin: ${report.prediction_count}`,
     `Bekleyen: ${report.pending_count}`,
     `Kazanan: ${report.won_count}`,
@@ -101,7 +128,7 @@ function runPredictionMemoryHealthCheck() {
 
   write(outJson, `${JSON.stringify(report, null, 2)}\n`);
   write(outMd, md);
-  console.log(`Prediction memory health: ${report.status}. Predictions: ${predictions.length}`);
+  console.log(`Prediction memory health: ${report.status}. Predictions: ${predictions.length}. Candidates: ${candidateCount}`);
   return report;
 }
 
