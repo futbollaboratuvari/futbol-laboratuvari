@@ -64,8 +64,8 @@ if errorlevel 1 (
 )
 
 echo.
-echo Web site veri esitlemesi baslatiliyor...
-%PYTHON_CMD% "%ROBOT_HOME%\src\web_site_esitleyici.py" --push --message "Canli veri otomatik guncellendi"
+echo Tek Robot + PRO 12.2 web site veri esitlemesi baslatiliyor...
+%PYTHON_CMD% "%ROBOT_HOME%\src\tek_robot_esitleyici.py" --push --message "Canli veri otomatik guncellendi"
 
 if errorlevel 1 (
     echo.
