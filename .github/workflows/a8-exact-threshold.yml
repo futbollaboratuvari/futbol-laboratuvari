@@ -1,0 +1,35 @@
+name: A8 Exact Threshold
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/a8-exact-threshold.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - shell: pwsh
+        run: |
+          $p = "scripts/robot-exact-scoring.js"
+          $t = Get-Content $p -Raw -Encoding UTF8
+          $t = $t.Replace('if (analysis.analysis_score < 50) return null;', 'if (analysis.analysis_score < 40) return null;')
+          Set-Content $p $t -Encoding UTF8
+          node --check $p
+      - shell: pwsh
+        run: |
+          git config user.name "futbollaboratuvari-bot"
+          git config user.email "actions@github.com"
+          git add scripts/robot-exact-scoring.js
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            git commit -m "A8 exact threshold 40"
+            git push
+          }
