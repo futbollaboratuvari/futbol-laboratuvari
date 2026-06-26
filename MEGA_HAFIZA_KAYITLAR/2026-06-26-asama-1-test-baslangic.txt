@@ -1,0 +1,33 @@
+2026-06-26 asama 1 test baslangic
+
+Futbol Laboratuvari robot test calismasi baslatildi.
+
+Kontrol edilen ana dosyalar:
+- MEGA_HAFIZA_KAYITLAR/2026-06-25-gunluk-kapanis-asama-1-6.txt
+- .github/workflows/stage-4-result-tracking.yml
+- .github/workflows/stage-6-learning-weights.yml
+- scripts/stage-1-bulletin-check.js
+- scripts/stage-2-analysis-check.js
+- scripts/stage-3-prediction-record-check.js
+- scripts/stage-4-result-tracking-check.js
+- scripts/stage-5-prediction-measurement-check.js
+- scripts/stage-6-learning-weights-check.js
+- scripts/robot-pipeline-status.js
+
+Ilk durum:
+- Stage 4 workflow, asama 1-6 zincirini sirali calistiriyor.
+- Stage 6 workflow, ogrenme agirligi kontrolunu calistiriyor.
+- outputs/robot-pipeline-status.md dosyasinda durum 5/6 gorunuyor.
+- Eksik halka: Asama 3 Tahmini kaydeder -> 0 hafiza kaydi.
+
+Ilk tespit:
+Asama 1 ve Asama 2 baglantisi mevcut.
+Asama 3 tarafinda tahmin kaydi olusmuyor.
+robot-analysis.json icinde coupon_candidate_count 0 gorunuyor.
+Bu nedenle learning-memory tarafina tahmin dusmuyor olabilir.
+
+Kod dosyalari degistirilmedi.
+Bu kayit test baslangic ve mega hafiza kaydidir.
+
+Sonraki hedef:
+Asama 3 tahmin kaydi zinciri parca parca incelenecek ve dosyalar kirilmadan baglanti mantigi duzeltilecek.
