@@ -1,0 +1,31 @@
+Tarih: 26.06.2026
+Saat: 08:45
+Baslik: Tek Robot Asama 2 - Eski kaynak linki
+
+Amac:
+Canli site cekirdegi yeni JSON dosyalarinda veri bulamazsa PC robotundan gelen eski veri dosyalarini da okuyabilsin.
+
+Yapilan:
+1. robot-pro122-legacy-link.js eklendi.
+2. Bu dosya canli-veri.json, analiz_sonuclari.json ve daily-coupons.json dosyalarini okur.
+3. robot-pro122-core bos mac donerse eski kaynaklardan bugunun maclarini normalize eder.
+4. Elde edilen maclari window.FL_ROBOT_PRO122_STATE icine yazar.
+5. premium-analysis-extra-markets.js guncellendi ve legacy link dosyasi yukleyiciye baglandi.
+
+Okunan eski kaynaklar:
+- data/canli-veri.json
+- data/analiz_sonuclari.json
+- data/daily-coupons.json
+
+Yeni ortak state:
+- window.FL_ROBOT_PRO122_STATE
+
+Commitler:
+- robot-pro122-legacy-link.js eklendi: f48cdc5fb9637f6579467ba382793c1ad6f173c6
+- premium-analysis-extra-markets.js legacy link ile guncellendi: 714b15fcbbec7a9703dc0831ec7178e8861c1b4b
+
+Son durum:
+Site once yeni Robot + PRO 12.2 JSON akisini dener. Yeni akista bugunun maci yoksa PC robotundan gelen eski canli veri dosyalarini yedek kaynak olarak ortak state icine baglar.
+
+Sonraki asama:
+premium-analysis-panel.js ozel analiz kararini dogrudan PRO 12.2 motoruna teslim edecek sekilde adapter yapilacak.
