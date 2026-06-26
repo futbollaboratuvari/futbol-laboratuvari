@@ -39,6 +39,7 @@
   const couponSelectors = ["[data-coupons-single]", "[data-coupons-double]", "[data-coupons-triple]"];
   const waitingText = "Bugün için uygun kupon adayı hazırlanıyor.";
   let candidateLoading = false;
+  let fallbackLoading = false;
 
   const injectLiveBlinkCss = () => {
     if (document.querySelector("#fl-live-text-style")) return;
@@ -109,6 +110,74 @@
     }
   };
 
+  const safe = (value) => String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+  const readJson = async (url, fallback) => {
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      return res.ok ? await res.json() : fallback;
+    } catch {
+      return fallback;
+    }
+  };
+  const num = (value) => Number(String(value || "").replace(",", ".").match(/\d+(\.\d+)?/)?.[0] || 0);
+  const odd = (value) => { const n = num(value); return n > 1 ? n : 0; };
+  const title = (item) => item.match_name || item.match || item.title || `${item.home || ""} VS ${item.away || ""}`.trim() || "Maç";
+  const market = (item) => item.recommended_market || item.suggested_option || item.market || item.prediction || "-";
+  const score = (item) => num(item.confidence_score || item.confidence || item.score || item.analysis_score);
+  const bestOdd = (item) => {
+    const direct = odd(item.estimated_odds || item.odds || item.suggested_odds);
+    if (direct) return direct;
+    const odds = item.available_odds || {};
+    return Math.max(odd(odds.ms1), odd(odds.msx), odd(odds.ms2), odd(odds.over25), odd(odds.bttsYes));
+  };
+  const blocked = (item) => /değerli market yok|degerli market yok|güncel maç değil|guncel mac degil|filtered_old/i.test(`${market(item)} ${item.status || ""}`);
+  const row = (label, value) => value === undefined || value === null || value === "" || value === "-" ? "" : `<div class="robot-row"><span>${safe(label)}</span><strong>${safe(value)}</strong></div>`;
+  const oddsBox = (item) => {
+    const odds = item.available_odds || {};
+    const guess = item.raw_market_guess_odds || {};
+    const html = [row("MS 1", odds.ms1), row("MS X", odds.msx), row("MS 2", odds.ms2), row("KG Var", odds.bttsYes || guess.bttsYes_guess), row("2.5 Üst", odds.over25 || guess.over25_guess), row("2.5 Alt", odds.under25 || guess.under25_guess)].filter(Boolean).join("");
+    return html ? `<div class="robot-detail-box"><h4>Oranlar</h4>${html}</div>` : "";
+  };
+  const fallbackCard = (name, legs, note) => {
+    if (!legs.length) return `<article class="robot-live-card"><p class="robot-note">${safe(waitingText)}</p></article>`;
+    const total = legs.reduce((acc, item) => acc * (bestOdd(item) || 1), 1).toFixed(2);
+    const avg = Math.round(legs.reduce((acc, item) => acc + score(item), 0) / legs.length);
+    return `<article class="robot-live-card"><span class="robot-pill">${safe(name)}</span><h3>${safe(name)}</h3><div class="robot-row"><span>Toplam Oran</span><strong>${safe(total)}</strong></div><div class="robot-row"><span>Güven Skoru</span><strong>${safe(avg + "%")}</strong></div><div class="robot-row"><span>Risk Seviyesi</span><strong>${safe(name.includes("Riskli") ? "Yüksek" : "Orta-Yüksek")}</strong></div><p class="robot-note">${safe(note)}</p>${legs.map((item) => `<div class="robot-row"><span>${safe(title(item))}</span><strong>${safe(market(item))} / ${safe(bestOdd(item) ? bestOdd(item).toFixed(2) : "-")}</strong></div>${oddsBox(item)}<p class="robot-note">${safe(item.robot_reason || item.robot_comment || item.commentary || "İzleme adayı; son karar kullanıcıya aittir.")}</p>`).join("")}</article>`;
+  };
+
+  const renderCouponFallback = async () => {
+    if (fallbackLoading) return;
+    fallbackLoading = true;
+    try {
+      const [live, history, daily] = await Promise.all([
+        readJson("./data/live-matches.json", { matches: [], active_items: [], counts: {} }),
+        readJson("./data/analiz_sonuclari.json", { active_items: [] }),
+        readJson("./data/daily-coupons.json", { coupons: {} })
+      ]);
+      const hasOfficial = Object.values(daily.coupons || {}).some((item) => item?.is_available);
+      const items = [...(live.matches || []), ...(live.active_items || []), ...(history.active_items || [])];
+      const candidates = items.filter((item) => item && !blocked(item) && score(item) >= 40).sort((a, b) => score(b) - score(a) || bestOdd(b) - bestOdd(a));
+      document.querySelectorAll("[data-match-count]").forEach((node) => { node.textContent = String(live.counts?.current_window || items.length || 0); });
+      document.querySelectorAll("[data-prediction-count]").forEach((node) => { node.textContent = String(live.counts?.coupon_candidates || live.counts?.watch_candidates || candidates.length || 0); });
+      document.querySelectorAll("[data-active-source]").forEach((node) => { node.textContent = live.source || history.source || daily.source || "Güncel maç akışı"; });
+      document.querySelectorAll("[data-load-status]").forEach((node) => { node.textContent = items.length ? "Güncel maç akışı aktif" : "Liste hazırlanıyor"; });
+      if (hasOfficial) return;
+      const high = candidates.filter((item) => bestOdd(item) >= 2.2);
+      const risk = candidates.filter((item) => /kg|üst|ilk yarı|ikinci yarı|3\.5/i.test(market(item)) || bestOdd(item) >= 2.5);
+      const fill = (selector, html) => document.querySelectorAll(selector).forEach((node) => { node.innerHTML = html; });
+      fill("[data-coupons-single]", fallbackCard("Dengeli İzleme Listesi", candidates.slice(0, 3), "Kesin kupon değil; analiz sisteminin izleme eşiğini geçen maçlar."));
+      fill("[data-coupons-double]", fallbackCard("Yüksek Oran İzleme Listesi", (high.length ? high : candidates).slice(0, 4), "Oranı öne çıkan ama henüz kesin kupon seviyesine çıkmayan adaylar."));
+      fill("[data-coupons-triple]", fallbackCard("Riskli Laboratuvar İzleme Listesi", (risk.length ? risk : candidates).slice(0, 3), "Yüksek oranlı ve riskli izleme adayları; son karar kullanıcıya aittir."));
+    } finally {
+      fallbackLoading = false;
+    }
+  };
+
   const isWaitingCard = (card) => /güncel veri henüz oluşmadı|uygun kupon adayı hazırlanıyor|güncel liste hazırlanıyor/i.test(card.textContent || "");
   const isRealCouponCard = (card) => /(Toplam Oran|Güven Skoru|Risk Seviyesi)/i.test(card.textContent || "") && !isWaitingCard(card);
 
@@ -138,7 +207,7 @@
     normalizeHeroStatus();
     normalizeHeroCandidate();
     normalizeLiveStatusText();
-    cleanupCouponCards();
+    renderCouponFallback().then(cleanupCouponCards);
   };
 
   run();
@@ -161,7 +230,7 @@
       normalizeHeroStatus();
       normalizeHeroCandidate();
       normalizeLiveStatusText();
-      cleanupCouponCards();
+      renderCouponFallback().then(cleanupCouponCards);
     });
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
   }
