@@ -1,28 +1,63 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-26T17:20:25.287722+00:00
+Tarih: 2026-06-26T21:52:50.989809+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: error
-- Kac mac bulundu: 24
+- Kac mac bulundu: 148
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 0
-- Hedef tarih: 26.06.2026 Europe/Istanbul
+- Hedef tarih: 27.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- Dünya Kupası 2026 Grup I
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Metropolitan Grubu
+- Avrupa U19 Şampiyonası Kadınlar Grup A
+- Avustralya NPL Batı Avustralya
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Güney Avustralya
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avustralya U20 NSW NPL 1
+- Belarus Premier Lig
+- Brezilya Serie B
+- Fas Botola 2
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Güney Kore K3 Ligi
+- Gürcistan Süper Kupa Yarı Final
 - Hazırlık Kulüpler
-- Kuveyt Premier Lig Küme Düşme Grubu
-- İrlanda 1.Lig
+- Kazakistan Premier Lig
+- Letonya 1.Lig
+- Litvanya 1.Lig
+- Moldova Ulusal Lig
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 6
+- Tanzanya Kuu Bara Ligi
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
+- İran Azadegan Ligi
 - İrlanda Premier Lig
 - İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
 - İsveç 2.Lig Vastra Götaland
+- İsveç Superettan
 - İzlanda 1.Lig
 - İzlanda 2.Lig
 
@@ -81,8 +116,8 @@ Tarih: 2026-06-26T17:20:25.287722+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 24
-- Acilan detay: 24
+- Denenen Tumu alani: 64
+- Acilan detay: 64
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -96,26 +131,26 @@ Tarih: 2026-06-26T17:20:25.287722+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.06.2026 | 22:00 | Dünya Kupası 2026 Grup I | Senegal | Irak | 17231 | 5 |
-| 26.06.2026 | 22:00 | Dünya Kupası 2026 Grup I | Norveç | Fransa | 17163 | 5 |
-| 26.06.2026 | 22:00 | İrlanda Premier Lig | Bohemian | St Patricks | 13629 | 5 |
-| 26.06.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Waterford | 13476 | 5 |
-| 26.06.2026 | 21:45 | İrlanda Premier Lig | Derry City | Drogheda | 13422 | 5 |
-| 26.06.2026 | 21:30 | İrlanda Premier Lig | Shamrock Rover | Galway United | 13283 | 5 |
-| 26.06.2026 | 18:00 | Hazırlık Kulüpler | Mtk | Kazincbarcika | 04198 | 3 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Kerry | Longford | 13530 | 5 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Athlone | Finn Harps | 13342 | 5 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Wexford Youths | Treaty Unt. | 13596 | 5 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Ucd | Cobh Ramblers | 13563 | 5 |
-| 26.06.2026 | 21:45 | İrlanda 1.Lig | Cork City | Bray Wanderers | 13382 | 5 |
-| 26.06.2026 | 20:45 | Kuveyt Premier Lig Küme Düşme Grubu | Al Nasar | Al-Jahra | 13777 | 5 |
-| 26.06.2026 | 20:45 | Kuveyt Premier Lig Küme Düşme Grubu | Al Tadhamon | Al Shabab | 02161 | 5 |
-| 26.06.2026 | 22:15 | İzlanda 1.Lig | Fylkir | Hk Kopavogur | 13835 | 3 |
-| 26.06.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Njardvik | 13818 | 5 |
-| 26.06.2026 | 22:15 | İzlanda 1.Lig | Grindavik | Aegir | 13852 | 3 |
-| 26.06.2026 | 22:15 | İzlanda 1.Lig | Leiknir Reykja | Ir Reykjavik | 13869 | 3 |
-| 26.06.2026 | 20:30 | İsveç 2.Lig Vastra Götaland | Dalstorps If | Lindome Gif | 11945 | 3 |
-| 26.06.2026 | 20:30 | İsveç 2.Lig Södra Götaland | Ifk Berga | Växjö Norra | 12115 | 5 |
+| 27.06.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Shelbourne | 13683 | 5 |
+| 27.06.2026 | 21:00 | Finlandiya Veikkausliiga | Oulu | Lahti | 11585 | 5 |
+| 27.06.2026 | 17:00 | Finlandiya Veikkausliiga | Mariehamn | Inter Turku | 11360 | 5 |
+| 27.06.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Kuopion | 11299 | 5 |
+| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Gnistan | Vaasa | 11432 | 5 |
+| 27.06.2026 | 14:00 | Finlandiya Veikkausliiga | Ilves | Seinajoen Jk | 11121 | 5 |
+| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Turku | Jaro | 11526 | 5 |
+| 27.06.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong | Tianjin Teda | 14567 | 5 |
+| 27.06.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Sheny | Shandong Taisha | 14200 | 5 |
+| 27.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye | Shanghai Port | 14391 | 5 |
+| 27.06.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan | Wuhan Three Tow | 14512 | 5 |
+| 27.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng | Chengdu Ron. | 14457 | 5 |
+| 27.06.2026 | 20:00 | Gürcistan Süper Kupa Yarı Final | Dila Gori | Torpedo Kutaisi | 05588 | 3 |
+| 27.06.2026 | 18:00 | Gürcistan Süper Kupa Yarı Final | Fc Iberia | Dinamo Tiflis | 05587 | 3 |
+| 27.06.2026 | - | Avrupa U19 Şampiyonası Kadınlar Grup A | 18:00 | - Almanya U19 (K) | - | 0 |
+| 27.06.2026 | 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | İsveç U19 (K) | Polonya U19 (K) | 00497 | 5 |
+| 27.06.2026 | 16:00 | İsveç Superettan | Varbergs | Oster | 12746 | 5 |
+| 27.06.2026 | 16:00 | İsveç Superettan | Ljungskile | Orebro | 12366 | 5 |
+| 27.06.2026 | 18:00 | İsveç Superettan | United Nordic | Oddevold | 13043 | 5 |
+| 27.06.2026 | 18:00 | İsveç Superettan | Sundsvall | Ostersund | 12988 | 5 |
 
 ## Sonuc
 
