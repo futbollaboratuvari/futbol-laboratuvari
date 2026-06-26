@@ -2,6 +2,12 @@ name: A8 MS Apply
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/a8-ms-apply.yml
+      - scripts/a8-ms-options-apply.js
 
 permissions:
   contents: write
