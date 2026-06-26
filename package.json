@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vercel dev",
     "start": "vercel dev",
-    "build": "vercel build",
+    "build": "node scripts/vercel-build.js",
     "update:fixtures": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/build-full-bulletin.js",
     "build:bulletin": "node scripts/build-full-bulletin.js",
     "enrich:metrics": "node scripts/enrich-fixture-metrics.js",
