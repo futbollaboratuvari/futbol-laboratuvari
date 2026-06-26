@@ -1,9 +1,16 @@
 (() => {
+  const INSTANCE_KEY = "__flDailyMatchesWidgetSingleton";
+  const previous = window[INSTANCE_KEY];
+  if (previous && typeof previous.cleanup === "function") previous.cleanup();
+
+  const runtime = { timer: null, clickHandler: null };
+  window[INSTANCE_KEY] = runtime;
+
   const WIDGET_ID = "daily-matches-widget";
   const SOURCES = [
-    { url: "./data/full-bulletin.json", type: "full-bulletin", label: "Tam iddaa bülteni" },
-    { url: "./data/live-matches.json", type: "live-matches", label: "Canlı maç akışı" },
-    { url: "./data/fixtures.json", type: "fixtures", label: "Fikstür akışı" }
+    { url: "./data/full-bulletin.json", label: "Tam iddaa bülteni" },
+    { url: "./data/live-matches.json", label: "Canlı maç akışı" },
+    { url: "./data/fixtures.json", label: "Fikstür akışı" }
   ];
 
   const esc = (value) => String(value ?? "")
@@ -38,7 +45,7 @@
     timeZone: "Europe/Istanbul",
     year: "numeric",
     month: "2-digit",
-    day: "2-digit",
+    day: "2-digit"
   }).format(new Date());
 
   const addDays = (dateKey, days) => {
@@ -107,7 +114,7 @@
     under25: pick(match, ["under25", "alt25", "under", "alt", "under25_guess", "alt_25"]),
     over25: pick(match, ["over25", "ust25", "over", "ust", "over25_guess", "ust_25"]),
     bttsYes: pick(match, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]),
-    bttsNo: pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"]),
+    bttsNo: pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"])
   });
 
   const detailOdds = (match) => {
@@ -148,7 +155,9 @@
   };
 
   const ensureWidget = () => {
-    let widget = document.querySelector(`#${WIDGET_ID}`);
+    const duplicates = [...document.querySelectorAll(`#${WIDGET_ID}`)];
+    duplicates.slice(1).forEach((item) => item.remove());
+    let widget = duplicates[0];
     if (!widget) {
       widget = document.createElement("section");
       widget.id = WIDGET_ID;
@@ -198,6 +207,8 @@
     const date = widget.querySelector("[data-daily-widget-date]");
     const bulletinMatches = matches.map(normalize).filter((match) => match.date && match.time && inBulletinWindow(match)).sort(compareByDateTime);
     window.__dailyMatchesData = bulletinMatches;
+    widget.dataset.bulletinSource = sourceLabel;
+    widget.dataset.bulletinCount = String(bulletinMatches.length);
     if (date) date.textContent = `${formatDate(todayKey())} programı · ${sourceLabel}`;
     if (count) count.textContent = `${bulletinMatches.length} maç`;
     if (!bulletinMatches.length) {
@@ -232,7 +243,7 @@
     document.querySelectorAll(".daily-extra").forEach((item) => item.remove());
   };
 
-  document.addEventListener("click", (event) => {
+  const handleClick = (event) => {
     const button = event.target.closest?.("[data-detail-index]");
     if (!button) return;
     event.preventDefault();
@@ -251,10 +262,21 @@
     extra.className = "daily-extra open";
     extra.innerHTML = `<strong class="daily-extra-title">Detaylı Oranlar</strong>${detailOdds(match)}`;
     row.after(extra);
-  }, true);
+  };
 
-  window.addEventListener("load", () => {
+  const start = () => {
     load();
-    setInterval(load, 5 * 60 * 1000);
-  });
+    if (runtime.timer) clearInterval(runtime.timer);
+    runtime.timer = setInterval(load, 5 * 60 * 1000);
+  };
+
+  runtime.clickHandler = handleClick;
+  runtime.cleanup = () => {
+    if (runtime.timer) clearInterval(runtime.timer);
+    if (runtime.clickHandler) document.removeEventListener("click", runtime.clickHandler, true);
+  };
+
+  document.addEventListener("click", handleClick, true);
+  if (document.readyState === "complete" || document.readyState === "interactive") start();
+  else window.addEventListener("load", start, { once: true });
 })();
