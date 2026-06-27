@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260627-pro122-market-v2";
+  const version = "20260627-video-market-addons-v1";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -48,43 +48,23 @@
     ["Maç Sonucu 1", ["ms1", "one", "oneOdd", "odd1", "ms_1"]],
     ["Maç Sonucu X", ["msx", "draw", "drawOdd", "oddX", "x", "ms_x"]],
     ["Maç Sonucu 2", ["ms2", "two", "twoOdd", "odd2", "ms_2"]],
-    ["1.5 Alt", ["under15", "alt15", "under1_5", "alt_15"]],
-    ["1.5 Üst", ["over15", "ust15", "over1_5", "ust_15"]],
     ["2.5 Alt", ["under25", "alt25", "under", "alt", "under25_guess", "alt_25"]],
     ["2.5 Üst", ["over25", "ust25", "over", "ust", "over25_guess", "ust_25"]],
     ["3.5 Alt", ["under35", "alt35", "under3_5", "alt_35"]],
     ["3.5 Üst", ["over35", "ust35", "over3_5", "ust_35"]],
-    ["4.5 Alt", ["under45", "alt45", "under4_5", "alt_45"]],
-    ["4.5 Üst", ["over45", "ust45", "over4_5", "ust_45"]],
     ["KG Var", ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]],
     ["KG Yok", ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"]],
     ["İlk Yarı KG Var", ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"]],
-    ["İkinci Yarı KG Var", ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"]],
-    ["İY/MS 1/1", ["htFt11", "iyMs11", "halfFull11"]],
-    ["İY/MS X/1", ["htFtX1", "iyMsX1", "halfFullX1"]],
-    ["İY/MS 2/2", ["htFt22", "iyMs22", "halfFull22"]],
-    ["MS 1 + 2.5 Üst", ["homeWinOver25", "ms1Over25"]],
-    ["MS X + 2.5 Üst", ["drawOver25", "msxOver25"]],
-    ["MS 2 + 2.5 Üst", ["awayWinOver25", "ms2Over25"]],
-    ["MS 1 + KG Var", ["homeWinBtts", "ms1KgVar"]],
-    ["MS X + KG Var", ["drawBtts", "msxKgVar"]],
-    ["MS 2 + KG Var", ["awayWinBtts", "ms2KgVar"]],
-    ["0-1 Gol", ["goals01", "goalRange01"]],
-    ["2-3 Gol", ["goals23", "goalRange23"]],
-    ["4-5 Gol", ["goals45", "goalRange45", "goals46", "goalRange46"]],
-    ["6+ Gol", ["goals6plus", "goalRange6plus"]],
-    ["En Çok Gol 1. Yarı", ["mostGoalsFirstHalf", "firstHalfMostGoals"]],
-    ["En Çok Gol 2. Yarı", ["mostGoalsSecondHalf", "secondHalfMostGoals"]],
-    ["Tek", ["totalOdd", "tek"]],
-    ["Çift", ["totalEven", "cift"]],
-    ["Korner 8.5 Üst", ["cornerOver85", "cornersOver85"]],
-    ["Korner 9.5 Üst", ["cornerOver95", "cornersOver95"]],
-    ["Kart 3.5 Üst", ["cardOver35", "cardsOver35"]],
-    ["Kart 4.5 Üst", ["cardOver45", "cardsOver45"]],
-    ["Takım Şut Ev 10+", ["homeShots10", "homeTeamShots10"]],
-    ["Takım Şut Dep 10+", ["awayShots10", "awayTeamShots10"]],
-    ["Toplam Şut 21+", ["totalShots21", "shots21Plus"]]
+    ["İkinci Yarı KG Var", ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"]]
   ];
+
+  const addDef = (label, keys) => marketDefinitions.push([label, keys]);
+  ["HND 1:hnd1,handicap1", "HND X:hndX,handicapX", "HND 2:hnd2,handicap2", "HND 0-1:hnd01,handicap0_1", "HND 1-0:hnd10,handicap1_0", "HND 2-0:hnd20,handicap2_0", "HND 0-2:hnd02,handicap0_2"].forEach((x) => { const [l, k] = x.split(":"); addDef(l, k.split(",")); });
+  ["0.5", "1.5", "4.5"].forEach((line) => { const k = line.replace(".", ""); addDef(`${line} Alt`, [`under${k}`, `alt${k}`]); addDef(`${line} Üst`, [`over${k}`, `ust${k}`]); });
+  ["1/1", "1/X", "1/2", "X/1", "X/X", "X/2", "2/1", "2/X", "2/2"].forEach((x) => addDef(`İY/MS ${x}`, [`htFt${x.replace("/", "")}`, `iyMs${x.replace("/", "")}`]));
+  ["1.5", "2.5", "3.5", "4.5"].forEach((line) => ["1", "X", "2"].forEach((r) => { const p = r === "1" ? "homeWin" : r === "2" ? "awayWin" : "draw"; const m = `ms${r.toLowerCase()}`; const k = line.replace(".", ""); addDef(`MS ${r} + ${line} Alt`, [`${m}Under${k}`, `${p}Under${k}`]); addDef(`MS ${r} + ${line} Üst`, [`${m}Over${k}`, `${p}Over${k}`]); }));
+  ["1", "X", "2"].forEach((r) => { const p = r === "1" ? "homeWin" : r === "2" ? "awayWin" : "draw"; const m = `ms${r.toLowerCase()}`; addDef(`MS ${r} + KG Var`, [`${p}Btts`, `${m}KgVar`]); addDef(`MS ${r} + KG Yok`, [`${p}BttsNo`, `${m}KgYok`]); });
+  ["0-1 Gol:goals01,goalRange01", "2-3 Gol:goals23,goalRange23", "4-5 Gol:goals45,goalRange45", "6+ Gol:goals6plus,goalRange6plus", "İlk Yarı / Maç Skoru:halfTimeFullScore,iyMacSkoru", "1. Yarı Skoru:firstHalfScore,iySkoru", "Doğru Skor 1-0:correctScore10,score10", "Doğru Skor 2-0:correctScore20,score20", "Doğru Skor 2-1:correctScore21,score21", "Doğru Skor 0-0:correctScore00,score00", "Doğru Skor 1-1:correctScore11,score11", "Doğru Skor 2-2:correctScore22,score22", "Doğru Skor 0-1:correctScore01,score01", "Doğru Skor 0-2:correctScore02,score02", "Doğru Skor 1-2:correctScore12,score12", "Doğru Skor Diğer:correctScoreOther,scoreOther", "1Y/2Y KG Evet/Evet:firstSecondBttsYesYes", "1Y/2Y KG Evet/Hayır:firstSecondBttsYesNo", "1Y/2Y KG Hayır/Evet:firstSecondBttsNoYes", "1Y/2Y KG Hayır/Hayır:firstSecondBttsNoNo", "En Çok Gol 1. Yarı:mostGoalsFirstHalf", "En Çok Gol 2. Yarı:mostGoalsSecondHalf", "En Çok Gol Eşit:mostGoalsEqual", "Tek:totalOdd,tek", "Çift:totalEven,cift", "Korner 8.5 Üst:cornerOver85,cornersOver85", "Korner 9.5 Üst:cornerOver95,cornersOver95", "Kart 3.5 Üst:cardOver35,cardsOver35", "Kart 4.5 Üst:cardOver45,cardsOver45", "Takım Şut Ev 10+:homeShots10,homeTeamShots10", "Takım Şut Dep 10+:awayShots10,awayTeamShots10", "Toplam Şut 21+:totalShots21,shots21Plus"].forEach((x) => { const [l, k] = x.split(":"); addDef(l, k.split(",")); });
 
   const addMarket = (list, seen, label, value) => {
     if (isEmpty(value)) return;
