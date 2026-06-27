@@ -147,7 +147,7 @@ const weightFromRate = (hits, samples) => {
   return Math.max(-12, Math.min(12, Math.round(((hits / samples) - 0.5) * 24)));
 };
 
-const trainModelWeights = (matches, nowIso) => {
+const trainModelWeights = (matches, nowIso, couponFeedback = null) => {
   const stats = {};
   matches.forEach((match) => {
     if (normalizeStatus(match.status) !== "finished") return;
@@ -172,9 +172,10 @@ const trainModelWeights = (matches, nowIso) => {
   return {
     version: "pro12.2-archive-weights-v1",
     generated_at: nowIso,
-    training_source: "robot_match_archive.json finished scores",
-    minimum_note: "Skor sonucu olan biten maclardan market agirliklari uretir; bu nöral model degil, kural tabanli adaptif agirliktir.",
-    markets
+    training_source: "robot_match_archive.json finished scores + coupon_feedback_model",
+    minimum_note: "Skor sonucu olan biten maclardan market agirliklari uretir; Kuponum geri bildirimi merkezi ilgi sinyali olarak korunur.",
+    markets,
+    coupon_feedback: couponFeedback || { version: "coupon-feedback-v1", markets: {}, total_events: 0 }
   };
 };
 
@@ -182,7 +183,7 @@ const sortByDateTime = (a, b) => String(a.date || "").localeCompare(String(b.dat
 
 const main = () => {
   const fixtures = readJson(fixturesPath, []);
-  const archive = readJson(archivePath, { generated_at: null, timezone: "Europe/Istanbul", visibility: "robot_internal_not_shown_on_site", description: "Robotun analiz icin kullandigi kalici mac arsivi. Site ziyaretcisine gosterilmez.", matches: [], team_index: {}, model_weights: {} });
+  const archive = readJson(archivePath, { generated_at: null, timezone: "Europe/Istanbul", visibility: "robot_internal_not_shown_on_site", description: "Robotun analiz icin kullandigi kalici mac arsivi. Site ziyaretcisine gosterilmez.", matches: [], team_index: {}, model_weights: {}, coupon_learning_events: [], coupon_feedback_model: null });
   const now = istanbulNow();
   const nowIso = new Date().toISOString();
   const map = new Map((archive.matches || []).map((match) => [keyOf(match), match]));
@@ -199,10 +200,12 @@ const main = () => {
   archive.generated_at = nowIso;
   archive.matches = matches;
   archive.team_index = rebuildTeamIndex(matches);
-  archive.model_weights = trainModelWeights(matches, nowIso);
+  archive.coupon_learning_events = Array.isArray(archive.coupon_learning_events) ? archive.coupon_learning_events.slice(-500) : [];
+  archive.coupon_feedback_model = archive.coupon_feedback_model || archive.model_weights?.coupon_feedback || { version: "coupon-feedback-v1", markets: {}, total_events: 0 };
+  archive.model_weights = trainModelWeights(matches, nowIso, archive.coupon_feedback_model);
   writeJson(archivePath, archive);
   writeJson(fixturesPath, activeFixtures.sort(sortByDateTime));
-  console.log(`Robot mac arsivi guncellendi. Arsiv: ${matches.length}, aktif bulten: ${activeFixtures.length}, agirlik marketi: ${Object.keys(archive.model_weights.markets || {}).length}`);
+  console.log(`Robot mac arsivi guncellendi. Arsiv: ${matches.length}, aktif bulten: ${activeFixtures.length}, agirlik marketi: ${Object.keys(archive.model_weights.markets || {}).length}, kupon ogrenme: ${archive.coupon_feedback_model.total_events || 0}`);
 };
 
 main();
