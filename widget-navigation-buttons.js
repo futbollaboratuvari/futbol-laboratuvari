@@ -22,6 +22,15 @@
     document.head.appendChild(style);
   };
 
+  const loadLearningBridge = () => {
+    if (document.getElementById("coupon-learning-bridge-script")) return;
+    const script = document.createElement("script");
+    script.id = "coupon-learning-bridge-script";
+    script.src = `coupon-learning-bridge.js?v=${Date.now()}`;
+    script.async = false;
+    document.body.appendChild(script);
+  };
+
   const buttonHtml = (buttons) => `
     <div class="${BLOCK_CLASS}" aria-label="Hızlı geçiş butonları">
       ${buttons.map((button) => `<a href="${esc(button.href)}">${esc(button.label)}</a>`).join("")}
@@ -40,6 +49,7 @@
 
   const run = () => {
     injectStyle();
+    loadLearningBridge();
     addInside(document.querySelector(".platform-summary"), "fl-hero-widget-buttons", [
       { href: "#robot-analizleri", label: "Kupon Merkezine Git" },
       { href: "#son-analizler", label: "Maç Yorumlarına Git" },
