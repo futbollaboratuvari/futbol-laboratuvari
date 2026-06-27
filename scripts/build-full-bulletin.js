@@ -347,28 +347,29 @@ const buildBulletin = async () => {
   }
 
   const local = localSources();
-  const matches = uniqueAndSort([...local, ...external]);
+  const allMatches = uniqueAndSort([...local, ...external]);
+  const liveMatches = allMatches.filter((item) => item.status === "live" || item.liveStatus === "live");
+  const finishedMatches = allMatches.filter((item) => item.status === "finished");
+  const matches = allMatches.filter((item) => item.status === "scheduled");
   const mainDay = todayTR();
   const nextDay = addDays(mainDay, 1);
-  const liveCount = matches.filter((item) => item.status === "live").length;
-  const scheduledCount = matches.filter((item) => item.status === "scheduled").length;
-  const finishedCount = matches.filter((item) => item.status === "finished").length;
   return {
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
-    source: matches.length ? source : "Tam bulten verisi bekleniyor",
-    status: matches.length ? "active" : "waiting",
-    message: matches.length ? "" : "Tam iddaa bulteni icin guncel mac verisi henuz olusmadi.",
+    source: allMatches.length ? source : "Tam bulten verisi bekleniyor",
+    status: allMatches.length ? "active" : "waiting",
+    message: allMatches.length ? "" : "Tam iddaa bulteni icin guncel mac verisi henuz olusmadi.",
     date_window: {
       main_day: mainDay,
       includes_next_day_until: `${nextDay} 08:00`,
     },
     match_count: matches.length,
-    live_count: liveCount,
-    scheduled_count: scheduledCount,
-    finished_count: finishedCount,
+    live_count: liveMatches.length,
+    scheduled_count: matches.length,
+    finished_count: finishedMatches.length,
     wide_market_odds_count: matches.reduce((sum, item) => sum + Object.keys(item.available_odds || {}).length, 0),
     matches,
+    live_matches: liveMatches,
   };
 };
 
@@ -376,7 +377,7 @@ const main = async () => {
   ensureDir();
   const bulletin = await buildBulletin();
   writeJson(outputPath, bulletin);
-  console.log(`Tam bulten olusturuldu. Mac: ${bulletin.match_count}. Canli: ${bulletin.live_count}. Genis oran: ${bulletin.wide_market_odds_count}.`);
+  console.log(`Tam bulten olusturuldu. Bulten: ${bulletin.match_count}. Canli ayrilan: ${bulletin.live_count}. Genis oran: ${bulletin.wide_market_odds_count}.`);
 };
 
 if (require.main === module) {
