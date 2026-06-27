@@ -1,12 +1,20 @@
 (() => {
+  const ms = ["1", "X", "2"];
+  const lines = ["1.5", "2.5", "3.5", "4.5"];
+  const hnd = ["HND 1", "HND X", "HND 2", "HND 0-1", "HND 1-0", "HND 2-0", "HND 0-2"];
+  const htft = ["1/1", "1/X", "1/2", "X/1", "X/X", "X/2", "2/1", "2/X", "2/2"].map((x) => `IY/MS ${x}`);
+  const msGoal = lines.flatMap((line) => ms.flatMap((r) => [`MS ${r} + ${line} Alt`, `MS ${r} + ${line} Ust`]));
+  const msKg = ms.flatMap((r) => [`MS ${r} + KG Var`, `MS ${r} + KG Yok`]);
+  const scores = ["1-0", "2-0", "2-1", "0-0", "1-1", "2-2", "0-1", "0-2", "1-2", "Diger"].map((x) => `Dogru Skor ${x}`);
   const MARKETS = [
-    "1.5 Ust", "1.5 Alt", "3.5 Ust", "3.5 Alt", "4.5 Ust", "4.5 Alt",
-    "IY/MS 1/1", "IY/MS X/1", "IY/MS 2/2", "IY/MS X/X",
-    "MS 1 + 2.5 Ust", "MS X + 2.5 Ust", "MS 2 + 2.5 Ust",
-    "MS 1 + 2.5 Alt", "MS X + 2.5 Alt", "MS 2 + 2.5 Alt",
-    "MS 1 + KG Var", "MS X + KG Var", "MS 2 + KG Var",
-    "MS 1 + KG Yok", "MS X + KG Yok", "MS 2 + KG Yok",
+    ...hnd,
+    ...htft,
+    ...msGoal,
+    ...msKg,
+    "0.5 Ust", "0.5 Alt", "1.5 Ust", "1.5 Alt", "3.5 Ust", "3.5 Alt", "4.5 Ust", "4.5 Alt",
     "0-1 Gol", "2-3 Gol", "4-5 Gol", "6+ Gol",
+    "Ilk Yari / Mac Skoru", "1. Yari Skoru", ...scores,
+    "1Y/2Y KG Evet/Evet", "1Y/2Y KG Evet/Hayir", "1Y/2Y KG Hayir/Evet", "1Y/2Y KG Hayir/Hayir",
     "En Cok Gol 1. Yari", "En Cok Gol 2. Yari", "En Cok Gol Esit",
     "Toplam Tek", "Toplam Cift",
     "Korner 8.5 Ust", "Korner 9.5 Ust", "Korner Handikap 1", "Korner Handikap 2",
@@ -32,7 +40,7 @@
     if (document.getElementById(id)) return;
     const script = document.createElement("script");
     script.id = id;
-    script.src = `${src}?v=20260627-wide-market-v2`;
+    script.src = `${src}?v=20260627-full-market-v3`;
     script.async = false;
     document.body.appendChild(script);
   }
