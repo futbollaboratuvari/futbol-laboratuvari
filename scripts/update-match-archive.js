@@ -47,11 +47,7 @@ const istanbulNow = () => {
     acc[item.type] = item.value;
     return acc;
   }, {});
-
-  return {
-    date: `${parts.year}-${parts.month}-${parts.day}`,
-    minutes: Number(parts.hour) * 60 + Number(parts.minute)
-  };
+  return { date: `${parts.year}-${parts.month}-${parts.day}`, minutes: Number(parts.hour) * 60 + Number(parts.minute) };
 };
 
 const timeToMinutes = (time) => {
@@ -67,12 +63,10 @@ const shouldArchive = (match, now = istanbulNow()) => {
   const status = normalizeStatus(match.status || match.match_status || match.status_short || match.state);
   if (["finished", "cancelled"].includes(status)) return true;
   if (status === "live") return false;
-
   const date = String(match.date || "").slice(0, 10);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return false;
   if (date < now.date) return true;
   if (date > now.date) return false;
-
   const kickoff = timeToMinutes(match.time || match.kickoff || match.match_time);
   if (kickoff === null) return false;
   return now.minutes >= kickoff + FINISHED_AFTER_MINUTES;
@@ -101,19 +95,7 @@ const parseScore = (match) => {
 
 const addTeam = (index, name) => {
   if (!name) return;
-  if (!index[name]) {
-    index[name] = {
-      team: name,
-      matches: 0,
-      finished: 0,
-      wins: 0,
-      draws: 0,
-      losses: 0,
-      goals_for: 0,
-      goals_against: 0,
-      recent: []
-    };
-  }
+  if (!index[name]) index[name] = { team: name, matches: 0, finished: 0, wins: 0, draws: 0, losses: 0, goals_for: 0, goals_against: 0, recent: [] };
 };
 
 const updateTeamStats = (index, match) => {
@@ -126,20 +108,17 @@ const updateTeamStats = (index, match) => {
   away.matches += 1;
   const score = parseScore(match);
   if (normalizeStatus(match.status) !== "finished" || !score) return;
-
   home.finished += 1;
   away.finished += 1;
   home.goals_for += score.home;
   home.goals_against += score.away;
   away.goals_for += score.away;
   away.goals_against += score.home;
-
   let homeResult = "D";
   let awayResult = "D";
   if (score.home > score.away) { home.wins += 1; away.losses += 1; homeResult = "W"; awayResult = "L"; }
   else if (score.home < score.away) { away.wins += 1; home.losses += 1; homeResult = "L"; awayResult = "W"; }
   else { home.draws += 1; away.draws += 1; }
-
   home.recent.push({ date: match.date, opponent: match.away, result: homeResult, score: `${score.home}-${score.away}` });
   away.recent.push({ date: match.date, opponent: match.home, result: awayResult, score: `${score.away}-${score.home}` });
   home.recent = home.recent.slice(-10);
@@ -152,45 +131,78 @@ const rebuildTeamIndex = (matches) => {
   return index;
 };
 
+const marketResults = (score) => ({
+  ms1: score.home > score.away,
+  msx: score.home === score.away,
+  ms2: score.away > score.home,
+  kgVar: score.home > 0 && score.away > 0,
+  kgYok: !(score.home > 0 && score.away > 0),
+  over25: score.home + score.away >= 3,
+  under25: score.home + score.away < 3,
+  over35: score.home + score.away >= 4
+});
+
+const weightFromRate = (hits, samples) => {
+  if (!samples) return 0;
+  return Math.max(-12, Math.min(12, Math.round(((hits / samples) - 0.5) * 24)));
+};
+
+const trainModelWeights = (matches, nowIso) => {
+  const stats = {};
+  matches.forEach((match) => {
+    if (normalizeStatus(match.status) !== "finished") return;
+    const score = parseScore(match);
+    if (!score) return;
+    const outcomes = marketResults(score);
+    Object.entries(outcomes).forEach(([key, won]) => {
+      stats[key] = stats[key] || { samples: 0, hits: 0 };
+      stats[key].samples += 1;
+      if (won) stats[key].hits += 1;
+    });
+  });
+  const markets = {};
+  Object.entries(stats).forEach(([key, row]) => {
+    markets[key] = {
+      samples: row.samples,
+      hits: row.hits,
+      hit_rate: row.samples ? Number((row.hits / row.samples).toFixed(3)) : 0,
+      weight: weightFromRate(row.hits, row.samples)
+    };
+  });
+  return {
+    version: "pro12.2-archive-weights-v1",
+    generated_at: nowIso,
+    training_source: "robot_match_archive.json finished scores",
+    minimum_note: "Skor sonucu olan biten maclardan market agirliklari uretir; bu nöral model degil, kural tabanli adaptif agirliktir.",
+    markets
+  };
+};
+
 const sortByDateTime = (a, b) => String(a.date || "").localeCompare(String(b.date || "")) || String(a.time || "").localeCompare(String(b.time || ""));
 
 const main = () => {
   const fixtures = readJson(fixturesPath, []);
-  const archive = readJson(archivePath, {
-    generated_at: null,
-    timezone: "Europe/Istanbul",
-    visibility: "robot_internal_not_shown_on_site",
-    description: "Robotun analiz icin kullandigi kalici mac arsivi. Site ziyaretcisine gosterilmez.",
-    matches: [],
-    team_index: {}
-  });
-
+  const archive = readJson(archivePath, { generated_at: null, timezone: "Europe/Istanbul", visibility: "robot_internal_not_shown_on_site", description: "Robotun analiz icin kullandigi kalici mac arsivi. Site ziyaretcisine gosterilmez.", matches: [], team_index: {}, model_weights: {} });
   const now = istanbulNow();
   const nowIso = new Date().toISOString();
   const map = new Map((archive.matches || []).map((match) => [keyOf(match), match]));
   const activeFixtures = [];
-
   fixtures.forEach((match) => {
     if (shouldArchive(match, now)) {
       const key = keyOf(match);
       map.set(key, archiveMatch(match, map.get(key) || {}, nowIso));
       return;
     }
-
-    activeFixtures.push({
-      ...match,
-      status: normalizeStatus(match.status || match.match_status || match.status_short || match.state)
-    });
+    activeFixtures.push({ ...match, status: normalizeStatus(match.status || match.match_status || match.status_short || match.state) });
   });
-
   const matches = [...map.values()].sort(sortByDateTime);
   archive.generated_at = nowIso;
   archive.matches = matches;
   archive.team_index = rebuildTeamIndex(matches);
-
+  archive.model_weights = trainModelWeights(matches, nowIso);
   writeJson(archivePath, archive);
   writeJson(fixturesPath, activeFixtures.sort(sortByDateTime));
-  console.log(`Robot mac arsivi guncellendi. Arsiv: ${matches.length}, aktif bulten: ${activeFixtures.length}`);
+  console.log(`Robot mac arsivi guncellendi. Arsiv: ${matches.length}, aktif bulten: ${activeFixtures.length}, agirlik marketi: ${Object.keys(archive.model_weights.markets || {}).length}`);
 };
 
 main();
