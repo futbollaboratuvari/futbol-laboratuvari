@@ -17,6 +17,12 @@ When the trigger phrase appears:
 7. Do not edit files.
 8. Give a status report first.
 
+Memory save phrase:
+
+sohbeti hafizaya kaydet.
+
+When this phrase appears: summarize the chat and update SESSION_LOG.md.
+
 Work rules:
 
 - If the user only asks a question, do not edit files.
