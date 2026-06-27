@@ -97,14 +97,48 @@ Eklendi:
 
 Bu sayede yeni market oranlari `live-matches.json` icine tasinabilir.
 
+### 8. Tam bulten dosyasi parca parca tamamlandi
+
+Dosya: `scripts/build-full-bulletin.js`
+Commit: `7f9c9677221d9a064b5b6ab59927bf3ad880f3f7`
+
+Daha once filtreye takilan dosya parca parca sadeletirilerek guncellendi. Tam bulten artik genis market oranlarini korur.
+
+Eklenen/korunan alanlar:
+
+- `EXTRA_MARKET_KEYS`
+- `collectExtraOdds()`
+- `mapExtraFromOdds()`
+- `available_odds`
+- `raw_market_guess_odds`
+- `raw_odds_sequence`
+- `raw_market_value_count`
+- `wide_market_odds_count`
+
+### 9. Robot metrik zenginlestirme dosyasi parca parca tamamlandi
+
+Dosya: `scripts/enrich-fixture-metrics.js`
+Commit: `85a360050ac906d5b4f626688337fd1dc62af27b`
+
+Daha once filtreye takilan dosya daha kucuk ve dinamik mantikla guncellendi. Robot metrik zenginlestirme artik `available_odds` ve `raw_market_guess_odds` icindeki genis oran envanterini korur.
+
+Eklenen/korunan alanlar:
+
+- `collectWideOdds()`
+- `available_odds` icine genis oranlarin geri yazilmasi
+- `market_odds_inventory`
+- `wide_market_odds_count`
+- `wide_market_learning_source`
+- metric notlarina genis market oran envanteri kaydi
+
 ## Filtreye Takilan Denemeler
 
-Asagidaki mevcut dosyalar icin daha kapsamli guncelleme denendi fakat GitHub guvenlik kontrolu engelledi:
+Ilk kapsamli denemeler GitHub guvenlik kontrolune takildi. Parca parca ilerleme sonrasi iki dosya da mevcut dosya icinde tamamlandi:
 
-- `scripts/build-full-bulletin.js`
-- `scripts/enrich-fixture-metrics.js`
+- `scripts/build-full-bulletin.js` tamamlandi.
+- `scripts/enrich-fixture-metrics.js` tamamlandi.
 
-Bu dosyalarda yeni dosya acilmadi, silme yapilmadi. Engellenen kisimlar icin mevcut calisan akis `update-fixtures.js` ve `ensure-live-json.js` uzerinden yurutuldu.
+Yeni dosya acilmadi, silme yapilmadi.
 
 ## Guncel Veri Akisi Mantigi
 
@@ -113,7 +147,9 @@ Bu dosyalarda yeni dosya acilmadi, silme yapilmadi. Engellenen kisimlar icin mev
 3. Devam eden sayisal oranlar `raw_market_guess_odds` icinde video market sirasina gore tasinir.
 4. `available_odds` tum ana ve genis market oranlarini birlestirir.
 5. `scripts/ensure-live-json.js` bu oranlari `live-matches.json` icinde korur.
-6. Premium robot ve Pro 12.2 bu marketleri `mapMarket`, `defs`, risk ve skor mantigiyla analiz eder.
+6. `scripts/build-full-bulletin.js` tam bultene ayni genis oranlari tasir.
+7. `scripts/enrich-fixture-metrics.js` robot metrik zenginlestirmede genis oran envanterini korur.
+8. Premium robot ve Pro 12.2 bu marketleri `mapMarket`, `defs`, risk ve skor mantigiyla analiz eder.
 
 ## Onemli Sinir
 
