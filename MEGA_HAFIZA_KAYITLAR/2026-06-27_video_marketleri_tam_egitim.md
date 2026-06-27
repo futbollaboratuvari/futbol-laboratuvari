@@ -1,10 +1,22 @@
 # 2026-06-27 Video Marketleri Tam Egitim + Veri Akisi
 
-Bu tek mega hafiza dosyasi video marketleri, veri akisi, robot egitimi ve detay market secimi calismasini bir arada tutar.
+Bu tek mega hafiza dosyasi video marketleri, veri akisi, robot egitimi, detay market secimi ve Mackolik detay tiklama robotu calismasini bir arada tutar.
 
 ## Market Kapsami
 
 HND, IY/MS, MS+Alt/Ust, MS+KG, 0.5/1.5/3.5/4.5 Alt-Ust, gol araliklari, ilk yari/mac skoru, dogru skor, 1Y/2Y KG, tek/cift, korner, kart ve takim sut marketleri sisteme dahil edildi.
+
+## Video Tespiti
+
+Kullanici tarafindan gonderilen Mackolik videosunda satir sagindaki ok/detay alanina tiklaninca satir altinda market bloklari aciliyor. Gorunen blok mantigi:
+
+- MAC SONUCU
+- CIFTE SANS
+- 2,5 ALT/UST
+- 1. YARI 1,5 ALT/UST
+- Devam eden detay market bloklari
+
+Bu davranis veri toplama robotuna mevcut dosyalar icinde eklendi.
 
 ## Tamamlanan Dosyalar ve Commitler
 
@@ -32,26 +44,33 @@ HND, IY/MS, MS+Alt/Ust, MS+KG, 0.5/1.5/3.5/4.5 Alt-Ust, gol araliklari, ilk yari
    - Detay temizleme filtresi HND, skor, dogru skor gibi yeni gruplari silmeyecek hale getirildi.
 
 6. `scripts/update-fixtures.js`
-   - Commit: `85ed98d3eb92a0ec5e9b131212e11cbaf9a8ed85`
+   - Ilk genis market commit: `85ed98d3eb92a0ec5e9b131212e11cbaf9a8ed85`
+   - Mackolik detay tiklama commit: `2a5ea0da961acba6df536aaa5637d6fac07ce881`
    - Mackolik satirindaki ana oranlardan sonra gelen ek sayisal oranlar genis market sirasina tasinir.
-   - `raw_odds_sequence`, `raw_market_guess_odds`, `raw_market_labels`, `available_odds`, `raw_market_value_count` alanlari korunur.
+   - Playwright varsa tarayici robotu Mackolik sayfasinda satir detaylarini video mantigiyla acmayi dener.
+   - Detay acildiginda market bloklari `raw_market_blocks` icine, eslesen oranlar `available_odds` ve `raw_market_guess_odds` icine yazilir.
+   - Tarayici robotu calisamazsa statik parser bozulmadan devam eder.
 
-7. `scripts/ensure-live-json.js`
+7. `package.json`
+   - Commit: `3388d91c154223fdf998bbdf1ec3dced04784cc1`
+   - Veri robotunun tarayici detay acma modunu kullanabilmesi icin `playwright` bagimliligi eklendi.
+
+8. `scripts/ensure-live-json.js`
    - Commit: `01e2cb80632e20d9a3b85a6e99c306be6418a098`
    - Canli veri JSON akisi genis market oran envanterini korur.
 
-8. `scripts/build-full-bulletin.js`
+9. `scripts/build-full-bulletin.js`
    - Commit: `7f9c9677221d9a064b5b6ab59927bf3ad880f3f7`
    - Tam bulten genis market oranlarini korur.
 
-9. `scripts/enrich-fixture-metrics.js`
+10. `scripts/enrich-fixture-metrics.js`
    - Commit: `85a360050ac906d5b4f626688337fd1dc62af27b`
    - Robot metrik zenginlestirme genis oran envanterini ogrenme verisine ekler.
 
 ## Guncel Akis
 
-`update-fixtures.js` kaynak satirdaki oranlari toplar. `fixtures.json` ve `available_odds` genis market envanterini tasir. `build-full-bulletin.js` tam bultene aktarir. `ensure-live-json.js` canli JSON icinde korur. `cache-version.js` detay alaninda veri gelen marketleri tiklanabilir yapar. Secilen detay marketleri sag panelde analiz edilir.
+`update-fixtures.js` kaynak satirdaki oranlari toplar. Playwright kuruluysa Mackolik sayfasinda satir detaylarini acmayi dener. Acilan detay bloklari `raw_market_blocks` olarak saklanir ve eslesen market oranlari `available_odds` icine tasinir. `fixtures.json` ve `available_odds` genis market envanterini tasir. `build-full-bulletin.js` tam bultene aktarir. `ensure-live-json.js` canli JSON icinde korur. `cache-version.js` detay alaninda veri gelen marketleri tiklanabilir yapar. Secilen detay marketleri sag panelde analiz edilir.
 
 ## Not
 
-Sistem oran uydurmaz. Kaynakta HND, IY/MS, skor, korner, kart veya sut orani yoksa site bos gosterir. Oran kaynakta geldigi anda mevcut veri akisi ve detay secim sistemi o marketi gostermeye ve analiz etmeye hazirdir.
+Sistem oran uydurmaz. Kaynakta HND, IY/MS, skor, korner, kart veya sut orani yoksa site bos gosterir. Tarayici robotu calisamazsa statik parser devreye girer ve ana veri akisi bozulmaz. Oran kaynakta geldigi anda mevcut veri akisi ve detay secim sistemi o marketi gostermeye ve analiz etmeye hazirdir.
