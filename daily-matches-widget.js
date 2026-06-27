@@ -2,7 +2,7 @@
   const KEY = "__flDailyWidget";
   if (window[KEY]?.off) window[KEY].off();
 
-  const app = { bulletin: [], live: [], picks: new Map(), mode: "bulletin", q: "", league: "all", timer: null };
+  const app = { bulletin: [], live: [], picks: new Map(), mode: "bulletin", q: "", league: "all", timer: null, window: null };
   window[KEY] = app;
 
   const $ = (s, r = document) => r.querySelector(s);
@@ -12,15 +12,23 @@
   const pick = (m, keys) => { for (const k of keys) { const v = get(m, k); if (!isBlank(v)) return v; } return ""; };
   const n = (v) => Number(String(v ?? "").replace(",", ".").match(/\d+(\.\d+)?/)?.[0] || 0);
   const fmt = (v) => n(v) ? n(v).toFixed(2) : "—";
-  const isLive = (m) => /live|canlı|canli/.test(String(m.status || m.liveStatus || "").toLowerCase());
+  const minuteOf = (time) => { const m = String(time || "").trim().match(/^(\d{1,2}):(\d{2})$/); return m ? Number(m[1]) * 60 + Number(m[2]) : 9999; };
+  const isEarly = (m) => minuteOf(m.time) < 8 * 60;
+  const isLive = (m) => /live|canlı|canli/.test(String(m.status || m.liveStatus || "").toLocaleLowerCase("tr-TR"));
+  const toIsoDate = (value) => {
+    const text = String(value || "").trim();
+    if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10);
+    const dot = text.match(/\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b/);
+    return dot ? `${dot[3]}-${dot[2].padStart(2, "0")}-${dot[1].padStart(2, "0")}` : text.slice(0, 10);
+  };
   const markets = [
-    ["ms1", "1", ["ms1", "one", "oneOdd", "ms_1"]],
-    ["msx", "X", ["msx", "draw", "drawOdd", "ms_x"]],
-    ["ms2", "2", ["ms2", "two", "twoOdd", "ms_2"]],
-    ["under25", "Alt", ["under25", "alt25", "alt_25"]],
-    ["over25", "Üst", ["over25", "ust25", "ust_25"]],
-    ["bttsYes", "Var", ["bttsYes", "kgVar", "bttsYes_guess"]],
-    ["bttsNo", "Yok", ["bttsNo", "kgYok", "bttsNo_guess"]],
+    ["ms1", "1", ["ms1", "one", "oneOdd", "odd1", "ms_1"]],
+    ["msx", "X", ["msx", "draw", "drawOdd", "oddX", "ms_x"]],
+    ["ms2", "2", ["ms2", "two", "twoOdd", "odd2", "ms_2"]],
+    ["under25", "Alt", ["under25", "alt25", "alt_25", "under", "alt"]],
+    ["over25", "Üst", ["over25", "ust25", "ust_25", "over", "ust"]],
+    ["bttsYes", "Var", ["bttsYes", "kgVar", "kg_var", "bttsYes_guess"]],
+    ["bttsNo", "Yok", ["bttsNo", "kgYok", "kg_yok", "bttsNo_guess"]],
   ];
   const marketByKey = Object.fromEntries(markets.map(([key, label, keys]) => [key, { key, label, keys }]));
 
@@ -31,14 +39,18 @@
   function norm(x, i, forcedStatus) {
     const sp = splitTeams(x);
     const status = forcedStatus || x.status || x.liveStatus || "scheduled";
+    const date = toIsoDate(x.date || x.tarih || x.start_date || x.utc_date || "");
+    const time = String(x.time || x.saat || x.start_time || "--:--").trim();
+    const home = x.home || x.home_team_name || x.ev_sahibi || sp[0] || "Ev";
+    const away = x.away || x.away_team_name || x.deplasman || sp[1] || "Dep";
     return {
       ...x,
-      _id: String(x.matchCode || x.match_code || x.id || `${x.date || ""}-${x.time || x.start_time || ""}-${sp[0] || i}`),
-      date: String(x.date || x.tarih || "").slice(0, 10),
-      time: String(x.time || x.saat || x.start_time || "--:--"),
+      _id: String(x.matchCode || x.match_code || x.id || `${date}-${time}-${home}-${away}-${i}`),
+      date,
+      time,
       league: x.league || x.competition_name || x.lig || "Diğer",
-      home: x.home || x.home_team_name || x.ev_sahibi || sp[0] || "Ev",
-      away: x.away || x.away_team_name || x.deplasman || sp[1] || "Dep",
+      home,
+      away,
       status,
       liveStatus: status,
     };
@@ -46,8 +58,20 @@
 
   function unique(list) {
     const map = new Map();
-    list.forEach((m) => map.set([m.date, m.time, m.home, m.away].join("|").toLowerCase(), m));
+    list.forEach((m) => map.set([m.date, m.time, m.home, m.away].join("|").toLocaleLowerCase("tr-TR"), m));
     return [...map.values()];
+  }
+
+  function displayRank(m) {
+    const mainDay = app.window?.main_day;
+    const nextDay = String(app.window?.includes_next_day_until || "").slice(0, 10);
+    if (m.date === nextDay && isEarly(m)) return `0|${m.time}|${m.league}|${m.home}`;
+    if (m.date === mainDay) return `1|${m.time}|${m.league}|${m.home}`;
+    return `2|${m.date}|${m.time}|${m.league}|${m.home}`;
+  }
+
+  function sortBulletin(list) {
+    return [...list].sort((a, b) => displayRank(a).localeCompare(displayRank(b), "tr"));
   }
 
   async function readJson(url) {
@@ -62,12 +86,18 @@
   async function load() {
     const full = await readJson("./data/full-bulletin.json");
     const live = await readJson("./data/live-matches.json");
+    app.window = full?.date_window || null;
     const scheduled = Array.isArray(full?.matches) ? full.matches.map((x, i) => norm(x, i, "scheduled")) : [];
     const liveFromFull = Array.isArray(full?.live_matches) ? full.live_matches.map((x, i) => norm(x, i, "live")) : [];
     const liveFromFile = Array.isArray(live?.matches) ? live.matches.map((x, i) => norm(x, i, "live")) : [];
-    app.bulletin = unique(scheduled.filter((m) => !isLive(m)));
+    app.bulletin = sortBulletin(unique(scheduled.filter((m) => !isLive(m))));
     app.live = unique([...liveFromFull, ...liveFromFile].filter(isLive));
     draw();
+  }
+
+  function earlyCount() {
+    const nextDay = String(app.window?.includes_next_day_until || "").slice(0, 10);
+    return app.bulletin.filter((m) => m.date === nextDay && isEarly(m)).length;
   }
 
   function ensureRoot() {
@@ -79,8 +109,9 @@
       anchor.insertAdjacentElement(anchor.id === "yaklasan-maclar" ? "afterend" : "afterbegin", root);
     }
     root.className = "flw";
+    const early = earlyCount();
     root.innerHTML = `
-      <div class="flw-top"><h2>Futbol Bülteni</h2><div><span>${app.bulletin.length} bülten</span> · <span>${app.live.length} canlı</span></div></div>
+      <div class="flw-top"><h2>Futbol Bülteni</h2><div><span>${app.bulletin.length} bülten</span> · <span>${app.live.length} canlı</span>${early ? ` · <span>${early} gece/erken maç</span>` : ""}</div></div>
       <div class="flw-tabs"><button data-mode="bulletin" class="${app.mode === "bulletin" ? "on" : ""}">Tüm Bülten</button><button data-mode="live" class="${app.mode === "live" ? "on" : ""}">Canlı Bölüm</button></div>
       <div class="flw-filter"><input data-q value="${esc(app.q)}" placeholder="Maç veya lig ara"><select data-league></select><button data-refresh>Yenile</button></div>
       <div class="flw-layout"><div class="flw-main"></div><aside class="flw-slip"></aside></div>`;
@@ -117,13 +148,18 @@
     const box = $(".flw-main");
     if (!box) return;
     if (!list.length) {
-      box.innerHTML = `<div class="flw-empty">${app.mode === "live" ? "Şu anda canlı maç yok." : "Başlamayan bülten maçı yok."}</div>`;
+      box.innerHTML = `<div class="flw-empty">${app.mode === "live" ? "Şu anda canlı maç yok." : "Bülten maçı yüklenemedi."}</div>`;
       return;
     }
     let html = `<div class="flw-table"><div class="flw-head"><span>Saat</span><span>Lig</span><span>Maç</span>${markets.map((m) => `<span>${esc(m[1])}</span>`).join("")}</div>`;
     let last = "";
     list.forEach((m) => {
-      if (m.league !== last) { last = m.league; html += `<div class="flw-league">${esc(m.date)} · ${esc(last)}</div>`; }
+      const group = `${m.date}|${m.league}`;
+      if (group !== last) {
+        last = group;
+        const earlyLabel = isEarly(m) && m.date !== app.window?.main_day ? " · Gece/erken saat bloğu" : "";
+        html += `<div class="flw-league">${esc(m.date)} · ${esc(m.league)}${earlyLabel}</div>`;
+      }
       html += `<div class="flw-row"><div class="flw-time">${app.mode === "live" ? `CANLI ${esc(m.minute || "")}` : esc(m.time)}</div><div>${esc(m.league)}</div><div class="flw-teams"><b>${esc(m.home)} - ${esc(m.away)}</b><span class="flw-code">Kod: ${esc(m.matchCode || m.match_code || m._id)}</span></div>${markets.map(([key, label, keys]) => `<div>${oddBtn(m, key, label, keys)}</div>`).join("")}</div>`;
     });
     box.innerHTML = html + `</div>`;
