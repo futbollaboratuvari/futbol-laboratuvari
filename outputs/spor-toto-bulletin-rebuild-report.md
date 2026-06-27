@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-06-27T08:12:17.628Z
-- Ham fixture sayisi: 629
-- Bugun/yarin kaynak mac: 167
-- Aktif bulten maci: 161
+- Guncelleme: 2026-06-27T12:18:03.713Z
+- Ham fixture sayisi: 637
+- Bugun/yarin kaynak mac: 175
+- Aktif bulten maci: 143
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 6
+- Bultenden dusurulen mac: 32
 
-- 1. 2026-06-27 09:30 | Avustralya NPL Kuzey YGG | Valentine Phoe - Lambton Jaffas | live
-- 2. 2026-06-27 10:00 | Avustralya NPL Batı Avustralya | Armadale - Perth | live
-- 3. 2026-06-27 10:00 | Güney Kore K3 Ligi | Changwon City - Yeoju Sejong | live
-- 4. 2026-06-27 10:00 | Avustralya NPL Victoria | Dandenong Thun - Hume City | live
-- 5. 2026-06-27 10:00 | Avustralya NPL Batı Avustralya | Fremantle City - Western Knights | live
-- 6. 2026-06-27 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Balcatta | live
-- 7. 2026-06-27 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Stirling Lions | live
-- 8. 2026-06-27 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - St George City | live
-- 9. 2026-06-27 10:00 | Güney Kore K3 Ligi | Siheung Citize - Jeonbuk Motors | live
-- 10. 2026-06-27 10:00 | Avustralya U20 NSW NPL 1 | Ws Wanderers U - Manly United U2 | live
-- 11. 2026-06-27 10:30 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Guangxi Hengche | live
-- 12. 2026-06-27 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Wollongong Wolv | live
-- 13. 2026-06-27 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Cooma Tigers | live
-- 14. 2026-06-27 11:00 | Avustralya NPL Victoria | Caroline S. - Preston Lions | live
-- 15. 2026-06-27 11:30 | Hazırlık Kulüpler | Hartberg - Admira Wacker | scheduled
+- 1. 2026-06-27 14:00 | Hazırlık Kulüpler | Aarhus - Viborg | live
+- 2. 2026-06-27 14:00 | Norveç 3.Lig Grup 3 | Brann Ii - Fana | live
+- 3. 2026-06-27 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Shenzhen Junior | live
+- 4. 2026-06-27 14:00 | İsveç 2.Lig Norra Svealand | Franke - Viggbyholms Ik | live
+- 5. 2026-06-27 14:00 | İsveç 2.Lig Södra Svealand | Haninge - Sleipner | live
+- 6. 2026-06-27 14:00 | Finlandiya Veikkausliiga | Ilves - Seinajoen Jk | live
+- 7. 2026-06-27 14:00 | Norveç 3.Lig Grup 2 | Kvik Trond - Volda | live
+- 8. 2026-06-27 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Sheny - Shandong Taisha | live
+- 9. 2026-06-27 14:00 | Norveç 2.Lig Grup 1 | Lysekloster - Brattvag Il | live
+- 10. 2026-06-27 14:00 | Hazırlık Kulüpler | Paksi - Kfc Komarno | live
+- 11. 2026-06-27 14:00 | Hazırlık Kulüpler | Piast Gliwice - Rakow Czestocho | live
+- 12. 2026-06-27 14:00 | Hazırlık Kulüpler | Rapid Wien - Floridsdorfer | live
+- 13. 2026-06-27 14:00 | Norveç 3.Lig Grup 1 | Sf Grei - Nordstrand | live
+- 14. 2026-06-27 14:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Rana | live
+- 15. 2026-06-27 14:00 | Norveç 2.Lig Grup 1 | Vidar - Kvik Halden | live

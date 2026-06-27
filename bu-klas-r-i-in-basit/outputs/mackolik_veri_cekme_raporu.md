@@ -1,19 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-06-27T08:12:16.748651+00:00
-=======
-Tarih: 2026-06-27T08:13:47.011065+00:00
->>>>>>> Stashed changes
+Tarih: 2026-06-27T12:18:02.970139+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 147
-- Kac mac kaydedildi: 20
-- Kac mac zaten vardi: 127
-- Ham veri havuzu toplam mac sayisi: 635
+- Kac mac bulundu: 112
+- Kac mac kaydedildi: 8
+- Kac mac zaten vardi: 104
+- Ham veri havuzu toplam mac sayisi: 643
 - Hedef tarih: 27.06.2026 Europe/Istanbul
 
 ## Ligler
@@ -22,9 +18,7 @@ Tarih: 2026-06-27T08:13:47.011065+00:00
 - ABD USL Lig 2 Merkez Konferansı
 - ABD USL Lig 2 Metropolitan Grubu
 - Avrupa U19 Şampiyonası Kadınlar Grup A
-- Avustralya NPL Batı Avustralya
-- Avustralya NPL Queensland
-- Avustralya NPL Yeni Güney Galler
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Brezilya Serie B
 - Etiyopya Premier Lig
@@ -32,7 +26,6 @@ Tarih: 2026-06-27T08:13:47.011065+00:00
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
-- Güney Kore K3 Ligi
 - Gürcistan Süper Kupa Yarı Final
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
@@ -41,16 +34,12 @@ Tarih: 2026-06-27T08:13:47.011065+00:00
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
-- Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
 - Norveç 3.Lig Grup 6
 - Tanzanya Kuu Bara Ligi
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
 - İran Azadegan Ligi
 - İrlanda Premier Lig
 - İsveç 2.Lig Norra Götaland
@@ -117,8 +106,8 @@ Tarih: 2026-06-27T08:13:47.011065+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 63
-- Acilan detay: 63
+- Denenen Tumu alani: 56
+- Acilan detay: 56
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -132,28 +121,25 @@ Tarih: 2026-06-27T08:13:47.011065+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 27.06.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Shelbourne | 13683 | 5 |
-| 27.06.2026 | 14:00 | Finlandiya Veikkausliiga | Ilves | Seinajoen Jk | 11121 | 5 |
-| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Turku | Jaro | 11526 | 5 |
-| 27.06.2026 | 17:00 | Finlandiya Veikkausliiga | Mariehamn | Inter Turku | 11360 | 5 |
-| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Gnistan | Vaasa | 11432 | 5 |
 | 27.06.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Kuopion | 11299 | 5 |
+| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Gnistan | Vaasa | 11432 | 5 |
+| 27.06.2026 | 17:00 | Finlandiya Veikkausliiga | Mariehamn | Inter Turku | 11360 | 5 |
 | 27.06.2026 | 21:00 | Finlandiya Veikkausliiga | Oulu | Lahti | 11585 | 5 |
-| 27.06.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong | Tianjin Teda | 14567 | 5 |
-| 27.06.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan | Wuhan Three Tow | 14512 | 5 |
-| 27.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng | Chengdu Ron. | 14457 | 5 |
-<<<<<<< Updated upstream
-| 27.06.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Sheny | Shandong Taisha | 14200 | 5 |
-| 27.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye | Shanghai Port | 14391 | 5 |
-=======
->>>>>>> Stashed changes
+| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Turku | Jaro | 11526 | 5 |
 | 27.06.2026 | 20:00 | Gürcistan Süper Kupa Yarı Final | Dila Gori | Torpedo Kutaisi | 05588 | 5 |
 | 27.06.2026 | 18:00 | Gürcistan Süper Kupa Yarı Final | Fc Iberia | Dinamo Tiflis | 05587 | 5 |
-| 27.06.2026 | - | Avrupa U19 Şampiyonası Kadınlar Grup A | 18:00 | - Almanya U19 (K) | - | 0 |
+| 27.06.2026 | 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Bosna-Hersek U | Almanya U19 (K) | 03059 | 4 |
 | 27.06.2026 | 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | İsveç U19 (K) | Polonya U19 (K) | 00497 | 5 |
-| 27.06.2026 | 18:00 | İsveç Superettan | Sundsvall | Ostersund | 12988 | 5 |
-| 27.06.2026 | 16:00 | İsveç Superettan | Varbergs | Oster | 12746 | 5 |
 | 27.06.2026 | 16:00 | İsveç Superettan | Ljungskile | Orebro | 12366 | 5 |
+| 27.06.2026 | 16:00 | İsveç Superettan | Varbergs | Oster | 12746 | 5 |
 | 27.06.2026 | 18:00 | İsveç Superettan | United Nordic | Oddevold | 13043 | 5 |
+| 27.06.2026 | 18:00 | İsveç Superettan | Sundsvall | Ostersund | 12988 | 5 |
+| 27.06.2026 | 16:00 | Finlandiya Ykkösliiga | Jippo Joensuu | Ekenas If | 11244 | 5 |
+| 27.06.2026 | 16:00 | Finlandiya Ykkösliiga | Haka | Kotka | 11192 | 5 |
+| 27.06.2026 | 17:00 | Hazırlık Kulüpler | St Gallen | Altach | 02242 | 5 |
+| 27.06.2026 | 19:00 | Hazırlık Kulüpler | Lokomotiva | Varazdin | 00952 | 5 |
+| 27.06.2026 | 18:30 | Hazırlık Kulüpler | Wolfsberger | Nyiregyhaza | 04868 | 5 |
+| 27.06.2026 | 16:00 | Hazırlık Kulüpler | Livingston | Dundee | 03725 | 5 |
 
 ## Sonuc
 
