@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260627-pro122-unified-v4";
+  const version = "20260627-pro122-market-v2";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -48,14 +48,42 @@
     ["Maç Sonucu 1", ["ms1", "one", "oneOdd", "odd1", "ms_1"]],
     ["Maç Sonucu X", ["msx", "draw", "drawOdd", "oddX", "x", "ms_x"]],
     ["Maç Sonucu 2", ["ms2", "two", "twoOdd", "odd2", "ms_2"]],
+    ["1.5 Alt", ["under15", "alt15", "under1_5", "alt_15"]],
+    ["1.5 Üst", ["over15", "ust15", "over1_5", "ust_15"]],
     ["2.5 Alt", ["under25", "alt25", "under", "alt", "under25_guess", "alt_25"]],
     ["2.5 Üst", ["over25", "ust25", "over", "ust", "over25_guess", "ust_25"]],
     ["3.5 Alt", ["under35", "alt35", "under3_5", "alt_35"]],
     ["3.5 Üst", ["over35", "ust35", "over3_5", "ust_35"]],
+    ["4.5 Alt", ["under45", "alt45", "under4_5", "alt_45"]],
+    ["4.5 Üst", ["over45", "ust45", "over4_5", "ust_45"]],
     ["KG Var", ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]],
     ["KG Yok", ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"]],
     ["İlk Yarı KG Var", ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"]],
-    ["İkinci Yarı KG Var", ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"]]
+    ["İkinci Yarı KG Var", ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"]],
+    ["İY/MS 1/1", ["htFt11", "iyMs11", "halfFull11"]],
+    ["İY/MS X/1", ["htFtX1", "iyMsX1", "halfFullX1"]],
+    ["İY/MS 2/2", ["htFt22", "iyMs22", "halfFull22"]],
+    ["MS 1 + 2.5 Üst", ["homeWinOver25", "ms1Over25"]],
+    ["MS X + 2.5 Üst", ["drawOver25", "msxOver25"]],
+    ["MS 2 + 2.5 Üst", ["awayWinOver25", "ms2Over25"]],
+    ["MS 1 + KG Var", ["homeWinBtts", "ms1KgVar"]],
+    ["MS X + KG Var", ["drawBtts", "msxKgVar"]],
+    ["MS 2 + KG Var", ["awayWinBtts", "ms2KgVar"]],
+    ["0-1 Gol", ["goals01", "goalRange01"]],
+    ["2-3 Gol", ["goals23", "goalRange23"]],
+    ["4-5 Gol", ["goals45", "goalRange45", "goals46", "goalRange46"]],
+    ["6+ Gol", ["goals6plus", "goalRange6plus"]],
+    ["En Çok Gol 1. Yarı", ["mostGoalsFirstHalf", "firstHalfMostGoals"]],
+    ["En Çok Gol 2. Yarı", ["mostGoalsSecondHalf", "secondHalfMostGoals"]],
+    ["Tek", ["totalOdd", "tek"]],
+    ["Çift", ["totalEven", "cift"]],
+    ["Korner 8.5 Üst", ["cornerOver85", "cornersOver85"]],
+    ["Korner 9.5 Üst", ["cornerOver95", "cornersOver95"]],
+    ["Kart 3.5 Üst", ["cardOver35", "cardsOver35"]],
+    ["Kart 4.5 Üst", ["cardOver45", "cardsOver45"]],
+    ["Takım Şut Ev 10+", ["homeShots10", "homeTeamShots10"]],
+    ["Takım Şut Dep 10+", ["awayShots10", "awayTeamShots10"]],
+    ["Toplam Şut 21+", ["totalShots21", "shots21Plus"]]
   ];
 
   const addMarket = (list, seen, label, value) => {
@@ -84,17 +112,7 @@
     if (!Array.isArray(blocks)) return;
     blocks.forEach((block) => {
       const title = block?.title || block?.name || block?.market || block?.label || "Detay Market";
-      if (Array.isArray(block?.markets)) {
-        block.markets.forEach((item) => addMarket(list, seen, item?.label || item?.name || title, item?.odd ?? item?.value ?? item?.oran));
-      } else if (block && typeof block === "object") {
-        Object.entries(block).forEach(([key, value]) => {
-          if (["title", "name", "market", "label"].includes(key)) return;
-          if (typeof value === "object") return;
-          const cleanKey = String(key).toLowerCase();
-          if (!/odd|oran|üst|ust|alt|kg|ms|btts|over|under|draw|one|two/.test(cleanKey)) return;
-          addMarket(list, seen, `${title} ${key}`, value);
-        });
-      }
+      if (Array.isArray(block?.markets)) block.markets.forEach((item) => addMarket(list, seen, item?.label || item?.name || title, item?.odd ?? item?.value ?? item?.oran));
     });
   };
 
