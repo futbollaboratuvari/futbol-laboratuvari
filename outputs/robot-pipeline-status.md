@@ -1,6 +1,6 @@
 # Robot Hedef Hatti Durumu
 
-Olusma: 2026-06-27T16:20:10.464Z
+Olusma: 2026-06-27T16:51:04.147Z
 Durum: 3/6
 
 - BEKLIYOR | 1. Bulteni ceker: 0 mac

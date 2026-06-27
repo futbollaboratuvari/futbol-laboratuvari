@@ -1,7 +1,7 @@
 # Tahmin Kayit Saglik Kontrolu
 
-Durum: aday_yok_izleme
-Robot analiz maci: 143
+Durum: empty
+Robot analiz maci: 0
 Aday tahmin: 0
 Toplam tahmin: 0
 Bekleyen: 0
@@ -10,5 +10,5 @@ Kaybeden: 0
 Eksik kayit: 0
 Tekrar eden: 0
 
-Sonraki aksiyon: Aday yok. Izleme devam.
+Sonraki aksiyon: Tahmin kaydi kontrol edilmeli.
 
