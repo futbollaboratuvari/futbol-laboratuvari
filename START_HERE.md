@@ -32,4 +32,6 @@ Work rules:
 - Keep Kuponum and Analiz Et protected.
 - SESSION_LOG.md is the project memory log.
 - Record important chat decisions and work summaries in SESSION_LOG.md after each work session.
+- If a file update is blocked by filter, split the work into small safe chunks.
+- Do not rewrite a large working file just because a full update is blocked.
 - If project state changes, update CURRENT_STATE.md too.
