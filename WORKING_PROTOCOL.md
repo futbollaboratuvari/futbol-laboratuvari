@@ -12,6 +12,8 @@ Bu dosya Futbol Laboratuvari icin zorunlu calisma sirasidir.
 8. Kuponum ve Analiz Et panelleri korunur.
 9. Calisan ana dosya komple yeniden yazilmaz.
 10. Her islemden sonra test ve commit raporu verilir.
+11. Her islem sonunda SESSION_LOG.md guncellenir.
+12. Proje durumu degisti ise CURRENT_STATE.md de guncellenir.
 
 Yeni sohbette okunacak dosyalar:
 
@@ -19,4 +21,5 @@ Yeni sohbette okunacak dosyalar:
 - WORKING_PROTOCOL.md
 - DONT_TOUCH.md
 - CURRENT_STATE.md
-- LAST_WORK_REPORT.md
+- STATE.md
+- SESSION_LOG.md
