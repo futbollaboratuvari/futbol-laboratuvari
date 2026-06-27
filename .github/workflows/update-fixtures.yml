@@ -50,12 +50,12 @@ jobs:
       - name: Repair conflict markers before data run
         run: node scripts/repair-conflict-markers.js
 
-      - name: Prepare data file
-        run: node scripts/ensure-robot-raw-pool-json.js
-
       - name: Update Mackolik fixture list
         continue-on-error: true
         run: node scripts/update-fixtures.js
+
+      - name: Prepare data file
+        run: node scripts/ensure-robot-raw-pool-json.js
 
       - name: Run Mackolik data robot
         working-directory: bu-klas-r-i-in-basit
