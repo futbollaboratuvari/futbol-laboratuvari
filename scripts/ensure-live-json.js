@@ -14,6 +14,7 @@ const fixturesFile = path.join(dataDir, 'fixtures.json');
 const analysisFile = path.join(dataDir, 'analiz_sonuclari.json');
 const robotAnalysisFile = path.join(dataDir, 'robot-analysis.json');
 const focusFile = path.join(dataDir, 'focused_markets.json');
+const LIVE_WINDOW_MINUTES = 130;
 
 function readJson(file, fallback) {
   try {
@@ -29,13 +30,35 @@ function writeJson(file, value) {
   fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n', 'utf8');
 }
 
-function todayKey() {
+function turkeyParts() {
   return new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Europe/Istanbul',
     year: 'numeric',
     month: '2-digit',
-    day: '2-digit'
-  }).format(new Date());
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  }).formatToParts(new Date()).reduce((acc, part) => {
+    if (part.type !== 'literal') acc[part.type] = part.value;
+    return acc;
+  }, {});
+}
+
+function todayKey() {
+  const parts = turkeyParts();
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+function nowMinutesTR() {
+  const parts = turkeyParts();
+  return Number(parts.hour) * 60 + Number(parts.minute);
+}
+
+function parseClockMinutes(time) {
+  const match = String(time || '').trim().match(/^(\d{1,2}):(\d{2})$/);
+  if (!match) return null;
+  return Number(match[1]) * 60 + Number(match[2]);
 }
 
 function cleanKey(value) {
@@ -78,16 +101,43 @@ function findAnalysis(match, map) {
   return null;
 }
 
-function statusOf(match) {
+function rawStatus(match) {
   return String(match.status || match.liveStatus || match.durum || 'scheduled').toLocaleLowerCase('tr-TR');
 }
 
+function statusOf(match) {
+  const explicit = rawStatus(match);
+  if (['live', 'canlı', 'canli', 'in_play', 'inplay', '1h', '2h', 'ht', 'paused'].includes(explicit)) return 'live';
+  if (['finished', 'bitti', 'tamamlandı', 'tamamlandi', 'full_time', 'ft', 'ms', 'cancelled', 'canceled', 'iptal'].includes(explicit)) return 'finished';
+  const date = String(match.date || match.tarih || '').slice(0, 10);
+  const start = parseClockMinutes(match.time || match.saat || match.start_time);
+  const today = todayKey();
+  if (!date || start === null) return 'scheduled';
+  if (date < today) return 'finished';
+  if (date > today) return 'scheduled';
+  const diff = nowMinutesTR() - start;
+  if (diff >= 0 && diff <= LIVE_WINDOW_MINUTES) return 'live';
+  if (diff > LIVE_WINDOW_MINUTES) return 'finished';
+  return 'scheduled';
+}
+
+function minuteOf(match, status) {
+  const explicit = Number(match.minute ?? match.elapsed ?? match.matchMinute);
+  if (Number.isFinite(explicit) && explicit > 0) return Math.min(120, Math.round(explicit));
+  if (status !== 'live') return null;
+  const start = parseClockMinutes(match.time || match.saat || match.start_time);
+  if (start === null) return null;
+  const diff = nowMinutesTR() - start;
+  if (diff <= 0) return null;
+  return Math.max(1, Math.min(90, diff > 60 ? diff - 15 : diff));
+}
+
 function isLive(match) {
-  return ['live', 'canlı', 'canli', 'in_play', 'inplay', '1h', '2h', 'ht', 'paused'].includes(statusOf(match));
+  return statusOf(match) === 'live';
 }
 
 function isFinished(match) {
-  return ['finished', 'bitti', 'tamamlandı', 'tamamlandi', 'full_time', 'ft', 'ms', 'cancelled', 'canceled', 'iptal'].includes(statusOf(match));
+  return statusOf(match) === 'finished';
 }
 
 function isCurrentWindow(match, today) {
@@ -152,6 +202,7 @@ function decisionFor(analysis) {
 
 function normalizeMatch(match, analysis = null) {
   const odds = availableOdds(match, analysis);
+  const status = statusOf(match);
   const score = analysis ? Number(analysis.analysis_score ?? analysis.score ?? 0) : null;
   const recommendedMarket = analysis?.recommended_market || analysis?.market || analysis?.selection || '';
   const estimatedOdds = analysis?.estimated_odds || analysis?.odds || '';
@@ -162,9 +213,9 @@ function normalizeMatch(match, analysis = null) {
     league: match.league || match.competition_name || match.lig || '',
     home: match.home || match.home_team_name || match.ev_sahibi || '',
     away: match.away || match.away_team_name || match.deplasman || '',
-    status: statusOf(match),
-    liveStatus: statusOf(match),
-    minute: match.minute ?? match.elapsed ?? match.matchMinute ?? null,
+    status,
+    liveStatus: status,
+    minute: minuteOf(match, status),
     score: scoreOf(match),
     source: match.source || match.kaynak || '',
     matchCode: match.matchCode || match.mac_kodu || null,
@@ -217,8 +268,8 @@ const payload = {
   timezone: 'Europe/Istanbul',
   source,
   title: 'Futbol Laboratuvarı Canlı Veri',
-  status: windowMatches.length ? 'active' : 'waiting',
-  message: windowMatches.length ? 'Canlı veri alanı maç, oran ve robot karar akışını gösteriyor.' : 'Bugün için güncel veri henüz oluşmadı.',
+  status: liveMatches.length ? 'active' : 'waiting',
+  message: liveMatches.length ? 'Başlayan karşılaşmalar canlı listede.' : 'Şu anda başlayan karşılaşma yok.',
   counts: {
     total: fixtureList.length,
     current_window: windowMatches.length,
@@ -236,11 +287,12 @@ const payload = {
   focused_markets: Array.isArray(focus.focused_markets) ? focus.focused_markets : [],
   active_items: activeItems,
   completed_items: completedItems,
-  matches: enrichedMatches
+  matches: liveMatches,
+  scheduled_matches: scheduledMatches
 };
 
 writeJson(liveFile, payload);
-console.log(`live-matches.json updated. Matches: ${payload.counts.current_window}. Analysis: ${payload.counts.active_analysis}. Wide odds: ${payload.counts.wide_market_odds}.`);
+console.log(`live-matches.json updated. Live: ${payload.counts.live}. Scheduled: ${payload.counts.scheduled}.`);
 
 try {
   const { runLearningMemory } = require('./robot-learning-memory.js');
