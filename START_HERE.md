@@ -24,5 +24,6 @@ Work rules:
 - Keep the bulletin stable.
 - Keep matches and live_matches separated.
 - Keep Kuponum and Analiz Et protected.
-- End every work session by updating SESSION_LOG.md.
+- SESSION_LOG.md is the project memory log.
+- Record important chat decisions and work summaries in SESSION_LOG.md after each work session.
 - If project state changes, update CURRENT_STATE.md too.
