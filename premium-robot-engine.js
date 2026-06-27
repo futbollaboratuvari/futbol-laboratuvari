@@ -35,6 +35,7 @@
   };
 
   const get = (match, key) => match?.[key]
+    ?? match?.available_odds?.[key]
     ?? match?.odds?.[key]
     ?? match?.oranlar?.[key]
     ?? match?.detay_oranlar?.[key]
@@ -72,19 +73,38 @@
   const mapMarket = (market) => {
     const table = {
       "MS 1": ["ms1", "one", "odd1"], "MS X": ["msx", "draw", "oddX"], "MS 2": ["ms2", "two", "odd2"],
-      "2.5 Alt": ["under25", "alt25", "under25_guess"], "2.5 Üst": ["over25", "ust25", "over25_guess"],
+      "HND 1": ["hnd1", "handicap1", "handicapMs1"], "HND X": ["hndX", "handicapX", "handicapMsX"], "HND 2": ["hnd2", "handicap2", "handicapMs2"],
+      "HND 0-1": ["hnd01", "handicap0_1"], "HND 1-0": ["hnd10", "handicap1_0"], "HND 2-0": ["hnd20", "handicap2_0"], "HND 0-2": ["hnd02", "handicap0_2"],
+      "0.5 Alt": ["under05", "alt05", "under0_5"], "0.5 Ust": ["over05", "ust05", "over0_5"],
+      "1.5 Alt": ["under15", "alt15", "under1_5"], "1.5 Ust": ["over15", "ust15", "over1_5"],
+      "2.5 Alt": ["under25", "alt25", "under25_guess"], "2.5 Üst": ["over25", "ust25", "over25_guess"], "2.5 Ust": ["over25", "ust25", "over25_guess"],
+      "3.5 Alt": ["under35", "alt35", "under3_5"], "3.5 Ust": ["over35", "ust35", "over3_5"],
+      "4.5 Alt": ["under45", "alt45", "under4_5"], "4.5 Ust": ["over45", "ust45", "over4_5"],
       "KG Var": ["bttsYes", "kgVar", "bttsYes_guess"], "KG Yok": ["bttsNo", "kgYok", "bttsNo_guess"],
       "1Y KG Var": ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"], "1Y KG Yok": ["firstHalfBttsNo", "iyKgYok", "firstHalfBttsNo_guess"],
       "2Y KG Var": ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"], "2Y KG Yok": ["secondHalfBttsNo", "ikinciYariKgYok", "secondHalfBttsNo_guess"],
-      "1Y/2Y KG Evet/Evet": ["firstSecondBttsYesYes", "firstSecondBttsYesYes_guess"], "1Y/2Y KG Hayır/Hayır": ["firstSecondBttsNoNo", "firstSecondBttsNoNo_guess"],
-      "1Y/2Y KG Evet/Hayır": ["firstSecondBttsYesNo", "firstSecondBttsYesNo_guess"], "1Y/2Y KG Hayır/Evet": ["firstSecondBttsNoYes", "firstSecondBttsNoYes_guess"],
-      "1Y KG %": ["firstHalfBttsYes", "iyKgVar", "firstHalfBttsYes_guess"], "2Y KG %": ["secondHalfBttsYes", "ikinciYariKgVar", "secondHalfBttsYes_guess"],
-      "1Y KG % + 2Y KG %": ["firstHalfBttsYes", "firstHalfBttsYes_guess", "secondHalfBttsYes", "secondHalfBttsYes_guess"],
-      "İY 1": ["firstHalf1", "iy1", "firstHalf1_guess"], "İY X": ["firstHalfX", "iyX", "firstHalfX_guess"], "İY 2": ["firstHalf2", "iy2", "firstHalf2_guess"],
-      "2Y 1": ["secondHalf1", "ikinciYari1", "secondHalf1_guess"], "2Y X": ["secondHalfX", "ikinciYariX", "secondHalfX_guess"], "2Y 2": ["secondHalf2", "ikinciYari2", "secondHalf2_guess"],
-      "İY/MS 1’den 1": ["htFt11", "iyMs11", "htFt11_guess"], "İY/MS 1’den X": ["htFt1X", "iyMs1x", "htFt1X_guess"], "İY/MS 1’den 2": ["htFt12", "iyMs12", "htFt12_guess"],
-      "İY/MS X’ten 1": ["htFtX1", "iyMsX1", "htFtX1_guess"], "İY/MS X’ten X": ["htFtXX", "iyMsXx", "htFtXX_guess"], "İY/MS X’ten 2": ["htFtX2", "iyMsX2", "htFtX2_guess"],
-      "İY/MS 2’den 1": ["htFt21", "iyMs21", "htFt21_guess"], "İY/MS 2’den X": ["htFt2X", "iyMs2x", "htFt2X_guess"], "İY/MS 2’den 2": ["htFt22", "iyMs22", "htFt22_guess"]
+      "1Y/2Y KG Evet/Evet": ["firstSecondBttsYesYes", "firstSecondBttsYesYes_guess"], "1Y/2Y KG Evet/Hayir": ["firstSecondBttsYesNo", "firstSecondBttsYesNo_guess"], "1Y/2Y KG Hayir/Evet": ["firstSecondBttsNoYes", "firstSecondBttsNoYes_guess"], "1Y/2Y KG Hayir/Hayir": ["firstSecondBttsNoNo", "firstSecondBttsNoNo_guess"],
+      "IY/MS 1/1": ["htFt11", "iyMs11", "htFt11_guess"], "IY/MS 1/X": ["htFt1X", "iyMs1X", "htFt1X_guess"], "IY/MS 1/2": ["htFt12", "iyMs12", "htFt12_guess"],
+      "IY/MS X/1": ["htFtX1", "iyMsX1", "htFtX1_guess"], "IY/MS X/X": ["htFtXX", "iyMsXX", "htFtXX_guess"], "IY/MS X/2": ["htFtX2", "iyMsX2", "htFtX2_guess"],
+      "IY/MS 2/1": ["htFt21", "iyMs21", "htFt21_guess"], "IY/MS 2/X": ["htFt2X", "iyMs2X", "htFt2X_guess"], "IY/MS 2/2": ["htFt22", "iyMs22", "htFt22_guess"],
+      "MS 1 + 1.5 Alt": ["ms1Under15", "homeWinUnder15"], "MS X + 1.5 Alt": ["msxUnder15", "drawUnder15"], "MS 2 + 1.5 Alt": ["ms2Under15", "awayWinUnder15"],
+      "MS 1 + 1.5 Ust": ["ms1Over15", "homeWinOver15"], "MS X + 1.5 Ust": ["msxOver15", "drawOver15"], "MS 2 + 1.5 Ust": ["ms2Over15", "awayWinOver15"],
+      "MS 1 + 2.5 Alt": ["ms1Under25", "homeWinUnder25"], "MS X + 2.5 Alt": ["msxUnder25", "drawUnder25"], "MS 2 + 2.5 Alt": ["ms2Under25", "awayWinUnder25"],
+      "MS 1 + 2.5 Ust": ["ms1Over25", "homeWinOver25"], "MS X + 2.5 Ust": ["msxOver25", "drawOver25"], "MS 2 + 2.5 Ust": ["ms2Over25", "awayWinOver25"],
+      "MS 1 + 3.5 Alt": ["ms1Under35", "homeWinUnder35"], "MS X + 3.5 Alt": ["msxUnder35", "drawUnder35"], "MS 2 + 3.5 Alt": ["ms2Under35", "awayWinUnder35"],
+      "MS 1 + 3.5 Ust": ["ms1Over35", "homeWinOver35"], "MS X + 3.5 Ust": ["msxOver35", "drawOver35"], "MS 2 + 3.5 Ust": ["ms2Over35", "awayWinOver35"],
+      "MS 1 + 4.5 Alt": ["ms1Under45", "homeWinUnder45"], "MS X + 4.5 Alt": ["msxUnder45", "drawUnder45"], "MS 2 + 4.5 Alt": ["ms2Under45", "awayWinUnder45"],
+      "MS 1 + 4.5 Ust": ["ms1Over45", "homeWinOver45"], "MS X + 4.5 Ust": ["msxOver45", "drawOver45"], "MS 2 + 4.5 Ust": ["ms2Over45", "awayWinOver45"],
+      "MS 1 + KG Var": ["homeWinBtts", "ms1KgVar"], "MS X + KG Var": ["drawBtts", "msxKgVar"], "MS 2 + KG Var": ["awayWinBtts", "ms2KgVar"],
+      "MS 1 + KG Yok": ["homeWinBttsNo", "ms1KgYok"], "MS X + KG Yok": ["drawBttsNo", "msxKgYok"], "MS 2 + KG Yok": ["awayWinBttsNo", "ms2KgYok"],
+      "0-1 Gol": ["goals01", "goalRange01"], "2-3 Gol": ["goals23", "goalRange23"], "4-5 Gol": ["goals45", "goalRange45"], "6+ Gol": ["goals6plus", "goalRange6plus"],
+      "Ilk Yari / Mac Skoru": ["halfTimeFullScore", "iyMacSkoru"], "1. Yari Skoru": ["firstHalfScore", "iySkoru"],
+      "Dogru Skor 1-0": ["correctScore10", "score10"], "Dogru Skor 2-0": ["correctScore20", "score20"], "Dogru Skor 2-1": ["correctScore21", "score21"], "Dogru Skor 0-0": ["correctScore00", "score00"], "Dogru Skor 1-1": ["correctScore11", "score11"], "Dogru Skor 2-2": ["correctScore22", "score22"], "Dogru Skor 0-1": ["correctScore01", "score01"], "Dogru Skor 0-2": ["correctScore02", "score02"], "Dogru Skor 1-2": ["correctScore12", "score12"], "Dogru Skor Diger": ["correctScoreOther", "scoreOther"],
+      "En Cok Gol 1. Yari": ["mostGoalsFirstHalf", "firstHalfMostGoals"], "En Cok Gol 2. Yari": ["mostGoalsSecondHalf", "secondHalfMostGoals"], "En Cok Gol Esit": ["mostGoalsEqual", "equalHalfGoals"],
+      "Toplam Tek": ["totalOdd", "tek"], "Toplam Cift": ["totalEven", "cift"],
+      "Korner 8.5 Ust": ["cornerOver85", "cornersOver85"], "Korner 9.5 Ust": ["cornerOver95", "cornersOver95"],
+      "Kart 3.5 Ust": ["cardOver35", "cardsOver35"], "Kart 4.5 Ust": ["cardOver45", "cardsOver45"],
+      "Takim Sut Ev 10+": ["homeShots10", "homeTeamShots10"], "Takim Sut Dep 10+": ["awayShots10", "awayTeamShots10"], "Toplam Sut 21+": ["totalShots21", "shots21Plus"], "Toplam Sut 25+": ["totalShots25", "shots25Plus"]
     };
     return table[market] || [];
   };
@@ -108,7 +128,6 @@
     const finished = Math.max(1, Number(item.finished || 0));
     const wins = Number(item.wins || 0);
     const draws = Number(item.draws || 0);
-    const losses = Number(item.losses || 0);
     const base = ((wins * 3 + draws) / (finished * 3)) * 100;
     const recent = Array.isArray(item.recent) ? item.recent.slice(0, 5) : [];
     const recentScore = recent.length ? (recent.reduce((sum, r) => sum + resultValue(r.result), 0) / (recent.length * 3)) * 100 : base;
@@ -122,11 +141,11 @@
   };
 
   const marketPenalty = (market) => {
-    if (market.startsWith("İY/MS")) return 13;
-    if (market.startsWith("1Y/2Y KG")) return 8;
-    if (market.includes("KG %")) return 4;
-    if (market.includes("KG")) return 3;
-    if (market.includes("2.5")) return 4;
+    if (/dogru skor|skoru|hnd/i.test(market)) return 15;
+    if (/iy\/ms/i.test(market)) return 13;
+    if (/1y\/2y kg/i.test(market)) return 8;
+    if (/korner|kart|sut|şut/i.test(market)) return 7;
+    if (/kg|gol|tek|cift|çift/i.test(market)) return 4;
     return 2;
   };
 
@@ -163,17 +182,16 @@
     const awayScore = teamFormScore(away);
     const score = qualityScore({ market, odd, oddsPercent, homeScore, awayScore });
     const g = grade(score);
-    const isIyms = market.startsWith("İY/MS");
-    const isCombo = market.startsWith("1Y/2Y KG");
-    const isPercent = market.includes("KG %");
     const notes = [];
-    notes.push(isIyms ? "İY/MS marketi yüksek riskli özel analiz grubudur; robot ilk yarı ve maç sonu yön değişimini birlikte değerlendirir." : "Robot seçilen marketi oran, arşiv ve takım formu ile birlikte değerlendirdi.");
-    if (isCombo) notes.push("1.Yarı / 2.Yarı KG kombinasyonu iki ayrı zaman diliminde gol var-yok davranışını birlikte kontrol eder.");
-    if (isPercent) notes.push("KG yüzde analizi oranlardan gelen olasılığı yüzdesel gösterir; tek başına garanti değil, risk sinyalidir.");
+    notes.push("Robot seçilen marketi oran, arşiv, takım formu ve market risk sınıfı ile birlikte değerlendirdi.");
+    if (/dogru skor|skoru/i.test(market)) notes.push("Skor marketleri yüksek risklidir; robot bunları kupon ana omurgası değil özel değer araması olarak okur.");
+    if (/hnd/i.test(market)) notes.push("Handikap marketinde maç dengesi ve güç farkı birlikte kontrol edilir.");
+    if (/iy\/ms/i.test(market)) notes.push("İY/MS marketi ilk yarı ve maç sonu yön değişimini birlikte değerlendirir.");
+    if (/1y\/2y kg/i.test(market)) notes.push("1.Yarı / 2.Yarı KG kombinasyonu iki zaman dilimindeki gol davranışını birlikte kontrol eder.");
     if (parseOdd(odd) >= 3.5) notes.push("Yüksek oran tespit edildi: potansiyel değer var ama kupon riski yükselir.");
     notes.push(`Takım form puanları: ev ${homeScore}, deplasman ${awayScore}.`);
     notes.push(`Robot kalite skoru: %${score}. Seviye: ${g.label}.`);
-    return { created_at: new Date().toISOString(), match, market, odd, odds_percent: oddsPercent, percent: score, grade: g.label, home_score: homeScore, away_score: awayScore, home_form: formText(home), away_form: formText(away), notes, source: "premium_robot_engine_v2" };
+    return { created_at: new Date().toISOString(), match, market, odd, odds_percent: oddsPercent, percent: score, grade: g.label, home_score: homeScore, away_score: awayScore, home_form: formText(home), away_form: formText(away), notes, source: "premium_robot_engine_video_markets_v3" };
   };
 
   const riskDistribution = (analyses) => analyses.reduce((acc, item) => {
@@ -213,7 +231,7 @@
       created_at: new Date().toISOString(), coupon: true, match: { home: "Kupon", away: `${analyses.length} maç` }, market,
       analyses, odd: totalOdd, percent: avg, grade: g.label, risk_level: riskLevel, risk_distribution: distribution,
       notes: [`${analyses.length} maç aynı market üzerinden kupon analizi olarak oluşturuldu.`, `Ortalama robot kalite skoru: ${avg ? `%${avg}` : "veri bekliyor"}.`, `Toplam oran: ${totalOdd}.`, `Risk seviyesi: ${riskLevel}.`, ...advice],
-      source: "premium_coupon_engine_v2"
+      source: "premium_coupon_engine_video_markets_v3"
     };
   };
 
