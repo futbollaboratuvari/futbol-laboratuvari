@@ -71,6 +71,10 @@ jobs:
           node scripts/repair-bulletin-flow.js
           node scripts/full-bulletin-output-check.js
 
+      - name: Update robot learning archive
+        continue-on-error: true
+        run: node scripts/update-match-archive.js
+
       - name: Build detail candidates
         continue-on-error: true
         run: node scripts/raw-block-lite.js
@@ -123,6 +127,7 @@ jobs:
           node scripts/repair-bulletin-flow.js
           node scripts/ensure-live-json.js
           node scripts/full-bulletin-output-check.js
+          node scripts/update-match-archive.js || true
 
       - name: Validate data outputs before commit
         run: node scripts/validate-json-no-conflicts.js
