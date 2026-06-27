@@ -1,15 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-06-27T20:41:04.951108+00:00
+=======
+Tarih: 2026-06-27T20:41:43.803569+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
+<<<<<<< Updated upstream
 - Durum: success
 - Kac mac bulundu: 7
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 7
 - Ham veri havuzu toplam mac sayisi: 643
+=======
+- Durum: error
+- Kac mac bulundu: 7
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
+>>>>>>> Stashed changes
 - Hedef tarih: 27.06.2026 Europe/Istanbul
 
 ## Ligler
@@ -84,7 +96,8 @@ Tarih: 2026-06-27T20:41:04.951108+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -100,4 +113,4 @@ Tarih: 2026-06-27T20:41:04.951108+00:00
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
