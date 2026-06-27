@@ -4,6 +4,7 @@
   "private": true,
   "description": "Futbol Laboratuvarı statik site ve premium ödeme altyapısı",
   "scripts": {
+    "postinstall": "playwright install chromium",
     "dev": "vercel dev",
     "start": "vercel dev",
     "build": "node scripts/vercel-build.js",
