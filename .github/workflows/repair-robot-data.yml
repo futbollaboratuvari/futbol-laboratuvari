@@ -6,6 +6,7 @@ on:
     branches:
       - main
     paths:
+      - "ops/main-run.txt"
       - "scripts/ensure-robot-raw-pool-json.js"
       - ".github/workflows/repair-robot-data.yml"
 
