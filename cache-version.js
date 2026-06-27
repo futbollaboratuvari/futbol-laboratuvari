@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260627-pro122-unified-v3";
+  const version = "20260627-pro122-unified-v4";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -44,22 +44,19 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 
-  const marketLabels = {
-    ms1: "Maç Sonucu 1",
-    msx: "Maç Sonucu X",
-    ms2: "Maç Sonucu 2",
-    oneOdd: "Maç Sonucu 1",
-    drawOdd: "Maç Sonucu X",
-    twoOdd: "Maç Sonucu 2",
-    under25: "2.5 Alt",
-    over25: "2.5 Üst",
-    under35: "3.5 Alt",
-    over35: "3.5 Üst",
-    bttsYes: "KG Var",
-    bttsNo: "KG Yok",
-    firstHalfBttsYes: "İlk Yarı KG Var",
-    secondHalfBttsYes: "İkinci Yarı KG Var"
-  };
+  const marketDefinitions = [
+    ["Maç Sonucu 1", ["ms1", "one", "oneOdd", "odd1", "ms_1"]],
+    ["Maç Sonucu X", ["msx", "draw", "drawOdd", "oddX", "x", "ms_x"]],
+    ["Maç Sonucu 2", ["ms2", "two", "twoOdd", "odd2", "ms_2"]],
+    ["2.5 Alt", ["under25", "alt25", "under", "alt", "under25_guess", "alt_25"]],
+    ["2.5 Üst", ["over25", "ust25", "over", "ust", "over25_guess", "ust_25"]],
+    ["3.5 Alt", ["under35", "alt35", "under3_5", "alt_35"]],
+    ["3.5 Üst", ["over35", "ust35", "over3_5", "ust_35"]],
+    ["KG Var", ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]],
+    ["KG Yok", ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"]],
+    ["İlk Yarı KG Var", ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "first_half_btts_yes"]],
+    ["İkinci Yarı KG Var", ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "second_half_btts_yes"]]
+  ];
 
   const addMarket = (list, seen, label, value) => {
     if (isEmpty(value)) return;
@@ -69,15 +66,18 @@
     list.push({ label, value });
   };
 
+  const readFromSource = (source, keys) => {
+    if (!source || typeof source !== "object" || Array.isArray(source)) return "";
+    for (const key of keys) {
+      const value = source[key];
+      if (!isEmpty(value)) return value;
+    }
+    return "";
+  };
+
   const objectMarkets = (list, seen, source) => {
     if (!source || typeof source !== "object" || Array.isArray(source)) return;
-    Object.entries(marketLabels).forEach(([key, label]) => addMarket(list, seen, label, source[key]));
-    Object.entries(source).forEach(([key, value]) => {
-      if (marketLabels[key]) return;
-      if (typeof value === "object") return;
-      const label = String(key).replaceAll("_", " ").replaceAll("-", " ");
-      addMarket(list, seen, label, value);
-    });
+    marketDefinitions.forEach(([label, keys]) => addMarket(list, seen, label, readFromSource(source, keys)));
   };
 
   const blockMarkets = (list, seen, blocks) => {
@@ -90,6 +90,8 @@
         Object.entries(block).forEach(([key, value]) => {
           if (["title", "name", "market", "label"].includes(key)) return;
           if (typeof value === "object") return;
+          const cleanKey = String(key).toLowerCase();
+          if (!/odd|oran|üst|ust|alt|kg|ms|btts|over|under|draw|one|two/.test(cleanKey)) return;
           addMarket(list, seen, `${title} ${key}`, value);
         });
       }
