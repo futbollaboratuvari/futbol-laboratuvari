@@ -2,7 +2,7 @@
   const KEY = "__flDailyWidget";
   if (window[KEY]?.off) window[KEY].off();
 
-  const app = { bulletin: [], live: [], mode: "bulletin", q: "", league: "all", timer: null };
+  const app = { bulletin: [], live: [], picks: new Map(), mode: "bulletin", q: "", league: "all", timer: null };
   window[KEY] = app;
 
   const $ = (s, r = document) => r.querySelector(s);
@@ -10,6 +10,8 @@
   const isBlank = (v) => { const t = String(v ?? "").trim(); return !t || t === "-" || t === "—" || /null|undefined/i.test(t); };
   const get = (m, k) => m?.[k] ?? m?.available_odds?.[k] ?? m?.odds?.[k] ?? m?.raw_market_guess_odds?.[k];
   const pick = (m, keys) => { for (const k of keys) { const v = get(m, k); if (!isBlank(v)) return v; } return ""; };
+  const n = (v) => Number(String(v ?? "").replace(",", ".").match(/\d+(\.\d+)?/)?.[0] || 0);
+  const fmt = (v) => n(v) ? n(v).toFixed(2) : "—";
   const isLive = (m) => /live|canlı|canli/.test(String(m.status || m.liveStatus || "").toLowerCase());
   const markets = [
     ["ms1", "1", ["ms1", "one", "oneOdd", "ms_1"]],
@@ -20,6 +22,7 @@
     ["bttsYes", "Var", ["bttsYes", "kgVar", "bttsYes_guess"]],
     ["bttsNo", "Yok", ["bttsNo", "kgYok", "bttsNo_guess"]],
   ];
+  const marketByKey = Object.fromEntries(markets.map(([key, label, keys]) => [key, { key, label, keys }]));
 
   function splitTeams(x) {
     return String(x.match || x.match_name || "").split(/\s+-\s+|\s+VS\s+/i);
@@ -59,11 +62,9 @@
   async function load() {
     const full = await readJson("./data/full-bulletin.json");
     const live = await readJson("./data/live-matches.json");
-
     const scheduled = Array.isArray(full?.matches) ? full.matches.map((x, i) => norm(x, i, "scheduled")) : [];
     const liveFromFull = Array.isArray(full?.live_matches) ? full.live_matches.map((x, i) => norm(x, i, "live")) : [];
     const liveFromFile = Array.isArray(live?.matches) ? live.matches.map((x, i) => norm(x, i, "live")) : [];
-
     app.bulletin = unique(scheduled.filter((m) => !isLive(m)));
     app.live = unique([...liveFromFull, ...liveFromFile].filter(isLive));
     draw();
@@ -82,20 +83,27 @@
       <div class="flw-top"><h2>Futbol Bülteni</h2><div><span>${app.bulletin.length} bülten</span> · <span>${app.live.length} canlı</span></div></div>
       <div class="flw-tabs"><button data-mode="bulletin" class="${app.mode === "bulletin" ? "on" : ""}">Tüm Bülten</button><button data-mode="live" class="${app.mode === "live" ? "on" : ""}">Canlı Bölüm</button></div>
       <div class="flw-filter"><input data-q value="${esc(app.q)}" placeholder="Maç veya lig ara"><select data-league></select><button data-refresh>Yenile</button></div>
-      <div class="flw-main"></div>`;
+      <div class="flw-layout"><div class="flw-main"></div><aside class="flw-slip"></aside></div>`;
   }
 
   function style() {
     if ($("#flw-style")) return;
     const s = document.createElement("style");
     s.id = "flw-style";
-    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button{background:#ffd400;color:#073d3b}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:880px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px)}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px}.flw-time{font-weight:1000;color:#006447}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950}@media(max-width:820px){.flw-filter{grid-template-columns:1fr}.flw-top{display:block}}`;
+    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px;cursor:pointer}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button,.flw-analyze,.flw-clear,.flw-remove{background:#ffd400;color:#073d3b;cursor:pointer}.flw-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:880px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px)}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px}.flw-time{font-weight:1000;color:#006447}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950;cursor:pointer}.flw-odd.on,.flw-odd:hover{background:#ffd400}.flw-slip{background:#092c2b;border-left:1px solid rgba(255,255,255,.14);padding:14px}.flw-slip h3{margin:0;color:#ffd400}.flw-card{margin-top:9px;padding:9px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(255,255,255,.05);font-size:11px}.flw-flex{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#ffd400;font-weight:950}.flw-act{display:grid;gap:8px;margin-top:9px}.flw-analyze,.flw-clear,.flw-remove{border:0;border-radius:8px;font-weight:1000;padding:7px 9px}.flw-analysis{line-height:1.45;color:#dceee8}.flw-note{color:#a8c2ba;font-size:11px;margin-top:8px}@media(max-width:920px){.flw-filter{grid-template-columns:1fr}.flw-layout{display:block}.flw-slip{border-left:0}}`;
     document.head.appendChild(s);
   }
 
   function visible() {
     const base = app.mode === "live" ? app.live : app.bulletin;
     return base.filter((m) => (app.league === "all" || m.league === app.league) && (!app.q || `${m.home} ${m.away} ${m.league}`.toLocaleLowerCase("tr-TR").includes(app.q)));
+  }
+
+  function oddBtn(m, key, label, keys) {
+    const value = pick(m, keys);
+    if (isBlank(value)) return `<button class="flw-odd" disabled>—</button>`;
+    const on = app.picks.get(m._id)?.key === key ? " on" : "";
+    return `<button class="flw-odd${on}" data-pick="${esc(m._id)}" data-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button>`;
   }
 
   function drawRows() {
@@ -116,16 +124,62 @@
     let last = "";
     list.forEach((m) => {
       if (m.league !== last) { last = m.league; html += `<div class="flw-league">${esc(m.date)} · ${esc(last)}</div>`; }
-      html += `<div class="flw-row"><div class="flw-time">${app.mode === "live" ? `CANLI ${esc(m.minute || "")}` : esc(m.time)}</div><div>${esc(m.league)}</div><div class="flw-teams"><b>${esc(m.home)} - ${esc(m.away)}</b><span class="flw-code">Kod: ${esc(m.matchCode || m.match_code || m._id)}</span></div>${markets.map(([key, label, keys]) => `<div><button class="flw-odd" title="${esc(label)}">${esc(pick(m, keys) || "—")}</button></div>`).join("")}</div>`;
+      html += `<div class="flw-row"><div class="flw-time">${app.mode === "live" ? `CANLI ${esc(m.minute || "")}` : esc(m.time)}</div><div>${esc(m.league)}</div><div class="flw-teams"><b>${esc(m.home)} - ${esc(m.away)}</b><span class="flw-code">Kod: ${esc(m.matchCode || m.match_code || m._id)}</span></div>${markets.map(([key, label, keys]) => `<div>${oddBtn(m, key, label, keys)}</div>`).join("")}</div>`;
     });
     box.innerHTML = html + `</div>`;
   }
 
-  function draw() { ensureRoot(); style(); drawRows(); }
+  function proComment(p) {
+    const odd = n(p.value);
+    if (odd >= 3.5) return "Pro 12.2: oran yüksek, risk de yüksek; tekli veya düşük stake daha uygun.";
+    if (odd >= 2.1) return "Pro 12.2: dengeli oran; maç verisi destekliyorsa kupona aday.";
+    if (odd > 0 && odd < 1.5) return "Pro 12.2: oran düşük, değer sınırlı; dikkatli değerlendir.";
+    return "Pro 12.2: veri sınırlı; canlı akış ve oran hareketi beklenmeli.";
+  }
+
+  function drawSlip() {
+    const slip = $(".flw-slip");
+    if (!slip) return;
+    const picks = [...app.picks.values()];
+    const odds = picks.map((p) => n(p.value)).filter(Boolean);
+    const total = odds.length === picks.length && odds.length ? odds.reduce((a, b) => a * b, 1) : 0;
+    slip.innerHTML = `<h3>Kuponum</h3>${picks.length ? picks.map((p) => `<div class="flw-card"><b>${esc(p.home)} - ${esc(p.away)}</b><div class="flw-flex"><span>${esc(p.label)}</span><b>${esc(fmt(p.value))}</b><button class="flw-remove" data-remove="${esc(p.id)}">Sil</button></div></div>`).join("") + `<div class="flw-card"><div class="flw-flex"><span>Toplam Oran</span><b>${esc(fmt(total))}</b></div><div class="flw-act"><button class="flw-analyze" data-analyze>Analiz Et</button><button class="flw-clear" data-clear>Temizle</button></div></div><div data-analysis></div>` : `<div class="flw-empty">Orana tıklayınca seçim burada listelenir.</div><div class="flw-note">Tüm Bülten ve Canlı Bölüm ayrımı korunur.</div>`}`;
+  }
+
+  function analyze() {
+    const out = $("[data-analysis]");
+    if (!out) return;
+    const picks = [...app.picks.values()];
+    if (!picks.length) return;
+    const scores = picks.map((p) => Math.max(1, Math.min(99, Math.round((n(p.value) ? 100 / n(p.value) : 45) + 4))));
+    const avg = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+    const risk = avg >= 60 ? "Kontrollü oynanabilir" : avg >= 45 ? "Orta risk" : "Yüksek risk";
+    out.innerHTML = `<div class="flw-card flw-analysis"><b>Pro 12.2 Kısa Yorum</b><p>Ortalama skor: %${avg} · ${esc(risk)}</p>${picks.map((p, i) => `<p><b>${esc(p.label)} · ${esc(fmt(p.value))} · %${scores[i]}</b><br>${esc(proComment(p))}</p>`).join("")}</div>`;
+  }
+
+  function draw() { ensureRoot(); style(); drawRows(); drawSlip(); }
+
+  function select(id, key) {
+    const item = [...app.bulletin, ...app.live].find((m) => m._id === id);
+    const market = marketByKey[key];
+    if (!item || !market) return;
+    const value = pick(item, market.keys);
+    if (isBlank(value)) return;
+    if (app.picks.get(id)?.key === key) app.picks.delete(id);
+    else app.picks.set(id, { id, key, label: market.label, value, home: item.home, away: item.away });
+    drawRows();
+    drawSlip();
+  }
 
   app.click = (e) => {
     const mode = e.target.closest("[data-mode]");
     if (mode) { app.mode = mode.dataset.mode === "live" ? "live" : "bulletin"; app.league = "all"; draw(); return; }
+    const p = e.target.closest("[data-pick]");
+    if (p) { select(p.dataset.pick, p.dataset.key); return; }
+    const rm = e.target.closest("[data-remove]");
+    if (rm) { app.picks.delete(rm.dataset.remove); drawRows(); drawSlip(); return; }
+    if (e.target.closest("[data-clear]")) { app.picks.clear(); drawRows(); drawSlip(); return; }
+    if (e.target.closest("[data-analyze]")) { analyze(); return; }
     if (e.target.closest("[data-refresh]")) load();
   };
   app.input = (e) => {
