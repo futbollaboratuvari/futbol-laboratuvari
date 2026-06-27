@@ -123,26 +123,43 @@ const analysisCommentCard = (item, index) => `
   </article>
 `;
 
-const setSummary = (activeItems, source = "PRO analiz bekleniyor") => {
+const bulletinMatchCount = (payload) => {
+  const directCount = Number(payload?.match_count ?? payload?.counts?.total ?? 0);
+  if (Number.isFinite(directCount) && directCount > 0) return directCount;
+  return Array.isArray(payload?.matches) ? payload.matches.length : 0;
+};
+
+const setSummary = (activeItems, source = "PRO analiz bekleniyor", bulletinPayload = null) => {
   const activeSource = document.querySelector("[data-active-source]");
   const predictionCount = document.querySelector("[data-prediction-count]");
+  const matchCountEl = document.querySelector("[data-match-count]");
+  const todayCount = document.querySelector("#today-count");
+  const avgConfidence = document.querySelector("#avg-confidence");
+  const topMarket = document.querySelector("#top-market");
+  const matchCount = bulletinMatchCount(bulletinPayload);
+  const hasBulletin = matchCount > 0;
+  const effectiveSource = hasBulletin ? (bulletinPayload?.source || source || "Güncel bülten") : source;
 
   if (predictionCount) predictionCount.textContent = String(activeItems.length);
-  if (activeSource) activeSource.textContent = source;
+  if (activeSource) activeSource.textContent = effectiveSource;
+  if (matchCountEl) matchCountEl.textContent = hasBulletin ? String(matchCount) : "-";
+  if (todayCount) todayCount.textContent = hasBulletin ? `${matchCount} maç` : "Hazırlanıyor";
+  if (avgConfidence) avgConfidence.textContent = activeItems.length ? "PRO analiz geldi" : (hasBulletin ? "Veri geldi" : "Veri bekleniyor");
+  if (topMarket) topMarket.textContent = activeItems.length ? "Günün seçimi hazırlanıyor" : (hasBulletin ? "Analiz bekleniyor" : "Günün seçimi hazırlanıyor");
 
   document.querySelectorAll("[data-load-status]").forEach((item) => {
-    item.textContent = activeItems.length ? "PRO robot analizi" : "PRO analiz bekleniyor";
+    item.textContent = activeItems.length ? "PRO robot analizi" : (hasBulletin ? "Güncel veri geldi" : "PRO analiz bekleniyor");
   });
 };
 
-const renderProAnalysisCenter = (payload) => {
+const renderProAnalysisCenter = (payload, bulletinPayload = null) => {
   const visibleItems = (Array.isArray(payload?.active_items) ? payload.active_items : []).filter(hasRealProSignals);
   const candidateItems = visibleItems.filter(isCandidateItem);
 
   if (analysisList) {
     analysisList.innerHTML = visibleItems.length
       ? visibleItems.map(analysisCommentCard).join("")
-      : emptyBox("Maç yorumları için PRO robot analizi bekleniyor. Form, istatistik, oran, haber/durum veya robot katmanı olmadan yorum üretilmez.");
+      : emptyBox("Maç listesi geldi; maç bazlı PRO analiz çıktısı bekleniyor.");
   }
 
   if (strongestPickCard) {
@@ -150,19 +167,26 @@ const renderProAnalysisCenter = (payload) => {
       ? couponCard(candidateItems[0])
       : emptyBox(visibleItems.length
         ? `${visibleItems.length} robot kaydı geldi ancak kupon/izleme eşiğini geçen güçlü aday yok.`
-        : "Günün seçimi yalnızca gerçek PRO analiz çıktısı geldikten sonra gösterilecek.");
+        : "Maç listesi geldi; günün seçimi PRO analiz çıktısı oluşunca gösterilecek.");
   }
 
-  setSummary(visibleItems, payload?.source || "PRO analiz bekleniyor");
+  setSummary(visibleItems, payload?.source || "PRO analiz bekleniyor", bulletinPayload);
 };
 
 const loadProAnalysisCenter = async () => {
-  const payload = await readJson("./data/analiz_sonuclari.json", {
-    source: "PRO analiz bekleniyor",
-    active_items: [],
-    completed_items: [],
-  });
-  renderProAnalysisCenter(payload);
+  const [payload, bulletinPayload] = await Promise.all([
+    readJson("./data/analiz_sonuclari.json", {
+      source: "PRO analiz bekleniyor",
+      active_items: [],
+      completed_items: [],
+    }),
+    readJson("./data/full-bulletin.json", {
+      source: "Güncel bülten bekleniyor",
+      match_count: 0,
+      matches: [],
+    }),
+  ]);
+  renderProAnalysisCenter(payload, bulletinPayload);
 };
 
 const renderFixtures = () => {
@@ -246,3 +270,15 @@ fixtureTabs.forEach((tab) => {
 });
 
 init();
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    nav?.classList.remove("open");
+    menuButton?.setAttribute("aria-expanded", "false");
+  });
+});
+
+menuButton?.addEventListener("click", () => {
+  const open = nav?.classList.toggle("open");
+  menuButton.setAttribute("aria-expanded", String(open));
+});
