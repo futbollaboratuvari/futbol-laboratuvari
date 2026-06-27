@@ -21,7 +21,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: npm run update:all
+      - run: |
+          npm run update:fixtures
+          npm run update:analysis
+          npm run export:live
+          npm run build:live
+          npm run sync:results
+          npm run check:learning
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto live data and robot analysis update"
