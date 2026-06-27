@@ -12,6 +12,21 @@ const twoDayPath = path.join(dataDir, "two-day-bulletin.json");
 const MACKOLIK_IDDAA_URL = "https://arsiv.mackolik.com/Iddaa-Programi";
 const NEXT_DAY_EARLY_END_MINUTES = 8 * 60;
 const LIVE_WINDOW_MINUTES = 130;
+const EXTRA_MARKET_KEYS = [
+  "hnd1", "hndX", "hnd2", "hnd01", "hnd10", "hnd20", "hnd02",
+  "under05", "over05", "under15", "over15", "under35", "over35", "under45", "over45",
+  "htFt11", "htFt1X", "htFt12", "htFtX1", "htFtXX", "htFtX2", "htFt21", "htFt2X", "htFt22",
+  "ms1Under15", "msxUnder15", "ms2Under15", "ms1Over15", "msxOver15", "ms2Over15",
+  "ms1Under25", "msxUnder25", "ms2Under25", "ms1Over25", "msxOver25", "ms2Over25",
+  "ms1Under35", "msxUnder35", "ms2Under35", "ms1Over35", "msxOver35", "ms2Over35",
+  "ms1Under45", "msxUnder45", "ms2Under45", "ms1Over45", "msxOver45", "ms2Over45",
+  "ms1KgVar", "msxKgVar", "ms2KgVar", "ms1KgYok", "msxKgYok", "ms2KgYok",
+  "goals01", "goals23", "goals45", "goals6plus",
+  "halfTimeFullScore", "firstHalfScore", "correctScore10", "correctScore20", "correctScore21", "correctScore00", "correctScore11", "correctScore22", "correctScore01", "correctScore02", "correctScore12", "correctScoreOther",
+  "firstSecondBttsYesYes", "firstSecondBttsYesNo", "firstSecondBttsNoYes", "firstSecondBttsNoNo",
+  "mostGoalsFirstHalf", "mostGoalsSecondHalf", "mostGoalsEqual", "totalOdd", "totalEven",
+  "cornerOver85", "cornerOver95", "cardOver35", "cardOver45", "homeShots10", "awayShots10", "totalShots21", "totalShots25"
+];
 
 const ensureDir = () => fs.mkdirSync(dataDir, { recursive: true });
 
@@ -147,6 +162,10 @@ const pick = (item, keys) => {
   return null;
 };
 
+const collectExtraOdds = (item) => Object.fromEntries(EXTRA_MARKET_KEYS
+  .map((key) => [key, pick(item, [key, `${key}_guess`])])
+  .filter(([, value]) => value !== null));
+
 const isLeagueLine = (line) => {
   const text = String(line || "").replace(/\s+/g, " ").trim();
   if (!text || text.length < 4) return false;
@@ -209,6 +228,18 @@ const normalizeFixture = (item, sourceName = "Yerel veri") => {
   if (!date || !time || !home || !away) return null;
   const status = statusFromTime(date, time, item?.status || item?.liveStatus);
   const minute = minuteFromStatus(date, time, item?.minute || item?.elapsed || item?.matchMinute, status);
+  const extraOdds = collectExtraOdds(item);
+  const odds = {
+    ...extraOdds,
+    ms1: pick(item, ["ms1", "one", "oneOdd", "odd1", "ms_1"]),
+    msx: pick(item, ["msx", "draw", "drawOdd", "oddX", "ms_x"]),
+    ms2: pick(item, ["ms2", "two", "twoOdd", "odd2", "ms_2"]),
+    under25: pick(item, ["under25", "alt25", "under", "alt", "alt_25"]),
+    over25: pick(item, ["over25", "ust25", "over", "ust", "ust_25"]),
+    bttsYes: pick(item, ["bttsYes", "kgVar", "kg_var", "varOdd", "var"]),
+    bttsNo: pick(item, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok"]),
+  };
+  const cleanOdds = Object.fromEntries(Object.entries(odds).filter(([, value]) => value !== null));
   return {
     date,
     time,
@@ -221,17 +252,17 @@ const normalizeFixture = (item, sourceName = "Yerel veri") => {
     minute,
     score: item?.score || "",
     source: item?.source || sourceName,
-    odds: {
-      ms1: pick(item, ["ms1", "one", "oneOdd", "odd1", "ms_1"]),
-      msx: pick(item, ["msx", "draw", "drawOdd", "oddX", "ms_x"]),
-      ms2: pick(item, ["ms2", "two", "twoOdd", "odd2", "ms_2"]),
-      under25: pick(item, ["under25", "alt25", "under", "alt", "alt_25"]),
-      over25: pick(item, ["over25", "ust25", "over", "ust", "ust_25"]),
-      bttsYes: pick(item, ["bttsYes", "kgVar", "kg_var", "varOdd", "var"]),
-      bttsNo: pick(item, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok"]),
-    },
+    odds: cleanOdds,
+    available_odds: cleanOdds,
+    raw_market_guess_odds: item?.raw_market_guess_odds || extraOdds,
+    raw_odds_sequence: item?.raw_odds_sequence || [],
+    raw_market_value_count: item?.raw_market_value_count || Object.keys(cleanOdds).length,
   };
 };
+
+const mapExtraFromOdds = (odds, startIndex = 8) => Object.fromEntries(EXTRA_MARKET_KEYS
+  .map((key, index) => [key, odds[startIndex + index] ?? null])
+  .filter(([, value]) => value !== null));
 
 const parseMackolikHtml = (html) => {
   const window = baseWindow();
@@ -271,6 +302,9 @@ const parseMackolikHtml = (html) => {
       twoOdd: odds[2] ?? null,
       under25: odds[3] ?? null,
       over25: odds[4] ?? null,
+      raw_market_guess_odds: mapExtraFromOdds(odds),
+      raw_odds_sequence: odds,
+      raw_market_value_count: odds.length,
       source: "Mackolik Iddaa Programi",
     }, "Mackolik Iddaa Programi"));
   }
@@ -333,6 +367,7 @@ const buildBulletin = async () => {
     live_count: liveCount,
     scheduled_count: scheduledCount,
     finished_count: finishedCount,
+    wide_market_odds_count: matches.reduce((sum, item) => sum + Object.keys(item.available_odds || {}).length, 0),
     matches,
   };
 };
@@ -341,7 +376,7 @@ const main = async () => {
   ensureDir();
   const bulletin = await buildBulletin();
   writeJson(outputPath, bulletin);
-  console.log(`Tam bulten olusturuldu. Mac: ${bulletin.match_count}. Canli: ${bulletin.live_count}.`);
+  console.log(`Tam bulten olusturuldu. Mac: ${bulletin.match_count}. Canli: ${bulletin.live_count}. Genis oran: ${bulletin.wide_market_odds_count}.`);
 };
 
 if (require.main === module) {
