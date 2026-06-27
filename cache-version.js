@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260627-single-bulletin-v2";
+  const version = "20260627-selection-analysis-step1";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -41,4 +41,5 @@
   loadScript("mobile-hero-panel-fix.js", "mobile-hero-panel-fix-script");
   loadScript("kupon-center-fallback.js", "kupon-center-fallback-script");
   loadScript("widget-navigation-buttons.js", "widget-navigation-buttons-script");
+  loadScript("selection-analysis-patch.js", "selection-analysis-patch-script");
 })();
