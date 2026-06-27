@@ -67,6 +67,9 @@ jobs:
         run: |
           node scripts/rebuild-spor-toto-bulletin.js
           node scripts/two-day-bulletin-window.js
+          node scripts/build-full-bulletin.js || true
+          node scripts/repair-bulletin-flow.js
+          node scripts/full-bulletin-output-check.js
 
       - name: Build detail candidates
         continue-on-error: true
