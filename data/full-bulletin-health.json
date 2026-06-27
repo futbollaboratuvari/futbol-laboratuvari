@@ -1,34 +1,49 @@
 {
-  "generated_at": "2026-06-27T20:41:06.165Z",
+  "generated_at": "2026-06-27T20:42:18.611Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
-  "match_count": 11,
-  "early_match_count": 0,
-  "live_match_count": 0,
+  "restored_from_cache": false,
+  "match_count": 0,
+  "live_match_count": 5,
+  "finished_count": 0,
   "first_match": {
     "date": "2026-06-27",
-    "time": "20:00",
-    "league": "Gürcistan Süper Kupa Yarı Final",
-    "home": "Dila Gori",
-    "away": "Torpedo Kutaisi",
-    "matchCode": "05588",
-    "status": "scheduled",
-    "liveStatus": "scheduled",
+    "time": "21:45",
+    "league": "İrlanda Premier Lig",
+    "home": "Sligo Rovers",
+    "away": "Shelbourne",
+    "matchCode": "13683",
+    "status": "live",
+    "liveStatus": "live",
+    "minute": 90,
+    "score": "",
+    "source": "Maçkolik canlı robot",
+    "odds": {
+      "ms1": 3.91,
+      "msx": 3.13,
+      "ms2": 1.5,
+      "under25": 1.56,
+      "over25": 1.68
+    },
     "available_odds": {
-      "ms1": 2.14,
-      "msx": 2.56,
-      "ms2": 2.62,
-      "under25": 1.3,
-      "over25": 2.14
-    }
+      "ms1": 3.91,
+      "msx": 3.13,
+      "ms2": 1.5,
+      "under25": 1.56,
+      "over25": 1.68
+    },
+    "raw_market_guess_odds": {},
+    "raw_odds_sequence": [],
+    "raw_market_value_count": 5
   },
   "date_window": {
     "main_day": "2026-06-27",
     "includes_next_day_until": "2026-06-28 08:00"
   },
   "notes": [
-    "full-bulletin.json veri uretti.",
-    "Erken saat maci yok veya kaynakta bulunamadi."
+    "Bulten veri akisi aktif.",
+    "Biten maclar ana bultenden cikarildi.",
+    "Baslayan maclar live_matches alanina ayrildi."
   ]
 }

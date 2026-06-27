@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 27.06.2026 23:41:07
-=======
-Oluşturma: 27.06.2026 23:41:44
->>>>>>> Stashed changes
+Oluşturma: 27.06.2026 23:42:19
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 1
+- Bekleyen tahmin: 1
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 1
+- Seçenek sayısı: 1
 
 ## Öğrenme Mantığı
 
@@ -24,8 +20,9 @@ Oluşturma: 27.06.2026 23:41:44
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-06-27 | Finlandiya Ykkönen | Rops - Salpa Salo | MS X | pending | 60/100
 

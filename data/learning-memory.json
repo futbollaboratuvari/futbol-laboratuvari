@@ -1,26 +1,77 @@
 {
   "schema_version": "learning_memory_v1",
-  "created_at": "2026-06-27T16:46:30.346Z",
-<<<<<<< Updated upstream
-  "updated_at": "2026-06-27T20:41:07.453Z",
-=======
-  "updated_at": "2026-06-27T20:41:44.149Z",
->>>>>>> Stashed changes
+  "created_at": "2026-06-27T20:42:19.125Z",
+  "updated_at": "2026-06-27T20:42:19.451Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 0,
-    "pending_predictions": 0,
+    "total_predictions": 1,
+    "pending_predictions": 1,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 0,
-    "market_count": 0,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "league_count": 1,
+    "market_count": 1,
+    "added_predictions": 1,
+    "updated_predictions": 0,
+    "last_score_link_checked": 1,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
-  "market_memory": {},
-  "league_memory": {},
-  "league_market_memory": {},
-  "predictions": []
+  "market_memory": {
+    "MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_memory": {
+    "Finlandiya Ykkönen": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_market_memory": {
+    "Finlandiya Ykkönen :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "predictions": [
+    {
+      "id": "2026-06-27|finlandiya ykkonen|rops salpa salo|ms x|22 15",
+      "date": "2026-06-27",
+      "created_at": "2026-06-27T20:42:19.127Z",
+      "match_name": "Rops - Salpa Salo",
+      "league": "Finlandiya Ykkönen",
+      "start_time": "22:15",
+      "market": "MS X",
+      "odds": "3.25",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    }
+  ]
 }
