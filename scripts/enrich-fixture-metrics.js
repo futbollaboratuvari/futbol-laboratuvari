@@ -151,6 +151,14 @@ function withFallback(current, fallback) {
   return current !== null && current !== undefined ? current : fallback;
 }
 
+function collectWideOdds(match) {
+  const source = {
+    ...(match.available_odds || {}),
+    ...(match.raw_market_guess_odds || {})
+  };
+  return Object.fromEntries(Object.entries(source).filter(([, value]) => parseOdd(value)));
+}
+
 function enrichFixture(match, archiveRows) {
   const home = match.home || match.home_team_name || '';
   const away = match.away || match.away_team_name || '';
@@ -217,6 +225,14 @@ function enrichFixture(match, archiveRows) {
   setMetric('secondHalfGoalTrend', secondHalfGoalTrend);
   setMetric('leagueGoalAverage', leagueGoalAverage);
 
+  const wideOdds = collectWideOdds(enriched);
+  enriched.available_odds = {
+    ...(enriched.available_odds || {}),
+    ...wideOdds
+  };
+  enriched.market_odds_inventory = Object.keys(enriched.available_odds || {});
+  enriched.wide_market_odds_count = Object.keys(wideOdds).length;
+  enriched.wide_market_learning_source = 'fixture_odds_inventory';
   enriched.metric_source = enriched.metric_source || metricSource;
   enriched.metric_quality = archiveAvailable ? 'medium' : 'proxy';
   enriched.metric_notes = enriched.metric_notes || [
@@ -224,6 +240,7 @@ function enrichFixture(match, archiveRows) {
       ? 'Form metrikleri robot maç arşivi ve oran sinyaliyle zenginleştirildi.'
       : 'Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.'
   ];
+  if (Object.keys(wideOdds).length) enriched.metric_notes.push('Geniş market oran envanteri robot öğrenme verisine eklendi.');
   enriched.home_form_profile = enriched.home_form_profile || homeProfile;
   enriched.away_form_profile = enriched.away_form_profile || awayProfile;
   enriched.league_goal_profile = enriched.league_goal_profile || leagueProfile;
@@ -240,7 +257,8 @@ function main() {
   writeJson(fixturesFile, enriched);
   const proxyCount = enriched.filter((item) => item.metric_source === 'odds_proxy_pending_form_archive').length;
   const archiveCount = enriched.filter((item) => item.metric_source === 'archive_plus_odds').length;
-  console.log(`Fixture metrics enriched. Total: ${enriched.length}. Archive: ${archiveCount}. Proxy: ${proxyCount}.`);
+  const wideCount = enriched.reduce((sum, item) => sum + Number(item.wide_market_odds_count || 0), 0);
+  console.log(`Fixture metrics enriched. Total: ${enriched.length}. Archive: ${archiveCount}. Proxy: ${proxyCount}. Wide odds: ${wideCount}.`);
 }
 
 if (require.main === module) main();
