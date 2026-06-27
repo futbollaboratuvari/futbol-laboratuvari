@@ -2,6 +2,23 @@
 
 Bu tek mega hafiza dosyasi video marketleri, veri akisi, robot egitimi, detay market secimi ve Mackolik detay tiklama robotu calismasini bir arada tutar.
 
+## Zorunlu Calisma Anlasmasi
+
+Kullanici ile net anlasma:
+
+1. Kullanici ne istiyorsa sadece o yapilacak.
+2. Kullanici istemedigi dosyaya dokunulmayacak.
+3. Yeni dosya veya klasor acilmayacak; ancak kullanici acikca isterse acilacak.
+4. Kafaya gore tasarim, robot, veri akisi, analiz veya ekstra ozellik eklenmeyecek.
+5. Isleme baslamadan once hangi dosyada calisilacagi soylenir.
+6. Sadece soylenen dosya icinde islem yapilir.
+7. Is bitince kisa rapor verilir: dosya adi, commit ve ne degisti.
+8. Sitede gorunmeyen is tamamlandi sayilmaz.
+9. Kullanici bir alan isterse sadece o alan duzenlenir; baska alana girilmez.
+10. Oncelik: mevcut dosyalarda kucuk ve kontrollu duzenleme.
+
+Bu kural Futbol Laboratuvari calismalarinda en ust kuraldir.
+
 ## Market Kapsami
 
 HND, IY/MS, MS+Alt/Ust, MS+KG, 0.5/1.5/3.5/4.5 Alt-Ust, gol araliklari, ilk yari/mac skoru, dogru skor, 1Y/2Y KG, tek/cift, korner, kart ve takim sut marketleri sisteme dahil edildi.
