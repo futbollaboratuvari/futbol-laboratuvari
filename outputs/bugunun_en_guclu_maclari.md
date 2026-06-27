@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-06-27T23:05:46.337Z
+- Güncelleme: 2026-06-27T23:33:14.721Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -98,6 +98,18 @@
 | Curico VS Univ De Concepc | Şili Kupa Grup F | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Junior Lone St VS Ocean City | ABD USL Lig 2 Orta Atlantik Grubu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Seacoast Unite VS Black Rock | ABD USL Lig 2 Kuzeydoğu Grubu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| O Higgins VS Recoleta | Şili Kupa Grup E | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Csd Rangers VS Atletico Nublen | Şili Kupa Grup F | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Univ. De Şili VS Union San Felip | Şili Kupa Grup D | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Nautico VS Goias | Brezilya Serie B | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Fortaleza Ce VS Sport Recife | Brezilya Serie B | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Bangers VS Bigfoot | ABD USL Lig 2 Kuzeybatı Grubu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Weston VS Lakeland United | ABD USL Lig 2 Güney Florida Grubu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Cavalry VS Supra Du Québec | Kanada Premier Lig | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Tacoma Stars VS West Seattle Ju | ABD USL Lig 2 Kuzeybatı Grubu | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Southern Socce VS Dothan United | ABD USL Lig 2 Güney Merkez Grubu | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Puerto Montt VS Concepcion | Şili Kupa Grup H | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Miami Ac VS Brevard Fire | ABD USL Lig 2 Güney Florida Grubu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |

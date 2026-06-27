@@ -2,7 +2,7 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 87
+- Scheduled match count: 99
 - Live match count: 0
 - Finished removed count: 0
 

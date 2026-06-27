@@ -1,11 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-06-28 / 2026-06-29
-Ham mac: 87
-Aktif mac: 87
+Ham mac: 99
+Aktif mac: 99
 Bultenden dusurulen mac: 0
 Bugun: 87
-Yarin: 0
+Yarin: 12
 
 - 2026-06-28 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Tuggeranong Uni
 - 2026-06-28 08:00 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Brindabella Blu
@@ -94,3 +94,15 @@ Yarin: 0
 - 2026-06-28 23:00 | Şili Kupa Grup F | Curico - Univ De Concepc
 - 2026-06-28 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Junior Lone St - Ocean City
 - 2026-06-28 23:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Seacoast Unite - Black Rock
+- 2026-06-29 00:00 | Şili Kupa Grup E | O Higgins - Recoleta
+- 2026-06-29 00:00 | Şili Kupa Grup F | Csd Rangers - Atletico Nublen
+- 2026-06-29 00:30 | Şili Kupa Grup D | Univ. De Şili - Union San Felip
+- 2026-06-29 00:30 | Brezilya Serie B | Nautico - Goias
+- 2026-06-29 00:30 | Brezilya Serie B | Fortaleza Ce - Sport Recife
+- 2026-06-29 01:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bangers - Bigfoot
+- 2026-06-29 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Lakeland United
+- 2026-06-29 02:00 | Kanada Premier Lig | Cavalry - Supra Du Québec
+- 2026-06-29 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars - West Seattle Ju
+- 2026-06-29 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - Dothan United
+- 2026-06-29 03:00 | Şili Kupa Grup H | Puerto Montt - Concepcion
+- 2026-06-29 03:00 | ABD USL Lig 2 Güney Florida Grubu | Miami Ac - Brevard Fire

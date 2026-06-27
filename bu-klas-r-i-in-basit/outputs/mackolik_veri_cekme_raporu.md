@@ -1,19 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-27T23:05:39.672714+00:00
+Tarih: 2026-06-27T23:33:06.935181+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 88
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 100
+- Kac mac kaydedildi: 12
 - Kac mac zaten vardi: 88
-- Ham veri havuzu toplam mac sayisi: 731
+- Ham veri havuzu toplam mac sayisi: 743
 - Hedef tarih: 28.06.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
 - ABD USL Lig 2 Kuzeydoğu Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
 - Avrupa U19 Şampiyonası Grup A
@@ -34,6 +37,7 @@ Tarih: 2026-06-27T23:05:39.672714+00:00
 - Finlandiya Ykkösliiga
 - Güney Kore K3 Ligi
 - Hazırlık Kulüpler
+- Kanada Premier Lig
 - Kazakistan Premier Lig
 - Letonya 1.Lig
 - Litvanya 1.Lig
@@ -58,6 +62,7 @@ Tarih: 2026-06-27T23:05:39.672714+00:00
 - İzlanda Urvalsdeild
 - Şili Kupa Grup C
 - Şili Kupa Grup D
+- Şili Kupa Grup E
 - Şili Kupa Grup F
 - Şili Kupa Grup H
 
