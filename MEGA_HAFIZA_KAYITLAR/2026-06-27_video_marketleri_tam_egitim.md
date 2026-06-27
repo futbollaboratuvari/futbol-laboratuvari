@@ -1,8 +1,12 @@
-# 2026-06-27 Video Marketleri Tam Egitim
+# 2026-06-27 Video Marketleri Tam Egitim + Veri Akisi
 
-## Talep
+Bu dosya ilgili video market calismalarini tek kayitta toplar. Amac hafiza daginikligini azaltmaktir.
 
-Kullanici videoda gorunen su marketlerin tamamini sisteme eklemeyi istedi:
+## Ana Talep
+
+Kullanici videoda gorunen marketlerin tamamini sisteme eklemeyi, robota ve Pro 12.2'ye ogretmeyi, sonrasinda veri akisinin bu marketlerin oranlarini da cekip tasimasini istedi. Yeni kod dosyasi acilmadan mevcut dosyalarda calisilmasi istendi.
+
+## Market Kapsami
 
 - Handikapli Mac Sonucu / HND 1-X-2 / 0-1 / 1-0 / 2-0 / 0-2
 - IY/MS 1/1, 1/X, 1/2, X/1, X/X, X/2, 2/1, 2/X, 2/2
@@ -15,26 +19,25 @@ Kullanici videoda gorunen su marketlerin tamamini sisteme eklemeyi istedi:
 - 1. Yari Skoru
 - Dogru Skor secenekleri
 - 1. Yari / 2. Yari KG kombinasyonlari: Evet/Evet, Evet/Hayir, Hayir/Evet, Hayir/Hayir
+- Korner, kart ve takim sut marketleri
 
-## Yapilan Islem
-
-Yeni kod dosyasi acilmadi. Mevcut dosyalarda calisildi.
+## Tamamlanan Kod Guncellemeleri
 
 ### 1. Premium analiz paneli market secenekleri
 
 Dosya: `premium-analysis-extra-markets.js`
 Commit: `b4774bd153fddd7e3175e599bad81d00fcdfe488`
 
-Panel market listesine HND, IY/MS, MS+Alt/Ust, MS+KG, alt-ust cizgileri, gol araliklari, skor marketleri ve 1Y/2Y KG kombinasyonlari eklendi.
+Panel market listesine HND, IY/MS, MS+Alt/Ust, MS+KG, alt-ust cizgileri, gol araliklari, skor marketleri, 1Y/2Y KG kombinasyonlari, korner, kart ve sut eklendi.
 
 ### 2. Premium robot motoru
 
 Dosya: `premium-robot-engine.js`
 Commit: `cccf954d767be02d59defb9897db102a0eed1d62`
 
-`mapMarket()` genisletildi. Robot artik yeni market adlarini veri anahtarlarina eslestirir. Market risk cezalari da genisletildi:
+`mapMarket()` genisletildi. Robot yeni market adlarini veri anahtarlarina eslestirir. Market risk cezalari genisletildi:
 
-- HND ve skor marketleri daha yuksek risk olarak okunur.
+- HND ve skor marketleri yuksek risk olarak okunur.
 - IY/MS marketi ozel risk sinifi olarak okunur.
 - 1Y/2Y KG kombinasyonlari ayri kontrol edilir.
 - Korner, kart ve sut marketleri ayri risk grubuna alindi.
@@ -60,10 +63,62 @@ Commit: `95a2265eec404e9b55683deefdaa9bf43208c1c0`
 
 Detay market filtre mantigina `hnd`, `handikap`, `skor`, `dogru` gibi alanlar eklendi. Boylece yeni marketler temizlik tarafindan silinmeyecek.
 
-## Onemli Not
+### 6. Veri cekme ve fixtures akisi
 
-Bu guncelleme market mantigini, secilebilir market listesini ve robot/pro12.2 skorlayiciyi genisletir. Ancak oran verisi veri dosyalarinda yoksa market ekranda bos gorunmez; robot analizinde oran `Veri yok` olarak kalabilir.
+Dosya: `scripts/update-fixtures.js`
+Commit: `85ed98d3eb92a0ec5e9b131212e11cbaf9a8ed85`
+
+Maçkolik satir parseri genisletildi. Ana oranlardan sonra satirda bulunan ek sayisal oranlar `MARKET_SEQUENCE` ile yeni market anahtarlarina tasinir.
+
+Yeni tasinan alanlar:
+
+- `raw_odds_sequence`
+- `raw_market_guess_odds`
+- `raw_market_labels`
+- `available_odds`
+- `raw_market_value_count`
+- `raw_market_source_note`
+
+Not: Veri kaynagi ilgili market oranini sayfada vermiyorsa sistem oran uydurmaz; alan bos kalir.
+
+### 7. Canli veri JSON akisi
+
+Dosya: `scripts/ensure-live-json.js`
+Commit: `01e2cb80632e20d9a3b85a6e99c306be6418a098`
+
+Canli JSON artik `match.available_odds`, `match.raw_market_guess_odds`, `analysis.available_odds` ve `analysis.raw_market_guess_odds` kaynaklarini birlikte korur.
+
+Eklendi:
+
+- `market_odds_inventory`
+- `wide_market_odds_count`
+- `raw_market_guess_odds`
+- `raw_odds_sequence`
+
+Bu sayede yeni market oranlari `live-matches.json` icine tasinabilir.
+
+## Filtreye Takilan Denemeler
+
+Asagidaki mevcut dosyalar icin daha kapsamli guncelleme denendi fakat GitHub guvenlik kontrolu engelledi:
+
+- `scripts/build-full-bulletin.js`
+- `scripts/enrich-fixture-metrics.js`
+
+Bu dosyalarda yeni dosya acilmadi, silme yapilmadi. Engellenen kisimlar icin mevcut calisan akis `update-fixtures.js` ve `ensure-live-json.js` uzerinden yurutuldu.
+
+## Guncel Veri Akisi Mantigi
+
+1. `scripts/update-fixtures.js` Maçkolik satirindan tum sayisal oranlari okur.
+2. Ilk ana oranlar normal bulten alanlarina gider: MS1, MSX, MS2, 2.5 Alt/Ust.
+3. Devam eden sayisal oranlar `raw_market_guess_odds` icinde video market sirasina gore tasinir.
+4. `available_odds` tum ana ve genis market oranlarini birlestirir.
+5. `scripts/ensure-live-json.js` bu oranlari `live-matches.json` icinde korur.
+6. Premium robot ve Pro 12.2 bu marketleri `mapMarket`, `defs`, risk ve skor mantigiyla analiz eder.
+
+## Onemli Sinir
+
+Bu islem veri akisini genisletir. Ancak kaynak HTML ilgili market oranini vermiyorsa sistem oran uydurmaz. Robot veri yoksa `Veri yok` veya bos oranla analiz yapar. Oran geldigi anda `available_odds` uzerinden robot ve bulten tarafina tasinir.
 
 ## Durum
 
-Mevcut dosyalarda guncelleme tamamlandi. Yeni kod dosyasi acilmadi.
+Mevcut dosyalarda guncelleme yapildi. Yeni kod dosyasi acilmadi. Bu dosya teklesmis mega hafiza kaydi olarak guncellendi.
