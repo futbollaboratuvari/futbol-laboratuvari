@@ -7,6 +7,13 @@
     const f = String(v || "").replace(",", ".").match(/\d+(?:\.\d+)?/);
     return f ? Number(f[0]) : null;
   };
+  const injectStyle = () => {
+    if (one("#fl-selection-analysis-style")) return;
+    const s = document.createElement("style");
+    s.id = "fl-selection-analysis-style";
+    s.textContent = `.fl-analysis-box{display:grid;gap:8px;margin-top:10px;padding:10px;border:1px solid rgba(255,212,0,.28);border-radius:12px;background:rgba(255,212,0,.08)}.fl-analysis-box strong{color:#ffd400}.fl-analysis-note{font-size:12px;color:#d7eee6;line-height:1.4}.fl-analysis-pick{padding:8px;border-radius:9px;background:rgba(255,255,255,.06);font-size:12px;color:#d7eee6}.fl-coupon-archive{margin:18px clamp(12px,4vw,70px);padding:14px;border:1px solid rgba(255,212,0,.28);border-radius:16px;background:#083734;color:#f6fff8}.fl-archive-head,.fl-archive-meta{display:flex;justify-content:space-between;gap:8px;align-items:center}.fl-archive-head{margin-bottom:10px;color:#ffd400}.fl-archive-list{display:grid;gap:10px}.fl-archive-card{padding:10px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(255,255,255,.05)}.fl-archive-picks{display:grid;gap:4px;margin:8px 0;color:#d7eee6;font-size:12px}`;
+    document.head.appendChild(s);
+  };
   const patchButtons = () => {
     all("[data-create-coupon]").forEach((b) => {
       b.textContent = "Analiz Et";
@@ -36,7 +43,7 @@
     root = document.createElement("section");
     root.id = "fl-selection-analysis-reports";
     root.className = "fl-coupon-archive";
-    const target = one("#kuponlar") || one("#kupon") || one("[data-coupon-section]") || one("#daily-matches-widget")?.parentElement || document.body;
+    const target = one("#kuponlar") || one("#kupon") || one("[data-coupon-section]") || one("#robot-analizleri") || one("#daily-matches-widget")?.parentElement || document.body;
     target.appendChild(root);
     return root;
   };
@@ -65,6 +72,7 @@
     renderArchive();
   };
   const install = () => {
+    injectStyle();
     patchButtons();
     renderArchive();
     new MutationObserver(patchButtons).observe(document.documentElement, { childList: true, subtree: true });
