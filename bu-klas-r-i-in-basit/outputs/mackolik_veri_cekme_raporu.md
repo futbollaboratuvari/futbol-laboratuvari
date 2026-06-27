@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-27T12:20:15.579144+00:00
+Tarih: 2026-06-27T16:42:00.154751+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 112
+- Kac mac bulundu: 19
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 112
+- Kac mac zaten vardi: 19
 - Ham veri havuzu toplam mac sayisi: 643
 - Hedef tarih: 27.06.2026 Europe/Istanbul
 
@@ -16,40 +16,20 @@ Tarih: 2026-06-27T12:20:15.579144+00:00
 
 - ABD USL Lig 2 Heartland Grubu
 - ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Metropolitan Grubu
 - Avrupa U19 Şampiyonası Kadınlar Grup A
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Brezilya Serie B
-- Etiyopya Premier Lig
-- Fas Botola 2
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
-- Finlandiya Ykkösliiga
 - Gürcistan Süper Kupa Yarı Final
 - Hazırlık Kulüpler
-- Kazakistan Premier Lig
 - Letonya 1.Lig
-- Litvanya 1.Lig
 - Moldova Ulusal Lig
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
-- Norveç 3.Lig Grup 6
-- Tanzanya Kuu Bara Ligi
 - İran Azadegan Ligi
 - İrlanda Premier Lig
 - İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
-- İsveç Superettan
-- İzlanda 1.Lig
-- İzlanda 2.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -106,8 +86,8 @@ Tarih: 2026-06-27T12:20:15.579144+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 56
-- Acilan detay: 56
+- Denenen Tumu alani: 38
+- Acilan detay: 38
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -121,25 +101,24 @@ Tarih: 2026-06-27T12:20:15.579144+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 27.06.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Shelbourne | 13683 | 5 |
-| 27.06.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Kuopion | 11299 | 5 |
-| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Gnistan | Vaasa | 11432 | 5 |
-| 27.06.2026 | 17:00 | Finlandiya Veikkausliiga | Mariehamn | Inter Turku | 11360 | 5 |
 | 27.06.2026 | 21:00 | Finlandiya Veikkausliiga | Oulu | Lahti | 11585 | 5 |
-| 27.06.2026 | 19:00 | Finlandiya Veikkausliiga | Turku | Jaro | 11526 | 5 |
 | 27.06.2026 | 20:00 | Gürcistan Süper Kupa Yarı Final | Dila Gori | Torpedo Kutaisi | 05588 | 5 |
-| 27.06.2026 | 18:00 | Gürcistan Süper Kupa Yarı Final | Fc Iberia | Dinamo Tiflis | 05587 | 5 |
-| 27.06.2026 | 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Bosna-Hersek U | Almanya U19 (K) | 03059 | 4 |
 | 27.06.2026 | 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | İsveç U19 (K) | Polonya U19 (K) | 00497 | 5 |
-| 27.06.2026 | 16:00 | İsveç Superettan | Ljungskile | Orebro | 12366 | 5 |
-| 27.06.2026 | 16:00 | İsveç Superettan | Varbergs | Oster | 12746 | 5 |
-| 27.06.2026 | 18:00 | İsveç Superettan | United Nordic | Oddevold | 13043 | 5 |
-| 27.06.2026 | 18:00 | İsveç Superettan | Sundsvall | Ostersund | 12988 | 5 |
-| 27.06.2026 | 16:00 | Finlandiya Ykkösliiga | Jippo Joensuu | Ekenas If | 11244 | 5 |
-| 27.06.2026 | 16:00 | Finlandiya Ykkösliiga | Haka | Kotka | 11192 | 5 |
-| 27.06.2026 | 17:00 | Hazırlık Kulüpler | St Gallen | Altach | 02242 | 5 |
-| 27.06.2026 | 19:00 | Hazırlık Kulüpler | Lokomotiva | Varazdin | 00952 | 5 |
-| 27.06.2026 | 18:30 | Hazırlık Kulüpler | Wolfsberger | Nyiregyhaza | 04868 | 5 |
-| 27.06.2026 | 16:00 | Hazırlık Kulüpler | Livingston | Dundee | 03725 | 5 |
+| 27.06.2026 | 15:00 | Hazırlık Kulüpler | Kopenhag | Mjallby | 19215 | 5 |
+| 27.06.2026 | 16:00 | Hazırlık Kulüpler | Arbroath | St Mirren | 01053 | 5 |
+| 27.06.2026 | 19:30 | Hazırlık Kulüpler | Ujpest | Universitatea C | 20717 | 5 |
+| 27.06.2026 | 14:00 | Hazırlık Kulüpler | Paksi | Kfc Komarno | 02062 | 3 |
+| 27.06.2026 | 21:00 | Norveç 1.Lig | Sogndal | Egersunds | 16047 | 5 |
+| 27.06.2026 | 20:30 | Belarus Premier Lig | Dinamo Minsk | Vitebsk | 15644 | 5 |
+| 27.06.2026 | 20:00 | Moldova Ulusal Lig | Milsami-Ursido | Zimbru | 03583 | 5 |
+| 27.06.2026 | 22:00 | Brezilya Serie B | Criciuma | Sao Bernardo | 15241 | 5 |
+| 27.06.2026 | 22:15 | Finlandiya Ykkönen | Rops | Salpa Salo | 05860 | 5 |
+| 27.06.2026 | 19:45 | İran Azadegan Ligi | Kara Gostar | Shenavarsazi Qe | 06790 | 3 |
+| 27.06.2026 | 17:00 | İsveç 2.Lig Södra Götaland | Nosaby If | Ifk Trelleborg | 12920 | 3 |
+| 27.06.2026 | 17:00 | İsveç 2.Lig Norra Götaland | Motala Aif Fk | Vanersborgs Fk | 12903 | 3 |
+| 27.06.2026 | 17:00 | Letonya 1.Lig | Rigas Fs Ii | Riga Ii | 02061 | 3 |
+| 27.06.2026 | 23:30 | ABD USL Lig 2 Heartland Grubu | Rochester | Rockford Raptor | 06125 | 3 |
+| 27.06.2026 | 22:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United | Union Macomb | 06046 | 3 |
 
 ## Sonuc
 
