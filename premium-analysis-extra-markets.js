@@ -1,11 +1,17 @@
 (() => {
   const MARKETS = [
-    "1.5 Ust", "1.5 Alt", "3.5 Alt", "4.5 Ust", "4.5 Alt", "5.5 Ust", "5.5 Alt",
-    "1X", "X2", "12", "Ev Sahibi Gol Atar", "Deplasman Gol Atar",
-    "Ev Sahibi Gol Yemez", "Deplasman Gol Yemez", "Ev Sahibi 1.5 Ust", "Deplasman 1.5 Ust",
-    "Toplam Tek", "Toplam Cift", "0-1 Gol", "2-3 Gol", "4-6 Gol", "7+ Gol",
-    "KG Var + 2.5 Ust", "KG Var + 3.5 Ust", "KG Yok + 2.5 Alt",
-    "MS 1 + KG Var", "MS 2 + KG Var", "MS 1 + 2.5 Ust", "MS 2 + 2.5 Ust"
+    "1.5 Ust", "1.5 Alt", "3.5 Ust", "3.5 Alt", "4.5 Ust", "4.5 Alt",
+    "IY/MS 1/1", "IY/MS X/1", "IY/MS 2/2", "IY/MS X/X",
+    "MS 1 + 2.5 Ust", "MS X + 2.5 Ust", "MS 2 + 2.5 Ust",
+    "MS 1 + 2.5 Alt", "MS X + 2.5 Alt", "MS 2 + 2.5 Alt",
+    "MS 1 + KG Var", "MS X + KG Var", "MS 2 + KG Var",
+    "MS 1 + KG Yok", "MS X + KG Yok", "MS 2 + KG Yok",
+    "0-1 Gol", "2-3 Gol", "4-5 Gol", "6+ Gol",
+    "En Cok Gol 1. Yari", "En Cok Gol 2. Yari", "En Cok Gol Esit",
+    "Toplam Tek", "Toplam Cift",
+    "Korner 8.5 Ust", "Korner 9.5 Ust", "Korner Handikap 1", "Korner Handikap 2",
+    "Kart 3.5 Ust", "Kart 4.5 Ust", "1. Yari Kart 1.5 Ust",
+    "Takim Sut Ev 10+", "Takim Sut Dep 10+", "Toplam Sut 21+", "Toplam Sut 25+"
   ];
 
   function choose(grid, value, extra) {
@@ -26,7 +32,7 @@
     if (document.getElementById(id)) return;
     const script = document.createElement("script");
     script.id = id;
-    script.src = `${src}?v=20260626-pro122-live`;
+    script.src = `${src}?v=20260627-wide-market-v2`;
     script.async = false;
     document.body.appendChild(script);
   }
@@ -50,6 +56,8 @@
     if (!grid || grid.dataset.extraMarketAdded === "1") return;
     grid.dataset.extraMarketAdded = "1";
     MARKETS.forEach((name) => {
+      const exists = Array.from(grid.querySelectorAll("button")).some((button) => button.textContent.trim() === name);
+      if (exists) return;
       const button = document.createElement("button");
       button.type = "button";
       button.className = "pa-market";
