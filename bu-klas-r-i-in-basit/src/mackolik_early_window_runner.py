@@ -19,6 +19,10 @@ def dun() -> str:
     return (datetime.now(ISTANBUL_TZ) - timedelta(days=1)).strftime("%d.%m.%Y")
 
 
+def yarin() -> str:
+    return (datetime.now(ISTANBUL_TZ) + timedelta(days=1)).strftime("%d.%m.%Y")
+
+
 def erken_saat(value: str | None) -> bool:
     match = re.fullmatch(r"(\d{1,2}):(\d{2})", str(value or "").strip())
     if not match:
@@ -32,6 +36,7 @@ def sayfadaki_maclari_oku(page: Any, url: str = base.MACKOLIK_URL) -> tuple[list
     detail_report = base.detaylari_acmayi_dene(page)
     target_date_text = bugun()
     previous_date_text = dun()
+    next_date_text = yarin()
     current_date_text = target_date_text
     current_league: str | None = None
 
@@ -68,6 +73,8 @@ def sayfadaki_maclari_oku(page: Any, url: str = base.MACKOLIK_URL) -> tuple[list
         use_date_text = current_date_text
         if current_date_text == previous_date_text and erken_saat(row_time):
             use_date_text = target_date_text
+        elif current_date_text == next_date_text and erken_saat(row_time):
+            use_date_text = next_date_text
         elif current_date_text != target_date_text:
             continue
 
