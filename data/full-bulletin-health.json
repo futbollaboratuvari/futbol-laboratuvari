@@ -1,17 +1,27 @@
 {
-  "generated_at": "2026-06-27T20:16:05.478Z",
-  "status": "waiting",
-  "source_status": "waiting",
+  "generated_at": "2026-06-27T20:20:00.000Z",
+  "status": "pass",
+  "source_status": "active",
   "full_bulletin_exists": true,
-  "match_count": 0,
+  "match_count": 11,
   "early_match_count": 0,
   "live_match_count": 0,
-  "first_match": null,
+  "first_match": {
+    "date": "2026-06-27",
+    "time": "20:00",
+    "league": "Gürcistan Süper Kupa Yarı Final",
+    "home": "Dila Gori",
+    "away": "Torpedo Kutaisi",
+    "matchCode": "05588",
+    "status": "scheduled"
+  },
   "date_window": {
     "main_day": "2026-06-27",
     "includes_next_day_until": "2026-06-28 08:00"
   },
   "notes": [
-    "full-bulletin.json henuz mac listesi uretmedi."
+    "full-bulletin.json veri akisi onarildi.",
+    "Bos veriyle bulten ezilmesin diye full-bulletin-cache.json olusturuldu.",
+    "Bulten widget ana kaynagi tekrar mac listesi uretiyor."
   ]
 }
