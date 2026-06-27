@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260627-stabilize-no-extra-patch-v1";
+  const version = "20260627-pro122-unified-v2";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
