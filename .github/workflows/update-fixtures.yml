@@ -138,6 +138,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
+          node scripts/repair-conflict-markers.js || true
+          node scripts/validate-json-no-conflicts.js
           git add -A data outputs bu-klas-r-i-in-basit/data bu-klas-r-i-in-basit/outputs || true
           if git diff --cached --quiet; then
             echo "No output changes to commit"
