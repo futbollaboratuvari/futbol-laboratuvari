@@ -54,10 +54,10 @@ jobs:
         continue-on-error: true
         run: node scripts/update-fixtures.js
 
-      - name: Run full Python robot
+      - name: Run Mackolik data robot
         working-directory: bu-klas-r-i-in-basit
         continue-on-error: true
-        run: python src/robot.py
+        run: python src/mackolik_veri_cekici.py
 
       - name: Import robot raw pool into site data
         continue-on-error: true
