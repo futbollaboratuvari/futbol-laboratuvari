@@ -1,6 +1,10 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-06-27T08:12:16.748651+00:00
+=======
+Tarih: 2026-06-27T08:13:47.011065+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
@@ -137,8 +141,11 @@ Tarih: 2026-06-27T08:12:16.748651+00:00
 | 27.06.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong | Tianjin Teda | 14567 | 5 |
 | 27.06.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan | Wuhan Three Tow | 14512 | 5 |
 | 27.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng | Chengdu Ron. | 14457 | 5 |
+<<<<<<< Updated upstream
 | 27.06.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Sheny | Shandong Taisha | 14200 | 5 |
 | 27.06.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye | Shanghai Port | 14391 | 5 |
+=======
+>>>>>>> Stashed changes
 | 27.06.2026 | 20:00 | Gürcistan Süper Kupa Yarı Final | Dila Gori | Torpedo Kutaisi | 05588 | 5 |
 | 27.06.2026 | 18:00 | Gürcistan Süper Kupa Yarı Final | Fc Iberia | Dinamo Tiflis | 05587 | 5 |
 | 27.06.2026 | - | Avrupa U19 Şampiyonası Kadınlar Grup A | 18:00 | - Almanya U19 (K) | - | 0 |
