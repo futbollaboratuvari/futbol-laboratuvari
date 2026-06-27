@@ -6,7 +6,7 @@
     });
   };
   const cleanMarkets = () => {
-    const allow = /maç sonucu|ms |kg|gol|üst|alt|var|yok|1y|2y|iy\/ms|ilk yarı|ikinci yarı|tek|çift|korner|kart|şut/i;
+    const allow = /maç sonucu|ms |hnd|handikap|skor|doğru|dogru|kg|gol|üst|alt|var|yok|1y|2y|iy\/ms|ilk yarı|ikinci yarı|tek|çift|korner|kart|şut/i;
     document.querySelectorAll("#daily-matches-widget .fl-extra .fl-extra-market").forEach((card) => {
       const label = card.querySelector("span")?.textContent || "";
       if (!allow.test(label)) card.remove();
