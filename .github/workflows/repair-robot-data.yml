@@ -1,0 +1,40 @@
+name: Repair robot data file
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/ensure-robot-raw-pool-json.js"
+      - ".github/workflows/repair-robot-data.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  repair-robot-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Normalize robot data json
+        run: node scripts/ensure-robot-raw-pool-json.js
+
+      - name: Commit normalized robot data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bu-klas-r-i-in-basit/data/ham_mac_havuzu.json || true
+          if git diff --cached --quiet; then
+            echo "No robot data changes"
+            exit 0
+          fi
+          git commit -m "Repair robot data json"
+          git push origin HEAD:main
