@@ -1,37 +1,65 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-06-27T20:41:04.951108+00:00
-=======
-Tarih: 2026-06-27T20:41:43.803569+00:00
->>>>>>> Stashed changes
+Tarih: 2026-06-27T22:45:01.064576+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-<<<<<<< Updated upstream
 - Durum: success
-- Kac mac bulundu: 7
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 7
-- Ham veri havuzu toplam mac sayisi: 643
-=======
-- Durum: error
-- Kac mac bulundu: 7
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 88
+- Kac mac kaydedildi: 88
 - Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
->>>>>>> Stashed changes
-- Hedef tarih: 27.06.2026 Europe/Istanbul
+- Ham veri havuzu toplam mac sayisi: 731
+- Hedef tarih: 28.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Orta Atlantik Grubu
+- Avrupa U19 Şampiyonası Grup A
+- Avrupa U19 Şampiyonası Kadınlar Grup B
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Belarus Premier Lig
+- Brezilya Serie B
+- Dünya Kupası 2026 Son 32 Turu
+- Estonya Premium Lig
+- Etiyopya Premier Lig
+- Faroe Adaları Master Lig
+- Fas Botola Pro
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
+- Kazakistan Premier Lig
 - Letonya 1.Lig
-- İsveç 2.Lig Norra Götaland
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Lübnan Premier Lig
+- Moldova Ulusal Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 5
+- Norveç 3.Lig Grup 6
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti 2.Lig Güney
+- Çin Halk Cumhuriyeti Süper Lig
 - İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsveç Superettan
+- İzlanda Kupa Yarı Final
+- İzlanda Urvalsdeild
+- Şili Kupa Grup C
+- Şili Kupa Grup D
+- Şili Kupa Grup F
+- Şili Kupa Grup H
 
 ## Okunabilen Oran Alanlari
 
@@ -88,29 +116,41 @@ Tarih: 2026-06-27T20:41:43.803569+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 28
-- Acilan detay: 28
+- Denenen Tumu alani: 55
+- Acilan detay: 55
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 27.06.2026 | 16:00 | Hazırlık Kulüpler | Arbroath | St Mirren | 01053 | 5 |
-| 27.06.2026 | 15:00 | Hazırlık Kulüpler | Kopenhag | Mjallby | 19215 | 5 |
-| 27.06.2026 | 17:00 | İsveç 2.Lig Södra Götaland | Nosaby If | Ifk Trelleborg | 12920 | 3 |
-| 27.06.2026 | 17:00 | İsveç 2.Lig Norra Götaland | Motala Aif Fk | Vanersborgs Fk | 12903 | 3 |
-| 27.06.2026 | 17:00 | Letonya 1.Lig | Rigas Fs Ii | Riga Ii | 02061 | 3 |
-| 27.06.2026 | 23:30 | ABD USL Lig 2 Heartland Grubu | Rochester | Rockford Raptor | 06125 | 3 |
-| 27.06.2026 | 22:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United | Union Macomb | 06046 | 3 |
+| 28.06.2026 | 22:00 | Dünya Kupası 2026 Son 32 Turu | Güney Afrika | Kanada | 18582 | 5 |
+| 28.06.2026 | 22:00 | Avrupa U19 Şampiyonası Grup A | Almanya U19 | Danimarka U19 | 16699 | 5 |
+| 28.06.2026 | 20:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 | İspanya (U19) | 12544 | 5 |
+| 28.06.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing | Shanghai Shenhu | 14682 | 5 |
+| 28.06.2026 | 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth | Zhejiang G. Fc | 14628 | 5 |
+| 28.06.2026 | 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İsviçre U19 (K | İspanya U19 (K) | 07391 | 2 |
+| 28.06.2026 | 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 | İzlanda U19 (K) | 08165 | 3 |
+| 28.06.2026 | 18:00 | İsveç Superettan | Sandvikens | Helsingborg | 13227 | 5 |
+| 28.06.2026 | 16:00 | İsveç Superettan | Landskrona | Varnamo | 13117 | 5 |
+| 28.06.2026 | 16:00 | İsveç Superettan | Norrkoping | Norrby | 13171 | 5 |
+| 28.06.2026 | 16:00 | Finlandiya Ykkösliiga | Kapa | Japs | 11640 | 5 |
+| 28.06.2026 | 17:30 | Hazırlık Kulüpler | Ferencvaros | Sabah | 03313 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Ol. Safi | Codm Meknes | 18980 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Wydad Casablan | Olympique Dchei | 19013 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Husa Agadir | Cr Khemis Zemam | 17128 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Maghreb Fes | Yacoub El Manso | 18947 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Fus Rabat | Rsb Berkane | 17022 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Far Rabat | Uts Rabat | 16986 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Ittihad Tanger | Raja Casablanca | 17161 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Difaa | Kawkab Marrakec | 17095 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

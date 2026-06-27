@@ -1,14 +1,96 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-06-27 / 2026-06-28
-Ham mac: 5
-Aktif mac: 5
+Gunler: 2026-06-28 / 2026-06-29
+Ham mac: 87
+Aktif mac: 87
 Bultenden dusurulen mac: 0
-Bugun: 5
+Bugun: 87
 Yarin: 0
 
-- 2026-06-27 21:45 | İrlanda Premier Lig | Sligo Rovers - Shelbourne
-- 2026-06-27 22:00 | Brezilya Serie B | Criciuma - Sao Bernardo
-- 2026-06-27 22:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United - Union Macomb
-- 2026-06-27 22:15 | Finlandiya Ykkönen | Rops - Salpa Salo
-- 2026-06-27 23:30 | ABD USL Lig 2 Heartland Grubu | Rochester - Rockford Raptor
+- 2026-06-28 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Tuggeranong Uni
+- 2026-06-28 08:00 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Brindabella Blu
+- 2026-06-28 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Blacktown City
+- 2026-06-28 08:00 | Avustralya NPL Queensland | Gold Coast Uni - Moreton City Ex
+- 2026-06-28 08:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland
+- 2026-06-28 08:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Weston Bears
+- 2026-06-28 08:00 | Güney Kore K3 Ligi | Gyeongju Hnp - Pocheon
+- 2026-06-28 08:30 | Avustralya NPL Victoria | South Melbourn - Green Gully
+- 2026-06-28 09:15 | Avustralya NPL Yeni Güney Galler | Apia - Rockdale Cs
+- 2026-06-28 10:00 | Avustralya NPL Queensland | Queensland Lio - Brisbane Wolves
+- 2026-06-28 10:00 | Etiyopya Premier Lig | Adama City - Welayta Dicha
+- 2026-06-28 11:00 | Güney Kore K3 Ligi | Dangjin Citize - Gangneung City
+- 2026-06-28 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Zhejiang G. Fc
+- 2026-06-28 13:00 | Güney Kore K3 Ligi | Busan Transpor - Daejeon Korail
+- 2026-06-28 13:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skjervoy
+- 2026-06-28 13:00 | Letonya 1.Lig | Leevon / Ppk - Metta / Lu
+- 2026-06-28 14:00 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Shanghai Shenhu
+- 2026-06-28 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Ningbo
+- 2026-06-28 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Kongahalla
+- 2026-06-28 14:30 | Çin Halk Cumhuriyeti 2.Lig Güney | Jiangx Beidame - Guangzhou Dande
+- 2026-06-28 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İsviçre U19 (K - İspanya U19 (K)
+- 2026-06-28 15:00 | Norveç 2.Lig Grup 2 | Skeid - Trygg/Lade
+- 2026-06-28 15:00 | Kazakistan Premier Lig | Irtysh - Kaisar
+- 2026-06-28 15:00 | Norveç 3.Lig Grup 4 | Brodd - Haugesund Ii
+- 2026-06-28 15:00 | İsveç 2.Lig Södra Götaland | Linero - Karlshamn
+- 2026-06-28 15:00 | Letonya 1.Lig | Smiltene - Skanste
+- 2026-06-28 16:00 | İsveç Superettan | Landskrona - Varnamo
+- 2026-06-28 16:00 | İsveç Superettan | Norrkoping - Norrby
+- 2026-06-28 16:00 | Finlandiya Ykkösliiga | Kapa - Japs
+- 2026-06-28 16:00 | Norveç 2.Lig Grup 2 | Follo - Levanger
+- 2026-06-28 16:00 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Ik Junkeren
+- 2026-06-28 16:00 | Finlandiya Ykkönen | Kpv Kokkola - Pk Keski Uusima
+- 2026-06-28 16:00 | Lübnan Premier Lig | Ahed - Shabab S
+- 2026-06-28 16:00 | Kazakistan Premier Lig | Tobol Kostanay - Altay
+- 2026-06-28 16:00 | Kazakistan Premier Lig | Ulytau - Ordabasy
+- 2026-06-28 16:00 | Norveç 3.Lig Grup 6 | Rade - Lyn Oslo B
+- 2026-06-28 17:00 | Estonya Premium Lig | Nomme Kalju - Paide Linnamees
+- 2026-06-28 17:00 | Kazakistan Premier Lig | Zhenys - Astana
+- 2026-06-28 17:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Heming
+- 2026-06-28 17:00 | Norveç 3.Lig Grup 4 | Vindbjart - Stabaek 2
+- 2026-06-28 17:00 | İzlanda Kupa Yarı Final | Breidablik - Vikingur Reykja
+- 2026-06-28 17:00 | İsveç 2.Lig Södra Svealand | Örebro Syrians - Syrianska
+- 2026-06-28 17:00 | İsveç 2.Lig Södra Svealand | Ragsved - Forward
+- 2026-06-28 17:00 | Letonya 1.Lig | Jfk Ventspils - Valmieras Fk/Bs
+- 2026-06-28 17:00 | Faroe Adaları Master Lig | Kí Klaksvík - Vestur Sorvagur
+- 2026-06-28 17:00 | Faroe Adaları Master Lig | Streymur - B36 Torshavn
+- 2026-06-28 17:30 | Hazırlık Kulüpler | Ferencvaros - Sabah
+- 2026-06-28 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 - İzlanda U19 (K)
+- 2026-06-28 18:00 | İsveç Superettan | Sandvikens - Helsingborg
+- 2026-06-28 18:00 | Litvanya A Ligi | Banga - Hegelmann
+- 2026-06-28 18:00 | Belarus Premier Lig | Dnepr Mogilev - Neman Grodno
+- 2026-06-28 18:00 | Norveç 2.Lig Grup 1 | Sotra Sk - Jerv
+- 2026-06-28 18:00 | Norveç 3.Lig Grup 4 | Varhaug - Odd Bk Ii
+- 2026-06-28 18:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Tromso Ii
+- 2026-06-28 18:30 | Belarus Premier Lig | Isloch - Belshina Bobrui
+- 2026-06-28 18:30 | Finlandiya Ykkönen | Oulun Ls - Kups Ak.
+- 2026-06-28 18:30 | Litvanya 1.Lig | Kauno Zalgiris - Bfa
+- 2026-06-28 18:45 | Litvanya A Ligi | Dziugas Telsia - Zalgiris Vilniu
+- 2026-06-28 19:00 | Estonya Premium Lig | Levadia Tallin - Flora Tallinn
+- 2026-06-28 19:00 | İsveç 2.Lig Södra Svealand | Karlslunds If - Fittja
+- 2026-06-28 19:30 | Şili Kupa Grup C | La Serena - Cobreloa
+- 2026-06-28 19:30 | Şili Kupa Grup C | Cobresal - Antofagasta
+- 2026-06-28 20:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 - İspanya (U19)
+- 2026-06-28 20:00 | Fas Botola Pro | Ol. Safi - Codm Meknes
+- 2026-06-28 20:00 | Fas Botola Pro | Wydad Casablan - Olympique Dchei
+- 2026-06-28 20:00 | Fas Botola Pro | Husa Agadir - Cr Khemis Zemam
+- 2026-06-28 20:00 | Fas Botola Pro | Maghreb Fes - Yacoub El Manso
+- 2026-06-28 20:00 | Fas Botola Pro | Fus Rabat - Rsb Berkane
+- 2026-06-28 20:00 | Fas Botola Pro | Far Rabat - Uts Rabat
+- 2026-06-28 20:00 | Fas Botola Pro | Ittihad Tanger - Raja Casablanca
+- 2026-06-28 20:00 | Fas Botola Pro | Difaa - Kawkab Marrakec
+- 2026-06-28 20:00 | Moldova Ulusal Lig | Petrocub - Dacia-Buiucani
+- 2026-06-28 20:00 | İzlanda Urvalsdeild | Keflavik - Kr Reykjavik
+- 2026-06-28 20:00 | İzlanda Urvalsdeild | Stjarnan - Ka Akureyri
+- 2026-06-28 20:00 | İzlanda Urvalsdeild | Thor Akureyri - Valur
+- 2026-06-28 20:00 | İzlanda Urvalsdeild | Hafnarfjordur - Vestmannaeyjar
+- 2026-06-28 21:30 | Lübnan Premier Lig | Jwaya - Safa
+- 2026-06-28 22:00 | Dünya Kupası 2026 Son 32 Turu | Güney Afrika - Kanada
+- 2026-06-28 22:00 | Avrupa U19 Şampiyonası Grup A | Almanya U19 - Danimarka U19
+- 2026-06-28 22:00 | Şili Kupa Grup D | Union La Caler - Sant. Wanderers
+- 2026-06-28 22:00 | Şili Kupa Grup H | Huachipato - Temuco
+- 2026-06-28 22:00 | Brezilya Serie B | Athletic Club - Avai
+- 2026-06-28 22:00 | Brezilya Serie B | Atletico Goian - Ponte Preta
+- 2026-06-28 22:00 | Brezilya Serie B | Juventude - Ceara
+- 2026-06-28 23:00 | Şili Kupa Grup F | Curico - Univ De Concepc
+- 2026-06-28 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Junior Lone St - Ocean City
+- 2026-06-28 23:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Seacoast Unite - Black Rock
