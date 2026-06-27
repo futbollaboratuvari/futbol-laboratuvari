@@ -41,3 +41,16 @@ Summary:
 - Updated CURRENT_STATE.md with the repair focus.
 - Did not change daily-matches-widget.js, index.html, Kuponum panel, Analiz Et button, matches/live_matches separation, or main bulletin rendering logic.
 - Direct update/delete of bu-klas-r-i-in-basit/data/ham_mac_havuzu.json and ops/main-run.txt was blocked by safety filters; repair workflow was added as the safe path.
+
+2026-06-28
+
+Bulletin repair test session recorded.
+
+Summary:
+- User asked to test the fix and report on the existing robot structure.
+- Live site HTML still shows 0 matches / preparing state.
+- GitHub data files still show full-bulletin waiting, live-matches waiting, and site ham_mac_havuzu match_count 0.
+- Robot-side bu-klas-r-i-in-basit/data/ham_mac_havuzu.json is still empty in main, so the repair has not yet been applied to the actual robot data file.
+- Local scenario test of scripts/ensure-robot-raw-pool-json.js passed for missing file, valid file, and invalid file cases.
+- Search confirmed conflict markers still exist in bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md, while other hits are expected marker-handling scripts or memory notes.
+- Current conclusion: guard script is correct, but main data flow is not fully recovered until the repair workflow/main workflow successfully runs and commits regenerated robot data.
