@@ -26,3 +26,18 @@ Summary:
 - User confirmed repo memory files are the chat/project memory for this workspace.
 - No site, data, bulletin, widget, workflow, coupon panel, or analysis button files were changed.
 - Current project rule remains: keep bulletin stable, keep matches and live_matches separated, protect Kuponum and Analiz Et.
+
+2026-06-28
+
+Bulletin data flow repair session recorded.
+
+Summary:
+- User asked to find and fix the broken football bulletin data flow without breaking the existing robot structure.
+- Diagnosis: site was reading the JSON files correctly, but full-bulletin/live data were empty because the data production layer was failing.
+- Confirmed critical issue: robot-side ham_mac_havuzu.json was empty/invalid and Mackolik report showed JSON read failure, so the robot could find matches but could not safely write them into the robot data store.
+- Added scripts/ensure-robot-raw-pool-json.js as a small guard that validates the robot data JSON and rebuilds a valid empty schema if needed.
+- Hardened .github/workflows/update-fixtures.yml commit step so conflict-marker cleanup and JSON validation run after git pull --rebase --autostash and before committing outputs.
+- Added .github/workflows/repair-robot-data.yml to repair the robot data JSON through GitHub Actions without touching site/widget files.
+- Updated CURRENT_STATE.md with the repair focus.
+- Did not change daily-matches-widget.js, index.html, Kuponum panel, Analiz Et button, matches/live_matches separation, or main bulletin rendering logic.
+- Direct update/delete of bu-klas-r-i-in-basit/data/ham_mac_havuzu.json and ops/main-run.txt was blocked by safety filters; repair workflow was added as the safe path.
