@@ -15,6 +15,7 @@
 
   const state = {
     allMatches: [],
+    byUid: new Map(),
     sourceLabel: "Veri bekleniyor",
     mode: "all",
     query: "",
@@ -29,7 +30,7 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 
-  const empty = (value) => {
+  const isEmpty = (value) => {
     const text = String(value ?? "").trim();
     return !text || text === "-" || text === "—" || text.toLowerCase() === "null" || text.toLowerCase() === "undefined";
   };
@@ -45,7 +46,7 @@
   const pick = (match, keys) => {
     for (const key of keys) {
       const value = read(match, key);
-      if (!empty(value)) return value;
+      if (!isEmpty(value)) return value;
     }
     return "";
   };
@@ -67,28 +68,24 @@
     return match ? Number(match[1]) * 60 + Number(match[2]) : null;
   };
 
+  const inBulletinWindow = (match) => {
+    const today = todayKey();
+    const tomorrow = addDays(today, 1);
+    const minute = minuteOf(match.time);
+    return match.date === today || (match.date === tomorrow && minute !== null && minute < 8 * 60);
+  };
+
   const formatDate = (dateKey) => {
     if (!dateKey || !String(dateKey).includes("-")) return "Bugün";
     const [year, month, day] = String(dateKey).split("-");
     return `${day}.${month}.${year}`;
   };
 
-  const inBulletinWindow = (match) => {
-    const today = todayKey();
-    const tomorrow = addDays(today, 1);
-    const minute = minuteOf(match.time);
-    if (match.date === today) return true;
-    if (match.date === tomorrow && minute !== null && minute < 8 * 60) return true;
-    return false;
-  };
-
-  const normalizeStatus = (value) => String(value || "").trim().toLowerCase();
-
   const scoreText = (match) => {
-    if (!empty(match.score)) return String(match.score);
+    if (!isEmpty(match.score)) return String(match.score);
     const home = match.home_score ?? match.score_home ?? match.goals_home ?? match.homeGoals;
     const away = match.away_score ?? match.score_away ?? match.goals_away ?? match.awayGoals;
-    if (!empty(home) || !empty(away)) return `${home ?? 0}-${away ?? 0}`;
+    if (!isEmpty(home) || !isEmpty(away)) return `${home ?? 0}-${away ?? 0}`;
     return "";
   };
 
@@ -99,35 +96,31 @@
   };
 
   const isLiveMatch = (match) => {
-    const status = normalizeStatus(match.status || match.status_short || match.match_status);
+    const status = String(match.status || match.status_short || match.match_status || "").trim().toLowerCase();
     const liveWords = ["live", "in_play", "inplay", "playing", "1h", "2h", "ht", "first_half", "second_half", "devam", "canlı", "basladi", "başladı"];
     if (liveWords.some((word) => status.includes(word))) return true;
-    if (!empty(liveMinute(match))) return true;
-    if (!empty(scoreText(match)) && !["scheduled", "not_started", "ns", "fixture"].some((word) => status.includes(word))) return true;
+    if (!isEmpty(liveMinute(match))) return true;
+    if (!isEmpty(scoreText(match)) && !["scheduled", "not_started", "ns", "fixture"].some((word) => status.includes(word))) return true;
     return false;
   };
 
   const statusCell = (match) => {
     if (!isLiveMatch(match)) return `<span class="fl-time-scheduled">${esc(match.time || "--:--")}</span>`;
-    const minute = liveMinute(match) || "LIVE";
-    const score = scoreText(match) || "0-0";
-    return `<span class="fl-live-badge">CANLI</span><strong class="fl-live-minute">${esc(minute)}</strong><small class="fl-live-score">${esc(score)}</small>`;
+    return `<span class="fl-live-badge">CANLI</span><strong class="fl-live-minute">${esc(liveMinute(match) || "LIVE")}</strong><small class="fl-live-score">${esc(scoreText(match) || "0-0")}</small>`;
   };
-
-  const compareByDateTime = (a, b) => `${a.date || ""} ${a.time || ""} ${a.league || ""} ${a.home || ""}`.localeCompare(`${b.date || ""} ${b.time || ""} ${b.league || ""} ${b.home || ""}`, "tr");
 
   const normalize = (item, index = 0) => {
     const matchText = String(item?.match || item?.match_name || "");
     const split = matchText.split(/\s+-\s+|\s+VS\s+/i);
     const normalized = {
       ...item,
-      _uid: String(item?._uid || item?.id || item?.matchCode || `${item?.date || ""}-${item?.time || ""}-${item?.home || item?.home_team_name || split[0] || "home"}-${item?.away || item?.away_team_name || split[1] || "away"}-${index}`),
       date: String(item?.date || item?.tarih || "").slice(0, 10),
       time: String(item?.time || item?.start_time || item?.saat || "--:--").trim(),
       league: item?.league || item?.competition_name || item?.lig || "Diğer",
       home: item?.home || item?.home_team_name || item?.ev_sahibi || split[0] || "Ev sahibi",
       away: item?.away || item?.away_team_name || item?.deplasman || split[1] || "Deplasman"
     };
+    normalized._uid = String(item?._uid || item?.id || item?.match_id || item?.fixture_id || item?.matchCode || `${normalized.date}-${normalized.time}-${normalized.home}-${normalized.away}-${index}`);
     normalized.odds = {
       ...(item?.odds || {}),
       ms1: pick(normalized, ["ms1", "one", "oneOdd", "odd1", "ms_1"]),
@@ -141,45 +134,26 @@
     return normalized;
   };
 
-  const mainOdds = (match) => ({
-    ms1: pick(match, ["ms1", "one", "oneOdd", "odd1", "ms_1"]),
-    msx: pick(match, ["msx", "draw", "drawOdd", "oddX", "x", "ms_x"]),
-    ms2: pick(match, ["ms2", "two", "twoOdd", "odd2", "ms_2"]),
-    under25: pick(match, ["under25", "alt25", "under", "alt", "under25_guess", "alt_25"]),
-    over25: pick(match, ["over25", "ust25", "over", "ust", "over25_guess", "ust_25"]),
-    bttsYes: pick(match, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]),
-    bttsNo: pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"])
+  const marketMap = (match) => ({
+    ms1: { short: "1", label: "Maç Sonucu 1", value: pick(match, ["ms1", "one", "oneOdd", "odd1", "ms_1"]) },
+    msx: { short: "X", label: "Maç Sonucu X", value: pick(match, ["msx", "draw", "drawOdd", "oddX", "x", "ms_x"]) },
+    ms2: { short: "2", label: "Maç Sonucu 2", value: pick(match, ["ms2", "two", "twoOdd", "odd2", "ms_2"]) },
+    under25: { short: "Alt", label: "2.5 Alt", value: pick(match, ["under25", "alt25", "under", "alt", "under25_guess", "alt_25"]) },
+    over25: { short: "Üst", label: "2.5 Üst", value: pick(match, ["over25", "ust25", "over", "ust", "over25_guess", "ust_25"]) },
+    bttsYes: { short: "Var", label: "KG Var", value: pick(match, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"]) },
+    bttsNo: { short: "Yok", label: "KG Yok", value: pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"]) }
   });
 
-  const marketMap = (match) => {
-    const odds = mainOdds(match);
-    return {
-      ms1: { short: "1", label: "Maç Sonucu 1", value: odds.ms1 },
-      msx: { short: "X", label: "Maç Sonucu X", value: odds.msx },
-      ms2: { short: "2", label: "Maç Sonucu 2", value: odds.ms2 },
-      under25: { short: "Alt", label: "2.5 Alt", value: odds.under25 },
-      over25: { short: "Üst", label: "2.5 Üst", value: odds.over25 },
-      bttsYes: { short: "Var", label: "KG Var", value: odds.bttsYes },
-      bttsNo: { short: "Yok", label: "KG Yok", value: odds.bttsNo }
-    };
-  };
-
-  const market = (label, value) => empty(value) ? "" : `<div class="fl-extra-market"><span>${esc(label)}</span><b>${esc(value)}</b></div>`;
+  const market = (label, value) => isEmpty(value) ? "" : `<div class="fl-extra-market"><span>${esc(label)}</span><b>${esc(value)}</b></div>`;
   const section = (title, html) => String(html || "").trim() ? `<section class="fl-extra-section"><div class="fl-extra-title">${esc(title)}</div><div class="fl-extra-grid">${html}</div></section>` : "";
-
-  const detailOdds = (match) => {
-    const kg = section("KG / Yarı KG", market("KG Var", pick(match, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"])) + market("KG Yok", pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"])) + market("1Y KG Var", pick(match, ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "firstHalfBttsYes_guess"])) + market("2Y KG Var", pick(match, ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "secondHalfBttsYes_guess"])));
-    const totals = section("Alt / Üst", market("2.5 Alt", pick(match, ["under25", "alt25", "under25_guess", "alt_25"])) + market("2.5 Üst", pick(match, ["over25", "ust25", "over25_guess", "ust_25"])) + market("3.5 Alt", pick(match, ["under35", "alt35", "under35_guess"])) + market("3.5 Üst", pick(match, ["over35", "ust35", "over35_guess"])));
-    const halfResult = section("İlk Yarı Sonucu", market("İY 1", pick(match, ["firstHalf1", "firstHalfOne", "iy1", "firstHalf1_guess"])) + market("İY X", pick(match, ["firstHalfX", "firstHalfDraw", "iyX", "firstHalfX_guess"])) + market("İY 2", pick(match, ["firstHalf2", "firstHalfTwo", "iy2", "firstHalf2_guess"])));
-    return kg + totals + halfResult || `<div class="fl-extra-empty">Bu maç için ek market verisi yok.</div>`;
-  };
+  const detailOdds = (match) => section("KG / Yarı KG", market("KG Var", pick(match, ["bttsYes", "kgVar", "kg_var", "varOdd", "var", "bttsYes_guess"])) + market("KG Yok", pick(match, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok", "bttsNo_guess"])) + market("1Y KG Var", pick(match, ["firstHalfBttsYes", "iyKgVar", "iy_kg_var", "firstHalfBttsYes_guess"])) + market("2Y KG Var", pick(match, ["secondHalfBttsYes", "ikinciYariKgVar", "ikinci_yari_kg_var", "secondHalfBttsYes_guess"]))) + section("Alt / Üst", market("2.5 Alt", pick(match, ["under25", "alt25", "under25_guess", "alt_25"])) + market("2.5 Üst", pick(match, ["over25", "ust25", "over25_guess", "ust_25"])) + market("3.5 Alt", pick(match, ["under35", "alt35", "under35_guess"])) + market("3.5 Üst", pick(match, ["over35", "ust35", "over35_guess"]))) || `<div class="fl-extra-empty">Bu maç için ek market verisi yok.</div>`;
 
   const injectStyle = () => {
     if (document.querySelector("#daily-matches-widget-style")) return;
     const style = document.createElement("style");
     style.id = "daily-matches-widget-style";
     style.textContent = `
-      .daily-widget-shell{position:relative;z-index:3;margin:22px clamp(12px,4vw,70px) 0;padding:0;border:1px solid rgba(255,221,0,.35);border-radius:18px;background:#073d3b;box-shadow:0 22px 70px rgba(0,0,0,.34);box-sizing:border-box;overflow:hidden;color:#f6fff8}.fl-bulletin-top{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:12px 14px;background:#ffd400;color:#083b38}.fl-bulletin-brand{display:flex;align-items:center;gap:10px;min-width:0}.fl-bulletin-logo{display:inline-flex;align-items:center;justify-content:center;width:42px;height:28px;border-radius:8px;background:#073d3b;color:#ffd400;font-size:13px;font-weight:1000}.fl-bulletin-title{margin:0;font-size:18px;font-weight:1000}.fl-bulletin-subtitle{margin:2px 0 0;font-size:12px;font-weight:800;color:#31504f}.fl-bulletin-meta{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}.fl-chip{display:inline-flex;padding:7px 10px;border-radius:999px;background:rgba(7,61,59,.12);color:#073d3b;font-size:12px;font-weight:950}.fl-bulletin-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f5955;border-bottom:1px solid rgba(255,255,255,.12);overflow-x:auto}.fl-tab{flex:0 0 auto;padding:8px 12px;border:1px solid rgba(255,212,0,.35);border-radius:999px;background:rgba(255,255,255,.06);color:#eafff4;font-size:12px;font-weight:950;cursor:pointer}.fl-tab.active{background:#ffd400;color:#073d3b}.fl-bulletin-controls{display:grid;grid-template-columns:minmax(180px,1fr) minmax(160px,260px) auto;gap:10px;padding:12px 14px;background:#062d2c;border-bottom:1px solid rgba(255,255,255,.12)}.fl-bulletin-controls input,.fl-bulletin-controls select{width:100%;min-height:38px;border:1px solid rgba(255,255,255,.16);border-radius:10px;background:#f4fff8;color:#0a3634;padding:0 11px;font-weight:850;box-sizing:border-box}.fl-bulletin-refresh{border:1px solid rgba(255,212,0,.4);border-radius:10px;background:#ffd400;color:#073d3b;font-weight:1000;padding:0 14px;cursor:pointer}.fl-bulletin-layout{display:grid;grid-template-columns:minmax(0,1fr) 318px;background:#083734}.fl-bulletin-main{min-width:0;padding:12px}.fl-table-scroll{width:100%;overflow-x:auto;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:#edf8f0}.fl-bulletin-table{min-width:980px;color:#062d2c}.fl-league-row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:9px 11px;background:#d9efe3;border-top:1px solid #b5d5c7;border-bottom:1px solid #b5d5c7;color:#073d3b;font-size:12px;font-weight:1000;text-transform:uppercase}.fl-table-head,.fl-match-row{display:grid;grid-template-columns:70px 128px minmax(240px,1fr) repeat(7,64px) 82px;align-items:stretch}.fl-table-head{position:sticky;top:0;z-index:2;background:#0a4744;color:#fff7c2;font-size:11px;font-weight:1000;text-transform:uppercase}.fl-table-head span,.fl-match-row>*{display:flex;align-items:center;min-height:42px;padding:8px 7px;border-right:1px solid rgba(7,61,59,.13);border-bottom:1px solid rgba(7,61,59,.13);box-sizing:border-box}.fl-match-row{background:#f7fff9;font-size:12px}.fl-match-row:nth-child(even){background:#ebf8ef}.fl-match-row.is-live{background:#fffbea}.fl-match-row.is-open{background:#fff8d7}.fl-status-cell{justify-content:center;flex-direction:column;gap:2px}.fl-time-scheduled{font-weight:1000;color:#006447}.fl-live-badge{display:inline-flex;padding:2px 6px;border-radius:999px;background:#e0002a;color:#fff;font-size:9px;font-weight:1000}.fl-live-minute{font-size:12px;color:#e0002a}.fl-live-score{font-size:11px;color:#062d2c;font-weight:1000}.fl-league-cell{color:#2d5c57;font-size:11px;font-weight:900;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fl-teams{display:grid;gap:3px;min-width:0}.fl-teamline{display:flex;align-items:center;gap:8px;min-width:0;color:#092f2d;font-weight:950}.fl-team-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fl-code{font-size:10px;color:#65827c;font-weight:850}.fl-odd-button{width:100%;min-height:30px;border:1px solid rgba(0,100,71,.2);border-radius:7px;background:#fff;color:#083b38;font-size:12px;font-weight:1000;cursor:pointer}.fl-odd-button:hover,.fl-odd-button.selected{background:#ffd400;border-color:#d7a800;color:#073d3b}.fl-odd-empty{justify-content:center;color:#9aada6;background:rgba(255,255,255,.45);font-weight:900}.fl-detail-button{width:100%;min-height:30px;border:1px solid rgba(7,61,59,.3);border-radius:999px;background:#0f5955;color:#fff;font-size:11px;font-weight:950;cursor:pointer}.fl-extra{display:block;grid-column:1/-1;margin:0;padding:10px 11px;background:#062d2c;border-bottom:1px solid rgba(255,255,255,.12)}.fl-extra-inner{display:grid;gap:10px}.fl-extra-section{border:1px solid rgba(255,212,0,.24);border-radius:12px;overflow:hidden;background:rgba(255,255,255,.04)}.fl-extra-title{padding:8px 10px;background:rgba(255,212,0,.12);color:#ffe875;font-size:11px;font-weight:1000;text-transform:uppercase}.fl-extra-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:9px}.fl-extra-market{display:grid;gap:4px;padding:8px;border:1px solid rgba(255,255,255,.12);border-radius:9px;background:rgba(255,255,255,.06)}.fl-extra-market span{font-size:11px;color:#b8d2ca;font-weight:850}.fl-extra-market b{font-size:14px;color:#ffd400}.fl-extra-empty,.fl-widget-empty{padding:16px;border:1px dashed rgba(255,255,255,.2);border-radius:12px;text-align:center;color:#b8d2ca;font-size:13px}.fl-slip{position:sticky;top:12px;min-height:360px;padding:12px;border-left:1px solid rgba(255,255,255,.12);background:#092c2b}.fl-slip-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.fl-slip-title{font-size:16px;font-weight:1000;color:#ffd400}.fl-slip-count{padding:6px 9px;border-radius:999px;background:rgba(255,212,0,.14);color:#ffe875;font-size:12px;font-weight:950}.fl-slip-empty{padding:18px 12px;border:1px dashed rgba(255,255,255,.18);border-radius:12px;color:#afc8c0;text-align:center;font-size:13px}.fl-slip-list{display:grid;gap:9px}.fl-slip-item{display:grid;gap:7px;padding:10px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(255,255,255,.05)}.fl-slip-match{color:#f6fff8;font-size:12px;font-weight:950}.fl-slip-market{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#ffd400;font-size:13px;font-weight:1000}.fl-slip-remove{border:0;background:transparent;color:#ffb7a8;cursor:pointer;font-weight:1000}.fl-slip-footer{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.12);color:#b8d2ca;font-size:12px}@media(max-width:980px){.fl-bulletin-layout{grid-template-columns:1fr}.fl-slip{position:relative;top:auto;border-left:0;border-top:1px solid rgba(255,255,255,.12)}.fl-bulletin-controls{grid-template-columns:1fr}.fl-bulletin-top{grid-template-columns:1fr}.fl-bulletin-meta{justify-content:flex-start}.daily-widget-shell{margin:16px 10px 0}.fl-extra-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.fl-bulletin-title{font-size:16px}.fl-table-head,.fl-match-row{grid-template-columns:66px 112px minmax(210px,1fr) repeat(7,60px) 76px}.fl-bulletin-table{min-width:930px}}
+      .daily-widget-shell{position:relative;z-index:3;margin:22px clamp(12px,4vw,70px) 0;border:1px solid rgba(255,221,0,.35);border-radius:18px;background:#073d3b;box-shadow:0 22px 70px rgba(0,0,0,.34);overflow:hidden;color:#f6fff8}.fl-bulletin-top{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:12px 14px;background:#ffd400;color:#083b38}.fl-bulletin-title{margin:0;font-size:18px;font-weight:1000}.fl-bulletin-subtitle{margin:2px 0 0;font-size:12px;font-weight:800;color:#31504f}.fl-bulletin-meta{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}.fl-chip{display:inline-flex;padding:7px 10px;border-radius:999px;background:rgba(7,61,59,.12);color:#073d3b;font-size:12px;font-weight:950}.fl-bulletin-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f5955;border-bottom:1px solid rgba(255,255,255,.12);overflow-x:auto}.fl-tab{padding:8px 12px;border:1px solid rgba(255,212,0,.35);border-radius:999px;background:rgba(255,255,255,.06);color:#eafff4;font-size:12px;font-weight:950;cursor:pointer}.fl-tab.active{background:#ffd400;color:#073d3b}.fl-bulletin-controls{display:grid;grid-template-columns:minmax(180px,1fr) minmax(160px,260px) auto;gap:10px;padding:12px 14px;background:#062d2c;border-bottom:1px solid rgba(255,255,255,.12)}.fl-bulletin-controls input,.fl-bulletin-controls select{width:100%;min-height:38px;border:1px solid rgba(255,255,255,.16);border-radius:10px;background:#f4fff8;color:#0a3634;padding:0 11px;font-weight:850;box-sizing:border-box}.fl-bulletin-refresh{border:1px solid rgba(255,212,0,.4);border-radius:10px;background:#ffd400;color:#073d3b;font-weight:1000;padding:0 14px;cursor:pointer}.fl-bulletin-layout{display:grid;grid-template-columns:minmax(0,1fr) 318px;background:#083734}.fl-bulletin-main{min-width:0;padding:12px}.fl-table-scroll{width:100%;overflow-x:auto;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:#edf8f0}.fl-bulletin-table{min-width:980px;color:#062d2c}.fl-league-row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:9px 11px;background:#d9efe3;border-top:1px solid #b5d5c7;border-bottom:1px solid #b5d5c7;color:#073d3b;font-size:12px;font-weight:1000;text-transform:uppercase}.fl-table-head,.fl-match-row{display:grid;grid-template-columns:70px 128px minmax(240px,1fr) repeat(7,64px) 82px;align-items:stretch}.fl-table-head{position:sticky;top:0;z-index:2;background:#0a4744;color:#fff7c2;font-size:11px;font-weight:1000;text-transform:uppercase}.fl-table-head span,.fl-match-row>*{display:flex;align-items:center;min-height:42px;padding:8px 7px;border-right:1px solid rgba(7,61,59,.13);border-bottom:1px solid rgba(7,61,59,.13);box-sizing:border-box}.fl-match-row{background:#f7fff9;font-size:12px}.fl-match-row:nth-child(even){background:#ebf8ef}.fl-match-row.is-live{background:#fffbea}.fl-match-row.is-open{background:#fff8d7}.fl-status-cell{justify-content:center;flex-direction:column;gap:2px}.fl-time-scheduled{font-weight:1000;color:#006447}.fl-live-badge{display:inline-flex;padding:2px 6px;border-radius:999px;background:#e0002a;color:#fff;font-size:9px;font-weight:1000}.fl-live-minute{font-size:12px;color:#e0002a}.fl-live-score{font-size:11px;color:#062d2c;font-weight:1000}.fl-league-cell{color:#2d5c57;font-size:11px;font-weight:900;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fl-teams{display:grid;gap:3px;min-width:0}.fl-teamline{display:flex;align-items:center;gap:8px;min-width:0;color:#092f2d;font-weight:950}.fl-team-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fl-code{font-size:10px;color:#65827c;font-weight:850}.fl-odd-button{width:100%;min-height:30px;border:1px solid rgba(0,100,71,.2);border-radius:7px;background:#fff;color:#083b38;font-size:12px;font-weight:1000;cursor:pointer}.fl-odd-button:hover,.fl-odd-button.selected{background:#ffd400;border-color:#d7a800;color:#073d3b}.fl-odd-empty{justify-content:center;color:#9aada6;background:rgba(255,255,255,.45);font-weight:900}.fl-detail-button{width:100%;min-height:30px;border:1px solid rgba(7,61,59,.3);border-radius:999px;background:#0f5955;color:#fff;font-size:11px;font-weight:950;cursor:pointer}.fl-extra{display:block;grid-column:1/-1;margin:0;padding:10px 11px;background:#062d2c;border-bottom:1px solid rgba(255,255,255,.12)}.fl-extra-section{border:1px solid rgba(255,212,0,.24);border-radius:12px;overflow:hidden;background:rgba(255,255,255,.04);margin-bottom:10px}.fl-extra-title{padding:8px 10px;background:rgba(255,212,0,.12);color:#ffe875;font-size:11px;font-weight:1000}.fl-extra-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:9px}.fl-extra-market{display:grid;gap:4px;padding:8px;border:1px solid rgba(255,255,255,.12);border-radius:9px;background:rgba(255,255,255,.06)}.fl-extra-market span{font-size:11px;color:#b8d2ca}.fl-extra-market b{font-size:14px;color:#ffd400}.fl-widget-empty,.fl-extra-empty{padding:16px;border:1px dashed rgba(255,255,255,.2);border-radius:12px;text-align:center;color:#b8d2ca;font-size:13px}.fl-slip{position:sticky;top:12px;min-height:360px;padding:12px;border-left:1px solid rgba(255,255,255,.12);background:#092c2b}.fl-slip-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.fl-slip-title{font-size:16px;font-weight:1000;color:#ffd400}.fl-slip-count{padding:6px 9px;border-radius:999px;background:rgba(255,212,0,.14);color:#ffe875;font-size:12px;font-weight:950}.fl-slip-empty{padding:18px 12px;border:1px dashed rgba(255,255,255,.18);border-radius:12px;color:#afc8c0;text-align:center;font-size:13px}.fl-slip-list{display:grid;gap:9px}.fl-slip-item{display:grid;gap:7px;padding:10px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(255,255,255,.05)}.fl-slip-match{color:#f6fff8;font-size:12px;font-weight:950}.fl-slip-market{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#ffd400;font-size:13px;font-weight:1000}.fl-slip-remove{border:0;background:transparent;color:#ffb7a8;cursor:pointer;font-weight:1000}.fl-slip-footer{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.12);color:#b8d2ca;font-size:12px}@media(max-width:980px){.fl-bulletin-layout{grid-template-columns:1fr}.fl-slip{position:relative;top:auto;border-left:0;border-top:1px solid rgba(255,255,255,.12)}.fl-bulletin-controls{grid-template-columns:1fr}.fl-bulletin-top{grid-template-columns:1fr}.fl-bulletin-meta{justify-content:flex-start}.daily-widget-shell{margin:16px 10px 0}.fl-extra-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.fl-bulletin-title{font-size:16px}.fl-table-head,.fl-match-row{grid-template-columns:66px 112px minmax(210px,1fr) repeat(7,60px) 76px}.fl-bulletin-table{min-width:930px}}
     `;
     document.head.appendChild(style);
   };
@@ -196,17 +170,13 @@
       else document.body.appendChild(widget);
     }
     widget.className = "daily-widget-shell";
-    if (widget.dataset.ready !== "live-tabs-v1") {
-      widget.dataset.ready = "live-tabs-v1";
+    if (widget.dataset.ready !== "coupon-fix-v1") {
+      widget.dataset.ready = "coupon-fix-v1";
       widget.innerHTML = `
-        <div class="fl-bulletin-top">
-          <div class="fl-bulletin-brand"><span class="fl-bulletin-logo">FL</span><div><h2 class="fl-bulletin-title">Futbol Laboratuvarı Bülten</h2><p class="fl-bulletin-subtitle" data-bulletin-date>Bugünün maçları hazırlanıyor.</p></div></div>
-          <div class="fl-bulletin-meta"><span class="fl-chip" data-bulletin-source>Veri bekleniyor</span><span class="fl-chip" data-bulletin-count>0 maç</span><span class="fl-chip" data-live-count>0 canlı</span></div>
-        </div>
+        <div class="fl-bulletin-top"><div><h2 class="fl-bulletin-title">Futbol Laboratuvarı Bülten</h2><p class="fl-bulletin-subtitle" data-bulletin-date>Bugünün maçları hazırlanıyor.</p></div><div class="fl-bulletin-meta"><span class="fl-chip" data-bulletin-source>Veri bekleniyor</span><span class="fl-chip" data-bulletin-count>0 maç</span><span class="fl-chip" data-live-count>0 canlı</span></div></div>
         <div class="fl-bulletin-tabs" aria-label="Bülten görünümü"><button class="fl-tab active" type="button" data-bulletin-mode="all">Tüm Bülten</button><button class="fl-tab" type="button" data-bulletin-mode="live">Canlı</button><span class="fl-tab">Kupon</span><span class="fl-tab">Detaylı Oran</span></div>
         <div class="fl-bulletin-controls"><input class="fl-bulletin-search" type="search" placeholder="Maç veya takım ara" autocomplete="off" /><select class="fl-bulletin-league" aria-label="Lig filtresi"><option value="all">Tüm Ligler</option></select><button class="fl-bulletin-refresh" type="button" data-bulletin-refresh>Yenile</button></div>
-        <div class="fl-bulletin-layout"><div class="fl-bulletin-main" data-bulletin-list><div class="fl-widget-empty">Bülten yükleniyor.</div></div><aside class="fl-slip" data-slip-panel></aside></div>
-      `;
+        <div class="fl-bulletin-layout"><div class="fl-bulletin-main" data-bulletin-list><div class="fl-widget-empty">Bülten yükleniyor.</div></div><aside class="fl-slip" data-slip-panel></aside></div>`;
     }
     return widget;
   };
@@ -231,14 +201,13 @@
     state.league = select.value;
   };
 
-  const filteredMatches = () => {
+  const visibleMatches = () => {
     const query = state.query.trim().toLocaleLowerCase("tr");
     return state.allMatches.filter((match) => {
-      const modeOk = state.mode !== "live" || isLiveMatch(match);
-      const leagueOk = state.league === "all" || match.league === state.league;
+      if (state.mode === "live" && !isLiveMatch(match)) return false;
+      if (state.league !== "all" && match.league !== state.league) return false;
       const haystack = `${match.home} ${match.away} ${match.league} ${match.matchCode || ""}`.toLocaleLowerCase("tr");
-      const queryOk = !query || haystack.includes(query);
-      return modeOk && leagueOk && queryOk;
+      return !query || haystack.includes(query);
     });
   };
 
@@ -252,35 +221,29 @@
     return [...groups.values()];
   };
 
-  const selectedKey = (uid, marketKey) => `${uid}__${marketKey}`;
+  const getPick = (uid) => state.selected.get(String(uid));
 
   const renderOddButton = (match, marketKey, option) => {
-    if (!option || empty(option.value)) return `<span class="fl-odd-empty">—</span>`;
-    const key = selectedKey(match._uid, marketKey);
-    const isSelected = state.selected.has(key);
-    return `<button class="fl-odd-button ${isSelected ? "selected" : ""}" type="button" data-select-market="${marketKey}" data-select-uid="${esc(match._uid)}" aria-pressed="${isSelected ? "true" : "false"}">${esc(option.value)}</button>`;
+    if (!option || isEmpty(option.value)) return `<span class="fl-odd-empty">—</span>`;
+    const pick = getPick(match._uid);
+    const selected = pick?.marketKey === marketKey;
+    return `<button class="fl-odd-button ${selected ? "selected" : ""}" type="button" data-select-uid="${esc(match._uid)}" data-select-index="${match._index}" data-select-market="${marketKey}" data-select-label="${esc(option.label)}" data-select-value="${esc(option.value)}" aria-pressed="${selected ? "true" : "false"}">${esc(option.value)}</button>`;
   };
 
   const renderRow = (match) => {
     const markets = marketMap(match);
-    const active = Object.values(markets).filter((option) => !empty(option.value)).length;
-    return `<div class="fl-match-row ${isLiveMatch(match) ? "is-live" : ""}" data-uid="${esc(match._uid)}" data-date="${esc(match.date)}" data-kickoff="${esc(match.time)}">
-      <div class="fl-status-cell">${statusCell(match)}</div>
-      <div class="fl-league-cell" title="${esc(match.league || "Diğer")}">${esc(match.league || "Diğer")}</div>
-      <div class="fl-teams"><div class="fl-teamline"><span class="fl-team-name">${esc(match.home || "Ev sahibi")}</span><span>-</span><span class="fl-team-name">${esc(match.away || "Deplasman")}</span></div><div class="fl-code">${esc(match.matchCode ? `Kod: ${match.matchCode}` : `${formatDate(match.date)} · ${match.status || "scheduled"}`)}</div></div>
-      <div>${renderOddButton(match, "ms1", markets.ms1)}</div><div>${renderOddButton(match, "msx", markets.msx)}</div><div>${renderOddButton(match, "ms2", markets.ms2)}</div><div>${renderOddButton(match, "under25", markets.under25)}</div><div>${renderOddButton(match, "over25", markets.over25)}</div><div>${renderOddButton(match, "bttsYes", markets.bttsYes)}</div><div>${renderOddButton(match, "bttsNo", markets.bttsNo)}</div>
-      <div><button class="fl-detail-button" type="button" data-detail-uid="${esc(match._uid)}" aria-expanded="false">${active}/7 Detay</button></div>
-    </div>`;
+    const active = Object.values(markets).filter((option) => !isEmpty(option.value)).length;
+    return `<div class="fl-match-row ${isLiveMatch(match) ? "is-live" : ""}" data-uid="${esc(match._uid)}" data-index="${match._index}"><div class="fl-status-cell">${statusCell(match)}</div><div class="fl-league-cell" title="${esc(match.league)}">${esc(match.league)}</div><div class="fl-teams"><div class="fl-teamline"><span class="fl-team-name">${esc(match.home)}</span><span>-</span><span class="fl-team-name">${esc(match.away)}</span></div><div class="fl-code">${esc(match.matchCode ? `Kod: ${match.matchCode}` : `${formatDate(match.date)} · ${match.status || "scheduled"}`)}</div></div><div>${renderOddButton(match, "ms1", markets.ms1)}</div><div>${renderOddButton(match, "msx", markets.msx)}</div><div>${renderOddButton(match, "ms2", markets.ms2)}</div><div>${renderOddButton(match, "under25", markets.under25)}</div><div>${renderOddButton(match, "over25", markets.over25)}</div><div>${renderOddButton(match, "bttsYes", markets.bttsYes)}</div><div>${renderOddButton(match, "bttsNo", markets.bttsNo)}</div><div><button class="fl-detail-button" type="button" data-detail-uid="${esc(match._uid)}" aria-expanded="false">${active}/7 Detay</button></div></div>`;
   };
 
-  const renderGroup = (group) => `<div class="fl-league-row"><span>${esc(formatDate(group.date))} · ${esc(group.league || "Diğer")}</span><span>${group.items.length} maç</span></div>${group.items.map(renderRow).join("")}`;
+  const renderGroup = (group) => `<div class="fl-league-row"><span>${esc(formatDate(group.date))} · ${esc(group.league)}</span><span>${group.items.length} maç</span></div>${group.items.map(renderRow).join("")}`;
 
   const renderSlip = () => {
     const widget = ensureWidget();
     const panel = widget.querySelector("[data-slip-panel]");
     if (!panel) return;
     const picks = [...state.selected.values()];
-    panel.innerHTML = `<div class="fl-slip-head"><div class="fl-slip-title">Kuponum</div><span class="fl-slip-count">${picks.length} seçim</span></div>` + (picks.length ? `<div class="fl-slip-list">${picks.map((pick) => `<div class="fl-slip-item"><div class="fl-slip-match">${esc(pick.home)} - ${esc(pick.away)}</div><div class="fl-slip-market"><span>${esc(pick.label)}</span><b>${esc(pick.value)}</b><button class="fl-slip-remove" type="button" data-remove-pick="${esc(pick.key)}">Sil</button></div></div>`).join("")}</div><div class="fl-slip-footer">Bu alan seçim takibi içindir; eski/fake kupon verisi üretilmez.</div>` : `<div class="fl-slip-empty">Orana tıklayınca seçim burada listelenir.</div><div class="fl-slip-footer">Sağ kupon alanı korunur.</div>`);
+    panel.innerHTML = `<div class="fl-slip-head"><div class="fl-slip-title">Kuponum</div><span class="fl-slip-count">${picks.length} seçim</span></div>` + (picks.length ? `<div class="fl-slip-list">${picks.map((pick) => `<div class="fl-slip-item" data-slip-uid="${esc(pick.uid)}"><div class="fl-slip-match">${esc(pick.home)} - ${esc(pick.away)}</div><div class="fl-slip-market"><span>${esc(pick.label)}</span><b>${esc(pick.value)}</b><button class="fl-slip-remove" type="button" data-remove-pick="${esc(pick.uid)}">Sil</button></div></div>`).join("")}</div><div class="fl-slip-footer">Aynı maçtan başka oran seçilirse seçim değiştirilir.</div>` : `<div class="fl-slip-empty">Orana tıklayınca maç burada kupon olarak oluşur.</div><div class="fl-slip-footer">Sağ kupon alanı korunur.</div>`);
   };
 
   const renderView = () => {
@@ -292,7 +255,7 @@
     const source = widget.querySelector("[data-bulletin-source]");
     const liveCount = widget.querySelector("[data-live-count]");
     const date = widget.querySelector("[data-bulletin-date]");
-    const matches = filteredMatches();
+    const matches = visibleMatches();
     const liveTotal = state.allMatches.filter(isLiveMatch).length;
     widget.dataset.bulletinSource = state.sourceLabel;
     widget.dataset.bulletinMode = state.mode;
@@ -313,7 +276,9 @@
 
   const setMatches = (matches, sourceLabel) => {
     state.sourceLabel = sourceLabel;
-    state.allMatches = matches.map(normalize).filter((match) => match.date && match.time && inBulletinWindow(match)).sort(compareByDateTime);
+    state.allMatches = matches.map(normalize).filter((match) => match.date && match.time && inBulletinWindow(match)).sort((a, b) => `${a.date} ${a.time} ${a.league} ${a.home}`.localeCompare(`${b.date} ${b.time} ${b.league} ${b.home}`, "tr")).map((match, index) => ({ ...match, _index: index }));
+    state.byUid = new Map(state.allMatches.map((match) => [String(match._uid), match]));
+    state.selected.forEach((pick, uid) => { if (!state.byUid.has(uid)) state.selected.delete(uid); });
     window.__dailyMatchesData = state.allMatches;
     renderLeagueOptions();
     renderView();
@@ -344,7 +309,36 @@
     document.querySelectorAll(".fl-extra").forEach((item) => item.remove());
   };
 
+  const findMatchFromButton = (button) => {
+    const uid = String(button.dataset.selectUid || button.dataset.detailUid || "");
+    if (uid && state.byUid.has(uid)) return state.byUid.get(uid);
+    const index = Number(button.dataset.selectIndex || button.closest?.(".fl-match-row")?.dataset.index);
+    return Number.isFinite(index) ? state.allMatches[index] : null;
+  };
+
+  const selectPick = (button) => {
+    const match = findMatchFromButton(button);
+    if (!match) return;
+    const marketKey = button.dataset.selectMarket;
+    const option = marketMap(match)[marketKey] || { label: button.dataset.selectLabel, value: button.dataset.selectValue };
+    if (!option || isEmpty(option.value)) return;
+    const uid = String(match._uid);
+    const oldPick = state.selected.get(uid);
+    if (oldPick?.marketKey === marketKey) state.selected.delete(uid);
+    else state.selected.set(uid, { uid, marketKey, home: match.home, away: match.away, league: match.league, label: option.label, value: option.value });
+    closeAllDetails();
+    renderView();
+  };
+
   const handleClick = (event) => {
+    const odd = event.target.closest?.("[data-select-market]");
+    if (odd) {
+      event.preventDefault();
+      event.stopPropagation();
+      if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
+      selectPick(odd);
+      return;
+    }
     const modeButton = event.target.closest?.("[data-bulletin-mode]");
     if (modeButton) {
       event.preventDefault();
@@ -354,44 +348,22 @@
       return;
     }
     const refresh = event.target.closest?.("[data-bulletin-refresh]");
-    if (refresh) {
-      event.preventDefault();
-      load();
-      return;
-    }
+    if (refresh) { event.preventDefault(); load(); return; }
     const remove = event.target.closest?.("[data-remove-pick]");
-    if (remove) {
-      event.preventDefault();
-      state.selected.delete(remove.dataset.removePick);
-      renderView();
-      return;
-    }
-    const odd = event.target.closest?.("[data-select-market]");
-    if (odd) {
-      event.preventDefault();
-      const match = state.allMatches.find((item) => item._uid === odd.dataset.selectUid);
-      if (!match) return;
-      const option = marketMap(match)[odd.dataset.selectMarket];
-      if (!option || empty(option.value)) return;
-      const key = selectedKey(match._uid, odd.dataset.selectMarket);
-      if (state.selected.has(key)) state.selected.delete(key);
-      else state.selected.set(key, { key, uid: match._uid, home: match.home, away: match.away, label: option.label, value: option.value });
-      renderView();
-      return;
-    }
-    const button = event.target.closest?.("[data-detail-uid]");
-    if (!button) return;
+    if (remove) { event.preventDefault(); state.selected.delete(String(remove.dataset.removePick)); renderView(); return; }
+    const detail = event.target.closest?.("[data-detail-uid]");
+    if (!detail) return;
     event.preventDefault();
     event.stopPropagation();
     if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
-    const row = button.closest(".fl-match-row");
-    const match = state.allMatches.find((item) => item._uid === button.dataset.detailUid);
+    const row = detail.closest(".fl-match-row");
+    const match = state.byUid.get(String(detail.dataset.detailUid));
     if (!row || !match) return;
     const wasOpen = row.classList.contains("is-open") && row.nextElementSibling?.classList.contains("fl-extra");
     closeAllDetails();
     if (wasOpen) return;
     row.classList.add("is-open");
-    button.setAttribute("aria-expanded", "true");
+    detail.setAttribute("aria-expanded", "true");
     const extra = document.createElement("div");
     extra.className = "fl-extra";
     extra.innerHTML = `<div class="fl-extra-inner">${detailOdds(match)}</div>`;
