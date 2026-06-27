@@ -105,6 +105,7 @@ function scoreOf(match) {
 function pickOdd(match, analysis, keys) {
   for (const key of keys) {
     const value = match?.[key]
+      ?? match?.available_odds?.[key]
       ?? match?.odds?.[key]
       ?? match?.oranlar?.[key]
       ?? match?.detay_oranlar?.[key]
@@ -117,7 +118,14 @@ function pickOdd(match, analysis, keys) {
 }
 
 function availableOdds(match, analysis) {
+  const raw = {
+    ...(analysis?.available_odds || {}),
+    ...(analysis?.raw_market_guess_odds || {}),
+    ...(match?.available_odds || {}),
+    ...(match?.raw_market_guess_odds || {})
+  };
   return {
+    ...raw,
     ms1: pickOdd(match, analysis, ['ms1', 'one', 'oneOdd', 'odd1']),
     msx: pickOdd(match, analysis, ['msx', 'draw', 'drawOdd', 'oddX', 'x']),
     ms2: pickOdd(match, analysis, ['ms2', 'two', 'twoOdd', 'odd2']),
@@ -147,6 +155,7 @@ function normalizeMatch(match, analysis = null) {
   const score = analysis ? Number(analysis.analysis_score ?? analysis.score ?? 0) : null;
   const recommendedMarket = analysis?.recommended_market || analysis?.market || analysis?.selection || '';
   const estimatedOdds = analysis?.estimated_odds || analysis?.odds || '';
+  const oddsCount = Object.values(odds).filter((value) => value !== undefined && value !== null && value !== '').length;
   return {
     date: match.date || match.tarih || '',
     time: match.time || match.saat || '',
@@ -163,6 +172,10 @@ function normalizeMatch(match, analysis = null) {
     drawOdd: odds.msx,
     twoOdd: odds.ms2,
     available_odds: odds,
+    raw_market_guess_odds: match.raw_market_guess_odds || {},
+    raw_odds_sequence: match.raw_odds_sequence || [],
+    market_odds_inventory: Object.keys(odds),
+    wide_market_odds_count: oddsCount,
     suggested_option: recommendedMarket,
     suggested_odds: estimatedOdds,
     analysis_score: score,
@@ -177,7 +190,7 @@ function normalizeMatch(match, analysis = null) {
     suitable_coupon_type: analysis?.suitable_coupon_type || '',
     band_attention_level: analysis?.band_attention_level || '',
     raw_market_block_count: Array.isArray(match.raw_market_blocks) ? match.raw_market_blocks.length : (match.raw_market_block_count || 0),
-    raw_market_value_count: match.raw_market_value_count || 0
+    raw_market_value_count: match.raw_market_value_count || oddsCount
   };
 }
 
@@ -216,7 +229,8 @@ const payload = {
     completed_analysis: completedItems.length,
     coupon_candidates: enrichedMatches.filter((match) => match.decision === 'Kupon Adayı').length,
     watch_candidates: enrichedMatches.filter((match) => match.decision === 'İzleme').length,
-    focused_markets: Array.isArray(focus.focused_markets) ? focus.focused_markets.length : 0
+    focused_markets: Array.isArray(focus.focused_markets) ? focus.focused_markets.length : 0,
+    wide_market_odds: enrichedMatches.reduce((sum, match) => sum + Number(match.wide_market_odds_count || 0), 0)
   },
   next_match: nextMatch,
   focused_markets: Array.isArray(focus.focused_markets) ? focus.focused_markets : [],
@@ -226,7 +240,7 @@ const payload = {
 };
 
 writeJson(liveFile, payload);
-console.log(`live-matches.json updated. Matches: ${payload.counts.current_window}. Analysis: ${payload.counts.active_analysis}. Coupon candidates: ${payload.counts.coupon_candidates}.`);
+console.log(`live-matches.json updated. Matches: ${payload.counts.current_window}. Analysis: ${payload.counts.active_analysis}. Wide odds: ${payload.counts.wide_market_odds}.`);
 
 try {
   const { runLearningMemory } = require('./robot-learning-memory.js');
