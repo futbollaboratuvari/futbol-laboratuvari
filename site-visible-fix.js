@@ -1,5 +1,10 @@
 (() => {
   const styleId = "site-visible-fix-style";
+  const renameMenu = () => {
+    document.querySelectorAll('a[href="#daily-matches-widget"], a[href$="#daily-matches-widget"]').forEach((link) => {
+      if ((link.textContent || "").trim() === "Bugünün Maçları") link.textContent = "Futbol Bülteni";
+    });
+  };
   const apply = () => {
     if (!document.getElementById(styleId)) {
       const style = document.createElement("style");
@@ -8,6 +13,7 @@
       document.head.appendChild(style);
     }
     document.querySelectorAll(".reveal").forEach((el) => el.classList.add("visible"));
+    renameMenu();
   };
 
   apply();
