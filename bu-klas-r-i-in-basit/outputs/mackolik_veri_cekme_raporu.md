@@ -1,19 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-28T08:34:33.539608+00:00
+Tarih: 2026-06-28T10:18:01.925664+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 86
-- Kac mac kaydedildi: 9
-- Kac mac zaten vardi: 77
+- Kac mac bulundu: 93
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 93
 - Ham veri havuzu toplam mac sayisi: 752
 - Hedef tarih: 28.06.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
 - ABD USL Lig 2 Kuzeydoğu Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
 - Avrupa U19 Şampiyonası Grup A
@@ -29,8 +32,8 @@ Tarih: 2026-06-28T08:34:33.539608+00:00
 - Fas Botola Pro
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
-- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
+- Kanada Premier Lig
 - Kazakistan Premier Lig
 - Letonya 1.Lig
 - Litvanya 1.Lig
@@ -55,6 +58,7 @@ Tarih: 2026-06-28T08:34:33.539608+00:00
 - İzlanda Urvalsdeild
 - Şili Kupa Grup C
 - Şili Kupa Grup D
+- Şili Kupa Grup E
 - Şili Kupa Grup F
 - Şili Kupa Grup H
 
@@ -113,8 +117,8 @@ Tarih: 2026-06-28T08:34:33.539608+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 52
-- Acilan detay: 52
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -128,25 +132,25 @@ Tarih: 2026-06-28T08:34:33.539608+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 28.06.2026 | 22:00 | Dünya Kupası 2026 Son 32 Turu | Güney Afrika | Kanada | 18582 | 5 |
+| 28.06.2026 | 20:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 | İspanya (U19) | 12544 | 4 |
 | 28.06.2026 | 22:00 | Avrupa U19 Şampiyonası Grup A | Almanya U19 | Danimarka U19 | 16699 | 5 |
-| 28.06.2026 | 20:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 | İspanya (U19) | 12544 | 5 |
 | 28.06.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing | Shanghai Shenhu | 14682 | 5 |
-| 28.06.2026 | 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth | Zhejiang G. Fc | 14628 | 5 |
-| 28.06.2026 | 16:00 | İsveç Superettan | Norrkoping | Norrby | 13171 | 5 |
 | 28.06.2026 | 16:00 | İsveç Superettan | Landskrona | Varnamo | 13117 | 5 |
+| 28.06.2026 | 16:00 | İsveç Superettan | Norrkoping | Norrby | 13171 | 5 |
 | 28.06.2026 | 18:00 | İsveç Superettan | Sandvikens | Helsingborg | 13227 | 5 |
 | 28.06.2026 | 16:00 | Finlandiya Ykkösliiga | Kapa | Japs | 11640 | 5 |
-| 28.06.2026 | 14:00 | Hazırlık Kulüpler | Brondby | Hvidovre | 03772 | 5 |
-| 28.06.2026 | 17:30 | Hazırlık Kulüpler | Ferencvaros | Sabah | 03313 | 5 |
 | 28.06.2026 | 15:00 | Hazırlık Kulüpler | Fredrikstad | Elfsborg | 04238 | 5 |
-| 28.06.2026 | 15:00 | Hazırlık Kulüpler | Molde | Bodo Glimt | 03175 | 5 |
+| 28.06.2026 | 17:30 | Hazırlık Kulüpler | Ferencvaros | Sabah | 03313 | 5 |
+| 28.06.2026 | 14:00 | Hazırlık Kulüpler | Brondby | Hvidovre | 03772 | 5 |
 | 28.06.2026 | 18:00 | Hazırlık Kulüpler | Dynamo Kiev | Ks Wieczysta Kr | 07456 | 3 |
-| 28.06.2026 | 20:00 | Fas Botola Pro | Difaa | Kawkab Marrakec | 17095 | 5 |
+| 28.06.2026 | 15:00 | Hazırlık Kulüpler | Molde | Bodo Glimt | 03175 | 5 |
 | 28.06.2026 | 20:00 | Fas Botola Pro | Maghreb Fes | Yacoub El Manso | 18947 | 5 |
 | 28.06.2026 | 20:00 | Fas Botola Pro | Ol. Safi | Codm Meknes | 18980 | 5 |
-| 28.06.2026 | 20:00 | Fas Botola Pro | Husa Agadir | Cr Khemis Zemam | 17128 | 5 |
-| 28.06.2026 | 20:00 | Fas Botola Pro | Fus Rabat | Rsb Berkane | 17022 | 5 |
 | 28.06.2026 | 20:00 | Fas Botola Pro | Wydad Casablan | Olympique Dchei | 19013 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Husa Agadir | Cr Khemis Zemam | 17128 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Ittihad Tanger | Raja Casablanca | 17161 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Difaa | Kawkab Marrakec | 17095 | 5 |
+| 28.06.2026 | 20:00 | Fas Botola Pro | Far Rabat | Uts Rabat | 16986 | 5 |
 
 ## Sonuc
 

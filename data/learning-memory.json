@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-28T09:54:53.370Z",
+  "updated_at": "2026-06-28T10:18:17.184Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 31,
-    "pending_predictions": 31,
+    "total_predictions": 32,
+    "pending_predictions": 32,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 17,
     "market_count": 3,
     "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 31,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 16,
-      "pending": 16,
+      "total": 17,
+      "pending": 17,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +48,16 @@
     }
   },
   "league_memory": {
+    "Norveç 2.Lig Grup 2": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İsveç Superettan": {
       "total": 2,
       "pending": 2,
@@ -182,16 +188,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Norveç 2.Lig Grup 2": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Kazakistan Premier Lig": {
       "total": 3,
       "pending": 3,
@@ -224,6 +220,16 @@
     }
   },
   "league_market_memory": {
+    "Norveç 2.Lig Grup 2 :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İsveç Superettan :: MS X": {
       "total": 1,
       "pending": 1,
@@ -467,6 +473,24 @@
   },
   "predictions": [
     {
+      "id": "2026-06-28|norvec 2 lig grup 2|stjordals blin ik junkeren|ms x|16 00",
+      "date": "2026-06-28",
+      "created_at": "2026-06-28T10:18:16.527Z",
+      "match_name": "Stjordals-Blin - Ik Junkeren",
+      "league": "Norveç 2.Lig Grup 2",
+      "start_time": "16:00",
+      "market": "MS X",
+      "odds": "3.74",
+      "confidence_score": "80%",
+      "analysis_score": 80,
+      "risk_level": "Düşük",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-06-28T10:18:17.182Z"
+    },
+    {
       "id": "2026-06-28|isvec superettan|sandvikens helsingborg|ms x|18 00",
       "date": "2026-06-28",
       "created_at": "2026-06-28T09:43:48.472Z",
@@ -482,7 +506,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|litvanya a ligi|banga hegelmann|ms 2|18 00",
@@ -492,7 +516,7 @@
       "league": "Litvanya A Ligi",
       "start_time": "18:00",
       "market": "MS 2",
-      "odds": "3.32",
+      "odds": "3.21",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -500,7 +524,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|norvec 2 lig grup 1|sotra sk jerv|ms x|18 00",
@@ -518,7 +542,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|finlandiya ykkonen|oulun ls kups ak|ms 2|18 30",
@@ -528,7 +552,7 @@
       "league": "Finlandiya Ykkönen",
       "start_time": "18:30",
       "market": "MS 2",
-      "odds": "5.32",
+      "odds": "5.73",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -536,7 +560,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|litvanya 1 lig|kauno zalgiris bfa|ms x|18 30",
@@ -554,7 +578,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|litvanya a ligi|dziugas telsia zalgiris vilniu|ms x|18 45",
@@ -564,7 +588,7 @@
       "league": "Litvanya A Ligi",
       "start_time": "18:45",
       "market": "MS X",
-      "odds": "3.04",
+      "odds": "2.94",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -572,7 +596,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|sili kupa grup c|la serena cobreloa|ms 2|19 30",
@@ -590,7 +614,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|sili kupa grup c|cobresal antofagasta|ms 2|19 30",
@@ -600,7 +624,7 @@
       "league": "Şili Kupa Grup C",
       "start_time": "19:30",
       "market": "MS 2",
-      "odds": "3.22",
+      "odds": "3.15",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -608,7 +632,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|avrupa u19 sampiyonasi grup a|galler u19 ispanya u19|ms x|20 00",
@@ -644,7 +668,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|avrupa u19 sampiyonasi grup a|almanya u19 danimarka u19|ms x|22 00",
@@ -654,7 +678,7 @@
       "league": "Avrupa U19 Şampiyonası Grup A",
       "start_time": "22:00",
       "market": "MS X",
-      "odds": "3.37",
+      "odds": "3.27",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -662,7 +686,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|sili kupa grup d|union la caler sant wanderers|ms 2|22 00",
@@ -680,7 +704,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|sili kupa grup h|huachipato temuco|ms 2|22 00",
@@ -690,7 +714,7 @@
       "league": "Şili Kupa Grup H",
       "start_time": "22:00",
       "market": "MS 2",
-      "odds": "3.28",
+      "odds": "3.23",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -698,7 +722,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|sili kupa grup f|curico univ de concepc|ms x|23 00",
@@ -716,7 +740,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.044Z"
+      "updated_at": "2026-06-28T10:18:17.183Z"
     },
     {
       "id": "2026-06-28|cin halk cumhuriyeti super lig|qingdao youth zhejiang g fc|ms x|13 00",
@@ -734,7 +758,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.181Z"
     },
     {
       "id": "2026-06-28|guney kore k3 ligi|busan transpor daejeon korail|ms x|13 00",
@@ -752,7 +776,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.181Z"
     },
     {
       "id": "2026-06-28|cin halk cumhuriyeti super lig|dalian zhixing shanghai shenhu|ms x|14 00",
@@ -762,7 +786,7 @@
       "league": "Çin Halk Cumhuriyeti Süper Lig",
       "start_time": "14:00",
       "market": "MS X",
-      "odds": "3.09",
+      "odds": "3.39",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -770,7 +794,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|norvec 2 lig grup 2|skeid trygg lade|ms 2|15 00",
@@ -788,7 +812,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|kazakistan premier lig|irtysh kaisar|ms x|15 00",
@@ -806,7 +830,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|hazirlik kulupler|fredrikstad elfsborg|ms x|15 00",
@@ -824,7 +848,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|hazirlik kulupler|molde bodo glimt|ms x|15 00",
@@ -834,7 +858,7 @@
       "league": "Hazırlık Kulüpler",
       "start_time": "15:00",
       "market": "MS X",
-      "odds": "3.36",
+      "odds": "3.44",
       "confidence_score": "70%",
       "analysis_score": 70,
       "risk_level": "Orta",
@@ -842,7 +866,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|isvec superettan|landskrona varnamo|ms 2|16 00",
@@ -860,7 +884,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|finlandiya ykkosliiga|kapa japs|ms x|16 00",
@@ -878,7 +902,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|norvec 2 lig grup 2|follo levanger|ms 1|16 00",
@@ -896,7 +920,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|norvec 2 lig grup 2|stjordals blin ik junkeren|ms 2|16 00",
@@ -924,7 +948,7 @@
       "league": "Finlandiya Ykkönen",
       "start_time": "16:00",
       "market": "MS 1",
-      "odds": "4.77",
+      "odds": "4.92",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -932,7 +956,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|lubnan premier lig|ahed shabab s|ms 2|16 00",
@@ -942,7 +966,7 @@
       "league": "Lübnan Premier Lig",
       "start_time": "16:00",
       "market": "MS 2",
-      "odds": "4.68",
+      "odds": "4.69",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -950,7 +974,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|kazakistan premier lig|tobol kostanay altay|ms 2|16 00",
@@ -960,7 +984,7 @@
       "league": "Kazakistan Premier Lig",
       "start_time": "16:00",
       "market": "MS 2",
-      "odds": "4.81",
+      "odds": "4.94",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -968,7 +992,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|kazakistan premier lig|zhenys astana|ms 1|17 00",
@@ -978,7 +1002,7 @@
       "league": "Kazakistan Premier Lig",
       "start_time": "17:00",
       "market": "MS 1",
-      "odds": "3.11",
+      "odds": "2.92",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -986,7 +1010,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T09:54:53.043Z"
+      "updated_at": "2026-06-28T10:18:17.182Z"
     },
     {
       "id": "2026-06-28|guney kore k3 ligi|dangjin citize gangneung city|ms x|11 00",

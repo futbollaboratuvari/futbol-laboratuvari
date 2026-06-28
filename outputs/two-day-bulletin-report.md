@@ -1,15 +1,12 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-06-28 / 2026-06-29
-Ham mac: 99
-Aktif mac: 99
-Bultenden dusurulen mac: 0
-Bugun: 87
+Ham mac: 108
+Aktif mac: 96
+Bultenden dusurulen mac: 12
+Bugun: 84
 Yarin: 12
 
-- 2026-06-28 10:00 | Avustralya NPL Queensland | Queensland Lio - Brisbane Wolves
-- 2026-06-28 10:00 | Etiyopya Premier Lig | Adama City - Welayta Dicha
-- 2026-06-28 11:00 | Güney Kore K3 Ligi | Dangjin Citize - Gangneung City
 - 2026-06-28 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Zhejiang G. Fc
 - 2026-06-28 13:00 | Güney Kore K3 Ligi | Busan Transpor - Daejeon Korail
 - 2026-06-28 13:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skjervoy

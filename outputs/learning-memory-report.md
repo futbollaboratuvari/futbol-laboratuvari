@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 28.06.2026 12:54:53
+Oluşturma: 28.06.2026 13:18:17
 
 ## Özet
 
-- Toplam tahmin: 31
-- Bekleyen tahmin: 31
+- Toplam tahmin: 32
+- Bekleyen tahmin: 32
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 17
@@ -20,12 +20,13 @@ Oluşturma: 28.06.2026 12:54:53
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS X: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-06-28 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Ik Junkeren | MS X | pending | 80/100
 - 2026-06-28 | İsveç Superettan | Sandvikens - Helsingborg | MS X | pending | 50/100
 - 2026-06-28 | Litvanya A Ligi | Banga - Hegelmann | MS 2 | pending | 40/100
 - 2026-06-28 | Norveç 2.Lig Grup 1 | Sotra Sk - Jerv | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 28.06.2026 12:54:53
 - 2026-06-28 | Şili Kupa Grup D | Union La Caler - Sant. Wanderers | MS 2 | pending | 50/100
 - 2026-06-28 | Şili Kupa Grup H | Huachipato - Temuco | MS 2 | pending | 50/100
 - 2026-06-28 | Şili Kupa Grup F | Curico - Univ De Concepc | MS X | pending | 50/100
-- 2026-06-28 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Zhejiang G. Fc | MS X | pending | 50/100
 

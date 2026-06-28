@@ -2,17 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 99
-- Live match count: 0
+- Scheduled match count: 91
+- Live match count: 5
 - Finished removed count: 0
 
-- 2026-06-28 08:00 | Canberra - Tuggeranong Uni | scheduled
-- 2026-06-28 08:00 | Canberra Juven - Brindabella Blu | scheduled
-- 2026-06-28 08:00 | Broadmeadow Ma - Weston Bears | scheduled
-- 2026-06-28 08:00 | Kahibah - Maitland | scheduled
-- 2026-06-28 08:00 | Gold Coast Uni - Moreton City Ex | scheduled
-- 2026-06-28 08:00 | Marconi - Blacktown City | scheduled
-- 2026-06-28 08:00 | Gyeongju Hnp - Pocheon | scheduled
-- 2026-06-28 08:30 | South Melbourn - Green Gully | scheduled
-- 2026-06-28 09:15 | Apia - Rockdale Cs | scheduled
-- 2026-06-28 10:00 | Queensland Lio - Brisbane Wolves | scheduled
+- 2026-06-28 13:00 | Qingdao Youth - Zhejiang G. Fc | live
+- 2026-06-28 13:00 | Bahardar - Sidama Bunna | live
+- 2026-06-28 13:00 | Busan Transpor - Daejeon Korail | live
+- 2026-06-28 13:00 | Leevon / Ppk - Metta / Lu | live
+- 2026-06-28 13:00 | Stromsgodset B - Skjervoy | live
+- 2026-06-28 14:00 | Orsha - Fc Minsk Ii | scheduled
+- 2026-06-28 14:00 | Suzhou Dongwu - Ningbo | scheduled
+- 2026-06-28 14:00 | Dalian Zhixing - Shanghai Shenhu | scheduled
+- 2026-06-28 14:00 | Brondby - Hvidovre | scheduled
+- 2026-06-28 14:00 | Jonsereds If - Kongahalla | scheduled
