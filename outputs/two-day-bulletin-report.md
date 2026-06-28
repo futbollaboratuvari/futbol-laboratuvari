@@ -2,65 +2,11 @@
 
 Gunler: 2026-06-28 / 2026-06-29
 Ham mac: 109
-Aktif mac: 78
-Bultenden dusurulen mac: 31
-Bugun: 65
+Aktif mac: 24
+Bultenden dusurulen mac: 85
+Bugun: 11
 Yarin: 13
 
-- 2026-06-28 16:00 | İsveç Superettan | Landskrona - Varnamo
-- 2026-06-28 16:00 | İsveç Superettan | Norrkoping - Norrby
-- 2026-06-28 16:00 | Finlandiya Ykkösliiga | Kapa - Japs
-- 2026-06-28 16:00 | Norveç 2.Lig Grup 2 | Follo - Levanger
-- 2026-06-28 16:00 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Ik Junkeren
-- 2026-06-28 16:00 | Finlandiya Ykkönen | Kpv Kokkola - Pk Keski Uusima
-- 2026-06-28 16:00 | Lübnan Premier Lig | Ahed - Shabab S
-- 2026-06-28 16:00 | Kazakistan Premier Lig | Tobol Kostanay - Altay
-- 2026-06-28 16:00 | Kazakistan Premier Lig | Ulytau - Ordabasy
-- 2026-06-28 16:00 | Norveç 3.Lig Grup 6 | Rade - Lyn Oslo B
-- 2026-06-28 16:00 | Etiyopya Premier Lig | Mebrat Hayl - Awassa Kenema
-- 2026-06-28 16:00 | Etiyopya Premier Lig | Sheger Ketema - Mekelakeya
-- 2026-06-28 17:00 | Estonya Premium Lig | Nomme Kalju - Paide Linnamees
-- 2026-06-28 17:00 | Kazakistan Premier Lig | Zhenys - Astana
-- 2026-06-28 17:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Heming
-- 2026-06-28 17:00 | Norveç 3.Lig Grup 4 | Vindbjart - Stabaek 2
-- 2026-06-28 17:00 | İzlanda Kupa Yarı Final | Breidablik - Vikingur Reykja
-- 2026-06-28 17:00 | İsveç 2.Lig Södra Svealand | Örebro Syrians - Syrianska
-- 2026-06-28 17:00 | İsveç 2.Lig Södra Svealand | Ragsved - Forward
-- 2026-06-28 17:00 | Letonya 1.Lig | Jfk Ventspils - Valmieras Fk/Bs
-- 2026-06-28 17:00 | Faroe Adaları Master Lig | Kí Klaksvík - Vestur Sorvagur
-- 2026-06-28 17:00 | Faroe Adaları Master Lig | Streymur - B36 Torshavn
-- 2026-06-28 17:30 | Hazırlık Kulüpler | Ferencvaros - Sabah
-- 2026-06-28 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 - İzlanda U19 (K)
-- 2026-06-28 18:00 | İsveç Superettan | Sandvikens - Helsingborg
-- 2026-06-28 18:00 | Litvanya A Ligi | Banga - Hegelmann
-- 2026-06-28 18:00 | Belarus Premier Lig | Dnepr Mogilev - Neman Grodno
-- 2026-06-28 18:00 | Norveç 2.Lig Grup 1 | Sotra Sk - Jerv
-- 2026-06-28 18:00 | Norveç 3.Lig Grup 4 | Varhaug - Odd Bk Ii
-- 2026-06-28 18:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Tromso Ii
-- 2026-06-28 18:00 | Hazırlık Kulüpler | Dynamo Kiev - Ks Wieczysta Kr
-- 2026-06-28 18:00 | Belarus 1.Lig | Bate Ii - Energetik-Bgu
-- 2026-06-28 18:30 | Belarus Premier Lig | Isloch - Belshina Bobrui
-- 2026-06-28 18:30 | Finlandiya Ykkönen | Oulun Ls - Kups Ak.
-- 2026-06-28 18:30 | Litvanya 1.Lig | Kauno Zalgiris - Bfa
-- 2026-06-28 18:45 | Litvanya A Ligi | Dziugas Telsia - Zalgiris Vilniu
-- 2026-06-28 19:00 | Estonya Premium Lig | Levadia Tallin - Flora Tallinn
-- 2026-06-28 19:00 | İsveç 2.Lig Södra Svealand | Karlslunds If - Fittja
-- 2026-06-28 19:30 | Şili Kupa Grup C | La Serena - Cobreloa
-- 2026-06-28 19:30 | Şili Kupa Grup C | Cobresal - Antofagasta
-- 2026-06-28 20:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 - İspanya (U19)
-- 2026-06-28 20:00 | Fas Botola Pro | Ol. Safi - Codm Meknes
-- 2026-06-28 20:00 | Fas Botola Pro | Wydad Casablan - Olympique Dchei
-- 2026-06-28 20:00 | Fas Botola Pro | Husa Agadir - Cr Khemis Zemam
-- 2026-06-28 20:00 | Fas Botola Pro | Maghreb Fes - Yacoub El Manso
-- 2026-06-28 20:00 | Fas Botola Pro | Fus Rabat - Rsb Berkane
-- 2026-06-28 20:00 | Fas Botola Pro | Far Rabat - Uts Rabat
-- 2026-06-28 20:00 | Fas Botola Pro | Ittihad Tanger - Raja Casablanca
-- 2026-06-28 20:00 | Fas Botola Pro | Difaa - Kawkab Marrakec
-- 2026-06-28 20:00 | Moldova Ulusal Lig | Petrocub - Dacia-Buiucani
-- 2026-06-28 20:00 | İzlanda Urvalsdeild | Keflavik - Kr Reykjavik
-- 2026-06-28 20:00 | İzlanda Urvalsdeild | Stjarnan - Ka Akureyri
-- 2026-06-28 20:00 | İzlanda Urvalsdeild | Thor Akureyri - Valur
-- 2026-06-28 20:00 | İzlanda Urvalsdeild | Hafnarfjordur - Vestmannaeyjar
 - 2026-06-28 21:30 | Lübnan Premier Lig | Jwaya - Safa
 - 2026-06-28 22:00 | Dünya Kupası 2026 Son 32 Turu | Güney Afrika - Kanada
 - 2026-06-28 22:00 | Avrupa U19 Şampiyonası Grup A | Almanya U19 - Danimarka U19

@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-06-28T15:08:20.867Z
+- Guncelleme: 2026-06-28T19:59:00.960Z
 - Ham fixture sayisi: 746
 - Bugun/yarin kaynak mac: 109
-- Aktif bulten maci: 78
+- Aktif bulten maci: 24
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 31
+- Bultenden dusurulen mac: 85
 
-- 1. 2026-06-28 16:00 | Lübnan Premier Lig | Ahed - Shabab S | live
-- 2. 2026-06-28 16:00 | Norveç 2.Lig Grup 2 | Follo - Levanger | live
-- 3. 2026-06-28 16:00 | Finlandiya Ykkösliiga | Kapa - Japs | live
-- 4. 2026-06-28 16:00 | Finlandiya Ykkönen | Kpv Kokkola - Pk Keski Uusima | live
-- 5. 2026-06-28 16:00 | İsveç Superettan | Landskrona - Varnamo | live
-- 6. 2026-06-28 16:00 | Etiyopya Premier Lig | Mebrat Hayl - Awassa Kenema | live
-- 7. 2026-06-28 16:00 | İsveç Superettan | Norrkoping - Norrby | live
-- 8. 2026-06-28 16:00 | Norveç 3.Lig Grup 6 | Rade - Lyn Oslo B | live
-- 9. 2026-06-28 16:00 | Etiyopya Premier Lig | Sheger Ketema - Mekelakeya | live
-- 10. 2026-06-28 16:00 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Ik Junkeren | live
-- 11. 2026-06-28 16:00 | Kazakistan Premier Lig | Tobol Kostanay - Altay | live
-- 12. 2026-06-28 16:00 | Kazakistan Premier Lig | Ulytau - Ordabasy | live
-- 13. 2026-06-28 17:00 | İzlanda Kupa Yarı Final | Breidablik - Vikingur Reykja | live
-- 14. 2026-06-28 17:00 | Letonya 1.Lig | Jfk Ventspils - Valmieras Fk/Bs | live
-- 15. 2026-06-28 17:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Heming | live
+- 1. 2026-06-28 21:30 | Lübnan Premier Lig | Jwaya - Safa | live
+- 2. 2026-06-28 22:00 | Avrupa U19 Şampiyonası Grup A | Almanya U19 - Danimarka U19 | live
+- 3. 2026-06-28 22:00 | Brezilya Serie B | Athletic Club - Avai | live
+- 4. 2026-06-28 22:00 | Brezilya Serie B | Atletico Goian - Ponte Preta | live
+- 5. 2026-06-28 22:00 | Dünya Kupası 2026 Son 32 Turu | Güney Afrika - Kanada | live
+- 6. 2026-06-28 22:00 | Şili Kupa Grup H | Huachipato - Temuco | live
+- 7. 2026-06-28 22:00 | Brezilya Serie B | Juventude - Ceara | live
+- 8. 2026-06-28 22:00 | Şili Kupa Grup D | Union La Caler - Sant. Wanderers | live
+- 9. 2026-06-28 23:00 | Şili Kupa Grup F | Curico - Univ De Concepc | scheduled
+- 10. 2026-06-28 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Junior Lone St - Ocean City | scheduled
+- 11. 2026-06-28 23:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Seacoast Unite - Black Rock | scheduled
+- 12. 2026-06-29 00:00 | Şili Kupa Grup F | Csd Rangers - Atletico Nublen | scheduled
+- 13. 2026-06-29 00:00 | Şili Kupa Grup E | O Higgins - Recoleta | scheduled
+- 14. 2026-06-29 00:30 | Brezilya Serie B | Fortaleza Ce - Sport Recife | scheduled
+- 15. 2026-06-29 00:30 | Brezilya Serie B | Nautico - Goias | scheduled
