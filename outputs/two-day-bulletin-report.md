@@ -7,15 +7,6 @@ Bultenden dusurulen mac: 0
 Bugun: 87
 Yarin: 12
 
-- 2026-06-28 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Tuggeranong Uni
-- 2026-06-28 08:00 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Brindabella Blu
-- 2026-06-28 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Blacktown City
-- 2026-06-28 08:00 | Avustralya NPL Queensland | Gold Coast Uni - Moreton City Ex
-- 2026-06-28 08:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland
-- 2026-06-28 08:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Weston Bears
-- 2026-06-28 08:00 | Güney Kore K3 Ligi | Gyeongju Hnp - Pocheon
-- 2026-06-28 08:30 | Avustralya NPL Victoria | South Melbourn - Green Gully
-- 2026-06-28 09:15 | Avustralya NPL Yeni Güney Galler | Apia - Rockdale Cs
 - 2026-06-28 10:00 | Avustralya NPL Queensland | Queensland Lio - Brisbane Wolves
 - 2026-06-28 10:00 | Etiyopya Premier Lig | Adama City - Welayta Dicha
 - 2026-06-28 11:00 | Güney Kore K3 Ligi | Dangjin Citize - Gangneung City
@@ -23,9 +14,12 @@ Yarin: 12
 - 2026-06-28 13:00 | Güney Kore K3 Ligi | Busan Transpor - Daejeon Korail
 - 2026-06-28 13:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skjervoy
 - 2026-06-28 13:00 | Letonya 1.Lig | Leevon / Ppk - Metta / Lu
+- 2026-06-28 13:00 | Etiyopya Premier Lig | Bahardar - Sidama Bunna
 - 2026-06-28 14:00 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Shanghai Shenhu
 - 2026-06-28 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Ningbo
 - 2026-06-28 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Kongahalla
+- 2026-06-28 14:00 | Hazırlık Kulüpler | Brondby - Hvidovre
+- 2026-06-28 14:00 | Belarus 1.Lig | Orsha - Fc Minsk Ii
 - 2026-06-28 14:30 | Çin Halk Cumhuriyeti 2.Lig Güney | Jiangx Beidame - Guangzhou Dande
 - 2026-06-28 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İsviçre U19 (K - İspanya U19 (K)
 - 2026-06-28 15:00 | Norveç 2.Lig Grup 2 | Skeid - Trygg/Lade
@@ -33,6 +27,8 @@ Yarin: 12
 - 2026-06-28 15:00 | Norveç 3.Lig Grup 4 | Brodd - Haugesund Ii
 - 2026-06-28 15:00 | İsveç 2.Lig Södra Götaland | Linero - Karlshamn
 - 2026-06-28 15:00 | Letonya 1.Lig | Smiltene - Skanste
+- 2026-06-28 15:00 | Hazırlık Kulüpler | Fredrikstad - Elfsborg
+- 2026-06-28 15:00 | Hazırlık Kulüpler | Molde - Bodo Glimt
 - 2026-06-28 16:00 | İsveç Superettan | Landskrona - Varnamo
 - 2026-06-28 16:00 | İsveç Superettan | Norrkoping - Norrby
 - 2026-06-28 16:00 | Finlandiya Ykkösliiga | Kapa - Japs
@@ -43,6 +39,8 @@ Yarin: 12
 - 2026-06-28 16:00 | Kazakistan Premier Lig | Tobol Kostanay - Altay
 - 2026-06-28 16:00 | Kazakistan Premier Lig | Ulytau - Ordabasy
 - 2026-06-28 16:00 | Norveç 3.Lig Grup 6 | Rade - Lyn Oslo B
+- 2026-06-28 16:00 | Etiyopya Premier Lig | Mebrat Hayl - Awassa Kenema
+- 2026-06-28 16:00 | Etiyopya Premier Lig | Sheger Ketema - Mekelakeya
 - 2026-06-28 17:00 | Estonya Premium Lig | Nomme Kalju - Paide Linnamees
 - 2026-06-28 17:00 | Kazakistan Premier Lig | Zhenys - Astana
 - 2026-06-28 17:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Heming
@@ -61,6 +59,8 @@ Yarin: 12
 - 2026-06-28 18:00 | Norveç 2.Lig Grup 1 | Sotra Sk - Jerv
 - 2026-06-28 18:00 | Norveç 3.Lig Grup 4 | Varhaug - Odd Bk Ii
 - 2026-06-28 18:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Tromso Ii
+- 2026-06-28 18:00 | Hazırlık Kulüpler | Dynamo Kiev - Ks Wieczysta Kr
+- 2026-06-28 18:00 | Belarus 1.Lig | Bate Ii - Energetik-Bgu
 - 2026-06-28 18:30 | Belarus Premier Lig | Isloch - Belshina Bobrui
 - 2026-06-28 18:30 | Finlandiya Ykkönen | Oulun Ls - Kups Ak.
 - 2026-06-28 18:30 | Litvanya 1.Lig | Kauno Zalgiris - Bfa
