@@ -230,7 +230,7 @@
     if (p) { select(p.dataset.pick, p.dataset.key); return; }
     const rm = e.target.closest("[data-remove]");
     if (rm) { app.picks.delete(rm.dataset.remove); drawRows(); drawSlip(); return; }
-    if (e.target.closest("[data-clear]")) { app.picks.clear(); drawRows(); return; }
+    if (e.target.closest("[data-clear]")) { app.picks.clear(); drawRows(); drawSlip(); return; }
     if (e.target.closest("[data-analyze]")) { analyze(); return; }
     if (e.target.closest("[data-refresh]")) load();
   };
