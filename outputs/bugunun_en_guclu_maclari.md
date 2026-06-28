@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-28T11:24:01.273Z
+- Güncelleme: 2026-06-28T14:59:22.208Z
 - Ham maç sayısı: 96
 - Yarın bülteni maç sayısı: 12
 - Detay blok sayısı: 248
-- Aktif bülten maçı: 96
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 87
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -22,38 +22,29 @@
 | Jonsereds If - Kongahalla | İsveç 2.Lig Vastra Götaland | 14:00 | Canlı 24' | - | 1.48 | 6 |
 | Brondby - Hvidovre | Hazırlık Kulüpler | 14:00 | Canlı 24' | - | 1.31 | 6 |
 | Orsha - Fc Minsk Ii | Belarus 1.Lig | 14:00 | Canlı 24' | - | 2.19 | 6 |
-| Jiangx Beidame - Guangzhou Dande | Çin Halk Cumhuriyeti 2.Lig Güney | 14:30 | Veri bekleniyor | - | 2.39 | 8 |
-| İsviçre U19 (K - İspanya U19 (K) | Avrupa U19 Şampiyonası Kadınlar Grup B | 15:00 | Veri bekleniyor | - | 14.7 | 3 |
-| Skeid - Trygg/Lade | Norveç 2.Lig Grup 2 | 15:00 | Veri bekleniyor | - | 1.24 | 6 |
-| Irtysh - Kaisar | Kazakistan Premier Lig | 15:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Brodd - Haugesund Ii | Norveç 3.Lig Grup 4 | 15:00 | Veri bekleniyor | - | 1.67 | 6 |
-| Linero - Karlshamn | İsveç 2.Lig Södra Götaland | 15:00 | Veri bekleniyor | - | 1.32 | 4 |
-| Smiltene - Skanste | Letonya 1.Lig | 15:00 | Veri bekleniyor | - | 2.68 | 6 |
-| Fredrikstad - Elfsborg | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.95 | 8 |
-| Molde - Bodo Glimt | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.76 | 8 |
-| Landskrona - Varnamo | İsveç Superettan | 16:00 | Veri bekleniyor | - | 1.62 | 8 |
-| Norrkoping - Norrby | İsveç Superettan | 16:00 | Veri bekleniyor | - | 1.25 | 6 |
-| Kapa - Japs | Finlandiya Ykkösliiga | 16:00 | Veri bekleniyor | - | 2.09 | 8 |
-| Follo - Levanger | Norveç 2.Lig Grup 2 | 16:00 | Veri bekleniyor | - | 3.82 | 7 |
-| Stjordals-Blin - Ik Junkeren | Norveç 2.Lig Grup 2 | 16:00 | Veri bekleniyor | - | 1.42 | 6 |
-| Kpv Kokkola - Pk Keski Uusima | Finlandiya Ykkönen | 16:00 | Veri bekleniyor | - | 4.92 | 6 |
-| Ahed - Shabab S | Lübnan Premier Lig | 16:00 | Veri bekleniyor | - | 1.38 | 7 |
-| Tobol Kostanay - Altay | Kazakistan Premier Lig | 16:00 | Veri bekleniyor | - | 1.33 | 7 |
-| Ulytau - Ordabasy | Kazakistan Premier Lig | 16:00 | Veri bekleniyor | - | 4.28 | 7 |
-| Rade - Lyn Oslo B | Norveç 3.Lig Grup 6 | 16:00 | Veri bekleniyor | - | 1.07 | 4 |
-| Mebrat Hayl - Awassa Kenema | Etiyopya Premier Lig | 16:00 | Veri bekleniyor | - | 2.57 | 6 |
-| Sheger Ketema - Mekelakeya | Etiyopya Premier Lig | 16:00 | Veri bekleniyor | - | 2.73 | 6 |
-| Nomme Kalju - Paide Linnamees | Estonya Premium Lig | 17:00 | Veri bekleniyor | - | 1.89 | 5 |
-| Zhenys - Astana | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 2.92 | 8 |
-| Kfum Ii - Heming | Norveç 3.Lig Grup 1 | 17:00 | Veri bekleniyor | - | 3.59 | 5 |
-| Vindbjart - Stabaek 2 | Norveç 3.Lig Grup 4 | 17:00 | Veri bekleniyor | - | 1.19 | 4 |
-| Breidablik - Vikingur Reykja | İzlanda Kupa Yarı Final | 17:00 | Veri bekleniyor | - | 4.87 | 4 |
-| Örebro Syrians - Syrianska | İsveç 2.Lig Södra Svealand | 17:00 | Veri bekleniyor | - | 1.54 | 6 |
-| Ragsved - Forward | İsveç 2.Lig Södra Svealand | 17:00 | Veri bekleniyor | - | 1.86 | 6 |
-| Jfk Ventspils - Valmieras Fk/Bs | Letonya 1.Lig | 17:00 | Veri bekleniyor | - | 5.61 | 4 |
-| Kí Klaksvík - Vestur Sorvagur | Faroe Adaları Master Lig | 17:00 | Veri bekleniyor | - | - | 3 |
-| Streymur - B36 Torshavn | Faroe Adaları Master Lig | 17:00 | Veri bekleniyor | - | 4.05 | 7 |
-| Ferencvaros - Sabah | Hazırlık Kulüpler | 17:30 | Veri bekleniyor | - | 1.5 | 5 |
+| Landskrona - Varnamo | İsveç Superettan | 16:00 | Canlı 90' | - | 1.62 | 8 |
+| Norrkoping - Norrby | İsveç Superettan | 16:00 | Canlı 90' | - | 1.25 | 6 |
+| Kapa - Japs | Finlandiya Ykkösliiga | 16:00 | Canlı 90' | - | 2.09 | 8 |
+| Follo - Levanger | Norveç 2.Lig Grup 2 | 16:00 | Canlı 90' | - | 3.82 | 7 |
+| Stjordals-Blin - Ik Junkeren | Norveç 2.Lig Grup 2 | 16:00 | Canlı 90' | - | 1.42 | 6 |
+| Kpv Kokkola - Pk Keski Uusima | Finlandiya Ykkönen | 16:00 | Canlı 90' | - | 4.92 | 6 |
+| Ahed - Shabab S | Lübnan Premier Lig | 16:00 | Canlı 90' | - | 1.38 | 7 |
+| Tobol Kostanay - Altay | Kazakistan Premier Lig | 16:00 | Canlı 90' | - | 1.33 | 7 |
+| Ulytau - Ordabasy | Kazakistan Premier Lig | 16:00 | Canlı 90' | - | 4.28 | 7 |
+| Rade - Lyn Oslo B | Norveç 3.Lig Grup 6 | 16:00 | Canlı 90' | - | 1.07 | 4 |
+| Mebrat Hayl - Awassa Kenema | Etiyopya Premier Lig | 16:00 | Canlı 90' | - | 2.57 | 6 |
+| Sheger Ketema - Mekelakeya | Etiyopya Premier Lig | 16:00 | Canlı 90' | - | 2.73 | 6 |
+| Nomme Kalju - Paide Linnamees | Estonya Premium Lig | 17:00 | Canlı 59' | - | 1.89 | 5 |
+| Zhenys - Astana | Kazakistan Premier Lig | 17:00 | Canlı 59' | - | 2.92 | 8 |
+| Kfum Ii - Heming | Norveç 3.Lig Grup 1 | 17:00 | Canlı 59' | - | 3.59 | 5 |
+| Vindbjart - Stabaek 2 | Norveç 3.Lig Grup 4 | 17:00 | Canlı 59' | - | 1.19 | 4 |
+| Breidablik - Vikingur Reykja | İzlanda Kupa Yarı Final | 17:00 | Canlı 59' | - | 4.87 | 4 |
+| Örebro Syrians - Syrianska | İsveç 2.Lig Södra Svealand | 17:00 | Canlı 59' | - | 1.54 | 6 |
+| Ragsved - Forward | İsveç 2.Lig Södra Svealand | 17:00 | Canlı 59' | - | 1.86 | 6 |
+| Jfk Ventspils - Valmieras Fk/Bs | Letonya 1.Lig | 17:00 | Canlı 59' | - | 5.61 | 4 |
+| Kí Klaksvík - Vestur Sorvagur | Faroe Adaları Master Lig | 17:00 | Canlı 59' | - | - | 3 |
+| Streymur - B36 Torshavn | Faroe Adaları Master Lig | 17:00 | Canlı 59' | - | 4.05 | 7 |
+| Ferencvaros - Sabah | Hazırlık Kulüpler | 17:30 | Canlı 29' | - | 1.5 | 5 |
 | Avusturya U19 - İzlanda U19 (K) | Avrupa U19 Şampiyonası Kadınlar Grup B | 18:00 | Veri bekleniyor | - | 1.56 | 6 |
 | Sandvikens - Helsingborg | İsveç Superettan | 18:00 | Veri bekleniyor | - | 1.83 | 8 |
 | Banga - Hegelmann | Litvanya A Ligi | 18:00 | Veri bekleniyor | - | 1.72 | 8 |

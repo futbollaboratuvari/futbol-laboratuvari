@@ -2,9 +2,9 @@
 
 Gunler: 2026-06-28 / 2026-06-29
 Ham mac: 96
-Aktif mac: 96
-Bultenden dusurulen mac: 0
-Bugun: 84
+Aktif mac: 87
+Bultenden dusurulen mac: 9
+Bugun: 75
 Yarin: 12
 
 - 2026-06-28 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Zhejiang G. Fc
@@ -17,15 +17,6 @@ Yarin: 12
 - 2026-06-28 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Kongahalla
 - 2026-06-28 14:00 | Hazırlık Kulüpler | Brondby - Hvidovre
 - 2026-06-28 14:00 | Belarus 1.Lig | Orsha - Fc Minsk Ii
-- 2026-06-28 14:30 | Çin Halk Cumhuriyeti 2.Lig Güney | Jiangx Beidame - Guangzhou Dande
-- 2026-06-28 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İsviçre U19 (K - İspanya U19 (K)
-- 2026-06-28 15:00 | Norveç 2.Lig Grup 2 | Skeid - Trygg/Lade
-- 2026-06-28 15:00 | Kazakistan Premier Lig | Irtysh - Kaisar
-- 2026-06-28 15:00 | Norveç 3.Lig Grup 4 | Brodd - Haugesund Ii
-- 2026-06-28 15:00 | İsveç 2.Lig Södra Götaland | Linero - Karlshamn
-- 2026-06-28 15:00 | Letonya 1.Lig | Smiltene - Skanste
-- 2026-06-28 15:00 | Hazırlık Kulüpler | Fredrikstad - Elfsborg
-- 2026-06-28 15:00 | Hazırlık Kulüpler | Molde - Bodo Glimt
 - 2026-06-28 16:00 | İsveç Superettan | Landskrona - Varnamo
 - 2026-06-28 16:00 | İsveç Superettan | Norrkoping - Norrby
 - 2026-06-28 16:00 | Finlandiya Ykkösliiga | Kapa - Japs
