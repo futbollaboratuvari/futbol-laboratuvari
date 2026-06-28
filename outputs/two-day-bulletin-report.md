@@ -1,22 +1,12 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-06-28 / 2026-06-29
-Ham mac: 96
-Aktif mac: 87
-Bultenden dusurulen mac: 9
-Bugun: 75
-Yarin: 12
+Ham mac: 109
+Aktif mac: 78
+Bultenden dusurulen mac: 31
+Bugun: 65
+Yarin: 13
 
-- 2026-06-28 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Zhejiang G. Fc
-- 2026-06-28 13:00 | Güney Kore K3 Ligi | Busan Transpor - Daejeon Korail
-- 2026-06-28 13:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skjervoy
-- 2026-06-28 13:00 | Letonya 1.Lig | Leevon / Ppk - Metta / Lu
-- 2026-06-28 13:00 | Etiyopya Premier Lig | Bahardar - Sidama Bunna
-- 2026-06-28 14:00 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Shanghai Shenhu
-- 2026-06-28 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Ningbo
-- 2026-06-28 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Kongahalla
-- 2026-06-28 14:00 | Hazırlık Kulüpler | Brondby - Hvidovre
-- 2026-06-28 14:00 | Belarus 1.Lig | Orsha - Fc Minsk Ii
 - 2026-06-28 16:00 | İsveç Superettan | Landskrona - Varnamo
 - 2026-06-28 16:00 | İsveç Superettan | Norrkoping - Norrby
 - 2026-06-28 16:00 | Finlandiya Ykkösliiga | Kapa - Japs
@@ -91,6 +81,7 @@ Yarin: 12
 - 2026-06-29 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Lakeland United
 - 2026-06-29 02:00 | Kanada Premier Lig | Cavalry - Supra Du Québec
 - 2026-06-29 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars - West Seattle Ju
+- 2026-06-29 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | West Chester U - Lehigh Valley U
 - 2026-06-29 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - Dothan United
 - 2026-06-29 03:00 | Şili Kupa Grup H | Puerto Montt - Concepcion
 - 2026-06-29 03:00 | ABD USL Lig 2 Güney Florida Grubu | Miami Ac - Brevard Fire
