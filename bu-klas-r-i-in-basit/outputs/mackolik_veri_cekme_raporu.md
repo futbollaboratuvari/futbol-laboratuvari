@@ -1,31 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-28T19:59:00.330373+00:00
+Tarih: 2026-06-28T23:48:36.176168+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 17
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 17
-- Ham veri havuzu toplam mac sayisi: 753
-- Hedef tarih: 28.06.2026 Europe/Istanbul
+- Kac mac bulundu: 20
+- Kac mac kaydedildi: 20
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 773
+- Hedef tarih: 29.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Orta Atlantik Grubu
-- Avustralya NPL Kuzey YGG
-- Brezilya Serie B
-- Kanada Premier Lig
-- Şili Kupa Grup D
-- Şili Kupa Grup E
-- Şili Kupa Grup F
-- Şili Kupa Grup H
+- Avrupa U19 Şampiyonası Grup B
+- Dünya Kupası 2026 Son 32 Turu
+- Faroe Adaları Master Lig
+- Finlandiya Ykkönen
+- Kuveyt Premier Lig Şampiyonluk Grubu
+- Letonya Virsliga
+- Litvanya A Ligi
+- Lübnan Premier Lig
+- İzlanda 1.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -82,8 +80,8 @@ Tarih: 2026-06-28T19:59:00.330373+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 14
-- Acilan detay: 14
+- Denenen Tumu alani: 11
+- Acilan detay: 11
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -96,23 +94,26 @@ Tarih: 2026-06-28T19:59:00.330373+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 29.06.2026 | 00:30 | Şili Kupa Grup D | Univ. De Şili | Union San Felip | 06880 | 3 |
-| 29.06.2026 | 00:00 | Şili Kupa Grup E | O Higgins | Recoleta | 06819 | 5 |
-| 28.06.2026 | 23:00 | Şili Kupa Grup F | Curico | Univ De Concepc | 06581 | 5 |
-| 29.06.2026 | 00:00 | Şili Kupa Grup F | Csd Rangers | Atletico Nublen | 06792 | 5 |
-| 29.06.2026 | 03:00 | Şili Kupa Grup H | Puerto Montt | Concepcion | 02816 | 5 |
-| 29.06.2026 | 00:30 | Brezilya Serie B | Fortaleza Ce | Sport Recife | 15373 | 5 |
-| 29.06.2026 | 00:30 | Brezilya Serie B | Nautico | Goias | 15406 | 5 |
-| 28.06.2026 | 08:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 11002 | 3 |
-| 29.06.2026 | 02:00 | Kanada Premier Lig | Cavalry | Supra Du Québec | 18065 | 5 |
-| 28.06.2026 | 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Junior Lone St | Ocean City | 19273 | 3 |
-| 29.06.2026 | 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | West Chester U | Lehigh Valley U | 04797 | 3 |
-| 28.06.2026 | 23:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Seacoast Unite | Black Rock | 06626 | 3 |
-| 29.06.2026 | 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars | West Seattle Ju | 06900 | 3 |
-| 29.06.2026 | 01:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bangers | Bigfoot | 06651 | 2 |
-| 29.06.2026 | 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce | Dothan United | 19290 | 5 |
-| 29.06.2026 | 03:00 | ABD USL Lig 2 Güney Florida Grubu | Miami Ac | Brevard Fire | 19292 | 3 |
-| 29.06.2026 | 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston | Lakeland United | 06847 | 3 |
+| 29.06.2026 | 23:30 | Dünya Kupası 2026 Son 32 Turu | Almanya | Paraguay | 05167 | 5 |
+| 29.06.2026 | 20:00 | Dünya Kupası 2026 Son 32 Turu | Brezilya | Japonya | 20051 | 5 |
+| 30.06.2026 | 04:00 | Dünya Kupası 2026 Son 32 Turu | Hollanda | Fas | 19906 | 5 |
+| 29.06.2026 | 22:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | Ukrayna U19 | 02293 | 5 |
+| 29.06.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | İtalya U19 | Sirbistan (U19) | 02899 | 5 |
+| 29.06.2026 | 18:45 | Litvanya A Ligi | Fk Panevezys | Suduva | 14958 | 5 |
+| 29.06.2026 | 18:30 | Litvanya A Ligi | Fa Siauliai | Transinvest Vil | 14956 | 5 |
+| 29.06.2026 | 18:30 | Finlandiya Ykkönen | Vjs | Tpv Tampere | 02647 | 5 |
+| 29.06.2026 | 19:05 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia | Al-Kuwait | 07610 | 5 |
+| 29.06.2026 | 22:15 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Arabi | Al Fahaheel | 07602 | 5 |
+| 29.06.2026 | 22:15 | Kuveyt Premier Lig Şampiyonluk Grubu | Kazma | Al Salmiyah | 07612 | 5 |
+| 29.06.2026 | 21:30 | Lübnan Premier Lig | Mabarra | Ansar | 04516 | 2 |
+| 29.06.2026 | 15:30 | Lübnan Premier Lig | Hikma | Tadamon Tyre | 07292 | 5 |
+| 29.06.2026 | 22:15 | İzlanda Urvalsdeild | Akranes | Fram | 14055 | 3 |
+| 29.06.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Aegir | 14053 | 3 |
+| 29.06.2026 | 18:00 | Letonya Virsliga | Auda | Riga Fc | 15002 | 5 |
+| 29.06.2026 | 18:00 | Letonya Virsliga | Fs Jelgava | Grobina | 15020 | 5 |
+| 29.06.2026 | 20:30 | Faroe Adaları Master Lig | Hb Torshavn | Skala | 15475 | 5 |
+| 29.06.2026 | 20:30 | Faroe Adaları Master Lig | Vikingur Gota | Runavik | 15473 | 5 |
+| 29.06.2026 | 20:30 | Faroe Adaları Master Lig | B68 Toftir | Ab Argir | 15477 | 5 |
 
 ## Sonuc
 

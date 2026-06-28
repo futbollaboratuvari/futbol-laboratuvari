@@ -1,28 +1,12 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-06-28 / 2026-06-29
-Ham mac: 24
-Aktif mac: 24
-Bultenden dusurulen mac: 0
-Bugun: 11
-Yarin: 13
+Gunler: 2026-06-29 / 2026-06-30
+Ham mac: 33
+Aktif mac: 28
+Bultenden dusurulen mac: 5
+Bugun: 27
+Yarin: 1
 
-- 2026-06-28 21:30 | Lübnan Premier Lig | Jwaya - Safa
-- 2026-06-28 22:00 | Dünya Kupası 2026 Son 32 Turu | Güney Afrika - Kanada
-- 2026-06-28 22:00 | Avrupa U19 Şampiyonası Grup A | Almanya U19 - Danimarka U19
-- 2026-06-28 22:00 | Şili Kupa Grup D | Union La Caler - Sant. Wanderers
-- 2026-06-28 22:00 | Şili Kupa Grup H | Huachipato - Temuco
-- 2026-06-28 22:00 | Brezilya Serie B | Athletic Club - Avai
-- 2026-06-28 22:00 | Brezilya Serie B | Atletico Goian - Ponte Preta
-- 2026-06-28 22:00 | Brezilya Serie B | Juventude - Ceara
-- 2026-06-28 23:00 | Şili Kupa Grup F | Curico - Univ De Concepc
-- 2026-06-28 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Junior Lone St - Ocean City
-- 2026-06-28 23:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Seacoast Unite - Black Rock
-- 2026-06-29 00:00 | Şili Kupa Grup E | O Higgins - Recoleta
-- 2026-06-29 00:00 | Şili Kupa Grup F | Csd Rangers - Atletico Nublen
-- 2026-06-29 00:30 | Şili Kupa Grup D | Univ. De Şili - Union San Felip
-- 2026-06-29 00:30 | Brezilya Serie B | Nautico - Goias
-- 2026-06-29 00:30 | Brezilya Serie B | Fortaleza Ce - Sport Recife
 - 2026-06-29 01:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bangers - Bigfoot
 - 2026-06-29 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Lakeland United
 - 2026-06-29 02:00 | Kanada Premier Lig | Cavalry - Supra Du Québec
@@ -31,3 +15,23 @@ Yarin: 13
 - 2026-06-29 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - Dothan United
 - 2026-06-29 03:00 | Şili Kupa Grup H | Puerto Montt - Concepcion
 - 2026-06-29 03:00 | ABD USL Lig 2 Güney Florida Grubu | Miami Ac - Brevard Fire
+- 2026-06-29 15:30 | Lübnan Premier Lig | Hikma - Tadamon Tyre
+- 2026-06-29 18:00 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19)
+- 2026-06-29 18:00 | Letonya Virsliga | Auda - Riga Fc
+- 2026-06-29 18:00 | Letonya Virsliga | Fs Jelgava - Grobina
+- 2026-06-29 18:30 | Litvanya A Ligi | Fa Siauliai - Transinvest Vil
+- 2026-06-29 18:30 | Finlandiya Ykkönen | Vjs - Tpv Tampere
+- 2026-06-29 18:45 | Litvanya A Ligi | Fk Panevezys - Suduva
+- 2026-06-29 19:05 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia - Al-Kuwait
+- 2026-06-29 20:00 | Dünya Kupası 2026 Son 32 Turu | Brezilya - Japonya
+- 2026-06-29 20:30 | Faroe Adaları Master Lig | Hb Torshavn - Skala
+- 2026-06-29 20:30 | Faroe Adaları Master Lig | Vikingur Gota - Runavik
+- 2026-06-29 20:30 | Faroe Adaları Master Lig | B68 Toftir - Ab Argir
+- 2026-06-29 21:30 | Lübnan Premier Lig | Mabarra - Ansar
+- 2026-06-29 22:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - Ukrayna U19
+- 2026-06-29 22:15 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Arabi - Al Fahaheel
+- 2026-06-29 22:15 | Kuveyt Premier Lig Şampiyonluk Grubu | Kazma - Al Salmiyah
+- 2026-06-29 22:15 | İzlanda Urvalsdeild | Akranes - Fram
+- 2026-06-29 22:15 | İzlanda 1.Lig | Afturelding - Aegir
+- 2026-06-29 23:30 | Dünya Kupası 2026 Son 32 Turu | Almanya - Paraguay
+- 2026-06-30 04:00 | Dünya Kupası 2026 Son 32 Turu | Hollanda - Fas
