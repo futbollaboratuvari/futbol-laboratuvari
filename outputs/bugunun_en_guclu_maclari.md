@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-06-28T15:08:25.753Z
+- Güncelleme: 2026-06-28T18:56:04.203Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -44,13 +44,13 @@
 | Dynamo Kiev VS Ks Wieczysta Kr | Hazırlık Kulüpler | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Bate Ii VS Energetik-Bgu | Belarus 1.Lig | 18:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Isloch VS Belshina Bobrui | Belarus Premier Lig | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Oulun Ls VS Kups Ak. | Finlandiya Ykkönen | 18:30 | MS 2 | 6.62 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Kauno Zalgiris VS Bfa | Litvanya 1.Lig | 18:30 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Dziugas Telsia VS Zalgiris Vilniu | Litvanya A Ligi | 18:45 | MS X | 2.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Oulun Ls VS Kups Ak. | Finlandiya Ykkönen | 18:30 | MS 2 | 6.62 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | finished |
+| Kauno Zalgiris VS Bfa | Litvanya 1.Lig | 18:30 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | finished |
+| Dziugas Telsia VS Zalgiris Vilniu | Litvanya A Ligi | 18:45 | MS X | 2.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | finished |
 | Levadia Tallin VS Flora Tallinn | Estonya Premium Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Karlslunds If VS Fittja | İsveç 2.Lig Södra Svealand | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| La Serena VS Cobreloa | Şili Kupa Grup C | 19:30 | MS 2 | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cobresal VS Antofagasta | Şili Kupa Grup C | 19:30 | MS 2 | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| La Serena VS Cobreloa | Şili Kupa Grup C | 19:30 | MS 2 | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | finished |
+| Cobresal VS Antofagasta | Şili Kupa Grup C | 19:30 | MS 2 | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | finished |
 | Galler U19 VS İspanya (U19) | Avrupa U19 Şampiyonası Grup A | 20:00 | Değerli market yok | - | 30 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ol. Safi VS Codm Meknes | Fas Botola Pro | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Wydad Casablan VS Olympique Dchei | Fas Botola Pro | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -65,7 +65,7 @@
 | Stjarnan VS Ka Akureyri | İzlanda Urvalsdeild | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Thor Akureyri VS Valur | İzlanda Urvalsdeild | 20:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Hafnarfjordur VS Vestmannaeyjar | İzlanda Urvalsdeild | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Jwaya VS Safa | Lübnan Premier Lig | 21:30 | MS 2 | 3.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Jwaya VS Safa | Lübnan Premier Lig | 21:30 | MS 2 | 3.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Güney Afrika VS Kanada | Dünya Kupası 2026 Son 32 Turu | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Almanya U19 VS Danimarka U19 | Avrupa U19 Şampiyonası Grup A | 22:00 | MS X | 3.27 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Union La Caler VS Sant. Wanderers | Şili Kupa Grup D | 22:00 | MS 2 | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

@@ -2,17 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 46
-- Live match count: 32
-- Finished removed count: 0
+- Scheduled match count: 23
+- Live match count: 15
+- Finished removed count: 32
 
-- 2026-06-28 16:00 | Mebrat Hayl - Awassa Kenema | live
-- 2026-06-28 16:00 | Sheger Ketema - Mekelakeya | live
-- 2026-06-28 16:00 | Kpv Kokkola - Pk Keski Uusima | live
-- 2026-06-28 16:00 | Kapa - Japs | live
-- 2026-06-28 16:00 | Landskrona - Varnamo | live
-- 2026-06-28 16:00 | Norrkoping - Norrby | live
-- 2026-06-28 16:00 | Tobol Kostanay - Altay | live
-- 2026-06-28 16:00 | Ulytau - Ordabasy | live
-- 2026-06-28 16:00 | Ahed - Shabab S | live
-- 2026-06-28 16:00 | Follo - Levanger | live
+- 2026-06-28 20:00 | Galler U19 - İspanya (U19) | live
+- 2026-06-28 20:00 | Difaa - Kawkab Marrakec | live
+- 2026-06-28 20:00 | Far Rabat - Uts Rabat | live
+- 2026-06-28 20:00 | Fus Rabat - Rsb Berkane | live
+- 2026-06-28 20:00 | Husa Agadir - Cr Khemis Zemam | live
+- 2026-06-28 20:00 | Ittihad Tanger - Raja Casablanca | live
+- 2026-06-28 20:00 | Maghreb Fes - Yacoub El Manso | live
+- 2026-06-28 20:00 | Ol. Safi - Codm Meknes | live
+- 2026-06-28 20:00 | Wydad Casablan - Olympique Dchei | live
+- 2026-06-28 20:00 | Hafnarfjordur - Vestmannaeyjar | live

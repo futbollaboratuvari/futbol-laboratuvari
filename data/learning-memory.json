@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-28T15:08:33.345Z",
+  "updated_at": "2026-06-28T18:56:12.605Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 32,
-    "pending_predictions": 32,
+    "total_predictions": 33,
+    "pending_predictions": 33,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 17,
+    "league_count": 18,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 1,
+    "updated_predictions": 0,
+    "last_score_link_checked": 33,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS X": {
-      "total": 17,
-      "pending": 17,
+    "MS 2": {
+      "total": 13,
+      "pending": 13,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -26,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 2": {
-      "total": 12,
-      "pending": 12,
+    "MS X": {
+      "total": 17,
+      "pending": 17,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,6 +52,16 @@
     }
   },
   "league_memory": {
+    "Avrupa U19 Şampiyonası Kadınlar Grup B": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 2.Lig Grup 2": {
       "total": 4,
       "pending": 4,
@@ -220,6 +234,16 @@
     }
   },
   "league_market_memory": {
+    "Avrupa U19 Şampiyonası Kadınlar Grup B :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 2.Lig Grup 2 :: MS X": {
       "total": 1,
       "pending": 1,
@@ -473,6 +497,23 @@
   },
   "predictions": [
     {
+      "id": "2026-06-28|avrupa u19 sampiyonasi kadinlar grup b|avusturya u19 izlanda u19 k|ms 2|18 00",
+      "date": "2026-06-28",
+      "created_at": "2026-06-28T18:56:12.094Z",
+      "match_name": "Avusturya U19 - İzlanda U19 (K)",
+      "league": "Avrupa U19 Şampiyonası Kadınlar Grup B",
+      "start_time": "18:00",
+      "market": "MS 2",
+      "odds": "3.49",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-06-28|norvec 2 lig grup 2|stjordals blin ik junkeren|ms x|16 00",
       "date": "2026-06-28",
       "created_at": "2026-06-28T10:18:16.527Z",
@@ -488,7 +529,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|isvec superettan|sandvikens helsingborg|ms x|18 00",
@@ -506,7 +547,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|litvanya a ligi|banga hegelmann|ms 2|18 00",
@@ -524,7 +565,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|norvec 2 lig grup 1|sotra sk jerv|ms x|18 00",
@@ -542,7 +583,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|finlandiya ykkonen|oulun ls kups ak|ms 2|18 30",
@@ -560,7 +601,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|litvanya 1 lig|kauno zalgiris bfa|ms x|18 30",
@@ -578,7 +619,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|litvanya a ligi|dziugas telsia zalgiris vilniu|ms x|18 45",
@@ -596,7 +637,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|sili kupa grup c|la serena cobreloa|ms 2|19 30",
@@ -614,7 +655,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|sili kupa grup c|cobresal antofagasta|ms 2|19 30",
@@ -632,7 +673,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.345Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|avrupa u19 sampiyonasi grup a|galler u19 ispanya u19|ms x|20 00",
@@ -668,7 +709,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.345Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|avrupa u19 sampiyonasi grup a|almanya u19 danimarka u19|ms x|22 00",
@@ -686,7 +727,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.345Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|sili kupa grup d|union la caler sant wanderers|ms 2|22 00",
@@ -704,7 +745,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.345Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|sili kupa grup h|huachipato temuco|ms 2|22 00",
@@ -722,7 +763,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.345Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|sili kupa grup f|curico univ de concepc|ms x|23 00",
@@ -740,7 +781,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.345Z"
+      "updated_at": "2026-06-28T18:56:12.095Z"
     },
     {
       "id": "2026-06-28|cin halk cumhuriyeti super lig|qingdao youth zhejiang g fc|ms x|13 00",
@@ -884,7 +925,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.343Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|finlandiya ykkosliiga|kapa japs|ms x|16 00",
@@ -902,7 +943,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.343Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|norvec 2 lig grup 2|follo levanger|ms 1|16 00",
@@ -920,7 +961,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|norvec 2 lig grup 2|stjordals blin ik junkeren|ms 2|16 00",
@@ -956,7 +997,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|lubnan premier lig|ahed shabab s|ms 2|16 00",
@@ -974,7 +1015,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|kazakistan premier lig|tobol kostanay altay|ms 2|16 00",
@@ -992,7 +1033,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|kazakistan premier lig|zhenys astana|ms 1|17 00",
@@ -1010,7 +1051,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-28T15:08:33.344Z"
+      "updated_at": "2026-06-28T18:56:12.094Z"
     },
     {
       "id": "2026-06-28|guney kore k3 ligi|dangjin citize gangneung city|ms x|11 00",

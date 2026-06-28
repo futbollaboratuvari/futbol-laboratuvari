@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 28.06.2026 18:08:33
+Oluşturma: 28.06.2026 21:56:12
 
 ## Özet
 
-- Toplam tahmin: 32
-- Bekleyen tahmin: 32
+- Toplam tahmin: 33
+- Bekleyen tahmin: 33
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 17
+- Lig sayısı: 18
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 28.06.2026 18:08:33
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 - MS X: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-06-28 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 - İzlanda U19 (K) | MS 2 | pending | 50/100
 - 2026-06-28 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Ik Junkeren | MS X | pending | 80/100
 - 2026-06-28 | İsveç Superettan | Sandvikens - Helsingborg | MS X | pending | 50/100
 - 2026-06-28 | Litvanya A Ligi | Banga - Hegelmann | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 28.06.2026 18:08:33
 - 2026-06-28 | Avrupa U19 Şampiyonası Grup A | Almanya U19 - Danimarka U19 | MS X | pending | 60/100
 - 2026-06-28 | Şili Kupa Grup D | Union La Caler - Sant. Wanderers | MS 2 | pending | 50/100
 - 2026-06-28 | Şili Kupa Grup H | Huachipato - Temuco | MS 2 | pending | 50/100
-- 2026-06-28 | Şili Kupa Grup F | Curico - Univ De Concepc | MS X | pending | 50/100
 
