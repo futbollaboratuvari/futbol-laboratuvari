@@ -2,17 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 16
-- Live match count: 8
+- Scheduled match count: 6
+- Live match count: 7
 - Finished removed count: 0
 
-- 2026-06-28 21:30 | Jwaya - Safa | live
-- 2026-06-28 22:00 | Almanya U19 - Danimarka U19 | live
-- 2026-06-28 22:00 | Athletic Club - Avai | live
-- 2026-06-28 22:00 | Atletico Goian - Ponte Preta | live
-- 2026-06-28 22:00 | Juventude - Ceara | live
-- 2026-06-28 22:00 | Güney Afrika - Kanada | live
-- 2026-06-28 22:00 | Union La Caler - Sant. Wanderers | live
-- 2026-06-28 22:00 | Huachipato - Temuco | live
-- 2026-06-28 23:00 | Seacoast Unite - Black Rock | scheduled
-- 2026-06-28 23:00 | Junior Lone St - Ocean City | scheduled
+- 2026-06-29 00:00 | O Higgins - Recoleta | live
+- 2026-06-29 00:00 | Csd Rangers - Atletico Nublen | live
+- 2026-06-29 00:30 | Fortaleza Ce - Sport Recife | live
+- 2026-06-29 00:30 | Nautico - Goias | live
+- 2026-06-29 00:30 | Univ. De Şili - Union San Felip | live
+- 2026-06-29 01:00 | Weston - Lakeland United | live
+- 2026-06-29 01:00 | Bangers - Bigfoot | live
+- 2026-06-29 02:00 | Tacoma Stars - West Seattle Ju | scheduled
+- 2026-06-29 02:00 | West Chester U - Lehigh Valley U | scheduled
+- 2026-06-29 02:00 | Cavalry - Supra Du Québec | scheduled

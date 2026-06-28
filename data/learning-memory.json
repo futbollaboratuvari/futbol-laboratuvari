@@ -1,28 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-28T19:59:34.087Z",
+  "updated_at": "2026-06-28T22:42:23.343Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 33,
-    "pending_predictions": 33,
+    "total_predictions": 38,
+    "pending_predictions": 38,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 18,
+    "league_count": 20,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 5,
     "updated_predictions": 0,
-    "last_score_link_checked": 33,
+    "last_score_link_checked": 38,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 13,
-      "pending": 13,
+    "MS X": {
+      "total": 20,
+      "pending": 20,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 17,
-      "pending": 17,
+    "MS 2": {
+      "total": 15,
+      "pending": 15,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +52,46 @@
     }
   },
   "league_memory": {
+    "ABD USL Lig 2 Güney Merkez Grubu": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup H": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup F": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Avrupa U19 Şampiyonası Kadınlar Grup B": {
       "total": 1,
       "pending": 1,
@@ -162,26 +202,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Şili Kupa Grup H": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Şili Kupa Grup F": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Çin Halk Cumhuriyeti Süper Lig": {
       "total": 2,
       "pending": 2,
@@ -234,6 +254,46 @@
     }
   },
   "league_market_memory": {
+    "ABD USL Lig 2 Güney Merkez Grubu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup H :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup F :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Avrupa U19 Şampiyonası Kadınlar Grup B :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -355,16 +415,6 @@
       "confidence_adjustment": 0
     },
     "Şili Kupa Grup H :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Şili Kupa Grup F :: MS X": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -496,6 +546,91 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-06-29|abd usl lig 2 guney merkez grubu|southern socce dothan united|ms x|02 30",
+      "date": "2026-06-29",
+      "created_at": "2026-06-28T22:42:22.845Z",
+      "match_name": "Southern Socce - Dothan United",
+      "league": "ABD USL Lig 2 Güney Merkez Grubu",
+      "start_time": "02:30",
+      "market": "MS X",
+      "odds": "3.05",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-06-29|sili kupa grup h|puerto montt concepcion|ms x|03 00",
+      "date": "2026-06-29",
+      "created_at": "2026-06-28T22:42:22.845Z",
+      "match_name": "Puerto Montt - Concepcion",
+      "league": "Şili Kupa Grup H",
+      "start_time": "03:00",
+      "market": "MS X",
+      "odds": "2.81",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-06-29|sili kupa grup f|csd rangers atletico nublen|ms x|00 00",
+      "date": "2026-06-29",
+      "created_at": "2026-06-28T22:42:22.844Z",
+      "match_name": "Csd Rangers - Atletico Nublen",
+      "league": "Şili Kupa Grup F",
+      "start_time": "00:00",
+      "market": "MS X",
+      "odds": "2.73",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-06-29|brezilya serie b|nautico goias|ms 2|00 30",
+      "date": "2026-06-29",
+      "created_at": "2026-06-28T22:42:22.844Z",
+      "match_name": "Nautico - Goias",
+      "league": "Brezilya Serie B",
+      "start_time": "00:30",
+      "market": "MS 2",
+      "odds": "3.56",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-06-29|brezilya serie b|fortaleza ce sport recife|ms 2|00 30",
+      "date": "2026-06-29",
+      "created_at": "2026-06-28T22:42:22.844Z",
+      "match_name": "Fortaleza Ce - Sport Recife",
+      "league": "Brezilya Serie B",
+      "start_time": "00:30",
+      "market": "MS 2",
+      "odds": "4.02",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-06-28|avrupa u19 sampiyonasi kadinlar grup b|avusturya u19 izlanda u19 k|ms 2|18 00",
       "date": "2026-06-28",
