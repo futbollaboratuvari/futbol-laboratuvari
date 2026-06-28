@@ -15,6 +15,9 @@
   const minuteOf = (time) => { const m = String(time || "").trim().match(/^(\d{1,2}):(\d{2})$/); return m ? Number(m[1]) * 60 + Number(m[2]) : 9999; };
   const isEarly = (m) => minuteOf(m.time) < 8 * 60;
   const isLive = (m) => /live|canlı|canli/.test(String(m.status || m.liveStatus || "").toLocaleLowerCase("tr-TR"));
+  const inactiveStatuses = new Set(["finished", "ended", "complete", "completed", "fulltime", "full_time", "ft", "ms", "cancelled", "canceled", "postponed", "sonuçlandı", "sonuclandi", "tamamlandı", "tamamlandi", "iptal", "ertelendi"]);
+  const normalizeStatus = (m) => String(m.status || m.liveStatus || m.result_status || "").trim().toLocaleLowerCase("tr-TR");
+  const isActiveBulletin = (m) => !inactiveStatuses.has(normalizeStatus(m));
   const trNow = () => {
     const parts = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Istanbul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date());
     const bag = Object.fromEntries(parts.map((p) => [p.type, p.value]));
@@ -100,10 +103,10 @@
     const full = await readJson("./data/full-bulletin.json");
     const live = await readJson("./data/live-matches.json");
     app.window = full?.date_window || null;
-    const scheduled = Array.isArray(full?.matches) ? full.matches.map((x, i) => norm(x, i, "scheduled")) : [];
+    const scheduled = Array.isArray(full?.matches) ? full.matches.map((x, i) => norm(x, i)) : [];
     const liveFromFull = Array.isArray(full?.live_matches) ? full.live_matches.map((x, i) => norm(x, i, "live")) : [];
     const liveFromFile = Array.isArray(live?.matches) ? live.matches.map((x, i) => norm(x, i, "live")) : [];
-    app.bulletin = sortBulletin(unique(scheduled.filter((m) => !isLive(m) && isUpcomingBulletin(m))));
+    app.bulletin = sortBulletin(unique(scheduled.filter((m) => isActiveBulletin(m) && !isLive(m) && isUpcomingBulletin(m))));
     app.live = unique([...liveFromFull, ...liveFromFile].filter(isLive));
     draw();
   }
@@ -227,7 +230,7 @@
     if (p) { select(p.dataset.pick, p.dataset.key); return; }
     const rm = e.target.closest("[data-remove]");
     if (rm) { app.picks.delete(rm.dataset.remove); drawRows(); drawSlip(); return; }
-    if (e.target.closest("[data-clear]")) { app.picks.clear(); drawRows(); drawSlip(); return; }
+    if (e.target.closest("[data-clear]")) { app.picks.clear(); drawRows(); return; }
     if (e.target.closest("[data-analyze]")) { analyze(); return; }
     if (e.target.closest("[data-refresh]")) load();
   };
