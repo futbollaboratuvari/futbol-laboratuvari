@@ -1,9 +1,9 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-06-28 / 2026-06-29
-Ham mac: 108
+Ham mac: 96
 Aktif mac: 96
-Bultenden dusurulen mac: 12
+Bultenden dusurulen mac: 0
 Bugun: 84
 Yarin: 12
 
