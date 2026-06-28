@@ -4,7 +4,25 @@ Bu dosya Futbol Laboratuvarı projesinin kalıcı çalışma hafızasıdır. Yen
 
 ---
 
-## 0. EN GÜNCEL DEVAM DOSYASI / 26.06.2026 12:16:09
+## 0. EN GÜNCEL DEVAM DOSYASI / 28.06.2026
+
+**Başlayan maçların Futbol Bülteni'nden gizlenmesi ve bu sohbetteki çalışma kuralı ayrı dosyaya kaydedildi. Yeni sohbette bülten / başlayan maç / site kontrolü işine devam edilecekse önce şu dosya okunacak:**
+
+`MEGA_HAFIZA_KAYITLAR/2026-06-28_baslayan_mac_bulten_filtresi_kaydi.md`
+
+Bu dosyada kayıtlı ana başlıklar:
+
+- Kullanıcının net kuralı: maç tarihi bugünse ve maç saati <= şu anki Türkiye saatiyse maç Futbol Bülteni'nde gösterilmeyecek
+- Video gözlemi: 03:19'da 02:00, 02:30, 03:00 maçları bültende görünüyordu
+- Doğru teknik işlem: sadece `daily-matches-widget.js` değiştirildi
+- Commit: `ce93a7afa4467c1177370a32fca205289b3ca1ca`
+- Kesin çalışma kuralı: branch reset, workflow, CNAME, domain, Pages ayarı, ekstra dosya ve kapsam dışı değişiklik yapılmayacak
+
+**Yeni sayfada ilk iş:** önce bu kayıt okunacak; kullanıcı site kontrolü isterse sadece kontrol edilecek, dosya değiştirilmeyecek. Kod değişikliği istenirse sadece açıkça söylenen dosyaya ve kurala dokunulacak.
+
+---
+
+## 0.1. ÖNCEKİ EN GÜNCEL DEVAM DOSYASI / 26.06.2026 12:16:09
 
 **AdSense reklam bağlantısı ve politika sayfaları devam kaydı oluşturuldu. Yeni sohbette reklam/politika işine devam edilecekse önce şu dosya okunacak:**
 
@@ -18,11 +36,11 @@ Bu dosyada kayıtlı ana başlıklar:
 - Admin paneline reklam koymama kararı
 - Gizlilik politikası, kullanım şartları, çerez politikası, yasal uyarı, sorumlu kullanım ve iletişim sayfalarının sıradaki iş olarak işaretlenmesi
 
-**Yeni sayfada ilk iş:** politika/gizlilik sayfalarını oluştur, footer linklerini bağla, sonra AdSense site durumunu kontrol et.
+**İlgili eski ilk iş:** politika/gizlilik sayfalarını oluştur, footer linklerini bağla, sonra AdSense site durumunu kontrol et.
 
 ---
 
-## 0.1. ÖNCEKİ YENİ SAYFA DEVAM DOSYASI
+## 0.2. ÖNCEKİ YENİ SAYFA DEVAM DOSYASI
 
 **26.06.2026 önceki çalışma özeti ayrı dosyaya kaydedildi:**
 
@@ -55,14 +73,16 @@ Bu dosyada bu sayfada yapılan bütün işler kayıtlıdır:
 Öncelik sırası:
 
 1. En güncel devam dosyası okunacak.
-2. Politika/gizlilik/yasal sayfalar tamamlanacak.
-3. Footer linkleri bağlanacak.
-4. AdSense site durumu kontrol edilecek.
-5. Ana widgetlara görünür buton eklenecek.
-6. Kupon Merkezi canlıda kontrol edilecek.
-7. Özel Analiz maç listesi canlıda kontrol edilecek.
-8. Actions ve JSON üretimi kontrol edilecek.
-9. Resmi kupon üretimi güçlendirilecek.
+2. Başlayan maçların Futbol Bülteni'nde görünmemesi kuralı korunacak.
+3. Site kontrolü istenirse sadece kontrol edilecek; dosya değiştirilmeyecek.
+4. Politika/gizlilik/yasal sayfalar tamamlanacak.
+5. Footer linkleri bağlanacak.
+6. AdSense site durumu kontrol edilecek.
+7. Ana widgetlara görünür buton eklenecek.
+8. Kupon Merkezi canlıda kontrol edilecek.
+9. Özel Analiz maç listesi canlıda kontrol edilecek.
+10. Actions ve JSON üretimi kontrol edilecek.
+11. Resmi kupon üretimi güçlendirilecek.
 
 ---
 
@@ -78,24 +98,3 @@ Bu dosyada bu sayfada yapılan bütün işler kayıtlıdır:
 - Repo, proje hafıza deposu olarak da kullanılacak.
 
 ---
-
-## 3. Ziyaretçi Dili ve Temizlik Kuralları
-
-Ziyaretçiye teknik/robot iç dili gösterilmez.
-
-Kullanılacak ziyaretçi dili:
-
-- Günlük Maç Bülteni
-- Günlük Maç Listesi
-- Bugünün maçları
-- Kupon Merkezi
-- Günün Seçimi
-- Maç Yorumları
-- Maç Kayıtları
-- Başarılar
-- Performans
-- Seçenek
-- Güven
-- Risk
-- Durum
-- Analiz hazırlanıyor
