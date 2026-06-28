@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Futbol Laboratuvarı statik site ve premium ödeme altyapısı",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "postinstall": "node scripts/install-playwright-browser.js",
     "dev": "vercel dev",
@@ -21,7 +24,7 @@
     "update:all": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/build-full-bulletin.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js"
   },
   "dependencies": {
-    "@octokit/rest": "latest",
-    "playwright": "latest"
+    "@octokit/rest": "22.0.1",
+    "playwright": "1.61.1"
   }
 }
