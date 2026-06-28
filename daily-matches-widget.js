@@ -15,6 +15,19 @@
   const minuteOf = (time) => { const m = String(time || "").trim().match(/^(\d{1,2}):(\d{2})$/); return m ? Number(m[1]) * 60 + Number(m[2]) : 9999; };
   const isEarly = (m) => minuteOf(m.time) < 8 * 60;
   const isLive = (m) => /live|canlı|canli/.test(String(m.status || m.liveStatus || "").toLocaleLowerCase("tr-TR"));
+  const trNow = () => {
+    const parts = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Istanbul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date());
+    const bag = Object.fromEntries(parts.map((p) => [p.type, p.value]));
+    const hour = Number(bag.hour === "24" ? "0" : bag.hour || 0);
+    return { date: `${bag.year}-${bag.month}-${bag.day}`, minute: hour * 60 + Number(bag.minute || 0) };
+  };
+  const isUpcomingBulletin = (m) => {
+    if (!m.date) return true;
+    const now = trNow();
+    if (m.date > now.date) return true;
+    if (m.date < now.date) return false;
+    return minuteOf(m.time) > now.minute;
+  };
   const toIsoDate = (value) => {
     const text = String(value || "").trim();
     if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10);
@@ -90,7 +103,7 @@
     const scheduled = Array.isArray(full?.matches) ? full.matches.map((x, i) => norm(x, i, "scheduled")) : [];
     const liveFromFull = Array.isArray(full?.live_matches) ? full.live_matches.map((x, i) => norm(x, i, "live")) : [];
     const liveFromFile = Array.isArray(live?.matches) ? live.matches.map((x, i) => norm(x, i, "live")) : [];
-    app.bulletin = sortBulletin(unique(scheduled.filter((m) => !isLive(m))));
+    app.bulletin = sortBulletin(unique(scheduled.filter((m) => !isLive(m) && isUpcomingBulletin(m))));
     app.live = unique([...liveFromFull, ...liveFromFile].filter(isLive));
     draw();
   }
