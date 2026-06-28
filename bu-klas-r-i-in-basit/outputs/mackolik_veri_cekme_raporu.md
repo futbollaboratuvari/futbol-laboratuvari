@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-28T23:48:36.176168+00:00
+Tarih: 2026-06-28T23:55:59.571899+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 20
-- Kac mac kaydedildi: 20
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 19
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 19
 - Ham veri havuzu toplam mac sayisi: 773
 - Hedef tarih: 29.06.2026 Europe/Istanbul
 
@@ -96,7 +96,6 @@ Tarih: 2026-06-28T23:48:36.176168+00:00
 |---|---|---|---|---|---|---:|
 | 29.06.2026 | 23:30 | Dünya Kupası 2026 Son 32 Turu | Almanya | Paraguay | 05167 | 5 |
 | 29.06.2026 | 20:00 | Dünya Kupası 2026 Son 32 Turu | Brezilya | Japonya | 20051 | 5 |
-| 30.06.2026 | 04:00 | Dünya Kupası 2026 Son 32 Turu | Hollanda | Fas | 19906 | 5 |
 | 29.06.2026 | 22:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | Ukrayna U19 | 02293 | 5 |
 | 29.06.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | İtalya U19 | Sirbistan (U19) | 02899 | 5 |
 | 29.06.2026 | 18:45 | Litvanya A Ligi | Fk Panevezys | Suduva | 14958 | 5 |
