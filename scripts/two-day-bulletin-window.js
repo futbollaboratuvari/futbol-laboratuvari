@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const { filterActiveBulletinMatches, countInactiveBulletinMatches } = require("./bulletin-active-filter");
+const { filterActiveBulletinMatches, countInactiveBulletinMatches, classifyBulletinMatch } = require("./bulletin-active-filter");
 
 const root = path.join(__dirname, "..");
 const fixturesFile = path.join(root, "data", "fixtures.json");
@@ -26,30 +26,55 @@ function trDate(offset = 0) {
   return `${y}-${m}-${d}`;
 }
 
+function withFlowStatus(match) {
+  const flowStatus = classifyBulletinMatch(match);
+  return {
+    ...match,
+    status: flowStatus === "scheduled" ? (match.status || "scheduled") : flowStatus,
+    liveStatus: flowStatus,
+    flow_status: flowStatus
+  };
+}
+
+function row(match) {
+  const score = match.score || (match.homeScore !== null && match.homeScore !== undefined && match.awayScore !== null && match.awayScore !== undefined ? `${match.homeScore}-${match.awayScore}` : "-");
+  return `- ${match.date} ${match.time || "--:--"} | ${match.league || "Lig"} | ${match.home || "?"} - ${match.away || "?"} | ${match.flow_status || match.status || "scheduled"} | ${score}`;
+}
+
 function runTwoDayBulletinWindow() {
   const fixtures = readJson(fixturesFile, []);
   const sourceMatches = Array.isArray(fixtures) ? fixtures : [];
   const days = [trDate(0), trDate(1)];
   const sourceWindowMatches = sourceMatches.filter((m) => days.includes(m.date));
-  const matches = filterActiveBulletinMatches(sourceWindowMatches);
+  const flowMatches = sourceWindowMatches.map(withFlowStatus);
+  const matches = filterActiveBulletinMatches(flowMatches).map(withFlowStatus);
+  const liveMatches = flowMatches.filter((m) => m.flow_status === "live");
+  const finishedMatches = flowMatches.filter((m) => ["finished", "cancelled", "postponed"].includes(m.flow_status));
   const byDay = Object.fromEntries(days.map((day) => [day, matches.filter((m) => m.date === day).length]));
   const removedInactiveCount = countInactiveBulletinMatches(sourceWindowMatches);
   const report = {
     generated_at: new Date().toISOString(),
+    timezone: "Europe/Istanbul",
     days,
     total_source_matches: sourceWindowMatches.length,
     total_matches: matches.length,
     active_match_count: matches.length,
+    live_match_count: liveMatches.length,
+    finished_match_count: finishedMatches.length,
     removed_finished_count: removedInactiveCount,
-    removed_statuses: ["finished", "cancelled", "postponed"],
+    removed_statuses: ["live", "finished", "cancelled", "postponed"],
     by_day: byDay,
-    matches
+    matches,
+    live_matches: liveMatches,
+    finished_matches: finishedMatches
   };
-  const rows = matches.map((m) => `- ${m.date} ${m.time || "--:--"} | ${m.league || "Lig"} | ${m.home || "?"} - ${m.away || "?"}`).join("\n");
-  const md = `# Iki Gunluk Bulten\n\nGunler: ${days.join(" / ")}\nHam mac: ${sourceWindowMatches.length}\nAktif mac: ${matches.length}\nBultenden dusurulen mac: ${removedInactiveCount}\nBugun: ${byDay[days[0]]}\nYarin: ${byDay[days[1]]}\n\n${rows || "Mac bekleniyor."}\n`;
+  const scheduledRows = matches.map(row).join("\n");
+  const liveRows = liveMatches.map(row).join("\n");
+  const finishedRows = finishedMatches.map(row).join("\n");
+  const md = `# Iki Gunluk Bulten\n\nGunler: ${days.join(" / ")}\nHam mac: ${sourceWindowMatches.length}\nAktif mac: ${matches.length}\nCanli mac: ${liveMatches.length}\nBiten mac: ${finishedMatches.length}\nBultenden dusurulen mac: ${removedInactiveCount}\nBugun: ${byDay[days[0]]}\nYarin: ${byDay[days[1]]}\n\n## Baslamamis Maclar\n${scheduledRows || "Mac bekleniyor."}\n\n## Canli Maclar\n${liveRows || "Canli mac yok."}\n\n## Biten Maclar\n${finishedRows || "Biten mac yok."}\n`;
   write(outJson, `${JSON.stringify(report, null, 2)}\n`);
   write(outMd, md);
-  console.log(`Two-day bulletin window: ${matches.length} active matches. Removed: ${removedInactiveCount}.`);
+  console.log(`Two-day bulletin window: ${matches.length} active, ${liveMatches.length} live, ${finishedMatches.length} finished. Removed: ${removedInactiveCount}.`);
   return report;
 }
 
