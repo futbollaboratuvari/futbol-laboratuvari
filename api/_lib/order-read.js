@@ -1,17 +1,7 @@
 const { generateMembershipCode } = require("./code-generate");
+const { readJsonFile } = require("./github-contents");
 
-const owner = "futbollaboratuvari";
-const repo = "futbol-laboratuvari";
 const ordersPath = "data/orders.json";
-
-function decodeContent(value) {
-  return Buffer.from(String(value || ""), "base64").toString("utf8");
-}
-
-async function loadOctokit() {
-  const mod = await import("@octokit/rest");
-  return mod.Octokit;
-}
 
 async function readOrdersFile(token) {
   if (!token) {
@@ -19,17 +9,8 @@ async function readOrdersFile(token) {
   }
 
   try {
-    const Octokit = await loadOctokit();
-    const octokit = new Octokit({ auth: token });
-    const response = await octokit.repos.getContent({
-      owner,
-      repo,
-      path: ordersPath,
-      ref: "main"
-    });
-
-    const data = JSON.parse(decodeContent(response.data.content));
-    return { ok: true, orders: data.orders || [] };
+    const current = await readJsonFile(token, ordersPath);
+    return { ok: true, orders: current.data.orders || [] };
   } catch (error) {
     return { ok: false, reason: "read-failed", orders: [] };
   }
