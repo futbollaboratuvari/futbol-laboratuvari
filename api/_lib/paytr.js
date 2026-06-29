@@ -41,4 +41,15 @@ async function getIframeToken(payload) {
   return response.json();
 }
 
-module.exports = { paytrToken, verifyCallbackHash, orderId, getIframeToken };
+function helperRoute(req, res) {
+  res.statusCode = 404;
+  res.setHeader("Content-Type", "application/json; charset=utf-8");
+  res.end(JSON.stringify({ ok: false, error: "not_found" }));
+}
+
+helperRoute.paytrToken = paytrToken;
+helperRoute.verifyCallbackHash = verifyCallbackHash;
+helperRoute.orderId = orderId;
+helperRoute.getIframeToken = getIframeToken;
+
+module.exports = helperRoute;
