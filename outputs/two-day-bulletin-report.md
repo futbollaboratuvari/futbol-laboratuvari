@@ -2,20 +2,11 @@
 
 Gunler: 2026-06-29 / 2026-06-30
 Ham mac: 28
-Aktif mac: 28
-Bultenden dusurulen mac: 0
-Bugun: 27
+Aktif mac: 19
+Bultenden dusurulen mac: 9
+Bugun: 18
 Yarin: 1
 
-- 2026-06-29 01:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bangers - Bigfoot
-- 2026-06-29 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Lakeland United
-- 2026-06-29 02:00 | Kanada Premier Lig | Cavalry - Supra Du Québec
-- 2026-06-29 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars - West Seattle Ju
-- 2026-06-29 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | West Chester U - Lehigh Valley U
-- 2026-06-29 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - Dothan United
-- 2026-06-29 03:00 | Şili Kupa Grup H | Puerto Montt - Concepcion
-- 2026-06-29 03:00 | ABD USL Lig 2 Güney Florida Grubu | Miami Ac - Brevard Fire
-- 2026-06-29 15:30 | Lübnan Premier Lig | Hikma - Tadamon Tyre
 - 2026-06-29 18:00 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19)
 - 2026-06-29 18:00 | Letonya Virsliga | Auda - Riga Fc
 - 2026-06-29 18:00 | Letonya Virsliga | Fs Jelgava - Grobina
