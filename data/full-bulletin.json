@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:08:04.066Z",
+  "generated_at": "2026-06-29T14:37:03.018Z",
   "timezone": "Europe/Istanbul",
   "source": "Yerel veri kaynaklari",
   "status": "active",
@@ -8,50 +8,12 @@
     "main_day": "2026-06-29",
     "includes_next_day_until": "2026-06-30 08:00"
   },
-  "match_count": 20,
-  "live_count": 0,
-  "scheduled_count": 20,
+  "match_count": 19,
+  "live_count": 1,
+  "scheduled_count": 19,
   "finished_count": 8,
-  "wide_market_odds_count": 95,
+  "wide_market_odds_count": 90,
   "matches": [
-    {
-      "date": "2026-06-29",
-      "time": "15:30",
-      "league": "Lübnan Premier Lig",
-      "home": "Hikma",
-      "away": "Tadamon Tyre",
-      "matchCode": "07292",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "odds": {
-        "ms1": 1.55,
-        "msx": 2.88,
-        "ms2": 4.05,
-        "under25": 1.39,
-        "over25": 1.92
-      },
-      "available_odds": {
-        "ms1": 1.55,
-        "msx": 2.88,
-        "ms2": 4.05,
-        "under25": 1.39,
-        "over25": 1.92
-      },
-      "raw_market_guess_odds": {
-        "ms1": 1.55,
-        "msx": 2.88,
-        "ms2": 4.05,
-        "under25": 1.39,
-        "over25": 1.92,
-        "bttsYes_guess": 1.13,
-        "bttsNo_guess": 1.63
-      },
-      "raw_odds_sequence": [],
-      "raw_market_value_count": 7
-    },
     {
       "date": "2026-06-29",
       "time": "18:00",
@@ -744,5 +706,44 @@
       "raw_market_value_count": 8
     }
   ],
-  "live_matches": []
+  "live_matches": [
+    {
+      "date": "2026-06-29",
+      "time": "15:30",
+      "league": "Lübnan Premier Lig",
+      "home": "Hikma",
+      "away": "Tadamon Tyre",
+      "matchCode": "07292",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 19,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "odds": {
+        "ms1": 1.55,
+        "msx": 2.88,
+        "ms2": 4.05,
+        "under25": 1.39,
+        "over25": 1.92
+      },
+      "available_odds": {
+        "ms1": 1.55,
+        "msx": 2.88,
+        "ms2": 4.05,
+        "under25": 1.39,
+        "over25": 1.92
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.55,
+        "msx": 2.88,
+        "ms2": 4.05,
+        "under25": 1.39,
+        "over25": 1.92,
+        "bttsYes_guess": 1.13,
+        "bttsNo_guess": 1.63
+      },
+      "raw_odds_sequence": [],
+      "raw_market_value_count": 7
+    }
+  ]
 }

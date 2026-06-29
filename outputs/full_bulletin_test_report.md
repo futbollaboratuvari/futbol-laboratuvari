@@ -2,11 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 20
-- Live match count: 0
+- Scheduled match count: 19
+- Live match count: 1
 - Finished removed count: 8
 
-- 2026-06-29 15:30 | Hikma - Tadamon Tyre | scheduled
+- 2026-06-29 15:30 | Hikma - Tadamon Tyre | live
 - 2026-06-29 18:00 | İtalya U19 - Sirbistan (U19) | scheduled
 - 2026-06-29 18:00 | Auda - Riga Fc | scheduled
 - 2026-06-29 18:00 | Fs Jelgava - Grobina | scheduled
