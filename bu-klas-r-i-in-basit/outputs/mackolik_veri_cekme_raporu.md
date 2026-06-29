@@ -1,21 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-29T20:59:12.136991+00:00
+Tarih: 2026-06-29T21:11:41.372577+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 2
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 2
-- Ham veri havuzu toplam mac sayisi: 778
-- Hedef tarih: 29.06.2026 Europe/Istanbul
+- Kac mac bulundu: 10
+- Kac mac kaydedildi: 10
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 788
+- Hedef tarih: 30.06.2026 Europe/Istanbul
 
 ## Ligler
 
+- Avrupa U19 Şampiyonası Kadınlar Grup A
+- Avustralya NPL Yeni Güney Galler
 - Dünya Kupası 2026 Son 32 Turu
-- Şili Kupa Grup E
+- Finlandiya Suomen Kupası Yarı Final
+- Hazırlık Kulüpler
+- Letonya Virsliga
+- Tanzanya Kuu Bara Ligi
 
 ## Okunabilen Oran Alanlari
 
@@ -72,8 +77,8 @@ Tarih: 2026-06-29T20:59:12.136991+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 2
-- Acilan detay: 2
+- Denenen Tumu alani: 16
+- Acilan detay: 16
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -86,8 +91,16 @@ Tarih: 2026-06-29T20:59:12.136991+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.06.2026 | 04:00 | Dünya Kupası 2026 Son 32 Turu | Hollanda | Fas | 19906 | 5 |
-| 30.06.2026 | 02:30 | Şili Kupa Grup E | Union Espanola | Colo Colo | 00332 | 5 |
+| 30.06.2026 | 20:00 | Dünya Kupası 2026 Son 32 Turu | Fildişi Sahili | Norveç | 04777 | 5 |
+| 30.06.2026 | 21:30 | Hazırlık Kulüpler | Alloa | Livingston | 03691 | 5 |
+| 30.06.2026 | 18:00 | Finlandiya Suomen Kupası Yarı Final | Vaasa | Inter Turku | 00216 | 5 |
+| 30.06.2026 | 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Polonya U19 (K | Almanya U19 (K) | 07063 | 5 |
+| 30.06.2026 | 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Bosna-Hersek U | İsveç U19 (K) | 03966 | 2 |
+| 30.06.2026 | 13:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders | Sydney Ii | 06998 | 5 |
+| 30.06.2026 | 19:00 | Letonya Virsliga | Liepaja | Ogre United | 04299 | 3 |
+| 30.06.2026 | 18:00 | Letonya Virsliga | Daugava Riga | Bfc Daugavpils | 03182 | 2 |
+| 30.06.2026 | 16:00 | Tanzanya Kuu Bara Ligi | Azam Fc | Dodoma Jiji | 02324 | 3 |
+| 30.06.2026 | 16:00 | Tanzanya Kuu Bara Ligi | Jkt Tanzania | Young Africans | 04788 | 5 |
 
 ## Sonuc
 
