@@ -63,13 +63,19 @@ function membershipStatus(membership, from = new Date()) {
   return membership.status;
 }
 
-module.exports = {
-  addDays,
-  nowIso,
-  createMembershipFromPlan,
-  createPaidMembershipFromPlan,
-  createTrialMembershipFromPlan,
-  daysLeft,
-  isActiveMembership,
-  membershipStatus,
-};
+function helperRoute(req, res) {
+  res.statusCode = 404;
+  res.setHeader("Content-Type", "application/json; charset=utf-8");
+  res.end(JSON.stringify({ ok: false, error: "not_found" }));
+}
+
+helperRoute.addDays = addDays;
+helperRoute.nowIso = nowIso;
+helperRoute.createMembershipFromPlan = createMembershipFromPlan;
+helperRoute.createPaidMembershipFromPlan = createPaidMembershipFromPlan;
+helperRoute.createTrialMembershipFromPlan = createTrialMembershipFromPlan;
+helperRoute.daysLeft = daysLeft;
+helperRoute.isActiveMembership = isActiveMembership;
+helperRoute.membershipStatus = membershipStatus;
+
+module.exports = helperRoute;
