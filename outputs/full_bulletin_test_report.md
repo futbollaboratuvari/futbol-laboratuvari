@@ -2,17 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 22
-- Live match count: 6
-- Finished removed count: 0
+- Scheduled match count: 20
+- Live match count: 0
+- Finished removed count: 8
 
-- 2026-06-29 01:00 | Weston - Lakeland United | live
-- 2026-06-29 01:00 | Bangers - Bigfoot | live
-- 2026-06-29 02:00 | Tacoma Stars - West Seattle Ju | live
-- 2026-06-29 02:00 | West Chester U - Lehigh Valley U | live
-- 2026-06-29 02:00 | Cavalry - Supra Du Québec | live
-- 2026-06-29 02:30 | Southern Socce - Dothan United | live
-- 2026-06-29 03:00 | Miami Ac - Brevard Fire | scheduled
-- 2026-06-29 03:00 | Puerto Montt - Concepcion | scheduled
 - 2026-06-29 15:30 | Hikma - Tadamon Tyre | scheduled
 - 2026-06-29 18:00 | İtalya U19 - Sirbistan (U19) | scheduled
+- 2026-06-29 18:00 | Auda - Riga Fc | scheduled
+- 2026-06-29 18:00 | Fs Jelgava - Grobina | scheduled
+- 2026-06-29 18:30 | Vjs - Tpv Tampere | scheduled
+- 2026-06-29 18:30 | Fa Siauliai - Transinvest Vil | scheduled
+- 2026-06-29 18:45 | Fk Panevezys - Suduva | scheduled
+- 2026-06-29 19:05 | Al Qadsia - Al-Kuwait | scheduled
+- 2026-06-29 20:00 | Brezilya - Japonya | scheduled
+- 2026-06-29 20:30 | B68 Toftir - Ab Argir | scheduled

@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.06.2026 03:19:12
+Oluşturma: 29.06.2026 10:05:33
 
 ## Özet
 
-- Toplam tahmin: 38
-- Bekleyen tahmin: 38
+- Toplam tahmin: 49
+- Bekleyen tahmin: 49
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 20
+- Lig sayısı: 25
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 29.06.2026 03:19:12
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-06-29 | Lübnan Premier Lig | Hikma - Tadamon Tyre | MS 2 | pending | 50/100
+- 2026-06-29 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19) | MS 2 | pending | 40/100
+- 2026-06-29 | Letonya Virsliga | Fs Jelgava - Grobina | MS 2 | pending | 40/100
+- 2026-06-29 | Litvanya A Ligi | Fa Siauliai - Transinvest Vil | MS 1 | pending | 50/100
+- 2026-06-29 | Finlandiya Ykkönen | Vjs - Tpv Tampere | MS 2 | pending | 40/100
+- 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia - Al-Kuwait | MS X | pending | 50/100
+- 2026-06-29 | Dünya Kupası 2026 Son 32 Turu | Brezilya - Japonya | MS 2 | pending | 50/100
+- 2026-06-29 | Faroe Adaları Master Lig | Hb Torshavn - Skala | MS 2 | pending | 60/100
+- 2026-06-29 | Faroe Adaları Master Lig | Vikingur Gota - Runavik | MS X | pending | 50/100
+- 2026-06-29 | Faroe Adaları Master Lig | B68 Toftir - Ab Argir | MS X | pending | 50/100
+- 2026-06-29 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - Ukrayna U19 | MS 2 | pending | 50/100
 - 2026-06-29 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - Dothan United | MS X | pending | 50/100
 - 2026-06-29 | Şili Kupa Grup H | Puerto Montt - Concepcion | MS X | pending | 40/100
 - 2026-06-29 | Şili Kupa Grup F | Csd Rangers - Atletico Nublen | MS X | pending | 40/100
 - 2026-06-29 | Brezilya Serie B | Nautico - Goias | MS 2 | pending | 40/100
-- 2026-06-29 | Brezilya Serie B | Fortaleza Ce - Sport Recife | MS 2 | pending | 40/100
-- 2026-06-28 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 - İzlanda U19 (K) | MS 2 | pending | 50/100
-- 2026-06-28 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Ik Junkeren | MS X | pending | 80/100
-- 2026-06-28 | İsveç Superettan | Sandvikens - Helsingborg | MS X | pending | 50/100
-- 2026-06-28 | Litvanya A Ligi | Banga - Hegelmann | MS 2 | pending | 40/100
-- 2026-06-28 | Norveç 2.Lig Grup 1 | Sotra Sk - Jerv | MS X | pending | 50/100
-- 2026-06-28 | Finlandiya Ykkönen | Oulun Ls - Kups Ak. | MS 2 | pending | 40/100
-- 2026-06-28 | Litvanya 1.Lig | Kauno Zalgiris - Bfa | MS X | pending | 50/100
-- 2026-06-28 | Litvanya A Ligi | Dziugas Telsia - Zalgiris Vilniu | MS X | pending | 50/100
-- 2026-06-28 | Şili Kupa Grup C | La Serena - Cobreloa | MS 2 | pending | 50/100
-- 2026-06-28 | Şili Kupa Grup C | Cobresal - Antofagasta | MS 2 | pending | 50/100
 
