@@ -41,11 +41,20 @@ function row(match) {
   return `- ${match.date} ${match.time || "--:--"} | ${match.league || "Lig"} | ${match.home || "?"} - ${match.away || "?"} | ${match.flow_status || match.status || "scheduled"} | ${score}`;
 }
 
-function runTwoDayBulletinWindow() {
-  const fixtures = readJson(fixturesFile, []);
-  const sourceMatches = Array.isArray(fixtures) ? fixtures : [];
-  const days = [trDate(0), trDate(1)];
-  const sourceWindowMatches = sourceMatches.filter((m) => days.includes(m.date));
+function allReportMatches(report) {
+  return [
+    ...(Array.isArray(report?.matches) ? report.matches : []),
+    ...(Array.isArray(report?.live_matches) ? report.live_matches : []),
+    ...(Array.isArray(report?.finished_matches) ? report.finished_matches : [])
+  ];
+}
+
+function usableFallback(report, days) {
+  const allowed = new Set(days);
+  return allReportMatches(report).filter((match) => allowed.has(String(match.date || "").slice(0, 10))).map(withFlowStatus);
+}
+
+function buildReport(sourceWindowMatches, days, options = {}) {
   const flowMatches = sourceWindowMatches.map(withFlowStatus);
   const matches = filterActiveBulletinMatches(flowMatches).map(withFlowStatus);
   const liveMatches = flowMatches.filter((m) => m.flow_status === "live");
@@ -55,6 +64,8 @@ function runTwoDayBulletinWindow() {
   const report = {
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
+    source: options.source || "fixtures.json",
+    warning: options.warning || "",
     days,
     total_source_matches: sourceWindowMatches.length,
     total_matches: matches.length,
@@ -71,10 +82,32 @@ function runTwoDayBulletinWindow() {
   const scheduledRows = matches.map(row).join("\n");
   const liveRows = liveMatches.map(row).join("\n");
   const finishedRows = finishedMatches.map(row).join("\n");
-  const md = `# Iki Gunluk Bulten\n\nGunler: ${days.join(" / ")}\nHam mac: ${sourceWindowMatches.length}\nAktif mac: ${matches.length}\nCanli mac: ${liveMatches.length}\nBiten mac: ${finishedMatches.length}\nBultenden dusurulen mac: ${removedInactiveCount}\nBugun: ${byDay[days[0]]}\nYarin: ${byDay[days[1]]}\n\n## Baslamamis Maclar\n${scheduledRows || "Mac bekleniyor."}\n\n## Canli Maclar\n${liveRows || "Canli mac yok."}\n\n## Biten Maclar\n${finishedRows || "Biten mac yok."}\n`;
+  const md = `# Iki Gunluk Bulten\n\nGunler: ${days.join(" / ")}\nKaynak: ${report.source}\n${report.warning ? `Uyari: ${report.warning}\n` : ""}Ham mac: ${sourceWindowMatches.length}\nAktif mac: ${matches.length}\nCanli mac: ${liveMatches.length}\nBiten mac: ${finishedMatches.length}\nBultenden dusurulen mac: ${removedInactiveCount}\nBugun: ${byDay[days[0]]}\nYarin: ${byDay[days[1]]}\n\n## Baslamamis Maclar\n${scheduledRows || "Mac bekleniyor."}\n\n## Canli Maclar\n${liveRows || "Canli mac yok."}\n\n## Biten Maclar\n${finishedRows || "Biten mac yok."}\n`;
+  return { report, md };
+}
+
+function runTwoDayBulletinWindow() {
+  const fixtures = readJson(fixturesFile, []);
+  const sourceMatches = Array.isArray(fixtures) ? fixtures : [];
+  const previousReport = readJson(outJson, null);
+  const days = [trDate(0), trDate(1)];
+  let sourceWindowMatches = sourceMatches.filter((m) => days.includes(String(m.date || "").slice(0, 10)));
+  let source = "fixtures.json";
+  let warning = "";
+
+  if (!sourceWindowMatches.length) {
+    const fallbackMatches = usableFallback(previousReport, days);
+    if (fallbackMatches.length) {
+      sourceWindowMatches = fallbackMatches;
+      source = "son saglam two-day-bulletin yedegi";
+      warning = "Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.";
+    }
+  }
+
+  const { report, md } = buildReport(sourceWindowMatches, days, { source, warning });
   write(outJson, `${JSON.stringify(report, null, 2)}\n`);
   write(outMd, md);
-  console.log(`Two-day bulletin window: ${matches.length} active, ${liveMatches.length} live, ${finishedMatches.length} finished. Removed: ${removedInactiveCount}.`);
+  console.log(`Two-day bulletin window: ${report.active_match_count} active, ${report.live_match_count} live, ${report.finished_match_count} finished. Removed: ${report.removed_finished_count}. Source: ${source}.`);
   return report;
 }
 
