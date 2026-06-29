@@ -8,8 +8,14 @@ async function readUsageFile() {
   return response.json();
 }
 
-module.exports = {
-  readUsageFile,
-  REPO,
-  FILE_PATH
-};
+function helperRoute(req, res) {
+  res.statusCode = 404;
+  res.setHeader("Content-Type", "application/json; charset=utf-8");
+  res.end(JSON.stringify({ ok: false, error: "not_found" }));
+}
+
+helperRoute.readUsageFile = readUsageFile;
+helperRoute.REPO = REPO;
+helperRoute.FILE_PATH = FILE_PATH;
+
+module.exports = helperRoute;
