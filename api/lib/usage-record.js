@@ -19,6 +19,12 @@ function createUsageRecord(input) {
   };
 }
 
-module.exports = {
-  createUsageRecord
-};
+function helperRoute(req, res) {
+  res.statusCode = 404;
+  res.setHeader("Content-Type", "application/json; charset=utf-8");
+  res.end(JSON.stringify({ ok: false, error: "not_found" }));
+}
+
+helperRoute.createUsageRecord = createUsageRecord;
+
+module.exports = helperRoute;
