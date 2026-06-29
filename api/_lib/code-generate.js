@@ -40,8 +40,14 @@ function generateMembershipCode(planCode) {
   };
 }
 
-module.exports = {
-  generateMembershipCode,
-  hashCode,
-  maskCode
-};
+function helperRoute(req, res) {
+  res.statusCode = 404;
+  res.setHeader("Content-Type", "application/json; charset=utf-8");
+  res.end(JSON.stringify({ ok: false, error: "not_found" }));
+}
+
+helperRoute.generateMembershipCode = generateMembershipCode;
+helperRoute.hashCode = hashCode;
+helperRoute.maskCode = maskCode;
+
+module.exports = helperRoute;
