@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-28T23:55:44.620Z
+- Güncelleme: 2026-06-29T00:19:11.820Z
 - Ham maç sayısı: 28
 - Yarın bülteni maç sayısı: 1
 - Detay blok sayısı: 76
@@ -18,8 +18,8 @@
 | Tacoma Stars - West Seattle Ju | ABD USL Lig 2 Kuzeybatı Grubu | 02:00 | Canlı 48' | - | 2.14 | 6 |
 | West Chester U - Lehigh Valley U | ABD USL Lig 2 Orta Atlantik Grubu | 02:00 | Canlı 48' | - | 1.61 | 5 |
 | Southern Socce - Dothan United | ABD USL Lig 2 Güney Merkez Grubu | 02:30 | Canlı 18' | - | 2.23 | 8 |
-| Puerto Montt - Concepcion | Şili Kupa Grup H | 03:00 | Veri bekleniyor | - | 2.2 | 8 |
-| Miami Ac - Brevard Fire | ABD USL Lig 2 Güney Florida Grubu | 03:00 | Veri bekleniyor | - | 1.77 | 6 |
+| Puerto Montt - Concepcion | Şili Kupa Grup H | 03:00 | Canlı 19' | - | 2.2 | 8 |
+| Miami Ac - Brevard Fire | ABD USL Lig 2 Güney Florida Grubu | 03:00 | Canlı 19' | - | 1.77 | 6 |
 | Hikma - Tadamon Tyre | Lübnan Premier Lig | 15:30 | Veri bekleniyor | - | 1.55 | 7 |
 | İtalya U19 - Sirbistan (U19) | Avrupa U19 Şampiyonası Grup B | 18:00 | Veri bekleniyor | - | 1.27 | 6 |
 | Auda - Riga Fc | Letonya Virsliga | 18:00 | Veri bekleniyor | - | 5.61 | 6 |
@@ -34,7 +34,7 @@
 | B68 Toftir - Ab Argir | Faroe Adaları Master Lig | 20:30 | Veri bekleniyor | - | 2.12 | 8 |
 | Mabarra - Ansar | Lübnan Premier Lig | 21:30 | Veri bekleniyor | - | 13.3 | 3 |
 | Hirvatistan (U - Ukrayna U19 | Avrupa U19 Şampiyonası Grup B | 22:00 | Veri bekleniyor | - | 1.65 | 8 |
-| Al Arabi - Al Fahaheel | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Veri bekleniyor | - | 1.1 | 6 |
+| Al Arabi - Al Fahaheel | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Veri bekleniyor | - | 1.09 | 6 |
 | Kazma - Al Salmiyah | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Veri bekleniyor | - | 2.19 | 8 |
 | Akranes - Fram | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.33 | 6 |
 | Afturelding - Aegir | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.08 | 4 |
