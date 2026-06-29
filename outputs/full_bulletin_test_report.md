@@ -2,17 +2,15 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 24
-- Live match count: 1
+- Scheduled match count: 2
+- Live match count: 6
 - Finished removed count: 0
 
-- 2026-06-29 15:30 | Hikma - Tadamon Tyre | live
-- 2026-06-29 18:00 | İtalya U19 - Sirbistan (U19) | scheduled
-- 2026-06-29 18:00 | Auda - Riga Fc | scheduled
-- 2026-06-29 18:00 | Fs Jelgava - Grobina | scheduled
-- 2026-06-29 18:30 | Vjs - Tpv Tampere | scheduled
-- 2026-06-29 18:30 | Fa Siauliai - Transinvest Vil | scheduled
-- 2026-06-29 18:45 | Fk Panevezys - Suduva | scheduled
-- 2026-06-29 19:00 | Kizilyildiz - Slovan Bratisla | scheduled
-- 2026-06-29 19:05 | Al Qadsia - Al-Kuwait | scheduled
-- 2026-06-29 20:00 | Brezilya - Japonya | scheduled
+- 2026-06-29 22:00 | Hirvatistan (U - Ukrayna U19 | live
+- 2026-06-29 22:15 | Afturelding - Aegir | live
+- 2026-06-29 22:15 | Akranes - Fram | live
+- 2026-06-29 22:15 | Al Arabi - Al Fahaheel | live
+- 2026-06-29 22:15 | Kazma - Al Salmiyah | live
+- 2026-06-29 23:30 | Almanya - Paraguay | live
+- 2026-06-30 02:30 | Union Espanola - Colo Colo | scheduled
+- 2026-06-30 04:00 | Hollanda - Fas | scheduled

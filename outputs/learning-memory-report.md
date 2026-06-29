@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.06.2026 18:54:00
+Oluşturma: 29.06.2026 23:59:15
 
 ## Özet
 
-- Toplam tahmin: 54
-- Bekleyen tahmin: 54
+- Toplam tahmin: 55
+- Bekleyen tahmin: 55
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 25
@@ -20,12 +20,13 @@ Oluşturma: 29.06.2026 18:54:00
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
-- MS X: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Arabi - Al Fahaheel | MS X | pending | 75/100
 - 2026-06-29 | Hazırlık Kulüpler | Kizilyildiz - Slovan Bratisla | MS 2 | pending | 60/100
 - 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Arabi - Al Fahaheel | MS X | pending | 75/100
 - 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Kazma - Al Salmiyah | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 29.06.2026 18:54:00
 - 2026-06-29 | Dünya Kupası 2026 Son 32 Turu | Brezilya - Japonya | MS 2 | pending | 50/100
 - 2026-06-29 | Faroe Adaları Master Lig | Hb Torshavn - Skala | MS 2 | pending | 60/100
 - 2026-06-29 | Faroe Adaları Master Lig | Vikingur Gota - Runavik | MS X | pending | 50/100
-- 2026-06-29 | Faroe Adaları Master Lig | B68 Toftir - Ab Argir | MS X | pending | 50/100
 

@@ -1,30 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-29T14:52:09.481690+00:00
+Tarih: 2026-06-29T20:59:12.136991+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 19
+- Kac mac bulundu: 2
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 19
+- Kac mac zaten vardi: 2
 - Ham veri havuzu toplam mac sayisi: 778
 - Hedef tarih: 29.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avrupa U19 Şampiyonası Grup B
 - Dünya Kupası 2026 Son 32 Turu
-- Faroe Adaları Master Lig
-- Finlandiya Ykkönen
-- Hazırlık Kulüpler
-- Kuveyt Premier Lig Şampiyonluk Grubu
-- Letonya Virsliga
-- Litvanya A Ligi
-- Lübnan Premier Lig
-- İzlanda 1.Lig
-- İzlanda Urvalsdeild
+- Şili Kupa Grup E
 
 ## Okunabilen Oran Alanlari
 
@@ -81,8 +72,8 @@ Tarih: 2026-06-29T14:52:09.481690+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 13
-- Acilan detay: 13
+- Denenen Tumu alani: 2
+- Acilan detay: 2
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -95,25 +86,8 @@ Tarih: 2026-06-29T14:52:09.481690+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 29.06.2026 | 23:30 | Dünya Kupası 2026 Son 32 Turu | Almanya | Paraguay | 05167 | 5 |
-| 29.06.2026 | 20:00 | Dünya Kupası 2026 Son 32 Turu | Brezilya | Japonya | 20051 | 5 |
-| 29.06.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | İtalya U19 | Sirbistan (U19) | 02899 | 5 |
-| 29.06.2026 | 22:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | Ukrayna U19 | 02293 | 5 |
-| 29.06.2026 | 19:00 | Hazırlık Kulüpler | Kizilyildiz | Slovan Bratisla | 03861 | 5 |
-| 29.06.2026 | 18:30 | Litvanya A Ligi | Fa Siauliai | Transinvest Vil | 14956 | 5 |
-| 29.06.2026 | 18:45 | Litvanya A Ligi | Fk Panevezys | Suduva | 14958 | 5 |
-| 29.06.2026 | 18:30 | Finlandiya Ykkönen | Vjs | Tpv Tampere | 02647 | 5 |
-| 29.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Arabi | Al Fahaheel | 07602 | 4 |
-| 29.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia | Al-Kuwait | 07610 | 5 |
-| 29.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Kazma | Al Salmiyah | 07612 | 5 |
-| 29.06.2026 | 21:30 | Lübnan Premier Lig | Mabarra | Ansar | 04516 | 4 |
-| 29.06.2026 | 22:15 | İzlanda Urvalsdeild | Akranes | Fram | 14055 | 3 |
-| 29.06.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Aegir | 14053 | 3 |
-| 29.06.2026 | 18:00 | Letonya Virsliga | Auda | Riga Fc | 15002 | 5 |
-| 29.06.2026 | 18:00 | Letonya Virsliga | Fs Jelgava | Grobina | 15020 | 5 |
-| 29.06.2026 | 20:30 | Faroe Adaları Master Lig | Hb Torshavn | Skala | 15475 | 5 |
-| 29.06.2026 | 20:30 | Faroe Adaları Master Lig | B68 Toftir | Ab Argir | 15477 | 5 |
-| 29.06.2026 | 20:30 | Faroe Adaları Master Lig | Vikingur Gota | Runavik | 15473 | 5 |
+| 30.06.2026 | 04:00 | Dünya Kupası 2026 Son 32 Turu | Hollanda | Fas | 19906 | 5 |
+| 30.06.2026 | 02:30 | Şili Kupa Grup E | Union Espanola | Colo Colo | 00332 | 5 |
 
 ## Sonuc
 

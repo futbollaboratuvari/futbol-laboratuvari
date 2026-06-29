@@ -1,23 +1,34 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-29T17:59:13.574Z
-- Ham maç sayısı: 24
-- Yarın bülteni maç sayısı: 2
-- Detay blok sayısı: 70
-- Aktif bülten maçı: 9
-- Bültenden düşürülen maç: 15
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-06-29T20:59:13.910Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mabarra - Ansar | Lübnan Premier Lig | 21:30 | Veri bekleniyor | - | 14.6 | 5 |
-| Hirvatistan (U - Ukrayna U19 | Avrupa U19 Şampiyonası Grup B | 22:00 | Veri bekleniyor | - | 1.47 | 7 |
-| Al Arabi - Al Fahaheel | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Veri bekleniyor | - | 1.09 | 6 |
-| Kazma - Al Salmiyah | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Veri bekleniyor | - | 2.19 | 8 |
-| Akranes - Fram | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.27 | 6 |
-| Afturelding - Aegir | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.05 | 4 |
-| Almanya - Paraguay | Dünya Kupası 2026 Son 32 Turu | 23:30 | Veri bekleniyor | - | 1.19 | 6 |
-| Union Espanola - Colo Colo | Şili Kupa Grup E | 02:30 | Veri bekleniyor | - | 3.9 | 7 |
-| Hollanda - Fas | Dünya Kupası 2026 Son 32 Turu | 04:00 | Veri bekleniyor | - | 2.02 | 8 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Hirvatistan (U VS Ukrayna U19 | Avrupa U19 Şampiyonası Grup B | 22:00 | MS 2 | 3.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Al Arabi VS Al Fahaheel | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | MS X | 4.83 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
+| Kazma VS Al Salmiyah | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Akranes VS Fram | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Afturelding VS Aegir | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Almanya VS Paraguay | Dünya Kupası 2026 Son 32 Turu | 23:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Union Espanola VS Colo Colo | Şili Kupa Grup E | 02:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Hollanda VS Fas | Dünya Kupası 2026 Son 32 Turu | 04:00 | MS 2 | 2.96 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Al Arabi VS Al Fahaheel | MS X | 4.83 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |

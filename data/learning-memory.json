@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-29T15:54:01.186Z",
+  "updated_at": "2026-06-29T20:59:15.137Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 54,
-    "pending_predictions": 54,
+    "total_predictions": 55,
+    "pending_predictions": 55,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 25,
     "market_count": 3,
     "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 54,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "updated_predictions": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 24,
-      "pending": 24,
+    "MS X": {
+      "total": 26,
+      "pending": 26,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,9 +26,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 25,
-      "pending": 25,
+    "MS 2": {
+      "total": 24,
+      "pending": 24,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,9 +48,9 @@
     }
   },
   "league_memory": {
-    "Hazırlık Kulüpler": {
-      "total": 3,
-      "pending": 3,
+    "Kuveyt Premier Lig Şampiyonluk Grubu": {
+      "total": 5,
+      "pending": 5,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -62,9 +58,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Kuveyt Premier Lig Şampiyonluk Grubu": {
-      "total": 4,
-      "pending": 4,
+    "Hazırlık Kulüpler": {
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -304,9 +300,9 @@
     }
   },
   "league_market_memory": {
-    "Hazırlık Kulüpler :: MS 2": {
-      "total": 1,
-      "pending": 1,
+    "Kuveyt Premier Lig Şampiyonluk Grubu :: MS X": {
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -314,9 +310,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Kuveyt Premier Lig Şampiyonluk Grubu :: MS X": {
-      "total": 2,
-      "pending": 2,
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -707,6 +703,24 @@
   },
   "predictions": [
     {
+      "id": "2026-06-29|kuveyt premier lig sampiyonluk grubu|al arabi al fahaheel|ms x|22 15",
+      "date": "2026-06-29",
+      "created_at": "2026-06-29T20:59:14.739Z",
+      "match_name": "Al Arabi - Al Fahaheel",
+      "league": "Kuveyt Premier Lig Şampiyonluk Grubu",
+      "start_time": "22:15",
+      "market": "MS X",
+      "odds": "4.83",
+      "confidence_score": "75%",
+      "analysis_score": 75,
+      "risk_level": "Düşük",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-06-29T20:59:15.136Z"
+    },
+    {
       "id": "2026-06-29|hazirlik kulupler|kizilyildiz slovan bratisla|ms 2|19 00",
       "date": "2026-06-29",
       "created_at": "2026-06-29T15:41:27.556Z",
@@ -992,7 +1006,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T15:54:00.952Z"
+      "updated_at": "2026-06-29T20:59:15.136Z"
     },
     {
       "id": "2026-06-29|abd usl lig 2 guney merkez grubu|southern socce dothan united|ms x|02 30",
