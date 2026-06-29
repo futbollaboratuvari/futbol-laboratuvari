@@ -2,19 +2,19 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-29T14:51:51.646Z
-- Ham maç sayısı: 25
+- Güncelleme: 2026-06-29T14:55:00.252Z
+- Ham maç sayısı: 24
 - Yarın bülteni maç sayısı: 2
-- Detay blok sayısı: 73
+- Detay blok sayısı: 70
 - Aktif bülten maçı: 24
-- Bültenden düşürülen maç: 1
+- Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
 | İtalya U19 - Sirbistan (U19) | Avrupa U19 Şampiyonası Grup B | 18:00 | Veri bekleniyor | - | 1.38 | 6 |
 | Auda - Riga Fc | Letonya Virsliga | 18:00 | Veri bekleniyor | - | 5.47 | 6 |
-| Fs Jelgava - Grobina | Letonya Virsliga | 18:00 | Veri bekleniyor | - | 1.82 | 8 |
+| Fs Jelgava - Grobina | Letonya Virsliga | 18:00 | Veri bekleniyor | - | 1.87 | 8 |
 | Fa Siauliai - Transinvest Vil | Litvanya A Ligi | 18:30 | Veri bekleniyor | - | 3.02 | 8 |
 | Vjs - Tpv Tampere | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 1.18 | 6 |
 | Fk Panevezys - Suduva | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 3.63 | 8 |
@@ -32,7 +32,7 @@
 | Al Arabi - Al Fahaheel | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Veri bekleniyor | - | 1.09 | 6 |
 | Kazma - Al Salmiyah | Kuveyt Premier Lig Şampiyonluk Grubu | 22:15 | Veri bekleniyor | - | 2.19 | 8 |
 | Akranes - Fram | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.27 | 6 |
-| Afturelding - Aegir | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.06 | 4 |
+| Afturelding - Aegir | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.05 | 4 |
 | Almanya - Paraguay | Dünya Kupası 2026 Son 32 Turu | 23:30 | Veri bekleniyor | - | 1.19 | 6 |
 | Union Espanola - Colo Colo | Şili Kupa Grup E | 02:30 | Veri bekleniyor | - | 3.9 | 7 |
 | Hollanda - Fas | Dünya Kupası 2026 Son 32 Turu | 04:00 | Veri bekleniyor | - | 2.02 | 8 |
