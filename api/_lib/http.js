@@ -38,4 +38,13 @@ function requireEnv(name) {
   return value;
 }
 
-module.exports = { json, text, readBody, requireEnv };
+function helperRoute(req, res) {
+  json(res, 404, { ok: false, error: "not_found" });
+}
+
+helperRoute.json = json;
+helperRoute.text = text;
+helperRoute.readBody = readBody;
+helperRoute.requireEnv = requireEnv;
+
+module.exports = helperRoute;
