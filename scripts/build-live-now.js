@@ -8,6 +8,23 @@ const outputPath = path.join(dataDir, 'live-now.json');
 const LIVE_WINDOW_MINUTES = 130;
 const UPCOMING_WINDOW_MINUTES = 90;
 
+const SCHEDULED_STATUSES = new Set(['', 'ns', 'not_started', 'scheduled', 'fixture', 'tbd', 'time_to_be_defined', 'bekliyor']);
+const LIVE_STATUSES = new Set(['live', 'canli', 'inplay', 'in_play', '1h', 'first_half', 'ht', 'half_time', '2h', 'second_half', 'et', 'extra_time', 'bt', 'break', 'int', 'interrupted', 'susp', 'suspended', 'paused']);
+const FINISHED_STATUSES = new Set(['ft', 'aet', 'pen', 'finished', 'ended', 'complete', 'completed', 'fulltime', 'full_time', 'match_finished', 'ms', 'bitti', 'sonuclandi', 'tamamlandi']);
+const POSTPONED_STATUSES = new Set(['pst', 'postponed', 'ertelendi']);
+const CANCELLED_STATUSES = new Set(['canc', 'cancelled', 'canceled', 'iptal']);
+
+function statusToken(value) {
+  return String(value || '')
+    .trim()
+    .toLocaleLowerCase('tr-TR')
+    .replace(/ı/g, 'i')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
 function readJson(file, fallback) {
   try {
     const text = fs.readFileSync(file, 'utf8').trim();
@@ -39,7 +56,8 @@ function todayTR() {
 
 function nowMinutesTR() {
   const p = partsTR();
-  return Number(p.hour) * 60 + Number(p.minute);
+  const hour = Number(p.hour === '24' ? '0' : p.hour || 0);
+  return hour * 60 + Number(p.minute || 0);
 }
 
 function clockMinutes(time) {
@@ -74,25 +92,30 @@ function normalize(item, source) {
 }
 
 function stateOf(match) {
-  const explicit = String(match.status || match.liveStatus || '').toLowerCase();
-  if (['live', 'canli', 'canlı', 'inplay', 'in_play', '1h', '2h', 'ht', 'paused'].includes(explicit)) return { status: 'live', minute: Number(match.minute) || null };
-  if (['finished', 'cancelled', 'postponed'].includes(explicit)) return { status: explicit, minute: match.minute ?? null };
+  const explicit = statusToken(match.status || match.liveStatus || match.fixture_status || match.result_status);
+  if (CANCELLED_STATUSES.has(explicit)) return { status: 'cancelled', minute: match.minute ?? null };
+  if (POSTPONED_STATUSES.has(explicit)) return { status: 'postponed', minute: match.minute ?? null };
+  if (FINISHED_STATUSES.has(explicit)) return { status: 'finished', minute: match.minute ?? 90 };
+  if (LIVE_STATUSES.has(explicit)) return { status: 'live', minute: Number(match.minute) || null };
+
   const start = clockMinutes(match.time);
-  if (match.date !== todayTR() || start === null) return { status: 'scheduled', minute: null };
+  if (match.date !== todayTR() || start === null) return { status: SCHEDULED_STATUSES.has(explicit) ? 'scheduled' : 'finished', minute: null };
   const diff = nowMinutesTR() - start;
   if (diff >= 0 && diff <= LIVE_WINDOW_MINUTES) return { status: 'live', minute: Math.max(1, Math.min(90, diff > 60 ? diff - 15 : diff)) };
   if (diff < 0 && Math.abs(diff) <= UPCOMING_WINDOW_MINUTES) return { status: 'upcoming', minute: null };
-  if (diff > LIVE_WINDOW_MINUTES) return { status: 'finished', minute: 90 };
-  return { status: 'scheduled', minute: null };
+  if (diff < 0) return { status: 'scheduled', minute: null };
+  return { status: 'finished', minute: 90 };
 }
 
 function collectSources() {
   const full = readJson(fullBulletinPath, { matches: [], live_matches: [] });
   const liveFile = readJson(liveMatchesPath, { matches: [] });
+  const liveRootDate = String(liveFile.date || full?.date_window?.main_day || '').slice(0, 10);
+  const normalizeLiveFile = (m, source) => normalize({ ...m, date: m.date || m.tarih || liveRootDate }, source);
   const list = [
     ...(Array.isArray(full.matches) ? full.matches.map((m) => normalize(m, 'full-bulletin.json')) : []),
     ...(Array.isArray(full.live_matches) ? full.live_matches.map((m) => normalize(m, 'full-bulletin.json/live_matches')) : []),
-    ...(Array.isArray(liveFile.matches) ? liveFile.matches.map((m) => normalize(m, 'live-matches.json')) : [])
+    ...(Array.isArray(liveFile.matches) ? liveFile.matches.map((m) => normalizeLiveFile(m, 'live-matches.json')) : [])
   ].filter(Boolean);
   const map = new Map();
   list.forEach((m) => map.set(keyOf(m), m));
@@ -101,7 +124,13 @@ function collectSources() {
 
 const allMatches = collectSources().map((match) => {
   const state = stateOf(match);
-  return { ...match, status: state.status === 'upcoming' ? 'scheduled' : state.status, liveStatus: state.status, minute: state.minute, last_update: new Date().toISOString() };
+  return {
+    ...match,
+    status: state.status === 'upcoming' ? 'scheduled' : state.status,
+    liveStatus: state.status,
+    minute: state.minute,
+    last_update: new Date().toISOString()
+  };
 });
 const live = allMatches.filter((m) => m.liveStatus === 'live');
 const upcoming = allMatches.filter((m) => m.liveStatus === 'upcoming').slice(0, 10);
