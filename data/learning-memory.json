@@ -1,21 +1,31 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-29T14:40:28.886Z",
+  "updated_at": "2026-06-29T14:52:12.594Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 50,
-    "pending_predictions": 50,
+    "total_predictions": 51,
+    "pending_predictions": 51,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 25,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 1,
     "updated_predictions": 0
   },
   "market_memory": {
+    "MS 1": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS X": {
       "total": 24,
       "pending": 24,
@@ -35,19 +45,19 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS 1": {
-      "total": 4,
-      "pending": 4,
+    }
+  },
+  "league_memory": {
+    "Kuveyt Premier Lig Şampiyonluk Grubu": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
+    },
     "Avrupa U19 Şampiyonası Grup B": {
       "total": 3,
       "pending": 3,
@@ -91,16 +101,6 @@
     "Finlandiya Ykkönen": {
       "total": 4,
       "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Kuveyt Premier Lig Şampiyonluk Grubu": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -300,6 +300,16 @@
     }
   },
   "league_market_memory": {
+    "Kuveyt Premier Lig Şampiyonluk Grubu :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Avrupa U19 Şampiyonası Grup B :: MS X": {
       "total": 1,
       "pending": 1,
@@ -673,6 +683,23 @@
   },
   "predictions": [
     {
+      "id": "2026-06-29|kuveyt premier lig sampiyonluk grubu|al qadsia al kuwait|ms 1|20 45",
+      "date": "2026-06-29",
+      "created_at": "2026-06-29T14:52:12.593Z",
+      "match_name": "Al Qadsia - Al-Kuwait",
+      "league": "Kuveyt Premier Lig Şampiyonluk Grubu",
+      "start_time": "20:45",
+      "market": "MS 1",
+      "odds": "3.06",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-06-29|avrupa u19 sampiyonasi grup b|italya u19 sirbistan u19|ms x|18 00",
       "date": "2026-06-29",
       "created_at": "2026-06-29T14:40:28.296Z",
@@ -688,7 +715,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|lubnan premier lig|hikma tadamon tyre|ms 2|15 30",
@@ -706,7 +733,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|avrupa u19 sampiyonasi grup b|italya u19 sirbistan u19|ms 2|18 00",
@@ -734,7 +761,7 @@
       "league": "Letonya Virsliga",
       "start_time": "18:00",
       "market": "MS 2",
-      "odds": "3.15",
+      "odds": "3.01",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -742,7 +769,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|litvanya a ligi|fa siauliai transinvest vil|ms 1|18 30",
@@ -760,7 +787,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|finlandiya ykkonen|vjs tpv tampere|ms 2|18 30",
@@ -778,7 +805,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|kuveyt premier lig sampiyonluk grubu|al qadsia al kuwait|ms x|19 05",
@@ -796,7 +823,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|dunya kupasi 2026 son 32 turu|brezilya japonya|ms 2|20 00",
@@ -814,7 +841,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|faroe adalari master lig|hb torshavn skala|ms 2|20 30",
@@ -832,7 +859,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|faroe adalari master lig|vikingur gota runavik|ms x|20 30",
@@ -850,7 +877,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|faroe adalari master lig|b68 toftir ab argir|ms x|20 30",
@@ -868,7 +895,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.885Z"
+      "updated_at": "2026-06-29T14:52:12.593Z"
     },
     {
       "id": "2026-06-29|avrupa u19 sampiyonasi grup b|hirvatistan u ukrayna u19|ms 2|22 00",
@@ -886,7 +913,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:40:28.886Z"
+      "updated_at": "2026-06-29T14:52:12.594Z"
     },
     {
       "id": "2026-06-29|abd usl lig 2 guney merkez grubu|southern socce dothan united|ms x|02 30",

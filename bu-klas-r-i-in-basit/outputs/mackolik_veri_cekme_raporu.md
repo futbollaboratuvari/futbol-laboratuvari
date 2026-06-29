@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-29T14:40:23.134851+00:00
+Tarih: 2026-06-29T14:52:09.481690+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 21
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 16
+- Kac mac bulundu: 19
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 19
 - Ham veri havuzu toplam mac sayisi: 778
 - Hedef tarih: 29.06.2026 Europe/Istanbul
 
@@ -25,7 +25,6 @@ Tarih: 2026-06-29T14:40:23.134851+00:00
 - Lübnan Premier Lig
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
-- Şili Kupa Grup E
 
 ## Okunabilen Oran Alanlari
 
@@ -98,13 +97,11 @@ Tarih: 2026-06-29T14:40:23.134851+00:00
 |---|---|---|---|---|---|---:|
 | 29.06.2026 | 23:30 | Dünya Kupası 2026 Son 32 Turu | Almanya | Paraguay | 05167 | 5 |
 | 29.06.2026 | 20:00 | Dünya Kupası 2026 Son 32 Turu | Brezilya | Japonya | 20051 | 5 |
-| 30.06.2026 | 04:00 | Dünya Kupası 2026 Son 32 Turu | Hollanda | Fas | 19906 | 5 |
 | 29.06.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | İtalya U19 | Sirbistan (U19) | 02899 | 5 |
 | 29.06.2026 | 22:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | Ukrayna U19 | 02293 | 5 |
 | 29.06.2026 | 19:00 | Hazırlık Kulüpler | Kizilyildiz | Slovan Bratisla | 03861 | 5 |
 | 29.06.2026 | 18:30 | Litvanya A Ligi | Fa Siauliai | Transinvest Vil | 14956 | 5 |
 | 29.06.2026 | 18:45 | Litvanya A Ligi | Fk Panevezys | Suduva | 14958 | 5 |
-| 30.06.2026 | 02:30 | Şili Kupa Grup E | Union Espanola | Colo Colo | 00332 | 5 |
 | 29.06.2026 | 18:30 | Finlandiya Ykkönen | Vjs | Tpv Tampere | 02647 | 5 |
 | 29.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Arabi | Al Fahaheel | 07602 | 4 |
 | 29.06.2026 | 20:45 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia | Al-Kuwait | 07610 | 5 |
@@ -116,6 +113,7 @@ Tarih: 2026-06-29T14:40:23.134851+00:00
 | 29.06.2026 | 18:00 | Letonya Virsliga | Fs Jelgava | Grobina | 15020 | 5 |
 | 29.06.2026 | 20:30 | Faroe Adaları Master Lig | Hb Torshavn | Skala | 15475 | 5 |
 | 29.06.2026 | 20:30 | Faroe Adaları Master Lig | B68 Toftir | Ab Argir | 15477 | 5 |
+| 29.06.2026 | 20:30 | Faroe Adaları Master Lig | Vikingur Gota | Runavik | 15473 | 5 |
 
 ## Sonuc
 
