@@ -1,5 +1,3 @@
-const { Octokit } = require("@octokit/rest");
-
 const OWNER = "futbollaboratuvari";
 const REPO = "futbol-laboratuvari";
 const ARCHIVE_PATH = "data/robot_match_archive.json";
@@ -10,10 +8,46 @@ const token = () => process.env.GITHUB_LEARNING_TOKEN || process.env.GITHUB_TOKE
 const decode = (value) => Buffer.from(value || "", "base64").toString("utf8");
 const encode = (value) => Buffer.from(value, "utf8").toString("base64");
 
-const readArchive = async (octokit) => {
-  const response = await octokit.repos.getContent({ owner: OWNER, repo: REPO, path: ARCHIVE_PATH, ref: "main" });
-  const file = response.data;
+const githubJson = async (url, options = {}) => {
+  const response = await fetch(url, {
+    ...options,
+    headers: {
+      "Accept": "application/vnd.github+json",
+      "Authorization": `Bearer ${options.auth}`,
+      "Content-Type": "application/json",
+      "User-Agent": "futbol-laboratuvari-learning-api",
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...(options.headers || {})
+    }
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    const message = data.message || `GitHub request failed with ${response.status}`;
+    throw new Error(message);
+  }
+  return data;
+};
+
+const readArchive = async (auth) => {
+  const path = encodeURIComponent(ARCHIVE_PATH).replace(/%2F/g, "/");
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=main`;
+  const file = await githubJson(url, { auth });
   return { sha: file.sha, data: JSON.parse(decode(file.content) || "{}") };
+};
+
+const writeArchive = async (auth, sha, data) => {
+  const path = encodeURIComponent(ARCHIVE_PATH).replace(/%2F/g, "/");
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+  return githubJson(url, {
+    auth,
+    method: "PUT",
+    body: JSON.stringify({
+      branch: "main",
+      sha,
+      message: "Update coupon learning feedback",
+      content: encode(`${JSON.stringify(data, null, 2)}\n`)
+    })
+  });
 };
 
 const cleanText = (value, max = 120) => String(value || "").replace(/[<>]/g, "").slice(0, max);
@@ -59,35 +93,30 @@ module.exports = async (req, res) => {
   const auth = token();
   if (!auth) return res.status(503).json({ ok: false, error: "missing_github_learning_token" });
 
-  const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body || {});
-  const picks = Array.isArray(body.picks) ? body.picks.map(normalizePick).filter((pick) => pick.key && pick.value) : [];
-  if (!picks.length) return res.status(400).json({ ok: false, error: "empty_picks" });
+  try {
+    const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body || {});
+    const picks = Array.isArray(body.picks) ? body.picks.map(normalizePick).filter((pick) => pick.key && pick.value) : [];
+    if (!picks.length) return res.status(400).json({ ok: false, error: "empty_picks" });
 
-  const octokit = new Octokit({ auth });
-  const { sha, data } = await readArchive(octokit);
-  const event = {
-    created_at: new Date().toISOString(),
-    source: "daily-matches-widget-kuponum",
-    avg_score: toNumber(body.avg_score),
-    risk: cleanText(body.risk, 40),
-    picks
-  };
+    const { sha, data } = await readArchive(auth);
+    const event = {
+      created_at: new Date().toISOString(),
+      source: "daily-matches-widget-kuponum",
+      avg_score: toNumber(body.avg_score),
+      risk: cleanText(body.risk, 40),
+      picks
+    };
 
-  data.coupon_learning_events = Array.isArray(data.coupon_learning_events) ? data.coupon_learning_events : [];
-  data.coupon_learning_events.push(event);
-  data.coupon_learning_events = data.coupon_learning_events.slice(-MAX_EVENTS);
-  data.coupon_feedback_model = updateFeedback(data.coupon_feedback_model, picks);
-  data.updated_by_coupon_learning = event.created_at;
+    data.coupon_learning_events = Array.isArray(data.coupon_learning_events) ? data.coupon_learning_events : [];
+    data.coupon_learning_events.push(event);
+    data.coupon_learning_events = data.coupon_learning_events.slice(-MAX_EVENTS);
+    data.coupon_feedback_model = updateFeedback(data.coupon_feedback_model, picks);
+    data.updated_by_coupon_learning = event.created_at;
 
-  await octokit.repos.createOrUpdateFileContents({
-    owner: OWNER,
-    repo: REPO,
-    path: ARCHIVE_PATH,
-    branch: "main",
-    sha,
-    message: "Update coupon learning feedback",
-    content: encode(`${JSON.stringify(data, null, 2)}\n`)
-  });
+    await writeArchive(auth, sha, data);
 
-  return res.status(200).json({ ok: true, stored: picks.length, total_events: data.coupon_learning_events.length });
+    return res.status(200).json({ ok: true, stored: picks.length, total_events: data.coupon_learning_events.length });
+  } catch (error) {
+    return res.status(500).json({ ok: false, error: "github_learning_update_failed", message: error.message });
+  }
 };
