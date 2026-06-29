@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.06.2026 17:55:00
+Oluşturma: 29.06.2026 18:41:27
 
 ## Özet
 
-- Toplam tahmin: 51
-- Bekleyen tahmin: 51
+- Toplam tahmin: 54
+- Bekleyen tahmin: 54
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 25
@@ -20,12 +20,15 @@ Oluşturma: 29.06.2026 17:55:00
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
+- MS X: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
-- MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-06-29 | Hazırlık Kulüpler | Kizilyildiz - Slovan Bratisla | MS 2 | pending | 60/100
+- 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Arabi - Al Fahaheel | MS X | pending | 75/100
+- 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Kazma - Al Salmiyah | MS 2 | pending | 40/100
 - 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia - Al-Kuwait | MS 1 | pending | 50/100
 - 2026-06-29 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19) | MS X | pending | 40/100
 - 2026-06-29 | Lübnan Premier Lig | Hikma - Tadamon Tyre | MS 2 | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 29.06.2026 17:55:00
 - 2026-06-29 | Faroe Adaları Master Lig | Hb Torshavn - Skala | MS 2 | pending | 60/100
 - 2026-06-29 | Faroe Adaları Master Lig | Vikingur Gota - Runavik | MS X | pending | 50/100
 - 2026-06-29 | Faroe Adaları Master Lig | B68 Toftir - Ab Argir | MS X | pending | 50/100
-- 2026-06-29 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - Ukrayna U19 | MS 2 | pending | 50/100
-- 2026-06-29 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - Dothan United | MS X | pending | 50/100
-- 2026-06-29 | Şili Kupa Grup H | Puerto Montt - Concepcion | MS X | pending | 40/100
 
