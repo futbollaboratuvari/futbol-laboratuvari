@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.06.2026 17:37:03
+Oluşturma: 29.06.2026 17:40:28
 
 ## Özet
 
-- Toplam tahmin: 49
-- Bekleyen tahmin: 49
+- Toplam tahmin: 50
+- Bekleyen tahmin: 50
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 25
@@ -20,12 +20,13 @@ Oluşturma: 29.06.2026 17:37:03
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS X: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-06-29 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19) | MS X | pending | 40/100
 - 2026-06-29 | Lübnan Premier Lig | Hikma - Tadamon Tyre | MS 2 | pending | 50/100
 - 2026-06-29 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19) | MS 2 | pending | 40/100
 - 2026-06-29 | Letonya Virsliga | Fs Jelgava - Grobina | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 29.06.2026 17:37:03
 - 2026-06-29 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - Dothan United | MS X | pending | 50/100
 - 2026-06-29 | Şili Kupa Grup H | Puerto Montt - Concepcion | MS X | pending | 40/100
 - 2026-06-29 | Şili Kupa Grup F | Csd Rangers - Atletico Nublen | MS X | pending | 40/100
-- 2026-06-29 | Brezilya Serie B | Nautico - Goias | MS 2 | pending | 40/100
 

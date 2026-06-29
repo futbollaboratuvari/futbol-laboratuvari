@@ -1,25 +1,31 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-29T14:37:03.985Z",
+  "updated_at": "2026-06-29T14:40:28.886Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 49,
-    "pending_predictions": 49,
+    "total_predictions": 50,
+    "pending_predictions": 50,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 25,
     "market_count": 3,
     "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 49,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "updated_predictions": 0
   },
   "market_memory": {
+    "MS X": {
+      "total": 24,
+      "pending": 24,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS 2": {
       "total": 22,
       "pending": 22,
@@ -39,20 +45,10 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS X": {
-      "total": 23,
-      "pending": 23,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
     }
   },
   "league_memory": {
-    "Lübnan Premier Lig": {
+    "Avrupa U19 Şampiyonası Grup B": {
       "total": 3,
       "pending": 3,
       "won": 0,
@@ -62,9 +58,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Avrupa U19 Şampiyonası Grup B": {
-      "total": 2,
-      "pending": 2,
+    "Lübnan Premier Lig": {
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -304,6 +300,16 @@
     }
   },
   "league_market_memory": {
+    "Avrupa U19 Şampiyonası Grup B :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Lübnan Premier Lig :: MS 2": {
       "total": 3,
       "pending": 3,
@@ -667,6 +673,24 @@
   },
   "predictions": [
     {
+      "id": "2026-06-29|avrupa u19 sampiyonasi grup b|italya u19 sirbistan u19|ms x|18 00",
+      "date": "2026-06-29",
+      "created_at": "2026-06-29T14:40:28.296Z",
+      "match_name": "İtalya U19 - Sirbistan (U19)",
+      "league": "Avrupa U19 Şampiyonası Grup B",
+      "start_time": "18:00",
+      "market": "MS X",
+      "odds": "3.98",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-06-29T14:40:28.885Z"
+    },
+    {
       "id": "2026-06-29|lubnan premier lig|hikma tadamon tyre|ms 2|15 30",
       "date": "2026-06-29",
       "created_at": "2026-06-29T07:05:33.310Z",
@@ -682,7 +706,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|avrupa u19 sampiyonasi grup b|italya u19 sirbistan u19|ms 2|18 00",
@@ -710,7 +734,7 @@
       "league": "Letonya Virsliga",
       "start_time": "18:00",
       "market": "MS 2",
-      "odds": "2.94",
+      "odds": "3.15",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -718,7 +742,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|litvanya a ligi|fa siauliai transinvest vil|ms 1|18 30",
@@ -736,7 +760,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|finlandiya ykkonen|vjs tpv tampere|ms 2|18 30",
@@ -746,7 +770,7 @@
       "league": "Finlandiya Ykkönen",
       "start_time": "18:30",
       "market": "MS 2",
-      "odds": "6.19",
+      "odds": "5.78",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -754,7 +778,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|kuveyt premier lig sampiyonluk grubu|al qadsia al kuwait|ms x|19 05",
@@ -772,7 +796,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|dunya kupasi 2026 son 32 turu|brezilya japonya|ms 2|20 00",
@@ -782,7 +806,7 @@
       "league": "Dünya Kupası 2026 Son 32 Turu",
       "start_time": "20:00",
       "market": "MS 2",
-      "odds": "4.57",
+      "odds": "4.38",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -790,7 +814,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|faroe adalari master lig|hb torshavn skala|ms 2|20 30",
@@ -800,7 +824,7 @@
       "league": "Faroe Adaları Master Lig",
       "start_time": "20:30",
       "market": "MS 2",
-      "odds": "4.33",
+      "odds": "4.10",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -808,7 +832,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|faroe adalari master lig|vikingur gota runavik|ms x|20 30",
@@ -818,7 +842,7 @@
       "league": "Faroe Adaları Master Lig",
       "start_time": "20:30",
       "market": "MS X",
-      "odds": "2.92",
+      "odds": "3.10",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -826,7 +850,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|faroe adalari master lig|b68 toftir ab argir|ms x|20 30",
@@ -836,7 +860,7 @@
       "league": "Faroe Adaları Master Lig",
       "start_time": "20:30",
       "market": "MS X",
-      "odds": "3.16",
+      "odds": "3.11",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -844,7 +868,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.586Z"
+      "updated_at": "2026-06-29T14:40:28.885Z"
     },
     {
       "id": "2026-06-29|avrupa u19 sampiyonasi grup b|hirvatistan u ukrayna u19|ms 2|22 00",
@@ -854,7 +878,7 @@
       "league": "Avrupa U19 Şampiyonası Grup B",
       "start_time": "22:00",
       "market": "MS 2",
-      "odds": "3.38",
+      "odds": "3.99",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -862,7 +886,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-06-29T14:37:03.587Z"
+      "updated_at": "2026-06-29T14:40:28.886Z"
     },
     {
       "id": "2026-06-29|abd usl lig 2 guney merkez grubu|southern socce dothan united|ms x|02 30",
