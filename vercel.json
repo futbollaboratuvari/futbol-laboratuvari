@@ -3,26 +3,6 @@
   "installCommand": "npm install --omit=dev --ignore-scripts",
   "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "futbollaboratuuvari.org" }],
-      "destination": "https://www.futbollaboratuuvari.org/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "futbollaboratuvari.org" }],
-      "destination": "https://www.futbollaboratuuvari.org/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.futbollaboratuvari.org" }],
-      "destination": "https://www.futbollaboratuuvari.org/:path*",
-      "permanent": true
-    }
-  ],
   "headers": [
     {
       "source": "/api/(.*)",
