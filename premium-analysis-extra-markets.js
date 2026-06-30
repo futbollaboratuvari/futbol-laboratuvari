@@ -40,7 +40,7 @@
     if (document.getElementById(id)) return;
     const script = document.createElement("script");
     script.id = id;
-    script.src = `${src}?v=20260627-full-market-v3`;
+    script.src = `${src}?v=20260630-bulletin-detail-bridge-v1`;
     script.async = false;
     document.body.appendChild(script);
   }
@@ -57,6 +57,7 @@
     loadScriptOnce("robot-pro122-core-script", "robot-pro122-core.js");
     loadScriptOnce("robot-pro122-legacy-link-script", "robot-pro122-legacy-link.js");
     loadScriptOnce("robot-pro122-fields-mini-script", "robot-pro122-fields-mini.js");
+    loadScriptOnce("bulletin-detail-analysis-bridge-script", "bulletin-detail-analysis-bridge.js");
   }
 
   function apply() {
