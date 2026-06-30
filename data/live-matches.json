@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-06-30T12:54:27.003Z",
+  "generated_at": "2026-06-30T16:38:49.860Z",
   "date": "2026-06-30",
   "timezone": "Europe/Istanbul",
   "source": "Yerel veri kaynaklari",
   "title": "Futbol Laboratuvarı Canlı Veri",
-  "status": "waiting",
-  "message": "Şu anda başlayan karşılaşma yok.",
+  "status": "active",
+  "message": "Başlayan karşılaşmalar canlı listede.",
   "counts": {
-    "total": 25,
-    "current_window": 25,
-    "live": 0,
-    "scheduled": 24,
-    "finished": 1,
-    "active_analysis": 15,
+    "total": 22,
+    "current_window": 22,
+    "live": 7,
+    "scheduled": 15,
+    "finished": 0,
+    "active_analysis": 12,
     "completed_analysis": 0,
     "coupon_candidates": 0,
-    "watch_candidates": 4,
+    "watch_candidates": 3,
     "focused_markets": 16,
-    "wide_market_odds": 224
+    "wide_market_odds": 199
   },
   "next_match": {
     "date": "2026-07-01",
@@ -32,24 +32,30 @@
     "source": "Maçkolik canlı robot",
     "matchCode": "05121",
     "available_odds": {
-      "ms1": 1.14,
-      "msx": 5.33,
-      "ms2": 7.99,
-      "under25": 2.48,
-      "over25": 1.27,
+      "ms1": 1.12,
+      "msx": 5.43,
+      "ms2": 8.45,
+      "under25": 2.57,
+      "over25": 1.24,
       "bttsYes": null,
       "bttsNo": null
     },
     "odds": {
+      "ms1": 1.12,
+      "msx": 5.43,
+      "ms2": 8.45,
+      "under25": 2.57,
+      "over25": 1.24,
+      "bttsYes": null,
+      "bttsNo": null
+    },
+    "raw_market_guess_odds": {
       "ms1": 1.14,
       "msx": 5.33,
       "ms2": 7.99,
       "under25": 2.48,
-      "over25": 1.27,
-      "bttsYes": null,
-      "bttsNo": null
+      "over25": 1.27
     },
-    "raw_market_guess_odds": {},
     "raw_odds_sequence": [],
     "market_odds_inventory": [
       "ms1",
@@ -69,7 +75,7 @@
     "decision": "Analiz bekleniyor",
     "robot_reason": "",
     "include_in_coupon": false,
-    "raw_market_value_count": 5
+    "raw_market_value_count": 6
   },
   "focused_markets": [
     "İlk Yarı KG Var",
@@ -91,157 +97,16 @@
   ],
   "active_items": [],
   "completed_items": [],
-  "matches": [],
-  "scheduled_matches": [
-    {
-      "date": "2026-06-30",
-      "time": "16:00",
-      "league": "Tanzanya Kuu Bara Ligi",
-      "home": "Azam Fc",
-      "away": "Dodoma Jiji",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "02324",
-      "available_odds": {
-        "ms1": 1.22,
-        "msx": 3.63,
-        "ms2": 6.87,
-        "over25": null,
-        "under25": null,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "odds": {
-        "ms1": 1.22,
-        "msx": 3.63,
-        "ms2": 6.87,
-        "over25": null,
-        "under25": null,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {},
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "over35",
-        "under35",
-        "bttsYes",
-        "bttsNo",
-        "firstHalfBttsYes",
-        "firstHalfBttsNo",
-        "secondHalfBttsYes",
-        "secondHalfBttsNo"
-      ],
-      "wide_market_odds_count": 9,
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "analysis_score": 0,
-      "confidence": "0%",
-      "risk_level": "Yüksek",
-      "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
-      "include_in_coupon": false,
-      "raw_market_value_count": 3
-    },
-    {
-      "date": "2026-06-30",
-      "time": "16:00",
-      "league": "Tanzanya Kuu Bara Ligi",
-      "home": "Jkt Tanzania",
-      "away": "Young Africans",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "04788",
-      "available_odds": {
-        "ms1": 9.32,
-        "msx": 4.92,
-        "ms2": 1.08,
-        "over25": 1.57,
-        "under25": 1.65,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "odds": {
-        "ms1": 9.32,
-        "msx": 4.92,
-        "ms2": 1.08,
-        "over25": 1.57,
-        "under25": 1.65,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {},
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "over35",
-        "under35",
-        "bttsYes",
-        "bttsNo",
-        "firstHalfBttsYes",
-        "firstHalfBttsNo",
-        "secondHalfBttsYes",
-        "secondHalfBttsNo"
-      ],
-      "wide_market_odds_count": 11,
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "analysis_score": 10,
-      "confidence": "10%",
-      "risk_level": "Yüksek",
-      "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
-      "include_in_coupon": false,
-      "raw_market_value_count": 5
-    },
+  "matches": [
     {
       "date": "2026-06-30",
       "time": "18:00",
       "league": "Finlandiya Suomen Kupası Yarı Final",
       "home": "Vaasa",
       "away": "Inter Turku",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 83,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "00216",
@@ -253,8 +118,8 @@
         "under25": 1.53,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.47",
-        "bttsNo": "1.18",
+        "bttsYes": 1.47,
+        "bttsNo": 1.18,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -270,8 +135,8 @@
         "under25": 1.53,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.47",
-        "bttsNo": "1.18",
+        "bttsYes": 1.47,
+        "bttsNo": 1.18,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -279,7 +144,15 @@
         "bttsYes_guess": 1.47,
         "bttsNo_guess": 1.18
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 3.1,
+        "msx": 2.86,
+        "ms2": 1.88,
+        "under25": 1.53,
+        "over25": 1.81,
+        "bttsYes_guess": 1.47,
+        "bttsNo_guess": 1.18
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -307,7 +180,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | İki takım son 10 maçta en az 4 gol yedi: +15",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-06-30",
@@ -315,9 +188,9 @@
       "league": "Avrupa U19 Şampiyonası Kadınlar Grup A",
       "home": "Bosna-Hersek U",
       "away": "İsveç U19 (K)",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 83,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "03966",
@@ -329,8 +202,8 @@
         "under25": null,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "17.10",
-        "bttsNo": "10.70",
+        "bttsYes": 17.1,
+        "bttsNo": 10.7,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -346,8 +219,8 @@
         "under25": null,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "17.10",
-        "bttsNo": "10.70",
+        "bttsYes": 17.1,
+        "bttsNo": 10.7,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -355,7 +228,10 @@
         "bttsYes_guess": 17.1,
         "bttsNo_guess": 10.7
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "bttsYes_guess": 17.1,
+        "bttsNo_guess": 10.7
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -383,7 +259,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
-      "raw_market_value_count": 2
+      "raw_market_value_count": 3
     },
     {
       "date": "2026-06-30",
@@ -391,9 +267,9 @@
       "league": "Letonya Virsliga",
       "home": "Daugava Riga",
       "away": "Bfc Daugavpils",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 83,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "03182",
@@ -405,8 +281,8 @@
         "under25": null,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "5.97",
-        "bttsNo": "10.90",
+        "bttsYes": 5.97,
+        "bttsNo": 10.9,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -422,8 +298,8 @@
         "under25": null,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "5.97",
-        "bttsNo": "10.90",
+        "bttsYes": 5.97,
+        "bttsNo": 10.9,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -431,7 +307,10 @@
         "bttsYes_guess": 5.97,
         "bttsNo_guess": 10.9
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "bttsYes_guess": 5.97,
+        "bttsNo_guess": 10.9
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -459,7 +338,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | İkinci yarı gol eğilimi yüksek: +10",
       "include_in_coupon": false,
-      "raw_market_value_count": 2
+      "raw_market_value_count": 3
     },
     {
       "date": "2026-06-30",
@@ -467,9 +346,9 @@
       "league": "Hazırlık Kulüpler",
       "home": "Sezimivo Usti",
       "away": "Amstetten",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 83,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "00503",
@@ -481,8 +360,8 @@
         "under25": 1.88,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.34",
-        "bttsNo": "1.09",
+        "bttsYes": 1.34,
+        "bttsNo": 1.09,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -498,8 +377,8 @@
         "under25": 1.88,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.34",
-        "bttsNo": "1.09",
+        "bttsYes": 1.34,
+        "bttsNo": 1.09,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -507,7 +386,15 @@
         "bttsYes_guess": 1.34,
         "bttsNo_guess": 1.09
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.38,
+        "msx": 3.15,
+        "ms2": 1.99,
+        "under25": 1.88,
+        "over25": 1.41,
+        "bttsYes_guess": 1.34,
+        "bttsNo_guess": 1.09
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -535,7 +422,7 @@
       "decision": "İzleme",
       "robot_reason": "Market: MS X | Oran: 3.15 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-06-30",
@@ -543,9 +430,9 @@
       "league": "Hazırlık Kulüpler",
       "home": "Brno",
       "away": "Nyiregyhaza",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 83,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "01598",
@@ -553,8 +440,8 @@
         "ms1": 1.83,
         "msx": 3.22,
         "ms2": 2.61,
-        "over25": "1.09",
-        "under25": "1.17",
+        "over25": 1.09,
+        "under25": 1.17,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -568,8 +455,8 @@
         "ms1": 1.83,
         "msx": 3.22,
         "ms2": 2.61,
-        "over25": "1.09",
-        "under25": "1.17",
+        "over25": 1.09,
+        "under25": 1.17,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -579,7 +466,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.83,
+        "msx": 3.22,
+        "ms2": 2.61,
+        "under25": 1.17,
+        "over25": 1.09
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -605,7 +498,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
-      "raw_market_value_count": 3
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-06-30",
@@ -613,9 +506,9 @@
       "league": "Letonya Virsliga",
       "home": "Liepaja",
       "away": "Ogre United",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 38,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "04299",
@@ -649,7 +542,11 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.15,
+        "msx": 4.61,
+        "ms2": 6.57
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -675,7 +572,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
-      "raw_market_value_count": 3
+      "raw_market_value_count": 4
     },
     {
       "date": "2026-06-30",
@@ -683,9 +580,9 @@
       "league": "Hazırlık Kulüpler",
       "home": "Sturm Graz",
       "away": "Lnz Cherkasy",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 38,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "11456",
@@ -719,7 +616,11 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.33,
+        "msx": 3.79,
+        "ms2": 4.41
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -745,8 +646,10 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
-      "raw_market_value_count": 3
-    },
+      "raw_market_value_count": 4
+    }
+  ],
+  "scheduled_matches": [
     {
       "date": "2026-06-30",
       "time": "20:00",
@@ -763,8 +666,8 @@
         "ms1": 3.08,
         "msx": 3.02,
         "ms2": 1.86,
-        "over25": 1.63,
-        "under25": 1.72,
+        "over25": 1.68,
+        "under25": 1.68,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.51",
@@ -780,8 +683,8 @@
         "ms1": 3.08,
         "msx": 3.02,
         "ms2": 1.86,
-        "over25": 1.63,
-        "under25": 1.72,
+        "over25": 1.68,
+        "under25": 1.68,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.51",
@@ -793,7 +696,15 @@
         "bttsYes_guess": 1.51,
         "bttsNo_guess": 1.16
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 3.08,
+        "msx": 3.02,
+        "ms2": 1.86,
+        "under25": 1.72,
+        "over25": 1.63,
+        "bttsYes_guess": 1.51,
+        "bttsNo_guess": 1.16
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -821,7 +732,7 @@
       "decision": "İzleme",
       "robot_reason": "Market: MS 1 | Oran: 3.08 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-06-30",
@@ -836,15 +747,15 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "07063",
       "available_odds": {
-        "ms1": 3.68,
-        "msx": 3.38,
-        "ms2": 1.49,
+        "ms1": 4.34,
+        "msx": 3.73,
+        "ms2": 1.35,
         "over25": 1.34,
         "under25": 2.02,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.70",
-        "bttsNo": "1.07",
+        "bttsYes": null,
+        "bttsNo": null,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -853,15 +764,15 @@
         "bttsNo_guess": 1.07
       },
       "odds": {
-        "ms1": 3.68,
-        "msx": 3.38,
-        "ms2": 1.49,
+        "ms1": 4.34,
+        "msx": 3.73,
+        "ms2": 1.35,
         "over25": 1.34,
         "under25": 2.02,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.70",
-        "bttsNo": "1.07",
+        "bttsYes": null,
+        "bttsNo": null,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -869,7 +780,15 @@
         "bttsYes_guess": 1.7,
         "bttsNo_guess": 1.07
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 3.68,
+        "msx": 3.38,
+        "ms2": 1.49,
+        "under25": 2.02,
+        "over25": 1.34,
+        "bttsYes_guess": 1.7,
+        "bttsNo_guess": 1.07
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -888,7 +807,7 @@
         "bttsYes_guess",
         "bttsNo_guess"
       ],
-      "wide_market_odds_count": 15,
+      "wide_market_odds_count": 13,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
       "analysis_score": 25,
@@ -897,7 +816,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 7
     },
     {
       "date": "2026-06-30",
@@ -912,11 +831,11 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "03691",
       "available_odds": {
-        "ms1": 4.53,
-        "msx": 3.63,
-        "ms2": 1.34,
-        "over25": 1.34,
-        "under25": 2.02,
+        "ms1": 4.52,
+        "msx": 3.74,
+        "ms2": 1.33,
+        "over25": 1.33,
+        "under25": 2.03,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -927,11 +846,11 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 4.53,
-        "msx": 3.63,
-        "ms2": 1.34,
-        "over25": 1.34,
-        "under25": 2.02,
+        "ms1": 4.52,
+        "msx": 3.74,
+        "ms2": 1.33,
+        "over25": 1.33,
+        "under25": 2.03,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -941,7 +860,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 4.53,
+        "msx": 3.63,
+        "ms2": 1.34,
+        "under25": 2.02,
+        "over25": 1.34
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -967,7 +892,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-06-30",
@@ -982,11 +907,11 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "10669",
       "available_odds": {
-        "ms1": 1.23,
-        "msx": 4.03,
-        "ms2": 5.62,
-        "over25": 1.39,
-        "under25": 1.92,
+        "ms1": 1.34,
+        "msx": 3.63,
+        "ms2": 4.53,
+        "over25": 1.42,
+        "under25": 1.87,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -997,11 +922,11 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 1.23,
-        "msx": 4.03,
-        "ms2": 5.62,
-        "over25": 1.39,
-        "under25": 1.92,
+        "ms1": 1.34,
+        "msx": 3.63,
+        "ms2": 4.53,
+        "over25": 1.42,
+        "under25": 1.87,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -1011,7 +936,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.23,
+        "msx": 4.03,
+        "ms2": 5.62,
+        "under25": 1.92,
+        "over25": 1.39
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1037,7 +968,7 @@
       "decision": "Oynama",
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-06-30",
@@ -1052,14 +983,14 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "02557",
       "available_odds": {
-        "ms1": 2.25,
-        "msx": 3.04,
-        "ms2": 2.15,
-        "over25": 1.44,
-        "under25": 1.83,
+        "ms1": 1.95,
+        "msx": 3.03,
+        "ms2": 2.51,
+        "over25": 1.49,
+        "under25": 1.76,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.28",
+        "bttsYes": "1.19",
         "bttsNo": "1.11",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -1069,14 +1000,14 @@
         "bttsNo_guess": 1.11
       },
       "odds": {
-        "ms1": 2.25,
-        "msx": 3.04,
-        "ms2": 2.15,
-        "over25": 1.44,
-        "under25": 1.83,
+        "ms1": 1.95,
+        "msx": 3.03,
+        "ms2": 2.51,
+        "over25": 1.49,
+        "under25": 1.76,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.28",
+        "bttsYes": "1.19",
         "bttsNo": "1.11",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -1085,7 +1016,15 @@
         "bttsYes_guess": 1.28,
         "bttsNo_guess": 1.11
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.25,
+        "msx": 3.04,
+        "ms2": 2.15,
+        "under25": 1.83,
+        "over25": 1.44,
+        "bttsYes_guess": 1.28,
+        "bttsNo_guess": 1.11
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1106,14 +1045,14 @@
       ],
       "wide_market_odds_count": 15,
       "suggested_option": "MS X",
-      "suggested_odds": "3.04",
+      "suggested_odds": "3.03",
       "analysis_score": 50,
       "confidence": "50%",
       "risk_level": "Yüksek",
       "decision": "İzleme",
-      "robot_reason": "Market: MS X | Oran: 3.04 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_reason": "Market: MS X | Oran: 3.03 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-07-01",
@@ -1128,24 +1067,30 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "05121",
       "available_odds": {
-        "ms1": 1.14,
-        "msx": 5.33,
-        "ms2": 7.99,
-        "under25": 2.48,
-        "over25": 1.27,
+        "ms1": 1.12,
+        "msx": 5.43,
+        "ms2": 8.45,
+        "under25": 2.57,
+        "over25": 1.24,
         "bttsYes": null,
         "bttsNo": null
       },
       "odds": {
+        "ms1": 1.12,
+        "msx": 5.43,
+        "ms2": 8.45,
+        "under25": 2.57,
+        "over25": 1.24,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {
         "ms1": 1.14,
         "msx": 5.33,
         "ms2": 7.99,
         "under25": 2.48,
-        "over25": 1.27,
-        "bttsYes": null,
-        "bttsNo": null
+        "over25": 1.27
       },
-      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1165,7 +1110,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-07-01",
@@ -1180,24 +1125,36 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "04208",
       "available_odds": {
-        "ms1": 2.03,
-        "msx": 2.87,
-        "ms2": 2.51,
-        "under25": 1.67,
-        "over25": 1.56,
+        "ms1": 2.07,
+        "msx": 2.88,
+        "ms2": 2.44,
+        "under25": 1.7,
+        "over25": 1.54,
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.13,
         "bttsYes": null,
         "bttsNo": null
       },
       "odds": {
+        "ms1": 2.07,
+        "msx": 2.88,
+        "ms2": 2.44,
+        "under25": 1.7,
+        "over25": 1.54,
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.13,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {
         "ms1": 2.03,
         "msx": 2.87,
         "ms2": 2.51,
         "under25": 1.67,
         "over25": 1.56,
-        "bttsYes": null,
-        "bttsNo": null
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.13
       },
-      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1205,10 +1162,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1217,7 +1176,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-07-01",
@@ -1235,8 +1194,10 @@
         "ms1": 1.95,
         "msx": 2.63,
         "ms2": 2.87,
-        "under25": 1.5,
-        "over25": 1.74,
+        "under25": 1.49,
+        "over25": 1.76,
+        "bttsYes_guess": 1.13,
+        "bttsNo_guess": 1.17,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1244,12 +1205,22 @@
         "ms1": 1.95,
         "msx": 2.63,
         "ms2": 2.87,
-        "under25": 1.5,
-        "over25": 1.74,
+        "under25": 1.49,
+        "over25": 1.76,
+        "bttsYes_guess": 1.13,
+        "bttsNo_guess": 1.17,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.95,
+        "msx": 2.63,
+        "ms2": 2.87,
+        "under25": 1.5,
+        "over25": 1.74,
+        "bttsYes_guess": 1.13,
+        "bttsNo_guess": 1.17
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1257,10 +1228,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1269,7 +1242,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-07-01",
@@ -1284,24 +1257,28 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "00986",
       "available_odds": {
-        "ms1": 4.07,
-        "msx": 3.75,
-        "ms2": 1.38,
+        "ms1": 3.76,
+        "msx": 3.57,
+        "ms2": 1.44,
         "over25": null,
         "under25": null,
         "bttsYes": null,
         "bttsNo": null
       },
       "odds": {
-        "ms1": 4.07,
-        "msx": 3.75,
-        "ms2": 1.38,
+        "ms1": 3.76,
+        "msx": 3.57,
+        "ms2": 1.44,
         "over25": null,
         "under25": null,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 4.07,
+        "msx": 3.75,
+        "ms2": 1.38
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1321,7 +1298,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 3
+      "raw_market_value_count": 4
     },
     {
       "date": "2026-07-01",
@@ -1336,180 +1313,30 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "07657",
       "available_odds": {
+        "ms1": 2.09,
+        "msx": 3.29,
+        "ms2": 2.18,
+        "under25": 1.39,
+        "over25": 1.08,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 2.09,
+        "msx": 3.29,
+        "ms2": 2.18,
+        "under25": 1.39,
+        "over25": 1.08,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {
         "ms1": 2.39,
         "msx": 3.4,
         "ms2": 1.9,
-        "over25": null,
-        "under25": null,
-        "bttsYes": null,
-        "bttsNo": null
+        "under25": 1.39,
+        "over25": 1.08
       },
-      "odds": {
-        "ms1": 2.39,
-        "msx": 3.4,
-        "ms2": 1.9,
-        "over25": null,
-        "under25": null,
-        "bttsYes": null,
-        "bttsNo": null
-      },
-      "raw_market_guess_odds": {},
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "bttsYes",
-        "bttsNo"
-      ],
-      "wide_market_odds_count": 3,
-      "suggested_option": "",
-      "suggested_odds": "",
-      "analysis_score": null,
-      "confidence": "",
-      "risk_level": "",
-      "decision": "Analiz bekleniyor",
-      "robot_reason": "",
-      "include_in_coupon": false,
-      "raw_market_value_count": 3
-    },
-    {
-      "date": "2026-07-01",
-      "time": "02:00",
-      "league": "ABD USL Lig 2 Merkez Konferansı",
-      "home": "Kalamazoo Fc",
-      "away": "Oakland County",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "07141",
-      "available_odds": {
-        "ms1": 3.11,
-        "msx": 3.47,
-        "ms2": 1.58,
-        "over25": null,
-        "under25": null,
-        "bttsYes": null,
-        "bttsNo": null
-      },
-      "odds": {
-        "ms1": 3.11,
-        "msx": 3.47,
-        "ms2": 1.58,
-        "over25": null,
-        "under25": null,
-        "bttsYes": null,
-        "bttsNo": null
-      },
-      "raw_market_guess_odds": {},
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "bttsYes",
-        "bttsNo"
-      ],
-      "wide_market_odds_count": 3,
-      "suggested_option": "",
-      "suggested_odds": "",
-      "analysis_score": null,
-      "confidence": "",
-      "risk_level": "",
-      "decision": "Analiz bekleniyor",
-      "robot_reason": "",
-      "include_in_coupon": false,
-      "raw_market_value_count": 3
-    },
-    {
-      "date": "2026-07-01",
-      "time": "02:30",
-      "league": "ABD USL Lig 2 Chesapeake Grubu",
-      "home": "Virginia Marau",
-      "away": "Annapolis Blues",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "10048",
-      "available_odds": {
-        "ms1": 9.45,
-        "msx": 6.41,
-        "ms2": null,
-        "over25": null,
-        "under25": null,
-        "bttsYes": null,
-        "bttsNo": null
-      },
-      "odds": {
-        "ms1": 9.45,
-        "msx": 6.41,
-        "ms2": null,
-        "over25": null,
-        "under25": null,
-        "bttsYes": null,
-        "bttsNo": null
-      },
-      "raw_market_guess_odds": {},
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "bttsYes",
-        "bttsNo"
-      ],
-      "wide_market_odds_count": 2,
-      "suggested_option": "",
-      "suggested_odds": "",
-      "analysis_score": null,
-      "confidence": "",
-      "risk_level": "",
-      "decision": "Analiz bekleniyor",
-      "robot_reason": "",
-      "include_in_coupon": false,
-      "raw_market_value_count": 2
-    },
-    {
-      "date": "2026-07-01",
-      "time": "03:30",
-      "league": "Şili Kupa Grup B",
-      "home": "Univ. Catolica",
-      "away": "Everton De Vina",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "04595",
-      "available_odds": {
-        "ms1": 1.33,
-        "msx": 3.74,
-        "ms2": 4.59,
-        "under25": 2.03,
-        "over25": 1.34,
-        "bttsYes": null,
-        "bttsNo": null
-      },
-      "odds": {
-        "ms1": 1.33,
-        "msx": 3.74,
-        "ms2": 4.59,
-        "under25": 2.03,
-        "over25": 1.34,
-        "bttsYes": null,
-        "bttsNo": null
-      },
-      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1529,7 +1356,184 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
+    },
+    {
+      "date": "2026-07-01",
+      "time": "02:00",
+      "league": "ABD USL Lig 2 Merkez Konferansı",
+      "home": "Kalamazoo Fc",
+      "away": "Oakland County",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "07141",
+      "available_odds": {
+        "ms1": 2.89,
+        "msx": 3.44,
+        "ms2": 1.66,
+        "under25": 1.59,
+        "over25": 1.07,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 2.89,
+        "msx": 3.44,
+        "ms2": 1.66,
+        "under25": 1.59,
+        "over25": 1.07,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {
+        "ms1": 3.11,
+        "msx": 3.47,
+        "ms2": 1.58,
+        "under25": 1.59,
+        "over25": 1.07
+      },
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 5,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
+      "raw_market_value_count": 6
+    },
+    {
+      "date": "2026-07-01",
+      "time": "02:30",
+      "league": "ABD USL Lig 2 Chesapeake Grubu",
+      "home": "Virginia Marau",
+      "away": "Annapolis Blues",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "10048",
+      "available_odds": {
+        "ms1": 15,
+        "msx": 7.95,
+        "bttsYes_guess": 9.45,
+        "bttsNo_guess": 6.41,
+        "ms2": null,
+        "over25": null,
+        "under25": null,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 15,
+        "msx": 7.95,
+        "bttsYes_guess": 9.45,
+        "bttsNo_guess": 6.41,
+        "ms2": null,
+        "over25": null,
+        "under25": null,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {
+        "bttsYes_guess": 9.45,
+        "bttsNo_guess": 6.41
+      },
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "bttsYes_guess",
+        "bttsNo_guess",
+        "ms2",
+        "over25",
+        "under25",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 4,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
+      "raw_market_value_count": 3
+    },
+    {
+      "date": "2026-07-01",
+      "time": "03:30",
+      "league": "Şili Kupa Grup B",
+      "home": "Univ. Catolica",
+      "away": "Everton De Vina",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "04595",
+      "available_odds": {
+        "ms1": 1.29,
+        "msx": 3.96,
+        "ms2": 4.75,
+        "under25": 2.03,
+        "over25": 1.34,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 1.29,
+        "msx": 3.96,
+        "ms2": 4.75,
+        "under25": 2.03,
+        "over25": 1.34,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.33,
+        "msx": 3.74,
+        "ms2": 4.59,
+        "under25": 2.03,
+        "over25": 1.34
+      },
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 5,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-07-01",
@@ -1547,8 +1551,10 @@
         "ms1": 1.98,
         "msx": 2.57,
         "ms2": 3.37,
-        "under25": 1.22,
-        "over25": 2.65,
+        "under25": 1.24,
+        "over25": 2.59,
+        "bttsYes_guess": 1.12,
+        "bttsNo_guess": 1.25,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1556,12 +1562,22 @@
         "ms1": 1.98,
         "msx": 2.57,
         "ms2": 3.37,
-        "under25": 1.22,
-        "over25": 2.65,
+        "under25": 1.24,
+        "over25": 2.59,
+        "bttsYes_guess": 1.12,
+        "bttsNo_guess": 1.25,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.98,
+        "msx": 2.57,
+        "ms2": 3.37,
+        "under25": 1.22,
+        "over25": 2.65,
+        "bttsYes_guess": 1.12,
+        "bttsNo_guess": 1.25
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1569,10 +1585,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1581,7 +1599,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-07-01",
@@ -1597,8 +1615,8 @@
       "matchCode": "07696",
       "available_odds": {
         "ms1": 1.11,
-        "msx": 5.35,
-        "ms2": 6.52,
+        "msx": 6.24,
+        "ms2": 8.45,
         "over25": null,
         "under25": null,
         "bttsYes": null,
@@ -1606,14 +1624,18 @@
       },
       "odds": {
         "ms1": 1.11,
-        "msx": 5.35,
-        "ms2": 6.52,
+        "msx": 6.24,
+        "ms2": 8.45,
         "over25": null,
         "under25": null,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.11,
+        "msx": 5.35,
+        "ms2": 6.52
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1633,7 +1655,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 3
+      "raw_market_value_count": 4
     }
   ]
 }
