@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-06-29T19:42:54+03:00
+Güncelleme: 2026-06-30T15:00:25+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 45
+- Toplam tahmin kaydı: 17
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -14,14 +14,10 @@ Güncelleme: 2026-06-29T19:42:54+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 16 | 0 | 0 | 16 | %0 | 0 |
+| Değerli market yok | 17 | 0 | 0 | 17 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 4 | 0 | 0 | 4 | %0 | 3.04 |
-| MS 2 | 14 | 0 | 0 | 14 | %0 | 4.05 |
-| MS X | 10 | 0 | 0 | 10 | %0 | 3.7 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -31,56 +27,49 @@ Güncelleme: 2026-06-29T19:42:54+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 2 | 0 | 0 | 2 | %0 | 2.96 |
-| 3.00-4.99 | 22 | 0 | 0 | 22 | %0 | 3.53 |
-| 5.00+ | 4 | 0 | 0 | 4 | %0 | 5.56 |
+| 2.00-2.99 | 0 | 0 | 0 | 0 | %0 | 0 |
+| 3.00-4.99 | 0 | 0 | 0 | 0 | %0 | 0 |
+| 5.00+ | 0 | 0 | 0 | 0 | %0 | 0 |
 | bilinmiyor | 17 | 0 | 0 | 17 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Avrupa U19 Şampiyonası Grup B | 5 | 0 | 0 | 5 | %0 | 3.99 |
-| Dünya Kupası 2026 Son 32 Turu | 4 | 0 | 0 | 4 | %0 | 4.38 |
-| Faroe Adaları Master Lig | 6 | 0 | 0 | 6 | %0 | 3.44 |
-| Finlandiya Ykkönen | 2 | 0 | 0 | 2 | %0 | 5.78 |
-| Hazırlık Kulüpler | 2 | 0 | 0 | 2 | %0 | 3.79 |
-| Kuveyt Premier Lig Şampiyonluk Grubu | 12 | 0 | 0 | 12 | %0 | 3.67 |
-| Letonya Virsliga | 4 | 0 | 0 | 4 | %0 | 3.01 |
-| Litvanya A Ligi | 4 | 0 | 0 | 4 | %0 | 3.02 |
-| Lübnan Premier Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| İzlanda 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| İzlanda Urvalsdeild | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avrupa U19 Şampiyonası Kadınlar Grup A | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya NPL Yeni Güney Galler | 1 | 0 | 0 | 1 | %0 | 0 |
+| Dünya Kupası 2026 Son 32 Turu | 2 | 0 | 0 | 2 | %0 | 0 |
+| Finlandiya Suomen Kupası Yarı Final | 1 | 0 | 0 | 1 | %0 | 0 |
+| Hazırlık Kulüpler | 6 | 0 | 0 | 6 | %0 | 0 |
+| Letonya Virsliga | 2 | 0 | 0 | 2 | %0 | 0 |
+| Tanzanya Kuu Bara Ligi | 2 | 0 | 0 | 2 | %0 | 0 |
+| Şili Kupa Grup E | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Afturelding VS Aegir | 2 | 0 | 0 | 2 | %0 | 0 |
-| Akranes VS Fram | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Arabi VS Al Fahaheel | 4 | 0 | 0 | 4 | %0 | 5.34 |
-| Al Qadsia VS Al-Kuwait | 4 | 0 | 0 | 4 | %0 | 3.01 |
-| Almanya VS Paraguay | 2 | 0 | 0 | 2 | %0 | 0 |
-| Auda VS Riga Fc | 2 | 0 | 0 | 2 | %0 | 0 |
-| B68 Toftir VS Ab Argir | 2 | 0 | 0 | 2 | %0 | 3.11 |
-| Brezilya VS Japonya | 2 | 0 | 0 | 2 | %0 | 4.38 |
-| Fa Siauliai VS Transinvest Vil | 2 | 0 | 0 | 2 | %0 | 3.02 |
-| Fk Panevezys VS Suduva | 2 | 0 | 0 | 2 | %0 | 0 |
-| Fs Jelgava VS Grobina | 2 | 0 | 0 | 2 | %0 | 3.01 |
-| Hb Torshavn VS Skala | 2 | 0 | 0 | 2 | %0 | 4.1 |
+| Alloa VS Livingston | 1 | 0 | 0 | 1 | %0 | 0 |
+| Azam Fc VS Dodoma Jiji | 1 | 0 | 0 | 1 | %0 | 0 |
+| Bosna-Hersek U VS İsveç U19 (K) | 1 | 0 | 0 | 1 | %0 | 0 |
+| Brno VS Nyiregyhaza | 1 | 0 | 0 | 1 | %0 | 0 |
+| Daugava Riga VS Bfc Daugavpils | 1 | 0 | 0 | 1 | %0 | 0 |
+| Fildişi Sahili VS Norveç | 1 | 0 | 0 | 1 | %0 | 0 |
+| Hollanda VS Fas | 1 | 0 | 0 | 1 | %0 | 0 |
+| Jkt Tanzania VS Young Africans | 1 | 0 | 0 | 1 | %0 | 0 |
+| Liepaja VS Ogre United | 1 | 0 | 0 | 1 | %0 | 0 |
+| Polonya U19 (K VS Almanya U19 (K) | 1 | 0 | 0 | 1 | %0 | 0 |
+| Queens Park VS Clyde | 1 | 0 | 0 | 1 | %0 | 0 |
+| Sd Raiders VS Sydney Ii | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
-| - | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 2.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
