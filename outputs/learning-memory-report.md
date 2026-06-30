@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.06.2026 22:21:27
+Oluşturma: 01.07.2026 00:56:43
 
 ## Özet
 
-- Toplam tahmin: 60
-- Bekleyen tahmin: 60
+- Toplam tahmin: 63
+- Bekleyen tahmin: 63
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 26
+- Lig sayısı: 27
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,15 @@ Oluşturma: 30.06.2026 22:21:27
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
+- MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-01 | Brezilya Serie B | Botafogo Ribei - Regatas | MS 2 | pending | 40/100
+- 2026-07-01 | Dünya Kupası 2026 Son 32 Turu | Fransa - İsveç | MS X | pending | 40/100
+- 2026-07-01 | Şili Kupa Grup G | Audax Italiano - Palestino | MS X | pending | 50/100
 - 2026-06-30 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Sydney Ii | MS X | pending | 50/100
 - 2026-06-30 | Hazırlık Kulüpler | Sezimivo Usti - Amstetten | MS X | pending | 50/100
 - 2026-06-30 | Dünya Kupası 2026 Son 32 Turu | Fildişi Sahili - Norveç | MS 1 | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 30.06.2026 22:21:27
 - 2026-06-29 | Kuveyt Premier Lig Şampiyonluk Grubu | Al Qadsia - Al-Kuwait | MS 1 | pending | 50/100
 - 2026-06-29 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19) | MS X | pending | 40/100
 - 2026-06-29 | Lübnan Premier Lig | Hikma - Tadamon Tyre | MS 2 | pending | 50/100
-- 2026-06-29 | Avrupa U19 Şampiyonası Grup B | İtalya U19 - Sirbistan (U19) | MS 2 | pending | 40/100
-- 2026-06-29 | Letonya Virsliga | Fs Jelgava - Grobina | MS 2 | pending | 40/100
-- 2026-06-29 | Litvanya A Ligi | Fa Siauliai - Transinvest Vil | MS 1 | pending | 50/100
 

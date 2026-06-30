@@ -1,28 +1,38 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-30T19:21:28.025Z",
+  "updated_at": "2026-06-30T21:56:44.150Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 60,
-    "pending_predictions": 60,
+    "total_predictions": 63,
+    "pending_predictions": 63,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 26,
+    "league_count": 27,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 3,
     "updated_predictions": 0,
-    "last_score_link_checked": 60,
+    "last_score_link_checked": 63,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
+    "MS 2": {
+      "total": 26,
+      "pending": 26,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS X": {
-      "total": 29,
-      "pending": 29,
+      "total": 31,
+      "pending": 31,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -39,19 +49,39 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS 2": {
-      "total": 25,
-      "pending": 25,
+    }
+  },
+  "league_memory": {
+    "Brezilya Serie B": {
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
+    },
+    "Dünya Kupası 2026 Son 32 Turu": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup G": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Avustralya NPL Yeni Güney Galler": {
       "total": 1,
       "pending": 1,
@@ -65,16 +95,6 @@
     "Hazırlık Kulüpler": {
       "total": 5,
       "pending": 5,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Dünya Kupası 2026 Son 32 Turu": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -173,16 +193,6 @@
       "confidence_adjustment": 0
     },
     "Şili Kupa Grup F": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie B": {
       "total": 2,
       "pending": 2,
       "won": 0,
@@ -314,6 +324,36 @@
     }
   },
   "league_market_memory": {
+    "Brezilya Serie B :: MS 2": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Dünya Kupası 2026 Son 32 Turu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup G :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Avustralya NPL Yeni Güney Galler :: MS X": {
       "total": 1,
       "pending": 1,
@@ -495,16 +535,6 @@
       "confidence_adjustment": 0
     },
     "Şili Kupa Grup F :: MS X": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie B :: MS 2": {
       "total": 2,
       "pending": 2,
       "won": 0,
@@ -736,6 +766,57 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-01|brezilya serie b|botafogo ribei regatas|ms 2|02 00",
+      "date": "2026-07-01",
+      "created_at": "2026-06-30T21:56:43.681Z",
+      "match_name": "Botafogo Ribei - Regatas",
+      "league": "Brezilya Serie B",
+      "start_time": "02:00",
+      "market": "MS 2",
+      "odds": "2.87",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-01|dunya kupasi 2026 son 32 turu|fransa isvec|ms x|00 00",
+      "date": "2026-07-01",
+      "created_at": "2026-06-30T21:56:43.680Z",
+      "match_name": "Fransa - İsveç",
+      "league": "Dünya Kupası 2026 Son 32 Turu",
+      "start_time": "00:00",
+      "market": "MS X",
+      "odds": "5.43",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-01|sili kupa grup g|audax italiano palestino|ms x|01 00",
+      "date": "2026-07-01",
+      "created_at": "2026-06-30T21:56:43.680Z",
+      "match_name": "Audax Italiano - Palestino",
+      "league": "Şili Kupa Grup G",
+      "start_time": "01:00",
+      "market": "MS X",
+      "odds": "2.88",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-06-30|avustralya npl yeni guney galler|sd raiders sydney ii|ms x|13 00",
       "date": "2026-06-30",
