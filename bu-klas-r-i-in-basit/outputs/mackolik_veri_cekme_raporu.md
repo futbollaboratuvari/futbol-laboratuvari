@@ -1,21 +1,49 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-30T17:11:02.810741+00:00
+Tarih: 2026-06-30T22:03:07.986849+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 4
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 4
-- Ham veri havuzu toplam mac sayisi: 803
-- Hedef tarih: 30.06.2026 Europe/Istanbul
+- Kac mac bulundu: 52
+- Kac mac kaydedildi: 52
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 855
+- Hedef tarih: 01.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avrupa U19 Şampiyonası Kadınlar Grup A
+- ABD USL Lig 1
+- ABD USL Lig 2 Chesapeake Grubu
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güney Konferansı
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Lone Star Grubu
+- ABD USL Lig 2 Metropolitan Grubu
+- ABD USL Lig 2 NorCal Grubu
+- ABD USL Lig 2 Orta Atlantik Grubu
+- Avrupa U19 Şampiyonası Grup A
+- Avrupa U19 Şampiyonası Kadınlar Grup B
+- Avustralya NPL Kuzey YGG
+- Belarus Premier Lig
+- Dünya Kupası 2026 Son 32 Turu
+- Ekvador Pro Lig
+- Finlandiya Suomen Kupası Yarı Final
+- Gürcistan Süper Kupa 3.lük
+- Gürcistan Süper Kupa Final
 - Hazırlık Kulüpler
+- Kanada Premier Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- İsveç 2.Lig Norra Götaland
+- İzlanda 2.Lig
+- Şili Kupa Grup A
+- Şili Kupa Grup C
+- Şili Kupa Grup D
+- Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
 
@@ -72,8 +100,8 @@ Tarih: 2026-06-30T17:11:02.810741+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 11
-- Acilan detay: 11
+- Denenen Tumu alani: 33
+- Acilan detay: 33
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -86,10 +114,26 @@ Tarih: 2026-06-30T17:11:02.810741+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.06.2026 | 21:45 | Hazırlık Kulüpler | Queens Park | Clyde | 10669 | 5 |
-| 30.06.2026 | 21:30 | Hazırlık Kulüpler | Alloa | Livingston | 03691 | 5 |
-| 30.06.2026 | 22:00 | Hazırlık Kulüpler | Shamrock Rover | Hibernian | 02557 | 5 |
-| 30.06.2026 | 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Polonya U19 (K | Almanya U19 (K) | 07063 | 5 |
+| 01.07.2026 | 23:00 | Dünya Kupası 2026 Son 32 Turu | Belçika | Senegal | 00397 | 5 |
+| 01.07.2026 | 19:00 | Dünya Kupası 2026 Son 32 Turu | İngiltere | Demokratik Kong | 03091 | 5 |
+| 02.07.2026 | 03:00 | Dünya Kupası 2026 Son 32 Turu | Abd | Bosna Hersek | 20148 | 5 |
+| 01.07.2026 | 20:00 | Avrupa U19 Şampiyonası Grup A | Danimarka U19 | İspanya (U19) | 12406 | 5 |
+| 01.07.2026 | 22:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 | Almanya U19 | 12466 | 4 |
+| 01.07.2026 | 19:00 | Gürcistan Süper Kupa Final | Fc Iberia | Torpedo Kutaisi | 07051 | 5 |
+| 01.07.2026 | 19:00 | Gürcistan Süper Kupa 3.lük | Dila Gori | Dinamo Tiflis | 07050 | 5 |
+| 01.07.2026 | 19:00 | Finlandiya Suomen Kupası Yarı Final | Helsinki | Ilves | 04716 | 5 |
+| 01.07.2026 | 18:00 | Hazırlık Kulüpler | Paok | Waasland Bevere | 12706 | 3 |
+| 01.07.2026 | 18:00 | Hazırlık Kulüpler | Helmond Sport | Panathinaikos | 05516 | 3 |
+| 01.07.2026 | 19:00 | Hazırlık Kulüpler | Sc Weiz | Hartberg | 00958 | 2 |
+| 01.07.2026 | 15:00 | Hazırlık Kulüpler | Avusturya Lust | Young Boys | 07340 | 5 |
+| 01.07.2026 | 18:30 | Hazırlık Kulüpler | Ferencvaros | Qarabagh | 02986 | 5 |
+| 01.07.2026 | 18:00 | Hazırlık Kulüpler | Sigma Olomouc | Skalica | 07415 | 5 |
+| 01.07.2026 | 20:30 | Belarus Premier Lig | Slavia Mozyr | Ml Vitebsk | 06787 | 5 |
+| 01.07.2026 | 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İspanya U19 (K | İzlanda U19 (K) | 06317 | 2 |
+| 01.07.2026 | 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 | İsviçre U19 (K) | 04609 | 5 |
+| 02.07.2026 | 01:00 | Şili Kupa Grup A | Deportes Limac | Coquimbo Unido | 06207 | 5 |
+| 02.07.2026 | 01:00 | Şili Kupa Grup C | Cobresal | La Serena | 06226 | 5 |
+| 02.07.2026 | 03:30 | Şili Kupa Grup D | Univ. De Şili | Union La Calera | 01017 | 5 |
 
 ## Sonuc
 
