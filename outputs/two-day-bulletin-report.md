@@ -2,16 +2,15 @@
 
 Gunler: 2026-06-30 / 2026-07-01
 Kaynak: fixtures.json
-Ham mac: 27
-Aktif mac: 25
+Ham mac: 25
+Aktif mac: 24
 Canli mac: 0
-Biten mac: 2
-Bultenden dusurulen mac: 2
-Bugun: 15
+Biten mac: 1
+Bultenden dusurulen mac: 1
+Bugun: 14
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-06-30 13:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Sydney Ii | scheduled | -
 - 2026-06-30 16:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Dodoma Jiji | scheduled | -
 - 2026-06-30 16:00 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Young Africans | scheduled | -
 - 2026-06-30 18:00 | Finlandiya Suomen Kupası Yarı Final | Vaasa - Inter Turku | scheduled | -
@@ -41,5 +40,4 @@ Yarin: 10
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-06-30 02:30 | Şili Kupa Grup E | Union Espanola - Colo Colo | finished | -
-- 2026-06-30 04:00 | Dünya Kupası 2026 Son 32 Turu | Hollanda - Fas | finished | -
+- 2026-06-30 13:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Sydney Ii | finished | -

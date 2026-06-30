@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-30T08:48:34.566Z
+- Güncelleme: 2026-06-30T12:30:26.924Z
 - Ham maç sayısı: 25
 - Yarın bülteni maç sayısı: 10
 - Detay blok sayısı: 64
-- Aktif bülten maçı: 25
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 24
+- Bültenden düşürülen maç: 1
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sd Raiders - Sydney Ii | Avustralya NPL Yeni Güney Galler | 13:00 | Veri bekleniyor | - | 2.17 | 8 |
 | Azam Fc - Dodoma Jiji | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 1.22 | 4 |
 | Jkt Tanzania - Young Africans | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 9.32 | 6 |
 | Vaasa - Inter Turku | Finlandiya Suomen Kupası Yarı Final | 18:00 | Veri bekleniyor | - | 3.1 | 8 |
