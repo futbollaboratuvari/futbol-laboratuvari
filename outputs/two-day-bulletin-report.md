@@ -3,18 +3,14 @@
 Gunler: 2026-06-30 / 2026-07-01
 Kaynak: fixtures.json
 Ham mac: 17
-Aktif mac: 14
-Canli mac: 3
+Aktif mac: 10
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 4
+Bultenden dusurulen mac: 7
+Bugun: 0
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-06-30 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Polonya U19 (K - Almanya U19 (K) | scheduled | -
-- 2026-06-30 21:30 | Hazırlık Kulüpler | Alloa - Livingston | scheduled | -
-- 2026-06-30 21:45 | Hazırlık Kulüpler | Queens Park - Clyde | scheduled | -
-- 2026-06-30 22:00 | Hazırlık Kulüpler | Shamrock Rover - Hibernian | scheduled | -
 - 2026-07-01 00:00 | Dünya Kupası 2026 Son 32 Turu | Fransa - İsveç | scheduled | -
 - 2026-07-01 01:00 | Şili Kupa Grup G | Audax Italiano - Palestino | scheduled | -
 - 2026-07-01 02:00 | Brezilya Serie B | Botafogo Ribei - Regatas | scheduled | -
@@ -30,6 +26,10 @@ Yarin: 10
 - 2026-06-30 19:00 | Letonya Virsliga | Liepaja - Ogre United | live | -
 - 2026-06-30 19:00 | Hazırlık Kulüpler | Sturm Graz - Lnz Cherkasy | live | -
 - 2026-06-30 20:00 | Dünya Kupası 2026 Son 32 Turu | Fildişi Sahili - Norveç | live | -
+- 2026-06-30 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Polonya U19 (K - Almanya U19 (K) | live | -
+- 2026-06-30 21:30 | Hazırlık Kulüpler | Alloa - Livingston | live | -
+- 2026-06-30 21:45 | Hazırlık Kulüpler | Queens Park - Clyde | live | -
+- 2026-06-30 22:00 | Hazırlık Kulüpler | Shamrock Rover - Hibernian | live | -
 
 ## Biten Maclar
 Biten mac yok.
