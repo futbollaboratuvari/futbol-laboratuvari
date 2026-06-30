@@ -1,30 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-06-30T16:38:44.856201+00:00
+Tarih: 2026-06-30T17:11:02.810741+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 15
+- Kac mac bulundu: 4
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 15
+- Kac mac zaten vardi: 4
 - Ham veri havuzu toplam mac sayisi: 803
 - Hedef tarih: 30.06.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Güney Atlantik Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
 - Avrupa U19 Şampiyonası Kadınlar Grup A
-- Brezilya Serie B
-- Dünya Kupası 2026 Son 32 Turu
 - Hazırlık Kulüpler
-- Şili Kupa Grup B
-- Şili Kupa Grup G
 
 ## Okunabilen Oran Alanlari
 
@@ -81,8 +72,8 @@ Tarih: 2026-06-30T16:38:44.856201+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 12
-- Acilan detay: 12
+- Denenen Tumu alani: 11
+- Acilan detay: 11
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -95,21 +86,10 @@ Tarih: 2026-06-30T16:38:44.856201+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.06.2026 | 20:00 | Dünya Kupası 2026 Son 32 Turu | Fildişi Sahili | Norveç | 04777 | 5 |
-| 01.07.2026 | 00:00 | Dünya Kupası 2026 Son 32 Turu | Fransa | İsveç | 05121 | 5 |
-| 01.07.2026 | 04:00 | Dünya Kupası 2026 Son 32 Turu | Meksika | Ekvador | 00495 | 5 |
-| 30.06.2026 | 21:30 | Hazırlık Kulüpler | Alloa | Livingston | 03691 | 5 |
 | 30.06.2026 | 21:45 | Hazırlık Kulüpler | Queens Park | Clyde | 10669 | 5 |
+| 30.06.2026 | 21:30 | Hazırlık Kulüpler | Alloa | Livingston | 03691 | 5 |
 | 30.06.2026 | 22:00 | Hazırlık Kulüpler | Shamrock Rover | Hibernian | 02557 | 5 |
 | 30.06.2026 | 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Polonya U19 (K | Almanya U19 (K) | 07063 | 5 |
-| 01.07.2026 | 03:30 | Şili Kupa Grup B | Univ. Catolica | Everton De Vina | 04595 | 5 |
-| 01.07.2026 | 01:00 | Şili Kupa Grup G | Audax Italiano | Palestino | 04208 | 5 |
-| 01.07.2026 | 02:00 | Brezilya Serie B | Botafogo Ribei | Regatas | 04271 | 5 |
-| 01.07.2026 | 02:30 | ABD USL Lig 2 Chesapeake Grubu | Virginia Marau | Annapolis Blues | 10048 | 2 |
-| 01.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston | Western Mass P. | 00986 | 3 |
-| 01.07.2026 | 04:00 | ABD USL Lig 2 Kuzeybatı Grubu | Snohomish Unit | Tacoma Stars | 07696 | 2 |
-| 01.07.2026 | 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Charlotte Eagl | Hickory | 07657 | 3 |
-| 01.07.2026 | 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc | Oakland County | 07141 | 3 |
 
 ## Sonuc
 
