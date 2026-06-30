@@ -1,31 +1,39 @@
 {
-  "generated_at": "2026-06-29T20:59:12.828Z",
+  "generated_at": "2026-06-30T08:45:31.034Z",
+  "timezone": "Europe/Istanbul",
+  "source": "son saglam two-day-bulletin yedegi",
+  "warning": "Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.",
   "days": [
-    "2026-06-29",
-    "2026-06-30"
+    "2026-06-30",
+    "2026-07-01"
   ],
-  "total_source_matches": 38,
-  "total_matches": 2,
-  "active_match_count": 2,
-  "removed_finished_count": 36,
+  "total_source_matches": 2,
+  "total_matches": 0,
+  "active_match_count": 0,
+  "live_match_count": 0,
+  "finished_match_count": 2,
+  "removed_finished_count": 2,
   "removed_statuses": [
+    "live",
     "finished",
     "cancelled",
     "postponed"
   ],
   "by_day": {
-    "2026-06-29": 0,
-    "2026-06-30": 2
+    "2026-06-30": 0,
+    "2026-07-01": 0
   },
-  "matches": [
+  "matches": [],
+  "live_matches": [],
+  "finished_matches": [
     {
       "date": "2026-06-30",
       "time": "02:30",
       "league": "Şili Kupa Grup E",
       "home": "Union Espanola",
       "away": "Colo Colo",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
+      "status": "finished",
+      "liveStatus": "finished",
       "minute": null,
       "homeScore": null,
       "awayScore": null,
@@ -666,7 +674,8 @@
         "bttsPercent": null,
         "over25Percent": null,
         "over35Percent": null
-      }
+      },
+      "flow_status": "finished"
     },
     {
       "date": "2026-06-30",
@@ -674,8 +683,8 @@
       "league": "Dünya Kupası 2026 Son 32 Turu",
       "home": "Hollanda",
       "away": "Fas",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
+      "status": "finished",
+      "liveStatus": "finished",
       "minute": null,
       "homeScore": null,
       "awayScore": null,
@@ -1179,7 +1188,8 @@
         "bttsPercent": null,
         "over25Percent": null,
         "over35Percent": null
-      }
+      },
+      "flow_status": "finished"
     }
   ]
 }
