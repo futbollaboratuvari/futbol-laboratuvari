@@ -2,17 +2,17 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-30T17:10:49.389Z
-- Ham maç sayısı: 24
+- Güncelleme: 2026-06-30T17:12:09.988Z
+- Ham maç sayısı: 17
 - Yarın bülteni maç sayısı: 10
-- Detay blok sayısı: 61
+- Detay blok sayısı: 44
 - Aktif bülten maçı: 14
-- Bültenden düşürülen maç: 10
+- Bültenden düşürülen maç: 3
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Polonya U19 (K - Almanya U19 (K) | Avrupa U19 Şampiyonası Kadınlar Grup A | 21:00 | Veri bekleniyor | - | 4.34 | 6 |
+| Polonya U19 (K - Almanya U19 (K) | Avrupa U19 Şampiyonası Kadınlar Grup A | 21:00 | Veri bekleniyor | - | 4.55 | 6 |
 | Alloa - Livingston | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.52 | 6 |
 | Queens Park - Clyde | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.34 | 6 |
 | Shamrock Rover - Hibernian | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 1.95 | 8 |
