@@ -118,7 +118,7 @@
   };
 
   const optionHtml = (matches) => matches.length
-    ? matches.map((match, index) => `<option value="${index}">${esc(optionText(match))}</option>`).join("")
+    ? matches.map((match) => `<option value="${cachedMatches.indexOf(match)}">${esc(optionText(match))}</option>`).join("")
     : `<option value="">Futbol Bülteni içinde başlamamış maç bulunamadı</option>`;
 
   const pickOdd = (match, market) => {
