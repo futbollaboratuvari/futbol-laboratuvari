@@ -1,21 +1,45 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-06-27T20:42:19.125Z",
-  "updated_at": "2026-06-30T08:48:56.508Z",
+  "updated_at": "2026-06-30T12:54:27.262Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 56,
-    "pending_predictions": 56,
+    "total_predictions": 60,
+    "pending_predictions": 60,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 25,
+    "league_count": 26,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 4,
+    "updated_predictions": 0,
+    "last_score_link_checked": 60,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
+    "MS X": {
+      "total": 29,
+      "pending": 29,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 1": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS 2": {
       "total": 25,
       "pending": 25,
@@ -25,10 +49,12 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS X": {
-      "total": 26,
-      "pending": 26,
+    }
+  },
+  "league_memory": {
+    "Avustralya NPL Yeni Güney Galler": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -36,7 +62,7 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 1": {
+    "Hazırlık Kulüpler": {
       "total": 5,
       "pending": 5,
       "won": 0,
@@ -45,12 +71,10 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
+    },
     "Dünya Kupası 2026 Son 32 Turu": {
-      "total": 2,
-      "pending": 2,
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -61,16 +85,6 @@
     "Kuveyt Premier Lig Şampiyonluk Grubu": {
       "total": 5,
       "pending": 5,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -300,6 +314,36 @@
     }
   },
   "league_market_memory": {
+    "Avustralya NPL Yeni Güney Galler :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Dünya Kupası 2026 Son 32 Turu :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Dünya Kupası 2026 Son 32 Turu :: MS 2": {
       "total": 2,
       "pending": 2,
@@ -620,16 +664,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "İsveç Superettan :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -702,6 +736,74 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-06-30|avustralya npl yeni guney galler|sd raiders sydney ii|ms x|13 00",
+      "date": "2026-06-30",
+      "created_at": "2026-06-30T12:54:27.008Z",
+      "match_name": "Sd Raiders - Sydney Ii",
+      "league": "Avustralya NPL Yeni Güney Galler",
+      "start_time": "13:00",
+      "market": "MS X",
+      "odds": "3.04",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-06-30|hazirlik kulupler|sezimivo usti amstetten|ms x|18 00",
+      "date": "2026-06-30",
+      "created_at": "2026-06-30T12:54:27.008Z",
+      "match_name": "Sezimivo Usti - Amstetten",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "18:00",
+      "market": "MS X",
+      "odds": "3.15",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-06-30|dunya kupasi 2026 son 32 turu|fildisi sahili norvec|ms 1|20 00",
+      "date": "2026-06-30",
+      "created_at": "2026-06-30T12:54:27.008Z",
+      "match_name": "Fildişi Sahili - Norveç",
+      "league": "Dünya Kupası 2026 Son 32 Turu",
+      "start_time": "20:00",
+      "market": "MS 1",
+      "odds": "3.08",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-06-30|hazirlik kulupler|shamrock rover hibernian|ms x|22 00",
+      "date": "2026-06-30",
+      "created_at": "2026-06-30T12:54:27.008Z",
+      "match_name": "Shamrock Rover - Hibernian",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "3.04",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-06-30|dunya kupasi 2026 son 32 turu|hollanda fas|ms 2|04 00",
       "date": "2026-06-30",
