@@ -2,24 +2,15 @@
 
 Gunler: 2026-06-30 / 2026-07-01
 Kaynak: fixtures.json
-Ham mac: 25
-Aktif mac: 24
-Canli mac: 0
-Biten mac: 1
-Bultenden dusurulen mac: 1
-Bugun: 14
+Ham mac: 24
+Aktif mac: 15
+Canli mac: 7
+Biten mac: 2
+Bultenden dusurulen mac: 9
+Bugun: 5
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-06-30 16:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Dodoma Jiji | scheduled | -
-- 2026-06-30 16:00 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Young Africans | scheduled | -
-- 2026-06-30 18:00 | Finlandiya Suomen Kupası Yarı Final | Vaasa - Inter Turku | scheduled | -
-- 2026-06-30 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Bosna-Hersek U - İsveç U19 (K) | scheduled | -
-- 2026-06-30 18:00 | Letonya Virsliga | Daugava Riga - Bfc Daugavpils | scheduled | -
-- 2026-06-30 18:00 | Hazırlık Kulüpler | Sezimivo Usti - Amstetten | scheduled | -
-- 2026-06-30 18:00 | Hazırlık Kulüpler | Brno - Nyiregyhaza | scheduled | -
-- 2026-06-30 19:00 | Letonya Virsliga | Liepaja - Ogre United | scheduled | -
-- 2026-06-30 19:00 | Hazırlık Kulüpler | Sturm Graz - Lnz Cherkasy | scheduled | -
 - 2026-06-30 20:00 | Dünya Kupası 2026 Son 32 Turu | Fildişi Sahili - Norveç | scheduled | -
 - 2026-06-30 21:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Polonya U19 (K - Almanya U19 (K) | scheduled | -
 - 2026-06-30 21:30 | Hazırlık Kulüpler | Alloa - Livingston | scheduled | -
@@ -37,7 +28,14 @@ Yarin: 10
 - 2026-07-01 04:00 | ABD USL Lig 2 Kuzeybatı Grubu | Snohomish Unit - Tacoma Stars | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-06-30 18:00 | Finlandiya Suomen Kupası Yarı Final | Vaasa - Inter Turku | live | -
+- 2026-06-30 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Bosna-Hersek U - İsveç U19 (K) | live | -
+- 2026-06-30 18:00 | Letonya Virsliga | Daugava Riga - Bfc Daugavpils | live | -
+- 2026-06-30 18:00 | Hazırlık Kulüpler | Sezimivo Usti - Amstetten | live | -
+- 2026-06-30 18:00 | Hazırlık Kulüpler | Brno - Nyiregyhaza | live | -
+- 2026-06-30 19:00 | Letonya Virsliga | Liepaja - Ogre United | live | -
+- 2026-06-30 19:00 | Hazırlık Kulüpler | Sturm Graz - Lnz Cherkasy | live | -
 
 ## Biten Maclar
-- 2026-06-30 13:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Sydney Ii | finished | -
+- 2026-06-30 16:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Dodoma Jiji | finished | -
+- 2026-06-30 16:00 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Young Africans | finished | -

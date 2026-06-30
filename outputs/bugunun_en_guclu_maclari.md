@@ -2,25 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-06-30T12:30:26.924Z
-- Ham maç sayısı: 25
+- Güncelleme: 2026-06-30T16:38:19.324Z
+- Ham maç sayısı: 24
 - Yarın bülteni maç sayısı: 10
-- Detay blok sayısı: 64
-- Aktif bülten maçı: 24
-- Bültenden düşürülen maç: 1
+- Detay blok sayısı: 61
+- Aktif bülten maçı: 15
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Azam Fc - Dodoma Jiji | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 1.22 | 4 |
-| Jkt Tanzania - Young Africans | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 9.32 | 6 |
-| Vaasa - Inter Turku | Finlandiya Suomen Kupası Yarı Final | 18:00 | Veri bekleniyor | - | 3.1 | 8 |
-| Bosna-Hersek U - İsveç U19 (K) | Avrupa U19 Şampiyonası Kadınlar Grup A | 18:00 | Veri bekleniyor | - | 17.1 | 3 |
-| Daugava Riga - Bfc Daugavpils | Letonya Virsliga | 18:00 | Veri bekleniyor | - | - | 3 |
-| Sezimivo Usti - Amstetten | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 2.38 | 8 |
-| Brno - Nyiregyhaza | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.83 | 6 |
-| Liepaja - Ogre United | Letonya Virsliga | 19:00 | Veri bekleniyor | - | 1.15 | 4 |
-| Sturm Graz - Lnz Cherkasy | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.33 | 4 |
 | Fildişi Sahili - Norveç | Dünya Kupası 2026 Son 32 Turu | 20:00 | Veri bekleniyor | - | 3.08 | 8 |
 | Polonya U19 (K - Almanya U19 (K) | Avrupa U19 Şampiyonası Kadınlar Grup A | 21:00 | Veri bekleniyor | - | 3.68 | 7 |
 | Alloa - Livingston | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.53 | 6 |
