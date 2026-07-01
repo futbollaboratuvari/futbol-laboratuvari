@@ -3,6 +3,8 @@ const path = require("path");
 
 const root = process.cwd();
 const outDir = path.join(root, "public");
+let copiedFiles = 0;
+let copiedBytes = 0;
 
 const excludedRoots = new Set([
   ".agents",
@@ -14,6 +16,8 @@ const excludedRoots = new Set([
   "api",
   "backend",
   "bu-klas-r-i-in-basit",
+  "content",
+  "futbol_laboratuvari",
   "node_modules",
   "public",
   "scripts",
@@ -33,7 +37,8 @@ const excludedRelativePaths = new Set([
   "data/archive",
   "data/detail-raw-signals.json",
   "data/longterm-match-archive.json",
-  "data/robot_match_archive.json"
+  "data/robot_match_archive.json",
+  "football-lab-hero.png"
 ]);
 
 const excludedExtensions = new Set([
@@ -72,6 +77,8 @@ function copyRecursive(source, target, relativePath) {
 
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.copyFileSync(source, target);
+  copiedFiles += 1;
+  copiedBytes += stat.size;
 }
 
 try {
@@ -87,4 +94,4 @@ for (const entry of fs.readdirSync(root)) {
   copyRecursive(path.join(root, entry), path.join(outDir, entry), entry);
 }
 
-console.log("Vercel public output hazırlandı.");
+console.log(`Vercel public output hazırlandı. Dosya: ${copiedFiles}. Boyut: ${(copiedBytes / 1024 / 1024).toFixed(2)} MB.`);
