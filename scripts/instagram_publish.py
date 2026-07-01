@@ -183,7 +183,7 @@ def normalize_secret_value(value: str) -> str:
         cleaned = cleaned[1:-1].strip()
     if cleaned.lower().startswith("bearer "):
         cleaned = cleaned[7:].strip()
-    return cleaned
+    return "".join(cleaned.split())
 
 
 def print_safe_env_debug() -> None:
