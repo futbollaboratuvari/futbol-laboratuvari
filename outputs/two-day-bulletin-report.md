@@ -3,19 +3,14 @@
 Gunler: 2026-07-02 / 2026-07-03
 Kaynak: fixtures.json
 Ham mac: 62
-Aktif mac: 51
-Canli mac: 11
+Aktif mac: 46
+Canli mac: 16
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 38
+Bultenden dusurulen mac: 16
+Bugun: 33
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-02 02:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Beach - Loudoun United | scheduled | -
-- 2026-07-02 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City - Fort Lauderdale | scheduled | -
-- 2026-07-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Westchester Sc | scheduled | -
-- 2026-07-02 02:30 | ABD USL Lig 2 Chesapeake Grubu | Charlottesvill - Bethesda | scheduled | -
-- 2026-07-02 02:30 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston City - Seacoast United | scheduled | -
 - 2026-07-02 03:00 | Dünya Kupası 2026 Son 32 Turu | Abd - Bosna Hersek | scheduled | -
 - 2026-07-02 03:00 | Ekvador Pro Lig | Delfin - Emelec | scheduled | -
 - 2026-07-02 03:00 | ABD USL Lig 2 Heartland Grubu | Sueno - Rkc | scheduled | -
@@ -75,6 +70,11 @@ Yarin: 13
 - 2026-07-02 01:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Connecticut Ru - Ac Connecticut | live | -
 - 2026-07-02 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Brevard Fire | live | -
 - 2026-07-02 01:30 | ABD USL Lig 2 Heartland Grubu | Minneapolis Ci - St. Croix | live | -
+- 2026-07-02 02:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Beach - Loudoun United | live | -
+- 2026-07-02 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City - Fort Lauderdale | live | -
+- 2026-07-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Westchester Sc | live | -
+- 2026-07-02 02:30 | ABD USL Lig 2 Chesapeake Grubu | Charlottesvill - Bethesda | live | -
+- 2026-07-02 02:30 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston City - Seacoast United | live | -
 
 ## Biten Maclar
 Biten mac yok.
