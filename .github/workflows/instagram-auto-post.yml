@@ -12,9 +12,9 @@ on:
           - "false"
           - "true"
   schedule:
-    - cron: "17 10 * * *"
-    - cron: "17 16 * * *"
-    - cron: "17 21 * * *"
+    - cron: "17 7 * * *"
+    - cron: "17 13 * * *"
+    - cron: "17 18 * * *"
 
 concurrency:
   group: instagram-auto-post
