@@ -2,21 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 57
-- Live match count: 1
+- Scheduled match count: 32
+- Live match count: 0
 - Finished removed count: 0
 
-- 2026-07-01 12:30 | Hamilton Olymp - Charlestow City | live
-- 2026-07-01 15:00 | Avusturya U19 - İsviçre U19 (K) | scheduled
-- 2026-07-01 15:00 | Dire Dawa Kene - Arba Minch | scheduled
-- 2026-07-01 15:00 | Mekelle 70 End - Negele Arsi Ket | scheduled
-- 2026-07-01 15:00 | Avusturya Lust - Young Boys | scheduled
-- 2026-07-01 15:00 | Glentoran - Kilmarnock | scheduled
-- 2026-07-01 18:00 | Houston Fc - Brazos Valley | scheduled
-- 2026-07-01 18:00 | İspanya U19 (K - İzlanda U19 (K) | scheduled
-- 2026-07-01 18:00 | Helmond Sport - Panathinaikos | scheduled
-- 2026-07-01 18:00 | Paok - Waasland Bevere | scheduled
-- 2026-07-01 18:00 | Sigma Olomouc - Skalica | scheduled
-- 2026-07-01 18:00 | Fk Tukums - Super Nova | scheduled
-- 2026-07-01 18:00 | Fa Siauliai Ii - Tauras | scheduled
-- 2026-07-01 18:30 | Ferencvaros - Qarabagh | scheduled
+- 2026-07-01 22:00 | Galler U19 - Almanya U19 | scheduled
+- 2026-07-01 22:00 | Univ De Concep - Atletico Nublen | scheduled
+- 2026-07-01 22:15 | Haukar - Kari | scheduled
+- 2026-07-01 23:00 | Project 51o - San Francisco C | scheduled
+- 2026-07-01 23:00 | Belçika - Senegal | scheduled
+- 2026-07-01 23:00 | Hfx Wanderers - Atletico Ottawa | scheduled
+- 2026-07-02 00:00 | New England - Vermont Green | scheduled
+- 2026-07-02 00:30 | Charlotte Inde - Corpus Christi | scheduled
+- 2026-07-02 01:00 | Weston - Brevard Fire | scheduled
+- 2026-07-02 01:00 | Connecticut Ru - Ac Connecticut | scheduled

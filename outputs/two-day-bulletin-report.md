@@ -4,16 +4,14 @@ Gunler: 2026-07-01 / 2026-07-02
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 68
-Aktif mac: 34
-Canli mac: 16
+Aktif mac: 32
+Canli mac: 18
 Biten mac: 18
-Bultenden dusurulen mac: 34
-Bugun: 8
+Bultenden dusurulen mac: 36
+Bugun: 6
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-01 20:30 | Belarus Premier Lig | Slavia Mozyr - Ml Vitebsk | scheduled | -
-- 2026-07-01 20:30 | İsveç 2.Lig Norra Götaland | Husqvarna - Lidkopings | scheduled | -
 - 2026-07-01 22:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 - Almanya U19 | scheduled | -
 - 2026-07-01 22:00 | Şili Kupa Grup F | Univ De Concep - Atletico Nublen | scheduled | -
 - 2026-07-01 22:15 | İzlanda 2.Lig | Haukar - Kari | scheduled | -
@@ -48,6 +46,8 @@ Yarin: 26
 - 2026-07-02 05:30 | ABD USL Lig 1 | Union Omaha - Alta | scheduled | -
 
 ## Canli Maclar
+- 2026-07-01 20:30 | Belarus Premier Lig | Slavia Mozyr - Ml Vitebsk | live | -
+- 2026-07-01 20:30 | İsveç 2.Lig Norra Götaland | Husqvarna - Lidkopings | live | -
 - 2026-07-01 18:30 | Hazırlık Kulüpler | Ferencvaros - Qarabagh | live | -
 - 2026-07-01 19:00 | Dünya Kupası 2026 Son 32 Turu | İngiltere - Demokratik Kong | live | -
 - 2026-07-01 19:00 | Gürcistan Süper Kupa Final | Fc Iberia - Torpedo Kutaisi | live | -
