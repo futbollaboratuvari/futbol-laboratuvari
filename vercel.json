@@ -1,17 +1,6 @@
 {
   "version": 2,
-  "installCommand": "rm -rf node_modules package-lock.json && npm install --omit=dev --ignore-scripts --package-lock=false",
+  "installCommand": "npm install --omit=dev --ignore-scripts --package-lock=false",
   "buildCommand": "npm run build",
-  "outputDirectory": "public",
-  "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-store"
-        }
-      ]
-    }
-  ]
+  "outputDirectory": "public"
 }
