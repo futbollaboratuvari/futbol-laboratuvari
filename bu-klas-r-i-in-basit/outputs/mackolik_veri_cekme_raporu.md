@@ -1,64 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-01T10:57:25.987749+00:00
-=======
-Tarih: 2026-07-01T10:57:45.695413+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-01T18:26:23.883063+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 55
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 49
-=======
-- Kac mac bulundu: 31
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 25
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 861
+- Durum: error
+- Kac mac bulundu: 6
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 01.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 1
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güney Konferansı
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Lone Star Grubu
-- ABD USL Lig 2 Metropolitan Grubu
 - ABD USL Lig 2 NorCal Grubu
-- ABD USL Lig 2 Orta Atlantik Grubu
 - Avrupa U19 Şampiyonası Grup A
-- Avrupa U19 Şampiyonası Kadınlar Grup B
-- Belarus Premier Lig
 - Dünya Kupası 2026 Son 32 Turu
-<<<<<<< Updated upstream
-- Ekvador Pro Lig
-=======
->>>>>>> Stashed changes
-- Etiyopya Premier Lig
-- Finlandiya Suomen Kupası Yarı Final
-- Gürcistan Süper Kupa 3.lük
-- Gürcistan Süper Kupa Final
-- Hazırlık Kulüpler
 - Kanada Premier Lig
-- Letonya Virsliga
-- Litvanya 1.Lig
-- İsveç 2.Lig Norra Götaland
 - İzlanda 2.Lig
-<<<<<<< Updated upstream
-- Şili Kupa Grup A
-- Şili Kupa Grup C
-- Şili Kupa Grup D
-=======
->>>>>>> Stashed changes
 - Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
@@ -116,50 +76,28 @@ Tarih: 2026-07-01T10:57:45.695413+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 33
-- Acilan detay: 33
+- Denenen Tumu alani: 22
+- Acilan detay: 22
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.07.2026 | 19:00 | Dünya Kupası 2026 Son 32 Turu | İngiltere | Demokratik Kong | 03091 | 5 |
 | 01.07.2026 | 23:00 | Dünya Kupası 2026 Son 32 Turu | Belçika | Senegal | 00397 | 5 |
-<<<<<<< Updated upstream
-| 02.07.2026 | 03:00 | Dünya Kupası 2026 Son 32 Turu | Abd | Bosna Hersek | 20148 | 5 |
-=======
->>>>>>> Stashed changes
 | 01.07.2026 | 22:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 | Almanya U19 | 12466 | 4 |
-| 01.07.2026 | 20:00 | Avrupa U19 Şampiyonası Grup A | Danimarka U19 | İspanya (U19) | 12406 | 5 |
-| 01.07.2026 | 19:00 | Finlandiya Suomen Kupası Yarı Final | Helsinki | Ilves | 04716 | 5 |
-| 01.07.2026 | 18:30 | Hazırlık Kulüpler | Ferencvaros | Qarabagh | 02986 | 5 |
-| 01.07.2026 | 19:00 | Hazırlık Kulüpler | Sc Weiz | Hartberg | 00958 | 2 |
-| 01.07.2026 | 19:15 | Hazırlık Kulüpler | Celje | Hajduk Split | 08146 | 3 |
-| 01.07.2026 | 15:00 | Hazırlık Kulüpler | Avusturya Lust | Young Boys | 07340 | 5 |
-| 01.07.2026 | 18:00 | Hazırlık Kulüpler | Viktoria Plzen | Spartak Trnava | 11073 | 3 |
-| 01.07.2026 | 18:00 | Hazırlık Kulüpler | Sigma Olomouc | Skalica | 07415 | 5 |
-| 01.07.2026 | 18:00 | Hazırlık Kulüpler | Helmond Sport | Panathinaikos | 05516 | 3 |
-| 01.07.2026 | 15:00 | Hazırlık Kulüpler | Glentoran | Kilmarnock | 03712 | 5 |
-| 01.07.2026 | 18:00 | Hazırlık Kulüpler | Paok | Waasland Bevere | 12706 | 5 |
-| 01.07.2026 | 20:30 | Belarus Premier Lig | Slavia Mozyr | Ml Vitebsk | 06787 | 5 |
-| 01.07.2026 | 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İspanya U19 (K | İzlanda U19 (K) | 06317 | 2 |
-| 01.07.2026 | 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 | İsviçre U19 (K) | 04609 | 5 |
-<<<<<<< Updated upstream
-| 02.07.2026 | 01:00 | Şili Kupa Grup A | Deportes Limac | Coquimbo Unido | 06207 | 5 |
-| 02.07.2026 | 01:00 | Şili Kupa Grup C | Cobresal | La Serena | 06226 | 5 |
-=======
 | 01.07.2026 | 22:00 | Şili Kupa Grup F | Univ De Concep | Atletico Nublen | 10189 | 5 |
-| 01.07.2026 | 19:00 | Gürcistan Süper Kupa Final | Fc Iberia | Torpedo Kutaisi | 07051 | 5 |
-| 01.07.2026 | 19:00 | Gürcistan Süper Kupa 3.lük | Dila Gori | Dinamo Tiflis | 07050 | 5 |
->>>>>>> Stashed changes
+| 01.07.2026 | 23:00 | Kanada Premier Lig | Hfx Wanderers | Atletico Ottawa | 10187 | 5 |
+| 01.07.2026 | 23:00 | ABD USL Lig 2 NorCal Grubu | Project 51o | San Francisco C | 11505 | 3 |
+| 01.07.2026 | 22:15 | İzlanda 2.Lig | Haukar | Kari | 12811 | 3 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
