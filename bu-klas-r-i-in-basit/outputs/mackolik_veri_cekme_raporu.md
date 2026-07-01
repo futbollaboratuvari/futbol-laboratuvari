@@ -1,25 +1,39 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-01T18:26:23.883063+00:00
+Tarih: 2026-07-01T22:51:18.399507+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 6
-- Kac mac kaydedildi: 0
+- Durum: success
+- Kac mac bulundu: 36
+- Kac mac kaydedildi: 36
 - Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
-- Hedef tarih: 01.07.2026 Europe/Istanbul
+- Ham veri havuzu toplam mac sayisi: 897
+- Hedef tarih: 02.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 NorCal Grubu
-- Avrupa U19 Şampiyonası Grup A
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Great Plains Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Metropolitan Grubu
+- Avrupa U19 Şampiyonası Grup B
+- Belarus Premier Lig
+- Brezilya Serie B
 - Dünya Kupası 2026 Son 32 Turu
-- Kanada Premier Lig
-- İzlanda 2.Lig
-- Şili Kupa Grup F
+- Estonya Premium Lig
+- Fas Botola Pro
+- Finlandiya Ykkönen
+- Hazırlık Kulüpler
+- Litvanya 1.Lig
+- Lübnan Premier Lig
+- Norveç 1.Lig
+- İzlanda Urvalsdeild
+- Şili Kupa Grup E
+- Şili Kupa Grup H
 
 ## Okunabilen Oran Alanlari
 
@@ -76,28 +90,41 @@ Tarih: 2026-07-01T18:26:23.883063+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 22
-- Acilan detay: 22
+- Denenen Tumu alani: 21
+- Acilan detay: 21
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.07.2026 | 23:00 | Dünya Kupası 2026 Son 32 Turu | Belçika | Senegal | 00397 | 5 |
-| 01.07.2026 | 22:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 | Almanya U19 | 12466 | 4 |
-| 01.07.2026 | 22:00 | Şili Kupa Grup F | Univ De Concep | Atletico Nublen | 10189 | 5 |
-| 01.07.2026 | 23:00 | Kanada Premier Lig | Hfx Wanderers | Atletico Ottawa | 10187 | 5 |
-| 01.07.2026 | 23:00 | ABD USL Lig 2 NorCal Grubu | Project 51o | San Francisco C | 11505 | 3 |
-| 01.07.2026 | 22:15 | İzlanda 2.Lig | Haukar | Kari | 12811 | 3 |
+| 02.07.2026 | 22:00 | Dünya Kupası 2026 Son 32 Turu | İspanya | Avusturya | 04617 | 5 |
+| 03.07.2026 | 02:00 | Dünya Kupası 2026 Son 32 Turu | Portekiz | Hirvatistan | 05562 | 5 |
+| 03.07.2026 | 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre | Cezayir | 06365 | 5 |
+| 02.07.2026 | 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | İtalya U19 | 00953 | 5 |
+| 02.07.2026 | 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 | Ukrayna U19 | 05986 | 5 |
+| 02.07.2026 | 12:00 | Hazırlık Kulüpler | Vojvodina | Universitatea C | 08533 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Olympique Dche | Ol. Safi | 08879 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Yacoub El Mans | Difaa | 01795 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Codm Meknes | Far Rabat | 01662 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Raja Casablanc | Husa Agadir | 08918 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Cr Khemis Zema | Fus Rabat | 08779 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Rsb Berkane | Wydad Casablanc | 08985 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Uts Rabat | Ittihad Tanger | 03411 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Kawkab Marrake | Maghreb Fes | 08826 | 5 |
+| 02.07.2026 | 19:00 | Norveç 1.Lig | Lyn Oslo | Asane | 05376 | 5 |
+| 02.07.2026 | 18:00 | Belarus Premier Lig | Bate Borisov | Gomel | 07093 | 5 |
+| 02.07.2026 | 20:00 | Belarus Premier Lig | Minsk | Dinamo Minsk | 05933 | 5 |
+| 03.07.2026 | 03:30 | Şili Kupa Grup E | O Higgins | Colo Colo | 03870 | 5 |
+| 03.07.2026 | 01:00 | Şili Kupa Grup H | Huachipato | Concepcion | 08698 | 5 |
+| 03.07.2026 | 03:00 | Brezilya Serie B | Fortaleza Ce | Ponte Preta | 06125 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
