@@ -1,21 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-01 / 2026-07-02
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 68
-Aktif mac: 57
-Canli mac: 1
+Aktif mac: 52
+Canli mac: 6
 Biten mac: 10
-Bultenden dusurulen mac: 11
-Bugun: 31
+Bultenden dusurulen mac: 16
+Bugun: 26
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-01 15:00 | Hazırlık Kulüpler | Avusturya Lust - Young Boys | scheduled | -
-- 2026-07-01 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 - İsviçre U19 (K) | scheduled | -
-- 2026-07-01 15:00 | Hazırlık Kulüpler | Glentoran - Kilmarnock | scheduled | -
-- 2026-07-01 15:00 | Etiyopya Premier Lig | Dire Dawa Kene - Arba Minch | scheduled | -
-- 2026-07-01 15:00 | Etiyopya Premier Lig | Mekelle 70 End - Negele Arsi Ket | scheduled | -
 - 2026-07-01 18:00 | Hazırlık Kulüpler | Paok - Waasland Bevere | scheduled | -
 - 2026-07-01 18:00 | Hazırlık Kulüpler | Helmond Sport - Panathinaikos | scheduled | -
 - 2026-07-01 18:00 | Hazırlık Kulüpler | Sigma Olomouc - Skalica | scheduled | -
@@ -70,6 +66,11 @@ Yarin: 26
 - 2026-07-02 05:30 | ABD USL Lig 1 | Union Omaha - Alta | scheduled | -
 
 ## Canli Maclar
+- 2026-07-01 15:00 | Hazırlık Kulüpler | Avusturya Lust - Young Boys | live | -
+- 2026-07-01 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 - İsviçre U19 (K) | live | -
+- 2026-07-01 15:00 | Hazırlık Kulüpler | Glentoran - Kilmarnock | live | -
+- 2026-07-01 15:00 | Etiyopya Premier Lig | Dire Dawa Kene - Arba Minch | live | -
+- 2026-07-01 15:00 | Etiyopya Premier Lig | Mekelle 70 End - Negele Arsi Ket | live | -
 - 2026-07-01 12:30 | Avustralya NPL Kuzey YGG | Hamilton Olymp - Charlestow City | live | -
 
 ## Biten Maclar
