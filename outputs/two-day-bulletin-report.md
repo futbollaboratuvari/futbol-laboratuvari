@@ -4,16 +4,14 @@ Gunler: 2026-07-01 / 2026-07-02
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 62
-Aktif mac: 54
-Canli mac: 8
+Aktif mac: 52
+Canli mac: 10
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 28
+Bultenden dusurulen mac: 10
+Bugun: 26
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-01 04:00 | Dünya Kupası 2026 Son 32 Turu | Meksika - Ekvador | scheduled | -
-- 2026-07-01 04:00 | ABD USL Lig 2 Kuzeybatı Grubu | Snohomish Unit - Tacoma Stars | scheduled | -
 - 2026-07-01 12:30 | Avustralya NPL Kuzey YGG | Hamilton Olymp - Charlestow City | scheduled | -
 - 2026-07-01 15:00 | Hazırlık Kulüpler | Avusturya Lust - Young Boys | scheduled | -
 - 2026-07-01 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 - İsviçre U19 (K) | scheduled | -
@@ -68,6 +66,8 @@ Yarin: 26
 - 2026-07-02 05:30 | ABD USL Lig 1 | Union Omaha - Alta | scheduled | -
 
 ## Canli Maclar
+- 2026-07-01 04:00 | Dünya Kupası 2026 Son 32 Turu | Meksika - Ekvador | live | -
+- 2026-07-01 04:00 | ABD USL Lig 2 Kuzeybatı Grubu | Snohomish Unit - Tacoma Stars | live | -
 - 2026-07-01 02:00 | Brezilya Serie B | Botafogo Ribei - Regatas | live | -
 - 2026-07-01 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston - Western Mass P. | live | -
 - 2026-07-01 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Charlotte Eagl - Hickory | live | -
