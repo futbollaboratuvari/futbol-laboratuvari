@@ -176,9 +176,33 @@ def api_get(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
         raise InstagramAutomationError(safe_error(exc)) from exc
 
 
+def normalize_secret_value(value: str) -> str:
+    """Normalize safely pasted secret values without logging them."""
+    cleaned = str(value or "").strip()
+    if len(cleaned) >= 2 and cleaned[0] == cleaned[-1] and cleaned[0] in {"'", '"'}:
+        cleaned = cleaned[1:-1].strip()
+    if cleaned.lower().startswith("bearer "):
+        cleaned = cleaned[7:].strip()
+    return cleaned
+
+
+def print_safe_env_debug() -> None:
+    """Print secret presence and length without exposing secret values."""
+    if os.getenv("IG_SAFE_DEBUG", "").strip().lower() not in {"1", "true", "yes"}:
+        return
+
+    print("\n--- Instagram Secret Debug ---")
+    for name in ("INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "SITE_URL"):
+        raw_value = os.getenv(name, "")
+        normalized_value = normalize_secret_value(raw_value) if name == "INSTAGRAM_ACCESS_TOKEN" else str(raw_value or "").strip()
+        print(f"{name}: {'VAR' if normalized_value else 'YOK'}")
+        print(f"{name}_UZUNLUK: {len(normalized_value)}")
+    print("------------------------------\n")
+
+
 def validate_required_env() -> Tuple[str, str]:
-    access_token = os.getenv("INSTAGRAM_ACCESS_TOKEN", "").strip()
-    instagram_user_id = os.getenv("INSTAGRAM_USER_ID", "").strip()
+    access_token = normalize_secret_value(os.getenv("INSTAGRAM_ACCESS_TOKEN", ""))
+    instagram_user_id = str(os.getenv("INSTAGRAM_USER_ID", "")).strip()
 
     missing = []
     if not access_token:
@@ -275,6 +299,7 @@ def print_report(report: Dict[str, Any]) -> None:
 
 
 def run(dry_run: bool = False) -> int:
+    print_safe_env_debug()
     timezone_name = os.getenv("TZ", DEFAULT_TIMEZONE)
     daily_limit = int(os.getenv("INSTAGRAM_DAILY_LIMIT", str(DEFAULT_DAILY_LIMIT)))
 
