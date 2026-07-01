@@ -68,6 +68,12 @@ function copyRecursive(source, target, relativePath) {
   fs.copyFileSync(source, target);
 }
 
+try {
+  require("./merge-bulletin-detail-fields");
+} catch (error) {
+  console.warn(`Bulten detay birlestirme atlandi: ${error.message}`);
+}
+
 fs.rmSync(outDir, { recursive: true, force: true });
 fs.mkdirSync(outDir, { recursive: true });
 
