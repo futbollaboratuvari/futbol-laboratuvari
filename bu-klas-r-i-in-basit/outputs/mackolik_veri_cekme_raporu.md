@@ -1,14 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-01T10:57:25.987749+00:00
+=======
+Tarih: 2026-07-01T10:57:45.695413+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 55
 - Kac mac kaydedildi: 6
 - Kac mac zaten vardi: 49
+=======
+- Kac mac bulundu: 31
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 25
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 861
 - Hedef tarih: 01.07.2026 Europe/Istanbul
 
@@ -29,7 +39,10 @@ Tarih: 2026-07-01T10:57:25.987749+00:00
 - Avrupa U19 Şampiyonası Kadınlar Grup B
 - Belarus Premier Lig
 - Dünya Kupası 2026 Son 32 Turu
+<<<<<<< Updated upstream
 - Ekvador Pro Lig
+=======
+>>>>>>> Stashed changes
 - Etiyopya Premier Lig
 - Finlandiya Suomen Kupası Yarı Final
 - Gürcistan Süper Kupa 3.lük
@@ -40,9 +53,12 @@ Tarih: 2026-07-01T10:57:25.987749+00:00
 - Litvanya 1.Lig
 - İsveç 2.Lig Norra Götaland
 - İzlanda 2.Lig
+<<<<<<< Updated upstream
 - Şili Kupa Grup A
 - Şili Kupa Grup C
 - Şili Kupa Grup D
+=======
+>>>>>>> Stashed changes
 - Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
@@ -116,7 +132,10 @@ Tarih: 2026-07-01T10:57:25.987749+00:00
 |---|---|---|---|---|---|---:|
 | 01.07.2026 | 19:00 | Dünya Kupası 2026 Son 32 Turu | İngiltere | Demokratik Kong | 03091 | 5 |
 | 01.07.2026 | 23:00 | Dünya Kupası 2026 Son 32 Turu | Belçika | Senegal | 00397 | 5 |
+<<<<<<< Updated upstream
 | 02.07.2026 | 03:00 | Dünya Kupası 2026 Son 32 Turu | Abd | Bosna Hersek | 20148 | 5 |
+=======
+>>>>>>> Stashed changes
 | 01.07.2026 | 22:00 | Avrupa U19 Şampiyonası Grup A | Galler U19 | Almanya U19 | 12466 | 4 |
 | 01.07.2026 | 20:00 | Avrupa U19 Şampiyonası Grup A | Danimarka U19 | İspanya (U19) | 12406 | 5 |
 | 01.07.2026 | 19:00 | Finlandiya Suomen Kupası Yarı Final | Helsinki | Ilves | 04716 | 5 |
@@ -132,8 +151,14 @@ Tarih: 2026-07-01T10:57:25.987749+00:00
 | 01.07.2026 | 20:30 | Belarus Premier Lig | Slavia Mozyr | Ml Vitebsk | 06787 | 5 |
 | 01.07.2026 | 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İspanya U19 (K | İzlanda U19 (K) | 06317 | 2 |
 | 01.07.2026 | 15:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | Avusturya U19 | İsviçre U19 (K) | 04609 | 5 |
+<<<<<<< Updated upstream
 | 02.07.2026 | 01:00 | Şili Kupa Grup A | Deportes Limac | Coquimbo Unido | 06207 | 5 |
 | 02.07.2026 | 01:00 | Şili Kupa Grup C | Cobresal | La Serena | 06226 | 5 |
+=======
+| 01.07.2026 | 22:00 | Şili Kupa Grup F | Univ De Concep | Atletico Nublen | 10189 | 5 |
+| 01.07.2026 | 19:00 | Gürcistan Süper Kupa Final | Fc Iberia | Torpedo Kutaisi | 07051 | 5 |
+| 01.07.2026 | 19:00 | Gürcistan Süper Kupa 3.lük | Dila Gori | Dinamo Tiflis | 07050 | 5 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
