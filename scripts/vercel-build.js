@@ -24,6 +24,12 @@ const excludedRoots = new Set([
 
 const excludedRelativePaths = new Set([
   ".vercelignore",
+  "assets/cem-kaplanoglu.png",
+  "assets/fl-logo-premium.png",
+  "assets/gallery-analiz-serisi.png",
+  "assets/gallery-marka.png",
+  "assets/gallery-spor-toto.png",
+  "assets/gallery-yorum-kosesi.png",
   "data/archive",
   "data/detail-raw-signals.json",
   "data/longterm-match-archive.json",
