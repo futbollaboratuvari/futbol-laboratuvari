@@ -2,17 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 60
-- Live match count: 2
+- Scheduled match count: 54
+- Live match count: 0
 - Finished removed count: 0
 
-- 2026-07-01 00:00 | Fransa - İsveç | live
-- 2026-07-01 01:00 | Audax Italiano - Palestino | live
-- 2026-07-01 02:00 | Charlotte Eagl - Hickory | scheduled
-- 2026-07-01 02:00 | Boston - Western Mass P. | scheduled
-- 2026-07-01 02:00 | Kalamazoo Fc - Oakland County | scheduled
-- 2026-07-01 02:00 | Botafogo Ribei - Regatas | scheduled
-- 2026-07-01 02:30 | Virginia Marau - Annapolis Blues | scheduled
-- 2026-07-01 03:30 | Univ. Catolica - Everton De Vina | scheduled
 - 2026-07-01 04:00 | Snohomish Unit - Tacoma Stars | scheduled
 - 2026-07-01 04:00 | Meksika - Ekvador | scheduled
+- 2026-07-01 12:30 | Hamilton Olymp - Charlestow City | scheduled
+- 2026-07-01 15:00 | Avusturya U19 - İsviçre U19 (K) | scheduled
+- 2026-07-01 15:00 | Avusturya Lust - Young Boys | scheduled
+- 2026-07-01 18:00 | Houston Fc - Brazos Valley | scheduled
+- 2026-07-01 18:00 | İspanya U19 (K - İzlanda U19 (K) | scheduled
+- 2026-07-01 18:00 | Helmond Sport - Panathinaikos | scheduled
+- 2026-07-01 18:00 | Paok - Waasland Bevere | scheduled
+- 2026-07-01 18:00 | Sigma Olomouc - Skalica | scheduled

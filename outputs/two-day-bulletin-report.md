@@ -1,22 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-01 / 2026-07-02
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 62
-Aktif mac: 60
-Canli mac: 2
+Aktif mac: 54
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 34
+Bultenden dusurulen mac: 8
+Bugun: 28
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-01 02:00 | Brezilya Serie B | Botafogo Ribei - Regatas | scheduled | -
-- 2026-07-01 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston - Western Mass P. | scheduled | -
-- 2026-07-01 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Charlotte Eagl - Hickory | scheduled | -
-- 2026-07-01 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc - Oakland County | scheduled | -
-- 2026-07-01 02:30 | ABD USL Lig 2 Chesapeake Grubu | Virginia Marau - Annapolis Blues | scheduled | -
-- 2026-07-01 03:30 | Şili Kupa Grup B | Univ. Catolica - Everton De Vina | scheduled | -
 - 2026-07-01 04:00 | Dünya Kupası 2026 Son 32 Turu | Meksika - Ekvador | scheduled | -
 - 2026-07-01 04:00 | ABD USL Lig 2 Kuzeybatı Grubu | Snohomish Unit - Tacoma Stars | scheduled | -
 - 2026-07-01 12:30 | Avustralya NPL Kuzey YGG | Hamilton Olymp - Charlestow City | scheduled | -
@@ -73,6 +68,12 @@ Yarin: 26
 - 2026-07-02 05:30 | ABD USL Lig 1 | Union Omaha - Alta | scheduled | -
 
 ## Canli Maclar
+- 2026-07-01 02:00 | Brezilya Serie B | Botafogo Ribei - Regatas | live | -
+- 2026-07-01 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston - Western Mass P. | live | -
+- 2026-07-01 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Charlotte Eagl - Hickory | live | -
+- 2026-07-01 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc - Oakland County | live | -
+- 2026-07-01 02:30 | ABD USL Lig 2 Chesapeake Grubu | Virginia Marau - Annapolis Blues | live | -
+- 2026-07-01 03:30 | Şili Kupa Grup B | Univ. Catolica - Everton De Vina | live | -
 - 2026-07-01 00:00 | Dünya Kupası 2026 Son 32 Turu | Fransa - İsveç | live | -
 - 2026-07-01 01:00 | Şili Kupa Grup G | Audax Italiano - Palestino | live | -
 
