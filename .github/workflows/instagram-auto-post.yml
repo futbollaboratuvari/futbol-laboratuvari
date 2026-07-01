@@ -13,11 +13,8 @@ on:
           - "true"
   schedule:
     - cron: "17 10 * * *"
-      timezone: "Europe/Istanbul"
     - cron: "17 16 * * *"
-      timezone: "Europe/Istanbul"
     - cron: "17 21 * * *"
-      timezone: "Europe/Istanbul"
 
 concurrency:
   group: instagram-auto-post
@@ -31,10 +28,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Europe/Istanbul
-      SITE_URL: ${{ secrets.SITE_URL }}
-      INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
-      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       META_GRAPH_API_VERSION: ${{ vars.META_GRAPH_API_VERSION || 'v23.0' }}
       INSTAGRAM_DAILY_LIMIT: "3"
 
@@ -46,6 +39,21 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
+      - name: Safe Instagram secret debug
+        shell: bash
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          python - <<'PY'
+          import os
+          for name in ("INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "SITE_URL"):
+              value = os.getenv(name, "")
+              print(f"{name}: {'VAR' if value else 'YOK'}")
+              print(f"{name}_UZUNLUK: {len(value)}")
+          PY
 
       - name: Ensure default Instagram media
         run: |
@@ -87,6 +95,13 @@ jobs:
       - name: Run Instagram robot
         id: instagram_robot
         continue-on-error: true
+        shell: bash
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          IG_SAFE_DEBUG: "true"
         run: |
           DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
           if [ "$DRY_RUN" = "true" ]; then
