@@ -47,6 +47,43 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Ensure default Instagram media
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import struct, zlib
+          p = Path('content/instagram/media')
+          p.mkdir(parents=True, exist_ok=True)
+          allowed = {'.jpg', '.jpeg', '.png', '.mp4', '.mov'}
+          if any(x.is_file() and x.suffix.lower() in allowed for x in p.iterdir()):
+              print('Medya mevcut.')
+              raise SystemExit(0)
+          w = h = 1080
+          raw = bytearray()
+          for y in range(h):
+              raw.append(0)
+              for x in range(w):
+                  raw.extend((15, 25 + y * 40 // h, 65 + x * 80 // w))
+          def chunk(t, d):
+              return struct.pack('>I', len(d)) + t + d + struct.pack('>I', zlib.crc32(t + d) & 0xffffffff)
+          png = b'\x89PNG\r\n\x1a\n'
+          png += chunk(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 2, 0, 0, 0))
+          png += chunk(b'IDAT', zlib.compress(bytes(raw), 9))
+          png += chunk(b'IEND', b'')
+          out = p / 'futbol-lab-auto.png'
+          out.write_bytes(png)
+          print(f'Varsayılan medya oluşturuldu: {out}')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/instagram/media/futbol-lab-auto.png
+          if git diff --cached --quiet; then
+            echo "Medya değişikliği yok."
+          else
+            git commit -m "Instagram varsayılan medya eklendi"
+            git push
+          fi
+
       - name: Run Instagram robot
         id: instagram_robot
         continue-on-error: true
