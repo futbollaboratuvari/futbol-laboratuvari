@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T00:41:49.038Z",
+  "generated_at": "2026-07-01T00:44:22.171Z",
   "timezone": "Europe/Istanbul",
   "source": "Yerel veri kaynaklari",
   "status": "active",
@@ -12,7 +12,7 @@
   "live_count": 0,
   "scheduled_count": 54,
   "finished_count": 0,
-  "wide_market_odds_count": 287,
+  "wide_market_odds_count": 289,
   "matches": [
     {
       "date": "2026-07-01",
@@ -4829,25 +4829,29 @@
       "league": "Letonya Virsliga",
       "home": "Fk Tukums",
       "away": "Super Nova",
-      "matchCode": "04666",
       "status": "scheduled",
       "liveStatus": "scheduled",
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "odds": {
-        "ms1": 1.86,
-        "msx": 2.98,
-        "ms2": 2.72,
-        "under25": 1.62,
-        "over25": 1.61
-      },
+      "matchCode": "04666",
       "available_odds": {
         "ms1": 1.86,
         "msx": 2.98,
         "ms2": 2.72,
         "under25": 1.62,
-        "over25": 1.61
+        "over25": 1.61,
+        "bttsYes_guess": 1.15,
+        "bttsNo_guess": 1.12
+      },
+      "odds": {
+        "ms1": 1.86,
+        "msx": 2.98,
+        "ms2": 2.72,
+        "under25": 1.62,
+        "over25": 1.61,
+        "bttsYes_guess": 1.15,
+        "bttsNo_guess": 1.12
       },
       "raw_market_guess_odds": {
         "ms1": 1.86,
@@ -4859,6 +4863,26 @@
         "bttsNo_guess": 1.12
       },
       "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 7,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
       "raw_market_value_count": 8,
       "raw_market_blocks": [],
       "detail_market_candidates": [],
@@ -4908,11 +4932,10 @@
       ],
       "raw_market_source": "Maçkolik canlı robot",
       "oddsSource": "Maçkolik canlı robot",
-      "wide_market_odds_count": 7,
       "detail": {
         "analysis": "Detay analizi icin robot verisi bekleniyor.",
-        "prediction": "Tahmin verisi bekleniyor",
-        "confidence": null,
+        "prediction": "Analiz bekleniyor",
+        "confidence": "",
         "risk": "",
         "team_info": {
           "home": null,
@@ -26629,7 +26652,7 @@
     }
   ],
   "live_matches": [],
-  "detail_enriched_at": "2026-07-01T00:41:48.968Z",
+  "detail_enriched_at": "2026-07-01T00:44:22.103Z",
   "detail_source_files": [
     "data/two-day-bulletin.json",
     "data/fixtures.json",
