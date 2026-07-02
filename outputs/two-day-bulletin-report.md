@@ -3,24 +3,14 @@
 Gunler: 2026-07-02 / 2026-07-03
 Kaynak: fixtures.json
 Ham mac: 62
-Aktif mac: 46
+Aktif mac: 36
 Canli mac: 16
-Biten mac: 0
-Bultenden dusurulen mac: 16
-Bugun: 33
+Biten mac: 10
+Bultenden dusurulen mac: 26
+Bugun: 23
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-02 03:00 | Dünya Kupası 2026 Son 32 Turu | Abd - Bosna Hersek | scheduled | -
-- 2026-07-02 03:00 | Ekvador Pro Lig | Delfin - Emelec | scheduled | -
-- 2026-07-02 03:00 | ABD USL Lig 2 Heartland Grubu | Sueno - Rkc | scheduled | -
-- 2026-07-02 03:00 | ABD USL Lig 2 Lone Star Grubu | Gfi - Ahfc Royals | scheduled | -
-- 2026-07-02 03:30 | Şili Kupa Grup D | Univ. De Şili - Union La Calera | scheduled | -
-- 2026-07-02 03:30 | ABD USL Lig 2 Güney Konferansı | Denton Diablos - West Texas | scheduled | -
-- 2026-07-02 04:00 | ABD USL Lig 1 | Spokane Veloci - Forward Madison | scheduled | -
-- 2026-07-02 05:00 | ABD USL Lig 2 NorCal Grubu | Davis Legacy - Academica | scheduled | -
-- 2026-07-02 05:30 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bigfoot | scheduled | -
-- 2026-07-02 05:30 | ABD USL Lig 1 | Union Omaha - Alta | scheduled | -
 - 2026-07-02 12:00 | Hazırlık Kulüpler | Vojvodina - Universitatea C | scheduled | -
 - 2026-07-02 15:30 | Lübnan Premier Lig | Jwaya - Shabab S | scheduled | -
 - 2026-07-02 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - İtalya U19 | scheduled | -
@@ -77,4 +67,13 @@ Yarin: 13
 - 2026-07-02 02:30 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston City - Seacoast United | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-02 03:00 | Dünya Kupası 2026 Son 32 Turu | Abd - Bosna Hersek | finished | -
+- 2026-07-02 03:00 | Ekvador Pro Lig | Delfin - Emelec | finished | -
+- 2026-07-02 03:00 | ABD USL Lig 2 Heartland Grubu | Sueno - Rkc | finished | -
+- 2026-07-02 03:00 | ABD USL Lig 2 Lone Star Grubu | Gfi - Ahfc Royals | finished | -
+- 2026-07-02 03:30 | Şili Kupa Grup D | Univ. De Şili - Union La Calera | finished | -
+- 2026-07-02 03:30 | ABD USL Lig 2 Güney Konferansı | Denton Diablos - West Texas | finished | -
+- 2026-07-02 04:00 | ABD USL Lig 1 | Spokane Veloci - Forward Madison | finished | -
+- 2026-07-02 05:00 | ABD USL Lig 2 NorCal Grubu | Davis Legacy - Academica | finished | -
+- 2026-07-02 05:30 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bigfoot | finished | -
+- 2026-07-02 05:30 | ABD USL Lig 1 | Union Omaha - Alta | finished | -

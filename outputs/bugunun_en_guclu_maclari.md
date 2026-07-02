@@ -2,26 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-01T23:53:02.196Z
+- Güncelleme: 2026-07-02T08:28:55.812Z
 - Ham maç sayısı: 62
 - Yarın bülteni maç sayısı: 13
 - Detay blok sayısı: 163
-- Aktif bülten maçı: 46
-- Bültenden düşürülen maç: 16
+- Aktif bülten maçı: 36
+- Bültenden düşürülen maç: 26
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Abd - Bosna Hersek | Dünya Kupası 2026 Son 32 Turu | 03:00 | Veri bekleniyor | - | 1.21 | 6 |
-| Delfin - Emelec | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 2.39 | 8 |
-| Sueno - Rkc | ABD USL Lig 2 Heartland Grubu | 03:00 | Veri bekleniyor | - | 1.38 | 4 |
-| Gfi - Ahfc Royals | ABD USL Lig 2 Lone Star Grubu | 03:00 | Veri bekleniyor | - | 1.99 | 6 |
-| Univ. De Şili - Union La Calera | Şili Kupa Grup D | 03:30 | Veri bekleniyor | - | 1.33 | 7 |
-| Denton Diablos - West Texas | ABD USL Lig 2 Güney Konferansı | 03:30 | Veri bekleniyor | - | 1.49 | 6 |
-| Spokane Veloci - Forward Madison | ABD USL Lig 1 | 04:00 | Veri bekleniyor | - | 1.73 | 8 |
-| Davis Legacy - Academica | ABD USL Lig 2 NorCal Grubu | 05:00 | Veri bekleniyor | - | 1.89 | 6 |
-| West Seattle J - Bigfoot | ABD USL Lig 2 Kuzeybatı Grubu | 05:30 | Veri bekleniyor | - | 1.21 | 4 |
-| Union Omaha - Alta | ABD USL Lig 1 | 05:30 | Veri bekleniyor | - | 1.33 | 6 |
 | Vojvodina - Universitatea C | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 2.16 | 8 |
 | Jwaya - Shabab S | Lübnan Premier Lig | 15:30 | Veri bekleniyor | - | 1.49 | 7 |
 | Hirvatistan (U - İtalya U19 | Avrupa U19 Şampiyonası Grup B | 16:00 | Veri bekleniyor | - | 2.8 | 8 |
