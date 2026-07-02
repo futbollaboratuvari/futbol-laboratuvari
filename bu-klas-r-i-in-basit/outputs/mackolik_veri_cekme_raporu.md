@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-01T22:51:18.399507+00:00
+Tarih: 2026-07-02T10:16:41.442164+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 36
-- Kac mac kaydedildi: 36
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 897
+- Kac mac bulundu: 40
+- Kac mac kaydedildi: 5
+- Kac mac zaten vardi: 35
+- Ham veri havuzu toplam mac sayisi: 902
 - Hedef tarih: 02.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -28,9 +28,11 @@ Tarih: 2026-07-01T22:51:18.399507+00:00
 - Fas Botola Pro
 - Finlandiya Ykkönen
 - Hazırlık Kulüpler
+- Kazakistan Premier Lig
 - Litvanya 1.Lig
 - Lübnan Premier Lig
 - Norveç 1.Lig
+- İran Azadegan Ligi
 - İzlanda Urvalsdeild
 - Şili Kupa Grup E
 - Şili Kupa Grup H
@@ -90,8 +92,8 @@ Tarih: 2026-07-01T22:51:18.399507+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 21
-- Acilan detay: 21
+- Denenen Tumu alani: 23
+- Acilan detay: 23
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -109,21 +111,21 @@ Tarih: 2026-07-01T22:51:18.399507+00:00
 | 03.07.2026 | 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre | Cezayir | 06365 | 5 |
 | 02.07.2026 | 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | İtalya U19 | 00953 | 5 |
 | 02.07.2026 | 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 | Ukrayna U19 | 05986 | 5 |
-| 02.07.2026 | 12:00 | Hazırlık Kulüpler | Vojvodina | Universitatea C | 08533 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Olympique Dche | Ol. Safi | 08879 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Yacoub El Mans | Difaa | 01795 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Codm Meknes | Far Rabat | 01662 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Raja Casablanc | Husa Agadir | 08918 | 5 |
+| 02.07.2026 | 18:00 | Hazırlık Kulüpler | Polessya | Sabah | 11250 | 5 |
+| 02.07.2026 | 18:00 | Hazırlık Kulüpler | Dynamo Kiev | Rapid Bükreş | 01488 | 5 |
+| 02.07.2026 | 18:00 | Hazırlık Kulüpler | Nürnberg | Legia Varşova | 11196 | 3 |
 | 02.07.2026 | 20:00 | Fas Botola Pro | Cr Khemis Zema | Fus Rabat | 08779 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Yacoub El Mans | Difaa | 01795 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Olympique Dche | Ol. Safi | 08879 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Codm Meknes | Far Rabat | 01662 | 5 |
 | 02.07.2026 | 20:00 | Fas Botola Pro | Rsb Berkane | Wydad Casablanc | 08985 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Raja Casablanc | Husa Agadir | 08918 | 5 |
 | 02.07.2026 | 20:00 | Fas Botola Pro | Uts Rabat | Ittihad Tanger | 03411 | 5 |
 | 02.07.2026 | 20:00 | Fas Botola Pro | Kawkab Marrake | Maghreb Fes | 08826 | 5 |
 | 02.07.2026 | 19:00 | Norveç 1.Lig | Lyn Oslo | Asane | 05376 | 5 |
 | 02.07.2026 | 18:00 | Belarus Premier Lig | Bate Borisov | Gomel | 07093 | 5 |
 | 02.07.2026 | 20:00 | Belarus Premier Lig | Minsk | Dinamo Minsk | 05933 | 5 |
 | 03.07.2026 | 03:30 | Şili Kupa Grup E | O Higgins | Colo Colo | 03870 | 5 |
-| 03.07.2026 | 01:00 | Şili Kupa Grup H | Huachipato | Concepcion | 08698 | 5 |
-| 03.07.2026 | 03:00 | Brezilya Serie B | Fortaleza Ce | Ponte Preta | 06125 | 5 |
 
 ## Sonuc
 

@@ -2,22 +2,26 @@
 
 Gunler: 2026-07-02 / 2026-07-03
 Kaynak: fixtures.json
-Ham mac: 62
-Aktif mac: 36
-Canli mac: 16
-Biten mac: 10
-Bultenden dusurulen mac: 26
-Bugun: 23
+Ham mac: 67
+Aktif mac: 40
+Canli mac: 1
+Biten mac: 26
+Bultenden dusurulen mac: 27
+Bugun: 27
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-02 12:00 | Hazırlık Kulüpler | Vojvodina - Universitatea C | scheduled | -
 - 2026-07-02 15:30 | Lübnan Premier Lig | Jwaya - Shabab S | scheduled | -
 - 2026-07-02 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - İtalya U19 | scheduled | -
 - 2026-07-02 16:00 | Lübnan Premier Lig | Reyady Abaseya - Racing Beirut | scheduled | -
+- 2026-07-02 17:00 | Kazakistan Premier Lig | Kairat Almaty - Okzhetpes | scheduled | -
 - 2026-07-02 18:00 | Belarus Premier Lig | Bate Borisov - Gomel | scheduled | -
 - 2026-07-02 18:00 | Litvanya 1.Lig | Zalgiris Ii - Hegelmann Ii | scheduled | -
 - 2026-07-02 18:00 | Litvanya 1.Lig | Bfa - Ekranas | scheduled | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Polessya - Sabah | scheduled | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Dynamo Kiev - Rapid Bükreş | scheduled | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Nürnberg - Legia Varşova | scheduled | -
+- 2026-07-02 18:00 | İran Azadegan Ligi | Niroye Zamini - Pars Jam Busheh | scheduled | -
 - 2026-07-02 19:00 | Norveç 1.Lig | Lyn Oslo - Asane | scheduled | -
 - 2026-07-02 19:00 | Finlandiya Ykkönen | Fc Jazz - Kpv Kokkola | scheduled | -
 - 2026-07-02 19:00 | Estonya Premium Lig | Kuressaare - Flora Tallinn | scheduled | -
@@ -49,24 +53,25 @@ Yarin: 13
 - 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | scheduled | -
 
 ## Canli Maclar
-- 2026-07-02 00:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Vermont Green | live | -
-- 2026-07-02 00:30 | ABD USL Lig 1 | Charlotte Inde - Corpus Christi | live | -
-- 2026-07-02 01:00 | Şili Kupa Grup A | Deportes Limac - Coquimbo Unido | live | -
-- 2026-07-02 01:00 | Şili Kupa Grup C | Cobresal - La Serena | live | -
-- 2026-07-02 01:00 | Şili Kupa Grup F | Univ De Concep - Atletico Nublen | live | -
-- 2026-07-02 01:00 | Ekvador Pro Lig | Ldu Quito - Orense | live | -
-- 2026-07-02 01:00 | ABD USL Lig 2 Metropolitan Grubu | Staten Island - New Jersey Copa | live | -
-- 2026-07-02 01:00 | ABD USL Lig 2 Orta Atlantik Grubu | Real Central N - Delaware Fc | live | -
-- 2026-07-02 01:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Connecticut Ru - Ac Connecticut | live | -
-- 2026-07-02 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Brevard Fire | live | -
-- 2026-07-02 01:30 | ABD USL Lig 2 Heartland Grubu | Minneapolis Ci - St. Croix | live | -
-- 2026-07-02 02:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Beach - Loudoun United | live | -
-- 2026-07-02 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City - Fort Lauderdale | live | -
-- 2026-07-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Westchester Sc | live | -
-- 2026-07-02 02:30 | ABD USL Lig 2 Chesapeake Grubu | Charlottesvill - Bethesda | live | -
-- 2026-07-02 02:30 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston City - Seacoast United | live | -
+- 2026-07-02 12:00 | Hazırlık Kulüpler | Vojvodina - Universitatea C | live | -
 
 ## Biten Maclar
+- 2026-07-02 00:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Vermont Green | finished | -
+- 2026-07-02 00:30 | ABD USL Lig 1 | Charlotte Inde - Corpus Christi | finished | -
+- 2026-07-02 01:00 | Şili Kupa Grup A | Deportes Limac - Coquimbo Unido | finished | -
+- 2026-07-02 01:00 | Şili Kupa Grup C | Cobresal - La Serena | finished | -
+- 2026-07-02 01:00 | Şili Kupa Grup F | Univ De Concep - Atletico Nublen | finished | -
+- 2026-07-02 01:00 | Ekvador Pro Lig | Ldu Quito - Orense | finished | -
+- 2026-07-02 01:00 | ABD USL Lig 2 Metropolitan Grubu | Staten Island - New Jersey Copa | finished | -
+- 2026-07-02 01:00 | ABD USL Lig 2 Orta Atlantik Grubu | Real Central N - Delaware Fc | finished | -
+- 2026-07-02 01:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Connecticut Ru - Ac Connecticut | finished | -
+- 2026-07-02 01:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Brevard Fire | finished | -
+- 2026-07-02 01:30 | ABD USL Lig 2 Heartland Grubu | Minneapolis Ci - St. Croix | finished | -
+- 2026-07-02 02:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Beach - Loudoun United | finished | -
+- 2026-07-02 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City - Fort Lauderdale | finished | -
+- 2026-07-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Westchester Sc | finished | -
+- 2026-07-02 02:30 | ABD USL Lig 2 Chesapeake Grubu | Charlottesvill - Bethesda | finished | -
+- 2026-07-02 02:30 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston City - Seacoast United | finished | -
 - 2026-07-02 03:00 | Dünya Kupası 2026 Son 32 Turu | Abd - Bosna Hersek | finished | -
 - 2026-07-02 03:00 | Ekvador Pro Lig | Delfin - Emelec | finished | -
 - 2026-07-02 03:00 | ABD USL Lig 2 Heartland Grubu | Sueno - Rkc | finished | -
