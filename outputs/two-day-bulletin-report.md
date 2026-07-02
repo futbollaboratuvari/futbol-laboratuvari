@@ -4,28 +4,14 @@ Gunler: 2026-07-02 / 2026-07-03
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 67
-Aktif mac: 40
-Canli mac: 1
-Biten mac: 26
-Bultenden dusurulen mac: 27
-Bugun: 27
+Aktif mac: 26
+Canli mac: 11
+Biten mac: 30
+Bultenden dusurulen mac: 41
+Bugun: 13
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-02 15:30 | Lübnan Premier Lig | Jwaya - Shabab S | scheduled | -
-- 2026-07-02 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - İtalya U19 | scheduled | -
-- 2026-07-02 16:00 | Lübnan Premier Lig | Reyady Abaseya - Racing Beirut | scheduled | -
-- 2026-07-02 17:00 | Kazakistan Premier Lig | Kairat Almaty - Okzhetpes | scheduled | -
-- 2026-07-02 18:00 | Belarus Premier Lig | Bate Borisov - Gomel | scheduled | -
-- 2026-07-02 18:00 | Litvanya 1.Lig | Zalgiris Ii - Hegelmann Ii | scheduled | -
-- 2026-07-02 18:00 | Litvanya 1.Lig | Bfa - Ekranas | scheduled | -
-- 2026-07-02 18:00 | Hazırlık Kulüpler | Polessya - Sabah | scheduled | -
-- 2026-07-02 18:00 | Hazırlık Kulüpler | Dynamo Kiev - Rapid Bükreş | scheduled | -
-- 2026-07-02 18:00 | Hazırlık Kulüpler | Nürnberg - Legia Varşova | scheduled | -
-- 2026-07-02 18:00 | İran Azadegan Ligi | Niroye Zamini - Pars Jam Busheh | scheduled | -
-- 2026-07-02 19:00 | Norveç 1.Lig | Lyn Oslo - Asane | scheduled | -
-- 2026-07-02 19:00 | Finlandiya Ykkönen | Fc Jazz - Kpv Kokkola | scheduled | -
-- 2026-07-02 19:00 | Estonya Premium Lig | Kuressaare - Flora Tallinn | scheduled | -
 - 2026-07-02 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Ukrayna U19 | scheduled | -
 - 2026-07-02 20:00 | Fas Botola Pro | Olympique Dche - Ol. Safi | scheduled | -
 - 2026-07-02 20:00 | Fas Botola Pro | Yacoub El Mans - Difaa | scheduled | -
@@ -54,9 +40,23 @@ Yarin: 13
 - 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | scheduled | -
 
 ## Canli Maclar
+- 2026-07-02 18:00 | Belarus Premier Lig | Bate Borisov - Gomel | live | -
+- 2026-07-02 18:00 | Litvanya 1.Lig | Zalgiris Ii - Hegelmann Ii | live | -
+- 2026-07-02 18:00 | Litvanya 1.Lig | Bfa - Ekranas | live | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Polessya - Sabah | live | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Dynamo Kiev - Rapid Bükreş | live | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Nürnberg - Legia Varşova | live | -
+- 2026-07-02 18:00 | İran Azadegan Ligi | Niroye Zamini - Pars Jam Busheh | live | -
+- 2026-07-02 19:00 | Norveç 1.Lig | Lyn Oslo - Asane | live | -
+- 2026-07-02 19:00 | Finlandiya Ykkönen | Fc Jazz - Kpv Kokkola | live | -
+- 2026-07-02 19:00 | Estonya Premium Lig | Kuressaare - Flora Tallinn | live | -
 - 2026-07-02 12:00 | Hazırlık Kulüpler | Vojvodina - Universitatea C | live | -
 
 ## Biten Maclar
+- 2026-07-02 15:30 | Lübnan Premier Lig | Jwaya - Shabab S | finished | -
+- 2026-07-02 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - İtalya U19 | finished | -
+- 2026-07-02 16:00 | Lübnan Premier Lig | Reyady Abaseya - Racing Beirut | finished | -
+- 2026-07-02 17:00 | Kazakistan Premier Lig | Kairat Almaty - Okzhetpes | finished | -
 - 2026-07-02 00:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Vermont Green | finished | -
 - 2026-07-02 00:30 | ABD USL Lig 1 | Charlotte Inde - Corpus Christi | finished | -
 - 2026-07-02 01:00 | Şili Kupa Grup A | Deportes Limac - Coquimbo Unido | finished | -
