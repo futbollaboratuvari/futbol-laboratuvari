@@ -1,41 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-02T10:16:41.442164+00:00
-=======
-Tarih: 2026-07-02T10:17:19.445481+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-02T17:03:48.222180+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 40
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 35
-=======
-- Kac mac bulundu: 27
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 22
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 902
+- Durum: error
+- Kac mac bulundu: 6
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 02.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avrupa U19 Şampiyonası Grup B
-- Belarus Premier Lig
 - Dünya Kupası 2026 Son 32 Turu
-- Estonya Premium Lig
 - Fas Botola Pro
-- Finlandiya Ykkönen
-- Hazırlık Kulüpler
-- Kazakistan Premier Lig
-- Litvanya 1.Lig
-- Lübnan Premier Lig
-- Norveç 1.Lig
-- İran Azadegan Ligi
 - İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
@@ -93,45 +73,28 @@ Tarih: 2026-07-02T10:17:19.445481+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 23
-- Acilan detay: 23
+- Denenen Tumu alani: 13
+- Acilan detay: 13
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 02.07.2026 | 22:00 | Dünya Kupası 2026 Son 32 Turu | İspanya | Avusturya | 04617 | 5 |
-| 02.07.2026 | 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | İtalya U19 | 00953 | 5 |
-| 02.07.2026 | 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 | Ukrayna U19 | 05986 | 5 |
-| 02.07.2026 | 18:00 | Hazırlık Kulüpler | Polessya | Sabah | 11250 | 5 |
-| 02.07.2026 | 18:00 | Hazırlık Kulüpler | Dynamo Kiev | Rapid Bükreş | 01488 | 5 |
-| 02.07.2026 | 18:00 | Hazırlık Kulüpler | Nürnberg | Legia Varşova | 11196 | 3 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Cr Khemis Zema | Fus Rabat | 08779 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Yacoub El Mans | Difaa | 01795 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Olympique Dche | Ol. Safi | 08879 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Codm Meknes | Far Rabat | 01662 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Rsb Berkane | Wydad Casablanc | 08985 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Raja Casablanc | Husa Agadir | 08918 | 5 |
 | 02.07.2026 | 20:00 | Fas Botola Pro | Uts Rabat | Ittihad Tanger | 03411 | 5 |
+| 02.07.2026 | 20:00 | Fas Botola Pro | Rsb Berkane | Wydad Casablanc | 08985 | 5 |
 | 02.07.2026 | 20:00 | Fas Botola Pro | Kawkab Marrake | Maghreb Fes | 08826 | 5 |
-| 02.07.2026 | 19:00 | Norveç 1.Lig | Lyn Oslo | Asane | 05376 | 5 |
-| 02.07.2026 | 18:00 | Belarus Premier Lig | Bate Borisov | Gomel | 07093 | 5 |
-| 02.07.2026 | 20:00 | Belarus Premier Lig | Minsk | Dinamo Minsk | 05933 | 5 |
-<<<<<<< Updated upstream
-| 03.07.2026 | 03:30 | Şili Kupa Grup E | O Higgins | Colo Colo | 03870 | 5 |
-=======
-| 02.07.2026 | 19:00 | Finlandiya Ykkönen | Fc Jazz | Kpv Kokkola | 05969 | 5 |
-| 02.07.2026 | 16:00 | Lübnan Premier Lig | Reyady Abaseya | Racing Beirut | 01201 | 5 |
-| 02.07.2026 | 15:30 | Lübnan Premier Lig | Jwaya | Shabab S | 00173 | 5 |
->>>>>>> Stashed changes
+| 02.07.2026 | 20:00 | Fas Botola Pro | Yacoub El Mans | Difaa | 01795 | 5 |
+| 02.07.2026 | 22:15 | İzlanda Urvalsdeild | Vikingur Reykj | Ka Akureyri | 05526 | 2 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
