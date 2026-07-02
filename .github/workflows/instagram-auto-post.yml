@@ -115,12 +115,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add logs/instagram_posts.json
           if git diff --cached --quiet; then
             echo "Log değişikliği yok."
           else
             git commit -m "Instagram robot log güncellendi"
-            git push
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push çakıştı, tekrar deneniyor: $attempt"
+              git pull --rebase origin main
+            done
+            echo "Log push başarısız."
+            exit 1
           fi
 
       - name: Fail job if robot failed
