@@ -134,4 +134,33 @@ jobs:
 
       - name: Fail job if robot failed
         if: steps.instagram_robot.outcome == 'failure'
-        run: exit 1
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('logs/instagram_posts.json')
+          print('Instagram robot başarısız oldu.')
+          print('Token değeri güvenlik için yazdırılmıyor.')
+
+          if not path.exists():
+              print('Son hata: logs/instagram_posts.json bulunamadı.')
+              raise SystemExit(1)
+
+          try:
+              logs = json.loads(path.read_text(encoding='utf-8'))
+          except Exception as exc:
+              print(f'Son hata logu okunamadı: {exc}')
+              raise SystemExit(1)
+
+          last_failed = next((entry for entry in reversed(logs) if entry.get('durum') == 'failed'), None)
+          if not last_failed:
+              print('Son hata: başarısız robot kaydı bulunamadı.')
+              raise SystemExit(1)
+
+          error = str(last_failed.get('hata_özeti') or 'Bilinmeyen hata')
+          print(f'Son hata: {error}')
+          if 'Cannot parse access token' in error or 'OAuthException' in error or 'code":190' in error:
+              print('Çözüm: INSTAGRAM_ACCESS_TOKEN içine GitHub/Vercel tokenı değil, Meta Developers üzerinden alınmış Instagram Graph API access tokenı kaydedilmeli.')
+          PY
+          exit 1
