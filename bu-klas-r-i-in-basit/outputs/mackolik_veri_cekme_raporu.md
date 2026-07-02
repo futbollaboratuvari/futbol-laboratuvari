@@ -1,28 +1,31 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-02T10:16:41.442164+00:00
+=======
+Tarih: 2026-07-02T10:17:19.445481+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 40
 - Kac mac kaydedildi: 5
 - Kac mac zaten vardi: 35
+=======
+- Kac mac bulundu: 27
+- Kac mac kaydedildi: 5
+- Kac mac zaten vardi: 22
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 902
 - Hedef tarih: 02.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Great Plains Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Metropolitan Grubu
 - Avrupa U19 Şampiyonası Grup B
 - Belarus Premier Lig
-- Brezilya Serie B
 - Dünya Kupası 2026 Son 32 Turu
 - Estonya Premium Lig
 - Fas Botola Pro
@@ -34,8 +37,6 @@ Tarih: 2026-07-02T10:16:41.442164+00:00
 - Norveç 1.Lig
 - İran Azadegan Ligi
 - İzlanda Urvalsdeild
-- Şili Kupa Grup E
-- Şili Kupa Grup H
 
 ## Okunabilen Oran Alanlari
 
@@ -107,8 +108,6 @@ Tarih: 2026-07-02T10:16:41.442164+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 02.07.2026 | 22:00 | Dünya Kupası 2026 Son 32 Turu | İspanya | Avusturya | 04617 | 5 |
-| 03.07.2026 | 02:00 | Dünya Kupası 2026 Son 32 Turu | Portekiz | Hirvatistan | 05562 | 5 |
-| 03.07.2026 | 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre | Cezayir | 06365 | 5 |
 | 02.07.2026 | 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U | İtalya U19 | 00953 | 5 |
 | 02.07.2026 | 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 | Ukrayna U19 | 05986 | 5 |
 | 02.07.2026 | 18:00 | Hazırlık Kulüpler | Polessya | Sabah | 11250 | 5 |
@@ -125,7 +124,13 @@ Tarih: 2026-07-02T10:16:41.442164+00:00
 | 02.07.2026 | 19:00 | Norveç 1.Lig | Lyn Oslo | Asane | 05376 | 5 |
 | 02.07.2026 | 18:00 | Belarus Premier Lig | Bate Borisov | Gomel | 07093 | 5 |
 | 02.07.2026 | 20:00 | Belarus Premier Lig | Minsk | Dinamo Minsk | 05933 | 5 |
+<<<<<<< Updated upstream
 | 03.07.2026 | 03:30 | Şili Kupa Grup E | O Higgins | Colo Colo | 03870 | 5 |
+=======
+| 02.07.2026 | 19:00 | Finlandiya Ykkönen | Fc Jazz | Kpv Kokkola | 05969 | 5 |
+| 02.07.2026 | 16:00 | Lübnan Premier Lig | Reyady Abaseya | Racing Beirut | 01201 | 5 |
+| 02.07.2026 | 15:30 | Lübnan Premier Lig | Jwaya | Shabab S | 00173 | 5 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
