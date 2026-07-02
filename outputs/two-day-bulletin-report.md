@@ -4,25 +4,14 @@ Gunler: 2026-07-02 / 2026-07-03
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 67
-Aktif mac: 26
-Canli mac: 11
+Aktif mac: 15
+Canli mac: 22
 Biten mac: 30
-Bultenden dusurulen mac: 41
-Bugun: 13
+Bultenden dusurulen mac: 52
+Bugun: 2
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-02 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Ukrayna U19 | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Olympique Dche - Ol. Safi | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Yacoub El Mans - Difaa | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Codm Meknes - Far Rabat | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Raja Casablanc - Husa Agadir | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Cr Khemis Zema - Fus Rabat | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Rsb Berkane - Wydad Casablanc | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Uts Rabat - Ittihad Tanger | scheduled | -
-- 2026-07-02 20:00 | Fas Botola Pro | Kawkab Marrake - Maghreb Fes | scheduled | -
-- 2026-07-02 20:00 | Belarus Premier Lig | Minsk - Dinamo Minsk | scheduled | -
-- 2026-07-02 20:00 | İzlanda Urvalsdeild | Thor Akureyri - Kr Reykjavik | scheduled | -
 - 2026-07-02 22:00 | Dünya Kupası 2026 Son 32 Turu | İspanya - Avusturya | scheduled | -
 - 2026-07-02 22:15 | İzlanda Urvalsdeild | Vikingur Reykj - Ka Akureyri | scheduled | -
 - 2026-07-03 01:00 | Şili Kupa Grup H | Huachipato - Concepcion | scheduled | -
@@ -40,6 +29,17 @@ Yarin: 13
 - 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | scheduled | -
 
 ## Canli Maclar
+- 2026-07-02 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Ukrayna U19 | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Olympique Dche - Ol. Safi | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Yacoub El Mans - Difaa | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Codm Meknes - Far Rabat | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Raja Casablanc - Husa Agadir | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Cr Khemis Zema - Fus Rabat | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Rsb Berkane - Wydad Casablanc | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Uts Rabat - Ittihad Tanger | live | -
+- 2026-07-02 20:00 | Fas Botola Pro | Kawkab Marrake - Maghreb Fes | live | -
+- 2026-07-02 20:00 | Belarus Premier Lig | Minsk - Dinamo Minsk | live | -
+- 2026-07-02 20:00 | İzlanda Urvalsdeild | Thor Akureyri - Kr Reykjavik | live | -
 - 2026-07-02 18:00 | Belarus Premier Lig | Bate Borisov - Gomel | live | -
 - 2026-07-02 18:00 | Litvanya 1.Lig | Zalgiris Ii - Hegelmann Ii | live | -
 - 2026-07-02 18:00 | Litvanya 1.Lig | Bfa - Ekranas | live | -
