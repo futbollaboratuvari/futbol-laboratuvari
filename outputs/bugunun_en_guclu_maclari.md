@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-02T20:46:21.908Z
-- Ham maç sayısı: 16
-- Yarın bülteni maç sayısı: 14
-- Detay blok sayısı: 42
-- Aktif bülten maçı: 14
-- Bültenden düşürülen maç: 2
+- Güncelleme: 2026-07-02T22:18:14.157Z
+- Ham maç sayısı: 14
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 37
+- Aktif bülten maçı: 13
+- Bültenden düşürülen maç: 1
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Huachipato - Concepcion | Şili Kupa Grup H | 01:00 | Veri bekleniyor | - | 1.84 | 8 |
 | Portekiz - Hirvatistan | Dünya Kupası 2026 Son 32 Turu | 02:00 | Veri bekleniyor | - | 1.46 | 7 |
 | Cuiaba - America Mineiro | Brezilya Serie B | 02:00 | Veri bekleniyor | - | 1.58 | 7 |
 | Rochester - Chicago Dutch L | ABD USL Lig 2 Heartland Grubu | 02:00 | Veri bekleniyor | - | 2.89 | 6 |
