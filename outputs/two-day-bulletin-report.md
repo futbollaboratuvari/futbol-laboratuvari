@@ -1,15 +1,14 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-02 / 2026-07-03
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 67
-Aktif mac: 13
-Canli mac: 24
-Biten mac: 30
+Kaynak: fixtures.json
+Ham mac: 68
+Aktif mac: 14
+Canli mac: 2
+Biten mac: 52
 Bultenden dusurulen mac: 54
 Bugun: 0
-Yarin: 13
+Yarin: 14
 
 ## Baslamamis Maclar
 - 2026-07-03 01:00 | Şili Kupa Grup H | Huachipato - Concepcion | scheduled | -
@@ -17,6 +16,7 @@ Yarin: 13
 - 2026-07-03 02:00 | Brezilya Serie B | Cuiaba - America Mineiro | scheduled | -
 - 2026-07-03 02:00 | ABD USL Lig 2 Heartland Grubu | Rochester - Chicago Dutch L | scheduled | -
 - 2026-07-03 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru - Long Island | scheduled | -
+- 2026-07-03 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Manhattan | scheduled | -
 - 2026-07-03 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Apotheos - East Atlanta | scheduled | -
 - 2026-07-03 03:00 | Brezilya Serie B | Fortaleza Ce - Ponte Preta | scheduled | -
 - 2026-07-03 03:00 | ABD USL | Birmingham Leg - Detroit City | scheduled | -
@@ -53,10 +53,6 @@ Yarin: 13
 - 2026-07-02 12:00 | Hazırlık Kulüpler | Vojvodina - Universitatea C | live | -
 
 ## Biten Maclar
-- 2026-07-02 15:30 | Lübnan Premier Lig | Jwaya - Shabab S | finished | -
-- 2026-07-02 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - İtalya U19 | finished | -
-- 2026-07-02 16:00 | Lübnan Premier Lig | Reyady Abaseya - Racing Beirut | finished | -
-- 2026-07-02 17:00 | Kazakistan Premier Lig | Kairat Almaty - Okzhetpes | finished | -
 - 2026-07-02 00:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Vermont Green | finished | -
 - 2026-07-02 00:30 | ABD USL Lig 1 | Charlotte Inde - Corpus Christi | finished | -
 - 2026-07-02 01:00 | Şili Kupa Grup A | Deportes Limac - Coquimbo Unido | finished | -
@@ -83,3 +79,29 @@ Yarin: 13
 - 2026-07-02 05:00 | ABD USL Lig 2 NorCal Grubu | Davis Legacy - Academica | finished | -
 - 2026-07-02 05:30 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bigfoot | finished | -
 - 2026-07-02 05:30 | ABD USL Lig 1 | Union Omaha - Alta | finished | -
+- 2026-07-02 12:00 | Hazırlık Kulüpler | Vojvodina - Universitatea C | finished | -
+- 2026-07-02 15:30 | Lübnan Premier Lig | Jwaya - Shabab S | finished | -
+- 2026-07-02 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - İtalya U19 | finished | -
+- 2026-07-02 16:00 | Lübnan Premier Lig | Reyady Abaseya - Racing Beirut | finished | -
+- 2026-07-02 17:00 | Kazakistan Premier Lig | Kairat Almaty - Okzhetpes | finished | -
+- 2026-07-02 18:00 | Belarus Premier Lig | Bate Borisov - Gomel | finished | -
+- 2026-07-02 18:00 | Litvanya 1.Lig | Zalgiris Ii - Hegelmann Ii | finished | -
+- 2026-07-02 18:00 | Litvanya 1.Lig | Bfa - Ekranas | finished | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Polessya - Sabah | finished | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Dynamo Kiev - Rapid Bükreş | finished | -
+- 2026-07-02 18:00 | Hazırlık Kulüpler | Nürnberg - Legia Varşova | finished | -
+- 2026-07-02 18:00 | İran Azadegan Ligi | Niroye Zamini - Pars Jam Busheh | finished | -
+- 2026-07-02 19:00 | Norveç 1.Lig | Lyn Oslo - Asane | finished | -
+- 2026-07-02 19:00 | Finlandiya Ykkönen | Fc Jazz - Kpv Kokkola | finished | -
+- 2026-07-02 19:00 | Estonya Premium Lig | Kuressaare - Flora Tallinn | finished | -
+- 2026-07-02 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Ukrayna U19 | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Olympique Dche - Ol. Safi | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Yacoub El Mans - Difaa | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Codm Meknes - Far Rabat | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Raja Casablanc - Husa Agadir | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Cr Khemis Zema - Fus Rabat | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Rsb Berkane - Wydad Casablanc | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Uts Rabat - Ittihad Tanger | finished | -
+- 2026-07-02 20:00 | Fas Botola Pro | Kawkab Marrake - Maghreb Fes | finished | -
+- 2026-07-02 20:00 | Belarus Premier Lig | Minsk - Dinamo Minsk | finished | -
+- 2026-07-02 20:00 | İzlanda Urvalsdeild | Thor Akureyri - Kr Reykjavik | finished | -

@@ -1,27 +1,25 @@
 {
-  "generated_at": "2026-07-02T20:44:33.192Z",
+  "generated_at": "2026-07-02T20:44:37.417Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
   "restored_from_cache": false,
-  "match_count": 13,
-  "live_match_count": 0,
+  "match_count": 14,
+  "live_match_count": 2,
   "finished_count": 0,
   "first_match": {
-    "date": "2026-07-03",
-    "time": "01:00",
-    "league": "Şili Kupa Grup H",
-    "home": "Huachipato",
-    "away": "Concepcion",
-    "status": "scheduled",
-    "liveStatus": "scheduled",
-    "minute": null,
-    "homeScore": null,
-    "awayScore": null,
+    "date": "2026-07-02",
+    "time": "22:00",
+    "league": "Dünya Kupası 2026 Son 32 Turu",
+    "home": "İspanya",
+    "away": "Avusturya",
+    "matchCode": "08698",
+    "status": "live",
+    "liveStatus": "live",
+    "minute": 89,
     "score": "",
     "lastLiveUpdate": "2026-07-02T10:16:41.935Z",
     "source": "Maçkolik canlı robot",
-    "matchCode": "08698",
     "oddsSource": "Robot ham veri havuzu",
     "one": 1.88,
     "oneOdd": 1.88,
@@ -252,15 +250,7 @@
         ]
       }
     ],
-    "raw_market_guess_odds": {
-      "ms1": 1.84,
-      "msx": 2.8,
-      "ms2": 2.97,
-      "under25": 1.56,
-      "over25": 1.67,
-      "bttsYes_guess": 1.11,
-      "bttsNo_guess": 1.15
-    },
+    "raw_market_guess_odds": {},
     "detail_market_candidates": [
       {
         "market_code": "08698",
@@ -448,129 +438,24 @@
       }
     ],
     "raw_market_block_count": 3,
-    "raw_market_value_count": 8,
+    "raw_market_value_count": 5,
     "raw_market_source": "Robot ham veri hücreleri",
     "flow_status": "scheduled",
     "odds": {
-      "ms1": 1.88,
-      "msx": 2.8,
-      "ms2": 2.86,
-      "under25": 1.56,
-      "over25": 1.67,
-      "bttsYes_guess": 1.11,
-      "bttsNo_guess": 1.15
+      "ms1": 1.15,
+      "msx": 4.82,
+      "ms2": 8.85,
+      "under25": 1.89,
+      "over25": 1.5
     },
     "available_odds": {
-      "ms1": 1.88,
-      "msx": 2.8,
-      "ms2": 2.86,
-      "under25": 1.56,
-      "over25": 1.67,
-      "bttsYes_guess": 1.11,
-      "bttsNo_guess": 1.15
+      "ms1": 1.15,
+      "msx": 4.82,
+      "ms2": 8.85,
+      "under25": 1.89,
+      "over25": 1.5
     },
-    "raw_odds_sequence": [],
-    "detail_markets": [
-      {
-        "key": "ms1",
-        "label": "MS 1",
-        "odd": 1.88,
-        "source": "Robot ham veri havuzu"
-      },
-      {
-        "key": "msx",
-        "label": "MS X",
-        "odd": 2.8,
-        "source": "Robot ham veri havuzu"
-      },
-      {
-        "key": "ms2",
-        "label": "MS 2",
-        "odd": 2.86,
-        "source": "Robot ham veri havuzu"
-      },
-      {
-        "key": "under25",
-        "label": "2.5 Alt",
-        "odd": 1.56,
-        "source": "Robot ham veri havuzu"
-      },
-      {
-        "key": "over25",
-        "label": "2.5 Ust",
-        "odd": 1.67,
-        "source": "Robot ham veri havuzu"
-      },
-      {
-        "key": "bttsYes_guess",
-        "label": "bttsYes_guess",
-        "odd": 1.11,
-        "source": "Robot ham veri havuzu"
-      },
-      {
-        "key": "bttsNo_guess",
-        "label": "bttsNo_guess",
-        "odd": 1.15,
-        "source": "Robot ham veri havuzu"
-      }
-    ],
-    "wide_market_odds_count": 7,
-    "detail": {
-      "analysis": "Detay analizi icin robot verisi bekleniyor.",
-      "prediction": "Tahmin verisi bekleniyor",
-      "confidence": null,
-      "risk": "",
-      "team_info": {
-        "home": null,
-        "away": null
-      },
-      "league_info": null,
-      "goal_expectation": null,
-      "markets": [
-        {
-          "key": "ms1",
-          "label": "MS 1",
-          "odd": 1.88,
-          "source": "Robot ham veri havuzu"
-        },
-        {
-          "key": "msx",
-          "label": "MS X",
-          "odd": 2.8,
-          "source": "Robot ham veri havuzu"
-        },
-        {
-          "key": "ms2",
-          "label": "MS 2",
-          "odd": 2.86,
-          "source": "Robot ham veri havuzu"
-        },
-        {
-          "key": "under25",
-          "label": "2.5 Alt",
-          "odd": 1.56,
-          "source": "Robot ham veri havuzu"
-        },
-        {
-          "key": "over25",
-          "label": "2.5 Ust",
-          "odd": 1.67,
-          "source": "Robot ham veri havuzu"
-        },
-        {
-          "key": "bttsYes_guess",
-          "label": "bttsYes_guess",
-          "odd": 1.11,
-          "source": "Robot ham veri havuzu"
-        },
-        {
-          "key": "bttsNo_guess",
-          "label": "bttsNo_guess",
-          "odd": 1.15,
-          "source": "Robot ham veri havuzu"
-        }
-      ]
-    }
+    "raw_odds_sequence": []
   },
   "date_window": {
     "main_day": "2026-07-02",

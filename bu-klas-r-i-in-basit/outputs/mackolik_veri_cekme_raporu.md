@@ -1,22 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-02T17:03:48.222180+00:00
+Tarih: 2026-07-02T20:44:33.269686+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 6
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Durum: success
+- Kac mac bulundu: 14
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 13
+- Ham veri havuzu toplam mac sayisi: 903
 - Hedef tarih: 02.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Great Plains Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Metropolitan Grubu
+- Brezilya Serie B
 - Dünya Kupası 2026 Son 32 Turu
-- Fas Botola Pro
-- İzlanda Urvalsdeild
+- Şili Kupa Grup E
+- Şili Kupa Grup H
 
 ## Okunabilen Oran Alanlari
 
@@ -73,28 +80,35 @@ Tarih: 2026-07-02T17:03:48.222180+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 13
-- Acilan detay: 13
+- Denenen Tumu alani: 10
+- Acilan detay: 10
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 02.07.2026 | 22:00 | Dünya Kupası 2026 Son 32 Turu | İspanya | Avusturya | 04617 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Uts Rabat | Ittihad Tanger | 03411 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Rsb Berkane | Wydad Casablanc | 08985 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Kawkab Marrake | Maghreb Fes | 08826 | 5 |
-| 02.07.2026 | 20:00 | Fas Botola Pro | Yacoub El Mans | Difaa | 01795 | 5 |
-| 02.07.2026 | 22:15 | İzlanda Urvalsdeild | Vikingur Reykj | Ka Akureyri | 05526 | 2 |
+| 03.07.2026 | 02:00 | Dünya Kupası 2026 Son 32 Turu | Portekiz | Hirvatistan | 05562 | 5 |
+| 03.07.2026 | 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre | Cezayir | 06365 | 5 |
+| 03.07.2026 | 03:30 | Şili Kupa Grup E | O Higgins | Colo Colo | 03870 | 5 |
+| 03.07.2026 | 01:00 | Şili Kupa Grup H | Huachipato | Concepcion | 08698 | 5 |
+| 03.07.2026 | 03:00 | Brezilya Serie B | Fortaleza Ce | Ponte Preta | 06125 | 5 |
+| 03.07.2026 | 02:00 | Brezilya Serie B | Cuiaba | America Mineiro | 06167 | 5 |
+| 03.07.2026 | 03:00 | ABD USL | Birmingham Leg | Detroit City | 05672 | 5 |
+| 03.07.2026 | 02:00 | ABD USL Lig 2 Heartland Grubu | Rochester | Chicago Dutch L | 11109 | 3 |
+| 03.07.2026 | 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley | Manhattan | 08138 | 3 |
+| 03.07.2026 | 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru | Long Island | 02923 | 3 |
+| 03.07.2026 | 03:00 | ABD USL Lig 2 Metropolitan Grubu | Fc Motown Ii | Morris Elite | 10011 | 2 |
+| 03.07.2026 | 03:30 | ABD USL Lig 2 Great Plains Grubu | Peoria City | St. Louis Ambus | 11131 | 3 |
+| 03.07.2026 | 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Apotheos | East Atlanta | 09884 | 5 |
+| 03.07.2026 | 04:30 | ABD USL Lig 1 | Athletic Club | One Knoxville | 11741 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

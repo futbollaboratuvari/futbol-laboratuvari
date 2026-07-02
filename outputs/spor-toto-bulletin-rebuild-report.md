@@ -1,24 +1,23 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-02T10:16:42.247Z
-- Ham fixture sayisi: 895
-- Bugun/yarin kaynak mac: 67
-- Aktif bulten maci: 40
-- Gosterilen mac: 15
-- Bultenden dusurulen mac: 27
+- Guncelleme: 2026-07-02T20:44:33.995Z
+- Ham fixture sayisi: 896
+- Bugun/yarin kaynak mac: 68
+- Aktif bulten maci: 14
+- Gosterilen mac: 14
+- Bultenden dusurulen mac: 54
 
-- 1. 2026-07-02 15:30 | Lübnan Premier Lig | Jwaya - Shabab S | scheduled
-- 2. 2026-07-02 16:00 | Avrupa U19 Şampiyonası Grup B | Hirvatistan (U - İtalya U19 | scheduled
-- 3. 2026-07-02 16:00 | Lübnan Premier Lig | Reyady Abaseya - Racing Beirut | scheduled
-- 4. 2026-07-02 17:00 | Kazakistan Premier Lig | Kairat Almaty - Okzhetpes | scheduled
-- 5. 2026-07-02 18:00 | Belarus Premier Lig | Bate Borisov - Gomel | scheduled
-- 6. 2026-07-02 18:00 | Litvanya 1.Lig | Bfa - Ekranas | scheduled
-- 7. 2026-07-02 18:00 | Hazırlık Kulüpler | Dynamo Kiev - Rapid Bükreş | scheduled
-- 8. 2026-07-02 18:00 | İran Azadegan Ligi | Niroye Zamini - Pars Jam Busheh | scheduled
-- 9. 2026-07-02 18:00 | Hazırlık Kulüpler | Nürnberg - Legia Varşova | scheduled
-- 10. 2026-07-02 18:00 | Hazırlık Kulüpler | Polessya - Sabah | scheduled
-- 11. 2026-07-02 18:00 | Litvanya 1.Lig | Zalgiris Ii - Hegelmann Ii | scheduled
-- 12. 2026-07-02 19:00 | Finlandiya Ykkönen | Fc Jazz - Kpv Kokkola | scheduled
-- 13. 2026-07-02 19:00 | Estonya Premium Lig | Kuressaare - Flora Tallinn | scheduled
-- 14. 2026-07-02 19:00 | Norveç 1.Lig | Lyn Oslo - Asane | scheduled
-- 15. 2026-07-02 20:00 | Fas Botola Pro | Codm Meknes - Far Rabat | scheduled
+- 1. 2026-07-03 01:00 | Şili Kupa Grup H | Huachipato - Concepcion | scheduled
+- 2. 2026-07-03 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru - Long Island | scheduled
+- 3. 2026-07-03 02:00 | Brezilya Serie B | Cuiaba - America Mineiro | scheduled
+- 4. 2026-07-03 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Manhattan | scheduled
+- 5. 2026-07-03 02:00 | Dünya Kupası 2026 Son 32 Turu | Portekiz - Hirvatistan | scheduled
+- 6. 2026-07-03 02:00 | ABD USL Lig 2 Heartland Grubu | Rochester - Chicago Dutch L | scheduled
+- 7. 2026-07-03 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Apotheos - East Atlanta | scheduled
+- 8. 2026-07-03 03:00 | ABD USL | Birmingham Leg - Detroit City | scheduled
+- 9. 2026-07-03 03:00 | ABD USL Lig 2 Metropolitan Grubu | Fc Motown Ii - Morris Elite | scheduled
+- 10. 2026-07-03 03:00 | Brezilya Serie B | Fortaleza Ce - Ponte Preta | scheduled
+- 11. 2026-07-03 03:30 | Şili Kupa Grup E | O Higgins - Colo Colo | scheduled
+- 12. 2026-07-03 03:30 | ABD USL Lig 2 Great Plains Grubu | Peoria City - St. Louis Ambus | scheduled
+- 13. 2026-07-03 04:30 | ABD USL Lig 1 | Athletic Club - One Knoxville | scheduled
+- 14. 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | scheduled
