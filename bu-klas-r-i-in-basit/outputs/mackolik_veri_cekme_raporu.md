@@ -1,42 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-02T20:44:33.269686+00:00
+Tarih: 2026-07-02T20:46:35.994942+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 14
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 13
+- Kac mac bulundu: 0
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 903
 - Hedef tarih: 02.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Great Plains Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Metropolitan Grubu
-- Brezilya Serie B
-- Dünya Kupası 2026 Son 32 Turu
-- Şili Kupa Grup E
-- Şili Kupa Grup H
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -92,22 +84,7 @@ Tarih: 2026-07-02T20:44:33.269686+00:00
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 03.07.2026 | 02:00 | Dünya Kupası 2026 Son 32 Turu | Portekiz | Hirvatistan | 05562 | 5 |
-| 03.07.2026 | 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre | Cezayir | 06365 | 5 |
-| 03.07.2026 | 03:30 | Şili Kupa Grup E | O Higgins | Colo Colo | 03870 | 5 |
-| 03.07.2026 | 01:00 | Şili Kupa Grup H | Huachipato | Concepcion | 08698 | 5 |
-| 03.07.2026 | 03:00 | Brezilya Serie B | Fortaleza Ce | Ponte Preta | 06125 | 5 |
-| 03.07.2026 | 02:00 | Brezilya Serie B | Cuiaba | America Mineiro | 06167 | 5 |
-| 03.07.2026 | 03:00 | ABD USL | Birmingham Leg | Detroit City | 05672 | 5 |
-| 03.07.2026 | 02:00 | ABD USL Lig 2 Heartland Grubu | Rochester | Chicago Dutch L | 11109 | 3 |
-| 03.07.2026 | 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley | Manhattan | 08138 | 3 |
-| 03.07.2026 | 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru | Long Island | 02923 | 3 |
-| 03.07.2026 | 03:00 | ABD USL Lig 2 Metropolitan Grubu | Fc Motown Ii | Morris Elite | 10011 | 2 |
-| 03.07.2026 | 03:30 | ABD USL Lig 2 Great Plains Grubu | Peoria City | St. Louis Ambus | 11131 | 3 |
-| 03.07.2026 | 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Apotheos | East Atlanta | 09884 | 5 |
-| 03.07.2026 | 04:30 | ABD USL Lig 1 | Athletic Club | One Knoxville | 11741 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
