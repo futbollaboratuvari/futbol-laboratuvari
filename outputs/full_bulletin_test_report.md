@@ -2,17 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 40
-- Live match count: 1
+- Scheduled match count: 13
+- Live match count: 0
 - Finished removed count: 0
 
-- 2026-07-02 12:00 | Vojvodina - Universitatea C | live
-- 2026-07-02 15:30 | Jwaya - Shabab S | scheduled
-- 2026-07-02 16:00 | Hirvatistan (U - İtalya U19 | scheduled
-- 2026-07-02 16:00 | Reyady Abaseya - Racing Beirut | scheduled
-- 2026-07-02 17:00 | Kairat Almaty - Okzhetpes | scheduled
-- 2026-07-02 18:00 | Bate Borisov - Gomel | scheduled
-- 2026-07-02 18:00 | Dynamo Kiev - Rapid Bükreş | scheduled
-- 2026-07-02 18:00 | Nürnberg - Legia Varşova | scheduled
-- 2026-07-02 18:00 | Polessya - Sabah | scheduled
-- 2026-07-02 18:00 | Niroye Zamini - Pars Jam Busheh | scheduled
+- 2026-07-03 01:00 | Huachipato - Concepcion | scheduled
+- 2026-07-03 02:00 | Rochester - Chicago Dutch L | scheduled
+- 2026-07-03 02:00 | Cedar Stars Ru - Long Island | scheduled
+- 2026-07-03 02:00 | Cuiaba - America Mineiro | scheduled
+- 2026-07-03 02:00 | Portekiz - Hirvatistan | scheduled
+- 2026-07-03 02:30 | Apotheos - East Atlanta | scheduled
+- 2026-07-03 03:00 | Birmingham Leg - Detroit City | scheduled
+- 2026-07-03 03:00 | Fc Motown Ii - Morris Elite | scheduled
+- 2026-07-03 03:00 | Fortaleza Ce - Ponte Preta | scheduled
+- 2026-07-03 03:30 | Peoria City - St. Louis Ambus | scheduled

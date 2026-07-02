@@ -4,16 +4,14 @@ Gunler: 2026-07-02 / 2026-07-03
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 67
-Aktif mac: 15
-Canli mac: 22
+Aktif mac: 13
+Canli mac: 24
 Biten mac: 30
-Bultenden dusurulen mac: 52
-Bugun: 2
+Bultenden dusurulen mac: 54
+Bugun: 0
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-02 22:00 | Dünya Kupası 2026 Son 32 Turu | İspanya - Avusturya | scheduled | -
-- 2026-07-02 22:15 | İzlanda Urvalsdeild | Vikingur Reykj - Ka Akureyri | scheduled | -
 - 2026-07-03 01:00 | Şili Kupa Grup H | Huachipato - Concepcion | scheduled | -
 - 2026-07-03 02:00 | Dünya Kupası 2026 Son 32 Turu | Portekiz - Hirvatistan | scheduled | -
 - 2026-07-03 02:00 | Brezilya Serie B | Cuiaba - America Mineiro | scheduled | -
@@ -29,6 +27,8 @@ Yarin: 13
 - 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | scheduled | -
 
 ## Canli Maclar
+- 2026-07-02 22:00 | Dünya Kupası 2026 Son 32 Turu | İspanya - Avusturya | live | -
+- 2026-07-02 22:15 | İzlanda Urvalsdeild | Vikingur Reykj - Ka Akureyri | live | -
 - 2026-07-02 20:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Ukrayna U19 | live | -
 - 2026-07-02 20:00 | Fas Botola Pro | Olympique Dche - Ol. Safi | live | -
 - 2026-07-02 20:00 | Fas Botola Pro | Yacoub El Mans - Difaa | live | -
