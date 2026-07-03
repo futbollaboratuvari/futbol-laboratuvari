@@ -46,13 +46,18 @@ jobs:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           SITE_URL: ${{ secrets.SITE_URL }}
+          INSTAGRAM_API_MODE: ${{ secrets.INSTAGRAM_API_MODE || vars.INSTAGRAM_API_MODE || '' }}
         run: |
           python - <<'PY'
           import os
+          token = os.getenv("INSTAGRAM_ACCESS_TOKEN", "")
           for name in ("INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "SITE_URL"):
               value = os.getenv(name, "")
               print(f"{name}: {'VAR' if value else 'YOK'}")
               print(f"{name}_UZUNLUK: {len(value)}")
+          configured_mode = os.getenv("INSTAGRAM_API_MODE", "").strip()
+          detected_mode = "instagram_login" if token.strip().upper().startswith("IG") else "facebook_login"
+          print(f"INSTAGRAM_API_MODE: {configured_mode or detected_mode}")
           PY
 
       - name: Ensure default Instagram media
@@ -100,6 +105,7 @@ jobs:
           SITE_URL: ${{ secrets.SITE_URL }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          INSTAGRAM_API_MODE: ${{ secrets.INSTAGRAM_API_MODE || vars.INSTAGRAM_API_MODE || '' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           IG_SAFE_DEBUG: "true"
         run: |
@@ -163,7 +169,7 @@ jobs:
           if 'Cannot parse access token' in error or 'code":190' in error:
               print('Çözüm: INSTAGRAM_ACCESS_TOKEN içine GitHub/Vercel tokenı değil, Meta Developers üzerinden alınmış Instagram Graph API access tokenı kaydedilmeli.')
           if 'Application does not have permission for this action' in error or 'GraphMethodException' in error or 'error_subcode":33' in error:
-              print('Çözüm: Token okunuyor ama Meta bu Instagram hesabına yayın izni vermiyor. Facebook sayfası Instagram hesabına bağlı olmalı, token izin ekranında o sayfa seçilmeli ve INSTAGRAM_USER_ID /me/accounts sonucundaki instagram_business_account.id olmalı.')
+              print('Çözüm: Token okunuyor ama Meta bu Instagram hesabına yayın izni vermiyor. Facebook Login kullanılıyorsa INSTAGRAM_USER_ID /me/accounts sonucundaki instagram_business_account.id olmalı. Instagram Login kullanılıyorsa INSTAGRAM_API_MODE=instagram_login ayarlayın veya IG ile başlayan tokenı kaydedin.')
               print('Not: Eski başarısız job rerun edilirse eski commit ile çalışır. Actions > Instagram Auto Post > Run workflow ile main branch üstünden yeni çalışma başlatın.')
           PY
           exit 1
