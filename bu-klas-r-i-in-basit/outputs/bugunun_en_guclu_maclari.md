@@ -87,10 +87,10 @@ MAC_SAYISI: 5
 
 ## Rapor Bilgisi
 
-OLUSTURMA_ZAMANI: 2026-07-02T20:46:36.055807+00:00
-TOPLAM_TAHMIN: 65
+OLUSTURMA_ZAMANI: 2026-07-03T08:39:52.111949+00:00
+TOPLAM_TAHMIN: 70
 SONUCLANAN_TAHMIN: 0
-BEKLEYEN_TAHMIN: 65
+BEKLEYEN_TAHMIN: 70
 VOID_TAHMIN: 0
 GENEL_BASARI_ORANI: -
 
@@ -104,27 +104,27 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 
 | Market | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| KG_VAR | 0 | 0 | 26 | 0 | - |
-| UST_25 | 0 | 0 | 39 | 0 | - |
+| KG_VAR | 0 | 0 | 28 | 0 | - |
+| UST_25 | 0 | 0 | 42 | 0 | - |
 
 ## Tahmin Turu Bazli Basari
 
 | Tahmin Turu | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| KG_VAR | 0 | 0 | 26 | 0 | - |
-| UST_25 | 0 | 0 | 39 | 0 | - |
+| KG_VAR | 0 | 0 | 28 | 0 | - |
+| UST_25 | 0 | 0 | 42 | 0 | - |
 
 ## Lig Bazli Basari
 
 | Lig | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| Premier League | 0 | 0 | 65 | 0 | - |
+| Premier League | 0 | 0 | 70 | 0 | - |
 
 ## Confidence Bazli Basari
 
 | Confidence | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| low | 0 | 0 | 65 | 0 | - |
+| low | 0 | 0 | 70 | 0 | - |
 
 ## Faz 5 Notu
 
@@ -139,15 +139,15 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 - Gelen mac: 5
 - Yeni eklenen mac: 0
 - Tekrar mac: 5
-- Toplam benzersiz mac: 903
+- Toplam benzersiz mac: 967
 - Dosya: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Tahmin Performans Takibi
 
 - Gelen tahmin: 5
-- Yeni eklenen tahmin: 0
-- Tekrar tahmin: 5
-- Toplam tahmin: 65
+- Yeni eklenen tahmin: 5
+- Tekrar tahmin: 0
+- Toplam tahmin: 70
 - Dosya: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/tahmin_gecmisi.json
 
 ## Ortam Uyarilari
@@ -165,8 +165,8 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 ## Mackolik Veri Cekme Durumu
 
 - Durum: success
-- Bulunan mac: 0
+- Bulunan mac: 51
 - Yeni kaydedilen mac: 0
-- Tekrar mac: 0
-- Ham havuz toplam mac: 903
+- Tekrar mac: 51
+- Ham havuz toplam mac: 967
 - Rapor: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md
