@@ -3,21 +3,14 @@
 Gunler: 2026-07-03 / 2026-07-04
 Kaynak: fixtures.json
 Ham mac: 64
-Aktif mac: 52
-Canli mac: 12
+Aktif mac: 45
+Canli mac: 19
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 39
+Bultenden dusurulen mac: 19
+Bugun: 32
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-03 15:30 | Lübnan Premier Lig | Tadamon Tyre - Ansar | scheduled | -
-- 2026-07-03 16:00 | Belarus Premier Lig | Naftan - Dinamo Brest | scheduled | -
-- 2026-07-03 16:00 | Etiyopya Premier Lig | Welayta Dicha - Ethiopia Bunna | scheduled | -
-- 2026-07-03 16:00 | Etiyopya Premier Lig | Mekelakeya - Hadiya Hosaena | scheduled | -
-- 2026-07-03 17:00 | Hazırlık Kulüpler | Sturm Graz - Fk Kosice | scheduled | -
-- 2026-07-03 17:00 | Lübnan Premier Lig | Safa - Mabarra | scheduled | -
-- 2026-07-03 17:00 | Kazakistan Premier Lig | Astana - Zhenys | scheduled | -
 - 2026-07-03 18:00 | Hazırlık Kulüpler | Pafos Fc - Cracovia Krakow | scheduled | -
 - 2026-07-03 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Polonya U19 (K - Bosna-Hersek U1 | scheduled | -
 - 2026-07-03 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Almanya U19 (K - İsveç U19 (K) | scheduled | -
@@ -77,6 +70,13 @@ Yarin: 13
 - 2026-07-03 14:00 | Avustralya NPL Güney Avustralya | Adelaide Comet - Croydon Kings | live | -
 - 2026-07-03 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Henan Jianye | live | -
 - 2026-07-03 15:00 | Belarus 1.Lig | Fc Minsk Ii - Gomel Ii | live | -
+- 2026-07-03 15:30 | Lübnan Premier Lig | Tadamon Tyre - Ansar | live | -
+- 2026-07-03 16:00 | Belarus Premier Lig | Naftan - Dinamo Brest | live | -
+- 2026-07-03 16:00 | Etiyopya Premier Lig | Welayta Dicha - Ethiopia Bunna | live | -
+- 2026-07-03 16:00 | Etiyopya Premier Lig | Mekelakeya - Hadiya Hosaena | live | -
+- 2026-07-03 17:00 | Hazırlık Kulüpler | Sturm Graz - Fk Kosice | live | -
+- 2026-07-03 17:00 | Lübnan Premier Lig | Safa - Mabarra | live | -
+- 2026-07-03 17:00 | Kazakistan Premier Lig | Astana - Zhenys | live | -
 
 ## Biten Maclar
 Biten mac yok.
