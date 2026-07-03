@@ -153,15 +153,19 @@ def normalize_secret_value(value: str) -> str:
 
 def detect_api_mode(access_token: str) -> str:
     """Choose the correct Meta graph host without printing token contents."""
+    token = access_token.strip().upper()
+    if token.startswith("IG"):
+        return INSTAGRAM_LOGIN_MODE
+    if token.startswith("EA"):
+        return FACEBOOK_LOGIN_MODE
+
     configured = os.getenv("INSTAGRAM_API_MODE", "").strip().lower().replace("-", "_")
     if configured in {"instagram", "instagram_login", "graph_instagram"}:
         return INSTAGRAM_LOGIN_MODE
     if configured in {"facebook", "facebook_login", "graph_facebook"}:
         return FACEBOOK_LOGIN_MODE
 
-    # Instagram Login tokens are commonly IG-prefixed; Facebook Login tokens are commonly EA-prefixed.
-    # This is only used for routing and is never printed as a token value.
-    return INSTAGRAM_LOGIN_MODE if access_token.upper().startswith("IG") else FACEBOOK_LOGIN_MODE
+    return FACEBOOK_LOGIN_MODE
 
 
 def graph_api_base(api_mode: str = FACEBOOK_LOGIN_MODE) -> str:
@@ -246,7 +250,7 @@ def validate_instagram_access(instagram_user_id: str, access_token: str) -> str:
             api_get(
                 instagram_user_id,
                 {
-                    "fields": "id,username,account_type",
+                    "fields": "id,username",
                     "access_token": access_token,
                 },
                 api_mode,
@@ -271,8 +275,7 @@ def validate_instagram_access(instagram_user_id: str, access_token: str) -> str:
     if not isinstance(pages, list) or not pages:
         raise InstagramAutomationError(
             "Facebook Login tokeni kullaniliyor ama /me/accounts bos donuyor. "
-            "Instagram Login tokeni kullaniyorsan INSTAGRAM_API_MODE=instagram_login degiskenini ekle veya IG ile baslayan tokeni kaydet. "
-            "Facebook Login kullaniyorsan izin ekraninda futbollaboratuvari sayfasini sec."
+            "Token izin ekraninda futbollaboratuvari Facebook sayfasi secilmeli ve hesapta sayfa icin tam kontrol/admin yetkisi olmali."
         )
 
     linked_instagram_ids = []
