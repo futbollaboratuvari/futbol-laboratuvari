@@ -116,13 +116,20 @@
   const marketByKey = Object.fromEntries(markets.map(([key, label, keys]) => [key, { key, label, keys }]));
 
   const detailMarkets = [
-    ["İlk yarı KG Var", ["firstHalfBttsYes", "firstHalfKgVar", "firstHalfBttsYes_guess", "iyKgVar"]],
-    ["İlk yarı KG Yok", ["firstHalfBttsNo", "firstHalfKgYok", "firstHalfBttsNo_guess", "iyKgYok"]],
-    ["İkinci yarı KG Var", ["secondHalfBttsYes", "secondHalfKgVar", "secondHalfBttsYes_guess", "iy2KgVar"]],
-    ["İkinci yarı KG Yok", ["secondHalfBttsNo", "secondHalfKgYok", "secondHalfBttsNo_guess", "iy2KgYok"]],
-    ["Gol beklentisi 2.5 Üst", ["over25", "ust25", "ust_25", "over"]],
-    ["Gol beklentisi 2.5 Alt", ["under25", "alt25", "alt_25", "under"]]
+    ["firstHalfBttsYes", "İlk yarı KG Var", ["firstHalfBttsYes", "firstHalfKgVar", "firstHalfBttsYes_guess", "iyKgVar", "ilk_yari_kg_var"]],
+    ["firstHalfBttsNo", "İlk yarı KG Yok", ["firstHalfBttsNo", "firstHalfKgYok", "firstHalfBttsNo_guess", "iyKgYok", "ilk_yari_kg_yok"]],
+    ["secondHalfBttsYes", "İkinci yarı KG Var", ["secondHalfBttsYes", "secondHalfKgVar", "secondHalfBttsYes_guess", "iy2KgVar", "ikinci_yari_kg_var"]],
+    ["secondHalfBttsNo", "İkinci yarı KG Yok", ["secondHalfBttsNo", "secondHalfKgYok", "secondHalfBttsNo_guess", "iy2KgYok", "ikinci_yari_kg_yok"]],
+    ["over25", "2.5 Üst", ["over25", "ust25", "ust_25", "over", "ust"]],
+    ["under25", "2.5 Alt", ["under25", "alt25", "alt_25", "under", "alt"]],
+    ["over35", "3.5 Üst", ["over35", "ust35", "ust_35", "over35_guess"]],
+    ["under35", "3.5 Alt", ["under35", "alt35", "alt_35", "under35_guess"]],
+    ["firstHalfOver15", "1. Yarı 1.5 Üst", ["firstHalfOver15", "iyOver15", "iyUst15", "ilk_yari_ust_15"]],
+    ["firstHalfUnder15", "1. Yarı 1.5 Alt", ["firstHalfUnder15", "iyUnder15", "iyAlt15", "ilk_yari_alt_15"]],
+    ["bttsYes", "KG Var", ["bttsYes", "kgVar", "kg_var", "bttsYes_guess", "varOdd"]],
+    ["bttsNo", "KG Yok", ["bttsNo", "kgYok", "kg_yok", "bttsNo_guess", "yokOdd"]]
   ];
+  detailMarkets.forEach(([key, label, keys]) => { marketByKey[key] = { key, label, keys }; });
 
   function splitTeams(x) {
     return String(x.match || x.match_name || "").split(/\s+-\s+|\s+VS\s+/i);
@@ -262,7 +269,7 @@
     if ($("#flw-style")) return;
     const s = document.createElement("style");
     s.id = "flw-style";
-    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-warning{padding:8px 14px;background:#3b2107;color:#ffe2b8;font-size:12px;font-weight:850}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e;flex-wrap:wrap}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px;cursor:pointer}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button,.flw-analyze,.flw-clear,.flw-remove,.flw-detail-toggle{background:#ffd400;color:#073d3b;cursor:pointer}.flw-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:960px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px) 86px}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px}.flw-time{font-weight:1000;color:#006447}.flw-live-time{color:#d01515}.flw-finished-time{color:#555}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950;cursor:pointer}.flw-odd.on,.flw-odd:hover{background:#ffd400}.flw-odd:disabled{cursor:not-allowed;color:#7c918b;background:#edf5f1}.flw-detail-toggle{border:0;border-radius:8px;font-weight:1000;padding:7px 9px;width:100%}.flw-detail-row{padding:10px 12px;background:#fff;border-bottom:1px solid #cbded6}.flw-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.flw-detail-card{border:1px solid #cbded6;border-radius:8px;padding:8px;background:#f7fff9;font-size:11px;line-height:1.45}.flw-detail-card b{display:block;color:#073d3b;margin-bottom:4px}.flw-detail-note{color:#59766f}.flw-slip{background:#092c2b;border-left:1px solid rgba(255,255,255,.14);padding:14px}.flw-slip h3{margin:0;color:#ffd400}.flw-card{margin-top:9px;padding:9px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(255,255,255,.05);font-size:11px}.flw-flex{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#ffd400;font-weight:950}.flw-act{display:grid;gap:8px;margin-top:9px}.flw-analyze,.flw-clear,.flw-remove{border:0;border-radius:8px;font-weight:1000;padding:7px 9px}.flw-analysis{line-height:1.45;color:#dceee8}.flw-note{color:#a8c2ba;font-size:11px;margin-top:8px}@media(max-width:920px){.flw-filter{grid-template-columns:1fr}.flw-layout{display:block}.flw-slip{border-left:0}.flw-top{display:block}.flw-detail-grid{grid-template-columns:1fr}.flw-table{min-width:900px}}`;
+    s.textContent = `.flw{margin:18px clamp(10px,3vw,52px);background:#073d3b;color:#fff;border:1px solid rgba(255,212,0,.28);font-family:inherit}.flw-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#ffd400;color:#073d3b;padding:12px 14px}.flw-top h2{margin:0;font-size:19px}.flw-warning{padding:8px 14px;background:#3b2107;color:#ffe2b8;font-size:12px;font-weight:850}.flw-tabs{display:flex;gap:8px;padding:10px 14px;background:#0f645e;flex-wrap:wrap}.flw-tabs button{border:1px solid rgba(255,212,0,.45);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-weight:1000;padding:8px 12px;cursor:pointer}.flw-tabs button.on{background:#ffd400;color:#073d3b}.flw-filter{display:grid;grid-template-columns:1fr 220px 90px;gap:8px;padding:10px 14px;background:#062d2c}.flw-filter input,.flw-filter select,.flw-filter button{height:38px;border:0;border-radius:9px;padding:0 10px;font-weight:850}.flw-filter button,.flw-analyze,.flw-clear,.flw-remove,.flw-detail-toggle{background:#ffd400;color:#073d3b;cursor:pointer}.flw-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px}.flw-main{padding:12px;overflow:auto}.flw-table{min-width:960px;background:#f7fff9;color:#062d2c;border-radius:12px;overflow:hidden}.flw-head,.flw-row{display:grid;grid-template-columns:76px 130px minmax(240px,1fr) repeat(7,58px) 86px}.flw-head{background:#0a504b;color:#fff7bd;font-size:11px;font-weight:1000}.flw-head span,.flw-row>*{padding:7px 6px;border-right:1px solid #cbded6;border-bottom:1px solid #cbded6}.flw-league{background:#d9efe3;color:#073d3b;padding:8px 11px;font-size:11px;font-weight:1000}.flw-row{font-size:11px}.flw-time{font-weight:1000;color:#006447}.flw-live-time{color:#d01515}.flw-finished-time{color:#555}.flw-teams b{display:block}.flw-code{font-size:9px;color:#6a837d}.flw-empty{margin:13px;padding:19px 12px;border:1px dashed rgba(255,255,255,.25);border-radius:11px;text-align:center;color:#bfd6cf}.flw-odd{display:block;width:100%;min-height:30px;border-radius:8px;border:1px solid #bdd0ca;background:#fff;color:#073d3b;font-weight:950;cursor:pointer}.flw-odd.on,.flw-odd:hover{background:#ffd400}.flw-odd:disabled{cursor:not-allowed;color:#7c918b;background:#edf5f1}.flw-detail-toggle{border:0;border-radius:8px;font-weight:1000;padding:7px 9px;width:100%}.flw-detail-row{padding:10px 12px;background:#fff;border-bottom:1px solid #cbded6}.flw-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.flw-detail-card{border:1px solid #cbded6;border-radius:8px;padding:8px;background:#f7fff9;font-size:11px;line-height:1.45}.flw-detail-card b{display:block;color:#073d3b;margin-bottom:4px}.flw-detail-note{color:#59766f}.flw-detail-market{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:5px 0}.flw-detail-market span{font-weight:850}.flw-detail-odd{width:auto;min-width:74px;padding:5px 8px}.flw-slip{background:#092c2b;border-left:1px solid rgba(255,255,255,.14);padding:14px}.flw-slip h3{margin:0;color:#ffd400}.flw-card{margin-top:9px;padding:9px;border:1px solid rgba(255,255,255,.15);border-radius:10px;background:rgba(255,255,255,.05);font-size:11px}.flw-flex{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#ffd400;font-weight:950}.flw-act{display:grid;gap:8px;margin-top:9px}.flw-analyze,.flw-clear,.flw-remove{border:0;border-radius:8px;font-weight:1000;padding:7px 9px}.flw-analysis{line-height:1.45;color:#dceee8}.flw-note{color:#a8c2ba;font-size:11px;margin-top:8px}@media(max-width:920px){.flw-filter{grid-template-columns:1fr}.flw-layout{display:block}.flw-slip{border-left:0}.flw-top{display:block}.flw-detail-grid{grid-template-columns:1fr}.flw-table{min-width:900px}}`;
     document.head.appendChild(s);
   }
 
@@ -277,17 +284,25 @@
     return base.filter((m) => (app.league === "all" || m.league === app.league) && (!app.q || `${m.home} ${m.away} ${m.league}`.toLocaleLowerCase("tr-TR").includes(app.q)));
   }
 
+  function pickId(matchId, key) {
+    return `${matchId}|${key}`;
+  }
+
   function oddBtn(m, key, label, keys) {
     const value = pick(m, keys);
     if (isBlank(value)) return `<button class="flw-odd" disabled title="Oran verisi bekleniyor">—</button>`;
-    const on = app.picks.get(m._id)?.key === key ? " on" : "";
+    const on = app.picks.has(pickId(m._id, key)) ? " on" : "";
     return `<button class="flw-odd${on}" data-pick="${esc(m._id)}" data-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button>`;
   }
 
   function detailOddLine(m) {
-    const lines = detailMarkets.map(([label, keys]) => {
+    const lines = detailMarkets.map(([key, label, keys]) => {
       const value = pick(m, keys);
-      return `<div>${esc(label)}: <strong>${isBlank(value) ? "Veri bekleniyor" : esc(fmt(value))}</strong></div>`;
+      if (isBlank(value)) {
+        return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd" disabled title="Oran verisi bekleniyor">Veri bekleniyor</button></div>`;
+      }
+      const on = app.picks.has(pickId(m._id, key)) ? " on" : "";
+      return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd${on}" data-pick="${esc(m._id)}" data-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button></div>`;
     });
     const oddsCount = Object.values(m.available_odds || m.odds || {}).filter((v) => !isBlank(v)).length;
     return `${lines.join("")}<div class="flw-detail-note">Oran kaynağı: ${esc(m.oddsSource || m.source || "Maçkolik veri akışı")}. ${oddsCount ? `${oddsCount} oran alanı bulundu.` : "Oran verisi bekleniyor."}</div>`;
@@ -380,8 +395,9 @@
     if (!item || !market) return;
     const value = pick(item, market.keys);
     if (isBlank(value)) return;
-    if (app.picks.get(id)?.key === key) app.picks.delete(id);
-    else app.picks.set(id, { id, key, label: market.label, value, home: item.home, away: item.away });
+    const idKey = pickId(id, key);
+    if (app.picks.has(idKey)) app.picks.delete(idKey);
+    else app.picks.set(idKey, { id: idKey, matchId: id, key, label: market.label, value, home: item.home, away: item.away });
     drawRows();
     drawSlip();
   }
