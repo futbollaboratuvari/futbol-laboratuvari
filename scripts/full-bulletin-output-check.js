@@ -51,7 +51,8 @@ function todayTR() {
 
 function nowMin() {
   const p = trParts();
-  return Number(p.hour) * 60 + Number(p.minute);
+  const hour = Number(p.hour === "24" ? "0" : p.hour || 0);
+  return hour * 60 + Number(p.minute || 0);
 }
 
 function addDays(dateKey, days) {
@@ -93,7 +94,7 @@ function inWindow(match) {
   const date = String(match.date || "").slice(0, 10);
   const minute = clockMin(match.time);
   if (!date || minute === null) return false;
-  return date === today || (date === tomorrow && minute < 480);
+  return date === today || date === tomorrow;
 }
 
 function oddsCount(match) {
@@ -120,7 +121,7 @@ function normalize(source, sourceName) {
     source: sourceName || source?.source || "Futbol Laboratuvari bulten akisi",
     status: scheduled.length || live.length ? "active" : "waiting",
     message: scheduled.length || live.length ? "" : "Guncel mac verisi henuz olusmadi.",
-    date_window: { main_day: today, includes_next_day_until: `${tomorrow} 08:00` },
+    date_window: { main_day: today, includes_next_day_until: `${tomorrow} 23:59` },
     match_count: scheduled.length,
     live_count: live.length,
     scheduled_count: scheduled.length,
@@ -150,7 +151,7 @@ const health = {
   first_match: bulletin.live_matches[0] || bulletin.matches[0] || null,
   date_window: bulletin.date_window || null,
   notes: bulletin.matches.length || bulletin.live_matches.length
-    ? ["Bulten veri akisi aktif.", "Biten maclar ana bultenden cikarildi.", "Baslayan maclar live_matches alanina ayrildi."]
+    ? ["Bulten veri akisi aktif.", "Biten maclar ana bultenden cikarildi.", "Baslayan maclar live_matches alanina ayrildi.", "Bugun ve yarin tam gun bulten penceresi korunuyor."]
     : ["Bulten verisi uretilemedi."],
 };
 writeJson(healthPath, health);
@@ -164,9 +165,10 @@ writeText(reportPath, [
   `- Scheduled match count: ${health.match_count}`,
   `- Live match count: ${health.live_match_count}`,
   `- Finished removed count: ${health.finished_count}`,
+  `- Date window: ${bulletin.date_window?.main_day || "-"} / ${bulletin.date_window?.includes_next_day_until || "-"}`,
   "",
   ...firstRows.map((m) => `- ${m.date} ${m.time} | ${m.home} - ${m.away} | ${m.status}`),
   "",
 ].join("\n"));
 
-console.log(`Full bulletin final check: ${health.status}. Scheduled: ${health.match_count}. Live: ${health.live_match_count}. Cache: ${health.restored_from_cache}.`);
+console.log(`Full bulletin final check: ${health.status}. Scheduled: ${health.match_count}. Live: ${health.live_match_count}. Cache: ${health.restored_from_cache}. Window: ${bulletin.date_window?.includes_next_day_until || "-"}.`);
