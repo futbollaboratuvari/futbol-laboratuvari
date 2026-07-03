@@ -1,39 +1,40 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-03T08:39:52.048567+00:00
+Tarih: 2026-07-03T15:46:13.691892+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 51
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 51
-- Ham veri havuzu toplam mac sayisi: 967
+- Kac mac bulundu: 46
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 40
+- Ham veri havuzu toplam mac sayisi: 973
 - Hedef tarih: 03.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avrupa U19 Şampiyonası Kadınlar Grup A
-- Avustralya NPL Güney Avustralya
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Queensland
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Lone Star Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Orta Atlantik Grubu
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
-- Avustralya Victoria NPL 1
-- Belarus 1.Lig
-- Belarus Premier Lig
 - Dünya Kupası 2026 Son 32 Turu
+- Ekvador Pro Lig
 - Estonya Premium Lig
-- Etiyopya Premier Lig
 - Faroe Adaları Master Lig
-- Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
-- Kazakistan Premier Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Lübnan Premier Lig
 - Norveç 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
+- İran Azadegan Ligi
 - İrlanda 1.Lig
 - İrlanda Premier Lig
 - İsveç Allsvenskan
@@ -96,8 +97,8 @@ Tarih: 2026-07-03T08:39:52.048567+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 40
-- Acilan detay: 40
+- Denenen Tumu alani: 32
+- Acilan detay: 32
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -111,25 +112,25 @@ Tarih: 2026-07-03T08:39:52.048567+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 03.07.2026 | 21:00 | Dünya Kupası 2026 Son 32 Turu | Avustralya | Misir | 20222 | 5 |
+| 04.07.2026 | 04:30 | Dünya Kupası 2026 Son 32 Turu | Kolombiya | Gana | 06475 | 5 |
+| 04.07.2026 | 01:00 | Dünya Kupası 2026 Son 32 Turu | Arjantin | Kape Verde | 20294 | 4 |
+| 03.07.2026 | 21:45 | İrlanda Premier Lig | Drogheda | Bohemian | 13684 | 5 |
+| 03.07.2026 | 21:45 | İrlanda Premier Lig | St Patricks | Galway United | 13878 | 5 |
 | 03.07.2026 | 21:45 | İrlanda Premier Lig | Derry City | Waterford | 13630 | 5 |
 | 03.07.2026 | 22:00 | İrlanda Premier Lig | Shelbourne | Dundalk | 13770 | 5 |
 | 03.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Shamrock Rovers | 13824 | 5 |
-| 03.07.2026 | 21:45 | İrlanda Premier Lig | St Patricks | Galway United | 13878 | 5 |
-| 03.07.2026 | 21:45 | İrlanda Premier Lig | Drogheda | Bohemian | 13684 | 5 |
 | 03.07.2026 | 20:00 | İsveç Allsvenskan | Sirius | Mjallby | 13122 | 5 |
-| 03.07.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun | Henan Jianye | 15569 | 5 |
-| 03.07.2026 | 18:30 | Finlandiya Ykkösliiga | Japs | Sjk Ii | 11489 | 5 |
-| 03.07.2026 | 18:30 | Finlandiya Ykkösliiga | Kotka | Jippo Joensuu | 11429 | 5 |
-| 03.07.2026 | 17:00 | Hazırlık Kulüpler | Sturm Graz | Fk Kosice | 04745 | 5 |
+| 03.07.2026 | 17:30 | Hazırlık Kulüpler | Ssc Farul | Otelul Galati | 03237 | 5 |
 | 03.07.2026 | 21:30 | Hazırlık Kulüpler | River Plate | Flamengo | 09661 | 5 |
-| 03.07.2026 | 18:00 | Hazırlık Kulüpler | Pafos Fc | Cracovia Krakow | 17629 | 5 |
 | 03.07.2026 | 19:00 | Norveç 1.Lig | Raufoss | Strommen | 12808 | 5 |
 | 03.07.2026 | 20:00 | Norveç 1.Lig | Ranheim | Stabaek | 12910 | 5 |
 | 03.07.2026 | 19:00 | Norveç 1.Lig | Kongsvinger | Sogndal | 12666 | 5 |
-| 03.07.2026 | 21:45 | İrlanda 1.Lig | Cobh Ramblers | Cork City | 13597 | 5 |
-| 03.07.2026 | 21:45 | İrlanda 1.Lig | Treaty Unt. | Kerry | 13932 | 5 |
-| 03.07.2026 | 21:45 | İrlanda 1.Lig | Finn Harps | Wexford Youths | 13737 | 5 |
 | 03.07.2026 | 21:45 | İrlanda 1.Lig | Bray Wanderers | Athlone | 13565 | 5 |
+| 03.07.2026 | 21:45 | İrlanda 1.Lig | Cobh Ramblers | Cork City | 13597 | 5 |
+| 03.07.2026 | 21:45 | İrlanda 1.Lig | Finn Harps | Wexford Youths | 13737 | 5 |
+| 03.07.2026 | 21:45 | İrlanda 1.Lig | Treaty Unt. | Kerry | 13932 | 5 |
+| 03.07.2026 | 19:00 | Litvanya A Ligi | Dziugas Telsia | Kauno Zalgiris | 16438 | 5 |
+| 03.07.2026 | 21:30 | Lübnan Premier Lig | Hikma | Nejmeh | 14707 | 5 |
 
 ## Sonuc
 

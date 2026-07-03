@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.07.2026 17:12:37
+Oluşturma: 03.07.2026 18:46:29
 
 ## Özet
 
-- Toplam tahmin: 24
-- Bekleyen tahmin: 24
+- Toplam tahmin: 25
+- Bekleyen tahmin: 25
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 18
@@ -20,12 +20,13 @@ Oluşturma: 03.07.2026 17:12:37
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS X: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-03 | Norveç 1.Lig | Kongsvinger - Sogndal | MS 2 | pending | 40/100
 - 2026-07-03 | Finlandiya Ykkösliiga | Kotka - Jippo Joensuu | MS 2 | pending | 40/100
 - 2026-07-03 | Norveç 1.Lig | Raufoss - Strommen | MS X | pending | 60/100
 - 2026-07-03 | Norveç 1.Lig | Kongsvinger - Sogndal | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 03.07.2026 17:12:37
 - 2026-07-03 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Srbij | MS 2 | pending | 60/100
 - 2026-07-03 | Avustralya Victoria NPL 1 | Melbourne Knig - Bulleen Lions | MS X | pending | 50/100
 - 2026-07-03 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Henan Jianye | MS X | pending | 60/100
-- 2026-07-03 | Kazakistan Premier Lig | Astana - Zhenys | MS 2 | pending | 60/100
 
