@@ -1,13 +1,13 @@
 # Tahmin Olcum Saglik Kontrolu
 
-Durum: izleme
-Toplam tahmin: 0
+Durum: ok
+Toplam tahmin: 7
 Olculen tahmin: 0
-Bekleyen tahmin: 0
+Bekleyen tahmin: 7
 Kazanan: 0
 Kaybeden: 0
 Skoru olup pending kalan: 0
 Son finalizer kontrolu: 0
 Son finalizer guncelleme: 0
 
-Sonraki aksiyon: Olculecek tahmin yok. Izleme devam.
+Sonraki aksiyon: Agirlik degistirme asamasina gecilebilir.

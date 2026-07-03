@@ -2,22 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-03T08:39:01.967Z
+- Güncelleme: 2026-07-03T10:12:35.175Z
 - Ham maç sayısı: 64
 - Yarın bülteni maç sayısı: 13
 - Detay blok sayısı: 169
-- Aktif bülten maçı: 64
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 58
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Brisbane Wolve - Rochedale Rover | Avustralya NPL Queensland | 12:30 | Veri bekleniyor | - | 1.57 | 6 |
-| Green Gully - Bentleigh Green | Avustralya NPL Victoria | 12:30 | Veri bekleniyor | - | 1.92 | 8 |
-| Heidelberg Uni - St. Albans Sain | Avustralya NPL Victoria | 12:30 | Veri bekleniyor | - | 1.28 | 6 |
-| Cooks Hill Uni - Valentine Phoen | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 2 | 6 |
-| Edgeworth Eagl - Kahibah | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 1.18 | 4 |
-| Cbe - Bahardar | Etiyopya Premier Lig | 13:00 | Veri bekleniyor | - | 2.56 | 6 |
 | Northcote City - Melbourne Srbij | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.43 | 7 |
 | Melbourne Knig - Bulleen Lions | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.65 | 8 |
 | Moreland Zebra - Brunswick City | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.39 | 4 |
