@@ -9,12 +9,18 @@ const fixturesPath = path.join(dataDir, "fixtures.json");
 const liveMatchesPath = path.join(dataDir, "live-matches.json");
 const sporTotoPath = path.join(dataDir, "spor_toto_bulteni.json");
 const twoDayPath = path.join(dataDir, "two-day-bulletin.json");
-const MACKOLIK_IDDAA_URL = "https://arsiv.mackolik.com/Iddaa-Programi";
-const NEXT_DAY_EARLY_END_MINUTES = 8 * 60;
+const MACKOLIK_IDDAA_URL = "https://www.mackolik.com/iddaa";
+const MACKOLIK_SOURCE = "Maçkolik İddaa Futbol";
 const LIVE_WINDOW_MINUTES = 130;
 const EXTRA_MARKET_KEYS = [
+  "doubleChance1X", "doubleChance12", "doubleChanceX2", "dc1x", "dc12", "dcx2",
+  "firstHalfDoubleChance1X", "firstHalfDoubleChance12", "firstHalfDoubleChanceX2",
   "hnd1", "hndX", "hnd2", "hnd01", "hnd10", "hnd20", "hnd02",
   "under05", "over05", "under15", "over15", "under35", "over35", "under45", "over45",
+  "firstHalfUnder05", "firstHalfOver05", "firstHalfUnder15", "firstHalfOver15",
+  "firstHalfUnder25", "firstHalfOver25", "secondHalfUnder15", "secondHalfOver15",
+  "bttsYes", "bttsNo", "firstHalfBttsYes", "firstHalfBttsNo", "secondHalfBttsYes", "secondHalfBttsNo",
+  "kgVar", "kgYok", "iyKgVar", "iyKgYok", "iy2KgVar", "iy2KgYok",
   "htFt11", "htFt1X", "htFt12", "htFtX1", "htFtXX", "htFtX2", "htFt21", "htFt2X", "htFt22",
   "ms1Under15", "msxUnder15", "ms2Under15", "ms1Over15", "msxOver15", "ms2Over15",
   "ms1Under25", "msxUnder25", "ms2Under25", "ms1Over25", "msxOver25", "ms2Over25",
@@ -51,7 +57,8 @@ const todayTR = () => {
 
 const nowMinutesTR = () => {
   const parts = turkeyParts();
-  return Number(parts.hour) * 60 + Number(parts.minute);
+  const hour = Number(parts.hour === "24" ? "0" : parts.hour || 0);
+  return hour * 60 + Number(parts.minute || 0);
 };
 
 const addDays = (dateKey, days) => {
@@ -92,7 +99,7 @@ const writeJson = (filePath, value) => {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 };
 
-const requestText = (url) => new Promise((resolve, reject) => {
+const requestText = (url, redirectsLeft = 3) => new Promise((resolve, reject) => {
   const req = https.get(url, {
     headers: {
       "User-Agent": "Mozilla/5.0 FutbolLaboratuvariBot/1.0",
@@ -100,6 +107,12 @@ const requestText = (url) => new Promise((resolve, reject) => {
       "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
     },
   }, (res) => {
+    if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location && redirectsLeft > 0) {
+      res.resume();
+      resolve(requestText(new URL(res.headers.location, url).toString(), redirectsLeft - 1));
+      return;
+    }
+
     let body = "";
     res.setEncoding("utf8");
     res.on("data", (chunk) => { body += chunk; });
@@ -184,9 +197,7 @@ const baseWindow = () => {
 const inBulletinWindow = (date, time, window) => {
   const minute = parseClockMinutes(time);
   if (!date || minute === null) return false;
-  if (date === window.mainDay) return true;
-  if (date === window.nextDay && minute < NEXT_DAY_EARLY_END_MINUTES) return true;
-  return false;
+  return date === window.mainDay || date === window.nextDay;
 };
 
 const fixtureKey = (item) => [item.date, item.time, item.league, item.home, item.away]
@@ -218,7 +229,7 @@ const minuteFromStatus = (date, time, explicitMinute, status) => {
   return Math.max(1, Math.min(90, elapsed > 60 ? elapsed - 15 : elapsed));
 };
 
-const normalizeFixture = (item, sourceName = "Yerel veri") => {
+const normalizeFixture = (item, sourceName = MACKOLIK_SOURCE) => {
   const matchName = item?.match || item?.match_name || "";
   const split = String(matchName).split(/\s+-\s+|\s+VS\s+/i);
   const date = toIsoDate(item?.date || item?.tarih || item?.start_date || item?.utc_date);
@@ -236,8 +247,22 @@ const normalizeFixture = (item, sourceName = "Yerel veri") => {
     ms2: pick(item, ["ms2", "two", "twoOdd", "odd2", "ms_2"]),
     under25: pick(item, ["under25", "alt25", "under", "alt", "alt_25"]),
     over25: pick(item, ["over25", "ust25", "over", "ust", "ust_25"]),
+    under35: pick(item, ["under35", "alt35", "alt_35"]),
+    over35: pick(item, ["over35", "ust35", "ust_35"]),
+    doubleChance1X: pick(item, ["doubleChance1X", "dc1x", "cifteSans1X", "cifte_sans_1x"]),
+    doubleChance12: pick(item, ["doubleChance12", "dc12", "cifteSans12", "cifte_sans_12"]),
+    doubleChanceX2: pick(item, ["doubleChanceX2", "dcx2", "cifteSansX2", "cifte_sans_x2"]),
+    firstHalfUnder15: pick(item, ["firstHalfUnder15", "iyUnder15", "iyAlt15", "ilk_yari_alt_15"]),
+    firstHalfOver15: pick(item, ["firstHalfOver15", "iyOver15", "iyUst15", "ilk_yari_ust_15"]),
+    firstHalfDoubleChance1X: pick(item, ["firstHalfDoubleChance1X", "iyDc1x", "iy_cifte_sans_1x"]),
+    firstHalfDoubleChance12: pick(item, ["firstHalfDoubleChance12", "iyDc12", "iy_cifte_sans_12"]),
+    firstHalfDoubleChanceX2: pick(item, ["firstHalfDoubleChanceX2", "iyDcx2", "iy_cifte_sans_x2"]),
     bttsYes: pick(item, ["bttsYes", "kgVar", "kg_var", "varOdd", "var"]),
     bttsNo: pick(item, ["bttsNo", "kgYok", "kg_yok", "yokOdd", "yok"]),
+    firstHalfBttsYes: pick(item, ["firstHalfBttsYes", "iyKgVar", "ilk_yari_kg_var"]),
+    firstHalfBttsNo: pick(item, ["firstHalfBttsNo", "iyKgYok", "ilk_yari_kg_yok"]),
+    secondHalfBttsYes: pick(item, ["secondHalfBttsYes", "iy2KgVar", "ikinci_yari_kg_var"]),
+    secondHalfBttsNo: pick(item, ["secondHalfBttsNo", "iy2KgYok", "ikinci_yari_kg_yok"]),
   };
   const cleanOdds = Object.fromEntries(Object.entries(odds).filter(([, value]) => value !== null));
   return {
@@ -247,6 +272,7 @@ const normalizeFixture = (item, sourceName = "Yerel veri") => {
     home,
     away,
     matchCode: item?.matchCode || item?.match_code || item?.code || null,
+    mbs: item?.mbs || item?.MBS || null,
     status,
     liveStatus: status,
     minute,
@@ -269,7 +295,7 @@ const parseMackolikHtml = (html) => {
   const allowedDates = new Set([dotDate(window.mainDay), dotDate(window.nextDay)]);
   const fixtures = [];
   let currentDate = null;
-  let currentLeague = "Mackolik Iddaa Programi";
+  let currentLeague = MACKOLIK_SOURCE;
 
   for (const line of htmlToLines(html)) {
     const dateMatch = line.match(/\b(\d{1,2}\.\d{1,2}\.\d{4})\b/);
@@ -305,8 +331,8 @@ const parseMackolikHtml = (html) => {
       raw_market_guess_odds: mapExtraFromOdds(odds),
       raw_odds_sequence: odds,
       raw_market_value_count: odds.length,
-      source: "Mackolik Iddaa Programi",
-    }, "Mackolik Iddaa Programi"));
+      source: MACKOLIK_SOURCE,
+    }, MACKOLIK_SOURCE));
   }
 
   return fixtures.filter(Boolean);
@@ -318,11 +344,11 @@ const localSources = () => {
   const sporToto = readJson(sporTotoPath, { matches: [] });
   const twoDay = readJson(twoDayPath, { matches: [] });
   return [
-    ...(Array.isArray(fixtures) ? fixtures.map((item) => ({ ...item, source: item.source || "fixtures.json" })) : []),
-    ...(Array.isArray(live.matches) ? live.matches.map((item) => ({ ...item, source: item.source || "live-matches.json" })) : []),
-    ...(Array.isArray(sporToto.matches) ? sporToto.matches.map((item) => ({ ...item, source: item.source || "spor_toto_bulteni.json" })) : []),
-    ...(Array.isArray(twoDay.matches) ? twoDay.matches.map((item) => ({ ...item, source: item.source || "two-day-bulletin.json" })) : []),
-  ].map((item) => normalizeFixture(item, item.source || "Yerel veri")).filter(Boolean);
+    ...(Array.isArray(fixtures) ? fixtures.map((item) => ({ ...item, source: item.source || MACKOLIK_SOURCE })) : []),
+    ...(Array.isArray(live.matches) ? live.matches.map((item) => ({ ...item, source: item.source || MACKOLIK_SOURCE })) : []),
+    ...(Array.isArray(sporToto.matches) ? sporToto.matches.map((item) => ({ ...item, source: item.source || MACKOLIK_SOURCE })) : []),
+    ...(Array.isArray(twoDay.matches) ? twoDay.matches.map((item) => ({ ...item, source: item.source || MACKOLIK_SOURCE })) : []),
+  ].map((item) => normalizeFixture(item, item.source || MACKOLIK_SOURCE)).filter(Boolean);
 };
 
 const uniqueAndSort = (matches) => {
@@ -335,15 +361,16 @@ const uniqueAndSort = (matches) => {
   return [...map.values()].sort((a, b) => `${a.date} ${a.time} ${a.league} ${a.home}`.localeCompare(`${b.date} ${b.time} ${b.league} ${b.home}`, "tr"));
 };
 
+const hasMackolikSource = (matches) => matches.some((item) => /mackolik|maçkolik/i.test(String(item.source || "")));
+
 const buildBulletin = async () => {
   let external = [];
-  let source = "Yerel veri kaynaklari";
+  let externalWarning = "";
   try {
     const html = await requestText(MACKOLIK_IDDAA_URL);
     external = parseMackolikHtml(html);
-    if (external.length) source = "Mackolik Iddaa Programi";
   } catch (error) {
-    source = `Mackolik okunamadi: ${error.message}`;
+    externalWarning = `Maçkolik İddaa sayfası okunamadı: ${error.message}`;
   }
 
   const local = localSources();
@@ -353,15 +380,16 @@ const buildBulletin = async () => {
   const matches = allMatches.filter((item) => item.status === "scheduled");
   const mainDay = todayTR();
   const nextDay = addDays(mainDay, 1);
+  const source = external.length || hasMackolikSource(allMatches) ? MACKOLIK_SOURCE : "Yerel veri kaynaklari";
   return {
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
     source: allMatches.length ? source : "Tam bulten verisi bekleniyor",
     status: allMatches.length ? "active" : "waiting",
-    message: allMatches.length ? "" : "Tam iddaa bulteni icin guncel mac verisi henuz olusmadi.",
+    message: allMatches.length ? (externalWarning || "") : "Tam iddaa bulteni icin guncel mac verisi henuz olusmadi.",
     date_window: {
       main_day: mainDay,
-      includes_next_day_until: `${nextDay} 08:00`,
+      includes_next_day_until: `${nextDay} 23:59`,
     },
     match_count: matches.length,
     live_count: liveMatches.length,
@@ -376,8 +404,14 @@ const buildBulletin = async () => {
 const main = async () => {
   ensureDir();
   const bulletin = await buildBulletin();
+  const hasUsableData = bulletin.matches.length > 0 || bulletin.live_matches.length > 0;
+  if (!hasUsableData) {
+    const action = fs.existsSync(outputPath) ? "Mevcut full-bulletin.json korundu" : "Yazilacak guncel bulten verisi yok";
+    console.log(`${action}. Bos/verisiz bultenle ezme yapilmadi.`);
+    return;
+  }
   writeJson(outputPath, bulletin);
-  console.log(`Tam bulten olusturuldu. Bulten: ${bulletin.match_count}. Canli ayrilan: ${bulletin.live_count}. Genis oran: ${bulletin.wide_market_odds_count}.`);
+  console.log(`Tam bulten olusturuldu. Bulten: ${bulletin.match_count}. Canli ayrilan: ${bulletin.live_count}. Genis oran: ${bulletin.wide_market_odds_count}. Pencere: ${bulletin.date_window.includes_next_day_until}.`);
 };
 
 if (require.main === module) {
