@@ -37,6 +37,8 @@ ALLOWED_IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 ALLOWED_VIDEO_EXTENSIONS = {".mp4", ".mov"}
 DEFAULT_SITE_URL = "https://www.futbollaboratuuvari.org"
 DEFAULT_GRAPH_API_VERSION = "v23.0"
+FACEBOOK_LOGIN_MODE = "facebook_login"
+INSTAGRAM_LOGIN_MODE = "instagram_login"
 
 
 class InstagramAutomationError(Exception):
@@ -139,15 +141,39 @@ def raw_github_media_url(path: Path) -> str:
     return f"https://raw.githubusercontent.com/{repository}/{ref_name}/{quoted_path}"
 
 
-def graph_api_base() -> str:
+def normalize_secret_value(value: str) -> str:
+    """Normalize safely pasted secret values without logging them."""
+    cleaned = str(value or "").strip()
+    if len(cleaned) >= 2 and cleaned[0] == cleaned[-1] and cleaned[0] in {"'", '"'}:
+        cleaned = cleaned[1:-1].strip()
+    if cleaned.lower().startswith("bearer "):
+        cleaned = cleaned[7:].strip()
+    return "".join(cleaned.split())
+
+
+def detect_api_mode(access_token: str) -> str:
+    """Choose the correct Meta graph host without printing token contents."""
+    configured = os.getenv("INSTAGRAM_API_MODE", "").strip().lower().replace("-", "_")
+    if configured in {"instagram", "instagram_login", "graph_instagram"}:
+        return INSTAGRAM_LOGIN_MODE
+    if configured in {"facebook", "facebook_login", "graph_facebook"}:
+        return FACEBOOK_LOGIN_MODE
+
+    # Instagram Login tokens are commonly IG-prefixed; Facebook Login tokens are commonly EA-prefixed.
+    # This is only used for routing and is never printed as a token value.
+    return INSTAGRAM_LOGIN_MODE if access_token.upper().startswith("IG") else FACEBOOK_LOGIN_MODE
+
+
+def graph_api_base(api_mode: str = FACEBOOK_LOGIN_MODE) -> str:
     version = os.getenv("META_GRAPH_API_VERSION", DEFAULT_GRAPH_API_VERSION).strip() or DEFAULT_GRAPH_API_VERSION
-    return f"https://graph.facebook.com/{version}"
+    host = "graph.instagram.com" if api_mode == INSTAGRAM_LOGIN_MODE else "graph.facebook.com"
+    return f"https://{host}/{version}"
 
 
-def api_post(path: str, data: Dict[str, Any]) -> Dict[str, Any]:
+def api_post(path: str, data: Dict[str, Any], api_mode: str = FACEBOOK_LOGIN_MODE) -> Dict[str, Any]:
     encoded = urllib.parse.urlencode(data).encode("utf-8")
     request = urllib.request.Request(
-        f"{graph_api_base()}/{path.lstrip('/')}",
+        f"{graph_api_base(api_mode)}/{path.lstrip('/')}",
         data=encoded,
         method="POST",
     )
@@ -162,9 +188,9 @@ def api_post(path: str, data: Dict[str, Any]) -> Dict[str, Any]:
         raise InstagramAutomationError(safe_error(exc)) from exc
 
 
-def api_get(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
+def api_get(path: str, params: Dict[str, Any], api_mode: str = FACEBOOK_LOGIN_MODE) -> Dict[str, Any]:
     query = urllib.parse.urlencode(params)
-    url = f"{graph_api_base()}/{path.lstrip('/')}?{query}"
+    url = f"{graph_api_base(api_mode)}/{path.lstrip('/')}?{query}"
 
     try:
         with urllib.request.urlopen(url, timeout=60) as response:
@@ -176,27 +202,22 @@ def api_get(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
         raise InstagramAutomationError(safe_error(exc)) from exc
 
 
-def normalize_secret_value(value: str) -> str:
-    """Normalize safely pasted secret values without logging them."""
-    cleaned = str(value or "").strip()
-    if len(cleaned) >= 2 and cleaned[0] == cleaned[-1] and cleaned[0] in {"'", '"'}:
-        cleaned = cleaned[1:-1].strip()
-    if cleaned.lower().startswith("bearer "):
-        cleaned = cleaned[7:].strip()
-    return "".join(cleaned.split())
-
-
 def print_safe_env_debug() -> None:
     """Print secret presence and length without exposing secret values."""
     if os.getenv("IG_SAFE_DEBUG", "").strip().lower() not in {"1", "true", "yes"}:
         return
 
     print("\n--- Instagram Secret Debug ---")
+    access_token = ""
     for name in ("INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "SITE_URL"):
         raw_value = os.getenv(name, "")
         normalized_value = normalize_secret_value(raw_value) if name == "INSTAGRAM_ACCESS_TOKEN" else str(raw_value or "").strip()
+        if name == "INSTAGRAM_ACCESS_TOKEN":
+            access_token = normalized_value
         print(f"{name}: {'VAR' if normalized_value else 'YOK'}")
         print(f"{name}_UZUNLUK: {len(normalized_value)}")
+    if access_token:
+        print(f"INSTAGRAM_API_MODE: {detect_api_mode(access_token)}")
     print("------------------------------\n")
 
 
@@ -216,20 +237,42 @@ def validate_required_env() -> Tuple[str, str]:
     return access_token, instagram_user_id
 
 
-def validate_instagram_access(instagram_user_id: str, access_token: str) -> None:
+def validate_instagram_access(instagram_user_id: str, access_token: str) -> str:
     """Fail early with actionable diagnostics before trying to publish."""
+    api_mode = detect_api_mode(access_token)
+
+    if api_mode == INSTAGRAM_LOGIN_MODE:
+        try:
+            api_get(
+                instagram_user_id,
+                {
+                    "fields": "id,username,account_type",
+                    "access_token": access_token,
+                },
+                api_mode,
+            )
+        except InstagramAutomationError as exc:
+            raise InstagramAutomationError(
+                "Instagram Login tokeni kullaniliyor ama INSTAGRAM_USER_ID bu token ile okunamiyor. "
+                "INSTAGRAM_USER_ID degeri Instagram API setup ekranindaki Instagram account ID olmali. "
+                f"Meta hata ozeti: {safe_error(exc)}"
+            ) from exc
+        return api_mode
+
     accounts = api_get(
         "me/accounts",
         {
             "fields": "id,name,instagram_business_account",
             "access_token": access_token,
         },
+        api_mode,
     )
     pages = accounts.get("data") if isinstance(accounts, dict) else None
     if not isinstance(pages, list) or not pages:
         raise InstagramAutomationError(
-            "Token gecildi ama /me/accounts bos donuyor. Facebook izin ekraninda futbollaboratuvari sayfasini sec, "
-            "hesabin sayfada tam kontrol/admin oldugunu ve Instagram hesabinin bu Facebook sayfasina bagli oldugunu kontrol et."
+            "Facebook Login tokeni kullaniliyor ama /me/accounts bos donuyor. "
+            "Instagram Login tokeni kullaniyorsan INSTAGRAM_API_MODE=instagram_login degiskenini ekle veya IG ile baslayan tokeni kaydet. "
+            "Facebook Login kullaniyorsan izin ekraninda futbollaboratuvari sayfasini sec."
         )
 
     linked_instagram_ids = []
@@ -259,6 +302,7 @@ def validate_instagram_access(instagram_user_id: str, access_token: str) -> None
                 "fields": "id,username,account_type",
                 "access_token": access_token,
             },
+            api_mode,
         )
     except InstagramAutomationError as exc:
         raise InstagramAutomationError(
@@ -267,6 +311,8 @@ def validate_instagram_access(instagram_user_id: str, access_token: str) -> None
             f"Meta hata ozeti: {safe_error(exc)}"
         ) from exc
 
+    return api_mode
+
 
 def create_media_container(
     instagram_user_id: str,
@@ -274,6 +320,7 @@ def create_media_container(
     media_path: Path,
     media_url: str,
     caption: str,
+    api_mode: str,
 ) -> str:
     suffix = media_path.suffix.lower()
 
@@ -291,14 +338,14 @@ def create_media_container(
     else:
         raise InstagramAutomationError(f"Desteklenmeyen medya uzantısı: {suffix}")
 
-    result = api_post(f"{instagram_user_id}/media", payload)
+    result = api_post(f"{instagram_user_id}/media", payload, api_mode)
     container_id = result.get("id")
     if not container_id:
         raise InstagramAutomationError(f"Instagram media container oluşturulamadı: {safe_error(result)}")
     return str(container_id)
 
 
-def wait_until_container_ready(container_id: str, access_token: str) -> None:
+def wait_until_container_ready(container_id: str, access_token: str, api_mode: str) -> None:
     # Images are usually ready very quickly; videos/Reels can take longer.
     max_attempts = int(os.getenv("IG_CONTAINER_STATUS_ATTEMPTS", "18"))
     sleep_seconds = int(os.getenv("IG_CONTAINER_STATUS_SLEEP", "10"))
@@ -310,6 +357,7 @@ def wait_until_container_ready(container_id: str, access_token: str) -> None:
                 "fields": "status_code,status",
                 "access_token": access_token,
             },
+            api_mode,
         )
 
         status_code = str(result.get("status_code", "")).upper()
@@ -325,13 +373,14 @@ def wait_until_container_ready(container_id: str, access_token: str) -> None:
     raise InstagramAutomationError("Instagram media container zamanında hazır olmadı.")
 
 
-def publish_media(instagram_user_id: str, access_token: str, container_id: str) -> str:
+def publish_media(instagram_user_id: str, access_token: str, container_id: str, api_mode: str) -> str:
     result = api_post(
         f"{instagram_user_id}/media_publish",
         {
             "creation_id": container_id,
             "access_token": access_token,
         },
+        api_mode,
     )
     media_id = result.get("id")
     if not media_id:
@@ -403,12 +452,12 @@ def run(dry_run: bool = False) -> int:
             return 0
 
         access_token, instagram_user_id = validate_required_env()
-        validate_instagram_access(instagram_user_id, access_token)
+        api_mode = validate_instagram_access(instagram_user_id, access_token)
         media_url = raw_github_media_url(media_path)
 
-        container_id = create_media_container(instagram_user_id, access_token, media_path, media_url, caption)
-        wait_until_container_ready(container_id, access_token)
-        instagram_media_id = publish_media(instagram_user_id, access_token, container_id)
+        container_id = create_media_container(instagram_user_id, access_token, media_path, media_url, caption, api_mode)
+        wait_until_container_ready(container_id, access_token, api_mode)
+        instagram_media_id = publish_media(instagram_user_id, access_token, container_id, api_mode)
 
         entry = base_log_entry("success", timezone_name)
         entry.update(
@@ -419,6 +468,7 @@ def run(dry_run: bool = False) -> int:
                 "media_url": media_url,
                 "caption": caption,
                 "hashtagler": terminal_report["hashtags"],
+                "api_mode": api_mode,
             }
         )
         append_log(entry)
