@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-03 / 2026-07-04
 Kaynak: fixtures.json
-Ham mac: 84
+Ham mac: 54
 Aktif mac: 45
 Canli mac: 9
-Biten mac: 30
-Bultenden dusurulen mac: 39
+Biten mac: 0
+Bultenden dusurulen mac: 9
 Bugun: 29
 Yarin: 16
 
@@ -69,33 +69,4 @@ Yarin: 16
 - 2026-07-03 18:30 | Finlandiya Ykkösliiga | Kotka - Jippo Joensuu | live | -
 
 ## Biten Maclar
-- 2026-07-03 01:00 | Şili Kupa Grup H | Huachipato - Concepcion | finished | -
-- 2026-07-03 02:00 | Dünya Kupası 2026 Son 32 Turu | Portekiz - Hirvatistan | finished | -
-- 2026-07-03 02:00 | Brezilya Serie B | Cuiaba - America Mineiro | finished | -
-- 2026-07-03 02:00 | ABD USL Lig 2 Heartland Grubu | Rochester - Chicago Dutch L | finished | -
-- 2026-07-03 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru - Long Island | finished | -
-- 2026-07-03 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Manhattan | finished | -
-- 2026-07-03 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Apotheos - East Atlanta | finished | -
-- 2026-07-03 03:00 | Brezilya Serie B | Fortaleza Ce - Ponte Preta | finished | -
-- 2026-07-03 03:00 | ABD USL | Birmingham Leg - Detroit City | finished | -
-- 2026-07-03 03:00 | ABD USL Lig 2 Metropolitan Grubu | Fc Motown Ii - Morris Elite | finished | -
-- 2026-07-03 03:30 | Şili Kupa Grup E | O Higgins - Colo Colo | finished | -
-- 2026-07-03 03:30 | ABD USL Lig 2 Great Plains Grubu | Peoria City - St. Louis Ambus | finished | -
-- 2026-07-03 04:30 | ABD USL Lig 1 | Athletic Club - One Knoxville | finished | -
-- 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | finished | -
-- 2026-07-03 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Rochedale Rover | finished | -
-- 2026-07-03 12:30 | Avustralya NPL Victoria | Green Gully - Bentleigh Green | finished | -
-- 2026-07-03 12:30 | Avustralya NPL Victoria | Heidelberg Uni - St. Albans Sain | finished | -
-- 2026-07-03 13:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Valentine Phoen | finished | -
-- 2026-07-03 13:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Kahibah | finished | -
-- 2026-07-03 13:00 | Etiyopya Premier Lig | Cbe - Bahardar | finished | -
-- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Srbij | finished | -
-- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Bulleen Lions | finished | -
-- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Brunswick City | finished | -
-- 2026-07-03 14:00 | Avustralya NPL Güney Avustralya | Adelaide Comet - Croydon Kings | finished | -
-- 2026-07-03 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Henan Jianye | finished | -
-- 2026-07-03 15:00 | Belarus 1.Lig | Fc Minsk Ii - Gomel Ii | finished | -
-- 2026-07-03 15:30 | Lübnan Premier Lig | Tadamon Tyre - Ansar | finished | -
-- 2026-07-03 16:00 | Belarus Premier Lig | Naftan - Dinamo Brest | finished | -
-- 2026-07-03 16:00 | Etiyopya Premier Lig | Welayta Dicha - Ethiopia Bunna | finished | -
-- 2026-07-03 16:00 | Etiyopya Premier Lig | Mekelakeya - Hadiya Hosaena | finished | -
+Biten mac yok.

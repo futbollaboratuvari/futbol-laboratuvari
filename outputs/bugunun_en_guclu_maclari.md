@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-03T15:57:51.870Z
+- Güncelleme: 2026-07-03T15:58:59.074Z
 - Ham maç sayısı: 54
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 142
@@ -13,10 +13,10 @@
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
 | Raufoss - Strommen | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 2.27 | 8 |
-| Kongsvinger - Sogndal | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 1.25 | 6 |
-| Dziugas Telsia - Kauno Zalgiris | Litvanya A Ligi | 19:00 | Veri bekleniyor | - | 4.51 | 7 |
+| Kongsvinger - Sogndal | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 1.24 | 6 |
+| Dziugas Telsia - Kauno Zalgiris | Litvanya A Ligi | 19:00 | Veri bekleniyor | - | 4.44 | 7 |
 | Riga Fc - Fs Jelgava | Letonya Virsliga | 19:00 | Veri bekleniyor | - | - | 3 |
-| Nomme United - Nomme Kalju | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 4.18 | 3 |
+| Nomme United - Nomme Kalju | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 4.06 | 3 |
 | Sanat Mes Kerm - Nb Abbas | İran Azadegan Ligi | 19:00 | Veri bekleniyor | - | 2.64 | 6 |
 | Besat Kermansh - Fard Alborz | İran Azadegan Ligi | 19:00 | Veri bekleniyor | - | 2.68 | 6 |
 | Sirius - Mjallby | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.39 | 7 |
@@ -31,7 +31,7 @@
 | St Patricks - Galway United | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 1.21 | 6 |
 | Drogheda - Bohemian | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 3.86 | 7 |
 | Cobh Ramblers - Cork City | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 4.19 | 7 |
-| Treaty Unt. - Kerry | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.2 | 8 |
+| Treaty Unt. - Kerry | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.26 | 8 |
 | Finn Harps - Wexford Youths | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 3.07 | 8 |
 | Bray Wanderers - Athlone | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.44 | 7 |
 | Shelbourne - Dundalk | İrlanda Premier Lig | 22:00 | Veri bekleniyor | - | 1.69 | 8 |
