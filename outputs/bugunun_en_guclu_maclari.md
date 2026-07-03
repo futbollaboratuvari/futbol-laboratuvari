@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-03T15:58:59.074Z
+- Güncelleme: 2026-07-03T16:09:53.015Z
 - Ham maç sayısı: 54
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 142
-- Aktif bülten maçı: 45
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 38
+- Bültenden düşürülen maç: 16
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Raufoss - Strommen | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 2.27 | 8 |
-| Kongsvinger - Sogndal | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 1.24 | 6 |
-| Dziugas Telsia - Kauno Zalgiris | Litvanya A Ligi | 19:00 | Veri bekleniyor | - | 4.44 | 7 |
-| Riga Fc - Fs Jelgava | Letonya Virsliga | 19:00 | Veri bekleniyor | - | - | 3 |
-| Nomme United - Nomme Kalju | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 4.06 | 3 |
-| Sanat Mes Kerm - Nb Abbas | İran Azadegan Ligi | 19:00 | Veri bekleniyor | - | 2.64 | 6 |
-| Besat Kermansh - Fard Alborz | İran Azadegan Ligi | 19:00 | Veri bekleniyor | - | 2.68 | 6 |
 | Sirius - Mjallby | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.39 | 7 |
 | Ranheim - Stabaek | Norveç 1.Lig | 20:00 | Veri bekleniyor | - | 2.33 | 8 |
 | Avustralya - Misir | Dünya Kupası 2026 Son 32 Turu | 21:00 | Veri bekleniyor | - | 3.16 | 8 |

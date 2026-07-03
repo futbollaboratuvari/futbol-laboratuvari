@@ -3,21 +3,14 @@
 Gunler: 2026-07-03 / 2026-07-04
 Kaynak: fixtures.json
 Ham mac: 54
-Aktif mac: 45
-Canli mac: 9
+Aktif mac: 38
+Canli mac: 16
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 29
+Bultenden dusurulen mac: 16
+Bugun: 22
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-03 19:00 | Norveç 1.Lig | Raufoss - Strommen | scheduled | -
-- 2026-07-03 19:00 | Norveç 1.Lig | Kongsvinger - Sogndal | scheduled | -
-- 2026-07-03 19:00 | Litvanya A Ligi | Dziugas Telsia - Kauno Zalgiris | scheduled | -
-- 2026-07-03 19:00 | Letonya Virsliga | Riga Fc - Fs Jelgava | scheduled | -
-- 2026-07-03 19:00 | Estonya Premium Lig | Nomme United - Nomme Kalju | scheduled | -
-- 2026-07-03 19:00 | İran Azadegan Ligi | Sanat Mes Kerm - Nb Abbas | scheduled | -
-- 2026-07-03 19:00 | İran Azadegan Ligi | Besat Kermansh - Fard Alborz | scheduled | -
 - 2026-07-03 20:00 | İsveç Allsvenskan | Sirius - Mjallby | scheduled | -
 - 2026-07-03 20:00 | Norveç 1.Lig | Ranheim - Stabaek | scheduled | -
 - 2026-07-03 21:00 | Dünya Kupası 2026 Son 32 Turu | Avustralya - Misir | scheduled | -
@@ -67,6 +60,13 @@ Yarin: 16
 - 2026-07-03 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup A | Almanya U19 (K - İsveç U19 (K) | live | -
 - 2026-07-03 18:30 | Finlandiya Ykkösliiga | Japs - Sjk Ii | live | -
 - 2026-07-03 18:30 | Finlandiya Ykkösliiga | Kotka - Jippo Joensuu | live | -
+- 2026-07-03 19:00 | Norveç 1.Lig | Raufoss - Strommen | live | -
+- 2026-07-03 19:00 | Norveç 1.Lig | Kongsvinger - Sogndal | live | -
+- 2026-07-03 19:00 | Litvanya A Ligi | Dziugas Telsia - Kauno Zalgiris | live | -
+- 2026-07-03 19:00 | Letonya Virsliga | Riga Fc - Fs Jelgava | live | -
+- 2026-07-03 19:00 | Estonya Premium Lig | Nomme United - Nomme Kalju | live | -
+- 2026-07-03 19:00 | İran Azadegan Ligi | Sanat Mes Kerm - Nb Abbas | live | -
+- 2026-07-03 19:00 | İran Azadegan Ligi | Besat Kermansh - Fard Alborz | live | -
 
 ## Biten Maclar
 Biten mac yok.
