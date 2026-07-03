@@ -160,7 +160,10 @@ jobs:
 
           error = str(last_failed.get('hata_özeti') or 'Bilinmeyen hata')
           print(f'Son hata: {error}')
-          if 'Cannot parse access token' in error or 'OAuthException' in error or 'code":190' in error:
+          if 'Cannot parse access token' in error or 'code":190' in error:
               print('Çözüm: INSTAGRAM_ACCESS_TOKEN içine GitHub/Vercel tokenı değil, Meta Developers üzerinden alınmış Instagram Graph API access tokenı kaydedilmeli.')
+          if 'Application does not have permission for this action' in error or 'GraphMethodException' in error or 'error_subcode":33' in error:
+              print('Çözüm: Token okunuyor ama Meta bu Instagram hesabına yayın izni vermiyor. Facebook sayfası Instagram hesabına bağlı olmalı, token izin ekranında o sayfa seçilmeli ve INSTAGRAM_USER_ID /me/accounts sonucundaki instagram_business_account.id olmalı.')
+              print('Not: Eski başarısız job rerun edilirse eski commit ile çalışır. Actions > Instagram Auto Post > Run workflow ile main branch üstünden yeni çalışma başlatın.')
           PY
           exit 1
