@@ -1,32 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-03T15:46:13.691892+00:00
+Tarih: 2026-07-03T15:58:28.212481+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 46
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 40
+- Kac mac bulundu: 30
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 30
 - Ham veri havuzu toplam mac sayisi: 973
 - Hedef tarih: 03.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Lone Star Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Orta Atlantik Grubu
-- Avustralya NPL Tazmanya
-- Avustralya NPL Victoria
 - Dünya Kupası 2026 Son 32 Turu
-- Ekvador Pro Lig
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Hazırlık Kulüpler
@@ -112,8 +100,6 @@ Tarih: 2026-07-03T15:46:13.691892+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 03.07.2026 | 21:00 | Dünya Kupası 2026 Son 32 Turu | Avustralya | Misir | 20222 | 5 |
-| 04.07.2026 | 04:30 | Dünya Kupası 2026 Son 32 Turu | Kolombiya | Gana | 06475 | 5 |
-| 04.07.2026 | 01:00 | Dünya Kupası 2026 Son 32 Turu | Arjantin | Kape Verde | 20294 | 4 |
 | 03.07.2026 | 21:45 | İrlanda Premier Lig | Drogheda | Bohemian | 13684 | 5 |
 | 03.07.2026 | 21:45 | İrlanda Premier Lig | St Patricks | Galway United | 13878 | 5 |
 | 03.07.2026 | 21:45 | İrlanda Premier Lig | Derry City | Waterford | 13630 | 5 |
@@ -131,6 +117,8 @@ Tarih: 2026-07-03T15:46:13.691892+00:00
 | 03.07.2026 | 21:45 | İrlanda 1.Lig | Treaty Unt. | Kerry | 13932 | 5 |
 | 03.07.2026 | 19:00 | Litvanya A Ligi | Dziugas Telsia | Kauno Zalgiris | 16438 | 5 |
 | 03.07.2026 | 21:30 | Lübnan Premier Lig | Hikma | Nejmeh | 14707 | 5 |
+| 03.07.2026 | 22:15 | İzlanda Urvalsdeild | Hafnarfjordur | Stjarnan | 14064 | 3 |
+| 03.07.2026 | 22:15 | İzlanda 1.Lig | Njardvik | Throttur | 14099 | 5 |
 
 ## Sonuc
 
