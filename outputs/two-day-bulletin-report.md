@@ -3,16 +3,15 @@
 Gunler: 2026-07-03 / 2026-07-04
 Kaynak: fixtures.json
 Ham mac: 14
-Aktif mac: 2
+Aktif mac: 0
 Canli mac: 12
-Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 2
+Biten mac: 2
+Bultenden dusurulen mac: 14
+Bugun: 0
 Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-07-03 04:30 | ABD USL Lig 1 | Athletic Club - One Knoxville | scheduled | -
-- 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | scheduled | -
+Mac bekleniyor.
 
 ## Canli Maclar
 - 2026-07-03 01:00 | Şili Kupa Grup H | Huachipato - Concepcion | live | -
@@ -29,4 +28,5 @@ Yarin: 0
 - 2026-07-03 03:30 | ABD USL Lig 2 Great Plains Grubu | Peoria City - St. Louis Ambus | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-03 04:30 | ABD USL Lig 1 | Athletic Club - One Knoxville | finished | -
+- 2026-07-03 06:00 | Dünya Kupası 2026 Son 32 Turu | İsviçre - Cezayir | finished | -
