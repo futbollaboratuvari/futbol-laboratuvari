@@ -216,6 +216,58 @@ def validate_required_env() -> Tuple[str, str]:
     return access_token, instagram_user_id
 
 
+def validate_instagram_access(instagram_user_id: str, access_token: str) -> None:
+    """Fail early with actionable diagnostics before trying to publish."""
+    accounts = api_get(
+        "me/accounts",
+        {
+            "fields": "id,name,instagram_business_account",
+            "access_token": access_token,
+        },
+    )
+    pages = accounts.get("data") if isinstance(accounts, dict) else None
+    if not isinstance(pages, list) or not pages:
+        raise InstagramAutomationError(
+            "Token gecildi ama /me/accounts bos donuyor. Facebook izin ekraninda futbollaboratuvari sayfasini sec, "
+            "hesabin sayfada tam kontrol/admin oldugunu ve Instagram hesabinin bu Facebook sayfasina bagli oldugunu kontrol et."
+        )
+
+    linked_instagram_ids = []
+    for page in pages:
+        if isinstance(page, dict) and isinstance(page.get("instagram_business_account"), dict):
+            linked_id = str(page["instagram_business_account"].get("id") or "").strip()
+            if linked_id:
+                linked_instagram_ids.append(linked_id)
+
+    if not linked_instagram_ids:
+        raise InstagramAutomationError(
+            "Token Facebook sayfalarini goruyor ama hicbir sayfada instagram_business_account yok. "
+            "Business Suite > Settings > Accounts > Instagram accounts icinden Instagram hesabini Facebook sayfasina bagla."
+        )
+
+    if instagram_user_id not in linked_instagram_ids:
+        raise InstagramAutomationError(
+            "INSTAGRAM_USER_ID tokenin erisebildigi instagram_business_account.id ile eslesmiyor. "
+            "Graph API Explorer'da /me/accounts?fields=id,name,instagram_business_account sonucu icindeki "
+            "instagram_business_account.id degerini GitHub secret INSTAGRAM_USER_ID olarak kaydet."
+        )
+
+    try:
+        api_get(
+            instagram_user_id,
+            {
+                "fields": "id,username,account_type",
+                "access_token": access_token,
+            },
+        )
+    except InstagramAutomationError as exc:
+        raise InstagramAutomationError(
+            "INSTAGRAM_USER_ID gorunuyor ama bu token o Instagram hesabina erisemiyor. "
+            "Tokeni sayfa/Instagram secimi yaparak yeniden uret ve INSTAGRAM_USER_ID degerini tekrar kontrol et. "
+            f"Meta hata ozeti: {safe_error(exc)}"
+        ) from exc
+
+
 def create_media_container(
     instagram_user_id: str,
     access_token: str,
@@ -351,6 +403,7 @@ def run(dry_run: bool = False) -> int:
             return 0
 
         access_token, instagram_user_id = validate_required_env()
+        validate_instagram_access(instagram_user_id, access_token)
         media_url = raw_github_media_url(media_path)
 
         container_id = create_media_container(instagram_user_id, access_token, media_path, media_url, caption)
