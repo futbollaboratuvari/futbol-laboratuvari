@@ -3,20 +3,14 @@
 Gunler: 2026-07-03 / 2026-07-04
 Kaynak: fixtures.json
 Ham mac: 64
-Aktif mac: 58
-Canli mac: 6
+Aktif mac: 52
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 45
+Bultenden dusurulen mac: 12
+Bugun: 39
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Srbij | scheduled | -
-- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Bulleen Lions | scheduled | -
-- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Brunswick City | scheduled | -
-- 2026-07-03 14:00 | Avustralya NPL Güney Avustralya | Adelaide Comet - Croydon Kings | scheduled | -
-- 2026-07-03 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Henan Jianye | scheduled | -
-- 2026-07-03 15:00 | Belarus 1.Lig | Fc Minsk Ii - Gomel Ii | scheduled | -
 - 2026-07-03 15:30 | Lübnan Premier Lig | Tadamon Tyre - Ansar | scheduled | -
 - 2026-07-03 16:00 | Belarus Premier Lig | Naftan - Dinamo Brest | scheduled | -
 - 2026-07-03 16:00 | Etiyopya Premier Lig | Welayta Dicha - Ethiopia Bunna | scheduled | -
@@ -77,6 +71,12 @@ Yarin: 13
 - 2026-07-03 13:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Valentine Phoen | live | -
 - 2026-07-03 13:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Kahibah | live | -
 - 2026-07-03 13:00 | Etiyopya Premier Lig | Cbe - Bahardar | live | -
+- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Srbij | live | -
+- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Bulleen Lions | live | -
+- 2026-07-03 13:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Brunswick City | live | -
+- 2026-07-03 14:00 | Avustralya NPL Güney Avustralya | Adelaide Comet - Croydon Kings | live | -
+- 2026-07-03 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Henan Jianye | live | -
+- 2026-07-03 15:00 | Belarus 1.Lig | Fc Minsk Ii - Gomel Ii | live | -
 
 ## Biten Maclar
 Biten mac yok.

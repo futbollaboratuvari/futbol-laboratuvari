@@ -2,22 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-03T10:12:35.175Z
+- Güncelleme: 2026-07-03T12:24:28.034Z
 - Ham maç sayısı: 64
 - Yarın bülteni maç sayısı: 13
 - Detay blok sayısı: 169
-- Aktif bülten maçı: 58
-- Bültenden düşürülen maç: 6
+- Aktif bülten maçı: 52
+- Bültenden düşürülen maç: 12
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Northcote City - Melbourne Srbij | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.43 | 7 |
-| Melbourne Knig - Bulleen Lions | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.65 | 8 |
-| Moreland Zebra - Brunswick City | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.39 | 4 |
-| Adelaide Comet - Croydon Kings | Avustralya NPL Güney Avustralya | 14:00 | Veri bekleniyor | - | 2.66 | 6 |
-| Yunnan Yukun - Henan Jianye | Çin Halk Cumhuriyeti Süper Lig | 15:00 | Veri bekleniyor | - | 2.11 | 8 |
-| Fc Minsk Ii - Gomel Ii | Belarus 1.Lig | 15:00 | Veri bekleniyor | - | 1.62 | 6 |
 | Tadamon Tyre - Ansar | Lübnan Premier Lig | 15:30 | Veri bekleniyor | - | 17.1 | 5 |
 | Naftan - Dinamo Brest | Belarus Premier Lig | 16:00 | Veri bekleniyor | - | 6.17 | 6 |
 | Welayta Dicha - Ethiopia Bunna | Etiyopya Premier Lig | 16:00 | Veri bekleniyor | - | 1.82 | 8 |
