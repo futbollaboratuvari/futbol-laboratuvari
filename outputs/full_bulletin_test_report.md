@@ -2,17 +2,17 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 2
-- Live match count: 11
-- Finished removed count: 1
+- Scheduled match count: 64
+- Live match count: 0
+- Finished removed count: 0
 
-- 2026-07-03 02:00 | Rochester - Chicago Dutch L | live
-- 2026-07-03 02:00 | Cedar Stars Ru - Long Island | live
-- 2026-07-03 02:00 | Hudson Valley - Manhattan | live
-- 2026-07-03 02:00 | Cuiaba - America Mineiro | live
-- 2026-07-03 02:00 | Portekiz - Hirvatistan | live
-- 2026-07-03 02:30 | Apotheos - East Atlanta | live
-- 2026-07-03 03:00 | Birmingham Leg - Detroit City | live
-- 2026-07-03 03:00 | Fc Motown Ii - Morris Elite | live
-- 2026-07-03 03:00 | Fortaleza Ce - Ponte Preta | live
-- 2026-07-03 03:30 | Peoria City - St. Louis Ambus | live
+- 2026-07-03 12:30 | Brisbane Wolve - Rochedale Rover | scheduled
+- 2026-07-03 12:30 | Green Gully - Bentleigh Green | scheduled
+- 2026-07-03 12:30 | Heidelberg Uni - St. Albans Sain | scheduled
+- 2026-07-03 13:00 | Cooks Hill Uni - Valentine Phoen | scheduled
+- 2026-07-03 13:00 | Edgeworth Eagl - Kahibah | scheduled
+- 2026-07-03 13:00 | Cbe - Bahardar | scheduled
+- 2026-07-03 13:30 | Melbourne Knig - Bulleen Lions | scheduled
+- 2026-07-03 13:30 | Moreland Zebra - Brunswick City | scheduled
+- 2026-07-03 13:30 | Northcote City - Melbourne Srbij | scheduled
+- 2026-07-03 14:00 | Adelaide Comet - Croydon Kings | scheduled
