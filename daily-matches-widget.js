@@ -116,10 +116,10 @@
   const marketByKey = Object.fromEntries(markets.map(([key, label, keys]) => [key, { key, label, keys }]));
 
   const detailMarkets = [
-    ["firstHalfBttsYes", "İlk yarı KG Var", ["firstHalfBttsYes", "firstHalfKgVar", "firstHalfBttsYes_guess", "iyKgVar", "ilk_yari_kg_var"]],
-    ["firstHalfBttsNo", "İlk yarı KG Yok", ["firstHalfBttsNo", "firstHalfKgYok", "firstHalfBttsNo_guess", "iyKgYok", "ilk_yari_kg_yok"]],
-    ["secondHalfBttsYes", "İkinci yarı KG Var", ["secondHalfBttsYes", "secondHalfKgVar", "secondHalfBttsYes_guess", "iy2KgVar", "ikinci_yari_kg_var"]],
-    ["secondHalfBttsNo", "İkinci yarı KG Yok", ["secondHalfBttsNo", "secondHalfKgYok", "secondHalfBttsNo_guess", "iy2KgYok", "ikinci_yari_kg_yok"]],
+    ["firstHalfBttsYes", "İlk Yarı KG Var", ["firstHalfBttsYes", "firstHalfKgVar", "firstHalfBttsYes_guess", "iyKgVar", "ilk_yari_kg_var"]],
+    ["firstHalfBttsNo", "İlk Yarı KG Yok", ["firstHalfBttsNo", "firstHalfKgYok", "firstHalfBttsNo_guess", "iyKgYok", "ilk_yari_kg_yok"]],
+    ["secondHalfBttsYes", "İkinci Yarı KG Var", ["secondHalfBttsYes", "secondHalfKgVar", "secondHalfBttsYes_guess", "iy2KgVar", "ikinci_yari_kg_var"]],
+    ["secondHalfBttsNo", "İkinci Yarı KG Yok", ["secondHalfBttsNo", "secondHalfKgYok", "secondHalfBttsNo_guess", "iy2KgYok", "ikinci_yari_kg_yok"]],
     ["over25", "2.5 Üst", ["over25", "ust25", "ust_25", "over", "ust"]],
     ["under25", "2.5 Alt", ["under25", "alt25", "alt_25", "under", "alt"]],
     ["over35", "3.5 Üst", ["over35", "ust35", "ust_35", "over35_guess"]],
@@ -129,7 +129,7 @@
     ["bttsYes", "KG Var", ["bttsYes", "kgVar", "kg_var", "bttsYes_guess", "varOdd"]],
     ["bttsNo", "KG Yok", ["bttsNo", "kgYok", "kg_yok", "bttsNo_guess", "yokOdd"]]
   ];
-  detailMarkets.forEach(([key, label, keys]) => { marketByKey[key] = { key, label, keys }; });
+  const detailMarketByKey = Object.fromEntries(detailMarkets.map(([key, label, keys]) => [key, { key, label, keys }]));
 
   function splitTeams(x) {
     return String(x.match || x.match_name || "").split(/\s+-\s+|\s+VS\s+/i);
@@ -285,7 +285,7 @@
   }
 
   function pickId(matchId, key) {
-    return `${matchId}|${key}`;
+    return `${matchId}::${key}`;
   }
 
   function oddBtn(m, key, label, keys) {
@@ -295,15 +295,17 @@
     return `<button class="flw-odd${on}" data-pick="${esc(m._id)}" data-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button>`;
   }
 
+  function detailOddBtn(m, key, label, keys) {
+    const value = pick(m, keys);
+    if (isBlank(value)) {
+      return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd" disabled title="Oran verisi bekleniyor">Veri bekleniyor</button></div>`;
+    }
+    const on = app.picks.has(pickId(m._id, key)) ? " on" : "";
+    return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd${on}" data-detail-pick="${esc(m._id)}" data-detail-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button></div>`;
+  }
+
   function detailOddLine(m) {
-    const lines = detailMarkets.map(([key, label, keys]) => {
-      const value = pick(m, keys);
-      if (isBlank(value)) {
-        return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd" disabled title="Oran verisi bekleniyor">Veri bekleniyor</button></div>`;
-      }
-      const on = app.picks.has(pickId(m._id, key)) ? " on" : "";
-      return `<div class="flw-detail-market"><span>${esc(label)}</span><button class="flw-odd flw-detail-odd${on}" data-pick="${esc(m._id)}" data-key="${esc(key)}" title="${esc(label)}">${esc(fmt(value))}</button></div>`;
-    });
+    const lines = detailMarkets.map(([key, label, keys]) => detailOddBtn(m, key, label, keys));
     const oddsCount = Object.values(m.available_odds || m.odds || {}).filter((v) => !isBlank(v)).length;
     return `${lines.join("")}<div class="flw-detail-note">Oran kaynağı: ${esc(m.oddsSource || m.source || "Maçkolik veri akışı")}. ${oddsCount ? `${oddsCount} oran alanı bulundu.` : "Oran verisi bekleniyor."}</div>`;
   }
@@ -402,11 +404,26 @@
     drawSlip();
   }
 
+  function selectDetail(id, key) {
+    const item = [...app.bulletin, ...app.live].find((m) => m._id === id);
+    const market = detailMarketByKey[key];
+    if (!item || !market) return;
+    const value = pick(item, market.keys);
+    if (isBlank(value)) return;
+    const idKey = pickId(id, key);
+    if (app.picks.has(idKey)) app.picks.delete(idKey);
+    else app.picks.set(idKey, { id: idKey, matchId: id, key, label: market.label, value, home: item.home, away: item.away });
+    drawRows();
+    drawSlip();
+  }
+
   app.click = (e) => {
     const mode = e.target.closest("[data-mode]");
     if (mode) { app.mode = ["live", "finished"].includes(mode.dataset.mode) ? mode.dataset.mode : "bulletin"; app.league = "all"; draw(); return; }
     const toggle = e.target.closest("[data-toggle]");
     if (toggle) { const id = toggle.dataset.toggle; app.expanded.has(id) ? app.expanded.delete(id) : app.expanded.add(id); drawRows(); return; }
+    const detailPick = e.target.closest("[data-detail-pick]");
+    if (detailPick) { selectDetail(detailPick.dataset.detailPick, detailPick.dataset.detailKey); return; }
     const p = e.target.closest("[data-pick]");
     if (p) { select(p.dataset.pick, p.dataset.key); return; }
     const rm = e.target.closest("[data-remove]");
