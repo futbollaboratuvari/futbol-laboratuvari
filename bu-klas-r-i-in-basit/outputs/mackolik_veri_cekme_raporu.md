@@ -1,34 +1,32 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-03T15:58:28.212481+00:00
+Tarih: 2026-07-03T20:21:57.648080+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 30
+- Kac mac bulundu: 16
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 30
+- Kac mac zaten vardi: 16
 - Ham veri havuzu toplam mac sayisi: 973
 - Hedef tarih: 03.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Lone Star Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Orta Atlantik Grubu
+- Avustralya NPL Tazmanya
+- Avustralya NPL Victoria
 - Dünya Kupası 2026 Son 32 Turu
-- Estonya Premium Lig
-- Faroe Adaları Master Lig
-- Hazırlık Kulüpler
-- Letonya Virsliga
-- Litvanya A Ligi
-- Lübnan Premier Lig
-- Norveç 1.Lig
-- İran Azadegan Ligi
-- İrlanda 1.Lig
-- İrlanda Premier Lig
-- İsveç Allsvenskan
-- İzlanda 1.Lig
-- İzlanda 2.Lig
-- İzlanda Urvalsdeild
+- Ekvador Pro Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -85,8 +83,8 @@ Tarih: 2026-07-03T15:58:28.212481+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 32
-- Acilan detay: 32
+- Denenen Tumu alani: 17
+- Acilan detay: 17
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -99,26 +97,22 @@ Tarih: 2026-07-03T15:58:28.212481+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 03.07.2026 | 21:00 | Dünya Kupası 2026 Son 32 Turu | Avustralya | Misir | 20222 | 5 |
-| 03.07.2026 | 21:45 | İrlanda Premier Lig | Drogheda | Bohemian | 13684 | 5 |
-| 03.07.2026 | 21:45 | İrlanda Premier Lig | St Patricks | Galway United | 13878 | 5 |
-| 03.07.2026 | 21:45 | İrlanda Premier Lig | Derry City | Waterford | 13630 | 5 |
-| 03.07.2026 | 22:00 | İrlanda Premier Lig | Shelbourne | Dundalk | 13770 | 5 |
-| 03.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Shamrock Rovers | 13824 | 5 |
-| 03.07.2026 | 20:00 | İsveç Allsvenskan | Sirius | Mjallby | 13122 | 5 |
-| 03.07.2026 | 17:30 | Hazırlık Kulüpler | Ssc Farul | Otelul Galati | 03237 | 5 |
-| 03.07.2026 | 21:30 | Hazırlık Kulüpler | River Plate | Flamengo | 09661 | 5 |
-| 03.07.2026 | 19:00 | Norveç 1.Lig | Raufoss | Strommen | 12808 | 5 |
-| 03.07.2026 | 20:00 | Norveç 1.Lig | Ranheim | Stabaek | 12910 | 5 |
-| 03.07.2026 | 19:00 | Norveç 1.Lig | Kongsvinger | Sogndal | 12666 | 5 |
-| 03.07.2026 | 21:45 | İrlanda 1.Lig | Bray Wanderers | Athlone | 13565 | 5 |
-| 03.07.2026 | 21:45 | İrlanda 1.Lig | Cobh Ramblers | Cork City | 13597 | 5 |
-| 03.07.2026 | 21:45 | İrlanda 1.Lig | Finn Harps | Wexford Youths | 13737 | 5 |
-| 03.07.2026 | 21:45 | İrlanda 1.Lig | Treaty Unt. | Kerry | 13932 | 5 |
-| 03.07.2026 | 19:00 | Litvanya A Ligi | Dziugas Telsia | Kauno Zalgiris | 16438 | 5 |
-| 03.07.2026 | 21:30 | Lübnan Premier Lig | Hikma | Nejmeh | 14707 | 5 |
-| 03.07.2026 | 22:15 | İzlanda Urvalsdeild | Hafnarfjordur | Stjarnan | 14064 | 3 |
-| 03.07.2026 | 22:15 | İzlanda 1.Lig | Njardvik | Throttur | 14099 | 5 |
+| 04.07.2026 | 04:30 | Dünya Kupası 2026 Son 32 Turu | Kolombiya | Gana | 06475 | 5 |
+| 04.07.2026 | 01:00 | Dünya Kupası 2026 Son 32 Turu | Arjantin | Kape Verde | 20294 | 4 |
+| 04.07.2026 | 07:00 | Avustralya NPL Victoria | Hume City | Dandenong City | 09408 | 5 |
+| 04.07.2026 | 07:30 | Avustralya NPL Tazmanya | Devonport City | Riverside Olymp | 09514 | 3 |
+| 04.07.2026 | 03:00 | Ekvador Pro Lig | Indep. Jose Te | Manta | 16685 | 4 |
+| 04.07.2026 | 02:30 | ABD USL | Loudoun United | Sporting Jax | 14257 | 5 |
+| 04.07.2026 | 03:00 | ABD USL Lig 2 Lone Star Grubu | Houston Fc | Hill Country Lo | 10038 | 3 |
+| 04.07.2026 | 02:30 | ABD USL Lig 2 Orta Atlantik Grubu | West Chester U | Delaware Fc | 10751 | 3 |
+| 04.07.2026 | 02:30 | ABD USL Lig 2 Kuzeydoğu Grubu | Western Mass P | Black Rock | 04918 | 5 |
+| 04.07.2026 | 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars | Snohomish Unite | 05922 | 3 |
+| 04.07.2026 | 04:30 | ABD USL Lig 2 Kuzeybatı Grubu | Midlakes Unite | Bangers | 04453 | 3 |
+| 04.07.2026 | 02:00 | ABD USL Lig 2 Güneydoğu Grubu | Sporting Jax I | The Villages | 10616 | 5 |
+| 04.07.2026 | 05:00 | ABD USL Lig 2 Güneybatı Grubu | Fc Tucson | Stars Fc | 05284 | 3 |
+| 04.07.2026 | 02:30 | ABD USL Lig 1 | Naples | Portland Hearts | 14289 | 5 |
+| 04.07.2026 | 02:30 | ABD USL Lig 1 | Richmond Kicke | Sarasota Paradi | 14306 | 5 |
+| 04.07.2026 | 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc | Michigan Bucks | 10539 | 3 |
 
 ## Sonuc
 
