@@ -1,7 +1,7 @@
 {
   "schema_version": "raw_match_pool_v1",
   "created_at": "2026-06-18T00:00:00+00:00",
-  "updated_at": "2026-07-04T09:30:46.117230+00:00",
+  "updated_at": "2026-07-04T11:59:05.484019+00:00",
   "storage_strategy": "match_id_indexed_raw_matches",
   "match_count": 1125,
   "matches": [
@@ -62696,14 +62696,14 @@
       "away_goals": 1,
       "winner": "DRAW",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-07-04T07:31:05.993757+00:00",
+      "stored_at": "2026-07-04T11:59:05.483851+00:00",
       "raw_pool_key": "id:537787",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 1,
       "awayScore": 1,
       "score": "1-1",
-      "lastLiveUpdate": "2026-07-04T07:31:05.993765+00:00"
+      "lastLiveUpdate": "2026-07-04T11:59:05.483859+00:00"
     },
     {
       "match_id": 537789,
@@ -62720,14 +62720,14 @@
       "away_goals": 0,
       "winner": "HOME_TEAM",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-07-04T07:31:05.993772+00:00",
+      "stored_at": "2026-07-04T11:59:05.483869+00:00",
       "raw_pool_key": "id:537789",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 3,
       "awayScore": 0,
       "score": "3-0",
-      "lastLiveUpdate": "2026-07-04T07:31:05.993778+00:00"
+      "lastLiveUpdate": "2026-07-04T11:59:05.483882+00:00"
     },
     {
       "match_id": 537790,
@@ -62744,14 +62744,14 @@
       "away_goals": 0,
       "winner": "HOME_TEAM",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-07-04T07:31:05.993786+00:00",
+      "stored_at": "2026-07-04T11:59:05.483892+00:00",
       "raw_pool_key": "id:537790",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 3,
       "awayScore": 0,
       "score": "3-0",
-      "lastLiveUpdate": "2026-07-04T07:31:05.993792+00:00"
+      "lastLiveUpdate": "2026-07-04T11:59:05.483901+00:00"
     },
     {
       "match_id": 537786,
@@ -62768,14 +62768,14 @@
       "away_goals": 0,
       "winner": "DRAW",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-07-04T07:31:05.993741+00:00",
+      "stored_at": "2026-07-04T11:59:05.483831+00:00",
       "raw_pool_key": "id:537786",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 0,
       "awayScore": 0,
       "score": "0-0",
-      "lastLiveUpdate": "2026-07-04T07:31:05.993748+00:00"
+      "lastLiveUpdate": "2026-07-04T11:59:05.483840+00:00"
     },
     {
       "match_id": 537785,
@@ -62792,14 +62792,14 @@
       "away_goals": 2,
       "winner": "HOME_TEAM",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-07-04T07:31:05.993721+00:00",
+      "stored_at": "2026-07-04T11:59:05.483806+00:00",
       "raw_pool_key": "id:537785",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 4,
       "awayScore": 2,
       "score": "4-2",
-      "lastLiveUpdate": "2026-07-04T07:31:05.993732+00:00"
+      "lastLiveUpdate": "2026-07-04T11:59:05.483818+00:00"
     },
     {
       "tarih": "20.06.2026",
@@ -104744,12 +104744,24 @@
       "added_at": "2026-07-04T09:30:46.117117+00:00",
       "incoming_matches": 125,
       "new_matches_added": 1
+    },
+    {
+      "source": "mackolik_arsiv",
+      "added_at": "2026-07-04T11:59:05.403836+00:00",
+      "incoming_matches": 0,
+      "new_matches_added": 0
+    },
+    {
+      "source": "demo_mode_local_sample",
+      "added_at": "2026-07-04T11:59:05.484012+00:00",
+      "incoming_matches": 5,
+      "new_matches_added": 0
     }
   ],
   "deduplication": {
-    "incoming_matches": 125,
-    "duplicate_matches": 124,
-    "new_matches_added": 1,
+    "incoming_matches": 5,
+    "duplicate_matches": 5,
+    "new_matches_added": 0,
     "total_unique_matches": 1125
   },
   "competition_code": "PL",

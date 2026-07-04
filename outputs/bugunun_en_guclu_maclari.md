@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-04T11:05:25.012Z
+- Güncelleme: 2026-07-04T11:57:40.373Z
 - Ham maç sayısı: 131
 - Yarın bülteni maç sayısı: 23
 - Detay blok sayısı: 354
-- Aktif bülten maçı: 100
-- Bültenden düşürülen maç: 31
+- Aktif bülten maçı: 98
+- Bültenden düşürülen maç: 33
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Dalian Zhixing - Wuhan Three Tow | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.47 | 7 |
-| Beijing Guoan - Shandong Taisha | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.51 | 8 |
 | Lahti - Gnistan | Finlandiya Veikkausliiga | 15:00 | Veri bekleniyor | - | 2.08 | 8 |
 | Tianjin Teda - Shenzhen Peng | Çin Halk Cumhuriyeti Süper Lig | 15:00 | Veri bekleniyor | - | 1.86 | 8 |
 | Twente - Aberdeen | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.33 | 6 |
