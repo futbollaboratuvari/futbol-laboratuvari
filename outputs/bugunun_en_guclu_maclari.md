@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-04T11:57:40.373Z
-- Ham maç sayısı: 131
+- Güncelleme: 2026-07-04T12:16:50.829Z
+- Ham maç sayısı: 120
 - Yarın bülteni maç sayısı: 23
-- Detay blok sayısı: 354
-- Aktif bülten maçı: 98
-- Bültenden düşürülen maç: 33
+- Detay blok sayısı: 327
+- Aktif bülten maçı: 91
+- Bültenden düşürülen maç: 29
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lahti - Gnistan | Finlandiya Veikkausliiga | 15:00 | Veri bekleniyor | - | 2.08 | 8 |
-| Tianjin Teda - Shenzhen Peng | Çin Halk Cumhuriyeti Süper Lig | 15:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Twente - Aberdeen | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.33 | 6 |
-| Club Brugge - Kortrijk | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.29 | 6 |
-| Valerenga - Fredrikstad | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Egersunds - Moss | Norveç 1.Lig | 15:00 | Veri bekleniyor | - | 1.8 | 8 |
-| Altay - Tobol Kostanay | Kazakistan Premier Lig | 15:00 | Veri bekleniyor | - | 2.65 | 8 |
 | Dordrecht - Feyenoord | Hazırlık Kulüpler | 15:30 | Veri bekleniyor | - | 6.44 | 4 |
 | İspanya (U19) - Almanya U19 | Avrupa U19 Şampiyonası Grup A | 16:00 | Veri bekleniyor | - | 1.49 | 8 |
 | Halmstads - Vasteras | İsveç Allsvenskan | 16:00 | Veri bekleniyor | - | 2.51 | 8 |

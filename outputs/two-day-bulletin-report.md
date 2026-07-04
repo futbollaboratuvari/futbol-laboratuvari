@@ -2,24 +2,15 @@
 
 Gunler: 2026-07-04 / 2026-07-05
 Kaynak: fixtures.json
-Ham mac: 131
-Aktif mac: 100
-Canli mac: 31
+Ham mac: 120
+Aktif mac: 91
+Canli mac: 29
 Biten mac: 0
-Bultenden dusurulen mac: 31
-Bugun: 77
+Bultenden dusurulen mac: 29
+Bugun: 68
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-07-04 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Wuhan Three Tow | scheduled | -
-- 2026-07-04 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shandong Taisha | scheduled | -
-- 2026-07-04 15:00 | Finlandiya Veikkausliiga | Lahti - Gnistan | scheduled | -
-- 2026-07-04 15:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda - Shenzhen Peng | scheduled | -
-- 2026-07-04 15:00 | Hazırlık Kulüpler | Twente - Aberdeen | scheduled | -
-- 2026-07-04 15:00 | Hazırlık Kulüpler | Club Brugge - Kortrijk | scheduled | -
-- 2026-07-04 15:00 | Hazırlık Kulüpler | Valerenga - Fredrikstad | scheduled | -
-- 2026-07-04 15:00 | Norveç 1.Lig | Egersunds - Moss | scheduled | -
-- 2026-07-04 15:00 | Kazakistan Premier Lig | Altay - Tobol Kostanay | scheduled | -
 - 2026-07-04 15:30 | Hazırlık Kulüpler | Dordrecht - Feyenoord | scheduled | -
 - 2026-07-04 16:00 | Avrupa U19 Şampiyonası Grup A | İspanya (U19) - Almanya U19 | scheduled | -
 - 2026-07-04 16:00 | İsveç Allsvenskan | Halmstads - Vasteras | scheduled | -
@@ -113,17 +104,6 @@ Yarin: 23
 - 2026-07-05 07:30 | Avustralya NPL Tazmanya | South East Uni - South Hobart | scheduled | -
 
 ## Canli Maclar
-- 2026-07-04 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Apia | live | -
-- 2026-07-04 10:30 | Avustralya NPL Güney Avustralya | White City Woo - West Adelaide | live | -
-- 2026-07-04 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Brindabella Blu | live | -
-- 2026-07-04 11:00 | Hazırlık Kulüpler | Sigma Olomouc - Dukla Banska By | live | -
-- 2026-07-04 11:00 | Avustralya NPL Victoria | Caroline S. - Oakleigh Cannon | live | -
-- 2026-07-04 12:00 | Hazırlık Kulüpler | Salzburg - Gornik Zabrze | live | -
-- 2026-07-04 12:00 | Hazırlık Kulüpler | Slovan Liberec - Dukla Prag | live | -
-- 2026-07-04 12:00 | Avustralya NPL Queensland | Eastern Suburb - Peninsula Power | live | -
-- 2026-07-04 12:00 | Avustralya NPL Batı Avustralya | Dianella White - Perth | live | -
-- 2026-07-04 12:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Olympi | live | -
-- 2026-07-04 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - West Torrens | live | -
 - 2026-07-04 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Heilongjiang Ls | live | -
 - 2026-07-04 13:00 | Letonya 1.Lig | Riga Ii - Tukums Ii | live | -
 - 2026-07-04 13:30 | Güney Kore K Lig 1 | Anyang - Pohang Steelers | live | -
@@ -144,6 +124,15 @@ Yarin: 23
 - 2026-07-04 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Hebei Kungfu | live | -
 - 2026-07-04 14:00 | Letonya 1.Lig | Jdfs Alberts - Riga Mariners | live | -
 - 2026-07-04 14:00 | Hazırlık Kulüpler | Oss - Go Ahead Eagles | live | -
+- 2026-07-04 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Wuhan Three Tow | live | -
+- 2026-07-04 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shandong Taisha | live | -
+- 2026-07-04 15:00 | Finlandiya Veikkausliiga | Lahti - Gnistan | live | -
+- 2026-07-04 15:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda - Shenzhen Peng | live | -
+- 2026-07-04 15:00 | Hazırlık Kulüpler | Twente - Aberdeen | live | -
+- 2026-07-04 15:00 | Hazırlık Kulüpler | Club Brugge - Kortrijk | live | -
+- 2026-07-04 15:00 | Hazırlık Kulüpler | Valerenga - Fredrikstad | live | -
+- 2026-07-04 15:00 | Norveç 1.Lig | Egersunds - Moss | live | -
+- 2026-07-04 15:00 | Kazakistan Premier Lig | Altay - Tobol Kostanay | live | -
 
 ## Biten Maclar
 Biten mac yok.
