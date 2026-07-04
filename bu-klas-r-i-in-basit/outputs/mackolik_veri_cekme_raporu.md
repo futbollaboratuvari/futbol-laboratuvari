@@ -1,29 +1,31 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-04T07:31:05.975021+00:00
+Tarih: 2026-07-04T09:30:46.170666+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 110
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 108
-- Ham veri havuzu toplam mac sayisi: 1124
+- Kac mac bulundu: 125
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 124
+- Ham veri havuzu toplam mac sayisi: 1125
 - Hedef tarih: 04.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Orta Güney Grubu
 - Arjantin Ulusal Primera Lig
 - Avrupa U19 Şampiyonası Grup A
 - Avrupa U19 Şampiyonası Kadınlar Grup B
 - Avustralya NPL Batı Avustralya
-- Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
 - Avustralya NPL Queensland
-- Avustralya NPL Victoria
-- Avustralya NPL Yeni Güney Galler
+- Avustralya NPL Tazmanya
+- Avustralya U20 NSW NPL 1
+- Avustralya Victoria NPL 1
 - Belarus Premier Lig
 - Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
@@ -50,6 +52,7 @@ Tarih: 2026-07-04T07:31:05.975021+00:00
 - İzlanda 1.Lig
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
+- Şili Kupa Grup A
 - Şili Kupa Grup B
 - Şili Kupa Grup G
 
@@ -108,8 +111,8 @@ Tarih: 2026-07-04T07:31:05.975021+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 54
-- Acilan detay: 54
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -123,25 +126,25 @@ Tarih: 2026-07-04T07:31:05.975021+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 04.07.2026 | 20:00 | Dünya Kupası 2026 Son 16 Turu | Kanada | Fas | 01538 | 5 |
+| 05.07.2026 | 00:00 | Dünya Kupası 2026 Son 16 Turu | Paraguay | Fransa | 09413 | 4 |
 | 04.07.2026 | 16:00 | Avrupa U19 Şampiyonası Grup A | İspanya (U19) | Almanya U19 | 04308 | 5 |
 | 04.07.2026 | 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Turku | 12134 | 5 |
-| 04.07.2026 | 18:00 | Finlandiya Veikkausliiga | Vaasa | Mariehamn | 12229 | 5 |
 | 04.07.2026 | 15:00 | Finlandiya Veikkausliiga | Lahti | Gnistan | 11839 | 5 |
+| 04.07.2026 | 18:00 | Finlandiya Veikkausliiga | Vaasa | Mariehamn | 12229 | 5 |
 | 04.07.2026 | 17:00 | Finlandiya Veikkausliiga | Jaro | Ilves | 11984 | 5 |
 | 04.07.2026 | 16:00 | İsveç Allsvenskan | Degerfors | Malmö | 13176 | 5 |
 | 04.07.2026 | 16:00 | İsveç Allsvenskan | Halmstads | Vasteras | 13230 | 5 |
-| 04.07.2026 | 13:30 | Güney Kore K Lig 1 | Daejeon Citize | Bucheon | 15053 | 5 |
 | 04.07.2026 | 13:30 | Güney Kore K Lig 1 | Anyang | Pohang Steelers | 15107 | 5 |
 | 04.07.2026 | 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm | Gangwon | 15161 | 5 |
-| 04.07.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth | Shanghai Port | 15703 | 5 |
-| 04.07.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda | Shenzhen Peng | 15866 | 5 |
-| 04.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan | Shandong Taisha | 15757 | 5 |
+| 04.07.2026 | 13:30 | Güney Kore K Lig 1 | Daejeon Citize | Bucheon | 15053 | 5 |
 | 04.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing | Wuhan Three Tow | 15811 | 5 |
 | 04.07.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Sheny | Chongqing Tongl | 15649 | 5 |
+| 04.07.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda | Shenzhen Peng | 15866 | 5 |
+| 04.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan | Shandong Taisha | 15757 | 5 |
+| 04.07.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth | Shanghai Port | 15703 | 5 |
 | 04.07.2026 | 16:00 | Finlandiya Ykkösliiga | Ekenas If | Pk-35 Ry | 11922 | 5 |
-| 04.07.2026 | 15:30 | Hazırlık Kulüpler | Dordrecht | Feyenoord | 07234 | 3 |
-| 04.07.2026 | 12:00 | Hazırlık Kulüpler | Slovan Liberec | Dukla Prag | 03903 | 5 |
-| 04.07.2026 | 17:00 | Hazırlık Kulüpler | Bahia | Torque | 00498 | 5 |
+| 04.07.2026 | 10:00 | Hazırlık Kulüpler | Lokomotiv Plov | Arda Kardzhali | 06670 | 5 |
+| 04.07.2026 | 14:00 | Hazırlık Kulüpler | Midtjylland | Silkeborg | 05169 | 5 |
 
 ## Sonuc
 

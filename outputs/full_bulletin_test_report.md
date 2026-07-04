@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 155
-- Live match count: 9
+- Scheduled match count: 121
+- Live match count: 10
 - Finished removed count: 0
 - Date window: 2026-07-04 / 2026-07-05 23:59
 
-- 2026-07-04 02:00 | Sporting Jax I - The Villages | live
-- 2026-07-04 02:00 | Kalamazoo Fc - Michigan Bucks | live
-- 2026-07-04 02:30 | Naples - Portland Hearts | live
-- 2026-07-04 02:30 | Richmond Kicke - Sarasota Paradi | live
-- 2026-07-04 02:30 | Western Mass P - Black Rock | live
-- 2026-07-04 02:30 | West Chester U - Delaware Fc | live
-- 2026-07-04 02:30 | Loudoun United - Sporting Jax | live
-- 2026-07-04 03:00 | Houston Fc - Hill Country Lo | live
-- 2026-07-04 03:00 | Indep. Jose Te - Manta | live
-- 2026-07-04 04:30 | Midlakes Unite - Bangers | scheduled
+- 2026-07-04 10:30 | White City Woo - West Adelaide | live
+- 2026-07-04 10:30 | Sutherland Sha - Apia | live
+- 2026-07-04 10:45 | Monaro Panther - Brindabella Blu | live
+- 2026-07-04 11:00 | Caroline S. - Oakleigh Cannon | live
+- 2026-07-04 11:00 | Sigma Olomouc - Dukla Banska By | live
+- 2026-07-04 12:00 | Dianella White - Perth | live
+- 2026-07-04 12:00 | Eastern Suburb - Peninsula Power | live
+- 2026-07-04 12:00 | Salzburg - Gornik Zabrze | live
+- 2026-07-04 12:00 | Slovan Liberec - Dukla Prag | live
+- 2026-07-04 12:30 | Queensland Lio - Brisbane Olympi | live
