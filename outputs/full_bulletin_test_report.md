@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 67
-- Live match count: 27
+- Scheduled match count: 39
+- Live match count: 8
 - Finished removed count: 0
 - Date window: 2026-07-04 / 2026-07-05 23:59
 
-- 2026-07-04 16:00 | İspanya (U19) - Almanya U19 | live
-- 2026-07-04 16:00 | Vitebsk - Dnepr Mogilev | live
-- 2026-07-04 16:00 | Salpa Salo - Vjs | live
-- 2026-07-04 16:00 | Ekenas If - Pk-35 Ry | live
-- 2026-07-04 16:00 | Austria Vienna - Debreceni | live
-- 2026-07-04 16:00 | Odense - Hillerod | live
-- 2026-07-04 16:00 | Degerfors - Malmö | live
-- 2026-07-04 16:00 | Halmstads - Vasteras | live
-- 2026-07-04 16:00 | Kyzyl-Zhar - Yelimay Semey | live
-- 2026-07-04 16:00 | Marupe - Smiltene | live
+- 2026-07-04 19:15 | Ab Argir - Streymur | live
+- 2026-07-04 19:30 | Hnk Gorica - Zoria Luhansk | live
+- 2026-07-04 19:30 | Lokomotiva - Ask Bravo | live
+- 2026-07-04 19:30 | Slaven Belupo - Zalaegerszeg | live
+- 2026-07-04 20:00 | Kanada - Fas | live
+- 2026-07-04 20:00 | Petrocub - Milsami-Ursidos | live
+- 2026-07-04 20:30 | Skala - B68 Toftir | live
+- 2026-07-04 21:00 | Colegiales - Gimnasia Y Tiro | live
+- 2026-07-04 21:30 | Almagro - Rafaela | scheduled
+- 2026-07-04 21:30 | Almirante - Los Andes | scheduled

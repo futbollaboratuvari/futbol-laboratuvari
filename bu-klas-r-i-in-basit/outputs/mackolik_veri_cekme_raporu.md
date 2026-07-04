@@ -1,35 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-04T15:48:38.027289+00:00
+Tarih: 2026-07-04T18:17:20.379983+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 35
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 33
+- Kac mac bulundu: 43
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 43
 - Ham veri havuzu toplam mac sayisi: 1131
 - Hedef tarih: 04.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Orta Güney Grubu
 - Arjantin Ulusal Primera Lig
+- Avustralya NPL Tazmanya
+- Avustralya U20 NSW NPL 1
+- Avustralya Victoria NPL 1
 - Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
 - Ekvador Pro Lig
-- Estonya Premium Lig
-- Faroe Adaları Master Lig
 - Hazırlık Kulüpler
 - Kanada Premier Lig
 - Letonya 1.Lig
-- Moldova Ulusal Lig
-- Norveç 1.Lig
 - İrlanda 1.Lig
-- İzlanda 1.Lig
-- İzlanda 2.Lig
-- İzlanda Urvalsdeild
+- Şili Kupa Grup A
 - Şili Kupa Grup B
 - Şili Kupa Grup D
 - Şili Kupa Grup G
@@ -89,8 +88,8 @@ Tarih: 2026-07-04T15:48:38.027289+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 35
-- Acilan detay: 35
+- Denenen Tumu alani: 27
+- Acilan detay: 27
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -103,26 +102,26 @@ Tarih: 2026-07-04T15:48:38.027289+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 04.07.2026 | 20:00 | Dünya Kupası 2026 Son 16 Turu | Kanada | Fas | 01538 | 5 |
-| 04.07.2026 | 19:00 | Hazırlık Kulüpler | Olimpija Ljubl | Cfr Cluj | 05200 | 5 |
+| 05.07.2026 | 00:00 | Dünya Kupası 2026 Son 16 Turu | Paraguay | Fransa | 09413 | 4 |
+| 04.07.2026 | 18:00 | Hazırlık Kulüpler | Osijek | Paksi | 06234 | 3 |
 | 04.07.2026 | 19:30 | Hazırlık Kulüpler | Lokomotiva | Ask Bravo | 07419 | 5 |
 | 04.07.2026 | 19:30 | Hazırlık Kulüpler | Hnk Gorica | Zoria Luhansk | 05944 | 5 |
-| 04.07.2026 | 19:30 | Hazırlık Kulüpler | Slaven Belupo | Zalaegerszeg | 04139 | 5 |
-| 04.07.2026 | 18:00 | Hazırlık Kulüpler | Osijek | Paksi | 06234 | 3 |
-| 04.07.2026 | 10:00 | Hazırlık Kulüpler | Lokomotiv Plov | Arda Kardzhali | 06670 | 5 |
-| 04.07.2026 | 19:00 | Norveç 1.Lig | Bryne | Sandnes | 13037 | 5 |
 | 04.07.2026 | 21:30 | İrlanda 1.Lig | Longford | Ucd | 13965 | 5 |
+| 05.07.2026 | 01:00 | Şili Kupa Grup A | Iquique | Coquimbo Unido | 16644 | 5 |
 | 04.07.2026 | 23:00 | Şili Kupa Grup B | Sl Quillota | Everton De Vina | 16612 | 5 |
+| 05.07.2026 | 03:30 | Şili Kupa Grup B | Univ. Catolica | Capiapo | 16661 | 5 |
 | 04.07.2026 | 22:00 | Şili Kupa Grup D | Union San Feli | Union La Calera | 08329 | 5 |
 | 04.07.2026 | 22:00 | Şili Kupa Grup G | Magallanes | Palestino | 16595 | 5 |
-| 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Nueva Chicago | Club Atletico G | 16116 | 5 |
-| 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Almagro | Rafaela | 16040 | 3 |
-| 04.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Colegiales | Gimnasia Y Tiro | 16015 | 3 |
 | 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Atl Temperley | Tristan | 16082 | 3 |
-| 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Almirante | Los Andes | 16099 | 3 |
+| 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Nueva Chicago | Club Atletico G | 16116 | 5 |
 | 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | D Belgrano | Moron | 16064 | 3 |
+| 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Almirante | Los Andes | 16099 | 3 |
+| 04.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Almagro | Rafaela | 16040 | 3 |
 | 04.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí | Godoy Cruz | 16133 | 3 |
-| 04.07.2026 | 20:00 | Moldova Ulusal Lig | Petrocub | Milsami-Ursidos | 12028 | 5 |
+| 05.07.2026 | 00:00 | Arjantin Ulusal Primera Lig | Quilmes | Atlanta | 16150 | 3 |
+| 04.07.2026 | 22:00 | Brezilya Serie B | Criciuma | Sport Recife | 14755 | 5 |
+| 04.07.2026 | 22:00 | Brezilya Serie B | Novorizontino | Atletico Goiani | 14788 | 5 |
+| 04.07.2026 | 22:00 | Brezilya Serie B | Londrina | Regatas | 14821 | 5 |
 
 ## Sonuc
 
