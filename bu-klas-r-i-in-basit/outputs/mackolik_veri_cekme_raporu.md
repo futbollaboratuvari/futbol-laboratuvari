@@ -1,21 +1,67 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-04T20:15:58.752575+00:00
+Tarih: 2026-07-04T21:43:43.176589+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 4
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 4
-- Ham veri havuzu toplam mac sayisi: 1131
-- Hedef tarih: 04.07.2026 Europe/Istanbul
+- Kac mac bulundu: 98
+- Kac mac kaydedildi: 98
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 1229
+- Hedef tarih: 05.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Chesapeake Grubu
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Metropolitan Grubu
+- ABD USL Lig 2 NorCal Grubu
+- ABD USL Lig 2 Orta Atlantik Grubu
+- Arjantin Ulusal Primera Lig
+- Avrupa U19 Şampiyonası Grup B
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Queensland
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Belarus Premier Lig
+- Brezilya Serie B
+- Dünya Kupası 2026 Son 16 Turu
+- Ekvador Pro Lig
+- Estonya Premium Lig
+- Faroe Adaları Master Lig
+- Fas Botola 2
+- Fas Botola Pro
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
 - Hazırlık Kulüpler
+- Kanada Premier Lig
+- Kazakistan Premier Lig
 - Letonya 1.Lig
+- Letonya Virsliga
+- Litvanya A Ligi
+- Moldova Ulusal Lig
+- Norveç 1.Lig
+- Tanzanya Kuu Bara Ligi Küme Düşme Final
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
+- İsveç Allsvenskan
+- Şili Kupa Grup C
+- Şili Kupa Grup D
+- Şili Kupa Grup E
+- Şili Kupa Grup F
+- Şili Kupa Grup G
+- Şili Kupa Grup H
 
 ## Okunabilen Oran Alanlari
 
@@ -72,8 +118,8 @@ Tarih: 2026-07-04T20:15:58.752575+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -86,10 +132,26 @@ Tarih: 2026-07-04T20:15:58.752575+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 04.07.2026 | 19:30 | Hazırlık Kulüpler | Hnk Gorica | Zoria Luhansk | 05944 | 5 |
-| 04.07.2026 | 19:30 | Hazırlık Kulüpler | Lokomotiva | Ask Bravo | 07419 | 5 |
-| 04.07.2026 | 18:00 | Hazırlık Kulüpler | Osijek | Paksi | 06234 | 3 |
-| 04.07.2026 | 13:00 | Letonya 1.Lig | Riga Ii | Tukums Ii | 02396 | 3 |
+| 05.07.2026 | 23:00 | Dünya Kupası 2026 Son 16 Turu | Brezilya | Norveç | 09695 | 5 |
+| 06.07.2026 | 03:00 | Dünya Kupası 2026 Son 16 Turu | Meksika | İngiltere | 17554 | 5 |
+| 05.07.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | Ukrayna U19 | İtalya U19 | 05601 | 5 |
+| 05.07.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 | Hirvatistan (U1 | 04359 | 5 |
+| 05.07.2026 | 15:00 | İsveç Allsvenskan | Göteborg | Aik Stockholm | 13284 | 5 |
+| 05.07.2026 | 15:00 | İsveç Allsvenskan | Kalmar | Orgryte | 13340 | 5 |
+| 05.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Hammarby | 13401 | 5 |
+| 05.07.2026 | 13:30 | Güney Kore K Lig 1 | Fc Seoul | Incheon Utd | 15301 | 5 |
+| 05.07.2026 | 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm | Jeju Utd | 15355 | 5 |
+| 05.07.2026 | 13:30 | Güney Kore K Lig 1 | Gwangju | Ulsan | 15475 | 5 |
+| 05.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh | Zhejiang G. Fc | 15975 | 5 |
+| 05.07.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn | Chengdu Ron. | 15921 | 5 |
+| 05.07.2026 | 18:30 | Finlandiya Ykkösliiga | Mikkelin | Haka | 12450 | 5 |
+| 05.07.2026 | 16:30 | Hazırlık Kulüpler | Rosenborg | Molde | 09295 | 5 |
+| 05.07.2026 | 15:00 | Hazırlık Kulüpler | Aarhus | Motherwell | 08535 | 3 |
+| 05.07.2026 | 16:00 | Hazırlık Kulüpler | Rapid Wien | Pardubice | 02414 | 3 |
+| 05.07.2026 | 20:00 | Fas Botola Pro | Ittihad Tanger | Codm Meknes | 06354 | 5 |
+| 05.07.2026 | 20:00 | Fas Botola Pro | Far Rabat | Cr Khemis Zemam | 08741 | 5 |
+| 05.07.2026 | 20:00 | Fas Botola Pro | Fus Rabat | Yacoub El Manso | 07157 | 5 |
+| 05.07.2026 | 20:00 | Fas Botola Pro | Husa Agadir | Kawkab Marrakec | 06168 | 5 |
 
 ## Sonuc
 

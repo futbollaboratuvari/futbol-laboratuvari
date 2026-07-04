@@ -1,37 +1,49 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-04T20:33:39.590Z
-- Ham maç sayısı: 39
-- Yarın bülteni maç sayısı: 23
-- Detay blok sayısı: 108
-- Aktif bülten maçı: 23
-- Bültenden düşürülen maç: 16
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-07-04T21:43:49.994Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Paraguay - Fransa | Dünya Kupası 2026 Son 16 Turu | 00:00 | Veri bekleniyor | - | 13.85 | 5 |
-| Quilmes - Atlanta | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 2.06 | 6 |
-| Iquique - Coquimbo Unido | Şili Kupa Grup A | 01:00 | Veri bekleniyor | - | 3.33 | 8 |
-| Tampa Bay Rowd - Lexington | ABD USL | 01:00 | Veri bekleniyor | - | 1.38 | 7 |
-| Goias - Ceara | Brezilya Serie B | 02:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Vancouver Fc - Inter Toronto | Kanada Premier Lig | 02:00 | Veri bekleniyor | - | 1.78 | 8 |
-| Pittsburgh Riv - Brooklyn | ABD USL | 02:00 | Veri bekleniyor | - | 1.44 | 7 |
-| New York Cosmo - Greenville Triu | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 2.52 | 8 |
-| Rhode Island - Orange County B | ABD USL | 02:30 | Veri bekleniyor | - | 1.31 | 6 |
-| Fort Wayne - Spokane Velocit | ABD USL Lig 1 | 02:30 | Veri bekleniyor | - | 2.14 | 8 |
-| Corpus Christi - Chattanooga Red | ABD USL Lig 1 | 02:30 | Veri bekleniyor | - | 2.16 | 8 |
-| Barcelona Gua - Deportivo Cuenc | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.35 | 7 |
-| Louisville Cit - Hartford Athlet | ABD USL | 03:00 | Veri bekleniyor | - | 1.44 | 7 |
-| Jackson Boom - Mississippi Bri | ABD USL Lig 2 Orta Güney Grubu | 03:00 | Veri bekleniyor | - | 9.96 | 3 |
-| Univ. Catolica - Capiapo | Şili Kupa Grup B | 03:30 | Veri bekleniyor | - | 1.14 | 6 |
-| Tulsa Roughnec - Sacramento Repu | ABD USL | 03:30 | Veri bekleniyor | - | 2.19 | 8 |
-| Colorado Sprin - Phoenix Rising | ABD USL | 04:00 | Veri bekleniyor | - | 1.5 | 8 |
-| San Antonio - Monterey Bay | ABD USL | 04:00 | Veri bekleniyor | - | 1.66 | 8 |
-| New Mexico Uni - Oakland Roots | ABD USL | 04:30 | Veri bekleniyor | - | 2.12 | 8 |
-| Las Vegas Ligh - El Paso Locomot | ABD USL | 05:30 | Veri bekleniyor | - | 1.97 | 8 |
-| Rockdale City - Nws Spirit U20 | Avustralya U20 NSW NPL 1 | 06:00 | Veri bekleniyor | - | 1.77 | 8 |
-| Western Utd. I - Melbourne Victo | Avustralya Victoria NPL 1 | 07:00 | Veri bekleniyor | - | 3.68 | 4 |
-| South East Uni - South Hobart | Avustralya NPL Tazmanya | 07:30 | Veri bekleniyor | - | 17.1 | 3 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Paraguay VS Fransa | Dünya Kupası 2026 Son 16 Turu | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Quilmes VS Atlanta | Arjantin Ulusal Primera Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Central Norte VS San Miguel | Arjantin Ulusal Primera Lig | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Maipu VS Agropecuario | Arjantin Ulusal Primera Lig | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Brezilya VS Norveç | Dünya Kupası 2026 Son 16 Turu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Deportes Santa VS Audax Italiano | Şili Kupa Grup G | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Project 51o VS Davis Legacy | ABD USL Lig 2 NorCal Grubu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Virginia Marau VS Bethesda | ABD USL Lig 2 Chesapeake Grubu | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Ballard VS Tacoma Stars | ABD USL Lig 2 Kuzeybatı Grubu | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Union Espanola VS O Higgins | Şili Kupa Grup E | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| City Sc VS Redlands | ABD USL Lig 2 Güneybatı Grubu | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Delfin VS Emelec | Ekvador Pro Lig | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Pacific Fc VS Hfx Wanderers | Kanada Premier Lig | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Miami Fc VS Birmingham Legi | ABD USL | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Christos VS Loudoun United | ABD USL Lig 2 Chesapeake Grubu | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Pennsylvania C VS Reading United | ABD USL Lig 2 Orta Atlantik Grubu | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Bigfoot VS Bangers | ABD USL Lig 2 Kuzeybatı Grubu | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Fc Miami City VS Miami Ac | ABD USL Lig 2 Güney Florida Grubu | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Westchester Sc VS Athletic Club B | ABD USL Lig 1 | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Nautico VS Juventude | Brezilya Serie B | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Ironbound VS Staten Island A | ABD USL Lig 2 Metropolitan Grubu | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| East Atlanta VS Birmingham Legi | ABD USL Lig 2 Güney Merkez Grubu | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Meksika VS İngiltere | Dünya Kupası 2026 Son 16 Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Alta VS Charlotte Indep | ABD USL Lig 1 | 06:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
