@@ -2,39 +2,15 @@
 
 Gunler: 2026-07-04 / 2026-07-05
 Kaynak: fixtures.json
-Ham mac: 172
-Aktif mac: 67
-Canli mac: 27
-Biten mac: 78
-Bultenden dusurulen mac: 105
-Bugun: 44
+Ham mac: 83
+Aktif mac: 43
+Canli mac: 40
+Biten mac: 0
+Bultenden dusurulen mac: 40
+Bugun: 20
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-07-04 18:00 | Finlandiya Veikkausliiga | Vaasa - Mariehamn | scheduled | -
-- 2026-07-04 18:00 | Hazırlık Kulüpler | Piast Gliwice - Banik Ostrava | scheduled | -
-- 2026-07-04 18:00 | Hazırlık Kulüpler | Slovacko - Spartak Trnava | scheduled | -
-- 2026-07-04 18:00 | Hazırlık Kulüpler | Panathinaikos - Ajax | scheduled | -
-- 2026-07-04 18:00 | Belarus Premier Lig | Neman Grodno - Arsenal | scheduled | -
-- 2026-07-04 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İspanya U19 (K - Avusturya U19 ( | scheduled | -
-- 2026-07-04 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İzlanda U19 (K - İsviçre U19 (K) | scheduled | -
-- 2026-07-04 18:00 | Moldova Ulusal Lig | Politeh Chişin - Sheriff Tiraspo | scheduled | -
-- 2026-07-04 18:00 | Finlandiya Ykkönen | Oulun Ls - Inter Turku Ii | scheduled | -
-- 2026-07-04 18:00 | Letonya Virsliga | Daugava Riga - Auda | scheduled | -
-- 2026-07-04 18:00 | Belarus 1.Lig | Slutsk - Ostrovets Fc | scheduled | -
-- 2026-07-04 18:30 | Hazırlık Kulüpler | Hartberg - Ujpest | scheduled | -
-- 2026-07-04 19:00 | Hazırlık Kulüpler | Cska 1948 Sofi - Varazdin | scheduled | -
-- 2026-07-04 19:00 | Norveç 1.Lig | Bryne - Sandnes | scheduled | -
-- 2026-07-04 19:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Valur | scheduled | -
-- 2026-07-04 19:00 | İzlanda 1.Lig | Leiknir Reykja - Völsungur | scheduled | -
-- 2026-07-04 19:00 | Estonya Premium Lig | Paide Linnamee - Vaprus | scheduled | -
-- 2026-07-04 19:00 | Estonya Premium Lig | Trans Narva - Levadia Tallinn | scheduled | -
-- 2026-07-04 19:00 | Letonya 1.Lig | Metta / Lu - Skanste | scheduled | -
-- 2026-07-04 19:00 | İzlanda 2.Lig | Magni - Throttur Vogar | scheduled | -
-- 2026-07-04 19:00 | Hazırlık Kulüpler | Olimpija Ljubl - Cfr Cluj | scheduled | -
-- 2026-07-04 19:15 | Faroe Adaları Master Lig | Ab Argir - Streymur | scheduled | -
-- 2026-07-04 19:30 | Hazırlık Kulüpler | Slaven Belupo - Zalaegerszeg | scheduled | -
-- 2026-07-04 19:30 | Hazırlık Kulüpler | Hnk Gorica - Zoria Luhansk | scheduled | -
 - 2026-07-04 20:00 | Dünya Kupası 2026 Son 16 Turu | Kanada - Fas | scheduled | -
 - 2026-07-04 20:00 | Moldova Ulusal Lig | Petrocub - Milsami-Ursidos | scheduled | -
 - 2026-07-04 20:30 | Faroe Adaları Master Lig | Skala - B68 Toftir | scheduled | -
@@ -80,19 +56,6 @@ Yarin: 23
 - 2026-07-05 07:30 | Avustralya NPL Tazmanya | South East Uni - South Hobart | scheduled | -
 
 ## Canli Maclar
-- 2026-07-04 16:00 | Avrupa U19 Şampiyonası Grup A | İspanya (U19) - Almanya U19 | live | -
-- 2026-07-04 16:00 | İsveç Allsvenskan | Halmstads - Vasteras | live | -
-- 2026-07-04 16:00 | İsveç Allsvenskan | Degerfors - Malmö | live | -
-- 2026-07-04 16:00 | Finlandiya Ykkösliiga | Ekenas If - Pk-35 Ry | live | -
-- 2026-07-04 16:00 | Hazırlık Kulüpler | Odense - Hillerod | live | -
-- 2026-07-04 16:00 | Hazırlık Kulüpler | Austria Vienna - Debreceni | live | -
-- 2026-07-04 16:00 | Litvanya A Ligi | Fk Panevezys - Hegelmann | live | -
-- 2026-07-04 16:00 | Belarus Premier Lig | Vitebsk - Dnepr Mogilev | live | -
-- 2026-07-04 16:00 | Finlandiya Ykkönen | Salpa Salo - Vjs | live | -
-- 2026-07-04 16:00 | Letonya Virsliga | Bfc Daugavpils - Liepaja | live | -
-- 2026-07-04 16:00 | Kazakistan Premier Lig | Kyzyl-Zhar - Yelimay Semey | live | -
-- 2026-07-04 16:00 | Letonya 1.Lig | Marupe - Smiltene | live | -
-- 2026-07-04 16:30 | Faroe Adaları Master Lig | B36 Torshavn - Vikingur Gota | live | -
 - 2026-07-04 17:00 | Finlandiya Veikkausliiga | Jaro - Ilves | live | -
 - 2026-07-04 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Turku | live | -
 - 2026-07-04 17:00 | Hazırlık Kulüpler | Luzern - Winterthur | live | -
@@ -107,83 +70,32 @@ Yarin: 23
 - 2026-07-04 17:00 | Letonya 1.Lig | Rezekne / Bjss - Jfk Ventspils | live | -
 - 2026-07-04 17:00 | İzlanda 2.Lig | Kfa - Vikingur Ol. | live | -
 - 2026-07-04 17:00 | İzlanda 2.Lig | Fjolnir - Kormakur | live | -
+- 2026-07-04 18:00 | Finlandiya Veikkausliiga | Vaasa - Mariehamn | live | -
+- 2026-07-04 18:00 | Hazırlık Kulüpler | Piast Gliwice - Banik Ostrava | live | -
+- 2026-07-04 18:00 | Hazırlık Kulüpler | Slovacko - Spartak Trnava | live | -
+- 2026-07-04 18:00 | Hazırlık Kulüpler | Panathinaikos - Ajax | live | -
+- 2026-07-04 18:00 | Belarus Premier Lig | Neman Grodno - Arsenal | live | -
+- 2026-07-04 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İspanya U19 (K - Avusturya U19 ( | live | -
+- 2026-07-04 18:00 | Avrupa U19 Şampiyonası Kadınlar Grup B | İzlanda U19 (K - İsviçre U19 (K) | live | -
+- 2026-07-04 18:00 | Moldova Ulusal Lig | Politeh Chişin - Sheriff Tiraspo | live | -
+- 2026-07-04 18:00 | Finlandiya Ykkönen | Oulun Ls - Inter Turku Ii | live | -
+- 2026-07-04 18:00 | Letonya Virsliga | Daugava Riga - Auda | live | -
+- 2026-07-04 18:00 | Belarus 1.Lig | Slutsk - Ostrovets Fc | live | -
+- 2026-07-04 18:00 | Hazırlık Kulüpler | Osijek - Paksi | live | -
+- 2026-07-04 18:30 | Hazırlık Kulüpler | Hartberg - Ujpest | live | -
+- 2026-07-04 19:00 | Hazırlık Kulüpler | Cska 1948 Sofi - Varazdin | live | -
+- 2026-07-04 19:00 | Norveç 1.Lig | Bryne - Sandnes | live | -
+- 2026-07-04 19:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Valur | live | -
+- 2026-07-04 19:00 | İzlanda 1.Lig | Leiknir Reykja - Völsungur | live | -
+- 2026-07-04 19:00 | Estonya Premium Lig | Paide Linnamee - Vaprus | live | -
+- 2026-07-04 19:00 | Estonya Premium Lig | Trans Narva - Levadia Tallinn | live | -
+- 2026-07-04 19:00 | Letonya 1.Lig | Metta / Lu - Skanste | live | -
+- 2026-07-04 19:00 | İzlanda 2.Lig | Magni - Throttur Vogar | live | -
+- 2026-07-04 19:00 | Hazırlık Kulüpler | Olimpija Ljubl - Cfr Cluj | live | -
+- 2026-07-04 19:15 | Faroe Adaları Master Lig | Ab Argir - Streymur | live | -
+- 2026-07-04 19:30 | Hazırlık Kulüpler | Slaven Belupo - Zalaegerszeg | live | -
+- 2026-07-04 19:30 | Hazırlık Kulüpler | Hnk Gorica - Zoria Luhansk | live | -
+- 2026-07-04 19:30 | Hazırlık Kulüpler | Lokomotiva - Ask Bravo | live | -
 
 ## Biten Maclar
-- 2026-07-04 01:00 | Dünya Kupası 2026 Son 32 Turu | Arjantin - Kape Verde | finished | -
-- 2026-07-04 02:00 | ABD USL Lig 2 Güneydoğu Grubu | Sporting Jax I - The Villages | finished | -
-- 2026-07-04 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc - Michigan Bucks | finished | -
-- 2026-07-04 02:30 | ABD USL | Loudoun United - Sporting Jax | finished | -
-- 2026-07-04 02:30 | ABD USL Lig 2 Orta Atlantik Grubu | West Chester U - Delaware Fc | finished | -
-- 2026-07-04 02:30 | ABD USL Lig 2 Kuzeydoğu Grubu | Western Mass P - Black Rock | finished | -
-- 2026-07-04 02:30 | ABD USL Lig 1 | Naples - Portland Hearts | finished | -
-- 2026-07-04 02:30 | ABD USL Lig 1 | Richmond Kicke - Sarasota Paradi | finished | -
-- 2026-07-04 03:00 | Ekvador Pro Lig | Indep. Jose Te - Manta | finished | -
-- 2026-07-04 03:00 | ABD USL Lig 2 Lone Star Grubu | Houston Fc - Hill Country Lo | finished | -
-- 2026-07-04 04:30 | Dünya Kupası 2026 Son 32 Turu | Kolombiya - Gana | finished | -
-- 2026-07-04 04:30 | ABD USL Lig 2 Kuzeybatı Grubu | Midlakes Unite - Bangers | finished | -
-- 2026-07-04 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars - Snohomish Unite | finished | -
-- 2026-07-04 05:00 | ABD USL Lig 2 Güneybatı Grubu | Fc Tucson - Stars Fc | finished | -
-- 2026-07-04 07:00 | Avustralya NPL Victoria | Hume City - Dandenong City | finished | -
-- 2026-07-04 07:30 | Avustralya NPL Tazmanya | Devonport City - Riverside Olymp | finished | -
-- 2026-07-04 08:00 | Avustralya NPL Başkent Bölgesi | Canberra White - Cooma Tigers | finished | -
-- 2026-07-04 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - Sydney Olympic | finished | -
-- 2026-07-04 08:00 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Sydney Ii | finished | -
-- 2026-07-04 08:00 | Avustralya NPL Güney Avustralya | Adelaide City - Para Hills Knig | finished | -
-- 2026-07-04 08:00 | Avustralya NPL Victoria | Avondale Heigh - Preston Lions | finished | -
-- 2026-07-04 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Manningham Unit | finished | -
-- 2026-07-04 08:00 | Avustralya Victoria NPL 1 | Langwarrin - Eltham Redbacks | finished | -
-- 2026-07-04 08:15 | Avustralya NPL Victoria | Altona Magic - Melbourne City | finished | -
-- 2026-07-04 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Campbelltown Ci | finished | -
-- 2026-07-04 08:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Playford City P | finished | -
-- 2026-07-04 09:15 | Avustralya NPL Queensland | Gold Coast Kni - Moreton City Ex | finished | -
-- 2026-07-04 09:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Juvent | finished | -
-- 2026-07-04 09:45 | Avustralya NPL Tazmanya | Glenorchy Knig - Clarence Zebras | finished | -
-- 2026-07-04 10:00 | Hazırlık Kulüpler | Lokomotiv Plov - Arda Kardzhali | finished | -
-- 2026-07-04 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Sd Raiders | finished | -
-- 2026-07-04 10:00 | Avustralya NPL Batı Avustralya | Armadale - Olympic Kingswa | finished | -
-- 2026-07-04 10:00 | Avustralya NPL Batı Avustralya | Stirling Lions - Perth Redstar F | finished | -
-- 2026-07-04 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Balcatta | finished | -
-- 2026-07-04 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Sorrento | finished | -
-- 2026-07-04 10:00 | Avustralya NPL Batı Avustralya | Fremantle City - Bayswater City | finished | -
-- 2026-07-04 10:00 | Avustralya Victoria NPL 1 | North Geelong - Port Melbourne | finished | -
-- 2026-07-04 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Apia | finished | -
-- 2026-07-04 10:30 | Avustralya NPL Güney Avustralya | White City Woo - West Adelaide | finished | -
-- 2026-07-04 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Brindabella Blu | finished | -
-- 2026-07-04 11:00 | Hazırlık Kulüpler | Sigma Olomouc - Dukla Banska By | finished | -
-- 2026-07-04 11:00 | Avustralya NPL Victoria | Caroline S. - Oakleigh Cannon | finished | -
-- 2026-07-04 12:00 | Hazırlık Kulüpler | Salzburg - Gornik Zabrze | finished | -
-- 2026-07-04 12:00 | Hazırlık Kulüpler | Slovan Liberec - Dukla Prag | finished | -
-- 2026-07-04 12:00 | Avustralya NPL Queensland | Eastern Suburb - Peninsula Power | finished | -
-- 2026-07-04 12:00 | Avustralya NPL Batı Avustralya | Dianella White - Perth | finished | -
-- 2026-07-04 12:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Olympi | finished | -
-- 2026-07-04 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - West Torrens | finished | -
-- 2026-07-04 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Heilongjiang Ls | finished | -
-- 2026-07-04 13:00 | Letonya 1.Lig | Riga Ii - Tukums Ii | finished | -
-- 2026-07-04 13:30 | Güney Kore K Lig 1 | Anyang - Pohang Steelers | finished | -
-- 2026-07-04 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Bucheon | finished | -
-- 2026-07-04 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Gangwon | finished | -
-- 2026-07-04 13:30 | Güney Kore K Lig 2 | Paju Citizen - Yongin | finished | -
-- 2026-07-04 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Suwon City | finished | -
-- 2026-07-04 13:30 | Güney Kore K Lig 2 | Suwon Sb - Seongnam | finished | -
-- 2026-07-04 13:30 | Güney Kore K Lig 2 | Cheongju Fc - Daegu | finished | -
-- 2026-07-04 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Sheny - Chongqing Tongl | finished | -
-- 2026-07-04 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Shanghai Port | finished | -
-- 2026-07-04 14:00 | Hazırlık Kulüpler | Midtjylland - Silkeborg | finished | -
-- 2026-07-04 14:00 | Hazırlık Kulüpler | Brondby - Nordsjaelland | finished | -
-- 2026-07-04 14:00 | Hazırlık Kulüpler | Sparta Prag - Opava | finished | -
-- 2026-07-04 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Wuxi Wugou | finished | -
-- 2026-07-04 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Guangzhou E-Pow | finished | -
-- 2026-07-04 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Nantong Zhiyun | finished | -
-- 2026-07-04 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Hebei Kungfu | finished | -
-- 2026-07-04 14:00 | Letonya 1.Lig | Jdfs Alberts - Riga Mariners | finished | -
-- 2026-07-04 14:00 | Hazırlık Kulüpler | Oss - Go Ahead Eagles | finished | -
-- 2026-07-04 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Wuhan Three Tow | finished | -
-- 2026-07-04 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shandong Taisha | finished | -
-- 2026-07-04 15:00 | Finlandiya Veikkausliiga | Lahti - Gnistan | finished | -
-- 2026-07-04 15:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda - Shenzhen Peng | finished | -
-- 2026-07-04 15:00 | Hazırlık Kulüpler | Twente - Aberdeen | finished | -
-- 2026-07-04 15:00 | Hazırlık Kulüpler | Club Brugge - Kortrijk | finished | -
-- 2026-07-04 15:00 | Hazırlık Kulüpler | Valerenga - Fredrikstad | finished | -
-- 2026-07-04 15:00 | Norveç 1.Lig | Egersunds - Moss | finished | -
-- 2026-07-04 15:00 | Kazakistan Premier Lig | Altay - Tobol Kostanay | finished | -
-- 2026-07-04 15:30 | Hazırlık Kulüpler | Dordrecht - Feyenoord | finished | -
+Biten mac yok.

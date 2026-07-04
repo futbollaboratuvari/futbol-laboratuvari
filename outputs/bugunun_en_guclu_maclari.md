@@ -2,39 +2,27 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-04T15:47:55.411Z
-- Ham maç sayısı: 94
+- Güncelleme: 2026-07-04T16:43:01.181Z
+- Ham maç sayısı: 83
 - Yarın bülteni maç sayısı: 23
-- Detay blok sayısı: 252
-- Aktif bülten maçı: 55
-- Bültenden düşürülen maç: 39
+- Detay blok sayısı: 220
+- Aktif bülten maçı: 43
+- Bültenden düşürülen maç: 40
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cska 1948 Sofi - Varazdin | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.8 | 8 |
-| Bryne - Sandnes | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Vestmannaeyjar - Valur | İzlanda Urvalsdeild | 19:00 | Veri bekleniyor | - | 2.05 | 6 |
-| Leiknir Reykja - Völsungur | İzlanda 1.Lig | 19:00 | Veri bekleniyor | - | 1.33 | 4 |
-| Paide Linnamee - Vaprus | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 1.26 | 5 |
-| Trans Narva - Levadia Tallinn | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 9.96 | 2 |
-| Metta / Lu - Skanste | Letonya 1.Lig | 19:00 | Veri bekleniyor | - | - | 3 |
-| Magni - Throttur Vogar | İzlanda 2.Lig | 19:00 | Veri bekleniyor | - | 2.37 | 6 |
-| Olimpija Ljubl - Cfr Cluj | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.54 | 8 |
-| Ab Argir - Streymur | Faroe Adaları Master Lig | 19:15 | Veri bekleniyor | - | 1.56 | 8 |
-| Slaven Belupo - Zalaegerszeg | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 2.29 | 8 |
-| Hnk Gorica - Zoria Luhansk | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 1.99 | 8 |
-| Kanada - Fas | Dünya Kupası 2026 Son 16 Turu | 20:00 | Veri bekleniyor | - | 4.59 | 7 |
+| Kanada - Fas | Dünya Kupası 2026 Son 16 Turu | 20:00 | Veri bekleniyor | - | 4.84 | 7 |
 | Petrocub - Milsami-Ursidos | Moldova Ulusal Lig | 20:00 | Veri bekleniyor | - | 1.52 | 7 |
-| Skala - B68 Toftir | Faroe Adaları Master Lig | 20:30 | Veri bekleniyor | - | 1.68 | 8 |
+| Skala - B68 Toftir | Faroe Adaları Master Lig | 20:30 | Veri bekleniyor | - | 1.61 | 8 |
 | Colegiales - Gimnasia Y Tiro | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.69 | 5 |
 | Longford - Ucd | İrlanda 1.Lig | 21:30 | Veri bekleniyor | - | 3.08 | 8 |
 | Nueva Chicago - Club Atletico G | Arjantin Ulusal Primera Lig | 21:30 | Veri bekleniyor | - | 1.74 | 8 |
 | Almagro - Rafaela | Arjantin Ulusal Primera Lig | 21:30 | Veri bekleniyor | - | 1.97 | 6 |
 | Almirante - Los Andes | Arjantin Ulusal Primera Lig | 21:30 | Veri bekleniyor | - | 2.21 | 6 |
 | D Belgrano - Moron | Arjantin Ulusal Primera Lig | 21:30 | Veri bekleniyor | - | 2.33 | 6 |
-| Atl Temperley - Tristan | Arjantin Ulusal Primera Lig | 21:30 | Veri bekleniyor | - | 2.03 | 6 |
-| Magallanes - Palestino | Şili Kupa Grup G | 22:00 | Veri bekleniyor | - | 3.14 | 8 |
+| Atl Temperley - Tristan | Arjantin Ulusal Primera Lig | 21:30 | Veri bekleniyor | - | 1.98 | 6 |
+| Magallanes - Palestino | Şili Kupa Grup G | 22:00 | Veri bekleniyor | - | 3.23 | 8 |
 | Ciudad De Bolí - Godoy Cruz | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 2.55 | 6 |
 | Londrina - Regatas | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 2.29 | 8 |
 | Novorizontino - Atletico Goiani | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
