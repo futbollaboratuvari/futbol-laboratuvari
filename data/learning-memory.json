@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-02T10:20:58.713Z",
-  "updated_at": "2026-07-03T20:36:03.698Z",
+  "updated_at": "2026-07-04T00:19:01.879Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 25,
-    "pending_predictions": 25,
+    "total_predictions": 31,
+    "pending_predictions": 31,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 18,
+    "league_count": 19,
     "market_count": 3,
     "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 25,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS 2": {
-      "total": 12,
-      "pending": 12,
+      "total": 14,
+      "pending": 14,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -31,8 +27,8 @@
       "confidence_adjustment": 0
     },
     "MS X": {
-      "total": 12,
-      "pending": 12,
+      "total": 16,
+      "pending": 16,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +48,56 @@
     }
   },
   "league_memory": {
+    "ABD USL": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 2 Kuzeydoğu Grubu": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 1": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Dünya Kupası 2026 Son 32 Turu": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Avustralya NPL Victoria": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 1.Lig": {
       "total": 4,
       "pending": 4,
@@ -122,16 +168,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Avustralya NPL Victoria": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Avustralya Victoria NPL 1": {
       "total": 2,
       "pending": 2,
@@ -182,39 +218,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "ABD USL": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Şili Kupa Grup E": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "ABD USL Lig 1": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Dünya Kupası 2026 Son 32 Turu": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -234,6 +240,56 @@
     }
   },
   "league_market_memory": {
+    "ABD USL :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 2 Kuzeydoğu Grubu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 1 :: MS X": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Dünya Kupası 2026 Son 32 Turu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Avustralya NPL Victoria :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 1.Lig :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -414,16 +470,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "ABD USL Lig 1 :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Dünya Kupası 2026 Son 32 Turu :: MS 2": {
       "total": 2,
       "pending": 2,
@@ -446,6 +492,114 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-04|abd usl|loudoun united sporting jax|ms 2|02 30",
+      "date": "2026-07-04",
+      "created_at": "2026-07-04T00:19:00.712Z",
+      "match_name": "Loudoun United - Sporting Jax",
+      "league": "ABD USL",
+      "start_time": "02:30",
+      "market": "MS 2",
+      "odds": "3.75",
+      "confidence_score": "70%",
+      "analysis_score": 70,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-04T00:19:01.877Z"
+    },
+    {
+      "id": "2026-07-04|abd usl lig 2 kuzeydogu grubu|western mass p black rock|ms x|02 30",
+      "date": "2026-07-04",
+      "created_at": "2026-07-04T00:19:00.712Z",
+      "match_name": "Western Mass P - Black Rock",
+      "league": "ABD USL Lig 2 Kuzeydoğu Grubu",
+      "start_time": "02:30",
+      "market": "MS X",
+      "odds": "3.50",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-04T00:19:01.877Z"
+    },
+    {
+      "id": "2026-07-04|abd usl lig 1|naples portland hearts|ms x|02 30",
+      "date": "2026-07-04",
+      "created_at": "2026-07-04T00:19:00.712Z",
+      "match_name": "Naples - Portland Hearts",
+      "league": "ABD USL Lig 1",
+      "start_time": "02:30",
+      "market": "MS X",
+      "odds": "2.96",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-04T00:19:01.877Z"
+    },
+    {
+      "id": "2026-07-04|abd usl lig 1|richmond kicke sarasota paradi|ms x|02 30",
+      "date": "2026-07-04",
+      "created_at": "2026-07-04T00:19:00.712Z",
+      "match_name": "Richmond Kicke - Sarasota Paradi",
+      "league": "ABD USL Lig 1",
+      "start_time": "02:30",
+      "market": "MS X",
+      "odds": "2.82",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-04T00:19:01.878Z"
+    },
+    {
+      "id": "2026-07-04|dunya kupasi 2026 son 32 turu|kolombiya gana|ms x|04 30",
+      "date": "2026-07-04",
+      "created_at": "2026-07-04T00:19:00.712Z",
+      "match_name": "Kolombiya - Gana",
+      "league": "Dünya Kupası 2026 Son 32 Turu",
+      "start_time": "04:30",
+      "market": "MS X",
+      "odds": "3.90",
+      "confidence_score": "65%",
+      "analysis_score": 65,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-04T00:19:01.878Z"
+    },
+    {
+      "id": "2026-07-04|avustralya npl victoria|hume city dandenong city|ms 2|07 00",
+      "date": "2026-07-04",
+      "created_at": "2026-07-04T00:19:00.712Z",
+      "match_name": "Hume City - Dandenong City",
+      "league": "Avustralya NPL Victoria",
+      "start_time": "07:00",
+      "market": "MS 2",
+      "odds": "3.43",
+      "confidence_score": "70%",
+      "analysis_score": 70,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-04T00:19:01.878Z"
+    },
     {
       "id": "2026-07-03|norvec 1 lig|kongsvinger sogndal|ms 2|19 00",
       "date": "2026-07-03",
