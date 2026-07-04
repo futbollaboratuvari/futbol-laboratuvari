@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 121
-- Live match count: 10
+- Scheduled match count: 67
+- Live match count: 27
 - Finished removed count: 0
 - Date window: 2026-07-04 / 2026-07-05 23:59
 
-- 2026-07-04 10:30 | White City Woo - West Adelaide | live
-- 2026-07-04 10:30 | Sutherland Sha - Apia | live
-- 2026-07-04 10:45 | Monaro Panther - Brindabella Blu | live
-- 2026-07-04 11:00 | Caroline S. - Oakleigh Cannon | live
-- 2026-07-04 11:00 | Sigma Olomouc - Dukla Banska By | live
-- 2026-07-04 12:00 | Dianella White - Perth | live
-- 2026-07-04 12:00 | Eastern Suburb - Peninsula Power | live
-- 2026-07-04 12:00 | Salzburg - Gornik Zabrze | live
-- 2026-07-04 12:00 | Slovan Liberec - Dukla Prag | live
-- 2026-07-04 12:30 | Queensland Lio - Brisbane Olympi | live
+- 2026-07-04 16:00 | İspanya (U19) - Almanya U19 | live
+- 2026-07-04 16:00 | Vitebsk - Dnepr Mogilev | live
+- 2026-07-04 16:00 | Salpa Salo - Vjs | live
+- 2026-07-04 16:00 | Ekenas If - Pk-35 Ry | live
+- 2026-07-04 16:00 | Austria Vienna - Debreceni | live
+- 2026-07-04 16:00 | Odense - Hillerod | live
+- 2026-07-04 16:00 | Degerfors - Malmö | live
+- 2026-07-04 16:00 | Halmstads - Vasteras | live
+- 2026-07-04 16:00 | Kyzyl-Zhar - Yelimay Semey | live
+- 2026-07-04 16:00 | Marupe - Smiltene | live
