@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-03T14:54:21+03:00
+Güncelleme: 2026-07-04T13:35:27+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 51
+- Toplam tahmin kaydı: 109
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -14,9 +14,10 @@ Güncelleme: 2026-07-03T14:54:21+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
+| - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 51 | 0 | 0 | 51 | %0 | 0 |
+| Değerli market yok | 108 | 0 | 0 | 108 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
@@ -30,46 +31,47 @@ Güncelleme: 2026-07-03T14:54:21+03:00
 | 2.00-2.99 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.00-4.99 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 5.00+ | 0 | 0 | 0 | 0 | %0 | 0 |
-| bilinmiyor | 51 | 0 | 0 | 51 | %0 | 0 |
+| bilinmiyor | 109 | 0 | 0 | 109 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Avrupa U19 Şampiyonası Kadınlar Grup A | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya NPL Güney Avustralya | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Kuzey YGG | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya NPL Queensland | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Victoria | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya Victoria NPL 1 | 3 | 0 | 0 | 3 | %0 | 0 |
-| Belarus 1.Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Belarus Premier Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Dünya Kupası 2026 Son 32 Turu | 1 | 0 | 0 | 1 | %0 | 0 |
-| Estonya Premium Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Etiyopya Premier Lig | 3 | 0 | 0 | 3 | %0 | 0 |
-| Faroe Adaları Master Lig | 1 | 0 | 0 | 1 | %0 | 0 |
+| ABD USL | 1 | 0 | 0 | 1 | %0 | 0 |
+| Arjantin Ulusal Primera Lig | 7 | 0 | 0 | 7 | %0 | 0 |
+| Avrupa U19 Şampiyonası Grup A | 1 | 0 | 0 | 1 | %0 | 0 |
+| Avrupa U19 Şampiyonası Kadınlar Grup B | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya NPL Batı Avustralya | 1 | 0 | 0 | 1 | %0 | 0 |
+| Avustralya NPL Başkent Bölgesi | 1 | 0 | 0 | 1 | %0 | 0 |
+| Avustralya NPL Güney Avustralya | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya NPL Queensland | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya NPL Victoria | 1 | 0 | 0 | 1 | %0 | 0 |
+| Avustralya NPL Yeni Güney Galler | 2 | 0 | 0 | 2 | %0 | 0 |
+| Belarus Premier Lig | 2 | 0 | 0 | 2 | %0 | 0 |
+| Brezilya Serie B | 3 | 0 | 0 | 3 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Adelaide Comet VS Croydon Kings | 1 | 0 | 0 | 1 | %0 | 0 |
-| Aegir VS Fylkir | 1 | 0 | 0 | 1 | %0 | 0 |
-| Almanya U19 (K VS İsveç U19 (K) | 1 | 0 | 0 | 1 | %0 | 0 |
-| Astana VS Zhenys | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya VS Misir | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bray Wanderers VS Athlone | 1 | 0 | 0 | 1 | %0 | 0 |
-| Brisbane Wolve VS Rochedale Rover | 1 | 0 | 0 | 1 | %0 | 0 |
-| Cbe VS Bahardar | 1 | 0 | 0 | 1 | %0 | 0 |
-| Cobh Ramblers VS Cork City | 1 | 0 | 0 | 1 | %0 | 0 |
-| Cooks Hill Uni VS Valentine Phoen | 1 | 0 | 0 | 1 | %0 | 0 |
-| Derry City VS Waterford | 1 | 0 | 0 | 1 | %0 | 0 |
-| Drogheda VS Bohemian | 1 | 0 | 0 | 1 | %0 | 0 |
+| Ab Argir VS Streymur | 1 | 0 | 0 | 1 | %0 | 0 |
+| Akranes VS Breidablik | 1 | 0 | 0 | 1 | %0 | 0 |
+| Almagro VS Rafaela | 1 | 0 | 0 | 1 | %0 | 0 |
+| Almirante VS Los Andes | 1 | 0 | 0 | 1 | %0 | 0 |
+| Altach VS Heidenheim | 1 | 0 | 0 | 1 | %0 | 0 |
+| Altay VS Tobol Kostanay | 1 | 0 | 0 | 1 | %0 | 0 |
+| Ansan Greeners VS Suwon City | 1 | 0 | 0 | 1 | %0 | 0 |
+| Anyang VS Pohang Steelers | 1 | 0 | 0 | 1 | %0 | 0 |
+| Atl Temperley VS Tristan | 1 | 0 | 0 | 1 | %0 | 0 |
+| Atletico Ottaw VS Cavalry | 1 | 0 | 0 | 1 | %0 | 0 |
+| Austria Vienna VS Debreceni | 1 | 0 | 0 | 1 | %0 | 0 |
+| Az Alkmaar VS Gent | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
+| - | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 2.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
