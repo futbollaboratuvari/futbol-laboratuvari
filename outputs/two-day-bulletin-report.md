@@ -3,15 +3,14 @@
 Gunler: 2026-07-04 / 2026-07-05
 Kaynak: fixtures.json
 Ham mac: 120
-Aktif mac: 91
-Canli mac: 29
+Aktif mac: 90
+Canli mac: 30
 Biten mac: 0
-Bultenden dusurulen mac: 29
-Bugun: 68
+Bultenden dusurulen mac: 30
+Bugun: 67
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-07-04 15:30 | Hazırlık Kulüpler | Dordrecht - Feyenoord | scheduled | -
 - 2026-07-04 16:00 | Avrupa U19 Şampiyonası Grup A | İspanya (U19) - Almanya U19 | scheduled | -
 - 2026-07-04 16:00 | İsveç Allsvenskan | Halmstads - Vasteras | scheduled | -
 - 2026-07-04 16:00 | İsveç Allsvenskan | Degerfors - Malmö | scheduled | -
@@ -133,6 +132,7 @@ Yarin: 23
 - 2026-07-04 15:00 | Hazırlık Kulüpler | Valerenga - Fredrikstad | live | -
 - 2026-07-04 15:00 | Norveç 1.Lig | Egersunds - Moss | live | -
 - 2026-07-04 15:00 | Kazakistan Premier Lig | Altay - Tobol Kostanay | live | -
+- 2026-07-04 15:30 | Hazırlık Kulüpler | Dordrecht - Feyenoord | live | -
 
 ## Biten Maclar
 Biten mac yok.
