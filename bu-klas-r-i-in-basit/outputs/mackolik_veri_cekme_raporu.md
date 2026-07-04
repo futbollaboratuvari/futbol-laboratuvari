@@ -1,30 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-04T21:43:43.176589+00:00
+Tarih: 2026-07-04T23:49:33.792438+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 98
-- Kac mac kaydedildi: 98
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 81
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 81
 - Ham veri havuzu toplam mac sayisi: 1229
 - Hedef tarih: 05.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Güneybatı Grubu
 - ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Metropolitan Grubu
 - ABD USL Lig 2 NorCal Grubu
-- ABD USL Lig 2 Orta Atlantik Grubu
 - Arjantin Ulusal Primera Lig
 - Avrupa U19 Şampiyonası Grup B
 - Avustralya NPL Başkent Bölgesi
@@ -32,7 +23,6 @@ Tarih: 2026-07-04T21:43:43.176589+00:00
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
 - Belarus Premier Lig
-- Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
 - Ekvador Pro Lig
 - Estonya Premium Lig
@@ -58,7 +48,6 @@ Tarih: 2026-07-04T21:43:43.176589+00:00
 - İsveç Allsvenskan
 - Şili Kupa Grup C
 - Şili Kupa Grup D
-- Şili Kupa Grup E
 - Şili Kupa Grup F
 - Şili Kupa Grup G
 - Şili Kupa Grup H
@@ -133,7 +122,6 @@ Tarih: 2026-07-04T21:43:43.176589+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 05.07.2026 | 23:00 | Dünya Kupası 2026 Son 16 Turu | Brezilya | Norveç | 09695 | 5 |
-| 06.07.2026 | 03:00 | Dünya Kupası 2026 Son 16 Turu | Meksika | İngiltere | 17554 | 5 |
 | 05.07.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | Ukrayna U19 | İtalya U19 | 05601 | 5 |
 | 05.07.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 | Hirvatistan (U1 | 04359 | 5 |
 | 05.07.2026 | 15:00 | İsveç Allsvenskan | Göteborg | Aik Stockholm | 13284 | 5 |
@@ -152,6 +140,7 @@ Tarih: 2026-07-04T21:43:43.176589+00:00
 | 05.07.2026 | 20:00 | Fas Botola Pro | Far Rabat | Cr Khemis Zemam | 08741 | 5 |
 | 05.07.2026 | 20:00 | Fas Botola Pro | Fus Rabat | Yacoub El Manso | 07157 | 5 |
 | 05.07.2026 | 20:00 | Fas Botola Pro | Husa Agadir | Kawkab Marrakec | 06168 | 5 |
+| 05.07.2026 | 20:00 | Fas Botola Pro | Maghreb Fes | Olympique Dchei | 08842 | 5 |
 
 ## Sonuc
 
