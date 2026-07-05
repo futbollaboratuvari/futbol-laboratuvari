@@ -3,25 +3,14 @@
 Gunler: 2026-07-05 / 2026-07-06
 Kaynak: fixtures.json
 Ham mac: 92
-Aktif mac: 80
-Canli mac: 12
+Aktif mac: 69
+Canli mac: 23
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 62
+Bultenden dusurulen mac: 23
+Bugun: 51
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-05 16:00 | Hazırlık Kulüpler | Rapid Wien - Pardubice | scheduled | -
-- 2026-07-05 16:00 | Finlandiya Ykkönen | Rops - Pk Keski Uusima | scheduled | -
-- 2026-07-05 16:00 | Letonya Virsliga | Grobina - Fk Tukums 2000 | scheduled | -
-- 2026-07-05 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Mbeya City - Tanzania Prison | scheduled | -
-- 2026-07-05 16:30 | Hazırlık Kulüpler | Rosenborg - Molde | scheduled | -
-- 2026-07-05 17:00 | Norveç 1.Lig | Odds Bk - Haugesund | scheduled | -
-- 2026-07-05 17:00 | Kazakistan Premier Lig | Atyrau - Kaspyi | scheduled | -
-- 2026-07-05 17:00 | Kazakistan Premier Lig | Aktobe - Zhetysu | scheduled | -
-- 2026-07-05 17:00 | Faroe Adaları Master Lig | Vestur Sorvagu - Hb Torshavn | scheduled | -
-- 2026-07-05 17:00 | Belarus 1.Lig | Lida - Uni Minsk | scheduled | -
-- 2026-07-05 17:30 | İsveç Allsvenskan | Elfsborg - Hammarby | scheduled | -
 - 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Ukrayna U19 - İtalya U19 | scheduled | -
 - 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Hirvatistan (U1 | scheduled | -
 - 2026-07-05 18:00 | Belarus Premier Lig | Belshina Bobru - Baranovichi | scheduled | -
@@ -105,6 +94,17 @@ Yarin: 18
 - 2026-07-05 15:00 | Finlandiya Ykkönen | Tpv Tampere - Jyvaskyla | live | -
 - 2026-07-05 15:00 | Letonya 1.Lig | Valmieras Fk/B - Leevon / Ppk | live | -
 - 2026-07-05 15:00 | Letonya 1.Lig | Rigas Fs Ii - Super Nova Ii | live | -
+- 2026-07-05 16:00 | Hazırlık Kulüpler | Rapid Wien - Pardubice | live | -
+- 2026-07-05 16:00 | Finlandiya Ykkönen | Rops - Pk Keski Uusima | live | -
+- 2026-07-05 16:00 | Letonya Virsliga | Grobina - Fk Tukums 2000 | live | -
+- 2026-07-05 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Mbeya City - Tanzania Prison | live | -
+- 2026-07-05 16:30 | Hazırlık Kulüpler | Rosenborg - Molde | live | -
+- 2026-07-05 17:00 | Norveç 1.Lig | Odds Bk - Haugesund | live | -
+- 2026-07-05 17:00 | Kazakistan Premier Lig | Atyrau - Kaspyi | live | -
+- 2026-07-05 17:00 | Kazakistan Premier Lig | Aktobe - Zhetysu | live | -
+- 2026-07-05 17:00 | Faroe Adaları Master Lig | Vestur Sorvagu - Hb Torshavn | live | -
+- 2026-07-05 17:00 | Belarus 1.Lig | Lida - Uni Minsk | live | -
+- 2026-07-05 17:30 | İsveç Allsvenskan | Elfsborg - Hammarby | live | -
 
 ## Biten Maclar
 Biten mac yok.

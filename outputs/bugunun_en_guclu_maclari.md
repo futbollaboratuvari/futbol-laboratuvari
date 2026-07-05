@@ -2,27 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-05T12:58:02.714Z
+- Güncelleme: 2026-07-05T14:56:27.830Z
 - Ham maç sayısı: 92
 - Yarın bülteni maç sayısı: 18
 - Detay blok sayısı: 245
-- Aktif bülten maçı: 80
-- Bültenden düşürülen maç: 12
+- Aktif bülten maçı: 69
+- Bültenden düşürülen maç: 23
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rapid Wien - Pardubice | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Rops - Pk Keski Uusima | Finlandiya Ykkönen | 16:00 | Veri bekleniyor | - | 1.46 | 8 |
-| Grobina - Fk Tukums 2000 | Letonya Virsliga | 16:00 | Veri bekleniyor | - | 1.79 | 8 |
-| Mbeya City - Tanzania Prison | Tanzanya Kuu Bara Ligi Küme Düşme Final | 16:00 | Veri bekleniyor | - | 1.74 | 8 |
-| Rosenborg - Molde | Hazırlık Kulüpler | 16:30 | Veri bekleniyor | - | 2.48 | 8 |
-| Odds Bk - Haugesund | Norveç 1.Lig | 17:00 | Veri bekleniyor | - | 2.06 | 8 |
-| Atyrau - Kaspyi | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.66 | 8 |
-| Aktobe - Zhetysu | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.43 | 7 |
-| Vestur Sorvagu - Hb Torshavn | Faroe Adaları Master Lig | 17:00 | Veri bekleniyor | - | 5.16 | 6 |
-| Lida - Uni Minsk | Belarus 1.Lig | 17:00 | Veri bekleniyor | - | 1.23 | 4 |
-| Elfsborg - Hammarby | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 3.45 | 8 |
 | Ukrayna U19 - İtalya U19 | Avrupa U19 Şampiyonası Grup B | 18:00 | Veri bekleniyor | - | 3.49 | 8 |
 | Sirbistan (U19 - Hirvatistan (U1 | Avrupa U19 Şampiyonası Grup B | 18:00 | Veri bekleniyor | - | 3.21 | 8 |
 | Belshina Bobru - Baranovichi | Belarus Premier Lig | 18:00 | Veri bekleniyor | - | 2.38 | 8 |
