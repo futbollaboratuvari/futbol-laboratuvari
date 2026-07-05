@@ -1,34 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-05T08:32:05.014936+00:00
+Tarih: 2026-07-05T09:49:06.282290+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 96
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 90
-- Ham veri havuzu toplam mac sayisi: 1235
+- Kac mac bulundu: 79
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 78
+- Ham veri havuzu toplam mac sayisi: 1236
 - Hedef tarih: 05.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Metropolitan Grubu
 - ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
 - Arjantin Ulusal Primera Lig
 - Avrupa U19 Şampiyonası Grup B
 - Belarus 1.Lig
 - Belarus Premier Lig
-- Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
 - Ekvador Pro Lig
 - Estonya Premium Lig
@@ -47,14 +38,12 @@ Tarih: 2026-07-05T08:32:05.014936+00:00
 - Litvanya A Ligi
 - Moldova Ulusal Lig
 - Norveç 1.Lig
-- Tanzanya Kuu Bara Ligi Küme Düşme Final
 - Uruguay Premier Lig Intermediate Turu Grup 2
 - Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
 - İsveç Allsvenskan
 - Şili Kupa Grup C
 - Şili Kupa Grup D
-- Şili Kupa Grup E
 - Şili Kupa Grup F
 - Şili Kupa Grup G
 - Şili Kupa Grup H
@@ -114,8 +103,8 @@ Tarih: 2026-07-05T08:32:05.014936+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 48
-- Acilan detay: 48
+- Denenen Tumu alani: 47
+- Acilan detay: 47
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -129,7 +118,6 @@ Tarih: 2026-07-05T08:32:05.014936+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 05.07.2026 | 23:00 | Dünya Kupası 2026 Son 16 Turu | Brezilya | Norveç | 09695 | 5 |
-| 06.07.2026 | 03:00 | Dünya Kupası 2026 Son 16 Turu | Meksika | İngiltere | 17554 | 5 |
 | 05.07.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | Ukrayna U19 | İtalya U19 | 05601 | 5 |
 | 05.07.2026 | 18:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 | Hirvatistan (U1 | 04359 | 5 |
 | 05.07.2026 | 15:00 | İsveç Allsvenskan | Kalmar | Orgryte | 13340 | 5 |
@@ -148,6 +136,7 @@ Tarih: 2026-07-05T08:32:05.014936+00:00
 | 05.07.2026 | 20:00 | Fas Botola Pro | Difaa | Rsb Berkane | 08800 | 5 |
 | 05.07.2026 | 20:00 | Fas Botola Pro | Fus Rabat | Yacoub El Manso | 07157 | 5 |
 | 05.07.2026 | 20:00 | Fas Botola Pro | Maghreb Fes | Olympique Dchei | 08842 | 5 |
+| 05.07.2026 | 20:00 | Fas Botola Pro | Husa Agadir | Kawkab Marrakec | 06168 | 5 |
 
 ## Sonuc
 
