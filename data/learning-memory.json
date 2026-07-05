@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-02T10:20:58.713Z",
-  "updated_at": "2026-07-05T20:38:53.818Z",
+  "updated_at": "2026-07-05T22:36:17.245Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 54,
-    "pending_predictions": 54,
+    "total_predictions": 60,
+    "pending_predictions": 60,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 29,
+    "league_count": 30,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 54,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 6,
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 27,
-      "pending": 27,
+      "total": 33,
+      "pending": 33,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +48,56 @@
     }
   },
   "league_memory": {
+    "Şili Kupa Grup E": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kanada Premier Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 1": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 2 Güney Merkez Grubu": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Şili Kupa Grup C": {
       "total": 3,
       "pending": 3,
@@ -192,29 +238,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "ABD USL": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "ABD USL Lig 2 Kuzeydoğu Grubu": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "ABD USL Lig 1": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -321,29 +347,59 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "ABD USL Lig 2 Güney Merkez Grubu": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Şili Kupa Grup E": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
     }
   },
   "league_market_memory": {
+    "Şili Kupa Grup E :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kanada Premier Lig :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 1 :: MS X": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 2 Güney Merkez Grubu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Şili Kupa Grup C :: MS X": {
       "total": 1,
       "pending": 1,
@@ -544,16 +600,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "ABD USL Lig 1 :: MS X": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Dünya Kupası 2026 Son 32 Turu :: MS X": {
       "total": 1,
       "pending": 1,
@@ -714,26 +760,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "ABD USL :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Şili Kupa Grup E :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Dünya Kupası 2026 Son 32 Turu :: MS 2": {
       "total": 2,
       "pending": 2,
@@ -756,6 +782,108 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-06|sili kupa grup e|union espanola o higgins|ms x|00 30",
+      "date": "2026-07-06",
+      "created_at": "2026-07-05T22:36:17.245Z",
+      "match_name": "Union Espanola - O Higgins",
+      "league": "Şili Kupa Grup E",
+      "start_time": "00:30",
+      "market": "MS X",
+      "odds": "2.88",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-06|kanada premier lig|pacific fc hfx wanderers|ms x|01 00",
+      "date": "2026-07-06",
+      "created_at": "2026-07-05T22:36:17.245Z",
+      "match_name": "Pacific Fc - Hfx Wanderers",
+      "league": "Kanada Premier Lig",
+      "start_time": "01:00",
+      "market": "MS X",
+      "odds": "3.05",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-06|abd usl|miami fc birmingham legi|ms x|02 00",
+      "date": "2026-07-06",
+      "created_at": "2026-07-05T22:36:17.245Z",
+      "match_name": "Miami Fc - Birmingham Legi",
+      "league": "ABD USL",
+      "start_time": "02:00",
+      "market": "MS X",
+      "odds": "3.06",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-06|abd usl lig 1|westchester sc athletic club b|ms x|02 00",
+      "date": "2026-07-06",
+      "created_at": "2026-07-05T22:36:17.245Z",
+      "match_name": "Westchester Sc - Athletic Club B",
+      "league": "ABD USL Lig 1",
+      "start_time": "02:00",
+      "market": "MS X",
+      "odds": "3.04",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-06|abd usl lig 2 guney merkez grubu|east atlanta birmingham legi|ms x|02 30",
+      "date": "2026-07-06",
+      "created_at": "2026-07-05T22:36:17.245Z",
+      "match_name": "East Atlanta - Birmingham Legi",
+      "league": "ABD USL Lig 2 Güney Merkez Grubu",
+      "start_time": "02:30",
+      "market": "MS X",
+      "odds": "3.13",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-06|abd usl lig 1|alta charlotte indep|ms x|06 00",
+      "date": "2026-07-06",
+      "created_at": "2026-07-05T22:36:17.245Z",
+      "match_name": "Alta - Charlotte Indep",
+      "league": "ABD USL Lig 1",
+      "start_time": "06:00",
+      "market": "MS X",
+      "odds": "3.04",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-07-05|sili kupa grup c|cobresal cobreloa|ms x|22 00",
       "date": "2026-07-05",

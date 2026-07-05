@@ -1,34 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-05T20:38:05.159928+00:00
+Tarih: 2026-07-05T22:36:13.324437+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 20
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 19
-- Ham veri havuzu toplam mac sayisi: 1238
-- Hedef tarih: 05.07.2026 Europe/Istanbul
+- Kac mac bulundu: 6
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 1244
+- Hedef tarih: 06.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Metropolitan Grubu
-- ABD USL Lig 2 Orta Atlantik Grubu
-- Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
-- Ekvador Pro Lig
-- Kanada Premier Lig
-- Şili Kupa Grup A
-- Şili Kupa Grup E
+- Letonya Virsliga
+- Litvanya A Ligi
+- İsveç Allsvenskan
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -85,8 +75,8 @@ Tarih: 2026-07-05T20:38:05.159928+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 16
-- Acilan detay: 16
+- Denenen Tumu alani: 12
+- Acilan detay: 12
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -99,26 +89,12 @@ Tarih: 2026-07-05T20:38:05.159928+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 06.07.2026 | 03:00 | Dünya Kupası 2026 Son 16 Turu | Meksika | İngiltere | 17554 | 5 |
-| 06.07.2026 | 03:00 | Şili Kupa Grup A | Deportes Limac | San Marcos Aric | 06592 | 5 |
-| 06.07.2026 | 00:30 | Şili Kupa Grup E | Union Espanola | O Higgins | 17690 | 5 |
-| 06.07.2026 | 02:30 | Brezilya Serie B | Nautico | Juventude | 14888 | 5 |
-| 06.07.2026 | 01:00 | Ekvador Pro Lig | Delfin | Emelec | 16754 | 3 |
-| 06.07.2026 | 01:00 | Kanada Premier Lig | Pacific Fc | Hfx Wanderers | 16900 | 5 |
-| 06.07.2026 | 02:00 | ABD USL | Miami Fc | Birmingham Legi | 14684 | 5 |
-| 06.07.2026 | 00:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Marau | Bethesda | 02715 | 3 |
-| 06.07.2026 | 02:00 | ABD USL Lig 2 Chesapeake Grubu | Christos | Loudoun United | 09188 | 3 |
-| 06.07.2026 | 03:00 | ABD USL Lig 2 Chesapeake Grubu | North Virginia | Patuxent | 00149 | 2 |
-| 06.07.2026 | 02:30 | ABD USL Lig 2 Metropolitan Grubu | Ironbound | Staten Island A | 06929 | 3 |
-| 05.07.2026 | 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Eagle Fc | West Chester Un | 01773 | 3 |
-| 06.07.2026 | 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Pennsylvania C | Reading United | 09215 | 3 |
-| 06.07.2026 | 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard | Tacoma Stars | 00931 | 3 |
-| 06.07.2026 | 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot | Bangers | 03040 | 3 |
-| 06.07.2026 | 00:30 | ABD USL Lig 2 Güneybatı Grubu | City Sc | Redlands | 03153 | 3 |
-| 06.07.2026 | 02:30 | ABD USL Lig 2 Güney Merkez Grubu | East Atlanta | Birmingham Legi | 06004 | 5 |
-| 06.07.2026 | 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City | Miami Ac | 04739 | 3 |
-| 06.07.2026 | 02:00 | ABD USL Lig 1 | Westchester Sc | Athletic Club B | 10387 | 5 |
-| 06.07.2026 | 06:00 | ABD USL Lig 1 | Alta | Charlotte Indep | 10374 | 5 |
+| 06.07.2026 | 22:00 | Dünya Kupası 2026 Son 16 Turu | Portekiz | İspanya | 00132 | 5 |
+| 06.07.2026 | 20:00 | İsveç Allsvenskan | Hacken | Djurgarden | 13456 | 5 |
+| 06.07.2026 | 20:00 | İsveç Allsvenskan | Brommapojkarna | Gais | 13510 | 5 |
+| 06.07.2026 | 18:45 | Litvanya A Ligi | Suduva | Transinvest Vil | 16474 | 5 |
+| 06.07.2026 | 22:15 | İzlanda Urvalsdeild | Keflavik | Fram | 14169 | 3 |
+| 06.07.2026 | 19:00 | Letonya Virsliga | Super Nova | Ogre United | 17000 | 5 |
 
 ## Sonuc
 
