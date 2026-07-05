@@ -2,30 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-05T14:56:27.830Z
+- Güncelleme: 2026-07-05T15:01:41.414Z
 - Ham maç sayısı: 92
 - Yarın bülteni maç sayısı: 18
 - Detay blok sayısı: 245
-- Aktif bülten maçı: 69
-- Bültenden düşürülen maç: 23
+- Aktif bülten maçı: 55
+- Bültenden düşürülen maç: 37
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ukrayna U19 - İtalya U19 | Avrupa U19 Şampiyonası Grup B | 18:00 | Veri bekleniyor | - | 3.49 | 8 |
-| Sirbistan (U19 - Hirvatistan (U1 | Avrupa U19 Şampiyonası Grup B | 18:00 | Veri bekleniyor | - | 3.21 | 8 |
-| Belshina Bobru - Baranovichi | Belarus Premier Lig | 18:00 | Veri bekleniyor | - | 2.38 | 8 |
-| Dacia-Buiucani - Sireti | Moldova Ulusal Lig | 18:00 | Veri bekleniyor | - | 1.37 | 7 |
-| Ordabasy - Ulytau | Kazakistan Premier Lig | 18:00 | Veri bekleniyor | - | 1.12 | 6 |
-| Kaisar - Irtysh | Kazakistan Premier Lig | 18:00 | Veri bekleniyor | - | 1.9 | 8 |
-| Atlas Khenifra - Amal Tiznit | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 2.29 | 6 |
-| Widad Temara - Usm Oujda | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 1.8 | 8 |
-| Us Boujaad - Racing De Casab | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 1.21 | 6 |
-| Js Soualem - Chabab Ben Guer | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 1.74 | 5 |
-| Chabab - Kac Kenitra | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 1.83 | 6 |
-| Moghreb Tetoua - Stade Marocain | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 1.85 | 6 |
-| El Massira - Raja Beni Mella | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 1.88 | 6 |
-| Mouloudia - Wydad Fes | Fas Botola 2 | 18:00 | Veri bekleniyor | - | 2.33 | 6 |
 | Mikkelin - Haka | Finlandiya Ykkösliiga | 18:30 | Veri bekleniyor | - | 3.25 | 8 |
 | Fa Siauliai - Zalgiris Vilniu | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 3.61 | 8 |
 | Tammeka Tartu - Harju Jalgpalli | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 1.66 | 5 |
