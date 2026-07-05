@@ -1,11 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
+<<<<<<< Updated upstream
 Oluşturma: 05.07.2026 21:53:25
+=======
+Oluşturma: 05.07.2026 21:54:06
+>>>>>>> Stashed changes
 
 ## Özet
 
-- Toplam tahmin: 52
-- Bekleyen tahmin: 52
+- Toplam tahmin: 54
+- Bekleyen tahmin: 54
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +24,14 @@ Oluşturma: 05.07.2026 21:53:25
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
-- MS X: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-05 | Şili Kupa Grup C | Cobresal - Cobreloa | MS X | pending | 50/100
+- 2026-07-05 | Şili Kupa Grup F | Univ De Concep - Csd Rangers | MS X | pending | 50/100
 - 2026-07-05 | Şili Kupa Grup F | Univ De Concep - Csd Rangers | MS 2 | pending | 50/100
 - 2026-07-05 | Şili Kupa Grup F | Atletico Nuble - Curico | MS 2 | pending | 50/100
 - 2026-07-05 | Şili Kupa Grup H | Puerto Montt - Huachipato | MS X | pending | 50/100
@@ -39,6 +45,4 @@ Oluşturma: 05.07.2026 21:53:25
 - 2026-07-05 | Kazakistan Premier Lig | Kaisar - Irtysh | MS X | pending | 50/100
 - 2026-07-05 | Şili Kupa Grup C | La Serena - Antofagasta | MS 2 | pending | 50/100
 - 2026-07-05 | Fas Botola Pro | Ittihad Tanger - Codm Meknes | MS 2 | pending | 40/100
-- 2026-07-05 | Fas Botola Pro | Maghreb Fes - Olympique Dchei | MS 2 | pending | 50/100
-- 2026-07-05 | Fas Botola Pro | Wydad Casablan - Uts Rabat | MS X | pending | 40/100
 
