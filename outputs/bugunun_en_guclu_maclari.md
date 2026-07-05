@@ -2,11 +2,11 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-05T22:35:57.805Z
-- Ham maç sayısı: 19
+- Güncelleme: 2026-07-05T22:39:45.319Z
+- Ham maç sayısı: 25
 - Yarın bülteni maç sayısı: 0
-- Detay blok sayısı: 47
-- Aktif bülten maçı: 13
+- Detay blok sayısı: 64
+- Aktif bülten maçı: 19
 - Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
@@ -25,3 +25,9 @@
 | Deportes Limac - San Marcos Aric | Şili Kupa Grup A | 03:00 | Veri bekleniyor | - | 1.28 | 6 |
 | North Virginia - Patuxent | ABD USL Lig 2 Chesapeake Grubu | 03:00 | Veri bekleniyor | - | - | 3 |
 | Alta - Charlotte Indep | ABD USL Lig 1 | 06:00 | Veri bekleniyor | - | 2.57 | 8 |
+| Suduva - Transinvest Vil | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 2.01 | 8 |
+| Super Nova - Ogre United | Letonya Virsliga | 19:00 | Veri bekleniyor | - | 1.46 | 7 |
+| Hacken - Djurgarden | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.2 | 8 |
+| Brommapojkarna - Gais | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.84 | 8 |
+| Portekiz - İspanya | Dünya Kupası 2026 Son 16 Turu | 22:00 | Veri bekleniyor | - | 3.44 | 8 |
+| Keflavik - Fram | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.8 | 6 |
