@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-05 / 2026-07-06
 Kaynak: fixtures.json
-Ham mac: 119
-Aktif mac: 91
-Canli mac: 9
-Biten mac: 19
-Bultenden dusurulen mac: 28
-Bugun: 74
+Ham mac: 127
+Aktif mac: 97
+Canli mac: 0
+Biten mac: 30
+Bultenden dusurulen mac: 30
+Bugun: 80
 Yarin: 17
 
 ## Baslamamis Maclar
@@ -19,6 +19,7 @@ Yarin: 17
 - 2026-07-05 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Busan Ipark | scheduled | -
 - 2026-07-05 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Asan Mugunghwa | scheduled | -
 - 2026-07-05 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Chengdu Ron. | scheduled | -
+- 2026-07-05 14:00 | Belarus 1.Lig | Smorgon - Volna Pinsk | scheduled | -
 - 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Foshan Nanshi | scheduled | -
 - 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Changchun Yatai | scheduled | -
 - 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Dalian Huayi | scheduled | -
@@ -38,6 +39,7 @@ Yarin: 17
 - 2026-07-05 17:00 | Kazakistan Premier Lig | Atyrau - Kaspyi | scheduled | -
 - 2026-07-05 17:00 | Kazakistan Premier Lig | Aktobe - Zhetysu | scheduled | -
 - 2026-07-05 17:00 | Faroe Adaları Master Lig | Vestur Sorvagu - Hb Torshavn | scheduled | -
+- 2026-07-05 17:00 | Belarus 1.Lig | Lida - Uni Minsk | scheduled | -
 - 2026-07-05 17:30 | İsveç Allsvenskan | Elfsborg - Hammarby | scheduled | -
 - 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Ukrayna U19 - İtalya U19 | scheduled | -
 - 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Hirvatistan (U1 | scheduled | -
@@ -50,6 +52,9 @@ Yarin: 17
 - 2026-07-05 18:00 | Fas Botola 2 | Us Boujaad - Racing De Casab | scheduled | -
 - 2026-07-05 18:00 | Fas Botola 2 | Js Soualem - Chabab Ben Guer | scheduled | -
 - 2026-07-05 18:00 | Fas Botola 2 | Chabab - Kac Kenitra | scheduled | -
+- 2026-07-05 18:00 | Fas Botola 2 | Moghreb Tetoua - Stade Marocain | scheduled | -
+- 2026-07-05 18:00 | Fas Botola 2 | El Massira - Raja Beni Mella | scheduled | -
+- 2026-07-05 18:00 | Fas Botola 2 | Mouloudia - Wydad Fes | scheduled | -
 - 2026-07-05 18:30 | Finlandiya Ykkösliiga | Mikkelin - Haka | scheduled | -
 - 2026-07-05 18:45 | Litvanya A Ligi | Fa Siauliai - Zalgiris Vilniu | scheduled | -
 - 2026-07-05 19:00 | Estonya Premium Lig | Tammeka Tartu - Harju Jalgpalli | scheduled | -
@@ -85,6 +90,7 @@ Yarin: 17
 - 2026-07-05 23:00 | Dünya Kupası 2026 Son 16 Turu | Brezilya - Norveç | scheduled | -
 - 2026-07-05 23:00 | Şili Kupa Grup G | Deportes Santa - Audax Italiano | scheduled | -
 - 2026-07-05 23:00 | ABD USL Lig 2 NorCal Grubu | Project 51o - Davis Legacy | scheduled | -
+- 2026-07-05 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Eagle Fc - West Chester Un | scheduled | -
 - 2026-07-06 00:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Marau - Bethesda | scheduled | -
 - 2026-07-06 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Tacoma Stars | scheduled | -
 - 2026-07-06 00:30 | Şili Kupa Grup E | Union Espanola - O Higgins | scheduled | -
@@ -104,17 +110,20 @@ Yarin: 17
 - 2026-07-06 06:00 | ABD USL Lig 1 | Alta - Charlotte Indep | scheduled | -
 
 ## Canli Maclar
-- 2026-07-05 01:00 | Şili Kupa Grup A | Iquique - Coquimbo Unido | live | -
-- 2026-07-05 01:00 | ABD USL | Tampa Bay Rowd - Lexington | live | -
-- 2026-07-05 02:00 | Brezilya Serie B | Goias - Ceara | live | -
-- 2026-07-05 02:00 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | live | -
-- 2026-07-05 02:00 | ABD USL | Pittsburgh Riv - Brooklyn | live | -
-- 2026-07-05 02:00 | ABD USL Lig 1 | New York Cosmo - Greenville Triu | live | -
-- 2026-07-05 02:30 | ABD USL | Rhode Island - Orange County B | live | -
-- 2026-07-05 02:30 | ABD USL Lig 1 | Fort Wayne - Spokane Velocit | live | -
-- 2026-07-05 02:30 | ABD USL Lig 1 | Corpus Christi - Chattanooga Red | live | -
+Canli mac yok.
 
 ## Biten Maclar
+- 2026-07-05 00:00 | Dünya Kupası 2026 Son 16 Turu | Paraguay - Fransa | finished | -
+- 2026-07-05 00:00 | Arjantin Ulusal Primera Lig | Quilmes - Atlanta | finished | -
+- 2026-07-05 01:00 | Şili Kupa Grup A | Iquique - Coquimbo Unido | finished | -
+- 2026-07-05 01:00 | ABD USL | Tampa Bay Rowd - Lexington | finished | -
+- 2026-07-05 02:00 | Brezilya Serie B | Goias - Ceara | finished | -
+- 2026-07-05 02:00 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | finished | -
+- 2026-07-05 02:00 | ABD USL | Pittsburgh Riv - Brooklyn | finished | -
+- 2026-07-05 02:00 | ABD USL Lig 1 | New York Cosmo - Greenville Triu | finished | -
+- 2026-07-05 02:30 | ABD USL | Rhode Island - Orange County B | finished | -
+- 2026-07-05 02:30 | ABD USL Lig 1 | Fort Wayne - Spokane Velocit | finished | -
+- 2026-07-05 02:30 | ABD USL Lig 1 | Corpus Christi - Chattanooga Red | finished | -
 - 2026-07-05 03:00 | Ekvador Pro Lig | Barcelona Gua - Deportivo Cuenc | finished | -
 - 2026-07-05 03:00 | ABD USL | Louisville Cit - Hartford Athlet | finished | -
 - 2026-07-05 03:00 | ABD USL Lig 2 Orta Güney Grubu | Jackson Boom - Mississippi Bri | finished | -
