@@ -2,34 +2,15 @@
 
 Gunler: 2026-07-05 / 2026-07-06
 Kaynak: fixtures.json
-Ham mac: 92
-Aktif mac: 69
-Canli mac: 23
+Ham mac: 80
+Aktif mac: 50
+Canli mac: 30
 Biten mac: 0
-Bultenden dusurulen mac: 23
-Bugun: 51
+Bultenden dusurulen mac: 30
+Bugun: 32
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Ukrayna U19 - İtalya U19 | scheduled | -
-- 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Hirvatistan (U1 | scheduled | -
-- 2026-07-05 18:00 | Belarus Premier Lig | Belshina Bobru - Baranovichi | scheduled | -
-- 2026-07-05 18:00 | Moldova Ulusal Lig | Dacia-Buiucani - Sireti | scheduled | -
-- 2026-07-05 18:00 | Kazakistan Premier Lig | Ordabasy - Ulytau | scheduled | -
-- 2026-07-05 18:00 | Kazakistan Premier Lig | Kaisar - Irtysh | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | Atlas Khenifra - Amal Tiznit | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | Widad Temara - Usm Oujda | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | Us Boujaad - Racing De Casab | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | Js Soualem - Chabab Ben Guer | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | Chabab - Kac Kenitra | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | Moghreb Tetoua - Stade Marocain | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | El Massira - Raja Beni Mella | scheduled | -
-- 2026-07-05 18:00 | Fas Botola 2 | Mouloudia - Wydad Fes | scheduled | -
-- 2026-07-05 18:30 | Finlandiya Ykkösliiga | Mikkelin - Haka | scheduled | -
-- 2026-07-05 18:45 | Litvanya A Ligi | Fa Siauliai - Zalgiris Vilniu | scheduled | -
-- 2026-07-05 19:00 | Estonya Premium Lig | Tammeka Tartu - Harju Jalgpalli | scheduled | -
-- 2026-07-05 19:30 | Şili Kupa Grup C | La Serena - Antofagasta | scheduled | -
-- 2026-07-05 19:30 | Şili Kupa Grup D | Sant. Wanderer - Univ. De Şili | scheduled | -
 - 2026-07-05 20:00 | Fas Botola Pro | Ittihad Tanger - Codm Meknes | scheduled | -
 - 2026-07-05 20:00 | Fas Botola Pro | Far Rabat - Cr Khemis Zemam | scheduled | -
 - 2026-07-05 20:00 | Fas Botola Pro | Fus Rabat - Yacoub El Manso | scheduled | -
@@ -82,18 +63,6 @@ Yarin: 18
 - 2026-07-06 06:00 | ABD USL Lig 1 | Alta - Charlotte Indep | scheduled | -
 
 ## Canli Maclar
-- 2026-07-05 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Chengdu Ron. | live | -
-- 2026-07-05 14:00 | Belarus 1.Lig | Smorgon - Volna Pinsk | live | -
-- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Foshan Nanshi | live | -
-- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Changchun Yatai | live | -
-- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Dalian Huayi | live | -
-- 2026-07-05 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Zhejiang G. Fc | live | -
-- 2026-07-05 15:00 | İsveç Allsvenskan | Göteborg - Aik Stockholm | live | -
-- 2026-07-05 15:00 | İsveç Allsvenskan | Kalmar - Orgryte | live | -
-- 2026-07-05 15:00 | Hazırlık Kulüpler | Aarhus - Motherwell | live | -
-- 2026-07-05 15:00 | Finlandiya Ykkönen | Tpv Tampere - Jyvaskyla | live | -
-- 2026-07-05 15:00 | Letonya 1.Lig | Valmieras Fk/B - Leevon / Ppk | live | -
-- 2026-07-05 15:00 | Letonya 1.Lig | Rigas Fs Ii - Super Nova Ii | live | -
 - 2026-07-05 16:00 | Hazırlık Kulüpler | Rapid Wien - Pardubice | live | -
 - 2026-07-05 16:00 | Finlandiya Ykkönen | Rops - Pk Keski Uusima | live | -
 - 2026-07-05 16:00 | Letonya Virsliga | Grobina - Fk Tukums 2000 | live | -
@@ -105,6 +74,25 @@ Yarin: 18
 - 2026-07-05 17:00 | Faroe Adaları Master Lig | Vestur Sorvagu - Hb Torshavn | live | -
 - 2026-07-05 17:00 | Belarus 1.Lig | Lida - Uni Minsk | live | -
 - 2026-07-05 17:30 | İsveç Allsvenskan | Elfsborg - Hammarby | live | -
+- 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Ukrayna U19 - İtalya U19 | live | -
+- 2026-07-05 18:00 | Avrupa U19 Şampiyonası Grup B | Sirbistan (U19 - Hirvatistan (U1 | live | -
+- 2026-07-05 18:00 | Belarus Premier Lig | Belshina Bobru - Baranovichi | live | -
+- 2026-07-05 18:00 | Moldova Ulusal Lig | Dacia-Buiucani - Sireti | live | -
+- 2026-07-05 18:00 | Kazakistan Premier Lig | Ordabasy - Ulytau | live | -
+- 2026-07-05 18:00 | Kazakistan Premier Lig | Kaisar - Irtysh | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | Atlas Khenifra - Amal Tiznit | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | Widad Temara - Usm Oujda | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | Us Boujaad - Racing De Casab | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | Js Soualem - Chabab Ben Guer | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | Chabab - Kac Kenitra | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | Moghreb Tetoua - Stade Marocain | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | El Massira - Raja Beni Mella | live | -
+- 2026-07-05 18:00 | Fas Botola 2 | Mouloudia - Wydad Fes | live | -
+- 2026-07-05 18:30 | Finlandiya Ykkösliiga | Mikkelin - Haka | live | -
+- 2026-07-05 18:45 | Litvanya A Ligi | Fa Siauliai - Zalgiris Vilniu | live | -
+- 2026-07-05 19:00 | Estonya Premium Lig | Tammeka Tartu - Harju Jalgpalli | live | -
+- 2026-07-05 19:30 | Şili Kupa Grup C | La Serena - Antofagasta | live | -
+- 2026-07-05 19:30 | Şili Kupa Grup D | Sant. Wanderer - Univ. De Şili | live | -
 
 ## Biten Maclar
 Biten mac yok.

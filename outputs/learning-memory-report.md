@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.07.2026 18:02:37
+Oluşturma: 05.07.2026 19:38:58
 
 ## Özet
 
-- Toplam tahmin: 31
-- Bekleyen tahmin: 31
+- Toplam tahmin: 52
+- Bekleyen tahmin: 52
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 19
+- Lig sayısı: 29
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 05.07.2026 18:02:37
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
-- MS X: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
+- MS X: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-04 | ABD USL | Loudoun United - Sporting Jax | MS 2 | pending | 70/100
-- 2026-07-04 | ABD USL Lig 2 Kuzeydoğu Grubu | Western Mass P - Black Rock | MS X | pending | 50/100
-- 2026-07-04 | ABD USL Lig 1 | Naples - Portland Hearts | MS X | pending | 50/100
-- 2026-07-04 | ABD USL Lig 1 | Richmond Kicke - Sarasota Paradi | MS X | pending | 50/100
-- 2026-07-04 | Dünya Kupası 2026 Son 32 Turu | Kolombiya - Gana | MS X | pending | 65/100
-- 2026-07-04 | Avustralya NPL Victoria | Hume City - Dandenong City | MS 2 | pending | 70/100
-- 2026-07-03 | Norveç 1.Lig | Kongsvinger - Sogndal | MS 2 | pending | 40/100
-- 2026-07-03 | Finlandiya Ykkösliiga | Kotka - Jippo Joensuu | MS 2 | pending | 40/100
-- 2026-07-03 | Norveç 1.Lig | Raufoss - Strommen | MS X | pending | 60/100
-- 2026-07-03 | Norveç 1.Lig | Kongsvinger - Sogndal | MS X | pending | 40/100
-- 2026-07-03 | İsveç Allsvenskan | Sirius - Mjallby | MS 2 | pending | 60/100
-- 2026-07-03 | Norveç 1.Lig | Ranheim - Stabaek | MS X | pending | 70/100
-- 2026-07-03 | Faroe Adaları Master Lig | Runavik - Kí Klaksvík | MS X | pending | 50/100
-- 2026-07-03 | Hazırlık Kulüpler | River Plate - Flamengo | MS 1 | pending | 50/100
-- 2026-07-03 | İrlanda 1.Lig | Treaty Unt. - Kerry | MS X | pending | 40/100
+- 2026-07-05 | Şili Kupa Grup F | Univ De Concep - Csd Rangers | MS 2 | pending | 50/100
+- 2026-07-05 | Şili Kupa Grup F | Atletico Nuble - Curico | MS 2 | pending | 50/100
+- 2026-07-05 | Şili Kupa Grup H | Puerto Montt - Huachipato | MS X | pending | 50/100
+- 2026-07-05 | Dünya Kupası 2026 Son 16 Turu | Brezilya - Norveç | MS 2 | pending | 50/100
+- 2026-07-05 | Şili Kupa Grup G | Deportes Santa - Audax Italiano | MS X | pending | 50/100
+- 2026-07-05 | Hazırlık Kulüpler | Rosenborg - Molde | MS X | pending | 60/100
+- 2026-07-05 | Norveç 1.Lig | Odds Bk - Haugesund | MS X | pending | 70/100
+- 2026-07-05 | Kazakistan Premier Lig | Aktobe - Zhetysu | MS 2 | pending | 50/100
+- 2026-07-05 | Belarus Premier Lig | Belshina Bobru - Baranovichi | MS X | pending | 50/100
+- 2026-07-05 | Moldova Ulusal Lig | Dacia-Buiucani - Sireti | MS 2 | pending | 60/100
+- 2026-07-05 | Kazakistan Premier Lig | Kaisar - Irtysh | MS X | pending | 50/100
+- 2026-07-05 | Şili Kupa Grup C | La Serena - Antofagasta | MS 2 | pending | 50/100
+- 2026-07-05 | Fas Botola Pro | Ittihad Tanger - Codm Meknes | MS 2 | pending | 40/100
+- 2026-07-05 | Fas Botola Pro | Maghreb Fes - Olympique Dchei | MS 2 | pending | 50/100
+- 2026-07-05 | Fas Botola Pro | Wydad Casablan - Uts Rabat | MS X | pending | 40/100
 

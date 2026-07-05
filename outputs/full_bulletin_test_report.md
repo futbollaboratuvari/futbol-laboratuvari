@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 80
-- Live match count: 12
-- Finished removed count: 0
+- Scheduled match count: 50
+- Live match count: 20
+- Finished removed count: 22
 - Date window: 2026-07-05 / 2026-07-06 23:59
 
-- 2026-07-05 14:00 | Smorgon - Volna Pinsk | live
-- 2026-07-05 14:00 | Qingdao Zhongn - Chengdu Ron. | live
-- 2026-07-05 14:30 | Guangxi Hengch - Dalian Huayi | live
-- 2026-07-05 14:30 | Meizhou Hakka - Changchun Yatai | live
-- 2026-07-05 14:30 | Nanjing City - Foshan Nanshi | live
-- 2026-07-05 14:35 | Shanghai Shenh - Zhejiang G. Fc | live
-- 2026-07-05 15:00 | Tpv Tampere - Jyvaskyla | live
-- 2026-07-05 15:00 | Aarhus - Motherwell | live
-- 2026-07-05 15:00 | Göteborg - Aik Stockholm | live
-- 2026-07-05 15:00 | Kalmar - Orgryte | live
+- 2026-07-05 17:30 | Elfsborg - Hammarby | live
+- 2026-07-05 18:00 | Sirbistan (U19 - Hirvatistan (U1 | live
+- 2026-07-05 18:00 | Ukrayna U19 - İtalya U19 | live
+- 2026-07-05 18:00 | Belshina Bobru - Baranovichi | live
+- 2026-07-05 18:00 | Atlas Khenifra - Amal Tiznit | live
+- 2026-07-05 18:00 | Chabab - Kac Kenitra | live
+- 2026-07-05 18:00 | El Massira - Raja Beni Mella | live
+- 2026-07-05 18:00 | Js Soualem - Chabab Ben Guer | live
+- 2026-07-05 18:00 | Moghreb Tetoua - Stade Marocain | live
+- 2026-07-05 18:00 | Mouloudia - Wydad Fes | live
