@@ -1,28 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-05T18:54:04.503681+00:00
+Tarih: 2026-07-05T20:38:05.159928+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 14
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 14
-- Ham veri havuzu toplam mac sayisi: 1237
+- Kac mac bulundu: 20
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 19
+- Ham veri havuzu toplam mac sayisi: 1238
 - Hedef tarih: 05.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 NorCal Grubu
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Chesapeake Grubu
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Metropolitan Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
-- Arjantin Ulusal Primera Lig
+- Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
-- Şili Kupa Grup C
-- Şili Kupa Grup F
-- Şili Kupa Grup G
-- Şili Kupa Grup H
+- Ekvador Pro Lig
+- Kanada Premier Lig
+- Şili Kupa Grup A
+- Şili Kupa Grup E
 
 ## Okunabilen Oran Alanlari
 
@@ -79,8 +85,8 @@ Tarih: 2026-07-05T18:54:04.503681+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 24
-- Acilan detay: 24
+- Denenen Tumu alani: 16
+- Acilan detay: 16
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -93,20 +99,26 @@ Tarih: 2026-07-05T18:54:04.503681+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 05.07.2026 | 23:00 | Dünya Kupası 2026 Son 16 Turu | Brezilya | Norveç | 09695 | 5 |
-| 05.07.2026 | 22:00 | Şili Kupa Grup C | Cobresal | Cobreloa | 12847 | 5 |
-| 05.07.2026 | 22:00 | Şili Kupa Grup F | Atletico Nuble | Curico | 16629 | 5 |
-| 05.07.2026 | 22:00 | Şili Kupa Grup F | Univ De Concep | Csd Rangers | 17655 | 5 |
-| 05.07.2026 | 23:00 | Şili Kupa Grup G | Deportes Santa | Audax Italiano | 17672 | 5 |
-| 05.07.2026 | 22:00 | Şili Kupa Grup H | Puerto Montt | Huachipato | 16374 | 5 |
-| 05.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre | All Boys | 16269 | 3 |
-| 05.07.2026 | 22:30 | Arjantin Ulusal Primera Lig | Central Norte | San Miguel | 16323 | 3 |
-| 05.07.2026 | 22:30 | Arjantin Ulusal Primera Lig | Maipu | Agropecuario | 16305 | 5 |
-| 05.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | San Martin Sj | Chacarita Junio | 16288 | 3 |
-| 05.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Midland | Gimnasia Jujuy | 16252 | 5 |
-| 05.07.2026 | 22:00 | ABD USL Lig 2 Heartland Grubu | St. Croix | Edgewater Castl | 05710 | 3 |
+| 06.07.2026 | 03:00 | Dünya Kupası 2026 Son 16 Turu | Meksika | İngiltere | 17554 | 5 |
+| 06.07.2026 | 03:00 | Şili Kupa Grup A | Deportes Limac | San Marcos Aric | 06592 | 5 |
+| 06.07.2026 | 00:30 | Şili Kupa Grup E | Union Espanola | O Higgins | 17690 | 5 |
+| 06.07.2026 | 02:30 | Brezilya Serie B | Nautico | Juventude | 14888 | 5 |
+| 06.07.2026 | 01:00 | Ekvador Pro Lig | Delfin | Emelec | 16754 | 3 |
+| 06.07.2026 | 01:00 | Kanada Premier Lig | Pacific Fc | Hfx Wanderers | 16900 | 5 |
+| 06.07.2026 | 02:00 | ABD USL | Miami Fc | Birmingham Legi | 14684 | 5 |
+| 06.07.2026 | 00:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Marau | Bethesda | 02715 | 3 |
+| 06.07.2026 | 02:00 | ABD USL Lig 2 Chesapeake Grubu | Christos | Loudoun United | 09188 | 3 |
+| 06.07.2026 | 03:00 | ABD USL Lig 2 Chesapeake Grubu | North Virginia | Patuxent | 00149 | 2 |
+| 06.07.2026 | 02:30 | ABD USL Lig 2 Metropolitan Grubu | Ironbound | Staten Island A | 06929 | 3 |
 | 05.07.2026 | 23:00 | ABD USL Lig 2 Orta Atlantik Grubu | Eagle Fc | West Chester Un | 01773 | 3 |
-| 05.07.2026 | 23:00 | ABD USL Lig 2 NorCal Grubu | Project 51o | Davis Legacy | 00914 | 3 |
+| 06.07.2026 | 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Pennsylvania C | Reading United | 09215 | 3 |
+| 06.07.2026 | 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard | Tacoma Stars | 00931 | 3 |
+| 06.07.2026 | 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot | Bangers | 03040 | 3 |
+| 06.07.2026 | 00:30 | ABD USL Lig 2 Güneybatı Grubu | City Sc | Redlands | 03153 | 3 |
+| 06.07.2026 | 02:30 | ABD USL Lig 2 Güney Merkez Grubu | East Atlanta | Birmingham Legi | 06004 | 5 |
+| 06.07.2026 | 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City | Miami Ac | 04739 | 3 |
+| 06.07.2026 | 02:00 | ABD USL Lig 1 | Westchester Sc | Athletic Club B | 10387 | 5 |
+| 06.07.2026 | 06:00 | ABD USL Lig 1 | Alta | Charlotte Indep | 10374 | 5 |
 
 ## Sonuc
 
