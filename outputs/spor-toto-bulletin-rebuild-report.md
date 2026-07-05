@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-05T08:32:06.084Z
-- Ham fixture sayisi: 1228
-- Bugun/yarin kaynak mac: 127
-- Aktif bulten maci: 97
+- Guncelleme: 2026-07-05T12:56:15.026Z
+- Ham fixture sayisi: 1230
+- Bugun/yarin kaynak mac: 129
+- Aktif bulten maci: 80
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 30
+- Bultenden dusurulen mac: 49
 
-- 1. 2026-07-05 13:30 | Güney Kore K Lig 1 | Fc Seoul - Incheon Utd | scheduled
-- 2. 2026-07-05 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeju Utd | scheduled
-- 3. 2026-07-05 13:30 | Güney Kore K Lig 2 | Gimhae City - Seoul E-Land | scheduled
-- 4. 2026-07-05 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Asan Mugunghwa | scheduled
-- 5. 2026-07-05 13:30 | Güney Kore K Lig 1 | Gwangju - Ulsan | scheduled
-- 6. 2026-07-05 13:30 | Güney Kore K Lig 2 | Gyeongnam - Cheonan City Fc | scheduled
-- 7. 2026-07-05 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Busan Ipark | scheduled
-- 8. 2026-07-05 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Chengdu Ron. | scheduled
-- 9. 2026-07-05 14:00 | Belarus 1.Lig | Smorgon - Volna Pinsk | scheduled
-- 10. 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Dalian Huayi | scheduled
-- 11. 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Changchun Yatai | scheduled
-- 12. 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Foshan Nanshi | scheduled
-- 13. 2026-07-05 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Zhejiang G. Fc | scheduled
-- 14. 2026-07-05 15:00 | Hazırlık Kulüpler | Aarhus - Motherwell | scheduled
-- 15. 2026-07-05 15:00 | İsveç Allsvenskan | Göteborg - Aik Stockholm | scheduled
+- 1. 2026-07-05 16:00 | Letonya Virsliga | Grobina - Fk Tukums 2000 | scheduled
+- 2. 2026-07-05 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Mbeya City - Tanzania Prison | scheduled
+- 3. 2026-07-05 16:00 | Hazırlık Kulüpler | Rapid Wien - Pardubice | scheduled
+- 4. 2026-07-05 16:00 | Finlandiya Ykkönen | Rops - Pk Keski Uusima | scheduled
+- 5. 2026-07-05 16:30 | Hazırlık Kulüpler | Rosenborg - Molde | scheduled
+- 6. 2026-07-05 17:00 | Kazakistan Premier Lig | Aktobe - Zhetysu | scheduled
+- 7. 2026-07-05 17:00 | Kazakistan Premier Lig | Atyrau - Kaspyi | scheduled
+- 8. 2026-07-05 17:00 | Belarus 1.Lig | Lida - Uni Minsk | scheduled
+- 9. 2026-07-05 17:00 | Norveç 1.Lig | Odds Bk - Haugesund | scheduled
+- 10. 2026-07-05 17:00 | Faroe Adaları Master Lig | Vestur Sorvagu - Hb Torshavn | scheduled
+- 11. 2026-07-05 17:30 | İsveç Allsvenskan | Elfsborg - Hammarby | scheduled
+- 12. 2026-07-05 18:00 | Fas Botola 2 | Atlas Khenifra - Amal Tiznit | scheduled
+- 13. 2026-07-05 18:00 | Belarus Premier Lig | Belshina Bobru - Baranovichi | scheduled
+- 14. 2026-07-05 18:00 | Fas Botola 2 | Chabab - Kac Kenitra | scheduled
+- 15. 2026-07-05 18:00 | Moldova Ulusal Lig | Dacia-Buiucani - Sireti | scheduled

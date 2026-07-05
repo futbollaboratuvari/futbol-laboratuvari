@@ -2,25 +2,15 @@
 
 Gunler: 2026-07-05 / 2026-07-06
 Kaynak: fixtures.json
-Ham mac: 98
-Aktif mac: 89
-Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 72
-Yarin: 17
+Ham mac: 129
+Aktif mac: 80
+Canli mac: 12
+Biten mac: 37
+Bultenden dusurulen mac: 49
+Bugun: 62
+Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Foshan Nanshi | scheduled | -
-- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Changchun Yatai | scheduled | -
-- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Dalian Huayi | scheduled | -
-- 2026-07-05 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Zhejiang G. Fc | scheduled | -
-- 2026-07-05 15:00 | İsveç Allsvenskan | Göteborg - Aik Stockholm | scheduled | -
-- 2026-07-05 15:00 | İsveç Allsvenskan | Kalmar - Orgryte | scheduled | -
-- 2026-07-05 15:00 | Hazırlık Kulüpler | Aarhus - Motherwell | scheduled | -
-- 2026-07-05 15:00 | Finlandiya Ykkönen | Tpv Tampere - Jyvaskyla | scheduled | -
-- 2026-07-05 15:00 | Letonya 1.Lig | Valmieras Fk/B - Leevon / Ppk | scheduled | -
-- 2026-07-05 15:00 | Letonya 1.Lig | Rigas Fs Ii - Super Nova Ii | scheduled | -
 - 2026-07-05 16:00 | Hazırlık Kulüpler | Rapid Wien - Pardubice | scheduled | -
 - 2026-07-05 16:00 | Finlandiya Ykkönen | Rops - Pk Keski Uusima | scheduled | -
 - 2026-07-05 16:00 | Letonya Virsliga | Grobina - Fk Tukums 2000 | scheduled | -
@@ -99,18 +89,58 @@ Yarin: 17
 - 2026-07-06 02:30 | ABD USL Lig 2 Metropolitan Grubu | Ironbound - Staten Island A | scheduled | -
 - 2026-07-06 02:30 | ABD USL Lig 2 Güney Merkez Grubu | East Atlanta - Birmingham Legi | scheduled | -
 - 2026-07-06 03:00 | Dünya Kupası 2026 Son 16 Turu | Meksika - İngiltere | scheduled | -
+- 2026-07-06 03:00 | Şili Kupa Grup A | Deportes Limac - San Marcos Aric | scheduled | -
 - 2026-07-06 06:00 | ABD USL Lig 1 | Alta - Charlotte Indep | scheduled | -
 
 ## Canli Maclar
-- 2026-07-05 13:30 | Güney Kore K Lig 1 | Fc Seoul - Incheon Utd | live | -
-- 2026-07-05 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeju Utd | live | -
-- 2026-07-05 13:30 | Güney Kore K Lig 1 | Gwangju - Ulsan | live | -
-- 2026-07-05 13:30 | Güney Kore K Lig 2 | Gyeongnam - Cheonan City Fc | live | -
-- 2026-07-05 13:30 | Güney Kore K Lig 2 | Gimhae City - Seoul E-Land | live | -
-- 2026-07-05 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Busan Ipark | live | -
-- 2026-07-05 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Asan Mugunghwa | live | -
 - 2026-07-05 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Chengdu Ron. | live | -
 - 2026-07-05 14:00 | Belarus 1.Lig | Smorgon - Volna Pinsk | live | -
+- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Foshan Nanshi | live | -
+- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Changchun Yatai | live | -
+- 2026-07-05 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Dalian Huayi | live | -
+- 2026-07-05 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Zhejiang G. Fc | live | -
+- 2026-07-05 15:00 | İsveç Allsvenskan | Göteborg - Aik Stockholm | live | -
+- 2026-07-05 15:00 | İsveç Allsvenskan | Kalmar - Orgryte | live | -
+- 2026-07-05 15:00 | Hazırlık Kulüpler | Aarhus - Motherwell | live | -
+- 2026-07-05 15:00 | Finlandiya Ykkönen | Tpv Tampere - Jyvaskyla | live | -
+- 2026-07-05 15:00 | Letonya 1.Lig | Valmieras Fk/B - Leevon / Ppk | live | -
+- 2026-07-05 15:00 | Letonya 1.Lig | Rigas Fs Ii - Super Nova Ii | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-05 00:00 | Dünya Kupası 2026 Son 16 Turu | Paraguay - Fransa | finished | -
+- 2026-07-05 00:00 | Arjantin Ulusal Primera Lig | Quilmes - Atlanta | finished | -
+- 2026-07-05 01:00 | Şili Kupa Grup A | Iquique - Coquimbo Unido | finished | -
+- 2026-07-05 01:00 | ABD USL | Tampa Bay Rowd - Lexington | finished | -
+- 2026-07-05 02:00 | Brezilya Serie B | Goias - Ceara | finished | -
+- 2026-07-05 02:00 | Kanada Premier Lig | Vancouver Fc - Inter Toronto | finished | -
+- 2026-07-05 02:00 | ABD USL | Pittsburgh Riv - Brooklyn | finished | -
+- 2026-07-05 02:00 | ABD USL Lig 1 | New York Cosmo - Greenville Triu | finished | -
+- 2026-07-05 02:30 | ABD USL | Rhode Island - Orange County B | finished | -
+- 2026-07-05 02:30 | ABD USL Lig 1 | Fort Wayne - Spokane Velocit | finished | -
+- 2026-07-05 02:30 | ABD USL Lig 1 | Corpus Christi - Chattanooga Red | finished | -
+- 2026-07-05 03:00 | Ekvador Pro Lig | Barcelona Gua - Deportivo Cuenc | finished | -
+- 2026-07-05 03:00 | ABD USL | Louisville Cit - Hartford Athlet | finished | -
+- 2026-07-05 03:00 | ABD USL Lig 2 Orta Güney Grubu | Jackson Boom - Mississippi Bri | finished | -
+- 2026-07-05 03:30 | Şili Kupa Grup B | Univ. Catolica - Capiapo | finished | -
+- 2026-07-05 03:30 | ABD USL | Tulsa Roughnec - Sacramento Repu | finished | -
+- 2026-07-05 04:00 | ABD USL | Colorado Sprin - Phoenix Rising | finished | -
+- 2026-07-05 04:00 | ABD USL | San Antonio - Monterey Bay | finished | -
+- 2026-07-05 04:30 | ABD USL | New Mexico Uni - Oakland Roots | finished | -
+- 2026-07-05 05:30 | ABD USL | Las Vegas Ligh - El Paso Locomot | finished | -
+- 2026-07-05 06:00 | Avustralya U20 NSW NPL 1 | Rockdale City - Nws Spirit U20 | finished | -
+- 2026-07-05 07:00 | Avustralya Victoria NPL 1 | Western Utd. I - Melbourne Victo | finished | -
+- 2026-07-05 07:30 | Avustralya NPL Tazmanya | South East Uni - South Hobart | finished | -
+- 2026-07-05 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Canberra Olympi | finished | -
+- 2026-07-05 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - Sydney United | finished | -
+- 2026-07-05 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - St. George Sain | finished | -
+- 2026-07-05 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - St George City | finished | -
+- 2026-07-05 08:00 | Avustralya NPL Queensland | Gold Coast Uni - Magic United | finished | -
+- 2026-07-05 08:30 | Avustralya NPL Victoria | South Melbourn - Dandenong Thund | finished | -
+- 2026-07-05 08:45 | Avustralya NPL Queensland | Brisbane City - Brisbane Roar I | finished | -
+- 2026-07-05 13:30 | Güney Kore K Lig 1 | Fc Seoul - Incheon Utd | finished | -
+- 2026-07-05 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeju Utd | finished | -
+- 2026-07-05 13:30 | Güney Kore K Lig 1 | Gwangju - Ulsan | finished | -
+- 2026-07-05 13:30 | Güney Kore K Lig 2 | Gyeongnam - Cheonan City Fc | finished | -
+- 2026-07-05 13:30 | Güney Kore K Lig 2 | Gimhae City - Seoul E-Land | finished | -
+- 2026-07-05 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Busan Ipark | finished | -
+- 2026-07-05 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Asan Mugunghwa | finished | -
