@@ -3,32 +3,14 @@
 Gunler: 2026-07-05 / 2026-07-06
 Kaynak: fixtures.json
 Ham mac: 80
-Aktif mac: 50
-Canli mac: 30
+Aktif mac: 32
+Canli mac: 48
 Biten mac: 0
-Bultenden dusurulen mac: 30
-Bugun: 32
+Bultenden dusurulen mac: 48
+Bugun: 14
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-05 20:00 | Fas Botola Pro | Ittihad Tanger - Codm Meknes | scheduled | -
-- 2026-07-05 20:00 | Fas Botola Pro | Far Rabat - Cr Khemis Zemam | scheduled | -
-- 2026-07-05 20:00 | Fas Botola Pro | Fus Rabat - Yacoub El Manso | scheduled | -
-- 2026-07-05 20:00 | Fas Botola Pro | Husa Agadir - Kawkab Marrakec | scheduled | -
-- 2026-07-05 20:00 | Fas Botola Pro | Maghreb Fes - Olympique Dchei | scheduled | -
-- 2026-07-05 20:00 | Fas Botola Pro | Difaa - Rsb Berkane | scheduled | -
-- 2026-07-05 20:00 | Fas Botola Pro | Ol. Safi - Raja Casablanca | scheduled | -
-- 2026-07-05 20:00 | Moldova Ulusal Lig | Zimbru - Csf Balti | scheduled | -
-- 2026-07-05 20:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Danubio - Juventud Dl Pie | scheduled | -
-- 2026-07-05 20:00 | Kanada Premier Lig | Supra Du Québe - Forge | scheduled | -
-- 2026-07-05 20:00 | Fas Botola Pro | Wydad Casablan - Uts Rabat | scheduled | -
-- 2026-07-05 20:55 | Belarus Premier Lig | Torpedo Zhodin - Isloch | scheduled | -
-- 2026-07-05 21:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Colon Santa Fe | scheduled | -
-- 2026-07-05 21:00 | Arjantin Ulusal Primera Lig | Caseros - R Cordoba | scheduled | -
-- 2026-07-05 21:00 | Ekvador Pro Lig | Depor Macara - Ldu Quito | scheduled | -
-- 2026-07-05 21:30 | Arjantin Ulusal Primera Lig | Patronato - San Martin Tucu | scheduled | -
-- 2026-07-05 21:30 | Arjantin Ulusal Primera Lig | Chaco For Ever - Acassuso | scheduled | -
-- 2026-07-05 21:30 | Arjantin Ulusal Primera Lig | Ferro Carril O - San Telmo | scheduled | -
 - 2026-07-05 22:00 | Şili Kupa Grup C | Cobresal - Cobreloa | scheduled | -
 - 2026-07-05 22:00 | Şili Kupa Grup F | Univ De Concep - Csd Rangers | scheduled | -
 - 2026-07-05 22:00 | Şili Kupa Grup F | Atletico Nuble - Curico | scheduled | -
@@ -93,6 +75,24 @@ Yarin: 18
 - 2026-07-05 19:00 | Estonya Premium Lig | Tammeka Tartu - Harju Jalgpalli | live | -
 - 2026-07-05 19:30 | Şili Kupa Grup C | La Serena - Antofagasta | live | -
 - 2026-07-05 19:30 | Şili Kupa Grup D | Sant. Wanderer - Univ. De Şili | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Ittihad Tanger - Codm Meknes | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Far Rabat - Cr Khemis Zemam | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Fus Rabat - Yacoub El Manso | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Husa Agadir - Kawkab Marrakec | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Maghreb Fes - Olympique Dchei | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Difaa - Rsb Berkane | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Ol. Safi - Raja Casablanca | live | -
+- 2026-07-05 20:00 | Moldova Ulusal Lig | Zimbru - Csf Balti | live | -
+- 2026-07-05 20:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Danubio - Juventud Dl Pie | live | -
+- 2026-07-05 20:00 | Kanada Premier Lig | Supra Du Québe - Forge | live | -
+- 2026-07-05 20:00 | Fas Botola Pro | Wydad Casablan - Uts Rabat | live | -
+- 2026-07-05 20:55 | Belarus Premier Lig | Torpedo Zhodin - Isloch | live | -
+- 2026-07-05 21:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Colon Santa Fe | live | -
+- 2026-07-05 21:00 | Arjantin Ulusal Primera Lig | Caseros - R Cordoba | live | -
+- 2026-07-05 21:00 | Ekvador Pro Lig | Depor Macara - Ldu Quito | live | -
+- 2026-07-05 21:30 | Arjantin Ulusal Primera Lig | Patronato - San Martin Tucu | live | -
+- 2026-07-05 21:30 | Arjantin Ulusal Primera Lig | Chaco For Ever - Acassuso | live | -
+- 2026-07-05 21:30 | Arjantin Ulusal Primera Lig | Ferro Carril O - San Telmo | live | -
 
 ## Biten Maclar
 Biten mac yok.

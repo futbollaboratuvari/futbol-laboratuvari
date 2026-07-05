@@ -1,27 +1,23 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 74
-Tam analiz: 0
-Eksik analiz: 74
+Toplam analiz: 62
+Tam analiz: 46
+Eksik analiz: 16
 
-- Qingdao Zhongn VS Chengdu Ron.: eksik score, confidence
-- Smorgon VS Volna Pinsk: eksik score, confidence
-- Nanjing City VS Foshan Nanshi: eksik score, confidence
-- Meizhou Hakka VS Changchun Yatai: eksik score, confidence
-- Guangxi Hengch VS Dalian Huayi: eksik score, confidence
-- Shanghai Shenh VS Zhejiang G. Fc: eksik score, confidence
-- Göteborg VS Aik Stockholm: eksik score, confidence
-- Kalmar VS Orgryte: eksik score, confidence
-- Aarhus VS Motherwell: eksik score, confidence
-- Tpv Tampere VS Jyvaskyla: eksik score, confidence
-- Valmieras Fk/B VS Leevon / Ppk: eksik score, confidence
-- Rigas Fs Ii VS Super Nova Ii: eksik score, confidence
-- Rapid Wien VS Pardubice: eksik score, confidence
-- Rops VS Pk Keski Uusima: eksik score, confidence
-- Grobina VS Fk Tukums 2000: eksik score, confidence
-- Mbeya City VS Tanzania Prison: eksik score, confidence
-- Rosenborg VS Molde: eksik score, confidence
-- Odds Bk VS Haugesund: eksik score, confidence
-- Atyrau VS Kaspyi: eksik score, confidence
-- Aktobe VS Zhetysu: eksik score, confidence
+- Lida VS Uni Minsk: eksik score, confidence
+- Atlas Khenifra VS Amal Tiznit: eksik score, confidence
+- Us Boujaad VS Racing De Casab: eksik score, confidence
+- Js Soualem VS Chabab Ben Guer: eksik score, confidence
+- Chabab VS Kac Kenitra: eksik score, confidence
+- Moghreb Tetoua VS Stade Marocain: eksik score, confidence
+- El Massira VS Raja Beni Mella: eksik score, confidence
+- Danubio VS Juventud Dl Pie: eksik score, confidence
+- Caseros VS R Cordoba: eksik score, confidence
+- Chaco For Ever VS Acassuso: eksik score, confidence
+- Ferro Carril O VS San Telmo: eksik score, confidence
+- San Martin Sj VS Chacarita Junio: eksik score, confidence
+- Ca Mitre VS All Boys: eksik score, confidence
+- Central Norte VS San Miguel: eksik score, confidence
+- Project 51o VS Davis Legacy: eksik score, confidence
+- Eagle Fc VS West Chester Un: eksik score, confidence
