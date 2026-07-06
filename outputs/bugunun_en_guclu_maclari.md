@@ -1,33 +1,42 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-05T22:39:45.319Z
-- Ham maç sayısı: 25
-- Yarın bülteni maç sayısı: 0
-- Detay blok sayısı: 64
-- Aktif bülten maçı: 19
-- Bültenden düşürülen maç: 6
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-07-06T12:16:23.244Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Miami Fc - Birmingham Legi | ABD USL | 02:00 | Veri bekleniyor | - | 2.08 | 8 |
-| Christos - Loudoun United | ABD USL Lig 2 Chesapeake Grubu | 02:00 | Veri bekleniyor | - | 1.86 | 6 |
-| Pennsylvania C - Reading United | ABD USL Lig 2 Orta Atlantik Grubu | 02:00 | Veri bekleniyor | - | 3.38 | 6 |
-| Bigfoot - Bangers | ABD USL Lig 2 Kuzeybatı Grubu | 02:00 | Veri bekleniyor | - | 5.15 | 4 |
-| Fc Miami City - Miami Ac | ABD USL Lig 2 Güney Florida Grubu | 02:00 | Veri bekleniyor | - | 2.04 | 6 |
-| Westchester Sc - Athletic Club B | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 2.73 | 8 |
-| Nautico - Juventude | Brezilya Serie B | 02:30 | Veri bekleniyor | - | 1.99 | 8 |
-| Ironbound - Staten Island A | ABD USL Lig 2 Metropolitan Grubu | 02:30 | Veri bekleniyor | - | 1.17 | 4 |
-| East Atlanta - Birmingham Legi | ABD USL Lig 2 Güney Merkez Grubu | 02:30 | Veri bekleniyor | - | 2.18 | 8 |
-| Meksika - İngiltere | Dünya Kupası 2026 Son 16 Turu | 03:00 | Veri bekleniyor | - | 2.65 | 8 |
-| Deportes Limac - San Marcos Aric | Şili Kupa Grup A | 03:00 | Veri bekleniyor | - | 1.28 | 6 |
-| North Virginia - Patuxent | ABD USL Lig 2 Chesapeake Grubu | 03:00 | Veri bekleniyor | - | - | 3 |
-| Alta - Charlotte Indep | ABD USL Lig 1 | 06:00 | Veri bekleniyor | - | 2.57 | 8 |
-| Suduva - Transinvest Vil | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 2.01 | 8 |
-| Super Nova - Ogre United | Letonya Virsliga | 19:00 | Veri bekleniyor | - | 1.46 | 7 |
-| Hacken - Djurgarden | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.2 | 8 |
-| Brommapojkarna - Gais | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.84 | 8 |
-| Portekiz - İspanya | Dünya Kupası 2026 Son 16 Turu | 22:00 | Veri bekleniyor | - | 3.44 | 8 |
-| Keflavik - Fram | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.8 | 6 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Neftchi Baku VS Partizan Belgra | Hazırlık Kulüpler | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Suduva VS Transinvest Vil | Litvanya A Ligi | 18:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Super Nova VS Ogre United | Letonya Virsliga | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Hacken VS Djurgarden | İsveç Allsvenskan | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Brommapojkarna VS Gais | İsveç Allsvenskan | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Portekiz VS İspanya | Dünya Kupası 2026 Son 16 Turu | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Keflavik VS Fram | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Univ Catolica VS Mushuc Runa | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Botafogo Ribei VS Avai | Brezilya Serie B | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Vila Nova VS Sao Bernardo | Brezilya Serie B | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Black Rock VS Seacoast United | ABD USL Lig 2 Kuzeydoğu Grubu | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Lansing City VS Michigan Bucks | ABD USL Lig 2 Merkez Konferansı | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Colo Colo VS Recoleta | Şili Kupa Grup E | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Concepcion VS Temuco | Şili Kupa Grup H | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Abd VS Belçika | Dünya Kupası 2026 Son 16 Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Orense VS T.Universitario | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Stars Fc VS Fc Tucson | ABD USL Lig 2 Güneybatı Grubu | 05:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
