@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-06T16:44:15.185Z
+- Güncelleme: 2026-07-06T17:58:23.943Z
 - Ham maç sayısı: 17
 - Yarın bülteni maç sayısı: 10
 - Detay blok sayısı: 46
-- Aktif bülten maçı: 14
-- Bültenden düşürülen maç: 3
+- Aktif bülten maçı: 12
+- Bültenden düşürülen maç: 5
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hacken - Djurgarden | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.15 | 8 |
-| Brommapojkarna - Gais | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.68 | 8 |
 | Portekiz - İspanya | Dünya Kupası 2026 Son 16 Turu | 22:00 | Veri bekleniyor | - | 3.63 | 8 |
 | Keflavik - Fram | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.77 | 6 |
 | Univ Catolica - Mushuc Runa | Ekvador Pro Lig | 00:30 | Veri bekleniyor | - | 1.33 | 6 |

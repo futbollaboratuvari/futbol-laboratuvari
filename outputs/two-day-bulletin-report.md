@@ -3,16 +3,14 @@
 Gunler: 2026-07-06 / 2026-07-07
 Kaynak: fixtures.json
 Ham mac: 17
-Aktif mac: 14
-Canli mac: 3
+Aktif mac: 12
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 4
+Bultenden dusurulen mac: 5
+Bugun: 2
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-06 20:00 | İsveç Allsvenskan | Hacken - Djurgarden | scheduled | -
-- 2026-07-06 20:00 | İsveç Allsvenskan | Brommapojkarna - Gais | scheduled | -
 - 2026-07-06 22:00 | Dünya Kupası 2026 Son 16 Turu | Portekiz - İspanya | scheduled | -
 - 2026-07-06 22:15 | İzlanda Urvalsdeild | Keflavik - Fram | scheduled | -
 - 2026-07-07 00:30 | Ekvador Pro Lig | Univ Catolica - Mushuc Runa | scheduled | -
@@ -30,6 +28,8 @@ Yarin: 10
 - 2026-07-06 18:30 | Hazırlık Kulüpler | Neftchi Baku - Partizan Belgra | live | -
 - 2026-07-06 18:45 | Litvanya A Ligi | Suduva - Transinvest Vil | live | -
 - 2026-07-06 19:00 | Letonya Virsliga | Super Nova - Ogre United | live | -
+- 2026-07-06 20:00 | İsveç Allsvenskan | Hacken - Djurgarden | live | -
+- 2026-07-06 20:00 | İsveç Allsvenskan | Brommapojkarna - Gais | live | -
 
 ## Biten Maclar
 Biten mac yok.
