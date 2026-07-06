@@ -1,41 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-06T19:10:59.252462+00:00
+Tarih: 2026-07-06T19:24:34.698185+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 11
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 11
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 1255
 - Hedef tarih: 06.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- Brezilya Serie B
-- Dünya Kupası 2026 Son 16 Turu
-- Ekvador Pro Lig
-- İzlanda Urvalsdeild
-- Şili Kupa Grup E
-- Şili Kupa Grup H
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -79,8 +72,8 @@ Tarih: 2026-07-06T19:10:59.252462+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 9
-- Acilan detay: 9
+- Denenen Tumu alani: 8
+- Acilan detay: 8
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -91,19 +84,7 @@ Tarih: 2026-07-06T19:10:59.252462+00:00
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 07.07.2026 | 03:00 | Dünya Kupası 2026 Son 16 Turu | Abd | Belçika | 17267 | 5 |
-| 07.07.2026 | 02:30 | Şili Kupa Grup E | Colo Colo | Recoleta | 03217 | 2 |
-| 07.07.2026 | 02:30 | Şili Kupa Grup H | Concepcion | Temuco | 06440 | 5 |
-| 07.07.2026 | 01:00 | Brezilya Serie B | Botafogo Ribei | Avai | 14921 | 5 |
-| 07.07.2026 | 01:00 | Brezilya Serie B | Vila Nova | Sao Bernardo | 14954 | 5 |
-| 06.07.2026 | 22:15 | İzlanda Urvalsdeild | Keflavik | Fram | 14169 | 3 |
-| 07.07.2026 | 00:30 | Ekvador Pro Lig | Univ Catolica | Mushuc Runa | 16771 | 5 |
-| 07.07.2026 | 03:00 | Ekvador Pro Lig | Orense | T.Universitario | 01135 | 5 |
-| 07.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock | Seacoast United | 03711 | 3 |
-| 07.07.2026 | 05:30 | ABD USL Lig 2 Güneybatı Grubu | Stars Fc | Fc Tucson | 01173 | 3 |
-| 07.07.2026 | 02:00 | ABD USL Lig 2 Merkez Konferansı | Lansing City | Michigan Bucks | 00949 | 2 |
+- Ornek mac yok.
 
 ## Sonuc
 
