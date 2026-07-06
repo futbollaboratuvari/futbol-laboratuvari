@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-02T10:20:58.713Z",
-  "updated_at": "2026-07-06T19:11:07.566Z",
+  "updated_at": "2026-07-06T19:12:11.807Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 60,
-    "pending_predictions": 60,
+    "total_predictions": 62,
+    "pending_predictions": 62,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 30,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 2,
+    "updated_predictions": 0,
+    "last_score_link_checked": 62,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 33,
-      "pending": 33,
+      "total": 35,
+      "pending": 35,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,6 +52,16 @@
     }
   },
   "league_memory": {
+    "İsveç Allsvenskan": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Şili Kupa Grup E": {
       "total": 2,
       "pending": 2,
@@ -278,16 +292,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "İsveç Allsvenskan": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Faroe Adaları Master Lig": {
       "total": 1,
       "pending": 1,
@@ -350,6 +354,16 @@
     }
   },
   "league_market_memory": {
+    "İsveç Allsvenskan :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Şili Kupa Grup E :: MS X": {
       "total": 2,
       "pending": 2,
@@ -782,6 +796,40 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-06|isvec allsvenskan|hacken djurgarden|ms x|20 00",
+      "date": "2026-07-06",
+      "created_at": "2026-07-06T19:12:11.228Z",
+      "match_name": "Hacken - Djurgarden",
+      "league": "İsveç Allsvenskan",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "3.22",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-06|isvec allsvenskan|brommapojkarna gais|ms x|20 00",
+      "date": "2026-07-06",
+      "created_at": "2026-07-06T19:12:11.228Z",
+      "match_name": "Brommapojkarna - Gais",
+      "league": "İsveç Allsvenskan",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "2.98",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-07-06|sili kupa grup e|union espanola o higgins|ms x|00 30",
       "date": "2026-07-06",

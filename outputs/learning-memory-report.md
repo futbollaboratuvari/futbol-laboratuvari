@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.07.2026 22:11:07
+Oluşturma: 06.07.2026 22:12:11
 
 ## Özet
 
-- Toplam tahmin: 60
-- Bekleyen tahmin: 60
+- Toplam tahmin: 62
+- Bekleyen tahmin: 62
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,14 @@ Oluşturma: 06.07.2026 22:11:07
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
+- MS X: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-06 | İsveç Allsvenskan | Hacken - Djurgarden | MS X | pending | 60/100
+- 2026-07-06 | İsveç Allsvenskan | Brommapojkarna - Gais | MS X | pending | 50/100
 - 2026-07-06 | Şili Kupa Grup E | Union Espanola - O Higgins | MS X | pending | 40/100
 - 2026-07-06 | Kanada Premier Lig | Pacific Fc - Hfx Wanderers | MS X | pending | 50/100
 - 2026-07-06 | ABD USL | Miami Fc - Birmingham Legi | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 06.07.2026 22:11:07
 - 2026-07-05 | Şili Kupa Grup H | Puerto Montt - Huachipato | MS X | pending | 50/100
 - 2026-07-05 | Dünya Kupası 2026 Son 16 Turu | Brezilya - Norveç | MS 2 | pending | 50/100
 - 2026-07-05 | Şili Kupa Grup G | Deportes Santa - Audax Italiano | MS X | pending | 50/100
-- 2026-07-05 | Hazırlık Kulüpler | Rosenborg - Molde | MS X | pending | 60/100
-- 2026-07-05 | Norveç 1.Lig | Odds Bk - Haugesund | MS X | pending | 70/100
 
