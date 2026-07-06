@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-06 / 2026-07-07
 Kaynak: fixtures.json
-Ham mac: 36
+Ham mac: 17
 Aktif mac: 17
 Canli mac: 0
-Biten mac: 19
-Bultenden dusurulen mac: 19
+Biten mac: 0
+Bultenden dusurulen mac: 0
 Bugun: 7
 Yarin: 10
 
@@ -33,22 +33,4 @@ Yarin: 10
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-07-06 00:00 | ABD USL Lig 2 Chesapeake Grubu | Virginia Marau - Bethesda | finished | -
-- 2026-07-06 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Tacoma Stars | finished | -
-- 2026-07-06 00:30 | Şili Kupa Grup E | Union Espanola - O Higgins | finished | -
-- 2026-07-06 00:30 | ABD USL Lig 2 Güneybatı Grubu | City Sc - Redlands | finished | -
-- 2026-07-06 01:00 | Ekvador Pro Lig | Delfin - Emelec | finished | -
-- 2026-07-06 01:00 | Kanada Premier Lig | Pacific Fc - Hfx Wanderers | finished | -
-- 2026-07-06 02:00 | ABD USL | Miami Fc - Birmingham Legi | finished | -
-- 2026-07-06 02:00 | ABD USL Lig 2 Chesapeake Grubu | Christos - Loudoun United | finished | -
-- 2026-07-06 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Pennsylvania C - Reading United | finished | -
-- 2026-07-06 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot - Bangers | finished | -
-- 2026-07-06 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City - Miami Ac | finished | -
-- 2026-07-06 02:00 | ABD USL Lig 1 | Westchester Sc - Athletic Club B | finished | -
-- 2026-07-06 02:30 | Brezilya Serie B | Nautico - Juventude | finished | -
-- 2026-07-06 02:30 | ABD USL Lig 2 Metropolitan Grubu | Ironbound - Staten Island A | finished | -
-- 2026-07-06 02:30 | ABD USL Lig 2 Güney Merkez Grubu | East Atlanta - Birmingham Legi | finished | -
-- 2026-07-06 03:00 | Dünya Kupası 2026 Son 16 Turu | Meksika - İngiltere | finished | -
-- 2026-07-06 03:00 | Şili Kupa Grup A | Deportes Limac - San Marcos Aric | finished | -
-- 2026-07-06 03:00 | ABD USL Lig 2 Chesapeake Grubu | North Virginia - Patuxent | finished | -
-- 2026-07-06 06:00 | ABD USL Lig 1 | Alta - Charlotte Indep | finished | -
+Biten mac yok.

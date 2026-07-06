@@ -1,14 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 25
-Tam analiz: 15
-Eksik analiz: 10
+Toplam analiz: 7
+Tam analiz: 0
+Eksik analiz: 7
 
-- Virginia Marau VS Bethesda: eksik score, confidence
-- Ballard VS Tacoma Stars: eksik score, confidence
-- Bigfoot VS Bangers: eksik score, confidence
-- Ironbound VS Staten Island A: eksik score, confidence
+- Neftchi Baku VS Partizan Belgra: eksik score, confidence
 - Suduva VS Transinvest Vil: eksik score, confidence
 - Super Nova VS Ogre United: eksik score, confidence
 - Hacken VS Djurgarden: eksik score, confidence
