@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-06T13:05:48.537Z
+- Güncelleme: 2026-07-06T16:44:15.185Z
 - Ham maç sayısı: 17
 - Yarın bülteni maç sayısı: 10
 - Detay blok sayısı: 46
-- Aktif bülten maçı: 17
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 14
+- Bültenden düşürülen maç: 3
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Neftchi Baku - Partizan Belgra | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 2.73 | 8 |
-| Suduva - Transinvest Vil | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 2.01 | 8 |
-| Super Nova - Ogre United | Letonya Virsliga | 19:00 | Veri bekleniyor | - | 1.37 | 7 |
 | Hacken - Djurgarden | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Brommapojkarna - Gais | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 2.68 | 8 |
 | Portekiz - İspanya | Dünya Kupası 2026 Son 16 Turu | 22:00 | Veri bekleniyor | - | 3.63 | 8 |

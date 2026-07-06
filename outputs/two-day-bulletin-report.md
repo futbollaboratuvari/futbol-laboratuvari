@@ -3,17 +3,14 @@
 Gunler: 2026-07-06 / 2026-07-07
 Kaynak: fixtures.json
 Ham mac: 17
-Aktif mac: 17
-Canli mac: 0
+Aktif mac: 14
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 7
+Bultenden dusurulen mac: 3
+Bugun: 4
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-06 18:30 | Hazırlık Kulüpler | Neftchi Baku - Partizan Belgra | scheduled | -
-- 2026-07-06 18:45 | Litvanya A Ligi | Suduva - Transinvest Vil | scheduled | -
-- 2026-07-06 19:00 | Letonya Virsliga | Super Nova - Ogre United | scheduled | -
 - 2026-07-06 20:00 | İsveç Allsvenskan | Hacken - Djurgarden | scheduled | -
 - 2026-07-06 20:00 | İsveç Allsvenskan | Brommapojkarna - Gais | scheduled | -
 - 2026-07-06 22:00 | Dünya Kupası 2026 Son 16 Turu | Portekiz - İspanya | scheduled | -
@@ -30,7 +27,9 @@ Yarin: 10
 - 2026-07-07 05:30 | ABD USL Lig 2 Güneybatı Grubu | Stars Fc - Fc Tucson | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-06 18:30 | Hazırlık Kulüpler | Neftchi Baku - Partizan Belgra | live | -
+- 2026-07-06 18:45 | Litvanya A Ligi | Suduva - Transinvest Vil | live | -
+- 2026-07-06 19:00 | Letonya Virsliga | Super Nova - Ogre United | live | -
 
 ## Biten Maclar
 Biten mac yok.
