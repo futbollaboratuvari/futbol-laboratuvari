@@ -1,9 +1,5 @@
 # Başarı Yüzdesi Raporu
 
-<<<<<<< Updated upstream
-- Güncelleme: 2026-07-06T19:23:59.509Z
-=======
-- Güncelleme: 2026-07-06T19:24:22.222Z
->>>>>>> Stashed changes
-- Sonuçlanan tahmin sayısı: 0
-- Durum: Canlı tahmin geçmişi bekleniyor.
+- Güncelleme: 2026-07-06T22:51:39.708Z
+- Sonuçlanan analiz sayısı: 0
+- Durum: Sonuç verisi geldiğinde kazandı/kaybetti ayrımı otomatik gösterilecek.

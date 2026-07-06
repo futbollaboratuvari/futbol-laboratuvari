@@ -1,36 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-02T10:20:58.713Z",
-<<<<<<< Updated upstream
-  "updated_at": "2026-07-06T19:24:00.840Z",
-=======
-  "updated_at": "2026-07-06T19:24:39.147Z",
->>>>>>> Stashed changes
+  "updated_at": "2026-07-06T22:51:46.615Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 62,
-    "pending_predictions": 62,
+    "total_predictions": 66,
+    "pending_predictions": 66,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 30,
+    "league_count": 31,
     "market_count": 3,
     "added_predictions": 0,
-<<<<<<< Updated upstream
-    "updated_predictions": 0,
-    "last_score_link_checked": 62,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
-=======
     "updated_predictions": 0
->>>>>>> Stashed changes
   },
   "market_memory": {
-    "MS X": {
-      "total": 35,
-      "pending": 35,
+    "MS 2": {
+      "total": 28,
+      "pending": 28,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -38,9 +26,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 2": {
-      "total": 25,
-      "pending": 25,
+    "MS X": {
+      "total": 36,
+      "pending": 36,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -60,6 +48,46 @@
     }
   },
   "league_memory": {
+    "Brezilya Serie B": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup H": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Dünya Kupası 2026 Son 16 Turu": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Ekvador Pro Lig": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İsveç Allsvenskan": {
       "total": 3,
       "pending": 3,
@@ -140,26 +168,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Şili Kupa Grup H": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Dünya Kupası 2026 Son 16 Turu": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Şili Kupa Grup G": {
       "total": 1,
       "pending": 1,
@@ -223,16 +231,6 @@
     "Fas Botola Pro": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Ekvador Pro Lig": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -362,6 +360,46 @@
     }
   },
   "league_market_memory": {
+    "Brezilya Serie B :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup H :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Dünya Kupası 2026 Son 16 Turu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Ekvador Pro Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İsveç Allsvenskan :: MS X": {
       "total": 2,
       "pending": 2,
@@ -791,19 +829,81 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "Şili Kupa Grup H :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-07|brezilya serie b|vila nova sao bernardo|ms 2|01 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T22:51:45.785Z",
+      "match_name": "Vila Nova - Sao Bernardo",
+      "league": "Brezilya Serie B",
+      "start_time": "01:00",
+      "market": "MS 2",
+      "odds": "3.48",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-06T22:51:46.614Z"
+    },
+    {
+      "id": "2026-07-07|sili kupa grup h|concepcion temuco|ms 2|02 30",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T22:51:45.785Z",
+      "match_name": "Concepcion - Temuco",
+      "league": "Şili Kupa Grup H",
+      "start_time": "02:30",
+      "market": "MS 2",
+      "odds": "3.06",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-06T22:51:46.614Z"
+    },
+    {
+      "id": "2026-07-07|dunya kupasi 2026 son 16 turu|abd belcika|ms x|03 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T22:51:45.785Z",
+      "match_name": "Abd - Belçika",
+      "league": "Dünya Kupası 2026 Son 16 Turu",
+      "start_time": "03:00",
+      "market": "MS X",
+      "odds": "3.04",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-06T22:51:46.614Z"
+    },
+    {
+      "id": "2026-07-07|ekvador pro lig|orense t universitario|ms 2|03 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T22:51:45.785Z",
+      "match_name": "Orense - T.Universitario",
+      "league": "Ekvador Pro Lig",
+      "start_time": "03:00",
+      "market": "MS 2",
+      "odds": "3.68",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-06T22:51:46.614Z"
+    },
     {
       "id": "2026-07-06|isvec allsvenskan|hacken djurgarden|ms x|20 00",
       "date": "2026-07-06",
@@ -820,11 +920,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-<<<<<<< Updated upstream
-      "updated_at": "2026-07-06T19:24:00.321Z"
-=======
       "updated_at": "2026-07-06T19:24:39.147Z"
->>>>>>> Stashed changes
     },
     {
       "id": "2026-07-06|isvec allsvenskan|brommapojkarna gais|ms x|20 00",
@@ -842,11 +938,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-<<<<<<< Updated upstream
-      "updated_at": "2026-07-06T19:24:00.322Z"
-=======
       "updated_at": "2026-07-06T19:24:39.147Z"
->>>>>>> Stashed changes
     },
     {
       "id": "2026-07-06|sili kupa grup e|union espanola o higgins|ms x|00 30",

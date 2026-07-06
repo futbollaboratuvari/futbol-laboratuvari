@@ -1,18 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 06.07.2026 22:24:00
-=======
-Oluşturma: 06.07.2026 22:24:39
->>>>>>> Stashed changes
+Oluşturma: 07.07.2026 01:51:46
 
 ## Özet
 
-- Toplam tahmin: 62
-- Bekleyen tahmin: 62
+- Toplam tahmin: 66
+- Bekleyen tahmin: 66
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 30
+- Lig sayısı: 31
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -24,12 +20,16 @@ Oluşturma: 06.07.2026 22:24:39
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
+- MS X: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-07 | Brezilya Serie B | Vila Nova - Sao Bernardo | MS 2 | pending | 40/100
+- 2026-07-07 | Şili Kupa Grup H | Concepcion - Temuco | MS 2 | pending | 50/100
+- 2026-07-07 | Dünya Kupası 2026 Son 16 Turu | Abd - Belçika | MS X | pending | 50/100
+- 2026-07-07 | Ekvador Pro Lig | Orense - T.Universitario | MS 2 | pending | 50/100
 - 2026-07-06 | İsveç Allsvenskan | Hacken - Djurgarden | MS X | pending | 60/100
 - 2026-07-06 | İsveç Allsvenskan | Brommapojkarna - Gais | MS X | pending | 50/100
 - 2026-07-06 | Şili Kupa Grup E | Union Espanola - O Higgins | MS X | pending | 40/100
@@ -41,8 +41,4 @@ Oluşturma: 06.07.2026 22:24:39
 - 2026-07-05 | Şili Kupa Grup C | Cobresal - Cobreloa | MS X | pending | 50/100
 - 2026-07-05 | Şili Kupa Grup F | Univ De Concep - Csd Rangers | MS X | pending | 50/100
 - 2026-07-05 | Şili Kupa Grup F | Univ De Concep - Csd Rangers | MS 2 | pending | 50/100
-- 2026-07-05 | Şili Kupa Grup F | Atletico Nuble - Curico | MS 2 | pending | 50/100
-- 2026-07-05 | Şili Kupa Grup H | Puerto Montt - Huachipato | MS X | pending | 50/100
-- 2026-07-05 | Dünya Kupası 2026 Son 16 Turu | Brezilya - Norveç | MS 2 | pending | 50/100
-- 2026-07-05 | Şili Kupa Grup G | Deportes Santa - Audax Italiano | MS X | pending | 50/100
 
