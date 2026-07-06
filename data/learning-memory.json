@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-02T10:20:58.713Z",
-  "updated_at": "2026-07-06T22:51:46.615Z",
+  "updated_at": "2026-07-06T23:38:28.323Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 66,
-    "pending_predictions": 66,
+    "total_predictions": 75,
+    "pending_predictions": 75,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 31,
+    "league_count": 33,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 9,
+    "updated_predictions": 0,
+    "last_score_link_checked": 75,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 28,
-      "pending": 28,
+    "MS X": {
+      "total": 42,
+      "pending": 42,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -26,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 36,
-      "pending": 36,
+    "MS 2": {
+      "total": 30,
+      "pending": 30,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -37,8 +41,8 @@
       "confidence_adjustment": 0
     },
     "MS 1": {
-      "total": 2,
-      "pending": 2,
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,6 +52,36 @@
     }
   },
   "league_memory": {
+    "UEFA Şampiyonlar Ligi 1.Eleme Turu": {
+      "total": 7,
+      "pending": 7,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Konferans Ligi 1. Eleme Turu": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Brezilya Serie B": {
       "total": 1,
       "pending": 1,
@@ -171,16 +205,6 @@
     "Şili Kupa Grup G": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -360,6 +384,56 @@
     }
   },
   "league_market_memory": {
+    "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS X": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Konferans Ligi 1. Eleme Turu :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Brezilya Serie B :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -513,16 +587,6 @@
     "Şili Kupa Grup G :: MS X": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -833,6 +897,159 @@
   },
   "predictions": [
     {
+      "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|lincoln red im inter escaldes|ms x|19 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Lincoln Red Im - Inter Escaldes",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "19:00",
+      "market": "MS X",
+      "odds": "2.99",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|kauno zalgiris fc drita|ms 2|19 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Kauno Zalgiris - Fc Drita",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "19:00",
+      "market": "MS 2",
+      "odds": "3.45",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|ararat armenia riga fc|ms x|19 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Ararat-Armenia - Riga Fc",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "19:00",
+      "market": "MS X",
+      "odds": "2.78",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|vardar kuopion|ms x|20 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Vardar - Kuopion",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "2.89",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|hazirlik kulupler|shelbourne celtic|ms x|20 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Shelbourne - Celtic",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "5.40",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|floriana shamrock rovers|ms x|20 30",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Floriana - Shamrock Rovers",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "20:30",
+      "market": "MS X",
+      "odds": "2.84",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|uefa konferans ligi 1 eleme turu|af elbasani bate borisov|ms 2|21 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Af Elbasani - Bate Borisov",
+      "league": "UEFA Konferans Ligi 1. Eleme Turu",
+      "start_time": "21:00",
+      "market": "MS 2",
+      "odds": "5.10",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|borac banja lu levski sofya|ms 1|21 30",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Borac Banja Lu - Levski Sofya",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "21:30",
+      "market": "MS 1",
+      "odds": "2.80",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|vikingur reykj gyor|ms x|22 00",
+      "date": "2026-07-07",
+      "created_at": "2026-07-06T23:38:27.886Z",
+      "match_name": "Vikingur Reykj - Gyor",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "2.98",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-07|brezilya serie b|vila nova sao bernardo|ms 2|01 00",
       "date": "2026-07-07",
       "created_at": "2026-07-06T22:51:45.785Z",
@@ -848,7 +1065,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-06T22:51:46.614Z"
+      "updated_at": "2026-07-06T23:38:27.886Z"
     },
     {
       "id": "2026-07-07|sili kupa grup h|concepcion temuco|ms 2|02 30",
@@ -866,7 +1083,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-06T22:51:46.614Z"
+      "updated_at": "2026-07-06T23:38:27.886Z"
     },
     {
       "id": "2026-07-07|dunya kupasi 2026 son 16 turu|abd belcika|ms x|03 00",
@@ -884,7 +1101,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-06T22:51:46.614Z"
+      "updated_at": "2026-07-06T23:38:27.886Z"
     },
     {
       "id": "2026-07-07|ekvador pro lig|orense t universitario|ms 2|03 00",
@@ -902,7 +1119,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-06T22:51:46.614Z"
+      "updated_at": "2026-07-06T23:38:27.886Z"
     },
     {
       "id": "2026-07-06|isvec allsvenskan|hacken djurgarden|ms x|20 00",

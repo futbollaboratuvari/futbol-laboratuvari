@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-06T22:51:39.708Z
+- Güncelleme: 2026-07-06T23:38:21.109Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -17,7 +17,7 @@
 | Black Rock VS Seacoast United | ABD USL Lig 2 Kuzeydoğu Grubu | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Lansing City VS Michigan Bucks | ABD USL Lig 2 Merkez Konferansı | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Colo Colo VS Recoleta | Şili Kupa Grup E | 02:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Concepcion VS Temuco | Şili Kupa Grup H | 02:30 | MS 2 | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Concepcion VS Temuco | Şili Kupa Grup H | 02:30 | MS 2 | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Abd VS Belçika | Dünya Kupası 2026 Son 16 Turu | 03:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Orense VS T.Universitario | Ekvador Pro Lig | 03:00 | MS 2 | 3.68 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Stars Fc VS Fc Tucson | ABD USL Lig 2 Güneybatı Grubu | 05:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
