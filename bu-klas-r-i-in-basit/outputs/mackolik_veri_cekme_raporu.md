@@ -1,31 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-06T22:51:33.128400+00:00
+Tarih: 2026-07-06T23:41:15.279460+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 30
-- Kac mac kaydedildi: 30
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 21
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 21
 - Ham veri havuzu toplam mac sayisi: 1285
 - Hedef tarih: 07.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Konferansı
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Metropolitan Grubu
 - Avrupa U19 Şampiyonası Kadınlar Yarı Final
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Queensland
-- Bolivya Premier Lig
-- Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
-- Ekvador Pro Lig
 - Hazırlık Kulüpler
 - UEFA Konferans Ligi 1. Eleme Turu
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
@@ -118,7 +110,7 @@ Tarih: 2026-07-06T22:51:33.128400+00:00
 | 07.07.2026 | 19:00 | Hazırlık Kulüpler | Viktoria Plzen | Kopenhag | 05610 | 3 |
 | 07.07.2026 | 19:00 | Hazırlık Kulüpler | Paok | Ae Kition | 00013 | 5 |
 | 07.07.2026 | 20:00 | Hazırlık Kulüpler | Shelbourne | Celtic | 03177 | 5 |
-| 08.07.2026 | 02:00 | Brezilya Serie B | Athletic Club | Operario | 05720 | 5 |
+| 07.07.2026 | 12:30 | Avustralya NPL Başkent Bölgesi | Monaro Panther | Queanbeyan City | 05489 | 3 |
 
 ## Sonuc
 
