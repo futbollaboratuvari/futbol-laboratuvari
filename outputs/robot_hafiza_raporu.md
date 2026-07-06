@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-05T14:09:22+03:00
+Güncelleme: 2026-07-06T17:45:47+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 111
+- Toplam tahmin kaydı: 7
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -16,7 +16,7 @@ Güncelleme: 2026-07-05T14:09:22+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 111 | 0 | 0 | 111 | %0 | 0 |
+| Değerli market yok | 7 | 0 | 0 | 7 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
@@ -30,41 +30,30 @@ Güncelleme: 2026-07-05T14:09:22+03:00
 | 2.00-2.99 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.00-4.99 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 5.00+ | 0 | 0 | 0 | 0 | %0 | 0 |
-| bilinmiyor | 111 | 0 | 0 | 111 | %0 | 0 |
+| bilinmiyor | 7 | 0 | 0 | 7 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| ABD USL | 9 | 0 | 0 | 9 | %0 | 0 |
-| ABD USL Lig 1 | 3 | 0 | 0 | 3 | %0 | 0 |
-| ABD USL Lig 2 Heartland Grubu | 1 | 0 | 0 | 1 | %0 | 0 |
-| ABD USL Lig 2 NorCal Grubu | 1 | 0 | 0 | 1 | %0 | 0 |
-| ABD USL Lig 2 Orta Atlantik Grubu | 1 | 0 | 0 | 1 | %0 | 0 |
-| ABD USL Lig 2 Orta Güney Grubu | 1 | 0 | 0 | 1 | %0 | 0 |
-| Arjantin Ulusal Primera Lig | 11 | 0 | 0 | 11 | %0 | 0 |
-| Avrupa U19 Şampiyonası Grup B | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya NPL Başkent Bölgesi | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Queensland | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya NPL Tazmanya | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Victoria | 1 | 0 | 0 | 1 | %0 | 0 |
+| Dünya Kupası 2026 Son 16 Turu | 1 | 0 | 0 | 1 | %0 | 0 |
+| Hazırlık Kulüpler | 1 | 0 | 0 | 1 | %0 | 0 |
+| Letonya Virsliga | 1 | 0 | 0 | 1 | %0 | 0 |
+| Litvanya A Ligi | 1 | 0 | 0 | 1 | %0 | 0 |
+| İsveç Allsvenskan | 2 | 0 | 0 | 2 | %0 | 0 |
+| İzlanda Urvalsdeild | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Aarhus VS Motherwell | 1 | 0 | 0 | 1 | %0 | 0 |
-| Aktobe VS Zhetysu | 1 | 0 | 0 | 1 | %0 | 0 |
-| Atlas Khenifra VS Amal Tiznit | 1 | 0 | 0 | 1 | %0 | 0 |
-| Atletico Nuble VS Curico | 1 | 0 | 0 | 1 | %0 | 0 |
-| Atyrau VS Kaspyi | 1 | 0 | 0 | 1 | %0 | 0 |
-| Barcelona Gua VS Deportivo Cuenc | 1 | 0 | 0 | 1 | %0 | 0 |
-| Belshina Bobru VS Baranovichi | 1 | 0 | 0 | 1 | %0 | 0 |
-| Blacktown City VS Sydney United | 1 | 0 | 0 | 1 | %0 | 0 |
-| Brezilya VS Norveç | 1 | 0 | 0 | 1 | %0 | 0 |
-| Brisbane City VS Brisbane Roar I | 1 | 0 | 0 | 1 | %0 | 0 |
-| Ca Mitre VS All Boys | 1 | 0 | 0 | 1 | %0 | 0 |
-| Canberra VS Canberra Olympi | 1 | 0 | 0 | 1 | %0 | 0 |
+| Brommapojkarna VS Gais | 1 | 0 | 0 | 1 | %0 | 0 |
+| Hacken VS Djurgarden | 1 | 0 | 0 | 1 | %0 | 0 |
+| Keflavik VS Fram | 1 | 0 | 0 | 1 | %0 | 0 |
+| Neftchi Baku VS Partizan Belgra | 1 | 0 | 0 | 1 | %0 | 0 |
+| Portekiz VS İspanya | 1 | 0 | 0 | 1 | %0 | 0 |
+| Suduva VS Transinvest Vil | 1 | 0 | 0 | 1 | %0 | 0 |
+| Super Nova VS Ogre United | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
