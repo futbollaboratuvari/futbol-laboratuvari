@@ -1,41 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-07T22:37:48.854939+00:00
+Tarih: 2026-07-07T22:40:40.231651+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 47
-- Kac mac kaydedildi: 47
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 16
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 16
 - Ham veri havuzu toplam mac sayisi: 1336
 - Hedef tarih: 08.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Great Forest Grubu
-- ABD USL Lig 2 Güney Atlantik Grubu
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Metropolitan Grubu
-- ABD USL Lig 2 NorCal Grubu
-- ABD USL Lig 2 Orta Atlantik Grubu
-- ABD USL Lig 2 Orta Güney Grubu
 - Avrupa U19 Şampiyonası Yarı Final
 - Avustralya NPL Kuzey YGG
-- Bolivya Premier Lig
-- Brezilya Serie B
-- Ekvador Kupa Son 32 Turu
 - Fas Kupa Son 32 Turu
 - Hazırlık Kulüpler
 - Tanzanya Kuu Bara Ligi Küme Düşme Final
@@ -124,13 +104,9 @@ Tarih: 2026-07-07T22:37:48.854939+00:00
 | 08.07.2026 | 19:00 | Hazırlık Kulüpler | Olympiakos | Rakow Czestocho | 02261 | 5 |
 | 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aarhus Fremad | Silkeborg | 08391 | 3 |
 | 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aalborg | Randers | 08422 | 5 |
-| 09.07.2026 | 02:00 | Brezilya Serie B | Ponte Preta | Criciuma | 06070 | 5 |
 | 08.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 11002 | 3 |
-| 09.07.2026 | 04:00 | Ekvador Kupa Son 32 Turu | Independiente | Ldu Quito | 04535 | 5 |
-| 09.07.2026 | 01:30 | Ekvador Kupa Son 32 Turu | Santo Domingo | Indep. Jose Ter | 04238 | 5 |
 | 08.07.2026 | 22:00 | Fas Kupa Son 32 Turu | Far Rabat | Stade Marocain | 02701 | 2 |
-| 09.07.2026 | 01:00 | Bolivya Premier Lig | Real Oruro | Universitario D | 05403 | 3 |
-| 09.07.2026 | 03:00 | Bolivya Premier Lig | Real Potosi | Academia Del Ba | 03675 | 3 |
+| 08.07.2026 | 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Tanzania Priso (0) | (2) Mbeya City | 08381 | 5 |
 
 ## Sonuc
 
