@@ -3,20 +3,14 @@
 Gunler: 2026-07-08 / 2026-07-09
 Kaynak: fixtures.json
 Ham mac: 58
-Aktif mac: 58
-Canli mac: 0
+Aktif mac: 52
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 27
+Bultenden dusurulen mac: 6
+Bugun: 21
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-08 02:00 | Brezilya Serie B | Athletic Club - Operario | scheduled | -
-- 2026-07-08 02:00 | Bolivya Premier Lig | Gualberto Vill - Real Tomayapo | scheduled | -
-- 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Ac Connecticut - Western Mass P. | scheduled | -
-- 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Boston City | scheduled | -
-- 2026-07-08 02:00 | ABD USL Lig 2 Merkez Konferansı | Union Macomb - Afc Ann Arbor | scheduled | -
-- 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Vermont Green - Connecticut Rus | scheduled | -
 - 2026-07-08 02:45 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Fc Motown Ii | scheduled | -
 - 2026-07-08 03:00 | Ekvador Pro Lig | Aucas - Guayaquil City | scheduled | -
 - 2026-07-08 03:00 | ABD USL Lig 2 Güney Konferansı | Texoma - Denton Diablos | scheduled | -
@@ -71,7 +65,12 @@ Yarin: 31
 - 2026-07-09 05:30 | ABD USL | Sacramento Rep - Rhode Island | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-08 02:00 | Brezilya Serie B | Athletic Club - Operario | live | -
+- 2026-07-08 02:00 | Bolivya Premier Lig | Gualberto Vill - Real Tomayapo | live | -
+- 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Ac Connecticut - Western Mass P. | live | -
+- 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Boston City | live | -
+- 2026-07-08 02:00 | ABD USL Lig 2 Merkez Konferansı | Union Macomb - Afc Ann Arbor | live | -
+- 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Vermont Green - Connecticut Rus | live | -
 
 ## Biten Maclar
 Biten mac yok.
