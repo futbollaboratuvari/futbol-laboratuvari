@@ -2,22 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-07T18:28:18.025Z
+- Güncelleme: 2026-07-07T19:20:37.347Z
 - Ham maç sayısı: 24
 - Yarın bülteni maç sayısı: 11
 - Detay blok sayısı: 62
-- Aktif bülten maçı: 18
-- Bültenden düşürülen maç: 6
+- Aktif bülten maçı: 12
+- Bültenden düşürülen maç: 12
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Borac Banja Lu - Levski Sofya | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:30 | Veri bekleniyor | - | 2.6 | 8 |
-| Tre Fiori - Larne Fc | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:30 | Veri bekleniyor | - | 5.61 | 6 |
-| Limavady Unite - Coleraine | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.1 | 7 |
-| Airdrieonians - Falkirk | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.75 | 6 |
-| Kí Klaksvík - Atert Bissen | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:45 | Veri bekleniyor | - | 1.21 | 6 |
-| Vikingur Reykj - Gyor | UEFA Şampiyonlar Ligi 1.Eleme Turu | 22:00 | Veri bekleniyor | - | 2.07 | 8 |
 | İsviçre - Kolombiya | Dünya Kupası 2026 Son 16 Turu | 23:00 | Veri bekleniyor | - | 3.1 | 8 |
 | Athletic Club - Operario | Brezilya Serie B | 02:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Gualberto Vill - Real Tomayapo | Bolivya Premier Lig | 02:00 | Veri bekleniyor | - | 1.21 | 4 |
