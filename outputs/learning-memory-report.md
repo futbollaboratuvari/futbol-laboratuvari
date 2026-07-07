@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.07.2026 15:12:57
+Oluşturma: 07.07.2026 21:25:46
 
 ## Özet
 
-- Toplam tahmin: 78
-- Bekleyen tahmin: 78
+- Toplam tahmin: 79
+- Bekleyen tahmin: 79
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 33
@@ -20,12 +20,13 @@ Oluşturma: 07.07.2026 15:12:57
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
+- MS X: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Borac Banja Lu - Levski Sofya | MS X | pending | 40/100
 - 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sabah - The New Saints | MS X | pending | 60/100
 - 2026-07-07 | Hazırlık Kulüpler | Shelbourne - Celtic | MS 1 | pending | 40/100
 - 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Floriana - Shamrock Rovers | MS 1 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 07.07.2026 15:12:57
 - 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Vikingur Reykj - Gyor | MS X | pending | 50/100
 - 2026-07-07 | Brezilya Serie B | Vila Nova - Sao Bernardo | MS 2 | pending | 40/100
 - 2026-07-07 | Şili Kupa Grup H | Concepcion - Temuco | MS 2 | pending | 50/100
-- 2026-07-07 | Dünya Kupası 2026 Son 16 Turu | Abd - Belçika | MS X | pending | 50/100
 

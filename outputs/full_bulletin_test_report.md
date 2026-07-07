@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 28
-- Live match count: 2
+- Scheduled match count: 18
+- Live match count: 6
 - Finished removed count: 0
 - Date window: 2026-07-07 / 2026-07-08 23:59
 
-- 2026-07-07 12:30 | Monaro Panther - Queanbeyan City | live
-- 2026-07-07 12:30 | Gold Coast Kni - Queensland Lion | live
-- 2026-07-07 17:00 | İspanya U19 (K - İsveç U19 (K) | scheduled
-- 2026-07-07 19:00 | Arjantin - Misir | scheduled
-- 2026-07-07 19:00 | Paok - Ae Kition | scheduled
-- 2026-07-07 19:00 | Viktoria Plzen - Kopenhag | scheduled
-- 2026-07-07 19:00 | Ararat-Armenia - Riga Fc | scheduled
-- 2026-07-07 19:00 | Kauno Zalgiris - Fc Drita | scheduled
-- 2026-07-07 19:00 | Lincoln Red Im - Inter Escaldes | scheduled
-- 2026-07-07 19:00 | Sabah - The New Saints | scheduled
+- 2026-07-07 20:00 | Shelbourne - Celtic | live
+- 2026-07-07 20:00 | Vardar - Kuopion | live
+- 2026-07-07 20:15 | Fc Una Strasse - La Fiorita | live
+- 2026-07-07 20:30 | Floriana - Shamrock Rovers | live
+- 2026-07-07 21:00 | Almanya U19 (K - Avusturya U19 ( | live
+- 2026-07-07 21:00 | Af Elbasani - Bate Borisov | live
+- 2026-07-07 21:30 | Airdrieonians - Falkirk | scheduled
+- 2026-07-07 21:30 | Limavady Unite - Coleraine | scheduled
+- 2026-07-07 21:30 | Borac Banja Lu - Levski Sofya | scheduled
+- 2026-07-07 21:30 | Tre Fiori - Larne Fc | scheduled

@@ -1,23 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-07T10:41:39.884451+00:00
+Tarih: 2026-07-07T18:25:34.365911+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 19
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 19
-- Ham veri havuzu toplam mac sayisi: 1285
+- Kac mac bulundu: 18
+- Kac mac kaydedildi: 4
+- Kac mac zaten vardi: 14
+- Ham veri havuzu toplam mac sayisi: 1289
 - Hedef tarih: 07.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avrupa U19 Şampiyonası Kadınlar Yarı Final
+- ABD USL Lig 2 Güney Konferansı
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Metropolitan Grubu
+- Bolivya Premier Lig
+- Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
-- UEFA Konferans Ligi 1. Eleme Turu
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
 
 ## Okunabilen Oran Alanlari
@@ -75,8 +82,8 @@ Tarih: 2026-07-07T10:41:39.884451+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 13
-- Acilan detay: 13
+- Denenen Tumu alani: 12
+- Acilan detay: 12
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -89,25 +96,24 @@ Tarih: 2026-07-07T10:41:39.884451+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 07.07.2026 | 19:00 | Dünya Kupası 2026 Son 16 Turu | Arjantin | Misir | 05452 | 5 |
 | 07.07.2026 | 23:00 | Dünya Kupası 2026 Son 16 Turu | İsviçre | Kolombiya | 05531 | 5 |
-| 07.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Vardar | Kuopion | 05797 | 5 |
-| 07.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sabah | The New Saints | 05796 | 4 |
-| 07.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ararat-Armenia | Riga Fc | 00688 | 5 |
 | 07.07.2026 | 21:45 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kí Klaksvík | Atert Bissen | 05798 | 5 |
 | 07.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Tre Fiori | Larne Fc | 01138 | 5 |
-| 07.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Borac Banja Lu | Levski Sofya | 05708 | 5 |
-| 07.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kauno Zalgiris | Fc Drita | 01126 | 5 |
-| 07.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Lincoln Red Im | Inter Escaldes | 01107 | 5 |
 | 07.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Vikingur Reykj | Gyor | 05801 | 5 |
-| 07.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Floriana | Shamrock Rovers | 02186 | 5 |
-| 07.07.2026 | 20:15 | UEFA Konferans Ligi 1. Eleme Turu | Fc Una Strasse | La Fiorita | 05612 | 5 |
-| 07.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Af Elbasani | Bate Borisov | 04892 | 5 |
-| 07.07.2026 | 21:00 | Avrupa U19 Şampiyonası Kadınlar Yarı Final | Almanya U19 (K | Avusturya U19 ( | 01317 | 3 |
-| 07.07.2026 | 17:00 | Avrupa U19 Şampiyonası Kadınlar Yarı Final | İspanya U19 (K | İsveç U19 (K) | 01386 | 2 |
-| 07.07.2026 | 19:00 | Hazırlık Kulüpler | Viktoria Plzen | Kopenhag | 05610 | 3 |
-| 07.07.2026 | 20:00 | Hazırlık Kulüpler | Shelbourne | Celtic | 03177 | 5 |
-| 07.07.2026 | 19:00 | Hazırlık Kulüpler | Paok | Ae Kition | 00013 | 5 |
+| 07.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Borac Banja Lu | Levski Sofya | 05708 | 5 |
+| 07.07.2026 | 21:30 | Hazırlık Kulüpler | Limavady Unite | Coleraine | 01045 | 5 |
+| 07.07.2026 | 21:30 | Hazırlık Kulüpler | Airdrieonians | Falkirk | 09981 | 5 |
+| 08.07.2026 | 02:00 | Brezilya Serie B | Athletic Club | Operario | 05720 | 5 |
+| 08.07.2026 | 03:00 | Ekvador Pro Lig | Aucas | Guayaquil City | 05941 | 5 |
+| 08.07.2026 | 02:00 | Bolivya Premier Lig | Gualberto Vill | Real Tomayapo | 02249 | 3 |
+| 08.07.2026 | 02:45 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley | Fc Motown Ii | 05352 | 3 |
+| 08.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Vermont Green | Connecticut Rus | 07286 | 2 |
+| 08.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England | Boston City | 02563 | 2 |
+| 08.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Ac Connecticut | Western Mass P. | 04473 | 3 |
+| 08.07.2026 | 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars | Midlakes United | 08947 | 3 |
+| 08.07.2026 | 05:30 | ABD USL Lig 2 Güneybatı Grubu | Capo Ii | Seahorses | 08709 | 3 |
+| 08.07.2026 | 02:00 | ABD USL Lig 2 Merkez Konferansı | Union Macomb | Afc Ann Arbor | 01323 | 3 |
+| 08.07.2026 | 03:00 | ABD USL Lig 2 Güney Konferansı | Texoma | Denton Diablos | 05933 | 3 |
 
 ## Sonuc
 
