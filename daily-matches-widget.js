@@ -23,7 +23,19 @@
   const $ = (s, r = document) => r.querySelector(s);
   const esc = (v) => String(v ?? "").replace(/[&<>\"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[c]));
   const isBlank = (v) => { const t = String(v ?? "").trim(); return !t || t === "-" || t === "—" || /null|undefined/i.test(t); };
-  const get = (m, k) => m?.[k] ?? m?.available_odds?.[k] ?? m?.odds?.[k] ?? m?.raw_market_guess_odds?.[k] ?? m?.oranlar?.[k];
+  const nestedMarketValue = (m, k) => {
+    const blocks = Array.isArray(m?.raw_market_blocks) ? m.raw_market_blocks : [];
+    for (const block of blocks) {
+      const candidates = Array.isArray(block?.detail_market_candidates) ? block.detail_market_candidates : [];
+      const sources = [block?.named_values, block?.values, block?.odds];
+      candidates.forEach((candidate) => sources.push(candidate?.values, candidate?.named_values, candidate?.odds));
+      for (const source of sources) {
+        if (source && !isBlank(source[k])) return source[k];
+      }
+    }
+    return "";
+  };
+  const get = (m, k) => m?.[k] ?? m?.available_odds?.[k] ?? m?.odds?.[k] ?? m?.raw_market_guess_odds?.[k] ?? m?.oranlar?.[k] ?? nestedMarketValue(m, k);
   const pick = (m, keys) => { for (const k of keys) { const v = get(m, k); if (!isBlank(v)) return v; } return ""; };
   const n = (v) => Number(String(v ?? "").replace(",", ".").match(/\d+(\.\d+)?/)?.[0] || 0);
   const fmt = (v) => n(v) ? n(v).toFixed(2) : "—";
