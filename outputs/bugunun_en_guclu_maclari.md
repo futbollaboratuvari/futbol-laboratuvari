@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-07T00:20:02.782Z
+- Güncelleme: 2026-07-07T08:56:33.041Z
 - Ham maç sayısı: 39
 - Yarın bülteni maç sayısı: 9
 - Detay blok sayısı: 99
-- Aktif bülten maçı: 31
-- Bültenden düşürülen maç: 8
+- Aktif bülten maçı: 30
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Stars Fc - Fc Tucson | ABD USL Lig 2 Güneybatı Grubu | 05:30 | Veri bekleniyor | - | 2.92 | 6 |
 | Monaro Panther - Queanbeyan City | Avustralya NPL Başkent Bölgesi | 12:30 | Veri bekleniyor | - | 1.35 | 4 |
 | Gold Coast Kni - Queensland Lion | Avustralya NPL Queensland | 12:30 | Veri bekleniyor | - | 3.15 | 5 |
 | İspanya U19 (K - İsveç U19 (K) | Avrupa U19 Şampiyonası Kadınlar Yarı Final | 17:00 | Veri bekleniyor | - | 1.05 | 3 |

@@ -3,15 +3,14 @@
 Gunler: 2026-07-07 / 2026-07-08
 Kaynak: fixtures.json
 Ham mac: 39
-Aktif mac: 31
+Aktif mac: 30
 Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 22
+Biten mac: 1
+Bultenden dusurulen mac: 9
+Bugun: 21
 Yarin: 9
 
 ## Baslamamis Maclar
-- 2026-07-07 05:30 | ABD USL Lig 2 Güneybatı Grubu | Stars Fc - Fc Tucson | scheduled | -
 - 2026-07-07 12:30 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Queanbeyan City | scheduled | -
 - 2026-07-07 12:30 | Avustralya NPL Queensland | Gold Coast Kni - Queensland Lion | scheduled | -
 - 2026-07-07 17:00 | Avrupa U19 Şampiyonası Kadınlar Yarı Final | İspanya U19 (K - İsveç U19 (K) | scheduled | -
@@ -54,4 +53,4 @@ Yarin: 9
 - 2026-07-07 03:00 | Ekvador Pro Lig | Orense - T.Universitario | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-07 05:30 | ABD USL Lig 2 Güneybatı Grubu | Stars Fc - Fc Tucson | finished | -
