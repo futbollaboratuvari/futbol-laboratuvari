@@ -1,21 +1,45 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-07T18:28:32.539574+00:00
+Tarih: 2026-07-07T22:37:48.854939+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 7
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 7
-- Ham veri havuzu toplam mac sayisi: 1289
-- Hedef tarih: 07.07.2026 Europe/Istanbul
+- Kac mac bulundu: 47
+- Kac mac kaydedildi: 47
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 1336
+- Hedef tarih: 08.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Dünya Kupası 2026 Son 16 Turu
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Chesapeake Grubu
+- ABD USL Lig 2 Great Forest Grubu
+- ABD USL Lig 2 Güney Atlantik Grubu
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Metropolitan Grubu
+- ABD USL Lig 2 NorCal Grubu
+- ABD USL Lig 2 Orta Atlantik Grubu
+- ABD USL Lig 2 Orta Güney Grubu
+- Avrupa U19 Şampiyonası Yarı Final
+- Avustralya NPL Kuzey YGG
+- Bolivya Premier Lig
+- Brezilya Serie B
+- Ekvador Kupa Son 32 Turu
+- Fas Kupa Son 32 Turu
 - Hazırlık Kulüpler
+- Tanzanya Kuu Bara Ligi Küme Düşme Final
+- UEFA Konferans Ligi 1. Eleme Turu
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
 
 ## Okunabilen Oran Alanlari
@@ -73,8 +97,8 @@ Tarih: 2026-07-07T18:28:32.539574+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 12
-- Acilan detay: 12
+- Denenen Tumu alani: 27
+- Acilan detay: 27
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -87,13 +111,26 @@ Tarih: 2026-07-07T18:28:32.539574+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 07.07.2026 | 23:00 | Dünya Kupası 2026 Son 16 Turu | İsviçre | Kolombiya | 05531 | 5 |
-| 07.07.2026 | 21:45 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kí Klaksvík | Atert Bissen | 05798 | 5 |
-| 07.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Tre Fiori | Larne Fc | 01138 | 5 |
-| 07.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Vikingur Reykj | Gyor | 05801 | 5 |
-| 07.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Borac Banja Lu | Levski Sofya | 05708 | 5 |
-| 07.07.2026 | 21:30 | Hazırlık Kulüpler | Limavady Unite | Coleraine | 01045 | 5 |
-| 07.07.2026 | 21:30 | Hazırlık Kulüpler | Airdrieonians | Falkirk | 09981 | 5 |
+| 08.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Flora Tallinn | Fc Iberia | 02469 | 5 |
+| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk | Universitatea C | 05805 | 5 |
+| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub | Egnatia | 05809 | 5 |
+| 08.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty | Sutjeska | 05803 | 5 |
+| 08.07.2026 | 21:00 | Avrupa U19 Şampiyonası Yarı Final | Almanya U19 | Ukrayna U19 | 08894 | 5 |
+| 08.07.2026 | 18:30 | Avrupa U19 Şampiyonası Yarı Final | İspanya (U19) | Hirvatistan (U1 | 08892 | 5 |
+| 08.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Zira | Torpedo Kutaisi | 06563 | 5 |
+| 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Differdange | Ilves | 06564 | 5 |
+| 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Gap Connahs Qu | Ballkani | 03336 | 5 |
+| 08.07.2026 | 21:30 | Hazırlık Kulüpler | Lausanne | Flamengo | 10145 | 5 |
+| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Olympiakos | Rakow Czestocho | 02261 | 5 |
+| 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aarhus Fremad | Silkeborg | 08391 | 3 |
+| 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aalborg | Randers | 08422 | 5 |
+| 09.07.2026 | 02:00 | Brezilya Serie B | Ponte Preta | Criciuma | 06070 | 5 |
+| 08.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 11002 | 3 |
+| 09.07.2026 | 04:00 | Ekvador Kupa Son 32 Turu | Independiente | Ldu Quito | 04535 | 5 |
+| 09.07.2026 | 01:30 | Ekvador Kupa Son 32 Turu | Santo Domingo | Indep. Jose Ter | 04238 | 5 |
+| 08.07.2026 | 22:00 | Fas Kupa Son 32 Turu | Far Rabat | Stade Marocain | 02701 | 2 |
+| 09.07.2026 | 01:00 | Bolivya Premier Lig | Real Oruro | Universitario D | 05403 | 3 |
+| 09.07.2026 | 03:00 | Bolivya Premier Lig | Real Potosi | Academia Del Ba | 03675 | 3 |
 
 ## Sonuc
 

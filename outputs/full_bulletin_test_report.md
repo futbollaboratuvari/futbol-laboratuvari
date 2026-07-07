@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 18
-- Live match count: 6
+- Scheduled match count: 58
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-07-07 / 2026-07-08 23:59
+- Date window: 2026-07-08 / 2026-07-09 23:59
 
-- 2026-07-07 20:00 | Shelbourne - Celtic | live
-- 2026-07-07 20:00 | Vardar - Kuopion | live
-- 2026-07-07 20:15 | Fc Una Strasse - La Fiorita | live
-- 2026-07-07 20:30 | Floriana - Shamrock Rovers | live
-- 2026-07-07 21:00 | Almanya U19 (K - Avusturya U19 ( | live
-- 2026-07-07 21:00 | Af Elbasani - Bate Borisov | live
-- 2026-07-07 21:30 | Airdrieonians - Falkirk | scheduled
-- 2026-07-07 21:30 | Limavady Unite - Coleraine | scheduled
-- 2026-07-07 21:30 | Borac Banja Lu - Levski Sofya | scheduled
-- 2026-07-07 21:30 | Tre Fiori - Larne Fc | scheduled
+- 2026-07-08 02:00 | Ac Connecticut - Western Mass P. | scheduled
+- 2026-07-08 02:00 | New England - Boston City | scheduled
+- 2026-07-08 02:00 | Vermont Green - Connecticut Rus | scheduled
+- 2026-07-08 02:00 | Union Macomb - Afc Ann Arbor | scheduled
+- 2026-07-08 02:00 | Gualberto Vill - Real Tomayapo | scheduled
+- 2026-07-08 02:00 | Athletic Club - Operario | scheduled
+- 2026-07-08 02:45 | Hudson Valley - Fc Motown Ii | scheduled
+- 2026-07-08 03:00 | Texoma - Denton Diablos | scheduled
+- 2026-07-08 03:00 | Aucas - Guayaquil City | scheduled
+- 2026-07-08 05:00 | Tacoma Stars - Midlakes United | scheduled
