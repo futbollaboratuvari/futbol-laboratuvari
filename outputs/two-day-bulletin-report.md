@@ -3,25 +3,14 @@
 Gunler: 2026-07-07 / 2026-07-08
 Kaynak: fixtures.json
 Ham mac: 30
-Aktif mac: 28
-Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 19
+Aktif mac: 17
+Canli mac: 12
+Biten mac: 1
+Bultenden dusurulen mac: 13
+Bugun: 8
 Yarin: 9
 
 ## Baslamamis Maclar
-- 2026-07-07 17:00 | Avrupa U19 Şampiyonası Kadınlar Yarı Final | İspanya U19 (K - İsveç U19 (K) | scheduled | -
-- 2026-07-07 19:00 | Dünya Kupası 2026 Son 16 Turu | Arjantin - Misir | scheduled | -
-- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Lincoln Red Im - Inter Escaldes | scheduled | -
-- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kauno Zalgiris - Fc Drita | scheduled | -
-- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sabah - The New Saints | scheduled | -
-- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ararat-Armenia - Riga Fc | scheduled | -
-- 2026-07-07 19:00 | Hazırlık Kulüpler | Viktoria Plzen - Kopenhag | scheduled | -
-- 2026-07-07 19:00 | Hazırlık Kulüpler | Paok - Ae Kition | scheduled | -
-- 2026-07-07 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Vardar - Kuopion | scheduled | -
-- 2026-07-07 20:00 | Hazırlık Kulüpler | Shelbourne - Celtic | scheduled | -
-- 2026-07-07 20:15 | UEFA Konferans Ligi 1. Eleme Turu | Fc Una Strasse - La Fiorita | scheduled | -
 - 2026-07-07 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Floriana - Shamrock Rovers | scheduled | -
 - 2026-07-07 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Af Elbasani - Bate Borisov | scheduled | -
 - 2026-07-07 21:00 | Avrupa U19 Şampiyonası Kadınlar Yarı Final | Almanya U19 (K - Avusturya U19 ( | scheduled | -
@@ -43,6 +32,16 @@ Yarin: 9
 ## Canli Maclar
 - 2026-07-07 12:30 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Queanbeyan City | live | -
 - 2026-07-07 12:30 | Avustralya NPL Queensland | Gold Coast Kni - Queensland Lion | live | -
+- 2026-07-07 19:00 | Dünya Kupası 2026 Son 16 Turu | Arjantin - Misir | live | -
+- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Lincoln Red Im - Inter Escaldes | live | -
+- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kauno Zalgiris - Fc Drita | live | -
+- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sabah - The New Saints | live | -
+- 2026-07-07 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ararat-Armenia - Riga Fc | live | -
+- 2026-07-07 19:00 | Hazırlık Kulüpler | Viktoria Plzen - Kopenhag | live | -
+- 2026-07-07 19:00 | Hazırlık Kulüpler | Paok - Ae Kition | live | -
+- 2026-07-07 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Vardar - Kuopion | live | -
+- 2026-07-07 20:00 | Hazırlık Kulüpler | Shelbourne - Celtic | live | -
+- 2026-07-07 20:15 | UEFA Konferans Ligi 1. Eleme Turu | Fc Una Strasse - La Fiorita | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-07 17:00 | Avrupa U19 Şampiyonası Kadınlar Yarı Final | İspanya U19 (K - İsveç U19 (K) | finished | -
