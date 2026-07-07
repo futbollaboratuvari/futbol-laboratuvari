@@ -1,29 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-07T18:25:34.365911+00:00
+Tarih: 2026-07-07T18:28:32.539574+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 18
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 14
+- Kac mac bulundu: 7
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 7
 - Ham veri havuzu toplam mac sayisi: 1289
 - Hedef tarih: 07.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Konferansı
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Metropolitan Grubu
-- Bolivya Premier Lig
-- Brezilya Serie B
 - Dünya Kupası 2026 Son 16 Turu
-- Ekvador Pro Lig
 - Hazırlık Kulüpler
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
 
@@ -103,17 +94,6 @@ Tarih: 2026-07-07T18:25:34.365911+00:00
 | 07.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Borac Banja Lu | Levski Sofya | 05708 | 5 |
 | 07.07.2026 | 21:30 | Hazırlık Kulüpler | Limavady Unite | Coleraine | 01045 | 5 |
 | 07.07.2026 | 21:30 | Hazırlık Kulüpler | Airdrieonians | Falkirk | 09981 | 5 |
-| 08.07.2026 | 02:00 | Brezilya Serie B | Athletic Club | Operario | 05720 | 5 |
-| 08.07.2026 | 03:00 | Ekvador Pro Lig | Aucas | Guayaquil City | 05941 | 5 |
-| 08.07.2026 | 02:00 | Bolivya Premier Lig | Gualberto Vill | Real Tomayapo | 02249 | 3 |
-| 08.07.2026 | 02:45 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley | Fc Motown Ii | 05352 | 3 |
-| 08.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Vermont Green | Connecticut Rus | 07286 | 2 |
-| 08.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England | Boston City | 02563 | 2 |
-| 08.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Ac Connecticut | Western Mass P. | 04473 | 3 |
-| 08.07.2026 | 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars | Midlakes United | 08947 | 3 |
-| 08.07.2026 | 05:30 | ABD USL Lig 2 Güneybatı Grubu | Capo Ii | Seahorses | 08709 | 3 |
-| 08.07.2026 | 02:00 | ABD USL Lig 2 Merkez Konferansı | Union Macomb | Afc Ann Arbor | 01323 | 3 |
-| 08.07.2026 | 03:00 | ABD USL Lig 2 Güney Konferansı | Texoma | Denton Diablos | 05933 | 3 |
 
 ## Sonuc
 
