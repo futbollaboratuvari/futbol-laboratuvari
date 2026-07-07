@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-07 / 2026-07-08
 Kaynak: fixtures.json
-Ham mac: 40
+Ham mac: 30
 Aktif mac: 28
 Canli mac: 2
-Biten mac: 10
-Bultenden dusurulen mac: 12
+Biten mac: 0
+Bultenden dusurulen mac: 2
 Bugun: 19
 Yarin: 9
 
@@ -45,13 +45,4 @@ Yarin: 9
 - 2026-07-07 12:30 | Avustralya NPL Queensland | Gold Coast Kni - Queensland Lion | live | -
 
 ## Biten Maclar
-- 2026-07-07 00:30 | Ekvador Pro Lig | Univ Catolica - Mushuc Runa | finished | -
-- 2026-07-07 01:00 | Brezilya Serie B | Botafogo Ribei - Avai | finished | -
-- 2026-07-07 01:00 | Brezilya Serie B | Vila Nova - Sao Bernardo | finished | -
-- 2026-07-07 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock - Seacoast United | finished | -
-- 2026-07-07 02:00 | ABD USL Lig 2 Merkez Konferansı | Lansing City - Michigan Bucks | finished | -
-- 2026-07-07 02:30 | Şili Kupa Grup E | Colo Colo - Recoleta | finished | -
-- 2026-07-07 02:30 | Şili Kupa Grup H | Concepcion - Temuco | finished | -
-- 2026-07-07 03:00 | Dünya Kupası 2026 Son 16 Turu | Abd - Belçika | finished | -
-- 2026-07-07 03:00 | Ekvador Pro Lig | Orense - T.Universitario | finished | -
-- 2026-07-07 05:30 | ABD USL Lig 2 Güneybatı Grubu | Stars Fc - Fc Tucson | finished | -
+Biten mac yok.
