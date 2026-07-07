@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.07.2026 03:20:05
+Oluşturma: 07.07.2026 13:39:53
 
 ## Özet
 
-- Toplam tahmin: 75
-- Bekleyen tahmin: 75
+- Toplam tahmin: 77
+- Bekleyen tahmin: 77
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 33
@@ -20,12 +20,14 @@ Oluşturma: 07.07.2026 03:20:05
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - MS X: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-07 | Hazırlık Kulüpler | Shelbourne - Celtic | MS 1 | pending | 40/100
+- 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Floriana - Shamrock Rovers | MS 1 | pending | 40/100
 - 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Lincoln Red Im - Inter Escaldes | MS X | pending | 50/100
 - 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kauno Zalgiris - Fc Drita | MS 2 | pending | 40/100
 - 2026-07-07 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ararat-Armenia - Riga Fc | MS X | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 07.07.2026 03:20:05
 - 2026-07-07 | Şili Kupa Grup H | Concepcion - Temuco | MS 2 | pending | 50/100
 - 2026-07-07 | Dünya Kupası 2026 Son 16 Turu | Abd - Belçika | MS X | pending | 50/100
 - 2026-07-07 | Ekvador Pro Lig | Orense - T.Universitario | MS 2 | pending | 50/100
-- 2026-07-06 | İsveç Allsvenskan | Hacken - Djurgarden | MS X | pending | 60/100
-- 2026-07-06 | İsveç Allsvenskan | Brommapojkarna - Gais | MS X | pending | 50/100
 

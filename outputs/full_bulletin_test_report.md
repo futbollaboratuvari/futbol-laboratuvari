@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 33
-- Live match count: 7
+- Scheduled match count: 28
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-07 / 2026-07-08 23:59
 
-- 2026-07-07 00:30 | Univ Catolica - Mushuc Runa | live
-- 2026-07-07 01:00 | Botafogo Ribei - Avai | live
-- 2026-07-07 01:00 | Vila Nova - Sao Bernardo | live
-- 2026-07-07 02:00 | Black Rock - Seacoast United | live
-- 2026-07-07 02:00 | Lansing City - Michigan Bucks | live
-- 2026-07-07 02:30 | Colo Colo - Recoleta | live
-- 2026-07-07 02:30 | Concepcion - Temuco | live
-- 2026-07-07 03:00 | Abd - Belçika | scheduled
-- 2026-07-07 03:00 | Orense - T.Universitario | scheduled
-- 2026-07-07 05:30 | Stars Fc - Fc Tucson | scheduled
+- 2026-07-07 12:30 | Monaro Panther - Queanbeyan City | live
+- 2026-07-07 12:30 | Gold Coast Kni - Queensland Lion | live
+- 2026-07-07 17:00 | İspanya U19 (K - İsveç U19 (K) | scheduled
+- 2026-07-07 19:00 | Arjantin - Misir | scheduled
+- 2026-07-07 19:00 | Paok - Ae Kition | scheduled
+- 2026-07-07 19:00 | Viktoria Plzen - Kopenhag | scheduled
+- 2026-07-07 19:00 | Ararat-Armenia - Riga Fc | scheduled
+- 2026-07-07 19:00 | Kauno Zalgiris - Fc Drita | scheduled
+- 2026-07-07 19:00 | Lincoln Red Im - Inter Escaldes | scheduled
+- 2026-07-07 19:00 | Sabah - The New Saints | scheduled
