@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T23:38:06.320Z",
+  "generated_at": "2026-07-07T00:20:02.941Z",
   "timezone": "Europe/Istanbul",
   "source": "fixtures.json",
   "warning": "",
@@ -7,12 +7,12 @@
     "2026-07-07",
     "2026-07-08"
   ],
-  "total_source_matches": 40,
-  "total_matches": 33,
-  "active_match_count": 33,
-  "live_match_count": 7,
+  "total_source_matches": 39,
+  "total_matches": 31,
+  "active_match_count": 31,
+  "live_match_count": 8,
   "finished_match_count": 0,
-  "removed_finished_count": 7,
+  "removed_finished_count": 8,
   "removed_statuses": [
     "live",
     "finished",
@@ -20,1167 +20,10 @@
     "postponed"
   ],
   "by_day": {
-    "2026-07-07": 24,
+    "2026-07-07": 22,
     "2026-07-08": 9
   },
   "matches": [
-    {
-      "date": "2026-07-07",
-      "time": "03:00",
-      "league": "Dünya Kupası 2026 Son 16 Turu",
-      "home": "Abd",
-      "away": "Belçika",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.869Z",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "17267",
-      "oddsSource": "Robot ham veri havuzu",
-      "one": 2.19,
-      "oneOdd": 2.19,
-      "ms1": 2.19,
-      "odd1": 2.19,
-      "draw": 3.04,
-      "drawOdd": 3.04,
-      "msx": 3.04,
-      "oddX": 3.04,
-      "two": 2.45,
-      "twoOdd": 2.45,
-      "ms2": 2.45,
-      "odd2": 2.45,
-      "under25": 1.99,
-      "alt25": 1.99,
-      "under": 1.99,
-      "alt": 1.99,
-      "over25": 1.45,
-      "ust25": 1.45,
-      "over": 1.45,
-      "ust": 1.45,
-      "raw_market_blocks": [
-        {
-          "market_code": "17267",
-          "values": [
-            2.19,
-            3.04,
-            2.45
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 2.19,
-            "msx": 3.04,
-            "ms2": 2.45
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 2.19,
-                "msx": 3.04,
-                "ms2": 2.45
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 2.19,
-                "firstHalfX_guess": 3.04,
-                "firstHalf2_guess": 2.45
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 2.19,
-                "secondHalfX_guess": 3.04,
-                "secondHalf2_guess": 2.45
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 2.19,
-                "handicapX_guess": 3.04,
-                "handicap2_guess": 2.45
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "17302",
-          "values": [
-            1.99,
-            1.45
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 1.99,
-            "over25": 1.45
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 1.99,
-                "bttsNo_guess": 1.45
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 1.99,
-                "firstHalfBttsNo_guess": 1.45
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 1.99,
-                "secondHalfBttsNo_guess": 1.45
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 1.99,
-                "over05_guess": 1.45
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 1.99,
-                "over15_guess": 1.45
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 1.99,
-                "over25_guess": 1.45
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 1.99,
-                "over35_guess": 1.45
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 1.99,
-                "over45_guess": 1.45
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 1.99,
-                "firstHalfOver05_guess": 1.45
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 1.99,
-                "firstHalfOver15_guess": 1.45
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 1.99,
-                "secondHalfOver05_guess": 1.45
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 1.99,
-                "secondHalfOver15_guess": 1.45
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 1.99,
-                "homeOver15_guess": 1.45
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 1.99,
-                "awayOver15_guess": 1.45
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "17269",
-          "values": [
-            1.27,
-            1.16,
-            1.35
-          ],
-          "guess": "KG Var / Yok tahmini",
-          "named_values": {
-            "bttsYes_guess": 1.27,
-            "bttsNo_guess": 1.16
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.27,
-                "msx": 1.16,
-                "ms2": 1.35
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.27,
-                "firstHalfX_guess": 1.16,
-                "firstHalf2_guess": 1.35
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.27,
-                "secondHalfX_guess": 1.16,
-                "secondHalf2_guess": 1.35
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.27,
-                "handicapX_guess": 1.16,
-                "handicap2_guess": 1.35
-              }
-            }
-          ]
-        }
-      ],
-      "raw_market_guess_odds": {
-        "ms1": 2.19,
-        "msx": 3.04,
-        "ms2": 2.45,
-        "under25": 1.99,
-        "over25": 1.45,
-        "bttsYes_guess": 1.27,
-        "bttsNo_guess": 1.16
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "17267",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.19,
-            "msx": 3.04,
-            "ms2": 2.45
-          }
-        },
-        {
-          "market_code": "17267",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.19,
-            "firstHalfX_guess": 3.04,
-            "firstHalf2_guess": 2.45
-          }
-        },
-        {
-          "market_code": "17267",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.19,
-            "secondHalfX_guess": 3.04,
-            "secondHalf2_guess": 2.45
-          }
-        },
-        {
-          "market_code": "17267",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.19,
-            "handicapX_guess": 3.04,
-            "handicap2_guess": 2.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.99,
-            "bttsNo_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.99,
-            "firstHalfBttsNo_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.99,
-            "secondHalfBttsNo_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.99,
-            "over05_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.99,
-            "over15_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.99,
-            "over25_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.99,
-            "over35_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.99,
-            "over45_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.99,
-            "firstHalfOver05_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.99,
-            "firstHalfOver15_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.99,
-            "secondHalfOver05_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.99,
-            "secondHalfOver15_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.99,
-            "homeOver15_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17302",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.99,
-            "awayOver15_guess": 1.45
-          }
-        },
-        {
-          "market_code": "17269",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.27,
-            "msx": 1.16,
-            "ms2": 1.35
-          }
-        },
-        {
-          "market_code": "17269",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.27,
-            "firstHalfX_guess": 1.16,
-            "firstHalf2_guess": 1.35
-          }
-        },
-        {
-          "market_code": "17269",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.27,
-            "secondHalfX_guess": 1.16,
-            "secondHalf2_guess": 1.35
-          }
-        },
-        {
-          "market_code": "17269",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.27,
-            "handicapX_guess": 1.16,
-            "handicap2_guess": 1.35
-          }
-        }
-      ],
-      "raw_market_block_count": 3,
-      "raw_market_value_count": 8,
-      "raw_market_source": "Robot ham veri hücreleri",
-      "homeScoredLast10": 5,
-      "awayScoredLast10": 5,
-      "homeConcededLast10": 4,
-      "awayConcededLast10": 4,
-      "bttsPercent": 48,
-      "over25Percent": 58,
-      "over35Percent": 40,
-      "firstHalfGoalTrend": 35,
-      "secondHalfGoalTrend": 54,
-      "leagueGoalAverage": 2.82,
-      "available_odds": {
-        "ms1": 2.19,
-        "msx": 3.04,
-        "ms2": 2.45,
-        "under25": 1.99,
-        "over25": 1.45,
-        "bttsYes_guess": 1.27,
-        "bttsNo_guess": 1.16
-      },
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "under25",
-        "over25",
-        "bttsYes_guess",
-        "bttsNo_guess"
-      ],
-      "wide_market_odds_count": 7,
-      "wide_market_learning_source": "fixture_odds_inventory",
-      "metric_source": "odds_proxy_pending_form_archive",
-      "metric_quality": "proxy",
-      "metric_notes": [
-        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
-        "Geniş market oran envanteri robot öğrenme verisine eklendi."
-      ],
-      "home_form_profile": {
-        "played": 0,
-        "scored": 0,
-        "conceded": 0,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "goalsForAvg": null,
-        "goalsAgainstAvg": null
-      },
-      "away_form_profile": {
-        "played": 0,
-        "scored": 0,
-        "conceded": 0,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "goalsForAvg": null,
-        "goalsAgainstAvg": null
-      },
-      "league_goal_profile": {
-        "played": 0,
-        "goalAverage": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null
-      },
-      "flow_status": "scheduled"
-    },
-    {
-      "date": "2026-07-07",
-      "time": "03:00",
-      "league": "Ekvador Pro Lig",
-      "home": "Orense",
-      "away": "T.Universitario",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.869Z",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "01135",
-      "oddsSource": "Robot ham veri havuzu",
-      "one": 1.59,
-      "oneOdd": 1.59,
-      "ms1": 1.59,
-      "odd1": 1.59,
-      "draw": 2.95,
-      "drawOdd": 2.95,
-      "msx": 2.95,
-      "oddX": 2.95,
-      "two": 3.68,
-      "twoOdd": 3.68,
-      "ms2": 3.68,
-      "odd2": 3.68,
-      "under25": 1.5,
-      "alt25": 1.5,
-      "under": 1.5,
-      "alt": 1.5,
-      "over25": 1.74,
-      "ust25": 1.74,
-      "over": 1.74,
-      "ust": 1.74,
-      "raw_market_blocks": [
-        {
-          "market_code": "01135",
-          "values": [
-            1.59,
-            2.95,
-            3.68
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 1.59,
-            "msx": 2.95,
-            "ms2": 3.68
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.59,
-                "msx": 2.95,
-                "ms2": 3.68
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.59,
-                "firstHalfX_guess": 2.95,
-                "firstHalf2_guess": 3.68
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.59,
-                "secondHalfX_guess": 2.95,
-                "secondHalf2_guess": 3.68
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.59,
-                "handicapX_guess": 2.95,
-                "handicap2_guess": 3.68
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "16786",
-          "values": [
-            1.5,
-            1.74
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 1.5,
-            "over25": 1.74
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 1.5,
-                "bttsNo_guess": 1.74
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 1.5,
-                "firstHalfBttsNo_guess": 1.74
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 1.5,
-                "secondHalfBttsNo_guess": 1.74
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 1.5,
-                "over05_guess": 1.74
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 1.5,
-                "over15_guess": 1.74
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 1.5,
-                "over25_guess": 1.74
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 1.5,
-                "over35_guess": 1.74
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 1.5,
-                "over45_guess": 1.74
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 1.5,
-                "firstHalfOver05_guess": 1.74
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 1.5,
-                "firstHalfOver15_guess": 1.74
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 1.5,
-                "secondHalfOver05_guess": 1.74
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 1.5,
-                "secondHalfOver15_guess": 1.74
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 1.5,
-                "homeOver15_guess": 1.74
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 1.5,
-                "awayOver15_guess": 1.74
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "01140",
-          "values": [
-            1.12,
-            1.59
-          ],
-          "guess": "KG Var / Yok tahmini",
-          "named_values": {
-            "bttsYes_guess": 1.12,
-            "bttsNo_guess": 1.59
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 1.12,
-                "bttsNo_guess": 1.59
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 1.12,
-                "firstHalfBttsNo_guess": 1.59
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 1.12,
-                "secondHalfBttsNo_guess": 1.59
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 1.12,
-                "over05_guess": 1.59
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 1.12,
-                "over15_guess": 1.59
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 1.12,
-                "over25_guess": 1.59
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 1.12,
-                "over35_guess": 1.59
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 1.12,
-                "over45_guess": 1.59
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 1.12,
-                "firstHalfOver05_guess": 1.59
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 1.12,
-                "firstHalfOver15_guess": 1.59
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 1.12,
-                "secondHalfOver05_guess": 1.59
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 1.12,
-                "secondHalfOver15_guess": 1.59
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 1.12,
-                "homeOver15_guess": 1.59
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 1.12,
-                "awayOver15_guess": 1.59
-              }
-            }
-          ]
-        }
-      ],
-      "raw_market_guess_odds": {
-        "ms1": 1.59,
-        "msx": 2.95,
-        "ms2": 3.68,
-        "under25": 1.5,
-        "over25": 1.74,
-        "bttsYes_guess": 1.12,
-        "bttsNo_guess": 1.59
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "01135",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.59,
-            "msx": 2.95,
-            "ms2": 3.68
-          }
-        },
-        {
-          "market_code": "01135",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.59,
-            "firstHalfX_guess": 2.95,
-            "firstHalf2_guess": 3.68
-          }
-        },
-        {
-          "market_code": "01135",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.59,
-            "secondHalfX_guess": 2.95,
-            "secondHalf2_guess": 3.68
-          }
-        },
-        {
-          "market_code": "01135",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.59,
-            "handicapX_guess": 2.95,
-            "handicap2_guess": 3.68
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.5,
-            "bttsNo_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.5,
-            "firstHalfBttsNo_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.5,
-            "secondHalfBttsNo_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.5,
-            "over05_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.5,
-            "over15_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.5,
-            "over25_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.5,
-            "over35_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.5,
-            "over45_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.5,
-            "firstHalfOver05_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.5,
-            "firstHalfOver15_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.5,
-            "secondHalfOver05_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.5,
-            "secondHalfOver15_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.5,
-            "homeOver15_guess": 1.74
-          }
-        },
-        {
-          "market_code": "16786",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.5,
-            "awayOver15_guess": 1.74
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.12,
-            "bttsNo_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.12,
-            "firstHalfBttsNo_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.12,
-            "secondHalfBttsNo_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.12,
-            "over05_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.12,
-            "over15_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.12,
-            "over25_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.12,
-            "over35_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.12,
-            "over45_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.12,
-            "firstHalfOver05_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.12,
-            "firstHalfOver15_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.12,
-            "secondHalfOver05_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.12,
-            "secondHalfOver15_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.12,
-            "homeOver15_guess": 1.59
-          }
-        },
-        {
-          "market_code": "01140",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.12,
-            "awayOver15_guess": 1.59
-          }
-        }
-      ],
-      "raw_market_block_count": 3,
-      "raw_market_value_count": 7,
-      "raw_market_source": "Robot ham veri hücreleri",
-      "homeScoredLast10": 4,
-      "awayScoredLast10": 4,
-      "homeConcededLast10": 5,
-      "awayConcededLast10": 5,
-      "bttsPercent": 59,
-      "over25Percent": 46,
-      "over35Percent": 28,
-      "firstHalfGoalTrend": 45,
-      "secondHalfGoalTrend": 65,
-      "leagueGoalAverage": 2.68,
-      "available_odds": {
-        "ms1": 1.59,
-        "msx": 2.95,
-        "ms2": 3.68,
-        "under25": 1.5,
-        "over25": 1.74,
-        "bttsYes_guess": 1.12,
-        "bttsNo_guess": 1.59
-      },
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "under25",
-        "over25",
-        "bttsYes_guess",
-        "bttsNo_guess"
-      ],
-      "wide_market_odds_count": 7,
-      "wide_market_learning_source": "fixture_odds_inventory",
-      "metric_source": "odds_proxy_pending_form_archive",
-      "metric_quality": "proxy",
-      "metric_notes": [
-        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
-        "Geniş market oran envanteri robot öğrenme verisine eklendi."
-      ],
-      "home_form_profile": {
-        "played": 0,
-        "scored": 0,
-        "conceded": 0,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "goalsForAvg": null,
-        "goalsAgainstAvg": null
-      },
-      "away_form_profile": {
-        "played": 0,
-        "scored": 0,
-        "conceded": 0,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "goalsForAvg": null,
-        "goalsAgainstAvg": null
-      },
-      "league_goal_profile": {
-        "played": 0,
-        "goalAverage": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null
-      },
-      "flow_status": "scheduled"
-    },
     {
       "date": "2026-07-07",
       "time": "05:30",
@@ -1193,7 +36,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.870Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.759Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "01173",
       "oddsSource": "Robot ham veri havuzu",
@@ -1415,6 +258,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -1458,7 +302,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.870Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.759Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05489",
       "oddsSource": "Robot ham veri havuzu",
@@ -1579,6 +423,51 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 4,
       "raw_market_source": "Robot ham veri hücreleri",
+      "available_odds": {
+        "ms1": 1.35,
+        "msx": 3.98,
+        "ms2": 4.06
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2"
+      ],
+      "wide_market_odds_count": 3,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -1593,7 +482,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.870Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.759Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05413",
       "oddsSource": "Robot ham veri havuzu",
@@ -1931,6 +820,60 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 5,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 61,
+      "over35Percent": 43,
+      "leagueGoalAverage": 2.85,
+      "available_odds": {
+        "ms1": 3.15,
+        "msx": 3.92,
+        "ms2": 1.5,
+        "under25": 1.68,
+        "over25": 1.09
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -1945,7 +888,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.870Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.759Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "01386",
       "oddsSource": "Robot ham veri havuzu",
@@ -2057,6 +1000,51 @@
       "raw_market_block_count": 1,
       "raw_market_value_count": 3,
       "raw_market_source": "Robot ham veri hücreleri",
+      "available_odds": {
+        "ms1": 1.05,
+        "msx": 5.44,
+        "ms2": 9.75
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2"
+      ],
+      "wide_market_odds_count": 3,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -2071,7 +1059,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.871Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.760Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05452",
       "oddsSource": "Robot ham veri havuzu",
@@ -2426,6 +1414,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "over25Percent": 47,
+      "over35Percent": 29,
+      "leagueGoalAverage": 2.69,
+      "available_odds": {
+        "ms1": 1.19,
+        "msx": 4.33,
+        "ms2": 8.36,
+        "under25": 1.59,
+        "over25": 1.77
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -2440,7 +1482,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.871Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.760Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "01107",
       "oddsSource": "Robot ham veri havuzu",
@@ -2871,6 +1913,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 49,
+      "over25Percent": 51,
+      "over35Percent": 33,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 55,
+      "leagueGoalAverage": 2.74,
+      "available_odds": {
+        "ms1": 1.93,
+        "msx": 2.99,
+        "ms2": 2.57,
+        "under25": 1.64,
+        "over25": 1.59,
+        "bttsYes_guess": 1.17,
+        "bttsNo_guess": 1.12
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -2885,7 +1990,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.871Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.760Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "01126",
       "oddsSource": "Robot ham veri havuzu",
@@ -3316,6 +2421,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 51,
+      "over25Percent": 46,
+      "over35Percent": 28,
+      "firstHalfGoalTrend": 37,
+      "secondHalfGoalTrend": 57,
+      "leagueGoalAverage": 2.68,
+      "available_odds": {
+        "ms1": 1.64,
+        "msx": 2.94,
+        "ms2": 3.45,
+        "under25": 1.48,
+        "over25": 1.77,
+        "bttsYes_guess": 1.07,
+        "bttsNo_guess": 1.12
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -3330,7 +2498,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.871Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.760Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05796",
       "oddsSource": "Robot ham veri havuzu",
@@ -3338,14 +2506,14 @@
       "oneOdd": 1.07,
       "ms1": 1.07,
       "odd1": 1.07,
-      "draw": 4.96,
-      "drawOdd": 4.96,
-      "msx": 4.96,
-      "oddX": 4.96,
-      "two": 9.88,
-      "twoOdd": 9.88,
-      "ms2": 9.88,
-      "odd2": 9.88,
+      "draw": 4.93,
+      "drawOdd": 4.93,
+      "msx": 4.93,
+      "oddX": 4.93,
+      "two": 9.79,
+      "twoOdd": 9.79,
+      "ms2": 9.79,
+      "odd2": 9.79,
       "under25": 1.82,
       "alt25": 1.82,
       "under": 1.82,
@@ -3359,46 +2527,46 @@
           "market_code": "05796",
           "values": [
             1.07,
-            4.96,
-            9.88
+            4.93,
+            9.79
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
             "ms1": 1.07,
-            "msx": 4.96,
-            "ms2": 9.88
+            "msx": 4.93,
+            "ms2": 9.79
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
                 "ms1": 1.07,
-                "msx": 4.96,
-                "ms2": 9.88
+                "msx": 4.93,
+                "ms2": 9.79
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
                 "firstHalf1_guess": 1.07,
-                "firstHalfX_guess": 4.96,
-                "firstHalf2_guess": 9.88
+                "firstHalfX_guess": 4.93,
+                "firstHalf2_guess": 9.79
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
                 "secondHalf1_guess": 1.07,
-                "secondHalfX_guess": 4.96,
-                "secondHalf2_guess": 9.88
+                "secondHalfX_guess": 4.93,
+                "secondHalf2_guess": 9.79
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
                 "handicap1_guess": 1.07,
-                "handicapX_guess": 4.96,
-                "handicap2_guess": 9.88
+                "handicapX_guess": 4.93,
+                "handicap2_guess": 9.79
               }
             }
           ]
@@ -3518,7 +2686,7 @@
         {
           "market_code": "07921",
           "values": [
-            2.95
+            2.92
           ],
           "guess": "Ham detay market",
           "named_values": {},
@@ -3527,8 +2695,8 @@
       ],
       "raw_market_guess_odds": {
         "ms1": 1.07,
-        "msx": 4.96,
-        "ms2": 9.88,
+        "msx": 4.93,
+        "ms2": 9.79,
         "under25": 1.82,
         "over25": 1.44
       },
@@ -3538,8 +2706,8 @@
           "market": "Maç Sonucu 1/X/2",
           "values": {
             "ms1": 1.07,
-            "msx": 4.96,
-            "ms2": 9.88
+            "msx": 4.93,
+            "ms2": 9.79
           }
         },
         {
@@ -3547,8 +2715,8 @@
           "market": "İlk Yarı 1/X/2",
           "values": {
             "firstHalf1_guess": 1.07,
-            "firstHalfX_guess": 4.96,
-            "firstHalf2_guess": 9.88
+            "firstHalfX_guess": 4.93,
+            "firstHalf2_guess": 9.79
           }
         },
         {
@@ -3556,8 +2724,8 @@
           "market": "İkinci Yarı 1/X/2",
           "values": {
             "secondHalf1_guess": 1.07,
-            "secondHalfX_guess": 4.96,
-            "secondHalf2_guess": 9.88
+            "secondHalfX_guess": 4.93,
+            "secondHalf2_guess": 9.79
           }
         },
         {
@@ -3565,8 +2733,8 @@
           "market": "Handikap 1/X/2",
           "values": {
             "handicap1_guess": 1.07,
-            "handicapX_guess": 4.96,
-            "handicap2_guess": 9.88
+            "handicapX_guess": 4.93,
+            "handicap2_guess": 9.79
           }
         },
         {
@@ -3685,6 +2853,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 56,
+      "over35Percent": 38,
+      "leagueGoalAverage": 2.79,
+      "available_odds": {
+        "ms1": 1.07,
+        "msx": 4.96,
+        "ms2": 9.88,
+        "under25": 1.82,
+        "over25": 1.44
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -3699,7 +2921,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.871Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.761Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "00688",
       "oddsSource": "Robot ham veri havuzu",
@@ -4130,6 +3352,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 47,
+      "over25Percent": 46,
+      "over35Percent": 28,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 53,
+      "leagueGoalAverage": 2.68,
+      "available_odds": {
+        "ms1": 2.45,
+        "msx": 2.78,
+        "ms2": 2.12,
+        "under25": 1.5,
+        "over25": 1.74,
+        "bttsYes_guess": 1.29,
+        "bttsNo_guess": 1.15
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -4144,67 +3429,67 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.872Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.761Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05610",
       "oddsSource": "Robot ham veri havuzu",
-      "one": 2,
-      "oneOdd": 2,
-      "ms1": 2,
-      "odd1": 2,
-      "draw": 3.96,
-      "drawOdd": 3.96,
-      "msx": 3.96,
-      "oddX": 3.96,
-      "two": 2.05,
-      "twoOdd": 2.05,
-      "ms2": 2.05,
-      "odd2": 2.05,
+      "one": 2.03,
+      "oneOdd": 2.03,
+      "ms1": 2.03,
+      "odd1": 2.03,
+      "draw": 3.76,
+      "drawOdd": 3.76,
+      "msx": 3.76,
+      "oddX": 3.76,
+      "two": 2.09,
+      "twoOdd": 2.09,
+      "ms2": 2.09,
+      "odd2": 2.09,
       "raw_market_blocks": [
         {
           "market_code": "05610",
           "values": [
-            2,
-            3.96,
-            2.05
+            2.03,
+            3.76,
+            2.09
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 2,
-            "msx": 3.96,
-            "ms2": 2.05
+            "ms1": 2.03,
+            "msx": 3.76,
+            "ms2": 2.09
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2,
-                "msx": 3.96,
-                "ms2": 2.05
+                "ms1": 2.03,
+                "msx": 3.76,
+                "ms2": 2.09
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2,
-                "firstHalfX_guess": 3.96,
-                "firstHalf2_guess": 2.05
+                "firstHalf1_guess": 2.03,
+                "firstHalfX_guess": 3.76,
+                "firstHalf2_guess": 2.09
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2,
-                "secondHalfX_guess": 3.96,
-                "secondHalf2_guess": 2.05
+                "secondHalf1_guess": 2.03,
+                "secondHalfX_guess": 3.76,
+                "secondHalf2_guess": 2.09
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2,
-                "handicapX_guess": 3.96,
-                "handicap2_guess": 2.05
+                "handicap1_guess": 2.03,
+                "handicapX_guess": 3.76,
+                "handicap2_guess": 2.09
               }
             }
           ]
@@ -4258,9 +3543,9 @@
         }
       ],
       "raw_market_guess_odds": {
-        "ms1": 2,
-        "msx": 3.96,
-        "ms2": 2.05,
+        "ms1": 2.03,
+        "msx": 3.76,
+        "ms2": 2.09,
         "under25": 1.28,
         "over25": 1.09
       },
@@ -4269,36 +3554,36 @@
           "market_code": "05610",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 2,
-            "msx": 3.96,
-            "ms2": 2.05
+            "ms1": 2.03,
+            "msx": 3.76,
+            "ms2": 2.09
           }
         },
         {
           "market_code": "05610",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 2,
-            "firstHalfX_guess": 3.96,
-            "firstHalf2_guess": 2.05
+            "firstHalf1_guess": 2.03,
+            "firstHalfX_guess": 3.76,
+            "firstHalf2_guess": 2.09
           }
         },
         {
           "market_code": "05610",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 2,
-            "secondHalfX_guess": 3.96,
-            "secondHalf2_guess": 2.05
+            "secondHalf1_guess": 2.03,
+            "secondHalfX_guess": 3.76,
+            "secondHalf2_guess": 2.09
           }
         },
         {
           "market_code": "05610",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 2,
-            "handicapX_guess": 3.96,
-            "handicap2_guess": 2.05
+            "handicap1_guess": 2.03,
+            "handicapX_guess": 3.76,
+            "handicap2_guess": 2.09
           }
         },
         {
@@ -4341,6 +3626,60 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 54,
+      "over35Percent": 36,
+      "leagueGoalAverage": 2.77,
+      "available_odds": {
+        "ms1": 2,
+        "msx": 3.96,
+        "ms2": 2.05,
+        "under25": 1.28,
+        "over25": 1.09
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -4355,7 +3694,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.872Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.761Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "00013",
       "oddsSource": "Robot ham veri havuzu",
@@ -4710,6 +4049,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 59,
+      "over35Percent": 41,
+      "leagueGoalAverage": 2.83,
+      "available_odds": {
+        "ms1": 1.32,
+        "msx": 3.63,
+        "ms2": 4.82,
+        "under25": 1.98,
+        "over25": 1.37
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -4724,7 +4117,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.872Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.761Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05797",
       "oddsSource": "Robot ham veri havuzu",
@@ -5155,6 +4548,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 49,
+      "over25Percent": 48,
+      "over35Percent": 30,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 55,
+      "leagueGoalAverage": 2.7,
+      "available_odds": {
+        "ms1": 2.01,
+        "msx": 2.89,
+        "ms2": 2.53,
+        "under25": 1.54,
+        "over25": 1.69,
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.13
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -5169,7 +4625,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.872Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.761Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "03177",
       "oddsSource": "Robot ham veri havuzu",
@@ -5524,6 +4980,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 6,
+      "awayScoredLast10": 6,
+      "over25Percent": 67,
+      "over35Percent": 49,
+      "leagueGoalAverage": 2.92,
+      "available_odds": {
+        "ms1": 8.85,
+        "msx": 5.4,
+        "ms2": 1.06,
+        "under25": 2.45,
+        "over25": 1.21
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -5538,22 +5048,22 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.872Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.762Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05612",
       "oddsSource": "Robot ham veri havuzu",
-      "one": 1.12,
-      "oneOdd": 1.12,
-      "ms1": 1.12,
-      "odd1": 1.12,
-      "draw": 4.5,
-      "drawOdd": 4.5,
-      "msx": 4.5,
-      "oddX": 4.5,
-      "two": 8.04,
-      "twoOdd": 8.04,
-      "ms2": 8.04,
-      "odd2": 8.04,
+      "one": 1.1,
+      "oneOdd": 1.1,
+      "ms1": 1.1,
+      "odd1": 1.1,
+      "draw": 4.6,
+      "drawOdd": 4.6,
+      "msx": 4.6,
+      "oddX": 4.6,
+      "two": 8.43,
+      "twoOdd": 8.43,
+      "ms2": 8.43,
+      "odd2": 8.43,
       "under25": 1.78,
       "alt25": 1.78,
       "under": 1.78,
@@ -5566,47 +5076,47 @@
         {
           "market_code": "05612",
           "values": [
-            1.12,
-            4.5,
-            8.04
+            1.1,
+            4.6,
+            8.43
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.12,
-            "msx": 4.5,
-            "ms2": 8.04
+            "ms1": 1.1,
+            "msx": 4.6,
+            "ms2": 8.43
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.12,
-                "msx": 4.5,
-                "ms2": 8.04
+                "ms1": 1.1,
+                "msx": 4.6,
+                "ms2": 8.43
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.12,
-                "firstHalfX_guess": 4.5,
-                "firstHalf2_guess": 8.04
+                "firstHalf1_guess": 1.1,
+                "firstHalfX_guess": 4.6,
+                "firstHalf2_guess": 8.43
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.12,
-                "secondHalfX_guess": 4.5,
-                "secondHalf2_guess": 8.04
+                "secondHalf1_guess": 1.1,
+                "secondHalfX_guess": 4.6,
+                "secondHalf2_guess": 8.43
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.12,
-                "handicapX_guess": 4.5,
-                "handicap2_guess": 8.04
+                "handicap1_guess": 1.1,
+                "handicapX_guess": 4.6,
+                "handicap2_guess": 8.43
               }
             }
           ]
@@ -5726,7 +5236,7 @@
         {
           "market_code": "05613",
           "values": [
-            2.62
+            2.69
           ],
           "guess": "Ham detay market",
           "named_values": {},
@@ -5734,9 +5244,9 @@
         }
       ],
       "raw_market_guess_odds": {
-        "ms1": 1.12,
-        "msx": 4.5,
-        "ms2": 8.04,
+        "ms1": 1.1,
+        "msx": 4.6,
+        "ms2": 8.43,
         "under25": 1.78,
         "over25": 1.47
       },
@@ -5745,36 +5255,36 @@
           "market_code": "05612",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.12,
-            "msx": 4.5,
-            "ms2": 8.04
+            "ms1": 1.1,
+            "msx": 4.6,
+            "ms2": 8.43
           }
         },
         {
           "market_code": "05612",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.12,
-            "firstHalfX_guess": 4.5,
-            "firstHalf2_guess": 8.04
+            "firstHalf1_guess": 1.1,
+            "firstHalfX_guess": 4.6,
+            "firstHalf2_guess": 8.43
           }
         },
         {
           "market_code": "05612",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.12,
-            "secondHalfX_guess": 4.5,
-            "secondHalf2_guess": 8.04
+            "secondHalf1_guess": 1.1,
+            "secondHalfX_guess": 4.6,
+            "secondHalf2_guess": 8.43
           }
         },
         {
           "market_code": "05612",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.12,
-            "handicapX_guess": 4.5,
-            "handicap2_guess": 8.04
+            "handicap1_guess": 1.1,
+            "handicapX_guess": 4.6,
+            "handicap2_guess": 8.43
           }
         },
         {
@@ -5893,6 +5403,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 55,
+      "over35Percent": 37,
+      "leagueGoalAverage": 2.78,
+      "available_odds": {
+        "ms1": 1.12,
+        "msx": 4.5,
+        "ms2": 8.04,
+        "under25": 1.78,
+        "over25": 1.47
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -5907,14 +5471,14 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.872Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.762Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "02186",
       "oddsSource": "Robot ham veri havuzu",
-      "one": 2.74,
-      "oneOdd": 2.74,
-      "ms1": 2.74,
-      "odd1": 2.74,
+      "one": 2.72,
+      "oneOdd": 2.72,
+      "ms1": 2.72,
+      "odd1": 2.72,
       "draw": 2.84,
       "drawOdd": 2.84,
       "msx": 2.84,
@@ -5935,13 +5499,13 @@
         {
           "market_code": "02186",
           "values": [
-            2.74,
+            2.72,
             2.84,
             1.92
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 2.74,
+            "ms1": 2.72,
             "msx": 2.84,
             "ms2": 1.92
           },
@@ -5949,7 +5513,7 @@
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.74,
+                "ms1": 2.72,
                 "msx": 2.84,
                 "ms2": 1.92
               }
@@ -5957,7 +5521,7 @@
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.74,
+                "firstHalf1_guess": 2.72,
                 "firstHalfX_guess": 2.84,
                 "firstHalf2_guess": 1.92
               }
@@ -5965,7 +5529,7 @@
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.74,
+                "secondHalf1_guess": 2.72,
                 "secondHalfX_guess": 2.84,
                 "secondHalf2_guess": 1.92
               }
@@ -5973,7 +5537,7 @@
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.74,
+                "handicap1_guess": 2.72,
                 "handicapX_guess": 2.84,
                 "handicap2_guess": 1.92
               }
@@ -6095,20 +5659,20 @@
         {
           "market_code": "08124",
           "values": [
-            1.38,
+            1.37,
             1.14,
             1.15
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.38,
+            "bttsYes_guess": 1.37,
             "bttsNo_guess": 1.14
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.38,
+                "ms1": 1.37,
                 "msx": 1.14,
                 "ms2": 1.15
               }
@@ -6116,7 +5680,7 @@
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.38,
+                "firstHalf1_guess": 1.37,
                 "firstHalfX_guess": 1.14,
                 "firstHalf2_guess": 1.15
               }
@@ -6124,7 +5688,7 @@
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.38,
+                "secondHalf1_guess": 1.37,
                 "secondHalfX_guess": 1.14,
                 "secondHalf2_guess": 1.15
               }
@@ -6132,7 +5696,7 @@
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.38,
+                "handicap1_guess": 1.37,
                 "handicapX_guess": 1.14,
                 "handicap2_guess": 1.15
               }
@@ -6141,12 +5705,12 @@
         }
       ],
       "raw_market_guess_odds": {
-        "ms1": 2.74,
+        "ms1": 2.72,
         "msx": 2.84,
         "ms2": 1.92,
         "under25": 1.48,
         "over25": 1.78,
-        "bttsYes_guess": 1.38,
+        "bttsYes_guess": 1.37,
         "bttsNo_guess": 1.14
       },
       "detail_market_candidates": [
@@ -6154,7 +5718,7 @@
           "market_code": "02186",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 2.74,
+            "ms1": 2.72,
             "msx": 2.84,
             "ms2": 1.92
           }
@@ -6163,7 +5727,7 @@
           "market_code": "02186",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 2.74,
+            "firstHalf1_guess": 2.72,
             "firstHalfX_guess": 2.84,
             "firstHalf2_guess": 1.92
           }
@@ -6172,7 +5736,7 @@
           "market_code": "02186",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 2.74,
+            "secondHalf1_guess": 2.72,
             "secondHalfX_guess": 2.84,
             "secondHalf2_guess": 1.92
           }
@@ -6181,7 +5745,7 @@
           "market_code": "02186",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 2.74,
+            "handicap1_guess": 2.72,
             "handicapX_guess": 2.84,
             "handicap2_guess": 1.92
           }
@@ -6302,7 +5866,7 @@
           "market_code": "08124",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.38,
+            "ms1": 1.37,
             "msx": 1.14,
             "ms2": 1.15
           }
@@ -6311,7 +5875,7 @@
           "market_code": "08124",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.38,
+            "firstHalf1_guess": 1.37,
             "firstHalfX_guess": 1.14,
             "firstHalf2_guess": 1.15
           }
@@ -6320,7 +5884,7 @@
           "market_code": "08124",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.38,
+            "secondHalf1_guess": 1.37,
             "secondHalfX_guess": 1.14,
             "secondHalf2_guess": 1.15
           }
@@ -6329,7 +5893,7 @@
           "market_code": "08124",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.38,
+            "handicap1_guess": 1.37,
             "handicapX_guess": 1.14,
             "handicap2_guess": 1.15
           }
@@ -6338,6 +5902,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 45,
+      "over25Percent": 45,
+      "over35Percent": 27,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 51,
+      "leagueGoalAverage": 2.67,
+      "available_odds": {
+        "ms1": 2.74,
+        "msx": 2.84,
+        "ms2": 1.92,
+        "under25": 1.48,
+        "over25": 1.78,
+        "bttsYes_guess": 1.38,
+        "bttsNo_guess": 1.14
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -6352,7 +5979,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.873Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.762Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "04892",
       "oddsSource": "Robot ham veri havuzu",
@@ -6924,6 +6551,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 7,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 5,
+      "awayConcededLast10": 5,
+      "bttsPercent": 65,
+      "over25Percent": 45,
+      "over35Percent": 27,
+      "firstHalfGoalTrend": 51,
+      "secondHalfGoalTrend": 71,
+      "leagueGoalAverage": 2.67,
+      "available_odds": {
+        "ms1": 1.33,
+        "msx": 3.39,
+        "ms2": 5.1,
+        "under25": 1.48,
+        "over25": 1.78,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.94
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -6938,7 +6628,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.873Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.762Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "01317",
       "oddsSource": "Robot ham veri havuzu",
@@ -7050,6 +6740,51 @@
       "raw_market_block_count": 1,
       "raw_market_value_count": 3,
       "raw_market_source": "Robot ham veri hücreleri",
+      "available_odds": {
+        "ms1": 1.21,
+        "msx": 4.2,
+        "ms2": 5.84
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2"
+      ],
+      "wide_market_odds_count": 3,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -7064,7 +6799,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.873Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.762Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05708",
       "oddsSource": "Robot ham veri havuzu",
@@ -7495,6 +7230,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 46,
+      "over25Percent": 42,
+      "over35Percent": 25,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 52,
+      "leagueGoalAverage": 2.63,
+      "available_odds": {
+        "ms1": 2.8,
+        "msx": 2.7,
+        "ms2": 1.95,
+        "under25": 1.39,
+        "over25": 1.93,
+        "bttsYes_guess": 1.36,
+        "bttsNo_guess": 1.15
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -7509,7 +7307,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.873Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.763Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "01138",
       "oddsSource": "Robot ham veri havuzu",
@@ -7864,6 +7662,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 59,
+      "over35Percent": 41,
+      "leagueGoalAverage": 2.83,
+      "available_odds": {
+        "ms1": 6.03,
+        "msx": 4.04,
+        "ms2": 1.21,
+        "under25": 1.97,
+        "over25": 1.37
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -7878,7 +7730,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.873Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.763Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05798",
       "oddsSource": "Robot ham veri havuzu",
@@ -7886,14 +7738,14 @@
       "oneOdd": 1.27,
       "ms1": 1.27,
       "odd1": 1.27,
-      "draw": 3.65,
-      "drawOdd": 3.65,
-      "msx": 3.65,
-      "oddX": 3.65,
-      "two": 5.54,
-      "twoOdd": 5.54,
-      "ms2": 5.54,
-      "odd2": 5.54,
+      "draw": 3.66,
+      "drawOdd": 3.66,
+      "msx": 3.66,
+      "oddX": 3.66,
+      "two": 5.56,
+      "twoOdd": 5.56,
+      "ms2": 5.56,
+      "odd2": 5.56,
       "under25": 1.6,
       "alt25": 1.6,
       "under": 1.6,
@@ -7907,46 +7759,46 @@
           "market_code": "05798",
           "values": [
             1.27,
-            3.65,
-            5.54
+            3.66,
+            5.56
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
             "ms1": 1.27,
-            "msx": 3.65,
-            "ms2": 5.54
+            "msx": 3.66,
+            "ms2": 5.56
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
                 "ms1": 1.27,
-                "msx": 3.65,
-                "ms2": 5.54
+                "msx": 3.66,
+                "ms2": 5.56
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
                 "firstHalf1_guess": 1.27,
-                "firstHalfX_guess": 3.65,
-                "firstHalf2_guess": 5.54
+                "firstHalfX_guess": 3.66,
+                "firstHalf2_guess": 5.56
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
                 "secondHalf1_guess": 1.27,
-                "secondHalfX_guess": 3.65,
-                "secondHalf2_guess": 5.54
+                "secondHalfX_guess": 3.66,
+                "secondHalf2_guess": 5.56
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
                 "handicap1_guess": 1.27,
-                "handicapX_guess": 3.65,
-                "handicap2_guess": 5.54
+                "handicapX_guess": 3.66,
+                "handicap2_guess": 5.56
               }
             }
           ]
@@ -8075,8 +7927,8 @@
       ],
       "raw_market_guess_odds": {
         "ms1": 1.27,
-        "msx": 3.65,
-        "ms2": 5.54,
+        "msx": 3.66,
+        "ms2": 5.56,
         "under25": 1.6,
         "over25": 1.62
       },
@@ -8086,8 +7938,8 @@
           "market": "Maç Sonucu 1/X/2",
           "values": {
             "ms1": 1.27,
-            "msx": 3.65,
-            "ms2": 5.54
+            "msx": 3.66,
+            "ms2": 5.56
           }
         },
         {
@@ -8095,8 +7947,8 @@
           "market": "İlk Yarı 1/X/2",
           "values": {
             "firstHalf1_guess": 1.27,
-            "firstHalfX_guess": 3.65,
-            "firstHalf2_guess": 5.54
+            "firstHalfX_guess": 3.66,
+            "firstHalf2_guess": 5.56
           }
         },
         {
@@ -8104,8 +7956,8 @@
           "market": "İkinci Yarı 1/X/2",
           "values": {
             "secondHalf1_guess": 1.27,
-            "secondHalfX_guess": 3.65,
-            "secondHalf2_guess": 5.54
+            "secondHalfX_guess": 3.66,
+            "secondHalf2_guess": 5.56
           }
         },
         {
@@ -8113,8 +7965,8 @@
           "market": "Handikap 1/X/2",
           "values": {
             "handicap1_guess": 1.27,
-            "handicapX_guess": 3.65,
-            "handicap2_guess": 5.54
+            "handicapX_guess": 3.66,
+            "handicap2_guess": 5.56
           }
         },
         {
@@ -8233,6 +8085,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "over25Percent": 50,
+      "over35Percent": 32,
+      "leagueGoalAverage": 2.72,
+      "available_odds": {
+        "ms1": 1.27,
+        "msx": 3.65,
+        "ms2": 5.54,
+        "under25": 1.6,
+        "over25": 1.62
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -8247,7 +8153,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.874Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.763Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05801",
       "oddsSource": "Robot ham veri havuzu",
@@ -8263,14 +8169,14 @@
       "twoOdd": 2.18,
       "ms2": 2.18,
       "odd2": 2.18,
-      "under25": 1.77,
-      "alt25": 1.77,
-      "under": 1.77,
-      "alt": 1.77,
-      "over25": 1.48,
-      "ust25": 1.48,
-      "over": 1.48,
-      "ust": 1.48,
+      "under25": 1.76,
+      "alt25": 1.76,
+      "under": 1.76,
+      "alt": 1.76,
+      "over25": 1.49,
+      "ust25": 1.49,
+      "over": 1.49,
+      "ust": 1.49,
       "raw_market_blocks": [
         {
           "market_code": "05801",
@@ -8323,111 +8229,111 @@
         {
           "market_code": "08240",
           "values": [
-            1.77,
-            1.48
+            1.76,
+            1.49
           ],
           "guess": "2.5 Alt / Üst",
           "named_values": {
-            "under25": 1.77,
-            "over25": 1.48
+            "under25": 1.76,
+            "over25": 1.49
           },
           "detail_market_candidates": [
             {
               "market": "KG Var / Yok",
               "values": {
-                "bttsYes_guess": 1.77,
-                "bttsNo_guess": 1.48
+                "bttsYes_guess": 1.76,
+                "bttsNo_guess": 1.49
               }
             },
             {
               "market": "İlk Yarı KG Var / Yok",
               "values": {
-                "firstHalfBttsYes_guess": 1.77,
-                "firstHalfBttsNo_guess": 1.48
+                "firstHalfBttsYes_guess": 1.76,
+                "firstHalfBttsNo_guess": 1.49
               }
             },
             {
               "market": "İkinci Yarı KG Var / Yok",
               "values": {
-                "secondHalfBttsYes_guess": 1.77,
-                "secondHalfBttsNo_guess": 1.48
+                "secondHalfBttsYes_guess": 1.76,
+                "secondHalfBttsNo_guess": 1.49
               }
             },
             {
               "market": "0.5 Alt / Üst",
               "values": {
-                "under05_guess": 1.77,
-                "over05_guess": 1.48
+                "under05_guess": 1.76,
+                "over05_guess": 1.49
               }
             },
             {
               "market": "1.5 Alt / Üst",
               "values": {
-                "under15_guess": 1.77,
-                "over15_guess": 1.48
+                "under15_guess": 1.76,
+                "over15_guess": 1.49
               }
             },
             {
               "market": "2.5 Alt / Üst",
               "values": {
-                "under25_guess": 1.77,
-                "over25_guess": 1.48
+                "under25_guess": 1.76,
+                "over25_guess": 1.49
               }
             },
             {
               "market": "3.5 Alt / Üst",
               "values": {
-                "under35_guess": 1.77,
-                "over35_guess": 1.48
+                "under35_guess": 1.76,
+                "over35_guess": 1.49
               }
             },
             {
               "market": "4.5 Alt / Üst",
               "values": {
-                "under45_guess": 1.77,
-                "over45_guess": 1.48
+                "under45_guess": 1.76,
+                "over45_guess": 1.49
               }
             },
             {
               "market": "İlk Yarı 0.5 Alt / Üst",
               "values": {
-                "firstHalfUnder05_guess": 1.77,
-                "firstHalfOver05_guess": 1.48
+                "firstHalfUnder05_guess": 1.76,
+                "firstHalfOver05_guess": 1.49
               }
             },
             {
               "market": "İlk Yarı 1.5 Alt / Üst",
               "values": {
-                "firstHalfUnder15_guess": 1.77,
-                "firstHalfOver15_guess": 1.48
+                "firstHalfUnder15_guess": 1.76,
+                "firstHalfOver15_guess": 1.49
               }
             },
             {
               "market": "İkinci Yarı 0.5 Alt / Üst",
               "values": {
-                "secondHalfUnder05_guess": 1.77,
-                "secondHalfOver05_guess": 1.48
+                "secondHalfUnder05_guess": 1.76,
+                "secondHalfOver05_guess": 1.49
               }
             },
             {
               "market": "İkinci Yarı 1.5 Alt / Üst",
               "values": {
-                "secondHalfUnder15_guess": 1.77,
-                "secondHalfOver15_guess": 1.48
+                "secondHalfUnder15_guess": 1.76,
+                "secondHalfOver15_guess": 1.49
               }
             },
             {
               "market": "Ev Sahibi 1.5 Alt / Üst",
               "values": {
-                "homeUnder15_guess": 1.77,
-                "homeOver15_guess": 1.48
+                "homeUnder15_guess": 1.76,
+                "homeOver15_guess": 1.49
               }
             },
             {
               "market": "Deplasman 1.5 Alt / Üst",
               "values": {
-                "awayUnder15_guess": 1.77,
-                "awayOver15_guess": 1.48
+                "awayUnder15_guess": 1.76,
+                "awayOver15_guess": 1.49
               }
             }
           ]
@@ -8484,8 +8390,8 @@
         "ms1": 2.24,
         "msx": 2.98,
         "ms2": 2.18,
-        "under25": 1.77,
-        "over25": 1.48,
+        "under25": 1.76,
+        "over25": 1.49,
         "bttsYes_guess": 1.27,
         "bttsNo_guess": 1.12
       },
@@ -8530,112 +8436,112 @@
           "market_code": "08240",
           "market": "KG Var / Yok",
           "values": {
-            "bttsYes_guess": 1.77,
-            "bttsNo_guess": 1.48
+            "bttsYes_guess": 1.76,
+            "bttsNo_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "İlk Yarı KG Var / Yok",
           "values": {
-            "firstHalfBttsYes_guess": 1.77,
-            "firstHalfBttsNo_guess": 1.48
+            "firstHalfBttsYes_guess": 1.76,
+            "firstHalfBttsNo_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "İkinci Yarı KG Var / Yok",
           "values": {
-            "secondHalfBttsYes_guess": 1.77,
-            "secondHalfBttsNo_guess": 1.48
+            "secondHalfBttsYes_guess": 1.76,
+            "secondHalfBttsNo_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "0.5 Alt / Üst",
           "values": {
-            "under05_guess": 1.77,
-            "over05_guess": 1.48
+            "under05_guess": 1.76,
+            "over05_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "1.5 Alt / Üst",
           "values": {
-            "under15_guess": 1.77,
-            "over15_guess": 1.48
+            "under15_guess": 1.76,
+            "over15_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "2.5 Alt / Üst",
           "values": {
-            "under25_guess": 1.77,
-            "over25_guess": 1.48
+            "under25_guess": 1.76,
+            "over25_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "3.5 Alt / Üst",
           "values": {
-            "under35_guess": 1.77,
-            "over35_guess": 1.48
+            "under35_guess": 1.76,
+            "over35_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "4.5 Alt / Üst",
           "values": {
-            "under45_guess": 1.77,
-            "over45_guess": 1.48
+            "under45_guess": 1.76,
+            "over45_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "İlk Yarı 0.5 Alt / Üst",
           "values": {
-            "firstHalfUnder05_guess": 1.77,
-            "firstHalfOver05_guess": 1.48
+            "firstHalfUnder05_guess": 1.76,
+            "firstHalfOver05_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "İlk Yarı 1.5 Alt / Üst",
           "values": {
-            "firstHalfUnder15_guess": 1.77,
-            "firstHalfOver15_guess": 1.48
+            "firstHalfUnder15_guess": 1.76,
+            "firstHalfOver15_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "İkinci Yarı 0.5 Alt / Üst",
           "values": {
-            "secondHalfUnder05_guess": 1.77,
-            "secondHalfOver05_guess": 1.48
+            "secondHalfUnder05_guess": 1.76,
+            "secondHalfOver05_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "İkinci Yarı 1.5 Alt / Üst",
           "values": {
-            "secondHalfUnder15_guess": 1.77,
-            "secondHalfOver15_guess": 1.48
+            "secondHalfUnder15_guess": 1.76,
+            "secondHalfOver15_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "Ev Sahibi 1.5 Alt / Üst",
           "values": {
-            "homeUnder15_guess": 1.77,
-            "homeOver15_guess": 1.48
+            "homeUnder15_guess": 1.76,
+            "homeOver15_guess": 1.49
           }
         },
         {
           "market_code": "08240",
           "market": "Deplasman 1.5 Alt / Üst",
           "values": {
-            "awayUnder15_guess": 1.77,
-            "awayOver15_guess": 1.48
+            "awayUnder15_guess": 1.76,
+            "awayOver15_guess": 1.49
           }
         },
         {
@@ -8678,6 +8584,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 47,
+      "over25Percent": 54,
+      "over35Percent": 36,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 53,
+      "leagueGoalAverage": 2.77,
+      "available_odds": {
+        "ms1": 2.24,
+        "msx": 2.98,
+        "ms2": 2.18,
+        "under25": 1.77,
+        "over25": 1.48,
+        "bttsYes_guess": 1.27,
+        "bttsNo_guess": 1.12
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -8692,7 +8661,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.874Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.763Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05531",
       "oddsSource": "Robot ham veri havuzu",
@@ -9123,6 +9092,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 3,
+      "awayScoredLast10": 3,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 46,
+      "over25Percent": 40,
+      "over35Percent": 25,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 52,
+      "leagueGoalAverage": 2.61,
+      "available_odds": {
+        "ms1": 3.03,
+        "msx": 2.72,
+        "ms2": 2.03,
+        "under25": 1.39,
+        "over25": 2.09,
+        "bttsYes_guess": 1.42,
+        "bttsNo_guess": 1.21
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -9137,7 +9169,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.874Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.764Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05720",
       "oddsSource": "Robot ham veri havuzu",
@@ -9568,6 +9600,69 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 8,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 3,
+      "awayScoredLast10": 3,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 51,
+      "over25Percent": 38,
+      "over35Percent": 25,
+      "firstHalfGoalTrend": 37,
+      "secondHalfGoalTrend": 57,
+      "leagueGoalAverage": 2.59,
+      "available_odds": {
+        "ms1": 2.07,
+        "msx": 2.54,
+        "ms2": 2.75,
+        "under25": 1.3,
+        "over25": 2.13,
+        "bttsYes_guess": 1.15,
+        "bttsNo_guess": 1.19
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -9582,7 +9677,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.874Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.764Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "02249",
       "oddsSource": "Robot ham veri havuzu",
@@ -9703,6 +9798,51 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 4,
       "raw_market_source": "Robot ham veri hücreleri",
+      "available_odds": {
+        "ms1": 1.43,
+        "msx": 3.71,
+        "ms2": 3.71
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2"
+      ],
+      "wide_market_odds_count": 3,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -9717,7 +9857,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.875Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.764Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "04473",
       "oddsSource": "Robot ham veri havuzu",
@@ -9838,6 +9978,51 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 4,
       "raw_market_source": "Robot ham veri hücreleri",
+      "available_odds": {
+        "ms1": 5.31,
+        "msx": 3.92,
+        "ms2": 1.26
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2"
+      ],
+      "wide_market_odds_count": 3,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -9852,7 +10037,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.875Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.765Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "02563",
       "oddsSource": "Robot ham veri havuzu",
@@ -10108,6 +10293,54 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 3,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeConcededLast10": 6,
+      "awayConcededLast10": 6,
+      "bttsPercent": 67,
+      "firstHalfGoalTrend": 53,
+      "secondHalfGoalTrend": 73,
+      "available_odds": {
+        "bttsYes_guess": 8.47,
+        "bttsNo_guess": 17.1
+      },
+      "market_odds_inventory": [
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 2,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -10122,7 +10355,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.875Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.765Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "01323",
       "oddsSource": "Robot ham veri havuzu",
@@ -10319,6 +10552,60 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 55,
+      "over35Percent": 37,
+      "leagueGoalAverage": 2.78,
+      "available_odds": {
+        "ms1": 2.2,
+        "msx": 3.45,
+        "ms2": 2.02,
+        "under25": 1.33,
+        "over25": 1.07
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -10333,7 +10620,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.875Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.765Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05352",
       "oddsSource": "Robot ham veri havuzu",
@@ -10530,6 +10817,60 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "over25Percent": 61,
+      "over35Percent": 43,
+      "leagueGoalAverage": 2.85,
+      "available_odds": {
+        "ms1": 3.45,
+        "msx": 3.57,
+        "ms2": 1.5,
+        "under25": 1.69,
+        "over25": 1.06
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -10544,7 +10885,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.875Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.765Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05941",
       "oddsSource": "Robot ham veri havuzu",
@@ -10899,6 +11240,60 @@
       "raw_market_block_count": 3,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "over25Percent": 49,
+      "over35Percent": 31,
+      "leagueGoalAverage": 2.71,
+      "available_odds": {
+        "ms1": 1.27,
+        "msx": 3.65,
+        "ms2": 5.55,
+        "under25": 1.59,
+        "over25": 1.64
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -10913,7 +11308,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.876Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.766Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "05933",
       "oddsSource": "Robot ham veri havuzu",
@@ -11110,6 +11505,60 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "over25Percent": 52,
+      "over35Percent": 34,
+      "leagueGoalAverage": 2.75,
+      "available_odds": {
+        "ms1": 1.74,
+        "msx": 3.37,
+        "ms2": 2.69,
+        "under25": 1.15,
+        "over25": 1.08
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25"
+      ],
+      "wide_market_odds_count": 5,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "flow_status": "scheduled"
     },
     {
@@ -11124,7 +11573,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.876Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.766Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "08947",
       "oddsSource": "Robot ham veri havuzu",
@@ -11321,388 +11770,17 @@
       "raw_market_block_count": 2,
       "raw_market_value_count": 6,
       "raw_market_source": "Robot ham veri hücreleri",
-      "flow_status": "scheduled"
-    }
-  ],
-  "live_matches": [
-    {
-      "date": "2026-07-07",
-      "time": "00:30",
-      "league": "Ekvador Pro Lig",
-      "home": "Univ Catolica",
-      "away": "Mushuc Runa",
-      "status": "live",
-      "liveStatus": "live",
-      "minute": 66,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.867Z",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "16771",
-      "oddsSource": "Robot ham veri havuzu",
-      "one": 1.21,
-      "oneOdd": 1.21,
-      "ms1": 1.21,
-      "odd1": 1.21,
-      "draw": 4.09,
-      "drawOdd": 4.09,
-      "msx": 4.09,
-      "oddX": 4.09,
-      "two": 5.91,
-      "twoOdd": 5.91,
-      "ms2": 5.91,
-      "odd2": 5.91,
-      "under25": 1.95,
-      "alt25": 1.95,
-      "under": 1.95,
-      "alt": 1.95,
-      "over25": 1.38,
-      "ust25": 1.38,
-      "over": 1.38,
-      "ust": 1.38,
-      "raw_market_blocks": [
-        {
-          "market_code": "16771",
-          "values": [
-            1.21,
-            4.09,
-            5.91
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 1.21,
-            "msx": 4.09,
-            "ms2": 5.91
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.21,
-                "msx": 4.09,
-                "ms2": 5.91
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.21,
-                "firstHalfX_guess": 4.09,
-                "firstHalf2_guess": 5.91
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.21,
-                "secondHalfX_guess": 4.09,
-                "secondHalf2_guess": 5.91
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.21,
-                "handicapX_guess": 4.09,
-                "handicap2_guess": 5.91
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "16775",
-          "values": [
-            1.95,
-            1.38
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 1.95,
-            "over25": 1.38
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 1.95,
-                "bttsNo_guess": 1.38
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 1.95,
-                "firstHalfBttsNo_guess": 1.38
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 1.95,
-                "secondHalfBttsNo_guess": 1.38
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 1.95,
-                "over05_guess": 1.38
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 1.95,
-                "over15_guess": 1.38
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 1.95,
-                "over25_guess": 1.38
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 1.95,
-                "over35_guess": 1.38
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 1.95,
-                "over45_guess": 1.38
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 1.95,
-                "firstHalfOver05_guess": 1.38
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 1.95,
-                "firstHalfOver15_guess": 1.38
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 1.95,
-                "secondHalfOver05_guess": 1.38
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 1.95,
-                "secondHalfOver15_guess": 1.38
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 1.95,
-                "homeOver15_guess": 1.38
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 1.95,
-                "awayOver15_guess": 1.38
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "16772",
-          "values": [
-            2.26
-          ],
-          "guess": "Ham detay market",
-          "named_values": {},
-          "detail_market_candidates": []
-        }
-      ],
-      "raw_market_guess_odds": {
-        "ms1": 1.21,
-        "msx": 4.09,
-        "ms2": 5.91,
-        "under25": 1.95,
-        "over25": 1.38
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "16771",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.21,
-            "msx": 4.09,
-            "ms2": 5.91
-          }
-        },
-        {
-          "market_code": "16771",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.21,
-            "firstHalfX_guess": 4.09,
-            "firstHalf2_guess": 5.91
-          }
-        },
-        {
-          "market_code": "16771",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.21,
-            "secondHalfX_guess": 4.09,
-            "secondHalf2_guess": 5.91
-          }
-        },
-        {
-          "market_code": "16771",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.21,
-            "handicapX_guess": 4.09,
-            "handicap2_guess": 5.91
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.95,
-            "bttsNo_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.95,
-            "firstHalfBttsNo_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.95,
-            "secondHalfBttsNo_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.95,
-            "over05_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.95,
-            "over15_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.95,
-            "over25_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.95,
-            "over35_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.95,
-            "over45_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.95,
-            "firstHalfOver05_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.95,
-            "firstHalfOver15_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.95,
-            "secondHalfOver05_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.95,
-            "secondHalfOver15_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.95,
-            "homeOver15_guess": 1.38
-          }
-        },
-        {
-          "market_code": "16775",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.95,
-            "awayOver15_guess": 1.38
-          }
-        }
-      ],
-      "raw_market_block_count": 3,
-      "raw_market_value_count": 6,
-      "raw_market_source": "Robot ham veri hücreleri",
-      "homeScoredLast10": 5,
-      "awayScoredLast10": 5,
-      "over25Percent": 59,
-      "over35Percent": 41,
-      "leagueGoalAverage": 2.83,
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "over25Percent": 52,
+      "over35Percent": 34,
+      "leagueGoalAverage": 2.75,
       "available_odds": {
-        "ms1": 1.21,
-        "msx": 4.09,
-        "ms2": 5.91,
-        "under25": 1.95,
-        "over25": 1.38
+        "ms1": 1.77,
+        "msx": 3.51,
+        "ms2": 2.57,
+        "under25": 1.17,
+        "over25": 1.06
       },
       "market_odds_inventory": [
         "ms1",
@@ -11746,8 +11824,10 @@
         "over25Percent": null,
         "over35Percent": null
       },
-      "flow_status": "live"
-    },
+      "flow_status": "scheduled"
+    }
+  ],
+  "live_matches": [
     {
       "date": "2026-07-07",
       "time": "01:00",
@@ -11760,7 +11840,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.868Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.756Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "14921",
       "oddsSource": "Robot ham veri havuzu",
@@ -12366,6 +12446,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -12409,7 +12490,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.868Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.757Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "14954",
       "oddsSource": "Robot ham veri havuzu",
@@ -12874,6 +12955,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -12917,7 +12999,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.868Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.757Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "03711",
       "oddsSource": "Robot ham veri havuzu",
@@ -13054,6 +13136,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -13097,7 +13180,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.868Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.757Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "00949",
       "oddsSource": "Robot ham veri havuzu",
@@ -13372,6 +13455,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -13415,7 +13499,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.869Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.757Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "03217",
       "oddsSource": "Robot ham veri havuzu",
@@ -13690,6 +13774,7 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
@@ -13733,7 +13818,7 @@
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-07-06T23:38:05.869Z",
+      "lastLiveUpdate": "2026-07-07T00:20:02.758Z",
       "source": "Maçkolik canlı robot",
       "matchCode": "06440",
       "oddsSource": "Robot ham veri havuzu",
@@ -14198,6 +14283,1166 @@
       "metric_quality": "proxy",
       "metric_notes": [
         "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
+      "flow_status": "live"
+    },
+    {
+      "date": "2026-07-07",
+      "time": "03:00",
+      "league": "Dünya Kupası 2026 Son 16 Turu",
+      "home": "Abd",
+      "away": "Belçika",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 20,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
+      "lastLiveUpdate": "2026-07-07T00:20:02.758Z",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "17267",
+      "oddsSource": "Robot ham veri havuzu",
+      "one": 2.19,
+      "oneOdd": 2.19,
+      "ms1": 2.19,
+      "odd1": 2.19,
+      "draw": 3.04,
+      "drawOdd": 3.04,
+      "msx": 3.04,
+      "oddX": 3.04,
+      "two": 2.45,
+      "twoOdd": 2.45,
+      "ms2": 2.45,
+      "odd2": 2.45,
+      "under25": 1.99,
+      "alt25": 1.99,
+      "under": 1.99,
+      "alt": 1.99,
+      "over25": 1.45,
+      "ust25": 1.45,
+      "over": 1.45,
+      "ust": 1.45,
+      "raw_market_blocks": [
+        {
+          "market_code": "17267",
+          "values": [
+            2.19,
+            3.04,
+            2.45
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 2.19,
+            "msx": 3.04,
+            "ms2": 2.45
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 2.19,
+                "msx": 3.04,
+                "ms2": 2.45
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 2.19,
+                "firstHalfX_guess": 3.04,
+                "firstHalf2_guess": 2.45
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 2.19,
+                "secondHalfX_guess": 3.04,
+                "secondHalf2_guess": 2.45
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 2.19,
+                "handicapX_guess": 3.04,
+                "handicap2_guess": 2.45
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "17302",
+          "values": [
+            1.99,
+            1.45
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.99,
+            "over25": 1.45
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.99,
+                "bttsNo_guess": 1.45
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.99,
+                "firstHalfBttsNo_guess": 1.45
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.99,
+                "secondHalfBttsNo_guess": 1.45
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.99,
+                "over05_guess": 1.45
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.99,
+                "over15_guess": 1.45
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.99,
+                "over25_guess": 1.45
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.99,
+                "over35_guess": 1.45
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.99,
+                "over45_guess": 1.45
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.99,
+                "firstHalfOver05_guess": 1.45
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.99,
+                "firstHalfOver15_guess": 1.45
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.99,
+                "secondHalfOver05_guess": 1.45
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.99,
+                "secondHalfOver15_guess": 1.45
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.99,
+                "homeOver15_guess": 1.45
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.99,
+                "awayOver15_guess": 1.45
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "17269",
+          "values": [
+            1.27,
+            1.16,
+            1.35
+          ],
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.27,
+            "bttsNo_guess": 1.16
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.27,
+                "msx": 1.16,
+                "ms2": 1.35
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.27,
+                "firstHalfX_guess": 1.16,
+                "firstHalf2_guess": 1.35
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.27,
+                "secondHalfX_guess": 1.16,
+                "secondHalf2_guess": 1.35
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.27,
+                "handicapX_guess": 1.16,
+                "handicap2_guess": 1.35
+              }
+            }
+          ]
+        }
+      ],
+      "raw_market_guess_odds": {
+        "ms1": 2.19,
+        "msx": 3.04,
+        "ms2": 2.45,
+        "under25": 1.99,
+        "over25": 1.45,
+        "bttsYes_guess": 1.27,
+        "bttsNo_guess": 1.16
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "17267",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.19,
+            "msx": 3.04,
+            "ms2": 2.45
+          }
+        },
+        {
+          "market_code": "17267",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.19,
+            "firstHalfX_guess": 3.04,
+            "firstHalf2_guess": 2.45
+          }
+        },
+        {
+          "market_code": "17267",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.19,
+            "secondHalfX_guess": 3.04,
+            "secondHalf2_guess": 2.45
+          }
+        },
+        {
+          "market_code": "17267",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.19,
+            "handicapX_guess": 3.04,
+            "handicap2_guess": 2.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 1.99,
+            "bttsNo_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 1.99,
+            "firstHalfBttsNo_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 1.99,
+            "secondHalfBttsNo_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 1.99,
+            "over05_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 1.99,
+            "over15_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 1.99,
+            "over25_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 1.99,
+            "over35_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 1.99,
+            "over45_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 1.99,
+            "firstHalfOver05_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 1.99,
+            "firstHalfOver15_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 1.99,
+            "secondHalfOver05_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 1.99,
+            "secondHalfOver15_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 1.99,
+            "homeOver15_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17302",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 1.99,
+            "awayOver15_guess": 1.45
+          }
+        },
+        {
+          "market_code": "17269",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.27,
+            "msx": 1.16,
+            "ms2": 1.35
+          }
+        },
+        {
+          "market_code": "17269",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.27,
+            "firstHalfX_guess": 1.16,
+            "firstHalf2_guess": 1.35
+          }
+        },
+        {
+          "market_code": "17269",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.27,
+            "secondHalfX_guess": 1.16,
+            "secondHalf2_guess": 1.35
+          }
+        },
+        {
+          "market_code": "17269",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.27,
+            "handicapX_guess": 1.16,
+            "handicap2_guess": 1.35
+          }
+        }
+      ],
+      "raw_market_block_count": 3,
+      "raw_market_value_count": 8,
+      "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 5,
+      "awayScoredLast10": 5,
+      "homeConcededLast10": 4,
+      "awayConcededLast10": 4,
+      "bttsPercent": 48,
+      "over25Percent": 58,
+      "over35Percent": 40,
+      "firstHalfGoalTrend": 35,
+      "secondHalfGoalTrend": 54,
+      "leagueGoalAverage": 2.82,
+      "available_odds": {
+        "ms1": 2.19,
+        "msx": 3.04,
+        "ms2": 2.45,
+        "under25": 1.99,
+        "over25": 1.45,
+        "bttsYes_guess": 1.27,
+        "bttsNo_guess": 1.16
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
+      "flow_status": "live"
+    },
+    {
+      "date": "2026-07-07",
+      "time": "03:00",
+      "league": "Ekvador Pro Lig",
+      "home": "Orense",
+      "away": "T.Universitario",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 20,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
+      "lastLiveUpdate": "2026-07-07T00:20:02.758Z",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "01135",
+      "oddsSource": "Robot ham veri havuzu",
+      "one": 1.59,
+      "oneOdd": 1.59,
+      "ms1": 1.59,
+      "odd1": 1.59,
+      "draw": 2.95,
+      "drawOdd": 2.95,
+      "msx": 2.95,
+      "oddX": 2.95,
+      "two": 3.68,
+      "twoOdd": 3.68,
+      "ms2": 3.68,
+      "odd2": 3.68,
+      "under25": 1.5,
+      "alt25": 1.5,
+      "under": 1.5,
+      "alt": 1.5,
+      "over25": 1.74,
+      "ust25": 1.74,
+      "over": 1.74,
+      "ust": 1.74,
+      "raw_market_blocks": [
+        {
+          "market_code": "01135",
+          "values": [
+            1.59,
+            2.95,
+            3.68
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 1.59,
+            "msx": 2.95,
+            "ms2": 3.68
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.59,
+                "msx": 2.95,
+                "ms2": 3.68
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.59,
+                "firstHalfX_guess": 2.95,
+                "firstHalf2_guess": 3.68
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.59,
+                "secondHalfX_guess": 2.95,
+                "secondHalf2_guess": 3.68
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.59,
+                "handicapX_guess": 2.95,
+                "handicap2_guess": 3.68
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "16786",
+          "values": [
+            1.5,
+            1.74
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.5,
+            "over25": 1.74
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.5,
+                "bttsNo_guess": 1.74
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.5,
+                "firstHalfBttsNo_guess": 1.74
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.5,
+                "secondHalfBttsNo_guess": 1.74
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.5,
+                "over05_guess": 1.74
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.5,
+                "over15_guess": 1.74
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.5,
+                "over25_guess": 1.74
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.5,
+                "over35_guess": 1.74
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.5,
+                "over45_guess": 1.74
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.5,
+                "firstHalfOver05_guess": 1.74
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.5,
+                "firstHalfOver15_guess": 1.74
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.5,
+                "secondHalfOver05_guess": 1.74
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.5,
+                "secondHalfOver15_guess": 1.74
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.5,
+                "homeOver15_guess": 1.74
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.5,
+                "awayOver15_guess": 1.74
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "01140",
+          "values": [
+            1.12,
+            1.59
+          ],
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.12,
+            "bttsNo_guess": 1.59
+          },
+          "detail_market_candidates": [
+            {
+              "market": "KG Var / Yok",
+              "values": {
+                "bttsYes_guess": 1.12,
+                "bttsNo_guess": 1.59
+              }
+            },
+            {
+              "market": "İlk Yarı KG Var / Yok",
+              "values": {
+                "firstHalfBttsYes_guess": 1.12,
+                "firstHalfBttsNo_guess": 1.59
+              }
+            },
+            {
+              "market": "İkinci Yarı KG Var / Yok",
+              "values": {
+                "secondHalfBttsYes_guess": 1.12,
+                "secondHalfBttsNo_guess": 1.59
+              }
+            },
+            {
+              "market": "0.5 Alt / Üst",
+              "values": {
+                "under05_guess": 1.12,
+                "over05_guess": 1.59
+              }
+            },
+            {
+              "market": "1.5 Alt / Üst",
+              "values": {
+                "under15_guess": 1.12,
+                "over15_guess": 1.59
+              }
+            },
+            {
+              "market": "2.5 Alt / Üst",
+              "values": {
+                "under25_guess": 1.12,
+                "over25_guess": 1.59
+              }
+            },
+            {
+              "market": "3.5 Alt / Üst",
+              "values": {
+                "under35_guess": 1.12,
+                "over35_guess": 1.59
+              }
+            },
+            {
+              "market": "4.5 Alt / Üst",
+              "values": {
+                "under45_guess": 1.12,
+                "over45_guess": 1.59
+              }
+            },
+            {
+              "market": "İlk Yarı 0.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder05_guess": 1.12,
+                "firstHalfOver05_guess": 1.59
+              }
+            },
+            {
+              "market": "İlk Yarı 1.5 Alt / Üst",
+              "values": {
+                "firstHalfUnder15_guess": 1.12,
+                "firstHalfOver15_guess": 1.59
+              }
+            },
+            {
+              "market": "İkinci Yarı 0.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder05_guess": 1.12,
+                "secondHalfOver05_guess": 1.59
+              }
+            },
+            {
+              "market": "İkinci Yarı 1.5 Alt / Üst",
+              "values": {
+                "secondHalfUnder15_guess": 1.12,
+                "secondHalfOver15_guess": 1.59
+              }
+            },
+            {
+              "market": "Ev Sahibi 1.5 Alt / Üst",
+              "values": {
+                "homeUnder15_guess": 1.12,
+                "homeOver15_guess": 1.59
+              }
+            },
+            {
+              "market": "Deplasman 1.5 Alt / Üst",
+              "values": {
+                "awayUnder15_guess": 1.12,
+                "awayOver15_guess": 1.59
+              }
+            }
+          ]
+        }
+      ],
+      "raw_market_guess_odds": {
+        "ms1": 1.59,
+        "msx": 2.95,
+        "ms2": 3.68,
+        "under25": 1.5,
+        "over25": 1.74,
+        "bttsYes_guess": 1.12,
+        "bttsNo_guess": 1.59
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "01135",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.59,
+            "msx": 2.95,
+            "ms2": 3.68
+          }
+        },
+        {
+          "market_code": "01135",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.59,
+            "firstHalfX_guess": 2.95,
+            "firstHalf2_guess": 3.68
+          }
+        },
+        {
+          "market_code": "01135",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.59,
+            "secondHalfX_guess": 2.95,
+            "secondHalf2_guess": 3.68
+          }
+        },
+        {
+          "market_code": "01135",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.59,
+            "handicapX_guess": 2.95,
+            "handicap2_guess": 3.68
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 1.5,
+            "bttsNo_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 1.5,
+            "firstHalfBttsNo_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 1.5,
+            "secondHalfBttsNo_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 1.5,
+            "over05_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 1.5,
+            "over15_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 1.5,
+            "over25_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 1.5,
+            "over35_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 1.5,
+            "over45_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 1.5,
+            "firstHalfOver05_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 1.5,
+            "firstHalfOver15_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 1.5,
+            "secondHalfOver05_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 1.5,
+            "secondHalfOver15_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 1.5,
+            "homeOver15_guess": 1.74
+          }
+        },
+        {
+          "market_code": "16786",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 1.5,
+            "awayOver15_guess": 1.74
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 1.12,
+            "bttsNo_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 1.12,
+            "firstHalfBttsNo_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 1.12,
+            "secondHalfBttsNo_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 1.12,
+            "over05_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 1.12,
+            "over15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 1.12,
+            "over25_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 1.12,
+            "over35_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 1.12,
+            "over45_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 1.12,
+            "firstHalfOver05_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 1.12,
+            "firstHalfOver15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 1.12,
+            "secondHalfOver05_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 1.12,
+            "secondHalfOver15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 1.12,
+            "homeOver15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "01140",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 1.12,
+            "awayOver15_guess": 1.59
+          }
+        }
+      ],
+      "raw_market_block_count": 3,
+      "raw_market_value_count": 7,
+      "raw_market_source": "Robot ham veri hücreleri",
+      "homeScoredLast10": 4,
+      "awayScoredLast10": 4,
+      "homeConcededLast10": 5,
+      "awayConcededLast10": 5,
+      "bttsPercent": 59,
+      "over25Percent": 46,
+      "over35Percent": 28,
+      "firstHalfGoalTrend": 45,
+      "secondHalfGoalTrend": 65,
+      "leagueGoalAverage": 2.68,
+      "available_odds": {
+        "ms1": 1.59,
+        "msx": 2.95,
+        "ms2": 3.68,
+        "under25": 1.5,
+        "over25": 1.74,
+        "bttsYes_guess": 1.12,
+        "bttsNo_guess": 1.59
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 7,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
         "Geniş market oran envanteri robot öğrenme verisine eklendi."
       ],
       "home_form_profile": {
