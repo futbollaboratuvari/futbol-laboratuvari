@@ -3,17 +3,14 @@
 Gunler: 2026-07-08 / 2026-07-09
 Kaynak: fixtures.json
 Ham mac: 58
-Aktif mac: 58
-Canli mac: 0
+Aktif mac: 55
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 27
+Bultenden dusurulen mac: 3
+Bugun: 24
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-08 12:00 | Hazırlık Kulüpler | Gks Tychy - Sparta Katowice | scheduled | -
-- 2026-07-08 12:00 | Hazırlık Kulüpler | Zaglebie Lubin - Banik Ostrava | scheduled | -
-- 2026-07-08 12:30 | Hazırlık Kulüpler | Pogon Szczecin - Chrobry Glogow | scheduled | -
 - 2026-07-08 13:00 | Hazırlık Kulüpler | Aarhus Fremad - Silkeborg | scheduled | -
 - 2026-07-08 13:00 | Hazırlık Kulüpler | Aalborg - Randers | scheduled | -
 - 2026-07-08 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | scheduled | -
@@ -71,7 +68,9 @@ Yarin: 31
 - 2026-07-09 05:30 | ABD USL | Sacramento Rep - Rhode Island | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-08 12:00 | Hazırlık Kulüpler | Gks Tychy - Sparta Katowice | live | -
+- 2026-07-08 12:00 | Hazırlık Kulüpler | Zaglebie Lubin - Banik Ostrava | live | -
+- 2026-07-08 12:30 | Hazırlık Kulüpler | Pogon Szczecin - Chrobry Glogow | live | -
 
 ## Biten Maclar
 Biten mac yok.
