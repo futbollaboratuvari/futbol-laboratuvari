@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-08T18:13:13.505Z",
+  "generated_at": "2026-07-08T18:54:36.600Z",
   "date": "2026-07-08",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
   "title": "Futbol Laboratuvarı Canlı Veri",
-  "status": "waiting",
-  "message": "Şu anda başlayan karşılaşma yok.",
+  "status": "active",
+  "message": "Başlayan karşılaşmalar canlı listede.",
   "counts": {
     "total": 35,
     "current_window": 35,
-    "live": 0,
-    "scheduled": 35,
+    "live": 1,
+    "scheduled": 34,
     "finished": 0,
     "active_analysis": 0,
     "completed_analysis": 0,
@@ -100,17 +100,16 @@
   ],
   "active_items": [],
   "completed_items": [],
-  "matches": [],
-  "scheduled_matches": [
+  "matches": [
     {
       "date": "2026-07-08",
       "time": "21:30",
       "league": "Hazırlık Kulüpler",
       "home": "Lausanne",
       "away": "Flamengo",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 24,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "10145",
@@ -167,7 +166,9 @@
       "robot_reason": "",
       "include_in_coupon": false,
       "raw_market_value_count": 8
-    },
+    }
+  ],
+  "scheduled_matches": [
     {
       "date": "2026-07-08",
       "time": "22:00",

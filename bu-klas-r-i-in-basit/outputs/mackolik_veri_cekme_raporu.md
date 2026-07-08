@@ -1,56 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-08T13:17:46.116135+00:00
-=======
-Tarih: 2026-07-08T13:18:41.755806+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-08T18:54:36.265578+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 55
-- Kac mac kaydedildi: 7
-- Kac mac zaten vardi: 48
-- Ham veri havuzu toplam mac sayisi: 1354
-=======
-- Kac mac bulundu: 23
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 17
-- Ham veri havuzu toplam mac sayisi: 1353
->>>>>>> Stashed changes
+- Durum: error
+- Kac mac bulundu: 2
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 08.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Great Forest Grubu
-- ABD USL Lig 2 Güney Atlantik Grubu
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güney Merkez Grubu
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Metropolitan Grubu
-- ABD USL Lig 2 NorCal Grubu
-- ABD USL Lig 2 Orta Atlantik Grubu
-- ABD USL Lig 2 Orta Güney Grubu
-- Avrupa U19 Şampiyonası Yarı Final
-- Avustralya NPL Kuzey YGG
-- Bolivya Premier Lig
-- Brezilya Serie B
-- Ekvador Kupa Son 32 Turu
 - Fas Kupa Son 32 Turu
 - Hazırlık Kulüpler
-- UEFA Konferans Ligi 1. Eleme Turu
-- UEFA Şampiyonlar Ligi 1.Eleme Turu
 
 ## Okunabilen Oran Alanlari
 
@@ -107,41 +72,24 @@ Tarih: 2026-07-08T13:18:41.755806+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 22
+- Acilan detay: 22
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub | Egnatia | 05809 | 5 |
-| 08.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty | Sutjeska | 05803 | 4 |
-| 08.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Flora Tallinn | Fc Iberia | 02469 | 5 |
-| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk | Universitatea C | 05805 | 5 |
-| 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Differdange | Ilves | 06564 | 5 |
-| 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Gap Connahs Qu | Ballkani | 03336 | 5 |
-| 08.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Zira | Torpedo Kutaisi | 06563 | 5 |
-| 08.07.2026 | 20:00 | Hazırlık Kulüpler | Heracles | Groningen | 05267 | 3 |
-| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Olympiakos | Rakow Czestocho | 02261 | 5 |
-| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Hartberg | Brno | 04783 | 5 |
-| 08.07.2026 | 18:30 | Hazırlık Kulüpler | Fk Kosice | Rapid Bükreş | 03025 | 5 |
-| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Zawisza Bydgos | Polonia Sroda | 05013 | 3 |
-| 08.07.2026 | 18:30 | Hazırlık Kulüpler | Slaven Belupo | Csikszereda | 06527 | 5 |
-| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Austria Vienna | Dac | 06636 | 5 |
-| 08.07.2026 | 20:00 | Hazırlık Kulüpler | Breda | Fc Eindhoven | 05290 | 5 |
 | 08.07.2026 | 22:30 | Hazırlık Kulüpler | Lausanne | Flamengo | 10145 | 5 |
-| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Pafos Fc | Jablonec | 05215 | 3 |
-| 08.07.2026 | 17:00 | Hazırlık Kulüpler | Slovacko | Zoria Luhansk | 04755 | 5 |
-| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Sigma Olomouc | Rekord Bielsko | 06485 | 3 |
-| 08.07.2026 | 21:00 | Avrupa U19 Şampiyonası Yarı Final | Almanya U19 | Ukrayna U19 | 08894 | 5 |
+| 08.07.2026 | 22:00 | Fas Kupa Son 32 Turu | Far Rabat | Stade Marocain | 02701 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
