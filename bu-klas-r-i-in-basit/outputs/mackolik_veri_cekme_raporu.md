@@ -1,23 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-08T22:15:53.760572+00:00
+Tarih: 2026-07-08T22:43:37.188184+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 33
-- Kac mac kaydedildi: 33
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 1387
+- Kac mac bulundu: 30
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 29
+- Ham veri havuzu toplam mac sayisi: 1388
 - Hedef tarih: 09.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Valley Grubu
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Çeyrek Final
 - Hazırlık Kulüpler
 - UEFA Avrupa Ligi 1. Eleme Turu
@@ -109,9 +105,9 @@ Tarih: 2026-07-08T22:15:53.760572+00:00
 | 09.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia | Malisheva | 04945 | 5 |
 | 09.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Caernarfon | Levadia Tallinn | 04834 | 5 |
 | 09.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Liepaja | Decic Tuzi | 04167 | 5 |
+| 09.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Dila Gori | Virtus | 03819 | 4 |
 | 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Minsk | Fk Sileks | 04656 | 5 |
 | 09.07.2026 | 20:15 | UEFA Konferans Ligi 1. Eleme Turu | Mondorf Les Ba | Dinamo Tiflis | 04832 | 5 |
-| 09.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Hegelmann | Paide Linnamees | 04313 | 5 |
 
 ## Sonuc
 
