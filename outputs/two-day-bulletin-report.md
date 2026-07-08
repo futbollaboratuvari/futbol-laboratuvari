@@ -4,21 +4,14 @@ Gunler: 2026-07-08 / 2026-07-09
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 76
-Aktif mac: 42
-Canli mac: 16
+Aktif mac: 35
+Canli mac: 23
 Biten mac: 18
-Bultenden dusurulen mac: 34
-Bugun: 10
+Bultenden dusurulen mac: 41
+Bugun: 3
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk - Universitatea C | scheduled | -
-- 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub - Egnatia | scheduled | -
-- 2026-07-08 20:00 | Hazırlık Kulüpler | Heracles - Groningen | scheduled | -
-- 2026-07-08 20:00 | Hazırlık Kulüpler | Breda - Fc Eindhoven | scheduled | -
-- 2026-07-08 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Differdange - Ilves | scheduled | -
-- 2026-07-08 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Gap Connahs Qu - Ballkani | scheduled | -
-- 2026-07-08 21:00 | Avrupa U19 Şampiyonası Yarı Final | Almanya U19 - Ukrayna U19 | scheduled | -
 - 2026-07-08 21:30 | Hazırlık Kulüpler | Lausanne - Flamengo | scheduled | -
 - 2026-07-08 22:00 | Fas Kupa Son 32 Turu | Far Rabat - Stade Marocain | scheduled | -
 - 2026-07-08 22:30 | Hazırlık Kulüpler | Lausanne - Flamengo | scheduled | -
@@ -56,6 +49,13 @@ Yarin: 32
 - 2026-07-09 05:30 | ABD USL | Sacramento Rep - Rhode Island | scheduled | -
 
 ## Canli Maclar
+- 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk - Universitatea C | live | -
+- 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub - Egnatia | live | -
+- 2026-07-08 20:00 | Hazırlık Kulüpler | Heracles - Groningen | live | -
+- 2026-07-08 20:00 | Hazırlık Kulüpler | Breda - Fc Eindhoven | live | -
+- 2026-07-08 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Differdange - Ilves | live | -
+- 2026-07-08 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Gap Connahs Qu - Ballkani | live | -
+- 2026-07-08 21:00 | Avrupa U19 Şampiyonası Yarı Final | Almanya U19 - Ukrayna U19 | live | -
 - 2026-07-08 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty - Sutjeska | live | -
 - 2026-07-08 18:00 | Hazırlık Kulüpler | Hartberg - Brno | live | -
 - 2026-07-08 18:00 | Hazırlık Kulüpler | Vasas - Kisvarda | live | -

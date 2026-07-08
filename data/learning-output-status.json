@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-08T07:56:34.333Z",
-  "status": "ready",
+  "generated_at": "2026-07-08T18:13:14.060Z",
+  "status": "waiting",
   "checks": {
     "robot_exists": true,
     "memory_exists": true,
     "live_exists": true,
     "learning_engine_name": true,
     "learning_mode_name": true,
-    "learning_fields_ready": true,
-    "memory_has_predictions": true
+    "learning_fields_ready": false,
+    "memory_has_predictions": false
   },
   "robot": {
     "engine": "High Value Coupon Engine + Learning Memory",
     "scoring_mode": "net_threshold_rules_with_learning_memory",
-    "match_count": 27,
+    "match_count": 0,
     "learning_adjusted_count": 0
   },
   "memory": {
-    "total_predictions": 98,
-    "pending_predictions": 98,
+    "total_predictions": 0,
+    "pending_predictions": 0,
     "won_predictions": 0,
     "lost_predictions": 0
   },
@@ -26,5 +26,5 @@
     "match_count": 0,
     "status": "waiting"
   },
-  "note": "Learning output fields are present. The site can display learning notes."
+  "note": "Learning output is not fully ready yet. The next export run should regenerate robot-analysis.json with learning fields."
 }
