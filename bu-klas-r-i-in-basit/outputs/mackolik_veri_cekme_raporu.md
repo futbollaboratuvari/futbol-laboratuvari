@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-07T22:40:40.231651+00:00
+Tarih: 2026-07-08T07:43:48.515718+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 16
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 27
+- Kac mac kaydedildi: 11
 - Kac mac zaten vardi: 16
-- Ham veri havuzu toplam mac sayisi: 1336
+- Ham veri havuzu toplam mac sayisi: 1347
 - Hedef tarih: 08.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -91,22 +91,26 @@ Tarih: 2026-07-07T22:40:40.231651+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Flora Tallinn | Fc Iberia | 02469 | 5 |
 | 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk | Universitatea C | 05805 | 5 |
+| 08.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty | Sutjeska | 05803 | 4 |
+| 08.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Flora Tallinn | Fc Iberia | 02469 | 5 |
 | 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub | Egnatia | 05809 | 5 |
-| 08.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty | Sutjeska | 05803 | 5 |
-| 08.07.2026 | 21:00 | Avrupa U19 Şampiyonası Yarı Final | Almanya U19 | Ukrayna U19 | 08894 | 5 |
-| 08.07.2026 | 18:30 | Avrupa U19 Şampiyonası Yarı Final | İspanya (U19) | Hirvatistan (U1 | 08892 | 5 |
-| 08.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Zira | Torpedo Kutaisi | 06563 | 5 |
 | 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Differdange | Ilves | 06564 | 5 |
 | 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Gap Connahs Qu | Ballkani | 03336 | 5 |
-| 08.07.2026 | 21:30 | Hazırlık Kulüpler | Lausanne | Flamengo | 10145 | 5 |
+| 08.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Zira | Torpedo Kutaisi | 06563 | 5 |
 | 08.07.2026 | 19:00 | Hazırlık Kulüpler | Olympiakos | Rakow Czestocho | 02261 | 5 |
-| 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aarhus Fremad | Silkeborg | 08391 | 3 |
+| 08.07.2026 | 15:00 | Hazırlık Kulüpler | Kolding If | Vendsyssel | 04526 | 5 |
+| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Hartberg | Brno | 04783 | 5 |
+| 08.07.2026 | 20:00 | Hazırlık Kulüpler | Heracles | Groningen | 05267 | 3 |
+| 08.07.2026 | 12:00 | Hazırlık Kulüpler | Gks Tychy | Sparta Katowice | 03391 | 5 |
+| 08.07.2026 | 17:00 | Hazırlık Kulüpler | Slovacko | Zoria Luhansk | 04755 | 5 |
 | 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aalborg | Randers | 08422 | 5 |
-| 08.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 11002 | 3 |
-| 08.07.2026 | 22:00 | Fas Kupa Son 32 Turu | Far Rabat | Stade Marocain | 02701 | 2 |
-| 08.07.2026 | 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Tanzania Priso (0) | (2) Mbeya City | 08381 | 5 |
+| 08.07.2026 | 15:00 | Hazırlık Kulüpler | Nijmegen | Duisburg | 04659 | 5 |
+| 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aarhus Fremad | Silkeborg | 08391 | 3 |
+| 08.07.2026 | 20:00 | Hazırlık Kulüpler | Breda | Fc Eindhoven | 05290 | 5 |
+| 08.07.2026 | 21:30 | Hazırlık Kulüpler | Lausanne | Flamengo | 10145 | 5 |
+| 08.07.2026 | 18:30 | Hazırlık Kulüpler | Fk Kosice | Rapid Bükreş | 03025 | 3 |
+| 08.07.2026 | 12:00 | Hazırlık Kulüpler | Zaglebie Lubin | Banik Ostrava | 03454 | 5 |
 
 ## Sonuc
 

@@ -1,25 +1,31 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-02T10:20:58.713Z",
-  "updated_at": "2026-07-07T23:33:46.653Z",
+  "updated_at": "2026-07-08T07:43:53.904Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 86,
-    "pending_predictions": 86,
+    "total_predictions": 87,
+    "pending_predictions": 87,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 34,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 86,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 1,
+    "updated_predictions": 0
   },
   "market_memory": {
+    "MS X": {
+      "total": 47,
+      "pending": 47,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS 1": {
       "total": 6,
       "pending": 6,
@@ -39,22 +45,12 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS X": {
-      "total": 46,
-      "pending": 46,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
     }
   },
   "league_memory": {
     "UEFA Şampiyonlar Ligi 1.Eleme Turu": {
-      "total": 13,
-      "pending": 13,
+      "total": 14,
+      "pending": 14,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -394,6 +390,16 @@
     }
   },
   "league_market_memory": {
+    "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS X": {
+      "total": 9,
+      "pending": 9,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS 1": {
       "total": 3,
       "pending": 3,
@@ -427,16 +433,6 @@
     "Avrupa U19 Şampiyonası Yarı Final :: MS 2": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS X": {
-      "total": 8,
-      "pending": 8,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -937,6 +933,23 @@
   },
   "predictions": [
     {
+      "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|petrocub egnatia|ms x|20 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:43:53.903Z",
+      "match_name": "Petrocub - Egnatia",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "2.76",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|ml vitebsk universitatea c|ms 1|20 00",
       "date": "2026-07-08",
       "created_at": "2026-07-07T22:42:45.344Z",
@@ -944,7 +957,7 @@
       "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
       "start_time": "20:00",
       "market": "MS 1",
-      "odds": "3.57",
+      "odds": "3.85",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -952,7 +965,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-07T23:33:46.073Z"
+      "updated_at": "2026-07-08T07:43:53.903Z"
     },
     {
       "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|petrocub egnatia|ms 2|20 00",
@@ -988,7 +1001,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-07T23:33:46.073Z"
+      "updated_at": "2026-07-08T07:43:53.903Z"
     },
     {
       "id": "2026-07-08|avrupa u19 sampiyonasi yari final|almanya u19 ukrayna u19|ms 2|21 00",
@@ -998,7 +1011,7 @@
       "league": "Avrupa U19 Şampiyonası Yarı Final",
       "start_time": "21:00",
       "market": "MS 2",
-      "odds": "4.10",
+      "odds": "3.93",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -1006,7 +1019,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-07T23:33:46.073Z"
+      "updated_at": "2026-07-08T07:43:53.904Z"
     },
     {
       "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|flora tallinn fc iberia|ms x|19 00",
@@ -1016,7 +1029,7 @@
       "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
       "start_time": "19:00",
       "market": "MS X",
-      "odds": "3.04",
+      "odds": "3.05",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -1024,7 +1037,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-07T23:33:46.073Z"
+      "updated_at": "2026-07-08T07:43:53.903Z"
     },
     {
       "id": "2026-07-08|uefa konferans ligi 1 eleme turu|zira torpedo kutaisi|ms 2|19 00",
@@ -1034,7 +1047,7 @@
       "league": "UEFA Konferans Ligi 1. Eleme Turu",
       "start_time": "19:00",
       "market": "MS 2",
-      "odds": "3.82",
+      "odds": "4.15",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -1042,7 +1055,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-07T23:33:46.073Z"
+      "updated_at": "2026-07-08T07:43:53.903Z"
     },
     {
       "id": "2026-07-08|hazirlik kulupler|olympiakos rakow czestocho|ms 2|19 00",
@@ -1052,7 +1065,7 @@
       "league": "Hazırlık Kulüpler",
       "start_time": "19:00",
       "market": "MS 2",
-      "odds": "3.80",
+      "odds": "3.74",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -1060,7 +1073,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-07T23:33:46.073Z"
+      "updated_at": "2026-07-08T07:43:53.903Z"
     },
     {
       "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|borac banja lu levski sofya|ms x|21 30",

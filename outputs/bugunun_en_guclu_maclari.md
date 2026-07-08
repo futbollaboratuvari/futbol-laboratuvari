@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-08T00:15:24.250Z
+- Güncelleme: 2026-07-08T07:43:16.442Z
 - Ham maç sayısı: 58
 - Yarın bülteni maç sayısı: 31
 - Detay blok sayısı: 135
-- Aktif bülten maçı: 49
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 47
+- Bültenden düşürülen maç: 11
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tacoma Stars - Midlakes United | ABD USL Lig 2 Kuzeybatı Grubu | 05:00 | Veri bekleniyor | - | 1.99 | 6 |
-| Capo Ii - Seahorses | ABD USL Lig 2 Güneybatı Grubu | 05:30 | Veri bekleniyor | - | 1.16 | 4 |
 | Aarhus Fremad - Silkeborg | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 2.27 | 3 |
 | Aalborg - Randers | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 3.21 | 5 |
 | Kahibah - Maitland | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 4.63 | 4 |
