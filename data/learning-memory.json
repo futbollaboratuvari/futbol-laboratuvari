@@ -1,24 +1,38 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-02T10:20:58.713Z",
-  "updated_at": "2026-07-08T07:43:53.904Z",
+  "updated_at": "2026-07-08T07:56:34.181Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 87,
-    "pending_predictions": 87,
+    "total_predictions": 98,
+    "pending_predictions": 98,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 34,
+    "league_count": 35,
     "market_count": 3,
-    "added_predictions": 1,
-    "updated_predictions": 0
+    "added_predictions": 11,
+    "updated_predictions": 0,
+    "last_score_link_checked": 98,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 47,
-      "pending": 47,
+      "total": 54,
+      "pending": 54,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 2": {
+      "total": 38,
+      "pending": 38,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -35,22 +49,42 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS 2": {
-      "total": 34,
-      "pending": 34,
+    }
+  },
+  "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 14,
+      "pending": 14,
       "won": 0,
       "lost": 0,
       "void": 0,
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
+    },
     "UEFA Şampiyonlar Ligi 1.Eleme Turu": {
-      "total": 14,
-      "pending": 14,
+      "total": 15,
+      "pending": 15,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Avrupa U19 Şampiyonası Yarı Final": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Fas Kupa Son 32 Turu": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -61,26 +95,6 @@
     "UEFA Konferans Ligi 1. Eleme Turu": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Avrupa U19 Şampiyonası Yarı Final": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler": {
-      "total": 6,
-      "pending": 6,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -390,9 +404,49 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 7,
+      "pending": 7,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS X": {
-      "total": 9,
-      "pending": 9,
+      "total": 10,
+      "pending": 10,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Avrupa U19 Şampiyonası Yarı Final :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Fas Kupa Son 32 Turu :: MS X": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -450,29 +504,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Hazırlık Kulüpler :: MS 1": {
       "total": 2,
       "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -933,6 +967,193 @@
   },
   "predictions": [
     {
+      "id": "2026-07-08|hazirlik kulupler|kolding if vendsyssel|ms x|15 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "Kolding If - Vendsyssel",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "15:00",
+      "market": "MS X",
+      "odds": "2.98",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|hazirlik kulupler|nijmegen duisburg|ms 2|15 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "Nijmegen - Duisburg",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "15:00",
+      "market": "MS 2",
+      "odds": "5.53",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|hazirlik kulupler|slovacko zoria luhansk|ms x|17 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "Slovacko - Zoria Luhansk",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "17:00",
+      "market": "MS X",
+      "odds": "3.26",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|kairat almaty sutjeska|ms x|18 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "Kairat Almaty - Sutjeska",
+      "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
+      "start_time": "18:00",
+      "market": "MS X",
+      "odds": "5.47",
+      "confidence_score": "75%",
+      "analysis_score": 75,
+      "risk_level": "Düşük",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|hazirlik kulupler|hartberg brno|ms x|18 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "Hartberg - Brno",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "18:00",
+      "market": "MS X",
+      "odds": "3.07",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|avrupa u19 sampiyonasi yari final|ispanya u19 hirvatistan u1|ms x|18 30",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "İspanya (U19) - Hirvatistan (U1",
+      "league": "Avrupa U19 Şampiyonası Yarı Final",
+      "start_time": "18:30",
+      "market": "MS X",
+      "odds": "5.74",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|hazirlik kulupler|breda fc eindhoven|ms 2|20 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "Breda - Fc Eindhoven",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "20:00",
+      "market": "MS 2",
+      "odds": "3.93",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|fas kupa son 32 turu|far rabat stade marocain|ms x|22 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.549Z",
+      "match_name": "Far Rabat - Stade Marocain",
+      "league": "Fas Kupa Son 32 Turu",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "5.19",
+      "confidence_score": "75%",
+      "analysis_score": 75,
+      "risk_level": "Düşük",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|hazirlik kulupler|gks tychy sparta katowice|ms 2|12 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.548Z",
+      "match_name": "Gks Tychy - Sparta Katowice",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "12:00",
+      "market": "MS 2",
+      "odds": "4.27",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|hazirlik kulupler|zaglebie lubin banik ostrava|ms x|12 00",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.548Z",
+      "match_name": "Zaglebie Lubin - Banik Ostrava",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "12:00",
+      "market": "MS X",
+      "odds": "3.30",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-08|hazirlik kulupler|pogon szczecin chrobry glogow|ms 2|12 30",
+      "date": "2026-07-08",
+      "created_at": "2026-07-08T07:56:33.548Z",
+      "match_name": "Pogon Szczecin - Chrobry Glogow",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "12:30",
+      "market": "MS 2",
+      "odds": "3.98",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|petrocub egnatia|ms x|20 00",
       "date": "2026-07-08",
       "created_at": "2026-07-08T07:43:53.903Z",
@@ -947,7 +1168,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-08T07:56:33.549Z"
     },
     {
       "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|ml vitebsk universitatea c|ms 1|20 00",
@@ -965,7 +1187,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-08T07:43:53.903Z"
+      "updated_at": "2026-07-08T07:56:33.549Z"
     },
     {
       "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|petrocub egnatia|ms 2|20 00",
@@ -1001,7 +1223,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-08T07:43:53.903Z"
+      "updated_at": "2026-07-08T07:56:33.549Z"
     },
     {
       "id": "2026-07-08|avrupa u19 sampiyonasi yari final|almanya u19 ukrayna u19|ms 2|21 00",
@@ -1019,7 +1241,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-08T07:43:53.904Z"
+      "updated_at": "2026-07-08T07:56:33.549Z"
     },
     {
       "id": "2026-07-08|uefa sampiyonlar ligi 1 eleme turu|flora tallinn fc iberia|ms x|19 00",
@@ -1037,7 +1259,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-08T07:43:53.903Z"
+      "updated_at": "2026-07-08T07:56:33.549Z"
     },
     {
       "id": "2026-07-08|uefa konferans ligi 1 eleme turu|zira torpedo kutaisi|ms 2|19 00",
@@ -1055,7 +1277,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-08T07:43:53.903Z"
+      "updated_at": "2026-07-08T07:56:33.549Z"
     },
     {
       "id": "2026-07-08|hazirlik kulupler|olympiakos rakow czestocho|ms 2|19 00",
@@ -1073,7 +1295,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-08T07:43:53.903Z"
+      "updated_at": "2026-07-08T07:56:33.549Z"
     },
     {
       "id": "2026-07-07|uefa sampiyonlar ligi 1 eleme turu|borac banja lu levski sofya|ms x|21 30",
