@@ -1,30 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-08 / 2026-07-09
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 76
-Aktif mac: 56
-Canli mac: 3
-Biten mac: 17
-Bultenden dusurulen mac: 20
-Bugun: 24
+Aktif mac: 42
+Canli mac: 16
+Biten mac: 18
+Bultenden dusurulen mac: 34
+Bugun: 10
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-07-08 17:00 | Hazırlık Kulüpler | Slovacko - Zoria Luhansk | scheduled | -
-- 2026-07-08 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty - Sutjeska | scheduled | -
-- 2026-07-08 18:00 | Hazırlık Kulüpler | Hartberg - Brno | scheduled | -
-- 2026-07-08 18:00 | Hazırlık Kulüpler | Vasas - Kisvarda | scheduled | -
-- 2026-07-08 18:00 | Hazırlık Kulüpler | Zawisza Bydgos - Polonia Sroda | scheduled | -
-- 2026-07-08 18:00 | Hazırlık Kulüpler | Sigma Olomouc - Rekord Bielsko | scheduled | -
-- 2026-07-08 18:30 | Avrupa U19 Şampiyonası Yarı Final | İspanya (U19) - Hirvatistan (U1 | scheduled | -
-- 2026-07-08 18:30 | Hazırlık Kulüpler | Fk Kosice - Rapid Bükreş | scheduled | -
-- 2026-07-08 18:30 | Hazırlık Kulüpler | Slaven Belupo - Csikszereda | scheduled | -
-- 2026-07-08 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Flora Tallinn - Fc Iberia | scheduled | -
-- 2026-07-08 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Zira - Torpedo Kutaisi | scheduled | -
-- 2026-07-08 19:00 | Hazırlık Kulüpler | Olympiakos - Rakow Czestocho | scheduled | -
-- 2026-07-08 19:00 | Hazırlık Kulüpler | Austria Vienna - Dac | scheduled | -
-- 2026-07-08 19:00 | Hazırlık Kulüpler | Pafos Fc - Jablonec | scheduled | -
 - 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk - Universitatea C | scheduled | -
 - 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub - Egnatia | scheduled | -
 - 2026-07-08 20:00 | Hazırlık Kulüpler | Heracles - Groningen | scheduled | -
@@ -69,11 +56,25 @@ Yarin: 32
 - 2026-07-09 05:30 | ABD USL | Sacramento Rep - Rhode Island | scheduled | -
 
 ## Canli Maclar
+- 2026-07-08 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty - Sutjeska | live | -
+- 2026-07-08 18:00 | Hazırlık Kulüpler | Hartberg - Brno | live | -
+- 2026-07-08 18:00 | Hazırlık Kulüpler | Vasas - Kisvarda | live | -
+- 2026-07-08 18:00 | Hazırlık Kulüpler | Zawisza Bydgos - Polonia Sroda | live | -
+- 2026-07-08 18:00 | Hazırlık Kulüpler | Sigma Olomouc - Rekord Bielsko | live | -
+- 2026-07-08 18:30 | Avrupa U19 Şampiyonası Yarı Final | İspanya (U19) - Hirvatistan (U1 | live | -
+- 2026-07-08 18:30 | Hazırlık Kulüpler | Fk Kosice - Rapid Bükreş | live | -
+- 2026-07-08 18:30 | Hazırlık Kulüpler | Slaven Belupo - Csikszereda | live | -
+- 2026-07-08 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Flora Tallinn - Fc Iberia | live | -
+- 2026-07-08 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Zira - Torpedo Kutaisi | live | -
+- 2026-07-08 19:00 | Hazırlık Kulüpler | Olympiakos - Rakow Czestocho | live | -
+- 2026-07-08 19:00 | Hazırlık Kulüpler | Austria Vienna - Dac | live | -
+- 2026-07-08 19:00 | Hazırlık Kulüpler | Pafos Fc - Jablonec | live | -
 - 2026-07-08 15:00 | Hazırlık Kulüpler | Kolding If - Vendsyssel | live | -
 - 2026-07-08 15:00 | Hazırlık Kulüpler | Nijmegen - Duisburg | live | -
 - 2026-07-08 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Tanzania Priso (0) - (2) Mbeya City | live | -
 
 ## Biten Maclar
+- 2026-07-08 17:00 | Hazırlık Kulüpler | Slovacko - Zoria Luhansk | finished | -
 - 2026-07-08 02:00 | Brezilya Serie B | Athletic Club - Operario | finished | -
 - 2026-07-08 02:00 | Bolivya Premier Lig | Gualberto Vill - Real Tomayapo | finished | -
 - 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Ac Connecticut - Western Mass P. | finished | -
