@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-08T09:32:41.095Z
+- Güncelleme: 2026-07-08T11:31:47.857Z
 - Ham maç sayısı: 58
 - Yarın bülteni maç sayısı: 31
 - Detay blok sayısı: 142
-- Aktif bülten maçı: 55
-- Bültenden düşürülen maç: 3
+- Aktif bülten maçı: 52
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Aarhus Fremad - Silkeborg | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 2.27 | 3 |
-| Aalborg - Randers | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 3.15 | 5 |
-| Kahibah - Maitland | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 2.39 | 6 |
 | Kolding If - Vendsyssel | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.19 | 8 |
 | Nijmegen - Duisburg | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.22 | 6 |
 | Tanzania Priso (0) - (2) Mbeya City | Tanzanya Kuu Bara Ligi Küme Düşme Final | 16:00 | Veri bekleniyor | - | 1.61 | 8 |

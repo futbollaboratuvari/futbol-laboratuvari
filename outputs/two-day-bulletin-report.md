@@ -3,17 +3,14 @@
 Gunler: 2026-07-08 / 2026-07-09
 Kaynak: fixtures.json
 Ham mac: 58
-Aktif mac: 55
-Canli mac: 3
+Aktif mac: 52
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 24
+Bultenden dusurulen mac: 6
+Bugun: 21
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-08 13:00 | Hazırlık Kulüpler | Aarhus Fremad - Silkeborg | scheduled | -
-- 2026-07-08 13:00 | Hazırlık Kulüpler | Aalborg - Randers | scheduled | -
-- 2026-07-08 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | scheduled | -
 - 2026-07-08 15:00 | Hazırlık Kulüpler | Kolding If - Vendsyssel | scheduled | -
 - 2026-07-08 15:00 | Hazırlık Kulüpler | Nijmegen - Duisburg | scheduled | -
 - 2026-07-08 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Tanzania Priso (0) - (2) Mbeya City | scheduled | -
@@ -71,6 +68,9 @@ Yarin: 31
 - 2026-07-08 12:00 | Hazırlık Kulüpler | Gks Tychy - Sparta Katowice | live | -
 - 2026-07-08 12:00 | Hazırlık Kulüpler | Zaglebie Lubin - Banik Ostrava | live | -
 - 2026-07-08 12:30 | Hazırlık Kulüpler | Pogon Szczecin - Chrobry Glogow | live | -
+- 2026-07-08 13:00 | Hazırlık Kulüpler | Aarhus Fremad - Silkeborg | live | -
+- 2026-07-08 13:00 | Hazırlık Kulüpler | Aalborg - Randers | live | -
+- 2026-07-08 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | live | -
 
 ## Biten Maclar
 Biten mac yok.
