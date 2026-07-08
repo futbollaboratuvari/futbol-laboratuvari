@@ -1,24 +1,43 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-08T07:43:48.515718+00:00
+Tarih: 2026-07-08T13:17:46.116135+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 27
-- Kac mac kaydedildi: 11
-- Kac mac zaten vardi: 16
-- Ham veri havuzu toplam mac sayisi: 1347
+- Kac mac bulundu: 55
+- Kac mac kaydedildi: 7
+- Kac mac zaten vardi: 48
+- Ham veri havuzu toplam mac sayisi: 1354
 - Hedef tarih: 08.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Chesapeake Grubu
+- ABD USL Lig 2 Great Forest Grubu
+- ABD USL Lig 2 Güney Atlantik Grubu
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Metropolitan Grubu
+- ABD USL Lig 2 NorCal Grubu
+- ABD USL Lig 2 Orta Atlantik Grubu
+- ABD USL Lig 2 Orta Güney Grubu
 - Avrupa U19 Şampiyonası Yarı Final
 - Avustralya NPL Kuzey YGG
+- Bolivya Premier Lig
+- Brezilya Serie B
+- Ekvador Kupa Son 32 Turu
 - Fas Kupa Son 32 Turu
 - Hazırlık Kulüpler
-- Tanzanya Kuu Bara Ligi Küme Düşme Final
 - UEFA Konferans Ligi 1. Eleme Turu
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
 
@@ -77,8 +96,8 @@ Tarih: 2026-07-08T07:43:48.515718+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 27
-- Acilan detay: 27
+- Denenen Tumu alani: 26
+- Acilan detay: 26
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -91,26 +110,26 @@ Tarih: 2026-07-08T07:43:48.515718+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk | Universitatea C | 05805 | 5 |
+| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub | Egnatia | 05809 | 5 |
 | 08.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kairat Almaty | Sutjeska | 05803 | 4 |
 | 08.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Flora Tallinn | Fc Iberia | 02469 | 5 |
-| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub | Egnatia | 05809 | 5 |
+| 08.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk | Universitatea C | 05805 | 5 |
 | 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Differdange | Ilves | 06564 | 5 |
 | 08.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Gap Connahs Qu | Ballkani | 03336 | 5 |
 | 08.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Zira | Torpedo Kutaisi | 06563 | 5 |
-| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Olympiakos | Rakow Czestocho | 02261 | 5 |
-| 08.07.2026 | 15:00 | Hazırlık Kulüpler | Kolding If | Vendsyssel | 04526 | 5 |
-| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Hartberg | Brno | 04783 | 5 |
 | 08.07.2026 | 20:00 | Hazırlık Kulüpler | Heracles | Groningen | 05267 | 3 |
-| 08.07.2026 | 12:00 | Hazırlık Kulüpler | Gks Tychy | Sparta Katowice | 03391 | 5 |
-| 08.07.2026 | 17:00 | Hazırlık Kulüpler | Slovacko | Zoria Luhansk | 04755 | 5 |
-| 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aalborg | Randers | 08422 | 5 |
-| 08.07.2026 | 15:00 | Hazırlık Kulüpler | Nijmegen | Duisburg | 04659 | 5 |
-| 08.07.2026 | 13:00 | Hazırlık Kulüpler | Aarhus Fremad | Silkeborg | 08391 | 3 |
+| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Olympiakos | Rakow Czestocho | 02261 | 5 |
+| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Hartberg | Brno | 04783 | 5 |
+| 08.07.2026 | 18:30 | Hazırlık Kulüpler | Fk Kosice | Rapid Bükreş | 03025 | 5 |
+| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Zawisza Bydgos | Polonia Sroda | 05013 | 3 |
+| 08.07.2026 | 18:30 | Hazırlık Kulüpler | Slaven Belupo | Csikszereda | 06527 | 5 |
+| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Austria Vienna | Dac | 06636 | 5 |
 | 08.07.2026 | 20:00 | Hazırlık Kulüpler | Breda | Fc Eindhoven | 05290 | 5 |
-| 08.07.2026 | 21:30 | Hazırlık Kulüpler | Lausanne | Flamengo | 10145 | 5 |
-| 08.07.2026 | 18:30 | Hazırlık Kulüpler | Fk Kosice | Rapid Bükreş | 03025 | 3 |
-| 08.07.2026 | 12:00 | Hazırlık Kulüpler | Zaglebie Lubin | Banik Ostrava | 03454 | 5 |
+| 08.07.2026 | 22:30 | Hazırlık Kulüpler | Lausanne | Flamengo | 10145 | 5 |
+| 08.07.2026 | 19:00 | Hazırlık Kulüpler | Pafos Fc | Jablonec | 05215 | 3 |
+| 08.07.2026 | 17:00 | Hazırlık Kulüpler | Slovacko | Zoria Luhansk | 04755 | 5 |
+| 08.07.2026 | 18:00 | Hazırlık Kulüpler | Sigma Olomouc | Rekord Bielsko | 06485 | 3 |
+| 08.07.2026 | 21:00 | Avrupa U19 Şampiyonası Yarı Final | Almanya U19 | Ukrayna U19 | 08894 | 5 |
 
 ## Sonuc
 
