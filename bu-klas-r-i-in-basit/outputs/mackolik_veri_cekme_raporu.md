@@ -1,15 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-08T13:17:46.116135+00:00
+=======
+Tarih: 2026-07-08T13:18:41.755806+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 55
 - Kac mac kaydedildi: 7
 - Kac mac zaten vardi: 48
 - Ham veri havuzu toplam mac sayisi: 1354
+=======
+- Kac mac bulundu: 23
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 17
+- Ham veri havuzu toplam mac sayisi: 1353
+>>>>>>> Stashed changes
 - Hedef tarih: 08.07.2026 Europe/Istanbul
 
 ## Ligler
