@@ -4,17 +4,14 @@ Gunler: 2026-07-08 / 2026-07-09
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 76
-Aktif mac: 35
-Canli mac: 23
-Biten mac: 18
-Bultenden dusurulen mac: 41
-Bugun: 3
+Aktif mac: 32
+Canli mac: 25
+Biten mac: 19
+Bultenden dusurulen mac: 44
+Bugun: 0
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-07-08 21:30 | Hazırlık Kulüpler | Lausanne - Flamengo | scheduled | -
-- 2026-07-08 22:00 | Fas Kupa Son 32 Turu | Far Rabat - Stade Marocain | scheduled | -
-- 2026-07-08 22:30 | Hazırlık Kulüpler | Lausanne - Flamengo | scheduled | -
 - 2026-07-09 00:00 | ABD USL Lig 2 Orta Atlantik Grubu | Delaware Fc - Eagle Fc | scheduled | -
 - 2026-07-09 01:00 | Bolivya Premier Lig | Real Oruro - Universitario D | scheduled | -
 - 2026-07-09 01:00 | ABD USL Lig 2 Great Forest Grubu | Cleveland Forc - Steel City | scheduled | -
@@ -49,6 +46,8 @@ Yarin: 32
 - 2026-07-09 05:30 | ABD USL | Sacramento Rep - Rhode Island | scheduled | -
 
 ## Canli Maclar
+- 2026-07-08 22:00 | Fas Kupa Son 32 Turu | Far Rabat - Stade Marocain | live | -
+- 2026-07-08 22:30 | Hazırlık Kulüpler | Lausanne - Flamengo | live | -
 - 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Ml Vitebsk - Universitatea C | live | -
 - 2026-07-08 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Petrocub - Egnatia | live | -
 - 2026-07-08 20:00 | Hazırlık Kulüpler | Heracles - Groningen | live | -
@@ -74,6 +73,7 @@ Yarin: 32
 - 2026-07-08 16:00 | Tanzanya Kuu Bara Ligi Küme Düşme Final | Tanzania Priso (0) - (2) Mbeya City | live | -
 
 ## Biten Maclar
+- 2026-07-08 21:30 | Hazırlık Kulüpler | Lausanne - Flamengo | finished | -
 - 2026-07-08 17:00 | Hazırlık Kulüpler | Slovacko - Zoria Luhansk | finished | -
 - 2026-07-08 02:00 | Brezilya Serie B | Athletic Club - Operario | finished | -
 - 2026-07-08 02:00 | Bolivya Premier Lig | Gualberto Vill - Real Tomayapo | finished | -
