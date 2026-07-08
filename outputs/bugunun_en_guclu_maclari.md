@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-07T23:33:43.262Z
+- Güncelleme: 2026-07-08T00:15:24.250Z
 - Ham maç sayısı: 58
 - Yarın bülteni maç sayısı: 31
 - Detay blok sayısı: 135
-- Aktif bülten maçı: 52
-- Bültenden düşürülen maç: 6
+- Aktif bülten maçı: 49
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hudson Valley - Fc Motown Ii | ABD USL Lig 2 Metropolitan Grubu | 02:45 | Veri bekleniyor | - | 3.74 | 4 |
-| Aucas - Guayaquil City | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.19 | 6 |
-| Texoma - Denton Diablos | ABD USL Lig 2 Güney Konferansı | 03:00 | Veri bekleniyor | - | 1.8 | 6 |
 | Tacoma Stars - Midlakes United | ABD USL Lig 2 Kuzeybatı Grubu | 05:00 | Veri bekleniyor | - | 1.99 | 6 |
 | Capo Ii - Seahorses | ABD USL Lig 2 Güneybatı Grubu | 05:30 | Veri bekleniyor | - | 1.16 | 4 |
 | Aarhus Fremad - Silkeborg | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 2.27 | 3 |

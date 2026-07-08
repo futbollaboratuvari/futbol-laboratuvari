@@ -3,17 +3,14 @@
 Gunler: 2026-07-08 / 2026-07-09
 Kaynak: fixtures.json
 Ham mac: 58
-Aktif mac: 52
-Canli mac: 6
+Aktif mac: 49
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 21
+Bultenden dusurulen mac: 9
+Bugun: 18
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-08 02:45 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Fc Motown Ii | scheduled | -
-- 2026-07-08 03:00 | Ekvador Pro Lig | Aucas - Guayaquil City | scheduled | -
-- 2026-07-08 03:00 | ABD USL Lig 2 Güney Konferansı | Texoma - Denton Diablos | scheduled | -
 - 2026-07-08 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | Tacoma Stars - Midlakes United | scheduled | -
 - 2026-07-08 05:30 | ABD USL Lig 2 Güneybatı Grubu | Capo Ii - Seahorses | scheduled | -
 - 2026-07-08 13:00 | Hazırlık Kulüpler | Aarhus Fremad - Silkeborg | scheduled | -
@@ -71,6 +68,9 @@ Yarin: 31
 - 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Boston City | live | -
 - 2026-07-08 02:00 | ABD USL Lig 2 Merkez Konferansı | Union Macomb - Afc Ann Arbor | live | -
 - 2026-07-08 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Vermont Green - Connecticut Rus | live | -
+- 2026-07-08 02:45 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Fc Motown Ii | live | -
+- 2026-07-08 03:00 | Ekvador Pro Lig | Aucas - Guayaquil City | live | -
+- 2026-07-08 03:00 | ABD USL Lig 2 Güney Konferansı | Texoma - Denton Diablos | live | -
 
 ## Biten Maclar
 Biten mac yok.
