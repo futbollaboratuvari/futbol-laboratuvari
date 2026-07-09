@@ -2,20 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-09T10:39:09.752Z
+- Güncelleme: 2026-07-09T14:19:20.827Z
 - Ham maç sayısı: 40
 - Yarın bülteni maç sayısı: 5
 - Detay blok sayısı: 113
-- Aktif bülten maçı: 40
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 36
+- Bültenden düşürülen maç: 4
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rennes - Caen | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.22 | 6 |
-| Lask Linz - Ingolstadt | Hazırlık Kulüpler | 15:30 | Veri bekleniyor | - | 1.4 | 4 |
-| Cracovia Krako - Pardubice | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 1.92 | 8 |
-| Descaldes - Mornar Bar | UEFA Konferans Ligi 1. Eleme Turu | 17:00 | Veri bekleniyor | - | 2.07 | 8 |
 | Cfr Cluj - Karpaty Lviv | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.86 | 8 |
 | Rapid Bükreş - Slovan Liberec | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.93 | 8 |
 | Nomme Kalju - Linfield | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.95 | 8 |
