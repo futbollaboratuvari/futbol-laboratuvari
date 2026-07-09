@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.07.2026 13:30:07
+Oluşturma: 09.07.2026 13:37:04
 
 ## Özet
 
-- Toplam tahmin: 21
-- Bekleyen tahmin: 21
+- Toplam tahmin: 22
+- Bekleyen tahmin: 22
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 5
+- Lig sayısı: 6
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 09.07.2026 13:30:07
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
-- MS X: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-09 | Hazırlık Kulüpler | Korona Kielce - Omonia | MS X | pending | 50/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Caernarfon - Levadia Tallinn | MS 1 | pending | 45/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia - Malisheva | MS X | pending | 50/100
 - 2026-07-09 | UEFA Avrupa Ligi 1. Eleme Turu | Vojvodina - Ferencvaros | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 09.07.2026 13:30:07
 - 2026-07-09 | ABD USL Lig 1 | Greenville Tri - Sarasota Paradi | MS 2 | pending | 40/100
 - 2026-07-09 | ABD USL Lig 1 | New York Cosmo - Naples | MS X | pending | 50/100
 - 2026-07-09 | ABD USL | Sacramento Rep - Rhode Island | MS 2 | pending | 40/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Descaldes - Mornar Bar | MS X | pending | 40/100
 

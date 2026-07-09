@@ -1,28 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-08T16:21:31.453Z",
-  "updated_at": "2026-07-09T10:30:07.552Z",
+  "updated_at": "2026-07-09T10:37:05.364Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 21,
-    "pending_predictions": 21,
+    "total_predictions": 22,
+    "pending_predictions": 22,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 5,
+    "league_count": 6,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 1,
     "updated_predictions": 0,
-    "last_score_link_checked": 21,
+    "last_score_link_checked": 22,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS 1": {
-      "total": 2,
-      "pending": 2,
+    "MS X": {
+      "total": 11,
+      "pending": 11,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 10,
-      "pending": 10,
+    "MS 1": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +52,16 @@
     }
   },
   "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Konferans Ligi 1. Eleme Turu": {
       "total": 15,
       "pending": 15,
@@ -104,6 +114,16 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Konferans Ligi 1. Eleme Turu :: MS 1": {
       "total": 2,
       "pending": 2,
@@ -187,6 +207,23 @@
   },
   "predictions": [
     {
+      "id": "2026-07-09|hazirlik kulupler|korona kielce omonia|ms x|19 00",
+      "date": "2026-07-09",
+      "created_at": "2026-07-09T10:37:04.921Z",
+      "match_name": "Korona Kielce - Omonia",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "19:00",
+      "market": "MS X",
+      "odds": "3.17",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|caernarfon levadia tallinn|ms 1|20 30",
       "date": "2026-07-09",
       "created_at": "2026-07-08T22:17:11.308Z",
@@ -202,7 +239,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|vllaznia malisheva|ms x|21 00",
@@ -220,7 +257,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa avrupa ligi 1 eleme turu|vojvodina ferencvaros|ms x|21 00",
@@ -238,7 +275,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|petrovac zalgiris vilniu|ms x|21 45",
@@ -256,7 +293,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|runavik hamrun|ms x|21 45",
@@ -274,7 +311,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|penybont santa coloma|ms x|21 45",
@@ -292,7 +329,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|sarajevo inter turku|ms 2|22 00",
@@ -310,7 +347,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|dinamo tirana astana|ms x|22 00",
@@ -328,7 +365,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|stjarnan vikingur gota|ms x|22 00",
@@ -346,7 +383,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|dunya kupasi 2026 ceyrek final|fransa fas|ms 2|23 00",
@@ -364,7 +401,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.350Z"
+      "updated_at": "2026-07-09T10:37:04.922Z"
     },
     {
       "id": "2026-07-09|abd usl|hartford athle orange county b|ms 2|02 00",
@@ -454,7 +491,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|nomme kalju linfield|ms 2|19 00",
@@ -472,7 +509,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|liepaja decic tuzi|ms 2|19 00",
@@ -490,7 +527,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|hegelmann paide linnamees|ms x|19 00",
@@ -508,7 +545,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|alashkert yelimay semey|ms 2|19 00",
@@ -526,7 +563,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|marsaxlokk fc pyunik erewan|ms 1|20 00",
@@ -544,7 +581,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     },
     {
       "id": "2026-07-09|uefa konferans ligi 1 eleme turu|dinamo minsk fk sileks|ms 2|20 00",
@@ -562,7 +599,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-09T10:30:07.349Z"
+      "updated_at": "2026-07-09T10:37:04.921Z"
     }
   ]
 }

@@ -1,117 +1,276 @@
 {
-  "generated_at": "2026-07-08T22:16:53.005Z",
+  "generated_at": "2026-07-09T10:37:04.045Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
   "restored_from_cache": false,
-  "match_count": 62,
-  "live_match_count": 3,
-  "finished_count": 0,
+  "match_count": 34,
+  "live_match_count": 0,
+  "finished_count": 5,
   "first_match": {
     "date": "2026-07-09",
-    "time": "00:00",
-    "league": "ABD USL Lig 2 Orta Atlantik Grubu",
-    "home": "Delaware Fc",
-    "away": "Eagle Fc",
-    "status": "live",
-    "liveStatus": "live",
-    "minute": 60,
+    "time": "16:00",
+    "league": "Hazırlık Kulüpler",
+    "home": "Cracovia Krako",
+    "away": "Pardubice",
+    "status": "scheduled",
+    "liveStatus": "scheduled",
+    "minute": null,
+    "homeScore": null,
+    "awayScore": null,
     "score": "",
+    "lastLiveUpdate": "2026-07-09T10:36:53.758Z",
     "source": "Maçkolik canlı robot",
-    "matchCode": "01031",
-    "available_odds": {
-      "msx": 6.52,
-      "ms2": 11.3,
-      "bttsYes": 6.52,
-      "bttsNo": 11.3,
-      "bttsYes_guess": 6.52,
-      "bttsNo_guess": 11.3
-    },
-    "odds": {
-      "msx": 6.52,
-      "ms2": 11.3,
-      "bttsYes": 6.52,
-      "bttsNo": 11.3,
-      "bttsYes_guess": 6.52,
-      "bttsNo_guess": 11.3
-    },
-    "raw_market_guess_odds": {},
-    "raw_odds_sequence": [],
-    "market_odds_inventory": [
-      "ms1",
-      "msx",
-      "ms2",
-      "over25",
-      "under25",
-      "over35",
-      "under35",
-      "bttsYes",
-      "bttsNo",
-      "firstHalfBttsYes",
-      "firstHalfBttsNo",
-      "secondHalfBttsYes",
-      "secondHalfBttsNo",
-      "bttsYes_guess",
-      "bttsNo_guess"
+    "matchCode": "04181",
+    "oddsSource": "Robot ham veri havuzu",
+    "one": 2.02,
+    "oneOdd": 2.02,
+    "ms1": 2.02,
+    "odd1": 2.02,
+    "draw": 3.21,
+    "drawOdd": 3.21,
+    "msx": 3.21,
+    "oddX": 3.21,
+    "two": 2.31,
+    "twoOdd": 2.31,
+    "ms2": 2.31,
+    "odd2": 2.31,
+    "raw_market_blocks": [
+      {
+        "market_code": "04181",
+        "values": [
+          2.02,
+          3.21,
+          2.31
+        ],
+        "guess": "Maç Sonucu 1/X/2",
+        "named_values": {
+          "ms1": 2.02,
+          "msx": 3.21,
+          "ms2": 2.31
+        },
+        "detail_market_candidates": [
+          {
+            "market": "Maç Sonucu 1/X/2",
+            "values": {
+              "ms1": 2.02,
+              "msx": 3.21,
+              "ms2": 2.31
+            }
+          },
+          {
+            "market": "İlk Yarı 1/X/2",
+            "values": {
+              "firstHalf1_guess": 2.02,
+              "firstHalfX_guess": 3.21,
+              "firstHalf2_guess": 2.31
+            }
+          },
+          {
+            "market": "İkinci Yarı 1/X/2",
+            "values": {
+              "secondHalf1_guess": 2.02,
+              "secondHalfX_guess": 3.21,
+              "secondHalf2_guess": 2.31
+            }
+          },
+          {
+            "market": "Handikap 1/X/2",
+            "values": {
+              "handicap1_guess": 2.02,
+              "handicapX_guess": 3.21,
+              "handicap2_guess": 2.31
+            }
+          }
+        ]
+      },
+      {
+        "market_code": "04187",
+        "values": [
+          1.23,
+          1.09,
+          1.33
+        ],
+        "guess": "2.5 Alt / Üst",
+        "named_values": {
+          "under25": 1.23,
+          "over25": 1.09
+        },
+        "detail_market_candidates": [
+          {
+            "market": "Maç Sonucu 1/X/2",
+            "values": {
+              "ms1": 1.23,
+              "msx": 1.09,
+              "ms2": 1.33
+            }
+          },
+          {
+            "market": "İlk Yarı 1/X/2",
+            "values": {
+              "firstHalf1_guess": 1.23,
+              "firstHalfX_guess": 1.09,
+              "firstHalf2_guess": 1.33
+            }
+          },
+          {
+            "market": "İkinci Yarı 1/X/2",
+            "values": {
+              "secondHalf1_guess": 1.23,
+              "secondHalfX_guess": 1.09,
+              "secondHalf2_guess": 1.33
+            }
+          },
+          {
+            "market": "Handikap 1/X/2",
+            "values": {
+              "handicap1_guess": 1.23,
+              "handicapX_guess": 1.09,
+              "handicap2_guess": 1.33
+            }
+          }
+        ]
+      }
     ],
-    "wide_market_odds_count": 6,
-    "suggested_option": "Değerli market yok",
-    "suggested_odds": "-",
-    "analysis_score": 0,
-    "confidence": "0%",
-    "risk_level": "Yüksek",
-    "decision": "Oynama",
-    "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
-    "include_in_coupon": false,
-    "raw_market_value_count": 2,
+    "raw_market_guess_odds": {
+      "ms1": 2.02,
+      "msx": 3.21,
+      "ms2": 2.31,
+      "under25": 1.23,
+      "over25": 1.09
+    },
+    "detail_market_candidates": [
+      {
+        "market_code": "04181",
+        "market": "Maç Sonucu 1/X/2",
+        "values": {
+          "ms1": 2.02,
+          "msx": 3.21,
+          "ms2": 2.31
+        }
+      },
+      {
+        "market_code": "04181",
+        "market": "İlk Yarı 1/X/2",
+        "values": {
+          "firstHalf1_guess": 2.02,
+          "firstHalfX_guess": 3.21,
+          "firstHalf2_guess": 2.31
+        }
+      },
+      {
+        "market_code": "04181",
+        "market": "İkinci Yarı 1/X/2",
+        "values": {
+          "secondHalf1_guess": 2.02,
+          "secondHalfX_guess": 3.21,
+          "secondHalf2_guess": 2.31
+        }
+      },
+      {
+        "market_code": "04181",
+        "market": "Handikap 1/X/2",
+        "values": {
+          "handicap1_guess": 2.02,
+          "handicapX_guess": 3.21,
+          "handicap2_guess": 2.31
+        }
+      },
+      {
+        "market_code": "04187",
+        "market": "Maç Sonucu 1/X/2",
+        "values": {
+          "ms1": 1.23,
+          "msx": 1.09,
+          "ms2": 1.33
+        }
+      },
+      {
+        "market_code": "04187",
+        "market": "İlk Yarı 1/X/2",
+        "values": {
+          "firstHalf1_guess": 1.23,
+          "firstHalfX_guess": 1.09,
+          "firstHalf2_guess": 1.33
+        }
+      },
+      {
+        "market_code": "04187",
+        "market": "İkinci Yarı 1/X/2",
+        "values": {
+          "secondHalf1_guess": 1.23,
+          "secondHalfX_guess": 1.09,
+          "secondHalf2_guess": 1.33
+        }
+      },
+      {
+        "market_code": "04187",
+        "market": "Handikap 1/X/2",
+        "values": {
+          "handicap1_guess": 1.23,
+          "handicapX_guess": 1.09,
+          "handicap2_guess": 1.33
+        }
+      }
+    ],
+    "raw_market_block_count": 2,
+    "raw_market_value_count": 6,
+    "raw_market_source": "Robot ham veri hücreleri",
+    "flow_status": "scheduled",
     "mbs": null,
-    "raw_market_blocks": [],
-    "detail_market_candidates": [],
+    "odds": {
+      "ms1": 2.02,
+      "msx": 3.21,
+      "ms2": 2.31,
+      "under25": 1.23,
+      "over25": 1.09
+    },
+    "available_odds": {
+      "ms1": 2.02,
+      "msx": 3.21,
+      "ms2": 2.31,
+      "under25": 1.23,
+      "over25": 1.09
+    },
+    "raw_odds_sequence": [],
     "detail_markets": [
+      {
+        "key": "ms1",
+        "label": "MS 1",
+        "odd": 2.02,
+        "source": "Robot ham veri havuzu"
+      },
       {
         "key": "msx",
         "label": "MS X",
-        "odd": 6.52,
-        "source": "Maçkolik canlı robot"
+        "odd": 3.21,
+        "source": "Robot ham veri havuzu"
       },
       {
         "key": "ms2",
         "label": "MS 2",
-        "odd": 11.3,
-        "source": "Maçkolik canlı robot"
+        "odd": 2.31,
+        "source": "Robot ham veri havuzu"
       },
       {
-        "key": "bttsYes",
-        "label": "KG Var",
-        "odd": 6.52,
-        "source": "Maçkolik canlı robot"
+        "key": "under25",
+        "label": "2.5 Alt",
+        "odd": 1.23,
+        "source": "Robot ham veri havuzu"
       },
       {
-        "key": "bttsNo",
-        "label": "KG Yok",
-        "odd": 11.3,
-        "source": "Maçkolik canlı robot"
-      },
-      {
-        "key": "bttsYes_guess",
-        "label": "bttsYes_guess",
-        "odd": 6.52,
-        "source": "Maçkolik canlı robot"
-      },
-      {
-        "key": "bttsNo_guess",
-        "label": "bttsNo_guess",
-        "odd": 11.3,
-        "source": "Maçkolik canlı robot"
+        "key": "over25",
+        "label": "2.5 Ust",
+        "odd": 1.09,
+        "source": "Robot ham veri havuzu"
       }
     ],
-    "raw_market_source": "Maçkolik canlı robot",
-    "oddsSource": "Maçkolik canlı robot",
+    "wide_market_odds_count": 5,
     "detail": {
-      "analysis": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
-      "prediction": "Oynama",
-      "confidence": 0,
-      "risk": "Yüksek",
+      "analysis": "Detay analizi icin robot verisi bekleniyor.",
+      "prediction": "Tahmin verisi bekleniyor",
+      "confidence": null,
+      "risk": "",
       "team_info": {
         "home": null,
         "away": null
@@ -120,40 +279,34 @@
       "goal_expectation": null,
       "markets": [
         {
+          "key": "ms1",
+          "label": "MS 1",
+          "odd": 2.02,
+          "source": "Robot ham veri havuzu"
+        },
+        {
           "key": "msx",
           "label": "MS X",
-          "odd": 6.52,
-          "source": "Maçkolik canlı robot"
+          "odd": 3.21,
+          "source": "Robot ham veri havuzu"
         },
         {
           "key": "ms2",
           "label": "MS 2",
-          "odd": 11.3,
-          "source": "Maçkolik canlı robot"
+          "odd": 2.31,
+          "source": "Robot ham veri havuzu"
         },
         {
-          "key": "bttsYes",
-          "label": "KG Var",
-          "odd": 6.52,
-          "source": "Maçkolik canlı robot"
+          "key": "under25",
+          "label": "2.5 Alt",
+          "odd": 1.23,
+          "source": "Robot ham veri havuzu"
         },
         {
-          "key": "bttsNo",
-          "label": "KG Yok",
-          "odd": 11.3,
-          "source": "Maçkolik canlı robot"
-        },
-        {
-          "key": "bttsYes_guess",
-          "label": "bttsYes_guess",
-          "odd": 6.52,
-          "source": "Maçkolik canlı robot"
-        },
-        {
-          "key": "bttsNo_guess",
-          "label": "bttsNo_guess",
-          "odd": 11.3,
-          "source": "Maçkolik canlı robot"
+          "key": "over25",
+          "label": "2.5 Ust",
+          "odd": 1.09,
+          "source": "Robot ham veri havuzu"
         }
       ]
     }
