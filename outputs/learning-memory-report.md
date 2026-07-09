@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.07.2026 20:34:40
+Oluşturma: 09.07.2026 21:11:55
 
 ## Özet
 
-- Toplam tahmin: 24
-- Bekleyen tahmin: 24
+- Toplam tahmin: 28
+- Bekleyen tahmin: 28
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 5
+- Lig sayısı: 6
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,16 @@ Oluşturma: 09.07.2026 20:34:40
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-09 | Hazırlık Kulüpler | Korona Kielce - Omonia | MS X | pending | 50/100
+- 2026-07-09 | UEFA Avrupa Ligi 1. Eleme Turu | Cska Sofia - Derry City | MS X | pending | 60/100
+- 2026-07-09 | Hazırlık Kulüpler | Cfr Cluj - Karpaty Lviv | MS 2 | pending | 40/100
+- 2026-07-09 | Hazırlık Kulüpler | Rapid Bükreş - Slovan Liberec | MS X | pending | 50/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Sarajevo - Inter Turku | MS X | pending | 50/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Petrovac - Zalgiris Vilniu | MS 1 | pending | 40/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Runavik - Hamrun | MS 2 | pending | 40/100
@@ -37,8 +41,4 @@ Oluşturma: 09.07.2026 20:34:40
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Penybont - Santa Coloma | MS X | pending | 50/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Sarajevo - Inter Turku | MS 2 | pending | 50/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tirana - Astana | MS X | pending | 50/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Stjarnan - Vikingur Gota | MS X | pending | 80/100
-- 2026-07-09 | Dünya Kupası 2026 Çeyrek Final | Fransa - Fas | MS 2 | pending | 65/100
-- 2026-07-09 | ABD USL | Hartford Athle - Orange County B | MS 2 | pending | 50/100
-- 2026-07-09 | ABD USL Lig 1 | Greenville Tri - Sarasota Paradi | MS 2 | pending | 40/100
 
