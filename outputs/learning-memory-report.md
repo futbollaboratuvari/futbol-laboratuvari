@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.07.2026 13:37:44
+Oluşturma: 09.07.2026 13:39:30
 
 ## Özet
 
@@ -8,7 +8,7 @@ Oluşturma: 09.07.2026 13:37:44
 - Bekleyen tahmin: 22
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 6
+- Lig sayısı: 5
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
