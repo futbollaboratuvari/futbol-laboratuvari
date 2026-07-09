@@ -1,19 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-08T22:43:37.188184+00:00
+Tarih: 2026-07-09T10:37:28.954855+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 30
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 29
-- Ham veri havuzu toplam mac sayisi: 1388
+- Kac mac bulundu: 40
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 34
+- Ham veri havuzu toplam mac sayisi: 1394
 - Hedef tarih: 09.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Valley Grubu
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Çeyrek Final
 - Hazırlık Kulüpler
 - UEFA Avrupa Ligi 1. Eleme Turu
@@ -74,8 +78,8 @@ Tarih: 2026-07-08T22:43:37.188184+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 9
+- Acilan detay: 9
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -89,25 +93,25 @@ Tarih: 2026-07-08T22:43:37.188184+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 09.07.2026 | 23:00 | Dünya Kupası 2026 Çeyrek Final | Fransa | Fas | 04096 | 5 |
-| 09.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Petrovac | Zalgiris Vilniu | 04963 | 5 |
-| 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Velez Mostar | Milsami-Ursidos | 04813 | 5 |
+| 09.07.2026 | 20:00 | UEFA Avrupa Ligi 1. Eleme Turu | Sheriff Tirasp | Aluminij | 08588 | 5 |
+| 09.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Cska Sofia | Derry City | 06310 | 4 |
+| 09.07.2026 | 20:00 | UEFA Avrupa Ligi 1. Eleme Turu | Dynamo Kiev | Universitatea C | 06298 | 5 |
+| 09.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Hajduk Split | Zilina | 04833 | 5 |
+| 09.07.2026 | 19:00 | UEFA Avrupa Ligi 1. Eleme Turu | Qarabagh | Vestri | 08538 | 4 |
+| 09.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vojvodina | Ferencvaros | 06311 | 5 |
+| 09.07.2026 | 20:15 | UEFA Konferans Ligi 1. Eleme Turu | Mondorf Les Ba | Dinamo Tiflis | 04832 | 5 |
+| 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Minsk | Fk Sileks | 04656 | 5 |
 | 09.07.2026 | 17:00 | UEFA Konferans Ligi 1. Eleme Turu | Descaldes | Mornar Bar | 03033 | 5 |
-| 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bohemian | St Josephs | 04604 | 4 |
+| 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Velez Mostar | Milsami-Ursidos | 04813 | 5 |
+| 09.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Petrovac | Zalgiris Vilniu | 04963 | 5 |
 | 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Marsaxlokk Fc | Pyunik Erewan | 04722 | 5 |
+| 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bohemian | St Josephs | 04604 | 4 |
+| 09.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Liepaja | Decic Tuzi | 04167 | 5 |
 | 09.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Sarajevo | Inter Turku | 05589 | 5 |
 | 09.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tirana | Astana | 05047 | 5 |
 | 09.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Runavik | Hamrun | 05046 | 5 |
 | 09.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Penybont | Santa Coloma | 04998 | 5 |
 | 09.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Stjarnan | Vikingur Gota | 05594 | 5 |
-| 09.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | College Europa | Skendija | 04837 | 5 |
-| 09.07.2026 | 21:30 | UEFA Konferans Ligi 1. Eleme Turu | Glentoran | Daugava Riga | 04952 | 5 |
-| 09.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Nomme Kalju | Linfield | 04531 | 5 |
-| 09.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia | Malisheva | 04945 | 5 |
-| 09.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Caernarfon | Levadia Tallinn | 04834 | 5 |
-| 09.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Liepaja | Decic Tuzi | 04167 | 5 |
-| 09.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Dila Gori | Virtus | 03819 | 4 |
-| 09.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Minsk | Fk Sileks | 04656 | 5 |
-| 09.07.2026 | 20:15 | UEFA Konferans Ligi 1. Eleme Turu | Mondorf Les Ba | Dinamo Tiflis | 04832 | 5 |
 
 ## Sonuc
 

@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-08T22:15:54.778Z
-- Ham fixture sayisi: 1380
-- Bugun/yarin kaynak mac: 65
-- Aktif bulten maci: 62
+- Guncelleme: 2026-07-09T10:37:30.034Z
+- Ham fixture sayisi: 1387
+- Bugun/yarin kaynak mac: 72
+- Aktif bulten maci: 40
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 3
+- Bultenden dusurulen mac: 32
 
-- 1. 2026-07-09 01:30 | ABD USL Lig 2 Chesapeake Grubu | Bethesda - Virginia Maraud | scheduled
-- 2. 2026-07-09 01:30 | Ekvador Kupa Son 32 Turu | Santo Domingo - Indep. Jose Ter | scheduled
-- 3. 2026-07-09 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock - Boston | scheduled
-- 4. 2026-07-09 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru - Ironbound | scheduled
-- 5. 2026-07-09 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fort Lauderdal - Weston | scheduled
-- 6. 2026-07-09 02:00 | ABD USL Lig 1 | Greenville Tri - Sarasota Paradi | scheduled
-- 7. 2026-07-09 02:00 | ABD USL | Hartford Athle - Orange County B | scheduled
-- 8. 2026-07-09 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc - Lansing City | scheduled
-- 9. 2026-07-09 02:00 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fc Miami City | scheduled
-- 10. 2026-07-09 02:00 | ABD USL Lig 1 | New York Cosmo - Naples | scheduled
-- 11. 2026-07-09 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Ocean City - Lehigh Valley U | scheduled
-- 12. 2026-07-09 02:00 | ABD USL Lig 2 Chesapeake Grubu | Patuxent - Christos | scheduled
-- 13. 2026-07-09 02:00 | Brezilya Serie B | Ponte Preta - Criciuma | scheduled
-- 14. 2026-07-09 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Sc United Bant - Charlotte Ind. | scheduled
-- 15. 2026-07-09 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Inter Gainesvil | scheduled
+- 1. 2026-07-09 15:00 | Hazırlık Kulüpler | Rennes - Caen | scheduled
+- 2. 2026-07-09 15:30 | Hazırlık Kulüpler | Lask Linz - Ingolstadt | scheduled
+- 3. 2026-07-09 16:00 | Hazırlık Kulüpler | Cracovia Krako - Pardubice | scheduled
+- 4. 2026-07-09 17:00 | UEFA Konferans Ligi 1. Eleme Turu | Descaldes - Mornar Bar | scheduled
+- 5. 2026-07-09 18:30 | Hazırlık Kulüpler | Cfr Cluj - Karpaty Lviv | scheduled
+- 6. 2026-07-09 18:30 | Hazırlık Kulüpler | Rapid Bükreş - Slovan Liberec | scheduled
+- 7. 2026-07-09 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Alashkert - Yelimay Semey | scheduled
+- 8. 2026-07-09 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Dila Gori - Virtus | scheduled
+- 9. 2026-07-09 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Hegelmann - Paide Linnamees | scheduled
+- 10. 2026-07-09 19:00 | Hazırlık Kulüpler | Korona Kielce - Omonia | scheduled
+- 11. 2026-07-09 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Liepaja - Decic Tuzi | scheduled
+- 12. 2026-07-09 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Nomme Kalju - Linfield | scheduled
+- 13. 2026-07-09 19:00 | UEFA Avrupa Ligi 1. Eleme Turu | Qarabagh - Vestri | scheduled
+- 14. 2026-07-09 19:30 | Hazırlık Kulüpler | Chemnitzer - Union Berlin | scheduled
+- 15. 2026-07-09 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bohemian - St Josephs | scheduled

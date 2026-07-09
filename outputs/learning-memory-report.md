@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.07.2026 13:37:04
+Oluşturma: 09.07.2026 13:37:44
 
 ## Özet
 
@@ -20,13 +20,13 @@ Oluşturma: 09.07.2026 13:37:04
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
+- MS X: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-09 | Hazırlık Kulüpler | Korona Kielce - Omonia | MS X | pending | 50/100
+- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Runavik - Hamrun | MS 2 | pending | 40/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Caernarfon - Levadia Tallinn | MS 1 | pending | 45/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia - Malisheva | MS X | pending | 50/100
 - 2026-07-09 | UEFA Avrupa Ligi 1. Eleme Turu | Vojvodina - Ferencvaros | MS X | pending | 50/100
