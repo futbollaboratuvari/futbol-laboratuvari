@@ -2,44 +2,16 @@
 
 Gunler: 2026-07-09 / 2026-07-10
 Kaynak: fixtures.json
-Ham mac: 65
-Aktif mac: 62
-Canli mac: 3
-Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 58
+Ham mac: 66
+Aktif mac: 34
+Canli mac: 5
+Biten mac: 27
+Bultenden dusurulen mac: 32
+Bugun: 30
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-09 01:30 | Ekvador Kupa Son 32 Turu | Santo Domingo - Indep. Jose Ter | scheduled | -
-- 2026-07-09 01:30 | ABD USL Lig 2 Chesapeake Grubu | Bethesda - Virginia Maraud | scheduled | -
-- 2026-07-09 02:00 | Brezilya Serie B | Ponte Preta - Criciuma | scheduled | -
-- 2026-07-09 02:00 | ABD USL | Hartford Athle - Orange County B | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru - Ironbound | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Ocean City - Lehigh Valley U | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock - Boston | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Wake - Port City Nc | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Sc United Bant - Charlotte Ind. | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Inter Gainesvil | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fc Miami City | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fort Lauderdal - Weston | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 1 | Greenville Tri - Sarasota Paradi | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 1 | New York Cosmo - Naples | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc - Lansing City | scheduled | -
-- 2026-07-09 02:00 | ABD USL Lig 2 Chesapeake Grubu | Patuxent - Christos | scheduled | -
-- 2026-07-09 02:30 | ABD USL Lig 2 Chesapeake Grubu | Virginia Beach - Annapolis Blues | scheduled | -
-- 2026-07-09 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - East Atlanta | scheduled | -
-- 2026-07-09 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Apotheos - Dothan United | scheduled | -
-- 2026-07-09 03:00 | Bolivya Premier Lig | Real Potosi - Academia Del Ba | scheduled | -
-- 2026-07-09 03:00 | ABD USL Lig 2 Heartland Grubu | Rochester - St. Croix | scheduled | -
-- 2026-07-09 03:00 | ABD USL Lig 2 Heartland Grubu | Rkc - Chicago Dutch L | scheduled | -
-- 2026-07-09 03:00 | ABD USL Lig 2 Orta Güney Grubu | Jackson Boom - Hattiesburg | scheduled | -
-- 2026-07-09 03:00 | ABD USL Lig 2 Orta Güney Grubu | Little Rock Ra - Memphis Fc | scheduled | -
-- 2026-07-09 03:00 | ABD USL Lig 2 NorCal Grubu | Davis Legacy - San Francisco C | scheduled | -
-- 2026-07-09 04:00 | Ekvador Kupa Son 32 Turu | Independiente - Ldu Quito | scheduled | -
-- 2026-07-09 04:00 | ABD USL Lig 2 Güneybatı Grubu | City Sc - Amsg | scheduled | -
-- 2026-07-09 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot - Ballard | scheduled | -
-- 2026-07-09 05:30 | ABD USL | Sacramento Rep - Rhode Island | scheduled | -
+- 2026-07-09 16:00 | Hazırlık Kulüpler | Cracovia Krako - Pardubice | scheduled | -
 - 2026-07-09 17:00 | UEFA Konferans Ligi 1. Eleme Turu | Descaldes - Mornar Bar | scheduled | -
 - 2026-07-09 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Nomme Kalju - Linfield | scheduled | -
 - 2026-07-09 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Liepaja - Decic Tuzi | scheduled | -
@@ -78,6 +50,34 @@ Yarin: 4
 - 2026-07-09 00:00 | ABD USL Lig 2 Orta Atlantik Grubu | Delaware Fc - Eagle Fc | live | -
 - 2026-07-09 01:00 | Bolivya Premier Lig | Real Oruro - Universitario D | live | -
 - 2026-07-09 01:00 | ABD USL Lig 2 Great Forest Grubu | Cleveland Forc - Steel City | live | -
+- 2026-07-09 01:30 | Ekvador Kupa Son 32 Turu | Santo Domingo - Indep. Jose Ter | live | -
+- 2026-07-09 01:30 | ABD USL Lig 2 Chesapeake Grubu | Bethesda - Virginia Maraud | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-09 02:00 | Brezilya Serie B | Ponte Preta - Criciuma | finished | -
+- 2026-07-09 02:00 | ABD USL | Hartford Athle - Orange County B | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Metropolitan Grubu | Cedar Stars Ru - Ironbound | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Ocean City - Lehigh Valley U | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock - Boston | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Wake - Port City Nc | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Güney Atlantik Grubu | Sc United Bant - Charlotte Ind. | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Inter Gainesvil | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fc Miami City | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fort Lauderdal - Weston | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 1 | Greenville Tri - Sarasota Paradi | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 1 | New York Cosmo - Naples | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Merkez Konferansı | Kalamazoo Fc - Lansing City | finished | -
+- 2026-07-09 02:00 | ABD USL Lig 2 Chesapeake Grubu | Patuxent - Christos | finished | -
+- 2026-07-09 02:30 | ABD USL Lig 2 Chesapeake Grubu | Virginia Beach - Annapolis Blues | finished | -
+- 2026-07-09 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Southern Socce - East Atlanta | finished | -
+- 2026-07-09 02:30 | ABD USL Lig 2 Güney Merkez Grubu | Apotheos - Dothan United | finished | -
+- 2026-07-09 03:00 | Bolivya Premier Lig | Real Potosi - Academia Del Ba | finished | -
+- 2026-07-09 03:00 | ABD USL Lig 2 Heartland Grubu | Rochester - St. Croix | finished | -
+- 2026-07-09 03:00 | ABD USL Lig 2 Heartland Grubu | Rkc - Chicago Dutch L | finished | -
+- 2026-07-09 03:00 | ABD USL Lig 2 Orta Güney Grubu | Jackson Boom - Hattiesburg | finished | -
+- 2026-07-09 03:00 | ABD USL Lig 2 Orta Güney Grubu | Little Rock Ra - Memphis Fc | finished | -
+- 2026-07-09 03:00 | ABD USL Lig 2 NorCal Grubu | Davis Legacy - San Francisco C | finished | -
+- 2026-07-09 04:00 | Ekvador Kupa Son 32 Turu | Independiente - Ldu Quito | finished | -
+- 2026-07-09 04:00 | ABD USL Lig 2 Güneybatı Grubu | City Sc - Amsg | finished | -
+- 2026-07-09 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot - Ballard | finished | -
+- 2026-07-09 05:30 | ABD USL | Sacramento Rep - Rhode Island | finished | -

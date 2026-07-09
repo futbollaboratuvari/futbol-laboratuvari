@@ -2,50 +2,24 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-08T22:43:22.028Z
-- Ham maç sayısı: 65
+- Güncelleme: 2026-07-09T09:01:03.941Z
+- Ham maç sayısı: 66
 - Yarın bülteni maç sayısı: 4
-- Detay blok sayısı: 165
-- Aktif bülten maçı: 60
-- Bültenden düşürülen maç: 5
+- Detay blok sayısı: 168
+- Aktif bülten maçı: 34
+- Bültenden düşürülen maç: 32
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ponte Preta - Criciuma | Brezilya Serie B | 02:00 | Veri bekleniyor | - | 4.84 | 7 |
-| Hartford Athle - Orange County B | ABD USL | 02:00 | Veri bekleniyor | - | 1.58 | 8 |
-| Cedar Stars Ru - Ironbound | ABD USL Lig 2 Metropolitan Grubu | 02:00 | Veri bekleniyor | - | 3.67 | 7 |
-| Ocean City - Lehigh Valley U | ABD USL Lig 2 Orta Atlantik Grubu | 02:00 | Veri bekleniyor | - | 1.31 | 4 |
-| Black Rock - Boston | ABD USL Lig 2 Kuzeydoğu Grubu | 02:00 | Veri bekleniyor | - | 1.38 | 4 |
-| Wake - Port City Nc | ABD USL Lig 2 Güney Atlantik Grubu | 02:00 | Veri bekleniyor | - | 2.1 | 6 |
-| Sc United Bant - Charlotte Ind. | ABD USL Lig 2 Güney Atlantik Grubu | 02:00 | Veri bekleniyor | - | 2.8 | 6 |
-| The Villages - Inter Gainesvil | ABD USL Lig 2 Güneydoğu Grubu | 02:00 | Veri bekleniyor | - | 1.05 | 4 |
-| Lakeland Unite - Fc Miami City | ABD USL Lig 2 Güney Florida Grubu | 02:00 | Veri bekleniyor | - | 1.24 | 4 |
-| Fort Lauderdal - Weston | ABD USL Lig 2 Güney Florida Grubu | 02:00 | Veri bekleniyor | - | - | 3 |
-| Greenville Tri - Sarasota Paradi | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 1.74 | 8 |
-| New York Cosmo - Naples | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 2.1 | 8 |
-| Kalamazoo Fc - Lansing City | ABD USL Lig 2 Merkez Konferansı | 02:00 | Veri bekleniyor | - | - | 3 |
-| Patuxent - Christos | ABD USL Lig 2 Chesapeake Grubu | 02:00 | Veri bekleniyor | - | 17.1 | 3 |
-| Virginia Beach - Annapolis Blues | ABD USL Lig 2 Chesapeake Grubu | 02:30 | Veri bekleniyor | - | 2.02 | 6 |
-| Southern Socce - East Atlanta | ABD USL Lig 2 Güney Merkez Grubu | 02:30 | Veri bekleniyor | - | 1.21 | 4 |
-| Apotheos - Dothan United | ABD USL Lig 2 Güney Merkez Grubu | 02:30 | Veri bekleniyor | - | 6.92 | 4 |
-| Real Potosi - Academia Del Ba | Bolivya Premier Lig | 03:00 | Veri bekleniyor | - | 1.46 | 5 |
-| Rochester - St. Croix | ABD USL Lig 2 Heartland Grubu | 03:00 | Veri bekleniyor | - | 5.4 | 4 |
-| Rkc - Chicago Dutch L | ABD USL Lig 2 Heartland Grubu | 03:00 | Veri bekleniyor | - | 1.59 | 6 |
-| Jackson Boom - Hattiesburg | ABD USL Lig 2 Orta Güney Grubu | 03:00 | Veri bekleniyor | - | 7.86 | 4 |
-| Little Rock Ra - Memphis Fc | ABD USL Lig 2 Orta Güney Grubu | 03:00 | Veri bekleniyor | - | 1.13 | 4 |
-| Davis Legacy - San Francisco C | ABD USL Lig 2 NorCal Grubu | 03:00 | Veri bekleniyor | - | 5.63 | 4 |
-| Independiente - Ldu Quito | Ekvador Kupa Son 32 Turu | 04:00 | Veri bekleniyor | - | 4.07 | 5 |
-| City Sc - Amsg | ABD USL Lig 2 Güneybatı Grubu | 04:00 | Veri bekleniyor | - | 1.45 | 5 |
-| Bigfoot - Ballard | ABD USL Lig 2 Kuzeybatı Grubu | 05:00 | Veri bekleniyor | - | 17.1 | 4 |
-| Sacramento Rep - Rhode Island | ABD USL | 05:30 | Veri bekleniyor | - | 1.98 | 8 |
+| Cracovia Krako - Pardubice | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 2.02 | 6 |
 | Descaldes - Mornar Bar | UEFA Konferans Ligi 1. Eleme Turu | 17:00 | Veri bekleniyor | - | 2.25 | 8 |
 | Nomme Kalju - Linfield | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.73 | 8 |
 | Liepaja - Decic Tuzi | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.5 | 7 |
 | Hegelmann - Paide Linnamees | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.02 | 8 |
 | Alashkert - Yelimay Semey | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.85 | 8 |
 | Dila Gori - Virtus | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | - | 5 |
-| Korona Kielce - Omonia | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.04 | 6 |
+| Korona Kielce - Omonia | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.04 | 8 |
 | Qarabagh - Vestri | UEFA Avrupa Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | - | 5 |
 | Velez Mostar - Milsami-Ursidos | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.61 | 7 |
 | Bohemian - St Josephs | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | - | 5 |
