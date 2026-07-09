@@ -1,37 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-09T22:48:13.936959+00:00
+Tarih: 2026-07-09T22:50:44.909070+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 61
-- Kac mac kaydedildi: 61
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 44
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 44
 - Ham veri havuzu toplam mac sayisi: 1455
 - Hedef tarih: 10.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Metropolitan Grubu
 - Avrupa U19 Şampiyonası Kadınlar Final
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
 - Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
 - Avustralya Victoria NPL 1
 - Avustralya Victoria NPL 2 Gençlik Ligi
 - Belarus Premier Lig
-- Brezilya Serie B
 - Dünya Kupası 2026 Çeyrek Final
-- Ekvador Pro Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
@@ -40,7 +30,6 @@ Tarih: 2026-07-09T22:48:13.936959+00:00
 - Güney Kore K3 Ligi
 - Hazırlık Kulüpler
 - Letonya Kupa Son 16 Turu
-- Uruguay Premier Lig Intermediate Turu Grup 2
 - Çin Halk Cumhuriyeti Süper Lig
 - İrlanda 1.Lig
 - İrlanda Premier Lig
