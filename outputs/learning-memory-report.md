@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.07.2026 01:53:29
+Oluşturma: 10.07.2026 01:54:50
 
 ## Özet
 
-- Toplam tahmin: 28
-- Bekleyen tahmin: 28
+- Toplam tahmin: 49
+- Bekleyen tahmin: 49
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 6
+- Lig sayısı: 15
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 10.07.2026 01:53:29
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
+- MS X: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-09 | Hazırlık Kulüpler | Korona Kielce - Omonia | MS X | pending | 50/100
-- 2026-07-09 | UEFA Avrupa Ligi 1. Eleme Turu | Cska Sofia - Derry City | MS X | pending | 60/100
-- 2026-07-09 | Hazırlık Kulüpler | Cfr Cluj - Karpaty Lviv | MS 2 | pending | 40/100
-- 2026-07-09 | Hazırlık Kulüpler | Rapid Bükreş - Slovan Liberec | MS X | pending | 50/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Sarajevo - Inter Turku | MS X | pending | 50/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Petrovac - Zalgiris Vilniu | MS 1 | pending | 40/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Runavik - Hamrun | MS 2 | pending | 40/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Caernarfon - Levadia Tallinn | MS 1 | pending | 45/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia - Malisheva | MS X | pending | 50/100
-- 2026-07-09 | UEFA Avrupa Ligi 1. Eleme Turu | Vojvodina - Ferencvaros | MS X | pending | 50/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Petrovac - Zalgiris Vilniu | MS X | pending | 40/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Runavik - Hamrun | MS X | pending | 40/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Penybont - Santa Coloma | MS X | pending | 50/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Sarajevo - Inter Turku | MS 2 | pending | 50/100
-- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tirana - Astana | MS X | pending | 50/100
+- 2026-07-10 | Güney Kore K Lig 2 | Suwon City - Jeonnam Dragons | MS 2 | pending | 50/100
+- 2026-07-10 | Güney Kore K Lig 2 | Cheonan City F - Gimhae City | MS 2 | pending | 40/100
+- 2026-07-10 | Avustralya NPL Victoria | Preston Lions - Hume City | MS X | pending | 50/100
+- 2026-07-10 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Knigh | MS X | pending | 50/100
+- 2026-07-10 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Yunnan Yukun | MS X | pending | 70/100
+- 2026-07-10 | Finlandiya Ykkönen | Inter Turku Ii - Rops | MS X | pending | 55/100
+- 2026-07-10 | Finlandiya Ykkönen | Tampere Utd - Salpa Salo | MS X | pending | 60/100
+- 2026-07-10 | Finlandiya Veikkausliiga | Vaasa - Seinajoen Jk | MS X | pending | 50/100
+- 2026-07-10 | Hazırlık Kulüpler | Lugano - Heidenheim | MS X | pending | 50/100
+- 2026-07-10 | Finlandiya Ykkösliiga | Pk-35 Ry - Kapa | MS 2 | pending | 60/100
+- 2026-07-10 | Hazırlık Kulüpler | Cincinnati - Burnley | MS X | pending | 60/100
+- 2026-07-10 | İrlanda Premier Lig | Dundalk - Drogheda | MS 2 | pending | 60/100
+- 2026-07-10 | İrlanda 1.Lig | Wexford Youths - Kerry | MS 2 | pending | 40/100
+- 2026-07-10 | İrlanda 1.Lig | Athlone - Cobh Ramblers | MS X | pending | 50/100
+- 2026-07-10 | İrlanda 1.Lig | Finn Harps - Treaty Unt. | MS X | pending | 50/100
 
