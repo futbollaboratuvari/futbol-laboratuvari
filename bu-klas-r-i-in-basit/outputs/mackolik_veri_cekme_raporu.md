@@ -1,25 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-09T17:33:04.069250+00:00
+Tarih: 2026-07-09T17:34:32.716825+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 17
+- Kac mac bulundu: 12
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 17
+- Kac mac zaten vardi: 12
 - Ham veri havuzu toplam mac sayisi: 1394
 - Hedef tarih: 09.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Valley Grubu
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Çeyrek Final
-- Hazırlık Kulüpler
 - UEFA Avrupa Ligi 1. Eleme Turu
 - UEFA Konferans Ligi 1. Eleme Turu
 
@@ -104,11 +99,6 @@ Tarih: 2026-07-09T17:33:04.069250+00:00
 | 09.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia | Malisheva | 04945 | 5 |
 | 09.07.2026 | 21:30 | UEFA Konferans Ligi 1. Eleme Turu | Glentoran | Daugava Riga | 04952 | 5 |
 | 09.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Stjarnan | Vikingur Gota | 05594 | 5 |
-| 10.07.2026 | 04:00 | Hazırlık Kulüpler | Colorado | Fc Juarez | 14772 | 3 |
-| 10.07.2026 | 03:00 | Bolivya Premier Lig | Nacional Potos | Aurora | 06665 | 3 |
-| 10.07.2026 | 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England | Blackwatch Rush | 05224 | 3 |
-| 10.07.2026 | 01:00 | ABD USL Lig 2 Valley Grubu | Dayton Dutch | West Virginia C | 03635 | 3 |
-| 10.07.2026 | 02:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United | Union Macomb | 03790 | 3 |
 
 ## Sonuc
 
