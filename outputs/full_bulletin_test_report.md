@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 13
-- Live match count: 14
-- Finished removed count: 9
-- Date window: 2026-07-09 / 2026-07-10 23:59
+- Scheduled match count: 65
+- Live match count: 1
+- Finished removed count: 0
+- Date window: 2026-07-10 / 2026-07-11 23:59
 
-- 2026-07-09 19:30 | Chemnitzer - Union Berlin | live
-- 2026-07-09 20:00 | Dynamo Kiev - Universitatea C | live
-- 2026-07-09 20:00 | Sheriff Tirasp - Aluminij | live
-- 2026-07-09 20:00 | Bohemian - St Josephs | live
-- 2026-07-09 20:00 | Dinamo Minsk - Fk Sileks | live
-- 2026-07-09 20:00 | Marsaxlokk Fc - Pyunik Erewan | live
-- 2026-07-09 20:00 | Velez Mostar - Milsami-Ursidos | live
-- 2026-07-09 20:15 | Mondorf Les Ba - Dinamo Tiflis | live
-- 2026-07-09 20:30 | Caernarfon - Levadia Tallinn | live
-- 2026-07-09 20:30 | College Europa - Skendija | live
+- 2026-07-10 01:00 | Dayton Dutch - West Virginia C | live
+- 2026-07-10 02:00 | New England - Blackwatch Rush | scheduled
+- 2026-07-10 02:00 | Midwest United - Union Macomb | scheduled
+- 2026-07-10 03:00 | Nacional Potos - Aurora | scheduled
+- 2026-07-10 04:00 | Colorado - Fc Juarez | scheduled
+- 2026-07-10 11:15 | Langwarrin U23 - Melbourne Victo | scheduled
+- 2026-07-10 11:30 | Wolfsberger - Metalist | scheduled
+- 2026-07-10 12:30 | Brisbane Roar - Rochedale Rover | scheduled
+- 2026-07-10 12:30 | Peninsula Powe - Brisbane Wolves | scheduled
+- 2026-07-10 12:30 | Green Gully - Altona Magic | scheduled

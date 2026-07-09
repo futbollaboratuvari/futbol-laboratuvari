@@ -1,22 +1,50 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-09T17:34:32.716825+00:00
+Tarih: 2026-07-09T22:48:13.936959+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 12
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 12
-- Ham veri havuzu toplam mac sayisi: 1394
-- Hedef tarih: 09.07.2026 Europe/Istanbul
+- Kac mac bulundu: 61
+- Kac mac kaydedildi: 61
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 1455
+- Hedef tarih: 10.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Metropolitan Grubu
+- Avrupa U19 Şampiyonası Kadınlar Final
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Tazmanya
+- Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
+- Avustralya Victoria NPL 2 Gençlik Ligi
+- Belarus Premier Lig
+- Brezilya Serie B
 - Dünya Kupası 2026 Çeyrek Final
-- UEFA Avrupa Ligi 1. Eleme Turu
-- UEFA Konferans Ligi 1. Eleme Turu
+- Ekvador Pro Lig
+- Estonya Premium Lig
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Güney Kore K Lig 2
+- Güney Kore K3 Ligi
+- Hazırlık Kulüpler
+- Letonya Kupa Son 16 Turu
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Çin Halk Cumhuriyeti Süper Lig
+- İrlanda 1.Lig
+- İrlanda Premier Lig
+- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -73,8 +101,8 @@ Tarih: 2026-07-09T17:34:32.716825+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 34
+- Acilan detay: 34
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -87,18 +115,26 @@ Tarih: 2026-07-09T17:34:32.716825+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.07.2026 | 23:00 | Dünya Kupası 2026 Çeyrek Final | Fransa | Fas | 04096 | 5 |
-| 09.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Cska Sofia | Derry City | 06310 | 4 |
-| 09.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vojvodina | Ferencvaros | 06311 | 5 |
-| 09.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Hajduk Split | Zilina | 04833 | 5 |
-| 09.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Petrovac | Zalgiris Vilniu | 04963 | 5 |
-| 09.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Sarajevo | Inter Turku | 05589 | 5 |
-| 09.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tirana | Astana | 05047 | 5 |
-| 09.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Runavik | Hamrun | 05046 | 5 |
-| 09.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Penybont | Santa Coloma | 04998 | 5 |
-| 09.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia | Malisheva | 04945 | 5 |
-| 09.07.2026 | 21:30 | UEFA Konferans Ligi 1. Eleme Turu | Glentoran | Daugava Riga | 04952 | 5 |
-| 09.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Stjarnan | Vikingur Gota | 05594 | 5 |
+| 10.07.2026 | 22:00 | Dünya Kupası 2026 Çeyrek Final | İspanya | Belçika | 03609 | 5 |
+| 10.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Drogheda | 11274 | 5 |
+| 10.07.2026 | 22:00 | İrlanda Premier Lig | Waterford | St Patricks | 11427 | 5 |
+| 10.07.2026 | 19:00 | Finlandiya Veikkausliiga | Vaasa | Seinajoen Jk | 10757 | 5 |
+| 10.07.2026 | 19:00 | Hazırlık Kulüpler | Ajax | Ae Kition | 11609 | 3 |
+| 10.07.2026 | 17:00 | Hazırlık Kulüpler | Legia Varşova | Trencin | 11592 | 3 |
+| 10.07.2026 | 19:00 | Hazırlık Kulüpler | Lugano | Heidenheim | 03042 | 5 |
+| 10.07.2026 | 13:00 | Hazırlık Kulüpler | Birmingham | Huddersfield | 05096 | 5 |
+| 10.07.2026 | 12:30 | Hazırlık Kulüpler | Slaven Belupo | Debreceni | 11558 | 5 |
+| 10.07.2026 | 11:30 | Hazırlık Kulüpler | Wolfsberger | Metalist 1925 K | 11540 | 5 |
+| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Cincinnati | Burnley | 11626 | 5 |
+| 10.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish | Yunnan Yukun | 09212 | 5 |
+| 10.07.2026 | 19:00 | Avrupa U19 Şampiyonası Kadınlar Final | Almanya U19 (K | İspanya U19 (K) | 14297 | 5 |
+| 10.07.2026 | 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry | Kapa | 10704 | 5 |
+| 10.07.2026 | 18:30 | Finlandiya Ykkösliiga | Kotka | Japs | 10601 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Wexford Youths | Kerry | 11383 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Athlone | Cobh Ramblers | 11144 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Finn Harps | Treaty Unt. | 11342 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Cork City | Longford | 11236 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Bray Wanderers | Ucd | 11193 | 5 |
 
 ## Sonuc
 
