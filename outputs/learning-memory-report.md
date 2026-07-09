@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.07.2026 13:39:30
+Oluşturma: 09.07.2026 20:33:18
 
 ## Özet
 
-- Toplam tahmin: 22
-- Bekleyen tahmin: 22
+- Toplam tahmin: 24
+- Bekleyen tahmin: 24
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 5
@@ -20,12 +20,14 @@ Oluşturma: 09.07.2026 13:39:30
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
-- MS X: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Sarajevo - Inter Turku | MS X | pending | 50/100
+- 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Petrovac - Zalgiris Vilniu | MS 1 | pending | 40/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Runavik - Hamrun | MS 2 | pending | 40/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Caernarfon - Levadia Tallinn | MS 1 | pending | 45/100
 - 2026-07-09 | UEFA Konferans Ligi 1. Eleme Turu | Vllaznia - Malisheva | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 09.07.2026 13:39:30
 - 2026-07-09 | Dünya Kupası 2026 Çeyrek Final | Fransa - Fas | MS 2 | pending | 65/100
 - 2026-07-09 | ABD USL | Hartford Athle - Orange County B | MS 2 | pending | 50/100
 - 2026-07-09 | ABD USL Lig 1 | Greenville Tri - Sarasota Paradi | MS 2 | pending | 40/100
-- 2026-07-09 | ABD USL Lig 1 | New York Cosmo - Naples | MS X | pending | 50/100
-- 2026-07-09 | ABD USL | Sacramento Rep - Rhode Island | MS 2 | pending | 40/100
 
