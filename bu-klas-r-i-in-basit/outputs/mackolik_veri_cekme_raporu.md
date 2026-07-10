@@ -1,24 +1,79 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-10T17:25:03.119805+00:00
+Tarih: 2026-07-10T21:33:28.262381+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 18
-- Kac mac kaydedildi: 0
+- Durum: success
+- Kac mac bulundu: 144
+- Kac mac kaydedildi: 144
 - Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
-- Hedef tarih: 10.07.2026 Europe/Istanbul
+- Ham veri havuzu toplam mac sayisi: 1609
+- Hedef tarih: 11.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Kupası Grup 1
+- ABD USL Kupası Grup 2
+- ABD USL Kupası Grup 3
+- ABD USL Kupası Grup 4
+- ABD USL Kupası Grup 5
+- ABD USL Kupası Grup 6
+- ABD USL Kupası Grup 7
+- ABD USL Lig 2 Chesapeake Grubu
+- ABD USL Lig 2 Great Forest Grubu
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Merkez Konferansı
+- ABD USL Lig 2 Metropolitan Grubu
+- ABD USL Lig 2 NorCal Grubu
+- ABD USL Lig 2 Orta Atlantik Grubu
+- Arjantin Ulusal Primera Lig
+- Avrupa U19 Şampiyonası Final
+- Avustralya NPL Batı Avustralya
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avustralya Victoria NPL 1
+- Belarus Premier Lig
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Çeyrek Final
+- Ekvador Pro Lig
+- Estonya Premium Lig
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
-- İrlanda 1.Lig
+- Kazakistan Premier Lig
+- Letonya 1.Lig
+- Letonya Kupa Son 16 Turu
+- Litvanya A Ligi
+- Moldova Ulusal Lig
+- Norveç Eliteserien
+- Rusya FNL
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
 - İrlanda Premier Lig
+- İskoçya Lig Kupası Grup A
+- İskoçya Lig Kupası Grup B
+- İskoçya Lig Kupası Grup C
+- İskoçya Lig Kupası Grup D
+- İskoçya Lig Kupası Grup E
+- İskoçya Lig Kupası Grup F
+- İskoçya Lig Kupası Grup G
+- İskoçya Lig Kupası Grup H
+- İsveç Allsvenskan
 - İzlanda 1.Lig
+- İzlanda 2.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -75,40 +130,41 @@ Tarih: 2026-07-10T17:25:03.119805+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 19
-- Acilan detay: 19
+- Denenen Tumu alani: 69
+- Acilan detay: 69
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 10.07.2026 | 22:00 | Dünya Kupası 2026 Çeyrek Final | İspanya | Belçika | 03609 | 5 |
-| 10.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Drogheda | 11274 | 5 |
-| 10.07.2026 | 22:00 | İrlanda Premier Lig | Waterford | St Patricks | 11427 | 5 |
-| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Aveley | Leiston | 05488 | 3 |
-| 10.07.2026 | 21:45 | Hazırlık Kulüpler | Horsham | Eastleigh | 05632 | 5 |
-| 10.07.2026 | 19:00 | Hazırlık Kulüpler | Lokomotiva | Partizan Belgra | 05261 | 5 |
-| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Cincinnati | Burnley | 11626 | 5 |
-| 10.07.2026 | 19:30 | Hazırlık Kulüpler | Leobendorf | Floridsdorfer | 05395 | 5 |
-| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Oxford City | Briton Ferry | 05417 | 3 |
-| 10.07.2026 | 21:45 | İrlanda 1.Lig | Cork City | Longford | 11236 | 5 |
-| 10.07.2026 | 21:45 | İrlanda 1.Lig | Athlone | Cobh Ramblers | 11144 | 5 |
-| 10.07.2026 | 21:45 | İrlanda 1.Lig | Finn Harps | Treaty Unt. | 11342 | 5 |
-| 10.07.2026 | 21:45 | İrlanda 1.Lig | Wexford Youths | Kerry | 11383 | 5 |
-| 10.07.2026 | 21:45 | İrlanda 1.Lig | Bray Wanderers | Ucd | 11193 | 5 |
-| 10.07.2026 | 22:15 | İzlanda 1.Lig | Aegir | Hk Kopavogur | 11659 | 3 |
-| 10.07.2026 | 22:15 | İzlanda 1.Lig | Ir Reykjavik | Throttur | 11676 | 3 |
-| 10.07.2026 | 22:15 | İzlanda 1.Lig | Njardvik | Grindavik | 11710 | 5 |
-| 10.07.2026 | 22:15 | İzlanda 1.Lig | Leiknir Reykja | Grotta | 11693 | 3 |
+| 12.07.2026 | 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin | İsviçre | 05890 | 5 |
+| 12.07.2026 | 00:00 | Dünya Kupası 2026 Çeyrek Final | Norveç | İngiltere | 04990 | 5 |
+| 11.07.2026 | 21:00 | Avrupa U19 Şampiyonası Final | İspanya (U19) | Almanya U19 | 05772 | 5 |
+| 11.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Sligo Rovers | 11484 | 5 |
+| 11.07.2026 | 15:00 | Finlandiya Veikkausliiga | Lahti | Helsinki | 10812 | 5 |
+| 11.07.2026 | 17:00 | Finlandiya Veikkausliiga | Turku | Oulu | 11047 | 5 |
+| 11.07.2026 | 17:00 | Finlandiya Veikkausliiga | Gnistan | Mariehamn | 10950 | 5 |
+| 11.07.2026 | 17:00 | Norveç Eliteserien | Aalesund | Molde | 12723 | 5 |
+| 11.07.2026 | 15:00 | Norveç Eliteserien | Fredrikstad | Lillestrom | 12666 | 5 |
+| 11.07.2026 | 19:00 | Norveç Eliteserien | Tromso | Valerenga | 12778 | 5 |
+| 11.07.2026 | 16:00 | İsveç Allsvenskan | Mjallby | Aik Stockholm | 13864 | 5 |
+| 11.07.2026 | 18:30 | İsveç Allsvenskan | Orgryte | Hacken | 13918 | 5 |
+| 11.07.2026 | 21:30 | Hazırlık Kulüpler | Benfica | Flamengo | 06059 | 5 |
+| 11.07.2026 | 16:00 | Hazırlık Kulüpler | Brondby | Odense | 01280 | 3 |
+| 11.07.2026 | 13:00 | Hazırlık Kulüpler | Feyenoord | Club Brugge | 05744 | 5 |
+| 11.07.2026 | 13:30 | Güney Kore K Lig 1 | Gwangju | Pohang Steelers | 12111 | 5 |
+| 11.07.2026 | 13:30 | Güney Kore K Lig 1 | Ulsan | Jeonbuk Hm | 12198 | 5 |
+| 11.07.2026 | 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm | Bucheon | 12057 | 5 |
+| 11.07.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. | Chongqing Tongl | 10163 | 5 |
+| 11.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng | Qingdao Youth I | 09991 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
