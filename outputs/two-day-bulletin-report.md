@@ -1,19 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-10 / 2026-07-11
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 76
-Aktif mac: 54
-Canli mac: 16
-Biten mac: 6
-Bultenden dusurulen mac: 22
-Bugun: 37
+Aktif mac: 51
+Canli mac: 18
+Biten mac: 7
+Bultenden dusurulen mac: 25
+Bugun: 34
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-10 14:00 | Hazırlık Kulüpler | Hradec Kralove - Nordsjaelland | scheduled | -
-- 2026-07-10 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Yunnan Yukun | scheduled | -
-- 2026-07-10 16:00 | Hazırlık Kulüpler | Avusturya Lust - Aarau | scheduled | -
 - 2026-07-10 16:30 | Hazırlık Kulüpler | Sandhausen - Kaiserslautern | scheduled | -
 - 2026-07-10 17:00 | Hazırlık Kulüpler | Legia Varşova - Trencin | scheduled | -
 - 2026-07-10 17:00 | Hazırlık Kulüpler | Stoke - Braga | scheduled | -
@@ -67,6 +65,8 @@ Yarin: 17
 - 2026-07-11 07:30 | Avustralya NPL Tazmanya | Devonport City - South East Unit | scheduled | -
 
 ## Canli Maclar
+- 2026-07-10 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Yunnan Yukun | live | -
+- 2026-07-10 16:00 | Hazırlık Kulüpler | Avusturya Lust - Aarau | live | -
 - 2026-07-10 11:30 | Hazırlık Kulüpler | Wolfsberger - Metalist 1925 K | live | -
 - 2026-07-10 12:30 | Hazırlık Kulüpler | Slaven Belupo - Debreceni | live | -
 - 2026-07-10 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane Wolves | live | -
@@ -85,6 +85,7 @@ Yarin: 17
 - 2026-07-10 13:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Western Utd. Ii | live | -
 
 ## Biten Maclar
+- 2026-07-10 14:00 | Hazırlık Kulüpler | Hradec Kralove - Nordsjaelland | finished | -
 - 2026-07-10 01:00 | ABD USL Lig 2 Valley Grubu | Dayton Dutch - West Virginia C | finished | -
 - 2026-07-10 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Blackwatch Rush | finished | -
 - 2026-07-10 02:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United - Union Macomb | finished | -
