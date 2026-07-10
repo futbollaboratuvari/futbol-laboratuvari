@@ -4,33 +4,14 @@ Gunler: 2026-07-10 / 2026-07-11
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 76
-Aktif mac: 51
-Canli mac: 18
-Biten mac: 7
-Bultenden dusurulen mac: 25
-Bugun: 34
+Aktif mac: 32
+Canli mac: 34
+Biten mac: 10
+Bultenden dusurulen mac: 44
+Bugun: 15
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-10 16:30 | Hazırlık Kulüpler | Sandhausen - Kaiserslautern | scheduled | -
-- 2026-07-10 17:00 | Hazırlık Kulüpler | Legia Varşova - Trencin | scheduled | -
-- 2026-07-10 17:00 | Hazırlık Kulüpler | Stoke - Braga | scheduled | -
-- 2026-07-10 17:30 | Finlandiya Ykkönen | Inter Turku Ii - Rops | scheduled | -
-- 2026-07-10 17:30 | Belarus 1.Lig | Slonim - Niva Dolbizno | scheduled | -
-- 2026-07-10 18:30 | Finlandiya Ykkösliiga | Kotka - Japs | scheduled | -
-- 2026-07-10 18:30 | Belarus Premier Lig | Dnepr Mogilev - Minsk | scheduled | -
-- 2026-07-10 18:30 | Finlandiya Ykkönen | Tampere Utd - Salpa Salo | scheduled | -
-- 2026-07-10 18:30 | Letonya Kupa Son 16 Turu | Metta / Lu - Speks | scheduled | -
-- 2026-07-10 18:30 | Hazırlık Kulüpler | Neftchi Baku - Radnicki Nis | scheduled | -
-- 2026-07-10 18:30 | Belarus 1.Lig | Ostrovets Fc - Energetik-Bgu | scheduled | -
-- 2026-07-10 19:00 | Finlandiya Veikkausliiga | Vaasa - Seinajoen Jk | scheduled | -
-- 2026-07-10 19:00 | Hazırlık Kulüpler | Ajax - Ae Kition | scheduled | -
-- 2026-07-10 19:00 | Hazırlık Kulüpler | Lugano - Heidenheim | scheduled | -
-- 2026-07-10 19:00 | Avrupa U19 Şampiyonası Kadınlar Final | Almanya U19 (K - İspanya U19 (K) | scheduled | -
-- 2026-07-10 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry - Kapa | scheduled | -
-- 2026-07-10 19:00 | Estonya Premium Lig | Harju Jalgpall - Trans Narva | scheduled | -
-- 2026-07-10 19:00 | Hazırlık Kulüpler | Maribor - Charlton | scheduled | -
-- 2026-07-10 19:30 | Hazırlık Kulüpler | Leobendorf - Floridsdorfer | scheduled | -
 - 2026-07-10 20:00 | Letonya Kupa Son 16 Turu | Leevon / Ppk - Riga Fc | scheduled | -
 - 2026-07-10 21:30 | Hazırlık Kulüpler | Cincinnati - Burnley | scheduled | -
 - 2026-07-10 21:45 | İrlanda Premier Lig | Dundalk - Drogheda | scheduled | -
@@ -65,6 +46,22 @@ Yarin: 17
 - 2026-07-11 07:30 | Avustralya NPL Tazmanya | Devonport City - South East Unit | scheduled | -
 
 ## Canli Maclar
+- 2026-07-10 17:30 | Finlandiya Ykkönen | Inter Turku Ii - Rops | live | -
+- 2026-07-10 17:30 | Belarus 1.Lig | Slonim - Niva Dolbizno | live | -
+- 2026-07-10 18:30 | Finlandiya Ykkösliiga | Kotka - Japs | live | -
+- 2026-07-10 18:30 | Belarus Premier Lig | Dnepr Mogilev - Minsk | live | -
+- 2026-07-10 18:30 | Finlandiya Ykkönen | Tampere Utd - Salpa Salo | live | -
+- 2026-07-10 18:30 | Letonya Kupa Son 16 Turu | Metta / Lu - Speks | live | -
+- 2026-07-10 18:30 | Hazırlık Kulüpler | Neftchi Baku - Radnicki Nis | live | -
+- 2026-07-10 18:30 | Belarus 1.Lig | Ostrovets Fc - Energetik-Bgu | live | -
+- 2026-07-10 19:00 | Finlandiya Veikkausliiga | Vaasa - Seinajoen Jk | live | -
+- 2026-07-10 19:00 | Hazırlık Kulüpler | Ajax - Ae Kition | live | -
+- 2026-07-10 19:00 | Hazırlık Kulüpler | Lugano - Heidenheim | live | -
+- 2026-07-10 19:00 | Avrupa U19 Şampiyonası Kadınlar Final | Almanya U19 (K - İspanya U19 (K) | live | -
+- 2026-07-10 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry - Kapa | live | -
+- 2026-07-10 19:00 | Estonya Premium Lig | Harju Jalgpall - Trans Narva | live | -
+- 2026-07-10 19:00 | Hazırlık Kulüpler | Maribor - Charlton | live | -
+- 2026-07-10 19:30 | Hazırlık Kulüpler | Leobendorf - Floridsdorfer | live | -
 - 2026-07-10 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Yunnan Yukun | live | -
 - 2026-07-10 16:00 | Hazırlık Kulüpler | Avusturya Lust - Aarau | live | -
 - 2026-07-10 11:30 | Hazırlık Kulüpler | Wolfsberger - Metalist 1925 K | live | -
@@ -85,6 +82,9 @@ Yarin: 17
 - 2026-07-10 13:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Western Utd. Ii | live | -
 
 ## Biten Maclar
+- 2026-07-10 16:30 | Hazırlık Kulüpler | Sandhausen - Kaiserslautern | finished | -
+- 2026-07-10 17:00 | Hazırlık Kulüpler | Legia Varşova - Trencin | finished | -
+- 2026-07-10 17:00 | Hazırlık Kulüpler | Stoke - Braga | finished | -
 - 2026-07-10 14:00 | Hazırlık Kulüpler | Hradec Kralove - Nordsjaelland | finished | -
 - 2026-07-10 01:00 | ABD USL Lig 2 Valley Grubu | Dayton Dutch - West Virginia C | finished | -
 - 2026-07-10 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Blackwatch Rush | finished | -
