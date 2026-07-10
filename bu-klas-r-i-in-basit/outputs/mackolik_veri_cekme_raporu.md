@@ -1,33 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-10T21:33:28.262381+00:00
+Tarih: 2026-07-10T21:36:37.702174+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 144
-- Kac mac kaydedildi: 144
-- Kac mac zaten vardi: 0
+- Kac mac bulundu: 109
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 109
 - Ham veri havuzu toplam mac sayisi: 1609
 - Hedef tarih: 11.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL Kupası Grup 1
-- ABD USL Kupası Grup 2
-- ABD USL Kupası Grup 3
-- ABD USL Kupası Grup 4
-- ABD USL Kupası Grup 5
-- ABD USL Kupası Grup 6
-- ABD USL Kupası Grup 7
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Great Forest Grubu
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Heartland Grubu
 - ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
 - ABD USL Lig 2 Metropolitan Grubu
 - ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
@@ -42,7 +30,6 @@ Tarih: 2026-07-10T21:33:28.262381+00:00
 - Avustralya Victoria NPL 1
 - Belarus Premier Lig
 - Bolivya Premier Lig
-- Dünya Kupası 2026 Çeyrek Final
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
@@ -144,8 +131,6 @@ Tarih: 2026-07-10T21:33:28.262381+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 12.07.2026 | 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin | İsviçre | 05890 | 5 |
-| 12.07.2026 | 00:00 | Dünya Kupası 2026 Çeyrek Final | Norveç | İngiltere | 04990 | 5 |
 | 11.07.2026 | 21:00 | Avrupa U19 Şampiyonası Final | İspanya (U19) | Almanya U19 | 05772 | 5 |
 | 11.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Sligo Rovers | 11484 | 5 |
 | 11.07.2026 | 15:00 | Finlandiya Veikkausliiga | Lahti | Helsinki | 10812 | 5 |
@@ -164,6 +149,8 @@ Tarih: 2026-07-10T21:33:28.262381+00:00
 | 11.07.2026 | 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm | Bucheon | 12057 | 5 |
 | 11.07.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. | Chongqing Tongl | 10163 | 5 |
 | 11.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng | Qingdao Youth I | 09991 | 5 |
+| 11.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Queen Of South | Kelty Hearts | 13555 | 5 |
+| 11.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Queens Park | Brora Rangers | 13588 | 4 |
 
 ## Sonuc
 
