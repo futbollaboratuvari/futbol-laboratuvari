@@ -1,14 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-10T10:36:59.766133+00:00
+=======
+Tarih: 2026-07-10T10:37:52.706607+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 60
 - Kac mac kaydedildi: 10
 - Kac mac zaten vardi: 50
+=======
+- Kac mac bulundu: 43
+- Kac mac kaydedildi: 10
+- Kac mac zaten vardi: 33
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 1465
 - Hedef tarih: 10.07.2026 Europe/Istanbul
 
@@ -21,8 +31,11 @@ Tarih: 2026-07-10T10:36:59.766133+00:00
 - ABD USL Lig 2 Merkez Konferansı
 - ABD USL Lig 2 Metropolitan Grubu
 - Avrupa U19 Şampiyonası Kadınlar Final
+<<<<<<< Updated upstream
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Kuzey YGG
+=======
+>>>>>>> Stashed changes
 - Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
 - Avustralya Victoria NPL 1
