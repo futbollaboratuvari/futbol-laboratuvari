@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.07.2026 01:54:50
+Oluşturma: 10.07.2026 13:37:21
 
 ## Özet
 
-- Toplam tahmin: 49
-- Bekleyen tahmin: 49
+- Toplam tahmin: 50
+- Bekleyen tahmin: 50
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 15
@@ -20,12 +20,13 @@ Oluşturma: 10.07.2026 01:54:50
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 - MS X: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-10 | Finlandiya Ykkönen | Tampere Utd - Salpa Salo | MS 2 | pending | 60/100
 - 2026-07-10 | Güney Kore K Lig 2 | Suwon City - Jeonnam Dragons | MS 2 | pending | 50/100
 - 2026-07-10 | Güney Kore K Lig 2 | Cheonan City F - Gimhae City | MS 2 | pending | 40/100
 - 2026-07-10 | Avustralya NPL Victoria | Preston Lions - Hume City | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 10.07.2026 01:54:50
 - 2026-07-10 | İrlanda Premier Lig | Dundalk - Drogheda | MS 2 | pending | 60/100
 - 2026-07-10 | İrlanda 1.Lig | Wexford Youths - Kerry | MS 2 | pending | 40/100
 - 2026-07-10 | İrlanda 1.Lig | Athlone - Cobh Ramblers | MS X | pending | 50/100
-- 2026-07-10 | İrlanda 1.Lig | Finn Harps - Treaty Unt. | MS X | pending | 50/100
 

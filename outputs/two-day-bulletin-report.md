@@ -2,43 +2,37 @@
 
 Gunler: 2026-07-10 / 2026-07-11
 Kaynak: fixtures.json
-Ham mac: 66
-Aktif mac: 59
-Canli mac: 3
-Biten mac: 4
-Bultenden dusurulen mac: 7
-Bugun: 42
+Ham mac: 76
+Aktif mac: 54
+Canli mac: 16
+Biten mac: 6
+Bultenden dusurulen mac: 22
+Bugun: 37
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-10 12:30 | Hazırlık Kulüpler | Slaven Belupo - Debreceni | scheduled | -
-- 2026-07-10 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane Wolves | scheduled | -
-- 2026-07-10 12:30 | Avustralya NPL Queensland | Brisbane Roar - Rochedale Rover | scheduled | -
-- 2026-07-10 12:30 | Avustralya NPL Victoria | Green Gully - Altona Magic | scheduled | -
-- 2026-07-10 12:45 | Avustralya NPL Victoria | Dandenong City - South Melbourne | scheduled | -
-- 2026-07-10 13:00 | Hazırlık Kulüpler | Birmingham - Huddersfield | scheduled | -
-- 2026-07-10 13:00 | Güney Kore K3 Ligi | Ulsan Citizen - Yeoju Sejong | scheduled | -
-- 2026-07-10 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Avondale Height | scheduled | -
-- 2026-07-10 13:15 | Avustralya NPL Tazmanya | Launceston Uni - Riverside Olymp | scheduled | -
-- 2026-07-10 13:15 | Avustralya NPL Tazmanya | Glenorchy Knig - Kingborough Lio | scheduled | -
-- 2026-07-10 13:30 | Güney Kore K Lig 2 | Suwon City - Jeonnam Dragons | scheduled | -
-- 2026-07-10 13:30 | Güney Kore K Lig 2 | Cheonan City F - Gimhae City | scheduled | -
-- 2026-07-10 13:30 | Avustralya NPL Victoria | Preston Lions - Hume City | scheduled | -
-- 2026-07-10 13:30 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Knigh | scheduled | -
-- 2026-07-10 13:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Western Utd. Ii | scheduled | -
+- 2026-07-10 14:00 | Hazırlık Kulüpler | Hradec Kralove - Nordsjaelland | scheduled | -
 - 2026-07-10 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Yunnan Yukun | scheduled | -
+- 2026-07-10 16:00 | Hazırlık Kulüpler | Avusturya Lust - Aarau | scheduled | -
+- 2026-07-10 16:30 | Hazırlık Kulüpler | Sandhausen - Kaiserslautern | scheduled | -
 - 2026-07-10 17:00 | Hazırlık Kulüpler | Legia Varşova - Trencin | scheduled | -
+- 2026-07-10 17:00 | Hazırlık Kulüpler | Stoke - Braga | scheduled | -
 - 2026-07-10 17:30 | Finlandiya Ykkönen | Inter Turku Ii - Rops | scheduled | -
+- 2026-07-10 17:30 | Belarus 1.Lig | Slonim - Niva Dolbizno | scheduled | -
 - 2026-07-10 18:30 | Finlandiya Ykkösliiga | Kotka - Japs | scheduled | -
 - 2026-07-10 18:30 | Belarus Premier Lig | Dnepr Mogilev - Minsk | scheduled | -
 - 2026-07-10 18:30 | Finlandiya Ykkönen | Tampere Utd - Salpa Salo | scheduled | -
 - 2026-07-10 18:30 | Letonya Kupa Son 16 Turu | Metta / Lu - Speks | scheduled | -
+- 2026-07-10 18:30 | Hazırlık Kulüpler | Neftchi Baku - Radnicki Nis | scheduled | -
+- 2026-07-10 18:30 | Belarus 1.Lig | Ostrovets Fc - Energetik-Bgu | scheduled | -
 - 2026-07-10 19:00 | Finlandiya Veikkausliiga | Vaasa - Seinajoen Jk | scheduled | -
 - 2026-07-10 19:00 | Hazırlık Kulüpler | Ajax - Ae Kition | scheduled | -
 - 2026-07-10 19:00 | Hazırlık Kulüpler | Lugano - Heidenheim | scheduled | -
 - 2026-07-10 19:00 | Avrupa U19 Şampiyonası Kadınlar Final | Almanya U19 (K - İspanya U19 (K) | scheduled | -
 - 2026-07-10 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry - Kapa | scheduled | -
 - 2026-07-10 19:00 | Estonya Premium Lig | Harju Jalgpall - Trans Narva | scheduled | -
+- 2026-07-10 19:00 | Hazırlık Kulüpler | Maribor - Charlton | scheduled | -
+- 2026-07-10 19:30 | Hazırlık Kulüpler | Leobendorf - Floridsdorfer | scheduled | -
 - 2026-07-10 20:00 | Letonya Kupa Son 16 Turu | Leevon / Ppk - Riga Fc | scheduled | -
 - 2026-07-10 21:30 | Hazırlık Kulüpler | Cincinnati - Burnley | scheduled | -
 - 2026-07-10 21:45 | İrlanda Premier Lig | Dundalk - Drogheda | scheduled | -
@@ -47,6 +41,7 @@ Yarin: 17
 - 2026-07-10 21:45 | İrlanda 1.Lig | Finn Harps - Treaty Unt. | scheduled | -
 - 2026-07-10 21:45 | İrlanda 1.Lig | Cork City - Longford | scheduled | -
 - 2026-07-10 21:45 | İrlanda 1.Lig | Bray Wanderers - Ucd | scheduled | -
+- 2026-07-10 21:45 | Hazırlık Kulüpler | Horsham - Eastleigh | scheduled | -
 - 2026-07-10 22:00 | Dünya Kupası 2026 Çeyrek Final | İspanya - Belçika | scheduled | -
 - 2026-07-10 22:00 | İrlanda Premier Lig | Waterford - St Patricks | scheduled | -
 - 2026-07-10 22:15 | İzlanda 1.Lig | Leiknir Reykja - Grotta | scheduled | -
@@ -72,12 +67,27 @@ Yarin: 17
 - 2026-07-11 07:30 | Avustralya NPL Tazmanya | Devonport City - South East Unit | scheduled | -
 
 ## Canli Maclar
-- 2026-07-10 01:00 | ABD USL Lig 2 Valley Grubu | Dayton Dutch - West Virginia C | live | -
-- 2026-07-10 11:15 | Avustralya Victoria NPL 2 Gençlik Ligi | Langwarrin U23 - Melbourne Victo | live | -
 - 2026-07-10 11:30 | Hazırlık Kulüpler | Wolfsberger - Metalist 1925 K | live | -
+- 2026-07-10 12:30 | Hazırlık Kulüpler | Slaven Belupo - Debreceni | live | -
+- 2026-07-10 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane Wolves | live | -
+- 2026-07-10 12:30 | Avustralya NPL Queensland | Brisbane Roar - Rochedale Rover | live | -
+- 2026-07-10 12:30 | Avustralya NPL Victoria | Green Gully - Altona Magic | live | -
+- 2026-07-10 12:45 | Avustralya NPL Victoria | Dandenong City - South Melbourne | live | -
+- 2026-07-10 13:00 | Hazırlık Kulüpler | Birmingham - Huddersfield | live | -
+- 2026-07-10 13:00 | Güney Kore K3 Ligi | Ulsan Citizen - Yeoju Sejong | live | -
+- 2026-07-10 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Avondale Height | live | -
+- 2026-07-10 13:15 | Avustralya NPL Tazmanya | Launceston Uni - Riverside Olymp | live | -
+- 2026-07-10 13:15 | Avustralya NPL Tazmanya | Glenorchy Knig - Kingborough Lio | live | -
+- 2026-07-10 13:30 | Güney Kore K Lig 2 | Suwon City - Jeonnam Dragons | live | -
+- 2026-07-10 13:30 | Güney Kore K Lig 2 | Cheonan City F - Gimhae City | live | -
+- 2026-07-10 13:30 | Avustralya NPL Victoria | Preston Lions - Hume City | live | -
+- 2026-07-10 13:30 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Knigh | live | -
+- 2026-07-10 13:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Western Utd. Ii | live | -
 
 ## Biten Maclar
+- 2026-07-10 01:00 | ABD USL Lig 2 Valley Grubu | Dayton Dutch - West Virginia C | finished | -
 - 2026-07-10 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Blackwatch Rush | finished | -
 - 2026-07-10 02:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United - Union Macomb | finished | -
 - 2026-07-10 03:00 | Bolivya Premier Lig | Nacional Potos - Aurora | finished | -
 - 2026-07-10 04:00 | Hazırlık Kulüpler | Colorado - Fc Juarez | finished | -
+- 2026-07-10 11:15 | Avustralya Victoria NPL 2 Gençlik Ligi | Langwarrin U23 - Melbourne Victo | finished | -
