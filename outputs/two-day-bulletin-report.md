@@ -3,20 +3,14 @@
 Gunler: 2026-07-10 / 2026-07-11
 Kaynak: fixtures.json
 Ham mac: 66
-Aktif mac: 65
-Canli mac: 1
-Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 48
+Aktif mac: 59
+Canli mac: 3
+Biten mac: 4
+Bultenden dusurulen mac: 7
+Bugun: 42
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-10 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Blackwatch Rush | scheduled | -
-- 2026-07-10 02:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United - Union Macomb | scheduled | -
-- 2026-07-10 03:00 | Bolivya Premier Lig | Nacional Potos - Aurora | scheduled | -
-- 2026-07-10 04:00 | Hazırlık Kulüpler | Colorado - Fc Juarez | scheduled | -
-- 2026-07-10 11:15 | Avustralya Victoria NPL 2 Gençlik Ligi | Langwarrin U23 - Melbourne Victo | scheduled | -
-- 2026-07-10 11:30 | Hazırlık Kulüpler | Wolfsberger - Metalist 1925 K | scheduled | -
 - 2026-07-10 12:30 | Hazırlık Kulüpler | Slaven Belupo - Debreceni | scheduled | -
 - 2026-07-10 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane Wolves | scheduled | -
 - 2026-07-10 12:30 | Avustralya NPL Queensland | Brisbane Roar - Rochedale Rover | scheduled | -
@@ -79,6 +73,11 @@ Yarin: 17
 
 ## Canli Maclar
 - 2026-07-10 01:00 | ABD USL Lig 2 Valley Grubu | Dayton Dutch - West Virginia C | live | -
+- 2026-07-10 11:15 | Avustralya Victoria NPL 2 Gençlik Ligi | Langwarrin U23 - Melbourne Victo | live | -
+- 2026-07-10 11:30 | Hazırlık Kulüpler | Wolfsberger - Metalist 1925 K | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-10 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | New England - Blackwatch Rush | finished | -
+- 2026-07-10 02:00 | ABD USL Lig 2 Merkez Konferansı | Midwest United - Union Macomb | finished | -
+- 2026-07-10 03:00 | Bolivya Premier Lig | Nacional Potos - Aurora | finished | -
+- 2026-07-10 04:00 | Hazırlık Kulüpler | Colorado - Fc Juarez | finished | -
