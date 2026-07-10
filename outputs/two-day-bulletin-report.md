@@ -4,15 +4,14 @@ Gunler: 2026-07-10 / 2026-07-11
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 76
-Aktif mac: 32
-Canli mac: 34
+Aktif mac: 31
+Canli mac: 35
 Biten mac: 10
-Bultenden dusurulen mac: 44
-Bugun: 15
+Bultenden dusurulen mac: 45
+Bugun: 14
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-10 20:00 | Letonya Kupa Son 16 Turu | Leevon / Ppk - Riga Fc | scheduled | -
 - 2026-07-10 21:30 | Hazırlık Kulüpler | Cincinnati - Burnley | scheduled | -
 - 2026-07-10 21:45 | İrlanda Premier Lig | Dundalk - Drogheda | scheduled | -
 - 2026-07-10 21:45 | İrlanda 1.Lig | Wexford Youths - Kerry | scheduled | -
@@ -46,6 +45,7 @@ Yarin: 17
 - 2026-07-11 07:30 | Avustralya NPL Tazmanya | Devonport City - South East Unit | scheduled | -
 
 ## Canli Maclar
+- 2026-07-10 20:00 | Letonya Kupa Son 16 Turu | Leevon / Ppk - Riga Fc | live | -
 - 2026-07-10 17:30 | Finlandiya Ykkönen | Inter Turku Ii - Rops | live | -
 - 2026-07-10 17:30 | Belarus 1.Lig | Slonim - Niva Dolbizno | live | -
 - 2026-07-10 18:30 | Finlandiya Ykkösliiga | Kotka - Japs | live | -

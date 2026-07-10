@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 54
-- Live match count: 16
-- Finished removed count: 0
+- Scheduled match count: 31
+- Live match count: 15
+- Finished removed count: 16
 - Date window: 2026-07-10 / 2026-07-11 23:59
 
-- 2026-07-10 11:30 | Wolfsberger - Metalist | live
-- 2026-07-10 12:30 | Brisbane Roar - Rochedale Rover | live
-- 2026-07-10 12:30 | Peninsula Powe - Brisbane Wolves | live
-- 2026-07-10 12:30 | Green Gully - Altona Magic | live
-- 2026-07-10 12:30 | Slaven Belupo - Debreceni | live
-- 2026-07-10 12:45 | Dandenong City - South Melbourne | live
-- 2026-07-10 13:00 | Ulsan Citizen - Yeoju Sejong | live
-- 2026-07-10 13:00 | Birmingham - Huddersfield | live
-- 2026-07-10 13:15 | Glenorchy Knig - Kingborough Lio | live
-- 2026-07-10 13:15 | Launceston Uni - Riverside Olymp | live
+- 2026-07-10 18:30 | Ostrovets Fc - Energetik-Bgu | live
+- 2026-07-10 18:30 | Dnepr Mogilev - Minsk | live
+- 2026-07-10 18:30 | Tampere Utd - Salpa Salo | live
+- 2026-07-10 18:30 | Kotka - Japs | live
+- 2026-07-10 18:30 | Neftchi Baku - Radnicki Nis | live
+- 2026-07-10 18:30 | Metta / Lu - Speks | live
+- 2026-07-10 19:00 | Almanya U19 (K - İspanya U19 (K) | live
+- 2026-07-10 19:00 | Harju Jalgpall - Trans Narva | live
+- 2026-07-10 19:00 | Vaasa - Seinajoen Jk | live
+- 2026-07-10 19:00 | Pk-35 Ry - Kapa | live
