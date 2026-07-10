@@ -1,57 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-10T10:36:59.766133+00:00
-=======
-Tarih: 2026-07-10T10:37:52.706607+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-10T17:25:03.119805+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 60
-- Kac mac kaydedildi: 10
-- Kac mac zaten vardi: 50
-=======
-- Kac mac bulundu: 43
-- Kac mac kaydedildi: 10
-- Kac mac zaten vardi: 33
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 1465
+- Durum: error
+- Kac mac bulundu: 18
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 10.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güneybatı Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 Kuzeydoğu Grubu
-- ABD USL Lig 2 Merkez Konferansı
-- ABD USL Lig 2 Metropolitan Grubu
-- Avrupa U19 Şampiyonası Kadınlar Final
-<<<<<<< Updated upstream
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
-=======
->>>>>>> Stashed changes
-- Avustralya NPL Tazmanya
-- Avustralya NPL Victoria
-- Avustralya Victoria NPL 1
-- Belarus 1.Lig
-- Belarus Premier Lig
-- Brezilya Serie B
 - Dünya Kupası 2026 Çeyrek Final
-- Ekvador Pro Lig
-- Estonya Premium Lig
-- Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
-- Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
-- Letonya Kupa Son 16 Turu
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Çin Halk Cumhuriyeti Süper Lig
 - İrlanda 1.Lig
 - İrlanda Premier Lig
 - İzlanda 1.Lig
@@ -111,15 +75,16 @@ Tarih: 2026-07-10T10:37:52.706607+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 19
+- Acilan detay: 19
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -128,24 +93,22 @@ Tarih: 2026-07-10T10:37:52.706607+00:00
 | 10.07.2026 | 22:00 | Dünya Kupası 2026 Çeyrek Final | İspanya | Belçika | 03609 | 5 |
 | 10.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Drogheda | 11274 | 5 |
 | 10.07.2026 | 22:00 | İrlanda Premier Lig | Waterford | St Patricks | 11427 | 5 |
-| 10.07.2026 | 19:00 | Finlandiya Veikkausliiga | Vaasa | Seinajoen Jk | 10757 | 5 |
-| 10.07.2026 | 18:30 | Hazırlık Kulüpler | Neftchi Baku | Radnicki Nis | 05345 | 5 |
-| 10.07.2026 | 17:00 | Hazırlık Kulüpler | Stoke | Braga | 02921 | 3 |
-| 10.07.2026 | 19:00 | Hazırlık Kulüpler | Maribor | Charlton | 05323 | 5 |
-| 10.07.2026 | 19:00 | Hazırlık Kulüpler | Ajax | Ae Kition | 11609 | 3 |
-| 10.07.2026 | 16:00 | Hazırlık Kulüpler | Avusturya Lust | Aarau | 05282 | 5 |
-| 10.07.2026 | 19:00 | Hazırlık Kulüpler | Lugano | Heidenheim | 03042 | 5 |
-| 10.07.2026 | 19:30 | Hazırlık Kulüpler | Leobendorf | Floridsdorfer | 05395 | 5 |
-| 10.07.2026 | 16:30 | Hazırlık Kulüpler | Sandhausen | Kaiserslautern | 05228 | 3 |
-| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Cincinnati | Burnley | 11626 | 5 |
-| 10.07.2026 | 14:00 | Hazırlık Kulüpler | Hradec Kralove | Nordsjaelland | 06720 | 5 |
-| 10.07.2026 | 17:00 | Hazırlık Kulüpler | Legia Varşova | Trencin | 11592 | 5 |
+| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Aveley | Leiston | 05488 | 3 |
 | 10.07.2026 | 21:45 | Hazırlık Kulüpler | Horsham | Eastleigh | 05632 | 5 |
-| 10.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish | Yunnan Yukun | 09212 | 5 |
-| 10.07.2026 | 19:00 | Avrupa U19 Şampiyonası Kadınlar Final | Almanya U19 (K | İspanya U19 (K) | 14297 | 5 |
-| 10.07.2026 | 18:30 | Finlandiya Ykkösliiga | Kotka | Japs | 10601 | 5 |
-| 10.07.2026 | 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry | Kapa | 10704 | 5 |
+| 10.07.2026 | 19:00 | Hazırlık Kulüpler | Lokomotiva | Partizan Belgra | 05261 | 5 |
+| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Cincinnati | Burnley | 11626 | 5 |
+| 10.07.2026 | 19:30 | Hazırlık Kulüpler | Leobendorf | Floridsdorfer | 05395 | 5 |
+| 10.07.2026 | 21:30 | Hazırlık Kulüpler | Oxford City | Briton Ferry | 05417 | 3 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Cork City | Longford | 11236 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Athlone | Cobh Ramblers | 11144 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Finn Harps | Treaty Unt. | 11342 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Wexford Youths | Kerry | 11383 | 5 |
+| 10.07.2026 | 21:45 | İrlanda 1.Lig | Bray Wanderers | Ucd | 11193 | 5 |
+| 10.07.2026 | 22:15 | İzlanda 1.Lig | Aegir | Hk Kopavogur | 11659 | 3 |
+| 10.07.2026 | 22:15 | İzlanda 1.Lig | Ir Reykjavik | Throttur | 11676 | 3 |
+| 10.07.2026 | 22:15 | İzlanda 1.Lig | Njardvik | Grindavik | 11710 | 5 |
+| 10.07.2026 | 22:15 | İzlanda 1.Lig | Leiknir Reykja | Grotta | 11693 | 3 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR

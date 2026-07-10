@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 10.07.2026 13:37:21
-=======
-Oluşturma: 10.07.2026 13:37:55
->>>>>>> Stashed changes
+Oluşturma: 10.07.2026 20:25:03
 
 ## Özet
 
-- Toplam tahmin: 50
-- Bekleyen tahmin: 50
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 15
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 10.07.2026 13:37:55
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
-- MS X: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-10 | Finlandiya Ykkönen | Tampere Utd - Salpa Salo | MS 2 | pending | 60/100
-- 2026-07-10 | Güney Kore K Lig 2 | Suwon City - Jeonnam Dragons | MS 2 | pending | 50/100
-- 2026-07-10 | Güney Kore K Lig 2 | Cheonan City F - Gimhae City | MS 2 | pending | 40/100
-- 2026-07-10 | Avustralya NPL Victoria | Preston Lions - Hume City | MS X | pending | 50/100
-- 2026-07-10 | Avustralya Victoria NPL 1 | Northcote City - Melbourne Knigh | MS X | pending | 50/100
-- 2026-07-10 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Yunnan Yukun | MS X | pending | 70/100
-- 2026-07-10 | Finlandiya Ykkönen | Inter Turku Ii - Rops | MS X | pending | 55/100
-- 2026-07-10 | Finlandiya Ykkönen | Tampere Utd - Salpa Salo | MS X | pending | 60/100
-- 2026-07-10 | Finlandiya Veikkausliiga | Vaasa - Seinajoen Jk | MS X | pending | 50/100
-- 2026-07-10 | Hazırlık Kulüpler | Lugano - Heidenheim | MS X | pending | 50/100
-- 2026-07-10 | Finlandiya Ykkösliiga | Pk-35 Ry - Kapa | MS 2 | pending | 60/100
-- 2026-07-10 | Hazırlık Kulüpler | Cincinnati - Burnley | MS X | pending | 60/100
-- 2026-07-10 | İrlanda Premier Lig | Dundalk - Drogheda | MS 2 | pending | 60/100
-- 2026-07-10 | İrlanda 1.Lig | Wexford Youths - Kerry | MS 2 | pending | 40/100
-- 2026-07-10 | İrlanda 1.Lig | Athlone - Cobh Ramblers | MS X | pending | 50/100
 
