@@ -1,20 +1,32 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-11T10:42:49.038235+00:00
+=======
+Tarih: 2026-07-11T10:45:02.110290+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 136
 - Kac mac kaydedildi: 15
 - Kac mac zaten vardi: 121
 - Ham veri havuzu toplam mac sayisi: 1636
+=======
+- Kac mac bulundu: 95
+- Kac mac kaydedildi: 10
+- Kac mac zaten vardi: 85
+- Ham veri havuzu toplam mac sayisi: 1631
+>>>>>>> Stashed changes
 - Hedef tarih: 11.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL Kupası Grup 1
+<<<<<<< Updated upstream
 - ABD USL Kupası Grup 2
 - ABD USL Kupası Grup 3
 - ABD USL Kupası Grup 4
@@ -28,6 +40,9 @@ Tarih: 2026-07-11T10:42:49.038235+00:00
 - ABD USL Lig 2 Güneybatı Grubu
 - ABD USL Lig 2 Güneydoğu Grubu
 - ABD USL Lig 2 Heartland Grubu
+=======
+- ABD USL Lig 2 Güney Merkez Grubu
+>>>>>>> Stashed changes
 - ABD USL Lig 2 Kuzeydoğu Grubu
 - ABD USL Lig 2 Merkez Konferansı
 - ABD USL Lig 2 Metropolitan Grubu
@@ -36,8 +51,11 @@ Tarih: 2026-07-11T10:42:49.038235+00:00
 - Arjantin Ulusal Primera Lig
 - Avrupa U19 Şampiyonası Final
 - Avustralya NPL Batı Avustralya
+<<<<<<< Updated upstream
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Yeni Güney Galler
+=======
+>>>>>>> Stashed changes
 - Belarus 1.Lig
 - Belarus Premier Lig
 - Bolivya Premier Lig
@@ -70,7 +88,10 @@ Tarih: 2026-07-11T10:42:49.038235+00:00
 - İsveç Allsvenskan
 - İzlanda 1.Lig
 - İzlanda 2.Lig
+<<<<<<< Updated upstream
 - Şili Kupa Grup B
+=======
+>>>>>>> Stashed changes
 - Şili Kupa Grup G
 
 ## Okunabilen Oran Alanlari
@@ -162,6 +183,11 @@ Tarih: 2026-07-11T10:42:49.038235+00:00
 | 11.07.2026 | 18:00 | Hazırlık Kulüpler | Slavia Prag | Slovan Bratisla | 03022 | 3 |
 | 11.07.2026 | 15:00 | Hazırlık Kulüpler | Antwerp | Bochum | 02691 | 5 |
 | 11.07.2026 | 21:00 | Hazırlık Kulüpler | Panathinaikos | Grasshoppers | 03572 | 3 |
+<<<<<<< Updated upstream
+=======
+| 11.07.2026 | 16:00 | Hazırlık Kulüpler | Brondby | Odense | 01280 | 3 |
+| 11.07.2026 | 16:00 | Hazırlık Kulüpler | Linfield | Aberdeen | 02823 | 5 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
