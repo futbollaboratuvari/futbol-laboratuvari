@@ -1,27 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-11T17:43:07.477699+00:00
-=======
-Tarih: 2026-07-11T17:43:44.191115+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-11T20:28:23.883176+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-<<<<<<< Updated upstream
 - Durum: success
-- Kac mac bulundu: 68
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 66
-- Ham veri havuzu toplam mac sayisi: 1638
-=======
-- Durum: error
-- Kac mac bulundu: 25
+- Kac mac bulundu: 47
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
->>>>>>> Stashed changes
+- Kac mac zaten vardi: 47
+- Ham veri havuzu toplam mac sayisi: 1638
 - Hedef tarih: 11.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -41,33 +29,17 @@ Tarih: 2026-07-11T17:43:44.191115+00:00
 - ABD USL Lig 2 Güneydoğu Grubu
 - ABD USL Lig 2 Heartland Grubu
 - ABD USL Lig 2 Kuzeydoğu Grubu
-<<<<<<< Updated upstream
 - ABD USL Lig 2 Merkez Konferansı
 - ABD USL Lig 2 Metropolitan Grubu
-=======
->>>>>>> Stashed changes
-- ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
-- Arjantin Ulusal Primera Lig
-- Avrupa U19 Şampiyonası Final
 - Avustralya NPL Batı Avustralya
-<<<<<<< Updated upstream
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Yeni Güney Galler
-=======
->>>>>>> Stashed changes
-- Belarus Premier Lig
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Çeyrek Final
 - Ekvador Pro Lig
-- Finlandiya Ykkönen
 - Hazırlık Kulüpler
 - Uruguay Premier Lig Intermediate Turu Grup 2
-<<<<<<< Updated upstream
 - Şili Kupa Grup B
-=======
->>>>>>> Stashed changes
-- Şili Kupa Grup G
 
 ## Okunabilen Oran Alanlari
 
@@ -124,8 +96,8 @@ Tarih: 2026-07-11T17:43:44.191115+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 41
-- Acilan detay: 41
+- Denenen Tumu alani: 30
+- Acilan detay: 30
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -138,38 +110,26 @@ Tarih: 2026-07-11T17:43:44.191115+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 12.07.2026 | 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin | İsviçre | 05890 | 5 |
 | 12.07.2026 | 00:00 | Dünya Kupası 2026 Çeyrek Final | Norveç | İngiltere | 04990 | 5 |
-| 11.07.2026 | 21:00 | Avrupa U19 Şampiyonası Final | İspanya (U19) | Almanya U19 | 05772 | 5 |
-| 11.07.2026 | 21:30 | Hazırlık Kulüpler | Benfica | Flamengo | 06059 | 5 |
-| 11.07.2026 | 21:00 | Hazırlık Kulüpler | Panathinaikos | Grasshoppers | 03572 | 5 |
+| 12.07.2026 | 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin | İsviçre | 05890 | 5 |
 | 11.07.2026 | 12:00 | Hazırlık Kulüpler | Nancy | Troyes | 01653 | 5 |
-<<<<<<< Updated upstream
 | 12.07.2026 | 04:00 | Hazırlık Kulüpler | Universitario | Los Millionario | 03656 | 5 |
-| 11.07.2026 | 20:45 | Belarus Premier Lig | Gomel | Neman Grodno | 08931 | 5 |
 | 12.07.2026 | 00:30 | Şili Kupa Grup B | Sl Quillota | Univ. Catolica | 03347 | 5 |
 | 12.07.2026 | 00:30 | Şili Kupa Grup B | Capiapo | Everton De Vina | 02245 | 5 |
-=======
-| 11.07.2026 | 20:45 | Belarus Premier Lig | Gomel | Neman Grodno | 08931 | 5 |
->>>>>>> Stashed changes
-| 11.07.2026 | 22:00 | Şili Kupa Grup G | Palestino | Deportes Santa | 01667 | 5 |
-| 11.07.2026 | 22:00 | Şili Kupa Grup G | Magallanes | Audax Italiano | 01501 | 5 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | All Boys | Almirante | 07654 | 3 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | San Telmo | Chaco For Ever | 07896 | 3 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Tristan | Nueva Chicago | 07913 | 3 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Los Andes | Ciudad De Bolív | 07694 | 3 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | San Miguel | Ferro Carril Oe | 07767 | 3 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Rafaela | Maipu | 07677 | 3 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Moron | Deportivo Madry | 07711 | 3 |
-| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Caseros | Ca Mitre | 07732 | 3 |
-<<<<<<< Updated upstream
-=======
-| 11.07.2026 | 21:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Danubio | Nacional Df | 13796 | 5 |
-| 11.07.2026 | 17:00 | Finlandiya Ykkönen | Vjs | Oulun Ls | 06863 | 5 |
+| 12.07.2026 | 00:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Montevideo Wan | Progreso | 13801 | 5 |
+| 12.07.2026 | 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United | Rockdale Cs | 07515 | 5 |
 | 11.07.2026 | 10:00 | Avustralya NPL Batı Avustralya | Sorrento | Fremantle City | 07346 | 5 |
-| 11.07.2026 | 22:10 | Ekvador Pro Lig | Mushuc Runa | Indep. Jose Ter | 10466 | 5 |
-| 11.07.2026 | 22:00 | Bolivya Premier Lig | Real Oruro | Gualberto Villa | 15011 | 3 |
->>>>>>> Stashed changes
+| 12.07.2026 | 02:00 | Ekvador Pro Lig | Guayaquil City | Delfin | 10483 | 3 |
+| 12.07.2026 | 06:00 | Avustralya NPL Kuzey YGG | Valentine Phoe | Kahibah | 14535 | 3 |
+| 12.07.2026 | 05:00 | ABD USL Kupası Grup 1 | Monterey Bay | Las Vegas Light | 10247 | 5 |
+| 12.07.2026 | 04:30 | ABD USL Kupası Grup 1 | Athletic Club | Sacramento Repu | 10230 | 5 |
+| 12.07.2026 | 06:00 | ABD USL Kupası Grup 2 | Alta | Phoenix Rising | 01388 | 5 |
+| 12.07.2026 | 04:00 | ABD USL Kupası Grup 2 | El Paso Locomo | New Mexico Unit | 10136 | 5 |
+| 12.07.2026 | 05:00 | ABD USL Kupası Grup 2 | Orange County | Colorado Spring | 14349 | 5 |
+| 12.07.2026 | 03:00 | ABD USL Kupası Grup 3 | Birmingham Leg | Tulsa Roughneck | 08435 | 5 |
+| 12.07.2026 | 04:00 | ABD USL Kupası Grup 3 | San Antonio | Chattanooga Red | 10153 | 5 |
+| 12.07.2026 | 03:30 | ABD USL Kupası Grup 3 | Corpus Christi | One Knoxville | 10118 | 5 |
+| 12.07.2026 | 02:30 | ABD USL Kupası Grup 4 | Fort Wayne | Detroit City | 08243 | 5 |
 
 ## Sonuc
 
