@@ -1,30 +1,31 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-11T20:28:23.883176+00:00
+=======
+Tarih: 2026-07-11T20:29:35.591457+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 47
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 47
+=======
+- Kac mac bulundu: 4
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 4
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 1638
 - Hedef tarih: 11.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Kupası Grup 1
-- ABD USL Kupası Grup 2
-- ABD USL Kupası Grup 3
-- ABD USL Kupası Grup 4
-- ABD USL Kupası Grup 5
-- ABD USL Kupası Grup 6
-- ABD USL Kupası Grup 7
-- ABD USL Lig 2 Chesapeake Grubu
-- ABD USL Lig 2 Great Forest Grubu
-- ABD USL Lig 2 Güney Konferansı
 - ABD USL Lig 2 Güney Merkez Grubu
+<<<<<<< Updated upstream
 - ABD USL Lig 2 Güneybatı Grubu
 - ABD USL Lig 2 Güneydoğu Grubu
 - ABD USL Lig 2 Heartland Grubu
@@ -40,6 +41,11 @@ Tarih: 2026-07-11T20:28:23.883176+00:00
 - Hazırlık Kulüpler
 - Uruguay Premier Lig Intermediate Turu Grup 2
 - Şili Kupa Grup B
+=======
+- ABD USL Lig 2 Orta Atlantik Grubu
+- Avustralya NPL Batı Avustralya
+- Hazırlık Kulüpler
+>>>>>>> Stashed changes
 
 ## Okunabilen Oran Alanlari
 
@@ -110,6 +116,7 @@ Tarih: 2026-07-11T20:28:23.883176+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+<<<<<<< Updated upstream
 | 12.07.2026 | 00:00 | Dünya Kupası 2026 Çeyrek Final | Norveç | İngiltere | 04990 | 5 |
 | 12.07.2026 | 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin | İsviçre | 05890 | 5 |
 | 11.07.2026 | 12:00 | Hazırlık Kulüpler | Nancy | Troyes | 01653 | 5 |
@@ -130,6 +137,12 @@ Tarih: 2026-07-11T20:28:23.883176+00:00
 | 12.07.2026 | 04:00 | ABD USL Kupası Grup 3 | San Antonio | Chattanooga Red | 10153 | 5 |
 | 12.07.2026 | 03:30 | ABD USL Kupası Grup 3 | Corpus Christi | One Knoxville | 10118 | 5 |
 | 12.07.2026 | 02:30 | ABD USL Kupası Grup 4 | Fort Wayne | Detroit City | 08243 | 5 |
+=======
+| 11.07.2026 | 12:00 | Hazırlık Kulüpler | Nancy | Troyes | 01653 | 5 |
+| 11.07.2026 | 10:00 | Avustralya NPL Batı Avustralya | Sorrento | Fremantle City | 07346 | 5 |
+| 11.07.2026 | 21:00 | ABD USL Lig 2 Orta Atlantik Grubu | Junior Lone St | Real Central Ne | 07640 | 3 |
+| 11.07.2026 | 23:00 | ABD USL Lig 2 Güney Merkez Grubu | Birmingham Leg | Montgomery Unit | 06695 | 3 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
