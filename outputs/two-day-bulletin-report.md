@@ -1,24 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-11 / 2026-07-12
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 188
-Aktif mac: 135
-Canli mac: 17
+Aktif mac: 127
+Canli mac: 25
 Biten mac: 36
-Bultenden dusurulen mac: 53
-Bugun: 94
+Bultenden dusurulen mac: 61
+Bugun: 86
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-07-11 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Nanjing City | scheduled | -
-- 2026-07-11 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Meizhou Hakka | scheduled | -
-- 2026-07-11 14:00 | Hazırlık Kulüpler | Cercle Brugge - Lommel | scheduled | -
-- 2026-07-11 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangzhou E-Po - Hebei Kungfu | scheduled | -
-- 2026-07-11 14:30 | Estonya Premium Lig | Vaprus - Tammeka Tartu | scheduled | -
-- 2026-07-11 14:30 | Hazırlık Kulüpler | Oh Leuven - Olympiakos | scheduled | -
-- 2026-07-11 14:30 | Belarus 1.Lig | Orsha - Smorgon | scheduled | -
-- 2026-07-11 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Qingdao Youth I | scheduled | -
 - 2026-07-11 15:00 | Finlandiya Veikkausliiga | Lahti - Helsinki | scheduled | -
 - 2026-07-11 15:00 | Norveç Eliteserien | Fredrikstad - Lillestrom | scheduled | -
 - 2026-07-11 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. - Chongqing Tongl | scheduled | -
@@ -148,6 +141,14 @@ Yarin: 41
 - 2026-07-12 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Rockdale Cs | scheduled | -
 
 ## Canli Maclar
+- 2026-07-11 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Nanjing City | live | -
+- 2026-07-11 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Meizhou Hakka | live | -
+- 2026-07-11 14:00 | Hazırlık Kulüpler | Cercle Brugge - Lommel | live | -
+- 2026-07-11 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangzhou E-Po - Hebei Kungfu | live | -
+- 2026-07-11 14:30 | Estonya Premium Lig | Vaprus - Tammeka Tartu | live | -
+- 2026-07-11 14:30 | Hazırlık Kulüpler | Oh Leuven - Olympiakos | live | -
+- 2026-07-11 14:30 | Belarus 1.Lig | Orsha - Smorgon | live | -
+- 2026-07-11 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Qingdao Youth I | live | -
 - 2026-07-11 11:45 | Hazırlık Kulüpler | Anderlecht - Nijmegen | live | -
 - 2026-07-11 12:00 | Güney Kore K3 Ligi | Dangjin Citize - Pocheon | live | -
 - 2026-07-11 12:00 | Hazırlık Kulüpler | Nancy - Troyes | live | -
