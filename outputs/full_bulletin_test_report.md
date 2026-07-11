@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 149
-- Live match count: 11
+- Scheduled match count: 135
+- Live match count: 17
 - Finished removed count: 0
 - Date window: 2026-07-11 / 2026-07-12 23:59
 
-- 2026-07-11 07:00 | Edgeworth Eagl - Belmont Swansea | live
-- 2026-07-11 07:00 | Weston Bears - Lambton Jaffas | live
-- 2026-07-11 07:00 | Port Melbourne - North Sunshine | live
-- 2026-07-11 07:30 | Canberra Olymp - Canberra White | live
-- 2026-07-11 07:30 | Clarence Zebra - Launceston City | live
-- 2026-07-11 07:30 | Devonport City - South East Unit | live
-- 2026-07-11 08:00 | Canberra - Brindabella Blu | live
-- 2026-07-11 08:00 | Canberra Juven - O Connor Knight | live
-- 2026-07-11 08:00 | Tuggeranong Un - Belconnen Unite | live
-- 2026-07-11 08:00 | Melbourne City - Heidelberg Unit | live
+- 2026-07-11 11:45 | Anderlecht - Nijmegen | live
+- 2026-07-11 12:00 | Dangjin Citize - Pocheon | live
+- 2026-07-11 12:00 | Concarneau - Lorient | live
+- 2026-07-11 12:00 | Nancy - Troyes | live
+- 2026-07-11 12:15 | St George City - Unsw Fc | live
+- 2026-07-11 13:00 | Yanbian Longdi - Suzhou Dongwu | live
+- 2026-07-11 13:00 | Daejeon Korail - Gyeongju Hnp | live
+- 2026-07-11 13:00 | Mokpo City - Gangneung City | live
+- 2026-07-11 13:00 | Feyenoord - Club Brugge | live
+- 2026-07-11 13:00 | Fortuna Sittar - Genk | live
