@@ -2,39 +2,15 @@
 
 Gunler: 2026-07-11 / 2026-07-12
 Kaynak: fixtures.json
-Ham mac: 171
-Aktif mac: 149
-Canli mac: 11
-Biten mac: 11
-Bultenden dusurulen mac: 22
-Bugun: 113
+Ham mac: 159
+Aktif mac: 127
+Canli mac: 22
+Biten mac: 10
+Bultenden dusurulen mac: 32
+Bugun: 91
 Yarin: 36
 
 ## Baslamamis Maclar
-- 2026-07-11 09:30 | Avustralya NPL Kuzey YGG | Maitland - Adamstown Roseb | scheduled | -
-- 2026-07-11 09:30 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Charlestow City | scheduled | -
-- 2026-07-11 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Sutherland Shar | scheduled | -
-- 2026-07-11 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Blacktown City | scheduled | -
-- 2026-07-11 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Wollongong Wolv | scheduled | -
-- 2026-07-11 10:00 | Avustralya NPL Victoria | Dandenong Thun - Bentleigh Green | scheduled | -
-- 2026-07-11 10:00 | Avustralya NPL Batı Avustralya | Sorrento - Fremantle City | scheduled | -
-- 2026-07-11 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Perth Redstar F | scheduled | -
-- 2026-07-11 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - St. George Sain | scheduled | -
-- 2026-07-11 10:30 | Avustralya NPL Yeni Güney Galler | Apia - Sydney Ii | scheduled | -
-- 2026-07-11 11:00 | Avustralya NPL Başkent Bölgesi | Cooma Tigers - Queanbeyan City | scheduled | -
-- 2026-07-11 11:00 | Avustralya NPL Queensland | Moreton City E - Magic United | scheduled | -
-- 2026-07-11 11:00 | Güney Kore K3 Ligi | Siheung Citize - Busan Transport | scheduled | -
-- 2026-07-11 11:15 | Avustralya Victoria NPL 1 | Melbourne Srbi - Manningham Unit | scheduled | -
-- 2026-07-11 11:45 | Hazırlık Kulüpler | Anderlecht - Nijmegen | scheduled | -
-- 2026-07-11 12:00 | Güney Kore K3 Ligi | Dangjin Citize - Pocheon | scheduled | -
-- 2026-07-11 12:00 | Hazırlık Kulüpler | Nancy - Troyes | scheduled | -
-- 2026-07-11 12:00 | Hazırlık Kulüpler | Concarneau - Lorient | scheduled | -
-- 2026-07-11 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Unsw Fc | scheduled | -
-- 2026-07-11 13:00 | Hazırlık Kulüpler | Feyenoord - Club Brugge | scheduled | -
-- 2026-07-11 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Suzhou Dongwu | scheduled | -
-- 2026-07-11 13:00 | Güney Kore K3 Ligi | Mokpo City - Gangneung City | scheduled | -
-- 2026-07-11 13:00 | Güney Kore K3 Ligi | Daejeon Korail - Gyeongju Hnp | scheduled | -
-- 2026-07-11 13:00 | Hazırlık Kulüpler | Fortuna Sittar - Genk | scheduled | -
 - 2026-07-11 13:30 | Güney Kore K Lig 1 | Gwangju - Pohang Steelers | scheduled | -
 - 2026-07-11 13:30 | Güney Kore K Lig 1 | Ulsan - Jeonbuk Hm | scheduled | -
 - 2026-07-11 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Bucheon | scheduled | -
@@ -54,6 +30,7 @@ Yarin: 36
 - 2026-07-11 15:00 | Rusya FNL | Ufa - Leningradets | scheduled | -
 - 2026-07-11 15:00 | Kazakistan Premier Lig | Irtysh - Zhenys | scheduled | -
 - 2026-07-11 15:00 | Hazırlık Kulüpler | Sparta Rotterd - Telstar | scheduled | -
+- 2026-07-11 15:00 | Hazırlık Kulüpler | Oh Leuven - Olympiakos | scheduled | -
 - 2026-07-11 16:00 | İsveç Allsvenskan | Mjallby - Aik Stockholm | scheduled | -
 - 2026-07-11 16:00 | Hazırlık Kulüpler | Brondby - Odense | scheduled | -
 - 2026-07-11 16:00 | Finlandiya Ykkösliiga | Haka - Ekenas If | scheduled | -
@@ -96,6 +73,7 @@ Yarin: 36
 - 2026-07-11 18:00 | Letonya Kupa Son 16 Turu | Fk Tukums 2000 - Super Nova | scheduled | -
 - 2026-07-11 18:00 | ABD USL Lig 2 Metropolitan Grubu | New Jersey Cop - Westchester Fla | scheduled | -
 - 2026-07-11 18:00 | Hazırlık Kulüpler | Slavia Prag - Slovan Bratisla | scheduled | -
+- 2026-07-11 18:00 | Letonya Kupa Son 16 Turu | Riga Mariners - Bfc Daugavpils | scheduled | -
 - 2026-07-11 18:30 | İsveç Allsvenskan | Orgryte - Hacken | scheduled | -
 - 2026-07-11 18:45 | Belarus Premier Lig | Dinamo Brest - Slavia Mozyr | scheduled | -
 - 2026-07-11 19:00 | İrlanda Premier Lig | Galway United - Sligo Rovers | scheduled | -
@@ -162,9 +140,6 @@ Yarin: 36
 - 2026-07-12 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Rockdale Cs | scheduled | -
 
 ## Canli Maclar
-- 2026-07-11 07:00 | Avustralya NPL Kuzey YGG | Weston Bears - Lambton Jaffas | live | -
-- 2026-07-11 07:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Belmont Swansea | live | -
-- 2026-07-11 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - North Sunshine | live | -
 - 2026-07-11 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Canberra White | live | -
 - 2026-07-11 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Launceston City | live | -
 - 2026-07-11 07:30 | Avustralya NPL Tazmanya | Devonport City - South East Unit | live | -
@@ -173,16 +148,29 @@ Yarin: 36
 - 2026-07-11 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Brindabella Blu | live | -
 - 2026-07-11 08:00 | Avustralya NPL Victoria | Melbourne City - Heidelberg Unit | live | -
 - 2026-07-11 08:00 | Avustralya Victoria NPL 1 | Eltham Redback - North Geelong | live | -
+- 2026-07-11 11:00 | Avustralya NPL Başkent Bölgesi | Cooma Tigers - Queanbeyan City | live | -
+- 2026-07-11 11:00 | Avustralya NPL Queensland | Moreton City E - Magic United | live | -
+- 2026-07-11 11:00 | Güney Kore K3 Ligi | Siheung Citize - Busan Transport | live | -
+- 2026-07-11 11:15 | Avustralya Victoria NPL 1 | Melbourne Srbi - Manningham Unit | live | -
+- 2026-07-11 11:45 | Hazırlık Kulüpler | Anderlecht - Nijmegen | live | -
+- 2026-07-11 12:00 | Güney Kore K3 Ligi | Dangjin Citize - Pocheon | live | -
+- 2026-07-11 12:00 | Hazırlık Kulüpler | Nancy - Troyes | live | -
+- 2026-07-11 12:00 | Hazırlık Kulüpler | Concarneau - Lorient | live | -
+- 2026-07-11 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Unsw Fc | live | -
+- 2026-07-11 13:00 | Hazırlık Kulüpler | Feyenoord - Club Brugge | live | -
+- 2026-07-11 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Suzhou Dongwu | live | -
+- 2026-07-11 13:00 | Güney Kore K3 Ligi | Mokpo City - Gangneung City | live | -
+- 2026-07-11 13:00 | Güney Kore K3 Ligi | Daejeon Korail - Gyeongju Hnp | live | -
+- 2026-07-11 13:00 | Hazırlık Kulüpler | Fortuna Sittar - Genk | live | -
 
 ## Biten Maclar
-- 2026-07-11 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Deportivo Mald - Albion | finished | -
-- 2026-07-11 01:00 | Brezilya Serie B | Juventude - Vila Nova | finished | -
-- 2026-07-11 01:00 | Ekvador Pro Lig | Leones Del Nor - Univ Catolica ( | finished | -
-- 2026-07-11 02:00 | Brezilya Serie B | Sport Recife - Botafogo Ribeir | finished | -
-- 2026-07-11 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Western Mass P - Vermont Green | finished | -
-- 2026-07-11 02:00 | ABD USL Lig 2 Güney Florida Grubu | Fc Miami City - Lakeland United | finished | -
-- 2026-07-11 02:00 | ABD USL Lig 2 Merkez Konferansı | Oakland County - Midwest United | finished | -
-- 2026-07-11 03:00 | ABD USL Lig 2 Metropolitan Grubu | Fc Motown Ii - Long Island | finished | -
-- 2026-07-11 03:15 | Ekvador Pro Lig | T.Universitari - Depor Macara | finished | -
-- 2026-07-11 05:00 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Snohomish Unite | finished | -
-- 2026-07-11 05:00 | ABD USL Lig 2 Güneybatı Grubu | Fc Tucson - Capo Ii | finished | -
+- 2026-07-11 09:30 | Avustralya NPL Kuzey YGG | Maitland - Adamstown Roseb | finished | -
+- 2026-07-11 09:30 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Charlestow City | finished | -
+- 2026-07-11 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Sutherland Shar | finished | -
+- 2026-07-11 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Blacktown City | finished | -
+- 2026-07-11 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Wollongong Wolv | finished | -
+- 2026-07-11 10:00 | Avustralya NPL Victoria | Dandenong Thun - Bentleigh Green | finished | -
+- 2026-07-11 10:00 | Avustralya NPL Batı Avustralya | Sorrento - Fremantle City | finished | -
+- 2026-07-11 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Perth Redstar F | finished | -
+- 2026-07-11 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - St. George Sain | finished | -
+- 2026-07-11 10:30 | Avustralya NPL Yeni Güney Galler | Apia - Sydney Ii | finished | -

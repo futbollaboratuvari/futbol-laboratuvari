@@ -2,46 +2,22 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-11T06:24:29.656Z
-- Ham maç sayısı: 160
+- Güncelleme: 2026-07-11T10:05:17.839Z
+- Ham maç sayısı: 159
 - Yarın bülteni maç sayısı: 36
-- Detay blok sayısı: 422
-- Aktif bülten maçı: 149
-- Bültenden düşürülen maç: 11
+- Detay blok sayısı: 421
+- Aktif bülten maçı: 127
+- Bültenden düşürülen maç: 32
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Maitland - Adamstown Roseb | Avustralya NPL Kuzey YGG | 09:30 | Veri bekleniyor | - | 1.56 | 6 |
-| Cooks Hill Uni - Charlestow City | Avustralya NPL Kuzey YGG | 09:30 | Veri bekleniyor | - | 1.95 | 6 |
-| Manly United - Sutherland Shar | Avustralya NPL Yeni Güney Galler | 10:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Sd Raiders - Blacktown City | Avustralya NPL Yeni Güney Galler | 10:00 | Veri bekleniyor | - | 2.33 | 8 |
-| Sydney Olympic - Wollongong Wolv | Avustralya NPL Yeni Güney Galler | 10:00 | Veri bekleniyor | - | 2.27 | 8 |
-| Dandenong Thun - Bentleigh Green | Avustralya NPL Victoria | 10:00 | Veri bekleniyor | - | 3.48 | 8 |
-| Sorrento - Fremantle City | Avustralya NPL Batı Avustralya | 10:00 | Veri bekleniyor | - | 3.42 | 8 |
-| Olympic Kingsw - Perth Redstar F | Avustralya NPL Batı Avustralya | 10:00 | Veri bekleniyor | - | 1.81 | 6 |
-| Nws Spirit - St. George Sain | Avustralya NPL Yeni Güney Galler | 10:30 | Veri bekleniyor | - | 1.49 | 7 |
-| Apia - Sydney Ii | Avustralya NPL Yeni Güney Galler | 10:30 | Veri bekleniyor | - | 1.27 | 6 |
-| Cooma Tigers - Queanbeyan City | Avustralya NPL Başkent Bölgesi | 11:00 | Veri bekleniyor | - | 1.44 | 4 |
-| Moreton City E - Magic United | Avustralya NPL Queensland | 11:00 | Veri bekleniyor | - | - | 3 |
-| Siheung Citize - Busan Transport | Güney Kore K3 Ligi | 11:00 | Veri bekleniyor | - | 1.62 | 8 |
-| Melbourne Srbi - Manningham Unit | Avustralya Victoria NPL 1 | 11:15 | Veri bekleniyor | - | 1.48 | 5 |
-| Anderlecht - Nijmegen | Hazırlık Kulüpler | 11:45 | Veri bekleniyor | - | 2.03 | 8 |
-| Dangjin Citize - Pocheon | Güney Kore K3 Ligi | 12:00 | Veri bekleniyor | - | 3.8 | 7 |
-| Nancy - Troyes | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 2.82 | 8 |
-| Concarneau - Lorient | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 3.88 | 7 |
-| St George City - Unsw Fc | Avustralya NPL Yeni Güney Galler | 12:15 | Veri bekleniyor | - | 2.09 | 8 |
-| Feyenoord - Club Brugge | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Yanbian Longdi - Suzhou Dongwu | Çin Halk Cumhuriyeti 1.Lig | 13:00 | Veri bekleniyor | - | 1.44 | 7 |
-| Mokpo City - Gangneung City | Güney Kore K3 Ligi | 13:00 | Veri bekleniyor | - | 2.53 | 8 |
-| Daejeon Korail - Gyeongju Hnp | Güney Kore K3 Ligi | 13:00 | Veri bekleniyor | - | 1.82 | 8 |
-| Fortuna Sittar - Genk | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 2.54 | 8 |
 | Gwangju - Pohang Steelers | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 5.31 | 7 |
 | Ulsan - Jeonbuk Hm | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.25 | 8 |
 | Gimcheon Sangm - Bucheon | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.78 | 8 |
 | Yongin - Cheongju Fc | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.01 | 8 |
 | Ansan Greeners - Suwon Sb | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 6.57 | 6 |
-| Daegu - Seongnam | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.59 | 8 |
+| Daegu - Seongnam | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.56 | 7 |
 | Hwaseong - Paju Citizen | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.59 | 8 |
 | Dalian Huayi - Nanjing City | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.87 | 8 |
 | Shaanxi Union - Meizhou Hakka | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.3 | 6 |
@@ -54,7 +30,8 @@
 | Chengdu Ron. - Chongqing Tongl | Çin Halk Cumhuriyeti Süper Lig | 15:00 | Veri bekleniyor | - | 1.15 | 6 |
 | Ufa - Leningradets | Rusya FNL | 15:00 | Veri bekleniyor | - | 1.83 | 8 |
 | Irtysh - Zhenys | Kazakistan Premier Lig | 15:00 | Veri bekleniyor | - | 2.06 | 8 |
-| Sparta Rotterd - Telstar | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.9 | 8 |
+| Sparta Rotterd - Telstar | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.92 | 8 |
+| Oh Leuven - Olympiakos | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 3.51 | 8 |
 | Mjallby - Aik Stockholm | İsveç Allsvenskan | 16:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Brondby - Odense | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 1.6 | 6 |
 | Haka - Ekenas If | Finlandiya Ykkösliiga | 16:00 | Veri bekleniyor | - | 1.32 | 6 |
@@ -97,6 +74,7 @@
 | Fk Tukums 2000 - Super Nova | Letonya Kupa Son 16 Turu | 18:00 | Veri bekleniyor | - | 2.15 | 5 |
 | New Jersey Cop - Westchester Fla | ABD USL Lig 2 Metropolitan Grubu | 18:00 | Veri bekleniyor | - | 1.44 | 5 |
 | Slavia Prag - Slovan Bratisla | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.83 | 6 |
+| Riga Mariners - Bfc Daugavpils | Letonya Kupa Son 16 Turu | 18:00 | Veri bekleniyor | - | 3.18 | 5 |
 | Orgryte - Hacken | İsveç Allsvenskan | 18:30 | Veri bekleniyor | - | 4.69 | 7 |
 | Dinamo Brest - Slavia Mozyr | Belarus Premier Lig | 18:45 | Veri bekleniyor | - | 1.77 | 8 |
 | Galway United - Sligo Rovers | İrlanda Premier Lig | 19:00 | Veri bekleniyor | - | 1.47 | 7 |
@@ -117,7 +95,7 @@
 | San Telmo - Chaco For Ever | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.84 | 6 |
 | Caseros - Ca Mitre | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.62 | 5 |
 | Danubio - Nacional Df | Uruguay Premier Lig Intermediate Turu Grup 2 | 21:00 | Veri bekleniyor | - | 3.57 | 5 |
-| Junior Lone St - Real Central Ne | ABD USL Lig 2 Orta Atlantik Grubu | 21:00 | Veri bekleniyor | - | 2 | 6 |
+| Junior Lone St - Real Central Ne | ABD USL Lig 2 Orta Atlantik Grubu | 21:00 | Veri bekleniyor | - | 2.27 | 6 |
 | Panathinaikos - Grasshoppers | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.29 | 4 |
 | Benfica - Flamengo | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.34 | 8 |
 | Real Oruro - Gualberto Villa | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 1.8 | 6 |
