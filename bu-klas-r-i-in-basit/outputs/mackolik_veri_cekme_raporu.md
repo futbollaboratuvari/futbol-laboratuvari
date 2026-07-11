@@ -1,47 +1,51 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-11T14:38:32.861905+00:00
+Tarih: 2026-07-11T17:43:07.477699+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 47
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Durum: success
+- Kac mac bulundu: 68
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 66
+- Ham veri havuzu toplam mac sayisi: 1638
 - Hedef tarih: 11.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL Kupası Grup 1
+- ABD USL Kupası Grup 2
+- ABD USL Kupası Grup 3
+- ABD USL Kupası Grup 4
+- ABD USL Kupası Grup 5
+- ABD USL Kupası Grup 6
+- ABD USL Kupası Grup 7
+- ABD USL Lig 2 Chesapeake Grubu
+- ABD USL Lig 2 Great Forest Grubu
+- ABD USL Lig 2 Güney Konferansı
 - ABD USL Lig 2 Güney Merkez Grubu
+- ABD USL Lig 2 Güneybatı Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Heartland Grubu
 - ABD USL Lig 2 Kuzeydoğu Grubu
+- ABD USL Lig 2 Merkez Konferansı
 - ABD USL Lig 2 Metropolitan Grubu
 - ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
 - Arjantin Ulusal Primera Lig
 - Avrupa U19 Şampiyonası Final
 - Avustralya NPL Batı Avustralya
-- Belarus 1.Lig
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Yeni Güney Galler
 - Belarus Premier Lig
 - Bolivya Premier Lig
+- Dünya Kupası 2026 Çeyrek Final
 - Ekvador Pro Lig
 - Finlandiya Ykkönen
-- Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
-- Kazakistan Premier Lig
-- Letonya 1.Lig
-- Letonya Kupa Son 16 Turu
-- Litvanya A Ligi
-- Moldova Ulusal Lig
-- Norveç Eliteserien
-- Rusya FNL
 - Uruguay Premier Lig Intermediate Turu Grup 2
-- İrlanda Premier Lig
-- İskoçya Lig Kupası Grup B
-- İsveç Allsvenskan
-- İzlanda 2.Lig
+- Şili Kupa Grup B
 - Şili Kupa Grup G
 
 ## Okunabilen Oran Alanlari
@@ -99,42 +103,41 @@ Tarih: 2026-07-11T14:38:32.861905+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 55
-- Acilan detay: 55
+- Denenen Tumu alani: 41
+- Acilan detay: 41
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 12.07.2026 | 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin | İsviçre | 05890 | 5 |
+| 12.07.2026 | 00:00 | Dünya Kupası 2026 Çeyrek Final | Norveç | İngiltere | 04990 | 5 |
 | 11.07.2026 | 21:00 | Avrupa U19 Şampiyonası Final | İspanya (U19) | Almanya U19 | 05772 | 5 |
-| 11.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Sligo Rovers | 11484 | 5 |
-| 11.07.2026 | 19:00 | Norveç Eliteserien | Tromso | Valerenga | 12778 | 5 |
-| 11.07.2026 | 18:30 | İsveç Allsvenskan | Orgryte | Hacken | 13918 | 5 |
-| 11.07.2026 | 18:00 | Hazırlık Kulüpler | Slavia Prag | Slovan Bratisla | 03022 | 3 |
-| 11.07.2026 | 20:30 | Hazırlık Kulüpler | Levante | Leganes | 03334 | 5 |
-| 11.07.2026 | 12:00 | Hazırlık Kulüpler | Nancy | Troyes | 01653 | 5 |
-| 11.07.2026 | 21:00 | Hazırlık Kulüpler | Panathinaikos | Grasshoppers | 03572 | 3 |
 | 11.07.2026 | 21:30 | Hazırlık Kulüpler | Benfica | Flamengo | 06059 | 5 |
-| 11.07.2026 | 19:30 | İskoçya Lig Kupası Grup B | Stirling Albio | Dundee Utd | 13753 | 4 |
-| 11.07.2026 | 19:00 | Finlandiya Ykkösliiga | Klubi 04 | Jippo Joensuu | 11101 | 5 |
-| 11.07.2026 | 18:00 | Rusya FNL | Neftekhimik | Veles | 13137 | 5 |
-| 11.07.2026 | 19:00 | Litvanya A Ligi | Kauno Zalgiris | Fk Panevezys | 13827 | 5 |
+| 11.07.2026 | 21:00 | Hazırlık Kulüpler | Panathinaikos | Grasshoppers | 03572 | 5 |
+| 11.07.2026 | 12:00 | Hazırlık Kulüpler | Nancy | Troyes | 01653 | 5 |
+| 12.07.2026 | 04:00 | Hazırlık Kulüpler | Universitario | Los Millionario | 03656 | 5 |
 | 11.07.2026 | 20:45 | Belarus Premier Lig | Gomel | Neman Grodno | 08931 | 5 |
-| 11.07.2026 | 18:45 | Belarus Premier Lig | Dinamo Brest | Slavia Mozyr | 08896 | 5 |
-| 11.07.2026 | 22:00 | Şili Kupa Grup G | Magallanes | Audax Italiano | 01501 | 5 |
+| 12.07.2026 | 00:30 | Şili Kupa Grup B | Sl Quillota | Univ. Catolica | 03347 | 5 |
+| 12.07.2026 | 00:30 | Şili Kupa Grup B | Capiapo | Everton De Vina | 02245 | 5 |
 | 11.07.2026 | 22:00 | Şili Kupa Grup G | Palestino | Deportes Santa | 01667 | 5 |
+| 11.07.2026 | 22:00 | Şili Kupa Grup G | Magallanes | Audax Italiano | 01501 | 5 |
 | 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | All Boys | Almirante | 07654 | 3 |
 | 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | San Telmo | Chaco For Ever | 07896 | 3 |
 | 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Tristan | Nueva Chicago | 07913 | 3 |
+| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Los Andes | Ciudad De Bolív | 07694 | 3 |
+| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | San Miguel | Ferro Carril Oe | 07767 | 3 |
+| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Rafaela | Maipu | 07677 | 3 |
+| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Moron | Deportivo Madry | 07711 | 3 |
+| 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Caseros | Ca Mitre | 07732 | 3 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

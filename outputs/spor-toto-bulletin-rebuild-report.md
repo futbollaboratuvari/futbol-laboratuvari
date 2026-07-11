@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-11T10:42:50.480Z
-- Ham fixture sayisi: 1629
-- Bugun/yarin kaynak mac: 188
-- Aktif bulten maci: 135
+- Guncelleme: 2026-07-11T17:43:08.670Z
+- Ham fixture sayisi: 1631
+- Bugun/yarin kaynak mac: 190
+- Aktif bulten maci: 65
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 53
+- Bultenden dusurulen mac: 125
 
-- 1. 2026-07-11 14:00 | Hazırlık Kulüpler | Cercle Brugge - Lommel | scheduled
-- 2. 2026-07-11 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Nanjing City | scheduled
-- 3. 2026-07-11 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Meizhou Hakka | scheduled
-- 4. 2026-07-11 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangzhou E-Po - Hebei Kungfu | scheduled
-- 5. 2026-07-11 14:30 | Hazırlık Kulüpler | Oh Leuven - Olympiakos | scheduled
-- 6. 2026-07-11 14:30 | Belarus 1.Lig | Orsha - Smorgon | scheduled
-- 7. 2026-07-11 14:30 | Estonya Premium Lig | Vaprus - Tammeka Tartu | scheduled
-- 8. 2026-07-11 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Qingdao Youth I | scheduled
-- 9. 2026-07-11 15:00 | Hazırlık Kulüpler | Antwerp - Bochum | scheduled
-- 10. 2026-07-11 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. - Chongqing Tongl | scheduled
-- 11. 2026-07-11 15:00 | Norveç Eliteserien | Fredrikstad - Lillestrom | scheduled
-- 12. 2026-07-11 15:00 | Kazakistan Premier Lig | Irtysh - Zhenys | scheduled
-- 13. 2026-07-11 15:00 | Finlandiya Veikkausliiga | Lahti - Helsinki | scheduled
-- 14. 2026-07-11 15:00 | Hazırlık Kulüpler | Oh Leuven - Olympiakos | scheduled
-- 15. 2026-07-11 15:00 | Hazırlık Kulüpler | Sparta Rotterd - Telstar | scheduled
+- 1. 2026-07-11 20:45 | Belarus Premier Lig | Gomel - Neman Grodno | scheduled
+- 2. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | All Boys - Almirante | scheduled
+- 3. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | Caseros - Ca Mitre | scheduled
+- 4. 2026-07-11 21:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Danubio - Nacional Df | scheduled
+- 5. 2026-07-11 21:00 | Avrupa U19 Şampiyonası Final | İspanya (U19) - Almanya U19 | scheduled
+- 6. 2026-07-11 21:00 | ABD USL Lig 2 Orta Atlantik Grubu | Junior Lone St - Real Central Ne | scheduled
+- 7. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | Los Andes - Ciudad De Bolív | scheduled
+- 8. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | Moron - Deportivo Madry | scheduled
+- 9. 2026-07-11 21:00 | Hazırlık Kulüpler | Panathinaikos - Grasshoppers | scheduled
+- 10. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | Rafaela - Maipu | scheduled
+- 11. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | San Miguel - Ferro Carril Oe | scheduled
+- 12. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | San Telmo - Chaco For Ever | scheduled
+- 13. 2026-07-11 21:00 | Arjantin Ulusal Primera Lig | Tristan - Nueva Chicago | scheduled
+- 14. 2026-07-11 21:30 | Hazırlık Kulüpler | Benfica - Flamengo | scheduled
+- 15. 2026-07-11 22:00 | Şili Kupa Grup G | Magallanes - Audax Italiano | scheduled
