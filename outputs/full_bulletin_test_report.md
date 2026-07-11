@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 43
-- Live match count: 9
+- Scheduled match count: 41
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-07-11 / 2026-07-12 23:59
+- Date window: 2026-07-12 / 2026-07-13 23:59
 
-- 2026-07-11 21:30 | Benfica - Flamengo | live
-- 2026-07-11 22:00 | Oakland Roots - Spokane Velocit | live
-- 2026-07-11 22:00 | San Francisco - Project 51o | live
-- 2026-07-11 22:00 | Real Oruro - Gualberto Villa | live
-- 2026-07-11 22:00 | Magallanes - Audax Italiano | live
-- 2026-07-11 22:00 | Palestino - Deportes Santa | live
-- 2026-07-11 22:10 | Mushuc Runa - Indep. Jose Ter | live
-- 2026-07-11 23:00 | Birmingham Leg - Montgomery Unit | live
-- 2026-07-11 23:00 | Seacoast Unite - Ac Connecticut | live
-- 2026-07-12 00:00 | Norveç - İngiltere | scheduled
+- 2026-07-12 00:30 | Capiapo - Everton De Vina | scheduled
+- 2026-07-12 00:30 | Sl Quillota - Univ. Catolica | scheduled
+- 2026-07-12 01:00 | Boston - Blackwatch Rush | scheduled
+- 2026-07-12 01:00 | Staten Island - Morris Elite | scheduled
+- 2026-07-12 02:00 | Hartford Athle - Westchester Sc | scheduled
+- 2026-07-12 02:00 | Portland Heart - New York Cosmos | scheduled
+- 2026-07-12 02:00 | Pittsburgh Riv - Loudoun United | scheduled
+- 2026-07-12 02:00 | Annapolis Blue - Bethesda | scheduled
+- 2026-07-12 02:00 | Loudoun United - North Virginia | scheduled
+- 2026-07-12 02:00 | Patuxent - Virginia Beach | scheduled
