@@ -1,15 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-11T17:43:07.477699+00:00
+=======
+Tarih: 2026-07-11T17:43:44.191115+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
+<<<<<<< Updated upstream
 - Durum: success
 - Kac mac bulundu: 68
 - Kac mac kaydedildi: 2
 - Kac mac zaten vardi: 66
 - Ham veri havuzu toplam mac sayisi: 1638
+=======
+- Durum: error
+- Kac mac bulundu: 25
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
+>>>>>>> Stashed changes
 - Hedef tarih: 11.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -29,15 +41,21 @@ Tarih: 2026-07-11T17:43:07.477699+00:00
 - ABD USL Lig 2 Güneydoğu Grubu
 - ABD USL Lig 2 Heartland Grubu
 - ABD USL Lig 2 Kuzeydoğu Grubu
+<<<<<<< Updated upstream
 - ABD USL Lig 2 Merkez Konferansı
 - ABD USL Lig 2 Metropolitan Grubu
+=======
+>>>>>>> Stashed changes
 - ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Orta Atlantik Grubu
 - Arjantin Ulusal Primera Lig
 - Avrupa U19 Şampiyonası Final
 - Avustralya NPL Batı Avustralya
+<<<<<<< Updated upstream
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Yeni Güney Galler
+=======
+>>>>>>> Stashed changes
 - Belarus Premier Lig
 - Bolivya Premier Lig
 - Dünya Kupası 2026 Çeyrek Final
@@ -45,7 +63,10 @@ Tarih: 2026-07-11T17:43:07.477699+00:00
 - Finlandiya Ykkönen
 - Hazırlık Kulüpler
 - Uruguay Premier Lig Intermediate Turu Grup 2
+<<<<<<< Updated upstream
 - Şili Kupa Grup B
+=======
+>>>>>>> Stashed changes
 - Şili Kupa Grup G
 
 ## Okunabilen Oran Alanlari
@@ -123,10 +144,14 @@ Tarih: 2026-07-11T17:43:07.477699+00:00
 | 11.07.2026 | 21:30 | Hazırlık Kulüpler | Benfica | Flamengo | 06059 | 5 |
 | 11.07.2026 | 21:00 | Hazırlık Kulüpler | Panathinaikos | Grasshoppers | 03572 | 5 |
 | 11.07.2026 | 12:00 | Hazırlık Kulüpler | Nancy | Troyes | 01653 | 5 |
+<<<<<<< Updated upstream
 | 12.07.2026 | 04:00 | Hazırlık Kulüpler | Universitario | Los Millionario | 03656 | 5 |
 | 11.07.2026 | 20:45 | Belarus Premier Lig | Gomel | Neman Grodno | 08931 | 5 |
 | 12.07.2026 | 00:30 | Şili Kupa Grup B | Sl Quillota | Univ. Catolica | 03347 | 5 |
 | 12.07.2026 | 00:30 | Şili Kupa Grup B | Capiapo | Everton De Vina | 02245 | 5 |
+=======
+| 11.07.2026 | 20:45 | Belarus Premier Lig | Gomel | Neman Grodno | 08931 | 5 |
+>>>>>>> Stashed changes
 | 11.07.2026 | 22:00 | Şili Kupa Grup G | Palestino | Deportes Santa | 01667 | 5 |
 | 11.07.2026 | 22:00 | Şili Kupa Grup G | Magallanes | Audax Italiano | 01501 | 5 |
 | 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | All Boys | Almirante | 07654 | 3 |
@@ -137,6 +162,14 @@ Tarih: 2026-07-11T17:43:07.477699+00:00
 | 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Rafaela | Maipu | 07677 | 3 |
 | 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Moron | Deportivo Madry | 07711 | 3 |
 | 11.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Caseros | Ca Mitre | 07732 | 3 |
+<<<<<<< Updated upstream
+=======
+| 11.07.2026 | 21:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Danubio | Nacional Df | 13796 | 5 |
+| 11.07.2026 | 17:00 | Finlandiya Ykkönen | Vjs | Oulun Ls | 06863 | 5 |
+| 11.07.2026 | 10:00 | Avustralya NPL Batı Avustralya | Sorrento | Fremantle City | 07346 | 5 |
+| 11.07.2026 | 22:10 | Ekvador Pro Lig | Mushuc Runa | Indep. Jose Ter | 10466 | 5 |
+| 11.07.2026 | 22:00 | Bolivya Premier Lig | Real Oruro | Gualberto Villa | 15011 | 3 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
