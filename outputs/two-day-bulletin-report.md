@@ -4,39 +4,14 @@ Gunler: 2026-07-12 / 2026-07-13
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 43
-Aktif mac: 41
-Canli mac: 2
+Aktif mac: 16
+Canli mac: 27
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 41
+Bultenden dusurulen mac: 27
+Bugun: 16
 Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-07-12 00:30 | Şili Kupa Grup B | Capiapo - Everton De Vina | scheduled | -
-- 2026-07-12 00:30 | Şili Kupa Grup B | Sl Quillota - Univ. Catolica | scheduled | -
-- 2026-07-12 01:00 | ABD USL Lig 2 Metropolitan Grubu | Staten Island - Morris Elite | scheduled | -
-- 2026-07-12 01:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston - Blackwatch Rush | scheduled | -
-- 2026-07-12 02:00 | Ekvador Pro Lig | Guayaquil City - Delfin | scheduled | -
-- 2026-07-12 02:00 | ABD USL Kupası Grup 5 | Portland Heart - New York Cosmos | scheduled | -
-- 2026-07-12 02:00 | ABD USL Kupası Grup 5 | Hartford Athle - Westchester Sc | scheduled | -
-- 2026-07-12 02:00 | ABD USL Kupası Grup 6 | Pittsburgh Riv - Loudoun United | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Loudoun United - North Virginia | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Annapolis Blue - Bethesda | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Heartland Grubu | St. Croix - Rockford Raptor | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Cedar Stars Rus | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Güneydoğu Grubu | Nona - Inter Gainesvil | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Great Forest Grubu | Lorain County - Steel City | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Merkez Konferansı | Afc Ann Arbor - Kalamazoo Fc | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Ocean City - Eagle Fc | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock - Boston City | scheduled | -
-- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Patuxent - Virginia Beach | scheduled | -
-- 2026-07-12 02:30 | ABD USL Kupası Grup 4 | Fort Wayne - Detroit City | scheduled | -
-- 2026-07-12 02:30 | ABD USL Kupası Grup 5 | Rhode Island - Brooklyn | scheduled | -
-- 2026-07-12 02:30 | ABD USL Kupası Grup 6 | Charleston Bat - Charlotte Indep | scheduled | -
-- 2026-07-12 02:30 | ABD USL Kupası Grup 6 | Greenville Tri - Richmond Kicker | scheduled | -
-- 2026-07-12 02:30 | ABD USL Kupası Grup 7 | Sarasota Parad - Miami Fc | scheduled | -
-- 2026-07-12 02:30 | ABD USL Kupası Grup 7 | Tampa Bay Rowd - Naples | scheduled | -
-- 2026-07-12 02:30 | ABD USL Lig 2 Metropolitan Grubu | Ironbound - Manhattan | scheduled | -
 - 2026-07-12 03:00 | ABD USL Kupası Grup 3 | Birmingham Leg - Tulsa Roughneck | scheduled | -
 - 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Forward Madiso - Union Omaha | scheduled | -
 - 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Louisville Cit - Lexington | scheduled | -
@@ -55,6 +30,31 @@ Yarin: 0
 - 2026-07-12 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Rockdale Cs | scheduled | -
 
 ## Canli Maclar
+- 2026-07-12 00:30 | Şili Kupa Grup B | Capiapo - Everton De Vina | live | -
+- 2026-07-12 00:30 | Şili Kupa Grup B | Sl Quillota - Univ. Catolica | live | -
+- 2026-07-12 01:00 | ABD USL Lig 2 Metropolitan Grubu | Staten Island - Morris Elite | live | -
+- 2026-07-12 01:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston - Blackwatch Rush | live | -
+- 2026-07-12 02:00 | Ekvador Pro Lig | Guayaquil City - Delfin | live | -
+- 2026-07-12 02:00 | ABD USL Kupası Grup 5 | Portland Heart - New York Cosmos | live | -
+- 2026-07-12 02:00 | ABD USL Kupası Grup 5 | Hartford Athle - Westchester Sc | live | -
+- 2026-07-12 02:00 | ABD USL Kupası Grup 6 | Pittsburgh Riv - Loudoun United | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Loudoun United - North Virginia | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Annapolis Blue - Bethesda | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Heartland Grubu | St. Croix - Rockford Raptor | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Cedar Stars Rus | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Güneydoğu Grubu | Nona - Inter Gainesvil | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Great Forest Grubu | Lorain County - Steel City | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Merkez Konferansı | Afc Ann Arbor - Kalamazoo Fc | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Ocean City - Eagle Fc | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock - Boston City | live | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Patuxent - Virginia Beach | live | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 4 | Fort Wayne - Detroit City | live | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 5 | Rhode Island - Brooklyn | live | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 6 | Charleston Bat - Charlotte Indep | live | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 6 | Greenville Tri - Richmond Kicker | live | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 7 | Sarasota Parad - Miami Fc | live | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 7 | Tampa Bay Rowd - Naples | live | -
+- 2026-07-12 02:30 | ABD USL Lig 2 Metropolitan Grubu | Ironbound - Manhattan | live | -
 - 2026-07-12 00:00 | Dünya Kupası 2026 Çeyrek Final | Norveç - İngiltere | live | -
 - 2026-07-12 00:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Montevideo Wan - Progreso | live | -
 
