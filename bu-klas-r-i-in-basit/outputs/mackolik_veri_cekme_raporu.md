@@ -1,34 +1,61 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-12T11:21:01.280936+00:00
+Tarih: 2026-07-12T12:03:19.632689+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 1726
+- Kac mac bulundu: 77
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 76
+- Ham veri havuzu toplam mac sayisi: 1727
 - Hedef tarih: 12.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 NorCal Grubu
+- ABD USL Lig 2 Valley Grubu
+- Arjantin Kupa Son 32 Turu
+- Arjantin Ulusal Primera Lig
+- Belarus 1.Lig
+- Belarus Premier Lig
+- Bolivya Premier Lig
+- Brezilya Serie B
+- Ekvador Pro Lig
+- Hazırlık Kulüpler
+- Kazakistan Premier Lig
+- Letonya Kupa Son 16 Turu
+- Litvanya A Ligi
+- Moldova Ulusal Lig
+- Norveç Eliteserien
+- Romanya Süper Kupa
+- Rusya FNL
+- Tanzanya 1. Lig Play-Off
+- Uruguay Premier Lig Intermediate Turu Grup 1
+- İsveç Allsvenskan
+- İzlanda 2.Lig
+- İzlanda Urvalsdeild
+- Şili Kupa Grup C
+- Şili Kupa Grup H
+- Şili Lig Kupası Yarı Final
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -73,141 +100,39 @@ Tarih: 2026-07-12T11:21:01.280936+00:00
 ## Mac Detay Pencereleri
 
 - Denenen Tumu alani: 35
-- Acilan detay: 4
+- Acilan detay: 35
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
-
-- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
-
-- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
-
-- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
-
-- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
-
-- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
-
-- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
-
-- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
-
-- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
-
-- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
-
-- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
-
-- Detay acilamadi #16: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(15)
-
-- Detay acilamadi #17: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(16)
-
-- Detay acilamadi #18: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(17)
-
-- Detay acilamadi #19: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(18)
-
-- Detay acilamadi #20: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(19)
-
-- Detay acilamadi #21: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(20)
-
-- Detay acilamadi #22: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(21)
-
-- Detay acilamadi #23: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(22)
-
-- Detay acilamadi #24: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(23)
-
-- Detay acilamadi #25: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(24)
-
-- Detay acilamadi #26: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(25)
-
-- Detay acilamadi #27: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(26)
-
-- Detay acilamadi #28: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(27)
-
-- Detay acilamadi #29: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(28)
-
-- Detay acilamadi #30: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(29)
-
-- Detay acilamadi #31: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(30)
-
-- Detay acilamadi #32: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(31)
-
-- Detay acilamadi #33: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(32)
-
-- Detay acilamadi #34: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(33)
-
-- Detay acilamadi #35: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(34)
-
+- Hata yok.
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 12.07.2026 | 18:00 | Norveç Eliteserien | Brann | Start | 12886 | 5 |
+| 12.07.2026 | 20:15 | Norveç Eliteserien | Sarpsborg | Viking | 13049 | 5 |
+| 12.07.2026 | 18:00 | Norveç Eliteserien | Rosenborg | Kristiansund | 12940 | 5 |
+| 12.07.2026 | 15:30 | Norveç Eliteserien | Kfum Oslo | Bodo Glimt | 12832 | 5 |
+| 12.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Ham Kam | 12994 | 5 |
+| 12.07.2026 | 17:30 | İsveç Allsvenskan | Gais | Elfsborg | 14185 | 5 |
+| 12.07.2026 | 17:30 | İsveç Allsvenskan | Brommapojkarna | Sirius | 14137 | 5 |
+| 12.07.2026 | 18:00 | Hazırlık Kulüpler | Slavia Prag | Ruzomberok | 09272 | 3 |
+| 12.07.2026 | 18:00 | Hazırlık Kulüpler | Pafos Fc | Jagiellonia | 09250 | 5 |
+| 12.07.2026 | 23:30 | Hazırlık Kulüpler | Alianza Petrol | Deportivo Cali | 05331 | 5 |
+| 12.07.2026 | 22:00 | Hazırlık Kulüpler | Fluminense | Bahia | 09289 | 5 |
+| 12.07.2026 | 20:00 | Hazırlık Kulüpler | Pumas Unam | America De Cali | 07250 | 5 |
+| 12.07.2026 | 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia | Tigre | 08086 | 5 |
+| 12.07.2026 | 16:30 | Rusya FNL | Olimpiyets | Rotor Volgograd | 13154 | 5 |
+| 12.07.2026 | 17:00 | Rusya FNL | Shinnik Yarosl | Pfc Sochi | 13171 | 5 |
+| 12.07.2026 | 19:00 | Rusya FNL | Spartak Kostro | Kamaz | 13188 | 5 |
+| 12.07.2026 | 18:45 | Litvanya A Ligi | Transinvest Vi | Banga | 13829 | 5 |
+| 12.07.2026 | 16:00 | Belarus Premier Lig | Arsenal | Vitebsk | 08977 | 5 |
+| 12.07.2026 | 20:30 | Romanya Süper Kupa | Universitatea | Universitatea C | 13831 | 5 |
+| 12.07.2026 | 19:30 | Şili Kupa Grup C | Cobreloa | La Serena | 04692 | 5 |
 
 ## Sonuc
 
