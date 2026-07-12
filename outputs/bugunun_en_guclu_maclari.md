@@ -2,7 +2,11 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
+<<<<<<< Updated upstream
 - Güncelleme: 2026-07-12T15:17:54.350Z
+=======
+- Güncelleme: 2026-07-12T15:18:12.270Z
+>>>>>>> Stashed changes
 - Ham maç sayısı: 79
 - Yarın bülteni maç sayısı: 18
 - Detay blok sayısı: 196
