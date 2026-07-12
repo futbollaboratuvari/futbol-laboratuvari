@@ -1,24 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-12T12:03:19.632689+00:00
+Tarih: 2026-07-12T12:30:46.839175+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 77
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 76
-- Ham veri havuzu toplam mac sayisi: 1727
+- Kac mac bulundu: 62
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 60
+- Ham veri havuzu toplam mac sayisi: 1729
 - Hedef tarih: 12.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Valley Grubu
 - Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
@@ -31,6 +26,7 @@ Tarih: 2026-07-12T12:03:19.632689+00:00
 - Kazakistan Premier Lig
 - Letonya Kupa Son 16 Turu
 - Litvanya A Ligi
+- Lübnan Premier Lig Şampiyonluk Turu
 - Moldova Ulusal Lig
 - Norveç Eliteserien
 - Romanya Süper Kupa
@@ -41,7 +37,6 @@ Tarih: 2026-07-12T12:03:19.632689+00:00
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
 - Şili Kupa Grup C
-- Şili Kupa Grup H
 - Şili Lig Kupası Yarı Final
 
 ## Okunabilen Oran Alanlari
@@ -99,8 +94,8 @@ Tarih: 2026-07-12T12:03:19.632689+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 35
-- Acilan detay: 35
+- Denenen Tumu alani: 36
+- Acilan detay: 36
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -118,21 +113,21 @@ Tarih: 2026-07-12T12:03:19.632689+00:00
 | 12.07.2026 | 18:00 | Norveç Eliteserien | Rosenborg | Kristiansund | 12940 | 5 |
 | 12.07.2026 | 15:30 | Norveç Eliteserien | Kfum Oslo | Bodo Glimt | 12832 | 5 |
 | 12.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Ham Kam | 12994 | 5 |
-| 12.07.2026 | 17:30 | İsveç Allsvenskan | Gais | Elfsborg | 14185 | 5 |
 | 12.07.2026 | 17:30 | İsveç Allsvenskan | Brommapojkarna | Sirius | 14137 | 5 |
-| 12.07.2026 | 18:00 | Hazırlık Kulüpler | Slavia Prag | Ruzomberok | 09272 | 3 |
+| 12.07.2026 | 17:30 | İsveç Allsvenskan | Gais | Elfsborg | 14185 | 5 |
+| 12.07.2026 | 22:00 | Hazırlık Kulüpler | Fluminense | Bahia | 09289 | 5 |
 | 12.07.2026 | 18:00 | Hazırlık Kulüpler | Pafos Fc | Jagiellonia | 09250 | 5 |
 | 12.07.2026 | 23:30 | Hazırlık Kulüpler | Alianza Petrol | Deportivo Cali | 05331 | 5 |
-| 12.07.2026 | 22:00 | Hazırlık Kulüpler | Fluminense | Bahia | 09289 | 5 |
+| 12.07.2026 | 18:00 | Hazırlık Kulüpler | Slavia Prag | Ruzomberok | 09272 | 3 |
 | 12.07.2026 | 20:00 | Hazırlık Kulüpler | Pumas Unam | America De Cali | 07250 | 5 |
+| 12.07.2026 | 17:00 | Hazırlık Kulüpler | De Graafschap | Aek | 09245 | 3 |
 | 12.07.2026 | 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia | Tigre | 08086 | 5 |
 | 12.07.2026 | 16:30 | Rusya FNL | Olimpiyets | Rotor Volgograd | 13154 | 5 |
-| 12.07.2026 | 17:00 | Rusya FNL | Shinnik Yarosl | Pfc Sochi | 13171 | 5 |
 | 12.07.2026 | 19:00 | Rusya FNL | Spartak Kostro | Kamaz | 13188 | 5 |
+| 12.07.2026 | 17:00 | Rusya FNL | Shinnik Yarosl | Pfc Sochi | 13171 | 5 |
 | 12.07.2026 | 18:45 | Litvanya A Ligi | Transinvest Vi | Banga | 13829 | 5 |
 | 12.07.2026 | 16:00 | Belarus Premier Lig | Arsenal | Vitebsk | 08977 | 5 |
 | 12.07.2026 | 20:30 | Romanya Süper Kupa | Universitatea | Universitatea C | 13831 | 5 |
-| 12.07.2026 | 19:30 | Şili Kupa Grup C | Cobreloa | La Serena | 04692 | 5 |
 
 ## Sonuc
 

@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-12T12:07:49.258Z
+- Güncelleme: 2026-07-12T12:30:02.823Z
 - Ham maç sayısı: 87
 - Yarın bülteni maç sayısı: 18
 - Detay blok sayısı: 219
-- Aktif bülten maçı: 78
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 77
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kfum Oslo - Bodo Glimt | Norveç Eliteserien | 15:30 | Veri bekleniyor | - | 5.13 | 6 |
 | Arsenal - Vitebsk | Belarus Premier Lig | 16:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Ulytau - Kaisar | Kazakistan Premier Lig | 16:00 | Veri bekleniyor | - | 1.85 | 8 |
 | Gomel Ii - Bumprom | Belarus 1.Lig | 16:00 | Veri bekleniyor | - | 3.73 | 4 |
