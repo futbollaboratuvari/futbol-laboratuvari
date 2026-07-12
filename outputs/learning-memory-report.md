@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 12.07.2026 18:18:01
-=======
-Oluşturma: 12.07.2026 18:19:05
->>>>>>> Stashed changes
+Oluşturma: 12.07.2026 18:31:14
 
 ## Özet
 
-- Toplam tahmin: 43
-- Bekleyen tahmin: 43
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 18
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 12.07.2026 18:19:05
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-12 | Norveç Eliteserien | Sandefjord - Ham Kam | MS X | pending | 50/100
-- 2026-07-12 | Ekvador Pro Lig | Ldu Quito - Libertad | MS X | pending | 75/100
-- 2026-07-12 | Kazakistan Premier Lig | Astana - Aktobe | MS X | pending | 40/100
-- 2026-07-12 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Nejmeh | MS 1 | pending | 40/100
-- 2026-07-12 | Hazırlık Kulüpler | Alianza Petrol - Deportivo Cali | MS 2 | pending | 60/100
-- 2026-07-12 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Ahed | MS 2 | pending | 60/100
-- 2026-07-12 | Hazırlık Kulüpler | Pumas Unam - America De Cali | MS 2 | pending | 50/100
-- 2026-07-12 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Heilongjiang Ls | MS X | pending | 60/100
-- 2026-07-12 | Hazırlık Kulüpler | Fluminense - Bahia | MS 2 | pending | 60/100
-- 2026-07-12 | Norveç Eliteserien | Brann - Start | MS 2 | pending | 40/100
-- 2026-07-12 | Hazırlık Kulüpler | Pafos Fc - Jagiellonia | MS X | pending | 50/100
-- 2026-07-12 | Kazakistan Premier Lig | Tobol Kostanay - Okzhetpes | MS X | pending | 50/100
-- 2026-07-12 | Litvanya A Ligi | Transinvest Vi - Banga | MS 2 | pending | 40/100
-- 2026-07-12 | Rusya FNL | Spartak Kostro - Kamaz | MS 2 | pending | 40/100
-- 2026-07-12 | Şili Kupa Grup C | Antofagasta - Cobresal | MS X | pending | 50/100
 
