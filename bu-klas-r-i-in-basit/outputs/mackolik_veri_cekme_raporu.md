@@ -1,24 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-12T18:38:28.990734+00:00
+Tarih: 2026-07-12T18:40:02.712981+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 36
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 35
+- Kac mac bulundu: 18
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 18
 - Ham veri havuzu toplam mac sayisi: 1731
 - Hedef tarih: 12.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Valley Grubu
 - Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
@@ -27,9 +22,7 @@ Tarih: 2026-07-12T18:38:28.990734+00:00
 - Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Tanzanya 1. Lig Play-Off
-- Uruguay Premier Lig Intermediate Turu Grup 1
 - İzlanda Urvalsdeild
-- Şili Kupa Grup H
 - Şili Lig Kupası Yarı Final
 
 ## Okunabilen Oran Alanlari
@@ -105,22 +98,20 @@ Tarih: 2026-07-12T18:38:28.990734+00:00
 | 12.07.2026 | 22:00 | Hazırlık Kulüpler | Fluminense | Bahia | 09289 | 5 |
 | 12.07.2026 | 23:00 | Hazırlık Kulüpler | Cruzeiro | Gremio | 02527 | 5 |
 | 12.07.2026 | 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia | Tigre | 08086 | 5 |
-| 13.07.2026 | 00:30 | Şili Kupa Grup H | Temuco | Huachipato | 03891 | 5 |
-| 13.07.2026 | 00:30 | Şili Kupa Grup H | Concepcion | Puerto Montt | 01331 | 5 |
 | 12.07.2026 | 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz | D Belgrano | 08103 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Midland | Quilmes | 08028 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Club Atletico | San Martin Sj | 07936 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | R Cordoba | Acassuso | 08069 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Agropecuario | Atl Temperley | 08010 | 3 |
 | 12.07.2026 | 23:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir | Patronato | 08120 | 3 |
-| 13.07.2026 | 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc | Almagro | 08137 | 3 |
-| 13.07.2026 | 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi | Penarol | 13816 | 3 |
 | 12.07.2026 | 22:00 | Brezilya Serie B | Sao Bernardo | Cuiaba | 08402 | 5 |
 | 12.07.2026 | 22:00 | Brezilya Serie B | Avai | Nautico | 08362 | 5 |
-| 13.07.2026 | 00:00 | Brezilya Serie B | Atletico Goian | Fortaleza Ce | 08520 | 5 |
-| 13.07.2026 | 01:00 | Brezilya Serie B | Regatas | Goias | 08682 | 5 |
 | 12.07.2026 | 23:05 | İzlanda Urvalsdeild | Hafnarfjordur | Valur | 11783 | 3 |
 | 12.07.2026 | 22:15 | Ekvador Pro Lig | Deportivo Cuen | Aucas | 10524 | 5 |
+| 12.07.2026 | 22:00 | Bolivya Premier Lig | Real Potosi | Nacional Potosi | 05576 | 5 |
+| 12.07.2026 | 22:00 | Şili Lig Kupası Yarı Final | Coquimbo Unido (1) | (0) Union La Calera | 02793 | 5 |
+| 12.07.2026 | 16:00 | Tanzanya 1. Lig Play-Off | Polisi Tanzani | Tanzania Prison | 05938 | 3 |
+| 12.07.2026 | 23:00 | ABD USL Lig 2 Valley Grubu | Northern India | Dayton Dutch | 05357 | 3 |
 
 ## Sonuc
 
