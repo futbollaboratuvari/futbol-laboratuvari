@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.07.2026 14:33:09
+Oluşturma: 12.07.2026 14:49:59
 
 ## Özet
 
-- Toplam tahmin: 36
-- Bekleyen tahmin: 36
+- Toplam tahmin: 37
+- Bekleyen tahmin: 37
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 17
@@ -20,12 +20,13 @@ Oluşturma: 12.07.2026 14:33:09
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS X: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-12 | Hazırlık Kulüpler | Pumas Unam - America De Cali | MS 2 | pending | 50/100
 - 2026-07-12 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Heilongjiang Ls | MS X | pending | 60/100
 - 2026-07-12 | Hazırlık Kulüpler | Fluminense - Bahia | MS 2 | pending | 60/100
 - 2026-07-12 | Norveç Eliteserien | Brann - Start | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 12.07.2026 14:33:09
 - 2026-07-12 | Norveç Eliteserien | Sarpsborg - Viking | MS 1 | pending | 55/100
 - 2026-07-12 | Romanya Süper Kupa | Universitatea - Universitatea C | MS 2 | pending | 50/100
 - 2026-07-12 | Brezilya Serie B | Avai - Nautico | MS X | pending | 40/100
-- 2026-07-12 | Bolivya Premier Lig | Real Potosi - Nacional Potosi | MS X | pending | 50/100
 
