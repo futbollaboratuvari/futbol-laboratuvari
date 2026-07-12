@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-12T11:19:49.409Z
-- Ham maç sayısı: 88
+- Güncelleme: 2026-07-12T11:33:09.203Z
+- Ham maç sayısı: 86
 - Yarın bülteni maç sayısı: 18
-- Detay blok sayısı: 221
+- Detay blok sayısı: 215
 - Aktif bülten maçı: 80
-- Bültenden düşürülen maç: 8
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
