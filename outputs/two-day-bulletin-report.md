@@ -3,26 +3,14 @@
 Gunler: 2026-07-12 / 2026-07-13
 Kaynak: fixtures.json
 Ham mac: 50
-Aktif mac: 35
-Canli mac: 15
+Aktif mac: 23
+Canli mac: 27
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 17
+Bultenden dusurulen mac: 27
+Bugun: 5
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - Acassuso | scheduled | -
-- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | Midland - Quilmes | scheduled | -
-- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | Club Atletico - San Martin Sj | scheduled | -
-- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | Agropecuario - Atl Temperley | scheduled | -
-- 2026-07-12 22:00 | Brezilya Serie B | Avai - Nautico | scheduled | -
-- 2026-07-12 22:00 | Brezilya Serie B | Sao Bernardo - Cuiaba | scheduled | -
-- 2026-07-12 22:00 | Bolivya Premier Lig | Real Potosi - Nacional Potosi | scheduled | -
-- 2026-07-12 22:00 | Şili Lig Kupası Yarı Final | Coquimbo Unido (1) - (0) Union La Calera | scheduled | -
-- 2026-07-12 22:00 | Hazırlık Kulüpler | Fluminense - Bahia | scheduled | -
-- 2026-07-12 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia - Tigre | scheduled | -
-- 2026-07-12 22:15 | Ekvador Pro Lig | Deportivo Cuen - Aucas | scheduled | -
-- 2026-07-12 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - D Belgrano | scheduled | -
 - 2026-07-12 23:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Patronato | scheduled | -
 - 2026-07-12 23:00 | ABD USL Lig 2 Valley Grubu | Northern India - Dayton Dutch | scheduled | -
 - 2026-07-12 23:00 | Hazırlık Kulüpler | Cruzeiro - Gremio | scheduled | -
@@ -63,6 +51,18 @@ Yarin: 18
 - 2026-07-12 21:00 | İzlanda Urvalsdeild | Fram - Thor Akureyri | live | -
 - 2026-07-12 21:00 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Nejmeh | live | -
 - 2026-07-12 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Central Norte | live | -
+- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - Acassuso | live | -
+- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | Midland - Quilmes | live | -
+- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | Club Atletico - San Martin Sj | live | -
+- 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | Agropecuario - Atl Temperley | live | -
+- 2026-07-12 22:00 | Brezilya Serie B | Avai - Nautico | live | -
+- 2026-07-12 22:00 | Brezilya Serie B | Sao Bernardo - Cuiaba | live | -
+- 2026-07-12 22:00 | Bolivya Premier Lig | Real Potosi - Nacional Potosi | live | -
+- 2026-07-12 22:00 | Şili Lig Kupası Yarı Final | Coquimbo Unido (1) - (0) Union La Calera | live | -
+- 2026-07-12 22:00 | Hazırlık Kulüpler | Fluminense - Bahia | live | -
+- 2026-07-12 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia - Tigre | live | -
+- 2026-07-12 22:15 | Ekvador Pro Lig | Deportivo Cuen - Aucas | live | -
+- 2026-07-12 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - D Belgrano | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,14 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 47
-Tam analiz: 36
-Eksik analiz: 11
+Toplam analiz: 32
+Tam analiz: 25
+Eksik analiz: 7
 
-- Slavia Prag VS Ruzomberok: eksik score, confidence
-- Liverpool Mont VS Cerro: eksik score, confidence
-- Valmieras Fk/B VS Ogre United: eksik score, confidence
-- Magni VS Haukar: eksik score, confidence
 - Boston River VS Central Espanol: eksik score, confidence
 - Kr Reykjavik VS Vestmannaeyjar: eksik score, confidence
 - Colon Santa Fe VS Central Norte: eksik score, confidence
