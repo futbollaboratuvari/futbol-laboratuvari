@@ -3,19 +3,14 @@
 Gunler: 2026-07-13 / 2026-07-14
 Kaynak: fixtures.json
 Ham mac: 31
-Aktif mac: 21
-Canli mac: 10
+Aktif mac: 16
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 17
+Bultenden dusurulen mac: 15
+Bugun: 12
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-13 02:00 | ABD USL Lig 2 Heartland Grubu | Rkc - River Light | scheduled | -
-- 2026-07-13 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot - Midlakes United | scheduled | -
-- 2026-07-13 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Shark Coast | scheduled | -
-- 2026-07-13 02:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Miami Ac | scheduled | -
-- 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | scheduled | -
 - 2026-07-13 03:00 | Şili Lig Kupası Yarı Final | O Higgins (1) - (2) Atletico Nublen | scheduled | -
 - 2026-07-13 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Snohomish Unite | scheduled | -
 - 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | scheduled | -
@@ -44,6 +39,11 @@ Yarin: 4
 - 2026-07-13 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi - Penarol | live | -
 - 2026-07-13 01:00 | Brezilya Serie B | Regatas - Goias | live | -
 - 2026-07-13 01:00 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fort Lauderdale | live | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Heartland Grubu | Rkc - River Light | live | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot - Midlakes United | live | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Shark Coast | live | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Miami Ac | live | -
+- 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | live | -
 
 ## Biten Maclar
 Biten mac yok.
