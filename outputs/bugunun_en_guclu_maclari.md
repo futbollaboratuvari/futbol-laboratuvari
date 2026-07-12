@@ -2,20 +2,20 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-12T09:58:07.865Z
-- Ham maç sayısı: 83
+- Güncelleme: 2026-07-12T10:02:29.032Z
+- Ham maç sayısı: 84
 - Yarın bülteni maç sayısı: 18
-- Detay blok sayısı: 212
-- Aktif bülten maçı: 81
+- Detay blok sayısı: 214
+- Aktif bülten maçı: 82
 - Bültenden düşürülen maç: 2
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Incheon Utd - Anyang | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.87 | 8 |
-| Jeju Utd - Daejeon Citizen | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.68 | 8 |
-| Fc Seoul - Gangwon | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.03 | 8 |
-| Busan Ipark - Gimpo Citizen | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.08 | 8 |
+| Incheon Utd - Anyang | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.92 | 8 |
+| Jeju Utd - Daejeon Citizen | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.76 | 8 |
+| Fc Seoul - Gangwon | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.04 | 8 |
+| Busan Ipark - Gimpo Citizen | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.03 | 8 |
 | Asan Mugunghwa - Gyeongnam | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.89 | 8 |
 | Shenzhen Junio - Heilongjiang Ls | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.49 | 7 |
 | Vasteras - Degerfors | İsveç Allsvenskan | 15:00 | Veri bekleniyor | - | 1.83 | 8 |
@@ -32,11 +32,12 @@
 | Astana - Aktobe | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.79 | 8 |
 | Throttur Vogar - Kfg Gardabar | İzlanda 2.Lig | 17:00 | Veri bekleniyor | - | 1.33 | 4 |
 | Kari - Kfa | İzlanda 2.Lig | 17:00 | Veri bekleniyor | - | 1.89 | 6 |
+| Marupe - Grobina | Letonya Kupa Son 16 Turu | 17:00 | Veri bekleniyor | - | 3.25 | 3 |
 | Brommapojkarna - Sirius | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 4.15 | 7 |
 | Gais - Elfsborg | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 1.68 | 8 |
 | Sandefjord - Ham Kam | Norveç Eliteserien | 18:00 | Veri bekleniyor | - | 1.67 | 8 |
 | Rosenborg - Kristiansund | Norveç Eliteserien | 18:00 | Veri bekleniyor | - | 1.4 | 7 |
-| Brann - Start | Norveç Eliteserien | 18:00 | Veri bekleniyor | - | 1.22 | 6 |
+| Brann - Start | Norveç Eliteserien | 18:00 | Veri bekleniyor | - | 1.24 | 6 |
 | Pafos Fc - Jagiellonia | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 2.53 | 8 |
 | Slavia Prag - Ruzomberok | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.3 | 4 |
 | Liverpool Mont - Cerro | Uruguay Premier Lig Intermediate Turu Grup 1 | 18:00 | Veri bekleniyor | - | 1.42 | 5 |
@@ -56,19 +57,19 @@
 | Universitatea - Universitatea C | Romanya Süper Kupa | 20:30 | Veri bekleniyor | - | 1.56 | 7 |
 | Gimnasia Jujuy - Chacarita Junio | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.33 | 7 |
 | Boston River - Central Espanol | Uruguay Premier Lig Intermediate Turu Grup 1 | 21:00 | Veri bekleniyor | - | 1.94 | 5 |
-| Kr Reykjavik - Vestmannaeyjar | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.2 | 4 |
+| Kr Reykjavik - Vestmannaeyjar | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.17 | 4 |
 | Ka Akureyri - Akranes | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 2.2 | 6 |
 | Fram - Thor Akureyri | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.09 | 4 |
 | Colon Santa Fe - Central Norte | Arjantin Ulusal Primera Lig | 21:30 | Veri bekleniyor | - | 1.39 | 5 |
 | R Cordoba - Acassuso | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 1.36 | 5 |
 | Midland - Quilmes | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 1.9 | 6 |
-| Club Atletico - San Martin Sj | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 2.84 | 6 |
+| Club Atletico - San Martin Sj | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 2.67 | 6 |
 | Agropecuario - Atl Temperley | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 2.32 | 6 |
 | Avai - Nautico | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 2.47 | 8 |
 | Sao Bernardo - Cuiaba | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 2.09 | 8 |
 | Real Potosi - Nacional Potosi | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 2.11 | 8 |
 | Coquimbo Unido (1) - (0) Union La Calera | Şili Lig Kupası Yarı Final | 22:00 | Veri bekleniyor | - | 1.35 | 7 |
-| Fluminense - Bahia | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 1.48 | 5 |
+| Fluminense - Bahia | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 1.48 | 7 |
 | Rivadavia - Tigre | Arjantin Kupa Son 32 Turu | 22:15 | Veri bekleniyor | - | 2.11 | 8 |
 | Deportivo Cuen - Aucas | Ekvador Pro Lig | 22:15 | Veri bekleniyor | - | 2.25 | 8 |
 | Godoy Cruz - D Belgrano | Arjantin Ulusal Primera Lig | 22:30 | Veri bekleniyor | - | 1.61 | 5 |

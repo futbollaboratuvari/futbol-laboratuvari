@@ -1,27 +1,24 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 63
-Tam analiz: 0
-Eksik analiz: 63
+Toplam analiz: 66
+Tam analiz: 49
+Eksik analiz: 17
 
-- Yangpyeong VS Jeonbuk Motors: eksik score, confidence
-- Changwon City VS Chuncheon Citiz: eksik score, confidence
-- Incheon Utd VS Anyang: eksik score, confidence
-- Jeju Utd VS Daejeon Citizen: eksik score, confidence
-- Fc Seoul VS Gangwon: eksik score, confidence
-- Busan Ipark VS Gimpo Citizen: eksik score, confidence
-- Asan Mugunghwa VS Gyeongnam: eksik score, confidence
-- Shenzhen Junio VS Heilongjiang Ls: eksik score, confidence
-- Vasteras VS Degerfors: eksik score, confidence
-- Hammarby VS Kalmar: eksik score, confidence
-- Malmö VS Göteborg: eksik score, confidence
-- Kfum Oslo VS Bodo Glimt: eksik score, confidence
-- Arsenal VS Vitebsk: eksik score, confidence
-- Ulytau VS Kaisar: eksik score, confidence
-- Olimpiyets VS Rotor Volgograd: eksik score, confidence
+- Gomel Ii VS Bumprom: eksik score, confidence
 - De Graafschap VS Aek: eksik score, confidence
-- Shinnik Yarosl VS Pfc Sochi: eksik score, confidence
-- Operario VS Novorizontino: eksik score, confidence
-- Astana VS Aktobe: eksik score, confidence
 - Throttur Vogar VS Kfg Gardabar: eksik score, confidence
+- Marupe VS Grobina: eksik score, confidence
+- Slavia Prag VS Ruzomberok: eksik score, confidence
+- Liverpool Mont VS Cerro: eksik score, confidence
+- Magni VS Haukar: eksik score, confidence
+- Boston River VS Central Espanol: eksik score, confidence
+- Kr Reykjavik VS Vestmannaeyjar: eksik score, confidence
+- Fram VS Thor Akureyri: eksik score, confidence
+- Colon Santa Fe VS Central Norte: eksik score, confidence
+- R Cordoba VS Acassuso: eksik score, confidence
+- Midland VS Quilmes: eksik score, confidence
+- Fluminense VS Bahia: eksik score, confidence
+- Godoy Cruz VS D Belgrano: eksik score, confidence
+- Gimnasia Y Tir VS Patronato: eksik score, confidence
+- Northern India VS Dayton Dutch: eksik score, confidence
