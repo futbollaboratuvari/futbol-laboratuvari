@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 47
 - Live match count: 18
-- Finished removed count: 10
+- Finished removed count: 0
 - Date window: 2026-07-12 / 2026-07-13 23:59
 
 - 2026-07-12 18:00 | Volna Pinsk - Soligorsk | live
