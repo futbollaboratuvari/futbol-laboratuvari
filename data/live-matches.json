@@ -1,28 +1,134 @@
 {
-  "generated_at": "2026-07-12T21:08:21.131Z",
+  "generated_at": "2026-07-12T21:32:56.627Z",
   "date": "2026-07-13",
-  "source": "High Value Coupon Engine",
-  "message": "",
+  "timezone": "Europe/Istanbul",
+  "source": "Maçkolik İddaa Futbol",
+  "title": "Futbol Laboratuvarı Canlı Veri",
+  "status": "active",
+  "message": "Başlayan karşılaşmalar canlı listede.",
+  "counts": {
+    "total": 31,
+    "current_window": 31,
+    "live": 9,
+    "scheduled": 4,
+    "finished": 18,
+    "active_analysis": 9,
+    "completed_analysis": 0,
+    "coupon_candidates": 0,
+    "watch_candidates": 0,
+    "focused_markets": 16,
+    "wide_market_odds": 206
+  },
+  "next_match": {
+    "date": "2026-07-14",
+    "time": "01:00",
+    "league": "Uruguay Premier Lig Intermediate Turu Grup 1",
+    "home": "Cerro Largo",
+    "away": "Defensor Sporti",
+    "status": "scheduled",
+    "liveStatus": "scheduled",
+    "minute": null,
+    "score": "",
+    "source": "Maçkolik canlı robot",
+    "matchCode": "13821",
+    "available_odds": {
+      "ms1": 2.43,
+      "msx": 2.67,
+      "ms2": 2.21,
+      "under25": 1.31,
+      "over25": 2.11,
+      "bttsYes": null,
+      "bttsNo": null
+    },
+    "odds": {
+      "ms1": 2.43,
+      "msx": 2.67,
+      "ms2": 2.21,
+      "under25": 1.31,
+      "over25": 2.11,
+      "bttsYes": null,
+      "bttsNo": null
+    },
+    "raw_market_guess_odds": {},
+    "raw_odds_sequence": [],
+    "market_odds_inventory": [
+      "ms1",
+      "msx",
+      "ms2",
+      "under25",
+      "over25",
+      "bttsYes",
+      "bttsNo"
+    ],
+    "wide_market_odds_count": 5,
+    "suggested_option": "",
+    "suggested_odds": "",
+    "analysis_score": null,
+    "confidence": "",
+    "risk_level": "",
+    "decision": "Analiz bekleniyor",
+    "robot_reason": "",
+    "include_in_coupon": false,
+    "raw_market_value_count": 5
+  },
+  "focused_markets": [
+    "İlk Yarı KG Var",
+    "İkinci Yarı KG Var",
+    "KG Var",
+    "2.5 Üst",
+    "3.5 Üst",
+    "İlk Yarı 1/X/2",
+    "İkinci Yarı 1/X/2",
+    "İY/MS 1/1",
+    "İY/MS 1/X",
+    "İY/MS 1/2",
+    "İY/MS X/1",
+    "İY/MS X/X",
+    "İY/MS X/2",
+    "İY/MS 2/1",
+    "İY/MS 2/X",
+    "İY/MS 2/2"
+  ],
+  "active_items": [],
+  "completed_items": [],
   "matches": [
     {
-      "match_name": "San Martin Tuc VS Almagro",
+      "date": "2026-07-13",
+      "time": "00:00",
       "league": "Arjantin Ulusal Primera Lig",
-      "start_time": "00:00",
-      "recommended_market": "Değerli market yok",
-      "confidence_score": "0%",
-      "analysis_score": 0,
-      "risk_level": "Yüksek",
-      "estimated_odds": "-",
+      "home": "San Martin Tuc",
+      "away": "Almagro",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 1,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "08137",
       "available_odds": {
-        "ms1": "1.40",
-        "msx": "2.84",
-        "ms2": "5.69",
-        "over25": "1.81",
-        "under25": "1.12",
+        "ms1": 1.4,
+        "msx": 2.84,
+        "ms2": 5.69,
+        "over25": 1.84,
+        "under25": 1.12,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "odds": {
+        "ms1": 1.4,
+        "msx": 2.84,
+        "ms2": 5.69,
+        "over25": 1.84,
+        "under25": 1.12,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -35,355 +141,78 @@
         "under25": 1.12,
         "over25": 1.81
       },
-      "detail_market_candidates": [
-        {
-          "market_code": "08137",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.4,
-            "msx": 2.84,
-            "ms2": 5.69
-          }
-        },
-        {
-          "market_code": "08137",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.4,
-            "firstHalfX_guess": 2.84,
-            "firstHalf2_guess": 5.69
-          }
-        },
-        {
-          "market_code": "08137",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.4,
-            "secondHalfX_guess": 2.84,
-            "secondHalf2_guess": 5.69
-          }
-        },
-        {
-          "market_code": "08137",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.4,
-            "handicapX_guess": 2.84,
-            "handicap2_guess": 5.69
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.12,
-            "bttsNo_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.12,
-            "firstHalfBttsNo_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.12,
-            "secondHalfBttsNo_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.12,
-            "over05_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.12,
-            "over15_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.12,
-            "over25_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.12,
-            "over35_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.12,
-            "over45_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.12,
-            "firstHalfOver05_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.12,
-            "firstHalfOver15_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.12,
-            "secondHalfOver05_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.12,
-            "secondHalfOver15_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.12,
-            "homeOver15_guess": 1.81
-          }
-        },
-        {
-          "market_code": "08138",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.12,
-            "awayOver15_guess": 1.81
-          }
-        }
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo"
       ],
-      "raw_market_blocks": [
-        {
-          "market_code": "08137",
-          "values": [
-            1.4,
-            2.84,
-            5.69
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 1.4,
-            "msx": 2.84,
-            "ms2": 5.69
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.4,
-                "msx": 2.84,
-                "ms2": 5.69
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.4,
-                "firstHalfX_guess": 2.84,
-                "firstHalf2_guess": 5.69
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.4,
-                "secondHalfX_guess": 2.84,
-                "secondHalf2_guess": 5.69
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.4,
-                "handicapX_guess": 2.84,
-                "handicap2_guess": 5.69
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "08138",
-          "values": [
-            1.12,
-            1.81
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 1.12,
-            "over25": 1.81
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 1.12,
-                "bttsNo_guess": 1.81
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 1.12,
-                "firstHalfBttsNo_guess": 1.81
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 1.12,
-                "secondHalfBttsNo_guess": 1.81
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 1.12,
-                "over05_guess": 1.81
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 1.12,
-                "over15_guess": 1.81
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 1.12,
-                "over25_guess": 1.81
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 1.12,
-                "over35_guess": 1.81
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 1.12,
-                "over45_guess": 1.81
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 1.12,
-                "firstHalfOver05_guess": 1.81
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 1.12,
-                "firstHalfOver15_guess": 1.81
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 1.12,
-                "secondHalfOver05_guess": 1.81
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 1.12,
-                "secondHalfOver15_guess": 1.81
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 1.12,
-                "homeOver15_guess": 1.81
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 1.12,
-                "awayOver15_guess": 1.81
-              }
-            }
-          ]
-        }
-      ],
-      "odds_source": "Robot ham veri havuzu",
-      "value_label": "Normal Değer",
-      "band_attention_level": "Düşük",
-      "band_attention_notes": [
-        "Bant kontrol verisi yok."
-      ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "wide_market_odds_count": 11,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
-      "status": "filtered_no_value_market",
-      "expected_scores": [],
-      "learning_adjustment": null
+      "raw_market_value_count": 5
     },
     {
-      "match_name": "Atletico Goian VS Fortaleza Ce",
+      "date": "2026-07-13",
+      "time": "00:00",
       "league": "Brezilya Serie B",
-      "start_time": "00:00",
-      "recommended_market": "MS X",
-      "confidence_score": "40%",
-      "analysis_score": 40,
-      "risk_level": "Yüksek",
-      "estimated_odds": "2.72",
+      "home": "Atletico Goian",
+      "away": "Fortaleza Ce",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 1,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "08520",
       "available_odds": {
-        "ms1": "2.10",
-        "msx": "2.72",
-        "ms2": "2.52",
-        "over25": "1.86",
-        "under25": "1.43",
+        "ms1": 2.1,
+        "msx": 2.72,
+        "ms2": 2.52,
+        "over25": 1.86,
+        "under25": 1.43,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.19",
-        "bttsNo": "1.15",
+        "bttsYes": 1.19,
+        "bttsNo": 1.15,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.15
+      },
+      "odds": {
+        "ms1": 2.1,
+        "msx": 2.72,
+        "ms2": 2.52,
+        "over25": 1.86,
+        "under25": 1.43,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 1.19,
+        "bttsNo": 1.15,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.15
       },
       "raw_market_guess_odds": {
         "ms1": 2.1,
@@ -394,756 +223,151 @@
         "bttsYes_guess": 1.19,
         "bttsNo_guess": 1.15
       },
-      "detail_market_candidates": [
-        {
-          "market_code": "08520",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.1,
-            "msx": 2.72,
-            "ms2": 2.52
-          }
-        },
-        {
-          "market_code": "08520",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.1,
-            "firstHalfX_guess": 2.72,
-            "firstHalf2_guess": 2.52
-          }
-        },
-        {
-          "market_code": "08520",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.1,
-            "secondHalfX_guess": 2.72,
-            "secondHalf2_guess": 2.52
-          }
-        },
-        {
-          "market_code": "08520",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.1,
-            "handicapX_guess": 2.72,
-            "handicap2_guess": 2.52
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.43,
-            "bttsNo_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.43,
-            "firstHalfBttsNo_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.43,
-            "secondHalfBttsNo_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.43,
-            "over05_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.43,
-            "over15_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.43,
-            "over25_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.43,
-            "over35_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.43,
-            "over45_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.43,
-            "firstHalfOver05_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.43,
-            "firstHalfOver15_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.43,
-            "secondHalfOver05_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.43,
-            "secondHalfOver15_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.43,
-            "homeOver15_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08528",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.43,
-            "awayOver15_guess": 1.86
-          }
-        },
-        {
-          "market_code": "08521",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.19,
-            "msx": 1.15,
-            "ms2": 1.3
-          }
-        },
-        {
-          "market_code": "08521",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.19,
-            "firstHalfX_guess": 1.15,
-            "firstHalf2_guess": 1.3
-          }
-        },
-        {
-          "market_code": "08521",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.19,
-            "secondHalfX_guess": 1.15,
-            "secondHalf2_guess": 1.3
-          }
-        },
-        {
-          "market_code": "08521",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.19,
-            "handicapX_guess": 1.15,
-            "handicap2_guess": 1.3
-          }
-        }
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "raw_market_blocks": [
-        {
-          "market_code": "08520",
-          "values": [
-            2.1,
-            2.72,
-            2.52
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 2.1,
-            "msx": 2.72,
-            "ms2": 2.52
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 2.1,
-                "msx": 2.72,
-                "ms2": 2.52
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 2.1,
-                "firstHalfX_guess": 2.72,
-                "firstHalf2_guess": 2.52
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 2.1,
-                "secondHalfX_guess": 2.72,
-                "secondHalf2_guess": 2.52
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 2.1,
-                "handicapX_guess": 2.72,
-                "handicap2_guess": 2.52
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "08528",
-          "values": [
-            1.43,
-            1.86
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 1.43,
-            "over25": 1.86
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 1.43,
-                "bttsNo_guess": 1.86
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 1.43,
-                "firstHalfBttsNo_guess": 1.86
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 1.43,
-                "secondHalfBttsNo_guess": 1.86
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 1.43,
-                "over05_guess": 1.86
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 1.43,
-                "over15_guess": 1.86
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 1.43,
-                "over25_guess": 1.86
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 1.43,
-                "over35_guess": 1.86
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 1.43,
-                "over45_guess": 1.86
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 1.43,
-                "firstHalfOver05_guess": 1.86
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 1.43,
-                "firstHalfOver15_guess": 1.86
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 1.43,
-                "secondHalfOver05_guess": 1.86
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 1.43,
-                "secondHalfOver15_guess": 1.86
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 1.43,
-                "homeOver15_guess": 1.86
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 1.43,
-                "awayOver15_guess": 1.86
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "08521",
-          "values": [
-            1.19,
-            1.15,
-            1.3
-          ],
-          "guess": "KG Var / Yok tahmini",
-          "named_values": {
-            "bttsYes_guess": 1.19,
-            "bttsNo_guess": 1.15
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.19,
-                "msx": 1.15,
-                "ms2": 1.3
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.19,
-                "firstHalfX_guess": 1.15,
-                "firstHalf2_guess": 1.3
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.19,
-                "secondHalfX_guess": 1.15,
-                "secondHalf2_guess": 1.3
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.19,
-                "handicapX_guess": 1.15,
-                "handicap2_guess": 1.3
-              }
-            }
-          ]
-        }
-      ],
-      "odds_source": "Robot ham veri havuzu",
-      "value_label": "Yüksek Değer",
-      "band_attention_level": "Düşük",
-      "band_attention_notes": [
-        "Bant kontrol verisi yok."
-      ],
-      "robot_comment": "Market: MS X | Oran: 2.72 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "wide_market_odds_count": 15,
+      "suggested_option": "MS X",
+      "suggested_odds": "2.72",
+      "analysis_score": 40,
+      "confidence": "40%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Market: MS X | Oran: 2.72 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Düşük",
-      "status": "live",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "learning_adjustment": {
-        "market": "MS X",
-        "league": "Brezilya Serie B",
-        "delta": 0,
-        "weight": 1,
-        "applied": false,
-        "notes": [
-          "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-        ],
-        "market_bucket": {
-          "total": 12,
-          "pending": 12,
-          "won": 0,
-          "lost": 0,
-          "void": 0,
-          "success_rate": null,
-          "weight": 1,
-          "confidence_adjustment": 0
-        },
-        "league_bucket": {
-          "total": 3,
-          "pending": 3,
-          "won": 0,
-          "lost": 0,
-          "void": 0,
-          "success_rate": null,
-          "weight": 1,
-          "confidence_adjustment": 0
-        },
-        "league_market_bucket": {
-          "total": 2,
-          "pending": 2,
-          "won": 0,
-          "lost": 0,
-          "void": 0,
-          "success_rate": null,
-          "weight": 1,
-          "confidence_adjustment": 0
-        }
-      }
+      "raw_market_value_count": 8
     },
     {
-      "match_name": "Edgewater Cast VS Minneapolis Cit",
+      "date": "2026-07-13",
+      "time": "00:00",
       "league": "ABD USL Lig 2 Heartland Grubu",
-      "start_time": "00:00",
-      "recommended_market": "Değerli market yok",
-      "confidence_score": "0%",
-      "analysis_score": 0,
-      "risk_level": "Yüksek",
-      "estimated_odds": "-",
+      "home": "Edgewater Cast",
+      "away": "Minneapolis Cit",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 1,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "03330",
       "available_odds": {
-        "ms1": "17.10",
-        "msx": "11.00",
-        "ms2": "-",
-        "over25": "-",
-        "under25": "-",
+        "ms1": 17.1,
+        "msx": 11,
+        "ms2": null,
+        "over25": null,
+        "under25": null,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "17.10",
-        "bttsNo": "11.00",
+        "bttsYes": 17.1,
+        "bttsNo": 11,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 17.1,
+        "bttsNo_guess": 11
+      },
+      "odds": {
+        "ms1": 17.1,
+        "msx": 11,
+        "ms2": null,
+        "over25": null,
+        "under25": null,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 17.1,
+        "bttsNo": 11,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 17.1,
+        "bttsNo_guess": 11
       },
       "raw_market_guess_odds": {
         "bttsYes_guess": 17.1,
         "bttsNo_guess": 11
       },
-      "detail_market_candidates": [
-        {
-          "market_code": "03330",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 17.1,
-            "bttsNo_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 17.1,
-            "firstHalfBttsNo_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 17.1,
-            "secondHalfBttsNo_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 17.1,
-            "over05_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 17.1,
-            "over15_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 17.1,
-            "over25_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 17.1,
-            "over35_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 17.1,
-            "over45_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 17.1,
-            "firstHalfOver05_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 17.1,
-            "firstHalfOver15_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 17.1,
-            "secondHalfOver05_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 17.1,
-            "secondHalfOver15_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 17.1,
-            "homeOver15_guess": 11
-          }
-        },
-        {
-          "market_code": "03330",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 17.1,
-            "awayOver15_guess": 11
-          }
-        }
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "raw_market_blocks": [
-        {
-          "market_code": "03330",
-          "values": [
-            17.1,
-            11
-          ],
-          "guess": "KG Var / Yok",
-          "named_values": {
-            "bttsYes_guess": 17.1,
-            "bttsNo_guess": 11
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 17.1,
-                "bttsNo_guess": 11
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 17.1,
-                "firstHalfBttsNo_guess": 11
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 17.1,
-                "secondHalfBttsNo_guess": 11
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 17.1,
-                "over05_guess": 11
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 17.1,
-                "over15_guess": 11
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 17.1,
-                "over25_guess": 11
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 17.1,
-                "over35_guess": 11
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 17.1,
-                "over45_guess": 11
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 17.1,
-                "firstHalfOver05_guess": 11
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 17.1,
-                "firstHalfOver15_guess": 11
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 17.1,
-                "secondHalfOver05_guess": 11
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 17.1,
-                "secondHalfOver15_guess": 11
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 17.1,
-                "homeOver15_guess": 11
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 17.1,
-                "awayOver15_guess": 11
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "03608",
-          "values": [
-            5.45
-          ],
-          "guess": "Ham detay market",
-          "named_values": {},
-          "detail_market_candidates": []
-        }
-      ],
-      "odds_source": "Robot ham veri havuzu",
-      "value_label": "Normal Değer",
-      "band_attention_level": "Düşük",
-      "band_attention_notes": [
-        "Bant kontrol verisi yok."
-      ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "wide_market_odds_count": 12,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
-      "status": "filtered_no_value_market",
-      "expected_scores": [],
-      "learning_adjustment": null
+      "raw_market_value_count": 3
     },
     {
-      "match_name": "West Seattle J VS Bangers",
+      "date": "2026-07-13",
+      "time": "00:00",
       "league": "ABD USL Lig 2 Kuzeybatı Grubu",
-      "start_time": "00:00",
-      "recommended_market": "Değerli market yok",
-      "confidence_score": "10%",
-      "analysis_score": 10,
-      "risk_level": "Yüksek",
-      "estimated_odds": "-",
+      "home": "West Seattle J",
+      "away": "Bangers",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 1,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "07004",
       "available_odds": {
-        "ms1": "2.14",
-        "msx": "3.37",
-        "ms2": "2.11",
-        "over25": "1.08",
-        "under25": "1.29",
+        "ms1": 2.14,
+        "msx": 3.37,
+        "ms2": 2.11,
+        "over25": 1.08,
+        "under25": 1.29,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "odds": {
+        "ms1": 2.14,
+        "msx": 3.37,
+        "ms2": 2.11,
+        "over25": 1.08,
+        "under25": 1.29,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -1156,190 +380,610 @@
         "under25": 1.29,
         "over25": 1.08
       },
-      "detail_market_candidates": [
-        {
-          "market_code": "07004",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.14,
-            "msx": 3.37,
-            "ms2": 2.11
-          }
-        },
-        {
-          "market_code": "07004",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.14,
-            "firstHalfX_guess": 3.37,
-            "firstHalf2_guess": 2.11
-          }
-        },
-        {
-          "market_code": "07004",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.14,
-            "secondHalfX_guess": 3.37,
-            "secondHalf2_guess": 2.11
-          }
-        },
-        {
-          "market_code": "07004",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.14,
-            "handicapX_guess": 3.37,
-            "handicap2_guess": 2.11
-          }
-        },
-        {
-          "market_code": "07012",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.29,
-            "msx": 1.08,
-            "ms2": 1.28
-          }
-        },
-        {
-          "market_code": "07012",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.29,
-            "firstHalfX_guess": 1.08,
-            "firstHalf2_guess": 1.28
-          }
-        },
-        {
-          "market_code": "07012",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.29,
-            "secondHalfX_guess": 1.08,
-            "secondHalf2_guess": 1.28
-          }
-        },
-        {
-          "market_code": "07012",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.29,
-            "handicapX_guess": 1.08,
-            "handicap2_guess": 1.28
-          }
-        }
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo"
       ],
-      "raw_market_blocks": [
-        {
-          "market_code": "07004",
-          "values": [
-            2.14,
-            3.37,
-            2.11
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 2.14,
-            "msx": 3.37,
-            "ms2": 2.11
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 2.14,
-                "msx": 3.37,
-                "ms2": 2.11
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 2.14,
-                "firstHalfX_guess": 3.37,
-                "firstHalf2_guess": 2.11
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 2.14,
-                "secondHalfX_guess": 3.37,
-                "secondHalf2_guess": 2.11
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 2.14,
-                "handicapX_guess": 3.37,
-                "handicap2_guess": 2.11
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "07012",
-          "values": [
-            1.29,
-            1.08,
-            1.28
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 1.29,
-            "over25": 1.08
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.29,
-                "msx": 1.08,
-                "ms2": 1.28
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.29,
-                "firstHalfX_guess": 1.08,
-                "firstHalf2_guess": 1.28
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.29,
-                "secondHalfX_guess": 1.08,
-                "secondHalf2_guess": 1.28
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.29,
-                "handicapX_guess": 1.08,
-                "handicap2_guess": 1.28
-              }
-            }
-          ]
-        }
-      ],
-      "odds_source": "Robot ham veri havuzu",
-      "value_label": "Normal Değer",
-      "band_attention_level": "Düşük",
-      "band_attention_notes": [
-        "Bant kontrol verisi yok."
-      ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
+      "wide_market_odds_count": 11,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 10,
+      "confidence": "10%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
-      "status": "filtered_no_value_market",
-      "expected_scores": [],
-      "learning_adjustment": null
+      "raw_market_value_count": 6
+    },
+    {
+      "date": "2026-07-13",
+      "time": "00:15",
+      "league": "Bolivya Premier Lig",
+      "home": "The Strongest",
+      "away": "Bolivar",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 17,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "05602",
+      "available_odds": {
+        "ms1": 2.59,
+        "msx": 3.17,
+        "ms2": 1.86,
+        "over25": 1.09,
+        "under25": 1.4,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "odds": {
+        "ms1": 2.59,
+        "msx": 3.17,
+        "ms2": 1.86,
+        "over25": 1.09,
+        "under25": 1.4,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo"
+      ],
+      "wide_market_odds_count": 11,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "include_in_coupon": false,
+      "raw_market_value_count": 3
+    },
+    {
+      "date": "2026-07-13",
+      "time": "00:30",
+      "league": "Şili Kupa Grup H",
+      "home": "Concepcion",
+      "away": "Puerto Montt",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 2,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "01331",
+      "available_odds": {
+        "ms1": 1.38,
+        "msx": 3.45,
+        "ms2": 4.51,
+        "over25": 1.48,
+        "under25": 1.77,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 1.06,
+        "bttsNo": 1.86,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.86
+      },
+      "odds": {
+        "ms1": 1.38,
+        "msx": 3.45,
+        "ms2": 4.51,
+        "over25": 1.48,
+        "under25": 1.77,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 1.06,
+        "bttsNo": 1.86,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.86
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 15,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "include_in_coupon": false,
+      "raw_market_value_count": 5
+    },
+    {
+      "date": "2026-07-13",
+      "time": "00:30",
+      "league": "Şili Kupa Grup H",
+      "home": "Temuco",
+      "away": "Huachipato",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 2,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "03891",
+      "available_odds": {
+        "ms1": 2.37,
+        "msx": 2.98,
+        "ms2": 2.08,
+        "over25": 1.48,
+        "under25": 1.77,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 1.31,
+        "bttsNo": 1.12,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.12
+      },
+      "odds": {
+        "ms1": 2.37,
+        "msx": 2.98,
+        "ms2": 2.08,
+        "over25": 1.48,
+        "under25": 1.77,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 1.31,
+        "bttsNo": 1.12,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.12
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 15,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "include_in_coupon": false,
+      "raw_market_value_count": 5
+    },
+    {
+      "date": "2026-07-13",
+      "time": "00:30",
+      "league": "Uruguay Premier Lig Intermediate Turu Grup 1",
+      "home": "Racing Montevi",
+      "away": "Penarol",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 2,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "13816",
+      "available_odds": {
+        "ms1": 2.83,
+        "msx": 2.66,
+        "ms2": 1.96,
+        "over25": null,
+        "under25": null,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "odds": {
+        "ms1": 2.83,
+        "msx": 2.66,
+        "ms2": 1.96,
+        "over25": null,
+        "under25": null,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo"
+      ],
+      "wide_market_odds_count": 9,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "include_in_coupon": false,
+      "raw_market_value_count": 3
+    },
+    {
+      "date": "2026-07-13",
+      "time": "23:15",
+      "league": "İzlanda 1.Lig",
+      "home": "Vestri",
+      "away": "Fylkir",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 62,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "00692",
+      "available_odds": {
+        "ms1": 3.59,
+        "msx": 3.36,
+        "ms2": 1.5,
+        "over25": 1.34,
+        "under25": 2.02,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "1.68",
+        "bttsNo": "1.07",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.68,
+        "bttsNo_guess": 1.07
+      },
+      "odds": {
+        "ms1": 3.59,
+        "msx": 3.36,
+        "ms2": 1.5,
+        "over25": 1.34,
+        "under25": 2.02,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "1.68",
+        "bttsNo": "1.07",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.68,
+        "bttsNo_guess": 1.07
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 15,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "include_in_coupon": false,
+      "raw_market_value_count": 5
+    }
+  ],
+  "scheduled_matches": [
+    {
+      "date": "2026-07-14",
+      "time": "01:00",
+      "league": "Uruguay Premier Lig Intermediate Turu Grup 1",
+      "home": "Cerro Largo",
+      "away": "Defensor Sporti",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "13821",
+      "available_odds": {
+        "ms1": 2.43,
+        "msx": 2.67,
+        "ms2": 2.21,
+        "under25": 1.31,
+        "over25": 2.11,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 2.43,
+        "msx": 2.67,
+        "ms2": 2.21,
+        "under25": 1.31,
+        "over25": 2.11,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 5,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
+      "raw_market_value_count": 5
+    },
+    {
+      "date": "2026-07-14",
+      "time": "01:00",
+      "league": "Brezilya Serie B",
+      "home": "America Mineir",
+      "away": "Londrina",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "08716",
+      "available_odds": {
+        "ms1": 1.67,
+        "msx": 2.86,
+        "ms2": 3.43,
+        "under25": 1.5,
+        "over25": 1.75,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 1.67,
+        "msx": 2.86,
+        "ms2": 3.43,
+        "under25": 1.5,
+        "over25": 1.75,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 5,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
+      "raw_market_value_count": 5
+    },
+    {
+      "date": "2026-07-14",
+      "time": "02:30",
+      "league": "Brezilya Serie B",
+      "home": "Ceara",
+      "away": "Athletic Club",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "08793",
+      "available_odds": {
+        "ms1": 1.64,
+        "msx": 2.78,
+        "ms2": 3.69,
+        "under25": 1.36,
+        "over25": 1.99,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 1.64,
+        "msx": 2.78,
+        "ms2": 3.69,
+        "under25": 1.36,
+        "over25": 1.99,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "under25",
+        "over25",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 5,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
+      "raw_market_value_count": 5
+    },
+    {
+      "date": "2026-07-14",
+      "time": "03:00",
+      "league": "Arjantin Ulusal Primera Lig",
+      "home": "Atlanta",
+      "away": "Colegiales",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "08154",
+      "available_odds": {
+        "ms1": 1.67,
+        "msx": 2.51,
+        "ms2": 4.16,
+        "over25": null,
+        "under25": null,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "odds": {
+        "ms1": 1.67,
+        "msx": 2.51,
+        "ms2": 4.16,
+        "over25": null,
+        "under25": null,
+        "bttsYes": null,
+        "bttsNo": null
+      },
+      "raw_market_guess_odds": {},
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "bttsYes",
+        "bttsNo"
+      ],
+      "wide_market_odds_count": 3,
+      "suggested_option": "",
+      "suggested_odds": "",
+      "analysis_score": null,
+      "confidence": "",
+      "risk_level": "",
+      "decision": "Analiz bekleniyor",
+      "robot_reason": "",
+      "include_in_coupon": false,
+      "raw_market_value_count": 3
     }
   ]
 }

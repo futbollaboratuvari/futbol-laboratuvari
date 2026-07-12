@@ -1,31 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-12T21:00:14.818782+00:00
+Tarih: 2026-07-12T21:32:41.550036+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 18
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 18
-- Ham veri havuzu toplam mac sayisi: 1731
+- Kac mac bulundu: 13
+- Kac mac kaydedildi: 13
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 1744
 - Hedef tarih: 13.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 NorCal Grubu
 - Arjantin Ulusal Primera Lig
-- Bolivya Premier Lig
+- Avustralya Victoria NPL 1
 - Brezilya Serie B
-- Ekvador Pro Lig
+- Lübnan Premier Lig Küme Düşme Turu
+- Rusya FNL
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- Şili Kupa Grup H
-- Şili Lig Kupası Yarı Final
+- Çin Halk Cumhuriyeti 1.Lig
+- İsveç Allsvenskan
+- İzlanda 1.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -82,8 +80,8 @@ Tarih: 2026-07-12T21:00:14.818782+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 15
-- Acilan detay: 15
+- Denenen Tumu alani: 10
+- Acilan detay: 10
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -96,24 +94,19 @@ Tarih: 2026-07-12T21:00:14.818782+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 13.07.2026 | 00:30 | Şili Kupa Grup H | Temuco | Huachipato | 03891 | 5 |
-| 13.07.2026 | 00:30 | Şili Kupa Grup H | Concepcion | Puerto Montt | 01331 | 5 |
-| 13.07.2026 | 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc | Almagro | 08137 | 3 |
-| 13.07.2026 | 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi | Penarol | 13816 | 3 |
-| 13.07.2026 | 01:00 | Brezilya Serie B | Regatas | Goias | 08682 | 5 |
-| 13.07.2026 | 00:00 | Brezilya Serie B | Atletico Goian | Fortaleza Ce | 08520 | 5 |
-| 13.07.2026 | 02:10 | Ekvador Pro Lig | Emelec | Barcelona Gua | 10541 | 5 |
-| 13.07.2026 | 00:15 | Bolivya Premier Lig | The Strongest | Bolivar | 05602 | 3 |
-| 13.07.2026 | 03:00 | Şili Lig Kupası Yarı Final | O Higgins (1) | (2) Atletico Nublen | 02796 | 5 |
-| 13.07.2026 | 02:00 | ABD USL Lig 2 Heartland Grubu | Rkc | River Light | 05211 | 3 |
-| 13.07.2026 | 00:00 | ABD USL Lig 2 Heartland Grubu | Edgewater Cast | Minneapolis Cit | 03330 | 2 |
-| 13.07.2026 | 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot | Midlakes United | 02709 | 3 |
-| 13.07.2026 | 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard | Snohomish Unite | 03438 | 3 |
-| 13.07.2026 | 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J | Bangers | 07004 | 3 |
-| 13.07.2026 | 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages | Shark Coast | 06071 | 2 |
-| 13.07.2026 | 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc | Marin | 03780 | 3 |
-| 13.07.2026 | 01:00 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite | Fort Lauderdale | 02490 | 5 |
-| 13.07.2026 | 02:00 | ABD USL Lig 2 Güney Florida Grubu | Weston | Miami Ac | 06764 | 5 |
+| 13.07.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Halmstads | 14239 | 5 |
+| 13.07.2026 | 19:30 | Rusya FNL | Arsenal Tula | Tekstilshchik | 13239 | 5 |
+| 13.07.2026 | 17:00 | Rusya FNL | Chelyabinsk | Ska-Khabarovsk | 13205 | 5 |
+| 13.07.2026 | 17:00 | Rusya FNL | Ural | Torpedo Moskova | 13222 | 5 |
+| 14.07.2026 | 03:00 | Arjantin Ulusal Primera Lig | Atlanta | Colegiales | 08154 | 3 |
+| 14.07.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo | Defensor Sporti | 13821 | 5 |
+| 14.07.2026 | 01:00 | Brezilya Serie B | America Mineir | Londrina | 08716 | 5 |
+| 14.07.2026 | 02:30 | Brezilya Serie B | Ceara | Athletic Club | 08793 | 5 |
+| 13.07.2026 | 22:15 | İzlanda Urvalsdeild | Breidablik | Keflavik | 11814 | 3 |
+| 13.07.2026 | 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo | Foshan Nanshi | 14898 | 5 |
+| 13.07.2026 | 23:15 | İzlanda 1.Lig | Vestri | Fylkir | 00692 | 5 |
+| 13.07.2026 | 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions | Brunswick City | 02328 | 3 |
+| 13.07.2026 | 16:00 | Lübnan Premier Lig Küme Düşme Turu | Reyady Abaseya | Racing Beirut | 09310 | 4 |
 
 ## Sonuc
 

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 18
-- Live match count: 17
-- Finished removed count: 1
-- Date window: 2026-07-12 / 2026-07-13 23:59
+- Scheduled match count: 23
+- Live match count: 8
+- Finished removed count: 0
+- Date window: 2026-07-13 / 2026-07-14 23:59
 
-- 2026-07-12 22:00 | Agropecuario - Atl Temperley | live
-- 2026-07-12 22:00 | Club Atletico - San Martin Sj | live
-- 2026-07-12 22:00 | Midland - Quilmes | live
-- 2026-07-12 22:00 | R Cordoba - Acassuso | live
-- 2026-07-12 22:00 | Real Potosi - Nacional Potosi | live
-- 2026-07-12 22:00 | Avai - Nautico | live
-- 2026-07-12 22:00 | Sao Bernardo - Cuiaba | live
-- 2026-07-12 22:00 | Fluminense - Bahia | live
-- 2026-07-12 22:00 | Coquimbo Unido (1) - (0) Union La Calera | live
-- 2026-07-12 22:15 | Rivadavia - Tigre | live
+- 2026-07-13 00:00 | Edgewater Cast - Minneapolis Cit | live
+- 2026-07-13 00:00 | West Seattle J - Bangers | live
+- 2026-07-13 00:00 | San Martin Tuc - Almagro | live
+- 2026-07-13 00:00 | Atletico Goian - Fortaleza Ce | live
+- 2026-07-13 00:15 | The Strongest - Bolivar | live
+- 2026-07-13 00:30 | Concepcion - Puerto Montt | live
+- 2026-07-13 00:30 | Temuco - Huachipato | live
+- 2026-07-13 00:30 | Racing Montevi - Penarol | live
+- 2026-07-13 01:00 | Lakeland Unite - Fort Lauderdale | scheduled
+- 2026-07-13 01:00 | Regatas - Goias | scheduled
