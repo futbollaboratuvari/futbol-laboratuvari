@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T17:44:32.604Z",
+  "generated_at": "2026-07-12T17:48:51.388Z",
   "date": "2026-07-12",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
@@ -14,8 +14,8 @@
     "finished": 0,
     "active_analysis": 38,
     "completed_analysis": 0,
-    "coupon_candidates": 0,
-    "watch_candidates": 8,
+    "coupon_candidates": 1,
+    "watch_candidates": 9,
     "focused_markets": 16,
     "wide_market_odds": 601
   },
@@ -308,7 +308,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.44,
+        "msx": 3.75,
+        "ms2": 3.58,
+        "under25": 1.21,
+        "over25": 1.06
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -378,7 +384,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.07,
+        "msx": 3.29,
+        "ms2": 2.21,
+        "under25": 1.26,
+        "over25": 1.09
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -522,7 +534,10 @@
         "bttsYes_guess": 6.57,
         "bttsNo_guess": 12.2
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "bttsYes_guess": 6.57,
+        "bttsNo_guess": 12.2
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1019,11 +1034,13 @@
         "bttsNo_guess": 14.25
       },
       "raw_market_guess_odds": {
+        "bttsYes_guess": 6.09,
+        "bttsNo_guess": 14.25,
+        "under25": 1.99,
+        "over25": 1.35,
         "ms1": 1.05,
         "msx": 5.34,
-        "ms2": 9.88,
-        "under25": 1.99,
-        "over25": 1.35
+        "ms2": 9.88
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -1046,11 +1063,11 @@
       "wide_market_odds_count": 15,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
-      "analysis_score": 10,
-      "confidence": "10%",
-      "risk_level": "Yüksek",
-      "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
+      "analysis_score": 65,
+      "confidence": "65%",
+      "risk_level": "Orta",
+      "decision": "Kupon Adayı",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | İki takım son 10 maçta en az 4 gol yedi: +15",
       "include_in_coupon": false,
       "raw_market_value_count": 6
     },
@@ -1067,9 +1084,9 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "07250",
       "available_odds": {
-        "ms1": 1.69,
-        "msx": 2.87,
-        "ms2": 3.32,
+        "ms1": 1.66,
+        "msx": 2.93,
+        "ms2": 3.39,
         "over25": 1.74,
         "under25": 1.5,
         "over35": "-",
@@ -1084,9 +1101,9 @@
         "bttsNo_guess": 1.13
       },
       "odds": {
-        "ms1": 1.69,
-        "msx": 2.87,
-        "ms2": 3.32,
+        "ms1": 1.66,
+        "msx": 2.93,
+        "ms2": 3.39,
         "over25": 1.74,
         "under25": 1.5,
         "over35": "-",
@@ -1189,7 +1206,9 @@
         "msx": 4.16,
         "ms2": 1.35,
         "under25": 2.57,
-        "over25": 1.22
+        "over25": 1.22,
+        "bttsYes_guess": 2.04,
+        "bttsNo_guess": 1.05
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -1212,10 +1231,10 @@
       "wide_market_odds_count": 15,
       "suggested_option": "MS 1",
       "suggested_odds": "4.28",
-      "analysis_score": 40,
-      "confidence": "40%",
+      "analysis_score": 55,
+      "confidence": "55%",
       "risk_level": "Yüksek",
-      "decision": "Oynama",
+      "decision": "İzleme",
       "robot_reason": "Market: MS 1 | Oran: 4.28 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "raw_market_value_count": 6
@@ -3270,10 +3289,10 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "03330",
       "available_odds": {
+        "bttsYes_guess": 17.1,
+        "bttsNo_guess": 10.65,
         "ms1": 17.1,
         "msx": 10.65,
-        "bttsYes_guess": 17.1,
-        "bttsNo_guess": 11.15,
         "ms2": null,
         "over25": null,
         "under25": null,
@@ -3281,10 +3300,10 @@
         "bttsNo": null
       },
       "odds": {
+        "bttsYes_guess": 17.1,
+        "bttsNo_guess": 10.65,
         "ms1": 17.1,
         "msx": 10.65,
-        "bttsYes_guess": 17.1,
-        "bttsNo_guess": 11.15,
         "ms2": null,
         "over25": null,
         "under25": null,
@@ -3293,14 +3312,14 @@
       },
       "raw_market_guess_odds": {
         "bttsYes_guess": 17.1,
-        "bttsNo_guess": 11.15
+        "bttsNo_guess": 10.65
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
-        "ms1",
-        "msx",
         "bttsYes_guess",
         "bttsNo_guess",
+        "ms1",
+        "msx",
         "ms2",
         "over25",
         "under25",
@@ -3640,7 +3659,7 @@
         "ms2": 3.53,
         "under25": 1.5,
         "over25": 1.75,
-        "bttsYes_guess": 1.07,
+        "bttsYes_guess": 1.06,
         "bttsNo_guess": 1.12,
         "bttsYes": null,
         "bttsNo": null
@@ -3651,18 +3670,18 @@
         "ms2": 3.53,
         "under25": 1.5,
         "over25": 1.75,
-        "bttsYes_guess": 1.07,
+        "bttsYes_guess": 1.06,
         "bttsNo_guess": 1.12,
         "bttsYes": null,
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "ms1": 1.65,
-        "msx": 2.92,
-        "ms2": 3.43,
+        "ms1": 1.62,
+        "msx": 2.93,
+        "ms2": 3.53,
         "under25": 1.5,
         "over25": 1.75,
-        "bttsYes_guess": 1.07,
+        "bttsYes_guess": 1.06,
         "bttsNo_guess": 1.12
       },
       "raw_odds_sequence": [],
@@ -3883,10 +3902,10 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "06071",
       "available_odds": {
-        "msx": 6.54,
-        "ms2": 11.25,
         "bttsYes_guess": 6.54,
         "bttsNo_guess": 11.25,
+        "msx": 6.54,
+        "ms2": 11.25,
         "ms1": null,
         "over25": null,
         "under25": null,
@@ -3894,10 +3913,10 @@
         "bttsNo": null
       },
       "odds": {
-        "msx": 6.54,
-        "ms2": 11.25,
         "bttsYes_guess": 6.54,
         "bttsNo_guess": 11.25,
+        "msx": 6.54,
+        "ms2": 11.25,
         "ms1": null,
         "over25": null,
         "under25": null,
@@ -3910,10 +3929,10 @@
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
-        "msx",
-        "ms2",
         "bttsYes_guess",
         "bttsNo_guess",
+        "msx",
+        "ms2",
         "ms1",
         "over25",
         "under25",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T17:44:31.484Z",
+  "generated_at": "2026-07-12T17:48:51.025Z",
   "date": "2026-07-12",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -3694,8 +3694,8 @@
       "league": "Norveç Eliteserien",
       "start_time": "20:15",
       "recommended_market": "MS 1",
-      "confidence_score": "40%",
-      "analysis_score": 40,
+      "confidence_score": "55%",
+      "analysis_score": 55,
       "risk_level": "Yüksek",
       "estimated_odds": "4.28",
       "available_odds": {
@@ -4266,8 +4266,8 @@
       ],
       "robot_comment": "Market: MS 1 | Oran: 4.28 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
+      "suitable_coupon_type": "Sadece izleme",
+      "data_gap_risk": "Düşük",
       "status": "live",
       "expected_scores": [
         "1-0",
@@ -13776,9 +13776,9 @@
       "league": "Ekvador Pro Lig",
       "start_time": "20:00",
       "recommended_market": "Değerli market yok",
-      "confidence_score": "10%",
-      "analysis_score": 10,
-      "risk_level": "Yüksek",
+      "confidence_score": "65%",
+      "analysis_score": 65,
+      "risk_level": "Orta",
       "estimated_odds": "-",
       "available_odds": {
         "ms1": "1.05",
@@ -14268,23 +14268,23 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | İki takım son 10 maçta en az 4 gol yedi: +15",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
+      "suitable_coupon_type": "Dengeli Kupon",
+      "data_gap_risk": "Düşük",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
         "homeScoredLast10": 5,
         "awayScoredLast10": 5,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 6,
+        "bttsPercent": 70,
         "over25Percent": 60,
         "over35Percent": 42,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 56,
+        "secondHalfGoalTrend": 75,
         "leagueGoalAverage": 2.84,
         "memory": {
           "scoreDelta": 0,
@@ -14321,18 +14321,20 @@
         },
         "homeScoredLast10Count": 5,
         "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeConcededLast10Count": 6,
+        "awayConcededLast10Count": 6
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "İki takım son 10 maçta en az 4 gol attı: +15",
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
+        "KG Var yüzdesi %65 üzeri: +15",
         "Lig gol ortalaması 2.70 üzeri: +10",
+        "İkinci yarı gol eğilimi yüksek: +10",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Orta risk kupon adayı"
       ]
     },
     {
@@ -14888,8 +14890,8 @@
       "league": "Norveç Eliteserien",
       "start_time": "20:15",
       "recommended_market": "MS 1",
-      "confidence_score": "40%",
-      "analysis_score": 40,
+      "confidence_score": "55%",
+      "analysis_score": 55,
       "risk_level": "Yüksek",
       "estimated_odds": "4.28",
       "available_odds": {
@@ -15460,8 +15462,8 @@
       ],
       "robot_comment": "Market: MS 1 | Oran: 4.28 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
+      "suitable_coupon_type": "Sadece izleme",
+      "data_gap_risk": "Düşük",
       "status": "live",
       "expected_scores": [
         "1-0",
@@ -15511,13 +15513,13 @@
       "metrics": {
         "homeScoredLast10": 6,
         "awayScoredLast10": 6,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 34,
         "over25Percent": 68,
         "over35Percent": 50,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 40,
         "leagueGoalAverage": 2.93,
         "memory": {
           "scoreDelta": 0,
@@ -15554,8 +15556,8 @@
         },
         "homeScoredLast10Count": 6,
         "awayScoredLast10Count": 6,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 3
       },
       "signals": [
         "Market: MS 1",
@@ -15569,8 +15571,7 @@
         "Oran 1.70 üzeri: +10",
         "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
+        "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme",
         "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ]

@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.07.2026 20:44:32
+Oluşturma: 12.07.2026 20:48:51
 
 ## Özet
 
@@ -35,7 +35,7 @@ Oluşturma: 12.07.2026 20:44:32
 - 2026-07-12 | Şili Kupa Grup C | Cobreloa - La Serena | MS X | pending | 50/100
 - 2026-07-12 | Moldova Ulusal Lig | Milsami-Ursido - Dacia-Buiucani | MS 2 | pending | 50/100
 - 2026-07-12 | Hazırlık Kulüpler | Pumas Unam - America De Cali | MS 2 | pending | 40/100
-- 2026-07-12 | Norveç Eliteserien | Sarpsborg - Viking | MS 1 | pending | 40/100
+- 2026-07-12 | Norveç Eliteserien | Sarpsborg - Viking | MS 1 | pending | 55/100
 - 2026-07-12 | Romanya Süper Kupa | Universitatea - Universitatea C | MS 2 | pending | 50/100
 - 2026-07-12 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Nejmeh | MS 1 | pending | 40/100
 - 2026-07-12 | Brezilya Serie B | Avai - Nautico | MS X | pending | 40/100
