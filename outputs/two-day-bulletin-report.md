@@ -2,20 +2,15 @@
 
 Gunler: 2026-07-12 / 2026-07-13
 Kaynak: fixtures.json
-Ham mac: 89
-Aktif mac: 79
-Canli mac: 10
-Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 61
+Ham mac: 134
+Aktif mac: 74
+Canli mac: 9
+Biten mac: 51
+Bultenden dusurulen mac: 60
+Bugun: 56
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-12 16:00 | Belarus Premier Lig | Arsenal - Vitebsk | scheduled | -
-- 2026-07-12 16:00 | Kazakistan Premier Lig | Ulytau - Kaisar | scheduled | -
-- 2026-07-12 16:00 | Belarus 1.Lig | Gomel Ii - Bumprom | scheduled | -
-- 2026-07-12 16:00 | Tanzanya 1. Lig Play-Off | Polisi Tanzani - Tanzania Prison | scheduled | -
-- 2026-07-12 16:30 | Rusya FNL | Olimpiyets - Rotor Volgograd | scheduled | -
 - 2026-07-12 17:00 | Hazırlık Kulüpler | De Graafschap - Aek | scheduled | -
 - 2026-07-12 17:00 | Rusya FNL | Shinnik Yarosl - Pfc Sochi | scheduled | -
 - 2026-07-12 17:00 | Brezilya Serie B | Operario - Novorizontino | scheduled | -
@@ -92,16 +87,65 @@ Yarin: 18
 - 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | scheduled | -
 
 ## Canli Maclar
-- 2026-07-12 13:30 | Güney Kore K Lig 1 | Incheon Utd - Anyang | live | -
-- 2026-07-12 13:30 | Güney Kore K Lig 1 | Jeju Utd - Daejeon Citizen | live | -
-- 2026-07-12 13:30 | Güney Kore K Lig 1 | Fc Seoul - Gangwon | live | -
-- 2026-07-12 13:30 | Güney Kore K Lig 2 | Busan Ipark - Gimpo Citizen | live | -
-- 2026-07-12 13:30 | Güney Kore K Lig 2 | Asan Mugunghwa - Gyeongnam | live | -
-- 2026-07-12 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Heilongjiang Ls | live | -
 - 2026-07-12 15:00 | İsveç Allsvenskan | Vasteras - Degerfors | live | -
 - 2026-07-12 15:00 | İsveç Allsvenskan | Hammarby - Kalmar | live | -
 - 2026-07-12 15:00 | İsveç Allsvenskan | Malmö - Göteborg | live | -
 - 2026-07-12 15:30 | Norveç Eliteserien | Kfum Oslo - Bodo Glimt | live | -
+- 2026-07-12 16:00 | Belarus Premier Lig | Arsenal - Vitebsk | live | -
+- 2026-07-12 16:00 | Kazakistan Premier Lig | Ulytau - Kaisar | live | -
+- 2026-07-12 16:00 | Belarus 1.Lig | Gomel Ii - Bumprom | live | -
+- 2026-07-12 16:00 | Tanzanya 1. Lig Play-Off | Polisi Tanzani - Tanzania Prison | live | -
+- 2026-07-12 16:30 | Rusya FNL | Olimpiyets - Rotor Volgograd | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-12 00:00 | Dünya Kupası 2026 Çeyrek Final | Norveç - İngiltere | finished | -
+- 2026-07-12 00:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Montevideo Wan - Progreso | finished | -
+- 2026-07-12 00:30 | Şili Kupa Grup B | Capiapo - Everton De Vina | finished | -
+- 2026-07-12 00:30 | Şili Kupa Grup B | Sl Quillota - Univ. Catolica | finished | -
+- 2026-07-12 01:00 | ABD USL Lig 2 Metropolitan Grubu | Staten Island - Morris Elite | finished | -
+- 2026-07-12 01:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Boston - Blackwatch Rush | finished | -
+- 2026-07-12 02:00 | Ekvador Pro Lig | Guayaquil City - Delfin | finished | -
+- 2026-07-12 02:00 | ABD USL Kupası Grup 5 | Portland Heart - New York Cosmos | finished | -
+- 2026-07-12 02:00 | ABD USL Kupası Grup 5 | Hartford Athle - Westchester Sc | finished | -
+- 2026-07-12 02:00 | ABD USL Kupası Grup 6 | Pittsburgh Riv - Loudoun United | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Loudoun United - North Virginia | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Annapolis Blue - Bethesda | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Heartland Grubu | St. Croix - Rockford Raptor | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Metropolitan Grubu | Hudson Valley - Cedar Stars Rus | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Güneydoğu Grubu | Nona - Inter Gainesvil | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Great Forest Grubu | Lorain County - Steel City | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Merkez Konferansı | Afc Ann Arbor - Kalamazoo Fc | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Orta Atlantik Grubu | Ocean City - Eagle Fc | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Kuzeydoğu Grubu | Black Rock - Boston City | finished | -
+- 2026-07-12 02:00 | ABD USL Lig 2 Chesapeake Grubu | Patuxent - Virginia Beach | finished | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 4 | Fort Wayne - Detroit City | finished | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 5 | Rhode Island - Brooklyn | finished | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 6 | Charleston Bat - Charlotte Indep | finished | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 6 | Greenville Tri - Richmond Kicker | finished | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 7 | Sarasota Parad - Miami Fc | finished | -
+- 2026-07-12 02:30 | ABD USL Kupası Grup 7 | Tampa Bay Rowd - Naples | finished | -
+- 2026-07-12 02:30 | ABD USL Lig 2 Metropolitan Grubu | Ironbound - Manhattan | finished | -
+- 2026-07-12 03:00 | ABD USL Kupası Grup 3 | Birmingham Leg - Tulsa Roughneck | finished | -
+- 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Forward Madiso - Union Omaha | finished | -
+- 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Louisville Cit - Lexington | finished | -
+- 2026-07-12 03:30 | ABD USL Kupası Grup 3 | Corpus Christi - One Knoxville | finished | -
+- 2026-07-12 03:30 | ABD USL Lig 2 Güney Konferansı | Denton Diablos - Fort Worth Vaqu | finished | -
+- 2026-07-12 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin - İsviçre | finished | -
+- 2026-07-12 04:00 | ABD USL Kupası Grup 2 | El Paso Locomo - New Mexico Unit | finished | -
+- 2026-07-12 04:00 | ABD USL Kupası Grup 3 | San Antonio - Chattanooga Red | finished | -
+- 2026-07-12 04:00 | Hazırlık Kulüpler | Universitario - Los Millionario | finished | -
+- 2026-07-12 04:30 | ABD USL Kupası Grup 1 | Athletic Club - Sacramento Repu | finished | -
+- 2026-07-12 05:00 | ABD USL Kupası Grup 1 | Monterey Bay - Las Vegas Light | finished | -
+- 2026-07-12 05:00 | ABD USL Kupası Grup 2 | Orange County - Colorado Spring | finished | -
+- 2026-07-12 05:30 | ABD USL Lig 2 Güneybatı Grubu | Stars Fc - Capo Ii | finished | -
+- 2026-07-12 06:00 | Avustralya NPL Kuzey YGG | Valentine Phoe - Kahibah | finished | -
+- 2026-07-12 06:00 | ABD USL Kupası Grup 2 | Alta - Phoenix Rising | finished | -
+- 2026-07-12 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Rockdale Cs | finished | -
+- 2026-07-12 12:00 | Güney Kore K3 Ligi | Yangpyeong - Jeonbuk Motors | finished | -
+- 2026-07-12 12:00 | Güney Kore K3 Ligi | Changwon City - Chuncheon Citiz | finished | -
+- 2026-07-12 13:30 | Güney Kore K Lig 1 | Incheon Utd - Anyang | finished | -
+- 2026-07-12 13:30 | Güney Kore K Lig 1 | Jeju Utd - Daejeon Citizen | finished | -
+- 2026-07-12 13:30 | Güney Kore K Lig 1 | Fc Seoul - Gangwon | finished | -
+- 2026-07-12 13:30 | Güney Kore K Lig 2 | Busan Ipark - Gimpo Citizen | finished | -
+- 2026-07-12 13:30 | Güney Kore K Lig 2 | Asan Mugunghwa - Gyeongnam | finished | -
+- 2026-07-12 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Heilongjiang Ls | finished | -
