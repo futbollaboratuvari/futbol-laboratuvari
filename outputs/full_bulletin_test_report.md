@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 5
-- Live match count: 8
+- Scheduled match count: 21
+- Live match count: 10
 - Finished removed count: 0
 - Date window: 2026-07-13 / 2026-07-14 23:59
 
@@ -15,5 +15,5 @@
 - 2026-07-13 00:30 | Concepcion - Puerto Montt | live
 - 2026-07-13 00:30 | Temuco - Huachipato | live
 - 2026-07-13 00:30 | Racing Montevi - Penarol | live
-- 2026-07-14 01:00 | America Mineir - Londrina | scheduled
-- 2026-07-14 01:00 | Cerro Largo - Defensor Sporti | scheduled
+- 2026-07-13 01:00 | Lakeland Unite - Fort Lauderdale | live
+- 2026-07-13 01:00 | Regatas - Goias | live
