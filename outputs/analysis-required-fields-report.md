@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 68
-Tam analiz: 48
-Eksik analiz: 20
+Toplam analiz: 65
+Tam analiz: 47
+Eksik analiz: 18
 
 - Gomel Ii VS Bumprom: eksik score, confidence
 - Polisi Tanzani VS Tanzania Prison: eksik score, confidence
@@ -14,8 +14,6 @@ Eksik analiz: 20
 - Liverpool Mont VS Cerro: eksik score, confidence
 - Valmieras Fk/B VS Ogre United: eksik score, confidence
 - Magni VS Haukar: eksik score, confidence
-- Daugava Riga VS Fs Jelgava: eksik score, confidence
-- Pumas Unam VS America De Cali: eksik score, confidence
 - Boston River VS Central Espanol: eksik score, confidence
 - Kr Reykjavik VS Vestmannaeyjar: eksik score, confidence
 - Fram VS Thor Akureyri: eksik score, confidence
