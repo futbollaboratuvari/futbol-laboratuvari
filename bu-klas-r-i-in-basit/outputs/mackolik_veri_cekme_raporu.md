@@ -1,26 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-11T23:38:48.981239+00:00
+Tarih: 2026-07-12T07:49:11.080390+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 65
-- Kac mac kaydedildi: 0
+- Durum: success
+- Kac mac bulundu: 81
+- Kac mac kaydedildi: 81
 - Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Ham veri havuzu toplam mac sayisi: 1719
 - Hedef tarih: 12.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Valley Grubu
 - Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Queensland
-- Avustralya NPL Victoria
-- Avustralya NPL Yeni Güney Galler
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Bolivya Premier Lig
 - Brezilya Serie B
@@ -28,6 +30,7 @@ Tarih: 2026-07-11T23:38:48.981239+00:00
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
 - Güney Kore K3 Ligi
+- Hazırlık Kulüpler
 - Kazakistan Premier Lig
 - Litvanya A Ligi
 - Moldova Ulusal Lig
@@ -40,6 +43,7 @@ Tarih: 2026-07-11T23:38:48.981239+00:00
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
 - Şili Kupa Grup C
+- Şili Kupa Grup H
 - Şili Lig Kupası Yarı Final
 
 ## Okunabilen Oran Alanlari
@@ -97,42 +101,41 @@ Tarih: 2026-07-11T23:38:48.981239+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 39
-- Acilan detay: 39
+- Denenen Tumu alani: 37
+- Acilan detay: 37
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 12.07.2026 | 15:30 | Norveç Eliteserien | Kfum Oslo | Bodo Glimt | 12832 | 5 |
+| 12.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Ham Kam | 12994 | 5 |
+| 12.07.2026 | 18:00 | Norveç Eliteserien | Rosenborg | Kristiansund | 12940 | 5 |
 | 12.07.2026 | 20:15 | Norveç Eliteserien | Sarpsborg | Viking | 13049 | 5 |
 | 12.07.2026 | 18:00 | Norveç Eliteserien | Brann | Start | 12886 | 5 |
-| 12.07.2026 | 18:00 | Norveç Eliteserien | Rosenborg | Kristiansund | 12940 | 5 |
-| 12.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Ham Kam | 12994 | 5 |
+| 12.07.2026 | 15:30 | Norveç Eliteserien | Kfum Oslo | Bodo Glimt | 12832 | 5 |
 | 12.07.2026 | 15:00 | İsveç Allsvenskan | Vasteras | Degerfors | 14082 | 5 |
+| 12.07.2026 | 15:00 | İsveç Allsvenskan | Hammarby | Kalmar | 13972 | 5 |
 | 12.07.2026 | 17:30 | İsveç Allsvenskan | Brommapojkarna | Sirius | 14137 | 5 |
 | 12.07.2026 | 17:30 | İsveç Allsvenskan | Gais | Elfsborg | 14185 | 5 |
-| 12.07.2026 | 15:00 | İsveç Allsvenskan | Hammarby | Kalmar | 13972 | 5 |
 | 12.07.2026 | 15:00 | İsveç Allsvenskan | Malmö | Göteborg | 14028 | 5 |
-| 12.07.2026 | 13:30 | Güney Kore K Lig 1 | Fc Seoul | Gangwon | 12363 | 5 |
-| 12.07.2026 | 13:30 | Güney Kore K Lig 1 | Jeju Utd | Daejeon Citizen | 12477 | 5 |
+| 12.07.2026 | 17:00 | Hazırlık Kulüpler | De Graafschap | Aek | 09245 | 2 |
+| 12.07.2026 | 18:00 | Hazırlık Kulüpler | Pafos Fc | Jagiellonia | 09250 | 5 |
+| 12.07.2026 | 18:00 | Hazırlık Kulüpler | Slavia Prag | Ruzomberok | 09272 | 3 |
 | 12.07.2026 | 13:30 | Güney Kore K Lig 1 | Incheon Utd | Anyang | 12422 | 5 |
+| 12.07.2026 | 13:30 | Güney Kore K Lig 1 | Jeju Utd | Daejeon Citizen | 12477 | 5 |
+| 12.07.2026 | 13:30 | Güney Kore K Lig 1 | Fc Seoul | Gangwon | 12363 | 5 |
 | 12.07.2026 | 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia | Tigre | 08086 | 5 |
 | 12.07.2026 | 17:00 | Rusya FNL | Shinnik Yarosl | Pfc Sochi | 13171 | 5 |
-| 12.07.2026 | 19:00 | Rusya FNL | Spartak Kostro | Kamaz | 13188 | 5 |
 | 12.07.2026 | 16:30 | Rusya FNL | Olimpiyets | Rotor Volgograd | 13154 | 5 |
-| 12.07.2026 | 18:45 | Litvanya A Ligi | Transinvest Vi | Banga | 13829 | 5 |
-| 12.07.2026 | 16:00 | Belarus Premier Lig | Arsenal | Vitebsk | 08977 | 5 |
-| 12.07.2026 | 20:30 | Romanya Süper Kupa | Universitatea | Universitatea C | 13831 | 5 |
+| 12.07.2026 | 19:00 | Rusya FNL | Spartak Kostro | Kamaz | 13188 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

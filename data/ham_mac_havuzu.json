@@ -1,9 +1,6281 @@
 {
-  "generated_at": "2026-07-12T00:15:32.898Z",
+  "generated_at": "2026-07-12T07:49:25.826Z",
   "timezone": "Europe/Istanbul",
-  "source": "Maçkolik canlı veri bekleniyor",
-  "match_count": 0,
-  "matches": [],
-  "team_style_memory_enabled": true,
-  "team_style_memory_updated_at": "2026-07-12T07:49:11.226Z"
+  "source": "Maçkolik canlı robot",
+  "engine": "High Value Coupon Engine",
+  "scoring_mode": "net_threshold_rules",
+  "engine_rules": {
+    "banned_markets": [
+      "Çifte Şans"
+    ],
+    "focused_markets": [
+      "İlk Yarı KG Var",
+      "İkinci Yarı KG Var",
+      "KG Var",
+      "2.5 Üst",
+      "3.5 Üst",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
+    ],
+    "scoring_classes": {
+      "80-100": "Ana kupon adayı",
+      "65-79": "Orta risk kupon adayı",
+      "50-64": "Sadece izleme",
+      "0-49": "Oynama"
+    },
+    "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
+  },
+  "match_count": 81,
+  "analysis_count": 0,
+  "matches": [
+    {
+      "home_team_name": "Yangpyeong",
+      "away_team_name": "Jeonbuk Motors",
+      "competition_name": "Güney Kore K3 Ligi",
+      "date": "2026-07-12",
+      "time": "12:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Changwon City",
+      "away_team_name": "Chuncheon Citiz",
+      "competition_name": "Güney Kore K3 Ligi",
+      "date": "2026-07-12",
+      "time": "12:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Incheon Utd",
+      "away_team_name": "Anyang",
+      "competition_name": "Güney Kore K Lig 1",
+      "date": "2026-07-12",
+      "time": "13:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Jeju Utd",
+      "away_team_name": "Daejeon Citizen",
+      "competition_name": "Güney Kore K Lig 1",
+      "date": "2026-07-12",
+      "time": "13:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Fc Seoul",
+      "away_team_name": "Gangwon",
+      "competition_name": "Güney Kore K Lig 1",
+      "date": "2026-07-12",
+      "time": "13:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Busan Ipark",
+      "away_team_name": "Gimpo Citizen",
+      "competition_name": "Güney Kore K Lig 2",
+      "date": "2026-07-12",
+      "time": "13:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Asan Mugunghwa",
+      "away_team_name": "Gyeongnam",
+      "competition_name": "Güney Kore K Lig 2",
+      "date": "2026-07-12",
+      "time": "13:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Shenzhen Junio",
+      "away_team_name": "Heilongjiang Ls",
+      "competition_name": "Çin Halk Cumhuriyeti 1.Lig",
+      "date": "2026-07-12",
+      "time": "14:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Vasteras",
+      "away_team_name": "Degerfors",
+      "competition_name": "İsveç Allsvenskan",
+      "date": "2026-07-12",
+      "time": "15:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Hammarby",
+      "away_team_name": "Kalmar",
+      "competition_name": "İsveç Allsvenskan",
+      "date": "2026-07-12",
+      "time": "15:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Malmö",
+      "away_team_name": "Göteborg",
+      "competition_name": "İsveç Allsvenskan",
+      "date": "2026-07-12",
+      "time": "15:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Kfum Oslo",
+      "away_team_name": "Bodo Glimt",
+      "competition_name": "Norveç Eliteserien",
+      "date": "2026-07-12",
+      "time": "15:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Arsenal",
+      "away_team_name": "Vitebsk",
+      "competition_name": "Belarus Premier Lig",
+      "date": "2026-07-12",
+      "time": "16:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Ulytau",
+      "away_team_name": "Kaisar",
+      "competition_name": "Kazakistan Premier Lig",
+      "date": "2026-07-12",
+      "time": "16:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Olimpiyets",
+      "away_team_name": "Rotor Volgograd",
+      "competition_name": "Rusya FNL",
+      "date": "2026-07-12",
+      "time": "16:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "De Graafschap",
+      "away_team_name": "Aek",
+      "competition_name": "Hazırlık Kulüpler",
+      "date": "2026-07-12",
+      "time": "17:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Shinnik Yarosl",
+      "away_team_name": "Pfc Sochi",
+      "competition_name": "Rusya FNL",
+      "date": "2026-07-12",
+      "time": "17:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Operario",
+      "away_team_name": "Novorizontino",
+      "competition_name": "Brezilya Serie B",
+      "date": "2026-07-12",
+      "time": "17:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Astana",
+      "away_team_name": "Aktobe",
+      "competition_name": "Kazakistan Premier Lig",
+      "date": "2026-07-12",
+      "time": "17:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Throttur Vogar",
+      "away_team_name": "Kfg Gardabar",
+      "competition_name": "İzlanda 2.Lig",
+      "date": "2026-07-12",
+      "time": "17:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Kari",
+      "away_team_name": "Kfa",
+      "competition_name": "İzlanda 2.Lig",
+      "date": "2026-07-12",
+      "time": "17:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Brommapojkarna",
+      "away_team_name": "Sirius",
+      "competition_name": "İsveç Allsvenskan",
+      "date": "2026-07-12",
+      "time": "17:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Gais",
+      "away_team_name": "Elfsborg",
+      "competition_name": "İsveç Allsvenskan",
+      "date": "2026-07-12",
+      "time": "17:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Sandefjord",
+      "away_team_name": "Ham Kam",
+      "competition_name": "Norveç Eliteserien",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Rosenborg",
+      "away_team_name": "Kristiansund",
+      "competition_name": "Norveç Eliteserien",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Brann",
+      "away_team_name": "Start",
+      "competition_name": "Norveç Eliteserien",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Pafos Fc",
+      "away_team_name": "Jagiellonia",
+      "competition_name": "Hazırlık Kulüpler",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Slavia Prag",
+      "away_team_name": "Ruzomberok",
+      "competition_name": "Hazırlık Kulüpler",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Liverpool Mont",
+      "away_team_name": "Cerro",
+      "competition_name": "Uruguay Premier Lig Intermediate Turu Grup 1",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Volna Pinsk",
+      "away_team_name": "Soligorsk",
+      "competition_name": "Belarus 1.Lig",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Tobol Kostanay",
+      "away_team_name": "Okzhetpes",
+      "competition_name": "Kazakistan Premier Lig",
+      "date": "2026-07-12",
+      "time": "18:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Transinvest Vi",
+      "away_team_name": "Banga",
+      "competition_name": "Litvanya A Ligi",
+      "date": "2026-07-12",
+      "time": "18:45",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Spartak Kostro",
+      "away_team_name": "Kamaz",
+      "competition_name": "Rusya FNL",
+      "date": "2026-07-12",
+      "time": "19:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Kormakur",
+      "away_team_name": "Vikingur Ol.",
+      "competition_name": "İzlanda 2.Lig",
+      "date": "2026-07-12",
+      "time": "19:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Dalvik",
+      "away_team_name": "Fjolnir",
+      "competition_name": "İzlanda 2.Lig",
+      "date": "2026-07-12",
+      "time": "19:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Magni",
+      "away_team_name": "Haukar",
+      "competition_name": "İzlanda 2.Lig",
+      "date": "2026-07-12",
+      "time": "19:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Antofagasta",
+      "away_team_name": "Cobresal",
+      "competition_name": "Şili Kupa Grup C",
+      "date": "2026-07-12",
+      "time": "19:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Cobreloa",
+      "away_team_name": "La Serena",
+      "competition_name": "Şili Kupa Grup C",
+      "date": "2026-07-12",
+      "time": "19:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Sheriff Tirasp",
+      "away_team_name": "Zimbru",
+      "competition_name": "Moldova Ulusal Lig",
+      "date": "2026-07-12",
+      "time": "20:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Milsami-Ursido",
+      "away_team_name": "Dacia-Buiucani",
+      "competition_name": "Moldova Ulusal Lig",
+      "date": "2026-07-12",
+      "time": "20:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Ldu Quito",
+      "away_team_name": "Libertad",
+      "competition_name": "Ekvador Pro Lig",
+      "date": "2026-07-12",
+      "time": "20:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Sarpsborg",
+      "away_team_name": "Viking",
+      "competition_name": "Norveç Eliteserien",
+      "date": "2026-07-12",
+      "time": "20:15",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Universitatea",
+      "away_team_name": "Universitatea C",
+      "competition_name": "Romanya Süper Kupa",
+      "date": "2026-07-12",
+      "time": "20:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Gimnasia Jujuy",
+      "away_team_name": "Chacarita Junio",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "21:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Boston River",
+      "away_team_name": "Central Espanol",
+      "competition_name": "Uruguay Premier Lig Intermediate Turu Grup 1",
+      "date": "2026-07-12",
+      "time": "21:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Kr Reykjavik",
+      "away_team_name": "Vestmannaeyjar",
+      "competition_name": "İzlanda Urvalsdeild",
+      "date": "2026-07-12",
+      "time": "21:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Ka Akureyri",
+      "away_team_name": "Akranes",
+      "competition_name": "İzlanda Urvalsdeild",
+      "date": "2026-07-12",
+      "time": "21:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Fram",
+      "away_team_name": "Thor Akureyri",
+      "competition_name": "İzlanda Urvalsdeild",
+      "date": "2026-07-12",
+      "time": "21:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Colon Santa Fe",
+      "away_team_name": "Central Norte",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "21:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "R Cordoba",
+      "away_team_name": "Acassuso",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Midland",
+      "away_team_name": "Quilmes",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Club Atletico",
+      "away_team_name": "San Martin Sj",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Agropecuario",
+      "away_team_name": "Atl Temperley",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Avai",
+      "away_team_name": "Nautico",
+      "competition_name": "Brezilya Serie B",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Sao Bernardo",
+      "away_team_name": "Cuiaba",
+      "competition_name": "Brezilya Serie B",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Real Potosi",
+      "away_team_name": "Nacional Potosi",
+      "competition_name": "Bolivya Premier Lig",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Coquimbo Unido (1)",
+      "away_team_name": "(0) Union La Calera",
+      "competition_name": "Şili Lig Kupası Yarı Final",
+      "date": "2026-07-12",
+      "time": "22:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Kritik/derbi/belirsiz maç: -10",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Rivadavia",
+      "away_team_name": "Tigre",
+      "competition_name": "Arjantin Kupa Son 32 Turu",
+      "date": "2026-07-12",
+      "time": "22:15",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Deportivo Cuen",
+      "away_team_name": "Aucas",
+      "competition_name": "Ekvador Pro Lig",
+      "date": "2026-07-12",
+      "time": "22:15",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Godoy Cruz",
+      "away_team_name": "D Belgrano",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "22:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Gimnasia Y Tir",
+      "away_team_name": "Patronato",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-12",
+      "time": "23:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Northern India",
+      "away_team_name": "Dayton Dutch",
+      "competition_name": "ABD USL Lig 2 Valley Grubu",
+      "date": "2026-07-12",
+      "time": "23:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Hafnarfjordur",
+      "away_team_name": "Valur",
+      "competition_name": "İzlanda Urvalsdeild",
+      "date": "2026-07-12",
+      "time": "23:05",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "San Martin Tuc",
+      "away_team_name": "Almagro",
+      "competition_name": "Arjantin Ulusal Primera Lig",
+      "date": "2026-07-13",
+      "time": "00:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Atletico Goian",
+      "away_team_name": "Fortaleza Ce",
+      "competition_name": "Brezilya Serie B",
+      "date": "2026-07-13",
+      "time": "00:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Edgewater Cast",
+      "away_team_name": "Minneapolis Cit",
+      "competition_name": "ABD USL Lig 2 Heartland Grubu",
+      "date": "2026-07-13",
+      "time": "00:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "West Seattle J",
+      "away_team_name": "Bangers",
+      "competition_name": "ABD USL Lig 2 Kuzeybatı Grubu",
+      "date": "2026-07-13",
+      "time": "00:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "The Strongest",
+      "away_team_name": "Bolivar",
+      "competition_name": "Bolivya Premier Lig",
+      "date": "2026-07-13",
+      "time": "00:15",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Concepcion",
+      "away_team_name": "Puerto Montt",
+      "competition_name": "Şili Kupa Grup H",
+      "date": "2026-07-13",
+      "time": "00:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Temuco",
+      "away_team_name": "Huachipato",
+      "competition_name": "Şili Kupa Grup H",
+      "date": "2026-07-13",
+      "time": "00:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Racing Montevi",
+      "away_team_name": "Penarol",
+      "competition_name": "Uruguay Premier Lig Intermediate Turu Grup 1",
+      "date": "2026-07-13",
+      "time": "00:30",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Regatas",
+      "away_team_name": "Goias",
+      "competition_name": "Brezilya Serie B",
+      "date": "2026-07-13",
+      "time": "01:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Lakeland Unite",
+      "away_team_name": "Fort Lauderdale",
+      "competition_name": "ABD USL Lig 2 Güney Florida Grubu",
+      "date": "2026-07-13",
+      "time": "01:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Rkc",
+      "away_team_name": "River Light",
+      "competition_name": "ABD USL Lig 2 Heartland Grubu",
+      "date": "2026-07-13",
+      "time": "02:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Bigfoot",
+      "away_team_name": "Midlakes United",
+      "competition_name": "ABD USL Lig 2 Kuzeybatı Grubu",
+      "date": "2026-07-13",
+      "time": "02:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "The Villages",
+      "away_team_name": "Shark Coast",
+      "competition_name": "ABD USL Lig 2 Güneydoğu Grubu",
+      "date": "2026-07-13",
+      "time": "02:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Weston",
+      "away_team_name": "Miami Ac",
+      "competition_name": "ABD USL Lig 2 Güney Florida Grubu",
+      "date": "2026-07-13",
+      "time": "02:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Emelec",
+      "away_team_name": "Barcelona Gua",
+      "competition_name": "Ekvador Pro Lig",
+      "date": "2026-07-13",
+      "time": "02:10",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "O Higgins (1)",
+      "away_team_name": "(2) Atletico Nublen",
+      "competition_name": "Şili Lig Kupası Yarı Final",
+      "date": "2026-07-13",
+      "time": "03:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Kritik/derbi/belirsiz maç: -10",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "Ballard",
+      "away_team_name": "Snohomish Unite",
+      "competition_name": "ABD USL Lig 2 Kuzeybatı Grubu",
+      "date": "2026-07-13",
+      "time": "03:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    },
+    {
+      "home_team_name": "San Juan Sc",
+      "away_team_name": "Marin",
+      "competition_name": "ABD USL Lig 2 NorCal Grubu",
+      "date": "2026-07-13",
+      "time": "05:00",
+      "status": "filtered_no_value_market",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "confidence_score": "0%",
+      "trust_score": "0/100",
+      "analysis_score": 0,
+      "analysis_class": "Oynama",
+      "value_label": "Normal Değer",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 0,
+          "home": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: arşiv verisi henüz sınırlı"
+          ]
+        },
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Oynama",
+      "expected_scores": [],
+      "signals": [
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
+      ]
+    }
+  ],
+  "focused_market_count": 16
 }
