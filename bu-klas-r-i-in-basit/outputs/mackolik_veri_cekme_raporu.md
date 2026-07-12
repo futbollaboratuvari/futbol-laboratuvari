@@ -1,19 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-12T17:39:00.457652+00:00
+Tarih: 2026-07-12T17:44:07.291348+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 25
+- Kac mac bulundu: 43
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 25
+- Kac mac zaten vardi: 43
 - Ham veri havuzu toplam mac sayisi: 1730
 - Hedef tarih: 12.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Güney Florida Grubu
+- ABD USL Lig 2 Güneydoğu Grubu
+- ABD USL Lig 2 Heartland Grubu
+- ABD USL Lig 2 Kuzeybatı Grubu
+- ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Valley Grubu
 - Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
@@ -25,6 +30,7 @@ Tarih: 2026-07-12T17:39:00.457652+00:00
 - Tanzanya 1. Lig Play-Off
 - Uruguay Premier Lig Intermediate Turu Grup 1
 - İzlanda Urvalsdeild
+- Şili Kupa Grup H
 - Şili Lig Kupası Yarı Final
 
 ## Okunabilen Oran Alanlari
@@ -100,6 +106,8 @@ Tarih: 2026-07-12T17:39:00.457652+00:00
 | 12.07.2026 | 22:00 | Hazırlık Kulüpler | Fluminense | Bahia | 09289 | 5 |
 | 12.07.2026 | 20:00 | Hazırlık Kulüpler | Pumas Unam | America De Cali | 07250 | 5 |
 | 12.07.2026 | 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia | Tigre | 08086 | 5 |
+| 13.07.2026 | 00:30 | Şili Kupa Grup H | Temuco | Huachipato | 03891 | 5 |
+| 13.07.2026 | 00:30 | Şili Kupa Grup H | Concepcion | Puerto Montt | 01331 | 5 |
 | 12.07.2026 | 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz | D Belgrano | 08103 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Midland | Quilmes | 08028 | 3 |
 | 12.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy | Chacarita Junio | 07971 | 5 |
@@ -108,14 +116,12 @@ Tarih: 2026-07-12T17:39:00.457652+00:00
 | 12.07.2026 | 23:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir | Patronato | 08120 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Agropecuario | Atl Temperley | 08010 | 3 |
 | 12.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe | Central Norte | 07993 | 3 |
+| 13.07.2026 | 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc | Almagro | 08137 | 3 |
 | 12.07.2026 | 21:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Boston River | Central Espanol | 13811 | 5 |
+| 13.07.2026 | 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi | Penarol | 13816 | 3 |
 | 12.07.2026 | 22:00 | Brezilya Serie B | Avai | Nautico | 08362 | 5 |
 | 12.07.2026 | 22:00 | Brezilya Serie B | Sao Bernardo | Cuiaba | 08402 | 5 |
-| 12.07.2026 | 21:00 | İzlanda Urvalsdeild | Kr Reykjavik | Vestmannaeyjar | 11763 | 3 |
-| 12.07.2026 | 21:00 | İzlanda Urvalsdeild | Ka Akureyri | Akranes | 11746 | 3 |
-| 12.07.2026 | 23:05 | İzlanda Urvalsdeild | Hafnarfjordur | Valur | 11783 | 3 |
-| 12.07.2026 | 21:00 | İzlanda Urvalsdeild | Fram | Thor Akureyri | 11729 | 2 |
-| 12.07.2026 | 22:15 | Ekvador Pro Lig | Deportivo Cuen | Aucas | 10524 | 5 |
+| 13.07.2026 | 01:00 | Brezilya Serie B | Regatas | Goias | 08682 | 5 |
 
 ## Sonuc
 
