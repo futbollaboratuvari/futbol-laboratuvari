@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 55
-- Live match count: 20
-- Finished removed count: 0
+- Scheduled match count: 47
+- Live match count: 18
+- Finished removed count: 10
 - Date window: 2026-07-12 / 2026-07-13 23:59
 
-- 2026-07-12 17:00 | Operario - Novorizontino | live
-- 2026-07-12 17:00 | De Graafschap - Aek | live
-- 2026-07-12 17:00 | Kari - Kfa | live
-- 2026-07-12 17:00 | Throttur Vogar - Kfg Gardabar | live
-- 2026-07-12 17:00 | Astana - Aktobe | live
-- 2026-07-12 17:00 | Marupe - Grobina | live
-- 2026-07-12 17:00 | Shinnik Yarosl - Pfc Sochi | live
-- 2026-07-12 17:30 | Brommapojkarna - Sirius | live
-- 2026-07-12 17:30 | Gais - Elfsborg | live
-- 2026-07-12 17:30 | Ansar - Ahed | live
+- 2026-07-12 18:00 | Volna Pinsk - Soligorsk | live
+- 2026-07-12 18:00 | Pafos Fc - Jagiellonia | live
+- 2026-07-12 18:00 | Slavia Prag - Ruzomberok | live
+- 2026-07-12 18:00 | Tobol Kostanay - Okzhetpes | live
+- 2026-07-12 18:00 | Valmieras Fk/B - Ogre United | live
+- 2026-07-12 18:00 | Brann - Start | live
+- 2026-07-12 18:00 | Rosenborg - Kristiansund | live
+- 2026-07-12 18:00 | Sandefjord - Ham Kam | live
+- 2026-07-12 18:00 | Liverpool Mont - Cerro | live
+- 2026-07-12 18:45 | Transinvest Vi - Banga | live
