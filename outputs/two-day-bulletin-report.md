@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-13 / 2026-07-14
 Kaynak: fixtures.json
-Ham mac: 31
+Ham mac: 26
 Aktif mac: 16
 Canli mac: 10
-Biten mac: 5
-Bultenden dusurulen mac: 15
+Biten mac: 0
+Bultenden dusurulen mac: 10
 Bugun: 12
 Yarin: 4
 
@@ -41,8 +41,4 @@ Yarin: 4
 - 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | live | -
 
 ## Biten Maclar
-- 2026-07-13 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Almagro | finished | -
-- 2026-07-13 00:00 | Brezilya Serie B | Atletico Goian - Fortaleza Ce | finished | -
-- 2026-07-13 00:00 | ABD USL Lig 2 Heartland Grubu | Edgewater Cast - Minneapolis Cit | finished | -
-- 2026-07-13 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bangers | finished | -
-- 2026-07-13 00:15 | Bolivya Premier Lig | The Strongest - Bolivar | finished | -
+Biten mac yok.
