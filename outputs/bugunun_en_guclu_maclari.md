@@ -4,19 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-12T19:59:52.342Z
+- Güncelleme: 2026-07-12T20:35:30.598Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Gimnasia Jujuy VS Chacarita Junio | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Boston River VS Central Espanol | Uruguay Premier Lig Intermediate Turu Grup 1 | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Kr Reykjavik VS Vestmannaeyjar | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Ka Akureyri VS Akranes | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Fram VS Thor Akureyri | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Jwaya VS Nejmeh | Lübnan Premier Lig Şampiyonluk Turu | 21:00 | MS 1 | 3.59 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Colon Santa Fe VS Central Norte | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | R Cordoba VS Acassuso | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Midland VS Quilmes | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -32,19 +26,19 @@
 | Godoy Cruz VS D Belgrano | Arjantin Ulusal Primera Lig | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gimnasia Y Tir VS Patronato | Arjantin Ulusal Primera Lig | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Northern India VS Dayton Dutch | ABD USL Lig 2 Valley Grubu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cruzeiro VS Gremio | Hazırlık Kulüpler | 23:00 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cruzeiro VS Gremio | Hazırlık Kulüpler | 23:00 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Hafnarfjordur VS Valur | İzlanda Urvalsdeild | 23:05 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Alianza Petrol VS Deportivo Cali | Hazırlık Kulüpler | 23:30 | MS 2 | 3.61 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Alianza Petrol VS Deportivo Cali | Hazırlık Kulüpler | 23:30 | MS 2 | 3.45 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | San Martin Tuc VS Almagro | Arjantin Ulusal Primera Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Atletico Goian VS Fortaleza Ce | Brezilya Serie B | 00:00 | MS 2 | 2.73 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atletico Goian VS Fortaleza Ce | Brezilya Serie B | 00:00 | MS X | 2.65 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Edgewater Cast VS Minneapolis Cit | ABD USL Lig 2 Heartland Grubu | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | West Seattle J VS Bangers | ABD USL Lig 2 Kuzeybatı Grubu | 00:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | The Strongest VS Bolivar | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Concepcion VS Puerto Montt | Şili Kupa Grup H | 00:30 | MS 2 | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Temuco VS Huachipato | Şili Kupa Grup H | 00:30 | MS X | 2.93 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Temuco VS Huachipato | Şili Kupa Grup H | 00:30 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Racing Montevi VS Penarol | Uruguay Premier Lig Intermediate Turu Grup 1 | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Regatas VS Goias | Brezilya Serie B | 01:00 | MS 2 | 3.53 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Lakeland Unite VS Fort Lauderdale | ABD USL Lig 2 Güney Florida Grubu | 01:00 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Lakeland Unite VS Fort Lauderdale | ABD USL Lig 2 Güney Florida Grubu | 01:00 | MS X | 3.29 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Rkc VS River Light | ABD USL Lig 2 Heartland Grubu | 02:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bigfoot VS Midlakes United | ABD USL Lig 2 Kuzeybatı Grubu | 02:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | The Villages VS Shark Coast | ABD USL Lig 2 Güneydoğu Grubu | 02:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
