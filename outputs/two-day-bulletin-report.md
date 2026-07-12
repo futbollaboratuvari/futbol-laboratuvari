@@ -3,19 +3,14 @@
 Gunler: 2026-07-12 / 2026-07-13
 Kaynak: fixtures.json
 Ham mac: 84
-Aktif mac: 82
-Canli mac: 2
+Aktif mac: 77
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 64
+Bultenden dusurulen mac: 7
+Bugun: 59
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-12 13:30 | Güney Kore K Lig 1 | Incheon Utd - Anyang | scheduled | -
-- 2026-07-12 13:30 | Güney Kore K Lig 1 | Jeju Utd - Daejeon Citizen | scheduled | -
-- 2026-07-12 13:30 | Güney Kore K Lig 1 | Fc Seoul - Gangwon | scheduled | -
-- 2026-07-12 13:30 | Güney Kore K Lig 2 | Busan Ipark - Gimpo Citizen | scheduled | -
-- 2026-07-12 13:30 | Güney Kore K Lig 2 | Asan Mugunghwa - Gyeongnam | scheduled | -
 - 2026-07-12 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Heilongjiang Ls | scheduled | -
 - 2026-07-12 15:00 | İsveç Allsvenskan | Vasteras - Degerfors | scheduled | -
 - 2026-07-12 15:00 | İsveç Allsvenskan | Hammarby - Kalmar | scheduled | -
@@ -97,6 +92,11 @@ Yarin: 18
 ## Canli Maclar
 - 2026-07-12 12:00 | Güney Kore K3 Ligi | Yangpyeong - Jeonbuk Motors | live | -
 - 2026-07-12 12:00 | Güney Kore K3 Ligi | Changwon City - Chuncheon Citiz | live | -
+- 2026-07-12 13:30 | Güney Kore K Lig 1 | Incheon Utd - Anyang | live | -
+- 2026-07-12 13:30 | Güney Kore K Lig 1 | Jeju Utd - Daejeon Citizen | live | -
+- 2026-07-12 13:30 | Güney Kore K Lig 1 | Fc Seoul - Gangwon | live | -
+- 2026-07-12 13:30 | Güney Kore K Lig 2 | Busan Ipark - Gimpo Citizen | live | -
+- 2026-07-12 13:30 | Güney Kore K Lig 2 | Asan Mugunghwa - Gyeongnam | live | -
 
 ## Biten Maclar
 Biten mac yok.
