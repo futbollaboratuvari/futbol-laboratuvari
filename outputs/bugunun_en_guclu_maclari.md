@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-12T13:58:07.061Z
+- Güncelleme: 2026-07-12T14:09:56.286Z
 - Ham maç sayısı: 83
 - Yarın bülteni maç sayısı: 18
 - Detay blok sayısı: 208
-- Aktif bülten maçı: 74
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 67
+- Bültenden düşürülen maç: 16
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| De Graafschap - Aek | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 6.89 | 4 |
-| Shinnik Yarosl - Pfc Sochi | Rusya FNL | 17:00 | Veri bekleniyor | - | 2.91 | 8 |
-| Operario - Novorizontino | Brezilya Serie B | 17:00 | Veri bekleniyor | - | 2.22 | 8 |
-| Astana - Aktobe | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 2.72 | 8 |
-| Throttur Vogar - Kfg Gardabar | İzlanda 2.Lig | 17:00 | Veri bekleniyor | - | 1.33 | 4 |
-| Kari - Kfa | İzlanda 2.Lig | 17:00 | Veri bekleniyor | - | 1.89 | 6 |
-| Marupe - Grobina | Letonya Kupa Son 16 Turu | 17:00 | Veri bekleniyor | - | 6.86 | 3 |
 | Brommapojkarna - Sirius | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 4.06 | 8 |
 | Gais - Elfsborg | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 1.58 | 8 |
 | Ansar - Ahed | Lübnan Premier Lig Şampiyonluk Turu | 17:30 | Veri bekleniyor | - | 1.47 | 7 |
