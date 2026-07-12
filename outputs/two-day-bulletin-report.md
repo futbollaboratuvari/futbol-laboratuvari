@@ -3,21 +3,14 @@
 Gunler: 2026-07-12 / 2026-07-13
 Kaynak: fixtures.json
 Ham mac: 83
-Aktif mac: 74
-Canli mac: 9
+Aktif mac: 67
+Canli mac: 16
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 56
+Bultenden dusurulen mac: 16
+Bugun: 49
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-12 17:00 | Hazırlık Kulüpler | De Graafschap - Aek | scheduled | -
-- 2026-07-12 17:00 | Rusya FNL | Shinnik Yarosl - Pfc Sochi | scheduled | -
-- 2026-07-12 17:00 | Brezilya Serie B | Operario - Novorizontino | scheduled | -
-- 2026-07-12 17:00 | Kazakistan Premier Lig | Astana - Aktobe | scheduled | -
-- 2026-07-12 17:00 | İzlanda 2.Lig | Throttur Vogar - Kfg Gardabar | scheduled | -
-- 2026-07-12 17:00 | İzlanda 2.Lig | Kari - Kfa | scheduled | -
-- 2026-07-12 17:00 | Letonya Kupa Son 16 Turu | Marupe - Grobina | scheduled | -
 - 2026-07-12 17:30 | İsveç Allsvenskan | Brommapojkarna - Sirius | scheduled | -
 - 2026-07-12 17:30 | İsveç Allsvenskan | Gais - Elfsborg | scheduled | -
 - 2026-07-12 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Ahed | scheduled | -
@@ -96,6 +89,13 @@ Yarin: 18
 - 2026-07-12 16:00 | Belarus 1.Lig | Gomel Ii - Bumprom | live | -
 - 2026-07-12 16:00 | Tanzanya 1. Lig Play-Off | Polisi Tanzani - Tanzania Prison | live | -
 - 2026-07-12 16:30 | Rusya FNL | Olimpiyets - Rotor Volgograd | live | -
+- 2026-07-12 17:00 | Hazırlık Kulüpler | De Graafschap - Aek | live | -
+- 2026-07-12 17:00 | Rusya FNL | Shinnik Yarosl - Pfc Sochi | live | -
+- 2026-07-12 17:00 | Brezilya Serie B | Operario - Novorizontino | live | -
+- 2026-07-12 17:00 | Kazakistan Premier Lig | Astana - Aktobe | live | -
+- 2026-07-12 17:00 | İzlanda 2.Lig | Throttur Vogar - Kfg Gardabar | live | -
+- 2026-07-12 17:00 | İzlanda 2.Lig | Kari - Kfa | live | -
+- 2026-07-12 17:00 | Letonya Kupa Son 16 Turu | Marupe - Grobina | live | -
 
 ## Biten Maclar
 Biten mac yok.

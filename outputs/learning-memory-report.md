@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.07.2026 17:10:54
+Oluşturma: 12.07.2026 17:22:06
 
 ## Özet
 
-- Toplam tahmin: 41
-- Bekleyen tahmin: 41
+- Toplam tahmin: 42
+- Bekleyen tahmin: 42
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 18
@@ -20,12 +20,13 @@ Oluşturma: 12.07.2026 17:10:54
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
+- MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-12 | Ekvador Pro Lig | Ldu Quito - Libertad | MS X | pending | 75/100
 - 2026-07-12 | Kazakistan Premier Lig | Astana - Aktobe | MS X | pending | 40/100
 - 2026-07-12 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Nejmeh | MS 1 | pending | 40/100
 - 2026-07-12 | Hazırlık Kulüpler | Alianza Petrol - Deportivo Cali | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 12.07.2026 17:10:54
 - 2026-07-12 | Rusya FNL | Spartak Kostro - Kamaz | MS 2 | pending | 40/100
 - 2026-07-12 | Şili Kupa Grup C | Antofagasta - Cobresal | MS X | pending | 50/100
 - 2026-07-12 | Şili Kupa Grup C | Cobreloa - La Serena | MS X | pending | 50/100
-- 2026-07-12 | Moldova Ulusal Lig | Sheriff Tirasp - Zimbru | MS X | pending | 40/100
 
