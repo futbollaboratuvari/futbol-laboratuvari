@@ -4,8 +4,8 @@ Gunler: 2026-07-13 / 2026-07-14
 Kaynak: fixtures.json
 Ham mac: 31
 Aktif mac: 16
-Canli mac: 15
-Biten mac: 0
+Canli mac: 10
+Biten mac: 5
 Bultenden dusurulen mac: 15
 Bugun: 12
 Yarin: 4
@@ -29,11 +29,6 @@ Yarin: 4
 - 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | scheduled | -
 
 ## Canli Maclar
-- 2026-07-13 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Almagro | live | -
-- 2026-07-13 00:00 | Brezilya Serie B | Atletico Goian - Fortaleza Ce | live | -
-- 2026-07-13 00:00 | ABD USL Lig 2 Heartland Grubu | Edgewater Cast - Minneapolis Cit | live | -
-- 2026-07-13 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bangers | live | -
-- 2026-07-13 00:15 | Bolivya Premier Lig | The Strongest - Bolivar | live | -
 - 2026-07-13 00:30 | Şili Kupa Grup H | Concepcion - Puerto Montt | live | -
 - 2026-07-13 00:30 | Şili Kupa Grup H | Temuco - Huachipato | live | -
 - 2026-07-13 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi - Penarol | live | -
@@ -46,4 +41,8 @@ Yarin: 4
 - 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-13 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Almagro | finished | -
+- 2026-07-13 00:00 | Brezilya Serie B | Atletico Goian - Fortaleza Ce | finished | -
+- 2026-07-13 00:00 | ABD USL Lig 2 Heartland Grubu | Edgewater Cast - Minneapolis Cit | finished | -
+- 2026-07-13 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bangers | finished | -
+- 2026-07-13 00:15 | Bolivya Premier Lig | The Strongest - Bolivar | finished | -
