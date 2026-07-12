@@ -3,16 +3,14 @@
 Gunler: 2026-07-12 / 2026-07-13
 Kaynak: fixtures.json
 Ham mac: 81
-Aktif mac: 81
-Canli mac: 0
+Aktif mac: 79
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 63
+Bultenden dusurulen mac: 2
+Bugun: 61
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-12 12:00 | Güney Kore K3 Ligi | Yangpyeong - Jeonbuk Motors | scheduled | -
-- 2026-07-12 12:00 | Güney Kore K3 Ligi | Changwon City - Chuncheon Citiz | scheduled | -
 - 2026-07-12 13:30 | Güney Kore K Lig 1 | Incheon Utd - Anyang | scheduled | -
 - 2026-07-12 13:30 | Güney Kore K Lig 1 | Jeju Utd - Daejeon Citizen | scheduled | -
 - 2026-07-12 13:30 | Güney Kore K Lig 1 | Fc Seoul - Gangwon | scheduled | -
@@ -94,7 +92,8 @@ Yarin: 18
 - 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-12 12:00 | Güney Kore K3 Ligi | Yangpyeong - Jeonbuk Motors | live | -
+- 2026-07-12 12:00 | Güney Kore K3 Ligi | Changwon City - Chuncheon Citiz | live | -
 
 ## Biten Maclar
 Biten mac yok.

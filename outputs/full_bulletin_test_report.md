@@ -2,13 +2,13 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 81
-- Live match count: 0
+- Scheduled match count: 79
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-12 / 2026-07-13 23:59
 
-- 2026-07-12 12:00 | Changwon City - Chuncheon Citiz | scheduled
-- 2026-07-12 12:00 | Yangpyeong - Jeonbuk Motors | scheduled
+- 2026-07-12 12:00 | Changwon City - Chuncheon Citiz | live
+- 2026-07-12 12:00 | Yangpyeong - Jeonbuk Motors | live
 - 2026-07-12 13:30 | Fc Seoul - Gangwon | scheduled
 - 2026-07-12 13:30 | Incheon Utd - Anyang | scheduled
 - 2026-07-12 13:30 | Jeju Utd - Daejeon Citizen | scheduled
