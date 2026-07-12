@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-12T17:26:56.400Z
+- Güncelleme: 2026-07-12T17:38:32.199Z
 - Ham maç sayısı: 65
 - Yarın bülteni maç sayısı: 18
 - Detay blok sayısı: 161
-- Aktif bülten maçı: 42
-- Bültenden düşürülen maç: 23
+- Aktif bülten maçı: 41
+- Bültenden düşürülen maç: 24
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Universitatea - Universitatea C | Romanya Süper Kupa | 20:30 | Veri bekleniyor | - | 1.43 | 7 |
 | Gimnasia Jujuy - Chacarita Junio | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.33 | 7 |
 | Boston River - Central Espanol | Uruguay Premier Lig Intermediate Turu Grup 1 | 21:00 | Veri bekleniyor | - | 1.94 | 5 |
 | Kr Reykjavik - Vestmannaeyjar | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.27 | 4 |

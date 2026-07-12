@@ -1,24 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-12T16:45:47.178245+00:00
+Tarih: 2026-07-12T17:39:00.457652+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 48
+- Kac mac bulundu: 25
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 48
+- Kac mac zaten vardi: 25
 - Ham veri havuzu toplam mac sayisi: 1730
 - Hedef tarih: 12.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Güney Florida Grubu
-- ABD USL Lig 2 Güneydoğu Grubu
-- ABD USL Lig 2 Heartland Grubu
-- ABD USL Lig 2 Kuzeybatı Grubu
-- ABD USL Lig 2 NorCal Grubu
 - ABD USL Lig 2 Valley Grubu
 - Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
@@ -27,13 +22,9 @@ Tarih: 2026-07-12T16:45:47.178245+00:00
 - Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Lübnan Premier Lig Şampiyonluk Turu
-- Moldova Ulusal Lig
-- Norveç Eliteserien
-- Romanya Süper Kupa
 - Tanzanya 1. Lig Play-Off
 - Uruguay Premier Lig Intermediate Turu Grup 1
 - İzlanda Urvalsdeild
-- Şili Kupa Grup H
 - Şili Lig Kupası Yarı Final
 
 ## Okunabilen Oran Alanlari
@@ -91,8 +82,8 @@ Tarih: 2026-07-12T16:45:47.178245+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 27
-- Acilan detay: 27
+- Denenen Tumu alani: 24
+- Acilan detay: 24
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -105,26 +96,26 @@ Tarih: 2026-07-12T16:45:47.178245+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 12.07.2026 | 20:15 | Norveç Eliteserien | Sarpsborg | Viking | 13049 | 5 |
 | 12.07.2026 | 23:30 | Hazırlık Kulüpler | Alianza Petrol | Deportivo Cali | 05331 | 5 |
 | 12.07.2026 | 22:00 | Hazırlık Kulüpler | Fluminense | Bahia | 09289 | 5 |
 | 12.07.2026 | 20:00 | Hazırlık Kulüpler | Pumas Unam | America De Cali | 07250 | 5 |
 | 12.07.2026 | 22:15 | Arjantin Kupa Son 32 Turu | Rivadavia | Tigre | 08086 | 5 |
-| 12.07.2026 | 20:30 | Romanya Süper Kupa | Universitatea | Universitatea C | 13831 | 5 |
-| 13.07.2026 | 00:30 | Şili Kupa Grup H | Concepcion | Puerto Montt | 01331 | 5 |
-| 13.07.2026 | 00:30 | Şili Kupa Grup H | Temuco | Huachipato | 03891 | 5 |
 | 12.07.2026 | 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz | D Belgrano | 08103 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Midland | Quilmes | 08028 | 3 |
 | 12.07.2026 | 21:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy | Chacarita Junio | 07971 | 5 |
+| 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | R Cordoba | Acassuso | 08069 | 3 |
+| 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Club Atletico | San Martin Sj | 07936 | 3 |
 | 12.07.2026 | 23:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir | Patronato | 08120 | 3 |
 | 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Agropecuario | Atl Temperley | 08010 | 3 |
 | 12.07.2026 | 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe | Central Norte | 07993 | 3 |
-| 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | Club Atletico | San Martin Sj | 07936 | 3 |
-| 12.07.2026 | 22:00 | Arjantin Ulusal Primera Lig | R Cordoba | Acassuso | 08069 | 3 |
-| 13.07.2026 | 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc | Almagro | 08137 | 3 |
-| 12.07.2026 | 20:00 | Moldova Ulusal Lig | Milsami-Ursido | Dacia-Buiucani | 05312 | 5 |
-| 12.07.2026 | 20:00 | Moldova Ulusal Lig | Sheriff Tirasp | Zimbru | 06710 | 5 |
 | 12.07.2026 | 21:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Boston River | Central Espanol | 13811 | 5 |
+| 12.07.2026 | 22:00 | Brezilya Serie B | Avai | Nautico | 08362 | 5 |
+| 12.07.2026 | 22:00 | Brezilya Serie B | Sao Bernardo | Cuiaba | 08402 | 5 |
+| 12.07.2026 | 21:00 | İzlanda Urvalsdeild | Kr Reykjavik | Vestmannaeyjar | 11763 | 3 |
+| 12.07.2026 | 21:00 | İzlanda Urvalsdeild | Ka Akureyri | Akranes | 11746 | 3 |
+| 12.07.2026 | 23:05 | İzlanda Urvalsdeild | Hafnarfjordur | Valur | 11783 | 3 |
+| 12.07.2026 | 21:00 | İzlanda Urvalsdeild | Fram | Thor Akureyri | 11729 | 2 |
+| 12.07.2026 | 22:15 | Ekvador Pro Lig | Deportivo Cuen | Aucas | 10524 | 5 |
 
 ## Sonuc
 
