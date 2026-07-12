@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-12T11:07:52.753Z",
+  "generated_at": "2026-07-12T13:55:07.575Z",
   "date": "2026-07-12",
   "source_count": 8,
-  "match_count": 8,
+  "match_count": 9,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
-      "match_name": "Yangpyeong VS Jeonbuk Motors",
-      "league": "Güney Kore K3 Ligi",
-      "start_time": "12:00",
+      "match_name": "Vasteras VS Degerfors",
+      "league": "İsveç Allsvenskan",
+      "start_time": "15:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "match_name": "Changwon City VS Chuncheon Citiz",
-      "league": "Güney Kore K3 Ligi",
-      "start_time": "12:00",
+      "match_name": "Hammarby VS Kalmar",
+      "league": "İsveç Allsvenskan",
+      "start_time": "15:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -108,9 +108,9 @@
       ]
     },
     {
-      "match_name": "Incheon Utd VS Anyang",
-      "league": "Güney Kore K Lig 1",
-      "start_time": "13:30",
+      "match_name": "Malmö VS Göteborg",
+      "league": "İsveç Allsvenskan",
+      "start_time": "15:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -159,9 +159,9 @@
       ]
     },
     {
-      "match_name": "Jeju Utd VS Daejeon Citizen",
-      "league": "Güney Kore K Lig 1",
-      "start_time": "13:30",
+      "match_name": "Kfum Oslo VS Bodo Glimt",
+      "league": "Norveç Eliteserien",
+      "start_time": "15:30",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -210,9 +210,9 @@
       ]
     },
     {
-      "match_name": "Fc Seoul VS Gangwon",
-      "league": "Güney Kore K Lig 1",
-      "start_time": "13:30",
+      "match_name": "Arsenal VS Vitebsk",
+      "league": "Belarus Premier Lig",
+      "start_time": "16:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -261,9 +261,9 @@
       ]
     },
     {
-      "match_name": "Busan Ipark VS Gimpo Citizen",
-      "league": "Güney Kore K Lig 2",
-      "start_time": "13:30",
+      "match_name": "Ulytau VS Kaisar",
+      "league": "Kazakistan Premier Lig",
+      "start_time": "16:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -312,9 +312,9 @@
       ]
     },
     {
-      "match_name": "Asan Mugunghwa VS Gyeongnam",
-      "league": "Güney Kore K Lig 2",
-      "start_time": "13:30",
+      "match_name": "Gomel Ii VS Bumprom",
+      "league": "Belarus 1.Lig",
+      "start_time": "16:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -363,9 +363,118 @@
       ]
     },
     {
-      "match_name": "Shenzhen Junio VS Heilongjiang Ls",
-      "league": "Çin Halk Cumhuriyeti 1.Lig",
-      "start_time": "14:00",
+      "match_name": "Polisi Tanzani VS Tanzania Prison",
+      "league": "Tanzanya 1. Lig Play-Off",
+      "start_time": "16:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "TRT Spor",
+          "url": "https://www.trtspor.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "resmi_yayin",
+            "mac_onu",
+            "mac_sonu"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "beIN Sports Turkiye",
+          "url": "https://beinsports.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "super_lig",
+            "ozet",
+            "haber",
+            "yorum"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fanatik",
+          "url": "https://www.fanatik.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fotomac",
+          "url": "https://www.fotomac.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Ajansspor",
+          "url": "https://ajansspor.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yorum",
+            "transfer",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Olimpiyets VS Rotor Volgograd",
+      "league": "Rusya FNL",
+      "start_time": "16:30",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
