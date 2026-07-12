@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.07.2026 23:50:21
+Oluşturma: 13.07.2026 00:00:19
 
 ## Özet
 
-- Toplam tahmin: 24
-- Bekleyen tahmin: 24
+- Toplam tahmin: 30
+- Bekleyen tahmin: 30
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 14
+- Lig sayısı: 16
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,18 @@ Oluşturma: 12.07.2026 23:50:21
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS X: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-13 | Brezilya Serie B | Atletico Goian - Fortaleza Ce | MS X | pending | 40/100
+- 2026-07-13 | Şili Kupa Grup H | Concepcion - Puerto Montt | MS 2 | pending | 50/100
+- 2026-07-13 | Şili Kupa Grup H | Temuco - Huachipato | MS X | pending | 50/100
+- 2026-07-13 | Brezilya Serie B | Regatas - Goias | MS 2 | pending | 40/100
+- 2026-07-13 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fort Lauderdale | MS X | pending | 50/100
+- 2026-07-13 | ABD USL Lig 2 Güney Florida Grubu | Weston - Miami Ac | MS X | pending | 50/100
 - 2026-07-12 | Hazırlık Kulüpler | Cruzeiro - Gremio | MS X | pending | 50/100
 - 2026-07-12 | Hazırlık Kulüpler | Alianza Petrol - Deportivo Cali | MS 2 | pending | 60/100
 - 2026-07-12 | Kazakistan Premier Lig | Tobol Kostanay - Okzhetpes | MS X | pending | 50/100
@@ -35,10 +41,4 @@ Oluşturma: 12.07.2026 23:50:21
 - 2026-07-12 | Şili Kupa Grup C | Antofagasta - Cobresal | MS 2 | pending | 60/100
 - 2026-07-12 | Şili Kupa Grup C | Cobreloa - La Serena | MS X | pending | 50/100
 - 2026-07-12 | Moldova Ulusal Lig | Milsami-Ursido - Dacia-Buiucani | MS 2 | pending | 50/100
-- 2026-07-12 | Hazırlık Kulüpler | Pumas Unam - America De Cali | MS 2 | pending | 40/100
-- 2026-07-12 | Norveç Eliteserien | Sarpsborg - Viking | MS 1 | pending | 55/100
-- 2026-07-12 | Romanya Süper Kupa | Universitatea - Universitatea C | MS 2 | pending | 50/100
-- 2026-07-12 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Nejmeh | MS 1 | pending | 40/100
-- 2026-07-12 | Brezilya Serie B | Avai - Nautico | MS X | pending | 40/100
-- 2026-07-12 | Bolivya Premier Lig | Real Potosi - Nacional Potosi | MS X | pending | 50/100
 

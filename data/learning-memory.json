@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-12T15:31:14.320Z",
-  "updated_at": "2026-07-12T20:50:21.605Z",
+  "updated_at": "2026-07-12T21:00:19.265Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 24,
-    "pending_predictions": 24,
+    "total_predictions": 30,
+    "pending_predictions": 30,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 14,
+    "league_count": 16,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 24,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 6,
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 8,
-      "pending": 8,
+      "total": 12,
+      "pending": 12,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -31,8 +27,8 @@
       "confidence_adjustment": 0
     },
     "MS 2": {
-      "total": 13,
-      "pending": 13,
+      "total": 15,
+      "pending": 15,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +48,36 @@
     }
   },
   "league_memory": {
+    "Brezilya Serie B": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup H": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 2 Güney Florida Grubu": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Hazırlık Kulüpler": {
       "total": 6,
       "pending": 6,
@@ -142,16 +168,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Brezilya Serie B": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Bolivya Premier Lig": {
       "total": 1,
       "pending": 1,
@@ -194,6 +210,56 @@
     }
   },
   "league_market_memory": {
+    "Brezilya Serie B :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup H :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Kupa Grup H :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL Lig 2 Güney Florida Grubu :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Hazırlık Kulüpler :: MS X": {
       "total": 2,
       "pending": 2,
@@ -304,16 +370,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Brezilya Serie B :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Bolivya Premier Lig :: MS X": {
       "total": 1,
       "pending": 1,
@@ -396,6 +452,108 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-13|brezilya serie b|atletico goian fortaleza ce|ms x|00 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-12T21:00:19.264Z",
+      "match_name": "Atletico Goian - Fortaleza Ce",
+      "league": "Brezilya Serie B",
+      "start_time": "00:00",
+      "market": "MS X",
+      "odds": "2.72",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|sili kupa grup h|concepcion puerto montt|ms 2|00 30",
+      "date": "2026-07-13",
+      "created_at": "2026-07-12T21:00:19.264Z",
+      "match_name": "Concepcion - Puerto Montt",
+      "league": "Şili Kupa Grup H",
+      "start_time": "00:30",
+      "market": "MS 2",
+      "odds": "4.51",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|sili kupa grup h|temuco huachipato|ms x|00 30",
+      "date": "2026-07-13",
+      "created_at": "2026-07-12T21:00:19.264Z",
+      "match_name": "Temuco - Huachipato",
+      "league": "Şili Kupa Grup H",
+      "start_time": "00:30",
+      "market": "MS X",
+      "odds": "2.98",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|brezilya serie b|regatas goias|ms 2|01 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-12T21:00:19.264Z",
+      "match_name": "Regatas - Goias",
+      "league": "Brezilya Serie B",
+      "start_time": "01:00",
+      "market": "MS 2",
+      "odds": "3.53",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|abd usl lig 2 guney florida grubu|lakeland unite fort lauderdale|ms x|01 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-12T21:00:19.264Z",
+      "match_name": "Lakeland Unite - Fort Lauderdale",
+      "league": "ABD USL Lig 2 Güney Florida Grubu",
+      "start_time": "01:00",
+      "market": "MS X",
+      "odds": "3.29",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|abd usl lig 2 guney florida grubu|weston miami ac|ms x|02 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-12T21:00:19.264Z",
+      "match_name": "Weston - Miami Ac",
+      "league": "ABD USL Lig 2 Güney Florida Grubu",
+      "start_time": "02:00",
+      "market": "MS X",
+      "odds": "3.21",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-07-12|hazirlik kulupler|cruzeiro gremio|ms x|23 00",
       "date": "2026-07-12",
