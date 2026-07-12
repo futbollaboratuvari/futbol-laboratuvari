@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-12 / 2026-07-13
 Kaynak: fixtures.json
-Ham mac: 87
-Aktif mac: 78
-Canli mac: 9
+Ham mac: 89
+Aktif mac: 79
+Canli mac: 10
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 60
+Bultenden dusurulen mac: 10
+Bugun: 61
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-12 15:30 | Norveç Eliteserien | Kfum Oslo - Bodo Glimt | scheduled | -
 - 2026-07-12 16:00 | Belarus Premier Lig | Arsenal - Vitebsk | scheduled | -
 - 2026-07-12 16:00 | Kazakistan Premier Lig | Ulytau - Kaisar | scheduled | -
 - 2026-07-12 16:00 | Belarus 1.Lig | Gomel Ii - Bumprom | scheduled | -
@@ -26,6 +25,7 @@ Yarin: 18
 - 2026-07-12 17:00 | Letonya Kupa Son 16 Turu | Marupe - Grobina | scheduled | -
 - 2026-07-12 17:30 | İsveç Allsvenskan | Brommapojkarna - Sirius | scheduled | -
 - 2026-07-12 17:30 | İsveç Allsvenskan | Gais - Elfsborg | scheduled | -
+- 2026-07-12 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Ahed | scheduled | -
 - 2026-07-12 18:00 | Norveç Eliteserien | Sandefjord - Ham Kam | scheduled | -
 - 2026-07-12 18:00 | Norveç Eliteserien | Rosenborg - Kristiansund | scheduled | -
 - 2026-07-12 18:00 | Norveç Eliteserien | Brann - Start | scheduled | -
@@ -54,6 +54,7 @@ Yarin: 18
 - 2026-07-12 21:00 | İzlanda Urvalsdeild | Kr Reykjavik - Vestmannaeyjar | scheduled | -
 - 2026-07-12 21:00 | İzlanda Urvalsdeild | Ka Akureyri - Akranes | scheduled | -
 - 2026-07-12 21:00 | İzlanda Urvalsdeild | Fram - Thor Akureyri | scheduled | -
+- 2026-07-12 21:00 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Nejmeh | scheduled | -
 - 2026-07-12 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Central Norte | scheduled | -
 - 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - Acassuso | scheduled | -
 - 2026-07-12 22:00 | Arjantin Ulusal Primera Lig | Midland - Quilmes | scheduled | -
@@ -100,6 +101,7 @@ Yarin: 18
 - 2026-07-12 15:00 | İsveç Allsvenskan | Vasteras - Degerfors | live | -
 - 2026-07-12 15:00 | İsveç Allsvenskan | Hammarby - Kalmar | live | -
 - 2026-07-12 15:00 | İsveç Allsvenskan | Malmö - Göteborg | live | -
+- 2026-07-12 15:30 | Norveç Eliteserien | Kfum Oslo - Bodo Glimt | live | -
 
 ## Biten Maclar
 Biten mac yok.
