@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 65
-Tam analiz: 47
+Toplam analiz: 61
+Tam analiz: 43
 Eksik analiz: 18
 
 - Gomel Ii VS Bumprom: eksik score, confidence
