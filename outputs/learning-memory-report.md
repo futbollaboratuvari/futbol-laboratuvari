@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.07.2026 00:32:56
+Oluşturma: 13.07.2026 00:38:15
 
 ## Özet
 
@@ -27,7 +27,7 @@ Oluşturma: 13.07.2026 00:32:56
 ## Son Tahmin Kayıtları
 
 - 2026-07-13 | Brezilya Serie B | Atletico Goian - Fortaleza Ce | MS X | pending | 40/100
-- 2026-07-13 | Şili Kupa Grup H | Concepcion - Puerto Montt | MS 2 | pending | 50/100
+- 2026-07-13 | Şili Kupa Grup H | Concepcion - Puerto Montt | MS 2 | pending | 60/100
 - 2026-07-13 | Şili Kupa Grup H | Temuco - Huachipato | MS X | pending | 50/100
 - 2026-07-13 | Brezilya Serie B | Regatas - Goias | MS 2 | pending | 40/100
 - 2026-07-13 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fort Lauderdale | MS X | pending | 50/100
