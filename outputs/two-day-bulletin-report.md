@@ -4,17 +4,14 @@ Gunler: 2026-07-12 / 2026-07-13
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 43
-Aktif mac: 16
-Canli mac: 27
+Aktif mac: 13
+Canli mac: 30
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 16
+Bultenden dusurulen mac: 30
+Bugun: 13
 Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-07-12 03:00 | ABD USL Kupası Grup 3 | Birmingham Leg - Tulsa Roughneck | scheduled | -
-- 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Forward Madiso - Union Omaha | scheduled | -
-- 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Louisville Cit - Lexington | scheduled | -
 - 2026-07-12 03:30 | ABD USL Kupası Grup 3 | Corpus Christi - One Knoxville | scheduled | -
 - 2026-07-12 03:30 | ABD USL Lig 2 Güney Konferansı | Denton Diablos - Fort Worth Vaqu | scheduled | -
 - 2026-07-12 04:00 | Dünya Kupası 2026 Çeyrek Final | Arjantin - İsviçre | scheduled | -
@@ -30,6 +27,9 @@ Yarin: 0
 - 2026-07-12 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Rockdale Cs | scheduled | -
 
 ## Canli Maclar
+- 2026-07-12 03:00 | ABD USL Kupası Grup 3 | Birmingham Leg - Tulsa Roughneck | live | -
+- 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Forward Madiso - Union Omaha | live | -
+- 2026-07-12 03:00 | ABD USL Kupası Grup 4 | Louisville Cit - Lexington | live | -
 - 2026-07-12 00:30 | Şili Kupa Grup B | Capiapo - Everton De Vina | live | -
 - 2026-07-12 00:30 | Şili Kupa Grup B | Sl Quillota - Univ. Catolica | live | -
 - 2026-07-12 01:00 | ABD USL Lig 2 Metropolitan Grubu | Staten Island - Morris Elite | live | -
