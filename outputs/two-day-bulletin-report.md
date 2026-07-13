@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-13 / 2026-07-14
 Kaynak: fixtures.json
-Ham mac: 31
+Ham mac: 21
 Aktif mac: 14
 Canli mac: 7
-Biten mac: 10
-Bultenden dusurulen mac: 17
+Biten mac: 0
+Bultenden dusurulen mac: 7
 Bugun: 10
 Yarin: 4
 
@@ -36,13 +36,4 @@ Yarin: 4
 - 2026-07-13 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Snohomish Unite | live | -
 
 ## Biten Maclar
-- 2026-07-13 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Almagro | finished | -
-- 2026-07-13 00:00 | Brezilya Serie B | Atletico Goian - Fortaleza Ce | finished | -
-- 2026-07-13 00:00 | ABD USL Lig 2 Heartland Grubu | Edgewater Cast - Minneapolis Cit | finished | -
-- 2026-07-13 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bangers | finished | -
-- 2026-07-13 00:15 | Bolivya Premier Lig | The Strongest - Bolivar | finished | -
-- 2026-07-13 00:30 | Şili Kupa Grup H | Concepcion - Puerto Montt | finished | -
-- 2026-07-13 00:30 | Şili Kupa Grup H | Temuco - Huachipato | finished | -
-- 2026-07-13 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi - Penarol | finished | -
-- 2026-07-13 01:00 | Brezilya Serie B | Regatas - Goias | finished | -
-- 2026-07-13 01:00 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fort Lauderdale | finished | -
+Biten mac yok.
