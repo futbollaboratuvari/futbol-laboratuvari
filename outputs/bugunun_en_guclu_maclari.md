@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-13T08:12:11.659Z
+- Güncelleme: 2026-07-13T10:44:25.722Z
 - Ham maç sayısı: 15
 - Yarın bülteni maç sayısı: 4
 - Detay blok sayısı: 40
-- Aktif bülten maçı: 15
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 14
+- Bültenden düşürülen maç: 1
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bulleen Lions - Brunswick City | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.35 | 4 |
 | Ningbo - Foshan Nanshi | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Reyady Abaseya - Racing Beirut | Lübnan Premier Lig Küme Düşme Turu | 16:00 | Veri bekleniyor | - | - | 5 |
 | Chelyabinsk - Ska-Khabarovsk | Rusya FNL | 17:00 | Veri bekleniyor | - | 1.6 | 8 |
