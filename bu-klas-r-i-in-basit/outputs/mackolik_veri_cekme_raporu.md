@@ -1,20 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-13T19:52:23.749192+00:00
+Tarih: 2026-07-13T20:34:10.241493+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 1
+- Kac mac bulundu: 4
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 1
+- Kac mac zaten vardi: 4
 - Ham veri havuzu toplam mac sayisi: 1747
 - Hedef tarih: 13.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- İzlanda 1.Lig
+- Arjantin Ulusal Primera Lig
+- Brezilya Serie B
+- Uruguay Premier Lig Intermediate Turu Grup 1
 
 ## Okunabilen Oran Alanlari
 
@@ -71,8 +73,8 @@ Tarih: 2026-07-13T19:52:23.749192+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 4
-- Acilan detay: 4
+- Denenen Tumu alani: 3
+- Acilan detay: 3
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -85,7 +87,10 @@ Tarih: 2026-07-13T19:52:23.749192+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 13.07.2026 | 23:15 | İzlanda 1.Lig | Vestri | Fylkir | 00692 | 5 |
+| 14.07.2026 | 03:00 | Arjantin Ulusal Primera Lig | Atlanta | Colegiales | 08154 | 3 |
+| 14.07.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo | Defensor Sporti | 13821 | 5 |
+| 14.07.2026 | 02:30 | Brezilya Serie B | Ceara | Athletic Club | 08793 | 5 |
+| 14.07.2026 | 01:00 | Brezilya Serie B | America Mineir | Londrina | 08716 | 5 |
 
 ## Sonuc
 
