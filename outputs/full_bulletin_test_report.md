@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 15
-- Live match count: 0
+- Scheduled match count: 14
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-07-13 / 2026-07-14 23:59
 
-- 2026-07-13 13:30 | Bulleen Lions - Brunswick City | scheduled
+- 2026-07-13 13:30 | Bulleen Lions - Brunswick City | live
 - 2026-07-13 14:00 | Ningbo - Foshan Nanshi | scheduled
 - 2026-07-13 16:00 | Reyady Abaseya - Racing Beirut | scheduled
 - 2026-07-13 17:00 | Zenit - Makhachkala | scheduled
