@@ -1,22 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-13T16:00:35.897782+00:00
+Tarih: 2026-07-13T17:48:24.081769+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 5
+- Kac mac bulundu: 6
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 5
+- Kac mac zaten vardi: 6
 - Ham veri havuzu toplam mac sayisi: 1747
 - Hedef tarih: 13.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Hazırlık Kulüpler
-- Rusya FNL
-- İsveç Allsvenskan
+- Arjantin Ulusal Primera Lig
+- Brezilya Serie B
+- Uruguay Premier Lig Intermediate Turu Grup 1
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
 
@@ -75,8 +75,8 @@ Tarih: 2026-07-13T16:00:35.897782+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 5
+- Acilan detay: 5
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -89,9 +89,10 @@ Tarih: 2026-07-13T16:00:35.897782+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 13.07.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Halmstads | 14239 | 5 |
-| 13.07.2026 | 19:00 | Hazırlık Kulüpler | Sigma Olomouc | Al Ahli Dubai | 07046 | 5 |
-| 13.07.2026 | 19:30 | Rusya FNL | Arsenal Tula | Tekstilshchik | 13239 | 5 |
+| 14.07.2026 | 03:00 | Arjantin Ulusal Primera Lig | Atlanta | Colegiales | 08154 | 3 |
+| 14.07.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo | Defensor Sporti | 13821 | 5 |
+| 14.07.2026 | 01:00 | Brezilya Serie B | America Mineir | Londrina | 08716 | 5 |
+| 14.07.2026 | 02:30 | Brezilya Serie B | Ceara | Athletic Club | 08793 | 5 |
 | 13.07.2026 | 22:15 | İzlanda Urvalsdeild | Breidablik | Keflavik | 11814 | 3 |
 | 13.07.2026 | 23:15 | İzlanda 1.Lig | Vestri | Fylkir | 00692 | 5 |
 
