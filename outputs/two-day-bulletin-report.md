@@ -2,47 +2,15 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 51
-Aktif mac: 51
+Ham mac: 19
+Aktif mac: 19
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 32
+Bugun: 0
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | scheduled | -
-- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | scheduled | -
-- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | scheduled | -
-- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | scheduled | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | scheduled | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | scheduled | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | scheduled | -
-- 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | scheduled | -
-- 2026-07-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | scheduled | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Randers - Notts County | scheduled | -
-- 2026-07-14 19:30 | Hazırlık Kulüpler | Sporting Cp - Celtic | scheduled | -
-- 2026-07-14 20:00 | İzlanda 1.Lig | Hk Kopavogur - Ir Reykjavik | scheduled | -
-- 2026-07-14 21:00 | İzlanda 1.Lig | Grotta - Grindavik | scheduled | -
-- 2026-07-14 21:30 | Paraguay Kupa 2.Tur | Cristobal Colo - 3 De Noviembre | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts - Queens Park | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup A | Brora Rangers - Aberdeen | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup B | Spartans - Stirling Albion | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup B | Montrose - Dundee Utd | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup C | Cove Rangers - East Kilbride | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup C | Dunfermline - Dumbarton | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup D | Annan - Dundee | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup D | Clyde - Airdrieonians | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup E | Forfar - Partick Thistle | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup E | Brechin - Livingston | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup F | Linlithgow Ros - St Johnstone | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup F | East Fife - Morton | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup G | Edinburg C. - Alloa | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup G | Falkirk - Ayr Utd | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup H | Kilmarnock - Raith Rovers | scheduled | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup H | Elgin - Peterhead | scheduled | -
-- 2026-07-14 22:00 | Dünya Kupası 2026 Yarı Final | Fransa - İspanya | scheduled | -
-- 2026-07-14 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) - (1) Fc Una Strassen | scheduled | -
 - 2026-07-15 00:00 | Paraguay Kupa 2.Tur | Sportivo Limpe - General Caballe | scheduled | -
 - 2026-07-15 00:30 | Ekvador Pro Lig | Depor Macara - Mushuc Runa | scheduled | -
 - 2026-07-15 01:00 | Bolivya Premier Lig | Real Oruro - Always Ready | scheduled | -
