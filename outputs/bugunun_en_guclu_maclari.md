@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-13T11:46:49.060Z
+- Güncelleme: 2026-07-13T13:09:33.950Z
 - Ham maç sayısı: 15
 - Yarın bülteni maç sayısı: 4
 - Detay blok sayısı: 40
-- Aktif bülten maçı: 13
-- Bültenden düşürülen maç: 2
+- Aktif bülten maçı: 12
+- Bültenden düşürülen maç: 3
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Reyady Abaseya - Racing Beirut | Lübnan Premier Lig Küme Düşme Turu | 16:00 | Veri bekleniyor | - | 1.05 | 6 |
 | Chelyabinsk - Ska-Khabarovsk | Rusya FNL | 17:00 | Veri bekleniyor | - | 1.6 | 8 |
 | Ural - Torpedo Moskova | Rusya FNL | 17:00 | Veri bekleniyor | - | 1.82 | 8 |
 | Zenit - Makhachkala | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.21 | 4 |
