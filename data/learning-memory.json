@@ -1,22 +1,198 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-13T04:55:49.077Z",
-  "updated_at": "2026-07-13T07:52:53.811Z",
+  "updated_at": "2026-07-13T08:09:30.593Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 0,
-    "pending_predictions": 0,
+    "total_predictions": 4,
+    "pending_predictions": 4,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 0,
-    "market_count": 0,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "league_count": 4,
+    "market_count": 2,
+    "added_predictions": 4,
+    "updated_predictions": 0,
+    "last_score_link_checked": 4,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
-  "market_memory": {},
-  "league_memory": {},
-  "league_market_memory": {},
-  "predictions": []
+  "market_memory": {
+    "MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Çin Halk Cumhuriyeti 1.Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Lübnan Premier Lig Küme Düşme Turu": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Rusya FNL": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_market_memory": {
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Çin Halk Cumhuriyeti 1.Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Lübnan Premier Lig Küme Düşme Turu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Rusya FNL :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "predictions": [
+    {
+      "id": "2026-07-13|hazirlik kulupler|sigma olomouc al ahli dubai|ms x|19 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-13T08:09:29.943Z",
+      "match_name": "Sigma Olomouc - Al Ahli Dubai",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "19:00",
+      "market": "MS X",
+      "odds": "3.18",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|cin halk cumhuriyeti 1 lig|ningbo foshan nanshi|ms 2|14 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-13T08:09:29.942Z",
+      "match_name": "Ningbo - Foshan Nanshi",
+      "league": "Çin Halk Cumhuriyeti 1.Lig",
+      "start_time": "14:00",
+      "market": "MS 2",
+      "odds": "4.83",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|lubnan premier lig kume dusme turu|reyady abaseya racing beirut|ms x|16 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-13T08:09:29.942Z",
+      "match_name": "Reyady Abaseya - Racing Beirut",
+      "league": "Lübnan Premier Lig Küme Düşme Turu",
+      "start_time": "16:00",
+      "market": "MS X",
+      "odds": "5.02",
+      "confidence_score": "65%",
+      "analysis_score": 65,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-13|rusya fnl|chelyabinsk ska khabarovsk|ms 2|17 00",
+      "date": "2026-07-13",
+      "created_at": "2026-07-13T08:09:29.942Z",
+      "match_name": "Chelyabinsk - Ska-Khabarovsk",
+      "league": "Rusya FNL",
+      "start_time": "17:00",
+      "market": "MS 2",
+      "odds": "3.60",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    }
+  ]
 }
