@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-13T22:37:44.283Z",
+  "generated_at": "2026-07-13T23:35:13.981Z",
   "date": "2026-07-14",
   "source_count": 8,
-  "match_count": 2,
+  "match_count": 3,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -60,6 +60,57 @@
       "match_name": "America Mineir VS Londrina",
       "league": "Brezilya Serie B",
       "start_time": "01:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Ceara VS Athletic Club",
+      "league": "Brezilya Serie B",
+      "start_time": "02:30",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
