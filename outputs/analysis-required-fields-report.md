@@ -1,7 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: empty
-Toplam analiz: 0
-Tam analiz: 0
-Eksik analiz: 0
+Durum: warning
+Toplam analiz: 11
+Tam analiz: 8
+Eksik analiz: 3
 
+- Bulleen Lions VS Brunswick City: eksik score, confidence
+- Zenit VS Makhachkala: eksik score, confidence
+- Breidablik VS Keflavik: eksik score, confidence
