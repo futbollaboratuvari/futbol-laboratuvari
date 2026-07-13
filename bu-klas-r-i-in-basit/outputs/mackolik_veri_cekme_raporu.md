@@ -1,21 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-13T13:09:45.329746+00:00
+Tarih: 2026-07-13T13:12:19.928619+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 9
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 8
+- Kac mac bulundu: 13
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 13
 - Ham veri havuzu toplam mac sayisi: 1747
 - Hedef tarih: 13.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Ulusal Primera Lig
+- Brezilya Serie B
 - Hazırlık Kulüpler
 - Rusya FNL
+- Uruguay Premier Lig Intermediate Turu Grup 1
 - İsveç Allsvenskan
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
@@ -96,6 +99,10 @@ Tarih: 2026-07-13T13:09:45.329746+00:00
 | 13.07.2026 | 17:00 | Rusya FNL | Ural | Torpedo Moskova | 13222 | 5 |
 | 13.07.2026 | 17:00 | Rusya FNL | Chelyabinsk | Ska-Khabarovsk | 13205 | 5 |
 | 13.07.2026 | 19:30 | Rusya FNL | Arsenal Tula | Tekstilshchik | 13239 | 5 |
+| 14.07.2026 | 03:00 | Arjantin Ulusal Primera Lig | Atlanta | Colegiales | 08154 | 3 |
+| 14.07.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo | Defensor Sporti | 13821 | 5 |
+| 14.07.2026 | 01:00 | Brezilya Serie B | America Mineir | Londrina | 08716 | 5 |
+| 14.07.2026 | 02:30 | Brezilya Serie B | Ceara | Athletic Club | 08793 | 5 |
 | 13.07.2026 | 22:15 | İzlanda Urvalsdeild | Breidablik | Keflavik | 11814 | 3 |
 | 13.07.2026 | 23:15 | İzlanda 1.Lig | Vestri | Fylkir | 00692 | 5 |
 
