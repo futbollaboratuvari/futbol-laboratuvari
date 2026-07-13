@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 19
-- Live match count: 0
+- Scheduled match count: 49
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-14 / 2026-07-15 23:59
 
-- 2026-07-15 00:00 | Sportivo Limpe - General Caballe | scheduled
-- 2026-07-15 00:30 | Depor Macara - Mushuc Runa | scheduled
-- 2026-07-15 01:00 | Real Oruro - Always Ready | scheduled
-- 2026-07-15 03:00 | Manta - Delfin | scheduled
-- 2026-07-15 03:00 | Atert Bissen (1) - (2) Kí Klaksvík | scheduled
-- 2026-07-15 03:00 | Egnatia (1) - (1) Petrocub | scheduled
-- 2026-07-15 03:00 | Fc Drita (1) - (1) Kauno Zalgiris | scheduled
-- 2026-07-15 03:00 | Fc Iberia (3) - (2) Flora Tallinn | scheduled
-- 2026-07-15 03:00 | Gyor (0) - (1) Vikingur Reykja | scheduled
-- 2026-07-15 03:00 | Inter Escaldes (1) - (3) Lincoln Red Imp | scheduled
+- 2026-07-14 01:00 | America Mineir - Londrina | live
+- 2026-07-14 01:00 | Cerro Largo - Defensor Sporti | live
+- 2026-07-14 02:30 | Ceara - Athletic Club | scheduled
+- 2026-07-14 03:00 | Atlanta - Colegiales | scheduled
+- 2026-07-14 12:00 | Fc Andorra - Millwall | scheduled
+- 2026-07-14 12:30 | Apia - Peninsula Power | scheduled
+- 2026-07-14 12:30 | Rochedale Rove - Sd Raiders | scheduled
+- 2026-07-14 13:00 | Legia Varşova - Radomiak Radom | scheduled
+- 2026-07-14 14:35 | Zhejiang G. Fc - Qingdao Zhongne | scheduled
+- 2026-07-14 19:00 | Randers - Notts County | scheduled
