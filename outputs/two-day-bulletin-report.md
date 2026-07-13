@@ -1,24 +1,21 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-07-13 / 2026-07-14
+Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 6
-Aktif mac: 4
-Canli mac: 2
-Biten mac: 0
+Ham mac: 2
+Aktif mac: 0
+Canli mac: 0
+Biten mac: 2
 Bultenden dusurulen mac: 2
 Bugun: 0
-Yarin: 4
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | scheduled | -
-- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | scheduled | -
-- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | scheduled | -
-- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | scheduled | -
+Mac bekleniyor.
 
 ## Canli Maclar
-- 2026-07-13 22:15 | İzlanda Urvalsdeild | Breidablik - Keflavik | live | -
-- 2026-07-13 23:15 | İzlanda 1.Lig | Vestri - Fylkir | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-14 22:00 | Dünya Kupası 2026 Yarı Final | Fransa - İspanya | finished | -
+- 2026-07-14 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) - (1) Fc Una Strassen | finished | -

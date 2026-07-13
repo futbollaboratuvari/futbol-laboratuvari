@@ -2,7 +2,8 @@
 
 Durum: warning
 Toplam analiz: 2
-Tam analiz: 1
-Eksik analiz: 1
+Tam analiz: 0
+Eksik analiz: 2
 
-- Breidablik VS Keflavik: eksik score, confidence
+- Fransa VS İspanya: eksik score, confidence
+- La Fiorita (0) VS (1) Fc Una Strassen: eksik score, confidence
