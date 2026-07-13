@@ -1,22 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-13T20:34:10.241493+00:00
+Tarih: 2026-07-13T21:05:30.881355+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 4
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 4
-- Ham veri havuzu toplam mac sayisi: 1747
-- Hedef tarih: 13.07.2026 Europe/Istanbul
+- Kac mac bulundu: 28
+- Kac mac kaydedildi: 28
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 1775
+- Hedef tarih: 14.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Ulusal Primera Lig
-- Brezilya Serie B
-- Uruguay Premier Lig Intermediate Turu Grup 1
+- Avustralya FFA Kupası Son 32 Turu
+- Dünya Kupası 2026 Yarı Final
+- Hazırlık Kulüpler
+- Paraguay Kupa 2.Tur
+- UEFA Konferans Ligi 1. Eleme Turu
+- Çin Halk Cumhuriyeti Süper Lig
+- İskoçya Lig Kupası Grup A
+- İskoçya Lig Kupası Grup B
+- İskoçya Lig Kupası Grup C
+- İskoçya Lig Kupası Grup D
+- İskoçya Lig Kupası Grup E
+- İskoçya Lig Kupası Grup F
+- İskoçya Lig Kupası Grup G
+- İskoçya Lig Kupası Grup H
+- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -73,8 +85,8 @@ Tarih: 2026-07-13T20:34:10.241493+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 3
-- Acilan detay: 3
+- Denenen Tumu alani: 19
+- Acilan detay: 19
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -87,10 +99,26 @@ Tarih: 2026-07-13T20:34:10.241493+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 14.07.2026 | 03:00 | Arjantin Ulusal Primera Lig | Atlanta | Colegiales | 08154 | 3 |
-| 14.07.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo | Defensor Sporti | 13821 | 5 |
-| 14.07.2026 | 02:30 | Brezilya Serie B | Ceara | Athletic Club | 08793 | 5 |
-| 14.07.2026 | 01:00 | Brezilya Serie B | America Mineir | Londrina | 08716 | 5 |
+| 14.07.2026 | 22:00 | Dünya Kupası 2026 Yarı Final | Fransa | İspanya | 01069 | 5 |
+| 14.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) | (1) Fc Una Strassen | 07095 | 5 |
+| 14.07.2026 | 12:00 | Hazırlık Kulüpler | Fc Andorra | Millwall | 09942 | 5 |
+| 14.07.2026 | 13:00 | Hazırlık Kulüpler | Legia Varşova | Radomiak Radom | 00175 | 5 |
+| 14.07.2026 | 19:00 | Hazırlık Kulüpler | Randers | Notts County | 02833 | 5 |
+| 14.07.2026 | 19:30 | Hazırlık Kulüpler | Sporting Cp | Celtic | 02293 | 5 |
+| 14.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc | Qingdao Zhongne | 07580 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts | Queens Park | 06308 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Brora Rangers | Aberdeen | 10851 | 2 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Spartans | Stirling Albion | 11044 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Montrose | Dundee Utd | 11011 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | Cove Rangers | East Kilbride | 10917 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | Dunfermline | Dumbarton | 03401 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Annan | Dundee | 10785 | 4 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Clyde | Airdrieonians | 10884 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup E | Forfar | Partick Thistle | 05840 | 4 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup E | Brechin | Livingston | 10818 | 4 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup F | Linlithgow Ros | St Johnstone | 10978 | 4 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup F | East Fife | Morton | 05184 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup G | Edinburg C. | Alloa | 06840 | 5 |
 
 ## Sonuc
 
