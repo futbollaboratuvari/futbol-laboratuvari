@@ -3,11 +3,10 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 6
-- Live match count: 3
-- Finished removed count: 0
+- Live match count: 2
+- Finished removed count: 1
 - Date window: 2026-07-13 / 2026-07-14 23:59
 
-- 2026-07-13 19:00 | Sigma Olomouc - Al Ahli Dubai | live
 - 2026-07-13 19:30 | Arsenal Tula - Tekstilshchik | live
 - 2026-07-13 20:00 | Djurgarden - Halmstads | live
 - 2026-07-13 22:15 | Breidablik - Keflavik | scheduled
