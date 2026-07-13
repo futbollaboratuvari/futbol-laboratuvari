@@ -3,15 +3,14 @@
 Gunler: 2026-07-13 / 2026-07-14
 Kaynak: fixtures.json
 Ham mac: 21
-Aktif mac: 14
-Canli mac: 7
+Aktif mac: 13
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 10
+Bultenden dusurulen mac: 8
+Bugun: 9
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | scheduled | -
 - 2026-07-13 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - Brunswick City | scheduled | -
 - 2026-07-13 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Foshan Nanshi | scheduled | -
 - 2026-07-13 16:00 | Lübnan Premier Lig Küme Düşme Turu | Reyady Abaseya - Racing Beirut | scheduled | -
@@ -34,6 +33,7 @@ Yarin: 4
 - 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | live | -
 - 2026-07-13 03:00 | Şili Lig Kupası Yarı Final | O Higgins (1) - (2) Atletico Nublen | live | -
 - 2026-07-13 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Snohomish Unite | live | -
+- 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | live | -
 
 ## Biten Maclar
 Biten mac yok.

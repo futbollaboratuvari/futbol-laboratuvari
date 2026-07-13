@@ -1,10 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 22
-Tam analiz: 19
-Eksik analiz: 3
+Toplam analiz: 17
+Tam analiz: 15
+Eksik analiz: 2
 
-- Racing Montevi VS Penarol: eksik score, confidence
 - Bulleen Lions VS Brunswick City: eksik score, confidence
 - Breidablik VS Keflavik: eksik score, confidence
