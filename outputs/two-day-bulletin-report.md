@@ -3,16 +3,14 @@
 Gunler: 2026-07-13 / 2026-07-14
 Kaynak: fixtures.json
 Ham mac: 26
-Aktif mac: 16
-Canli mac: 10
+Aktif mac: 14
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 12
+Bultenden dusurulen mac: 12
+Bugun: 10
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-13 03:00 | Şili Lig Kupası Yarı Final | O Higgins (1) - (2) Atletico Nublen | scheduled | -
-- 2026-07-13 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Snohomish Unite | scheduled | -
 - 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | scheduled | -
 - 2026-07-13 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - Brunswick City | scheduled | -
 - 2026-07-13 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Foshan Nanshi | scheduled | -
@@ -39,6 +37,8 @@ Yarin: 4
 - 2026-07-13 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Shark Coast | live | -
 - 2026-07-13 02:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Miami Ac | live | -
 - 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | live | -
+- 2026-07-13 03:00 | Şili Lig Kupası Yarı Final | O Higgins (1) - (2) Atletico Nublen | live | -
+- 2026-07-13 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Snohomish Unite | live | -
 
 ## Biten Maclar
 Biten mac yok.
