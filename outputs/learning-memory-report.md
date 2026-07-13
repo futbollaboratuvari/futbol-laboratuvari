@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 13.07.2026 22:51:38
-=======
-Oluşturma: 13.07.2026 22:52:27
->>>>>>> Stashed changes
+Oluşturma: 13.07.2026 22:55:55
 
 ## Özet
 
-- Toplam tahmin: 5
-- Bekleyen tahmin: 5
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 4
-- Seçenek sayısı: 2
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,14 +20,8 @@ Oluşturma: 13.07.2026 22:52:27
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS X: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-13 | Hazırlık Kulüpler | Zenit - Makhachkala | MS 2 | pending | 40/100
-- 2026-07-13 | Hazırlık Kulüpler | Sigma Olomouc - Al Ahli Dubai | MS X | pending | 50/100
-- 2026-07-13 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Foshan Nanshi | MS 2 | pending | 50/100
-- 2026-07-13 | Lübnan Premier Lig Küme Düşme Turu | Reyady Abaseya - Racing Beirut | MS X | pending | 65/100
-- 2026-07-13 | Rusya FNL | Chelyabinsk - Ska-Khabarovsk | MS 2 | pending | 40/100
 
