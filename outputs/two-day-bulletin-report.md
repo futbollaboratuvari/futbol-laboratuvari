@@ -1,14 +1,13 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-13 / 2026-07-14
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 21
-Aktif mac: 13
-Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 9
+Kaynak: fixtures.json
+Ham mac: 33
+Aktif mac: 15
+Canli mac: 0
+Biten mac: 18
+Bultenden dusurulen mac: 18
+Bugun: 11
 Yarin: 4
 
 ## Baslamamis Maclar
@@ -17,6 +16,8 @@ Yarin: 4
 - 2026-07-13 16:00 | Lübnan Premier Lig Küme Düşme Turu | Reyady Abaseya - Racing Beirut | scheduled | -
 - 2026-07-13 17:00 | Rusya FNL | Chelyabinsk - Ska-Khabarovsk | scheduled | -
 - 2026-07-13 17:00 | Rusya FNL | Ural - Torpedo Moskova | scheduled | -
+- 2026-07-13 17:00 | Hazırlık Kulüpler | Zenit - Makhachkala | scheduled | -
+- 2026-07-13 19:00 | Hazırlık Kulüpler | Sigma Olomouc - Al Ahli Dubai | scheduled | -
 - 2026-07-13 19:30 | Rusya FNL | Arsenal Tula - Tekstilshchik | scheduled | -
 - 2026-07-13 20:00 | İsveç Allsvenskan | Djurgarden - Halmstads | scheduled | -
 - 2026-07-13 22:15 | İzlanda Urvalsdeild | Breidablik - Keflavik | scheduled | -
@@ -27,14 +28,24 @@ Yarin: 4
 - 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | scheduled | -
 
 ## Canli Maclar
-- 2026-07-13 02:00 | ABD USL Lig 2 Heartland Grubu | Rkc - River Light | live | -
-- 2026-07-13 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot - Midlakes United | live | -
-- 2026-07-13 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Shark Coast | live | -
-- 2026-07-13 02:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Miami Ac | live | -
-- 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | live | -
-- 2026-07-13 03:00 | Şili Lig Kupası Yarı Final | O Higgins (1) - (2) Atletico Nublen | live | -
-- 2026-07-13 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Snohomish Unite | live | -
-- 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-13 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Almagro | finished | -
+- 2026-07-13 00:00 | Brezilya Serie B | Atletico Goian - Fortaleza Ce | finished | -
+- 2026-07-13 00:00 | ABD USL Lig 2 Heartland Grubu | Edgewater Cast - Minneapolis Cit | finished | -
+- 2026-07-13 00:00 | ABD USL Lig 2 Kuzeybatı Grubu | West Seattle J - Bangers | finished | -
+- 2026-07-13 00:15 | Bolivya Premier Lig | The Strongest - Bolivar | finished | -
+- 2026-07-13 00:30 | Şili Kupa Grup H | Concepcion - Puerto Montt | finished | -
+- 2026-07-13 00:30 | Şili Kupa Grup H | Temuco - Huachipato | finished | -
+- 2026-07-13 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi - Penarol | finished | -
+- 2026-07-13 01:00 | Brezilya Serie B | Regatas - Goias | finished | -
+- 2026-07-13 01:00 | ABD USL Lig 2 Güney Florida Grubu | Lakeland Unite - Fort Lauderdale | finished | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Heartland Grubu | Rkc - River Light | finished | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Kuzeybatı Grubu | Bigfoot - Midlakes United | finished | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Güneydoğu Grubu | The Villages - Shark Coast | finished | -
+- 2026-07-13 02:00 | ABD USL Lig 2 Güney Florida Grubu | Weston - Miami Ac | finished | -
+- 2026-07-13 02:10 | Ekvador Pro Lig | Emelec - Barcelona Gua | finished | -
+- 2026-07-13 03:00 | Şili Lig Kupası Yarı Final | O Higgins (1) - (2) Atletico Nublen | finished | -
+- 2026-07-13 03:00 | ABD USL Lig 2 Kuzeybatı Grubu | Ballard - Snohomish Unite | finished | -
+- 2026-07-13 05:00 | ABD USL Lig 2 NorCal Grubu | San Juan Sc - Marin | finished | -
