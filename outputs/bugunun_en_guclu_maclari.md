@@ -2,7 +2,11 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
+<<<<<<< Updated upstream
 - Güncelleme: 2026-07-13T07:41:42.976Z
+=======
+- Güncelleme: 2026-07-13T07:42:01.735Z
+>>>>>>> Stashed changes
 - Ham maç sayısı: 0
 - Yarın bülteni maç sayısı: 0
 - Detay blok sayısı: 0

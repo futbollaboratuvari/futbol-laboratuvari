@@ -1,20 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-13T04:05:30.491510+00:00
+Tarih: 2026-07-13T07:42:17.671428+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 9
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 11
+- Kac mac kaydedildi: 2
 - Kac mac zaten vardi: 9
-- Ham veri havuzu toplam mac sayisi: 1744
+- Ham veri havuzu toplam mac sayisi: 1746
 - Hedef tarih: 13.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - Avustralya Victoria NPL 1
+- Hazırlık Kulüpler
 - Lübnan Premier Lig Küme Düşme Turu
 - Rusya FNL
 - Çin Halk Cumhuriyeti 1.Lig
@@ -77,8 +78,8 @@ Tarih: 2026-07-13T04:05:30.491510+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 10
-- Acilan detay: 10
+- Denenen Tumu alani: 11
+- Acilan detay: 11
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,9 +93,11 @@ Tarih: 2026-07-13T04:05:30.491510+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 13.07.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Halmstads | 14239 | 5 |
-| 13.07.2026 | 19:30 | Rusya FNL | Arsenal Tula | Tekstilshchik | 13239 | 5 |
+| 13.07.2026 | 19:00 | Hazırlık Kulüpler | Sigma Olomouc | Al Ahli Dubai | 07046 | 5 |
+| 13.07.2026 | 17:00 | Hazırlık Kulüpler | Zenit | Makhachkala | 06881 | 3 |
 | 13.07.2026 | 17:00 | Rusya FNL | Chelyabinsk | Ska-Khabarovsk | 13205 | 5 |
 | 13.07.2026 | 17:00 | Rusya FNL | Ural | Torpedo Moskova | 13222 | 5 |
+| 13.07.2026 | 19:30 | Rusya FNL | Arsenal Tula | Tekstilshchik | 13239 | 5 |
 | 13.07.2026 | 22:15 | İzlanda Urvalsdeild | Breidablik | Keflavik | 11814 | 3 |
 | 13.07.2026 | 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo | Foshan Nanshi | 14898 | 5 |
 | 13.07.2026 | 23:15 | İzlanda 1.Lig | Vestri | Fylkir | 00692 | 5 |
