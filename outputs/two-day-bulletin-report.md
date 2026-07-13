@@ -3,15 +3,14 @@
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
 Ham mac: 51
-Aktif mac: 49
-Canli mac: 2
+Aktif mac: 48
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 30
+Bultenden dusurulen mac: 3
+Bugun: 29
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | scheduled | -
 - 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | scheduled | -
 - 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | scheduled | -
 - 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | scheduled | -
@@ -64,6 +63,7 @@ Yarin: 19
 ## Canli Maclar
 - 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | live | -
 - 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | live | -
+- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | live | -
 
 ## Biten Maclar
 Biten mac yok.
