@@ -2,13 +2,13 @@
 
 Durum: izleme
 Aktif bulten maci: 51
-Arsiv maci: 0
-Biten mac: 0
+Arsiv maci: 1787
+Biten mac: 1736
 Skorlu arsiv maci: 0
-Tahmin sayisi: 1
-Bekleyen tahmin: 1
+Tahmin sayisi: 16
+Bekleyen tahmin: 16
 Skor baglanan tahmin: 0
-Son kontrol: 1
+Son kontrol: 16
 Son baglanan: 0
 
 Sonraki aksiyon: Sonuc bekleniyor. Izleme devam.
