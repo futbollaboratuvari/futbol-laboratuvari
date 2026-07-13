@@ -1,7 +1,7 @@
 # Tahmin Kayit Saglik Kontrolu
 
 Durum: ok
-Robot analiz maci: 9
+Robot analiz maci: 2
 Aday tahmin: 0
 Toplam tahmin: 5
 Bekleyen: 5
