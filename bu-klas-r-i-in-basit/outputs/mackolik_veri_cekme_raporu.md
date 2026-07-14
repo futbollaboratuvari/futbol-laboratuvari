@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-14T22:14:50.393322+00:00
+Tarih: 2026-07-14T23:15:59.318966+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 17
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 18
+- Kac mac kaydedildi: 1
 - Kac mac zaten vardi: 17
-- Ham veri havuzu toplam mac sayisi: 1878
+- Ham veri havuzu toplam mac sayisi: 1879
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -109,7 +109,8 @@ Tarih: 2026-07-14T22:14:50.393322+00:00
 | 15.07.2026 | 18:00 | Kazakistan Kupa Yarı Final | Ordabasy | Altay | 07836 | 5 |
 | 15.07.2026 | 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu | Mikkelin | 07860 | 5 |
 | 15.07.2026 | 20:00 | Ekvador Pro Lig | Libertad | T.Universitario | 07908 | 5 |
-| 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 02009 | 3 |
+| 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit | Weston Bears | 00153 | 3 |
+| 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 00330 | 3 |
 | 15.07.2026 | 21:30 | Paraguay Kupa 2.Tur | Atletico Coleg | Fernando De La | 10423 | 5 |
 
 ## Sonuc
