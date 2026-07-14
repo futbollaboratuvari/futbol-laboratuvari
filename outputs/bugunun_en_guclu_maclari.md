@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-14T10:26:27.502Z
+- Güncelleme: 2026-07-14T10:27:42.577Z
 - Ham maç sayısı: 74
 - Yarın bülteni maç sayısı: 19
 - Detay blok sayısı: 204
@@ -19,7 +19,7 @@
 | Korona Kielce - Rzeszow | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.2 | 4 |
 | Slaven Belupo - Hiroshima | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 2.28 | 8 |
 | Randers - Notts County | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.46 | 7 |
-| Inter Escaldes (1) - (3) Lincoln Red Imp | UEFA Şampiyonlar Ligi 1.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.48 | 8 |
+| Inter Escaldes (1) - (3) Lincoln Red Imp | UEFA Şampiyonlar Ligi 1.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.47 | 8 |
 | Fc Iberia (3) - (2) Flora Tallinn | UEFA Şampiyonlar Ligi 1.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.33 | 6 |
 | Braunschweig - Havelse | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.21 | 4 |
 | Darmstadt - Homburg | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.06 | 3 |
@@ -29,7 +29,7 @@
 | Gyor (0) - (1) Vikingur Reykja | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:00 | Veri bekleniyor | - | 1.43 | 7 |
 | The New Saints (0) - (2) Sabah | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Veri bekleniyor | - | 4.37 | 7 |
 | Levski Sofya (1) - (1) Borac Banja Luk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Veri bekleniyor | - | 1.14 | 6 |
-| Grotta - Grindavik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 1.86 | 6 |
+| Grotta - Grindavik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 1.9 | 6 |
 | Fc Drita (1) - (1) Kauno Zalgiris | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:00 | Veri bekleniyor | - | 2.03 | 8 |
 | Woking - Portsmouth | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 6.01 | 6 |
 | Alfreton - Boston United | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 4.22 | 4 |
@@ -41,13 +41,13 @@
 | Merthyr Town - Yeovil | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.69 | 6 |
 | Kelty Hearts - Queens Park | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 3.72 | 7 |
 | Brora Rangers - Aberdeen | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 17.1 | 3 |
-| Spartans - Stirling Albion | İskoçya Lig Kupası Grup B | 21:45 | Veri bekleniyor | - | 1.72 | 8 |
+| Spartans - Stirling Albion | İskoçya Lig Kupası Grup B | 21:45 | Veri bekleniyor | - | 1.67 | 8 |
 | Montrose - Dundee Utd | İskoçya Lig Kupası Grup B | 21:45 | Veri bekleniyor | - | 6.58 | 6 |
 | Cove Rangers - East Kilbride | İskoçya Lig Kupası Grup C | 21:45 | Veri bekleniyor | - | 2.74 | 8 |
 | Dunfermline - Dumbarton | İskoçya Lig Kupası Grup C | 21:45 | Veri bekleniyor | - | 1.05 | 5 |
 | Annan - Dundee | İskoçya Lig Kupası Grup D | 21:45 | Veri bekleniyor | - | 13.9 | 5 |
 | Clyde - Airdrieonians | İskoçya Lig Kupası Grup D | 21:45 | Veri bekleniyor | - | 2.8 | 8 |
-| Forfar - Partick Thistle | İskoçya Lig Kupası Grup E | 21:45 | Veri bekleniyor | - | 10.85 | 5 |
+| Forfar - Partick Thistle | İskoçya Lig Kupası Grup E | 21:45 | Veri bekleniyor | - | 10.4 | 5 |
 | Brechin - Livingston | İskoçya Lig Kupası Grup E | 21:45 | Veri bekleniyor | - | 17.1 | 5 |
 | Linlithgow Ros - St Johnstone | İskoçya Lig Kupası Grup F | 21:45 | Veri bekleniyor | - | 12.25 | 5 |
 | East Fife - Morton | İskoçya Lig Kupası Grup F | 21:45 | Veri bekleniyor | - | 2.42 | 8 |
