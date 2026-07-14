@@ -3,17 +3,14 @@
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
 Ham mac: 74
-Aktif mac: 74
-Canli mac: 0
+Aktif mac: 71
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 55
+Bultenden dusurulen mac: 3
+Bugun: 52
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | scheduled | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | scheduled | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | scheduled | -
 - 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | scheduled | -
 - 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | scheduled | -
 - 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | scheduled | -
@@ -87,7 +84,9 @@ Yarin: 19
 - 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | live | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | live | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | live | -
 
 ## Biten Maclar
 Biten mac yok.
