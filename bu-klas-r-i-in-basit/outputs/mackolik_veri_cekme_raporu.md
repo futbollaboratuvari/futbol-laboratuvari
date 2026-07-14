@@ -1,22 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-14T10:23:18.651244+00:00
+Tarih: 2026-07-14T10:26:51.058458+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 55
+- Kac mac bulundu: 50
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 55
+- Kac mac zaten vardi: 50
 - Ham veri havuzu toplam mac sayisi: 1821
 - Hedef tarih: 14.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
-- Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 1. Eleme Turu
