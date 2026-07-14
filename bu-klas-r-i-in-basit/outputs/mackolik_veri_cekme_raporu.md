@@ -1,31 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-14T18:42:36.281332+00:00
+Tarih: 2026-07-14T19:02:08.785249+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 28
+- Kac mac bulundu: 12
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 28
+- Kac mac zaten vardi: 12
 - Ham veri havuzu toplam mac sayisi: 1849
 - Hedef tarih: 14.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Dünya Kupası 2026 Yarı Final
+- ABD USL Lig 2 Play-Off
+- Bolivya Premier Lig
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
-- UEFA Konferans Ligi 1. Eleme Turu
+- Paraguay Kupa 2.Tur
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
-- İskoçya Lig Kupası Grup A
-- İskoçya Lig Kupası Grup B
-- İskoçya Lig Kupası Grup C
-- İskoçya Lig Kupası Grup D
-- İskoçya Lig Kupası Grup E
-- İskoçya Lig Kupası Grup F
-- İskoçya Lig Kupası Grup G
-- İskoçya Lig Kupası Grup H
 
 ## Okunabilen Oran Alanlari
 
@@ -82,8 +76,8 @@ Tarih: 2026-07-14T18:42:36.281332+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 16
-- Acilan detay: 16
+- Denenen Tumu alani: 6
+- Acilan detay: 6
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -96,26 +90,18 @@ Tarih: 2026-07-14T18:42:36.281332+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 14.07.2026 | 22:00 | Dünya Kupası 2026 Yarı Final | Fransa | İspanya | 01069 | 5 |
-| 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) | (0) Tre Fiori | 07096 | 4 |
 | 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) | (2) Floriana | 08878 | 5 |
-| 14.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) | (1) Fc Una Strassen | 07095 | 5 |
-| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Tonbridge Ange | Sutton United | 12272 | 5 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | St Patricks | Doncaster | 12204 | 5 |
+| 14.07.2026 | 17:00 | Hazırlık Kulüpler | Wehen | Fagiano Okayama | 11892 | 5 |
 | 14.07.2026 | 19:00 | Hazırlık Kulüpler | Braunschweig | Havelse | 11991 | 3 |
 | 14.07.2026 | 19:00 | Hazırlık Kulüpler | Fortuna Düssel | Ruzomberok | 12025 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | St Patricks | Doncaster | 12204 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Marine | Colwyn Bay | 12937 | 3 |
-| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Cork City | Cardiff | 12238 | 4 |
-| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Halifax | Chesterfield | 12255 | 5 |
-| 14.07.2026 | 17:00 | Hazırlık Kulüpler | Wehen | Fagiano Okayama | 11892 | 5 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Brora Rangers | Aberdeen | 10851 | 2 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts | Queens Park | 06308 | 5 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Montrose | Dundee Utd | 11011 | 5 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Spartans | Stirling Albion | 11044 | 5 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | Dunfermline | Dumbarton | 03401 | 4 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | Cove Rangers | East Kilbride | 10917 | 5 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Clyde | Airdrieonians | 10884 | 5 |
-| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Annan | Dundee | 10785 | 4 |
+| 15.07.2026 | 03:00 | Ekvador Pro Lig | Manta | Delfin | 07775 | 3 |
+| 15.07.2026 | 00:30 | Ekvador Pro Lig | Depor Macara | Mushuc Runa | 07720 | 5 |
+| 15.07.2026 | 01:00 | Bolivya Premier Lig | Real Oruro | Always Ready | 05712 | 3 |
+| 15.07.2026 | 03:00 | Bolivya Premier Lig | Blooming | Gualberto Villa | 10645 | 3 |
+| 15.07.2026 | 00:00 | Paraguay Kupa 2.Tur | Sportivo Limpe | General Caballe | 01817 | 3 |
+| 15.07.2026 | 02:00 | ABD USL Lig 2 Play-Off | Lehigh Valley | Appalachian | 01247 | 5 |
+| 15.07.2026 | 03:30 | ABD USL Lig 2 Play-Off | New England | Ironbound | 13185 | 3 |
 
 ## Sonuc
 
