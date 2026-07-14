@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-14T17:46:21.395Z
+- Güncelleme: 2026-07-14T18:05:47.425Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -35,7 +35,7 @@
 | The New Saints (0) VS (2) Sabah | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Levski Sofya (1) VS (1) Borac Banja Luk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Grotta VS Grindavik | İzlanda 1.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Fc Drita (1) VS (1) Kauno Zalgiris | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:00 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Fc Drita (1) VS (1) Kauno Zalgiris | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:00 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Woking VS Portsmouth | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Alfreton VS Boston United | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Hyde VS Afc Fylde | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
