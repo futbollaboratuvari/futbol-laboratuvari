@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 85
-Aktif mac: 73
-Canli mac: 2
-Biten mac: 10
-Bultenden dusurulen mac: 12
-Bugun: 54
+Ham mac: 75
+Aktif mac: 72
+Canli mac: 3
+Biten mac: 0
+Bultenden dusurulen mac: 3
+Bugun: 53
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-14 15:00 | Hazırlık Kulüpler | Fleetwood Town - Chester | scheduled | -
 - 2026-07-14 17:00 | Hazırlık Kulüpler | Wehen - Fagiano Okayama | scheduled | -
 - 2026-07-14 17:00 | Hazırlık Kulüpler | Dukla Banska B - Hapoel Tel Aviv | scheduled | -
 - 2026-07-14 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) - (0) Vardar | scheduled | -
@@ -88,15 +87,7 @@ Yarin: 19
 ## Canli Maclar
 - 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | live | -
 - 2026-07-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | live | -
+- 2026-07-14 15:00 | Hazırlık Kulüpler | Fleetwood Town - Chester | live | -
 
 ## Biten Maclar
-- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | finished | -
-- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | finished | -
-- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | finished | -
-- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Dordrecht - B.Dortmund (Amt | finished | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | finished | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | finished | -
+Biten mac yok.
