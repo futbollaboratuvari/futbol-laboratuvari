@@ -2,17 +2,18 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 74
-Aktif mac: 67
-Canli mac: 7
-Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 48
+Ham mac: 85
+Aktif mac: 73
+Canli mac: 2
+Biten mac: 10
+Bultenden dusurulen mac: 12
+Bugun: 54
 Yarin: 19
 
 ## Baslamamis Maclar
 - 2026-07-14 15:00 | Hazırlık Kulüpler | Fleetwood Town - Chester | scheduled | -
 - 2026-07-14 17:00 | Hazırlık Kulüpler | Wehen - Fagiano Okayama | scheduled | -
+- 2026-07-14 17:00 | Hazırlık Kulüpler | Dukla Banska B - Hapoel Tel Aviv | scheduled | -
 - 2026-07-14 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) - (0) Vardar | scheduled | -
 - 2026-07-14 18:00 | Hazırlık Kulüpler | Korona Kielce - Rzeszow | scheduled | -
 - 2026-07-14 18:30 | Hazırlık Kulüpler | Slaven Belupo - Hiroshima | scheduled | -
@@ -21,7 +22,10 @@ Yarin: 19
 - 2026-07-14 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Iberia (3) - (2) Flora Tallinn | scheduled | -
 - 2026-07-14 19:00 | Hazırlık Kulüpler | Braunschweig - Havelse | scheduled | -
 - 2026-07-14 19:00 | Hazırlık Kulüpler | Darmstadt - Homburg | scheduled | -
+- 2026-07-14 19:00 | Hazırlık Kulüpler | Donaufeld - Rapid Vienna (A | scheduled | -
+- 2026-07-14 19:00 | Hazırlık Kulüpler | Middelfart - Brabrand | scheduled | -
 - 2026-07-14 19:30 | Hazırlık Kulüpler | Sporting Cp - Celtic | scheduled | -
+- 2026-07-14 19:30 | Hazırlık Kulüpler | Imst - Arminia Bielefe | scheduled | -
 - 2026-07-14 20:00 | İzlanda 1.Lig | Hk Kopavogur - Ir Reykjavik | scheduled | -
 - 2026-07-14 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) - (2) Ararat-Armenia | scheduled | -
 - 2026-07-14 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) - (1) Vikingur Reykja | scheduled | -
@@ -32,11 +36,13 @@ Yarin: 19
 - 2026-07-14 21:00 | Hazırlık Kulüpler | Woking - Portsmouth | scheduled | -
 - 2026-07-14 21:00 | Hazırlık Kulüpler | Alfreton - Boston United | scheduled | -
 - 2026-07-14 21:00 | Hazırlık Kulüpler | Hyde - Afc Fylde | scheduled | -
+- 2026-07-14 21:15 | Hazırlık Kulüpler | Stafford Range - Shrewsbury | scheduled | -
 - 2026-07-14 21:30 | Paraguay Kupa 2.Tur | Cristobal Colo - 3 De Noviembre | scheduled | -
 - 2026-07-14 21:30 | Hazırlık Kulüpler | Plymouth Parkw - Torquay | scheduled | -
 - 2026-07-14 21:30 | Hazırlık Kulüpler | Hebburn Town - Gateshead | scheduled | -
 - 2026-07-14 21:30 | Hazırlık Kulüpler | Stockton Town - Darlington 1883 | scheduled | -
 - 2026-07-14 21:30 | Hazırlık Kulüpler | Merthyr Town - Yeovil | scheduled | -
+- 2026-07-14 21:30 | Hazırlık Kulüpler | Real Bedford - Boreham Wood | scheduled | -
 - 2026-07-14 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts - Queens Park | scheduled | -
 - 2026-07-14 21:45 | İskoçya Lig Kupası Grup A | Brora Rangers - Aberdeen | scheduled | -
 - 2026-07-14 21:45 | İskoçya Lig Kupası Grup B | Spartans - Stirling Albion | scheduled | -
@@ -80,13 +86,17 @@ Yarin: 19
 - 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
 
 ## Canli Maclar
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | live | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | live | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | live | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | live | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | live | -
 - 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | live | -
 - 2026-07-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | finished | -
+- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | finished | -
+- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | finished | -
+- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | finished | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | finished | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | finished | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | finished | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Dordrecht - B.Dortmund (Amt | finished | -
+- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | finished | -
+- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | finished | -

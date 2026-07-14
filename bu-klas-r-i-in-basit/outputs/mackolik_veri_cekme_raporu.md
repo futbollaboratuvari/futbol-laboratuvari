@@ -1,25 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-14T10:26:51.058458+00:00
+Tarih: 2026-07-14T11:51:38.084564+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 50
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 50
-- Ham veri havuzu toplam mac sayisi: 1821
+- Kac mac bulundu: 61
+- Kac mac kaydedildi: 7
+- Kac mac zaten vardi: 54
+- Ham veri havuzu toplam mac sayisi: 1828
 - Hedef tarih: 14.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 1. Eleme Turu
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
-- Çin Halk Cumhuriyeti Süper Lig
 - İskoçya Lig Kupası Grup A
 - İskoçya Lig Kupası Grup B
 - İskoçya Lig Kupası Grup C
@@ -85,8 +86,8 @@ Tarih: 2026-07-14T10:26:51.058458+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 17
+- Acilan detay: 17
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -100,25 +101,25 @@ Tarih: 2026-07-14T10:26:51.058458+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 14.07.2026 | 22:00 | Dünya Kupası 2026 Yarı Final | Fransa | İspanya | 01069 | 5 |
+| 14.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) | (0) Vardar | 04171 | 5 |
 | 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) | (0) Tre Fiori | 07096 | 4 |
 | 14.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Inter Escaldes (1) | (3) Lincoln Red Imp | 04634 | 5 |
-| 14.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) | (0) Vardar | 04171 | 5 |
-| 14.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) | (2) Ararat-Armenia | 05483 | 5 |
 | 14.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Iberia (3) | (2) Flora Tallinn | 04452 | 5 |
+| 14.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) | (1) Borac Banja Luk | 06313 | 5 |
+| 14.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) | (1) Kauno Zalgiris | 06963 | 5 |
+| 14.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) | (2) Ararat-Armenia | 05483 | 5 |
 | 14.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) | (1) Vikingur Reykja | 04987 | 5 |
 | 14.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | The New Saints (0) | (2) Sabah | 06622 | 5 |
-| 14.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) | (1) Kauno Zalgiris | 06963 | 5 |
-| 14.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) | (1) Borac Banja Luk | 06313 | 5 |
 | 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) | (2) Floriana | 08878 | 5 |
 | 14.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) | (1) Fc Una Strassen | 07095 | 5 |
+| 14.07.2026 | 17:00 | Hazırlık Kulüpler | Dukla Banska B | Hapoel Tel Aviv | 11875 | 5 |
 | 14.07.2026 | 21:30 | Hazırlık Kulüpler | Plymouth Parkw | Torquay | 12187 | 3 |
 | 14.07.2026 | 21:00 | Hazırlık Kulüpler | Woking | Portsmouth | 12119 | 5 |
+| 14.07.2026 | 19:30 | Hazırlık Kulüpler | Imst | Arminia Bielefe | 12865 | 2 |
 | 14.07.2026 | 19:30 | Hazırlık Kulüpler | Sporting Cp | Celtic | 02293 | 5 |
 | 14.07.2026 | 19:00 | Hazırlık Kulüpler | Braunschweig | Havelse | 11991 | 3 |
 | 14.07.2026 | 19:00 | Hazırlık Kulüpler | Darmstadt | Homburg | 12008 | 2 |
 | 14.07.2026 | 17:00 | Hazırlık Kulüpler | Wehen | Fagiano Okayama | 11892 | 5 |
-| 14.07.2026 | 13:00 | Hazırlık Kulüpler | Legia Varşova | Radomiak Radom | 00175 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Hebburn Town | Gateshead | 12153 | 3 |
 
 ## Sonuc
 
