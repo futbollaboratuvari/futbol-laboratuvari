@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.07.2026 21:17:51
+Oluşturma: 14.07.2026 21:42:47
 
 ## Özet
 
-- Toplam tahmin: 30
-- Bekleyen tahmin: 30
+- Toplam tahmin: 31
+- Bekleyen tahmin: 31
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 11
@@ -20,12 +20,13 @@ Oluşturma: 14.07.2026 21:17:51
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS X: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-14 | İskoçya Lig Kupası Grup B | Spartans - Stirling Albion | MS 2 | pending | 50/100
 - 2026-07-14 | Hazırlık Kulüpler | Tonbridge Ange - Sutton United | MS X | pending | 50/100
 - 2026-07-14 | Hazırlık Kulüpler | Fortuna Düssel - Ruzomberok | MS 2 | pending | 60/100
 - 2026-07-14 | Hazırlık Kulüpler | St Patricks - Doncaster | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 14.07.2026 21:17:51
 - 2026-07-14 | İskoçya Lig Kupası Grup E | Forfar - Partick Thistle | MS X | pending | 45/100
 - 2026-07-14 | İskoçya Lig Kupası Grup F | East Fife - Morton | MS X | pending | 50/100
 - 2026-07-14 | İskoçya Lig Kupası Grup H | Kilmarnock - Raith Rovers | MS 2 | pending | 60/100
-- 2026-07-14 | İskoçya Lig Kupası Grup H | Elgin - Peterhead | MS X | pending | 50/100
 

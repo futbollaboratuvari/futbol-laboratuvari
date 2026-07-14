@@ -1,25 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-14T17:46:06.953684+00:00
+Tarih: 2026-07-14T18:42:36.281332+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 51
+- Kac mac bulundu: 28
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 51
+- Kac mac zaten vardi: 28
 - Ham veri havuzu toplam mac sayisi: 1849
 - Hedef tarih: 14.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Play-Off
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
-- Ekvador Pro Lig
 - Hazırlık Kulüpler
-- Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 1. Eleme Turu
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
 - İskoçya Lig Kupası Grup A
@@ -30,7 +26,6 @@ Tarih: 2026-07-14T17:46:06.953684+00:00
 - İskoçya Lig Kupası Grup F
 - İskoçya Lig Kupası Grup G
 - İskoçya Lig Kupası Grup H
-- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -87,8 +82,8 @@ Tarih: 2026-07-14T17:46:06.953684+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 16
+- Acilan detay: 16
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -103,24 +98,24 @@ Tarih: 2026-07-14T17:46:06.953684+00:00
 |---|---|---|---|---|---|---:|
 | 14.07.2026 | 22:00 | Dünya Kupası 2026 Yarı Final | Fransa | İspanya | 01069 | 5 |
 | 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) | (0) Tre Fiori | 07096 | 4 |
-| 14.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) | (1) Kauno Zalgiris | 06963 | 5 |
 | 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) | (2) Floriana | 08878 | 5 |
 | 14.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) | (1) Fc Una Strassen | 07095 | 5 |
-| 14.07.2026 | 17:00 | Hazırlık Kulüpler | Wehen | Fagiano Okayama | 11892 | 5 |
-| 14.07.2026 | 19:00 | Hazırlık Kulüpler | Braunschweig | Havelse | 11991 | 3 |
-| 14.07.2026 | 21:00 | Hazırlık Kulüpler | Woking | Portsmouth | 12119 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Plymouth Parkw | Torquay | 12187 | 3 |
-| 14.07.2026 | 21:00 | Hazırlık Kulüpler | Alfreton | Boston United | 12085 | 5 |
-| 14.07.2026 | 21:00 | Hazırlık Kulüpler | Prest | Bamber Bridge | 12884 | 2 |
 | 14.07.2026 | 21:45 | Hazırlık Kulüpler | Tonbridge Ange | Sutton United | 12272 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Stockton Town | Darlington 1883 | 12221 | 3 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Marine | Colwyn Bay | 12937 | 3 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Hebburn Town | Gateshead | 12153 | 3 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | St Patricks | Doncaster | 12204 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Redcar Athleti | Hartlepool | 12971 | 2 |
-| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Cork City | Cardiff | 12238 | 5 |
+| 14.07.2026 | 19:00 | Hazırlık Kulüpler | Braunschweig | Havelse | 11991 | 3 |
 | 14.07.2026 | 19:00 | Hazırlık Kulüpler | Fortuna Düssel | Ruzomberok | 12025 | 5 |
-| 14.07.2026 | 21:00 | Hazırlık Kulüpler | Hyde | Afc Fylde | 12102 | 3 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | St Patricks | Doncaster | 12204 | 5 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Marine | Colwyn Bay | 12937 | 3 |
+| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Cork City | Cardiff | 12238 | 4 |
+| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Halifax | Chesterfield | 12255 | 5 |
+| 14.07.2026 | 17:00 | Hazırlık Kulüpler | Wehen | Fagiano Okayama | 11892 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Brora Rangers | Aberdeen | 10851 | 2 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts | Queens Park | 06308 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Montrose | Dundee Utd | 11011 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Spartans | Stirling Albion | 11044 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | Dunfermline | Dumbarton | 03401 | 4 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | Cove Rangers | East Kilbride | 10917 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Clyde | Airdrieonians | 10884 | 5 |
+| 14.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Annan | Dundee | 10785 | 4 |
 
 ## Sonuc
 

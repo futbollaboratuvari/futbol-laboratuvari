@@ -2,27 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-14T18:17:47.251Z
+- Güncelleme: 2026-07-14T18:42:14.590Z
 - Ham maç sayısı: 88
 - Yarın bülteni maç sayısı: 22
 - Detay blok sayısı: 225
-- Aktif bülten maçı: 57
-- Bültenden düşürülen maç: 31
+- Aktif bülten maçı: 46
+- Bültenden düşürülen maç: 42
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cristobal Colo - 3 De Noviembre | Paraguay Kupa 2.Tur | 21:30 | Veri bekleniyor | - | 2.38 | 5 |
-| Plymouth Parkw - Torquay | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.44 | 4 |
-| Hebburn Town - Gateshead | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.51 | 6 |
-| Stockton Town - Darlington 1883 | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.75 | 5 |
-| Merthyr Town - Yeovil | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.64 | 6 |
-| Real Bedford - Boreham Wood | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.46 | 4 |
-| Carmarthen - Briton Ferry | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.88 | 5 |
-| Chippenham Tow - Swindon | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 9.96 | 3 |
-| St Patricks - Doncaster | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.42 | 8 |
-| Marine - Colwyn Bay | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.66 | 6 |
-| Redcar Athleti - Hartlepool | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 8.89 | 3 |
 | Kelty Hearts - Queens Park | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 3.97 | 7 |
 | Brora Rangers - Aberdeen | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 17.1 | 3 |
 | Spartans - Stirling Albion | İskoçya Lig Kupası Grup B | 21:45 | Veri bekleniyor | - | 1.55 | 8 |
