@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 69
-Tam analiz: 54
-Eksik analiz: 15
+Toplam analiz: 66
+Tam analiz: 52
+Eksik analiz: 14
 
-- Korona Kielce VS Rzeszow: eksik score, confidence
 - Braunschweig VS Havelse: eksik score, confidence
 - Santa Mónica VS Resistencia: eksik score, confidence
 - Imst VS Arminia Bielefe: eksik score, confidence

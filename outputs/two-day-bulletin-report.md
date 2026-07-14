@@ -3,15 +3,14 @@
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
 Ham mac: 88
-Aktif mac: 58
-Canli mac: 30
+Aktif mac: 57
+Canli mac: 31
 Biten mac: 0
-Bultenden dusurulen mac: 30
-Bugun: 36
+Bultenden dusurulen mac: 31
+Bugun: 35
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-07-14 21:15 | Hazırlık Kulüpler | Stafford Range - Shrewsbury | scheduled | -
 - 2026-07-14 21:30 | Paraguay Kupa 2.Tur | Cristobal Colo - 3 De Noviembre | scheduled | -
 - 2026-07-14 21:30 | Hazırlık Kulüpler | Plymouth Parkw - Torquay | scheduled | -
 - 2026-07-14 21:30 | Hazırlık Kulüpler | Hebburn Town - Gateshead | scheduled | -
@@ -101,6 +100,7 @@ Yarin: 22
 - 2026-07-14 21:00 | Hazırlık Kulüpler | Hyde - Afc Fylde | live | -
 - 2026-07-14 21:00 | Hazırlık Kulüpler | Prest - Bamber Bridge | live | -
 - 2026-07-14 21:00 | Hazırlık Kulüpler | Redcar Athleti - Hartlepool | live | -
+- 2026-07-14 21:15 | Hazırlık Kulüpler | Stafford Range - Shrewsbury | live | -
 
 ## Biten Maclar
 Biten mac yok.
