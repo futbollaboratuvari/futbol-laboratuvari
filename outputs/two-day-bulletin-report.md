@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 49
+Ham mac: 51
 Aktif mac: 47
-Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
+Canli mac: 0
+Biten mac: 4
+Bultenden dusurulen mac: 4
 Bugun: 28
 Yarin: 19
 
@@ -60,8 +60,10 @@ Yarin: 19
 - 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
 
 ## Canli Maclar
-- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | live | -
-- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | finished | -
+- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | finished | -
+- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | finished | -
+- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | finished | -
