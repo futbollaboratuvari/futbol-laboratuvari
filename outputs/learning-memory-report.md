@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.07.2026 15:04:47
+Oluşturma: 14.07.2026 16:07:46
 
 ## Özet
 
-- Toplam tahmin: 25
-- Bekleyen tahmin: 25
+- Toplam tahmin: 26
+- Bekleyen tahmin: 26
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 11
@@ -20,12 +20,13 @@ Oluşturma: 14.07.2026 15:04:47
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS X: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-14 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Inter Escaldes (1) - (3) Lincoln Red Imp | MS 2 | pending | 70/100
 - 2026-07-14 | Hazırlık Kulüpler | Middelfart - Brabrand | MS X | pending | 50/100
 - 2026-07-14 | İskoçya Lig Kupası Grup B | Spartans - Stirling Albion | MS X | pending | 50/100
 - 2026-07-14 | İskoçya Lig Kupası Grup B | Montrose - Dundee Utd | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 14.07.2026 15:04:47
 - 2026-07-14 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | MS X | pending | 60/100
 - 2026-07-14 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | MS 2 | pending | 50/100
 - 2026-07-14 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | MS 2 | pending | 40/100
-- 2026-07-14 | Hazırlık Kulüpler | Wehen - Fagiano Okayama | MS X | pending | 60/100
 
