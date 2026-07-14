@@ -1,17 +1,16 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-07-14 / 2026-07-15
+Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
-Ham mac: 58
-Aktif mac: 22
-Canli mac: 36
+Ham mac: 51
+Aktif mac: 50
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 36
-Bugun: 0
-Yarin: 22
+Bultenden dusurulen mac: 1
+Bugun: 38
+Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-07-15 00:00 | Paraguay Kupa 2.Tur | Sportivo Limpe - General Caballe | scheduled | -
 - 2026-07-15 00:30 | Ekvador Pro Lig | Depor Macara - Mushuc Runa | scheduled | -
 - 2026-07-15 01:00 | Bolivya Premier Lig | Real Oruro - Always Ready | scheduled | -
 - 2026-07-15 02:00 | ABD USL Lig 2 Play-Off | Lehigh Valley - Appalachian | scheduled | -
@@ -33,44 +32,38 @@ Yarin: 22
 - 2026-07-15 03:00 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
 - 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
 - 2026-07-15 03:30 | ABD USL Lig 2 Play-Off | New England - Ironbound | scheduled | -
+- 2026-07-15 12:30 | Avustralya FFA Kupası Son 32 Turu | Marlin Coast R - Moreland Zebras | scheduled | -
+- 2026-07-15 13:00 | Avustralya FFA Kupası Son 32 Turu | White City Woo - North Sunshine | scheduled | -
+- 2026-07-15 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | scheduled | -
+- 2026-07-15 16:00 | Hazırlık Kulüpler | Salzburg - Gamba Osaka | scheduled | -
+- 2026-07-15 17:30 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | scheduled | -
+- 2026-07-15 18:00 | Kazakistan Kupa Yarı Final | Ordabasy - Altay | scheduled | -
+- 2026-07-15 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu - Mikkelin | scheduled | -
+- 2026-07-15 19:00 | Hazırlık Kulüpler | Rapid Wien - Panathinaikos | scheduled | -
+- 2026-07-15 19:00 | Hazırlık Kulüpler | Lyon - Servette | scheduled | -
+- 2026-07-15 20:00 | Ekvador Pro Lig | Libertad - T.Universitario | scheduled | -
+- 2026-07-15 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Universitatea (4) - (1) Ml Vitebsk | scheduled | -
+- 2026-07-15 21:15 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) - (2) Kí Klaksvík | scheduled | -
+- 2026-07-15 21:30 | UEFA Konferans Ligi 1. Eleme Turu | Decic Tuzi (0) - (1) Liepaja | scheduled | -
+- 2026-07-15 21:30 | Paraguay Kupa 2.Tur | Atletico Coleg - Fernando De La | scheduled | -
+- 2026-07-15 22:00 | Dünya Kupası 2026 Yarı Final | İngiltere - Arjantin | scheduled | -
+- 2026-07-15 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Egnatia (1) - (1) Petrocub | scheduled | -
+- 2026-07-15 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sutjeska (1) - (2) Kairat Almaty | scheduled | -
+- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | scheduled | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Leones Del Nor - Deportivo Cuenc | scheduled | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | scheduled | -
+- 2026-07-16 01:00 | Bolivya Premier Lig | Real Potosi - San Antonio Bul | scheduled | -
+- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | scheduled | -
+- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | scheduled | -
+- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | scheduled | -
+- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | scheduled | -
+- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | scheduled | -
+- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | scheduled | -
+- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | scheduled | -
+- 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-14 21:15 | Hazırlık Kulüpler | Stafford Range - Shrewsbury | live | -
-- 2026-07-14 21:30 | Paraguay Kupa 2.Tur | Cristobal Colo - 3 De Noviembre | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Plymouth Parkw - Torquay | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Hebburn Town - Gateshead | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Stockton Town - Darlington 1883 | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Merthyr Town - Yeovil | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Real Bedford - Boreham Wood | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Carmarthen - Briton Ferry | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Chippenham Tow - Swindon | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | St Patricks - Doncaster | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Marine - Colwyn Bay | live | -
-- 2026-07-14 21:30 | Hazırlık Kulüpler | Redcar Athleti - Hartlepool | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts - Queens Park | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup A | Brora Rangers - Aberdeen | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup B | Spartans - Stirling Albion | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup B | Montrose - Dundee Utd | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup C | Cove Rangers - East Kilbride | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup C | Dunfermline - Dumbarton | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup D | Annan - Dundee | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup D | Clyde - Airdrieonians | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup E | Forfar - Partick Thistle | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup E | Brechin - Livingston | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup F | Linlithgow Ros - St Johnstone | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup F | East Fife - Morton | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup G | Edinburg C. - Alloa | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup G | Falkirk - Ayr Utd | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup H | Kilmarnock - Raith Rovers | live | -
-- 2026-07-14 21:45 | İskoçya Lig Kupası Grup H | Elgin - Peterhead | live | -
-- 2026-07-14 21:45 | Hazırlık Kulüpler | Halifax - Chesterfield | live | -
-- 2026-07-14 21:45 | Hazırlık Kulüpler | Cork City - Cardiff | live | -
-- 2026-07-14 21:45 | Hazırlık Kulüpler | Tonbridge Ange - Sutton United | live | -
-- 2026-07-14 21:45 | Hazırlık Kulüpler | Merthyr Town - Yeovil | live | -
-- 2026-07-14 22:00 | Dünya Kupası 2026 Yarı Final | Fransa - İspanya | live | -
-- 2026-07-14 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) - (1) Fc Una Strassen | live | -
-- 2026-07-14 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) - (0) Tre Fiori | live | -
-- 2026-07-14 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) - (2) Floriana | live | -
+- 2026-07-15 00:00 | Paraguay Kupa 2.Tur | Sportivo Limpe - General Caballe | live | -
 
 ## Biten Maclar
 Biten mac yok.

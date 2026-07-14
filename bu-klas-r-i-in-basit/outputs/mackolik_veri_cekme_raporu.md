@@ -1,21 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-14T21:10:44.199040+00:00
+Tarih: 2026-07-14T21:28:45.317679+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 17
-- Kac mac kaydedildi: 17
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 1866
+- Kac mac bulundu: 29
+- Kac mac kaydedildi: 12
+- Kac mac zaten vardi: 17
+- Ham veri havuzu toplam mac sayisi: 1878
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
 - Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Kuzey YGG
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
 - Ekvador Pro Lig
 - Finlandiya Ykkösliiga
@@ -109,8 +112,11 @@ Tarih: 2026-07-14T21:10:44.199040+00:00
 | 15.07.2026 | 18:00 | Kazakistan Kupa Yarı Final | Ordabasy | Altay | 07836 | 5 |
 | 15.07.2026 | 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu | Mikkelin | 07860 | 5 |
 | 15.07.2026 | 20:00 | Ekvador Pro Lig | Libertad | T.Universitario | 07908 | 5 |
+| 16.07.2026 | 01:00 | Ekvador Pro Lig | Leones Del Nor | Deportivo Cuenc | 07933 | 5 |
+| 16.07.2026 | 01:00 | Ekvador Pro Lig | Univ Catolica | Ldu Quito | 08058 | 5 |
+| 16.07.2026 | 03:30 | Ekvador Pro Lig | Barcelona Gua | Guayaquil City | 08181 | 5 |
 | 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 02009 | 3 |
-| 15.07.2026 | 21:30 | Paraguay Kupa 2.Tur | Atletico Coleg | Fernando De La | 10423 | 5 |
+| 16.07.2026 | 01:00 | Bolivya Premier Lig | Real Potosi | San Antonio Bul | 08580 | 5 |
 
 ## Sonuc
 

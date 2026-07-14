@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 22
-- Live match count: 24
-- Finished removed count: 12
-- Date window: 2026-07-14 / 2026-07-15 23:59
+- Scheduled match count: 50
+- Live match count: 1
+- Finished removed count: 0
+- Date window: 2026-07-15 / 2026-07-16 23:59
 
-- 2026-07-14 21:45 | Cork City - Cardiff | live
-- 2026-07-14 21:45 | Halifax - Chesterfield | live
-- 2026-07-14 21:45 | Merthyr Town - Yeovil | live
-- 2026-07-14 21:45 | Tonbridge Ange - Sutton United | live
-- 2026-07-14 21:45 | Brora Rangers - Aberdeen | live
-- 2026-07-14 21:45 | Kelty Hearts - Queens Park | live
-- 2026-07-14 21:45 | Montrose - Dundee Utd | live
-- 2026-07-14 21:45 | Spartans - Stirling Albion | live
-- 2026-07-14 21:45 | Cove Rangers - East Kilbride | live
-- 2026-07-14 21:45 | Dunfermline - Dumbarton | live
+- 2026-07-15 00:00 | Sportivo Limpe - General Caballe | live
+- 2026-07-15 00:30 | Depor Macara - Mushuc Runa | scheduled
+- 2026-07-15 01:00 | Real Oruro - Always Ready | scheduled
+- 2026-07-15 02:00 | Lehigh Valley - Appalachian | scheduled
+- 2026-07-15 03:00 | Blooming - Gualberto Villa | scheduled
+- 2026-07-15 03:00 | Manta - Delfin | scheduled
+- 2026-07-15 03:00 | Atert Bissen (1) - (2) Kí Klaksvík | scheduled
+- 2026-07-15 03:00 | Egnatia (1) - (1) Petrocub | scheduled
+- 2026-07-15 03:00 | Fc Drita (1) - (1) Kauno Zalgiris | scheduled
+- 2026-07-15 03:00 | Fc Iberia (3) - (2) Flora Tallinn | scheduled
