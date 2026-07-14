@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 106
+Ham mac: 71
 Aktif mac: 22
 Canli mac: 49
-Biten mac: 35
-Bultenden dusurulen mac: 84
+Biten mac: 0
+Bultenden dusurulen mac: 49
 Bugun: 0
 Yarin: 22
 
@@ -86,38 +86,4 @@ Yarin: 22
 - 2026-07-14 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) - (2) Floriana | live | -
 
 ## Biten Maclar
-- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | finished | -
-- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | finished | -
-- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | finished | -
-- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | finished | -
-- 2026-07-14 12:00 | Hazırlık Kulüpler | Dordrecht - B.Dortmund (Amt | finished | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | finished | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | finished | -
-- 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | finished | -
-- 2026-07-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | finished | -
-- 2026-07-14 15:00 | Hazırlık Kulüpler | Fleetwood Town - Chester | finished | -
-- 2026-07-14 17:00 | Hazırlık Kulüpler | Wehen - Fagiano Okayama | finished | -
-- 2026-07-14 17:00 | Hazırlık Kulüpler | Dukla Banska B - Hapoel Tel Aviv | finished | -
-- 2026-07-14 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) - (0) Vardar | finished | -
-- 2026-07-14 18:00 | Hazırlık Kulüpler | Korona Kielce - Rzeszow | finished | -
-- 2026-07-14 18:30 | Hazırlık Kulüpler | Slaven Belupo - Hiroshima | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Randers - Notts County | finished | -
-- 2026-07-14 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Inter Escaldes (1) - (3) Lincoln Red Imp | finished | -
-- 2026-07-14 19:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Iberia (3) - (2) Flora Tallinn | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Braunschweig - Havelse | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Darmstadt - Homburg | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Donaufeld - Rapid Vienna (A | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Middelfart - Brabrand | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Parndorf - Avusturya Wien | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Winterthur - Bruhl | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Fortuna Düssel - Ruzomberok | finished | -
-- 2026-07-14 19:00 | Paraguay Kupa 2.Tur | Santa Mónica - Resistencia | finished | -
-- 2026-07-14 19:00 | Hazırlık Kulüpler | Rfc Seraing - Maastricht | finished | -
-- 2026-07-14 19:30 | Hazırlık Kulüpler | Sporting Cp - Celtic | finished | -
-- 2026-07-14 19:30 | Hazırlık Kulüpler | Imst - Arminia Bielefe | finished | -
-- 2026-07-14 19:30 | Hazırlık Kulüpler | Eintracht Mahl - Luckenwalde | finished | -
-- 2026-07-14 19:30 | Hazırlık Kulüpler | Parndorf - Avusturya Wien | finished | -
-- 2026-07-14 19:30 | Hazırlık Kulüpler | Winterthur - Bruhl | finished | -
+Biten mac yok.
