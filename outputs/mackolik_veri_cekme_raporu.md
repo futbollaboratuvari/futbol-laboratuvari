@@ -1,10 +1,9 @@
 # Maçkolik Veri Çekme Raporu
 
-- Kaynak: Maçkolik canlı veri bekleniyor
-- URL: https://arsiv.mackolik.com/Iddaa-Programi
-- Güncelleme: 2026-07-14T00:55:04.988Z
-- Hedef tarihler: 14.07.2026, 15.07.2026
-- Maç sayısı: 51
-- Yarın bülteni maç sayısı: 19
-- Detay blok sayısı: 143
-- Not: Tarayıcı robotu video mantığıyla yarın tarihini seçmeyi ve satır detaylarını açmayı dener; açılan marketler raw_market_blocks ve available_odds içine yazılır. Tarayıcı çalışamazsa statik parser ve mevcut pencere yedeği devam eder.
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-07-14T01:02:53.208Z
+- Maç sayısı: 49
+- Aktif analiz sayısı: 3
+- Filtre: Çifte şans yok, eski sabit veri yok, düşük oranlı marketler elendi.

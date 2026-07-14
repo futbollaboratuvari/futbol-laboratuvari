@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 48
-- Live match count: 3
+- Scheduled match count: 47
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-14 / 2026-07-15 23:59
 
-- 2026-07-14 01:00 | America Mineir - Londrina | live
-- 2026-07-14 01:00 | Cerro Largo - Defensor Sporti | live
 - 2026-07-14 02:30 | Ceara - Athletic Club | live
-- 2026-07-14 03:00 | Atlanta - Colegiales | scheduled
+- 2026-07-14 03:00 | Atlanta - Colegiales | live
 - 2026-07-14 12:00 | Fc Andorra - Millwall | scheduled
 - 2026-07-14 12:30 | Apia - Peninsula Power | scheduled
 - 2026-07-14 12:30 | Rochedale Rove - Sd Raiders | scheduled
 - 2026-07-14 13:00 | Legia Varşova - Radomiak Radom | scheduled
 - 2026-07-14 14:35 | Zhejiang G. Fc - Qingdao Zhongne | scheduled
 - 2026-07-14 19:00 | Randers - Notts County | scheduled
+- 2026-07-14 19:30 | Sporting Cp - Celtic | scheduled
+- 2026-07-14 20:00 | Hk Kopavogur - Ir Reykjavik | scheduled
