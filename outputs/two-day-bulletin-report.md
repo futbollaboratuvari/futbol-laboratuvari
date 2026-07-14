@@ -3,15 +3,14 @@
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
 Ham mac: 74
-Aktif mac: 68
-Canli mac: 6
+Aktif mac: 67
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 49
+Bultenden dusurulen mac: 7
+Bugun: 48
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | scheduled | -
 - 2026-07-14 15:00 | Hazırlık Kulüpler | Fleetwood Town - Chester | scheduled | -
 - 2026-07-14 17:00 | Hazırlık Kulüpler | Wehen - Fagiano Okayama | scheduled | -
 - 2026-07-14 18:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) - (0) Vardar | scheduled | -
@@ -87,6 +86,7 @@ Yarin: 19
 - 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | live | -
 - 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | live | -
 - 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | live | -
+- 2026-07-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | live | -
 
 ## Biten Maclar
 Biten mac yok.
