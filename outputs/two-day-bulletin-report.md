@@ -3,18 +3,14 @@
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
 Ham mac: 91
-Aktif mac: 71
-Canli mac: 20
+Aktif mac: 67
+Canli mac: 24
 Biten mac: 0
-Bultenden dusurulen mac: 20
-Bugun: 49
+Bultenden dusurulen mac: 24
+Bugun: 45
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-07-14 20:00 | İzlanda 1.Lig | Hk Kopavogur - Ir Reykjavik | scheduled | -
-- 2026-07-14 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) - (2) Ararat-Armenia | scheduled | -
-- 2026-07-14 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) - (1) Vikingur Reykja | scheduled | -
-- 2026-07-14 20:00 | Hazırlık Kulüpler | Rfc Seraing - Maastricht | scheduled | -
 - 2026-07-14 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | The New Saints (0) - (2) Sabah | scheduled | -
 - 2026-07-14 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) - (1) Borac Banja Luk | scheduled | -
 - 2026-07-14 21:00 | İzlanda 1.Lig | Grotta - Grindavik | scheduled | -
@@ -104,6 +100,10 @@ Yarin: 22
 - 2026-07-14 19:30 | Hazırlık Kulüpler | Eintracht Mahl - Luckenwalde | live | -
 - 2026-07-14 19:30 | Hazırlık Kulüpler | Parndorf - Avusturya Wien | live | -
 - 2026-07-14 19:30 | Hazırlık Kulüpler | Winterthur - Bruhl | live | -
+- 2026-07-14 20:00 | İzlanda 1.Lig | Hk Kopavogur - Ir Reykjavik | live | -
+- 2026-07-14 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) - (2) Ararat-Armenia | live | -
+- 2026-07-14 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) - (1) Vikingur Reykja | live | -
+- 2026-07-14 20:00 | Hazırlık Kulüpler | Rfc Seraing - Maastricht | live | -
 
 ## Biten Maclar
 Biten mac yok.
