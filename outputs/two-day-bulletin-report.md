@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 78
+Ham mac: 74
 Aktif mac: 74
 Canli mac: 0
-Biten mac: 4
-Bultenden dusurulen mac: 4
+Biten mac: 0
+Bultenden dusurulen mac: 0
 Bugun: 55
 Yarin: 19
 
@@ -90,7 +90,4 @@ Yarin: 19
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | finished | -
-- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | finished | -
-- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | finished | -
-- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | finished | -
+Biten mac yok.
