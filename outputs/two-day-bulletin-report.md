@@ -2,16 +2,18 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 47
-Aktif mac: 47
+Ham mac: 53
+Aktif mac: 49
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 28
+Biten mac: 4
+Bultenden dusurulen mac: 4
+Bugun: 30
 Yarin: 19
 
 ## Baslamamis Maclar
 - 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | scheduled | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | scheduled | -
+- 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | scheduled | -
 - 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | scheduled | -
 - 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | scheduled | -
 - 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | scheduled | -
@@ -63,4 +65,7 @@ Yarin: 19
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | finished | -
+- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | finished | -
+- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | finished | -
+- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | finished | -
