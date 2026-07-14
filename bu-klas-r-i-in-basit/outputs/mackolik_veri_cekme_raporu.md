@@ -1,23 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-14T16:37:06.560490+00:00
+Tarih: 2026-07-14T17:22:30.903553+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 55
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 53
+- Kac mac bulundu: 46
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 46
 - Ham veri havuzu toplam mac sayisi: 1849
 - Hedef tarih: 14.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Play-Off
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
-- Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 1. Eleme Turu
@@ -103,24 +100,24 @@ Tarih: 2026-07-14T16:37:06.560490+00:00
 |---|---|---|---|---|---|---:|
 | 14.07.2026 | 22:00 | Dünya Kupası 2026 Yarı Final | Fransa | İspanya | 01069 | 5 |
 | 14.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | The New Saints (0) | (2) Sabah | 06622 | 5 |
-| 14.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) | (1) Borac Banja Luk | 06313 | 5 |
-| 14.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) | (1) Kauno Zalgiris | 06963 | 5 |
 | 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) | (0) Tre Fiori | 07096 | 4 |
-| 14.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) | (2) Ararat-Armenia | 05483 | 5 |
-| 14.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) | (1) Vikingur Reykja | 04987 | 5 |
+| 14.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) | (1) Kauno Zalgiris | 06963 | 5 |
 | 14.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) | (2) Floriana | 08878 | 5 |
+| 14.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) | (1) Borac Banja Luk | 06313 | 5 |
 | 14.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | La Fiorita (0) | (1) Fc Una Strassen | 07095 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Plymouth Parkw | Torquay | 12187 | 3 |
 | 14.07.2026 | 21:00 | Hazırlık Kulüpler | Woking | Portsmouth | 12119 | 5 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Plymouth Parkw | Torquay | 12187 | 3 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Real Bedford | Boreham Wood | 12954 | 3 |
 | 14.07.2026 | 19:00 | Hazırlık Kulüpler | Braunschweig | Havelse | 11991 | 3 |
 | 14.07.2026 | 17:00 | Hazırlık Kulüpler | Wehen | Fagiano Okayama | 11892 | 5 |
-| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Hebburn Town | Gateshead | 12153 | 3 |
-| 14.07.2026 | 21:00 | Hazırlık Kulüpler | Prest | Bamber Bridge | 12884 | 2 |
-| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Tonbridge Ange | Sutton United | 12272 | 5 |
 | 14.07.2026 | 21:00 | Hazırlık Kulüpler | Alfreton | Boston United | 12085 | 5 |
-| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Halifax | Chesterfield | 12255 | 5 |
-| 14.07.2026 | 21:15 | Hazırlık Kulüpler | Stafford Range | Shrewsbury | 12903 | 2 |
-| 14.07.2026 | 21:00 | Hazırlık Kulüpler | Hyde | Afc Fylde | 12102 | 3 |
+| 14.07.2026 | 21:45 | Hazırlık Kulüpler | Tonbridge Ange | Sutton United | 12272 | 5 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Hebburn Town | Gateshead | 12153 | 3 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Stockton Town | Darlington 1883 | 12221 | 3 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Marine | Colwyn Bay | 12937 | 3 |
+| 14.07.2026 | 21:00 | Hazırlık Kulüpler | Prest | Bamber Bridge | 12884 | 2 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | St Patricks | Doncaster | 12204 | 5 |
+| 14.07.2026 | 21:30 | Hazırlık Kulüpler | Redcar Athleti | Hartlepool | 12971 | 2 |
 
 ## Sonuc
 
