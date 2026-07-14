@@ -1,28 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-14T06:31:53.789Z",
-  "updated_at": "2026-07-14T14:15:42.405Z",
+  "updated_at": "2026-07-14T14:20:55.865Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 27,
-    "pending_predictions": 27,
+    "total_predictions": 30,
+    "pending_predictions": 30,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 11,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 3,
     "updated_predictions": 0,
-    "last_score_link_checked": 27,
+    "last_score_link_checked": 30,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 9,
-      "pending": 9,
+    "MS X": {
+      "total": 19,
+      "pending": 19,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 17,
-      "pending": 17,
+    "MS 2": {
+      "total": 10,
+      "pending": 10,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +52,16 @@
     }
   },
   "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 12,
+      "pending": 12,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Dünya Kupası 2026 Yarı Final": {
       "total": 2,
       "pending": 2,
@@ -65,16 +75,6 @@
     "UEFA Şampiyonlar Ligi 1.Eleme Turu": {
       "total": 5,
       "pending": 5,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler": {
-      "total": 9,
-      "pending": 9,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -164,6 +164,26 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 7,
+      "pending": 7,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Dünya Kupası 2026 Yarı Final :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -177,16 +197,6 @@
     "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS 2": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 5,
-      "pending": 5,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -284,16 +294,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS 2": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Çin Halk Cumhuriyeti Süper Lig :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -327,6 +327,57 @@
   },
   "predictions": [
     {
+      "id": "2026-07-14|hazirlik kulupler|tonbridge ange sutton united|ms x|21 45",
+      "date": "2026-07-14",
+      "created_at": "2026-07-14T14:20:55.474Z",
+      "match_name": "Tonbridge Ange - Sutton United",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "21:45",
+      "market": "MS X",
+      "odds": "3.16",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-14|hazirlik kulupler|fortuna dussel ruzomberok|ms 2|19 00",
+      "date": "2026-07-14",
+      "created_at": "2026-07-14T14:20:55.473Z",
+      "match_name": "Fortuna Düssel - Ruzomberok",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "19:00",
+      "market": "MS 2",
+      "odds": "3.51",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-14|hazirlik kulupler|st patricks doncaster|ms x|21 30",
+      "date": "2026-07-14",
+      "created_at": "2026-07-14T14:20:55.473Z",
+      "match_name": "St Patricks - Doncaster",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "3.11",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-14|dunya kupasi 2026 yari final|fransa ispanya|ms 2|22 00",
       "date": "2026-07-14",
       "created_at": "2026-07-14T14:07:46.666Z",
@@ -342,7 +393,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.474Z"
     },
     {
       "id": "2026-07-14|uefa sampiyonlar ligi 1 eleme turu|inter escaldes 1 3 lincoln red imp|ms 2|19 00",
@@ -378,7 +429,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup b|spartans stirling albion|ms x|21 45",
@@ -396,7 +447,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup b|montrose dundee utd|ms x|21 45",
@@ -414,7 +465,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup c|cove rangers east kilbride|ms x|21 45",
@@ -432,7 +483,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup c|dunfermline dumbarton|ms x|21 45",
@@ -468,7 +519,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup e|forfar partick thistle|ms x|21 45",
@@ -486,7 +537,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup f|east fife morton|ms x|21 45",
@@ -504,7 +555,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup h|kilmarnock raith rovers|ms 2|21 45",
@@ -522,7 +573,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.474Z"
     },
     {
       "id": "2026-07-14|iskocya lig kupasi grup h|elgin peterhead|ms x|21 45",
@@ -540,7 +591,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.474Z"
     },
     {
       "id": "2026-07-14|dunya kupasi 2026 yari final|fransa ispanya|ms x|22 00",
@@ -630,7 +681,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.179Z"
+      "updated_at": "2026-07-14T14:20:55.472Z"
     },
     {
       "id": "2026-07-14|hazirlik kulupler|slaven belupo hiroshima|ms x|18 30",
@@ -648,7 +699,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.179Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|hazirlik kulupler|randers notts county|ms 2|19 00",
@@ -666,7 +717,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.179Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|uefa sampiyonlar ligi 1 eleme turu|inter escaldes 1 3 lincoln red imp|ms x|19 00",
@@ -684,7 +735,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|hazirlik kulupler|sporting cp celtic|ms 2|19 30",
@@ -702,7 +753,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|uefa sampiyonlar ligi 1 eleme turu|riga fc 0 2 ararat armenia|ms 2|20 00",
@@ -720,7 +771,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|uefa sampiyonlar ligi 1 eleme turu|gyor 0 1 vikingur reykja|ms 2|20 00",
@@ -738,7 +789,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|uefa sampiyonlar ligi 1 eleme turu|fc drita 1 1 kauno zalgiris|ms x|21 00",
@@ -756,7 +807,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-14T14:15:42.180Z"
+      "updated_at": "2026-07-14T14:20:55.473Z"
     },
     {
       "id": "2026-07-14|hazirlik kulupler|fc andorra millwall|ms 1|12 00",
