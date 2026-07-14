@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-14 / 2026-07-15
 Kaynak: fixtures.json
-Ham mac: 74
-Aktif mac: 71
-Canli mac: 3
-Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 52
+Ham mac: 78
+Aktif mac: 68
+Canli mac: 6
+Biten mac: 4
+Bultenden dusurulen mac: 10
+Bugun: 49
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | scheduled | -
-- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | scheduled | -
-- 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | scheduled | -
 - 2026-07-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Qingdao Zhongne | scheduled | -
 - 2026-07-14 15:00 | Hazırlık Kulüpler | Fleetwood Town - Chester | scheduled | -
 - 2026-07-14 17:00 | Hazırlık Kulüpler | Wehen - Fagiano Okayama | scheduled | -
@@ -87,6 +84,12 @@ Yarin: 19
 - 2026-07-14 12:00 | Hazırlık Kulüpler | Fc Andorra - Millwall | live | -
 - 2026-07-14 12:00 | Hazırlık Kulüpler | Polessya - Shimizu | live | -
 - 2026-07-14 12:00 | Hazırlık Kulüpler | Wisla Plock - Bohemians 1905 | live | -
+- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Rochedale Rove - Sd Raiders | live | -
+- 2026-07-14 12:30 | Avustralya FFA Kupası Son 32 Turu | Apia - Peninsula Power | live | -
+- 2026-07-14 13:00 | Hazırlık Kulüpler | Legia Varşova - Radomiak Radom | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-14 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Cerro Largo - Defensor Sporti | finished | -
+- 2026-07-14 01:00 | Brezilya Serie B | America Mineir - Londrina | finished | -
+- 2026-07-14 02:30 | Brezilya Serie B | Ceara - Athletic Club | finished | -
+- 2026-07-14 03:00 | Arjantin Ulusal Primera Lig | Atlanta - Colegiales | finished | -
