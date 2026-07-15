@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.07.2026 02:14:14
+Oluşturma: 16.07.2026 02:27:16
 
 ## Özet
 
-- Toplam tahmin: 28
-- Bekleyen tahmin: 28
+- Toplam tahmin: 29
+- Bekleyen tahmin: 29
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 9
@@ -20,12 +20,13 @@ Oluşturma: 16.07.2026 02:14:14
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS X: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Levadia Tallin (5) - (0) Caernarfon | MS X | pending | 70/100
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Torpedo Kutais (0) - (3) Zira | MS X | pending | 40/100
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) - (3) Stjarnan | MS X | pending | 60/100
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | MS 1 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 16.07.2026 02:14:14
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) - (1) Nomme Kalju | MS 2 | pending | 50/100
 - 2026-07-16 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | MS X | pending | 40/100
 - 2026-07-16 | ABD USL Lig 1 | One Knoxville - Fort Wayne | MS 2 | pending | 50/100
-- 2026-07-16 | ABD USL | Lexington - New Mexico Unit | MS 2 | pending | 60/100
 
