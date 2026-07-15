@@ -1,20 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-15T10:59:26.456674+00:00
+Tarih: 2026-07-15T11:48:59.267381+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 29
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 29
-- Ham veri havuzu toplam mac sayisi: 1895
+- Kac mac bulundu: 42
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 41
+- Ham veri havuzu toplam mac sayisi: 1896
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
 - Avustralya NPL Kuzey YGG
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
 - Ekvador Pro Lig
 - Finlandiya Ykkösliiga
@@ -79,8 +82,8 @@ Tarih: 2026-07-15T10:59:26.456674+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 14
-- Acilan detay: 14
+- Denenen Tumu alani: 15
+- Acilan detay: 15
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -110,7 +113,7 @@ Tarih: 2026-07-15T10:59:26.456674+00:00
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Lyon | Servette | 03187 | 5 |
 | 15.07.2026 | 18:00 | Hazırlık Kulüpler | Fc Fleury 91 | Boulogne | 14069 | 5 |
 | 15.07.2026 | 19:30 | Hazırlık Kulüpler | Chemnitzer | Unterhaching | 14246 | 3 |
-| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Polonia Varşov | Zlin | 14087 | 3 |
+| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Polonia Varşov | Zlin | 14087 | 5 |
 | 15.07.2026 | 18:00 | Hazırlık Kulüpler | Jablonec | Metalist 1925 K | 14212 | 5 |
 | 15.07.2026 | 16:00 | Hazırlık Kulüpler | Salzburg | Gamba Osaka | 00273 | 5 |
 
