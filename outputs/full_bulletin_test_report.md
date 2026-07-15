@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 14
 - Live match count: 7
-- Finished removed count: 6
+- Finished removed count: 0
 - Date window: 2026-07-15 / 2026-07-16 23:59
 
 - 2026-07-15 21:15 | Atert Bissen (1) - (2) Kí Klaksvík | live

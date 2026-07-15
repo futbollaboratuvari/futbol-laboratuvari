@@ -4,19 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-15T20:00:42.048Z
+- Güncelleme: 2026-07-15T20:02:35.008Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Libertad VS T.Universitario | Ekvador Pro Lig | 20:00 | MS X | 2.70 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Vitesse VS Aek | Hazırlık Kulüpler | 20:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Monchengladbac VS Koblenz | Hazırlık Kulüpler | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cordoba VS Orlando Pirates | Hazırlık Kulüpler | 20:00 | MS X | 2.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Universitatea (4) VS (1) Ml Vitebsk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Derio VS Athletic Bilbao | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Atert Bissen (1) VS (2) Kí Klaksvík | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:15 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Decic Tuzi (0) VS (1) Liepaja | UEFA Konferans Ligi 1. Eleme Turu | 21:30 | MS X | 2.87 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Atletico Coleg VS Fernando De La | Paraguay Kupa 2.Tur | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
