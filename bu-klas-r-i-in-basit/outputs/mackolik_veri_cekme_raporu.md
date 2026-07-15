@@ -1,23 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-15T13:11:30.829957+00:00
+Tarih: 2026-07-15T14:22:48.772480+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 45
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 41
-- Ham veri havuzu toplam mac sayisi: 1900
+- Kac mac bulundu: 30
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 29
+- Ham veri havuzu toplam mac sayisi: 1901
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
 - Avustralya NPL Kuzey YGG
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
 - Ekvador Pro Lig
 - Finlandiya Ykkösliiga
@@ -107,15 +104,15 @@ Tarih: 2026-07-15T13:11:30.829957+00:00
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Eintracht Trie | Fortuna Köln | 14195 | 3 |
 | 15.07.2026 | 20:30 | Hazırlık Kulüpler | Derio | Athletic Bilbao | 06396 | 3 |
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Stade Lavalloi | Quevilly-Rouen | 14229 | 5 |
-| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Zaglebie Sosno | Polonia Nysa | 14145 | 5 |
-| 15.07.2026 | 12:00 | Hazırlık Kulüpler | Oh Leuven | Lommel | 14594 | 5 |
 | 15.07.2026 | 18:00 | Hazırlık Kulüpler | Sturm Graz | Pogon Szczecin | 14104 | 5 |
+| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Zaglebie Sosno | Polonia Nysa | 14145 | 5 |
 | 15.07.2026 | 20:00 | Hazırlık Kulüpler | Vitesse | Aek | 14313 | 5 |
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Lyon | Servette | 03187 | 5 |
 | 15.07.2026 | 18:00 | Hazırlık Kulüpler | Fc Fleury 91 | Boulogne | 14069 | 5 |
 | 15.07.2026 | 19:30 | Hazırlık Kulüpler | Chemnitzer | Unterhaching | 14246 | 3 |
-| 15.07.2026 | 21:45 | Hazırlık Kulüpler | Solihull Moors | Birmingham | 05702 | 3 |
 | 15.07.2026 | 18:00 | Hazırlık Kulüpler | Polonia Varşov | Zlin | 14087 | 5 |
+| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Jablonec | Metalist 1925 K | 14212 | 5 |
+| 15.07.2026 | 20:00 | Hazırlık Kulüpler | Monchengladbac | Koblenz | 14263 | 3 |
 
 ## Sonuc
 
