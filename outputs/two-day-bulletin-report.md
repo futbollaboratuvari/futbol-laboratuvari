@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
-Ham mac: 69
+Ham mac: 43
 Aktif mac: 40
 Canli mac: 3
-Biten mac: 26
-Bultenden dusurulen mac: 29
+Biten mac: 0
+Bultenden dusurulen mac: 3
 Bugun: 27
 Yarin: 13
 
@@ -58,29 +58,4 @@ Yarin: 13
 - 2026-07-15 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Weston Bears | live | -
 
 ## Biten Maclar
-- 2026-07-15 00:00 | Paraguay Kupa 2.Tur | Sportivo Limpe - General Caballe | finished | -
-- 2026-07-15 00:30 | Ekvador Pro Lig | Depor Macara - Mushuc Runa | finished | -
-- 2026-07-15 01:00 | Bolivya Premier Lig | Real Oruro - Always Ready | finished | -
-- 2026-07-15 02:00 | ABD USL Lig 2 Play-Off | Lehigh Valley - Appalachian | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) - (1) Vikingur Reykja | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Universitatea (4) - (1) Ml Vitebsk | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) - (0) Vardar | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) - (2) Kí Klaksvík | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) - (2) Ararat-Armenia | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Iberia (3) - (2) Flora Tallinn | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Egnatia (1) - (1) Petrocub | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) - (0) Tre Fiori | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) - (1) Kauno Zalgiris | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sutjeska (1) - (2) Kairat Almaty | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | The New Saints (0) - (2) Sabah | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) - (1) Borac Banja Luk | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) - (2) Floriana | finished | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Inter Escaldes (1) - (3) Lincoln Red Imp | finished | -
-- 2026-07-15 03:00 | Ekvador Pro Lig | Manta - Delfin | finished | -
-- 2026-07-15 03:00 | Bolivya Premier Lig | Blooming - Gualberto Villa | finished | -
-- 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | finished | -
-- 2026-07-15 03:30 | ABD USL Lig 2 Play-Off | New England - Ironbound | finished | -
-- 2026-07-15 11:30 | Hazırlık Kulüpler | Kaizer Chiefs - Al Kholood | finished | -
-- 2026-07-15 12:00 | Hazırlık Kulüpler | Oh Leuven - Lommel | finished | -
-- 2026-07-15 12:00 | Hazırlık Kulüpler | Fortuna Düssel - Ruzomberok | finished | -
-- 2026-07-15 12:30 | Avustralya FFA Kupası Son 32 Turu | Marlin Coast R - Moreland Zebras | finished | -
+Biten mac yok.
