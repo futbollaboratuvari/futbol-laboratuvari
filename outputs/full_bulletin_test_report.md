@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 30
-- Live match count: 18
-- Finished removed count: 1
+- Live match count: 0
+- Finished removed count: 0
 - Date window: 2026-07-15 / 2026-07-16 23:59
 
-- 2026-07-15 03:00 | Blooming - Gualberto Villa | live
-- 2026-07-15 03:00 | Manta - Delfin | live
-- 2026-07-15 03:00 | Atert Bissen (1) - (2) Kí Klaksvík | live
-- 2026-07-15 03:00 | Egnatia (1) - (1) Petrocub | live
-- 2026-07-15 03:00 | Fc Drita (1) - (1) Kauno Zalgiris | live
-- 2026-07-15 03:00 | Fc Iberia (3) - (2) Flora Tallinn | live
-- 2026-07-15 03:00 | Gyor (0) - (1) Vikingur Reykja | live
-- 2026-07-15 03:00 | Inter Escaldes (1) - (3) Lincoln Red Imp | live
-- 2026-07-15 03:00 | Kuopion (2) - (0) Vardar | live
-- 2026-07-15 03:00 | Larne Fc (1) - (0) Tre Fiori | live
+- 2026-07-15 12:30 | Marlin Coast R - Moreland Zebras | scheduled
+- 2026-07-15 13:00 | White City Woo - North Sunshine | scheduled
+- 2026-07-15 13:00 | Charlestow Cit - Weston Bears | scheduled
+- 2026-07-15 13:00 | Kahibah - Maitland | scheduled
+- 2026-07-15 16:00 | Salzburg - Gamba Osaka | scheduled
+- 2026-07-15 17:30 | Malisheva (1) - (2) Vllaznia | scheduled
+- 2026-07-15 18:00 | Ordabasy - Altay | scheduled
+- 2026-07-15 18:30 | Jippo Joensuu - Mikkelin | scheduled
+- 2026-07-15 19:00 | Lyon - Servette | scheduled
+- 2026-07-15 19:00 | Rapid Wien - Panathinaikos | scheduled
