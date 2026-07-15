@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.07.2026 15:48:10
+Oluşturma: 15.07.2026 16:11:58
 
 ## Özet
 
-- Toplam tahmin: 23
-- Bekleyen tahmin: 23
+- Toplam tahmin: 25
+- Bekleyen tahmin: 25
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 5
@@ -20,12 +20,14 @@ Oluşturma: 15.07.2026 15:48:10
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-15 | Hazırlık Kulüpler | Vitesse - Aek | MS 1 | pending | 40/100
+- 2026-07-15 | Hazırlık Kulüpler | Salzburg - Gamba Osaka | MS 2 | pending | 60/100
 - 2026-07-15 | Hazırlık Kulüpler | Polonia Varşov - Zlin | MS X | pending | 50/100
 - 2026-07-15 | Hazırlık Kulüpler | Zaglebie Sosno - Polonia Nysa | MS 2 | pending | 50/100
 - 2026-07-15 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 15.07.2026 15:48:10
 - 2026-07-15 | Hazırlık Kulüpler | Rapid Wien - Panathinaikos | MS X | pending | 70/100
 - 2026-07-15 | Hazırlık Kulüpler | Lyon - Servette | MS 2 | pending | 40/100
 - 2026-07-15 | Hazırlık Kulüpler | Stade Lavalloi - Quevilly-Rouen | MS 2 | pending | 40/100
-- 2026-07-15 | Hazırlık Kulüpler | Aldershot - Portsmouth | MS 1 | pending | 40/100
-- 2026-07-15 | Ekvador Pro Lig | Libertad - T.Universitario | MS X | pending | 40/100
 
