@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
-Ham mac: 51
+Ham mac: 52
 Aktif mac: 32
-Canli mac: 19
-Biten mac: 0
-Bultenden dusurulen mac: 19
+Canli mac: 17
+Biten mac: 3
+Bultenden dusurulen mac: 20
 Bugun: 20
 Yarin: 12
 
@@ -45,8 +45,6 @@ Yarin: 12
 - 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-15 00:30 | Ekvador Pro Lig | Depor Macara - Mushuc Runa | live | -
-- 2026-07-15 01:00 | Bolivya Premier Lig | Real Oruro - Always Ready | live | -
 - 2026-07-15 02:00 | ABD USL Lig 2 Play-Off | Lehigh Valley - Appalachian | live | -
 - 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) - (1) Vikingur Reykja | live | -
 - 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Universitatea (4) - (1) Ml Vitebsk | live | -
@@ -66,4 +64,6 @@ Yarin: 12
 - 2026-07-15 03:00 | Bolivya Premier Lig | Blooming - Gualberto Villa | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-15 00:00 | Paraguay Kupa 2.Tur | Sportivo Limpe - General Caballe | finished | -
+- 2026-07-15 00:30 | Ekvador Pro Lig | Depor Macara - Mushuc Runa | finished | -
+- 2026-07-15 01:00 | Bolivya Premier Lig | Real Oruro - Always Ready | finished | -
