@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 17
+Ham mac: 16
 Aktif mac: 14
-Canli mac: 3
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 3
+Bultenden dusurulen mac: 2
 Bugun: 0
 Yarin: 14
 
@@ -28,7 +28,6 @@ Yarin: 14
 
 ## Canli Maclar
 - 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | live | -
-- 2026-07-16 22:15 | İzlanda 1.Lig | Afturelding - Leiknir Reykjav | live | -
 - 2026-07-16 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) - (3) Qarabagh | live | -
 
 ## Biten Maclar
