@@ -11,7 +11,6 @@ Bugun: 29
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-15 17:30 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | scheduled | -
 - 2026-07-15 18:00 | Kazakistan Kupa Yarı Final | Ordabasy - Altay | scheduled | -
 - 2026-07-15 18:00 | Hazırlık Kulüpler | Ajax - Bochum | scheduled | -
 - 2026-07-15 18:00 | Hazırlık Kulüpler | Sturm Graz - Pogon Szczecin | scheduled | -
@@ -27,6 +26,7 @@ Yarin: 13
 - 2026-07-15 19:00 | Hazırlık Kulüpler | Aldershot - Portsmouth | scheduled | -
 - 2026-07-15 19:00 | Hazırlık Kulüpler | Eintracht Trie - Fortuna Köln | scheduled | -
 - 2026-07-15 19:30 | Hazırlık Kulüpler | Chemnitzer - Unterhaching | scheduled | -
+- 2026-07-15 19:30 | Hazırlık Kulüpler | Solihull Moors - Birmingham | scheduled | -
 - 2026-07-15 20:00 | Ekvador Pro Lig | Libertad - T.Universitario | scheduled | -
 - 2026-07-15 20:00 | Hazırlık Kulüpler | Vitesse - Aek | scheduled | -
 - 2026-07-15 20:00 | Hazırlık Kulüpler | Monchengladbac - Koblenz | scheduled | -
@@ -55,8 +55,8 @@ Yarin: 13
 - 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | scheduled | -
 
 ## Canli Maclar
-- 2026-07-15 15:00 | Hazırlık Kulüpler | Aarhus - Horsens | live | -
 - 2026-07-15 16:00 | Hazırlık Kulüpler | Salzburg - Gamba Osaka | live | -
+- 2026-07-15 17:30 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | live | -
 
 ## Biten Maclar
 Biten mac yok.
