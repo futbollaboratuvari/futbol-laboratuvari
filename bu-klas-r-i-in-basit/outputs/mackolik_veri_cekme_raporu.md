@@ -1,21 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-15T06:30:04.549437+00:00
+Tarih: 2026-07-15T08:02:42.949491+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 18
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 18
-- Ham veri havuzu toplam mac sayisi: 1879
+- Kac mac bulundu: 40
+- Kac mac kaydedildi: 11
+- Kac mac zaten vardi: 29
+- Ham veri havuzu toplam mac sayisi: 1890
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
 - Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Kuzey YGG
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
 - Ekvador Pro Lig
 - Finlandiya Ykkösliiga
@@ -95,23 +98,25 @@ Tarih: 2026-07-15T06:30:04.549437+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 15.07.2026 | 22:00 | Dünya Kupası 2026 Yarı Final | İngiltere | Arjantin | 00268 | 5 |
-| 15.07.2026 | 21:15 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) | (2) Kí Klaksvík | 09824 | 5 |
 | 15.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Egnatia (1) | (1) Petrocub | 10097 | 5 |
-| 15.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sutjeska (1) | (2) Kairat Almaty | 10054 | 5 |
+| 15.07.2026 | 21:15 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) | (2) Kí Klaksvík | 09824 | 5 |
 | 15.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Universitatea (4) | (1) Ml Vitebsk | 08929 | 5 |
-| 15.07.2026 | 17:30 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) | (2) Vllaznia | 08928 | 5 |
+| 15.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sutjeska (1) | (2) Kairat Almaty | 10054 | 5 |
 | 15.07.2026 | 21:30 | UEFA Konferans Ligi 1. Eleme Turu | Decic Tuzi (0) | (1) Liepaja | 10053 | 5 |
+| 15.07.2026 | 17:30 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) | (2) Vllaznia | 08928 | 5 |
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Rapid Wien | Panathinaikos | 12797 | 5 |
-| 15.07.2026 | 16:00 | Hazırlık Kulüpler | Salzburg | Gamba Osaka | 00273 | 5 |
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Lyon | Servette | 03187 | 5 |
-| 15.07.2026 | 12:30 | Avustralya FFA Kupası Son 32 Turu | Marlin Coast R | Moreland Zebras | 07792 | 3 |
-| 15.07.2026 | 13:00 | Avustralya FFA Kupası Son 32 Turu | White City Woo | North Sunshine | 07515 | 3 |
-| 15.07.2026 | 18:00 | Kazakistan Kupa Yarı Final | Ordabasy | Altay | 07836 | 5 |
-| 15.07.2026 | 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu | Mikkelin | 07860 | 5 |
-| 15.07.2026 | 20:00 | Ekvador Pro Lig | Libertad | T.Universitario | 07908 | 5 |
-| 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 00330 | 3 |
-| 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit | Weston Bears | 00153 | 3 |
-| 15.07.2026 | 21:30 | Paraguay Kupa 2.Tur | Atletico Coleg | Fernando De La | 10423 | 5 |
+| 15.07.2026 | 15:00 | Hazırlık Kulüpler | Aarhus | Horsens | 11697 | 3 |
+| 15.07.2026 | 19:00 | Hazırlık Kulüpler | Stade Lavalloi | Quevilly-Rouen | 14229 | 5 |
+| 15.07.2026 | 19:00 | Hazırlık Kulüpler | Aldershot | Portsmouth | 14162 | 5 |
+| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Ajax | Bochum | 11731 | 5 |
+| 15.07.2026 | 11:30 | Hazırlık Kulüpler | Kaizer Chiefs | Al Kholood | 14575 | 5 |
+| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Sturm Graz | Pogon Szczecin | 14104 | 5 |
+| 15.07.2026 | 18:00 | Hazırlık Kulüpler | E.Cottbus | Mlada Boleslav | 14036 | 5 |
+| 15.07.2026 | 19:30 | Hazırlık Kulüpler | Chemnitzer | Unterhaching | 14246 | 3 |
+| 15.07.2026 | 20:00 | Hazırlık Kulüpler | Vitesse | Aek | 14313 | 5 |
+| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Fc Fleury 91 | Boulogne | 14069 | 5 |
+| 15.07.2026 | 16:00 | Hazırlık Kulüpler | Salzburg | Gamba Osaka | 00273 | 5 |
 
 ## Sonuc
 
