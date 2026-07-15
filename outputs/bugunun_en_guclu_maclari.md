@@ -1,44 +1,28 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-15T21:13:53.736Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-07-15T21:16:37.542Z
+- Ham maç sayısı: 19
+- Yarın bülteni maç sayısı: 14
+- Detay blok sayısı: 53
+- Aktif bülten maçı: 14
+- Bültenden düşürülen maç: 5
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 4 De Mayo VS Sportivo Carape | Paraguay Kupa 2.Tur | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Virtus (1) VS (3) Dila Gori | UEFA Konferans Ligi 1. Eleme Turu | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Academia Del B VS Independiente P | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Afturelding VS Leiknir Reykjav | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Vestri (0) VS (3) Qarabagh | UEFA Avrupa Ligi 1. Eleme Turu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Aucas VS Indep. Jose Ter | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Racing Club VS Defensa Justici | Arjantin Kupa Son 32 Turu | 00:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Vitoria Bahia VS Vasco Da Gama | Brezilya Serie A | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Botafogo VS Santos | Brezilya Serie A | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Regatas VS Nautico | Brezilya Serie B | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Forge VS Pacific Fc | Kanada Premier Lig | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Montreal VS Toronto | ABD MLS | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Orense VS Emelec | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Chicago VS Vancouver | ABD MLS | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| St. Louis City VS Kansas | ABD MLS | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Sarmiento VS Boca Juniors | Arjantin Kupa Son 32 Turu | 03:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Necaxa VS Atlante | Meksika Liga MX Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Seattle VS Portland | ABD MLS | 05:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Club Tijuana VS Tigres Uanl | Meksika Liga MX Apertura | 06:10 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Aucas - Indep. Jose Ter | Ekvador Pro Lig | 00:30 | Veri bekleniyor | - | 2.57 | 8 |
+| Racing Club - Defensa Justici | Arjantin Kupa Son 32 Turu | 00:45 | Veri bekleniyor | - | 1.56 | 7 |
+| Vitoria Bahia - Vasco Da Gama | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 2.1 | 8 |
+| Botafogo - Santos | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 1.77 | 8 |
+| Regatas - Nautico | Brezilya Serie B | 02:00 | Veri bekleniyor | - | 1.71 | 8 |
+| Forge - Pacific Fc | Kanada Premier Lig | 02:00 | Veri bekleniyor | - | 1.11 | 6 |
+| Montreal - Toronto | ABD MLS | 02:30 | Veri bekleniyor | - | 1.76 | 8 |
+| Orense - Emelec | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.81 | 8 |
+| Chicago - Vancouver | ABD MLS | 03:30 | Veri bekleniyor | - | 2.44 | 8 |
+| St. Louis City - Kansas | ABD MLS | 03:30 | Veri bekleniyor | - | 1.26 | 6 |
+| Sarmiento - Boca Juniors | Arjantin Kupa Son 32 Turu | 03:45 | Veri bekleniyor | - | 4.81 | 7 |
+| Necaxa - Atlante | Meksika Liga MX Apertura | 04:00 | Veri bekleniyor | - | 1.62 | 8 |
+| Seattle - Portland | ABD MLS | 05:30 | Veri bekleniyor | - | 1.3 | 6 |
+| Club Tijuana - Tigres Uanl | Meksika Liga MX Apertura | 06:10 | Veri bekleniyor | - | 3.11 | 8 |
