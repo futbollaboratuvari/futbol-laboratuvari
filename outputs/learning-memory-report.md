@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.07.2026 13:15:04
+Oluşturma: 15.07.2026 13:59:36
 
 ## Özet
 
-- Toplam tahmin: 21
-- Bekleyen tahmin: 21
+- Toplam tahmin: 22
+- Bekleyen tahmin: 22
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 5
@@ -20,12 +20,13 @@ Oluşturma: 15.07.2026 13:15:04
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS X: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-15 | Hazırlık Kulüpler | Zaglebie Sosno - Polonia Nysa | MS 2 | pending | 50/100
 - 2026-07-15 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | MS 2 | pending | 50/100
 - 2026-07-15 | Hazırlık Kulüpler | Ajax - Bochum | MS 2 | pending | 60/100
 - 2026-07-15 | Hazırlık Kulüpler | Sturm Graz - Pogon Szczecin | MS X | pending | 70/100
@@ -40,5 +41,4 @@ Oluşturma: 15.07.2026 13:15:04
 - 2026-07-15 | Hazırlık Kulüpler | Aldershot - Portsmouth | MS 1 | pending | 40/100
 - 2026-07-15 | Ekvador Pro Lig | Libertad - T.Universitario | MS X | pending | 40/100
 - 2026-07-15 | Hazırlık Kulüpler | Vitesse - Aek | MS X | pending | 40/100
-- 2026-07-15 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) - (2) Kí Klaksvík | MS X | pending | 50/100
 

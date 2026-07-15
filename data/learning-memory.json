@@ -1,24 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-15T06:34:10.932Z",
-  "updated_at": "2026-07-15T10:15:04.912Z",
+  "updated_at": "2026-07-15T10:59:36.236Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 21,
-    "pending_predictions": 21,
+    "total_predictions": 22,
+    "pending_predictions": 22,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 5,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 1,
     "updated_predictions": 0
   },
   "market_memory": {
     "MS 2": {
-      "total": 7,
-      "pending": 7,
+      "total": 8,
+      "pending": 8,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,9 +48,9 @@
     }
   },
   "league_memory": {
-    "UEFA Konferans Ligi 1. Eleme Turu": {
-      "total": 2,
-      "pending": 2,
+    "Hazırlık Kulüpler": {
+      "total": 16,
+      "pending": 16,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -58,9 +58,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler": {
-      "total": 15,
-      "pending": 15,
+    "UEFA Konferans Ligi 1. Eleme Turu": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -100,9 +100,9 @@
     }
   },
   "league_market_memory": {
-    "UEFA Konferans Ligi 1. Eleme Turu :: MS 2": {
-      "total": 1,
-      "pending": 1,
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 5,
+      "pending": 5,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -110,9 +110,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS 2": {
-      "total": 4,
-      "pending": 4,
+    "UEFA Konferans Ligi 1. Eleme Turu :: MS 2": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -193,6 +193,23 @@
   },
   "predictions": [
     {
+      "id": "2026-07-15|hazirlik kulupler|zaglebie sosno polonia nysa|ms 2|18 00",
+      "date": "2026-07-15",
+      "created_at": "2026-07-15T10:59:36.235Z",
+      "match_name": "Zaglebie Sosno - Polonia Nysa",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "18:00",
+      "market": "MS 2",
+      "odds": "3.79",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-15|uefa konferans ligi 1 eleme turu|malisheva 1 2 vllaznia|ms 2|17 30",
       "date": "2026-07-15",
       "created_at": "2026-07-15T09:04:24.274Z",
@@ -208,7 +225,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|ajax bochum|ms 2|18 00",
@@ -218,7 +235,7 @@
       "league": "Hazırlık Kulüpler",
       "start_time": "18:00",
       "market": "MS 2",
-      "odds": "4.07",
+      "odds": "4.20",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -226,7 +243,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|sturm graz pogon szczecin|ms x|18 00",
@@ -244,7 +261,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|e cottbus mlada boleslav|ms x|18 00",
@@ -262,7 +279,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|fc fleury 91 boulogne|ms x|18 00",
@@ -280,7 +297,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|jablonec metalist 1925 k|ms x|18 00",
@@ -298,7 +315,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|zaglebie sosno polonia nysa|ms x|18 00",
@@ -326,7 +343,7 @@
       "league": "Finlandiya Ykkösliiga",
       "start_time": "18:30",
       "market": "MS 2",
-      "odds": "5.11",
+      "odds": "5.31",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -334,7 +351,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|rapid wien panathinaikos|ms x|19 00",
@@ -352,7 +369,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|lyon servette|ms 2|19 00",
@@ -370,7 +387,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|stade lavalloi quevilly rouen|ms 2|19 00",
@@ -388,7 +405,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|aldershot portsmouth|ms 1|19 00",
@@ -406,7 +423,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|ekvador pro lig|libertad t universitario|ms x|20 00",
@@ -416,7 +433,7 @@
       "league": "Ekvador Pro Lig",
       "start_time": "20:00",
       "market": "MS X",
-      "odds": "2.71",
+      "odds": "2.70",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -424,7 +441,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|vitesse aek|ms x|20 00",
@@ -442,7 +459,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|uefa sampiyonlar ligi 1 eleme turu|atert bissen 1 2 ki klaksvik|ms x|21 15",
@@ -452,7 +469,7 @@
       "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
       "start_time": "21:15",
       "market": "MS X",
-      "odds": "3.09",
+      "odds": "3.10",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -460,7 +477,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|uefa konferans ligi 1 eleme turu|decic tuzi 0 1 liepaja|ms x|21 30",
@@ -478,7 +495,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     },
     {
       "id": "2026-07-15|uefa sampiyonlar ligi 1 eleme turu|egnatia 1 1 petrocub|ms 2|22 00",
@@ -488,7 +505,7 @@
       "league": "UEFA Şampiyonlar Ligi 1.Eleme Turu",
       "start_time": "22:00",
       "market": "MS 2",
-      "odds": "3.91",
+      "odds": "3.98",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -496,7 +513,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.912Z"
+      "updated_at": "2026-07-15T10:59:36.236Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|kaizer chiefs al kholood|ms x|11 30",
@@ -514,7 +531,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.234Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|oh leuven lommel|ms x|12 00",
@@ -532,7 +549,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.234Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|fortuna dussel ruzomberok|ms 2|12 00",
@@ -550,7 +567,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.234Z"
     },
     {
       "id": "2026-07-15|hazirlik kulupler|salzburg gamba osaka|ms x|16 00",
@@ -560,7 +577,7 @@
       "league": "Hazırlık Kulüpler",
       "start_time": "16:00",
       "market": "MS X",
-      "odds": "3.43",
+      "odds": "3.39",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -568,7 +585,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-15T10:15:04.911Z"
+      "updated_at": "2026-07-15T10:59:36.235Z"
     }
   ]
 }
