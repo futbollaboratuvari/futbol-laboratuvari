@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-15T11:50:39.318Z
+- Güncelleme: 2026-07-15T12:22:39.079Z
 - Ham maç sayısı: 43
 - Yarın bülteni maç sayısı: 13
 - Detay blok sayısı: 119
-- Aktif bülten maçı: 40
-- Bültenden düşürülen maç: 3
+- Aktif bülten maçı: 39
+- Bültenden düşürülen maç: 4
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Aarhus - Horsens | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.29 | 4 |
 | Salzburg - Gamba Osaka | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 1.56 | 8 |
 | Malisheva (1) - (2) Vllaznia | UEFA Konferans Ligi 1. Eleme Turu | 17:30 | Veri bekleniyor | - | 1.48 | 7 |
 | Ordabasy - Altay | Kazakistan Kupa Yarı Final | 18:00 | Veri bekleniyor | - | 1.15 | 6 |
