@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 31
-Tam analiz: 26
+Toplam analiz: 30
+Tam analiz: 25
 Eksik analiz: 5
 
 - Ordabasy VS Altay: eksik score, confidence
