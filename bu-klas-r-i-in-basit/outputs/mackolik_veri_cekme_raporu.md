@@ -1,20 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-15T17:40:45.218120+00:00
+Tarih: 2026-07-15T17:53:50.600388+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 9
+- Kac mac bulundu: 22
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 9
+- Kac mac zaten vardi: 22
 - Ham veri havuzu toplam mac sayisi: 1902
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 1. Eleme Turu
@@ -97,7 +101,18 @@ Tarih: 2026-07-15T17:40:45.218120+00:00
 | 15.07.2026 | 18:00 | Hazırlık Kulüpler | Sturm Graz | Pogon Szczecin | 14104 | 5 |
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Stade Lavalloi | Quevilly-Rouen | 14229 | 5 |
 | 15.07.2026 | 20:00 | Hazırlık Kulüpler | Monchengladbac | Koblenz | 14263 | 3 |
+| 16.07.2026 | 04:30 | Hazırlık Kulüpler | Salt Lake | Burnley | 14346 | 5 |
+| 16.07.2026 | 01:00 | Ekvador Pro Lig | Leones Del Nor | Deportivo Cuenc | 07933 | 5 |
+| 16.07.2026 | 03:30 | Ekvador Pro Lig | Barcelona Gua | Guayaquil City | 08181 | 5 |
+| 16.07.2026 | 01:00 | Ekvador Pro Lig | Univ Catolica | Ldu Quito | 08058 | 5 |
+| 16.07.2026 | 03:00 | Bolivya Premier Lig | The Strongest | Oriente Petrole | 08685 | 3 |
+| 16.07.2026 | 01:00 | Bolivya Premier Lig | Real Potosi | San Antonio Bul | 08580 | 5 |
+| 16.07.2026 | 02:00 | ABD USL | Lexington | New Mexico Unit | 02237 | 5 |
+| 16.07.2026 | 02:00 | ABD USL | Miami Fc | Indy Eleven | 03775 | 5 |
+| 16.07.2026 | 02:30 | ABD USL | Sporting Jax | Pittsburgh Rive | 04337 | 5 |
 | 15.07.2026 | 21:30 | Paraguay Kupa 2.Tur | Atletico Coleg | Fernando De La | 10423 | 5 |
+| 16.07.2026 | 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo | Sportivo Carape | 00462 | 2 |
+| 16.07.2026 | 02:00 | ABD USL Lig 1 | Chattanooga Re | Alta | 12692 | 5 |
 
 ## Sonuc
 
