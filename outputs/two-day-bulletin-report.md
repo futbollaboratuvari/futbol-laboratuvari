@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
-Ham mac: 46
+Ham mac: 45
 Aktif mac: 39
-Canli mac: 7
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 7
+Bultenden dusurulen mac: 6
 Bugun: 27
 Yarin: 12
 
@@ -52,7 +52,6 @@ Yarin: 12
 - 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-15 11:30 | Hazırlık Kulüpler | Kaizer Chiefs - Al Kholood | live | -
 - 2026-07-15 12:00 | Hazırlık Kulüpler | Oh Leuven - Lommel | live | -
 - 2026-07-15 12:00 | Hazırlık Kulüpler | Fortuna Düssel - Ruzomberok | live | -
 - 2026-07-15 12:30 | Avustralya FFA Kupası Son 32 Turu | Marlin Coast R - Moreland Zebras | live | -
