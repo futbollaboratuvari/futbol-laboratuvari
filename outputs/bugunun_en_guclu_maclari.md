@@ -1,28 +1,52 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-15T19:37:56.407Z
-- Ham maç sayısı: 27
-- Yarın bülteni maç sayısı: 14
-- Detay blok sayısı: 74
-- Aktif bülten maçı: 14
-- Bültenden düşürülen maç: 13
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-07-15T20:00:42.048Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| 4 De Mayo - Sportivo Carape | Paraguay Kupa 2.Tur | 00:00 | Veri bekleniyor | - | 17.1 | 2 |
-| Leones Del Nor - Deportivo Cuenc | Ekvador Pro Lig | 01:00 | Veri bekleniyor | - | 1.92 | 8 |
-| Univ Catolica - Ldu Quito | Ekvador Pro Lig | 01:00 | Veri bekleniyor | - | 2.49 | 8 |
-| Real Potosi - San Antonio Bul | Bolivya Premier Lig | 01:00 | Veri bekleniyor | - | 1.3 | 6 |
-| One Knoxville - Fort Wayne | ABD USL Lig 1 | 01:30 | Veri bekleniyor | - | 1.57 | 8 |
-| Lexington - New Mexico Unit | ABD USL | 02:00 | Veri bekleniyor | - | 1.39 | 7 |
-| Miami Fc - Indy Eleven | ABD USL | 02:00 | Veri bekleniyor | - | 2.38 | 8 |
-| Chattanooga Re - Alta | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 1.46 | 7 |
-| Sporting Jax - Pittsburgh Rive | ABD USL | 02:30 | Veri bekleniyor | - | 3.53 | 8 |
-| The Strongest - Oriente Petrole | Bolivya Premier Lig | 03:00 | Veri bekleniyor | - | 1.07 | 4 |
-| Forward Madiso - Richmond Kicker | ABD USL Lig 1 | 03:00 | Veri bekleniyor | - | 1.25 | 6 |
-| Varazdin - Kustosija | Hazırlık Kulüpler | 03:00 | Veri bekleniyor | - | 1.05 | 4 |
-| Barcelona Gua - Guayaquil City | Ekvador Pro Lig | 03:30 | Veri bekleniyor | - | 1.31 | 7 |
-| Salt Lake - Burnley | Hazırlık Kulüpler | 04:30 | Veri bekleniyor | - | 2.13 | 8 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Libertad VS T.Universitario | Ekvador Pro Lig | 20:00 | MS X | 2.70 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Vitesse VS Aek | Hazırlık Kulüpler | 20:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Monchengladbac VS Koblenz | Hazırlık Kulüpler | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Cordoba VS Orlando Pirates | Hazırlık Kulüpler | 20:00 | MS X | 2.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Universitatea (4) VS (1) Ml Vitebsk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Derio VS Athletic Bilbao | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Atert Bissen (1) VS (2) Kí Klaksvík | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:15 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Decic Tuzi (0) VS (1) Liepaja | UEFA Konferans Ligi 1. Eleme Turu | 21:30 | MS X | 2.87 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Atletico Coleg VS Fernando De La | Paraguay Kupa 2.Tur | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Solihull Moors VS Birmingham | Hazırlık Kulüpler | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| İngiltere VS Arjantin | Dünya Kupası 2026 Yarı Final | 22:00 | Değerli market yok | - | 5 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Egnatia (1) VS (1) Petrocub | UEFA Şampiyonlar Ligi 1.Eleme Turu | 22:00 | MS 2 | 4.89 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Sutjeska (1) VS (2) Kairat Almaty | UEFA Şampiyonlar Ligi 1.Eleme Turu | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| 4 De Mayo VS Sportivo Carape | Paraguay Kupa 2.Tur | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Leones Del Nor VS Deportivo Cuenc | Ekvador Pro Lig | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Univ Catolica VS Ldu Quito | Ekvador Pro Lig | 01:00 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Real Potosi VS San Antonio Bul | Bolivya Premier Lig | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| One Knoxville VS Fort Wayne | ABD USL Lig 1 | 01:30 | MS 2 | 3.47 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Lexington VS New Mexico Unit | ABD USL | 02:00 | MS 2 | 4.33 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Miami Fc VS Indy Eleven | ABD USL | 02:00 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Chattanooga Re VS Alta | ABD USL Lig 1 | 02:00 | MS 2 | 3.96 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Sporting Jax VS Pittsburgh Rive | ABD USL | 02:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| The Strongest VS Oriente Petrole | Bolivya Premier Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Forward Madiso VS Richmond Kicker | ABD USL Lig 1 | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Varazdin VS Kustosija | Hazırlık Kulüpler | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Barcelona Gua VS Guayaquil City | Ekvador Pro Lig | 03:30 | MS 2 | 5.31 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Salt Lake VS Burnley | Hazırlık Kulüpler | 04:30 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
