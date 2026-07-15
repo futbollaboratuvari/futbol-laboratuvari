@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.07.2026 01:12:59
+Oluşturma: 16.07.2026 01:27:58
 
 ## Özet
 
-- Toplam tahmin: 5
-- Bekleyen tahmin: 5
+- Toplam tahmin: 28
+- Bekleyen tahmin: 28
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 4
-- Seçenek sayısı: 2
+- Lig sayısı: 9
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,14 +20,25 @@ Oluşturma: 16.07.2026 01:12:59
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
-- MS X: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-15 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Egnatia (1) - (1) Petrocub | MS 2 | pending | 50/100
-- 2026-07-15 | Ekvador Pro Lig | Libertad - T.Universitario | MS X | pending | 40/100
-- 2026-07-15 | Hazırlık Kulüpler | Cordoba - Orlando Pirates | MS X | pending | 50/100
-- 2026-07-15 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) - (2) Kí Klaksvík | MS X | pending | 50/100
-- 2026-07-15 | UEFA Konferans Ligi 1. Eleme Turu | Decic Tuzi (0) - (1) Liepaja | MS X | pending | 40/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Torpedo Kutais (0) - (3) Zira | MS X | pending | 40/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) - (3) Stjarnan | MS X | pending | 60/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | MS 1 | pending | 40/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) - (0) Penybont | MS 2 | pending | 50/100
+- 2026-07-16 | Polonya Süper Kupa | Lech Poznan - Gornik Zabrze | MS X | pending | 50/100
+- 2026-07-16 | Norveç Eliteserien | Valerenga - Aalesund | MS 2 | pending | 70/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Hamrun (1) - (1) Runavik | MS 2 | pending | 50/100
+- 2026-07-16 | UEFA Avrupa Ligi 1. Eleme Turu | Aluminij (0) - (0) Sheriff Tiraspo | MS 1 | pending | 40/100
+- 2026-07-16 | UEFA Avrupa Ligi 1. Eleme Turu | Ferencvaros (2) - (1) Vojvodina | MS 2 | pending | 40/100
+- 2026-07-16 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) - (2) Hajduk Split | MS X | pending | 50/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) - (2) Descaldes | MS 2 | pending | 50/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) - (1) Nomme Kalju | MS 2 | pending | 50/100
+- 2026-07-16 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | MS X | pending | 40/100
+- 2026-07-16 | ABD USL Lig 1 | One Knoxville - Fort Wayne | MS 2 | pending | 50/100
+- 2026-07-16 | ABD USL | Lexington - New Mexico Unit | MS 2 | pending | 60/100
 
