@@ -3,18 +3,14 @@
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
 Ham mac: 66
-Aktif mac: 62
-Canli mac: 4
-Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 48
+Aktif mac: 58
+Canli mac: 7
+Biten mac: 1
+Bultenden dusurulen mac: 8
+Bugun: 44
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | scheduled | -
-- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | scheduled | -
-- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | scheduled | -
-- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | scheduled | -
 - 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | scheduled | -
 - 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | scheduled | -
 - 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | scheduled | -
@@ -75,10 +71,13 @@ Yarin: 14
 - 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
 
 ## Canli Maclar
-- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | live | -
 - 2026-07-16 01:00 | Ekvador Pro Lig | Leones Del Nor - Deportivo Cuenc | live | -
 - 2026-07-16 01:00 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | live | -
 - 2026-07-16 01:00 | Bolivya Premier Lig | Real Potosi - San Antonio Bul | live | -
+- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | live | -
+- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | live | -
+- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | live | -
+- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -
