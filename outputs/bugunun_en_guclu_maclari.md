@@ -2,21 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-15T15:54:30.888Z
+- Güncelleme: 2026-07-15T16:05:24.690Z
 - Ham maç sayısı: 44
 - Yarın bülteni maç sayısı: 13
 - Detay blok sayısı: 123
-- Aktif bülten maçı: 33
-- Bültenden düşürülen maç: 11
+- Aktif bülten maçı: 28
+- Bültenden düşürülen maç: 16
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rapid Wien - Panathinaikos | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.35 | 8 |
-| Lyon - Servette | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.26 | 6 |
-| Stade Lavalloi - Quevilly-Rouen | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.74 | 8 |
-| Aldershot - Portsmouth | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 4.48 | 6 |
-| Eintracht Trie - Fortuna Köln | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.8 | 6 |
 | Chemnitzer - Unterhaching | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 1.5 | 6 |
 | Solihull Moors - Birmingham | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 6.61 | 4 |
 | Libertad - T.Universitario | Ekvador Pro Lig | 20:00 | Veri bekleniyor | - | 2.56 | 8 |

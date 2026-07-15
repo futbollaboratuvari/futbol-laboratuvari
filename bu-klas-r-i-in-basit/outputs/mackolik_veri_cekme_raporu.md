@@ -1,28 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-15T15:01:20.006187+00:00
+Tarih: 2026-07-15T16:05:43.056833+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 41
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 41
-- Ham veri havuzu toplam mac sayisi: 1901
+- Kac mac bulundu: 21
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 20
+- Ham veri havuzu toplam mac sayisi: 1902
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
 - Avustralya NPL Kuzey YGG
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
 - Ekvador Pro Lig
-- Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
-- Kazakistan Kupa Yarı Final
 - Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 1. Eleme Turu
 - UEFA Şampiyonlar Ligi 1.Eleme Turu
@@ -82,8 +77,8 @@ Tarih: 2026-07-15T15:01:20.006187+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 15
-- Acilan detay: 15
+- Denenen Tumu alani: 13
+- Acilan detay: 13
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -105,17 +100,17 @@ Tarih: 2026-07-15T15:01:20.006187+00:00
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Rapid Wien | Panathinaikos | 12797 | 5 |
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Eintracht Trie | Fortuna Köln | 14195 | 3 |
 | 15.07.2026 | 20:30 | Hazırlık Kulüpler | Derio | Athletic Bilbao | 06396 | 3 |
+| 15.07.2026 | 19:30 | Hazırlık Kulüpler | Lyon | Servette | 03187 | 5 |
 | 15.07.2026 | 18:00 | Hazırlık Kulüpler | Sturm Graz | Pogon Szczecin | 14104 | 5 |
 | 15.07.2026 | 19:00 | Hazırlık Kulüpler | Stade Lavalloi | Quevilly-Rouen | 14229 | 5 |
 | 15.07.2026 | 20:00 | Hazırlık Kulüpler | Vitesse | Aek | 14313 | 5 |
-| 15.07.2026 | 19:00 | Hazırlık Kulüpler | Lyon | Servette | 03187 | 5 |
-| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Fc Fleury 91 | Boulogne | 14069 | 5 |
 | 15.07.2026 | 19:30 | Hazırlık Kulüpler | Chemnitzer | Unterhaching | 14246 | 3 |
-| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Polonia Varşov | Zlin | 14087 | 5 |
-| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Jablonec | Metalist 1925 K | 14212 | 5 |
 | 15.07.2026 | 20:00 | Hazırlık Kulüpler | Monchengladbac | Koblenz | 14263 | 3 |
 | 15.07.2026 | 19:30 | Hazırlık Kulüpler | Solihull Moors | Birmingham | 05702 | 3 |
-| 15.07.2026 | 18:00 | Hazırlık Kulüpler | E.Cottbus | Mlada Boleslav | 14036 | 5 |
+| 15.07.2026 | 20:00 | Hazırlık Kulüpler | Cordoba | Orlando Pirates | 14280 | 5 |
+| 15.07.2026 | 19:00 | Hazırlık Kulüpler | Aldershot | Portsmouth | 14162 | 5 |
+| 15.07.2026 | 20:00 | Ekvador Pro Lig | Libertad | T.Universitario | 07908 | 5 |
+| 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 00330 | 3 |
 
 ## Sonuc
 
