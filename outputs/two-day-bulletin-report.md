@@ -3,30 +3,14 @@
 Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
 Ham mac: 51
-Aktif mac: 48
-Canli mac: 3
+Aktif mac: 32
+Canli mac: 19
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 36
+Bultenden dusurulen mac: 19
+Bugun: 20
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) - (1) Vikingur Reykja | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Universitatea (4) - (1) Ml Vitebsk | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) - (0) Vardar | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) - (2) Kí Klaksvík | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) - (2) Ararat-Armenia | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Iberia (3) - (2) Flora Tallinn | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Egnatia (1) - (1) Petrocub | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) - (0) Tre Fiori | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) - (1) Kauno Zalgiris | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sutjeska (1) - (2) Kairat Almaty | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | The New Saints (0) - (2) Sabah | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) - (1) Borac Banja Luk | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) - (2) Floriana | scheduled | -
-- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Inter Escaldes (1) - (3) Lincoln Red Imp | scheduled | -
-- 2026-07-15 03:00 | Ekvador Pro Lig | Manta - Delfin | scheduled | -
-- 2026-07-15 03:00 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
 - 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
 - 2026-07-15 03:30 | ABD USL Lig 2 Play-Off | New England - Ironbound | scheduled | -
 - 2026-07-15 12:30 | Avustralya FFA Kupası Son 32 Turu | Marlin Coast R - Moreland Zebras | scheduled | -
@@ -64,6 +48,22 @@ Yarin: 12
 - 2026-07-15 00:30 | Ekvador Pro Lig | Depor Macara - Mushuc Runa | live | -
 - 2026-07-15 01:00 | Bolivya Premier Lig | Real Oruro - Always Ready | live | -
 - 2026-07-15 02:00 | ABD USL Lig 2 Play-Off | Lehigh Valley - Appalachian | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Gyor (0) - (1) Vikingur Reykja | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Universitatea (4) - (1) Ml Vitebsk | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Kuopion (2) - (0) Vardar | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Atert Bissen (1) - (2) Kí Klaksvík | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Riga Fc (0) - (2) Ararat-Armenia | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Iberia (3) - (2) Flora Tallinn | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Egnatia (1) - (1) Petrocub | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Larne Fc (1) - (0) Tre Fiori | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Fc Drita (1) - (1) Kauno Zalgiris | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Sutjeska (1) - (2) Kairat Almaty | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | The New Saints (0) - (2) Sabah | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Levski Sofya (1) - (1) Borac Banja Luk | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Shamrock Rover (0) - (2) Floriana | live | -
+- 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Inter Escaldes (1) - (3) Lincoln Red Imp | live | -
+- 2026-07-15 03:00 | Ekvador Pro Lig | Manta - Delfin | live | -
+- 2026-07-15 03:00 | Bolivya Premier Lig | Blooming - Gualberto Villa | live | -
 
 ## Biten Maclar
 Biten mac yok.

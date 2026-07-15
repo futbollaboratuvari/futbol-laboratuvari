@@ -1,76 +1,46 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-14T23:40:53.270Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-07-15T00:10:03.129Z
+- Ham maç sayısı: 51
+- Yarın bülteni maç sayısı: 12
+- Detay blok sayısı: 139
+- Aktif bülten maçı: 32
+- Bültenden düşürülen maç: 19
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Depor Macara VS Mushuc Runa | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Real Oruro VS Always Ready | Bolivya Premier Lig | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Lehigh Valley VS Appalachian | ABD USL Lig 2 Play-Off | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Gyor (0) VS (1) Vikingur Reykja | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Universitatea (4) VS (1) Ml Vitebsk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Kuopion (2) VS (0) Vardar | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Atert Bissen (1) VS (2) Kí Klaksvík | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Riga Fc (0) VS (2) Ararat-Armenia | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Fc Iberia (3) VS (2) Flora Tallinn | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Egnatia (1) VS (1) Petrocub | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Larne Fc (1) VS (0) Tre Fiori | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Fc Drita (1) VS (1) Kauno Zalgiris | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Sutjeska (1) VS (2) Kairat Almaty | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| The New Saints (0) VS (2) Sabah | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Levski Sofya (1) VS (1) Borac Banja Luk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Shamrock Rover (0) VS (2) Floriana | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Inter Escaldes (1) VS (3) Lincoln Red Imp | UEFA Şampiyonlar Ligi 1.Eleme Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Manta VS Delfin | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Blooming VS Gualberto Villa | Bolivya Premier Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Blooming VS Gualberto Villa | Bolivya Premier Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| New England VS Ironbound | ABD USL Lig 2 Play-Off | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Marlin Coast R VS Moreland Zebras | Avustralya FFA Kupası Son 32 Turu | 12:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| White City Woo VS North Sunshine | Avustralya FFA Kupası Son 32 Turu | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Kahibah VS Maitland | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Charlestow Cit VS Weston Bears | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Salzburg VS Gamba Osaka | Hazırlık Kulüpler | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Malisheva (1) VS (2) Vllaznia | UEFA Konferans Ligi 1. Eleme Turu | 17:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Ordabasy VS Altay | Kazakistan Kupa Yarı Final | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Jippo Joensuu VS Mikkelin | Finlandiya Ykkösliiga | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Rapid Wien VS Panathinaikos | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Lyon VS Servette | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Libertad VS T.Universitario | Ekvador Pro Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Universitatea (4) VS (1) Ml Vitebsk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Atert Bissen (1) VS (2) Kí Klaksvík | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Decic Tuzi (0) VS (1) Liepaja | UEFA Konferans Ligi 1. Eleme Turu | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Atletico Coleg VS Fernando De La | Paraguay Kupa 2.Tur | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| İngiltere VS Arjantin | Dünya Kupası 2026 Yarı Final | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Egnatia (1) VS (1) Petrocub | UEFA Şampiyonlar Ligi 1.Eleme Turu | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Sutjeska (1) VS (2) Kairat Almaty | UEFA Şampiyonlar Ligi 1.Eleme Turu | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| 4 De Mayo VS Sportivo Carape | Paraguay Kupa 2.Tur | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Leones Del Nor VS Deportivo Cuenc | Ekvador Pro Lig | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Univ Catolica VS Ldu Quito | Ekvador Pro Lig | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Real Potosi VS San Antonio Bul | Bolivya Premier Lig | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| One Knoxville VS Fort Wayne | ABD USL Lig 1 | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Lexington VS New Mexico Unit | ABD USL | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Miami Fc VS Indy Eleven | ABD USL | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Chattanooga Re VS Alta | ABD USL Lig 1 | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Sporting Jax VS Pittsburgh Rive | ABD USL | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| The Strongest VS Oriente Petrole | Bolivya Premier Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Forward Madiso VS Richmond Kicker | ABD USL Lig 1 | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Barcelona Gua VS Guayaquil City | Ekvador Pro Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Blooming - Gualberto Villa | Bolivya Premier Lig | 03:30 | Veri bekleniyor | - | 1.25 | 4 |
+| New England - Ironbound | ABD USL Lig 2 Play-Off | 03:30 | Veri bekleniyor | - | 1.73 | 3 |
+| Marlin Coast R - Moreland Zebras | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 8.4 | 4 |
+| White City Woo - North Sunshine | Avustralya FFA Kupası Son 32 Turu | 13:00 | Veri bekleniyor | - | 1.33 | 4 |
+| Kahibah - Maitland | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 2.79 | 6 |
+| Charlestow Cit - Weston Bears | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 3.86 | 4 |
+| Salzburg - Gamba Osaka | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 1.81 | 8 |
+| Malisheva (1) - (2) Vllaznia | UEFA Konferans Ligi 1. Eleme Turu | 17:30 | Veri bekleniyor | - | 1.63 | 8 |
+| Ordabasy - Altay | Kazakistan Kupa Yarı Final | 18:00 | Veri bekleniyor | - | 1.21 | 6 |
+| Jippo Joensuu - Mikkelin | Finlandiya Ykkösliiga | 18:30 | Veri bekleniyor | - | 1.33 | 7 |
+| Rapid Wien - Panathinaikos | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.25 | 8 |
+| Lyon - Servette | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.22 | 6 |
+| Libertad - T.Universitario | Ekvador Pro Lig | 20:00 | Veri bekleniyor | - | 2.07 | 8 |
+| Universitatea (4) - (1) Ml Vitebsk | UEFA Şampiyonlar Ligi 1.Eleme Turu | 20:30 | Veri bekleniyor | - | 1.08 | 6 |
+| Atert Bissen (1) - (2) Kí Klaksvík | UEFA Şampiyonlar Ligi 1.Eleme Turu | 21:15 | Veri bekleniyor | - | 2.29 | 8 |
+| Decic Tuzi (0) - (1) Liepaja | UEFA Konferans Ligi 1. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.47 | 8 |
+| Atletico Coleg - Fernando De La | Paraguay Kupa 2.Tur | 21:30 | Veri bekleniyor | - | 3.73 | 5 |
+| İngiltere - Arjantin | Dünya Kupası 2026 Yarı Final | 22:00 | Veri bekleniyor | - | 2.39 | 8 |
+| Egnatia (1) - (1) Petrocub | UEFA Şampiyonlar Ligi 1.Eleme Turu | 22:00 | Veri bekleniyor | - | 1.51 | 7 |
+| Sutjeska (1) - (2) Kairat Almaty | UEFA Şampiyonlar Ligi 1.Eleme Turu | 22:00 | Veri bekleniyor | - | 3.8 | 7 |
+| 4 De Mayo - Sportivo Carape | Paraguay Kupa 2.Tur | 00:00 | Veri bekleniyor | - | 10.3 | 2 |
+| Leones Del Nor - Deportivo Cuenc | Ekvador Pro Lig | 01:00 | Veri bekleniyor | - | 2.07 | 8 |
+| Univ Catolica - Ldu Quito | Ekvador Pro Lig | 01:00 | Veri bekleniyor | - | 2.11 | 8 |
+| Real Potosi - San Antonio Bul | Bolivya Premier Lig | 01:00 | Veri bekleniyor | - | 1.43 | 7 |
+| One Knoxville - Fort Wayne | ABD USL Lig 1 | 01:30 | Veri bekleniyor | - | 1.55 | 8 |
+| Lexington - New Mexico Unit | ABD USL | 02:00 | Veri bekleniyor | - | 1.47 | 7 |
+| Miami Fc - Indy Eleven | ABD USL | 02:00 | Veri bekleniyor | - | 2.5 | 8 |
+| Chattanooga Re - Alta | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 1.48 | 7 |
+| Sporting Jax - Pittsburgh Rive | ABD USL | 02:30 | Veri bekleniyor | - | 3.73 | 7 |
+| The Strongest - Oriente Petrole | Bolivya Premier Lig | 03:00 | Veri bekleniyor | - | 1.05 | 4 |
+| Forward Madiso - Richmond Kicker | ABD USL Lig 1 | 03:00 | Veri bekleniyor | - | 1.37 | 7 |
+| Barcelona Gua - Guayaquil City | Ekvador Pro Lig | 03:30 | Veri bekleniyor | - | 1.34 | 7 |
