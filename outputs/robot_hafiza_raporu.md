@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-14T08:40:35+03:00
+Güncelleme: 2026-07-15T08:41:53+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 56
+- Toplam tahmin kaydı: 36
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -16,10 +16,10 @@ Güncelleme: 2026-07-14T08:40:35+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 26 | 0 | 0 | 26 | %0 | 0 |
+| Değerli market yok | 18 | 0 | 0 | 18 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 2 | 8 | 0 | 0 | 8 | %0 | 4.04 |
-| MS X | 22 | 0 | 0 | 22 | %0 | 3.57 |
+| MS 2 | 8 | 0 | 0 | 8 | %0 | 4.36 |
+| MS X | 10 | 0 | 0 | 10 | %0 | 3.07 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -29,44 +29,42 @@ Güncelleme: 2026-07-14T08:40:35+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 2 | 0 | 0 | 2 | %0 | 2.86 |
-| 3.00-4.99 | 22 | 0 | 0 | 22 | %0 | 3.35 |
-| 5.00+ | 6 | 0 | 0 | 6 | %0 | 5.24 |
-| bilinmiyor | 26 | 0 | 0 | 26 | %0 | 0 |
+| 2.00-2.99 | 4 | 0 | 0 | 4 | %0 | 2.83 |
+| 3.00-4.99 | 12 | 0 | 0 | 12 | %0 | 3.66 |
+| 5.00+ | 2 | 0 | 0 | 2 | %0 | 5.16 |
+| bilinmiyor | 18 | 0 | 0 | 18 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Avustralya FFA Kupası Son 32 Turu | 4 | 0 | 0 | 4 | %0 | 3.28 |
-| Dünya Kupası 2026 Yarı Final | 2 | 0 | 0 | 2 | %0 | 2.86 |
-| Hazırlık Kulüpler | 8 | 0 | 0 | 8 | %0 | 3.38 |
+| Avustralya FFA Kupası Son 32 Turu | 4 | 0 | 0 | 4 | %0 | 0 |
+| Avustralya NPL Kuzey YGG | 4 | 0 | 0 | 4 | %0 | 0 |
+| Dünya Kupası 2026 Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ekvador Pro Lig | 2 | 0 | 0 | 2 | %0 | 2.73 |
+| Finlandiya Ykkösliiga | 2 | 0 | 0 | 2 | %0 | 4.84 |
+| Hazırlık Kulüpler | 6 | 0 | 0 | 6 | %0 | 3.91 |
+| Kazakistan Kupa Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
 | Paraguay Kupa 2.Tur | 2 | 0 | 0 | 2 | %0 | 0 |
-| UEFA Konferans Ligi 1. Eleme Turu | 2 | 0 | 0 | 2 | %0 | 0 |
-| Çin Halk Cumhuriyeti Süper Lig | 2 | 0 | 0 | 2 | %0 | 5.07 |
-| İskoçya Lig Kupası Grup A | 4 | 0 | 0 | 4 | %0 | 0 |
-| İskoçya Lig Kupası Grup B | 4 | 0 | 0 | 4 | %0 | 3.07 |
-| İskoçya Lig Kupası Grup C | 4 | 0 | 0 | 4 | %0 | 4.22 |
-| İskoçya Lig Kupası Grup D | 4 | 0 | 0 | 4 | %0 | 3.44 |
-| İskoçya Lig Kupası Grup E | 4 | 0 | 0 | 4 | %0 | 5.58 |
-| İskoçya Lig Kupası Grup F | 4 | 0 | 0 | 4 | %0 | 3.08 |
+| UEFA Konferans Ligi 1. Eleme Turu | 4 | 0 | 0 | 4 | %0 | 3.13 |
+| UEFA Şampiyonlar Ligi 1.Eleme Turu | 8 | 0 | 0 | 8 | %0 | 3.62 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Annan VS Dundee | 2 | 0 | 0 | 2 | %0 | 0 |
-| Apia VS Peninsula Power | 2 | 0 | 0 | 2 | %0 | 0 |
-| Brechin VS Livingston | 2 | 0 | 0 | 2 | %0 | 0 |
-| Brora Rangers VS Aberdeen | 2 | 0 | 0 | 2 | %0 | 0 |
-| Clyde VS Airdrieonians | 2 | 0 | 0 | 2 | %0 | 3.44 |
-| Cove Rangers VS East Kilbride | 2 | 0 | 0 | 2 | %0 | 3.38 |
-| Cristobal Colo VS 3 De Noviembre | 2 | 0 | 0 | 2 | %0 | 0 |
-| Dunfermline VS Dumbarton | 2 | 0 | 0 | 2 | %0 | 5.07 |
-| East Fife VS Morton | 2 | 0 | 0 | 2 | %0 | 3.08 |
-| Edinburg C. VS Alloa | 2 | 0 | 0 | 2 | %0 | 0 |
-| Elgin VS Peterhead | 2 | 0 | 0 | 2 | %0 | 3.21 |
-| Falkirk VS Ayr Utd | 2 | 0 | 0 | 2 | %0 | 0 |
+| Atert Bissen (1) VS (2) Kí Klaksvík | 2 | 0 | 0 | 2 | %0 | 3.1 |
+| Atletico Coleg VS Fernando De La | 2 | 0 | 0 | 2 | %0 | 0 |
+| Charlestow Cit VS Weston Bears | 2 | 0 | 0 | 2 | %0 | 0 |
+| Decic Tuzi (0) VS (1) Liepaja | 2 | 0 | 0 | 2 | %0 | 2.94 |
+| Egnatia (1) VS (1) Petrocub | 2 | 0 | 0 | 2 | %0 | 4.13 |
+| Jippo Joensuu VS Mikkelin | 2 | 0 | 0 | 2 | %0 | 4.84 |
+| Kahibah VS Maitland | 2 | 0 | 0 | 2 | %0 | 0 |
+| Libertad VS T.Universitario | 2 | 0 | 0 | 2 | %0 | 2.73 |
+| Lyon VS Servette | 2 | 0 | 0 | 2 | %0 | 5.16 |
+| Malisheva (1) VS (2) Vllaznia | 2 | 0 | 0 | 2 | %0 | 3.32 |
+| Marlin Coast R VS Moreland Zebras | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ordabasy VS Altay | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
