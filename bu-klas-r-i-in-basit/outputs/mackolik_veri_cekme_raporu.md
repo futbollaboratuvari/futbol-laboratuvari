@@ -1,24 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-15T00:12:02.405894+00:00
+Tarih: 2026-07-15T00:53:30.111680+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 29
+- Kac mac bulundu: 18
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 29
+- Kac mac zaten vardi: 18
 - Ham veri havuzu toplam mac sayisi: 1879
 - Hedef tarih: 15.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
 - Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Kuzey YGG
-- Bolivya Premier Lig
 - Dünya Kupası 2026 Yarı Final
 - Ekvador Pro Lig
 - Finlandiya Ykkösliiga
@@ -112,11 +109,9 @@ Tarih: 2026-07-15T00:12:02.405894+00:00
 | 15.07.2026 | 18:00 | Kazakistan Kupa Yarı Final | Ordabasy | Altay | 07836 | 5 |
 | 15.07.2026 | 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu | Mikkelin | 07860 | 5 |
 | 15.07.2026 | 20:00 | Ekvador Pro Lig | Libertad | T.Universitario | 07908 | 5 |
-| 16.07.2026 | 03:30 | Ekvador Pro Lig | Barcelona Gua | Guayaquil City | 08181 | 5 |
-| 16.07.2026 | 01:00 | Ekvador Pro Lig | Univ Catolica | Ldu Quito | 08058 | 5 |
-| 16.07.2026 | 01:00 | Ekvador Pro Lig | Leones Del Nor | Deportivo Cuenc | 07933 | 5 |
 | 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Kahibah | Maitland | 00330 | 3 |
 | 15.07.2026 | 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit | Weston Bears | 00153 | 3 |
+| 15.07.2026 | 21:30 | Paraguay Kupa 2.Tur | Atletico Coleg | Fernando De La | 10423 | 5 |
 
 ## Sonuc
 
