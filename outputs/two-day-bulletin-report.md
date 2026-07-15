@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
-Ham mac: 43
-Aktif mac: 40
-Canli mac: 3
+Ham mac: 40
+Aktif mac: 39
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 27
+Bultenden dusurulen mac: 1
+Bugun: 26
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-15 15:00 | Hazırlık Kulüpler | Aarhus - Horsens | scheduled | -
 - 2026-07-15 16:00 | Hazırlık Kulüpler | Salzburg - Gamba Osaka | scheduled | -
 - 2026-07-15 17:30 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | scheduled | -
 - 2026-07-15 18:00 | Kazakistan Kupa Yarı Final | Ordabasy - Altay | scheduled | -
@@ -53,9 +52,7 @@ Yarin: 13
 - 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | scheduled | -
 
 ## Canli Maclar
-- 2026-07-15 13:00 | Avustralya FFA Kupası Son 32 Turu | White City Woo - North Sunshine | live | -
-- 2026-07-15 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | live | -
-- 2026-07-15 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Weston Bears | live | -
+- 2026-07-15 15:00 | Hazırlık Kulüpler | Aarhus - Horsens | live | -
 
 ## Biten Maclar
 Biten mac yok.
