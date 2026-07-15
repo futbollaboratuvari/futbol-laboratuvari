@@ -1,20 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-15T20:16:06.467527+00:00
+Tarih: 2026-07-15T21:13:47.989551+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 3
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 3
-- Ham veri havuzu toplam mac sayisi: 1903
-- Hedef tarih: 15.07.2026 Europe/Istanbul
+- Kac mac bulundu: 52
+- Kac mac kaydedildi: 52
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 1955
+- Hedef tarih: 16.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- Arjantin Kupa Son 32 Turu
+- Bolivya Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
+- Kanada Premier Lig
+- Meksika Liga MX Apertura
+- Norveç Eliteserien
+- Paraguay Kupa 2.Tur
+- Polonya Süper Kupa
+- Tanzanya 1. Lig Play-Off
+- UEFA Avrupa Ligi 1. Eleme Turu
+- UEFA Konferans Ligi 1. Eleme Turu
+- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -71,8 +86,8 @@ Tarih: 2026-07-15T20:16:06.467527+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 7
-- Acilan detay: 7
+- Denenen Tumu alani: 16
+- Acilan detay: 16
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -85,9 +100,26 @@ Tarih: 2026-07-15T20:16:06.467527+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 15.07.2026 | 20:00 | Hazırlık Kulüpler | Monchengladbac | Koblenz | 14263 | 3 |
-| 15.07.2026 | 19:00 | Hazırlık Kulüpler | Stade Lavalloi | Quevilly-Rouen | 14229 | 5 |
-| 15.07.2026 | 18:00 | Hazırlık Kulüpler | Sturm Graz | Pogon Szczecin | 14104 | 5 |
+| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Derry City (2) | (3) Cska Sofia | 07474 | 5 |
+| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Universitatea (0) | (0) Dynamo Kiev | 07397 | 5 |
+| 16.07.2026 | 21:30 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) | (2) Hajduk Split | 07204 | 5 |
+| 16.07.2026 | 21:15 | UEFA Avrupa Ligi 1. Eleme Turu | Ferencvaros (2) | (1) Vojvodina | 07297 | 5 |
+| 16.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Aluminij (0) | (0) Sheriff Tiraspo | 07341 | 5 |
+| 16.07.2026 | 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) | (3) Qarabagh | 10193 | 4 |
+| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) | (3) Stjarnan | 10186 | 5 |
+| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) | (1) Mondorf Les Bai | 10183 | 5 |
+| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) | (1) Af Elbasani | 10182 | 5 |
+| 16.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Ballkani (0) | (0) Gap Connahs Qua | 10189 | 5 |
+| 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) | (2) Descaldes | 08299 | 5 |
+| 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) | (0) Marsaxlokk Fc | 10176 | 5 |
+| 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) | (1) Nomme Kalju | 07198 | 5 |
+| 16.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Hamrun (1) | (1) Runavik | 07473 | 5 |
+| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Zalgiris Vilni (3) | (1) Petrovac | 10188 | 5 |
+| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Milsami-Ursido (1) | (1) Velez Mostar | 10185 | 5 |
+| 16.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Virtus (1) | (3) Dila Gori | 07196 | 5 |
+| 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Paide Linnamee (1) | (1) Hegelmann | 10175 | 5 |
+| 16.07.2026 | 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Astana (1) | (0) Dinamo Tirana | 10173 | 5 |
+| 16.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Skendija (5) | (0) College Europa | 10190 | 5 |
 
 ## Sonuc
 
