@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
-Ham mac: 52
-Aktif mac: 32
-Canli mac: 17
-Biten mac: 3
-Bultenden dusurulen mac: 20
-Bugun: 20
+Ham mac: 49
+Aktif mac: 30
+Canli mac: 19
+Biten mac: 0
+Bultenden dusurulen mac: 19
+Bugun: 18
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | scheduled | -
-- 2026-07-15 03:30 | ABD USL Lig 2 Play-Off | New England - Ironbound | scheduled | -
 - 2026-07-15 12:30 | Avustralya FFA Kupası Son 32 Turu | Marlin Coast R - Moreland Zebras | scheduled | -
 - 2026-07-15 13:00 | Avustralya FFA Kupası Son 32 Turu | White City Woo - North Sunshine | scheduled | -
 - 2026-07-15 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | scheduled | -
@@ -62,8 +60,8 @@ Yarin: 12
 - 2026-07-15 03:00 | UEFA Şampiyonlar Ligi 1.Eleme Turu | Inter Escaldes (1) - (3) Lincoln Red Imp | live | -
 - 2026-07-15 03:00 | Ekvador Pro Lig | Manta - Delfin | live | -
 - 2026-07-15 03:00 | Bolivya Premier Lig | Blooming - Gualberto Villa | live | -
+- 2026-07-15 03:30 | Bolivya Premier Lig | Blooming - Gualberto Villa | live | -
+- 2026-07-15 03:30 | ABD USL Lig 2 Play-Off | New England - Ironbound | live | -
 
 ## Biten Maclar
-- 2026-07-15 00:00 | Paraguay Kupa 2.Tur | Sportivo Limpe - General Caballe | finished | -
-- 2026-07-15 00:30 | Ekvador Pro Lig | Depor Macara - Mushuc Runa | finished | -
-- 2026-07-15 01:00 | Bolivya Premier Lig | Real Oruro - Always Ready | finished | -
+Biten mac yok.
