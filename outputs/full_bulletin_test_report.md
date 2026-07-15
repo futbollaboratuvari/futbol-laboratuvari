@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 16
+- Scheduled match count: 17
 - Live match count: 10
-- Finished removed count: 8
+- Finished removed count: 0
 - Date window: 2026-07-15 / 2026-07-16 23:59
 
 - 2026-07-15 20:00 | Libertad - T.Universitario | live
