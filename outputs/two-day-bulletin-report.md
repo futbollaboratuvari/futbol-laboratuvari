@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 66
+Ham mac: 65
 Aktif mac: 58
 Canli mac: 7
-Biten mac: 1
-Bultenden dusurulen mac: 8
+Biten mac: 0
+Bultenden dusurulen mac: 7
 Bugun: 44
 Yarin: 14
 
@@ -80,4 +80,4 @@ Yarin: 14
 - 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | live | -
 
 ## Biten Maclar
-- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -
+Biten mac yok.
