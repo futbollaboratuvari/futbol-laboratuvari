@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 19
+Ham mac: 17
 Aktif mac: 14
 Canli mac: 3
-Biten mac: 2
-Bultenden dusurulen mac: 5
+Biten mac: 0
+Bultenden dusurulen mac: 3
 Bugun: 0
 Yarin: 14
 
@@ -32,5 +32,4 @@ Yarin: 14
 - 2026-07-16 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) - (3) Qarabagh | live | -
 
 ## Biten Maclar
-- 2026-07-16 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Virtus (1) - (3) Dila Gori | finished | -
-- 2026-07-16 22:00 | Bolivya Premier Lig | Academia Del B - Independiente P | finished | -
+Biten mac yok.

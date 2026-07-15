@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 65
+- Scheduled match count: 16
 - Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-07-16 / 2026-07-17 23:59
 
 - 2026-07-16 00:00 | 4 De Mayo - Sportivo Carape | live
-- 2026-07-16 01:00 | Real Potosi - San Antonio Bul | scheduled
-- 2026-07-16 01:00 | Leones Del Nor - Deportivo Cuenc | scheduled
-- 2026-07-16 01:00 | Univ Catolica - Ldu Quito | scheduled
-- 2026-07-16 01:30 | One Knoxville - Fort Wayne | scheduled
-- 2026-07-16 02:00 | Lexington - New Mexico Unit | scheduled
-- 2026-07-16 02:00 | Chattanooga Re - Alta | scheduled
-- 2026-07-16 02:00 | Miami Fc - Indy Eleven | scheduled
-- 2026-07-16 02:30 | Sporting Jax - Pittsburgh Rive | scheduled
-- 2026-07-16 03:00 | Forward Madiso - Richmond Kicker | scheduled
+- 2026-07-17 00:30 | Aucas - Indep. Jose Ter | scheduled
+- 2026-07-17 00:45 | Racing Club - Defensa Justici | scheduled
+- 2026-07-17 01:30 | Botafogo - Santos | scheduled
+- 2026-07-17 01:30 | Vitoria Bahia - Vasco Da Gama | scheduled
+- 2026-07-17 02:00 | Regatas - Nautico | scheduled
+- 2026-07-17 02:00 | Forge - Pacific Fc | scheduled
+- 2026-07-17 02:30 | Montreal - Toronto | scheduled
+- 2026-07-17 03:00 | Orense - Emelec | scheduled
+- 2026-07-17 03:30 | Chicago - Vancouver | scheduled
