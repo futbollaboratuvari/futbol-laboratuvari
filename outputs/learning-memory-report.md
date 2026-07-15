@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 15.07.2026 20:40:30
-=======
-Oluşturma: 15.07.2026 20:40:55
->>>>>>> Stashed changes
+Oluşturma: 15.07.2026 20:43:22
 
 ## Özet
 
-- Toplam tahmin: 28
-- Bekleyen tahmin: 28
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 5
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 15.07.2026 20:40:55
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-15 | Hazırlık Kulüpler | Lyon - Servette | MS 2 | pending | 40/100
-- 2026-07-15 | Ekvador Pro Lig | Libertad - T.Universitario | MS 1 | pending | 40/100
-- 2026-07-15 | Hazırlık Kulüpler | Cordoba - Orlando Pirates | MS X | pending | 50/100
-- 2026-07-15 | Hazırlık Kulüpler | Vitesse - Aek | MS 1 | pending | 40/100
-- 2026-07-15 | Hazırlık Kulüpler | Salzburg - Gamba Osaka | MS 2 | pending | 60/100
-- 2026-07-15 | Hazırlık Kulüpler | Polonia Varşov - Zlin | MS X | pending | 50/100
-- 2026-07-15 | Hazırlık Kulüpler | Zaglebie Sosno - Polonia Nysa | MS 2 | pending | 50/100
-- 2026-07-15 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | MS 2 | pending | 50/100
-- 2026-07-15 | Hazırlık Kulüpler | Ajax - Bochum | MS 2 | pending | 60/100
-- 2026-07-15 | Hazırlık Kulüpler | Sturm Graz - Pogon Szczecin | MS X | pending | 70/100
-- 2026-07-15 | Hazırlık Kulüpler | E.Cottbus - Mlada Boleslav | MS X | pending | 50/100
-- 2026-07-15 | Hazırlık Kulüpler | Fc Fleury 91 - Boulogne | MS X | pending | 40/100
-- 2026-07-15 | Hazırlık Kulüpler | Jablonec - Metalist 1925 K | MS X | pending | 50/100
-- 2026-07-15 | Hazırlık Kulüpler | Zaglebie Sosno - Polonia Nysa | MS X | pending | 50/100
-- 2026-07-15 | Finlandiya Ykkösliiga | Jippo Joensuu - Mikkelin | MS 2 | pending | 60/100
 
