@@ -3,21 +3,17 @@
 Gunler: 2026-07-15 / 2026-07-16
 Kaynak: fixtures.json
 Ham mac: 44
-Aktif mac: 33
-Canli mac: 11
+Aktif mac: 29
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 20
+Bultenden dusurulen mac: 15
+Bugun: 16
 Yarin: 13
 
 ## Baslamamis Maclar
-- 2026-07-15 19:00 | Hazırlık Kulüpler | Rapid Wien - Panathinaikos | scheduled | -
-- 2026-07-15 19:00 | Hazırlık Kulüpler | Lyon - Servette | scheduled | -
-- 2026-07-15 19:00 | Hazırlık Kulüpler | Stade Lavalloi - Quevilly-Rouen | scheduled | -
-- 2026-07-15 19:00 | Hazırlık Kulüpler | Aldershot - Portsmouth | scheduled | -
-- 2026-07-15 19:00 | Hazırlık Kulüpler | Eintracht Trie - Fortuna Köln | scheduled | -
 - 2026-07-15 19:30 | Hazırlık Kulüpler | Chemnitzer - Unterhaching | scheduled | -
 - 2026-07-15 19:30 | Hazırlık Kulüpler | Solihull Moors - Birmingham | scheduled | -
+- 2026-07-15 19:30 | Hazırlık Kulüpler | Lyon - Servette | scheduled | -
 - 2026-07-15 20:00 | Ekvador Pro Lig | Libertad - T.Universitario | scheduled | -
 - 2026-07-15 20:00 | Hazırlık Kulüpler | Vitesse - Aek | scheduled | -
 - 2026-07-15 20:00 | Hazırlık Kulüpler | Monchengladbac - Koblenz | scheduled | -
@@ -46,7 +42,6 @@ Yarin: 13
 - 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | scheduled | -
 
 ## Canli Maclar
-- 2026-07-15 16:00 | Hazırlık Kulüpler | Salzburg - Gamba Osaka | live | -
 - 2026-07-15 17:30 | UEFA Konferans Ligi 1. Eleme Turu | Malisheva (1) - (2) Vllaznia | live | -
 - 2026-07-15 18:00 | Kazakistan Kupa Yarı Final | Ordabasy - Altay | live | -
 - 2026-07-15 18:00 | Hazırlık Kulüpler | Ajax - Bochum | live | -
@@ -57,6 +52,11 @@ Yarin: 13
 - 2026-07-15 18:00 | Hazırlık Kulüpler | Polonia Varşov - Zlin | live | -
 - 2026-07-15 18:00 | Hazırlık Kulüpler | Zaglebie Sosno - Polonia Nysa | live | -
 - 2026-07-15 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu - Mikkelin | live | -
+- 2026-07-15 19:00 | Hazırlık Kulüpler | Rapid Wien - Panathinaikos | live | -
+- 2026-07-15 19:00 | Hazırlık Kulüpler | Lyon - Servette | live | -
+- 2026-07-15 19:00 | Hazırlık Kulüpler | Stade Lavalloi - Quevilly-Rouen | live | -
+- 2026-07-15 19:00 | Hazırlık Kulüpler | Aldershot - Portsmouth | live | -
+- 2026-07-15 19:00 | Hazırlık Kulüpler | Eintracht Trie - Fortuna Köln | live | -
 
 ## Biten Maclar
 Biten mac yok.

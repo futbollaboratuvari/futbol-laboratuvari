@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.07.2026 19:05:51
+Oluşturma: 15.07.2026 19:12:45
 
 ## Özet
 
-- Toplam tahmin: 27
-- Bekleyen tahmin: 27
+- Toplam tahmin: 28
+- Bekleyen tahmin: 28
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 5
@@ -20,12 +20,13 @@ Oluşturma: 15.07.2026 19:05:51
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 - MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-15 | Hazırlık Kulüpler | Lyon - Servette | MS 2 | pending | 40/100
 - 2026-07-15 | Ekvador Pro Lig | Libertad - T.Universitario | MS 1 | pending | 40/100
 - 2026-07-15 | Hazırlık Kulüpler | Cordoba - Orlando Pirates | MS X | pending | 50/100
 - 2026-07-15 | Hazırlık Kulüpler | Vitesse - Aek | MS 1 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 15.07.2026 19:05:51
 - 2026-07-15 | Hazırlık Kulüpler | Jablonec - Metalist 1925 K | MS X | pending | 50/100
 - 2026-07-15 | Hazırlık Kulüpler | Zaglebie Sosno - Polonia Nysa | MS X | pending | 50/100
 - 2026-07-15 | Finlandiya Ykkösliiga | Jippo Joensuu - Mikkelin | MS 2 | pending | 60/100
-- 2026-07-15 | Hazırlık Kulüpler | Rapid Wien - Panathinaikos | MS X | pending | 70/100
 
