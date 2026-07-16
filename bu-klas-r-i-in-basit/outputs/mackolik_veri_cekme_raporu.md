@@ -1,21 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-16T19:36:27.980954+00:00
+Tarih: 2026-07-16T19:38:24.410986+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 3
+- Kac mac bulundu: 17
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 3
+- Kac mac zaten vardi: 17
 - Ham veri havuzu toplam mac sayisi: 1968
 - Hedef tarih: 16.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
 - ABD USL Lig 2 Konferans Çeyrek Final
+- Arjantin Kupa Son 32 Turu
+- Brezilya Serie A
+- Brezilya Serie B
+- Ekvador Pro Lig
+- Kanada Premier Lig
 - Kazakistan 1.Lig
+- Meksika Liga MX Apertura
 - UEFA Avrupa Ligi 1. Eleme Turu
 
 ## Okunabilen Oran Alanlari
@@ -88,6 +95,20 @@ Tarih: 2026-07-16T19:36:27.980954+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 16.07.2026 | 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) | (3) Qarabagh | 10193 | 4 |
+| 17.07.2026 | 03:30 | ABD MLS | St. Louis City | Kansas | 05952 | 5 |
+| 17.07.2026 | 02:30 | ABD MLS | Montreal | Toronto | 04741 | 5 |
+| 17.07.2026 | 03:30 | ABD MLS | Chicago | Vancouver | 05551 | 5 |
+| 17.07.2026 | 05:30 | ABD MLS | Seattle | Portland | 06159 | 5 |
+| 17.07.2026 | 01:30 | Brezilya Serie A | Botafogo | Santos | 00039 | 5 |
+| 17.07.2026 | 01:30 | Brezilya Serie A | Vitoria Bahia | Vasco Da Gama | 06563 | 5 |
+| 17.07.2026 | 04:00 | Meksika Liga MX Apertura | Necaxa | Atlante | 09058 | 5 |
+| 17.07.2026 | 06:10 | Meksika Liga MX Apertura | Club Tijuana | Tigres Uanl | 09166 | 5 |
+| 17.07.2026 | 00:45 | Arjantin Kupa Son 32 Turu | Racing Club | Defensa Justici | 08373 | 5 |
+| 17.07.2026 | 03:45 | Arjantin Kupa Son 32 Turu | Sarmiento | Boca Juniors | 09041 | 5 |
+| 17.07.2026 | 02:00 | Brezilya Serie B | Regatas | Nautico | 08447 | 5 |
+| 17.07.2026 | 03:00 | Ekvador Pro Lig | Orense | Emelec | 09023 | 5 |
+| 17.07.2026 | 00:30 | Ekvador Pro Lig | Aucas | Indep. Jose Ter | 08338 | 5 |
+| 17.07.2026 | 02:00 | Kanada Premier Lig | Forge | Pacific Fc | 08937 | 5 |
 | 16.07.2026 | 16:00 | Kazakistan 1.Lig | Fk Taraz | Aktobe Jas | 17706 | 5 |
 | 16.07.2026 | 23:00 | ABD USL Lig 2 Konferans Çeyrek Final | Minneapolis Ci | West Virginia C | 06645 | 3 |
 

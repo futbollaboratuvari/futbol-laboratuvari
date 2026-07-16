@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 21
-- Live match count: 24
-- Finished removed count: 2
+- Scheduled match count: 16
+- Live match count: 17
+- Finished removed count: 0
 - Date window: 2026-07-16 / 2026-07-17 23:59
 
-- 2026-07-16 19:30 | Varazdin - Beltinci | live
-- 2026-07-16 19:30 | Wiener Neustad - Qpr | live
-- 2026-07-16 19:30 | Daugava Riga (2) - (1) Glentoran | live
-- 2026-07-16 19:30 | Levadia Tallin (5) - (0) Caernarfon | live
-- 2026-07-16 20:00 | Valerenga - Aalesund | live
-- 2026-07-16 20:00 | Lech Poznan - Gornik Zabrze | live
-- 2026-07-16 20:00 | Bate Borisov (1) - (1) Af Elbasani | live
-- 2026-07-16 20:00 | Dinamo Tiflis (2) - (1) Mondorf Les Bai | live
-- 2026-07-16 20:00 | Milsami-Ursido (1) - (1) Velez Mostar | live
-- 2026-07-16 20:00 | Santa Coloma (1) - (0) Penybont | live
+- 2026-07-16 20:30 | Derry City (2) - (3) Cska Sofia | live
+- 2026-07-16 20:30 | Universitatea (0) - (0) Dynamo Kiev | live
+- 2026-07-16 20:30 | Hamrun (1) - (1) Runavik | live
+- 2026-07-16 21:00 | Aluminij (0) - (0) Sheriff Tiraspo | live
+- 2026-07-16 21:00 | Ballkani (0) - (0) Gap Connahs Qua | live
+- 2026-07-16 21:00 | Fk Sileks (1) - (0) Dinamo Minsk | live
+- 2026-07-16 21:00 | Skendija (5) - (0) College Europa | live
+- 2026-07-16 21:15 | Ferencvaros (2) - (1) Vojvodina | live
+- 2026-07-16 21:30 | Glenavon - Doncaster | live
+- 2026-07-16 21:30 | Ansar - Jwaya | live
