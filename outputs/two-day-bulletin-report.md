@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 66
+Ham mac: 53
 Aktif mac: 52
 Canli mac: 1
-Biten mac: 13
-Bultenden dusurulen mac: 14
+Biten mac: 0
+Bultenden dusurulen mac: 1
 Bugun: 38
 Yarin: 14
 
@@ -68,16 +68,4 @@ Yarin: 14
 - 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | live | -
 
 ## Biten Maclar
-- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -
-- 2026-07-16 01:00 | Ekvador Pro Lig | Leones Del Nor - Deportivo Cuenc | finished | -
-- 2026-07-16 01:00 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | finished | -
-- 2026-07-16 01:00 | Bolivya Premier Lig | Real Potosi - San Antonio Bul | finished | -
-- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | finished | -
-- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | finished | -
-- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | finished | -
-- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | finished | -
-- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | finished | -
-- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | finished | -
-- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | finished | -
-- 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | finished | -
-- 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | finished | -
+Biten mac yok.
