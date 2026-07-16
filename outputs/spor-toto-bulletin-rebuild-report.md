@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-16T15:52:59.315Z
+- Guncelleme: 2026-07-16T18:18:24.538Z
 - Ham fixture sayisi: 1961
 - Bugun/yarin kaynak mac: 79
-- Aktif bulten maci: 53
+- Aktif bulten maci: 25
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 26
+- Bultenden dusurulen mac: 54
 
-- 1. 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Ilves (0) - (0) Differdange | scheduled
-- 2. 2026-07-16 19:00 | Hazırlık Kulüpler | Jagiellonia - Sparta Prag | scheduled
-- 3. 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Paide Linnamee (1) - (1) Hegelmann | scheduled
-- 4. 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) - (0) Marsaxlokk Fc | scheduled
-- 5. 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | St Josephs (0) - (2) Bohemian | scheduled
-- 6. 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Torpedo Kutais (0) - (3) Zira | scheduled
-- 7. 2026-07-16 19:15 | İran Azadegan Ligi | Sanat Mes Kerm - Navad Urmia Fc | scheduled
-- 8. 2026-07-16 19:15 | Hazırlık Kulüpler | Slovan Bratisl - Pafos Fc | scheduled
-- 9. 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Daugava Riga (2) - (1) Glentoran | scheduled
-- 10. 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Levadia Tallin (5) - (0) Caernarfon | scheduled
-- 11. 2026-07-16 19:30 | Hazırlık Kulüpler | Varazdin - Beltinci | scheduled
-- 12. 2026-07-16 19:30 | Hazırlık Kulüpler | Wiener Neustad - Qpr | scheduled
-- 13. 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | scheduled
-- 14. 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) - (1) Mondorf Les Bai | scheduled
-- 15. 2026-07-16 20:00 | Polonya Süper Kupa | Lech Poznan - Gornik Zabrze | scheduled
+- 1. 2026-07-16 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Jwaya | scheduled
+- 2. 2026-07-16 21:30 | Paraguay Kupa 2.Tur | Fulgencio Yegr - 24 De Setiembre | scheduled
+- 3. 2026-07-16 21:30 | Hazırlık Kulüpler | Glenavon - Doncaster | scheduled
+- 4. 2026-07-16 21:30 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) - (2) Hajduk Split | scheduled
+- 5. 2026-07-16 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) - (1) Nomme Kalju | scheduled
+- 6. 2026-07-16 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) - (2) Descaldes | scheduled
+- 7. 2026-07-16 22:00 | Bolivya Premier Lig | Academia Del B - Independiente P | scheduled
+- 8. 2026-07-16 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Virtus (1) - (3) Dila Gori | scheduled
+- 9. 2026-07-16 22:15 | İzlanda 1.Lig | Afturelding - Leiknir Reykjav | scheduled
+- 10. 2026-07-16 23:00 | ABD USL Lig 2 Konferans Çeyrek Final | Minneapolis Ci - West Virginia C | scheduled
+- 11. 2026-07-16 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) - (3) Qarabagh | scheduled
+- 12. 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | scheduled
+- 13. 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | scheduled
+- 14. 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | scheduled
+- 15. 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | scheduled
