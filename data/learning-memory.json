@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-16T10:48:20.573Z",
-  "updated_at": "2026-07-16T21:48:50.569Z",
+  "updated_at": "2026-07-16T21:53:58.679Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 40,
-    "pending_predictions": 40,
+    "total_predictions": 41,
+    "pending_predictions": 41,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 12,
+    "league_count": 13,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 1,
+    "updated_predictions": 0,
+    "last_score_link_checked": 41,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
     "MS 2": {
-      "total": 16,
-      "pending": 16,
+      "total": 17,
+      "pending": 17,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,6 +52,16 @@
     }
   },
   "league_memory": {
+    "ABD USL Lig 2 Konferans Çeyrek Final": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Meksika Liga MX Apertura": {
       "total": 2,
       "pending": 2,
@@ -170,6 +184,16 @@
     }
   },
   "league_market_memory": {
+    "ABD USL Lig 2 Konferans Çeyrek Final :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Meksika Liga MX Apertura :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -373,6 +397,23 @@
   },
   "predictions": [
     {
+      "id": "2026-07-17|abd usl lig 2 konferans ceyrek final|steel city northern indian|ms 2|23 00",
+      "date": "2026-07-17",
+      "created_at": "2026-07-16T21:53:58.275Z",
+      "match_name": "Steel City - Northern Indian",
+      "league": "ABD USL Lig 2 Konferans Çeyrek Final",
+      "start_time": "23:00",
+      "market": "MS 2",
+      "odds": "3.52",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-17|meksika liga mx apertura|necaxa atlante|ms 2|04 00",
       "date": "2026-07-17",
       "created_at": "2026-07-16T21:28:01.671Z",
@@ -438,7 +479,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-16T21:53:58.274Z"
     },
     {
       "id": "2026-07-17|brezilya serie a|vitoria bahia vasco da gama|ms x|01 30",

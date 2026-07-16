@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.07.2026 00:48:50
+Oluşturma: 17.07.2026 00:53:58
 
 ## Özet
 
-- Toplam tahmin: 40
-- Bekleyen tahmin: 40
+- Toplam tahmin: 41
+- Bekleyen tahmin: 41
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 12
+- Lig sayısı: 13
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 17.07.2026 00:48:50
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS X: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-17 | ABD USL Lig 2 Konferans Çeyrek Final | Steel City - Northern Indian | MS 2 | pending | 40/100
 - 2026-07-17 | Meksika Liga MX Apertura | Necaxa - Atlante | MS 2 | pending | 50/100
 - 2026-07-17 | ABD MLS | Seattle - Portland | MS 2 | pending | 40/100
 - 2026-07-17 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | MS 1 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 17.07.2026 00:48:50
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | MS 1 | pending | 40/100
 - 2026-07-16 | Polonya Süper Kupa | Lech Poznan - Gornik Zabrze | MS X | pending | 50/100
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) - (0) Marsaxlokk Fc | MS X | pending | 60/100
-- 2026-07-16 | Kazakistan 1.Lig | Fk Taraz - Aktobe Jas | MS 1 | pending | 40/100
 
