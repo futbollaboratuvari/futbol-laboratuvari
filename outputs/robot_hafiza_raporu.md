@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-15T08:41:53+03:00
+Güncelleme: 2026-07-16T08:49:47+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 36
+- Toplam tahmin kaydı: 91
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -16,10 +16,11 @@ Güncelleme: 2026-07-15T08:41:53+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 18 | 0 | 0 | 18 | %0 | 0 |
+| Değerli market yok | 55 | 0 | 0 | 55 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 2 | 8 | 0 | 0 | 8 | %0 | 4.36 |
-| MS X | 10 | 0 | 0 | 10 | %0 | 3.07 |
+| MS 1 | 4 | 0 | 0 | 4 | %0 | 3.15 |
+| MS 2 | 20 | 0 | 0 | 20 | %0 | 4.3 |
+| MS X | 12 | 0 | 0 | 12 | %0 | 3.13 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -29,42 +30,44 @@ Güncelleme: 2026-07-15T08:41:53+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 4 | 0 | 0 | 4 | %0 | 2.83 |
-| 3.00-4.99 | 12 | 0 | 0 | 12 | %0 | 3.66 |
-| 5.00+ | 2 | 0 | 0 | 2 | %0 | 5.16 |
-| bilinmiyor | 18 | 0 | 0 | 18 | %0 | 0 |
+| 2.00-2.99 | 6 | 0 | 0 | 6 | %0 | 2.96 |
+| 3.00-4.99 | 28 | 0 | 0 | 28 | %0 | 3.84 |
+| 5.00+ | 2 | 0 | 0 | 2 | %0 | 5.54 |
+| bilinmiyor | 55 | 0 | 0 | 55 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Avustralya FFA Kupası Son 32 Turu | 4 | 0 | 0 | 4 | %0 | 0 |
-| Avustralya NPL Kuzey YGG | 4 | 0 | 0 | 4 | %0 | 0 |
-| Dünya Kupası 2026 Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
-| Ekvador Pro Lig | 2 | 0 | 0 | 2 | %0 | 2.73 |
-| Finlandiya Ykkösliiga | 2 | 0 | 0 | 2 | %0 | 4.84 |
-| Hazırlık Kulüpler | 6 | 0 | 0 | 6 | %0 | 3.91 |
-| Kazakistan Kupa Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
-| Paraguay Kupa 2.Tur | 2 | 0 | 0 | 2 | %0 | 0 |
-| UEFA Konferans Ligi 1. Eleme Turu | 4 | 0 | 0 | 4 | %0 | 3.13 |
-| UEFA Şampiyonlar Ligi 1.Eleme Turu | 8 | 0 | 0 | 8 | %0 | 3.62 |
+| ABD USL | 3 | 0 | 0 | 3 | %0 | 0 |
+| ABD USL Lig 1 | 3 | 0 | 0 | 3 | %0 | 0 |
+| Bolivya Premier Lig | 4 | 0 | 0 | 4 | %0 | 0 |
+| Ekvador Pro Lig | 3 | 0 | 0 | 3 | %0 | 0 |
+| Hazırlık Kulüpler | 9 | 0 | 0 | 9 | %0 | 3.17 |
+| Norveç Eliteserien | 2 | 0 | 0 | 2 | %0 | 3.81 |
+| Paraguay Kupa 2.Tur | 3 | 0 | 0 | 3 | %0 | 0 |
+| Polonya Süper Kupa | 2 | 0 | 0 | 2 | %0 | 3.25 |
+| Tanzanya 1. Lig Play-Off | 2 | 0 | 0 | 2 | %0 | 0 |
+| UEFA Avrupa Ligi 1. Eleme Turu | 12 | 0 | 0 | 12 | %0 | 3.74 |
+| UEFA Konferans Ligi 1. Eleme Turu | 46 | 0 | 0 | 46 | %0 | 3.96 |
+| İzlanda 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Atert Bissen (1) VS (2) Kí Klaksvík | 2 | 0 | 0 | 2 | %0 | 3.1 |
-| Atletico Coleg VS Fernando De La | 2 | 0 | 0 | 2 | %0 | 0 |
-| Charlestow Cit VS Weston Bears | 2 | 0 | 0 | 2 | %0 | 0 |
-| Decic Tuzi (0) VS (1) Liepaja | 2 | 0 | 0 | 2 | %0 | 2.94 |
-| Egnatia (1) VS (1) Petrocub | 2 | 0 | 0 | 2 | %0 | 4.13 |
-| Jippo Joensuu VS Mikkelin | 2 | 0 | 0 | 2 | %0 | 4.84 |
-| Kahibah VS Maitland | 2 | 0 | 0 | 2 | %0 | 0 |
-| Libertad VS T.Universitario | 2 | 0 | 0 | 2 | %0 | 2.73 |
-| Lyon VS Servette | 2 | 0 | 0 | 2 | %0 | 5.16 |
-| Malisheva (1) VS (2) Vllaznia | 2 | 0 | 0 | 2 | %0 | 3.32 |
-| Marlin Coast R VS Moreland Zebras | 2 | 0 | 0 | 2 | %0 | 0 |
-| Ordabasy VS Altay | 2 | 0 | 0 | 2 | %0 | 0 |
+| 4 De Mayo VS Sportivo Carape | 1 | 0 | 0 | 1 | %0 | 0 |
+| Academia Del B VS Independiente P | 2 | 0 | 0 | 2 | %0 | 0 |
+| Afturelding VS Leiknir Reykjav | 2 | 0 | 0 | 2 | %0 | 0 |
+| Aluminij (0) VS (0) Sheriff Tiraspo | 2 | 0 | 0 | 2 | %0 | 3.31 |
+| Astana (1) VS (0) Dinamo Tirana | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ballkani (0) VS (0) Gap Connahs Qua | 2 | 0 | 0 | 2 | %0 | 0 |
+| Barcelona Gua VS Guayaquil City | 1 | 0 | 0 | 1 | %0 | 0 |
+| Bate Borisov (1) VS (1) Af Elbasani | 2 | 0 | 0 | 2 | %0 | 2.98 |
+| Chattanooga Re VS Alta | 1 | 0 | 0 | 1 | %0 | 0 |
+| Daugava Riga (2) VS (1) Glentoran | 2 | 0 | 0 | 2 | %0 | 0 |
+| Derry City (2) VS (3) Cska Sofia | 2 | 0 | 0 | 2 | %0 | 0 |
+| Dinamo Tiflis (2) VS (1) Mondorf Les Bai | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -74,6 +77,7 @@ Güncelleme: 2026-07-15T08:41:53+03:00
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
