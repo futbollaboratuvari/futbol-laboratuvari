@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 16
-- Live match count: 7
-- Finished removed count: 4
-- Date window: 2026-07-16 / 2026-07-17 23:59
+- Scheduled match count: 115
+- Live match count: 1
+- Finished removed count: 0
+- Date window: 2026-07-17 / 2026-07-18 23:59
 
-- 2026-07-16 21:45 | Linfield (0) - (1) Nomme Kalju | live
-- 2026-07-16 21:45 | Mornar Bar (1) - (2) Descaldes | live
-- 2026-07-16 22:00 | Academia Del B - Independiente P | live
-- 2026-07-16 22:00 | Virtus (1) - (3) Dila Gori | live
-- 2026-07-16 22:15 | Afturelding - Leiknir Reykjav | live
-- 2026-07-16 23:00 | Minneapolis Ci - West Virginia C | live
-- 2026-07-16 23:00 | Vestri (0) - (3) Qarabagh | live
-- 2026-07-17 00:30 | Aucas - Indep. Jose Ter | scheduled
+- 2026-07-17 00:30 | Aucas - Indep. Jose Ter | live
 - 2026-07-17 00:45 | Racing Club - Defensa Justici | scheduled
 - 2026-07-17 01:30 | Botafogo - Santos | scheduled
+- 2026-07-17 01:30 | Vitoria Bahia - Vasco Da Gama | scheduled
+- 2026-07-17 02:00 | Regatas - Nautico | scheduled
+- 2026-07-17 02:00 | Forge - Pacific Fc | scheduled
+- 2026-07-17 02:30 | Montreal - Toronto | scheduled
+- 2026-07-17 03:00 | Orense - Emelec | scheduled
+- 2026-07-17 03:00 | Forge - Pacific Fc | scheduled
+- 2026-07-17 03:30 | Chicago - Vancouver | scheduled
