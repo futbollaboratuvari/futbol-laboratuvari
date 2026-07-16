@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 37
-- Live match count: 2
+- Scheduled match count: 112
+- Live match count: 4
 - Finished removed count: 0
 - Date window: 2026-07-17 / 2026-07-18 23:59
 
 - 2026-07-17 00:30 | Aucas - Indep. Jose Ter | live
 - 2026-07-17 00:45 | Racing Club - Defensa Justici | live
-- 2026-07-18 00:00 | Nueva Chicago - Agropecuario | scheduled
-- 2026-07-18 00:45 | San Lorenzo - Riestra | scheduled
-- 2026-07-18 01:00 | America Mineir - Ceara | scheduled
-- 2026-07-18 01:00 | Juventude - Cuiaba | scheduled
-- 2026-07-18 01:00 | Sao Bernardo - Avai | scheduled
-- 2026-07-18 01:30 | Ferro Carril O - Colon Santa Fe | scheduled
-- 2026-07-18 01:30 | Bahia - Chapecoense | scheduled
-- 2026-07-18 01:30 | Nacional Df - Montevideo Wand | scheduled
+- 2026-07-17 01:30 | Botafogo - Santos | live
+- 2026-07-17 01:30 | Vitoria Bahia - Vasco Da Gama | live
+- 2026-07-17 02:00 | Regatas - Nautico | scheduled
+- 2026-07-17 02:00 | Forge - Pacific Fc | scheduled
+- 2026-07-17 02:30 | Montreal - Toronto | scheduled
+- 2026-07-17 03:00 | Orense - Emelec | scheduled
+- 2026-07-17 03:00 | Forge - Pacific Fc | scheduled
+- 2026-07-17 03:30 | Chicago - Vancouver | scheduled
