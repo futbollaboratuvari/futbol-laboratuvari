@@ -1,24 +1,26 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-16 / 2026-07-17
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 59
-Aktif mac: 58
-Canli mac: 1
+Kaynak: fixtures.json
+Ham mac: 61
+Aktif mac: 61
+Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 44
+Bultenden dusurulen mac: 0
+Bugun: 47
 Yarin: 14
 
 ## Baslamamis Maclar
 - 2026-07-16 15:00 | Hazırlık Kulüpler | Kopenhag - Viborg | scheduled | -
+- 2026-07-16 15:00 | Kazakistan 1.Lig | Fk Taraz - Aktobe Jas | scheduled | -
 - 2026-07-16 16:00 | Tanzanya 1. Lig Play-Off | Tanzania Priso - Polisi Tanzania | scheduled | -
+- 2026-07-16 17:00 | Hazırlık Kulüpler | Nurnberg Ii - Avusturya Luste | scheduled | -
 - 2026-07-16 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Nejmeh | scheduled | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Astana (1) - (0) Dinamo Tirana | scheduled | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Inter Turku (1) - (1) Sarajevo | scheduled | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Yelimay Semey (1) - (1) Alashkert | scheduled | -
 - 2026-07-16 18:30 | Hazırlık Kulüpler | Slaven Belupo - Paksi | scheduled | -
+- 2026-07-16 18:30 | Hazırlık Kulüpler | Metalist 1925 - Hradec Kralove | scheduled | -
 - 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) - (0) Marsaxlokk Fc | scheduled | -
 - 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Paide Linnamee (1) - (1) Hegelmann | scheduled | -
 - 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Ilves (0) - (0) Differdange | scheduled | -
@@ -72,7 +74,7 @@ Yarin: 14
 - 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
 
 ## Canli Maclar
-- 2026-07-16 11:30 | Hazırlık Kulüpler | Varazdin - Kustosija | live | -
+Canli mac yok.
 
 ## Biten Maclar
 Biten mac yok.
