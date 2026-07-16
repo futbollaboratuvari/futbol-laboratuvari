@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.07.2026 18:53:30
+Oluşturma: 16.07.2026 18:56:21
 
 ## Özet
 
-- Toplam tahmin: 26
-- Bekleyen tahmin: 26
+- Toplam tahmin: 27
+- Bekleyen tahmin: 27
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 7
@@ -20,12 +20,13 @@ Oluşturma: 16.07.2026 18:53:30
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS X: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) - (0) Marsaxlokk Fc | MS X | pending | 60/100
 - 2026-07-16 | Kazakistan 1.Lig | Fk Taraz - Aktobe Jas | MS 1 | pending | 40/100
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | MS X | pending | 40/100
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) - (0) Penybont | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 16.07.2026 18:53:30
 - 2026-07-16 | Hazırlık Kulüpler | Nurnberg Ii - Avusturya Luste | MS X | pending | 50/100
 - 2026-07-16 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Nejmeh | MS X | pending | 40/100
 - 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Inter Turku (1) - (1) Sarajevo | MS 2 | pending | 60/100
-- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Yelimay Semey (1) - (1) Alashkert | MS 2 | pending | 50/100
 
