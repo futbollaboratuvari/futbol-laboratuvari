@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 61
+Ham mac: 79
 Aktif mac: 59
-Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
+Canli mac: 3
+Biten mac: 17
+Bultenden dusurulen mac: 20
 Bugun: 45
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-16 16:00 | Tanzanya 1. Lig Play-Off | Tanzania Priso - Polisi Tanzania | scheduled | -
-- 2026-07-16 17:00 | Hazırlık Kulüpler | Nurnberg Ii - Avusturya Luste | scheduled | -
 - 2026-07-16 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Nejmeh | scheduled | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Astana (1) - (0) Dinamo Tirana | scheduled | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Inter Turku (1) - (1) Sarajevo | scheduled | -
@@ -26,9 +24,11 @@ Yarin: 14
 - 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Torpedo Kutais (0) - (3) Zira | scheduled | -
 - 2026-07-16 19:00 | Hazırlık Kulüpler | Jagiellonia - Sparta Prag | scheduled | -
 - 2026-07-16 19:15 | Hazırlık Kulüpler | Slovan Bratisl - Pafos Fc | scheduled | -
+- 2026-07-16 19:15 | İran Azadegan Ligi | Sanat Mes Kerm - Navad Urmia Fc | scheduled | -
 - 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Daugava Riga (2) - (1) Glentoran | scheduled | -
 - 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Levadia Tallin (5) - (0) Caernarfon | scheduled | -
 - 2026-07-16 19:30 | Hazırlık Kulüpler | Wiener Neustad - Qpr | scheduled | -
+- 2026-07-16 19:30 | Hazırlık Kulüpler | Varazdin - Beltinci | scheduled | -
 - 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) - (3) Stjarnan | scheduled | -
 - 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) - (1) Mondorf Les Bai | scheduled | -
 - 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | scheduled | -
@@ -72,8 +72,25 @@ Yarin: 14
 - 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
 
 ## Canli Maclar
-- 2026-07-16 15:00 | Hazırlık Kulüpler | Kopenhag - Viborg | live | -
-- 2026-07-16 15:00 | Kazakistan 1.Lig | Fk Taraz - Aktobe Jas | live | -
+- 2026-07-16 16:00 | Tanzanya 1. Lig Play-Off | Tanzania Priso - Polisi Tanzania | live | -
+- 2026-07-16 16:00 | Kazakistan 1.Lig | Fk Taraz - Aktobe Jas | live | -
+- 2026-07-16 17:00 | Hazırlık Kulüpler | Nurnberg Ii - Avusturya Luste | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Leones Del Nor - Deportivo Cuenc | finished | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | finished | -
+- 2026-07-16 01:00 | Bolivya Premier Lig | Real Potosi - San Antonio Bul | finished | -
+- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | finished | -
+- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | finished | -
+- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | finished | -
+- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | finished | -
+- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | finished | -
+- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | finished | -
+- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | finished | -
+- 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | finished | -
+- 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | finished | -
+- 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | finished | -
+- 2026-07-16 11:30 | Hazırlık Kulüpler | Varazdin - Kustosija | finished | -
+- 2026-07-16 15:00 | Hazırlık Kulüpler | Kopenhag - Viborg | finished | -
+- 2026-07-16 15:00 | Kazakistan 1.Lig | Fk Taraz - Aktobe Jas | finished | -
