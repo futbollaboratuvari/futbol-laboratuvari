@@ -3,26 +3,14 @@
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
 Ham mac: 60
-Aktif mac: 53
-Canli mac: 7
+Aktif mac: 41
+Canli mac: 19
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 39
+Bultenden dusurulen mac: 19
+Bugun: 27
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) - (0) Marsaxlokk Fc | scheduled | -
-- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Paide Linnamee (1) - (1) Hegelmann | scheduled | -
-- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Ilves (0) - (0) Differdange | scheduled | -
-- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | St Josephs (0) - (2) Bohemian | scheduled | -
-- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Torpedo Kutais (0) - (3) Zira | scheduled | -
-- 2026-07-16 19:00 | Hazırlık Kulüpler | Jagiellonia - Sparta Prag | scheduled | -
-- 2026-07-16 19:15 | Hazırlık Kulüpler | Slovan Bratisl - Pafos Fc | scheduled | -
-- 2026-07-16 19:15 | İran Azadegan Ligi | Sanat Mes Kerm - Navad Urmia Fc | scheduled | -
-- 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Daugava Riga (2) - (1) Glentoran | scheduled | -
-- 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Levadia Tallin (5) - (0) Caernarfon | scheduled | -
-- 2026-07-16 19:30 | Hazırlık Kulüpler | Wiener Neustad - Qpr | scheduled | -
-- 2026-07-16 19:30 | Hazırlık Kulüpler | Varazdin - Beltinci | scheduled | -
 - 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) - (3) Stjarnan | scheduled | -
 - 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) - (1) Mondorf Les Bai | scheduled | -
 - 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | scheduled | -
@@ -73,6 +61,18 @@ Yarin: 14
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Yelimay Semey (1) - (1) Alashkert | live | -
 - 2026-07-16 18:30 | Hazırlık Kulüpler | Slaven Belupo - Paksi | live | -
 - 2026-07-16 18:30 | Hazırlık Kulüpler | Metalist 1925 - Hradec Kralove | live | -
+- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) - (0) Marsaxlokk Fc | live | -
+- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Paide Linnamee (1) - (1) Hegelmann | live | -
+- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Ilves (0) - (0) Differdange | live | -
+- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | St Josephs (0) - (2) Bohemian | live | -
+- 2026-07-16 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Torpedo Kutais (0) - (3) Zira | live | -
+- 2026-07-16 19:00 | Hazırlık Kulüpler | Jagiellonia - Sparta Prag | live | -
+- 2026-07-16 19:15 | Hazırlık Kulüpler | Slovan Bratisl - Pafos Fc | live | -
+- 2026-07-16 19:15 | İran Azadegan Ligi | Sanat Mes Kerm - Navad Urmia Fc | live | -
+- 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Daugava Riga (2) - (1) Glentoran | live | -
+- 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Levadia Tallin (5) - (0) Caernarfon | live | -
+- 2026-07-16 19:30 | Hazırlık Kulüpler | Wiener Neustad - Qpr | live | -
+- 2026-07-16 19:30 | Hazırlık Kulüpler | Varazdin - Beltinci | live | -
 
 ## Biten Maclar
 Biten mac yok.
