@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 53
-- Live match count: 8
-- Finished removed count: 4
+- Scheduled match count: 52
+- Live match count: 1
+- Finished removed count: 0
 - Date window: 2026-07-16 / 2026-07-17 23:59
 
-- 2026-07-16 02:00 | Lexington - New Mexico Unit | live
-- 2026-07-16 02:00 | Chattanooga Re - Alta | live
-- 2026-07-16 02:00 | Miami Fc - Indy Eleven | live
-- 2026-07-16 02:30 | Sporting Jax - Pittsburgh Rive | live
-- 2026-07-16 03:00 | Forward Madiso - Richmond Kicker | live
-- 2026-07-16 03:00 | The Strongest - Oriente Petrole | live
-- 2026-07-16 03:00 | Varazdin - Kustosija | live
-- 2026-07-16 03:30 | Barcelona Gua - Guayaquil City | live
-- 2026-07-16 04:30 | Salt Lake - Burnley | scheduled
+- 2026-07-16 04:30 | Salt Lake - Burnley | live
 - 2026-07-16 16:00 | Tanzania Priso - Polisi Tanzania | scheduled
+- 2026-07-16 18:00 | Astana (1) - (0) Dinamo Tirana | scheduled
+- 2026-07-16 18:00 | Inter Turku (1) - (1) Sarajevo | scheduled
+- 2026-07-16 18:00 | Yelimay Semey (1) - (1) Alashkert | scheduled
+- 2026-07-16 18:30 | Slaven Belupo - Paksi | scheduled
+- 2026-07-16 19:00 | Ilves (0) - (0) Differdange | scheduled
+- 2026-07-16 19:00 | Paide Linnamee (1) - (1) Hegelmann | scheduled
+- 2026-07-16 19:00 | Pyunik Erewan (3) - (0) Marsaxlokk Fc | scheduled
+- 2026-07-16 19:00 | St Josephs (0) - (2) Bohemian | scheduled

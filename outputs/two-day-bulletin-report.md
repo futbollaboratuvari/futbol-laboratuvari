@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 65
-Aktif mac: 53
-Canli mac: 12
-Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 39
+Ham mac: 66
+Aktif mac: 52
+Canli mac: 1
+Biten mac: 13
+Bultenden dusurulen mac: 14
+Bugun: 38
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | scheduled | -
 - 2026-07-16 16:00 | Tanzanya 1. Lig Play-Off | Tanzania Priso - Polisi Tanzania | scheduled | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Astana (1) - (0) Dinamo Tirana | scheduled | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Inter Turku (1) - (1) Sarajevo | scheduled | -
@@ -66,18 +65,19 @@ Yarin: 14
 - 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
 
 ## Canli Maclar
-- 2026-07-16 01:00 | Ekvador Pro Lig | Leones Del Nor - Deportivo Cuenc | live | -
-- 2026-07-16 01:00 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | live | -
-- 2026-07-16 01:00 | Bolivya Premier Lig | Real Potosi - San Antonio Bul | live | -
-- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | live | -
-- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | live | -
-- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | live | -
-- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | live | -
-- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | live | -
-- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | live | -
-- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | live | -
-- 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | live | -
-- 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | live | -
+- 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Leones Del Nor - Deportivo Cuenc | finished | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | finished | -
+- 2026-07-16 01:00 | Bolivya Premier Lig | Real Potosi - San Antonio Bul | finished | -
+- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | finished | -
+- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | finished | -
+- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | finished | -
+- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | finished | -
+- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | finished | -
+- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | finished | -
+- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | finished | -
+- 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | finished | -
+- 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | finished | -
