@@ -2,13 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 25
-- Live match count: 22
-- Finished removed count: 0
+- Scheduled match count: 21
+- Live match count: 24
+- Finished removed count: 2
 - Date window: 2026-07-16 / 2026-07-17 23:59
 
-- 2026-07-16 19:15 | Slovan Bratisl - Pafos Fc | live
-- 2026-07-16 19:15 | Sanat Mes Kerm - Navad Urmia Fc | live
 - 2026-07-16 19:30 | Varazdin - Beltinci | live
 - 2026-07-16 19:30 | Wiener Neustad - Qpr | live
 - 2026-07-16 19:30 | Daugava Riga (2) - (1) Glentoran | live
@@ -17,3 +15,5 @@
 - 2026-07-16 20:00 | Lech Poznan - Gornik Zabrze | live
 - 2026-07-16 20:00 | Bate Borisov (1) - (1) Af Elbasani | live
 - 2026-07-16 20:00 | Dinamo Tiflis (2) - (1) Mondorf Les Bai | live
+- 2026-07-16 20:00 | Milsami-Ursido (1) - (1) Velez Mostar | live
+- 2026-07-16 20:00 | Santa Coloma (1) - (0) Penybont | live
