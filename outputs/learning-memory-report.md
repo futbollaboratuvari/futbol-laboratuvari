@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.07.2026 01:39:48
+Oluşturma: 17.07.2026 01:47:24
 
 ## Özet
 
-- Toplam tahmin: 41
-- Bekleyen tahmin: 41
+- Toplam tahmin: 70
+- Bekleyen tahmin: 70
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 13
+- Lig sayısı: 22
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 17.07.2026 01:39:48
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
-- MS X: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
+- MS X: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-17 | ABD USL Lig 2 Konferans Çeyrek Final | Steel City - Northern Indian | MS 2 | pending | 40/100
-- 2026-07-17 | Meksika Liga MX Apertura | Necaxa - Atlante | MS 2 | pending | 50/100
-- 2026-07-17 | ABD MLS | Seattle - Portland | MS 2 | pending | 40/100
-- 2026-07-17 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | MS 1 | pending | 50/100
-- 2026-07-17 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | MS 1 | pending | 40/100
-- 2026-07-17 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | MS X | pending | 40/100
-- 2026-07-17 | Brezilya Serie A | Botafogo - Santos | MS X | pending | 50/100
-- 2026-07-17 | Brezilya Serie B | Regatas - Nautico | MS 2 | pending | 50/100
-- 2026-07-17 | ABD MLS | Montreal - Toronto | MS X | pending | 50/100
-- 2026-07-17 | Ekvador Pro Lig | Orense - Emelec | MS 2 | pending | 40/100
-- 2026-07-17 | ABD MLS | Chicago - Vancouver | MS X | pending | 70/100
-- 2026-07-17 | ABD MLS | St. Louis City - Kansas | MS 2 | pending | 40/100
-- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | MS 1 | pending | 40/100
-- 2026-07-16 | Polonya Süper Kupa | Lech Poznan - Gornik Zabrze | MS X | pending | 50/100
-- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) - (0) Marsaxlokk Fc | MS X | pending | 60/100
+- 2026-07-17 | Finlandiya Ykkösliiga | Kapa - Sjk Ii | MS X | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Eldense - Millwall | MS X | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Wattens - Hertha Berlin | MS 1 | pending | 40/100
+- 2026-07-17 | İsveç Allsvenskan | Göteborg - Brommapojkarna | MS X | pending | 50/100
+- 2026-07-17 | İsveç Allsvenskan | Mjallby - Vasteras | MS 2 | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Getafe - Reading | MS 2 | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Motherwell - Genk | MS X | pending | 60/100
+- 2026-07-17 | Hazırlık Kulüpler | Austria Vienna - Paksi | MS 2 | pending | 50/100
+- 2026-07-17 | Sırbistan Süper Lig | Zeleznicar Pan - Radnicki Nis | MS 2 | pending | 50/100
+- 2026-07-17 | Peru Premier Lig Clausura | Fc Cajamarca - Juan Pablo Ii C | MS 2 | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Lugano - Vaduz | MS 2 | pending | 60/100
+- 2026-07-17 | Romanya 1.Lig | Fc Steaua - Argesul Pitesti | MS 2 | pending | 60/100
+- 2026-07-17 | Hazırlık Kulüpler | Hearts - Vallecano | MS X | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Benfica - Villarreal | MS X | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Leganes - Albacete | MS X | pending | 40/100
 
