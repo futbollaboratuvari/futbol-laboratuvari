@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 66
+Ham mac: 65
 Aktif mac: 54
 Canli mac: 11
-Biten mac: 1
-Bultenden dusurulen mac: 12
+Biten mac: 0
+Bultenden dusurulen mac: 11
 Bugun: 40
 Yarin: 14
 
@@ -80,4 +80,4 @@ Yarin: 14
 - 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | live | -
 
 ## Biten Maclar
-- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -
+Biten mac yok.

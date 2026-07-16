@@ -1,7 +1,7 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: waiting_data
-Tahmin sayisi: 28
+Tahmin sayisi: 29
 Hazir market hafizasi: 0/3
 Hazir lig hafizasi: 0/9
 Hazir lig+market hafizasi: 0/16
