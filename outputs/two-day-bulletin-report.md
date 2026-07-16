@@ -2,23 +2,15 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 60
-Aktif mac: 41
-Canli mac: 19
+Ham mac: 58
+Aktif mac: 33
+Canli mac: 25
 Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 27
+Bultenden dusurulen mac: 25
+Bugun: 19
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) - (3) Stjarnan | scheduled | -
-- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) - (1) Mondorf Les Bai | scheduled | -
-- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | scheduled | -
-- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Zalgiris Vilni (3) - (1) Petrovac | scheduled | -
-- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Milsami-Ursido (1) - (1) Velez Mostar | scheduled | -
-- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) - (0) Penybont | scheduled | -
-- 2026-07-16 20:00 | Polonya Süper Kupa | Lech Poznan - Gornik Zabrze | scheduled | -
-- 2026-07-16 20:00 | Norveç Eliteserien | Valerenga - Aalesund | scheduled | -
 - 2026-07-16 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Derry City (2) - (3) Cska Sofia | scheduled | -
 - 2026-07-16 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Universitatea (0) - (0) Dynamo Kiev | scheduled | -
 - 2026-07-16 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Hamrun (1) - (1) Runavik | scheduled | -
@@ -54,8 +46,6 @@ Yarin: 14
 - 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
 
 ## Canli Maclar
-- 2026-07-16 17:00 | Hazırlık Kulüpler | Nurnberg Ii - Avusturya Luste | live | -
-- 2026-07-16 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Nejmeh | live | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Astana (1) - (0) Dinamo Tirana | live | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Inter Turku (1) - (1) Sarajevo | live | -
 - 2026-07-16 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Yelimay Semey (1) - (1) Alashkert | live | -
@@ -73,6 +63,14 @@ Yarin: 14
 - 2026-07-16 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Levadia Tallin (5) - (0) Caernarfon | live | -
 - 2026-07-16 19:30 | Hazırlık Kulüpler | Wiener Neustad - Qpr | live | -
 - 2026-07-16 19:30 | Hazırlık Kulüpler | Varazdin - Beltinci | live | -
+- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) - (3) Stjarnan | live | -
+- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) - (1) Mondorf Les Bai | live | -
+- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | live | -
+- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Zalgiris Vilni (3) - (1) Petrovac | live | -
+- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Milsami-Ursido (1) - (1) Velez Mostar | live | -
+- 2026-07-16 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) - (0) Penybont | live | -
+- 2026-07-16 20:00 | Polonya Süper Kupa | Lech Poznan - Gornik Zabrze | live | -
+- 2026-07-16 20:00 | Norveç Eliteserien | Valerenga - Aalesund | live | -
 
 ## Biten Maclar
 Biten mac yok.
