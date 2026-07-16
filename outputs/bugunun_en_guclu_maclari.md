@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-16T23:04:15.977Z
+- Güncelleme: 2026-07-16T23:12:17.211Z
 - Ham maç sayısı: 116
 - Yarın bülteni maç sayısı: 34
 - Detay blok sayısı: 313
@@ -71,7 +71,7 @@
 | Yamoussoukro - Marsilya | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 17.1 | 3 |
 | Kizilyildiz - Macva | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | - | 3 |
 | Zeleznicar Pan - Radnicki Nis | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 1.57 | 8 |
-| Fc Cajamarca - Juan Pablo Ii C | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.72 | 8 |
+| Fc Cajamarca - Juan Pablo Ii C | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.76 | 8 |
 | Almirante - Caseros | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.34 | 6 |
 | Maipu - San Martin Tucu | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.31 | 6 |
 | Albion - Juventud Dl Pie | Uruguay Premier Lig Intermediate Turu Grup 2 | 21:00 | Veri bekleniyor | - | 1.84 | 5 |
