@@ -3,7 +3,7 @@
 Durum: izleme
 Aktif bulten maci: 53
 Arsiv maci: 1948
-Biten mac: 1895
+Biten mac: 1896
 Skorlu arsiv maci: 0
 Tahmin sayisi: 30
 Bekleyen tahmin: 30
