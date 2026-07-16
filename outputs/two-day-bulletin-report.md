@@ -3,15 +3,14 @@
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
 Ham mac: 116
-Aktif mac: 110
-Canli mac: 6
+Aktif mac: 109
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 76
+Bultenden dusurulen mac: 7
+Bugun: 75
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 02:30 | ABD MLS | Montreal - Toronto | scheduled | -
 - 2026-07-17 03:00 | Ekvador Pro Lig | Orense - Emelec | scheduled | -
 - 2026-07-17 03:00 | Kanada Premier Lig | Forge - Pacific Fc | scheduled | -
 - 2026-07-17 03:30 | ABD MLS | Chicago - Vancouver | scheduled | -
@@ -129,6 +128,7 @@ Yarin: 34
 - 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | live | -
 - 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | live | -
 - 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | live | -
+- 2026-07-17 02:30 | ABD MLS | Montreal - Toronto | live | -
 
 ## Biten Maclar
 Biten mac yok.

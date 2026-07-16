@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.07.2026 02:12:17
+Oluşturma: 17.07.2026 02:37:57
 
 ## Özet
 
-- Toplam tahmin: 71
-- Bekleyen tahmin: 71
+- Toplam tahmin: 72
+- Bekleyen tahmin: 72
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 22
@@ -20,12 +20,13 @@ Oluşturma: 17.07.2026 02:12:17
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
 - MS X: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-17 | Avustralya NPL Victoria | Green Gully - Dandenong Thund | MS 2 | pending | 50/100
 - 2026-07-17 | Peru Premier Lig Clausura | Fc Cajamarca - Juan Pablo Ii C | MS X | pending | 50/100
 - 2026-07-17 | Finlandiya Ykkösliiga | Kapa - Sjk Ii | MS X | pending | 50/100
 - 2026-07-17 | Hazırlık Kulüpler | Eldense - Millwall | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 17.07.2026 02:12:17
 - 2026-07-17 | Hazırlık Kulüpler | Lugano - Vaduz | MS 2 | pending | 60/100
 - 2026-07-17 | Romanya 1.Lig | Fc Steaua - Argesul Pitesti | MS 2 | pending | 60/100
 - 2026-07-17 | Hazırlık Kulüpler | Hearts - Vallecano | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Benfica - Villarreal | MS X | pending | 50/100
 
