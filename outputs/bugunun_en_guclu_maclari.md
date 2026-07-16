@@ -1,90 +1,73 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-16T14:19:10.655Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-07-16T14:25:35.053Z
+- Ham maç sayısı: 62
+- Yarın bülteni maç sayısı: 14
+- Detay blok sayısı: 179
+- Aktif bülten maçı: 59
+- Bültenden düşürülen maç: 3
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Tanzania Priso VS Polisi Tanzania | Tanzanya 1. Lig Play-Off | 16:00 | Değerli market yok | - | 5 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Fk Taraz VS Aktobe Jas | Kazakistan 1.Lig | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Nurnberg Ii VS Avusturya Luste | Hazırlık Kulüpler | 17:00 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Ahed VS Nejmeh | Lübnan Premier Lig Şampiyonluk Turu | 17:30 | MS X | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Astana (1) VS (0) Dinamo Tirana | UEFA Konferans Ligi 1. Eleme Turu | 18:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Inter Turku (1) VS (1) Sarajevo | UEFA Konferans Ligi 1. Eleme Turu | 18:00 | MS 2 | 3.97 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Yelimay Semey (1) VS (1) Alashkert | UEFA Konferans Ligi 1. Eleme Turu | 18:00 | MS 2 | 3.91 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Slaven Belupo VS Paksi | Hazırlık Kulüpler | 18:30 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Metalist 1925 VS Hradec Kralove | Hazırlık Kulüpler | 18:30 | MS 1 | 3.52 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Pyunik Erewan (3) VS (0) Marsaxlokk Fc | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Paide Linnamee (1) VS (1) Hegelmann | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | MS 2 | 3.63 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ilves (0) VS (0) Differdange | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | MS 2 | 4.12 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| St Josephs (0) VS (2) Bohemian | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Torpedo Kutais (0) VS (3) Zira | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Jagiellonia VS Sparta Prag | Hazırlık Kulüpler | 19:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Slovan Bratisl VS Pafos Fc | Hazırlık Kulüpler | 19:15 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Sanat Mes Kerm VS Navad Urmia Fc | İran Azadegan Ligi | 19:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Daugava Riga (2) VS (1) Glentoran | UEFA Konferans Ligi 1. Eleme Turu | 19:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Levadia Tallin (5) VS (0) Caernarfon | UEFA Konferans Ligi 1. Eleme Turu | 19:30 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Wiener Neustad VS Qpr | Hazırlık Kulüpler | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Varazdin VS Beltinci | Hazırlık Kulüpler | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Vikingur Gota (1) VS (3) Stjarnan | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | MS X | 3.33 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Dinamo Tiflis (2) VS (1) Mondorf Les Bai | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Bate Borisov (1) VS (1) Af Elbasani | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | MS X | 2.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Zalgiris Vilni (3) VS (1) Petrovac | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Milsami-Ursido (1) VS (1) Velez Mostar | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Santa Coloma (1) VS (0) Penybont | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | MS 2 | 4.90 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Lech Poznan VS Gornik Zabrze | Polonya Süper Kupa | 20:00 | MS 2 | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Valerenga VS Aalesund | Norveç Eliteserien | 20:00 | MS 2 | 3.86 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Derry City (2) VS (3) Cska Sofia | UEFA Avrupa Ligi 1. Eleme Turu | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Universitatea (0) VS (0) Dynamo Kiev | UEFA Avrupa Ligi 1. Eleme Turu | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Hamrun (1) VS (1) Runavik | UEFA Konferans Ligi 1. Eleme Turu | 20:30 | MS 2 | 4.39 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Aluminij (0) VS (0) Sheriff Tiraspo | UEFA Avrupa Ligi 1. Eleme Turu | 21:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Ballkani (0) VS (0) Gap Connahs Qua | UEFA Konferans Ligi 1. Eleme Turu | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Skendija (5) VS (0) College Europa | UEFA Konferans Ligi 1. Eleme Turu | 21:00 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Fk Sileks (1) VS (0) Dinamo Minsk | UEFA Konferans Ligi 1. Eleme Turu | 21:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Ferencvaros (2) VS (1) Vojvodina | UEFA Avrupa Ligi 1. Eleme Turu | 21:15 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Zilina (0) VS (2) Hajduk Split | UEFA Avrupa Ligi 1. Eleme Turu | 21:30 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Glenavon VS Doncaster | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Fulgencio Yegr VS 24 De Setiembre | Paraguay Kupa 2.Tur | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Ansar VS Jwaya | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | MS 2 | 5.15 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Mornar Bar (1) VS (2) Descaldes | UEFA Konferans Ligi 1. Eleme Turu | 21:45 | MS 2 | 5.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Linfield (0) VS (1) Nomme Kalju | UEFA Konferans Ligi 1. Eleme Turu | 21:45 | MS 2 | 5.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Virtus (1) VS (3) Dila Gori | UEFA Konferans Ligi 1. Eleme Turu | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Academia Del B VS Independiente P | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Afturelding VS Leiknir Reykjav | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Vestri (0) VS (3) Qarabagh | UEFA Avrupa Ligi 1. Eleme Turu | 23:00 | Değerli market yok | - | 45 | Sadece izleme | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Minneapolis Ci VS West Virginia C | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Aucas VS Indep. Jose Ter | Ekvador Pro Lig | 00:30 | MS X | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Racing Club VS Defensa Justici | Arjantin Kupa Son 32 Turu | 00:45 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Vitoria Bahia VS Vasco Da Gama | Brezilya Serie A | 01:30 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Botafogo VS Santos | Brezilya Serie A | 01:30 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Regatas VS Nautico | Brezilya Serie B | 02:00 | MS 2 | 3.31 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Forge VS Pacific Fc | Kanada Premier Lig | 02:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Montreal VS Toronto | ABD MLS | 02:30 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Orense VS Emelec | Ekvador Pro Lig | 03:00 | MS 2 | 3.02 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Chicago VS Vancouver | ABD MLS | 03:30 | MS X | 3.33 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| St. Louis City VS Kansas | ABD MLS | 03:30 | MS 2 | 5.36 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Sarmiento VS Boca Juniors | Arjantin Kupa Son 32 Turu | 03:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Necaxa VS Atlante | Meksika Liga MX Apertura | 04:00 | MS 2 | 3.31 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Seattle VS Portland | ABD MLS | 05:30 | MS 2 | 4.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Club Tijuana VS Tigres Uanl | Meksika Liga MX Apertura | 06:10 | MS 1 | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Valerenga VS Aalesund | MS 2 | 3.86 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Chicago VS Vancouver | MS X | 3.33 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Valerenga VS Aalesund + Chicago VS Vancouver | MS 2 + MS X | 12.85 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Ahed - Nejmeh | Lübnan Premier Lig Şampiyonluk Turu | 17:30 | Veri bekleniyor | - | 2.57 | 8 |
+| Astana (1) - (0) Dinamo Tirana | UEFA Konferans Ligi 1. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.24 | 6 |
+| Inter Turku (1) - (1) Sarajevo | UEFA Konferans Ligi 1. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.45 | 7 |
+| Yelimay Semey (1) - (1) Alashkert | UEFA Konferans Ligi 1. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.54 | 7 |
+| Slaven Belupo - Paksi | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 2.13 | 8 |
+| Metalist 1925 - Hradec Kralove | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 3.52 | 8 |
+| Pyunik Erewan (3) - (0) Marsaxlokk Fc | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.05 | 6 |
+| Paide Linnamee (1) - (1) Hegelmann | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.59 | 8 |
+| Ilves (0) - (0) Differdange | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.42 | 7 |
+| St Josephs (0) - (2) Bohemian | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 4.14 | 7 |
+| Torpedo Kutais (0) - (3) Zira | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.35 | 8 |
+| Jagiellonia - Sparta Prag | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.93 | 8 |
+| Slovan Bratisl - Pafos Fc | Hazırlık Kulüpler | 19:15 | Veri bekleniyor | - | 2.25 | 8 |
+| Sanat Mes Kerm - Navad Urmia Fc | İran Azadegan Ligi | 19:15 | Veri bekleniyor | - | 1.13 | 6 |
+| Daugava Riga (2) - (1) Glentoran | UEFA Konferans Ligi 1. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.18 | 6 |
+| Levadia Tallin (5) - (0) Caernarfon | UEFA Konferans Ligi 1. Eleme Turu | 19:30 | Veri bekleniyor | - | - | 5 |
+| Wiener Neustad - Qpr | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 17.1 | 3 |
+| Varazdin - Beltinci | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 1.16 | 6 |
+| Vikingur Gota (1) - (3) Stjarnan | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.52 | 8 |
+| Dinamo Tiflis (2) - (1) Mondorf Les Bai | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.21 | 6 |
+| Bate Borisov (1) - (1) Af Elbasani | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.8 | 8 |
+| Zalgiris Vilni (3) - (1) Petrovac | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.23 | 6 |
+| Milsami-Ursido (1) - (1) Velez Mostar | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.96 | 8 |
+| Santa Coloma (1) - (0) Penybont | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.39 | 7 |
+| Lech Poznan - Gornik Zabrze | Polonya Süper Kupa | 20:00 | Veri bekleniyor | - | 1.63 | 8 |
+| Valerenga - Aalesund | Norveç Eliteserien | 20:00 | Veri bekleniyor | - | 1.47 | 8 |
+| Derry City (2) - (3) Cska Sofia | UEFA Avrupa Ligi 1. Eleme Turu | 20:30 | Veri bekleniyor | - | 3.25 | 8 |
+| Universitatea (0) - (0) Dynamo Kiev | UEFA Avrupa Ligi 1. Eleme Turu | 20:30 | Veri bekleniyor | - | 4.55 | 7 |
+| Hamrun (1) - (1) Runavik | UEFA Konferans Ligi 1. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.39 | 7 |
+| Aluminij (0) - (0) Sheriff Tiraspo | UEFA Avrupa Ligi 1. Eleme Turu | 21:00 | Veri bekleniyor | - | 3.36 | 8 |
+| Ballkani (0) - (0) Gap Connahs Qua | UEFA Konferans Ligi 1. Eleme Turu | 21:00 | Veri bekleniyor | - | 1.18 | 6 |
+| Skendija (5) - (0) College Europa | UEFA Konferans Ligi 1. Eleme Turu | 21:00 | Veri bekleniyor | - | - | 5 |
+| Fk Sileks (1) - (0) Dinamo Minsk | UEFA Konferans Ligi 1. Eleme Turu | 21:00 | Veri bekleniyor | - | 3.59 | 8 |
+| Ferencvaros (2) - (1) Vojvodina | UEFA Avrupa Ligi 1. Eleme Turu | 21:15 | Veri bekleniyor | - | 1.16 | 6 |
+| Zilina (0) - (2) Hajduk Split | UEFA Avrupa Ligi 1. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.66 | 8 |
+| Glenavon - Doncaster | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 10.45 | 3 |
+| Fulgencio Yegr - 24 De Setiembre | Paraguay Kupa 2.Tur | 21:30 | Veri bekleniyor | - | 3.88 | 5 |
+| Ansar - Jwaya | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | Veri bekleniyor | - | 1.33 | 7 |
+| Mornar Bar (1) - (2) Descaldes | UEFA Konferans Ligi 1. Eleme Turu | 21:45 | Veri bekleniyor | - | 1.33 | 7 |
+| Linfield (0) - (1) Nomme Kalju | UEFA Konferans Ligi 1. Eleme Turu | 21:45 | Veri bekleniyor | - | 1.33 | 7 |
+| Virtus (1) - (3) Dila Gori | UEFA Konferans Ligi 1. Eleme Turu | 22:00 | Veri bekleniyor | - | 4.17 | 7 |
+| Academia Del B - Independiente P | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 1.54 | 6 |
+| Afturelding - Leiknir Reykjav | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.14 | 4 |
+| Vestri (0) - (3) Qarabagh | UEFA Avrupa Ligi 1. Eleme Turu | 23:00 | Veri bekleniyor | - | 15.95 | 5 |
+| Minneapolis Ci - West Virginia C | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.25 | 3 |
+| Aucas - Indep. Jose Ter | Ekvador Pro Lig | 00:30 | Veri bekleniyor | - | 2.72 | 8 |
+| Racing Club - Defensa Justici | Arjantin Kupa Son 32 Turu | 00:45 | Veri bekleniyor | - | 1.73 | 8 |
+| Vitoria Bahia - Vasco Da Gama | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 2.05 | 8 |
+| Botafogo - Santos | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 1.81 | 8 |
+| Regatas - Nautico | Brezilya Serie B | 02:00 | Veri bekleniyor | - | 1.71 | 8 |
+| Forge - Pacific Fc | Kanada Premier Lig | 02:00 | Veri bekleniyor | - | 1.11 | 6 |
+| Montreal - Toronto | ABD MLS | 02:30 | Veri bekleniyor | - | 1.94 | 8 |
+| Orense - Emelec | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.87 | 8 |
+| Chicago - Vancouver | ABD MLS | 03:30 | Veri bekleniyor | - | 2.4 | 8 |
+| St. Louis City - Kansas | ABD MLS | 03:30 | Veri bekleniyor | - | 1.26 | 6 |
+| Sarmiento - Boca Juniors | Arjantin Kupa Son 32 Turu | 03:45 | Veri bekleniyor | - | 5.21 | 7 |
+| Necaxa - Atlante | Meksika Liga MX Apertura | 04:00 | Veri bekleniyor | - | 1.62 | 8 |
+| Seattle - Portland | ABD MLS | 05:30 | Veri bekleniyor | - | 1.3 | 6 |
+| Club Tijuana - Tigres Uanl | Meksika Liga MX Apertura | 06:10 | Veri bekleniyor | - | 3.11 | 8 |
