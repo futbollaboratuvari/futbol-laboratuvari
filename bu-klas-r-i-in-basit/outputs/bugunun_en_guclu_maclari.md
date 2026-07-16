@@ -87,7 +87,7 @@ MAC_SAYISI: 5
 
 ## Rapor Bilgisi
 
-OLUSTURMA_ZAMANI: 2026-07-16T01:11:29.893957+00:00
+OLUSTURMA_ZAMANI: 2026-07-16T04:28:07.843564+00:00
 TOPLAM_TAHMIN: 135
 SONUCLANAN_TAHMIN: 0
 BEKLEYEN_TAHMIN: 135
@@ -145,8 +145,8 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 ## Tahmin Performans Takibi
 
 - Gelen tahmin: 5
-- Yeni eklenen tahmin: 5
-- Tekrar tahmin: 0
+- Yeni eklenen tahmin: 0
+- Tekrar tahmin: 5
 - Toplam tahmin: 135
 - Dosya: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/tahmin_gecmisi.json
 
