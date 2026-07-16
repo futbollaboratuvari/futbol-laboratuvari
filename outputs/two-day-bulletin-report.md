@@ -2,19 +2,15 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 65
-Aktif mac: 58
-Canli mac: 7
-Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 44
+Ham mac: 66
+Aktif mac: 54
+Canli mac: 11
+Biten mac: 1
+Bultenden dusurulen mac: 12
+Bugun: 40
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | scheduled | -
-- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | scheduled | -
-- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | scheduled | -
-- 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | scheduled | -
 - 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | scheduled | -
 - 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | scheduled | -
 - 2026-07-16 16:00 | Tanzanya 1. Lig Play-Off | Tanzania Priso - Polisi Tanzania | scheduled | -
@@ -78,6 +74,10 @@ Yarin: 14
 - 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | live | -
 - 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | live | -
 - 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | live | -
+- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | live | -
+- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | live | -
+- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | live | -
+- 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -

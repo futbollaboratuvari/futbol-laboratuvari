@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-15T23:27:06.958Z
+- Güncelleme: 2026-07-16T00:08:55.518Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -35,7 +35,7 @@
 | St Josephs (0) VS (2) Bohemian | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Torpedo Kutais (0) VS (3) Zira | UEFA Konferans Ligi 1. Eleme Turu | 19:00 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Daugava Riga (2) VS (1) Glentoran | UEFA Konferans Ligi 1. Eleme Turu | 19:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Levadia Tallin (5) VS (0) Caernarfon | UEFA Konferans Ligi 1. Eleme Turu | 19:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Levadia Tallin (5) VS (0) Caernarfon | UEFA Konferans Ligi 1. Eleme Turu | 19:30 | Değerli market yok | - | 60 | Sadece izleme | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Wiener Neustad VS Qpr | Hazırlık Kulüpler | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Vikingur Gota (1) VS (3) Stjarnan | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | MS X | 3.32 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Dinamo Tiflis (2) VS (1) Mondorf Les Bai | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -44,7 +44,7 @@
 | Milsami-Ursido (1) VS (1) Velez Mostar | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Santa Coloma (1) VS (0) Penybont | UEFA Konferans Ligi 1. Eleme Turu | 20:00 | MS 2 | 4.65 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Lech Poznan VS Gornik Zabrze | Polonya Süper Kupa | 20:00 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Valerenga VS Aalesund | Norveç Eliteserien | 20:00 | MS 2 | 3.69 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Valerenga VS Aalesund | Norveç Eliteserien | 20:00 | MS 2 | 3.81 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Derry City (2) VS (3) Cska Sofia | UEFA Avrupa Ligi 1. Eleme Turu | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Universitatea (0) VS (0) Dynamo Kiev | UEFA Avrupa Ligi 1. Eleme Turu | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Hamrun (1) VS (1) Runavik | UEFA Konferans Ligi 1. Eleme Turu | 20:30 | MS 2 | 4.45 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -80,7 +80,7 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Valerenga VS Aalesund | MS 2 | 3.69 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Valerenga VS Aalesund | MS 2 | 3.81 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |

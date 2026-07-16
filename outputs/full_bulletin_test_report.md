@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 58
-- Live match count: 7
+- Scheduled match count: 54
+- Live match count: 11
 - Finished removed count: 0
 - Date window: 2026-07-16 / 2026-07-17 23:59
 
@@ -14,6 +14,6 @@
 - 2026-07-16 02:00 | Lexington - New Mexico Unit | live
 - 2026-07-16 02:00 | Chattanooga Re - Alta | live
 - 2026-07-16 02:00 | Miami Fc - Indy Eleven | live
-- 2026-07-16 02:30 | Sporting Jax - Pittsburgh Rive | scheduled
-- 2026-07-16 03:00 | Forward Madiso - Richmond Kicker | scheduled
-- 2026-07-16 03:00 | The Strongest - Oriente Petrole | scheduled
+- 2026-07-16 02:30 | Sporting Jax - Pittsburgh Rive | live
+- 2026-07-16 03:00 | Forward Madiso - Richmond Kicker | live
+- 2026-07-16 03:00 | The Strongest - Oriente Petrole | live
