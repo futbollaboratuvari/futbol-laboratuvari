@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-16T16:46:18.597300+00:00
+Tarih: 2026-07-16T18:12:31.010732+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 29
+- Kac mac bulundu: 14
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 29
+- Kac mac zaten vardi: 14
 - Ham veri havuzu toplam mac sayisi: 1968
 - Hedef tarih: 16.07.2026 Europe/Istanbul
 
@@ -19,9 +19,7 @@ Tarih: 2026-07-16T16:46:18.597300+00:00
 - Hazırlık Kulüpler
 - Kazakistan 1.Lig
 - Lübnan Premier Lig Şampiyonluk Turu
-- Norveç Eliteserien
 - Paraguay Kupa 2.Tur
-- Polonya Süper Kupa
 - UEFA Avrupa Ligi 1. Eleme Turu
 - UEFA Konferans Ligi 1. Eleme Turu
 - İzlanda 1.Lig
@@ -81,8 +79,8 @@ Tarih: 2026-07-16T16:46:18.597300+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 16
+- Acilan detay: 16
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -95,26 +93,20 @@ Tarih: 2026-07-16T16:46:18.597300+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 16.07.2026 | 21:15 | UEFA Avrupa Ligi 1. Eleme Turu | Ferencvaros (2) | (1) Vojvodina | 07297 | 5 |
 | 16.07.2026 | 21:30 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) | (2) Hajduk Split | 07204 | 5 |
-| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Derry City (2) | (3) Cska Sofia | 07474 | 5 |
 | 16.07.2026 | 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) | (3) Qarabagh | 10193 | 4 |
-| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Universitatea (0) | (0) Dynamo Kiev | 07397 | 5 |
-| 16.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Aluminij (0) | (0) Sheriff Tiraspo | 07341 | 5 |
-| 16.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Ballkani (0) | (0) Gap Connahs Qua | 10189 | 5 |
+| 16.07.2026 | 21:15 | UEFA Avrupa Ligi 1. Eleme Turu | Ferencvaros (2) | (1) Vojvodina | 07297 | 5 |
 | 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) | (2) Descaldes | 08299 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) | (1) Af Elbasani | 10182 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) | (1) Mondorf Les Bai | 10183 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) | (3) Stjarnan | 10186 | 5 |
-| 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) | (1) Nomme Kalju | 07198 | 5 |
-| 16.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Hamrun (1) | (1) Runavik | 07473 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Milsami-Ursido (1) | (1) Velez Mostar | 10185 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Zalgiris Vilni (3) | (1) Petrovac | 10188 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) | (0) Penybont | 10187 | 5 |
 | 16.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Virtus (1) | (3) Dila Gori | 07196 | 5 |
-| 16.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Skendija (5) | (0) College Europa | 10190 | 4 |
-| 16.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Fk Sileks (1) | (0) Dinamo Minsk | 10192 | 5 |
-| 16.07.2026 | 20:00 | Polonya Süper Kupa | Lech Poznan | Gornik Zabrze | 08702 | 5 |
+| 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) | (1) Nomme Kalju | 07198 | 5 |
+| 16.07.2026 | 17:00 | Hazırlık Kulüpler | Nurnberg Ii | Avusturya Luste | 02168 | 5 |
+| 16.07.2026 | 21:30 | Hazırlık Kulüpler | Glenavon | Doncaster | 14438 | 2 |
+| 16.07.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Leiknir Reykjav | 08336 | 3 |
+| 16.07.2026 | 22:00 | Bolivya Premier Lig | Academia Del B | Independiente P | 08703 | 3 |
+| 16.07.2026 | 16:00 | Kazakistan 1.Lig | Fk Taraz | Aktobe Jas | 17706 | 5 |
+| 16.07.2026 | 23:00 | ABD USL Lig 2 Konferans Çeyrek Final | Minneapolis Ci | West Virginia C | 06645 | 3 |
+| 16.07.2026 | 21:30 | Paraguay Kupa 2.Tur | Fulgencio Yegr | 24 De Setiembre | 04186 | 5 |
+| 16.07.2026 | 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Ansar | Jwaya | 12011 | 5 |
 
 ## Sonuc
 
