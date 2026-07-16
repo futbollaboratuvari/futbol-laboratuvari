@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-15T17:43:22.630Z",
-  "updated_at": "2026-07-16T08:31:58.637Z",
+  "updated_at": "2026-07-16T08:38:26.454Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 30,
-    "pending_predictions": 30,
+    "total_predictions": 36,
+    "pending_predictions": 36,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 9,
+    "league_count": 10,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 6,
+    "updated_predictions": 0,
+    "last_score_link_checked": 36,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 15,
-      "pending": 15,
+    "MS X": {
+      "total": 17,
+      "pending": 17,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -26,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 13,
-      "pending": 13,
+    "MS 2": {
+      "total": 17,
+      "pending": 17,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,9 +52,29 @@
     }
   },
   "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Konferans Ligi 1. Eleme Turu": {
-      "total": 13,
-      "pending": 13,
+      "total": 14,
+      "pending": 14,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Lübnan Premier Lig Şampiyonluk Turu": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -118,16 +142,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "UEFA Şampiyonlar Ligi 1.Eleme Turu": {
       "total": 2,
       "pending": 2,
@@ -140,9 +154,9 @@
     }
   },
   "league_market_memory": {
-    "UEFA Konferans Ligi 1. Eleme Turu :: MS 2": {
-      "total": 8,
-      "pending": 8,
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 5,
+      "pending": 5,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -151,8 +165,48 @@
       "confidence_adjustment": 0
     },
     "UEFA Konferans Ligi 1. Eleme Turu :: MS X": {
-      "total": 4,
-      "pending": 4,
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Lübnan Premier Lig Şampiyonluk Turu :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Lübnan Premier Lig Şampiyonluk Turu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Konferans Ligi 1. Eleme Turu :: MS 2": {
+      "total": 8,
+      "pending": 8,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -270,16 +324,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "UEFA Şampiyonlar Ligi 1.Eleme Turu :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -303,6 +347,108 @@
   },
   "predictions": [
     {
+      "id": "2026-07-16|hazirlik kulupler|jagiellonia sparta prag|ms x|19 00",
+      "date": "2026-07-16",
+      "created_at": "2026-07-16T08:38:25.886Z",
+      "match_name": "Jagiellonia - Sparta Prag",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "19:00",
+      "market": "MS X",
+      "odds": "3.23",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-16|hazirlik kulupler|slovan bratisl pafos fc|ms x|19 15",
+      "date": "2026-07-16",
+      "created_at": "2026-07-16T08:38:25.886Z",
+      "match_name": "Slovan Bratisl - Pafos Fc",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "19:15",
+      "market": "MS X",
+      "odds": "2.94",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-16|uefa konferans ligi 1 eleme turu|skendija 5 0 college europa|ms x|21 00",
+      "date": "2026-07-16",
+      "created_at": "2026-07-16T08:38:25.886Z",
+      "match_name": "Skendija (5) - (0) College Europa",
+      "league": "UEFA Konferans Ligi 1. Eleme Turu",
+      "start_time": "21:00",
+      "market": "MS X",
+      "odds": "5.48",
+      "confidence_score": "70%",
+      "analysis_score": 70,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-16|lubnan premier lig sampiyonluk turu|ansar jwaya|ms 2|21 30",
+      "date": "2026-07-16",
+      "created_at": "2026-07-16T08:38:25.886Z",
+      "match_name": "Ansar - Jwaya",
+      "league": "Lübnan Premier Lig Şampiyonluk Turu",
+      "start_time": "21:30",
+      "market": "MS 2",
+      "odds": "5.15",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-16|hazirlik kulupler|kopenhag viborg|ms 2|15 00",
+      "date": "2026-07-16",
+      "created_at": "2026-07-16T08:38:25.885Z",
+      "match_name": "Kopenhag - Viborg",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "15:00",
+      "market": "MS 2",
+      "odds": "3.58",
+      "confidence_score": "70%",
+      "analysis_score": 70,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-16|lubnan premier lig sampiyonluk turu|ahed nejmeh|ms x|17 30",
+      "date": "2026-07-16",
+      "created_at": "2026-07-16T08:38:25.885Z",
+      "match_name": "Ahed - Nejmeh",
+      "league": "Lübnan Premier Lig Şampiyonluk Turu",
+      "start_time": "17:30",
+      "market": "MS X",
+      "odds": "2.78",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|ilves 0 0 differdange|ms 2|19 00",
       "date": "2026-07-16",
       "created_at": "2026-07-16T00:54:40.741Z",
@@ -318,7 +464,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|levadia tallin 5 0 caernarfon|ms x|19 30",
@@ -336,7 +482,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|torpedo kutais 0 3 zira|ms x|19 00",
@@ -354,7 +500,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|vikingur gota 1 3 stjarnan|ms x|20 00",
@@ -372,7 +518,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|bate borisov 1 1 af elbasani|ms 1|20 00",
@@ -390,7 +536,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|santa coloma 1 0 penybont|ms 2|20 00",
@@ -408,7 +554,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|polonya super kupa|lech poznan gornik zabrze|ms x|20 00",
@@ -426,7 +572,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|norvec eliteserien|valerenga aalesund|ms 2|20 00",
@@ -444,7 +590,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|hamrun 1 1 runavik|ms 2|20 30",
@@ -462,7 +608,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa avrupa ligi 1 eleme turu|aluminij 0 0 sheriff tiraspo|ms 1|21 00",
@@ -480,7 +626,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa avrupa ligi 1 eleme turu|ferencvaros 2 1 vojvodina|ms 2|21 15",
@@ -498,7 +644,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa avrupa ligi 1 eleme turu|zilina 0 2 hajduk split|ms x|21 30",
@@ -516,7 +662,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|mornar bar 1 2 descaldes|ms 2|21 45",
@@ -534,7 +680,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|linfield 0 1 nomme kalju|ms 2|21 45",
@@ -552,7 +698,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.636Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-16|ekvador pro lig|univ catolica ldu quito|ms x|01 00",
@@ -696,7 +842,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.885Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|yelimay semey 1 1 alashkert|ms 2|18 00",
@@ -714,7 +860,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.885Z"
     },
     {
       "id": "2026-07-16|hazirlik kulupler|slaven belupo paksi|ms x|18 30",
@@ -732,7 +878,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.885Z"
     },
     {
       "id": "2026-07-16|uefa konferans ligi 1 eleme turu|paide linnamee 1 1 hegelmann|ms 2|19 00",
@@ -750,7 +896,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-16T08:31:58.635Z"
+      "updated_at": "2026-07-16T08:38:25.886Z"
     },
     {
       "id": "2026-07-15|uefa sampiyonlar ligi 1 eleme turu|egnatia 1 1 petrocub|ms 2|22 00",
