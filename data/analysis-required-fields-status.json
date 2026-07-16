@@ -1,10 +1,22 @@
 {
-  "generated_at": "2026-07-16T06:32:57.849Z",
-  "total": 39,
-  "ok_count": 35,
-  "bad_count": 4,
+  "generated_at": "2026-07-16T09:30:34.485Z",
+  "total": 45,
+  "ok_count": 40,
+  "bad_count": 5,
   "status": "warning",
   "bad_examples": [
+    {
+      "match": "Varazdin VS Kustosija",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
     {
       "match": "Wiener Neustad VS Qpr",
       "market": "Değerli market yok",
