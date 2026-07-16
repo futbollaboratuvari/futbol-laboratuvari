@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-16 / 2026-07-17
 Kaynak: fixtures.json
-Ham mac: 53
-Aktif mac: 52
-Canli mac: 1
-Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 38
+Ham mac: 67
+Aktif mac: 53
+Canli mac: 0
+Biten mac: 14
+Bultenden dusurulen mac: 14
+Bugun: 39
 Yarin: 14
 
 ## Baslamamis Maclar
@@ -49,6 +49,7 @@ Yarin: 14
 - 2026-07-16 22:00 | Bolivya Premier Lig | Academia Del B - Independiente P | scheduled | -
 - 2026-07-16 22:15 | İzlanda 1.Lig | Afturelding - Leiknir Reykjav | scheduled | -
 - 2026-07-16 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) - (3) Qarabagh | scheduled | -
+- 2026-07-16 23:00 | ABD USL Lig 2 Konferans Çeyrek Final | Minneapolis Ci - West Virginia C | scheduled | -
 - 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | scheduled | -
 - 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | scheduled | -
 - 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | scheduled | -
@@ -65,7 +66,20 @@ Yarin: 14
 - 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
 
 ## Canli Maclar
-- 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-16 00:00 | Paraguay Kupa 2.Tur | 4 De Mayo - Sportivo Carape | finished | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Leones Del Nor - Deportivo Cuenc | finished | -
+- 2026-07-16 01:00 | Ekvador Pro Lig | Univ Catolica - Ldu Quito | finished | -
+- 2026-07-16 01:00 | Bolivya Premier Lig | Real Potosi - San Antonio Bul | finished | -
+- 2026-07-16 01:30 | ABD USL Lig 1 | One Knoxville - Fort Wayne | finished | -
+- 2026-07-16 02:00 | ABD USL | Lexington - New Mexico Unit | finished | -
+- 2026-07-16 02:00 | ABD USL | Miami Fc - Indy Eleven | finished | -
+- 2026-07-16 02:00 | ABD USL Lig 1 | Chattanooga Re - Alta | finished | -
+- 2026-07-16 02:30 | ABD USL | Sporting Jax - Pittsburgh Rive | finished | -
+- 2026-07-16 03:00 | Bolivya Premier Lig | The Strongest - Oriente Petrole | finished | -
+- 2026-07-16 03:00 | ABD USL Lig 1 | Forward Madiso - Richmond Kicker | finished | -
+- 2026-07-16 03:00 | Hazırlık Kulüpler | Varazdin - Kustosija | finished | -
+- 2026-07-16 03:30 | Ekvador Pro Lig | Barcelona Gua - Guayaquil City | finished | -
+- 2026-07-16 04:30 | Hazırlık Kulüpler | Salt Lake - Burnley | finished | -
