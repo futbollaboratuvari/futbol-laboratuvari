@@ -1,45 +1,35 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-07-16 / 2026-07-17
+Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 27
-Aktif mac: 16
-Canli mac: 11
-Biten mac: 0
-Bultenden dusurulen mac: 11
+Ham mac: 16
+Aktif mac: 0
+Canli mac: 0
+Biten mac: 16
+Bultenden dusurulen mac: 16
 Bugun: 0
-Yarin: 16
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | scheduled | -
-- 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | scheduled | -
-- 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | scheduled | -
-- 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | scheduled | -
-- 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | scheduled | -
-- 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | scheduled | -
-- 2026-07-17 02:30 | ABD MLS | Montreal - Toronto | scheduled | -
-- 2026-07-17 03:00 | Ekvador Pro Lig | Orense - Emelec | scheduled | -
-- 2026-07-17 03:00 | Kanada Premier Lig | Forge - Pacific Fc | scheduled | -
-- 2026-07-17 03:30 | ABD MLS | Chicago - Vancouver | scheduled | -
-- 2026-07-17 03:30 | ABD MLS | St. Louis City - Kansas | scheduled | -
-- 2026-07-17 03:30 | ABD USL Lig 2 Konferans Çeyrek Final | Peoria City - Sueno | scheduled | -
-- 2026-07-17 03:45 | Arjantin Kupa Son 32 Turu | Sarmiento - Boca Juniors | scheduled | -
-- 2026-07-17 04:00 | Meksika Liga MX Apertura | Necaxa - Atlante | scheduled | -
-- 2026-07-17 05:30 | ABD MLS | Seattle - Portland | scheduled | -
-- 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
+Mac bekleniyor.
 
 ## Canli Maclar
-- 2026-07-16 21:30 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) - (2) Hajduk Split | live | -
-- 2026-07-16 21:30 | Hazırlık Kulüpler | Glenavon - Doncaster | live | -
-- 2026-07-16 21:30 | Paraguay Kupa 2.Tur | Fulgencio Yegr - 24 De Setiembre | live | -
-- 2026-07-16 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Jwaya | live | -
-- 2026-07-16 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) - (2) Descaldes | live | -
-- 2026-07-16 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) - (1) Nomme Kalju | live | -
-- 2026-07-16 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Virtus (1) - (3) Dila Gori | live | -
-- 2026-07-16 22:00 | Bolivya Premier Lig | Academia Del B - Independiente P | live | -
-- 2026-07-16 22:15 | İzlanda 1.Lig | Afturelding - Leiknir Reykjav | live | -
-- 2026-07-16 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) - (3) Qarabagh | live | -
-- 2026-07-16 23:00 | ABD USL Lig 2 Konferans Çeyrek Final | Minneapolis Ci - West Virginia C | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | finished | -
+- 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | finished | -
+- 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | finished | -
+- 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | finished | -
+- 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | finished | -
+- 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
+- 2026-07-17 02:30 | ABD MLS | Montreal - Toronto | finished | -
+- 2026-07-17 03:00 | Ekvador Pro Lig | Orense - Emelec | finished | -
+- 2026-07-17 03:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
+- 2026-07-17 03:30 | ABD MLS | Chicago - Vancouver | finished | -
+- 2026-07-17 03:30 | ABD MLS | St. Louis City - Kansas | finished | -
+- 2026-07-17 03:30 | ABD USL Lig 2 Konferans Çeyrek Final | Peoria City - Sueno | finished | -
+- 2026-07-17 03:45 | Arjantin Kupa Son 32 Turu | Sarmiento - Boca Juniors | finished | -
+- 2026-07-17 04:00 | Meksika Liga MX Apertura | Necaxa - Atlante | finished | -
+- 2026-07-17 05:30 | ABD MLS | Seattle - Portland | finished | -
+- 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | finished | -
