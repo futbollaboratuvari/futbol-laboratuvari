@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.07.2026 15:08:35
+Oluşturma: 16.07.2026 15:13:35
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 25
+- Bekleyen tahmin: 25
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 7
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 16.07.2026 15:08:35
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) - (1) Af Elbasani | MS X | pending | 40/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) - (0) Penybont | MS 2 | pending | 50/100
+- 2026-07-16 | Polonya Süper Kupa | Lech Poznan - Gornik Zabrze | MS 2 | pending | 50/100
+- 2026-07-16 | Norveç Eliteserien | Valerenga - Aalesund | MS 2 | pending | 70/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Hamrun (1) - (1) Runavik | MS 2 | pending | 60/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Skendija (5) - (0) College Europa | MS X | pending | 85/100
+- 2026-07-16 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) - (2) Hajduk Split | MS X | pending | 50/100
+- 2026-07-16 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Jwaya | MS 2 | pending | 60/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) - (2) Descaldes | MS 2 | pending | 50/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) - (1) Nomme Kalju | MS 2 | pending | 50/100
+- 2026-07-16 | Hazırlık Kulüpler | Nurnberg Ii - Avusturya Luste | MS X | pending | 50/100
+- 2026-07-16 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Nejmeh | MS X | pending | 40/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Inter Turku (1) - (1) Sarajevo | MS 2 | pending | 60/100
+- 2026-07-16 | UEFA Konferans Ligi 1. Eleme Turu | Yelimay Semey (1) - (1) Alashkert | MS 2 | pending | 50/100
+- 2026-07-16 | Hazırlık Kulüpler | Slaven Belupo - Paksi | MS X | pending | 50/100
 
