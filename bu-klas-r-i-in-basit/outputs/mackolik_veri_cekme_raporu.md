@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-16T09:30:59.393470+00:00
+Tarih: 2026-07-16T11:22:39.463326+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 45
-- Kac mac kaydedildi: 1
+- Kac mac bulundu: 46
+- Kac mac kaydedildi: 2
 - Kac mac zaten vardi: 44
-- Ham veri havuzu toplam mac sayisi: 1963
+- Ham veri havuzu toplam mac sayisi: 1965
 - Hedef tarih: 16.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -22,7 +22,6 @@ Tarih: 2026-07-16T09:30:59.393470+00:00
 - Norveç Eliteserien
 - Paraguay Kupa 2.Tur
 - Polonya Süper Kupa
-- Tanzanya 1. Lig Play-Off
 - UEFA Avrupa Ligi 1. Eleme Turu
 - UEFA Konferans Ligi 1. Eleme Turu
 - İzlanda 1.Lig
@@ -82,8 +81,8 @@ Tarih: 2026-07-16T09:30:59.393470+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 19
-- Acilan detay: 19
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -96,16 +95,14 @@ Tarih: 2026-07-16T09:30:59.393470+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 16.07.2026 | 21:15 | UEFA Avrupa Ligi 1. Eleme Turu | Ferencvaros (2) | (1) Vojvodina | 07297 | 5 |
-| 16.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Aluminij (0) | (0) Sheriff Tiraspo | 07341 | 5 |
-| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Universitatea (0) | (0) Dynamo Kiev | 07397 | 5 |
-| 16.07.2026 | 21:30 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) | (2) Hajduk Split | 07204 | 5 |
-| 16.07.2026 | 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) | (3) Qarabagh | 10193 | 4 |
 | 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Derry City (2) | (3) Cska Sofia | 07474 | 5 |
+| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Universitatea (0) | (0) Dynamo Kiev | 07397 | 5 |
+| 16.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Aluminij (0) | (0) Sheriff Tiraspo | 07341 | 5 |
+| 16.07.2026 | 21:15 | UEFA Avrupa Ligi 1. Eleme Turu | Ferencvaros (2) | (1) Vojvodina | 07297 | 5 |
+| 16.07.2026 | 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) | (3) Qarabagh | 10193 | 4 |
+| 16.07.2026 | 21:30 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) | (2) Hajduk Split | 07204 | 5 |
 | 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) | (1) Mondorf Les Bai | 10183 | 5 |
 | 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) | (1) Af Elbasani | 10182 | 5 |
-| 16.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Ballkani (0) | (0) Gap Connahs Qua | 10189 | 5 |
-| 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) | (2) Descaldes | 08299 | 5 |
 | 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) | (3) Stjarnan | 10186 | 5 |
 | 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) | (0) Marsaxlokk Fc | 10176 | 5 |
 | 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Linfield (0) | (1) Nomme Kalju | 07198 | 5 |
@@ -116,6 +113,8 @@ Tarih: 2026-07-16T09:30:59.393470+00:00
 | 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) | (0) Penybont | 10187 | 5 |
 | 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | St Josephs (0) | (2) Bohemian | 10177 | 5 |
 | 16.07.2026 | 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Yelimay Semey (1) | (1) Alashkert | 10172 | 5 |
+| 16.07.2026 | 22:00 | UEFA Konferans Ligi 1. Eleme Turu | Virtus (1) | (3) Dila Gori | 07196 | 5 |
+| 16.07.2026 | 18:00 | UEFA Konferans Ligi 1. Eleme Turu | Astana (1) | (0) Dinamo Tirana | 10173 | 5 |
 
 ## Sonuc
 
