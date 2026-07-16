@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T03:43:12.968Z",
+  "generated_at": "2026-07-16T03:54:37.257Z",
   "date": "2026-07-16",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -13962,8 +13962,8 @@
       "league": "UEFA Konferans Ligi 1. Eleme Turu",
       "start_time": "19:00",
       "recommended_market": "Değerli market yok",
-      "confidence_score": "10%",
-      "analysis_score": 10,
+      "confidence_score": "25%",
+      "analysis_score": 25,
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
@@ -14535,20 +14535,20 @@
       "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
+      "data_gap_risk": "Düşük",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
         "homeScoredLast10": 5,
         "awayScoredLast10": 5,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 38,
         "over25Percent": 58,
         "over35Percent": 40,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 44,
         "leagueGoalAverage": 2.82,
         "memory": {
           "scoreDelta": 0,
@@ -14585,8 +14585,8 @@
         },
         "homeScoredLast10Count": 5,
         "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 3
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
@@ -14594,8 +14594,7 @@
         "İki takım son 10 maçta en az 4 gol attı: +15",
         "Lig gol ortalaması 2.70 üzeri: +10",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
+        "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
       ]
     },
