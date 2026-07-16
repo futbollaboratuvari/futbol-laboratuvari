@@ -1,50 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-16T12:07:55.688580+00:00
+Tarih: 2026-07-16T13:04:54.954159+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 59
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 59
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 1965
 - Hedef tarih: 16.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL Lig 2 Konferans Çeyrek Final
-- Arjantin Kupa Son 32 Turu
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- Ekvador Pro Lig
-- Hazırlık Kulüpler
-- Kanada Premier Lig
-- Kazakistan 1.Lig
-- Lübnan Premier Lig Şampiyonluk Turu
-- Meksika Liga MX Apertura
-- Norveç Eliteserien
-- Paraguay Kupa 2.Tur
-- Polonya Süper Kupa
-- UEFA Avrupa Ligi 1. Eleme Turu
-- UEFA Konferans Ligi 1. Eleme Turu
-- İzlanda 1.Lig
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -88,40 +72,78 @@ Tarih: 2026-07-16T12:07:55.688580+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 19
+- Acilan detay: 4
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
+
+- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
+
+- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
+
+- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
+
+- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
+
+- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
+
+- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
+
+- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
+
+- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
+
+- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
+
+- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
+
+- Detay acilamadi #16: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(15)
+
+- Detay acilamadi #17: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(16)
+
+- Detay acilamadi #18: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(17)
+
+- Detay acilamadi #19: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(18)
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 16.07.2026 | 21:00 | UEFA Avrupa Ligi 1. Eleme Turu | Aluminij (0) | (0) Sheriff Tiraspo | 07341 | 5 |
-| 16.07.2026 | 23:00 | UEFA Avrupa Ligi 1. Eleme Turu | Vestri (0) | (3) Qarabagh | 10193 | 4 |
-| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Derry City (2) | (3) Cska Sofia | 07474 | 5 |
-| 16.07.2026 | 21:30 | UEFA Avrupa Ligi 1. Eleme Turu | Zilina (0) | (2) Hajduk Split | 07204 | 5 |
-| 16.07.2026 | 21:15 | UEFA Avrupa Ligi 1. Eleme Turu | Ferencvaros (2) | (1) Vojvodina | 07297 | 5 |
-| 16.07.2026 | 20:30 | UEFA Avrupa Ligi 1. Eleme Turu | Universitatea (0) | (0) Dynamo Kiev | 07397 | 5 |
-| 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Pyunik Erewan (3) | (0) Marsaxlokk Fc | 10176 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Zalgiris Vilni (3) | (1) Petrovac | 10188 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Vikingur Gota (1) | (3) Stjarnan | 10186 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Dinamo Tiflis (2) | (1) Mondorf Les Bai | 10183 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Bate Borisov (1) | (1) Af Elbasani | 10182 | 5 |
-| 16.07.2026 | 21:00 | UEFA Konferans Ligi 1. Eleme Turu | Ballkani (0) | (0) Gap Connahs Qua | 10189 | 5 |
-| 16.07.2026 | 21:45 | UEFA Konferans Ligi 1. Eleme Turu | Mornar Bar (1) | (2) Descaldes | 08299 | 5 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Santa Coloma (1) | (0) Penybont | 10187 | 5 |
-| 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | St Josephs (0) | (2) Bohemian | 10177 | 5 |
-| 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Torpedo Kutais (0) | (3) Zira | 10179 | 5 |
-| 16.07.2026 | 20:30 | UEFA Konferans Ligi 1. Eleme Turu | Hamrun (1) | (1) Runavik | 07473 | 5 |
-| 16.07.2026 | 19:30 | UEFA Konferans Ligi 1. Eleme Turu | Levadia Tallin (5) | (0) Caernarfon | 10180 | 4 |
-| 16.07.2026 | 20:00 | UEFA Konferans Ligi 1. Eleme Turu | Milsami-Ursido (1) | (1) Velez Mostar | 10185 | 5 |
-| 16.07.2026 | 19:00 | UEFA Konferans Ligi 1. Eleme Turu | Paide Linnamee (1) | (1) Hegelmann | 10175 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
