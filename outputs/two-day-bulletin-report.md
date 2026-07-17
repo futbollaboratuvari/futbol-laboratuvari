@@ -3,19 +3,14 @@
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
 Ham mac: 116
-Aktif mac: 107
-Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 73
+Aktif mac: 102
+Canli mac: 8
+Biten mac: 6
+Bultenden dusurulen mac: 14
+Bugun: 68
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 03:30 | ABD MLS | Chicago - Vancouver | scheduled | -
-- 2026-07-17 03:30 | ABD MLS | St. Louis City - Kansas | scheduled | -
-- 2026-07-17 03:30 | ABD USL Lig 2 Konferans Çeyrek Final | Peoria City - Sueno | scheduled | -
-- 2026-07-17 03:45 | Arjantin Kupa Son 32 Turu | Sarmiento - Boca Juniors | scheduled | -
-- 2026-07-17 04:00 | Meksika Liga MX Apertura | Necaxa - Atlante | scheduled | -
 - 2026-07-17 05:30 | ABD MLS | Seattle - Portland | scheduled | -
 - 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | scheduled | -
 - 2026-07-17 11:30 | Hazırlık Kulüpler | Leganes - Albacete | scheduled | -
@@ -120,15 +115,19 @@ Yarin: 34
 - 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled | -
 
 ## Canli Maclar
-- 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | live | -
-- 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | live | -
-- 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | live | -
-- 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | live | -
-- 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | live | -
-- 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | live | -
 - 2026-07-17 02:30 | ABD MLS | Montreal - Toronto | live | -
 - 2026-07-17 03:00 | Ekvador Pro Lig | Orense - Emelec | live | -
 - 2026-07-17 03:00 | Kanada Premier Lig | Forge - Pacific Fc | live | -
+- 2026-07-17 03:30 | ABD MLS | Chicago - Vancouver | live | -
+- 2026-07-17 03:30 | ABD MLS | St. Louis City - Kansas | live | -
+- 2026-07-17 03:30 | ABD USL Lig 2 Konferans Çeyrek Final | Peoria City - Sueno | live | -
+- 2026-07-17 03:45 | Arjantin Kupa Son 32 Turu | Sarmiento - Boca Juniors | live | -
+- 2026-07-17 04:00 | Meksika Liga MX Apertura | Necaxa - Atlante | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | finished | -
+- 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | finished | -
+- 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | finished | -
+- 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | finished | -
+- 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | finished | -
+- 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
