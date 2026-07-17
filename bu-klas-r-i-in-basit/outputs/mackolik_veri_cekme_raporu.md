@@ -1,37 +1,71 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-17T20:34:00.065978+00:00
+Tarih: 2026-07-17T21:27:47.716347+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 38
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 38
-- Ham veri havuzu toplam mac sayisi: 2092
-- Hedef tarih: 17.07.2026 Europe/Istanbul
+- Kac mac bulundu: 157
+- Kac mac kaydedildi: 157
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 2249
+- Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL Lig 1
-- ABD USL Lig 2 Konferans Çeyrek Final
-- Arjantin Kupa Son 32 Turu
-- Arjantin Ulusal Primera Lig
+- ABD USL
+- Avustralya NPL Batı Avustralya
+- Avustralya NPL Güney Avustralya
 - Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
 - Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avustralya Victoria NPL 1
 - Bolivya Premier Lig
-- Brezilya Serie A
 - Brezilya Serie B
+- Bulgaristan 1.Lig
 - Ekvador Pro Lig
+- Estonya Premium Lig
+- Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
 - Kanada Premier Lig
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
+- Kazakistan Premier Lig
+- Letonya 1.Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Moldova Ulusal Lig
+- Norveç Eliteserien
 - Peru Premier Lig Clausura
+- Romanya 1.Lig
+- Rusya Süper Kupa
+- Slovenya 1.SNL
+- Sırbistan Süper Lig
+- Uruguay Premier Lig Intermediate Turu Grup 1
 - Uruguay Premier Lig Intermediate Turu Grup 2
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
+- İskoçya Lig Kupası Grup A
+- İskoçya Lig Kupası Grup B
+- İskoçya Lig Kupası Grup C
+- İskoçya Lig Kupası Grup D
+- İskoçya Lig Kupası Grup E
+- İskoçya Lig Kupası Grup F
+- İskoçya Lig Kupası Grup G
+- İskoçya Lig Kupası Grup H
+- İsveç Allsvenskan
+- İsveç Superettan
+- İzlanda 1.Lig
+- İzlanda 2.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -88,8 +122,8 @@ Tarih: 2026-07-17T20:34:00.065978+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 22
-- Acilan detay: 22
+- Denenen Tumu alani: 65
+- Acilan detay: 65
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -102,26 +136,26 @@ Tarih: 2026-07-17T20:34:00.065978+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 17.07.2026 | 12:00 | Hazırlık Kulüpler | Prostejov | Floridsdorfer | 08049 | 5 |
-| 18.07.2026 | 05:25 | ABD MLS | Los Angeles | Los Angeles Fc | 14998 | 5 |
-| 18.07.2026 | 03:10 | ABD MLS | Nashville Sc | Atlanta Utd | 14820 | 5 |
-| 18.07.2026 | 02:00 | Brezilya Serie A | Fluminense | Bragantino | 13521 | 5 |
-| 18.07.2026 | 02:00 | Brezilya Serie A | Mirassol | Gremio | 13591 | 5 |
-| 18.07.2026 | 01:30 | Brezilya Serie A | Bahia | Chapecoense | 13216 | 5 |
-| 18.07.2026 | 06:00 | Meksika Liga MX Apertura | Fc Juarez | Puebla | 15058 | 5 |
-| 18.07.2026 | 04:00 | Meksika Liga MX Apertura | Atletico San L | Cruz Azul | 14880 | 5 |
-| 18.07.2026 | 04:00 | Meksika Liga MX Apertura | Club Leon | Atlas | 14939 | 5 |
-| 18.07.2026 | 00:45 | Arjantin Kupa Son 32 Turu | San Lorenzo | Riestra | 11593 | 3 |
-| 18.07.2026 | 03:45 | Arjantin Kupa Son 32 Turu | River Plate | Aldosivi | 11676 | 5 |
-| 18.07.2026 | 04:00 | Peru Premier Lig Clausura | Cienciano | Melgar | 14922 | 5 |
-| 18.07.2026 | 02:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí | All Boys | 11627 | 3 |
-| 18.07.2026 | 02:30 | Arjantin Ulusal Primera Lig | Atl Temperley | Rafaela | 11651 | 3 |
-| 18.07.2026 | 01:30 | Arjantin Ulusal Primera Lig | Ferro Carril O | Colon Santa Fe | 11610 | 3 |
-| 18.07.2026 | 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago | Agropecuario | 11530 | 3 |
-| 18.07.2026 | 01:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df | Montevideo Wand | 13447 | 5 |
-| 18.07.2026 | 03:00 | Brezilya Serie B | Londrina | Botafogo Ribeir | 14787 | 5 |
-| 18.07.2026 | 01:00 | Brezilya Serie B | America Mineir | Ceara | 13027 | 5 |
-| 18.07.2026 | 01:00 | Brezilya Serie B | Juventude | Cuiaba | 13093 | 5 |
+| 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
+| 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Gnistan | 16049 | 5 |
+| 18.07.2026 | 15:00 | Finlandiya Veikkausliiga | Helsinki | Vaasa | 15501 | 5 |
+| 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Kuopion | 16103 | 5 |
+| 18.07.2026 | 17:00 | Norveç Eliteserien | Start | Rosenborg | 15886 | 5 |
+| 18.07.2026 | 17:00 | Norveç Eliteserien | Lillestrom | Kfum Oslo | 15995 | 5 |
+| 18.07.2026 | 19:00 | Norveç Eliteserien | Viking | Sandefjord | 16481 | 5 |
+| 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
+| 18.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Sarpsborg | 15940 | 5 |
+| 18.07.2026 | 15:00 | Norveç Eliteserien | Ham Kam | Tromso | 15555 | 5 |
+| 18.07.2026 | 16:00 | İsveç Allsvenskan | Aik Stockholm | Gais | 15626 | 5 |
+| 18.07.2026 | 15:00 | Hazırlık Kulüpler | Liefering | Wehen | 07810 | 3 |
+| 18.07.2026 | 16:00 | Hazırlık Kulüpler | Falkirk | Genk | 00255 | 5 |
+| 18.07.2026 | 16:30 | Hazırlık Kulüpler | Basel | Juventus | 06299 | 5 |
+| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Alaves | Eibar | 21993 | 5 |
+| 18.07.2026 | 14:30 | Hazırlık Kulüpler | Crystal Palace | Swindon | 20336 | 5 |
+| 18.07.2026 | 16:00 | Hazırlık Kulüpler | Northampton | Coventry | 03774 | 5 |
+| 18.07.2026 | 17:00 | Hazırlık Kulüpler | Sutton United | Afc Wimbledon | 21553 | 5 |
+| 18.07.2026 | 17:00 | Hazırlık Kulüpler | Celtic | Middlesbrough | 12656 | 5 |
+| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Rapid Wien | Hamburg | 21995 | 5 |
 
 ## Sonuc
 
