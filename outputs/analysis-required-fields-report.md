@@ -1,12 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 82
-Tam analiz: 71
-Eksik analiz: 11
+Toplam analiz: 67
+Tam analiz: 58
+Eksik analiz: 9
 
-- Peoria City VS Sueno: eksik score, confidence
-- Sarmiento VS Boca Juniors: eksik score, confidence
 - Sonderjyske VS Kolding If: eksik score, confidence
 - Northcote City VS Manningham Unit: eksik score, confidence
 - Melbourne Knig VS Brunswick City: eksik score, confidence

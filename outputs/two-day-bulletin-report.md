@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 103
+Ham mac: 101
 Aktif mac: 101
-Canli mac: 2
+Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
+Bultenden dusurulen mac: 0
 Bugun: 67
 Yarin: 34
 
@@ -114,8 +114,7 @@ Yarin: 34
 - 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled | -
 
 ## Canli Maclar
-- 2026-07-17 05:30 | ABD MLS | Seattle - Portland | live | -
-- 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | live | -
+Canli mac yok.
 
 ## Biten Maclar
 Biten mac yok.
