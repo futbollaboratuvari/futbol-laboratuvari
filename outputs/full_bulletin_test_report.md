@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 95
-- Live match count: 14
+- Scheduled match count: 93
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-17 / 2026-07-18 23:59
 
-- 2026-07-17 13:00 | Nordsjaelland - Sparta Prag | live
-- 2026-07-17 13:00 | Sonderjyske - Kolding If | live
-- 2026-07-17 13:30 | West Torrens - Para Hills Knig | live
-- 2026-07-17 13:30 | Melbourne Knig - Brunswick City | live
-- 2026-07-17 13:30 | Northcote City - Manningham Unit | live
-- 2026-07-17 14:00 | Perth - Western Knights | live
-- 2026-07-17 14:00 | Changchun Yata - Wuxi Wugou | live
-- 2026-07-17 14:00 | Suzhou Dongwu - Shenzhen Junior | live
-- 2026-07-17 14:00 | Qingdao Youth - Chengdu Ron. | live
-- 2026-07-17 14:00 | Aalborg - Silkeborg | live
+- 2026-07-17 16:00 | Jagiellonia - Nordsjaelland | scheduled
+- 2026-07-17 16:00 | Slovan Liberec - St Polten | scheduled
+- 2026-07-17 16:30 | Mainz - Kaiserslautern | scheduled
+- 2026-07-17 17:00 | Bohemians - Zaglebie Lubin | scheduled
+- 2026-07-17 17:00 | Lokomotiva - Karpaty Lviv | scheduled
+- 2026-07-17 17:30 | Sparta Praha I - Zwickau | scheduled
+- 2026-07-17 18:00 | Annecy - Sion | scheduled
+- 2026-07-17 18:00 | Avusturya Wien - Lafnitz | scheduled
+- 2026-07-17 18:00 | Leyton Orient - Lincoln | scheduled
+- 2026-07-17 18:30 | Lokomotiva - Karpaty Lviv | scheduled

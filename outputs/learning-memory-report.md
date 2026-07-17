@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 17.07.2026 14:54:33
-=======
-Oluşturma: 17.07.2026 14:55:09
->>>>>>> Stashed changes
+Oluşturma: 17.07.2026 15:39:34
 
 ## Özet
 
-- Toplam tahmin: 87
-- Bekleyen tahmin: 87
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 22
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 17.07.2026 14:55:09
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-17 | Hazırlık Kulüpler | Dac - Bolton | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Winterthur - Union Berlin | MS X | pending | 40/100
-- 2026-07-17 | Hazırlık Kulüpler | Motherwell - Genk | MS 1 | pending | 60/100
-- 2026-07-17 | Hazırlık Kulüpler | Elversberg - Viktoria Köln | MS X | pending | 40/100
-- 2026-07-17 | Hazırlık Kulüpler | Winterthur - Union Berlin | MS 1 | pending | 40/100
-- 2026-07-17 | Hazırlık Kulüpler | St Gallen - Norwich | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Jagiellonia - Nordsjaelland | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Bohemians 1905 - Zaglebie Lubin | MS X | pending | 40/100
-- 2026-07-17 | Hazırlık Kulüpler | Prostejov - Floridsdorfer | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | MS X | pending | 50/100
-- 2026-07-17 | İsveç Allsvenskan | Göteborg - Brommapojkarna | MS 2 | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Austria Vienna - Paksi | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Benfica - Villarreal | MS 2 | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Olympiakos - Fortuna Sittard | MS 2 | pending | 60/100
-- 2026-07-17 | Hazırlık Kulüpler | Rennes - Guingamp | MS 2 | pending | 60/100
 

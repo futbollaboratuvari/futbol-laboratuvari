@@ -1,18 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-17 / 2026-07-18
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 132
-Aktif mac: 95
-Canli mac: 14
+Aktif mac: 93
+Canli mac: 16
 Biten mac: 23
-Bultenden dusurulen mac: 37
-Bugun: 61
+Bultenden dusurulen mac: 39
+Bugun: 59
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shanghai Port | scheduled | -
-- 2026-07-17 15:00 | Hazırlık Kulüpler | Midtjylland - Odense | scheduled | -
 - 2026-07-17 16:00 | Hazırlık Kulüpler | Slovan Liberec - St Polten | scheduled | -
 - 2026-07-17 16:00 | Hazırlık Kulüpler | Jagiellonia - Nordsjaelland | scheduled | -
 - 2026-07-17 16:30 | Hazırlık Kulüpler | Mainz - Kaiserslautern | scheduled | -
@@ -108,6 +107,8 @@ Yarin: 34
 - 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled | -
 
 ## Canli Maclar
+- 2026-07-17 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shanghai Port | live | -
+- 2026-07-17 15:00 | Hazırlık Kulüpler | Midtjylland - Odense | live | -
 - 2026-07-17 13:00 | Hazırlık Kulüpler | Sonderjyske - Kolding If | live | -
 - 2026-07-17 13:00 | Hazırlık Kulüpler | Nordsjaelland - Sparta Prag | live | -
 - 2026-07-17 13:30 | Avustralya NPL Güney Avustralya | West Torrens - Para Hills Knig | live | -
