@@ -2,18 +2,18 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-17T19:21:02.800Z
-- Ham maç sayısı: 76
+- Güncelleme: 2026-07-17T19:34:35.660Z
+- Ham maç sayısı: 67
 - Yarın bülteni maç sayısı: 38
-- Detay blok sayısı: 197
+- Detay blok sayısı: 170
 - Aktif bülten maçı: 42
-- Bültenden düşürülen maç: 34
+- Bültenden düşürülen maç: 25
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Steel City - Northern Indian | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.37 | 7 |
-| Hviti - Vikingur Ol. | İzlanda 2.Lig | 23:00 | Veri bekleniyor | - | 2.21 | 6 |
+| Steel City - Northern Indian | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.42 | 7 |
+| Hviti - Vikingur Ol. | İzlanda 2.Lig | 23:00 | Veri bekleniyor | - | 2.37 | 6 |
 | Ocean City - Fc Motown Ii | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.98 | 6 |
 | Sporting Crist - Deportivo Garci | Peru Premier Lig Clausura | 23:15 | Veri bekleniyor | - | 1.19 | 6 |
 | Nueva Chicago - Agropecuario | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 1.8 | 6 |

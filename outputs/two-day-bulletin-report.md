@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 76
-Aktif mac: 45
-Canli mac: 31
+Ham mac: 67
+Aktif mac: 42
+Canli mac: 25
 Biten mac: 0
-Bultenden dusurulen mac: 31
-Bugun: 7
+Bultenden dusurulen mac: 25
+Bugun: 4
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-07-17 22:15 | İzlanda 1.Lig | Fylkir - Njardvik | scheduled | -
-- 2026-07-17 22:15 | İzlanda 2.Lig | Haukar - Throttur Vogar | scheduled | -
-- 2026-07-17 22:15 | İzlanda 2.Lig | Kfg Gardabar - Kari | scheduled | -
 - 2026-07-17 23:00 | ABD USL Lig 2 Konferans Çeyrek Final | Steel City - Northern Indian | scheduled | -
 - 2026-07-17 23:00 | İzlanda 2.Lig | Hviti - Vikingur Ol. | scheduled | -
 - 2026-07-17 23:00 | ABD USL Lig 2 Konferans Çeyrek Final | Ocean City - Fc Motown Ii | scheduled | -
@@ -58,15 +55,6 @@ Yarin: 38
 - 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled | -
 
 ## Canli Maclar
-- 2026-07-17 19:30 | Hazırlık Kulüpler | Olympiakos - Fortuna Sittard | live | -
-- 2026-07-17 19:30 | Hazırlık Kulüpler | Eldense - Millwall | live | -
-- 2026-07-17 19:30 | Hazırlık Kulüpler | Wattens - Hertha Berlin | live | -
-- 2026-07-17 19:30 | Hazırlık Kulüpler | Dac - Bolton | live | -
-- 2026-07-17 20:00 | İsveç Allsvenskan | Göteborg - Brommapojkarna | live | -
-- 2026-07-17 20:00 | İsveç Allsvenskan | Mjallby - Vasteras | live | -
-- 2026-07-17 20:00 | Hazırlık Kulüpler | Club Brugge - Heerenveen | live | -
-- 2026-07-17 20:00 | Hazırlık Kulüpler | Getafe - Reading | live | -
-- 2026-07-17 20:00 | Hazırlık Kulüpler | Winterthur - Union Berlin | live | -
 - 2026-07-17 20:15 | Norveç Eliteserien | Bodo Glimt - Fredrikstad | live | -
 - 2026-07-17 21:00 | Hazırlık Kulüpler | West Bromwich - Bromley | live | -
 - 2026-07-17 21:00 | Hazırlık Kulüpler | Motherwell - Genk | live | -
@@ -89,6 +77,9 @@ Yarin: 38
 - 2026-07-17 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - R Cordoba | live | -
 - 2026-07-17 22:00 | Hazırlık Kulüpler | Yamoussoukro - Marsilya | live | -
 - 2026-07-17 22:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | El Massira - Uts Rabat | live | -
+- 2026-07-17 22:15 | İzlanda 1.Lig | Fylkir - Njardvik | live | -
+- 2026-07-17 22:15 | İzlanda 2.Lig | Haukar - Throttur Vogar | live | -
+- 2026-07-17 22:15 | İzlanda 2.Lig | Kfg Gardabar - Kari | live | -
 
 ## Biten Maclar
 Biten mac yok.
