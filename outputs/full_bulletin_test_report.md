@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 108
-- Live match count: 3
+- Scheduled match count: 100
+- Live match count: 12
 - Finished removed count: 0
 - Date window: 2026-07-17 / 2026-07-18 23:59
 
 - 2026-07-17 11:30 | Leganes - Albacete | live
 - 2026-07-17 12:00 | Prostejov - Floridsdorfer | live
 - 2026-07-17 12:00 | Stockport - Bristol City | live
-- 2026-07-17 12:30 | Campbelltown C - Adelaide Comets | scheduled
-- 2026-07-17 12:30 | Bentleigh Gree - Dandenong City | scheduled
-- 2026-07-17 12:30 | Green Gully - Dandenong Thund | scheduled
-- 2026-07-17 12:30 | Sydney Ii - Manly United | scheduled
-- 2026-07-17 13:00 | Nordsjaelland - Sparta Prag | scheduled
-- 2026-07-17 13:00 | Sonderjyske - Kolding If | scheduled
-- 2026-07-17 13:30 | West Torrens - Para Hills Knig | scheduled
+- 2026-07-17 12:30 | Campbelltown C - Adelaide Comets | live
+- 2026-07-17 12:30 | Bentleigh Gree - Dandenong City | live
+- 2026-07-17 12:30 | Green Gully - Dandenong Thund | live
+- 2026-07-17 12:30 | Sydney Ii - Manly United | live
+- 2026-07-17 13:00 | Nordsjaelland - Sparta Prag | live
+- 2026-07-17 13:00 | Sonderjyske - Kolding If | live
+- 2026-07-17 13:30 | West Torrens - Para Hills Knig | live
