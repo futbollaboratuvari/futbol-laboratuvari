@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 01:08:06
+Oluşturma: 18.07.2026 01:11:31
 
 ## Özet
 
-- Toplam tahmin: 41
-- Bekleyen tahmin: 41
+- Toplam tahmin: 42
+- Bekleyen tahmin: 42
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 16
@@ -20,12 +20,13 @@ Oluşturma: 18.07.2026 01:08:06
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS X: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Peru Premier Lig Clausura | Atletico Grau - Univ De Cajamar | MS 2 | pending | 50/100
 - 2026-07-18 | Peru Premier Lig Clausura | Cienciano - Melgar | MS 2 | pending | 50/100
 - 2026-07-18 | ABD USL Lig 1 | Athletic Club - Portland Hearts | MS 2 | pending | 60/100
 - 2026-07-18 | ABD MLS | Los Angeles - Los Angeles Fc | MS X | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 18.07.2026 01:08:06
 - 2026-07-18 | ABD MLS | Nashville Sc - Atlanta Utd | MS 2 | pending | 75/100
 - 2026-07-18 | Meksika Liga MX Apertura | Club Leon - Atlas | MS 2 | pending | 50/100
 - 2026-07-17 | İzlanda 2.Lig | Kfg Gardabar - Kari | MS X | pending | 40/100
-- 2026-07-17 | ABD USL Lig 2 Konferans Çeyrek Final | Steel City - Northern Indian | MS 2 | pending | 50/100
 
