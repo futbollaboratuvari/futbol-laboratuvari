@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-17T19:45:16.712Z
+- Güncelleme: 2026-07-17T20:26:14.694Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -35,7 +35,7 @@
 | Fylkir VS Njardvik | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Haukar VS Throttur Vogar | İzlanda 2.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Kfg Gardabar VS Kari | İzlanda 2.Lig | 22:15 | MS X | 4.14 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Steel City VS Northern Indian | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | MS 2 | 4.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Steel City VS Northern Indian | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | MS 2 | 4.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Hviti VS Vikingur Ol. | İzlanda 2.Lig | 23:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ocean City VS Fc Motown Ii | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sporting Crist VS Deportivo Garci | Peru Premier Lig Clausura | 23:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
