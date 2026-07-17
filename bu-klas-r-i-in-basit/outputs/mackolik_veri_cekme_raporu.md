@@ -1,42 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-17T01:11:11.300940+00:00
+Tarih: 2026-07-17T03:44:29.042655+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 99
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 99
-- Ham veri havuzu toplam mac sayisi: 2070
+- Kac mac bulundu: 66
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 65
+- Ham veri havuzu toplam mac sayisi: 2071
 - Hedef tarih: 17.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL Lig 1
 - ABD USL Lig 2 Konferans Çeyrek Final
-- Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Güney Avustralya
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- Ekvador Pro Lig
 - Estonya Premium Lig
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
-- Kanada Premier Lig
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -123,6 +111,7 @@ Tarih: 2026-07-17T01:11:11.300940+00:00
 | 17.07.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Vasteras | 12299 | 5 |
 | 17.07.2026 | 21:45 | Hazırlık Kulüpler | Hearts | Vallecano | 08768 | 5 |
 | 17.07.2026 | 20:00 | Hazırlık Kulüpler | Club Brugge | Heerenveen | 11716 | 5 |
+| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Astoria Walldo | Darmstadt | 00494 | 4 |
 | 17.07.2026 | 17:00 | Hazırlık Kulüpler | Lokomotiva | Karpaty Lviv | 08108 | 5 |
 | 17.07.2026 | 19:00 | Hazırlık Kulüpler | Bayreuth | Carl Zeiss Jena | 08456 | 5 |
 | 17.07.2026 | 18:30 | Hazırlık Kulüpler | Rennes | Guingamp | 08167 | 5 |
@@ -137,7 +126,6 @@ Tarih: 2026-07-17T01:11:11.300940+00:00
 | 17.07.2026 | 13:00 | Hazırlık Kulüpler | Sonderjyske | Kolding If | 08034 | 3 |
 | 17.07.2026 | 14:00 | Hazırlık Kulüpler | Aalborg | Silkeborg | 19717 | 3 |
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | Austria Vienna | Paksi | 04680 | 5 |
-| 17.07.2026 | 18:00 | Hazırlık Kulüpler | Annecy | Sion | 04676 | 3 |
 
 ## Sonuc
 
