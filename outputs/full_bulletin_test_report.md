@@ -2,14 +2,14 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 110
-- Live match count: 1
+- Scheduled match count: 108
+- Live match count: 3
 - Finished removed count: 0
 - Date window: 2026-07-17 / 2026-07-18 23:59
 
 - 2026-07-17 11:30 | Leganes - Albacete | live
-- 2026-07-17 12:00 | Prostejov - Floridsdorfer | scheduled
-- 2026-07-17 12:00 | Stockport - Bristol City | scheduled
+- 2026-07-17 12:00 | Prostejov - Floridsdorfer | live
+- 2026-07-17 12:00 | Stockport - Bristol City | live
 - 2026-07-17 12:30 | Campbelltown C - Adelaide Comets | scheduled
 - 2026-07-17 12:30 | Bentleigh Gree - Dandenong City | scheduled
 - 2026-07-17 12:30 | Green Gully - Dandenong Thund | scheduled

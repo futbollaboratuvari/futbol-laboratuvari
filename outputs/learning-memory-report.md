@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.07.2026 12:22:26
+Oluşturma: 17.07.2026 12:25:51
 
 ## Özet
 
-- Toplam tahmin: 78
-- Bekleyen tahmin: 78
+- Toplam tahmin: 84
+- Bekleyen tahmin: 84
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 22
@@ -20,12 +20,18 @@ Oluşturma: 17.07.2026 12:22:26
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
+- MS X: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-17 | Hazırlık Kulüpler | Elversberg - Viktoria Köln | MS X | pending | 40/100
+- 2026-07-17 | Hazırlık Kulüpler | Winterthur - Union Berlin | MS 1 | pending | 40/100
+- 2026-07-17 | Hazırlık Kulüpler | St Gallen - Norwich | MS X | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Jagiellonia - Nordsjaelland | MS X | pending | 50/100
+- 2026-07-17 | Hazırlık Kulüpler | Bohemians 1905 - Zaglebie Lubin | MS X | pending | 40/100
+- 2026-07-17 | Hazırlık Kulüpler | Prostejov - Floridsdorfer | MS X | pending | 50/100
 - 2026-07-17 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | MS X | pending | 50/100
 - 2026-07-17 | İsveç Allsvenskan | Göteborg - Brommapojkarna | MS 2 | pending | 50/100
 - 2026-07-17 | Hazırlık Kulüpler | Austria Vienna - Paksi | MS X | pending | 50/100
@@ -35,10 +41,4 @@ Oluşturma: 17.07.2026 12:22:26
 - 2026-07-17 | Avustralya NPL Victoria | Green Gully - Dandenong Thund | MS 2 | pending | 50/100
 - 2026-07-17 | Peru Premier Lig Clausura | Fc Cajamarca - Juan Pablo Ii C | MS X | pending | 50/100
 - 2026-07-17 | Finlandiya Ykkösliiga | Kapa - Sjk Ii | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Eldense - Millwall | MS X | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Wattens - Hertha Berlin | MS 1 | pending | 40/100
-- 2026-07-17 | İsveç Allsvenskan | Göteborg - Brommapojkarna | MS X | pending | 50/100
-- 2026-07-17 | İsveç Allsvenskan | Mjallby - Vasteras | MS 2 | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Getafe - Reading | MS 2 | pending | 50/100
-- 2026-07-17 | Hazırlık Kulüpler | Motherwell - Genk | MS X | pending | 60/100
 
