@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 116
+Ham mac: 110
 Aktif mac: 102
 Canli mac: 8
-Biten mac: 6
-Bultenden dusurulen mac: 14
+Biten mac: 0
+Bultenden dusurulen mac: 8
 Bugun: 68
 Yarin: 34
 
@@ -125,9 +125,4 @@ Yarin: 34
 - 2026-07-17 04:00 | Meksika Liga MX Apertura | Necaxa - Atlante | live | -
 
 ## Biten Maclar
-- 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | finished | -
-- 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | finished | -
-- 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | finished | -
-- 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | finished | -
-- 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | finished | -
-- 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
+Biten mac yok.
