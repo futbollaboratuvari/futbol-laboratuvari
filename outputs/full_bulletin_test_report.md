@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 39
-- Live match count: 13
+- Scheduled match count: 38
+- Live match count: 1
 - Finished removed count: 0
-- Date window: 2026-07-17 / 2026-07-18 23:59
+- Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-17 21:30 | Fc Steaua - Argesul Pitesti | live
-- 2026-07-17 21:45 | Benfica - Villarreal | live
-- 2026-07-17 21:45 | Hearts - Vallecano | live
-- 2026-07-17 22:00 | Ca Mitre - R Cordoba | live
-- 2026-07-17 22:00 | El Massira - Uts Rabat | live
-- 2026-07-17 22:00 | Yamoussoukro - Marsilya | live
-- 2026-07-17 22:15 | Fylkir - Njardvik | live
-- 2026-07-17 22:15 | Haukar - Throttur Vogar | live
-- 2026-07-17 22:15 | Kfg Gardabar - Kari | live
-- 2026-07-17 23:00 | Ocean City - Fc Motown Ii | live
+- 2026-07-18 00:00 | Nueva Chicago - Agropecuario | live
+- 2026-07-18 00:45 | San Lorenzo - Riestra | scheduled
+- 2026-07-18 01:00 | America Mineir - Ceara | scheduled
+- 2026-07-18 01:00 | Juventude - Cuiaba | scheduled
+- 2026-07-18 01:00 | Sao Bernardo - Avai | scheduled
+- 2026-07-18 01:30 | Ferro Carril O - Colon Santa Fe | scheduled
+- 2026-07-18 01:30 | Bahia - Chapecoense | scheduled
+- 2026-07-18 01:30 | Nacional Df - Montevideo Wand | scheduled
+- 2026-07-18 02:00 | Vermont Green - Ironbound | scheduled
+- 2026-07-18 02:00 | Ciudad De Bolí - All Boys | scheduled
