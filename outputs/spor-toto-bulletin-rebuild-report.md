@@ -1,13 +1,13 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-17T06:35:03.655Z
-- Ham fixture sayisi: 2064
-- Bugun/yarin kaynak mac: 117
-- Aktif bulten maci: 101
+- Guncelleme: 2026-07-17T08:55:44.346Z
+- Ham fixture sayisi: 2074
+- Bugun/yarin kaynak mac: 127
+- Aktif bulten maci: 110
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 16
+- Bultenden dusurulen mac: 17
 
-- 1. 2026-07-17 11:30 | Hazırlık Kulüpler | Leganes - Albacete | scheduled
+- 1. 2026-07-17 12:00 | Hazırlık Kulüpler | Prostejov - Floridsdorfer | scheduled
 - 2. 2026-07-17 12:00 | Hazırlık Kulüpler | Stockport - Bristol City | scheduled
 - 3. 2026-07-17 12:30 | Avustralya NPL Victoria | Bentleigh Gree - Dandenong City | scheduled
 - 4. 2026-07-17 12:30 | Avustralya NPL Güney Avustralya | Campbelltown C - Adelaide Comets | scheduled

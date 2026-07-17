@@ -2,17 +2,17 @@
 
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 101
-Aktif mac: 101
-Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 67
+Ham mac: 127
+Aktif mac: 110
+Canli mac: 1
+Biten mac: 16
+Bultenden dusurulen mac: 17
+Bugun: 76
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 11:30 | Hazırlık Kulüpler | Leganes - Albacete | scheduled | -
 - 2026-07-17 12:00 | Hazırlık Kulüpler | Stockport - Bristol City | scheduled | -
+- 2026-07-17 12:00 | Hazırlık Kulüpler | Prostejov - Floridsdorfer | scheduled | -
 - 2026-07-17 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Manly United | scheduled | -
 - 2026-07-17 12:30 | Avustralya NPL Güney Avustralya | Campbelltown C - Adelaide Comets | scheduled | -
 - 2026-07-17 12:30 | Avustralya NPL Victoria | Bentleigh Gree - Dandenong City | scheduled | -
@@ -33,11 +33,16 @@ Yarin: 34
 - 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao Zhongne | scheduled | -
 - 2026-07-17 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shanghai Port | scheduled | -
 - 2026-07-17 16:00 | Hazırlık Kulüpler | Slovan Liberec - St Polten | scheduled | -
+- 2026-07-17 16:00 | Hazırlık Kulüpler | Jagiellonia - Nordsjaelland | scheduled | -
 - 2026-07-17 17:00 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | scheduled | -
+- 2026-07-17 17:00 | Hazırlık Kulüpler | Bohemians 1905 - Zaglebie Lubin | scheduled | -
+- 2026-07-17 17:30 | Hazırlık Kulüpler | Sparta Praha I - Zwickau | scheduled | -
 - 2026-07-17 18:00 | Hazırlık Kulüpler | Avusturya Wien - Lafnitz | scheduled | -
 - 2026-07-17 18:00 | Hazırlık Kulüpler | Annecy - Sion | scheduled | -
+- 2026-07-17 18:00 | Hazırlık Kulüpler | Leyton Orient - Lincoln | scheduled | -
 - 2026-07-17 18:30 | Hazırlık Kulüpler | Rennes - Guingamp | scheduled | -
 - 2026-07-17 18:30 | Romanya 1.Lig | Voluntari - Botosani | scheduled | -
+- 2026-07-17 18:30 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | scheduled | -
 - 2026-07-17 19:00 | Hazırlık Kulüpler | Bayreuth - Carl Zeiss Jena | scheduled | -
 - 2026-07-17 19:00 | Hazırlık Kulüpler | Paderborn - Fagiano Okayama | scheduled | -
 - 2026-07-17 19:00 | Bulgaristan 1.Lig | Spartak Varna - Cska 1948 Sofia | scheduled | -
@@ -46,6 +51,8 @@ Yarin: 34
 - 2026-07-17 19:00 | Slovenya 1.SNL | Nafta - Koper | scheduled | -
 - 2026-07-17 19:00 | Estonya Premium Lig | Flora Tallinn - Nomme United | scheduled | -
 - 2026-07-17 19:00 | Hazırlık Kulüpler | Astoria Walldo - Darmstadt | scheduled | -
+- 2026-07-17 19:00 | Hazırlık Kulüpler | Usti Nad Labem - Dukla Prag | scheduled | -
+- 2026-07-17 19:00 | Hazırlık Kulüpler | Elversberg - Viktoria Köln | scheduled | -
 - 2026-07-17 19:30 | Hazırlık Kulüpler | Olympiakos - Fortuna Sittard | scheduled | -
 - 2026-07-17 19:30 | Hazırlık Kulüpler | Eldense - Millwall | scheduled | -
 - 2026-07-17 19:30 | Hazırlık Kulüpler | Wattens - Hertha Berlin | scheduled | -
@@ -53,6 +60,7 @@ Yarin: 34
 - 2026-07-17 20:00 | İsveç Allsvenskan | Mjallby - Vasteras | scheduled | -
 - 2026-07-17 20:00 | Hazırlık Kulüpler | Club Brugge - Heerenveen | scheduled | -
 - 2026-07-17 20:00 | Hazırlık Kulüpler | Getafe - Reading | scheduled | -
+- 2026-07-17 20:00 | Hazırlık Kulüpler | Winterthur - Union Berlin | scheduled | -
 - 2026-07-17 20:15 | Norveç Eliteserien | Bodo Glimt - Fredrikstad | scheduled | -
 - 2026-07-17 21:00 | Hazırlık Kulüpler | West Bromwich - Bromley | scheduled | -
 - 2026-07-17 21:00 | Hazırlık Kulüpler | Motherwell - Genk | scheduled | -
@@ -65,6 +73,7 @@ Yarin: 34
 - 2026-07-17 21:00 | Arjantin Ulusal Primera Lig | Almirante - Caseros | scheduled | -
 - 2026-07-17 21:00 | Arjantin Ulusal Primera Lig | Maipu - San Martin Tucu | scheduled | -
 - 2026-07-17 21:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Albion - Juventud Dl Pie | scheduled | -
+- 2026-07-17 21:00 | Hazırlık Kulüpler | St Gallen - Norwich | scheduled | -
 - 2026-07-17 21:15 | Hazırlık Kulüpler | Lugano - Vaduz | scheduled | -
 - 2026-07-17 21:15 | Bulgaristan 1.Lig | Levski Sofya - Dunav 2010 | scheduled | -
 - 2026-07-17 21:15 | Slovenya 1.SNL | Celje - Mura | scheduled | -
@@ -114,7 +123,22 @@ Yarin: 34
 - 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-17 11:30 | Hazırlık Kulüpler | Leganes - Albacete | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | finished | -
+- 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | finished | -
+- 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | finished | -
+- 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | finished | -
+- 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | finished | -
+- 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
+- 2026-07-17 02:30 | ABD MLS | Montreal - Toronto | finished | -
+- 2026-07-17 03:00 | Ekvador Pro Lig | Orense - Emelec | finished | -
+- 2026-07-17 03:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
+- 2026-07-17 03:30 | ABD MLS | Chicago - Vancouver | finished | -
+- 2026-07-17 03:30 | ABD MLS | St. Louis City - Kansas | finished | -
+- 2026-07-17 03:30 | ABD USL Lig 2 Konferans Çeyrek Final | Peoria City - Sueno | finished | -
+- 2026-07-17 03:45 | Arjantin Kupa Son 32 Turu | Sarmiento - Boca Juniors | finished | -
+- 2026-07-17 04:00 | Meksika Liga MX Apertura | Necaxa - Atlante | finished | -
+- 2026-07-17 05:30 | ABD MLS | Seattle - Portland | finished | -
+- 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | finished | -
