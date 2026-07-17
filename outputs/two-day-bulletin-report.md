@@ -1,18 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-17 / 2026-07-18
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 132
-Aktif mac: 88
-Canli mac: 21
-Biten mac: 23
-Bultenden dusurulen mac: 44
+Kaynak: fixtures.json
+Ham mac: 134
+Aktif mac: 89
+Canli mac: 6
+Biten mac: 39
+Bultenden dusurulen mac: 45
 Bugun: 54
-Yarin: 34
+Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-17 17:30 | Hazırlık Kulüpler | Sparta Praha I - Zwickau | scheduled | -
 - 2026-07-17 18:00 | Hazırlık Kulüpler | Avusturya Wien - Lafnitz | scheduled | -
 - 2026-07-17 18:00 | Hazırlık Kulüpler | Annecy - Sion | scheduled | -
 - 2026-07-17 18:00 | Hazırlık Kulüpler | Leyton Orient - Lincoln | scheduled | -
@@ -59,6 +57,7 @@ Yarin: 34
 - 2026-07-17 21:45 | Hazırlık Kulüpler | Benfica - Villarreal | scheduled | -
 - 2026-07-17 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - R Cordoba | scheduled | -
 - 2026-07-17 22:00 | Hazırlık Kulüpler | Yamoussoukro - Marsilya | scheduled | -
+- 2026-07-17 22:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | El Massira - Uts Rabat | scheduled | -
 - 2026-07-17 22:15 | İzlanda 1.Lig | Fylkir - Njardvik | scheduled | -
 - 2026-07-17 22:15 | İzlanda 2.Lig | Haukar - Throttur Vogar | scheduled | -
 - 2026-07-17 22:15 | İzlanda 2.Lig | Kfg Gardabar - Kari | scheduled | -
@@ -79,6 +78,7 @@ Yarin: 34
 - 2026-07-18 02:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí - All Boys | scheduled | -
 - 2026-07-18 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | scheduled | -
 - 2026-07-18 02:00 | Kanada Premier Lig | Supra Du Québe - Vancouver Fc | scheduled | -
+- 2026-07-18 02:00 | ABD USL Lig 2 Konferans Çeyrek Final | Vermont Green - Ironbound | scheduled | -
 - 2026-07-18 02:30 | Arjantin Ulusal Primera Lig | Atl Temperley - Rafaela | scheduled | -
 - 2026-07-18 03:00 | Brezilya Serie B | Londrina - Botafogo Ribeir | scheduled | -
 - 2026-07-18 03:00 | Brezilya Serie B | Fortaleza Ce - Novorizontino | scheduled | -
@@ -107,22 +107,7 @@ Yarin: 34
 - 2026-07-17 16:30 | Hazırlık Kulüpler | Mainz - Kaiserslautern | live | -
 - 2026-07-17 17:00 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | live | -
 - 2026-07-17 17:00 | Hazırlık Kulüpler | Bohemians 1905 - Zaglebie Lubin | live | -
-- 2026-07-17 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shanghai Port | live | -
-- 2026-07-17 15:00 | Hazırlık Kulüpler | Midtjylland - Odense | live | -
-- 2026-07-17 13:00 | Hazırlık Kulüpler | Sonderjyske - Kolding If | live | -
-- 2026-07-17 13:00 | Hazırlık Kulüpler | Nordsjaelland - Sparta Prag | live | -
-- 2026-07-17 13:30 | Avustralya NPL Güney Avustralya | West Torrens - Para Hills Knig | live | -
-- 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Northcote City - Manningham Unit | live | -
-- 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Brunswick City | live | -
-- 2026-07-17 14:00 | Hazırlık Kulüpler | Aalborg - Silkeborg | live | -
-- 2026-07-17 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Chengdu Ron. | live | -
-- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Shenzhen Junior | live | -
-- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Wuxi Wugou | live | -
-- 2026-07-17 14:00 | Avustralya NPL Batı Avustralya | Perth - Western Knights | live | -
-- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Nantong Zhiyun | live | -
-- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Yanbian Longdin | live | -
-- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Liaoning Shenya | live | -
-- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao Zhongne | live | -
+- 2026-07-17 17:30 | Hazırlık Kulüpler | Sparta Praha I - Zwickau | live | -
 
 ## Biten Maclar
 - 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | finished | -
@@ -148,3 +133,19 @@ Yarin: 34
 - 2026-07-17 12:30 | Avustralya NPL Güney Avustralya | Campbelltown C - Adelaide Comets | finished | -
 - 2026-07-17 12:30 | Avustralya NPL Victoria | Bentleigh Gree - Dandenong City | finished | -
 - 2026-07-17 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong Thund | finished | -
+- 2026-07-17 13:00 | Hazırlık Kulüpler | Sonderjyske - Kolding If | finished | -
+- 2026-07-17 13:00 | Hazırlık Kulüpler | Nordsjaelland - Sparta Prag | finished | -
+- 2026-07-17 13:30 | Avustralya NPL Güney Avustralya | West Torrens - Para Hills Knig | finished | -
+- 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Northcote City - Manningham Unit | finished | -
+- 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Brunswick City | finished | -
+- 2026-07-17 14:00 | Hazırlık Kulüpler | Aalborg - Silkeborg | finished | -
+- 2026-07-17 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Chengdu Ron. | finished | -
+- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Shenzhen Junior | finished | -
+- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Wuxi Wugou | finished | -
+- 2026-07-17 14:00 | Avustralya NPL Batı Avustralya | Perth - Western Knights | finished | -
+- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Nantong Zhiyun | finished | -
+- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Yanbian Longdin | finished | -
+- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Liaoning Shenya | finished | -
+- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao Zhongne | finished | -
+- 2026-07-17 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shanghai Port | finished | -
+- 2026-07-17 15:00 | Hazırlık Kulüpler | Midtjylland - Odense | finished | -

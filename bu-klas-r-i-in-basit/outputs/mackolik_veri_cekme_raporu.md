@@ -1,25 +1,39 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-17T13:55:23.874885+00:00
+Tarih: 2026-07-17T14:52:51.085003+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 55
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Durum: success
+- Kac mac bulundu: 88
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 86
+- Ham veri havuzu toplam mac sayisi: 2088
 - Hedef tarih: 17.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL Lig 1
 - ABD USL Lig 2 Konferans Çeyrek Final
+- Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
+- Avustralya NPL Victoria
+- Bolivya Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
 - Bulgaristan 1.Lig
+- Ekvador Pro Lig
 - Estonya Premium Lig
+- Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
+- Kanada Premier Lig
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -85,16 +99,15 @@ Tarih: 2026-07-17T13:55:23.874885+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 36
-- Acilan detay: 36
+- Denenen Tumu alani: 37
+- Acilan detay: 37
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
@@ -114,13 +127,13 @@ Tarih: 2026-07-17T13:55:23.874885+00:00
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | West Bromwich | Bromley | 19914 | 5 |
 | 17.07.2026 | 19:30 | Hazırlık Kulüpler | Eldense | Millwall | 01868 | 5 |
 | 17.07.2026 | 22:00 | Hazırlık Kulüpler | Yamoussoukro | Marsilya | 08081 | 2 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Usti Nad Labem | Dukla Prag | 20046 | 3 |
 | 17.07.2026 | 21:45 | Hazırlık Kulüpler | Hearts | Vallecano | 08768 | 5 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Bayreuth | Carl Zeiss Jena | 08456 | 5 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Astoria Walldo | Darmstadt | 00494 | 4 |
 | 17.07.2026 | 19:30 | Hazırlık Kulüpler | Dac | Bolton | 20833 | 5 |
 | 17.07.2026 | 19:00 | Hazırlık Kulüpler | Elversberg | Viktoria Köln | 20278 | 5 |
+| 17.07.2026 | 18:00 | Hazırlık Kulüpler | Avusturya Wien | Lafnitz | 09257 | 5 |
+| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Usti Nad Labem | Dukla Prag | 20046 | 3 |
+| 17.07.2026 | 20:00 | Hazırlık Kulüpler | Getafe | Reading | 14045 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
