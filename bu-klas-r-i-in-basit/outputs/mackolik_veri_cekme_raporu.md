@@ -1,42 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-17T08:55:42.873028+00:00
+Tarih: 2026-07-17T10:23:50.335731+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 108
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 106
-- Ham veri havuzu toplam mac sayisi: 2081
+- Kac mac bulundu: 70
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 69
+- Ham veri havuzu toplam mac sayisi: 2082
 - Hedef tarih: 17.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL Lig 1
 - ABD USL Lig 2 Konferans Çeyrek Final
-- Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Güney Avustralya
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
-- Avustralya NPL Victoria
-- Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- Ekvador Pro Lig
 - Estonya Premium Lig
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
-- Kanada Premier Lig
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -104,8 +90,8 @@ Tarih: 2026-07-17T08:55:42.873028+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 42
-- Acilan detay: 42
+- Denenen Tumu alani: 40
+- Acilan detay: 40
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -135,9 +121,9 @@ Tarih: 2026-07-17T08:55:42.873028+00:00
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | West Bromwich | Bromley | 19914 | 5 |
 | 17.07.2026 | 20:00 | Hazırlık Kulüpler | Getafe | Reading | 14045 | 5 |
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | Motherwell | Genk | 19861 | 5 |
-| 17.07.2026 | 12:00 | Hazırlık Kulüpler | Stockport | Bristol City | 07958 | 5 |
 | 17.07.2026 | 13:00 | Hazırlık Kulüpler | Sonderjyske | Kolding If | 08034 | 3 |
 | 17.07.2026 | 14:00 | Hazırlık Kulüpler | Aalborg | Silkeborg | 19717 | 3 |
+| 17.07.2026 | 17:00 | Hazırlık Kulüpler | Bohemians 1905 | Zaglebie Lubin | 20012 | 5 |
 
 ## Sonuc
 

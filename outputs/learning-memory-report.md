@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.07.2026 12:25:51
+Oluşturma: 17.07.2026 13:24:04
 
 ## Özet
 
-- Toplam tahmin: 84
-- Bekleyen tahmin: 84
+- Toplam tahmin: 86
+- Bekleyen tahmin: 86
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 22
@@ -20,12 +20,14 @@ Oluşturma: 17.07.2026 12:25:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
+- MS X: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-17 | Hazırlık Kulüpler | Winterthur - Union Berlin | MS X | pending | 40/100
+- 2026-07-17 | Hazırlık Kulüpler | Motherwell - Genk | MS 1 | pending | 60/100
 - 2026-07-17 | Hazırlık Kulüpler | Elversberg - Viktoria Köln | MS X | pending | 40/100
 - 2026-07-17 | Hazırlık Kulüpler | Winterthur - Union Berlin | MS 1 | pending | 40/100
 - 2026-07-17 | Hazırlık Kulüpler | St Gallen - Norwich | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 17.07.2026 12:25:51
 - 2026-07-17 | Hazırlık Kulüpler | Olympiakos - Fortuna Sittard | MS 2 | pending | 60/100
 - 2026-07-17 | Hazırlık Kulüpler | Rennes - Guingamp | MS 2 | pending | 60/100
 - 2026-07-17 | Avustralya NPL Victoria | Green Gully - Dandenong Thund | MS 2 | pending | 50/100
-- 2026-07-17 | Peru Premier Lig Clausura | Fc Cajamarca - Juan Pablo Ii C | MS X | pending | 50/100
-- 2026-07-17 | Finlandiya Ykkösliiga | Kapa - Sjk Ii | MS X | pending | 50/100
 
