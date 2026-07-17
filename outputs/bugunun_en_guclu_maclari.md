@@ -2,32 +2,29 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-17T15:20:02.358Z
-- Ham maç sayısı: 95
+- Güncelleme: 2026-07-17T15:43:09.006Z
+- Ham maç sayısı: 93
 - Yarın bülteni maç sayısı: 35
-- Detay blok sayısı: 251
-- Aktif bülten maçı: 86
-- Bültenden düşürülen maç: 9
+- Detay blok sayısı: 246
+- Aktif bülten maçı: 83
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rennes - Guingamp | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.43 | 7 |
-| Voluntari - Botosani | Romanya 1.Lig | 18:30 | Veri bekleniyor | - | 2.13 | 8 |
-| Lokomotiva - Karpaty Lviv | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.98 | 8 |
-| Bayreuth - Carl Zeiss Jena | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.47 | 8 |
-| Paderborn - Fagiano Okayama | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.21 | 6 |
-| Spartak Varna - Cska 1948 Sofia | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 4.63 | 7 |
+| Bayreuth - Carl Zeiss Jena | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.61 | 8 |
+| Paderborn - Fagiano Okayama | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.22 | 6 |
+| Spartak Varna - Cska 1948 Sofia | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 4.82 | 7 |
 | Kapa - Sjk Ii | Finlandiya Ykkösliiga | 19:00 | Veri bekleniyor | - | 1.91 | 8 |
 | Klubi 04 - Haka | Finlandiya Ykkösliiga | 19:00 | Veri bekleniyor | - | 4.32 | 6 |
 | Nafta - Koper | Slovenya 1.SNL | 19:00 | Veri bekleniyor | - | 5.08 | 6 |
-| Flora Tallinn - Nomme United | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 1.08 | 3 |
+| Flora Tallinn - Nomme United | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 1.13 | 3 |
 | Astoria Walldo - Darmstadt | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 14.75 | 5 |
-| Usti Nad Labem - Dukla Prag | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.47 | 6 |
-| Elversberg - Viktoria Köln | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.11 | 6 |
-| Olympiakos - Fortuna Sittard | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 1.19 | 6 |
+| Usti Nad Labem - Dukla Prag | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.56 | 6 |
+| Elversberg - Viktoria Köln | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.2 | 6 |
+| Olympiakos - Fortuna Sittard | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 1.18 | 6 |
 | Eldense - Millwall | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 2.92 | 8 |
-| Wattens - Hertha Berlin | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 5.28 | 6 |
+| Wattens - Hertha Berlin | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 5.16 | 6 |
 | Dac - Bolton | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 1.86 | 8 |
 | Göteborg - Brommapojkarna | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.79 | 8 |
 | Mjallby - Vasteras | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.62 | 8 |
@@ -42,26 +39,26 @@
 | Yamoussoukro - Marsilya | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 17.1 | 3 |
 | Kizilyildiz - Macva | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | - | 3 |
 | Zeleznicar Pan - Radnicki Nis | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 1.57 | 8 |
-| Fc Cajamarca - Juan Pablo Ii C | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.74 | 8 |
+| Fc Cajamarca - Juan Pablo Ii C | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.81 | 8 |
 | Almirante - Caseros | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.27 | 6 |
-| Maipu - San Martin Tucu | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.57 | 6 |
+| Maipu - San Martin Tucu | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.63 | 6 |
 | Albion - Juventud Dl Pie | Uruguay Premier Lig Intermediate Turu Grup 2 | 21:00 | Veri bekleniyor | - | 1.88 | 5 |
-| St Gallen - Norwich | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.69 | 8 |
+| St Gallen - Norwich | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.73 | 8 |
 | Lugano - Vaduz | Hazırlık Kulüpler | 21:15 | Veri bekleniyor | - | 1.46 | 7 |
 | Levski Sofya - Dunav 2010 | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | - | 5 |
-| Celje - Mura | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 1.14 | 6 |
+| Celje - Mura | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 1.13 | 6 |
 | Fc Steaua - Argesul Pitesti | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 1.39 | 7 |
 | Hearts - Vallecano | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.44 | 8 |
 | Benfica - Villarreal | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.54 | 8 |
 | Ca Mitre - R Cordoba | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 2.08 | 6 |
 | Yamoussoukro - Marsilya | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 17.1 | 3 |
-| El Massira - Uts Rabat | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | 22:00 | Veri bekleniyor | - | 2.8 | 8 |
+| El Massira - Uts Rabat | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | 22:00 | Veri bekleniyor | - | 2.69 | 8 |
 | Fylkir - Njardvik | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.57 | 6 |
 | Haukar - Throttur Vogar | İzlanda 2.Lig | 22:15 | Veri bekleniyor | - | 1.15 | 4 |
 | Kfg Gardabar - Kari | İzlanda 2.Lig | 22:15 | Veri bekleniyor | - | 3.56 | 5 |
 | Steel City - Northern Indian | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.34 | 6 |
 | Hviti - Vikingur Ol. | İzlanda 2.Lig | 23:00 | Veri bekleniyor | - | 2.21 | 6 |
-| Ocean City - Fc Motown Ii | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.98 | 3 |
+| Ocean City - Fc Motown Ii | ABD USL Lig 2 Konferans Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.98 | 6 |
 | Sporting Crist - Deportivo Garci | Peru Premier Lig Clausura | 23:15 | Veri bekleniyor | - | 1.19 | 6 |
 | Nueva Chicago - Agropecuario | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 1.8 | 6 |
 | San Lorenzo - Riestra | Arjantin Kupa Son 32 Turu | 00:45 | Veri bekleniyor | - | 2.16 | 6 |
