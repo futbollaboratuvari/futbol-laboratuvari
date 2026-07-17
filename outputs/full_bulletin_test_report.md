@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 66
-- Live match count: 20
-- Finished removed count: 3
+- Scheduled match count: 50
+- Live match count: 26
+- Finished removed count: 0
 - Date window: 2026-07-17 / 2026-07-18 23:59
 
-- 2026-07-17 19:00 | Spartak Varna - Cska | live
-- 2026-07-17 19:00 | Flora Tallinn - Nomme United | live
-- 2026-07-17 19:00 | Kapa - Sjk Ii | live
-- 2026-07-17 19:00 | Klubi 04 - Haka | live
-- 2026-07-17 19:00 | Astoria Walldo - Darmstadt | live
-- 2026-07-17 19:00 | Bayreuth - Carl Zeiss Jena | live
-- 2026-07-17 19:00 | Elversberg - Viktoria Köln | live
-- 2026-07-17 19:00 | Paderborn - Fagiano Okayama | live
-- 2026-07-17 19:00 | Usti Nad Labem - Dukla Prag | live
-- 2026-07-17 19:00 | Nafta - Koper | live
+- 2026-07-17 19:30 | Dac - Bolton | live
+- 2026-07-17 19:30 | Eldense - Millwall | live
+- 2026-07-17 19:30 | Olympiakos - Fortuna Sittard | live
+- 2026-07-17 19:30 | Wattens - Hertha Berlin | live
+- 2026-07-17 20:00 | Club Brugge - Heerenveen | live
+- 2026-07-17 20:00 | Getafe - Reading | live
+- 2026-07-17 20:00 | Winterthur - Union Berlin | live
+- 2026-07-17 20:00 | Göteborg - Brommapojkarna | live
+- 2026-07-17 20:00 | Mjallby - Vasteras | live
+- 2026-07-17 20:15 | Bodo Glimt - Fredrikstad | live
