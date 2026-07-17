@@ -4,19 +4,14 @@ Gunler: 2026-07-17 / 2026-07-18
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 132
-Aktif mac: 93
-Canli mac: 16
+Aktif mac: 88
+Canli mac: 21
 Biten mac: 23
-Bultenden dusurulen mac: 39
-Bugun: 59
+Bultenden dusurulen mac: 44
+Bugun: 54
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 16:00 | Hazırlık Kulüpler | Slovan Liberec - St Polten | scheduled | -
-- 2026-07-17 16:00 | Hazırlık Kulüpler | Jagiellonia - Nordsjaelland | scheduled | -
-- 2026-07-17 16:30 | Hazırlık Kulüpler | Mainz - Kaiserslautern | scheduled | -
-- 2026-07-17 17:00 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | scheduled | -
-- 2026-07-17 17:00 | Hazırlık Kulüpler | Bohemians 1905 - Zaglebie Lubin | scheduled | -
 - 2026-07-17 17:30 | Hazırlık Kulüpler | Sparta Praha I - Zwickau | scheduled | -
 - 2026-07-17 18:00 | Hazırlık Kulüpler | Avusturya Wien - Lafnitz | scheduled | -
 - 2026-07-17 18:00 | Hazırlık Kulüpler | Annecy - Sion | scheduled | -
@@ -107,6 +102,11 @@ Yarin: 34
 - 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled | -
 
 ## Canli Maclar
+- 2026-07-17 16:00 | Hazırlık Kulüpler | Slovan Liberec - St Polten | live | -
+- 2026-07-17 16:00 | Hazırlık Kulüpler | Jagiellonia - Nordsjaelland | live | -
+- 2026-07-17 16:30 | Hazırlık Kulüpler | Mainz - Kaiserslautern | live | -
+- 2026-07-17 17:00 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | live | -
+- 2026-07-17 17:00 | Hazırlık Kulüpler | Bohemians 1905 - Zaglebie Lubin | live | -
 - 2026-07-17 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shanghai Port | live | -
 - 2026-07-17 15:00 | Hazırlık Kulüpler | Midtjylland - Odense | live | -
 - 2026-07-17 13:00 | Hazırlık Kulüpler | Sonderjyske - Kolding If | live | -
