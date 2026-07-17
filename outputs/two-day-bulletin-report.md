@@ -1,25 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-18 / 2026-07-19
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 227
-Aktif mac: 222
-Canli mac: 5
+Aktif mac: 213
+Canli mac: 14
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 191
+Bultenden dusurulen mac: 14
+Bugun: 182
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-18 01:30 | Brezilya Serie A | Bahia - Chapecoense | scheduled | -
-- 2026-07-18 01:30 | Arjantin Ulusal Primera Lig | Ferro Carril O - Colon Santa Fe | scheduled | -
-- 2026-07-18 01:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Montevideo Wand | scheduled | -
-- 2026-07-18 02:00 | Brezilya Serie A | Mirassol - Gremio | scheduled | -
-- 2026-07-18 02:00 | Brezilya Serie A | Fluminense - Bragantino | scheduled | -
-- 2026-07-18 02:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí - All Boys | scheduled | -
-- 2026-07-18 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | scheduled | -
-- 2026-07-18 02:00 | Kanada Premier Lig | Supra Du Québe - Vancouver Fc | scheduled | -
-- 2026-07-18 02:00 | ABD USL Lig 2 Konferans Çeyrek Final | Vermont Green - Ironbound | scheduled | -
 - 2026-07-18 02:30 | Arjantin Ulusal Primera Lig | Atl Temperley - Rafaela | scheduled | -
 - 2026-07-18 02:30 | ABD USL Lig 2 Konferans Çeyrek Final | Michigan Bucks - Buffalo | scheduled | -
 - 2026-07-18 02:30 | ABD USL Lig 2 Konferans Çeyrek Final | Ventura Countr - Project 51o | scheduled | -
@@ -235,6 +227,15 @@ Yarin: 31
 - 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | scheduled | -
 
 ## Canli Maclar
+- 2026-07-18 01:30 | Brezilya Serie A | Bahia - Chapecoense | live | -
+- 2026-07-18 01:30 | Arjantin Ulusal Primera Lig | Ferro Carril O - Colon Santa Fe | live | -
+- 2026-07-18 01:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Montevideo Wand | live | -
+- 2026-07-18 02:00 | Brezilya Serie A | Mirassol - Gremio | live | -
+- 2026-07-18 02:00 | Brezilya Serie A | Fluminense - Bragantino | live | -
+- 2026-07-18 02:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí - All Boys | live | -
+- 2026-07-18 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | live | -
+- 2026-07-18 02:00 | Kanada Premier Lig | Supra Du Québe - Vancouver Fc | live | -
+- 2026-07-18 02:00 | ABD USL Lig 2 Konferans Çeyrek Final | Vermont Green - Ironbound | live | -
 - 2026-07-18 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Agropecuario | live | -
 - 2026-07-18 00:45 | Arjantin Kupa Son 32 Turu | San Lorenzo - Riestra | live | -
 - 2026-07-18 01:00 | Brezilya Serie B | America Mineir - Ceara | live | -

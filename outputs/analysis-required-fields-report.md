@@ -1,9 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 2
+Durum: empty
+Toplam analiz: 0
 Tam analiz: 0
-Eksik analiz: 2
+Eksik analiz: 0
 
-- Nueva Chicago VS Agropecuario: eksik score, confidence
-- Atletico Grau VS Univ De Cajamar: eksik score, confidence
