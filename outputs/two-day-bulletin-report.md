@@ -2,21 +2,15 @@
 
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 111
-Aktif mac: 108
-Canli mac: 3
+Ham mac: 112
+Aktif mac: 103
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 74
+Bultenden dusurulen mac: 9
+Bugun: 69
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Manly United | scheduled | -
-- 2026-07-17 12:30 | Avustralya NPL Güney Avustralya | Campbelltown C - Adelaide Comets | scheduled | -
-- 2026-07-17 12:30 | Avustralya NPL Victoria | Bentleigh Gree - Dandenong City | scheduled | -
-- 2026-07-17 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong Thund | scheduled | -
-- 2026-07-17 13:00 | Hazırlık Kulüpler | Sonderjyske - Kolding If | scheduled | -
-- 2026-07-17 13:00 | Hazırlık Kulüpler | Nordsjaelland - Sparta Prag | scheduled | -
 - 2026-07-17 13:30 | Avustralya NPL Güney Avustralya | West Torrens - Para Hills Knig | scheduled | -
 - 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Northcote City - Manningham Unit | scheduled | -
 - 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Brunswick City | scheduled | -
@@ -54,6 +48,7 @@ Yarin: 34
 - 2026-07-17 19:30 | Hazırlık Kulüpler | Olympiakos - Fortuna Sittard | scheduled | -
 - 2026-07-17 19:30 | Hazırlık Kulüpler | Eldense - Millwall | scheduled | -
 - 2026-07-17 19:30 | Hazırlık Kulüpler | Wattens - Hertha Berlin | scheduled | -
+- 2026-07-17 19:30 | Hazırlık Kulüpler | Dac - Bolton | scheduled | -
 - 2026-07-17 20:00 | İsveç Allsvenskan | Göteborg - Brommapojkarna | scheduled | -
 - 2026-07-17 20:00 | İsveç Allsvenskan | Mjallby - Vasteras | scheduled | -
 - 2026-07-17 20:00 | Hazırlık Kulüpler | Club Brugge - Heerenveen | scheduled | -
@@ -124,6 +119,12 @@ Yarin: 34
 - 2026-07-17 11:30 | Hazırlık Kulüpler | Leganes - Albacete | live | -
 - 2026-07-17 12:00 | Hazırlık Kulüpler | Stockport - Bristol City | live | -
 - 2026-07-17 12:00 | Hazırlık Kulüpler | Prostejov - Floridsdorfer | live | -
+- 2026-07-17 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Manly United | live | -
+- 2026-07-17 12:30 | Avustralya NPL Güney Avustralya | Campbelltown C - Adelaide Comets | live | -
+- 2026-07-17 12:30 | Avustralya NPL Victoria | Bentleigh Gree - Dandenong City | live | -
+- 2026-07-17 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong Thund | live | -
+- 2026-07-17 13:00 | Hazırlık Kulüpler | Sonderjyske - Kolding If | live | -
+- 2026-07-17 13:00 | Hazırlık Kulüpler | Nordsjaelland - Sparta Prag | live | -
 
 ## Biten Maclar
 Biten mac yok.
