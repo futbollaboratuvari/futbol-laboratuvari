@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-17T18:32:21.749Z
+- Güncelleme: 2026-07-17T19:09:03.244Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -37,8 +37,8 @@
 | Levski Sofya VS Dunav 2010 | Bulgaristan 1.Lig | 21:15 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Celje VS Mura | Slovenya 1.SNL | 21:15 | MS X | 5.00 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Fc Steaua VS Argesul Pitesti | Romanya 1.Lig | 21:30 | MS 2 | 4.29 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Hearts VS Vallecano | Hazırlık Kulüpler | 21:45 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Benfica VS Villarreal | Hazırlık Kulüpler | 21:45 | MS 2 | 3.87 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Hearts VS Vallecano | Hazırlık Kulüpler | 21:45 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Benfica VS Villarreal | Hazırlık Kulüpler | 21:45 | MS 2 | 3.87 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Ca Mitre VS R Cordoba | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Yamoussoukro VS Marsilya | Hazırlık Kulüpler | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | El Massira VS Uts Rabat | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | 22:00 | Değerli market yok | - | 5 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
