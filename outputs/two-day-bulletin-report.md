@@ -2,20 +2,15 @@
 
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 128
-Aktif mac: 100
-Canli mac: 12
-Biten mac: 16
-Bultenden dusurulen mac: 28
-Bugun: 66
+Ham mac: 112
+Aktif mac: 95
+Canli mac: 17
+Biten mac: 0
+Bultenden dusurulen mac: 17
+Bugun: 61
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 14:00 | Hazırlık Kulüpler | Aalborg - Silkeborg | scheduled | -
-- 2026-07-17 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Chengdu Ron. | scheduled | -
-- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Shenzhen Junior | scheduled | -
-- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Wuxi Wugou | scheduled | -
-- 2026-07-17 14:00 | Avustralya NPL Batı Avustralya | Perth - Western Knights | scheduled | -
 - 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Nantong Zhiyun | scheduled | -
 - 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Yanbian Longdin | scheduled | -
 - 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Liaoning Shenya | scheduled | -
@@ -125,21 +120,11 @@ Yarin: 34
 - 2026-07-17 13:30 | Avustralya NPL Güney Avustralya | West Torrens - Para Hills Knig | live | -
 - 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Northcote City - Manningham Unit | live | -
 - 2026-07-17 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Brunswick City | live | -
+- 2026-07-17 14:00 | Hazırlık Kulüpler | Aalborg - Silkeborg | live | -
+- 2026-07-17 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Youth - Chengdu Ron. | live | -
+- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Shenzhen Junior | live | -
+- 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Wuxi Wugou | live | -
+- 2026-07-17 14:00 | Avustralya NPL Batı Avustralya | Perth - Western Knights | live | -
 
 ## Biten Maclar
-- 2026-07-17 00:30 | Ekvador Pro Lig | Aucas - Indep. Jose Ter | finished | -
-- 2026-07-17 00:45 | Arjantin Kupa Son 32 Turu | Racing Club - Defensa Justici | finished | -
-- 2026-07-17 01:30 | Brezilya Serie A | Vitoria Bahia - Vasco Da Gama | finished | -
-- 2026-07-17 01:30 | Brezilya Serie A | Botafogo - Santos | finished | -
-- 2026-07-17 02:00 | Brezilya Serie B | Regatas - Nautico | finished | -
-- 2026-07-17 02:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
-- 2026-07-17 02:30 | ABD MLS | Montreal - Toronto | finished | -
-- 2026-07-17 03:00 | Ekvador Pro Lig | Orense - Emelec | finished | -
-- 2026-07-17 03:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
-- 2026-07-17 03:30 | ABD MLS | Chicago - Vancouver | finished | -
-- 2026-07-17 03:30 | ABD MLS | St. Louis City - Kansas | finished | -
-- 2026-07-17 03:30 | ABD USL Lig 2 Konferans Çeyrek Final | Peoria City - Sueno | finished | -
-- 2026-07-17 03:45 | Arjantin Kupa Son 32 Turu | Sarmiento - Boca Juniors | finished | -
-- 2026-07-17 04:00 | Meksika Liga MX Apertura | Necaxa - Atlante | finished | -
-- 2026-07-17 05:30 | ABD MLS | Seattle - Portland | finished | -
-- 2026-07-17 06:10 | Meksika Liga MX Apertura | Club Tijuana - Tigres Uanl | finished | -
+Biten mac yok.

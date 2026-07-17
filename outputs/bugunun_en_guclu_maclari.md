@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-17T10:31:27.763Z
+- Güncelleme: 2026-07-17T11:01:28.420Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -25,8 +25,8 @@
 | Melbourne Knig VS Brunswick City | Avustralya Victoria NPL 1 | 13:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Aalborg VS Silkeborg | Hazırlık Kulüpler | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Qingdao Youth VS Chengdu Ron. | Çin Halk Cumhuriyeti Süper Lig | 14:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Suzhou Dongwu VS Shenzhen Junior | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 1 | 3.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Changchun Yata VS Wuxi Wugou | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Suzhou Dongwu VS Shenzhen Junior | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 1 | 3.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Changchun Yata VS Wuxi Wugou | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Perth VS Western Knights | Avustralya NPL Batı Avustralya | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Foshan Nanshi VS Nantong Zhiyun | Çin Halk Cumhuriyeti 1.Lig | 14:30 | MS 1 | 3.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hebei Kungfu VS Yanbian Longdin | Çin Halk Cumhuriyeti 1.Lig | 14:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
