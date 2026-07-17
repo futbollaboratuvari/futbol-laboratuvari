@@ -1,37 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-17T16:08:32.124876+00:00
+Tarih: 2026-07-17T16:42:51.363927+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 75
+- Kac mac bulundu: 34
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 75
+- Kac mac zaten vardi: 34
 - Ham veri havuzu toplam mac sayisi: 2088
 - Hedef tarih: 17.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL Lig 1
 - ABD USL Lig 2 Konferans Çeyrek Final
-- Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
-- Avustralya NPL Victoria
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- Ekvador Pro Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
 - Hazırlık Kulüpler
-- Kanada Premier Lig
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -112,25 +99,25 @@ Tarih: 2026-07-17T16:08:32.124876+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 17.07.2026 | 20:15 | Norveç Eliteserien | Bodo Glimt | Fredrikstad | 12574 | 4 |
-| 17.07.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Vasteras | 12299 | 5 |
 | 17.07.2026 | 20:00 | İsveç Allsvenskan | Göteborg | Brommapojkarna | 12234 | 5 |
-| 17.07.2026 | 21:45 | Hazırlık Kulüpler | Benfica | Villarreal | 08650 | 5 |
-| 17.07.2026 | 19:30 | Hazırlık Kulüpler | Wattens | Hertha Berlin | 07405 | 5 |
+| 17.07.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Vasteras | 12299 | 5 |
 | 17.07.2026 | 20:00 | Hazırlık Kulüpler | Winterthur | Union Berlin | 20063 | 5 |
 | 17.07.2026 | 20:00 | Hazırlık Kulüpler | Club Brugge | Heerenveen | 11716 | 5 |
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | Motherwell | Genk | 19861 | 5 |
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | West Bromwich | Bromley | 19914 | 5 |
-| 17.07.2026 | 19:30 | Hazırlık Kulüpler | Eldense | Millwall | 01868 | 5 |
 | 17.07.2026 | 22:00 | Hazırlık Kulüpler | Yamoussoukro | Marsilya | 08081 | 2 |
 | 17.07.2026 | 12:00 | Hazırlık Kulüpler | Prostejov | Floridsdorfer | 08049 | 5 |
-| 17.07.2026 | 19:30 | Hazırlık Kulüpler | Olympiakos | Fortuna Sittard | 08601 | 5 |
+| 17.07.2026 | 21:45 | Hazırlık Kulüpler | Benfica | Villarreal | 08650 | 5 |
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | Austria Vienna | Paksi | 04680 | 5 |
-| 17.07.2026 | 21:00 | Hazırlık Kulüpler | Alfreton | Derby County | 00074 | 4 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Astoria Walldo | Darmstadt | 00494 | 4 |
-| 17.07.2026 | 19:30 | Hazırlık Kulüpler | Dac | Bolton | 20833 | 5 |
 | 17.07.2026 | 21:45 | Hazırlık Kulüpler | Hearts | Vallecano | 08768 | 5 |
+| 17.07.2026 | 21:00 | Hazırlık Kulüpler | Alfreton | Derby County | 00074 | 4 |
+| 17.07.2026 | 21:15 | Hazırlık Kulüpler | Lugano | Vaduz | 12857 | 5 |
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | St Gallen | Norwich | 20195 | 5 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Paderborn | Fagiano Okayama | 08490 | 5 |
+| 17.07.2026 | 20:00 | Hazırlık Kulüpler | Getafe | Reading | 14045 | 5 |
+| 17.07.2026 | 21:00 | Sırbistan Süper Lig | Kizilyildiz | Macva | 02670 | 2 |
+| 17.07.2026 | 21:00 | Sırbistan Süper Lig | Zeleznicar Pan | Radnicki Nis | 00737 | 5 |
+| 17.07.2026 | 21:15 | Bulgaristan 1.Lig | Levski Sofya | Dunav 2010 | 12840 | 4 |
+| 17.07.2026 | 21:30 | Romanya 1.Lig | Fc Steaua | Argesul Pitesti | 12892 | 5 |
 
 ## Sonuc
 
