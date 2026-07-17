@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 39
 - Live match count: 13
-- Finished removed count: 15
+- Finished removed count: 0
 - Date window: 2026-07-17 / 2026-07-18 23:59
 
 - 2026-07-17 21:30 | Fc Steaua - Argesul Pitesti | live

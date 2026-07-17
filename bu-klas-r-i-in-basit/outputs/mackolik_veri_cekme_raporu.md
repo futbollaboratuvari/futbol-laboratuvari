@@ -1,20 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-17T20:29:17.778160+00:00
+Tarih: 2026-07-17T20:34:00.065978+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 1
+- Kac mac bulundu: 38
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 1
+- Kac mac zaten vardi: 38
 - Ham veri havuzu toplam mac sayisi: 2092
 - Hedef tarih: 17.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL Lig 1
+- ABD USL Lig 2 Konferans Çeyrek Final
+- Arjantin Kupa Son 32 Turu
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
+- Avustralya NPL Victoria
+- Bolivya Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
+- Kanada Premier Lig
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
+- Peru Premier Lig Clausura
+- Uruguay Premier Lig Intermediate Turu Grup 2
 
 ## Okunabilen Oran Alanlari
 
@@ -86,6 +103,25 @@ Tarih: 2026-07-17T20:29:17.778160+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 17.07.2026 | 12:00 | Hazırlık Kulüpler | Prostejov | Floridsdorfer | 08049 | 5 |
+| 18.07.2026 | 05:25 | ABD MLS | Los Angeles | Los Angeles Fc | 14998 | 5 |
+| 18.07.2026 | 03:10 | ABD MLS | Nashville Sc | Atlanta Utd | 14820 | 5 |
+| 18.07.2026 | 02:00 | Brezilya Serie A | Fluminense | Bragantino | 13521 | 5 |
+| 18.07.2026 | 02:00 | Brezilya Serie A | Mirassol | Gremio | 13591 | 5 |
+| 18.07.2026 | 01:30 | Brezilya Serie A | Bahia | Chapecoense | 13216 | 5 |
+| 18.07.2026 | 06:00 | Meksika Liga MX Apertura | Fc Juarez | Puebla | 15058 | 5 |
+| 18.07.2026 | 04:00 | Meksika Liga MX Apertura | Atletico San L | Cruz Azul | 14880 | 5 |
+| 18.07.2026 | 04:00 | Meksika Liga MX Apertura | Club Leon | Atlas | 14939 | 5 |
+| 18.07.2026 | 00:45 | Arjantin Kupa Son 32 Turu | San Lorenzo | Riestra | 11593 | 3 |
+| 18.07.2026 | 03:45 | Arjantin Kupa Son 32 Turu | River Plate | Aldosivi | 11676 | 5 |
+| 18.07.2026 | 04:00 | Peru Premier Lig Clausura | Cienciano | Melgar | 14922 | 5 |
+| 18.07.2026 | 02:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí | All Boys | 11627 | 3 |
+| 18.07.2026 | 02:30 | Arjantin Ulusal Primera Lig | Atl Temperley | Rafaela | 11651 | 3 |
+| 18.07.2026 | 01:30 | Arjantin Ulusal Primera Lig | Ferro Carril O | Colon Santa Fe | 11610 | 3 |
+| 18.07.2026 | 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago | Agropecuario | 11530 | 3 |
+| 18.07.2026 | 01:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df | Montevideo Wand | 13447 | 5 |
+| 18.07.2026 | 03:00 | Brezilya Serie B | Londrina | Botafogo Ribeir | 14787 | 5 |
+| 18.07.2026 | 01:00 | Brezilya Serie B | America Mineir | Ceara | 13027 | 5 |
+| 18.07.2026 | 01:00 | Brezilya Serie B | Juventude | Cuiaba | 13093 | 5 |
 
 ## Sonuc
 
