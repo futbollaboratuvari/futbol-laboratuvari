@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 213
-- Live match count: 0
+- Scheduled match count: 214
+- Live match count: 13
 - Finished removed count: 0
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-18 02:30 | Michigan Bucks - Buffalo | scheduled
-- 2026-07-18 02:30 | Ventura Countr - Project 51o | scheduled
-- 2026-07-18 02:30 | Atl Temperley - Rafaela | scheduled
-- 2026-07-18 03:00 | Bolivar - Guabira | scheduled
-- 2026-07-18 03:00 | Fortaleza Ce - Novorizontino | scheduled
-- 2026-07-18 03:00 | Londrina - Botafogo Ribeir | scheduled
-- 2026-07-18 03:00 | Delfin - Depor Macara | scheduled
-- 2026-07-18 03:00 | Diriangen - San Marcos | scheduled
-- 2026-07-18 03:10 | Nashville Sc - Atlanta Utd | scheduled
-- 2026-07-18 03:45 | River Plate - Aldosivi | scheduled
+- 2026-07-18 00:45 | San Lorenzo - Riestra | live
+- 2026-07-18 01:00 | America Mineir - Ceara | live
+- 2026-07-18 01:00 | Juventude - Cuiaba | live
+- 2026-07-18 01:00 | Sao Bernardo - Avai | live
+- 2026-07-18 01:30 | Ferro Carril O - Colon Santa Fe | live
+- 2026-07-18 01:30 | Bahia - Chapecoense | live
+- 2026-07-18 01:30 | Nacional Df - Montevideo Wand | live
+- 2026-07-18 02:00 | Vermont Green - Ironbound | live
+- 2026-07-18 02:00 | Ciudad De Bolí - All Boys | live
+- 2026-07-18 02:00 | Fluminense - Bragantino | live

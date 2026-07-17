@@ -1,14 +1,13 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-18 / 2026-07-19
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 227
-Aktif mac: 213
-Canli mac: 14
-Biten mac: 0
+Kaynak: fixtures.json
+Ham mac: 228
+Aktif mac: 214
+Canli mac: 13
+Biten mac: 1
 Bultenden dusurulen mac: 14
-Bugun: 182
+Bugun: 183
 Yarin: 31
 
 ## Baslamamis Maclar
@@ -97,6 +96,7 @@ Yarin: 31
 - 2026-07-18 15:00 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Ningbo | scheduled | -
 - 2026-07-18 15:00 | Kazakistan Premier Lig | Okzhetpes - Zhetysu | scheduled | -
 - 2026-07-18 15:00 | Letonya 1.Lig | Marupe - Metta / Lu | scheduled | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Hibernian - Brondby | scheduled | -
 - 2026-07-18 16:00 | İsveç Allsvenskan | Aik Stockholm - Gais | scheduled | -
 - 2026-07-18 16:00 | Hazırlık Kulüpler | Falkirk - Genk | scheduled | -
 - 2026-07-18 16:00 | Hazırlık Kulüpler | Northampton - Coventry | scheduled | -
@@ -227,6 +227,10 @@ Yarin: 31
 - 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | scheduled | -
 
 ## Canli Maclar
+- 2026-07-18 00:45 | Arjantin Kupa Son 32 Turu | San Lorenzo - Riestra | live | -
+- 2026-07-18 01:00 | Brezilya Serie B | America Mineir - Ceara | live | -
+- 2026-07-18 01:00 | Brezilya Serie B | Sao Bernardo - Avai | live | -
+- 2026-07-18 01:00 | Brezilya Serie B | Juventude - Cuiaba | live | -
 - 2026-07-18 01:30 | Brezilya Serie A | Bahia - Chapecoense | live | -
 - 2026-07-18 01:30 | Arjantin Ulusal Primera Lig | Ferro Carril O - Colon Santa Fe | live | -
 - 2026-07-18 01:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Montevideo Wand | live | -
@@ -236,11 +240,6 @@ Yarin: 31
 - 2026-07-18 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | live | -
 - 2026-07-18 02:00 | Kanada Premier Lig | Supra Du Québe - Vancouver Fc | live | -
 - 2026-07-18 02:00 | ABD USL Lig 2 Konferans Çeyrek Final | Vermont Green - Ironbound | live | -
-- 2026-07-18 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Agropecuario | live | -
-- 2026-07-18 00:45 | Arjantin Kupa Son 32 Turu | San Lorenzo - Riestra | live | -
-- 2026-07-18 01:00 | Brezilya Serie B | America Mineir - Ceara | live | -
-- 2026-07-18 01:00 | Brezilya Serie B | Sao Bernardo - Avai | live | -
-- 2026-07-18 01:00 | Brezilya Serie B | Juventude - Cuiaba | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-18 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Agropecuario | finished | -

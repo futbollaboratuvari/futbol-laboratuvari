@@ -1,30 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-17T22:24:11.787868+00:00
-=======
-Tarih: 2026-07-17T22:27:47.213520+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-17T23:15:55.045788+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 188
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 189
+- Kac mac kaydedildi: 1
 - Kac mac zaten vardi: 188
-=======
-- Kac mac bulundu: 157
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 157
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 2280
+- Ham veri havuzu toplam mac sayisi: 2281
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Güney Avustralya
 - Avustralya NPL Kuzey YGG
@@ -36,6 +27,7 @@ Tarih: 2026-07-17T22:27:47.213520+00:00
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
@@ -52,7 +44,9 @@ Tarih: 2026-07-17T22:27:47.213520+00:00
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -146,6 +140,7 @@ Tarih: 2026-07-17T22:27:47.213520+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
 | 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Gnistan | 16049 | 5 |
 | 18.07.2026 | 15:00 | Finlandiya Veikkausliiga | Helsinki | Vaasa | 15501 | 5 |
@@ -157,6 +152,7 @@ Tarih: 2026-07-17T22:27:47.213520+00:00
 | 18.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Sarpsborg | 15940 | 5 |
 | 18.07.2026 | 15:00 | Norveç Eliteserien | Ham Kam | Tromso | 15555 | 5 |
 | 18.07.2026 | 16:00 | İsveç Allsvenskan | Aik Stockholm | Gais | 15626 | 5 |
+| 18.07.2026 | 15:00 | Hazırlık Kulüpler | Zurich | Greuther Furth | 21746 | 5 |
 | 18.07.2026 | 15:00 | Hazırlık Kulüpler | Liefering | Wehen | 07810 | 3 |
 | 18.07.2026 | 16:00 | Hazırlık Kulüpler | Falkirk | Genk | 00255 | 5 |
 | 18.07.2026 | 16:30 | Hazırlık Kulüpler | Basel | Juventus | 06299 | 5 |
@@ -164,8 +160,6 @@ Tarih: 2026-07-17T22:27:47.213520+00:00
 | 18.07.2026 | 14:30 | Hazırlık Kulüpler | Crystal Palace | Swindon | 20336 | 5 |
 | 18.07.2026 | 16:00 | Hazırlık Kulüpler | Northampton | Coventry | 03774 | 5 |
 | 18.07.2026 | 17:00 | Hazırlık Kulüpler | Sutton United | Afc Wimbledon | 21553 | 5 |
-| 18.07.2026 | 17:00 | Hazırlık Kulüpler | Celtic | Middlesbrough | 12656 | 5 |
-| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Rapid Wien | Hamburg | 21995 | 5 |
 
 ## Sonuc
 
