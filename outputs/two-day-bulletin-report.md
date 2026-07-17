@@ -3,18 +3,14 @@
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
 Ham mac: 112
-Aktif mac: 95
-Canli mac: 17
+Aktif mac: 91
+Canli mac: 21
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 61
+Bultenden dusurulen mac: 21
+Bugun: 57
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Nantong Zhiyun | scheduled | -
-- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Yanbian Longdin | scheduled | -
-- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Liaoning Shenya | scheduled | -
-- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao Zhongne | scheduled | -
 - 2026-07-17 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shanghai Port | scheduled | -
 - 2026-07-17 16:00 | Hazırlık Kulüpler | Slovan Liberec - St Polten | scheduled | -
 - 2026-07-17 16:00 | Hazırlık Kulüpler | Jagiellonia - Nordsjaelland | scheduled | -
@@ -125,6 +121,10 @@ Yarin: 34
 - 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Shenzhen Junior | live | -
 - 2026-07-17 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Wuxi Wugou | live | -
 - 2026-07-17 14:00 | Avustralya NPL Batı Avustralya | Perth - Western Knights | live | -
+- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Nantong Zhiyun | live | -
+- 2026-07-17 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Yanbian Longdin | live | -
+- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Liaoning Shenya | live | -
+- 2026-07-17 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao Zhongne | live | -
 
 ## Biten Maclar
 Biten mac yok.
