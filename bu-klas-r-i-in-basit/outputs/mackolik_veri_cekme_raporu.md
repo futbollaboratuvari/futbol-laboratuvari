@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-17T10:30:48.389495+00:00
+Tarih: 2026-07-17T11:53:49.340769+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 103
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 103
-- Ham veri havuzu toplam mac sayisi: 2082
+- Kac mac bulundu: 93
+- Kac mac kaydedildi: 4
+- Kac mac zaten vardi: 89
+- Ham veri havuzu toplam mac sayisi: 2086
 - Hedef tarih: 17.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -19,12 +19,9 @@ Tarih: 2026-07-17T10:30:48.389495+00:00
 - ABD USL Lig 2 Konferans Çeyrek Final
 - Arjantin Kupa Son 32 Turu
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Batı Avustralya
-- Avustralya NPL Güney Avustralya
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
-- Avustralya Victoria NPL 1
 - Bolivya Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
@@ -42,7 +39,6 @@ Tarih: 2026-07-17T10:30:48.389495+00:00
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 2
-- Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
 - İsveç Allsvenskan
 - İzlanda 1.Lig
@@ -103,8 +99,8 @@ Tarih: 2026-07-17T10:30:48.389495+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 40
-- Acilan detay: 40
+- Denenen Tumu alani: 36
+- Acilan detay: 36
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -118,25 +114,25 @@ Tarih: 2026-07-17T10:30:48.389495+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 17.07.2026 | 20:15 | Norveç Eliteserien | Bodo Glimt | Fredrikstad | 12574 | 4 |
-| 17.07.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Vasteras | 12299 | 5 |
 | 17.07.2026 | 20:00 | İsveç Allsvenskan | Göteborg | Brommapojkarna | 12234 | 5 |
-| 17.07.2026 | 21:45 | Hazırlık Kulüpler | Hearts | Vallecano | 08768 | 5 |
-| 17.07.2026 | 19:30 | Hazırlık Kulüpler | Olympiakos | Fortuna Sittard | 08601 | 5 |
-| 17.07.2026 | 20:00 | Hazırlık Kulüpler | Club Brugge | Heerenveen | 11716 | 5 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Astoria Walldo | Darmstadt | 00494 | 4 |
+| 17.07.2026 | 20:00 | İsveç Allsvenskan | Mjallby | Vasteras | 12299 | 5 |
+| 17.07.2026 | 21:00 | Hazırlık Kulüpler | Alfreton | Derby County | 00074 | 4 |
+| 17.07.2026 | 21:00 | Hazırlık Kulüpler | Austria Vienna | Paksi | 04680 | 5 |
+| 17.07.2026 | 21:45 | Hazırlık Kulüpler | Benfica | Villarreal | 08650 | 5 |
 | 17.07.2026 | 18:30 | Hazırlık Kulüpler | Lokomotiva | Karpaty Lviv | 08108 | 5 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Bayreuth | Carl Zeiss Jena | 08456 | 5 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Usti Nad Labem | Dukla Prag | 20046 | 3 |
-| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Elversberg | Viktoria Köln | 20278 | 5 |
-| 17.07.2026 | 18:30 | Hazırlık Kulüpler | Rennes | Guingamp | 08167 | 5 |
-| 17.07.2026 | 18:00 | Hazırlık Kulüpler | Avusturya Wien | Lafnitz | 09257 | 5 |
-| 17.07.2026 | 21:15 | Hazırlık Kulüpler | Lugano | Vaduz | 12857 | 5 |
-| 17.07.2026 | 21:00 | Hazırlık Kulüpler | West Bromwich | Bromley | 19914 | 5 |
-| 17.07.2026 | 20:00 | Hazırlık Kulüpler | Getafe | Reading | 14045 | 5 |
+| 17.07.2026 | 19:30 | Hazırlık Kulüpler | Wattens | Hertha Berlin | 07405 | 5 |
+| 17.07.2026 | 20:00 | Hazırlık Kulüpler | Winterthur | Union Berlin | 20063 | 5 |
+| 17.07.2026 | 20:00 | Hazırlık Kulüpler | Club Brugge | Heerenveen | 11716 | 5 |
 | 17.07.2026 | 21:00 | Hazırlık Kulüpler | Motherwell | Genk | 19861 | 5 |
-| 17.07.2026 | 13:00 | Hazırlık Kulüpler | Sonderjyske | Kolding If | 08034 | 3 |
-| 17.07.2026 | 14:00 | Hazırlık Kulüpler | Aalborg | Silkeborg | 19717 | 3 |
-| 17.07.2026 | 17:00 | Hazırlık Kulüpler | Bohemians 1905 | Zaglebie Lubin | 20012 | 5 |
+| 17.07.2026 | 21:00 | Hazırlık Kulüpler | West Bromwich | Bromley | 19914 | 5 |
+| 17.07.2026 | 16:30 | Hazırlık Kulüpler | Mainz | Kaiserslautern | 12455 | 5 |
+| 17.07.2026 | 19:30 | Hazırlık Kulüpler | Eldense | Millwall | 01868 | 5 |
+| 17.07.2026 | 22:00 | Hazırlık Kulüpler | Yamoussoukro | Marsilya | 08081 | 2 |
+| 17.07.2026 | 16:00 | Hazırlık Kulüpler | Jagiellonia | Nordsjaelland | 20172 | 5 |
+| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Usti Nad Labem | Dukla Prag | 20046 | 3 |
+| 17.07.2026 | 21:45 | Hazırlık Kulüpler | Hearts | Vallecano | 08768 | 5 |
+| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Bayreuth | Carl Zeiss Jena | 08456 | 5 |
+| 17.07.2026 | 19:00 | Hazırlık Kulüpler | Astoria Walldo | Darmstadt | 00494 | 4 |
 
 ## Sonuc
 
