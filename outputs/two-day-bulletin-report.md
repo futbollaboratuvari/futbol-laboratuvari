@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-17 / 2026-07-18
 Kaynak: fixtures.json
-Ham mac: 89
+Ham mac: 86
 Aktif mac: 66
-Canli mac: 23
+Canli mac: 20
 Biten mac: 0
-Bultenden dusurulen mac: 23
+Bultenden dusurulen mac: 20
 Bugun: 28
 Yarin: 38
 
@@ -79,9 +79,6 @@ Yarin: 38
 - 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled | -
 
 ## Canli Maclar
-- 2026-07-17 18:30 | Hazırlık Kulüpler | Rennes - Guingamp | live | -
-- 2026-07-17 18:30 | Romanya 1.Lig | Voluntari - Botosani | live | -
-- 2026-07-17 18:30 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | live | -
 - 2026-07-17 19:00 | Hazırlık Kulüpler | Bayreuth - Carl Zeiss Jena | live | -
 - 2026-07-17 19:00 | Hazırlık Kulüpler | Paderborn - Fagiano Okayama | live | -
 - 2026-07-17 19:00 | Bulgaristan 1.Lig | Spartak Varna - Cska 1948 Sofia | live | -
