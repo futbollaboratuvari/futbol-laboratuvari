@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.07.2026 11:56:26
+Oluşturma: 17.07.2026 12:22:26
 
 ## Özet
 
-- Toplam tahmin: 77
-- Bekleyen tahmin: 77
+- Toplam tahmin: 78
+- Bekleyen tahmin: 78
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 22
@@ -20,12 +20,13 @@ Oluşturma: 17.07.2026 11:56:26
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
-- MS X: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-17 | Hazırlık Kulüpler | Lokomotiva - Karpaty Lviv | MS X | pending | 50/100
 - 2026-07-17 | İsveç Allsvenskan | Göteborg - Brommapojkarna | MS 2 | pending | 50/100
 - 2026-07-17 | Hazırlık Kulüpler | Austria Vienna - Paksi | MS X | pending | 50/100
 - 2026-07-17 | Hazırlık Kulüpler | Benfica - Villarreal | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 17.07.2026 11:56:26
 - 2026-07-17 | İsveç Allsvenskan | Mjallby - Vasteras | MS 2 | pending | 50/100
 - 2026-07-17 | Hazırlık Kulüpler | Getafe - Reading | MS 2 | pending | 50/100
 - 2026-07-17 | Hazırlık Kulüpler | Motherwell - Genk | MS X | pending | 60/100
-- 2026-07-17 | Hazırlık Kulüpler | Austria Vienna - Paksi | MS 2 | pending | 50/100
 
