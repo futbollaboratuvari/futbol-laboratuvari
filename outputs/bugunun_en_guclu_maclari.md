@@ -1,46 +1,71 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-18T19:53:59.293Z
-- Ham maç sayısı: 49
-- Yarın bülteni maç sayısı: 31
-- Detay blok sayısı: 137
-- Aktif bülten maçı: 32
-- Bültenden düşürülen maç: 17
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-07-18T20:11:53.030Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Atletico Grau - Univ De Cajamar | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 1.53 | 7 |
-| Fransa - İngiltere | Dünya Kupası 2026 Üçüncülük | 00:00 | Veri bekleniyor | - | 1.61 | 8 |
-| Atletico Goian - Athletic Club | Brezilya Serie B | 00:00 | Veri bekleniyor | - | 1.74 | 8 |
-| Ldu Quito - Leones Del Nort | Ekvador Pro Lig | 00:30 | Veri bekleniyor | - | 1.24 | 6 |
-| Jalapa - Walter Ferretti | Nikaragua Premier Lig Apertura | 01:00 | Veri bekleniyor | - | 1.61 | 8 |
-| Pumas Unam - Pachuca | Meksika Liga MX Apertura | 02:00 | Veri bekleniyor | - | 2.09 | 8 |
-| Detroit City - Indy Eleven | ABD USL | 02:00 | Veri bekleniyor | - | 1.53 | 7 |
-| Sporting Jax - Brooklyn | ABD USL | 02:00 | Veri bekleniyor | - | 2.37 | 8 |
-| Loudoun United - Tampa Bay Rowdi | ABD USL | 02:00 | Veri bekleniyor | - | 4.16 | 7 |
-| New York Cosmo - Corpus Christi | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 2.06 | 8 |
-| Charlotte Inde - Chattanooga Red | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Union Omaha - Westchester Sc | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 1.24 | 4 |
-| Richmond Kicke - Spokane Velocit | ABD USL Lig 1 | 02:00 | Veri bekleniyor | - | 3.55 | 8 |
-| Cusco Fc - Alianza Atletic | Peru Premier Lig Clausura | 02:30 | Veri bekleniyor | - | 1.28 | 6 |
-| Rhode Island - Hartford Athlet | ABD USL | 02:30 | Veri bekleniyor | - | 1.56 | 8 |
-| Charleston Bat - Sacramento Repu | ABD USL | 02:30 | Veri bekleniyor | - | 1.59 | 8 |
-| One Knoxville - Alta | ABD USL Lig 1 | 02:30 | Veri bekleniyor | - | 1.41 | 7 |
-| Fort Wayne - Greenville Triu | ABD USL Lig 1 | 02:30 | Veri bekleniyor | - | 1.74 | 8 |
-| Barcelona Gua - Libertad | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.14 | 6 |
-| Managua - Rancho Santana | Nikaragua Premier Lig Apertura | 03:00 | Veri bekleniyor | - | 1.07 | 6 |
-| Aurora - Oriente Petrole | Bolivya Premier Lig | 03:30 | Veri bekleniyor | - | 1.29 | 4 |
-| Tulsa Roughnec - El Paso Locomot | ABD USL | 03:30 | Veri bekleniyor | - | 1.74 | 8 |
-| San Antonio - Las Vegas Light | ABD USL | 04:00 | Veri bekleniyor | - | 1.65 | 8 |
-| Matagalpa - Export Sebaco | Nikaragua Premier Lig Apertura | 04:00 | Veri bekleniyor | - | 1.87 | 8 |
-| Monterrey - Santos Laguna | Meksika Liga MX Apertura | 04:05 | Veri bekleniyor | - | 1.33 | 6 |
-| Guadalajara - Toluca | Meksika Liga MX Apertura | 04:07 | Veri bekleniyor | - | 1.95 | 8 |
-| Phoenix Rising - Monterey Bay | ABD USL | 05:30 | Veri bekleniyor | - | 1.71 | 8 |
-| Hamilton Olymp - Belmont Swansea | Avustralya NPL Kuzey YGG | 06:00 | Veri bekleniyor | - | 2.35 | 6 |
-| Queretaro - Club America | Meksika Liga MX Apertura | 06:10 | Veri bekleniyor | - | 2.98 | 8 |
-| Western Utd. I - Bulleen Lions | Avustralya Victoria NPL 1 | 07:00 | Veri bekleniyor | - | 3.57 | 5 |
-| South East Uni - Launceston Unit | Avustralya NPL Tazmanya | 07:30 | Veri bekleniyor | - | 1.56 | 5 |
-| Ulverstone - Glenorchy Knigh | Avustralya NPL Tazmanya | 07:30 | Veri bekleniyor | - | 3.57 | 5 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Ludogorets VS Lokomotiv Plovd | Bulgaristan 1.Lig | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Universitatea VS Uta Arad | Romanya 1.Lig | 21:15 | MS 2 | 4.16 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Adt VS Universitario | Peru Premier Lig Clausura | 21:15 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Olimpija Ljubl VS Ask Bravo | Slovenya 1.SNL | 21:15 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Braga VS Celta Vigo | Hazırlık Kulüpler | 21:30 | MS 2 | 4.32 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Penarol VS Boston River | Uruguay Premier Lig Intermediate Turu Grup 1 | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Sport Recife VS Operario | Brezilya Serie B | 22:00 | MS 2 | 3.45 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Ponte Preta VS Goias | Brezilya Serie B | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Criciuma VS Vila Nova | Brezilya Serie B | 22:00 | MS 2 | 4.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Deportivo Cuen VS Univ Catolica ( | Ekvador Pro Lig | 22:00 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Cavalry VS Hfx Wanderers | Kanada Premier Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Always Ready VS Universitario D | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Valur VS Fram | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Atletico Grau VS Univ De Cajamar | Peru Premier Lig Clausura | 23:30 | MS 2 | 4.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Fransa VS İngiltere | Dünya Kupası 2026 Üçüncülük | 00:00 | MS 2 | 3.67 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Atletico Goian VS Athletic Club | Brezilya Serie B | 00:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Ldu Quito VS Leones Del Nort | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Jalapa VS Walter Ferretti | Nikaragua Premier Lig Apertura | 01:00 | MS 2 | 3.50 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Pumas Unam VS Pachuca | Meksika Liga MX Apertura | 02:00 | MS X | 2.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Detroit City VS Indy Eleven | ABD USL | 02:00 | MS 2 | 3.78 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Sporting Jax VS Brooklyn | ABD USL | 02:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Loudoun United VS Tampa Bay Rowdi | ABD USL | 02:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| New York Cosmo VS Corpus Christi | ABD USL Lig 1 | 02:00 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Charlotte Inde VS Chattanooga Red | ABD USL Lig 1 | 02:00 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Union Omaha VS Westchester Sc | ABD USL Lig 1 | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Richmond Kicke VS Spokane Velocit | ABD USL Lig 1 | 02:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Cusco Fc VS Alianza Atletic | Peru Premier Lig Clausura | 02:30 | MS 2 | 5.10 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Rhode Island VS Hartford Athlet | ABD USL | 02:30 | MS 2 | 3.59 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Charleston Bat VS Sacramento Repu | ABD USL | 02:30 | MS 2 | 3.52 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| One Knoxville VS Alta | ABD USL Lig 1 | 02:30 | MS 2 | 4.29 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Fort Wayne VS Greenville Triu | ABD USL Lig 1 | 02:30 | MS 2 | 3.15 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Barcelona Gua VS Libertad | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Managua VS Rancho Santana | Nikaragua Premier Lig Apertura | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Aurora VS Oriente Petrole | Bolivya Premier Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Tulsa Roughnec VS El Paso Locomot | ABD USL | 03:30 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| San Antonio VS Las Vegas Light | ABD USL | 04:00 | MS 2 | 3.46 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Matagalpa VS Export Sebaco | Nikaragua Premier Lig Apertura | 04:00 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Monterrey VS Santos Laguna | Meksika Liga MX Apertura | 04:05 | MS 2 | 4.39 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Guadalajara VS Toluca | Meksika Liga MX Apertura | 04:07 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Phoenix Rising VS Monterey Bay | ABD USL | 05:30 | MS X | 3.20 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Hamilton Olymp VS Belmont Swansea | Avustralya NPL Kuzey YGG | 06:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Queretaro VS Club America | Meksika Liga MX Apertura | 06:10 | MS 1 | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Western Utd. I VS Bulleen Lions | Avustralya Victoria NPL 1 | 07:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| South East Uni VS Launceston Unit | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Ulverstone VS Glenorchy Knigh | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Fransa VS İngiltere | MS 2 | 3.67 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
