@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-18T03:29:42.184Z
-- Ham fixture sayisi: 2274
-- Bugun/yarin kaynak mac: 228
-- Aktif bulten maci: 195
+- Guncelleme: 2026-07-18T05:43:54.298Z
+- Ham fixture sayisi: 2275
+- Bugun/yarin kaynak mac: 229
+- Aktif bulten maci: 180
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 33
+- Bultenden dusurulen mac: 49
 
-- 1. 2026-07-18 07:00 | Avustralya NPL Kuzey YGG | Adamstown Rose - Valentine Phoen | scheduled
-- 2. 2026-07-18 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Broadmeadow Mag | scheduled
-- 3. 2026-07-18 07:00 | Avustralya NPL Victoria | Hume City - Oakleigh Cannon | scheduled
-- 4. 2026-07-18 07:30 | Avustralya NPL Tazmanya | Devonport City - South Hobart | scheduled
-- 5. 2026-07-18 07:30 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Maitland | scheduled
-- 6. 2026-07-18 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Clarence Zebras | scheduled
-- 7. 2026-07-18 08:00 | Avustralya NPL Güney Avustralya | Adelaide City - Croydon Kings | scheduled
-- 8. 2026-07-18 08:00 | Avustralya NPL Victoria | Avondale Heigh - St. Albans Sain | scheduled
-- 9. 2026-07-18 08:00 | Avustralya NPL Queensland | Gold Coast Uni - Queensland Lion | scheduled
-- 10. 2026-07-18 08:00 | Avustralya Victoria NPL 1 | Langwarrin - Moreland Zebras | scheduled
-- 11. 2026-07-18 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Eltham Redbacks | scheduled
-- 12. 2026-07-18 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - Apia | scheduled
-- 13. 2026-07-18 08:15 | Avustralya NPL Victoria | Altona Magic - Heidelberg Unit | scheduled
-- 14. 2026-07-18 08:15 | Avustralya NPL Victoria | South Melbourn - Preston Lions | scheduled
-- 15. 2026-07-18 08:30 | Avustralya NPL Güney Avustralya | Playford City - Ne Metrostars | scheduled
+- 1. 2026-07-18 09:00 | Avustralya NPL Queensland | Gold Coast Kni - Brisbane Wolves | scheduled
+- 2. 2026-07-18 09:30 | Avustralya NPL Queensland | Moreton City E - Peninsula Power | scheduled
+- 3. 2026-07-18 09:30 | Avustralya NPL Kuzey YGG | Weston Bears - Kahibah | scheduled
+- 4. 2026-07-18 09:45 | Avustralya NPL Tazmanya | Launceston Cit - Kingborough Lio | scheduled
+- 5. 2026-07-18 10:00 | Avustralya NPL Batı Avustralya | Balcatta - Stirling Lions | scheduled
+- 6. 2026-07-18 10:00 | Avustralya Victoria NPL 1 | North Geelong - Melbourne Victo | scheduled
+- 7. 2026-07-18 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Armadale | scheduled
+- 8. 2026-07-18 10:00 | Avustralya NPL Batı Avustralya | Perth Redstar - Fremantle City | scheduled
+- 9. 2026-07-18 10:00 | Avustralya NPL Queensland | Rochedale Rove - Brisbane City | scheduled
+- 10. 2026-07-18 10:15 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Nws Spirit | scheduled
+- 11. 2026-07-18 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sydney Olympic | scheduled
+- 12. 2026-07-18 11:00 | Avustralya NPL Victoria | Caroline S. - Melbourne City | scheduled
+- 13. 2026-07-18 11:00 | Avustralya NPL Queensland | Eastern Suburb - Magic United | scheduled
+- 14. 2026-07-18 11:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Sd Raiders | scheduled
+- 15. 2026-07-18 11:15 | Avustralya Victoria NPL 1 | Melbourne Srbi - Port Melbourne | scheduled
