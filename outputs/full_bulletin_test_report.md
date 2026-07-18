@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 80
-- Live match count: 12
+- Scheduled match count: 75
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-19 / 2026-07-20 23:59
 
-- 2026-07-19 00:00 | Atletico Goian - Athletic Club | live
-- 2026-07-19 00:00 | Fransa - İngiltere | live
-- 2026-07-19 00:30 | Ldu Quito - Leones Del Nort | live
-- 2026-07-19 01:00 | Jalapa - Walter Ferretti | live
-- 2026-07-19 02:00 | Detroit City - Indy Eleven | live
-- 2026-07-19 02:00 | Charlotte Inde - Chattanooga Red | live
-- 2026-07-19 02:00 | New York Cosmo - Corpus Christi | live
-- 2026-07-19 02:00 | Richmond Kicke - Spokane Velocit | live
-- 2026-07-19 02:00 | Union Omaha - Westchester Sc | live
-- 2026-07-19 02:00 | Loudoun United - Tampa Bay Rowdi | live
+- 2026-07-19 03:00 | Barcelona Gua - Libertad | scheduled
+- 2026-07-19 03:00 | Managua - Rancho Santana | scheduled
+- 2026-07-19 03:30 | Tulsa Roughnec - El Paso Locomot | scheduled
+- 2026-07-19 03:30 | Aurora - Oriente Petrole | scheduled
+- 2026-07-19 04:00 | San Antonio - Las Vegas Light | scheduled
+- 2026-07-19 04:00 | Matagalpa - Export Sebaco | scheduled
+- 2026-07-19 04:05 | Monterrey - Santos Laguna | scheduled
+- 2026-07-19 04:07 | Guadalajara - Toluca | scheduled
+- 2026-07-19 05:30 | Phoenix Rising - Monterey Bay | scheduled
+- 2026-07-19 06:00 | Hamilton Olymp - Belmont Swansea | scheduled

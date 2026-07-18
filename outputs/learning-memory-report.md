@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 19.07.2026 02:12:50
-=======
-Oluşturma: 19.07.2026 02:13:32
->>>>>>> Stashed changes
+Oluşturma: 19.07.2026 02:40:58
 
 ## Özet
 
-- Toplam tahmin: 192
-- Bekleyen tahmin: 192
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 43
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 19.07.2026 02:13:32
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 104, bekleyen 104, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 69, bekleyen 69, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-19 | Rusya FNL | Kamaz - Olimpiyets | MS X | pending | 40/100
-- 2026-07-19 | Moldova Ulusal Lig | Petrocub - Sheriff Tiraspo | MS X | pending | 40/100
-- 2026-07-19 | Avustralya NPL Yeni Güney Galler | Blacktown City - St George City | MS X | pending | 50/100
-- 2026-07-19 | Avustralya NPL Yeni Güney Galler | Marconi - Sydney United | MS 2 | pending | 40/100
-- 2026-07-19 | Güney Kore K Lig 1 | Anyang - Gwangju | MS 2 | pending | 50/100
-- 2026-07-19 | Güney Kore K Lig 2 | Yongin - Hwaseong | MS X | pending | 40/100
-- 2026-07-19 | Güney Kore K Lig 2 | Cheongju Fc - Cheonan City Fc | MS X | pending | 50/100
-- 2026-07-19 | Güney Kore K Lig 2 | Gyeongnam - Ansan Greeners | MS 2 | pending | 60/100
-- 2026-07-19 | İsveç Superettan | Norrkoping - Sandvikens | MS 2 | pending | 40/100
-- 2026-07-19 | Rusya FNL | Ural - Yenisey | MS 2 | pending | 40/100
-- 2026-07-19 | İsveç Superettan | United Nordic - Orebro | MS 2 | pending | 50/100
-- 2026-07-19 | İsveç Superettan | Varnamo - Ljungskile | MS X | pending | 50/100
-- 2026-07-19 | Rusya FNL | Kamaz - Olimpiyets | MS 1 | pending | 40/100
-- 2026-07-19 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | MS 1 | pending | 45/100
-- 2026-07-19 | Rusya FNL | Veles - Chelyabinsk | MS X | pending | 40/100
 

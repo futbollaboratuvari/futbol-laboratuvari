@@ -1,21 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-19 / 2026-07-20
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 92
-Aktif mac: 80
-Canli mac: 12
+Aktif mac: 75
+Canli mac: 17
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 76
+Bultenden dusurulen mac: 17
+Bugun: 71
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-19 02:30 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | scheduled | -
-- 2026-07-19 02:30 | ABD USL | Rhode Island - Hartford Athlet | scheduled | -
-- 2026-07-19 02:30 | ABD USL | Charleston Bat - Sacramento Repu | scheduled | -
-- 2026-07-19 02:30 | ABD USL Lig 1 | One Knoxville - Alta | scheduled | -
-- 2026-07-19 02:30 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | scheduled | -
 - 2026-07-19 03:00 | Ekvador Pro Lig | Barcelona Gua - Libertad | scheduled | -
 - 2026-07-19 03:00 | Nikaragua Premier Lig Apertura | Managua - Rancho Santana | scheduled | -
 - 2026-07-19 03:30 | Bolivya Premier Lig | Aurora - Oriente Petrole | scheduled | -
@@ -93,6 +89,11 @@ Yarin: 4
 - 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | scheduled | -
 
 ## Canli Maclar
+- 2026-07-19 02:30 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | live | -
+- 2026-07-19 02:30 | ABD USL | Rhode Island - Hartford Athlet | live | -
+- 2026-07-19 02:30 | ABD USL | Charleston Bat - Sacramento Repu | live | -
+- 2026-07-19 02:30 | ABD USL Lig 1 | One Knoxville - Alta | live | -
+- 2026-07-19 02:30 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | live | -
 - 2026-07-19 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa - İngiltere | live | -
 - 2026-07-19 00:00 | Brezilya Serie B | Atletico Goian - Athletic Club | live | -
 - 2026-07-19 00:30 | Ekvador Pro Lig | Ldu Quito - Leones Del Nort | live | -
