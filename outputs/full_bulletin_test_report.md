@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 86
-- Live match count: 76
-- Finished removed count: 0
+- Scheduled match count: 60
+- Live match count: 44
+- Finished removed count: 52
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-18 16:30 | Slonim - Isloch | live
-- 2026-07-18 16:30 | Ajax - Olympiakos | live
-- 2026-07-18 16:30 | Basel - Juventus | live
-- 2026-07-18 16:30 | Hartberg - First Vienna | live
-- 2026-07-18 16:30 | Lask Linz - Fortuna Düsseld | live
-- 2026-07-18 16:30 | Sf Baumberg - B.Leverkusen | live
-- 2026-07-18 16:30 | Sportfreunde L - Real Betis | live
-- 2026-07-18 17:00 | Niva Dolbizno - Gomel | live
-- 2026-07-18 17:00 | Trans Narva - Vaprus | live
-- 2026-07-18 17:00 | Oulu - Gnistan | live
+- 2026-07-18 17:30 | Smorgon - Minsk | live
+- 2026-07-18 17:30 | Swansea - Holstein Kiel | live
+- 2026-07-18 18:00 | Lida - Torpedo Zhodino | live
+- 2026-07-18 18:00 | Ostrovets Fc - Vitebsk | live
+- 2026-07-18 18:00 | Amiens - Quevilly-Rouen | live
+- 2026-07-18 18:00 | Fc Giessen - E.Frankfurt | live
+- 2026-07-18 18:00 | Karpaty Lviv - Zeljeznicar | live
+- 2026-07-18 18:00 | Lorient - Nantes | live
+- 2026-07-18 18:00 | Man. Utd - Wrexham | live
+- 2026-07-18 18:00 | Oberhausen - B.Dortmund | live

@@ -2,42 +2,15 @@
 
 Gunler: 2026-07-18 / 2026-07-19
 Kaynak: fixtures.json
-Ham mac: 290
-Aktif mac: 86
-Canli mac: 76
-Biten mac: 128
-Bultenden dusurulen mac: 204
-Bugun: 55
+Ham mac: 291
+Aktif mac: 60
+Canli mac: 96
+Biten mac: 135
+Bultenden dusurulen mac: 231
+Bugun: 29
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-18 18:30 | Romanya 1.Lig | Otelul Galati - Cfr Cluj | scheduled | -
-- 2026-07-18 18:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Progreso - Deportivo Maldo | scheduled | -
-- 2026-07-18 18:30 | Finlandiya Ykkönen | Jyvaskyla - Fc Jazz | scheduled | -
-- 2026-07-18 18:30 | Belarus Kupa Son 32 Turu | Bumprom - Arsenal | scheduled | -
-- 2026-07-18 18:30 | Hazırlık Kulüpler | Gks Tychy - Trinec | scheduled | -
-- 2026-07-18 18:30 | Hazırlık Kulüpler | Chrobry Glogow - Sleza Wroclaw | scheduled | -
-- 2026-07-18 19:00 | Norveç Eliteserien | Viking - Sandefjord | scheduled | -
-- 2026-07-18 19:00 | Norveç Eliteserien | Molde - Brann | scheduled | -
-- 2026-07-18 19:00 | Hazırlık Kulüpler | Brest - Concarneau | scheduled | -
-- 2026-07-18 19:00 | İskoçya Lig Kupası Grup A | Aberdeen - Queens Park | scheduled | -
-- 2026-07-18 19:00 | Bulgaristan 1.Lig | Septemvri Sofi - Arda Kardzhali | scheduled | -
-- 2026-07-18 19:00 | Litvanya A Ligi | Kauno Zalgiris - Fa Siauliai | scheduled | -
-- 2026-07-18 19:00 | Peru Premier Lig Clausura | Deportivo Moqu - Comerciantes Un | scheduled | -
-- 2026-07-18 19:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | Amal Tiznit - Olympique Dchei | scheduled | -
-- 2026-07-18 19:00 | Slovenya 1.SNL | Radomlje - Nk Brinje Grosu | scheduled | -
-- 2026-07-18 19:00 | İzlanda Urvalsdeild | Thor Akureyri - Vikingur Reykja | scheduled | -
-- 2026-07-18 19:00 | İzlanda 1.Lig | Throttur - Völsungur | scheduled | -
-- 2026-07-18 19:00 | Letonya Virsliga | Riga Fc - Fk Tukums 2000 | scheduled | -
-- 2026-07-18 19:00 | ABD USL | Pittsburgh Riv - Louisville City | scheduled | -
-- 2026-07-18 19:00 | Letonya 1.Lig | Skanste - Valmieras Fk/Bs | scheduled | -
-- 2026-07-18 19:00 | İzlanda 2.Lig | Magni - Fjolnir | scheduled | -
-- 2026-07-18 19:00 | Hazırlık Kulüpler | Nice - Nimes | scheduled | -
-- 2026-07-18 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin - Braunschweig | scheduled | -
-- 2026-07-18 19:00 | Hazırlık Kulüpler | Le Mans - La Roche-Sur-Yo | scheduled | -
-- 2026-07-18 19:00 | Hazırlık Kulüpler | Schwaz - Innsbrucke | scheduled | -
-- 2026-07-18 19:00 | Hazırlık Kulüpler | Santander - Real Sociedad | scheduled | -
-- 2026-07-18 19:00 | Hazırlık Kulüpler | Monza - Pro Vercelli | scheduled | -
 - 2026-07-18 19:30 | Rusya Süper Kupa | Zenit - Spartak Moskova | scheduled | -
 - 2026-07-18 19:30 | Hazırlık Kulüpler | Petro Atletico - Valencia | scheduled | -
 - 2026-07-18 19:30 | Belarus Kupa Son 32 Turu | Uni Minsk - Baranovichi | scheduled | -
@@ -48,6 +21,7 @@ Yarin: 31
 - 2026-07-18 20:00 | İzlanda 2.Lig | Kormakur - Dalvik | scheduled | -
 - 2026-07-18 20:00 | Hazırlık Kulüpler | Osijek - Budapest Honved | scheduled | -
 - 2026-07-18 20:00 | Hazırlık Kulüpler | Opatija - Austria Salzbur | scheduled | -
+- 2026-07-18 20:00 | Hazırlık Kulüpler | Kaizer Chiefs - Elche | scheduled | -
 - 2026-07-18 20:30 | Hazırlık Kulüpler | Sd Leioa - Athletic Bilbao | scheduled | -
 - 2026-07-18 21:00 | Sırbistan Süper Lig | Novi Pazar - Radnicki 1923 | scheduled | -
 - 2026-07-18 21:00 | Sırbistan Süper Lig | Zemun Belg. - Partizan Belgra | scheduled | -
@@ -99,13 +73,6 @@ Yarin: 31
 - 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Basel - Juventus | live | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Sportfreunde L - Real Betis | live | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Hartberg - First Vienna | live | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Ajax - Olympiakos | live | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Sf Baumberg - B.Leverkusen | live | -
-- 2026-07-18 16:30 | Belarus Kupa Son 32 Turu | Slonim - Isloch | live | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | live | -
 - 2026-07-18 17:00 | Finlandiya Veikkausliiga | Oulu - Gnistan | live | -
 - 2026-07-18 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Kuopion | live | -
 - 2026-07-18 17:00 | Norveç Eliteserien | Start - Rosenborg | live | -
@@ -175,6 +142,33 @@ Yarin: 31
 - 2026-07-18 18:00 | Hazırlık Kulüpler | Amiens - Quevilly-Rouen | live | -
 - 2026-07-18 18:00 | Hazırlık Kulüpler | Fc Giessen - E.Frankfurt | live | -
 - 2026-07-18 18:00 | Hazırlık Kulüpler | Stade Lavalloi - Caen | live | -
+- 2026-07-18 18:30 | Romanya 1.Lig | Otelul Galati - Cfr Cluj | live | -
+- 2026-07-18 18:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Progreso - Deportivo Maldo | live | -
+- 2026-07-18 18:30 | Finlandiya Ykkönen | Jyvaskyla - Fc Jazz | live | -
+- 2026-07-18 18:30 | Belarus Kupa Son 32 Turu | Bumprom - Arsenal | live | -
+- 2026-07-18 18:30 | Hazırlık Kulüpler | Gks Tychy - Trinec | live | -
+- 2026-07-18 18:30 | Hazırlık Kulüpler | Chrobry Glogow - Sleza Wroclaw | live | -
+- 2026-07-18 19:00 | Norveç Eliteserien | Viking - Sandefjord | live | -
+- 2026-07-18 19:00 | Norveç Eliteserien | Molde - Brann | live | -
+- 2026-07-18 19:00 | Hazırlık Kulüpler | Brest - Concarneau | live | -
+- 2026-07-18 19:00 | İskoçya Lig Kupası Grup A | Aberdeen - Queens Park | live | -
+- 2026-07-18 19:00 | Bulgaristan 1.Lig | Septemvri Sofi - Arda Kardzhali | live | -
+- 2026-07-18 19:00 | Litvanya A Ligi | Kauno Zalgiris - Fa Siauliai | live | -
+- 2026-07-18 19:00 | Peru Premier Lig Clausura | Deportivo Moqu - Comerciantes Un | live | -
+- 2026-07-18 19:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | Amal Tiznit - Olympique Dchei | live | -
+- 2026-07-18 19:00 | Slovenya 1.SNL | Radomlje - Nk Brinje Grosu | live | -
+- 2026-07-18 19:00 | İzlanda Urvalsdeild | Thor Akureyri - Vikingur Reykja | live | -
+- 2026-07-18 19:00 | İzlanda 1.Lig | Throttur - Völsungur | live | -
+- 2026-07-18 19:00 | Letonya Virsliga | Riga Fc - Fk Tukums 2000 | live | -
+- 2026-07-18 19:00 | ABD USL | Pittsburgh Riv - Louisville City | live | -
+- 2026-07-18 19:00 | Letonya 1.Lig | Skanste - Valmieras Fk/Bs | live | -
+- 2026-07-18 19:00 | İzlanda 2.Lig | Magni - Fjolnir | live | -
+- 2026-07-18 19:00 | Hazırlık Kulüpler | Nice - Nimes | live | -
+- 2026-07-18 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin - Braunschweig | live | -
+- 2026-07-18 19:00 | Hazırlık Kulüpler | Le Mans - La Roche-Sur-Yo | live | -
+- 2026-07-18 19:00 | Hazırlık Kulüpler | Schwaz - Innsbrucke | live | -
+- 2026-07-18 19:00 | Hazırlık Kulüpler | Santander - Real Sociedad | live | -
+- 2026-07-18 19:00 | Hazırlık Kulüpler | Monza - Pro Vercelli | live | -
 
 ## Biten Maclar
 - 2026-07-18 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Agropecuario | finished | -
@@ -305,3 +299,10 @@ Yarin: 31
 - 2026-07-18 16:00 | Hazırlık Kulüpler | Cardiff Mu - Brackley Town | finished | -
 - 2026-07-18 16:00 | Hazırlık Kulüpler | Lausanne - Yverdon | finished | -
 - 2026-07-18 16:00 | Hazırlık Kulüpler | Zwolle - Cercle Brugge | finished | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Basel - Juventus | finished | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Sportfreunde L - Real Betis | finished | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Hartberg - First Vienna | finished | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Ajax - Olympiakos | finished | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Sf Baumberg - B.Leverkusen | finished | -
+- 2026-07-18 16:30 | Belarus Kupa Son 32 Turu | Slonim - Isloch | finished | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | finished | -

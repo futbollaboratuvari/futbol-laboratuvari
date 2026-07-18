@@ -1,47 +1,44 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T15:17:55.129144+00:00
+Tarih: 2026-07-18T16:10:31.617392+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 67
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 67
-- Ham veri havuzu toplam mac sayisi: 2343
+- Kac mac bulundu: 73
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 72
+- Ham veri havuzu toplam mac sayisi: 2344
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
-- Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
-- Finlandiya Ykkönen
 - Hazırlık Kulüpler
 - Kanada Premier Lig
-- Kazakistan Premier Lig
 - Letonya 1.Lig
-- Letonya Virsliga
-- Litvanya A Ligi
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Norveç Eliteserien
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
 - Rusya Süper Kupa
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- İskoçya Lig Kupası Grup A
 - İskoçya Lig Kupası Grup B
-- İsveç Superettan
-- İzlanda 1.Lig
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
 
@@ -100,8 +97,8 @@ Tarih: 2026-07-18T15:17:55.129144+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 43
-- Acilan detay: 43
+- Denenen Tumu alani: 32
+- Acilan detay: 32
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,26 +111,26 @@ Tarih: 2026-07-18T15:17:55.129144+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 18.07.2026 | 19:00 | Norveç Eliteserien | Viking | Sandefjord | 16481 | 5 |
-| 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Partizan Belgra | 12609 | 5 |
 | 18.07.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Radnicki 1923 | 05451 | 5 |
 | 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
-| 18.07.2026 | 19:00 | İskoçya Lig Kupası Grup A | Aberdeen | Queens Park | 10070 | 5 |
 | 18.07.2026 | 21:00 | İskoçya Lig Kupası Grup B | Dundee Utd | Arbroath | 12567 | 5 |
-| 18.07.2026 | 21:30 | Hazırlık Kulüpler | Braga | Celta Vigo | 21997 | 5 |
-| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin | Braunschweig | 09305 | 3 |
-| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Santander | Real Sociedad | 05432 | 5 |
-| 18.07.2026 | 18:30 | Hazırlık Kulüpler | Chrobry Glogow | Sleza Wroclaw | 09184 | 3 |
-| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Brest | Concarneau | 21991 | 5 |
 | 18.07.2026 | 18:00 | Hazırlık Kulüpler | Amiens | Quevilly-Rouen | 09213 | 5 |
 | 18.07.2026 | 19:30 | Hazırlık Kulüpler | Petro Atletico | Valencia | 10012 | 5 |
 | 18.07.2026 | 19:00 | Hazırlık Kulüpler | Le Mans | La Roche-Sur-Yo | 09337 | 5 |
 | 18.07.2026 | 15:30 | Hazırlık Kulüpler | Luzern | St. Truidense | 06568 | 3 |
 | 18.07.2026 | 13:00 | Hazırlık Kulüpler | Radomiak Radom | Pogon Siedlce | 06164 | 3 |
-| 18.07.2026 | 18:00 | Hazırlık Kulüpler | Fc Giessen | E.Frankfurt | 02941 | 2 |
 | 18.07.2026 | 11:00 | Hazırlık Kulüpler | Segesta | Karlovac | 06054 | 3 |
 | 18.07.2026 | 20:00 | Hazırlık Kulüpler | Rapid Wien | Hamburg | 21995 | 5 |
+| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Osijek | Budapest Honved | 10029 | 5 |
+| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Opatija | Austria Salzbur | 09848 | 5 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Schwaz | Innsbrucke | 09886 | 2 |
+| 18.07.2026 | 20:30 | Hazırlık Kulüpler | Sd Leioa | Athletic Bilbao | 10046 | 2 |
+| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Marino De Luan | Sporting Gijon | 03560 | 5 |
+| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Alaves | Eibar | 21993 | 5 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Monza | Pro Vercelli | 08023 | 5 |
+| 18.07.2026 | 15:00 | Hazırlık Kulüpler | Groningen | Aek | 08862 | 5 |
 
 ## Sonuc
 
