@@ -1,16 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 185
-Tam analiz: 154
+Toplam analiz: 186
+Tam analiz: 155
 Eksik analiz: 31
 
-- Weston Bears VS Kahibah: eksik score, confidence
-- Eastern Suburb VS Magic United: eksik score, confidence
-- Segesta VS Karlovac: eksik score, confidence
-- Monaco VS Saint Priest: eksik score, confidence
-- Orleans VS Paris 13 Atleti: eksik score, confidence
-- Esbjerg VS Fredericia: eksik score, confidence
+- Radomiak Radom VS Pogon Siedlce: eksik score, confidence
 - Marupe VS Metta / Lu: eksik score, confidence
 - Wuppertaler VS M Gladbach: eksik score, confidence
 - Nijmegen VS Al Feiha: eksik score, confidence
@@ -25,3 +20,8 @@ Eksik analiz: 31
 - York VS Sunderland: eksik score, confidence
 - Smorgon VS Minsk: eksik score, confidence
 - Ostrovets Fc VS Vitebsk: eksik score, confidence
+- Lida VS Torpedo Zhodino: eksik score, confidence
+- Oberhausen VS B.Dortmund: eksik score, confidence
+- Fc Giessen VS E.Frankfurt: eksik score, confidence
+- Progreso VS Deportivo Maldo: eksik score, confidence
+- Bumprom VS Arsenal: eksik score, confidence

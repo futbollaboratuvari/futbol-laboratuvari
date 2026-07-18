@@ -3,31 +3,14 @@
 Gunler: 2026-07-18 / 2026-07-19
 Kaynak: fixtures.json
 Ham mac: 217
-Aktif mac: 193
-Canli mac: 24
+Aktif mac: 176
+Canli mac: 41
 Biten mac: 0
-Bultenden dusurulen mac: 24
-Bugun: 162
+Bultenden dusurulen mac: 41
+Bugun: 145
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-18 15:00 | Finlandiya Veikkausliiga | Helsinki - Vaasa | scheduled | -
-- 2026-07-18 15:00 | Norveç Eliteserien | Ham Kam - Tromso | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Liefering - Wehen | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Wolfsburg - Verl 1924 | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Mechelen - Den Haag | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Wigan - Port Vale | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Zurich - Greuther Furth | scheduled | -
-- 2026-07-18 15:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shenzhen Peng | scheduled | -
-- 2026-07-18 15:00 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Ningbo | scheduled | -
-- 2026-07-18 15:00 | Kazakistan Premier Lig | Okzhetpes - Zhetysu | scheduled | -
-- 2026-07-18 15:00 | Letonya 1.Lig | Marupe - Metta / Lu | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Hibernian - Brondby | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Wuppertaler - M Gladbach | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Barnet - Luton | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Nijmegen - Al Feiha | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Bonner Sc - Duisburg | scheduled | -
-- 2026-07-18 15:00 | Hazırlık Kulüpler | Groningen - Aek | scheduled | -
 - 2026-07-18 15:15 | Hazırlık Kulüpler | Zaglebie Lubin - Chrobry Glogow | scheduled | -
 - 2026-07-18 15:30 | Hazırlık Kulüpler | Luzern - St. Truidense | scheduled | -
 - 2026-07-18 16:00 | İsveç Allsvenskan | Aik Stockholm - Gais | scheduled | -
@@ -230,6 +213,23 @@ Yarin: 31
 - 2026-07-18 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Shaanxi Union | live | -
 - 2026-07-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Shandong Taisha | live | -
 - 2026-07-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Tianjin Teda | live | -
+- 2026-07-18 15:00 | Finlandiya Veikkausliiga | Helsinki - Vaasa | live | -
+- 2026-07-18 15:00 | Norveç Eliteserien | Ham Kam - Tromso | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Liefering - Wehen | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Wolfsburg - Verl 1924 | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Mechelen - Den Haag | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Wigan - Port Vale | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Zurich - Greuther Furth | live | -
+- 2026-07-18 15:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shenzhen Peng | live | -
+- 2026-07-18 15:00 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Ningbo | live | -
+- 2026-07-18 15:00 | Kazakistan Premier Lig | Okzhetpes - Zhetysu | live | -
+- 2026-07-18 15:00 | Letonya 1.Lig | Marupe - Metta / Lu | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Hibernian - Brondby | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Wuppertaler - M Gladbach | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Barnet - Luton | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Nijmegen - Al Feiha | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Bonner Sc - Duisburg | live | -
+- 2026-07-18 15:00 | Hazırlık Kulüpler | Groningen - Aek | live | -
 
 ## Biten Maclar
 Biten mac yok.
