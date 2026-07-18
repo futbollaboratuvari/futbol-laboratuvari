@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 195
+- Scheduled match count: 196
 - Live match count: 18
-- Finished removed count: 3
+- Finished removed count: 0
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
 - 2026-07-18 10:00 | Balcatta - Stirling Lions | live
