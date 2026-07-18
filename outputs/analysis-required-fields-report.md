@@ -1,9 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 18
-Tam analiz: 16
-Eksik analiz: 2
+Toplam analiz: 3
+Tam analiz: 2
+Eksik analiz: 1
 
-- Sd Leioa VS Athletic Bilbao: eksik score, confidence
-- Ponte Preta VS Goias: eksik score, confidence
+- İspanya VS Arjantin: eksik score, confidence
