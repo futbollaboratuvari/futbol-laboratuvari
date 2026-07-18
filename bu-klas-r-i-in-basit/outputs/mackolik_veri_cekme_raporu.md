@@ -1,36 +1,40 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T16:29:25.366913+00:00
+Tarih: 2026-07-18T17:12:37.796974+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 36
+- Kac mac bulundu: 57
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 36
+- Kac mac zaten vardi: 57
 - Ham veri havuzu toplam mac sayisi: 2344
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
-- Belarus Kupa Son 32 Turu
+- Avustralya Victoria NPL 1
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Kanada Premier Lig
-- Moldova Ulusal Lig
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
-- Rusya Süper Kupa
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
 - İskoçya Lig Kupası Grup B
-- İzlanda 2.Lig
 - İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
@@ -88,8 +92,8 @@ Tarih: 2026-07-18T16:29:25.366913+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 27
+- Acilan detay: 27
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -102,26 +106,26 @@ Tarih: 2026-07-18T16:29:25.366913+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 18.07.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Radnicki 1923 | 05451 | 5 |
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Partizan Belgra | 12609 | 5 |
-| 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
+| 18.07.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Radnicki 1923 | 05451 | 5 |
 | 18.07.2026 | 21:00 | İskoçya Lig Kupası Grup B | Dundee Utd | Arbroath | 12567 | 5 |
-| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Osijek | Budapest Honved | 10029 | 5 |
-| 18.07.2026 | 20:30 | Hazırlık Kulüpler | Sd Leioa | Athletic Bilbao | 10046 | 2 |
-| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Marino De Luan | Sporting Gijon | 03560 | 5 |
-| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Alaves | Eibar | 21993 | 5 |
-| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Monza | Pro Vercelli | 08023 | 5 |
-| 18.07.2026 | 15:00 | Hazırlık Kulüpler | Groningen | Aek | 08862 | 5 |
-| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin | Braunschweig | 09305 | 3 |
-| 18.07.2026 | 21:30 | Hazırlık Kulüpler | Braga | Celta Vigo | 21997 | 5 |
-| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Rapid Wien | Hamburg | 21995 | 5 |
-| 18.07.2026 | 11:00 | Hazırlık Kulüpler | Segesta | Karlovac | 06054 | 3 |
 | 18.07.2026 | 13:00 | Hazırlık Kulüpler | Radomiak Radom | Pogon Siedlce | 06164 | 3 |
-| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Kaizer Chiefs | Elche | 04541 | 5 |
-| 18.07.2026 | 19:30 | Hazırlık Kulüpler | Petro Atletico | Valencia | 10012 | 5 |
 | 18.07.2026 | 15:30 | Hazırlık Kulüpler | Luzern | St. Truidense | 06568 | 3 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Schwaz | Innsbrucke | 09886 | 2 |
+| 18.07.2026 | 11:00 | Hazırlık Kulüpler | Segesta | Karlovac | 06054 | 3 |
+| 18.07.2026 | 15:00 | Hazırlık Kulüpler | Groningen | Aek | 08862 | 5 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Monza | Pro Vercelli | 08023 | 5 |
+| 18.07.2026 | 21:30 | Hazırlık Kulüpler | Braga | Celta Vigo | 21997 | 5 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin | Braunschweig | 09305 | 3 |
+| 18.07.2026 | 20:30 | Hazırlık Kulüpler | Sd Leioa | Athletic Bilbao | 10046 | 2 |
+| 19.07.2026 | 02:00 | Meksika Liga MX Apertura | Pumas Unam | Pachuca | 17011 | 5 |
+| 19.07.2026 | 04:07 | Meksika Liga MX Apertura | Guadalajara | Toluca | 17185 | 5 |
+| 19.07.2026 | 06:10 | Meksika Liga MX Apertura | Queretaro | Club America | 17368 | 5 |
+| 19.07.2026 | 04:05 | Meksika Liga MX Apertura | Monterrey | Santos Laguna | 17260 | 5 |
 | 18.07.2026 | 21:15 | Bulgaristan 1.Lig | Ludogorets | Lokomotiv Plovd | 16604 | 5 |
 | 18.07.2026 | 21:15 | Romanya 1.Lig | Universitatea | Uta Arad | 16654 | 5 |
+| 18.07.2026 | 21:15 | Peru Premier Lig Clausura | Adt | Universitario | 16587 | 5 |
 
 ## Sonuc
 
