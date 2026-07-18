@@ -7,6 +7,6 @@ Robot analiz maçı: 88
 Canlı veri maçı: 88
 Tekrar eden analiz: 0
 Marketsiz analiz: 0
-Skorsuz analiz: 85
+Skorsuz analiz: 8
 
 Sonraki aksiyon: Analiz verisi kontrol edilmeli.
