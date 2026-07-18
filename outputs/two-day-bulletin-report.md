@@ -2,24 +2,15 @@
 
 Gunler: 2026-07-18 / 2026-07-19
 Kaynak: fixtures.json
-Ham mac: 228
-Aktif mac: 214
-Canli mac: 13
-Biten mac: 1
-Bultenden dusurulen mac: 14
-Bugun: 183
+Ham mac: 227
+Aktif mac: 205
+Canli mac: 22
+Biten mac: 0
+Bultenden dusurulen mac: 22
+Bugun: 174
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-18 02:30 | Arjantin Ulusal Primera Lig | Atl Temperley - Rafaela | scheduled | -
-- 2026-07-18 02:30 | ABD USL Lig 2 Konferans Çeyrek Final | Michigan Bucks - Buffalo | scheduled | -
-- 2026-07-18 02:30 | ABD USL Lig 2 Konferans Çeyrek Final | Ventura Countr - Project 51o | scheduled | -
-- 2026-07-18 03:00 | Brezilya Serie B | Londrina - Botafogo Ribeir | scheduled | -
-- 2026-07-18 03:00 | Brezilya Serie B | Fortaleza Ce - Novorizontino | scheduled | -
-- 2026-07-18 03:00 | Ekvador Pro Lig | Delfin - Depor Macara | scheduled | -
-- 2026-07-18 03:00 | Bolivya Premier Lig | Bolivar - Guabira | scheduled | -
-- 2026-07-18 03:00 | Nikaragua Premier Lig Apertura | Diriangen - San Marcos | scheduled | -
-- 2026-07-18 03:10 | ABD MLS | Nashville Sc - Atlanta Utd | scheduled | -
 - 2026-07-18 03:45 | Arjantin Kupa Son 32 Turu | River Plate - Aldosivi | scheduled | -
 - 2026-07-18 04:00 | Meksika Liga MX Apertura | Atletico San L - Cruz Azul | scheduled | -
 - 2026-07-18 04:00 | Meksika Liga MX Apertura | Club Leon - Atlas | scheduled | -
@@ -240,6 +231,15 @@ Yarin: 31
 - 2026-07-18 02:00 | Kanada Premier Lig | Atletico Ottaw - Inter Toronto | live | -
 - 2026-07-18 02:00 | Kanada Premier Lig | Supra Du Québe - Vancouver Fc | live | -
 - 2026-07-18 02:00 | ABD USL Lig 2 Konferans Çeyrek Final | Vermont Green - Ironbound | live | -
+- 2026-07-18 02:30 | Arjantin Ulusal Primera Lig | Atl Temperley - Rafaela | live | -
+- 2026-07-18 02:30 | ABD USL Lig 2 Konferans Çeyrek Final | Michigan Bucks - Buffalo | live | -
+- 2026-07-18 02:30 | ABD USL Lig 2 Konferans Çeyrek Final | Ventura Countr - Project 51o | live | -
+- 2026-07-18 03:00 | Brezilya Serie B | Londrina - Botafogo Ribeir | live | -
+- 2026-07-18 03:00 | Brezilya Serie B | Fortaleza Ce - Novorizontino | live | -
+- 2026-07-18 03:00 | Ekvador Pro Lig | Delfin - Depor Macara | live | -
+- 2026-07-18 03:00 | Bolivya Premier Lig | Bolivar - Guabira | live | -
+- 2026-07-18 03:00 | Nikaragua Premier Lig Apertura | Diriangen - San Marcos | live | -
+- 2026-07-18 03:10 | ABD MLS | Nashville Sc - Atlanta Utd | live | -
 
 ## Biten Maclar
-- 2026-07-18 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Agropecuario | finished | -
+Biten mac yok.

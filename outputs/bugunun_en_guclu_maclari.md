@@ -2,25 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-17T23:28:40.158Z
+- Güncelleme: 2026-07-18T00:11:20.261Z
 - Ham maç sayısı: 227
 - Yarın bülteni maç sayısı: 31
 - Detay blok sayısı: 615
-- Aktif bülten maçı: 214
-- Bültenden düşürülen maç: 13
+- Aktif bülten maçı: 205
+- Bültenden düşürülen maç: 22
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Atl Temperley - Rafaela | Arjantin Ulusal Primera Lig | 02:30 | Veri bekleniyor | - | 1.44 | 5 |
-| Michigan Bucks - Buffalo | ABD USL Lig 2 Konferans Çeyrek Final | 02:30 | Veri bekleniyor | - | 1.29 | 3 |
-| Ventura Countr - Project 51o | ABD USL Lig 2 Konferans Çeyrek Final | 02:30 | Veri bekleniyor | - | 1.65 | 6 |
-| Londrina - Botafogo Ribeir | Brezilya Serie B | 03:00 | Veri bekleniyor | - | 2.33 | 8 |
-| Fortaleza Ce - Novorizontino | Brezilya Serie B | 03:00 | Veri bekleniyor | - | 1.8 | 8 |
-| Delfin - Depor Macara | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 2.43 | 6 |
-| Bolivar - Guabira | Bolivya Premier Lig | 03:00 | Veri bekleniyor | - | - | 3 |
-| Diriangen - San Marcos | Nikaragua Premier Lig Apertura | 03:00 | Veri bekleniyor | - | - | 3 |
-| Nashville Sc - Atlanta Utd | ABD MLS | 03:10 | Veri bekleniyor | - | 1.35 | 7 |
 | River Plate - Aldosivi | Arjantin Kupa Son 32 Turu | 03:45 | Veri bekleniyor | - | 1.2 | 6 |
 | Atletico San L - Cruz Azul | Meksika Liga MX Apertura | 04:00 | Veri bekleniyor | - | 3.56 | 8 |
 | Club Leon - Atlas | Meksika Liga MX Apertura | 04:00 | Veri bekleniyor | - | 1.82 | 8 |
@@ -89,7 +80,7 @@
 | Helsinki - Vaasa | Finlandiya Veikkausliiga | 15:00 | Veri bekleniyor | - | 1.72 | 8 |
 | Ham Kam - Tromso | Norveç Eliteserien | 15:00 | Veri bekleniyor | - | 3.1 | 8 |
 | Liefering - Wehen | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.15 | 6 |
-| Wolfsburg - Verl 1924 | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.1 | 6 |
+| Wolfsburg - Verl 1924 | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.09 | 6 |
 | Mechelen - Den Haag | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.06 | 8 |
 | Wigan - Port Vale | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.57 | 8 |
 | Zurich - Greuther Furth | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.19 | 8 |
@@ -136,11 +127,11 @@
 | St Johnstone - Morton | İskoçya Lig Kupası Grup F | 17:00 | Veri bekleniyor | - | - | 5 |
 | Ayr Utd - Edinburg C. | İskoçya Lig Kupası Grup G | 17:00 | Veri bekleniyor | - | 1.08 | 6 |
 | Alloa - Stranraer | İskoçya Lig Kupası Grup G | 17:00 | Veri bekleniyor | - | 1.34 | 6 |
-| Elgin - Kilmarnock | İskoçya Lig Kupası Grup H | 17:00 | Veri bekleniyor | - | 13.15 | 5 |
+| Elgin - Kilmarnock | İskoçya Lig Kupası Grup H | 17:00 | Veri bekleniyor | - | 13.1 | 5 |
 | Hamilton - Raith Rovers | İskoçya Lig Kupası Grup H | 17:00 | Veri bekleniyor | - | 3.14 | 8 |
 | Kotka - Pk-35 Ry | Finlandiya Ykkösliiga | 17:00 | Veri bekleniyor | - | 1.6 | 8 |
 | Inter Turku Ii - Salpa Salo | Finlandiya Ykkönen | 17:00 | Veri bekleniyor | - | 3.94 | 6 |
-| Vjs - Tampere Utd | Finlandiya Ykkönen | 17:00 | Veri bekleniyor | - | 1.93 | 8 |
+| Vjs - Tampere Utd | Finlandiya Ykkönen | 17:00 | Veri bekleniyor | - | 1.89 | 8 |
 | Grindavik - Ir Reykjavik | İzlanda 1.Lig | 17:00 | Veri bekleniyor | - | 1.98 | 6 |
 | Grotta - Aegir | İzlanda 1.Lig | 17:00 | Veri bekleniyor | - | 1.32 | 4 |
 | Trans Narva - Vaprus | Estonya Premium Lig | 17:00 | Veri bekleniyor | - | 2.58 | 5 |
@@ -162,11 +153,11 @@
 | Brest - Concarneau | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.27 | 6 |
 | Aberdeen - Queens Park | İskoçya Lig Kupası Grup A | 19:00 | Veri bekleniyor | - | 1.16 | 6 |
 | Septemvri Sofi - Arda Kardzhali | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 3.08 | 8 |
-| Kauno Zalgiris - Fa Siauliai | Litvanya A Ligi | 19:00 | Veri bekleniyor | - | 1.09 | 4 |
-| Deportivo Moqu - Comerciantes Un | Peru Premier Lig Clausura | 19:00 | Veri bekleniyor | - | 1.8 | 8 |
+| Kauno Zalgiris - Fa Siauliai | Litvanya A Ligi | 19:00 | Veri bekleniyor | - | 1.1 | 4 |
+| Deportivo Moqu - Comerciantes Un | Peru Premier Lig Clausura | 19:00 | Veri bekleniyor | - | 1.77 | 8 |
 | Amal Tiznit - Olympique Dchei | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | 19:00 | Veri bekleniyor | - | 2.16 | 8 |
 | Radomlje - Nk Brinje Grosu | Slovenya 1.SNL | 19:00 | Veri bekleniyor | - | 2.03 | 8 |
-| Thor Akureyri - Vikingur Reykja | İzlanda Urvalsdeild | 19:00 | Veri bekleniyor | - | 12.35 | 3 |
+| Thor Akureyri - Vikingur Reykja | İzlanda Urvalsdeild | 19:00 | Veri bekleniyor | - | 12.95 | 3 |
 | Throttur - Völsungur | İzlanda 1.Lig | 19:00 | Veri bekleniyor | - | - | 3 |
 | Riga Fc - Fk Tukums 2000 | Letonya Virsliga | 19:00 | Veri bekleniyor | - | - | 3 |
 | Pittsburgh Riv - Louisville City | ABD USL | 19:00 | Veri bekleniyor | - | 2.73 | 8 |
@@ -179,13 +170,13 @@
 | Zimbru - Sireti | Moldova Ulusal Lig | 20:00 | Veri bekleniyor | - | - | 3 |
 | Kormakur - Dalvik | İzlanda 2.Lig | 20:00 | Veri bekleniyor | - | 1.85 | 6 |
 | Novi Pazar - Radnicki 1923 | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 2.36 | 8 |
-| Zemun Belg. - Partizan Belgra | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 6.2 | 6 |
-| Dundee Utd - Arbroath | İskoçya Lig Kupası Grup B | 21:00 | Veri bekleniyor | - | 1.4 | 7 |
+| Zemun Belg. - Partizan Belgra | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 6.5 | 6 |
+| Dundee Utd - Arbroath | İskoçya Lig Kupası Grup B | 21:00 | Veri bekleniyor | - | 1.39 | 7 |
 | Ludogorets - Lokomotiv Plovd | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.1 | 6 |
 | Universitatea - Uta Arad | Romanya 1.Lig | 21:15 | Veri bekleniyor | - | 1.22 | 6 |
 | Adt - Universitario | Peru Premier Lig Clausura | 21:15 | Veri bekleniyor | - | 2.68 | 8 |
 | Olimpija Ljubl - Ask Bravo | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 1.84 | 8 |
-| Braga - Celta Vigo | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.89 | 8 |
+| Braga - Celta Vigo | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.78 | 8 |
 | Penarol - Boston River | Uruguay Premier Lig Intermediate Turu Grup 1 | 22:00 | Veri bekleniyor | - | 1.36 | 5 |
 | Sport Recife - Operario | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 1.62 | 8 |
 | Ponte Preta - Goias | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 4.16 | 7 |
