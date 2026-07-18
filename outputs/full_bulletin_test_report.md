@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 31
-- Live match count: 10
-- Finished removed count: 4
-- Date window: 2026-07-18 / 2026-07-19 23:59
+- Scheduled match count: 90
+- Live match count: 2
+- Finished removed count: 0
+- Date window: 2026-07-19 / 2026-07-20 23:59
 
-- 2026-07-18 21:30 | Braga - Celta Vigo | live
-- 2026-07-18 22:00 | Always Ready - Universitario D | live
-- 2026-07-18 22:00 | Criciuma - Vila Nova | live
-- 2026-07-18 22:00 | Ponte Preta - Goias | live
-- 2026-07-18 22:00 | Sport Recife - Operario | live
-- 2026-07-18 22:00 | Deportivo Cuen - Univ Catolica ( | live
-- 2026-07-18 22:00 | Cavalry - Hfx Wanderers | live
-- 2026-07-18 22:00 | Penarol - Boston River | live
-- 2026-07-18 22:15 | Valur - Fram | live
-- 2026-07-18 23:30 | Atletico Grau - Univ De Cajamar | live
+- 2026-07-19 00:00 | Atletico Goian - Athletic Club | live
+- 2026-07-19 00:00 | Fransa - İngiltere | live
+- 2026-07-19 00:30 | Ldu Quito - Leones Del Nort | scheduled
+- 2026-07-19 01:00 | Jalapa - Walter Ferretti | scheduled
+- 2026-07-19 02:00 | Detroit City - Indy Eleven | scheduled
+- 2026-07-19 02:00 | Charlotte Inde - Chattanooga Red | scheduled
+- 2026-07-19 02:00 | New York Cosmo - Corpus Christi | scheduled
+- 2026-07-19 02:00 | Richmond Kicke - Spokane Velocit | scheduled
+- 2026-07-19 02:00 | Union Omaha - Westchester Sc | scheduled
+- 2026-07-19 02:00 | Loudoun United - Tampa Bay Rowdi | scheduled

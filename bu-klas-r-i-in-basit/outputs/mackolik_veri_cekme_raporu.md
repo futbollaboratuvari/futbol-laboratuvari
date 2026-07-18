@@ -1,32 +1,47 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T21:00:04.191141+00:00
+Tarih: 2026-07-18T21:04:45.805149+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 34
-- Kac mac kaydedildi: 3
-- Kac mac zaten vardi: 31
-- Ham veri havuzu toplam mac sayisi: 2348
+- Kac mac bulundu: 61
+- Kac mac kaydedildi: 58
+- Kac mac zaten vardi: 3
+- Ham veri havuzu toplam mac sayisi: 2406
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
+- Avustralya NPL Güney Avustralya
 - Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
+- Avustralya NPL Queensland
 - Avustralya NPL Yeni Güney Galler
-- Avustralya Victoria NPL 1
 - Bolivya Premier Lig
-- Brezilya Serie B
-- Dünya Kupası 2026 Üçüncülük
+- Bulgaristan 1.Lig
+- Dünya Kupası 2026 Final
 - Ekvador Pro Lig
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
+- Estonya Premium Lig
+- Finlandiya Veikkausliiga
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Hazırlık Kulüpler
+- Kazakistan Premier Lig
+- Letonya 1.Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Moldova Ulusal Lig
 - Peru Premier Lig Clausura
+- Romanya 1.Lig
+- Rusya FNL
+- Slovenya 1.SNL
+- Sırbistan Süper Lig
+- Uruguay Premier Lig Intermediate Turu Grup 1
+- İsveç Allsvenskan
+- İsveç Superettan
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -83,8 +98,8 @@ Tarih: 2026-07-18T21:00:04.191141+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 17
-- Acilan detay: 17
+- Denenen Tumu alani: 31
+- Acilan detay: 31
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -97,26 +112,26 @@ Tarih: 2026-07-18T21:00:04.191141+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
-| 19.07.2026 | 04:05 | Meksika Liga MX Apertura | Monterrey | Santos Laguna | 17260 | 5 |
-| 19.07.2026 | 02:00 | Meksika Liga MX Apertura | Pumas Unam | Pachuca | 17011 | 5 |
-| 19.07.2026 | 06:10 | Meksika Liga MX Apertura | Queretaro | Club America | 17368 | 5 |
-| 19.07.2026 | 04:07 | Meksika Liga MX Apertura | Guadalajara | Toluca | 17185 | 5 |
-| 19.07.2026 | 02:30 | Peru Premier Lig Clausura | Cusco Fc | Alianza Atletic | 17118 | 5 |
-| 19.07.2026 | 00:00 | Brezilya Serie B | Atletico Goian | Athletic Club | 16895 | 5 |
-| 19.07.2026 | 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City | St George City | 12359 | 5 |
-| 19.07.2026 | 08:00 | Avustralya NPL Yeni Güney Galler | Marconi | Sydney United | 12685 | 5 |
-| 19.07.2026 | 07:30 | Avustralya NPL Tazmanya | Ulverstone | Glenorchy Knigh | 11825 | 3 |
-| 19.07.2026 | 07:30 | Avustralya NPL Tazmanya | South East Uni | Launceston Unit | 11771 | 3 |
-| 19.07.2026 | 03:00 | Ekvador Pro Lig | Barcelona Gua | Libertad | 17168 | 5 |
-| 19.07.2026 | 00:30 | Ekvador Pro Lig | Ldu Quito | Leones Del Nort | 16928 | 5 |
-| 19.07.2026 | 06:00 | Avustralya NPL Kuzey YGG | Hamilton Olymp | Belmont Swansea | 11309 | 3 |
-| 19.07.2026 | 08:00 | Avustralya NPL Kuzey YGG | Charlestow Cit | Edgeworth Eagle | 12556 | 3 |
-| 19.07.2026 | 07:00 | Avustralya Victoria NPL 1 | Western Utd. I | Bulleen Lions | 11692 | 3 |
-| 19.07.2026 | 03:30 | Bolivya Premier Lig | Aurora | Oriente Petrole | 20976 | 3 |
-| 19.07.2026 | 03:30 | ABD USL | Tulsa Roughnec | El Paso Locomot | 17227 | 5 |
-| 19.07.2026 | 02:00 | ABD USL | Detroit City | Indy Eleven | 16945 | 5 |
-| 19.07.2026 | 02:30 | ABD USL | Rhode Island | Hartford Athlet | 17135 | 5 |
+| 19.07.2026 | 22:00 | Dünya Kupası 2026 Final | İspanya | Arjantin | 07041 | 5 |
+| 19.07.2026 | 18:30 | Finlandiya Veikkausliiga | Jaro | Inter Turku | 18210 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Sirius | 18103 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Hammarby | Degerfors | 18049 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
+| 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Anyang | Gwangju | 17497 | 5 |
+| 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Bucheon | Fc Seoul | 17410 | 5 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
+| 19.07.2026 | 17:00 | Hazırlık Kulüpler | Cracovia Krako | Sevilla | 03712 | 5 |
+| 19.07.2026 | 15:00 | Hazırlık Kulüpler | Aue | Schalke | 05937 | 5 |
+| 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
+| 19.07.2026 | 16:00 | İsveç Superettan | United Nordic | Orebro | 17816 | 5 |
+| 19.07.2026 | 14:00 | İsveç Superettan | Norrkoping | Sandvikens | 17652 | 5 |
+| 19.07.2026 | 16:00 | İsveç Superettan | Varnamo | Ljungskile | 17745 | 5 |
+| 19.07.2026 | 17:00 | Rusya FNL | Tekstilshchik | Ufa | 17912 | 5 |
+| 19.07.2026 | 19:00 | Rusya FNL | Arsenal Tula | Neftekhimik | 18283 | 5 |
+| 19.07.2026 | 18:30 | Rusya FNL | Torpedo Moskov | Volga Ulyanovsk | 18264 | 5 |
 
 ## Sonuc
 
