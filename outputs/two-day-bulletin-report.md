@@ -2,25 +2,15 @@
 
 Gunler: 2026-07-18 / 2026-07-19
 Kaynak: fixtures.json
-Ham mac: 218
-Aktif mac: 204
-Canli mac: 14
+Ham mac: 216
+Aktif mac: 195
+Canli mac: 21
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 173
+Bultenden dusurulen mac: 21
+Bugun: 164
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-18 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sydney Olympic | scheduled | -
-- 2026-07-18 11:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Sd Raiders | scheduled | -
-- 2026-07-18 11:00 | Avustralya NPL Queensland | Eastern Suburb - Magic United | scheduled | -
-- 2026-07-18 11:00 | Avustralya NPL Victoria | Caroline S. - Melbourne City | scheduled | -
-- 2026-07-18 11:15 | Avustralya Victoria NPL 1 | Melbourne Srbi - Port Melbourne | scheduled | -
-- 2026-07-18 11:30 | Hazırlık Kulüpler | Monaco - Saint Priest | scheduled | -
-- 2026-07-18 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Rockdale Cs | scheduled | -
-- 2026-07-18 12:00 | Hazırlık Kulüpler | Fremad Amager - Roskilde | scheduled | -
-- 2026-07-18 12:00 | Avustralya NPL Batı Avustralya | Dianella White - Olympic Kingswa | scheduled | -
-- 2026-07-18 12:00 | Hazırlık Kulüpler | Fc Andorra - Stevenage | scheduled | -
 - 2026-07-18 13:00 | Hazırlık Kulüpler | Ruzomberok - Teplice | scheduled | -
 - 2026-07-18 13:00 | Hazırlık Kulüpler | Bologna - Arminia Bielefe | scheduled | -
 - 2026-07-18 13:00 | Güney Kore K3 Ligi | Dangjin Citize - Jeonbuk Motors | scheduled | -
@@ -37,6 +27,7 @@ Yarin: 31
 - 2026-07-18 14:00 | İsveç Superettan | Oddevold - Varbergs | scheduled | -
 - 2026-07-18 14:00 | Hazırlık Kulüpler | Legia Varşova - Pogon Grodzisk | scheduled | -
 - 2026-07-18 14:00 | Hazırlık Kulüpler | Hillerod - Lyngby | scheduled | -
+- 2026-07-18 14:00 | Hazırlık Kulüpler | Esbjerg - Fredericia | scheduled | -
 - 2026-07-18 14:30 | Hazırlık Kulüpler | Crystal Palace - Swindon | scheduled | -
 - 2026-07-18 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Dalian Huayi | scheduled | -
 - 2026-07-18 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Guangzhou E-Pow | scheduled | -
@@ -217,11 +208,6 @@ Yarin: 31
 - 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-07-18 08:15 | Avustralya NPL Victoria | Altona Magic - Heidelberg Unit | live | -
-- 2026-07-18 08:15 | Avustralya NPL Victoria | South Melbourn - Preston Lions | live | -
-- 2026-07-18 08:30 | Avustralya NPL Güney Avustralya | West Adelaide - Sturt Lions | live | -
-- 2026-07-18 08:30 | Avustralya NPL Güney Avustralya | Playford City - Ne Metrostars | live | -
-- 2026-07-18 09:00 | Avustralya NPL Queensland | Gold Coast Kni - Brisbane Wolves | live | -
 - 2026-07-18 09:30 | Avustralya NPL Queensland | Moreton City E - Peninsula Power | live | -
 - 2026-07-18 09:30 | Avustralya NPL Kuzey YGG | Weston Bears - Kahibah | live | -
 - 2026-07-18 09:45 | Avustralya NPL Tazmanya | Launceston Cit - Kingborough Lio | live | -
@@ -231,6 +217,18 @@ Yarin: 31
 - 2026-07-18 10:00 | Avustralya NPL Batı Avustralya | Perth Redstar - Fremantle City | live | -
 - 2026-07-18 10:00 | Avustralya Victoria NPL 1 | North Geelong - Melbourne Victo | live | -
 - 2026-07-18 10:15 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Nws Spirit | live | -
+- 2026-07-18 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sydney Olympic | live | -
+- 2026-07-18 11:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Sd Raiders | live | -
+- 2026-07-18 11:00 | Avustralya NPL Queensland | Eastern Suburb - Magic United | live | -
+- 2026-07-18 11:00 | Avustralya NPL Victoria | Caroline S. - Melbourne City | live | -
+- 2026-07-18 11:00 | Hazırlık Kulüpler | Segesta - Karlovac | live | -
+- 2026-07-18 11:15 | Avustralya Victoria NPL 1 | Melbourne Srbi - Port Melbourne | live | -
+- 2026-07-18 11:30 | Hazırlık Kulüpler | Monaco - Saint Priest | live | -
+- 2026-07-18 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Rockdale Cs | live | -
+- 2026-07-18 12:00 | Hazırlık Kulüpler | Fremad Amager - Roskilde | live | -
+- 2026-07-18 12:00 | Avustralya NPL Batı Avustralya | Dianella White - Olympic Kingswa | live | -
+- 2026-07-18 12:00 | Hazırlık Kulüpler | Fc Andorra - Stevenage | live | -
+- 2026-07-18 12:00 | Hazırlık Kulüpler | Orleans - Paris 13 Atleti | live | -
 
 ## Biten Maclar
 Biten mac yok.
