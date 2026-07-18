@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 13:41:54
+Oluşturma: 18.07.2026 13:46:21
 
 ## Özet
 
-- Toplam tahmin: 123
-- Bekleyen tahmin: 123
+- Toplam tahmin: 128
+- Bekleyen tahmin: 128
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 37
@@ -20,12 +20,17 @@ Oluşturma: 18.07.2026 13:41:54
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 80, bekleyen 80, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
-- MS X: toplam 75, bekleyen 75, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Hazırlık Kulüpler | Hanworth Villa - Carshalton Athl | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Lewes - Hastings United | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Amiens - Quevilly-Rouen | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Cardiff Mu - Brackley Town | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Groningen - Aek | MS X | pending | 40/100
 - 2026-07-18 | Hazırlık Kulüpler | Orleans - Paris 13 Atleti | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Legia Varşova - Pogon Grodzisk | MS 2 | pending | 60/100
 - 2026-07-18 | Hazırlık Kulüpler | Esbjerg - Fredericia | MS X | pending | 50/100
@@ -36,9 +41,4 @@ Oluşturma: 18.07.2026 13:41:54
 - 2026-07-18 | Hazırlık Kulüpler | Weston-S-Mare - Torquay | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Barnet - Luton | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Zaglebie Lubin - Chrobry Glogow | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Hillerod - Lyngby | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Fc Andorra - Stevenage | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Braga - Celta Vigo | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Crystal Palace - Swindon | MS 2 | pending | 40/100
 
