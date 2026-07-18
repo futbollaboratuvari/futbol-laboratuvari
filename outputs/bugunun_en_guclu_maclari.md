@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-18T12:06:32.116Z
+- Güncelleme: 2026-07-18T12:29:58.016Z
 - Ham maç sayısı: 217
 - Yarın bülteni maç sayısı: 31
 - Detay blok sayısı: 584
-- Aktif bülten maçı: 176
-- Bültenden düşürülen maç: 41
+- Aktif bülten maçı: 175
+- Bültenden düşürülen maç: 42
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Zaglebie Lubin - Chrobry Glogow | Hazırlık Kulüpler | 15:15 | Veri bekleniyor | - | 1.92 | 8 |
 | Luzern - St. Truidense | Hazırlık Kulüpler | 15:30 | Veri bekleniyor | - | 1.86 | 6 |
 | Aik Stockholm - Gais | İsveç Allsvenskan | 16:00 | Veri bekleniyor | - | 2.31 | 8 |
 | Falkirk - Genk | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 2.79 | 8 |

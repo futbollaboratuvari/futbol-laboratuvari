@@ -1,30 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T11:36:44.571098+00:00
+Tarih: 2026-07-18T12:31:24.828423+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 192
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 191
-- Ham veri havuzu toplam mac sayisi: 2341
+- Kac mac bulundu: 146
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 144
+- Ham veri havuzu toplam mac sayisi: 2343
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
-- ABD USL Lig 1
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
-- Avustralya Victoria NPL 1
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
@@ -38,9 +33,7 @@ Tarih: 2026-07-18T11:36:44.571098+00:00
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -49,8 +42,6 @@ Tarih: 2026-07-18T11:36:44.571098+00:00
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
 - Uruguay Premier Lig Intermediate Turu Grup 2
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
 - İskoçya Lig Kupası Grup A
 - İskoçya Lig Kupası Grup B
 - İskoçya Lig Kupası Grup C
@@ -120,8 +111,8 @@ Tarih: 2026-07-18T11:36:44.571098+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 56
-- Acilan detay: 56
+- Denenen Tumu alani: 54
+- Acilan detay: 54
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -134,26 +125,26 @@ Tarih: 2026-07-18T11:36:44.571098+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
-| 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Kuopion | 16103 | 5 |
-| 18.07.2026 | 15:00 | Finlandiya Veikkausliiga | Helsinki | Vaasa | 15501 | 5 |
 | 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Gnistan | 16049 | 5 |
+| 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Kuopion | 16103 | 5 |
 | 18.07.2026 | 17:00 | Norveç Eliteserien | Start | Rosenborg | 15886 | 5 |
 | 18.07.2026 | 19:00 | Norveç Eliteserien | Viking | Sandefjord | 16481 | 5 |
 | 18.07.2026 | 17:00 | Norveç Eliteserien | Lillestrom | Kfum Oslo | 15995 | 5 |
-| 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
 | 18.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Sarpsborg | 15940 | 5 |
-| 18.07.2026 | 15:00 | Norveç Eliteserien | Ham Kam | Tromso | 15555 | 5 |
+| 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
 | 18.07.2026 | 16:00 | İsveç Allsvenskan | Aik Stockholm | Gais | 15626 | 5 |
 | 18.07.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Partizan Belgra | 12609 | 5 |
 | 18.07.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Radnicki 1923 | 05451 | 5 |
 | 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
-| 18.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh | Tianjin Teda | 11074 | 5 |
-| 18.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing | Shandong Taisha | 11017 | 5 |
-| 18.07.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To | Shenzhen Peng | 11231 | 5 |
-| 18.07.2026 | 19:00 | İskoçya Lig Kupası Grup A | Aberdeen | Queens Park | 10070 | 5 |
 | 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Brora Rangers | Queen Of South | 20509 | 5 |
+| 18.07.2026 | 19:00 | İskoçya Lig Kupası Grup A | Aberdeen | Queens Park | 10070 | 5 |
+| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup B | Stirling Albio | Montrose | 19614 | 5 |
 | 18.07.2026 | 21:00 | İskoçya Lig Kupası Grup B | Dundee Utd | Arbroath | 12567 | 5 |
+| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup C | Cove Rangers | St Mirren | 08430 | 5 |
+| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup C | East Kilbride | Dumbarton | 20541 | 5 |
+| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup D | Airdrieonians | Annan | 20377 | 5 |
+| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup D | Ross County | Clyde | 20675 | 5 |
+| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup E | Livingston | Partick Thistle | 20642 | 5 |
 
 ## Sonuc
 
