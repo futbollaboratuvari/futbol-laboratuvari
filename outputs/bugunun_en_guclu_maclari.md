@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-18T20:11:53.030Z
+- Güncelleme: 2026-07-18T20:36:36.328Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -24,7 +24,7 @@
 | Cavalry VS Hfx Wanderers | Kanada Premier Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Always Ready VS Universitario D | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Valur VS Fram | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Atletico Grau VS Univ De Cajamar | Peru Premier Lig Clausura | 23:30 | MS 2 | 4.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atletico Grau VS Univ De Cajamar | Peru Premier Lig Clausura | 23:30 | MS 2 | 4.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Fransa VS İngiltere | Dünya Kupası 2026 Üçüncülük | 00:00 | MS 2 | 3.67 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Atletico Goian VS Athletic Club | Brezilya Serie B | 00:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Ldu Quito VS Leones Del Nort | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
