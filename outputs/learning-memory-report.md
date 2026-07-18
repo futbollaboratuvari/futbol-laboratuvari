@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 13:46:21
+Oluşturma: 18.07.2026 14:21:14
 
 ## Özet
 
-- Toplam tahmin: 128
-- Bekleyen tahmin: 128
+- Toplam tahmin: 130
+- Bekleyen tahmin: 130
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 37
@@ -20,12 +20,14 @@ Oluşturma: 18.07.2026 13:46:21
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
 - MS X: toplam 80, bekleyen 80, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS 2 | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Hanworth Villa - Carshalton Athl | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Lewes - Hastings United | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Amiens - Quevilly-Rouen | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 18.07.2026 13:46:21
 - 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Osijek - Budapest Honved | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Weston-S-Mare - Torquay | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Barnet - Luton | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Zaglebie Lubin - Chrobry Glogow | MS 2 | pending | 50/100
 
