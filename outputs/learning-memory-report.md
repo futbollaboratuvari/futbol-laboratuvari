@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 23:36:47
+Oluşturma: 19.07.2026 00:00:12
 
 ## Özet
 
-- Toplam tahmin: 141
-- Bekleyen tahmin: 141
+- Toplam tahmin: 160
+- Bekleyen tahmin: 160
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 38
+- Lig sayısı: 40
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 18.07.2026 23:36:47
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
-- MS X: toplam 86, bekleyen 86, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS X: toplam 94, bekleyen 94, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-18 | Romanya 1.Lig | Universitatea - Uta Arad | MS 2 | pending | 60/100
-- 2026-07-18 | İskoçya Lig Kupası Grup G | Alloa - Stranraer | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Aarau - Union Berlin | MS X | pending | 55/100
-- 2026-07-18 | İskoçya Lig Kupası Grup C | East Kilbride - Dumbarton | MS 2 | pending | 40/100
-- 2026-07-18 | İskoçya Lig Kupası Grup G | Ayr Utd - Edinburg C. | MS X | pending | 60/100
-- 2026-07-18 | Hazırlık Kulüpler | Nice - Nimes | MS X | pending | 95/100
-- 2026-07-18 | Kazakistan Premier Lig | Kaisar - Kaspyi | MS 2 | pending | 40/100
-- 2026-07-18 | Kazakistan Premier Lig | Kyzyl-Zhar - Tobol Kostanay | MS 1 | pending | 40/100
-- 2026-07-18 | Hazırlık Kulüpler | Palermo - Ingolstadt | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Stade Lavalloi - Caen | MS X | pending | 40/100
-- 2026-07-18 | Hazırlık Kulüpler | Hartberg - First Vienna | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Hanworth Villa - Carshalton Athl | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Lewes - Hastings United | MS X | pending | 50/100
+- 2026-07-19 | ABD USL Lig 1 | New York Cosmo - Corpus Christi | MS X | pending | 50/100
+- 2026-07-19 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | MS X | pending | 50/100
+- 2026-07-19 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | MS 2 | pending | 60/100
+- 2026-07-19 | ABD USL | Rhode Island - Hartford Athlet | MS 2 | pending | 60/100
+- 2026-07-19 | ABD USL | Charleston Bat - Sacramento Repu | MS 2 | pending | 40/100
+- 2026-07-19 | ABD USL Lig 1 | One Knoxville - Alta | MS 2 | pending | 60/100
+- 2026-07-19 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | MS 2 | pending | 40/100
+- 2026-07-19 | ABD USL | Tulsa Roughnec - El Paso Locomot | MS X | pending | 50/100
+- 2026-07-19 | ABD USL | San Antonio - Las Vegas Light | MS 2 | pending | 50/100
+- 2026-07-19 | Nikaragua Premier Lig Apertura | Matagalpa - Export Sebaco | MS X | pending | 50/100
+- 2026-07-19 | Meksika Liga MX Apertura | Monterrey - Santos Laguna | MS 2 | pending | 40/100
+- 2026-07-19 | Meksika Liga MX Apertura | Guadalajara - Toluca | MS X | pending | 50/100
+- 2026-07-19 | ABD USL | Phoenix Rising - Monterey Bay | MS X | pending | 60/100
+- 2026-07-19 | Meksika Liga MX Apertura | Queretaro - Club America | MS 1 | pending | 50/100
+- 2026-07-19 | Dünya Kupası 2026 Üçüncülük | Fransa - İngiltere | MS 2 | pending | 70/100
 
