@@ -1,30 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T18:39:09.653481+00:00
+Tarih: 2026-07-18T19:22:29.949228+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 19
+- Kac mac bulundu: 42
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 19
+- Kac mac zaten vardi: 42
 - Ham veri havuzu toplam mac sayisi: 2345
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
 - Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
 - Bolivya Premier Lig
 - Brezilya Serie B
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Hazırlık Kulüpler
-- Kanada Premier Lig
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
-- Uruguay Premier Lig Intermediate Turu Grup 1
 - İzlanda 2.Lig
-- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -81,8 +85,8 @@ Tarih: 2026-07-18T18:39:09.653481+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 24
-- Acilan detay: 24
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -95,25 +99,26 @@ Tarih: 2026-07-18T18:39:09.653481+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 11:00 | Hazırlık Kulüpler | Segesta | Karlovac | 06054 | 3 |
-| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin | Braunschweig | 09305 | 3 |
 | 18.07.2026 | 15:00 | Hazırlık Kulüpler | Groningen | Aek | 08862 | 5 |
 | 18.07.2026 | 19:00 | Hazırlık Kulüpler | Monza | Pro Vercelli | 08023 | 5 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin | Braunschweig | 09305 | 3 |
 | 18.07.2026 | 13:00 | Hazırlık Kulüpler | Radomiak Radom | Pogon Siedlce | 06164 | 3 |
 | 18.07.2026 | 19:00 | Hazırlık Kulüpler | Schwaz | Innsbrucke | 09886 | 2 |
 | 18.07.2026 | 15:30 | Hazırlık Kulüpler | Luzern | St. Truidense | 06568 | 3 |
+| 19.07.2026 | 04:05 | Meksika Liga MX Apertura | Monterrey | Santos Laguna | 17260 | 5 |
+| 19.07.2026 | 02:00 | Meksika Liga MX Apertura | Pumas Unam | Pachuca | 17011 | 5 |
+| 19.07.2026 | 04:07 | Meksika Liga MX Apertura | Guadalajara | Toluca | 17185 | 5 |
+| 19.07.2026 | 06:10 | Meksika Liga MX Apertura | Queretaro | Club America | 17368 | 5 |
 | 18.07.2026 | 23:30 | Peru Premier Lig Clausura | Atletico Grau | Univ De Cajamar | 16878 | 5 |
-| 18.07.2026 | 22:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Penarol | Boston River | 16787 | 5 |
-| 18.07.2026 | 22:00 | Brezilya Serie B | Criciuma | Vila Nova | 16754 | 5 |
-| 18.07.2026 | 22:00 | Brezilya Serie B | Ponte Preta | Goias | 16792 | 5 |
-| 18.07.2026 | 22:00 | Brezilya Serie B | Sport Recife | Operario | 16825 | 5 |
-| 18.07.2026 | 22:15 | İzlanda Urvalsdeild | Valur | Fram | 16858 | 3 |
+| 19.07.2026 | 02:30 | Peru Premier Lig Clausura | Cusco Fc | Alianza Atletic | 17118 | 5 |
+| 19.07.2026 | 00:00 | Brezilya Serie B | Atletico Goian | Athletic Club | 16895 | 5 |
 | 18.07.2026 | 11:00 | Avustralya NPL Victoria | Caroline S. | Melbourne City | 09731 | 5 |
-| 18.07.2026 | 22:00 | Ekvador Pro Lig | Deportivo Cuen | Univ Catolica ( | 16704 | 5 |
-| 18.07.2026 | 10:00 | Avustralya NPL Kuzey YGG | Lambton Jaffas | Maitland | 09256 | 3 |
-| 18.07.2026 | 22:00 | Kanada Premier Lig | Cavalry | Hfx Wanderers | 16721 | 5 |
-| 18.07.2026 | 22:00 | Bolivya Premier Lig | Always Ready | Universitario D | 16687 | 2 |
-| 18.07.2026 | 19:00 | İzlanda 2.Lig | Magni | Fjolnir | 16305 | 3 |
+| 19.07.2026 | 07:30 | Avustralya NPL Tazmanya | South East Uni | Launceston Unit | 11771 | 3 |
+| 19.07.2026 | 07:30 | Avustralya NPL Tazmanya | Ulverstone | Glenorchy Knigh | 11825 | 3 |
+| 19.07.2026 | 03:00 | Ekvador Pro Lig | Barcelona Gua | Libertad | 17168 | 5 |
+| 19.07.2026 | 00:30 | Ekvador Pro Lig | Ldu Quito | Leones Del Nort | 16928 | 5 |
 
 ## Sonuc
 
