@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 186
+Toplam analiz: 183
 Tam analiz: 155
-Eksik analiz: 31
+Eksik analiz: 28
 
-- Radomiak Radom VS Pogon Siedlce: eksik score, confidence
 - Marupe VS Metta / Lu: eksik score, confidence
 - Wuppertaler VS M Gladbach: eksik score, confidence
 - Nijmegen VS Al Feiha: eksik score, confidence
@@ -25,3 +24,4 @@ Eksik analiz: 31
 - Fc Giessen VS E.Frankfurt: eksik score, confidence
 - Progreso VS Deportivo Maldo: eksik score, confidence
 - Bumprom VS Arsenal: eksik score, confidence
+- Chrobry Glogow VS Sleza Wroclaw: eksik score, confidence

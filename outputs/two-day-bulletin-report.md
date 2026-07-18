@@ -3,35 +3,14 @@
 Gunler: 2026-07-18 / 2026-07-19
 Kaynak: fixtures.json
 Ham mac: 214
-Aktif mac: 176
-Canli mac: 38
+Aktif mac: 155
+Canli mac: 59
 Biten mac: 0
-Bultenden dusurulen mac: 38
-Bugun: 145
+Bultenden dusurulen mac: 59
+Bugun: 124
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-07-18 16:00 | İsveç Allsvenskan | Aik Stockholm - Gais | scheduled | -
-- 2026-07-18 16:00 | Hazırlık Kulüpler | Falkirk - Genk | scheduled | -
-- 2026-07-18 16:00 | Hazırlık Kulüpler | Northampton - Coventry | scheduled | -
-- 2026-07-18 16:00 | Hazırlık Kulüpler | Dundee - Everton | scheduled | -
-- 2026-07-18 16:00 | İsveç Superettan | Ostersund - Landskrona | scheduled | -
-- 2026-07-18 16:00 | Finlandiya Ykkösliiga | Ekenas If - Japs | scheduled | -
-- 2026-07-18 16:00 | Finlandiya Ykkönen | Pk Keski Uusim - Oulun Ls | scheduled | -
-- 2026-07-18 16:00 | Finlandiya Ykkönen | Tpv Tampere - Kups Ak. | scheduled | -
-- 2026-07-18 16:00 | Kazakistan Premier Lig | Zhenys - Ulytau | scheduled | -
-- 2026-07-18 16:00 | Kazakistan Premier Lig | Kyzyl-Zhar - Tobol Kostanay | scheduled | -
-- 2026-07-18 16:00 | Belarus Kupa Son 32 Turu | Osipovichy - Dnepr Mogilev | scheduled | -
-- 2026-07-18 16:00 | Hazırlık Kulüpler | Cardiff Mu - Brackley Town | scheduled | -
-- 2026-07-18 16:00 | Hazırlık Kulüpler | Lausanne - Yverdon | scheduled | -
-- 2026-07-18 16:00 | Hazırlık Kulüpler | Zwolle - Cercle Brugge | scheduled | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Basel - Juventus | scheduled | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Sportfreunde L - Real Betis | scheduled | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Hartberg - First Vienna | scheduled | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Ajax - Olympiakos | scheduled | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Sf Baumberg - B.Leverkusen | scheduled | -
-- 2026-07-18 16:30 | Belarus Kupa Son 32 Turu | Slonim - Isloch | scheduled | -
-- 2026-07-18 16:30 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | scheduled | -
 - 2026-07-18 17:00 | Finlandiya Veikkausliiga | Oulu - Gnistan | scheduled | -
 - 2026-07-18 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Kuopion | scheduled | -
 - 2026-07-18 17:00 | Norveç Eliteserien | Start - Rosenborg | scheduled | -
@@ -227,6 +206,27 @@ Yarin: 31
 - 2026-07-18 15:00 | Hazırlık Kulüpler | Groningen - Aek | live | -
 - 2026-07-18 15:15 | Hazırlık Kulüpler | Zaglebie Lubin - Chrobry Glogow | live | -
 - 2026-07-18 15:30 | Hazırlık Kulüpler | Luzern - St. Truidense | live | -
+- 2026-07-18 16:00 | İsveç Allsvenskan | Aik Stockholm - Gais | live | -
+- 2026-07-18 16:00 | Hazırlık Kulüpler | Falkirk - Genk | live | -
+- 2026-07-18 16:00 | Hazırlık Kulüpler | Northampton - Coventry | live | -
+- 2026-07-18 16:00 | Hazırlık Kulüpler | Dundee - Everton | live | -
+- 2026-07-18 16:00 | İsveç Superettan | Ostersund - Landskrona | live | -
+- 2026-07-18 16:00 | Finlandiya Ykkösliiga | Ekenas If - Japs | live | -
+- 2026-07-18 16:00 | Finlandiya Ykkönen | Pk Keski Uusim - Oulun Ls | live | -
+- 2026-07-18 16:00 | Finlandiya Ykkönen | Tpv Tampere - Kups Ak. | live | -
+- 2026-07-18 16:00 | Kazakistan Premier Lig | Zhenys - Ulytau | live | -
+- 2026-07-18 16:00 | Kazakistan Premier Lig | Kyzyl-Zhar - Tobol Kostanay | live | -
+- 2026-07-18 16:00 | Belarus Kupa Son 32 Turu | Osipovichy - Dnepr Mogilev | live | -
+- 2026-07-18 16:00 | Hazırlık Kulüpler | Cardiff Mu - Brackley Town | live | -
+- 2026-07-18 16:00 | Hazırlık Kulüpler | Lausanne - Yverdon | live | -
+- 2026-07-18 16:00 | Hazırlık Kulüpler | Zwolle - Cercle Brugge | live | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Basel - Juventus | live | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Sportfreunde L - Real Betis | live | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Hartberg - First Vienna | live | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Ajax - Olympiakos | live | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Sf Baumberg - B.Leverkusen | live | -
+- 2026-07-18 16:30 | Belarus Kupa Son 32 Turu | Slonim - Isloch | live | -
+- 2026-07-18 16:30 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | live | -
 
 ## Biten Maclar
 Biten mac yok.
