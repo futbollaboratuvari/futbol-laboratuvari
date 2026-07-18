@@ -2,68 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-18T13:52:07.406Z
+- Güncelleme: 2026-07-18T14:03:08.689Z
 - Ham maç sayısı: 214
 - Yarın bülteni maç sayısı: 31
 - Detay blok sayısı: 578
-- Aktif bülten maçı: 155
-- Bültenden düşürülen maç: 59
+- Aktif bülten maçı: 103
+- Bültenden düşürülen maç: 111
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Oulu - Gnistan | Finlandiya Veikkausliiga | 17:00 | Veri bekleniyor | - | 2.09 | 8 |
-| Seinajoen Jk - Kuopion | Finlandiya Veikkausliiga | 17:00 | Veri bekleniyor | - | 2.11 | 8 |
-| Start - Rosenborg | Norveç Eliteserien | 17:00 | Veri bekleniyor | - | 2.68 | 8 |
-| Lillestrom - Kfum Oslo | Norveç Eliteserien | 17:00 | Veri bekleniyor | - | 1.41 | 7 |
-| Kristiansund - Sarpsborg | Norveç Eliteserien | 17:00 | Veri bekleniyor | - | 2.71 | 8 |
-| Sutton United - Afc Wimbledon | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.6 | 8 |
-| Celtic - Middlesbrough | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 2.06 | 8 |
-| Nürnberg - Waldhof Mannhei | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.22 | 6 |
-| Gillingham - Charlton | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.51 | 8 |
-| Crewe - Stoke | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.11 | 8 |
-| Notts County - Nottingham F | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 4.52 | 6 |
-| Aarau - Union Berlin | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 4.8 | 6 |
-| Brora Rangers - Queen Of South | İskoçya Lig Kupası Grup A | 17:00 | Veri bekleniyor | - | 4.39 | 7 |
-| Stirling Albio - Montrose | İskoçya Lig Kupası Grup B | 17:00 | Veri bekleniyor | - | 3.1 | 8 |
-| Cove Rangers - St Mirren | İskoçya Lig Kupası Grup C | 17:00 | Veri bekleniyor | - | 6.99 | 6 |
-| East Kilbride - Dumbarton | İskoçya Lig Kupası Grup C | 17:00 | Veri bekleniyor | - | 1.08 | 6 |
-| Airdrieonians - Annan | İskoçya Lig Kupası Grup D | 17:00 | Veri bekleniyor | - | 1.23 | 6 |
-| Ross County - Clyde | İskoçya Lig Kupası Grup D | 17:00 | Veri bekleniyor | - | 1.17 | 6 |
-| Brechin - Stenhousemuir | İskoçya Lig Kupası Grup E | 17:00 | Veri bekleniyor | - | 7.08 | 6 |
-| Livingston - Partick Thistle | İskoçya Lig Kupası Grup E | 17:00 | Veri bekleniyor | - | 1.8 | 8 |
-| Linlithgow Ros - Inverness Ct | İskoçya Lig Kupası Grup F | 17:00 | Veri bekleniyor | - | 7.76 | 6 |
-| St Johnstone - Morton | İskoçya Lig Kupası Grup F | 17:00 | Veri bekleniyor | - | - | 5 |
-| Ayr Utd - Edinburg C. | İskoçya Lig Kupası Grup G | 17:00 | Veri bekleniyor | - | 1.05 | 5 |
-| Alloa - Stranraer | İskoçya Lig Kupası Grup G | 17:00 | Veri bekleniyor | - | 1.34 | 6 |
-| Elgin - Kilmarnock | İskoçya Lig Kupası Grup H | 17:00 | Veri bekleniyor | - | 12.9 | 5 |
-| Hamilton - Raith Rovers | İskoçya Lig Kupası Grup H | 17:00 | Veri bekleniyor | - | 3.14 | 8 |
-| Kotka - Pk-35 Ry | Finlandiya Ykkösliiga | 17:00 | Veri bekleniyor | - | 1.5 | 7 |
-| Inter Turku Ii - Salpa Salo | Finlandiya Ykkönen | 17:00 | Veri bekleniyor | - | 3.85 | 6 |
-| Vjs - Tampere Utd | Finlandiya Ykkönen | 17:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Grindavik - Ir Reykjavik | İzlanda 1.Lig | 17:00 | Veri bekleniyor | - | 1.98 | 6 |
-| Grotta - Aegir | İzlanda 1.Lig | 17:00 | Veri bekleniyor | - | 1.33 | 4 |
-| Trans Narva - Vaprus | Estonya Premium Lig | 17:00 | Veri bekleniyor | - | 2.58 | 5 |
-| Jfk Ventspils - Jdfs Alberts | Letonya 1.Lig | 17:00 | Veri bekleniyor | - | 3.23 | 8 |
-| Kfa - Selfoss | İzlanda 2.Lig | 17:00 | Veri bekleniyor | - | 1.98 | 6 |
-| Niva Dolbizno - Gomel | Belarus Kupa Son 32 Turu | 17:00 | Veri bekleniyor | - | 9.66 | 3 |
-| Truro City - Exeter | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.72 | 7 |
-| Weston-S-Mare - Torquay | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 2.55 | 8 |
-| Matlock Town - Rotherham | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 5.69 | 4 |
-| Linfield - Doncaster | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.9 | 5 |
-| Southend - West Ham | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 6.19 | 4 |
-| Pribram - Fsv Frankfurt | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 2.22 | 6 |
-| Bristol Rovers - Portsmouth | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 2.92 | 8 |
-| Aldershot - Farnborough | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.34 | 4 |
-| York - Sunderland | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 7.41 | 4 |
-| Hanworth Villa - Carshalton Athl | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 2.15 | 8 |
-| Lewes - Hastings United | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.6 | 8 |
-| Warrington Tow - Chester | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.94 | 7 |
-| Aveley - Braintree | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.41 | 5 |
-| Hashtag United - Dagenham & Red | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.63 | 8 |
-| Ramsgate - Maidstone Unite | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.67 | 5 |
-| Lausanne - Yverdon | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.56 | 6 |
-| Palermo - Ingolstadt | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.91 | 8 |
 | Swansea - Holstein Kiel | Hazırlık Kulüpler | 17:30 | Veri bekleniyor | - | 2.51 | 8 |
 | Smorgon - Minsk | Belarus Kupa Son 32 Turu | 17:30 | Veri bekleniyor | - | 11.05 | 2 |
 | Lorient - Nantes | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.8 | 8 |
