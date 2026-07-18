@@ -1,25 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T12:31:24.828423+00:00
+Tarih: 2026-07-18T12:37:37.236136+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 146
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 144
+- Kac mac bulundu: 176
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 176
 - Ham veri havuzu toplam mac sayisi: 2343
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
@@ -33,7 +38,9 @@ Tarih: 2026-07-18T12:31:24.828423+00:00
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -125,6 +132,7 @@ Tarih: 2026-07-18T12:31:24.828423+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Gnistan | 16049 | 5 |
 | 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Kuopion | 16103 | 5 |
 | 18.07.2026 | 17:00 | Norveç Eliteserien | Start | Rosenborg | 15886 | 5 |
@@ -144,7 +152,6 @@ Tarih: 2026-07-18T12:31:24.828423+00:00
 | 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup C | East Kilbride | Dumbarton | 20541 | 5 |
 | 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup D | Airdrieonians | Annan | 20377 | 5 |
 | 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup D | Ross County | Clyde | 20675 | 5 |
-| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup E | Livingston | Partick Thistle | 20642 | 5 |
 
 ## Sonuc
 

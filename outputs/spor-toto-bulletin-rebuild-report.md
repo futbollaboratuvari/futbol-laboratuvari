@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-18T11:36:46.519Z
-- Ham fixture sayisi: 2334
-- Bugun/yarin kaynak mac: 288
-- Aktif bulten maci: 193
+- Guncelleme: 2026-07-18T12:37:39.004Z
+- Ham fixture sayisi: 2336
+- Bugun/yarin kaynak mac: 290
+- Aktif bulten maci: 176
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 95
+- Bultenden dusurulen mac: 114
 
-- 1. 2026-07-18 15:00 | Hazırlık Kulüpler | Barnet - Luton | scheduled
-- 2. 2026-07-18 15:00 | Hazırlık Kulüpler | Bonner Sc - Duisburg | scheduled
-- 3. 2026-07-18 15:00 | Hazırlık Kulüpler | Groningen - Aek | scheduled
-- 4. 2026-07-18 15:00 | Norveç Eliteserien | Ham Kam - Tromso | scheduled
-- 5. 2026-07-18 15:00 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Ningbo | scheduled
-- 6. 2026-07-18 15:00 | Finlandiya Veikkausliiga | Helsinki - Vaasa | scheduled
-- 7. 2026-07-18 15:00 | Hazırlık Kulüpler | Hibernian - Brondby | scheduled
-- 8. 2026-07-18 15:00 | Hazırlık Kulüpler | Liefering - Wehen | scheduled
-- 9. 2026-07-18 15:00 | Letonya 1.Lig | Marupe - Metta / Lu | scheduled
-- 10. 2026-07-18 15:00 | Hazırlık Kulüpler | Mechelen - Den Haag | scheduled
-- 11. 2026-07-18 15:00 | Hazırlık Kulüpler | Nijmegen - Al Feiha | scheduled
-- 12. 2026-07-18 15:00 | Kazakistan Premier Lig | Okzhetpes - Zhetysu | scheduled
-- 13. 2026-07-18 15:00 | Hazırlık Kulüpler | Wigan - Port Vale | scheduled
-- 14. 2026-07-18 15:00 | Hazırlık Kulüpler | Wolfsburg - Verl 1924 | scheduled
-- 15. 2026-07-18 15:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shenzhen Peng | scheduled
+- 1. 2026-07-18 16:00 | İsveç Allsvenskan | Aik Stockholm - Gais | scheduled
+- 2. 2026-07-18 16:00 | Hazırlık Kulüpler | Cardiff Mu - Brackley Town | scheduled
+- 3. 2026-07-18 16:00 | Hazırlık Kulüpler | Dundee - Everton | scheduled
+- 4. 2026-07-18 16:00 | Finlandiya Ykkösliiga | Ekenas If - Japs | scheduled
+- 5. 2026-07-18 16:00 | Hazırlık Kulüpler | Falkirk - Genk | scheduled
+- 6. 2026-07-18 16:00 | Kazakistan Premier Lig | Kyzyl-Zhar - Tobol Kostanay | scheduled
+- 7. 2026-07-18 16:00 | Hazırlık Kulüpler | Lausanne - Yverdon | scheduled
+- 8. 2026-07-18 16:00 | Hazırlık Kulüpler | Northampton - Coventry | scheduled
+- 9. 2026-07-18 16:00 | Belarus Kupa Son 32 Turu | Osipovichy - Dnepr Mogilev | scheduled
+- 10. 2026-07-18 16:00 | İsveç Superettan | Ostersund - Landskrona | scheduled
+- 11. 2026-07-18 16:00 | Finlandiya Ykkönen | Pk Keski Uusim - Oulun Ls | scheduled
+- 12. 2026-07-18 16:00 | Finlandiya Ykkönen | Tpv Tampere - Kups Ak. | scheduled
+- 13. 2026-07-18 16:00 | Kazakistan Premier Lig | Zhenys - Ulytau | scheduled
+- 14. 2026-07-18 16:00 | Hazırlık Kulüpler | Zwolle - Cercle Brugge | scheduled
+- 15. 2026-07-18 16:30 | Hazırlık Kulüpler | Ajax - Olympiakos | scheduled
