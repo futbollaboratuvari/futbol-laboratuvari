@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 10:21:43
+Oluşturma: 18.07.2026 10:26:37
 
 ## Özet
 
-- Toplam tahmin: 110
-- Bekleyen tahmin: 110
+- Toplam tahmin: 118
+- Bekleyen tahmin: 118
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 37
@@ -20,12 +20,20 @@ Oluşturma: 18.07.2026 10:21:43
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
+- MS X: toplam 73, bekleyen 73, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
-- MS X: toplam 68, bekleyen 68, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Osijek - Budapest Honved | MS 2 | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Weston-S-Mare - Torquay | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Barnet - Luton | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Zaglebie Lubin - Chrobry Glogow | MS 2 | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Hillerod - Lyngby | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Fc Andorra - Stevenage | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Braga - Celta Vigo | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Crystal Palace - Swindon | MS 2 | pending | 40/100
 - 2026-07-18 | Hazırlık Kulüpler | Alaves - Eibar | MS 2 | pending | 40/100
@@ -33,12 +41,4 @@ Oluşturma: 18.07.2026 10:21:43
 - 2026-07-18 | Letonya 1.Lig | Jfk Ventspils - Jdfs Alberts | MS X | pending | 45/100
 - 2026-07-18 | Hazırlık Kulüpler | Hartberg - First Vienna | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Crewe - Stoke | MS 1 | pending | 40/100
-- 2026-07-18 | Hazırlık Kulüpler | Basel - Juventus | MS 1 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Wigan - Port Vale | MS X | pending | 40/100
-- 2026-07-18 | Kazakistan Premier Lig | Kaisar - Kaspyi | MS X | pending | 40/100
-- 2026-07-18 | Romanya 1.Lig | Otelul Galati - Cfr Cluj | MS X | pending | 40/100
-- 2026-07-18 | Finlandiya Ykkönen | Jyvaskyla - Fc Jazz | MS 2 | pending | 40/100
-- 2026-07-18 | Norveç Eliteserien | Viking - Sandefjord | MS X | pending | 40/100
-- 2026-07-18 | Norveç Eliteserien | Molde - Brann | MS X | pending | 60/100
-- 2026-07-18 | Bulgaristan 1.Lig | Septemvri Sofi - Arda Kardzhali | MS 1 | pending | 40/100
 
