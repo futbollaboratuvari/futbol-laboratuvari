@@ -1,30 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T15:12:54.777818+00:00
+Tarih: 2026-07-18T15:17:55.129144+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 98
+- Kac mac bulundu: 67
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 98
+- Kac mac zaten vardi: 67
 - Ham veri havuzu toplam mac sayisi: 2343
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
-- ABD USL Lig 1
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
-- Avustralya Victoria NPL 1
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
 - Finlandiya Ykkönen
@@ -34,9 +29,7 @@ Tarih: 2026-07-18T15:12:54.777818+00:00
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -121,7 +114,6 @@ Tarih: 2026-07-18T15:12:54.777818+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 19:00 | Norveç Eliteserien | Viking | Sandefjord | 16481 | 5 |
 | 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
 | 18.07.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Partizan Belgra | 12609 | 5 |
@@ -141,6 +133,7 @@ Tarih: 2026-07-18T15:12:54.777818+00:00
 | 18.07.2026 | 13:00 | Hazırlık Kulüpler | Radomiak Radom | Pogon Siedlce | 06164 | 3 |
 | 18.07.2026 | 18:00 | Hazırlık Kulüpler | Fc Giessen | E.Frankfurt | 02941 | 2 |
 | 18.07.2026 | 11:00 | Hazırlık Kulüpler | Segesta | Karlovac | 06054 | 3 |
+| 18.07.2026 | 20:00 | Hazırlık Kulüpler | Rapid Wien | Hamburg | 21995 | 5 |
 
 ## Sonuc
 
