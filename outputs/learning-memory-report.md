@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 08:56:51
+Oluşturma: 18.07.2026 09:32:07
 
 ## Özet
 
-- Toplam tahmin: 108
-- Bekleyen tahmin: 108
+- Toplam tahmin: 109
+- Bekleyen tahmin: 109
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 37
@@ -20,12 +20,13 @@ Oluşturma: 18.07.2026 08:56:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS X: toplam 68, bekleyen 68, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Hazırlık Kulüpler | Crystal Palace - Swindon | MS 2 | pending | 40/100
 - 2026-07-18 | Hazırlık Kulüpler | Alaves - Eibar | MS 2 | pending | 40/100
 - 2026-07-18 | Güney Kore K Lig 1 | Incheon Utd - Jeonbuk Hm | MS 1 | pending | 40/100
 - 2026-07-18 | Letonya 1.Lig | Jfk Ventspils - Jdfs Alberts | MS X | pending | 45/100
@@ -40,5 +41,4 @@ Oluşturma: 18.07.2026 08:56:51
 - 2026-07-18 | Norveç Eliteserien | Molde - Brann | MS X | pending | 60/100
 - 2026-07-18 | Bulgaristan 1.Lig | Septemvri Sofi - Arda Kardzhali | MS 1 | pending | 40/100
 - 2026-07-18 | Slovenya 1.SNL | Radomlje - Nk Brinje Grosu | MS X | pending | 50/100
-- 2026-07-18 | ABD USL | Pittsburgh Riv - Louisville City | MS X | pending | 40/100
 
