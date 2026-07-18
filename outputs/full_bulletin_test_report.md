@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 103
-- Live match count: 75
-- Finished removed count: 17
+- Scheduled match count: 86
+- Live match count: 76
+- Finished removed count: 0
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-18 15:15 | Zaglebie Lubin - Chrobry Glogow | live
-- 2026-07-18 15:30 | Luzern - St. Truidense | live
-- 2026-07-18 16:00 | Osipovichy - Dnepr Mogilev | live
-- 2026-07-18 16:00 | Pk Keski Uusim - Oulun Ls | live
-- 2026-07-18 16:00 | Tpv Tampere - Kups Ak. | live
-- 2026-07-18 16:00 | Ekenas If - Japs | live
-- 2026-07-18 16:00 | Cardiff Mu - Brackley Town | live
-- 2026-07-18 16:00 | Dundee - Everton | live
-- 2026-07-18 16:00 | Falkirk - Genk | live
-- 2026-07-18 16:00 | Lausanne - Yverdon | live
+- 2026-07-18 16:30 | Slonim - Isloch | live
+- 2026-07-18 16:30 | Ajax - Olympiakos | live
+- 2026-07-18 16:30 | Basel - Juventus | live
+- 2026-07-18 16:30 | Hartberg - First Vienna | live
+- 2026-07-18 16:30 | Lask Linz - Fortuna Düsseld | live
+- 2026-07-18 16:30 | Sf Baumberg - B.Leverkusen | live
+- 2026-07-18 16:30 | Sportfreunde L - Real Betis | live
+- 2026-07-18 17:00 | Niva Dolbizno - Gomel | live
+- 2026-07-18 17:00 | Trans Narva - Vaprus | live
+- 2026-07-18 17:00 | Oulu - Gnistan | live
