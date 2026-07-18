@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 49
-- Live match count: 38
+- Scheduled match count: 45
+- Live match count: 36
 - Finished removed count: 0
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-18 18:30 | Bumprom - Arsenal | live
-- 2026-07-18 18:30 | Jyvaskyla - Fc Jazz | live
-- 2026-07-18 18:30 | Chrobry Glogow - Sleza Wroclaw | live
-- 2026-07-18 18:30 | Gks Tychy - Trinec | live
-- 2026-07-18 18:30 | Otelul Galati - Cfr Cluj | live
-- 2026-07-18 18:30 | Progreso - Deportivo Maldo | live
 - 2026-07-18 19:00 | Pittsburgh Riv - Louisville City | live
 - 2026-07-18 19:00 | Septemvri Sofi - Arda Kardzhali | live
 - 2026-07-18 19:00 | Amal Tiznit - Olympique Dchei | live
 - 2026-07-18 19:00 | Blau-Weiss Lin - Braunschweig | live
+- 2026-07-18 19:00 | Brest - Concarneau | live
+- 2026-07-18 19:00 | Le Mans - La Roche-Sur-Yo | live
+- 2026-07-18 19:00 | Monza - Pro Vercelli | live
+- 2026-07-18 19:00 | Nice - Nimes | live
+- 2026-07-18 19:00 | Santander - Real Sociedad | live
+- 2026-07-18 19:00 | Schwaz - Innsbrucke | live
