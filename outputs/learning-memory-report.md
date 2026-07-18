@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.07.2026 01:36:36
+Oluşturma: 19.07.2026 02:08:31
 
 ## Özet
 
-- Toplam tahmin: 191
-- Bekleyen tahmin: 191
+- Toplam tahmin: 192
+- Bekleyen tahmin: 192
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 43
@@ -20,12 +20,13 @@ Oluşturma: 19.07.2026 01:36:36
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 103, bekleyen 103, başarı bekleniyor, ağırlık 1
+- MS X: toplam 104, bekleyen 104, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 69, bekleyen 69, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-19 | Rusya FNL | Kamaz - Olimpiyets | MS X | pending | 40/100
 - 2026-07-19 | Moldova Ulusal Lig | Petrocub - Sheriff Tiraspo | MS X | pending | 40/100
 - 2026-07-19 | Avustralya NPL Yeni Güney Galler | Blacktown City - St George City | MS X | pending | 50/100
 - 2026-07-19 | Avustralya NPL Yeni Güney Galler | Marconi - Sydney United | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 19.07.2026 01:36:36
 - 2026-07-19 | Rusya FNL | Kamaz - Olimpiyets | MS 1 | pending | 40/100
 - 2026-07-19 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | MS 1 | pending | 45/100
 - 2026-07-19 | Rusya FNL | Veles - Chelyabinsk | MS X | pending | 40/100
-- 2026-07-19 | Rusya FNL | Shinnik Yarosl - Leningradets | MS 2 | pending | 40/100
 

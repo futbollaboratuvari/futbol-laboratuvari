@@ -3,22 +3,14 @@
 Gunler: 2026-07-19 / 2026-07-20
 Kaynak: fixtures.json
 Ham mac: 92
-Aktif mac: 88
-Canli mac: 4
+Aktif mac: 80
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 84
+Bultenden dusurulen mac: 12
+Bugun: 76
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-19 02:00 | Meksika Liga MX Apertura | Pumas Unam - Pachuca | scheduled | -
-- 2026-07-19 02:00 | ABD USL | Detroit City - Indy Eleven | scheduled | -
-- 2026-07-19 02:00 | ABD USL | Sporting Jax - Brooklyn | scheduled | -
-- 2026-07-19 02:00 | ABD USL | Loudoun United - Tampa Bay Rowdi | scheduled | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | New York Cosmo - Corpus Christi | scheduled | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | scheduled | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | Union Omaha - Westchester Sc | scheduled | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | Richmond Kicke - Spokane Velocit | scheduled | -
 - 2026-07-19 02:30 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | scheduled | -
 - 2026-07-19 02:30 | ABD USL | Rhode Island - Hartford Athlet | scheduled | -
 - 2026-07-19 02:30 | ABD USL | Charleston Bat - Sacramento Repu | scheduled | -
@@ -105,6 +97,14 @@ Yarin: 4
 - 2026-07-19 00:00 | Brezilya Serie B | Atletico Goian - Athletic Club | live | -
 - 2026-07-19 00:30 | Ekvador Pro Lig | Ldu Quito - Leones Del Nort | live | -
 - 2026-07-19 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Walter Ferretti | live | -
+- 2026-07-19 02:00 | Meksika Liga MX Apertura | Pumas Unam - Pachuca | live | -
+- 2026-07-19 02:00 | ABD USL | Detroit City - Indy Eleven | live | -
+- 2026-07-19 02:00 | ABD USL | Sporting Jax - Brooklyn | live | -
+- 2026-07-19 02:00 | ABD USL | Loudoun United - Tampa Bay Rowdi | live | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | New York Cosmo - Corpus Christi | live | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | live | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | Union Omaha - Westchester Sc | live | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | Richmond Kicke - Spokane Velocit | live | -
 
 ## Biten Maclar
 Biten mac yok.
