@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 196
-Tam analiz: 0
-Eksik analiz: 196
+Toplam analiz: 169
+Tam analiz: 149
+Eksik analiz: 20
 
-- San Lorenzo VS Riestra: eksik score, confidence
-- America Mineir VS Ceara: eksik score, confidence
-- Sao Bernardo VS Avai: eksik score, confidence
-- Juventude VS Cuiaba: eksik score, confidence
-- Bahia VS Chapecoense: eksik score, confidence
-- Ferro Carril O VS Colon Santa Fe: eksik score, confidence
-- Nacional Df VS Montevideo Wand: eksik score, confidence
-- Mirassol VS Gremio: eksik score, confidence
-- Fluminense VS Bragantino: eksik score, confidence
-- Ciudad De Bolí VS All Boys: eksik score, confidence
-- Atletico Ottaw VS Inter Toronto: eksik score, confidence
-- Supra Du Québe VS Vancouver Fc: eksik score, confidence
-- Vermont Green VS Ironbound: eksik score, confidence
-- Atl Temperley VS Rafaela: eksik score, confidence
-- Michigan Bucks VS Buffalo: eksik score, confidence
-- Ventura Countr VS Project 51o: eksik score, confidence
-- Londrina VS Botafogo Ribeir: eksik score, confidence
-- Fortaleza Ce VS Novorizontino: eksik score, confidence
-- Delfin VS Depor Macara: eksik score, confidence
-- Bolivar VS Guabira: eksik score, confidence
+- Cooks Hill Uni VS Broadmeadow Mag: eksik score, confidence
+- San Francisco VS Fc Tucson: eksik score, confidence
+- Cooks Hill Uni VS Broadmeadow Mag: eksik score, confidence
+- Gold Coast Uni VS Queensland Lion: eksik score, confidence
+- Adelaide City VS Croydon Kings: eksik score, confidence
+- Avondale Heigh VS St. Albans Sain: eksik score, confidence
+- Gold Coast Kni VS Brisbane Wolves: eksik score, confidence
+- Weston Bears VS Kahibah: eksik score, confidence
+- Eastern Suburb VS Magic United: eksik score, confidence
+- Monaco VS Saint Priest: eksik score, confidence
+- Marupe VS Metta / Lu: eksik score, confidence
+- Sportfreunde L VS Real Betis: eksik score, confidence
+- Hartberg VS First Vienna: eksik score, confidence
+- Grotta VS Aegir: eksik score, confidence
+- Progreso VS Deportivo Maldo: eksik score, confidence
+- Kauno Zalgiris VS Fa Siauliai: eksik score, confidence
+- Thor Akureyri VS Vikingur Reykja: eksik score, confidence
+- Skanste VS Valmieras Fk/Bs: eksik score, confidence
+- Magni VS Fjolnir: eksik score, confidence
+- Ponte Preta VS Goias: eksik score, confidence
