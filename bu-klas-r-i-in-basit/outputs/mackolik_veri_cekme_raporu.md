@@ -1,25 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T14:04:15.868167+00:00
+Tarih: 2026-07-18T14:07:52.142838+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 98
+- Kac mac bulundu: 112
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 98
+- Kac mac zaten vardi: 112
 - Ham veri havuzu toplam mac sayisi: 2343
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
 - Finlandiya Ykkönen
@@ -30,7 +35,9 @@ Tarih: 2026-07-18T14:04:15.868167+00:00
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -41,10 +48,6 @@ Tarih: 2026-07-18T14:04:15.868167+00:00
 - Uruguay Premier Lig Intermediate Turu Grup 2
 - İskoçya Lig Kupası Grup A
 - İskoçya Lig Kupası Grup B
-- İskoçya Lig Kupası Grup C
-- İskoçya Lig Kupası Grup F
-- İskoçya Lig Kupası Grup G
-- İskoçya Lig Kupası Grup H
 - İsveç Superettan
 - İzlanda 1.Lig
 - İzlanda 2.Lig
@@ -105,8 +108,8 @@ Tarih: 2026-07-18T14:04:15.868167+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 48
-- Acilan detay: 48
+- Denenen Tumu alani: 44
+- Acilan detay: 44
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -119,7 +122,7 @@ Tarih: 2026-07-18T14:04:15.868167+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 18.07.2026 | 17:00 | Norveç Eliteserien | Start | Rosenborg | 15886 | 5 |
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
 | 18.07.2026 | 19:00 | Norveç Eliteserien | Viking | Sandefjord | 16481 | 5 |
 | 18.07.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Radnicki 1923 | 05451 | 5 |
@@ -127,18 +130,18 @@ Tarih: 2026-07-18T14:04:15.868167+00:00
 | 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
 | 18.07.2026 | 19:00 | İskoçya Lig Kupası Grup A | Aberdeen | Queens Park | 10070 | 5 |
 | 18.07.2026 | 21:00 | İskoçya Lig Kupası Grup B | Dundee Utd | Arbroath | 12567 | 5 |
-| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup C | East Kilbride | Dumbarton | 20541 | 5 |
-| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup F | Linlithgow Ros | Inverness Ct | 20609 | 5 |
-| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup G | Alloa | Stranraer | 20410 | 5 |
-| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup G | Ayr Utd | Edinburg C. | 20443 | 4 |
-| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup H | Hamilton | Raith Rovers | 20607 | 5 |
+| 18.07.2026 | 18:00 | Hazırlık Kulüpler | Amiens | Quevilly-Rouen | 09213 | 5 |
+| 18.07.2026 | 19:30 | Hazırlık Kulüpler | Petro Atletico | Valencia | 10012 | 5 |
+| 18.07.2026 | 17:00 | Hazırlık Kulüpler | Ramsgate | Maidstone Unite | 08322 | 3 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Brest | Concarneau | 21991 | 5 |
+| 18.07.2026 | 17:30 | Hazırlık Kulüpler | Swansea | Holstein Kiel | 09948 | 5 |
+| 18.07.2026 | 18:00 | Hazırlık Kulüpler | Lorient | Nantes | 01072 | 5 |
+| 18.07.2026 | 18:30 | Hazırlık Kulüpler | Chrobry Glogow | Sleza Wroclaw | 09184 | 3 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Santander | Real Sociedad | 05432 | 5 |
+| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Blau-Weiss Lin | Braunschweig | 09305 | 3 |
 | 18.07.2026 | 21:30 | Hazırlık Kulüpler | Braga | Celta Vigo | 21997 | 5 |
-| 18.07.2026 | 17:00 | Hazırlık Kulüpler | Aarau | Union Berlin | 07039 | 5 |
 | 18.07.2026 | 15:00 | Hazırlık Kulüpler | Groningen | Aek | 08862 | 5 |
 | 18.07.2026 | 17:00 | Hazırlık Kulüpler | Notts County | Nottingham F | 07832 | 5 |
-| 18.07.2026 | 17:00 | Hazırlık Kulüpler | Aveley | Braintree | 07461 | 3 |
-| 18.07.2026 | 18:00 | Hazırlık Kulüpler | Man. Utd | Wrexham | 21131 | 5 |
-| 18.07.2026 | 18:00 | Hazırlık Kulüpler | Stade Lavalloi | Caen | 09137 | 5 |
 
 ## Sonuc
 
