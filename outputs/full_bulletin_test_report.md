@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 103
-- Live match count: 92
-- Finished removed count: 0
+- Live match count: 75
+- Finished removed count: 17
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-18 15:00 | Heilongjiang L - Ningbo | live
-- 2026-07-18 15:00 | Wuhan Three To - Shenzhen Peng | live
-- 2026-07-18 15:00 | Helsinki - Vaasa | live
-- 2026-07-18 15:00 | Barnet - Luton | live
-- 2026-07-18 15:00 | Bonner Sc - Duisburg | live
-- 2026-07-18 15:00 | Groningen - Aek | live
-- 2026-07-18 15:00 | Hibernian - Brondby | live
-- 2026-07-18 15:00 | Liefering - Wehen | live
-- 2026-07-18 15:00 | Mechelen - Den Haag | live
-- 2026-07-18 15:00 | Nijmegen - Al Feiha | live
+- 2026-07-18 15:15 | Zaglebie Lubin - Chrobry Glogow | live
+- 2026-07-18 15:30 | Luzern - St. Truidense | live
+- 2026-07-18 16:00 | Osipovichy - Dnepr Mogilev | live
+- 2026-07-18 16:00 | Pk Keski Uusim - Oulun Ls | live
+- 2026-07-18 16:00 | Tpv Tampere - Kups Ak. | live
+- 2026-07-18 16:00 | Ekenas If - Japs | live
+- 2026-07-18 16:00 | Cardiff Mu - Brackley Town | live
+- 2026-07-18 16:00 | Dundee - Everton | live
+- 2026-07-18 16:00 | Falkirk - Genk | live
+- 2026-07-18 16:00 | Lausanne - Yverdon | live

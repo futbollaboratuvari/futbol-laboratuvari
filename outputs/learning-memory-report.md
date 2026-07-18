@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 17:08:52
+Oluşturma: 18.07.2026 17:15:38
 
 ## Özet
 
-- Toplam tahmin: 139
-- Bekleyen tahmin: 139
+- Toplam tahmin: 140
+- Bekleyen tahmin: 140
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 38
@@ -20,13 +20,14 @@ Oluşturma: 18.07.2026 17:08:52
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
 - MS X: toplam 86, bekleyen 86, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-18 | Hazırlık Kulüpler | Aarau - Union Berlin | MS X | pending | 40/100
+- 2026-07-18 | İskoçya Lig Kupası Grup G | Alloa - Stranraer | MS 2 | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Aarau - Union Berlin | MS X | pending | 55/100
 - 2026-07-18 | İskoçya Lig Kupası Grup C | East Kilbride - Dumbarton | MS 2 | pending | 40/100
 - 2026-07-18 | İskoçya Lig Kupası Grup G | Ayr Utd - Edinburg C. | MS X | pending | 60/100
 - 2026-07-18 | Hazırlık Kulüpler | Nice - Nimes | MS X | pending | 95/100
@@ -40,5 +41,4 @@ Oluşturma: 18.07.2026 17:08:52
 - 2026-07-18 | Hazırlık Kulüpler | Hanworth Villa - Carshalton Athl | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Lewes - Hastings United | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Amiens - Quevilly-Rouen | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Cardiff Mu - Brackley Town | MS X | pending | 50/100
 
