@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-18T18:07:23.108Z
+- Güncelleme: 2026-07-18T18:27:23.332Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -49,8 +49,8 @@
 | Dundee Utd VS Arbroath | İskoçya Lig Kupası Grup B | 21:00 | MS 2 | 4.65 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Ludogorets VS Lokomotiv Plovd | Bulgaristan 1.Lig | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Universitatea VS Uta Arad | Romanya 1.Lig | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Adt VS Universitario | Peru Premier Lig Clausura | 21:15 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Olimpija Ljubl VS Ask Bravo | Slovenya 1.SNL | 21:15 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Adt VS Universitario | Peru Premier Lig Clausura | 21:15 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Olimpija Ljubl VS Ask Bravo | Slovenya 1.SNL | 21:15 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Braga VS Celta Vigo | Hazırlık Kulüpler | 21:30 | MS 2 | 4.32 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Penarol VS Boston River | Uruguay Premier Lig Intermediate Turu Grup 1 | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sport Recife VS Operario | Brezilya Serie B | 22:00 | MS 2 | 3.45 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

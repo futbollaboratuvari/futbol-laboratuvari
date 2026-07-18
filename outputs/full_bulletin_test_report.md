@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 45
-- Live match count: 36
-- Finished removed count: 0
+- Scheduled match count: 41
+- Live match count: 19
+- Finished removed count: 21
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-18 19:00 | Pittsburgh Riv - Louisville City | live
-- 2026-07-18 19:00 | Septemvri Sofi - Arda Kardzhali | live
-- 2026-07-18 19:00 | Amal Tiznit - Olympique Dchei | live
-- 2026-07-18 19:00 | Blau-Weiss Lin - Braunschweig | live
-- 2026-07-18 19:00 | Brest - Concarneau | live
-- 2026-07-18 19:00 | Le Mans - La Roche-Sur-Yo | live
-- 2026-07-18 19:00 | Monza - Pro Vercelli | live
-- 2026-07-18 19:00 | Nice - Nimes | live
-- 2026-07-18 19:00 | Santander - Real Sociedad | live
-- 2026-07-18 19:00 | Schwaz - Innsbrucke | live
+- 2026-07-18 19:30 | Uni Minsk - Baranovichi | live
+- 2026-07-18 19:30 | Petro Atletico - Valencia | live
+- 2026-07-18 19:30 | Zenit - Spartak Moskova | live
+- 2026-07-18 20:00 | Alaves - Eibar | live
+- 2026-07-18 20:00 | Kaizer Chiefs - Elche | live
+- 2026-07-18 20:00 | Marino De Luan - Sporting Gijon | live
+- 2026-07-18 20:00 | Opatija - Austria Salzbur | live
+- 2026-07-18 20:00 | Osijek - Budapest Honved | live
+- 2026-07-18 20:00 | Rapid Wien - Hamburg | live
+- 2026-07-18 20:00 | Kormakur - Dalvik | live

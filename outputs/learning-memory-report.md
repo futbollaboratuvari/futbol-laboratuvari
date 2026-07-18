@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 21:07:41
+Oluşturma: 18.07.2026 21:27:43
 
 ## Özet
 
-- Toplam tahmin: 140
-- Bekleyen tahmin: 140
+- Toplam tahmin: 141
+- Bekleyen tahmin: 141
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 38
@@ -20,12 +20,13 @@ Oluşturma: 18.07.2026 21:07:41
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
 - MS X: toplam 86, bekleyen 86, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Romanya 1.Lig | Universitatea - Uta Arad | MS 2 | pending | 60/100
 - 2026-07-18 | İskoçya Lig Kupası Grup G | Alloa - Stranraer | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Aarau - Union Berlin | MS X | pending | 55/100
 - 2026-07-18 | İskoçya Lig Kupası Grup C | East Kilbride - Dumbarton | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 18.07.2026 21:07:41
 - 2026-07-18 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Hanworth Villa - Carshalton Athl | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Lewes - Hastings United | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Amiens - Quevilly-Rouen | MS X | pending | 50/100
 
