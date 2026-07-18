@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 15:38:56
+Oluşturma: 18.07.2026 15:46:47
 
 ## Özet
 
-- Toplam tahmin: 136
-- Bekleyen tahmin: 136
+- Toplam tahmin: 137
+- Bekleyen tahmin: 137
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 37
+- Lig sayısı: 38
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 18.07.2026 15:38:56
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
+- MS X: toplam 85, bekleyen 85, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 39, bekleyen 39, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | İskoçya Lig Kupası Grup G | Ayr Utd - Edinburg C. | MS X | pending | 60/100
 - 2026-07-18 | Hazırlık Kulüpler | Nice - Nimes | MS X | pending | 95/100
 - 2026-07-18 | Kazakistan Premier Lig | Kaisar - Kaspyi | MS 2 | pending | 40/100
 - 2026-07-18 | Kazakistan Premier Lig | Kyzyl-Zhar - Tobol Kostanay | MS 1 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 18.07.2026 15:38:56
 - 2026-07-18 | Hazırlık Kulüpler | Cardiff Mu - Brackley Town | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Groningen - Aek | MS X | pending | 40/100
 - 2026-07-18 | Hazırlık Kulüpler | Orleans - Paris 13 Atleti | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Legia Varşova - Pogon Grodzisk | MS 2 | pending | 60/100
 
