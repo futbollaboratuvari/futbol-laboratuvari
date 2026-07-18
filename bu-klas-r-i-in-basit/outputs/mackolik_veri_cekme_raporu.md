@@ -1,34 +1,36 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T10:03:45.619631+00:00
+Tarih: 2026-07-18T10:40:20.564099+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 181
-- Kac mac kaydedildi: 14
-- Kac mac zaten vardi: 167
-- Ham veri havuzu toplam mac sayisi: 2334
+- Kac mac bulundu: 198
+- Kac mac kaydedildi: 3
+- Kac mac zaten vardi: 195
+- Ham veri havuzu toplam mac sayisi: 2337
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
-- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
 - Kanada Premier Lig
 - Kazakistan Premier Lig
@@ -36,7 +38,9 @@ Tarih: 2026-07-18T10:03:45.619631+00:00
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -116,8 +120,8 @@ Tarih: 2026-07-18T10:03:45.619631+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 59
-- Acilan detay: 59
+- Denenen Tumu alani: 56
+- Acilan detay: 56
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -130,26 +134,26 @@ Tarih: 2026-07-18T10:03:45.619631+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
-| 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Gnistan | 16049 | 5 |
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 15:00 | Finlandiya Veikkausliiga | Helsinki | Vaasa | 15501 | 5 |
 | 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Kuopion | 16103 | 5 |
-| 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
+| 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Gnistan | 16049 | 5 |
 | 18.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Sarpsborg | 15940 | 5 |
-| 18.07.2026 | 17:00 | Norveç Eliteserien | Lillestrom | Kfum Oslo | 15995 | 5 |
-| 18.07.2026 | 19:00 | Norveç Eliteserien | Viking | Sandefjord | 16481 | 5 |
 | 18.07.2026 | 17:00 | Norveç Eliteserien | Start | Rosenborg | 15886 | 5 |
+| 18.07.2026 | 17:00 | Norveç Eliteserien | Lillestrom | Kfum Oslo | 15995 | 5 |
+| 18.07.2026 | 19:00 | Norveç Eliteserien | Molde | Brann | 16323 | 5 |
 | 18.07.2026 | 15:00 | Norveç Eliteserien | Ham Kam | Tromso | 15555 | 5 |
+| 18.07.2026 | 19:00 | Norveç Eliteserien | Viking | Sandefjord | 16481 | 5 |
 | 18.07.2026 | 16:00 | İsveç Allsvenskan | Aik Stockholm | Gais | 15626 | 5 |
-| 18.07.2026 | 18:30 | Hazırlık Kulüpler | Chrobry Glogow | Sleza Wroclaw | 09184 | 3 |
-| 18.07.2026 | 19:00 | Hazırlık Kulüpler | Le Mans | La Roche-Sur-Yo | 09337 | 3 |
-| 18.07.2026 | 13:00 | Hazırlık Kulüpler | Ruzomberok | Teplice | 14174 | 5 |
-| 18.07.2026 | 15:00 | Hazırlık Kulüpler | Wigan | Port Vale | 03480 | 5 |
-| 18.07.2026 | 15:15 | Hazırlık Kulüpler | Zaglebie Lubin | Chrobry Glogow | 06522 | 5 |
-| 18.07.2026 | 16:30 | Hazırlık Kulüpler | Hartberg | First Vienna | 11719 | 5 |
-| 18.07.2026 | 17:00 | Hazırlık Kulüpler | Hanworth Villa | Carshalton Athl | 07754 | 5 |
-| 18.07.2026 | 17:30 | Hazırlık Kulüpler | Swansea | Holstein Kiel | 09948 | 5 |
-| 18.07.2026 | 18:00 | Hazırlık Kulüpler | Oberhausen | B.Dortmund | 09054 | 2 |
+| 18.07.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Radnicki 1923 | 05451 | 5 |
+| 18.07.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Partizan Belgra | 12609 | 5 |
+| 18.07.2026 | 19:30 | Rusya Süper Kupa | Zenit | Spartak Moskova | 16537 | 5 |
+| 18.07.2026 | 14:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong | Zhejiang G. Fc | 10862 | 5 |
+| 18.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh | Tianjin Teda | 11074 | 5 |
+| 18.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing | Shandong Taisha | 11017 | 5 |
+| 18.07.2026 | 15:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To | Shenzhen Peng | 11231 | 5 |
+| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Brora Rangers | Queen Of South | 20509 | 5 |
+| 18.07.2026 | 19:00 | İskoçya Lig Kupası Grup A | Aberdeen | Queens Park | 10070 | 5 |
 
 ## Sonuc
 

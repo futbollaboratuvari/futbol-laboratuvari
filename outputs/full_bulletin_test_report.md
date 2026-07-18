@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 196
-- Live match count: 18
-- Finished removed count: 0
+- Scheduled match count: 201
+- Live match count: 16
+- Finished removed count: 2
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
-- 2026-07-18 10:00 | Balcatta - Stirling Lions | live
-- 2026-07-18 10:00 | Perth Glory Ii - Armadale | live
-- 2026-07-18 10:00 | Perth Redstar - Fremantle City | live
-- 2026-07-18 10:00 | Rochedale Rove - Brisbane City | live
-- 2026-07-18 10:00 | North Geelong - Melbourne Victo | live
-- 2026-07-18 10:15 | Unsw Fc - Nws Spirit | live
-- 2026-07-18 10:30 | Sutherland Sha - Sydney Olympic | live
-- 2026-07-18 11:00 | Eastern Suburb - Magic United | live
-- 2026-07-18 11:00 | Caroline S. - Melbourne City | live
-- 2026-07-18 11:00 | Wollongong Wol - Sd Raiders | live
+- 2026-07-18 12:00 | Dianella White - Olympic Kingswa | live
+- 2026-07-18 12:00 | Fc Andorra - Stevenage | live
+- 2026-07-18 12:00 | Fremad Amager - Roskilde | live
+- 2026-07-18 12:00 | Orleans - Paris 13 Atleti | live
+- 2026-07-18 13:00 | Dangjin Citize - Jeonbuk Motors | live
+- 2026-07-18 13:00 | Bologna - Arminia Bielefe | live
+- 2026-07-18 13:00 | Ruzomberok - Teplice | live
+- 2026-07-18 13:00 | Leevon / Ppk - Riga Mariners | live
+- 2026-07-18 13:30 | Daejeon Citize - Ulsan | live
+- 2026-07-18 13:30 | Gangwon - Gimcheon Sangmu | live
