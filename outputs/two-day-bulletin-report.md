@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-18 / 2026-07-19
 Kaynak: fixtures.json
-Ham mac: 227
+Ham mac: 228
 Aktif mac: 205
-Canli mac: 22
-Biten mac: 0
-Bultenden dusurulen mac: 22
+Canli mac: 18
+Biten mac: 5
+Bultenden dusurulen mac: 23
 Bugun: 174
 Yarin: 31
 
@@ -218,10 +218,6 @@ Yarin: 31
 - 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-07-18 00:45 | Arjantin Kupa Son 32 Turu | San Lorenzo - Riestra | live | -
-- 2026-07-18 01:00 | Brezilya Serie B | America Mineir - Ceara | live | -
-- 2026-07-18 01:00 | Brezilya Serie B | Sao Bernardo - Avai | live | -
-- 2026-07-18 01:00 | Brezilya Serie B | Juventude - Cuiaba | live | -
 - 2026-07-18 01:30 | Brezilya Serie A | Bahia - Chapecoense | live | -
 - 2026-07-18 01:30 | Arjantin Ulusal Primera Lig | Ferro Carril O - Colon Santa Fe | live | -
 - 2026-07-18 01:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Montevideo Wand | live | -
@@ -242,4 +238,8 @@ Yarin: 31
 - 2026-07-18 03:10 | ABD MLS | Nashville Sc - Atlanta Utd | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-18 00:00 | Arjantin Ulusal Primera Lig | Nueva Chicago - Agropecuario | finished | -
+- 2026-07-18 00:45 | Arjantin Kupa Son 32 Turu | San Lorenzo - Riestra | finished | -
+- 2026-07-18 01:00 | Brezilya Serie B | America Mineir - Ceara | finished | -
+- 2026-07-18 01:00 | Brezilya Serie B | Sao Bernardo - Avai | finished | -
+- 2026-07-18 01:00 | Brezilya Serie B | Juventude - Cuiaba | finished | -
