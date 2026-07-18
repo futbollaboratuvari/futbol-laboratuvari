@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 205
 - Live match count: 18
-- Finished removed count: 0
+- Finished removed count: 4
 - Date window: 2026-07-18 / 2026-07-19 23:59
 
 - 2026-07-18 01:30 | Ferro Carril O - Colon Santa Fe | live
