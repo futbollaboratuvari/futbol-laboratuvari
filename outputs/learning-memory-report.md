@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 14:21:14
+Oluşturma: 18.07.2026 14:38:27
 
 ## Özet
 
-- Toplam tahmin: 130
-- Bekleyen tahmin: 130
+- Toplam tahmin: 131
+- Bekleyen tahmin: 131
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 37
@@ -20,12 +20,13 @@ Oluşturma: 18.07.2026 14:21:14
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
-- MS X: toplam 80, bekleyen 80, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Hazırlık Kulüpler | Hartberg - First Vienna | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Hanworth Villa - Carshalton Athl | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 18.07.2026 14:21:14
 - 2026-07-18 | Hazırlık Kulüpler | Zaglebie Lubin - Chrobry Glogow | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Osijek - Budapest Honved | MS 2 | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Weston-S-Mare - Torquay | MS X | pending | 50/100
 

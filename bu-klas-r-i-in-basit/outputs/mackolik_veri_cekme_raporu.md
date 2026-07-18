@@ -1,25 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-18T11:20:37.420565+00:00
+Tarih: 2026-07-18T11:36:44.571098+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 165
-- Kac mac kaydedildi: 3
-- Kac mac zaten vardi: 162
-- Ham veri havuzu toplam mac sayisi: 2340
+- Kac mac bulundu: 192
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 191
+- Ham veri havuzu toplam mac sayisi: 2341
 - Hedef tarih: 18.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD USL
+- ABD USL Lig 1
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- Dünya Kupası 2026 Üçüncülük
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
@@ -33,7 +38,9 @@ Tarih: 2026-07-18T11:20:37.420565+00:00
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Romanya 1.Lig
@@ -127,6 +134,7 @@ Tarih: 2026-07-18T11:20:37.420565+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 19.07.2026 | 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa | İngiltere | 00988 | 5 |
 | 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Kuopion | 16103 | 5 |
 | 18.07.2026 | 15:00 | Finlandiya Veikkausliiga | Helsinki | Vaasa | 15501 | 5 |
 | 18.07.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Gnistan | 16049 | 5 |
@@ -146,7 +154,6 @@ Tarih: 2026-07-18T11:20:37.420565+00:00
 | 18.07.2026 | 19:00 | İskoçya Lig Kupası Grup A | Aberdeen | Queens Park | 10070 | 5 |
 | 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Brora Rangers | Queen Of South | 20509 | 5 |
 | 18.07.2026 | 21:00 | İskoçya Lig Kupası Grup B | Dundee Utd | Arbroath | 12567 | 5 |
-| 18.07.2026 | 17:00 | İskoçya Lig Kupası Grup B | Stirling Albio | Montrose | 19614 | 5 |
 
 ## Sonuc
 
