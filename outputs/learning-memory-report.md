@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.07.2026 14:38:27
+Oluşturma: 18.07.2026 14:44:36
 
 ## Özet
 
-- Toplam tahmin: 131
-- Bekleyen tahmin: 131
+- Toplam tahmin: 133
+- Bekleyen tahmin: 133
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 37
@@ -20,12 +20,14 @@ Oluşturma: 18.07.2026 14:38:27
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
+- MS X: toplam 83, bekleyen 83, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-18 | Hazırlık Kulüpler | Palermo - Ingolstadt | MS X | pending | 50/100
+- 2026-07-18 | Hazırlık Kulüpler | Stade Lavalloi - Caen | MS X | pending | 40/100
 - 2026-07-18 | Hazırlık Kulüpler | Hartberg - First Vienna | MS X | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS 2 | pending | 50/100
 - 2026-07-18 | Hazırlık Kulüpler | Lask Linz - Fortuna Düsseld | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 18.07.2026 14:38:27
 - 2026-07-18 | Hazırlık Kulüpler | Esbjerg - Fredericia | MS X | pending | 50/100
 - 2026-07-18 | Letonya 1.Lig | Jfk Ventspils - Jdfs Alberts | MS 1 | pending | 45/100
 - 2026-07-18 | Hazırlık Kulüpler | Zaglebie Lubin - Chrobry Glogow | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Karpaty Lviv - Zeljeznicar | MS X | pending | 50/100
-- 2026-07-18 | Hazırlık Kulüpler | Osijek - Budapest Honved | MS 2 | pending | 50/100
 
