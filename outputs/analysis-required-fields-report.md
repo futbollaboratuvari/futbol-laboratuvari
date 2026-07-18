@@ -1,27 +1,18 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 183
-Tam analiz: 155
-Eksik analiz: 28
+Toplam analiz: 56
+Tam analiz: 45
+Eksik analiz: 11
 
-- Marupe VS Metta / Lu: eksik score, confidence
-- Wuppertaler VS M Gladbach: eksik score, confidence
-- Nijmegen VS Al Feiha: eksik score, confidence
-- Osipovichy VS Dnepr Mogilev: eksik score, confidence
-- Sf Baumberg VS B.Leverkusen: eksik score, confidence
-- Slonim VS Isloch: eksik score, confidence
-- Grotta VS Aegir: eksik score, confidence
-- Niva Dolbizno VS Gomel: eksik score, confidence
-- Matlock Town VS Rotherham: eksik score, confidence
-- Southend VS West Ham: eksik score, confidence
-- Aldershot VS Farnborough: eksik score, confidence
-- York VS Sunderland: eksik score, confidence
-- Smorgon VS Minsk: eksik score, confidence
-- Ostrovets Fc VS Vitebsk: eksik score, confidence
-- Lida VS Torpedo Zhodino: eksik score, confidence
-- Oberhausen VS B.Dortmund: eksik score, confidence
-- Fc Giessen VS E.Frankfurt: eksik score, confidence
 - Progreso VS Deportivo Maldo: eksik score, confidence
 - Bumprom VS Arsenal: eksik score, confidence
 - Chrobry Glogow VS Sleza Wroclaw: eksik score, confidence
+- Kauno Zalgiris VS Fa Siauliai: eksik score, confidence
+- Thor Akureyri VS Vikingur Reykja: eksik score, confidence
+- Skanste VS Valmieras Fk/Bs: eksik score, confidence
+- Magni VS Fjolnir: eksik score, confidence
+- Schwaz VS Innsbrucke: eksik score, confidence
+- Uni Minsk VS Baranovichi: eksik score, confidence
+- Sd Leioa VS Athletic Bilbao: eksik score, confidence
+- Ponte Preta VS Goias: eksik score, confidence
