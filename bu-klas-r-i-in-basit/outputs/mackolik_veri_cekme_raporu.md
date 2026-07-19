@@ -1,23 +1,36 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T20:38:12.498197+00:00
+Tarih: 2026-07-19T21:02:50.373156+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 6
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 5
-- Ham veri havuzu toplam mac sayisi: 2421
-- Hedef tarih: 19.07.2026 Europe/Istanbul
+- Kac mac bulundu: 24
+- Kac mac kaydedildi: 24
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 2445
+- Hedef tarih: 20.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Konferans Yarı Final
 - Bolivya Premier Lig
+- Bulgaristan 1.Lig
 - Ekvador Pro Lig
-- Peru Premier Lig Clausura
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Hazırlık Kulüpler
+- Letonya 1.Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Lübnan Premier Lig Şampiyonluk Turu
+- Romanya 1.Lig
+- Rusya FNL
+- İsveç Allsvenskan
+- İsveç Superettan
+- İzlanda 1.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -74,8 +87,8 @@ Tarih: 2026-07-19T20:38:12.498197+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 4
-- Acilan detay: 4
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -88,12 +101,26 @@ Tarih: 2026-07-19T20:38:12.498197+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 20.07.2026 | 03:00 | Peru Premier Lig Clausura | Alianza Lima | Sport Huancayo | 18466 | 5 |
-| 20.07.2026 | 00:45 | Ekvador Pro Lig | Guayaquil City | Manta | 18449 | 5 |
-| 20.07.2026 | 03:15 | Ekvador Pro Lig | Indep. Jose Te | Emelec | 12703 | 5 |
-| 20.07.2026 | 03:30 | Bolivya Premier Lig | Blooming | Real Tomayapo | 10566 | 5 |
-| 20.07.2026 | 02:00 | ABD USL Lig 2 Konferans Yarı Final | Vermont Green | Ocean City | 04141 | 3 |
-| 20.07.2026 | 02:00 | ABD USL Lig 2 Konferans Yarı Final | Asheville City | Appalachian | 02852 | 3 |
+| 20.07.2026 | 19:00 | Finlandiya Veikkausliiga | Mariehamn | Lahti | 18576 | 5 |
+| 20.07.2026 | 18:00 | Finlandiya Veikkausliiga | Turku | Ilves | 18487 | 5 |
+| 20.07.2026 | 20:00 | İsveç Allsvenskan | Orgryte | Djurgarden | 18835 | 5 |
+| 20.07.2026 | 20:00 | İsveç Allsvenskan | Kalmar | Malmö | 18666 | 5 |
+| 20.07.2026 | 22:15 | Hazırlık Kulüpler | Sporting Cp | Strasbourg | 03860 | 5 |
+| 20.07.2026 | 21:30 | Bulgaristan 1.Lig | Botev Plovdiv | Lokomotiv Sofia | 18889 | 5 |
+| 20.07.2026 | 19:15 | Bulgaristan 1.Lig | Slavia Sofia | Cska Sofia | 18632 | 5 |
+| 20.07.2026 | 20:00 | İsveç Superettan | Norrby | Sundsvall | 18736 | 5 |
+| 20.07.2026 | 19:30 | Rusya FNL | Rotor Volgogra | Ska-Khabarovsk | 18649 | 5 |
+| 20.07.2026 | 18:30 | Romanya 1.Lig | Hunedoara | Csikszereda | 18541 | 5 |
+| 20.07.2026 | 21:30 | Romanya 1.Lig | Rapid Bükreş | Sepsi | 18906 | 5 |
+| 20.07.2026 | 18:45 | Litvanya A Ligi | Suduva | Hegelmann | 18574 | 5 |
+| 20.07.2026 | 18:30 | Finlandiya Ykkönen | Kpv Kokkola | Rops | 12731 | 4 |
+| 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Keflavik | Akranes | 18956 | 3 |
+| 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Hafnarfjordur | Breidablik | 18939 | 3 |
+| 20.07.2026 | 22:00 | Ekvador Pro Lig | Mushuc Runa | Orense | 12836 | 5 |
+| 20.07.2026 | 22:15 | İzlanda 1.Lig | Hk Kopavogur | Vestri | 18973 | 3 |
+| 20.07.2026 | 19:00 | Letonya Virsliga | Super Nova | Grobina | 18630 | 5 |
+| 20.07.2026 | 18:00 | Letonya Virsliga | Fs Jelgava | Daugava Riga | 18483 | 3 |
+| 20.07.2026 | 22:00 | Bolivya Premier Lig | San Antonio Bu | Academia Del Ba | 05289 | 3 |
 
 ## Sonuc
 
