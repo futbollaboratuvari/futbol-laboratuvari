@@ -1,6 +1,6 @@
 {
   "liveMatches": {
-    "generated_at": "2026-07-19T09:18:33.549Z",
+    "generated_at": "2026-07-19T09:23:56.200Z",
     "date": "2026-07-19",
     "source": "High Value Coupon Engine",
     "message": "",
@@ -15355,7 +15355,7 @@
         "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
-        "data_gap_risk": "Yüksek",
+        "data_gap_risk": "Orta",
         "status": "filtered_no_value_market",
         "expected_scores": [],
         "learning_adjustment": null
@@ -24693,7 +24693,7 @@
     ]
   },
   "dailyCoupons": {
-    "generated_at": "2026-07-19T09:18:33.549Z",
+    "generated_at": "2026-07-19T09:23:56.200Z",
     "date": "2026-07-19",
     "source": "High Value Coupon Engine",
     "message": "",
@@ -24745,7 +24745,7 @@
     }
   },
   "robotAnalysis": {
-    "generated_at": "2026-07-19T09:18:33.553Z",
+    "generated_at": "2026-07-19T09:23:56.204Z",
     "date": "2026-07-19",
     "engine": "High Value Coupon Engine + Learning Memory",
     "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -57810,20 +57810,20 @@
         "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
-        "data_gap_risk": "Yüksek",
+        "data_gap_risk": "Orta",
         "status": "filtered_no_value_market",
         "expected_scores": [],
         "learning_adjustment": null,
         "metrics": {
           "homeScoredLast10": null,
           "awayScoredLast10": null,
-          "homeConcededLast10": null,
-          "awayConcededLast10": null,
-          "bttsPercent": null,
+          "homeConcededLast10": 3,
+          "awayConcededLast10": 3,
+          "bttsPercent": 36,
           "over25Percent": null,
           "over35Percent": null,
-          "firstHalfGoalTrend": null,
-          "secondHalfGoalTrend": null,
+          "firstHalfGoalTrend": 35,
+          "secondHalfGoalTrend": 42,
           "leagueGoalAverage": null,
           "memory": {
             "scoreDelta": 0,
@@ -57860,15 +57860,15 @@
           },
           "homeScoredLast10Count": null,
           "awayScoredLast10Count": null,
-          "homeConcededLast10Count": null,
-          "awayConcededLast10Count": null
+          "homeConcededLast10Count": 3,
+          "awayConcededLast10Count": 3
         },
         "signals": [
           "Düşük oran veya eksik veri nedeniyle elendi",
           "Çifte şans kullanılmadı",
           "Hafıza: arşiv verisi henüz sınırlı",
           "Veri eksikliği var: -15",
-          "Veri eksikliği riski: Yüksek",
+          "Veri eksikliği riski: Orta",
           "100 puan analiz sınıfı: Oynama"
         ]
       },
