@@ -1,30 +1,8 @@
 {
-  "generated_at": "2026-07-19T21:39:50.275Z",
+  "generated_at": "2026-07-19T22:10:45.511Z",
   "timezone": "Europe/Istanbul",
-  "source": "Maçkolik canlı robot",
-  "engine": "High Value Coupon Engine",
-  "scoring_mode": "net_threshold_rules",
-  "engine_rules": {
-    "banned_markets": [
-      "Çifte Şans"
-    ],
-    "focused_markets": [
-      "İlk Yarı KG Var",
-      "İkinci Yarı KG Var",
-      "KG Var",
-      "2.5 Üst",
-      "3.5 Üst"
-    ],
-    "scoring_classes": {
-      "80-100": "Ana kupon adayı",
-      "65-79": "Orta risk kupon adayı",
-      "50-64": "Sadece izleme",
-      "0-49": "Oynama"
-    },
-    "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
-  },
+  "source": "Maçkolik canlı veri bekleniyor",
   "match_count": 1,
-  "analysis_count": 0,
   "matches": [
     {
       "home_team_name": "Nacional Potos",
@@ -32,76 +10,90 @@
       "competition_name": "Bolivya Premier Lig",
       "date": "2026-07-21",
       "time": "02:00",
-      "status": "filtered_no_value_market",
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "0%",
-      "trust_score": "0/100",
-      "analysis_score": 0,
-      "analysis_class": "Oynama",
-      "value_label": "Normal Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
+      "match_code": "10851",
+      "odds": {
+        "ms1": 1.23,
+        "msx": 4.34,
+        "ms2": 5.08,
+        "ms_1": 1.23,
+        "ms_x": 4.34,
+        "ms_2": 5.08,
+        "alt_25": null,
+        "ust_25": null
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.23,
+        "msx": 4.34,
+        "ms2": 5.08
+      },
+      "raw_market_labels": {},
+      "raw_market_blocks": [
+        {
+          "market_code": "10851",
+          "values": [
+            1.23,
+            4.34,
+            5.08
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 1.23,
+            "msx": 4.34,
+            "ms2": 5.08
           },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.23,
+                "msx": 4.34,
+                "ms2": 5.08
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.23,
+                "firstHalfX_guess": 4.34,
+                "firstHalf2_guess": 5.08
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.23,
+                "secondHalfX_guess": 4.34,
+                "secondHalf2_guess": 5.08
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.23,
+                "handicapX_guess": 4.34,
+                "handicap2_guess": 5.08
+              }
+            }
           ]
         },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Oynama",
-      "expected_scores": [],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Yüksek",
-        "100 puan analiz sınıfı: Oynama"
-      ]
+        {
+          "market_code": "10852",
+          "values": [
+            2.19
+          ],
+          "guess": "Ham detay market",
+          "named_values": {},
+          "detail_market_candidates": []
+        }
+      ],
+      "raw_odds_sequence": []
     }
   ]
 }
