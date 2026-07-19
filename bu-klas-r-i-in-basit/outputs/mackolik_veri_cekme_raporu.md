@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T12:13:21.902641+00:00
+Tarih: 2026-07-19T12:41:23.457523+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 54
+- Kac mac bulundu: 48
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 54
+- Kac mac zaten vardi: 48
 - Ham veri havuzu toplam mac sayisi: 2419
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
@@ -111,21 +111,21 @@ Tarih: 2026-07-19T12:13:21.902641+00:00
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Sirius | 18103 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Hammarby | Degerfors | 18049 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Bicskei | Dunaharaszti | 10594 | 3 |
-| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Widzew Lodz | Puszcza Niepolo | 10645 | 5 |
-| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
-| 19.07.2026 | 18:30 | Hazırlık Kulüpler | Haladas | Lecce | 10671 | 2 |
-| 19.07.2026 | 15:00 | Hazırlık Kulüpler | Aue | Schalke | 05937 | 5 |
-| 19.07.2026 | 17:00 | Hazırlık Kulüpler | Sporting Hasse | Antwerp | 09388 | 5 |
-| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Samorin | Gharrafa | 10612 | 5 |
-| 19.07.2026 | 19:30 | Hazırlık Kulüpler | Al Hilal (Riya | Strum Graz Ii | 10592 | 2 |
 | 19.07.2026 | 17:00 | Hazırlık Kulüpler | Cracovia Krako | Sevilla | 03712 | 5 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Samorin | Gharrafa | 10612 | 5 |
+| 19.07.2026 | 18:30 | Hazırlık Kulüpler | Haladas | Lecce | 10671 | 2 |
+| 19.07.2026 | 17:00 | Hazırlık Kulüpler | Sporting Hasse | Antwerp | 09388 | 5 |
+| 19.07.2026 | 19:30 | Hazırlık Kulüpler | Al Hilal (Riya | Strum Graz Ii | 10592 | 2 |
 | 19.07.2026 | 17:00 | Hazırlık Kulüpler | St Pauli | Hnk Gorica | 05145 | 5 |
 | 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
 | 19.07.2026 | 16:00 | İsveç Superettan | United Nordic | Orebro | 17816 | 5 |
+| 19.07.2026 | 16:00 | İsveç Superettan | Varnamo | Ljungskile | 17745 | 5 |
+| 19.07.2026 | 17:00 | Rusya FNL | Tekstilshchik | Ufa | 17912 | 5 |
 
 ## Sonuc
 
