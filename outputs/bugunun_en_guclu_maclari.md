@@ -4,22 +4,19 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-19T12:48:34.081Z
+- Güncelleme: 2026-07-19T13:53:45.053Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Norrkoping VS Sandvikens | İsveç Superettan | 14:00 | MS 2 | 4.47 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Tauras VS Fa Siauliai Ii | Litvanya 1.Lig | 14:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Nastved VS Helsingor | Hazırlık Kulüpler | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Aue VS Schalke | Hazırlık Kulüpler | 15:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ural VS Yenisey | Rusya FNL | 15:00 | MS 2 | 3.12 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Soligorsk VS Neman Grodno | Belarus Kupa Son 32 Turu | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| United Nordic VS Orebro | İsveç Superettan | 16:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Varnamo VS Ljungskile | İsveç Superettan | 16:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Kamaz VS Olimpiyets | Rusya FNL | 16:00 | MS 1 | 2.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| United Nordic VS Orebro | İsveç Superettan | 16:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Varnamo VS Ljungskile | İsveç Superettan | 16:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Kamaz VS Olimpiyets | Rusya FNL | 16:00 | MS 1 | 2.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Central Espano VS Cerro Largo | Uruguay Premier Lig Intermediate Turu Grup 1 | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Volna Pinsk VS Slavia Mozyr | Belarus Kupa Son 32 Turu | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Orsha VS Naftan | Belarus Kupa Son 32 Turu | 16:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
