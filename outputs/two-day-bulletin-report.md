@@ -2,21 +2,15 @@
 
 Gunler: 2026-07-19 / 2026-07-20
 Kaynak: fixtures.json
-Ham mac: 92
-Aktif mac: 73
-Canli mac: 16
-Biten mac: 3
-Bultenden dusurulen mac: 19
-Bugun: 69
+Ham mac: 88
+Aktif mac: 67
+Canli mac: 21
+Biten mac: 0
+Bultenden dusurulen mac: 21
+Bugun: 63
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-19 03:30 | Bolivya Premier Lig | Aurora - Oriente Petrole | scheduled | -
-- 2026-07-19 03:30 | ABD USL | Tulsa Roughnec - El Paso Locomot | scheduled | -
-- 2026-07-19 04:00 | ABD USL | San Antonio - Las Vegas Light | scheduled | -
-- 2026-07-19 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Export Sebaco | scheduled | -
-- 2026-07-19 04:05 | Meksika Liga MX Apertura | Monterrey - Santos Laguna | scheduled | -
-- 2026-07-19 04:07 | Meksika Liga MX Apertura | Guadalajara - Toluca | scheduled | -
 - 2026-07-19 05:30 | ABD USL | Phoenix Rising - Monterey Bay | scheduled | -
 - 2026-07-19 06:00 | Avustralya NPL Kuzey YGG | Hamilton Olymp - Belmont Swansea | scheduled | -
 - 2026-07-19 06:10 | Meksika Liga MX Apertura | Queretaro - Club America | scheduled | -
@@ -86,7 +80,6 @@ Yarin: 4
 - 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | scheduled | -
 
 ## Canli Maclar
-- 2026-07-19 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Walter Ferretti | live | -
 - 2026-07-19 02:00 | Meksika Liga MX Apertura | Pumas Unam - Pachuca | live | -
 - 2026-07-19 02:00 | ABD USL | Detroit City - Indy Eleven | live | -
 - 2026-07-19 02:00 | ABD USL | Sporting Jax - Brooklyn | live | -
@@ -102,8 +95,12 @@ Yarin: 4
 - 2026-07-19 02:30 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | live | -
 - 2026-07-19 03:00 | Ekvador Pro Lig | Barcelona Gua - Libertad | live | -
 - 2026-07-19 03:00 | Nikaragua Premier Lig Apertura | Managua - Rancho Santana | live | -
+- 2026-07-19 03:30 | Bolivya Premier Lig | Aurora - Oriente Petrole | live | -
+- 2026-07-19 03:30 | ABD USL | Tulsa Roughnec - El Paso Locomot | live | -
+- 2026-07-19 04:00 | ABD USL | San Antonio - Las Vegas Light | live | -
+- 2026-07-19 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Export Sebaco | live | -
+- 2026-07-19 04:05 | Meksika Liga MX Apertura | Monterrey - Santos Laguna | live | -
+- 2026-07-19 04:07 | Meksika Liga MX Apertura | Guadalajara - Toluca | live | -
 
 ## Biten Maclar
-- 2026-07-19 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa - İngiltere | finished | -
-- 2026-07-19 00:00 | Brezilya Serie B | Atletico Goian - Athletic Club | finished | -
-- 2026-07-19 00:30 | Ekvador Pro Lig | Ldu Quito - Leones Del Nort | finished | -
+Biten mac yok.

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 73
-- Live match count: 16
-- Finished removed count: 0
+- Scheduled match count: 67
+- Live match count: 13
+- Finished removed count: 9
 - Date window: 2026-07-19 / 2026-07-20 23:59
 
-- 2026-07-19 01:00 | Jalapa - Walter Ferretti | live
-- 2026-07-19 02:00 | Detroit City - Indy Eleven | live
-- 2026-07-19 02:00 | Charlotte Inde - Chattanooga Red | live
-- 2026-07-19 02:00 | New York Cosmo - Corpus Christi | live
-- 2026-07-19 02:00 | Richmond Kicke - Spokane Velocit | live
-- 2026-07-19 02:00 | Union Omaha - Westchester Sc | live
-- 2026-07-19 02:00 | Loudoun United - Tampa Bay Rowdi | live
-- 2026-07-19 02:00 | Sporting Jax - Brooklyn | live
-- 2026-07-19 02:00 | Pumas Unam - Pachuca | live
 - 2026-07-19 02:30 | Charleston Bat - Sacramento Repu | live
+- 2026-07-19 02:30 | Fort Wayne - Greenville Triu | live
+- 2026-07-19 02:30 | One Knoxville - Alta | live
+- 2026-07-19 02:30 | Rhode Island - Hartford Athlet | live
+- 2026-07-19 02:30 | Cusco Fc - Alianza Atletic | live
+- 2026-07-19 03:00 | Barcelona Gua - Libertad | live
+- 2026-07-19 03:00 | Managua - Rancho Santana | live
+- 2026-07-19 03:30 | Tulsa Roughnec - El Paso Locomot | live
+- 2026-07-19 03:30 | Aurora - Oriente Petrole | live
+- 2026-07-19 04:00 | San Antonio - Las Vegas Light | live

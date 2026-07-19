@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.07.2026 03:13:41
+Oluşturma: 19.07.2026 04:24:38
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 47
+- Bekleyen tahmin: 47
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 19
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 19.07.2026 03:13:41
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-19 | Litvanya A Ligi | Dziugas Telsia - Banga | MS X | pending | 40/100
+- 2026-07-19 | Rusya FNL | Arsenal Tula - Neftekhimik | MS 2 | pending | 50/100
+- 2026-07-19 | Litvanya A Ligi | Zalgiris Vilni - Transinvest Vil | MS 2 | pending | 50/100
+- 2026-07-19 | Peru Premier Lig Clausura | Chankas Cyc - Sport Boys | MS 2 | pending | 50/100
+- 2026-07-19 | Kazakistan Premier Lig | Ordabasy - Yelimay Semey | MS 2 | pending | 50/100
+- 2026-07-19 | Litvanya 1.Lig | Ekranas - Bfa | MS X | pending | 50/100
+- 2026-07-19 | Romanya 1.Lig | Petrolul 52 - Dinamo Bükreş | MS 1 | pending | 40/100
+- 2026-07-19 | Ekvador Pro Lig | T.Universitari - Aucas | MS 1 | pending | 40/100
+- 2026-07-19 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | MS 2 | pending | 40/100
+- 2026-07-19 | Sırbistan Süper Lig | Vojvodina - Ofk Beograd | MS 2 | pending | 60/100
+- 2026-07-19 | Sırbistan Süper Lig | Radnik Surduli - Mladost Lucani | MS 2 | pending | 40/100
+- 2026-07-19 | Moldova Ulusal Lig | Petrocub - Sheriff Tiraspo | MS X | pending | 40/100
+- 2026-07-19 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | MS X | pending | 50/100
+- 2026-07-19 | ABD USL | Rhode Island - Hartford Athlet | MS 2 | pending | 50/100
+- 2026-07-19 | ABD USL | Charleston Bat - Sacramento Repu | MS 2 | pending | 40/100
 
