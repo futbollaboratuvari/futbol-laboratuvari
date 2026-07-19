@@ -2,27 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-19T13:55:38.175Z
+- Güncelleme: 2026-07-19T14:14:53.566Z
 - Ham maç sayısı: 58
 - Yarın bülteni maç sayısı: 4
 - Detay blok sayısı: 152
-- Aktif bülten maçı: 49
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 38
+- Bültenden düşürülen maç: 20
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cracovia Krako - Sevilla | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 2.43 | 8 |
-| Tekstilshchik - Ufa | Rusya FNL | 17:00 | Veri bekleniyor | - | 2.44 | 8 |
-| Veles - Chelyabinsk | Rusya FNL | 17:00 | Veri bekleniyor | - | 2.33 | 8 |
-| Shinnik Yarosl - Leningradets | Rusya FNL | 17:00 | Veri bekleniyor | - | 1.7 | 8 |
-| Universitatea - Ssc Farul | Romanya 1.Lig | 17:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Vestmannaeyjar - Ka Akureyri | İzlanda Urvalsdeild | 17:00 | Veri bekleniyor | - | 2.02 | 6 |
-| Ogre United - Bfc Daugavpils | Letonya Virsliga | 17:00 | Veri bekleniyor | - | 3.27 | 8 |
-| Kuressaare - Nomme Kalju | Estonya Premium Lig | 17:00 | Veri bekleniyor | - | 3.85 | 5 |
-| Smiltene - Rezekne / Bjss | Letonya 1.Lig | 17:00 | Veri bekleniyor | - | 1.55 | 6 |
-| Sporting Hasse - Antwerp | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.14 | 8 |
-| St Pauli - Hnk Gorica | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.41 | 7 |
 | Halmstads - Hacken | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 4.55 | 7 |
 | Elfsborg - Sirius | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 3.3 | 8 |
 | Hammarby - Degerfors | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 1.07 | 6 |

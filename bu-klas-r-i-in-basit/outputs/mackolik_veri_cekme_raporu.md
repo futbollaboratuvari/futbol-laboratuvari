@@ -1,34 +1,51 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T13:53:30.966841+00:00
+Tarih: 2026-07-19T14:15:21.110475+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
+- Kac mac bulundu: 33
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
+- Kac mac zaten vardi: 33
 - Ham veri havuzu toplam mac sayisi: 2419
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- Belarus Kupa Son 32 Turu
+- Bolivya Premier Lig
+- Bulgaristan 1.Lig
+- Dünya Kupası 2026 Final
+- Ekvador Pro Lig
+- Estonya Premium Lig
+- Finlandiya Veikkausliiga
+- Hazırlık Kulüpler
+- Kazakistan Premier Lig
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Moldova Ulusal Lig
+- Peru Premier Lig Clausura
+- Romanya 1.Lig
+- Rusya FNL
+- Slovenya 1.SNL
+- Sırbistan Süper Lig
+- İsveç Allsvenskan
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -72,102 +89,40 @@ Tarih: 2026-07-19T13:53:30.966841+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 25
-- Acilan detay: 4
+- Denenen Tumu alani: 23
+- Acilan detay: 23
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
-
-- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
-
-- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
-
-- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
-
-- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
-
-- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
-
-- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
-
-- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
-
-- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
-
-- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
-
-- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
-
-- Detay acilamadi #16: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(15)
-
-- Detay acilamadi #17: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(16)
-
-- Detay acilamadi #18: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(17)
-
-- Detay acilamadi #19: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(18)
-
-- Detay acilamadi #20: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(19)
-
-- Detay acilamadi #21: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(20)
-
-- Detay acilamadi #22: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(21)
-
-- Detay acilamadi #23: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(22)
-
-- Detay acilamadi #24: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(23)
-
-- Detay acilamadi #25: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(24)
-
+- Hata yok.
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 19.07.2026 | 22:00 | Dünya Kupası 2026 Final | İspanya | Arjantin | 07041 | 5 |
+| 19.07.2026 | 18:30 | Finlandiya Veikkausliiga | Jaro | Inter Turku | 18210 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Sirius | 18103 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Hammarby | Degerfors | 18049 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
+| 19.07.2026 | 19:30 | Hazırlık Kulüpler | Al Hilal (Riya | Strum Graz Ii | 10592 | 2 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Samorin | Gharrafa | 10612 | 5 |
+| 19.07.2026 | 17:00 | Hazırlık Kulüpler | St Pauli | Hnk Gorica | 05145 | 5 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Bicskei | Dunaharaszti | 10594 | 3 |
+| 19.07.2026 | 18:30 | Hazırlık Kulüpler | Haladas | Lecce | 10671 | 2 |
+| 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
+| 19.07.2026 | 18:00 | Rusya FNL | Pfc Sochi | Spartak Kostrom | 18193 | 5 |
+| 19.07.2026 | 18:30 | Rusya FNL | Torpedo Moskov | Volga Ulyanovsk | 18264 | 5 |
+| 19.07.2026 | 19:00 | Rusya FNL | Arsenal Tula | Neftekhimik | 18283 | 5 |
+| 19.07.2026 | 19:30 | Romanya 1.Lig | Petrolul 52 | Dinamo Bükreş | 18399 | 5 |
+| 19.07.2026 | 19:00 | Litvanya A Ligi | Zalgiris Vilni | Transinvest Vil | 18381 | 5 |
 
 ## Sonuc
 
