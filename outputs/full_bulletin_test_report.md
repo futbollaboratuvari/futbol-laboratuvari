@@ -2,14 +2,14 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 61
-- Live match count: 2
+- Scheduled match count: 67
+- Live match count: 3
 - Finished removed count: 0
 - Date window: 2026-07-19 / 2026-07-20 23:59
 
 - 2026-07-19 11:30 | White City Woo - Adelaide United | live
 - 2026-07-19 12:00 | Kazincbarcika - Deac | live
-- 2026-07-19 13:00 | Riga Ii - Super Nova Ii | scheduled
+- 2026-07-19 13:00 | Riga Ii - Super Nova Ii | live
 - 2026-07-19 13:30 | Anyang - Gwangju | scheduled
 - 2026-07-19 13:30 | Bucheon - Fc Seoul | scheduled
 - 2026-07-19 13:30 | Cheongju Fc - Cheonan City Fc | scheduled

@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.07.2026 12:23:56
+Oluşturma: 19.07.2026 13:15:04
 
 ## Özet
 
-- Toplam tahmin: 53
-- Bekleyen tahmin: 53
+- Toplam tahmin: 55
+- Bekleyen tahmin: 55
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,14 @@ Oluşturma: 19.07.2026 12:23:56
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-19 | Moldova Ulusal Lig | Milsami-Ursido - Csf Balti | MS X | pending | 50/100
+- 2026-07-19 | İsveç Superettan | United Nordic - Orebro | MS X | pending | 50/100
 - 2026-07-19 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | MS X | pending | 40/100
 - 2026-07-19 | Rusya FNL | Kamaz - Olimpiyets | MS 1 | pending | 40/100
 - 2026-07-19 | Hazırlık Kulüpler | Widzew Lodz - Puszcza Niepolo | MS 2 | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 19.07.2026 12:23:56
 - 2026-07-19 | Kazakistan Premier Lig | Ordabasy - Yelimay Semey | MS 2 | pending | 50/100
 - 2026-07-19 | Litvanya 1.Lig | Ekranas - Bfa | MS X | pending | 50/100
 - 2026-07-19 | Romanya 1.Lig | Petrolul 52 - Dinamo Bükreş | MS 1 | pending | 40/100
-- 2026-07-19 | Ekvador Pro Lig | T.Universitari - Aucas | MS 1 | pending | 40/100
-- 2026-07-19 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | MS 2 | pending | 40/100
 

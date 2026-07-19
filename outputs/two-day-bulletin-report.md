@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-19 / 2026-07-20
 Kaynak: fixtures.json
-Ham mac: 63
-Aktif mac: 61
-Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 57
+Ham mac: 105
+Aktif mac: 67
+Canli mac: 3
+Biten mac: 35
+Bultenden dusurulen mac: 38
+Bugun: 63
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-19 13:00 | Letonya 1.Lig | Riga Ii - Super Nova Ii | scheduled | -
 - 2026-07-19 13:30 | Güney Kore K Lig 1 | Anyang - Gwangju | scheduled | -
 - 2026-07-19 13:30 | Güney Kore K Lig 1 | Bucheon - Fc Seoul | scheduled | -
 - 2026-07-19 13:30 | Güney Kore K Lig 2 | Yongin - Hwaseong | scheduled | -
@@ -29,6 +28,7 @@ Yarin: 4
 - 2026-07-19 16:00 | Rusya FNL | Kamaz - Olimpiyets | scheduled | -
 - 2026-07-19 16:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Central Espano - Cerro Largo | scheduled | -
 - 2026-07-19 16:00 | Belarus Kupa Son 32 Turu | Volna Pinsk - Slavia Mozyr | scheduled | -
+- 2026-07-19 16:30 | Belarus Kupa Son 32 Turu | Orsha - Naftan | scheduled | -
 - 2026-07-19 17:00 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | scheduled | -
 - 2026-07-19 17:00 | Rusya FNL | Tekstilshchik - Ufa | scheduled | -
 - 2026-07-19 17:00 | Rusya FNL | Veles - Chelyabinsk | scheduled | -
@@ -38,6 +38,8 @@ Yarin: 4
 - 2026-07-19 17:00 | Letonya Virsliga | Ogre United - Bfc Daugavpils | scheduled | -
 - 2026-07-19 17:00 | Estonya Premium Lig | Kuressaare - Nomme Kalju | scheduled | -
 - 2026-07-19 17:00 | Letonya 1.Lig | Smiltene - Rezekne / Bjss | scheduled | -
+- 2026-07-19 17:00 | Hazırlık Kulüpler | Sporting Hasse - Antwerp | scheduled | -
+- 2026-07-19 17:00 | Hazırlık Kulüpler | St Pauli - Hnk Gorica | scheduled | -
 - 2026-07-19 17:30 | İsveç Allsvenskan | Halmstads - Hacken | scheduled | -
 - 2026-07-19 17:30 | İsveç Allsvenskan | Elfsborg - Sirius | scheduled | -
 - 2026-07-19 17:30 | İsveç Allsvenskan | Hammarby - Degerfors | scheduled | -
@@ -48,8 +50,11 @@ Yarin: 4
 - 2026-07-19 18:00 | Litvanya 1.Lig | Kauno Zalgiris - Babrungas | scheduled | -
 - 2026-07-19 18:00 | Hazırlık Kulüpler | Widzew Lodz - Puszcza Niepolo | scheduled | -
 - 2026-07-19 18:00 | Belarus Kupa Son 32 Turu | Nfk Minsk - Dinamo Brest | scheduled | -
+- 2026-07-19 18:00 | Hazırlık Kulüpler | Samorin - Gharrafa | scheduled | -
+- 2026-07-19 18:00 | Hazırlık Kulüpler | Bicskei - Dunaharaszti | scheduled | -
 - 2026-07-19 18:30 | Finlandiya Veikkausliiga | Jaro - Inter Turku | scheduled | -
 - 2026-07-19 18:30 | Rusya FNL | Torpedo Moskov - Volga Ulyanovsk | scheduled | -
+- 2026-07-19 18:30 | Hazırlık Kulüpler | Haladas - Lecce | scheduled | -
 - 2026-07-19 18:45 | Litvanya A Ligi | Dziugas Telsia - Banga | scheduled | -
 - 2026-07-19 19:00 | Rusya FNL | Arsenal Tula - Neftekhimik | scheduled | -
 - 2026-07-19 19:00 | Litvanya A Ligi | Zalgiris Vilni - Transinvest Vil | scheduled | -
@@ -62,6 +67,7 @@ Yarin: 4
 - 2026-07-19 19:00 | Litvanya 1.Lig | Ekranas - Bfa | scheduled | -
 - 2026-07-19 19:30 | Bulgaristan 1.Lig | Botev Vratsa - Cherno More | scheduled | -
 - 2026-07-19 19:30 | Romanya 1.Lig | Petrolul 52 - Dinamo Bükreş | scheduled | -
+- 2026-07-19 19:30 | Hazırlık Kulüpler | Al Hilal (Riya - Strum Graz Ii | scheduled | -
 - 2026-07-19 19:45 | Ekvador Pro Lig | T.Universitari - Aucas | scheduled | -
 - 2026-07-19 20:00 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | scheduled | -
 - 2026-07-19 20:00 | Sırbistan Süper Lig | Vojvodina - Ofk Beograd | scheduled | -
@@ -76,6 +82,41 @@ Yarin: 4
 ## Canli Maclar
 - 2026-07-19 11:30 | Avustralya NPL Güney Avustralya | White City Woo - Adelaide United | live | -
 - 2026-07-19 12:00 | Hazırlık Kulüpler | Kazincbarcika - Deac | live | -
+- 2026-07-19 13:00 | Letonya 1.Lig | Riga Ii - Super Nova Ii | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-19 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa - İngiltere | finished | -
+- 2026-07-19 00:00 | Brezilya Serie B | Atletico Goian - Athletic Club | finished | -
+- 2026-07-19 00:30 | Ekvador Pro Lig | Ldu Quito - Leones Del Nort | finished | -
+- 2026-07-19 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Walter Ferretti | finished | -
+- 2026-07-19 02:00 | Meksika Liga MX Apertura | Pumas Unam - Pachuca | finished | -
+- 2026-07-19 02:00 | ABD USL | Detroit City - Indy Eleven | finished | -
+- 2026-07-19 02:00 | ABD USL | Sporting Jax - Brooklyn | finished | -
+- 2026-07-19 02:00 | ABD USL | Loudoun United - Tampa Bay Rowdi | finished | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | New York Cosmo - Corpus Christi | finished | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | finished | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | Union Omaha - Westchester Sc | finished | -
+- 2026-07-19 02:00 | ABD USL Lig 1 | Richmond Kicke - Spokane Velocit | finished | -
+- 2026-07-19 02:30 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | finished | -
+- 2026-07-19 02:30 | ABD USL | Rhode Island - Hartford Athlet | finished | -
+- 2026-07-19 02:30 | ABD USL | Charleston Bat - Sacramento Repu | finished | -
+- 2026-07-19 02:30 | ABD USL Lig 1 | One Knoxville - Alta | finished | -
+- 2026-07-19 02:30 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | finished | -
+- 2026-07-19 03:00 | Ekvador Pro Lig | Barcelona Gua - Libertad | finished | -
+- 2026-07-19 03:00 | Nikaragua Premier Lig Apertura | Managua - Rancho Santana | finished | -
+- 2026-07-19 03:30 | Bolivya Premier Lig | Aurora - Oriente Petrole | finished | -
+- 2026-07-19 03:30 | ABD USL | Tulsa Roughnec - El Paso Locomot | finished | -
+- 2026-07-19 04:00 | ABD USL | San Antonio - Las Vegas Light | finished | -
+- 2026-07-19 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Export Sebaco | finished | -
+- 2026-07-19 04:05 | Meksika Liga MX Apertura | Monterrey - Santos Laguna | finished | -
+- 2026-07-19 04:07 | Meksika Liga MX Apertura | Guadalajara - Toluca | finished | -
+- 2026-07-19 05:30 | ABD USL | Phoenix Rising - Monterey Bay | finished | -
+- 2026-07-19 06:00 | Avustralya NPL Kuzey YGG | Hamilton Olymp - Belmont Swansea | finished | -
+- 2026-07-19 06:10 | Meksika Liga MX Apertura | Queretaro - Club America | finished | -
+- 2026-07-19 07:00 | Avustralya Victoria NPL 1 | Western Utd. I - Bulleen Lions | finished | -
+- 2026-07-19 07:30 | Avustralya NPL Tazmanya | South East Uni - Launceston Unit | finished | -
+- 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | finished | -
+- 2026-07-19 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - St George City | finished | -
+- 2026-07-19 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Sydney United | finished | -
+- 2026-07-19 08:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Edgeworth Eagle | finished | -
+- 2026-07-19 09:00 | Avustralya NPL Queensland | Brisbane Olymp - Brisbane Roar I | finished | -
