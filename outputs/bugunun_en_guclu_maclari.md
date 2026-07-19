@@ -2,22 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-19T10:17:28.541Z
+- Güncelleme: 2026-07-19T10:41:10.016Z
 - Ham maç sayısı: 70
 - Yarın bülteni maç sayısı: 4
 - Detay blok sayısı: 182
-- Aktif bülten maçı: 67
-- Bültenden düşürülen maç: 3
+- Aktif bülten maçı: 61
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Anyang - Gwangju | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.47 | 7 |
-| Bucheon - Fc Seoul | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 5.11 | 7 |
-| Yongin - Hwaseong | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.52 | 8 |
-| Cheongju Fc - Cheonan City Fc | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.08 | 8 |
-| Suwon Sb - Paju Citizen | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.17 | 6 |
-| Gyeongnam - Ansan Greeners | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.44 | 7 |
 | Norrkoping - Sandvikens | İsveç Superettan | 14:00 | Veri bekleniyor | - | 1.32 | 6 |
 | Tauras - Fa Siauliai Ii | Litvanya 1.Lig | 14:00 | Veri bekleniyor | - | - | 3 |
 | Nastved - Helsingor | Hazırlık Kulüpler | 14:00 | Veri bekleniyor | - | 1.88 | 6 |

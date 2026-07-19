@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T10:14:20.040467+00:00
+Tarih: 2026-07-19T10:41:41.536722+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 66
-- Kac mac kaydedildi: 7
-- Kac mac zaten vardi: 59
+- Kac mac bulundu: 56
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 56
 - Ham veri havuzu toplam mac sayisi: 2419
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
@@ -22,8 +22,6 @@ Tarih: 2026-07-19T10:14:20.040467+00:00
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
 - Letonya 1.Lig
@@ -95,8 +93,8 @@ Tarih: 2026-07-19T10:14:20.040467+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 28
-- Acilan detay: 28
+- Denenen Tumu alani: 26
+- Acilan detay: 26
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -111,24 +109,24 @@ Tarih: 2026-07-19T10:14:20.040467+00:00
 |---|---|---|---|---|---|---:|
 | 19.07.2026 | 22:00 | Dünya Kupası 2026 Final | İspanya | Arjantin | 07041 | 5 |
 | 19.07.2026 | 18:30 | Finlandiya Veikkausliiga | Jaro | Inter Turku | 18210 | 5 |
-| 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Hammarby | Degerfors | 18049 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Sirius | 18103 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
-| 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Anyang | Gwangju | 17497 | 5 |
-| 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Bucheon | Fc Seoul | 17410 | 5 |
+| 19.07.2026 | 17:00 | Hazırlık Kulüpler | Sporting Hasse | Antwerp | 09388 | 5 |
+| 19.07.2026 | 15:00 | Hazırlık Kulüpler | Aue | Schalke | 05937 | 5 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Bicskei | Dunaharaszti | 10594 | 3 |
+| 19.07.2026 | 18:30 | Hazırlık Kulüpler | Haladas | Lecce | 10671 | 2 |
+| 19.07.2026 | 14:00 | Hazırlık Kulüpler | Nastved | Helsingor | 01411 | 3 |
+| 19.07.2026 | 17:00 | Hazırlık Kulüpler | St Pauli | Hnk Gorica | 05145 | 5 |
+| 19.07.2026 | 19:30 | Hazırlık Kulüpler | Al Hilal (Riya | Strum Graz Ii | 10592 | 2 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Samorin | Gharrafa | 10612 | 5 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Widzew Lodz | Puszcza Niepolo | 10645 | 5 |
-| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Bicskei | Dunaharaszti | 10594 | 3 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
-| 19.07.2026 | 15:00 | Hazırlık Kulüpler | Aue | Schalke | 05937 | 5 |
-| 19.07.2026 | 18:30 | Hazırlık Kulüpler | Haladas | Lecce | 10671 | 2 |
-| 19.07.2026 | 17:00 | Hazırlık Kulüpler | Sporting Hasse | Antwerp | 09388 | 3 |
-| 19.07.2026 | 19:30 | Hazırlık Kulüpler | Al Hilal (Riya | Strum Graz Ii | 10592 | 2 |
-| 19.07.2026 | 17:00 | Hazırlık Kulüpler | St Pauli | Hnk Gorica | 05145 | 5 |
 | 19.07.2026 | 17:00 | Hazırlık Kulüpler | Cracovia Krako | Sevilla | 03712 | 5 |
+| 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
 
 ## Sonuc
 
