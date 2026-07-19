@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.07.2026 09:44:17
+Oluşturma: 19.07.2026 10:21:28
 
 ## Özet
 
-- Toplam tahmin: 50
-- Bekleyen tahmin: 50
+- Toplam tahmin: 51
+- Bekleyen tahmin: 51
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,13 @@ Oluşturma: 19.07.2026 09:44:17
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 - MS X: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-19 | Hazırlık Kulüpler | Widzew Lodz - Puszcza Niepolo | MS 2 | pending | 60/100
 - 2026-07-19 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | MS X | pending | 45/100
 - 2026-07-19 | Romanya 1.Lig | Universitatea - Ssc Farul | MS X | pending | 50/100
 - 2026-07-19 | Hazırlık Kulüpler | Genoa - Trento Calcio 1 | MS X | pending | 75/100
@@ -40,5 +41,4 @@ Oluşturma: 19.07.2026 09:44:17
 - 2026-07-19 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | MS 2 | pending | 40/100
 - 2026-07-19 | Sırbistan Süper Lig | Vojvodina - Ofk Beograd | MS 2 | pending | 60/100
 - 2026-07-19 | Sırbistan Süper Lig | Radnik Surduli - Mladost Lucani | MS 2 | pending | 40/100
-- 2026-07-19 | Moldova Ulusal Lig | Petrocub - Sheriff Tiraspo | MS X | pending | 40/100
 
