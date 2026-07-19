@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 6
 - Live match count: 8
-- Finished removed count: 10
+- Finished removed count: 0
 - Date window: 2026-07-19 / 2026-07-20 23:59
 
 - 2026-07-19 19:30 | Botev Vratsa - Cherno More | live
