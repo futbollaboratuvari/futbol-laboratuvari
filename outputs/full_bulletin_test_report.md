@@ -2,7 +2,7 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 5
+- Scheduled match count: 6
 - Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-07-19 / 2026-07-20 23:59
@@ -10,6 +10,7 @@
 - 2026-07-19 22:00 | İspanya - Arjantin | live
 - 2026-07-20 00:45 | Guayaquil City - Manta | scheduled
 - 2026-07-20 02:00 | Asheville City - Appalachian | scheduled
+- 2026-07-20 02:00 | Vermont Green - Ocean City | scheduled
 - 2026-07-20 03:00 | Alianza Lima - Sport Huancayo | scheduled
 - 2026-07-20 03:15 | Indep. Jose Te - Emelec | scheduled
 - 2026-07-20 03:30 | Blooming - Real Tomayapo | scheduled
