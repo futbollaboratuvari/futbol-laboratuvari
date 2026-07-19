@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.07.2026 10:21:28
+Oluşturma: 19.07.2026 11:45:09
 
 ## Özet
 
-- Toplam tahmin: 51
-- Bekleyen tahmin: 51
+- Toplam tahmin: 53
+- Bekleyen tahmin: 53
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,14 @@ Oluşturma: 19.07.2026 10:21:28
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
-- MS X: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-19 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | MS X | pending | 40/100
+- 2026-07-19 | Rusya FNL | Kamaz - Olimpiyets | MS 1 | pending | 40/100
 - 2026-07-19 | Hazırlık Kulüpler | Widzew Lodz - Puszcza Niepolo | MS 2 | pending | 60/100
 - 2026-07-19 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | MS X | pending | 45/100
 - 2026-07-19 | Romanya 1.Lig | Universitatea - Ssc Farul | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 19.07.2026 10:21:28
 - 2026-07-19 | Romanya 1.Lig | Petrolul 52 - Dinamo Bükreş | MS 1 | pending | 40/100
 - 2026-07-19 | Ekvador Pro Lig | T.Universitari - Aucas | MS 1 | pending | 40/100
 - 2026-07-19 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | MS 2 | pending | 40/100
-- 2026-07-19 | Sırbistan Süper Lig | Vojvodina - Ofk Beograd | MS 2 | pending | 60/100
-- 2026-07-19 | Sırbistan Süper Lig | Radnik Surduli - Mladost Lucani | MS 2 | pending | 40/100
 

@@ -1,21 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T06:41:11.499509+00:00
+Tarih: 2026-07-19T08:44:28.679477+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 55
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 55
-- Ham veri havuzu toplam mac sayisi: 2409
+- Kac mac bulundu: 61
+- Kac mac kaydedildi: 3
+- Kac mac zaten vardi: 58
+- Ham veri havuzu toplam mac sayisi: 2412
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avustralya NPL Güney Avustralya
 - Avustralya NPL Kuzey YGG
+- Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
 - Dünya Kupası 2026 Final
@@ -114,17 +114,17 @@ Tarih: 2026-07-19T06:41:11.499509+00:00
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Sirius | 18103 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Hammarby | Degerfors | 18049 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
 | 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Anyang | Gwangju | 17497 | 5 |
 | 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Bucheon | Fc Seoul | 17410 | 5 |
+| 19.07.2026 | 17:00 | Hazırlık Kulüpler | Cracovia Krako | Sevilla | 03712 | 5 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Widzew Lodz | Puszcza Niepolo | 10645 | 5 |
 | 19.07.2026 | 14:00 | Hazırlık Kulüpler | Nastved | Helsingor | 01411 | 3 |
-| 19.07.2026 | 12:00 | Hazırlık Kulüpler | Kazincbarcika | Deac | 00552 | 3 |
-| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 5 |
 | 19.07.2026 | 15:00 | Hazırlık Kulüpler | Aue | Schalke | 05937 | 5 |
-| 19.07.2026 | 17:00 | Hazırlık Kulüpler | Cracovia Krako | Sevilla | 03712 | 5 |
+| 19.07.2026 | 12:00 | Hazırlık Kulüpler | Kazincbarcika | Deac | 00552 | 3 |
 | 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
 | 19.07.2026 | 16:00 | İsveç Superettan | United Nordic | Orebro | 17816 | 5 |
 | 19.07.2026 | 14:00 | İsveç Superettan | Norrkoping | Sandvikens | 17652 | 5 |
