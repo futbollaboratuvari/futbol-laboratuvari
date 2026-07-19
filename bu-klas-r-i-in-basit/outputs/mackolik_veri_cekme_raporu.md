@@ -1,36 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T19:50:46.509657+00:00
+Tarih: 2026-07-19T19:57:13.839253+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 5
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 5
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 2420
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Konferans Yarı Final
-- Bolivya Premier Lig
-- Ekvador Pro Lig
-- Peru Premier Lig Clausura
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -86,13 +84,7 @@ Tarih: 2026-07-19T19:50:46.509657+00:00
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 20.07.2026 | 03:00 | Peru Premier Lig Clausura | Alianza Lima | Sport Huancayo | 18466 | 5 |
-| 20.07.2026 | 00:45 | Ekvador Pro Lig | Guayaquil City | Manta | 18449 | 5 |
-| 20.07.2026 | 03:15 | Ekvador Pro Lig | Indep. Jose Te | Emelec | 12703 | 5 |
-| 20.07.2026 | 03:30 | Bolivya Premier Lig | Blooming | Real Tomayapo | 10566 | 5 |
-| 20.07.2026 | 02:00 | ABD USL Lig 2 Konferans Yarı Final | Asheville City | Appalachian | 02852 | 3 |
+- Ornek mac yok.
 
 ## Sonuc
 
