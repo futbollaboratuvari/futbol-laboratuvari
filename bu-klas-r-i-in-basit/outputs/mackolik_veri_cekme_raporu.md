@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T14:15:21.110475+00:00
+Tarih: 2026-07-19T14:47:24.852656+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
 - Kac mac bulundu: 33
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 33
-- Ham veri havuzu toplam mac sayisi: 2419
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 32
+- Ham veri havuzu toplam mac sayisi: 2420
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Konferans Yarı Final
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
@@ -31,7 +32,6 @@ Tarih: 2026-07-19T14:15:21.110475+00:00
 - Rusya FNL
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
-- İsveç Allsvenskan
 - İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
@@ -89,8 +89,8 @@ Tarih: 2026-07-19T14:15:21.110475+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 23
-- Acilan detay: 23
+- Denenen Tumu alani: 22
+- Acilan detay: 22
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -105,17 +105,12 @@ Tarih: 2026-07-19T14:15:21.110475+00:00
 |---|---|---|---|---|---|---:|
 | 19.07.2026 | 22:00 | Dünya Kupası 2026 Final | İspanya | Arjantin | 07041 | 5 |
 | 19.07.2026 | 18:30 | Finlandiya Veikkausliiga | Jaro | Inter Turku | 18210 | 5 |
-| 19.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Sirius | 18103 | 5 |
-| 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
-| 19.07.2026 | 17:30 | İsveç Allsvenskan | Hammarby | Degerfors | 18049 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
-| 19.07.2026 | 19:30 | Hazırlık Kulüpler | Al Hilal (Riya | Strum Graz Ii | 10592 | 2 |
-| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Samorin | Gharrafa | 10612 | 5 |
-| 19.07.2026 | 17:00 | Hazırlık Kulüpler | St Pauli | Hnk Gorica | 05145 | 5 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Bicskei | Dunaharaszti | 10594 | 3 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 4 |
 | 19.07.2026 | 18:30 | Hazırlık Kulüpler | Haladas | Lecce | 10671 | 2 |
 | 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
 | 19.07.2026 | 18:00 | Rusya FNL | Pfc Sochi | Spartak Kostrom | 18193 | 5 |
@@ -123,6 +118,11 @@ Tarih: 2026-07-19T14:15:21.110475+00:00
 | 19.07.2026 | 19:00 | Rusya FNL | Arsenal Tula | Neftekhimik | 18283 | 5 |
 | 19.07.2026 | 19:30 | Romanya 1.Lig | Petrolul 52 | Dinamo Bükreş | 18399 | 5 |
 | 19.07.2026 | 19:00 | Litvanya A Ligi | Zalgiris Vilni | Transinvest Vil | 18381 | 5 |
+| 19.07.2026 | 18:45 | Litvanya A Ligi | Dziugas Telsia | Banga | 18281 | 5 |
+| 19.07.2026 | 19:00 | Peru Premier Lig Clausura | Chankas Cyc | Sport Boys | 18300 | 5 |
+| 20.07.2026 | 03:00 | Peru Premier Lig Clausura | Alianza Lima | Sport Huancayo | 18466 | 5 |
+| 19.07.2026 | 18:00 | Belarus Kupa Son 32 Turu | Nfk Minsk | Dinamo Brest | 10730 | 2 |
+| 19.07.2026 | 20:00 | Moldova Ulusal Lig | Petrocub | Sheriff Tiraspo | 19740 | 5 |
 
 ## Sonuc
 

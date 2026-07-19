@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 38
-- Live match count: 17
-- Finished removed count: 3
+- Scheduled match count: 36
+- Live match count: 20
+- Finished removed count: 0
 - Date window: 2026-07-19 / 2026-07-20 23:59
 
 - 2026-07-19 16:00 | Volna Pinsk - Slavia Mozyr | live

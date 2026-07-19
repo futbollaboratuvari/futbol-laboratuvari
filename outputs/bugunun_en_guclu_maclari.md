@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-19T14:18:41.474Z
+- Güncelleme: 2026-07-19T14:47:36.506Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -28,12 +28,12 @@
 | Smiltene VS Rezekne / Bjss | Letonya 1.Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sporting Hasse VS Antwerp | Hazırlık Kulüpler | 17:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | St Pauli VS Hnk Gorica | Hazırlık Kulüpler | 17:00 | MS 2 | 4.32 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Halmstads VS Hacken | İsveç Allsvenskan | 17:30 | MS 1 | 4.35 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Elfsborg VS Sirius | İsveç Allsvenskan | 17:30 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Halmstads VS Hacken | İsveç Allsvenskan | 17:30 | MS 1 | 4.35 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Elfsborg VS Sirius | İsveç Allsvenskan | 17:30 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Hammarby VS Degerfors | İsveç Allsvenskan | 17:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Genoa VS Trento Calcio 1 | Hazırlık Kulüpler | 18:00 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Pfc Sochi VS Spartak Kostrom | Rusya FNL | 18:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Milsami-Ursido VS Csf Balti | Moldova Ulusal Lig | 18:00 | MS 2 | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Milsami-Ursido VS Csf Balti | Moldova Ulusal Lig | 18:00 | MS 2 | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gualberto Vill VS The Strongest | Bolivya Premier Lig | 18:00 | MS X | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kauno Zalgiris VS Babrungas | Litvanya 1.Lig | 18:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Widzew Lodz VS Puszcza Niepolo | Hazırlık Kulüpler | 18:00 | MS 2 | 4.61 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
@@ -59,10 +59,11 @@
 | T.Universitari VS Aucas | Ekvador Pro Lig | 19:45 | MS 1 | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cukaricki VS Imt Novi Beogra | Sırbistan Süper Lig | 20:00 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Vojvodina VS Ofk Beograd | Sırbistan Süper Lig | 20:00 | MS 2 | 4.34 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Radnik Surduli VS Mladost Lucani | Sırbistan Süper Lig | 20:00 | MS 2 | 3.47 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Petrocub VS Sheriff Tiraspo | Moldova Ulusal Lig | 20:00 | MS X | 2.54 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Radnik Surduli VS Mladost Lucani | Sırbistan Süper Lig | 20:00 | MS 2 | 3.38 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Petrocub VS Sheriff Tiraspo | Moldova Ulusal Lig | 20:00 | MS X | 2.57 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | İspanya VS Arjantin | Dünya Kupası 2026 Final | 22:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Guayaquil City VS Manta | Ekvador Pro Lig | 00:45 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Asheville City VS Appalachian | ABD USL Lig 2 Konferans Yarı Final | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Alianza Lima VS Sport Huancayo | Peru Premier Lig Clausura | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Indep. Jose Te VS Emelec | Ekvador Pro Lig | 03:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Blooming VS Real Tomayapo | Bolivya Premier Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
