@@ -1,19 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-19 / 2026-07-20
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 92
-Aktif mac: 75
-Canli mac: 17
-Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 71
+Aktif mac: 73
+Canli mac: 16
+Biten mac: 3
+Bultenden dusurulen mac: 19
+Bugun: 69
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-19 03:00 | Ekvador Pro Lig | Barcelona Gua - Libertad | scheduled | -
-- 2026-07-19 03:00 | Nikaragua Premier Lig Apertura | Managua - Rancho Santana | scheduled | -
 - 2026-07-19 03:30 | Bolivya Premier Lig | Aurora - Oriente Petrole | scheduled | -
 - 2026-07-19 03:30 | ABD USL | Tulsa Roughnec - El Paso Locomot | scheduled | -
 - 2026-07-19 04:00 | ABD USL | San Antonio - Las Vegas Light | scheduled | -
@@ -89,14 +86,6 @@ Yarin: 4
 - 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | scheduled | -
 
 ## Canli Maclar
-- 2026-07-19 02:30 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | live | -
-- 2026-07-19 02:30 | ABD USL | Rhode Island - Hartford Athlet | live | -
-- 2026-07-19 02:30 | ABD USL | Charleston Bat - Sacramento Repu | live | -
-- 2026-07-19 02:30 | ABD USL Lig 1 | One Knoxville - Alta | live | -
-- 2026-07-19 02:30 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | live | -
-- 2026-07-19 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa - İngiltere | live | -
-- 2026-07-19 00:00 | Brezilya Serie B | Atletico Goian - Athletic Club | live | -
-- 2026-07-19 00:30 | Ekvador Pro Lig | Ldu Quito - Leones Del Nort | live | -
 - 2026-07-19 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Walter Ferretti | live | -
 - 2026-07-19 02:00 | Meksika Liga MX Apertura | Pumas Unam - Pachuca | live | -
 - 2026-07-19 02:00 | ABD USL | Detroit City - Indy Eleven | live | -
@@ -106,6 +95,15 @@ Yarin: 4
 - 2026-07-19 02:00 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | live | -
 - 2026-07-19 02:00 | ABD USL Lig 1 | Union Omaha - Westchester Sc | live | -
 - 2026-07-19 02:00 | ABD USL Lig 1 | Richmond Kicke - Spokane Velocit | live | -
+- 2026-07-19 02:30 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | live | -
+- 2026-07-19 02:30 | ABD USL | Rhode Island - Hartford Athlet | live | -
+- 2026-07-19 02:30 | ABD USL | Charleston Bat - Sacramento Repu | live | -
+- 2026-07-19 02:30 | ABD USL Lig 1 | One Knoxville - Alta | live | -
+- 2026-07-19 02:30 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | live | -
+- 2026-07-19 03:00 | Ekvador Pro Lig | Barcelona Gua - Libertad | live | -
+- 2026-07-19 03:00 | Nikaragua Premier Lig Apertura | Managua - Rancho Santana | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-19 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa - İngiltere | finished | -
+- 2026-07-19 00:00 | Brezilya Serie B | Atletico Goian - Athletic Club | finished | -
+- 2026-07-19 00:30 | Ekvador Pro Lig | Ldu Quito - Leones Del Nort | finished | -
