@@ -1,14 +1,14 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 60
-Tam analiz: 53
+Toplam analiz: 59
+Tam analiz: 52
 Eksik analiz: 7
 
-- Brisbane Olymp VS Brisbane Roar I: eksik score, confidence
 - Kazincbarcika VS Deac: eksik score, confidence
-- Nastved VS Helsingor: eksik score, confidence
+- Soligorsk VS Neman Grodno: eksik score, confidence
 - Central Espano VS Cerro Largo: eksik score, confidence
-- Widzew Lodz VS Puszcza Niepolo: eksik score, confidence
+- Volna Pinsk VS Slavia Mozyr: eksik score, confidence
+- Nfk Minsk VS Dinamo Brest: eksik score, confidence
 - Cerro VS Racing Montevid: eksik score, confidence
 - Kr Reykjavik VS Stjarnan: eksik score, confidence

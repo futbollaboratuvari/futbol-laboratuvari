@@ -2,24 +2,23 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-19T08:59:04.626Z
+- Güncelleme: 2026-07-19T09:18:33.169Z
 - Ham maç sayısı: 63
 - Yarın bülteni maç sayısı: 4
 - Detay blok sayısı: 168
-- Aktif bülten maçı: 62
-- Bültenden düşürülen maç: 1
+- Aktif bülten maçı: 61
+- Bültenden düşürülen maç: 2
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kazincbarcika - Deac | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.34 | 4 |
-| Riga Ii - Super Nova Ii | Letonya 1.Lig | 13:00 | Veri bekleniyor | - | 1.62 | 6 |
+| Riga Ii - Super Nova Ii | Letonya 1.Lig | 13:00 | Veri bekleniyor | - | 1.61 | 6 |
 | Anyang - Gwangju | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.4 | 7 |
 | Bucheon - Fc Seoul | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 4.57 | 7 |
 | Yongin - Hwaseong | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.52 | 8 |
-| Cheongju Fc - Cheonan City Fc | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.36 | 8 |
+| Cheongju Fc - Cheonan City Fc | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.24 | 8 |
 | Suwon Sb - Paju Citizen | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.2 | 6 |
-| Gyeongnam - Ansan Greeners | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.51 | 7 |
+| Gyeongnam - Ansan Greeners | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.5 | 7 |
 | Norrkoping - Sandvikens | İsveç Superettan | 14:00 | Veri bekleniyor | - | 1.34 | 6 |
 | Tauras - Fa Siauliai Ii | Litvanya 1.Lig | 14:00 | Veri bekleniyor | - | - | 3 |
 | Nastved - Helsingor | Hazırlık Kulüpler | 14:00 | Veri bekleniyor | - | 1.88 | 6 |
@@ -55,13 +54,13 @@
 | Dziugas Telsia - Banga | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 2.36 | 8 |
 | Arsenal Tula - Neftekhimik | Rusya FNL | 19:00 | Veri bekleniyor | - | 1.54 | 7 |
 | Zalgiris Vilni - Transinvest Vil | Litvanya A Ligi | 19:00 | Veri bekleniyor | - | 1.69 | 8 |
-| Chankas Cyc - Sport Boys | Peru Premier Lig Clausura | 19:00 | Veri bekleniyor | - | 1.62 | 8 |
+| Chankas Cyc - Sport Boys | Peru Premier Lig Clausura | 19:00 | Veri bekleniyor | - | 1.68 | 8 |
 | Cerro - Racing Montevid | Uruguay Premier Lig Intermediate Turu Grup 1 | 19:00 | Veri bekleniyor | - | 4.21 | 3 |
 | Aluminij - Maribor | Slovenya 1.SNL | 19:00 | Veri bekleniyor | - | 4.31 | 6 |
 | Kr Reykjavik - Stjarnan | İzlanda Urvalsdeild | 19:00 | Veri bekleniyor | - | 1.34 | 4 |
 | Harju Jalgpall - Paide Linnamees | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 2.8 | 5 |
-| Ordabasy - Yelimay Semey | Kazakistan Premier Lig | 19:00 | Veri bekleniyor | - | 1.37 | 7 |
-| Ekranas - Bfa | Litvanya 1.Lig | 19:00 | Veri bekleniyor | - | 2.77 | 8 |
+| Ordabasy - Yelimay Semey | Kazakistan Premier Lig | 19:00 | Veri bekleniyor | - | 1.34 | 7 |
+| Ekranas - Bfa | Litvanya 1.Lig | 19:00 | Veri bekleniyor | - | 2.7 | 8 |
 | Botev Vratsa - Cherno More | Bulgaristan 1.Lig | 19:30 | Veri bekleniyor | - | 2.36 | 8 |
 | Petrolul 52 - Dinamo Bükreş | Romanya 1.Lig | 19:30 | Veri bekleniyor | - | 3.15 | 8 |
 | T.Universitari - Aucas | Ekvador Pro Lig | 19:45 | Veri bekleniyor | - | 2.78 | 8 |
