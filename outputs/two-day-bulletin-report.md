@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-19 / 2026-07-20
 Kaynak: fixtures.json
-Ham mac: 56
+Ham mac: 51
 Aktif mac: 27
-Canli mac: 29
+Canli mac: 24
 Biten mac: 0
-Bultenden dusurulen mac: 29
+Bultenden dusurulen mac: 24
 Bugun: 22
 Yarin: 5
 
@@ -40,11 +40,6 @@ Yarin: 5
 - 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | scheduled | -
 
 ## Canli Maclar
-- 2026-07-19 16:00 | İsveç Superettan | United Nordic - Orebro | live | -
-- 2026-07-19 16:00 | İsveç Superettan | Varnamo - Ljungskile | live | -
-- 2026-07-19 16:00 | Rusya FNL | Kamaz - Olimpiyets | live | -
-- 2026-07-19 16:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Central Espano - Cerro Largo | live | -
-- 2026-07-19 16:00 | Belarus Kupa Son 32 Turu | Volna Pinsk - Slavia Mozyr | live | -
 - 2026-07-19 16:30 | Belarus Kupa Son 32 Turu | Orsha - Naftan | live | -
 - 2026-07-19 17:00 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | live | -
 - 2026-07-19 17:00 | Rusya FNL | Tekstilshchik - Ufa | live | -
