@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T04:00:16.955209+00:00
+Tarih: 2026-07-19T06:23:15.661607+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 56
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 56
-- Ham veri havuzu toplam mac sayisi: 2406
+- Kac mac bulundu: 60
+- Kac mac kaydedildi: 3
+- Kac mac zaten vardi: 57
+- Ham veri havuzu toplam mac sayisi: 2409
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -17,7 +17,6 @@ Tarih: 2026-07-19T04:00:16.955209+00:00
 - Avustralya NPL Güney Avustralya
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
-- Avustralya NPL Yeni Güney Galler
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
 - Dünya Kupası 2026 Final
@@ -38,7 +37,6 @@ Tarih: 2026-07-19T04:00:16.955209+00:00
 - Rusya FNL
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
 - İsveç Allsvenskan
 - İsveç Superettan
 - İzlanda Urvalsdeild
@@ -98,8 +96,8 @@ Tarih: 2026-07-19T04:00:16.955209+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 29
+- Acilan detay: 29
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,24 +112,24 @@ Tarih: 2026-07-19T04:00:16.955209+00:00
 |---|---|---|---|---|---|---:|
 | 19.07.2026 | 22:00 | Dünya Kupası 2026 Final | İspanya | Arjantin | 07041 | 5 |
 | 19.07.2026 | 18:30 | Finlandiya Veikkausliiga | Jaro | Inter Turku | 18210 | 5 |
-| 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Hammarby | Degerfors | 18049 | 5 |
+| 19.07.2026 | 17:30 | İsveç Allsvenskan | Halmstads | Hacken | 17996 | 5 |
 | 19.07.2026 | 17:30 | İsveç Allsvenskan | Elfsborg | Sirius | 18103 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
-| 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Anyang | Gwangju | 17497 | 5 |
 | 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Bucheon | Fc Seoul | 17410 | 5 |
+| 19.07.2026 | 13:30 | Güney Kore K Lig 1 | Anyang | Gwangju | 17497 | 5 |
+| 19.07.2026 | 18:00 | Hazırlık Kulüpler | Widzew Lodz | Puszcza Niepolo | 10645 | 5 |
 | 19.07.2026 | 17:00 | Hazırlık Kulüpler | Cracovia Krako | Sevilla | 03712 | 5 |
+| 19.07.2026 | 12:00 | Hazırlık Kulüpler | Kazincbarcika | Deac | 00552 | 3 |
 | 19.07.2026 | 15:00 | Hazırlık Kulüpler | Aue | Schalke | 05937 | 5 |
+| 19.07.2026 | 14:00 | Hazırlık Kulüpler | Nastved | Helsingor | 01411 | 3 |
 | 19.07.2026 | 18:00 | Hazırlık Kulüpler | Genoa | Trento Calcio 1 | 04853 | 5 |
 | 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
 | 19.07.2026 | 16:00 | İsveç Superettan | Varnamo | Ljungskile | 17745 | 5 |
-| 19.07.2026 | 14:00 | İsveç Superettan | Norrkoping | Sandvikens | 17652 | 5 |
 | 19.07.2026 | 16:00 | İsveç Superettan | United Nordic | Orebro | 17816 | 5 |
-| 19.07.2026 | 17:00 | Rusya FNL | Shinnik Yarosl | Leningradets | 17895 | 5 |
-| 19.07.2026 | 18:00 | Rusya FNL | Pfc Sochi | Spartak Kostrom | 18193 | 5 |
-| 19.07.2026 | 16:00 | Rusya FNL | Kamaz | Olimpiyets | 17799 | 5 |
+| 19.07.2026 | 14:00 | İsveç Superettan | Norrkoping | Sandvikens | 17652 | 5 |
 
 ## Sonuc
 
