@@ -1,25 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T15:27:51.695172+00:00
+Tarih: 2026-07-19T15:45:57.194124+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 20
+- Kac mac bulundu: 22
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 20
+- Kac mac zaten vardi: 22
 - Ham veri havuzu toplam mac sayisi: 2420
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Lig 2 Konferans Yarı Final
+- Bolivya Premier Lig
 - Bulgaristan 1.Lig
 - Dünya Kupası 2026 Final
 - Ekvador Pro Lig
 - Estonya Premium Lig
-- Finlandiya Veikkausliiga
-- Hazırlık Kulüpler
 - Kazakistan Premier Lig
 - Litvanya 1.Lig
 - Litvanya A Ligi
@@ -86,8 +86,8 @@ Tarih: 2026-07-19T15:27:51.695172+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -101,25 +101,25 @@ Tarih: 2026-07-19T15:27:51.695172+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 19.07.2026 | 22:00 | Dünya Kupası 2026 Final | İspanya | Arjantin | 07041 | 5 |
-| 19.07.2026 | 18:30 | Finlandiya Veikkausliiga | Jaro | Inter Turku | 18210 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
-| 19.07.2026 | 18:30 | Hazırlık Kulüpler | Haladas | Lecce | 10671 | 2 |
 | 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
-| 19.07.2026 | 18:30 | Rusya FNL | Torpedo Moskov | Volga Ulyanovsk | 18264 | 5 |
 | 19.07.2026 | 19:00 | Rusya FNL | Arsenal Tula | Neftekhimik | 18283 | 5 |
 | 19.07.2026 | 19:30 | Romanya 1.Lig | Petrolul 52 | Dinamo Bükreş | 18399 | 5 |
 | 19.07.2026 | 18:45 | Litvanya A Ligi | Dziugas Telsia | Banga | 18281 | 5 |
 | 19.07.2026 | 19:00 | Litvanya A Ligi | Zalgiris Vilni | Transinvest Vil | 18381 | 5 |
 | 19.07.2026 | 19:00 | Peru Premier Lig Clausura | Chankas Cyc | Sport Boys | 18300 | 5 |
+| 20.07.2026 | 03:00 | Peru Premier Lig Clausura | Alianza Lima | Sport Huancayo | 18466 | 5 |
 | 19.07.2026 | 20:00 | Moldova Ulusal Lig | Petrocub | Sheriff Tiraspo | 19740 | 5 |
 | 19.07.2026 | 19:00 | Slovenya 1.SNL | Aluminij | Maribor | 18348 | 5 |
 | 19.07.2026 | 19:00 | İzlanda Urvalsdeild | Kr Reykjavik | Stjarnan | 18331 | 3 |
 | 19.07.2026 | 19:45 | Ekvador Pro Lig | T.Universitari | Aucas | 18432 | 5 |
+| 20.07.2026 | 03:15 | Ekvador Pro Lig | Indep. Jose Te | Emelec | 12703 | 5 |
+| 20.07.2026 | 00:45 | Ekvador Pro Lig | Guayaquil City | Manta | 18449 | 5 |
 | 19.07.2026 | 19:00 | Estonya Premium Lig | Harju Jalgpall | Paide Linnamees | 18326 | 5 |
 | 19.07.2026 | 19:00 | Kazakistan Premier Lig | Ordabasy | Yelimay Semey | 18157 | 5 |
-| 19.07.2026 | 19:00 | Litvanya 1.Lig | Ekranas | Bfa | 18324 | 5 |
+| 20.07.2026 | 03:30 | Bolivya Premier Lig | Blooming | Real Tomayapo | 10566 | 5 |
 
 ## Sonuc
 
