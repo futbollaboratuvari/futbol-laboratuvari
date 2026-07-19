@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 54
-Tam analiz: 46
-Eksik analiz: 8
+Toplam analiz: 51
+Tam analiz: 44
+Eksik analiz: 7
 
-- Soligorsk VS Neman Grodno: eksik score, confidence
 - Central Espano VS Cerro Largo: eksik score, confidence
 - Volna Pinsk VS Slavia Mozyr: eksik score, confidence
 - Orsha VS Naftan: eksik score, confidence
