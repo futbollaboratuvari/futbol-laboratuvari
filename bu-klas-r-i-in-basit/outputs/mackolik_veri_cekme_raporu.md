@@ -1,24 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T16:30:04.558787+00:00
+Tarih: 2026-07-19T16:44:26.594199+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 8
+- Kac mac bulundu: 11
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 8
+- Kac mac zaten vardi: 11
 - Ham veri havuzu toplam mac sayisi: 2420
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Bulgaristan 1.Lig
+- ABD USL Lig 2 Konferans Yarı Final
+- Bolivya Premier Lig
 - Dünya Kupası 2026 Final
 - Ekvador Pro Lig
 - Moldova Ulusal Lig
-- Romanya 1.Lig
+- Peru Premier Lig Clausura
 - Sırbistan Süper Lig
 
 ## Okunabilen Oran Alanlari
@@ -76,8 +77,8 @@ Tarih: 2026-07-19T16:30:04.558787+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 10
-- Acilan detay: 10
+- Denenen Tumu alani: 8
+- Acilan detay: 8
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -91,13 +92,16 @@ Tarih: 2026-07-19T16:30:04.558787+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 19.07.2026 | 22:00 | Dünya Kupası 2026 Final | İspanya | Arjantin | 07041 | 5 |
-| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Cukaricki | Imt Novi Beogra | 12627 | 5 |
 | 19.07.2026 | 20:00 | Sırbistan Süper Lig | Radnik Surduli | Mladost Lucani | 14579 | 5 |
-| 19.07.2026 | 19:30 | Bulgaristan 1.Lig | Botev Vratsa | Cherno More | 18383 | 5 |
-| 19.07.2026 | 19:30 | Romanya 1.Lig | Petrolul 52 | Dinamo Bükreş | 18399 | 5 |
+| 19.07.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Ofk Beograd | 12645 | 5 |
+| 20.07.2026 | 03:00 | Peru Premier Lig Clausura | Alianza Lima | Sport Huancayo | 18466 | 5 |
 | 19.07.2026 | 20:00 | Moldova Ulusal Lig | Petrocub | Sheriff Tiraspo | 19740 | 5 |
 | 19.07.2026 | 19:45 | Ekvador Pro Lig | T.Universitari | Aucas | 18432 | 5 |
+| 20.07.2026 | 03:15 | Ekvador Pro Lig | Indep. Jose Te | Emelec | 12703 | 5 |
+| 20.07.2026 | 00:45 | Ekvador Pro Lig | Guayaquil City | Manta | 18449 | 5 |
+| 20.07.2026 | 03:30 | Bolivya Premier Lig | Blooming | Real Tomayapo | 10566 | 5 |
+| 20.07.2026 | 02:00 | ABD USL Lig 2 Konferans Yarı Final | Asheville City | Appalachian | 02852 | 3 |
 
 ## Sonuc
 
