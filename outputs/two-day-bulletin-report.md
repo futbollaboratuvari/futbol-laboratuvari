@@ -2,26 +2,15 @@
 
 Gunler: 2026-07-19 / 2026-07-20
 Kaynak: fixtures.json
-Ham mac: 58
-Aktif mac: 49
-Canli mac: 9
+Ham mac: 55
+Aktif mac: 38
+Canli mac: 17
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 45
+Bultenden dusurulen mac: 17
+Bugun: 34
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-19 17:00 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | scheduled | -
-- 2026-07-19 17:00 | Rusya FNL | Tekstilshchik - Ufa | scheduled | -
-- 2026-07-19 17:00 | Rusya FNL | Veles - Chelyabinsk | scheduled | -
-- 2026-07-19 17:00 | Rusya FNL | Shinnik Yarosl - Leningradets | scheduled | -
-- 2026-07-19 17:00 | Romanya 1.Lig | Universitatea - Ssc Farul | scheduled | -
-- 2026-07-19 17:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Ka Akureyri | scheduled | -
-- 2026-07-19 17:00 | Letonya Virsliga | Ogre United - Bfc Daugavpils | scheduled | -
-- 2026-07-19 17:00 | Estonya Premium Lig | Kuressaare - Nomme Kalju | scheduled | -
-- 2026-07-19 17:00 | Letonya 1.Lig | Smiltene - Rezekne / Bjss | scheduled | -
-- 2026-07-19 17:00 | Hazırlık Kulüpler | Sporting Hasse - Antwerp | scheduled | -
-- 2026-07-19 17:00 | Hazırlık Kulüpler | St Pauli - Hnk Gorica | scheduled | -
 - 2026-07-19 17:30 | İsveç Allsvenskan | Halmstads - Hacken | scheduled | -
 - 2026-07-19 17:30 | İsveç Allsvenskan | Elfsborg - Sirius | scheduled | -
 - 2026-07-19 17:30 | İsveç Allsvenskan | Hammarby - Degerfors | scheduled | -
@@ -62,15 +51,23 @@ Yarin: 4
 - 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | scheduled | -
 
 ## Canli Maclar
-- 2026-07-19 15:00 | Hazırlık Kulüpler | Aue - Schalke | live | -
-- 2026-07-19 15:00 | Rusya FNL | Ural - Yenisey | live | -
-- 2026-07-19 15:00 | Belarus Kupa Son 32 Turu | Soligorsk - Neman Grodno | live | -
 - 2026-07-19 16:00 | İsveç Superettan | United Nordic - Orebro | live | -
 - 2026-07-19 16:00 | İsveç Superettan | Varnamo - Ljungskile | live | -
 - 2026-07-19 16:00 | Rusya FNL | Kamaz - Olimpiyets | live | -
 - 2026-07-19 16:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Central Espano - Cerro Largo | live | -
 - 2026-07-19 16:00 | Belarus Kupa Son 32 Turu | Volna Pinsk - Slavia Mozyr | live | -
 - 2026-07-19 16:30 | Belarus Kupa Son 32 Turu | Orsha - Naftan | live | -
+- 2026-07-19 17:00 | Hazırlık Kulüpler | Cracovia Krako - Sevilla | live | -
+- 2026-07-19 17:00 | Rusya FNL | Tekstilshchik - Ufa | live | -
+- 2026-07-19 17:00 | Rusya FNL | Veles - Chelyabinsk | live | -
+- 2026-07-19 17:00 | Rusya FNL | Shinnik Yarosl - Leningradets | live | -
+- 2026-07-19 17:00 | Romanya 1.Lig | Universitatea - Ssc Farul | live | -
+- 2026-07-19 17:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Ka Akureyri | live | -
+- 2026-07-19 17:00 | Letonya Virsliga | Ogre United - Bfc Daugavpils | live | -
+- 2026-07-19 17:00 | Estonya Premium Lig | Kuressaare - Nomme Kalju | live | -
+- 2026-07-19 17:00 | Letonya 1.Lig | Smiltene - Rezekne / Bjss | live | -
+- 2026-07-19 17:00 | Hazırlık Kulüpler | Sporting Hasse - Antwerp | live | -
+- 2026-07-19 17:00 | Hazırlık Kulüpler | St Pauli - Hnk Gorica | live | -
 
 ## Biten Maclar
 Biten mac yok.
