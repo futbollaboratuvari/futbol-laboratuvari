@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.07.2026 02:14:47
+Oluşturma: 20.07.2026 02:44:44
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 13
+- Bekleyen tahmin: 13
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 10
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,23 @@ Oluşturma: 20.07.2026 02:14:47
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS X: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-20 | Litvanya A Ligi | Suduva - Hegelmann | MS 2 | pending | 50/100
+- 2026-07-20 | Letonya Virsliga | Super Nova - Grobina | MS X | pending | 40/100
+- 2026-07-20 | Rusya FNL | Rotor Volgogra - Ska-Khabarovsk | MS 2 | pending | 50/100
+- 2026-07-20 | İsveç Allsvenskan | Orgryte - Djurgarden | MS 1 | pending | 40/100
+- 2026-07-20 | İsveç Allsvenskan | Kalmar - Malmö | MS X | pending | 50/100
+- 2026-07-20 | İsveç Superettan | Norrby - Sundsvall | MS 2 | pending | 50/100
+- 2026-07-20 | Bulgaristan 1.Lig | Botev Plovdiv - Lokomotiv Sofia | MS 2 | pending | 60/100
+- 2026-07-20 | Romanya 1.Lig | Rapid Bükreş - Sepsi | MS 2 | pending | 60/100
+- 2026-07-20 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Nejmeh | MS 2 | pending | 40/100
+- 2026-07-20 | Ekvador Pro Lig | Mushuc Runa - Orense | MS 2 | pending | 40/100
+- 2026-07-20 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | MS X | pending | 40/100
+- 2026-07-20 | Finlandiya Veikkausliiga | Turku - Ilves | MS X | pending | 50/100
+- 2026-07-20 | Romanya 1.Lig | Hunedoara - Csikszereda | MS 2 | pending | 40/100
 
