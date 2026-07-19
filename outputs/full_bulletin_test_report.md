@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 67
-- Live match count: 3
+- Scheduled match count: 58
+- Live match count: 10
 - Finished removed count: 0
 - Date window: 2026-07-19 / 2026-07-20 23:59
 
-- 2026-07-19 11:30 | White City Woo - Adelaide United | live
-- 2026-07-19 12:00 | Kazincbarcika - Deac | live
 - 2026-07-19 13:00 | Riga Ii - Super Nova Ii | live
-- 2026-07-19 13:30 | Anyang - Gwangju | scheduled
-- 2026-07-19 13:30 | Bucheon - Fc Seoul | scheduled
-- 2026-07-19 13:30 | Cheongju Fc - Cheonan City Fc | scheduled
-- 2026-07-19 13:30 | Gyeongnam - Ansan Greeners | scheduled
-- 2026-07-19 13:30 | Suwon Sb - Paju Citizen | scheduled
-- 2026-07-19 13:30 | Yongin - Hwaseong | scheduled
-- 2026-07-19 14:00 | Nastved - Helsingor | scheduled
+- 2026-07-19 13:30 | Anyang - Gwangju | live
+- 2026-07-19 13:30 | Bucheon - Fc Seoul | live
+- 2026-07-19 13:30 | Cheongju Fc - Cheonan City Fc | live
+- 2026-07-19 13:30 | Gyeongnam - Ansan Greeners | live
+- 2026-07-19 13:30 | Suwon Sb - Paju Citizen | live
+- 2026-07-19 13:30 | Yongin - Hwaseong | live
+- 2026-07-19 14:00 | Nastved - Helsingor | live
+- 2026-07-19 14:00 | Norrkoping - Sandvikens | live
+- 2026-07-19 14:00 | Tauras - Fa Siauliai Ii | live

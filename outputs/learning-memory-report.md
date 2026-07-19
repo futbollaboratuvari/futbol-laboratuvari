@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.07.2026 13:42:01
+Oluşturma: 19.07.2026 14:30:16
 
 ## Özet
 
-- Toplam tahmin: 55
-- Bekleyen tahmin: 55
+- Toplam tahmin: 56
+- Bekleyen tahmin: 56
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,13 @@ Oluşturma: 19.07.2026 13:42:01
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 - MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-19 | İsveç Allsvenskan | Elfsborg - Sirius | MS 1 | pending | 50/100
 - 2026-07-19 | Moldova Ulusal Lig | Milsami-Ursido - Csf Balti | MS X | pending | 50/100
 - 2026-07-19 | İsveç Superettan | United Nordic - Orebro | MS X | pending | 50/100
 - 2026-07-19 | Sırbistan Süper Lig | Cukaricki - Imt Novi Beogra | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 19.07.2026 13:42:01
 - 2026-07-19 | Peru Premier Lig Clausura | Chankas Cyc - Sport Boys | MS 2 | pending | 50/100
 - 2026-07-19 | Kazakistan Premier Lig | Ordabasy - Yelimay Semey | MS 2 | pending | 50/100
 - 2026-07-19 | Litvanya 1.Lig | Ekranas - Bfa | MS X | pending | 50/100
-- 2026-07-19 | Romanya 1.Lig | Petrolul 52 - Dinamo Bükreş | MS 1 | pending | 40/100
 
