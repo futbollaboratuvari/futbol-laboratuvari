@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-19T11:29:49.940232+00:00
+Tarih: 2026-07-19T11:44:47.766430+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 57
+- Kac mac bulundu: 52
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 57
+- Kac mac zaten vardi: 52
 - Ham veri havuzu toplam mac sayisi: 2419
 - Hedef tarih: 19.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avustralya NPL Kuzey YGG
 - Belarus Kupa Son 32 Turu
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
@@ -93,8 +92,8 @@ Tarih: 2026-07-19T11:29:49.940232+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 25
+- Acilan detay: 25
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
