@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 11
-- Live match count: 25
-- Finished removed count: 0
+- Scheduled match count: 6
+- Live match count: 21
+- Finished removed count: 9
 - Date window: 2026-07-19 / 2026-07-20 23:59
 
-- 2026-07-19 18:00 | Nfk Minsk - Dinamo Brest | live
-- 2026-07-19 18:00 | Gualberto Vill - The Strongest | live
-- 2026-07-19 18:00 | Bicskei - Dunaharaszti | live
-- 2026-07-19 18:00 | Genoa - Trento Calcio 1 | live
-- 2026-07-19 18:00 | Samorin - Gharrafa | live
-- 2026-07-19 18:00 | Widzew Lodz - Puszcza Niepolo | live
-- 2026-07-19 18:00 | Kauno Zalgiris - Babrungas | live
-- 2026-07-19 18:00 | Milsami-Ursido - Csf Balti | live
-- 2026-07-19 18:00 | Pfc Sochi - Spartak Kostrom | live
 - 2026-07-19 18:30 | Jaro - Inter Turku | live
+- 2026-07-19 18:30 | Haladas - Lecce | live
+- 2026-07-19 18:30 | Torpedo Moskov - Volga Ulyanovsk | live
+- 2026-07-19 18:45 | Dziugas Telsia - Banga | live
+- 2026-07-19 19:00 | Harju Jalgpall - Paide Linnamees | live
+- 2026-07-19 19:00 | Kr Reykjavik - Stjarnan | live
+- 2026-07-19 19:00 | Ordabasy - Yelimay Semey | live
+- 2026-07-19 19:00 | Ekranas - Bfa | live
+- 2026-07-19 19:00 | Zalgiris Vilni - Transinvest Vil | live
+- 2026-07-19 19:00 | Chankas Cyc - Sport Boys | live
