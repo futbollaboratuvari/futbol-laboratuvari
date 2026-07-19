@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.07.2026 04:24:38
+Oluşturma: 19.07.2026 06:51:22
 
 ## Özet
 
-- Toplam tahmin: 47
-- Bekleyen tahmin: 47
+- Toplam tahmin: 49
+- Bekleyen tahmin: 49
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,14 @@ Oluşturma: 19.07.2026 04:24:38
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
+- MS X: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-19 | Romanya 1.Lig | Universitatea - Ssc Farul | MS X | pending | 50/100
+- 2026-07-19 | Hazırlık Kulüpler | Genoa - Trento Calcio 1 | MS X | pending | 75/100
 - 2026-07-19 | Litvanya A Ligi | Dziugas Telsia - Banga | MS X | pending | 40/100
 - 2026-07-19 | Rusya FNL | Arsenal Tula - Neftekhimik | MS 2 | pending | 50/100
 - 2026-07-19 | Litvanya A Ligi | Zalgiris Vilni - Transinvest Vil | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 19.07.2026 04:24:38
 - 2026-07-19 | Sırbistan Süper Lig | Radnik Surduli - Mladost Lucani | MS 2 | pending | 40/100
 - 2026-07-19 | Moldova Ulusal Lig | Petrocub - Sheriff Tiraspo | MS X | pending | 40/100
 - 2026-07-19 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | MS X | pending | 50/100
-- 2026-07-19 | ABD USL | Rhode Island - Hartford Athlet | MS 2 | pending | 50/100
-- 2026-07-19 | ABD USL | Charleston Bat - Sacramento Repu | MS 2 | pending | 40/100
 
