@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-19 / 2026-07-20
 Kaynak: fixtures.json
-Ham mac: 92
-Aktif mac: 64
-Canli mac: 3
-Biten mac: 25
-Bultenden dusurulen mac: 28
-Bugun: 60
+Ham mac: 67
+Aktif mac: 61
+Canli mac: 6
+Biten mac: 0
+Bultenden dusurulen mac: 6
+Bugun: 57
 Yarin: 4
 
 ## Baslamamis Maclar
-- 2026-07-19 07:00 | Avustralya Victoria NPL 1 | Western Utd. I - Bulleen Lions | scheduled | -
-- 2026-07-19 07:30 | Avustralya NPL Tazmanya | South East Uni - Launceston Unit | scheduled | -
-- 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | scheduled | -
 - 2026-07-19 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - St George City | scheduled | -
 - 2026-07-19 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Sydney United | scheduled | -
 - 2026-07-19 08:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Edgeworth Eagle | scheduled | -
@@ -80,30 +77,9 @@ Yarin: 4
 - 2026-07-19 05:30 | ABD USL | Phoenix Rising - Monterey Bay | live | -
 - 2026-07-19 06:00 | Avustralya NPL Kuzey YGG | Hamilton Olymp - Belmont Swansea | live | -
 - 2026-07-19 06:10 | Meksika Liga MX Apertura | Queretaro - Club America | live | -
+- 2026-07-19 07:00 | Avustralya Victoria NPL 1 | Western Utd. I - Bulleen Lions | live | -
+- 2026-07-19 07:30 | Avustralya NPL Tazmanya | South East Uni - Launceston Unit | live | -
+- 2026-07-19 07:30 | Avustralya NPL Tazmanya | Ulverstone - Glenorchy Knigh | live | -
 
 ## Biten Maclar
-- 2026-07-19 00:00 | Dünya Kupası 2026 Üçüncülük | Fransa - İngiltere | finished | -
-- 2026-07-19 00:00 | Brezilya Serie B | Atletico Goian - Athletic Club | finished | -
-- 2026-07-19 00:30 | Ekvador Pro Lig | Ldu Quito - Leones Del Nort | finished | -
-- 2026-07-19 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Walter Ferretti | finished | -
-- 2026-07-19 02:00 | Meksika Liga MX Apertura | Pumas Unam - Pachuca | finished | -
-- 2026-07-19 02:00 | ABD USL | Detroit City - Indy Eleven | finished | -
-- 2026-07-19 02:00 | ABD USL | Sporting Jax - Brooklyn | finished | -
-- 2026-07-19 02:00 | ABD USL | Loudoun United - Tampa Bay Rowdi | finished | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | New York Cosmo - Corpus Christi | finished | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | Charlotte Inde - Chattanooga Red | finished | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | Union Omaha - Westchester Sc | finished | -
-- 2026-07-19 02:00 | ABD USL Lig 1 | Richmond Kicke - Spokane Velocit | finished | -
-- 2026-07-19 02:30 | Peru Premier Lig Clausura | Cusco Fc - Alianza Atletic | finished | -
-- 2026-07-19 02:30 | ABD USL | Rhode Island - Hartford Athlet | finished | -
-- 2026-07-19 02:30 | ABD USL | Charleston Bat - Sacramento Repu | finished | -
-- 2026-07-19 02:30 | ABD USL Lig 1 | One Knoxville - Alta | finished | -
-- 2026-07-19 02:30 | ABD USL Lig 1 | Fort Wayne - Greenville Triu | finished | -
-- 2026-07-19 03:00 | Ekvador Pro Lig | Barcelona Gua - Libertad | finished | -
-- 2026-07-19 03:00 | Nikaragua Premier Lig Apertura | Managua - Rancho Santana | finished | -
-- 2026-07-19 03:30 | Bolivya Premier Lig | Aurora - Oriente Petrole | finished | -
-- 2026-07-19 03:30 | ABD USL | Tulsa Roughnec - El Paso Locomot | finished | -
-- 2026-07-19 04:00 | ABD USL | San Antonio - Las Vegas Light | finished | -
-- 2026-07-19 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Export Sebaco | finished | -
-- 2026-07-19 04:05 | Meksika Liga MX Apertura | Monterrey - Santos Laguna | finished | -
-- 2026-07-19 04:07 | Meksika Liga MX Apertura | Guadalajara - Toluca | finished | -
+Biten mac yok.
