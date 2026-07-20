@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-20T15:01:58.735176+00:00
+Tarih: 2026-07-20T15:18:58.937552+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 23
+- Kac mac bulundu: 21
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 23
+- Kac mac zaten vardi: 21
 - Ham veri havuzu toplam mac sayisi: 2448
 - Hedef tarih: 20.07.2026 Europe/Istanbul
 
@@ -22,7 +22,6 @@ Tarih: 2026-07-20T15:01:58.735176+00:00
 - Hazırlık Kulüpler
 - Letonya 1.Lig
 - Letonya Virsliga
-- Litvanya 1.Lig
 - Litvanya A Ligi
 - Lübnan Premier Lig Şampiyonluk Turu
 - Romanya 1.Lig
@@ -87,8 +86,8 @@ Tarih: 2026-07-20T15:01:58.735176+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 17
+- Acilan detay: 17
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -120,7 +119,7 @@ Tarih: 2026-07-20T15:01:58.735176+00:00
 | 20.07.2026 | 22:15 | İzlanda 1.Lig | Hk Kopavogur | Vestri | 18973 | 3 |
 | 20.07.2026 | 19:00 | Letonya Virsliga | Super Nova | Grobina | 18630 | 5 |
 | 20.07.2026 | 22:00 | Bolivya Premier Lig | San Antonio Bu | Academia Del Ba | 09668 | 3 |
-| 21.07.2026 | 02:00 | Bolivya Premier Lig | Nacional Potos | Real Oruro | 10851 | 3 |
+| 20.07.2026 | 19:00 | Letonya 1.Lig | Tukums Ii | Rigas Fs Ii | 02459 | 3 |
 
 ## Sonuc
 
