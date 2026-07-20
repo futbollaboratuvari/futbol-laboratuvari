@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-19T09:08:08+03:00
+Güncelleme: 2026-07-20T09:26:42+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 127
+- Toplam tahmin kaydı: 48
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -14,14 +14,13 @@ Güncelleme: 2026-07-19T09:08:08+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 58 | 0 | 0 | 58 | %0 | 0 |
+| Değerli market yok | 22 | 0 | 0 | 22 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 10 | 0 | 0 | 10 | %0 | 3.35 |
-| MS 2 | 32 | 0 | 0 | 32 | %0 | 3.78 |
-| MS X | 26 | 0 | 0 | 26 | %0 | 3.11 |
+| MS 1 | 2 | 0 | 0 | 2 | %0 | 6.19 |
+| MS 2 | 16 | 0 | 0 | 16 | %0 | 3.68 |
+| MS X | 8 | 0 | 0 | 8 | %0 | 2.91 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -31,50 +30,49 @@ Güncelleme: 2026-07-19T09:08:08+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 24 | 0 | 0 | 24 | %0 | 2.84 |
-| 3.00-4.99 | 42 | 0 | 0 | 42 | %0 | 3.73 |
-| 5.00+ | 2 | 0 | 0 | 2 | %0 | 5.27 |
-| bilinmiyor | 59 | 0 | 0 | 59 | %0 | 0 |
+| 2.00-2.99 | 6 | 0 | 0 | 6 | %0 | 2.73 |
+| 3.00-4.99 | 16 | 0 | 0 | 16 | %0 | 3.45 |
+| 5.00+ | 4 | 0 | 0 | 4 | %0 | 5.73 |
+| bilinmiyor | 22 | 0 | 0 | 22 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| ABD USL | 3 | 0 | 0 | 3 | %0 | 3.2 |
-| Avustralya NPL Güney Avustralya | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya NPL Kuzey YGG | 4 | 0 | 0 | 4 | %0 | 0 |
-| Avustralya NPL Queensland | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya NPL Tazmanya | 4 | 0 | 0 | 4 | %0 | 0 |
-| Avustralya NPL Yeni Güney Galler | 4 | 0 | 0 | 4 | %0 | 3.22 |
-| Avustralya Victoria NPL 1 | 2 | 0 | 0 | 2 | %0 | 0 |
 | Bolivya Premier Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| Bulgaristan 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| Dünya Kupası 2026 Final | 2 | 0 | 0 | 2 | %0 | 0 |
-| Ekvador Pro Lig | 2 | 0 | 0 | 2 | %0 | 2.78 |
-| Estonya Premium Lig | 4 | 0 | 0 | 4 | %0 | 0 |
+| Bulgaristan 1.Lig | 4 | 0 | 0 | 4 | %0 | 3.89 |
+| Ekvador Pro Lig | 2 | 0 | 0 | 2 | %0 | 3.17 |
+| Finlandiya Veikkausliiga | 4 | 0 | 0 | 4 | %0 | 3.14 |
+| Finlandiya Ykkönen | 2 | 0 | 0 | 2 | %0 | 0 |
+| Hazırlık Kulüpler | 2 | 0 | 0 | 2 | %0 | 0 |
+| Letonya 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
+| Letonya Virsliga | 4 | 0 | 0 | 4 | %0 | 2.69 |
+| Litvanya 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
+| Litvanya A Ligi | 2 | 0 | 0 | 2 | %0 | 4.29 |
+| Lübnan Premier Lig Şampiyonluk Turu | 4 | 0 | 0 | 4 | %0 | 2.85 |
+| Romanya 1.Lig | 4 | 0 | 0 | 4 | %0 | 3.25 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Aluminij VS Maribor | 2 | 0 | 0 | 2 | %0 | 0 |
-| Anyang VS Gwangju | 2 | 0 | 0 | 2 | %0 | 4.81 |
-| Arsenal Tula VS Neftekhimik | 2 | 0 | 0 | 2 | %0 | 4.3 |
-| Aue VS Schalke | 2 | 0 | 0 | 2 | %0 | 0 |
-| Blacktown City VS St George City | 2 | 0 | 0 | 2 | %0 | 3.0 |
-| Botev Vratsa VS Cherno More | 2 | 0 | 0 | 2 | %0 | 0 |
-| Brisbane Olymp VS Brisbane Roar I | 2 | 0 | 0 | 2 | %0 | 0 |
-| Bucheon VS Fc Seoul | 2 | 0 | 0 | 2 | %0 | 0 |
-| Central Espano VS Cerro Largo | 2 | 0 | 0 | 2 | %0 | 0 |
-| Cerro VS Racing Montevid | 2 | 0 | 0 | 2 | %0 | 0 |
-| Chankas Cyc VS Sport Boys | 2 | 0 | 0 | 2 | %0 | 4.85 |
-| Charlestow Cit VS Edgeworth Eagle | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ansar VS Nejmeh | 2 | 0 | 0 | 2 | %0 | 3.03 |
+| Botev Plovdiv VS Lokomotiv Sofia | 2 | 0 | 0 | 2 | %0 | 3.89 |
+| Fs Jelgava VS Daugava Riga | 2 | 0 | 0 | 2 | %0 | 0 |
+| Hafnarfjordur VS Breidablik | 2 | 0 | 0 | 2 | %0 | 0 |
+| Hk Kopavogur VS Vestri | 2 | 0 | 0 | 2 | %0 | 0 |
+| Hunedoara VS Csikszereda | 2 | 0 | 0 | 2 | %0 | 2.82 |
+| Jwaya VS Ahed | 2 | 0 | 0 | 2 | %0 | 2.68 |
+| Kalmar VS Malmö | 2 | 0 | 0 | 2 | %0 | 3.13 |
+| Keflavik VS Akranes | 2 | 0 | 0 | 2 | %0 | 0 |
+| Kpv Kokkola VS Rops | 2 | 0 | 0 | 2 | %0 | 0 |
+| Mariehamn VS Lahti | 2 | 0 | 0 | 2 | %0 | 0 |
+| Mushuc Runa VS Orense | 2 | 0 | 0 | 2 | %0 | 3.17 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
-| - | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 2.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
