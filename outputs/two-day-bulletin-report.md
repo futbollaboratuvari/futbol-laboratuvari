@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-20 / 2026-07-21
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 31
-Aktif mac: 26
-Canli mac: 5
+Aktif mac: 25
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 25
+Bultenden dusurulen mac: 6
+Bugun: 24
 Yarin: 1
 
 ## Baslamamis Maclar
-- 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | scheduled | -
 - 2026-07-20 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | scheduled | -
 - 2026-07-20 18:00 | Finlandiya Veikkausliiga | Turku - Ilves | scheduled | -
 - 2026-07-20 18:00 | Letonya Virsliga | Fs Jelgava - Daugava Riga | scheduled | -
@@ -39,6 +39,7 @@ Yarin: 1
 - 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | scheduled | -
 
 ## Canli Maclar
+- 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | live | -
 - 2026-07-20 00:45 | Ekvador Pro Lig | Guayaquil City - Manta | live | -
 - 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Asheville City - Appalachian | live | -
 - 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Vermont Green - Ocean City | live | -

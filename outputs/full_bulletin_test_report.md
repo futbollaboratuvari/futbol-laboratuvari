@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 28
-- Live match count: 3
+- Scheduled match count: 25
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-20 / 2026-07-21 23:59
 
-- 2026-07-20 00:45 | Guayaquil City - Manta | live
-- 2026-07-20 02:00 | Asheville City - Appalachian | live
-- 2026-07-20 02:00 | Vermont Green - Ocean City | live
-- 2026-07-20 03:00 | Alianza Lima - Sport Huancayo | scheduled
-- 2026-07-20 03:15 | Indep. Jose Te - Emelec | scheduled
-- 2026-07-20 03:30 | Blooming - Real Tomayapo | scheduled
 - 2026-07-20 17:30 | Jwaya - Ahed | scheduled
 - 2026-07-20 18:00 | Turku - Ilves | scheduled
 - 2026-07-20 18:00 | Fs Jelgava - Daugava Riga | scheduled
 - 2026-07-20 18:00 | Transinvest Vi - Neptüna Klaiped | scheduled
+- 2026-07-20 18:30 | Kpv Kokkola - Rops | scheduled
+- 2026-07-20 18:30 | Hunedoara - Csikszereda | scheduled
+- 2026-07-20 18:45 | Suduva - Hegelmann | scheduled
+- 2026-07-20 19:00 | Mariehamn - Lahti | scheduled
+- 2026-07-20 19:00 | Tukums Ii - Rigas Fs Ii | scheduled
+- 2026-07-20 19:00 | Super Nova - Grobina | scheduled
