@@ -1,36 +1,15 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-20T20:16:05.202Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-07-20T20:42:18.344Z
+- Ham maç sayısı: 11
+- Yarın bülteni maç sayısı: 1
+- Detay blok sayısı: 28
+- Aktif bülten maçı: 1
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Botev Plovdiv VS Lokomotiv Sofia | Bulgaristan 1.Lig | 21:30 | MS 2 | 3.71 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Rapid Bükreş VS Sepsi | Romanya 1.Lig | 21:30 | MS 2 | 4.38 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Ansar VS Nejmeh | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Redbridge VS Welwyn Garden C | Hazırlık Kulüpler | 21:45 | MS X | 3.30 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Mushuc Runa VS Orense | Ekvador Pro Lig | 22:00 | MS 2 | 3.42 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| San Antonio Bu VS Academia Del Ba | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Sporting Cp VS Strasbourg | Hazırlık Kulüpler | 22:15 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Keflavik VS Akranes | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Hafnarfjordur VS Breidablik | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Hk Kopavogur VS Vestri | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Nacional Potos VS Real Oruro | Bolivya Premier Lig | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Nacional Potos - Real Oruro | Bolivya Premier Lig | 02:00 | Veri bekleniyor | - | 1.28 | 4 |
