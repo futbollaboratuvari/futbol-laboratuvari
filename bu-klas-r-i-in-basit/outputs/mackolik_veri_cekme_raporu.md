@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-20T16:43:02.706656+00:00
+Tarih: 2026-07-20T17:00:10.090694+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 14
+- Kac mac bulundu: 13
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 14
+- Kac mac zaten vardi: 13
 - Ham veri havuzu toplam mac sayisi: 2448
 - Hedef tarih: 20.07.2026 Europe/Istanbul
 
@@ -106,7 +106,6 @@ Tarih: 2026-07-20T16:43:02.706656+00:00
 | 20.07.2026 | 22:00 | Ekvador Pro Lig | Mushuc Runa | Orense | 12836 | 5 |
 | 20.07.2026 | 22:15 | İzlanda 1.Lig | Hk Kopavogur | Vestri | 18973 | 3 |
 | 20.07.2026 | 22:00 | Bolivya Premier Lig | San Antonio Bu | Academia Del Ba | 09668 | 3 |
-| 21.07.2026 | 02:00 | Bolivya Premier Lig | Nacional Potos | Real Oruro | 10851 | 3 |
 | 20.07.2026 | 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Ansar | Nejmeh | 01152 | 5 |
 
 ## Sonuc
