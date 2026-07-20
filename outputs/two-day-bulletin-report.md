@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-20 / 2026-07-21
 Kaynak: fixtures.json
-Ham mac: 31
+Ham mac: 25
 Aktif mac: 25
 Canli mac: 0
-Biten mac: 6
-Bultenden dusurulen mac: 6
+Biten mac: 0
+Bultenden dusurulen mac: 0
 Bugun: 24
 Yarin: 1
 
@@ -41,9 +41,4 @@ Yarin: 1
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-07-20 00:45 | Ekvador Pro Lig | Guayaquil City - Manta | finished | -
-- 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Asheville City - Appalachian | finished | -
-- 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Vermont Green - Ocean City | finished | -
-- 2026-07-20 03:00 | Peru Premier Lig Clausura | Alianza Lima - Sport Huancayo | finished | -
-- 2026-07-20 03:15 | Ekvador Pro Lig | Indep. Jose Te - Emelec | finished | -
-- 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | finished | -
+Biten mac yok.
