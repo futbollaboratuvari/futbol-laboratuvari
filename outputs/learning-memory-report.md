@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.07.2026 11:21:13
+Oluşturma: 20.07.2026 13:33:58
 
 ## Özet
 
-- Toplam tahmin: 14
-- Bekleyen tahmin: 14
+- Toplam tahmin: 16
+- Bekleyen tahmin: 16
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 11
+- Lig sayısı: 12
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,14 @@ Oluşturma: 20.07.2026 11:21:13
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
+- MS X: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-20 | İsveç Allsvenskan | Orgryte - Djurgarden | MS X | pending | 40/100
+- 2026-07-20 | Finlandiya Ykkönen | Kpv Kokkola - Rops | MS X | pending | 55/100
 - 2026-07-20 | Hazırlık Kulüpler | Redbridge - Welwyn Garden C | MS X | pending | 50/100
 - 2026-07-20 | Romanya 1.Lig | Hunedoara - Csikszereda | MS 2 | pending | 40/100
 - 2026-07-20 | Litvanya A Ligi | Suduva - Hegelmann | MS 2 | pending | 50/100
@@ -39,5 +41,4 @@ Oluşturma: 20.07.2026 11:21:13
 - 2026-07-20 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Nejmeh | MS 2 | pending | 40/100
 - 2026-07-20 | Ekvador Pro Lig | Mushuc Runa - Orense | MS 2 | pending | 40/100
 - 2026-07-20 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | MS X | pending | 40/100
-- 2026-07-20 | Finlandiya Veikkausliiga | Turku - Ilves | MS X | pending | 50/100
 

@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-20T07:52:05.844286+00:00
+Tarih: 2026-07-20T10:33:49.881813+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 27
+- Kac mac bulundu: 26
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 27
+- Kac mac zaten vardi: 26
 - Ham veri havuzu toplam mac sayisi: 2448
 - Hedef tarih: 20.07.2026 Europe/Istanbul
 
@@ -101,8 +101,8 @@ Tarih: 2026-07-20T07:52:05.844286+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 20.07.2026 | 19:00 | Finlandiya Veikkausliiga | Mariehamn | Lahti | 18576 | 5 |
 | 20.07.2026 | 18:00 | Finlandiya Veikkausliiga | Turku | Ilves | 18487 | 5 |
+| 20.07.2026 | 19:00 | Finlandiya Veikkausliiga | Mariehamn | Lahti | 18576 | 5 |
 | 20.07.2026 | 20:00 | İsveç Allsvenskan | Orgryte | Djurgarden | 18835 | 5 |
 | 20.07.2026 | 20:00 | İsveç Allsvenskan | Kalmar | Malmö | 18666 | 5 |
 | 20.07.2026 | 22:15 | Hazırlık Kulüpler | Sporting Cp | Strasbourg | 03860 | 5 |
@@ -115,12 +115,12 @@ Tarih: 2026-07-20T07:52:05.844286+00:00
 | 20.07.2026 | 21:30 | Romanya 1.Lig | Rapid Bükreş | Sepsi | 18906 | 5 |
 | 20.07.2026 | 18:30 | Romanya 1.Lig | Hunedoara | Csikszereda | 18541 | 5 |
 | 20.07.2026 | 18:45 | Litvanya A Ligi | Suduva | Hegelmann | 18574 | 5 |
-| 20.07.2026 | 18:30 | Finlandiya Ykkönen | Kpv Kokkola | Rops | 12731 | 4 |
-| 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Keflavik | Akranes | 18956 | 3 |
+| 20.07.2026 | 18:30 | Finlandiya Ykkönen | Kpv Kokkola | Rops | 12731 | 5 |
 | 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Hafnarfjordur | Breidablik | 18939 | 3 |
+| 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Keflavik | Akranes | 18956 | 3 |
 | 20.07.2026 | 22:00 | Ekvador Pro Lig | Mushuc Runa | Orense | 12836 | 5 |
 | 20.07.2026 | 22:15 | İzlanda 1.Lig | Hk Kopavogur | Vestri | 18973 | 3 |
-| 20.07.2026 | 18:00 | Letonya Virsliga | Fs Jelgava | Daugava Riga | 18483 | 3 |
+| 20.07.2026 | 19:00 | Letonya Virsliga | Super Nova | Grobina | 18630 | 5 |
 
 ## Sonuc
 
