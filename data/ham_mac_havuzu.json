@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:25:03.041Z",
+  "generated_at": "2026-07-20T16:43:10.140Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -13,7 +13,18 @@
       "İkinci Yarı KG Var",
       "KG Var",
       "2.5 Üst",
-      "3.5 Üst"
+      "3.5 Üst",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
     ],
     "scoring_classes": {
       "80-100": "Ana kupon adayı",
@@ -23,95 +34,9 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 26,
+  "match_count": 25,
   "analysis_count": 0,
   "matches": [
-    {
-      "home_team_name": "Jwaya",
-      "away_team_name": "Ahed",
-      "competition_name": "Lübnan Premier Lig Şampiyonluk Turu",
-      "date": "2026-07-20",
-      "time": "17:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "2.75",
-      "confidence_score": "40%",
-      "trust_score": "40/100",
-      "analysis_score": 40,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 49,
-        "over25Percent": 45,
-        "over35Percent": 27,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 55,
-        "leagueGoalAverage": 2.67,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: MS X",
-        "Oran: 2.75",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme"
-      ]
-    },
     {
       "home_team_name": "Turku",
       "away_team_name": "Ilves",
@@ -360,7 +285,7 @@
       "competition_name": "Romanya 1.Lig",
       "date": "2026-07-20",
       "time": "18:30",
-      "status": "scheduled",
+      "status": "live",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
       "suggested_odds": "3.24",
@@ -446,7 +371,7 @@
       "competition_name": "Finlandiya Ykkönen",
       "date": "2026-07-20",
       "time": "18:30",
-      "status": "scheduled",
+      "status": "live",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
       "suggested_odds": "5.27",
@@ -534,7 +459,7 @@
       "competition_name": "Litvanya A Ligi",
       "date": "2026-07-20",
       "time": "18:45",
-      "status": "scheduled",
+      "status": "live",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
       "suggested_odds": "4.80",
@@ -699,7 +624,7 @@
       "competition_name": "Letonya Virsliga",
       "date": "2026-07-20",
       "time": "19:00",
-      "status": "scheduled",
+      "status": "live",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
       "suggested_odds": "2.69",
@@ -943,7 +868,7 @@
       "competition_name": "Rusya FNL",
       "date": "2026-07-20",
       "time": "19:30",
-      "status": "scheduled",
+      "status": "live",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
       "suggested_odds": "5.04",
@@ -1032,8 +957,8 @@
       "time": "20:00",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "6.48",
+      "suggested_option": "MS X",
+      "suggested_odds": "5.04",
       "confidence_score": "40%",
       "trust_score": "40/100",
       "analysis_score": 40,
@@ -1092,13 +1017,13 @@
       },
       "tag": "Sadece izleme",
       "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
+        "0-0",
+        "1-1",
+        "2-2"
       ],
       "signals": [
-        "Market: MS 1",
-        "Oran: 6.48",
+        "Market: MS X",
+        "Oran: 5.04",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -1122,7 +1047,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "3.13",
+      "suggested_odds": "3.08",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -1187,7 +1112,7 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 3.13",
+        "Oran: 3.08",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -1384,7 +1309,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "4.04",
+      "suggested_odds": "4.17",
       "confidence_score": "60%",
       "trust_score": "60/100",
       "analysis_score": 60,
@@ -1449,7 +1374,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 4.04",
+        "Oran: 4.17",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -2191,5 +2116,6 @@
         "100 puan analiz sınıfı: Oynama"
       ]
     }
-  ]
+  ],
+  "focused_market_count": 16
 }
