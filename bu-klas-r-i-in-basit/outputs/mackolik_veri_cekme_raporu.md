@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-20T12:57:24.945785+00:00
+Tarih: 2026-07-20T15:01:58.735176+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 25
+- Kac mac bulundu: 23
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 25
+- Kac mac zaten vardi: 23
 - Ham veri havuzu toplam mac sayisi: 2448
 - Hedef tarih: 20.07.2026 Europe/Istanbul
 
@@ -101,26 +101,26 @@ Tarih: 2026-07-20T12:57:24.945785+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 20.07.2026 | 18:00 | Finlandiya Veikkausliiga | Turku | Ilves | 18487 | 5 |
 | 20.07.2026 | 19:00 | Finlandiya Veikkausliiga | Mariehamn | Lahti | 18576 | 5 |
 | 20.07.2026 | 20:00 | İsveç Allsvenskan | Kalmar | Malmö | 18666 | 5 |
 | 20.07.2026 | 20:00 | İsveç Allsvenskan | Orgryte | Djurgarden | 18835 | 5 |
 | 20.07.2026 | 22:15 | Hazırlık Kulüpler | Sporting Cp | Strasbourg | 03860 | 5 |
 | 20.07.2026 | 21:45 | Hazırlık Kulüpler | Redbridge | Welwyn Garden C | 11289 | 5 |
-| 20.07.2026 | 21:30 | Bulgaristan 1.Lig | Botev Plovdiv | Lokomotiv Sofia | 18889 | 5 |
 | 20.07.2026 | 19:15 | Bulgaristan 1.Lig | Slavia Sofia | Cska Sofia | 18632 | 5 |
+| 20.07.2026 | 21:30 | Bulgaristan 1.Lig | Botev Plovdiv | Lokomotiv Sofia | 18889 | 5 |
 | 20.07.2026 | 20:00 | İsveç Superettan | Norrby | Sundsvall | 18736 | 5 |
 | 20.07.2026 | 19:30 | Rusya FNL | Rotor Volgogra | Ska-Khabarovsk | 18649 | 5 |
-| 20.07.2026 | 21:30 | Romanya 1.Lig | Rapid Bükreş | Sepsi | 18906 | 5 |
 | 20.07.2026 | 18:30 | Romanya 1.Lig | Hunedoara | Csikszereda | 18541 | 5 |
+| 20.07.2026 | 21:30 | Romanya 1.Lig | Rapid Bükreş | Sepsi | 18906 | 5 |
 | 20.07.2026 | 18:45 | Litvanya A Ligi | Suduva | Hegelmann | 18574 | 5 |
 | 20.07.2026 | 18:30 | Finlandiya Ykkönen | Kpv Kokkola | Rops | 12731 | 5 |
 | 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Hafnarfjordur | Breidablik | 18939 | 3 |
 | 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Keflavik | Akranes | 18956 | 3 |
 | 20.07.2026 | 22:00 | Ekvador Pro Lig | Mushuc Runa | Orense | 12836 | 5 |
 | 20.07.2026 | 22:15 | İzlanda 1.Lig | Hk Kopavogur | Vestri | 18973 | 3 |
-| 20.07.2026 | 18:00 | Letonya Virsliga | Fs Jelgava | Daugava Riga | 18483 | 3 |
 | 20.07.2026 | 19:00 | Letonya Virsliga | Super Nova | Grobina | 18630 | 5 |
+| 20.07.2026 | 22:00 | Bolivya Premier Lig | San Antonio Bu | Academia Del Ba | 09668 | 3 |
+| 21.07.2026 | 02:00 | Bolivya Premier Lig | Nacional Potos | Real Oruro | 10851 | 3 |
 
 ## Sonuc
 

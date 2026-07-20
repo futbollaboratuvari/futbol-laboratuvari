@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-20 / 2026-07-21
 Kaynak: fixtures.json
-Ham mac: 26
-Aktif mac: 25
-Canli mac: 1
-Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 24
+Ham mac: 33
+Aktif mac: 22
+Canli mac: 4
+Biten mac: 7
+Bultenden dusurulen mac: 11
+Bugun: 21
 Yarin: 1
 
 ## Baslamamis Maclar
-- 2026-07-20 18:00 | Finlandiya Veikkausliiga | Turku - Ilves | scheduled | -
-- 2026-07-20 18:00 | Letonya Virsliga | Fs Jelgava - Daugava Riga | scheduled | -
-- 2026-07-20 18:00 | Litvanya 1.Lig | Transinvest Vi - Neptüna Klaiped | scheduled | -
 - 2026-07-20 18:30 | Romanya 1.Lig | Hunedoara - Csikszereda | scheduled | -
 - 2026-07-20 18:30 | Finlandiya Ykkönen | Kpv Kokkola - Rops | scheduled | -
 - 2026-07-20 18:45 | Litvanya A Ligi | Suduva - Hegelmann | scheduled | -
@@ -39,6 +36,15 @@ Yarin: 1
 
 ## Canli Maclar
 - 2026-07-20 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | live | -
+- 2026-07-20 18:00 | Finlandiya Veikkausliiga | Turku - Ilves | live | -
+- 2026-07-20 18:00 | Letonya Virsliga | Fs Jelgava - Daugava Riga | live | -
+- 2026-07-20 18:00 | Litvanya 1.Lig | Transinvest Vi - Neptüna Klaiped | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-20 00:45 | Ekvador Pro Lig | Guayaquil City - Manta | finished | -
+- 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Asheville City - Appalachian | finished | -
+- 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Vermont Green - Ocean City | finished | -
+- 2026-07-20 03:00 | Peru Premier Lig Clausura | Alianza Lima - Sport Huancayo | finished | -
+- 2026-07-20 03:15 | Ekvador Pro Lig | Indep. Jose Te - Emelec | finished | -
+- 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | finished | -
+- 2026-07-20 12:00 | Hazırlık Kulüpler | Playford City - Adelaide United | finished | -
