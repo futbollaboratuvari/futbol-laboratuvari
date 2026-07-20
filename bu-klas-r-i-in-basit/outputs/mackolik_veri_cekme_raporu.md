@@ -1,29 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-20T20:11:45.172668+00:00
+Tarih: 2026-07-20T20:42:46.612416+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 1
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 1
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 2448
 - Hedef tarih: 20.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Bolivya Premier Lig
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- ms_1
-- ms_2
-- ms_x
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
 - alt_25
@@ -83,9 +84,7 @@ Tarih: 2026-07-20T20:11:45.172668+00:00
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 21.07.2026 | 02:00 | Bolivya Premier Lig | Nacional Potos | Real Oruro | 10851 | 3 |
+- Ornek mac yok.
 
 ## Sonuc
 
