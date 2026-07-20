@@ -2,9 +2,9 @@
 
 - Kaynak: Maçkolik canlı veri bekleniyor
 - URL: https://arsiv.mackolik.com/Iddaa-Programi
-- Güncelleme: 2026-07-20T19:03:52.957Z
+- Güncelleme: 2026-07-20T19:08:42.793Z
 - Hedef tarihler: 20.07.2026, 21.07.2026
-- Maç sayısı: 15
+- Maç sayısı: 14
 - Yarın bülteni maç sayısı: 1
-- Detay blok sayısı: 40
+- Detay blok sayısı: 37
 - Not: Tarayıcı robotu video mantığıyla yarın tarihini seçmeyi ve satır detaylarını açmayı dener; açılan marketler raw_market_blocks ve available_odds içine yazılır. Tarayıcı çalışamazsa statik parser ve mevcut pencere yedeği devam eder.
