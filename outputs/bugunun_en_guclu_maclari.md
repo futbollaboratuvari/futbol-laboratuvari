@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-20T18:32:44.450Z
+- Güncelleme: 2026-07-20T18:47:46.304Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -18,7 +18,7 @@
 | Botev Plovdiv VS Lokomotiv Sofia | Bulgaristan 1.Lig | 21:30 | MS 2 | 3.71 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Rapid Bükreş VS Sepsi | Romanya 1.Lig | 21:30 | MS 2 | 4.38 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Ansar VS Nejmeh | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Redbridge VS Welwyn Garden C | Hazırlık Kulüpler | 21:45 | MS X | 3.30 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Redbridge VS Welwyn Garden C | Hazırlık Kulüpler | 21:45 | MS X | 3.30 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Mushuc Runa VS Orense | Ekvador Pro Lig | 22:00 | MS 2 | 3.42 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | San Antonio Bu VS Academia Del Ba | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sporting Cp VS Strasbourg | Hazırlık Kulüpler | 22:15 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
