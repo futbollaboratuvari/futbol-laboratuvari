@@ -3,15 +3,14 @@
 Gunler: 2026-07-20 / 2026-07-21
 Kaynak: fixtures.json
 Ham mac: 26
-Aktif mac: 26
-Canli mac: 0
+Aktif mac: 25
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 25
+Bultenden dusurulen mac: 1
+Bugun: 24
 Yarin: 1
 
 ## Baslamamis Maclar
-- 2026-07-20 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | scheduled | -
 - 2026-07-20 18:00 | Finlandiya Veikkausliiga | Turku - Ilves | scheduled | -
 - 2026-07-20 18:00 | Letonya Virsliga | Fs Jelgava - Daugava Riga | scheduled | -
 - 2026-07-20 18:00 | Litvanya 1.Lig | Transinvest Vi - Neptüna Klaiped | scheduled | -
@@ -39,7 +38,7 @@ Yarin: 1
 - 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-20 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | live | -
 
 ## Biten Maclar
 Biten mac yok.
