@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 79
-- Live match count: 0
+- Scheduled match count: 78
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-07-21 / 2026-07-22 23:59
 
-- 2026-07-21 02:00 | Nacional Potos - Real Oruro | scheduled
+- 2026-07-21 02:00 | Nacional Potos - Real Oruro | live
 - 2026-07-21 11:00 | Dalian Kewei - Beijing Guoan | scheduled
 - 2026-07-21 12:30 | Preston Lions - Newcastle Jet | scheduled
 - 2026-07-21 12:30 | Queensland Lio - Perth Glory | scheduled
