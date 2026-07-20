@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-20T01:29:59.028Z",
-  "updated_at": "2026-07-20T11:59:22.508Z",
+  "updated_at": "2026-07-20T12:55:16.678Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 16,
-    "pending_predictions": 16,
+    "total_predictions": 17,
+    "pending_predictions": 17,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 12,
     "market_count": 3,
     "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 16,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 7,
-      "pending": 7,
+      "total": 8,
+      "pending": 8,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +48,16 @@
     }
   },
   "league_memory": {
+    "Lübnan Premier Lig Şampiyonluk Turu": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İsveç Allsvenskan": {
       "total": 3,
       "pending": 3,
@@ -142,16 +148,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Lübnan Premier Lig Şampiyonluk Turu": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Ekvador Pro Lig": {
       "total": 1,
       "pending": 1,
@@ -174,6 +170,16 @@
     }
   },
   "league_market_memory": {
+    "Lübnan Premier Lig Şampiyonluk Turu :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İsveç Allsvenskan :: MS X": {
       "total": 2,
       "pending": 2,
@@ -294,16 +300,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Lübnan Premier Lig Şampiyonluk Turu :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Finlandiya Veikkausliiga :: MS X": {
       "total": 1,
       "pending": 1,
@@ -316,6 +312,24 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-20|lubnan premier lig sampiyonluk turu|ansar nejmeh|ms x|21 30",
+      "date": "2026-07-20",
+      "created_at": "2026-07-20T12:55:14.472Z",
+      "match_name": "Ansar - Nejmeh",
+      "league": "Lübnan Premier Lig Şampiyonluk Turu",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "2.81",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-20T12:55:16.678Z"
+    },
     {
       "id": "2026-07-20|isvec allsvenskan|orgryte djurgarden|ms x|20 00",
       "date": "2026-07-20",
@@ -342,7 +356,7 @@
       "league": "Finlandiya Ykkönen",
       "start_time": "18:30",
       "market": "MS X",
-      "odds": "5.79",
+      "odds": "5.69",
       "confidence_score": "55%",
       "analysis_score": 55,
       "risk_level": "Yüksek",
@@ -350,7 +364,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|hazirlik kulupler|redbridge welwyn garden c|ms x|21 45",
@@ -360,7 +374,7 @@
       "league": "Hazırlık Kulüpler",
       "start_time": "21:45",
       "market": "MS X",
-      "odds": "3.19",
+      "odds": "3.30",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -368,7 +382,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.578Z"
+      "updated_at": "2026-07-20T12:55:16.678Z"
     },
     {
       "id": "2026-07-20|romanya 1 lig|hunedoara csikszereda|ms 2|18 30",
@@ -386,7 +400,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|litvanya a ligi|suduva hegelmann|ms 2|18 45",
@@ -396,7 +410,7 @@
       "league": "Litvanya A Ligi",
       "start_time": "18:45",
       "market": "MS 2",
-      "odds": "4.60",
+      "odds": "4.94",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -404,7 +418,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|letonya virsliga|super nova grobina|ms x|19 00",
@@ -414,7 +428,7 @@
       "league": "Letonya Virsliga",
       "start_time": "19:00",
       "market": "MS X",
-      "odds": "2.74",
+      "odds": "2.72",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -422,7 +436,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|rusya fnl|rotor volgogra ska khabarovsk|ms 2|19 30",
@@ -440,7 +454,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|isvec allsvenskan|orgryte djurgarden|ms 1|20 00",
@@ -450,7 +464,7 @@
       "league": "İsveç Allsvenskan",
       "start_time": "20:00",
       "market": "MS 1",
-      "odds": "6.19",
+      "odds": "6.48",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -458,7 +472,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T08:21:13.013Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|isvec allsvenskan|kalmar malmo|ms x|20 00",
@@ -468,7 +482,7 @@
       "league": "İsveç Allsvenskan",
       "start_time": "20:00",
       "market": "MS X",
-      "odds": "3.13",
+      "odds": "3.11",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -476,7 +490,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|isvec superettan|norrby sundsvall|ms 2|20 00",
@@ -494,7 +508,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|bulgaristan 1 lig|botev plovdiv lokomotiv sofia|ms 2|21 30",
@@ -512,7 +526,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.678Z"
     },
     {
       "id": "2026-07-20|romanya 1 lig|rapid bukres sepsi|ms 2|21 30",
@@ -530,7 +544,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.577Z"
+      "updated_at": "2026-07-20T12:55:16.678Z"
     },
     {
       "id": "2026-07-20|lubnan premier lig sampiyonluk turu|ansar nejmeh|ms 2|21 30",
@@ -558,7 +572,7 @@
       "league": "Ekvador Pro Lig",
       "start_time": "22:00",
       "market": "MS 2",
-      "odds": "3.09",
+      "odds": "2.98",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -566,7 +580,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.578Z"
+      "updated_at": "2026-07-20T12:55:16.678Z"
     },
     {
       "id": "2026-07-20|lubnan premier lig sampiyonluk turu|jwaya ahed|ms x|17 30",
@@ -576,7 +590,7 @@
       "league": "Lübnan Premier Lig Şampiyonluk Turu",
       "start_time": "17:30",
       "market": "MS X",
-      "odds": "2.68",
+      "odds": "2.75",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -584,7 +598,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     },
     {
       "id": "2026-07-20|finlandiya veikkausliiga|turku ilves|ms x|18 00",
@@ -594,7 +608,7 @@
       "league": "Finlandiya Veikkausliiga",
       "start_time": "18:00",
       "market": "MS X",
-      "odds": "3.14",
+      "odds": "3.17",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -602,7 +616,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-20T11:59:21.576Z"
+      "updated_at": "2026-07-20T12:55:16.677Z"
     }
   ]
 }

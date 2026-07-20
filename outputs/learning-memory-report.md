@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.07.2026 14:59:21
+Oluşturma: 20.07.2026 15:55:16
 
 ## Özet
 
-- Toplam tahmin: 16
-- Bekleyen tahmin: 16
+- Toplam tahmin: 17
+- Bekleyen tahmin: 17
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 12
@@ -20,12 +20,13 @@ Oluşturma: 20.07.2026 14:59:21
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
+- MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-20 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Nejmeh | MS X | pending | 40/100
 - 2026-07-20 | İsveç Allsvenskan | Orgryte - Djurgarden | MS X | pending | 40/100
 - 2026-07-20 | Finlandiya Ykkönen | Kpv Kokkola - Rops | MS X | pending | 55/100
 - 2026-07-20 | Hazırlık Kulüpler | Redbridge - Welwyn Garden C | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 20.07.2026 14:59:21
 - 2026-07-20 | Romanya 1.Lig | Rapid Bükreş - Sepsi | MS 2 | pending | 60/100
 - 2026-07-20 | Lübnan Premier Lig Şampiyonluk Turu | Ansar - Nejmeh | MS 2 | pending | 40/100
 - 2026-07-20 | Ekvador Pro Lig | Mushuc Runa - Orense | MS 2 | pending | 40/100
-- 2026-07-20 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | MS X | pending | 40/100
 
