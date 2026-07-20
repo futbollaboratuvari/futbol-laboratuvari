@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-20 / 2026-07-21
 Kaynak: fixtures.json
-Ham mac: 27
-Aktif mac: 27
-Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 26
+Ham mac: 33
+Aktif mac: 26
+Canli mac: 1
+Biten mac: 6
+Bultenden dusurulen mac: 7
+Bugun: 25
 Yarin: 1
 
 ## Baslamamis Maclar
-- 2026-07-20 12:00 | Hazırlık Kulüpler | Playford City - Adelaide United | scheduled | -
 - 2026-07-20 17:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ahed | scheduled | -
 - 2026-07-20 18:00 | Finlandiya Veikkausliiga | Turku - Ilves | scheduled | -
 - 2026-07-20 18:00 | Letonya Virsliga | Fs Jelgava - Daugava Riga | scheduled | -
@@ -40,7 +39,12 @@ Yarin: 1
 - 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-20 12:00 | Hazırlık Kulüpler | Playford City - Adelaide United | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-20 00:45 | Ekvador Pro Lig | Guayaquil City - Manta | finished | -
+- 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Asheville City - Appalachian | finished | -
+- 2026-07-20 02:00 | ABD USL Lig 2 Konferans Yarı Final | Vermont Green - Ocean City | finished | -
+- 2026-07-20 03:00 | Peru Premier Lig Clausura | Alianza Lima - Sport Huancayo | finished | -
+- 2026-07-20 03:15 | Ekvador Pro Lig | Indep. Jose Te - Emelec | finished | -
+- 2026-07-20 03:30 | Bolivya Premier Lig | Blooming - Real Tomayapo | finished | -
