@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-20T00:16:30.492235+00:00
+Tarih: 2026-07-20T04:24:14.514236+00:00
 
 ## Ozet
 
@@ -113,7 +113,7 @@ Tarih: 2026-07-20T00:16:30.492235+00:00
 | 20.07.2026 | 18:30 | Romanya 1.Lig | Hunedoara | Csikszereda | 18541 | 5 |
 | 20.07.2026 | 21:30 | Romanya 1.Lig | Rapid Bükreş | Sepsi | 18906 | 5 |
 | 20.07.2026 | 18:45 | Litvanya A Ligi | Suduva | Hegelmann | 18574 | 5 |
-| 20.07.2026 | 18:30 | Finlandiya Ykkönen | Kpv Kokkola | Rops | 12731 | 4 |
+| 20.07.2026 | 18:30 | Finlandiya Ykkönen | Kpv Kokkola | Rops | 12731 | 5 |
 | 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Keflavik | Akranes | 18956 | 3 |
 | 20.07.2026 | 22:15 | İzlanda Urvalsdeild | Hafnarfjordur | Breidablik | 18939 | 3 |
 | 20.07.2026 | 22:00 | Ekvador Pro Lig | Mushuc Runa | Orense | 12836 | 5 |
