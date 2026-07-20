@@ -3,15 +3,14 @@
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
 Ham mac: 79
-Aktif mac: 79
-Canli mac: 0
+Aktif mac: 78
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 65
+Bultenden dusurulen mac: 1
+Bugun: 64
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | scheduled | -
 - 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | scheduled | -
 - 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | scheduled | -
 - 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | scheduled | -
@@ -92,7 +91,7 @@ Yarin: 14
 - 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | live | -
 
 ## Biten Maclar
 Biten mac yok.

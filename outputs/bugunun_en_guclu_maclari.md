@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-20T23:06:20.285Z
+- Güncelleme: 2026-07-20T23:27:21.227Z
 - Ham maç sayısı: 79
 - Yarın bülteni maç sayısı: 14
 - Detay blok sayısı: 212
@@ -14,20 +14,20 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Dalian Kewei - Beijing Guoan | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 11:00 | Veri bekleniyor | - | 6.25 | 5 |
 | Preston Lions - Newcastle Jet | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 3.46 | 8 |
-| Queensland Lio - Perth Glory | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 3.78 | 5 |
+| Queensland Lio - Perth Glory | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 3.01 | 6 |
 | Canberra Juven - Canberra | Avustralya NPL Başkent Bölgesi | 12:30 | Veri bekleniyor | - | 4.04 | 4 |
-| Cumberland Uni - Heidelberg Unit | Avustralya FFA Kupası Son 32 Turu | 13:00 | Veri bekleniyor | - | 10.4 | 3 |
+| Cumberland Uni - Heidelberg Unit | Avustralya FFA Kupası Son 32 Turu | 13:00 | Veri bekleniyor | - | 9.88 | 3 |
 | Ulsan - Incheon Utd | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.94 | 8 |
 | Jeonbuk Hm - Daejeon Citizen | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.74 | 8 |
 | Jeju Utd - Gangwon | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 3.1 | 8 |
-| Bayswater City - Sydney | Avustralya FFA Kupası Son 32 Turu | 13:30 | Veri bekleniyor | - | 12.95 | 3 |
+| Bayswater City - Sydney | Avustralya FFA Kupası Son 32 Turu | 13:30 | Veri bekleniyor | - | 10.05 | 3 |
 | Shanghai Port - Shenzhen Peng | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:00 | Veri bekleniyor | - | 1.32 | 3 |
 | Chongqing Tong - Qingdao Youth I | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:35 | Veri bekleniyor | - | 1.8 | 5 |
 | Wuhan Three To - Shandong Taisha | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:35 | Veri bekleniyor | - | 5.11 | 3 |
 | Shanghai Shenh - Qingdao Zhongne | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:35 | Veri bekleniyor | - | - | 2 |
 | Yunnan Yukun - Chengdu Ron. | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 15:00 | Veri bekleniyor | - | 3.24 | 3 |
 | Henan Jianye - Dalian Zhixing | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 15:00 | Veri bekleniyor | - | 1.76 | 5 |
-| Fc Iberia - Slovan Bratisla | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | Veri bekleniyor | - | 3.14 | 8 |
+| Fc Iberia - Slovan Bratisla | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | Veri bekleniyor | - | 2.86 | 8 |
 | Mjallby - Lincoln Red Imp | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | Veri bekleniyor | - | - | 5 |
 | Sabah - Kuopion | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.42 | 7 |
 | Ararat-Armenia - Shamrock Rovers | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.98 | 8 |
