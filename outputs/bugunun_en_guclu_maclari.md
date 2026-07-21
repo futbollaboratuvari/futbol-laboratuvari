@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-21T17:47:08.094Z
+- Güncelleme: 2026-07-21T18:07:52.270Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -28,7 +28,7 @@
 | Al Ittihad (Ci VS Orlando Pirates | Hazırlık Kulüpler | 20:00 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Floriana VS Fc Drita | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Pau Fc VS Espanyol | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Thun VS Dinamo Zagreb | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:00 | MS 1 | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Thun VS Dinamo Zagreb | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:00 | MS 1 | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Fenerbahçe VS Gornik Zabrze | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:00 | Değerli market yok | - | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Aldershot VS Oxford | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Forest Green VS Bristol Rovers | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -38,7 +38,7 @@
 | Hebburn Town VS Hartlepool | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Olympique Dche (0) VS (0) Amal Tiznit | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | 21:00 | Değerli market yok | - | 5 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Uts Rabat (1) VS (1) El Massira | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | 21:00 | Değerli market yok | - | 5 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Albacete VS Al Kholood | Hazırlık Kulüpler | 21:00 | MS 2 | 4.17 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Albacete VS Al Kholood | Hazırlık Kulüpler | 21:00 | MS 2 | 4.17 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Atert Bissen VS Gyor | UEFA Konferans Ligi 2. Eleme Turu | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sturm Graz VS Hearts | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:30 | MS 2 | 3.68 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Walsall VS Aston Villa | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
