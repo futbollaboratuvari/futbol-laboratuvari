@@ -1,34 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-20T21:38:11.281Z",
-  "updated_at": "2026-07-21T07:08:15.369Z",
+  "updated_at": "2026-07-21T07:27:22.668Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 21,
-    "pending_predictions": 21,
+    "total_predictions": 26,
+    "pending_predictions": 26,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 12,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 5,
+    "updated_predictions": 0,
+    "last_score_link_checked": 26,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 10,
-      "pending": 10,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "MS 1": {
-      "total": 1,
-      "pending": 1,
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -37,8 +31,18 @@
       "confidence_adjustment": 0
     },
     "MS X": {
-      "total": 10,
-      "pending": 10,
+      "total": 13,
+      "pending": 13,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 2": {
+      "total": 11,
+      "pending": 11,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,6 +52,16 @@
     }
   },
   "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İskoçya Lig Kupası Grup H": {
       "total": 2,
       "pending": 2,
@@ -148,16 +162,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Güney Kore K Lig 1": {
       "total": 2,
       "pending": 2,
@@ -170,6 +174,36 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İskoçya Lig Kupası Grup H :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -300,16 +334,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Güney Kore K Lig 1 :: MS 2": {
       "total": 2,
       "pending": 2,
@@ -322,6 +346,91 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-21|hazirlik kulupler|darlington 188 carlisle|ms 1|21 45",
+      "date": "2026-07-21",
+      "created_at": "2026-07-21T07:27:22.152Z",
+      "match_name": "Darlington 188 - Carlisle",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "21:45",
+      "market": "MS 1",
+      "odds": "3.94",
+      "confidence_score": "45%",
+      "analysis_score": 45,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-21|hazirlik kulupler|colchester peterborough|ms x|21 45",
+      "date": "2026-07-21",
+      "created_at": "2026-07-21T07:27:22.152Z",
+      "match_name": "Colchester - Peterborough",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "21:45",
+      "market": "MS X",
+      "odds": "3.05",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-21|hazirlik kulupler|sheffield utd huddersfield|ms 2|14 00",
+      "date": "2026-07-21",
+      "created_at": "2026-07-21T07:27:22.151Z",
+      "match_name": "Sheffield Utd - Huddersfield",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "14:00",
+      "market": "MS 2",
+      "odds": "3.48",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-21|hazirlik kulupler|bochum swansea|ms x|19 00",
+      "date": "2026-07-21",
+      "created_at": "2026-07-21T07:27:22.151Z",
+      "match_name": "Bochum - Swansea",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "19:00",
+      "market": "MS X",
+      "odds": "3.25",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-21|hazirlik kulupler|fleetwood town huddersfield|ms x|21 30",
+      "date": "2026-07-21",
+      "created_at": "2026-07-21T07:27:22.151Z",
+      "match_name": "Fleetwood Town - Huddersfield",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "3.40",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-07-21|iskocya lig kupasi grup h|kilmarnock hamilton|ms 2|21 45",
       "date": "2026-07-21",
@@ -338,7 +447,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.369Z"
+      "updated_at": "2026-07-21T07:27:22.152Z"
     },
     {
       "id": "2026-07-21|uefa sampiyonlar ligi 2 eleme turu|thun dinamo zagreb|ms 1|21 00",
@@ -356,7 +465,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|iskocya lig kupasi grup g|stranraer edinburg c|ms 2|21 45",
@@ -374,7 +483,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.369Z"
+      "updated_at": "2026-07-21T07:27:22.152Z"
     },
     {
       "id": "2026-07-21|uefa sampiyonlar ligi 2 eleme turu|fc iberia slovan bratisla|ms x|19 00",
@@ -392,7 +501,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|uefa sampiyonlar ligi 2 eleme turu|sabah kuopion|ms 2|19 00",
@@ -410,7 +519,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|uefa sampiyonlar ligi 2 eleme turu|ararat armenia shamrock rovers|ms x|19 00",
@@ -428,7 +537,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|finlandiya ykkosliiga|kapa klubi 04|ms x|19 00",
@@ -446,7 +555,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|litvanya 1 lig|hegelmann ii zalgiris ii|ms x|19 00",
@@ -464,7 +573,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|uefa sampiyonlar ligi 2 eleme turu|aarhus lech poznan|ms 2|20 00",
@@ -482,7 +591,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|isvec superettan|falkenberg helsingborg|ms x|20 00",
@@ -500,7 +609,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|uefa konferans ligi 2 eleme turu|floriana fc drita|ms x|20 30",
@@ -518,7 +627,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|uefa sampiyonlar ligi 2 eleme turu|thun dinamo zagreb|ms x|21 00",
@@ -554,7 +663,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|iskocya lig kupasi grup b|arbroath montrose|ms 2|21 45",
@@ -572,7 +681,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.151Z"
     },
     {
       "id": "2026-07-21|iskocya lig kupasi grup d|ross county dundee|ms x|21 45",
@@ -590,7 +699,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.368Z"
+      "updated_at": "2026-07-21T07:27:22.152Z"
     },
     {
       "id": "2026-07-21|iskocya lig kupasi grup f|east fife linlithgow rose|ms 2|21 45",
@@ -608,7 +717,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.369Z"
+      "updated_at": "2026-07-21T07:27:22.152Z"
     },
     {
       "id": "2026-07-21|iskocya lig kupasi grup h|kilmarnock hamilton|ms x|21 45",
@@ -644,7 +753,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.369Z"
+      "updated_at": "2026-07-21T07:27:22.152Z"
     },
     {
       "id": "2026-07-21|uefa sampiyonlar ligi 2 eleme turu|vikingur reykj hapoel beer she|ms x|22 00",
@@ -662,7 +771,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.369Z"
+      "updated_at": "2026-07-21T07:27:22.152Z"
     },
     {
       "id": "2026-07-21|guney kore k lig 1|ulsan incheon utd|ms 2|13 30",
@@ -680,7 +789,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.367Z"
+      "updated_at": "2026-07-21T07:27:22.150Z"
     },
     {
       "id": "2026-07-21|guney kore k lig 1|jeonbuk hm daejeon citizen|ms 2|13 30",
@@ -698,7 +807,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-21T07:08:15.367Z"
+      "updated_at": "2026-07-21T07:27:22.150Z"
     }
   ]
 }
