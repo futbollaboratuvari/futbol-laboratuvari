@@ -2,47 +2,32 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-21T18:19:39.308Z
-- Ham maç sayısı: 92
+- Güncelleme: 2026-07-21T18:41:48.420Z
+- Ham maç sayısı: 83
 - Yarın bülteni maç sayısı: 17
-- Detay blok sayısı: 260
-- Aktif bülten maçı: 63
-- Bültenden düşürülen maç: 29
+- Detay blok sayısı: 236
+- Aktif bülten maçı: 48
+- Bültenden düşürülen maç: 35
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sturm Graz - Hearts | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:30 | Veri bekleniyor | - | 1.5 | 7 |
-| Walsall - Aston Villa | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.81 | 7 |
-| Torquay - Plymouth | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.16 | 6 |
-| Radcliffe Boro - Barrow | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.89 | 5 |
-| Alfreton - Rotherham | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.7 | 7 |
-| Chertsey Town - Wealdstone | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.28 | 7 |
-| Fleetwood Town - Huddersfield | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.95 | 8 |
-| Crusaders - Glenavon | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.04 | 8 |
-| Kidsgrove Athl - Leek Town | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.48 | 8 |
-| Taunton Town - Weston-S-Mare | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.02 | 7 |
-| Shrewsbury - Everton (B) | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.32 | 6 |
-| Dagenham & Red - Crystal Palace | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.06 | 6 |
-| Garforth Town - Guiseley | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.39 | 8 |
-| Gateshead(Sout - Harrogate | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.95 | 8 |
-| Merthyr Town - Briton Ferry | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.37 | 4 |
-| Kí Klaksvík - Kauno Zalgiris | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:45 | Veri bekleniyor | - | 1.93 | 8 |
+| Kí Klaksvík - Kauno Zalgiris | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:45 | Veri bekleniyor | - | 1.96 | 8 |
 | Kelty Hearts - Brora Rangers | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 1.36 | 6 |
 | Arbroath - Montrose | İskoçya Lig Kupası Grup B | 21:45 | Veri bekleniyor | - | 1.39 | 7 |
 | Dundee Utd - Spartans | İskoçya Lig Kupası Grup B | 21:45 | Veri bekleniyor | - | - | 5 |
 | St Mirren - East Kilbride | İskoçya Lig Kupası Grup C | 21:45 | Veri bekleniyor | - | - | 5 |
-| Dunfermline - Cove Rangers | İskoçya Lig Kupası Grup C | 21:45 | Veri bekleniyor | - | 1.11 | 6 |
+| Dunfermline - Cove Rangers | İskoçya Lig Kupası Grup C | 21:45 | Veri bekleniyor | - | 1.11 | 5 |
 | Ross County - Dundee | İskoçya Lig Kupası Grup D | 21:45 | Veri bekleniyor | - | 2.74 | 8 |
 | Clyde - Annan | İskoçya Lig Kupası Grup D | 21:45 | Veri bekleniyor | - | 1.33 | 6 |
-| Partick Thistl - Stenhousemuir | İskoçya Lig Kupası Grup E | 21:45 | Veri bekleniyor | - | 1.11 | 6 |
+| Partick Thistl - Stenhousemuir | İskoçya Lig Kupası Grup E | 21:45 | Veri bekleniyor | - | 1.12 | 6 |
 | Livingston - Forfar | İskoçya Lig Kupası Grup E | 21:45 | Veri bekleniyor | - | - | 5 |
 | Inverness Ct - St Johnstone | İskoçya Lig Kupası Grup F | 21:45 | Veri bekleniyor | - | 3.57 | 8 |
 | East Fife - Linlithgow Rose | İskoçya Lig Kupası Grup F | 21:45 | Veri bekleniyor | - | 1.44 | 7 |
 | Stranraer - Edinburg C. | İskoçya Lig Kupası Grup G | 21:45 | Veri bekleniyor | - | 1.4 | 7 |
-| Alloa - Falkirk | İskoçya Lig Kupası Grup G | 21:45 | Veri bekleniyor | - | 10.45 | 5 |
+| Alloa - Falkirk | İskoçya Lig Kupası Grup G | 21:45 | Veri bekleniyor | - | 11.05 | 5 |
 | Raith Rovers - Peterhead | İskoçya Lig Kupası Grup H | 21:45 | Veri bekleniyor | - | 1.09 | 6 |
-| Kilmarnock - Hamilton | İskoçya Lig Kupası Grup H | 21:45 | Veri bekleniyor | - | 1.09 | 6 |
+| Kilmarnock - Hamilton | İskoçya Lig Kupası Grup H | 21:45 | Veri bekleniyor | - | 1.11 | 6 |
 | Dartford - Billericay Town | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.35 | 6 |
 | Dover Athletic - Deal Town | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.13 | 6 |
 | Darlington 188 - Carlisle | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.94 | 7 |
@@ -50,13 +35,13 @@
 | Colchester - Peterborough | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.1 | 8 |
 | Chorley - Altrincham | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.58 | 6 |
 | Sutton United - Walton And Hers | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.32 | 4 |
-| Warrington Tow - Macclesfield | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 5.34 | 6 |
+| Warrington Tow - Macclesfield | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 5.22 | 6 |
 | Telford - Crewe | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.92 | 7 |
 | Stratford Town - Brackley Town | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.85 | 7 |
 | Bedworth Unite - Bromsgrove Spor | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.8 | 6 |
 | Loughgall Fc - Dungannon | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 5.04 | 6 |
-| Vikingur Reykj - Hapoel Beer She | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 2.13 | 8 |
-| Larne Fc - Kizilyildiz | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 13.5 | 5 |
+| Vikingur Reykj - Hapoel Beer She | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 2.12 | 8 |
+| Larne Fc - Kizilyildiz | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 13.8 | 5 |
 | Fylkir - Afturelding | İzlanda Kupa Yarı Final | 22:30 | Veri bekleniyor | - | 1.94 | 6 |
 | Atletico Nacio - Tigres Fc | Kolombiya Kupa 2.Tur | 00:00 | Veri bekleniyor | - | - | 3 |
 | Libertad - Delfin | Ekvador Pro Lig | 00:30 | Veri bekleniyor | - | 1.93 | 8 |

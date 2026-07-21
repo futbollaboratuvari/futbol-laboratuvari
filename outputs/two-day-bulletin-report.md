@@ -2,31 +2,15 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 92
-Aktif mac: 64
-Canli mac: 28
+Ham mac: 83
+Aktif mac: 48
+Canli mac: 35
 Biten mac: 0
-Bultenden dusurulen mac: 28
-Bugun: 47
+Bultenden dusurulen mac: 35
+Bugun: 31
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-21 21:15 | UEFA Konferans Ligi 2. Eleme Turu | Atert Bissen - Gyor | scheduled | -
-- 2026-07-21 21:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sturm Graz - Hearts | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Walsall - Aston Villa | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Torquay - Plymouth | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Radcliffe Boro - Barrow | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Alfreton - Rotherham | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Chertsey Town - Wealdstone | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Fleetwood Town - Huddersfield | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Crusaders - Glenavon | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Kidsgrove Athl - Leek Town | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Taunton Town - Weston-S-Mare | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Shrewsbury - Everton (B) | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Dagenham & Red - Crystal Palace | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Garforth Town - Guiseley | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Gateshead(Sout - Harrogate | scheduled | -
-- 2026-07-21 21:30 | Hazırlık Kulüpler | Merthyr Town - Briton Ferry | scheduled | -
 - 2026-07-21 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kí Klaksvík - Kauno Zalgiris | scheduled | -
 - 2026-07-21 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts - Brora Rangers | scheduled | -
 - 2026-07-21 21:45 | İskoçya Lig Kupası Grup B | Arbroath - Montrose | scheduled | -
@@ -77,15 +61,6 @@ Yarin: 17
 - 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | scheduled | -
 
 ## Canli Maclar
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fc Iberia - Slovan Bratisla | live | -
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Mjallby - Lincoln Red Imp | live | -
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sabah - Kuopion | live | -
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Ararat-Armenia - Shamrock Rovers | live | -
-- 2026-07-21 19:00 | Finlandiya Ykkösliiga | Kapa - Klubi 04 | live | -
-- 2026-07-21 19:00 | Litvanya 1.Lig | Hegelmann Ii - Zalgiris Ii | live | -
-- 2026-07-21 19:00 | Paraguay Kupa 2.Tur | 29 De Setiembr - 12 De Junio Vh | live | -
-- 2026-07-21 19:00 | Hazırlık Kulüpler | Bochum - Swansea | live | -
-- 2026-07-21 19:00 | Hazırlık Kulüpler | Shakhtar Donet - Slaven Belupo | live | -
 - 2026-07-21 19:30 | Hazırlık Kulüpler | Istra - Orijent 1919 | live | -
 - 2026-07-21 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Aarhus - Lech Poznan | live | -
 - 2026-07-21 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Göteborg - Levadia Tallinn | live | -
@@ -105,6 +80,22 @@ Yarin: 17
 - 2026-07-21 21:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | Olympique Dche (0) - (0) Amal Tiznit | live | -
 - 2026-07-21 21:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | Uts Rabat (1) - (1) El Massira | live | -
 - 2026-07-21 21:00 | Hazırlık Kulüpler | Albacete - Al Kholood | live | -
+- 2026-07-21 21:15 | UEFA Konferans Ligi 2. Eleme Turu | Atert Bissen - Gyor | live | -
+- 2026-07-21 21:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sturm Graz - Hearts | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Walsall - Aston Villa | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Torquay - Plymouth | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Radcliffe Boro - Barrow | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Alfreton - Rotherham | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Chertsey Town - Wealdstone | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Fleetwood Town - Huddersfield | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Crusaders - Glenavon | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Kidsgrove Athl - Leek Town | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Taunton Town - Weston-S-Mare | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Shrewsbury - Everton (B) | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Dagenham & Red - Crystal Palace | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Garforth Town - Guiseley | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Gateshead(Sout - Harrogate | live | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Merthyr Town - Briton Ferry | live | -
 
 ## Biten Maclar
 Biten mac yok.
