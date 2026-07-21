@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.07.2026 23:37:29
+Oluşturma: 22.07.2026 00:02:47
 
 ## Özet
 
-- Toplam tahmin: 40
-- Bekleyen tahmin: 40
+- Toplam tahmin: 48
+- Bekleyen tahmin: 48
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 13
+- Lig sayısı: 19
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,20 @@ Oluşturma: 21.07.2026 23:37:29
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- MS X: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-22 | Kolombiya Kupa 2.Tur | Inter Bogota - Internacional P | MS 2 | pending | 50/100
+- 2026-07-22 | Brezilya Serie A | Atletico Mg - Bahia | MS 2 | pending | 50/100
+- 2026-07-22 | Brezilya Serie B | Avai - America Mineiro | MS 2 | pending | 40/100
+- 2026-07-22 | Bolivya Premier Lig | Independiente - Real Potosi | MS X | pending | 60/100
+- 2026-07-22 | Ekvador Pro Lig | Univ Catolica - Barcelona Gua | MS 2 | pending | 40/100
+- 2026-07-22 | Kolombiya Kupa 2.Tur | Once Caldas - Envigado | MS 2 | pending | 60/100
+- 2026-07-22 | Brezilya Serie B | Vila Nova - Fortaleza Ce | MS 2 | pending | 40/100
+- 2026-07-22 | Meksika Liga MX Apertura | Toluca - Pumas Unam | MS 2 | pending | 60/100
 - 2026-07-21 | İskoçya Lig Kupası Grup C | Dunfermline - Cove Rangers | MS X | pending | 85/100
 - 2026-07-21 | Hazırlık Kulüpler | Albacete - Al Kholood | MS 2 | pending | 60/100
 - 2026-07-21 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Aarhus - Lech Poznan | MS X | pending | 40/100
@@ -33,12 +41,4 @@ Oluşturma: 21.07.2026 23:37:29
 - 2026-07-21 | İskoçya Lig Kupası Grup G | Alloa - Falkirk | MS X | pending | 45/100
 - 2026-07-21 | Hazırlık Kulüpler | Al Ittihad (Ci - Orlando Pirates | MS X | pending | 50/100
 - 2026-07-21 | Hazırlık Kulüpler | Al Ittihad (Ci - Orlando Pirates | MS 2 | pending | 50/100
-- 2026-07-21 | Hazırlık Kulüpler | Fremad Amager - Sundby | MS 2 | pending | 50/100
-- 2026-07-21 | Hazırlık Kulüpler | Gateshead(Sout - Harrogate | MS X | pending | 70/100
-- 2026-07-21 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fenerbahçe - Gornik Zabrze | MS X | pending | 80/100
-- 2026-07-21 | Hazırlık Kulüpler | Crusaders - Glenavon | MS X | pending | 50/100
-- 2026-07-21 | Hazırlık Kulüpler | Qpr - Wycombe | MS 2 | pending | 70/100
-- 2026-07-21 | Hazırlık Kulüpler | Hertha Berlin - Mamelodi Sundow | MS X | pending | 60/100
-- 2026-07-21 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | MS X | pending | 50/100
-- 2026-07-21 | Hazırlık Kulüpler | Darlington 188 - Carlisle | MS 1 | pending | 45/100
 

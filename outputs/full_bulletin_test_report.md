@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 17
-- Live match count: 46
+- Scheduled match count: 16
+- Live match count: 1
 - Finished removed count: 0
-- Date window: 2026-07-21 / 2026-07-22 23:59
+- Date window: 2026-07-22 / 2026-07-23 23:59
 
-- 2026-07-21 21:30 | Alfreton - Rotherham | live
-- 2026-07-21 21:30 | Chertsey Town - Wealdstone | live
-- 2026-07-21 21:30 | Crusaders - Glenavon | live
-- 2026-07-21 21:30 | Dagenham & Red - Crystal Palace | live
-- 2026-07-21 21:30 | Fleetwood Town - Huddersfield | live
-- 2026-07-21 21:30 | Garforth Town - Guiseley | live
-- 2026-07-21 21:30 | Gateshead(Sout - Harrogate | live
-- 2026-07-21 21:30 | Kidsgrove Athl - Leek Town | live
-- 2026-07-21 21:30 | Merthyr Town - Briton Ferry | live
-- 2026-07-21 21:30 | Radcliffe Boro - Barrow | live
+- 2026-07-22 00:00 | Atletico Nacio - Tigres Fc | live
+- 2026-07-22 00:30 | Libertad - Delfin | scheduled
+- 2026-07-22 01:00 | Nacional Df - Tigre | scheduled
+- 2026-07-22 01:00 | Inter Bogota - Internacional P | scheduled
+- 2026-07-22 01:30 | Atletico Mg - Bahia | scheduled
+- 2026-07-22 01:30 | Avai - America Mineiro | scheduled
+- 2026-07-22 01:30 | Novorizontino - Criciuma | scheduled
+- 2026-07-22 02:00 | Independiente - Real Potosi | scheduled
+- 2026-07-22 02:00 | Deportes Tolim - Quindio | scheduled
+- 2026-07-22 03:00 | Univ Catolica - Barcelona Gua | scheduled
