@@ -2,13 +2,13 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 16
-- Live match count: 1
+- Scheduled match count: 97
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-22 / 2026-07-23 23:59
 
 - 2026-07-22 00:00 | Atletico Nacio - Tigres Fc | live
-- 2026-07-22 00:30 | Libertad - Delfin | scheduled
+- 2026-07-22 00:30 | Libertad - Delfin | live
 - 2026-07-22 01:00 | Nacional Df - Tigre | scheduled
 - 2026-07-22 01:00 | Inter Bogota - Internacional P | scheduled
 - 2026-07-22 01:30 | Atletico Mg - Bahia | scheduled
