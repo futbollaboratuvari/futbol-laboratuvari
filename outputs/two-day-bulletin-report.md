@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 79
+Ham mac: 78
 Aktif mac: 78
 Canli mac: 0
-Biten mac: 1
-Bultenden dusurulen mac: 1
+Biten mac: 0
+Bultenden dusurulen mac: 0
 Bugun: 64
 Yarin: 14
 
@@ -94,4 +94,4 @@ Yarin: 14
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
+Biten mac yok.
