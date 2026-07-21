@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 107
-Aktif mac: 91
-Canli mac: 16
-Biten mac: 0
-Bultenden dusurulen mac: 16
-Bugun: 74
+Ham mac: 110
+Aktif mac: 92
+Canli mac: 8
+Biten mac: 10
+Bultenden dusurulen mac: 18
+Bugun: 75
 Yarin: 17
 
 ## Baslamamis Maclar
@@ -27,6 +27,7 @@ Yarin: 17
 - 2026-07-21 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Göteborg - Levadia Tallinn | scheduled | -
 - 2026-07-21 20:00 | Hazırlık Kulüpler | Evv - Maastricht | scheduled | -
 - 2026-07-21 20:00 | İsveç Superettan | Falkenberg - Helsingborg | scheduled | -
+- 2026-07-21 20:00 | Hazırlık Kulüpler | Al Ittihad (Ci - Orlando Pirates | scheduled | -
 - 2026-07-21 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Floriana - Fc Drita | scheduled | -
 - 2026-07-21 20:30 | Hazırlık Kulüpler | Pau Fc - Espanyol | scheduled | -
 - 2026-07-21 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Thun - Dinamo Zagreb | scheduled | -
@@ -104,14 +105,6 @@ Yarin: 17
 - 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | scheduled | -
 
 ## Canli Maclar
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | live | -
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | live | -
-- 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | live | -
-- 2026-07-21 13:00 | Avustralya FFA Kupası Son 32 Turu | Cumberland Uni - Heidelberg Unit | live | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | live | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | live | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | live | -
-- 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | live | -
 - 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | live | -
 - 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | live | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | live | -
@@ -122,4 +115,13 @@ Yarin: 17
 - 2026-07-21 15:00 | Hazırlık Kulüpler | Qpr - Wycombe | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
+- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | finished | -
+- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | finished | -
+- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | finished | -
+- 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | finished | -
+- 2026-07-21 13:00 | Avustralya FFA Kupası Son 32 Turu | Cumberland Uni - Heidelberg Unit | finished | -
+- 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | finished | -
+- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | finished | -
+- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | finished | -
+- 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | finished | -
