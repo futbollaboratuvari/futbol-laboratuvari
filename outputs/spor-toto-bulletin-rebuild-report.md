@@ -1,9 +1,9 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-21T04:29:36.166Z
-- Ham fixture sayisi: 2519
-- Bugun/yarin kaynak mac: 79
-- Aktif bulten maci: 78
+- Guncelleme: 2026-07-21T07:07:25.820Z
+- Ham fixture sayisi: 2533
+- Bugun/yarin kaynak mac: 93
+- Aktif bulten maci: 92
 - Gosterilen mac: 15
 - Bultenden dusurulen mac: 1
 
@@ -17,8 +17,8 @@
 - 8. 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | scheduled
 - 9. 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | scheduled
 - 10. 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | scheduled
-- 11. 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | scheduled
-- 12. 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Shenh - Qingdao Zhongne | scheduled
-- 13. 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Wuhan Three To - Shandong Taisha | scheduled
-- 14. 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Henan Jianye - Dalian Zhixing | scheduled
-- 15. 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Yunnan Yukun - Chengdu Ron. | scheduled
+- 11. 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | scheduled
+- 12. 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | scheduled
+- 13. 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Shenh - Qingdao Zhongne | scheduled
+- 14. 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Wuhan Three To - Shandong Taisha | scheduled
+- 15. 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Henan Jianye - Dalian Zhixing | scheduled
