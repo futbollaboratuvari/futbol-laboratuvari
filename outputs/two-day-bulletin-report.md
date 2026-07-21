@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 78
-Aktif mac: 78
+Ham mac: 80
+Aktif mac: 80
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 64
+Bugun: 66
 Yarin: 14
 
 ## Baslamamis Maclar
@@ -21,6 +21,7 @@ Yarin: 14
 - 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | scheduled | -
 - 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | scheduled | -
 - 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | scheduled | -
+- 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | scheduled | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | scheduled | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Wuhan Three To - Shandong Taisha | scheduled | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Shenh - Qingdao Zhongne | scheduled | -
@@ -33,6 +34,7 @@ Yarin: 14
 - 2026-07-21 19:00 | Finlandiya Ykkösliiga | Kapa - Klubi 04 | scheduled | -
 - 2026-07-21 19:00 | Litvanya 1.Lig | Hegelmann Ii - Zalgiris Ii | scheduled | -
 - 2026-07-21 19:00 | Paraguay Kupa 2.Tur | 29 De Setiembr - 12 De Junio Vh | scheduled | -
+- 2026-07-21 19:00 | Hazırlık Kulüpler | Bochum - Swansea | scheduled | -
 - 2026-07-21 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Aarhus - Lech Poznan | scheduled | -
 - 2026-07-21 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Göteborg - Levadia Tallinn | scheduled | -
 - 2026-07-21 20:00 | Hazırlık Kulüpler | Evv - Maastricht | scheduled | -
