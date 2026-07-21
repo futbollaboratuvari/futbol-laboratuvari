@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 110
+Ham mac: 100
 Aktif mac: 92
 Canli mac: 8
-Biten mac: 10
-Bultenden dusurulen mac: 18
+Biten mac: 0
+Bultenden dusurulen mac: 8
 Bugun: 75
 Yarin: 17
 
@@ -115,13 +115,4 @@ Yarin: 17
 - 2026-07-21 15:00 | Hazırlık Kulüpler | Qpr - Wycombe | live | -
 
 ## Biten Maclar
-- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
-- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | finished | -
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | finished | -
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | finished | -
-- 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | finished | -
-- 2026-07-21 13:00 | Avustralya FFA Kupası Son 32 Turu | Cumberland Uni - Heidelberg Unit | finished | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | finished | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | finished | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | finished | -
-- 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | finished | -
+Biten mac yok.
