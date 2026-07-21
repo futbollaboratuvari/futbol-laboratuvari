@@ -2,19 +2,15 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 92
+Ham mac: 97
 Aktif mac: 92
-Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
+Canli mac: 4
+Biten mac: 1
+Bultenden dusurulen mac: 5
 Bugun: 76
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | scheduled | -
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | scheduled | -
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | scheduled | -
-- 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | scheduled | -
 - 2026-07-21 13:00 | Avustralya FFA Kupası Son 32 Turu | Cumberland Uni - Heidelberg Unit | scheduled | -
 - 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | scheduled | -
 - 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | scheduled | -
@@ -29,6 +25,8 @@ Yarin: 16
 - 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Henan Jianye - Dalian Zhixing | scheduled | -
 - 2026-07-21 15:00 | Hazırlık Kulüpler | Qpr - Wycombe | scheduled | -
 - 2026-07-21 17:00 | Hazırlık Kulüpler | Fremad Amager - Sundby | scheduled | -
+- 2026-07-21 18:00 | Hazırlık Kulüpler | Hertha Berlin - Mamelodi Sundow | scheduled | -
+- 2026-07-21 18:30 | Hazırlık Kulüpler | Dukla Prag Ii - Banik Sous | scheduled | -
 - 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fc Iberia - Slovan Bratisla | scheduled | -
 - 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Mjallby - Lincoln Red Imp | scheduled | -
 - 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sabah - Kuopion | scheduled | -
@@ -37,6 +35,7 @@ Yarin: 16
 - 2026-07-21 19:00 | Litvanya 1.Lig | Hegelmann Ii - Zalgiris Ii | scheduled | -
 - 2026-07-21 19:00 | Paraguay Kupa 2.Tur | 29 De Setiembr - 12 De Junio Vh | scheduled | -
 - 2026-07-21 19:00 | Hazırlık Kulüpler | Bochum - Swansea | scheduled | -
+- 2026-07-21 19:00 | Hazırlık Kulüpler | Shakhtar Donet - Slaven Belupo | scheduled | -
 - 2026-07-21 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Aarhus - Lech Poznan | scheduled | -
 - 2026-07-21 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Göteborg - Levadia Tallinn | scheduled | -
 - 2026-07-21 20:00 | Hazırlık Kulüpler | Evv - Maastricht | scheduled | -
@@ -84,6 +83,7 @@ Yarin: 16
 - 2026-07-21 21:45 | Hazırlık Kulüpler | Gainsborough T - Halifax | scheduled | -
 - 2026-07-21 21:45 | Hazırlık Kulüpler | Colchester - Peterborough | scheduled | -
 - 2026-07-21 21:45 | Hazırlık Kulüpler | Chorley - Altrincham | scheduled | -
+- 2026-07-21 21:45 | Hazırlık Kulüpler | Sutton United - Walton And Hers | scheduled | -
 - 2026-07-21 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Vikingur Reykj - Hapoel Beer She | scheduled | -
 - 2026-07-21 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Larne Fc - Kizilyildiz | scheduled | -
 - 2026-07-21 22:30 | İzlanda Kupa Yarı Final | Fylkir - Afturelding | scheduled | -
@@ -105,7 +105,10 @@ Yarin: 16
 - 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | live | -
+- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | live | -
+- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | live | -
+- 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -

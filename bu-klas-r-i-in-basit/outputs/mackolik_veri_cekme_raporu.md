@@ -1,26 +1,32 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-21T09:18:08.231519+00:00
+Tarih: 2026-07-21T09:37:37.768415+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 78
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 74
+- Kac mac bulundu: 91
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 91
 - Ham veri havuzu toplam mac sayisi: 2544
 - Hedef tarih: 21.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - Avustralya FFA Kupası Son 32 Turu
-- Avustralya NPL Başkent Bölgesi
+- Bolivya Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Copa Sudamericana Son 32 Turu
+- Ekvador Pro Lig
 - Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2
 - Finlandiya Ykkösliiga
 - Güney Kore K Lig 1
 - Hazırlık Kulüpler
+- Kolombiya Kupa 2.Tur
 - Litvanya 1.Lig
+- Meksika Liga MX Apertura
 - Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 2. Eleme Turu
 - UEFA Şampiyonlar Ligi 2.Eleme Turu
@@ -91,8 +97,8 @@ Tarih: 2026-07-21T09:18:08.231519+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 28
-- Acilan detay: 28
+- Denenen Tumu alani: 27
+- Acilan detay: 27
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -108,7 +114,7 @@ Tarih: 2026-07-21T09:18:08.231519+00:00
 | 21.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fc Iberia | Slovan Bratisla | 06118 | 5 |
 | 21.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Ararat-Armenia | Shamrock Rovers | 01892 | 5 |
 | 21.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sabah | Kuopion | 06280 | 5 |
-| 21.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fenerbahçe | Gornik Zabrze | 06469 | 4 |
+| 21.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fenerbahçe | Gornik Zabrze | 06469 | 5 |
 | 21.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sturm Graz | Hearts | 06615 | 5 |
 | 21.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Aarhus | Lech Poznan | 06329 | 5 |
 | 21.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Mjallby | Lincoln Red Imp | 06223 | 4 |
