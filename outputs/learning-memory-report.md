@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.07.2026 19:47:59
+Oluşturma: 21.07.2026 19:51:59
 
 ## Özet
 
-- Toplam tahmin: 38
-- Bekleyen tahmin: 38
+- Toplam tahmin: 39
+- Bekleyen tahmin: 39
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 12
@@ -20,12 +20,13 @@ Oluşturma: 21.07.2026 19:47:59
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS X: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-21 | Hazırlık Kulüpler | Albacete - Al Kholood | MS 2 | pending | 60/100
 - 2026-07-21 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Aarhus - Lech Poznan | MS X | pending | 40/100
 - 2026-07-21 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fc Iberia - Slovan Bratisla | MS 1 | pending | 50/100
 - 2026-07-21 | İskoçya Lig Kupası Grup G | Alloa - Falkirk | MS X | pending | 45/100
@@ -40,5 +41,4 @@ Oluşturma: 21.07.2026 19:47:59
 - 2026-07-21 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | MS X | pending | 50/100
 - 2026-07-21 | Hazırlık Kulüpler | Darlington 188 - Carlisle | MS 1 | pending | 45/100
 - 2026-07-21 | Hazırlık Kulüpler | Colchester - Peterborough | MS X | pending | 50/100
-- 2026-07-21 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | MS 2 | pending | 50/100
 
