@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 96
-Aktif mac: 87
-Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 71
-Yarin: 16
+Ham mac: 109
+Aktif mac: 97
+Canli mac: 10
+Biten mac: 2
+Bultenden dusurulen mac: 12
+Bugun: 80
+Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | scheduled | -
-- 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | scheduled | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | scheduled | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Wuhan Three To - Shandong Taisha | scheduled | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Shenh - Qingdao Zhongne | scheduled | -
@@ -56,6 +54,12 @@ Yarin: 16
 - 2026-07-21 21:30 | Hazırlık Kulüpler | Chertsey Town - Wealdstone | scheduled | -
 - 2026-07-21 21:30 | Hazırlık Kulüpler | Fleetwood Town - Huddersfield | scheduled | -
 - 2026-07-21 21:30 | Hazırlık Kulüpler | Crusaders - Glenavon | scheduled | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Kidsgrove Athl - Leek Town | scheduled | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Taunton Town - Weston-S-Mare | scheduled | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Shrewsbury - Everton (B) | scheduled | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Dagenham & Red - Crystal Palace | scheduled | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Garforth Town - Guiseley | scheduled | -
+- 2026-07-21 21:30 | Hazırlık Kulüpler | Gateshead(Sout - Harrogate | scheduled | -
 - 2026-07-21 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kí Klaksvík - Kauno Zalgiris | scheduled | -
 - 2026-07-21 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts - Brora Rangers | scheduled | -
 - 2026-07-21 21:45 | İskoçya Lig Kupası Grup B | Arbroath - Montrose | scheduled | -
@@ -79,6 +83,11 @@ Yarin: 16
 - 2026-07-21 21:45 | Hazırlık Kulüpler | Colchester - Peterborough | scheduled | -
 - 2026-07-21 21:45 | Hazırlık Kulüpler | Chorley - Altrincham | scheduled | -
 - 2026-07-21 21:45 | Hazırlık Kulüpler | Sutton United - Walton And Hers | scheduled | -
+- 2026-07-21 21:45 | Hazırlık Kulüpler | Warrington Tow - Macclesfield | scheduled | -
+- 2026-07-21 21:45 | Hazırlık Kulüpler | Telford - Crewe | scheduled | -
+- 2026-07-21 21:45 | Hazırlık Kulüpler | Stratford Town - Brackley Town | scheduled | -
+- 2026-07-21 21:45 | Hazırlık Kulüpler | Bedworth Unite - Bromsgrove Spor | scheduled | -
+- 2026-07-21 21:45 | Hazırlık Kulüpler | Loughgall Fc - Dungannon | scheduled | -
 - 2026-07-21 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Vikingur Reykj - Hapoel Beer She | scheduled | -
 - 2026-07-21 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Larne Fc - Kizilyildiz | scheduled | -
 - 2026-07-21 22:30 | İzlanda Kupa Yarı Final | Fylkir - Afturelding | scheduled | -
@@ -93,6 +102,7 @@ Yarin: 16
 - 2026-07-22 02:00 | Bolivya Premier Lig | Independiente - Real Potosi | scheduled | -
 - 2026-07-22 03:00 | Ekvador Pro Lig | Univ Catolica - Barcelona Gua | scheduled | -
 - 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Once Caldas - Envigado | scheduled | -
+- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Deportivo Past - Bogota | scheduled | -
 - 2026-07-22 03:30 | Copa Sudamericana Son 32 Turu | Ucv - Santos | scheduled | -
 - 2026-07-22 03:30 | Kolombiya Kupa 2.Tur | America De Cal - Real Cartagena | scheduled | -
 - 2026-07-22 03:35 | Brezilya Serie B | Vila Nova - Fortaleza Ce | scheduled | -
@@ -100,7 +110,6 @@ Yarin: 16
 - 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | scheduled | -
 
 ## Canli Maclar
-- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | live | -
 - 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | live | -
 - 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | live | -
 - 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | live | -
@@ -109,6 +118,9 @@ Yarin: 16
 - 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | live | -
 - 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | live | -
 - 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | live | -
+- 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | live | -
+- 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
+- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | finished | -
