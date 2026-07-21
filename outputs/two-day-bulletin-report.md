@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 113
+Ham mac: 63
 Aktif mac: 17
 Canli mac: 46
-Biten mac: 50
-Bultenden dusurulen mac: 96
+Biten mac: 0
+Bultenden dusurulen mac: 46
 Bugun: 0
 Yarin: 17
 
@@ -78,53 +78,4 @@ Yarin: 17
 - 2026-07-21 22:30 | İzlanda Kupa Yarı Final | Fylkir - Afturelding | live | -
 
 ## Biten Maclar
-- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
-- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | finished | -
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | finished | -
-- 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | finished | -
-- 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | finished | -
-- 2026-07-21 13:00 | Avustralya FFA Kupası Son 32 Turu | Cumberland Uni - Heidelberg Unit | finished | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | finished | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | finished | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | finished | -
-- 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | finished | -
-- 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | finished | -
-- 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | finished | -
-- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | finished | -
-- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Wuhan Three To - Shandong Taisha | finished | -
-- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Shenh - Qingdao Zhongne | finished | -
-- 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Yunnan Yukun - Chengdu Ron. | finished | -
-- 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Henan Jianye - Dalian Zhixing | finished | -
-- 2026-07-21 15:00 | Hazırlık Kulüpler | Qpr - Wycombe | finished | -
-- 2026-07-21 17:00 | Hazırlık Kulüpler | Fremad Amager - Sundby | finished | -
-- 2026-07-21 18:00 | Hazırlık Kulüpler | Hertha Berlin - Mamelodi Sundow | finished | -
-- 2026-07-21 18:30 | Hazırlık Kulüpler | Dukla Prag Ii - Banik Sous | finished | -
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fc Iberia - Slovan Bratisla | finished | -
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Mjallby - Lincoln Red Imp | finished | -
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sabah - Kuopion | finished | -
-- 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Ararat-Armenia - Shamrock Rovers | finished | -
-- 2026-07-21 19:00 | Finlandiya Ykkösliiga | Kapa - Klubi 04 | finished | -
-- 2026-07-21 19:00 | Litvanya 1.Lig | Hegelmann Ii - Zalgiris Ii | finished | -
-- 2026-07-21 19:00 | Paraguay Kupa 2.Tur | 29 De Setiembr - 12 De Junio Vh | finished | -
-- 2026-07-21 19:00 | Hazırlık Kulüpler | Bochum - Swansea | finished | -
-- 2026-07-21 19:00 | Hazırlık Kulüpler | Shakhtar Donet - Slaven Belupo | finished | -
-- 2026-07-21 19:30 | Hazırlık Kulüpler | Istra - Orijent 1919 | finished | -
-- 2026-07-21 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Aarhus - Lech Poznan | finished | -
-- 2026-07-21 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Göteborg - Levadia Tallinn | finished | -
-- 2026-07-21 20:00 | Hazırlık Kulüpler | Evv - Maastricht | finished | -
-- 2026-07-21 20:00 | İsveç Superettan | Falkenberg - Helsingborg | finished | -
-- 2026-07-21 20:00 | Hazırlık Kulüpler | Al Ittihad (Ci - Orlando Pirates | finished | -
-- 2026-07-21 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Floriana - Fc Drita | finished | -
-- 2026-07-21 20:30 | Hazırlık Kulüpler | Pau Fc - Espanyol | finished | -
-- 2026-07-21 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Thun - Dinamo Zagreb | finished | -
-- 2026-07-21 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fenerbahçe - Gornik Zabrze | finished | -
-- 2026-07-21 21:00 | Hazırlık Kulüpler | Aldershot - Oxford | finished | -
-- 2026-07-21 21:00 | Hazırlık Kulüpler | Forest Green - Bristol Rovers | finished | -
-- 2026-07-21 21:00 | Hazırlık Kulüpler | Ebbsfleet - West Ham (B) | finished | -
-- 2026-07-21 21:00 | Hazırlık Kulüpler | Oldham - Bolton | finished | -
-- 2026-07-21 21:00 | Hazırlık Kulüpler | Gillingham - Millwall | finished | -
-- 2026-07-21 21:00 | Hazırlık Kulüpler | Hebburn Town - Hartlepool | finished | -
-- 2026-07-21 21:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | Olympique Dche (0) - (0) Amal Tiznit | finished | -
-- 2026-07-21 21:00 | Fas Botola Pro Yükselme/Küme Düşme Play Off 1/2 | Uts Rabat (1) - (1) El Massira | finished | -
-- 2026-07-21 21:00 | Hazırlık Kulüpler | Albacete - Al Kholood | finished | -
-- 2026-07-21 21:15 | UEFA Konferans Ligi 2. Eleme Turu | Atert Bissen - Gyor | finished | -
+Biten mac yok.
