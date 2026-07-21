@@ -1,38 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-21T22:37:27.363220+00:00
-=======
-Tarih: 2026-07-21T22:39:16.510679+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-21T23:39:03.661959+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-<<<<<<< Updated upstream
 - Kac mac bulundu: 82
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 82
-=======
-- Kac mac bulundu: 47
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 47
->>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 2643
 - Hedef tarih: 22.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Tazmanya
+- Brezilya Serie A
+- Brezilya Serie B
+- Copa Sudamericana Son 32 Turu
 - Ekvador Pro Lig
 - Fas Botola 2 Yükselme/Küme Düşme Play Off
 - Finlandiya Ykkönen
 - Güney Kore K Lig 1
 - Hazırlık Kulüpler
+- Kolombiya Kupa 2.Tur
 - Norveç Eliteserien
 - Paraguay Kupa 2.Tur
 - UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final
@@ -125,7 +122,7 @@ Tarih: 2026-07-21T22:39:16.510679+00:00
 | 22.07.2026 | 13:30 | Güney Kore K Lig 1 | Fc Seoul | Pohang Steelers | 12558 | 5 |
 | 22.07.2026 | 13:30 | Güney Kore K Lig 1 | Gwangju | Gimcheon Sangmu | 12622 | 5 |
 | 22.07.2026 | - | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 19:00 | - Mgarr United (K | - | 0 |
-| 22.07.2026 | 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Pyunik (K) | Wrexham (K) | 01005 | 3 |
+| 22.07.2026 | 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Pyunik (K) | Wrexham (K) | 01005 | 2 |
 | 22.07.2026 | 18:30 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Paok (K) | Hapoel Jerusale | 00042 | 5 |
 | 22.07.2026 | 15:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Glentoran (K) | Dinamo Riga (K) | 17544 | 3 |
 | 22.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Queen Of South | Aberdeen | 15254 | 5 |

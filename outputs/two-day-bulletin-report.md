@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-22 / 2026-07-23
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 99
 Aktif mac: 90
-Canli mac: 9
-Biten mac: 0
+Canli mac: 8
+Biten mac: 1
 Bultenden dusurulen mac: 9
 Bugun: 55
 Yarin: 35
@@ -104,15 +103,14 @@ Yarin: 35
 - 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 
 ## Canli Maclar
-- 2026-07-22 02:00 | Kolombiya Kupa 2.Tur | Deportes Tolim - Quindio | live | -
-- 2026-07-22 02:00 | Bolivya Premier Lig | Independiente - Real Potosi | live | -
-- 2026-07-22 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio - Tigres Fc | live | -
 - 2026-07-22 00:30 | Ekvador Pro Lig | Libertad - Delfin | live | -
 - 2026-07-22 01:00 | Copa Sudamericana Son 32 Turu | Nacional Df - Tigre | live | -
 - 2026-07-22 01:00 | Kolombiya Kupa 2.Tur | Inter Bogota - Internacional P | live | -
 - 2026-07-22 01:30 | Brezilya Serie A | Atletico Mg - Bahia | live | -
 - 2026-07-22 01:30 | Brezilya Serie B | Avai - America Mineiro | live | -
 - 2026-07-22 01:30 | Brezilya Serie B | Novorizontino - Criciuma | live | -
+- 2026-07-22 02:00 | Kolombiya Kupa 2.Tur | Deportes Tolim - Quindio | live | -
+- 2026-07-22 02:00 | Bolivya Premier Lig | Independiente - Real Potosi | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-22 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio - Tigres Fc | finished | -
