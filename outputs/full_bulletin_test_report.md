@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 64
-- Live match count: 28
+- Scheduled match count: 18
+- Live match count: 64
 - Finished removed count: 0
 - Date window: 2026-07-21 / 2026-07-22 23:59
 
-- 2026-07-21 19:00 | Kapa - Klubi 04 | live
-- 2026-07-21 19:00 | Bochum - Swansea | live
-- 2026-07-21 19:00 | Shakhtar Donet - Slaven Belupo | live
-- 2026-07-21 19:00 | Hegelmann Ii - Zalgiris Ii | live
-- 2026-07-21 19:00 | 29 De Setiembr - 12 De Junio Vh | live
-- 2026-07-21 19:00 | Ararat-Armenia - Shamrock Rovers | live
-- 2026-07-21 19:00 | Fc Iberia - Slovan Bratisla | live
-- 2026-07-21 19:00 | Mjallby - Lincoln Red Imp | live
-- 2026-07-21 19:00 | Sabah - Kuopion | live
-- 2026-07-21 19:30 | Istra - Orijent | live
+- 2026-07-21 20:00 | Al Ittihad (Ci - Orlando Pirates | live
+- 2026-07-21 20:00 | Evv - Maastricht | live
+- 2026-07-21 20:00 | Falkenberg - Helsingborg | live
+- 2026-07-21 20:00 | Göteborg - Levadia Tallinn | live
+- 2026-07-21 20:00 | Aarhus - Lech Poznan | live
+- 2026-07-21 20:30 | Pau Fc - Espanyol | live
+- 2026-07-21 20:30 | Floriana - Fc Drita | live
+- 2026-07-21 21:00 | Olympique Dche (0) - (0) Amal Tiznit | live
+- 2026-07-21 21:00 | Uts Rabat (1) - (1) El Massira | live
+- 2026-07-21 21:00 | Albacete - Al Kholood | live

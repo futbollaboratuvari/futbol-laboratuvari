@@ -1,29 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-21T18:20:04.680638+00:00
+Tarih: 2026-07-21T19:03:33.012141+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 46
+- Kac mac bulundu: 18
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 46
+- Kac mac zaten vardi: 18
 - Ham veri havuzu toplam mac sayisi: 2560
 - Hedef tarih: 21.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Hazırlık Kulüpler
-- UEFA Şampiyonlar Ligi 2.Eleme Turu
-- İskoçya Lig Kupası Grup A
-- İskoçya Lig Kupası Grup B
-- İskoçya Lig Kupası Grup C
-- İskoçya Lig Kupası Grup D
-- İskoçya Lig Kupası Grup E
-- İskoçya Lig Kupası Grup F
-- İskoçya Lig Kupası Grup G
-- İskoçya Lig Kupası Grup H
+- Bolivya Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Copa Sudamericana Son 32 Turu
+- Ekvador Pro Lig
+- Kolombiya Kupa 2.Tur
+- Meksika Liga MX Apertura
 - İzlanda Kupa Yarı Final
 
 ## Okunabilen Oran Alanlari
@@ -81,8 +78,8 @@ Tarih: 2026-07-21T18:20:04.680638+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 8
+- Acilan detay: 8
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -95,26 +92,24 @@ Tarih: 2026-07-21T18:20:04.680638+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 21.07.2026 | 21:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sturm Graz | Hearts | 06615 | 5 |
-| 21.07.2026 | 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kí Klaksvík | Kauno Zalgiris | 06672 | 5 |
-| 21.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Vikingur Reykj | Hapoel Beer She | 06770 | 5 |
-| 21.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Larne Fc | Kizilyildiz | 06721 | 4 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Kelty Hearts | Brora Rangers | 14981 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Dundee Utd | Spartans | 15398 | 4 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup B | Arbroath | Montrose | 09967 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | Dunfermline | Cove Rangers | 15431 | 4 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup C | St Mirren | East Kilbride | 09454 | 4 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Ross County | Dundee | 15146 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup D | Clyde | Annan | 15365 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup E | Livingston | Forfar | 15047 | 4 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup E | Partick Thistl | Stenhousemuir | 15080 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup F | East Fife | Linlithgow Rose | 15464 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup F | Inverness Ct | St Johnstone | 15497 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup G | Stranraer | Edinburg C. | 15210 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup G | Alloa | Falkirk | 05687 | 4 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup H | Raith Rovers | Peterhead | 15113 | 5 |
-| 21.07.2026 | 21:45 | İskoçya Lig Kupası Grup H | Kilmarnock | Hamilton | 15014 | 5 |
-| 21.07.2026 | 21:45 | Hazırlık Kulüpler | Colchester | Peterborough | 16749 | 5 |
+| 22.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Nacional Df | Tigre | 06814 | 5 |
+| 22.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Ucv | Santos | 06919 | 5 |
+| 22.07.2026 | 01:30 | Brezilya Serie A | Atletico Mg | Bahia | 12101 | 5 |
+| 22.07.2026 | 06:05 | Meksika Liga MX Apertura | Toluca | Pumas Unam | 12331 | 5 |
+| 22.07.2026 | 04:00 | Meksika Liga MX Apertura | Cruz Azul | Puebla | 12288 | 5 |
+| 22.07.2026 | 01:30 | Brezilya Serie B | Avai | America Mineiro | 12161 | 5 |
+| 22.07.2026 | 01:30 | Brezilya Serie B | Novorizontino | Criciuma | 12194 | 5 |
+| 22.07.2026 | 03:35 | Brezilya Serie B | Vila Nova | Fortaleza Ce | 12244 | 5 |
+| 22.07.2026 | 02:00 | Kolombiya Kupa 2.Tur | Deportes Tolim | Quindio | 15718 | 5 |
+| 22.07.2026 | 03:00 | Kolombiya Kupa 2.Tur | Deportivo Past | Bogota | 16230 | 5 |
+| 22.07.2026 | 03:00 | Kolombiya Kupa 2.Tur | Once Caldas | Envigado | 16213 | 5 |
+| 22.07.2026 | 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio | Tigres Fc | 14031 | 2 |
+| 22.07.2026 | 03:30 | Kolombiya Kupa 2.Tur | America De Cal | Real Cartagena | 15751 | 5 |
+| 22.07.2026 | 01:00 | Kolombiya Kupa 2.Tur | Inter Bogota | Internacional P | 14579 | 5 |
+| 22.07.2026 | 00:30 | Ekvador Pro Lig | Libertad | Delfin | 12067 | 5 |
+| 22.07.2026 | 03:00 | Ekvador Pro Lig | Univ Catolica | Barcelona Gua | 12227 | 5 |
+| 22.07.2026 | 02:00 | Bolivya Premier Lig | Independiente | Real Potosi | 16247 | 5 |
+| 21.07.2026 | 22:30 | İzlanda Kupa Yarı Final | Fylkir | Afturelding | 12066 | 3 |
 
 ## Sonuc
 
