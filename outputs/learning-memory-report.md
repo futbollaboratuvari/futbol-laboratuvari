@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.07.2026 06:51:41
+Oluşturma: 21.07.2026 07:30:12
 
 ## Özet
 
-- Toplam tahmin: 20
-- Bekleyen tahmin: 20
+- Toplam tahmin: 21
+- Bekleyen tahmin: 21
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 12
@@ -20,12 +20,13 @@ Oluşturma: 21.07.2026 06:51:41
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS X: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-21 | İskoçya Lig Kupası Grup H | Kilmarnock - Hamilton | MS 2 | pending | 40/100
 - 2026-07-21 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Thun - Dinamo Zagreb | MS 1 | pending | 50/100
 - 2026-07-21 | İskoçya Lig Kupası Grup G | Stranraer - Edinburg C. | MS 2 | pending | 60/100
 - 2026-07-21 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fc Iberia - Slovan Bratisla | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 21.07.2026 06:51:41
 - 2026-07-21 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Sturm Graz - Hearts | MS 2 | pending | 50/100
 - 2026-07-21 | İskoçya Lig Kupası Grup B | Arbroath - Montrose | MS 2 | pending | 60/100
 - 2026-07-21 | İskoçya Lig Kupası Grup D | Ross County - Dundee | MS X | pending | 50/100
-- 2026-07-21 | İskoçya Lig Kupası Grup F | East Fife - Linlithgow Rose | MS 2 | pending | 60/100
 

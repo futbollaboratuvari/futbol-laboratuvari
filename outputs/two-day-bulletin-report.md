@@ -4,8 +4,8 @@ Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
 Ham mac: 79
 Aktif mac: 78
-Canli mac: 1
-Biten mac: 0
+Canli mac: 0
+Biten mac: 1
 Bultenden dusurulen mac: 1
 Bugun: 64
 Yarin: 14
@@ -91,7 +91,7 @@ Yarin: 14
 - 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | scheduled | -
 
 ## Canli Maclar
-- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
