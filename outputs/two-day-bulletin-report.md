@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 97
+Ham mac: 96
 Aktif mac: 92
 Canli mac: 4
-Biten mac: 1
-Bultenden dusurulen mac: 5
+Biten mac: 0
+Bultenden dusurulen mac: 4
 Bugun: 76
 Yarin: 16
 
@@ -111,4 +111,4 @@ Yarin: 16
 - 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | live | -
 
 ## Biten Maclar
-- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
+Biten mac yok.
