@@ -3,15 +3,14 @@
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
 Ham mac: 100
-Aktif mac: 92
-Canli mac: 8
+Aktif mac: 91
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 75
+Bultenden dusurulen mac: 9
+Bugun: 74
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-21 17:00 | Hazırlık Kulüpler | Fremad Amager - Sundby | scheduled | -
 - 2026-07-21 18:00 | Hazırlık Kulüpler | Hertha Berlin - Mamelodi Sundow | scheduled | -
 - 2026-07-21 18:30 | Hazırlık Kulüpler | Dukla Prag Ii - Banik Sous | scheduled | -
 - 2026-07-21 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Fc Iberia - Slovan Bratisla | scheduled | -
@@ -113,6 +112,7 @@ Yarin: 17
 - 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Yunnan Yukun - Chengdu Ron. | live | -
 - 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Henan Jianye - Dalian Zhixing | live | -
 - 2026-07-21 15:00 | Hazırlık Kulüpler | Qpr - Wycombe | live | -
+- 2026-07-21 17:00 | Hazırlık Kulüpler | Fremad Amager - Sundby | live | -
 
 ## Biten Maclar
 Biten mac yok.

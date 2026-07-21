@@ -1,13 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 90
-Tam analiz: 79
-Eksik analiz: 11
+Toplam analiz: 83
+Tam analiz: 75
+Eksik analiz: 8
 
-- Canberra Juven VS Canberra: eksik score, confidence
-- Cumberland Uni VS Heidelberg Unit: eksik score, confidence
-- Bayswater City VS Sydney: eksik score, confidence
 - Shanghai Port VS Shenzhen Peng: eksik score, confidence
 - Chongqing Tong VS Qingdao Youth I: eksik score, confidence
 - Wuhan Three To VS Shandong Taisha: eksik score, confidence
