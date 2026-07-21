@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-21T10:54:24.495Z
+- Güncelleme: 2026-07-21T11:25:29.157Z
 - Ham maç sayısı: 96
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 258
-- Aktif bülten maçı: 87
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 85
+- Bültenden düşürülen maç: 11
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shanghai Port - Shenzhen Peng | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:00 | Veri bekleniyor | - | 1.29 | 3 |
-| Sheffield Utd - Huddersfield | Hazırlık Kulüpler | 14:00 | Veri bekleniyor | - | 1.58 | 8 |
 | Chongqing Tong - Qingdao Youth I | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:35 | Veri bekleniyor | - | 1.74 | 5 |
 | Wuhan Three To - Shandong Taisha | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:35 | Veri bekleniyor | - | 5.45 | 3 |
 | Shanghai Shenh - Qingdao Zhongne | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 14:35 | Veri bekleniyor | - | - | 2 |
