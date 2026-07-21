@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-21T07:29:06.540Z
+- Güncelleme: 2026-07-21T09:17:32.884Z
 - Ham maç sayısı: 92
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 248
-- Aktif bülten maçı: 92
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 91
+- Bültenden düşürülen maç: 1
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Dalian Kewei - Beijing Guoan | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 11:00 | Veri bekleniyor | - | 5.65 | 5 |
 | Preston Lions - Newcastle Jet | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 3.45 | 8 |
 | Queensland Lio - Perth Glory | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 2.9 | 6 |
 | Canberra Juven - Canberra | Avustralya NPL Başkent Bölgesi | 12:30 | Veri bekleniyor | - | 3.66 | 4 |
