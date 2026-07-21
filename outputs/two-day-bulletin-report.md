@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
-Ham mac: 109
-Aktif mac: 97
-Canli mac: 10
-Biten mac: 2
-Bultenden dusurulen mac: 12
-Bugun: 80
+Ham mac: 107
+Aktif mac: 94
+Canli mac: 13
+Biten mac: 0
+Bultenden dusurulen mac: 13
+Bugun: 77
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | scheduled | -
-- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Wuhan Three To - Shandong Taisha | scheduled | -
-- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Shenh - Qingdao Zhongne | scheduled | -
 - 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Yunnan Yukun - Chengdu Ron. | scheduled | -
 - 2026-07-21 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Henan Jianye - Dalian Zhixing | scheduled | -
 - 2026-07-21 15:00 | Hazırlık Kulüpler | Qpr - Wycombe | scheduled | -
@@ -120,7 +117,9 @@ Yarin: 17
 - 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | live | -
 - 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | live | -
 - 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | live | -
+- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | live | -
+- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Wuhan Three To - Shandong Taisha | live | -
+- 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Shenh - Qingdao Zhongne | live | -
 
 ## Biten Maclar
-- 2026-07-21 02:00 | Bolivya Premier Lig | Nacional Potos - Real Oruro | finished | -
-- 2026-07-21 11:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Dalian Kewei - Beijing Guoan | finished | -
+Biten mac yok.
