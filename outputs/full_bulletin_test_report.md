@@ -2,13 +2,13 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 92
-- Live match count: 1
+- Scheduled match count: 91
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-21 / 2026-07-22 23:59
 
 - 2026-07-21 17:00 | Fremad Amager - Sundby | live
-- 2026-07-21 18:00 | Hertha Berlin - Mamelodi Sundow | scheduled
+- 2026-07-21 18:00 | Hertha Berlin - Mamelodi Sundow | live
 - 2026-07-21 18:30 | Dukla Prag Ii - Banik Sous | scheduled
 - 2026-07-21 19:00 | Kapa - Klubi 04 | scheduled
 - 2026-07-21 19:00 | Bochum - Swansea | scheduled
