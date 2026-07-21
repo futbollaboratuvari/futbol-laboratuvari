@@ -3,19 +3,14 @@
 Gunler: 2026-07-21 / 2026-07-22
 Kaynak: fixtures.json
 Ham mac: 96
-Aktif mac: 92
-Canli mac: 4
+Aktif mac: 87
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 76
+Bultenden dusurulen mac: 9
+Bugun: 71
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-21 13:00 | Avustralya FFA Kupası Son 32 Turu | Cumberland Uni - Heidelberg Unit | scheduled | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | scheduled | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | scheduled | -
-- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | scheduled | -
-- 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | scheduled | -
 - 2026-07-21 14:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Shanghai Port - Shenzhen Peng | scheduled | -
 - 2026-07-21 14:00 | Hazırlık Kulüpler | Sheffield Utd - Huddersfield | scheduled | -
 - 2026-07-21 14:35 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Chongqing Tong - Qingdao Youth I | scheduled | -
@@ -109,6 +104,11 @@ Yarin: 16
 - 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Preston Lions - Newcastle Jet | live | -
 - 2026-07-21 12:30 | Avustralya FFA Kupası Son 32 Turu | Queensland Lio - Perth Glory | live | -
 - 2026-07-21 12:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra | live | -
+- 2026-07-21 13:00 | Avustralya FFA Kupası Son 32 Turu | Cumberland Uni - Heidelberg Unit | live | -
+- 2026-07-21 13:30 | Güney Kore K Lig 1 | Ulsan - Incheon Utd | live | -
+- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Daejeon Citizen | live | -
+- 2026-07-21 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gangwon | live | -
+- 2026-07-21 13:30 | Avustralya FFA Kupası Son 32 Turu | Bayswater City - Sydney | live | -
 
 ## Biten Maclar
 Biten mac yok.
