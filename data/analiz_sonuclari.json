@@ -1,441 +1,805 @@
 {
-  "generated_at": "2026-07-21T22:24:38.617Z",
-  "date": "2026-07-22",
+  "generated_at": "2026-07-21T22:37:52.254Z",
   "timezone": "Europe/Istanbul",
-  "source": "High Value Coupon Engine + Learning Memory",
-  "status": "active",
-  "summary": {
-    "fixture_count": 2,
-    "scored_match_count": 2,
-    "active_item_count": 2,
-    "coupon_candidate_count": 0,
-    "watch_candidate_count": 0
-  },
+  "source": "High Value Coupon Engine",
   "active_items": [
     {
-      "id": "auto-2",
-      "date": "2026-07-22",
-      "time": "00:30",
-      "league": "Ekvador Pro Lig",
-      "title": "Libertad VS Delfin",
-      "match": "Libertad VS Delfin",
-      "market": "Değerli market yok",
-      "prediction": "Değerli market yok",
-      "decision": "Oynama",
-      "score": "15%",
-      "confidence": "15%",
-      "confidence_score": "15%",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "filtered_no_value_market",
-      "estimated_odds": "-",
-      "available_odds": {
-        "ms1": "1.98",
-        "msx": "2.63",
-        "ms2": "2.81",
-        "over25": "2.03",
-        "under25": "1.33",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "1.14",
-        "bttsNo": "1.17",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 1.98,
-        "msx": 2.63,
-        "ms2": 2.81,
-        "under25": 1.33,
-        "over25": 2.03,
-        "bttsYes_guess": 1.14,
-        "bttsNo_guess": 1.17
-      },
-      "detail_market_candidates": [
+      "id": "Tekli-1",
+      "type": "Tekli",
+      "title": "Nashville Sc VS Montreal",
+      "match": "Nashville Sc VS Montreal",
+      "fixture": "Nashville Sc VS Montreal",
+      "selection": "MS 2",
+      "option": "MS 2",
+      "market": "MS 2",
+      "prediction": "MS 2",
+      "decision": "MS 2",
+      "odds": "5.31",
+      "total_odds": "5.31",
+      "confidence": "75%",
+      "confidence_score": "75%",
+      "score": "75%",
+      "risk": "Düşük",
+      "risk_level": "Düşük",
+      "tag": "Orta risk kupon adayı",
+      "value_label": "Yüksek Değer",
+      "analysis_score": 75,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
+      "expected_scores": [
+        "0-1",
+        "0-2",
+        "1-2"
+      ],
+      "legs": [
         {
-          "market_code": "12067",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.98,
-            "msx": 2.63,
-            "ms2": 2.81
-          }
-        },
-        {
-          "market_code": "12067",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.98,
-            "firstHalfX_guess": 2.63,
-            "firstHalf2_guess": 2.81
-          }
-        },
-        {
-          "market_code": "12067",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.98,
-            "secondHalfX_guess": 2.63,
-            "secondHalf2_guess": 2.81
-          }
-        },
-        {
-          "market_code": "12067",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.98,
-            "handicapX_guess": 2.63,
-            "handicap2_guess": 2.81
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 1.33,
-            "bttsNo_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 1.33,
-            "firstHalfBttsNo_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 1.33,
-            "secondHalfBttsNo_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 1.33,
-            "over05_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 1.33,
-            "over15_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 1.33,
-            "over25_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 1.33,
-            "over35_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 1.33,
-            "over45_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 1.33,
-            "firstHalfOver05_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 1.33,
-            "firstHalfOver15_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 1.33,
-            "secondHalfOver05_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 1.33,
-            "secondHalfOver15_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 1.33,
-            "homeOver15_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12071",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 1.33,
-            "awayOver15_guess": 2.03
-          }
-        },
-        {
-          "market_code": "12068",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.14,
-            "msx": 1.17,
-            "ms2": 1.34
-          }
-        },
-        {
-          "market_code": "12068",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.14,
-            "firstHalfX_guess": 1.17,
-            "firstHalf2_guess": 1.34
-          }
-        },
-        {
-          "market_code": "12068",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.14,
-            "secondHalfX_guess": 1.17,
-            "secondHalf2_guess": 1.34
-          }
-        },
-        {
-          "market_code": "12068",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.14,
-            "handicapX_guess": 1.17,
-            "handicap2_guess": 1.34
-          }
+          "number": 1,
+          "home": "Nashville Sc",
+          "away": "Montreal",
+          "match": "Nashville Sc VS Montreal",
+          "date": "2026-07-23",
+          "time": "03:30",
+          "league": "ABD MLS",
+          "selection": "MS 2",
+          "option": "MS 2",
+          "odds": "5.31",
+          "lab_probability": "75%",
+          "confidence": "75%",
+          "trust_score": "75/100",
+          "risk": "Düşük",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 75,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ],
+          "signals": [
+            "Market: MS 2",
+            "Oran: 5.31",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "KG Var yüzdesi %65 üzeri: +15",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "İkinci yarı gol eğilimi yüksek: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
         }
       ],
-      "expected_scores": [],
-      "value_label": "Normal Değer",
-      "commentary": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | Hafıza: arşiv verisi henüz sınırlı",
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | Hafıza: arşiv verisi henüz sınırlı",
+      "status": "takipte",
       "pro_signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
+        "Market: MS 2",
+        "Oran: 5.31",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
         "İki takım son 10 maçta en az 4 gol yedi: +15",
+        "KG Var yüzdesi %65 üzeri: +15",
+        "Lig gol ortalaması 2.70 üzeri: +10",
+        "İkinci yarı gol eğilimi yüksek: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Oynama"
+        "100 puan analiz sınıfı: Orta risk kupon adayı"
       ],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Oynama"
-      ],
-      "source": "Robot ham veri havuzu"
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "source": "high_value_coupon_engine",
+      "created_at": "2026-07-21T22:37:52.254Z"
     },
     {
-      "id": "auto-1",
-      "date": "2026-07-22",
-      "time": "00:00",
-      "league": "Kolombiya Kupa 2.Tur",
-      "title": "Atletico Nacio VS Tigres Fc",
-      "match": "Atletico Nacio VS Tigres Fc",
-      "market": "Değerli market yok",
-      "prediction": "Değerli market yok",
-      "decision": "Oynama",
-      "score": "10%",
-      "confidence": "10%",
-      "confidence_score": "10%",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "filtered_no_value_market",
-      "estimated_odds": "-",
-      "available_odds": {
-        "ms1": "-",
-        "msx": "5.90",
-        "ms2": "10.10",
-        "over25": "-",
-        "under25": "-",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "5.90",
-        "bttsNo": "10.10",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "bttsYes_guess": 5.9,
-        "bttsNo_guess": 10.1
-      },
-      "detail_market_candidates": [
+      "id": "Tekli-2",
+      "type": "Tekli",
+      "title": "Philadelphia VS New York",
+      "match": "Philadelphia VS New York",
+      "fixture": "Philadelphia VS New York",
+      "selection": "MS 2",
+      "option": "MS 2",
+      "market": "MS 2",
+      "prediction": "MS 2",
+      "decision": "MS 2",
+      "odds": "3.65",
+      "total_odds": "3.65",
+      "confidence": "70%",
+      "confidence_score": "70%",
+      "score": "70%",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "tag": "Orta risk kupon adayı",
+      "value_label": "Yüksek Değer",
+      "analysis_score": 70,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
+      "expected_scores": [
+        "0-1",
+        "0-2",
+        "1-2"
+      ],
+      "legs": [
         {
-          "market_code": "14031",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 5.9,
-            "bttsNo_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 5.9,
-            "firstHalfBttsNo_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 5.9,
-            "secondHalfBttsNo_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 5.9,
-            "over05_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 5.9,
-            "over15_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 5.9,
-            "over25_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 5.9,
-            "over35_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 5.9,
-            "over45_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 5.9,
-            "firstHalfOver05_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 5.9,
-            "firstHalfOver15_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 5.9,
-            "secondHalfOver05_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 5.9,
-            "secondHalfOver15_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 5.9,
-            "homeOver15_guess": 10.1
-          }
-        },
-        {
-          "market_code": "14031",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 5.9,
-            "awayOver15_guess": 10.1
-          }
+          "number": 1,
+          "home": "Philadelphia",
+          "away": "New York",
+          "match": "Philadelphia VS New York",
+          "date": "2026-07-23",
+          "time": "02:30",
+          "league": "ABD MLS",
+          "selection": "MS 2",
+          "option": "MS 2",
+          "odds": "3.65",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ],
+          "signals": [
+            "Market: MS 2",
+            "Oran: 3.65",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
         }
       ],
-      "expected_scores": [],
-      "value_label": "Normal Değer",
-      "commentary": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | İkinci yarı gol eğilimi yüksek: +10",
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | İkinci yarı gol eğilimi yüksek: +10",
+      "status": "takipte",
       "pro_signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
+        "Market: MS 2",
+        "Oran: 3.65",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
         "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "İkinci yarı gol eğilimi yüksek: +10",
+        "2.5 Üst yüzdesi %60 üzeri: +10",
+        "3.5 Üst yüzdesi %45 üzeri: +10",
+        "Lig gol ortalaması 2.70 üzeri: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Orta risk kupon adayı"
       ],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "source": "high_value_coupon_engine",
+      "created_at": "2026-07-21T22:37:52.254Z"
+    },
+    {
+      "id": "Tekli-3",
+      "type": "Tekli",
+      "title": "Inter Miami VS Chicago",
+      "match": "Inter Miami VS Chicago",
+      "fixture": "Inter Miami VS Chicago",
+      "selection": "MS X",
+      "option": "MS X",
+      "market": "MS X",
+      "prediction": "MS X",
+      "decision": "MS X",
+      "odds": "3.56",
+      "total_odds": "3.56",
+      "confidence": "70%",
+      "confidence_score": "70%",
+      "score": "70%",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "tag": "Orta risk kupon adayı",
+      "value_label": "Yüksek Değer",
+      "analysis_score": 70,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
+      "expected_scores": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
+      "legs": [
+        {
+          "number": 1,
+          "home": "Inter Miami",
+          "away": "Chicago",
+          "match": "Inter Miami VS Chicago",
+          "date": "2026-07-23",
+          "time": "02:30",
+          "league": "ABD MLS",
+          "selection": "MS X",
+          "option": "MS X",
+          "odds": "3.56",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-0",
+            "1-1",
+            "2-2"
+          ],
+          "signals": [
+            "Market: MS X",
+            "Oran: 3.56",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        }
+      ],
+      "status": "takipte",
+      "pro_signals": [
+        "Market: MS X",
+        "Oran: 3.56",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
         "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "İkinci yarı gol eğilimi yüksek: +10",
+        "2.5 Üst yüzdesi %60 üzeri: +10",
+        "3.5 Üst yüzdesi %45 üzeri: +10",
+        "Lig gol ortalaması 2.70 üzeri: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Orta risk kupon adayı"
       ],
-      "source": "Robot ham veri havuzu"
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "source": "high_value_coupon_engine",
+      "created_at": "2026-07-21T22:37:52.254Z"
+    },
+    {
+      "id": "Tekli-4",
+      "type": "Tekli",
+      "title": "Colorado VS San Diego",
+      "match": "Colorado VS San Diego",
+      "fixture": "Colorado VS San Diego",
+      "selection": "MS X",
+      "option": "MS X",
+      "market": "MS X",
+      "prediction": "MS X",
+      "decision": "MS X",
+      "odds": "3.37",
+      "total_odds": "3.37",
+      "confidence": "70%",
+      "confidence_score": "70%",
+      "score": "70%",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "tag": "Orta risk kupon adayı",
+      "value_label": "Yüksek Değer",
+      "analysis_score": 70,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
+      "expected_scores": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
+      "legs": [
+        {
+          "number": 1,
+          "home": "Colorado",
+          "away": "San Diego",
+          "match": "Colorado VS San Diego",
+          "date": "2026-07-23",
+          "time": "04:30",
+          "league": "ABD MLS",
+          "selection": "MS X",
+          "option": "MS X",
+          "odds": "3.37",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-0",
+            "1-1",
+            "2-2"
+          ],
+          "signals": [
+            "Market: MS X",
+            "Oran: 3.37",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        }
+      ],
+      "status": "takipte",
+      "pro_signals": [
+        "Market: MS X",
+        "Oran: 3.37",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
+        "2.5 Üst yüzdesi %60 üzeri: +10",
+        "3.5 Üst yüzdesi %45 üzeri: +10",
+        "Lig gol ortalaması 2.70 üzeri: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Orta risk kupon adayı"
+      ],
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "source": "high_value_coupon_engine",
+      "created_at": "2026-07-21T22:37:52.254Z"
+    },
+    {
+      "id": "2'li-1",
+      "type": "2'li",
+      "title": "Nashville Sc VS Montreal + Philadelphia VS New York",
+      "match": "Nashville Sc VS Montreal + Philadelphia VS New York",
+      "fixture": "Nashville Sc VS Montreal + Philadelphia VS New York",
+      "selection": "MS 2 + MS 2",
+      "option": "MS 2 + MS 2",
+      "market": "MS 2 + MS 2",
+      "prediction": "MS 2 + MS 2",
+      "decision": "MS 2 + MS 2",
+      "odds": "19.38",
+      "total_odds": "19.38",
+      "confidence": "73%",
+      "confidence_score": "73%",
+      "score": "73%",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "tag": "Orta risk kupon adayı",
+      "value_label": "Yüksek Değer",
+      "analysis_score": 73,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
+      "expected_scores": [
+        "0-1",
+        "0-2",
+        "1-2",
+        "0-1"
+      ],
+      "legs": [
+        {
+          "number": 1,
+          "home": "Nashville Sc",
+          "away": "Montreal",
+          "match": "Nashville Sc VS Montreal",
+          "date": "2026-07-23",
+          "time": "03:30",
+          "league": "ABD MLS",
+          "selection": "MS 2",
+          "option": "MS 2",
+          "odds": "5.31",
+          "lab_probability": "75%",
+          "confidence": "75%",
+          "trust_score": "75/100",
+          "risk": "Düşük",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 75,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ],
+          "signals": [
+            "Market: MS 2",
+            "Oran: 5.31",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "KG Var yüzdesi %65 üzeri: +15",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "İkinci yarı gol eğilimi yüksek: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        },
+        {
+          "number": 2,
+          "home": "Philadelphia",
+          "away": "New York",
+          "match": "Philadelphia VS New York",
+          "date": "2026-07-23",
+          "time": "02:30",
+          "league": "ABD MLS",
+          "selection": "MS 2",
+          "option": "MS 2",
+          "odds": "3.65",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ],
+          "signals": [
+            "Market: MS 2",
+            "Oran: 3.65",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        }
+      ],
+      "status": "takipte",
+      "pro_signals": [
+        "Market: MS 2",
+        "Oran: 5.31",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15"
+      ],
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "source": "high_value_coupon_engine",
+      "created_at": "2026-07-21T22:37:52.254Z"
+    },
+    {
+      "id": "2'li-2",
+      "type": "2'li",
+      "title": "Inter Miami VS Chicago + Colorado VS San Diego",
+      "match": "Inter Miami VS Chicago + Colorado VS San Diego",
+      "fixture": "Inter Miami VS Chicago + Colorado VS San Diego",
+      "selection": "MS X + MS X",
+      "option": "MS X + MS X",
+      "market": "MS X + MS X",
+      "prediction": "MS X + MS X",
+      "decision": "MS X + MS X",
+      "odds": "12.00",
+      "total_odds": "12.00",
+      "confidence": "70%",
+      "confidence_score": "70%",
+      "score": "70%",
+      "risk": "Orta",
+      "risk_level": "Orta",
+      "tag": "Orta risk kupon adayı",
+      "value_label": "Yüksek Değer",
+      "analysis_score": 70,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
+      "expected_scores": [
+        "0-0",
+        "1-1",
+        "2-2",
+        "0-0"
+      ],
+      "legs": [
+        {
+          "number": 1,
+          "home": "Inter Miami",
+          "away": "Chicago",
+          "match": "Inter Miami VS Chicago",
+          "date": "2026-07-23",
+          "time": "02:30",
+          "league": "ABD MLS",
+          "selection": "MS X",
+          "option": "MS X",
+          "odds": "3.56",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-0",
+            "1-1",
+            "2-2"
+          ],
+          "signals": [
+            "Market: MS X",
+            "Oran: 3.56",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        },
+        {
+          "number": 2,
+          "home": "Colorado",
+          "away": "San Diego",
+          "match": "Colorado VS San Diego",
+          "date": "2026-07-23",
+          "time": "04:30",
+          "league": "ABD MLS",
+          "selection": "MS X",
+          "option": "MS X",
+          "odds": "3.37",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-0",
+            "1-1",
+            "2-2"
+          ],
+          "signals": [
+            "Market: MS X",
+            "Oran: 3.37",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        }
+      ],
+      "status": "takipte",
+      "pro_signals": [
+        "Market: MS X",
+        "Oran: 3.56",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15"
+      ],
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "source": "high_value_coupon_engine",
+      "created_at": "2026-07-21T22:37:52.254Z"
+    },
+    {
+      "id": "3'lü-1",
+      "type": "3'lü",
+      "title": "Nashville Sc VS Montreal + Philadelphia VS New York + Inter Miami VS Chicago",
+      "match": "Nashville Sc VS Montreal + Philadelphia VS New York + Inter Miami VS Chicago",
+      "fixture": "Nashville Sc VS Montreal + Philadelphia VS New York + Inter Miami VS Chicago",
+      "selection": "MS 2 + MS 2 + MS X",
+      "option": "MS 2 + MS 2 + MS X",
+      "market": "MS 2 + MS 2 + MS X",
+      "prediction": "MS 2 + MS 2 + MS X",
+      "decision": "MS 2 + MS 2 + MS X",
+      "odds": "69.00",
+      "total_odds": "69.00",
+      "confidence": "72%",
+      "confidence_score": "72%",
+      "score": "72%",
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "tag": "Orta risk kupon adayı",
+      "value_label": "Yüksek Değer",
+      "analysis_score": 72,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
+      "expected_scores": [
+        "0-1",
+        "0-2",
+        "1-2",
+        "0-1",
+        "0-2",
+        "1-2"
+      ],
+      "legs": [
+        {
+          "number": 1,
+          "home": "Nashville Sc",
+          "away": "Montreal",
+          "match": "Nashville Sc VS Montreal",
+          "date": "2026-07-23",
+          "time": "03:30",
+          "league": "ABD MLS",
+          "selection": "MS 2",
+          "option": "MS 2",
+          "odds": "5.31",
+          "lab_probability": "75%",
+          "confidence": "75%",
+          "trust_score": "75/100",
+          "risk": "Düşük",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 75,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ],
+          "signals": [
+            "Market: MS 2",
+            "Oran: 5.31",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "KG Var yüzdesi %65 üzeri: +15",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "İkinci yarı gol eğilimi yüksek: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        },
+        {
+          "number": 2,
+          "home": "Philadelphia",
+          "away": "New York",
+          "match": "Philadelphia VS New York",
+          "date": "2026-07-23",
+          "time": "02:30",
+          "league": "ABD MLS",
+          "selection": "MS 2",
+          "option": "MS 2",
+          "odds": "3.65",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ],
+          "signals": [
+            "Market: MS 2",
+            "Oran: 3.65",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        },
+        {
+          "number": 3,
+          "home": "Inter Miami",
+          "away": "Chicago",
+          "match": "Inter Miami VS Chicago",
+          "date": "2026-07-23",
+          "time": "02:30",
+          "league": "ABD MLS",
+          "selection": "MS X",
+          "option": "MS X",
+          "odds": "3.56",
+          "lab_probability": "70%",
+          "confidence": "70%",
+          "trust_score": "70/100",
+          "risk": "Orta",
+          "tag": "Orta risk kupon adayı",
+          "value_label": "Yüksek Değer",
+          "analysis_score": 70,
+          "analysis_class": "Orta risk kupon adayı",
+          "data_gap_risk": "Düşük",
+          "expected_scores": [
+            "0-0",
+            "1-1",
+            "2-2"
+          ],
+          "signals": [
+            "Market: MS X",
+            "Oran: 3.56",
+            "Veri tipi: standard",
+            "Değer etiketi: Yüksek Değer",
+            "İki takım son 10 maçta en az 4 gol attı: +15",
+            "İki takım son 10 maçta en az 4 gol yedi: +15",
+            "2.5 Üst yüzdesi %60 üzeri: +10",
+            "3.5 Üst yüzdesi %45 üzeri: +10",
+            "Lig gol ortalaması 2.70 üzeri: +10",
+            "Oran 1.70 üzeri: +10",
+            "Oran 2.20 üzeri: Yüksek Değer etiketi",
+            "Hafıza: arşiv verisi henüz sınırlı",
+            "Veri eksikliği riski: Düşük",
+            "100 puan analiz sınıfı: Orta risk kupon adayı"
+          ]
+        }
+      ],
+      "status": "takipte",
+      "pro_signals": [
+        "Market: MS 2",
+        "Oran: 5.31",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
+        "İki takım son 10 maçta en az 4 gol yedi: +15"
+      ],
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "source": "high_value_coupon_engine",
+      "created_at": "2026-07-21T22:37:52.254Z"
     }
   ],
   "completed_items": [],
@@ -457,5 +821,5 @@
     "İY/MS 2/X",
     "İY/MS 2/2"
   ],
-  "focused_market_note": "Robot analiz çıktısı siteye bağlandı."
+  "focused_market_note": "First half result, second half result and HT/FT markets are focus markets."
 }
