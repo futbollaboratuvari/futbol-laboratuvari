@@ -1,26 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-21T20:34:06.700799+00:00
+Tarih: 2026-07-21T21:34:35.310907+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 17
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 17
-- Ham veri havuzu toplam mac sayisi: 2560
-- Hedef tarih: 21.07.2026 Europe/Istanbul
+- Kac mac bulundu: 48
+- Kac mac kaydedildi: 48
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 2608
+- Hedef tarih: 22.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- Copa Sudamericana Son 32 Turu
+- Avustralya FFA Kupası Son 32 Turu
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Ekvador Pro Lig
-- Kolombiya Kupa 2.Tur
-- Meksika Liga MX Apertura
+- Fas Botola 2 Yükselme/Küme Düşme Play Off
+- Finlandiya Ykkönen
+- Güney Kore K Lig 1
+- Hazırlık Kulüpler
+- Norveç Eliteserien
+- Paraguay Kupa 2.Tur
+- UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final
+- UEFA Konferans Ligi 2. Eleme Turu
+- UEFA Şampiyonlar Ligi 2.Eleme Turu
+- Çin Halk Cumhuriyeti FA Kupası 5.Tur
+- İskoçya Lig Kupası Grup A
 
 ## Okunabilen Oran Alanlari
 
@@ -77,8 +86,8 @@ Tarih: 2026-07-21T20:34:06.700799+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 7
-- Acilan detay: 7
+- Denenen Tumu alani: 25
+- Acilan detay: 25
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -91,23 +100,26 @@ Tarih: 2026-07-21T20:34:06.700799+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 22.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Nacional Df | Tigre | 06814 | 5 |
-| 22.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Ucv | Santos | 06919 | 5 |
-| 22.07.2026 | 01:30 | Brezilya Serie A | Atletico Mg | Bahia | 12101 | 5 |
-| 22.07.2026 | 06:05 | Meksika Liga MX Apertura | Toluca | Pumas Unam | 12331 | 5 |
-| 22.07.2026 | 04:00 | Meksika Liga MX Apertura | Cruz Azul | Puebla | 12288 | 5 |
-| 22.07.2026 | 03:35 | Brezilya Serie B | Vila Nova | Fortaleza Ce | 12244 | 5 |
-| 22.07.2026 | 01:30 | Brezilya Serie B | Novorizontino | Criciuma | 12194 | 5 |
-| 22.07.2026 | 01:30 | Brezilya Serie B | Avai | America Mineiro | 12161 | 5 |
-| 22.07.2026 | 03:00 | Kolombiya Kupa 2.Tur | Once Caldas | Envigado | 16213 | 5 |
-| 22.07.2026 | 03:00 | Kolombiya Kupa 2.Tur | Deportivo Past | Bogota | 16230 | 5 |
-| 22.07.2026 | 01:00 | Kolombiya Kupa 2.Tur | Inter Bogota | Internacional P | 14579 | 5 |
-| 22.07.2026 | 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio | Tigres Fc | 14031 | 2 |
-| 22.07.2026 | 02:00 | Kolombiya Kupa 2.Tur | Deportes Tolim | Quindio | 15718 | 5 |
-| 22.07.2026 | 03:30 | Kolombiya Kupa 2.Tur | America De Cal | Real Cartagena | 15751 | 5 |
-| 22.07.2026 | 00:30 | Ekvador Pro Lig | Libertad | Delfin | 12067 | 5 |
-| 22.07.2026 | 03:00 | Ekvador Pro Lig | Univ Catolica | Barcelona Gua | 12227 | 5 |
-| 22.07.2026 | 02:00 | Bolivya Premier Lig | Independiente | Real Potosi | 16247 | 5 |
+| 22.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Omonia | Kairat Almaty | 07116 | 5 |
+| 22.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Egnatia | Celje | 07393 | 5 |
+| 22.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Levski Sofya | Universitatea C | 07188 | 5 |
+| 22.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vardar | Riga Fc | 07284 | 5 |
+| 22.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava | Cska 1948 Sofia | 07322 | 5 |
+| 22.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk | Inter Turku | 07245 | 4 |
+| 22.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Zeleznicar Pan | Braga | 07355 | 5 |
+| 22.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Neftchi Baku | Dinamo Minsk | 06980 | 5 |
+| 22.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bohemian | Ballkani | 07018 | 5 |
+| 22.07.2026 | 20:00 | Norveç Eliteserien | Lillestrom | Viking | 12843 | 5 |
+| 22.07.2026 | 20:00 | Norveç Eliteserien | Bodo Glimt | Ham Kam | 12751 | 4 |
+| 22.07.2026 | 13:30 | Güney Kore K Lig 1 | Bucheon | Anyang | 12448 | 5 |
+| 22.07.2026 | 13:30 | Güney Kore K Lig 1 | Fc Seoul | Pohang Steelers | 12558 | 5 |
+| 22.07.2026 | 13:30 | Güney Kore K Lig 1 | Gwangju | Gimcheon Sangmu | 12622 | 5 |
+| 22.07.2026 | - | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 19:00 | - Mgarr United (K | - | 0 |
+| 22.07.2026 | 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Pyunik (K) | Wrexham (K) | 01005 | 3 |
+| 22.07.2026 | 18:30 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Paok (K) | Hapoel Jerusale | 00042 | 5 |
+| 22.07.2026 | 15:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Glentoran (K) | Dinamo Riga (K) | 17544 | 3 |
+| 22.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Queen Of South | Aberdeen | 15254 | 5 |
+| 22.07.2026 | 21:45 | Hazırlık Kulüpler | Stevenage | West Ham | 00667 | 5 |
 
 ## Sonuc
 
