@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T19:04:05.696Z",
+  "generated_at": "2026-07-21T19:58:38.371Z",
   "date": "2026-07-21",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -7,7 +7,7 @@
   "summary": {
     "fixture_count": 65,
     "scored_match_count": 65,
-    "coupon_candidate_count": 1,
+    "coupon_candidate_count": 2,
     "watch_candidate_count": 18,
     "learning_adjusted_count": 0
   },
@@ -29223,11 +29223,11 @@
       "match_name": "Dunfermline VS Cove Rangers",
       "league": "İskoçya Lig Kupası Grup C",
       "start_time": "21:45",
-      "recommended_market": "Değerli market yok",
-      "confidence_score": "20%",
-      "analysis_score": 20,
-      "risk_level": "Yüksek",
-      "estimated_odds": "-",
+      "recommended_market": "MS X",
+      "confidence_score": "85%",
+      "analysis_score": 85,
+      "risk_level": "Düşük",
+      "estimated_odds": "5.39",
       "available_odds": {
         "ms1": "1.11",
         "msx": "5.39",
@@ -29711,28 +29711,53 @@
         }
       ],
       "odds_source": "Robot ham veri havuzu",
-      "value_label": "Normal Değer",
+      "value_label": "Yüksek Değer",
       "band_attention_level": "Düşük",
       "band_attention_notes": [
         "Bant ile skor arasında belirgin çelişki yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | 2.5 Üst yüzdesi %60 üzeri: +10",
-      "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
-      "status": "filtered_no_value_market",
-      "expected_scores": [],
-      "learning_adjustment": null,
+      "robot_comment": "Market: MS X | Oran: 5.39 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "include_in_coupon": true,
+      "suitable_coupon_type": "Yüksek Oranlı Kupon",
+      "data_gap_risk": "Düşük",
+      "status": "live",
+      "expected_scores": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
+      "learning_adjustment": {
+        "market": "MS X",
+        "league": "İskoçya Lig Kupası Grup C",
+        "delta": 0,
+        "weight": 1,
+        "applied": false,
+        "notes": [
+          "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+        ],
+        "market_bucket": {
+          "total": 21,
+          "pending": 21,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": null,
+        "league_market_bucket": null
+      },
       "metrics": {
         "homeScoredLast10": 5,
         "awayScoredLast10": 5,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 6,
+        "bttsPercent": 66,
         "over25Percent": 62,
         "over35Percent": 44,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 52,
+        "secondHalfGoalTrend": 72,
         "leagueGoalAverage": 2.86,
         "memory": {
           "scoreDelta": 0,
@@ -29769,19 +29794,26 @@
         },
         "homeScoredLast10Count": 5,
         "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeConcededLast10Count": 6,
+        "awayConcededLast10Count": 6
       },
       "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
+        "Market: MS X",
+        "Oran: 5.39",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
+        "KG Var yüzdesi %65 üzeri: +15",
         "2.5 Üst yüzdesi %60 üzeri: +10",
         "Lig gol ortalaması 2.70 üzeri: +10",
+        "İkinci yarı gol eğilimi yüksek: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Ana kupon adayı",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ]
     },
     {
