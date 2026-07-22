@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.07.2026 03:11:58
+Oluşturma: 22.07.2026 03:13:16
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 29
+- Bekleyen tahmin: 29
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 15
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 22.07.2026 03:11:58
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
+- MS X: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-22 | UEFA Konferans Ligi 2. Eleme Turu | Neftchi Baku - Dinamo Minsk | MS 2 | pending | 40/100
+- 2026-07-22 | Hazırlık Kulüpler | Tottenham - Mk Dons | MS 2 | pending | 40/100
+- 2026-07-22 | Finlandiya Ykkönen | Pk Keski Uusim - Vjs | MS X | pending | 70/100
+- 2026-07-22 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Omonia - Kairat Almaty | MS 2 | pending | 50/100
+- 2026-07-22 | UEFA Konferans Ligi 2. Eleme Turu | Bohemian - Ballkani | MS 2 | pending | 50/100
+- 2026-07-22 | Norveç Eliteserien | Lillestrom - Viking | MS X | pending | 60/100
+- 2026-07-22 | Hazırlık Kulüpler | Cadiz - Leicester | MS X | pending | 50/100
+- 2026-07-22 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Levski Sofya - Universitatea C | MS 2 | pending | 40/100
+- 2026-07-22 | UEFA Konferans Ligi 2. Eleme Turu | Vardar - Riga Fc | MS X | pending | 50/100
+- 2026-07-22 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava - Cska 1948 Sofia | MS X | pending | 40/100
+- 2026-07-22 | Hazırlık Kulüpler | Burton Albion - Birmingham | MS 1 | pending | 40/100
+- 2026-07-22 | İskoçya Lig Kupası Grup A | Queen Of South - Aberdeen | MS 1 | pending | 40/100
+- 2026-07-22 | Hazırlık Kulüpler | Glasgow Ranger - St Etienne | MS X | pending | 50/100
+- 2026-07-22 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Egnatia - Celje | MS 1 | pending | 40/100
+- 2026-07-22 | Kolombiya Kupa 2.Tur | Inter Bogota - Internacional P | MS 2 | pending | 40/100
 
