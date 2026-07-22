@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
-Ham mac: 104
+Ham mac: 102
 Aktif mac: 89
-Canli mac: 14
-Biten mac: 1
-Bultenden dusurulen mac: 15
+Canli mac: 13
+Biten mac: 0
+Bultenden dusurulen mac: 13
 Bugun: 73
 Yarin: 16
 
@@ -102,7 +102,6 @@ Yarin: 16
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-07-23 00:30 | Ekvador Pro Lig | Indep. Jose Te - T.Universitario | live | -
 - 2026-07-23 01:00 | Copa Sudamericana Son 32 Turu | Independiente - Vasco Da Gama | live | -
 - 2026-07-23 01:30 | Brezilya Serie A | Coritiba - Palmeiras | live | -
 - 2026-07-23 01:30 | Brezilya Serie B | Ceara - Regatas | live | -
@@ -118,4 +117,4 @@ Yarin: 16
 - 2026-07-23 02:30 | Brezilya Serie B | Goias - Sport Recife | live | -
 
 ## Biten Maclar
-- 2026-07-23 00:00 | Paraguay Kupa 2.Tur | Sport Colombia - Guairena | finished | -
+Biten mac yok.
