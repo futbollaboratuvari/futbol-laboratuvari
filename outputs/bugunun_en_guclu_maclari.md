@@ -2,27 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-22T16:49:19.235Z
+- Güncelleme: 2026-07-22T17:43:06.314Z
 - Ham maç sayısı: 89
 - Yarın bülteni maç sayısı: 35
 - Detay blok sayısı: 258
-- Aktif bülten maçı: 70
-- Bültenden düşürülen maç: 19
+- Aktif bülten maçı: 59
+- Bültenden düşürülen maç: 30
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Omonia - Kairat Almaty | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:00 | Veri bekleniyor | - | 1.33 | 7 |
-| Bohemian - Ballkani | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.31 | 7 |
-| Lillestrom - Viking | Norveç Eliteserien | 20:00 | Veri bekleniyor | - | 2.86 | 8 |
-| Bodo Glimt - Ham Kam | Norveç Eliteserien | 20:00 | Veri bekleniyor | - | - | 5 |
-| Cadiz - Leicester | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.97 | 8 |
-| Fiorentina - Gubbio | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | - | 3 |
-| Osijek - Cibalia | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.14 | 6 |
-| Las Palmas - Orlando Pirates | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.42 | 7 |
-| Angers - Les Herbiers | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.21 | 6 |
-| Levski Sofya - Universitatea C | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | Veri bekleniyor | - | 1.82 | 8 |
-| Sestao - Athletic Bilbao | Hazırlık Kulüpler | 20:30 | Veri bekleniyor | - | 17.1 | 3 |
 | Başakşehir Fk - Inter Turku | UEFA Konferans Ligi 2. Eleme Turu | 20:45 | Veri bekleniyor | - | 1.06 | 6 |
 | Vardar - Riga Fc | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.72 | 8 |
 | Pyunik (K) - Wrexham (K) | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 21:00 | Veri bekleniyor | - | 13.45 | 5 |
