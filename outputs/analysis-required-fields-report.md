@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 57
-Tam analiz: 49
+Toplam analiz: 48
+Tam analiz: 40
 Eksik analiz: 8
 
 - Cooma Tigers VS Western Sydney: eksik score, confidence
