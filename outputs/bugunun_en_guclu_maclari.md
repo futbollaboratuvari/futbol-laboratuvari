@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-22T01:10:23.993Z
+- Güncelleme: 2026-07-22T03:50:41.735Z
 - Ham maç sayısı: 92
 - Yarın bülteni maç sayısı: 35
 - Detay blok sayısı: 263
-- Aktif bülten maçı: 83
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 82
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Toluca - Pumas Unam | Meksika Liga MX Apertura | 06:05 | Veri bekleniyor | - | 1.39 | 7 |
 | Newcastle Olym - Belmont Swansea | Avustralya NPL Kuzey YGG | 12:00 | Veri bekleniyor | - | 2.25 | 6 |
 | Sydney United - Cc Mariners | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 2.03 | 6 |
 | Cooma Tigers - Western Sydney | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 16.35 | 3 |
@@ -44,7 +43,7 @@
 | Lillestrom - Viking | Norveç Eliteserien | 20:00 | Veri bekleniyor | - | 2.59 | 8 |
 | Bodo Glimt - Ham Kam | Norveç Eliteserien | 20:00 | Veri bekleniyor | - | - | 5 |
 | Cadiz - Leicester | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.88 | 8 |
-| Levski Sofya - Universitatea C | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | Veri bekleniyor | - | 1.7 | 8 |
+| Levski Sofya - Universitatea C | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | Veri bekleniyor | - | 1.66 | 8 |
 | Başakşehir Fk - Inter Turku | UEFA Konferans Ligi 2. Eleme Turu | 20:45 | Veri bekleniyor | - | - | 5 |
 | Vardar - Riga Fc | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.82 | 8 |
 | Pyunik (K) - Wrexham (K) | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 21:00 | Veri bekleniyor | - | 9.7 | 3 |
@@ -56,7 +55,7 @@
 | Queen Of South - Aberdeen | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 6.02 | 6 |
 | Stevenage - West Ham | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 4.98 | 7 |
 | Glasgow Ranger - St Etienne | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.45 | 8 |
-| Egnatia - Celje | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 3.46 | 8 |
+| Egnatia - Celje | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 3.42 | 8 |
 | Zeleznicar Pan - Braga | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | Veri bekleniyor | - | 6.76 | 6 |
 | Tenerife - Getafe | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 3.35 | 8 |
 | Depor Macara - Deportivo Cuenc | Ekvador Pro Lig | 22:00 | Veri bekleniyor | - | 1.81 | 8 |

@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
-Ham mac: 99
-Aktif mac: 83
-Canli mac: 9
-Biten mac: 7
-Bultenden dusurulen mac: 16
-Bugun: 48
+Ham mac: 92
+Aktif mac: 82
+Canli mac: 10
+Biten mac: 0
+Bultenden dusurulen mac: 10
+Bugun: 47
 Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | scheduled | -
 - 2026-07-22 12:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Belmont Swansea | scheduled | -
 - 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney United - Cc Mariners | scheduled | -
 - 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Cooma Tigers - Western Sydney | scheduled | -
@@ -105,12 +104,7 @@ Yarin: 35
 - 2026-07-22 03:30 | Kolombiya Kupa 2.Tur | America De Cal - Real Cartagena | live | -
 - 2026-07-22 03:35 | Brezilya Serie B | Vila Nova - Fortaleza Ce | live | -
 - 2026-07-22 04:00 | Meksika Liga MX Apertura | Cruz Azul - Puebla | live | -
+- 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | live | -
 
 ## Biten Maclar
-- 2026-07-22 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio - Tigres Fc | finished | -
-- 2026-07-22 00:30 | Ekvador Pro Lig | Libertad - Delfin | finished | -
-- 2026-07-22 01:00 | Copa Sudamericana Son 32 Turu | Nacional Df - Tigre | finished | -
-- 2026-07-22 01:00 | Kolombiya Kupa 2.Tur | Inter Bogota - Internacional P | finished | -
-- 2026-07-22 01:30 | Brezilya Serie A | Atletico Mg - Bahia | finished | -
-- 2026-07-22 01:30 | Brezilya Serie B | Avai - America Mineiro | finished | -
-- 2026-07-22 01:30 | Brezilya Serie B | Novorizontino - Criciuma | finished | -
+Biten mac yok.
