@@ -1,28 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-22T20:43:35.308796+00:00
+Tarih: 2026-07-22T21:39:36.997073+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 35
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 35
-- Ham veri havuzu toplam mac sayisi: 2666
-- Hedef tarih: 22.07.2026 Europe/Istanbul
+- Kac mac bulundu: 53
+- Kac mac kaydedildi: 53
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 2719
+- Hedef tarih: 23.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
-- Brezilya Serie A
-- Brezilya Serie B
-- Copa Sudamericana Son 32 Turu
-- Ekvador Pro Lig
-- Kolombiya Kupa 2.Tur
+- Hazırlık Kulüpler
 - Paraguay Kupa 2.Tur
+- UEFA Avrupa Ligi 2. Eleme Turu
+- UEFA Konferans Ligi 2. Eleme Turu
+- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -79,8 +75,8 @@ Tarih: 2026-07-22T20:43:35.308796+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 9
-- Acilan detay: 9
+- Denenen Tumu alani: 12
+- Acilan detay: 12
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -93,26 +89,26 @@ Tarih: 2026-07-22T20:43:35.308796+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.07.2026 | 02:30 | ABD MLS | Philadelphia | New York | 13383 | 5 |
-| 23.07.2026 | 02:30 | ABD MLS | Columbus | New York City | 13102 | 5 |
-| 23.07.2026 | 02:30 | ABD MLS | Cincinnati | Vancouver | 13164 | 5 |
-| 23.07.2026 | 03:15 | ABD MLS | Charlotte | Atlanta Utd | 13458 | 5 |
-| 23.07.2026 | 05:30 | ABD MLS | Portland | Dallas | 14212 | 5 |
-| 23.07.2026 | 04:30 | ABD MLS | Austin | Seattle | 13514 | 5 |
-| 23.07.2026 | 05:30 | ABD MLS | Los Angeles | St. Louis City | 14094 | 5 |
-| 23.07.2026 | 05:30 | ABD MLS | Los Angeles Fc | Salt Lake | 14154 | 5 |
-| 23.07.2026 | 03:30 | ABD MLS | Houston | Dc United | 13630 | 5 |
-| 23.07.2026 | 02:30 | ABD MLS | New England | Toronto | 13317 | 5 |
-| 23.07.2026 | 05:30 | ABD MLS | San Jose | Orlando City | 14276 | 5 |
-| 23.07.2026 | 04:30 | ABD MLS | Colorado | San Diego | 14002 | 5 |
-| 23.07.2026 | 03:30 | ABD MLS | Kansas | Minnesota Utd | 13747 | 5 |
-| 23.07.2026 | 03:30 | ABD MLS | Nashville Sc | Montreal | 13805 | 5 |
-| 23.07.2026 | 02:30 | ABD MLS | Inter Miami | Chicago | 13258 | 5 |
-| 23.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Independiente | Vasco Da Gama | 07449 | 5 |
-| 23.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Sporting Crist | Bragantino | 07592 | 5 |
-| 23.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Lanus | Cienciano | 07503 | 5 |
-| 23.07.2026 | 01:30 | Brezilya Serie A | Coritiba | Palmeiras | 12964 | 5 |
-| 23.07.2026 | 03:30 | Brezilya Serie A | Sao Paulo | Atletico Pr | 13897 | 5 |
+| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Twente | Ferencvaros | 09362 | 5 |
+| 23.07.2026 | 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh | Cska Sofia | 08068 | 5 |
+| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby | Anderlecht | 08521 | 5 |
+| 23.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split | Pafos Fc | 10318 | 5 |
+| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp | Maccabi Tel Avi | 08693 | 5 |
+| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş | Midtjylland | 09016 | 5 |
+| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Tromso | Hradec Kralove | 08769 | 5 |
+| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Dynamo Kiev | Paok | 08332 | 5 |
+| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | St Gallen | Benfica | 09258 | 5 |
+| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Ml Vitebsk | Sutjeska | 08584 | 5 |
+| 23.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Fc Steaua | Auda | 08976 | 4 |
+| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo | Skendija | 10112 | 5 |
+| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik | Koper | 10222 | 5 |
+| 23.07.2026 | 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja | Austria Vienna | 07753 | 5 |
+| 23.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn | The New Saints | 07962 | 5 |
+| 23.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee | Zira | 08135 | 5 |
+| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gais | Nordsjaelland | 08447 | 5 |
+| 23.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij | Dinamo Tirana | 09091 | 5 |
+| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka | Derry City | 10177 | 4 |
+| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bate Borisov | Sion | 01835 | 5 |
 
 ## Sonuc
 
