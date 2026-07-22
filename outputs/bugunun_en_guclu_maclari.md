@@ -2,21 +2,17 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-22T10:02:47.525Z
+- Güncelleme: 2026-07-22T10:55:42.666Z
 - Ham maç sayısı: 101
 - Yarın bülteni maç sayısı: 35
 - Detay blok sayısı: 285
-- Aktif bülten maçı: 93
-- Bültenden düşürülen maç: 8
+- Aktif bülten maçı: 89
+- Bültenden düşürülen maç: 12
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Launceston Cit - Launceston Unit | Avustralya NPL Tazmanya | 13:15 | Veri bekleniyor | - | - | 3 |
-| Bucheon - Anyang | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.59 | 8 |
-| Fc Seoul - Pohang Steelers | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.56 | 7 |
-| Gwangju - Gimcheon Sangmu | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 3.15 | 8 |
-| Glentoran (K) - Dinamo Riga (K) | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 15:00 | Veri bekleniyor | - | 4.3 | 4 |
+| Glentoran (K) - Dinamo Riga (K) | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 15:00 | Veri bekleniyor | - | 4.45 | 4 |
 | Lanzhou Longyu - Shaanxi Union | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 15:00 | Veri bekleniyor | - | 5.26 | 5 |
 | Metalist 1925 - Schalke | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.78 | 7 |
 | Bologna - Heidenheim | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.92 | 8 |
@@ -44,8 +40,8 @@
 | Bodo Glimt - Ham Kam | Norveç Eliteserien | 20:00 | Veri bekleniyor | - | - | 5 |
 | Cadiz - Leicester | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.31 | 8 |
 | Fiorentina - Gubbio | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | - | 3 |
-| Osijek - Cibalia | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.35 | 7 |
-| Levski Sofya - Universitatea C | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | Veri bekleniyor | - | 1.72 | 8 |
+| Osijek - Cibalia | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.29 | 6 |
+| Levski Sofya - Universitatea C | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | Veri bekleniyor | - | 1.71 | 8 |
 | Sestao - Athletic Bilbao | Hazırlık Kulüpler | 20:30 | Veri bekleniyor | - | 17.1 | 3 |
 | Başakşehir Fk - Inter Turku | UEFA Konferans Ligi 2. Eleme Turu | 20:45 | Veri bekleniyor | - | 1.05 | 6 |
 | Vardar - Riga Fc | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.67 | 8 |
@@ -55,17 +51,17 @@
 | Ue Olot - Girona | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 16.95 | 5 |
 | Valencia - Eldense | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.22 | 6 |
 | Gil Vicente - Porto | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 5.34 | 6 |
-| Spartak Trnava - Cska 1948 Sofia | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.04 | 8 |
+| Spartak Trnava - Cska 1948 Sofia | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.01 | 8 |
 | Burton Albion - Birmingham | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.22 | 6 |
 | Humaita - Encarnacion | Paraguay Kupa 2.Tur | 21:30 | Veri bekleniyor | - | 6.81 | 5 |
-| Southend - Northampton | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.94 | 6 |
+| Southend - Northampton | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 6.46 | 6 |
 | Tenerife - Getafe | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.21 | 8 |
 | Huelva - Real Betis | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 17.1 | 3 |
 | Queen Of South - Aberdeen | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 6.25 | 6 |
 | Stevenage - West Ham | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 4.52 | 7 |
 | Glasgow Ranger - St Etienne | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.47 | 8 |
 | Eastleigh - Valenciennes | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.91 | 7 |
-| Egnatia - Celje | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 3.4 | 8 |
+| Egnatia - Celje | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 3.38 | 8 |
 | Zeleznicar Pan - Braga | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | Veri bekleniyor | - | 7.57 | 6 |
 | Tenerife - Getafe | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 3.21 | 8 |
 | Depor Macara - Deportivo Cuenc | Ekvador Pro Lig | 22:00 | Veri bekleniyor | - | 1.9 | 8 |
