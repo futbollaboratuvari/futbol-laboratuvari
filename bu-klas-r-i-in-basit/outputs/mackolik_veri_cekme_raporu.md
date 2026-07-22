@@ -1,27 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-22T22:41:45.468674+00:00
+=======
+Tarih: 2026-07-22T22:43:35.200196+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 69
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 69
+=======
+- Kac mac bulundu: 53
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 53
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 2735
 - Hedef tarih: 23.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- Brezilya Serie B
-- Copa Sudamericana Son 32 Turu
-- Ekvador Pro Lig
 - Hazırlık Kulüpler
-- Kosta Rika Premier Lig Apertura
-- Nikaragua Premier Lig Apertura
 - Paraguay Kupa 2.Tur
 - UEFA Avrupa Ligi 2. Eleme Turu
 - UEFA Konferans Ligi 2. Eleme Turu
