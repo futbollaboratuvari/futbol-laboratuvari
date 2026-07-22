@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 83
-- Live match count: 9
-- Finished removed count: 0
+- Scheduled match count: 82
+- Live match count: 1
+- Finished removed count: 9
 - Date window: 2026-07-22 / 2026-07-23 23:59
 
-- 2026-07-22 02:00 | Independiente - Real Potosi | live
-- 2026-07-22 02:00 | Deportes Tolim - Quindio | live
-- 2026-07-22 03:00 | Univ Catolica - Barcelona Gua | live
-- 2026-07-22 03:00 | Deportivo Past - Bogota | live
-- 2026-07-22 03:00 | Once Caldas - Envigado | live
-- 2026-07-22 03:30 | Ucv - Santos | live
-- 2026-07-22 03:30 | America De Cal - Real Cartagena | live
-- 2026-07-22 03:35 | Vila Nova - Fortaleza Ce | live
-- 2026-07-22 04:00 | Cruz Azul - Puebla | live
-- 2026-07-22 06:05 | Toluca - Pumas Unam | scheduled
+- 2026-07-22 06:05 | Toluca - Pumas Unam | live
+- 2026-07-22 12:00 | Newcastle Olym - Belmont Swansea | scheduled
+- 2026-07-22 12:30 | Cooma Tigers - Western Sydney | scheduled
+- 2026-07-22 12:30 | Maitland - Fremantle City | scheduled
+- 2026-07-22 12:30 | Sydney United - Cc Mariners | scheduled
+- 2026-07-22 12:30 | Tuggeranong Un - Canberra White | scheduled
+- 2026-07-22 13:00 | University Azz - Macarthur | scheduled
+- 2026-07-22 13:00 | Nottingham F - Blackburn | scheduled
+- 2026-07-22 13:15 | Launceston Cit - Launceston Unit | scheduled
+- 2026-07-22 13:30 | Bucheon - Anyang | scheduled
