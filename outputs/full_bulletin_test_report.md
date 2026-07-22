@@ -2,13 +2,13 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 98
-- Live match count: 0
+- Scheduled match count: 96
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-22 / 2026-07-23 23:59
 
-- 2026-07-22 11:00 | Neftçi Bakı (K - Buducnost (K) | scheduled
-- 2026-07-22 12:00 | Newcastle Olym - Belmont Swansea | scheduled
+- 2026-07-22 11:00 | Neftçi Bakı (K - Buducnost (K) | live
+- 2026-07-22 12:00 | Newcastle Olym - Belmont Swansea | live
 - 2026-07-22 12:30 | Cooma Tigers - Western Sydney | scheduled
 - 2026-07-22 12:30 | Maitland - Fremantle City | scheduled
 - 2026-07-22 12:30 | Sydney United - Cc Mariners | scheduled

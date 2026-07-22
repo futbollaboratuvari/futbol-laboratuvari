@@ -3,16 +3,14 @@
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
 Ham mac: 98
-Aktif mac: 98
-Canli mac: 0
+Aktif mac: 96
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 63
+Bultenden dusurulen mac: 2
+Bugun: 61
 Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-22 11:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Neftçi Bakı (K - Buducnost (K) | scheduled | -
-- 2026-07-22 12:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Belmont Swansea | scheduled | -
 - 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney United - Cc Mariners | scheduled | -
 - 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Cooma Tigers - Western Sydney | scheduled | -
 - 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Maitland - Fremantle City | scheduled | -
@@ -111,7 +109,8 @@ Yarin: 35
 - 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-22 11:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Neftçi Bakı (K - Buducnost (K) | live | -
+- 2026-07-22 12:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Belmont Swansea | live | -
 
 ## Biten Maclar
 Biten mac yok.
