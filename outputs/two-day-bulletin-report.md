@@ -3,18 +3,14 @@
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
 Ham mac: 98
-Aktif mac: 96
-Canli mac: 2
+Aktif mac: 92
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 61
+Bultenden dusurulen mac: 6
+Bugun: 57
 Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney United - Cc Mariners | scheduled | -
-- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Cooma Tigers - Western Sydney | scheduled | -
-- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Maitland - Fremantle City | scheduled | -
-- 2026-07-22 12:30 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra White | scheduled | -
 - 2026-07-22 13:00 | Hazırlık Kulüpler | Nottingham F - Blackburn | scheduled | -
 - 2026-07-22 13:00 | Avustralya FFA Kupası Son 32 Turu | University Azz - Macarthur | scheduled | -
 - 2026-07-22 13:15 | Avustralya NPL Tazmanya | Launceston Cit - Launceston Unit | scheduled | -
@@ -111,6 +107,10 @@ Yarin: 35
 ## Canli Maclar
 - 2026-07-22 11:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Neftçi Bakı (K - Buducnost (K) | live | -
 - 2026-07-22 12:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Belmont Swansea | live | -
+- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney United - Cc Mariners | live | -
+- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Cooma Tigers - Western Sydney | live | -
+- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Maitland - Fremantle City | live | -
+- 2026-07-22 12:30 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra White | live | -
 
 ## Biten Maclar
 Biten mac yok.
