@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 40
-- Live match count: 30
-- Finished removed count: 12
+- Scheduled match count: 35
+- Live match count: 24
+- Finished removed count: 0
 - Date window: 2026-07-22 / 2026-07-23 23:59
 
-- 2026-07-22 20:00 | Angers - Les Herbiers | live
-- 2026-07-22 20:00 | Cadiz - Leicester | live
-- 2026-07-22 20:00 | Fiorentina - Gubbio | live
-- 2026-07-22 20:00 | Las Palmas - Orlando Pirates | live
-- 2026-07-22 20:00 | Osijek - Cibalia | live
-- 2026-07-22 20:00 | Bodo Glimt - Ham Kam | live
-- 2026-07-22 20:00 | Lillestrom - Viking | live
-- 2026-07-22 20:00 | Bohemian - Ballkani | live
-- 2026-07-22 20:00 | Omonia - Kairat Almaty | live
-- 2026-07-22 20:30 | Sestao - Athletic Bilbao | live
+- 2026-07-22 20:45 | Başakşehir Fk - Inter Turku | live
+- 2026-07-22 21:00 | Kac Kenitra (0) - (0) As Mansouria | live
+- 2026-07-22 21:00 | Us Boujaad (1) - (0) Oued Zem | live
+- 2026-07-22 21:00 | Afc Wimbledon - Norwich | live
+- 2026-07-22 21:00 | Gil Vicente - Porto | live
+- 2026-07-22 21:00 | Ue Olot - Girona | live
+- 2026-07-22 21:00 | Valencia - Eldense | live
+- 2026-07-22 21:00 | Pyunik (K) - Wrexham (K) | live
+- 2026-07-22 21:00 | Vardar - Riga Fc | live
+- 2026-07-22 21:30 | Burton Albion - Birmingham | live
