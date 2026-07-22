@@ -2,19 +2,15 @@
 
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
-Ham mac: 82
-Aktif mac: 44
-Canli mac: 38
+Ham mac: 70
+Aktif mac: 40
+Canli mac: 30
 Biten mac: 0
-Bultenden dusurulen mac: 38
-Bugun: 9
+Bultenden dusurulen mac: 30
+Bugun: 5
 Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-22 21:45 | İskoçya Lig Kupası Grup A | Queen Of South - Aberdeen | scheduled | -
-- 2026-07-22 21:45 | Hazırlık Kulüpler | Stevenage - West Ham | scheduled | -
-- 2026-07-22 21:45 | Hazırlık Kulüpler | Glasgow Ranger - St Etienne | scheduled | -
-- 2026-07-22 21:45 | Hazırlık Kulüpler | Eastleigh - Valenciennes | scheduled | -
 - 2026-07-22 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Egnatia - Celje | scheduled | -
 - 2026-07-22 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Zeleznicar Pan - Braga | scheduled | -
 - 2026-07-22 22:00 | Hazırlık Kulüpler | Tenerife - Getafe | scheduled | -
@@ -57,18 +53,6 @@ Yarin: 35
 - 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 
 ## Canli Maclar
-- 2026-07-22 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Neftchi Baku - Dinamo Minsk | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Napoli - Arezzo | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Tottenham - Mk Dons | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Brest - Al Wakrah | live | -
-- 2026-07-22 19:00 | Finlandiya Ykkönen | Pk Keski Uusim - Vjs | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Rfc Liege - St. Truidense | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Le Mans - Versailles | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Stade Lavalloi - Avranches | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Clermont - Quevilly-Rouen | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Montpellier - Cannes | live | -
-- 2026-07-22 19:00 | Hazırlık Kulüpler | Rodez Aveyron - Nimes | live | -
-- 2026-07-22 19:30 | Hazırlık Kulüpler | Az Alkmaar - Genk | live | -
 - 2026-07-22 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Omonia - Kairat Almaty | live | -
 - 2026-07-22 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bohemian - Ballkani | live | -
 - 2026-07-22 20:00 | Norveç Eliteserien | Lillestrom - Viking | live | -
@@ -95,6 +79,10 @@ Yarin: 35
 - 2026-07-22 21:30 | Hazırlık Kulüpler | Southend - Northampton | live | -
 - 2026-07-22 21:30 | Hazırlık Kulüpler | Tenerife - Getafe | live | -
 - 2026-07-22 21:30 | Hazırlık Kulüpler | Huelva - Real Betis | live | -
+- 2026-07-22 21:45 | İskoçya Lig Kupası Grup A | Queen Of South - Aberdeen | live | -
+- 2026-07-22 21:45 | Hazırlık Kulüpler | Stevenage - West Ham | live | -
+- 2026-07-22 21:45 | Hazırlık Kulüpler | Glasgow Ranger - St Etienne | live | -
+- 2026-07-22 21:45 | Hazırlık Kulüpler | Eastleigh - Valenciennes | live | -
 
 ## Biten Maclar
 Biten mac yok.
