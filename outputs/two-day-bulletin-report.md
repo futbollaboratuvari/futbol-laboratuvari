@@ -1,19 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-22 / 2026-07-23
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 90
-Aktif mac: 86
+Kaynak: fixtures.json
+Ham mac: 122
+Aktif mac: 87
 Canli mac: 4
-Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 51
+Biten mac: 31
+Bultenden dusurulen mac: 35
+Bugun: 52
 Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-22 18:00 | Hazırlık Kulüpler | Palermo - Paradiso | scheduled | -
-- 2026-07-22 18:00 | Hazırlık Kulüpler | Sassuolo - Padova | scheduled | -
 - 2026-07-22 18:30 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Paok (K) - Hapoel Jerusale | scheduled | -
 - 2026-07-22 18:30 | Hazırlık Kulüpler | Nantes - La Roche-Sur-Yo | scheduled | -
 - 2026-07-22 18:30 | Hazırlık Kulüpler | Werder Bremen - Fagiano Okayama | scheduled | -
@@ -38,6 +35,8 @@ Yarin: 35
 - 2026-07-22 20:00 | Hazırlık Kulüpler | Cadiz - Leicester | scheduled | -
 - 2026-07-22 20:00 | Hazırlık Kulüpler | Fiorentina - Gubbio | scheduled | -
 - 2026-07-22 20:00 | Hazırlık Kulüpler | Osijek - Cibalia | scheduled | -
+- 2026-07-22 20:00 | Hazırlık Kulüpler | Las Palmas - Orlando Pirates | scheduled | -
+- 2026-07-22 20:00 | Hazırlık Kulüpler | Angers - Les Herbiers | scheduled | -
 - 2026-07-22 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Levski Sofya - Universitatea C | scheduled | -
 - 2026-07-22 20:30 | Hazırlık Kulüpler | Sestao - Athletic Bilbao | scheduled | -
 - 2026-07-22 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk - Inter Turku | scheduled | -
@@ -48,6 +47,7 @@ Yarin: 35
 - 2026-07-22 21:00 | Hazırlık Kulüpler | Ue Olot - Girona | scheduled | -
 - 2026-07-22 21:00 | Hazırlık Kulüpler | Valencia - Eldense | scheduled | -
 - 2026-07-22 21:00 | Hazırlık Kulüpler | Gil Vicente - Porto | scheduled | -
+- 2026-07-22 21:00 | Fas Botola 2 Yükselme/Küme Düşme Play Off | Kac Kenitra (0) - (0) As Mansouria | scheduled | -
 - 2026-07-22 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava - Cska 1948 Sofia | scheduled | -
 - 2026-07-22 21:30 | Hazırlık Kulüpler | Burton Albion - Birmingham | scheduled | -
 - 2026-07-22 21:30 | Paraguay Kupa 2.Tur | Humaita - Encarnacion | scheduled | -
@@ -100,10 +100,40 @@ Yarin: 35
 - 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 
 ## Canli Maclar
-- 2026-07-22 15:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Glentoran (K) - Dinamo Riga (K) | live | -
-- 2026-07-22 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Lanzhou Longyu - Shaanxi Union | live | -
 - 2026-07-22 17:00 | Hazırlık Kulüpler | Metalist 1925 - Schalke | live | -
 - 2026-07-22 17:00 | Hazırlık Kulüpler | Bologna - Heidenheim | live | -
+- 2026-07-22 18:00 | Hazırlık Kulüpler | Palermo - Paradiso | live | -
+- 2026-07-22 18:00 | Hazırlık Kulüpler | Sassuolo - Padova | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-22 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio - Tigres Fc | finished | -
+- 2026-07-22 00:30 | Ekvador Pro Lig | Libertad - Delfin | finished | -
+- 2026-07-22 01:00 | Copa Sudamericana Son 32 Turu | Nacional Df - Tigre | finished | -
+- 2026-07-22 01:00 | Kolombiya Kupa 2.Tur | Inter Bogota - Internacional P | finished | -
+- 2026-07-22 01:30 | Brezilya Serie A | Atletico Mg - Bahia | finished | -
+- 2026-07-22 01:30 | Brezilya Serie B | Avai - America Mineiro | finished | -
+- 2026-07-22 01:30 | Brezilya Serie B | Novorizontino - Criciuma | finished | -
+- 2026-07-22 02:00 | Kolombiya Kupa 2.Tur | Deportes Tolim - Quindio | finished | -
+- 2026-07-22 02:00 | Bolivya Premier Lig | Independiente - Real Potosi | finished | -
+- 2026-07-22 03:00 | Ekvador Pro Lig | Univ Catolica - Barcelona Gua | finished | -
+- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Once Caldas - Envigado | finished | -
+- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Deportivo Past - Bogota | finished | -
+- 2026-07-22 03:30 | Copa Sudamericana Son 32 Turu | Ucv - Santos | finished | -
+- 2026-07-22 03:30 | Kolombiya Kupa 2.Tur | America De Cal - Real Cartagena | finished | -
+- 2026-07-22 03:35 | Brezilya Serie B | Vila Nova - Fortaleza Ce | finished | -
+- 2026-07-22 04:00 | Meksika Liga MX Apertura | Cruz Azul - Puebla | finished | -
+- 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | finished | -
+- 2026-07-22 11:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Neftçi Bakı (K - Buducnost (K) | finished | -
+- 2026-07-22 12:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Belmont Swansea | finished | -
+- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney United - Cc Mariners | finished | -
+- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Cooma Tigers - Western Sydney | finished | -
+- 2026-07-22 12:30 | Avustralya FFA Kupası Son 32 Turu | Maitland - Fremantle City | finished | -
+- 2026-07-22 12:30 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra White | finished | -
+- 2026-07-22 13:00 | Hazırlık Kulüpler | Nottingham F - Blackburn | finished | -
+- 2026-07-22 13:00 | Avustralya FFA Kupası Son 32 Turu | University Azz - Macarthur | finished | -
+- 2026-07-22 13:15 | Avustralya NPL Tazmanya | Launceston Cit - Launceston Unit | finished | -
+- 2026-07-22 13:30 | Güney Kore K Lig 1 | Bucheon - Anyang | finished | -
+- 2026-07-22 13:30 | Güney Kore K Lig 1 | Fc Seoul - Pohang Steelers | finished | -
+- 2026-07-22 13:30 | Güney Kore K Lig 1 | Gwangju - Gimcheon Sangmu | finished | -
+- 2026-07-22 15:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Glentoran (K) - Dinamo Riga (K) | finished | -
+- 2026-07-22 15:00 | Çin Halk Cumhuriyeti FA Kupası 5.Tur | Lanzhou Longyu - Shaanxi Union | finished | -
