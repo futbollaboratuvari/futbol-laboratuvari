@@ -2,27 +2,15 @@
 
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
-Ham mac: 89
-Aktif mac: 70
-Canli mac: 19
+Ham mac: 82
+Aktif mac: 58
+Canli mac: 24
 Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 35
+Bultenden dusurulen mac: 24
+Bugun: 23
 Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-22 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Omonia - Kairat Almaty | scheduled | -
-- 2026-07-22 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bohemian - Ballkani | scheduled | -
-- 2026-07-22 20:00 | Norveç Eliteserien | Lillestrom - Viking | scheduled | -
-- 2026-07-22 20:00 | Norveç Eliteserien | Bodo Glimt - Ham Kam | scheduled | -
-- 2026-07-22 20:00 | Hazırlık Kulüpler | Cadiz - Leicester | scheduled | -
-- 2026-07-22 20:00 | Hazırlık Kulüpler | Fiorentina - Gubbio | scheduled | -
-- 2026-07-22 20:00 | Hazırlık Kulüpler | Osijek - Cibalia | scheduled | -
-- 2026-07-22 20:00 | Hazırlık Kulüpler | Las Palmas - Orlando Pirates | scheduled | -
-- 2026-07-22 20:00 | Hazırlık Kulüpler | Angers - Les Herbiers | scheduled | -
-- 2026-07-22 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Levski Sofya - Universitatea C | scheduled | -
-- 2026-07-22 20:30 | Hazırlık Kulüpler | Sestao - Athletic Bilbao | scheduled | -
-- 2026-07-22 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk - Inter Turku | scheduled | -
 - 2026-07-22 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vardar - Riga Fc | scheduled | -
 - 2026-07-22 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Pyunik (K) - Wrexham (K) | scheduled | -
 - 2026-07-22 21:00 | Hazırlık Kulüpler | Afc Wimbledon - Norwich | scheduled | -
@@ -83,13 +71,6 @@ Yarin: 35
 - 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 
 ## Canli Maclar
-- 2026-07-22 18:00 | Hazırlık Kulüpler | Palermo - Paradiso | live | -
-- 2026-07-22 18:00 | Hazırlık Kulüpler | Sassuolo - Padova | live | -
-- 2026-07-22 18:30 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Paok (K) - Hapoel Jerusale | live | -
-- 2026-07-22 18:30 | Hazırlık Kulüpler | Nantes - La Roche-Sur-Yo | live | -
-- 2026-07-22 18:30 | Hazırlık Kulüpler | Werder Bremen - Fagiano Okayama | live | -
-- 2026-07-22 18:30 | Hazırlık Kulüpler | Torino - Alcione | live | -
-- 2026-07-22 18:30 | Hazırlık Kulüpler | Lecce - Asu Poli Timişo | live | -
 - 2026-07-22 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Neftchi Baku - Dinamo Minsk | live | -
 - 2026-07-22 19:00 | Hazırlık Kulüpler | Napoli - Arezzo | live | -
 - 2026-07-22 19:00 | Hazırlık Kulüpler | Tottenham - Mk Dons | live | -
@@ -102,6 +83,18 @@ Yarin: 35
 - 2026-07-22 19:00 | Hazırlık Kulüpler | Montpellier - Cannes | live | -
 - 2026-07-22 19:00 | Hazırlık Kulüpler | Rodez Aveyron - Nimes | live | -
 - 2026-07-22 19:30 | Hazırlık Kulüpler | Az Alkmaar - Genk | live | -
+- 2026-07-22 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Omonia - Kairat Almaty | live | -
+- 2026-07-22 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bohemian - Ballkani | live | -
+- 2026-07-22 20:00 | Norveç Eliteserien | Lillestrom - Viking | live | -
+- 2026-07-22 20:00 | Norveç Eliteserien | Bodo Glimt - Ham Kam | live | -
+- 2026-07-22 20:00 | Hazırlık Kulüpler | Cadiz - Leicester | live | -
+- 2026-07-22 20:00 | Hazırlık Kulüpler | Fiorentina - Gubbio | live | -
+- 2026-07-22 20:00 | Hazırlık Kulüpler | Osijek - Cibalia | live | -
+- 2026-07-22 20:00 | Hazırlık Kulüpler | Las Palmas - Orlando Pirates | live | -
+- 2026-07-22 20:00 | Hazırlık Kulüpler | Angers - Les Herbiers | live | -
+- 2026-07-22 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Levski Sofya - Universitatea C | live | -
+- 2026-07-22 20:30 | Hazırlık Kulüpler | Sestao - Athletic Bilbao | live | -
+- 2026-07-22 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk - Inter Turku | live | -
 
 ## Biten Maclar
 Biten mac yok.
