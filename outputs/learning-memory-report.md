@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.07.2026 09:43:45
+Oluşturma: 22.07.2026 10:20:25
 
 ## Özet
 
-- Toplam tahmin: 30
-- Bekleyen tahmin: 30
+- Toplam tahmin: 31
+- Bekleyen tahmin: 31
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 15
@@ -20,12 +20,13 @@ Oluşturma: 22.07.2026 09:43:45
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 - MS X: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-22 | Hazırlık Kulüpler | Glasgow Ranger - St Etienne | MS 2 | pending | 50/100
 - 2026-07-22 | Hazırlık Kulüpler | Nottingham F - Blackburn | MS 2 | pending | 60/100
 - 2026-07-22 | UEFA Konferans Ligi 2. Eleme Turu | Neftchi Baku - Dinamo Minsk | MS 2 | pending | 40/100
 - 2026-07-22 | Hazırlık Kulüpler | Tottenham - Mk Dons | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 22.07.2026 09:43:45
 - 2026-07-22 | Hazırlık Kulüpler | Burton Albion - Birmingham | MS 1 | pending | 40/100
 - 2026-07-22 | İskoçya Lig Kupası Grup A | Queen Of South - Aberdeen | MS 1 | pending | 40/100
 - 2026-07-22 | Hazırlık Kulüpler | Glasgow Ranger - St Etienne | MS X | pending | 50/100
-- 2026-07-22 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Egnatia - Celje | MS 1 | pending | 40/100
 
