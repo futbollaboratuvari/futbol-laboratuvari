@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 89
+- Scheduled match count: 90
 - Live match count: 10
-- Finished removed count: 2
+- Finished removed count: 0
 - Date window: 2026-07-22 / 2026-07-23 23:59
 
 - 2026-07-22 12:30 | Cooma Tigers - Western Sydney | live

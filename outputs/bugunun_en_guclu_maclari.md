@@ -4,15 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-22T11:23:27.144Z
+- Güncelleme: 2026-07-22T11:31:38.787Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Neftçi Bakı (K VS Buducnost (K) | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 11:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Newcastle Olym VS Belmont Swansea | Avustralya NPL Kuzey YGG | 12:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sydney United VS Cc Mariners | Avustralya FFA Kupası Son 32 Turu | 12:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Cooma Tigers VS Western Sydney | Avustralya FFA Kupası Son 32 Turu | 12:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Maitland VS Fremantle City | Avustralya FFA Kupası Son 32 Turu | 12:30 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -25,10 +23,10 @@
 | Gwangju VS Gimcheon Sangmu | Güney Kore K Lig 1 | 13:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Glentoran (K) VS Dinamo Riga (K) | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Lanzhou Longyu VS Shaanxi Union | Çin Halk Cumhuriyeti FA Kupası 5.Tur | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Metalist 1925 VS Schalke | Hazırlık Kulüpler | 17:00 | MS 1 | 3.78 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Bologna VS Heidenheim | Hazırlık Kulüpler | 17:00 | MS X | 3.30 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Metalist 1925 VS Schalke | Hazırlık Kulüpler | 17:00 | MS 1 | 3.90 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bologna VS Heidenheim | Hazırlık Kulüpler | 17:00 | MS X | 3.33 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Palermo VS Paradiso | Hazırlık Kulüpler | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Sassuolo VS Padova | Hazırlık Kulüpler | 18:00 | MS 2 | 4.35 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Sassuolo VS Padova | Hazırlık Kulüpler | 18:00 | MS 2 | 4.49 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Paok (K) VS Hapoel Jerusale | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 18:30 | MS 2 | 3.54 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Nantes VS La Roche-Sur-Yo | Hazırlık Kulüpler | 18:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Werder Bremen VS Fagiano Okayama | Hazırlık Kulüpler | 18:30 | MS 2 | 7.21 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
@@ -36,23 +34,24 @@
 | Lecce VS Asu Poli Timişo | Hazırlık Kulüpler | 18:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Neftchi Baku VS Dinamo Minsk | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | MS 2 | 3.42 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Napoli VS Arezzo | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Tottenham VS Mk Dons | Hazırlık Kulüpler | 19:00 | MS 2 | 7.24 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Brest VS Al Wakrah | Hazırlık Kulüpler | 19:00 | MS X | 5.40 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Tottenham VS Mk Dons | Hazırlık Kulüpler | 19:00 | MS 2 | 7.13 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Brest VS Al Wakrah | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 50 | Sadece izleme | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Pk Keski Uusim VS Vjs | Finlandiya Ykkönen | 19:00 | MS X | 3.33 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Rfc Liege VS St. Truidense | Hazırlık Kulüpler | 19:00 | MS X | 3.54 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Rfc Liege VS St. Truidense | Hazırlık Kulüpler | 19:00 | MS X | 3.53 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Le Mans VS Versailles | Hazırlık Kulüpler | 19:00 | MS 2 | 4.73 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Stade Lavalloi VS Avranches | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Clermont VS Quevilly-Rouen | Hazırlık Kulüpler | 19:00 | MS 2 | 3.41 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Clermont VS Quevilly-Rouen | Hazırlık Kulüpler | 19:00 | MS 2 | 3.30 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Montpellier VS Cannes | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Az Alkmaar VS Genk | Hazırlık Kulüpler | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Omonia VS Kairat Almaty | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:00 | MS 2 | 4.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Bohemian VS Ballkani | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | MS 2 | 4.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rodez Aveyron VS Nimes | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Az Alkmaar VS Genk | Hazırlık Kulüpler | 19:30 | MS X | 3.41 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Omonia VS Kairat Almaty | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:00 | MS 2 | 4.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bohemian VS Ballkani | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | MS 2 | 4.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Lillestrom VS Viking | Norveç Eliteserien | 20:00 | MS X | 3.20 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Bodo Glimt VS Ham Kam | Norveç Eliteserien | 20:00 | Değerli market yok | - | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Cadiz VS Leicester | Hazırlık Kulüpler | 20:00 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cadiz VS Leicester | Hazırlık Kulüpler | 20:00 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fiorentina VS Gubbio | Hazırlık Kulüpler | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Osijek VS Cibalia | Hazırlık Kulüpler | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Levski Sofya VS Universitatea C | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | MS 2 | 3.31 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Levski Sofya VS Universitatea C | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | MS 2 | 3.32 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sestao VS Athletic Bilbao | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Başakşehir Fk VS Inter Turku | UEFA Konferans Ligi 2. Eleme Turu | 20:45 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Vardar VS Riga Fc | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -60,8 +59,8 @@
 | Afc Wimbledon VS Norwich | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Us Boujaad (1) VS (0) Oued Zem | Fas Botola 2 Yükselme/Küme Düşme Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ue Olot VS Girona | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Valencia VS Eldense | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Gil Vicente VS Porto | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Valencia VS Eldense | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Gil Vicente VS Porto | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Spartak Trnava VS Cska 1948 Sofia | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Burton Albion VS Birmingham | Hazırlık Kulüpler | 21:30 | MS 1 | 5.22 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Humaita VS Encarnacion | Paraguay Kupa 2.Tur | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -72,7 +71,7 @@
 | Stevenage VS West Ham | Hazırlık Kulüpler | 21:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Glasgow Ranger VS St Etienne | Hazırlık Kulüpler | 21:45 | MS 2 | 3.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Eastleigh VS Valenciennes | Hazırlık Kulüpler | 21:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Egnatia VS Celje | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | MS 1 | 3.38 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Egnatia VS Celje | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | MS 1 | 3.34 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Zeleznicar Pan VS Braga | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Tenerife VS Getafe | Hazırlık Kulüpler | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Depor Macara VS Deportivo Cuenc | Ekvador Pro Lig | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -81,20 +80,20 @@
 | Indep. Jose Te VS T.Universitario | Ekvador Pro Lig | 00:30 | MS X | 5.41 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Independiente VS Vasco Da Gama | Copa Sudamericana Son 32 Turu | 01:00 | MS 2 | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Coritiba VS Palmeiras | Brezilya Serie A | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Ceara VS Regatas | Brezilya Serie B | 01:30 | MS 2 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Ceara VS Regatas | Brezilya Serie B | 01:30 | MS 2 | 2.99 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Operario VS Ponte Preta | Brezilya Serie B | 01:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Lexington VS Oakland Roots | ABD USL | 02:00 | MS 2 | 3.51 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Lexington VS Oakland Roots | ABD USL | 02:00 | MS 2 | 3.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Westchester Sc VS New York Cosmos | ABD USL Lig 1 | 02:00 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Portland Heart VS Union Omaha | ABD USL Lig 1 | 02:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Philadelphia VS New York | ABD MLS | 02:30 | MS 2 | 3.89 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Cincinnati VS Vancouver | ABD MLS | 02:30 | MS X | 3.66 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Inter Miami VS Chicago | ABD MLS | 02:30 | MS X | 3.53 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Inter Miami VS Chicago | ABD MLS | 02:30 | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | New England VS Toronto | ABD MLS | 02:30 | MS 2 | 3.33 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Columbus VS New York City | ABD MLS | 02:30 | MS X | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Goias VS Sport Recife | Brezilya Serie B | 02:30 | MS 2 | 2.93 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Goias VS Sport Recife | Brezilya Serie B | 02:30 | MS 2 | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Manta VS Ldu Quito | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Charlotte VS Atlanta Utd | ABD MLS | 03:15 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Nashville Sc VS Montreal | ABD MLS | 03:30 | MS 2 | 5.31 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Nashville Sc VS Montreal | ABD MLS | 03:30 | MS 2 | 5.49 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Kansas VS Minnesota Utd | ABD MLS | 03:30 | MS X | 3.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Houston VS Dc United | ABD MLS | 03:30 | MS 2 | 3.80 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Lanus VS Cienciano | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -109,29 +108,29 @@
 | Colorado VS San Diego | ABD MLS | 04:30 | MS X | 3.49 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Austin VS Seattle | ABD MLS | 04:30 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | San Jose VS Orlando City | ABD MLS | 05:30 | MS 2 | 4.39 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Los Angeles Fc VS Salt Lake | ABD MLS | 05:30 | MS 2 | 3.83 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Los Angeles Fc VS Salt Lake | ABD MLS | 05:30 | MS 2 | 3.87 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Los Angeles VS St. Louis City | ABD MLS | 05:30 | MS X | 3.31 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Portland VS Dallas | ABD MLS | 05:30 | MS X | 3.26 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Nashville Sc VS Montreal | MS 2 | 5.49 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Indep. Jose Te VS T.Universitario | MS X | 5.41 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Nashville Sc VS Montreal | MS 2 | 5.31 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Philadelphia VS New York | MS 2 | 3.89 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Inter Miami VS Chicago | MS X | 3.53 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Inter Miami VS Chicago | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Colorado VS San Diego | MS X | 3.49 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Pk Keski Uusim VS Vjs | MS X | 3.33 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Az Alkmaar VS Genk | MS X | 3.41 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Indep. Jose Te VS T.Universitario + Nashville Sc VS Montreal | MS X + MS 2 | 28.73 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Philadelphia VS New York + Inter Miami VS Chicago | MS 2 + MS X | 13.73 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Colorado VS San Diego + Pk Keski Uusim VS Vjs | MS X + MS X | 11.62 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Nashville Sc VS Montreal + Indep. Jose Te VS T.Universitario | MS 2 + MS X | 29.70 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Philadelphia VS New York + Inter Miami VS Chicago | MS 2 + MS X | 13.85 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Colorado VS San Diego + Az Alkmaar VS Genk | MS X + MS X | 11.90 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Indep. Jose Te VS T.Universitario + Nashville Sc VS Montreal + Philadelphia VS New York | MS X + MS 2 + MS 2 | 111.75 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Inter Miami VS Chicago + Colorado VS San Diego + Pk Keski Uusim VS Vjs | MS X + MS X + MS X | 41.02 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Nashville Sc VS Montreal + Indep. Jose Te VS T.Universitario + Philadelphia VS New York | MS 2 + MS X + MS 2 | 115.54 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Inter Miami VS Chicago + Colorado VS San Diego + Az Alkmaar VS Genk | MS X + MS X + MS X | 42.37 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
