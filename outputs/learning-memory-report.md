@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 23.07.2026 01:43:11
-=======
-Oluşturma: 23.07.2026 01:43:54
->>>>>>> Stashed changes
+Oluşturma: 23.07.2026 01:52:07
 
 ## Özet
 
-- Toplam tahmin: 50
-- Bekleyen tahmin: 50
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 14
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 23.07.2026 01:43:54
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
-- MS X: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-23 | Brezilya Serie B | Nautico - Londrina | MS 2 | pending | 50/100
-- 2026-07-23 | ABD USL Lig 1 | Spokane Veloci - Charlotte Indep | MS X | pending | 50/100
-- 2026-07-23 | ABD MLS | Colorado - San Diego | MS X | pending | 70/100
-- 2026-07-23 | ABD MLS | Austin - Seattle | MS X | pending | 50/100
-- 2026-07-23 | ABD MLS | San Jose - Orlando City | MS X | pending | 95/100
-- 2026-07-23 | ABD MLS | Los Angeles Fc - Salt Lake | MS 2 | pending | 60/100
-- 2026-07-23 | ABD MLS | Los Angeles - St. Louis City | MS X | pending | 60/100
-- 2026-07-23 | ABD MLS | Portland - Dallas | MS X | pending | 60/100
-- 2026-07-23 | Brezilya Serie A | Coritiba - Palmeiras | MS 1 | pending | 40/100
-- 2026-07-23 | ABD USL | Lexington - Oakland Roots | MS 2 | pending | 50/100
-- 2026-07-23 | ABD USL Lig 1 | Westchester Sc - New York Cosmos | MS 2 | pending | 50/100
-- 2026-07-23 | ABD USL Lig 1 | Portland Heart - Union Omaha | MS X | pending | 50/100
-- 2026-07-23 | ABD MLS | Philadelphia - New York | MS X | pending | 70/100
-- 2026-07-23 | ABD MLS | Cincinnati - Vancouver | MS X | pending | 55/100
-- 2026-07-23 | ABD MLS | Inter Miami - Chicago | MS X | pending | 70/100
 
