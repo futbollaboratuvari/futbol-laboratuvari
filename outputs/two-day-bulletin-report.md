@@ -1,26 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-23 / 2026-07-24
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 104
-Aktif mac: 98
-Canli mac: 6
-Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 82
+Aktif mac: 89
+Canli mac: 14
+Biten mac: 1
+Bultenden dusurulen mac: 15
+Bugun: 73
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 02:00 | ABD USL | Lexington - Oakland Roots | scheduled | -
-- 2026-07-23 02:00 | ABD USL Lig 1 | Westchester Sc - New York Cosmos | scheduled | -
-- 2026-07-23 02:00 | ABD USL Lig 1 | Portland Heart - Union Omaha | scheduled | -
-- 2026-07-23 02:30 | ABD MLS | Philadelphia - New York | scheduled | -
-- 2026-07-23 02:30 | ABD MLS | Cincinnati - Vancouver | scheduled | -
-- 2026-07-23 02:30 | ABD MLS | Inter Miami - Chicago | scheduled | -
-- 2026-07-23 02:30 | ABD MLS | New England - Toronto | scheduled | -
-- 2026-07-23 02:30 | ABD MLS | Columbus - New York City | scheduled | -
-- 2026-07-23 02:30 | Brezilya Serie B | Goias - Sport Recife | scheduled | -
 - 2026-07-23 03:00 | Ekvador Pro Lig | Manta - Ldu Quito | scheduled | -
 - 2026-07-23 03:15 | ABD MLS | Charlotte - Atlanta Utd | scheduled | -
 - 2026-07-23 03:30 | ABD MLS | Nashville Sc - Montreal | scheduled | -
@@ -112,12 +102,20 @@ Yarin: 16
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-07-23 00:00 | Paraguay Kupa 2.Tur | Sport Colombia - Guairena | live | -
 - 2026-07-23 00:30 | Ekvador Pro Lig | Indep. Jose Te - T.Universitario | live | -
 - 2026-07-23 01:00 | Copa Sudamericana Son 32 Turu | Independiente - Vasco Da Gama | live | -
 - 2026-07-23 01:30 | Brezilya Serie A | Coritiba - Palmeiras | live | -
 - 2026-07-23 01:30 | Brezilya Serie B | Ceara - Regatas | live | -
 - 2026-07-23 01:30 | Brezilya Serie B | Operario - Ponte Preta | live | -
+- 2026-07-23 02:00 | ABD USL | Lexington - Oakland Roots | live | -
+- 2026-07-23 02:00 | ABD USL Lig 1 | Westchester Sc - New York Cosmos | live | -
+- 2026-07-23 02:00 | ABD USL Lig 1 | Portland Heart - Union Omaha | live | -
+- 2026-07-23 02:30 | ABD MLS | Philadelphia - New York | live | -
+- 2026-07-23 02:30 | ABD MLS | Cincinnati - Vancouver | live | -
+- 2026-07-23 02:30 | ABD MLS | Inter Miami - Chicago | live | -
+- 2026-07-23 02:30 | ABD MLS | New England - Toronto | live | -
+- 2026-07-23 02:30 | ABD MLS | Columbus - New York City | live | -
+- 2026-07-23 02:30 | Brezilya Serie B | Goias - Sport Recife | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-23 00:00 | Paraguay Kupa 2.Tur | Sport Colombia - Guairena | finished | -
