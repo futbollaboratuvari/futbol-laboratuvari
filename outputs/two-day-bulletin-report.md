@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
-Ham mac: 98
-Aktif mac: 92
+Ham mac: 118
+Aktif mac: 95
 Canli mac: 6
-Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 57
+Biten mac: 17
+Bultenden dusurulen mac: 23
+Bugun: 60
 Yarin: 35
 
 ## Baslamamis Maclar
@@ -38,6 +38,7 @@ Yarin: 35
 - 2026-07-22 19:00 | Hazırlık Kulüpler | Stade Lavalloi - Avranches | scheduled | -
 - 2026-07-22 19:00 | Hazırlık Kulüpler | Clermont - Quevilly-Rouen | scheduled | -
 - 2026-07-22 19:00 | Hazırlık Kulüpler | Montpellier - Cannes | scheduled | -
+- 2026-07-22 19:30 | Hazırlık Kulüpler | Az Alkmaar - Genk | scheduled | -
 - 2026-07-22 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Omonia - Kairat Almaty | scheduled | -
 - 2026-07-22 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bohemian - Ballkani | scheduled | -
 - 2026-07-22 20:00 | Norveç Eliteserien | Lillestrom - Viking | scheduled | -
@@ -53,6 +54,8 @@ Yarin: 35
 - 2026-07-22 21:00 | Hazırlık Kulüpler | Afc Wimbledon - Norwich | scheduled | -
 - 2026-07-22 21:00 | Fas Botola 2 Yükselme/Küme Düşme Play Off | Us Boujaad (1) - (0) Oued Zem | scheduled | -
 - 2026-07-22 21:00 | Hazırlık Kulüpler | Ue Olot - Girona | scheduled | -
+- 2026-07-22 21:00 | Hazırlık Kulüpler | Valencia - Eldense | scheduled | -
+- 2026-07-22 21:00 | Hazırlık Kulüpler | Gil Vicente - Porto | scheduled | -
 - 2026-07-22 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava - Cska 1948 Sofia | scheduled | -
 - 2026-07-22 21:30 | Hazırlık Kulüpler | Burton Albion - Birmingham | scheduled | -
 - 2026-07-22 21:30 | Paraguay Kupa 2.Tur | Humaita - Encarnacion | scheduled | -
@@ -113,4 +116,20 @@ Yarin: 35
 - 2026-07-22 12:30 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra White | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-22 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio - Tigres Fc | finished | -
+- 2026-07-22 00:30 | Ekvador Pro Lig | Libertad - Delfin | finished | -
+- 2026-07-22 01:00 | Copa Sudamericana Son 32 Turu | Nacional Df - Tigre | finished | -
+- 2026-07-22 01:00 | Kolombiya Kupa 2.Tur | Inter Bogota - Internacional P | finished | -
+- 2026-07-22 01:30 | Brezilya Serie A | Atletico Mg - Bahia | finished | -
+- 2026-07-22 01:30 | Brezilya Serie B | Avai - America Mineiro | finished | -
+- 2026-07-22 01:30 | Brezilya Serie B | Novorizontino - Criciuma | finished | -
+- 2026-07-22 02:00 | Kolombiya Kupa 2.Tur | Deportes Tolim - Quindio | finished | -
+- 2026-07-22 02:00 | Bolivya Premier Lig | Independiente - Real Potosi | finished | -
+- 2026-07-22 03:00 | Ekvador Pro Lig | Univ Catolica - Barcelona Gua | finished | -
+- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Once Caldas - Envigado | finished | -
+- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Deportivo Past - Bogota | finished | -
+- 2026-07-22 03:30 | Copa Sudamericana Son 32 Turu | Ucv - Santos | finished | -
+- 2026-07-22 03:30 | Kolombiya Kupa 2.Tur | America De Cal - Real Cartagena | finished | -
+- 2026-07-22 03:35 | Brezilya Serie B | Vila Nova - Fortaleza Ce | finished | -
+- 2026-07-22 04:00 | Meksika Liga MX Apertura | Cruz Azul - Puebla | finished | -
+- 2026-07-22 06:05 | Meksika Liga MX Apertura | Toluca - Pumas Unam | finished | -
