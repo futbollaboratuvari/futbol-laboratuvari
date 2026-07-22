@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-21T23:42:45.076Z
-- Ham maç sayısı: 98
+- Güncelleme: 2026-07-22T00:11:57.746Z
+- Ham maç sayısı: 97
 - Yarın bülteni maç sayısı: 35
-- Detay blok sayısı: 281
-- Aktif bülten maçı: 90
-- Bültenden düşürülen maç: 8
+- Detay blok sayısı: 278
+- Aktif bülten maçı: 87
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Univ Catolica - Barcelona Gua | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Once Caldas - Envigado | Kolombiya Kupa 2.Tur | 03:00 | Veri bekleniyor | - | 1.4 | 7 |
-| Deportivo Past - Bogota | Kolombiya Kupa 2.Tur | 03:00 | Veri bekleniyor | - | 1.21 | 6 |
 | Ucv - Santos | Copa Sudamericana Son 32 Turu | 03:30 | Veri bekleniyor | - | 3.74 | 8 |
 | America De Cal - Real Cartagena | Kolombiya Kupa 2.Tur | 03:30 | Veri bekleniyor | - | 1.23 | 6 |
 | Vila Nova - Fortaleza Ce | Brezilya Serie B | 03:35 | Veri bekleniyor | - | 2.15 | 8 |

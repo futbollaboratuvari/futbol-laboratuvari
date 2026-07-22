@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
-Ham mac: 99
-Aktif mac: 90
-Canli mac: 8
-Biten mac: 1
-Bultenden dusurulen mac: 9
-Bugun: 55
+Ham mac: 97
+Aktif mac: 87
+Canli mac: 10
+Biten mac: 0
+Bultenden dusurulen mac: 10
+Bugun: 52
 Yarin: 35
 
 ## Baslamamis Maclar
-- 2026-07-22 03:00 | Ekvador Pro Lig | Univ Catolica - Barcelona Gua | scheduled | -
-- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Once Caldas - Envigado | scheduled | -
-- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Deportivo Past - Bogota | scheduled | -
 - 2026-07-22 03:30 | Copa Sudamericana Son 32 Turu | Ucv - Santos | scheduled | -
 - 2026-07-22 03:30 | Kolombiya Kupa 2.Tur | America De Cal - Real Cartagena | scheduled | -
 - 2026-07-22 03:35 | Brezilya Serie B | Vila Nova - Fortaleza Ce | scheduled | -
@@ -103,7 +100,6 @@ Yarin: 35
 - 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 
 ## Canli Maclar
-- 2026-07-22 00:30 | Ekvador Pro Lig | Libertad - Delfin | live | -
 - 2026-07-22 01:00 | Copa Sudamericana Son 32 Turu | Nacional Df - Tigre | live | -
 - 2026-07-22 01:00 | Kolombiya Kupa 2.Tur | Inter Bogota - Internacional P | live | -
 - 2026-07-22 01:30 | Brezilya Serie A | Atletico Mg - Bahia | live | -
@@ -111,6 +107,9 @@ Yarin: 35
 - 2026-07-22 01:30 | Brezilya Serie B | Novorizontino - Criciuma | live | -
 - 2026-07-22 02:00 | Kolombiya Kupa 2.Tur | Deportes Tolim - Quindio | live | -
 - 2026-07-22 02:00 | Bolivya Premier Lig | Independiente - Real Potosi | live | -
+- 2026-07-22 03:00 | Ekvador Pro Lig | Univ Catolica - Barcelona Gua | live | -
+- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Once Caldas - Envigado | live | -
+- 2026-07-22 03:00 | Kolombiya Kupa 2.Tur | Deportivo Past - Bogota | live | -
 
 ## Biten Maclar
-- 2026-07-22 00:00 | Kolombiya Kupa 2.Tur | Atletico Nacio - Tigres Fc | finished | -
+Biten mac yok.
