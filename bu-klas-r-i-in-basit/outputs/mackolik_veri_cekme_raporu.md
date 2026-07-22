@@ -1,36 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-22T11:31:17.164352+00:00
+Tarih: 2026-07-22T12:05:39.129965+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 87
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 86
+- Kac mac bulundu: 50
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 50
 - Ham veri havuzu toplam mac sayisi: 2663
 - Hedef tarih: 22.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
-- Brezilya Serie A
-- Brezilya Serie B
-- Copa Sudamericana Son 32 Turu
 - Ekvador Pro Lig
 - Fas Botola 2 Yükselme/Küme Düşme Play Off
 - Finlandiya Ykkönen
 - Hazırlık Kulüpler
-- Kolombiya Kupa 2.Tur
 - Norveç Eliteserien
 - Paraguay Kupa 2.Tur
 - UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final
 - UEFA Konferans Ligi 2. Eleme Turu
 - UEFA Şampiyonlar Ligi 2.Eleme Turu
-- Çin Halk Cumhuriyeti FA Kupası 5.Tur
 - İskoçya Lig Kupası Grup A
 
 ## Okunabilen Oran Alanlari
@@ -88,8 +80,8 @@ Tarih: 2026-07-22T11:31:17.164352+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 19
+- Acilan detay: 19
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -105,23 +97,23 @@ Tarih: 2026-07-22T11:31:17.164352+00:00
 | 22.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Egnatia | Celje | 07393 | 5 |
 | 22.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Omonia | Kairat Almaty | 07116 | 5 |
 | 22.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Levski Sofya | Universitatea C | 07188 | 5 |
-| 22.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Zeleznicar Pan | Braga | 07355 | 5 |
+| 22.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vardar | Riga Fc | 07284 | 5 |
 | 22.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bohemian | Ballkani | 07018 | 5 |
+| 22.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk | Inter Turku | 07245 | 5 |
 | 22.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava | Cska 1948 Sofia | 07322 | 5 |
 | 22.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Neftchi Baku | Dinamo Minsk | 06980 | 5 |
-| 22.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk | Inter Turku | 07245 | 5 |
-| 22.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vardar | Riga Fc | 07284 | 5 |
+| 22.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Zeleznicar Pan | Braga | 07355 | 5 |
 | 22.07.2026 | 20:00 | Norveç Eliteserien | Lillestrom | Viking | 12843 | 5 |
 | 22.07.2026 | 20:00 | Norveç Eliteserien | Bodo Glimt | Ham Kam | 12751 | 4 |
 | 22.07.2026 | 18:30 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Paok (K) | Hapoel Jerusale | 00042 | 5 |
-| 22.07.2026 | 15:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Glentoran (K) | Dinamo Riga (K) | 17544 | 3 |
 | 22.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Queen Of South | Aberdeen | 15254 | 5 |
-| 22.07.2026 | 18:30 | Hazırlık Kulüpler | Torino | Alcione | 17262 | 2 |
-| 22.07.2026 | 19:00 | Hazırlık Kulüpler | Napoli | Arezzo | 17279 | 4 |
-| 22.07.2026 | 20:00 | Hazırlık Kulüpler | Osijek | Cibalia | 18986 | 5 |
-| 22.07.2026 | 20:00 | Hazırlık Kulüpler | Cadiz | Leicester | 15529 | 5 |
-| 22.07.2026 | 18:00 | Hazırlık Kulüpler | Sassuolo | Padova | 06021 | 5 |
-| 22.07.2026 | 20:30 | Hazırlık Kulüpler | Sestao | Athletic Bilbao | 18704 | 2 |
+| 22.07.2026 | 19:00 | Hazırlık Kulüpler | Clermont | Quevilly-Rouen | 18592 | 5 |
+| 22.07.2026 | 21:00 | Hazırlık Kulüpler | Afc Wimbledon | Norwich | 07894 | 5 |
+| 22.07.2026 | 17:00 | Hazırlık Kulüpler | Metalist 1925 | Schalke | 16052 | 5 |
+| 22.07.2026 | 18:30 | Hazırlık Kulüpler | Werder Bremen | Fagiano Okayama | 16317 | 5 |
+| 22.07.2026 | 18:30 | Hazırlık Kulüpler | Lecce | Asu Poli Timişo | 18517 | 2 |
+| 22.07.2026 | 21:00 | Hazırlık Kulüpler | Gil Vicente | Porto | 18922 | 5 |
+| 22.07.2026 | 21:30 | Hazırlık Kulüpler | Tenerife | Getafe | 17867 | 5 |
 
 ## Sonuc
 
