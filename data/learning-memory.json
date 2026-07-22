@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-21T23:15:22.945Z",
-  "updated_at": "2026-07-22T00:13:17.356Z",
+  "updated_at": "2026-07-22T01:05:59.228Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 29,
-    "pending_predictions": 29,
+    "total_predictions": 30,
+    "pending_predictions": 30,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 15,
     "market_count": 3,
-    "added_predictions": 29,
-    "updated_predictions": 0,
-    "last_score_link_checked": 29,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 0,
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS 2": {
-      "total": 15,
-      "pending": 15,
+      "total": 16,
+      "pending": 16,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,9 +48,9 @@
     }
   },
   "league_memory": {
-    "UEFA Konferans Ligi 2. Eleme Turu": {
-      "total": 4,
-      "pending": 4,
+    "Hazırlık Kulüpler": {
+      "total": 10,
+      "pending": 10,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -62,9 +58,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler": {
-      "total": 9,
-      "pending": 9,
+    "UEFA Konferans Ligi 2. Eleme Turu": {
+      "total": 4,
+      "pending": 4,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -204,9 +200,9 @@
     }
   },
   "league_market_memory": {
-    "UEFA Konferans Ligi 2. Eleme Turu :: MS 2": {
-      "total": 2,
-      "pending": 2,
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 4,
+      "pending": 4,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -214,9 +210,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS 2": {
-      "total": 3,
-      "pending": 3,
+    "UEFA Konferans Ligi 2. Eleme Turu :: MS 2": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -397,6 +393,24 @@
   },
   "predictions": [
     {
+      "id": "2026-07-22|hazirlik kulupler|nottingham f blackburn|ms 2|13 00",
+      "date": "2026-07-22",
+      "created_at": "2026-07-22T01:05:58.254Z",
+      "match_name": "Nottingham F - Blackburn",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "13:00",
+      "market": "MS 2",
+      "odds": "3.78",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
+    },
+    {
       "id": "2026-07-22|uefa konferans ligi 2 eleme turu|neftchi baku dinamo minsk|ms 2|19 00",
       "date": "2026-07-22",
       "created_at": "2026-07-22T00:13:16.893Z",
@@ -411,7 +425,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|tottenham mk dons|ms 2|19 00",
@@ -428,7 +443,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|finlandiya ykkonen|pk keski uusim vjs|ms x|19 00",
@@ -445,7 +461,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|uefa sampiyonlar ligi 2 eleme turu|omonia kairat almaty|ms 2|20 00",
@@ -462,7 +479,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|uefa konferans ligi 2 eleme turu|bohemian ballkani|ms 2|20 00",
@@ -479,7 +497,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|norvec eliteserien|lillestrom viking|ms x|20 00",
@@ -496,7 +515,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|cadiz leicester|ms x|20 00",
@@ -513,7 +533,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|uefa sampiyonlar ligi 2 eleme turu|levski sofya universitatea c|ms 2|20 30",
@@ -523,14 +544,15 @@
       "league": "UEFA Şampiyonlar Ligi 2.Eleme Turu",
       "start_time": "20:30",
       "market": "MS 2",
-      "odds": "3.16",
+      "odds": "3.42",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|uefa konferans ligi 2 eleme turu|vardar riga fc|ms x|21 00",
@@ -547,7 +569,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|uefa konferans ligi 2 eleme turu|spartak trnava cska 1948 sofia|ms x|21 30",
@@ -564,7 +587,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|burton albion birmingham|ms 1|21 30",
@@ -581,7 +605,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|iskocya lig kupasi grup a|queen of south aberdeen|ms 1|21 45",
@@ -598,7 +623,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|glasgow ranger st etienne|ms x|21 45",
@@ -615,7 +641,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|uefa sampiyonlar ligi 2 eleme turu|egnatia celje|ms 1|22 00",
@@ -625,14 +652,15 @@
       "league": "UEFA Şampiyonlar Ligi 2.Eleme Turu",
       "start_time": "22:00",
       "market": "MS 1",
-      "odds": "3.19",
+      "odds": "3.46",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.228Z"
     },
     {
       "id": "2026-07-22|kolombiya kupa 2 tur|inter bogota internacional p|ms 2|01 00",
@@ -700,7 +728,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|ekvador pro lig|univ catolica barcelona gua|ms 2|03 00",
@@ -717,7 +746,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|kolombiya kupa 2 tur|once caldas envigado|ms 2|03 00",
@@ -734,7 +764,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|meksika liga mx apertura|toluca pumas unam|ms 2|06 05",
@@ -751,7 +782,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|avustralya ffa kupasi son 32 turu|maitland fremantle city|ms x|12 30",
@@ -768,7 +800,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|nottingham f blackburn|ms x|13 00",
@@ -802,7 +835,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|metalist 1925 schalke|ms 1|17 00",
@@ -812,14 +846,15 @@
       "league": "Hazırlık Kulüpler",
       "start_time": "17:00",
       "market": "MS 1",
-      "odds": "3.86",
+      "odds": "3.99",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|bologna heidenheim|ms x|17 00",
@@ -836,7 +871,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|sassuolo padova|ms 2|18 00",
@@ -853,7 +889,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|uefa kadinlar sampiyonlar ligi 1 eleme turu yari final|paok k hapoel jerusale|ms 2|18 30",
@@ -870,7 +907,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     },
     {
       "id": "2026-07-22|hazirlik kulupler|werder bremen fagiano okayama|ms 2|18 30",
@@ -887,7 +925,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-22T01:05:59.227Z"
     }
   ]
 }
