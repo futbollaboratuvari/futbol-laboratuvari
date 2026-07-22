@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 71
-- Live match count: 18
-- Finished removed count: 2
+- Scheduled match count: 70
+- Live match count: 19
+- Finished removed count: 0
 - Date window: 2026-07-22 / 2026-07-23 23:59
 
 - 2026-07-22 18:00 | Palermo - Paradiso | live

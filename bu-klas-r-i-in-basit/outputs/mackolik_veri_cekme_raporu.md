@@ -1,23 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-22T16:04:08.155196+00:00
+Tarih: 2026-07-22T16:47:27.183374+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 43
+- Kac mac bulundu: 68
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 43
+- Kac mac zaten vardi: 68
 - Ham veri havuzu toplam mac sayisi: 2666
 - Hedef tarih: 22.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
+- Brezilya Serie A
+- Brezilya Serie B
+- Copa Sudamericana Son 32 Turu
 - Ekvador Pro Lig
 - Fas Botola 2 Yükselme/Küme Düşme Play Off
-- Finlandiya Ykkönen
 - Hazırlık Kulüpler
+- Kolombiya Kupa 2.Tur
 - Norveç Eliteserien
 - Paraguay Kupa 2.Tur
 - UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final
@@ -80,8 +86,8 @@ Tarih: 2026-07-22T16:04:08.155196+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 19
-- Acilan detay: 19
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -106,14 +112,14 @@ Tarih: 2026-07-22T16:04:08.155196+00:00
 | 22.07.2026 | 20:00 | Norveç Eliteserien | Lillestrom | Viking | 12843 | 5 |
 | 22.07.2026 | 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Pyunik (K) | Wrexham (K) | 01005 | 4 |
 | 22.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Queen Of South | Aberdeen | 15254 | 5 |
-| 22.07.2026 | 19:00 | Hazırlık Kulüpler | Clermont | Quevilly-Rouen | 18592 | 5 |
 | 22.07.2026 | 21:00 | Hazırlık Kulüpler | Afc Wimbledon | Norwich | 07894 | 5 |
 | 22.07.2026 | 20:00 | Hazırlık Kulüpler | Angers | Les Herbiers | 01886 | 5 |
 | 22.07.2026 | 20:00 | Hazırlık Kulüpler | Las Palmas | Orlando Pirates | 10254 | 5 |
 | 22.07.2026 | 21:00 | Hazırlık Kulüpler | Gil Vicente | Porto | 18922 | 5 |
 | 22.07.2026 | 21:30 | Hazırlık Kulüpler | Tenerife | Getafe | 17867 | 5 |
-| 22.07.2026 | 19:00 | Hazırlık Kulüpler | Rodez Aveyron | Nimes | 15318 | 5 |
-| 22.07.2026 | 19:00 | Hazırlık Kulüpler | Montpellier | Cannes | 18534 | 5 |
+| 22.07.2026 | 21:00 | Hazırlık Kulüpler | Valencia | Eldense | 18713 | 5 |
+| 22.07.2026 | 21:45 | Hazırlık Kulüpler | Glasgow Ranger | St Etienne | 17418 | 5 |
+| 22.07.2026 | 20:00 | Hazırlık Kulüpler | Osijek | Cibalia | 18986 | 5 |
 
 ## Sonuc
 
