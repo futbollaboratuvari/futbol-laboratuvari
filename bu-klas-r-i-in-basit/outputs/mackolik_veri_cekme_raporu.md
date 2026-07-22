@@ -1,35 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-22T07:19:43.994277+00:00
+Tarih: 2026-07-22T07:25:58.247629+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 98
-- Kac mac kaydedildi: 16
-- Kac mac zaten vardi: 82
+- Kac mac bulundu: 63
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 63
 - Ham veri havuzu toplam mac sayisi: 2659
 - Hedef tarih: 22.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Tazmanya
-- Brezilya Serie A
-- Brezilya Serie B
-- Copa Sudamericana Son 32 Turu
 - Ekvador Pro Lig
 - Fas Botola 2 Yükselme/Küme Düşme Play Off
 - Finlandiya Ykkönen
 - Güney Kore K Lig 1
 - Hazırlık Kulüpler
-- Kolombiya Kupa 2.Tur
 - Norveç Eliteserien
 - Paraguay Kupa 2.Tur
 - UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final
