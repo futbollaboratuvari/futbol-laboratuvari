@@ -1,8 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 15
-Tam analiz: 14
-Eksik analiz: 1
+Toplam analiz: 2
+Tam analiz: 0
+Eksik analiz: 2
 
-- Huelva VS Real Betis: eksik score, confidence
+- Sport Colombia VS Guairena: eksik score, confidence
+- Indep. Jose Te VS T.Universitario: eksik score, confidence
