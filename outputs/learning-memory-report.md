@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.07.2026 21:35:45
+Oluşturma: 22.07.2026 21:50:03
 
 ## Özet
 
-- Toplam tahmin: 22
-- Bekleyen tahmin: 22
+- Toplam tahmin: 23
+- Bekleyen tahmin: 23
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 7
@@ -20,12 +20,13 @@ Oluşturma: 22.07.2026 21:35:45
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
-- MS X: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-22 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Egnatia - Celje | MS X | pending | 40/100
 - 2026-07-22 | Hazırlık Kulüpler | Tenerife - Getafe | MS 1 | pending | 50/100
 - 2026-07-22 | Hazırlık Kulüpler | Rfc Liege - St. Truidense | MS 1 | pending | 45/100
 - 2026-07-22 | Hazırlık Kulüpler | Le Mans - Versailles | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 22.07.2026 21:35:45
 - 2026-07-22 | UEFA Konferans Ligi 2. Eleme Turu | Vardar - Riga Fc | MS X | pending | 50/100
 - 2026-07-22 | Fas Botola 2 Yükselme/Küme Düşme Play Off | Kac Kenitra (0) - (0) As Mansouria | MS 2 | pending | 40/100
 - 2026-07-22 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava - Cska 1948 Sofia | MS X | pending | 40/100
-- 2026-07-22 | Hazırlık Kulüpler | Tenerife - Getafe | MS 1 | pending | 50/100
 

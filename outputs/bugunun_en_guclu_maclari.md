@@ -2,20 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-22T18:35:38.197Z
+- Güncelleme: 2026-07-22T18:49:29.628Z
 - Ham maç sayısı: 82
 - Yarın bülteni maç sayısı: 35
 - Detay blok sayısı: 239
-- Aktif bülten maçı: 44
-- Bültenden düşürülen maç: 38
+- Aktif bülten maçı: 40
+- Bültenden düşürülen maç: 42
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Queen Of South - Aberdeen | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 6.08 | 6 |
-| Stevenage - West Ham | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 4.71 | 7 |
-| Glasgow Ranger - St Etienne | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.37 | 7 |
-| Eastleigh - Valenciennes | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 4.22 | 7 |
 | Egnatia - Celje | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 3.09 | 8 |
 | Zeleznicar Pan - Braga | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | Veri bekleniyor | - | 8.68 | 6 |
 | Tenerife - Getafe | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 3.21 | 8 |
