@@ -1,22 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-22T17:43:28.859445+00:00
+Tarih: 2026-07-22T18:02:50.827683+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 24
+- Kac mac bulundu: 54
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 24
+- Kac mac zaten vardi: 54
 - Ham veri havuzu toplam mac sayisi: 2666
 - Hedef tarih: 22.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
+- Brezilya Serie A
+- Brezilya Serie B
+- Copa Sudamericana Son 32 Turu
 - Ekvador Pro Lig
 - Fas Botola 2 Yükselme/Küme Düşme Play Off
 - Hazırlık Kulüpler
+- Kolombiya Kupa 2.Tur
 - Paraguay Kupa 2.Tur
 - UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -94,24 +101,24 @@ Tarih: 2026-07-22T17:43:28.859445+00:00
 |---|---|---|---|---|---|---:|
 | 22.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Egnatia | Celje | 07393 | 5 |
 | 22.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Zeleznicar Pan | Braga | 07355 | 5 |
-| 22.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vardar | Riga Fc | 07284 | 5 |
 | 22.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava | Cska 1948 Sofia | 07322 | 5 |
-| 22.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk | Inter Turku | 07245 | 5 |
 | 22.07.2026 | 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Pyunik (K) | Wrexham (K) | 01005 | 4 |
 | 22.07.2026 | 21:45 | İskoçya Lig Kupası Grup A | Queen Of South | Aberdeen | 15254 | 5 |
 | 22.07.2026 | 21:30 | Hazırlık Kulüpler | Huelva | Real Betis | 18814 | 2 |
 | 22.07.2026 | 22:00 | Hazırlık Kulüpler | Gil Vicente | Porto | 18922 | 5 |
 | 22.07.2026 | 21:30 | Hazırlık Kulüpler | Southend | Northampton | 18831 | 5 |
 | 22.07.2026 | 21:00 | Hazırlık Kulüpler | Ue Olot | Girona | 18774 | 4 |
-| 22.07.2026 | 21:30 | Hazırlık Kulüpler | Burton Albion | Birmingham | 00460 | 5 |
 | 22.07.2026 | 21:45 | Hazırlık Kulüpler | Glasgow Ranger | St Etienne | 17418 | 5 |
 | 22.07.2026 | 21:00 | Hazırlık Kulüpler | Valencia | Eldense | 18713 | 5 |
 | 22.07.2026 | 21:45 | Hazırlık Kulüpler | Stevenage | West Ham | 00667 | 5 |
-| 22.07.2026 | 21:00 | Hazırlık Kulüpler | Afc Wimbledon | Norwich | 07894 | 5 |
 | 22.07.2026 | 21:30 | Hazırlık Kulüpler | Tenerife | Getafe | 17867 | 5 |
-| 22.07.2026 | 20:00 | Hazırlık Kulüpler | Angers | Les Herbiers | 01886 | 5 |
-| 22.07.2026 | 20:00 | Hazırlık Kulüpler | Osijek | Cibalia | 18986 | 5 |
+| 22.07.2026 | 21:30 | Hazırlık Kulüpler | Burton Albion | Birmingham | 00460 | 5 |
 | 22.07.2026 | 21:45 | Hazırlık Kulüpler | Eastleigh | Valenciennes | 18872 | 5 |
+| 23.07.2026 | 03:30 | ABD MLS | Nashville Sc | Montreal | 13805 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | Inter Miami | Chicago | 13258 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | Cincinnati | Vancouver | 13164 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | Columbus | New York City | 13102 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | Philadelphia | New York | 13383 | 5 |
 
 ## Sonuc
 
