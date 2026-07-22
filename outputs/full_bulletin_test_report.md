@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 90
-- Live match count: 10
+- Scheduled match count: 88
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-22 / 2026-07-23 23:59
 
-- 2026-07-22 12:30 | Cooma Tigers - Western Sydney | live
-- 2026-07-22 12:30 | Maitland - Fremantle City | live
-- 2026-07-22 12:30 | Sydney United - Cc Mariners | live
-- 2026-07-22 12:30 | Tuggeranong Un - Canberra White | live
-- 2026-07-22 13:00 | University Azz - Macarthur | live
-- 2026-07-22 13:00 | Nottingham F - Blackburn | live
-- 2026-07-22 13:15 | Launceston Cit - Launceston Unit | live
-- 2026-07-22 13:30 | Bucheon - Anyang | live
-- 2026-07-22 13:30 | Fc Seoul - Pohang Steelers | live
-- 2026-07-22 13:30 | Gwangju - Gimcheon Sangmu | live
+- 2026-07-22 17:00 | Bologna - Heidenheim | scheduled
+- 2026-07-22 17:00 | Metalist - Schalke | scheduled
+- 2026-07-22 18:00 | Palermo - Paradiso | scheduled
+- 2026-07-22 18:00 | Sassuolo - Padova | scheduled
+- 2026-07-22 18:30 | Lecce - Asu Poli Timişo | scheduled
+- 2026-07-22 18:30 | Nantes - La Roche-Sur-Yo | scheduled
+- 2026-07-22 18:30 | Torino - Alcione | scheduled
+- 2026-07-22 18:30 | Werder Bremen - Fagiano Okayama | scheduled
+- 2026-07-22 18:30 | Paok (K) - Hapoel Jerusale | scheduled
+- 2026-07-22 19:00 | Pk Keski Uusim - Vjs | scheduled
