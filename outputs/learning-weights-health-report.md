@@ -1,10 +1,10 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
-Durum: izleme
-Tahmin sayisi: 0
-Hazir market hafizasi: 0/0
-Hazir lig hafizasi: 0/0
-Hazir lig+market hafizasi: 0/0
+Durum: waiting_data
+Tahmin sayisi: 22
+Hazir market hafizasi: 0/3
+Hazir lig hafizasi: 0/7
+Hazir lig+market hafizasi: 0/11
 Guclendirilen toplam: 0
 Dusurulen toplam: 0
 
@@ -12,4 +12,4 @@ Dusurulen toplam: 0
 
 ## Zayif Marketler
 
-Sonraki aksiyon: Ogrenme icin veri yok. Izleme devam.
+Sonraki aksiyon: En az 5 sonuclu veri birikene kadar agirliklar notr kalir.
