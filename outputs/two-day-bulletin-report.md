@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-22 / 2026-07-23
 Kaynak: fixtures.json
-Ham mac: 59
+Ham mac: 50
 Aktif mac: 35
-Canli mac: 24
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 24
+Bultenden dusurulen mac: 15
 Bugun: 0
 Yarin: 35
 
@@ -48,15 +48,6 @@ Yarin: 35
 - 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 
 ## Canli Maclar
-- 2026-07-22 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Başakşehir Fk - Inter Turku | live | -
-- 2026-07-22 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vardar - Riga Fc | live | -
-- 2026-07-22 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | Pyunik (K) - Wrexham (K) | live | -
-- 2026-07-22 21:00 | Hazırlık Kulüpler | Afc Wimbledon - Norwich | live | -
-- 2026-07-22 21:00 | Fas Botola 2 Yükselme/Küme Düşme Play Off | Us Boujaad (1) - (0) Oued Zem | live | -
-- 2026-07-22 21:00 | Hazırlık Kulüpler | Ue Olot - Girona | live | -
-- 2026-07-22 21:00 | Hazırlık Kulüpler | Valencia - Eldense | live | -
-- 2026-07-22 21:00 | Hazırlık Kulüpler | Gil Vicente - Porto | live | -
-- 2026-07-22 21:00 | Fas Botola 2 Yükselme/Küme Düşme Play Off | Kac Kenitra (0) - (0) As Mansouria | live | -
 - 2026-07-22 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Spartak Trnava - Cska 1948 Sofia | live | -
 - 2026-07-22 21:30 | Hazırlık Kulüpler | Burton Albion - Birmingham | live | -
 - 2026-07-22 21:30 | Paraguay Kupa 2.Tur | Humaita - Encarnacion | live | -
