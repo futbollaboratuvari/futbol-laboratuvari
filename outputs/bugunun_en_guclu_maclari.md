@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-22T07:25:24.792Z
+- Güncelleme: 2026-07-22T07:31:03.694Z
 - Ham maç sayısı: 98
 - Yarın bülteni maç sayısı: 35
 - Detay blok sayısı: 276
@@ -31,7 +31,7 @@
 | Palermo - Paradiso | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | - | 3 |
 | Sassuolo - Padova | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.15 | 6 |
 | Paok (K) - Hapoel Jerusale | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Yarı Final | 18:30 | Veri bekleniyor | - | 1.63 | 8 |
-| Nantes - La Roche-Sur-Yo | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.09 | 6 |
+| Nantes - La Roche-Sur-Yo | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.13 | 6 |
 | Werder Bremen - Fagiano Okayama | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.15 | 6 |
 | Torino - Alcione | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | - | 3 |
 | Lecce - Asu Poli Timişo | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | - | 3 |
@@ -61,9 +61,9 @@
 | Us Boujaad (1) - (0) Oued Zem | Fas Botola 2 Yükselme/Küme Düşme Play Off | 21:00 | Veri bekleniyor | - | 1.69 | 5 |
 | Ue Olot - Girona | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 16.95 | 5 |
 | Spartak Trnava - Cska 1948 Sofia | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.04 | 8 |
-| Burton Albion - Birmingham | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.59 | 6 |
+| Burton Albion - Birmingham | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.43 | 7 |
 | Humaita - Encarnacion | Paraguay Kupa 2.Tur | 21:30 | Veri bekleniyor | - | 6.81 | 5 |
-| Southend - Northampton | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.94 | 6 |
+| Southend - Northampton | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.27 | 6 |
 | Tenerife - Getafe | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.21 | 8 |
 | Huelva - Real Betis | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 17.1 | 3 |
 | Queen Of South - Aberdeen | İskoçya Lig Kupası Grup A | 21:45 | Veri bekleniyor | - | 6.25 | 6 |
