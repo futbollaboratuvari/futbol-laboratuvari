@@ -1,34 +1,41 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-22T20:16:53.854322+00:00
+Tarih: 2026-07-22T20:43:35.308796+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
+- Kac mac bulundu: 35
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
+- Kac mac zaten vardi: 35
 - Ham veri havuzu toplam mac sayisi: 2666
 - Hedef tarih: 22.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
+- Brezilya Serie A
+- Brezilya Serie B
+- Copa Sudamericana Son 32 Turu
+- Ekvador Pro Lig
+- Kolombiya Kupa 2.Tur
+- Paraguay Kupa 2.Tur
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -84,7 +91,28 @@ Tarih: 2026-07-22T20:16:53.854322+00:00
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 23.07.2026 | 02:30 | ABD MLS | Philadelphia | New York | 13383 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | Columbus | New York City | 13102 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | Cincinnati | Vancouver | 13164 | 5 |
+| 23.07.2026 | 03:15 | ABD MLS | Charlotte | Atlanta Utd | 13458 | 5 |
+| 23.07.2026 | 05:30 | ABD MLS | Portland | Dallas | 14212 | 5 |
+| 23.07.2026 | 04:30 | ABD MLS | Austin | Seattle | 13514 | 5 |
+| 23.07.2026 | 05:30 | ABD MLS | Los Angeles | St. Louis City | 14094 | 5 |
+| 23.07.2026 | 05:30 | ABD MLS | Los Angeles Fc | Salt Lake | 14154 | 5 |
+| 23.07.2026 | 03:30 | ABD MLS | Houston | Dc United | 13630 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | New England | Toronto | 13317 | 5 |
+| 23.07.2026 | 05:30 | ABD MLS | San Jose | Orlando City | 14276 | 5 |
+| 23.07.2026 | 04:30 | ABD MLS | Colorado | San Diego | 14002 | 5 |
+| 23.07.2026 | 03:30 | ABD MLS | Kansas | Minnesota Utd | 13747 | 5 |
+| 23.07.2026 | 03:30 | ABD MLS | Nashville Sc | Montreal | 13805 | 5 |
+| 23.07.2026 | 02:30 | ABD MLS | Inter Miami | Chicago | 13258 | 5 |
+| 23.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Independiente | Vasco Da Gama | 07449 | 5 |
+| 23.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Sporting Crist | Bragantino | 07592 | 5 |
+| 23.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Lanus | Cienciano | 07503 | 5 |
+| 23.07.2026 | 01:30 | Brezilya Serie A | Coritiba | Palmeiras | 12964 | 5 |
+| 23.07.2026 | 03:30 | Brezilya Serie A | Sao Paulo | Atletico Pr | 13897 | 5 |
 
 ## Sonuc
 
