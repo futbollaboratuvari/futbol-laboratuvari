@@ -2,11 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 72
+- Scheduled match count: 73
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-23 / 2026-07-24 23:59
 
+- 2026-07-23 16:00 | Waldhof Mannhe - Liefering | scheduled
 - 2026-07-23 17:30 | Malisheva - Hibernian | scheduled
 - 2026-07-23 18:00 | Cagliari - Sampdoria | scheduled
 - 2026-07-23 18:00 | Alashkert - Cfr Cluj | scheduled
@@ -16,4 +17,3 @@
 - 2026-07-23 19:00 | Shakhtar Donet - Hnk Gorica | scheduled
 - 2026-07-23 19:00 | Qarabagh - Cska Sofia | scheduled
 - 2026-07-23 19:00 | Debreceni - Pyunik Erewan | scheduled
-- 2026-07-23 19:00 | Dila Gori - Apollon Limasso | scheduled
