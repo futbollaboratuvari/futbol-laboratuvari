@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-23T01:11:40.618Z
+- Güncelleme: 2026-07-23T01:30:43.834Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -31,8 +31,8 @@
 | Atletico Junio VS Barranguilla | Kolombiya Kupa 2.Tur | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Colorado Sprin VS Miami Fc | ABD USL | 04:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Spokane Veloci VS Charlotte Indep | ABD USL Lig 1 | 04:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Colorado VS San Diego | ABD MLS | 04:30 | MS X | 3.43 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Austin VS Seattle | ABD MLS | 04:30 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Colorado VS San Diego | ABD MLS | 04:30 | MS X | 3.43 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
+| Austin VS Seattle | ABD MLS | 04:30 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | San Jose VS Orlando City | ABD MLS | 05:30 | MS X | 4.02 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Los Angeles Fc VS Salt Lake | ABD MLS | 05:30 | MS 2 | 3.76 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Los Angeles VS St. Louis City | ABD MLS | 05:30 | MS X | 3.33 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

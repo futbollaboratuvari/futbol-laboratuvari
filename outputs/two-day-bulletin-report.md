@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
-Ham mac: 104
-Aktif mac: 75
-Canli mac: 20
-Biten mac: 9
-Bultenden dusurulen mac: 29
-Bugun: 59
+Ham mac: 95
+Aktif mac: 73
+Canli mac: 22
+Biten mac: 0
+Bultenden dusurulen mac: 22
+Bugun: 57
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 04:30 | ABD MLS | Colorado - San Diego | scheduled | -
-- 2026-07-23 04:30 | ABD MLS | Austin - Seattle | scheduled | -
 - 2026-07-23 05:30 | ABD MLS | San Jose - Orlando City | scheduled | -
 - 2026-07-23 05:30 | ABD MLS | Los Angeles Fc - Salt Lake | scheduled | -
 - 2026-07-23 05:30 | ABD MLS | Los Angeles - St. Louis City | scheduled | -
@@ -108,14 +106,8 @@ Yarin: 16
 - 2026-07-23 03:30 | Kolombiya Kupa 2.Tur | Atletico Junio - Barranguilla | live | -
 - 2026-07-23 04:00 | ABD USL | Colorado Sprin - Miami Fc | live | -
 - 2026-07-23 04:00 | ABD USL Lig 1 | Spokane Veloci - Charlotte Indep | live | -
+- 2026-07-23 04:30 | ABD MLS | Colorado - San Diego | live | -
+- 2026-07-23 04:30 | ABD MLS | Austin - Seattle | live | -
 
 ## Biten Maclar
-- 2026-07-23 00:00 | Paraguay Kupa 2.Tur | Sport Colombia - Guairena | finished | -
-- 2026-07-23 00:30 | Ekvador Pro Lig | Indep. Jose Te - T.Universitario | finished | -
-- 2026-07-23 01:00 | Copa Sudamericana Son 32 Turu | Independiente - Vasco Da Gama | finished | -
-- 2026-07-23 01:30 | Brezilya Serie A | Coritiba - Palmeiras | finished | -
-- 2026-07-23 01:30 | Brezilya Serie B | Ceara - Regatas | finished | -
-- 2026-07-23 01:30 | Brezilya Serie B | Operario - Ponte Preta | finished | -
-- 2026-07-23 02:00 | ABD USL | Lexington - Oakland Roots | finished | -
-- 2026-07-23 02:00 | ABD USL Lig 1 | Westchester Sc - New York Cosmos | finished | -
-- 2026-07-23 02:00 | ABD USL Lig 1 | Portland Heart - Union Omaha | finished | -
+Biten mac yok.
