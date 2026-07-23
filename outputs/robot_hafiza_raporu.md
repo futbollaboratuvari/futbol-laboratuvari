@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-22T09:05:16+03:00
+Güncelleme: 2026-07-23T09:10:25+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 72
+- Toplam tahmin kaydı: 115
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -17,15 +17,13 @@ Güncelleme: 2026-07-22T09:05:16+03:00
 | - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 41 | 0 | 0 | 41 | %0 | 0 |
+| Değerli market yok | 58 | 0 | 0 | 58 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 4 | 0 | 0 | 4 | %0 | 4.56 |
-| MS 2 | 13 | 0 | 0 | 13 | %0 | 4.47 |
-| MS 2 + MS 2 | 1 | 0 | 0 | 1 | %0 | 20.18 |
-| MS 2 + MS 2 + MS X | 1 | 0 | 0 | 1 | %0 | 71.83 |
-| MS X | 10 | 0 | 0 | 10 | %0 | 3.28 |
-| MS X + MS X | 1 | 0 | 0 | 1 | %0 | 12.28 |
+| MS 1 | 4 | 0 | 0 | 4 | %0 | 3.45 |
+| MS 2 | 16 | 0 | 0 | 16 | %0 | 3.68 |
+| MS X | 36 | 0 | 0 | 36 | %0 | 3.36 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
+| İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
 ## Oran Aralığı Performansı
 
@@ -33,44 +31,38 @@ Güncelleme: 2026-07-22T09:05:16+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 1 | 0 | 0 | 1 | %0 | 2.76 |
-| 3.00-4.99 | 20 | 0 | 0 | 20 | %0 | 3.53 |
-| 5.00+ | 9 | 0 | 0 | 9 | %0 | 15.56 |
-| bilinmiyor | 42 | 0 | 0 | 42 | %0 | 0 |
+| 2.00-2.99 | 22 | 0 | 0 | 22 | %0 | 2.92 |
+| 3.00-4.99 | 30 | 0 | 0 | 30 | %0 | 3.55 |
+| 5.00+ | 4 | 0 | 0 | 4 | %0 | 5.65 |
+| bilinmiyor | 59 | 0 | 0 | 59 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Avustralya FFA Kupası Son 32 Turu | 4 | 0 | 0 | 4 | %0 | 3.04 |
-| Avustralya NPL Başkent Bölgesi | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Kuzey YGG | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Tazmanya | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bolivya Premier Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Brezilya Serie A | 1 | 0 | 0 | 1 | %0 | 0 |
-| Brezilya Serie B | 3 | 0 | 0 | 3 | %0 | 0 |
-| Copa Sudamericana Son 32 Turu | 2 | 0 | 0 | 2 | %0 | 0 |
-| Ekvador Pro Lig | 3 | 0 | 0 | 3 | %0 | 0 |
-| Fas Botola 2 Yükselme/Küme Düşme Play Off | 1 | 0 | 0 | 1 | %0 | 0 |
-| Güney Kore K Lig 1 | 3 | 0 | 0 | 3 | %0 | 3.86 |
-| Hazırlık Kulüpler | 17 | 0 | 0 | 17 | %0 | 4.66 |
+| ABD MLS | 9 | 0 | 0 | 9 | %0 | 3.59 |
+| Hazırlık Kulüpler | 4 | 0 | 0 | 4 | %0 | 4.25 |
+| Paraguay Kupa 2.Tur | 2 | 0 | 0 | 2 | %0 | 0 |
+| UEFA Avrupa Ligi 2. Eleme Turu | 18 | 0 | 0 | 18 | %0 | 3.24 |
+| UEFA Konferans Ligi 2. Eleme Turu | 80 | 0 | 0 | 80 | %0 | 3.44 |
+| İzlanda 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Afc Wimbledon VS Norwich | 1 | 0 | 0 | 1 | %0 | 0 |
-| America De Cal VS Real Cartagena | 1 | 0 | 0 | 1 | %0 | 0 |
-| Atletico Mg VS Bahia | 1 | 0 | 0 | 1 | %0 | 0 |
-| Atletico Nacio VS Tigres Fc | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avai VS America Mineiro | 1 | 0 | 0 | 1 | %0 | 0 |
-| Başakşehir Fk VS Inter Turku | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bodo Glimt VS Ham Kam | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bohemian VS Ballkani | 1 | 0 | 0 | 1 | %0 | 3.87 |
-| Bologna VS Heidenheim | 1 | 0 | 0 | 1 | %0 | 3.35 |
-| Brest VS Al Wakrah | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bucheon VS Anyang | 1 | 0 | 0 | 1 | %0 | 0 |
-| Burton Albion VS Birmingham | 1 | 0 | 0 | 1 | %0 | 5.07 |
+| Ae Kition VS Beitar Jerusale | 2 | 0 | 0 | 2 | %0 | 3.01 |
+| Alashkert VS Cfr Cluj | 2 | 0 | 0 | 2 | %0 | 0 |
+| Aluminij VS Dinamo Tirana | 2 | 0 | 0 | 2 | %0 | 2.91 |
+| Ask Bravo VS Skendija | 2 | 0 | 0 | 2 | %0 | 3.45 |
+| Bate Borisov VS Sion | 2 | 0 | 0 | 2 | %0 | 0 |
+| Beşiktaş VS Midtjylland | 2 | 0 | 0 | 2 | %0 | 2.93 |
+| Borac Banja Lu VS Petrocub | 2 | 0 | 0 | 2 | %0 | 0 |
+| Cagliari VS Sampdoria | 2 | 0 | 0 | 2 | %0 | 4.25 |
+| Cordoba VS Sevilla | 2 | 0 | 0 | 2 | %0 | 0 |
+| Dac VS Velez Mostar | 2 | 0 | 0 | 2 | %0 | 0 |
+| Daugava Riga VS Vestri | 2 | 0 | 0 | 2 | %0 | 0 |
+| Debreceni VS Pyunik Erewan | 2 | 0 | 0 | 2 | %0 | 3.55 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -83,11 +75,9 @@ Güncelleme: 2026-07-22T09:05:16+03:00
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS X + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
 ## Öğrenme Ağırlıkları - Oran Aralığı
 
