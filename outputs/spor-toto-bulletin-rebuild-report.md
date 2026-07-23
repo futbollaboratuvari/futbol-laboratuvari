@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-22T23:39:22.740Z
+- Guncelleme: 2026-07-23T01:11:18.007Z
 - Ham fixture sayisi: 2727
 - Bugun/yarin kaynak mac: 104
-- Aktif bulten maci: 89
+- Aktif bulten maci: 75
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 15
+- Bultenden dusurulen mac: 29
 
-- 1. 2026-07-23 03:00 | Ekvador Pro Lig | Manta - Ldu Quito | scheduled
-- 2. 2026-07-23 03:15 | ABD MLS | Charlotte - Atlanta Utd | scheduled
-- 3. 2026-07-23 03:30 | Kolombiya Kupa 2.Tur | Atletico Junio - Barranguilla | scheduled
-- 4. 2026-07-23 03:30 | Brezilya Serie A | Chapecoense - Flamengo | scheduled
-- 5. 2026-07-23 03:30 | ABD MLS | Houston - Dc United | scheduled
-- 6. 2026-07-23 03:30 | Brezilya Serie A | Internacional - Cruzeiro | scheduled
-- 7. 2026-07-23 03:30 | ABD MLS | Kansas - Minnesota Utd | scheduled
-- 8. 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Lanus - Cienciano | scheduled
-- 9. 2026-07-23 03:30 | ABD MLS | Nashville Sc - Montreal | scheduled
-- 10. 2026-07-23 03:30 | Brezilya Serie B | Nautico - Londrina | scheduled
-- 11. 2026-07-23 03:30 | Brezilya Serie A | Sao Paulo - Atletico Pr | scheduled
-- 12. 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Sporting Crist - Bragantino | scheduled
-- 13. 2026-07-23 04:00 | ABD USL | Colorado Sprin - Miami Fc | scheduled
-- 14. 2026-07-23 04:00 | ABD USL Lig 1 | Spokane Veloci - Charlotte Indep | scheduled
-- 15. 2026-07-23 04:30 | ABD MLS | Austin - Seattle | scheduled
+- 1. 2026-07-23 04:30 | ABD MLS | Austin - Seattle | scheduled
+- 2. 2026-07-23 04:30 | ABD MLS | Colorado - San Diego | scheduled
+- 3. 2026-07-23 05:30 | ABD MLS | Los Angeles - St. Louis City | scheduled
+- 4. 2026-07-23 05:30 | ABD MLS | Los Angeles Fc - Salt Lake | scheduled
+- 5. 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled
+- 6. 2026-07-23 05:30 | ABD MLS | San Jose - Orlando City | scheduled
+- 7. 2026-07-23 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva - Hibernian | scheduled
+- 8. 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert - Cfr Cluj | scheduled
+- 9. 2026-07-23 18:00 | Hazırlık Kulüpler | Cagliari - Sampdoria | scheduled
+- 10. 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | scheduled
+- 11. 2026-07-23 18:30 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | scheduled
+- 12. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Debreceni - Pyunik Erewan | scheduled
+- 13. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Dila Gori - Apollon Limasso | scheduled
+- 14. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn - The New Saints | scheduled
+- 15. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Helsinki - Coleraine | scheduled

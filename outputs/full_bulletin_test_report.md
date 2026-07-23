@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 89
-- Live match count: 13
-- Finished removed count: 1
+- Scheduled match count: 75
+- Live match count: 20
+- Finished removed count: 0
 - Date window: 2026-07-23 / 2026-07-24 23:59
 
-- 2026-07-23 01:00 | Independiente - Vasco Da Gama | live
-- 2026-07-23 01:30 | Coritiba - Palmeiras | live
-- 2026-07-23 01:30 | Ceara - Regatas | live
-- 2026-07-23 01:30 | Operario - Ponte Preta | live
-- 2026-07-23 02:00 | Lexington - Oakland Roots | live
-- 2026-07-23 02:00 | Portland Heart - Union Omaha | live
-- 2026-07-23 02:00 | Westchester Sc - New York Cosmos | live
 - 2026-07-23 02:30 | Cincinnati - Vancouver | live
 - 2026-07-23 02:30 | Columbus - New York City | live
 - 2026-07-23 02:30 | Inter Miami - Chicago | live
+- 2026-07-23 02:30 | New England - Toronto | live
+- 2026-07-23 02:30 | Philadelphia - New York | live
+- 2026-07-23 02:30 | Goias - Sport Recife | live
+- 2026-07-23 03:00 | Manta - Ldu Quito | live
+- 2026-07-23 03:15 | Charlotte - Atlanta Utd | live
+- 2026-07-23 03:30 | Houston - Dc United | live
+- 2026-07-23 03:30 | Kansas - Minnesota Utd | live

@@ -1,37 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-22T23:46:27.433212+00:00
+Tarih: 2026-07-23T01:11:16.994257+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 53
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 53
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 2735
 - Hedef tarih: 23.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Hazırlık Kulüpler
-- Paraguay Kupa 2.Tur
-- UEFA Avrupa Ligi 2. Eleme Turu
-- UEFA Konferans Ligi 2. Eleme Turu
-- İzlanda 1.Lig
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -76,39 +73,57 @@ Tarih: 2026-07-22T23:46:27.433212+00:00
 ## Mac Detay Pencereleri
 
 - Denenen Tumu alani: 12
-- Acilan detay: 12
+- Acilan detay: 2
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Detay acilamadi #3: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(2)
+
+- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
+
+- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
+
+- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
+
+- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
+
+- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
+
+- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
+
+- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
+
+- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
+
+- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Twente | Ferencvaros | 09362 | 5 |
-| 23.07.2026 | 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh | Cska Sofia | 08068 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby | Anderlecht | 08521 | 5 |
-| 23.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split | Pafos Fc | 10318 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp | Maccabi Tel Avi | 08693 | 5 |
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş | Midtjylland | 09016 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Tromso | Hradec Kralove | 08769 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Dynamo Kiev | Paok | 08332 | 5 |
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | St Gallen | Benfica | 09258 | 5 |
-| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Ml Vitebsk | Sutjeska | 08584 | 5 |
-| 23.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Fc Steaua | Auda | 08976 | 4 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo | Skendija | 10112 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik | Koper | 10222 | 5 |
-| 23.07.2026 | 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja | Austria Vienna | 07753 | 5 |
-| 23.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn | The New Saints | 07962 | 5 |
-| 23.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee | Zira | 08135 | 5 |
-| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gais | Nordsjaelland | 08447 | 5 |
-| 23.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij | Dinamo Tirana | 09091 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka | Derry City | 10177 | 4 |
-| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bate Borisov | Sion | 01835 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 

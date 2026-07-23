@@ -2,28 +2,15 @@
 
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
-Ham mac: 102
-Aktif mac: 88
-Canli mac: 14
-Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 72
+Ham mac: 104
+Aktif mac: 75
+Canli mac: 20
+Biten mac: 9
+Bultenden dusurulen mac: 29
+Bugun: 59
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 03:15 | ABD MLS | Charlotte - Atlanta Utd | scheduled | -
-- 2026-07-23 03:30 | ABD MLS | Nashville Sc - Montreal | scheduled | -
-- 2026-07-23 03:30 | ABD MLS | Kansas - Minnesota Utd | scheduled | -
-- 2026-07-23 03:30 | ABD MLS | Houston - Dc United | scheduled | -
-- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Lanus - Cienciano | scheduled | -
-- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Sporting Crist - Bragantino | scheduled | -
-- 2026-07-23 03:30 | Brezilya Serie A | Sao Paulo - Atletico Pr | scheduled | -
-- 2026-07-23 03:30 | Brezilya Serie A | Internacional - Cruzeiro | scheduled | -
-- 2026-07-23 03:30 | Brezilya Serie A | Chapecoense - Flamengo | scheduled | -
-- 2026-07-23 03:30 | Brezilya Serie B | Nautico - Londrina | scheduled | -
-- 2026-07-23 03:30 | Kolombiya Kupa 2.Tur | Atletico Junio - Barranguilla | scheduled | -
-- 2026-07-23 04:00 | ABD USL | Colorado Sprin - Miami Fc | scheduled | -
-- 2026-07-23 04:00 | ABD USL Lig 1 | Spokane Veloci - Charlotte Indep | scheduled | -
 - 2026-07-23 04:30 | ABD MLS | Colorado - San Diego | scheduled | -
 - 2026-07-23 04:30 | ABD MLS | Austin - Seattle | scheduled | -
 - 2026-07-23 05:30 | ABD MLS | San Jose - Orlando City | scheduled | -
@@ -101,13 +88,6 @@ Yarin: 16
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-07-23 01:00 | Copa Sudamericana Son 32 Turu | Independiente - Vasco Da Gama | live | -
-- 2026-07-23 01:30 | Brezilya Serie A | Coritiba - Palmeiras | live | -
-- 2026-07-23 01:30 | Brezilya Serie B | Ceara - Regatas | live | -
-- 2026-07-23 01:30 | Brezilya Serie B | Operario - Ponte Preta | live | -
-- 2026-07-23 02:00 | ABD USL | Lexington - Oakland Roots | live | -
-- 2026-07-23 02:00 | ABD USL Lig 1 | Westchester Sc - New York Cosmos | live | -
-- 2026-07-23 02:00 | ABD USL Lig 1 | Portland Heart - Union Omaha | live | -
 - 2026-07-23 02:30 | ABD MLS | Philadelphia - New York | live | -
 - 2026-07-23 02:30 | ABD MLS | Cincinnati - Vancouver | live | -
 - 2026-07-23 02:30 | ABD MLS | Inter Miami - Chicago | live | -
@@ -115,6 +95,27 @@ Yarin: 16
 - 2026-07-23 02:30 | ABD MLS | Columbus - New York City | live | -
 - 2026-07-23 02:30 | Brezilya Serie B | Goias - Sport Recife | live | -
 - 2026-07-23 03:00 | Ekvador Pro Lig | Manta - Ldu Quito | live | -
+- 2026-07-23 03:15 | ABD MLS | Charlotte - Atlanta Utd | live | -
+- 2026-07-23 03:30 | ABD MLS | Nashville Sc - Montreal | live | -
+- 2026-07-23 03:30 | ABD MLS | Kansas - Minnesota Utd | live | -
+- 2026-07-23 03:30 | ABD MLS | Houston - Dc United | live | -
+- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Lanus - Cienciano | live | -
+- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Sporting Crist - Bragantino | live | -
+- 2026-07-23 03:30 | Brezilya Serie A | Sao Paulo - Atletico Pr | live | -
+- 2026-07-23 03:30 | Brezilya Serie A | Internacional - Cruzeiro | live | -
+- 2026-07-23 03:30 | Brezilya Serie A | Chapecoense - Flamengo | live | -
+- 2026-07-23 03:30 | Brezilya Serie B | Nautico - Londrina | live | -
+- 2026-07-23 03:30 | Kolombiya Kupa 2.Tur | Atletico Junio - Barranguilla | live | -
+- 2026-07-23 04:00 | ABD USL | Colorado Sprin - Miami Fc | live | -
+- 2026-07-23 04:00 | ABD USL Lig 1 | Spokane Veloci - Charlotte Indep | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-23 00:00 | Paraguay Kupa 2.Tur | Sport Colombia - Guairena | finished | -
+- 2026-07-23 00:30 | Ekvador Pro Lig | Indep. Jose Te - T.Universitario | finished | -
+- 2026-07-23 01:00 | Copa Sudamericana Son 32 Turu | Independiente - Vasco Da Gama | finished | -
+- 2026-07-23 01:30 | Brezilya Serie A | Coritiba - Palmeiras | finished | -
+- 2026-07-23 01:30 | Brezilya Serie B | Ceara - Regatas | finished | -
+- 2026-07-23 01:30 | Brezilya Serie B | Operario - Ponte Preta | finished | -
+- 2026-07-23 02:00 | ABD USL | Lexington - Oakland Roots | finished | -
+- 2026-07-23 02:00 | ABD USL Lig 1 | Westchester Sc - New York Cosmos | finished | -
+- 2026-07-23 02:00 | ABD USL Lig 1 | Portland Heart - Union Omaha | finished | -
