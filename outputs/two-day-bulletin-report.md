@@ -3,25 +3,14 @@
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
 Ham mac: 73
-Aktif mac: 66
-Canli mac: 7
+Aktif mac: 55
+Canli mac: 18
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 50
+Bultenden dusurulen mac: 18
+Bugun: 39
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh - Cska Sofia | scheduled | -
-- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn - The New Saints | scheduled | -
-- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee - Zira | scheduled | -
-- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Helsinki - Coleraine | scheduled | -
-- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Debreceni - Pyunik Erewan | scheduled | -
-- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Dila Gori - Apollon Limasso | scheduled | -
-- 2026-07-23 19:00 | Hazırlık Kulüpler | Shakhtar Donet - Hnk Gorica | scheduled | -
-- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Daugava Riga - Vestri | scheduled | -
-- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Rakow Czestoch - Valletta | scheduled | -
-- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Dac - Velez Mostar | scheduled | -
-- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Ae Kition - Beitar Jerusale | scheduled | -
 - 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby - Anderlecht | scheduled | -
 - 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp - Maccabi Tel Avi | scheduled | -
 - 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Tromso - Hradec Kralove | scheduled | -
@@ -86,6 +75,17 @@ Yarin: 16
 - 2026-07-23 18:30 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | live | -
 - 2026-07-23 18:30 | Hazırlık Kulüpler | Unione V. - Vis Pasaro | live | -
 - 2026-07-23 18:30 | Hazırlık Kulüpler | Aubagne - Bastia | live | -
+- 2026-07-23 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh - Cska Sofia | live | -
+- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn - The New Saints | live | -
+- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee - Zira | live | -
+- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Helsinki - Coleraine | live | -
+- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Debreceni - Pyunik Erewan | live | -
+- 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Dila Gori - Apollon Limasso | live | -
+- 2026-07-23 19:00 | Hazırlık Kulüpler | Shakhtar Donet - Hnk Gorica | live | -
+- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Daugava Riga - Vestri | live | -
+- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Rakow Czestoch - Valletta | live | -
+- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Dac - Velez Mostar | live | -
+- 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Ae Kition - Beitar Jerusale | live | -
 
 ## Biten Maclar
 Biten mac yok.
