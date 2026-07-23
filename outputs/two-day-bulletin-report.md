@@ -2,37 +2,15 @@
 
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
-Ham mac: 72
-Aktif mac: 55
-Canli mac: 17
-Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 39
+Ham mac: 109
+Aktif mac: 33
+Canli mac: 33
+Biten mac: 43
+Bultenden dusurulen mac: 76
+Bugun: 17
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby - Anderlecht | scheduled | -
-- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp - Maccabi Tel Avi | scheduled | -
-- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Tromso - Hradec Kralove | scheduled | -
-- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Dynamo Kiev - Paok | scheduled | -
-- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Ml Vitebsk - Sutjeska | scheduled | -
-- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gais - Nordsjaelland | scheduled | -
-- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bate Borisov - Sion | scheduled | -
-- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tiflis - Zalgiris Vilniu | scheduled | -
-- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Universitatea - Brann | scheduled | -
-- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Santa Coloma - Rapid Wien | scheduled | -
-- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Zimbru - Noah | scheduled | -
-- 2026-07-23 20:00 | Hazırlık Kulüpler | Bayern Alzenau - Wormatia Worms | scheduled | -
-- 2026-07-23 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Vaduz - Descaldes | scheduled | -
-- 2026-07-23 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Fc Steaua - Auda | scheduled | -
-- 2026-07-23 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Twente - Ferencvaros | scheduled | -
-- 2026-07-23 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş - Midtjylland | scheduled | -
-- 2026-07-23 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | St Gallen - Benfica | scheduled | -
-- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij - Dinamo Tirana | scheduled | -
-- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vojvodina - Ajax | scheduled | -
-- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Paksi - Panathinaikos | scheduled | -
-- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Varazdin - Jablonec | scheduled | -
-- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Polessya - Kopenhag | scheduled | -
 - 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Borac Banja Lu - Petrocub | scheduled | -
 - 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Hapoel Tel Avi - Ludogorets | scheduled | -
 - 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lugano - Dukagjini | scheduled | -
@@ -68,12 +46,6 @@ Yarin: 16
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | live | -
-- 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert - Cfr Cluj | live | -
-- 2026-07-23 18:00 | Hazırlık Kulüpler | Cagliari - Sampdoria | live | -
-- 2026-07-23 18:30 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | live | -
-- 2026-07-23 18:30 | Hazırlık Kulüpler | Unione V. - Vis Pasaro | live | -
-- 2026-07-23 18:30 | Hazırlık Kulüpler | Aubagne - Bastia | live | -
 - 2026-07-23 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh - Cska Sofia | live | -
 - 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn - The New Saints | live | -
 - 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee - Zira | live | -
@@ -85,6 +57,70 @@ Yarin: 16
 - 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Rakow Czestoch - Valletta | live | -
 - 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Dac - Velez Mostar | live | -
 - 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Ae Kition - Beitar Jerusale | live | -
+- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby - Anderlecht | live | -
+- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp - Maccabi Tel Avi | live | -
+- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Tromso - Hradec Kralove | live | -
+- 2026-07-23 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Dynamo Kiev - Paok | live | -
+- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Ml Vitebsk - Sutjeska | live | -
+- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gais - Nordsjaelland | live | -
+- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Bate Borisov - Sion | live | -
+- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tiflis - Zalgiris Vilniu | live | -
+- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Universitatea - Brann | live | -
+- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Santa Coloma - Rapid Wien | live | -
+- 2026-07-23 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Zimbru - Noah | live | -
+- 2026-07-23 20:00 | Hazırlık Kulüpler | Bayern Alzenau - Wormatia Worms | live | -
+- 2026-07-23 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Vaduz - Descaldes | live | -
+- 2026-07-23 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Fc Steaua - Auda | live | -
+- 2026-07-23 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Twente - Ferencvaros | live | -
+- 2026-07-23 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş - Midtjylland | live | -
+- 2026-07-23 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | St Gallen - Benfica | live | -
+- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij - Dinamo Tirana | live | -
+- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vojvodina - Ajax | live | -
+- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Paksi - Panathinaikos | live | -
+- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Varazdin - Jablonec | live | -
+- 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Polessya - Kopenhag | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-23 00:00 | Paraguay Kupa 2.Tur | Sport Colombia - Guairena | finished | -
+- 2026-07-23 00:30 | Ekvador Pro Lig | Indep. Jose Te - T.Universitario | finished | -
+- 2026-07-23 01:00 | Copa Sudamericana Son 32 Turu | Independiente - Vasco Da Gama | finished | -
+- 2026-07-23 01:30 | Brezilya Serie A | Coritiba - Palmeiras | finished | -
+- 2026-07-23 01:30 | Brezilya Serie B | Ceara - Regatas | finished | -
+- 2026-07-23 01:30 | Brezilya Serie B | Operario - Ponte Preta | finished | -
+- 2026-07-23 02:00 | ABD USL | Lexington - Oakland Roots | finished | -
+- 2026-07-23 02:00 | ABD USL Lig 1 | Westchester Sc - New York Cosmos | finished | -
+- 2026-07-23 02:00 | ABD USL Lig 1 | Portland Heart - Union Omaha | finished | -
+- 2026-07-23 02:30 | ABD MLS | Philadelphia - New York | finished | -
+- 2026-07-23 02:30 | ABD MLS | Cincinnati - Vancouver | finished | -
+- 2026-07-23 02:30 | ABD MLS | Inter Miami - Chicago | finished | -
+- 2026-07-23 02:30 | ABD MLS | New England - Toronto | finished | -
+- 2026-07-23 02:30 | ABD MLS | Columbus - New York City | finished | -
+- 2026-07-23 02:30 | Brezilya Serie B | Goias - Sport Recife | finished | -
+- 2026-07-23 03:00 | Ekvador Pro Lig | Manta - Ldu Quito | finished | -
+- 2026-07-23 03:15 | ABD MLS | Charlotte - Atlanta Utd | finished | -
+- 2026-07-23 03:30 | ABD MLS | Nashville Sc - Montreal | finished | -
+- 2026-07-23 03:30 | ABD MLS | Kansas - Minnesota Utd | finished | -
+- 2026-07-23 03:30 | ABD MLS | Houston - Dc United | finished | -
+- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Lanus - Cienciano | finished | -
+- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Sporting Crist - Bragantino | finished | -
+- 2026-07-23 03:30 | Brezilya Serie A | Sao Paulo - Atletico Pr | finished | -
+- 2026-07-23 03:30 | Brezilya Serie A | Internacional - Cruzeiro | finished | -
+- 2026-07-23 03:30 | Brezilya Serie A | Chapecoense - Flamengo | finished | -
+- 2026-07-23 03:30 | Brezilya Serie B | Nautico - Londrina | finished | -
+- 2026-07-23 03:30 | Kolombiya Kupa 2.Tur | Atletico Junio - Barranguilla | finished | -
+- 2026-07-23 04:00 | ABD USL | Colorado Sprin - Miami Fc | finished | -
+- 2026-07-23 04:00 | ABD USL Lig 1 | Spokane Veloci - Charlotte Indep | finished | -
+- 2026-07-23 04:30 | ABD MLS | Colorado - San Diego | finished | -
+- 2026-07-23 04:30 | ABD MLS | Austin - Seattle | finished | -
+- 2026-07-23 05:30 | ABD MLS | San Jose - Orlando City | finished | -
+- 2026-07-23 05:30 | ABD MLS | Los Angeles Fc - Salt Lake | finished | -
+- 2026-07-23 05:30 | ABD MLS | Los Angeles - St. Louis City | finished | -
+- 2026-07-23 05:30 | ABD MLS | Portland - Dallas | finished | -
+- 2026-07-23 16:00 | Hazırlık Kulüpler | Waldhof Mannhe - Liefering | finished | -
+- 2026-07-23 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva - Hibernian | finished | -
+- 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | finished | -
+- 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert - Cfr Cluj | finished | -
+- 2026-07-23 18:00 | Hazırlık Kulüpler | Cagliari - Sampdoria | finished | -
+- 2026-07-23 18:30 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | finished | -
+- 2026-07-23 18:30 | Hazırlık Kulüpler | Unione V. - Vis Pasaro | finished | -
+- 2026-07-23 18:30 | Hazırlık Kulüpler | Aubagne - Bastia | finished | -

@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-23T17:01:42.913062+00:00
+Tarih: 2026-07-23T18:07:46.237339+00:00
 
 ## Ozet
 
@@ -14,7 +14,14 @@ Tarih: 2026-07-23T17:01:42.913062+00:00
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie A
+- Brezilya Serie B
+- Copa Sudamericana Son 32 Turu
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
+- Kosta Rika Premier Lig Apertura
+- Nikaragua Premier Lig Apertura
 - Paraguay Kupa 2.Tur
 - UEFA Avrupa Ligi 2. Eleme Turu
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -89,26 +96,26 @@ Tarih: 2026-07-23T17:01:42.913062+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş | Midtjylland | 09016 | 5 |
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Twente | Ferencvaros | 09362 | 5 |
 | 23.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split | Pafos Fc | 10318 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp | Maccabi Tel Avi | 08693 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Dynamo Kiev | Paok | 08332 | 5 |
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | St Gallen | Benfica | 09258 | 5 |
-| 23.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Fc Steaua | Auda | 08976 | 4 |
+| 23.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lugano | Dukagjini | 09988 | 4 |
+| 23.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zilina | Gks Katowice | 10046 | 5 |
+| 23.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Borac Banja Lu | Petrocub | 09801 | 5 |
 | 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo | Skendija | 10112 | 5 |
 | 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik | Koper | 10222 | 5 |
 | 23.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Stjarnan | Ilves | 10866 | 5 |
-| 23.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij | Dinamo Tirana | 09091 | 5 |
 | 23.07.2026 | 22:15 | UEFA Konferans Ligi 2. Eleme Turu | Valur | Zrinjski | 10901 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka | Derry City | 10177 | 4 |
 | 23.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Hapoel Tel Avi | Ludogorets | 09849 | 5 |
-| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Ml Vitebsk | Sutjeska | 08584 | 5 |
-| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Santa Coloma | Rapid Wien | 08658 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Shelbourne | Nomme Kalju | 10257 | 5 |
+| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka | Derry City | 10177 | 4 |
+| 23.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Partizan Belgr | Fc Una Strassen | 10496 | 4 |
 | 23.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lnz Cherkasy | Gent | 09939 | 5 |
+| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Shelbourne | Nomme Kalju | 10257 | 5 |
 | 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Motherwell | Hb Torshavn | 10079 | 4 |
-| 23.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zilina | Gks Katowice | 10046 | 5 |
+| 23.07.2026 | 22:00 | Hazırlık Kulüpler | Cordoba | Sevilla | 18134 | 5 |
+| 23.07.2026 | 18:30 | Hazırlık Kulüpler | Aubagne | Bastia | 00144 | 5 |
+| 24.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Bolivar | Gremio | 10935 | 5 |
+| 24.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe | Caracas Fc | 11044 | 5 |
+| 24.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors | O Higgins | 10991 | 5 |
+| 24.07.2026 | 01:30 | Brezilya Serie A | Corinthians | Remo | 14695 | 5 |
 
 ## Sonuc
 
