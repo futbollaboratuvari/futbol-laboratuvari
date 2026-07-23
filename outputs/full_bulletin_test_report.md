@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 16
-- Live match count: 11
+- Scheduled match count: 120
+- Live match count: 2
 - Finished removed count: 0
-- Date window: 2026-07-23 / 2026-07-24 23:59
+- Date window: 2026-07-24 / 2026-07-25 23:59
 
-- 2026-07-23 21:45 | Ask Bravo - Skendija | live
-- 2026-07-23 21:45 | Motherwell - Hb Torshavn | live
-- 2026-07-23 21:45 | Rijeka - Derry City | live
-- 2026-07-23 21:45 | Runavik - Koper | live
-- 2026-07-23 21:45 | Shelbourne - Nomme Kalju | live
-- 2026-07-23 22:00 | Cordoba - Sevilla | live
-- 2026-07-23 22:00 | Hajduk Split - Pafos Fc | live
-- 2026-07-23 22:00 | Partizan Belgr - Fc Una Strassen | live
-- 2026-07-23 22:00 | Stjarnan - Ilves | live
-- 2026-07-23 22:15 | Leiknir Reykja - Throttur | live
+- 2026-07-24 00:30 | Leones Del Nor - Guayaquil City | live
+- 2026-07-24 00:30 | Orense - Aucas | live
+- 2026-07-24 01:00 | Bolivar - Gremio | scheduled
+- 2026-07-24 01:30 | Belgrano - Rosario Central | scheduled
+- 2026-07-24 01:30 | Sarmiento - Argentinos Jr | scheduled
+- 2026-07-24 01:30 | Botafogo - Vitoria Bahia | scheduled
+- 2026-07-24 01:30 | Corinthians - Remo | scheduled
+- 2026-07-24 01:30 | Athletic Club - Sao Bernardo | scheduled
+- 2026-07-24 02:30 | Cuiaba - Atletico Goiani | scheduled
+- 2026-07-24 03:00 | Emelec - Mushuc Runa | scheduled
