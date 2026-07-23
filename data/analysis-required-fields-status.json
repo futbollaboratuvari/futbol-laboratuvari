@@ -1,10 +1,22 @@
 {
-  "generated_at": "2026-07-23T06:41:22.366Z",
-  "total": 53,
-  "ok_count": 50,
-  "bad_count": 3,
+  "generated_at": "2026-07-23T09:38:26.006Z",
+  "total": 57,
+  "ok_count": 53,
+  "bad_count": 4,
   "status": "warning",
   "bad_examples": [
+    {
+      "match": "Waldhof Mannhe VS Liefering",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
     {
       "match": "Tromso VS Hradec Kralove",
       "market": "Değerli market yok",
