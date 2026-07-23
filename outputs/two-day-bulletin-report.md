@@ -3,15 +3,14 @@
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
 Ham mac: 102
-Aktif mac: 89
-Canli mac: 13
+Aktif mac: 88
+Canli mac: 14
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 73
+Bultenden dusurulen mac: 14
+Bugun: 72
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 03:00 | Ekvador Pro Lig | Manta - Ldu Quito | scheduled | -
 - 2026-07-23 03:15 | ABD MLS | Charlotte - Atlanta Utd | scheduled | -
 - 2026-07-23 03:30 | ABD MLS | Nashville Sc - Montreal | scheduled | -
 - 2026-07-23 03:30 | ABD MLS | Kansas - Minnesota Utd | scheduled | -
@@ -115,6 +114,7 @@ Yarin: 16
 - 2026-07-23 02:30 | ABD MLS | New England - Toronto | live | -
 - 2026-07-23 02:30 | ABD MLS | Columbus - New York City | live | -
 - 2026-07-23 02:30 | Brezilya Serie B | Goias - Sport Recife | live | -
+- 2026-07-23 03:00 | Ekvador Pro Lig | Manta - Ldu Quito | live | -
 
 ## Biten Maclar
 Biten mac yok.
