@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T11:31:44.381Z",
+  "generated_at": "2026-07-23T11:45:19.038Z",
   "date": "2026-07-23",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
@@ -14,10 +14,10 @@
     "finished": 0,
     "active_analysis": 57,
     "completed_analysis": 0,
-    "coupon_candidates": 5,
-    "watch_candidates": 16,
+    "coupon_candidates": 6,
+    "watch_candidates": 17,
     "focused_markets": 16,
-    "wide_market_odds": 885
+    "wide_market_odds": 893
   },
   "next_match": {
     "date": "2026-07-24",
@@ -57,8 +57,8 @@
       "ms1": 2.15,
       "msx": 2.7,
       "ms2": 2.48,
-      "under25": 1.42,
-      "over25": 1.87,
+      "under25": 1.4,
+      "over25": 1.91,
       "bttsYes_guess": 1.2,
       "bttsNo_guess": 1.16
     },
@@ -193,7 +193,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-07-23T11:31:20.979Z"
+      "created_at": "2026-07-23T11:44:53.318Z"
     }
   ],
   "completed_items": [],
@@ -273,13 +273,13 @@
         "bttsNo_guess"
       ],
       "wide_market_odds_count": 15,
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "analysis_score": 10,
-      "confidence": "10%",
+      "suggested_option": "MS X",
+      "suggested_odds": "3.30",
+      "analysis_score": 50,
+      "confidence": "50%",
       "risk_level": "Yüksek",
-      "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
+      "decision": "İzleme",
+      "robot_reason": "Market: MS X | Oran: 3.30 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "raw_market_value_count": 8
     },
@@ -308,7 +308,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.92,
+        "bttsNo_guess": 1.05
       },
       "odds": {
         "ms1": 4.91,
@@ -323,14 +325,16 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.92,
+        "bttsNo_guess": 1.05
       },
       "raw_market_guess_odds": {
         "ms1": 4.91,
         "msx": 3.74,
         "ms2": 1.3,
-        "under25": 1.83,
-        "over25": 1.44
+        "under25": 1.86,
+        "over25": 1.43
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -346,9 +350,11 @@
         "firstHalfBttsYes",
         "firstHalfBttsNo",
         "secondHalfBttsYes",
-        "secondHalfBttsNo"
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "wide_market_odds_count": 11,
+      "wide_market_odds_count": 13,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
       "analysis_score": 25,
@@ -402,9 +408,9 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 6.54,
-        "msx": 4.13,
-        "ms2": 1.18,
+        "ms1": 6.82,
+        "msx": 4.2,
+        "ms2": 1.17,
         "under25": 1.68,
         "over25": 1.55
       },
@@ -1271,7 +1277,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.05,
+        "bttsNo_guess": 1.83
       },
       "odds": {
         "ms1": 1.38,
@@ -1286,7 +1294,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.05,
+        "bttsNo_guess": 1.83
       },
       "raw_market_guess_odds": {
         "ms1": 1.38,
@@ -1309,9 +1319,11 @@
         "firstHalfBttsYes",
         "firstHalfBttsNo",
         "secondHalfBttsYes",
-        "secondHalfBttsNo"
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "wide_market_odds_count": 11,
+      "wide_market_odds_count": 13,
       "suggested_option": "MS 2",
       "suggested_odds": "4.02",
       "analysis_score": 60,
@@ -1855,9 +1867,9 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.18,
-        "msx": 4.04,
-        "ms2": 6.78,
+        "ms1": 1.2,
+        "msx": 3.98,
+        "ms2": 6.54,
         "under25": 1.62,
         "over25": 1.61
       },
@@ -1914,7 +1926,7 @@
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
-        "bttsYes_guess": 1.29,
+        "bttsYes_guess": 1.27,
         "bttsNo_guess": 1.15
       },
       "odds": {
@@ -1931,16 +1943,16 @@
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
-        "bttsYes_guess": 1.29,
+        "bttsYes_guess": 1.27,
         "bttsNo_guess": 1.15
       },
       "raw_market_guess_odds": {
-        "ms1": 2.44,
-        "msx": 2.8,
-        "ms2": 2.12,
+        "ms1": 2.39,
+        "msx": 2.79,
+        "ms2": 2.17,
         "under25": 1.42,
         "over25": 1.86,
-        "bttsYes_guess": 1.29,
+        "bttsYes_guess": 1.27,
         "bttsNo_guess": 1.15
       },
       "raw_odds_sequence": [],
@@ -2165,7 +2177,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 10.9,
+        "bttsNo_guess": 5.34
       },
       "odds": {
         "ms1": 10.05,
@@ -2180,11 +2194,13 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 10.9,
+        "bttsNo_guess": 5.34
       },
       "raw_market_guess_odds": {
-        "ms1": 10.45,
-        "msx": 5.27,
+        "ms1": 10.05,
+        "msx": 5.22,
         "ms2": 1.05,
         "under25": 1.92,
         "over25": 1.39
@@ -2203,9 +2219,11 @@
         "firstHalfBttsYes",
         "firstHalfBttsNo",
         "secondHalfBttsYes",
-        "secondHalfBttsNo"
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "wide_market_odds_count": 11,
+      "wide_market_odds_count": 13,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
       "analysis_score": 25,
@@ -3135,7 +3153,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.92,
+        "bttsNo_guess": 1.05
       },
       "odds": {
         "ms1": 5.14,
@@ -3150,7 +3170,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.92,
+        "bttsNo_guess": 1.05
       },
       "raw_market_guess_odds": {
         "ms1": 5.14,
@@ -3173,9 +3195,11 @@
         "firstHalfBttsYes",
         "firstHalfBttsNo",
         "secondHalfBttsYes",
-        "secondHalfBttsNo"
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "wide_market_odds_count": 11,
+      "wide_market_odds_count": 13,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
       "analysis_score": 25,
@@ -3669,14 +3693,14 @@
         "bttsNo_guess"
       ],
       "wide_market_odds_count": 15,
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "analysis_score": 10,
-      "confidence": "10%",
-      "risk_level": "Yüksek",
-      "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
-      "include_in_coupon": false,
+      "suggested_option": "MS X",
+      "suggested_odds": "5.39",
+      "analysis_score": 75,
+      "confidence": "75%",
+      "risk_level": "Düşük",
+      "decision": "Kupon Adayı",
+      "robot_reason": "Market: MS X | Oran: 5.39 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "include_in_coupon": true,
       "raw_market_value_count": 5
     },
     {
@@ -4117,8 +4141,8 @@
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
-        "bttsYes_guess": 6.15,
-        "bttsNo_guess": 14.8
+        "bttsYes_guess": 6.31,
+        "bttsNo_guess": 15.1
       },
       "odds": {
         "ms1": null,
@@ -4134,12 +4158,12 @@
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
-        "bttsYes_guess": 6.15,
-        "bttsNo_guess": 14.8
+        "bttsYes_guess": 6.31,
+        "bttsNo_guess": 15.1
       },
       "raw_market_guess_odds": {
-        "bttsYes_guess": 6.15,
-        "bttsNo_guess": 14.8,
+        "bttsYes_guess": 6.31,
+        "bttsNo_guess": 15.1,
         "under25": 2.03,
         "over25": 1.34
       },
@@ -4814,11 +4838,11 @@
       "wide_market_odds_count": 11,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
-      "analysis_score": 0,
-      "confidence": "0%",
+      "analysis_score": 20,
+      "confidence": "20%",
       "risk_level": "Yüksek",
       "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | 2.5 Üst yüzdesi %60 üzeri: +10",
       "include_in_coupon": false,
       "raw_market_value_count": 6
     },
@@ -4860,8 +4884,8 @@
         "ms1": 2.15,
         "msx": 2.7,
         "ms2": 2.48,
-        "under25": 1.42,
-        "over25": 1.87,
+        "under25": 1.4,
+        "over25": 1.91,
         "bttsYes_guess": 1.2,
         "bttsNo_guess": 1.16
       },
@@ -4926,8 +4950,8 @@
         "ms1": 1.54,
         "msx": 2.86,
         "ms2": 4.15,
-        "under25": 1.3,
-        "over25": 2.13,
+        "under25": 1.33,
+        "over25": 2.05,
         "bttsYes_guess": 1.13,
         "bttsNo_guess": 1.63
       },
@@ -4992,8 +5016,8 @@
         "ms1": 1.41,
         "msx": 3.53,
         "ms2": 4.7,
-        "under25": 1.68,
-        "over25": 1.63,
+        "under25": 1.72,
+        "over25": 1.61,
         "bttsYes_guess": 1.09,
         "bttsNo_guess": 1.97
       },
@@ -5105,7 +5129,7 @@
         "under25": 1.7,
         "over25": 1.62,
         "bttsYes_guess": 1.13,
-        "bttsNo_guess": 1.75,
+        "bttsNo_guess": 1.81,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -5116,18 +5140,18 @@
         "under25": 1.7,
         "over25": 1.62,
         "bttsYes_guess": 1.13,
-        "bttsNo_guess": 1.75,
+        "bttsNo_guess": 1.81,
         "bttsYes": null,
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "ms1": 1.55,
-        "msx": 3.15,
-        "ms2": 4.13,
+        "ms1": 1.5,
+        "msx": 3.17,
+        "ms2": 4.41,
         "under25": 1.7,
         "over25": 1.62,
         "bttsYes_guess": 1.13,
-        "bttsNo_guess": 1.75
+        "bttsNo_guess": 1.81
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -5236,7 +5260,7 @@
         "ms2": 1.79,
         "under25": 1.2,
         "over25": 2.73,
-        "bttsYes_guess": 1.55,
+        "bttsYes_guess": 1.53,
         "bttsNo_guess": 1.22,
         "bttsYes": null,
         "bttsNo": null
@@ -5247,18 +5271,18 @@
         "ms2": 1.79,
         "under25": 1.2,
         "over25": 2.73,
-        "bttsYes_guess": 1.55,
+        "bttsYes_guess": 1.53,
         "bttsNo_guess": 1.22,
         "bttsYes": null,
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "ms1": 4.01,
-        "msx": 2.58,
-        "ms2": 1.76,
+        "ms1": 3.86,
+        "msx": 2.59,
+        "ms2": 1.79,
         "under25": 1.2,
         "over25": 2.73,
-        "bttsYes_guess": 1.55,
+        "bttsYes_guess": 1.53,
         "bttsNo_guess": 1.22
       },
       "raw_odds_sequence": [],
@@ -5319,11 +5343,11 @@
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "ms1": 1.72,
-        "msx": 2.73,
-        "ms2": 3.45,
-        "under25": 1.35,
-        "over25": 2,
+        "ms1": 1.75,
+        "msx": 2.68,
+        "ms2": 3.38,
+        "under25": 1.33,
+        "over25": 2.03,
         "bttsYes_guess": 1.07,
         "bttsNo_guess": 1.15
       },
@@ -5454,8 +5478,8 @@
         "ms1": 1.57,
         "msx": 2.98,
         "ms2": 3.75,
-        "under25": 1.46,
-        "over25": 1.8,
+        "under25": 1.44,
+        "over25": 1.82,
         "bttsYes_guess": 1.11,
         "bttsNo_guess": 1.61
       },
@@ -5637,9 +5661,9 @@
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "ms1": 1.1,
-        "msx": 4.98,
-        "ms2": 10.4,
+        "ms1": 1.11,
+        "msx": 4.91,
+        "ms2": 9.92,
         "under25": 1.69,
         "over25": 1.62
       },
@@ -5834,8 +5858,8 @@
         "ms1": 1.38,
         "msx": 3.28,
         "ms2": 4.83,
-        "under25": 1.48,
-        "over25": 1.77,
+        "under25": 1.45,
+        "over25": 1.8,
         "bttsYes_guess": 1.08,
         "bttsNo_guess": 1.86
       },

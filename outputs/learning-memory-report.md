@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.07.2026 14:31:44
+Oluşturma: 23.07.2026 14:45:19
 
 ## Özet
 
-- Toplam tahmin: 52
-- Bekleyen tahmin: 52
+- Toplam tahmin: 54
+- Bekleyen tahmin: 54
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 9
@@ -20,12 +20,14 @@ Oluşturma: 23.07.2026 14:31:44
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Lugano - Dukagjini | MS X | pending | 75/100
+- 2026-07-23 | Hazırlık Kulüpler | Waldhof Mannhe - Liefering | MS X | pending | 50/100
 - 2026-07-23 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby - Anderlecht | MS 2 | pending | 50/100
 - 2026-07-23 | Hazırlık Kulüpler | Shakhtar Donet - Hnk Gorica | MS 2 | pending | 60/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Universitatea - Brann | MS 1 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 23.07.2026 14:31:44
 - 2026-07-23 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split - Pafos Fc | MS 2 | pending | 40/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Stjarnan - Ilves | MS X | pending | 60/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Valur - Zrinjski | MS X | pending | 50/100
-- 2026-07-23 | ABD MLS | Austin - Seattle | MS X | pending | 50/100
-- 2026-07-23 | ABD MLS | San Jose - Orlando City | MS X | pending | 70/100
 
