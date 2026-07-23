@@ -1,27 +1,51 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-23T20:42:31.061218+00:00
+Tarih: 2026-07-23T21:31:13.171295+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 17
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 17
-- Ham veri havuzu toplam mac sayisi: 2740
-- Hedef tarih: 23.07.2026 Europe/Istanbul
+- Kac mac bulundu: 82
+- Kac mac kaydedildi: 82
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 2822
+- Hedef tarih: 24.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- AFF Şampiyonası Grup A
 - Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- Brezilya Serie B
-- Copa Sudamericana Son 32 Turu
-- Ekvador Pro Lig
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avustralya Victoria NPL 1
+- Avusturya ÖFB Kupası 1.Tur
+- Bulgaristan 1.Lig
+- CONCACAF U20 Grup B
+- Danimarka 1.Lig
+- Danimarka Süperlig
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Güney Kore K Lig 2
 - Hazırlık Kulüpler
-- Kosta Rika Premier Lig Apertura
-- Nikaragua Premier Lig Apertura
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Lübnan Premier Lig Şampiyonluk Turu
+- Macaristan NB I
+- Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
+- Romanya 1.Lig
+- Rusya Premier Lig
+- Çek Cumhuriyeti Kupa Ön Eleme 2.Tur
+- İrlanda 1.Lig
+- İrlanda Premier Lig
+- İsveç Allsvenskan
+- İsviçre Challenge Lig
+- İzlanda 1.Lig
+- İzlanda 2.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -78,8 +102,8 @@ Tarih: 2026-07-23T20:42:31.061218+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,23 +116,26 @@ Tarih: 2026-07-23T20:42:31.061218+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.07.2026 | 18:30 | Hazırlık Kulüpler | Aubagne | Bastia | 00144 | 5 |
-| 24.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe | Caracas Fc | 11044 | 5 |
-| 24.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Bolivar | Gremio | 10935 | 5 |
-| 24.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors | O Higgins | 10991 | 5 |
-| 24.07.2026 | 01:30 | Brezilya Serie A | Corinthians | Remo | 14695 | 5 |
-| 24.07.2026 | 01:30 | Brezilya Serie A | Botafogo | Vitoria Bahia | 14539 | 5 |
-| 24.07.2026 | 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano | Rosario Central | 14480 | 5 |
-| 24.07.2026 | 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Aldosivi | 14849 | 5 |
-| 24.07.2026 | 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento | Argentinos Jr | 14622 | 5 |
-| 24.07.2026 | 01:30 | Brezilya Serie B | Athletic Club | Sao Bernardo | 14447 | 5 |
-| 24.07.2026 | 02:30 | Brezilya Serie B | Cuiaba | Atletico Goiani | 14766 | 5 |
-| 24.07.2026 | 03:30 | Brezilya Serie B | Botafogo Ribei | Juventude | 14816 | 5 |
-| 24.07.2026 | 05:00 | Kosta Rika Premier Lig Apertura | Herediano | Puntarenas Fc | 04869 | 5 |
-| 24.07.2026 | 03:00 | Ekvador Pro Lig | Emelec | Mushuc Runa | 14799 | 5 |
-| 24.07.2026 | 00:30 | Ekvador Pro Lig | Leones Del Nor | Guayaquil City | 05117 | 5 |
-| 24.07.2026 | 00:30 | Ekvador Pro Lig | Orense | Aucas | 14408 | 5 |
-| 24.07.2026 | 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett | Diriangen | 18187 | 5 |
+| 24.07.2026 | 19:00 | Polonya Ekstraklasa | Radomiak Radom | Ks Wieczysta Kr | 10594 | 5 |
+| 24.07.2026 | 21:30 | Polonya Ekstraklasa | Pogon Szczecin | Legia Varşova | 15164 | 5 |
+| 24.07.2026 | 22:00 | İrlanda Premier Lig | St Patricks | Dundalk | 15622 | 5 |
+| 24.07.2026 | 20:00 | Rusya Premier Lig | Cska Moskova | Baltika Kalinin | 11701 | 5 |
+| 24.07.2026 | 20:00 | Danimarka Süperlig | Viborg | Odense | 12041 | 5 |
+| 24.07.2026 | 19:00 | Finlandiya Veikkausliiga | Jaro | Seinajoen Jk | 10405 | 5 |
+| 24.07.2026 | 20:00 | İsveç Allsvenskan | Vasteras | Orgryte | 11900 | 5 |
+| 24.07.2026 | 20:00 | Hazırlık Kulüpler | Elche | Johor Dt | 12591 | 5 |
+| 24.07.2026 | 17:00 | Hazırlık Kulüpler | Bournemouth | St Pauli | 29881 | 5 |
+| 24.07.2026 | 19:00 | Hazırlık Kulüpler | Cremonese | Giana Erminio | 06130 | 2 |
+| 24.07.2026 | 15:00 | Hazırlık Kulüpler | Wolfsburg | Lyon | 09313 | 5 |
+| 24.07.2026 | 14:00 | Hazırlık Kulüpler | Swansea | Udinese | 08982 | 5 |
+| 24.07.2026 | 12:00 | Hazırlık Kulüpler | Prest | Cambridge | 08154 | 5 |
+| 24.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | United Of Manch | 15827 | 3 |
+| 24.07.2026 | 15:00 | Hazırlık Kulüpler | Lommel | Den Haag | 01446 | 5 |
+| 24.07.2026 | 19:30 | Hazırlık Kulüpler | Lac-Ic | Favoritner | 01079 | 3 |
+| 24.07.2026 | 17:00 | Hazırlık Kulüpler | Derby County | Freiburg | 09477 | 5 |
+| 24.07.2026 | 21:00 | Hazırlık Kulüpler | Braunschweig | Southam | 00779 | 5 |
+| 24.07.2026 | 20:30 | Hazırlık Kulüpler | Osasuna | Santander | 10497 | 5 |
+| 24.07.2026 | 17:00 | Hazırlık Kulüpler | Amiens | Boulogne | 01971 | 5 |
 
 ## Sonuc
 

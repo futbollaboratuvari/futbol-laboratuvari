@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-23T19:53:20.876Z",
-  "updated_at": "2026-07-23T20:49:30.693Z",
+  "updated_at": "2026-07-23T21:31:36.109Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 7,
-    "pending_predictions": 7,
+    "total_predictions": 13,
+    "pending_predictions": 13,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 3,
+    "league_count": 7,
     "market_count": 2,
-    "added_predictions": 7,
-    "updated_predictions": 0,
-    "last_score_link_checked": 7,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 6,
+    "updated_predictions": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 1,
-      "pending": 1,
+    "MS X": {
+      "total": 7,
+      "pending": 7,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,7 +26,7 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
+    "MS 2": {
       "total": 6,
       "pending": 6,
       "won": 0,
@@ -42,6 +38,46 @@
     }
   },
   "league_memory": {
+    "Ekvador Pro Lig": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Copa Sudamericana Son 32 Turu": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kosta Rika Premier Lig Apertura": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Avrupa Ligi 2. Eleme Turu": {
       "total": 1,
       "pending": 1,
@@ -74,6 +110,56 @@
     }
   },
   "league_market_memory": {
+    "Ekvador Pro Lig :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Copa Sudamericana Son 32 Turu :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Ekvador Pro Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kosta Rika Premier Lig Apertura :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Avrupa Ligi 2. Eleme Turu :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -106,6 +192,108 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-24|ekvador pro lig|orense aucas|ms x|00 30",
+      "date": "2026-07-24",
+      "created_at": "2026-07-23T21:31:36.108Z",
+      "match_name": "Orense - Aucas",
+      "league": "Ekvador Pro Lig",
+      "start_time": "00:30",
+      "market": "MS X",
+      "odds": "2.68",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-24|copa sudamericana son 32 turu|bolivar gremio|ms 2|01 00",
+      "date": "2026-07-24",
+      "created_at": "2026-07-23T21:31:36.108Z",
+      "match_name": "Bolivar - Gremio",
+      "league": "Copa Sudamericana Son 32 Turu",
+      "start_time": "01:00",
+      "market": "MS 2",
+      "odds": "4.83",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-24|brezilya serie a|corinthians remo|ms 2|01 30",
+      "date": "2026-07-24",
+      "created_at": "2026-07-23T21:31:36.108Z",
+      "match_name": "Corinthians - Remo",
+      "league": "Brezilya Serie A",
+      "start_time": "01:30",
+      "market": "MS 2",
+      "odds": "6.26",
+      "confidence_score": "65%",
+      "analysis_score": 65,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-24|brezilya serie a|botafogo vitoria bahia|ms 2|01 30",
+      "date": "2026-07-24",
+      "created_at": "2026-07-23T21:31:36.108Z",
+      "match_name": "Botafogo - Vitoria Bahia",
+      "league": "Brezilya Serie A",
+      "start_time": "01:30",
+      "market": "MS 2",
+      "odds": "4.13",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-24|ekvador pro lig|emelec mushuc runa|ms 2|03 00",
+      "date": "2026-07-24",
+      "created_at": "2026-07-23T21:31:36.108Z",
+      "match_name": "Emelec - Mushuc Runa",
+      "league": "Ekvador Pro Lig",
+      "start_time": "03:00",
+      "market": "MS 2",
+      "odds": "3.86",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-24|kosta rika premier lig apertura|herediano puntarenas fc|ms 2|05 00",
+      "date": "2026-07-24",
+      "created_at": "2026-07-23T21:31:36.108Z",
+      "match_name": "Herediano - Puntarenas Fc",
+      "league": "Kosta Rika Premier Lig Apertura",
+      "start_time": "05:00",
+      "market": "MS 2",
+      "odds": "5.03",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-07-23|uefa avrupa ligi 2 eleme turu|hajduk split pafos fc|ms 2|22 00",
       "date": "2026-07-23",
