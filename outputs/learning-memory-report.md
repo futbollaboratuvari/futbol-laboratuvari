@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.07.2026 23:42:54
+Oluşturma: 23.07.2026 23:49:29
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 7
+- Bekleyen tahmin: 7
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 3
+- Seçenek sayısı: 2
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,16 @@ Oluşturma: 23.07.2026 23:42:54
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
+- MS X: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-23 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split - Pafos Fc | MS 2 | pending | 40/100
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Stjarnan - Ilves | MS X | pending | 70/100
+- 2026-07-23 | Hazırlık Kulüpler | Cordoba - Sevilla | MS X | pending | 50/100
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Valur - Zrinjski | MS X | pending | 50/100
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | MS X | pending | 50/100
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Runavik - Koper | MS X | pending | 50/100
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka - Derry City | MS X | pending | 85/100
 
