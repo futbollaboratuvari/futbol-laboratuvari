@@ -2,19 +2,15 @@
 
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
-Ham mac: 95
-Aktif mac: 73
-Canli mac: 22
+Ham mac: 75
+Aktif mac: 69
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 57
+Bultenden dusurulen mac: 6
+Bugun: 53
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 05:30 | ABD MLS | San Jose - Orlando City | scheduled | -
-- 2026-07-23 05:30 | ABD MLS | Los Angeles Fc - Salt Lake | scheduled | -
-- 2026-07-23 05:30 | ABD MLS | Los Angeles - St. Louis City | scheduled | -
-- 2026-07-23 05:30 | ABD MLS | Portland - Dallas | scheduled | -
 - 2026-07-23 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva - Hibernian | scheduled | -
 - 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | scheduled | -
 - 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert - Cfr Cluj | scheduled | -
@@ -86,28 +82,12 @@ Yarin: 16
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-07-23 02:30 | ABD MLS | Philadelphia - New York | live | -
-- 2026-07-23 02:30 | ABD MLS | Cincinnati - Vancouver | live | -
-- 2026-07-23 02:30 | ABD MLS | Inter Miami - Chicago | live | -
-- 2026-07-23 02:30 | ABD MLS | New England - Toronto | live | -
-- 2026-07-23 02:30 | ABD MLS | Columbus - New York City | live | -
-- 2026-07-23 02:30 | Brezilya Serie B | Goias - Sport Recife | live | -
-- 2026-07-23 03:00 | Ekvador Pro Lig | Manta - Ldu Quito | live | -
-- 2026-07-23 03:15 | ABD MLS | Charlotte - Atlanta Utd | live | -
-- 2026-07-23 03:30 | ABD MLS | Nashville Sc - Montreal | live | -
-- 2026-07-23 03:30 | ABD MLS | Kansas - Minnesota Utd | live | -
-- 2026-07-23 03:30 | ABD MLS | Houston - Dc United | live | -
-- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Lanus - Cienciano | live | -
-- 2026-07-23 03:30 | Copa Sudamericana Son 32 Turu | Sporting Crist - Bragantino | live | -
-- 2026-07-23 03:30 | Brezilya Serie A | Sao Paulo - Atletico Pr | live | -
-- 2026-07-23 03:30 | Brezilya Serie A | Internacional - Cruzeiro | live | -
-- 2026-07-23 03:30 | Brezilya Serie A | Chapecoense - Flamengo | live | -
-- 2026-07-23 03:30 | Brezilya Serie B | Nautico - Londrina | live | -
-- 2026-07-23 03:30 | Kolombiya Kupa 2.Tur | Atletico Junio - Barranguilla | live | -
-- 2026-07-23 04:00 | ABD USL | Colorado Sprin - Miami Fc | live | -
-- 2026-07-23 04:00 | ABD USL Lig 1 | Spokane Veloci - Charlotte Indep | live | -
 - 2026-07-23 04:30 | ABD MLS | Colorado - San Diego | live | -
 - 2026-07-23 04:30 | ABD MLS | Austin - Seattle | live | -
+- 2026-07-23 05:30 | ABD MLS | San Jose - Orlando City | live | -
+- 2026-07-23 05:30 | ABD MLS | Los Angeles Fc - Salt Lake | live | -
+- 2026-07-23 05:30 | ABD MLS | Los Angeles - St. Louis City | live | -
+- 2026-07-23 05:30 | ABD MLS | Portland - Dallas | live | -
 
 ## Biten Maclar
 Biten mac yok.

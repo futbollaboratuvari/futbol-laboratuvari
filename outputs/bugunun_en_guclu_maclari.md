@@ -2,63 +2,63 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-23T03:32:47.385Z
-- Ham maç sayısı: 95
+- Güncelleme: 2026-07-23T03:50:02.315Z
+- Ham maç sayısı: 75
 - Yarın bülteni maç sayısı: 16
-- Detay blok sayısı: 283
+- Detay blok sayısı: 223
 - Aktif bülten maçı: 69
-- Bültenden düşürülen maç: 26
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
 | Malisheva - Hibernian | UEFA Konferans Ligi 2. Eleme Turu | 17:30 | Veri bekleniyor | - | 4.81 | 7 |
 | Liepaja - Austria Vienna | UEFA Konferans Ligi 2. Eleme Turu | 18:00 | Veri bekleniyor | - | 6.08 | 6 |
-| Alashkert - Cfr Cluj | UEFA Konferans Ligi 2. Eleme Turu | 18:00 | Veri bekleniyor | - | 3.11 | 8 |
-| Cagliari - Sampdoria | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.33 | 7 |
+| Alashkert - Cfr Cluj | UEFA Konferans Ligi 2. Eleme Turu | 18:00 | Veri bekleniyor | - | 3.21 | 8 |
+| Cagliari - Sampdoria | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.41 | 7 |
 | Fk Panevezys - Tobol Kostanay | UEFA Konferans Ligi 2. Eleme Turu | 18:30 | Veri bekleniyor | - | 2.79 | 8 |
 | Qarabagh - Cska Sofia | UEFA Avrupa Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.27 | 6 |
 | Flora Tallinn - The New Saints | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.96 | 8 |
-| Paide Linnamee - Zira | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 7.22 | 6 |
+| Paide Linnamee - Zira | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 7.47 | 6 |
 | Helsinki - Coleraine | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.21 | 6 |
-| Debreceni - Pyunik Erewan | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.56 | 8 |
+| Debreceni - Pyunik Erewan | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.6 | 8 |
 | Dila Gori - Apollon Limasso | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 3.5 | 8 |
 | Daugava Riga - Vestri | UEFA Konferans Ligi 2. Eleme Turu | 19:30 | Veri bekleniyor | - | - | 5 |
 | Rakow Czestoch - Valletta | UEFA Konferans Ligi 2. Eleme Turu | 19:30 | Veri bekleniyor | - | - | 5 |
-| Dac - Velez Mostar | UEFA Konferans Ligi 2. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.07 | 6 |
-| Ae Kition - Beitar Jerusale | UEFA Konferans Ligi 2. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.7 | 8 |
-| Hammarby - Anderlecht | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.87 | 8 |
+| Dac - Velez Mostar | UEFA Konferans Ligi 2. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.08 | 6 |
+| Ae Kition - Beitar Jerusale | UEFA Konferans Ligi 2. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.8 | 8 |
+| Hammarby - Anderlecht | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.01 | 8 |
 | Sheriff Tirasp - Maccabi Tel Avi | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.86 | 8 |
-| Tromso - Hradec Kralove | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.24 | 6 |
+| Tromso - Hradec Kralove | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.26 | 6 |
 | Dynamo Kiev - Paok | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.52 | 8 |
 | Ml Vitebsk - Sutjeska | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.5 | 7 |
 | Gais - Nordsjaelland | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.42 | 8 |
-| Bate Borisov - Sion | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 9.66 | 6 |
+| Bate Borisov - Sion | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 10 | 6 |
 | Dinamo Tiflis - Zalgiris Vilniu | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.83 | 8 |
 | Universitatea - Brann | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.69 | 8 |
 | Santa Coloma - Rapid Wien | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 9.96 | 5 |
 | Zimbru - Noah | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 3.84 | 7 |
 | Vaduz - Descaldes | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.13 | 6 |
 | Fc Steaua - Auda | UEFA Konferans Ligi 2. Eleme Turu | 20:45 | Veri bekleniyor | - | - | 5 |
-| Twente - Ferencvaros | UEFA Avrupa Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 1.39 | 7 |
+| Twente - Ferencvaros | UEFA Avrupa Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Beşiktaş - Midtjylland | UEFA Avrupa Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 1.82 | 8 |
 | St Gallen - Benfica | UEFA Avrupa Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 5.74 | 6 |
 | Aluminij - Dinamo Tirana | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.33 | 8 |
-| Vojvodina - Ajax | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 4.87 | 7 |
+| Vojvodina - Ajax | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 4.69 | 7 |
 | Paksi - Panathinaikos | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 4.19 | 7 |
 | Varazdin - Jablonec | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.48 | 8 |
-| Polessya - Kopenhag | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 3.34 | 8 |
+| Polessya - Kopenhag | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 3.24 | 8 |
 | Borac Banja Lu - Petrocub | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.27 | 6 |
 | Hapoel Tel Avi - Ludogorets | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.77 | 8 |
 | Lugano - Dukagjini | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.05 | 6 |
-| Zilina - Gks Katowice | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.29 | 8 |
-| Lnz Cherkasy - Gent | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 3.3 | 8 |
-| Sportivo Iteno - Depor Capiata | Paraguay Kupa 2.Tur | 21:30 | Veri bekleniyor | - | 5.28 | 5 |
-| Ask Bravo - Skendija | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | 1.49 | 7 |
-| Runavik - Koper | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | 2.75 | 8 |
+| Zilina - Gks Katowice | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.23 | 8 |
+| Lnz Cherkasy - Gent | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Veri bekleniyor | - | 3.4 | 8 |
+| Sportivo Iteno - Depor Capiata | Paraguay Kupa 2.Tur | 21:30 | Veri bekleniyor | - | 5.45 | 5 |
+| Ask Bravo - Skendija | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | 1.55 | 8 |
+| Runavik - Koper | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | 2.62 | 8 |
 | Rijeka - Derry City | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | - | 5 |
 | Motherwell - Hb Torshavn | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | - | 5 |
-| Shelbourne - Nomme Kalju | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | 1.17 | 6 |
+| Shelbourne - Nomme Kalju | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Veri bekleniyor | - | 1.19 | 6 |
 | Hajduk Split - Pafos Fc | UEFA Avrupa Ligi 2. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.86 | 8 |
 | Stjarnan - Ilves | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | Veri bekleniyor | - | 2.38 | 8 |
 | Partizan Belgr - Fc Una Strassen | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | Veri bekleniyor | - | - | 5 |

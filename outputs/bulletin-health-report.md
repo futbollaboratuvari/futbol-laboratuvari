@@ -2,8 +2,8 @@
 
 Durum: ok
 Kaynak: Maçkolik canlı veri bekleniyor
-Toplam maç: 102
-Bugünkü maç: 86
+Toplam maç: 75
+Bugünkü maç: 59
 Gelecek maç: 16
 Eski maç: 0
 Eksik kayıt: 0
