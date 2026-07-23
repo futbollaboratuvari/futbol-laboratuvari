@@ -1,11 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
+<<<<<<< Updated upstream
 Oluşturma: 23.07.2026 21:38:53
+=======
+Oluşturma: 23.07.2026 21:39:30
+>>>>>>> Stashed changes
 
 ## Özet
 
-- Toplam tahmin: 57
-- Bekleyen tahmin: 57
+- Toplam tahmin: 58
+- Bekleyen tahmin: 58
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 9
@@ -20,12 +24,13 @@ Oluşturma: 23.07.2026 21:38:53
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
+- MS X: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka - Derry City | MS X | pending | 75/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | MS X | pending | 60/100
 - 2026-07-23 | Hazırlık Kulüpler | Aubagne - Bastia | MS X | pending | 50/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | MS 1 | pending | 40/100
@@ -40,5 +45,4 @@ Oluşturma: 23.07.2026 21:38:53
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Zilina - Gks Katowice | MS X | pending | 50/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Lnz Cherkasy - Gent | MS 1 | pending | 40/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | MS 2 | pending | 60/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Runavik - Koper | MS X | pending | 50/100
 
