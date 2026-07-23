@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 00:43:19
+Oluşturma: 24.07.2026 00:55:39
 
 ## Özet
 
-- Toplam tahmin: 13
-- Bekleyen tahmin: 13
+- Toplam tahmin: 14
+- Bekleyen tahmin: 14
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 7
+- Lig sayısı: 8
 - Seçenek sayısı: 2
 
 ## Öğrenme Mantığı
@@ -20,11 +20,12 @@ Oluşturma: 24.07.2026 00:43:19
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 - MS X: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Peru Premier Lig Clausura | Alianza Atleti - Chankas Cyc | MS 2 | pending | 50/100
 - 2026-07-24 | Ekvador Pro Lig | Orense - Aucas | MS X | pending | 40/100
 - 2026-07-24 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | MS 2 | pending | 60/100
 - 2026-07-24 | Brezilya Serie A | Corinthians - Remo | MS 2 | pending | 65/100
