@@ -1,17 +1,17 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-23T11:31:05.972Z
-- Ham fixture sayisi: 2731
-- Bugun/yarin kaynak mac: 108
+- Guncelleme: 2026-07-23T13:12:15.132Z
+- Ham fixture sayisi: 2732
+- Bugun/yarin kaynak mac: 109
 - Aktif bulten maci: 73
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 35
+- Bultenden dusurulen mac: 36
 
-- 1. 2026-07-23 16:00 | Hazırlık Kulüpler | Waldhof Mannhe - Liefering | scheduled
-- 2. 2026-07-23 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva - Hibernian | scheduled
-- 3. 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert - Cfr Cluj | scheduled
-- 4. 2026-07-23 18:00 | Hazırlık Kulüpler | Cagliari - Sampdoria | scheduled
-- 5. 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | scheduled
+- 1. 2026-07-23 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva - Hibernian | scheduled
+- 2. 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert - Cfr Cluj | scheduled
+- 3. 2026-07-23 18:00 | Hazırlık Kulüpler | Cagliari - Sampdoria | scheduled
+- 4. 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | scheduled
+- 5. 2026-07-23 18:30 | Hazırlık Kulüpler | Aubagne - Bastia | scheduled
 - 6. 2026-07-23 18:30 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | scheduled
 - 7. 2026-07-23 18:30 | Hazırlık Kulüpler | Unione V. - Vis Pasaro | scheduled
 - 8. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Debreceni - Pyunik Erewan | scheduled
