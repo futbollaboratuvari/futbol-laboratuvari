@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
-Ham mac: 73
+Ham mac: 69
 Aktif mac: 69
-Canli mac: 4
+Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 4
+Bultenden dusurulen mac: 0
 Bugun: 53
 Yarin: 16
 
@@ -82,10 +82,7 @@ Yarin: 16
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-07-23 05:30 | ABD MLS | San Jose - Orlando City | live | -
-- 2026-07-23 05:30 | ABD MLS | Los Angeles Fc - Salt Lake | live | -
-- 2026-07-23 05:30 | ABD MLS | Los Angeles - St. Louis City | live | -
-- 2026-07-23 05:30 | ABD MLS | Portland - Dallas | live | -
+Canli mac yok.
 
 ## Biten Maclar
 Biten mac yok.

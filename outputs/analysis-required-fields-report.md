@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 59
-Tam analiz: 56
+Toplam analiz: 53
+Tam analiz: 50
 Eksik analiz: 3
 
 - Tromso VS Hradec Kralove: eksik score, confidence
