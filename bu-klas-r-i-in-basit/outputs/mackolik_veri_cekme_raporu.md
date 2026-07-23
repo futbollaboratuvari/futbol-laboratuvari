@@ -1,23 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-23T18:39:11.999444+00:00
+Tarih: 2026-07-23T20:01:34.499666+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 12
+- Kac mac bulundu: 1
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 12
+- Kac mac zaten vardi: 1
 - Ham veri havuzu toplam mac sayisi: 2740
 - Hedef tarih: 23.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - Hazırlık Kulüpler
-- UEFA Avrupa Ligi 2. Eleme Turu
-- UEFA Konferans Ligi 2. Eleme Turu
-- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -74,8 +71,8 @@ Tarih: 2026-07-23T18:39:11.999444+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 11
-- Acilan detay: 11
+- Denenen Tumu alani: 8
+- Acilan detay: 8
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -88,18 +85,7 @@ Tarih: 2026-07-23T18:39:11.999444+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split | Pafos Fc | 10318 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo | Skendija | 10112 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik | Koper | 10222 | 5 |
-| 23.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Partizan Belgr | Fc Una Strassen | 10496 | 4 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka | Derry City | 10177 | 4 |
-| 23.07.2026 | 22:15 | UEFA Konferans Ligi 2. Eleme Turu | Valur | Zrinjski | 10901 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Shelbourne | Nomme Kalju | 10257 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Motherwell | Hb Torshavn | 10079 | 4 |
-| 23.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Stjarnan | Ilves | 10866 | 5 |
 | 23.07.2026 | 18:30 | Hazırlık Kulüpler | Aubagne | Bastia | 00144 | 5 |
-| 23.07.2026 | 22:00 | Hazırlık Kulüpler | Cordoba | Sevilla | 18134 | 5 |
-| 23.07.2026 | 22:15 | İzlanda 1.Lig | Leiknir Reykja | Throttur | 05113 | 3 |
 
 ## Sonuc
 
