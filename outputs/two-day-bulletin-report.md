@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 123
+Ham mac: 121
 Aktif mac: 114
-Canli mac: 9
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 9
+Bultenden dusurulen mac: 7
 Bugun: 90
 Yarin: 24
 
@@ -127,8 +127,6 @@ Yarin: 24
 - 2026-07-25 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Queanbeyan City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | live | -
-- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | live | -
 - 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | live | -
 - 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | live | -
 - 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | live | -

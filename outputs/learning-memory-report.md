@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 02:44:03
+Oluşturma: 24.07.2026 02:48:41
 
 ## Özet
 
-- Toplam tahmin: 64
-- Bekleyen tahmin: 64
+- Toplam tahmin: 65
+- Bekleyen tahmin: 65
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,13 @@ Oluşturma: 24.07.2026 02:44:03
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS X: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Hazırlık Kulüpler | Benfica - Cf Os Belenense | MS 2 | pending | 40/100
 - 2026-07-24 | Hazırlık Kulüpler | Wolfsburg - Lyon | MS X | pending | 40/100
 - 2026-07-24 | Hazırlık Kulüpler | Osasuna - Santander | MS X | pending | 50/100
 - 2026-07-24 | Avusturya ÖFB Kupası 1.Tur | Tillmitsch - St Polten | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 24.07.2026 02:44:03
 - 2026-07-24 | İsviçre Challenge Lig | Winterthur - Yverdon | MS X | pending | 60/100
 - 2026-07-24 | Polonya Ekstraklasa | Pogon Szczecin - Legia Varşova | MS X | pending | 40/100
 - 2026-07-24 | İrlanda 1.Lig | Treaty Unt. - Athlone | MS X | pending | 50/100
-- 2026-07-24 | İrlanda 1.Lig | Ucd - Cork City | MS X | pending | 50/100
 
