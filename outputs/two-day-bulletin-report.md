@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 122
+Ham mac: 123
 Aktif mac: 114
-Canli mac: 8
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 8
+Bultenden dusurulen mac: 9
 Bugun: 90
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | scheduled | -
 - 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | scheduled | -
 - 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | scheduled | -
 - 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | scheduled | -
@@ -66,6 +65,7 @@ Yarin: 24
 - 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Deutschlandsbe - Amstetten | scheduled | -
 - 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Velden - Austria Klagenf | scheduled | -
 - 2026-07-24 20:00 | Danimarka 1.Lig | Aalborg - Hillerod | scheduled | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Benfica - Cf Os Belenense | scheduled | -
 - 2026-07-24 20:30 | Hazırlık Kulüpler | Osasuna - Santander | scheduled | -
 - 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Leoben - Voitsberg | scheduled | -
 - 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Sv Horn - Floridsdorfer | scheduled | -
@@ -135,6 +135,7 @@ Yarin: 24
 - 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | live | -
 - 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | live | -
 - 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | live | -
+- 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | live | -
 
 ## Biten Maclar
 Biten mac yok.

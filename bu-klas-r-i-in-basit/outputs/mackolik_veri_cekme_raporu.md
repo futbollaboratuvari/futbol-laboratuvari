@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-23T22:38:11.134908+00:00
+Tarih: 2026-07-23T23:37:01.015969+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 106
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 107
+- Kac mac kaydedildi: 1
 - Kac mac zaten vardi: 106
-- Ham veri havuzu toplam mac sayisi: 2846
+- Ham veri havuzu toplam mac sayisi: 2847
 - Hedef tarih: 24.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -129,26 +129,26 @@ Tarih: 2026-07-23T22:38:11.134908+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 24.07.2026 | 19:00 | Polonya Ekstraklasa | Radomiak Radom | Ks Wieczysta Kr | 10594 | 5 |
 | 24.07.2026 | 21:30 | Polonya Ekstraklasa | Pogon Szczecin | Legia Varşova | 15164 | 5 |
+| 24.07.2026 | 19:00 | Polonya Ekstraklasa | Radomiak Radom | Ks Wieczysta Kr | 10594 | 5 |
 | 24.07.2026 | 22:00 | İrlanda Premier Lig | St Patricks | Dundalk | 15622 | 5 |
 | 24.07.2026 | 20:00 | Rusya Premier Lig | Cska Moskova | Baltika Kalinin | 11701 | 5 |
 | 24.07.2026 | 20:00 | Danimarka Süperlig | Viborg | Odense | 12041 | 5 |
 | 24.07.2026 | 19:00 | Finlandiya Veikkausliiga | Jaro | Seinajoen Jk | 10405 | 5 |
 | 24.07.2026 | 20:00 | İsveç Allsvenskan | Vasteras | Orgryte | 11900 | 5 |
+| 24.07.2026 | 19:00 | Hazırlık Kulüpler | Rosenborg | Man. Utd | 10694 | 5 |
+| 24.07.2026 | 21:00 | Hazırlık Kulüpler | Cacereno | Real Jaen | 01525 | 5 |
 | 24.07.2026 | 20:00 | Hazırlık Kulüpler | Elche | Johor Dt | 12591 | 5 |
 | 24.07.2026 | 17:00 | Hazırlık Kulüpler | Bournemouth | St Pauli | 29881 | 5 |
+| 24.07.2026 | 20:00 | Hazırlık Kulüpler | Benfica | Cf Os Belenense | 29970 | 5 |
 | 24.07.2026 | 19:00 | Hazırlık Kulüpler | Cremonese | Giana Erminio | 06130 | 2 |
 | 24.07.2026 | 15:00 | Hazırlık Kulüpler | Wolfsburg | Lyon | 09313 | 5 |
 | 24.07.2026 | 14:00 | Hazırlık Kulüpler | Swansea | Udinese | 08982 | 5 |
 | 24.07.2026 | 12:00 | Hazırlık Kulüpler | Prest | Cambridge | 08154 | 5 |
-| 24.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | United Of Manch | 15827 | 3 |
+| 24.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | United Of Manch | 15827 | 5 |
 | 24.07.2026 | 15:00 | Hazırlık Kulüpler | Lommel | Den Haag | 01446 | 5 |
 | 24.07.2026 | 19:30 | Hazırlık Kulüpler | Lac-Ic | Favoritner | 01079 | 3 |
 | 24.07.2026 | 17:00 | Hazırlık Kulüpler | Derby County | Freiburg | 09477 | 5 |
-| 24.07.2026 | 21:00 | Hazırlık Kulüpler | Braunschweig | Southam | 00779 | 5 |
-| 24.07.2026 | 20:30 | Hazırlık Kulüpler | Osasuna | Santander | 10497 | 5 |
-| 24.07.2026 | 17:00 | Hazırlık Kulüpler | Amiens | Boulogne | 01971 | 5 |
 
 ## Sonuc
 

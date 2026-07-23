@@ -3,7 +3,7 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 114
-- Live match count: 8
+- Live match count: 9
 - Finished removed count: 0
 - Date window: 2026-07-24 / 2026-07-25 23:59
 
@@ -15,5 +15,5 @@
 - 2026-07-24 01:30 | Botafogo - Vitoria Bahia | live
 - 2026-07-24 01:30 | Corinthians - Remo | live
 - 2026-07-24 01:30 | Athletic Club - Sao Bernardo | live
-- 2026-07-24 02:30 | Cuiaba - Atletico Goiani | scheduled
+- 2026-07-24 02:30 | Cuiaba - Atletico Goiani | live
 - 2026-07-24 03:00 | Emelec - Mushuc Runa | scheduled
