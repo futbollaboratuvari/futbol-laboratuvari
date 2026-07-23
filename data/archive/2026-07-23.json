@@ -1,6 +1,6 @@
 {
   "liveMatches": {
-    "generated_at": "2026-07-23T13:13:06.299Z",
+    "generated_at": "2026-07-23T13:21:35.488Z",
     "date": "2026-07-23",
     "source": "High Value Coupon Engine",
     "message": "",
@@ -3059,8 +3059,8 @@
         "league": "Hazırlık Kulüpler",
         "start_time": "18:30",
         "recommended_market": "Değerli market yok",
-        "confidence_score": "0%",
-        "analysis_score": 0,
+        "confidence_score": "10%",
+        "analysis_score": 10,
         "risk_level": "Yüksek",
         "estimated_odds": "-",
         "available_odds": {
@@ -3262,10 +3262,10 @@
         "band_attention_notes": [
           "Bant kontrol verisi yok."
         ],
-        "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+        "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
-        "data_gap_risk": "Yüksek",
+        "data_gap_risk": "Orta",
         "status": "filtered_no_value_market",
         "expected_scores": [],
         "learning_adjustment": null
@@ -25981,7 +25981,7 @@
     ]
   },
   "dailyCoupons": {
-    "generated_at": "2026-07-23T13:13:06.298Z",
+    "generated_at": "2026-07-23T13:21:35.488Z",
     "date": "2026-07-23",
     "source": "High Value Coupon Engine",
     "message": "",
@@ -26942,7 +26942,7 @@
     }
   },
   "robotAnalysis": {
-    "generated_at": "2026-07-23T13:13:06.302Z",
+    "generated_at": "2026-07-23T13:21:35.491Z",
     "date": "2026-07-23",
     "engine": "High Value Coupon Engine + Learning Memory",
     "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -42833,8 +42833,8 @@
         "league": "Hazırlık Kulüpler",
         "start_time": "18:30",
         "recommended_market": "Değerli market yok",
-        "confidence_score": "0%",
-        "analysis_score": 0,
+        "confidence_score": "10%",
+        "analysis_score": 10,
         "risk_level": "Yüksek",
         "estimated_odds": "-",
         "available_odds": {
@@ -43036,24 +43036,24 @@
         "band_attention_notes": [
           "Bant kontrol verisi yok."
         ],
-        "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+        "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
         "include_in_coupon": false,
         "suitable_coupon_type": "Oynama",
-        "data_gap_risk": "Yüksek",
+        "data_gap_risk": "Orta",
         "status": "filtered_no_value_market",
         "expected_scores": [],
         "learning_adjustment": null,
         "metrics": {
-          "homeScoredLast10": null,
-          "awayScoredLast10": null,
+          "homeScoredLast10": 5,
+          "awayScoredLast10": 5,
           "homeConcededLast10": null,
           "awayConcededLast10": null,
           "bttsPercent": null,
-          "over25Percent": null,
-          "over35Percent": null,
+          "over25Percent": 54,
+          "over35Percent": 36,
           "firstHalfGoalTrend": null,
           "secondHalfGoalTrend": null,
-          "leagueGoalAverage": null,
+          "leagueGoalAverage": 2.77,
           "memory": {
             "scoreDelta": 0,
             "totalMatches": 0,
@@ -43087,17 +43087,19 @@
               "Hafıza: arşiv verisi henüz sınırlı"
             ]
           },
-          "homeScoredLast10Count": null,
-          "awayScoredLast10Count": null,
+          "homeScoredLast10Count": 5,
+          "awayScoredLast10Count": 5,
           "homeConcededLast10Count": null,
           "awayConcededLast10Count": null
         },
         "signals": [
           "Düşük oran veya eksik veri nedeniyle elendi",
           "Çifte şans kullanılmadı",
+          "İki takım son 10 maçta en az 4 gol attı: +15",
+          "Lig gol ortalaması 2.70 üzeri: +10",
           "Hafıza: arşiv verisi henüz sınırlı",
           "Veri eksikliği var: -15",
-          "Veri eksikliği riski: Yüksek",
+          "Veri eksikliği riski: Orta",
           "100 puan analiz sınıfı: Oynama"
         ]
       },
