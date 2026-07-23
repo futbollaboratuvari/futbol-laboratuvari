@@ -1,21 +1,35 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-22T22:52:07.406Z",
-  "updated_at": "2026-07-23T07:08:07.686Z",
+  "updated_at": "2026-07-23T07:27:03.971Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 50,
-    "pending_predictions": 50,
+    "total_predictions": 51,
+    "pending_predictions": 51,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 9,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 1,
+    "updated_predictions": 0,
+    "last_score_link_checked": 51,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
+    "MS 2": {
+      "total": 17,
+      "pending": 17,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS 1": {
       "total": 3,
       "pending": 3,
@@ -35,19 +49,19 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS 2": {
-      "total": 16,
-      "pending": 16,
+    }
+  },
+  "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
+    },
     "UEFA Konferans Ligi 2. Eleme Turu": {
       "total": 19,
       "pending": 19,
@@ -71,16 +85,6 @@
     "ABD MLS": {
       "total": 15,
       "pending": 15,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -140,6 +144,16 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Konferans Ligi 2. Eleme Turu :: MS 1": {
       "total": 3,
       "pending": 3,
@@ -203,16 +217,6 @@
     "ABD MLS :: MS 2": {
       "total": 4,
       "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler :: MS 2": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -293,6 +297,23 @@
   },
   "predictions": [
     {
+      "id": "2026-07-23|hazirlik kulupler|shakhtar donet hnk gorica|ms 2|19 00",
+      "date": "2026-07-23",
+      "created_at": "2026-07-23T07:27:03.491Z",
+      "match_name": "Shakhtar Donet - Hnk Gorica",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "19:00",
+      "market": "MS 2",
+      "odds": "4.26",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|universitatea brann|ms 1|20 00",
       "date": "2026-07-23",
       "created_at": "2026-07-23T07:08:06.158Z",
@@ -308,7 +329,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa avrupa ligi 2 eleme turu|besiktas midtjylland|ms x|21 00",
@@ -326,7 +347,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|aluminij dinamo tirana|ms x|21 00",
@@ -344,7 +365,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|varazdin jablonec|ms x|21 00",
@@ -362,7 +383,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|zilina gks katowice|ms x|21 30",
@@ -380,7 +401,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|lnz cherkasy gent|ms 1|21 30",
@@ -398,7 +419,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|ask bravo skendija|ms 2|21 45",
@@ -416,7 +437,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|runavik koper|ms x|21 45",
@@ -434,7 +455,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa avrupa ligi 2 eleme turu|hajduk split pafos fc|ms 2|22 00",
@@ -452,7 +473,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|stjarnan ilves|ms x|22 00",
@@ -470,7 +491,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.686Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|valur zrinjski|ms x|22 15",
@@ -488,7 +509,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.686Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|abd mls|austin seattle|ms x|04 30",
@@ -596,7 +617,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.684Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|fk panevezys tobol kostanay|ms x|18 30",
@@ -614,7 +635,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.684Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|flora tallinn the new saints|ms x|19 00",
@@ -632,7 +653,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.684Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|debreceni pyunik erewan|ms 2|19 00",
@@ -650,7 +671,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.684Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|dila gori apollon limasso|ms 1|19 00",
@@ -668,7 +689,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.684Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|ae kition beitar jerusale|ms 2|19 30",
@@ -686,7 +707,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa avrupa ligi 2 eleme turu|hammarby anderlecht|ms x|20 00",
@@ -704,7 +725,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa avrupa ligi 2 eleme turu|dynamo kiev paok|ms x|20 00",
@@ -722,7 +743,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|ml vitebsk sutjeska|ms 2|20 00",
@@ -740,7 +761,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|gais nordsjaelland|ms x|20 00",
@@ -758,7 +779,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|universitatea brann|ms x|20 00",
@@ -794,7 +815,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa konferans ligi 2 eleme turu|fc steaua auda|ms x|20 45",
@@ -812,7 +833,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.491Z"
     },
     {
       "id": "2026-07-23|uefa avrupa ligi 2 eleme turu|twente ferencvaros|ms 2|21 00",
@@ -830,7 +851,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-23T07:08:07.685Z"
+      "updated_at": "2026-07-23T07:27:03.492Z"
     },
     {
       "id": "2026-07-23|abd usl lig 1|westchester sc new york cosmos|ms 2|02 00",
