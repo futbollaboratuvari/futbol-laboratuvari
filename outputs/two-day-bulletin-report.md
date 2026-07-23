@@ -1,27 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-23 / 2026-07-24
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 66
-Aktif mac: 27
-Canli mac: 39
+Aktif mac: 16
+Canli mac: 50
 Biten mac: 0
-Bultenden dusurulen mac: 39
-Bugun: 11
+Bultenden dusurulen mac: 50
+Bugun: 0
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | scheduled | -
-- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik - Koper | scheduled | -
-- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka - Derry City | scheduled | -
-- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Motherwell - Hb Torshavn | scheduled | -
-- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Shelbourne - Nomme Kalju | scheduled | -
-- 2026-07-23 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split - Pafos Fc | scheduled | -
-- 2026-07-23 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Stjarnan - Ilves | scheduled | -
-- 2026-07-23 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Partizan Belgr - Fc Una Strassen | scheduled | -
-- 2026-07-23 22:00 | Hazırlık Kulüpler | Cordoba - Sevilla | scheduled | -
-- 2026-07-23 22:15 | UEFA Konferans Ligi 2. Eleme Turu | Valur - Zrinjski | scheduled | -
-- 2026-07-23 22:15 | İzlanda 1.Lig | Leiknir Reykja - Throttur | scheduled | -
 - 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | scheduled | -
 - 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | scheduled | -
 - 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | scheduled | -
@@ -40,6 +30,17 @@ Yarin: 16
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 
 ## Canli Maclar
+- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | live | -
+- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik - Koper | live | -
+- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka - Derry City | live | -
+- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Motherwell - Hb Torshavn | live | -
+- 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Shelbourne - Nomme Kalju | live | -
+- 2026-07-23 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split - Pafos Fc | live | -
+- 2026-07-23 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Stjarnan - Ilves | live | -
+- 2026-07-23 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Partizan Belgr - Fc Una Strassen | live | -
+- 2026-07-23 22:00 | Hazırlık Kulüpler | Cordoba - Sevilla | live | -
+- 2026-07-23 22:15 | UEFA Konferans Ligi 2. Eleme Turu | Valur - Zrinjski | live | -
+- 2026-07-23 22:15 | İzlanda 1.Lig | Leiknir Reykja - Throttur | live | -
 - 2026-07-23 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh - Cska Sofia | live | -
 - 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn - The New Saints | live | -
 - 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee - Zira | live | -

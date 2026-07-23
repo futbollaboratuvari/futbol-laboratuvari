@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 33
-- Live match count: 33
+- Scheduled match count: 16
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-23 / 2026-07-24 23:59
 
-- 2026-07-23 19:00 | Shakhtar Donet - Hnk Gorica | live
-- 2026-07-23 19:00 | Qarabagh - Cska Sofia | live
-- 2026-07-23 19:00 | Debreceni - Pyunik Erewan | live
-- 2026-07-23 19:00 | Dila Gori - Apollon Limasso | live
-- 2026-07-23 19:00 | Flora Tallinn - The New Saints | live
-- 2026-07-23 19:00 | Helsinki - Coleraine | live
-- 2026-07-23 19:00 | Paide Linnamee - Zira | live
-- 2026-07-23 19:30 | Ae Kition - Beitar Jerusale | live
-- 2026-07-23 19:30 | Dac - Velez Mostar | live
-- 2026-07-23 19:30 | Daugava Riga - Vestri | live
+- 2026-07-24 00:30 | Leones Del Nor - Guayaquil City | scheduled
+- 2026-07-24 00:30 | Orense - Aucas | scheduled
+- 2026-07-24 01:00 | Bolivar - Gremio | scheduled
+- 2026-07-24 01:30 | Belgrano - Rosario Central | scheduled
+- 2026-07-24 01:30 | Sarmiento - Argentinos Jr | scheduled
+- 2026-07-24 01:30 | Botafogo - Vitoria Bahia | scheduled
+- 2026-07-24 01:30 | Corinthians - Remo | scheduled
+- 2026-07-24 01:30 | Athletic Club - Sao Bernardo | scheduled
+- 2026-07-24 02:30 | Cuiaba - Atletico Goiani | scheduled
+- 2026-07-24 03:00 | Emelec - Mushuc Runa | scheduled

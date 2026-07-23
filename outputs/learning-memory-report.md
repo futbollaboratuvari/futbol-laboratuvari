@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 23.07.2026 21:38:53
-=======
-Oluşturma: 23.07.2026 21:39:30
->>>>>>> Stashed changes
+Oluşturma: 23.07.2026 22:53:20
 
 ## Özet
 
-- Toplam tahmin: 58
-- Bekleyen tahmin: 58
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 9
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 23.07.2026 21:39:30
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka - Derry City | MS X | pending | 75/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | MS X | pending | 60/100
-- 2026-07-23 | Hazırlık Kulüpler | Aubagne - Bastia | MS X | pending | 50/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | MS 1 | pending | 40/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Lugano - Dukagjini | MS X | pending | 75/100
-- 2026-07-23 | Hazırlık Kulüpler | Waldhof Mannhe - Liefering | MS X | pending | 50/100
-- 2026-07-23 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby - Anderlecht | MS 2 | pending | 50/100
-- 2026-07-23 | Hazırlık Kulüpler | Shakhtar Donet - Hnk Gorica | MS 2 | pending | 60/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Universitatea - Brann | MS 1 | pending | 40/100
-- 2026-07-23 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş - Midtjylland | MS X | pending | 50/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij - Dinamo Tirana | MS X | pending | 40/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Varazdin - Jablonec | MS X | pending | 50/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Zilina - Gks Katowice | MS X | pending | 50/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Lnz Cherkasy - Gent | MS 1 | pending | 40/100
-- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | MS 2 | pending | 60/100
 
