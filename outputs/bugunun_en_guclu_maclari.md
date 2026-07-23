@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-23T12:04:07.920Z
+- Güncelleme: 2026-07-23T13:05:31.363Z
 - Ham maç sayısı: 73
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 215
-- Aktif bülten maçı: 73
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 72
+- Bültenden düşürülen maç: 1
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Waldhof Mannhe - Liefering | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 2.03 | 8 |
 | Malisheva - Hibernian | UEFA Konferans Ligi 2. Eleme Turu | 17:30 | Veri bekleniyor | - | 4.91 | 6 |
 | Liepaja - Austria Vienna | UEFA Konferans Ligi 2. Eleme Turu | 18:00 | Veri bekleniyor | - | 6.82 | 6 |
 | Alashkert - Cfr Cluj | UEFA Konferans Ligi 2. Eleme Turu | 18:00 | Veri bekleniyor | - | 3.12 | 8 |

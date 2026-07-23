@@ -1,27 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-23T11:31:04.113092+00:00
+Tarih: 2026-07-23T13:05:48.063086+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 73
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 73
-- Ham veri havuzu toplam mac sayisi: 2739
+- Kac mac bulundu: 57
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 56
+- Ham veri havuzu toplam mac sayisi: 2740
 - Hedef tarih: 23.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- Brezilya Serie B
-- Copa Sudamericana Son 32 Turu
-- Ekvador Pro Lig
 - Hazırlık Kulüpler
-- Kosta Rika Premier Lig Apertura
-- Nikaragua Premier Lig Apertura
 - Paraguay Kupa 2.Tur
 - UEFA Avrupa Ligi 2. Eleme Turu
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -96,26 +89,26 @@ Tarih: 2026-07-23T11:31:04.113092+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş | Midtjylland | 09016 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp | Maccabi Tel Avi | 08693 | 5 |
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | St Gallen | Benfica | 09258 | 5 |
-| 23.07.2026 | 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh | Cska Sofia | 08068 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Dynamo Kiev | Paok | 08332 | 5 |
-| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Tromso | Hradec Kralove | 08769 | 5 |
-| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Twente | Ferencvaros | 09362 | 5 |
-| 23.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split | Pafos Fc | 10318 | 5 |
 | 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hammarby | Anderlecht | 08521 | 5 |
+| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Sheriff Tirasp | Maccabi Tel Avi | 08693 | 5 |
+| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Dynamo Kiev | Paok | 08332 | 5 |
+| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Twente | Ferencvaros | 09362 | 5 |
+| 23.07.2026 | 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh | Cska Sofia | 08068 | 5 |
+| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş | Midtjylland | 09016 | 5 |
+| 23.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | St Gallen | Benfica | 09258 | 5 |
+| 23.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hajduk Split | Pafos Fc | 10318 | 5 |
+| 23.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Tromso | Hradec Kralove | 08769 | 5 |
+| 23.07.2026 | 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert | Cfr Cluj | 07707 | 5 |
+| 23.07.2026 | 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Ae Kition | Beitar Jerusale | 08178 | 5 |
+| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Zimbru | Noah | 08413 | 5 |
+| 23.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Polessya | Kopenhag | 09204 | 5 |
+| 23.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lnz Cherkasy | Gent | 09939 | 5 |
+| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Shelbourne | Nomme Kalju | 10257 | 5 |
+| 23.07.2026 | 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva | Hibernian | 07671 | 5 |
+| 23.07.2026 | 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Dac | Velez Mostar | 08214 | 5 |
+| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Ml Vitebsk | Sutjeska | 08584 | 5 |
 | 23.07.2026 | 20:45 | UEFA Konferans Ligi 2. Eleme Turu | Fc Steaua | Auda | 08976 | 4 |
 | 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo | Skendija | 10112 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik | Koper | 10222 | 5 |
-| 23.07.2026 | 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja | Austria Vienna | 07753 | 5 |
-| 23.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn | The New Saints | 07962 | 5 |
-| 23.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee | Zira | 08135 | 5 |
-| 23.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gais | Nordsjaelland | 08447 | 5 |
-| 23.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij | Dinamo Tirana | 09091 | 5 |
-| 23.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka | Derry City | 10177 | 4 |
-| 23.07.2026 | 18:30 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys | Tobol Kostanay | 07811 | 5 |
-| 23.07.2026 | 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Daugava Riga | Vestri | 08299 | 4 |
 
 ## Sonuc
 
