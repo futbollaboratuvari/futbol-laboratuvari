@@ -3,20 +3,14 @@
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
 Ham mac: 66
-Aktif mac: 33
-Canli mac: 33
+Aktif mac: 27
+Canli mac: 39
 Biten mac: 0
-Bultenden dusurulen mac: 33
-Bugun: 17
+Bultenden dusurulen mac: 39
+Bugun: 11
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Borac Banja Lu - Petrocub | scheduled | -
-- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Hapoel Tel Avi - Ludogorets | scheduled | -
-- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lugano - Dukagjini | scheduled | -
-- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zilina - Gks Katowice | scheduled | -
-- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lnz Cherkasy - Gent | scheduled | -
-- 2026-07-23 21:30 | Paraguay Kupa 2.Tur | Sportivo Iteno - Depor Capiata | scheduled | -
 - 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Ask Bravo - Skendija | scheduled | -
 - 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Runavik - Koper | scheduled | -
 - 2026-07-23 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Rijeka - Derry City | scheduled | -
@@ -79,6 +73,12 @@ Yarin: 16
 - 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Paksi - Panathinaikos | live | -
 - 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Varazdin - Jablonec | live | -
 - 2026-07-23 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Polessya - Kopenhag | live | -
+- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Borac Banja Lu - Petrocub | live | -
+- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Hapoel Tel Avi - Ludogorets | live | -
+- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lugano - Dukagjini | live | -
+- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zilina - Gks Katowice | live | -
+- 2026-07-23 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Lnz Cherkasy - Gent | live | -
+- 2026-07-23 21:30 | Paraguay Kupa 2.Tur | Sportivo Iteno - Depor Capiata | live | -
 
 ## Biten Maclar
 Biten mac yok.
