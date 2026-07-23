@@ -3,15 +3,14 @@
 Gunler: 2026-07-23 / 2026-07-24
 Kaynak: fixtures.json
 Ham mac: 74
-Aktif mac: 73
-Canli mac: 1
+Aktif mac: 72
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 57
+Bultenden dusurulen mac: 2
+Bugun: 56
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-07-23 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva - Hibernian | scheduled | -
 - 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | scheduled | -
 - 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Alashkert - Cfr Cluj | scheduled | -
 - 2026-07-23 18:00 | Hazırlık Kulüpler | Cagliari - Sampdoria | scheduled | -
@@ -87,6 +86,7 @@ Yarin: 16
 
 ## Canli Maclar
 - 2026-07-23 16:00 | Hazırlık Kulüpler | Waldhof Mannhe - Liefering | live | -
+- 2026-07-23 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Malisheva - Hibernian | live | -
 
 ## Biten Maclar
 Biten mac yok.
