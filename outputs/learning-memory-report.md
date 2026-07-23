@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.07.2026 09:41:22
+Oluşturma: 23.07.2026 10:08:07
 
 ## Özet
 
-- Toplam tahmin: 49
-- Bekleyen tahmin: 49
+- Toplam tahmin: 50
+- Bekleyen tahmin: 50
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 9
@@ -20,12 +20,13 @@ Oluşturma: 23.07.2026 09:41:22
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 - MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Universitatea - Brann | MS 1 | pending | 40/100
 - 2026-07-23 | UEFA Avrupa Ligi 2. Eleme Turu | Beşiktaş - Midtjylland | MS X | pending | 50/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Aluminij - Dinamo Tirana | MS X | pending | 40/100
 - 2026-07-23 | UEFA Konferans Ligi 2. Eleme Turu | Varazdin - Jablonec | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 23.07.2026 09:41:22
 - 2026-07-23 | ABD MLS | San Jose - Orlando City | MS X | pending | 70/100
 - 2026-07-23 | ABD MLS | Los Angeles Fc - Salt Lake | MS 2 | pending | 60/100
 - 2026-07-23 | ABD MLS | Los Angeles - St. Louis City | MS X | pending | 50/100
-- 2026-07-23 | ABD MLS | Portland - Dallas | MS X | pending | 70/100
 

@@ -1,9 +1,9 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-23T04:30:41.468Z
-- Ham fixture sayisi: 2727
-- Bugun/yarin kaynak mac: 104
-- Aktif bulten maci: 69
+- Guncelleme: 2026-07-23T07:07:29.709Z
+- Ham fixture sayisi: 2730
+- Bugun/yarin kaynak mac: 107
+- Aktif bulten maci: 72
 - Gosterilen mac: 15
 - Bultenden dusurulen mac: 35
 
@@ -12,13 +12,13 @@
 - 3. 2026-07-23 18:00 | Hazırlık Kulüpler | Cagliari - Sampdoria | scheduled
 - 4. 2026-07-23 18:00 | UEFA Konferans Ligi 2. Eleme Turu | Liepaja - Austria Vienna | scheduled
 - 5. 2026-07-23 18:30 | UEFA Konferans Ligi 2. Eleme Turu | Fk Panevezys - Tobol Kostanay | scheduled
-- 6. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Debreceni - Pyunik Erewan | scheduled
-- 7. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Dila Gori - Apollon Limasso | scheduled
-- 8. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn - The New Saints | scheduled
-- 9. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Helsinki - Coleraine | scheduled
-- 10. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee - Zira | scheduled
-- 11. 2026-07-23 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh - Cska Sofia | scheduled
-- 12. 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Ae Kition - Beitar Jerusale | scheduled
-- 13. 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Dac - Velez Mostar | scheduled
-- 14. 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Daugava Riga - Vestri | scheduled
-- 15. 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Rakow Czestoch - Valletta | scheduled
+- 6. 2026-07-23 18:30 | Hazırlık Kulüpler | Unione V. - Vis Pasaro | scheduled
+- 7. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Debreceni - Pyunik Erewan | scheduled
+- 8. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Dila Gori - Apollon Limasso | scheduled
+- 9. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Flora Tallinn - The New Saints | scheduled
+- 10. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Helsinki - Coleraine | scheduled
+- 11. 2026-07-23 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Paide Linnamee - Zira | scheduled
+- 12. 2026-07-23 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Qarabagh - Cska Sofia | scheduled
+- 13. 2026-07-23 19:00 | Hazırlık Kulüpler | Shakhtar Donet - Hnk Gorica | scheduled
+- 14. 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Ae Kition - Beitar Jerusale | scheduled
+- 15. 2026-07-23 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Dac - Velez Mostar | scheduled
