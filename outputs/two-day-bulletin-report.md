@@ -3,15 +3,14 @@
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
 Ham mac: 115
-Aktif mac: 108
-Canli mac: 7
+Aktif mac: 107
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 84
+Bultenden dusurulen mac: 8
+Bugun: 83
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 - 2026-07-24 12:00 | Hazırlık Kulüpler | Prest - Cambridge | scheduled | -
 - 2026-07-24 12:30 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | scheduled | -
 - 2026-07-24 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong City | scheduled | -
@@ -128,6 +127,7 @@ Yarin: 24
 - 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | live | -
 - 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | live | -
 - 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | live | -
+- 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 97
-Tam analiz: 87
+Toplam analiz: 91
+Tam analiz: 81
 Eksik analiz: 10
 
 - Santa Fe VS Caracas Fc: eksik score, confidence
