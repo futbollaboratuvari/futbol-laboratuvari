@@ -1,52 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-24T12:53:50.133721+00:00
+Tarih: 2026-07-24T14:01:47.181925+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 87
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 86
-- Ham veri havuzu toplam mac sayisi: 2860
+- Kac mac bulundu: 61
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 59
+- Ham veri havuzu toplam mac sayisi: 2862
 - Hedef tarih: 24.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 2 Konferans Final
-- AFF Şampiyonası Grup A
 - Arjantin Premier Lig 2. Aşama
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
-- Avustralya Victoria NPL 1
-- Bolivya Premier Lig
 - Bulgaristan 1.Lig
 - CONCACAF U20 Grup B
 - Danimarka 1.Lig
 - Danimarka Süperlig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Litvanya 1.Lig
 - Litvanya A Ligi
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Romanya 1.Lig
 - Rusya Premier Lig
-- Uruguay Premier Lig Intermediate Turu Grup 2
 - İrlanda 1.Lig
 - İrlanda Premier Lig
 - İsveç Allsvenskan
@@ -54,7 +39,6 @@ Tarih: 2026-07-24T12:53:50.133721+00:00
 - İzlanda 1.Lig
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -111,8 +95,8 @@ Tarih: 2026-07-24T12:53:50.133721+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 46
-- Acilan detay: 46
+- Denenen Tumu alani: 45
+- Acilan detay: 45
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -137,14 +121,14 @@ Tarih: 2026-07-24T12:53:50.133721+00:00
 | 24.07.2026 | 21:45 | Hazırlık Kulüpler | Enfield Town | Worthing | 13451 | 5 |
 | 24.07.2026 | 17:00 | Hazırlık Kulüpler | Bournemouth | St Pauli | 29881 | 5 |
 | 24.07.2026 | 17:00 | Hazırlık Kulüpler | Derby County | Freiburg | 09477 | 5 |
+| 24.07.2026 | 19:00 | Hazırlık Kulüpler | Triglav Kranj | Segesta | 04244 | 3 |
 | 24.07.2026 | 20:00 | Hazırlık Kulüpler | Benfica | Cf Os Belenense | 29970 | 5 |
 | 24.07.2026 | 21:45 | Hazırlık Kulüpler | Limavady Unite | Linfield | 13517 | 5 |
 | 24.07.2026 | 19:30 | Hazırlık Kulüpler | Lac-Ic | Favoritner | 01079 | 3 |
 | 24.07.2026 | 21:45 | Hazırlık Kulüpler | Afc Rushden & | Banbury United | 13534 | 5 |
 | 24.07.2026 | 20:00 | Hazırlık Kulüpler | Antwerp | Olympiakos | 04711 | 5 |
-| 24.07.2026 | 21:30 | Hazırlık Kulüpler | Felixstowe & W | Needham Market | 13434 | 3 |
+| 24.07.2026 | 21:30 | Hazırlık Kulüpler | Felixstowe & W | Needham Market | 13434 | 5 |
 | 24.07.2026 | 20:00 | Hazırlık Kulüpler | Al Ettifaq | York | 13368 | 5 |
-| 24.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | United Of Manch | 15827 | 5 |
 
 ## Sonuc
 
