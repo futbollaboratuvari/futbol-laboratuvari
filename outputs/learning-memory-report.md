@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 12:59:34
+Oluşturma: 24.07.2026 14:24:39
 
 ## Özet
 
-- Toplam tahmin: 83
-- Bekleyen tahmin: 83
+- Toplam tahmin: 85
+- Bekleyen tahmin: 85
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,14 @@ Oluşturma: 24.07.2026 12:59:34
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
-- MS X: toplam 50, bekleyen 50, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Danimarka 1.Lig | Vejle - Ab Gladsaxe | MS X | pending | 60/100
+- 2026-07-24 | Hazırlık Kulüpler | Al Ettifaq - York | MS 2 | pending | 60/100
 - 2026-07-24 | Hazırlık Kulüpler | Antwerp - Olympiakos | MS 1 | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Ebbsfleet - Cardiff Mu | MS 2 | pending | 60/100
 - 2026-07-24 | Polonya 2.Lig | Znicz Pruszkow - Resovia Rzeszow | MS X | pending | 80/100
@@ -39,6 +41,4 @@ Oluşturma: 24.07.2026 12:59:34
 - 2026-07-24 | Hazırlık Kulüpler | Derby County - Freiburg | MS 1 | pending | 55/100
 - 2026-07-24 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | MS 2 | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Bournemouth - St Pauli | MS 2 | pending | 60/100
-- 2026-07-24 | Polonya 1.Lig | Polonia Bytom - Warta Poznan | MS X | pending | 50/100
-- 2026-07-24 | Hazırlık Kulüpler | Rosenborg - Man. Utd | MS 1 | pending | 55/100
 
