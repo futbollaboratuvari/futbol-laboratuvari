@@ -2,56 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 105
-Aktif mac: 99
-Canli mac: 6
+Ham mac: 99
+Aktif mac: 58
+Canli mac: 41
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 73
+Bultenden dusurulen mac: 41
+Bugun: 32
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-24 19:00 | Polonya Ekstraklasa | Radomiak Radom - Ks Wieczysta Kr | scheduled | -
-- 2026-07-24 19:00 | Finlandiya Veikkausliiga | Jaro - Seinajoen Jk | scheduled | -
-- 2026-07-24 19:00 | Hazırlık Kulüpler | Cremonese - Giana Erminio | scheduled | -
-- 2026-07-24 19:00 | Hazırlık Kulüpler | Rosenborg - Man. Utd | scheduled | -
-- 2026-07-24 19:00 | Polonya 1.Lig | Polonia Bytom - Warta Poznan | scheduled | -
-- 2026-07-24 19:00 | Litvanya A Ligi | Fa Siauliai - Hegelmann | scheduled | -
-- 2026-07-24 19:00 | Danimarka 1.Lig | Vejle - Ab Gladsaxe | scheduled | -
-- 2026-07-24 19:00 | Polonya 2.Lig | Znicz Pruszkow - Resovia Rzeszow | scheduled | -
-- 2026-07-24 19:00 | Finlandiya Ykkönen | Tampere Utd - Inter Turku Ii | scheduled | -
-- 2026-07-24 19:00 | Finlandiya Ykkönen | Fc Jazz - Tpv Tampere | scheduled | -
-- 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Strani - Fc Vsetin | scheduled | -
-- 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Tatran Vsechov - Unie Hlubina | scheduled | -
-- 2026-07-24 19:00 | Hazırlık Kulüpler | Triglav Kranj - Segesta | scheduled | -
-- 2026-07-24 19:30 | Hazırlık Kulüpler | Lac-Ic - Favoritner | scheduled | -
-- 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Wieselburg - Wattens | scheduled | -
-- 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Fc Dornbirn 19 - Ried | scheduled | -
-- 2026-07-24 20:00 | Rusya Premier Lig | Cska Moskova - Baltika Kalinin | scheduled | -
-- 2026-07-24 20:00 | Danimarka Süperlig | Viborg - Odense | scheduled | -
-- 2026-07-24 20:00 | İsveç Allsvenskan | Vasteras - Orgryte | scheduled | -
-- 2026-07-24 20:00 | Hazırlık Kulüpler | Elche - Johor Dt | scheduled | -
-- 2026-07-24 20:00 | Hazırlık Kulüpler | Antwerp - Olympiakos | scheduled | -
-- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Leobendorf - Altach | scheduled | -
-- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Lafnitz - Scheiblingkirch | scheduled | -
-- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Lauterach - Wolfsberger | scheduled | -
-- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Deutschlandsbe - Amstetten | scheduled | -
-- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Velden - Austria Klagenf | scheduled | -
-- 2026-07-24 20:00 | Danimarka 1.Lig | Aalborg - Hillerod | scheduled | -
-- 2026-07-24 20:00 | Hazırlık Kulüpler | Benfica - Cf Os Belenense | scheduled | -
-- 2026-07-24 20:00 | Hazırlık Kulüpler | Al Ettifaq - York | scheduled | -
-- 2026-07-24 20:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | scheduled | -
-- 2026-07-24 20:00 | Hazırlık Kulüpler | Emmen - Twente | scheduled | -
-- 2026-07-24 20:15 | Hazırlık Kulüpler | Koblenz - Fc Giessen | scheduled | -
-- 2026-07-24 20:30 | Hazırlık Kulüpler | Osasuna - Santander | scheduled | -
-- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Leoben - Voitsberg | scheduled | -
-- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Sv Horn - Floridsdorfer | scheduled | -
-- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Tillmitsch - St Polten | scheduled | -
-- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Union Gurten - Blau-Weiss Linz | scheduled | -
-- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Traiskirchen - Bleiburg | scheduled | -
-- 2026-07-24 20:30 | İsviçre Challenge Lig | Rappersvil Jon - Wil | scheduled | -
-- 2026-07-24 20:30 | İsviçre Challenge Lig | Stade Ouchy - Stade Nyonnais | scheduled | -
-- 2026-07-24 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Sc Kriens | scheduled | -
 - 2026-07-24 21:00 | Hazırlık Kulüpler | Braunschweig - Southam | scheduled | -
 - 2026-07-24 21:00 | Hazırlık Kulüpler | Cacereno - Real Jaen | scheduled | -
 - 2026-07-24 21:00 | Macaristan NB I | Nyiregyhaza - Ujpest | scheduled | -
@@ -112,12 +71,47 @@ Yarin: 26
 - 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 17:00 | Hazırlık Kulüpler | Bournemouth - St Pauli | live | -
-- 2026-07-24 17:00 | Hazırlık Kulüpler | Derby County - Freiburg | live | -
-- 2026-07-24 17:00 | Hazırlık Kulüpler | Amiens - Boulogne | live | -
-- 2026-07-24 17:00 | Litvanya 1.Lig | Tauras - Kauno Zalgiris | live | -
-- 2026-07-24 18:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | live | -
-- 2026-07-24 18:30 | Romanya 1.Lig | Uta Arad - Otelul Galati | live | -
+- 2026-07-24 19:00 | Polonya Ekstraklasa | Radomiak Radom - Ks Wieczysta Kr | live | -
+- 2026-07-24 19:00 | Finlandiya Veikkausliiga | Jaro - Seinajoen Jk | live | -
+- 2026-07-24 19:00 | Hazırlık Kulüpler | Cremonese - Giana Erminio | live | -
+- 2026-07-24 19:00 | Hazırlık Kulüpler | Rosenborg - Man. Utd | live | -
+- 2026-07-24 19:00 | Polonya 1.Lig | Polonia Bytom - Warta Poznan | live | -
+- 2026-07-24 19:00 | Litvanya A Ligi | Fa Siauliai - Hegelmann | live | -
+- 2026-07-24 19:00 | Danimarka 1.Lig | Vejle - Ab Gladsaxe | live | -
+- 2026-07-24 19:00 | Polonya 2.Lig | Znicz Pruszkow - Resovia Rzeszow | live | -
+- 2026-07-24 19:00 | Finlandiya Ykkönen | Tampere Utd - Inter Turku Ii | live | -
+- 2026-07-24 19:00 | Finlandiya Ykkönen | Fc Jazz - Tpv Tampere | live | -
+- 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Strani - Fc Vsetin | live | -
+- 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Tatran Vsechov - Unie Hlubina | live | -
+- 2026-07-24 19:00 | Hazırlık Kulüpler | Triglav Kranj - Segesta | live | -
+- 2026-07-24 19:30 | Hazırlık Kulüpler | Lac-Ic - Favoritner | live | -
+- 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Wieselburg - Wattens | live | -
+- 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Fc Dornbirn 19 - Ried | live | -
+- 2026-07-24 20:00 | Rusya Premier Lig | Cska Moskova - Baltika Kalinin | live | -
+- 2026-07-24 20:00 | Danimarka Süperlig | Viborg - Odense | live | -
+- 2026-07-24 20:00 | İsveç Allsvenskan | Vasteras - Orgryte | live | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Elche - Johor Dt | live | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Antwerp - Olympiakos | live | -
+- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Leobendorf - Altach | live | -
+- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Lafnitz - Scheiblingkirch | live | -
+- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Lauterach - Wolfsberger | live | -
+- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Deutschlandsbe - Amstetten | live | -
+- 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Velden - Austria Klagenf | live | -
+- 2026-07-24 20:00 | Danimarka 1.Lig | Aalborg - Hillerod | live | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Benfica - Cf Os Belenense | live | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Al Ettifaq - York | live | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | live | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Emmen - Twente | live | -
+- 2026-07-24 20:15 | Hazırlık Kulüpler | Koblenz - Fc Giessen | live | -
+- 2026-07-24 20:30 | Hazırlık Kulüpler | Osasuna - Santander | live | -
+- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Leoben - Voitsberg | live | -
+- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Sv Horn - Floridsdorfer | live | -
+- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Tillmitsch - St Polten | live | -
+- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Union Gurten - Blau-Weiss Linz | live | -
+- 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Traiskirchen - Bleiburg | live | -
+- 2026-07-24 20:30 | İsviçre Challenge Lig | Rappersvil Jon - Wil | live | -
+- 2026-07-24 20:30 | İsviçre Challenge Lig | Stade Ouchy - Stade Nyonnais | live | -
+- 2026-07-24 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Sc Kriens | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -2,24 +2,24 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-24T17:44:41.172Z
-- Ham maç sayısı: 105
+- Güncelleme: 2026-07-24T17:53:35.862Z
+- Ham maç sayısı: 99
 - Yarın bülteni maç sayısı: 26
-- Detay blok sayısı: 289
+- Detay blok sayısı: 273
 - Aktif bülten maçı: 58
-- Bültenden düşürülen maç: 47
+- Bültenden düşürülen maç: 41
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Braunschweig - Southam | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 3.54 | 8 |
+| Braunschweig - Southam | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 3.45 | 8 |
 | Cacereno - Real Jaen | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.04 | 8 |
-| Nyiregyhaza - Ujpest | Macaristan NB I | 21:00 | Veri bekleniyor | - | 2 | 8 |
-| Völsungur - Grindavik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.65 | 6 |
+| Nyiregyhaza - Ujpest | Macaristan NB I | 21:00 | Veri bekleniyor | - | 2.15 | 8 |
+| Völsungur - Grindavik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.47 | 6 |
 | Ebbsfleet - Cardiff Mu | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.38 | 6 |
-| Arda Kardzhali - Slavia Sofia | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.47 | 7 |
-| Etoile Carouge - Aarau | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 2.92 | 8 |
-| Winterthur - Yverdon | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 1.86 | 8 |
+| Arda Kardzhali - Slavia Sofia | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.45 | 7 |
+| Etoile Carouge - Aarau | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 2.74 | 8 |
+| Winterthur - Yverdon | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 1.9 | 8 |
 | Pogon Szczecin - Legia Varşova | Polonya Ekstraklasa | 21:30 | Veri bekleniyor | - | 2.36 | 8 |
 | Seekirchen 194 - Sturm Graz | Avusturya ÖFB Kupası 1.Tur | 21:30 | Veri bekleniyor | - | 17.1 | 3 |
 | Argesul Pitest - Petrolul 52 | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 1.86 | 8 |
@@ -28,19 +28,19 @@
 | Felixstowe & W - Needham Market | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.05 | 8 |
 | Southport - United Of Manch | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 1.48 | 8 |
 | Treaty Unt. - Athlone | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.33 | 8 |
-| Ucd - Cork City | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.86 | 8 |
-| Cobh Ramblers - Bray Wanderers | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.56 | 8 |
-| Kerry - Finn Harps | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.44 | 7 |
+| Ucd - Cork City | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.93 | 8 |
+| Cobh Ramblers - Bray Wanderers | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.76 | 8 |
+| Kerry - Finn Harps | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.41 | 7 |
 | Hyde - Chester | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 4.25 | 7 |
 | Afc Rushden & - Banbury United | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.27 | 8 |
-| Limavady Unite - Linfield | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 5.39 | 6 |
+| Limavady Unite - Linfield | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 4.98 | 7 |
 | Enfield Town - Worthing | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.97 | 7 |
-| St Patricks - Dundalk | İrlanda Premier Lig | 22:00 | Veri bekleniyor | - | 1.28 | 6 |
+| St Patricks - Dundalk | İrlanda Premier Lig | 22:00 | Veri bekleniyor | - | 1.23 | 6 |
 | Odra Opole - Arka Gdynia | Polonya 1.Lig | 22:00 | Veri bekleniyor | - | 2.7 | 8 |
-| Njardvik - Hk Kopavogur | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 2.09 | 6 |
+| Njardvik - Hk Kopavogur | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 2.13 | 6 |
 | Fjolnir - Haukar | İzlanda 2.Lig | 22:15 | Veri bekleniyor | - | 2.92 | 6 |
 | Gimnasia Mendo - Corboda Santiag | Arjantin Premier Lig 2. Aşama | 22:45 | Veri bekleniyor | - | 1.72 | 8 |
-| Guatemala U20 - Kosta Rika (U20 | CONCACAF U20 Grup B | 23:00 | Veri bekleniyor | - | 5.94 | 6 |
+| Guatemala U20 - Kosta Rika (U20 | CONCACAF U20 Grup B | 23:00 | Veri bekleniyor | - | 5.72 | 6 |
 | Alianza Atleti - Chankas Cyc | Peru Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 1.39 | 7 |
 | Vikingur Reykj - Keflavik | İzlanda Urvalsdeild | 23:00 | Veri bekleniyor | - | 1.09 | 4 |
 | Hviti - Kari | İzlanda 2.Lig | 23:00 | Veri bekleniyor | - | 2.43 | 6 |
