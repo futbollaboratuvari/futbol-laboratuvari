@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 10:24:38
+Oluşturma: 24.07.2026 12:33:35
 
 ## Özet
 
-- Toplam tahmin: 80
-- Bekleyen tahmin: 80
+- Toplam tahmin: 82
+- Bekleyen tahmin: 82
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,14 @@ Oluşturma: 24.07.2026 10:24:38
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
-- MS X: toplam 49, bekleyen 49, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
+- MS X: toplam 50, bekleyen 50, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Hazırlık Kulüpler | Ebbsfleet - Cardiff Mu | MS 2 | pending | 60/100
+- 2026-07-24 | Polonya 2.Lig | Znicz Pruszkow - Resovia Rzeszow | MS X | pending | 80/100
 - 2026-07-24 | Hazırlık Kulüpler | Southport - United Of Manch | MS 2 | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Elche - Johor Dt | MS 2 | pending | 70/100
 - 2026-07-24 | Hazırlık Kulüpler | Al Ettifaq - York | MS X | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 24.07.2026 10:24:38
 - 2026-07-24 | Polonya 1.Lig | Polonia Bytom - Warta Poznan | MS X | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Rosenborg - Man. Utd | MS 1 | pending | 55/100
 - 2026-07-24 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | MS 2 | pending | 50/100
-- 2026-07-24 | Finlandiya Ykkönen | Tampere Utd - Inter Turku Ii | MS 2 | pending | 40/100
-- 2026-07-24 | Hazırlık Kulüpler | Prest - Cambridge | MS X | pending | 70/100
 

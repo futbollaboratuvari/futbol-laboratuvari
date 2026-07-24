@@ -2,21 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 118
-Aktif mac: 118
-Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 93
+Ham mac: 135
+Aktif mac: 113
+Canli mac: 6
+Biten mac: 16
+Bultenden dusurulen mac: 22
+Bugun: 88
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-07-24 12:00 | Hazırlık Kulüpler | Prest - Cambridge | scheduled | -
-- 2026-07-24 12:00 | Hazırlık Kulüpler | Amiens - Boulogne | scheduled | -
-- 2026-07-24 12:30 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | scheduled | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong City | scheduled | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | St. Albans Sai - Hume City | scheduled | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | Heidelberg Uni - Caroline S. | scheduled | -
 - 2026-07-24 13:15 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | scheduled | -
 - 2026-07-24 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Cheonan City Fc | scheduled | -
 - 2026-07-24 13:30 | Güney Kore K Lig 2 | Gimhae City - Cheongju Fc | scheduled | -
@@ -32,6 +26,7 @@ Yarin: 25
 - 2026-07-24 17:00 | Hazırlık Kulüpler | Derby County - Freiburg | scheduled | -
 - 2026-07-24 17:00 | Hazırlık Kulüpler | Amiens - Boulogne | scheduled | -
 - 2026-07-24 17:00 | Litvanya 1.Lig | Tauras - Kauno Zalgiris | scheduled | -
+- 2026-07-24 18:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | scheduled | -
 - 2026-07-24 18:30 | Romanya 1.Lig | Uta Arad - Otelul Galati | scheduled | -
 - 2026-07-24 19:00 | Polonya Ekstraklasa | Radomiak Radom - Ks Wieczysta Kr | scheduled | -
 - 2026-07-24 19:00 | Finlandiya Veikkausliiga | Jaro - Seinajoen Jk | scheduled | -
@@ -131,7 +126,27 @@ Yarin: 25
 - 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-24 12:00 | Hazırlık Kulüpler | Prest - Cambridge | live | -
+- 2026-07-24 12:00 | Hazırlık Kulüpler | Amiens - Boulogne | live | -
+- 2026-07-24 12:30 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | live | -
+- 2026-07-24 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong City | live | -
+- 2026-07-24 12:30 | Avustralya NPL Victoria | St. Albans Sai - Hume City | live | -
+- 2026-07-24 12:30 | Avustralya NPL Victoria | Heidelberg Uni - Caroline S. | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | finished | -
+- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | finished | -
+- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | finished | -
+- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | finished | -
+- 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | finished | -
+- 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | finished | -
+- 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | finished | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | finished | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | finished | -
+- 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | finished | -
+- 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | finished | -
+- 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | finished | -
