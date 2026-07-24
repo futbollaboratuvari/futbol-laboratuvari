@@ -2,19 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 121
-Aktif mac: 112
-Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 88
+Ham mac: 123
+Aktif mac: 108
+Canli mac: 7
+Biten mac: 8
+Bultenden dusurulen mac: 15
+Bugun: 84
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | scheduled | -
-- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | scheduled | -
-- 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | scheduled | -
-- 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | scheduled | -
 - 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | scheduled | -
 - 2026-07-24 12:00 | Hazırlık Kulüpler | Prest - Cambridge | scheduled | -
 - 2026-07-24 12:30 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | scheduled | -
@@ -125,15 +121,20 @@ Yarin: 24
 - 2026-07-25 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Queanbeyan City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | live | -
-- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | live | -
-- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | live | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | live | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | live | -
-- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | live | -
 - 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | live | -
 - 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | live | -
 - 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | live | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | live | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | live | -
+- 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | live | -
+- 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | finished | -
+- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | finished | -
+- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | finished | -
+- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | finished | -

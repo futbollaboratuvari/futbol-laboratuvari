@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 03:12:48
+Oluşturma: 24.07.2026 04:08:32
 
 ## Özet
 
-- Toplam tahmin: 65
-- Bekleyen tahmin: 65
+- Toplam tahmin: 68
+- Bekleyen tahmin: 68
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,15 @@ Oluşturma: 24.07.2026 03:12:48
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
-- MS X: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- MS X: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | MS 2 | pending | 50/100
+- 2026-07-24 | Finlandiya Ykkönen | Tampere Utd - Inter Turku Ii | MS 2 | pending | 40/100
+- 2026-07-24 | Hazırlık Kulüpler | Prest - Cambridge | MS X | pending | 70/100
 - 2026-07-24 | Hazırlık Kulüpler | Benfica - Cf Os Belenense | MS 2 | pending | 40/100
 - 2026-07-24 | Hazırlık Kulüpler | Wolfsburg - Lyon | MS X | pending | 40/100
 - 2026-07-24 | Hazırlık Kulüpler | Osasuna - Santander | MS X | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 24.07.2026 03:12:48
 - 2026-07-24 | Macaristan NB I | Nyiregyhaza - Ujpest | MS X | pending | 50/100
 - 2026-07-24 | Bulgaristan 1.Lig | Arda Kardzhali - Slavia Sofia | MS 2 | pending | 50/100
 - 2026-07-24 | İsviçre Challenge Lig | Etoile Carouge - Aarau | MS X | pending | 45/100
-- 2026-07-24 | İsviçre Challenge Lig | Winterthur - Yverdon | MS X | pending | 60/100
-- 2026-07-24 | Polonya Ekstraklasa | Pogon Szczecin - Legia Varşova | MS X | pending | 40/100
-- 2026-07-24 | İrlanda 1.Lig | Treaty Unt. - Athlone | MS X | pending | 50/100
 
