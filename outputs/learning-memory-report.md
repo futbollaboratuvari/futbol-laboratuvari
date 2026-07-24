@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 25.07.2026 00:48:46
-=======
-Oluşturma: 25.07.2026 00:50:41
->>>>>>> Stashed changes
+Oluşturma: 25.07.2026 00:53:59
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 1
+- Bekleyen tahmin: 1
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 1
+- Seçenek sayısı: 1
 
 ## Öğrenme Mantığı
 
@@ -24,8 +20,9 @@ Oluşturma: 25.07.2026 00:50:41
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | Peru Premier Lig Clausura | Juan Pablo Ii - Cienciano | MS X | pending | 50/100
 
