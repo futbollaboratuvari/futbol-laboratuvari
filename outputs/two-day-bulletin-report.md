@@ -3,20 +3,14 @@
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
 Ham mac: 119
-Aktif mac: 113
-Canli mac: 6
+Aktif mac: 107
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 88
+Bultenden dusurulen mac: 12
+Bugun: 82
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-07-24 13:15 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | scheduled | -
-- 2026-07-24 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Cheonan City Fc | scheduled | -
-- 2026-07-24 13:30 | Güney Kore K Lig 2 | Gimhae City - Cheongju Fc | scheduled | -
-- 2026-07-24 13:30 | Avustralya NPL Victoria | Preston Lions - Bentleigh Green | scheduled | -
-- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Brunswick City - Western Utd. Ii | scheduled | -
-- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Melbourne Srbij | scheduled | -
 - 2026-07-24 14:00 | Hazırlık Kulüpler | Swansea - Udinese | scheduled | -
 - 2026-07-24 15:00 | Hazırlık Kulüpler | Wolfsburg - Lyon | scheduled | -
 - 2026-07-24 15:00 | Hazırlık Kulüpler | Lommel - Den Haag | scheduled | -
@@ -132,6 +126,12 @@ Yarin: 25
 - 2026-07-24 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong City | live | -
 - 2026-07-24 12:30 | Avustralya NPL Victoria | St. Albans Sai - Hume City | live | -
 - 2026-07-24 12:30 | Avustralya NPL Victoria | Heidelberg Uni - Caroline S. | live | -
+- 2026-07-24 13:15 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | live | -
+- 2026-07-24 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Cheonan City Fc | live | -
+- 2026-07-24 13:30 | Güney Kore K Lig 2 | Gimhae City - Cheongju Fc | live | -
+- 2026-07-24 13:30 | Avustralya NPL Victoria | Preston Lions - Bentleigh Green | live | -
+- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Brunswick City - Western Utd. Ii | live | -
+- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Melbourne Srbij | live | -
 
 ## Biten Maclar
 Biten mac yok.

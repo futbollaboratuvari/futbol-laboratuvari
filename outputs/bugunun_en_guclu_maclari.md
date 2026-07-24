@@ -2,28 +2,22 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-24T09:58:05.353Z
+- Güncelleme: 2026-07-24T10:52:02.535Z
 - Ham maç sayısı: 119
 - Yarın bülteni maç sayısı: 25
 - Detay blok sayısı: 331
-- Aktif bülten maçı: 113
-- Bültenden düşürülen maç: 6
+- Aktif bülten maçı: 107
+- Bültenden düşürülen maç: 12
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Oakleigh Canno - South Melbourne | Avustralya NPL Victoria | 13:15 | Veri bekleniyor | - | 1.56 | 8 |
-| Seoul E-Land - Cheonan City Fc | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.28 | 6 |
-| Gimhae City - Cheongju Fc | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.74 | 8 |
-| Preston Lions - Bentleigh Green | Avustralya NPL Victoria | 13:30 | Veri bekleniyor | - | 1.17 | 6 |
-| Brunswick City - Western Utd. Ii | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.73 | 5 |
-| Eltham Redback - Melbourne Srbij | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.7 | 6 |
 | Swansea - Udinese | Hazırlık Kulüpler | 14:00 | Veri bekleniyor | - | 3.16 | 8 |
 | Wolfsburg - Lyon | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 3.72 | 7 |
-| Lommel - Den Haag | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.33 | 8 |
-| Kamboçya - Singapur | AFF Şampiyonası Grup A | 15:00 | Veri bekleniyor | - | 2.65 | 8 |
+| Lommel - Den Haag | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.3 | 8 |
+| Kamboçya - Singapur | AFF Şampiyonası Grup A | 15:00 | Veri bekleniyor | - | 2.59 | 8 |
 | Dogu Timor - Vietnam | AFF Şampiyonası Grup A | 16:30 | Veri bekleniyor | - | 17.1 | 4 |
-| Bournemouth - St Pauli | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.4 | 7 |
+| Bournemouth - St Pauli | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.36 | 7 |
 | Derby County - Freiburg | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 3.51 | 8 |
 | Amiens - Boulogne | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 2.45 | 8 |
 | Tauras - Kauno Zalgiris | Litvanya 1.Lig | 17:00 | Veri bekleniyor | - | 1.1 | 4 |
@@ -32,10 +26,10 @@
 | Radomiak Radom - Ks Wieczysta Kr | Polonya Ekstraklasa | 19:00 | Veri bekleniyor | - | 2.26 | 8 |
 | Jaro - Seinajoen Jk | Finlandiya Veikkausliiga | 19:00 | Veri bekleniyor | - | 2.8 | 8 |
 | Cremonese - Giana Erminio | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | - | 3 |
-| Rosenborg - Man. Utd | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 4.42 | 6 |
+| Rosenborg - Man. Utd | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 4.15 | 6 |
 | Polonia Bytom - Warta Poznan | Polonya 1.Lig | 19:00 | Veri bekleniyor | - | 1.61 | 8 |
 | Fa Siauliai - Hegelmann | Litvanya A Ligi | 19:00 | Veri bekleniyor | - | 2.33 | 8 |
-| Vejle - Ab Gladsaxe | Danimarka 1.Lig | 19:00 | Veri bekleniyor | - | 1.42 | 7 |
+| Vejle - Ab Gladsaxe | Danimarka 1.Lig | 19:00 | Veri bekleniyor | - | 1.46 | 7 |
 | Znicz Pruszkow - Resovia Rzeszow | Polonya 2.Lig | 19:00 | Veri bekleniyor | - | 1.65 | 8 |
 | Tampere Utd - Inter Turku Ii | Finlandiya Ykkönen | 19:00 | Veri bekleniyor | - | 1.09 | 6 |
 | Fc Jazz - Tpv Tampere | Finlandiya Ykkönen | 19:00 | Veri bekleniyor | - | 1.77 | 8 |
@@ -44,18 +38,18 @@
 | Lac-Ic - Favoritner | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 3.73 | 4 |
 | Wieselburg - Wattens | Avusturya ÖFB Kupası 1.Tur | 19:30 | Veri bekleniyor | - | 17.1 | 4 |
 | Fc Dornbirn 19 - Ried | Avusturya ÖFB Kupası 1.Tur | 19:30 | Veri bekleniyor | - | 15.8 | 5 |
-| Cska Moskova - Baltika Kalinin | Rusya Premier Lig | 20:00 | Veri bekleniyor | - | 1.92 | 8 |
+| Cska Moskova - Baltika Kalinin | Rusya Premier Lig | 20:00 | Veri bekleniyor | - | 1.84 | 8 |
 | Viborg - Odense | Danimarka Süperlig | 20:00 | Veri bekleniyor | - | 1.65 | 8 |
 | Vasteras - Orgryte | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.36 | 7 |
 | Elche - Johor Dt | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.44 | 7 |
-| Antwerp - Olympiakos | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3 | 8 |
+| Antwerp - Olympiakos | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3.62 | 8 |
 | Leobendorf - Altach | Avusturya ÖFB Kupası 1.Tur | 20:00 | Veri bekleniyor | - | 9.66 | 6 |
 | Lafnitz - Scheiblingkirch | Avusturya ÖFB Kupası 1.Tur | 20:00 | Veri bekleniyor | - | 1.6 | 8 |
 | Lauterach - Wolfsberger | Avusturya ÖFB Kupası 1.Tur | 20:00 | Veri bekleniyor | - | 17.1 | 2 |
 | Deutschlandsbe - Amstetten | Avusturya ÖFB Kupası 1.Tur | 20:00 | Veri bekleniyor | - | 5.3 | 6 |
 | Velden - Austria Klagenf | Avusturya ÖFB Kupası 1.Tur | 20:00 | Veri bekleniyor | - | 1.97 | 8 |
 | Aalborg - Hillerod | Danimarka 1.Lig | 20:00 | Veri bekleniyor | - | 1.79 | 8 |
-| Benfica - Cf Os Belenense | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.2 | 6 |
+| Benfica - Cf Os Belenense | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.21 | 6 |
 | Al Ettifaq - York | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.54 | 8 |
 | Sv Gloggnitz - Rapid Vienna (A | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.94 | 6 |
 | Emmen - Twente | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.63 | 8 |
@@ -65,16 +59,16 @@
 | Tillmitsch - St Polten | Avusturya ÖFB Kupası 1.Tur | 20:30 | Veri bekleniyor | - | 9.28 | 6 |
 | Union Gurten - Blau-Weiss Linz | Avusturya ÖFB Kupası 1.Tur | 20:30 | Veri bekleniyor | - | 4.59 | 7 |
 | Traiskirchen - Bleiburg | Avusturya ÖFB Kupası 1.Tur | 20:30 | Veri bekleniyor | - | 1.08 | 6 |
-| Rappersvil Jon - Wil | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 2.38 | 8 |
+| Rappersvil Jon - Wil | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 2.45 | 8 |
 | Stade Ouchy - Stade Nyonnais | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 1.29 | 6 |
 | Neuchatel Xama - Sc Kriens | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 1.63 | 8 |
 | Braunschweig - Southam | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 3.71 | 7 |
 | Cacereno - Real Jaen | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.04 | 8 |
 | Nyiregyhaza - Ujpest | Macaristan NB I | 21:00 | Veri bekleniyor | - | 2 | 8 |
 | Völsungur - Grindavik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.81 | 6 |
-| Ebbsfleet - Cardiff Mu | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.47 | 7 |
+| Ebbsfleet - Cardiff Mu | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.42 | 7 |
 | Arda Kardzhali - Slavia Sofia | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.44 | 7 |
-| Etoile Carouge - Aarau | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 3 | 8 |
+| Etoile Carouge - Aarau | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 2.92 | 8 |
 | Winterthur - Yverdon | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 1.86 | 8 |
 | Pogon Szczecin - Legia Varşova | Polonya Ekstraklasa | 21:30 | Veri bekleniyor | - | 2.42 | 8 |
 | Seekirchen 194 - Sturm Graz | Avusturya ÖFB Kupası 1.Tur | 21:30 | Veri bekleniyor | - | 17.1 | 3 |
@@ -96,7 +90,7 @@
 | Njardvik - Hk Kopavogur | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.91 | 6 |
 | Fjolnir - Haukar | İzlanda 2.Lig | 22:15 | Veri bekleniyor | - | 2.8 | 6 |
 | Gimnasia Mendo - Corboda Santiag | Arjantin Premier Lig 2. Aşama | 22:45 | Veri bekleniyor | - | 1.62 | 7 |
-| Guatemala U20 - Kosta Rika (U20 | CONCACAF U20 Grup B | 23:00 | Veri bekleniyor | - | 5.87 | 6 |
+| Guatemala U20 - Kosta Rika (U20 | CONCACAF U20 Grup B | 23:00 | Veri bekleniyor | - | 5.51 | 6 |
 | Alianza Atleti - Chankas Cyc | Peru Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 1.49 | 7 |
 | Vikingur Reykj - Keflavik | İzlanda Urvalsdeild | 23:00 | Veri bekleniyor | - | 1.08 | 4 |
 | Hviti - Kari | İzlanda 2.Lig | 23:00 | Veri bekleniyor | - | 2.43 | 6 |
