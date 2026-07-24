@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 10:21:42
+Oluşturma: 24.07.2026 10:24:38
 
 ## Özet
 
-- Toplam tahmin: 73
-- Bekleyen tahmin: 73
+- Toplam tahmin: 80
+- Bekleyen tahmin: 80
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,19 @@ Oluşturma: 24.07.2026 10:21:42
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
-- MS X: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
+- MS X: toplam 49, bekleyen 49, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Hazırlık Kulüpler | Southport - United Of Manch | MS 2 | pending | 50/100
+- 2026-07-24 | Hazırlık Kulüpler | Elche - Johor Dt | MS 2 | pending | 70/100
+- 2026-07-24 | Hazırlık Kulüpler | Al Ettifaq - York | MS X | pending | 60/100
+- 2026-07-24 | Hazırlık Kulüpler | Emmen - Twente | MS X | pending | 70/100
+- 2026-07-24 | Hazırlık Kulüpler | Braunschweig - Southam | MS 1 | pending | 45/100
+- 2026-07-24 | Hazırlık Kulüpler | Ebbsfleet - Cardiff Mu | MS X | pending | 60/100
+- 2026-07-24 | Hazırlık Kulüpler | Amiens - Boulogne | MS X | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Derby County - Freiburg | MS 1 | pending | 55/100
 - 2026-07-24 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | MS 2 | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Bournemouth - St Pauli | MS 2 | pending | 60/100
@@ -34,11 +41,4 @@ Oluşturma: 24.07.2026 10:21:42
 - 2026-07-24 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | MS 2 | pending | 50/100
 - 2026-07-24 | Finlandiya Ykkönen | Tampere Utd - Inter Turku Ii | MS 2 | pending | 40/100
 - 2026-07-24 | Hazırlık Kulüpler | Prest - Cambridge | MS X | pending | 70/100
-- 2026-07-24 | Hazırlık Kulüpler | Benfica - Cf Os Belenense | MS 2 | pending | 40/100
-- 2026-07-24 | Hazırlık Kulüpler | Wolfsburg - Lyon | MS X | pending | 40/100
-- 2026-07-24 | Hazırlık Kulüpler | Osasuna - Santander | MS X | pending | 50/100
-- 2026-07-24 | Avusturya ÖFB Kupası 1.Tur | Tillmitsch - St Polten | MS X | pending | 40/100
-- 2026-07-24 | Avusturya ÖFB Kupası 1.Tur | Traiskirchen - Bleiburg | MS X | pending | 40/100
-- 2026-07-24 | İsviçre Challenge Lig | Rappersvil Jon - Wil | MS X | pending | 50/100
-- 2026-07-24 | İsviçre Challenge Lig | Stade Ouchy - Stade Nyonnais | MS 2 | pending | 40/100
 
