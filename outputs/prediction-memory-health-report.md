@@ -1,10 +1,10 @@
 # Tahmin Kayit Saglik Kontrolu
 
 Durum: ok
-Robot analiz maci: 83
+Robot analiz maci: 79
 Aday tahmin: 6
-Toplam tahmin: 87
-Bekleyen: 87
+Toplam tahmin: 88
+Bekleyen: 88
 Kazanan: 0
 Kaybeden: 0
 Eksik kayit: 0

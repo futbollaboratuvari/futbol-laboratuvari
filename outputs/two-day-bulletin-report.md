@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 106
-Aktif mac: 101
-Canli mac: 5
+Ham mac: 105
+Aktif mac: 99
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 75
+Bultenden dusurulen mac: 6
+Bugun: 73
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-24 18:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | scheduled | -
-- 2026-07-24 18:30 | Romanya 1.Lig | Uta Arad - Otelul Galati | scheduled | -
 - 2026-07-24 19:00 | Polonya Ekstraklasa | Radomiak Radom - Ks Wieczysta Kr | scheduled | -
 - 2026-07-24 19:00 | Finlandiya Veikkausliiga | Jaro - Seinajoen Jk | scheduled | -
 - 2026-07-24 19:00 | Hazırlık Kulüpler | Cremonese - Giana Erminio | scheduled | -
@@ -114,11 +112,12 @@ Yarin: 26
 - 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 16:30 | AFF Şampiyonası Grup A | Dogu Timor - Vietnam | live | -
 - 2026-07-24 17:00 | Hazırlık Kulüpler | Bournemouth - St Pauli | live | -
 - 2026-07-24 17:00 | Hazırlık Kulüpler | Derby County - Freiburg | live | -
 - 2026-07-24 17:00 | Hazırlık Kulüpler | Amiens - Boulogne | live | -
 - 2026-07-24 17:00 | Litvanya 1.Lig | Tauras - Kauno Zalgiris | live | -
+- 2026-07-24 18:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | live | -
+- 2026-07-24 18:30 | Romanya 1.Lig | Uta Arad - Otelul Galati | live | -
 
 ## Biten Maclar
 Biten mac yok.
