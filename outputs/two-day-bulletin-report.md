@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 117
+Ham mac: 113
 Aktif mac: 106
-Canli mac: 11
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 11
+Bultenden dusurulen mac: 7
 Bugun: 81
 Yarin: 25
 
@@ -119,10 +119,6 @@ Yarin: 25
 - 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 12:30 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | live | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong City | live | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | St. Albans Sai - Hume City | live | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | Heidelberg Uni - Caroline S. | live | -
 - 2026-07-24 13:15 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | live | -
 - 2026-07-24 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Cheonan City Fc | live | -
 - 2026-07-24 13:30 | Güney Kore K Lig 2 | Gimhae City - Cheongju Fc | live | -
