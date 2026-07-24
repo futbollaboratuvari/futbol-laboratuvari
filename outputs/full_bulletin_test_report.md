@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 31
-- Live match count: 37
-- Finished removed count: 31
+- Scheduled match count: 26
+- Live match count: 18
+- Finished removed count: 0
 - Date window: 2026-07-24 / 2026-07-25 23:59
 
-- 2026-07-24 20:15 | Koblenz - Fc Giessen | live
-- 2026-07-24 20:30 | Leoben - Voitsberg | live
-- 2026-07-24 20:30 | Sv Horn - Floridsdorfer | live
-- 2026-07-24 20:30 | Tillmitsch - St Polten | live
-- 2026-07-24 20:30 | Traiskirchen - Bleiburg | live
-- 2026-07-24 20:30 | Union Gurten - Blau-Weiss Linz | live
-- 2026-07-24 20:30 | Osasuna - Santander | live
-- 2026-07-24 20:30 | Neuchatel Xama - Sc Kriens | live
-- 2026-07-24 20:30 | Rappersvil Jon - Wil | live
-- 2026-07-24 20:30 | Stade Ouchy - Stade Nyonnais | live
+- 2026-07-24 21:45 | Afc Rushden & - Banbury United | live
+- 2026-07-24 21:45 | Enfield Town - Worthing | live
+- 2026-07-24 21:45 | Hyde - Chester | live
+- 2026-07-24 21:45 | Limavady Unite - Linfield | live
+- 2026-07-24 21:45 | Southport - United Of Manch | live
+- 2026-07-24 21:45 | Cobh Ramblers - Bray Wanderers | live
+- 2026-07-24 21:45 | Kerry - Finn Harps | live
+- 2026-07-24 21:45 | Treaty Unt. - Athlone | live
+- 2026-07-24 21:45 | Ucd - Cork City | live
+- 2026-07-24 22:00 | St Patricks - Dundalk | live

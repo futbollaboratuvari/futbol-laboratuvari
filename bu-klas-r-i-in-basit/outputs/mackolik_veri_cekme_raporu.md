@@ -1,25 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-24T19:06:01.732976+00:00
+Tarih: 2026-07-24T20:41:01.418036+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 7
+- Kac mac bulundu: 26
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 7
+- Kac mac zaten vardi: 26
 - Ham veri havuzu toplam mac sayisi: 2863
 - Hedef tarih: 24.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 2 Konferans Final
 - Arjantin Premier Lig 2. Aşama
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
+- Avustralya Victoria NPL 1
+- Bolivya Premier Lig
 - CONCACAF U20 Grup B
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Peru Premier Lig Clausura
-- İzlanda 1.Lig
-- İzlanda 2.Lig
-- İzlanda Urvalsdeild
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -76,8 +88,8 @@ Tarih: 2026-07-24T19:06:01.732976+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 20
+- Acilan detay: 20
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -90,13 +102,26 @@ Tarih: 2026-07-24T19:06:01.732976+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 24.07.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo | Corboda Santiag | 15350 | 5 |
-| 24.07.2026 | 23:00 | CONCACAF U20 Grup B | Guatemala U20 | Kosta Rika (U20 | 09190 | 5 |
-| 24.07.2026 | 23:00 | Peru Premier Lig Clausura | Alianza Atleti | Chankas Cyc | 15416 | 5 |
-| 24.07.2026 | 23:00 | İzlanda Urvalsdeild | Vikingur Reykj | Keflavik | 17348 | 3 |
-| 24.07.2026 | 22:15 | İzlanda 1.Lig | Njardvik | Hk Kopavogur | 17346 | 3 |
-| 24.07.2026 | 23:00 | İzlanda 2.Lig | Hviti | Kari | 15433 | 3 |
-| 24.07.2026 | 22:15 | İzlanda 2.Lig | Fjolnir | Haukar | 15333 | 3 |
+| 25.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club | Gimnasia La Pla | 15483 | 5 |
+| 25.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Instituto Cordo | 15597 | 5 |
+| 25.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Huracan | Banfield | 16217 | 5 |
+| 25.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Platense | Union Santa Fe | 16425 | 5 |
+| 25.07.2026 | 06:00 | Meksika Liga MX Apertura | Club Tijuana | Club Leon | 16628 | 5 |
+| 25.07.2026 | 06:00 | Meksika Liga MX Apertura | Atlante | Club America | 16586 | 5 |
+| 25.07.2026 | 02:00 | CONCACAF U20 Grup B | Meksika (U20) | Antigua And Bar | 00182 | 2 |
+| 25.07.2026 | 04:30 | Peru Premier Lig Clausura | Universitario | Cusco Fc | 16519 | 5 |
+| 25.07.2026 | 03:30 | Şili Premier Lig | Colo Colo | Deportes Limach | 16485 | 5 |
+| 25.07.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque | Danubio | 01512 | 5 |
+| 25.07.2026 | 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De | Durango | 15937 | 5 |
+| 25.07.2026 | 04:00 | Meksika Ascenso MX Apertura | Zacatecas | Correcaminos Ua | 16502 | 5 |
+| 25.07.2026 | 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr | Perez Zeledon | 16536 | 5 |
+| 25.07.2026 | 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem | Marquense | 01307 | 5 |
+| 25.07.2026 | 05:00 | Guatemala Ulusal Lig Apertura | Municipal | Mixco | 12602 | 5 |
+| 25.07.2026 | 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp | Queanbeyan City | 16687 | 3 |
+| 25.07.2026 | 07:30 | Avustralya NPL Tazmanya | Riverside Olym | Launceston City | 05833 | 3 |
+| 25.07.2026 | 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni | Lambton Jaffas | 16670 | 3 |
+| 25.07.2026 | 05:00 | Kanada Premier Lig | Vancouver Fc | Cavalry | 16553 | 5 |
+| 25.07.2026 | 01:00 | Kanada Premier Lig | Hfx Wanderers | Supra Du Quebec | 15450 | 5 |
 
 ## Sonuc
 
