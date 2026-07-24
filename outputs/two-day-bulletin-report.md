@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 108
-Aktif mac: 108
+Ham mac: 132
+Aktif mac: 116
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 83
+Biten mac: 16
+Bultenden dusurulen mac: 16
+Bugun: 91
 Yarin: 25
 
 ## Baslamamis Maclar
@@ -59,6 +59,8 @@ Yarin: 25
 - 2026-07-24 20:00 | Avusturya ÖFB Kupası 1.Tur | Velden - Austria Klagenf | scheduled | -
 - 2026-07-24 20:00 | Danimarka 1.Lig | Aalborg - Hillerod | scheduled | -
 - 2026-07-24 20:00 | Hazırlık Kulüpler | Benfica - Cf Os Belenense | scheduled | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Al Ettifaq - York | scheduled | -
+- 2026-07-24 20:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | scheduled | -
 - 2026-07-24 20:30 | Hazırlık Kulüpler | Osasuna - Santander | scheduled | -
 - 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Leoben - Voitsberg | scheduled | -
 - 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Sv Horn - Floridsdorfer | scheduled | -
@@ -72,6 +74,7 @@ Yarin: 25
 - 2026-07-24 21:00 | Hazırlık Kulüpler | Cacereno - Real Jaen | scheduled | -
 - 2026-07-24 21:00 | Macaristan NB I | Nyiregyhaza - Ujpest | scheduled | -
 - 2026-07-24 21:00 | İzlanda 1.Lig | Völsungur - Grindavik | scheduled | -
+- 2026-07-24 21:00 | Hazırlık Kulüpler | Ebbsfleet - Cardiff Mu | scheduled | -
 - 2026-07-24 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Slavia Sofia | scheduled | -
 - 2026-07-24 21:15 | İsviçre Challenge Lig | Etoile Carouge - Aarau | scheduled | -
 - 2026-07-24 21:15 | İsviçre Challenge Lig | Winterthur - Yverdon | scheduled | -
@@ -80,11 +83,16 @@ Yarin: 25
 - 2026-07-24 21:30 | Romanya 1.Lig | Argesul Pitest - Petrolul 52 | scheduled | -
 - 2026-07-24 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Jwaya | scheduled | -
 - 2026-07-24 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Ansar | scheduled | -
+- 2026-07-24 21:30 | Hazırlık Kulüpler | Felixstowe & W - Needham Market | scheduled | -
 - 2026-07-24 21:45 | Hazırlık Kulüpler | Southport - United Of Manch | scheduled | -
 - 2026-07-24 21:45 | İrlanda 1.Lig | Treaty Unt. - Athlone | scheduled | -
 - 2026-07-24 21:45 | İrlanda 1.Lig | Ucd - Cork City | scheduled | -
 - 2026-07-24 21:45 | İrlanda 1.Lig | Cobh Ramblers - Bray Wanderers | scheduled | -
 - 2026-07-24 21:45 | İrlanda 1.Lig | Kerry - Finn Harps | scheduled | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Hyde - Chester | scheduled | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Afc Rushden & - Banbury United | scheduled | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Limavady Unite - Linfield | scheduled | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Enfield Town - Worthing | scheduled | -
 - 2026-07-24 22:00 | İrlanda Premier Lig | St Patricks - Dundalk | scheduled | -
 - 2026-07-24 22:00 | Polonya 1.Lig | Odra Opole - Arka Gdynia | scheduled | -
 - 2026-07-24 22:15 | İzlanda 1.Lig | Njardvik - Hk Kopavogur | scheduled | -
@@ -124,4 +132,19 @@ Yarin: 25
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | finished | -
+- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | finished | -
+- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | finished | -
+- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | finished | -
+- 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | finished | -
+- 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | finished | -
+- 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | finished | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | finished | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | finished | -
+- 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | finished | -
+- 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | finished | -
+- 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | finished | -
