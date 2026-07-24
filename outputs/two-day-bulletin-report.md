@@ -2,42 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 99
-Aktif mac: 58
-Canli mac: 41
+Ham mac: 83
+Aktif mac: 31
+Canli mac: 52
 Biten mac: 0
-Bultenden dusurulen mac: 41
-Bugun: 32
+Bultenden dusurulen mac: 52
+Bugun: 5
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-24 21:00 | Hazırlık Kulüpler | Braunschweig - Southam | scheduled | -
-- 2026-07-24 21:00 | Hazırlık Kulüpler | Cacereno - Real Jaen | scheduled | -
-- 2026-07-24 21:00 | Macaristan NB I | Nyiregyhaza - Ujpest | scheduled | -
-- 2026-07-24 21:00 | İzlanda 1.Lig | Völsungur - Grindavik | scheduled | -
-- 2026-07-24 21:00 | Hazırlık Kulüpler | Ebbsfleet - Cardiff Mu | scheduled | -
-- 2026-07-24 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Slavia Sofia | scheduled | -
-- 2026-07-24 21:15 | İsviçre Challenge Lig | Etoile Carouge - Aarau | scheduled | -
-- 2026-07-24 21:15 | İsviçre Challenge Lig | Winterthur - Yverdon | scheduled | -
-- 2026-07-24 21:30 | Polonya Ekstraklasa | Pogon Szczecin - Legia Varşova | scheduled | -
-- 2026-07-24 21:30 | Avusturya ÖFB Kupası 1.Tur | Seekirchen 194 - Sturm Graz | scheduled | -
-- 2026-07-24 21:30 | Romanya 1.Lig | Argesul Pitest - Petrolul 52 | scheduled | -
-- 2026-07-24 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Jwaya | scheduled | -
-- 2026-07-24 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Ansar | scheduled | -
-- 2026-07-24 21:30 | Hazırlık Kulüpler | Felixstowe & W - Needham Market | scheduled | -
-- 2026-07-24 21:45 | Hazırlık Kulüpler | Southport - United Of Manch | scheduled | -
-- 2026-07-24 21:45 | İrlanda 1.Lig | Treaty Unt. - Athlone | scheduled | -
-- 2026-07-24 21:45 | İrlanda 1.Lig | Ucd - Cork City | scheduled | -
-- 2026-07-24 21:45 | İrlanda 1.Lig | Cobh Ramblers - Bray Wanderers | scheduled | -
-- 2026-07-24 21:45 | İrlanda 1.Lig | Kerry - Finn Harps | scheduled | -
-- 2026-07-24 21:45 | Hazırlık Kulüpler | Hyde - Chester | scheduled | -
-- 2026-07-24 21:45 | Hazırlık Kulüpler | Afc Rushden & - Banbury United | scheduled | -
-- 2026-07-24 21:45 | Hazırlık Kulüpler | Limavady Unite - Linfield | scheduled | -
-- 2026-07-24 21:45 | Hazırlık Kulüpler | Enfield Town - Worthing | scheduled | -
-- 2026-07-24 22:00 | İrlanda Premier Lig | St Patricks - Dundalk | scheduled | -
-- 2026-07-24 22:00 | Polonya 1.Lig | Odra Opole - Arka Gdynia | scheduled | -
-- 2026-07-24 22:15 | İzlanda 1.Lig | Njardvik - Hk Kopavogur | scheduled | -
-- 2026-07-24 22:15 | İzlanda 2.Lig | Fjolnir - Haukar | scheduled | -
 - 2026-07-24 22:45 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Corboda Santiag | scheduled | -
 - 2026-07-24 23:00 | CONCACAF U20 Grup B | Guatemala U20 - Kosta Rika (U20 | scheduled | -
 - 2026-07-24 23:00 | Peru Premier Lig Clausura | Alianza Atleti - Chankas Cyc | scheduled | -
@@ -71,22 +44,6 @@ Yarin: 26
 - 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 19:00 | Polonya Ekstraklasa | Radomiak Radom - Ks Wieczysta Kr | live | -
-- 2026-07-24 19:00 | Finlandiya Veikkausliiga | Jaro - Seinajoen Jk | live | -
-- 2026-07-24 19:00 | Hazırlık Kulüpler | Cremonese - Giana Erminio | live | -
-- 2026-07-24 19:00 | Hazırlık Kulüpler | Rosenborg - Man. Utd | live | -
-- 2026-07-24 19:00 | Polonya 1.Lig | Polonia Bytom - Warta Poznan | live | -
-- 2026-07-24 19:00 | Litvanya A Ligi | Fa Siauliai - Hegelmann | live | -
-- 2026-07-24 19:00 | Danimarka 1.Lig | Vejle - Ab Gladsaxe | live | -
-- 2026-07-24 19:00 | Polonya 2.Lig | Znicz Pruszkow - Resovia Rzeszow | live | -
-- 2026-07-24 19:00 | Finlandiya Ykkönen | Tampere Utd - Inter Turku Ii | live | -
-- 2026-07-24 19:00 | Finlandiya Ykkönen | Fc Jazz - Tpv Tampere | live | -
-- 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Strani - Fc Vsetin | live | -
-- 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Tatran Vsechov - Unie Hlubina | live | -
-- 2026-07-24 19:00 | Hazırlık Kulüpler | Triglav Kranj - Segesta | live | -
-- 2026-07-24 19:30 | Hazırlık Kulüpler | Lac-Ic - Favoritner | live | -
-- 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Wieselburg - Wattens | live | -
-- 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Fc Dornbirn 19 - Ried | live | -
 - 2026-07-24 20:00 | Rusya Premier Lig | Cska Moskova - Baltika Kalinin | live | -
 - 2026-07-24 20:00 | Danimarka Süperlig | Viborg - Odense | live | -
 - 2026-07-24 20:00 | İsveç Allsvenskan | Vasteras - Orgryte | live | -
@@ -112,6 +69,33 @@ Yarin: 26
 - 2026-07-24 20:30 | İsviçre Challenge Lig | Rappersvil Jon - Wil | live | -
 - 2026-07-24 20:30 | İsviçre Challenge Lig | Stade Ouchy - Stade Nyonnais | live | -
 - 2026-07-24 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Sc Kriens | live | -
+- 2026-07-24 21:00 | Hazırlık Kulüpler | Braunschweig - Southam | live | -
+- 2026-07-24 21:00 | Hazırlık Kulüpler | Cacereno - Real Jaen | live | -
+- 2026-07-24 21:00 | Macaristan NB I | Nyiregyhaza - Ujpest | live | -
+- 2026-07-24 21:00 | İzlanda 1.Lig | Völsungur - Grindavik | live | -
+- 2026-07-24 21:00 | Hazırlık Kulüpler | Ebbsfleet - Cardiff Mu | live | -
+- 2026-07-24 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Slavia Sofia | live | -
+- 2026-07-24 21:15 | İsviçre Challenge Lig | Etoile Carouge - Aarau | live | -
+- 2026-07-24 21:15 | İsviçre Challenge Lig | Winterthur - Yverdon | live | -
+- 2026-07-24 21:30 | Polonya Ekstraklasa | Pogon Szczecin - Legia Varşova | live | -
+- 2026-07-24 21:30 | Avusturya ÖFB Kupası 1.Tur | Seekirchen 194 - Sturm Graz | live | -
+- 2026-07-24 21:30 | Romanya 1.Lig | Argesul Pitest - Petrolul 52 | live | -
+- 2026-07-24 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Jwaya | live | -
+- 2026-07-24 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Ahed - Ansar | live | -
+- 2026-07-24 21:30 | Hazırlık Kulüpler | Felixstowe & W - Needham Market | live | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Southport - United Of Manch | live | -
+- 2026-07-24 21:45 | İrlanda 1.Lig | Treaty Unt. - Athlone | live | -
+- 2026-07-24 21:45 | İrlanda 1.Lig | Ucd - Cork City | live | -
+- 2026-07-24 21:45 | İrlanda 1.Lig | Cobh Ramblers - Bray Wanderers | live | -
+- 2026-07-24 21:45 | İrlanda 1.Lig | Kerry - Finn Harps | live | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Hyde - Chester | live | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Afc Rushden & - Banbury United | live | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Limavady Unite - Linfield | live | -
+- 2026-07-24 21:45 | Hazırlık Kulüpler | Enfield Town - Worthing | live | -
+- 2026-07-24 22:00 | İrlanda Premier Lig | St Patricks - Dundalk | live | -
+- 2026-07-24 22:00 | Polonya 1.Lig | Odra Opole - Arka Gdynia | live | -
+- 2026-07-24 22:15 | İzlanda 1.Lig | Njardvik - Hk Kopavogur | live | -
+- 2026-07-24 22:15 | İzlanda 2.Lig | Fjolnir - Haukar | live | -
 
 ## Biten Maclar
 Biten mac yok.
