@@ -3,15 +3,14 @@
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
 Ham mac: 83
-Aktif mac: 31
-Canli mac: 52
+Aktif mac: 30
+Canli mac: 53
 Biten mac: 0
-Bultenden dusurulen mac: 52
-Bugun: 5
+Bultenden dusurulen mac: 53
+Bugun: 4
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-24 22:45 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Corboda Santiag | scheduled | -
 - 2026-07-24 23:00 | CONCACAF U20 Grup B | Guatemala U20 - Kosta Rika (U20 | scheduled | -
 - 2026-07-24 23:00 | Peru Premier Lig Clausura | Alianza Atleti - Chankas Cyc | scheduled | -
 - 2026-07-24 23:00 | İzlanda Urvalsdeild | Vikingur Reykj - Keflavik | scheduled | -
@@ -96,6 +95,7 @@ Yarin: 26
 - 2026-07-24 22:00 | Polonya 1.Lig | Odra Opole - Arka Gdynia | live | -
 - 2026-07-24 22:15 | İzlanda 1.Lig | Njardvik - Hk Kopavogur | live | -
 - 2026-07-24 22:15 | İzlanda 2.Lig | Fjolnir - Haukar | live | -
+- 2026-07-24 22:45 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Corboda Santiag | live | -
 
 ## Biten Maclar
 Biten mac yok.
