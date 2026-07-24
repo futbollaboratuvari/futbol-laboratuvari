@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 123
+Ham mac: 115
 Aktif mac: 108
 Canli mac: 7
-Biten mac: 8
-Bultenden dusurulen mac: 15
+Biten mac: 0
+Bultenden dusurulen mac: 7
 Bugun: 84
 Yarin: 24
 
@@ -130,11 +130,4 @@ Yarin: 24
 - 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | live | -
 
 ## Biten Maclar
-- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | finished | -
-- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | finished | -
-- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | finished | -
-- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | finished | -
-- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | finished | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | finished | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | finished | -
-- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | finished | -
+Biten mac yok.
