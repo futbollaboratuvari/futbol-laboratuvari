@@ -2,10 +2,10 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 26
+- Scheduled match count: 342
 - Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-07-24 / 2026-07-25 23:59
+- Date window: 2026-07-25 / 2026-07-26 23:59
 
 - 2026-07-25 01:00 | Racing Club - Gimnasia La Pla | scheduled
 - 2026-07-25 01:00 | Velez Sarsfiel - Instituto Cordo | scheduled

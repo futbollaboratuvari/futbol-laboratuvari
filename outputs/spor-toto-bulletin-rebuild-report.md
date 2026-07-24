@@ -1,11 +1,11 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-24T20:41:03.413Z
-- Ham fixture sayisi: 2855
-- Bugun/yarin kaynak mac: 139
-- Aktif bulten maci: 26
+- Guncelleme: 2026-07-24T21:46:30.123Z
+- Ham fixture sayisi: 3171
+- Bugun/yarin kaynak mac: 342
+- Aktif bulten maci: 342
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 113
+- Bultenden dusurulen mac: 0
 
 - 1. 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | scheduled
 - 2. 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club - Gimnasia La Pla | scheduled
