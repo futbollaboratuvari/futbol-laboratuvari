@@ -2,20 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 136
-Aktif mac: 104
-Canli mac: 4
-Biten mac: 28
-Bultenden dusurulen mac: 32
-Bugun: 78
+Ham mac: 109
+Aktif mac: 101
+Canli mac: 8
+Biten mac: 0
+Bultenden dusurulen mac: 8
+Bugun: 75
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-24 16:30 | AFF Şampiyonası Grup A | Dogu Timor - Vietnam | scheduled | -
-- 2026-07-24 17:00 | Hazırlık Kulüpler | Bournemouth - St Pauli | scheduled | -
-- 2026-07-24 17:00 | Hazırlık Kulüpler | Derby County - Freiburg | scheduled | -
-- 2026-07-24 17:00 | Hazırlık Kulüpler | Amiens - Boulogne | scheduled | -
-- 2026-07-24 17:00 | Litvanya 1.Lig | Tauras - Kauno Zalgiris | scheduled | -
 - 2026-07-24 18:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | scheduled | -
 - 2026-07-24 18:30 | Romanya 1.Lig | Uta Arad - Otelul Galati | scheduled | -
 - 2026-07-24 19:00 | Polonya Ekstraklasa | Radomiak Radom - Ks Wieczysta Kr | scheduled | -
@@ -30,6 +25,7 @@ Yarin: 26
 - 2026-07-24 19:00 | Finlandiya Ykkönen | Fc Jazz - Tpv Tampere | scheduled | -
 - 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Strani - Fc Vsetin | scheduled | -
 - 2026-07-24 19:00 | Çek Cumhuriyeti Kupa Ön Eleme 2.Tur | Tatran Vsechov - Unie Hlubina | scheduled | -
+- 2026-07-24 19:00 | Hazırlık Kulüpler | Triglav Kranj - Segesta | scheduled | -
 - 2026-07-24 19:30 | Hazırlık Kulüpler | Lac-Ic - Favoritner | scheduled | -
 - 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Wieselburg - Wattens | scheduled | -
 - 2026-07-24 19:30 | Avusturya ÖFB Kupası 1.Tur | Fc Dornbirn 19 - Ried | scheduled | -
@@ -48,6 +44,7 @@ Yarin: 26
 - 2026-07-24 20:00 | Hazırlık Kulüpler | Al Ettifaq - York | scheduled | -
 - 2026-07-24 20:00 | Hazırlık Kulüpler | Sv Gloggnitz - Rapid Vienna (A | scheduled | -
 - 2026-07-24 20:00 | Hazırlık Kulüpler | Emmen - Twente | scheduled | -
+- 2026-07-24 20:15 | Hazırlık Kulüpler | Koblenz - Fc Giessen | scheduled | -
 - 2026-07-24 20:30 | Hazırlık Kulüpler | Osasuna - Santander | scheduled | -
 - 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Leoben - Voitsberg | scheduled | -
 - 2026-07-24 20:30 | Avusturya ÖFB Kupası 1.Tur | Sv Horn - Floridsdorfer | scheduled | -
@@ -117,37 +114,14 @@ Yarin: 26
 - 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 14:00 | Hazırlık Kulüpler | Swansea - Udinese | live | -
 - 2026-07-24 15:00 | Hazırlık Kulüpler | Wolfsburg - Lyon | live | -
 - 2026-07-24 15:00 | Hazırlık Kulüpler | Lommel - Den Haag | live | -
 - 2026-07-24 15:00 | AFF Şampiyonası Grup A | Kamboçya - Singapur | live | -
+- 2026-07-24 16:30 | AFF Şampiyonası Grup A | Dogu Timor - Vietnam | live | -
+- 2026-07-24 17:00 | Hazırlık Kulüpler | Bournemouth - St Pauli | live | -
+- 2026-07-24 17:00 | Hazırlık Kulüpler | Derby County - Freiburg | live | -
+- 2026-07-24 17:00 | Hazırlık Kulüpler | Amiens - Boulogne | live | -
+- 2026-07-24 17:00 | Litvanya 1.Lig | Tauras - Kauno Zalgiris | live | -
 
 ## Biten Maclar
-- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | finished | -
-- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | finished | -
-- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | finished | -
-- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | finished | -
-- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | finished | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | finished | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | finished | -
-- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | finished | -
-- 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | finished | -
-- 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | finished | -
-- 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | finished | -
-- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | finished | -
-- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | finished | -
-- 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | finished | -
-- 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | finished | -
-- 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | finished | -
-- 2026-07-24 12:00 | Hazırlık Kulüpler | Prest - Cambridge | finished | -
-- 2026-07-24 12:00 | Hazırlık Kulüpler | Amiens - Boulogne | finished | -
-- 2026-07-24 12:30 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | finished | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong City | finished | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | St. Albans Sai - Hume City | finished | -
-- 2026-07-24 12:30 | Avustralya NPL Victoria | Heidelberg Uni - Caroline S. | finished | -
-- 2026-07-24 13:15 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | finished | -
-- 2026-07-24 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Cheonan City Fc | finished | -
-- 2026-07-24 13:30 | Güney Kore K Lig 2 | Gimhae City - Cheongju Fc | finished | -
-- 2026-07-24 13:30 | Avustralya NPL Victoria | Preston Lions - Bentleigh Green | finished | -
-- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Brunswick City - Western Utd. Ii | finished | -
-- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Melbourne Srbij | finished | -
+Biten mac yok.
