@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 135
+Ham mac: 119
 Aktif mac: 113
 Canli mac: 6
-Biten mac: 16
-Bultenden dusurulen mac: 22
+Biten mac: 0
+Bultenden dusurulen mac: 6
 Bugun: 88
 Yarin: 25
 
@@ -134,19 +134,4 @@ Yarin: 25
 - 2026-07-24 12:30 | Avustralya NPL Victoria | Heidelberg Uni - Caroline S. | live | -
 
 ## Biten Maclar
-- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | finished | -
-- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | finished | -
-- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | finished | -
-- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | finished | -
-- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | finished | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | finished | -
-- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | finished | -
-- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | finished | -
-- 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | finished | -
-- 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | finished | -
-- 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | finished | -
-- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | finished | -
-- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | finished | -
-- 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | finished | -
-- 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | finished | -
-- 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | finished | -
+Biten mac yok.
