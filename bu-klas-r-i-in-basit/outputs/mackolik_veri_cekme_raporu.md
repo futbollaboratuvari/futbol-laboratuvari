@@ -1,32 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-24T21:46:27.720120+00:00
-=======
-Tarih: 2026-07-24T21:50:40.702818+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-24T22:45:38.050233+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-<<<<<<< Updated upstream
 - Durum: success
-- Kac mac bulundu: 319
-- Kac mac kaydedildi: 319
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 3182
-=======
-- Durum: error
-- Kac mac bulundu: 250
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
->>>>>>> Stashed changes
+- Kac mac bulundu: 321
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 319
+- Ham veri havuzu toplam mac sayisi: 3184
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
 ## Ligler
 
-<<<<<<< Updated upstream
 - ABD MLS
 - ABD USL
 - ABD USL Lig 1
@@ -34,11 +21,6 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Son 32 Turu
-=======
-- AFF Şampiyonası Grup B
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
->>>>>>> Stashed changes
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
@@ -49,7 +31,6 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 - Avustralya Victoria NPL 1
 - Belarus Kupa Son 16 Turu
 - Bolivya Premier Lig
-<<<<<<< Updated upstream
 - Brezilya Serie A
 - Bulgaristan 1.Lig
 - CONCACAF U20 Grup A
@@ -57,11 +38,6 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
-=======
-- Bulgaristan 1.Lig
-- Danimarka 1.Lig
-- Danimarka Süperlig
->>>>>>> Stashed changes
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -71,10 +47,7 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 - Güney Kore K3 Ligi
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
-<<<<<<< Updated upstream
 - Kosta Rika Premier Lig Apertura
-=======
->>>>>>> Stashed changes
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB I
@@ -83,15 +56,11 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-<<<<<<< Updated upstream
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Meksika Liga MX Şampiyonlar Şampiyonu
 - Moldova Ulusal Lig
 - Nikaragua Premier Lig Apertura
-=======
-- Moldova Ulusal Lig
->>>>>>> Stashed changes
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -127,10 +96,7 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 - İsviçre Süper Lig
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-<<<<<<< Updated upstream
 - Şili Premier Lig
-=======
->>>>>>> Stashed changes
 
 ## Okunabilen Oran Alanlari
 
@@ -195,8 +161,7 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
@@ -206,23 +171,23 @@ Tarih: 2026-07-24T21:50:40.702818+00:00
 | 25.07.2026 | 21:15 | Polonya Ekstraklasa | Lech Poznan | Cracovia Krakow | 21001 | 5 |
 | 25.07.2026 | 15:45 | Polonya Ekstraklasa | Jagiellonia | Korona Kielce | 19565 | 5 |
 | 25.07.2026 | 18:30 | Polonya Ekstraklasa | Gornik Zabrze | Slask Wroclaw | 20862 | 5 |
+| 25.07.2026 | 21:30 | İsviçre Süper Lig | Luzern | Thun | 22987 | 5 |
 | 25.07.2026 | 19:00 | İsviçre Süper Lig | Lausanne | Grasshoppers | 22175 | 5 |
 | 25.07.2026 | 19:00 | İsviçre Süper Lig | Servette | Basel | 22285 | 5 |
-| 25.07.2026 | 21:30 | İsviçre Süper Lig | Luzern | Thun | 22987 | 5 |
-| 25.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Drogheda | 23041 | 5 |
 | 25.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Waterford | 22121 | 5 |
-| 25.07.2026 | 16:15 | Rusya Premier Lig | Akron | Zenit | 19975 | 5 |
-| 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
-| 25.07.2026 | 14:00 | Rusya Premier Lig | Dinamo Moskova | Krylya Sovietov | 19220 | 5 |
+| 25.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Drogheda | 23041 | 5 |
 | 25.07.2026 | 18:30 | Rusya Premier Lig | Fakel Voronezh | Makhachkala | 21817 | 5 |
-| 25.07.2026 | 17:00 | Finlandiya Veikkausliiga | Kuopion | Vaasa | 20395 | 5 |
+| 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
+| 25.07.2026 | 16:15 | Rusya Premier Lig | Akron | Zenit | 19975 | 5 |
+| 25.07.2026 | 14:00 | Rusya Premier Lig | Dinamo Moskova | Krylya Sovietov | 19220 | 5 |
 | 25.07.2026 | 16:30 | Finlandiya Veikkausliiga | Mariehamn | Oulu | 20062 | 5 |
+| 25.07.2026 | 17:00 | Finlandiya Veikkausliiga | Kuopion | Vaasa | 20395 | 5 |
 | 25.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Start | 20962 | 5 |
-| 25.07.2026 | 18:30 | İsveç Allsvenskan | Kalmar | Mjallby | 21880 | 5 |
 | 25.07.2026 | 16:00 | İsveç Allsvenskan | Degerfors | Djurgarden | 19619 | 5 |
-| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
+| 25.07.2026 | 18:30 | İsveç Allsvenskan | Kalmar | Mjallby | 21880 | 5 |
 | 25.07.2026 | 18:30 | Sırbistan Süper Lig | Radnicki Nis | Cukaricki | 21951 | 5 |
+| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
