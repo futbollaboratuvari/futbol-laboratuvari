@@ -1,12 +1,12 @@
 # Bülten Sağlık Kontrolü
 
-Durum: empty
+Durum: ok
 Kaynak: Maçkolik canlı veri bekleniyor
-Toplam maç: 0
-Bugünkü maç: 0
-Gelecek maç: 0
+Toplam maç: 71
+Bugünkü maç: 2
+Gelecek maç: 69
 Eski maç: 0
 Eksik kayıt: 0
 Tekrar eden kayıt: 0
 
-Sonraki aksiyon: Bulten verisi kontrol edilmeli.
+Sonraki aksiyon: Analiz asamasina gecilebilir.
