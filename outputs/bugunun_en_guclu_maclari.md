@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-24T23:09:09.461Z
+- Güncelleme: 2026-07-24T23:17:53.637Z
 - Ham maç sayısı: 344
 - Yarın bülteni maç sayısı: 70
 - Detay blok sayısı: 955
@@ -43,7 +43,7 @@
 | Maitland - Broadmeadow Mag | Avustralya NPL Kuzey YGG | 09:30 | Veri bekleniyor | - | 2.63 | 6 |
 | Valentine Phoe - Charlestow City | Avustralya NPL Kuzey YGG | 09:30 | Veri bekleniyor | - | 2.22 | 6 |
 | Sd Raiders - Marconi | Avustralya NPL Yeni Güney Galler | 10:00 | Veri bekleniyor | - | 4.45 | 7 |
-| Dandenong Thun - Altona Magic | Avustralya NPL Victoria | 10:00 | Veri bekleniyor | - | 3.29 | 8 |
+| Dandenong Thun - Altona Magic | Avustralya NPL Victoria | 10:00 | Veri bekleniyor | - | 3.2 | 8 |
 | Perth Glory Ii - Dianella White | Avustralya NPL Batı Avustralya | 10:00 | Veri bekleniyor | - | 2.57 | 6 |
 | Western Knight - Olympic Kingswa | Avustralya NPL Batı Avustralya | 10:00 | Veri bekleniyor | - | 2.64 | 6 |
 | Perth Redstar - Balcatta | Avustralya NPL Batı Avustralya | 10:00 | Veri bekleniyor | - | 1.34 | 4 |
@@ -56,7 +56,7 @@
 | Moreland Zebra - North Geelong | Avustralya Victoria NPL 1 | 11:00 | Veri bekleniyor | - | 1.22 | 4 |
 | Gold Coast Kni - Gold Coast Unit | Avustralya NPL Queensland | 11:15 | Veri bekleniyor | - | 1.27 | 4 |
 | St. George Sai - Sydney Ii | Avustralya NPL Yeni Güney Galler | 11:30 | Veri bekleniyor | - | 2.33 | 8 |
-| Kaiserslautern - Sudtirol | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.45 | 7 |
+| Kaiserslautern - Sudtirol | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.43 | 7 |
 | Stade Lavalloi - Concarneau | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.69 | 8 |
 | Luton - Al Kholood | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.19 | 6 |
 | Kortrijk - Royal Knokke | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.25 | 4 |
@@ -65,7 +65,7 @@
 | Nkp Podhale - Slask Wroclaw I | Polonya 2.Lig | 12:15 | Veri bekleniyor | - | 1.33 | 6 |
 | St George City - Sydney United | Avustralya NPL Yeni Güney Galler | 12:15 | Veri bekleniyor | - | 3.99 | 7 |
 | Qingdao Zhongn - Tianjin Teda | Çin Halk Cumhuriyeti Süper Lig | 12:30 | Veri bekleniyor | - | 2.34 | 8 |
-| Ne Metrostars - West Adelaide | Avustralya NPL Güney Avustralya | 12:45 | Veri bekleniyor | - | 1.11 | 4 |
+| Ne Metrostars - West Adelaide | Avustralya NPL Güney Avustralya | 12:45 | Veri bekleniyor | - | 1.08 | 4 |
 | Lens - Charleroi | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 1.2 | 6 |
 | Bruhl - Dietikon | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 1.08 | 4 |
 | Myanmar - Malezya | AFF Şampiyonası Grup B | 13:00 | Veri bekleniyor | - | 3.74 | 7 |
@@ -121,7 +121,7 @@
 | Esbjerg - Kolding If | Danimarka 1.Lig | 16:00 | Veri bekleniyor | - | 1.8 | 8 |
 | Rops - Jyvaskyla | Finlandiya Ykkönen | 16:00 | Veri bekleniyor | - | 1.63 | 8 |
 | Salpa Salo - Pk Keski Uusima | Finlandiya Ykkönen | 16:00 | Veri bekleniyor | - | 1.38 | 6 |
-| Ulytau - Irtysh | Kazakistan Premier Lig | 16:00 | Veri bekleniyor | - | 2.09 | 8 |
+| Ulytau - Irtysh | Kazakistan Premier Lig | 16:00 | Veri bekleniyor | - | 2.05 | 8 |
 | Zhetysu - Kyzyl-Zhar | Kazakistan Premier Lig | 16:00 | Veri bekleniyor | - | 1.99 | 8 |
 | Madla - Flekkeroy | Norveç 3.Lig Grup 4 | 16:00 | Veri bekleniyor | - | 2.09 | 6 |
 | Hinna - Vindbjart | Norveç 3.Lig Grup 4 | 16:00 | Veri bekleniyor | - | 3.66 | 4 |
@@ -231,7 +231,7 @@
 | Athletic Bilba - Eibar | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.61 | 8 |
 | Strasbourg - Blackburn | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.48 | 8 |
 | Murcia - Port Vale | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.76 | 8 |
-| Valladolid - Getafe | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3.64 | 8 |
+| Valladolid - Getafe | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3.81 | 7 |
 | Malaga - Leicester | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.81 | 8 |
 | Mallorca - Al Fateh | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | - | 5 |
 | Spartak Myjava - Mgarr United (K | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | 20:00 | Veri bekleniyor | - | 1.24 | 6 |

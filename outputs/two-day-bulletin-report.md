@@ -3,16 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 344
-Aktif mac: 339
-Canli mac: 5
+Aktif mac: 337
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 269
+Bultenden dusurulen mac: 7
+Bugun: 267
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | scheduled | -
-- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | scheduled | -
 - 2026-07-25 02:30 | ABD USL Lig 2 Konferans Final | Michigan Bucks - Peoria City | scheduled | -
 - 2026-07-25 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Marquense | scheduled | -
 - 2026-07-25 03:00 | ABD USL | Birmingham Leg - New Mexico Unit | scheduled | -
@@ -357,6 +355,8 @@ Yarin: 70
 - 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | live | -
 - 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | live | -
 - 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | live | -
+- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | live | -
+- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | live | -
 
 ## Biten Maclar
 Biten mac yok.
