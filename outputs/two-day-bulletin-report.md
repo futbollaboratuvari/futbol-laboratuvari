@@ -3,16 +3,14 @@
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
 Ham mac: 121
-Aktif mac: 114
-Canli mac: 7
+Aktif mac: 112
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 90
+Bultenden dusurulen mac: 9
+Bugun: 88
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | scheduled | -
-- 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | scheduled | -
 - 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | scheduled | -
 - 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | scheduled | -
 - 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | scheduled | -
@@ -134,6 +132,8 @@ Yarin: 24
 - 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | live | -
 - 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | live | -
 - 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | live | -
+- 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | live | -
+- 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | live | -
 
 ## Biten Maclar
 Biten mac yok.
