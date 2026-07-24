@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 07:40:19
+Oluşturma: 24.07.2026 07:43:35
 
 ## Özet
 
-- Toplam tahmin: 70
-- Bekleyen tahmin: 70
+- Toplam tahmin: 71
+- Bekleyen tahmin: 71
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,13 @@ Oluşturma: 24.07.2026 07:40:19
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS X: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Hazırlık Kulüpler | Bournemouth - St Pauli | MS 2 | pending | 60/100
 - 2026-07-24 | Polonya 1.Lig | Polonia Bytom - Warta Poznan | MS X | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Rosenborg - Man. Utd | MS 1 | pending | 55/100
 - 2026-07-24 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 24.07.2026 07:40:19
 - 2026-07-24 | İsviçre Challenge Lig | Stade Ouchy - Stade Nyonnais | MS 2 | pending | 40/100
 - 2026-07-24 | İsviçre Challenge Lig | Neuchatel Xama - Sc Kriens | MS X | pending | 70/100
 - 2026-07-24 | Hazırlık Kulüpler | Cacereno - Real Jaen | MS X | pending | 40/100
-- 2026-07-24 | Macaristan NB I | Nyiregyhaza - Ujpest | MS X | pending | 50/100
 
