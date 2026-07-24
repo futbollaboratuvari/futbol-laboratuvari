@@ -1,19 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-24T20:41:01.418036+00:00
+=======
+Tarih: 2026-07-24T20:42:08.782341+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 26
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 26
+=======
+- Kac mac bulundu: 0
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 2863
 - Hedef tarih: 24.07.2026 Europe/Istanbul
 
 ## Ligler
 
+<<<<<<< Updated upstream
 - ABD USL
 - ABD USL Lig 2 Konferans Final
 - Arjantin Premier Lig 2. Aşama
@@ -32,19 +43,23 @@ Tarih: 2026-07-24T20:41:01.418036+00:00
 - Peru Premier Lig Clausura
 - Uruguay Premier Lig Intermediate Turu Grup 2
 - Şili Premier Lig
+=======
+- Lig verisi okunamadi veya mac bulunamadi.
+>>>>>>> Stashed changes
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -100,6 +115,7 @@ Tarih: 2026-07-24T20:41:01.418036+00:00
 
 ## Ornek Maclar
 
+<<<<<<< Updated upstream
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 25.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club | Gimnasia La Pla | 15483 | 5 |
@@ -122,6 +138,9 @@ Tarih: 2026-07-24T20:41:01.418036+00:00
 | 25.07.2026 | 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni | Lambton Jaffas | 16670 | 3 |
 | 25.07.2026 | 05:00 | Kanada Premier Lig | Vancouver Fc | Cavalry | 16553 | 5 |
 | 25.07.2026 | 01:00 | Kanada Premier Lig | Hfx Wanderers | Supra Du Quebec | 15450 | 5 |
+=======
+- Ornek mac yok.
+>>>>>>> Stashed changes
 
 ## Sonuc
 
