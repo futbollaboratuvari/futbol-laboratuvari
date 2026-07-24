@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.07.2026 14:56:40
+Oluşturma: 24.07.2026 15:54:47
 
 ## Özet
 
-- Toplam tahmin: 86
-- Bekleyen tahmin: 86
+- Toplam tahmin: 87
+- Bekleyen tahmin: 87
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 30
@@ -20,12 +20,13 @@ Oluşturma: 24.07.2026 14:56:40
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
-- MS X: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-24 | Danimarka Süperlig | Viborg - Odense | MS X | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Enfield Town - Worthing | MS 1 | pending | 45/100
 - 2026-07-24 | Danimarka 1.Lig | Vejle - Ab Gladsaxe | MS X | pending | 60/100
 - 2026-07-24 | Hazırlık Kulüpler | Al Ettifaq - York | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 24.07.2026 14:56:40
 - 2026-07-24 | Hazırlık Kulüpler | Ebbsfleet - Cardiff Mu | MS X | pending | 60/100
 - 2026-07-24 | Hazırlık Kulüpler | Amiens - Boulogne | MS X | pending | 50/100
 - 2026-07-24 | Hazırlık Kulüpler | Derby County - Freiburg | MS 1 | pending | 55/100
-- 2026-07-24 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | MS 2 | pending | 50/100
 

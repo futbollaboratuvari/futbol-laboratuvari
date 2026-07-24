@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-24 / 2026-07-25
 Kaynak: fixtures.json
-Ham mac: 113
-Aktif mac: 106
-Canli mac: 7
-Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 81
-Yarin: 25
+Ham mac: 136
+Aktif mac: 104
+Canli mac: 4
+Biten mac: 28
+Bultenden dusurulen mac: 32
+Bugun: 78
+Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-07-24 15:00 | Hazırlık Kulüpler | Wolfsburg - Lyon | scheduled | -
-- 2026-07-24 15:00 | Hazırlık Kulüpler | Lommel - Den Haag | scheduled | -
-- 2026-07-24 15:00 | AFF Şampiyonası Grup A | Kamboçya - Singapur | scheduled | -
 - 2026-07-24 16:30 | AFF Şampiyonası Grup A | Dogu Timor - Vietnam | scheduled | -
 - 2026-07-24 17:00 | Hazırlık Kulüpler | Bournemouth - St Pauli | scheduled | -
 - 2026-07-24 17:00 | Hazırlık Kulüpler | Derby County - Freiburg | scheduled | -
@@ -96,6 +93,7 @@ Yarin: 25
 - 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Instituto Cordo | scheduled | -
 - 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | scheduled | -
 - 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | scheduled | -
+- 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | scheduled | -
 - 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | scheduled | -
 - 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | scheduled | -
 - 2026-07-25 02:30 | ABD USL Lig 2 Konferans Final | Michigan Bucks - Peoria City | scheduled | -
@@ -119,13 +117,37 @@ Yarin: 25
 - 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-24 13:15 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | live | -
-- 2026-07-24 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Cheonan City Fc | live | -
-- 2026-07-24 13:30 | Güney Kore K Lig 2 | Gimhae City - Cheongju Fc | live | -
-- 2026-07-24 13:30 | Avustralya NPL Victoria | Preston Lions - Bentleigh Green | live | -
-- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Brunswick City - Western Utd. Ii | live | -
-- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Melbourne Srbij | live | -
 - 2026-07-24 14:00 | Hazırlık Kulüpler | Swansea - Udinese | live | -
+- 2026-07-24 15:00 | Hazırlık Kulüpler | Wolfsburg - Lyon | live | -
+- 2026-07-24 15:00 | Hazırlık Kulüpler | Lommel - Den Haag | live | -
+- 2026-07-24 15:00 | AFF Şampiyonası Grup A | Kamboçya - Singapur | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-24 00:30 | Ekvador Pro Lig | Orense - Aucas | finished | -
+- 2026-07-24 00:30 | Ekvador Pro Lig | Leones Del Nor - Guayaquil City | finished | -
+- 2026-07-24 01:00 | Copa Sudamericana Son 32 Turu | Bolivar - Gremio | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Corinthians - Remo | finished | -
+- 2026-07-24 01:30 | Brezilya Serie A | Botafogo - Vitoria Bahia | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Belgrano - Rosario Central | finished | -
+- 2026-07-24 01:30 | Arjantin Premier Lig 2. Aşama | Sarmiento - Argentinos Jr | finished | -
+- 2026-07-24 01:30 | Brezilya Serie B | Athletic Club - Sao Bernardo | finished | -
+- 2026-07-24 02:30 | Brezilya Serie B | Cuiaba - Atletico Goiani | finished | -
+- 2026-07-24 03:00 | Ekvador Pro Lig | Emelec - Mushuc Runa | finished | -
+- 2026-07-24 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Diriangen | finished | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Santa Fe - Caracas Fc | finished | -
+- 2026-07-24 03:30 | Copa Sudamericana Son 32 Turu | Boca Juniors - O Higgins | finished | -
+- 2026-07-24 03:30 | Brezilya Serie B | Botafogo Ribei - Juventude | finished | -
+- 2026-07-24 03:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Aldosivi | finished | -
+- 2026-07-24 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Puntarenas Fc | finished | -
+- 2026-07-24 12:00 | Hazırlık Kulüpler | Prest - Cambridge | finished | -
+- 2026-07-24 12:00 | Hazırlık Kulüpler | Amiens - Boulogne | finished | -
+- 2026-07-24 12:30 | Avustralya NPL Yeni Güney Galler | Manly United - Sydney Olympic | finished | -
+- 2026-07-24 12:30 | Avustralya NPL Victoria | Green Gully - Dandenong City | finished | -
+- 2026-07-24 12:30 | Avustralya NPL Victoria | St. Albans Sai - Hume City | finished | -
+- 2026-07-24 12:30 | Avustralya NPL Victoria | Heidelberg Uni - Caroline S. | finished | -
+- 2026-07-24 13:15 | Avustralya NPL Victoria | Oakleigh Canno - South Melbourne | finished | -
+- 2026-07-24 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Cheonan City Fc | finished | -
+- 2026-07-24 13:30 | Güney Kore K Lig 2 | Gimhae City - Cheongju Fc | finished | -
+- 2026-07-24 13:30 | Avustralya NPL Victoria | Preston Lions - Bentleigh Green | finished | -
+- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Brunswick City - Western Utd. Ii | finished | -
+- 2026-07-24 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Melbourne Srbij | finished | -
