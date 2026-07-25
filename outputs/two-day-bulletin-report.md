@@ -3,16 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 353
-Aktif mac: 328
-Canli mac: 25
+Aktif mac: 326
+Canli mac: 27
 Biten mac: 0
-Bultenden dusurulen mac: 25
-Bugun: 257
+Bultenden dusurulen mac: 27
+Bugun: 255
 Yarin: 71
 
 ## Baslamamis Maclar
-- 2026-07-25 12:15 | Polonya 2.Lig | Nkp Podhale - Slask Wroclaw I | scheduled | -
-- 2026-07-25 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Sydney United | scheduled | -
 - 2026-07-25 12:30 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Tianjin Teda | scheduled | -
 - 2026-07-25 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - West Adelaide | scheduled | -
 - 2026-07-25 13:00 | Hazırlık Kulüpler | Lens - Charleroi | scheduled | -
@@ -366,6 +364,8 @@ Yarin: 71
 - 2026-07-25 12:00 | Hazırlık Kulüpler | Kortrijk - Royal Knokke | live | -
 - 2026-07-25 12:00 | Güney Kore K3 Ligi | Pocheon - Daejeon Korail | live | -
 - 2026-07-25 12:00 | Hazırlık Kulüpler | Real Oviedo Ii - Real Aviles | live | -
+- 2026-07-25 12:15 | Polonya 2.Lig | Nkp Podhale - Slask Wroclaw I | live | -
+- 2026-07-25 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Sydney United | live | -
 
 ## Biten Maclar
 Biten mac yok.
