@@ -3,21 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 353
-Aktif mac: 326
-Canli mac: 27
+Aktif mac: 319
+Canli mac: 34
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 255
+Bultenden dusurulen mac: 34
+Bugun: 248
 Yarin: 71
 
 ## Baslamamis Maclar
-- 2026-07-25 12:30 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Tianjin Teda | scheduled | -
-- 2026-07-25 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - West Adelaide | scheduled | -
-- 2026-07-25 13:00 | Hazırlık Kulüpler | Lens - Charleroi | scheduled | -
-- 2026-07-25 13:00 | Hazırlık Kulüpler | Bruhl - Dietikon | scheduled | -
-- 2026-07-25 13:00 | AFF Şampiyonası Grup B | Myanmar - Malezya | scheduled | -
-- 2026-07-25 13:00 | Güney Kore K3 Ligi | Gangneung City - Yeoju Sejong | scheduled | -
-- 2026-07-25 13:00 | Güney Kore K3 Ligi | Dangjin Citize - Mokpo City | scheduled | -
 - 2026-07-25 13:30 | Güney Kore K Lig 1 | Pohang Steeler - Jeonbuk Hm | scheduled | -
 - 2026-07-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Daejeon Citizen | scheduled | -
 - 2026-07-25 13:30 | Güney Kore K Lig 2 | Hwaseong - Asan Mugunghwa | scheduled | -
@@ -366,6 +359,13 @@ Yarin: 71
 - 2026-07-25 12:00 | Hazırlık Kulüpler | Real Oviedo Ii - Real Aviles | live | -
 - 2026-07-25 12:15 | Polonya 2.Lig | Nkp Podhale - Slask Wroclaw I | live | -
 - 2026-07-25 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Sydney United | live | -
+- 2026-07-25 12:30 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Tianjin Teda | live | -
+- 2026-07-25 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - West Adelaide | live | -
+- 2026-07-25 13:00 | Hazırlık Kulüpler | Lens - Charleroi | live | -
+- 2026-07-25 13:00 | Hazırlık Kulüpler | Bruhl - Dietikon | live | -
+- 2026-07-25 13:00 | AFF Şampiyonası Grup B | Myanmar - Malezya | live | -
+- 2026-07-25 13:00 | Güney Kore K3 Ligi | Gangneung City - Yeoju Sejong | live | -
+- 2026-07-25 13:00 | Güney Kore K3 Ligi | Dangjin Citize - Mokpo City | live | -
 
 ## Biten Maclar
 Biten mac yok.
