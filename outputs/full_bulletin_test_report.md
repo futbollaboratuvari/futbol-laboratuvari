@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 185
-- Live match count: 120
+- Scheduled match count: 151
+- Live match count: 113
 - Finished removed count: 0
 - Date window: 2026-07-25 / 2026-07-26 23:59
 
-- 2026-07-25 15:30 | Zulte Waregem - Sparta Rotterda | live
-- 2026-07-25 15:30 | Grorud Il - Stjordals-Blink | live
-- 2026-07-25 15:45 | Jagiellonia - Korona Kielce | live
-- 2026-07-25 16:00 | Laos - Tayland | live
-- 2026-07-25 16:00 | Niva Dolbizno - Ostrovets Fc | live
-- 2026-07-25 16:00 | Isloch - Baranovichi | live
-- 2026-07-25 16:00 | Esbjerg - Kolding If | live
-- 2026-07-25 16:00 | Rops - Jyvaskyla | live
-- 2026-07-25 16:00 | Salpa Salo - Pk Keski Uusima | live
-- 2026-07-25 16:00 | Japs - Klubi 04 | live
+- 2026-07-25 16:30 | Mariehamn - Oulu | live
+- 2026-07-25 16:30 | Haverfordwest - Llanelli | live
+- 2026-07-25 16:30 | Wehen - B.Münih | live
+- 2026-07-25 16:30 | Notodden - Sotra Sk | live
+- 2026-07-25 16:30 | Melhus - Herd | live
+- 2026-07-25 16:30 | Lechia Gdansk - Pogon Grodzisk | live
+- 2026-07-25 16:30 | Pogon Siedlce - Lks Lodz | live
+- 2026-07-25 16:30 | Rzeszow - Chrobry Glogow | live
+- 2026-07-25 17:00 | Soligorsk - Slutsk | live
+- 2026-07-25 17:00 | Fredericia - Hb Koge | live
