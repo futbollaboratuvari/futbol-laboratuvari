@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
-Ham mac: 37
+Ham mac: 36
 Aktif mac: 23
 Canli mac: 13
-Biten mac: 1
-Bultenden dusurulen mac: 14
+Biten mac: 0
+Bultenden dusurulen mac: 13
 Bugun: 0
 Yarin: 23
 
@@ -51,4 +51,4 @@ Yarin: 23
 - 2026-07-26 23:45 | Ekvador Pro Lig | Orense - Indep. Jose Ter | live | -
 
 ## Biten Maclar
-- 2026-07-26 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - Central Norte | finished | -
+Biten mac yok.
