@@ -1,22 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-25 / 2026-07-26
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 353
-Aktif mac: 319
-Canli mac: 34
+Aktif mac: 313
+Canli mac: 40
 Biten mac: 0
-Bultenden dusurulen mac: 34
-Bugun: 248
+Bultenden dusurulen mac: 40
+Bugun: 242
 Yarin: 71
 
 ## Baslamamis Maclar
-- 2026-07-25 13:30 | Güney Kore K Lig 1 | Pohang Steeler - Jeonbuk Hm | scheduled | -
-- 2026-07-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Daejeon Citizen | scheduled | -
-- 2026-07-25 13:30 | Güney Kore K Lig 2 | Hwaseong - Asan Mugunghwa | scheduled | -
-- 2026-07-25 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Gyeongnam | scheduled | -
-- 2026-07-25 13:30 | Güney Kore K Lig 2 | Busan Ipark - Suwon Sb | scheduled | -
-- 2026-07-25 13:30 | Güney Kore K Lig 2 | Daegu - Suwon City | scheduled | -
 - 2026-07-25 14:00 | Rusya Premier Lig | Dinamo Moskova - Krylya Sovietov | scheduled | -
 - 2026-07-25 14:00 | Belarus Kupa Son 16 Turu | Belshina Bobru - Minsk | scheduled | -
 - 2026-07-25 14:00 | Norveç 2.Lig Grup 1 | Bjarg - Pors Grenland | scheduled | -
@@ -332,6 +327,12 @@ Yarin: 71
 - 2026-07-26 07:00 | Avustralya FFA Kupası Son 32 Turu | Weston Bears - Melbourne City | scheduled | -
 
 ## Canli Maclar
+- 2026-07-25 13:30 | Güney Kore K Lig 1 | Pohang Steeler - Jeonbuk Hm | live | -
+- 2026-07-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Daejeon Citizen | live | -
+- 2026-07-25 13:30 | Güney Kore K Lig 2 | Hwaseong - Asan Mugunghwa | live | -
+- 2026-07-25 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Gyeongnam | live | -
+- 2026-07-25 13:30 | Güney Kore K Lig 2 | Busan Ipark - Suwon Sb | live | -
+- 2026-07-25 13:30 | Güney Kore K Lig 2 | Daegu - Suwon City | live | -
 - 2026-07-25 09:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - O Connor Knight | live | -
 - 2026-07-25 09:30 | Avustralya NPL Kuzey YGG | Maitland - Broadmeadow Mag | live | -
 - 2026-07-25 09:30 | Avustralya NPL Kuzey YGG | Valentine Phoe - Charlestow City | live | -
