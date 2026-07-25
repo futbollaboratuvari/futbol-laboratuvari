@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.07.2026 12:19:38
+Oluşturma: 25.07.2026 13:21:39
 
 ## Özet
 
-- Toplam tahmin: 180
-- Bekleyen tahmin: 180
+- Toplam tahmin: 182
+- Bekleyen tahmin: 182
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 54
@@ -20,12 +20,14 @@ Oluşturma: 25.07.2026 12:19:38
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 55, bekleyen 55, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
 - MS X: toplam 113, bekleyen 113, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | Norveç 2.Lig Grup 2 | Ik Junkeren - Lorenskog | MS 1 | pending | 55/100
+- 2026-07-25 | Macaristan NB III Güneybatı | Ferencvaros Ii - Dunaujvaros Pas | MS 2 | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Valencia - Castellon | MS 2 | pending | 60/100
 - 2026-07-25 | Hazırlık Kulüpler | Dijon - Sochaux | MS X | pending | 40/100
 - 2026-07-25 | Hazırlık Kulüpler | Celta Vigo - Sporting Gijon | MS 2 | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 25.07.2026 12:19:38
 - 2026-07-25 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | Mitrovica (K) - Ludogorets Razg | MS X | pending | 40/100
 - 2026-07-25 | Slovenya 1.SNL | Mura - Olimpija Ljubli | MS X | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Strasbourg - Blackburn | MS X | pending | 50/100
-- 2026-07-25 | İsviçre Süper Lig | Lausanne - Grasshoppers | MS 2 | pending | 50/100
-- 2026-07-25 | Hazırlık Kulüpler | Dynamo Dresden - E.Cottbus | MS 2 | pending | 50/100
 
