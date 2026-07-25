@@ -3,18 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 130
-Aktif mac: 77
-Canli mac: 53
+Aktif mac: 73
+Canli mac: 57
 Biten mac: 0
-Bultenden dusurulen mac: 53
-Bugun: 6
+Bultenden dusurulen mac: 57
+Bugun: 2
 Yarin: 71
 
 ## Baslamamis Maclar
-- 2026-07-25 22:00 | Hazırlık Kulüpler | Porto - Aston Villa | scheduled | -
-- 2026-07-25 22:00 | Arjantin Ulusal Primera Lig | Rafaela - Nueva Chicago | scheduled | -
-- 2026-07-25 22:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Xelaju | scheduled | -
-- 2026-07-25 22:00 | Bolivya Premier Lig | Always Ready - San Antonio Bul | scheduled | -
 - 2026-07-25 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Talleres | scheduled | -
 - 2026-07-25 23:15 | Peru Premier Lig Clausura | Juan Pablo Ii - Cienciano | scheduled | -
 - 2026-07-26 00:00 | CONCACAF U20 Grup A | Kuba U20 - El Salvador U20 | scheduled | -
@@ -143,6 +139,10 @@ Yarin: 71
 - 2026-07-25 21:30 | Slovakya Süper Lig | Podbrezova - Zemplin | live | -
 - 2026-07-25 21:30 | İrlanda 1.Lig | Longford - Wexford Youths | live | -
 - 2026-07-25 21:45 | İrlanda Premier Lig | Sligo Rovers - Drogheda | live | -
+- 2026-07-25 22:00 | Hazırlık Kulüpler | Porto - Aston Villa | live | -
+- 2026-07-25 22:00 | Arjantin Ulusal Primera Lig | Rafaela - Nueva Chicago | live | -
+- 2026-07-25 22:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Xelaju | live | -
+- 2026-07-25 22:00 | Bolivya Premier Lig | Always Ready - San Antonio Bul | live | -
 
 ## Biten Maclar
 Biten mac yok.
