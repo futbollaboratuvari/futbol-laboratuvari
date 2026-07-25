@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
-Ham mac: 344
+Ham mac: 337
 Aktif mac: 329
 Canli mac: 8
-Biten mac: 7
-Bultenden dusurulen mac: 15
+Biten mac: 0
+Bultenden dusurulen mac: 8
 Bugun: 259
 Yarin: 70
 
@@ -352,10 +352,4 @@ Yarin: 70
 - 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Durango | live | -
 
 ## Biten Maclar
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club - Gimnasia La Pla | finished | -
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Instituto Cordo | finished | -
-- 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | finished | -
-- 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | finished | -
-- 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | finished | -
-- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | finished | -
-- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | finished | -
+Biten mac yok.
