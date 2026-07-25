@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 72
-- Live match count: 30
-- Finished removed count: 2
+- Scheduled match count: 71
+- Live match count: 7
+- Finished removed count: 5
 - Date window: 2026-07-25 / 2026-07-26 23:59
 
-- 2026-07-25 21:00 | Caseros - Ciudad De Bolív | live
-- 2026-07-25 21:00 | Tristan - Chacarita Junio | live
-- 2026-07-25 21:00 | Cadiz - Cordoba | live
-- 2026-07-25 21:00 | Cd Aguilas - Almeria | live
-- 2026-07-25 21:00 | Estoril - Torreense | live
-- 2026-07-25 21:00 | Granada - Real Betis | live
-- 2026-07-25 21:00 | Standard Liege - Juventus | live
-- 2026-07-25 21:00 | Tarragona - Fc Andorra | live
-- 2026-07-25 21:00 | Valencia - Castellon | live
-- 2026-07-25 21:00 | Haugesund - Bryne | live
+- 2026-07-25 21:45 | Sligo Rovers - Drogheda | live
+- 2026-07-25 22:00 | Rafaela - Nueva Chicago | live
+- 2026-07-25 22:00 | Always Ready - San Antonio Bul | live
+- 2026-07-25 22:00 | Deportivo San - Xelaju | live
+- 2026-07-25 22:00 | Porto - Aston Villa | live
+- 2026-07-25 23:00 | Newells Old Bo - Talleres | live
+- 2026-07-25 23:15 | Juan Pablo Ii - Cienciano | live
+- 2026-07-26 00:00 | Kuba U20 - El Salvador U20 | scheduled
+- 2026-07-26 00:00 | Balboa - Inter Fa | scheduled
+- 2026-07-26 00:00 | Cacahuatique - Isidro Metapan | scheduled

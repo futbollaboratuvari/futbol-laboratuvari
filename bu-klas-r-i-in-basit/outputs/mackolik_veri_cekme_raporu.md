@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-25T19:53:42.815984+00:00
+Tarih: 2026-07-25T20:40:39.129155+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 83
+- Kac mac bulundu: 81
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 83
+- Kac mac zaten vardi: 81
 - Ham veri havuzu toplam mac sayisi: 3268
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
@@ -94,8 +94,8 @@ Tarih: 2026-07-25T19:53:42.815984+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 28
-- Acilan detay: 28
+- Denenen Tumu alani: 26
+- Acilan detay: 26
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -109,25 +109,25 @@ Tarih: 2026-07-25T19:53:42.815984+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 26.07.2026 | 03:30 | Meksika Liga MX Şampiyonlar Şampiyonu | Toluca | Cruz Azul | 25037 | 5 |
+| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Boulogne | Rouen | 17517 | 5 |
 | 25.07.2026 | 16:00 | Hazırlık Kulüpler | Arminia Bielef | Duisburg | 15859 | 5 |
-| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Wealdstone | Mk Dons | 08982 | 5 |
 | 25.07.2026 | 17:00 | Hazırlık Kulüpler | Halesowen Town | Tamworth | 31033 | 3 |
 | 25.07.2026 | 17:00 | Hazırlık Kulüpler | Dundela | Bangor Fc | 31315 | 3 |
+| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Dagenham & Red | Buxton | 31298 | 5 |
 | 25.07.2026 | 17:30 | Hazırlık Kulüpler | Leeds Utd | Wrexham | 08733 | 5 |
 | 25.07.2026 | 18:00 | Hazırlık Kulüpler | Caen | Al Wakrah | 06983 | 5 |
-| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Boulogne | Rouen | 17517 | 5 |
-| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Dagenham & Red | Buxton | 31298 | 5 |
-| 26.07.2026 | 06:00 | Hazırlık Kulüpler | Auckland | Tottenham | 00299 | 5 |
+| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Wealdstone | Mk Dons | 08982 | 5 |
 | 26.07.2026 | 01:00 | Hazırlık Kulüpler | Liverpool | Sunderland | 23449 | 5 |
-| 26.07.2026 | 05:30 | ABD MLS | San Jose | Los Angeles | 25887 | 5 |
-| 26.07.2026 | 03:30 | ABD MLS | Minnesota Utd | Vancouver | 25096 | 5 |
-| 26.07.2026 | 02:15 | ABD MLS | Columbus | Cincinnati | 24430 | 5 |
+| 26.07.2026 | 06:00 | Hazırlık Kulüpler | Auckland | Tottenham | 00299 | 5 |
 | 26.07.2026 | 03:30 | ABD MLS | St. Louis City | Colorado | 25154 | 5 |
 | 26.07.2026 | 03:30 | ABD MLS | Houston | Austin | 25038 | 5 |
 | 26.07.2026 | 02:30 | ABD MLS | Montreal | Inter Miami | 24581 | 5 |
 | 26.07.2026 | 02:30 | ABD MLS | Dc United | Toronto | 24523 | 5 |
 | 26.07.2026 | 02:30 | ABD MLS | New York City | Chicago | 24697 | 5 |
-| 26.07.2026 | 02:30 | ABD MLS | Philadelphia | Seattle | 24846 | 5 |
+| 26.07.2026 | 02:30 | ABD MLS | Orlando City | Nashville Sc | 24755 | 5 |
+| 26.07.2026 | 02:30 | ABD MLS | New England | Atlanta Utd | 24639 | 5 |
+| 26.07.2026 | 01:30 | ABD MLS | New York | Charlotte | 23787 | 5 |
+| 26.07.2026 | 05:30 | ABD MLS | Portland | Salt Lake | 25770 | 5 |
 
 ## Sonuc
 
