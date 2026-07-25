@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-24T09:04:48+03:00
+Güncelleme: 2026-07-25T08:56:50+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 166
+- Toplam tahmin kaydı: 545
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -14,13 +14,14 @@ Güncelleme: 2026-07-24T09:04:48+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
+| - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 62 | 0 | 0 | 62 | %0 | 0 |
+| Değerli market yok | 254 | 0 | 0 | 254 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 4 | 0 | 0 | 4 | %0 | 4.77 |
-| MS 2 | 30 | 0 | 0 | 30 | %0 | 4.28 |
-| MS X | 70 | 0 | 0 | 70 | %0 | 3.39 |
+| MS 1 | 14 | 0 | 0 | 14 | %0 | 3.25 |
+| MS 2 | 84 | 0 | 0 | 84 | %0 | 3.89 |
+| MS X | 192 | 0 | 0 | 192 | %0 | 3.22 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -30,49 +31,50 @@ Güncelleme: 2026-07-24T09:04:48+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 20 | 0 | 0 | 20 | %0 | 2.85 |
-| 3.00-4.99 | 72 | 0 | 0 | 72 | %0 | 3.57 |
-| 5.00+ | 12 | 0 | 0 | 12 | %0 | 5.88 |
-| bilinmiyor | 62 | 0 | 0 | 62 | %0 | 0 |
+| 2.00-2.99 | 72 | 0 | 0 | 72 | %0 | 2.89 |
+| 3.00-4.99 | 204 | 0 | 0 | 204 | %0 | 3.45 |
+| 5.00+ | 14 | 0 | 0 | 14 | %0 | 5.66 |
+| bilinmiyor | 255 | 0 | 0 | 255 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| AFF Şampiyonası Grup A | 4 | 0 | 0 | 4 | %0 | 3.04 |
-| Arjantin Premier Lig 2. Aşama | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya NPL Victoria | 10 | 0 | 0 | 10 | %0 | 3.21 |
-| Avustralya NPL Yeni Güney Galler | 2 | 0 | 0 | 2 | %0 | 3.11 |
-| Avustralya Victoria NPL 1 | 4 | 0 | 0 | 4 | %0 | 0 |
-| Avusturya ÖFB Kupası 1.Tur | 26 | 0 | 0 | 26 | %0 | 4.87 |
-| Bulgaristan 1.Lig | 2 | 0 | 0 | 2 | %0 | 4.51 |
-| CONCACAF U20 Grup B | 2 | 0 | 0 | 2 | %0 | 0 |
-| Danimarka 1.Lig | 4 | 0 | 0 | 4 | %0 | 3.6 |
-| Danimarka Süperlig | 2 | 0 | 0 | 2 | %0 | 3.37 |
-| Finlandiya Veikkausliiga | 2 | 0 | 0 | 2 | %0 | 3.21 |
-| Finlandiya Ykkönen | 4 | 0 | 0 | 4 | %0 | 5.21 |
+| AFF Şampiyonası Grup B | 4 | 0 | 0 | 4 | %0 | 0 |
+| Arjantin Premier Lig 2. Aşama | 4 | 0 | 0 | 4 | %0 | 0 |
+| Arjantin Ulusal Primera Lig | 6 | 0 | 0 | 6 | %0 | 0 |
+| Avustralya NPL Batı Avustralya | 10 | 0 | 0 | 10 | %0 | 3.92 |
+| Avustralya NPL Başkent Bölgesi | 8 | 0 | 0 | 8 | %0 | 0 |
+| Avustralya NPL Güney Avustralya | 12 | 0 | 0 | 12 | %0 | 3.17 |
+| Avustralya NPL Kuzey YGG | 6 | 0 | 0 | 6 | %0 | 0 |
+| Avustralya NPL Queensland | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya NPL Tazmanya | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya NPL Victoria | 4 | 0 | 0 | 4 | %0 | 0 |
+| Avustralya NPL Yeni Güney Galler | 10 | 0 | 0 | 10 | %0 | 3.19 |
+| Avustralya Victoria NPL 1 | 6 | 0 | 0 | 6 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Aalborg VS Hillerod | 2 | 0 | 0 | 2 | %0 | 3.1 |
-| Ahed VS Ansar | 2 | 0 | 0 | 2 | %0 | 0 |
-| Alianza Atleti VS Chankas Cyc | 2 | 0 | 0 | 2 | %0 | 3.86 |
-| Amiens VS Boulogne | 2 | 0 | 0 | 2 | %0 | 2.84 |
-| Antwerp VS Olympiakos | 2 | 0 | 0 | 2 | %0 | 3.16 |
-| Arda Kardzhali VS Slavia Sofia | 2 | 0 | 0 | 2 | %0 | 4.51 |
-| Argesul Pitest VS Petrolul 52 | 2 | 0 | 0 | 2 | %0 | 0 |
-| Benfica VS Cf Os Belenense | 2 | 0 | 0 | 2 | %0 | 5.87 |
-| Bournemouth VS St Pauli | 2 | 0 | 0 | 2 | %0 | 4.22 |
-| Braunschweig VS Southam | 2 | 0 | 0 | 2 | %0 | 0 |
-| Brunswick City VS Western Utd. Ii | 2 | 0 | 0 | 2 | %0 | 0 |
-| Cacereno VS Real Jaen | 2 | 0 | 0 | 2 | %0 | 2.74 |
+| Aarhus VS Brondby | 2 | 0 | 0 | 2 | %0 | 3.21 |
+| Aberdeen VS Kelty Hearts | 2 | 0 | 0 | 2 | %0 | 0 |
+| Adelaide City VS West Torrens | 2 | 0 | 0 | 2 | %0 | 3.17 |
+| Adelaide Comet VS White City Wood | 2 | 0 | 0 | 2 | %0 | 0 |
+| Adelaide Unite VS Sturt Lions | 2 | 0 | 0 | 2 | %0 | 0 |
+| Afc Fylde VS Wigan | 2 | 0 | 0 | 2 | %0 | 0 |
+| Afc Wimbledon VS Charlton | 2 | 0 | 0 | 2 | %0 | 3.08 |
+| Airdrieonians VS Ross County | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ajka VS Kecskemeti | 2 | 0 | 0 | 2 | %0 | 2.98 |
+| Akron VS Zenit | 2 | 0 | 0 | 2 | %0 | 0 |
+| Aktobe VS Okzhetpes | 2 | 0 | 0 | 2 | %0 | 3.17 |
+| Altrincham VS Macclesfield | 2 | 0 | 0 | 2 | %0 | 3.0 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
+| - | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 2.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
