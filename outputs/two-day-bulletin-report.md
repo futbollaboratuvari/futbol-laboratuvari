@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
-Ham mac: 420
+Ham mac: 359
 Aktif mac: 322
 Canli mac: 37
-Biten mac: 61
-Bultenden dusurulen mac: 98
+Biten mac: 0
+Bultenden dusurulen mac: 37
 Bugun: 251
 Yarin: 71
 
@@ -374,64 +374,4 @@ Yarin: 71
 - 2026-07-25 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Shanghai Shenhu | live | -
 
 ## Biten Maclar
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club - Gimnasia La Pla | finished | -
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Instituto Cordo | finished | -
-- 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | finished | -
-- 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | finished | -
-- 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | finished | -
-- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | finished | -
-- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | finished | -
-- 2026-07-25 02:30 | ABD USL Lig 2 Konferans Final | Michigan Bucks - Peoria City | finished | -
-- 2026-07-25 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Marquense | finished | -
-- 2026-07-25 03:00 | ABD USL | Birmingham Leg - New Mexico Unit | finished | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Platense - Union Santa Fe | finished | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Banfield | finished | -
-- 2026-07-25 03:30 | Şili Premier Lig | Colo Colo - Deportes Limach | finished | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Correcaminos Ua | finished | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Durango | finished | -
-- 2026-07-25 04:30 | Peru Premier Lig Clausura | Universitario - Cusco Fc | finished | -
-- 2026-07-25 04:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Municipal Limen | finished | -
-- 2026-07-25 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Perez Zeledon | finished | -
-- 2026-07-25 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Mixco | finished | -
-- 2026-07-25 05:00 | Kanada Premier Lig | Vancouver Fc - Cavalry | finished | -
-- 2026-07-25 06:00 | Meksika Liga MX Apertura | Atlante - Club America | finished | -
-- 2026-07-25 06:00 | Meksika Liga MX Apertura | Club Tijuana - Club Leon | finished | -
-- 2026-07-25 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Lambton Jaffas | finished | -
-- 2026-07-25 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Northcote City | finished | -
-- 2026-07-25 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Queanbeyan City | finished | -
-- 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | finished | -
-- 2026-07-25 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Canberra White | finished | -
-- 2026-07-25 08:00 | Avustralya NPL Güney Avustralya | Adelaide City - West Torrens | finished | -
-- 2026-07-25 08:00 | Avustralya NPL Güney Avustralya | Croydon Kings - Campbelltown Ci | finished | -
-- 2026-07-25 08:00 | Avustralya NPL Victoria | Melbourne City - Avondale Height | finished | -
-- 2026-07-25 08:15 | Avustralya Victoria NPL 1 | Manningham Uni - Melbourne Knigh | finished | -
-- 2026-07-25 08:30 | Avustralya NPL Güney Avustralya | Para Hills Kni - Playford City P | finished | -
-- 2026-07-25 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Sturt Lions | finished | -
-- 2026-07-25 08:30 | Avustralya NPL Güney Avustralya | Adelaide Comet - White City Wood | finished | -
-- 2026-07-25 09:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - O Connor Knight | finished | -
-- 2026-07-25 09:30 | Avustralya NPL Kuzey YGG | Maitland - Broadmeadow Mag | finished | -
-- 2026-07-25 09:30 | Avustralya NPL Kuzey YGG | Valentine Phoe - Charlestow City | finished | -
-- 2026-07-25 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Marconi | finished | -
-- 2026-07-25 10:00 | Avustralya NPL Victoria | Dandenong Thun - Altona Magic | finished | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Dianella White | finished | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Olympic Kingswa | finished | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Redstar - Balcatta | finished | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth - Bayswater City | finished | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Stirling Lions - Armadale | finished | -
-- 2026-07-25 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Western Sydney | finished | -
-- 2026-07-25 11:00 | Avustralya NPL Başkent Bölgesi | Cooma Tigers - Tuggeranong Uni | finished | -
-- 2026-07-25 11:00 | Avustralya NPL Yeni Güney Galler | Apia - Unsw Fc | finished | -
-- 2026-07-25 11:00 | Güney Kore K3 Ligi | Gyeongju Hnp - Siheung Citizen | finished | -
-- 2026-07-25 11:00 | Avustralya Victoria NPL 1 | Moreland Zebra - North Geelong | finished | -
-- 2026-07-25 11:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu 3. lük Finalleri | Buducnost (K) - Hapoel Jerusale | finished | -
-- 2026-07-25 11:15 | Avustralya NPL Queensland | Gold Coast Kni - Gold Coast Unit | finished | -
-- 2026-07-25 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Sydney Ii | finished | -
-- 2026-07-25 11:30 | Hazırlık Kulüpler | Girona - Alaves | finished | -
-- 2026-07-25 12:00 | Hazırlık Kulüpler | Kaiserslautern - Sudtirol | finished | -
-- 2026-07-25 12:00 | Hazırlık Kulüpler | Stade Lavalloi - Concarneau | finished | -
-- 2026-07-25 12:00 | Hazırlık Kulüpler | Luton - Al Kholood | finished | -
-- 2026-07-25 12:00 | Hazırlık Kulüpler | Kortrijk - Royal Knokke | finished | -
-- 2026-07-25 12:00 | Güney Kore K3 Ligi | Pocheon - Daejeon Korail | finished | -
-- 2026-07-25 12:00 | Hazırlık Kulüpler | Real Oviedo Ii - Real Aviles | finished | -
-- 2026-07-25 12:15 | Polonya 2.Lig | Nkp Podhale - Slask Wroclaw I | finished | -
-- 2026-07-25 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Sydney United | finished | -
+Biten mac yok.
