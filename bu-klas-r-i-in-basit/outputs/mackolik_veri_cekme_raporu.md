@@ -1,42 +1,74 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-25T20:40:39.129155+00:00
+Tarih: 2026-07-25T21:03:15.222646+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 81
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 81
-- Ham veri havuzu toplam mac sayisi: 3268
-- Hedef tarih: 25.07.2026 Europe/Istanbul
+- Kac mac bulundu: 145
+- Kac mac kaydedildi: 145
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 3413
+- Hedef tarih: 26.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Son 32 Turu
+- Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Kuzey YGG
+- Avustralya NPL Yeni Güney Galler
+- Belarus Kupa Son 16 Turu
 - Bolivya Premier Lig
 - Brezilya Serie A
-- CONCACAF U20 Grup A
+- Brezilya Serie B
+- Bulgaristan 1.Lig
+- Danimarka 1.Lig
+- Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Güney Kore K3 Ligi
 - Hazırlık Kulüpler
-- Kosta Rika Premier Lig Apertura
-- Macaristan NB III Güneybatı
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Meksika Liga MX Şampiyonlar Şampiyonu
-- Nikaragua Premier Lig Apertura
+- Kanada Premier Lig
+- Kazakistan Premier Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Macaristan NB I
+- Macaristan NB II
+- Moldova Ulusal Lig
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 5
+- Norveç Eliteserien
 - Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
+- Romanya 1.Lig
+- Rusya FNL
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Slovakya Süper Lig
+- Slovenya 1.SNL
+- Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- İzlanda 2.Lig
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
+- İskoçya Lig Kupası Grup C
+- İsveç Allsvenskan
+- İsveç Superettan
+- İsviçre Süper Lig
+- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -94,8 +126,8 @@ Tarih: 2026-07-25T20:40:39.129155+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 70
+- Acilan detay: 70
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -108,26 +140,26 @@ Tarih: 2026-07-25T20:40:39.129155+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.07.2026 | 03:30 | Meksika Liga MX Şampiyonlar Şampiyonu | Toluca | Cruz Azul | 25037 | 5 |
-| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Boulogne | Rouen | 17517 | 5 |
-| 25.07.2026 | 16:00 | Hazırlık Kulüpler | Arminia Bielef | Duisburg | 15859 | 5 |
-| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Halesowen Town | Tamworth | 31033 | 3 |
-| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Dundela | Bangor Fc | 31315 | 3 |
-| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Dagenham & Red | Buxton | 31298 | 5 |
-| 25.07.2026 | 17:30 | Hazırlık Kulüpler | Leeds Utd | Wrexham | 08733 | 5 |
-| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Caen | Al Wakrah | 06983 | 5 |
-| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Wealdstone | Mk Dons | 08982 | 5 |
-| 26.07.2026 | 01:00 | Hazırlık Kulüpler | Liverpool | Sunderland | 23449 | 5 |
-| 26.07.2026 | 06:00 | Hazırlık Kulüpler | Auckland | Tottenham | 00299 | 5 |
-| 26.07.2026 | 03:30 | ABD MLS | St. Louis City | Colorado | 25154 | 5 |
-| 26.07.2026 | 03:30 | ABD MLS | Houston | Austin | 25038 | 5 |
-| 26.07.2026 | 02:30 | ABD MLS | Montreal | Inter Miami | 24581 | 5 |
-| 26.07.2026 | 02:30 | ABD MLS | Dc United | Toronto | 24523 | 5 |
-| 26.07.2026 | 02:30 | ABD MLS | New York City | Chicago | 24697 | 5 |
-| 26.07.2026 | 02:30 | ABD MLS | Orlando City | Nashville Sc | 24755 | 5 |
-| 26.07.2026 | 02:30 | ABD MLS | New England | Atlanta Utd | 24639 | 5 |
-| 26.07.2026 | 01:30 | ABD MLS | New York | Charlotte | 23787 | 5 |
-| 26.07.2026 | 05:30 | ABD MLS | Portland | Salt Lake | 25770 | 5 |
+| 26.07.2026 | 15:00 | Danimarka Süperlig | Sonderjyske | Midtjylland | 26730 | 5 |
+| 26.07.2026 | 17:00 | Danimarka Süperlig | Kopenhag | Lyngby | 26854 | 5 |
+| 26.07.2026 | 19:00 | Danimarka Süperlig | Horsens | Nordsjaelland | 26951 | 5 |
+| 26.07.2026 | 21:15 | Polonya Ekstraklasa | Wisla Krakow | Gks Katowice | 21529 | 5 |
+| 26.07.2026 | 18:30 | Polonya Ekstraklasa | Widzew Lodz | Motor Lublin | 21348 | 5 |
+| 26.07.2026 | 15:45 | Polonya Ekstraklasa | Rakow Czestoch | Wisla Plock | 21171 | 5 |
+| 26.07.2026 | 15:00 | İsviçre Süper Lig | Young Boys | Sion | 23595 | 5 |
+| 26.07.2026 | 17:30 | İsviçre Süper Lig | St Gallen | Zurich | 23919 | 5 |
+| 26.07.2026 | 17:30 | İsviçre Süper Lig | Lugano | Vaduz | 23754 | 5 |
+| 26.07.2026 | 19:30 | Rusya Premier Lig | Rubin Kazan | Krasnodar | 26619 | 5 |
+| 26.07.2026 | 19:30 | Rusya Premier Lig | Orenburg | Rostov | 26299 | 5 |
+| 26.07.2026 | 17:00 | Rusya Premier Lig | L.Moskova | Akhmat Grozny | 26467 | 5 |
+| 26.07.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Turku | 20800 | 5 |
+| 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Inter Turku | Gnistan | 20588 | 5 |
+| 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Ilves | Lahti | 20699 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
+| 26.07.2026 | 15:30 | Norveç Eliteserien | Brann | Valerenga | 26816 | 5 |
+| 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
 
 ## Sonuc
 
