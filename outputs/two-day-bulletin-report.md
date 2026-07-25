@@ -3,35 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 359
-Aktif mac: 322
-Canli mac: 37
+Aktif mac: 301
+Canli mac: 58
 Biten mac: 0
-Bultenden dusurulen mac: 37
-Bugun: 251
+Bultenden dusurulen mac: 58
+Bugun: 230
 Yarin: 71
 
 ## Baslamamis Maclar
-- 2026-07-25 15:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Chongqing Tongl | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Essen - M Gladbach | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Willem - Mechelen | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Scarborough At - Barnsley | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Rb Leipzig - Ingolstadt | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Augsburg - Saarbrucken | scheduled | -
-- 2026-07-25 15:00 | Finlandiya Ykkösliiga | Haka - Kapa | scheduled | -
-- 2026-07-25 15:00 | Norveç 2.Lig Grup 1 | Brattvag Il - Mjondalen | scheduled | -
-- 2026-07-25 15:00 | Norveç 2.Lig Grup 2 | Levanger - Ullensaker Kisa | scheduled | -
-- 2026-07-25 15:00 | Norveç 2.Lig Grup 2 | Honefoss - Skeid | scheduled | -
-- 2026-07-25 15:00 | Danimarka 1.Lig | Hvidovre - Vendsyssel | scheduled | -
-- 2026-07-25 15:00 | Litvanya 1.Lig | Atmosfera - Hegelmann Ii | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Metz - Fortuna Sittard | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Nijmegen - Elversberg | scheduled | -
-- 2026-07-25 15:00 | Norveç 3.Lig Grup 3 | Fana - Djerv | scheduled | -
-- 2026-07-25 15:00 | Norveç 3.Lig Grup 1 | Baerum - Valerenga Ii | scheduled | -
-- 2026-07-25 15:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Askoy | scheduled | -
-- 2026-07-25 15:00 | Norveç 3.Lig Grup 6 | Drobak/Frogn - Brumunddal | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Quorn - Harborough Town | scheduled | -
-- 2026-07-25 15:00 | Hazırlık Kulüpler | Hanwell - Aldershot | scheduled | -
-- 2026-07-25 15:00 | Belarus 1.Lig | Volna Pinsk - Orsha | scheduled | -
 - 2026-07-25 15:30 | Norveç 2.Lig Grup 2 | Grorud Il - Stjordals-Blink | scheduled | -
 - 2026-07-25 15:30 | Hazırlık Kulüpler | Zulte Waregem - Sparta Rotterda | scheduled | -
 - 2026-07-25 15:45 | Polonya Ekstraklasa | Jagiellonia - Korona Kielce | scheduled | -
@@ -372,6 +351,27 @@ Yarin: 71
 - 2026-07-25 14:30 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Shenzhen Junior | live | -
 - 2026-07-25 14:35 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Sheny - Qingdao Youth I | live | -
 - 2026-07-25 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Shanghai Shenhu | live | -
+- 2026-07-25 15:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Chongqing Tongl | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Essen - M Gladbach | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Willem - Mechelen | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Scarborough At - Barnsley | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Rb Leipzig - Ingolstadt | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Augsburg - Saarbrucken | live | -
+- 2026-07-25 15:00 | Finlandiya Ykkösliiga | Haka - Kapa | live | -
+- 2026-07-25 15:00 | Norveç 2.Lig Grup 1 | Brattvag Il - Mjondalen | live | -
+- 2026-07-25 15:00 | Norveç 2.Lig Grup 2 | Levanger - Ullensaker Kisa | live | -
+- 2026-07-25 15:00 | Norveç 2.Lig Grup 2 | Honefoss - Skeid | live | -
+- 2026-07-25 15:00 | Danimarka 1.Lig | Hvidovre - Vendsyssel | live | -
+- 2026-07-25 15:00 | Litvanya 1.Lig | Atmosfera - Hegelmann Ii | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Metz - Fortuna Sittard | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Nijmegen - Elversberg | live | -
+- 2026-07-25 15:00 | Norveç 3.Lig Grup 3 | Fana - Djerv | live | -
+- 2026-07-25 15:00 | Norveç 3.Lig Grup 1 | Baerum - Valerenga Ii | live | -
+- 2026-07-25 15:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Askoy | live | -
+- 2026-07-25 15:00 | Norveç 3.Lig Grup 6 | Drobak/Frogn - Brumunddal | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Quorn - Harborough Town | live | -
+- 2026-07-25 15:00 | Hazırlık Kulüpler | Hanwell - Aldershot | live | -
+- 2026-07-25 15:00 | Belarus 1.Lig | Volna Pinsk - Orsha | live | -
 
 ## Biten Maclar
 Biten mac yok.
