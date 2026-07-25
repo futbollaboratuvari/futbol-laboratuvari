@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.07.2026 06:54:28
+Oluşturma: 25.07.2026 07:32:31
 
 ## Özet
 
-- Toplam tahmin: 143
-- Bekleyen tahmin: 143
+- Toplam tahmin: 147
+- Bekleyen tahmin: 147
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 50
+- Lig sayısı: 51
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,16 @@ Oluşturma: 25.07.2026 06:54:28
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 90, bekleyen 90, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
+- MS X: toplam 92, bekleyen 92, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | Hazırlık Kulüpler | Sporting Cp - Monaco | MS X | pending | 80/100
+- 2026-07-25 | Hazırlık Kulüpler | Empoli - Virtus Entella | MS 2 | pending | 50/100
+- 2026-07-25 | İskoçya Lig Kupası Grup H | Hamilton - Elgin | MS X | pending | 95/100
+- 2026-07-25 | Güney Kore K3 Ligi | Gangneung City - Yeoju Sejong | MS 2 | pending | 40/100
 - 2026-07-25 | Hazırlık Kulüpler | Bromley - Crystal Palace | MS X | pending | 40/100
 - 2026-07-25 | Hazırlık Kulüpler | Bolton - Everton | MS X | pending | 55/100
 - 2026-07-25 | Hazırlık Kulüpler | Watford - Hansa Rostock | MS X | pending | 50/100
@@ -37,8 +41,4 @@ Oluşturma: 25.07.2026 06:54:28
 - 2026-07-25 | Macaristan NB II | Ajka - Kecskemeti | MS 1 | pending | 40/100
 - 2026-07-25 | Macaristan NB II | Bvsc - Kazincbarcika | MS X | pending | 40/100
 - 2026-07-25 | Macaristan NB II | Tiszakecske - Szeged 2011 | MS X | pending | 40/100
-- 2026-07-25 | Macaristan NB II | Mol Vidi - Kozarmisleny | MS 2 | pending | 40/100
-- 2026-07-25 | Polonya 2.Lig | Sandecja Nowy - Hutnik Krakow | MS X | pending | 50/100
-- 2026-07-25 | Hazırlık Kulüpler | Oviedo - D.La Coruna | MS X | pending | 50/100
-- 2026-07-25 | Macaristan NB I | Kisvarda - Budapest Honved | MS X | pending | 50/100
 
