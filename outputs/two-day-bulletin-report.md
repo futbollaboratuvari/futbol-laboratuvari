@@ -2,22 +2,15 @@
 
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
-Ham mac: 384
-Aktif mac: 347
-Canli mac: 13
-Biten mac: 24
-Bultenden dusurulen mac: 37
-Bugun: 276
+Ham mac: 360
+Aktif mac: 340
+Canli mac: 20
+Biten mac: 0
+Bultenden dusurulen mac: 20
+Bugun: 269
 Yarin: 71
 
 ## Baslamamis Maclar
-- 2026-07-25 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Marconi | scheduled | -
-- 2026-07-25 10:00 | Avustralya NPL Victoria | Dandenong Thun - Altona Magic | scheduled | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Dianella White | scheduled | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Olympic Kingswa | scheduled | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Redstar - Balcatta | scheduled | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth - Bayswater City | scheduled | -
-- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Stirling Lions - Armadale | scheduled | -
 - 2026-07-25 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Western Sydney | scheduled | -
 - 2026-07-25 11:00 | Avustralya NPL Başkent Bölgesi | Cooma Tigers - Tuggeranong Uni | scheduled | -
 - 2026-07-25 11:00 | Avustralya NPL Yeni Güney Galler | Apia - Unsw Fc | scheduled | -
@@ -373,29 +366,13 @@ Yarin: 71
 - 2026-07-25 09:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - O Connor Knight | live | -
 - 2026-07-25 09:30 | Avustralya NPL Kuzey YGG | Maitland - Broadmeadow Mag | live | -
 - 2026-07-25 09:30 | Avustralya NPL Kuzey YGG | Valentine Phoe - Charlestow City | live | -
+- 2026-07-25 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Marconi | live | -
+- 2026-07-25 10:00 | Avustralya NPL Victoria | Dandenong Thun - Altona Magic | live | -
+- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Dianella White | live | -
+- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Olympic Kingswa | live | -
+- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Redstar - Balcatta | live | -
+- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth - Bayswater City | live | -
+- 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Stirling Lions - Armadale | live | -
 
 ## Biten Maclar
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club - Gimnasia La Pla | finished | -
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Instituto Cordo | finished | -
-- 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | finished | -
-- 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | finished | -
-- 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | finished | -
-- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | finished | -
-- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | finished | -
-- 2026-07-25 02:30 | ABD USL Lig 2 Konferans Final | Michigan Bucks - Peoria City | finished | -
-- 2026-07-25 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Marquense | finished | -
-- 2026-07-25 03:00 | ABD USL | Birmingham Leg - New Mexico Unit | finished | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Platense - Union Santa Fe | finished | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Banfield | finished | -
-- 2026-07-25 03:30 | Şili Premier Lig | Colo Colo - Deportes Limach | finished | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Correcaminos Ua | finished | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Durango | finished | -
-- 2026-07-25 04:30 | Peru Premier Lig Clausura | Universitario - Cusco Fc | finished | -
-- 2026-07-25 04:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Municipal Limen | finished | -
-- 2026-07-25 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Perez Zeledon | finished | -
-- 2026-07-25 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Mixco | finished | -
-- 2026-07-25 05:00 | Kanada Premier Lig | Vancouver Fc - Cavalry | finished | -
-- 2026-07-25 06:00 | Meksika Liga MX Apertura | Atlante - Club America | finished | -
-- 2026-07-25 06:00 | Meksika Liga MX Apertura | Club Tijuana - Club Leon | finished | -
-- 2026-07-25 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Lambton Jaffas | finished | -
-- 2026-07-25 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Northcote City | finished | -
+Biten mac yok.
