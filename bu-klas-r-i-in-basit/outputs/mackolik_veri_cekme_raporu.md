@@ -1,33 +1,45 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-25T17:27:25.730400+00:00
+Tarih: 2026-07-25T17:41:00.287149+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 46
+- Kac mac bulundu: 114
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 46
+- Kac mac zaten vardi: 114
 - Ham veri havuzu toplam mac sayisi: 3268
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya FFA Kupası Son 32 Turu
+- Avustralya NPL Kuzey YGG
 - Bolivya Premier Lig
+- Brezilya Serie A
 - Bulgaristan 1.Lig
+- CONCACAF U20 Grup A
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
-- Macaristan NB I
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB III Güneybatı
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Meksika Liga MX Şampiyonlar Şampiyonu
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
 - Polonya Ekstraklasa
-- Romanya 1.Lig
 - Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
@@ -38,6 +50,7 @@ Tarih: 2026-07-25T17:27:25.730400+00:00
 - İrlanda Premier Lig
 - İsviçre Süper Lig
 - İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -94,8 +107,8 @@ Tarih: 2026-07-25T17:27:25.730400+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 47
-- Acilan detay: 47
+- Denenen Tumu alani: 45
+- Acilan detay: 45
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,6 +127,7 @@ Tarih: 2026-07-25T17:27:25.730400+00:00
 | 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
+| 26.07.2026 | 03:30 | Meksika Liga MX Şampiyonlar Şampiyonu | Toluca | Cruz Azul | 25037 | 5 |
 | 25.07.2026 | 22:00 | Hazırlık Kulüpler | Porto | Aston Villa | 22830 | 5 |
 | 25.07.2026 | 21:00 | Hazırlık Kulüpler | Estoril | Torreense | 13570 | 5 |
 | 25.07.2026 | 21:00 | Hazırlık Kulüpler | Granada | Real Betis | 08566 | 5 |
@@ -124,7 +138,6 @@ Tarih: 2026-07-25T17:27:25.730400+00:00
 | 25.07.2026 | 18:00 | Hazırlık Kulüpler | Caen | Al Wakrah | 06983 | 5 |
 | 25.07.2026 | 16:00 | Hazırlık Kulüpler | Arminia Bielef | Duisburg | 15859 | 5 |
 | 25.07.2026 | 21:30 | Hazırlık Kulüpler | Sporting Cp | Monaco | 08667 | 5 |
-| 25.07.2026 | 20:30 | Hazırlık Kulüpler | Oviedo | D.La Coruna | 08406 | 5 |
 | 25.07.2026 | 17:30 | Hazırlık Kulüpler | Leeds Utd | Wrexham | 08733 | 5 |
 | 25.07.2026 | 17:00 | Hazırlık Kulüpler | Halesowen Town | Tamworth | 31033 | 3 |
 | 25.07.2026 | 17:00 | Hazırlık Kulüpler | Dundela | Bangor Fc | 31315 | 3 |
