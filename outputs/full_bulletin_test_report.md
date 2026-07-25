@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 347
-- Live match count: 11
-- Finished removed count: 2
+- Scheduled match count: 334
+- Live match count: 16
+- Finished removed count: 3
 - Date window: 2026-07-25 / 2026-07-26 23:59
 
-- 2026-07-25 08:00 | Brindabella Bl - Canberra White | live
-- 2026-07-25 08:00 | Adelaide City - West Torrens | live
-- 2026-07-25 08:00 | Croydon Kings - Campbelltown Ci | live
-- 2026-07-25 08:00 | Melbourne City - Avondale Height | live
-- 2026-07-25 08:15 | Manningham Uni - Melbourne Knigh | live
-- 2026-07-25 08:30 | Adelaide Comet - White City Wood | live
-- 2026-07-25 08:30 | Adelaide Unite - Sturt Lions | live
-- 2026-07-25 08:30 | Para Hills Kni - Playford City P | live
-- 2026-07-25 09:30 | Belconnen Unit - O Connor Knight | live
-- 2026-07-25 09:30 | Maitland - Broadmeadow Mag | live
+- 2026-07-25 10:00 | Perth - Bayswater City | live
+- 2026-07-25 10:00 | Perth Glory Ii - Dianella White | live
+- 2026-07-25 10:00 | Perth Redstar - Balcatta | live
+- 2026-07-25 10:00 | Stirling Lions - Armadale | live
+- 2026-07-25 10:00 | Western Knight - Olympic Kingswa | live
+- 2026-07-25 10:00 | Dandenong Thun - Altona Magic | live
+- 2026-07-25 10:00 | Sd Raiders - Marconi | live
+- 2026-07-25 10:30 | Nws Spirit - Western Sydney | live
+- 2026-07-25 11:00 | Cooma Tigers - Tuggeranong Uni | live
+- 2026-07-25 11:00 | Apia - Unsw Fc | live

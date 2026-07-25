@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-25T06:38:34.960Z
-- Ham fixture sayisi: 3213
-- Bugun/yarin kaynak mac: 384
-- Aktif bulten maci: 347
+- Guncelleme: 2026-07-25T08:39:43.816Z
+- Ham fixture sayisi: 3216
+- Bugun/yarin kaynak mac: 387
+- Aktif bulten maci: 334
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 37
+- Bultenden dusurulen mac: 53
 
-- 1. 2026-07-25 10:00 | Avustralya NPL Victoria | Dandenong Thun - Altona Magic | scheduled
-- 2. 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth - Bayswater City | scheduled
-- 3. 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Dianella White | scheduled
-- 4. 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Perth Redstar - Balcatta | scheduled
-- 5. 2026-07-25 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Marconi | scheduled
-- 6. 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Stirling Lions - Armadale | scheduled
-- 7. 2026-07-25 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Olympic Kingswa | scheduled
-- 8. 2026-07-25 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Western Sydney | scheduled
-- 9. 2026-07-25 11:00 | Avustralya NPL Yeni Güney Galler | Apia - Unsw Fc | scheduled
-- 10. 2026-07-25 11:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu 3. lük Finalleri | Buducnost (K) - Hapoel Jerusale | scheduled
-- 11. 2026-07-25 11:00 | Avustralya NPL Başkent Bölgesi | Cooma Tigers - Tuggeranong Uni | scheduled
-- 12. 2026-07-25 11:00 | Güney Kore K3 Ligi | Gyeongju Hnp - Siheung Citizen | scheduled
-- 13. 2026-07-25 11:00 | Avustralya Victoria NPL 1 | Moreland Zebra - North Geelong | scheduled
-- 14. 2026-07-25 11:15 | Avustralya NPL Queensland | Gold Coast Kni - Gold Coast Unit | scheduled
-- 15. 2026-07-25 11:30 | Hazırlık Kulüpler | Girona - Alaves | scheduled
+- 1. 2026-07-25 12:00 | Hazırlık Kulüpler | Kaiserslautern - Sudtirol | scheduled
+- 2. 2026-07-25 12:00 | Hazırlık Kulüpler | Kortrijk - Royal Knokke | scheduled
+- 3. 2026-07-25 12:00 | Hazırlık Kulüpler | Luton - Al Kholood | scheduled
+- 4. 2026-07-25 12:00 | Güney Kore K3 Ligi | Pocheon - Daejeon Korail | scheduled
+- 5. 2026-07-25 12:00 | Hazırlık Kulüpler | Real Oviedo Ii - Real Aviles | scheduled
+- 6. 2026-07-25 12:00 | Hazırlık Kulüpler | Stade Lavalloi - Concarneau | scheduled
+- 7. 2026-07-25 12:15 | Polonya 2.Lig | Nkp Podhale - Slask Wroclaw I | scheduled
+- 8. 2026-07-25 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Sydney United | scheduled
+- 9. 2026-07-25 12:30 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Tianjin Teda | scheduled
+- 10. 2026-07-25 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - West Adelaide | scheduled
+- 11. 2026-07-25 13:00 | Hazırlık Kulüpler | Bruhl - Dietikon | scheduled
+- 12. 2026-07-25 13:00 | Güney Kore K3 Ligi | Dangjin Citize - Mokpo City | scheduled
+- 13. 2026-07-25 13:00 | Güney Kore K3 Ligi | Gangneung City - Yeoju Sejong | scheduled
+- 14. 2026-07-25 13:00 | Hazırlık Kulüpler | Lens - Charleroi | scheduled
+- 15. 2026-07-25 13:00 | AFF Şampiyonası Grup B | Myanmar - Malezya | scheduled
