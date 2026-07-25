@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 26.07.2026 01:15:05
-=======
-Oluşturma: 26.07.2026 01:15:13
->>>>>>> Stashed changes
+Oluşturma: 26.07.2026 02:15:49
 
 ## Özet
 
-- Toplam tahmin: 133
-- Bekleyen tahmin: 133
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 42
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 26.07.2026 01:15:13
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
-- MS X: toplam 78, bekleyen 78, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-26 | Şili Premier Lig | Atletico Nuble - Palestino | MS 2 | pending | 40/100
-- 2026-07-26 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | MS 2 | pending | 65/100
-- 2026-07-26 | Brezilya Serie B | Criciuma - Nautico | MS 2 | pending | 50/100
-- 2026-07-26 | Hazırlık Kulüpler | Sevilla - Ceuta | MS X | pending | 50/100
-- 2026-07-26 | Brezilya Serie A | Bahia - Corinthians | MS 2 | pending | 40/100
-- 2026-07-26 | Brezilya Serie A | Cruzeiro - Botafogo | MS 2 | pending | 50/100
-- 2026-07-26 | ABD MLS | Minnesota Utd - Vancouver | MS X | pending | 50/100
-- 2026-07-26 | ABD MLS | St. Louis City - Colorado | MS X | pending | 50/100
-- 2026-07-26 | ABD MLS | Houston - Austin | MS 2 | pending | 50/100
-- 2026-07-26 | ABD USL | Tulsa Roughnec - Lexington | MS X | pending | 50/100
-- 2026-07-26 | ABD USL Lig 1 | Corpus Christi - Greenville Triu | MS 2 | pending | 50/100
-- 2026-07-26 | Peru Premier Lig Clausura | Melgar - Sporting Crista | MS 2 | pending | 60/100
-- 2026-07-26 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Piratas | MS 2 | pending | 50/100
-- 2026-07-26 | Meksika Ascenso MX Apertura | Monarcas - Ca La Paz | MS 2 | pending | 50/100
-- 2026-07-26 | ABD USL | Colorado Sprin - Charleston Batt | MS X | pending | 50/100
 
