@@ -2,46 +2,30 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-25T15:10:46.197Z
-- Ham maç sayısı: 305
+- Güncelleme: 2026-07-25T15:30:13.788Z
+- Ham maç sayısı: 265
 - Yarın bülteni maç sayısı: 71
-- Detay blok sayısı: 860
-- Aktif bülten maçı: 166
-- Bültenden düşürülen maç: 139
+- Detay blok sayısı: 755
+- Aktif bülten maçı: 151
+- Bültenden düşürülen maç: 114
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Gornik Zabrze - Slask Wroclaw | Polonya Ekstraklasa | 18:30 | Veri bekleniyor | - | 1.57 | 8 |
-| Fakel Voronezh - Makhachkala | Rusya Premier Lig | 18:30 | Veri bekleniyor | - | 2.26 | 8 |
-| Kalmar - Mjallby | İsveç Allsvenskan | 18:30 | Veri bekleniyor | - | 2.2 | 8 |
-| Radnicki Nis - Cukaricki | Sırbistan Süper Lig | 18:30 | Veri bekleniyor | - | 1.91 | 8 |
-| Paok (K) - Neftçi Bakı (K) | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | 18:30 | Veri bekleniyor | - | - | 5 |
-| Sport Boys - Adt | Peru Premier Lig Clausura | 18:30 | Veri bekleniyor | - | 1.44 | 7 |
-| Nagykanizsai U - Diosgyor | Macaristan NB II | 18:30 | Veri bekleniyor | - | 4.86 | 7 |
-| Leevon / Ppk - Skanste | Letonya 1.Lig | 18:30 | Veri bekleniyor | - | 1.26 | 4 |
-| Dvsc Deac - Hajdunanas | Macaristan NB III Kuzeydoğu | 18:30 | Veri bekleniyor | - | 1.24 | 4 |
-| Tiszaujvaros - Ozd Sajovölgye | Macaristan NB III Kuzeydoğu | 18:30 | Veri bekleniyor | - | 1.93 | 6 |
-| Bicskei - Puskas Fc Ii | Macaristan NB III Kuzeybatı | 18:30 | Veri bekleniyor | - | 2.56 | 6 |
-| Iii Keruleti T - Csepel Tc | Macaristan NB III Güneydoğu | 18:30 | Veri bekleniyor | - | 1.4 | 5 |
-| Erdi Vse - Budaors | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 1.74 | 8 |
-| Kse Ivancsa - Szekszard | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 1.27 | 4 |
-| Verona - Dolomiti Bellun | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.06 | 6 |
-| Lecce - Istra | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.58 | 8 |
 | Aarhus - Brondby | Danimarka Süperlig | 19:00 | Veri bekleniyor | - | 1.96 | 8 |
-| Lausanne - Grasshoppers | İsviçre Süper Lig | 19:00 | Veri bekleniyor | - | 1.54 | 8 |
-| Servette - Basel | İsviçre Süper Lig | 19:00 | Veri bekleniyor | - | 2.13 | 8 |
+| Lausanne - Grasshoppers | İsviçre Süper Lig | 19:00 | Veri bekleniyor | - | 1.49 | 8 |
+| Servette - Basel | İsviçre Süper Lig | 19:00 | Veri bekleniyor | - | 2.03 | 8 |
 | Galway United - Waterford | İrlanda Premier Lig | 19:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Wolverhampton - Real Sociedad | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.92 | 8 |
 | Clermont - Montpellier | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 3.02 | 8 |
 | Empoli - Virtus Entella | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.64 | 8 |
-| Rennes - Club Brugge | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2 | 8 |
+| Rennes - Club Brugge | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.07 | 8 |
 | Psv Eindhoven - Villarreal | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.55 | 8 |
-| Cska 1948 Sofi - Botev Vratsa | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 1.3 | 7 |
+| Cska 1948 Sofi - Botev Vratsa | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 1.44 | 7 |
 | Tekstilshchik - Spartak Kostrom | Rusya FNL | 19:00 | Veri bekleniyor | - | 3.14 | 8 |
-| Stromsgodset - Lyn Oslo | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 1.1 | 6 |
+| Stromsgodset - Lyn Oslo | Norveç 1.Lig | 19:00 | Veri bekleniyor | - | 1.09 | 6 |
 | Trencin - Kfc Komarno | Slovakya Süper Lig | 19:00 | Veri bekleniyor | - | 2.03 | 8 |
-| Spartak Trnava - Skalica | Slovakya Süper Lig | 19:00 | Veri bekleniyor | - | 1.35 | 7 |
+| Spartak Trnava - Skalica | Slovakya Süper Lig | 19:00 | Veri bekleniyor | - | 1.36 | 7 |
 | Mura - Olimpija Ljubli | Slovenya 1.SNL | 19:00 | Veri bekleniyor | - | 2.74 | 8 |
 | Swit Skolwin - Gornik Leczna | Polonya 2.Lig | 19:00 | Veri bekleniyor | - | 2.33 | 8 |
 | Lietava Jonava - Garliava | Litvanya 1.Lig | 19:00 | Veri bekleniyor | - | 2.25 | 8 |
@@ -49,13 +33,14 @@
 | Magni - Kfg Gardabar | İzlanda 2.Lig | 19:00 | Veri bekleniyor | - | 1.34 | 4 |
 | Dijon - Sochaux | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 2.43 | 8 |
 | Marsilya - Nice | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 1.68 | 8 |
+| Orleans - Auxerre | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 5.61 | 6 |
 | Burgos - A.Bilbao B | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 1.31 | 7 |
 | Vvv Venlo - Fortuna Köln | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.27 | 8 |
 | Celta Vigo - Sporting Gijon | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.4 | 7 |
 | Athletic Bilba - Eibar | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.61 | 8 |
-| Strasbourg - Blackburn | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.79 | 8 |
+| Strasbourg - Blackburn | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.78 | 8 |
 | Murcia - Port Vale | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.04 | 8 |
-| Valladolid - Getafe | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3.17 | 8 |
+| Valladolid - Getafe | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3.1 | 8 |
 | Malaga - Leicester | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.95 | 8 |
 | Mallorca - Al Fateh | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | - | 5 |
 | Spartak Myjava - Mgarr United (K | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | 20:00 | Veri bekleniyor | - | 1.26 | 6 |
@@ -77,8 +62,8 @@
 | Spartak Moskov - Fk Rodina Moskv | Rusya Premier Lig | 20:45 | Veri bekleniyor | - | 1.15 | 6 |
 | Rio Cuarto - Tigre | Arjantin Premier Lig 2. Aşama | 20:45 | Veri bekleniyor | - | 3.09 | 8 |
 | Ofk Beograd - Radnik Surdulic | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 1.92 | 8 |
-| Imt Novi Beogr - Zemun Belg. | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 1.35 | 7 |
-| Cadiz - Cordoba | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.43 | 8 |
+| Imt Novi Beogr - Zemun Belg. | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 1.37 | 7 |
+| Cadiz - Cordoba | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Standard Liege - Juventus | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 4.09 | 8 |
 | Granada - Real Betis | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 4.62 | 7 |
 | Estoril - Torreense | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.74 | 8 |
@@ -91,9 +76,9 @@
 | Falubaz Zielon - Rekord Bielsko | Polonya 2.Lig | 21:00 | Veri bekleniyor | - | 2.12 | 8 |
 | Cd Aguilas - Almeria | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 5.34 | 6 |
 | Valencia - Castellon | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.6 | 8 |
-| Tarragona - Fc Andorra | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.97 | 8 |
+| Tarragona - Fc Andorra | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.35 | 8 |
 | Lech Poznan - Cracovia Krakow | Polonya Ekstraklasa | 21:15 | Veri bekleniyor | - | 1.32 | 6 |
-| Lokomotiv Sofi - Levski Sofya | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 4.97 | 6 |
+| Lokomotiv Sofi - Levski Sofya | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 5.14 | 6 |
 | Maribor - Nk Brinje Grosu | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 1.24 | 6 |
 | Luzern - Thun | İsviçre Süper Lig | 21:30 | Veri bekleniyor | - | 1.73 | 8 |
 | Espanyol - Sabadell | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | - | 5 |
@@ -106,7 +91,7 @@
 | Deportivo San - Xelaju | Guatemala Ulusal Lig Apertura | 22:00 | Veri bekleniyor | - | 2.86 | 8 |
 | Always Ready - San Antonio Bul | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | - | 3 |
 | Newells Old Bo - Talleres | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 2.48 | 8 |
-| Juan Pablo Ii - Cienciano | Peru Premier Lig Clausura | 23:15 | Veri bekleniyor | - | 1.97 | 8 |
+| Juan Pablo Ii - Cienciano | Peru Premier Lig Clausura | 23:15 | Veri bekleniyor | - | 1.92 | 8 |
 | Kuba U20 - El Salvador U20 | CONCACAF U20 Grup A | 00:00 | Veri bekleniyor | - | 4.25 | 6 |
 | Defensor Sport - Liverpool Monte | Uruguay Premier Lig Intermediate Turu Grup 1 | 00:00 | Veri bekleniyor | - | 2.17 | 5 |
 | Aurora - Guastatoya | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.94 | 8 |
