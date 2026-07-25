@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 23
-- Live match count: 0
+- Scheduled match count: 201
+- Live match count: 27
 - Finished removed count: 0
 - Date window: 2026-07-26 / 2026-07-27 23:59
 
-- 2026-07-27 00:00 | Gimnasia Y Tir - Maipu | scheduled
-- 2026-07-27 00:00 | Aguila - Firpo | scheduled
-- 2026-07-27 00:00 | Fuerte San Fra - Platense | scheduled
-- 2026-07-27 00:00 | Inter Toronto - Forge | scheduled
-- 2026-07-27 00:15 | Bolivar - Real Potosi | scheduled
-- 2026-07-27 00:30 | Bragantino - Coritiba | scheduled
-- 2026-07-27 00:30 | Flamengo - Sao Paulo | scheduled
-- 2026-07-27 00:30 | Gremio - Fluminense | scheduled
-- 2026-07-27 00:30 | America Mineir - Goias | scheduled
-- 2026-07-27 00:30 | Londrina - Novorizontino | scheduled
+- 2026-07-26 01:00 | San Martin Tuc - Atl Temperley | live
+- 2026-07-26 01:00 | Liverpool - Sunderland | live
+- 2026-07-26 01:00 | Tlaxcala - Leones Negros | live
+- 2026-07-26 01:15 | River Plate - Barracas | live
+- 2026-07-26 01:30 | New York - Charlotte | live
+- 2026-07-26 02:00 | Birmingham Leg - New Mexico Unit | live
+- 2026-07-26 02:00 | Brooklyn - San Antonio | live
+- 2026-07-26 02:00 | Detroit City - Las Vegas Light | live
+- 2026-07-26 02:00 | Indy Eleven - Loudoun United | live
+- 2026-07-26 02:00 | Charlotte Inde - Richmond Kicker | live
