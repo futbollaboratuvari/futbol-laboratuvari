@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.07.2026 15:11:55
+Oluşturma: 25.07.2026 15:50:31
 
 ## Özet
 
-- Toplam tahmin: 209
-- Bekleyen tahmin: 209
+- Toplam tahmin: 211
+- Bekleyen tahmin: 211
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 56
@@ -20,12 +20,14 @@ Oluşturma: 25.07.2026 15:11:55
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 128, bekleyen 128, başarı bekleniyor, ağırlık 1
+- MS X: toplam 129, bekleyen 129, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 67, bekleyen 67, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | Hazırlık Kulüpler | Arminia Bielef - Duisburg | MS X | pending | 40/100
+- 2026-07-25 | Polonya 1.Lig | Lechia Gdansk - Pogon Grodzisk | MS 1 | pending | 50/100
 - 2026-07-25 | Guatemala Ulusal Lig Apertura | Deportivo San - Xelaju | MS X | pending | 40/100
 - 2026-07-25 | Moldova Ulusal Lig | Csf Balti - Dacia-Buiucani | MS 2 | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Marsilya - Nice | MS X | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 25.07.2026 15:11:55
 - 2026-07-25 | Hazırlık Kulüpler | Dagenham & Red - Buxton | MS X | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Oxford City - Walton And Hers | MS X | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Kortrijk - Amiens | MS 2 | pending | 50/100
-- 2026-07-25 | Hazırlık Kulüpler | Mossley A.F.C. - Afc Emley | MS X | pending | 50/100
-- 2026-07-25 | Hazırlık Kulüpler | Chertsey Town - Hampton Richmon | MS X | pending | 50/100
 
