@@ -1,22 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-25T00:19:25.156745+00:00
+Tarih: 2026-07-25T01:13:15.993710+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 251
+- Kac mac bulundu: 321
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 251
+- Kac mac zaten vardi: 321
 - Ham veri havuzu toplam mac sayisi: 3184
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Grup B
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
@@ -27,9 +31,13 @@ Tarih: 2026-07-25T00:19:25.156745+00:00
 - Avustralya Victoria NPL 1
 - Belarus Kupa Son 16 Turu
 - Bolivya Premier Lig
+- Brezilya Serie A
 - Bulgaristan 1.Lig
+- CONCACAF U20 Grup A
 - Danimarka 1.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -39,6 +47,7 @@ Tarih: 2026-07-25T00:19:25.156745+00:00
 - Güney Kore K3 Ligi
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB I
@@ -47,7 +56,11 @@ Tarih: 2026-07-25T00:19:25.156745+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Meksika Liga MX Şampiyonlar Şampiyonu
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -83,6 +96,7 @@ Tarih: 2026-07-25T00:19:25.156745+00:00
 - İsviçre Süper Lig
 - İzlanda 1.Lig
 - İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 

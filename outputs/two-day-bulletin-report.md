@@ -3,21 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 344
-Aktif mac: 336
+Aktif mac: 329
 Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 266
+Biten mac: 7
+Bultenden dusurulen mac: 15
+Bugun: 259
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-07-25 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Marquense | scheduled | -
-- 2026-07-25 03:00 | ABD USL | Birmingham Leg - New Mexico Unit | scheduled | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Platense - Union Santa Fe | scheduled | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Banfield | scheduled | -
-- 2026-07-25 03:30 | Şili Premier Lig | Colo Colo - Deportes Limach | scheduled | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Correcaminos Ua | scheduled | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Durango | scheduled | -
 - 2026-07-25 04:30 | Peru Premier Lig Clausura | Universitario - Cusco Fc | scheduled | -
 - 2026-07-25 04:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Municipal Limen | scheduled | -
 - 2026-07-25 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Perez Zeledon | scheduled | -
@@ -349,14 +342,20 @@ Yarin: 70
 - 2026-07-26 07:00 | Avustralya FFA Kupası Son 32 Turu | Weston Bears - Melbourne City | scheduled | -
 
 ## Canli Maclar
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club - Gimnasia La Pla | live | -
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Instituto Cordo | live | -
-- 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | live | -
-- 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | live | -
-- 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | live | -
-- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | live | -
-- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | live | -
 - 2026-07-25 02:30 | ABD USL Lig 2 Konferans Final | Michigan Bucks - Peoria City | live | -
+- 2026-07-25 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Marquense | live | -
+- 2026-07-25 03:00 | ABD USL | Birmingham Leg - New Mexico Unit | live | -
+- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Platense - Union Santa Fe | live | -
+- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Banfield | live | -
+- 2026-07-25 03:30 | Şili Premier Lig | Colo Colo - Deportes Limach | live | -
+- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Correcaminos Ua | live | -
+- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Durango | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club - Gimnasia La Pla | finished | -
+- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Instituto Cordo | finished | -
+- 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | finished | -
+- 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | finished | -
+- 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | finished | -
+- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | finished | -
+- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | finished | -
