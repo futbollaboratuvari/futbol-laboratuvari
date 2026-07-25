@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 26
-- Live match count: 10
+- Scheduled match count: 23
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-26 / 2026-07-27 23:59
 
-- 2026-07-26 00:00 | Kuba U20 - El Salvador U20 | live
-- 2026-07-26 00:00 | Balboa - Inter Fa | live
-- 2026-07-26 00:00 | Cacahuatique - Isidro Metapan | live
-- 2026-07-26 00:00 | Aurora - Guastatoya | live
-- 2026-07-26 00:00 | Export Sebaco - San Marcos | live
-- 2026-07-26 00:00 | Defensor Sport - Liverpool Monte | live
-- 2026-07-26 00:15 | Guabira - Real Oruro | live
-- 2026-07-26 00:30 | Atletico Pr - Internacional | live
-- 2026-07-26 00:30 | Santos - Chapecoense | live
-- 2026-07-26 00:30 | Huachipato - Cobresal | live
+- 2026-07-27 00:00 | Gimnasia Y Tir - Maipu | scheduled
+- 2026-07-27 00:00 | Aguila - Firpo | scheduled
+- 2026-07-27 00:00 | Fuerte San Fra - Platense | scheduled
+- 2026-07-27 00:00 | Inter Toronto - Forge | scheduled
+- 2026-07-27 00:15 | Bolivar - Real Potosi | scheduled
+- 2026-07-27 00:30 | Bragantino - Coritiba | scheduled
+- 2026-07-27 00:30 | Flamengo - Sao Paulo | scheduled
+- 2026-07-27 00:30 | Gremio - Fluminense | scheduled
+- 2026-07-27 00:30 | America Mineir - Goias | scheduled
+- 2026-07-27 00:30 | Londrina - Novorizontino | scheduled
