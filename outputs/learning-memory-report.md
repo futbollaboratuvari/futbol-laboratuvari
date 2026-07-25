@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.07.2026 20:18:08
+Oluşturma: 25.07.2026 20:28:37
 
 ## Özet
 
-- Toplam tahmin: 77
-- Bekleyen tahmin: 77
+- Toplam tahmin: 79
+- Bekleyen tahmin: 79
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 27
@@ -20,12 +20,14 @@ Oluşturma: 25.07.2026 20:18:08
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
+- MS X: toplam 49, bekleyen 49, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | Mitrovica (K) - Ludogorets Razg | MS X | pending | 40/100
+- 2026-07-25 | Norveç 1.Lig | Haugesund - Bryne | MS 2 | pending | 40/100
 - 2026-07-25 | Hazırlık Kulüpler | Tarragona - Fc Andorra | MS X | pending | 50/100
 - 2026-07-25 | İsviçre Süper Lig | Luzern - Thun | MS X | pending | 70/100
 - 2026-07-25 | Hazırlık Kulüpler | Sporting Cp - Monaco | MS X | pending | 70/100
@@ -39,6 +41,4 @@ Oluşturma: 25.07.2026 20:18:08
 - 2026-07-25 | Macaristan NB II | Ajka - Kecskemeti | MS 1 | pending | 40/100
 - 2026-07-25 | Macaristan NB II | Bvsc - Kazincbarcika | MS X | pending | 40/100
 - 2026-07-25 | Macaristan NB II | Tiszakecske - Szeged 2011 | MS X | pending | 40/100
-- 2026-07-25 | Macaristan NB II | Mol Vidi - Kozarmisleny | MS 2 | pending | 40/100
-- 2026-07-25 | Hazırlık Kulüpler | Lugo - Celta Vigo Ii | MS X | pending | 50/100
 
