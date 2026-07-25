@@ -1,58 +1,39 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-25T15:37:02.239339+00:00
+Tarih: 2026-07-25T16:15:00.662595+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 175
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 175
-- Ham veri havuzu toplam mac sayisi: 3267
+- Kac mac bulundu: 72
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 71
+- Ham veri havuzu toplam mac sayisi: 3268
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya FFA Kupası Son 32 Turu
-- Avustralya NPL Batı Avustralya
-- Avustralya NPL Kuzey YGG
 - Belarus Kupa Son 16 Turu
 - Bolivya Premier Lig
-- Brezilya Serie A
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup A
-- Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
-- Litvanya 1.Lig
 - Macaristan NB I
 - Macaristan NB II
 - Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
-- Macaristan NB III Kuzeydoğu
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Meksika Liga MX Şampiyonlar Şampiyonu
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Romanya 1.Lig
-- Rusya FNL
 - Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
@@ -63,7 +44,6 @@ Tarih: 2026-07-25T15:37:02.239339+00:00
 - İrlanda Premier Lig
 - İsviçre Süper Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -120,8 +100,8 @@ Tarih: 2026-07-25T15:37:02.239339+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 58
-- Acilan detay: 58
+- Denenen Tumu alani: 53
+- Acilan detay: 53
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -134,26 +114,26 @@ Tarih: 2026-07-25T15:37:02.239339+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 25.07.2026 | 19:00 | Danimarka Süperlig | Aarhus | Brondby | 21985 | 5 |
 | 25.07.2026 | 21:15 | Polonya Ekstraklasa | Lech Poznan | Cracovia Krakow | 21001 | 5 |
 | 25.07.2026 | 21:30 | İsviçre Süper Lig | Luzern | Thun | 22987 | 5 |
-| 25.07.2026 | 19:00 | İsviçre Süper Lig | Lausanne | Grasshoppers | 22175 | 5 |
-| 25.07.2026 | 19:00 | İsviçre Süper Lig | Servette | Basel | 22285 | 5 |
-| 25.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Waterford | 22121 | 5 |
 | 25.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Drogheda | 23041 | 5 |
 | 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
-| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
-| 26.07.2026 | 03:30 | Meksika Liga MX Şampiyonlar Şampiyonu | Toluca | Cruz Azul | 25037 | 5 |
-| 25.07.2026 | 16:00 | Hazırlık Kulüpler | Arminia Bielef | Duisburg | 15859 | 5 |
-| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Le Mans | Nantes | 08633 | 5 |
-| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Caen | Al Wakrah | 06983 | 5 |
+| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
 | 25.07.2026 | 17:00 | Hazırlık Kulüpler | Wealdstone | Mk Dons | 08982 | 5 |
-| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Wycombe | Portsmouth | 08260 | 5 |
 | 25.07.2026 | 21:00 | Hazırlık Kulüpler | Cd Aguilas | Almeria | 02852 | 5 |
-| 25.07.2026 | 17:00 | Hazırlık Kulüpler | Barrow | Blackpool | 07177 | 5 |
 | 25.07.2026 | 17:00 | Hazırlık Kulüpler | Dagenham & Red | Buxton | 31298 | 5 |
-| 25.07.2026 | 19:00 | Hazırlık Kulüpler | Dijon | Sochaux | 17725 | 5 |
+| 25.07.2026 | 20:00 | Hazırlık Kulüpler | Celta Vigo | Sporting Gijon | 17786 | 5 |
+| 25.07.2026 | 20:00 | Hazırlık Kulüpler | Murcia | Port Vale | 11404 | 5 |
+| 25.07.2026 | 20:00 | Hazırlık Kulüpler | Valladolid | Getafe | 17788 | 5 |
+| 25.07.2026 | 20:00 | Hazırlık Kulüpler | Mallorca | Al Fateh | 11399 | 4 |
+| 25.07.2026 | 21:00 | Hazırlık Kulüpler | Tarragona | Fc Andorra | 14229 | 5 |
+| 25.07.2026 | 21:00 | Hazırlık Kulüpler | Granada | Real Betis | 08566 | 5 |
+| 25.07.2026 | 21:00 | Hazırlık Kulüpler | Estoril | Torreense | 13570 | 5 |
+| 25.07.2026 | 22:00 | Hazırlık Kulüpler | Porto | Aston Villa | 22830 | 5 |
+| 25.07.2026 | 18:00 | Hazırlık Kulüpler | Boulogne | Rouen | 17517 | 5 |
+| 25.07.2026 | 20:00 | Hazırlık Kulüpler | Strasbourg | Blackburn | 08370 | 5 |
+| 25.07.2026 | 20:00 | Hazırlık Kulüpler | Las Palmas | Al Ittihad (Cid | 29910 | 5 |
 
 ## Sonuc
 
