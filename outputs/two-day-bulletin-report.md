@@ -3,36 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 187
-Aktif mac: 129
-Canli mac: 58
+Aktif mac: 107
+Canli mac: 80
 Biten mac: 0
-Bultenden dusurulen mac: 58
-Bugun: 58
+Bultenden dusurulen mac: 80
+Bugun: 36
 Yarin: 71
 
 ## Baslamamis Maclar
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Vvv Venlo - Fortuna Köln | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Celta Vigo - Sporting Gijon | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Athletic Bilba - Eibar | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Strasbourg - Blackburn | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Murcia - Port Vale | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Valladolid - Getafe | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Malaga - Leicester | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Mallorca - Al Fateh | scheduled | -
-- 2026-07-25 20:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | Spartak Myjava - Mgarr United (K | scheduled | -
-- 2026-07-25 20:00 | Belarus Kupa Son 16 Turu | Torpedo Zhodin - Dnepr Mogilev | scheduled | -
-- 2026-07-25 20:00 | Moldova Ulusal Lig | Csf Balti - Dacia-Buiucani | scheduled | -
-- 2026-07-25 20:00 | Polonya 2.Lig | Zawisza Bydgos - Sokol Kleczew | scheduled | -
-- 2026-07-25 20:00 | Macaristan NB II | Ajka - Kecskemeti | scheduled | -
-- 2026-07-25 20:00 | Macaristan NB II | Bvsc - Kazincbarcika | scheduled | -
-- 2026-07-25 20:00 | Macaristan NB II | Tiszakecske - Szeged 2011 | scheduled | -
-- 2026-07-25 20:00 | Macaristan NB II | Mol Vidi - Kozarmisleny | scheduled | -
-- 2026-07-25 20:00 | Macaristan NB III Kuzeybatı | Dorogi Fc - Balatonalmadi | scheduled | -
-- 2026-07-25 20:00 | Macaristan NB III Güneybatı | Pecs - Dunaharaszti | scheduled | -
-- 2026-07-25 20:00 | İzlanda 2.Lig | Kormakur - Selfoss | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Lugo - Celta Vigo Ii | scheduled | -
-- 2026-07-25 20:00 | Hazırlık Kulüpler | Las Palmas - Al Ittihad (Cid | scheduled | -
-- 2026-07-25 20:10 | Polonya 2.Lig | Sandecja Nowy - Hutnik Krakow | scheduled | -
 - 2026-07-25 20:30 | Hazırlık Kulüpler | Oviedo - D.La Coruna | scheduled | -
 - 2026-07-25 20:30 | Macaristan NB I | Kisvarda - Budapest Honved | scheduled | -
 - 2026-07-25 20:30 | Romanya 1.Lig | Dinamo Bükreş - Universitatea C | scheduled | -
@@ -200,6 +178,28 @@ Yarin: 71
 - 2026-07-25 19:00 | Hazırlık Kulüpler | Marsilya - Nice | live | -
 - 2026-07-25 19:00 | Hazırlık Kulüpler | Orleans - Auxerre | live | -
 - 2026-07-25 19:30 | Hazırlık Kulüpler | Burgos - A.Bilbao B | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Vvv Venlo - Fortuna Köln | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Celta Vigo - Sporting Gijon | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Athletic Bilba - Eibar | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Strasbourg - Blackburn | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Murcia - Port Vale | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Valladolid - Getafe | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Malaga - Leicester | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Mallorca - Al Fateh | live | -
+- 2026-07-25 20:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | Spartak Myjava - Mgarr United (K | live | -
+- 2026-07-25 20:00 | Belarus Kupa Son 16 Turu | Torpedo Zhodin - Dnepr Mogilev | live | -
+- 2026-07-25 20:00 | Moldova Ulusal Lig | Csf Balti - Dacia-Buiucani | live | -
+- 2026-07-25 20:00 | Polonya 2.Lig | Zawisza Bydgos - Sokol Kleczew | live | -
+- 2026-07-25 20:00 | Macaristan NB II | Ajka - Kecskemeti | live | -
+- 2026-07-25 20:00 | Macaristan NB II | Bvsc - Kazincbarcika | live | -
+- 2026-07-25 20:00 | Macaristan NB II | Tiszakecske - Szeged 2011 | live | -
+- 2026-07-25 20:00 | Macaristan NB II | Mol Vidi - Kozarmisleny | live | -
+- 2026-07-25 20:00 | Macaristan NB III Kuzeybatı | Dorogi Fc - Balatonalmadi | live | -
+- 2026-07-25 20:00 | Macaristan NB III Güneybatı | Pecs - Dunaharaszti | live | -
+- 2026-07-25 20:00 | İzlanda 2.Lig | Kormakur - Selfoss | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Lugo - Celta Vigo Ii | live | -
+- 2026-07-25 20:00 | Hazırlık Kulüpler | Las Palmas - Al Ittihad (Cid | live | -
+- 2026-07-25 20:10 | Polonya 2.Lig | Sandecja Nowy - Hutnik Krakow | live | -
 
 ## Biten Maclar
 Biten mac yok.
