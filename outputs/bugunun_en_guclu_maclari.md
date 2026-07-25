@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-25T18:37:58.614Z
+- Güncelleme: 2026-07-25T18:48:17.432Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -63,7 +63,7 @@
 | Sporting Cp VS Monaco | Hazırlık Kulüpler | 21:30 | MS X | 3.67 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Podbrezova VS Zemplin | Slovakya Süper Lig | 21:30 | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Longford VS Wexford Youths | İrlanda 1.Lig | 21:30 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Sligo Rovers VS Drogheda | İrlanda Premier Lig | 21:45 | MS X | 2.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Sligo Rovers VS Drogheda | İrlanda Premier Lig | 21:45 | MS X | 2.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Porto VS Aston Villa | Hazırlık Kulüpler | 22:00 | MS X | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Rafaela VS Nueva Chicago | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Deportivo San VS Xelaju | Guatemala Ulusal Lig Apertura | 22:00 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
