@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-25T17:41:01.960Z
+- Guncelleme: 2026-07-25T18:37:28.883Z
 - Ham fixture sayisi: 3255
 - Bugun/yarin kaynak mac: 426
-- Aktif bulten maci: 104
+- Aktif bulten maci: 78
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 322
+- Bultenden dusurulen mac: 348
 
-- 1. 2026-07-25 20:45 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Tigre | scheduled
-- 2. 2026-07-25 20:45 | Rusya Premier Lig | Spartak Moskov - Fk Rodina Moskv | scheduled
-- 3. 2026-07-25 21:00 | Hazırlık Kulüpler | Cadiz - Cordoba | scheduled
-- 4. 2026-07-25 21:00 | Arjantin Ulusal Primera Lig | Caseros - Ciudad De Bolív | scheduled
-- 5. 2026-07-25 21:00 | Hazırlık Kulüpler | Cd Aguilas - Almeria | scheduled
-- 6. 2026-07-25 21:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Central Espano - Cerro Largo | scheduled
-- 7. 2026-07-25 21:00 | Hazırlık Kulüpler | Estoril - Torreense | scheduled
-- 8. 2026-07-25 21:00 | Polonya 2.Lig | Falubaz Zielon - Rekord Bielsko | scheduled
-- 9. 2026-07-25 21:00 | Hazırlık Kulüpler | Granada - Real Betis | scheduled
-- 10. 2026-07-25 21:00 | Norveç 1.Lig | Haugesund - Bryne | scheduled
-- 11. 2026-07-25 21:00 | Sırbistan Süper Lig | Imt Novi Beogr - Zemun Belg. | scheduled
-- 12. 2026-07-25 21:00 | UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final | Mitrovica (K) - Ludogorets Razg | scheduled
-- 13. 2026-07-25 21:00 | Sırbistan Süper Lig | Ofk Beograd - Radnik Surdulic | scheduled
-- 14. 2026-07-25 21:00 | Peru Premier Lig Clausura | Sport Huancayo - Atletico Grau | scheduled
-- 15. 2026-07-25 21:00 | Hazırlık Kulüpler | Standard Liege - Juventus | scheduled
+- 1. 2026-07-25 21:45 | İrlanda Premier Lig | Sligo Rovers - Drogheda | scheduled
+- 2. 2026-07-25 22:00 | Bolivya Premier Lig | Always Ready - San Antonio Bul | scheduled
+- 3. 2026-07-25 22:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Xelaju | scheduled
+- 4. 2026-07-25 22:00 | Hazırlık Kulüpler | Porto - Aston Villa | scheduled
+- 5. 2026-07-25 22:00 | Arjantin Ulusal Primera Lig | Rafaela - Nueva Chicago | scheduled
+- 6. 2026-07-25 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Talleres | scheduled
+- 7. 2026-07-25 23:15 | Peru Premier Lig Clausura | Juan Pablo Ii - Cienciano | scheduled
+- 8. 2026-07-26 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Guastatoya | scheduled
+- 9. 2026-07-26 00:00 | El Salvador Primera Lig Apertura | Balboa - Inter Fa | scheduled
+- 10. 2026-07-26 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Isidro Metapan | scheduled
+- 11. 2026-07-26 00:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport - Liverpool Monte | scheduled
+- 12. 2026-07-26 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - San Marcos | scheduled
+- 13. 2026-07-26 00:00 | CONCACAF U20 Grup A | Kuba U20 - El Salvador U20 | scheduled
+- 14. 2026-07-26 00:15 | Bolivya Premier Lig | Guabira - Real Oruro | scheduled
+- 15. 2026-07-26 00:30 | Brezilya Serie A | Atletico Pr - Internacional | scheduled

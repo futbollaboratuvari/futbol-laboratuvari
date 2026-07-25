@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 102
-- Live match count: 50
+- Scheduled match count: 78
+- Live match count: 52
 - Finished removed count: 0
 - Date window: 2026-07-25 / 2026-07-26 23:59
 
-- 2026-07-25 19:00 | Cska - Botev Vratsa | live
-- 2026-07-25 19:00 | Aarhus - Brondby | live
-- 2026-07-25 19:00 | Clermont - Montpellier | live
-- 2026-07-25 19:00 | Dijon - Sochaux | live
-- 2026-07-25 19:00 | Empoli - Virtus Entella | live
-- 2026-07-25 19:00 | Marsilya - Nice | live
-- 2026-07-25 19:00 | Orleans - Auxerre | live
-- 2026-07-25 19:00 | Psv Eindhoven - Villarreal | live
-- 2026-07-25 19:00 | Rennes - Club Brugge | live
-- 2026-07-25 19:00 | Wolverhampton - Real Sociedad | live
+- 2026-07-25 19:30 | Burgos - A.Bilbao B | live
+- 2026-07-25 20:00 | Torpedo Zhodin - Dnepr Mogilev | live
+- 2026-07-25 20:00 | Athletic Bilba - Eibar | live
+- 2026-07-25 20:00 | Celta Vigo - Sporting Gijon | live
+- 2026-07-25 20:00 | Las Palmas - Al Ittihad (Cid | live
+- 2026-07-25 20:00 | Lugo - Celta Vigo Ii | live
+- 2026-07-25 20:00 | Malaga - Leicester | live
+- 2026-07-25 20:00 | Mallorca - Al Fateh | live
+- 2026-07-25 20:00 | Murcia - Port Vale | live
+- 2026-07-25 20:00 | Strasbourg - Blackburn | live
