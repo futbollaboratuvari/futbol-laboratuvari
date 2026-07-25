@@ -1,31 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-25T12:46:50.865220+00:00
-=======
-Tarih: 2026-07-25T12:51:43.325016+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-25T13:54:04.156992+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 300
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 298
-- Ham veri havuzu toplam mac sayisi: 3264
-=======
-- Kac mac bulundu: 229
-- Kac mac kaydedildi: 3
-- Kac mac zaten vardi: 226
-- Ham veri havuzu toplam mac sayisi: 3265
->>>>>>> Stashed changes
+- Durum: error
+- Kac mac bulundu: 188
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Grup B
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Batı Avustralya
@@ -36,7 +24,6 @@ Tarih: 2026-07-25T12:51:43.325016+00:00
 - Danimarka 1.Lig
 - Danimarka Süperlig
 - Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
@@ -51,15 +38,11 @@ Tarih: 2026-07-25T12:51:43.325016+00:00
 - Macaristan NB III Kuzeydoğu
 - Moldova Ulusal Lig
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
-- Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
-- Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Romanya 1.Lig
@@ -82,7 +65,6 @@ Tarih: 2026-07-25T12:51:43.325016+00:00
 - İskoçya Lig Kupası Grup G
 - İskoçya Lig Kupası Grup H
 - İsveç Allsvenskan
-- İsveç Superettan
 - İsviçre Süper Lig
 - İzlanda 1.Lig
 - İzlanda 2.Lig
@@ -142,50 +124,42 @@ Tarih: 2026-07-25T12:51:43.325016+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 84
-- Acilan detay: 84
+- Denenen Tumu alani: 77
+- Acilan detay: 77
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 25.07.2026 | 19:00 | Danimarka Süperlig | Aarhus | Brondby | 21985 | 5 |
-| 25.07.2026 | 21:15 | Polonya Ekstraklasa | Lech Poznan | Cracovia Krakow | 21001 | 5 |
 | 25.07.2026 | 18:30 | Polonya Ekstraklasa | Gornik Zabrze | Slask Wroclaw | 20862 | 5 |
+| 25.07.2026 | 21:15 | Polonya Ekstraklasa | Lech Poznan | Cracovia Krakow | 21001 | 5 |
 | 25.07.2026 | 21:30 | İsviçre Süper Lig | Luzern | Thun | 22987 | 5 |
-| 25.07.2026 | 19:00 | İsviçre Süper Lig | Servette | Basel | 22285 | 5 |
 | 25.07.2026 | 19:00 | İsviçre Süper Lig | Lausanne | Grasshoppers | 22175 | 5 |
+| 25.07.2026 | 19:00 | İsviçre Süper Lig | Servette | Basel | 22285 | 5 |
 | 25.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Waterford | 22121 | 5 |
 | 25.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Drogheda | 23041 | 5 |
 | 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
-<<<<<<< Updated upstream
-| 25.07.2026 | 16:15 | Rusya Premier Lig | Akron | Zenit | 19975 | 5 |
 | 25.07.2026 | 18:30 | Rusya Premier Lig | Fakel Voronezh | Makhachkala | 21817 | 5 |
-=======
->>>>>>> Stashed changes
-| 25.07.2026 | 16:30 | Finlandiya Veikkausliiga | Mariehamn | Oulu | 20062 | 5 |
 | 25.07.2026 | 17:00 | Finlandiya Veikkausliiga | Kuopion | Vaasa | 20395 | 5 |
 | 25.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Start | 20962 | 5 |
 | 25.07.2026 | 18:30 | İsveç Allsvenskan | Kalmar | Mjallby | 21880 | 5 |
-<<<<<<< Updated upstream
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
-| 25.07.2026 | 18:30 | Sırbistan Süper Lig | Radnicki Nis | Cukaricki | 21951 | 5 |
-| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
-=======
-| 25.07.2026 | 16:00 | İsveç Allsvenskan | Degerfors | Djurgarden | 19619 | 5 |
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
 | 25.07.2026 | 18:30 | Sırbistan Süper Lig | Radnicki Nis | Cukaricki | 21951 | 5 |
-| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
+| 25.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Aberdeen | Kelty Hearts | 20183 | 4 |
 | 25.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Queens Park | Queen Of South | 21201 | 5 |
->>>>>>> Stashed changes
+| 25.07.2026 | 17:00 | İskoçya Lig Kupası Grup B | Montrose | Spartans | 21075 | 5 |
+| 25.07.2026 | 17:00 | İskoçya Lig Kupası Grup B | Arbroath | Stirling Albion | 20251 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
