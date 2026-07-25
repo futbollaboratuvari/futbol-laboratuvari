@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.07.2026 09:29:13
+Oluşturma: 25.07.2026 09:41:57
 
 ## Özet
 
-- Toplam tahmin: 164
-- Bekleyen tahmin: 164
+- Toplam tahmin: 165
+- Bekleyen tahmin: 165
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 53
@@ -20,12 +20,13 @@ Oluşturma: 25.07.2026 09:29:13
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 106, bekleyen 106, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
-- MS X: toplam 105, bekleyen 105, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | İskoçya Lig Kupası Grup E | Forfar - Brechin | MS X | pending | 60/100
 - 2026-07-25 | Hazırlık Kulüpler | Clermont - Montpellier | MS 1 | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Mallorca - Al Fateh | MS X | pending | 95/100
 - 2026-07-25 | Finlandiya Veikkausliiga | Kuopion - Vaasa | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 25.07.2026 09:29:13
 - 2026-07-25 | Hazırlık Kulüpler | Zulte Waregem - Sparta Rotterda | MS X | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Mainz - Holstein Kiel | MS 2 | pending | 60/100
 - 2026-07-25 | Hazırlık Kulüpler | Fortuna Düssel - B.Dortmund | MS X | pending | 40/100
-- 2026-07-25 | Hazırlık Kulüpler | Dynamo Dresden - E.Cottbus | MS X | pending | 50/100
 
