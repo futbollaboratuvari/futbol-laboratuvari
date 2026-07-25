@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.07.2026 00:10:18
+Oluşturma: 26.07.2026 00:14:32
 
 ## Özet
 
-- Toplam tahmin: 127
-- Bekleyen tahmin: 127
+- Toplam tahmin: 133
+- Bekleyen tahmin: 133
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 40
+- Lig sayısı: 42
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,18 @@ Oluşturma: 26.07.2026 00:10:18
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 77, bekleyen 77, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
+- MS X: toplam 78, bekleyen 78, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-26 | Şili Premier Lig | Atletico Nuble - Palestino | MS 2 | pending | 40/100
+- 2026-07-26 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | MS 2 | pending | 65/100
+- 2026-07-26 | Brezilya Serie B | Criciuma - Nautico | MS 2 | pending | 50/100
+- 2026-07-26 | Hazırlık Kulüpler | Sevilla - Ceuta | MS X | pending | 50/100
+- 2026-07-26 | Brezilya Serie A | Bahia - Corinthians | MS 2 | pending | 40/100
+- 2026-07-26 | Brezilya Serie A | Cruzeiro - Botafogo | MS 2 | pending | 50/100
 - 2026-07-26 | ABD MLS | Minnesota Utd - Vancouver | MS X | pending | 50/100
 - 2026-07-26 | ABD MLS | St. Louis City - Colorado | MS X | pending | 50/100
 - 2026-07-26 | ABD MLS | Houston - Austin | MS 2 | pending | 50/100
@@ -35,10 +41,4 @@ Oluşturma: 26.07.2026 00:10:18
 - 2026-07-26 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Piratas | MS 2 | pending | 50/100
 - 2026-07-26 | Meksika Ascenso MX Apertura | Monarcas - Ca La Paz | MS 2 | pending | 50/100
 - 2026-07-26 | ABD USL | Colorado Sprin - Charleston Batt | MS X | pending | 50/100
-- 2026-07-26 | ABD USL Lig 1 | Spokane Veloci - Fort Wayne | MS 2 | pending | 50/100
-- 2026-07-26 | ABD MLS | San Diego - Dallas | MS X | pending | 70/100
-- 2026-07-26 | Kosta Rika Premier Lig Apertura | Sporting San J - Alajuelense | MS X | pending | 40/100
-- 2026-07-26 | ABD USL | Oakland Roots - Sacramento Repu | MS X | pending | 50/100
-- 2026-07-26 | ABD USL | Monterey Bay - Orange County B | MS X | pending | 50/100
-- 2026-07-26 | ABD MLS | Portland - Salt Lake | MS X | pending | 70/100
 

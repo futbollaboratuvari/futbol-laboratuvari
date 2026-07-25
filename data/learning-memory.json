@@ -1,28 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-25T12:57:11.481Z",
-  "updated_at": "2026-07-25T21:10:18.507Z",
+  "updated_at": "2026-07-25T21:14:32.797Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 127,
-    "pending_predictions": 127,
+    "total_predictions": 133,
+    "pending_predictions": 133,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 40,
+    "league_count": 42,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 6,
     "updated_predictions": 0,
-    "last_score_link_checked": 127,
+    "last_score_link_checked": 133,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS X": {
-      "total": 77,
-      "pending": 77,
+    "MS 2": {
+      "total": 51,
+      "pending": 51,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 2": {
-      "total": 46,
-      "pending": 46,
+    "MS X": {
+      "total": 78,
+      "pending": 78,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +52,56 @@
     }
   },
   "league_memory": {
+    "Şili Premier Lig": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Arjantin Ulusal Primera Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler": {
+      "total": 35,
+      "pending": 35,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "ABD MLS": {
       "total": 15,
       "pending": 15,
@@ -112,29 +162,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler": {
-      "total": 34,
-      "pending": 34,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Meksika Liga MX Apertura": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie A": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -173,16 +203,6 @@
       "confidence_adjustment": 0
     },
     "El Salvador Primera Lig Apertura": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Şili Premier Lig": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -454,6 +474,56 @@
     }
   },
   "league_market_memory": {
+    "Şili Premier Lig :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Arjantin Ulusal Primera Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 23,
+      "pending": 23,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A :: MS 2": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "ABD MLS :: MS X": {
       "total": 13,
       "pending": 13,
@@ -534,16 +604,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 22,
-      "pending": 22,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Meksika Liga MX Apertura :: MS X": {
       "total": 1,
       "pending": 1,
@@ -567,16 +627,6 @@
     "ABD USL Lig 1 :: MS X": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie A :: MS 2": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -615,16 +665,6 @@
       "confidence_adjustment": 0
     },
     "El Salvador Primera Lig Apertura :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Şili Premier Lig :: MS 2": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -1016,6 +1056,108 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-07-26|sili premier lig|atletico nuble palestino|ms 2|22 00",
+      "date": "2026-07-26",
+      "created_at": "2026-07-25T21:14:32.418Z",
+      "match_name": "Atletico Nuble - Palestino",
+      "league": "Şili Premier Lig",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "2.81",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-26|arjantin ulusal primera lig|gimnasia jujuy club atletico g|ms 2|22 00",
+      "date": "2026-07-26",
+      "created_at": "2026-07-25T21:14:32.418Z",
+      "match_name": "Gimnasia Jujuy - Club Atletico G",
+      "league": "Arjantin Ulusal Primera Lig",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "6.13",
+      "confidence_score": "65%",
+      "analysis_score": 65,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-26|brezilya serie b|criciuma nautico|ms 2|22 00",
+      "date": "2026-07-26",
+      "created_at": "2026-07-25T21:14:32.418Z",
+      "match_name": "Criciuma - Nautico",
+      "league": "Brezilya Serie B",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "4.28",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-26|hazirlik kulupler|sevilla ceuta|ms x|22 00",
+      "date": "2026-07-26",
+      "created_at": "2026-07-25T21:14:32.417Z",
+      "match_name": "Sevilla - Ceuta",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "3.33",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-26|brezilya serie a|bahia corinthians|ms 2|22 00",
+      "date": "2026-07-26",
+      "created_at": "2026-07-25T21:14:32.417Z",
+      "match_name": "Bahia - Corinthians",
+      "league": "Brezilya Serie A",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "2.95",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-26|brezilya serie a|cruzeiro botafogo|ms 2|22 00",
+      "date": "2026-07-26",
+      "created_at": "2026-07-25T21:14:32.417Z",
+      "match_name": "Cruzeiro - Botafogo",
+      "league": "Brezilya Serie A",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "4.01",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-07-26|abd mls|minnesota utd vancouver|ms x|03 30",
       "date": "2026-07-26",
@@ -1729,7 +1871,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-25T21:10:18.246Z"
+      "updated_at": "2026-07-25T21:14:32.417Z"
     },
     {
       "id": "2026-07-26|brezilya serie a|atletico pr internacional|ms 2|00 30",
