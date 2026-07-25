@@ -1,26 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-25T04:28:50.105443+00:00
+Tarih: 2026-07-25T06:28:13.103194+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 339
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 338
-- Ham veri havuzu toplam mac sayisi: 3202
+- Kac mac bulundu: 279
+- Kac mac kaydedildi: 18
+- Kac mac zaten vardi: 261
+- Ham veri havuzu toplam mac sayisi: 3220
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Grup B
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
@@ -31,13 +27,9 @@ Tarih: 2026-07-25T04:28:50.105443+00:00
 - Avustralya Victoria NPL 1
 - Belarus Kupa Son 16 Turu
 - Bolivya Premier Lig
-- Brezilya Serie A
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup A
 - Danimarka 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -47,7 +39,6 @@ Tarih: 2026-07-25T04:28:50.105443+00:00
 - Güney Kore K3 Ligi
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB I
@@ -56,17 +47,15 @@ Tarih: 2026-07-25T04:28:50.105443+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Meksika Liga MX Şampiyonlar Şampiyonu
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 5
 - Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -80,6 +69,7 @@ Tarih: 2026-07-25T04:28:50.105443+00:00
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
+- UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu 3. lük Finalleri
 - UEFA Kadınlar Şampiyonlar Ligi 1. Eleme Turu Final
 - Uruguay Premier Lig Intermediate Turu Grup 1
 - Çin Halk Cumhuriyeti 1.Lig
@@ -99,7 +89,6 @@ Tarih: 2026-07-25T04:28:50.105443+00:00
 - İsviçre Süper Lig
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -174,22 +163,22 @@ Tarih: 2026-07-25T04:28:50.105443+00:00
 | 25.07.2026 | 15:45 | Polonya Ekstraklasa | Jagiellonia | Korona Kielce | 19565 | 5 |
 | 25.07.2026 | 18:30 | Polonya Ekstraklasa | Gornik Zabrze | Slask Wroclaw | 20862 | 5 |
 | 25.07.2026 | 21:15 | Polonya Ekstraklasa | Lech Poznan | Cracovia Krakow | 21001 | 5 |
+| 25.07.2026 | 19:00 | İsviçre Süper Lig | Servette | Basel | 22285 | 5 |
 | 25.07.2026 | 19:00 | İsviçre Süper Lig | Lausanne | Grasshoppers | 22175 | 5 |
 | 25.07.2026 | 21:30 | İsviçre Süper Lig | Luzern | Thun | 22987 | 5 |
-| 25.07.2026 | 19:00 | İsviçre Süper Lig | Servette | Basel | 22285 | 5 |
 | 25.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Drogheda | 23041 | 5 |
 | 25.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Waterford | 22121 | 5 |
-| 25.07.2026 | 18:30 | Rusya Premier Lig | Fakel Voronezh | Makhachkala | 21817 | 5 |
-| 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
-| 25.07.2026 | 16:15 | Rusya Premier Lig | Akron | Zenit | 19975 | 5 |
 | 25.07.2026 | 14:00 | Rusya Premier Lig | Dinamo Moskova | Krylya Sovietov | 19220 | 5 |
+| 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
+| 25.07.2026 | 18:30 | Rusya Premier Lig | Fakel Voronezh | Makhachkala | 21817 | 5 |
+| 25.07.2026 | 16:15 | Rusya Premier Lig | Akron | Zenit | 19975 | 5 |
 | 25.07.2026 | 17:00 | Finlandiya Veikkausliiga | Kuopion | Vaasa | 20395 | 5 |
 | 25.07.2026 | 16:30 | Finlandiya Veikkausliiga | Mariehamn | Oulu | 20062 | 5 |
 | 25.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Start | 20962 | 5 |
-| 25.07.2026 | 18:30 | İsveç Allsvenskan | Kalmar | Mjallby | 21880 | 5 |
 | 25.07.2026 | 16:00 | İsveç Allsvenskan | Degerfors | Djurgarden | 19619 | 5 |
+| 25.07.2026 | 18:30 | İsveç Allsvenskan | Kalmar | Mjallby | 21880 | 5 |
+| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
-| 25.07.2026 | 18:30 | Sırbistan Süper Lig | Radnicki Nis | Cukaricki | 21951 | 5 |
 
 ## Sonuc
 

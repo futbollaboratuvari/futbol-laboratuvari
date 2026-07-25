@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.07.2026 07:42:37
+Oluşturma: 25.07.2026 09:29:13
 
 ## Özet
 
-- Toplam tahmin: 159
-- Bekleyen tahmin: 159
+- Toplam tahmin: 164
+- Bekleyen tahmin: 164
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 53
@@ -20,12 +20,17 @@ Oluşturma: 25.07.2026 07:42:37
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 102, bekleyen 102, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS X: toplam 105, bekleyen 105, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | Hazırlık Kulüpler | Clermont - Montpellier | MS 1 | pending | 50/100
+- 2026-07-25 | Hazırlık Kulüpler | Mallorca - Al Fateh | MS X | pending | 95/100
+- 2026-07-25 | Finlandiya Veikkausliiga | Kuopion - Vaasa | MS X | pending | 50/100
+- 2026-07-25 | Hazırlık Kulüpler | Eastleigh - Crawley | MS 1 | pending | 50/100
+- 2026-07-25 | Finlandiya Ykkönen | Salpa Salo - Pk Keski Uusima | MS X | pending | 70/100
 - 2026-07-25 | Hazırlık Kulüpler | Salford City - Dundee Utd | MS X | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Hartlepool - Grimsby | MS X | pending | 50/100
 - 2026-07-25 | Hazırlık Kulüpler | Az Alkmaar - Olympiakos | MS X | pending | 50/100
@@ -36,9 +41,4 @@ Oluşturma: 25.07.2026 07:42:37
 - 2026-07-25 | Hazırlık Kulüpler | Mainz - Holstein Kiel | MS 2 | pending | 60/100
 - 2026-07-25 | Hazırlık Kulüpler | Fortuna Düssel - B.Dortmund | MS X | pending | 40/100
 - 2026-07-25 | Hazırlık Kulüpler | Dynamo Dresden - E.Cottbus | MS X | pending | 50/100
-- 2026-07-25 | Avustralya NPL Batı Avustralya | Perth Redstar - Balcatta | MS 2 | pending | 60/100
-- 2026-07-25 | Hazırlık Kulüpler | Girona - Alaves | MS X | pending | 40/100
-- 2026-07-25 | Hazırlık Kulüpler | Sporting Cp - Monaco | MS X | pending | 80/100
-- 2026-07-25 | Hazırlık Kulüpler | Empoli - Virtus Entella | MS 2 | pending | 50/100
-- 2026-07-25 | İskoçya Lig Kupası Grup H | Hamilton - Elgin | MS X | pending | 95/100
 
