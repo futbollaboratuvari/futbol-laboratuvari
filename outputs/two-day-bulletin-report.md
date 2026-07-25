@@ -3,21 +3,14 @@
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
 Ham mac: 337
-Aktif mac: 329
-Canli mac: 8
+Aktif mac: 322
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 259
+Bultenden dusurulen mac: 15
+Bugun: 252
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-07-25 04:30 | Peru Premier Lig Clausura | Universitario - Cusco Fc | scheduled | -
-- 2026-07-25 04:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Municipal Limen | scheduled | -
-- 2026-07-25 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Perez Zeledon | scheduled | -
-- 2026-07-25 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Mixco | scheduled | -
-- 2026-07-25 05:00 | Kanada Premier Lig | Vancouver Fc - Cavalry | scheduled | -
-- 2026-07-25 06:00 | Meksika Liga MX Apertura | Atlante - Club America | scheduled | -
-- 2026-07-25 06:00 | Meksika Liga MX Apertura | Club Tijuana - Club Leon | scheduled | -
 - 2026-07-25 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Lambton Jaffas | scheduled | -
 - 2026-07-25 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Northcote City | scheduled | -
 - 2026-07-25 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Queanbeyan City | scheduled | -
@@ -350,6 +343,13 @@ Yarin: 70
 - 2026-07-25 03:30 | Şili Premier Lig | Colo Colo - Deportes Limach | live | -
 - 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Correcaminos Ua | live | -
 - 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Durango | live | -
+- 2026-07-25 04:30 | Peru Premier Lig Clausura | Universitario - Cusco Fc | live | -
+- 2026-07-25 04:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Municipal Limen | live | -
+- 2026-07-25 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Perez Zeledon | live | -
+- 2026-07-25 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Mixco | live | -
+- 2026-07-25 05:00 | Kanada Premier Lig | Vancouver Fc - Cavalry | live | -
+- 2026-07-25 06:00 | Meksika Liga MX Apertura | Atlante - Club America | live | -
+- 2026-07-25 06:00 | Meksika Liga MX Apertura | Club Tijuana - Club Leon | live | -
 
 ## Biten Maclar
 Biten mac yok.
