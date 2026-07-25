@@ -1,45 +1,46 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-25T12:46:50.865220+00:00
+=======
+Tarih: 2026-07-25T12:51:43.325016+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 300
 - Kac mac kaydedildi: 2
 - Kac mac zaten vardi: 298
 - Ham veri havuzu toplam mac sayisi: 3264
+=======
+- Kac mac bulundu: 229
+- Kac mac kaydedildi: 3
+- Kac mac zaten vardi: 226
+- Ham veri havuzu toplam mac sayisi: 3265
+>>>>>>> Stashed changes
 - Hedef tarih: 25.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Grup B
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya FFA Kupası Son 32 Turu
 - Avustralya NPL Batı Avustralya
-- Avustralya NPL Kuzey YGG
 - Belarus 1.Lig
 - Belarus Kupa Son 16 Turu
 - Bolivya Premier Lig
-- Brezilya Serie A
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup A
 - Danimarka 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB I
@@ -48,11 +49,7 @@ Tarih: 2026-07-25T12:46:50.865220+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Meksika Liga MX Şampiyonlar Şampiyonu
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -89,7 +86,6 @@ Tarih: 2026-07-25T12:46:50.865220+00:00
 - İsviçre Süper Lig
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -161,7 +157,6 @@ Tarih: 2026-07-25T12:46:50.865220+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 25.07.2026 | 19:00 | Danimarka Süperlig | Aarhus | Brondby | 21985 | 5 |
-| 25.07.2026 | 15:45 | Polonya Ekstraklasa | Jagiellonia | Korona Kielce | 19565 | 5 |
 | 25.07.2026 | 21:15 | Polonya Ekstraklasa | Lech Poznan | Cracovia Krakow | 21001 | 5 |
 | 25.07.2026 | 18:30 | Polonya Ekstraklasa | Gornik Zabrze | Slask Wroclaw | 20862 | 5 |
 | 25.07.2026 | 21:30 | İsviçre Süper Lig | Luzern | Thun | 22987 | 5 |
@@ -170,16 +165,26 @@ Tarih: 2026-07-25T12:46:50.865220+00:00
 | 25.07.2026 | 19:00 | İrlanda Premier Lig | Galway United | Waterford | 22121 | 5 |
 | 25.07.2026 | 21:45 | İrlanda Premier Lig | Sligo Rovers | Drogheda | 23041 | 5 |
 | 25.07.2026 | 20:45 | Rusya Premier Lig | Spartak Moskov | Fk Rodina Moskv | 22629 | 5 |
+<<<<<<< Updated upstream
 | 25.07.2026 | 16:15 | Rusya Premier Lig | Akron | Zenit | 19975 | 5 |
 | 25.07.2026 | 18:30 | Rusya Premier Lig | Fakel Voronezh | Makhachkala | 21817 | 5 |
+=======
+>>>>>>> Stashed changes
 | 25.07.2026 | 16:30 | Finlandiya Veikkausliiga | Mariehamn | Oulu | 20062 | 5 |
 | 25.07.2026 | 17:00 | Finlandiya Veikkausliiga | Kuopion | Vaasa | 20395 | 5 |
 | 25.07.2026 | 17:00 | Norveç Eliteserien | Kristiansund | Start | 20962 | 5 |
-| 25.07.2026 | 16:00 | İsveç Allsvenskan | Degerfors | Djurgarden | 19619 | 5 |
 | 25.07.2026 | 18:30 | İsveç Allsvenskan | Kalmar | Mjallby | 21880 | 5 |
+<<<<<<< Updated upstream
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
 | 25.07.2026 | 18:30 | Sırbistan Süper Lig | Radnicki Nis | Cukaricki | 21951 | 5 |
 | 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
+=======
+| 25.07.2026 | 16:00 | İsveç Allsvenskan | Degerfors | Djurgarden | 19619 | 5 |
+| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Imt Novi Beogr | Zemun Belg. | 22733 | 5 |
+| 25.07.2026 | 18:30 | Sırbistan Süper Lig | Radnicki Nis | Cukaricki | 21951 | 5 |
+| 25.07.2026 | 21:00 | Sırbistan Süper Lig | Ofk Beograd | Radnik Surdulic | 22813 | 5 |
+| 25.07.2026 | 17:00 | İskoçya Lig Kupası Grup A | Queens Park | Queen Of South | 21201 | 5 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
