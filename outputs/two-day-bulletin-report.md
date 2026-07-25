@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-25 / 2026-07-26
 Kaynak: fixtures.json
-Ham mac: 362
-Aktif mac: 338
-Canli mac: 4
-Biten mac: 20
-Bultenden dusurulen mac: 24
-Bugun: 268
+Ham mac: 342
+Aktif mac: 336
+Canli mac: 6
+Biten mac: 0
+Bultenden dusurulen mac: 6
+Bugun: 266
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-07-25 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Queanbeyan City | scheduled | -
-- 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | scheduled | -
 - 2026-07-25 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Canberra White | scheduled | -
 - 2026-07-25 08:00 | Avustralya NPL Güney Avustralya | Adelaide City - West Torrens | scheduled | -
 - 2026-07-25 08:00 | Avustralya NPL Güney Avustralya | Croydon Kings - Campbelltown Ci | scheduled | -
@@ -355,25 +353,8 @@ Yarin: 70
 - 2026-07-25 06:00 | Meksika Liga MX Apertura | Club Tijuana - Club Leon | live | -
 - 2026-07-25 07:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Lambton Jaffas | live | -
 - 2026-07-25 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Northcote City | live | -
+- 2026-07-25 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Queanbeyan City | live | -
+- 2026-07-25 07:30 | Avustralya NPL Tazmanya | Riverside Olym - Launceston City | live | -
 
 ## Biten Maclar
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Racing Club - Gimnasia La Pla | finished | -
-- 2026-07-25 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Instituto Cordo | finished | -
-- 2026-07-25 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Danubio | finished | -
-- 2026-07-25 01:00 | Kanada Premier Lig | Hfx Wanderers - Supra Du Quebec | finished | -
-- 2026-07-25 01:30 | ABD USL Lig 2 Konferans Final | Vermont Green - Asheville City | finished | -
-- 2026-07-25 02:00 | CONCACAF U20 Grup B | Meksika (U20) - Antigua And Bar | finished | -
-- 2026-07-25 02:00 | Bolivya Premier Lig | Aurora - Academia Del Ba | finished | -
-- 2026-07-25 02:30 | ABD USL Lig 2 Konferans Final | Michigan Bucks - Peoria City | finished | -
-- 2026-07-25 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Marquense | finished | -
-- 2026-07-25 03:00 | ABD USL | Birmingham Leg - New Mexico Unit | finished | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Platense - Union Santa Fe | finished | -
-- 2026-07-25 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Banfield | finished | -
-- 2026-07-25 03:30 | Şili Premier Lig | Colo Colo - Deportes Limach | finished | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Correcaminos Ua | finished | -
-- 2026-07-25 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Durango | finished | -
-- 2026-07-25 04:30 | Peru Premier Lig Clausura | Universitario - Cusco Fc | finished | -
-- 2026-07-25 04:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Municipal Limen | finished | -
-- 2026-07-25 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Perez Zeledon | finished | -
-- 2026-07-25 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Mixco | finished | -
-- 2026-07-25 05:00 | Kanada Premier Lig | Vancouver Fc - Cavalry | finished | -
+Biten mac yok.

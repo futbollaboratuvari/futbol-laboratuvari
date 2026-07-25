@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.07.2026 07:32:31
+Oluşturma: 25.07.2026 07:42:37
 
 ## Özet
 
-- Toplam tahmin: 147
-- Bekleyen tahmin: 147
+- Toplam tahmin: 159
+- Bekleyen tahmin: 159
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 51
+- Lig sayısı: 53
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 25.07.2026 07:32:31
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 92, bekleyen 92, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
+- MS X: toplam 102, bekleyen 102, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-25 | Hazırlık Kulüpler | Salford City - Dundee Utd | MS X | pending | 50/100
+- 2026-07-25 | Hazırlık Kulüpler | Hartlepool - Grimsby | MS X | pending | 50/100
+- 2026-07-25 | Hazırlık Kulüpler | Az Alkmaar - Olympiakos | MS X | pending | 50/100
+- 2026-07-25 | Hazırlık Kulüpler | Metz - Fortuna Sittard | MS X | pending | 60/100
+- 2026-07-25 | Hazırlık Kulüpler | Nijmegen - Elversberg | MS X | pending | 70/100
+- 2026-07-25 | Norveç 3.Lig Grup 3 | Fana - Djerv | MS X | pending | 70/100
+- 2026-07-25 | Hazırlık Kulüpler | Zulte Waregem - Sparta Rotterda | MS X | pending | 50/100
+- 2026-07-25 | Hazırlık Kulüpler | Mainz - Holstein Kiel | MS 2 | pending | 60/100
+- 2026-07-25 | Hazırlık Kulüpler | Fortuna Düssel - B.Dortmund | MS X | pending | 40/100
+- 2026-07-25 | Hazırlık Kulüpler | Dynamo Dresden - E.Cottbus | MS X | pending | 50/100
+- 2026-07-25 | Avustralya NPL Batı Avustralya | Perth Redstar - Balcatta | MS 2 | pending | 60/100
+- 2026-07-25 | Hazırlık Kulüpler | Girona - Alaves | MS X | pending | 40/100
 - 2026-07-25 | Hazırlık Kulüpler | Sporting Cp - Monaco | MS X | pending | 80/100
 - 2026-07-25 | Hazırlık Kulüpler | Empoli - Virtus Entella | MS 2 | pending | 50/100
 - 2026-07-25 | İskoçya Lig Kupası Grup H | Hamilton - Elgin | MS X | pending | 95/100
-- 2026-07-25 | Güney Kore K3 Ligi | Gangneung City - Yeoju Sejong | MS 2 | pending | 40/100
-- 2026-07-25 | Hazırlık Kulüpler | Bromley - Crystal Palace | MS X | pending | 40/100
-- 2026-07-25 | Hazırlık Kulüpler | Bolton - Everton | MS X | pending | 55/100
-- 2026-07-25 | Hazırlık Kulüpler | Watford - Hansa Rostock | MS X | pending | 50/100
-- 2026-07-25 | Kazakistan Premier Lig | Zhetysu - Kyzyl-Zhar | MS X | pending | 40/100
-- 2026-07-25 | Hazırlık Kulüpler | Espanyol - Sabadell | MS X | pending | 75/100
-- 2026-07-25 | Macaristan NB III Güneydoğu | Iii Keruleti T - Csepel Tc | MS X | pending | 50/100
-- 2026-07-25 | Hazırlık Kulüpler | Porto - Aston Villa | MS X | pending | 50/100
-- 2026-07-25 | Polonya 2.Lig | Zawisza Bydgos - Sokol Kleczew | MS 2 | pending | 70/100
-- 2026-07-25 | Macaristan NB II | Ajka - Kecskemeti | MS 1 | pending | 40/100
-- 2026-07-25 | Macaristan NB II | Bvsc - Kazincbarcika | MS X | pending | 40/100
-- 2026-07-25 | Macaristan NB II | Tiszakecske - Szeged 2011 | MS X | pending | 40/100
 
