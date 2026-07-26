@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
-Ham mac: 228
-Aktif mac: 182
-Canli mac: 46
-Biten mac: 0
-Bultenden dusurulen mac: 46
-Bugun: 159
+Ham mac: 239
+Aktif mac: 183
+Canli mac: 29
+Biten mac: 27
+Bultenden dusurulen mac: 56
+Bugun: 160
 Yarin: 23
 
 ## Baslamamis Maclar
@@ -31,6 +31,7 @@ Yarin: 23
 - 2026-07-26 08:00 | Avustralya NPL Kuzey YGG | Kahibah - Belmont Swansea | scheduled | -
 - 2026-07-26 09:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Monaro Panthers | scheduled | -
 - 2026-07-26 10:00 | Avustralya FFA Kupası Son 32 Turu | Kingborough Li - Melbourne Victo | scheduled | -
+- 2026-07-26 11:00 | Hazırlık Kulüpler | Levante - Al-Qadsiah | scheduled | -
 - 2026-07-26 11:30 | Slovakya 2.Lig | Slovan Bratisl - Zlate Moravce | scheduled | -
 - 2026-07-26 11:30 | Slovakya 2.Lig | Zilina Ii - Petrzalka | scheduled | -
 - 2026-07-26 12:00 | Rusya FNL | Yenisey - Veles | scheduled | -
@@ -195,23 +196,6 @@ Yarin: 23
 - 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | scheduled | -
 
 ## Canli Maclar
-- 2026-07-26 01:00 | Hazırlık Kulüpler | Liverpool - Sunderland | live | -
-- 2026-07-26 01:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Atl Temperley | live | -
-- 2026-07-26 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Leones Negros | live | -
-- 2026-07-26 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Barracas | live | -
-- 2026-07-26 01:30 | ABD MLS | New York - Charlotte | live | -
-- 2026-07-26 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Alebrijes | live | -
-- 2026-07-26 02:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Inter San Carlo | live | -
-- 2026-07-26 02:00 | ABD USL | Pittsburgh Riv - Rhode Island | live | -
-- 2026-07-26 02:00 | ABD USL | Brooklyn - San Antonio | live | -
-- 2026-07-26 02:00 | ABD USL | Indy Eleven - Loudoun United | live | -
-- 2026-07-26 02:00 | ABD USL | Miami Fc - Tampa Bay Rowdi | live | -
-- 2026-07-26 02:00 | ABD USL | Detroit City - Las Vegas Light | live | -
-- 2026-07-26 02:00 | ABD USL Lig 1 | New York Cosmo - Athletic Club B | live | -
-- 2026-07-26 02:00 | ABD USL Lig 1 | Forward Madiso - Naples | live | -
-- 2026-07-26 02:00 | ABD USL Lig 1 | Charlotte Inde - Richmond Kicker | live | -
-- 2026-07-26 02:00 | ABD USL Lig 1 | Chattanooga Re - One Knoxville | live | -
-- 2026-07-26 02:00 | ABD USL | Birmingham Leg - New Mexico Unit | live | -
 - 2026-07-26 02:07 | Meksika Liga MX Apertura | Guadalajara - Fc Juarez | live | -
 - 2026-07-26 02:15 | ABD MLS | Columbus - Cincinnati | live | -
 - 2026-07-26 02:30 | ABD MLS | New England - Atlanta Utd | live | -
@@ -243,4 +227,30 @@ Yarin: 23
 - 2026-07-26 04:00 | ABD USL Lig 1 | Spokane Veloci - Fort Wayne | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-26 00:00 | CONCACAF U20 Grup A | Kuba U20 - El Salvador U20 | finished | -
+- 2026-07-26 00:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport - Liverpool Monte | finished | -
+- 2026-07-26 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Guastatoya | finished | -
+- 2026-07-26 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - San Marcos | finished | -
+- 2026-07-26 00:00 | El Salvador Primera Lig Apertura | Balboa - Inter Fa | finished | -
+- 2026-07-26 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Isidro Metapan | finished | -
+- 2026-07-26 00:15 | Bolivya Premier Lig | Guabira - Real Oruro | finished | -
+- 2026-07-26 00:30 | Brezilya Serie A | Atletico Pr - Internacional | finished | -
+- 2026-07-26 00:30 | Brezilya Serie A | Santos - Chapecoense | finished | -
+- 2026-07-26 00:30 | Şili Premier Lig | Huachipato - Cobresal | finished | -
+- 2026-07-26 01:00 | Hazırlık Kulüpler | Liverpool - Sunderland | finished | -
+- 2026-07-26 01:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Atl Temperley | finished | -
+- 2026-07-26 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Leones Negros | finished | -
+- 2026-07-26 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Barracas | finished | -
+- 2026-07-26 01:30 | ABD MLS | New York - Charlotte | finished | -
+- 2026-07-26 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Alebrijes | finished | -
+- 2026-07-26 02:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Inter San Carlo | finished | -
+- 2026-07-26 02:00 | ABD USL | Pittsburgh Riv - Rhode Island | finished | -
+- 2026-07-26 02:00 | ABD USL | Brooklyn - San Antonio | finished | -
+- 2026-07-26 02:00 | ABD USL | Indy Eleven - Loudoun United | finished | -
+- 2026-07-26 02:00 | ABD USL | Miami Fc - Tampa Bay Rowdi | finished | -
+- 2026-07-26 02:00 | ABD USL | Detroit City - Las Vegas Light | finished | -
+- 2026-07-26 02:00 | ABD USL Lig 1 | New York Cosmo - Athletic Club B | finished | -
+- 2026-07-26 02:00 | ABD USL Lig 1 | Forward Madiso - Naples | finished | -
+- 2026-07-26 02:00 | ABD USL Lig 1 | Charlotte Inde - Richmond Kicker | finished | -
+- 2026-07-26 02:00 | ABD USL Lig 1 | Chattanooga Re - One Knoxville | finished | -
+- 2026-07-26 02:00 | ABD USL | Birmingham Leg - New Mexico Unit | finished | -

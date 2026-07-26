@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-25T23:42:34.711Z
-- Ham fixture sayisi: 3422
-- Bugun/yarin kaynak mac: 238
-- Aktif bulten maci: 201
+- Guncelleme: 2026-07-26T01:15:10.710Z
+- Ham fixture sayisi: 3423
+- Bugun/yarin kaynak mac: 239
+- Aktif bulten maci: 183
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 37
+- Bultenden dusurulen mac: 56
 
-- 1. 2026-07-26 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Alianza | scheduled
-- 2. 2026-07-26 03:00 | Nikaragua Premier Lig Apertura | Managua - Jalapa | scheduled
-- 3. 2026-07-26 03:00 | Ekvador Pro Lig | T.Universitari - Manta | scheduled
-- 4. 2026-07-26 03:00 | Şili Premier Lig | Univ. Catolica - La Serena | scheduled
-- 5. 2026-07-26 03:30 | ABD USL Lig 1 | Corpus Christi - Greenville Triu | scheduled
-- 6. 2026-07-26 03:30 | ABD MLS | Houston - Austin | scheduled
-- 7. 2026-07-26 03:30 | Arjantin Premier Lig 2. Aşama | Lanus - San Lorenzo | scheduled
-- 8. 2026-07-26 03:30 | ABD MLS | Minnesota Utd - Vancouver | scheduled
-- 9. 2026-07-26 03:30 | ABD MLS | St. Louis City - Colorado | scheduled
-- 10. 2026-07-26 03:30 | Meksika Liga MX Şampiyonlar Şampiyonu | Toluca - Cruz Azul | scheduled
-- 11. 2026-07-26 03:30 | ABD USL | Tulsa Roughnec - Lexington | scheduled
-- 12. 2026-07-26 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Piratas | scheduled
-- 13. 2026-07-26 04:00 | ABD USL | Colorado Sprin - Charleston Batt | scheduled
-- 14. 2026-07-26 04:00 | ABD USL | El Paso Locomo - Sporting Jax | scheduled
-- 15. 2026-07-26 04:00 | Guatemala Ulusal Lig Apertura | Malacateco - Coban Imperial | scheduled
+- 1. 2026-07-26 04:30 | ABD MLS | San Diego - Dallas | scheduled
+- 2. 2026-07-26 05:00 | CONCACAF U20 Grup A | Abd (U20) - Haiti U20 | scheduled
+- 3. 2026-07-26 05:00 | ABD USL | Monterey Bay - Orange County B | scheduled
+- 4. 2026-07-26 05:00 | ABD USL | Oakland Roots - Sacramento Repu | scheduled
+- 5. 2026-07-26 05:00 | Kosta Rika Premier Lig Apertura | Sporting San J - Alajuelense | scheduled
+- 6. 2026-07-26 05:30 | ABD MLS | Los Angeles Fc - Kansas | scheduled
+- 7. 2026-07-26 05:30 | ABD USL | Phoenix Rising - Hartford Athlet | scheduled
+- 8. 2026-07-26 05:30 | ABD MLS | Portland - Salt Lake | scheduled
+- 9. 2026-07-26 05:30 | ABD MLS | San Jose - Los Angeles | scheduled
+- 10. 2026-07-26 06:00 | ABD USL Lig 1 | Alta - Westchester Sc | scheduled
+- 11. 2026-07-26 06:00 | Hazırlık Kulüpler | Auckland - Tottenham | scheduled
+- 12. 2026-07-26 06:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Newcastle Olymp | scheduled
+- 13. 2026-07-26 06:00 | Meksika Liga MX Apertura | Santos Laguna - Atlas | scheduled
+- 14. 2026-07-26 06:00 | Meksika Liga MX Apertura | Tigres Uanl - Atletico San Lu | scheduled
+- 15. 2026-07-26 07:00 | Avustralya FFA Kupası Son 32 Turu | Weston Bears - Melbourne City | scheduled
