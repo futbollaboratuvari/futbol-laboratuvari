@@ -1,13 +1,13 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 108
-Tam analiz: 94
-Eksik analiz: 14
+Toplam analiz: 83
+Tam analiz: 70
+Eksik analiz: 13
 
-- Lida VS Slonim: eksik score, confidence
 - Los Andes VS Deportivo Madry: eksik score, confidence
 - All Boys VS D Belgrano: eksik score, confidence
+- Agropecuario VS San Martin Sj: eksik score, confidence
 - Cerro VS Racing Montevid: eksik score, confidence
 - San Miguel VS Acassuso: eksik score, confidence
 - Colon Santa Fe VS Chaco For Ever: eksik score, confidence
@@ -18,4 +18,3 @@ Eksik analiz: 14
 - R Cordoba VS San Telmo: eksik score, confidence
 - Fram VS Hafnarfjordur: eksik score, confidence
 - Godoy Cruz VS Central Norte: eksik score, confidence
-- Panama (U20) VS Kanada (U20): eksik score, confidence
