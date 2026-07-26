@@ -1,18 +1,12 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 42
-Tam analiz: 31
-Eksik analiz: 11
+Toplam analiz: 25
+Tam analiz: 20
+Eksik analiz: 5
 
-- Los Andes VS Deportivo Madry: eksik score, confidence
-- All Boys VS D Belgrano: eksik score, confidence
-- Agropecuario VS San Martin Sj: eksik score, confidence
-- Cerro VS Racing Montevid: eksik score, confidence
-- Colon Santa Fe VS Chaco For Ever: eksik score, confidence
+- Gimnasia Y Tir VS Maipu: eksik score, confidence
+- Bolivar VS Real Potosi: eksik score, confidence
 - Quilmes VS Colegiales: eksik score, confidence
-- Midland VS Patronato: eksik score, confidence
-- Ca Mitre VS Almirante: eksik score, confidence
-- R Cordoba VS San Telmo: eksik score, confidence
-- Fram VS Hafnarfjordur: eksik score, confidence
-- Godoy Cruz VS Central Norte: eksik score, confidence
+- Michigan Bucks VS Ventura Country: eksik score, confidence
+- Nacional Potos VS Real Tomayapo: eksik score, confidence

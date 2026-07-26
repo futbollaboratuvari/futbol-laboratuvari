@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.07.2026 23:32:24
+Oluşturma: 27.07.2026 00:13:00
 
 ## Özet
 
-- Toplam tahmin: 58
-- Bekleyen tahmin: 58
+- Toplam tahmin: 74
+- Bekleyen tahmin: 74
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 32
+- Lig sayısı: 36
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 26.07.2026 23:32:24
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
-- MS X: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
+- MS X: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-26 | CONCACAF U20 Grup C | Panama (U20) - Kanada (U20) | MS 2 | pending | 40/100
-- 2026-07-26 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | MS 2 | pending | 65/100
-- 2026-07-26 | Polonya 2.Lig | Chojniczanka - Gks Tychy | MS X | pending | 50/100
-- 2026-07-26 | Macaristan NB I | Paksi - Ferencvaros | MS 1 | pending | 55/100
-- 2026-07-26 | Peru Premier Lig Clausura | Univ De Cajama - Deportivo Moque | MS 2 | pending | 60/100
-- 2026-07-26 | Kanada Premier Lig | Atletico Ottaw - Pacific Fc | MS 2 | pending | 60/100
-- 2026-07-26 | Polonya Ekstraklasa | Wisla Krakow - Gks Katowice | MS X | pending | 50/100
-- 2026-07-26 | Bulgaristan 1.Lig | Lokomotiv Plov - Septemvri Sofia | MS 2 | pending | 50/100
-- 2026-07-26 | Slovenya 1.SNL | Koper - Radomlje | MS 2 | pending | 40/100
-- 2026-07-26 | Sırbistan Süper Lig | Mladost Lucani - Novi Pazar | MS X | pending | 40/100
-- 2026-07-26 | Hazırlık Kulüpler | Sevilla - Ceuta | MS 2 | pending | 75/100
-- 2026-07-26 | Brezilya Serie A | Bahia - Corinthians | MS X | pending | 40/100
-- 2026-07-26 | Brezilya Serie A | Cruzeiro - Botafogo | MS 2 | pending | 50/100
-- 2026-07-26 | Şili Premier Lig | Atletico Nuble - Palestino | MS 2 | pending | 40/100
-- 2026-07-26 | Brezilya Serie B | Criciuma - Nautico | MS 2 | pending | 50/100
+- 2026-07-27 | Şili Premier Lig | Concepcion - O Higgins | MS X | pending | 40/100
+- 2026-07-27 | CONCACAF U20 Grup C | Honduras (U20) - Jamaika U20 | MS 2 | pending | 60/100
+- 2026-07-27 | Meksika Liga MX Apertura | Pachuca - Queretaro | MS 2 | pending | 60/100
+- 2026-07-27 | Şili Premier Lig | Audax Italiano - Univ. De Şili | MS 1 | pending | 40/100
+- 2026-07-27 | Brezilya Serie B | Londrina - Novorizontino | MS 1 | pending | 40/100
+- 2026-07-27 | Brezilya Serie A | Palmeiras - Atletico Mg | MS 2 | pending | 50/100
+- 2026-07-27 | Brezilya Serie A | Remo - Vitoria Bahia | MS X | pending | 40/100
+- 2026-07-27 | Meksika Liga MX Apertura | Necaxa - Monterrey | MS X | pending | 50/100
+- 2026-07-27 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | MS X | pending | 50/100
+- 2026-07-27 | Peru Premier Lig Clausura | Deportivo Garc - Fc Cajamarca | MS 2 | pending | 50/100
+- 2026-07-27 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | MS 2 | pending | 40/100
+- 2026-07-27 | Brezilya Serie A | Flamengo - Sao Paulo | MS 2 | pending | 75/100
+- 2026-07-27 | Brezilya Serie A | Gremio - Fluminense | MS X | pending | 40/100
+- 2026-07-27 | Brezilya Serie A | Bragantino - Coritiba | MS 2 | pending | 50/100
+- 2026-07-27 | El Salvador Primera Lig Apertura | Aguila - Firpo | MS X | pending | 40/100
 
