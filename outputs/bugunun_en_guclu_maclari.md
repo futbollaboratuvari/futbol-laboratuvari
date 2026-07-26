@@ -2,29 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-26T11:38:40.187Z
+- Güncelleme: 2026-07-26T12:18:09.818Z
 - Ham maç sayısı: 169
 - Yarın bülteni maç sayısı: 24
 - Detay blok sayısı: 482
-- Aktif bülten maçı: 147
-- Bültenden düşürülen maç: 22
+- Aktif bülten maçı: 134
+- Bültenden düşürülen maç: 35
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sonderjyske - Midtjylland | Danimarka Süperlig | 15:00 | Veri bekleniyor | - | 4.51 | 7 |
-| Young Boys - Sion | İsviçre Süper Lig | 15:00 | Veri bekleniyor | - | 1.62 | 8 |
-| Inter Turku - Gnistan | Finlandiya Veikkausliiga | 15:00 | Veri bekleniyor | - | 1.49 | 7 |
-| Ilves - Lahti | Finlandiya Veikkausliiga | 15:00 | Veri bekleniyor | - | 2.17 | 8 |
-| Sirius - Göteborg | İsveç Allsvenskan | 15:00 | Veri bekleniyor | - | 1.24 | 6 |
-| Brommapojkarna - Hammarby | İsveç Allsvenskan | 15:00 | Veri bekleniyor | - | 5.63 | 6 |
-| Zhejiang G. Fc - Dalian Zhixing | Çin Halk Cumhuriyeti Süper Lig | 15:00 | Veri bekleniyor | - | 1.76 | 8 |
-| Ufa - Ska-Khabarovsk | Rusya FNL | 15:00 | Veri bekleniyor | - | 1.79 | 8 |
-| Trygg/Lade - Eidsvold Tf | Norveç 2.Lig Grup 2 | 15:00 | Veri bekleniyor | - | 4.97 | 6 |
-| Hobro - Aarhus Fremad | Danimarka 1.Lig | 15:00 | Veri bekleniyor | - | 2.23 | 8 |
-| Bfa - Be1 Nfa | Litvanya 1.Lig | 15:00 | Veri bekleniyor | - | 2.42 | 8 |
-| Ajax - Burnley | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 1.87 | 8 |
-| Akra - Brodd | Norveç 3.Lig Grup 4 | 15:00 | Veri bekleniyor | - | 3.11 | 5 |
 | Brann - Valerenga | Norveç Eliteserien | 15:30 | Veri bekleniyor | - | 1.47 | 8 |
 | Nieciecza - Ruch Chorzow | Polonya 1.Lig | 15:30 | Veri bekleniyor | - | 1.89 | 8 |
 | Jerv - Lysekloster | Norveç 2.Lig Grup 1 | 15:30 | Veri bekleniyor | - | 1.09 | 6 |

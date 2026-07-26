@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-26T11:11:54.576661+00:00
+Tarih: 2026-07-26T12:19:36.839578+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 128
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 128
-- Ham veri havuzu toplam mac sayisi: 3449
+- Kac mac bulundu: 114
+- Kac mac kaydedildi: 3
+- Kac mac zaten vardi: 111
+- Ham veri havuzu toplam mac sayisi: 3452
 - Hedef tarih: 26.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -22,7 +22,6 @@ Tarih: 2026-07-26T11:11:54.576661+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - Finlandiya Veikkausliiga
@@ -31,19 +30,17 @@ Tarih: 2026-07-26T11:11:54.576661+00:00
 - Kanada Premier Lig
 - Kazakistan Premier Lig
 - Letonya Virsliga
-- Litvanya 1.Lig
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
+- Macaristan NB III Kuzeydoğu
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
-- Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -57,8 +54,6 @@ Tarih: 2026-07-26T11:11:54.576661+00:00
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
 - İskoçya Lig Kupası Grup C
 - İsveç Allsvenskan
 - İsveç Superettan
@@ -121,8 +116,8 @@ Tarih: 2026-07-26T11:11:54.576661+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 65
-- Acilan detay: 65
+- Denenen Tumu alani: 60
+- Acilan detay: 60
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -135,26 +130,26 @@ Tarih: 2026-07-26T11:11:54.576661+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.07.2026 | 15:00 | Danimarka Süperlig | Sonderjyske | Midtjylland | 26730 | 5 |
-| 26.07.2026 | 17:00 | Danimarka Süperlig | Kopenhag | Lyngby | 26854 | 5 |
 | 26.07.2026 | 19:00 | Danimarka Süperlig | Horsens | Nordsjaelland | 26951 | 5 |
-| 26.07.2026 | 15:45 | Polonya Ekstraklasa | Rakow Czestoch | Wisla Plock | 21171 | 5 |
-| 26.07.2026 | 21:15 | Polonya Ekstraklasa | Wisla Krakow | Gks Katowice | 21529 | 5 |
+| 26.07.2026 | 17:00 | Danimarka Süperlig | Kopenhag | Lyngby | 26854 | 5 |
 | 26.07.2026 | 18:30 | Polonya Ekstraklasa | Widzew Lodz | Motor Lublin | 21348 | 5 |
+| 26.07.2026 | 21:15 | Polonya Ekstraklasa | Wisla Krakow | Gks Katowice | 21529 | 5 |
+| 26.07.2026 | 15:45 | Polonya Ekstraklasa | Rakow Czestoch | Wisla Plock | 21171 | 5 |
 | 26.07.2026 | 17:30 | İsviçre Süper Lig | St Gallen | Zurich | 23919 | 5 |
-| 26.07.2026 | 15:00 | İsviçre Süper Lig | Young Boys | Sion | 23595 | 5 |
 | 26.07.2026 | 17:30 | İsviçre Süper Lig | Lugano | Vaduz | 23754 | 5 |
 | 26.07.2026 | 19:30 | Rusya Premier Lig | Orenburg | Rostov | 26299 | 5 |
 | 26.07.2026 | 19:30 | Rusya Premier Lig | Rubin Kazan | Krasnodar | 26619 | 5 |
 | 26.07.2026 | 17:00 | Rusya Premier Lig | L.Moskova | Akhmat Grozny | 26467 | 5 |
 | 26.07.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Turku | 20800 | 5 |
-| 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Inter Turku | Gnistan | 20588 | 5 |
-| 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Ilves | Lahti | 20699 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
 | 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
 | 26.07.2026 | 15:30 | Norveç Eliteserien | Brann | Valerenga | 26816 | 5 |
 | 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
 | 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
+| 26.07.2026 | 17:30 | İsveç Allsvenskan | Malmö | Elfsborg | 23831 | 5 |
+| 26.07.2026 | 17:30 | İsveç Allsvenskan | Gais | Halmstads | 23660 | 5 |
+| 26.07.2026 | 20:00 | Sırbistan Süper Lig | Kizilyildiz | Vojvodina | 28472 | 3 |
+| 26.07.2026 | 22:00 | Sırbistan Süper Lig | Macva | Partizan Belgra | 29040 | 5 |
 
 ## Sonuc
 
