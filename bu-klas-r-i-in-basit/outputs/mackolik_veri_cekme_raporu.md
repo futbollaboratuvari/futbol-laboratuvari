@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-26T12:19:36.839578+00:00
+Tarih: 2026-07-26T14:12:10.328343+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 114
-- Kac mac kaydedildi: 3
-- Kac mac zaten vardi: 111
+- Kac mac bulundu: 90
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 90
 - Ham veri havuzu toplam mac sayisi: 3452
 - Hedef tarih: 26.07.2026 Europe/Istanbul
 
@@ -24,7 +24,6 @@ Tarih: 2026-07-26T12:19:36.839578+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Hazırlık Kulüpler
 - Kanada Premier Lig
@@ -38,9 +37,6 @@ Tarih: 2026-07-26T12:19:36.839578+00:00
 - Macaristan NB III Kuzeydoğu
 - Moldova Ulusal Lig
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -53,8 +49,6 @@ Tarih: 2026-07-26T12:19:36.839578+00:00
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- Çek Cumhuriyeti FNL
-- İskoçya Lig Kupası Grup C
 - İsveç Allsvenskan
 - İsveç Superettan
 - İsviçre Süper Lig
@@ -116,8 +110,8 @@ Tarih: 2026-07-26T12:19:36.839578+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 60
-- Acilan detay: 60
+- Denenen Tumu alani: 55
+- Acilan detay: 55
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -131,25 +125,25 @@ Tarih: 2026-07-26T12:19:36.839578+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 26.07.2026 | 19:00 | Danimarka Süperlig | Horsens | Nordsjaelland | 26951 | 5 |
-| 26.07.2026 | 17:00 | Danimarka Süperlig | Kopenhag | Lyngby | 26854 | 5 |
-| 26.07.2026 | 18:30 | Polonya Ekstraklasa | Widzew Lodz | Motor Lublin | 21348 | 5 |
 | 26.07.2026 | 21:15 | Polonya Ekstraklasa | Wisla Krakow | Gks Katowice | 21529 | 5 |
-| 26.07.2026 | 15:45 | Polonya Ekstraklasa | Rakow Czestoch | Wisla Plock | 21171 | 5 |
+| 26.07.2026 | 18:30 | Polonya Ekstraklasa | Widzew Lodz | Motor Lublin | 21348 | 5 |
 | 26.07.2026 | 17:30 | İsviçre Süper Lig | St Gallen | Zurich | 23919 | 5 |
 | 26.07.2026 | 17:30 | İsviçre Süper Lig | Lugano | Vaduz | 23754 | 5 |
 | 26.07.2026 | 19:30 | Rusya Premier Lig | Orenburg | Rostov | 26299 | 5 |
 | 26.07.2026 | 19:30 | Rusya Premier Lig | Rubin Kazan | Krasnodar | 26619 | 5 |
-| 26.07.2026 | 17:00 | Rusya Premier Lig | L.Moskova | Akhmat Grozny | 26467 | 5 |
-| 26.07.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Turku | 20800 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
-| 26.07.2026 | 15:30 | Norveç Eliteserien | Brann | Valerenga | 26816 | 5 |
-| 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
 | 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
-| 26.07.2026 | 17:30 | İsveç Allsvenskan | Malmö | Elfsborg | 23831 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
+| 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
 | 26.07.2026 | 17:30 | İsveç Allsvenskan | Gais | Halmstads | 23660 | 5 |
-| 26.07.2026 | 20:00 | Sırbistan Süper Lig | Kizilyildiz | Vojvodina | 28472 | 3 |
+| 26.07.2026 | 17:30 | İsveç Allsvenskan | Malmö | Elfsborg | 23831 | 5 |
+| 26.07.2026 | 20:00 | Sırbistan Süper Lig | Kizilyildiz | Vojvodina | 28472 | 2 |
+| 26.07.2026 | 21:30 | Sırbistan Süper Lig | Mladost Lucani | Novi Pazar | 28989 | 5 |
 | 26.07.2026 | 22:00 | Sırbistan Süper Lig | Macva | Partizan Belgra | 29040 | 5 |
+| 26.07.2026 | 18:30 | Hazırlık Kulüpler | Cannes | Roma | 18763 | 4 |
+| 26.07.2026 | 17:30 | Hazırlık Kulüpler | Karlsruhe | Inter | 09418 | 5 |
+| 26.07.2026 | 18:00 | Hazırlık Kulüpler | Glasgow Ranger | West Ham | 03316 | 5 |
+| 26.07.2026 | 22:00 | Hazırlık Kulüpler | Sevilla | Ceuta | 19126 | 5 |
 
 ## Sonuc
 

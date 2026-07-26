@@ -2,28 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-26T13:59:27.579Z
+- Güncelleme: 2026-07-26T14:11:09.824Z
 - Ham maç sayısı: 165
 - Yarın bülteni maç sayısı: 24
 - Detay blok sayısı: 471
-- Aktif bülten maçı: 124
-- Bültenden düşürülen maç: 41
+- Aktif bülten maçı: 112
+- Bültenden düşürülen maç: 53
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kopenhag - Lyngby | Danimarka Süperlig | 17:00 | Veri bekleniyor | - | 1.25 | 6 |
-| L.Moskova - Akhmat Grozny | Rusya Premier Lig | 17:00 | Veri bekleniyor | - | 1.5 | 7 |
-| Helsinki - Turku | Finlandiya Veikkausliiga | 17:00 | Veri bekleniyor | - | 1.22 | 6 |
-| St Mirren - Dunfermline | İskoçya Lig Kupası Grup C | 17:00 | Veri bekleniyor | - | 1.49 | 8 |
-| Torpedo Moskov - Shinnik Yarosla | Rusya FNL | 17:00 | Veri bekleniyor | - | 1.61 | 7 |
-| Avia Swidnik - Olimpia Grudzia | Polonya 2.Lig | 17:00 | Veri bekleniyor | - | 2.74 | 8 |
-| Astana - Altay | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.19 | 6 |
-| Kairat Almaty - Ordabasy | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.73 | 8 |
-| Yelimay Semey - Kaisar | Kazakistan Premier Lig | 17:00 | Veri bekleniyor | - | 1.44 | 7 |
-| Rosenborg 2 - Strindheim | Norveç 3.Lig Grup 2 | 17:00 | Veri bekleniyor | - | 2.24 | 6 |
-| Ufa - Ska-Khabarovsk | Rusya FNL | 17:00 | Veri bekleniyor | - | 1.83 | 8 |
-| Lida - Slonim | Belarus 1.Lig | 17:00 | Veri bekleniyor | - | 1.48 | 5 |
 | St Gallen - Zurich | İsviçre Süper Lig | 17:30 | Veri bekleniyor | - | 1.4 | 7 |
 | Lugano - Vaduz | İsviçre Süper Lig | 17:30 | Veri bekleniyor | - | 1.32 | 7 |
 | Gais - Halmstads | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 1.19 | 6 |
