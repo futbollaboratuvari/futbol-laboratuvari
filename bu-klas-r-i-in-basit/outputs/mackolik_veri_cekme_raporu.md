@@ -1,15 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-26T04:43:20.903957+00:00
+=======
+Tarih: 2026-07-26T04:46:14.172490+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 169
 - Kac mac kaydedildi: 2
 - Kac mac zaten vardi: 167
 - Ham veri havuzu toplam mac sayisi: 3439
+=======
+- Kac mac bulundu: 145
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 144
+- Ham veri havuzu toplam mac sayisi: 3438
+>>>>>>> Stashed changes
 - Hedef tarih: 26.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -25,14 +36,11 @@ Tarih: 2026-07-26T04:43:20.903957+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup C
 - Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
-- Guatemala Ulusal Lig Apertura
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
 - Güney Kore K3 Ligi
@@ -44,8 +52,6 @@ Tarih: 2026-07-26T04:43:20.903957+00:00
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
