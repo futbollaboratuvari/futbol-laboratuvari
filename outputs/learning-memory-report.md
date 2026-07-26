@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.07.2026 06:58:21
+Oluşturma: 26.07.2026 07:45:30
 
 ## Özet
 
-- Toplam tahmin: 134
-- Bekleyen tahmin: 134
+- Toplam tahmin: 136
+- Bekleyen tahmin: 136
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 53
@@ -20,12 +20,14 @@ Oluşturma: 26.07.2026 06:58:21
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 73, bekleyen 73, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 55, bekleyen 55, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
+- MS X: toplam 74, bekleyen 74, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-26 | Letonya Virsliga | Auda - Bfc Daugavpils | MS 2 | pending | 50/100
+- 2026-07-26 | Hazırlık Kulüpler | Karlsruhe - Inter | MS X | pending | 40/100
 - 2026-07-26 | Norveç 2.Lig Grup 1 | Jerv - Lysekloster | MS X | pending | 40/100
 - 2026-07-26 | Kanada Premier Lig | Atletico Ottaw - Pacific Fc | MS 2 | pending | 60/100
 - 2026-07-26 | Polonya Ekstraklasa | Wisla Krakow - Gks Katowice | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 26.07.2026 06:58:21
 - 2026-07-26 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | MS 2 | pending | 65/100
 - 2026-07-26 | Brezilya Serie B | Criciuma - Nautico | MS 2 | pending | 50/100
 - 2026-07-26 | Polonya 1.Lig | Unia Skierniew - Stal Mielec | MS X | pending | 50/100
-- 2026-07-26 | Kazakistan Premier Lig | Kaspyi - Zhenys | MS X | pending | 40/100
-- 2026-07-26 | Polonya Ekstraklasa | Widzew Lodz - Motor Lublin | MS 2 | pending | 60/100
 
