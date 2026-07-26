@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.07.2026 04:07:18
+Oluşturma: 26.07.2026 04:11:24
 
 ## Özet
 
-- Toplam tahmin: 133
-- Bekleyen tahmin: 133
+- Toplam tahmin: 134
+- Bekleyen tahmin: 134
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 53
@@ -20,12 +20,13 @@ Oluşturma: 26.07.2026 04:07:18
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 73, bekleyen 73, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 55, bekleyen 55, başarı bekleniyor, ağırlık 1
-- MS X: toplam 72, bekleyen 72, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-26 | Norveç 2.Lig Grup 1 | Jerv - Lysekloster | MS X | pending | 40/100
 - 2026-07-26 | Kanada Premier Lig | Atletico Ottaw - Pacific Fc | MS 2 | pending | 60/100
 - 2026-07-26 | Polonya Ekstraklasa | Wisla Krakow - Gks Katowice | MS X | pending | 50/100
 - 2026-07-26 | Bulgaristan 1.Lig | Lokomotiv Plov - Septemvri Sofia | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 26.07.2026 04:07:18
 - 2026-07-26 | Polonya 1.Lig | Unia Skierniew - Stal Mielec | MS X | pending | 50/100
 - 2026-07-26 | Kazakistan Premier Lig | Kaspyi - Zhenys | MS X | pending | 40/100
 - 2026-07-26 | Polonya Ekstraklasa | Widzew Lodz - Motor Lublin | MS 2 | pending | 60/100
-- 2026-07-26 | Letonya Virsliga | Fs Jelgava - Liepaja | MS X | pending | 50/100
 
