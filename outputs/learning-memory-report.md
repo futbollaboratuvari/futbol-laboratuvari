@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 26.07.2026 07:45:30
-=======
-Oluşturma: 26.07.2026 07:47:01
->>>>>>> Stashed changes
+Oluşturma: 26.07.2026 07:50:26
 
 ## Özet
 
-- Toplam tahmin: 136
-- Bekleyen tahmin: 136
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 53
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 26.07.2026 07:47:01
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
-- MS X: toplam 74, bekleyen 74, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-26 | Letonya Virsliga | Auda - Bfc Daugavpils | MS 2 | pending | 50/100
-- 2026-07-26 | Hazırlık Kulüpler | Karlsruhe - Inter | MS X | pending | 40/100
-- 2026-07-26 | Norveç 2.Lig Grup 1 | Jerv - Lysekloster | MS X | pending | 40/100
-- 2026-07-26 | Kanada Premier Lig | Atletico Ottaw - Pacific Fc | MS 2 | pending | 60/100
-- 2026-07-26 | Polonya Ekstraklasa | Wisla Krakow - Gks Katowice | MS X | pending | 50/100
-- 2026-07-26 | Bulgaristan 1.Lig | Lokomotiv Plov - Septemvri Sofia | MS 2 | pending | 60/100
-- 2026-07-26 | Slovenya 1.SNL | Koper - Radomlje | MS 2 | pending | 40/100
-- 2026-07-26 | Sırbistan Süper Lig | Mladost Lucani - Novi Pazar | MS X | pending | 40/100
-- 2026-07-26 | Hazırlık Kulüpler | Sevilla - Ceuta | MS X | pending | 50/100
-- 2026-07-26 | Brezilya Serie A | Bahia - Corinthians | MS 2 | pending | 40/100
-- 2026-07-26 | Brezilya Serie A | Cruzeiro - Botafogo | MS 2 | pending | 50/100
-- 2026-07-26 | Şili Premier Lig | Atletico Nuble - Palestino | MS 2 | pending | 40/100
-- 2026-07-26 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | MS 2 | pending | 65/100
-- 2026-07-26 | Brezilya Serie B | Criciuma - Nautico | MS 2 | pending | 50/100
-- 2026-07-26 | Polonya 1.Lig | Unia Skierniew - Stal Mielec | MS X | pending | 50/100
 
