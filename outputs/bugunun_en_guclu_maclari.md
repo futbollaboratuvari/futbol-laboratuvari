@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-26T11:10:20.351Z
-- Ham maç sayısı: 171
+- Güncelleme: 2026-07-26T11:38:40.187Z
+- Ham maç sayısı: 169
 - Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 487
-- Aktif bülten maçı: 150
-- Bültenden düşürülen maç: 21
+- Detay blok sayısı: 482
+- Aktif bülten maçı: 147
+- Bültenden düşürülen maç: 22
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Guangxi Hengch - Heilongjiang Ls | Çin Halk Cumhuriyeti 1.Lig | 14:30 | Veri bekleniyor | - | 1.12 | 6 |
-| Shandong Taish - Henan Jianye | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.77 | 8 |
-| Chengdu Ron. - Beijing Guoan | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.78 | 8 |
 | Sonderjyske - Midtjylland | Danimarka Süperlig | 15:00 | Veri bekleniyor | - | 4.51 | 7 |
 | Young Boys - Sion | İsviçre Süper Lig | 15:00 | Veri bekleniyor | - | 1.62 | 8 |
 | Inter Turku - Gnistan | Finlandiya Veikkausliiga | 15:00 | Veri bekleniyor | - | 1.49 | 7 |
@@ -109,7 +106,7 @@
 | All Boys - D Belgrano | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.17 | 6 |
 | Moron - Ferro Carril Oe | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.6 | 6 |
 | Agropecuario - San Martin Sj | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.1 | 6 |
-| Cerro - Racing Montevid | Uruguay Premier Lig Intermediate Turu Grup 1 | 21:00 | Veri bekleniyor | - | 3.91 | 3 |
+| Cerro - Racing Montevid | Uruguay Premier Lig Intermediate Turu Grup 1 | 21:00 | Veri bekleniyor | - | 4.04 | 5 |
 | Atletico Ottaw - Pacific Fc | Kanada Premier Lig | 21:00 | Veri bekleniyor | - | 1.37 | 7 |
 | Wisla Krakow - Gks Katowice | Polonya Ekstraklasa | 21:15 | Veri bekleniyor | - | 1.81 | 8 |
 | Lokomotiv Plov - Septemvri Sofia | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.62 | 8 |
