@@ -4,19 +4,14 @@ Gunler: 2026-07-26 / 2026-07-27
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 241
-Aktif mac: 165
-Canli mac: 11
+Aktif mac: 160
+Canli mac: 16
 Biten mac: 65
-Bultenden dusurulen mac: 76
-Bugun: 141
+Bultenden dusurulen mac: 81
+Bugun: 136
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-26 11:00 | Hazırlık Kulüpler | Levante - Al-Qadsiah | scheduled | -
-- 2026-07-26 11:30 | Slovakya 2.Lig | Slovan Bratisl - Zlate Moravce | scheduled | -
-- 2026-07-26 11:30 | Slovakya 2.Lig | Zilina Ii - Petrzalka | scheduled | -
-- 2026-07-26 12:00 | Rusya FNL | Yenisey - Veles | scheduled | -
-- 2026-07-26 12:00 | Güney Kore K3 Ligi | Yangpyeong - Busan Transport | scheduled | -
 - 2026-07-26 13:00 | Norveç 2.Lig Grup 2 | Rana - Kjelsas | scheduled | -
 - 2026-07-26 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Meizhou Hakka | scheduled | -
 - 2026-07-26 13:00 | Güney Kore K3 Ligi | Changwon City - Jeonbuk Motors | scheduled | -
@@ -179,6 +174,11 @@ Yarin: 24
 - 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | scheduled | -
 
 ## Canli Maclar
+- 2026-07-26 11:00 | Hazırlık Kulüpler | Levante - Al-Qadsiah | live | -
+- 2026-07-26 11:30 | Slovakya 2.Lig | Slovan Bratisl - Zlate Moravce | live | -
+- 2026-07-26 11:30 | Slovakya 2.Lig | Zilina Ii - Petrzalka | live | -
+- 2026-07-26 12:00 | Rusya FNL | Yenisey - Veles | live | -
+- 2026-07-26 12:00 | Güney Kore K3 Ligi | Yangpyeong - Busan Transport | live | -
 - 2026-07-26 08:00 | Avustralya NPL Yeni Güney Galler | Rockdale Cs - Sutherland Shar | live | -
 - 2026-07-26 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Blacktown City | live | -
 - 2026-07-26 08:00 | Avustralya NPL Kuzey YGG | Kahibah - Belmont Swansea | live | -
