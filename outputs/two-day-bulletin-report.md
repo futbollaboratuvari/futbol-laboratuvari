@@ -2,27 +2,15 @@
 
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
-Ham mac: 165
-Aktif mac: 124
-Canli mac: 41
+Ham mac: 136
+Aktif mac: 112
+Canli mac: 24
 Biten mac: 0
-Bultenden dusurulen mac: 41
-Bugun: 100
+Bultenden dusurulen mac: 24
+Bugun: 88
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-26 17:00 | Danimarka Süperlig | Kopenhag - Lyngby | scheduled | -
-- 2026-07-26 17:00 | Rusya Premier Lig | L.Moskova - Akhmat Grozny | scheduled | -
-- 2026-07-26 17:00 | Finlandiya Veikkausliiga | Helsinki - Turku | scheduled | -
-- 2026-07-26 17:00 | İskoçya Lig Kupası Grup C | St Mirren - Dunfermline | scheduled | -
-- 2026-07-26 17:00 | Rusya FNL | Torpedo Moskov - Shinnik Yarosla | scheduled | -
-- 2026-07-26 17:00 | Polonya 2.Lig | Avia Swidnik - Olimpia Grudzia | scheduled | -
-- 2026-07-26 17:00 | Kazakistan Premier Lig | Astana - Altay | scheduled | -
-- 2026-07-26 17:00 | Kazakistan Premier Lig | Kairat Almaty - Ordabasy | scheduled | -
-- 2026-07-26 17:00 | Kazakistan Premier Lig | Yelimay Semey - Kaisar | scheduled | -
-- 2026-07-26 17:00 | Norveç 3.Lig Grup 2 | Rosenborg 2 - Strindheim | scheduled | -
-- 2026-07-26 17:00 | Rusya FNL | Ufa - Ska-Khabarovsk | scheduled | -
-- 2026-07-26 17:00 | Belarus 1.Lig | Lida - Slonim | scheduled | -
 - 2026-07-26 17:30 | İsviçre Süper Lig | St Gallen - Zurich | scheduled | -
 - 2026-07-26 17:30 | İsviçre Süper Lig | Lugano - Vaduz | scheduled | -
 - 2026-07-26 17:30 | İsveç Allsvenskan | Gais - Halmstads | scheduled | -
@@ -137,35 +125,6 @@ Yarin: 24
 - 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | scheduled | -
 
 ## Canli Maclar
-- 2026-07-26 13:30 | Güney Kore K Lig 1 | Incheon Utd - Bucheon | live | -
-- 2026-07-26 13:30 | Güney Kore K Lig 1 | Anyang - Gangwon | live | -
-- 2026-07-26 13:30 | Güney Kore K Lig 1 | Gwangju - Jeju Utd | live | -
-- 2026-07-26 13:30 | Güney Kore K Lig 1 | Fc Seoul - Ulsan | live | -
-- 2026-07-26 13:30 | Güney Kore K Lig 2 | Paju Citizen - Ansan Greeners | live | -
-- 2026-07-26 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Yongin | live | -
-- 2026-07-26 14:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Shenzhen Peng | live | -
-- 2026-07-26 14:00 | İsveç Superettan | Sundsvall - Falkenberg | live | -
-- 2026-07-26 14:00 | Norveç 2.Lig Grup 1 | Kvik Halden - Traeff | live | -
-- 2026-07-26 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Suzhou Dongwu | live | -
-- 2026-07-26 14:00 | Hazırlık Kulüpler | Bg Pathum Unit - Buriram Utd | live | -
-- 2026-07-26 14:00 | Hazırlık Kulüpler | Guimaraes - Nottingham F | live | -
-- 2026-07-26 14:00 | Hazırlık Kulüpler | Nottingham F - Guimaraes | live | -
-- 2026-07-26 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Heilongjiang Ls | live | -
-- 2026-07-26 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Henan Jianye | live | -
-- 2026-07-26 14:35 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. - Beijing Guoan | live | -
-- 2026-07-26 15:00 | Danimarka Süperlig | Sonderjyske - Midtjylland | live | -
-- 2026-07-26 15:00 | İsviçre Süper Lig | Young Boys - Sion | live | -
-- 2026-07-26 15:00 | Finlandiya Veikkausliiga | Inter Turku - Gnistan | live | -
-- 2026-07-26 15:00 | Finlandiya Veikkausliiga | Ilves - Lahti | live | -
-- 2026-07-26 15:00 | İsveç Allsvenskan | Sirius - Göteborg | live | -
-- 2026-07-26 15:00 | İsveç Allsvenskan | Brommapojkarna - Hammarby | live | -
-- 2026-07-26 15:00 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Dalian Zhixing | live | -
-- 2026-07-26 15:00 | Rusya FNL | Ufa - Ska-Khabarovsk | live | -
-- 2026-07-26 15:00 | Norveç 2.Lig Grup 2 | Trygg/Lade - Eidsvold Tf | live | -
-- 2026-07-26 15:00 | Danimarka 1.Lig | Hobro - Aarhus Fremad | live | -
-- 2026-07-26 15:00 | Litvanya 1.Lig | Bfa - Be1 Nfa | live | -
-- 2026-07-26 15:00 | Hazırlık Kulüpler | Ajax - Burnley | live | -
-- 2026-07-26 15:00 | Norveç 3.Lig Grup 4 | Akra - Brodd | live | -
 - 2026-07-26 15:30 | Norveç Eliteserien | Brann - Valerenga | live | -
 - 2026-07-26 15:30 | Polonya 1.Lig | Nieciecza - Ruch Chorzow | live | -
 - 2026-07-26 15:30 | Norveç 2.Lig Grup 1 | Jerv - Lysekloster | live | -
@@ -178,6 +137,18 @@ Yarin: 24
 - 2026-07-26 16:00 | Kazakistan Premier Lig | Tobol Kostanay - Atyrau | live | -
 - 2026-07-26 16:00 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Asane Ii | live | -
 - 2026-07-26 16:45 | Macaristan NB I | Vasas - Gyor | live | -
+- 2026-07-26 17:00 | Danimarka Süperlig | Kopenhag - Lyngby | live | -
+- 2026-07-26 17:00 | Rusya Premier Lig | L.Moskova - Akhmat Grozny | live | -
+- 2026-07-26 17:00 | Finlandiya Veikkausliiga | Helsinki - Turku | live | -
+- 2026-07-26 17:00 | İskoçya Lig Kupası Grup C | St Mirren - Dunfermline | live | -
+- 2026-07-26 17:00 | Rusya FNL | Torpedo Moskov - Shinnik Yarosla | live | -
+- 2026-07-26 17:00 | Polonya 2.Lig | Avia Swidnik - Olimpia Grudzia | live | -
+- 2026-07-26 17:00 | Kazakistan Premier Lig | Astana - Altay | live | -
+- 2026-07-26 17:00 | Kazakistan Premier Lig | Kairat Almaty - Ordabasy | live | -
+- 2026-07-26 17:00 | Kazakistan Premier Lig | Yelimay Semey - Kaisar | live | -
+- 2026-07-26 17:00 | Norveç 3.Lig Grup 2 | Rosenborg 2 - Strindheim | live | -
+- 2026-07-26 17:00 | Rusya FNL | Ufa - Ska-Khabarovsk | live | -
+- 2026-07-26 17:00 | Belarus 1.Lig | Lida - Slonim | live | -
 
 ## Biten Maclar
 Biten mac yok.

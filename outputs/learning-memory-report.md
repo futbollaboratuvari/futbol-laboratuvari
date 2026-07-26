@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.07.2026 17:12:13
+Oluşturma: 26.07.2026 17:22:49
 
 ## Özet
 
-- Toplam tahmin: 98
-- Bekleyen tahmin: 98
+- Toplam tahmin: 99
+- Bekleyen tahmin: 99
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 46
@@ -20,12 +20,13 @@ Oluşturma: 26.07.2026 17:12:13
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 - MS X: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-26 | İsveç Allsvenskan | Gais - Halmstads | MS 2 | pending | 75/100
 - 2026-07-26 | İsveç Allsvenskan | Malmö - Elfsborg | MS X | pending | 50/100
 - 2026-07-26 | Macaristan NB I | Paksi - Ferencvaros | MS 1 | pending | 45/100
 - 2026-07-26 | Peru Premier Lig Clausura | Univ De Cajama - Deportivo Moque | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 26.07.2026 17:12:13
 - 2026-07-26 | Şili Premier Lig | Atletico Nuble - Palestino | MS 2 | pending | 40/100
 - 2026-07-26 | Brezilya Serie B | Criciuma - Nautico | MS 2 | pending | 50/100
 - 2026-07-26 | Bolivya Premier Lig | Blooming - The Strongest | MS X | pending | 50/100
-- 2026-07-26 | Letonya Virsliga | Fs Jelgava - Liepaja | MS X | pending | 50/100
 
