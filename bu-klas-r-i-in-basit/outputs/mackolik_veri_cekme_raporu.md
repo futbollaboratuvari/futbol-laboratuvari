@@ -1,23 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-26T14:59:43.459042+00:00
+Tarih: 2026-07-26T15:33:28.376901+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 110
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 108
+- Kac mac bulundu: 63
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 63
 - Ham veri havuzu toplam mac sayisi: 3454
 - Hedef tarih: 26.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Şampiyonluk Yarı Final
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Belarus 1.Lig
 - Belarus Kupa Son 16 Turu
 - Bolivya Premier Lig
 - Brezilya Serie A
@@ -26,12 +24,8 @@ Tarih: 2026-07-26T14:59:43.459042+00:00
 - CONCACAF U20 Grup C
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Finlandiya Ykkönen
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
 - Kanada Premier Lig
-- Kazakistan Premier Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
@@ -39,23 +33,18 @@ Tarih: 2026-07-26T14:59:43.459042+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Norveç 1.Lig
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Romanya 1.Lig
-- Rusya FNL
 - Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- İsveç Superettan
 - İzlanda Urvalsdeild
 - Şili Premier Lig
 
@@ -114,8 +103,8 @@ Tarih: 2026-07-26T14:59:43.459042+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 54
-- Acilan detay: 54
+- Denenen Tumu alani: 48
+- Acilan detay: 48
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -129,25 +118,25 @@ Tarih: 2026-07-26T14:59:43.459042+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 26.07.2026 | 19:00 | Danimarka Süperlig | Horsens | Nordsjaelland | 26951 | 5 |
-| 26.07.2026 | 18:30 | Polonya Ekstraklasa | Widzew Lodz | Motor Lublin | 21348 | 5 |
 | 26.07.2026 | 21:15 | Polonya Ekstraklasa | Wisla Krakow | Gks Katowice | 21529 | 5 |
-| 26.07.2026 | 19:30 | Rusya Premier Lig | Orenburg | Rostov | 26299 | 5 |
 | 26.07.2026 | 19:30 | Rusya Premier Lig | Rubin Kazan | Krasnodar | 26619 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
+| 26.07.2026 | 19:30 | Rusya Premier Lig | Orenburg | Rostov | 26299 | 5 |
 | 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
-| 26.07.2026 | 20:00 | Sırbistan Süper Lig | Kizilyildiz | Vojvodina | 28472 | 2 |
 | 26.07.2026 | 21:30 | Sırbistan Süper Lig | Mladost Lucani | Novi Pazar | 28989 | 5 |
 | 26.07.2026 | 22:00 | Sırbistan Süper Lig | Macva | Partizan Belgra | 29040 | 5 |
-| 26.07.2026 | 19:00 | Hazırlık Kulüpler | Napoli | Carrarese | 31648 | 5 |
+| 26.07.2026 | 20:00 | Sırbistan Süper Lig | Kizilyildiz | Vojvodina | 28472 | 2 |
 | 26.07.2026 | 14:00 | Hazırlık Kulüpler | Nottingham F | Guimaraes | 11794 | 5 |
-| 26.07.2026 | 18:30 | Hazırlık Kulüpler | Cannes | Roma | 18763 | 4 |
-| 26.07.2026 | 18:00 | Hazırlık Kulüpler | Glasgow Ranger | West Ham | 03316 | 5 |
-| 26.07.2026 | 19:30 | Hazırlık Kulüpler | Frosinone | Ascoli Picchio | 31878 | 5 |
+| 26.07.2026 | 19:00 | Hazırlık Kulüpler | Napoli | Carrarese | 31648 | 5 |
 | 26.07.2026 | 22:00 | Hazırlık Kulüpler | Sevilla | Ceuta | 19126 | 5 |
+| 26.07.2026 | 18:30 | Hazırlık Kulüpler | Cannes | Roma | 18763 | 4 |
+| 26.07.2026 | 19:30 | Hazırlık Kulüpler | Frosinone | Ascoli Picchio | 31878 | 5 |
 | 26.07.2026 | 22:00 | Brezilya Serie A | Bahia | Corinthians | 27747 | 5 |
 | 26.07.2026 | 22:00 | Brezilya Serie A | Cruzeiro | Botafogo | 27838 | 5 |
+| 26.07.2026 | 21:00 | Arjantin Premier Lig 2. Aşama | Atletico Tucum | Rivadavia | 28715 | 5 |
+| 26.07.2026 | 23:15 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Independiente | 29125 | 5 |
+| 26.07.2026 | 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov | Septemvri Sofia | 28955 | 5 |
+| 26.07.2026 | 19:00 | Bulgaristan 1.Lig | Cherno More | Spartak Varna | 28291 | 5 |
+| 26.07.2026 | 20:00 | Belarus Kupa Son 16 Turu | Slavia Mozyr | Dinamo Brest | 12568 | 5 |
 
 ## Sonuc
 
