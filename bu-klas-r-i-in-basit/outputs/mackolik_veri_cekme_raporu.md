@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-26T09:38:06.536385+00:00
+Tarih: 2026-07-26T11:02:45.215888+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 144
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 144
-- Ham veri havuzu toplam mac sayisi: 3448
+- Kac mac bulundu: 155
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 154
+- Ham veri havuzu toplam mac sayisi: 3449
 - Hedef tarih: 26.07.2026 Europe/Istanbul
 
 ## Ligler
@@ -22,14 +22,14 @@ Tarih: 2026-07-26T09:38:06.536385+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- CONCACAF U20 Grup C
 - Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
-- Güney Kore K3 Ligi
+- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
 - Kanada Premier Lig
 - Kazakistan Premier Lig
@@ -40,6 +40,8 @@ Tarih: 2026-07-26T09:38:06.536385+00:00
 - Macaristan NB II
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
@@ -47,7 +49,6 @@ Tarih: 2026-07-26T09:38:06.536385+00:00
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -125,8 +126,8 @@ Tarih: 2026-07-26T09:38:06.536385+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 69
-- Acilan detay: 69
+- Denenen Tumu alani: 65
+- Acilan detay: 65
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -139,26 +140,26 @@ Tarih: 2026-07-26T09:38:06.536385+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.07.2026 | 19:00 | Danimarka Süperlig | Horsens | Nordsjaelland | 26951 | 5 |
-| 26.07.2026 | 17:00 | Danimarka Süperlig | Kopenhag | Lyngby | 26854 | 5 |
 | 26.07.2026 | 15:00 | Danimarka Süperlig | Sonderjyske | Midtjylland | 26730 | 5 |
+| 26.07.2026 | 17:00 | Danimarka Süperlig | Kopenhag | Lyngby | 26854 | 5 |
+| 26.07.2026 | 19:00 | Danimarka Süperlig | Horsens | Nordsjaelland | 26951 | 5 |
 | 26.07.2026 | 15:45 | Polonya Ekstraklasa | Rakow Czestoch | Wisla Plock | 21171 | 5 |
 | 26.07.2026 | 21:15 | Polonya Ekstraklasa | Wisla Krakow | Gks Katowice | 21529 | 5 |
 | 26.07.2026 | 18:30 | Polonya Ekstraklasa | Widzew Lodz | Motor Lublin | 21348 | 5 |
-| 26.07.2026 | 15:00 | İsviçre Süper Lig | Young Boys | Sion | 23595 | 5 |
 | 26.07.2026 | 17:30 | İsviçre Süper Lig | St Gallen | Zurich | 23919 | 5 |
+| 26.07.2026 | 15:00 | İsviçre Süper Lig | Young Boys | Sion | 23595 | 5 |
 | 26.07.2026 | 17:30 | İsviçre Süper Lig | Lugano | Vaduz | 23754 | 5 |
+| 26.07.2026 | 19:30 | Rusya Premier Lig | Orenburg | Rostov | 26299 | 5 |
 | 26.07.2026 | 19:30 | Rusya Premier Lig | Rubin Kazan | Krasnodar | 26619 | 5 |
 | 26.07.2026 | 17:00 | Rusya Premier Lig | L.Moskova | Akhmat Grozny | 26467 | 5 |
-| 26.07.2026 | 19:30 | Rusya Premier Lig | Orenburg | Rostov | 26299 | 5 |
+| 26.07.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Turku | 20800 | 5 |
 | 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Inter Turku | Gnistan | 20588 | 5 |
 | 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Ilves | Lahti | 20699 | 5 |
-| 26.07.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Turku | 20800 | 5 |
-| 26.07.2026 | 15:30 | Norveç Eliteserien | Brann | Valerenga | 26816 | 5 |
-| 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
 | 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
 | 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
+| 26.07.2026 | 15:30 | Norveç Eliteserien | Brann | Valerenga | 26816 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
+| 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
 
 ## Sonuc
 
