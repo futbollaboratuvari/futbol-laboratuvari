@@ -2,34 +2,15 @@
 
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
-Ham mac: 238
-Aktif mac: 201
-Canli mac: 27
-Biten mac: 10
-Bultenden dusurulen mac: 37
-Bugun: 178
+Ham mac: 228
+Aktif mac: 182
+Canli mac: 46
+Biten mac: 0
+Bultenden dusurulen mac: 46
+Bugun: 159
 Yarin: 23
 
 ## Baslamamis Maclar
-- 2026-07-26 03:00 | Şili Premier Lig | Univ. Catolica - La Serena | scheduled | -
-- 2026-07-26 03:00 | Ekvador Pro Lig | T.Universitari - Manta | scheduled | -
-- 2026-07-26 03:00 | Nikaragua Premier Lig Apertura | Managua - Jalapa | scheduled | -
-- 2026-07-26 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Alianza | scheduled | -
-- 2026-07-26 03:30 | Meksika Liga MX Şampiyonlar Şampiyonu | Toluca - Cruz Azul | scheduled | -
-- 2026-07-26 03:30 | ABD MLS | Minnesota Utd - Vancouver | scheduled | -
-- 2026-07-26 03:30 | ABD MLS | St. Louis City - Colorado | scheduled | -
-- 2026-07-26 03:30 | ABD MLS | Houston - Austin | scheduled | -
-- 2026-07-26 03:30 | Arjantin Premier Lig 2. Aşama | Lanus - San Lorenzo | scheduled | -
-- 2026-07-26 03:30 | ABD USL | Tulsa Roughnec - Lexington | scheduled | -
-- 2026-07-26 03:30 | ABD USL Lig 1 | Corpus Christi - Greenville Triu | scheduled | -
-- 2026-07-26 04:00 | Peru Premier Lig Clausura | Melgar - Sporting Crista | scheduled | -
-- 2026-07-26 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Piratas | scheduled | -
-- 2026-07-26 04:00 | Meksika Ascenso MX Apertura | Monarcas - Ca La Paz | scheduled | -
-- 2026-07-26 04:00 | Guatemala Ulusal Lig Apertura | Malacateco - Coban Imperial | scheduled | -
-- 2026-07-26 04:00 | ABD USL | Colorado Sprin - Charleston Batt | scheduled | -
-- 2026-07-26 04:00 | ABD USL | El Paso Locomo - Sporting Jax | scheduled | -
-- 2026-07-26 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Matagalpa | scheduled | -
-- 2026-07-26 04:00 | ABD USL Lig 1 | Spokane Veloci - Fort Wayne | scheduled | -
 - 2026-07-26 04:30 | ABD MLS | San Diego - Dallas | scheduled | -
 - 2026-07-26 05:00 | Kosta Rika Premier Lig Apertura | Sporting San J - Alajuelense | scheduled | -
 - 2026-07-26 05:00 | ABD USL | Oakland Roots - Sacramento Repu | scheduled | -
@@ -241,15 +222,25 @@ Yarin: 23
 - 2026-07-26 02:30 | ABD MLS | Montreal - Inter Miami | live | -
 - 2026-07-26 02:30 | Brezilya Serie A | Vasco Da Gama - Mirassol | live | -
 - 2026-07-26 02:30 | Bolivya Premier Lig | Independiente - Oriente Petrole | live | -
+- 2026-07-26 03:00 | Şili Premier Lig | Univ. Catolica - La Serena | live | -
+- 2026-07-26 03:00 | Ekvador Pro Lig | T.Universitari - Manta | live | -
+- 2026-07-26 03:00 | Nikaragua Premier Lig Apertura | Managua - Jalapa | live | -
+- 2026-07-26 03:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Alianza | live | -
+- 2026-07-26 03:30 | Meksika Liga MX Şampiyonlar Şampiyonu | Toluca - Cruz Azul | live | -
+- 2026-07-26 03:30 | ABD MLS | Minnesota Utd - Vancouver | live | -
+- 2026-07-26 03:30 | ABD MLS | St. Louis City - Colorado | live | -
+- 2026-07-26 03:30 | ABD MLS | Houston - Austin | live | -
+- 2026-07-26 03:30 | Arjantin Premier Lig 2. Aşama | Lanus - San Lorenzo | live | -
+- 2026-07-26 03:30 | ABD USL | Tulsa Roughnec - Lexington | live | -
+- 2026-07-26 03:30 | ABD USL Lig 1 | Corpus Christi - Greenville Triu | live | -
+- 2026-07-26 04:00 | Peru Premier Lig Clausura | Melgar - Sporting Crista | live | -
+- 2026-07-26 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Piratas | live | -
+- 2026-07-26 04:00 | Meksika Ascenso MX Apertura | Monarcas - Ca La Paz | live | -
+- 2026-07-26 04:00 | Guatemala Ulusal Lig Apertura | Malacateco - Coban Imperial | live | -
+- 2026-07-26 04:00 | ABD USL | Colorado Sprin - Charleston Batt | live | -
+- 2026-07-26 04:00 | ABD USL | El Paso Locomo - Sporting Jax | live | -
+- 2026-07-26 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Matagalpa | live | -
+- 2026-07-26 04:00 | ABD USL Lig 1 | Spokane Veloci - Fort Wayne | live | -
 
 ## Biten Maclar
-- 2026-07-26 00:00 | CONCACAF U20 Grup A | Kuba U20 - El Salvador U20 | finished | -
-- 2026-07-26 00:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport - Liverpool Monte | finished | -
-- 2026-07-26 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Guastatoya | finished | -
-- 2026-07-26 00:00 | Nikaragua Premier Lig Apertura | Export Sebaco - San Marcos | finished | -
-- 2026-07-26 00:00 | El Salvador Primera Lig Apertura | Balboa - Inter Fa | finished | -
-- 2026-07-26 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Isidro Metapan | finished | -
-- 2026-07-26 00:15 | Bolivya Premier Lig | Guabira - Real Oruro | finished | -
-- 2026-07-26 00:30 | Brezilya Serie A | Atletico Pr - Internacional | finished | -
-- 2026-07-26 00:30 | Brezilya Serie A | Santos - Chapecoense | finished | -
-- 2026-07-26 00:30 | Şili Premier Lig | Huachipato - Cobresal | finished | -
+Biten mac yok.
