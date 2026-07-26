@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.07.2026 20:47:50
+Oluşturma: 26.07.2026 20:52:25
 
 ## Özet
 
@@ -27,7 +27,7 @@ Oluşturma: 26.07.2026 20:47:50
 ## Son Tahmin Kayıtları
 
 - 2026-07-26 | Polonya 2.Lig | Chojniczanka - Gks Tychy | MS X | pending | 50/100
-- 2026-07-26 | Macaristan NB I | Paksi - Ferencvaros | MS 1 | pending | 40/100
+- 2026-07-26 | Macaristan NB I | Paksi - Ferencvaros | MS 1 | pending | 55/100
 - 2026-07-26 | Peru Premier Lig Clausura | Univ De Cajama - Deportivo Moque | MS 2 | pending | 60/100
 - 2026-07-26 | Kanada Premier Lig | Atletico Ottaw - Pacific Fc | MS 2 | pending | 60/100
 - 2026-07-26 | Polonya Ekstraklasa | Wisla Krakow - Gks Katowice | MS X | pending | 50/100

@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
-Ham mac: 108
-Aktif mac: 65
-Canli mac: 43
+Ham mac: 85
+Aktif mac: 63
+Canli mac: 22
 Biten mac: 0
-Bultenden dusurulen mac: 43
-Bugun: 40
+Bultenden dusurulen mac: 22
+Bugun: 38
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-07-26 20:30 | Romanya 1.Lig | Csikszereda - Fc Steaua | scheduled | -
-- 2026-07-26 20:30 | Polonya 1.Lig | Puszcza Niepol - Polonia Varşova | scheduled | -
-- 2026-07-26 20:30 | Polonya 2.Lig | Chojniczanka - Gks Tychy | scheduled | -
 - 2026-07-26 21:00 | Arjantin Premier Lig 2. Aşama | Atletico Tucum - Rivadavia | scheduled | -
 - 2026-07-26 21:00 | Macaristan NB I | Paksi - Ferencvaros | scheduled | -
 - 2026-07-26 21:00 | Peru Premier Lig Clausura | Univ De Cajama - Deportivo Moque | scheduled | -
@@ -31,6 +28,7 @@ Yarin: 25
 - 2026-07-26 21:30 | Sırbistan Süper Lig | Mladost Lucani - Novi Pazar | scheduled | -
 - 2026-07-26 21:30 | Arjantin Ulusal Primera Lig | San Miguel - Acassuso | scheduled | -
 - 2026-07-26 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Chaco For Ever | scheduled | -
+- 2026-07-26 21:30 | Arjantin Ulusal Primera Lig | Moron - Ferro Carril Oe | scheduled | -
 - 2026-07-26 22:00 | Sırbistan Süper Lig | Macva - Partizan Belgra | scheduled | -
 - 2026-07-26 22:00 | Hazırlık Kulüpler | Sevilla - Ceuta | scheduled | -
 - 2026-07-26 22:00 | Brezilya Serie A | Bahia - Corinthians | scheduled | -
@@ -78,30 +76,6 @@ Yarin: 25
 - 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | scheduled | -
 
 ## Canli Maclar
-- 2026-07-26 18:00 | Norveç Eliteserien | Sarpsborg - Ham Kam | live | -
-- 2026-07-26 18:00 | Norveç Eliteserien | Sandefjord - Bodo Glimt | live | -
-- 2026-07-26 18:00 | Norveç Eliteserien | Kfum Oslo - Molde | live | -
-- 2026-07-26 18:00 | Hazırlık Kulüpler | Glasgow Ranger - West Ham | live | -
-- 2026-07-26 18:00 | İsveç Superettan | Norrby - Ostersund | live | -
-- 2026-07-26 18:00 | Belarus Kupa Son 16 Turu | Arsenal - Neman Grodno | live | -
-- 2026-07-26 18:00 | Rusya FNL | Pfc Sochi - Arsenal Tula | live | -
-- 2026-07-26 18:00 | Norveç 1.Lig | Asane - Egersunds | live | -
-- 2026-07-26 18:00 | Norveç 1.Lig | Strommen - Odds Bk | live | -
-- 2026-07-26 18:00 | Norveç 1.Lig | Sandnes - Kongsvinger | live | -
-- 2026-07-26 18:00 | Norveç 1.Lig | Moss - Raufoss | live | -
-- 2026-07-26 18:00 | Norveç 1.Lig | Sogndal - Ranheim | live | -
-- 2026-07-26 18:00 | Slovakya Süper Lig | Ruzomberok - Dac | live | -
-- 2026-07-26 18:00 | Slovakya Süper Lig | Zilina - Fk Kosice | live | -
-- 2026-07-26 18:00 | Polonya 1.Lig | Unia Skierniew - Stal Mielec | live | -
-- 2026-07-26 18:00 | Moldova Ulusal Lig | Politeh Chişin - Zimbru | live | -
-- 2026-07-26 18:00 | Finlandiya Ykkönen | Oulun Ls - Kpv Kokkola | live | -
-- 2026-07-26 18:00 | Kazakistan Premier Lig | Kaspyi - Zhenys | live | -
-- 2026-07-26 18:00 | Belarus 1.Lig | Fc Minsk Ii - Uni Minsk | live | -
-- 2026-07-26 18:30 | Polonya Ekstraklasa | Widzew Lodz - Motor Lublin | live | -
-- 2026-07-26 18:30 | Hazırlık Kulüpler | Cannes - Roma | live | -
-- 2026-07-26 18:30 | Letonya Virsliga | Fs Jelgava - Liepaja | live | -
-- 2026-07-26 18:30 | Macaristan NB III Güneydoğu | Esmtk - Bss Monor | live | -
-- 2026-07-26 18:30 | Macaristan NB III Kuzeydoğu | Tiszafuredi - Deac | live | -
 - 2026-07-26 18:45 | Litvanya A Ligi | Transinvest Vi - Dziugas Telsiai | live | -
 - 2026-07-26 19:00 | Danimarka Süperlig | Horsens - Nordsjaelland | live | -
 - 2026-07-26 19:00 | Hazırlık Kulüpler | Napoli - Carrarese | live | -
@@ -121,6 +95,9 @@ Yarin: 25
 - 2026-07-26 20:00 | Macaristan NB II | Gyirmot - Csakvari Tk | live | -
 - 2026-07-26 20:00 | Macaristan NB II | Soroksar - Mezokovesd Zsor | live | -
 - 2026-07-26 20:15 | Norveç Eliteserien | Aalesund - Viking | live | -
+- 2026-07-26 20:30 | Romanya 1.Lig | Csikszereda - Fc Steaua | live | -
+- 2026-07-26 20:30 | Polonya 1.Lig | Puszcza Niepol - Polonia Varşova | live | -
+- 2026-07-26 20:30 | Polonya 2.Lig | Chojniczanka - Gks Tychy | live | -
 
 ## Biten Maclar
 Biten mac yok.
