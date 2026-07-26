@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-26T17:17:49.258Z
+- Güncelleme: 2026-07-26T17:46:19.353Z
 - Ham maç sayısı: 108
 - Yarın bülteni maç sayısı: 25
 - Detay blok sayısı: 301
-- Aktif bülten maçı: 65
-- Bültenden düşürülen maç: 43
+- Aktif bülten maçı: 62
+- Bültenden düşürülen maç: 46
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Csikszereda - Fc Steaua | Romanya 1.Lig | 20:30 | Veri bekleniyor | - | 3.17 | 8 |
-| Puszcza Niepol - Polonia Varşova | Polonya 1.Lig | 20:30 | Veri bekleniyor | - | 2.17 | 8 |
-| Chojniczanka - Gks Tychy | Polonya 2.Lig | 20:30 | Veri bekleniyor | - | 2.15 | 8 |
 | Atletico Tucum - Rivadavia | Arjantin Premier Lig 2. Aşama | 21:00 | Veri bekleniyor | - | 2.39 | 8 |
 | Paksi - Ferencvaros | Macaristan NB I | 21:00 | Veri bekleniyor | - | 4.1 | 6 |
 | Univ De Cajama - Deportivo Moque | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.38 | 7 |
