@@ -2,31 +2,15 @@
 
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
-Ham mac: 77
-Aktif mac: 45
-Canli mac: 32
+Ham mac: 67
+Aktif mac: 29
+Canli mac: 38
 Biten mac: 0
-Bultenden dusurulen mac: 32
-Bugun: 20
+Bultenden dusurulen mac: 38
+Bugun: 4
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-07-26 22:00 | Sırbistan Süper Lig | Macva - Partizan Belgra | scheduled | -
-- 2026-07-26 22:00 | Hazırlık Kulüpler | Sevilla - Ceuta | scheduled | -
-- 2026-07-26 22:00 | Brezilya Serie A | Bahia - Corinthians | scheduled | -
-- 2026-07-26 22:00 | Brezilya Serie A | Cruzeiro - Botafogo | scheduled | -
-- 2026-07-26 22:00 | Şili Premier Lig | Atletico Nuble - Palestino | scheduled | -
-- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Quilmes - Colegiales | scheduled | -
-- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Midland - Patronato | scheduled | -
-- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | scheduled | -
-- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - Almirante | scheduled | -
-- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Telmo | scheduled | -
-- 2026-07-26 22:00 | Brezilya Serie B | Sao Bernardo - Ceara | scheduled | -
-- 2026-07-26 22:00 | Brezilya Serie B | Criciuma - Nautico | scheduled | -
-- 2026-07-26 22:00 | Bolivya Premier Lig | Blooming - The Strongest | scheduled | -
-- 2026-07-26 22:15 | İzlanda Urvalsdeild | Fram - Hafnarfjordur | scheduled | -
-- 2026-07-26 22:15 | İzlanda Urvalsdeild | Akranes - Stjarnan | scheduled | -
-- 2026-07-26 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - Central Norte | scheduled | -
 - 2026-07-26 23:00 | CONCACAF U20 Grup C | Panama (U20) - Kanada (U20) | scheduled | -
 - 2026-07-26 23:15 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Independiente | scheduled | -
 - 2026-07-26 23:30 | Peru Premier Lig Clausura | Comerciantes U - Alianza Lima | scheduled | -
@@ -58,16 +42,6 @@ Yarin: 25
 - 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | scheduled | -
 
 ## Canli Maclar
-- 2026-07-26 19:30 | Rusya Premier Lig | Rubin Kazan - Krasnodar | live | -
-- 2026-07-26 19:30 | Rusya Premier Lig | Orenburg - Rostov | live | -
-- 2026-07-26 19:30 | Hazırlık Kulüpler | Frosinone - Ascoli Picchio | live | -
-- 2026-07-26 20:00 | Sırbistan Süper Lig | Kizilyildiz - Vojvodina | live | -
-- 2026-07-26 20:00 | Belarus Kupa Son 16 Turu | Slavia Mozyr - Dinamo Brest | live | -
-- 2026-07-26 20:00 | Slovakya Süper Lig | Dukla Banska B - Slovan Bratisla | live | -
-- 2026-07-26 20:00 | Moldova Ulusal Lig | Sireti - Petrocub | live | -
-- 2026-07-26 20:00 | Moldova Ulusal Lig | Sheriff Tirasp - Milsami-Ursidos | live | -
-- 2026-07-26 20:00 | Macaristan NB II | Gyirmot - Csakvari Tk | live | -
-- 2026-07-26 20:00 | Macaristan NB II | Soroksar - Mezokovesd Zsor | live | -
 - 2026-07-26 20:15 | Norveç Eliteserien | Aalesund - Viking | live | -
 - 2026-07-26 20:30 | Romanya 1.Lig | Csikszereda - Fc Steaua | live | -
 - 2026-07-26 20:30 | Polonya 1.Lig | Puszcza Niepol - Polonia Varşova | live | -
@@ -90,6 +64,22 @@ Yarin: 25
 - 2026-07-26 21:30 | Arjantin Ulusal Primera Lig | San Miguel - Acassuso | live | -
 - 2026-07-26 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Chaco For Ever | live | -
 - 2026-07-26 21:30 | Arjantin Ulusal Primera Lig | Moron - Ferro Carril Oe | live | -
+- 2026-07-26 22:00 | Sırbistan Süper Lig | Macva - Partizan Belgra | live | -
+- 2026-07-26 22:00 | Hazırlık Kulüpler | Sevilla - Ceuta | live | -
+- 2026-07-26 22:00 | Brezilya Serie A | Bahia - Corinthians | live | -
+- 2026-07-26 22:00 | Brezilya Serie A | Cruzeiro - Botafogo | live | -
+- 2026-07-26 22:00 | Şili Premier Lig | Atletico Nuble - Palestino | live | -
+- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Quilmes - Colegiales | live | -
+- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Midland - Patronato | live | -
+- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | live | -
+- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - Almirante | live | -
+- 2026-07-26 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Telmo | live | -
+- 2026-07-26 22:00 | Brezilya Serie B | Sao Bernardo - Ceara | live | -
+- 2026-07-26 22:00 | Brezilya Serie B | Criciuma - Nautico | live | -
+- 2026-07-26 22:00 | Bolivya Premier Lig | Blooming - The Strongest | live | -
+- 2026-07-26 22:15 | İzlanda Urvalsdeild | Fram - Hafnarfjordur | live | -
+- 2026-07-26 22:15 | İzlanda Urvalsdeild | Akranes - Stjarnan | live | -
+- 2026-07-26 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - Central Norte | live | -
 
 ## Biten Maclar
 Biten mac yok.

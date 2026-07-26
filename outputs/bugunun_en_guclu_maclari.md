@@ -2,18 +2,17 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-26T19:22:00.012Z
-- Ham maç sayısı: 77
+- Güncelleme: 2026-07-26T19:36:33.011Z
+- Ham maç sayısı: 67
 - Yarın bülteni maç sayısı: 25
-- Detay blok sayısı: 210
-- Aktif bülten maçı: 30
-- Bültenden düşürülen maç: 47
+- Detay blok sayısı: 181
+- Aktif bülten maçı: 29
+- Bültenden düşürülen maç: 38
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Godoy Cruz - Central Norte | Arjantin Ulusal Primera Lig | 22:30 | Veri bekleniyor | - | 1.45 | 5 |
-| Panama (U20) - Kanada (U20) | CONCACAF U20 Grup C | 23:00 | Veri bekleniyor | - | 1.95 | 8 |
+| Panama (U20) - Kanada (U20) | CONCACAF U20 Grup C | 23:00 | Veri bekleniyor | - | 1.8 | 8 |
 | Estudiantes Lp - Independiente | Arjantin Premier Lig 2. Aşama | 23:15 | Veri bekleniyor | - | 1.89 | 8 |
 | Comerciantes U - Alianza Lima | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 3.06 | 8 |
 | Orense - Indep. Jose Ter | Ekvador Pro Lig | 23:45 | Veri bekleniyor | - | 4.31 | 7 |
