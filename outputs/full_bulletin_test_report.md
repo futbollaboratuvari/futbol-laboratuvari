@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 76
-- Live match count: 50
-- Finished removed count: 0
+- Scheduled match count: 73
+- Live match count: 35
+- Finished removed count: 18
 - Date window: 2026-07-26 / 2026-07-27 23:59
 
-- 2026-07-26 17:00 | Lida - Slonim | live
-- 2026-07-26 17:00 | Kopenhag - Lyngby | live
-- 2026-07-26 17:00 | Helsinki - Turku | live
-- 2026-07-26 17:00 | St Mirren - Dunfermline | live
-- 2026-07-26 17:00 | Astana - Altay | live
-- 2026-07-26 17:00 | Kairat Almaty - Ordabasy | live
-- 2026-07-26 17:00 | Yelimay Semey - Kaisar | live
-- 2026-07-26 17:00 | Rosenborg 2 - Strindheim | live
-- 2026-07-26 17:00 | Avia Swidnik - Olimpia Grudzia | live
-- 2026-07-26 17:00 | Torpedo Moskov - Shinnik Yarosla | live
+- 2026-07-26 18:00 | Fc Minsk Ii - Uni Minsk | live
+- 2026-07-26 18:00 | Arsenal - Neman Grodno | live
+- 2026-07-26 18:00 | Oulun Ls - Kpv Kokkola | live
+- 2026-07-26 18:00 | Glasgow Ranger - West Ham | live
+- 2026-07-26 18:00 | Norrby - Ostersund | live
+- 2026-07-26 18:00 | Kaspyi - Zhenys | live
+- 2026-07-26 18:00 | Politeh Chişin - Zimbru | live
+- 2026-07-26 18:00 | Asane - Egersunds | live
+- 2026-07-26 18:00 | Moss - Raufoss | live
+- 2026-07-26 18:00 | Sandnes - Kongsvinger | live
