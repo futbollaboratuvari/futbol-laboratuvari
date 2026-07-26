@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 27.07.2026 01:45:19
+Oluşturma: 27.07.2026 02:26:59
 
 ## Özet
 
-- Toplam tahmin: 74
-- Bekleyen tahmin: 74
+- Toplam tahmin: 93
+- Bekleyen tahmin: 93
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 36
+- Lig sayısı: 41
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 27.07.2026 01:45:19
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
+- MS X: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-27 | Şili Premier Lig | Concepcion - O Higgins | MS X | pending | 40/100
-- 2026-07-27 | CONCACAF U20 Grup C | Honduras (U20) - Jamaika U20 | MS 2 | pending | 60/100
-- 2026-07-27 | Meksika Liga MX Apertura | Pachuca - Queretaro | MS 2 | pending | 60/100
-- 2026-07-27 | Şili Premier Lig | Audax Italiano - Univ. De Şili | MS 1 | pending | 40/100
-- 2026-07-27 | Brezilya Serie B | Londrina - Novorizontino | MS 1 | pending | 40/100
-- 2026-07-27 | Brezilya Serie A | Palmeiras - Atletico Mg | MS 2 | pending | 50/100
-- 2026-07-27 | Brezilya Serie A | Remo - Vitoria Bahia | MS X | pending | 40/100
-- 2026-07-27 | Meksika Liga MX Apertura | Necaxa - Monterrey | MS X | pending | 50/100
-- 2026-07-27 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | MS X | pending | 50/100
-- 2026-07-27 | Peru Premier Lig Clausura | Deportivo Garc - Fc Cajamarca | MS 2 | pending | 50/100
-- 2026-07-27 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | MS 2 | pending | 40/100
-- 2026-07-27 | Brezilya Serie A | Flamengo - Sao Paulo | MS 2 | pending | 75/100
-- 2026-07-27 | Brezilya Serie A | Gremio - Fluminense | MS X | pending | 40/100
-- 2026-07-27 | Brezilya Serie A | Bragantino - Coritiba | MS 2 | pending | 50/100
-- 2026-07-27 | El Salvador Primera Lig Apertura | Aguila - Firpo | MS X | pending | 40/100
+- 2026-07-27 | Norveç 3.Lig Grup 3 | Vard Haugesund - Sogndal Ii | MS X | pending | 80/100
+- 2026-07-27 | Danimarka Süperlig | Randers - Silkeborg | MS 2 | pending | 50/100
+- 2026-07-27 | Polonya Ekstraklasa | Zaglebie Lubin - Piast Gliwice | MS X | pending | 40/100
+- 2026-07-27 | Norveç Eliteserien | Rosenborg - Fredrikstad | MS 2 | pending | 60/100
+- 2026-07-27 | İsveç Allsvenskan | Hacken - Aik Stockholm | MS X | pending | 60/100
+- 2026-07-27 | İsveç Superettan | Orebro - Oddevold | MS X | pending | 50/100
+- 2026-07-27 | Norveç 1.Lig | Stabaek - Hodd | MS 2 | pending | 40/100
+- 2026-07-27 | Polonya 1.Lig | Miedz Legnica - P. Bielsko | MS X | pending | 50/100
+- 2026-07-27 | İsveç Superettan | Oster - Varbergs | MS X | pending | 50/100
+- 2026-07-27 | Macaristan NB I | Mtk - Zalaegerszeg | MS X | pending | 50/100
+- 2026-07-27 | Bulgaristan 1.Lig | Cska Sofia - Botev Plovdiv | MS 2 | pending | 60/100
+- 2026-07-27 | Romanya 1.Lig | Botosani - Rapid Bükreş | MS X | pending | 40/100
+- 2026-07-27 | Ekvador Pro Lig | Mushuc Runa - Libertad | MS 2 | pending | 60/100
+- 2026-07-27 | Slovakya 2.Lig | Samorin - Malzenice | MS X | pending | 50/100
+- 2026-07-27 | Norveç 3.Lig Grup 3 | Gneist - Brann Ii | MS X | pending | 70/100
 

@@ -3,18 +3,14 @@
 Gunler: 2026-07-27 / 2026-07-28
 Kaynak: fixtures.json
 Ham mac: 74
-Aktif mac: 59
-Canli mac: 15
+Aktif mac: 55
+Canli mac: 19
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 49
+Bultenden dusurulen mac: 19
+Bugun: 45
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-27 02:00 | Meksika Liga MX Apertura | Necaxa - Monterrey | scheduled | -
-- 2026-07-27 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | scheduled | -
-- 2026-07-27 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Comunicaciones | scheduled | -
-- 2026-07-27 02:00 | ABD USL Lig 2 Şampiyonluk Yarı Final | Michigan Bucks - Ventura Country | scheduled | -
 - 2026-07-27 02:30 | Bolivya Premier Lig | Nacional Potos - Real Tomayapo | scheduled | -
 - 2026-07-27 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Fc Cajamarca | scheduled | -
 - 2026-07-27 03:15 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | scheduled | -
@@ -87,6 +83,10 @@ Yarin: 10
 - 2026-07-27 01:30 | Brezilya Serie A | Palmeiras - Atletico Mg | live | -
 - 2026-07-27 01:30 | Brezilya Serie A | Remo - Vitoria Bahia | live | -
 - 2026-07-27 01:30 | Arjantin Premier Lig 2. Aşama | Riestra - Boca Juniors | live | -
+- 2026-07-27 02:00 | Meksika Liga MX Apertura | Necaxa - Monterrey | live | -
+- 2026-07-27 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | live | -
+- 2026-07-27 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Comunicaciones | live | -
+- 2026-07-27 02:00 | ABD USL Lig 2 Şampiyonluk Yarı Final | Michigan Bucks - Ventura Country | live | -
 
 ## Biten Maclar
 Biten mac yok.
