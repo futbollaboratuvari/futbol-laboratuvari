@@ -3,22 +3,14 @@
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
 Ham mac: 165
-Aktif mac: 132
-Canli mac: 33
+Aktif mac: 124
+Canli mac: 41
 Biten mac: 0
-Bultenden dusurulen mac: 33
-Bugun: 108
+Bultenden dusurulen mac: 41
+Bugun: 100
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-26 15:45 | Polonya Ekstraklasa | Rakow Czestoch - Wisla Plock | scheduled | -
-- 2026-07-26 16:00 | Hazırlık Kulüpler | Zwolle - Aek | scheduled | -
-- 2026-07-26 16:00 | İsveç Superettan | Ljungskile - Sandvikens | scheduled | -
-- 2026-07-26 16:00 | Rusya FNL | Leningradets - Ural | scheduled | -
-- 2026-07-26 16:00 | Finlandiya Ykkönen | Kups Ak. - Vjs | scheduled | -
-- 2026-07-26 16:00 | Kazakistan Premier Lig | Tobol Kostanay - Atyrau | scheduled | -
-- 2026-07-26 16:00 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Asane Ii | scheduled | -
-- 2026-07-26 16:45 | Macaristan NB I | Vasas - Gyor | scheduled | -
 - 2026-07-26 17:00 | Danimarka Süperlig | Kopenhag - Lyngby | scheduled | -
 - 2026-07-26 17:00 | Rusya Premier Lig | L.Moskova - Akhmat Grozny | scheduled | -
 - 2026-07-26 17:00 | Finlandiya Veikkausliiga | Helsinki - Turku | scheduled | -
@@ -178,6 +170,14 @@ Yarin: 24
 - 2026-07-26 15:30 | Polonya 1.Lig | Nieciecza - Ruch Chorzow | live | -
 - 2026-07-26 15:30 | Norveç 2.Lig Grup 1 | Jerv - Lysekloster | live | -
 - 2026-07-26 15:30 | Çek Cumhuriyeti FNL | Banik Ostrava - Vlasim | live | -
+- 2026-07-26 15:45 | Polonya Ekstraklasa | Rakow Czestoch - Wisla Plock | live | -
+- 2026-07-26 16:00 | Hazırlık Kulüpler | Zwolle - Aek | live | -
+- 2026-07-26 16:00 | İsveç Superettan | Ljungskile - Sandvikens | live | -
+- 2026-07-26 16:00 | Rusya FNL | Leningradets - Ural | live | -
+- 2026-07-26 16:00 | Finlandiya Ykkönen | Kups Ak. - Vjs | live | -
+- 2026-07-26 16:00 | Kazakistan Premier Lig | Tobol Kostanay - Atyrau | live | -
+- 2026-07-26 16:00 | Norveç 3.Lig Grup 3 | Fyllingsdalen - Asane Ii | live | -
+- 2026-07-26 16:45 | Macaristan NB I | Vasas - Gyor | live | -
 
 ## Biten Maclar
 Biten mac yok.
