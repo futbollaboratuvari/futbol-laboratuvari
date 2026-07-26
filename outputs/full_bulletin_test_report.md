@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 28
-- Live match count: 35
-- Finished removed count: 4
-- Date window: 2026-07-26 / 2026-07-27 23:59
+- Scheduled match count: 20
+- Live match count: 5
+- Finished removed count: 0
+- Date window: 2026-07-27 / 2026-07-28 23:59
 
-- 2026-07-26 21:00 | Atletico Tucum - Rivadavia | live
-- 2026-07-26 21:00 | Agropecuario - San Martin Sj | live
-- 2026-07-26 21:00 | All Boys - D Belgrano | live
-- 2026-07-26 21:00 | Los Andes - Deportivo Madry | live
-- 2026-07-26 21:00 | Moron - Ferro Carril Oe | live
-- 2026-07-26 21:00 | Atletico Ottaw - Pacific Fc | live
-- 2026-07-26 21:00 | Paksi - Ferencvaros | live
-- 2026-07-26 21:00 | Univ De Cajama - Deportivo Moque | live
-- 2026-07-26 21:00 | Cerro - Racing Montevid | live
-- 2026-07-26 21:15 | Lokomotiv Plov - Septemvri Sofia | live
+- 2026-07-27 00:00 | Gimnasia Y Tir - Maipu | live
+- 2026-07-27 00:00 | Aguila - Firpo | live
+- 2026-07-27 00:00 | Fuerte San Fra - Platense | live
+- 2026-07-27 00:00 | Inter Toronto - Forge | live
+- 2026-07-27 00:15 | Bolivar - Real Potosi | live
+- 2026-07-27 00:30 | Bragantino - Coritiba | scheduled
+- 2026-07-27 00:30 | Flamengo - Sao Paulo | scheduled
+- 2026-07-27 00:30 | Gremio - Fluminense | scheduled
+- 2026-07-27 00:30 | America Mineir - Goias | scheduled
+- 2026-07-27 00:30 | Londrina - Novorizontino | scheduled
