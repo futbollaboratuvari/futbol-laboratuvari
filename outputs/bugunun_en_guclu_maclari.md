@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-26T18:11:52.354Z
+- Güncelleme: 2026-07-26T18:53:04.049Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -34,12 +34,12 @@
 | Agropecuario VS San Martin Sj | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Cerro VS Racing Montevid | Uruguay Premier Lig Intermediate Turu Grup 1 | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Atletico Ottaw VS Pacific Fc | Kanada Premier Lig | 21:00 | MS 2 | 4.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Wisla Krakow VS Gks Katowice | Polonya Ekstraklasa | 21:15 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Lokomotiv Plov VS Septemvri Sofia | Bulgaristan 1.Lig | 21:15 | MS 2 | 4.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Koper VS Radomlje | Slovenya 1.SNL | 21:15 | MS 2 | 4.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Wisla Krakow VS Gks Katowice | Polonya Ekstraklasa | 21:15 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Lokomotiv Plov VS Septemvri Sofia | Bulgaristan 1.Lig | 21:15 | MS 2 | 4.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Koper VS Radomlje | Slovenya 1.SNL | 21:15 | MS 2 | 4.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Aucas VS Depor Macara | Ekvador Pro Lig | 21:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Delfin VS Leones Del Nort | Ekvador Pro Lig | 21:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Mladost Lucani VS Novi Pazar | Sırbistan Süper Lig | 21:30 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Mladost Lucani VS Novi Pazar | Sırbistan Süper Lig | 21:30 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | San Miguel VS Acassuso | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Colon Santa Fe VS Chaco For Ever | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Moron VS Ferro Carril Oe | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
