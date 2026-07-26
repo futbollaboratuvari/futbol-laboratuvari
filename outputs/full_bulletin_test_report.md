@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 55
-- Live match count: 14
-- Finished removed count: 5
+- Scheduled match count: 54
+- Live match count: 15
+- Finished removed count: 0
 - Date window: 2026-07-27 / 2026-07-28 23:59
 
 - 2026-07-27 00:30 | Bragantino - Coritiba | live

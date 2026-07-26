@@ -3,15 +3,14 @@
 Gunler: 2026-07-27 / 2026-07-28
 Kaynak: fixtures.json
 Ham mac: 74
-Aktif mac: 55
-Canli mac: 19
-Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 45
+Aktif mac: 54
+Canli mac: 15
+Biten mac: 5
+Bultenden dusurulen mac: 20
+Bugun: 44
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-27 02:30 | Bolivya Premier Lig | Nacional Potos - Real Tomayapo | scheduled | -
 - 2026-07-27 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Fc Cajamarca | scheduled | -
 - 2026-07-27 03:15 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | scheduled | -
 - 2026-07-27 03:30 | Şili Premier Lig | Concepcion - O Higgins | scheduled | -
@@ -68,11 +67,6 @@ Yarin: 10
 - 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | scheduled | -
 
 ## Canli Maclar
-- 2026-07-27 00:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Maipu | live | -
-- 2026-07-27 00:00 | Kanada Premier Lig | Inter Toronto - Forge | live | -
-- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Aguila - Firpo | live | -
-- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Platense | live | -
-- 2026-07-27 00:15 | Bolivya Premier Lig | Bolivar - Real Potosi | live | -
 - 2026-07-27 00:30 | Brezilya Serie A | Flamengo - Sao Paulo | live | -
 - 2026-07-27 00:30 | Brezilya Serie A | Gremio - Fluminense | live | -
 - 2026-07-27 00:30 | Brezilya Serie A | Bragantino - Coritiba | live | -
@@ -87,6 +81,11 @@ Yarin: 10
 - 2026-07-27 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | live | -
 - 2026-07-27 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Comunicaciones | live | -
 - 2026-07-27 02:00 | ABD USL Lig 2 Şampiyonluk Yarı Final | Michigan Bucks - Ventura Country | live | -
+- 2026-07-27 02:30 | Bolivya Premier Lig | Nacional Potos - Real Tomayapo | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-27 00:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Maipu | finished | -
+- 2026-07-27 00:00 | Kanada Premier Lig | Inter Toronto - Forge | finished | -
+- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Aguila - Firpo | finished | -
+- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Platense | finished | -
+- 2026-07-27 00:15 | Bolivya Premier Lig | Bolivar - Real Potosi | finished | -
