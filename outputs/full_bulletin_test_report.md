@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 45
-- Live match count: 29
-- Finished removed count: 3
+- Scheduled match count: 28
+- Live match count: 35
+- Finished removed count: 4
 - Date window: 2026-07-26 / 2026-07-27 23:59
 
-- 2026-07-26 20:00 | Slavia Mozyr - Dinamo Brest | live
-- 2026-07-26 20:00 | Gyirmot - Csakvari Tk | live
-- 2026-07-26 20:00 | Soroksar - Mezokovesd Zsor | live
-- 2026-07-26 20:00 | Sheriff Tirasp - Milsami-Ursidos | live
-- 2026-07-26 20:00 | Sireti - Petrocub | live
-- 2026-07-26 20:00 | Kizilyildiz - Vojvodina | live
-- 2026-07-26 20:00 | Dukla Banska B - Slovan Bratisla | live
-- 2026-07-26 20:15 | Aalesund - Viking | live
-- 2026-07-26 20:30 | Puszcza Niepol - Polonia Varşova | live
-- 2026-07-26 20:30 | Chojniczanka - Gks Tychy | live
+- 2026-07-26 21:00 | Atletico Tucum - Rivadavia | live
+- 2026-07-26 21:00 | Agropecuario - San Martin Sj | live
+- 2026-07-26 21:00 | All Boys - D Belgrano | live
+- 2026-07-26 21:00 | Los Andes - Deportivo Madry | live
+- 2026-07-26 21:00 | Moron - Ferro Carril Oe | live
+- 2026-07-26 21:00 | Atletico Ottaw - Pacific Fc | live
+- 2026-07-26 21:00 | Paksi - Ferencvaros | live
+- 2026-07-26 21:00 | Univ De Cajama - Deportivo Moque | live
+- 2026-07-26 21:00 | Cerro - Racing Montevid | live
+- 2026-07-26 21:15 | Lokomotiv Plov - Septemvri Sofia | live

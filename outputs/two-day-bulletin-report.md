@@ -3,15 +3,14 @@
 Gunler: 2026-07-26 / 2026-07-27
 Kaynak: fixtures.json
 Ham mac: 67
-Aktif mac: 29
-Canli mac: 38
+Aktif mac: 28
+Canli mac: 39
 Biten mac: 0
-Bultenden dusurulen mac: 38
-Bugun: 4
+Bultenden dusurulen mac: 39
+Bugun: 3
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-07-26 23:00 | CONCACAF U20 Grup C | Panama (U20) - Kanada (U20) | scheduled | -
 - 2026-07-26 23:15 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Independiente | scheduled | -
 - 2026-07-26 23:30 | Peru Premier Lig Clausura | Comerciantes U - Alianza Lima | scheduled | -
 - 2026-07-26 23:45 | Ekvador Pro Lig | Orense - Indep. Jose Ter | scheduled | -
@@ -80,6 +79,7 @@ Yarin: 25
 - 2026-07-26 22:15 | İzlanda Urvalsdeild | Fram - Hafnarfjordur | live | -
 - 2026-07-26 22:15 | İzlanda Urvalsdeild | Akranes - Stjarnan | live | -
 - 2026-07-26 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - Central Norte | live | -
+- 2026-07-26 23:00 | CONCACAF U20 Grup C | Panama (U20) - Kanada (U20) | live | -
 
 ## Biten Maclar
 Biten mac yok.
