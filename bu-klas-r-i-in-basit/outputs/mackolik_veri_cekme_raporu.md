@@ -1,41 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-26T18:11:31.346184+00:00
+Tarih: 2026-07-26T19:22:23.607367+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 55
+- Kac mac bulundu: 5
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 55
+- Kac mac zaten vardi: 5
 - Ham veri havuzu toplam mac sayisi: 3455
 - Hedef tarih: 26.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Lig 2 Şampiyonluk Yarı Final
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- Bulgaristan 1.Lig
 - CONCACAF U20 Grup C
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Hazırlık Kulüpler
-- Kanada Premier Lig
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Peru Premier Lig Clausura
-- Polonya Ekstraklasa
-- Slovenya 1.SNL
-- Sırbistan Süper Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
-- İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -92,8 +75,8 @@ Tarih: 2026-07-26T18:11:31.346184+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 32
-- Acilan detay: 32
+- Denenen Tumu alani: 20
+- Acilan detay: 20
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -106,26 +89,11 @@ Tarih: 2026-07-26T18:11:31.346184+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 26.07.2026 | 21:15 | Polonya Ekstraklasa | Wisla Krakow | Gks Katowice | 21529 | 5 |
-| 26.07.2026 | 22:00 | Sırbistan Süper Lig | Macva | Partizan Belgra | 29040 | 5 |
-| 26.07.2026 | 21:30 | Sırbistan Süper Lig | Mladost Lucani | Novi Pazar | 28989 | 5 |
-| 26.07.2026 | 22:00 | Hazırlık Kulüpler | Sevilla | Ceuta | 19126 | 5 |
-| 26.07.2026 | 22:00 | Brezilya Serie A | Bahia | Corinthians | 27747 | 5 |
-| 26.07.2026 | 22:00 | Brezilya Serie A | Cruzeiro | Botafogo | 27838 | 5 |
-| 27.07.2026 | 00:30 | Brezilya Serie A | Bragantino | Coritiba | 27929 | 5 |
-| 27.07.2026 | 00:30 | Brezilya Serie A | Gremio | Fluminense | 28106 | 5 |
-| 27.07.2026 | 01:30 | Brezilya Serie A | Remo | Vitoria Bahia | 28305 | 5 |
-| 27.07.2026 | 01:30 | Brezilya Serie A | Palmeiras | Atletico Mg | 28435 | 5 |
-| 27.07.2026 | 00:30 | Brezilya Serie A | Flamengo | Sao Paulo | 27987 | 5 |
 | 26.07.2026 | 23:15 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Independiente | 29125 | 5 |
-| 27.07.2026 | 01:30 | Arjantin Premier Lig 2. Aşama | Riestra | Boca Juniors | 29252 | 5 |
-| 27.07.2026 | 04:06 | Meksika Liga MX Apertura | Pachuca | Queretaro | 25672 | 5 |
-| 27.07.2026 | 02:00 | Meksika Liga MX Apertura | Necaxa | Monterrey | 25597 | 5 |
-| 26.07.2026 | 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov | Septemvri Sofia | 28955 | 5 |
 | 26.07.2026 | 23:00 | CONCACAF U20 Grup C | Panama (U20) | Kanada (U20) | 05179 | 5 |
-| 27.07.2026 | 04:00 | CONCACAF U20 Grup C | Honduras (U20) | Jamaika U20 | 30819 | 5 |
 | 26.07.2026 | 23:30 | Peru Premier Lig Clausura | Comerciantes U | Alianza Lima | 29183 | 5 |
-| 27.07.2026 | 03:00 | Peru Premier Lig Clausura | Deportivo Garc | Fc Cajamarca | 29345 | 5 |
+| 26.07.2026 | 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz | Central Norte | 29108 | 3 |
+| 26.07.2026 | 23:45 | Ekvador Pro Lig | Orense | Indep. Jose Ter | 13035 | 5 |
 
 ## Sonuc
 

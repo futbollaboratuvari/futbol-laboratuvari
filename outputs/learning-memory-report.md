@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.07.2026 21:53:36
+Oluşturma: 26.07.2026 22:23:24
 
 ## Özet
 
-- Toplam tahmin: 57
-- Bekleyen tahmin: 57
+- Toplam tahmin: 58
+- Bekleyen tahmin: 58
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 32
@@ -20,12 +20,13 @@ Oluşturma: 26.07.2026 21:53:36
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS X: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-26 | CONCACAF U20 Grup C | Panama (U20) - Kanada (U20) | MS 2 | pending | 40/100
 - 2026-07-26 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Club Atletico G | MS 2 | pending | 65/100
 - 2026-07-26 | Polonya 2.Lig | Chojniczanka - Gks Tychy | MS X | pending | 50/100
 - 2026-07-26 | Macaristan NB I | Paksi - Ferencvaros | MS 1 | pending | 55/100
@@ -40,5 +41,4 @@ Oluşturma: 26.07.2026 21:53:36
 - 2026-07-26 | Brezilya Serie A | Cruzeiro - Botafogo | MS 2 | pending | 50/100
 - 2026-07-26 | Şili Premier Lig | Atletico Nuble - Palestino | MS 2 | pending | 40/100
 - 2026-07-26 | Brezilya Serie B | Criciuma - Nautico | MS 2 | pending | 50/100
-- 2026-07-26 | Bolivya Premier Lig | Blooming - The Strongest | MS X | pending | 50/100
 
