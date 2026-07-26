@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-26T11:02:45.215888+00:00
+Tarih: 2026-07-26T11:11:54.576661+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 155
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 154
+- Kac mac bulundu: 128
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 128
 - Ham veri havuzu toplam mac sayisi: 3449
 - Hedef tarih: 26.07.2026 Europe/Istanbul
 
@@ -22,14 +22,11 @@ Tarih: 2026-07-26T11:02:45.215888+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup C
 - Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
 - Kanada Premier Lig
 - Kazakistan Premier Lig
@@ -40,8 +37,6 @@ Tarih: 2026-07-26T11:02:45.215888+00:00
 - Macaristan NB II
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
@@ -155,11 +150,11 @@ Tarih: 2026-07-26T11:02:45.215888+00:00
 | 26.07.2026 | 17:00 | Finlandiya Veikkausliiga | Helsinki | Turku | 20800 | 5 |
 | 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Inter Turku | Gnistan | 20588 | 5 |
 | 26.07.2026 | 15:00 | Finlandiya Veikkausliiga | Ilves | Lahti | 20699 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
 | 26.07.2026 | 18:00 | Norveç Eliteserien | Sandefjord | Bodo Glimt | 27361 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Sarpsborg | Ham Kam | 27457 | 5 |
 | 26.07.2026 | 15:30 | Norveç Eliteserien | Brann | Valerenga | 26816 | 5 |
-| 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
 | 26.07.2026 | 20:15 | Norveç Eliteserien | Aalesund | Viking | 27595 | 5 |
+| 26.07.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Molde | 27265 | 5 |
 
 ## Sonuc
 
