@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 54
-- Live match count: 15
-- Finished removed count: 0
+- Scheduled match count: 49
+- Live match count: 10
+- Finished removed count: 4
 - Date window: 2026-07-27 / 2026-07-28 23:59
 
-- 2026-07-27 00:30 | Bragantino - Coritiba | live
-- 2026-07-27 00:30 | Flamengo - Sao Paulo | live
-- 2026-07-27 00:30 | Gremio - Fluminense | live
-- 2026-07-27 00:30 | America Mineir - Goias | live
-- 2026-07-27 00:30 | Londrina - Novorizontino | live
-- 2026-07-27 00:30 | Audax Italiano - Univ. De Şili | live
-- 2026-07-27 01:00 | Quilmes - Colegiales | live
-- 2026-07-27 01:30 | Riestra - Boca Juniors | live
-- 2026-07-27 01:30 | Palmeiras - Atletico Mg | live
-- 2026-07-27 01:30 | Remo - Vitoria Bahia | live
+- 2026-07-27 02:00 | Michigan Bucks - Ventura Country | live
+- 2026-07-27 02:00 | Suchitepequez - Comunicaciones | live
+- 2026-07-27 02:00 | Cd Tapatio - Cruz Azul Hidal | live
+- 2026-07-27 02:00 | Necaxa - Monterrey | live
+- 2026-07-27 02:30 | Nacional Potos - Real Tomayapo | live
+- 2026-07-27 03:00 | Deportivo Garc - Fc Cajamarca | live
+- 2026-07-27 03:15 | Barcelona Gua - Ldu Quito | live
+- 2026-07-27 03:30 | Concepcion - O Higgins | live
+- 2026-07-27 04:00 | Honduras (U20) - Jamaika U20 | live
+- 2026-07-27 04:06 | Pachuca - Queretaro | live

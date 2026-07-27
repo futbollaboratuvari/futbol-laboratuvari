@@ -3,18 +3,14 @@
 Gunler: 2026-07-27 / 2026-07-28
 Kaynak: fixtures.json
 Ham mac: 63
-Aktif mac: 53
-Canli mac: 10
+Aktif mac: 49
+Canli mac: 14
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 43
+Bultenden dusurulen mac: 14
+Bugun: 39
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-27 03:15 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | scheduled | -
-- 2026-07-27 03:30 | Şili Premier Lig | Concepcion - O Higgins | scheduled | -
-- 2026-07-27 04:00 | CONCACAF U20 Grup C | Honduras (U20) - Jamaika U20 | scheduled | -
-- 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | scheduled | -
 - 2026-07-27 12:30 | Avustralya Victoria NPL 1 | Melbourne Vict - North Sunshine | scheduled | -
 - 2026-07-27 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - Langwarrin | scheduled | -
 - 2026-07-27 14:00 | AFF Şampiyonası Grup A | Singapur - Dogu Timor | scheduled | -
@@ -76,6 +72,10 @@ Yarin: 10
 - 2026-07-27 02:00 | ABD USL Lig 2 Şampiyonluk Yarı Final | Michigan Bucks - Ventura Country | live | -
 - 2026-07-27 02:30 | Bolivya Premier Lig | Nacional Potos - Real Tomayapo | live | -
 - 2026-07-27 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Fc Cajamarca | live | -
+- 2026-07-27 03:15 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | live | -
+- 2026-07-27 03:30 | Şili Premier Lig | Concepcion - O Higgins | live | -
+- 2026-07-27 04:00 | CONCACAF U20 Grup C | Honduras (U20) - Jamaika U20 | live | -
+- 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | live | -
 
 ## Biten Maclar
 Biten mac yok.
