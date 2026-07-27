@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-27 / 2026-07-28
 Kaynak: fixtures.json
-Ham mac: 79
+Ham mac: 16
 Aktif mac: 10
 Canli mac: 6
-Biten mac: 63
-Bultenden dusurulen mac: 69
+Biten mac: 0
+Bultenden dusurulen mac: 6
 Bugun: 0
 Yarin: 10
 
@@ -31,66 +31,4 @@ Yarin: 10
 - 2026-07-27 22:15 | İzlanda Urvalsdeild | Ka Akureyri - Thor Akureyri | live | -
 
 ## Biten Maclar
-- 2026-07-27 00:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Maipu | finished | -
-- 2026-07-27 00:00 | Kanada Premier Lig | Inter Toronto - Forge | finished | -
-- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Aguila - Firpo | finished | -
-- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Platense | finished | -
-- 2026-07-27 00:15 | Bolivya Premier Lig | Bolivar - Real Potosi | finished | -
-- 2026-07-27 00:30 | Brezilya Serie A | Flamengo - Sao Paulo | finished | -
-- 2026-07-27 00:30 | Brezilya Serie A | Gremio - Fluminense | finished | -
-- 2026-07-27 00:30 | Brezilya Serie A | Bragantino - Coritiba | finished | -
-- 2026-07-27 00:30 | Şili Premier Lig | Audax Italiano - Univ. De Şili | finished | -
-- 2026-07-27 00:30 | Brezilya Serie B | America Mineir - Goias | finished | -
-- 2026-07-27 00:30 | Brezilya Serie B | Londrina - Novorizontino | finished | -
-- 2026-07-27 01:00 | Arjantin Ulusal Primera Lig | Quilmes - Colegiales | finished | -
-- 2026-07-27 01:30 | Brezilya Serie A | Palmeiras - Atletico Mg | finished | -
-- 2026-07-27 01:30 | Brezilya Serie A | Remo - Vitoria Bahia | finished | -
-- 2026-07-27 01:30 | Arjantin Premier Lig 2. Aşama | Riestra - Boca Juniors | finished | -
-- 2026-07-27 02:00 | Meksika Liga MX Apertura | Necaxa - Monterrey | finished | -
-- 2026-07-27 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | finished | -
-- 2026-07-27 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Comunicaciones | finished | -
-- 2026-07-27 02:00 | ABD USL Lig 2 Şampiyonluk Yarı Final | Michigan Bucks - Ventura Country | finished | -
-- 2026-07-27 02:30 | Bolivya Premier Lig | Nacional Potos - Real Tomayapo | finished | -
-- 2026-07-27 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Fc Cajamarca | finished | -
-- 2026-07-27 03:15 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | finished | -
-- 2026-07-27 03:30 | Şili Premier Lig | Concepcion - O Higgins | finished | -
-- 2026-07-27 04:00 | CONCACAF U20 Grup C | Honduras (U20) - Jamaika U20 | finished | -
-- 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | finished | -
-- 2026-07-27 12:30 | Avustralya Victoria NPL 1 | Melbourne Vict - North Sunshine | finished | -
-- 2026-07-27 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - Langwarrin | finished | -
-- 2026-07-27 14:00 | AFF Şampiyonası Grup A | Singapur - Dogu Timor | finished | -
-- 2026-07-27 16:30 | AFF Şampiyonası Grup A | Endonezya - Kamboçya | finished | -
-- 2026-07-27 18:00 | Slovakya 2.Lig | Samorin - Malzenice | finished | -
-- 2026-07-27 18:00 | Letonya Virsliga | Fk Tukums 2000 - Daugava Riga | finished | -
-- 2026-07-27 18:00 | Norveç 3.Lig Grup 3 | Gneist - Brann Ii | finished | -
-- 2026-07-27 18:00 | Letonya 1.Lig | Valmieras Fk/B - Riga Ii | finished | -
-- 2026-07-27 18:30 | Romanya 1.Lig | Cfr Cluj - Voluntari | finished | -
-- 2026-07-27 18:30 | Hazırlık Kulüpler | Al Sailiya - Al Sharjah | finished | -
-- 2026-07-27 18:45 | Litvanya A Ligi | Hegelmann - Zalgiris Vilniu | finished | -
-- 2026-07-27 19:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno - Mlada Boleslav | finished | -
-- 2026-07-27 19:00 | Bulgaristan 1.Lig | Dunav 2010 - Ludogorets | finished | -
-- 2026-07-27 19:00 | Çek Cumhuriyeti FNL | Opava - Karvina | finished | -
-- 2026-07-27 19:00 | Letonya Virsliga | Grobina - Ogre United | finished | -
-- 2026-07-27 19:00 | Norveç 3.Lig Grup 2 | Volda - Ranheim Ii | finished | -
-- 2026-07-27 19:00 | Norveç 3.Lig Grup 3 | Vard Haugesund - Sogndal Ii | finished | -
-- 2026-07-27 19:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Vag Fk | finished | -
-- 2026-07-27 19:00 | Letonya 1.Lig | Metta / Lu - Tukums Ii | finished | -
-- 2026-07-27 19:00 | Hazırlık Kulüpler | Neom Sc - Al Arabi | finished | -
-- 2026-07-27 20:00 | Danimarka Süperlig | Randers - Silkeborg | finished | -
-- 2026-07-27 20:00 | Polonya Ekstraklasa | Zaglebie Lubin - Piast Gliwice | finished | -
-- 2026-07-27 20:00 | Norveç Eliteserien | Rosenborg - Fredrikstad | finished | -
-- 2026-07-27 20:00 | İsveç Allsvenskan | Hacken - Aik Stockholm | finished | -
-- 2026-07-27 20:00 | İsveç Superettan | Orebro - Oddevold | finished | -
-- 2026-07-27 20:00 | Rusya FNL | Kamaz - Rotor Volgograd | finished | -
-- 2026-07-27 20:00 | Norveç 1.Lig | Stabaek - Hodd | finished | -
-- 2026-07-27 20:00 | Polonya 1.Lig | Miedz Legnica - P. Bielsko | finished | -
-- 2026-07-27 20:00 | Norveç 3.Lig Grup 1 | If Ready - Frigg | finished | -
-- 2026-07-27 20:00 | Norveç 3.Lig Grup 1 | Lokomotiv Oslo - Kfum Ii | finished | -
-- 2026-07-27 20:00 | Norveç 3.Lig Grup 1 | Fk Union Carl - Asker | finished | -
-- 2026-07-27 20:00 | Norveç 3.Lig Grup 6 | Lyn Oslo B - Oppsal | finished | -
-- 2026-07-27 20:00 | Norveç 3.Lig Grup 6 | Sarpsborg 08 I - Orn Horten | finished | -
-- 2026-07-27 20:00 | Norveç 3.Lig Grup 4 | Haugesund Ii - Varhaug | finished | -
-- 2026-07-27 20:00 | Norveç 3.Lig Grup 5 | Kongsvinger Ii - Skedsmo | finished | -
-- 2026-07-27 20:00 | Hazırlık Kulüpler | Neom Sc - Al Arabi | finished | -
-- 2026-07-27 20:05 | İsveç Superettan | Oster - Varbergs | finished | -
-- 2026-07-27 20:30 | Macaristan NB I | Mtk - Zalaegerszeg | finished | -
+Biten mac yok.

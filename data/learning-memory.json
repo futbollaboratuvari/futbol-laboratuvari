@@ -1,22 +1,161 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-27T18:52:45.952Z",
-  "updated_at": "2026-07-27T20:02:41.040Z",
+  "updated_at": "2026-07-27T20:12:42.734Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 0,
-    "pending_predictions": 0,
+    "total_predictions": 3,
+    "pending_predictions": 3,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 0,
-    "market_count": 0,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "league_count": 3,
+    "market_count": 2,
+    "added_predictions": 3,
+    "updated_predictions": 0,
+    "last_score_link_checked": 3,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
-  "market_memory": {},
-  "league_memory": {},
-  "league_market_memory": {},
-  "predictions": []
+  "market_memory": {
+    "MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_memory": {
+    "Bulgaristan 1.Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Romanya 1.Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Bolivya Premier Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_market_memory": {
+    "Bulgaristan 1.Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Romanya 1.Lig :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Bolivya Premier Lig :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "predictions": [
+    {
+      "id": "2026-07-27|bulgaristan 1 lig|cska sofia botev plovdiv|ms 2|21 15",
+      "date": "2026-07-27",
+      "created_at": "2026-07-27T20:12:42.291Z",
+      "match_name": "Cska Sofia - Botev Plovdiv",
+      "league": "Bulgaristan 1.Lig",
+      "start_time": "21:15",
+      "market": "MS 2",
+      "odds": "4.25",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-27|romanya 1 lig|botosani rapid bukres|ms x|21 30",
+      "date": "2026-07-27",
+      "created_at": "2026-07-27T20:12:42.291Z",
+      "match_name": "Botosani - Rapid Bükreş",
+      "league": "Romanya 1.Lig",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "2.74",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-27|bolivya premier lig|gualberto vill universitario d|ms x|22 00",
+      "date": "2026-07-27",
+      "created_at": "2026-07-27T20:12:42.291Z",
+      "match_name": "Gualberto Vill - Universitario D",
+      "league": "Bolivya Premier Lig",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "3.29",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    }
+  ]
 }
