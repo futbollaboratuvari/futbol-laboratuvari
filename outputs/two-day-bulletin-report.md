@@ -3,17 +3,14 @@
 Gunler: 2026-07-27 / 2026-07-28
 Kaynak: fixtures.json
 Ham mac: 51
-Aktif mac: 51
-Canli mac: 0
+Aktif mac: 48
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 41
+Bultenden dusurulen mac: 3
+Bugun: 38
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-27 12:30 | Avustralya Victoria NPL 1 | Melbourne Vict - North Sunshine | scheduled | -
-- 2026-07-27 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - Langwarrin | scheduled | -
-- 2026-07-27 14:00 | AFF Şampiyonası Grup A | Singapur - Dogu Timor | scheduled | -
 - 2026-07-27 16:30 | AFF Şampiyonası Grup A | Endonezya - Kamboçya | scheduled | -
 - 2026-07-27 18:00 | Slovakya 2.Lig | Samorin - Malzenice | scheduled | -
 - 2026-07-27 18:00 | Letonya Virsliga | Fk Tukums 2000 - Daugava Riga | scheduled | -
@@ -64,7 +61,9 @@ Yarin: 10
 - 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-27 12:30 | Avustralya Victoria NPL 1 | Melbourne Vict - North Sunshine | live | -
+- 2026-07-27 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - Langwarrin | live | -
+- 2026-07-27 14:00 | AFF Şampiyonası Grup A | Singapur - Dogu Timor | live | -
 
 ## Biten Maclar
 Biten mac yok.
