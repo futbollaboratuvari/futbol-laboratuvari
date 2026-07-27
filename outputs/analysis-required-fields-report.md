@@ -1,12 +1,13 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 40
-Tam analiz: 35
-Eksik analiz: 5
+Toplam analiz: 6
+Tam analiz: 0
+Eksik analiz: 6
 
-- Fk Tukums 2000 VS Daugava Riga: eksik score, confidence
-- Valmieras Fk/B VS Riga Ii: eksik score, confidence
-- Volda VS Ranheim Ii: eksik score, confidence
-- If Ready VS Frigg: eksik score, confidence
-- Fk Union Carl VS Asker: eksik score, confidence
+- Breidablik VS Vestmannaeyjar: eksik score, confidence
+- Cska Sofia VS Botev Plovdiv: eksik score, confidence
+- Botosani VS Rapid Bükreş: eksik score, confidence
+- Mushuc Runa VS Libertad: eksik score, confidence
+- Gualberto Vill VS Universitario D: eksik score, confidence
+- Ka Akureyri VS Thor Akureyri: eksik score, confidence
