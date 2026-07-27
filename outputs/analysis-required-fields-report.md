@@ -1,13 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 6
+Toplam analiz: 1
 Tam analiz: 0
-Eksik analiz: 6
+Eksik analiz: 1
 
-- Breidablik VS Vestmannaeyjar: eksik score, confidence
-- Cska Sofia VS Botev Plovdiv: eksik score, confidence
-- Botosani VS Rapid Bükreş: eksik score, confidence
-- Mushuc Runa VS Libertad: eksik score, confidence
-- Gualberto Vill VS Universitario D: eksik score, confidence
-- Ka Akureyri VS Thor Akureyri: eksik score, confidence
+- Aegir VS Njardvik: eksik score, confidence
