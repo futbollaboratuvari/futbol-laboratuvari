@@ -1,20 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-27T19:47:36.284898+00:00
+Tarih: 2026-07-27T20:02:14.091796+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 1
+- Kac mac bulundu: 11
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 1
+- Kac mac zaten vardi: 11
 - Ham veri havuzu toplam mac sayisi: 3509
 - Hedef tarih: 27.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Ulusal Primera Lig
+- Brezilya Serie B
+- CONCACAF U20 Grup B
+- Ekvador Pro Lig
 - Hazırlık Kulüpler
+- Nikaragua Premier Lig Apertura
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -86,6 +92,16 @@ Tarih: 2026-07-27T19:47:36.284898+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 27.07.2026 | 18:30 | Hazırlık Kulüpler | Al Sailiya | Al Sharjah | 00507 | 5 |
+| 28.07.2026 | 02:00 | CONCACAF U20 Grup B | Antigua And Ba | Guatemala U20 | 02004 | 5 |
+| 28.07.2026 | 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 | Meksika (U20) | 02817 | 5 |
+| 28.07.2026 | 02:00 | Şili Premier Lig | Union La Caler | Everton De Vina | 19256 | 5 |
+| 28.07.2026 | 02:00 | Arjantin Ulusal Primera Lig | Atlanta | Almagro | 29342 | 3 |
+| 28.07.2026 | 01:30 | Brezilya Serie B | Sport Recife | Cuiaba | 09573 | 5 |
+| 28.07.2026 | 01:30 | Brezilya Serie B | Atletico Goian | Operario | 05450 | 5 |
+| 28.07.2026 | 01:30 | Brezilya Serie B | Regatas | Vila Nova | 28614 | 5 |
+| 28.07.2026 | 00:30 | Ekvador Pro Lig | Guayaquil City | Univ Catolica ( | 13120 | 5 |
+| 28.07.2026 | 03:00 | Ekvador Pro Lig | Deportivo Cuen | Emelec | 13137 | 5 |
+| 28.07.2026 | 05:00 | Nikaragua Premier Lig Apertura | Unan Managua | Rancho Santana | 13154 | 5 |
 
 ## Sonuc
 

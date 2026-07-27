@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 13
-- Live match count: 0
+- Scheduled match count: 10
+- Live match count: 6
 - Finished removed count: 0
 - Date window: 2026-07-27 / 2026-07-28 23:59
 
-- 2026-07-27 22:00 | Gualberto Vill - Universitario D | scheduled
-- 2026-07-27 22:00 | Mushuc Runa - Libertad | scheduled
-- 2026-07-27 22:15 | Ka Akureyri - Thor Akureyri | scheduled
+- 2026-07-27 21:00 | Breidablik - Vestmannaeyjar | live
+- 2026-07-27 21:15 | Cska Sofia - Botev Plovdiv | live
+- 2026-07-27 21:30 | Botosani - Rapid Bükreş | live
+- 2026-07-27 22:00 | Gualberto Vill - Universitario D | live
+- 2026-07-27 22:00 | Mushuc Runa - Libertad | live
+- 2026-07-27 22:15 | Ka Akureyri - Thor Akureyri | live
 - 2026-07-28 00:30 | Guayaquil City - Univ Catolica ( | scheduled
 - 2026-07-28 01:30 | Atletico Goian - Operario | scheduled
 - 2026-07-28 01:30 | Regatas - Vila Nova | scheduled
 - 2026-07-28 01:30 | Sport Recife - Cuiaba | scheduled
-- 2026-07-28 02:00 | Atlanta - Almagro | scheduled
-- 2026-07-28 02:00 | Antigua And Ba - Guatemala U20 | scheduled
-- 2026-07-28 02:00 | Union La Caler - Everton De Vina | scheduled
