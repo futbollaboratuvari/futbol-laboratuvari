@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 27.07.2026 20:57:13
-=======
-Oluşturma: 27.07.2026 20:57:53
->>>>>>> Stashed changes
+Oluşturma: 27.07.2026 21:52:46
 
 ## Özet
 
-- Toplam tahmin: 97
-- Bekleyen tahmin: 97
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 41
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 27.07.2026 20:57:53
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
-- MS X: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-27 | Hazırlık Kulüpler | Neom Sc - Al Arabi | MS 2 | pending | 60/100
-- 2026-07-27 | Hazırlık Kulüpler | Neom Sc - Al Arabi | MS 2 | pending | 60/100
-- 2026-07-27 | Slovakya 2.Lig | Samorin - Malzenice | MS 2 | pending | 50/100
-- 2026-07-27 | Norveç 3.Lig Grup 3 | Vard Haugesund - Sogndal Ii | MS 2 | pending | 80/100
-- 2026-07-27 | Norveç 3.Lig Grup 3 | Vard Haugesund - Sogndal Ii | MS X | pending | 80/100
-- 2026-07-27 | Danimarka Süperlig | Randers - Silkeborg | MS 2 | pending | 50/100
-- 2026-07-27 | Polonya Ekstraklasa | Zaglebie Lubin - Piast Gliwice | MS X | pending | 40/100
-- 2026-07-27 | Norveç Eliteserien | Rosenborg - Fredrikstad | MS 2 | pending | 60/100
-- 2026-07-27 | İsveç Allsvenskan | Hacken - Aik Stockholm | MS X | pending | 60/100
-- 2026-07-27 | İsveç Superettan | Orebro - Oddevold | MS X | pending | 50/100
-- 2026-07-27 | Norveç 1.Lig | Stabaek - Hodd | MS 2 | pending | 40/100
-- 2026-07-27 | Polonya 1.Lig | Miedz Legnica - P. Bielsko | MS X | pending | 50/100
-- 2026-07-27 | İsveç Superettan | Oster - Varbergs | MS X | pending | 50/100
-- 2026-07-27 | Macaristan NB I | Mtk - Zalaegerszeg | MS X | pending | 50/100
-- 2026-07-27 | Bulgaristan 1.Lig | Cska Sofia - Botev Plovdiv | MS 2 | pending | 60/100
 

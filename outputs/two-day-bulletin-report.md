@@ -1,19 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-27 / 2026-07-28
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 50
-Aktif mac: 16
-Canli mac: 34
+Aktif mac: 13
+Canli mac: 37
 Biten mac: 0
-Bultenden dusurulen mac: 34
-Bugun: 6
+Bultenden dusurulen mac: 37
+Bugun: 3
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-27 21:00 | İzlanda Urvalsdeild | Breidablik - Vestmannaeyjar | scheduled | -
-- 2026-07-27 21:15 | Bulgaristan 1.Lig | Cska Sofia - Botev Plovdiv | scheduled | -
-- 2026-07-27 21:30 | Romanya 1.Lig | Botosani - Rapid Bükreş | scheduled | -
 - 2026-07-27 22:00 | Ekvador Pro Lig | Mushuc Runa - Libertad | scheduled | -
 - 2026-07-27 22:00 | Bolivya Premier Lig | Gualberto Vill - Universitario D | scheduled | -
 - 2026-07-27 22:15 | İzlanda Urvalsdeild | Ka Akureyri - Thor Akureyri | scheduled | -
@@ -29,6 +27,9 @@ Yarin: 10
 - 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | scheduled | -
 
 ## Canli Maclar
+- 2026-07-27 21:00 | İzlanda Urvalsdeild | Breidablik - Vestmannaeyjar | live | -
+- 2026-07-27 21:15 | Bulgaristan 1.Lig | Cska Sofia - Botev Plovdiv | live | -
+- 2026-07-27 21:30 | Romanya 1.Lig | Botosani - Rapid Bükreş | live | -
 - 2026-07-27 18:00 | Slovakya 2.Lig | Samorin - Malzenice | live | -
 - 2026-07-27 18:00 | Letonya Virsliga | Fk Tukums 2000 - Daugava Riga | live | -
 - 2026-07-27 18:00 | Norveç 3.Lig Grup 3 | Gneist - Brann Ii | live | -
