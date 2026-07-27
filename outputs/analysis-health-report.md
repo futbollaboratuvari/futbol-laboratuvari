@@ -5,8 +5,8 @@ Tarih: 2026-07-27
 Bugünkü bülten maçı: 40
 Robot analiz maçı: 40
 Canlı veri maçı: 40
-Tekrar eden analiz: 0
+Tekrar eden analiz: 1
 Marketsiz analiz: 0
-Skorsuz analiz: 7
+Skorsuz analiz: 5
 
 Sonraki aksiyon: Analiz verisi kontrol edilmeli.

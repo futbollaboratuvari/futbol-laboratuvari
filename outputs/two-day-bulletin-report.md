@@ -3,15 +3,14 @@
 Gunler: 2026-07-27 / 2026-07-28
 Kaynak: fixtures.json
 Ham mac: 50
-Aktif mac: 17
-Canli mac: 33
+Aktif mac: 16
+Canli mac: 34
 Biten mac: 0
-Bultenden dusurulen mac: 33
-Bugun: 7
+Bultenden dusurulen mac: 34
+Bugun: 6
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-07-27 20:30 | Macaristan NB I | Mtk - Zalaegerszeg | scheduled | -
 - 2026-07-27 21:00 | İzlanda Urvalsdeild | Breidablik - Vestmannaeyjar | scheduled | -
 - 2026-07-27 21:15 | Bulgaristan 1.Lig | Cska Sofia - Botev Plovdiv | scheduled | -
 - 2026-07-27 21:30 | Romanya 1.Lig | Botosani - Rapid Bükreş | scheduled | -
@@ -63,6 +62,7 @@ Yarin: 10
 - 2026-07-27 20:00 | Norveç 3.Lig Grup 5 | Kongsvinger Ii - Skedsmo | live | -
 - 2026-07-27 20:00 | Hazırlık Kulüpler | Neom Sc - Al Arabi | live | -
 - 2026-07-27 20:05 | İsveç Superettan | Oster - Varbergs | live | -
+- 2026-07-27 20:30 | Macaristan NB I | Mtk - Zalaegerszeg | live | -
 
 ## Biten Maclar
 Biten mac yok.
