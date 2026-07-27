@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 27.07.2026 19:50:03
+Oluşturma: 27.07.2026 20:15:06
 
 ## Özet
 
-- Toplam tahmin: 96
-- Bekleyen tahmin: 96
+- Toplam tahmin: 97
+- Bekleyen tahmin: 97
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 41
@@ -20,12 +20,13 @@ Oluşturma: 27.07.2026 19:50:03
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
 - MS X: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-27 | Hazırlık Kulüpler | Neom Sc - Al Arabi | MS 2 | pending | 60/100
 - 2026-07-27 | Hazırlık Kulüpler | Neom Sc - Al Arabi | MS 2 | pending | 60/100
 - 2026-07-27 | Slovakya 2.Lig | Samorin - Malzenice | MS 2 | pending | 50/100
 - 2026-07-27 | Norveç 3.Lig Grup 3 | Vard Haugesund - Sogndal Ii | MS 2 | pending | 80/100
@@ -40,5 +41,4 @@ Oluşturma: 27.07.2026 19:50:03
 - 2026-07-27 | İsveç Superettan | Oster - Varbergs | MS X | pending | 50/100
 - 2026-07-27 | Macaristan NB I | Mtk - Zalaegerszeg | MS X | pending | 50/100
 - 2026-07-27 | Bulgaristan 1.Lig | Cska Sofia - Botev Plovdiv | MS 2 | pending | 60/100
-- 2026-07-27 | Romanya 1.Lig | Botosani - Rapid Bükreş | MS X | pending | 40/100
 

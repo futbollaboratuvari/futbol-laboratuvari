@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 34
-- Live match count: 16
-- Finished removed count: 0
+- Scheduled match count: 17
+- Live match count: 29
+- Finished removed count: 4
 - Date window: 2026-07-27 / 2026-07-28 23:59
 
-- 2026-07-27 18:00 | Valmieras Fk/B - Riga Ii | live
-- 2026-07-27 18:00 | Fk Tukums - Daugava Riga | live
-- 2026-07-27 18:00 | Gneist - Brann Ii | live
-- 2026-07-27 18:00 | Samorin - Malzenice | live
 - 2026-07-27 18:30 | Al Sailiya - Al Sharjah | live
 - 2026-07-27 18:30 | Cfr Cluj - Voluntari | live
 - 2026-07-27 18:45 | Hegelmann - Zalgiris Vilniu | live
 - 2026-07-27 19:00 | Dunav - Ludogorets | live
 - 2026-07-27 19:00 | Sk Artis Brno - Mlada Boleslav | live
 - 2026-07-27 19:00 | Opava - Karvina | live
+- 2026-07-27 19:00 | Neom Sc - Al Arabi | live
+- 2026-07-27 19:00 | Metta / Lu - Tukums Ii | live
+- 2026-07-27 19:00 | Grobina - Ogre United | live
+- 2026-07-27 19:00 | Volda - Ranheim Ii | live
