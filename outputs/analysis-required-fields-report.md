@@ -1,13 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 53
-Tam analiz: 42
-Eksik analiz: 11
+Toplam analiz: 39
+Tam analiz: 31
+Eksik analiz: 8
 
-- Quilmes VS Colegiales: eksik score, confidence
-- Michigan Bucks VS Ventura Country: eksik score, confidence
-- Nacional Potos VS Real Tomayapo: eksik score, confidence
 - Melbourne Vict VS North Sunshine: eksik score, confidence
 - Bulleen Lions VS Langwarrin: eksik score, confidence
 - Fk Tukums 2000 VS Daugava Riga: eksik score, confidence

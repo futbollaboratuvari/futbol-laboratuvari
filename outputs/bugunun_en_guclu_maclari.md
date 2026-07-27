@@ -2,24 +2,24 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-27T03:49:22.937Z
-- Ham maç sayısı: 55
+- Güncelleme: 2026-07-27T04:08:42.348Z
+- Ham maç sayısı: 49
 - Yarın bülteni maç sayısı: 10
-- Detay blok sayısı: 146
+- Detay blok sayısı: 129
 - Aktif bülten maçı: 49
-- Bültenden düşürülen maç: 6
+- Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Melbourne Vict - North Sunshine | Avustralya Victoria NPL 1 | 12:30 | Veri bekleniyor | - | 1.58 | 5 |
+| Melbourne Vict - North Sunshine | Avustralya Victoria NPL 1 | 12:30 | Veri bekleniyor | - | 1.62 | 5 |
 | Bulleen Lions - Langwarrin | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.39 | 4 |
 | Singapur - Dogu Timor | AFF Şampiyonası Grup A | 14:00 | Veri bekleniyor | - | - | 3 |
 | Endonezya - Kamboçya | AFF Şampiyonası Grup A | 16:30 | Veri bekleniyor | - | - | 3 |
 | Samorin - Malzenice | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 1.85 | 8 |
 | Fk Tukums 2000 - Daugava Riga | Letonya Virsliga | 18:00 | Veri bekleniyor | - | 8.41 | 4 |
-| Gneist - Brann Ii | Norveç 3.Lig Grup 3 | 18:00 | Veri bekleniyor | - | 2.42 | 8 |
-| Valmieras Fk/B - Riga Ii | Letonya 1.Lig | 18:00 | Veri bekleniyor | - | 1.19 | 4 |
+| Gneist - Brann Ii | Norveç 3.Lig Grup 3 | 18:00 | Veri bekleniyor | - | 2.91 | 8 |
+| Valmieras Fk/B - Riga Ii | Letonya 1.Lig | 18:00 | Veri bekleniyor | - | 1.18 | 4 |
 | Cfr Cluj - Voluntari | Romanya 1.Lig | 18:30 | Veri bekleniyor | - | 1.53 | 7 |
 | Hegelmann - Zalgiris Vilniu | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 3.5 | 8 |
 | Sk Artis Brno - Mlada Boleslav | Çek Cumhuriyeti Czech Liga | 19:00 | Veri bekleniyor | - | 3.24 | 8 |
@@ -31,7 +31,7 @@
 | Odd Bk Ii - Vag Fk | Norveç 3.Lig Grup 4 | 19:00 | Veri bekleniyor | - | 1.66 | 6 |
 | Metta / Lu - Tukums Ii | Letonya 1.Lig | 19:00 | Veri bekleniyor | - | - | 3 |
 | Randers - Silkeborg | Danimarka Süperlig | 20:00 | Veri bekleniyor | - | 1.53 | 8 |
-| Zaglebie Lubin - Piast Gliwice | Polonya Ekstraklasa | 20:00 | Veri bekleniyor | - | 2.45 | 8 |
+| Zaglebie Lubin - Piast Gliwice | Polonya Ekstraklasa | 20:00 | Veri bekleniyor | - | 2.38 | 8 |
 | Rosenborg - Fredrikstad | Norveç Eliteserien | 20:00 | Veri bekleniyor | - | 1.5 | 7 |
 | Hacken - Aik Stockholm | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.62 | 8 |
 | Orebro - Oddevold | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2.39 | 8 |
