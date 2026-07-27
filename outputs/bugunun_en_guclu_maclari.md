@@ -4,21 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-27T01:06:19.338Z
+- Güncelleme: 2026-07-27T01:17:35.948Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Quilmes VS Colegiales | Arjantin Ulusal Primera Lig | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Palmeiras VS Atletico Mg | Brezilya Serie A | 01:30 | MS 2 | 5.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Remo VS Vitoria Bahia | Brezilya Serie A | 01:30 | MS X | 2.97 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Riestra VS Boca Juniors | Arjantin Premier Lig 2. Aşama | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Necaxa VS Monterrey | Meksika Liga MX Apertura | 02:00 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Cd Tapatio VS Cruz Azul Hidal | Meksika Ascenso MX Apertura | 02:00 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Suchitepequez VS Comunicaciones | Guatemala Ulusal Lig Apertura | 02:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Michigan Bucks VS Ventura Country | ABD USL Lig 2 Şampiyonluk Yarı Final | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Nacional Potos VS Real Tomayapo | Bolivya Premier Lig | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Deportivo Garc VS Fc Cajamarca | Peru Premier Lig Clausura | 03:00 | MS 2 | 4.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Barcelona Gua VS Ldu Quito | Ekvador Pro Lig | 03:15 | MS 2 | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -33,7 +25,7 @@
 | Fk Tukums 2000 VS Daugava Riga | Letonya Virsliga | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Gneist VS Brann Ii | Norveç 3.Lig Grup 3 | 18:00 | MS X | 3.51 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Valmieras Fk/B VS Riga Ii | Letonya 1.Lig | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cfr Cluj VS Voluntari | Romanya 1.Lig | 18:30 | MS 2 | 3.70 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Cfr Cluj VS Voluntari | Romanya 1.Lig | 18:30 | MS 2 | 3.83 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Hegelmann VS Zalgiris Vilniu | Litvanya A Ligi | 18:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sk Artis Brno VS Mlada Boleslav | Çek Cumhuriyeti Czech Liga | 19:00 | MS 1 | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Dunav 2010 VS Ludogorets | Bulgaristan 1.Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -66,7 +58,7 @@
 | Ka Akureyri VS Thor Akureyri | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Guayaquil City VS Univ Catolica ( | Ekvador Pro Lig | 00:30 | MS 1 | 3.29 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Regatas VS Vila Nova | Brezilya Serie B | 01:30 | MS 2 | 3.40 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Atletico Goian VS Operario | Brezilya Serie B | 01:30 | MS 2 | 3.27 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atletico Goian VS Operario | Brezilya Serie B | 01:30 | MS 2 | 2.97 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sport Recife VS Cuiaba | Brezilya Serie B | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Antigua And Ba VS Guatemala U20 | CONCACAF U20 Grup B | 02:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Union La Caler VS Everton De Vina | Şili Premier Lig | 02:00 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

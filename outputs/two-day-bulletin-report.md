@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-27 / 2026-07-28
 Kaynak: fixtures.json
-Ham mac: 63
+Ham mac: 74
 Aktif mac: 49
-Canli mac: 14
-Biten mac: 0
-Bultenden dusurulen mac: 14
+Canli mac: 6
+Biten mac: 19
+Bultenden dusurulen mac: 25
 Bugun: 39
 Yarin: 10
 
@@ -62,14 +62,6 @@ Yarin: 10
 - 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | scheduled | -
 
 ## Canli Maclar
-- 2026-07-27 01:00 | Arjantin Ulusal Primera Lig | Quilmes - Colegiales | live | -
-- 2026-07-27 01:30 | Brezilya Serie A | Palmeiras - Atletico Mg | live | -
-- 2026-07-27 01:30 | Brezilya Serie A | Remo - Vitoria Bahia | live | -
-- 2026-07-27 01:30 | Arjantin Premier Lig 2. Aşama | Riestra - Boca Juniors | live | -
-- 2026-07-27 02:00 | Meksika Liga MX Apertura | Necaxa - Monterrey | live | -
-- 2026-07-27 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | live | -
-- 2026-07-27 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Comunicaciones | live | -
-- 2026-07-27 02:00 | ABD USL Lig 2 Şampiyonluk Yarı Final | Michigan Bucks - Ventura Country | live | -
 - 2026-07-27 02:30 | Bolivya Premier Lig | Nacional Potos - Real Tomayapo | live | -
 - 2026-07-27 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Fc Cajamarca | live | -
 - 2026-07-27 03:15 | Ekvador Pro Lig | Barcelona Gua - Ldu Quito | live | -
@@ -78,4 +70,22 @@ Yarin: 10
 - 2026-07-27 04:06 | Meksika Liga MX Apertura | Pachuca - Queretaro | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-27 00:00 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Maipu | finished | -
+- 2026-07-27 00:00 | Kanada Premier Lig | Inter Toronto - Forge | finished | -
+- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Aguila - Firpo | finished | -
+- 2026-07-27 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Platense | finished | -
+- 2026-07-27 00:15 | Bolivya Premier Lig | Bolivar - Real Potosi | finished | -
+- 2026-07-27 00:30 | Brezilya Serie A | Flamengo - Sao Paulo | finished | -
+- 2026-07-27 00:30 | Brezilya Serie A | Gremio - Fluminense | finished | -
+- 2026-07-27 00:30 | Brezilya Serie A | Bragantino - Coritiba | finished | -
+- 2026-07-27 00:30 | Şili Premier Lig | Audax Italiano - Univ. De Şili | finished | -
+- 2026-07-27 00:30 | Brezilya Serie B | America Mineir - Goias | finished | -
+- 2026-07-27 00:30 | Brezilya Serie B | Londrina - Novorizontino | finished | -
+- 2026-07-27 01:00 | Arjantin Ulusal Primera Lig | Quilmes - Colegiales | finished | -
+- 2026-07-27 01:30 | Brezilya Serie A | Palmeiras - Atletico Mg | finished | -
+- 2026-07-27 01:30 | Brezilya Serie A | Remo - Vitoria Bahia | finished | -
+- 2026-07-27 01:30 | Arjantin Premier Lig 2. Aşama | Riestra - Boca Juniors | finished | -
+- 2026-07-27 02:00 | Meksika Liga MX Apertura | Necaxa - Monterrey | finished | -
+- 2026-07-27 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cruz Azul Hidal | finished | -
+- 2026-07-27 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Comunicaciones | finished | -
+- 2026-07-27 02:00 | ABD USL Lig 2 Şampiyonluk Yarı Final | Michigan Bucks - Ventura Country | finished | -
