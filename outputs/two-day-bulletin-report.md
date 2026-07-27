@@ -3,17 +3,14 @@
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
 Ham mac: 58
-Aktif mac: 54
-Canli mac: 4
+Aktif mac: 51
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 37
+Bultenden dusurulen mac: 7
+Bugun: 34
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | scheduled | -
-- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | scheduled | -
-- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | scheduled | -
 - 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | scheduled | -
 - 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | scheduled | -
 - 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | scheduled | -
@@ -71,6 +68,9 @@ Yarin: 17
 - 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | live | -
 - 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | live | -
 - 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | live | -
+- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | live | -
+- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | live | -
+- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | live | -
 
 ## Biten Maclar
 Biten mac yok.
