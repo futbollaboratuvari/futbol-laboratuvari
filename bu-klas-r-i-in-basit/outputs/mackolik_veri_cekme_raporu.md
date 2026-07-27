@@ -1,33 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-27T08:45:59.582972+00:00
+Tarih: 2026-07-27T10:57:35.803473+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 51
+- Kac mac bulundu: 39
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 51
+- Kac mac zaten vardi: 39
 - Ham veri havuzu toplam mac sayisi: 3506
 - Hedef tarih: 27.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - AFF Şampiyonası Grup A
-- Arjantin Ulusal Primera Lig
-- Avustralya Victoria NPL 1
 - Bolivya Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup B
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
@@ -46,7 +41,6 @@ Tarih: 2026-07-27T08:45:59.582972+00:00
 - İsveç Allsvenskan
 - İsveç Superettan
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -103,8 +97,8 @@ Tarih: 2026-07-27T08:45:59.582972+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 34
-- Acilan detay: 34
+- Denenen Tumu alani: 33
+- Acilan detay: 33
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -122,12 +116,12 @@ Tarih: 2026-07-27T08:45:59.582972+00:00
 | 27.07.2026 | 19:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno | Mlada Boleslav | 18772 | 5 |
 | 27.07.2026 | 20:00 | Norveç Eliteserien | Rosenborg | Fredrikstad | 27649 | 5 |
 | 27.07.2026 | 20:00 | İsveç Allsvenskan | Hacken | Aik Stockholm | 24144 | 5 |
-| 27.07.2026 | 16:30 | AFF Şampiyonası Grup A | Endonezya | Kamboçya | 29829 | 2 |
 | 27.07.2026 | 14:00 | AFF Şampiyonası Grup A | Singapur | Dogu Timor | 02640 | 2 |
+| 27.07.2026 | 16:30 | AFF Şampiyonası Grup A | Endonezya | Kamboçya | 29829 | 2 |
 | 27.07.2026 | 21:15 | Bulgaristan 1.Lig | Cska Sofia | Botev Plovdiv | 29410 | 5 |
 | 27.07.2026 | 19:00 | Bulgaristan 1.Lig | Dunav 2010 | Ludogorets | 29393 | 5 |
-| 27.07.2026 | 20:00 | İsveç Superettan | Orebro | Oddevold | 24268 | 5 |
 | 27.07.2026 | 20:05 | İsveç Superettan | Oster | Varbergs | 24391 | 5 |
+| 27.07.2026 | 20:00 | İsveç Superettan | Orebro | Oddevold | 24268 | 5 |
 | 27.07.2026 | 20:00 | Rusya FNL | Kamaz | Rotor Volgograd | 26726 | 5 |
 | 27.07.2026 | 20:00 | Norveç 1.Lig | Stabaek | Hodd | 27704 | 5 |
 | 27.07.2026 | 20:30 | Macaristan NB I | Mtk | Zalaegerszeg | 29476 | 5 |
@@ -135,8 +129,8 @@ Tarih: 2026-07-27T08:45:59.582972+00:00
 | 27.07.2026 | 18:30 | Romanya 1.Lig | Cfr Cluj | Voluntari | 29542 | 5 |
 | 27.07.2026 | 20:00 | Polonya 1.Lig | Miedz Legnica | P. Bielsko | 21655 | 5 |
 | 27.07.2026 | 18:45 | Litvanya A Ligi | Hegelmann | Zalgiris Vilniu | 22222 | 5 |
-| 28.07.2026 | 02:00 | CONCACAF U20 Grup B | Antigua And Ba | Guatemala U20 | 02004 | 5 |
-| 28.07.2026 | 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 | Meksika (U20) | 02817 | 5 |
+| 27.07.2026 | 19:00 | Çek Cumhuriyeti FNL | Opava | Karvina | 29427 | 5 |
+| 27.07.2026 | 18:00 | Slovakya 2.Lig | Samorin | Malzenice | 18773 | 5 |
 
 ## Sonuc
 

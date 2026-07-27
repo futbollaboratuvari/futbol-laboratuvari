@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-26T15:35:25.242Z",
-  "updated_at": "2026-07-27T08:51:32.258Z",
+  "updated_at": "2026-07-27T10:57:57.182Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 94,
-    "pending_predictions": 94,
+    "total_predictions": 95,
+    "pending_predictions": 95,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 41,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 94,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 1,
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS 2": {
-      "total": 39,
-      "pending": 39,
+      "total": 40,
+      "pending": 40,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +48,16 @@
     }
   },
   "league_memory": {
+    "Slovakya 2.Lig": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 3.Lig Grup 3": {
       "total": 3,
       "pending": 3,
@@ -165,16 +171,6 @@
     "Ekvador Pro Lig": {
       "total": 2,
       "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Slovakya 2.Lig": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -464,6 +460,16 @@
     }
   },
   "league_market_memory": {
+    "Slovakya 2.Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 3.Lig Grup 3 :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -1087,6 +1093,23 @@
   },
   "predictions": [
     {
+      "id": "2026-07-27|slovakya 2 lig|samorin malzenice|ms 2|18 00",
+      "date": "2026-07-27",
+      "created_at": "2026-07-27T10:57:57.180Z",
+      "match_name": "Samorin - Malzenice",
+      "league": "Slovakya 2.Lig",
+      "start_time": "18:00",
+      "market": "MS 2",
+      "odds": "3.19",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-27|norvec 3 lig grup 3|vard haugesund sogndal ii|ms 2|19 00",
       "date": "2026-07-27",
       "created_at": "2026-07-27T05:03:45.659Z",
@@ -1112,7 +1135,7 @@
       "league": "Norveç 3.Lig Grup 3",
       "start_time": "19:00",
       "market": "MS X",
-      "odds": "3.88",
+      "odds": "4.04",
       "confidence_score": "80%",
       "analysis_score": 80,
       "risk_level": "Düşük",
@@ -1120,7 +1143,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|danimarka superlig|randers silkeborg|ms 2|20 00",
@@ -1138,7 +1161,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|polonya ekstraklasa|zaglebie lubin piast gliwice|ms x|20 00",
@@ -1156,7 +1179,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|norvec eliteserien|rosenborg fredrikstad|ms 2|20 00",
@@ -1166,7 +1189,7 @@
       "league": "Norveç Eliteserien",
       "start_time": "20:00",
       "market": "MS 2",
-      "odds": "4.53",
+      "odds": "4.67",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -1174,7 +1197,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|isvec allsvenskan|hacken aik stockholm|ms x|20 00",
@@ -1184,7 +1207,7 @@
       "league": "İsveç Allsvenskan",
       "start_time": "20:00",
       "market": "MS X",
-      "odds": "3.58",
+      "odds": "3.53",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -1192,7 +1215,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|isvec superettan|orebro oddevold|ms x|20 00",
@@ -1210,7 +1233,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|norvec 1 lig|stabaek hodd|ms 2|20 00",
@@ -1220,7 +1243,7 @@
       "league": "Norveç 1.Lig",
       "start_time": "20:00",
       "market": "MS 2",
-      "odds": "5.28",
+      "odds": "5.81",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -1228,7 +1251,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|polonya 1 lig|miedz legnica p bielsko|ms x|20 00",
@@ -1246,7 +1269,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|isvec superettan|oster varbergs|ms x|20 05",
@@ -1264,7 +1287,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|macaristan nb i|mtk zalaegerszeg|ms x|20 30",
@@ -1282,7 +1305,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|bulgaristan 1 lig|cska sofia botev plovdiv|ms 2|21 15",
@@ -1300,7 +1323,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|romanya 1 lig|botosani rapid bukres|ms x|21 30",
@@ -1318,7 +1341,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|ekvador pro lig|mushuc runa libertad|ms 2|22 00",
@@ -1336,7 +1359,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.323Z"
+      "updated_at": "2026-07-27T10:57:57.181Z"
     },
     {
       "id": "2026-07-27|slovakya 2 lig|samorin malzenice|ms x|18 00",
@@ -1364,7 +1387,7 @@
       "league": "Norveç 3.Lig Grup 3",
       "start_time": "18:00",
       "market": "MS X",
-      "odds": "3.65",
+      "odds": "3.73",
       "confidence_score": "70%",
       "analysis_score": 70,
       "risk_level": "Orta",
@@ -1372,7 +1395,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|romanya 1 lig|cfr cluj voluntari|ms 2|18 30",
@@ -1390,7 +1413,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|cek cumhuriyeti czech liga|sk artis brno mlada boleslav|ms 1|19 00",
@@ -1408,7 +1431,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|cek cumhuriyeti fnl|opava karvina|ms x|19 00",
@@ -1426,7 +1449,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|letonya virsliga|grobina ogre united|ms 2|19 00",
@@ -1436,7 +1459,7 @@
       "league": "Letonya Virsliga",
       "start_time": "19:00",
       "market": "MS 2",
-      "odds": "3.86",
+      "odds": "3.77",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -1444,7 +1467,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-27T08:51:31.322Z"
+      "updated_at": "2026-07-27T10:57:57.180Z"
     },
     {
       "id": "2026-07-27|sili premier lig|concepcion o higgins|ms x|03 30",
