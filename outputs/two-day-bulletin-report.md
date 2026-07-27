@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 18
+Ham mac: 17
 Aktif mac: 17
 Canli mac: 0
-Biten mac: 1
-Bultenden dusurulen mac: 1
+Biten mac: 0
+Bultenden dusurulen mac: 0
 Bugun: 0
 Yarin: 17
 
@@ -33,4 +33,4 @@ Yarin: 17
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-07-28 22:15 | İzlanda 1.Lig | Aegir - Njardvik | finished | -
+Biten mac yok.
