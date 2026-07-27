@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 58
+Ham mac: 57
 Aktif mac: 51
 Canli mac: 6
-Biten mac: 1
-Bultenden dusurulen mac: 7
+Biten mac: 0
+Bultenden dusurulen mac: 6
 Bugun: 34
 Yarin: 17
 
@@ -72,4 +72,4 @@ Yarin: 17
 - 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | live | -
 
 ## Biten Maclar
-- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+Biten mac yok.
