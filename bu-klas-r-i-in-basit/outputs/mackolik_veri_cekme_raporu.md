@@ -1,25 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-27T16:05:04.719296+00:00
+Tarih: 2026-07-27T16:49:15.984034+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 24
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 24
-- Ham veri havuzu toplam mac sayisi: 3508
+- Kac mac bulundu: 35
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 34
+- Ham veri havuzu toplam mac sayisi: 3509
 - Hedef tarih: 27.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Ulusal Primera Lig
 - Bolivya Premier Lig
+- Brezilya Serie B
 - Bulgaristan 1.Lig
+- CONCACAF U20 Grup B
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - Hazırlık Kulüpler
 - Macaristan NB I
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 4
@@ -33,6 +37,7 @@ Tarih: 2026-07-27T16:05:04.719296+00:00
 - İsveç Allsvenskan
 - İsveç Superettan
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -107,22 +112,22 @@ Tarih: 2026-07-27T16:05:04.719296+00:00
 | 27.07.2026 | 20:00 | Polonya Ekstraklasa | Zaglebie Lubin | Piast Gliwice | 21717 | 5 |
 | 27.07.2026 | 20:00 | Norveç Eliteserien | Rosenborg | Fredrikstad | 27649 | 5 |
 | 27.07.2026 | 20:00 | İsveç Allsvenskan | Hacken | Aik Stockholm | 24144 | 5 |
-| 27.07.2026 | 19:00 | Hazırlık Kulüpler | Neom Sc | Al Arabi | 05038 | 5 |
+| 27.07.2026 | 18:30 | Hazırlık Kulüpler | Al Sailiya | Al Sharjah | 00507 | 5 |
+| 27.07.2026 | 20:00 | Hazırlık Kulüpler | Neom Sc | Al Arabi | 05038 | 5 |
 | 27.07.2026 | 21:15 | Bulgaristan 1.Lig | Cska Sofia | Botev Plovdiv | 29410 | 5 |
 | 27.07.2026 | 20:00 | İsveç Superettan | Orebro | Oddevold | 24268 | 5 |
 | 27.07.2026 | 20:05 | İsveç Superettan | Oster | Varbergs | 24391 | 5 |
-| 27.07.2026 | 20:00 | Rusya FNL | Kamaz | Rotor Volgograd | 26726 | 3 |
+| 27.07.2026 | 20:00 | Rusya FNL | Kamaz | Rotor Volgograd | 26726 | 5 |
 | 27.07.2026 | 20:00 | Norveç 1.Lig | Stabaek | Hodd | 27704 | 5 |
 | 27.07.2026 | 20:30 | Macaristan NB I | Mtk | Zalaegerszeg | 29476 | 5 |
 | 27.07.2026 | 21:30 | Romanya 1.Lig | Botosani | Rapid Bükreş | 29509 | 5 |
 | 27.07.2026 | 20:00 | Polonya 1.Lig | Miedz Legnica | P. Bielsko | 21655 | 5 |
-| 27.07.2026 | 21:00 | İzlanda Urvalsdeild | Breidablik | Vestmannaeyjar | 28584 | 3 |
-| 27.07.2026 | 22:15 | İzlanda Urvalsdeild | Ka Akureyri | Thor Akureyri | 28638 | 3 |
-| 27.07.2026 | 22:00 | Ekvador Pro Lig | Mushuc Runa | Libertad | 13099 | 5 |
-| 27.07.2026 | 20:00 | Norveç 3.Lig Grup 1 | If Ready | Frigg | 07273 | 3 |
-| 27.07.2026 | 20:00 | Norveç 3.Lig Grup 1 | Fk Union Carl | Asker | 05973 | 3 |
-| 27.07.2026 | 20:00 | Norveç 3.Lig Grup 1 | Lokomotiv Oslo | Kfum Ii | 01866 | 3 |
-| 27.07.2026 | 20:00 | Norveç 3.Lig Grup 4 | Haugesund Ii | Varhaug | 03332 | 3 |
+| 28.07.2026 | 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 | Meksika (U20) | 02817 | 5 |
+| 28.07.2026 | 02:00 | CONCACAF U20 Grup B | Antigua And Ba | Guatemala U20 | 02004 | 5 |
+| 28.07.2026 | 02:00 | Şili Premier Lig | Union La Caler | Everton De Vina | 19256 | 5 |
+| 28.07.2026 | 02:00 | Arjantin Ulusal Primera Lig | Atlanta | Almagro | 29342 | 3 |
+| 28.07.2026 | 01:30 | Brezilya Serie B | Sport Recife | Cuiaba | 09573 | 5 |
+| 28.07.2026 | 01:30 | Brezilya Serie B | Atletico Goian | Operario | 05450 | 5 |
 
 ## Sonuc
 
