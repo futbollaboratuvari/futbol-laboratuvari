@@ -1,21 +1,45 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-27T18:52:45.952Z",
-  "updated_at": "2026-07-27T22:35:49.544Z",
+  "updated_at": "2026-07-27T22:49:31.369Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 8,
-    "pending_predictions": 8,
+    "total_predictions": 23,
+    "pending_predictions": 23,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 7,
+    "league_count": 13,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 15,
+    "updated_predictions": 0,
+    "last_score_link_checked": 23,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
+    "MS 2": {
+      "total": 11,
+      "pending": 11,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS X": {
+      "total": 11,
+      "pending": 11,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS 1": {
       "total": 1,
       "pending": 1,
@@ -25,8 +49,60 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
+    }
+  },
+  "league_memory": {
+    "Hazırlık Kulüpler": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
     },
-    "MS 2": {
+    "İsveç Superettan": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Konferans Ligi 2. Eleme Turu": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Faroe Adaları Master Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Lübnan Premier Lig Şampiyonluk Turu": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Şampiyonlar Ligi 2.Eleme Turu": {
       "total": 3,
       "pending": 3,
       "won": 0,
@@ -36,18 +112,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 4,
-      "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
     "Ekvador Pro Lig": {
       "total": 1,
       "pending": 1,
@@ -120,6 +184,86 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS 2": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "İsveç Superettan :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Konferans Ligi 2. Eleme Turu :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Faroe Adaları Master Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Lübnan Premier Lig Şampiyonluk Turu :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Şampiyonlar Ligi 2.Eleme Turu :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Şampiyonlar Ligi 2.Eleme Turu :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Ekvador Pro Lig :: MS 1": {
       "total": 1,
       "pending": 1,
@@ -193,6 +337,261 @@
   },
   "predictions": [
     {
+      "id": "2026-07-28|hazirlik kulupler|sparta rotterd asteras tripoli|ms 2|20 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Sparta Rotterd - Asteras Tripoli",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "20:00",
+      "market": "MS 2",
+      "odds": "3.41",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|isvec superettan|landskrona norrkoping|ms x|20 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Landskrona - Norrkoping",
+      "league": "İsveç Superettan",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "3.02",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|isvec superettan|helsingborg united nordic|ms x|20 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Helsingborg - United Nordic",
+      "league": "İsveç Superettan",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "3.05",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|uefa konferans ligi 2 eleme turu|cska 1948 sofi 0 0 spartak trnava|ms 2|20 30",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Cska 1948 Sofi (0) - (0) Spartak Trnava",
+      "league": "UEFA Konferans Ligi 2. Eleme Turu",
+      "start_time": "20:30",
+      "market": "MS 2",
+      "odds": "3.26",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|uefa konferans ligi 2 eleme turu|fc drita 1 1 floriana|ms 2|21 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Fc Drita (1) - (1) Floriana",
+      "league": "UEFA Konferans Ligi 2. Eleme Turu",
+      "start_time": "21:00",
+      "market": "MS 2",
+      "odds": "5.09",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|faroe adalari master lig|b36 torshavn ab argir|ms 2|21 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "B36 Torshavn - Ab Argir",
+      "league": "Faroe Adaları Master Lig",
+      "start_time": "21:00",
+      "market": "MS 2",
+      "odds": "4.76",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|hazirlik kulupler|aston villa real sociedad|ms 2|21 30",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Aston Villa - Real Sociedad",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "21:30",
+      "market": "MS 2",
+      "odds": "3.51",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|lubnan premier lig sampiyonluk turu|nejmeh ahed|ms 2|21 30",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Nejmeh - Ahed",
+      "league": "Lübnan Premier Lig Şampiyonluk Turu",
+      "start_time": "21:30",
+      "market": "MS 2",
+      "odds": "4.81",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|uefa sampiyonlar ligi 2 eleme turu|hearts 0 4 sturm graz|ms x|21 45",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Hearts (0) - (4) Sturm Graz",
+      "league": "UEFA Şampiyonlar Ligi 2.Eleme Turu",
+      "start_time": "21:45",
+      "market": "MS X",
+      "odds": "3.34",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|uefa sampiyonlar ligi 2 eleme turu|shamrock rover 0 2 ararat armenia|ms 2|22 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.936Z",
+      "match_name": "Shamrock Rover (0) - (2) Ararat-Armenia",
+      "league": "UEFA Şampiyonlar Ligi 2.Eleme Turu",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "3.44",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|uefa sampiyonlar ligi 2 eleme turu|kuopion 0 1 sabah|ms x|18 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.935Z",
+      "match_name": "Kuopion (0) - (1) Sabah",
+      "league": "UEFA Şampiyonlar Ligi 2.Eleme Turu",
+      "start_time": "18:00",
+      "market": "MS X",
+      "odds": "2.92",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|hazirlik kulupler|cagliari modena|ms 2|18 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.935Z",
+      "match_name": "Cagliari - Modena",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "18:00",
+      "market": "MS 2",
+      "odds": "4.72",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|hazirlik kulupler|udinese al ahli dubai|ms x|18 30",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.935Z",
+      "match_name": "Udinese - Al Ahli Dubai",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "18:30",
+      "market": "MS X",
+      "odds": "3.33",
+      "confidence_score": "70%",
+      "analysis_score": 70,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|hazirlik kulupler|cambuur volos nfc|ms x|20 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.935Z",
+      "match_name": "Cambuur - Volos Nfc",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "3.15",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-28|hazirlik kulupler|breda ofi|ms x|20 00",
+      "date": "2026-07-28",
+      "created_at": "2026-07-27T22:49:30.935Z",
+      "match_name": "Breda - Ofi",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "3.33",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-28|ekvador pro lig|guayaquil city univ catolica|ms 1|00 30",
       "date": "2026-07-28",
       "created_at": "2026-07-27T21:19:12.486Z",
@@ -207,7 +606,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-27T22:49:30.935Z"
     },
     {
       "id": "2026-07-28|brezilya serie b|regatas vila nova|ms 2|01 30",
@@ -224,7 +624,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-27T22:49:30.935Z"
     },
     {
       "id": "2026-07-28|brezilya serie b|atletico goian operario|ms 2|01 30",
@@ -241,7 +642,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-27T22:49:30.935Z"
     },
     {
       "id": "2026-07-28|sili premier lig|union la caler everton de vina|ms x|02 00",
@@ -258,7 +660,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-27T22:49:30.935Z"
     },
     {
       "id": "2026-07-28|nikaragua premier lig apertura|unan managua rancho santana|ms x|05 00",
@@ -275,7 +678,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-27T22:49:30.935Z"
     },
     {
       "id": "2026-07-27|bulgaristan 1 lig|cska sofia botev plovdiv|ms 2|21 15",
