@@ -1,38 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-27T05:03:16.598879+00:00
+Tarih: 2026-07-27T07:40:58.310096+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 49
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 49
-- Ham veri havuzu toplam mac sayisi: 3504
+- Kac mac bulundu: 41
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 39
+- Ham veri havuzu toplam mac sayisi: 3506
 - Hedef tarih: 27.07.2026 Europe/Istanbul
 
 ## Ligler
 
 - AFF Şampiyonası Grup A
-- Arjantin Ulusal Primera Lig
 - Avustralya Victoria NPL 1
 - Bolivya Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup B
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 5
 - Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Polonya 1.Lig
@@ -45,7 +42,6 @@ Tarih: 2026-07-27T05:03:16.598879+00:00
 - İsveç Allsvenskan
 - İsveç Superettan
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -102,8 +98,8 @@ Tarih: 2026-07-27T05:03:16.598879+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 33
-- Acilan detay: 33
+- Denenen Tumu alani: 34
+- Acilan detay: 34
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -134,8 +130,8 @@ Tarih: 2026-07-27T05:03:16.598879+00:00
 | 27.07.2026 | 18:30 | Romanya 1.Lig | Cfr Cluj | Voluntari | 29542 | 5 |
 | 27.07.2026 | 20:00 | Polonya 1.Lig | Miedz Legnica | P. Bielsko | 21655 | 5 |
 | 27.07.2026 | 18:45 | Litvanya A Ligi | Hegelmann | Zalgiris Vilniu | 22222 | 5 |
-| 28.07.2026 | 02:00 | CONCACAF U20 Grup B | Antigua And Ba | Guatemala U20 | 02004 | 5 |
-| 28.07.2026 | 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 | Meksika (U20) | 02817 | 5 |
+| 27.07.2026 | 19:00 | Çek Cumhuriyeti FNL | Opava | Karvina | 29427 | 5 |
+| 27.07.2026 | 18:00 | Slovakya 2.Lig | Samorin | Malzenice | 18773 | 5 |
 
 ## Sonuc
 
