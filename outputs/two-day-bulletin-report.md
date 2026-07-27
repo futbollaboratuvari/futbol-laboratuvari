@@ -4,8 +4,8 @@ Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
 Ham mac: 58
 Aktif mac: 51
-Canli mac: 7
-Biten mac: 0
+Canli mac: 6
+Biten mac: 1
 Bultenden dusurulen mac: 7
 Bugun: 34
 Yarin: 17
@@ -64,7 +64,6 @@ Yarin: 17
 - 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | scheduled | -
 
 ## Canli Maclar
-- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | live | -
 - 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | live | -
 - 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | live | -
 - 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | live | -
@@ -73,4 +72,4 @@ Yarin: 17
 - 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
