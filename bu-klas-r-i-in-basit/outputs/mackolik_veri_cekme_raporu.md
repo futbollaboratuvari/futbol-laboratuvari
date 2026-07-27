@@ -1,26 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-27T20:02:14.091796+00:00
+Tarih: 2026-07-27T21:19:04.544592+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 11
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 11
-- Ham veri havuzu toplam mac sayisi: 3509
-- Hedef tarih: 27.07.2026 Europe/Istanbul
+- Kac mac bulundu: 31
+- Kac mac kaydedildi: 31
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 3540
+- Hedef tarih: 28.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Ulusal Primera Lig
-- Brezilya Serie B
-- CONCACAF U20 Grup B
-- Ekvador Pro Lig
+- AFF Şampiyonası Grup B
+- Faroe Adaları Master Lig
 - Hazırlık Kulüpler
-- Nikaragua Premier Lig Apertura
-- Şili Premier Lig
+- Hazırlık Sydney Süper Kupası
+- Litvanya 1.Lig
+- Lübnan Premier Lig Şampiyonluk Turu
+- UEFA Konferans Ligi 2. Eleme Turu
+- UEFA Şampiyonlar Ligi 2.Eleme Turu
+- İsveç Superettan
+- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -77,8 +80,8 @@ Tarih: 2026-07-27T20:02:14.091796+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 7
-- Acilan detay: 7
+- Denenen Tumu alani: 19
+- Acilan detay: 19
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -91,17 +94,26 @@ Tarih: 2026-07-27T20:02:14.091796+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 27.07.2026 | 18:30 | Hazırlık Kulüpler | Al Sailiya | Al Sharjah | 00507 | 5 |
-| 28.07.2026 | 02:00 | CONCACAF U20 Grup B | Antigua And Ba | Guatemala U20 | 02004 | 5 |
-| 28.07.2026 | 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 | Meksika (U20) | 02817 | 5 |
-| 28.07.2026 | 02:00 | Şili Premier Lig | Union La Caler | Everton De Vina | 19256 | 5 |
-| 28.07.2026 | 02:00 | Arjantin Ulusal Primera Lig | Atlanta | Almagro | 29342 | 3 |
-| 28.07.2026 | 01:30 | Brezilya Serie B | Sport Recife | Cuiaba | 09573 | 5 |
-| 28.07.2026 | 01:30 | Brezilya Serie B | Atletico Goian | Operario | 05450 | 5 |
-| 28.07.2026 | 01:30 | Brezilya Serie B | Regatas | Vila Nova | 28614 | 5 |
-| 28.07.2026 | 00:30 | Ekvador Pro Lig | Guayaquil City | Univ Catolica ( | 13120 | 5 |
-| 28.07.2026 | 03:00 | Ekvador Pro Lig | Deportivo Cuen | Emelec | 13137 | 5 |
-| 28.07.2026 | 05:00 | Nikaragua Premier Lig Apertura | Unan Managua | Rancho Santana | 13154 | 5 |
+| 28.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) | (2) Ararat-Armenia | 08326 | 5 |
+| 28.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) | (1) Thun | 08073 | 5 |
+| 28.07.2026 | 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) | (4) Sturm Graz | 08283 | 5 |
+| 28.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) | (1) Sabah | 07639 | 5 |
+| 28.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) | (3) Mjallby | 07732 | 5 |
+| 28.07.2026 | 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Celje (3) | (3) Egnatia | 08226 | 5 |
+| 28.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Apollon Limass (4) | (0) Dila Gori | 07827 | 5 |
+| 28.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Riga Fc (3) | (2) Vardar | 07897 | 5 |
+| 28.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Cska 1948 Sofi (0) | (0) Spartak Trnava | 07977 | 5 |
+| 28.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) | (1) Floriana | 08187 | 5 |
+| 28.07.2026 | 18:30 | Hazırlık Kulüpler | Udinese | Al Ahli Dubai | 01978 | 5 |
+| 28.07.2026 | 20:00 | Hazırlık Kulüpler | Al Ahli (Cidde | Fulham | 09768 | 5 |
+| 28.07.2026 | 20:00 | Hazırlık Kulüpler | Cambuur | Volos Nfc | 10081 | 5 |
+| 28.07.2026 | 20:00 | Hazırlık Kulüpler | Breda | Ofi | 15316 | 5 |
+| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Elche | Al Ain | 00220 | 5 |
+| 28.07.2026 | 18:00 | Hazırlık Kulüpler | Cagliari | Modena | 10428 | 5 |
+| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Aston Villa | Real Sociedad | 11527 | 5 |
+| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Stoke | Everton | 10083 | 5 |
+| 28.07.2026 | 20:00 | Hazırlık Kulüpler | Sparta Rotterd | Asteras Tripoli | 04457 | 5 |
+| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Bromley | Millwall | 01126 | 5 |
 
 ## Sonuc
 
