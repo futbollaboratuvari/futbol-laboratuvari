@@ -1,18 +1,18 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 11
-Tam analiz: 0
+Toplam analiz: 53
+Tam analiz: 42
 Eksik analiz: 11
 
-- Gimnasia Y Tir VS Maipu: eksik score, confidence
-- Inter Toronto VS Forge: eksik score, confidence
-- Aguila VS Firpo: eksik score, confidence
-- Fuerte San Fra VS Platense: eksik score, confidence
-- Bolivar VS Real Potosi: eksik score, confidence
-- Flamengo VS Sao Paulo: eksik score, confidence
-- Gremio VS Fluminense: eksik score, confidence
-- Bragantino VS Coritiba: eksik score, confidence
-- Audax Italiano VS Univ. De Şili: eksik score, confidence
-- America Mineir VS Goias: eksik score, confidence
-- Londrina VS Novorizontino: eksik score, confidence
+- Quilmes VS Colegiales: eksik score, confidence
+- Michigan Bucks VS Ventura Country: eksik score, confidence
+- Nacional Potos VS Real Tomayapo: eksik score, confidence
+- Melbourne Vict VS North Sunshine: eksik score, confidence
+- Bulleen Lions VS Langwarrin: eksik score, confidence
+- Fk Tukums 2000 VS Daugava Riga: eksik score, confidence
+- Valmieras Fk/B VS Riga Ii: eksik score, confidence
+- Volda VS Ranheim Ii: eksik score, confidence
+- If Ready VS Frigg: eksik score, confidence
+- Fk Union Carl VS Asker: eksik score, confidence
+- Gualberto Vill VS Universitario D: eksik score, confidence

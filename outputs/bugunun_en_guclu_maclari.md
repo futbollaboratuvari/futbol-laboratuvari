@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-26T23:46:17.773Z
-- Ham maç sayısı: 69
+- Güncelleme: 2026-07-27T00:13:55.217Z
+- Ham maç sayısı: 63
 - Yarın bülteni maç sayısı: 10
-- Detay blok sayısı: 185
-- Aktif bülten maçı: 54
-- Bültenden düşürülen maç: 15
+- Detay blok sayısı: 167
+- Aktif bülten maçı: 53
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Deportivo Garc - Fc Cajamarca | Peru Premier Lig Clausura | 03:00 | Veri bekleniyor | - | 1.47 | 7 |
 | Barcelona Gua - Ldu Quito | Ekvador Pro Lig | 03:15 | Veri bekleniyor | - | 1.88 | 8 |
 | Concepcion - O Higgins | Şili Premier Lig | 03:30 | Veri bekleniyor | - | 2.06 | 8 |
 | Honduras (U20) - Jamaika U20 | CONCACAF U20 Grup C | 04:00 | Veri bekleniyor | - | 1.42 | 7 |
