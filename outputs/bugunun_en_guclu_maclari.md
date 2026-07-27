@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-27T05:01:15.208Z
+- Güncelleme: 2026-07-27T05:03:31.039Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -26,33 +26,33 @@
 | Opava VS Karvina | Çek Cumhuriyeti FNL | 19:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Grobina VS Ogre United | Letonya Virsliga | 19:00 | MS 2 | 3.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Volda VS Ranheim Ii | Norveç 3.Lig Grup 2 | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Vard Haugesund VS Sogndal Ii | Norveç 3.Lig Grup 3 | 19:00 | MS X | 3.78 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Vard Haugesund VS Sogndal Ii | Norveç 3.Lig Grup 3 | 19:00 | MS 2 | 4.29 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Odd Bk Ii VS Vag Fk | Norveç 3.Lig Grup 4 | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Metta / Lu VS Tukums Ii | Letonya 1.Lig | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Randers VS Silkeborg | Danimarka Süperlig | 20:00 | MS 2 | 3.90 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Zaglebie Lubin VS Piast Gliwice | Polonya Ekstraklasa | 20:00 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Rosenborg VS Fredrikstad | Norveç Eliteserien | 20:00 | MS 2 | 4.11 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Rosenborg VS Fredrikstad | Norveç Eliteserien | 20:00 | MS 2 | 4.25 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Hacken VS Aik Stockholm | İsveç Allsvenskan | 20:00 | MS X | 3.52 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Orebro VS Oddevold | İsveç Superettan | 20:00 | MS X | 2.95 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kamaz VS Rotor Volgograd | Rusya FNL | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Stabaek VS Hodd | Norveç 1.Lig | 20:00 | MS 2 | 5.10 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Miedz Legnica VS P. Bielsko | Polonya 1.Lig | 20:00 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Miedz Legnica VS P. Bielsko | Polonya 1.Lig | 20:00 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | If Ready VS Frigg | Norveç 3.Lig Grup 1 | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Lokomotiv Oslo VS Kfum Ii | Norveç 3.Lig Grup 1 | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Fk Union Carl VS Asker | Norveç 3.Lig Grup 1 | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Lyn Oslo B VS Oppsal | Norveç 3.Lig Grup 6 | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sarpsborg 08 I VS Orn Horten | Norveç 3.Lig Grup 6 | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Oster VS Varbergs | İsveç Superettan | 20:05 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Mtk VS Zalaegerszeg | Macaristan NB I | 20:30 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Mtk VS Zalaegerszeg | Macaristan NB I | 20:30 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Breidablik VS Vestmannaeyjar | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Cska Sofia VS Botev Plovdiv | Bulgaristan 1.Lig | 21:15 | MS 2 | 4.50 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Botosani VS Rapid Bükreş | Romanya 1.Lig | 21:30 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Mushuc Runa VS Libertad | Ekvador Pro Lig | 22:00 | MS 2 | 4.53 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Botosani VS Rapid Bükreş | Romanya 1.Lig | 21:30 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Mushuc Runa VS Libertad | Ekvador Pro Lig | 22:00 | MS 2 | 4.57 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Gualberto Vill VS Universitario D | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ka Akureyri VS Thor Akureyri | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Guayaquil City VS Univ Catolica ( | Ekvador Pro Lig | 00:30 | MS 1 | 3.29 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Regatas VS Vila Nova | Brezilya Serie B | 01:30 | MS 2 | 3.40 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Atletico Goian VS Operario | Brezilya Serie B | 01:30 | MS 2 | 2.97 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atletico Goian VS Operario | Brezilya Serie B | 01:30 | MS 2 | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sport Recife VS Cuiaba | Brezilya Serie B | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Antigua And Ba VS Guatemala U20 | CONCACAF U20 Grup B | 02:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Union La Caler VS Everton De Vina | Şili Premier Lig | 02:00 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -64,13 +64,13 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vard Haugesund VS Sogndal Ii | MS X | 3.78 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Vard Haugesund VS Sogndal Ii | MS 2 | 4.29 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Gneist VS Brann Ii | MS X | 3.65 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vard Haugesund VS Sogndal Ii + Gneist VS Brann Ii | MS X + MS X | 13.80 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Vard Haugesund VS Sogndal Ii + Gneist VS Brann Ii | MS 2 + MS X | 15.66 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
