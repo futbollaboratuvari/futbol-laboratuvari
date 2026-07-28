@@ -3,15 +3,14 @@
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
 Ham mac: 85
-Aktif mac: 78
-Canli mac: 7
+Aktif mac: 77
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 58
+Bultenden dusurulen mac: 8
+Bugun: 57
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-29 02:15 | Kolombiya Kupa 2.Tur | Quindio (1) - (2) Deportes Tolima | scheduled | -
 - 2026-07-29 03:00 | Kolombiya Kupa 2.Tur | Bogota (1) - (0) Deportivo Pasto | scheduled | -
 - 2026-07-29 03:00 | Hazırlık Kulüpler | Atletico Madri - Getafe | scheduled | -
 - 2026-07-29 03:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Depor Motagua | scheduled | -
@@ -98,6 +97,7 @@ Yarin: 20
 - 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Gimnasia Mendoz | live | -
 - 2026-07-29 01:30 | Brezilya Serie B | Juventude - Avai | live | -
 - 2026-07-29 01:30 | Brezilya Serie B | Ponte Preta - Athletic Club | live | -
+- 2026-07-29 02:15 | Kolombiya Kupa 2.Tur | Quindio (1) - (2) Deportes Tolima | live | -
 
 ## Biten Maclar
 Biten mac yok.
