@@ -2,13 +2,13 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 73
-Aktif mac: 71
+Ham mac: 85
+Aktif mac: 73
 Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
+Biten mac: 10
+Bultenden dusurulen mac: 12
 Bugun: 53
-Yarin: 18
+Yarin: 20
 
 ## Baslamamis Maclar
 - 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | scheduled | -
@@ -73,6 +73,8 @@ Yarin: 18
 - 2026-07-29 01:30 | Brezilya Serie B | Ponte Preta - Athletic Club | scheduled | -
 - 2026-07-29 02:15 | Kolombiya Kupa 2.Tur | Quindio (1) - (2) Deportes Tolima | scheduled | -
 - 2026-07-29 03:00 | Kolombiya Kupa 2.Tur | Bogota (1) - (0) Deportivo Pasto | scheduled | -
+- 2026-07-29 03:00 | Hazırlık Kulüpler | Atletico Madri - Getafe | scheduled | -
+- 2026-07-29 03:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Depor Motagua | scheduled | -
 - 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Racing Club | scheduled | -
 - 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Rio Cuarto | scheduled | -
 - 2026-07-29 03:30 | Copa Sudamericana Son 32 Turu | Santos (4) - (1) Ucv | scheduled | -
@@ -88,4 +90,13 @@ Yarin: 18
 - 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
+- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
+- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
+- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
+- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
+- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
+- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
