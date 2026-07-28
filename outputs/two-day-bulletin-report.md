@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 86
-Aktif mac: 69
-Canli mac: 4
-Biten mac: 13
-Bultenden dusurulen mac: 17
-Bugun: 49
+Ham mac: 73
+Aktif mac: 67
+Canli mac: 6
+Biten mac: 0
+Bultenden dusurulen mac: 6
+Bugun: 47
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-28 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) - (3) Mjallby | scheduled | -
-- 2026-07-28 19:00 | Litvanya 1.Lig | Zalgiris Ii - Minija | scheduled | -
 - 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Apollon Limass (4) - (0) Dila Gori | scheduled | -
 - 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Riga Fc (3) - (2) Vardar | scheduled | -
 - 2026-07-28 20:00 | Hazırlık Kulüpler | Al Ahli (Cidde - Fulham | scheduled | -
@@ -86,18 +84,8 @@ Yarin: 20
 - 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | live | -
 - 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | live | -
 - 2026-07-28 18:30 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | live | -
+- 2026-07-28 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) - (3) Mjallby | live | -
+- 2026-07-28 19:00 | Litvanya 1.Lig | Zalgiris Ii - Minija | live | -
 
 ## Biten Maclar
-- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
-- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
-- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
-- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
-- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
-- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
-- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
-- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | finished | -
-- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | finished | -
-- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | finished | -
+Biten mac yok.
