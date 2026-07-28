@@ -3,18 +3,14 @@
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
 Ham mac: 74
-Aktif mac: 73
-Canli mac: 1
+Aktif mac: 69
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 53
+Bultenden dusurulen mac: 5
+Bugun: 49
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | scheduled | -
-- 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | scheduled | -
-- 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | scheduled | -
-- 2026-07-28 18:30 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | scheduled | -
 - 2026-07-28 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) - (3) Mjallby | scheduled | -
 - 2026-07-28 19:00 | Litvanya 1.Lig | Zalgiris Ii - Minija | scheduled | -
 - 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Apollon Limass (4) - (0) Dila Gori | scheduled | -
@@ -87,6 +83,10 @@ Yarin: 20
 
 ## Canli Maclar
 - 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | live | -
+- 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | live | -
+- 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | live | -
+- 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | live | -
+- 2026-07-28 18:30 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | live | -
 
 ## Biten Maclar
 Biten mac yok.
