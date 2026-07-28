@@ -4,8 +4,8 @@ Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
 Ham mac: 85
 Aktif mac: 77
-Canli mac: 8
-Biten mac: 0
+Canli mac: 7
+Biten mac: 1
 Bultenden dusurulen mac: 8
 Bugun: 57
 Yarin: 20
@@ -90,7 +90,6 @@ Yarin: 20
 - 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | scheduled | -
 
 ## Canli Maclar
-- 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | live | -
 - 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | live | -
 - 2026-07-29 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) - (0) Nacional Df | live | -
 - 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Sarmiento | live | -
@@ -100,4 +99,4 @@ Yarin: 20
 - 2026-07-29 02:15 | Kolombiya Kupa 2.Tur | Quindio (1) - (2) Deportes Tolima | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | finished | -

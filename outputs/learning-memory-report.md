@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.07.2026 02:17:15
+Oluşturma: 29.07.2026 02:39:09
 
 ## Özet
 
-- Toplam tahmin: 66
-- Bekleyen tahmin: 66
+- Toplam tahmin: 68
+- Bekleyen tahmin: 68
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,14 @@ Oluşturma: 29.07.2026 02:17:15
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
 - MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-29 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | MS 2 | pending | 40/100
+- 2026-07-29 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | MS 2 | pending | 40/100
 - 2026-07-29 | Hazırlık Kulüpler | Watford - Fiorentina | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | Bradford - Prest | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | Ipswich - Osasuna | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 29.07.2026 02:17:15
 - 2026-07-29 | Hazırlık Kulüpler | B.Leverkusen - Genk | MS 2 | pending | 95/100
 - 2026-07-29 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kairat Almaty (0) - (1) Omonia | MS 2 | pending | 40/100
 - 2026-07-29 | Hazırlık Kulüpler | Palermo - Iraklis 1908 | MS 2 | pending | 60/100
-- 2026-07-29 | Finlandiya Ykkösliiga | Mikkelin - Kapa | MS X | pending | 50/100
-- 2026-07-29 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) - (0) Kí Klaksvík | MS 2 | pending | 50/100
 
