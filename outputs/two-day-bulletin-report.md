@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 75
+Ham mac: 86
 Aktif mac: 73
-Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
+Canli mac: 1
+Biten mac: 12
+Bultenden dusurulen mac: 13
 Bugun: 53
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | scheduled | -
 - 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | scheduled | -
 - 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | scheduled | -
 - 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | scheduled | -
@@ -62,6 +61,7 @@ Yarin: 20
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Bromley - Millwall | scheduled | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Hereford Fc - Shrewsbury | scheduled | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Folkestone Inv - Sutton United | scheduled | -
+- 2026-07-28 21:45 | Hazırlık Kulüpler | Slough Town - Oxford City | scheduled | -
 - 2026-07-28 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) - (2) Ararat-Armenia | scheduled | -
 - 2026-07-28 22:15 | İzlanda 1.Lig | Aegir - Njardvik | scheduled | -
 - 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | scheduled | -
@@ -86,8 +86,18 @@ Yarin: 20
 - 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | scheduled | -
 
 ## Canli Maclar
-- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | live | -
-- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | live | -
+- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
+- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
+- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
+- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
+- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
+- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
+- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
+- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | finished | -
+- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | finished | -
