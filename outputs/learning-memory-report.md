@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.07.2026 01:45:18
+Oluşturma: 29.07.2026 01:50:31
 
 ## Özet
 
-- Toplam tahmin: 43
-- Bekleyen tahmin: 43
+- Toplam tahmin: 66
+- Bekleyen tahmin: 66
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 16
+- Lig sayısı: 19
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 29.07.2026 01:45:18
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
-- MS X: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-29 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | MS 2 | pending | 40/100
+- 2026-07-29 | Hazırlık Kulüpler | Watford - Fiorentina | MS X | pending | 50/100
+- 2026-07-29 | Hazırlık Kulüpler | Bradford - Prest | MS X | pending | 50/100
+- 2026-07-29 | Hazırlık Kulüpler | Ipswich - Osasuna | MS X | pending | 50/100
+- 2026-07-29 | Hazırlık Kulüpler | Burnley - Espanyol | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | Atletico Madri - Getafe | MS 2 | pending | 50/100
-- 2026-07-29 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | MS X | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Marine - Warrington Town | MS 2 | pending | 60/100
-- 2026-07-28 | Hazırlık Kulüpler | Cambridge - Northampton | MS 2 | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Oxford - Crawley | MS 2 | pending | 60/100
-- 2026-07-28 | Hazırlık Kulüpler | Accrington - Bury | MS 2 | pending | 60/100
-- 2026-07-28 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | MS X | pending | 80/100
-- 2026-07-28 | Hazırlık Kulüpler | Wealdstone - Afc Wimbledon | MS 1 | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Carlisle - Salford City | MS X | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | MS 2 | pending | 70/100
-- 2026-07-28 | Hazırlık Kulüpler | Wealdstone - Afc Wimbledon | MS X | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Swindon - Leyton Orient | MS X | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Barnet - Mk Dons | MS X | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Cambridge - Northampton | MS X | pending | 50/100
+- 2026-07-29 | Brezilya Serie B | Fortaleza Ce - Botafogo Ribeir | MS 2 | pending | 50/100
+- 2026-07-29 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Plaza Amador | MS X | pending | 50/100
+- 2026-07-29 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | MS 2 | pending | 60/100
+- 2026-07-29 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | MS 1 | pending | 40/100
+- 2026-07-29 | Hazırlık Kulüpler | Cadiz - Ceuta | MS X | pending | 50/100
+- 2026-07-29 | Hazırlık Kulüpler | B.Leverkusen - Genk | MS 2 | pending | 95/100
+- 2026-07-29 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kairat Almaty (0) - (1) Omonia | MS 2 | pending | 40/100
+- 2026-07-29 | Hazırlık Kulüpler | Palermo - Iraklis 1908 | MS 2 | pending | 60/100
+- 2026-07-29 | Finlandiya Ykkösliiga | Mikkelin - Kapa | MS X | pending | 50/100
+- 2026-07-29 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) - (0) Kí Klaksvík | MS 2 | pending | 50/100
 
