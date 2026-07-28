@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-28T13:20:22.275327+00:00
+Tarih: 2026-07-28T15:41:28.637906+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 73
+- Kac mac bulundu: 69
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 73
+- Kac mac zaten vardi: 69
 - Ham veri havuzu toplam mac sayisi: 3585
 - Hedef tarih: 28.07.2026 Europe/Istanbul
 
@@ -107,21 +107,21 @@ Tarih: 2026-07-28T13:20:22.275327+00:00
 | 28.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) | (1) Thun | 08073 | 5 |
 | 28.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) | (2) Ararat-Armenia | 08326 | 5 |
 | 28.07.2026 | 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) | (4) Sturm Graz | 08283 | 5 |
-| 28.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) | (1) Sabah | 07639 | 5 |
 | 28.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Riga Fc (3) | (2) Vardar | 07897 | 5 |
 | 28.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Apollon Limass (4) | (0) Dila Gori | 07827 | 5 |
 | 28.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Cska 1948 Sofi (0) | (0) Spartak Trnava | 07977 | 5 |
 | 28.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) | (1) Floriana | 08187 | 5 |
 | 28.07.2026 | 21:00 | Hazırlık Kulüpler | Oldham | Stockport | 11229 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Alfreton | Mansfield | 14937 | 3 |
+| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Alfreton | Mansfield | 14937 | 5 |
 | 28.07.2026 | 21:45 | Hazırlık Kulüpler | Hereford Fc | Shrewsbury | 15758 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Aston Villa | Real Sociedad | 11527 | 5 |
-| 28.07.2026 | 18:30 | Hazırlık Kulüpler | Udinese | Al Ahli Dubai | 01978 | 5 |
-| 28.07.2026 | 18:00 | Hazırlık Kulüpler | Cagliari | Modena | 10428 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Barnet | Mk Dons | 15525 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Newport County | Reading | 15650 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Gateshead | Gateshead(South | 15616 | 3 |
 | 28.07.2026 | 21:45 | Hazırlık Kulüpler | Bromley | Millwall | 01126 | 5 |
+| 28.07.2026 | 20:00 | Hazırlık Kulüpler | Sparta Rotterd | Asteras Tripoli | 04457 | 5 |
+| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Oxford | Crawley | 11491 | 5 |
+| 28.07.2026 | 21:00 | Hazırlık Kulüpler | North Ferriby | Scunthorpe | 11166 | 2 |
 
 ## Sonuc
 

@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 74
+Ham mac: 86
 Aktif mac: 69
-Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
+Canli mac: 4
+Biten mac: 13
+Bultenden dusurulen mac: 17
 Bugun: 49
 Yarin: 20
 
@@ -82,11 +82,22 @@ Yarin: 20
 - 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | scheduled | -
 
 ## Canli Maclar
-- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | live | -
 - 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | live | -
 - 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | live | -
 - 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | live | -
 - 2026-07-28 18:30 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
+- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
+- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
+- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
+- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
+- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
+- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
+- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | finished | -
+- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | finished | -
+- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | finished | -
