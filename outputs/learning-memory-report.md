@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 28.07.2026 10:31:01
+Oluşturma: 28.07.2026 12:08:23
 
 ## Özet
 
-- Toplam tahmin: 32
-- Bekleyen tahmin: 32
+- Toplam tahmin: 35
+- Bekleyen tahmin: 35
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 13
@@ -20,12 +20,15 @@ Oluşturma: 28.07.2026 10:31:01
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-28 | Hazırlık Kulüpler | Wealdstone - Afc Wimbledon | MS 1 | pending | 50/100
+- 2026-07-28 | Hazırlık Kulüpler | Carlisle - Salford City | MS X | pending | 50/100
+- 2026-07-28 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | MS 2 | pending | 70/100
 - 2026-07-28 | Hazırlık Kulüpler | Wealdstone - Afc Wimbledon | MS X | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Swindon - Leyton Orient | MS X | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Barnet - Mk Dons | MS X | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 28.07.2026 10:31:01
 - 2026-07-28 | Hazırlık Kulüpler | Sparta Rotterd - Asteras Tripoli | MS 2 | pending | 50/100
 - 2026-07-28 | İsveç Superettan | Landskrona - Norrkoping | MS X | pending | 50/100
 - 2026-07-28 | İsveç Superettan | Helsingborg - United Nordic | MS X | pending | 50/100
-- 2026-07-28 | UEFA Konferans Ligi 2. Eleme Turu | Cska 1948 Sofi (0) - (0) Spartak Trnava | MS 2 | pending | 40/100
-- 2026-07-28 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) - (1) Floriana | MS 2 | pending | 50/100
-- 2026-07-28 | Faroe Adaları Master Lig | B36 Torshavn - Ab Argir | MS 2 | pending | 60/100
 
