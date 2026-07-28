@@ -1,32 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-28T11:46:03.046240+00:00
+Tarih: 2026-07-28T13:16:08.122221+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 73
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 71
-- Ham veri havuzu toplam mac sayisi: 3584
+- Kac mac bulundu: 53
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 52
+- Ham veri havuzu toplam mac sayisi: 3585
 - Hedef tarih: 28.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Grup B
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup C
-- CONCACAF Orta Amerika Kupası Grup D
-- CONCACAF U20 Grup A
-- Copa Sudamericana Son 32 Turu
-- El Salvador Primera Lig Apertura
 - Faroe Adaları Master Lig
 - Hazırlık Kulüpler
-- Kanada Premier Lig
-- Kolombiya Kupa 2.Tur
 - Litvanya 1.Lig
 - Lübnan Premier Lig Şampiyonluk Turu
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -89,8 +78,8 @@ Tarih: 2026-07-28T11:46:03.046240+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 19
+- Acilan detay: 19
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -119,10 +108,10 @@ Tarih: 2026-07-28T11:46:03.046240+00:00
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Aston Villa | Real Sociedad | 11527 | 5 |
 | 28.07.2026 | 18:30 | Hazırlık Kulüpler | Udinese | Al Ahli Dubai | 01978 | 5 |
 | 28.07.2026 | 18:00 | Hazırlık Kulüpler | Cagliari | Modena | 10428 | 5 |
-| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Oxford | Crawley | 11491 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Barnet | Mk Dons | 15525 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Newport County | Reading | 15650 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Gateshead | Gateshead(South | 15616 | 3 |
+| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Bromley | Millwall | 01126 | 5 |
 
 ## Sonuc
 
