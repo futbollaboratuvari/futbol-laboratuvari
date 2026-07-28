@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-27T18:52:45.952Z",
-  "updated_at": "2026-07-28T21:43:22.688Z",
+  "updated_at": "2026-07-28T21:54:37.680Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 41,
-    "pending_predictions": 41,
+    "total_predictions": 43,
+    "pending_predictions": 43,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 15,
+    "league_count": 16,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 2,
+    "updated_predictions": 0,
+    "last_score_link_checked": 43,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS X": {
-      "total": 21,
-      "pending": 21,
+    "MS 2": {
+      "total": 18,
+      "pending": 18,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -26,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 2": {
-      "total": 16,
-      "pending": 16,
+    "MS X": {
+      "total": 21,
+      "pending": 21,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,7 +52,7 @@
     }
   },
   "league_memory": {
-    "CONCACAF U20 Grup A": {
+    "El Salvador Primera Lig Apertura": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -59,8 +63,18 @@
       "confidence_adjustment": 0
     },
     "Hazırlık Kulüpler": {
-      "total": 22,
-      "pending": 22,
+      "total": 23,
+      "pending": 23,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "CONCACAF U20 Grup A": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -200,7 +214,7 @@
     }
   },
   "league_market_memory": {
-    "CONCACAF U20 Grup A :: MS X": {
+    "El Salvador Primera Lig Apertura :: MS 2": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -211,8 +225,18 @@
       "confidence_adjustment": 0
     },
     "Hazırlık Kulüpler :: MS 2": {
-      "total": 8,
-      "pending": 8,
+      "total": 9,
+      "pending": 9,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "CONCACAF U20 Grup A :: MS X": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -383,6 +407,40 @@
   },
   "predictions": [
     {
+      "id": "2026-07-29|el salvador primera lig apertura|cacahuatique balboa|ms 2|00 30",
+      "date": "2026-07-29",
+      "created_at": "2026-07-28T21:54:37.266Z",
+      "match_name": "Cacahuatique - Balboa",
+      "league": "El Salvador Primera Lig Apertura",
+      "start_time": "00:30",
+      "market": "MS 2",
+      "odds": "2.84",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-07-29|hazirlik kulupler|atletico madri getafe|ms 2|22 30",
+      "date": "2026-07-29",
+      "created_at": "2026-07-28T21:54:37.266Z",
+      "match_name": "Atletico Madri - Getafe",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "22:30",
+      "market": "MS 2",
+      "odds": "3.40",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-07-29|concacaf u20 grup a|haiti u20 kuba u20|ms x|00 00",
       "date": "2026-07-29",
       "created_at": "2026-07-28T21:21:34.039Z",
@@ -398,7 +456,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T21:43:22.688Z"
+      "updated_at": "2026-07-28T21:54:37.265Z"
     },
     {
       "id": "2026-07-28|hazirlik kulupler|marine warrington town|ms 2|21 30",
