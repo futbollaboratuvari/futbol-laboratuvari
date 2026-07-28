@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 28.07.2026 09:42:09
+Oluşturma: 28.07.2026 10:08:32
 
 ## Özet
 
-- Toplam tahmin: 23
-- Bekleyen tahmin: 23
+- Toplam tahmin: 24
+- Bekleyen tahmin: 24
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 13
@@ -20,12 +20,13 @@ Oluşturma: 28.07.2026 09:42:09
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
-- MS X: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-28 | Hazırlık Kulüpler | Aston Villa - Real Sociedad | MS X | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Sparta Rotterd - Asteras Tripoli | MS 2 | pending | 50/100
 - 2026-07-28 | İsveç Superettan | Landskrona - Norrkoping | MS X | pending | 50/100
 - 2026-07-28 | İsveç Superettan | Helsingborg - United Nordic | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 28.07.2026 09:42:09
 - 2026-07-28 | Hazırlık Kulüpler | Cagliari - Modena | MS 2 | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | MS X | pending | 70/100
 - 2026-07-28 | Hazırlık Kulüpler | Cambuur - Volos Nfc | MS X | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | Breda - Ofi | MS X | pending | 60/100
 

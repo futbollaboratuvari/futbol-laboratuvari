@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-07-27T18:52:45.952Z",
-  "updated_at": "2026-07-28T06:42:09.865Z",
+  "updated_at": "2026-07-28T07:08:32.063Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 23,
-    "pending_predictions": 23,
+    "total_predictions": 24,
+    "pending_predictions": 24,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 13,
     "market_count": 3,
     "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 23,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "updated_predictions": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 11,
-      "pending": 11,
+    "MS X": {
+      "total": 12,
+      "pending": 12,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,7 +26,7 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
+    "MS 2": {
       "total": 11,
       "pending": 11,
       "won": 0,
@@ -53,8 +49,8 @@
   },
   "league_memory": {
     "Hazırlık Kulüpler": {
-      "total": 6,
-      "pending": 6,
+      "total": 7,
+      "pending": 7,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -184,6 +180,16 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Hazırlık Kulüpler :: MS 2": {
       "total": 3,
       "pending": 3,
@@ -247,16 +253,6 @@
     "UEFA Şampiyonlar Ligi 2.Eleme Turu :: MS 2": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -337,6 +333,24 @@
   },
   "predictions": [
     {
+      "id": "2026-07-28|hazirlik kulupler|aston villa real sociedad|ms x|21 30",
+      "date": "2026-07-28",
+      "created_at": "2026-07-28T07:08:31.243Z",
+      "match_name": "Aston Villa - Real Sociedad",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "3.26",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-07-28T07:08:32.063Z"
+    },
+    {
       "id": "2026-07-28|hazirlik kulupler|sparta rotterd asteras tripoli|ms 2|20 00",
       "date": "2026-07-28",
       "created_at": "2026-07-27T22:49:30.936Z",
@@ -352,7 +366,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|isvec superettan|landskrona norrkoping|ms x|20 00",
@@ -370,7 +384,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|isvec superettan|helsingborg united nordic|ms x|20 00",
@@ -388,7 +402,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|uefa konferans ligi 2 eleme turu|cska 1948 sofi 0 0 spartak trnava|ms 2|20 30",
@@ -406,7 +420,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|uefa konferans ligi 2 eleme turu|fc drita 1 1 floriana|ms 2|21 00",
@@ -416,7 +430,7 @@
       "league": "UEFA Konferans Ligi 2. Eleme Turu",
       "start_time": "21:00",
       "market": "MS 2",
-      "odds": "5.37",
+      "odds": "5.19",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -424,7 +438,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.622Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|faroe adalari master lig|b36 torshavn ab argir|ms 2|21 00",
@@ -442,7 +456,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.622Z"
+      "updated_at": "2026-07-28T07:08:32.063Z"
     },
     {
       "id": "2026-07-28|hazirlik kulupler|aston villa real sociedad|ms 2|21 30",
@@ -470,7 +484,7 @@
       "league": "Lübnan Premier Lig Şampiyonluk Turu",
       "start_time": "21:30",
       "market": "MS 2",
-      "odds": "5.80",
+      "odds": "4.93",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -478,7 +492,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.622Z"
+      "updated_at": "2026-07-28T07:08:32.063Z"
     },
     {
       "id": "2026-07-28|uefa sampiyonlar ligi 2 eleme turu|hearts 0 4 sturm graz|ms x|21 45",
@@ -488,7 +502,7 @@
       "league": "UEFA Şampiyonlar Ligi 2.Eleme Turu",
       "start_time": "21:45",
       "market": "MS X",
-      "odds": "3.37",
+      "odds": "3.38",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -496,7 +510,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.622Z"
+      "updated_at": "2026-07-28T07:08:32.063Z"
     },
     {
       "id": "2026-07-28|uefa sampiyonlar ligi 2 eleme turu|shamrock rover 0 2 ararat armenia|ms 2|22 00",
@@ -506,7 +520,7 @@
       "league": "UEFA Şampiyonlar Ligi 2.Eleme Turu",
       "start_time": "22:00",
       "market": "MS 2",
-      "odds": "3.74",
+      "odds": "3.76",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -514,7 +528,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.622Z"
+      "updated_at": "2026-07-28T07:08:32.063Z"
     },
     {
       "id": "2026-07-28|uefa sampiyonlar ligi 2 eleme turu|kuopion 0 1 sabah|ms x|18 00",
@@ -532,7 +546,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|hazirlik kulupler|cagliari modena|ms 2|18 00",
@@ -550,7 +564,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|hazirlik kulupler|udinese al ahli dubai|ms x|18 30",
@@ -568,7 +582,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|hazirlik kulupler|cambuur volos nfc|ms x|20 00",
@@ -586,7 +600,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|hazirlik kulupler|breda ofi|ms x|20 00",
@@ -604,7 +618,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-07-28T06:42:09.621Z"
+      "updated_at": "2026-07-28T07:08:32.062Z"
     },
     {
       "id": "2026-07-28|ekvador pro lig|guayaquil city univ catolica|ms 1|00 30",
