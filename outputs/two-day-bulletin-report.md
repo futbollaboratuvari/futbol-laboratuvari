@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 57
-Aktif mac: 51
-Canli mac: 6
-Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 34
+Ham mac: 58
+Aktif mac: 50
+Canli mac: 4
+Biten mac: 4
+Bultenden dusurulen mac: 8
+Bugun: 33
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | scheduled | -
 - 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | scheduled | -
 - 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | scheduled | -
 - 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | scheduled | -
@@ -64,12 +63,13 @@ Yarin: 17
 - 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | scheduled | -
 
 ## Canli Maclar
-- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | live | -
-- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | live | -
-- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | live | -
 - 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | live | -
 - 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | live | -
 - 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | live | -
+- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
