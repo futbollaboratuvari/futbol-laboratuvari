@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
-Ham mac: 30
+Ham mac: 26
 Aktif mac: 20
 Canli mac: 5
-Biten mac: 5
-Bultenden dusurulen mac: 10
+Biten mac: 1
+Bultenden dusurulen mac: 6
 Bugun: 0
 Yarin: 20
 
@@ -34,14 +34,10 @@ Yarin: 20
 
 ## Canli Maclar
 - 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | live | -
-- 2026-07-29 22:30 | Hazırlık Kulüpler | Atletico Madri - Getafe | live | -
+- 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | live | -
 - 2026-07-29 22:45 | İzlanda 1.Lig | Throttur - Afturelding | live | -
 - 2026-07-29 23:00 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Riestra | live | -
 - 2026-07-29 23:00 | Ekvador Kupa Son 16 Turu | Gualaceo - Depor Macara | live | -
 
 ## Biten Maclar
-- 2026-07-29 22:15 | İzlanda 1.Lig | Grindavik - Leiknir Reykjav | finished | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Vikingur Ol. - Fjolnir | finished | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Haukar - Kfg Gardabar | finished | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Kari - Kormakur | finished | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Throttur Vogar - Hviti | finished | -
+- 2026-07-29 22:30 | Hazırlık Kulüpler | Atletico Madri - Getafe | finished | -
