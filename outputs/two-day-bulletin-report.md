@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 67
+Ham mac: 86
 Aktif mac: 20
-Canli mac: 47
-Biten mac: 0
-Bultenden dusurulen mac: 47
+Canli mac: 38
+Biten mac: 28
+Bultenden dusurulen mac: 66
 Bugun: 0
 Yarin: 20
 
@@ -33,15 +33,6 @@ Yarin: 20
 - 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | scheduled | -
 
 ## Canli Maclar
-- 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Apollon Limass (4) - (0) Dila Gori | live | -
-- 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Riga Fc (3) - (2) Vardar | live | -
-- 2026-07-28 20:00 | Hazırlık Kulüpler | Al Ahli (Cidde - Fulham | live | -
-- 2026-07-28 20:00 | Hazırlık Kulüpler | Cambuur - Volos Nfc | live | -
-- 2026-07-28 20:00 | Hazırlık Kulüpler | Breda - Ofi | live | -
-- 2026-07-28 20:00 | Hazırlık Kulüpler | Sparta Rotterd - Asteras Tripoli | live | -
-- 2026-07-28 20:00 | İsveç Superettan | Landskrona - Norrkoping | live | -
-- 2026-07-28 20:00 | İsveç Superettan | Helsingborg - United Nordic | live | -
-- 2026-07-28 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Cska 1948 Sofi (0) - (0) Spartak Trnava | live | -
 - 2026-07-28 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) - (1) Thun | live | -
 - 2026-07-28 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) - (1) Floriana | live | -
 - 2026-07-28 21:00 | Hazırlık Kulüpler | Elche - Al Ain | live | -
@@ -82,4 +73,31 @@ Yarin: 20
 - 2026-07-28 22:15 | İzlanda 1.Lig | Aegir - Njardvik | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
+- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
+- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
+- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
+- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
+- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
+- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
+- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | finished | -
+- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | finished | -
+- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | finished | -
+- 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | finished | -
+- 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | finished | -
+- 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | finished | -
+- 2026-07-28 18:30 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | finished | -
+- 2026-07-28 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) - (3) Mjallby | finished | -
+- 2026-07-28 19:00 | Litvanya 1.Lig | Zalgiris Ii - Minija | finished | -
+- 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Apollon Limass (4) - (0) Dila Gori | finished | -
+- 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Riga Fc (3) - (2) Vardar | finished | -
+- 2026-07-28 20:00 | Hazırlık Kulüpler | Al Ahli (Cidde - Fulham | finished | -
+- 2026-07-28 20:00 | Hazırlık Kulüpler | Cambuur - Volos Nfc | finished | -
+- 2026-07-28 20:00 | Hazırlık Kulüpler | Breda - Ofi | finished | -
+- 2026-07-28 20:00 | Hazırlık Kulüpler | Sparta Rotterd - Asteras Tripoli | finished | -
+- 2026-07-28 20:00 | İsveç Superettan | Landskrona - Norrkoping | finished | -
+- 2026-07-28 20:00 | İsveç Superettan | Helsingborg - United Nordic | finished | -
+- 2026-07-28 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Cska 1948 Sofi (0) - (0) Spartak Trnava | finished | -

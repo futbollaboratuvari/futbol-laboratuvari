@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 21
-- Live match count: 46
+- Scheduled match count: 20
+- Live match count: 38
 - Finished removed count: 0
 - Date window: 2026-07-28 / 2026-07-29 23:59
 
-- 2026-07-28 20:00 | Al Ahli (Cidde - Fulham | live
-- 2026-07-28 20:00 | Breda - Ofi | live
-- 2026-07-28 20:00 | Cambuur - Volos Nfc | live
-- 2026-07-28 20:00 | Sparta Rotterd - Asteras Tripoli | live
-- 2026-07-28 20:00 | Helsingborg - United Nordic | live
-- 2026-07-28 20:00 | Landskrona - Norrkoping | live
-- 2026-07-28 20:00 | Apollon Limass (4) - (0) Dila Gori | live
-- 2026-07-28 20:00 | Riga Fc (3) - (2) Vardar | live
-- 2026-07-28 20:30 | Cska - (0) Spartak Trnava | live
 - 2026-07-28 21:00 | B36 Torshavn - Ab Argir | live
+- 2026-07-28 21:00 | Elche - Al Ain | live
+- 2026-07-28 21:00 | Fleetwood Town - Bolton | live
+- 2026-07-28 21:00 | Grimsby - Lincoln | live
+- 2026-07-28 21:00 | Morecambe - Afc Fylde | live
+- 2026-07-28 21:00 | North Ferriby - Scunthorpe | live
+- 2026-07-28 21:00 | Oldham - Stockport | live
+- 2026-07-28 21:00 | Oxford - Crawley | live
+- 2026-07-28 21:00 | Psv Eindhoven - Fc Eindhoven | live
+- 2026-07-28 21:00 | Solihull Moors - Burton Albion | live
