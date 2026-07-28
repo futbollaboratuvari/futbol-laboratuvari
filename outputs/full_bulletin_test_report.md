@@ -3,11 +3,10 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 77
-- Live match count: 7
-- Finished removed count: 0
+- Live match count: 6
+- Finished removed count: 1
 - Date window: 2026-07-29 / 2026-07-30 23:59
 
-- 2026-07-29 00:30 | Cacahuatique - Balboa | live
 - 2026-07-29 01:00 | Banfield - Sarmiento | live
 - 2026-07-29 01:00 | San Lorenzo - Gimnasia Mendoz | live
 - 2026-07-29 01:00 | Tigre (3) - (0) Nacional Df | live
@@ -17,3 +16,4 @@
 - 2026-07-29 03:00 | Hankook Verdes - Depor Motagua | scheduled
 - 2026-07-29 03:00 | Atletico Madri - Getafe | scheduled
 - 2026-07-29 03:00 | Bogota (1) - (0) Deportivo Pasto | scheduled
+- 2026-07-29 03:15 | Argentinos Jr - Rio Cuarto | scheduled
