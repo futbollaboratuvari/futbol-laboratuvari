@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 28.07.2026 23:38:55
+Oluşturma: 29.07.2026 00:21:36
 
 ## Özet
 
-- Toplam tahmin: 40
-- Bekleyen tahmin: 40
+- Toplam tahmin: 41
+- Bekleyen tahmin: 41
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 14
+- Lig sayısı: 15
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 28.07.2026 23:38:55
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
-- MS X: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-29 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | MS X | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Marine - Warrington Town | MS 2 | pending | 60/100
 - 2026-07-28 | Hazırlık Kulüpler | Cambridge - Northampton | MS 2 | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Oxford - Crawley | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 28.07.2026 23:38:55
 - 2026-07-28 | Hazırlık Kulüpler | Cambridge - Northampton | MS X | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Carlisle - Salford City | MS 1 | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Dagenham & Red - Boreham Wood | MS X | pending | 50/100
-- 2026-07-28 | Hazırlık Kulüpler | York - Peterborough | MS X | pending | 50/100
 
