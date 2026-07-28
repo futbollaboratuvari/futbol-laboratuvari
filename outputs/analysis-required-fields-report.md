@@ -1,11 +1,16 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 47
-Tam analiz: 43
-Eksik analiz: 4
+Toplam analiz: 10
+Tam analiz: 1
+Eksik analiz: 9
 
-- Psv Eindhoven VS Fc Eindhoven: eksik score, confidence
-- North Ferriby VS Scunthorpe: eksik score, confidence
-- Newry City Afc VS Bangor Fc: eksik score, confidence
-- Aegir VS Njardvik: eksik score, confidence
+- Grindavik VS Leiknir Reykjav: eksik score, confidence
+- Vikingur Ol. VS Fjolnir: eksik score, confidence
+- Haukar VS Kfg Gardabar: eksik score, confidence
+- Kari VS Kormakur: eksik score, confidence
+- Throttur Vogar VS Hviti: eksik score, confidence
+- Atletico Madri VS Getafe: eksik score, confidence
+- Throttur VS Afturelding: eksik score, confidence
+- Defensa Justic VS Riestra: eksik score, confidence
+- Gualaceo VS Depor Macara: eksik score, confidence
