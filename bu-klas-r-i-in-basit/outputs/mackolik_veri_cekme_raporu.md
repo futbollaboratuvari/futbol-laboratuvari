@@ -1,31 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-28T17:08:12.106609+00:00
+Tarih: 2026-07-28T17:42:00.494301+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 60
+- Kac mac bulundu: 38
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 60
+- Kac mac zaten vardi: 38
 - Ham veri havuzu toplam mac sayisi: 3585
 - Hedef tarih: 28.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup C
-- CONCACAF Orta Amerika Kupası Grup D
-- CONCACAF U20 Grup A
-- Copa Sudamericana Son 32 Turu
-- El Salvador Primera Lig Apertura
 - Faroe Adaları Master Lig
 - Hazırlık Kulüpler
-- Kanada Premier Lig
-- Kolombiya Kupa 2.Tur
 - Lübnan Premier Lig Şampiyonluk Turu
 - UEFA Konferans Ligi 2. Eleme Turu
 - UEFA Şampiyonlar Ligi 2.Eleme Turu
@@ -86,8 +76,8 @@ Tarih: 2026-07-28T17:08:12.106609+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 17
-- Acilan detay: 17
+- Denenen Tumu alani: 16
+- Acilan detay: 16
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -100,16 +90,15 @@ Tarih: 2026-07-28T17:08:12.106609+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 28.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) | (1) Thun | 08073 | 5 |
 | 28.07.2026 | 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Celje (3) | (3) Egnatia | 08226 | 5 |
 | 28.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) | (2) Ararat-Armenia | 08326 | 5 |
 | 28.07.2026 | 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) | (4) Sturm Graz | 08283 | 5 |
-| 28.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) | (1) Thun | 08073 | 5 |
 | 28.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) | (1) Floriana | 08187 | 5 |
-| 28.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Cska 1948 Sofi (0) | (0) Spartak Trnava | 07977 | 5 |
+| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Barnet | Mk Dons | 15525 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Newport County | Reading | 15650 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Gateshead | Gateshead(South | 15616 | 3 |
 | 28.07.2026 | 21:45 | Hazırlık Kulüpler | Bromley | Millwall | 01126 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Barnet | Mk Dons | 15525 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Newry City Afc | Bangor Fc | 15691 | 3 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Aston Villa | Real Sociedad | 11527 | 5 |
 | 28.07.2026 | 21:45 | Hazırlık Kulüpler | Hereford Fc | Shrewsbury | 15758 | 5 |
@@ -120,6 +109,7 @@ Tarih: 2026-07-28T17:08:12.106609+00:00
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Dagenham & Red | Boreham Wood | 15599 | 5 |
 | 28.07.2026 | 21:30 | Hazırlık Kulüpler | Cambridge | Northampton | 13004 | 5 |
 | 28.07.2026 | 21:00 | Hazırlık Kulüpler | Psv Eindhoven | Fc Eindhoven | 11682 | 3 |
+| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Elche | Al Ain | 00220 | 5 |
 
 ## Sonuc
 
