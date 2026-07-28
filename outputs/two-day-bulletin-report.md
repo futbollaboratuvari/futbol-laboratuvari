@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 86
+Ham mac: 74
 Aktif mac: 73
 Canli mac: 1
-Biten mac: 12
-Bultenden dusurulen mac: 13
+Biten mac: 0
+Bultenden dusurulen mac: 1
 Bugun: 53
 Yarin: 20
 
@@ -89,15 +89,4 @@ Yarin: 20
 - 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | live | -
 
 ## Biten Maclar
-- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
-- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
-- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
-- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
-- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
-- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
-- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
-- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | finished | -
-- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | finished | -
+Biten mac yok.
