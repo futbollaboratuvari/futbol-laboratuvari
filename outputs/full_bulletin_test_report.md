@@ -2,13 +2,13 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 72
-- Live match count: 1
+- Scheduled match count: 71
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-07-28 / 2026-07-29 23:59
 
 - 2026-07-28 12:45 | Chelsea - Western Sydney | live
-- 2026-07-28 13:00 | Filipinler - Myanmar | scheduled
+- 2026-07-28 13:00 | Filipinler - Myanmar | live
 - 2026-07-28 16:00 | Malezya - Laos | scheduled
 - 2026-07-28 18:00 | Cagliari - Modena | scheduled
 - 2026-07-28 18:00 | Fk Dainava - Transinvest Vil | scheduled

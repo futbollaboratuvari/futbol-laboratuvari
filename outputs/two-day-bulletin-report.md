@@ -3,15 +3,14 @@
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
 Ham mac: 73
-Aktif mac: 72
-Canli mac: 1
+Aktif mac: 71
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 54
+Bultenden dusurulen mac: 2
+Bugun: 53
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | scheduled | -
 - 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | scheduled | -
 - 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | scheduled | -
 - 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | scheduled | -
@@ -86,6 +85,7 @@ Yarin: 18
 
 ## Canli Maclar
 - 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | live | -
+- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | live | -
 
 ## Biten Maclar
 Biten mac yok.
