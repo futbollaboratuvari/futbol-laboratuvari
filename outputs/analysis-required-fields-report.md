@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 49
-Tam analiz: 45
+Toplam analiz: 47
+Tam analiz: 43
 Eksik analiz: 4
 
 - Psv Eindhoven VS Fc Eindhoven: eksik score, confidence

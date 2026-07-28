@@ -3,15 +3,14 @@
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
 Ham mac: 67
-Aktif mac: 21
-Canli mac: 46
+Aktif mac: 20
+Canli mac: 47
 Biten mac: 0
-Bultenden dusurulen mac: 46
-Bugun: 1
+Bultenden dusurulen mac: 47
+Bugun: 0
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-28 22:15 | İzlanda 1.Lig | Aegir - Njardvik | scheduled | -
 - 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | scheduled | -
 - 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | scheduled | -
 - 2026-07-29 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) - (0) Nacional Df | scheduled | -
@@ -80,6 +79,7 @@ Yarin: 20
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Folkestone Inv - Sutton United | live | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Slough Town - Oxford City | live | -
 - 2026-07-28 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) - (2) Ararat-Armenia | live | -
+- 2026-07-28 22:15 | İzlanda 1.Lig | Aegir - Njardvik | live | -
 
 ## Biten Maclar
 Biten mac yok.
