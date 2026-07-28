@@ -2,22 +2,15 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 86
-Aktif mac: 28
-Canli mac: 39
-Biten mac: 19
-Bultenden dusurulen mac: 58
-Bugun: 8
+Ham mac: 67
+Aktif mac: 21
+Canli mac: 46
+Biten mac: 0
+Bultenden dusurulen mac: 46
+Bugun: 1
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-28 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) - (4) Sturm Graz | scheduled | -
-- 2026-07-28 21:45 | Hazırlık Kulüpler | Stoke - Everton | scheduled | -
-- 2026-07-28 21:45 | Hazırlık Kulüpler | Bromley - Millwall | scheduled | -
-- 2026-07-28 21:45 | Hazırlık Kulüpler | Hereford Fc - Shrewsbury | scheduled | -
-- 2026-07-28 21:45 | Hazırlık Kulüpler | Folkestone Inv - Sutton United | scheduled | -
-- 2026-07-28 21:45 | Hazırlık Kulüpler | Slough Town - Oxford City | scheduled | -
-- 2026-07-28 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) - (2) Ararat-Armenia | scheduled | -
 - 2026-07-28 22:15 | İzlanda 1.Lig | Aegir - Njardvik | scheduled | -
 - 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | scheduled | -
 - 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | scheduled | -
@@ -80,24 +73,13 @@ Yarin: 20
 - 2026-07-28 21:30 | Hazırlık Kulüpler | Pontefract Col - Guiseley | live | -
 - 2026-07-28 21:30 | Hazırlık Kulüpler | Accrington - Bury | live | -
 - 2026-07-28 21:30 | Hazırlık Kulüpler | Gateshead - Gateshead(South | live | -
+- 2026-07-28 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) - (4) Sturm Graz | live | -
+- 2026-07-28 21:45 | Hazırlık Kulüpler | Stoke - Everton | live | -
+- 2026-07-28 21:45 | Hazırlık Kulüpler | Bromley - Millwall | live | -
+- 2026-07-28 21:45 | Hazırlık Kulüpler | Hereford Fc - Shrewsbury | live | -
+- 2026-07-28 21:45 | Hazırlık Kulüpler | Folkestone Inv - Sutton United | live | -
+- 2026-07-28 21:45 | Hazırlık Kulüpler | Slough Town - Oxford City | live | -
+- 2026-07-28 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) - (2) Ararat-Armenia | live | -
 
 ## Biten Maclar
-- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
-- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
-- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
-- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
-- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
-- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
-- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
-- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | finished | -
-- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | finished | -
-- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | finished | -
-- 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | finished | -
-- 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | finished | -
-- 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | finished | -
-- 2026-07-28 18:30 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | finished | -
-- 2026-07-28 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) - (3) Mjallby | finished | -
-- 2026-07-28 19:00 | Litvanya 1.Lig | Zalgiris Ii - Minija | finished | -
+Biten mac yok.
