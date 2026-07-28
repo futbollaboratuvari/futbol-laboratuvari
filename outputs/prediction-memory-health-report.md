@@ -3,8 +3,8 @@
 Durum: ok
 Robot analiz maci: 55
 Aday tahmin: 2
-Toplam tahmin: 36
-Bekleyen: 36
+Toplam tahmin: 37
+Bekleyen: 37
 Kazanan: 0
 Kaybeden: 0
 Eksik kayit: 0
