@@ -1,23 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-28T17:42:00.494301+00:00
+Tarih: 2026-07-28T18:42:43.956196+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 38
+- Kac mac bulundu: 27
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 38
+- Kac mac zaten vardi: 27
 - Ham veri havuzu toplam mac sayisi: 3585
 - Hedef tarih: 28.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Faroe Adaları Master Lig
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF Orta Amerika Kupası Grup D
+- CONCACAF U20 Grup A
+- Copa Sudamericana Son 32 Turu
+- El Salvador Primera Lig Apertura
 - Hazırlık Kulüpler
-- Lübnan Premier Lig Şampiyonluk Turu
-- UEFA Konferans Ligi 2. Eleme Turu
+- Kanada Premier Lig
+- Kolombiya Kupa 2.Tur
 - UEFA Şampiyonlar Ligi 2.Eleme Turu
 - İzlanda 1.Lig
 
@@ -76,8 +83,8 @@ Tarih: 2026-07-28T17:42:00.494301+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 16
-- Acilan detay: 16
+- Denenen Tumu alani: 13
+- Acilan detay: 13
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -90,26 +97,26 @@ Tarih: 2026-07-28T17:42:00.494301+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 28.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) | (1) Thun | 08073 | 5 |
-| 28.07.2026 | 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Celje (3) | (3) Egnatia | 08226 | 5 |
-| 28.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) | (2) Ararat-Armenia | 08326 | 5 |
 | 28.07.2026 | 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) | (4) Sturm Graz | 08283 | 5 |
-| 28.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) | (1) Floriana | 08187 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Barnet | Mk Dons | 15525 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Newport County | Reading | 15650 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Gateshead | Gateshead(South | 15616 | 3 |
-| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Bromley | Millwall | 01126 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Newry City Afc | Bangor Fc | 15691 | 3 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Aston Villa | Real Sociedad | 11527 | 5 |
+| 28.07.2026 | 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) | (2) Ararat-Armenia | 08326 | 5 |
+| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Slough Town | Oxford City | 15794 | 3 |
+| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Stoke | Everton | 10083 | 5 |
 | 28.07.2026 | 21:45 | Hazırlık Kulüpler | Hereford Fc | Shrewsbury | 15758 | 5 |
-| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Morecambe | Afc Fylde | 11136 | 3 |
-| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Oldham | Stockport | 11229 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Alfreton | Mansfield | 14937 | 5 |
-| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Fleetwood Town | Bolton | 00226 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Dagenham & Red | Boreham Wood | 15599 | 5 |
-| 28.07.2026 | 21:30 | Hazırlık Kulüpler | Cambridge | Northampton | 13004 | 5 |
-| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Psv Eindhoven | Fc Eindhoven | 11682 | 3 |
-| 28.07.2026 | 21:00 | Hazırlık Kulüpler | Elche | Al Ain | 00220 | 5 |
+| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Folkestone Inv | Sutton United | 15811 | 5 |
+| 28.07.2026 | 21:45 | Hazırlık Kulüpler | Bromley | Millwall | 01126 | 5 |
+| 29.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) | (0) Nacional Df | 08371 | 5 |
+| 29.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Santos (4) | (1) Ucv | 08427 | 5 |
+| 29.07.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen | Plaza Amador | 04980 | 5 |
+| 29.07.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia | Mixco | 04471 | 5 |
+| 29.07.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes | Depor Motagua | 15057 | 3 |
+| 29.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr | Rio Cuarto | 11925 | 5 |
+| 29.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Rosario Centra | Racing Club | 12055 | 5 |
+| 29.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo | Gimnasia Mendoz | 11290 | 5 |
+| 29.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Sarmiento | 10998 | 5 |
+| 29.07.2026 | 05:00 | CONCACAF U20 Grup A | El Salvador U2 | Abd (U20) | 06047 | 2 |
+| 29.07.2026 | 00:00 | CONCACAF U20 Grup A | Haiti U20 | Kuba U20 | 04977 | 5 |
+| 29.07.2026 | 01:30 | Brezilya Serie B | Juventude | Avai | 13729 | 5 |
+| 29.07.2026 | 03:35 | Brezilya Serie B | Fortaleza Ce | Botafogo Ribeir | 13796 | 5 |
 
 ## Sonuc
 

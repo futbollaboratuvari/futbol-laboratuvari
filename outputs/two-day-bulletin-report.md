@@ -2,45 +2,15 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 69
-Aktif mac: 58
-Canli mac: 11
-Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 38
+Ham mac: 86
+Aktif mac: 28
+Canli mac: 39
+Biten mac: 19
+Bultenden dusurulen mac: 58
+Bugun: 8
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-28 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) - (1) Thun | scheduled | -
-- 2026-07-28 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) - (1) Floriana | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Elche - Al Ain | scheduled | -
-- 2026-07-28 21:00 | Faroe Adaları Master Lig | B36 Torshavn - Ab Argir | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Solihull Moors - Burton Albion | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Wealdstone - Afc Wimbledon | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Oxford - Crawley | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Swindon - Leyton Orient | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Grimsby - Lincoln | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Psv Eindhoven - Fc Eindhoven | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Oldham - Stockport | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Morecambe - Afc Fylde | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | Fleetwood Town - Bolton | scheduled | -
-- 2026-07-28 21:00 | Hazırlık Kulüpler | North Ferriby - Scunthorpe | scheduled | -
-- 2026-07-28 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Celje (3) - (3) Egnatia | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Aston Villa - Real Sociedad | scheduled | -
-- 2026-07-28 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ansar | scheduled | -
-- 2026-07-28 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ahed | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Alfreton - Mansfield | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Newport County - Reading | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Barnet - Mk Dons | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Marine - Warrington Town | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Cambridge - Northampton | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Carlisle - Salford City | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Dagenham & Red - Boreham Wood | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | York - Peterborough | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Newry City Afc - Bangor Fc | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Pontefract Col - Guiseley | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Accrington - Bury | scheduled | -
-- 2026-07-28 21:30 | Hazırlık Kulüpler | Gateshead - Gateshead(South | scheduled | -
 - 2026-07-28 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) - (4) Sturm Graz | scheduled | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Stoke - Everton | scheduled | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Bromley - Millwall | scheduled | -
@@ -71,8 +41,6 @@ Yarin: 20
 - 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | scheduled | -
 
 ## Canli Maclar
-- 2026-07-28 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) - (3) Mjallby | live | -
-- 2026-07-28 19:00 | Litvanya 1.Lig | Zalgiris Ii - Minija | live | -
 - 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Apollon Limass (4) - (0) Dila Gori | live | -
 - 2026-07-28 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Riga Fc (3) - (2) Vardar | live | -
 - 2026-07-28 20:00 | Hazırlık Kulüpler | Al Ahli (Cidde - Fulham | live | -
@@ -82,6 +50,54 @@ Yarin: 20
 - 2026-07-28 20:00 | İsveç Superettan | Landskrona - Norrkoping | live | -
 - 2026-07-28 20:00 | İsveç Superettan | Helsingborg - United Nordic | live | -
 - 2026-07-28 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Cska 1948 Sofi (0) - (0) Spartak Trnava | live | -
+- 2026-07-28 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Dinamo Zagreb (1) - (1) Thun | live | -
+- 2026-07-28 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Fc Drita (1) - (1) Floriana | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Elche - Al Ain | live | -
+- 2026-07-28 21:00 | Faroe Adaları Master Lig | B36 Torshavn - Ab Argir | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Solihull Moors - Burton Albion | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Wealdstone - Afc Wimbledon | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Oxford - Crawley | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Swindon - Leyton Orient | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Grimsby - Lincoln | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Psv Eindhoven - Fc Eindhoven | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Oldham - Stockport | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Morecambe - Afc Fylde | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | Fleetwood Town - Bolton | live | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | North Ferriby - Scunthorpe | live | -
+- 2026-07-28 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Celje (3) - (3) Egnatia | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Aston Villa - Real Sociedad | live | -
+- 2026-07-28 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ansar | live | -
+- 2026-07-28 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ahed | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Alfreton - Mansfield | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Newport County - Reading | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Barnet - Mk Dons | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Marine - Warrington Town | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Cambridge - Northampton | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Carlisle - Salford City | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Dagenham & Red - Boreham Wood | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | York - Peterborough | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Newry City Afc - Bangor Fc | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Pontefract Col - Guiseley | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Accrington - Bury | live | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Gateshead - Gateshead(South | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
+- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
+- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
+- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
+- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
+- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
+- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -
+- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | finished | -
+- 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | finished | -
+- 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | finished | -
+- 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | finished | -
+- 2026-07-28 18:00 | Hazırlık Kulüpler | Cagliari - Modena | finished | -
+- 2026-07-28 18:00 | Litvanya 1.Lig | Fk Dainava - Transinvest Vil | finished | -
+- 2026-07-28 18:30 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | finished | -
+- 2026-07-28 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lincoln Red Im (0) - (3) Mjallby | finished | -
+- 2026-07-28 19:00 | Litvanya 1.Lig | Zalgiris Ii - Minija | finished | -
