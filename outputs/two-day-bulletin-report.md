@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 58
+Ham mac: 54
 Aktif mac: 50
 Canli mac: 4
-Biten mac: 4
-Bultenden dusurulen mac: 8
+Biten mac: 0
+Bultenden dusurulen mac: 4
 Bugun: 33
 Yarin: 17
 
@@ -69,7 +69,4 @@ Yarin: 17
 - 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | live | -
 
 ## Biten Maclar
-- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
-- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
+Biten mac yok.
