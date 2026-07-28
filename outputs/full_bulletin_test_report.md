@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 20
-- Live match count: 38
-- Finished removed count: 0
+- Live match count: 23
+- Finished removed count: 15
 - Date window: 2026-07-28 / 2026-07-29 23:59
 
-- 2026-07-28 21:00 | B36 Torshavn - Ab Argir | live
-- 2026-07-28 21:00 | Elche - Al Ain | live
-- 2026-07-28 21:00 | Fleetwood Town - Bolton | live
-- 2026-07-28 21:00 | Grimsby - Lincoln | live
-- 2026-07-28 21:00 | Morecambe - Afc Fylde | live
-- 2026-07-28 21:00 | North Ferriby - Scunthorpe | live
-- 2026-07-28 21:00 | Oldham - Stockport | live
-- 2026-07-28 21:00 | Oxford - Crawley | live
-- 2026-07-28 21:00 | Psv Eindhoven - Fc Eindhoven | live
-- 2026-07-28 21:00 | Solihull Moors - Burton Albion | live
+- 2026-07-28 21:30 | Accrington - Bury | live
+- 2026-07-28 21:30 | Alfreton - Mansfield | live
+- 2026-07-28 21:30 | Aston Villa - Real Sociedad | live
+- 2026-07-28 21:30 | Barnet - Mk Dons | live
+- 2026-07-28 21:30 | Cambridge - Northampton | live
+- 2026-07-28 21:30 | Carlisle - Salford City | live
+- 2026-07-28 21:30 | Dagenham & Red - Boreham Wood | live
+- 2026-07-28 21:30 | Gateshead - Gateshead(South | live
+- 2026-07-28 21:30 | Marine - Warrington Town | live
+- 2026-07-28 21:30 | Newport County - Reading | live
