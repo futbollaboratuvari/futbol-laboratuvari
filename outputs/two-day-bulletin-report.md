@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-28 / 2026-07-29
 Kaynak: fixtures.json
-Ham mac: 67
-Aktif mac: 67
-Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 50
-Yarin: 17
+Ham mac: 83
+Aktif mac: 72
+Canli mac: 1
+Biten mac: 10
+Bultenden dusurulen mac: 11
+Bugun: 54
+Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | scheduled | -
 - 2026-07-28 13:00 | AFF Şampiyonası Grup B | Filipinler - Myanmar | scheduled | -
 - 2026-07-28 16:00 | AFF Şampiyonası Grup B | Malezya - Laos | scheduled | -
 - 2026-07-28 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kuopion (0) - (1) Sabah | scheduled | -
@@ -42,6 +41,7 @@ Yarin: 17
 - 2026-07-28 21:00 | Hazırlık Kulüpler | Oldham - Stockport | scheduled | -
 - 2026-07-28 21:00 | Hazırlık Kulüpler | Morecambe - Afc Fylde | scheduled | -
 - 2026-07-28 21:00 | Hazırlık Kulüpler | Fleetwood Town - Bolton | scheduled | -
+- 2026-07-28 21:00 | Hazırlık Kulüpler | North Ferriby - Scunthorpe | scheduled | -
 - 2026-07-28 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Celje (3) - (3) Egnatia | scheduled | -
 - 2026-07-28 21:30 | Hazırlık Kulüpler | Aston Villa - Real Sociedad | scheduled | -
 - 2026-07-28 21:30 | Lübnan Premier Lig Şampiyonluk Turu | Jwaya - Ansar | scheduled | -
@@ -55,10 +55,14 @@ Yarin: 17
 - 2026-07-28 21:30 | Hazırlık Kulüpler | Dagenham & Red - Boreham Wood | scheduled | -
 - 2026-07-28 21:30 | Hazırlık Kulüpler | York - Peterborough | scheduled | -
 - 2026-07-28 21:30 | Hazırlık Kulüpler | Newry City Afc - Bangor Fc | scheduled | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Pontefract Col - Guiseley | scheduled | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Accrington - Bury | scheduled | -
+- 2026-07-28 21:30 | Hazırlık Kulüpler | Gateshead - Gateshead(South | scheduled | -
 - 2026-07-28 21:45 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hearts (0) - (4) Sturm Graz | scheduled | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Stoke - Everton | scheduled | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Bromley - Millwall | scheduled | -
 - 2026-07-28 21:45 | Hazırlık Kulüpler | Hereford Fc - Shrewsbury | scheduled | -
+- 2026-07-28 21:45 | Hazırlık Kulüpler | Folkestone Inv - Sutton United | scheduled | -
 - 2026-07-28 22:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Shamrock Rover (0) - (2) Ararat-Armenia | scheduled | -
 - 2026-07-28 22:15 | İzlanda 1.Lig | Aegir - Njardvik | scheduled | -
 - 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | scheduled | -
@@ -78,9 +82,19 @@ Yarin: 17
 - 2026-07-29 04:30 | Kolombiya Kupa 2.Tur | Tigres Fc (0) - (2) Atletico Nacion | scheduled | -
 - 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Plaza Amador | scheduled | -
 - 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | scheduled | -
+- 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-28 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-28 00:30 | Ekvador Pro Lig | Guayaquil City - Univ Catolica ( | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Regatas - Vila Nova | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Atletico Goian - Operario | finished | -
+- 2026-07-28 01:30 | Brezilya Serie B | Sport Recife - Cuiaba | finished | -
+- 2026-07-28 02:00 | CONCACAF U20 Grup B | Antigua And Ba - Guatemala U20 | finished | -
+- 2026-07-28 02:00 | Şili Premier Lig | Union La Caler - Everton De Vina | finished | -
+- 2026-07-28 02:00 | Arjantin Ulusal Primera Lig | Atlanta - Almagro | finished | -
+- 2026-07-28 03:00 | Ekvador Pro Lig | Deportivo Cuen - Emelec | finished | -
+- 2026-07-28 05:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Meksika (U20) | finished | -
+- 2026-07-28 05:00 | Nikaragua Premier Lig Apertura | Unan Managua - Rancho Santana | finished | -

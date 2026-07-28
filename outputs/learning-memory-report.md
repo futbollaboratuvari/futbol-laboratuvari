@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 28.07.2026 12:08:23
+Oluşturma: 28.07.2026 12:46:41
 
 ## Özet
 
-- Toplam tahmin: 35
-- Bekleyen tahmin: 35
+- Toplam tahmin: 36
+- Bekleyen tahmin: 36
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 13
+- Lig sayısı: 14
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 28.07.2026 12:08:23
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS X: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-28 | Hazırlık Sydney Süper Kupası | Chelsea - Western Sydney | MS X | pending | 80/100
 - 2026-07-28 | Hazırlık Kulüpler | Wealdstone - Afc Wimbledon | MS 1 | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Carlisle - Salford City | MS X | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Udinese - Al Ahli Dubai | MS 2 | pending | 70/100
@@ -40,5 +41,4 @@ Oluşturma: 28.07.2026 12:08:23
 - 2026-07-28 | Hazırlık Kulüpler | Aston Villa - Real Sociedad | MS X | pending | 50/100
 - 2026-07-28 | Hazırlık Kulüpler | Sparta Rotterd - Asteras Tripoli | MS 2 | pending | 50/100
 - 2026-07-28 | İsveç Superettan | Landskrona - Norrkoping | MS X | pending | 50/100
-- 2026-07-28 | İsveç Superettan | Helsingborg - United Nordic | MS X | pending | 50/100
 

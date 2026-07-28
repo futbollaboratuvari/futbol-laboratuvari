@@ -1,81 +1,101 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-28T09:07:36.037Z
-- Ham maç sayısı: 67
-- Yarın bülteni maç sayısı: 17
-- Detay blok sayısı: 193
-- Aktif bülten maçı: 67
-- Bültenden düşürülen maç: 0
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-07-28T09:45:57.634Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Chelsea - Western Sydney | Hazırlık Sydney Süper Kupası | 12:45 | Veri bekleniyor | - | - | 5 |
-| Filipinler - Myanmar | AFF Şampiyonası Grup B | 13:00 | Veri bekleniyor | - | 1.08 | 6 |
-| Malezya - Laos | AFF Şampiyonası Grup B | 16:00 | Veri bekleniyor | - | - | 3 |
-| Kuopion (0) - (1) Sabah | UEFA Şampiyonlar Ligi 2.Eleme Turu | 18:00 | Veri bekleniyor | - | 2.54 | 8 |
-| Cagliari - Modena | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.59 | 8 |
-| Fk Dainava - Transinvest Vil | Litvanya 1.Lig | 18:00 | Veri bekleniyor | - | 1.08 | 4 |
-| Udinese - Al Ahli Dubai | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.56 | 8 |
-| Lincoln Red Im (0) - (3) Mjallby | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | Veri bekleniyor | - | 4.75 | 6 |
-| Zalgiris Ii - Minija | Litvanya 1.Lig | 19:00 | Veri bekleniyor | - | 6.61 | 4 |
-| Apollon Limass (4) - (0) Dila Gori | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.15 | 6 |
-| Riga Fc (3) - (2) Vardar | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.14 | 6 |
-| Al Ahli (Cidde - Fulham | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 4.49 | 7 |
-| Cambuur - Volos Nfc | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.84 | 8 |
-| Breda - Ofi | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.74 | 8 |
-| Sparta Rotterd - Asteras Tripoli | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.57 | 8 |
-| Landskrona - Norrkoping | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2.73 | 8 |
-| Helsingborg - United Nordic | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2.01 | 8 |
-| Cska 1948 Sofi (0) - (0) Spartak Trnava | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.67 | 8 |
-| Dinamo Zagreb (1) - (1) Thun | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:00 | Veri bekleniyor | - | 1.18 | 6 |
-| Fc Drita (1) - (1) Floriana | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 1.3 | 6 |
-| Elche - Al Ain | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.24 | 6 |
-| B36 Torshavn - Ab Argir | Faroe Adaları Master Lig | 21:00 | Veri bekleniyor | - | 1.33 | 6 |
-| Solihull Moors - Burton Albion | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 3.85 | 7 |
-| Wealdstone - Afc Wimbledon | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.98 | 8 |
-| Oxford - Crawley | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.17 | 6 |
-| Swindon - Leyton Orient | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.13 | 8 |
-| Grimsby - Lincoln | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 4.64 | 7 |
-| Psv Eindhoven - Fc Eindhoven | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.11 | 4 |
-| Oldham - Stockport | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 3.36 | 8 |
-| Morecambe - Afc Fylde | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.32 | 6 |
-| Fleetwood Town - Bolton | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 4.91 | 6 |
-| Celje (3) - (3) Egnatia | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:15 | Veri bekleniyor | - | 1.2 | 6 |
-| Aston Villa - Real Sociedad | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.73 | 8 |
-| Jwaya - Ansar | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | Veri bekleniyor | - | 5.37 | 7 |
-| Nejmeh - Ahed | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | Veri bekleniyor | - | 1.35 | 7 |
-| Alfreton - Mansfield | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 5.6 | 4 |
-| Newport County - Reading | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.35 | 8 |
-| Barnet - Mk Dons | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.48 | 8 |
-| Marine - Warrington Town | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.41 | 6 |
-| Cambridge - Northampton | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.77 | 8 |
-| Carlisle - Salford City | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 3.21 | 8 |
-| Dagenham & Red - Boreham Wood | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.92 | 8 |
-| York - Peterborough | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.99 | 8 |
-| Newry City Afc - Bangor Fc | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.08 | 4 |
-| Hearts (0) - (4) Sturm Graz | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:45 | Veri bekleniyor | - | 1.56 | 8 |
-| Stoke - Everton | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.66 | 8 |
-| Bromley - Millwall | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.2 | 8 |
-| Hereford Fc - Shrewsbury | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 3.92 | 6 |
-| Shamrock Rover (0) - (2) Ararat-Armenia | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | Veri bekleniyor | - | 1.48 | 7 |
-| Aegir - Njardvik | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 4.79 | 4 |
-| Haiti U20 - Kuba U20 | CONCACAF U20 Grup A | 00:00 | Veri bekleniyor | - | 1.5 | 8 |
-| Cacahuatique - Balboa | El Salvador Primera Lig Apertura | 00:30 | Veri bekleniyor | - | 1.93 | 8 |
-| Tigre (3) - (0) Nacional Df | Copa Sudamericana Son 32 Turu | 01:00 | Veri bekleniyor | - | 1.83 | 8 |
-| Banfield - Sarmiento | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 1.8 | 8 |
-| San Lorenzo - Gimnasia Mendoz | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 1.76 | 8 |
-| Juventude - Avai | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 1.37 | 7 |
-| Ponte Preta - Athletic Club | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 3.52 | 8 |
-| Quindio (1) - (2) Deportes Tolima | Kolombiya Kupa 2.Tur | 02:15 | Veri bekleniyor | - | 3.08 | 8 |
-| Bogota (1) - (0) Deportivo Pasto | Kolombiya Kupa 2.Tur | 03:00 | Veri bekleniyor | - | 2.84 | 8 |
-| Rosario Centra - Racing Club | Arjantin Premier Lig 2. Aşama | 03:15 | Veri bekleniyor | - | 2.04 | 8 |
-| Argentinos Jr - Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:15 | Veri bekleniyor | - | 1.26 | 7 |
-| Santos (4) - (1) Ucv | Copa Sudamericana Son 32 Turu | 03:30 | Veri bekleniyor | - | 1.1 | 6 |
-| Fortaleza Ce - Botafogo Ribeir | Brezilya Serie B | 03:35 | Veri bekleniyor | - | 1.57 | 7 |
-| Cavalry - Supra Du Quebec | Kanada Premier Lig | 04:00 | Veri bekleniyor | - | 1.25 | 6 |
-| Tigres Fc (0) - (2) Atletico Nacion | Kolombiya Kupa 2.Tur | 04:30 | Veri bekleniyor | - | 3.66 | 7 |
-| Diriangen - Plaza Amador | CONCACAF Orta Amerika Kupası Grup A | 05:00 | Veri bekleniyor | - | 1.95 | 8 |
-| Depor. Olimpia - Mixco | CONCACAF Orta Amerika Kupası Grup C | 05:00 | Veri bekleniyor | - | 1.43 | 7 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chelsea VS Western Sydney | Hazırlık Sydney Süper Kupası | 12:45 | MS X | 5.69 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | live |
+| Filipinler VS Myanmar | AFF Şampiyonası Grup B | 13:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Malezya VS Laos | AFF Şampiyonası Grup B | 16:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Kuopion (0) VS (1) Sabah | UEFA Şampiyonlar Ligi 2.Eleme Turu | 18:00 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cagliari VS Modena | Hazırlık Kulüpler | 18:00 | MS 2 | 4.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Fk Dainava VS Transinvest Vil | Litvanya 1.Lig | 18:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Udinese VS Al Ahli Dubai | Hazırlık Kulüpler | 18:30 | MS 2 | 3.81 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Lincoln Red Im (0) VS (3) Mjallby | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Zalgiris Ii VS Minija | Litvanya 1.Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Apollon Limass (4) VS (0) Dila Gori | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Riga Fc (3) VS (2) Vardar | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Al Ahli (Cidde VS Fulham | Hazırlık Kulüpler | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Cambuur VS Volos Nfc | Hazırlık Kulüpler | 20:00 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Breda VS Ofi | Hazırlık Kulüpler | 20:00 | MS X | 3.22 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Sparta Rotterd VS Asteras Tripoli | Hazırlık Kulüpler | 20:00 | MS 2 | 3.55 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Landskrona VS Norrkoping | İsveç Superettan | 20:00 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Helsingborg VS United Nordic | İsveç Superettan | 20:00 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cska 1948 Sofi (0) VS (0) Spartak Trnava | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | MS 2 | 3.36 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Dinamo Zagreb (1) VS (1) Thun | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Fc Drita (1) VS (1) Floriana | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | MS 2 | 5.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Elche VS Al Ain | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| B36 Torshavn VS Ab Argir | Faroe Adaları Master Lig | 21:00 | MS 2 | 4.65 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Solihull Moors VS Burton Albion | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Wealdstone VS Afc Wimbledon | Hazırlık Kulüpler | 21:00 | MS 1 | 3.82 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Oxford VS Crawley | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Swindon VS Leyton Orient | Hazırlık Kulüpler | 21:00 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Grimsby VS Lincoln | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Psv Eindhoven VS Fc Eindhoven | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Oldham VS Stockport | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Morecambe VS Afc Fylde | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Fleetwood Town VS Bolton | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| North Ferriby VS Scunthorpe | Hazırlık Kulüpler | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Celje (3) VS (3) Egnatia | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Aston Villa VS Real Sociedad | Hazırlık Kulüpler | 21:30 | MS X | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Jwaya VS Ansar | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Nejmeh VS Ahed | Lübnan Premier Lig Şampiyonluk Turu | 21:30 | MS 2 | 4.95 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Alfreton VS Mansfield | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Newport County VS Reading | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Barnet VS Mk Dons | Hazırlık Kulüpler | 21:30 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Marine VS Warrington Town | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Cambridge VS Northampton | Hazırlık Kulüpler | 21:30 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Carlisle VS Salford City | Hazırlık Kulüpler | 21:30 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Dagenham & Red VS Boreham Wood | Hazırlık Kulüpler | 21:30 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| York VS Peterborough | Hazırlık Kulüpler | 21:30 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Newry City Afc VS Bangor Fc | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Pontefract Col VS Guiseley | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Accrington VS Bury | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Gateshead VS Gateshead(South | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Hearts (0) VS (4) Sturm Graz | UEFA Şampiyonlar Ligi 2.Eleme Turu | 21:45 | MS X | 3.33 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Stoke VS Everton | Hazırlık Kulüpler | 21:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Bromley VS Millwall | Hazırlık Kulüpler | 21:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Hereford Fc VS Shrewsbury | Hazırlık Kulüpler | 21:45 | MS 1 | 3.64 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Folkestone Inv VS Sutton United | Hazırlık Kulüpler | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Shamrock Rover (0) VS (2) Ararat-Armenia | UEFA Şampiyonlar Ligi 2.Eleme Turu | 22:00 | MS 2 | 3.87 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Aegir VS Njardvik | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Haiti U20 VS Kuba U20 | CONCACAF U20 Grup A | 00:00 | MS 2 | 3.39 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cacahuatique VS Balboa | El Salvador Primera Lig Apertura | 00:30 | MS 2 | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Tigre (3) VS (0) Nacional Df | Copa Sudamericana Son 32 Turu | 01:00 | MS 2 | 3.14 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Banfield VS Sarmiento | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| San Lorenzo VS Gimnasia Mendoz | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Juventude VS Avai | Brezilya Serie B | 01:30 | MS 2 | 5.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Ponte Preta VS Athletic Club | Brezilya Serie B | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Quindio (1) VS (2) Deportes Tolima | Kolombiya Kupa 2.Tur | 02:15 | MS 1 | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bogota (1) VS (0) Deportivo Pasto | Kolombiya Kupa 2.Tur | 03:00 | MS 1 | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rosario Centra VS Racing Club | Arjantin Premier Lig 2. Aşama | 03:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Argentinos Jr VS Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:15 | MS X | 3.72 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Santos (4) VS (1) Ucv | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Fortaleza Ce VS Botafogo Ribeir | Brezilya Serie B | 03:35 | MS 2 | 3.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cavalry VS Supra Du Quebec | Kanada Premier Lig | 04:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Tigres Fc (0) VS (2) Atletico Nacion | Kolombiya Kupa 2.Tur | 04:30 | MS 1 | 4.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Diriangen VS Plaza Amador | CONCACAF Orta Amerika Kupası Grup A | 05:00 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Depor. Olimpia VS Mixco | CONCACAF Orta Amerika Kupası Grup C | 05:00 | MS 2 | 4.04 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| El Salvador U2 VS Abd (U20) | CONCACAF U20 Grup A | 05:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Chelsea VS Western Sydney | MS X | 5.69 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Udinese VS Al Ahli Dubai | MS 2 | 3.81 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Chelsea VS Western Sydney + Udinese VS Al Ahli Dubai | MS X + MS 2 | 21.68 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
