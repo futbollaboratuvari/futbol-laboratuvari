@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.07.2026 10:34:12
+Oluşturma: 29.07.2026 10:37:03
 
 ## Özet
 
@@ -26,7 +26,7 @@ Oluşturma: 29.07.2026 10:34:12
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-29 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | MS X | pending | 40/100
+- 2026-07-29 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | MS X | pending | 55/100
 - 2026-07-29 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | MS 2 | pending | 40/100
 - 2026-07-29 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | MS 2 | pending | 40/100
 - 2026-07-29 | Hazırlık Kulüpler | Watford - Fiorentina | MS X | pending | 50/100
