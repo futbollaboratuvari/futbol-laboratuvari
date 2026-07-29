@@ -1,34 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-29T10:04:07.897374+00:00
+Tarih: 2026-07-29T10:20:56.676259+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 83
-- Kac mac kaydedildi: 18
-- Kac mac zaten vardi: 65
+- Kac mac bulundu: 58
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 58
 - Ham veri havuzu toplam mac sayisi: 3670
 - Hedef tarih: 29.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
 - CONCACAF U20 Grup C
-- Copa Sudamericana Son 32 Turu
 - Ekvador Kupa Son 16 Turu
-- El Salvador Primera Lig Apertura
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Kazakistan Kupa Yarı Final
-- Kolombiya Kupa 2.Tur
 - Lübnan Premier Lig Küme Düşme Turu
 - Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -105,26 +96,26 @@ Tarih: 2026-07-29T10:04:07.897374+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 29.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kizilyildiz (4) | (0) Larne Fc | 08974 | 4 |
-| 29.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Gornik Zabrze (0) | (1) Fenerbahçe | 08837 | 5 |
-| 29.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) | (0) Kí Klaksvík | 08577 | 5 |
-| 29.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lech Poznan (4) | (1) Aarhus | 08660 | 5 |
-| 29.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Universitatea (0) | (1) Levski Sofya | 08747 | 5 |
 | 29.07.2026 | 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kairat Almaty (0) | (1) Omonia | 08532 | 5 |
-| 29.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hapoel Beer Sh (1) | (2) Vikingur Reykja | 08703 | 5 |
 | 29.07.2026 | 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Slovan Bratisl (2) | (0) Fc Iberia | 09017 | 5 |
+| 29.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Gornik Zabrze (0) | (1) Fenerbahçe | 08837 | 5 |
+| 29.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Universitatea (0) | (1) Levski Sofya | 08747 | 5 |
+| 29.07.2026 | 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kizilyildiz (4) | (0) Larne Fc | 08974 | 4 |
+| 29.07.2026 | 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lech Poznan (4) | (1) Aarhus | 08660 | 5 |
+| 29.07.2026 | 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hapoel Beer Sh (1) | (2) Vikingur Reykja | 08703 | 5 |
+| 29.07.2026 | 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) | (0) Kí Klaksvík | 08577 | 5 |
 | 29.07.2026 | 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Dukagjini (0) | (1) Lugano | 08489 | 5 |
-| 29.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Rapid Wien (3) | (1) Santa Coloma | 09060 | 4 |
 | 29.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Kopenhag (3) | (3) Polessya | 08624 | 5 |
-| 29.07.2026 | 21:30 | Hazırlık Kulüpler | Doncaster | Wolverhampton | 01758 | 5 |
+| 29.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Rapid Wien (3) | (1) Santa Coloma | 09060 | 4 |
 | 29.07.2026 | 20:45 | Hazırlık Kulüpler | Tirsense | Varzim | 17370 | 5 |
 | 29.07.2026 | 21:30 | Hazırlık Kulüpler | Bristol City | Newcastle Utd | 17543 | 5 |
-| 29.07.2026 | 21:45 | Hazırlık Kulüpler | Ipswich | Osasuna | 16596 | 5 |
 | 29.07.2026 | 18:00 | Hazırlık Kulüpler | Cremonese | Cittadella | 06628 | 5 |
-| 29.07.2026 | 16:00 | Hazırlık Kulüpler | B.Leverkusen | Genk | 11599 | 5 |
-| 29.07.2026 | 19:00 | Hazırlık Kulüpler | St Etienne | Lausanne | 01388 | 5 |
-| 29.07.2026 | 15:00 | Hazırlık Kulüpler | Cadiz | Ceuta | 17154 | 5 |
 | 29.07.2026 | 20:30 | Hazırlık Kulüpler | D.La Coruna | Lugo | 04718 | 5 |
+| 29.07.2026 | 21:00 | Hazırlık Kulüpler | Farnborough | Portsmouth | 17477 | 5 |
+| 29.07.2026 | 21:45 | Hazırlık Kulüpler | Ipswich | Osasuna | 16596 | 5 |
+| 29.07.2026 | 19:00 | Hazırlık Kulüpler | Hoffenheim | Holstein Kiel | 10706 | 5 |
+| 29.07.2026 | 20:00 | Hazırlık Kulüpler | Santander | Athletic Bilbao | 17300 | 5 |
+| 29.07.2026 | 18:00 | Hazırlık Kulüpler | Palermo | Iraklis 1908 | 04098 | 5 |
 
 ## Sonuc
 
