@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 69
-- Live match count: 9
+- Scheduled match count: 65
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-07-29 / 2026-07-30 23:59
 
-- 2026-07-29 02:15 | Quindio (1) - (2) Deportes Tolima | live
-- 2026-07-29 03:00 | Hankook Verdes - Depor Motagua | live
-- 2026-07-29 03:00 | Atletico Madri - Getafe | live
-- 2026-07-29 03:00 | Bogota (1) - (0) Deportivo Pasto | live
-- 2026-07-29 03:15 | Argentinos Jr - Rio Cuarto | live
-- 2026-07-29 03:15 | Rosario Centra - Racing Club | live
-- 2026-07-29 03:30 | Santos (4) - (1) Ucv | live
-- 2026-07-29 03:35 | Fortaleza Ce - Botafogo Ribeir | live
-- 2026-07-29 04:00 | Cavalry - Supra Du Quebec | live
-- 2026-07-29 04:30 | Tigres Fc (0) - (2) Atletico Nacion | scheduled
+- 2026-07-29 12:30 | Brindabella Bl - Queanbeyan City | scheduled
+- 2026-07-29 12:45 | Tottenham - Sydney | scheduled
+- 2026-07-29 13:00 | Cerezo Osaka - B.Dortmund | scheduled
+- 2026-07-29 15:00 | Cadiz - Ceuta | scheduled
+- 2026-07-29 16:00 | B.Leverkusen - Genk | scheduled
+- 2026-07-29 17:00 | Reyady Abaseya - Tadamon Tyre | scheduled
+- 2026-07-29 17:30 | Dukagjini (0) - (1) Lugano | scheduled
+- 2026-07-29 18:00 | Cremonese - Cittadella | scheduled
+- 2026-07-29 18:00 | Palermo - Iraklis | scheduled
+- 2026-07-29 18:00 | Kaisar - Zhenys | scheduled

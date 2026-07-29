@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.07.2026 06:43:28
+Oluşturma: 29.07.2026 07:29:26
 
 ## Özet
 
-- Toplam tahmin: 68
-- Bekleyen tahmin: 68
+- Toplam tahmin: 69
+- Bekleyen tahmin: 69
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,13 @@ Oluşturma: 29.07.2026 06:43:28
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
-- MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-29 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | MS X | pending | 40/100
 - 2026-07-29 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | MS 2 | pending | 40/100
 - 2026-07-29 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | MS 2 | pending | 40/100
 - 2026-07-29 | Hazırlık Kulüpler | Watford - Fiorentina | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 29.07.2026 06:43:28
 - 2026-07-29 | Hazırlık Kulüpler | Cadiz - Ceuta | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | B.Leverkusen - Genk | MS 2 | pending | 95/100
 - 2026-07-29 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kairat Almaty (0) - (1) Omonia | MS 2 | pending | 40/100
-- 2026-07-29 | Hazırlık Kulüpler | Palermo - Iraklis 1908 | MS 2 | pending | 60/100
 
