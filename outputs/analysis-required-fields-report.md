@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 65
-Tam analiz: 59
+Toplam analiz: 58
+Tam analiz: 52
 Eksik analiz: 6
 
 - Hankook Verdes VS Depor Motagua: eksik score, confidence

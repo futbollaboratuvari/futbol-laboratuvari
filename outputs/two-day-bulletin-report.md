@@ -3,18 +3,14 @@
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
 Ham mac: 78
-Aktif mac: 69
-Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 49
+Aktif mac: 65
+Canli mac: 12
+Biten mac: 1
+Bultenden dusurulen mac: 13
+Bugun: 45
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-29 04:30 | Kolombiya Kupa 2.Tur | Tigres Fc (0) - (2) Atletico Nacion | scheduled | -
-- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Plaza Amador | scheduled | -
-- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | scheduled | -
-- 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | scheduled | -
 - 2026-07-29 12:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Queanbeyan City | scheduled | -
 - 2026-07-29 12:45 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | scheduled | -
 - 2026-07-29 13:00 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | scheduled | -
@@ -91,6 +87,9 @@ Yarin: 20
 - 2026-07-29 03:30 | Copa Sudamericana Son 32 Turu | Santos (4) - (1) Ucv | live | -
 - 2026-07-29 03:35 | Brezilya Serie B | Fortaleza Ce - Botafogo Ribeir | live | -
 - 2026-07-29 04:00 | Kanada Premier Lig | Cavalry - Supra Du Quebec | live | -
+- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Plaza Amador | live | -
+- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | live | -
+- 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-29 04:30 | Kolombiya Kupa 2.Tur | Tigres Fc (0) - (2) Atletico Nacion | finished | -
