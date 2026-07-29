@@ -2,23 +2,15 @@
 
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
-Ham mac: 83
-Aktif mac: 77
-Canli mac: 6
-Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 57
+Ham mac: 85
+Aktif mac: 69
+Canli mac: 9
+Biten mac: 7
+Bultenden dusurulen mac: 16
+Bugun: 49
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-29 03:00 | Kolombiya Kupa 2.Tur | Bogota (1) - (0) Deportivo Pasto | scheduled | -
-- 2026-07-29 03:00 | Hazırlık Kulüpler | Atletico Madri - Getafe | scheduled | -
-- 2026-07-29 03:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Depor Motagua | scheduled | -
-- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Racing Club | scheduled | -
-- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Rio Cuarto | scheduled | -
-- 2026-07-29 03:30 | Copa Sudamericana Son 32 Turu | Santos (4) - (1) Ucv | scheduled | -
-- 2026-07-29 03:35 | Brezilya Serie B | Fortaleza Ce - Botafogo Ribeir | scheduled | -
-- 2026-07-29 04:00 | Kanada Premier Lig | Cavalry - Supra Du Quebec | scheduled | -
 - 2026-07-29 04:30 | Kolombiya Kupa 2.Tur | Tigres Fc (0) - (2) Atletico Nacion | scheduled | -
 - 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Plaza Amador | scheduled | -
 - 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | scheduled | -
@@ -90,12 +82,21 @@ Yarin: 20
 - 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | scheduled | -
 
 ## Canli Maclar
-- 2026-07-29 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) - (0) Nacional Df | live | -
-- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Sarmiento | live | -
-- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Gimnasia Mendoz | live | -
-- 2026-07-29 01:30 | Brezilya Serie B | Juventude - Avai | live | -
-- 2026-07-29 01:30 | Brezilya Serie B | Ponte Preta - Athletic Club | live | -
 - 2026-07-29 02:15 | Kolombiya Kupa 2.Tur | Quindio (1) - (2) Deportes Tolima | live | -
+- 2026-07-29 03:00 | Kolombiya Kupa 2.Tur | Bogota (1) - (0) Deportivo Pasto | live | -
+- 2026-07-29 03:00 | Hazırlık Kulüpler | Atletico Madri - Getafe | live | -
+- 2026-07-29 03:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Depor Motagua | live | -
+- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Racing Club | live | -
+- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Rio Cuarto | live | -
+- 2026-07-29 03:30 | Copa Sudamericana Son 32 Turu | Santos (4) - (1) Ucv | live | -
+- 2026-07-29 03:35 | Brezilya Serie B | Fortaleza Ce - Botafogo Ribeir | live | -
+- 2026-07-29 04:00 | Kanada Premier Lig | Cavalry - Supra Du Quebec | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | finished | -
+- 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | finished | -
+- 2026-07-29 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) - (0) Nacional Df | finished | -
+- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Sarmiento | finished | -
+- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Gimnasia Mendoz | finished | -
+- 2026-07-29 01:30 | Brezilya Serie B | Juventude - Avai | finished | -
+- 2026-07-29 01:30 | Brezilya Serie B | Ponte Preta - Athletic Club | finished | -

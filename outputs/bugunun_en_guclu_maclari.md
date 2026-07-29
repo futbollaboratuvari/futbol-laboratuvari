@@ -4,26 +4,21 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-28T23:48:54.922Z
+- Güncelleme: 2026-07-29T01:07:47.909Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Tigre (3) VS (0) Nacional Df | Copa Sudamericana Son 32 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Banfield VS Sarmiento | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| San Lorenzo VS Gimnasia Mendoz | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Juventude VS Avai | Brezilya Serie B | 01:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Ponte Preta VS Athletic Club | Brezilya Serie B | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Quindio (1) VS (2) Deportes Tolima | Kolombiya Kupa 2.Tur | 02:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bogota (1) VS (0) Deportivo Pasto | Kolombiya Kupa 2.Tur | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Atletico Madri VS Getafe | Hazırlık Kulüpler | 03:00 | MS 2 | 3.40 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atletico Madri VS Getafe | Hazırlık Kulüpler | 03:00 | MS 2 | 3.40 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Hankook Verdes VS Depor Motagua | CONCACAF Orta Amerika Kupası Grup D | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Rosario Centra VS Racing Club | Arjantin Premier Lig 2. Aşama | 03:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Argentinos Jr VS Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Santos (4) VS (1) Ucv | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Fortaleza Ce VS Botafogo Ribeir | Brezilya Serie B | 03:35 | MS 2 | 4.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Fortaleza Ce VS Botafogo Ribeir | Brezilya Serie B | 03:35 | MS 2 | 4.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Cavalry VS Supra Du Quebec | Kanada Premier Lig | 04:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Tigres Fc (0) VS (2) Atletico Nacion | Kolombiya Kupa 2.Tur | 04:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Diriangen VS Plaza Amador | CONCACAF Orta Amerika Kupası Grup A | 05:00 | MS X | 2.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -42,10 +37,10 @@
 | Kaisar VS Zhenys | Kazakistan Kupa Yarı Final | 18:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Mikkelin VS Kapa | Finlandiya Ykkösliiga | 18:30 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kauno Zalgiris (0) VS (0) Kí Klaksvík | UEFA Şampiyonlar Ligi 2.Eleme Turu | 19:00 | MS 2 | 4.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Hoffenheim VS Holstein Kiel | Hazırlık Kulüpler | 19:00 | MS 2 | 6.75 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Hoffenheim VS Holstein Kiel | Hazırlık Kulüpler | 19:00 | MS 2 | 6.67 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Lech Poznan (4) VS (1) Aarhus | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:00 | MS 2 | 3.84 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Kopenhag (3) VS (3) Polessya | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | MS 2 | 4.04 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Hapoel Beer Sh (1) VS (2) Vikingur Reykja | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | MS 2 | 4.43 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Hapoel Beer Sh (1) VS (2) Vikingur Reykja | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | MS 2 | 4.38 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Universitatea (0) VS (1) Levski Sofya | UEFA Şampiyonlar Ligi 2.Eleme Turu | 20:30 | MS 2 | 3.45 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | D.La Coruna VS Lugo | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Unionistas De VS Burgos | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -62,7 +57,7 @@
 | Rapid Wien (3) VS (1) Santa Coloma | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Doncaster VS Wolverhampton | Hazırlık Kulüpler | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Watford VS Fiorentina | Hazırlık Kulüpler | 21:30 | MS X | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Bradford VS Prest | Hazırlık Kulüpler | 21:30 | MS X | 3.29 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bradford VS Prest | Hazırlık Kulüpler | 21:30 | MS X | 3.28 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ipswich VS Osasuna | Hazırlık Kulüpler | 21:45 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Burnley VS Espanyol | Hazırlık Kulüpler | 21:45 | MS X | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Grindavik VS Leiknir Reykjav | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -81,17 +76,17 @@
 | Mirassol VS Remo | Brezilya Serie A | 01:30 | MS 2 | 4.31 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Barranguilla (2) VS (2) Atletico Junior | Kolombiya Kupa 2.Tur | 01:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Pittsburgh Riv VS Tulsa Roughneck | ABD USL | 02:00 | MS 2 | 3.39 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Greenville Tri VS Athletic Club B | ABD USL Lig 1 | 02:00 | MS 1 | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Greenville Tri VS Athletic Club B | ABD USL Lig 1 | 02:00 | MS 1 | 2.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Louisville Cit VS Birmingham Legi | ABD USL | 02:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Umecit VS Deportivo Sapri | CONCACAF Orta Amerika Kupası Grup C | 03:00 | MS 1 | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Indep. Jose Te VS Manta | Ekvador Kupa Son 16 Turu | 03:00 | MS X | 5.14 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Forward Madiso VS Chattanooga Red | ABD USL Lig 1 | 03:00 | MS 2 | 2.73 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Forward Madiso VS Chattanooga Red | ABD USL Lig 1 | 03:00 | MS X | 2.79 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cienciano (0) VS (2) Lanus | Copa Sudamericana Son 32 Turu | 03:30 | MS 2 | 2.93 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Bragantino (0) VS (0) Sporting Crista | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Vitoria Bahia VS Palmeiras | Brezilya Serie A | 03:30 | MS 1 | 3.55 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fluminense VS Bahia | Brezilya Serie A | 03:30 | MS 2 | 3.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Instituto Cord VS Platense | Arjantin Premier Lig 2. Aşama | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Real Cartagena (1) VS (2) America De Cali | Kolombiya Kupa 2.Tur | 04:00 | MS 1 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Real Cartagena (1) VS (2) America De Cali | Kolombiya Kupa 2.Tur | 04:00 | MS 1 | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Alajuelense VS Xelaju | CONCACAF Orta Amerika Kupası Grup A | 05:00 | MS 2 | 4.53 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Alianza VS Antigua Guatema | CONCACAF Orta Amerika Kupası Grup B | 05:00 | MS X | 2.75 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 
