@@ -1,10 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 47
-Tam analiz: 44
-Eksik analiz: 3
+Toplam analiz: 58
+Tam analiz: 56
+Eksik analiz: 2
 
-- Brindabella Bl VS Queanbeyan City: eksik score, confidence
 - Fylkir VS Völsungur: eksik score, confidence
 - Gualaceo VS Depor Macara: eksik score, confidence
