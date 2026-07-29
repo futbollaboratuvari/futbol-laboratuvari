@@ -2,37 +2,15 @@
 
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
-Ham mac: 77
-Aktif mac: 59
-Canli mac: 18
-Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 35
+Ham mac: 109
+Aktif mac: 37
+Canli mac: 33
+Biten mac: 39
+Bultenden dusurulen mac: 72
+Bugun: 13
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-29 20:45 | Hazırlık Kulüpler | Tirsense - Varzim | scheduled | -
-- 2026-07-29 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kizilyildiz (4) - (0) Larne Fc | scheduled | -
-- 2026-07-29 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Gornik Zabrze (0) - (1) Fenerbahçe | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Oviedo - Ponferradina | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Girona - Castellon | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Real Betis - Lyon | scheduled | -
-- 2026-07-29 21:00 | İzlanda 1.Lig | Fylkir - Völsungur | scheduled | -
-- 2026-07-29 21:00 | İzlanda 2.Lig | Magni - Kfa | scheduled | -
-- 2026-07-29 21:00 | İzlanda 2.Lig | Selfoss - Dalvik | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Marino De Luan - Real Aviles | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Forest Green - Bristol City | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Boston United - Grimsby | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Farnborough - Portsmouth | scheduled | -
-- 2026-07-29 21:00 | Hazırlık Kulüpler | Cadiz - Ceuta | scheduled | -
-- 2026-07-29 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Slovan Bratisl (2) - (0) Fc Iberia | scheduled | -
-- 2026-07-29 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Rapid Wien (3) - (1) Santa Coloma | scheduled | -
-- 2026-07-29 21:30 | Hazırlık Kulüpler | Doncaster - Wolverhampton | scheduled | -
-- 2026-07-29 21:30 | Hazırlık Kulüpler | Watford - Fiorentina | scheduled | -
-- 2026-07-29 21:30 | Hazırlık Kulüpler | Bradford - Prest | scheduled | -
-- 2026-07-29 21:30 | Hazırlık Kulüpler | Bristol City - Newcastle Utd | scheduled | -
-- 2026-07-29 21:30 | Hazırlık Kulüpler | Sabadell - Manresa | scheduled | -
-- 2026-07-29 21:30 | Paraguay Kupa 2.Tur | Presidente Hay - Depor Santani | scheduled | -
 - 2026-07-29 21:45 | Hazırlık Kulüpler | Ipswich - Osasuna | scheduled | -
 - 2026-07-29 21:45 | Hazırlık Kulüpler | Burnley - Espanyol | scheduled | -
 - 2026-07-29 21:45 | Hazırlık Kulüpler | Villanovense - Cacereno | scheduled | -
@@ -72,13 +50,6 @@ Yarin: 24
 - 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | scheduled | -
 
 ## Canli Maclar
-- 2026-07-29 18:30 | Finlandiya Ykkösliiga | Mikkelin - Kapa | live | -
-- 2026-07-29 18:30 | Hazırlık Kulüpler | Gubbio - Sporting Tresti | live | -
-- 2026-07-29 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) - (0) Kí Klaksvík | live | -
-- 2026-07-29 19:00 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | live | -
-- 2026-07-29 19:00 | Paraguay Kupa 2.Tur | General Diaz - Tacuary | live | -
-- 2026-07-29 19:00 | Hazırlık Kulüpler | St Etienne - Lausanne | live | -
-- 2026-07-29 19:00 | Hazırlık Kulüpler | Valladolid - Cd Coria | live | -
 - 2026-07-29 19:30 | Hazırlık Kulüpler | Girona - Castellon | live | -
 - 2026-07-29 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lech Poznan (4) - (1) Aarhus | live | -
 - 2026-07-29 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Kopenhag (3) - (3) Polessya | live | -
@@ -90,6 +61,66 @@ Yarin: 24
 - 2026-07-29 20:30 | Hazırlık Kulüpler | D.La Coruna - Lugo | live | -
 - 2026-07-29 20:30 | Hazırlık Kulüpler | Unionistas De - Burgos | live | -
 - 2026-07-29 20:30 | Arjantin Premier Lig 2. Aşama | Barracas - Aldosivi | live | -
+- 2026-07-29 20:45 | Hazırlık Kulüpler | Tirsense - Varzim | live | -
+- 2026-07-29 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kizilyildiz (4) - (0) Larne Fc | live | -
+- 2026-07-29 21:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Gornik Zabrze (0) - (1) Fenerbahçe | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Oviedo - Ponferradina | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Girona - Castellon | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Real Betis - Lyon | live | -
+- 2026-07-29 21:00 | İzlanda 1.Lig | Fylkir - Völsungur | live | -
+- 2026-07-29 21:00 | İzlanda 2.Lig | Magni - Kfa | live | -
+- 2026-07-29 21:00 | İzlanda 2.Lig | Selfoss - Dalvik | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Marino De Luan - Real Aviles | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Forest Green - Bristol City | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Boston United - Grimsby | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Farnborough - Portsmouth | live | -
+- 2026-07-29 21:00 | Hazırlık Kulüpler | Cadiz - Ceuta | live | -
+- 2026-07-29 21:15 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Slovan Bratisl (2) - (0) Fc Iberia | live | -
+- 2026-07-29 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Rapid Wien (3) - (1) Santa Coloma | live | -
+- 2026-07-29 21:30 | Hazırlık Kulüpler | Doncaster - Wolverhampton | live | -
+- 2026-07-29 21:30 | Hazırlık Kulüpler | Watford - Fiorentina | live | -
+- 2026-07-29 21:30 | Hazırlık Kulüpler | Bradford - Prest | live | -
+- 2026-07-29 21:30 | Hazırlık Kulüpler | Bristol City - Newcastle Utd | live | -
+- 2026-07-29 21:30 | Hazırlık Kulüpler | Sabadell - Manresa | live | -
+- 2026-07-29 21:30 | Paraguay Kupa 2.Tur | Presidente Hay - Depor Santani | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | finished | -
+- 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | finished | -
+- 2026-07-29 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) - (0) Nacional Df | finished | -
+- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Sarmiento | finished | -
+- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Gimnasia Mendoz | finished | -
+- 2026-07-29 01:30 | Brezilya Serie B | Juventude - Avai | finished | -
+- 2026-07-29 01:30 | Brezilya Serie B | Ponte Preta - Athletic Club | finished | -
+- 2026-07-29 02:15 | Kolombiya Kupa 2.Tur | Quindio (1) - (2) Deportes Tolima | finished | -
+- 2026-07-29 03:00 | Kolombiya Kupa 2.Tur | Bogota (1) - (0) Deportivo Pasto | finished | -
+- 2026-07-29 03:00 | Hazırlık Kulüpler | Atletico Madri - Getafe | finished | -
+- 2026-07-29 03:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Depor Motagua | finished | -
+- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Racing Club | finished | -
+- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Rio Cuarto | finished | -
+- 2026-07-29 03:30 | Copa Sudamericana Son 32 Turu | Santos (4) - (1) Ucv | finished | -
+- 2026-07-29 03:35 | Brezilya Serie B | Fortaleza Ce - Botafogo Ribeir | finished | -
+- 2026-07-29 04:00 | Kanada Premier Lig | Cavalry - Supra Du Quebec | finished | -
+- 2026-07-29 04:30 | Kolombiya Kupa 2.Tur | Tigres Fc (0) - (2) Atletico Nacion | finished | -
+- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Plaza Amador | finished | -
+- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | finished | -
+- 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | finished | -
+- 2026-07-29 12:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Queanbeyan City | finished | -
+- 2026-07-29 12:45 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | finished | -
+- 2026-07-29 13:00 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | finished | -
+- 2026-07-29 15:00 | Hazırlık Kulüpler | Cadiz - Ceuta | finished | -
+- 2026-07-29 16:00 | Hazırlık Kulüpler | B.Leverkusen - Genk | finished | -
+- 2026-07-29 17:00 | Lübnan Premier Lig Küme Düşme Turu | Reyady Abaseya - Tadamon Tyre | finished | -
+- 2026-07-29 17:30 | UEFA Konferans Ligi 2. Eleme Turu | Dukagjini (0) - (1) Lugano | finished | -
+- 2026-07-29 17:30 | Romanya Kupa 1.Tur | Municipal Târg - Vulturii Farcaş | finished | -
+- 2026-07-29 18:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kairat Almaty (0) - (1) Omonia | finished | -
+- 2026-07-29 18:00 | Hazırlık Kulüpler | Cremonese - Cittadella | finished | -
+- 2026-07-29 18:00 | Hazırlık Kulüpler | Palermo - Iraklis 1908 | finished | -
+- 2026-07-29 18:00 | Kazakistan Kupa Yarı Final | Kaisar - Zhenys | finished | -
+- 2026-07-29 18:30 | Finlandiya Ykkösliiga | Mikkelin - Kapa | finished | -
+- 2026-07-29 18:30 | Hazırlık Kulüpler | Gubbio - Sporting Tresti | finished | -
+- 2026-07-29 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) - (0) Kí Klaksvík | finished | -
+- 2026-07-29 19:00 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | finished | -
+- 2026-07-29 19:00 | Paraguay Kupa 2.Tur | General Diaz - Tacuary | finished | -
+- 2026-07-29 19:00 | Hazırlık Kulüpler | St Etienne - Lausanne | finished | -
+- 2026-07-29 19:00 | Hazırlık Kulüpler | Valladolid - Cd Coria | finished | -
