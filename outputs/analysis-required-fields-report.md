@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 53
-Tam analiz: 51
+Toplam analiz: 40
+Tam analiz: 38
 Eksik analiz: 2
 
 - Fylkir VS Völsungur: eksik score, confidence

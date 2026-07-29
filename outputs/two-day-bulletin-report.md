@@ -2,22 +2,15 @@
 
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
-Ham mac: 70
-Aktif mac: 34
-Canli mac: 36
+Ham mac: 64
+Aktif mac: 27
+Canli mac: 37
 Biten mac: 0
-Bultenden dusurulen mac: 36
-Bugun: 10
+Bultenden dusurulen mac: 37
+Bugun: 3
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-29 22:15 | İzlanda 1.Lig | Grindavik - Leiknir Reykjav | scheduled | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Vikingur Ol. - Fjolnir | scheduled | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Haukar - Kfg Gardabar | scheduled | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Kari - Kormakur | scheduled | -
-- 2026-07-29 22:15 | İzlanda 2.Lig | Throttur Vogar - Hviti | scheduled | -
-- 2026-07-29 22:30 | Hazırlık Kulüpler | Atletico Madri - Getafe | scheduled | -
-- 2026-07-29 22:45 | İzlanda 1.Lig | Throttur - Afturelding | scheduled | -
 - 2026-07-29 23:00 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Riestra | scheduled | -
 - 2026-07-29 23:00 | Ekvador Kupa Son 16 Turu | Gualaceo - Depor Macara | scheduled | -
 - 2026-07-29 23:00 | CONCACAF U20 Grup C | Jamaika U20 - Panama (U20) | scheduled | -
@@ -47,12 +40,6 @@ Yarin: 24
 - 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | scheduled | -
 
 ## Canli Maclar
-- 2026-07-29 19:30 | Hazırlık Kulüpler | Girona - Castellon | live | -
-- 2026-07-29 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lech Poznan (4) - (1) Aarhus | live | -
-- 2026-07-29 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Kopenhag (3) - (3) Polessya | live | -
-- 2026-07-29 20:00 | Hazırlık Kulüpler | Sestao - A.Bilbao B | live | -
-- 2026-07-29 20:00 | Hazırlık Kulüpler | Valladolid - Cd Coria | live | -
-- 2026-07-29 20:00 | Hazırlık Kulüpler | Santander - Athletic Bilbao | live | -
 - 2026-07-29 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hapoel Beer Sh (1) - (2) Vikingur Reykja | live | -
 - 2026-07-29 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Universitatea (0) - (1) Levski Sofya | live | -
 - 2026-07-29 20:30 | Hazırlık Kulüpler | D.La Coruna - Lugo | live | -
@@ -83,6 +70,13 @@ Yarin: 24
 - 2026-07-29 21:45 | Hazırlık Kulüpler | Ipswich - Osasuna | live | -
 - 2026-07-29 21:45 | Hazırlık Kulüpler | Burnley - Espanyol | live | -
 - 2026-07-29 21:45 | Hazırlık Kulüpler | Villanovense - Cacereno | live | -
+- 2026-07-29 22:15 | İzlanda 1.Lig | Grindavik - Leiknir Reykjav | live | -
+- 2026-07-29 22:15 | İzlanda 2.Lig | Vikingur Ol. - Fjolnir | live | -
+- 2026-07-29 22:15 | İzlanda 2.Lig | Haukar - Kfg Gardabar | live | -
+- 2026-07-29 22:15 | İzlanda 2.Lig | Kari - Kormakur | live | -
+- 2026-07-29 22:15 | İzlanda 2.Lig | Throttur Vogar - Hviti | live | -
+- 2026-07-29 22:30 | Hazırlık Kulüpler | Atletico Madri - Getafe | live | -
+- 2026-07-29 22:45 | İzlanda 1.Lig | Throttur - Afturelding | live | -
 
 ## Biten Maclar
 Biten mac yok.

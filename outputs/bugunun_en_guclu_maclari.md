@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-29T19:38:08.540Z
-- Ham maç sayısı: 70
+- Güncelleme: 2026-07-29T19:46:32.075Z
+- Ham maç sayısı: 64
 - Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 198
-- Aktif bülten maçı: 28
-- Bültenden düşürülen maç: 42
+- Detay blok sayısı: 180
+- Aktif bülten maçı: 27
+- Bültenden düşürülen maç: 37
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Throttur - Afturelding | İzlanda 1.Lig | 22:45 | Veri bekleniyor | - | 1.99 | 6 |
 | Defensa Justic - Riestra | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 2.12 | 8 |
 | Gualaceo - Depor Macara | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 3.31 | 5 |
 | Jamaika U20 - Panama (U20) | CONCACAF U20 Grup C | 23:00 | Veri bekleniyor | - | 3.09 | 8 |
