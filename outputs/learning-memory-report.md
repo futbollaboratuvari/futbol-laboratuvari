@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.07.2026 19:09:34
+Oluşturma: 29.07.2026 19:15:34
 
 ## Özet
 
-- Toplam tahmin: 76
-- Bekleyen tahmin: 76
+- Toplam tahmin: 79
+- Bekleyen tahmin: 79
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 20
@@ -20,12 +20,15 @@ Oluşturma: 29.07.2026 19:09:34
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
+- MS X: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-29 | Hazırlık Kulüpler | Girona - Castellon | MS X | pending | 50/100
+- 2026-07-29 | Hazırlık Kulüpler | Cadiz - Ceuta | MS X | pending | 50/100
+- 2026-07-29 | Hazırlık Kulüpler | Gubbio - Sporting Tresti | MS 2 | pending | 75/100
 - 2026-07-29 | Hazırlık Kulüpler | Sestao - A.Bilbao B | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | Tirsense - Varzim | MS 1 | pending | 40/100
 - 2026-07-29 | Hazırlık Kulüpler | Marino De Luan - Real Aviles | MS 1 | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 29.07.2026 19:09:34
 - 2026-07-29 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | MS 2 | pending | 40/100
 - 2026-07-29 | Hazırlık Kulüpler | Watford - Fiorentina | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | Bradford - Prest | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | Ipswich - Osasuna | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | Burnley - Espanyol | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | Atletico Madri - Getafe | MS 2 | pending | 50/100
 
