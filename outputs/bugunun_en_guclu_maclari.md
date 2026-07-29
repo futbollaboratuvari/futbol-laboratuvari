@@ -1,30 +1,42 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-29T22:16:28.965Z
-- Ham maç sayısı: 17
-- Yarın bülteni maç sayısı: 14
-- Detay blok sayısı: 47
-- Aktif bülten maçı: 16
-- Bültenden düşürülen maç: 1
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-07-29T22:26:14.286Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ldu Quito - Leones Del Nort | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 1.29 | 5 |
-| Envigado (0) - (3) Once Caldas | Kolombiya Kupa 2.Tur | 23:30 | Veri bekleniyor | - | 2.7 | 8 |
-| Gremio (2) - (3) Bolivar | Copa Sudamericana Son 32 Turu | 01:00 | Veri bekleniyor | - | 1.15 | 6 |
-| Rivadavia - Huracan | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Talleres - Velez Sarsfield | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 2.12 | 8 |
-| Corinthians - Atletico Pr | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 1.68 | 8 |
-| Isidro Metapan - Deportivo Fas | El Salvador Primera Lig Apertura | 03:00 | Veri bekleniyor | - | 2.73 | 8 |
-| Independiente - Newells Old Boy | Arjantin Premier Lig 2. Aşama | 03:15 | Veri bekleniyor | - | 1.45 | 7 |
-| Corboda Santia - Atletico Tucuma | Arjantin Premier Lig 2. Aşama | 03:15 | Veri bekleniyor | - | 2.8 | 8 |
-| O Higgins (0) - (1) Boca Juniors | Copa Sudamericana Son 32 Turu | 03:30 | Veri bekleniyor | - | 3.33 | 8 |
-| Caracas Fc (0) - (2) Santa Fe | Copa Sudamericana Son 32 Turu | 03:30 | Veri bekleniyor | - | 2.6 | 8 |
-| Coritiba - Cruzeiro | Brezilya Serie A | 03:30 | Veri bekleniyor | - | 2.86 | 8 |
-| Meksika (U20) - Guatemala U20 | CONCACAF U20 Grup B | 04:00 | Veri bekleniyor | - | 1.21 | 4 |
-| Alebrijes - Dorados | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 1.56 | 8 |
-| Inter Fa - Aguila | El Salvador Primera Lig Apertura | 05:00 | Veri bekleniyor | - | 2.26 | 6 |
-| Municipal - Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 06:00 | Veri bekleniyor | - | 1.72 | 8 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| River Plate VS Sol De America | Paraguay Kupa 2.Tur | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Ldu Quito VS Leones Del Nort | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Envigado (0) VS (3) Once Caldas | Kolombiya Kupa 2.Tur | 23:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Gremio (2) VS (3) Bolivar | Copa Sudamericana Son 32 Turu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Rivadavia VS Huracan | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Talleres VS Velez Sarsfield | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Corinthians VS Atletico Pr | Brezilya Serie A | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Isidro Metapan VS Deportivo Fas | El Salvador Primera Lig Apertura | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Independiente VS Newells Old Boy | Arjantin Premier Lig 2. Aşama | 03:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Corboda Santia VS Atletico Tucuma | Arjantin Premier Lig 2. Aşama | 03:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| O Higgins (0) VS (1) Boca Juniors | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Caracas Fc (0) VS (2) Santa Fe | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Coritiba VS Cruzeiro | Brezilya Serie A | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Meksika (U20) VS Guatemala U20 | CONCACAF U20 Grup B | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Alebrijes VS Dorados | Meksika Ascenso MX Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Inter Fa VS Aguila | El Salvador Primera Lig Apertura | 05:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Municipal VS Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 06:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
