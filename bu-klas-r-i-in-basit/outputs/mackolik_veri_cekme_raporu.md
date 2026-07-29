@@ -1,34 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-29T14:38:39.217926+00:00
+Tarih: 2026-07-29T15:00:18.060860+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 80
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 76
+- Kac mac bulundu: 55
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 55
 - Ham veri havuzu toplam mac sayisi: 3674
 - Hedef tarih: 29.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
 - CONCACAF U20 Grup C
-- Copa Sudamericana Son 32 Turu
 - Ekvador Kupa Son 16 Turu
-- El Salvador Primera Lig Apertura
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Kazakistan Kupa Yarı Final
-- Kolombiya Kupa 2.Tur
 - Paraguay Kupa 2.Tur
 - Romanya Kupa 1.Tur
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -122,9 +113,9 @@ Tarih: 2026-07-29T14:38:39.217926+00:00
 | 29.07.2026 | 19:00 | Hazırlık Kulüpler | St Etienne | Lausanne | 01388 | 5 |
 | 29.07.2026 | 21:00 | Hazırlık Kulüpler | Real Betis | Lyon | 15408 | 5 |
 | 29.07.2026 | 21:45 | Hazırlık Kulüpler | Burnley | Espanyol | 00718 | 5 |
-| 29.07.2026 | 18:00 | Hazırlık Kulüpler | Palermo | Iraklis 1908 | 04098 | 5 |
 | 29.07.2026 | 20:00 | Hazırlık Kulüpler | Santander | Athletic Bilbao | 17300 | 5 |
 | 29.07.2026 | 19:00 | Hazırlık Kulüpler | Hoffenheim | Holstein Kiel | 10706 | 5 |
+| 29.07.2026 | 20:45 | Hazırlık Kulüpler | Tirsense | Varzim | 17370 | 5 |
 
 ## Sonuc
 
