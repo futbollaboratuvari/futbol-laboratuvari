@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.07.2026 01:51:31
+Oluşturma: 30.07.2026 02:29:55
 
 ## Özet
 
-- Toplam tahmin: 97
-- Bekleyen tahmin: 97
+- Toplam tahmin: 131
+- Bekleyen tahmin: 131
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 27
+- Lig sayısı: 29
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 30.07.2026 01:51:31
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
+- MS X: toplam 65, bekleyen 65, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 54, bekleyen 54, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-30 | Kolombiya Kupa 2.Tur | Envigado (0) - (3) Once Caldas | MS X | pending | 40/100
-- 2026-07-30 | Hazırlık Kulüpler | Liverpool - Wrexham | MS 2 | pending | 40/100
-- 2026-07-30 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | MS 1 | pending | 50/100
-- 2026-07-30 | ABD USL Lig 1 | Forward Madiso - Chattanooga Red | MS 2 | pending | 50/100
-- 2026-07-30 | Copa Sudamericana Son 32 Turu | Cienciano (0) - (2) Lanus | MS X | pending | 40/100
-- 2026-07-30 | Brezilya Serie A | Vitoria Bahia - Palmeiras | MS 1 | pending | 40/100
-- 2026-07-30 | Brezilya Serie A | Fluminense - Bahia | MS 2 | pending | 50/100
-- 2026-07-30 | Kolombiya Kupa 2.Tur | Real Cartagena (1) - (2) America De Cali | MS 1 | pending | 50/100
-- 2026-07-30 | CONCACAF U20 Grup C | Kanada (U20) - Honduras (U20) | MS X | pending | 50/100
-- 2026-07-30 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Xelaju | MS 2 | pending | 50/100
-- 2026-07-30 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | MS X | pending | 40/100
-- 2026-07-30 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | MS 2 | pending | 40/100
-- 2026-07-30 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | MS X | pending | 50/100
-- 2026-07-30 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) - (2) Independiente M | MS 2 | pending | 50/100
-- 2026-07-30 | Kolombiya Kupa 2.Tur | Internacional (0) - (1) Inter Bogota | MS X | pending | 40/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Austria Vienna (2) - (0) Liepaja | MS X | pending | 95/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gks Katowice (1) - (2) Zilina | MS 2 | pending | 60/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Cfr Cluj (1) - (1) Alashkert | MS 2 | pending | 60/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Coleraine (0) - (5) Helsinki | MS X | pending | 45/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) - (1) Aluminij | MS 2 | pending | 60/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Sutjeska (0) - (3) Ml Vitebsk | MS X | pending | 50/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Hibernian (0) - (2) Malisheva | MS X | pending | 80/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | MS X | pending | 50/100
+- 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Hradec Kralove (1) - (0) Tromso | MS X | pending | 50/100
+- 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | MS X | pending | 50/100
+- 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Pafos Fc (0) - (2) Hajduk Split | MS 2 | pending | 50/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) - (2) Atert Bissen | MS X | pending | 80/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Zalgiris Vilni (0) - (3) Dinamo Tiflis | MS X | pending | 50/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Minsk (4) - (2) Neftchi Baku | MS X | pending | 40/100
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | The New Saints (0) - (1) Flora Tallinn | MS 2 | pending | 50/100
 

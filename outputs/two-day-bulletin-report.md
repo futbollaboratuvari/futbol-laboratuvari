@@ -3,16 +3,14 @@
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
 Ham mac: 100
-Aktif mac: 93
-Canli mac: 7
+Aktif mac: 91
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 79
+Bultenden dusurulen mac: 9
+Bugun: 77
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-30 02:00 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | scheduled | -
-- 2026-07-30 02:00 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | scheduled | -
 - 2026-07-30 02:30 | ABD USL | Louisville Cit - Birmingham Legi | scheduled | -
 - 2026-07-30 02:30 | Hazırlık Kulüpler | Liverpool - Wrexham | scheduled | -
 - 2026-07-30 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | scheduled | -
@@ -113,6 +111,8 @@ Yarin: 14
 - 2026-07-30 01:30 | Brezilya Serie A | Internacional - Flamengo | live | -
 - 2026-07-30 01:30 | Brezilya Serie A | Mirassol - Remo | live | -
 - 2026-07-30 01:30 | Kolombiya Kupa 2.Tur | Barranguilla (2) - (2) Atletico Junior | live | -
+- 2026-07-30 02:00 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | live | -
+- 2026-07-30 02:00 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | live | -
 
 ## Biten Maclar
 Biten mac yok.
