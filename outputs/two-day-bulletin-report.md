@@ -3,16 +3,14 @@
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
 Ham mac: 100
-Aktif mac: 91
-Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 77
+Aktif mac: 89
+Canli mac: 10
+Biten mac: 1
+Bultenden dusurulen mac: 11
+Bugun: 75
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-30 02:30 | ABD USL | Louisville Cit - Birmingham Legi | scheduled | -
-- 2026-07-30 02:30 | Hazırlık Kulüpler | Liverpool - Wrexham | scheduled | -
 - 2026-07-30 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | scheduled | -
 - 2026-07-30 03:00 | Ekvador Kupa Son 16 Turu | Indep. Jose Te - Manta | scheduled | -
 - 2026-07-30 03:00 | ABD USL Lig 1 | Forward Madiso - Chattanooga Red | scheduled | -
@@ -104,7 +102,6 @@ Yarin: 14
 - 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 
 ## Canli Maclar
-- 2026-07-30 00:00 | Paraguay Kupa 2.Tur | River Plate - Sol De America | live | -
 - 2026-07-30 01:00 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) - (2) Independiente M | live | -
 - 2026-07-30 01:00 | Kolombiya Kupa 2.Tur | Internacional (0) - (1) Inter Bogota | live | -
 - 2026-07-30 01:15 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - River Plate | live | -
@@ -113,6 +110,8 @@ Yarin: 14
 - 2026-07-30 01:30 | Kolombiya Kupa 2.Tur | Barranguilla (2) - (2) Atletico Junior | live | -
 - 2026-07-30 02:00 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | live | -
 - 2026-07-30 02:00 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | live | -
+- 2026-07-30 02:30 | ABD USL | Louisville Cit - Birmingham Legi | live | -
+- 2026-07-30 02:30 | Hazırlık Kulüpler | Liverpool - Wrexham | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-30 00:00 | Paraguay Kupa 2.Tur | River Plate - Sol De America | finished | -
