@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-29T04:30:23.475Z",
+  "generated_at": "2026-07-29T07:30:35.475Z",
   "date": "2026-07-29",
   "source_count": 8,
-  "match_count": 45,
+  "match_count": 47,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -674,6 +674,57 @@
       "start_time": "19:00",
       "recommended_market": "MS 2",
       "data_gap_risk": "Orta",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "General Diaz VS Tacuary",
+      "league": "Paraguay Kupa 2.Tur",
+      "start_time": "19:00",
+      "recommended_market": "Değerli market yok",
+      "data_gap_risk": "Yüksek",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -2313,6 +2364,57 @@
       "start_time": "23:00",
       "recommended_market": "Değerli market yok",
       "data_gap_risk": "Orta",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Jamaika U20 VS Panama (U20)",
+      "league": "CONCACAF U20 Grup C",
+      "start_time": "23:00",
+      "recommended_market": "Değerli market yok",
+      "data_gap_risk": "Yüksek",
       "source_plan": [
         {
           "name": "Mackolik",
