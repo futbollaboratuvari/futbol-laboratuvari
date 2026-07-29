@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
-Ham mac: 85
+Ham mac: 78
 Aktif mac: 69
 Canli mac: 9
-Biten mac: 7
-Bultenden dusurulen mac: 16
+Biten mac: 0
+Bultenden dusurulen mac: 9
 Bugun: 49
 Yarin: 20
 
@@ -93,10 +93,4 @@ Yarin: 20
 - 2026-07-29 04:00 | Kanada Premier Lig | Cavalry - Supra Du Quebec | live | -
 
 ## Biten Maclar
-- 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | finished | -
-- 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | finished | -
-- 2026-07-29 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) - (0) Nacional Df | finished | -
-- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Sarmiento | finished | -
-- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Gimnasia Mendoz | finished | -
-- 2026-07-29 01:30 | Brezilya Serie B | Juventude - Avai | finished | -
-- 2026-07-29 01:30 | Brezilya Serie B | Ponte Preta - Athletic Club | finished | -
+Biten mac yok.
