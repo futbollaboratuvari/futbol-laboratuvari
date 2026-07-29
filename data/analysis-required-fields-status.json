@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-29T21:13:39.673Z",
-  "total": 24,
-  "ok_count": 23,
-  "bad_count": 1,
+  "generated_at": "2026-07-29T22:16:30.589Z",
+  "total": 3,
+  "ok_count": 0,
+  "bad_count": 3,
   "status": "warning",
   "bad_examples": [
     {
@@ -11,7 +11,31 @@
       "score": 0,
       "confidence": 0,
       "risk": "Yüksek",
-      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Hafıza: arşiv verisi henüz sınırlı",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Ldu Quito VS Leones Del Nort",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Envigado (0) VS (3) Once Caldas",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "missing": [
         "score",
         "confidence"
