@@ -3,16 +3,14 @@
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
 Ham mac: 67
-Aktif mac: 67
-Canli mac: 0
+Aktif mac: 65
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 47
+Bultenden dusurulen mac: 2
+Bugun: 45
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-07-29 12:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Queanbeyan City | scheduled | -
-- 2026-07-29 12:45 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | scheduled | -
 - 2026-07-29 13:00 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | scheduled | -
 - 2026-07-29 15:00 | Hazırlık Kulüpler | Cadiz - Ceuta | scheduled | -
 - 2026-07-29 16:00 | Hazırlık Kulüpler | B.Leverkusen - Genk | scheduled | -
@@ -80,7 +78,8 @@ Yarin: 20
 - 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-29 12:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Queanbeyan City | live | -
+- 2026-07-29 12:45 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | live | -
 
 ## Biten Maclar
 Biten mac yok.

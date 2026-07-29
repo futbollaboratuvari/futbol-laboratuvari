@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-29T07:38:57.139Z
+- Güncelleme: 2026-07-29T09:58:27.924Z
 - Ham maç sayısı: 67
 - Yarın bülteni maç sayısı: 20
 - Detay blok sayısı: 188
-- Aktif bülten maçı: 67
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 65
+- Bültenden düşürülen maç: 2
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Brindabella Bl - Queanbeyan City | Avustralya NPL Başkent Bölgesi | 12:30 | Veri bekleniyor | - | 8.76 | 4 |
-| Tottenham - Sydney | Hazırlık Sydney Süper Kupası | 12:45 | Veri bekleniyor | - | 1.12 | 6 |
 | Cerezo Osaka - B.Dortmund | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 4.01 | 7 |
 | Cadiz - Ceuta | Hazırlık Kulüpler | 15:00 | Veri bekleniyor | - | 2.08 | 8 |
 | B.Leverkusen - Genk | Hazırlık Kulüpler | 16:00 | Veri bekleniyor | - | 1.41 | 7 |

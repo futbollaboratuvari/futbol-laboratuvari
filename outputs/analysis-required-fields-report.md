@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 45
-Tam analiz: 42
+Toplam analiz: 47
+Tam analiz: 44
 Eksik analiz: 3
 
 - Brindabella Bl VS Queanbeyan City: eksik score, confidence
