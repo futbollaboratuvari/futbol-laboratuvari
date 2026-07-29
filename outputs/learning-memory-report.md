@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.07.2026 20:40:33
+Oluşturma: 29.07.2026 20:45:44
 
 ## Özet
 
@@ -26,7 +26,7 @@ Oluşturma: 29.07.2026 20:40:33
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-29 | Hazırlık Kulüpler | Farnborough - Portsmouth | MS X | pending | 40/100
+- 2026-07-29 | Hazırlık Kulüpler | Farnborough - Portsmouth | MS X | pending | 55/100
 - 2026-07-29 | Hazırlık Kulüpler | Girona - Castellon | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | Cadiz - Ceuta | MS X | pending | 50/100
 - 2026-07-29 | Hazırlık Kulüpler | Gubbio - Sporting Tresti | MS 2 | pending | 75/100
