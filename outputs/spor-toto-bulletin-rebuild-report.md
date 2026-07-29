@@ -1,9 +1,9 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-29T04:28:28.811Z
-- Ham fixture sayisi: 3634
-- Bugun/yarin kaynak mac: 85
-- Aktif bulten maci: 65
+- Guncelleme: 2026-07-29T07:17:45.262Z
+- Ham fixture sayisi: 3636
+- Bugun/yarin kaynak mac: 87
+- Aktif bulten maci: 67
 - Gosterilen mac: 15
 - Bultenden dusurulen mac: 20
 
@@ -19,6 +19,6 @@
 - 10. 2026-07-29 18:00 | Kazakistan Kupa Yarı Final | Kaisar - Zhenys | scheduled
 - 11. 2026-07-29 18:00 | Hazırlık Kulüpler | Palermo - Iraklis 1908 | scheduled
 - 12. 2026-07-29 18:30 | Finlandiya Ykkösliiga | Mikkelin - Kapa | scheduled
-- 13. 2026-07-29 19:00 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | scheduled
-- 14. 2026-07-29 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) - (0) Kí Klaksvík | scheduled
-- 15. 2026-07-29 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Kopenhag (3) - (3) Polessya | scheduled
+- 13. 2026-07-29 19:00 | Paraguay Kupa 2.Tur | General Diaz - Tacuary | scheduled
+- 14. 2026-07-29 19:00 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | scheduled
+- 15. 2026-07-29 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) - (0) Kí Klaksvík | scheduled

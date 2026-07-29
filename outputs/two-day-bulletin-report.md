@@ -2,12 +2,12 @@
 
 Gunler: 2026-07-29 / 2026-07-30
 Kaynak: fixtures.json
-Ham mac: 65
-Aktif mac: 65
+Ham mac: 87
+Aktif mac: 67
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 45
+Biten mac: 20
+Bultenden dusurulen mac: 20
+Bugun: 47
 Yarin: 20
 
 ## Baslamamis Maclar
@@ -25,6 +25,7 @@ Yarin: 20
 - 2026-07-29 18:30 | Finlandiya Ykkösliiga | Mikkelin - Kapa | scheduled | -
 - 2026-07-29 19:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Kauno Zalgiris (0) - (0) Kí Klaksvík | scheduled | -
 - 2026-07-29 19:00 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | scheduled | -
+- 2026-07-29 19:00 | Paraguay Kupa 2.Tur | General Diaz - Tacuary | scheduled | -
 - 2026-07-29 20:00 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Lech Poznan (4) - (1) Aarhus | scheduled | -
 - 2026-07-29 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Kopenhag (3) - (3) Polessya | scheduled | -
 - 2026-07-29 20:30 | UEFA Şampiyonlar Ligi 2.Eleme Turu | Hapoel Beer Sh (1) - (2) Vikingur Reykja | scheduled | -
@@ -56,6 +57,7 @@ Yarin: 20
 - 2026-07-29 22:45 | İzlanda 1.Lig | Throttur - Afturelding | scheduled | -
 - 2026-07-29 23:00 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Riestra | scheduled | -
 - 2026-07-29 23:00 | Ekvador Kupa Son 16 Turu | Gualaceo - Depor Macara | scheduled | -
+- 2026-07-29 23:00 | CONCACAF U20 Grup C | Jamaika U20 - Panama (U20) | scheduled | -
 - 2026-07-30 01:00 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) - (2) Independiente M | scheduled | -
 - 2026-07-30 01:00 | Kolombiya Kupa 2.Tur | Internacional (0) - (1) Inter Bogota | scheduled | -
 - 2026-07-30 01:15 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - River Plate | scheduled | -
@@ -81,4 +83,23 @@ Yarin: 20
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-29 00:00 | CONCACAF U20 Grup A | Haiti U20 - Kuba U20 | finished | -
+- 2026-07-29 00:30 | El Salvador Primera Lig Apertura | Cacahuatique - Balboa | finished | -
+- 2026-07-29 01:00 | Copa Sudamericana Son 32 Turu | Tigre (3) - (0) Nacional Df | finished | -
+- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Sarmiento | finished | -
+- 2026-07-29 01:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Gimnasia Mendoz | finished | -
+- 2026-07-29 01:30 | Brezilya Serie B | Juventude - Avai | finished | -
+- 2026-07-29 01:30 | Brezilya Serie B | Ponte Preta - Athletic Club | finished | -
+- 2026-07-29 02:15 | Kolombiya Kupa 2.Tur | Quindio (1) - (2) Deportes Tolima | finished | -
+- 2026-07-29 03:00 | Kolombiya Kupa 2.Tur | Bogota (1) - (0) Deportivo Pasto | finished | -
+- 2026-07-29 03:00 | Hazırlık Kulüpler | Atletico Madri - Getafe | finished | -
+- 2026-07-29 03:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Depor Motagua | finished | -
+- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Racing Club | finished | -
+- 2026-07-29 03:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Rio Cuarto | finished | -
+- 2026-07-29 03:30 | Copa Sudamericana Son 32 Turu | Santos (4) - (1) Ucv | finished | -
+- 2026-07-29 03:35 | Brezilya Serie B | Fortaleza Ce - Botafogo Ribeir | finished | -
+- 2026-07-29 04:00 | Kanada Premier Lig | Cavalry - Supra Du Quebec | finished | -
+- 2026-07-29 04:30 | Kolombiya Kupa 2.Tur | Tigres Fc (0) - (2) Atletico Nacion | finished | -
+- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Plaza Amador | finished | -
+- 2026-07-29 05:00 | CONCACAF Orta Amerika Kupası Grup C | Depor. Olimpia - Mixco | finished | -
+- 2026-07-29 05:00 | CONCACAF U20 Grup A | El Salvador U2 - Abd (U20) | finished | -

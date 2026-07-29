@@ -1,27 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-29T04:36:24.792782+00:00
+Tarih: 2026-07-29T07:17:43.159956+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 45
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 45
-- Ham veri havuzu toplam mac sayisi: 3650
+- Kac mac bulundu: 67
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 65
+- Ham veri havuzu toplam mac sayisi: 3652
 - Hedef tarih: 29.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Avustralya NPL Başkent Bölgesi
+- Brezilya Serie A
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF U20 Grup C
+- Copa Sudamericana Son 32 Turu
 - Ekvador Kupa Son 16 Turu
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Hazırlık Sydney Süper Kupası
 - Kazakistan Kupa Yarı Final
+- Kolombiya Kupa 2.Tur
 - Lübnan Premier Lig Küme Düşme Turu
+- Paraguay Kupa 2.Tur
 - UEFA Konferans Ligi 2. Eleme Turu
 - UEFA Şampiyonlar Ligi 2.Eleme Turu
 - İzlanda 1.Lig
@@ -82,8 +92,8 @@ Tarih: 2026-07-29T04:36:24.792782+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 22
-- Acilan detay: 22
+- Denenen Tumu alani: 24
+- Acilan detay: 24
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
