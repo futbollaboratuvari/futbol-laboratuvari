@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-07-28T09:03:53+03:00
+Güncelleme: 2026-07-29T09:08:01+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 62
+- Toplam tahmin kaydı: 90
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -16,10 +16,10 @@ Güncelleme: 2026-07-28T09:03:53+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 32 | 0 | 0 | 32 | %0 | 0 |
+| Değerli market yok | 48 | 0 | 0 | 48 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 2 | 16 | 0 | 0 | 16 | %0 | 4.17 |
-| MS X | 14 | 0 | 0 | 14 | %0 | 3.18 |
+| MS 2 | 24 | 0 | 0 | 24 | %0 | 4.36 |
+| MS X | 18 | 0 | 0 | 18 | %0 | 3.24 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -29,42 +29,44 @@ Güncelleme: 2026-07-28T09:03:53+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 2 | 0 | 0 | 2 | %0 | 2.99 |
-| 3.00-4.99 | 24 | 0 | 0 | 24 | %0 | 3.47 |
-| 5.00+ | 4 | 0 | 0 | 4 | %0 | 5.51 |
-| bilinmiyor | 32 | 0 | 0 | 32 | %0 | 0 |
+| 2.00-2.99 | 6 | 0 | 0 | 6 | %0 | 2.94 |
+| 3.00-4.99 | 32 | 0 | 0 | 32 | %0 | 3.76 |
+| 5.00+ | 4 | 0 | 0 | 4 | %0 | 6.27 |
+| bilinmiyor | 48 | 0 | 0 | 48 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| AFF Şampiyonası Grup B | 4 | 0 | 0 | 4 | %0 | 0 |
-| Faroe Adaları Master Lig | 2 | 0 | 0 | 2 | %0 | 4.65 |
-| Hazırlık Kulüpler | 20 | 0 | 0 | 20 | %0 | 3.43 |
-| Hazırlık Sydney Süper Kupası | 2 | 0 | 0 | 2 | %0 | 0 |
-| Litvanya 1.Lig | 4 | 0 | 0 | 4 | %0 | 0 |
-| Lübnan Premier Lig Şampiyonluk Turu | 4 | 0 | 0 | 4 | %0 | 5.8 |
-| UEFA Konferans Ligi 2. Eleme Turu | 8 | 0 | 0 | 8 | %0 | 4.24 |
-| UEFA Şampiyonlar Ligi 2.Eleme Turu | 12 | 0 | 0 | 12 | %0 | 3.36 |
-| İsveç Superettan | 4 | 0 | 0 | 4 | %0 | 3.04 |
-| İzlanda 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
+| Arjantin Premier Lig 2. Aşama | 4 | 0 | 0 | 4 | %0 | 0 |
+| Avustralya NPL Başkent Bölgesi | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ekvador Kupa Son 16 Turu | 2 | 0 | 0 | 2 | %0 | 0 |
+| Finlandiya Ykkösliiga | 2 | 0 | 0 | 2 | %0 | 2.98 |
+| Hazırlık Kulüpler | 34 | 0 | 0 | 34 | %0 | 3.74 |
+| Hazırlık Sydney Süper Kupası | 2 | 0 | 0 | 2 | %0 | 7.22 |
+| Kazakistan Kupa Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
+| Lübnan Premier Lig Küme Düşme Turu | 2 | 0 | 0 | 2 | %0 | 0 |
+| UEFA Konferans Ligi 2. Eleme Turu | 6 | 0 | 0 | 6 | %0 | 4.16 |
+| UEFA Şampiyonlar Ligi 2.Eleme Turu | 16 | 0 | 0 | 16 | %0 | 3.7 |
+| İzlanda 1.Lig | 6 | 0 | 0 | 6 | %0 | 0 |
+| İzlanda 2.Lig | 12 | 0 | 0 | 12 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Aegir VS Njardvik | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Ahli (Cidde VS Fulham | 2 | 0 | 0 | 2 | %0 | 0 |
-| Apollon Limass (4) VS (0) Dila Gori | 2 | 0 | 0 | 2 | %0 | 0 |
-| Aston Villa VS Real Sociedad | 2 | 0 | 0 | 2 | %0 | 3.26 |
-| B36 Torshavn VS Ab Argir | 2 | 0 | 0 | 2 | %0 | 4.65 |
-| Breda VS Ofi | 2 | 0 | 0 | 2 | %0 | 3.26 |
-| Bromley VS Millwall | 2 | 0 | 0 | 2 | %0 | 0 |
-| Cagliari VS Modena | 2 | 0 | 0 | 2 | %0 | 4.11 |
-| Cambuur VS Volos Nfc | 2 | 0 | 0 | 2 | %0 | 3.15 |
-| Celje (3) VS (3) Egnatia | 2 | 0 | 0 | 2 | %0 | 0 |
-| Chelsea VS Western Sydney | 2 | 0 | 0 | 2 | %0 | 0 |
-| Cska 1948 Sofi (0) VS (0) Spartak Trnava | 2 | 0 | 0 | 2 | %0 | 3.26 |
+| Atletico Madri VS Getafe | 2 | 0 | 0 | 2 | %0 | 3.4 |
+| B.Leverkusen VS Genk | 2 | 0 | 0 | 2 | %0 | 4.08 |
+| Barracas VS Aldosivi | 2 | 0 | 0 | 2 | %0 | 0 |
+| Bradford VS Prest | 2 | 0 | 0 | 2 | %0 | 3.27 |
+| Brindabella Bl VS Queanbeyan City | 2 | 0 | 0 | 2 | %0 | 0 |
+| Burnley VS Espanyol | 2 | 0 | 0 | 2 | %0 | 3.04 |
+| Cadiz VS Ceuta | 2 | 0 | 0 | 2 | %0 | 2.96 |
+| Cerezo Osaka VS B.Dortmund | 2 | 0 | 0 | 2 | %0 | 4.39 |
+| Cremonese VS Cittadella | 2 | 0 | 0 | 2 | %0 | 0 |
+| D.La Coruna VS Lugo | 2 | 0 | 0 | 2 | %0 | 0 |
+| Defensa Justic VS Riestra | 2 | 0 | 0 | 2 | %0 | 0 |
+| Doncaster VS Wolverhampton | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
