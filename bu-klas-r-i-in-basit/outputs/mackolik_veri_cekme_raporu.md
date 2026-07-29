@@ -1,19 +1,33 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-29T20:38:42.460688+00:00
+Tarih: 2026-07-29T20:53:24.752778+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 2
+- Kac mac bulundu: 26
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 2
+- Kac mac zaten vardi: 26
 - Ham veri havuzu toplam mac sayisi: 3674
 - Hedef tarih: 29.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie A
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF U20 Grup C
+- Copa Sudamericana Son 32 Turu
+- Ekvador Kupa Son 16 Turu
+- El Salvador Primera Lig Apertura
+- Hazırlık Kulüpler
+- Kolombiya Kupa 2.Tur
+- Paraguay Kupa 2.Tur
 - Romanya Kupa 1.Tur
 - İzlanda 2.Lig
 
@@ -86,8 +100,26 @@ Tarih: 2026-07-29T20:38:42.460688+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 30.07.2026 | 02:30 | Hazırlık Kulüpler | Liverpool | Wrexham | 17638 | 5 |
+| 30.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) | (2) Independiente M | 09093 | 5 |
+| 30.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Bragantino (0) | (0) Sporting Crista | 09154 | 5 |
+| 30.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Cienciano (0) | (2) Lanus | 09228 | 5 |
+| 30.07.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense | Xelaju | 00624 | 5 |
+| 30.07.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza | Antigua Guatema | 01026 | 5 |
+| 30.07.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit | Deportivo Sapri | 00675 | 5 |
+| 30.07.2026 | 03:30 | Brezilya Serie A | Vitoria Bahia | Palmeiras | 14005 | 5 |
+| 30.07.2026 | 03:30 | Brezilya Serie A | Fluminense | Bahia | 13946 | 5 |
+| 30.07.2026 | 01:30 | Brezilya Serie A | Mirassol | Remo | 13888 | 5 |
+| 30.07.2026 | 01:30 | Brezilya Serie A | Internacional | Flamengo | 13829 | 5 |
+| 30.07.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl | River Plate | 12445 | 5 |
+| 30.07.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord | Platense | 12622 | 5 |
+| 30.07.2026 | 04:00 | CONCACAF U20 Grup C | Kanada (U20) | Honduras (U20) | 06524 | 5 |
+| 30.07.2026 | 04:00 | Kolombiya Kupa 2.Tur | Real Cartagena (1) | (2) America De Cali | 04406 | 5 |
+| 30.07.2026 | 01:00 | Kolombiya Kupa 2.Tur | Internacional (0) | (1) Inter Bogota | 03715 | 5 |
+| 30.07.2026 | 01:30 | Kolombiya Kupa 2.Tur | Barranguilla (2) | (2) Atletico Junior | 03992 | 5 |
 | 29.07.2026 | 17:30 | Romanya Kupa 1.Tur | Municipal Târg | Vulturii Farcaş | 05867 | 5 |
-| 29.07.2026 | 22:15 | İzlanda 2.Lig | Vikingur Ol. | Fjolnir | 16304 | 3 |
+| 30.07.2026 | 03:00 | Ekvador Kupa Son 16 Turu | Indep. Jose Te | Manta | 01954 | 4 |
+| 30.07.2026 | 02:30 | ABD USL | Louisville Cit | Birmingham Legi | 14762 | 5 |
 
 ## Sonuc
 
