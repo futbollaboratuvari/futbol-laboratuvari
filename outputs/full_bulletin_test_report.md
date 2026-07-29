@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 24
-- Live match count: 13
+- Scheduled match count: 23
+- Live match count: 1
 - Finished removed count: 0
-- Date window: 2026-07-29 / 2026-07-30 23:59
+- Date window: 2026-07-30 / 2026-07-31 23:59
 
-- 2026-07-29 21:45 | Burnley - Espanyol | live
-- 2026-07-29 21:45 | Ipswich - Osasuna | live
-- 2026-07-29 21:45 | Villanovense - Cacereno | live
-- 2026-07-29 22:15 | Grindavik - Leiknir Reykjav | live
-- 2026-07-29 22:15 | Haukar - Kfg Gardabar | live
-- 2026-07-29 22:15 | Kari - Kormakur | live
-- 2026-07-29 22:15 | Throttur Vogar - Hviti | live
-- 2026-07-29 22:15 | Vikingur Ol. - Fjolnir | live
-- 2026-07-29 22:30 | Atletico Madri - Getafe | live
-- 2026-07-29 22:45 | Throttur - Afturelding | live
+- 2026-07-30 00:00 | River Plate - Sol De America | live
+- 2026-07-30 01:00 | Vasco Da Gama (2) - (2) Independiente M | scheduled
+- 2026-07-30 01:00 | Internacional (0) - (1) Inter Bogota | scheduled
+- 2026-07-30 01:15 | Gimnasia La Pl - River Plate | scheduled
+- 2026-07-30 01:30 | Internacional - Flamengo | scheduled
+- 2026-07-30 01:30 | Mirassol - Remo | scheduled
+- 2026-07-30 01:30 | Barranguilla (2) - (2) Atletico Junior | scheduled
+- 2026-07-30 02:00 | Greenville Tri - Athletic Club B | scheduled
+- 2026-07-30 02:00 | Pittsburgh Riv - Tulsa Roughneck | scheduled
+- 2026-07-30 02:30 | Louisville Cit - Birmingham Legi | scheduled
