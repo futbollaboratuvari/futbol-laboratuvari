@@ -1,62 +1,14 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-29T20:53:41.491Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-07-29T21:13:32.605Z
+- Ham maç sayısı: 24
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 70
+- Aktif bülten maçı: 0
+- Bültenden düşürülen maç: 24
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Ipswich VS Osasuna | Hazırlık Kulüpler | 21:45 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Burnley VS Espanyol | Hazırlık Kulüpler | 21:45 | MS X | 2.90 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Villanovense VS Cacereno | Hazırlık Kulüpler | 21:45 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Grindavik VS Leiknir Reykjav | İzlanda 1.Lig | 22:15 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Vikingur Ol. VS Fjolnir | İzlanda 2.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Haukar VS Kfg Gardabar | İzlanda 2.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Kari VS Kormakur | İzlanda 2.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Throttur Vogar VS Hviti | İzlanda 2.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Atletico Madri VS Getafe | Hazırlık Kulüpler | 22:30 | MS 2 | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Throttur VS Afturelding | İzlanda 1.Lig | 22:45 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Defensa Justic VS Riestra | Arjantin Premier Lig 2. Aşama | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Gualaceo VS Depor Macara | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Jamaika U20 VS Panama (U20) | CONCACAF U20 Grup C | 23:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| River Plate VS Sol De America | Paraguay Kupa 2.Tur | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Vasco Da Gama (2) VS (2) Independiente M | Copa Sudamericana Son 32 Turu | 01:00 | MS 2 | 5.57 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Internacional (0) VS (1) Inter Bogota | Kolombiya Kupa 2.Tur | 01:00 | MS X | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Gimnasia La Pl VS River Plate | Arjantin Premier Lig 2. Aşama | 01:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Internacional VS Flamengo | Brezilya Serie A | 01:30 | MS 1 | 3.33 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Mirassol VS Remo | Brezilya Serie A | 01:30 | MS 2 | 4.53 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Barranguilla (2) VS (2) Atletico Junior | Kolombiya Kupa 2.Tur | 01:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Pittsburgh Riv VS Tulsa Roughneck | ABD USL | 02:00 | MS 2 | 3.66 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Greenville Tri VS Athletic Club B | ABD USL Lig 1 | 02:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Louisville Cit VS Birmingham Legi | ABD USL | 02:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Liverpool VS Wrexham | Hazırlık Kulüpler | 02:30 | MS 2 | 5.14 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Umecit VS Deportivo Sapri | CONCACAF Orta Amerika Kupası Grup C | 03:00 | MS 1 | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Indep. Jose Te VS Manta | Ekvador Kupa Son 16 Turu | 03:00 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Forward Madiso VS Chattanooga Red | ABD USL Lig 1 | 03:00 | MS 2 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cienciano (0) VS (2) Lanus | Copa Sudamericana Son 32 Turu | 03:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Bragantino (0) VS (0) Sporting Crista | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Vitoria Bahia VS Palmeiras | Brezilya Serie A | 03:30 | MS 1 | 3.47 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Fluminense VS Bahia | Brezilya Serie A | 03:30 | MS 2 | 4.28 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Instituto Cord VS Platense | Arjantin Premier Lig 2. Aşama | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Real Cartagena (1) VS (2) America De Cali | Kolombiya Kupa 2.Tur | 04:00 | MS 1 | 2.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Kanada (U20) VS Honduras (U20) | CONCACAF U20 Grup C | 04:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Firpo VS Fuerte San Fran | El Salvador Primera Lig Apertura | 04:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Alajuelense VS Xelaju | CONCACAF Orta Amerika Kupası Grup A | 05:00 | MS 2 | 4.52 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Alianza VS Antigua Guatema | CONCACAF Orta Amerika Kupası Grup B | 05:00 | MS X | 2.69 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |

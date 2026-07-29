@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 29.07.2026 23:53:58
+Oluşturma: 30.07.2026 00:13:39
 
 ## Özet
 
-- Toplam tahmin: 80
-- Bekleyen tahmin: 80
+- Toplam tahmin: 96
+- Bekleyen tahmin: 96
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 20
+- Lig sayısı: 27
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 29.07.2026 23:53:58
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS X: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-07-29 | Hazırlık Kulüpler | Farnborough - Portsmouth | MS X | pending | 55/100
-- 2026-07-29 | Hazırlık Kulüpler | Girona - Castellon | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | Cadiz - Ceuta | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | Gubbio - Sporting Tresti | MS 2 | pending | 75/100
-- 2026-07-29 | Hazırlık Kulüpler | Sestao - A.Bilbao B | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | Tirsense - Varzim | MS 1 | pending | 40/100
-- 2026-07-29 | Hazırlık Kulüpler | Marino De Luan - Real Aviles | MS 1 | pending | 40/100
-- 2026-07-29 | Hazırlık Kulüpler | Boston United - Grimsby | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | Farnborough - Portsmouth | MS 1 | pending | 40/100
-- 2026-07-29 | İzlanda 1.Lig | Grindavik - Leiknir Reykjav | MS X | pending | 50/100
-- 2026-07-29 | Hazırlık Kulüpler | St Etienne - Lausanne | MS 2 | pending | 60/100
-- 2026-07-29 | Hazırlık Kulüpler | Cerezo Osaka - B.Dortmund | MS X | pending | 55/100
-- 2026-07-29 | Hazırlık Kulüpler | Hoffenheim - Holstein Kiel | MS 2 | pending | 40/100
-- 2026-07-29 | Hazırlık Sydney Süper Kupası | Tottenham - Sydney | MS 2 | pending | 40/100
-- 2026-07-29 | Hazırlık Kulüpler | Watford - Fiorentina | MS X | pending | 50/100
+- 2026-07-30 | Hazırlık Kulüpler | Liverpool - Wrexham | MS 2 | pending | 40/100
+- 2026-07-30 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | MS 1 | pending | 50/100
+- 2026-07-30 | ABD USL Lig 1 | Forward Madiso - Chattanooga Red | MS 2 | pending | 50/100
+- 2026-07-30 | Copa Sudamericana Son 32 Turu | Cienciano (0) - (2) Lanus | MS X | pending | 40/100
+- 2026-07-30 | Brezilya Serie A | Vitoria Bahia - Palmeiras | MS 1 | pending | 40/100
+- 2026-07-30 | Brezilya Serie A | Fluminense - Bahia | MS 2 | pending | 50/100
+- 2026-07-30 | Kolombiya Kupa 2.Tur | Real Cartagena (1) - (2) America De Cali | MS 1 | pending | 50/100
+- 2026-07-30 | CONCACAF U20 Grup C | Kanada (U20) - Honduras (U20) | MS X | pending | 50/100
+- 2026-07-30 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Xelaju | MS 2 | pending | 50/100
+- 2026-07-30 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | MS X | pending | 40/100
+- 2026-07-30 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | MS 2 | pending | 40/100
+- 2026-07-30 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | MS X | pending | 50/100
+- 2026-07-30 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) - (2) Independiente M | MS 2 | pending | 50/100
+- 2026-07-30 | Kolombiya Kupa 2.Tur | Internacional (0) - (1) Inter Bogota | MS X | pending | 40/100
+- 2026-07-30 | Brezilya Serie A | Internacional - Flamengo | MS 1 | pending | 50/100
 

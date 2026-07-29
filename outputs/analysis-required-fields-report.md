@@ -1,9 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 40
-Tam analiz: 38
-Eksik analiz: 2
+Toplam analiz: 24
+Tam analiz: 23
+Eksik analiz: 1
 
-- Fylkir VS Völsungur: eksik score, confidence
-- Gualaceo VS Depor Macara: eksik score, confidence
+- River Plate VS Sol De America: eksik score, confidence
