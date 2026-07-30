@@ -2,39 +2,15 @@
 
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
-Ham mac: 81
-Aktif mac: 62
-Canli mac: 19
-Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 43
+Ham mac: 108
+Aktif mac: 38
+Canli mac: 25
+Biten mac: 45
+Bultenden dusurulen mac: 70
+Bugun: 19
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hradec Kralove (1) - (0) Tromso | scheduled | -
-- 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | scheduled | -
-- 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Pafos Fc (0) - (2) Hajduk Split | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Nordsjaelland (0) - (1) Gais | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) - (2) Atert Bissen | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Zalgiris Vilni (0) - (3) Dinamo Tiflis | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Hb Torshavn (0) - (2) Motherwell | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Velez Mostar (0) - (1) Dac | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Petrocub (0) - (3) Borac Banja Luk | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Minsk (4) - (2) Neftchi Baku | scheduled | -
-- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Brann (2) - (2) Universitatea C | scheduled | -
-- 2026-07-30 20:00 | İsveç 2.Lig Södra Götaland | Karlskrona - Nosaby If | scheduled | -
-- 2026-07-30 20:00 | Norveç 3.Lig Grup 5 | Ulfstind - Skjervoy | scheduled | -
-- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Valletta (1) - (3) Rakow Czestocho | scheduled | -
-- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Derry City (0) - (1) Rijeka | scheduled | -
-- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | The New Saints (0) - (1) Flora Tallinn | scheduled | -
-- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Beitar Jerusal (1) - (0) Ae Kition | scheduled | -
-- 2026-07-30 20:45 | UEFA Avrupa Ligi 2. Eleme Turu | Paok (3) - (2) Dynamo Kiev | scheduled | -
-- 2026-07-30 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Cska Sofia (0) - (0) Qarabagh | scheduled | -
-- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ballkani (1) - (2) Bohemian | scheduled | -
-- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ajax (4) - (1) Vojvodina | scheduled | -
-- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vestri (1) - (4) Daugava Riga | scheduled | -
-- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Skendija (1) - (2) Ask Bravo | scheduled | -
-- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ludogorets (0) - (2) Hapoel Tel Aviv | scheduled | -
 - 2026-07-30 21:15 | UEFA Konferans Ligi 2. Eleme Turu | Fc Una Strasse (0) - (4) Partizan Belgra | scheduled | -
 - 2026-07-30 21:15 | UEFA Konferans Ligi 2. Eleme Turu | Sion (1) - (1) Bate Borisov | scheduled | -
 - 2026-07-30 21:30 | UEFA Avrupa Ligi 2. Eleme Turu | Ferencvaros (2) - (1) Twente | scheduled | -
@@ -75,25 +51,75 @@ Yarin: 19
 - 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 
 ## Canli Maclar
-- 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Tobol Kostanay (1) - (1) Fk Panevezys | live | -
-- 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Descaldes (0) - (4) Vaduz | live | -
-- 2026-07-30 17:00 | Hazırlık Kulüpler | Bournemouth - Augsburg | live | -
-- 2026-07-30 18:00 | Hazırlık Kulüpler | Parma - Arezzo | live | -
-- 2026-07-30 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu - Japs | live | -
-- 2026-07-30 18:30 | Hazırlık Kulüpler | Cavese - Sarnese | live | -
-- 2026-07-30 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) - (0) Sheriff Tiraspo | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Jablonec (2) - (3) Varazdin | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Nomme Kalju (2) - (5) Shelbourne | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Auda (3) - (2) Fc Steaua | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Noah (1) - (1) Zimbru | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Inter Turku (1) - (1) Başakşehir Fk | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Pyunik Erewan (0) - (1) Debreceni | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Ilves (0) - (1) Stjarnan | live | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Zira (0) - (1) Paide Linnamees | live | -
-- 2026-07-30 19:00 | Hazırlık Kulüpler | Monza - Aris | live | -
-- 2026-07-30 19:00 | Finlandiya Ykkönen | Fc Jazz - Kups Ak. | live | -
-- 2026-07-30 19:00 | Hazırlık Kulüpler | Marsilya - Nimes | live | -
 - 2026-07-30 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | live | -
+- 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hradec Kralove (1) - (0) Tromso | live | -
+- 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | live | -
+- 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Pafos Fc (0) - (2) Hajduk Split | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Nordsjaelland (0) - (1) Gais | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) - (2) Atert Bissen | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Zalgiris Vilni (0) - (3) Dinamo Tiflis | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Hb Torshavn (0) - (2) Motherwell | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Velez Mostar (0) - (1) Dac | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Petrocub (0) - (3) Borac Banja Luk | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Minsk (4) - (2) Neftchi Baku | live | -
+- 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Brann (2) - (2) Universitatea C | live | -
+- 2026-07-30 20:00 | İsveç 2.Lig Södra Götaland | Karlskrona - Nosaby If | live | -
+- 2026-07-30 20:00 | Norveç 3.Lig Grup 5 | Ulfstind - Skjervoy | live | -
+- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Valletta (1) - (3) Rakow Czestocho | live | -
+- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Derry City (0) - (1) Rijeka | live | -
+- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | The New Saints (0) - (1) Flora Tallinn | live | -
+- 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Beitar Jerusal (1) - (0) Ae Kition | live | -
+- 2026-07-30 20:45 | UEFA Avrupa Ligi 2. Eleme Turu | Paok (3) - (2) Dynamo Kiev | live | -
+- 2026-07-30 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Cska Sofia (0) - (0) Qarabagh | live | -
+- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ballkani (1) - (2) Bohemian | live | -
+- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ajax (4) - (1) Vojvodina | live | -
+- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Vestri (1) - (4) Daugava Riga | live | -
+- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Skendija (1) - (2) Ask Bravo | live | -
+- 2026-07-30 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ludogorets (0) - (2) Hapoel Tel Aviv | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-30 00:00 | Paraguay Kupa 2.Tur | River Plate - Sol De America | finished | -
+- 2026-07-30 01:00 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) - (2) Independiente M | finished | -
+- 2026-07-30 01:00 | Kolombiya Kupa 2.Tur | Internacional (0) - (1) Inter Bogota | finished | -
+- 2026-07-30 01:15 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - River Plate | finished | -
+- 2026-07-30 01:30 | Brezilya Serie A | Internacional - Flamengo | finished | -
+- 2026-07-30 01:30 | Brezilya Serie A | Mirassol - Remo | finished | -
+- 2026-07-30 01:30 | Kolombiya Kupa 2.Tur | Barranguilla (2) - (2) Atletico Junior | finished | -
+- 2026-07-30 02:00 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | finished | -
+- 2026-07-30 02:00 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | finished | -
+- 2026-07-30 02:30 | ABD USL | Louisville Cit - Birmingham Legi | finished | -
+- 2026-07-30 02:30 | Hazırlık Kulüpler | Liverpool - Wrexham | finished | -
+- 2026-07-30 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | finished | -
+- 2026-07-30 03:00 | Ekvador Kupa Son 16 Turu | Indep. Jose Te - Manta | finished | -
+- 2026-07-30 03:00 | ABD USL Lig 1 | Forward Madiso - Chattanooga Red | finished | -
+- 2026-07-30 03:30 | Copa Sudamericana Son 32 Turu | Cienciano (0) - (2) Lanus | finished | -
+- 2026-07-30 03:30 | Copa Sudamericana Son 32 Turu | Bragantino (0) - (0) Sporting Crista | finished | -
+- 2026-07-30 03:30 | Brezilya Serie A | Vitoria Bahia - Palmeiras | finished | -
+- 2026-07-30 03:30 | Brezilya Serie A | Fluminense - Bahia | finished | -
+- 2026-07-30 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Platense | finished | -
+- 2026-07-30 04:00 | Kolombiya Kupa 2.Tur | Real Cartagena (1) - (2) America De Cali | finished | -
+- 2026-07-30 04:00 | CONCACAF U20 Grup C | Kanada (U20) - Honduras (U20) | finished | -
+- 2026-07-30 04:00 | El Salvador Primera Lig Apertura | Firpo - Fuerte San Fran | finished | -
+- 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Xelaju | finished | -
+- 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | finished | -
+- 2026-07-30 12:00 | Hazırlık Kulüpler | Stade Lavalloi - Granville | finished | -
+- 2026-07-30 12:30 | Avustralya FFA Kupası Son 32 Turu | South Melbourn - Adelaide United | finished | -
+- 2026-07-30 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney Olympic - Brisbane Roar | finished | -
+- 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Tobol Kostanay (1) - (1) Fk Panevezys | finished | -
+- 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Descaldes (0) - (4) Vaduz | finished | -
+- 2026-07-30 17:00 | Hazırlık Kulüpler | Bournemouth - Augsburg | finished | -
+- 2026-07-30 18:00 | Hazırlık Kulüpler | Parma - Arezzo | finished | -
+- 2026-07-30 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu - Japs | finished | -
+- 2026-07-30 18:30 | Hazırlık Kulüpler | Cavese - Sarnese | finished | -
+- 2026-07-30 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) - (0) Sheriff Tiraspo | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Jablonec (2) - (3) Varazdin | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Nomme Kalju (2) - (5) Shelbourne | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Auda (3) - (2) Fc Steaua | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Noah (1) - (1) Zimbru | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Inter Turku (1) - (1) Başakşehir Fk | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Pyunik Erewan (0) - (1) Debreceni | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Ilves (0) - (1) Stjarnan | finished | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Zira (0) - (1) Paide Linnamees | finished | -
+- 2026-07-30 19:00 | Hazırlık Kulüpler | Monza - Aris | finished | -
+- 2026-07-30 19:00 | Finlandiya Ykkönen | Fc Jazz - Kups Ak. | finished | -
+- 2026-07-30 19:00 | Hazırlık Kulüpler | Marsilya - Nimes | finished | -
