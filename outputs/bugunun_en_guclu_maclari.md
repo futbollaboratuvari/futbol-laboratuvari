@@ -4,25 +4,20 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-30T03:49:50.109Z
+- Güncelleme: 2026-07-30T04:27:58.029Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Real Cartagena (1) VS (2) America De Cali | Kolombiya Kupa 2.Tur | 04:00 | MS 1 | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Kanada (U20) VS Honduras (U20) | CONCACAF U20 Grup C | 04:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Firpo VS Fuerte San Fran | El Salvador Primera Lig Apertura | 04:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Alajuelense VS Xelaju | CONCACAF Orta Amerika Kupası Grup A | 05:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Alianza VS Antigua Guatema | CONCACAF Orta Amerika Kupası Grup B | 05:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Stade Lavalloi VS Granville | Hazırlık Kulüpler | 12:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | South Melbourn VS Adelaide United | Avustralya FFA Kupası Son 32 Turu | 12:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sydney Olympic VS Brisbane Roar | Avustralya FFA Kupası Son 32 Turu | 12:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Tobol Kostanay (1) VS (1) Fk Panevezys | UEFA Konferans Ligi 2. Eleme Turu | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Descaldes (0) VS (4) Vaduz | UEFA Konferans Ligi 2. Eleme Turu | 17:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Bournemouth VS Augsburg | Hazırlık Kulüpler | 17:00 | MS X | 3.45 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Parma VS Arezzo | Hazırlık Kulüpler | 18:00 | MS 2 | 4.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bournemouth VS Augsburg | Hazırlık Kulüpler | 17:00 | MS X | 3.64 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Parma VS Arezzo | Hazırlık Kulüpler | 18:00 | MS 2 | 3.90 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Jippo Joensuu VS Japs | Finlandiya Ykkösliiga | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Maccabi Tel Av (5) VS (0) Sheriff Tiraspo | UEFA Avrupa Ligi 2. Eleme Turu | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Jablonec (2) VS (3) Varazdin | UEFA Konferans Ligi 2. Eleme Turu | 19:00 | MS 2 | 3.92 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
@@ -40,7 +35,7 @@
 | Midtjylland (0) VS (1) Beşiktaş | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | MS 2 | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Pafos Fc (0) VS (2) Hajduk Split | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | MS 2 | 3.55 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Nordsjaelland (0) VS (1) Gais | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Gyor (6) VS (2) Atert Bissen | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | MS X | 5.69 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Gyor (6) VS (2) Atert Bissen | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | MS X | 5.52 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Zalgiris Vilni (0) VS (3) Dinamo Tiflis | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hb Torshavn (0) VS (2) Motherwell | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Velez Mostar (0) VS (1) Dac | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -51,8 +46,8 @@
 | Valletta (1) VS (3) Rakow Czestocho | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Derry City (0) VS (1) Rijeka | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | The New Saints (0) VS (1) Flora Tallinn | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | MS 2 | 3.68 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Beitar Jerusal (1) VS (0) Ae Kition | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | MS X | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Paok (3) VS (2) Dynamo Kiev | UEFA Avrupa Ligi 2. Eleme Turu | 20:45 | MS 2 | 3.63 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Beitar Jerusal (1) VS (0) Ae Kition | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | MS X | 2.93 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Paok (3) VS (2) Dynamo Kiev | UEFA Avrupa Ligi 2. Eleme Turu | 20:45 | MS 2 | 3.57 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cska Sofia (0) VS (0) Qarabagh | UEFA Avrupa Ligi 2. Eleme Turu | 21:00 | MS X | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ballkani (1) VS (2) Bohemian | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | MS X | 2.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ajax (4) VS (1) Vojvodina | UEFA Konferans Ligi 2. Eleme Turu | 21:00 | Değerli market yok | - | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
@@ -63,21 +58,21 @@
 | Sion (1) VS (1) Bate Borisov | UEFA Konferans Ligi 2. Eleme Turu | 21:15 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Ferencvaros (2) VS (1) Twente | UEFA Avrupa Ligi 2. Eleme Turu | 21:30 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Anderlecht (1) VS (1) Hammarby | UEFA Avrupa Ligi 2. Eleme Turu | 21:30 | MS X | 2.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Zrinjski (0) VS (1) Valur | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | MS X | 5.47 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Austria Vienna (2) VS (0) Liepaja | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
+| Zrinjski (0) VS (1) Valur | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | MS X | 5.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Austria Vienna (2) VS (0) Liepaja | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | MS X | 5.78 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Gks Katowice (1) VS (2) Zilina | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | MS 2 | 4.24 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Cfr Cluj (1) VS (1) Alashkert | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | MS 2 | 4.50 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Cfr Cluj (1) VS (1) Alashkert | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | MS 2 | 4.67 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Gent (0) VS (0) Lnz Cherkasy | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Panathinaikos (2) VS (1) Paksi | UEFA Konferans Ligi 2. Eleme Turu | 21:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Koper (2) VS (0) Runavik | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Coleraine (0) VS (5) Helsinki | UEFA Konferans Ligi 2. Eleme Turu | 21:45 | MS X | 3.43 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Benfica (1) VS (2) St Gallen | UEFA Avrupa Ligi 2. Eleme Turu | 22:00 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Dinamo Tirana (1) VS (1) Aluminij | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | MS 2 | 3.86 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Dinamo Tirana (1) VS (1) Aluminij | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | MS 2 | 3.88 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Sutjeska (0) VS (3) Ml Vitebsk | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | MS X | 2.82 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Braga (1) VS (0) Zeleznicar Panc | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Hibernian (0) VS (2) Malisheva | UEFA Konferans Ligi 2. Eleme Turu | 22:00 | MS X | 5.70 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Ldu Quito VS Leones Del Nort | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Envigado (0) VS (3) Once Caldas | Kolombiya Kupa 2.Tur | 23:30 | MS 1 | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Envigado (0) VS (3) Once Caldas | Kolombiya Kupa 2.Tur | 23:30 | MS 1 | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gremio (2) VS (3) Bolivar | Copa Sudamericana Son 32 Turu | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Rivadavia VS Huracan | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Talleres VS Velez Sarsfield | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -87,28 +82,31 @@
 | Corboda Santia VS Atletico Tucuma | Arjantin Premier Lig 2. Aşama | 03:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | O Higgins (0) VS (1) Boca Juniors | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Caracas Fc (0) VS (2) Santa Fe | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Coritiba VS Cruzeiro | Brezilya Serie A | 03:30 | MS 1 | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Coritiba VS Cruzeiro | Brezilya Serie A | 03:30 | MS 1 | 2.96 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Meksika (U20) VS Guatemala U20 | CONCACAF U20 Grup B | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Alebrijes VS Dorados | Meksika Ascenso MX Apertura | 04:00 | MS 2 | 3.65 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Inter Fa VS Aguila | El Salvador Primera Lig Apertura | 05:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Municipal VS Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 06:00 | MS 2 | 3.33 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Inter Fa VS Aguila | El Salvador Primera Lig Apertura | 05:00 | MS X | 2.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Municipal VS Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 06:00 | MS 2 | 3.43 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Austria Vienna (2) VS (0) Liepaja | MS X | 5.78 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Hibernian (0) VS (2) Malisheva | MS X | 5.70 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Gyor (6) VS (2) Atert Bissen | MS X | 5.69 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Gyor (6) VS (2) Atert Bissen | MS X | 5.52 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Fc Jazz VS Kups Ak. | MS X | 3.74 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Zira (0) VS (1) Paide Linnamees | MS X | 5.18 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Zrinjski (0) VS (1) Valur | MS X | 5.47 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Zrinjski (0) VS (1) Valur | MS X | 5.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hibernian (0) VS (2) Malisheva + Gyor (6) VS (2) Atert Bissen | MS X + MS X | 32.43 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Fc Jazz VS Kups Ak. + Zira (0) VS (1) Paide Linnamees | MS X + MS X | 19.37 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Austria Vienna (2) VS (0) Liepaja + Hibernian (0) VS (2) Malisheva | MS X + MS X | 32.95 | 88 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Gyor (6) VS (2) Atert Bissen + Fc Jazz VS Kups Ak. | MS X + MS X | 20.64 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Zira (0) VS (1) Paide Linnamees + Zrinjski (0) VS (1) Valur | MS X + MS X | 28.85 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hibernian (0) VS (2) Malisheva + Gyor (6) VS (2) Atert Bissen + Fc Jazz VS Kups Ak. | MS X + MS X + MS X | 121.30 | 80 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Austria Vienna (2) VS (0) Liepaja + Hibernian (0) VS (2) Malisheva + Gyor (6) VS (2) Atert Bissen | MS X + MS X + MS X | 181.86 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Fc Jazz VS Kups Ak. + Zira (0) VS (1) Paide Linnamees + Zrinjski (0) VS (1) Valur | MS X + MS X + MS X | 107.91 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

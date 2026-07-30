@@ -1,25 +1,32 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-30T02:55:38.508161+00:00
+Tarih: 2026-07-30T04:27:25.486420+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 62
+- Kac mac bulundu: 76
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 62
+- Kac mac zaten vardi: 76
 - Ham veri havuzu toplam mac sayisi: 3750
 - Hedef tarih: 30.07.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
 - Avustralya FFA Kupası Son 32 Turu
+- Brezilya Serie A
+- CONCACAF Orta Amerika Kupası Grup D
+- CONCACAF U20 Grup B
+- Copa Sudamericana Son 32 Turu
 - Ekvador Kupa Son 16 Turu
+- El Salvador Primera Lig Apertura
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Kolombiya Kupa 2.Tur
+- Meksika Ascenso MX Apertura
 - UEFA Avrupa Ligi 2. Eleme Turu
 - UEFA Konferans Ligi 2. Eleme Turu
 - İsveç 2.Lig Södra Götaland
@@ -110,7 +117,7 @@ Tarih: 2026-07-30T02:55:38.508161+00:00
 | 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Nordsjaelland (0) | (1) Gais | 10472 | 5 |
 | 30.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Derry City (0) | (1) Rijeka | 10861 | 5 |
 | 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Gks Katowice (1) | (2) Zilina | 12689 | 5 |
-| 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) | (2) Atert Bissen | 10249 | 4 |
+| 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) | (2) Atert Bissen | 10249 | 5 |
 | 30.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Nomme Kalju (2) | (5) Shelbourne | 09864 | 5 |
 | 30.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Koper (2) | (0) Runavik | 13174 | 5 |
 

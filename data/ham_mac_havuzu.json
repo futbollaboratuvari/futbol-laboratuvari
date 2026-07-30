@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T03:49:50.109Z",
+  "generated_at": "2026-07-30T04:27:58.029Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -13,7 +13,18 @@
       "İkinci Yarı KG Var",
       "KG Var",
       "2.5 Üst",
-      "3.5 Üst"
+      "3.5 Üst",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
     ],
     "scoring_classes": {
       "80-100": "Ana kupon adayı",
@@ -23,516 +34,9 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 81,
-  "analysis_count": 8,
+  "match_count": 76,
+  "analysis_count": 11,
   "matches": [
-    {
-      "home_team_name": "Real Cartagena (1)",
-      "away_team_name": "(2) America De Cali",
-      "competition_name": "Kolombiya Kupa 2.Tur",
-      "date": "2026-07-30",
-      "time": "04:00",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "2.86",
-      "confidence_score": "40%",
-      "trust_score": "40/100",
-      "analysis_score": 40,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 45,
-        "over25Percent": 47,
-        "over35Percent": 29,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 51,
-        "leagueGoalAverage": 2.69,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 2.86",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Kanada (U20)",
-      "away_team_name": "Honduras (U20)",
-      "competition_name": "CONCACAF U20 Grup C",
-      "date": "2026-07-30",
-      "time": "04:00",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "2.96",
-      "confidence_score": "50%",
-      "trust_score": "50/100",
-      "analysis_score": 50,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 49,
-        "over25Percent": 54,
-        "over35Percent": 36,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 55,
-        "leagueGoalAverage": 2.77,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: MS X",
-        "Oran: 2.96",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Firpo",
-      "away_team_name": "Fuerte San Fran",
-      "competition_name": "El Salvador Primera Lig Apertura",
-      "date": "2026-07-30",
-      "time": "04:00",
-      "status": "filtered_no_value_market",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "10%",
-      "trust_score": "10/100",
-      "analysis_score": 10,
-      "analysis_class": "Oynama",
-      "value_label": "Normal Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Orta",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": 49,
-        "over35Percent": 31,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": 2.71,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Oynama",
-      "expected_scores": [],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Alajuelense",
-      "away_team_name": "Xelaju",
-      "competition_name": "CONCACAF Orta Amerika Kupası Grup A",
-      "date": "2026-07-30",
-      "time": "05:00",
-      "status": "filtered_no_value_market",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "25%",
-      "trust_score": "25/100",
-      "analysis_score": 25,
-      "analysis_class": "Oynama",
-      "value_label": "Normal Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 3,
-        "homeConcededLast10": 5,
-        "awayConcededLast10": 5,
-        "bttsPercent": 60,
-        "over25Percent": 41,
-        "over35Percent": 25,
-        "firstHalfGoalTrend": 46,
-        "secondHalfGoalTrend": 66,
-        "leagueGoalAverage": 2.62,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 3,
-        "homeConcededLast10Count": 5,
-        "awayConcededLast10Count": 5
-      },
-      "tag": "Oynama",
-      "expected_scores": [],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "İkinci yarı gol eğilimi yüksek: +10",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Alianza",
-      "away_team_name": "Antigua Guatema",
-      "competition_name": "CONCACAF Orta Amerika Kupası Grup B",
-      "date": "2026-07-30",
-      "time": "05:00",
-      "status": "filtered_no_value_market",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "15%",
-      "trust_score": "15/100",
-      "analysis_score": 15,
-      "analysis_class": "Oynama",
-      "value_label": "Normal Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 3,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 48,
-        "over25Percent": 41,
-        "over35Percent": 25,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 54,
-        "leagueGoalAverage": 2.62,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 3,
-        "awayScoredLast10Count": 3,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Oynama",
-      "expected_scores": [],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
     {
       "home_team_name": "Stade Lavalloi",
       "away_team_name": "Granville",
@@ -611,27 +115,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "South Melbourn",
@@ -709,27 +193,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Sydney Olympic",
@@ -806,27 +270,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Yüksek",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Tobol Kostanay (1)",
@@ -905,27 +349,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Descaldes (0)",
@@ -1003,27 +427,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Bournemouth",
@@ -1034,7 +438,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "3.45",
+      "suggested_odds": "3.64",
       "confidence_score": "60%",
       "trust_score": "60/100",
       "analysis_score": 60,
@@ -1099,7 +503,7 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 3.45",
+        "Oran: 3.64",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -1111,27 +515,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Parma",
@@ -1142,7 +526,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "4.08",
+      "suggested_odds": "3.90",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -1207,7 +591,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 4.08",
+        "Oran: 3.90",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -1218,27 +602,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Jippo Joensuu",
@@ -1317,27 +681,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Maccabi Tel Av (5)",
@@ -1416,27 +760,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Jablonec (2)",
@@ -1524,27 +848,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Nomme Kalju (2)",
@@ -1631,27 +935,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Auda (3)",
@@ -1729,27 +1013,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Noah (1)",
@@ -1828,27 +1092,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Inter Turku (1)",
@@ -1926,27 +1170,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Pyunik Erewan (0)",
@@ -2032,27 +1256,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ilves (0)",
@@ -2140,27 +1344,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Zira (0)",
@@ -2249,27 +1433,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Orta risk kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Monza",
@@ -2356,27 +1520,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Fc Jazz",
@@ -2466,27 +1610,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Ana kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Levadia Tallin (2)",
@@ -2573,27 +1697,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Hradec Kralove (1)",
@@ -2680,27 +1784,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Midtjylland (0)",
@@ -2787,27 +1871,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Pafos Fc (0)",
@@ -2894,27 +1958,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Nordsjaelland (0)",
@@ -2993,27 +2037,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Gyor (6)",
@@ -3024,7 +2048,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "5.69",
+      "suggested_odds": "5.52",
       "confidence_score": "80%",
       "trust_score": "80/100",
       "analysis_score": 80,
@@ -3089,7 +2113,7 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 5.69",
+        "Oran: 5.52",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -3103,27 +2127,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Ana kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Zalgiris Vilni (0)",
@@ -3210,27 +2214,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Hb Torshavn (0)",
@@ -3308,27 +2292,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Velez Mostar (0)",
@@ -3405,27 +2369,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Petrocub (0)",
@@ -3503,27 +2447,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Dinamo Minsk (4)",
@@ -3609,27 +2533,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Brann (2)",
@@ -3708,27 +2612,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Karlskrona",
@@ -3807,27 +2691,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Valletta (1)",
@@ -3906,27 +2770,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Derry City (0)",
@@ -4004,27 +2848,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "The New Saints (0)",
@@ -4111,27 +2935,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Beitar Jerusal (1)",
@@ -4142,7 +2946,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "2.91",
+      "suggested_odds": "2.93",
       "confidence_score": "40%",
       "trust_score": "40/100",
       "analysis_score": 40,
@@ -4207,7 +3011,7 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 2.91",
+        "Oran: 2.93",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -4217,27 +3021,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Paok (3)",
@@ -4248,7 +3032,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "3.63",
+      "suggested_odds": "3.57",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -4313,7 +3097,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 3.63",
+        "Oran: 3.57",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -4324,27 +3108,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Cska Sofia (0)",
@@ -4430,27 +3194,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ballkani (1)",
@@ -4537,27 +3281,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ajax (4)",
@@ -4639,27 +3363,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Orta risk kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Vestri (1)",
@@ -4748,27 +3452,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Skendija (1)",
@@ -4856,27 +3540,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ludogorets (0)",
@@ -4964,27 +3628,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Fc Una Strasse (0)",
@@ -5063,27 +3707,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Sion (1)",
@@ -5166,27 +3790,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Ana kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ferencvaros (2)",
@@ -5273,27 +3877,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Anderlecht (1)",
@@ -5380,27 +3964,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Zrinjski (0)",
@@ -5411,7 +3975,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "5.47",
+      "suggested_odds": "5.57",
       "confidence_score": "70%",
       "trust_score": "70/100",
       "analysis_score": 70,
@@ -5476,7 +4040,7 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 5.47",
+        "Oran: 5.57",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -5489,27 +4053,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Orta risk kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Austria Vienna (2)",
@@ -5517,16 +4061,16 @@
       "competition_name": "UEFA Konferans Ligi 2. Eleme Turu",
       "date": "2026-07-30",
       "time": "21:30",
-      "status": "filtered_no_value_market",
+      "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "85%",
-      "trust_score": "85/100",
-      "analysis_score": 85,
+      "suggested_option": "MS X",
+      "suggested_odds": "5.78",
+      "confidence_score": "95%",
+      "trust_score": "95/100",
+      "analysis_score": 95,
       "analysis_class": "Ana kupon adayı",
-      "value_label": "Normal Değer",
-      "risk_level": "Orta",
+      "value_label": "Yüksek Değer",
+      "risk_level": "Düşük",
       "data_gap_risk": "Düşük",
       "analysis_metrics": {
         "homeScoredLast10": 5,
@@ -5578,10 +4122,16 @@
         "awayConcededLast10Count": 6
       },
       "tag": "Ana kupon adayı",
-      "expected_scores": [],
+      "expected_scores": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
       "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
+        "Market: MS X",
+        "Oran: 5.78",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
         "İki takım son 10 maçta en az 4 gol yedi: +15",
         "KG Var yüzdesi %65 üzeri: +15",
@@ -5589,30 +4139,12 @@
         "3.5 Üst yüzdesi %45 üzeri: +10",
         "Lig gol ortalaması 2.70 üzeri: +10",
         "İkinci yarı gol eğilimi yüksek: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Ana kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Gks Katowice (1)",
@@ -5700,27 +4232,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Cfr Cluj (1)",
@@ -5731,7 +4243,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "4.50",
+      "suggested_odds": "4.67",
       "confidence_score": "60%",
       "trust_score": "60/100",
       "analysis_score": 60,
@@ -5796,7 +4308,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 4.50",
+        "Oran: 4.67",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -5808,27 +4320,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Gent (0)",
@@ -5907,27 +4399,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Panathinaikos (2)",
@@ -6007,27 +4479,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Koper (2)",
@@ -6107,27 +4559,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Coleraine (0)",
@@ -6214,27 +4646,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Benfica (1)",
@@ -6317,27 +4729,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Ana kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Dinamo Tirana (1)",
@@ -6348,7 +4740,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "3.86",
+      "suggested_odds": "3.88",
       "confidence_score": "60%",
       "trust_score": "60/100",
       "analysis_score": 60,
@@ -6413,7 +4805,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 3.86",
+        "Oran: 3.88",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -6425,27 +4817,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Sutjeska (0)",
@@ -6532,27 +4904,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Braga (1)",
@@ -6634,27 +4986,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Orta risk kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Hibernian (0)",
@@ -6744,27 +5076,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Ana kupon adayı"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ldu Quito",
@@ -6842,27 +5154,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Envigado (0)",
@@ -6873,7 +5165,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "2.86",
+      "suggested_odds": "2.78",
       "confidence_score": "40%",
       "trust_score": "40/100",
       "analysis_score": 40,
@@ -6938,7 +5230,7 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 2.86",
+        "Oran: 2.78",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -6948,27 +5240,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Gremio (2)",
@@ -7047,27 +5319,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Rivadavia",
@@ -7144,27 +5396,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Talleres",
@@ -7241,27 +5473,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Corinthians",
@@ -7338,27 +5550,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Isidro Metapan",
@@ -7444,27 +5636,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Independiente",
@@ -7542,27 +5714,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Corboda Santia",
@@ -7639,27 +5791,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "O Higgins (0)",
@@ -7736,27 +5868,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Caracas Fc (0)",
@@ -7833,27 +5945,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Coritiba",
@@ -7864,7 +5956,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "2.86",
+      "suggested_odds": "2.96",
       "confidence_score": "40%",
       "trust_score": "40/100",
       "analysis_score": 40,
@@ -7929,7 +6021,7 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 2.86",
+        "Oran: 2.96",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -7939,27 +6031,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Meksika (U20)",
@@ -8036,27 +6108,7 @@
         "Veri eksikliği var: -15",
         "Veri eksikliği riski: Yüksek",
         "100 puan analiz sınıfı: Oynama"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Alebrijes",
@@ -8142,27 +6194,7 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Inter Fa",
@@ -8170,27 +6202,27 @@
       "competition_name": "El Salvador Primera Lig Apertura",
       "date": "2026-07-31",
       "time": "05:00",
-      "status": "filtered_no_value_market",
+      "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "confidence_score": "10%",
-      "trust_score": "10/100",
-      "analysis_score": 10,
-      "analysis_class": "Oynama",
-      "value_label": "Normal Değer",
+      "suggested_option": "MS X",
+      "suggested_odds": "2.71",
+      "confidence_score": "50%",
+      "trust_score": "50/100",
+      "analysis_score": 50,
+      "analysis_class": "Sadece izleme",
+      "value_label": "Yüksek Değer",
       "risk_level": "Yüksek",
-      "data_gap_risk": "Orta",
+      "data_gap_risk": "Düşük",
       "analysis_metrics": {
         "homeScoredLast10": 4,
         "awayScoredLast10": 4,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 48,
         "over25Percent": 52,
         "over35Percent": 34,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 54,
         "leagueGoalAverage": 2.75,
         "memory": {
           "scoreDelta": 0,
@@ -8227,41 +6259,29 @@
         },
         "homeScoredLast10Count": 4,
         "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 4
       },
-      "tag": "Oynama",
-      "expected_scores": [],
-      "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
+      "tag": "Sadece izleme",
+      "expected_scores": [
+        "0-0",
+        "1-1",
+        "2-2"
       ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      "signals": [
+        "Market: MS X",
+        "Oran: 2.71",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
+        "Lig gol ortalaması 2.70 üzeri: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Sadece izleme"
+      ]
     },
     {
       "home_team_name": "Municipal",
@@ -8272,7 +6292,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "3.33",
+      "suggested_odds": "3.43",
       "confidence_score": "40%",
       "trust_score": "40/100",
       "analysis_score": 40,
@@ -8337,7 +6357,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 3.33",
+        "Oran: 3.43",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -8347,29 +6367,8 @@
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Sadece izleme"
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     }
   ],
-  "team_style_memory_enabled": true,
-  "team_style_memory_updated_at": "2026-07-30T04:12:48.194Z"
+  "focused_market_count": 16
 }
