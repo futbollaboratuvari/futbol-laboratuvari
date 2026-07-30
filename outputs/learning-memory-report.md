@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.07.2026 12:44:03
+Oluşturma: 30.07.2026 13:54:01
 
 ## Özet
 
-- Toplam tahmin: 136
-- Bekleyen tahmin: 136
+- Toplam tahmin: 138
+- Bekleyen tahmin: 138
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +20,14 @@ Oluşturma: 30.07.2026 12:44:03
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 57, bekleyen 57, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 - MS X: toplam 66, bekleyen 66, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Beitar Jerusal (1) - (0) Ae Kition | MS 2 | pending | 40/100
+- 2026-07-30 | Hazırlık Kulüpler | Monza - Aris | MS 2 | pending | 50/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gent (0) - (0) Lnz Cherkasy | MS 2 | pending | 75/100
 - 2026-07-30 | Hazırlık Kulüpler | Cavese - Sarnese | MS 2 | pending | 60/100
 - 2026-07-30 | Hazırlık Kulüpler | Bournemouth - Augsburg | MS X | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 30.07.2026 12:44:03
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Sutjeska (0) - (3) Ml Vitebsk | MS X | pending | 50/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Hibernian (0) - (2) Malisheva | MS X | pending | 80/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | MS X | pending | 50/100
-- 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Hradec Kralove (1) - (0) Tromso | MS X | pending | 50/100
-- 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | MS X | pending | 50/100
 
