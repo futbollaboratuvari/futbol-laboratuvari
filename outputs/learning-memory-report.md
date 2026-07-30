@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.07.2026 03:54:31
+Oluşturma: 30.07.2026 04:25:01
 
 ## Özet
 
-- Toplam tahmin: 131
-- Bekleyen tahmin: 131
+- Toplam tahmin: 132
+- Bekleyen tahmin: 132
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +20,13 @@ Oluşturma: 30.07.2026 03:54:31
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 - MS X: toplam 65, bekleyen 65, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 54, bekleyen 54, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-30 | Kolombiya Kupa 2.Tur | Envigado (0) - (3) Once Caldas | MS 1 | pending | 40/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Austria Vienna (2) - (0) Liepaja | MS X | pending | 95/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gks Katowice (1) - (2) Zilina | MS 2 | pending | 60/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Cfr Cluj (1) - (1) Alashkert | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 30.07.2026 03:54:31
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) - (2) Atert Bissen | MS X | pending | 80/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Zalgiris Vilni (0) - (3) Dinamo Tiflis | MS X | pending | 50/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Minsk (4) - (2) Neftchi Baku | MS X | pending | 40/100
-- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | The New Saints (0) - (1) Flora Tallinn | MS 2 | pending | 50/100
 

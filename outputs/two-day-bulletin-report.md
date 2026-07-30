@@ -2,18 +2,15 @@
 
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
-Ham mac: 99
-Aktif mac: 81
-Canli mac: 18
-Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 67
+Ham mac: 100
+Aktif mac: 78
+Canli mac: 13
+Biten mac: 9
+Bultenden dusurulen mac: 22
+Bugun: 64
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-30 04:00 | Kolombiya Kupa 2.Tur | Real Cartagena (1) - (2) America De Cali | scheduled | -
-- 2026-07-30 04:00 | CONCACAF U20 Grup C | Kanada (U20) - Honduras (U20) | scheduled | -
-- 2026-07-30 04:00 | El Salvador Primera Lig Apertura | Firpo - Fuerte San Fran | scheduled | -
 - 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup A | Alajuelense - Xelaju | scheduled | -
 - 2026-07-30 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Antigua Guatema | scheduled | -
 - 2026-07-30 12:00 | Hazırlık Kulüpler | Stade Lavalloi - Granville | scheduled | -
@@ -94,14 +91,6 @@ Yarin: 14
 - 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 
 ## Canli Maclar
-- 2026-07-30 01:00 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) - (2) Independiente M | live | -
-- 2026-07-30 01:00 | Kolombiya Kupa 2.Tur | Internacional (0) - (1) Inter Bogota | live | -
-- 2026-07-30 01:15 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - River Plate | live | -
-- 2026-07-30 01:30 | Brezilya Serie A | Internacional - Flamengo | live | -
-- 2026-07-30 01:30 | Brezilya Serie A | Mirassol - Remo | live | -
-- 2026-07-30 01:30 | Kolombiya Kupa 2.Tur | Barranguilla (2) - (2) Atletico Junior | live | -
-- 2026-07-30 02:00 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | live | -
-- 2026-07-30 02:00 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | live | -
 - 2026-07-30 02:30 | ABD USL | Louisville Cit - Birmingham Legi | live | -
 - 2026-07-30 02:30 | Hazırlık Kulüpler | Liverpool - Wrexham | live | -
 - 2026-07-30 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | live | -
@@ -112,6 +101,17 @@ Yarin: 14
 - 2026-07-30 03:30 | Brezilya Serie A | Vitoria Bahia - Palmeiras | live | -
 - 2026-07-30 03:30 | Brezilya Serie A | Fluminense - Bahia | live | -
 - 2026-07-30 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Platense | live | -
+- 2026-07-30 04:00 | Kolombiya Kupa 2.Tur | Real Cartagena (1) - (2) America De Cali | live | -
+- 2026-07-30 04:00 | CONCACAF U20 Grup C | Kanada (U20) - Honduras (U20) | live | -
+- 2026-07-30 04:00 | El Salvador Primera Lig Apertura | Firpo - Fuerte San Fran | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-30 00:00 | Paraguay Kupa 2.Tur | River Plate - Sol De America | finished | -
+- 2026-07-30 01:00 | Copa Sudamericana Son 32 Turu | Vasco Da Gama (2) - (2) Independiente M | finished | -
+- 2026-07-30 01:00 | Kolombiya Kupa 2.Tur | Internacional (0) - (1) Inter Bogota | finished | -
+- 2026-07-30 01:15 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - River Plate | finished | -
+- 2026-07-30 01:30 | Brezilya Serie A | Internacional - Flamengo | finished | -
+- 2026-07-30 01:30 | Brezilya Serie A | Mirassol - Remo | finished | -
+- 2026-07-30 01:30 | Kolombiya Kupa 2.Tur | Barranguilla (2) - (2) Atletico Junior | finished | -
+- 2026-07-30 02:00 | ABD USL | Pittsburgh Riv - Tulsa Roughneck | finished | -
+- 2026-07-30 02:00 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | finished | -

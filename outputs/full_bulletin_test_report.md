@@ -2,13 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 81
-- Live match count: 12
-- Finished removed count: 6
+- Scheduled match count: 78
+- Live match count: 13
+- Finished removed count: 0
 - Date window: 2026-07-30 / 2026-07-31 23:59
 
-- 2026-07-30 02:00 | Greenville Tri - Athletic Club B | live
-- 2026-07-30 02:00 | Pittsburgh Riv - Tulsa Roughneck | live
 - 2026-07-30 02:30 | Louisville Cit - Birmingham Legi | live
 - 2026-07-30 02:30 | Liverpool - Wrexham | live
 - 2026-07-30 03:00 | Forward Madiso - Chattanooga Red | live
@@ -17,3 +15,5 @@
 - 2026-07-30 03:30 | Instituto Cord - Platense | live
 - 2026-07-30 03:30 | Fluminense - Bahia | live
 - 2026-07-30 03:30 | Vitoria Bahia - Palmeiras | live
+- 2026-07-30 03:30 | Bragantino (0) - (0) Sporting Crista | live
+- 2026-07-30 03:30 | Cienciano (0) - (2) Lanus | live
