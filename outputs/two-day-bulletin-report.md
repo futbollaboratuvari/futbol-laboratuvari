@@ -3,29 +3,14 @@
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
 Ham mac: 81
-Aktif mac: 77
-Canli mac: 4
+Aktif mac: 62
+Canli mac: 19
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 58
+Bultenden dusurulen mac: 19
+Bugun: 43
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-30 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu - Japs | scheduled | -
-- 2026-07-30 18:30 | Hazırlık Kulüpler | Cavese - Sarnese | scheduled | -
-- 2026-07-30 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) - (0) Sheriff Tiraspo | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Jablonec (2) - (3) Varazdin | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Nomme Kalju (2) - (5) Shelbourne | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Auda (3) - (2) Fc Steaua | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Noah (1) - (1) Zimbru | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Inter Turku (1) - (1) Başakşehir Fk | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Pyunik Erewan (0) - (1) Debreceni | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Ilves (0) - (1) Stjarnan | scheduled | -
-- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Zira (0) - (1) Paide Linnamees | scheduled | -
-- 2026-07-30 19:00 | Hazırlık Kulüpler | Monza - Aris | scheduled | -
-- 2026-07-30 19:00 | Finlandiya Ykkönen | Fc Jazz - Kups Ak. | scheduled | -
-- 2026-07-30 19:00 | Hazırlık Kulüpler | Marsilya - Nimes | scheduled | -
-- 2026-07-30 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | scheduled | -
 - 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hradec Kralove (1) - (0) Tromso | scheduled | -
 - 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | scheduled | -
 - 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Pafos Fc (0) - (2) Hajduk Split | scheduled | -
@@ -94,6 +79,21 @@ Yarin: 19
 - 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Descaldes (0) - (4) Vaduz | live | -
 - 2026-07-30 17:00 | Hazırlık Kulüpler | Bournemouth - Augsburg | live | -
 - 2026-07-30 18:00 | Hazırlık Kulüpler | Parma - Arezzo | live | -
+- 2026-07-30 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu - Japs | live | -
+- 2026-07-30 18:30 | Hazırlık Kulüpler | Cavese - Sarnese | live | -
+- 2026-07-30 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) - (0) Sheriff Tiraspo | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Jablonec (2) - (3) Varazdin | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Nomme Kalju (2) - (5) Shelbourne | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Auda (3) - (2) Fc Steaua | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Noah (1) - (1) Zimbru | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Inter Turku (1) - (1) Başakşehir Fk | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Pyunik Erewan (0) - (1) Debreceni | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Ilves (0) - (1) Stjarnan | live | -
+- 2026-07-30 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Zira (0) - (1) Paide Linnamees | live | -
+- 2026-07-30 19:00 | Hazırlık Kulüpler | Monza - Aris | live | -
+- 2026-07-30 19:00 | Finlandiya Ykkönen | Fc Jazz - Kups Ak. | live | -
+- 2026-07-30 19:00 | Hazırlık Kulüpler | Marsilya - Nimes | live | -
+- 2026-07-30 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | live | -
 
 ## Biten Maclar
 Biten mac yok.
