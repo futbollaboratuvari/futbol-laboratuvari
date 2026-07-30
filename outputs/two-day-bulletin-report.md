@@ -1,21 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-30 / 2026-07-31
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 63
-Aktif mac: 26
-Canli mac: 37
+Aktif mac: 21
+Canli mac: 42
 Biten mac: 0
-Bultenden dusurulen mac: 37
-Bugun: 7
+Bultenden dusurulen mac: 42
+Bugun: 2
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-30 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Benfica (1) - (2) St Gallen | scheduled | -
-- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) - (1) Aluminij | scheduled | -
-- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Sutjeska (0) - (3) Ml Vitebsk | scheduled | -
-- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Braga (1) - (0) Zeleznicar Panc | scheduled | -
-- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Hibernian (0) - (2) Malisheva | scheduled | -
 - 2026-07-30 23:00 | Ekvador Kupa Son 16 Turu | Ldu Quito - Leones Del Nort | scheduled | -
 - 2026-07-30 23:30 | Kolombiya Kupa 2.Tur | Envigado (0) - (3) Once Caldas | scheduled | -
 - 2026-07-31 01:00 | Copa Sudamericana Son 32 Turu | Gremio (2) - (3) Bolivar | scheduled | -
@@ -39,6 +35,11 @@ Yarin: 19
 - 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 
 ## Canli Maclar
+- 2026-07-30 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Benfica (1) - (2) St Gallen | live | -
+- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) - (1) Aluminij | live | -
+- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Sutjeska (0) - (3) Ml Vitebsk | live | -
+- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Braga (1) - (0) Zeleznicar Panc | live | -
+- 2026-07-30 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Hibernian (0) - (2) Malisheva | live | -
 - 2026-07-30 19:30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | live | -
 - 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Hradec Kralove (1) - (0) Tromso | live | -
 - 2026-07-30 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | live | -
