@@ -1,23 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-30T18:49:11.468710+00:00
+Tarih: 2026-07-30T20:20:06.456074+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 7
+- Kac mac bulundu: 1
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 7
+- Kac mac zaten vardi: 1
 - Ham veri havuzu toplam mac sayisi: 3758
 - Hedef tarih: 30.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Ekvador Kupa Son 16 Turu
 - Kolombiya Kupa 2.Tur
-- UEFA Avrupa Ligi 2. Eleme Turu
-- UEFA Konferans Ligi 2. Eleme Turu
 
 ## Okunabilen Oran Alanlari
 
@@ -74,8 +71,8 @@ Tarih: 2026-07-30T18:49:11.468710+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 14
-- Acilan detay: 14
+- Denenen Tumu alani: 11
+- Acilan detay: 11
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -88,13 +85,7 @@ Tarih: 2026-07-30T18:49:11.468710+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Benfica (1) | (2) St Gallen | 13241 | 4 |
-| 30.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Sutjeska (0) | (3) Ml Vitebsk | 13474 | 5 |
-| 30.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Hibernian (0) | (2) Malisheva | 13514 | 5 |
-| 30.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) | (1) Aluminij | 13410 | 5 |
-| 30.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Braga (1) | (0) Zeleznicar Panc | 13345 | 4 |
 | 30.07.2026 | 23:30 | Kolombiya Kupa 2.Tur | Envigado (0) | (3) Once Caldas | 03317 | 5 |
-| 30.07.2026 | 23:00 | Ekvador Kupa Son 16 Turu | Ldu Quito | Leones Del Nort | 17754 | 5 |
 
 ## Sonuc
 
