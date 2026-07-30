@@ -2,29 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-30T16:51:07.627Z
+- Güncelleme: 2026-07-30T17:04:27.213Z
 - Ham maç sayısı: 81
 - Yarın bülteni maç sayısı: 19
 - Detay blok sayısı: 238
-- Aktif bülten maçı: 62
-- Bültenden düşürülen maç: 19
+- Aktif bülten maçı: 49
+- Bültenden düşürülen maç: 32
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hradec Kralove (1) - (0) Tromso | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.65 | 8 |
-| Midtjylland (0) - (1) Beşiktaş | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.75 | 8 |
-| Pafos Fc (0) - (2) Hajduk Split | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.48 | 7 |
-| Nordsjaelland (0) - (1) Gais | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.28 | 6 |
-| Gyor (6) - (2) Atert Bissen | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.06 | 5 |
-| Zalgiris Vilni (0) - (3) Dinamo Tiflis | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Hb Torshavn (0) - (2) Motherwell | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 4.51 | 7 |
-| Velez Mostar (0) - (1) Dac | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 3.02 | 8 |
-| Petrocub (0) - (3) Borac Banja Luk | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 3.15 | 8 |
-| Dinamo Minsk (4) - (2) Neftchi Baku | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.41 | 8 |
-| Brann (2) - (2) Universitatea C | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.18 | 6 |
-| Karlskrona - Nosaby If | İsveç 2.Lig Södra Götaland | 20:00 | Veri bekleniyor | - | 1.39 | 5 |
-| Ulfstind - Skjervoy | Norveç 3.Lig Grup 5 | 20:00 | Veri bekleniyor | - | 1.39 | 4 |
 | Valletta (1) - (3) Rakow Czestocho | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 4.98 | 6 |
 | Derry City (0) - (1) Rijeka | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 4.1 | 7 |
 | The New Saints (0) - (1) Flora Tallinn | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.68 | 8 |
