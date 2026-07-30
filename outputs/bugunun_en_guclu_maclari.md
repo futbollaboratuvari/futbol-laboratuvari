@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-30T23:09:16.518Z
+- Güncelleme: 2026-07-30T23:53:02.019Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -17,7 +17,7 @@
 | Kosta Rika (U2 VS Antigua And Bar | CONCACAF U20 Grup B | 01:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Jalapa VS Real Esteli | Nikaragua Premier Lig Apertura | 01:00 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Corinthians VS Atletico Pr | Brezilya Serie A | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Leeds Utd VS Sunderland | Hazırlık Kulüpler | 02:30 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Leeds Utd VS Sunderland | Hazırlık Kulüpler | 02:30 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Isidro Metapan VS Deportivo Fas | El Salvador Primera Lig Apertura | 03:00 | MS X | 2.63 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Alaves VS Castellon | Hazırlık Kulüpler | 03:00 | MS 2 | 3.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Independiente VS Newells Old Boy | Arjantin Premier Lig 2. Aşama | 03:15 | MS 2 | 5.46 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

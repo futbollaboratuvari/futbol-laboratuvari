@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 158
-- Live match count: 6
+- Scheduled match count: 157
+- Live match count: 7
 - Finished removed count: 0
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
@@ -13,7 +13,7 @@
 - 2026-07-31 01:00 | Gremio (2) - (3) Bolivar | live
 - 2026-07-31 01:00 | Jalapa - Real Esteli | live
 - 2026-07-31 01:30 | Corinthians - Atletico Pr | live
-- 2026-07-31 02:30 | Leeds Utd - Sunderland | scheduled
+- 2026-07-31 02:30 | Leeds Utd - Sunderland | live
 - 2026-07-31 03:00 | Isidro Metapan - Deportivo Fas | scheduled
 - 2026-07-31 03:00 | Alaves - Castellon | scheduled
 - 2026-07-31 03:15 | Corboda Santia - Atletico Tucuma | scheduled

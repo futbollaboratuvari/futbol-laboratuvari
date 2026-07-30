@@ -3,15 +3,14 @@
 Gunler: 2026-07-31 / 2026-08-01
 Kaynak: fixtures.json
 Ham mac: 164
-Aktif mac: 158
-Canli mac: 6
+Aktif mac: 157
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 134
+Bultenden dusurulen mac: 7
+Bugun: 133
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-31 02:30 | Hazırlık Kulüpler | Leeds Utd - Sunderland | scheduled | -
 - 2026-07-31 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Deportivo Fas | scheduled | -
 - 2026-07-31 03:00 | Hazırlık Kulüpler | Alaves - Castellon | scheduled | -
 - 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Independiente - Newells Old Boy | scheduled | -
@@ -177,6 +176,7 @@ Yarin: 24
 - 2026-07-31 01:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Antigua And Bar | live | -
 - 2026-07-31 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Real Esteli | live | -
 - 2026-07-31 01:30 | Brezilya Serie A | Corinthians - Atletico Pr | live | -
+- 2026-07-31 02:30 | Hazırlık Kulüpler | Leeds Utd - Sunderland | live | -
 
 ## Biten Maclar
 Biten mac yok.
