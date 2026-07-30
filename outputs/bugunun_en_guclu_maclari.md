@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-30T14:34:24.604Z
+- Güncelleme: 2026-07-30T15:17:16.244Z
 - Ham maç sayısı: 81
 - Yarın bülteni maç sayısı: 19
 - Detay blok sayısı: 238
-- Aktif bülten maçı: 78
-- Bültenden düşürülen maç: 3
+- Aktif bülten maçı: 77
+- Bültenden düşürülen maç: 4
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Parma - Arezzo | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.63 | 8 |
 | Jippo Joensuu - Japs | Finlandiya Ykkösliiga | 18:30 | Veri bekleniyor | - | 1.27 | 6 |
 | Cavese - Sarnese | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.21 | 6 |
 | Maccabi Tel Av (5) - (0) Sheriff Tiraspo | UEFA Avrupa Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.13 | 6 |
