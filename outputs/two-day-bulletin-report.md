@@ -2,11 +2,11 @@
 
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
-Ham mac: 83
+Ham mac: 81
 Aktif mac: 81
-Canli mac: 2
+Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
+Bultenden dusurulen mac: 0
 Bugun: 62
 Yarin: 19
 
@@ -94,8 +94,7 @@ Yarin: 19
 - 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 
 ## Canli Maclar
-- 2026-07-30 12:30 | Avustralya FFA Kupası Son 32 Turu | South Melbourn - Adelaide United | live | -
-- 2026-07-30 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney Olympic - Brisbane Roar | live | -
+Canli mac yok.
 
 ## Biten Maclar
 Biten mac yok.
