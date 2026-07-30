@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 81
 - Live match count: 0
-- Finished removed count: 2
+- Finished removed count: 0
 - Date window: 2026-07-30 / 2026-07-31 23:59
 
 - 2026-07-30 17:00 | Bournemouth - Augsburg | scheduled
