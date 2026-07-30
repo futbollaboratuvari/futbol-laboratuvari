@@ -2,16 +2,15 @@
 
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
-Ham mac: 80
+Ham mac: 81
 Aktif mac: 80
-Canli mac: 0
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
+Bultenden dusurulen mac: 1
 Bugun: 63
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-07-30 12:00 | Hazırlık Kulüpler | Stade Lavalloi - Granville | scheduled | -
 - 2026-07-30 12:30 | Avustralya FFA Kupası Son 32 Turu | South Melbourn - Adelaide United | scheduled | -
 - 2026-07-30 12:30 | Avustralya FFA Kupası Son 32 Turu | Sydney Olympic - Brisbane Roar | scheduled | -
 - 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Tobol Kostanay (1) - (1) Fk Panevezys | scheduled | -
@@ -44,6 +43,7 @@ Yarin: 17
 - 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Minsk (4) - (2) Neftchi Baku | scheduled | -
 - 2026-07-30 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Brann (2) - (2) Universitatea C | scheduled | -
 - 2026-07-30 20:00 | İsveç 2.Lig Södra Götaland | Karlskrona - Nosaby If | scheduled | -
+- 2026-07-30 20:00 | Norveç 3.Lig Grup 5 | Ulfstind - Skjervoy | scheduled | -
 - 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Valletta (1) - (3) Rakow Czestocho | scheduled | -
 - 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Derry City (0) - (1) Rijeka | scheduled | -
 - 2026-07-30 20:30 | UEFA Konferans Ligi 2. Eleme Turu | The New Saints (0) - (1) Flora Tallinn | scheduled | -
@@ -93,7 +93,7 @@ Yarin: 17
 - 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-30 12:00 | Hazırlık Kulüpler | Stade Lavalloi - Granville | live | -
 
 ## Biten Maclar
 Biten mac yok.

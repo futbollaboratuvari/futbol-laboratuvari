@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.07.2026 11:41:49
+Oluşturma: 30.07.2026 12:10:49
 
 ## Özet
 
-- Toplam tahmin: 135
-- Bekleyen tahmin: 135
+- Toplam tahmin: 136
+- Bekleyen tahmin: 136
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +20,13 @@ Oluşturma: 30.07.2026 11:41:49
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 57, bekleyen 57, başarı bekleniyor, ağırlık 1
 - MS X: toplam 66, bekleyen 66, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gent (0) - (0) Lnz Cherkasy | MS 2 | pending | 75/100
 - 2026-07-30 | Hazırlık Kulüpler | Cavese - Sarnese | MS 2 | pending | 60/100
 - 2026-07-30 | Hazırlık Kulüpler | Bournemouth - Augsburg | MS X | pending | 60/100
 - 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 30.07.2026 11:41:49
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | MS X | pending | 50/100
 - 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Hradec Kralove (1) - (0) Tromso | MS X | pending | 50/100
 - 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | MS X | pending | 50/100
-- 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Pafos Fc (0) - (2) Hajduk Split | MS 2 | pending | 50/100
 
