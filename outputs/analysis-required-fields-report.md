@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 62
-Tam analiz: 60
+Toplam analiz: 44
+Tam analiz: 42
 Eksik analiz: 2
 
 - Ulfstind VS Skjervoy: eksik score, confidence
