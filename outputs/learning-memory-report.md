@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.07.2026 14:27:28
+Oluşturma: 30.07.2026 14:34:15
 
 ## Özet
 
-- Toplam tahmin: 138
-- Bekleyen tahmin: 138
+- Toplam tahmin: 139
+- Bekleyen tahmin: 139
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +20,13 @@ Oluşturma: 30.07.2026 14:27:28
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 - MS X: toplam 66, bekleyen 66, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Coleraine (0) - (5) Helsinki | MS 1 | pending | 45/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Beitar Jerusal (1) - (0) Ae Kition | MS 2 | pending | 40/100
 - 2026-07-30 | Hazırlık Kulüpler | Monza - Aris | MS 2 | pending | 50/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gent (0) - (0) Lnz Cherkasy | MS 2 | pending | 75/100
@@ -40,5 +41,4 @@ Oluşturma: 30.07.2026 14:27:28
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) - (1) Aluminij | MS 2 | pending | 60/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Sutjeska (0) - (3) Ml Vitebsk | MS X | pending | 50/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Hibernian (0) - (2) Malisheva | MS X | pending | 80/100
-- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Levadia Tallin (2) - (1) Göteborg | MS X | pending | 50/100
 
