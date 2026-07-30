@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 19
-- Live match count: 7
-- Finished removed count: 2
-- Date window: 2026-07-30 / 2026-07-31 23:59
+- Live match count: 0
+- Finished removed count: 0
+- Date window: 2026-07-31 / 2026-08-01 23:59
 
-- 2026-07-30 22:00 | Benfica (1) - (2) St Gallen | live
-- 2026-07-30 22:00 | Braga (1) - (0) Zeleznicar Panc | live
-- 2026-07-30 22:00 | Dinamo Tirana (1) - (1) Aluminij | live
-- 2026-07-30 22:00 | Hibernian (0) - (2) Malisheva | live
-- 2026-07-30 22:00 | Sutjeska (0) - (3) Ml Vitebsk | live
-- 2026-07-30 23:00 | Ldu Quito - Leones Del Nort | live
-- 2026-07-30 23:30 | Envigado (0) - (3) Once Caldas | live
 - 2026-07-31 01:00 | Rivadavia - Huracan | scheduled
 - 2026-07-31 01:00 | Talleres - Velez Sarsfield | scheduled
 - 2026-07-31 01:00 | Kosta Rika (U2 - Antigua And Bar | scheduled
+- 2026-07-31 01:00 | Gremio (2) - (3) Bolivar | scheduled
+- 2026-07-31 01:00 | Jalapa - Real Esteli | scheduled
+- 2026-07-31 01:30 | Corinthians - Atletico Pr | scheduled
+- 2026-07-31 02:30 | Leeds Utd - Sunderland | scheduled
+- 2026-07-31 03:00 | Isidro Metapan - Deportivo Fas | scheduled
+- 2026-07-31 03:00 | Alaves - Castellon | scheduled
+- 2026-07-31 03:15 | Corboda Santia - Atletico Tucuma | scheduled
