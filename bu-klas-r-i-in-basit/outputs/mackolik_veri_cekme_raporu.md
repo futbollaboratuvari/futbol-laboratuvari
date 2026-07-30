@@ -1,29 +1,71 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-30T20:55:51.671552+00:00
+Tarih: 2026-07-30T21:46:54.052688+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 19
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 19
-- Ham veri havuzu toplam mac sayisi: 3758
-- Hedef tarih: 30.07.2026 Europe/Istanbul
+- Kac mac bulundu: 121
+- Kac mac kaydedildi: 121
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 3879
+- Hedef tarih: 31.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup D
-- CONCACAF U20 Grup B
-- Copa Sudamericana Son 32 Turu
-- El Salvador Primera Lig Apertura
+- AFF Şampiyonası Grup A
+- Almanya Bölgesel Lig Batı
+- Almanya Bölgesel Lig Kuzey
+- Avustralya NPL Güney Avustralya
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Victoria
+- Avustralya Victoria NPL 1
+- Avusturya 1.Lig
+- Avusturya Bundesliga
+- Belarus Premier Lig
+- Belçika Süper Kupa
+- Bolivya Premier Lig
+- Bulgaristan 1.Lig
+- Danimarka 1.Lig
+- Danimarka 2.Lig
+- Danimarka 3.Lig
+- Estonya Premium Lig
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Galler FAW Championship Güney
+- Galler FAW Championship Kuzey
+- Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
-- Meksika Ascenso MX Apertura
-- Nikaragua Premier Lig Apertura
+- Hırvatistan 1.HNL
+- Letonya 1.Lig
+- Litvanya 1.Lig
+- Macaristan NB I
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç Eliteserien
+- Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
+- Romanya 1.Lig
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Ukrayna Premier Lig
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti Süper Lig
+- İrlanda 1.Lig
+- İrlanda Premier Lig
+- İskoçya Premiership
+- İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsveç Superettan
+- İsviçre 1.Lig Promotion
+- İsviçre Challenge Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -80,8 +122,8 @@ Tarih: 2026-07-30T20:55:51.671552+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 10
-- Acilan detay: 10
+- Denenen Tumu alani: 71
+- Acilan detay: 71
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -94,25 +136,26 @@ Tarih: 2026-07-30T20:55:51.671552+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 31.07.2026 | 03:00 | Hazırlık Kulüpler | Alaves | Castellon | 00396 | 5 |
-| 31.07.2026 | 02:30 | Hazırlık Kulüpler | Leeds Utd | Sunderland | 20685 | 5 |
-| 31.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) | (2) Santa Fe | 13601 | 5 |
-| 31.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) | (1) Boca Juniors | 13656 | 5 |
-| 31.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Gremio (2) | (3) Bolivar | 13547 | 5 |
-| 31.07.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano | Marathon | 03934 | 5 |
-| 31.07.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal | Cs Cartagines | 02827 | 5 |
-| 31.07.2026 | 03:30 | Brezilya Serie A | Coritiba | Cruzeiro | 14393 | 5 |
-| 31.07.2026 | 01:30 | Brezilya Serie A | Corinthians | Atletico Pr | 14332 | 5 |
-| 31.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Independiente | Newells Old Boy | 13379 | 5 |
-| 31.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia | Atletico Tucuma | 13242 | 5 |
-| 31.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Rivadavia | Huracan | 12757 | 5 |
-| 31.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Talleres | Velez Sarsfield | 12884 | 5 |
-| 31.07.2026 | 04:00 | CONCACAF U20 Grup B | Meksika (U20) | Guatemala U20 | 02928 | 5 |
-| 31.07.2026 | 01:00 | CONCACAF U20 Grup B | Kosta Rika (U2 | Antigua And Bar | 02370 | 2 |
-| 31.07.2026 | 04:00 | Meksika Ascenso MX Apertura | Alebrijes | Dorados | 14873 | 5 |
-| 31.07.2026 | 01:00 | Nikaragua Premier Lig Apertura | Jalapa | Real Esteli | 02283 | 5 |
-| 31.07.2026 | 05:00 | El Salvador Primera Lig Apertura | Inter Fa | Aguila | 04717 | 5 |
-| 31.07.2026 | 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan | Deportivo Fas | 02516 | 5 |
+| 31.07.2026 | 21:30 | Belçika Süper Kupa | Club Brugge | Union St.G | 24387 | 5 |
+| 31.07.2026 | 19:00 | Polonya Ekstraklasa | Wisla Plock | Widzew Lodz | 19159 | 5 |
+| 31.07.2026 | 21:30 | Polonya Ekstraklasa | Motor Lublin | Jagiellonia | 19280 | 5 |
+| 31.07.2026 | 20:30 | Avusturya Bundesliga | Lask Linz | Grazer Ak | 10748 | 5 |
+| 31.07.2026 | 22:00 | İrlanda Premier Lig | Drogheda | Shamrock Rovers | 24673 | 5 |
+| 31.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Sligo Rovers | 24544 | 5 |
+| 31.07.2026 | 20:00 | Rusya Premier Lig | Fk Rodina Mosk | Rostov | 06870 | 5 |
+| 31.07.2026 | 22:00 | İskoçya Premiership | Dundee Utd | Glasgow Rangers | 04146 | 5 |
+| 31.07.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag | Zlin | 18750 | 4 |
+| 31.07.2026 | 20:00 | Norveç Eliteserien | Valerenga | Ham Kam | 22999 | 5 |
+| 31.07.2026 | 22:00 | Norveç Eliteserien | Bodo Glimt | Lillestrom | 23053 | 5 |
+| 31.07.2026 | 18:00 | Ukrayna Premier Lig | Zoria Luhansk | Kolos Kovalivka | 18380 | 5 |
+| 31.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye | Dalian Zhixing | 15807 | 5 |
+| 31.07.2026 | 18:00 | Hazırlık Kulüpler | Wolfsburg | Telstar | 09408 | 5 |
+| 31.07.2026 | 11:00 | Hazırlık Kulüpler | Las Palmas | Neom Sc | 20825 | 5 |
+| 31.07.2026 | 11:30 | Hazırlık Kulüpler | Cordoba Ii | Sevilla B | 20738 | 5 |
+| 31.07.2026 | 18:00 | Hazırlık Kulüpler | Monaco | Cercle Brugge | 20875 | 5 |
+| 31.07.2026 | 20:00 | Hazırlık Kulüpler | Kalsdorf | Sv Union Gnas | 20982 | 5 |
+| 31.07.2026 | 13:00 | Hazırlık Kulüpler | Köln | Hertha Berlin | 00094 | 5 |
+| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Albacete | Real Madrid Ii | 20984 | 5 |
 
 ## Sonuc
 
