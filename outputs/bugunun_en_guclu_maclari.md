@@ -2,22 +2,22 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-30T02:55:17.717Z
-- Ham maç sayısı: 91
+- Güncelleme: 2026-07-30T03:35:28.397Z
+- Ham maç sayısı: 81
 - Yarın bülteni maç sayısı: 14
-- Detay blok sayısı: 268
+- Detay blok sayısı: 239
 - Aktif bülten maçı: 76
-- Bültenden düşürülen maç: 15
+- Bültenden düşürülen maç: 5
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Stade Lavalloi - Granville | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.22 | 6 |
+| Stade Lavalloi - Granville | Hazırlık Kulüpler | 12:00 | Veri bekleniyor | - | 1.24 | 6 |
 | South Melbourn - Adelaide United | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 2.98 | 8 |
 | Sydney Olympic - Brisbane Roar | Avustralya FFA Kupası Son 32 Turu | 12:30 | Veri bekleniyor | - | 5.11 | 4 |
 | Tobol Kostanay (1) - (1) Fk Panevezys | UEFA Konferans Ligi 2. Eleme Turu | 17:00 | Veri bekleniyor | - | 1.08 | 6 |
 | Descaldes (0) - (4) Vaduz | UEFA Konferans Ligi 2. Eleme Turu | 17:00 | Veri bekleniyor | - | 4.56 | 7 |
-| Bournemouth - Augsburg | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.62 | 8 |
+| Bournemouth - Augsburg | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.6 | 8 |
 | Parma - Arezzo | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.48 | 8 |
 | Jippo Joensuu - Japs | Finlandiya Ykkösliiga | 18:30 | Veri bekleniyor | - | 1.28 | 6 |
 | Maccabi Tel Av (5) - (0) Sheriff Tiraspo | UEFA Avrupa Ligi 2. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.15 | 6 |
@@ -33,7 +33,7 @@
 | Fc Jazz - Kups Ak. | Finlandiya Ykkönen | 19:00 | Veri bekleniyor | - | 1.5 | 7 |
 | Levadia Tallin (2) - (1) Göteborg | UEFA Konferans Ligi 2. Eleme Turu | 19:30 | Veri bekleniyor | - | 2.67 | 8 |
 | Hradec Kralove (1) - (0) Tromso | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.88 | 8 |
-| Midtjylland (0) - (1) Beşiktaş | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.74 | 8 |
+| Midtjylland (0) - (1) Beşiktaş | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Pafos Fc (0) - (2) Hajduk Split | UEFA Avrupa Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.56 | 8 |
 | Nordsjaelland (0) - (1) Gais | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.3 | 6 |
 | Gyor (6) - (2) Atert Bissen | UEFA Konferans Ligi 2. Eleme Turu | 20:00 | Veri bekleniyor | - | - | 5 |
@@ -46,7 +46,7 @@
 | Karlskrona - Nosaby If | İsveç 2.Lig Södra Götaland | 20:00 | Veri bekleniyor | - | 1.53 | 6 |
 | Valletta (1) - (3) Rakow Czestocho | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 4.97 | 6 |
 | Derry City (0) - (1) Rijeka | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 4.16 | 7 |
-| The New Saints (0) - (1) Flora Tallinn | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.57 | 8 |
+| The New Saints (0) - (1) Flora Tallinn | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.54 | 7 |
 | Beitar Jerusal (1) - (0) Ae Kition | UEFA Konferans Ligi 2. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.89 | 8 |
 | Paok (3) - (2) Dynamo Kiev | UEFA Avrupa Ligi 2. Eleme Turu | 20:45 | Veri bekleniyor | - | 1.53 | 8 |
 | Cska Sofia (0) - (0) Qarabagh | UEFA Avrupa Ligi 2. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.15 | 8 |
