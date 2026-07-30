@@ -3,15 +3,14 @@
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
 Ham mac: 81
-Aktif mac: 78
-Canli mac: 3
+Aktif mac: 77
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 59
+Bultenden dusurulen mac: 4
+Bugun: 58
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-07-30 18:00 | Hazırlık Kulüpler | Parma - Arezzo | scheduled | -
 - 2026-07-30 18:30 | Finlandiya Ykkösliiga | Jippo Joensuu - Japs | scheduled | -
 - 2026-07-30 18:30 | Hazırlık Kulüpler | Cavese - Sarnese | scheduled | -
 - 2026-07-30 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) - (0) Sheriff Tiraspo | scheduled | -
@@ -94,6 +93,7 @@ Yarin: 19
 - 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Tobol Kostanay (1) - (1) Fk Panevezys | live | -
 - 2026-07-30 17:00 | UEFA Konferans Ligi 2. Eleme Turu | Descaldes (0) - (4) Vaduz | live | -
 - 2026-07-30 17:00 | Hazırlık Kulüpler | Bournemouth - Augsburg | live | -
+- 2026-07-30 18:00 | Hazırlık Kulüpler | Parma - Arezzo | live | -
 
 ## Biten Maclar
 Biten mac yok.

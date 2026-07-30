@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.07.2026 18:18:08
+Oluşturma: 30.07.2026 18:29:46
 
 ## Özet
 
-- Toplam tahmin: 140
-- Bekleyen tahmin: 140
+- Toplam tahmin: 141
+- Bekleyen tahmin: 141
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +20,13 @@ Oluşturma: 30.07.2026 18:18:08
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 60, bekleyen 60, başarı bekleniyor, ağırlık 1
 - MS X: toplam 67, bekleyen 67, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-30 | Finlandiya Ykkösliiga | Jippo Joensuu - Japs | MS 2 | pending | 60/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | The New Saints (0) - (1) Flora Tallinn | MS X | pending | 50/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Coleraine (0) - (5) Helsinki | MS 1 | pending | 45/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Beitar Jerusal (1) - (0) Ae Kition | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 30.07.2026 18:18:08
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Cfr Cluj (1) - (1) Alashkert | MS 2 | pending | 60/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Coleraine (0) - (5) Helsinki | MS X | pending | 45/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) - (1) Aluminij | MS 2 | pending | 60/100
-- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Sutjeska (0) - (3) Ml Vitebsk | MS X | pending | 50/100
 
