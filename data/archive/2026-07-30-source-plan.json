@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T06:08:51.281Z",
+  "generated_at": "2026-07-30T08:48:55.523Z",
   "date": "2026-07-30",
   "source_count": 8,
-  "match_count": 87,
+  "match_count": 88,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -1641,8 +1641,8 @@
       "match_name": "Cavese VS Sarnese",
       "league": "Hazırlık Kulüpler",
       "start_time": "18:30",
-      "recommended_market": "Değerli market yok",
-      "data_gap_risk": "Yüksek",
+      "recommended_market": "MS 2",
+      "data_gap_risk": "Düşük",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -2925,6 +2925,57 @@
       "start_time": "20:00",
       "recommended_market": "Değerli market yok",
       "data_gap_risk": "Orta",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Ulfstind VS Skjervoy",
+      "league": "Norveç 3.Lig Grup 5",
+      "start_time": "20:00",
+      "recommended_market": "Değerli market yok",
+      "data_gap_risk": "Yüksek",
       "source_plan": [
         {
           "name": "Mackolik",
