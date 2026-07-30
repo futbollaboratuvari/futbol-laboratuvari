@@ -1,33 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-30T11:33:14.714476+00:00
+Tarih: 2026-07-30T12:50:01.229096+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 81
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 80
+- Kac mac bulundu: 62
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 62
 - Ham veri havuzu toplam mac sayisi: 3758
 - Hedef tarih: 30.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup D
-- CONCACAF U20 Grup B
-- Copa Sudamericana Son 32 Turu
 - Ekvador Kupa Son 16 Turu
-- El Salvador Primera Lig Apertura
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Kolombiya Kupa 2.Tur
-- Meksika Ascenso MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 5
 - UEFA Avrupa Ligi 2. Eleme Turu
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -112,7 +103,7 @@ Tarih: 2026-07-30T11:33:14.714476+00:00
 | 30.07.2026 | 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) | (0) Sheriff Tiraspo | 09801 | 5 |
 | 30.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Benfica (1) | (2) St Gallen | 13241 | 4 |
 | 30.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Valletta (1) | (3) Rakow Czestocho | 10930 | 5 |
-| 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zrinjski (0) | (1) Valur | 12814 | 5 |
+| 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zrinjski (0) | (1) Valur | 12814 | 4 |
 | 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Austria Vienna (2) | (0) Liepaja | 12346 | 5 |
 | 30.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Jablonec (2) | (3) Varazdin | 09709 | 5 |
 | 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Nordsjaelland (0) | (1) Gais | 10472 | 5 |
