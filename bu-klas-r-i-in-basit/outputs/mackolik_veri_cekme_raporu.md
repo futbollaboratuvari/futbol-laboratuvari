@@ -1,32 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-30T04:27:25.486420+00:00
+Tarih: 2026-07-30T05:50:43.080473+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 76
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 76
-- Ham veri havuzu toplam mac sayisi: 3750
+- Kac mac bulundu: 63
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 62
+- Ham veri havuzu toplam mac sayisi: 3751
 - Hedef tarih: 30.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
 - Avustralya FFA Kupası Son 32 Turu
-- Brezilya Serie A
-- CONCACAF Orta Amerika Kupası Grup D
-- CONCACAF U20 Grup B
-- Copa Sudamericana Son 32 Turu
 - Ekvador Kupa Son 16 Turu
-- El Salvador Primera Lig Apertura
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Kolombiya Kupa 2.Tur
-- Meksika Ascenso MX Apertura
 - UEFA Avrupa Ligi 2. Eleme Turu
 - UEFA Konferans Ligi 2. Eleme Turu
 - İsveç 2.Lig Södra Götaland
@@ -86,8 +79,8 @@ Tarih: 2026-07-30T04:27:25.486420+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 16
-- Acilan detay: 16
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -109,6 +102,9 @@ Tarih: 2026-07-30T04:27:25.486420+00:00
 | 30.07.2026 | 20:45 | UEFA Avrupa Ligi 2. Eleme Turu | Paok (3) | (2) Dynamo Kiev | 11019 | 5 |
 | 30.07.2026 | 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) | (0) Sheriff Tiraspo | 09801 | 5 |
 | 30.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Cska Sofia (0) | (0) Qarabagh | 11305 | 5 |
+| 30.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Beitar Jerusal (1) | (0) Ae Kition | 10682 | 5 |
+| 30.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ludogorets (0) | (2) Hapoel Tel Aviv | 12066 | 5 |
+| 30.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Zira (0) | (1) Paide Linnamees | 09991 | 5 |
 | 30.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) | (1) Aluminij | 13410 | 5 |
 | 30.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Valletta (1) | (3) Rakow Czestocho | 10930 | 5 |
 | 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zrinjski (0) | (1) Valur | 12814 | 4 |
@@ -117,9 +113,6 @@ Tarih: 2026-07-30T04:27:25.486420+00:00
 | 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Nordsjaelland (0) | (1) Gais | 10472 | 5 |
 | 30.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Derry City (0) | (1) Rijeka | 10861 | 5 |
 | 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Gks Katowice (1) | (2) Zilina | 12689 | 5 |
-| 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) | (2) Atert Bissen | 10249 | 5 |
-| 30.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Nomme Kalju (2) | (5) Shelbourne | 09864 | 5 |
-| 30.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Koper (2) | (0) Runavik | 13174 | 5 |
 
 ## Sonuc
 
