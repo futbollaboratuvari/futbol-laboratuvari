@@ -1,26 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 19
+Toplam analiz: 140
 Tam analiz: 0
-Eksik analiz: 19
+Eksik analiz: 140
 
-- Fc Una Strasse (0) VS (4) Partizan Belgra: eksik score, confidence
-- Sion (1) VS (1) Bate Borisov: eksik score, confidence
-- Ferencvaros (2) VS (1) Twente: eksik score, confidence
-- Anderlecht (1) VS (1) Hammarby: eksik score, confidence
-- Zrinjski (0) VS (1) Valur: eksik score, confidence
-- Austria Vienna (2) VS (0) Liepaja: eksik score, confidence
-- Gks Katowice (1) VS (2) Zilina: eksik score, confidence
-- Cfr Cluj (1) VS (1) Alashkert: eksik score, confidence
-- Gent (0) VS (0) Lnz Cherkasy: eksik score, confidence
-- Panathinaikos (2) VS (1) Paksi: eksik score, confidence
-- Koper (2) VS (0) Runavik: eksik score, confidence
-- Coleraine (0) VS (5) Helsinki: eksik score, confidence
-- Benfica (1) VS (2) St Gallen: eksik score, confidence
-- Dinamo Tirana (1) VS (1) Aluminij: eksik score, confidence
-- Sutjeska (0) VS (3) Ml Vitebsk: eksik score, confidence
-- Braga (1) VS (0) Zeleznicar Panc: eksik score, confidence
-- Hibernian (0) VS (2) Malisheva: eksik score, confidence
-- Ldu Quito VS Leones Del Nort: eksik score, confidence
-- Envigado (0) VS (3) Once Caldas: eksik score, confidence
+- Gremio (2) VS (3) Bolivar: eksik score, confidence
+- Rivadavia VS Huracan: eksik score, confidence
+- Talleres VS Velez Sarsfield: eksik score, confidence
+- Kosta Rika (U2 VS Antigua And Bar: eksik score, confidence
+- Jalapa VS Real Esteli: eksik score, confidence
+- Corinthians VS Atletico Pr: eksik score, confidence
+- Leeds Utd VS Sunderland: eksik score, confidence
+- Isidro Metapan VS Deportivo Fas: eksik score, confidence
+- Alaves VS Castellon: eksik score, confidence
+- Independiente VS Newells Old Boy: eksik score, confidence
+- Corboda Santia VS Atletico Tucuma: eksik score, confidence
+- O Higgins (0) VS (1) Boca Juniors: eksik score, confidence
+- Caracas Fc (0) VS (2) Santa Fe: eksik score, confidence
+- Coritiba VS Cruzeiro: eksik score, confidence
+- Meksika (U20) VS Guatemala U20: eksik score, confidence
+- Alebrijes VS Dorados: eksik score, confidence
+- Herediano VS Marathon: eksik score, confidence
+- Inter Fa VS Aguila: eksik score, confidence
+- Municipal VS Cs Cartagines: eksik score, confidence
+- Las Palmas VS Neom Sc: eksik score, confidence
