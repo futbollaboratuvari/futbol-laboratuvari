@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 30.07.2026 04:25:01
+Oluşturma: 30.07.2026 05:56:03
 
 ## Özet
 
-- Toplam tahmin: 132
-- Bekleyen tahmin: 132
+- Toplam tahmin: 134
+- Bekleyen tahmin: 134
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +20,14 @@ Oluşturma: 30.07.2026 04:25:01
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 66, bekleyen 66, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 55, bekleyen 55, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
-- MS X: toplam 65, bekleyen 65, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 54, bekleyen 54, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-30 | Hazırlık Kulüpler | Bournemouth - Augsburg | MS X | pending | 60/100
+- 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | MS 2 | pending | 50/100
 - 2026-07-30 | Kolombiya Kupa 2.Tur | Envigado (0) - (3) Once Caldas | MS 1 | pending | 40/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Austria Vienna (2) - (0) Liepaja | MS X | pending | 95/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gks Katowice (1) - (2) Zilina | MS 2 | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 30.07.2026 04:25:01
 - 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) - (1) Beşiktaş | MS X | pending | 50/100
 - 2026-07-30 | UEFA Avrupa Ligi 2. Eleme Turu | Pafos Fc (0) - (2) Hajduk Split | MS 2 | pending | 50/100
 - 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) - (2) Atert Bissen | MS X | pending | 80/100
-- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Zalgiris Vilni (0) - (3) Dinamo Tiflis | MS X | pending | 50/100
-- 2026-07-30 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Minsk (4) - (2) Neftchi Baku | MS X | pending | 40/100
 
