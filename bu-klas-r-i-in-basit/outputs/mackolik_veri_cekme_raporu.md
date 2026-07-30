@@ -1,25 +1,33 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-30T08:41:24.105618+00:00
+Tarih: 2026-07-30T09:40:08.725006+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 64
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 63
-- Ham veri havuzu toplam mac sayisi: 3755
+- Kac mac bulundu: 80
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 78
+- Ham veri havuzu toplam mac sayisi: 3757
 - Hedef tarih: 30.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Avustralya FFA Kupası Son 32 Turu
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup D
+- CONCACAF U20 Grup B
+- Copa Sudamericana Son 32 Turu
 - Ekvador Kupa Son 16 Turu
+- El Salvador Primera Lig Apertura
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Hazırlık Kulüpler
 - Kolombiya Kupa 2.Tur
+- Meksika Ascenso MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 5
 - UEFA Avrupa Ligi 2. Eleme Turu
 - UEFA Konferans Ligi 2. Eleme Turu
@@ -80,8 +88,8 @@ Tarih: 2026-07-30T08:41:24.105618+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 19
+- Acilan detay: 19
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -98,22 +106,22 @@ Tarih: 2026-07-30T08:41:24.105618+00:00
 | 30.07.2026 | 21:30 | UEFA Avrupa Ligi 2. Eleme Turu | Ferencvaros (2) | (1) Twente | 12511 | 5 |
 | 30.07.2026 | 21:30 | UEFA Avrupa Ligi 2. Eleme Turu | Anderlecht (1) | (1) Hammarby | 12245 | 5 |
 | 30.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Midtjylland (0) | (1) Beşiktaş | 10390 | 5 |
-| 30.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Benfica (1) | (2) St Gallen | 13241 | 4 |
+| 30.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Cska Sofia (0) | (0) Qarabagh | 11305 | 5 |
 | 30.07.2026 | 20:00 | UEFA Avrupa Ligi 2. Eleme Turu | Pafos Fc (0) | (2) Hajduk Split | 10510 | 5 |
 | 30.07.2026 | 20:45 | UEFA Avrupa Ligi 2. Eleme Turu | Paok (3) | (2) Dynamo Kiev | 11019 | 5 |
 | 30.07.2026 | 19:00 | UEFA Avrupa Ligi 2. Eleme Turu | Maccabi Tel Av (5) | (0) Sheriff Tiraspo | 09801 | 5 |
-| 30.07.2026 | 21:00 | UEFA Avrupa Ligi 2. Eleme Turu | Cska Sofia (0) | (0) Qarabagh | 11305 | 5 |
-| 30.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Hibernian (0) | (2) Malisheva | 13514 | 4 |
-| 30.07.2026 | 21:15 | UEFA Konferans Ligi 2. Eleme Turu | Sion (1) | (1) Bate Borisov | 12185 | 4 |
-| 30.07.2026 | 21:00 | UEFA Konferans Ligi 2. Eleme Turu | Ludogorets (0) | (2) Hapoel Tel Aviv | 12066 | 5 |
-| 30.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Zira (0) | (1) Paide Linnamees | 09991 | 5 |
-| 30.07.2026 | 22:00 | UEFA Konferans Ligi 2. Eleme Turu | Dinamo Tirana (1) | (1) Aluminij | 13410 | 5 |
+| 30.07.2026 | 22:00 | UEFA Avrupa Ligi 2. Eleme Turu | Benfica (1) | (2) St Gallen | 13241 | 4 |
 | 30.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Valletta (1) | (3) Rakow Czestocho | 10930 | 5 |
 | 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Zrinjski (0) | (1) Valur | 12814 | 4 |
 | 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Austria Vienna (2) | (0) Liepaja | 12346 | 4 |
 | 30.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Jablonec (2) | (3) Varazdin | 09709 | 5 |
 | 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Nordsjaelland (0) | (1) Gais | 10472 | 5 |
 | 30.07.2026 | 20:30 | UEFA Konferans Ligi 2. Eleme Turu | Derry City (0) | (1) Rijeka | 10861 | 5 |
+| 30.07.2026 | 21:30 | UEFA Konferans Ligi 2. Eleme Turu | Gks Katowice (1) | (2) Zilina | 12689 | 5 |
+| 30.07.2026 | 20:00 | UEFA Konferans Ligi 2. Eleme Turu | Gyor (6) | (2) Atert Bissen | 10249 | 4 |
+| 30.07.2026 | 19:00 | UEFA Konferans Ligi 2. Eleme Turu | Nomme Kalju (2) | (5) Shelbourne | 09864 | 5 |
+| 30.07.2026 | 21:45 | UEFA Konferans Ligi 2. Eleme Turu | Koper (2) | (0) Runavik | 13174 | 5 |
+| 30.07.2026 | 21:15 | UEFA Konferans Ligi 2. Eleme Turu | Fc Una Strasse (0) | (4) Partizan Belgra | 12130 | 5 |
 
 ## Sonuc
 
