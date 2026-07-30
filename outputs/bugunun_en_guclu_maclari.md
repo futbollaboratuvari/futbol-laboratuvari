@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-07-29T23:53:57.887Z
+- Güncelleme: 2026-07-30T00:53:41.392Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -21,13 +21,13 @@
 | Greenville Tri VS Athletic Club B | ABD USL Lig 1 | 02:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Louisville Cit VS Birmingham Legi | ABD USL | 02:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Liverpool VS Wrexham | Hazırlık Kulüpler | 02:30 | MS 2 | 5.14 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Umecit VS Deportivo Sapri | CONCACAF Orta Amerika Kupası Grup C | 03:00 | MS 1 | 3.19 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Umecit VS Deportivo Sapri | CONCACAF Orta Amerika Kupası Grup C | 03:00 | MS 1 | 3.19 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Indep. Jose Te VS Manta | Ekvador Kupa Son 16 Turu | 03:00 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Forward Madiso VS Chattanooga Red | ABD USL Lig 1 | 03:00 | MS 2 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cienciano (0) VS (2) Lanus | Copa Sudamericana Son 32 Turu | 03:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Forward Madiso VS Chattanooga Red | ABD USL Lig 1 | 03:00 | MS 2 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Cienciano (0) VS (2) Lanus | Copa Sudamericana Son 32 Turu | 03:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Bragantino (0) VS (0) Sporting Crista | Copa Sudamericana Son 32 Turu | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Vitoria Bahia VS Palmeiras | Brezilya Serie A | 03:30 | MS 1 | 3.47 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Fluminense VS Bahia | Brezilya Serie A | 03:30 | MS 2 | 4.28 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Vitoria Bahia VS Palmeiras | Brezilya Serie A | 03:30 | MS 1 | 3.47 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Fluminense VS Bahia | Brezilya Serie A | 03:30 | MS 2 | 4.28 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Instituto Cord VS Platense | Arjantin Premier Lig 2. Aşama | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Real Cartagena (1) VS (2) America De Cali | Kolombiya Kupa 2.Tur | 04:00 | MS 1 | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kanada (U20) VS Honduras (U20) | CONCACAF U20 Grup C | 04:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

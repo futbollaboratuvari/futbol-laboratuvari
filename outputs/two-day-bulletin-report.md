@@ -2,23 +2,15 @@
 
 Gunler: 2026-07-30 / 2026-07-31
 Kaynak: fixtures.json
-Ham mac: 100
-Aktif mac: 89
-Canli mac: 10
-Biten mac: 1
-Bultenden dusurulen mac: 11
-Bugun: 75
+Ham mac: 99
+Aktif mac: 81
+Canli mac: 18
+Biten mac: 0
+Bultenden dusurulen mac: 18
+Bugun: 67
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-07-30 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | scheduled | -
-- 2026-07-30 03:00 | Ekvador Kupa Son 16 Turu | Indep. Jose Te - Manta | scheduled | -
-- 2026-07-30 03:00 | ABD USL Lig 1 | Forward Madiso - Chattanooga Red | scheduled | -
-- 2026-07-30 03:30 | Copa Sudamericana Son 32 Turu | Cienciano (0) - (2) Lanus | scheduled | -
-- 2026-07-30 03:30 | Copa Sudamericana Son 32 Turu | Bragantino (0) - (0) Sporting Crista | scheduled | -
-- 2026-07-30 03:30 | Brezilya Serie A | Vitoria Bahia - Palmeiras | scheduled | -
-- 2026-07-30 03:30 | Brezilya Serie A | Fluminense - Bahia | scheduled | -
-- 2026-07-30 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Platense | scheduled | -
 - 2026-07-30 04:00 | Kolombiya Kupa 2.Tur | Real Cartagena (1) - (2) America De Cali | scheduled | -
 - 2026-07-30 04:00 | CONCACAF U20 Grup C | Kanada (U20) - Honduras (U20) | scheduled | -
 - 2026-07-30 04:00 | El Salvador Primera Lig Apertura | Firpo - Fuerte San Fran | scheduled | -
@@ -112,6 +104,14 @@ Yarin: 14
 - 2026-07-30 02:00 | ABD USL Lig 1 | Greenville Tri - Athletic Club B | live | -
 - 2026-07-30 02:30 | ABD USL | Louisville Cit - Birmingham Legi | live | -
 - 2026-07-30 02:30 | Hazırlık Kulüpler | Liverpool - Wrexham | live | -
+- 2026-07-30 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Deportivo Sapri | live | -
+- 2026-07-30 03:00 | Ekvador Kupa Son 16 Turu | Indep. Jose Te - Manta | live | -
+- 2026-07-30 03:00 | ABD USL Lig 1 | Forward Madiso - Chattanooga Red | live | -
+- 2026-07-30 03:30 | Copa Sudamericana Son 32 Turu | Cienciano (0) - (2) Lanus | live | -
+- 2026-07-30 03:30 | Copa Sudamericana Son 32 Turu | Bragantino (0) - (0) Sporting Crista | live | -
+- 2026-07-30 03:30 | Brezilya Serie A | Vitoria Bahia - Palmeiras | live | -
+- 2026-07-30 03:30 | Brezilya Serie A | Fluminense - Bahia | live | -
+- 2026-07-30 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Platense | live | -
 
 ## Biten Maclar
-- 2026-07-30 00:00 | Paraguay Kupa 2.Tur | River Plate - Sol De America | finished | -
+Biten mac yok.
