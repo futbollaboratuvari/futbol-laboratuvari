@@ -1,20 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-30T20:20:06.456074+00:00
+Tarih: 2026-07-30T20:55:51.671552+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 1
+- Kac mac bulundu: 19
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 1
+- Kac mac zaten vardi: 19
 - Ham veri havuzu toplam mac sayisi: 3758
 - Hedef tarih: 30.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- Kolombiya Kupa 2.Tur
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup D
+- CONCACAF U20 Grup B
+- Copa Sudamericana Son 32 Turu
+- El Salvador Primera Lig Apertura
+- Hazırlık Kulüpler
+- Meksika Ascenso MX Apertura
+- Nikaragua Premier Lig Apertura
 
 ## Okunabilen Oran Alanlari
 
@@ -71,8 +80,8 @@ Tarih: 2026-07-30T20:20:06.456074+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 11
-- Acilan detay: 11
+- Denenen Tumu alani: 10
+- Acilan detay: 10
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -85,7 +94,25 @@ Tarih: 2026-07-30T20:20:06.456074+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 30.07.2026 | 23:30 | Kolombiya Kupa 2.Tur | Envigado (0) | (3) Once Caldas | 03317 | 5 |
+| 31.07.2026 | 03:00 | Hazırlık Kulüpler | Alaves | Castellon | 00396 | 5 |
+| 31.07.2026 | 02:30 | Hazırlık Kulüpler | Leeds Utd | Sunderland | 20685 | 5 |
+| 31.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) | (2) Santa Fe | 13601 | 5 |
+| 31.07.2026 | 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) | (1) Boca Juniors | 13656 | 5 |
+| 31.07.2026 | 01:00 | Copa Sudamericana Son 32 Turu | Gremio (2) | (3) Bolivar | 13547 | 5 |
+| 31.07.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano | Marathon | 03934 | 5 |
+| 31.07.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal | Cs Cartagines | 02827 | 5 |
+| 31.07.2026 | 03:30 | Brezilya Serie A | Coritiba | Cruzeiro | 14393 | 5 |
+| 31.07.2026 | 01:30 | Brezilya Serie A | Corinthians | Atletico Pr | 14332 | 5 |
+| 31.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Independiente | Newells Old Boy | 13379 | 5 |
+| 31.07.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia | Atletico Tucuma | 13242 | 5 |
+| 31.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Rivadavia | Huracan | 12757 | 5 |
+| 31.07.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Talleres | Velez Sarsfield | 12884 | 5 |
+| 31.07.2026 | 04:00 | CONCACAF U20 Grup B | Meksika (U20) | Guatemala U20 | 02928 | 5 |
+| 31.07.2026 | 01:00 | CONCACAF U20 Grup B | Kosta Rika (U2 | Antigua And Bar | 02370 | 2 |
+| 31.07.2026 | 04:00 | Meksika Ascenso MX Apertura | Alebrijes | Dorados | 14873 | 5 |
+| 31.07.2026 | 01:00 | Nikaragua Premier Lig Apertura | Jalapa | Real Esteli | 02283 | 5 |
+| 31.07.2026 | 05:00 | El Salvador Primera Lig Apertura | Inter Fa | Aguila | 04717 | 5 |
+| 31.07.2026 | 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan | Deportivo Fas | 02516 | 5 |
 
 ## Sonuc
 
