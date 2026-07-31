@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 83
 - Live match count: 60
-- Finished removed count: 9
+- Finished removed count: 0
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
 - 2026-07-31 18:30 | Slutsk - Energetik-Bgu | live
