@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.07.2026 11:13:26
+Oluşturma: 31.07.2026 12:35:07
 
 ## Özet
 
-- Toplam tahmin: 78
-- Bekleyen tahmin: 78
+- Toplam tahmin: 80
+- Bekleyen tahmin: 80
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,14 @@ Oluşturma: 31.07.2026 11:13:26
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 50, bekleyen 50, başarı bekleniyor, ağırlık 1
+- MS X: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-31 | Galler Premier Lig 1.Aşama | Llandudno - Flint Town | MS X | pending | 50/100
+- 2026-07-31 | Danimarka 3.Lig | Helsingor - Vanlose | MS 2 | pending | 50/100
 - 2026-07-31 | Polonya Ekstraklasa | Motor Lublin - Jagiellonia | MS X | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Bromley - Qpr | MS X | pending | 60/100
 - 2026-07-31 | Romanya 1.Lig | Otelul Galati - Dinamo Bükreş | MS 1 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 31.07.2026 11:13:26
 - 2026-07-31 | İrlanda 1.Lig | Bray Wanderers - Kerry | MS 2 | pending | 60/100
 - 2026-07-31 | İrlanda 1.Lig | Athlone - Ucd | MS X | pending | 50/100
 - 2026-07-31 | İrlanda 1.Lig | Cobh Ramblers - Wexford Youths | MS X | pending | 50/100
-- 2026-07-31 | İrlanda 1.Lig | Treaty Unt. - Longford | MS X | pending | 50/100
-- 2026-07-31 | Galler FAW Championship Güney | Trethomas Blue - Baglan Dragons | MS 2 | pending | 50/100
 
