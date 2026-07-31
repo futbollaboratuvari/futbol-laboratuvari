@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 134
-- Live match count: 18
-- Finished removed count: 0
+- Scheduled match count: 83
+- Live match count: 60
+- Finished removed count: 9
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
-- 2026-07-31 17:00 | Mainz - Al Ahli Dubai | live
-- 2026-07-31 18:00 | Orsha - Soligorsk | live
-- 2026-07-31 18:00 | Dnepr Mogilev - Naftan | live
-- 2026-07-31 18:00 | Viktoria Zizko - Prostejov | live
-- 2026-07-31 18:00 | Monaco - Cercle Brugge | live
-- 2026-07-31 18:00 | Paris 13 Atlet - Lusitanos St-Ma | live
-- 2026-07-31 18:00 | Wolfsburg - Telstar | live
-- 2026-07-31 18:00 | Pohronie - Povazska Bystri | live
-- 2026-07-31 18:00 | Zoria Luhansk - Kolos Kovalivka | live
 - 2026-07-31 18:30 | Slutsk - Energetik-Bgu | live
+- 2026-07-31 18:30 | Inter Turku Ii - Vjs | live
+- 2026-07-31 18:30 | Pk Keski Uusim - Tampere Utd | live
+- 2026-07-31 18:30 | Ekenas If - Klubi 04 | live
+- 2026-07-31 18:30 | Kotka - Sjk Ii | live
+- 2026-07-31 18:30 | Vis Pasaro - Benevento | live
+- 2026-07-31 18:30 | Be1 Nfa - Lietava Jonava | live
+- 2026-07-31 18:30 | Argesul Pitest - Csikszereda | live
+- 2026-07-31 18:45 | Juve Stabia - Ischia | live
+- 2026-07-31 19:00 | Dinamo Minsk I - Niva Dolbizno | live
