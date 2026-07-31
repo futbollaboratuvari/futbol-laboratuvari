@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.07.2026 17:40:38
+Oluşturma: 31.07.2026 18:34:20
 
 ## Özet
 
-- Toplam tahmin: 95
-- Bekleyen tahmin: 95
+- Toplam tahmin: 98
+- Bekleyen tahmin: 98
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,15 @@ Oluşturma: 31.07.2026 17:40:38
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
-- MS X: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
+- MS X: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-31 | Galler Premier Lig 1.Aşama | Colwyn Bay - Trefelin | MS X | pending | 70/100
+- 2026-07-31 | Hazırlık Kulüpler | Torquay - Exeter | MS 2 | pending | 70/100
+- 2026-07-31 | Hazırlık Kulüpler | Paris 13 Atlet - Lusitanos St-Ma | MS X | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Fortuna Sittar - Apoel | MS 2 | pending | 50/100
 - 2026-07-31 | Avusturya 1.Lig | Wacker Innsbru - Bregenz | MS 2 | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Monaco - Cercle Brugge | MS X | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 31.07.2026 17:40:38
 - 2026-07-31 | Hazırlık Kulüpler | Bromley - Qpr | MS 1 | pending | 60/100
 - 2026-07-31 | Hazırlık Kulüpler | Birmingham - Barcelona | MS X | pending | 55/100
 - 2026-07-31 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Phönix Lübeck | MS 2 | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Southport - Wigan | MS X | pending | 60/100
-- 2026-07-31 | Hazırlık Kulüpler | Caen - Dieppe | MS 2 | pending | 60/100
-- 2026-07-31 | Hazırlık Kulüpler | Mainz - Al Ahli Dubai | MS X | pending | 60/100
 

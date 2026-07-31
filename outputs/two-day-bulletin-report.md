@@ -2,32 +2,15 @@
 
 Gunler: 2026-07-31 / 2026-08-01
 Kaynak: fixtures.json
-Ham mac: 190
-Aktif mac: 152
-Canli mac: 3
-Biten mac: 35
-Bultenden dusurulen mac: 38
-Bugun: 127
+Ham mac: 153
+Aktif mac: 135
+Canli mac: 18
+Biten mac: 0
+Bultenden dusurulen mac: 18
+Bugun: 110
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-07-31 17:00 | Hazırlık Kulüpler | Mainz - Al Ahli Dubai | scheduled | -
-- 2026-07-31 18:00 | Ukrayna Premier Lig | Zoria Luhansk - Kolos Kovalivka | scheduled | -
-- 2026-07-31 18:00 | Hazırlık Kulüpler | Wolfsburg - Telstar | scheduled | -
-- 2026-07-31 18:00 | Hazırlık Kulüpler | Monaco - Cercle Brugge | scheduled | -
-- 2026-07-31 18:00 | Belarus Premier Lig | Dnepr Mogilev - Naftan | scheduled | -
-- 2026-07-31 18:00 | Çek Cumhuriyeti FNL | Viktoria Zizko - Prostejov | scheduled | -
-- 2026-07-31 18:00 | Slovakya 2.Lig | Pohronie - Povazska Bystri | scheduled | -
-- 2026-07-31 18:00 | Belarus 1.Lig | Orsha - Soligorsk | scheduled | -
-- 2026-07-31 18:00 | Hazırlık Kulüpler | Paris 13 Atlet - Lusitanos St-Ma | scheduled | -
-- 2026-07-31 18:30 | Finlandiya Ykkösliiga | Kotka - Sjk Ii | scheduled | -
-- 2026-07-31 18:30 | Finlandiya Ykkösliiga | Ekenas If - Klubi 04 | scheduled | -
-- 2026-07-31 18:30 | Romanya 1.Lig | Argesul Pitest - Csikszereda | scheduled | -
-- 2026-07-31 18:30 | Finlandiya Ykkönen | Inter Turku Ii - Vjs | scheduled | -
-- 2026-07-31 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Tampere Utd | scheduled | -
-- 2026-07-31 18:30 | Litvanya 1.Lig | Be1 Nfa - Lietava Jonava | scheduled | -
-- 2026-07-31 18:30 | Belarus 1.Lig | Slutsk - Energetik-Bgu | scheduled | -
-- 2026-07-31 18:30 | Hazırlık Kulüpler | Vis Pasaro - Benevento | scheduled | -
 - 2026-07-31 18:45 | Hazırlık Kulüpler | Juve Stabia - Ischia | scheduled | -
 - 2026-07-31 19:00 | Polonya Ekstraklasa | Wisla Plock - Widzew Lodz | scheduled | -
 - 2026-07-31 19:00 | Hazırlık Kulüpler | Juventus - Nice | scheduled | -
@@ -165,43 +148,24 @@ Yarin: 25
 - 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | scheduled | -
 
 ## Canli Maclar
-- 2026-07-31 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Dalian Zhixing | live | -
-- 2026-07-31 15:00 | Hazırlık Kulüpler | Fortuna Ii - Steinbach | live | -
 - 2026-07-31 16:00 | AFF Şampiyonası Grup A | Vietnam - Singapur | live | -
+- 2026-07-31 17:00 | Hazırlık Kulüpler | Mainz - Al Ahli Dubai | live | -
+- 2026-07-31 18:00 | Ukrayna Premier Lig | Zoria Luhansk - Kolos Kovalivka | live | -
+- 2026-07-31 18:00 | Hazırlık Kulüpler | Wolfsburg - Telstar | live | -
+- 2026-07-31 18:00 | Hazırlık Kulüpler | Monaco - Cercle Brugge | live | -
+- 2026-07-31 18:00 | Belarus Premier Lig | Dnepr Mogilev - Naftan | live | -
+- 2026-07-31 18:00 | Çek Cumhuriyeti FNL | Viktoria Zizko - Prostejov | live | -
+- 2026-07-31 18:00 | Slovakya 2.Lig | Pohronie - Povazska Bystri | live | -
+- 2026-07-31 18:00 | Belarus 1.Lig | Orsha - Soligorsk | live | -
+- 2026-07-31 18:00 | Hazırlık Kulüpler | Paris 13 Atlet - Lusitanos St-Ma | live | -
+- 2026-07-31 18:30 | Finlandiya Ykkösliiga | Kotka - Sjk Ii | live | -
+- 2026-07-31 18:30 | Finlandiya Ykkösliiga | Ekenas If - Klubi 04 | live | -
+- 2026-07-31 18:30 | Romanya 1.Lig | Argesul Pitest - Csikszereda | live | -
+- 2026-07-31 18:30 | Finlandiya Ykkönen | Inter Turku Ii - Vjs | live | -
+- 2026-07-31 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Tampere Utd | live | -
+- 2026-07-31 18:30 | Litvanya 1.Lig | Be1 Nfa - Lietava Jonava | live | -
+- 2026-07-31 18:30 | Belarus 1.Lig | Slutsk - Energetik-Bgu | live | -
+- 2026-07-31 18:30 | Hazırlık Kulüpler | Vis Pasaro - Benevento | live | -
 
 ## Biten Maclar
-- 2026-07-31 01:00 | Copa Sudamericana Son 32 Turu | Gremio (2) - (3) Bolivar | finished | -
-- 2026-07-31 01:00 | Arjantin Premier Lig 2. Aşama | Rivadavia - Huracan | finished | -
-- 2026-07-31 01:00 | Arjantin Premier Lig 2. Aşama | Talleres - Velez Sarsfield | finished | -
-- 2026-07-31 01:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Antigua And Bar | finished | -
-- 2026-07-31 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Real Esteli | finished | -
-- 2026-07-31 01:30 | Brezilya Serie A | Corinthians - Atletico Pr | finished | -
-- 2026-07-31 02:30 | Hazırlık Kulüpler | Leeds Utd - Sunderland | finished | -
-- 2026-07-31 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Deportivo Fas | finished | -
-- 2026-07-31 03:00 | Hazırlık Kulüpler | Alaves - Castellon | finished | -
-- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Independiente - Newells Old Boy | finished | -
-- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Atletico Tucuma | finished | -
-- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) - (1) Boca Juniors | finished | -
-- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) - (2) Santa Fe | finished | -
-- 2026-07-31 03:30 | Brezilya Serie A | Coritiba - Cruzeiro | finished | -
-- 2026-07-31 04:00 | CONCACAF U20 Grup B | Meksika (U20) - Guatemala U20 | finished | -
-- 2026-07-31 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Dorados | finished | -
-- 2026-07-31 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Marathon | finished | -
-- 2026-07-31 05:00 | El Salvador Primera Lig Apertura | Inter Fa - Aguila | finished | -
-- 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | finished | -
-- 2026-07-31 11:00 | Hazırlık Kulüpler | Las Palmas - Neom Sc | finished | -
-- 2026-07-31 11:30 | Hazırlık Kulüpler | Cordoba Ii - Sevilla B | finished | -
-- 2026-07-31 11:30 | Hazırlık Kulüpler | Elche - Cordoba | finished | -
-- 2026-07-31 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Brisbane City | finished | -
-- 2026-07-31 12:30 | Avustralya NPL Queensland | Rochedale Rove - Eastern Suburbs | finished | -
-- 2026-07-31 12:30 | Avustralya NPL Victoria | Bentleigh Gree - Oakleigh Cannon | finished | -
-- 2026-07-31 12:30 | Hazırlık Kulüpler | Caen - Dieppe | finished | -
-- 2026-07-31 13:00 | Hazırlık Kulüpler | Köln - Hertha Berlin | finished | -
-- 2026-07-31 13:00 | AFF Şampiyonası Grup A | Dogu Timor - Endonezya | finished | -
-- 2026-07-31 13:00 | Avustralya NPL Güney Avustralya | Campbelltown C - Adelaide City | finished | -
-- 2026-07-31 13:00 | Avustralya NPL Kuzey YGG | Cooks Hill Uni - Broadmeadow Mag | finished | -
-- 2026-07-31 13:00 | Hazırlık Kulüpler | Portimonense - Nottingham F | finished | -
-- 2026-07-31 13:30 | Avustralya NPL Victoria | Preston Lions - Green Gully | finished | -
-- 2026-07-31 13:30 | Avustralya Victoria NPL 1 | Northcote City - Eltham Redbacks | finished | -
-- 2026-07-31 13:30 | Avustralya Victoria NPL 1 | Melbourne Knig - Western Utd. Ii | finished | -
-- 2026-07-31 14:00 | Hazırlık Kulüpler | Troyes - Goal Fc | finished | -
+Biten mac yok.
