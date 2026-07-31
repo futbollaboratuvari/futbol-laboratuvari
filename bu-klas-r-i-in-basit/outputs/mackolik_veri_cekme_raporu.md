@@ -1,22 +1,106 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-31T19:55:30.721986+00:00
+Tarih: 2026-07-31T21:17:25.218336+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 4
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 4
-- Ham veri havuzu toplam mac sayisi: 3929
-- Hedef tarih: 31.07.2026 Europe/Istanbul
+- Kac mac bulundu: 249
+- Kac mac kaydedildi: 249
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 4178
+- Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- AFF Şampiyonası Grup B
+- Almanya Bölgesel Lig Batı
+- Almanya Bölgesel Lig Kuzey
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Batı Avustralya
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Güney Avustralya
+- Avustralya NPL Queensland
+- Avustralya NPL Tazmanya
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avustralya Victoria NPL 1
+- Avusturya 1.Lig
+- Avusturya Bundesliga
+- Belarus Premier Lig
+- Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- Bulgaristan 1.Lig
+- Danimarka 1.Lig
+- Danimarka 2.Lig
+- Danimarka 3.Lig
+- Danimarka Süperlig
+- Ekvador Pro Lig
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Galler FAW Championship Güney
+- Galler FAW Championship Kuzey
+- Galler Premier Lig 1.Aşama
+- Güney Afrika PSL
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
 - Hazırlık Kulüpler
+- Hazırlık Sydney Süper Kupası
+- Hırvatistan 1.HNL
+- Kazakistan Premier Lig
+- Letonya 1.Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Lübnan Premier Lig Şampiyonluk Turu
+- Macaristan NB I
+- Macaristan NB II
+- Moldova Ulusal Lig
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 6
+- Norveç Eliteserien
 - Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
+- Portekiz Süper Kupa
+- Romanya 1.Lig
+- Rusya FNL
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Slovakya Süper Lig
+- Slovenya 1.SNL
+- Sırbistan Süper Lig
+- Uganda Süper 8 Çeyrek Final
+- Ukrayna Premier Lig
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
+- İngiltere Lig Kupası Ön Eleme Turu
+- İskoçya 1.Lig
+- İskoçya 2.Lig
+- İskoçya Championship
+- İskoçya Premiership
 - İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsveç Allsvenskan
+- İsveç Superettan
+- İsviçre 1.Lig Promotion
+- İsviçre Challenge Lig
+- İsviçre Süper Lig
+- İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -73,8 +157,8 @@ Tarih: 2026-07-31T19:55:30.721986+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 22
-- Acilan detay: 22
+- Denenen Tumu alani: 90
+- Acilan detay: 90
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -87,10 +171,26 @@ Tarih: 2026-07-31T19:55:30.721986+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 31.07.2026 | 13:00 | Hazırlık Kulüpler | Portimonense | Nottingham F | 06614 | 5 |
-| 31.07.2026 | 15:00 | Hazırlık Kulüpler | Fortuna Ii | Steinbach | 09047 | 3 |
-| 31.07.2026 | 23:00 | Peru Premier Lig Clausura | Chankas Cyc | Comerciantes Un | 08912 | 5 |
-| 31.07.2026 | 20:30 | İsveç 2.Lig Norra Götaland | Ifk Skövde | Ahlafors If | 07126 | 3 |
+| 01.08.2026 | 22:15 | Portekiz Süper Kupa | Porto | Torreense | 30143 | 4 |
+| 01.08.2026 | 19:00 | Danimarka Süperlig | Lyngby | Aarhus | 14665 | 5 |
+| 01.08.2026 | 18:30 | Polonya Ekstraklasa | Ks Wieczysta K | Lech Poznan | 19584 | 5 |
+| 01.08.2026 | 15:45 | Polonya Ekstraklasa | Piast Gliwice | Wisla Krakow | 19367 | 5 |
+| 01.08.2026 | 17:00 | İngiltere Lig Kupası Ön Eleme Turu | Tranmere | Rochdale | 00998 | 5 |
+| 01.08.2026 | 18:00 | Avusturya Bundesliga | Wattens | Sturm Graz | 11031 | 5 |
+| 01.08.2026 | 20:30 | Avusturya Bundesliga | Salzburg | Hartberg | 11246 | 5 |
+| 01.08.2026 | 19:00 | İsviçre Süper Lig | Zurich | Servette | 23987 | 5 |
+| 01.08.2026 | 21:30 | İsviçre Süper Lig | Thun | Young Boys | 24041 | 5 |
+| 01.08.2026 | 19:00 | İsviçre Süper Lig | Basel | Lausanne | 23933 | 5 |
+| 01.08.2026 | 16:15 | Rusya Premier Lig | Cska Moskova | Krylya Sovietov | 20269 | 5 |
+| 01.08.2026 | 18:30 | Rusya Premier Lig | Makhachkala | L.Moskova | 20340 | 5 |
+| 01.08.2026 | 20:45 | Rusya Premier Lig | Baltika Kalini | Dinamo Moskova | 20411 | 5 |
+| 01.08.2026 | 14:00 | Rusya Premier Lig | Akron | Rubin Kazan | 20198 | 5 |
+| 01.08.2026 | 17:00 | İskoçya Premiership | Falkirk | St Mirren | 25624 | 5 |
+| 01.08.2026 | 19:30 | İskoçya Premiership | Aberdeen | Hearts | 25732 | 5 |
+| 01.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen | Brno | 18933 | 5 |
+| 01.08.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec | Teplice | 18866 | 5 |
+| 01.08.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Banik Ostrava | Slavia Prag | 18800 | 5 |
+| 01.08.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Slovacko | Sk Artis Brno | 18833 | 5 |
 
 ## Sonuc
 

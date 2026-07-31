@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.07.2026 23:13:55
+Oluşturma: 01.08.2026 00:17:30
 
 ## Özet
 
-- Toplam tahmin: 103
-- Bekleyen tahmin: 103
+- Toplam tahmin: 115
+- Bekleyen tahmin: 115
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 36
+- Lig sayısı: 45
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 31.07.2026 23:13:55
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
-- MS X: toplam 60, bekleyen 60, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
+- MS X: toplam 69, bekleyen 69, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-01 | Şili Premier Lig | Univ De Concep - Audax Italiano | MS X | pending | 40/100
+- 2026-08-01 | Ekvador Pro Lig | Libertad - Orense | MS X | pending | 40/100
+- 2026-08-01 | Meksika Ascenso MX Apertura | Correcaminos U - Tepatitlan De M | MS X | pending | 40/100
+- 2026-08-01 | Meksika Ascenso MX Apertura | Zacatecas - Tlaxcala | MS 2 | pending | 40/100
+- 2026-08-01 | ABD USL | San Antonio - Indy Eleven | MS X | pending | 50/100
+- 2026-08-01 | Kanada Premier Lig | Pacific Fc - Supra Du Quebec | MS X | pending | 60/100
+- 2026-08-01 | Meksika Liga MX Apertura | Fc Juarez - Pumas Unam | MS X | pending | 50/100
+- 2026-08-01 | Meksika Liga MX Apertura | Atletico San L - Club Tijuana | MS X | pending | 50/100
+- 2026-08-01 | Meksika Ascenso MX Apertura | Ca La Paz - Durango | MS X | pending | 50/100
+- 2026-08-01 | Avustralya NPL Kuzey YGG | Adamstown Rose - Valentine Phoen | MS X | pending | 50/100
+- 2026-08-01 | Venezuela Premier Lig Clausura | Portuguesa - Carabobo | MS 1 | pending | 40/100
+- 2026-08-01 | ABD MLS | New York City - Toronto | MS 2 | pending | 60/100
 - 2026-07-31 | Avusturya 1.Lig | Floridsdorfer - St Polten | MS 1 | pending | 40/100
 - 2026-07-31 | Galler FAW Championship Güney | Llanelli Town - Newport City | MS X | pending | 50/100
 - 2026-07-31 | Avusturya 1.Lig | Kapfenberg - Liefering | MS 1 | pending | 45/100
-- 2026-07-31 | Avusturya 1.Lig | Avusturya Wien - Blau-Weiss Linz | MS 1 | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Torquay - Exeter | MS X | pending | 70/100
-- 2026-07-31 | Galler Premier Lig 1.Aşama | Colwyn Bay - Trefelin | MS X | pending | 70/100
-- 2026-07-31 | Hazırlık Kulüpler | Torquay - Exeter | MS 2 | pending | 70/100
-- 2026-07-31 | Hazırlık Kulüpler | Paris 13 Atlet - Lusitanos St-Ma | MS X | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Fortuna Sittar - Apoel | MS 2 | pending | 50/100
-- 2026-07-31 | Avusturya 1.Lig | Wacker Innsbru - Bregenz | MS 2 | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Monaco - Cercle Brugge | MS X | pending | 40/100
-- 2026-07-31 | Ukrayna Premier Lig | Zoria Luhansk - Kolos Kovalivka | MS 2 | pending | 40/100
-- 2026-07-31 | Hazırlık Kulüpler | Leek Town - Runcorn Linnets | MS 2 | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Weston-S-Mare - Gloucester City | MS 2 | pending | 60/100
-- 2026-07-31 | Galler Premier Lig 1.Aşama | Barry Town - Cambrian | MS 2 | pending | 60/100
 
