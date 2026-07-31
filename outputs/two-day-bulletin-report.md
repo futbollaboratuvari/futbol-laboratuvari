@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
-Ham mac: 344
+Ham mac: 341
 Aktif mac: 338
 Canli mac: 3
-Biten mac: 3
-Bultenden dusurulen mac: 6
+Biten mac: 0
+Bultenden dusurulen mac: 3
 Bugun: 268
 Yarin: 70
 
@@ -356,6 +356,4 @@ Yarin: 70
 - 2026-08-01 02:30 | ABD MLS | New York City - Toronto | live | -
 
 ## Biten Maclar
-- 2026-08-01 00:00 | CONCACAF U20 Grup A | El Salvador U2 - Haiti U20 | finished | -
-- 2026-08-01 00:00 | Venezuela Premier Lig Clausura | Portuguesa - Carabobo | finished | -
-- 2026-08-01 00:30 | Bolivya Premier Lig | The Strongest - Aurora | finished | -
+Biten mac yok.
