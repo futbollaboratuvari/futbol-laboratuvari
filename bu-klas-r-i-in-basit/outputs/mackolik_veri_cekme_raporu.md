@@ -1,6 +1,10 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-07-31T03:51:51.456045+00:00
+=======
+Tarih: 2026-07-31T03:54:58.032531+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
