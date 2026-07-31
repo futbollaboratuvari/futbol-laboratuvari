@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.07.2026 16:07:39
+Oluşturma: 31.07.2026 16:10:41
 
 ## Özet
 
-- Toplam tahmin: 86
-- Bekleyen tahmin: 86
+- Toplam tahmin: 91
+- Bekleyen tahmin: 91
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,17 @@ Oluşturma: 31.07.2026 16:07:39
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS X: toplam 54, bekleyen 54, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
+- MS X: toplam 55, bekleyen 55, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-31 | Hazırlık Kulüpler | Leek Town - Runcorn Linnets | MS 2 | pending | 50/100
+- 2026-07-31 | Hazırlık Kulüpler | Weston-S-Mare - Gloucester City | MS 2 | pending | 60/100
+- 2026-07-31 | Galler Premier Lig 1.Aşama | Barry Town - Cambrian | MS 2 | pending | 60/100
+- 2026-07-31 | Hazırlık Kulüpler | Cartagena - Johor Dt | MS 1 | pending | 50/100
+- 2026-07-31 | Hazırlık Kulüpler | Toulon - Aubagne | MS X | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Bromley - Qpr | MS 1 | pending | 60/100
 - 2026-07-31 | Hazırlık Kulüpler | Birmingham - Barcelona | MS X | pending | 55/100
 - 2026-07-31 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Phönix Lübeck | MS 2 | pending | 50/100
@@ -36,9 +41,4 @@ Oluşturma: 31.07.2026 16:07:39
 - 2026-07-31 | Danimarka 3.Lig | Helsingor - Vanlose | MS 2 | pending | 50/100
 - 2026-07-31 | Polonya Ekstraklasa | Motor Lublin - Jagiellonia | MS X | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Bromley - Qpr | MS X | pending | 60/100
-- 2026-07-31 | Romanya 1.Lig | Otelul Galati - Dinamo Bükreş | MS 1 | pending | 40/100
-- 2026-07-31 | Polonya 1.Lig | Lechia Gdansk - Warta Poznan | MS X | pending | 50/100
-- 2026-07-31 | Avusturya 1.Lig | Floridsdorfer - St Polten | MS X | pending | 40/100
-- 2026-07-31 | Polonya 2.Lig | Stal S Wola - Gks Tychy | MS X | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Birmingham - Barcelona | MS 1 | pending | 55/100
 
