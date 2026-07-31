@@ -1,53 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-31T15:49:42.639828+00:00
+Tarih: 2026-07-31T16:27:43.759901+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 135
+- Kac mac bulundu: 93
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 135
+- Kac mac zaten vardi: 93
 - Ham veri havuzu toplam mac sayisi: 3929
 - Hedef tarih: 31.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
-- Avustralya NPL Victoria
 - Avusturya 1.Lig
 - Avusturya Bundesliga
-- Belarus 1.Lig
 - Belçika Süper Kupa
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup A
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
-- Ekvador Pro Lig
-- Estonya Premium Lig
-- Finlandiya Ykkösliiga
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
-- Letonya 1.Lig
-- Litvanya 1.Lig
 - Macaristan NB I
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 4
@@ -59,8 +41,6 @@ Tarih: 2026-07-31T15:49:42.639828+00:00
 - Romanya 1.Lig
 - Rusya Premier Lig
 - Slovakya 2.Lig
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - İrlanda 1.Lig
@@ -73,7 +53,6 @@ Tarih: 2026-07-31T15:49:42.639828+00:00
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İsviçre Challenge Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -130,8 +109,8 @@ Tarih: 2026-07-31T15:49:42.639828+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 63
-- Acilan detay: 63
+- Denenen Tumu alani: 58
+- Acilan detay: 58
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -146,10 +125,9 @@ Tarih: 2026-07-31T15:49:42.639828+00:00
 |---|---|---|---|---|---|---:|
 | 31.07.2026 | 21:30 | Belçika Süper Kupa | Club Brugge | Union St.G | 24387 | 5 |
 | 31.07.2026 | 21:30 | Polonya Ekstraklasa | Motor Lublin | Jagiellonia | 19280 | 5 |
-| 31.07.2026 | 19:00 | Polonya Ekstraklasa | Wisla Plock | Widzew Lodz | 19159 | 5 |
 | 31.07.2026 | 20:30 | Avusturya Bundesliga | Lask Linz | Grazer Ak | 10748 | 5 |
-| 31.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Sligo Rovers | 24544 | 5 |
 | 31.07.2026 | 22:00 | İrlanda Premier Lig | Drogheda | Shamrock Rovers | 24673 | 5 |
+| 31.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Sligo Rovers | 24544 | 5 |
 | 31.07.2026 | 20:00 | Rusya Premier Lig | Fk Rodina Mosk | Rostov | 06870 | 5 |
 | 31.07.2026 | 22:00 | İskoçya Premiership | Dundee Utd | Glasgow Rangers | 04146 | 5 |
 | 31.07.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag | Zlin | 18750 | 4 |
@@ -157,13 +135,14 @@ Tarih: 2026-07-31T15:49:42.639828+00:00
 | 31.07.2026 | 22:00 | Norveç Eliteserien | Bodo Glimt | Lillestrom | 23053 | 5 |
 | 31.07.2026 | 20:00 | Hazırlık Kulüpler | Den Haag | Asteras Tripoli | 07530 | 5 |
 | 31.07.2026 | 21:45 | Hazırlık Kulüpler | Sporting Cp | Nottingham F | 21091 | 5 |
-| 31.07.2026 | 19:00 | Hazırlık Kulüpler | Famalicao | Como | 10178 | 5 |
 | 31.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | Wigan | 21074 | 5 |
 | 31.07.2026 | 21:45 | Hazırlık Kulüpler | Leek Town | Runcorn Linnets | 11602 | 5 |
 | 31.07.2026 | 21:45 | Hazırlık Kulüpler | Weston-S-Mare | Gloucester City | 12215 | 5 |
 | 31.07.2026 | 21:45 | Hazırlık Kulüpler | Birmingham | Barcelona | 21019 | 5 |
-| 31.07.2026 | 19:00 | Hazırlık Kulüpler | Nantes | Al Wakrah | 02602 | 5 |
 | 31.07.2026 | 20:00 | Hazırlık Kulüpler | Tillmitsch | Furstenfel | 11275 | 3 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Salisbury | Havant And W. | 11696 | 3 |
+| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Toulon | Aubagne | 08661 | 5 |
+| 31.07.2026 | 20:00 | Hazırlık Kulüpler | Kalsdorf | Sv Union Gnas | 20982 | 5 |
 
 ## Sonuc
 
