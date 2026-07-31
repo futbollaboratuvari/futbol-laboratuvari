@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
-Ham mac: 5
+Ham mac: 4
 Aktif mac: 0
 Canli mac: 4
-Biten mac: 1
-Bultenden dusurulen mac: 5
+Biten mac: 0
+Bultenden dusurulen mac: 4
 Bugun: 0
 Yarin: 0
 
@@ -20,4 +20,4 @@ Mac bekleniyor.
 - 2026-08-01 23:30 | Peru Premier Lig Clausura | Atletico Grau - Sport Boys | live | -
 
 ## Biten Maclar
-- 2026-08-01 22:15 | Portekiz Süper Kupa | Porto - Torreense | finished | -
+Biten mac yok.
