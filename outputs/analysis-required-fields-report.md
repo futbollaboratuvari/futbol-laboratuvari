@@ -1,27 +1,25 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 124
-Tam analiz: 0
-Eksik analiz: 124
+Toplam analiz: 132
+Tam analiz: 114
+Eksik analiz: 18
 
-- Las Palmas VS Neom Sc: eksik score, confidence
-- Cordoba Ii VS Sevilla B: eksik score, confidence
-- Elche VS Cordoba: eksik score, confidence
-- Brisbane Wolve VS Brisbane City: eksik score, confidence
-- Rochedale Rove VS Eastern Suburbs: eksik score, confidence
-- Bentleigh Gree VS Oakleigh Cannon: eksik score, confidence
-- Köln VS Hertha Berlin: eksik score, confidence
+- Caen VS Dieppe: eksik score, confidence
 - Dogu Timor VS Endonezya: eksik score, confidence
-- Campbelltown C VS Adelaide City: eksik score, confidence
 - Cooks Hill Uni VS Broadmeadow Mag: eksik score, confidence
-- Preston Lions VS Green Gully: eksik score, confidence
-- Northcote City VS Eltham Redbacks: eksik score, confidence
+- Portimonense VS Nottingham F: eksik score, confidence
 - Melbourne Knig VS Western Utd. Ii: eksik score, confidence
 - Troyes VS Goal Fc: eksik score, confidence
-- Henan Jianye VS Dalian Zhixing: eksik score, confidence
-- Vietnam VS Singapur: eksik score, confidence
+- Fortuna Ii VS Steinbach: eksik score, confidence
 - Mainz VS Al Ahli Dubai: eksik score, confidence
-- Zoria Luhansk VS Kolos Kovalivka: eksik score, confidence
-- Wolfsburg VS Telstar: eksik score, confidence
-- Monaco VS Cercle Brugge: eksik score, confidence
+- Orsha VS Soligorsk: eksik score, confidence
+- Slutsk VS Energetik-Bgu: eksik score, confidence
+- Nomme United VS Trans Narva: eksik score, confidence
+- Super Nova Ii VS Riga Mariners: eksik score, confidence
+- Hegelmann Ii VS Minija: eksik score, confidence
+- Dinamo Minsk I VS Niva Dolbizno: eksik score, confidence
+- Gamle Oslo VS Fk Union Carl B: eksik score, confidence
+- Sassuolo VS Folgore Carates: eksik score, confidence
+- Varhaug VS Hinna: eksik score, confidence
+- Bruhl VS Young Boys Ii: eksik score, confidence
