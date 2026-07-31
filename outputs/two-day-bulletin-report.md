@@ -3,20 +3,14 @@
 Gunler: 2026-07-31 / 2026-08-01
 Kaynak: fixtures.json
 Ham mac: 159
-Aktif mac: 153
-Canli mac: 6
+Aktif mac: 147
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 129
+Bultenden dusurulen mac: 12
+Bugun: 123
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) - (1) Boca Juniors | scheduled | -
-- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) - (2) Santa Fe | scheduled | -
-- 2026-07-31 03:30 | Brezilya Serie A | Coritiba - Cruzeiro | scheduled | -
-- 2026-07-31 04:00 | CONCACAF U20 Grup B | Meksika (U20) - Guatemala U20 | scheduled | -
-- 2026-07-31 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Dorados | scheduled | -
-- 2026-07-31 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Marathon | scheduled | -
 - 2026-07-31 05:00 | El Salvador Primera Lig Apertura | Inter Fa - Aguila | scheduled | -
 - 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 - 2026-07-31 11:00 | Hazırlık Kulüpler | Las Palmas - Neom Sc | scheduled | -
@@ -172,6 +166,12 @@ Yarin: 24
 - 2026-07-31 03:00 | Hazırlık Kulüpler | Alaves - Castellon | live | -
 - 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Independiente - Newells Old Boy | live | -
 - 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Atletico Tucuma | live | -
+- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) - (1) Boca Juniors | live | -
+- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) - (2) Santa Fe | live | -
+- 2026-07-31 03:30 | Brezilya Serie A | Coritiba - Cruzeiro | live | -
+- 2026-07-31 04:00 | CONCACAF U20 Grup B | Meksika (U20) - Guatemala U20 | live | -
+- 2026-07-31 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Dorados | live | -
+- 2026-07-31 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Marathon | live | -
 
 ## Biten Maclar
 Biten mac yok.

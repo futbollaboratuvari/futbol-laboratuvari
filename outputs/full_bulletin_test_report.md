@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 157
-- Live match count: 7
-- Finished removed count: 0
+- Scheduled match count: 147
+- Live match count: 11
+- Finished removed count: 1
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
-- 2026-07-31 01:00 | Rivadavia - Huracan | live
-- 2026-07-31 01:00 | Talleres - Velez Sarsfield | live
-- 2026-07-31 01:00 | Kosta Rika (U2 - Antigua And Bar | live
-- 2026-07-31 01:00 | Gremio (2) - (3) Bolivar | live
-- 2026-07-31 01:00 | Jalapa - Real Esteli | live
-- 2026-07-31 01:30 | Corinthians - Atletico Pr | live
 - 2026-07-31 02:30 | Leeds Utd - Sunderland | live
-- 2026-07-31 03:00 | Isidro Metapan - Deportivo Fas | scheduled
-- 2026-07-31 03:00 | Alaves - Castellon | scheduled
-- 2026-07-31 03:15 | Corboda Santia - Atletico Tucuma | scheduled
+- 2026-07-31 03:00 | Isidro Metapan - Deportivo Fas | live
+- 2026-07-31 03:00 | Alaves - Castellon | live
+- 2026-07-31 03:15 | Corboda Santia - Atletico Tucuma | live
+- 2026-07-31 03:15 | Independiente - Newells Old Boy | live
+- 2026-07-31 03:30 | Coritiba - Cruzeiro | live
+- 2026-07-31 03:30 | Caracas Fc (0) - (2) Santa Fe | live
+- 2026-07-31 03:30 | O Higgins (0) - (1) Boca Juniors | live
+- 2026-07-31 04:00 | Herediano - Marathon | live
+- 2026-07-31 04:00 | Meksika (U20) - Guatemala U20 | live
