@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-31T12:06:14.583Z
+- Güncelleme: 2026-07-31T13:07:38.558Z
 - Ham maç sayısı: 161
 - Yarın bülteni maç sayısı: 25
 - Detay blok sayısı: 432
-- Aktif bülten maçı: 150
-- Bültenden düşürülen maç: 11
+- Aktif bülten maçı: 149
+- Bültenden düşürülen maç: 12
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Vietnam - Singapur | AFF Şampiyonası Grup A | 16:00 | Veri bekleniyor | - | - | 3 |
 | Mainz - Al Ahli Dubai | Hazırlık Kulüpler | 17:00 | Veri bekleniyor | - | 1.65 | 8 |
 | Zoria Luhansk - Kolos Kovalivka | Ukrayna Premier Lig | 18:00 | Veri bekleniyor | - | 2.21 | 8 |
 | Wolfsburg - Telstar | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.39 | 7 |
