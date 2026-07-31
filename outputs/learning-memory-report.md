@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.07.2026 14:00:32
+Oluşturma: 31.07.2026 14:03:25
 
 ## Özet
 
-- Toplam tahmin: 80
-- Bekleyen tahmin: 80
+- Toplam tahmin: 83
+- Bekleyen tahmin: 83
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,15 @@ Oluşturma: 31.07.2026 14:00:32
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
+- MS X: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-31 | Hazırlık Kulüpler | Southport - Wigan | MS X | pending | 60/100
+- 2026-07-31 | Hazırlık Kulüpler | Caen - Dieppe | MS 2 | pending | 60/100
+- 2026-07-31 | Hazırlık Kulüpler | Mainz - Al Ahli Dubai | MS X | pending | 60/100
 - 2026-07-31 | Galler Premier Lig 1.Aşama | Llandudno - Flint Town | MS X | pending | 50/100
 - 2026-07-31 | Danimarka 3.Lig | Helsingor - Vanlose | MS 2 | pending | 50/100
 - 2026-07-31 | Polonya Ekstraklasa | Motor Lublin - Jagiellonia | MS X | pending | 50/100
@@ -34,11 +37,8 @@ Oluşturma: 31.07.2026 14:00:32
 - 2026-07-31 | Polonya 1.Lig | Lechia Gdansk - Warta Poznan | MS X | pending | 50/100
 - 2026-07-31 | Avusturya 1.Lig | Floridsdorfer - St Polten | MS X | pending | 40/100
 - 2026-07-31 | Polonya 2.Lig | Stal S Wola - Gks Tychy | MS X | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Birmingham - Barcelona | MS 1 | pending | 40/100
+- 2026-07-31 | Hazırlık Kulüpler | Birmingham - Barcelona | MS 1 | pending | 55/100
 - 2026-07-31 | Hazırlık Kulüpler | Sporting Cp - Nottingham F | MS X | pending | 70/100
 - 2026-07-31 | Galler Premier Lig 1.Aşama | Briton Ferry - Ammanford | MS 2 | pending | 60/100
 - 2026-07-31 | Galler Premier Lig 1.Aşama | Llandudno - Flint Town | MS 2 | pending | 50/100
-- 2026-07-31 | İrlanda 1.Lig | Bray Wanderers - Kerry | MS 2 | pending | 60/100
-- 2026-07-31 | İrlanda 1.Lig | Athlone - Ucd | MS X | pending | 50/100
-- 2026-07-31 | İrlanda 1.Lig | Cobh Ramblers - Wexford Youths | MS X | pending | 50/100
 
