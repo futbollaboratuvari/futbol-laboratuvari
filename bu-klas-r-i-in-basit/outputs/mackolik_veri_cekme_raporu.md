@@ -1,18 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-07-31T03:51:51.456045+00:00
-=======
-Tarih: 2026-07-31T03:54:58.032531+00:00
->>>>>>> Stashed changes
+Tarih: 2026-07-31T06:38:38.270878+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 146
+- Kac mac bulundu: 147
 - Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 144
+- Kac mac zaten vardi: 145
 - Ham veri havuzu toplam mac sayisi: 3905
 - Hedef tarih: 31.07.2026 Europe/Istanbul
 
@@ -155,8 +151,8 @@ Tarih: 2026-07-31T03:54:58.032531+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 31.07.2026 | 21:30 | Belçika Süper Kupa | Club Brugge | Union St.G | 24387 | 5 |
-| 31.07.2026 | 21:30 | Polonya Ekstraklasa | Motor Lublin | Jagiellonia | 19280 | 5 |
 | 31.07.2026 | 19:00 | Polonya Ekstraklasa | Wisla Plock | Widzew Lodz | 19159 | 5 |
+| 31.07.2026 | 21:30 | Polonya Ekstraklasa | Motor Lublin | Jagiellonia | 19280 | 5 |
 | 31.07.2026 | 20:30 | Avusturya Bundesliga | Lask Linz | Grazer Ak | 10748 | 5 |
 | 31.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Sligo Rovers | 24544 | 5 |
 | 31.07.2026 | 22:00 | İrlanda Premier Lig | Drogheda | Shamrock Rovers | 24673 | 5 |
@@ -167,13 +163,13 @@ Tarih: 2026-07-31T03:54:58.032531+00:00
 | 31.07.2026 | 22:00 | Norveç Eliteserien | Bodo Glimt | Lillestrom | 23053 | 5 |
 | 31.07.2026 | 18:00 | Ukrayna Premier Lig | Zoria Luhansk | Kolos Kovalivka | 18380 | 5 |
 | 31.07.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye | Dalian Zhixing | 15807 | 5 |
-| 31.07.2026 | 14:00 | Hazırlık Kulüpler | Troyes | Goal Fc | 20866 | 2 |
-| 31.07.2026 | 19:00 | Hazırlık Kulüpler | Valenciennes | Boulogne | 05987 | 5 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Birmingham | Barcelona | 21019 | 5 |
-| 31.07.2026 | 19:00 | Hazırlık Kulüpler | Nantes | Al Wakrah | 02602 | 5 |
-| 31.07.2026 | 19:00 | Hazırlık Kulüpler | Juventus | Nice | 20928 | 5 |
-| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Ebbsfleet | Gillingham | 32697 | 5 |
-| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Mansfield | Derby County | 32550 | 3 |
+| 31.07.2026 | 18:00 | Hazırlık Kulüpler | Wolfsburg | Telstar | 09408 | 5 |
+| 31.07.2026 | 11:00 | Hazırlık Kulüpler | Las Palmas | Neom Sc | 20825 | 5 |
+| 31.07.2026 | 11:30 | Hazırlık Kulüpler | Cordoba Ii | Sevilla B | 20738 | 5 |
+| 31.07.2026 | 20:00 | Hazırlık Kulüpler | Kalsdorf | Sv Union Gnas | 20982 | 5 |
+| 31.07.2026 | 18:00 | Hazırlık Kulüpler | Monaco | Cercle Brugge | 20875 | 5 |
+| 31.07.2026 | 11:30 | Hazırlık Kulüpler | Elche | Cordoba | 20755 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | Wigan | 21074 | 3 |
 
 ## Sonuc
 

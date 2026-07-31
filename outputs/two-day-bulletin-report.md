@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-07-31 / 2026-08-01
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 166
 Aktif mac: 147
-Canli mac: 2
-Biten mac: 17
+Canli mac: 0
+Biten mac: 19
 Bultenden dusurulen mac: 19
 Bugun: 123
 Yarin: 24
@@ -161,8 +160,7 @@ Yarin: 24
 - 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | scheduled | -
 
 ## Canli Maclar
-- 2026-07-31 05:00 | El Salvador Primera Lig Apertura | Inter Fa - Aguila | live | -
-- 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | live | -
+Canli mac yok.
 
 ## Biten Maclar
 - 2026-07-31 01:00 | Copa Sudamericana Son 32 Turu | Gremio (2) - (3) Bolivar | finished | -
@@ -182,3 +180,5 @@ Yarin: 24
 - 2026-07-31 04:00 | CONCACAF U20 Grup B | Meksika (U20) - Guatemala U20 | finished | -
 - 2026-07-31 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Dorados | finished | -
 - 2026-07-31 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Marathon | finished | -
+- 2026-07-31 05:00 | El Salvador Primera Lig Apertura | Inter Fa - Aguila | finished | -
+- 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | finished | -
