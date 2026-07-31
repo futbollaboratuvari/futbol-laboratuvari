@@ -3,15 +3,14 @@
 Gunler: 2026-07-31 / 2026-08-01
 Kaynak: fixtures.json
 Ham mac: 148
-Aktif mac: 148
-Canli mac: 0
+Aktif mac: 147
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 124
+Bultenden dusurulen mac: 1
+Bugun: 123
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-31 11:00 | Hazırlık Kulüpler | Las Palmas - Neom Sc | scheduled | -
 - 2026-07-31 11:30 | Hazırlık Kulüpler | Cordoba Ii - Sevilla B | scheduled | -
 - 2026-07-31 11:30 | Hazırlık Kulüpler | Elche - Cordoba | scheduled | -
 - 2026-07-31 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Brisbane City | scheduled | -
@@ -161,7 +160,7 @@ Yarin: 24
 - 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-07-31 11:00 | Hazırlık Kulüpler | Las Palmas - Neom Sc | live | -
 
 ## Biten Maclar
 Biten mac yok.

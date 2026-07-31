@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-31T07:46:31.682Z
+- Güncelleme: 2026-07-31T08:10:27.168Z
 - Ham maç sayısı: 148
 - Yarın bülteni maç sayısı: 24
 - Detay blok sayısı: 402
-- Aktif bülten maçı: 148
-- Bültenden düşürülen maç: 0
+- Aktif bülten maçı: 147
+- Bültenden düşürülen maç: 1
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Las Palmas - Neom Sc | Hazırlık Kulüpler | 11:00 | Veri bekleniyor | - | 1.76 | 8 |
 | Cordoba Ii - Sevilla B | Hazırlık Kulüpler | 11:30 | Veri bekleniyor | - | 2.98 | 8 |
 | Elche - Cordoba | Hazırlık Kulüpler | 11:30 | Veri bekleniyor | - | 1.59 | 8 |
 | Brisbane Wolve - Brisbane City | Avustralya NPL Queensland | 12:30 | Veri bekleniyor | - | 2.03 | 6 |
