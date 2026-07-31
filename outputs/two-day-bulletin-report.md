@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
-Ham mac: 343
+Ham mac: 344
 Aktif mac: 338
-Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 269
-Yarin: 69
+Canli mac: 3
+Biten mac: 3
+Bultenden dusurulen mac: 6
+Bugun: 268
+Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-08-01 02:30 | ABD MLS | New York City - Toronto | scheduled | -
 - 2026-08-01 03:00 | Şili Premier Lig | Univ De Concep - Audax Italiano | scheduled | -
 - 2026-08-01 03:00 | Ekvador Pro Lig | Libertad - Orense | scheduled | -
 - 2026-08-01 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Unan Managua | scheduled | -
@@ -284,6 +283,7 @@ Yarin: 69
 - 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Argentinos Jr | scheduled | -
 - 2026-08-02 00:00 | Nikaragua Premier Lig Apertura | San Marcos - Managua | scheduled | -
 - 2026-08-02 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Inter Fa | scheduled | -
+- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Trujillanos - Ucv | scheduled | -
 - 2026-08-02 00:15 | Bolivya Premier Lig | San Antonio Bu - Blooming | scheduled | -
 - 2026-08-02 00:30 | Şili Premier Lig | Palestino - Coquimbo Unido | scheduled | -
 - 2026-08-02 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Penarol - Cerro Largo | scheduled | -
@@ -351,11 +351,11 @@ Yarin: 69
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
-- 2026-08-01 00:00 | CONCACAF U20 Grup A | El Salvador U2 - Haiti U20 | live | -
-- 2026-08-01 00:00 | Venezuela Premier Lig Clausura | Portuguesa - Carabobo | live | -
-- 2026-08-01 00:30 | Bolivya Premier Lig | The Strongest - Aurora | live | -
 - 2026-08-01 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Montevideo Wand | live | -
 - 2026-08-01 02:00 | Bolivya Premier Lig | Real Tomayapo - Academia Del Ba | live | -
+- 2026-08-01 02:30 | ABD MLS | New York City - Toronto | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-01 00:00 | CONCACAF U20 Grup A | El Salvador U2 - Haiti U20 | finished | -
+- 2026-08-01 00:00 | Venezuela Premier Lig Clausura | Portuguesa - Carabobo | finished | -
+- 2026-08-01 00:30 | Bolivya Premier Lig | The Strongest - Aurora | finished | -
