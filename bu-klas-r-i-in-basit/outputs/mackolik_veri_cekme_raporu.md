@@ -1,28 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-31T11:48:42.199517+00:00
+Tarih: 2026-07-31T12:07:50.319281+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 150
-- Kac mac kaydedildi: 11
-- Kac mac zaten vardi: 139
+- Kac mac bulundu: 125
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 125
 - Ham veri havuzu toplam mac sayisi: 3926
 - Hedef tarih: 31.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
 - AFF Şampiyonası Grup A
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
-- Avustralya NPL Victoria
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus 1.Lig
@@ -30,11 +24,9 @@ Tarih: 2026-07-31T11:48:42.199517+00:00
 - Belçika Süper Kupa
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup A
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
-- Ekvador Pro Lig
 - Estonya Premium Lig
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -42,15 +34,10 @@ Tarih: 2026-07-31T11:48:42.199517+00:00
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB I
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 4
@@ -63,8 +50,6 @@ Tarih: 2026-07-31T11:48:42.199517+00:00
 - Rusya Premier Lig
 - Slovakya 2.Lig
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - İrlanda 1.Lig
@@ -77,7 +62,6 @@ Tarih: 2026-07-31T11:48:42.199517+00:00
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İsviçre Challenge Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
