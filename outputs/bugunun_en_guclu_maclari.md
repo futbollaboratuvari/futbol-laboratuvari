@@ -2,25 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-31T17:54:34.280Z
+- Güncelleme: 2026-07-31T18:06:32.774Z
 - Ham maç sayısı: 143
 - Yarın bülteni maç sayısı: 25
 - Detay blok sayısı: 390
-- Aktif bülten maçı: 71
-- Bültenden düşürülen maç: 72
+- Aktif bülten maçı: 62
+- Bültenden düşürülen maç: 81
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Albacete - Real Madrid Ii | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.58 | 8 |
-| Ebbsfleet - Gillingham | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 3.25 | 8 |
-| Dinamo Zagreb - Slaven Belupo | Hırvatistan 1.HNL | 21:00 | Veri bekleniyor | - | 1.07 | 6 |
-| Puskas Academy - Kisvarda | Macaristan NB I | 21:00 | Veri bekleniyor | - | 1.53 | 7 |
-| Farsta - Ragsved | İsveç 2.Lig Södra Svealand | 21:00 | Veri bekleniyor | - | 1.97 | 6 |
-| Mansfield - Derby County | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.12 | 8 |
-| Toulon - Aubagne | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 2.64 | 8 |
-| Uniao Santarem - Academica | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 3.38 | 8 |
-| Cf Os Belenens - Estoril | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 4.16 | 6 |
 | Cska 1948 Sofi - Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 2 | 8 |
 | Sc Kriens - Winterthur | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 2.79 | 8 |
 | Club Brugge - Union St.G | Belçika Süper Kupa | 21:30 | Veri bekleniyor | - | 1.98 | 8 |

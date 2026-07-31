@@ -1,62 +1,38 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-31T17:19:58.020276+00:00
+Tarih: 2026-07-31T18:07:18.146128+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 85
+- Kac mac bulundu: 42
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 85
+- Kac mac zaten vardi: 42
 - Ham veri havuzu toplam mac sayisi: 3929
 - Hedef tarih: 31.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- Almanya Bölgesel Lig Batı
-- Almanya Bölgesel Lig Kuzey
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
-- Avustralya NPL Victoria
 - Avusturya 1.Lig
-- Avusturya Bundesliga
 - Belçika Süper Kupa
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
-- CONCACAF U20 Grup A
-- Ekvador Pro Lig
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
-- Hırvatistan 1.HNL
-- Kanada Premier Lig
-- Macaristan NB I
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Romanya 1.Lig
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
 - İrlanda 1.Lig
 - İrlanda Premier Lig
 - İskoçya Premiership
 - İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
-- İsviçre 1.Lig Promotion
 - İsviçre Challenge Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -113,8 +89,8 @@ Tarih: 2026-07-31T17:19:58.020276+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 46
-- Acilan detay: 46
+- Denenen Tumu alani: 38
+- Acilan detay: 38
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -129,24 +105,24 @@ Tarih: 2026-07-31T17:19:58.020276+00:00
 |---|---|---|---|---|---|---:|
 | 31.07.2026 | 21:30 | Belçika Süper Kupa | Club Brugge | Union St.G | 24387 | 5 |
 | 31.07.2026 | 21:30 | Polonya Ekstraklasa | Motor Lublin | Jagiellonia | 19280 | 5 |
-| 31.07.2026 | 20:30 | Avusturya Bundesliga | Lask Linz | Grazer Ak | 10748 | 5 |
 | 31.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Sligo Rovers | 24544 | 5 |
 | 31.07.2026 | 22:00 | İrlanda Premier Lig | Drogheda | Shamrock Rovers | 24673 | 5 |
 | 31.07.2026 | 22:00 | İskoçya Premiership | Dundee Utd | Glasgow Rangers | 04146 | 5 |
 | 31.07.2026 | 22:00 | Norveç Eliteserien | Bodo Glimt | Lillestrom | 23053 | 5 |
-| 31.07.2026 | 21:30 | Hazırlık Kulüpler | Bromley | Qpr | 21017 | 5 |
-| 31.07.2026 | 15:00 | Hazırlık Kulüpler | Fortuna Ii | Steinbach | 09047 | 3 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Sporting Cp | Nottingham F | 21091 | 5 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | Wigan | 21074 | 5 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Leek Town | Runcorn Linnets | 11602 | 5 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Weston-S-Mare | Gloucester City | 12215 | 5 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Birmingham | Barcelona | 21019 | 5 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Salisbury | Havant And W. | 11696 | 3 |
 | 31.07.2026 | 21:00 | Hazırlık Kulüpler | Toulon | Aubagne | 08661 | 5 |
-| 31.07.2026 | 21:30 | Hazırlık Kulüpler | Crawley | Reading | 15267 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Salisbury | Havant And W. | 11696 | 3 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Birmingham | Barcelona | 21019 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Weston-S-Mare | Gloucester City | 12215 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Leek Town | Runcorn Linnets | 11602 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | Wigan | 21074 | 5 |
+| 31.07.2026 | 21:30 | Hazırlık Kulüpler | Bromley | Qpr | 21017 | 5 |
 | 31.07.2026 | 21:30 | Hazırlık Kulüpler | Torquay | Exeter | 11445 | 5 |
 | 31.07.2026 | 13:00 | Hazırlık Kulüpler | Portimonense | Nottingham F | 06614 | 5 |
-| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Mansfield | Derby County | 32550 | 5 |
+| 31.07.2026 | 21:30 | Hazırlık Kulüpler | Crawley | Reading | 15267 | 5 |
+| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Uniao Santarem | Academica | 17023 | 5 |
+| 31.07.2026 | 15:00 | Hazırlık Kulüpler | Fortuna Ii | Steinbach | 09047 | 3 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Evesham United | Bishops Cleeve | 11452 | 3 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Sporting Cp | Nottingham F | 21091 | 5 |
 
 ## Sonuc
 
