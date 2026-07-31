@@ -2,12 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 149
-- Live match count: 4
-- Finished removed count: 8
+- Scheduled match count: 152
+- Live match count: 3
+- Finished removed count: 0
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
-- 2026-07-31 14:00 | Troyes - Goal Fc | live
 - 2026-07-31 14:35 | Henan Jianye - Dalian Zhixing | live
 - 2026-07-31 15:00 | Fortuna Ii - Steinbach | live
 - 2026-07-31 16:00 | Vietnam - Singapur | live
@@ -16,4 +15,5 @@
 - 2026-07-31 18:00 | Dnepr Mogilev - Naftan | scheduled
 - 2026-07-31 18:00 | Viktoria Zizko - Prostejov | scheduled
 - 2026-07-31 18:00 | Monaco - Cercle Brugge | scheduled
+- 2026-07-31 18:00 | Paris 13 Atlet - Lusitanos St-Ma | scheduled
 - 2026-07-31 18:00 | Wolfsburg - Telstar | scheduled

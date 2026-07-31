@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.07.2026 16:10:41
+Oluşturma: 31.07.2026 16:43:00
 
 ## Özet
 
-- Toplam tahmin: 91
-- Bekleyen tahmin: 91
+- Toplam tahmin: 95
+- Bekleyen tahmin: 95
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,16 @@ Oluşturma: 31.07.2026 16:10:41
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
+- MS X: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
-- MS X: toplam 55, bekleyen 55, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-31 | Hazırlık Kulüpler | Fortuna Sittar - Apoel | MS 2 | pending | 50/100
+- 2026-07-31 | Avusturya 1.Lig | Wacker Innsbru - Bregenz | MS 2 | pending | 50/100
+- 2026-07-31 | Hazırlık Kulüpler | Monaco - Cercle Brugge | MS X | pending | 40/100
+- 2026-07-31 | Ukrayna Premier Lig | Zoria Luhansk - Kolos Kovalivka | MS 2 | pending | 40/100
 - 2026-07-31 | Hazırlık Kulüpler | Leek Town - Runcorn Linnets | MS 2 | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Weston-S-Mare - Gloucester City | MS 2 | pending | 60/100
 - 2026-07-31 | Galler Premier Lig 1.Aşama | Barry Town - Cambrian | MS 2 | pending | 60/100
@@ -37,8 +41,4 @@ Oluşturma: 31.07.2026 16:10:41
 - 2026-07-31 | Hazırlık Kulüpler | Southport - Wigan | MS X | pending | 60/100
 - 2026-07-31 | Hazırlık Kulüpler | Caen - Dieppe | MS 2 | pending | 60/100
 - 2026-07-31 | Hazırlık Kulüpler | Mainz - Al Ahli Dubai | MS X | pending | 60/100
-- 2026-07-31 | Galler Premier Lig 1.Aşama | Llandudno - Flint Town | MS X | pending | 50/100
-- 2026-07-31 | Danimarka 3.Lig | Helsingor - Vanlose | MS 2 | pending | 50/100
-- 2026-07-31 | Polonya Ekstraklasa | Motor Lublin - Jagiellonia | MS X | pending | 50/100
-- 2026-07-31 | Hazırlık Kulüpler | Bromley - Qpr | MS X | pending | 60/100
 

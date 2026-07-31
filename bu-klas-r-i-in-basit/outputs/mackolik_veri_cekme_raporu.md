@@ -1,22 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-31T12:07:50.319281+00:00
+Tarih: 2026-07-31T13:40:49.415424+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 125
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 125
-- Ham veri havuzu toplam mac sayisi: 3926
+- Kac mac bulundu: 153
+- Kac mac kaydedildi: 3
+- Kac mac zaten vardi: 150
+- Ham veri havuzu toplam mac sayisi: 3929
 - Hedef tarih: 31.07.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Grup A
+- ABD MLS
+- ABD USL
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
+- Avustralya NPL Victoria
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus 1.Lig
@@ -24,9 +29,11 @@ Tarih: 2026-07-31T12:07:50.319281+00:00
 - Belçika Süper Kupa
 - Bolivya Premier Lig
 - Bulgaristan 1.Lig
+- CONCACAF U20 Grup A
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
+- Ekvador Pro Lig
 - Estonya Premium Lig
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -34,10 +41,15 @@ Tarih: 2026-07-31T12:07:50.319281+00:00
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kanada Premier Lig
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB I
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 4
@@ -50,6 +62,8 @@ Tarih: 2026-07-31T12:07:50.319281+00:00
 - Rusya Premier Lig
 - Slovakya 2.Lig
 - Ukrayna Premier Lig
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - İrlanda 1.Lig
@@ -62,6 +76,7 @@ Tarih: 2026-07-31T12:07:50.319281+00:00
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İsviçre Challenge Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -118,8 +133,8 @@ Tarih: 2026-07-31T12:07:50.319281+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 67
-- Acilan detay: 67
+- Denenen Tumu alani: 66
+- Acilan detay: 66
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -140,18 +155,18 @@ Tarih: 2026-07-31T12:07:50.319281+00:00
 | 31.07.2026 | 21:45 | İrlanda Premier Lig | Dundalk | Sligo Rovers | 24544 | 5 |
 | 31.07.2026 | 20:00 | Rusya Premier Lig | Fk Rodina Mosk | Rostov | 06870 | 5 |
 | 31.07.2026 | 22:00 | İskoçya Premiership | Dundee Utd | Glasgow Rangers | 04146 | 5 |
-| 31.07.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag | Zlin | 18750 | 4 |
+| 31.07.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag | Zlin | 18750 | 5 |
 | 31.07.2026 | 20:00 | Norveç Eliteserien | Valerenga | Ham Kam | 22999 | 5 |
 | 31.07.2026 | 22:00 | Norveç Eliteserien | Bodo Glimt | Lillestrom | 23053 | 5 |
 | 31.07.2026 | 18:00 | Ukrayna Premier Lig | Zoria Luhansk | Kolos Kovalivka | 18380 | 5 |
-| 31.07.2026 | 19:00 | Hazırlık Kulüpler | Valenciennes | Boulogne | 05987 | 5 |
-| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Evesham United | Bishops Cleeve | 11452 | 3 |
-| 31.07.2026 | 18:45 | Hazırlık Kulüpler | Juve Stabia | Ischia | 09165 | 2 |
-| 31.07.2026 | 20:00 | Hazırlık Kulüpler | Sassuolo | Folgore Carates | 08639 | 2 |
-| 31.07.2026 | 20:30 | Hazırlık Kulüpler | Cartagena | Johor Dt | 09559 | 5 |
-| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Ebbsfleet | Gillingham | 32697 | 3 |
-| 31.07.2026 | 21:00 | Hazırlık Kulüpler | Mansfield | Derby County | 32550 | 5 |
-| 31.07.2026 | 20:00 | Hazırlık Kulüpler | Toulouse | Real Sociedad | 16325 | 5 |
+| 31.07.2026 | 15:00 | Hazırlık Kulüpler | Fortuna Ii | Steinbach | 09047 | 3 |
+| 31.07.2026 | 18:00 | Hazırlık Kulüpler | Paris 13 Atlet | Lusitanos St-Ma | 16074 | 5 |
+| 31.07.2026 | 18:30 | Hazırlık Kulüpler | Vis Pasaro | Benevento | 10079 | 5 |
+| 31.07.2026 | 20:00 | Hazırlık Kulüpler | Den Haag | Asteras Tripoli | 07530 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Sporting Cp | Nottingham F | 21091 | 5 |
+| 31.07.2026 | 19:00 | Hazırlık Kulüpler | Famalicao | Como | 10178 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Southport | Wigan | 21074 | 5 |
+| 31.07.2026 | 21:45 | Hazırlık Kulüpler | Leek Town | Runcorn Linnets | 11602 | 5 |
 
 ## Sonuc
 
