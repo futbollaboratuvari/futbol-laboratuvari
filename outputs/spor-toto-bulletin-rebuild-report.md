@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-07-31T17:19:59.786Z
-- Ham fixture sayisi: 3913
-- Bugun/yarin kaynak mac: 190
-- Aktif bulten maci: 83
+- Guncelleme: 2026-07-31T22:35:54.919Z
+- Ham fixture sayisi: 4231
+- Bugun/yarin kaynak mac: 343
+- Aktif bulten maci: 339
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 107
+- Bultenden dusurulen mac: 4
 
-- 1. 2026-07-31 20:30 | Almanya Bölgesel Lig Batı | Bonner Sc - Oberhausen | scheduled
-- 2. 2026-07-31 20:30 | İsviçre 1.Lig Promotion | Bruhl - Young Boys Ii | scheduled
-- 3. 2026-07-31 20:30 | Hazırlık Kulüpler | Cartagena - Johor Dt | scheduled
-- 4. 2026-07-31 20:30 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Phönix Lübeck | scheduled
-- 5. 2026-07-31 20:30 | İsveç 2.Lig Norra Götaland | If Karlstad Ii - Grebbestads If | scheduled
-- 6. 2026-07-31 20:30 | İsveç 2.Lig Norra Götaland | Ifk Skövde - Ahlafors If | scheduled
-- 7. 2026-07-31 20:30 | İsveç 2.Lig Vastra Götaland | Kongahalla - Onsala | scheduled
-- 8. 2026-07-31 20:30 | Avusturya Bundesliga | Lask Linz - Grazer Ak | scheduled
-- 9. 2026-07-31 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Rappersvil Jona | scheduled
-- 10. 2026-07-31 20:30 | İsveç 2.Lig Norra Götaland | Stenungsund - Skara | scheduled
-- 11. 2026-07-31 20:30 | İsviçre Challenge Lig | Wil - Neuchatel Xamax | scheduled
-- 12. 2026-07-31 20:30 | İsviçre Challenge Lig | Yverdon - Etoile Carouge | scheduled
-- 13. 2026-07-31 21:00 | Hazırlık Kulüpler | Albacete - Real Madrid Ii | scheduled
-- 14. 2026-07-31 21:00 | Hazırlık Kulüpler | Cf Os Belenens - Estoril | scheduled
-- 15. 2026-07-31 21:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Slaven Belupo | scheduled
+- 1. 2026-08-01 02:00 | Bolivya Premier Lig | Real Tomayapo - Academia Del Ba | scheduled
+- 2. 2026-08-01 02:30 | ABD MLS | New York City - Toronto | scheduled
+- 3. 2026-08-01 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Unan Managua | scheduled
+- 4. 2026-08-01 03:00 | Ekvador Pro Lig | Libertad - Orense | scheduled
+- 5. 2026-08-01 03:00 | Şili Premier Lig | Univ De Concep - Audax Italiano | scheduled
+- 6. 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Tepatitlan De M | scheduled
+- 7. 2026-08-01 04:00 | Honduras Ulusal Lig Apertura | Platense - Real Espana | scheduled
+- 8. 2026-08-01 04:00 | Meksika Liga MX Apertura | Puebla - Guadalajara | scheduled
+- 9. 2026-08-01 04:00 | ABD USL | San Antonio - Indy Eleven | scheduled
+- 10. 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Tlaxcala | scheduled
+- 11. 2026-08-01 05:00 | CONCACAF U20 Grup A | Abd (U20) - Kuba U20 | scheduled
+- 12. 2026-08-01 05:00 | Kanada Premier Lig | Pacific Fc - Supra Du Quebec | scheduled
+- 13. 2026-08-01 06:00 | Meksika Liga MX Apertura | Atletico San L - Club Tijuana | scheduled
+- 14. 2026-08-01 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Durango | scheduled
+- 15. 2026-08-01 06:00 | Meksika Liga MX Apertura | Fc Juarez - Pumas Unam | scheduled

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 25
-- Live match count: 37
-- Finished removed count: 50
-- Date window: 2026-07-31 / 2026-08-01 23:59
+- Scheduled match count: 339
+- Live match count: 4
+- Finished removed count: 0
+- Date window: 2026-08-01 / 2026-08-02 23:59
 
-- 2026-07-31 21:15 | Cska - Arda Kardzhali | live
-- 2026-07-31 21:15 | Sc Kriens - Winterthur | live
-- 2026-07-31 21:30 | Floridsdorfer - St Polten | live
-- 2026-07-31 21:30 | Club Brugge - Union St.G | live
-- 2026-07-31 21:30 | Llanelli Town - Newport City | live
-- 2026-07-31 21:30 | Bromley - Qpr | live
-- 2026-07-31 21:30 | Crawley - Reading | live
-- 2026-07-31 21:30 | Torquay - Exeter | live
-- 2026-07-31 21:30 | Lechia Gdansk - Warta Poznan | live
-- 2026-07-31 21:30 | Stal S Wola - Gks Tychy | live
+- 2026-08-01 00:00 | El Salvador U2 - Haiti U20 | live
+- 2026-08-01 00:00 | Portuguesa - Carabobo | live
+- 2026-08-01 00:30 | The Strongest - Aurora | live
+- 2026-08-01 01:00 | Torque - Montevideo Wand | live
+- 2026-08-01 02:00 | Real Tomayapo - Academia Del Ba | scheduled
+- 2026-08-01 02:30 | New York City - Toronto | scheduled
+- 2026-08-01 03:00 | Libertad - Orense | scheduled
+- 2026-08-01 03:00 | Diriangen - Unan Managua | scheduled
+- 2026-08-01 03:00 | Univ De Concep - Audax Italiano | scheduled
+- 2026-08-01 04:00 | San Antonio - Indy Eleven | scheduled
