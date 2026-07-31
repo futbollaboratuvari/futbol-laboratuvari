@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 135
-- Live match count: 17
-- Finished removed count: 3
+- Scheduled match count: 134
+- Live match count: 18
+- Finished removed count: 0
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
 - 2026-07-31 17:00 | Mainz - Al Ahli Dubai | live
