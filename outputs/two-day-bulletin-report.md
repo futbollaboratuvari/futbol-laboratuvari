@@ -2,17 +2,15 @@
 
 Gunler: 2026-07-31 / 2026-08-01
 Kaynak: fixtures.json
-Ham mac: 159
+Ham mac: 166
 Aktif mac: 147
-Canli mac: 12
-Biten mac: 0
-Bultenden dusurulen mac: 12
+Canli mac: 2
+Biten mac: 17
+Bultenden dusurulen mac: 19
 Bugun: 123
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-31 05:00 | El Salvador Primera Lig Apertura | Inter Fa - Aguila | scheduled | -
-- 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | scheduled | -
 - 2026-07-31 11:00 | Hazırlık Kulüpler | Las Palmas - Neom Sc | scheduled | -
 - 2026-07-31 11:30 | Hazırlık Kulüpler | Cordoba Ii - Sevilla B | scheduled | -
 - 2026-07-31 11:30 | Hazırlık Kulüpler | Elche - Cordoba | scheduled | -
@@ -103,6 +101,7 @@ Yarin: 24
 - 2026-07-31 21:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Slaven Belupo | scheduled | -
 - 2026-07-31 21:00 | Macaristan NB I | Puskas Academy - Kisvarda | scheduled | -
 - 2026-07-31 21:00 | İsveç 2.Lig Södra Svealand | Farsta - Ragsved | scheduled | -
+- 2026-07-31 21:00 | Hazırlık Kulüpler | Mansfield - Derby County | scheduled | -
 - 2026-07-31 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi - Arda Kardzhali | scheduled | -
 - 2026-07-31 21:15 | İsviçre Challenge Lig | Sc Kriens - Winterthur | scheduled | -
 - 2026-07-31 21:30 | Belçika Süper Kupa | Club Brugge - Union St.G | scheduled | -
@@ -127,6 +126,7 @@ Yarin: 24
 - 2026-07-31 21:45 | İrlanda 1.Lig | Treaty Unt. - Longford | scheduled | -
 - 2026-07-31 21:45 | İrlanda 1.Lig | Finn Harps - Cork City | scheduled | -
 - 2026-07-31 21:45 | Galler FAW Championship Güney | Trethomas Blue - Baglan Dragons | scheduled | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Southport - Wigan | scheduled | -
 - 2026-07-31 22:00 | İrlanda Premier Lig | Drogheda - Shamrock Rovers | scheduled | -
 - 2026-07-31 22:00 | İskoçya Premiership | Dundee Utd - Glasgow Rangers | scheduled | -
 - 2026-07-31 22:00 | Norveç Eliteserien | Bodo Glimt - Lillestrom | scheduled | -
@@ -160,18 +160,24 @@ Yarin: 24
 - 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | scheduled | -
 
 ## Canli Maclar
-- 2026-07-31 01:30 | Brezilya Serie A | Corinthians - Atletico Pr | live | -
-- 2026-07-31 02:30 | Hazırlık Kulüpler | Leeds Utd - Sunderland | live | -
-- 2026-07-31 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Deportivo Fas | live | -
-- 2026-07-31 03:00 | Hazırlık Kulüpler | Alaves - Castellon | live | -
-- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Independiente - Newells Old Boy | live | -
-- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Atletico Tucuma | live | -
-- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) - (1) Boca Juniors | live | -
-- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) - (2) Santa Fe | live | -
-- 2026-07-31 03:30 | Brezilya Serie A | Coritiba - Cruzeiro | live | -
-- 2026-07-31 04:00 | CONCACAF U20 Grup B | Meksika (U20) - Guatemala U20 | live | -
-- 2026-07-31 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Dorados | live | -
-- 2026-07-31 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Marathon | live | -
+- 2026-07-31 05:00 | El Salvador Primera Lig Apertura | Inter Fa - Aguila | live | -
+- 2026-07-31 06:00 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Cs Cartagines | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-07-31 01:00 | Copa Sudamericana Son 32 Turu | Gremio (2) - (3) Bolivar | finished | -
+- 2026-07-31 01:00 | Arjantin Premier Lig 2. Aşama | Rivadavia - Huracan | finished | -
+- 2026-07-31 01:00 | Arjantin Premier Lig 2. Aşama | Talleres - Velez Sarsfield | finished | -
+- 2026-07-31 01:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Antigua And Bar | finished | -
+- 2026-07-31 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Real Esteli | finished | -
+- 2026-07-31 01:30 | Brezilya Serie A | Corinthians - Atletico Pr | finished | -
+- 2026-07-31 02:30 | Hazırlık Kulüpler | Leeds Utd - Sunderland | finished | -
+- 2026-07-31 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Deportivo Fas | finished | -
+- 2026-07-31 03:00 | Hazırlık Kulüpler | Alaves - Castellon | finished | -
+- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Independiente - Newells Old Boy | finished | -
+- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Atletico Tucuma | finished | -
+- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) - (1) Boca Juniors | finished | -
+- 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) - (2) Santa Fe | finished | -
+- 2026-07-31 03:30 | Brezilya Serie A | Coritiba - Cruzeiro | finished | -
+- 2026-07-31 04:00 | CONCACAF U20 Grup B | Meksika (U20) - Guatemala U20 | finished | -
+- 2026-07-31 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Dorados | finished | -
+- 2026-07-31 04:00 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Marathon | finished | -

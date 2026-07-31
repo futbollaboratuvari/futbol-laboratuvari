@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 147
-- Live match count: 11
-- Finished removed count: 1
+- Live match count: 2
+- Finished removed count: 0
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
-- 2026-07-31 02:30 | Leeds Utd - Sunderland | live
-- 2026-07-31 03:00 | Isidro Metapan - Deportivo Fas | live
-- 2026-07-31 03:00 | Alaves - Castellon | live
-- 2026-07-31 03:15 | Corboda Santia - Atletico Tucuma | live
-- 2026-07-31 03:15 | Independiente - Newells Old Boy | live
-- 2026-07-31 03:30 | Coritiba - Cruzeiro | live
-- 2026-07-31 03:30 | Caracas Fc (0) - (2) Santa Fe | live
-- 2026-07-31 03:30 | O Higgins (0) - (1) Boca Juniors | live
-- 2026-07-31 04:00 | Herediano - Marathon | live
-- 2026-07-31 04:00 | Meksika (U20) - Guatemala U20 | live
+- 2026-07-31 05:00 | Inter Fa - Aguila | live
+- 2026-07-31 06:00 | Municipal - Cs Cartagines | live
+- 2026-07-31 11:00 | Las Palmas - Neom Sc | scheduled
+- 2026-07-31 11:30 | Cordoba Ii - Sevilla B | scheduled
+- 2026-07-31 11:30 | Elche - Cordoba | scheduled
+- 2026-07-31 12:30 | Brisbane Wolve - Brisbane City | scheduled
+- 2026-07-31 12:30 | Rochedale Rove - Eastern Suburbs | scheduled
+- 2026-07-31 12:30 | Bentleigh Gree - Oakleigh Cannon | scheduled
+- 2026-07-31 13:00 | Dogu Timor - Endonezya | scheduled
+- 2026-07-31 13:00 | Campbelltown C - Adelaide City | scheduled
