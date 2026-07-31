@@ -3,11 +3,11 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 147
-- Live match count: 0
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
-- 2026-07-31 11:00 | Las Palmas - Neom Sc | scheduled
+- 2026-07-31 11:00 | Las Palmas - Neom Sc | live
 - 2026-07-31 11:30 | Cordoba Ii - Sevilla B | scheduled
 - 2026-07-31 11:30 | Elche - Cordoba | scheduled
 - 2026-07-31 12:30 | Brisbane Wolve - Brisbane City | scheduled
