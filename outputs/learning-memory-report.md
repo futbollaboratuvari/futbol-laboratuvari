@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 31.07.2026 14:03:25
+Oluşturma: 31.07.2026 14:50:43
 
 ## Özet
 
-- Toplam tahmin: 83
-- Bekleyen tahmin: 83
+- Toplam tahmin: 86
+- Bekleyen tahmin: 86
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,15 @@ Oluşturma: 31.07.2026 14:03:25
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 54, bekleyen 54, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-07-31 | Hazırlık Kulüpler | Bromley - Qpr | MS 1 | pending | 60/100
+- 2026-07-31 | Hazırlık Kulüpler | Birmingham - Barcelona | MS X | pending | 55/100
+- 2026-07-31 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Phönix Lübeck | MS 2 | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Southport - Wigan | MS X | pending | 60/100
 - 2026-07-31 | Hazırlık Kulüpler | Caen - Dieppe | MS 2 | pending | 60/100
 - 2026-07-31 | Hazırlık Kulüpler | Mainz - Al Ahli Dubai | MS X | pending | 60/100
@@ -38,7 +41,4 @@ Oluşturma: 31.07.2026 14:03:25
 - 2026-07-31 | Avusturya 1.Lig | Floridsdorfer - St Polten | MS X | pending | 40/100
 - 2026-07-31 | Polonya 2.Lig | Stal S Wola - Gks Tychy | MS X | pending | 50/100
 - 2026-07-31 | Hazırlık Kulüpler | Birmingham - Barcelona | MS 1 | pending | 55/100
-- 2026-07-31 | Hazırlık Kulüpler | Sporting Cp - Nottingham F | MS X | pending | 70/100
-- 2026-07-31 | Galler Premier Lig 1.Aşama | Briton Ferry - Ammanford | MS 2 | pending | 60/100
-- 2026-07-31 | Galler Premier Lig 1.Aşama | Llandudno - Flint Town | MS 2 | pending | 50/100
 
