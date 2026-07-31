@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 83
-- Live match count: 60
-- Finished removed count: 0
+- Scheduled match count: 32
+- Live match count: 80
+- Finished removed count: 31
 - Date window: 2026-07-31 / 2026-08-01 23:59
 
-- 2026-07-31 18:30 | Slutsk - Energetik-Bgu | live
-- 2026-07-31 18:30 | Inter Turku Ii - Vjs | live
-- 2026-07-31 18:30 | Pk Keski Uusim - Tampere Utd | live
-- 2026-07-31 18:30 | Ekenas If - Klubi 04 | live
-- 2026-07-31 18:30 | Kotka - Sjk Ii | live
-- 2026-07-31 18:30 | Vis Pasaro - Benevento | live
-- 2026-07-31 18:30 | Be1 Nfa - Lietava Jonava | live
-- 2026-07-31 18:30 | Argesul Pitest - Csikszereda | live
-- 2026-07-31 18:45 | Juve Stabia - Ischia | live
-- 2026-07-31 19:00 | Dinamo Minsk I - Niva Dolbizno | live
+- 2026-07-31 20:00 | Werder Bremen - Vfb Oldenburg | live
+- 2026-07-31 20:00 | Sparta Prag - Zlin | live
+- 2026-07-31 20:00 | Sezimivo Usti - Dukla Prag | live
+- 2026-07-31 20:00 | Ab Gladsaxe - Fredericia | live
+- 2026-07-31 20:00 | Hb Koge - Vejle | live
+- 2026-07-31 20:00 | Fa - B93 Kopenhag | live
+- 2026-07-31 20:00 | Nykobing - Fremad Amager | live
+- 2026-07-31 20:00 | Roskilde - Nastved | live
+- 2026-07-31 20:00 | Bronshoj - Ishoj | live
+- 2026-07-31 20:00 | Helsingor - Vanlose | live

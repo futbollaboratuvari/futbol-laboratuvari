@@ -2,54 +2,15 @@
 
 Gunler: 2026-07-31 / 2026-08-01
 Kaynak: fixtures.json
-Ham mac: 143
-Aktif mac: 71
-Canli mac: 72
+Ham mac: 134
+Aktif mac: 32
+Canli mac: 102
 Biten mac: 0
-Bultenden dusurulen mac: 72
-Bugun: 46
+Bultenden dusurulen mac: 102
+Bugun: 7
 Yarin: 25
 
 ## Baslamamis Maclar
-- 2026-07-31 21:00 | Hazırlık Kulüpler | Albacete - Real Madrid Ii | scheduled | -
-- 2026-07-31 21:00 | Hazırlık Kulüpler | Ebbsfleet - Gillingham | scheduled | -
-- 2026-07-31 21:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Slaven Belupo | scheduled | -
-- 2026-07-31 21:00 | Macaristan NB I | Puskas Academy - Kisvarda | scheduled | -
-- 2026-07-31 21:00 | İsveç 2.Lig Södra Svealand | Farsta - Ragsved | scheduled | -
-- 2026-07-31 21:00 | Hazırlık Kulüpler | Mansfield - Derby County | scheduled | -
-- 2026-07-31 21:00 | Hazırlık Kulüpler | Toulon - Aubagne | scheduled | -
-- 2026-07-31 21:00 | Hazırlık Kulüpler | Uniao Santarem - Academica | scheduled | -
-- 2026-07-31 21:00 | Hazırlık Kulüpler | Cf Os Belenens - Estoril | scheduled | -
-- 2026-07-31 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi - Arda Kardzhali | scheduled | -
-- 2026-07-31 21:15 | İsviçre Challenge Lig | Sc Kriens - Winterthur | scheduled | -
-- 2026-07-31 21:30 | Belçika Süper Kupa | Club Brugge - Union St.G | scheduled | -
-- 2026-07-31 21:30 | Polonya Ekstraklasa | Motor Lublin - Jagiellonia | scheduled | -
-- 2026-07-31 21:30 | Hazırlık Kulüpler | Crawley - Reading | scheduled | -
-- 2026-07-31 21:30 | Hazırlık Kulüpler | Bromley - Qpr | scheduled | -
-- 2026-07-31 21:30 | Romanya 1.Lig | Otelul Galati - Dinamo Bükreş | scheduled | -
-- 2026-07-31 21:30 | Polonya 1.Lig | Lechia Gdansk - Warta Poznan | scheduled | -
-- 2026-07-31 21:30 | Avusturya 1.Lig | Floridsdorfer - St Polten | scheduled | -
-- 2026-07-31 21:30 | Polonya 2.Lig | Stal S Wola - Gks Tychy | scheduled | -
-- 2026-07-31 21:30 | Galler FAW Championship Güney | Llanelli Town - Newport City | scheduled | -
-- 2026-07-31 21:30 | Hazırlık Kulüpler | Torquay - Exeter | scheduled | -
-- 2026-07-31 21:45 | İrlanda Premier Lig | Dundalk - Sligo Rovers | scheduled | -
-- 2026-07-31 21:45 | Hazırlık Kulüpler | Birmingham - Barcelona | scheduled | -
-- 2026-07-31 21:45 | Hazırlık Kulüpler | Sporting Cp - Nottingham F | scheduled | -
-- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Colwyn Bay - Trefelin | scheduled | -
-- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Briton Ferry - Ammanford | scheduled | -
-- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Llandudno - Flint Town | scheduled | -
-- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Barry Town - Cambrian | scheduled | -
-- 2026-07-31 21:45 | İrlanda 1.Lig | Bray Wanderers - Kerry | scheduled | -
-- 2026-07-31 21:45 | İrlanda 1.Lig | Athlone - Ucd | scheduled | -
-- 2026-07-31 21:45 | İrlanda 1.Lig | Cobh Ramblers - Wexford Youths | scheduled | -
-- 2026-07-31 21:45 | İrlanda 1.Lig | Treaty Unt. - Longford | scheduled | -
-- 2026-07-31 21:45 | İrlanda 1.Lig | Finn Harps - Cork City | scheduled | -
-- 2026-07-31 21:45 | Galler FAW Championship Güney | Trethomas Blue - Baglan Dragons | scheduled | -
-- 2026-07-31 21:45 | Hazırlık Kulüpler | Southport - Wigan | scheduled | -
-- 2026-07-31 21:45 | Hazırlık Kulüpler | Evesham United - Bishops Cleeve | scheduled | -
-- 2026-07-31 21:45 | Hazırlık Kulüpler | Leek Town - Runcorn Linnets | scheduled | -
-- 2026-07-31 21:45 | Hazırlık Kulüpler | Weston-S-Mare - Gloucester City | scheduled | -
-- 2026-07-31 21:45 | Hazırlık Kulüpler | Salisbury - Havant And W. | scheduled | -
 - 2026-07-31 22:00 | İrlanda Premier Lig | Drogheda - Shamrock Rovers | scheduled | -
 - 2026-07-31 22:00 | İskoçya Premiership | Dundee Utd - Glasgow Rangers | scheduled | -
 - 2026-07-31 22:00 | Norveç Eliteserien | Bodo Glimt - Lillestrom | scheduled | -
@@ -84,15 +45,6 @@ Yarin: 25
 - 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | scheduled | -
 
 ## Canli Maclar
-- 2026-07-31 18:30 | Finlandiya Ykkösliiga | Kotka - Sjk Ii | live | -
-- 2026-07-31 18:30 | Finlandiya Ykkösliiga | Ekenas If - Klubi 04 | live | -
-- 2026-07-31 18:30 | Romanya 1.Lig | Argesul Pitest - Csikszereda | live | -
-- 2026-07-31 18:30 | Finlandiya Ykkönen | Inter Turku Ii - Vjs | live | -
-- 2026-07-31 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Tampere Utd | live | -
-- 2026-07-31 18:30 | Litvanya 1.Lig | Be1 Nfa - Lietava Jonava | live | -
-- 2026-07-31 18:30 | Belarus 1.Lig | Slutsk - Energetik-Bgu | live | -
-- 2026-07-31 18:30 | Hazırlık Kulüpler | Vis Pasaro - Benevento | live | -
-- 2026-07-31 18:45 | Hazırlık Kulüpler | Juve Stabia - Ischia | live | -
 - 2026-07-31 19:00 | Polonya Ekstraklasa | Wisla Plock - Widzew Lodz | live | -
 - 2026-07-31 19:00 | Hazırlık Kulüpler | Juventus - Nice | live | -
 - 2026-07-31 19:00 | Hazırlık Kulüpler | Nantes - Al Wakrah | live | -
@@ -156,6 +108,45 @@ Yarin: 25
 - 2026-07-31 20:30 | İsveç 2.Lig Norra Götaland | If Karlstad Ii - Grebbestads If | live | -
 - 2026-07-31 20:30 | İsveç 2.Lig Norra Götaland | Ifk Skövde - Ahlafors If | live | -
 - 2026-07-31 20:30 | Hazırlık Kulüpler | Cartagena - Johor Dt | live | -
+- 2026-07-31 21:00 | Hazırlık Kulüpler | Albacete - Real Madrid Ii | live | -
+- 2026-07-31 21:00 | Hazırlık Kulüpler | Ebbsfleet - Gillingham | live | -
+- 2026-07-31 21:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Slaven Belupo | live | -
+- 2026-07-31 21:00 | Macaristan NB I | Puskas Academy - Kisvarda | live | -
+- 2026-07-31 21:00 | İsveç 2.Lig Södra Svealand | Farsta - Ragsved | live | -
+- 2026-07-31 21:00 | Hazırlık Kulüpler | Mansfield - Derby County | live | -
+- 2026-07-31 21:00 | Hazırlık Kulüpler | Toulon - Aubagne | live | -
+- 2026-07-31 21:00 | Hazırlık Kulüpler | Uniao Santarem - Academica | live | -
+- 2026-07-31 21:00 | Hazırlık Kulüpler | Cf Os Belenens - Estoril | live | -
+- 2026-07-31 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi - Arda Kardzhali | live | -
+- 2026-07-31 21:15 | İsviçre Challenge Lig | Sc Kriens - Winterthur | live | -
+- 2026-07-31 21:30 | Belçika Süper Kupa | Club Brugge - Union St.G | live | -
+- 2026-07-31 21:30 | Polonya Ekstraklasa | Motor Lublin - Jagiellonia | live | -
+- 2026-07-31 21:30 | Hazırlık Kulüpler | Crawley - Reading | live | -
+- 2026-07-31 21:30 | Hazırlık Kulüpler | Bromley - Qpr | live | -
+- 2026-07-31 21:30 | Romanya 1.Lig | Otelul Galati - Dinamo Bükreş | live | -
+- 2026-07-31 21:30 | Polonya 1.Lig | Lechia Gdansk - Warta Poznan | live | -
+- 2026-07-31 21:30 | Avusturya 1.Lig | Floridsdorfer - St Polten | live | -
+- 2026-07-31 21:30 | Polonya 2.Lig | Stal S Wola - Gks Tychy | live | -
+- 2026-07-31 21:30 | Galler FAW Championship Güney | Llanelli Town - Newport City | live | -
+- 2026-07-31 21:30 | Hazırlık Kulüpler | Torquay - Exeter | live | -
+- 2026-07-31 21:45 | İrlanda Premier Lig | Dundalk - Sligo Rovers | live | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Birmingham - Barcelona | live | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Sporting Cp - Nottingham F | live | -
+- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Colwyn Bay - Trefelin | live | -
+- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Briton Ferry - Ammanford | live | -
+- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Llandudno - Flint Town | live | -
+- 2026-07-31 21:45 | Galler Premier Lig 1.Aşama | Barry Town - Cambrian | live | -
+- 2026-07-31 21:45 | İrlanda 1.Lig | Bray Wanderers - Kerry | live | -
+- 2026-07-31 21:45 | İrlanda 1.Lig | Athlone - Ucd | live | -
+- 2026-07-31 21:45 | İrlanda 1.Lig | Cobh Ramblers - Wexford Youths | live | -
+- 2026-07-31 21:45 | İrlanda 1.Lig | Treaty Unt. - Longford | live | -
+- 2026-07-31 21:45 | İrlanda 1.Lig | Finn Harps - Cork City | live | -
+- 2026-07-31 21:45 | Galler FAW Championship Güney | Trethomas Blue - Baglan Dragons | live | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Southport - Wigan | live | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Evesham United - Bishops Cleeve | live | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Leek Town - Runcorn Linnets | live | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Weston-S-Mare - Gloucester City | live | -
+- 2026-07-31 21:45 | Hazırlık Kulüpler | Salisbury - Havant And W. | live | -
 
 ## Biten Maclar
 Biten mac yok.
