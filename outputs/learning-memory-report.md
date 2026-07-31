@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 01.08.2026 02:17:55
+Oluşturma: 01.08.2026 02:37:20
 
 ## Özet
 
-- Toplam tahmin: 253
-- Bekleyen tahmin: 253
+- Toplam tahmin: 254
+- Bekleyen tahmin: 254
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 75
@@ -20,12 +20,13 @@ Oluşturma: 01.08.2026 02:17:55
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 72, bekleyen 72, başarı bekleniyor, ağırlık 1
 - MS X: toplam 165, bekleyen 165, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 71, bekleyen 71, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-01 | Polonya 1.Lig | Arka Gdynia - Rzeszow | MS 2 | pending | 60/100
 - 2026-08-01 | Şili Premier Lig | Cobresal - Union La Calera | MS X | pending | 40/100
 - 2026-08-01 | Avusturya 1.Lig | First Vienna - Strum Graz Ii | MS 2 | pending | 50/100
 - 2026-08-01 | Belarus Premier Lig | Arsenal - Minsk | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 01.08.2026 02:17:55
 - 2026-08-01 | Peru Premier Lig Clausura | Fc Cajamarca - Sport Huancayo | MS X | pending | 50/100
 - 2026-08-01 | Polonya 2.Lig | Falubaz Zielon - Olimpia Grudzia | MS X | pending | 50/100
 - 2026-08-01 | Bulgaristan 1.Lig | Botev Plovdiv - Cherno More | MS 2 | pending | 40/100
-- 2026-08-01 | Slovenya 1.SNL | Celje - Maribor | MS X | pending | 60/100
 

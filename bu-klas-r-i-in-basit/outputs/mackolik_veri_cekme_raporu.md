@@ -1,22 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-07-31T22:35:52.009346+00:00
+Tarih: 2026-07-31T23:36:33.283351+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 318
-- Kac mac kaydedildi: 69
+- Kac mac bulundu: 249
+- Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 249
 - Ham veri havuzu toplam mac sayisi: 4247
 - Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Grup B
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
@@ -25,7 +22,6 @@ Tarih: 2026-07-31T22:35:52.009346+00:00
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
 - Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
@@ -42,33 +38,25 @@ Tarih: 2026-07-31T22:35:52.009346+00:00
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
 - Hazırlık Kulüpler
 - Hazırlık Sydney Süper Kupası
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
 - Macaristan NB II
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -91,7 +79,6 @@ Tarih: 2026-07-31T22:35:52.009346+00:00
 - Sırbistan Süper Lig
 - Uganda Süper 8 Çeyrek Final
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
 - Uruguay Premier Lig Intermediate Turu Grup 2
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL

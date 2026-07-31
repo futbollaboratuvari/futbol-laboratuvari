@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-31T23:16:44.952Z
+- Güncelleme: 2026-07-31T23:33:47.324Z
 - Ham maç sayısı: 343
 - Yarın bülteni maç sayısı: 69
 - Detay blok sayısı: 936
-- Aktif bülten maçı: 338
-- Bültenden düşürülen maç: 5
+- Aktif bülten maçı: 337
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| New York City - Toronto | ABD MLS | 02:30 | Veri bekleniyor | - | 1.45 | 7 |
 | Univ De Concep - Audax Italiano | Şili Premier Lig | 03:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Libertad - Orense | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 2.48 | 8 |
 | Diriangen - Unan Managua | Nikaragua Premier Lig Apertura | 03:00 | Veri bekleniyor | - | 1.18 | 4 |
