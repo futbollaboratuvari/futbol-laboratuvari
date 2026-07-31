@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-31T00:10:20.711Z
-- Ham maç sayısı: 164
+- Güncelleme: 2026-07-31T00:16:43.961Z
+- Ham maç sayısı: 159
 - Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 452
-- Aktif bülten maçı: 155
-- Bültenden düşürülen maç: 9
+- Detay blok sayısı: 438
+- Aktif bülten maçı: 153
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Independiente - Newells Old Boy | Arjantin Premier Lig 2. Aşama | 03:15 | Veri bekleniyor | - | 1.38 | 7 |
-| Corboda Santia - Atletico Tucuma | Arjantin Premier Lig 2. Aşama | 03:15 | Veri bekleniyor | - | 2.8 | 8 |
 | O Higgins (0) - (1) Boca Juniors | Copa Sudamericana Son 32 Turu | 03:30 | Veri bekleniyor | - | 3.67 | 8 |
 | Caracas Fc (0) - (2) Santa Fe | Copa Sudamericana Son 32 Turu | 03:30 | Veri bekleniyor | - | 2.76 | 8 |
 | Coritiba - Cruzeiro | Brezilya Serie A | 03:30 | Veri bekleniyor | - | 2.92 | 8 |
@@ -91,7 +89,7 @@
 | Herd - Volda | Norveç 3.Lig Grup 2 | 20:00 | Veri bekleniyor | - | 2.42 | 6 |
 | Helsingor - Vanlose | Danimarka 3.Lig | 20:00 | Veri bekleniyor | - | 1.59 | 8 |
 | Bronshoj - Ishoj | Danimarka 3.Lig | 20:00 | Veri bekleniyor | - | 1.76 | 8 |
-| Böljan - Frolunda | İsveç 2.Lig Vastra Götaland | 20:00 | Veri bekleniyor | - | 2.87 | 6 |
+| Böljan - Frolunda | İsveç 2.Lig Vastra Götaland | 20:00 | Veri bekleniyor | - | 2.88 | 6 |
 | Lindome Gif - Jonsereds If | İsveç 2.Lig Vastra Götaland | 20:00 | Veri bekleniyor | - | 1.83 | 6 |
 | Karlshamn - Rappe | İsveç 2.Lig Södra Götaland | 20:00 | Veri bekleniyor | - | 2.03 | 8 |
 | Ik Tord - Ifk Kumla | İsveç 2.Lig Norra Götaland | 20:00 | Veri bekleniyor | - | 2.09 | 8 |
@@ -104,7 +102,7 @@
 | Bonner Sc - Oberhausen | Almanya Bölgesel Lig Batı | 20:30 | Veri bekleniyor | - | 3.43 | 8 |
 | Bruhl - Young Boys Ii | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 1.35 | 4 |
 | Kongahalla - Onsala | İsveç 2.Lig Vastra Götaland | 20:30 | Veri bekleniyor | - | 2.67 | 6 |
-| Stenungsund - Skara | İsveç 2.Lig Norra Götaland | 20:30 | Veri bekleniyor | - | 2.59 | 6 |
+| Stenungsund - Skara | İsveç 2.Lig Norra Götaland | 20:30 | Veri bekleniyor | - | 2.67 | 6 |
 | If Karlstad Ii - Grebbestads If | İsveç 2.Lig Norra Götaland | 20:30 | Veri bekleniyor | - | 2.39 | 6 |
 | Ifk Skövde - Ahlafors If | İsveç 2.Lig Norra Götaland | 20:30 | Veri bekleniyor | - | 1.73 | 6 |
 | Albacete - Real Madrid Ii | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.58 | 8 |
@@ -130,15 +128,15 @@
 | Briton Ferry - Ammanford | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.42 | 7 |
 | Llandudno - Flint Town | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.53 | 8 |
 | Barry Town - Cambrian | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.23 | 6 |
-| Bray Wanderers - Kerry | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.39 | 7 |
+| Bray Wanderers - Kerry | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.41 | 7 |
 | Athlone - Ucd | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.49 | 8 |
 | Cobh Ramblers - Wexford Youths | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.05 | 8 |
 | Treaty Unt. - Longford | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 2.08 | 8 |
-| Finn Harps - Cork City | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 7.55 | 6 |
+| Finn Harps - Cork City | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 7.58 | 6 |
 | Trethomas Blue - Baglan Dragons | Galler FAW Championship Güney | 21:45 | Veri bekleniyor | - | 1.51 | 8 |
 | Drogheda - Shamrock Rovers | İrlanda Premier Lig | 22:00 | Veri bekleniyor | - | 3.72 | 7 |
 | Dundee Utd - Glasgow Rangers | İskoçya Premiership | 22:00 | Veri bekleniyor | - | 4.78 | 7 |
-| Bodo Glimt - Lillestrom | Norveç Eliteserien | 22:00 | Veri bekleniyor | - | 1.08 | 6 |
+| Bodo Glimt - Lillestrom | Norveç Eliteserien | 22:00 | Veri bekleniyor | - | 1.09 | 6 |
 | Universitario - Guabira | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 1.79 | 6 |
 | Ruthin Town - Holyhead | Galler FAW Championship Kuzey | 22:00 | Veri bekleniyor | - | 2.19 | 8 |
 | Bangor - Bala Town | Galler FAW Championship Kuzey | 22:00 | Veri bekleniyor | - | 2.51 | 6 |

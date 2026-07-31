@@ -2,19 +2,15 @@
 
 Gunler: 2026-07-31 / 2026-08-01
 Kaynak: fixtures.json
-Ham mac: 164
-Aktif mac: 157
-Canli mac: 7
+Ham mac: 159
+Aktif mac: 153
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 133
+Bultenden dusurulen mac: 6
+Bugun: 129
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-07-31 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Deportivo Fas | scheduled | -
-- 2026-07-31 03:00 | Hazırlık Kulüpler | Alaves - Castellon | scheduled | -
-- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Independiente - Newells Old Boy | scheduled | -
-- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Atletico Tucuma | scheduled | -
 - 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | O Higgins (0) - (1) Boca Juniors | scheduled | -
 - 2026-07-31 03:30 | Copa Sudamericana Son 32 Turu | Caracas Fc (0) - (2) Santa Fe | scheduled | -
 - 2026-07-31 03:30 | Brezilya Serie A | Coritiba - Cruzeiro | scheduled | -
@@ -170,13 +166,12 @@ Yarin: 24
 - 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | scheduled | -
 
 ## Canli Maclar
-- 2026-07-31 01:00 | Copa Sudamericana Son 32 Turu | Gremio (2) - (3) Bolivar | live | -
-- 2026-07-31 01:00 | Arjantin Premier Lig 2. Aşama | Rivadavia - Huracan | live | -
-- 2026-07-31 01:00 | Arjantin Premier Lig 2. Aşama | Talleres - Velez Sarsfield | live | -
-- 2026-07-31 01:00 | CONCACAF U20 Grup B | Kosta Rika (U2 - Antigua And Bar | live | -
-- 2026-07-31 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Real Esteli | live | -
 - 2026-07-31 01:30 | Brezilya Serie A | Corinthians - Atletico Pr | live | -
 - 2026-07-31 02:30 | Hazırlık Kulüpler | Leeds Utd - Sunderland | live | -
+- 2026-07-31 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Deportivo Fas | live | -
+- 2026-07-31 03:00 | Hazırlık Kulüpler | Alaves - Castellon | live | -
+- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Independiente - Newells Old Boy | live | -
+- 2026-07-31 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Atletico Tucuma | live | -
 
 ## Biten Maclar
 Biten mac yok.
