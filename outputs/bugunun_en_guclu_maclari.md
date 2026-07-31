@@ -2,11 +2,11 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-07-31T06:51:02.150Z
-- Ham maç sayısı: 147
+- Güncelleme: 2026-07-31T07:46:31.682Z
+- Ham maç sayısı: 148
 - Yarın bülteni maç sayısı: 24
-- Detay blok sayısı: 399
-- Aktif bülten maçı: 147
+- Detay blok sayısı: 402
+- Aktif bülten maçı: 148
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
@@ -85,6 +85,7 @@
 | Lindome Gif - Jonsereds If | İsveç 2.Lig Vastra Götaland | 20:00 | Veri bekleniyor | - | 1.81 | 6 |
 | Karlshamn - Rappe | İsveç 2.Lig Södra Götaland | 20:00 | Veri bekleniyor | - | 2.01 | 8 |
 | Ik Tord - Ifk Kumla | İsveç 2.Lig Norra Götaland | 20:00 | Veri bekleniyor | - | 2.17 | 8 |
+| Fortuna Sittar - Apoel | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.57 | 8 |
 | Vanersborgs Fk - Herrestads | İsveç 2.Lig Norra Götaland | 20:15 | Veri bekleniyor | - | 2.29 | 8 |
 | Lask Linz - Grazer Ak | Avusturya Bundesliga | 20:30 | Veri bekleniyor | - | 1.42 | 7 |
 | Yverdon - Etoile Carouge | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 1.52 | 8 |
