@@ -3,15 +3,14 @@
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
 Ham mac: 343
-Aktif mac: 339
-Canli mac: 4
+Aktif mac: 338
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 270
+Bultenden dusurulen mac: 5
+Bugun: 269
 Yarin: 69
 
 ## Baslamamis Maclar
-- 2026-08-01 02:00 | Bolivya Premier Lig | Real Tomayapo - Academia Del Ba | scheduled | -
 - 2026-08-01 02:30 | ABD MLS | New York City - Toronto | scheduled | -
 - 2026-08-01 03:00 | Şili Premier Lig | Univ De Concep - Audax Italiano | scheduled | -
 - 2026-08-01 03:00 | Ekvador Pro Lig | Libertad - Orense | scheduled | -
@@ -356,6 +355,7 @@ Yarin: 69
 - 2026-08-01 00:00 | Venezuela Premier Lig Clausura | Portuguesa - Carabobo | live | -
 - 2026-08-01 00:30 | Bolivya Premier Lig | The Strongest - Aurora | live | -
 - 2026-08-01 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Montevideo Wand | live | -
+- 2026-08-01 02:00 | Bolivya Premier Lig | Real Tomayapo - Academia Del Ba | live | -
 
 ## Biten Maclar
 Biten mac yok.
