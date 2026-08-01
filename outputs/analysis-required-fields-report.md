@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 262
-Tam analiz: 0
-Eksik analiz: 262
+Toplam analiz: 303
+Tam analiz: 214
+Eksik analiz: 89
 
-- Playford City VS West Torrens: eksik score, confidence
-- West Adelaide VS Para Hills Knig: eksik score, confidence
-- Sturt Lions VS Adelaide Comets: eksik score, confidence
-- Sutherland Sha VS Wollongong Wolv: eksik score, confidence
-- Glenorchy Knig VS Devonport City: eksik score, confidence
-- Western Knight VS Perth Glory Ii: eksik score, confidence
-- Olympic Kingsw VS Bayswater City: eksik score, confidence
-- Dianella White VS Stirling Lions: eksik score, confidence
-- Balcatta VS Armadale: eksik score, confidence
-- Fremantle City VS Perth: eksik score, confidence
-- Sorrento VS Perth Redstar F: eksik score, confidence
-- North Geelong VS Bulleen Lions: eksik score, confidence
-- Lazio VS Avellino: eksik score, confidence
-- White City Woo VS Croydon Kings: eksik score, confidence
-- Monaro Panther VS O Connor Knight: eksik score, confidence
-- Levante VS Albacete: eksik score, confidence
-- Queensland Lio VS Peninsula Power: eksik score, confidence
-- Alcorcon VS Getafe Ii: eksik score, confidence
-- Lucko VS Segesta: eksik score, confidence
-- St. George Sai VS Sd Raiders: eksik score, confidence
+- Ne Metrostars VS Adelaide United: eksik score, confidence
+- Laos VS Filipinler: eksik score, confidence
+- Frigg VS Ullern: eksik score, confidence
+- Torslanda Ik VS Galtabacks: eksik score, confidence
+- Flekkeroy VS Haugesund Ii: eksik score, confidence
+- Valerenga Ii VS Lokomotiv Oslo: eksik score, confidence
+- Naesby VS Sundby: eksik score, confidence
+- Hessen Kassel VS Schalke: eksik score, confidence
+- Gneist VS Vard Haugesund: eksik score, confidence
+- Askoy VS Fyllingsdalen: eksik score, confidence
+- Staal Jorpelan VS Akra: eksik score, confidence
+- Dover Athletic VS Carshalton Athl: eksik score, confidence
+- Hannover VS Zwolle: eksik score, confidence
+- Reims VS Kortrijk: eksik score, confidence
+- Regensburg VS Ulm 1846: eksik score, confidence
+- Magdeburg VS West Ham: eksik score, confidence
+- Jeddeloh VS Schöningen: eksik score, confidence
+- Orn Horten VS Raelingen: eksik score, confidence
+- Ff Lillehammer VS Drobak/Frogn: eksik score, confidence
+- Beerschot-Wilr VS Zulte Waregem: eksik score, confidence
