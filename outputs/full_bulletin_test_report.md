@@ -2,11 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 84
-- Live match count: 29
+- Scheduled match count: 78
+- Live match count: 36
 - Finished removed count: 0
 - Date window: 2026-08-01 / 2026-08-02 23:59
 
+- 2026-08-01 20:45 | Baltika Kalini - Dinamo Moskova | live
 - 2026-08-01 21:00 | Acassuso - Colon Santa Fe | live
 - 2026-08-01 21:00 | Almagro - Midland | live
 - 2026-08-01 21:00 | Colegiales - Gimnasia Jujuy | live
@@ -16,4 +17,3 @@
 - 2026-08-01 21:00 | Kruger United - Kaizer Chiefs | live
 - 2026-08-01 21:00 | Arosa - Pontevedra | live
 - 2026-08-01 21:00 | Cd Coria - Real Avila | live
-- 2026-08-01 21:00 | Girona - Arsenal | live

@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-01 / 2026-08-02
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 452
 Aktif mac: 78
-Canli mac: 89
-Biten mac: 285
+Canli mac: 36
+Biten mac: 338
 Bultenden dusurulen mac: 374
 Bugun: 3
 Yarin: 75
@@ -92,12 +91,7 @@ Yarin: 75
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
-- 2026-08-01 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Osijek | live | -
-- 2026-08-01 22:00 | Şili Premier Lig | Everton De Vin - Colo Colo | live | -
-- 2026-08-01 22:00 | Ekvador Pro Lig | Manta - Mushuc Runa | live | -
-- 2026-08-01 22:00 | Bolivya Premier Lig | Real Oruro - Independiente P | live | -
-- 2026-08-01 22:00 | Hazırlık Kulüpler | Tenerife - Cadiz | live | -
-- 2026-08-01 22:15 | Portekiz Süper Kupa | Porto - Torreense | live | -
+- 2026-08-01 20:45 | Rusya Premier Lig | Baltika Kalini - Dinamo Moskova | live | -
 - 2026-08-01 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen - Brno | live | -
 - 2026-08-01 21:00 | Sırbistan Süper Lig | Novi Pazar - Ofk Beograd | live | -
 - 2026-08-01 21:00 | Hazırlık Kulüpler | Girona - Arsenal | live | -
@@ -127,60 +121,12 @@ Yarin: 75
 - 2026-08-01 21:30 | Hazırlık Kulüpler | Leicester - Genoa | live | -
 - 2026-08-01 21:30 | Hazırlık Kulüpler | Cesena - Bikkembergs Fos | live | -
 - 2026-08-01 21:45 | Hazırlık Kulüpler | Farnham Town - Eastleigh | live | -
-- 2026-08-01 20:45 | Rusya Premier Lig | Baltika Kalini - Dinamo Moskova | live | -
-- 2026-08-01 19:00 | Danimarka Süperlig | Lyngby - Aarhus | live | -
-- 2026-08-01 19:00 | İsviçre Süper Lig | Zurich - Servette | live | -
-- 2026-08-01 19:00 | İsviçre Süper Lig | Basel - Lausanne | live | -
-- 2026-08-01 19:00 | Finlandiya Veikkausliiga | Gnistan - Kuopion | live | -
-- 2026-08-01 19:00 | Norveç Eliteserien | Start - Viking | live | -
-- 2026-08-01 19:00 | Hazırlık Kulüpler | Real Madrid - Fiorentina | live | -
-- 2026-08-01 19:00 | Bulgaristan 1.Lig | Levski Sofya - Septemvri Sofia | live | -
-- 2026-08-01 19:00 | Slovakya Süper Lig | Slovan Bratisl - Podbrezova | live | -
-- 2026-08-01 19:00 | Slovakya Süper Lig | Skalica - Ruzomberok | live | -
-- 2026-08-01 19:00 | İsviçre Challenge Lig | Aarau - Stade Ouchy | live | -
-- 2026-08-01 19:00 | Çek Cumhuriyeti FNL | Trinec - Jihlava | live | -
-- 2026-08-01 19:00 | Çek Cumhuriyeti FNL | Hanacka Slavia - Usti Nad Labem | live | -
-- 2026-08-01 19:00 | Slovenya 1.SNL | Nafta - Mura | live | -
-- 2026-08-01 19:00 | Polonya 2.Lig | Resovia Rzeszo - Slask Wroclaw I | live | -
-- 2026-08-01 19:00 | Polonya 2.Lig | Gornik Leczna - Avia Swidnik | live | -
-- 2026-08-01 19:00 | Letonya 1.Lig | Riga Ii - Metta / Lu | live | -
-- 2026-08-01 19:00 | Letonya 1.Lig | Leevon / Ppk - Rezekne / Bjss | live | -
-- 2026-08-01 19:00 | Litvanya 1.Lig | Ekranas - Zalgiris Ii | live | -
-- 2026-08-01 19:00 | Uganda Süper 8 Çeyrek Final | Sc Villa - Maroons | live | -
-- 2026-08-01 19:00 | Hazırlık Kulüpler | Angers - Le Mans | live | -
-- 2026-08-01 19:00 | Hazırlık Kulüpler | St Etienne - Unione V. | live | -
-- 2026-08-01 19:00 | Hazırlık Kulüpler | Roda - Aachen | live | -
-- 2026-08-01 19:00 | Hazırlık Kulüpler | Chateauroux - Bourges | live | -
-- 2026-08-01 19:00 | Hazırlık Kulüpler | Empoli - Spezia | live | -
-- 2026-08-01 19:30 | İskoçya Premiership | Aberdeen - Hearts | live | -
-- 2026-08-01 19:30 | Hırvatistan 1.HNL | Istra - Lokomotiva | live | -
-- 2026-08-01 19:30 | Rusya FNL | Spartak Kostro - Yenisey | live | -
-- 2026-08-01 19:30 | Şili Premier Lig | Cobresal - Union La Calera | live | -
-- 2026-08-01 19:30 | Avusturya 1.Lig | First Vienna - Strum Graz Ii | live | -
-- 2026-08-01 19:30 | İsviçre 1.Lig Promotion | Bellinzona - Bavois | live | -
-- 2026-08-01 19:30 | Hazırlık Kulüpler | Frosinone - Benevento | live | -
-- 2026-08-01 19:30 | Belarus 1.Lig | Uni Minsk - Bumprom | live | -
-- 2026-08-01 19:30 | Hazırlık Kulüpler | Sestao - Portugalete | live | -
-- 2026-08-01 19:30 | Hazırlık Kulüpler | Atletico Balea - Santanyi | live | -
-- 2026-08-01 19:30 | Hazırlık Kulüpler | Zaragoza - Barbastro | live | -
-- 2026-08-01 20:00 | Belarus Premier Lig | Arsenal - Minsk | live | -
-- 2026-08-01 20:00 | Moldova Ulusal Lig | Milsami-Ursido - Sireti | live | -
-- 2026-08-01 20:00 | Slovakya 2.Lig | Zlate Moravce - Banik Lehota P. | live | -
-- 2026-08-01 20:00 | Macaristan NB II | Mezokovesd Zso - Ajka | live | -
-- 2026-08-01 20:00 | Macaristan NB II | Szeged 2011 - Bvsc | live | -
-- 2026-08-01 20:00 | Macaristan NB II | Kecskemeti - Tiszakecske | live | -
-- 2026-08-01 20:00 | Macaristan NB II | Gyirmot - Kozarmisleny | live | -
-- 2026-08-01 20:00 | Macaristan NB II | Diosgyor - Szentlorinc Se | live | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Charleroi - Vallecano | live | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Espanyol Ii - Sant Andreu | live | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Burgos - Athletic Bilbao | live | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Estrela - Al Nassr (Riyad | live | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Linares Deport - Real Jaen | live | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Eldense - Murcia | live | -
-- 2026-08-01 20:30 | Avusturya Bundesliga | Salzburg - Hartberg | live | -
-- 2026-08-01 20:30 | Macaristan NB I | Budapest Honve - Mtk | live | -
-- 2026-08-01 20:30 | Arjantin Ulusal Primera Lig | Nueva Chicago - San Martin Tucu | live | -
-- 2026-08-01 20:30 | Hazırlık Kulüpler | Stoke - Valencia | live | -
+- 2026-08-01 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Osijek | live | -
+- 2026-08-01 22:00 | Şili Premier Lig | Everton De Vin - Colo Colo | live | -
+- 2026-08-01 22:00 | Ekvador Pro Lig | Manta - Mushuc Runa | live | -
+- 2026-08-01 22:00 | Bolivya Premier Lig | Real Oruro - Independiente P | live | -
+- 2026-08-01 22:00 | Hazırlık Kulüpler | Tenerife - Cadiz | live | -
+- 2026-08-01 22:15 | Portekiz Süper Kupa | Porto - Torreense | live | -
 
 ## Biten Maclar
 - 2026-08-01 00:00 | CONCACAF U20 Grup A | El Salvador U2 - Haiti U20 | finished | -
@@ -468,3 +414,56 @@ Yarin: 75
 - 2026-08-01 18:30 | Güney Afrika PSL | Sekhukhune Uni - Durban City | finished | -
 - 2026-08-01 18:30 | Macaristan NB II | Kazincbarcika - Mol Vidi | finished | -
 - 2026-08-01 18:30 | Macaristan NB I | Budapest Honve - Mtk | finished | -
+- 2026-08-01 19:00 | Danimarka Süperlig | Lyngby - Aarhus | finished | -
+- 2026-08-01 19:00 | İsviçre Süper Lig | Zurich - Servette | finished | -
+- 2026-08-01 19:00 | İsviçre Süper Lig | Basel - Lausanne | finished | -
+- 2026-08-01 19:00 | Finlandiya Veikkausliiga | Gnistan - Kuopion | finished | -
+- 2026-08-01 19:00 | Norveç Eliteserien | Start - Viking | finished | -
+- 2026-08-01 19:00 | Hazırlık Kulüpler | Real Madrid - Fiorentina | finished | -
+- 2026-08-01 19:00 | Bulgaristan 1.Lig | Levski Sofya - Septemvri Sofia | finished | -
+- 2026-08-01 19:00 | Slovakya Süper Lig | Slovan Bratisl - Podbrezova | finished | -
+- 2026-08-01 19:00 | Slovakya Süper Lig | Skalica - Ruzomberok | finished | -
+- 2026-08-01 19:00 | İsviçre Challenge Lig | Aarau - Stade Ouchy | finished | -
+- 2026-08-01 19:00 | Çek Cumhuriyeti FNL | Trinec - Jihlava | finished | -
+- 2026-08-01 19:00 | Çek Cumhuriyeti FNL | Hanacka Slavia - Usti Nad Labem | finished | -
+- 2026-08-01 19:00 | Slovenya 1.SNL | Nafta - Mura | finished | -
+- 2026-08-01 19:00 | Polonya 2.Lig | Resovia Rzeszo - Slask Wroclaw I | finished | -
+- 2026-08-01 19:00 | Polonya 2.Lig | Gornik Leczna - Avia Swidnik | finished | -
+- 2026-08-01 19:00 | Letonya 1.Lig | Riga Ii - Metta / Lu | finished | -
+- 2026-08-01 19:00 | Letonya 1.Lig | Leevon / Ppk - Rezekne / Bjss | finished | -
+- 2026-08-01 19:00 | Litvanya 1.Lig | Ekranas - Zalgiris Ii | finished | -
+- 2026-08-01 19:00 | Uganda Süper 8 Çeyrek Final | Sc Villa - Maroons | finished | -
+- 2026-08-01 19:00 | Hazırlık Kulüpler | Angers - Le Mans | finished | -
+- 2026-08-01 19:00 | Hazırlık Kulüpler | St Etienne - Unione V. | finished | -
+- 2026-08-01 19:00 | Hazırlık Kulüpler | Roda - Aachen | finished | -
+- 2026-08-01 19:00 | Hazırlık Kulüpler | Chateauroux - Bourges | finished | -
+- 2026-08-01 19:00 | Hazırlık Kulüpler | Empoli - Spezia | finished | -
+- 2026-08-01 19:30 | İskoçya Premiership | Aberdeen - Hearts | finished | -
+- 2026-08-01 19:30 | Hırvatistan 1.HNL | Istra - Lokomotiva | finished | -
+- 2026-08-01 19:30 | Rusya FNL | Spartak Kostro - Yenisey | finished | -
+- 2026-08-01 19:30 | Şili Premier Lig | Cobresal - Union La Calera | finished | -
+- 2026-08-01 19:30 | Avusturya 1.Lig | First Vienna - Strum Graz Ii | finished | -
+- 2026-08-01 19:30 | İsviçre 1.Lig Promotion | Bellinzona - Bavois | finished | -
+- 2026-08-01 19:30 | Hazırlık Kulüpler | Frosinone - Benevento | finished | -
+- 2026-08-01 19:30 | Belarus 1.Lig | Uni Minsk - Bumprom | finished | -
+- 2026-08-01 19:30 | Hazırlık Kulüpler | Sestao - Portugalete | finished | -
+- 2026-08-01 19:30 | Hazırlık Kulüpler | Atletico Balea - Santanyi | finished | -
+- 2026-08-01 19:30 | Hazırlık Kulüpler | Zaragoza - Barbastro | finished | -
+- 2026-08-01 20:00 | Belarus Premier Lig | Arsenal - Minsk | finished | -
+- 2026-08-01 20:00 | Moldova Ulusal Lig | Milsami-Ursido - Sireti | finished | -
+- 2026-08-01 20:00 | Slovakya 2.Lig | Zlate Moravce - Banik Lehota P. | finished | -
+- 2026-08-01 20:00 | Macaristan NB II | Mezokovesd Zso - Ajka | finished | -
+- 2026-08-01 20:00 | Macaristan NB II | Szeged 2011 - Bvsc | finished | -
+- 2026-08-01 20:00 | Macaristan NB II | Kecskemeti - Tiszakecske | finished | -
+- 2026-08-01 20:00 | Macaristan NB II | Gyirmot - Kozarmisleny | finished | -
+- 2026-08-01 20:00 | Macaristan NB II | Diosgyor - Szentlorinc Se | finished | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Charleroi - Vallecano | finished | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Espanyol Ii - Sant Andreu | finished | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Burgos - Athletic Bilbao | finished | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Estrela - Al Nassr (Riyad | finished | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Linares Deport - Real Jaen | finished | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Eldense - Murcia | finished | -
+- 2026-08-01 20:30 | Avusturya Bundesliga | Salzburg - Hartberg | finished | -
+- 2026-08-01 20:30 | Macaristan NB I | Budapest Honve - Mtk | finished | -
+- 2026-08-01 20:30 | Arjantin Ulusal Primera Lig | Nueva Chicago - San Martin Tucu | finished | -
+- 2026-08-01 20:30 | Hazırlık Kulüpler | Stoke - Valencia | finished | -

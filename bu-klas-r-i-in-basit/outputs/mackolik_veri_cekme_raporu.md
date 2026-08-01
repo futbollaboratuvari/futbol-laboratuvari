@@ -1,31 +1,48 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-01T18:46:10.357280+00:00
+Tarih: 2026-08-01T19:52:39.328205+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 18
+- Durum: success
+- Kac mac bulundu: 85
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Kac mac zaten vardi: 85
+- Ham veri havuzu toplam mac sayisi: 4357
 - Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Şampiyonluk Final
+- Arjantin Premier Lig 2. Aşama
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Tazmanya
+- Avustralya NPL Yeni Güney Galler
 - Bolivya Premier Lig
 - Brezilya Kupa Son 16 Turu
 - CONCACAF U20 Grup C
 - Danimarka 3.Lig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Hırvatistan 1.HNL
+- Honduras Ulusal Lig Apertura
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB II
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 4
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
-- Portekiz Süper Kupa
+- Uruguay Premier Lig Intermediate Turu Grup 1
+- Venezuela Premier Lig Clausura
 - İsviçre 1.Lig Promotion
 - Şili Premier Lig
 
@@ -84,40 +101,41 @@ Tarih: 2026-08-01T18:46:10.357280+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 40
-- Acilan detay: 40
+- Denenen Tumu alani: 35
+- Acilan detay: 35
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.08.2026 | 22:15 | Portekiz Süper Kupa | Porto | Torreense | 30143 | 4 |
-| 01.08.2026 | 22:00 | Hazırlık Kulüpler | Tenerife | Cadiz | 20819 | 5 |
-| 01.08.2026 | 15:00 | Hazırlık Kulüpler | Fortuna Köln | Offenbach | 12657 | 3 |
 | 01.08.2026 | 17:30 | Hazırlık Kulüpler | Dunkerque | Mechelen | 13187 | 5 |
-| 01.08.2026 | 15:00 | Hazırlık Kulüpler | Regensburg | Ulm 1846 | 13298 | 3 |
-| 01.08.2026 | 23:30 | Brezilya Kupa Son 16 Turu | Vasco Da Gama | Fluminense | 30200 | 5 |
-| 01.08.2026 | 22:00 | Hırvatistan 1.HNL | Hnk Gorica | Osijek | 24321 | 5 |
-| 01.08.2026 | 23:00 | CONCACAF U20 Grup C | Kanada (U20) | Jamaika U20 | 05012 | 5 |
-| 01.08.2026 | 23:30 | Peru Premier Lig Clausura | Atletico Grau | Sport Boys | 24963 | 5 |
-| 01.08.2026 | 22:00 | Şili Premier Lig | Everton De Vin | Colo Colo | 15700 | 5 |
-| 01.08.2026 | 18:00 | Polonya 2.Lig | Sokol Kleczew | Nkp Podhale | 19551 | 5 |
-| 01.08.2026 | 22:00 | Ekvador Pro Lig | Manta | Mushuc Runa | 30126 | 5 |
-| 01.08.2026 | 17:00 | İsviçre 1.Lig Promotion | Fc Kreuzlingen | Basel Ii | 05048 | 3 |
-| 01.08.2026 | 20:00 | Macaristan NB II | Kecskemeti | Tiszakecske | 25151 | 5 |
-| 01.08.2026 | 20:00 | Macaristan NB II | Gyirmot | Kozarmisleny | 25149 | 5 |
-| 01.08.2026 | 15:00 | Norveç 3.Lig Grup 4 | Staal Jorpelan | Akra | 11901 | 3 |
-| 01.08.2026 | 22:00 | Bolivya Premier Lig | Real Oruro | Independiente P | 33060 | 3 |
-| 01.08.2026 | 15:00 | Danimarka 3.Lig | Naesby | Sundby | 14570 | 3 |
+| 02.08.2026 | 05:45 | ABD MLS | Portland | Seattle | 29759 | 5 |
+| 02.08.2026 | 05:30 | ABD MLS | Los Angeles | Dallas | 29607 | 5 |
+| 02.08.2026 | 03:30 | ABD MLS | Kansas | Houston | 28950 | 5 |
+| 02.08.2026 | 03:30 | ABD MLS | Chicago | Charlotte | 28829 | 5 |
+| 02.08.2026 | 02:30 | ABD MLS | Philadelphia | Atlanta Utd | 28452 | 5 |
+| 02.08.2026 | 02:30 | ABD MLS | Inter Miami | Columbus | 28116 | 5 |
+| 02.08.2026 | 03:30 | ABD MLS | Minnesota Utd | San Diego | 29064 | 5 |
+| 02.08.2026 | 02:30 | ABD MLS | Vancouver | Los Angeles Fc | 28577 | 5 |
+| 02.08.2026 | 04:30 | ABD MLS | Colorado | Austin | 29309 | 5 |
+| 02.08.2026 | 02:30 | ABD MLS | New York | Orlando City | 28341 | 5 |
+| 02.08.2026 | 02:30 | ABD MLS | Dc United | Nashville Sc | 27907 | 5 |
+| 02.08.2026 | 03:30 | ABD MLS | St. Louis City | Salt Lake | 29186 | 5 |
+| 02.08.2026 | 02:30 | ABD MLS | Cincinnati | San Jose | 08048 | 5 |
+| 02.08.2026 | 02:30 | ABD MLS | Montreal | New England | 28227 | 5 |
+| 02.08.2026 | 00:00 | Arjantin Premier Lig 2. Aşama | Belgrano | Argentinos Jr | 27850 | 5 |
+| 02.08.2026 | 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club | Tigre | 28082 | 5 |
+| 02.08.2026 | 00:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Defensa Justici | 27981 | 5 |
+| 02.08.2026 | 04:05 | Meksika Liga MX Apertura | Atlas | Monterrey | 26230 | 5 |
+| 02.08.2026 | 06:00 | Meksika Liga MX Apertura | Cruz Azul | Atlante | 26314 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
