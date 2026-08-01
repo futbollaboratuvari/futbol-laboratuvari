@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 315
-- Live match count: 74
+- Scheduled match count: 286
+- Live match count: 88
 - Finished removed count: 0
 - Date window: 2026-08-01 / 2026-08-02 23:59
 
-- 2026-08-01 13:00 | Laos - Filipinler | live
-- 2026-08-01 13:00 | Yanbian Longdi - Nanjing City | live
-- 2026-08-01 13:00 | De Graafschap - Excelsior | live
-- 2026-08-01 13:00 | Fc Tokyo - B.Dortmund | live
-- 2026-08-01 13:00 | Nacka Iliria - Lindo Ff | live
-- 2026-08-01 13:00 | Garliava - Neptüna Klaiped | live
-- 2026-08-01 13:00 | Kryvbas Kr - Karpaty Lviv | live
-- 2026-08-01 13:30 | Gangwon - Bucheon | live
-- 2026-08-01 13:30 | Jeonbuk Hm - Fc Seoul | live
-- 2026-08-01 13:30 | Pohang Steeler - Gimcheon Sangmu | live
+- 2026-08-01 14:00 | Dalian Huayi - Shaanxi Union | live
+- 2026-08-01 14:00 | Ningbo - Guangxi Hengche | live
+- 2026-08-01 14:00 | Tianjin Teda - Yunnan Yukun | live
+- 2026-08-01 14:00 | Hillerod - Esbjerg | live
+- 2026-08-01 14:00 | Holbæk - Frem | live
+- 2026-08-01 14:00 | Braunschweig - La Louvière | live
+- 2026-08-01 14:00 | Nürnberg - Oviedo | live
+- 2026-08-01 14:00 | Sparta Rotterd - Duisburg | live
+- 2026-08-01 14:00 | Vanersborgs If - Motala Aif Fk | live
+- 2026-08-01 14:00 | Lidingö - Angby | live

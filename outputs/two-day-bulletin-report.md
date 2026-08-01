@@ -3,43 +3,14 @@
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
 Ham mac: 449
-Aktif mac: 315
-Canli mac: 74
-Biten mac: 60
-Bultenden dusurulen mac: 134
-Bugun: 240
+Aktif mac: 286
+Canli mac: 88
+Biten mac: 75
+Bultenden dusurulen mac: 163
+Bugun: 211
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 15:30 | Ukrayna Premier Lig | Metalist 1925 - Veres Rivne | scheduled | -
-- 2026-08-01 15:30 | Hazırlık Kulüpler | Magdeburg - West Ham | scheduled | -
-- 2026-08-01 15:30 | Hazırlık Kulüpler | Willem - Ofi | scheduled | -
-- 2026-08-01 15:45 | Polonya Ekstraklasa | Piast Gliwice - Wisla Krakow | scheduled | -
-- 2026-08-01 16:00 | İsveç Allsvenskan | Hacken - Kalmar | scheduled | -
-- 2026-08-01 16:00 | Hazırlık Kulüpler | Paris Fc - Stuttgart | scheduled | -
-- 2026-08-01 16:00 | Hazırlık Kulüpler | Man. Utd - Atletico Madrid | scheduled | -
-- 2026-08-01 16:00 | AFF Şampiyonası Grup B | Tayland - Malezya | scheduled | -
-- 2026-08-01 16:00 | İsveç Superettan | Varbergs - Falkenberg | scheduled | -
-- 2026-08-01 16:00 | İsveç Superettan | Sandvikens - Sundsvall | scheduled | -
-- 2026-08-01 16:00 | Rusya FNL | Leningradets - Pfc Sochi | scheduled | -
-- 2026-08-01 16:00 | Norveç 2.Lig Grup 1 | Mjondalen - Notodden | scheduled | -
-- 2026-08-01 16:00 | Güney Afrika PSL | Orlando Pirate - Milford | scheduled | -
-- 2026-08-01 16:00 | Güney Afrika PSL | Stellenbosch F - Amazulu | scheduled | -
-- 2026-08-01 16:00 | Güney Afrika PSL | Golden Arrows - Chippa United | scheduled | -
-- 2026-08-01 16:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Schöningen | scheduled | -
-- 2026-08-01 16:00 | Letonya Virsliga | Bfc Daugavpils - Fs Jelgava | scheduled | -
-- 2026-08-01 16:00 | Norveç 3.Lig Grup 2 | Byasen - Spjelkavik | scheduled | -
-- 2026-08-01 16:00 | Norveç 3.Lig Grup 4 | Vag Fk - Madla | scheduled | -
-- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Sandefjord Ii - Gjovik-Lyn | scheduled | -
-- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Orn Horten - Raelingen | scheduled | -
-- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Ff Lillehammer - Drobak/Frogn | scheduled | -
-- 2026-08-01 16:00 | Danimarka 3.Lig | Asa Aarhus - Ringsted | scheduled | -
-- 2026-08-01 16:00 | Uganda Süper 8 Çeyrek Final | Kampala City - Bul | scheduled | -
-- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Rade - Bjorkelangen | scheduled | -
-- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Fram Larvik - Elverum | scheduled | -
-- 2026-08-01 16:00 | Hazırlık Kulüpler | Beerschot-Wilr - Zulte Waregem | scheduled | -
-- 2026-08-01 16:00 | Hazırlık Kulüpler | Quorn - Banbury United | scheduled | -
-- 2026-08-01 16:00 | Hazırlık Kulüpler | Monheim - Frechen | scheduled | -
 - 2026-08-01 16:10 | Belarus Premier Lig | Baranovichi - Isloch | scheduled | -
 - 2026-08-01 16:15 | Rusya Premier Lig | Cska Moskova - Krylya Sovietov | scheduled | -
 - 2026-08-01 16:30 | Galler Premier Lig 1.Aşama | Haverfordwest - Airbus Uk | scheduled | -
@@ -328,21 +299,6 @@ Yarin: 75
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
-- 2026-08-01 13:00 | Ukrayna Premier Lig | Kryvbas Kr - Karpaty Lviv | live | -
-- 2026-08-01 13:00 | Hazırlık Kulüpler | Fc Tokyo - B.Dortmund | live | -
-- 2026-08-01 13:00 | AFF Şampiyonası Grup B | Laos - Filipinler | live | -
-- 2026-08-01 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Nanjing City | live | -
-- 2026-08-01 13:00 | İsveç 2.Lig Södra Svealand | Nacka Iliria - Lindo Ff | live | -
-- 2026-08-01 13:00 | Litvanya 1.Lig | Garliava - Neptüna Klaiped | live | -
-- 2026-08-01 13:00 | Hazırlık Kulüpler | De Graafschap - Excelsior | live | -
-- 2026-08-01 13:30 | Güney Kore K Lig 1 | Gangwon - Bucheon | live | -
-- 2026-08-01 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Fc Seoul | live | -
-- 2026-08-01 13:30 | Güney Kore K Lig 1 | Pohang Steeler - Gimcheon Sangmu | live | -
-- 2026-08-01 13:30 | Güney Kore K Lig 2 | Cheonan City F - Yongin | live | -
-- 2026-08-01 13:30 | Güney Kore K Lig 2 | Cheongju Fc - Suwon Sb | live | -
-- 2026-08-01 13:30 | Güney Kore K Lig 2 | Asan Mugunghwa - Seongnam | live | -
-- 2026-08-01 13:30 | Güney Kore K Lig 2 | Hwaseong - Daegu | live | -
-- 2026-08-01 13:30 | Norveç 3.Lig Grup 1 | Frigg - Ullern | live | -
 - 2026-08-01 14:00 | Rusya Premier Lig | Akron - Rubin Kazan | live | -
 - 2026-08-01 14:00 | Çin Halk Cumhuriyeti Süper Lig | Tianjin Teda - Yunnan Yukun | live | -
 - 2026-08-01 14:00 | İsveç Superettan | Ostersund - Oster | live | -
@@ -402,6 +358,35 @@ Yarin: 75
 - 2026-08-01 15:00 | Hazırlık Kulüpler | Reims - Kortrijk | live | -
 - 2026-08-01 15:00 | Hazırlık Kulüpler | Regensburg - Ulm 1846 | live | -
 - 2026-08-01 15:00 | Hazırlık Kulüpler | Darmstadt - Portsmouth | live | -
+- 2026-08-01 15:30 | Ukrayna Premier Lig | Metalist 1925 - Veres Rivne | live | -
+- 2026-08-01 15:30 | Hazırlık Kulüpler | Magdeburg - West Ham | live | -
+- 2026-08-01 15:30 | Hazırlık Kulüpler | Willem - Ofi | live | -
+- 2026-08-01 15:45 | Polonya Ekstraklasa | Piast Gliwice - Wisla Krakow | live | -
+- 2026-08-01 16:00 | İsveç Allsvenskan | Hacken - Kalmar | live | -
+- 2026-08-01 16:00 | Hazırlık Kulüpler | Paris Fc - Stuttgart | live | -
+- 2026-08-01 16:00 | Hazırlık Kulüpler | Man. Utd - Atletico Madrid | live | -
+- 2026-08-01 16:00 | AFF Şampiyonası Grup B | Tayland - Malezya | live | -
+- 2026-08-01 16:00 | İsveç Superettan | Varbergs - Falkenberg | live | -
+- 2026-08-01 16:00 | İsveç Superettan | Sandvikens - Sundsvall | live | -
+- 2026-08-01 16:00 | Rusya FNL | Leningradets - Pfc Sochi | live | -
+- 2026-08-01 16:00 | Norveç 2.Lig Grup 1 | Mjondalen - Notodden | live | -
+- 2026-08-01 16:00 | Güney Afrika PSL | Orlando Pirate - Milford | live | -
+- 2026-08-01 16:00 | Güney Afrika PSL | Stellenbosch F - Amazulu | live | -
+- 2026-08-01 16:00 | Güney Afrika PSL | Golden Arrows - Chippa United | live | -
+- 2026-08-01 16:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Schöningen | live | -
+- 2026-08-01 16:00 | Letonya Virsliga | Bfc Daugavpils - Fs Jelgava | live | -
+- 2026-08-01 16:00 | Norveç 3.Lig Grup 2 | Byasen - Spjelkavik | live | -
+- 2026-08-01 16:00 | Norveç 3.Lig Grup 4 | Vag Fk - Madla | live | -
+- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Sandefjord Ii - Gjovik-Lyn | live | -
+- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Orn Horten - Raelingen | live | -
+- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Ff Lillehammer - Drobak/Frogn | live | -
+- 2026-08-01 16:00 | Danimarka 3.Lig | Asa Aarhus - Ringsted | live | -
+- 2026-08-01 16:00 | Uganda Süper 8 Çeyrek Final | Kampala City - Bul | live | -
+- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Rade - Bjorkelangen | live | -
+- 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Fram Larvik - Elverum | live | -
+- 2026-08-01 16:00 | Hazırlık Kulüpler | Beerschot-Wilr - Zulte Waregem | live | -
+- 2026-08-01 16:00 | Hazırlık Kulüpler | Quorn - Banbury United | live | -
+- 2026-08-01 16:00 | Hazırlık Kulüpler | Monheim - Frechen | live | -
 
 ## Biten Maclar
 - 2026-08-01 00:00 | CONCACAF U20 Grup A | El Salvador U2 - Haiti U20 | finished | -
@@ -464,3 +449,18 @@ Yarin: 75
 - 2026-08-01 12:30 | Hazırlık Kulüpler | Barakaldo - Mirandes | finished | -
 - 2026-08-01 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Tottenham | finished | -
 - 2026-08-01 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - Adelaide United | finished | -
+- 2026-08-01 13:00 | Ukrayna Premier Lig | Kryvbas Kr - Karpaty Lviv | finished | -
+- 2026-08-01 13:00 | Hazırlık Kulüpler | Fc Tokyo - B.Dortmund | finished | -
+- 2026-08-01 13:00 | AFF Şampiyonası Grup B | Laos - Filipinler | finished | -
+- 2026-08-01 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Nanjing City | finished | -
+- 2026-08-01 13:00 | İsveç 2.Lig Södra Svealand | Nacka Iliria - Lindo Ff | finished | -
+- 2026-08-01 13:00 | Litvanya 1.Lig | Garliava - Neptüna Klaiped | finished | -
+- 2026-08-01 13:00 | Hazırlık Kulüpler | De Graafschap - Excelsior | finished | -
+- 2026-08-01 13:30 | Güney Kore K Lig 1 | Gangwon - Bucheon | finished | -
+- 2026-08-01 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Fc Seoul | finished | -
+- 2026-08-01 13:30 | Güney Kore K Lig 1 | Pohang Steeler - Gimcheon Sangmu | finished | -
+- 2026-08-01 13:30 | Güney Kore K Lig 2 | Cheonan City F - Yongin | finished | -
+- 2026-08-01 13:30 | Güney Kore K Lig 2 | Cheongju Fc - Suwon Sb | finished | -
+- 2026-08-01 13:30 | Güney Kore K Lig 2 | Asan Mugunghwa - Seongnam | finished | -
+- 2026-08-01 13:30 | Güney Kore K Lig 2 | Hwaseong - Daegu | finished | -
+- 2026-08-01 13:30 | Norveç 3.Lig Grup 1 | Frigg - Ullern | finished | -

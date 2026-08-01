@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-01T12:01:35.579Z
+- Guncelleme: 2026-08-01T13:00:29.634Z
 - Ham fixture sayisi: 4337
 - Bugun/yarin kaynak mac: 449
-- Aktif bulten maci: 315
+- Aktif bulten maci: 286
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 134
+- Bultenden dusurulen mac: 163
 
-- 1. 2026-08-01 15:30 | Hazırlık Kulüpler | Magdeburg - West Ham | scheduled
-- 2. 2026-08-01 15:30 | Ukrayna Premier Lig | Metalist 1925 - Veres Rivne | scheduled
-- 3. 2026-08-01 15:30 | Hazırlık Kulüpler | Willem - Ofi | scheduled
-- 4. 2026-08-01 15:45 | Polonya Ekstraklasa | Piast Gliwice - Wisla Krakow | scheduled
-- 5. 2026-08-01 16:00 | Danimarka 3.Lig | Asa Aarhus - Ringsted | scheduled
-- 6. 2026-08-01 16:00 | Hazırlık Kulüpler | Beerschot-Wilr - Zulte Waregem | scheduled
-- 7. 2026-08-01 16:00 | Letonya Virsliga | Bfc Daugavpils - Fs Jelgava | scheduled
-- 8. 2026-08-01 16:00 | Norveç 3.Lig Grup 2 | Byasen - Spjelkavik | scheduled
-- 9. 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Ff Lillehammer - Drobak/Frogn | scheduled
-- 10. 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Fram Larvik - Elverum | scheduled
-- 11. 2026-08-01 16:00 | Güney Afrika PSL | Golden Arrows - Chippa United | scheduled
-- 12. 2026-08-01 16:00 | İsveç Allsvenskan | Hacken - Kalmar | scheduled
-- 13. 2026-08-01 16:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Schöningen | scheduled
-- 14. 2026-08-01 16:00 | Uganda Süper 8 Çeyrek Final | Kampala City - Bul | scheduled
-- 15. 2026-08-01 16:00 | Rusya FNL | Leningradets - Pfc Sochi | scheduled
+- 1. 2026-08-01 16:10 | Belarus Premier Lig | Baranovichi - Isloch | scheduled
+- 2. 2026-08-01 16:15 | Rusya Premier Lig | Cska Moskova - Krylya Sovietov | scheduled
+- 3. 2026-08-01 16:30 | Galler FAW Championship Güney | Afan Lido - Aberystwyth Tow | scheduled
+- 4. 2026-08-01 16:30 | Polonya 1.Lig | Arka Gdynia - Rzeszow | scheduled
+- 5. 2026-08-01 16:30 | Almanya Bölgesel Lig Kuzey | Bremer Sv - Hannover 96 (Am | scheduled
+- 6. 2026-08-01 16:30 | Galler FAW Championship Kuzey | Brickfield Ran - Llanuwchllyn | scheduled
+- 7. 2026-08-01 16:30 | Galler FAW Championship Kuzey | Buckley Town - Denbigh Town | scheduled
+- 8. 2026-08-01 16:30 | Galler Premier Lig 1.Aşama | Cardiff Mu - Holywell Town | scheduled
+- 9. 2026-08-01 16:30 | Galler FAW Championship Güney | Carmarthen - Caerau Ely | scheduled
+- 10. 2026-08-01 16:30 | Galler Premier Lig 1.Aşama | Haverfordwest - Airbus Uk | scheduled
+- 11. 2026-08-01 16:30 | Hazırlık Kulüpler | Heidenheim - Ingolstadt | scheduled
+- 12. 2026-08-01 16:30 | Galler FAW Championship Güney | Llantwit Major - Swansea Univers | scheduled
+- 13. 2026-08-01 16:30 | Galler FAW Championship Kuzey | Mold Alexandra - Caersws | scheduled
+- 14. 2026-08-01 16:30 | Galler FAW Championship Kuzey | Penrhyncoch - Porthmadog | scheduled
+- 15. 2026-08-01 16:30 | Polonya 1.Lig | Pogon Siedlce - Nieciecza | scheduled
