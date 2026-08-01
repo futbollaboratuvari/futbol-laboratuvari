@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-01 / 2026-08-02
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 452
-Aktif mac: 114
-Canli mac: 53
+Aktif mac: 113
+Canli mac: 54
 Biten mac: 285
-Bultenden dusurulen mac: 338
-Bugun: 39
+Bultenden dusurulen mac: 339
+Bugun: 38
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 20:45 | Rusya Premier Lig | Baltika Kalini - Dinamo Moskova | scheduled | -
 - 2026-08-01 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen - Brno | scheduled | -
 - 2026-08-01 21:00 | Sırbistan Süper Lig | Novi Pazar - Ofk Beograd | scheduled | -
 - 2026-08-01 21:00 | Hazırlık Kulüpler | Girona - Arsenal | scheduled | -
@@ -127,6 +127,7 @@ Yarin: 75
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
+- 2026-08-01 20:45 | Rusya Premier Lig | Baltika Kalini - Dinamo Moskova | live | -
 - 2026-08-01 19:00 | Danimarka Süperlig | Lyngby - Aarhus | live | -
 - 2026-08-01 19:00 | İsviçre Süper Lig | Zurich - Servette | live | -
 - 2026-08-01 19:00 | İsviçre Süper Lig | Basel - Lausanne | live | -
