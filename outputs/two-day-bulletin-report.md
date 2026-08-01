@@ -4,20 +4,14 @@ Gunler: 2026-08-01 / 2026-08-02
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 452
-Aktif mac: 84
-Canli mac: 83
+Aktif mac: 78
+Canli mac: 89
 Biten mac: 285
-Bultenden dusurulen mac: 368
-Bugun: 9
+Bultenden dusurulen mac: 374
+Bugun: 3
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Osijek | scheduled | -
-- 2026-08-01 22:00 | Şili Premier Lig | Everton De Vin - Colo Colo | scheduled | -
-- 2026-08-01 22:00 | Ekvador Pro Lig | Manta - Mushuc Runa | scheduled | -
-- 2026-08-01 22:00 | Bolivya Premier Lig | Real Oruro - Independiente P | scheduled | -
-- 2026-08-01 22:00 | Hazırlık Kulüpler | Tenerife - Cadiz | scheduled | -
-- 2026-08-01 22:15 | Portekiz Süper Kupa | Porto - Torreense | scheduled | -
 - 2026-08-01 23:00 | CONCACAF U20 Grup C | Kanada (U20) - Jamaika U20 | scheduled | -
 - 2026-08-01 23:30 | Brezilya Kupa Son 16 Turu | Vasco Da Gama - Fluminense | scheduled | -
 - 2026-08-01 23:30 | Peru Premier Lig Clausura | Atletico Grau - Sport Boys | scheduled | -
@@ -98,6 +92,12 @@ Yarin: 75
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
+- 2026-08-01 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Osijek | live | -
+- 2026-08-01 22:00 | Şili Premier Lig | Everton De Vin - Colo Colo | live | -
+- 2026-08-01 22:00 | Ekvador Pro Lig | Manta - Mushuc Runa | live | -
+- 2026-08-01 22:00 | Bolivya Premier Lig | Real Oruro - Independiente P | live | -
+- 2026-08-01 22:00 | Hazırlık Kulüpler | Tenerife - Cadiz | live | -
+- 2026-08-01 22:15 | Portekiz Süper Kupa | Porto - Torreense | live | -
 - 2026-08-01 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen - Brno | live | -
 - 2026-08-01 21:00 | Sırbistan Süper Lig | Novi Pazar - Ofk Beograd | live | -
 - 2026-08-01 21:00 | Hazırlık Kulüpler | Girona - Arsenal | live | -
