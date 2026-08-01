@@ -1,129 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-01T14:27:26.217655+00:00
+Tarih: 2026-08-01T15:31:31.271865+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 347
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 347
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 4357
 - Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Şampiyonluk Final
-- AFF Şampiyonası Grup B
-- Almanya Bölgesel Lig Batı
-- Almanya Bölgesel Lig Kuzey
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Queensland
-- Avustralya NPL Tazmanya
-- Avustralya NPL Yeni Güney Galler
-- Avusturya 1.Lig
-- Avusturya Bundesliga
-- Belarus 1.Lig
-- Belarus Premier Lig
-- Bolivya Premier Lig
-- Brezilya Kupa Son 16 Turu
-- Bulgaristan 1.Lig
-- CONCACAF U20 Grup C
-- Danimarka 1.Lig
-- Danimarka 2.Lig
-- Danimarka 3.Lig
-- Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
-- Galler FAW Championship Güney
-- Galler FAW Championship Kuzey
-- Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
-- Güney Afrika PSL
-- Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
-- Hırvatistan 1.HNL
-- Kanada Premier Lig
-- Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
-- Letonya 1.Lig
-- Letonya Virsliga
-- Litvanya 1.Lig
-- Lübnan Premier Lig Şampiyonluk Turu
-- Macaristan NB I
-- Macaristan NB II
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
-- Norveç 1.Lig
-- Norveç 2.Lig Grup 1
-- Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 6
-- Norveç Eliteserien
-- Peru Premier Lig Clausura
-- Polonya 1.Lig
-- Polonya 2.Lig
-- Polonya Ekstraklasa
-- Portekiz Süper Kupa
-- Romanya 1.Lig
-- Rusya FNL
-- Rusya Premier Lig
-- Slovakya 2.Lig
-- Slovakya Süper Lig
-- Slovenya 1.SNL
-- Sırbistan Süper Lig
-- Uganda Süper 8 Çeyrek Final
-- Ukrayna Premier Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
-- Çek Cumhuriyeti Czech Liga
-- Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
-- İngiltere Lig Kupası Ön Eleme Turu
-- İskoçya 1.Lig
-- İskoçya 2.Lig
-- İskoçya Championship
-- İskoçya Premiership
-- İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
-- İsveç Allsvenskan
-- İsveç Superettan
-- İsviçre 1.Lig Promotion
-- İsviçre Challenge Lig
-- İsviçre Süper Lig
-- İzlanda Urvalsdeild
-- Şili Premier Lig
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -167,40 +72,294 @@ Tarih: 2026-08-01T14:27:26.217655+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 73
+- Acilan detay: 4
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
+
+- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
+
+- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
+
+- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
+
+- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
+
+- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
+
+- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
+
+- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
+
+- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
+
+- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
+
+- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
+
+- Detay acilamadi #16: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(15)
+
+- Detay acilamadi #17: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(16)
+
+- Detay acilamadi #18: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(17)
+
+- Detay acilamadi #19: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(18)
+
+- Detay acilamadi #20: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(19)
+
+- Detay acilamadi #21: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(20)
+
+- Detay acilamadi #22: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(21)
+
+- Detay acilamadi #23: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(22)
+
+- Detay acilamadi #24: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(23)
+
+- Detay acilamadi #25: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(24)
+
+- Detay acilamadi #26: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(25)
+
+- Detay acilamadi #27: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(26)
+
+- Detay acilamadi #28: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(27)
+
+- Detay acilamadi #29: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(28)
+
+- Detay acilamadi #30: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(29)
+
+- Detay acilamadi #31: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(30)
+
+- Detay acilamadi #32: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(31)
+
+- Detay acilamadi #33: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(32)
+
+- Detay acilamadi #34: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(33)
+
+- Detay acilamadi #35: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(34)
+
+- Detay acilamadi #36: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(35)
+
+- Detay acilamadi #37: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(36)
+
+- Detay acilamadi #38: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(37)
+
+- Detay acilamadi #39: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(38)
+
+- Detay acilamadi #40: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(39)
+
+- Detay acilamadi #41: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(40)
+
+- Detay acilamadi #42: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(41)
+
+- Detay acilamadi #43: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(42)
+
+- Detay acilamadi #44: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(43)
+
+- Detay acilamadi #45: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(44)
+
+- Detay acilamadi #46: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(45)
+
+- Detay acilamadi #47: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(46)
+
+- Detay acilamadi #48: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(47)
+
+- Detay acilamadi #49: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(48)
+
+- Detay acilamadi #50: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(49)
+
+- Detay acilamadi #51: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(50)
+
+- Detay acilamadi #52: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(51)
+
+- Detay acilamadi #53: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(52)
+
+- Detay acilamadi #54: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(53)
+
+- Detay acilamadi #55: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(54)
+
+- Detay acilamadi #56: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(55)
+
+- Detay acilamadi #57: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(56)
+
+- Detay acilamadi #58: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(57)
+
+- Detay acilamadi #59: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(58)
+
+- Detay acilamadi #60: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(59)
+
+- Detay acilamadi #61: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(60)
+
+- Detay acilamadi #62: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(61)
+
+- Detay acilamadi #63: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(62)
+
+- Detay acilamadi #64: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(63)
+
+- Detay acilamadi #65: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(64)
+
+- Detay acilamadi #66: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(65)
+
+- Detay acilamadi #67: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(66)
+
+- Detay acilamadi #68: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(67)
+
+- Detay acilamadi #69: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(68)
+
+- Detay acilamadi #70: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(69)
+
+- Detay acilamadi #71: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(70)
+
+- Detay acilamadi #72: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(71)
+
+- Detay acilamadi #73: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(72)
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 01.08.2026 | 22:15 | Portekiz Süper Kupa | Porto | Torreense | 30143 | 4 |
-| 01.08.2026 | 17:00 | İskoçya Premiership | Falkirk | St Mirren | 25624 | 5 |
-| 01.08.2026 | 19:30 | İskoçya Premiership | Aberdeen | Hearts | 25732 | 5 |
-| 01.08.2026 | 20:30 | Avusturya Bundesliga | Salzburg | Hartberg | 11246 | 5 |
-| 01.08.2026 | 18:00 | Avusturya Bundesliga | Wattens | Sturm Graz | 11031 | 5 |
-| 01.08.2026 | 19:00 | Danimarka Süperlig | Lyngby | Aarhus | 14665 | 5 |
-| 01.08.2026 | 15:45 | Polonya Ekstraklasa | Piast Gliwice | Wisla Krakow | 19367 | 5 |
-| 01.08.2026 | 18:30 | Polonya Ekstraklasa | Ks Wieczysta K | Lech Poznan | 19584 | 5 |
-| 01.08.2026 | 19:00 | İsviçre Süper Lig | Basel | Lausanne | 23933 | 5 |
-| 01.08.2026 | 21:30 | İsviçre Süper Lig | Thun | Young Boys | 24041 | 5 |
-| 01.08.2026 | 19:00 | İsviçre Süper Lig | Zurich | Servette | 23987 | 5 |
-| 01.08.2026 | 16:15 | Rusya Premier Lig | Cska Moskova | Krylya Sovietov | 20269 | 5 |
-| 01.08.2026 | 20:45 | Rusya Premier Lig | Baltika Kalini | Dinamo Moskova | 20411 | 5 |
-| 01.08.2026 | 18:30 | Rusya Premier Lig | Makhachkala | L.Moskova | 20340 | 5 |
-| 01.08.2026 | 14:00 | Rusya Premier Lig | Akron | Rubin Kazan | 20198 | 5 |
-| 01.08.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec | Teplice | 18866 | 5 |
-| 01.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen | Brno | 18933 | 5 |
-| 01.08.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Slovacko | Sk Artis Brno | 18833 | 5 |
-| 01.08.2026 | 18:00 | Çek Cumhuriyeti Czech Liga | Banik Ostrava | Slavia Prag | 18800 | 5 |
-| 01.08.2026 | 15:00 | Finlandiya Veikkausliiga | Turku | Mariehamn | 08022 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
