@@ -2,28 +2,15 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 271
-Aktif mac: 256
-Canli mac: 15
+Ham mac: 264
+Aktif mac: 243
+Canli mac: 21
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 232
+Bultenden dusurulen mac: 21
+Bugun: 219
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-08-02 02:00 | Meksika Liga MX Apertura | Queretaro - Tigres Uanl | scheduled | -
-- 2026-08-02 02:00 | Peru Premier Lig Clausura | Cusco Fc - Univ De Cajamar | scheduled | -
-- 2026-08-02 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cds Tampico Mad | scheduled | -
-- 2026-08-02 02:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Sporting San Jo | scheduled | -
-- 2026-08-02 02:00 | ABD USL | Loudoun United - Hartford Athlet | scheduled | -
-- 2026-08-02 02:00 | ABD USL | Lexington - Monterey Bay | scheduled | -
-- 2026-08-02 02:00 | ABD USL | Miami Fc - Detroit City | scheduled | -
-- 2026-08-02 02:00 | Nikaragua Premier Lig Apertura | Rancho Santana - Export Sebaco | scheduled | -
-- 2026-08-02 02:00 | El Salvador Primera Lig Apertura | Municipal Lime - Platense | scheduled | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Greenville Tri - Portland Hearts | scheduled | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Charlotte Inde - One Knoxville | scheduled | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Spokane Velocit | scheduled | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Richmond Kicke - Alta | scheduled | -
 - 2026-08-02 02:30 | ABD MLS | Cincinnati - San Jose | scheduled | -
 - 2026-08-02 02:30 | ABD MLS | Montreal - New England | scheduled | -
 - 2026-08-02 02:30 | ABD MLS | Philadelphia - Atlanta Utd | scheduled | -
@@ -269,13 +256,6 @@ Yarin: 24
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
-- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Defensa Justici | live | -
-- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Argentinos Jr | live | -
-- 2026-08-02 00:00 | Nikaragua Premier Lig Apertura | San Marcos - Managua | live | -
-- 2026-08-02 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Inter Fa | live | -
-- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Trujillanos - Ucv | live | -
-- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Monagas - Deportivo La Gu | live | -
-- 2026-08-02 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Suchitepequez | live | -
 - 2026-08-02 00:15 | Bolivya Premier Lig | San Antonio Bu - Blooming | live | -
 - 2026-08-02 00:30 | Şili Premier Lig | Palestino - Coquimbo Unido | live | -
 - 2026-08-02 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Penarol - Cerro Largo | live | -
@@ -284,6 +264,19 @@ Yarin: 24
 - 2026-08-02 00:45 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Venados Fc | live | -
 - 2026-08-02 01:00 | Kanada Premier Lig | Vancouver Fc - Atletico Ottawa | live | -
 - 2026-08-02 01:30 | Brezilya Kupa Son 16 Turu | Atletico Mg - Juventude | live | -
+- 2026-08-02 02:00 | Meksika Liga MX Apertura | Queretaro - Tigres Uanl | live | -
+- 2026-08-02 02:00 | Peru Premier Lig Clausura | Cusco Fc - Univ De Cajamar | live | -
+- 2026-08-02 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cds Tampico Mad | live | -
+- 2026-08-02 02:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Sporting San Jo | live | -
+- 2026-08-02 02:00 | ABD USL | Loudoun United - Hartford Athlet | live | -
+- 2026-08-02 02:00 | ABD USL | Lexington - Monterey Bay | live | -
+- 2026-08-02 02:00 | ABD USL | Miami Fc - Detroit City | live | -
+- 2026-08-02 02:00 | Nikaragua Premier Lig Apertura | Rancho Santana - Export Sebaco | live | -
+- 2026-08-02 02:00 | El Salvador Primera Lig Apertura | Municipal Lime - Platense | live | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Greenville Tri - Portland Hearts | live | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Charlotte Inde - One Knoxville | live | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Spokane Velocit | live | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Richmond Kicke - Alta | live | -
 
 ## Biten Maclar
 Biten mac yok.
