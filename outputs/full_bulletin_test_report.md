@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 325
-- Live match count: 15
-- Finished removed count: 0
+- Scheduled match count: 310
+- Live match count: 13
+- Finished removed count: 14
 - Date window: 2026-08-01 / 2026-08-02 23:59
 
-- 2026-08-01 08:15 | Gold Coast Uni - Gold Coast Knig | live
-- 2026-08-01 08:15 | Altona Magic - Caroline S. | live
-- 2026-08-01 08:15 | Manningham Uni - Port Melbourne | live
-- 2026-08-01 08:30 | Playford City - West Torrens | live
-- 2026-08-01 08:30 | Sturt Lions - Adelaide Comets | live
-- 2026-08-01 08:30 | West Adelaide - Para Hills Knig | live
-- 2026-08-01 09:00 | Sutherland Sha - Wollongong Wolv | live
-- 2026-08-01 09:45 | Glenorchy Knig - Devonport City | live
-- 2026-08-01 10:00 | Balcatta - Armadale | live
-- 2026-08-01 10:00 | Dianella White - Stirling Lions | live
+- 2026-08-01 10:45 | Monaro Panther - O Connor Knight | live
+- 2026-08-01 11:00 | Queensland Lio - Peninsula Power | live
+- 2026-08-01 11:00 | Alcorcon - Getafe Ii | live
+- 2026-08-01 11:00 | Levante - Albacete | live
+- 2026-08-01 11:00 | Lucko - Segesta | live
+- 2026-08-01 11:30 | St. George Sai - Sd Raiders | live
+- 2026-08-01 12:00 | Dandenong Thun - Dandenong City | live
+- 2026-08-01 12:00 | B.Leverkusen - Essen | live
+- 2026-08-01 12:00 | Merida Ad - Real Betis Ii | live
+- 2026-08-01 12:00 | Sd Logrones - Osasuna Ii | live

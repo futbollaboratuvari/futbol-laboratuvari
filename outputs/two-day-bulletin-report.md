@@ -3,17 +3,14 @@
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
 Ham mac: 337
-Aktif mac: 313
-Canli mac: 24
+Aktif mac: 310
+Canli mac: 27
 Biten mac: 0
-Bultenden dusurulen mac: 24
-Bugun: 238
+Bultenden dusurulen mac: 27
+Bugun: 235
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 12:30 | Hazırlık Kulüpler | Barakaldo - Mirandes | scheduled | -
-- 2026-08-01 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Tottenham | scheduled | -
-- 2026-08-01 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - Adelaide United | scheduled | -
 - 2026-08-01 13:00 | Ukrayna Premier Lig | Kryvbas Kr - Karpaty Lviv | scheduled | -
 - 2026-08-01 13:00 | Hazırlık Kulüpler | Fc Tokyo - B.Dortmund | scheduled | -
 - 2026-08-01 13:00 | AFF Şampiyonası Grup B | Laos - Filipinler | scheduled | -
@@ -350,6 +347,9 @@ Yarin: 75
 - 2026-08-01 12:00 | Avustralya NPL Victoria | Dandenong Thun - Dandenong City | live | -
 - 2026-08-01 12:00 | Hazırlık Kulüpler | Merida Ad - Real Betis Ii | live | -
 - 2026-08-01 12:00 | Hazırlık Kulüpler | Sd Logrones - Osasuna Ii | live | -
+- 2026-08-01 12:30 | Hazırlık Kulüpler | Barakaldo - Mirandes | live | -
+- 2026-08-01 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Tottenham | live | -
+- 2026-08-01 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - Adelaide United | live | -
 
 ## Biten Maclar
 Biten mac yok.
