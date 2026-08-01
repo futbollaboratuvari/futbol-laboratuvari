@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
-Ham mac: 370
+Ham mac: 340
 Aktif mac: 325
 Canli mac: 15
-Biten mac: 30
-Bultenden dusurulen mac: 45
+Biten mac: 0
+Bultenden dusurulen mac: 15
 Bugun: 250
 Yarin: 75
 
@@ -355,33 +355,4 @@ Yarin: 75
 - 2026-08-01 10:00 | Avustralya Victoria NPL 1 | North Geelong - Bulleen Lions | live | -
 
 ## Biten Maclar
-- 2026-08-01 00:00 | CONCACAF U20 Grup A | El Salvador U2 - Haiti U20 | finished | -
-- 2026-08-01 00:00 | Venezuela Premier Lig Clausura | Portuguesa - Carabobo | finished | -
-- 2026-08-01 00:30 | Bolivya Premier Lig | The Strongest - Aurora | finished | -
-- 2026-08-01 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Montevideo Wand | finished | -
-- 2026-08-01 02:00 | Bolivya Premier Lig | Real Tomayapo - Academia Del Ba | finished | -
-- 2026-08-01 02:30 | ABD MLS | New York City - Toronto | finished | -
-- 2026-08-01 03:00 | Şili Premier Lig | Univ De Concep - Audax Italiano | finished | -
-- 2026-08-01 03:00 | Ekvador Pro Lig | Libertad - Orense | finished | -
-- 2026-08-01 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Unan Managua | finished | -
-- 2026-08-01 04:00 | Meksika Liga MX Apertura | Puebla - Guadalajara | finished | -
-- 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Tepatitlan De M | finished | -
-- 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Tlaxcala | finished | -
-- 2026-08-01 04:00 | ABD USL | San Antonio - Indy Eleven | finished | -
-- 2026-08-01 04:00 | Honduras Ulusal Lig Apertura | Platense - Real Espana | finished | -
-- 2026-08-01 05:00 | Kanada Premier Lig | Pacific Fc - Supra Du Quebec | finished | -
-- 2026-08-01 05:00 | CONCACAF U20 Grup A | Abd (U20) - Kuba U20 | finished | -
-- 2026-08-01 06:00 | Meksika Liga MX Apertura | Fc Juarez - Pumas Unam | finished | -
-- 2026-08-01 06:00 | Meksika Liga MX Apertura | Atletico San L - Club Tijuana | finished | -
-- 2026-08-01 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Durango | finished | -
-- 2026-08-01 07:00 | Avustralya NPL Victoria | Hume City - Melbourne City | finished | -
-- 2026-08-01 07:00 | Avustralya NPL Tazmanya | South Hobart - Launceston City | finished | -
-- 2026-08-01 07:00 | Avustralya NPL Kuzey YGG | Adamstown Rose - Valentine Phoen | finished | -
-- 2026-08-01 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Tuggeranong Uni | finished | -
-- 2026-08-01 07:30 | Avustralya NPL Victoria | Avondale Heigh - Heidelberg Unit | finished | -
-- 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | finished | -
-- 2026-08-01 08:00 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Cooma Tigers | finished | -
-- 2026-08-01 08:00 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Brindabella Blu | finished | -
-- 2026-08-01 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - Unsw Fc | finished | -
-- 2026-08-01 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Moreland Zebras | finished | -
-- 2026-08-01 08:00 | Avustralya Victoria NPL 1 | Langwarrin - Brunswick City | finished | -
+Biten mac yok.
