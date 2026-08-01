@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-01T10:58:22.825Z
-- Ham fixture sayisi: 4311
-- Bugun/yarin kaynak mac: 423
-- Aktif bulten maci: 348
+- Guncelleme: 2026-08-01T12:01:35.579Z
+- Ham fixture sayisi: 4337
+- Bugun/yarin kaynak mac: 449
+- Aktif bulten maci: 315
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 75
+- Bultenden dusurulen mac: 134
 
-- 1. 2026-08-01 14:00 | Rusya Premier Lig | Akron - Rubin Kazan | scheduled
-- 2. 2026-08-01 14:00 | Hazırlık Kulüpler | Braunschweig - La Louvière | scheduled
-- 3. 2026-08-01 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Shaanxi Union | scheduled
-- 4. 2026-08-01 14:00 | Norveç 3.Lig Grup 4 | Flekkeroy - Haugesund Ii | scheduled
-- 5. 2026-08-01 14:00 | Danimarka 1.Lig | Hillerod - Esbjerg | scheduled
-- 6. 2026-08-01 14:00 | Danimarka 3.Lig | Holbæk - Frem | scheduled
-- 7. 2026-08-01 14:00 | Litvanya 1.Lig | Kauno Zalgiris - Atmosfera | scheduled
-- 8. 2026-08-01 14:00 | Norveç 3.Lig Grup 1 | Konnerud - Nordstrand | scheduled
-- 9. 2026-08-01 14:00 | İsveç 2.Lig Norra Svealand | Lidingö - Angby | scheduled
-- 10. 2026-08-01 14:00 | İsveç 2.Lig Södra Götaland | Linero - Österlen | scheduled
-- 11. 2026-08-01 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Guangxi Hengche | scheduled
-- 12. 2026-08-01 14:00 | Hazırlık Kulüpler | Nürnberg - Oviedo | scheduled
-- 13. 2026-08-01 14:00 | İsveç Superettan | Ostersund - Oster | scheduled
-- 14. 2026-08-01 14:00 | Norveç 2.Lig Grup 1 | Pors Grenland - Brattvag Il | scheduled
-- 15. 2026-08-01 14:00 | İsveç 2.Lig Södra Svealand | Smedby Ais - Örebro Syriansk | scheduled
+- 1. 2026-08-01 15:30 | Hazırlık Kulüpler | Magdeburg - West Ham | scheduled
+- 2. 2026-08-01 15:30 | Ukrayna Premier Lig | Metalist 1925 - Veres Rivne | scheduled
+- 3. 2026-08-01 15:30 | Hazırlık Kulüpler | Willem - Ofi | scheduled
+- 4. 2026-08-01 15:45 | Polonya Ekstraklasa | Piast Gliwice - Wisla Krakow | scheduled
+- 5. 2026-08-01 16:00 | Danimarka 3.Lig | Asa Aarhus - Ringsted | scheduled
+- 6. 2026-08-01 16:00 | Hazırlık Kulüpler | Beerschot-Wilr - Zulte Waregem | scheduled
+- 7. 2026-08-01 16:00 | Letonya Virsliga | Bfc Daugavpils - Fs Jelgava | scheduled
+- 8. 2026-08-01 16:00 | Norveç 3.Lig Grup 2 | Byasen - Spjelkavik | scheduled
+- 9. 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Ff Lillehammer - Drobak/Frogn | scheduled
+- 10. 2026-08-01 16:00 | Norveç 3.Lig Grup 6 | Fram Larvik - Elverum | scheduled
+- 11. 2026-08-01 16:00 | Güney Afrika PSL | Golden Arrows - Chippa United | scheduled
+- 12. 2026-08-01 16:00 | İsveç Allsvenskan | Hacken - Kalmar | scheduled
+- 13. 2026-08-01 16:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Schöningen | scheduled
+- 14. 2026-08-01 16:00 | Uganda Süper 8 Çeyrek Final | Kampala City - Bul | scheduled
+- 15. 2026-08-01 16:00 | Rusya FNL | Leningradets - Pfc Sochi | scheduled

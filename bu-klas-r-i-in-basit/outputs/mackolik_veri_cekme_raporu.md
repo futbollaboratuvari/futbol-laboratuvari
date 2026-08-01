@@ -1,24 +1,32 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-01T11:12:59.640819+00:00
+Tarih: 2026-08-01T12:01:32.472932+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 263
-- Kac mac kaydedildi: 12
-- Kac mac zaten vardi: 251
-- Ham veri havuzu toplam mac sayisi: 4340
+- Kac mac bulundu: 346
+- Kac mac kaydedildi: 14
+- Kac mac zaten vardi: 332
+- Ham veri havuzu toplam mac sayisi: 4354
 - Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
+- ABD USL Lig 2 Şampiyonluk Final
 - AFF Şampiyonası Grup B
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Queensland
+- Avustralya NPL Tazmanya
+- Avustralya NPL Yeni Güney Galler
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus 1.Lig
@@ -32,22 +40,30 @@ Tarih: 2026-08-01T11:12:59.640819+00:00
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Kulüpler
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
 - Macaristan NB II
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -71,17 +87,20 @@ Tarih: 2026-08-01T11:12:59.640819+00:00
 - Sırbistan Süper Lig
 - Uganda Süper 8 Çeyrek Final
 - Ukrayna Premier Lig
+- Uruguay Premier Lig Intermediate Turu Grup 1
 - Uruguay Premier Lig Intermediate Turu Grup 2
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
 - İngiltere Lig Kupası Ön Eleme Turu
 - İskoçya 1.Lig
 - İskoçya 2.Lig
 - İskoçya Championship
 - İskoçya Premiership
+- İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Svealand
 - İsveç 2.Lig Vastra Götaland
 - İsveç Allsvenskan
