@@ -4,19 +4,14 @@ Gunler: 2026-08-01 / 2026-08-02
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 344
-Aktif mac: 330
-Canli mac: 9
+Aktif mac: 325
+Canli mac: 14
 Biten mac: 5
-Bultenden dusurulen mac: 14
-Bugun: 260
+Bultenden dusurulen mac: 19
+Bugun: 255
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-08-01 05:00 | Kanada Premier Lig | Pacific Fc - Supra Du Quebec | scheduled | -
-- 2026-08-01 05:00 | CONCACAF U20 Grup A | Abd (U20) - Kuba U20 | scheduled | -
-- 2026-08-01 06:00 | Meksika Liga MX Apertura | Fc Juarez - Pumas Unam | scheduled | -
-- 2026-08-01 06:00 | Meksika Liga MX Apertura | Atletico San L - Club Tijuana | scheduled | -
-- 2026-08-01 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Durango | scheduled | -
 - 2026-08-01 07:00 | Avustralya NPL Victoria | Hume City - Melbourne City | scheduled | -
 - 2026-08-01 07:00 | Avustralya NPL Tazmanya | South Hobart - Launceston City | scheduled | -
 - 2026-08-01 07:00 | Avustralya NPL Kuzey YGG | Adamstown Rose - Valentine Phoen | scheduled | -
@@ -344,6 +339,11 @@ Yarin: 70
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
+- 2026-08-01 05:00 | Kanada Premier Lig | Pacific Fc - Supra Du Quebec | live | -
+- 2026-08-01 05:00 | CONCACAF U20 Grup A | Abd (U20) - Kuba U20 | live | -
+- 2026-08-01 06:00 | Meksika Liga MX Apertura | Fc Juarez - Pumas Unam | live | -
+- 2026-08-01 06:00 | Meksika Liga MX Apertura | Atletico San L - Club Tijuana | live | -
+- 2026-08-01 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Durango | live | -
 - 2026-08-01 02:30 | ABD MLS | New York City - Toronto | live | -
 - 2026-08-01 03:00 | Şili Premier Lig | Univ De Concep - Audax Italiano | live | -
 - 2026-08-01 03:00 | Ekvador Pro Lig | Libertad - Orense | live | -
