@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-01T07:24:50.423Z
+- Güncelleme: 2026-08-01T07:34:44.612Z
 - Ham maç sayısı: 340
 - Yarın bülteni maç sayısı: 75
 - Detay blok sayısı: 940
-- Aktif bülten maçı: 325
-- Bültenden düşürülen maç: 15
+- Aktif bülten maçı: 323
+- Bültenden düşürülen maç: 17
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lazio - Avellino | Hazırlık Kulüpler | 10:30 | Veri bekleniyor | - | 1.47 | 7 |
-| White City Woo - Croydon Kings | Avustralya NPL Güney Avustralya | 10:30 | Veri bekleniyor | - | 2.18 | 6 |
 | Monaro Panther - O Connor Knight | Avustralya NPL Başkent Bölgesi | 10:45 | Veri bekleniyor | - | - | 3 |
 | Levante - Albacete | Hazırlık Kulüpler | 11:00 | Veri bekleniyor | - | 1.45 | 7 |
 | Queensland Lio - Peninsula Power | Avustralya NPL Queensland | 11:00 | Veri bekleniyor | - | 1.7 | 6 |

@@ -1,23 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-01T07:16:05.541473+00:00
+Tarih: 2026-08-01T07:37:46.520551+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 325
-- Kac mac kaydedildi: 26
-- Kac mac zaten vardi: 299
+- Kac mac bulundu: 250
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 250
 - Ham veri havuzu toplam mac sayisi: 4274
 - Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Şampiyonluk Final
 - AFF Şampiyonası Grup B
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
@@ -25,9 +21,7 @@ Tarih: 2026-08-01T07:16:05.541473+00:00
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
-- Avustralya NPL Tazmanya
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
 - Avusturya 1.Lig
@@ -42,33 +36,25 @@ Tarih: 2026-08-01T07:16:05.541473+00:00
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
 - Hazırlık Kulüpler
 - Hazırlık Sydney Süper Kupası
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
 - Macaristan NB II
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -92,9 +78,7 @@ Tarih: 2026-08-01T07:16:05.541473+00:00
 - Sırbistan Süper Lig
 - Uganda Süper 8 Çeyrek Final
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
 - Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti 1.Lig
