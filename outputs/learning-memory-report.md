@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 01.08.2026 16:59:18
+Oluşturma: 01.08.2026 17:06:30
 
 ## Özet
 
-- Toplam tahmin: 156
-- Bekleyen tahmin: 156
+- Toplam tahmin: 158
+- Bekleyen tahmin: 158
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 65
@@ -20,12 +20,14 @@ Oluşturma: 01.08.2026 16:59:18
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 103, bekleyen 103, başarı bekleniyor, ağırlık 1
+- MS X: toplam 104, bekleyen 104, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-01 | Kazakistan Premier Lig | Kyzyl-Zhar - Aktobe | MS X | pending | 40/100
+- 2026-08-01 | Norveç 2.Lig Grup 1 | Lysekloster - Bjarg | MS 1 | pending | 45/100
 - 2026-08-01 | Letonya Virsliga | Bfc Daugavpils - Fs Jelgava | MS X | pending | 50/100
 - 2026-08-01 | İsveç Allsvenskan | Hacken - Kalmar | MS X | pending | 60/100
 - 2026-08-01 | Hazırlık Kulüpler | Nürnberg - Oviedo | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 01.08.2026 16:59:18
 - 2026-08-01 | Macaristan NB II | Diosgyor - Szentlorinc Se | MS 2 | pending | 60/100
 - 2026-08-01 | Macaristan NB I | Budapest Honve - Mtk | MS X | pending | 50/100
 - 2026-08-01 | Rusya Premier Lig | Baltika Kalini - Dinamo Moskova | MS X | pending | 40/100
-- 2026-08-01 | Sırbistan Süper Lig | Novi Pazar - Ofk Beograd | MS 2 | pending | 40/100
-- 2026-08-01 | Peru Premier Lig Clausura | Fc Cajamarca - Sport Huancayo | MS X | pending | 50/100
 
