@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 132
-- Live match count: 64
-- Finished removed count: 2
+- Scheduled match count: 113
+- Live match count: 54
+- Finished removed count: 0
 - Date window: 2026-08-01 / 2026-08-02 23:59
 
-- 2026-08-01 18:00 | Wattens - Sturm Graz | live
-- 2026-08-01 18:00 | Ostrovets Fc - Lida | live
-- 2026-08-01 18:00 | Banik Ostrava - Slavia Prag | live
-- 2026-08-01 18:00 | Slovacko - Sk Artis Brno | live
-- 2026-08-01 18:00 | Slovan Liberec - Teplice | live
-- 2026-08-01 18:00 | Lahti - Jaro | live
-- 2026-08-01 18:00 | Tpv Tampere - Rops | live
-- 2026-08-01 18:00 | Hamburg - Everton | live
-- 2026-08-01 18:00 | Oh Leuven - Lille | live
-- 2026-08-01 18:00 | Trento Calcio - Modena | live
+- 2026-08-01 19:00 | Levski Sofya - Septemvri Sofia | live
+- 2026-08-01 19:00 | Hanacka Slavia - Usti Nad Labem | live
+- 2026-08-01 19:00 | Trinec - Jihlava | live
+- 2026-08-01 19:00 | Lyngby - Aarhus | live
+- 2026-08-01 19:00 | Gnistan - Kuopion | live
+- 2026-08-01 19:00 | Angers - Le Mans | live
+- 2026-08-01 19:00 | Chateauroux - Bourges | live
+- 2026-08-01 19:00 | Empoli - Spezia | live
+- 2026-08-01 19:00 | Real Madrid - Fiorentina | live
+- 2026-08-01 19:00 | Roda - Aachen | live
