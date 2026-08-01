@@ -1,29 +1,38 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-01T17:43:40.030819+00:00
+=======
+Tarih: 2026-08-01T17:46:32.093391+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 127
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 127
+=======
+- Kac mac bulundu: 52
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 52
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 4357
 - Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Şampiyonluk Final
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+<<<<<<< Updated upstream
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
 - Avustralya NPL Tazmanya
 - Avustralya NPL Yeni Güney Galler
+=======
+>>>>>>> Stashed changes
 - Avusturya Bundesliga
 - Bolivya Premier Lig
 - Brezilya Kupa Son 16 Turu
@@ -31,18 +40,16 @@ Tarih: 2026-08-01T17:43:40.030819+00:00
 - CONCACAF U20 Grup C
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Macaristan NB II
+<<<<<<< Updated upstream
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Nikaragua Premier Lig Apertura
+=======
+>>>>>>> Stashed changes
 - Norveç 3.Lig Grup 4
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
@@ -52,9 +59,7 @@ Tarih: 2026-08-01T17:43:40.030819+00:00
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
 - Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İsviçre 1.Lig Promotion
 - İsviçre Süper Lig
