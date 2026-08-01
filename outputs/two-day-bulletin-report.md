@@ -3,21 +3,14 @@
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
 Ham mac: 337
-Aktif mac: 310
-Canli mac: 27
+Aktif mac: 303
+Canli mac: 34
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 235
+Bultenden dusurulen mac: 34
+Bugun: 228
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 13:00 | Ukrayna Premier Lig | Kryvbas Kr - Karpaty Lviv | scheduled | -
-- 2026-08-01 13:00 | Hazırlık Kulüpler | Fc Tokyo - B.Dortmund | scheduled | -
-- 2026-08-01 13:00 | AFF Şampiyonası Grup B | Laos - Filipinler | scheduled | -
-- 2026-08-01 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Nanjing City | scheduled | -
-- 2026-08-01 13:00 | İsveç 2.Lig Södra Svealand | Nacka Iliria - Lindo Ff | scheduled | -
-- 2026-08-01 13:00 | Litvanya 1.Lig | Garliava - Neptüna Klaiped | scheduled | -
-- 2026-08-01 13:00 | Hazırlık Kulüpler | De Graafschap - Excelsior | scheduled | -
 - 2026-08-01 13:30 | Güney Kore K Lig 1 | Gangwon - Bucheon | scheduled | -
 - 2026-08-01 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Fc Seoul | scheduled | -
 - 2026-08-01 13:30 | Güney Kore K Lig 1 | Pohang Steeler - Gimcheon Sangmu | scheduled | -
@@ -350,6 +343,13 @@ Yarin: 75
 - 2026-08-01 12:30 | Hazırlık Kulüpler | Barakaldo - Mirandes | live | -
 - 2026-08-01 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Tottenham | live | -
 - 2026-08-01 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - Adelaide United | live | -
+- 2026-08-01 13:00 | Ukrayna Premier Lig | Kryvbas Kr - Karpaty Lviv | live | -
+- 2026-08-01 13:00 | Hazırlık Kulüpler | Fc Tokyo - B.Dortmund | live | -
+- 2026-08-01 13:00 | AFF Şampiyonası Grup B | Laos - Filipinler | live | -
+- 2026-08-01 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Nanjing City | live | -
+- 2026-08-01 13:00 | İsveç 2.Lig Södra Svealand | Nacka Iliria - Lindo Ff | live | -
+- 2026-08-01 13:00 | Litvanya 1.Lig | Garliava - Neptüna Klaiped | live | -
+- 2026-08-01 13:00 | Hazırlık Kulüpler | De Graafschap - Excelsior | live | -
 
 ## Biten Maclar
 Biten mac yok.
