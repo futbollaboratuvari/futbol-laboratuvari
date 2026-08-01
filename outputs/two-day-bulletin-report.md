@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 270
+Ham mac: 271
 Aktif mac: 256
-Canli mac: 14
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 233
-Yarin: 23
+Bultenden dusurulen mac: 15
+Bugun: 232
+Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-08-02 01:30 | Brezilya Kupa Son 16 Turu | Atletico Mg - Juventude | scheduled | -
 - 2026-08-02 02:00 | Meksika Liga MX Apertura | Queretaro - Tigres Uanl | scheduled | -
 - 2026-08-02 02:00 | Peru Premier Lig Clausura | Cusco Fc - Univ De Cajamar | scheduled | -
 - 2026-08-02 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cds Tampico Mad | scheduled | -
@@ -247,6 +246,7 @@ Yarin: 23
 - 2026-08-03 00:00 | Brezilya Kupa Son 16 Turu | Mirassol - Gremio | scheduled | -
 - 2026-08-03 00:00 | Venezuela Premier Lig Clausura | Zamora - Rayo Zuliano | scheduled | -
 - 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Balboa - Isidro Metapan | scheduled | -
+- 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Aguila | scheduled | -
 - 2026-08-03 00:15 | Bolivya Premier Lig | Always Ready - Bolivar | scheduled | -
 - 2026-08-03 00:30 | Brezilya Kupa Son 16 Turu | Chapecoense - Cruzeiro | scheduled | -
 - 2026-08-03 00:30 | Şili Premier Lig | Univ. De Şili - Huachipato | scheduled | -
@@ -283,6 +283,7 @@ Yarin: 23
 - 2026-08-02 00:30 | Honduras Ulusal Lig Apertura | Genesis Pn - Choloma | live | -
 - 2026-08-02 00:45 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Venados Fc | live | -
 - 2026-08-02 01:00 | Kanada Premier Lig | Vancouver Fc - Atletico Ottawa | live | -
+- 2026-08-02 01:30 | Brezilya Kupa Son 16 Turu | Atletico Mg - Juventude | live | -
 
 ## Biten Maclar
 Biten mac yok.
