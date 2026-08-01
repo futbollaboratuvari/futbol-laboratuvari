@@ -2,27 +2,15 @@
 
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
-Ham mac: 340
-Aktif mac: 325
-Canli mac: 15
+Ham mac: 337
+Aktif mac: 313
+Canli mac: 24
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 250
+Bultenden dusurulen mac: 24
+Bugun: 238
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 10:30 | Hazırlık Kulüpler | Lazio - Avellino | scheduled | -
-- 2026-08-01 10:30 | Avustralya NPL Güney Avustralya | White City Woo - Croydon Kings | scheduled | -
-- 2026-08-01 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - O Connor Knight | scheduled | -
-- 2026-08-01 11:00 | Hazırlık Kulüpler | Levante - Albacete | scheduled | -
-- 2026-08-01 11:00 | Avustralya NPL Queensland | Queensland Lio - Peninsula Power | scheduled | -
-- 2026-08-01 11:00 | Hazırlık Kulüpler | Alcorcon - Getafe Ii | scheduled | -
-- 2026-08-01 11:00 | Hazırlık Kulüpler | Lucko - Segesta | scheduled | -
-- 2026-08-01 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Sd Raiders | scheduled | -
-- 2026-08-01 12:00 | Hazırlık Kulüpler | B.Leverkusen - Essen | scheduled | -
-- 2026-08-01 12:00 | Avustralya NPL Victoria | Dandenong Thun - Dandenong City | scheduled | -
-- 2026-08-01 12:00 | Hazırlık Kulüpler | Merida Ad - Real Betis Ii | scheduled | -
-- 2026-08-01 12:00 | Hazırlık Kulüpler | Sd Logrones - Osasuna Ii | scheduled | -
 - 2026-08-01 12:30 | Hazırlık Kulüpler | Barakaldo - Mirandes | scheduled | -
 - 2026-08-01 12:45 | Hazırlık Sydney Süper Kupası | Chelsea - Tottenham | scheduled | -
 - 2026-08-01 12:45 | Avustralya NPL Güney Avustralya | Ne Metrostars - Adelaide United | scheduled | -
@@ -338,9 +326,6 @@ Yarin: 75
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
-- 2026-08-01 08:15 | Avustralya NPL Queensland | Gold Coast Uni - Gold Coast Knig | live | -
-- 2026-08-01 08:15 | Avustralya NPL Victoria | Altona Magic - Caroline S. | live | -
-- 2026-08-01 08:15 | Avustralya Victoria NPL 1 | Manningham Uni - Port Melbourne | live | -
 - 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Playford City - West Torrens | live | -
 - 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | West Adelaide - Para Hills Knig | live | -
 - 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | live | -
@@ -353,6 +338,18 @@ Yarin: 75
 - 2026-08-01 10:00 | Avustralya NPL Batı Avustralya | Fremantle City - Perth | live | -
 - 2026-08-01 10:00 | Avustralya NPL Batı Avustralya | Sorrento - Perth Redstar F | live | -
 - 2026-08-01 10:00 | Avustralya Victoria NPL 1 | North Geelong - Bulleen Lions | live | -
+- 2026-08-01 10:30 | Hazırlık Kulüpler | Lazio - Avellino | live | -
+- 2026-08-01 10:30 | Avustralya NPL Güney Avustralya | White City Woo - Croydon Kings | live | -
+- 2026-08-01 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - O Connor Knight | live | -
+- 2026-08-01 11:00 | Hazırlık Kulüpler | Levante - Albacete | live | -
+- 2026-08-01 11:00 | Avustralya NPL Queensland | Queensland Lio - Peninsula Power | live | -
+- 2026-08-01 11:00 | Hazırlık Kulüpler | Alcorcon - Getafe Ii | live | -
+- 2026-08-01 11:00 | Hazırlık Kulüpler | Lucko - Segesta | live | -
+- 2026-08-01 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Sd Raiders | live | -
+- 2026-08-01 12:00 | Hazırlık Kulüpler | B.Leverkusen - Essen | live | -
+- 2026-08-01 12:00 | Avustralya NPL Victoria | Dandenong Thun - Dandenong City | live | -
+- 2026-08-01 12:00 | Hazırlık Kulüpler | Merida Ad - Real Betis Ii | live | -
+- 2026-08-01 12:00 | Hazırlık Kulüpler | Sd Logrones - Osasuna Ii | live | -
 
 ## Biten Maclar
 Biten mac yok.
