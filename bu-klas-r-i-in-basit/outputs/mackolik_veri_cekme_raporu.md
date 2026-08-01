@@ -1,25 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-01T01:15:25.532334+00:00
-=======
-Tarih: 2026-08-01T01:20:44.558368+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-01T05:00:26.083003+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 319
+- Durum: error
+- Kac mac bulundu: 251
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 319
-=======
-- Kac mac bulundu: 249
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 249
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 4248
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 01.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -72,6 +62,7 @@ Tarih: 2026-08-01T01:20:44.558368+00:00
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 6
 - Norveç Eliteserien
@@ -175,7 +166,8 @@ Tarih: 2026-08-01T01:20:44.558368+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -204,4 +196,4 @@ Tarih: 2026-08-01T01:20:44.558368+00:00
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
