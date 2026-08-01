@@ -1,48 +1,88 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-01T20:41:14.272117+00:00
+Tarih: 2026-08-01T21:13:26.347435+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 80
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 80
-- Ham veri havuzu toplam mac sayisi: 4357
-- Hedef tarih: 01.08.2026 Europe/Istanbul
+- Kac mac bulundu: 173
+- Kac mac kaydedildi: 173
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 4530
+- Hedef tarih: 02.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
-- ABD USL Lig 2 Şampiyonluk Final
 - Arjantin Premier Lig 2. Aşama
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Queensland
-- Avustralya NPL Tazmanya
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
+- Avusturya 1.Lig
+- Avusturya Bundesliga
+- Belarus Premier Lig
 - Bolivya Premier Lig
 - Brezilya Kupa Son 16 Turu
-- CONCACAF U20 Grup C
+- Bulgaristan 1.Lig
+- Danimarka 1.Lig
+- Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
+- Estonya Premium Lig
+- Faroe Adaları Master Lig
+- Finlandiya Veikkausliiga
+- Galler Premier Lig 1.Aşama
+- Güney Afrika PSL
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
+- Hollanda Süper Kupa
+- Hırvatistan 1.HNL
+- Kazakistan Premier Lig
+- Letonya 1.Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Lübnan Premier Lig Şampiyonluk Turu
+- Macaristan NB I
 - Macaristan NB II
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
+- Moldova Ulusal Lig
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 5
+- Norveç Eliteserien
 - Peru Premier Lig Clausura
+- Polonya 1.Lig
 - Polonya 2.Lig
+- Polonya Ekstraklasa
+- Romanya 1.Lig
+- Rusya FNL
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Slovakya Süper Lig
+- Slovenya 1.SNL
+- Sırbistan Süper Lig
+- Ukrayna Premier Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- Venezuela Premier Lig Clausura
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
+- İrlanda Premier Lig
+- İskoçya Premiership
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsveç Allsvenskan
+- İsveç Superettan
 - İsviçre 1.Lig Promotion
+- İsviçre Süper Lig
+- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -100,8 +140,8 @@ Tarih: 2026-08-01T20:41:14.272117+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 84
+- Acilan detay: 84
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,26 +154,26 @@ Tarih: 2026-08-01T20:41:14.272117+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 01.08.2026 | 17:30 | Hazırlık Kulüpler | Dunkerque | Mechelen | 13187 | 5 |
-| 02.08.2026 | 05:30 | ABD MLS | Los Angeles | Dallas | 29607 | 5 |
-| 02.08.2026 | 02:30 | ABD MLS | Inter Miami | Columbus | 28116 | 5 |
-| 02.08.2026 | 03:30 | ABD MLS | Minnesota Utd | San Diego | 29064 | 5 |
-| 02.08.2026 | 02:30 | ABD MLS | Vancouver | Los Angeles Fc | 28577 | 5 |
-| 02.08.2026 | 05:45 | ABD MLS | Portland | Seattle | 29759 | 5 |
-| 02.08.2026 | 04:30 | ABD MLS | Colorado | Austin | 29309 | 5 |
-| 02.08.2026 | 02:30 | ABD MLS | New York | Orlando City | 28341 | 5 |
-| 02.08.2026 | 02:30 | ABD MLS | Dc United | Nashville Sc | 27907 | 5 |
-| 02.08.2026 | 02:30 | ABD MLS | Philadelphia | Atlanta Utd | 28452 | 5 |
-| 02.08.2026 | 02:30 | ABD MLS | Cincinnati | San Jose | 08048 | 5 |
-| 02.08.2026 | 03:30 | ABD MLS | St. Louis City | Salt Lake | 29186 | 5 |
-| 02.08.2026 | 03:30 | ABD MLS | Chicago | Charlotte | 28829 | 5 |
-| 02.08.2026 | 02:30 | ABD MLS | Montreal | New England | 28227 | 5 |
-| 02.08.2026 | 03:30 | ABD MLS | Kansas | Houston | 28950 | 5 |
-| 02.08.2026 | 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club | Tigre | 28082 | 5 |
-| 02.08.2026 | 00:00 | Arjantin Premier Lig 2. Aşama | Belgrano | Argentinos Jr | 27850 | 5 |
-| 02.08.2026 | 00:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Defensa Justici | 27981 | 5 |
-| 02.08.2026 | 02:00 | Meksika Liga MX Apertura | Queretaro | Tigres Uanl | 26154 | 5 |
-| 02.08.2026 | 04:06 | Meksika Liga MX Apertura | Club Leon | Pachuca | 26272 | 5 |
+| 02.08.2026 | 19:00 | Hollanda Süper Kupa | Psv Eindhoven | Az Alkmaar | 30574 | 5 |
+| 02.08.2026 | 16:00 | İskoçya Premiership | St Johnstone | Kilmarnock | 25786 | 5 |
+| 02.08.2026 | 18:30 | İskoçya Premiership | Hibernian | Motherwell | 25840 | 5 |
+| 02.08.2026 | 20:00 | Avusturya Bundesliga | Rapid Wien | Altach | 11807 | 5 |
+| 02.08.2026 | 18:00 | Avusturya Bundesliga | Wolfsberger | Austria Vienna | 11713 | 5 |
+| 02.08.2026 | 18:00 | Avusturya Bundesliga | Avusturya Lust | Ried | 11546 | 5 |
+| 02.08.2026 | 19:00 | Danimarka Süperlig | Silkeborg | Kopenhag | 15536 | 5 |
+| 02.08.2026 | 17:00 | Danimarka Süperlig | Brondby | Viborg | 15478 | 5 |
+| 02.08.2026 | 15:00 | Danimarka Süperlig | Nordsjaelland | Randers | 15130 | 5 |
+| 02.08.2026 | 15:00 | Danimarka Süperlig | Midtjylland | Horsens | 15061 | 5 |
+| 02.08.2026 | 21:15 | Polonya Ekstraklasa | Gks Katowice | Radomiak Radom | 20010 | 5 |
+| 02.08.2026 | 15:45 | Polonya Ekstraklasa | Legia Varşova | Zaglebie Lubin | 19803 | 5 |
+| 02.08.2026 | 18:30 | Polonya Ekstraklasa | Slask Wroclaw | Rakow Czestocho | 19890 | 5 |
+| 02.08.2026 | 17:30 | İsviçre Süper Lig | Sion | Luzern | 24203 | 5 |
+| 02.08.2026 | 17:30 | İsviçre Süper Lig | Grasshoppers | Lugano | 24149 | 5 |
+| 02.08.2026 | 15:00 | İsviçre Süper Lig | Vaduz | St Gallen | 24095 | 5 |
+| 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
+| 02.08.2026 | 19:00 | İrlanda Premier Lig | St Patricks | Derry City | 24781 | 5 |
+| 02.08.2026 | 17:00 | İrlanda Premier Lig | Waterford | Shelbourne | 24727 | 5 |
+| 02.08.2026 | 16:00 | Rusya Premier Lig | Orenburg | Zenit | 20482 | 5 |
 
 ## Sonuc
 
