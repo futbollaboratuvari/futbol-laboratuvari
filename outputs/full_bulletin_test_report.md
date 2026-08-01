@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 78
-- Live match count: 36
+- Scheduled match count: 75
+- Live match count: 10
 - Finished removed count: 0
 - Date window: 2026-08-01 / 2026-08-02 23:59
 
-- 2026-08-01 20:45 | Baltika Kalini - Dinamo Moskova | live
-- 2026-08-01 21:00 | Acassuso - Colon Santa Fe | live
-- 2026-08-01 21:00 | Almagro - Midland | live
-- 2026-08-01 21:00 | Colegiales - Gimnasia Jujuy | live
-- 2026-08-01 21:00 | D Belgrano - Caseros | live
-- 2026-08-01 21:00 | Ferro Carril O - Godoy Cruz | live
-- 2026-08-01 21:00 | Viktoria Plzen - Brno | live
-- 2026-08-01 21:00 | Kruger United - Kaizer Chiefs | live
-- 2026-08-01 21:00 | Arosa - Pontevedra | live
-- 2026-08-01 21:00 | Cd Coria - Real Avila | live
+- 2026-08-01 21:45 | Farnham Town - Eastleigh | live
+- 2026-08-01 22:00 | Real Oruro - Independiente P | live
+- 2026-08-01 22:00 | Manta - Mushuc Runa | live
+- 2026-08-01 22:00 | Tenerife - Cadiz | live
+- 2026-08-01 22:00 | Hnk Gorica - Osijek | live
+- 2026-08-01 22:00 | Everton De Vin - Colo Colo | live
+- 2026-08-01 22:15 | Porto - Torreense | live
+- 2026-08-01 23:00 | Kanada (U20) - Jamaika U20 | live
+- 2026-08-01 23:30 | Vasco Da Gama - Fluminense | live
+- 2026-08-01 23:30 | Atletico Grau - Sport Boys | live
