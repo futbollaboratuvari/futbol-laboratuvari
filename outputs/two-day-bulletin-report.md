@@ -2,27 +2,15 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 264
-Aktif mac: 243
-Canli mac: 21
-Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 219
+Ham mac: 271
+Aktif mac: 231
+Canli mac: 32
+Biten mac: 8
+Bultenden dusurulen mac: 40
+Bugun: 207
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-08-02 02:30 | ABD MLS | Cincinnati - San Jose | scheduled | -
-- 2026-08-02 02:30 | ABD MLS | Montreal - New England | scheduled | -
-- 2026-08-02 02:30 | ABD MLS | Philadelphia - Atlanta Utd | scheduled | -
-- 2026-08-02 02:30 | ABD MLS | Inter Miami - Columbus | scheduled | -
-- 2026-08-02 02:30 | ABD MLS | Dc United - Nashville Sc | scheduled | -
-- 2026-08-02 02:30 | ABD MLS | New York - Orlando City | scheduled | -
-- 2026-08-02 02:30 | ABD MLS | Vancouver - Los Angeles Fc | scheduled | -
-- 2026-08-02 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Tigre | scheduled | -
-- 2026-08-02 02:30 | ABD USL | Charleston Bat - Brooklyn | scheduled | -
-- 2026-08-02 02:30 | ABD USL Lig 1 | Sarasota Parad - Naples | scheduled | -
-- 2026-08-02 02:30 | ABD USL Lig 1 | Fort Wayne - Union Omaha | scheduled | -
-- 2026-08-02 02:30 | ABD USL Lig 2 Şampiyonluk Final | Michigan Bucks - Vermont Green | scheduled | -
 - 2026-08-02 03:00 | Brezilya Kupa Son 16 Turu | Santos - Remo | scheduled | -
 - 2026-08-02 03:00 | Şili Premier Lig | Deportes Limac - Atletico Nublen | scheduled | -
 - 2026-08-02 03:00 | Ekvador Pro Lig | Emelec - Aucas | scheduled | -
@@ -256,7 +244,6 @@ Yarin: 24
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
-- 2026-08-02 00:15 | Bolivya Premier Lig | San Antonio Bu - Blooming | live | -
 - 2026-08-02 00:30 | Şili Premier Lig | Palestino - Coquimbo Unido | live | -
 - 2026-08-02 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Penarol - Cerro Largo | live | -
 - 2026-08-02 00:30 | Ekvador Pro Lig | Univ Catolica - T.Universitario | live | -
@@ -277,6 +264,25 @@ Yarin: 24
 - 2026-08-02 02:00 | ABD USL Lig 1 | Charlotte Inde - One Knoxville | live | -
 - 2026-08-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Spokane Velocit | live | -
 - 2026-08-02 02:00 | ABD USL Lig 1 | Richmond Kicke - Alta | live | -
+- 2026-08-02 02:30 | ABD MLS | Cincinnati - San Jose | live | -
+- 2026-08-02 02:30 | ABD MLS | Montreal - New England | live | -
+- 2026-08-02 02:30 | ABD MLS | Philadelphia - Atlanta Utd | live | -
+- 2026-08-02 02:30 | ABD MLS | Inter Miami - Columbus | live | -
+- 2026-08-02 02:30 | ABD MLS | Dc United - Nashville Sc | live | -
+- 2026-08-02 02:30 | ABD MLS | New York - Orlando City | live | -
+- 2026-08-02 02:30 | ABD MLS | Vancouver - Los Angeles Fc | live | -
+- 2026-08-02 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Tigre | live | -
+- 2026-08-02 02:30 | ABD USL | Charleston Bat - Brooklyn | live | -
+- 2026-08-02 02:30 | ABD USL Lig 1 | Sarasota Parad - Naples | live | -
+- 2026-08-02 02:30 | ABD USL Lig 1 | Fort Wayne - Union Omaha | live | -
+- 2026-08-02 02:30 | ABD USL Lig 2 Şampiyonluk Final | Michigan Bucks - Vermont Green | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Defensa Justici | finished | -
+- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Argentinos Jr | finished | -
+- 2026-08-02 00:00 | Nikaragua Premier Lig Apertura | San Marcos - Managua | finished | -
+- 2026-08-02 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Inter Fa | finished | -
+- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Trujillanos - Ucv | finished | -
+- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Monagas - Deportivo La Gu | finished | -
+- 2026-08-02 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Suchitepequez | finished | -
+- 2026-08-02 00:15 | Bolivya Premier Lig | San Antonio Bu - Blooming | finished | -
