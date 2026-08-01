@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 198
-- Live match count: 120
-- Finished removed count: 59
+- Scheduled match count: 196
+- Live match count: 122
+- Finished removed count: 0
 - Date window: 2026-08-01 / 2026-08-02 23:59
 
 - 2026-08-01 15:30 | Magdeburg - West Ham | live
