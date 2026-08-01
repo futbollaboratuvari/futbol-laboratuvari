@@ -4,28 +4,14 @@ Gunler: 2026-08-01 / 2026-08-02
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 344
-Aktif mac: 325
-Canli mac: 14
+Aktif mac: 311
+Canli mac: 28
 Biten mac: 5
-Bultenden dusurulen mac: 19
-Bugun: 255
+Bultenden dusurulen mac: 33
+Bugun: 241
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-08-01 07:00 | Avustralya NPL Victoria | Hume City - Melbourne City | scheduled | -
-- 2026-08-01 07:00 | Avustralya NPL Tazmanya | South Hobart - Launceston City | scheduled | -
-- 2026-08-01 07:00 | Avustralya NPL Kuzey YGG | Adamstown Rose - Valentine Phoen | scheduled | -
-- 2026-08-01 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Tuggeranong Uni | scheduled | -
-- 2026-08-01 07:30 | Avustralya NPL Victoria | Avondale Heigh - Heidelberg Unit | scheduled | -
-- 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | scheduled | -
-- 2026-08-01 08:00 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Cooma Tigers | scheduled | -
-- 2026-08-01 08:00 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Brindabella Blu | scheduled | -
-- 2026-08-01 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - Unsw Fc | scheduled | -
-- 2026-08-01 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Moreland Zebras | scheduled | -
-- 2026-08-01 08:00 | Avustralya Victoria NPL 1 | Langwarrin - Brunswick City | scheduled | -
-- 2026-08-01 08:15 | Avustralya NPL Queensland | Gold Coast Uni - Gold Coast Knig | scheduled | -
-- 2026-08-01 08:15 | Avustralya NPL Victoria | Altona Magic - Caroline S. | scheduled | -
-- 2026-08-01 08:15 | Avustralya Victoria NPL 1 | Manningham Uni - Port Melbourne | scheduled | -
 - 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Playford City - West Torrens | scheduled | -
 - 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | West Adelaide - Para Hills Knig | scheduled | -
 - 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | scheduled | -
@@ -339,6 +325,20 @@ Yarin: 70
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
+- 2026-08-01 07:00 | Avustralya NPL Victoria | Hume City - Melbourne City | live | -
+- 2026-08-01 07:00 | Avustralya NPL Tazmanya | South Hobart - Launceston City | live | -
+- 2026-08-01 07:00 | Avustralya NPL Kuzey YGG | Adamstown Rose - Valentine Phoen | live | -
+- 2026-08-01 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Tuggeranong Uni | live | -
+- 2026-08-01 07:30 | Avustralya NPL Victoria | Avondale Heigh - Heidelberg Unit | live | -
+- 2026-08-01 07:30 | Avustralya NPL Tazmanya | South East Uni - Riverside Olymp | live | -
+- 2026-08-01 08:00 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Cooma Tigers | live | -
+- 2026-08-01 08:00 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Brindabella Blu | live | -
+- 2026-08-01 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - Unsw Fc | live | -
+- 2026-08-01 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Moreland Zebras | live | -
+- 2026-08-01 08:00 | Avustralya Victoria NPL 1 | Langwarrin - Brunswick City | live | -
+- 2026-08-01 08:15 | Avustralya NPL Queensland | Gold Coast Uni - Gold Coast Knig | live | -
+- 2026-08-01 08:15 | Avustralya NPL Victoria | Altona Magic - Caroline S. | live | -
+- 2026-08-01 08:15 | Avustralya Victoria NPL 1 | Manningham Uni - Port Melbourne | live | -
 - 2026-08-01 05:00 | Kanada Premier Lig | Pacific Fc - Supra Du Quebec | live | -
 - 2026-08-01 05:00 | CONCACAF U20 Grup A | Abd (U20) - Kuba U20 | live | -
 - 2026-08-01 06:00 | Meksika Liga MX Apertura | Fc Juarez - Pumas Unam | live | -
