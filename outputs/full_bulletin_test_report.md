@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 196
-- Live match count: 122
-- Finished removed count: 0
+- Scheduled match count: 132
+- Live match count: 64
+- Finished removed count: 2
 - Date window: 2026-08-01 / 2026-08-02 23:59
 
-- 2026-08-01 15:30 | Magdeburg - West Ham | live
-- 2026-08-01 15:30 | Willem - Ofi | live
-- 2026-08-01 15:30 | Metalist - Veres Rivne | live
-- 2026-08-01 15:45 | Piast Gliwice - Wisla Krakow | live
-- 2026-08-01 16:00 | Tayland - Malezya | live
-- 2026-08-01 16:00 | Jeddeloh - Schöningen | live
-- 2026-08-01 16:00 | Asa Aarhus - Ringsted | live
-- 2026-08-01 16:00 | Golden Arrows - Chippa United | live
-- 2026-08-01 16:00 | Orlando Pirate - Milford | live
-- 2026-08-01 16:00 | Stellenbosch F - Amazulu | live
+- 2026-08-01 18:00 | Wattens - Sturm Graz | live
+- 2026-08-01 18:00 | Ostrovets Fc - Lida | live
+- 2026-08-01 18:00 | Banik Ostrava - Slavia Prag | live
+- 2026-08-01 18:00 | Slovacko - Sk Artis Brno | live
+- 2026-08-01 18:00 | Slovan Liberec - Teplice | live
+- 2026-08-01 18:00 | Lahti - Jaro | live
+- 2026-08-01 18:00 | Tpv Tampere - Rops | live
+- 2026-08-01 18:00 | Hamburg - Everton | live
+- 2026-08-01 18:00 | Oh Leuven - Lille | live
+- 2026-08-01 18:00 | Trento Calcio - Modena | live
