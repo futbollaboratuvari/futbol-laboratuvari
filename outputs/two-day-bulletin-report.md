@@ -4,43 +4,14 @@ Gunler: 2026-08-01 / 2026-08-02
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 452
-Aktif mac: 113
-Canli mac: 54
+Aktif mac: 84
+Canli mac: 83
 Biten mac: 285
-Bultenden dusurulen mac: 339
-Bugun: 38
+Bultenden dusurulen mac: 368
+Bugun: 9
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen - Brno | scheduled | -
-- 2026-08-01 21:00 | Sırbistan Süper Lig | Novi Pazar - Ofk Beograd | scheduled | -
-- 2026-08-01 21:00 | Hazırlık Kulüpler | Girona - Arsenal | scheduled | -
-- 2026-08-01 21:00 | Peru Premier Lig Clausura | Fc Cajamarca - Sport Huancayo | scheduled | -
-- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - Godoy Cruz | scheduled | -
-- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | D Belgrano - Caseros | scheduled | -
-- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Almagro - Midland | scheduled | -
-- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Colegiales - Gimnasia Jujuy | scheduled | -
-- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Colon Santa Fe | scheduled | -
-- 2026-08-01 21:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Deportivo Mald - Juventud Dl Pie | scheduled | -
-- 2026-08-01 21:00 | Polonya 2.Lig | Falubaz Zielon - Olimpia Grudzia | scheduled | -
-- 2026-08-01 21:00 | Güney Afrika PSL | Kruger United - Kaizer Chiefs | scheduled | -
-- 2026-08-01 21:00 | Hazırlık Kulüpler | Lens - Villarreal | scheduled | -
-- 2026-08-01 21:00 | Hazırlık Kulüpler | Real Betis - Almeria | scheduled | -
-- 2026-08-01 21:00 | Hazırlık Kulüpler | Cd Coria - Real Avila | scheduled | -
-- 2026-08-01 21:00 | Hazırlık Kulüpler | Arosa - Pontevedra | scheduled | -
-- 2026-08-01 21:15 | Bulgaristan 1.Lig | Botev Plovdiv - Cherno More | scheduled | -
-- 2026-08-01 21:15 | Slovenya 1.SNL | Celje - Maribor | scheduled | -
-- 2026-08-01 21:30 | İsviçre Süper Lig | Thun - Young Boys | scheduled | -
-- 2026-08-01 21:30 | Sırbistan Süper Lig | Cukaricki - Radnicki 1923 | scheduled | -
-- 2026-08-01 21:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Union Santa Fe | scheduled | -
-- 2026-08-01 21:30 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Banfield | scheduled | -
-- 2026-08-01 21:30 | Romanya 1.Lig | Universitatea - Petrolul 52 | scheduled | -
-- 2026-08-01 21:30 | Slovakya Süper Lig | Fk Kosice - Trencin | scheduled | -
-- 2026-08-01 21:30 | Arjantin Ulusal Primera Lig | Patronato - Quilmes | scheduled | -
-- 2026-08-01 21:30 | Arjantin Ulusal Primera Lig | San Martin Sj - Rafaela | scheduled | -
-- 2026-08-01 21:30 | Hazırlık Kulüpler | Leicester - Genoa | scheduled | -
-- 2026-08-01 21:30 | Hazırlık Kulüpler | Cesena - Bikkembergs Fos | scheduled | -
-- 2026-08-01 21:45 | Hazırlık Kulüpler | Farnham Town - Eastleigh | scheduled | -
 - 2026-08-01 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Osijek | scheduled | -
 - 2026-08-01 22:00 | Şili Premier Lig | Everton De Vin - Colo Colo | scheduled | -
 - 2026-08-01 22:00 | Ekvador Pro Lig | Manta - Mushuc Runa | scheduled | -
@@ -127,6 +98,35 @@ Yarin: 75
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
+- 2026-08-01 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen - Brno | live | -
+- 2026-08-01 21:00 | Sırbistan Süper Lig | Novi Pazar - Ofk Beograd | live | -
+- 2026-08-01 21:00 | Hazırlık Kulüpler | Girona - Arsenal | live | -
+- 2026-08-01 21:00 | Peru Premier Lig Clausura | Fc Cajamarca - Sport Huancayo | live | -
+- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - Godoy Cruz | live | -
+- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | D Belgrano - Caseros | live | -
+- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Almagro - Midland | live | -
+- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Colegiales - Gimnasia Jujuy | live | -
+- 2026-08-01 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Colon Santa Fe | live | -
+- 2026-08-01 21:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Deportivo Mald - Juventud Dl Pie | live | -
+- 2026-08-01 21:00 | Polonya 2.Lig | Falubaz Zielon - Olimpia Grudzia | live | -
+- 2026-08-01 21:00 | Güney Afrika PSL | Kruger United - Kaizer Chiefs | live | -
+- 2026-08-01 21:00 | Hazırlık Kulüpler | Lens - Villarreal | live | -
+- 2026-08-01 21:00 | Hazırlık Kulüpler | Real Betis - Almeria | live | -
+- 2026-08-01 21:00 | Hazırlık Kulüpler | Cd Coria - Real Avila | live | -
+- 2026-08-01 21:00 | Hazırlık Kulüpler | Arosa - Pontevedra | live | -
+- 2026-08-01 21:15 | Bulgaristan 1.Lig | Botev Plovdiv - Cherno More | live | -
+- 2026-08-01 21:15 | Slovenya 1.SNL | Celje - Maribor | live | -
+- 2026-08-01 21:30 | İsviçre Süper Lig | Thun - Young Boys | live | -
+- 2026-08-01 21:30 | Sırbistan Süper Lig | Cukaricki - Radnicki 1923 | live | -
+- 2026-08-01 21:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Union Santa Fe | live | -
+- 2026-08-01 21:30 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Banfield | live | -
+- 2026-08-01 21:30 | Romanya 1.Lig | Universitatea - Petrolul 52 | live | -
+- 2026-08-01 21:30 | Slovakya Süper Lig | Fk Kosice - Trencin | live | -
+- 2026-08-01 21:30 | Arjantin Ulusal Primera Lig | Patronato - Quilmes | live | -
+- 2026-08-01 21:30 | Arjantin Ulusal Primera Lig | San Martin Sj - Rafaela | live | -
+- 2026-08-01 21:30 | Hazırlık Kulüpler | Leicester - Genoa | live | -
+- 2026-08-01 21:30 | Hazırlık Kulüpler | Cesena - Bikkembergs Fos | live | -
+- 2026-08-01 21:45 | Hazırlık Kulüpler | Farnham Town - Eastleigh | live | -
 - 2026-08-01 20:45 | Rusya Premier Lig | Baltika Kalini - Dinamo Moskova | live | -
 - 2026-08-01 19:00 | Danimarka Süperlig | Lyngby - Aarhus | live | -
 - 2026-08-01 19:00 | İsviçre Süper Lig | Zurich - Servette | live | -
