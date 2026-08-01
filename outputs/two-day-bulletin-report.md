@@ -3,28 +3,14 @@
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
 Ham mac: 198
-Aktif mac: 132
-Canli mac: 66
+Aktif mac: 118
+Canli mac: 80
 Biten mac: 0
-Bultenden dusurulen mac: 66
-Bugun: 57
+Bultenden dusurulen mac: 80
+Bugun: 43
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-01 20:00 | Belarus Premier Lig | Arsenal - Minsk | scheduled | -
-- 2026-08-01 20:00 | Moldova Ulusal Lig | Milsami-Ursido - Sireti | scheduled | -
-- 2026-08-01 20:00 | Slovakya 2.Lig | Zlate Moravce - Banik Lehota P. | scheduled | -
-- 2026-08-01 20:00 | Macaristan NB II | Mezokovesd Zso - Ajka | scheduled | -
-- 2026-08-01 20:00 | Macaristan NB II | Szeged 2011 - Bvsc | scheduled | -
-- 2026-08-01 20:00 | Macaristan NB II | Kecskemeti - Tiszakecske | scheduled | -
-- 2026-08-01 20:00 | Macaristan NB II | Gyirmot - Kozarmisleny | scheduled | -
-- 2026-08-01 20:00 | Macaristan NB II | Diosgyor - Szentlorinc Se | scheduled | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Charleroi - Vallecano | scheduled | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Espanyol Ii - Sant Andreu | scheduled | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Burgos - Athletic Bilbao | scheduled | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Estrela - Al Nassr (Riyad | scheduled | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Linares Deport - Real Jaen | scheduled | -
-- 2026-08-01 20:00 | Hazırlık Kulüpler | Eldense - Murcia | scheduled | -
 - 2026-08-01 20:30 | Avusturya Bundesliga | Salzburg - Hartberg | scheduled | -
 - 2026-08-01 20:30 | Macaristan NB I | Budapest Honve - Mtk | scheduled | -
 - 2026-08-01 20:30 | Arjantin Ulusal Primera Lig | Nueva Chicago - San Martin Tucu | scheduled | -
@@ -211,6 +197,20 @@ Yarin: 75
 - 2026-08-01 19:30 | Hazırlık Kulüpler | Sestao - Portugalete | live | -
 - 2026-08-01 19:30 | Hazırlık Kulüpler | Atletico Balea - Santanyi | live | -
 - 2026-08-01 19:30 | Hazırlık Kulüpler | Zaragoza - Barbastro | live | -
+- 2026-08-01 20:00 | Belarus Premier Lig | Arsenal - Minsk | live | -
+- 2026-08-01 20:00 | Moldova Ulusal Lig | Milsami-Ursido - Sireti | live | -
+- 2026-08-01 20:00 | Slovakya 2.Lig | Zlate Moravce - Banik Lehota P. | live | -
+- 2026-08-01 20:00 | Macaristan NB II | Mezokovesd Zso - Ajka | live | -
+- 2026-08-01 20:00 | Macaristan NB II | Szeged 2011 - Bvsc | live | -
+- 2026-08-01 20:00 | Macaristan NB II | Kecskemeti - Tiszakecske | live | -
+- 2026-08-01 20:00 | Macaristan NB II | Gyirmot - Kozarmisleny | live | -
+- 2026-08-01 20:00 | Macaristan NB II | Diosgyor - Szentlorinc Se | live | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Charleroi - Vallecano | live | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Espanyol Ii - Sant Andreu | live | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Burgos - Athletic Bilbao | live | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Estrela - Al Nassr (Riyad | live | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Linares Deport - Real Jaen | live | -
+- 2026-08-01 20:00 | Hazırlık Kulüpler | Eldense - Murcia | live | -
 
 ## Biten Maclar
 Biten mac yok.
