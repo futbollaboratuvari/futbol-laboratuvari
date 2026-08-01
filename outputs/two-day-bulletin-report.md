@@ -2,23 +2,15 @@
 
 Gunler: 2026-08-01 / 2026-08-02
 Kaynak: fixtures.json
-Ham mac: 341
-Aktif mac: 338
-Canli mac: 3
-Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 268
+Ham mac: 344
+Aktif mac: 330
+Canli mac: 9
+Biten mac: 5
+Bultenden dusurulen mac: 14
+Bugun: 260
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-08-01 03:00 | Şili Premier Lig | Univ De Concep - Audax Italiano | scheduled | -
-- 2026-08-01 03:00 | Ekvador Pro Lig | Libertad - Orense | scheduled | -
-- 2026-08-01 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Unan Managua | scheduled | -
-- 2026-08-01 04:00 | Meksika Liga MX Apertura | Puebla - Guadalajara | scheduled | -
-- 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Tepatitlan De M | scheduled | -
-- 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Tlaxcala | scheduled | -
-- 2026-08-01 04:00 | ABD USL | San Antonio - Indy Eleven | scheduled | -
-- 2026-08-01 04:00 | Honduras Ulusal Lig Apertura | Platense - Real Espana | scheduled | -
 - 2026-08-01 05:00 | Kanada Premier Lig | Pacific Fc - Supra Du Quebec | scheduled | -
 - 2026-08-01 05:00 | CONCACAF U20 Grup A | Abd (U20) - Kuba U20 | scheduled | -
 - 2026-08-01 06:00 | Meksika Liga MX Apertura | Fc Juarez - Pumas Unam | scheduled | -
@@ -351,9 +343,19 @@ Yarin: 70
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
-- 2026-08-01 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Montevideo Wand | live | -
-- 2026-08-01 02:00 | Bolivya Premier Lig | Real Tomayapo - Academia Del Ba | live | -
 - 2026-08-01 02:30 | ABD MLS | New York City - Toronto | live | -
+- 2026-08-01 03:00 | Şili Premier Lig | Univ De Concep - Audax Italiano | live | -
+- 2026-08-01 03:00 | Ekvador Pro Lig | Libertad - Orense | live | -
+- 2026-08-01 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Unan Managua | live | -
+- 2026-08-01 04:00 | Meksika Liga MX Apertura | Puebla - Guadalajara | live | -
+- 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Tepatitlan De M | live | -
+- 2026-08-01 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Tlaxcala | live | -
+- 2026-08-01 04:00 | ABD USL | San Antonio - Indy Eleven | live | -
+- 2026-08-01 04:00 | Honduras Ulusal Lig Apertura | Platense - Real Espana | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-01 00:00 | CONCACAF U20 Grup A | El Salvador U2 - Haiti U20 | finished | -
+- 2026-08-01 00:00 | Venezuela Premier Lig Clausura | Portuguesa - Carabobo | finished | -
+- 2026-08-01 00:30 | Bolivya Premier Lig | The Strongest - Aurora | finished | -
+- 2026-08-01 01:00 | Uruguay Premier Lig Intermediate Turu Grup 2 | Torque - Montevideo Wand | finished | -
+- 2026-08-01 02:00 | Bolivya Premier Lig | Real Tomayapo - Academia Del Ba | finished | -
