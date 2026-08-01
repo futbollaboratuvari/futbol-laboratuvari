@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 01.08.2026 18:30:21
-=======
-Oluşturma: 01.08.2026 18:33:27
->>>>>>> Stashed changes
+Oluşturma: 01.08.2026 19:34:11
 
 ## Özet
 
-- Toplam tahmin: 208
-- Bekleyen tahmin: 208
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 67
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 01.08.2026 18:33:27
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
-- MS X: toplam 143, bekleyen 143, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-01 | Hazırlık Kulüpler | Real Betis - Almeria | MS 2 | pending | 60/100
-- 2026-08-01 | Hazırlık Kulüpler | Cd Coria - Real Avila | MS 2 | pending | 40/100
-- 2026-08-01 | Hazırlık Kulüpler | Leicester - Genoa | MS X | pending | 50/100
-- 2026-08-01 | Hazırlık Kulüpler | Tenerife - Cadiz | MS X | pending | 50/100
-- 2026-08-01 | Hazırlık Kulüpler | Angers - Le Mans | MS X | pending | 50/100
-- 2026-08-01 | Hazırlık Kulüpler | St Etienne - Unione V. | MS X | pending | 60/100
-- 2026-08-01 | Hazırlık Kulüpler | Roda - Aachen | MS X | pending | 60/100
-- 2026-08-01 | Hazırlık Kulüpler | Chateauroux - Bourges | MS X | pending | 50/100
-- 2026-08-01 | Hazırlık Kulüpler | Empoli - Spezia | MS X | pending | 50/100
-- 2026-08-01 | Hazırlık Kulüpler | Frosinone - Benevento | MS 2 | pending | 60/100
-- 2026-08-01 | Hazırlık Kulüpler | Sestao - Portugalete | MS 2 | pending | 40/100
-- 2026-08-01 | Hazırlık Kulüpler | Charleroi - Vallecano | MS X | pending | 50/100
-- 2026-08-01 | Hazırlık Kulüpler | Espanyol Ii - Sant Andreu | MS X | pending | 40/100
-- 2026-08-01 | Hazırlık Kulüpler | Estrela - Al Nassr (Riyad | MS X | pending | 50/100
-- 2026-08-01 | Hazırlık Kulüpler | Linares Deport - Real Jaen | MS X | pending | 50/100
 
