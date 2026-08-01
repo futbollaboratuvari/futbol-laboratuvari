@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 01.08.2026 12:49:02
+Oluşturma: 01.08.2026 14:03:45
 
 ## Özet
 
-- Toplam tahmin: 151
-- Bekleyen tahmin: 151
+- Toplam tahmin: 155
+- Bekleyen tahmin: 155
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 65
@@ -20,12 +20,16 @@ Oluşturma: 01.08.2026 12:49:02
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 101, bekleyen 101, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
+- MS X: toplam 102, bekleyen 102, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-01 | İsveç Allsvenskan | Hacken - Kalmar | MS X | pending | 60/100
+- 2026-08-01 | Hazırlık Kulüpler | Nürnberg - Oviedo | MS 2 | pending | 50/100
+- 2026-08-01 | Almanya Bölgesel Lig Batı | Schalke 04 (Am - Paderborn 07 Ii | MS 2 | pending | 50/100
+- 2026-08-01 | İsveç Superettan | Ostersund - Oster | MS 2 | pending | 50/100
 - 2026-08-01 | Belarus Premier Lig | Arsenal - Minsk | MS X | pending | 40/100
 - 2026-08-01 | Moldova Ulusal Lig | Milsami-Ursido - Sireti | MS 2 | pending | 50/100
 - 2026-08-01 | Slovakya 2.Lig | Zlate Moravce - Banik Lehota P. | MS 2 | pending | 60/100
@@ -37,8 +41,4 @@ Oluşturma: 01.08.2026 12:49:02
 - 2026-08-01 | Sırbistan Süper Lig | Novi Pazar - Ofk Beograd | MS 2 | pending | 40/100
 - 2026-08-01 | Peru Premier Lig Clausura | Fc Cajamarca - Sport Huancayo | MS X | pending | 50/100
 - 2026-08-01 | Polonya 2.Lig | Falubaz Zielon - Olimpia Grudzia | MS X | pending | 50/100
-- 2026-08-01 | Bulgaristan 1.Lig | Botev Plovdiv - Cherno More | MS 2 | pending | 40/100
-- 2026-08-01 | Slovenya 1.SNL | Celje - Maribor | MS X | pending | 60/100
-- 2026-08-01 | İsviçre Süper Lig | Thun - Young Boys | MS X | pending | 70/100
-- 2026-08-01 | Sırbistan Süper Lig | Cukaricki - Radnicki 1923 | MS X | pending | 40/100
 
