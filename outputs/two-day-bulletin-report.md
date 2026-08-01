@@ -4,18 +4,14 @@ Gunler: 2026-08-01 / 2026-08-02
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 344
-Aktif mac: 311
-Canli mac: 28
+Aktif mac: 307
+Canli mac: 32
 Biten mac: 5
-Bultenden dusurulen mac: 33
-Bugun: 241
+Bultenden dusurulen mac: 37
+Bugun: 237
 Yarin: 70
 
 ## Baslamamis Maclar
-- 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Playford City - West Torrens | scheduled | -
-- 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | West Adelaide - Para Hills Knig | scheduled | -
-- 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | scheduled | -
-- 2026-08-01 09:00 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Wollongong Wolv | scheduled | -
 - 2026-08-01 09:45 | Avustralya NPL Tazmanya | Glenorchy Knig - Devonport City | scheduled | -
 - 2026-08-01 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Perth Glory Ii | scheduled | -
 - 2026-08-01 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Bayswater City | scheduled | -
@@ -325,6 +321,10 @@ Yarin: 70
 - 2026-08-02 07:30 | Avustralya NPL Tazmanya | Clarence Zebra - Ulverstone | scheduled | -
 
 ## Canli Maclar
+- 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Playford City - West Torrens | live | -
+- 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | West Adelaide - Para Hills Knig | live | -
+- 2026-08-01 08:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | live | -
+- 2026-08-01 09:00 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Wollongong Wolv | live | -
 - 2026-08-01 07:00 | Avustralya NPL Victoria | Hume City - Melbourne City | live | -
 - 2026-08-01 07:00 | Avustralya NPL Tazmanya | South Hobart - Launceston City | live | -
 - 2026-08-01 07:00 | Avustralya NPL Kuzey YGG | Adamstown Rose - Valentine Phoen | live | -
