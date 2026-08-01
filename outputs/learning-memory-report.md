@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 01.08.2026 17:06:30
+Oluşturma: 01.08.2026 17:24:21
 
 ## Özet
 
-- Toplam tahmin: 158
-- Bekleyen tahmin: 158
+- Toplam tahmin: 208
+- Bekleyen tahmin: 208
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 65
+- Lig sayısı: 67
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 01.08.2026 17:06:30
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 104, bekleyen 104, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
+- MS X: toplam 143, bekleyen 143, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-01 | Kazakistan Premier Lig | Kyzyl-Zhar - Aktobe | MS X | pending | 40/100
-- 2026-08-01 | Norveç 2.Lig Grup 1 | Lysekloster - Bjarg | MS 1 | pending | 45/100
-- 2026-08-01 | Letonya Virsliga | Bfc Daugavpils - Fs Jelgava | MS X | pending | 50/100
-- 2026-08-01 | İsveç Allsvenskan | Hacken - Kalmar | MS X | pending | 60/100
-- 2026-08-01 | Hazırlık Kulüpler | Nürnberg - Oviedo | MS 2 | pending | 50/100
-- 2026-08-01 | Almanya Bölgesel Lig Batı | Schalke 04 (Am - Paderborn 07 Ii | MS 2 | pending | 50/100
-- 2026-08-01 | İsveç Superettan | Ostersund - Oster | MS 2 | pending | 50/100
-- 2026-08-01 | Belarus Premier Lig | Arsenal - Minsk | MS X | pending | 40/100
-- 2026-08-01 | Moldova Ulusal Lig | Milsami-Ursido - Sireti | MS 2 | pending | 50/100
-- 2026-08-01 | Slovakya 2.Lig | Zlate Moravce - Banik Lehota P. | MS 2 | pending | 60/100
-- 2026-08-01 | Macaristan NB II | Kecskemeti - Tiszakecske | MS 2 | pending | 60/100
-- 2026-08-01 | Macaristan NB II | Gyirmot - Kozarmisleny | MS X | pending | 50/100
-- 2026-08-01 | Macaristan NB II | Diosgyor - Szentlorinc Se | MS 2 | pending | 60/100
-- 2026-08-01 | Macaristan NB I | Budapest Honve - Mtk | MS X | pending | 50/100
-- 2026-08-01 | Rusya Premier Lig | Baltika Kalini - Dinamo Moskova | MS X | pending | 40/100
+- 2026-08-01 | Hazırlık Kulüpler | Real Betis - Almeria | MS 2 | pending | 60/100
+- 2026-08-01 | Hazırlık Kulüpler | Cd Coria - Real Avila | MS 2 | pending | 40/100
+- 2026-08-01 | Hazırlık Kulüpler | Leicester - Genoa | MS X | pending | 50/100
+- 2026-08-01 | Hazırlık Kulüpler | Tenerife - Cadiz | MS X | pending | 50/100
+- 2026-08-01 | Hazırlık Kulüpler | Angers - Le Mans | MS X | pending | 50/100
+- 2026-08-01 | Hazırlık Kulüpler | St Etienne - Unione V. | MS X | pending | 60/100
+- 2026-08-01 | Hazırlık Kulüpler | Roda - Aachen | MS X | pending | 60/100
+- 2026-08-01 | Hazırlık Kulüpler | Chateauroux - Bourges | MS X | pending | 50/100
+- 2026-08-01 | Hazırlık Kulüpler | Empoli - Spezia | MS X | pending | 50/100
+- 2026-08-01 | Hazırlık Kulüpler | Frosinone - Benevento | MS 2 | pending | 60/100
+- 2026-08-01 | Hazırlık Kulüpler | Sestao - Portugalete | MS 2 | pending | 40/100
+- 2026-08-01 | Hazırlık Kulüpler | Charleroi - Vallecano | MS X | pending | 50/100
+- 2026-08-01 | Hazırlık Kulüpler | Espanyol Ii - Sant Andreu | MS X | pending | 40/100
+- 2026-08-01 | Hazırlık Kulüpler | Estrela - Al Nassr (Riyad | MS X | pending | 50/100
+- 2026-08-01 | Hazırlık Kulüpler | Linares Deport - Real Jaen | MS X | pending | 50/100
 
