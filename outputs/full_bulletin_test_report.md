@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 198
 - Live match count: 8
-- Finished removed count: 2
+- Finished removed count: 5
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
 - 2026-08-02 05:45 | Portland - Seattle | live
