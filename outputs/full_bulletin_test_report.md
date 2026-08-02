@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 38
-- Live match count: 33
-- Finished removed count: 0
+- Scheduled match count: 29
+- Live match count: 28
+- Finished removed count: 14
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
-- 2026-08-02 20:00 | Rapid Wien - Altach | live
-- 2026-08-02 20:00 | Sunnersta Aif - Viggbyholms Ik | live
-- 2026-08-02 20:00 | Csakvari Tk - Nagykanizsai Ul | live
-- 2026-08-02 20:00 | Csf Balti - Sheriff Tiraspo | live
-- 2026-08-02 20:00 | Dacia-Buiucani - Zimbru | live
-- 2026-08-02 20:00 | Petrocub - Politeh Chişina | live
-- 2026-08-02 20:00 | Kfc Komarno - Spartak Trnava | live
-- 2026-08-02 20:15 | Brann - Rosenborg | live
-- 2026-08-02 20:30 | Aldosivi - Gimnasia La Pla | live
-- 2026-08-02 20:30 | Riestra - Barracas | live
+- 2026-08-02 21:00 | Almirante - R Cordoba | live
+- 2026-08-02 21:00 | Chacarita Juni - Agropecuario | live
+- 2026-08-02 21:00 | Ciudad De Bolí - Ca Mitre | live
+- 2026-08-02 21:00 | San Telmo - San Miguel | live
+- 2026-08-02 21:00 | Pardubice - Jablonec | live
+- 2026-08-02 21:00 | Indep. Jose Te - Deportivo Cuenc | live
+- 2026-08-02 21:00 | Bohemian - Galway United | live
+- 2026-08-02 21:00 | Partizan Belgr - Imt Novi Beogra | live
+- 2026-08-02 21:00 | Zemun Belg. - Radnicki Nis | live
+- 2026-08-02 21:00 | Central Espano - Liverpool Monte | live

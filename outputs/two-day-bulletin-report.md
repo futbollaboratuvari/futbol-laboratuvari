@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 71
-Aktif mac: 31
-Canli mac: 40
+Ham mac: 57
+Aktif mac: 29
+Canli mac: 28
 Biten mac: 0
-Bultenden dusurulen mac: 40
-Bugun: 4
+Bultenden dusurulen mac: 28
+Bugun: 2
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-02 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Boca Juniors | scheduled | -
-- 2026-08-02 23:00 | Hazırlık Kulüpler | Liverpool - Leeds Utd | scheduled | -
 - 2026-08-02 23:30 | Peru Premier Lig Clausura | Deportivo Moqu - Melgar | scheduled | -
 - 2026-08-02 23:30 | Ekvador Pro Lig | Depor Macara - Guayaquil City | scheduled | -
 - 2026-08-03 00:00 | Brezilya Kupa Son 16 Turu | Mirassol - Gremio | scheduled | -
@@ -44,20 +42,6 @@ Yarin: 27
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
-- 2026-08-02 20:00 | Avusturya Bundesliga | Rapid Wien - Altach | live | -
-- 2026-08-02 20:00 | Slovakya Süper Lig | Kfc Komarno - Spartak Trnava | live | -
-- 2026-08-02 20:00 | Moldova Ulusal Lig | Petrocub - Politeh Chişina | live | -
-- 2026-08-02 20:00 | Moldova Ulusal Lig | Dacia-Buiucani - Zimbru | live | -
-- 2026-08-02 20:00 | Moldova Ulusal Lig | Csf Balti - Sheriff Tiraspo | live | -
-- 2026-08-02 20:00 | Macaristan NB II | Csakvari Tk - Nagykanizsai Ul | live | -
-- 2026-08-02 20:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Viggbyholms Ik | live | -
-- 2026-08-02 20:15 | Norveç Eliteserien | Brann - Rosenborg | live | -
-- 2026-08-02 20:30 | Rusya Premier Lig | Akhmat Grozny - Spartak Moskova | live | -
-- 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Riestra - Barracas | live | -
-- 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Gimnasia La Pla | live | -
-- 2026-08-02 20:30 | Polonya 1.Lig | Pogon Grodzisk - Puszcza Niepolo | live | -
-- 2026-08-02 20:30 | Polonya 2.Lig | Sandecja Nowy - Chojniczanka | live | -
-- 2026-08-02 20:45 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ansar | live | -
 - 2026-08-02 21:00 | İrlanda Premier Lig | Bohemian - Galway United | live | -
 - 2026-08-02 21:00 | Çek Cumhuriyeti Czech Liga | Pardubice - Jablonec | live | -
 - 2026-08-02 21:00 | Sırbistan Süper Lig | Zemun Belg. - Radnicki Nis | live | -
@@ -84,6 +68,8 @@ Yarin: 27
 - 2026-08-02 22:00 | Arjantin Ulusal Primera Lig | Chaco For Ever - Moron | live | -
 - 2026-08-02 22:00 | Bolivya Premier Lig | Real Potosi - Gualberto Villa | live | -
 - 2026-08-02 22:30 | Arjantin Ulusal Primera Lig | Central Norte - Los Andes | live | -
+- 2026-08-02 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Boca Juniors | live | -
+- 2026-08-02 23:00 | Hazırlık Kulüpler | Liverpool - Leeds Utd | live | -
 
 ## Biten Maclar
 Biten mac yok.
