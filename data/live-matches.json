@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T12:06:53.998Z",
+  "generated_at": "2026-08-02T12:13:00.377Z",
   "date": "2026-08-02",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
@@ -12,12 +12,12 @@
     "live": 40,
     "scheduled": 171,
     "finished": 0,
-    "active_analysis": 180,
+    "active_analysis": 181,
     "completed_analysis": 0,
     "coupon_candidates": 10,
     "watch_candidates": 81,
     "focused_markets": 16,
-    "wide_market_odds": 2627
+    "wide_market_odds": 2637
   },
   "next_match": {
     "date": "2026-08-03",
@@ -30,7 +30,7 @@
     "minute": null,
     "score": "",
     "source": "Maçkolik canlı robot",
-    "matchCode": "30876",
+    "matchCode": null,
     "available_odds": {
       "ms1": 1.74,
       "msx": 2.77,
@@ -299,9 +299,6 @@
       "type": "Tekli",
       "title": "Daejeon Citize VS Gwangju",
       "match": "Daejeon Citize VS Gwangju",
-      "fixture": "Daejeon Citize VS Gwangju",
-      "selection": "MS 2",
-      "option": "MS 2",
       "market": "MS 2",
       "prediction": "MS 2",
       "decision": "MS 2",
@@ -312,61 +309,302 @@
       "score": "75%",
       "risk": "Düşük",
       "risk_level": "Düşük",
-      "tag": "Orta risk kupon adayı",
-      "value_label": "Yüksek Değer",
-      "analysis_score": 75,
-      "analysis_class": "Orta risk kupon adayı",
-      "data_gap_risk": "Düşük",
+      "status": "live",
+      "estimated_odds": "5.22",
+      "available_odds": {
+        "ms1": "1.34",
+        "msx": "3.71",
+        "ms2": "5.22",
+        "over25": "1.59",
+        "under25": "1.74",
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "1.08",
+        "bttsNo": "2.11",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.34,
+        "msx": 3.71,
+        "ms2": 5.22,
+        "under25": 1.74,
+        "over25": 1.59,
+        "bttsYes_guess": 1.08,
+        "bttsNo_guess": 2.11
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "26792",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.34,
+            "msx": 3.71,
+            "ms2": 5.22
+          }
+        },
+        {
+          "market_code": "26792",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.34,
+            "firstHalfX_guess": 3.71,
+            "firstHalf2_guess": 5.22
+          }
+        },
+        {
+          "market_code": "26792",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.34,
+            "secondHalfX_guess": 3.71,
+            "secondHalf2_guess": 5.22
+          }
+        },
+        {
+          "market_code": "26792",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.34,
+            "handicapX_guess": 3.71,
+            "handicap2_guess": 5.22
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 1.74,
+            "bttsNo_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 1.74,
+            "firstHalfBttsNo_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 1.74,
+            "secondHalfBttsNo_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 1.74,
+            "over05_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 1.74,
+            "over15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 1.74,
+            "over25_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 1.74,
+            "over35_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 1.74,
+            "over45_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 1.74,
+            "firstHalfOver05_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 1.74,
+            "firstHalfOver15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 1.74,
+            "secondHalfOver05_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 1.74,
+            "secondHalfOver15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 1.74,
+            "homeOver15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26806",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 1.74,
+            "awayOver15_guess": 1.59
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 1.08,
+            "bttsNo_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 1.08,
+            "firstHalfBttsNo_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 1.08,
+            "secondHalfBttsNo_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 1.08,
+            "over05_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 1.08,
+            "over15_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 1.08,
+            "over25_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 1.08,
+            "over35_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 1.08,
+            "over45_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 1.08,
+            "firstHalfOver05_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 1.08,
+            "firstHalfOver15_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 1.08,
+            "secondHalfOver05_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 1.08,
+            "secondHalfOver15_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 1.08,
+            "homeOver15_guess": 2.11
+          }
+        },
+        {
+          "market_code": "26793",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 1.08,
+            "awayOver15_guess": 2.11
+          }
+        }
+      ],
       "expected_scores": [
         "0-1",
         "0-2",
         "1-2"
       ],
-      "legs": [
-        {
-          "number": 1,
-          "home": "Daejeon Citize",
-          "away": "Gwangju",
-          "match": "Daejeon Citize VS Gwangju",
-          "date": "2026-08-02",
-          "time": "13:30",
-          "league": "Güney Kore K Lig 1",
-          "selection": "MS 2",
-          "option": "MS 2",
-          "odds": "5.22",
-          "lab_probability": "75%",
-          "confidence": "75%",
-          "trust_score": "75/100",
-          "risk": "Düşük",
-          "tag": "Orta risk kupon adayı",
-          "value_label": "Yüksek Değer",
-          "analysis_score": 75,
-          "analysis_class": "Orta risk kupon adayı",
-          "data_gap_risk": "Düşük",
-          "expected_scores": [
-            "0-1",
-            "0-2",
-            "1-2"
-          ],
-          "signals": [
-            "Market: MS 2",
-            "Oran: 5.22",
-            "Veri tipi: standard",
-            "Değer etiketi: Yüksek Değer",
-            "İki takım son 10 maçta en az 4 gol attı: +15",
-            "İki takım son 10 maçta en az 4 gol yedi: +15",
-            "KG Var yüzdesi %65 üzeri: +15",
-            "Lig gol ortalaması 2.70 üzeri: +10",
-            "İkinci yarı gol eğilimi yüksek: +10",
-            "Oran 1.70 üzeri: +10",
-            "Oran 2.20 üzeri: Yüksek Değer etiketi",
-            "Hafıza: arşiv verisi henüz sınırlı",
-            "Veri eksikliği riski: Düşük",
-            "100 puan analiz sınıfı: Orta risk kupon adayı"
-          ]
-        }
-      ],
-      "status": "takipte",
+      "value_label": "Yüksek Değer",
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "robot_comment": "Market: MS 2 | Oran: 5.22 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "pro_signals": [
         "Market: MS 2",
         "Oran: 5.22",
@@ -381,9 +619,9 @@
         "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Orta risk kupon adayı"
+        "100 puan analiz sınıfı: Orta risk kupon adayı",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
-      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
       "created_at": "2026-08-02T12:05:09.173Z"
     },
@@ -402,19 +640,229 @@
       "total_odds": "4.02",
       "confidence": "70%",
       "confidence_score": "70%",
-      "score": "70%",
       "risk": "Orta",
       "risk_level": "Orta",
-      "tag": "Orta risk kupon adayı",
-      "value_label": "Yüksek Değer",
-      "analysis_score": 70,
-      "analysis_class": "Orta risk kupon adayı",
-      "data_gap_risk": "Düşük",
+      "status": "takipte",
+      "estimated_odds": "3.42",
+      "available_odds": {
+        "ms1": "1.56",
+        "msx": "3.42",
+        "ms2": "3.29",
+        "over25": "1.24",
+        "under25": "2.32",
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "1.08",
+        "bttsNo": "1.07",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.56,
+        "msx": 3.42,
+        "ms2": 3.29,
+        "under25": 2.32,
+        "over25": 1.24,
+        "bttsYes_guess": 1.08,
+        "bttsNo_guess": 1.07
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "09450",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.56,
+            "msx": 3.42,
+            "ms2": 3.29
+          }
+        },
+        {
+          "market_code": "09450",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.56,
+            "firstHalfX_guess": 3.42,
+            "firstHalf2_guess": 3.29
+          }
+        },
+        {
+          "market_code": "09450",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.56,
+            "secondHalfX_guess": 3.42,
+            "secondHalf2_guess": 3.29
+          }
+        },
+        {
+          "market_code": "09450",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.56,
+            "handicapX_guess": 3.42,
+            "handicap2_guess": 3.29
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 2.32,
+            "bttsNo_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 2.32,
+            "firstHalfBttsNo_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 2.32,
+            "secondHalfBttsNo_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 2.32,
+            "over05_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 2.32,
+            "over15_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 2.32,
+            "over25_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 2.32,
+            "over35_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 2.32,
+            "over45_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 2.32,
+            "firstHalfOver05_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 2.32,
+            "firstHalfOver15_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 2.32,
+            "secondHalfOver05_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 2.32,
+            "secondHalfOver15_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 2.32,
+            "homeOver15_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09464",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 2.32,
+            "awayOver15_guess": 1.24
+          }
+        },
+        {
+          "market_code": "09451",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.08,
+            "msx": 1.07,
+            "ms2": 1.62
+          }
+        },
+        {
+          "market_code": "09451",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.08,
+            "firstHalfX_guess": 1.07,
+            "firstHalf2_guess": 1.62
+          }
+        },
+        {
+          "market_code": "09451",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.08,
+            "secondHalfX_guess": 1.07,
+            "secondHalf2_guess": 1.62
+          }
+        },
+        {
+          "market_code": "09451",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.08,
+            "handicapX_guess": 1.07,
+            "handicap2_guess": 1.62
+          }
+        }
+      ],
       "expected_scores": [
         "0-1",
         "0-2",
         "1-2"
       ],
+      "value_label": "Yüksek Değer",
+      "analysis_score": 70,
+      "analysis_class": "Orta risk kupon adayı",
+      "data_gap_risk": "Düşük",
       "legs": [
         {
           "number": 1,
@@ -459,7 +907,6 @@
           ]
         }
       ],
-      "status": "takipte",
       "pro_signals": [
         "Market: MS 2",
         "Oran: 4.02",
@@ -474,7 +921,8 @@
         "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Orta risk kupon adayı"
+        "100 puan analiz sınıfı: Orta risk kupon adayı",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
@@ -567,7 +1015,8 @@
         "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Orta risk kupon adayı"
+        "100 puan analiz sınıfı: Orta risk kupon adayı",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
@@ -583,72 +1032,235 @@
       "option": "MS X",
       "market": "MS X",
       "prediction": "MS X",
-      "decision": "MS X",
-      "odds": "3.42",
-      "total_odds": "3.42",
+      "decision": "Kupon Adayı",
+      "score": "70%",
       "confidence": "70%",
       "confidence_score": "70%",
-      "score": "70%",
       "risk": "Orta",
       "risk_level": "Orta",
-      "tag": "Orta risk kupon adayı",
-      "value_label": "Yüksek Değer",
-      "analysis_score": 70,
-      "analysis_class": "Orta risk kupon adayı",
-      "data_gap_risk": "Düşük",
+      "status": "scheduled",
+      "estimated_odds": "3.25",
+      "available_odds": {
+        "ms1": "1.83",
+        "msx": "3.25",
+        "ms2": "2.60",
+        "over25": "1.27",
+        "under25": "2.23",
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "1.17",
+        "bttsNo": "1.09",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.83,
+        "msx": 3.25,
+        "ms2": 2.6,
+        "under25": 2.23,
+        "over25": 1.27,
+        "bttsYes_guess": 1.17,
+        "bttsNo_guess": 1.09
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "23352",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.83,
+            "msx": 3.25,
+            "ms2": 2.6
+          }
+        },
+        {
+          "market_code": "23352",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.83,
+            "firstHalfX_guess": 3.25,
+            "firstHalf2_guess": 2.6
+          }
+        },
+        {
+          "market_code": "23352",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.83,
+            "secondHalfX_guess": 3.25,
+            "secondHalf2_guess": 2.6
+          }
+        },
+        {
+          "market_code": "23352",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.83,
+            "handicapX_guess": 3.25,
+            "handicap2_guess": 2.6
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "KG Var / Yok",
+          "values": {
+            "bttsYes_guess": 2.23,
+            "bttsNo_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "İlk Yarı KG Var / Yok",
+          "values": {
+            "firstHalfBttsYes_guess": 2.23,
+            "firstHalfBttsNo_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "İkinci Yarı KG Var / Yok",
+          "values": {
+            "secondHalfBttsYes_guess": 2.23,
+            "secondHalfBttsNo_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "0.5 Alt / Üst",
+          "values": {
+            "under05_guess": 2.23,
+            "over05_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "1.5 Alt / Üst",
+          "values": {
+            "under15_guess": 2.23,
+            "over15_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "2.5 Alt / Üst",
+          "values": {
+            "under25_guess": 2.23,
+            "over25_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "3.5 Alt / Üst",
+          "values": {
+            "under35_guess": 2.23,
+            "over35_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "4.5 Alt / Üst",
+          "values": {
+            "under45_guess": 2.23,
+            "over45_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "İlk Yarı 0.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder05_guess": 2.23,
+            "firstHalfOver05_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "İlk Yarı 1.5 Alt / Üst",
+          "values": {
+            "firstHalfUnder15_guess": 2.23,
+            "firstHalfOver15_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "İkinci Yarı 0.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder05_guess": 2.23,
+            "secondHalfOver05_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "İkinci Yarı 1.5 Alt / Üst",
+          "values": {
+            "secondHalfUnder15_guess": 2.23,
+            "secondHalfOver15_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "Ev Sahibi 1.5 Alt / Üst",
+          "values": {
+            "homeUnder15_guess": 2.23,
+            "homeOver15_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23361",
+          "market": "Deplasman 1.5 Alt / Üst",
+          "values": {
+            "awayUnder15_guess": 2.23,
+            "awayOver15_guess": 1.27
+          }
+        },
+        {
+          "market_code": "23353",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.17,
+            "msx": 1.09,
+            "ms2": 1.42
+          }
+        },
+        {
+          "market_code": "23353",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.17,
+            "firstHalfX_guess": 1.09,
+            "firstHalf2_guess": 1.42
+          }
+        },
+        {
+          "market_code": "23353",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.17,
+            "secondHalfX_guess": 1.09,
+            "secondHalf2_guess": 1.42
+          }
+        },
+        {
+          "market_code": "23353",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.17,
+            "handicapX_guess": 1.09,
+            "handicap2_guess": 1.42
+          }
+        }
+      ],
       "expected_scores": [
         "0-0",
         "1-1",
         "2-2"
       ],
-      "legs": [
-        {
-          "number": 1,
-          "home": "Follo",
-          "away": "Trygg/Lade",
-          "match": "Follo VS Trygg/Lade",
-          "date": "2026-08-02",
-          "time": "15:00",
-          "league": "Norveç 2.Lig Grup 2",
-          "selection": "MS X",
-          "option": "MS X",
-          "odds": "3.42",
-          "lab_probability": "70%",
-          "confidence": "70%",
-          "trust_score": "70/100",
-          "risk": "Orta",
-          "tag": "Orta risk kupon adayı",
-          "value_label": "Yüksek Değer",
-          "analysis_score": 70,
-          "analysis_class": "Orta risk kupon adayı",
-          "data_gap_risk": "Düşük",
-          "expected_scores": [
-            "0-0",
-            "1-1",
-            "2-2"
-          ],
-          "signals": [
-            "Market: MS X",
-            "Oran: 3.42",
-            "Veri tipi: standard",
-            "Değer etiketi: Yüksek Değer",
-            "İki takım son 10 maçta en az 4 gol attı: +15",
-            "İki takım son 10 maçta en az 4 gol yedi: +15",
-            "2.5 Üst yüzdesi %60 üzeri: +10",
-            "3.5 Üst yüzdesi %45 üzeri: +10",
-            "Lig gol ortalaması 2.70 üzeri: +10",
-            "Oran 1.70 üzeri: +10",
-            "Oran 2.20 üzeri: Yüksek Değer etiketi",
-            "Hafıza: arşiv verisi henüz sınırlı",
-            "Veri eksikliği riski: Düşük",
-            "100 puan analiz sınıfı: Orta risk kupon adayı"
-          ]
-        }
-      ],
-      "status": "takipte",
+      "value_label": "Yüksek Değer",
+      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
+      "robot_comment": "Market: MS X | Oran: 3.25 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "pro_signals": [
         "Market: MS X",
-        "Oran: 3.42",
+        "Oran: 3.25",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -660,9 +1272,9 @@
         "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Orta risk kupon adayı"
+        "100 puan analiz sınıfı: Orta risk kupon adayı",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
-      "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
       "created_at": "2026-08-02T12:05:09.173Z"
     },
@@ -1217,7 +1829,16 @@
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15"
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
+        "2.5 Üst yüzdesi %60 üzeri: +10",
+        "3.5 Üst yüzdesi %45 üzeri: +10",
+        "Lig gol ortalaması 2.70 üzeri: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
+        "Hafıza: arşiv verisi henüz sınırlı",
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Orta risk kupon adayı",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
@@ -1398,240 +2019,6 @@
   ],
   "completed_items": [],
   "matches": [
-    {
-      "date": "2026-08-02",
-      "time": "13:00",
-      "league": "Ukrayna Premier Lig",
-      "home": "Chernomorets",
-      "away": "Polessya",
-      "status": "live",
-      "liveStatus": "live",
-      "minute": 10,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "29854",
-      "available_odds": {
-        "ms1": 8.05,
-        "msx": 4.14,
-        "ms2": 1.15,
-        "over25": 1.65,
-        "under25": 1.58,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "odds": {
-        "ms1": 8.05,
-        "msx": 4.14,
-        "ms2": 1.15,
-        "over25": 1.65,
-        "under25": 1.58,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 8.05,
-        "msx": 4.14,
-        "ms2": 1.15,
-        "under25": 1.58,
-        "over25": 1.65
-      },
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "over35",
-        "under35",
-        "bttsYes",
-        "bttsNo",
-        "firstHalfBttsYes",
-        "firstHalfBttsNo",
-        "secondHalfBttsYes",
-        "secondHalfBttsNo"
-      ],
-      "wide_market_odds_count": 11,
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "analysis_score": 10,
-      "confidence": "10%",
-      "risk_level": "Yüksek",
-      "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
-      "include_in_coupon": false,
-      "raw_market_value_count": 6
-    },
-    {
-      "date": "2026-08-02",
-      "time": "13:00",
-      "league": "Çin Halk Cumhuriyeti Süper Lig",
-      "home": "Qingdao West C",
-      "away": "Qingdao Zhongne",
-      "status": "live",
-      "liveStatus": "live",
-      "minute": 10,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "17870",
-      "available_odds": {
-        "ms1": 1.83,
-        "msx": 3.06,
-        "ms2": 2.74,
-        "over25": 1.44,
-        "under25": 1.83,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": 1.15,
-        "bttsNo": 1.11,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-",
-        "bttsYes_guess": 1.15,
-        "bttsNo_guess": 1.11
-      },
-      "odds": {
-        "ms1": 1.83,
-        "msx": 3.06,
-        "ms2": 2.74,
-        "over25": 1.44,
-        "under25": 1.83,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": 1.15,
-        "bttsNo": 1.11,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-",
-        "bttsYes_guess": 1.15,
-        "bttsNo_guess": 1.11
-      },
-      "raw_market_guess_odds": {
-        "ms1": 1.83,
-        "msx": 3.06,
-        "ms2": 2.74,
-        "under25": 1.83,
-        "over25": 1.44,
-        "bttsYes_guess": 1.15,
-        "bttsNo_guess": 1.11
-      },
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "over35",
-        "under35",
-        "bttsYes",
-        "bttsNo",
-        "firstHalfBttsYes",
-        "firstHalfBttsNo",
-        "secondHalfBttsYes",
-        "secondHalfBttsNo",
-        "bttsYes_guess",
-        "bttsNo_guess"
-      ],
-      "wide_market_odds_count": 15,
-      "suggested_option": "MS X",
-      "suggested_odds": "3.06",
-      "analysis_score": 50,
-      "confidence": "50%",
-      "risk_level": "Yüksek",
-      "decision": "İzleme",
-      "robot_reason": "Market: MS X | Oran: 3.06 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
-      "include_in_coupon": false,
-      "raw_market_value_count": 8
-    },
-    {
-      "date": "2026-08-02",
-      "time": "13:00",
-      "league": "İsveç 2.Lig Vastra Götaland",
-      "home": "Qviding",
-      "away": "Astrio",
-      "status": "live",
-      "liveStatus": "live",
-      "minute": 10,
-      "score": "",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "09232",
-      "available_odds": {
-        "ms1": 1.34,
-        "msx": 4.03,
-        "ms2": 4.05,
-        "over25": null,
-        "under25": null,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "odds": {
-        "ms1": 1.34,
-        "msx": 4.03,
-        "ms2": 4.05,
-        "over25": null,
-        "under25": null,
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": null,
-        "bttsNo": null,
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 1.34,
-        "msx": 4.03,
-        "ms2": 4.05
-      },
-      "raw_odds_sequence": [],
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2",
-        "over25",
-        "under25",
-        "over35",
-        "under35",
-        "bttsYes",
-        "bttsNo",
-        "firstHalfBttsYes",
-        "firstHalfBttsNo",
-        "secondHalfBttsYes",
-        "secondHalfBttsNo"
-      ],
-      "wide_market_odds_count": 9,
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "analysis_score": 0,
-      "confidence": "0%",
-      "risk_level": "Yüksek",
-      "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
-      "include_in_coupon": false,
-      "raw_market_value_count": 4
-    },
     {
       "date": "2026-08-02",
       "time": "13:30",
@@ -2240,8 +2627,8 @@
         "under25": 1.51,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.13,
-        "bttsNo": 1.14,
+        "bttsYes": "1.13",
+        "bttsNo": "1.14",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -2257,8 +2644,8 @@
         "under25": 1.51,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.13,
-        "bttsNo": 1.14,
+        "bttsYes": "1.13",
+        "bttsNo": "1.14",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -2324,8 +2711,8 @@
         "under25": 1.85,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.1,
-        "bttsNo": 1.09,
+        "bttsYes": "1.10",
+        "bttsNo": "1.09",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -2341,8 +2728,8 @@
         "under25": 1.85,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.1,
-        "bttsNo": 1.09,
+        "bttsYes": "1.10",
+        "bttsNo": "1.09",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -2399,49 +2786,47 @@
       "minute": 1,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "05907",
+      "matchCode": "17924",
       "available_odds": {
-        "ms1": 1.83,
-        "msx": 2.78,
-        "ms2": 3,
-        "over25": 1.76,
-        "under25": 1.49,
+        "ms1": 4.72,
+        "msx": 4.35,
+        "ms2": 1.26,
+        "over25": 1.15,
+        "under25": 2.72,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.11,
-        "bttsNo": 1.15,
+        "bttsYes": "1.11",
+        "bttsNo": "1.15",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
-        "bttsYes_guess": 1.11,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.75,
+        "bttsNo_guess": 1.05
       },
       "odds": {
-        "ms1": 1.83,
-        "msx": 2.78,
-        "ms2": 3,
-        "over25": 1.76,
-        "under25": 1.49,
+        "ms1": 4.72,
+        "msx": 4.35,
+        "ms2": 1.26,
+        "over25": 1.15,
+        "under25": 2.72,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.11,
-        "bttsNo": 1.15,
+        "bttsYes": "1.11",
+        "bttsNo": "1.15",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
-        "bttsYes_guess": 1.11,
-        "bttsNo_guess": 1.15
+        "bttsYes_guess": 1.75,
+        "bttsNo_guess": 1.05
       },
       "raw_market_guess_odds": {
-        "ms1": 1.83,
-        "msx": 2.78,
-        "ms2": 3,
-        "under25": 1.49,
-        "over25": 1.76,
-        "bttsYes_guess": 1.11,
-        "bttsNo_guess": 1.15
+        "ms1": 4.72,
+        "msx": 4.35,
+        "ms2": 1.26,
+        "under25": 2.72,
+        "over25": 1.15
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -2470,7 +2855,7 @@
       "decision": "İzleme",
       "robot_reason": "Market: MS 2 | Oran: 3.00 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-02",
@@ -2492,8 +2877,8 @@
         "under25": 1.65,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.21,
-        "bttsNo": 1.14,
+        "bttsYes": "1.21",
+        "bttsNo": "1.14",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -2509,8 +2894,8 @@
         "under25": 1.65,
         "over35": "-",
         "under35": "-",
-        "bttsYes": 1.21,
-        "bttsNo": 1.14,
+        "bttsYes": "1.21",
+        "bttsNo": "1.14",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
@@ -2828,9 +3213,7 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-",
-        "bttsYes_guess": 1.75,
-        "bttsNo_guess": 1.05
+        "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
         "ms1": 4.72,
@@ -4646,6 +5029,240 @@
       "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
       "raw_market_value_count": 3
+    },
+    {
+      "date": "2026-08-02",
+      "time": "14:35",
+      "league": "Çin Halk Cumhuriyeti Süper Lig",
+      "home": "Qingdao West C",
+      "away": "Qingdao Zhongne",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 10,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "17870",
+      "available_odds": {
+        "ms1": 1.83,
+        "msx": 3.06,
+        "ms2": 2.74,
+        "over25": 1.44,
+        "under25": 1.83,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 1.15,
+        "bttsNo": 1.11,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.15,
+        "bttsNo_guess": 1.11
+      },
+      "odds": {
+        "ms1": 1.83,
+        "msx": 3.06,
+        "ms2": 2.74,
+        "over25": 1.44,
+        "under25": 1.83,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": 1.15,
+        "bttsNo": 1.11,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 1.15,
+        "bttsNo_guess": 1.11
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.83,
+        "msx": 3.06,
+        "ms2": 2.74,
+        "under25": 1.83,
+        "over25": 1.44,
+        "bttsYes_guess": 1.15,
+        "bttsNo_guess": 1.11
+      },
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
+      ],
+      "wide_market_odds_count": 15,
+      "suggested_option": "MS X",
+      "suggested_odds": "3.06",
+      "analysis_score": 50,
+      "confidence": "50%",
+      "risk_level": "Yüksek",
+      "decision": "İzleme",
+      "robot_reason": "Market: MS X | Oran: 3.06 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "include_in_coupon": false,
+      "raw_market_value_count": 8
+    },
+    {
+      "date": "2026-08-02",
+      "time": "13:00",
+      "league": "İsveç 2.Lig Vastra Götaland",
+      "home": "Qviding",
+      "away": "Astrio",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 10,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "09232",
+      "available_odds": {
+        "ms1": 1.34,
+        "msx": 4.03,
+        "ms2": 4.05,
+        "over25": null,
+        "under25": null,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "odds": {
+        "ms1": 1.34,
+        "msx": 4.03,
+        "ms2": 4.05,
+        "over25": null,
+        "under25": null,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 1.34,
+        "msx": 4.03,
+        "ms2": 4.05
+      },
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo"
+      ],
+      "wide_market_odds_count": 9,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "include_in_coupon": false,
+      "raw_market_value_count": 4
+    },
+    {
+      "date": "2026-08-02",
+      "time": "13:00",
+      "league": "Ukrayna Premier Lig",
+      "home": "Chernomorets",
+      "away": "Polessya",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": 10,
+      "score": "",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "29854",
+      "available_odds": {
+        "ms1": 8.05,
+        "msx": 4.14,
+        "ms2": 1.15,
+        "over25": 1.65,
+        "under25": 1.58,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "odds": {
+        "ms1": 8.05,
+        "msx": 4.14,
+        "ms2": 1.15,
+        "over25": 1.65,
+        "under25": 1.58,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": null,
+        "bttsNo": null,
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 8.05,
+        "msx": 4.14,
+        "ms2": 1.15,
+        "under25": 1.58,
+        "over25": 1.65
+      },
+      "raw_odds_sequence": [],
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2",
+        "over25",
+        "under25",
+        "over35",
+        "under35",
+        "bttsYes",
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo"
+      ],
+      "wide_market_odds_count": 11,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 10,
+      "confidence": "10%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
+      "include_in_coupon": false,
+      "raw_market_value_count": 6
     }
   ],
   "scheduled_matches": [
@@ -4660,13 +5277,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "29871",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.91,
         "msx": 2.72,
         "ms2": 2.89,
-        "over25": 1.94,
-        "under25": 1.38,
+        "over25": 1.92,
+        "under25": 1.39,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.13",
@@ -4682,8 +5299,8 @@
         "ms1": 1.91,
         "msx": 2.72,
         "ms2": 2.89,
-        "over25": 1.94,
-        "under25": 1.38,
+        "over25": 1.92,
+        "under25": 1.39,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.13",
@@ -4815,7 +5432,7 @@
       "decision": "İzleme",
       "robot_reason": "Market: MS X | Oran: 3.02 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 15
     },
     {
       "date": "2026-08-02",
@@ -4828,13 +5445,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "19737",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 2.55,
-        "msx": 2.82,
-        "ms2": 2.03,
-        "over25": 1.61,
-        "under25": 1.62,
+        "ms1": 2.48,
+        "msx": 2.88,
+        "ms2": 2.04,
+        "over25": 1.58,
+        "under25": 1.65,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.33",
@@ -4847,11 +5464,11 @@
         "bttsNo_guess": 1.13
       },
       "odds": {
-        "ms1": 2.55,
-        "msx": 2.82,
-        "ms2": 2.03,
-        "over25": 1.61,
-        "under25": 1.62,
+        "ms1": 2.48,
+        "msx": 2.88,
+        "ms2": 2.04,
+        "over25": 1.58,
+        "under25": 1.65,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.33",
@@ -4911,7 +5528,7 @@
       "liveStatus": "scheduled",
       "minute": null,
       "score": "",
-      "source": "Maçkolik canlı robot",
+      "source": "",
       "matchCode": "03470",
       "available_odds": {
         "ms1": 2.92,
@@ -5240,7 +5857,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "20482",
+      "matchCode": null,
       "available_odds": {
         "ms1": 7.77,
         "msx": 4.62,
@@ -5316,7 +5933,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "18966",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.54,
         "msx": 3.24,
@@ -5400,7 +6017,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "22732",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.96,
         "msx": 3.1,
@@ -5652,7 +6269,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "17278",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.58,
         "msx": 3.23,
@@ -5736,7 +6353,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "09690",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.9,
         "msx": 3.1,
@@ -5820,7 +6437,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "27181",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.42,
         "msx": 2.33,
@@ -5988,7 +6605,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "27314",
+      "matchCode": null,
       "available_odds": {
         "ms1": 3.89,
         "msx": 3.15,
@@ -6072,7 +6689,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "27336",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.52,
         "msx": 2.89,
@@ -6359,15 +6976,7 @@
         "bttsYes_guess": 1.39,
         "bttsNo_guess": 1.09
       },
-      "raw_market_guess_odds": {
-        "ms1": 2.47,
-        "msx": 3.29,
-        "ms2": 1.88,
-        "under25": 2.32,
-        "over25": 1.24,
-        "bttsYes_guess": 1.39,
-        "bttsNo_guess": 1.09
-      },
+      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -6395,7 +7004,7 @@
       "decision": "Kupon Adayı",
       "robot_reason": "Market: MS X | Oran: 3.29 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": true,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 15
     },
     {
       "date": "2026-08-02",
@@ -6904,13 +7513,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "08361",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.02,
         "msx": 3.12,
         "ms2": 2.57,
-        "over25": 1.56,
-        "under25": 1.76,
+        "over25": 1.5,
+        "under25": 1.86,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.22",
@@ -6926,8 +7535,8 @@
         "ms1": 2.02,
         "msx": 3.12,
         "ms2": 2.57,
-        "over25": 1.56,
-        "under25": 1.76,
+        "over25": 1.5,
+        "under25": 1.86,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.22",
@@ -7072,13 +7681,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "10023",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.05,
         "msx": 6.09,
         "ms2": 8.85,
-        "over25": 1.09,
-        "under25": 3.04,
+        "over25": 1.08,
+        "under25": 3.18,
         "over35": "-",
         "under35": "-",
         "bttsYes": "6.09",
@@ -7094,8 +7703,8 @@
         "ms1": 1.05,
         "msx": 6.09,
         "ms2": 8.85,
-        "over25": 1.09,
-        "under25": 3.04,
+        "over25": 1.08,
+        "under25": 3.18,
         "over35": "-",
         "under35": "-",
         "bttsYes": "6.09",
@@ -7387,7 +7996,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "34204",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.3,
         "msx": 2.93,
@@ -7699,7 +8308,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "09235",
+      "matchCode": null,
       "available_odds": {
         "ms1": 3.6,
         "msx": 3.35,
@@ -7941,7 +8550,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "18295",
+      "matchCode": null,
       "available_odds": {
         "ms1": 4.48,
         "msx": 3.73,
@@ -8015,7 +8624,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30459",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.28,
         "msx": 3.84,
@@ -8091,7 +8700,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30425",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.06,
         "msx": 3.15,
@@ -8175,13 +8784,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30442",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 4.57,
-        "msx": 3.86,
-        "ms2": 1.32,
-        "over25": 1.35,
-        "under25": 2.01,
+        "ms1": 4.48,
+        "msx": 3.73,
+        "ms2": 1.33,
+        "over25": 1.4,
+        "under25": 1.89,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -8192,11 +8801,11 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 4.57,
-        "msx": 3.86,
-        "ms2": 1.32,
-        "over25": 1.35,
-        "under25": 2.01,
+        "ms1": 4.48,
+        "msx": 3.73,
+        "ms2": 1.33,
+        "over25": 1.4,
+        "under25": 1.89,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -8335,7 +8944,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "24203",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.77,
         "msx": 3.35,
@@ -8344,7 +8953,7 @@
         "under25": 2.15,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.16",
+        "bttsYes": "1.15",
         "bttsNo": "1.11",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -8361,7 +8970,7 @@
         "under25": 2.15,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.16",
+        "bttsYes": "1.15",
         "bttsNo": "1.11",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -8503,13 +9112,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "22787",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.28,
         "msx": 4.19,
         "ms2": 5.37,
-        "over25": 1.4,
-        "under25": 2.03,
+        "over25": 1.39,
+        "under25": 2.08,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -8523,8 +9132,8 @@
         "ms1": 1.28,
         "msx": 4.19,
         "ms2": 5.37,
-        "over25": 1.4,
-        "under25": 2.03,
+        "over25": 1.39,
+        "under25": 2.08,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -8579,7 +9188,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "32680",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.29,
         "msx": 3.98,
@@ -8610,11 +9219,7 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {
-        "ms1": 1.38,
-        "msx": 3.69,
-        "ms2": 4.14
-      },
+      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -8653,7 +9258,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "11713",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.04,
         "msx": 2.98,
@@ -8737,11 +9342,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "11546",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 2.65,
-        "msx": 2.86,
-        "ms2": 2.09,
+        "ms1": 2.57,
+        "msx": 2.85,
+        "ms2": 2.15,
         "over25": 1.8,
         "under25": 1.54,
         "over35": "-",
@@ -8756,9 +9361,9 @@
         "bttsNo_guess": 1.18
       },
       "odds": {
-        "ms1": 2.65,
-        "msx": 2.86,
-        "ms2": 2.09,
+        "ms1": 2.57,
+        "msx": 2.85,
+        "ms2": 2.15,
         "over25": 1.8,
         "under25": 1.54,
         "over35": "-",
@@ -8821,7 +9426,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "23533",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.44,
         "msx": 3.83,
@@ -9073,13 +9678,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "23449",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.09,
-        "msx": 5.34,
-        "ms2": 7.14,
-        "over25": 1.1,
-        "under25": 3,
+        "msx": 5.37,
+        "ms2": 7.11,
+        "over25": 1.11,
+        "under25": 2.94,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -9091,10 +9696,10 @@
       },
       "odds": {
         "ms1": 1.09,
-        "msx": 5.34,
-        "ms2": 7.14,
-        "over25": 1.1,
-        "under25": 3,
+        "msx": 5.37,
+        "ms2": 7.11,
+        "over25": 1.11,
+        "under25": 2.94,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -9149,13 +9754,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "23629",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 3.83,
-        "msx": 3.81,
-        "ms2": 1.39,
-        "over25": 1.18,
-        "under25": 2.54,
+        "ms1": 3.97,
+        "msx": 3.84,
+        "ms2": 1.38,
+        "over25": 1.17,
+        "under25": 2.61,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -9166,11 +9771,11 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 3.83,
-        "msx": 3.81,
-        "ms2": 1.39,
-        "over25": 1.18,
-        "under25": 2.54,
+        "ms1": 3.97,
+        "msx": 3.84,
+        "ms2": 1.38,
+        "over25": 1.17,
+        "under25": 2.61,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -9205,12 +9810,12 @@
       ],
       "wide_market_odds_count": 11,
       "suggested_option": "MS 1",
-      "suggested_odds": "3.83",
+      "suggested_odds": "3.97",
       "analysis_score": 40,
       "confidence": "40%",
       "risk_level": "Yüksek",
       "decision": "Oynama",
-      "robot_reason": "Market: MS 1 | Oran: 3.83 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_reason": "Market: MS 1 | Oran: 3.97 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "raw_market_value_count": 6
     },
@@ -9225,7 +9830,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "23310",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.58,
         "msx": 3.27,
@@ -9309,11 +9914,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "23352",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.87,
-        "msx": 3.24,
-        "ms2": 2.52,
+        "ms1": 1.83,
+        "msx": 3.25,
+        "ms2": 2.6,
         "over25": 1.27,
         "under25": 2.23,
         "over35": "-",
@@ -9328,9 +9933,9 @@
         "bttsNo_guess": 1.09
       },
       "odds": {
-        "ms1": 1.87,
-        "msx": 3.24,
-        "ms2": 2.52,
+        "ms1": 1.83,
+        "msx": 3.25,
+        "ms2": 2.6,
         "over25": 1.27,
         "under25": 2.23,
         "over35": "-",
@@ -9393,13 +9998,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "23491",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.06,
         "msx": 3.37,
         "ms2": 2.18,
-        "over25": 1.15,
-        "under25": 2.73,
+        "over25": 1.16,
+        "under25": 2.65,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.27",
@@ -9415,8 +10020,8 @@
         "ms1": 2.06,
         "msx": 3.37,
         "ms2": 2.18,
-        "over25": 1.15,
-        "under25": 2.73,
+        "over25": 1.16,
+        "under25": 2.65,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.27",
@@ -9477,13 +10082,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "23587",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.15,
-        "msx": 4.85,
-        "ms2": 6.06,
+        "ms1": 1.18,
+        "msx": 4.63,
+        "ms2": 5.59,
         "over25": 1.16,
-        "under25": 2.64,
+        "under25": 2.63,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -9494,11 +10099,11 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 1.15,
-        "msx": 4.85,
-        "ms2": 6.06,
+        "ms1": 1.18,
+        "msx": 4.63,
+        "ms2": 5.59,
         "over25": 1.16,
-        "under25": 2.64,
+        "under25": 2.63,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -9553,7 +10158,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "02591",
+      "matchCode": null,
       "available_odds": {
         "ms1": 3.13,
         "msx": 3.28,
@@ -9797,11 +10402,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "18161",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.13,
-        "msx": 4.66,
-        "ms2": 7.05,
+        "ms1": 1.1,
+        "msx": 4.9,
+        "ms2": 7.91,
         "over25": 1.33,
         "under25": 2.07,
         "over35": "-",
@@ -9814,9 +10419,9 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 1.13,
-        "msx": 4.66,
-        "ms2": 7.05,
+        "ms1": 1.1,
+        "msx": 4.9,
+        "ms2": 7.91,
         "over25": 1.33,
         "under25": 2.07,
         "over35": "-",
@@ -9949,7 +10554,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "21920",
+      "matchCode": null,
       "available_odds": {
         "ms1": null,
         "msx": 7.08,
@@ -10028,13 +10633,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "27369",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.32,
         "msx": 3.72,
         "ms2": 4.79,
-        "over25": 1.5,
-        "under25": 1.74,
+        "over25": 1.44,
+        "under25": 1.84,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -10048,8 +10653,8 @@
         "ms1": 1.32,
         "msx": 3.72,
         "ms2": 4.79,
-        "over25": 1.5,
-        "under25": 1.74,
+        "over25": 1.44,
+        "under25": 1.84,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -10104,7 +10709,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "16347",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.21,
         "msx": 4.61,
@@ -10178,7 +10783,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "32685",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.08,
         "msx": 5.49,
@@ -10740,7 +11345,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "25284",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.44,
         "msx": 3.48,
@@ -10900,7 +11505,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "18553",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.91,
         "msx": 2.69,
@@ -10984,7 +11589,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "27214",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.93,
         "msx": 2.54,
@@ -11187,15 +11792,7 @@
         "bttsYes_guess": 1.11,
         "bttsNo_guess": 1.09
       },
-      "raw_market_guess_odds": {
-        "ms1": 1.7,
-        "msx": 3.13,
-        "ms2": 3.01,
-        "under25": 1.74,
-        "over25": 1.5,
-        "bttsYes_guess": 1.11,
-        "bttsNo_guess": 1.09
-      },
+      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -11223,7 +11820,7 @@
       "decision": "İzleme",
       "robot_reason": "Market: MS X | Oran: 3.13 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 15
     },
     {
       "date": "2026-08-02",
@@ -11404,16 +12001,16 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "15536",
+      "matchCode": null,
       "available_odds": {
         "ms1": 4.16,
         "msx": 3.78,
         "ms2": 1.43,
-        "over25": 1.28,
-        "under25": 2.37,
+        "over25": 1.29,
+        "under25": 2.32,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.93",
+        "bttsYes": "1.98",
         "bttsNo": "1.07",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -11426,11 +12023,11 @@
         "ms1": 4.16,
         "msx": 3.78,
         "ms2": 1.43,
-        "over25": 1.28,
-        "under25": 2.37,
+        "over25": 1.29,
+        "under25": 2.32,
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.93",
+        "bttsYes": "1.98",
         "bttsNo": "1.07",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -11468,12 +12065,12 @@
       ],
       "wide_market_odds_count": 15,
       "suggested_option": "MS 1",
-      "suggested_odds": "4.16",
+      "suggested_odds": "4.28",
       "analysis_score": 45,
       "confidence": "45%",
       "risk_level": "Yüksek",
       "decision": "Oynama",
-      "robot_reason": "Market: MS 1 | Oran: 4.16 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_reason": "Market: MS 1 | Oran: 4.28 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "raw_market_value_count": 7
     },
@@ -11488,7 +12085,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "24781",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.51,
         "msx": 3.02,
@@ -11572,11 +12169,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "22024",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.15,
-        "msx": 4.24,
-        "ms2": 7.76,
+        "msx": 4.22,
+        "ms2": 7.48,
         "over25": 1.56,
         "under25": 1.66,
         "over35": "-",
@@ -11590,8 +12187,8 @@
       },
       "odds": {
         "ms1": 1.15,
-        "msx": 4.24,
-        "ms2": 7.76,
+        "msx": 4.22,
+        "ms2": 7.48,
         "over25": 1.56,
         "under25": 1.66,
         "over35": "-",
@@ -11648,11 +12245,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "25014",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.13,
-        "msx": 4.71,
-        "ms2": 6.95,
+        "ms1": 1.12,
+        "msx": 4.81,
+        "ms2": 7.19,
         "over25": null,
         "under25": null,
         "over35": "-",
@@ -11665,9 +12262,9 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 1.13,
-        "msx": 4.71,
-        "ms2": 6.95,
+        "ms1": 1.12,
+        "msx": 4.81,
+        "ms2": 7.19,
         "over25": null,
         "under25": null,
         "over35": "-",
@@ -11806,11 +12403,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "18412",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.41,
-        "msx": 3.71,
-        "ms2": 3.81,
+        "ms1": 1.44,
+        "msx": 3.68,
+        "ms2": 3.65,
         "over25": null,
         "under25": null,
         "over35": "-",
@@ -11823,9 +12420,9 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 1.41,
-        "msx": 3.71,
-        "ms2": 3.81,
+        "ms1": 1.44,
+        "msx": 3.68,
+        "ms2": 3.65,
         "over25": null,
         "under25": null,
         "over35": "-",
@@ -12038,13 +12635,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "06227",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.83,
         "msx": 3.08,
         "ms2": 3,
-        "over25": 1.54,
-        "under25": 1.8,
+        "over25": 1.53,
+        "under25": 1.81,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.15",
@@ -12060,8 +12657,8 @@
         "ms1": 1.83,
         "msx": 3.08,
         "ms2": 3,
-        "over25": 1.54,
-        "under25": 1.8,
+        "over25": 1.53,
+        "under25": 1.81,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.15",
@@ -12122,7 +12719,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30632",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.75,
         "msx": 3.09,
@@ -12290,7 +12887,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "15751",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.97,
         "msx": 3.02,
@@ -12373,7 +12970,7 @@
       "liveStatus": "scheduled",
       "minute": null,
       "score": "",
-      "source": "Maçkolik canlı robot",
+      "source": "",
       "matchCode": "06533",
       "available_odds": {
         "ms1": 2.05,
@@ -12445,7 +13042,7 @@
       "decision": "İzleme",
       "robot_reason": "Market: MS X | Oran: 3.15 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 15
     },
     {
       "date": "2026-08-02",
@@ -12458,7 +13055,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "11807",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.55,
         "msx": 3.21,
@@ -12542,7 +13139,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30651",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.61,
         "msx": 2.84,
@@ -12865,7 +13462,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "25317",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.03,
         "msx": 3.08,
@@ -13107,7 +13704,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "20607",
+      "matchCode": null,
       "available_odds": {
         "ms1": 3.27,
         "msx": 3.02,
@@ -13191,13 +13788,13 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "28318",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.94,
-        "msx": 2.37,
-        "ms2": 3.76,
-        "over25": 3.33,
-        "under25": 1.1,
+        "ms1": 1.91,
+        "msx": 2.44,
+        "ms2": 3.71,
+        "over25": 3.3,
+        "under25": 1.11,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.07",
@@ -13210,11 +13807,11 @@
         "bttsNo_guess": 1.26
       },
       "odds": {
-        "ms1": 1.94,
-        "msx": 2.37,
-        "ms2": 3.76,
-        "over25": 3.33,
-        "under25": 1.1,
+        "ms1": 1.91,
+        "msx": 2.44,
+        "ms2": 3.71,
+        "over25": 3.3,
+        "under25": 1.11,
         "over35": "-",
         "under35": "-",
         "bttsYes": "1.07",
@@ -13359,11 +13956,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "19944",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.91,
-        "msx": 2.96,
-        "ms2": 2.66,
+        "ms1": 1.96,
+        "msx": 2.92,
+        "ms2": 2.59,
         "over25": 1.5,
         "under25": 1.75,
         "over35": "-",
@@ -13378,9 +13975,9 @@
         "bttsNo_guess": 1.13
       },
       "odds": {
-        "ms1": 1.91,
-        "msx": 2.96,
-        "ms2": 2.66,
+        "ms1": 1.96,
+        "msx": 2.92,
+        "ms2": 2.59,
         "over25": 1.5,
         "under25": 1.75,
         "over35": "-",
@@ -13695,7 +14292,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "19049",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.02,
         "msx": 2.87,
@@ -13779,7 +14376,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30718",
+      "matchCode": null,
       "available_odds": {
         "ms1": 3.04,
         "msx": 2.79,
@@ -13863,11 +14460,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30701",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.35,
-        "msx": 3.6,
-        "ms2": 4.49,
+        "ms1": 1.33,
+        "msx": 3.64,
+        "ms2": 4.63,
         "over25": 1.46,
         "under25": 1.8,
         "over35": "-",
@@ -13879,12 +14476,12 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
         "bttsYes_guess": 1.05,
-        "bttsNo_guess": 1.91
+        "bttsNo_guess": 1.86
       },
       "odds": {
-        "ms1": 1.35,
-        "msx": 3.6,
-        "ms2": 4.49,
+        "ms1": 1.33,
+        "msx": 3.64,
+        "ms2": 4.63,
         "over25": 1.46,
         "under25": 1.8,
         "over35": "-",
@@ -13896,7 +14493,7 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
         "bttsYes_guess": 1.05,
-        "bttsNo_guess": 1.91
+        "bttsNo_guess": 1.86
       },
       "raw_market_guess_odds": {
         "ms1": 1.33,
@@ -14401,7 +14998,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "20010",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.68,
         "msx": 3.05,
@@ -14488,10 +15085,10 @@
       "matchCode": "22041",
       "available_odds": {
         "ms1": 1.09,
-        "msx": 4.8,
-        "ms2": 8.98,
-        "over25": 1.45,
-        "under25": 1.81,
+        "msx": 4.75,
+        "ms2": 8.72,
+        "over25": 1.49,
+        "under25": 1.77,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -14503,10 +15100,10 @@
       },
       "odds": {
         "ms1": 1.09,
-        "msx": 4.8,
-        "ms2": 8.98,
-        "over25": 1.45,
-        "under25": 1.81,
+        "msx": 4.75,
+        "ms2": 8.72,
+        "over25": 1.49,
+        "under25": 1.77,
         "over35": "-",
         "under35": "-",
         "bttsYes": null,
@@ -14518,10 +15115,10 @@
       },
       "raw_market_guess_odds": {
         "ms1": 1.09,
-        "msx": 4.8,
-        "ms2": 8.98,
-        "under25": 1.81,
-        "over25": 1.45
+        "msx": 4.75,
+        "ms2": 8.72,
+        "under25": 1.77,
+        "over25": 1.49
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -14561,7 +15158,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "25031",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.81,
         "msx": 2.89,
@@ -14729,7 +15326,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30766",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.41,
         "msx": 3.41,
@@ -14813,7 +15410,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "18586",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.78,
         "msx": 2.78,
@@ -14897,7 +15494,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "28602",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.17,
         "msx": 2.45,
@@ -15049,7 +15646,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "06684",
+      "matchCode": null,
       "available_odds": {
         "ms1": 4.45,
         "msx": 4.04,
@@ -15084,13 +15681,7 @@
         "bttsYes_guess": 2.06,
         "bttsNo_guess": 1.05
       },
-      "raw_market_guess_odds": {
-        "ms1": 4.51,
-        "msx": 4.21,
-        "ms2": 1.34,
-        "under25": 2.57,
-        "over25": 1.22
-      },
+      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -15131,11 +15722,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30799",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.11,
-        "msx": 4.55,
-        "ms2": 8.43,
+        "ms1": 1.1,
+        "msx": 4.62,
+        "ms2": 8.85,
         "over25": 1.52,
         "under25": 1.72,
         "over35": "-",
@@ -15148,9 +15739,9 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 1.11,
-        "msx": 4.55,
-        "ms2": 8.43,
+        "ms1": 1.1,
+        "msx": 4.62,
+        "ms2": 8.85,
         "over25": 1.52,
         "under25": 1.72,
         "over35": "-",
@@ -15221,7 +15812,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 5.6,
+        "bttsNo_guess": 10.65
       },
       "odds": {
         "ms1": 1.05,
@@ -15261,9 +15854,11 @@
         "firstHalfBttsYes",
         "firstHalfBttsNo",
         "secondHalfBttsYes",
-        "secondHalfBttsNo"
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "wide_market_odds_count": 11,
+      "wide_market_odds_count": 13,
       "suggested_option": "MS X",
       "suggested_odds": "5.39",
       "analysis_score": 75,
@@ -15285,7 +15880,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "15768",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.11,
         "msx": 3,
@@ -15369,11 +15964,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "28696",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.65,
-        "msx": 2.57,
-        "ms2": 4.1,
+        "ms1": 1.68,
+        "msx": 2.51,
+        "ms2": 4.03,
         "over25": 1.51,
         "under25": 1.19,
         "over35": "-",
@@ -15386,9 +15981,9 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 1.65,
-        "msx": 2.57,
-        "ms2": 4.1,
+        "ms1": 1.68,
+        "msx": 2.51,
+        "ms2": 4.03,
         "over25": 1.51,
         "under25": 1.19,
         "over35": "-",
@@ -15445,11 +16040,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "28667",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 2.16,
-        "msx": 2.38,
-        "ms2": 2.8,
+        "ms1": 2.22,
+        "msx": 2.37,
+        "ms2": 2.72,
         "over25": 1.22,
         "under25": 1.15,
         "over35": "-",
@@ -15462,9 +16057,9 @@
         "secondHalfBttsNo": "-"
       },
       "odds": {
-        "ms1": 2.16,
-        "msx": 2.38,
-        "ms2": 2.8,
+        "ms1": 2.22,
+        "msx": 2.37,
+        "ms2": 2.72,
         "over25": 1.22,
         "under25": 1.15,
         "over35": "-",
@@ -15521,7 +16116,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "10123",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.52,
         "msx": 3.27,
@@ -15604,7 +16199,7 @@
       "liveStatus": "scheduled",
       "minute": null,
       "score": "",
-      "source": "Maçkolik canlı robot",
+      "source": "",
       "matchCode": "28728",
       "available_odds": {
         "ms1": 2.09,
@@ -15836,7 +16431,7 @@
       "decision": "Kupon Adayı",
       "robot_reason": "Market: MS X | Oran: 3.74 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": true,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 15
     },
     {
       "date": "2026-08-02",
@@ -15933,7 +16528,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30859",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.32,
         "msx": 3.33,
@@ -16017,7 +16612,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "30876",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.74,
         "msx": 2.77,
@@ -16083,11 +16678,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "15453",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.59,
-        "msx": 2.89,
-        "ms2": 3.74,
+        "ms1": 1.62,
+        "msx": 2.9,
+        "ms2": 3.62,
         "under25": 1.5,
         "over25": 1.75,
         "bttsYes_guess": 1.05,
@@ -16096,9 +16691,9 @@
         "bttsNo": null
       },
       "odds": {
-        "ms1": 1.59,
-        "msx": 2.89,
-        "ms2": 3.74,
+        "ms1": 1.62,
+        "msx": 2.9,
+        "ms2": 3.62,
         "under25": 1.5,
         "over25": 1.75,
         "bttsYes_guess": 1.05,
@@ -16215,7 +16810,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "06399",
+      "matchCode": null,
       "available_odds": {
         "ms1": 3.17,
         "msx": 2.86,
@@ -16334,7 +16929,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 7
     },
     {
       "date": "2026-08-03",
@@ -16347,7 +16942,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "10152",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.88,
         "msx": 3.16,
@@ -16471,7 +17066,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "15790",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.31,
         "msx": 3.68,
@@ -16494,15 +17089,7 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {
-        "ms1": 1.33,
-        "msx": 3.57,
-        "ms2": 4.89,
-        "under25": 1.79,
-        "over25": 1.47,
-        "bttsYes_guess": 1.05,
-        "bttsNo_guess": 1.96
-      },
+      "raw_market_guess_odds": {},
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -16653,7 +17240,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "25495",
+      "matchCode": null,
       "available_odds": {
         "ms1": 4.73,
         "msx": 3.56,
@@ -16785,7 +17372,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "31009",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.95,
         "msx": 2.56,
@@ -16851,7 +17438,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "15984",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.76,
         "msx": 2.57,
@@ -16917,7 +17504,7 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "26356",
+      "matchCode": null,
       "available_odds": {
         "ms1": 1.22,
         "msx": 3.99,
@@ -16975,28 +17562,40 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "28701",
+      "matchCode": null,
       "available_odds": {
         "ms1": 2.82,
         "msx": 2.96,
         "ms2": 1.83,
-        "under25": 1.66,
         "over25": 1.57,
+        "under25": 1.66,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "1.44",
+        "bttsNo": "1.11",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
         "bttsYes_guess": 1.42,
-        "bttsNo_guess": 1.12,
-        "bttsYes": null,
-        "bttsNo": null
+        "bttsNo_guess": 1.12
       },
       "odds": {
         "ms1": 2.82,
         "msx": 2.96,
         "ms2": 1.83,
-        "under25": 1.66,
         "over25": 1.57,
+        "under25": 1.66,
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "1.44",
+        "bttsNo": "1.11",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-",
         "bttsYes_guess": 1.42,
-        "bttsNo_guess": 1.12,
-        "bttsYes": null,
-        "bttsNo": null
+        "bttsNo_guess": 1.12
       },
       "raw_market_guess_odds": {
         "ms1": 2.82,
@@ -17012,21 +17611,27 @@
         "ms1",
         "msx",
         "ms2",
-        "under25",
         "over25",
-        "bttsYes_guess",
-        "bttsNo_guess",
+        "under25",
+        "over35",
+        "under35",
         "bttsYes",
-        "bttsNo"
+        "bttsNo",
+        "firstHalfBttsYes",
+        "firstHalfBttsNo",
+        "secondHalfBttsYes",
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "wide_market_odds_count": 7,
-      "suggested_option": "",
-      "suggested_odds": "",
-      "analysis_score": null,
-      "confidence": "",
-      "risk_level": "",
-      "decision": "Analiz bekleniyor",
-      "robot_reason": "",
+      "wide_market_odds_count": 15,
+      "suggested_option": "Değerli market yok",
+      "suggested_odds": "-",
+      "analysis_score": 0,
+      "confidence": "0%",
+      "risk_level": "Yüksek",
+      "decision": "Oynama",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
       "raw_market_value_count": 8
     },
@@ -17041,11 +17646,11 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "31067",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 2.17,
-        "msx": 2.61,
-        "ms2": 2.52,
+        "ms1": 2.23,
+        "msx": 2.6,
+        "ms2": 2.46,
         "under25": 1.32,
         "over25": 2.07,
         "bttsYes_guess": 1.2,
@@ -17054,9 +17659,9 @@
         "bttsNo": null
       },
       "odds": {
-        "ms1": 2.17,
-        "msx": 2.61,
-        "ms2": 2.52,
+        "ms1": 2.23,
+        "msx": 2.6,
+        "ms2": 2.46,
         "under25": 1.32,
         "over25": 2.07,
         "bttsYes_guess": 1.2,
@@ -17231,20 +17836,20 @@
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
-      "matchCode": "10173",
+      "matchCode": null,
       "available_odds": {
-        "ms1": 1.55,
-        "msx": 3.42,
-        "ms2": 3.31,
+        "ms1": 1.58,
+        "msx": 3.39,
+        "ms2": 3.2,
         "under25": 1.09,
         "over25": 1.07,
         "bttsYes": null,
         "bttsNo": null
       },
       "odds": {
-        "ms1": 1.55,
-        "msx": 3.42,
-        "ms2": 3.31,
+        "ms1": 1.58,
+        "msx": 3.39,
+        "ms2": 3.2,
         "under25": 1.09,
         "over25": 1.07,
         "bttsYes": null,
@@ -17354,7 +17959,7 @@
       "liveStatus": "scheduled",
       "minute": null,
       "score": "",
-      "source": "Maçkolik canlı robot",
+      "source": "",
       "matchCode": "08618",
       "available_odds": {
         "ms1": 3.38,
@@ -17606,7 +18211,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 8
+      "raw_market_value_count": 7
     },
     {
       "date": "2026-08-03",
