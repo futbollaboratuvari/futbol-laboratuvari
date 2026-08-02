@@ -1,18 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 164
-Tam analiz: 139
-Eksik analiz: 25
+Toplam analiz: 96
+Tam analiz: 79
+Eksik analiz: 17
 
-- Jfk Ventspils VS Smiltene: eksik score, confidence
-- Aachen VS Eintracht Trier: eksik score, confidence
-- Leipzig VS Magdeburg Ii: eksik score, confidence
-- Aachen VS Eintracht Trier: eksik score, confidence
-- Kitara VS Entebbe Uppc: eksik score, confidence
-- Akranes VS Vikingur Reykja: eksik score, confidence
-- Sleipner VS Karlslunds If: eksik score, confidence
-- Fa Siauliai Ii VS Bfa: eksik score, confidence
 - Skedsmo VS Finnsnes: eksik score, confidence
 - Racing Montevi VS Boston River: eksik score, confidence
 - Asker VS If Ready: eksik score, confidence
@@ -23,5 +15,10 @@ Eksik analiz: 25
 - Petrocub VS Politeh Chişina: eksik score, confidence
 - Sunnersta Aif VS Viggbyholms Ik: eksik score, confidence
 - Almirante VS R Cordoba: eksik score, confidence
-- San Telmo VS San Miguel: eksik score, confidence
 - Chacarita Juni VS Agropecuario: eksik score, confidence
+- Ciudad De Bolí VS Ca Mitre: eksik score, confidence
+- Central Espano VS Liverpool Monte: eksik score, confidence
+- Atl Temperley VS Gimnasia Y Tiro: eksik score, confidence
+- Deportivo Madr VS All Boys: eksik score, confidence
+- Chaco For Ever VS Moron: eksik score, confidence
+- Central Norte VS Los Andes: eksik score, confidence
