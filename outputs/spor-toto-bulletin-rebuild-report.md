@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-02T16:47:33.253Z
+- Guncelleme: 2026-08-02T17:54:03.848Z
 - Ham fixture sayisi: 4560
 - Bugun/yarin kaynak mac: 295
-- Aktif bulten maci: 71
+- Aktif bulten maci: 57
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 224
+- Bultenden dusurulen mac: 238
 
-- 1. 2026-08-02 20:00 | Macaristan NB II | Csakvari Tk - Nagykanizsai Ul | scheduled
-- 2. 2026-08-02 20:00 | Moldova Ulusal Lig | Csf Balti - Sheriff Tiraspo | scheduled
-- 3. 2026-08-02 20:00 | Moldova Ulusal Lig | Dacia-Buiucani - Zimbru | scheduled
-- 4. 2026-08-02 20:00 | Slovakya Süper Lig | Kfc Komarno - Spartak Trnava | scheduled
-- 5. 2026-08-02 20:00 | Moldova Ulusal Lig | Petrocub - Politeh Chişina | scheduled
-- 6. 2026-08-02 20:00 | Avusturya Bundesliga | Rapid Wien - Altach | scheduled
-- 7. 2026-08-02 20:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Viggbyholms Ik | scheduled
-- 8. 2026-08-02 20:15 | Norveç Eliteserien | Brann - Rosenborg | scheduled
-- 9. 2026-08-02 20:30 | Rusya Premier Lig | Akhmat Grozny - Spartak Moskova | scheduled
-- 10. 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Gimnasia La Pla | scheduled
-- 11. 2026-08-02 20:30 | Polonya 1.Lig | Pogon Grodzisk - Puszcza Niepolo | scheduled
-- 12. 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Riestra - Barracas | scheduled
-- 13. 2026-08-02 20:30 | Polonya 2.Lig | Sandecja Nowy - Chojniczanka | scheduled
-- 14. 2026-08-02 20:45 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ansar | scheduled
-- 15. 2026-08-02 21:00 | Arjantin Ulusal Primera Lig | Almirante - R Cordoba | scheduled
+- 1. 2026-08-02 21:00 | Arjantin Ulusal Primera Lig | Almirante - R Cordoba | scheduled
+- 2. 2026-08-02 21:00 | İrlanda Premier Lig | Bohemian - Galway United | scheduled
+- 3. 2026-08-02 21:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Central Espano - Liverpool Monte | scheduled
+- 4. 2026-08-02 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni - Agropecuario | scheduled
+- 5. 2026-08-02 21:00 | Arjantin Ulusal Primera Lig | Ciudad De Bolí - Ca Mitre | scheduled
+- 6. 2026-08-02 21:00 | Ekvador Pro Lig | Indep. Jose Te - Deportivo Cuenc | scheduled
+- 7. 2026-08-02 21:00 | Çek Cumhuriyeti Czech Liga | Pardubice - Jablonec | scheduled
+- 8. 2026-08-02 21:00 | Sırbistan Süper Lig | Partizan Belgr - Imt Novi Beogra | scheduled
+- 9. 2026-08-02 21:00 | Arjantin Ulusal Primera Lig | San Telmo - San Miguel | scheduled
+- 10. 2026-08-02 21:00 | Sırbistan Süper Lig | Zemun Belg. - Radnicki Nis | scheduled
+- 11. 2026-08-02 21:15 | Peru Premier Lig Clausura | Adt - Deportivo Garci | scheduled
+- 12. 2026-08-02 21:15 | Bulgaristan 1.Lig | Cska Sofia - Dunav 2010 | scheduled
+- 13. 2026-08-02 21:15 | Polonya Ekstraklasa | Gks Katowice - Radomiak Radom | scheduled
+- 14. 2026-08-02 21:15 | Slovenya 1.SNL | Nk Brinje Gros - Koper | scheduled
+- 15. 2026-08-02 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Aluminij | scheduled

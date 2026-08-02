@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 57
 - Live match count: 29
-- Finished removed count: 33
+- Finished removed count: 0
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
 - 2026-08-02 18:45 | Hegelmann - Transinvest Vil | live

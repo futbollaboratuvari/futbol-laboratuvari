@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-02T17:52:09.732Z
+- Güncelleme: 2026-08-02T17:54:48.741Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -51,8 +51,8 @@
 | Nejmeh VS Ansar | Lübnan Premier Lig Şampiyonluk Turu | 20:45 | MS 1 | 2.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Bohemian VS Galway United | İrlanda Premier Lig | 21:00 | MS 2 | 4.66 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Pardubice VS Jablonec | Çek Cumhuriyeti Czech Liga | 21:00 | MS X | 2.87 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Zemun Belg. VS Radnicki Nis | Sırbistan Süper Lig | 21:00 | MS 1 | 2.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Partizan Belgr VS Imt Novi Beogra | Sırbistan Süper Lig | 21:00 | MS 2 | 3.47 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Zemun Belg. VS Radnicki Nis | Sırbistan Süper Lig | 21:00 | MS 1 | 3.12 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Partizan Belgr VS Imt Novi Beogra | Sırbistan Süper Lig | 21:00 | MS 2 | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Almirante VS R Cordoba | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | San Telmo VS San Miguel | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Chacarita Juni VS Agropecuario | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -61,7 +61,7 @@
 | Indep. Jose Te VS Deportivo Cuenc | Ekvador Pro Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gks Katowice VS Radomiak Radom | Polonya Ekstraklasa | 21:15 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cska Sofia VS Dunav 2010 | Bulgaristan 1.Lig | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Adt VS Deportivo Garci | Peru Premier Lig Clausura | 21:15 | MS 2 | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Adt VS Deportivo Garci | Peru Premier Lig Clausura | 21:15 | MS 2 | 3.03 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Nk Brinje Gros VS Koper | Slovenya 1.SNL | 21:15 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Olimpija Ljubl VS Aluminij | Slovenya 1.SNL | 21:15 | MS 2 | 4.20 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Rapid Bükreş VS Cfr Cluj | Romanya 1.Lig | 21:30 | MS 2 | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -69,8 +69,8 @@
 | Atl Temperley VS Gimnasia Y Tiro | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ascoli Picchio VS Lazio | Hazırlık Kulüpler | 21:45 | MS 1 | 4.52 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Palmeiras VS Fortaleza Ce | Brezilya Kupa Son 16 Turu | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Rijeka VS Rudes | Hırvatistan 1.HNL | 22:00 | MS X | 5.55 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| La Serena VS O Higgins | Şili Premier Lig | 22:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rijeka VS Rudes | Hırvatistan 1.HNL | 22:00 | MS X | 5.60 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| La Serena VS O Higgins | Şili Premier Lig | 22:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Deportivo Madr VS All Boys | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Chaco For Ever VS Moron | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Real Potosi VS Gualberto Villa | Bolivya Premier Lig | 22:00 | MS 2 | 3.61 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -81,11 +81,11 @@
 | Depor Macara VS Guayaquil City | Ekvador Pro Lig | 23:30 | MS 2 | 6.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Mirassol VS Gremio | Brezilya Kupa Son 16 Turu | 00:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Zamora VS Rayo Zuliano | Venezuela Premier Lig Clausura | 00:00 | MS 2 | 3.74 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Balboa VS Isidro Metapan | El Salvador Primera Lig Apertura | 00:00 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Balboa VS Isidro Metapan | El Salvador Primera Lig Apertura | 00:00 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cacahuatique VS Aguila | El Salvador Primera Lig Apertura | 00:00 | MS 1 | 3.17 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Marquense VS Municipal | Guatemala Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Always Ready VS Bolivar | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Chapecoense VS Cruzeiro | Brezilya Kupa Son 16 Turu | 00:30 | MS 1 | 3.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Chapecoense VS Cruzeiro | Brezilya Kupa Son 16 Turu | 00:30 | MS 1 | 3.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Univ. De Şili VS Huachipato | Şili Premier Lig | 00:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Nacional Df VS Progreso | Uruguay Premier Lig Intermediate Turu Grup 2 | 00:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Deportivo Sapr VS Ad San Carlos | Kosta Rika Premier Lig Apertura | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -110,16 +110,16 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Rijeka VS Rudes | MS X | 5.55 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Rijeka VS Rudes | MS X | 5.60 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Liverpool VS Leeds Utd | MS 2 | 4.11 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Psv Eindhoven VS Az Alkmaar | MS X | 4.01 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Rijeka VS Rudes + Liverpool VS Leeds Utd | MS X + MS 2 | 22.81 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Rijeka VS Rudes + Liverpool VS Leeds Utd | MS X + MS 2 | 23.02 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Rijeka VS Rudes + Liverpool VS Leeds Utd + Psv Eindhoven VS Az Alkmaar | MS X + MS 2 + MS X | 91.47 | 72 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Rijeka VS Rudes + Liverpool VS Leeds Utd + Psv Eindhoven VS Az Alkmaar | MS X + MS 2 + MS X | 92.29 | 72 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
