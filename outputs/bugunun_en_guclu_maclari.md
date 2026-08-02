@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-02T11:00:14.726Z
+- Güncelleme: 2026-08-02T11:02:18.054Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -21,10 +21,10 @@
 | Gimpo Citizen VS Gyeongnam | Güney Kore K Lig 2 | 13:30 | MS 2 | 3.27 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Ansan Greeners VS Gimhae City | Güney Kore K Lig 2 | 13:30 | MS X | 2.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Jeonnam Dragon VS Paju Citizen | Güney Kore K Lig 2 | 13:30 | MS X | 2.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Suzhou Dongwu VS Meizhou Hakka | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 2.99 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Shenzhen Junio VS Wuxi Wugou | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Changchun Yata VS Hebei Kungfu | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Enskede VS Taby | İsveç 2.Lig Norra Svealand | 14:00 | MS X | 2.83 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Suzhou Dongwu VS Meizhou Hakka | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 2.99 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Shenzhen Junio VS Wuxi Wugou | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Changchun Yata VS Hebei Kungfu | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Enskede VS Taby | İsveç 2.Lig Norra Svealand | 14:00 | MS X | 2.83 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Bossekop VS Harstad | Norveç 3.Lig Grup 5 | 14:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Germania Ratin VS Schermbeck | Hazırlık Kulüpler | 14:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Leyton Orient VS Antwerp | Hazırlık Kulüpler | 14:30 | MS X | 2.91 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -215,7 +215,7 @@
 | Inter San Carl VS Herediano | Kosta Rika Premier Lig Apertura | 03:00 | MS 1 | 3.38 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Walter Ferrett VS Matagalpa | Nikaragua Premier Lig Apertura | 03:00 | MS 2 | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Lanus VS Instituto Cordo | Arjantin Premier Lig 2. Aşama | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Inter San Carl VS Herediano | Kosta Rika Premier Lig Apertura | 03:30 | MS 1 | 3.27 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Inter San Carl VS Herediano | Kosta Rika Premier Lig Apertura | 03:30 | MS 1 | 3.07 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Toluca VS Necaxa | Meksika Liga MX Apertura | 04:05 | MS 2 | 4.30 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Depor. Olimpia VS Upnfm | Honduras Ulusal Lig Apertura | 04:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 
