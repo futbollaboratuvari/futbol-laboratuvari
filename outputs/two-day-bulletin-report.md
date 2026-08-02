@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 271
-Aktif mac: 231
-Canli mac: 32
-Biten mac: 8
-Bultenden dusurulen mac: 40
-Bugun: 207
+Ham mac: 263
+Aktif mac: 224
+Canli mac: 39
+Biten mac: 0
+Bultenden dusurulen mac: 39
+Bugun: 200
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-08-02 03:00 | Brezilya Kupa Son 16 Turu | Santos - Remo | scheduled | -
-- 2026-08-02 03:00 | Şili Premier Lig | Deportes Limac - Atletico Nublen | scheduled | -
-- 2026-08-02 03:00 | Ekvador Pro Lig | Emelec - Aucas | scheduled | -
-- 2026-08-02 03:00 | ABD USL | Birmingham Leg - Rhode Island | scheduled | -
-- 2026-08-02 03:00 | ABD USL | Tampa Bay Rowd - Louisville City | scheduled | -
-- 2026-08-02 03:00 | ABD USL Lig 1 | Forward Madiso - Westchester Sc | scheduled | -
-- 2026-08-02 03:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Deportivo San P | scheduled | -
 - 2026-08-02 03:30 | ABD MLS | St. Louis City - Salt Lake | scheduled | -
 - 2026-08-02 03:30 | ABD MLS | Kansas - Houston | scheduled | -
 - 2026-08-02 03:30 | ABD MLS | Chicago - Charlotte | scheduled | -
@@ -276,13 +269,13 @@ Yarin: 24
 - 2026-08-02 02:30 | ABD USL Lig 1 | Sarasota Parad - Naples | live | -
 - 2026-08-02 02:30 | ABD USL Lig 1 | Fort Wayne - Union Omaha | live | -
 - 2026-08-02 02:30 | ABD USL Lig 2 Şampiyonluk Final | Michigan Bucks - Vermont Green | live | -
+- 2026-08-02 03:00 | Brezilya Kupa Son 16 Turu | Santos - Remo | live | -
+- 2026-08-02 03:00 | Şili Premier Lig | Deportes Limac - Atletico Nublen | live | -
+- 2026-08-02 03:00 | Ekvador Pro Lig | Emelec - Aucas | live | -
+- 2026-08-02 03:00 | ABD USL | Birmingham Leg - Rhode Island | live | -
+- 2026-08-02 03:00 | ABD USL | Tampa Bay Rowd - Louisville City | live | -
+- 2026-08-02 03:00 | ABD USL Lig 1 | Forward Madiso - Westchester Sc | live | -
+- 2026-08-02 03:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Deportivo San P | live | -
 
 ## Biten Maclar
-- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Defensa Justici | finished | -
-- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Argentinos Jr | finished | -
-- 2026-08-02 00:00 | Nikaragua Premier Lig Apertura | San Marcos - Managua | finished | -
-- 2026-08-02 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Inter Fa | finished | -
-- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Trujillanos - Ucv | finished | -
-- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Monagas - Deportivo La Gu | finished | -
-- 2026-08-02 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Suchitepequez | finished | -
-- 2026-08-02 00:15 | Bolivya Premier Lig | San Antonio Bu - Blooming | finished | -
+Biten mac yok.
