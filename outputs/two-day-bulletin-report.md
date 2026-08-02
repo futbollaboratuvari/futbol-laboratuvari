@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-03 / 2026-08-04
 Kaynak: fixtures.json
-Ham mac: 9
+Ham mac: 7
 Aktif mac: 0
 Canli mac: 7
-Biten mac: 2
-Bultenden dusurulen mac: 9
+Biten mac: 0
+Bultenden dusurulen mac: 7
 Bugun: 0
 Yarin: 0
 
@@ -23,5 +23,4 @@ Mac bekleniyor.
 - 2026-08-03 22:45 | Arjantin Premier Lig 2. Aşama | Sarmiento - Rivadavia | live | -
 
 ## Biten Maclar
-- 2026-08-03 22:00 | Sırbistan Süper Lig | Zeleznicar Pan - Mladost Lucani | finished | -
-- 2026-08-03 22:00 | Arjantin Ulusal Primera Lig | Club Atletico - Tristan | finished | -
+Biten mac yok.

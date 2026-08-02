@@ -2,18 +2,15 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 29
-- Live match count: 28
+- Scheduled match count: 2
+- Live match count: 5
 - Finished removed count: 0
-- Date window: 2026-08-02 / 2026-08-03 23:59
+- Date window: 2026-08-03 / 2026-08-04 23:59
 
-- 2026-08-02 21:00 | Almirante - R Cordoba | live
-- 2026-08-02 21:00 | Chacarita Juni - Agropecuario | live
-- 2026-08-02 21:00 | Ciudad De Bolí - Ca Mitre | live
-- 2026-08-02 21:00 | San Telmo - San Miguel | live
-- 2026-08-02 21:00 | Pardubice - Jablonec | live
-- 2026-08-02 21:00 | Indep. Jose Te - Deportivo Cuenc | live
-- 2026-08-02 21:00 | Bohemian - Galway United | live
-- 2026-08-02 21:00 | Partizan Belgr - Imt Novi Beogra | live
-- 2026-08-02 21:00 | Zemun Belg. - Radnicki Nis | live
-- 2026-08-02 21:00 | Central Espano - Liverpool Monte | live
+- 2026-08-03 00:00 | Mirassol - Gremio | live
+- 2026-08-03 00:00 | Balboa - Isidro Metapan | live
+- 2026-08-03 00:00 | Cacahuatique - Aguila | live
+- 2026-08-03 00:00 | Marquense - Municipal | live
+- 2026-08-03 00:00 | Zamora - Rayo Zuliano | live
+- 2026-08-03 22:15 | Valur - Stjarnan | scheduled
+- 2026-08-03 22:45 | Sarmiento - Rivadavia | scheduled
