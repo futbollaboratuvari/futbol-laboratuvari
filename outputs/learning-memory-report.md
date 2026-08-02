@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.08.2026 22:36:42
+Oluşturma: 02.08.2026 23:02:43
 
 ## Özet
 
-- Toplam tahmin: 68
-- Bekleyen tahmin: 68
+- Toplam tahmin: 69
+- Bekleyen tahmin: 69
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 37
@@ -20,12 +20,13 @@ Oluşturma: 02.08.2026 22:36:42
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
-- MS X: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-02 | Hazırlık Kulüpler | Liverpool - Leeds Utd | MS X | pending | 70/100
 - 2026-08-02 | Hazırlık Kulüpler | Sunderland - Wrexham | MS 2 | pending | 50/100
 - 2026-08-02 | Norveç Eliteserien | Brann - Rosenborg | MS X | pending | 60/100
 - 2026-08-02 | Rusya Premier Lig | Akhmat Grozny - Spartak Moskova | MS 1 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 02.08.2026 22:36:42
 - 2026-08-02 | Peru Premier Lig Clausura | Adt - Deportivo Garci | MS 2 | pending | 40/100
 - 2026-08-02 | Slovenya 1.SNL | Olimpija Ljubl - Aluminij | MS 2 | pending | 60/100
 - 2026-08-02 | Romanya 1.Lig | Rapid Bükreş - Cfr Cluj | MS 2 | pending | 40/100
-- 2026-08-02 | Hazırlık Kulüpler | Ascoli Picchio - Lazio | MS 1 | pending | 45/100
 

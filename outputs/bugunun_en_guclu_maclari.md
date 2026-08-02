@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-02T19:36:29.871Z
+- Güncelleme: 2026-08-02T20:00:44.758Z
 - Ham maç sayısı: 71
 - Yarın bülteni maç sayısı: 27
 - Detay blok sayısı: 195
-- Aktif bülten maçı: 31
-- Bültenden düşürülen maç: 40
+- Aktif bülten maçı: 29
+- Bültenden düşürülen maç: 42
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Newells Old Bo - Boca Juniors | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 3.93 | 8 |
-| Liverpool - Leeds Utd | Hazırlık Kulüpler | 23:00 | Veri bekleniyor | - | 1.39 | 7 |
 | Deportivo Moqu - Melgar | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 3.33 | 8 |
 | Depor Macara - Guayaquil City | Ekvador Pro Lig | 23:30 | Veri bekleniyor | - | 1.27 | 7 |
 | Mirassol - Gremio | Brezilya Kupa Son 16 Turu | 00:00 | Veri bekleniyor | - | 1.7 | 8 |

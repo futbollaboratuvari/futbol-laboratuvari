@@ -1,39 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T18:55:14.635692+00:00
+Tarih: 2026-08-02T20:01:09.696272+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 38
+- Kac mac bulundu: 5
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 38
+- Kac mac zaten vardi: 5
 - Ham veri havuzu toplam mac sayisi: 4579
 - Hedef tarih: 02.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
 - Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Bolivya Premier Lig
-- Brezilya Kupa Son 16 Turu
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
-- Hırvatistan 1.HNL
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Uganda Süper 8 Çeyrek Final
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -90,8 +75,8 @@ Tarih: 2026-08-02T18:55:14.635692+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 21
+- Acilan detay: 21
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -106,24 +91,9 @@ Tarih: 2026-08-02T18:55:14.635692+00:00
 |---|---|---|---|---|---|---:|
 | 02.08.2026 | 23:00 | Hazırlık Kulüpler | Liverpool | Leeds Utd | 06846 | 5 |
 | 02.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo | Boca Juniors | 28760 | 5 |
-| 03.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | River Plate | Rosario Central | 28881 | 5 |
-| 03.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Lanus | Instituto Cordo | 28999 | 5 |
-| 03.08.2026 | 02:00 | Meksika Liga MX Apertura | Club America | Santos Laguna | 26356 | 5 |
-| 03.08.2026 | 04:05 | Meksika Liga MX Apertura | Toluca | Necaxa | 26398 | 5 |
-| 02.08.2026 | 22:00 | Brezilya Kupa Son 16 Turu | Palmeiras | Fortaleza Ce | 30799 | 5 |
-| 03.08.2026 | 00:30 | Brezilya Kupa Son 16 Turu | Chapecoense | Cruzeiro | 30934 | 5 |
-| 03.08.2026 | 00:00 | Brezilya Kupa Son 16 Turu | Mirassol | Gremio | 30876 | 5 |
-| 03.08.2026 | 01:30 | Brezilya Kupa Son 16 Turu | Internacional | Corinthians | 31009 | 5 |
-| 02.08.2026 | 22:00 | Hırvatistan 1.HNL | Rijeka | Rudes | 00984 | 4 |
 | 02.08.2026 | 23:30 | Peru Premier Lig Clausura | Deportivo Moqu | Melgar | 25048 | 5 |
-| 03.08.2026 | 02:30 | Peru Premier Lig Clausura | Cienciano | Universitario | 25068 | 5 |
-| 03.08.2026 | 00:00 | Venezuela Premier Lig Clausura | Zamora | Rayo Zuliano | 15453 | 5 |
-| 03.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Metropolitanos | Academia Puerto | 15984 | 5 |
-| 02.08.2026 | 22:00 | Şili Premier Lig | La Serena | O Higgins | 15768 | 5 |
-| 03.08.2026 | 00:30 | Şili Premier Lig | Univ. De Şili | Huachipato | 15790 | 5 |
-| 02.08.2026 | 22:30 | Arjantin Ulusal Primera Lig | Central Norte | Los Andes | 28728 | 3 |
-| 02.08.2026 | 22:00 | Arjantin Ulusal Primera Lig | Chaco For Ever | Moron | 28667 | 3 |
-| 02.08.2026 | 22:00 | Arjantin Ulusal Primera Lig | Deportivo Madr | All Boys | 28696 | 3 |
+| 02.08.2026 | 23:30 | Ekvador Pro Lig | Depor Macara | Guayaquil City | 30859 | 5 |
+| 02.08.2026 | 16:00 | Uganda Süper 8 Çeyrek Final | Kitara | Entebbe Uppc | 04112 | 3 |
 
 ## Sonuc
 
