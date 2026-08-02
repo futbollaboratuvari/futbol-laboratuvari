@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-02T10:23:00.489Z
+- Güncelleme: 2026-08-02T10:54:08.283Z
 - Ham maç sayısı: 210
 - Yarın bülteni maç sayısı: 27
 - Detay blok sayısı: 583
-- Aktif bülten maçı: 203
-- Bültenden düşürülen maç: 7
+- Aktif bülten maçı: 196
+- Bültenden düşürülen maç: 14
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Jeju Utd - Incheon Utd | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.61 | 8 |
-| Daejeon Citize - Gwangju | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.34 | 7 |
-| Ulsan - Anyang | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.8 | 8 |
-| Busan Ipark - Seoul E-Land | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.32 | 8 |
-| Gimpo Citizen - Gyeongnam | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.74 | 8 |
-| Ansan Greeners - Gimhae City | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 2.53 | 8 |
-| Jeonnam Dragon - Paju Citizen | Güney Kore K Lig 2 | 13:30 | Veri bekleniyor | - | 1.9 | 8 |
 | Suzhou Dongwu - Meizhou Hakka | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.94 | 8 |
 | Shenzhen Junio - Wuxi Wugou | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.81 | 8 |
 | Changchun Yata - Hebei Kungfu | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.8 | 8 |

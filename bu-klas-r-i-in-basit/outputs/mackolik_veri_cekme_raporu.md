@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T09:31:49.561934+00:00
+Tarih: 2026-08-02T10:56:09.372930+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 204
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 204
-- Ham veri havuzu toplam mac sayisi: 4575
+- Kac mac bulundu: 170
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 169
+- Ham veri havuzu toplam mac sayisi: 4576
 - Hedef tarih: 02.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
 - Almanya Bölgesel Lig Kuzey Doğu
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
@@ -26,23 +25,16 @@ Tarih: 2026-08-02T09:31:49.561934+00:00
 - Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
 - Hazırlık Kulüpler
 - Hollanda Süper Kupa
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
@@ -50,9 +42,7 @@ Tarih: 2026-08-02T09:31:49.561934+00:00
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
 - Macaristan NB II
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -73,8 +63,6 @@ Tarih: 2026-08-02T09:31:49.561934+00:00
 - Sırbistan Süper Lig
 - Ukrayna Premier Lig
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti 1.Lig
@@ -147,8 +135,8 @@ Tarih: 2026-08-02T09:31:49.561934+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 83
-- Acilan detay: 83
+- Denenen Tumu alani: 81
+- Acilan detay: 81
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -162,25 +150,25 @@ Tarih: 2026-08-02T09:31:49.561934+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 02.08.2026 | 19:00 | Hollanda Süper Kupa | Psv Eindhoven | Az Alkmaar | 30574 | 5 |
-| 02.08.2026 | 16:00 | İskoçya Premiership | St Johnstone | Kilmarnock | 25786 | 5 |
 | 02.08.2026 | 18:30 | İskoçya Premiership | Hibernian | Motherwell | 25840 | 5 |
-| 02.08.2026 | 20:00 | Avusturya Bundesliga | Rapid Wien | Altach | 11807 | 5 |
+| 02.08.2026 | 16:00 | İskoçya Premiership | St Johnstone | Kilmarnock | 25786 | 5 |
 | 02.08.2026 | 18:00 | Avusturya Bundesliga | Wolfsberger | Austria Vienna | 11713 | 5 |
+| 02.08.2026 | 20:00 | Avusturya Bundesliga | Rapid Wien | Altach | 11807 | 5 |
 | 02.08.2026 | 18:00 | Avusturya Bundesliga | Avusturya Lust | Ried | 11546 | 5 |
 | 02.08.2026 | 19:00 | Danimarka Süperlig | Silkeborg | Kopenhag | 15536 | 5 |
-| 02.08.2026 | 15:00 | Danimarka Süperlig | Nordsjaelland | Randers | 15130 | 5 |
 | 02.08.2026 | 17:00 | Danimarka Süperlig | Brondby | Viborg | 15478 | 5 |
+| 02.08.2026 | 15:00 | Danimarka Süperlig | Nordsjaelland | Randers | 15130 | 5 |
 | 02.08.2026 | 15:00 | Danimarka Süperlig | Midtjylland | Horsens | 15061 | 5 |
+| 02.08.2026 | 15:45 | Polonya Ekstraklasa | Legia Varşova | Zaglebie Lubin | 19803 | 5 |
 | 02.08.2026 | 18:30 | Polonya Ekstraklasa | Slask Wroclaw | Rakow Czestocho | 19890 | 5 |
 | 02.08.2026 | 21:15 | Polonya Ekstraklasa | Gks Katowice | Radomiak Radom | 20010 | 5 |
-| 02.08.2026 | 15:45 | Polonya Ekstraklasa | Legia Varşova | Zaglebie Lubin | 19803 | 5 |
 | 02.08.2026 | 17:30 | İsviçre Süper Lig | Sion | Luzern | 24203 | 5 |
-| 02.08.2026 | 15:00 | İsviçre Süper Lig | Vaduz | St Gallen | 24095 | 5 |
 | 02.08.2026 | 17:30 | İsviçre Süper Lig | Grasshoppers | Lugano | 24149 | 5 |
+| 02.08.2026 | 15:00 | İsviçre Süper Lig | Vaduz | St Gallen | 24095 | 5 |
+| 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
 | 02.08.2026 | 17:00 | İrlanda Premier Lig | Waterford | Shelbourne | 24727 | 5 |
 | 02.08.2026 | 19:00 | İrlanda Premier Lig | St Patricks | Derry City | 24781 | 5 |
-| 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
-| 02.08.2026 | 20:30 | Rusya Premier Lig | Akhmat Grozny | Spartak Moskova | 20607 | 5 |
+| 02.08.2026 | 16:00 | Rusya Premier Lig | Orenburg | Zenit | 20482 | 5 |
 
 ## Sonuc
 

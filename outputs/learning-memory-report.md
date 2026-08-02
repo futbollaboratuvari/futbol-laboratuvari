@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.08.2026 13:11:28
+Oluşturma: 02.08.2026 13:57:26
 
 ## Özet
 
-- Toplam tahmin: 128
-- Bekleyen tahmin: 128
+- Toplam tahmin: 131
+- Bekleyen tahmin: 131
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 55
@@ -20,12 +20,15 @@ Oluşturma: 02.08.2026 13:11:28
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
 - MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-02 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ansar | MS 1 | pending | 40/100
+- 2026-08-02 | İskoçya Premiership | Hibernian - Motherwell | MS 2 | pending | 50/100
+- 2026-08-02 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Meizhou Hakka | MS 2 | pending | 40/100
 - 2026-08-02 | İrlanda Premier Lig | Bohemian - Galway United | MS 2 | pending | 60/100
 - 2026-08-02 | Hazırlık Kulüpler | Ascoli Picchio - Lazio | MS 1 | pending | 40/100
 - 2026-08-02 | Hazırlık Kulüpler | Liverpool - Leeds Utd | MS X | pending | 70/100
@@ -38,7 +41,4 @@ Oluşturma: 02.08.2026 13:11:28
 - 2026-08-02 | Hazırlık Kulüpler | Feyenoord - Atalanta | MS X | pending | 70/100
 - 2026-08-02 | Hazırlık Kulüpler | Leyton Orient - Antwerp | MS X | pending | 50/100
 - 2026-08-02 | Hazırlık Kulüpler | Luton - Go Ahead Eagles | MS X | pending | 50/100
-- 2026-08-02 | İsveç 2.Lig Vastra Götaland | Landvetter Is - Dalstorps If | MS X | pending | 50/100
-- 2026-08-02 | Hırvatistan 1.HNL | Varazdin - Hajduk Split | MS X | pending | 50/100
-- 2026-08-02 | Güney Kore K Lig 1 | Ulsan - Anyang | MS X | pending | 50/100
 
