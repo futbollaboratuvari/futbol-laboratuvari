@@ -3,16 +3,14 @@
 Gunler: 2026-08-03 / 2026-08-04
 Kaynak: fixtures.json
 Ham mac: 87
-Aktif mac: 71
-Canli mac: 16
+Aktif mac: 69
+Canli mac: 18
 Biten mac: 0
-Bultenden dusurulen mac: 16
-Bugun: 60
+Bultenden dusurulen mac: 18
+Bugun: 58
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-03 02:10 | Ekvador Pro Lig | Leones Del Nor - Barcelona Gua | scheduled | -
-- 2026-08-03 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Olancho | scheduled | -
 - 2026-08-03 02:30 | Peru Premier Lig Clausura | Cienciano - Universitario | scheduled | -
 - 2026-08-03 02:30 | Bolivya Premier Lig | Oriente Petrol - Nacional Potosi | scheduled | -
 - 2026-08-03 02:30 | El Salvador Primera Lig Apertura | Inca-Aruba - Deportivo Fas | scheduled | -
@@ -100,6 +98,8 @@ Yarin: 11
 - 2026-08-03 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Academia Puerto | live | -
 - 2026-08-03 02:00 | Meksika Liga MX Apertura | Club America - Santos Laguna | live | -
 - 2026-08-03 02:00 | ABD USL | Birmingham Leg - Rhode Island | live | -
+- 2026-08-03 02:10 | Ekvador Pro Lig | Leones Del Nor - Barcelona Gua | live | -
+- 2026-08-03 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Olancho | live | -
 
 ## Biten Maclar
 Biten mac yok.
