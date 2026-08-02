@@ -2,21 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-02T17:18:35.013Z
+- Güncelleme: 2026-08-02T17:35:18.522Z
 - Ham maç sayısı: 123
 - Yarın bülteni maç sayısı: 27
 - Detay blok sayısı: 341
-- Aktif bülten maçı: 63
-- Bültenden düşürülen maç: 60
+- Aktif bülten maçı: 58
+- Bültenden düşürülen maç: 65
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Akhmat Grozny - Spartak Moskova | Rusya Premier Lig | 20:30 | Veri bekleniyor | - | 3.34 | 8 |
-| Riestra - Barracas | Arjantin Premier Lig 2. Aşama | 20:30 | Veri bekleniyor | - | 1.94 | 8 |
-| Aldosivi - Gimnasia La Pla | Arjantin Premier Lig 2. Aşama | 20:30 | Veri bekleniyor | - | 2.75 | 8 |
-| Pogon Grodzisk - Puszcza Niepolo | Polonya 1.Lig | 20:30 | Veri bekleniyor | - | 1.91 | 8 |
-| Sandecja Nowy - Chojniczanka | Polonya 2.Lig | 20:30 | Veri bekleniyor | - | 1.98 | 8 |
 | Nejmeh - Ansar | Lübnan Premier Lig Şampiyonluk Turu | 20:45 | Veri bekleniyor | - | 2.72 | 8 |
 | Bohemian - Galway United | İrlanda Premier Lig | 21:00 | Veri bekleniyor | - | 1.37 | 7 |
 | Pardubice - Jablonec | Çek Cumhuriyeti Czech Liga | 21:00 | Veri bekleniyor | - | 2.07 | 8 |
