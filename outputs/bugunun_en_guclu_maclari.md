@@ -2,20 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-02T07:29:22.796Z
+- Güncelleme: 2026-08-02T09:15:12.711Z
 - Ham maç sayısı: 209
 - Yarın bülteni maç sayısı: 27
 - Detay blok sayısı: 582
-- Aktif bülten maçı: 207
-- Bültenden düşürülen maç: 2
+- Aktif bülten maçı: 203
+- Bültenden düşürülen maç: 6
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ska-Khabarovsk - Ural | Rusya FNL | 11:00 | Veri bekleniyor | - | 3.63 | 8 |
-| Wspg Wels - Austria Salzbur | Avusturya 1.Lig | 11:30 | Veri bekleniyor | - | 2.13 | 8 |
-| Petrzalka - Mfk Bytca | Slovakya 2.Lig | 11:30 | Veri bekleniyor | - | 1.11 | 4 |
-| Malzenice - Slovan Bratisla | Slovakya 2.Lig | 11:30 | Veri bekleniyor | - | 1.78 | 8 |
 | Chernomorets - Polessya | Ukrayna Premier Lig | 13:00 | Veri bekleniyor | - | 6.3 | 6 |
 | Qingdao West C - Qingdao Zhongne | Çin Halk Cumhuriyeti Süper Lig | 13:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Qviding - Astrio | İsveç 2.Lig Vastra Götaland | 13:00 | Veri bekleniyor | - | 1.4 | 4 |
