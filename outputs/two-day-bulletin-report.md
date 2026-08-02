@@ -1,24 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-02 / 2026-08-03
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 263
-Aktif mac: 224
-Canli mac: 39
+Aktif mac: 216
+Canli mac: 47
 Biten mac: 0
-Bultenden dusurulen mac: 39
-Bugun: 200
+Bultenden dusurulen mac: 47
+Bugun: 192
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-08-02 03:30 | ABD MLS | St. Louis City - Salt Lake | scheduled | -
-- 2026-08-02 03:30 | ABD MLS | Kansas - Houston | scheduled | -
-- 2026-08-02 03:30 | ABD MLS | Chicago - Charlotte | scheduled | -
-- 2026-08-02 03:30 | ABD MLS | Minnesota Utd - San Diego | scheduled | -
-- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Leones Negros | scheduled | -
-- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Piratas - Monarcas | scheduled | -
-- 2026-08-02 04:00 | Kanada Premier Lig | Cavalry - Inter Toronto | scheduled | -
-- 2026-08-02 04:00 | CONCACAF U20 Grup C | Honduras (U20) - Panama (U20) | scheduled | -
 - 2026-08-02 04:05 | Meksika Liga MX Apertura | Atlas - Monterrey | scheduled | -
 - 2026-08-02 04:06 | Meksika Liga MX Apertura | Club Leon - Pachuca | scheduled | -
 - 2026-08-02 04:30 | ABD MLS | Colorado - Austin | scheduled | -
@@ -237,6 +230,14 @@ Yarin: 24
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
+- 2026-08-02 03:30 | ABD MLS | St. Louis City - Salt Lake | live | -
+- 2026-08-02 03:30 | ABD MLS | Kansas - Houston | live | -
+- 2026-08-02 03:30 | ABD MLS | Chicago - Charlotte | live | -
+- 2026-08-02 03:30 | ABD MLS | Minnesota Utd - San Diego | live | -
+- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Leones Negros | live | -
+- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Piratas - Monarcas | live | -
+- 2026-08-02 04:00 | Kanada Premier Lig | Cavalry - Inter Toronto | live | -
+- 2026-08-02 04:00 | CONCACAF U20 Grup C | Honduras (U20) - Panama (U20) | live | -
 - 2026-08-02 00:30 | Şili Premier Lig | Palestino - Coquimbo Unido | live | -
 - 2026-08-02 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Penarol - Cerro Largo | live | -
 - 2026-08-02 00:30 | Ekvador Pro Lig | Univ Catolica - T.Universitario | live | -
