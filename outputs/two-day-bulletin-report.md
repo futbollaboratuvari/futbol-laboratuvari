@@ -2,21 +2,15 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 123
-Aktif mac: 63
-Canli mac: 60
+Ham mac: 95
+Aktif mac: 57
+Canli mac: 38
 Biten mac: 0
-Bultenden dusurulen mac: 60
-Bugun: 36
+Bultenden dusurulen mac: 38
+Bugun: 30
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-02 20:30 | Rusya Premier Lig | Akhmat Grozny - Spartak Moskova | scheduled | -
-- 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Riestra - Barracas | scheduled | -
-- 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Gimnasia La Pla | scheduled | -
-- 2026-08-02 20:30 | Polonya 1.Lig | Pogon Grodzisk - Puszcza Niepolo | scheduled | -
-- 2026-08-02 20:30 | Polonya 2.Lig | Sandecja Nowy - Chojniczanka | scheduled | -
-- 2026-08-02 20:45 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ansar | scheduled | -
 - 2026-08-02 21:00 | İrlanda Premier Lig | Bohemian - Galway United | scheduled | -
 - 2026-08-02 21:00 | Çek Cumhuriyeti Czech Liga | Pardubice - Jablonec | scheduled | -
 - 2026-08-02 21:00 | Sırbistan Süper Lig | Zemun Belg. - Radnicki Nis | scheduled | -
@@ -76,34 +70,6 @@ Yarin: 27
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
-- 2026-08-02 17:30 | İsviçre Süper Lig | Sion - Luzern | live | -
-- 2026-08-02 17:30 | İsviçre Süper Lig | Grasshoppers - Lugano | live | -
-- 2026-08-02 17:30 | İsveç Allsvenskan | Aik Stockholm - Orgryte | live | -
-- 2026-08-02 17:30 | Norveç 3.Lig Grup 5 | Skedsmo - Finnsnes | live | -
-- 2026-08-02 18:00 | Avusturya Bundesliga | Wolfsberger - Austria Vienna | live | -
-- 2026-08-02 18:00 | Avusturya Bundesliga | Avusturya Lust - Ried | live | -
-- 2026-08-02 18:00 | Norveç Eliteserien | Molde - Sarpsborg | live | -
-- 2026-08-02 18:00 | Norveç Eliteserien | Aalesund - Tromso | live | -
-- 2026-08-02 18:00 | Norveç Eliteserien | Kfum Oslo - Kristiansund | live | -
-- 2026-08-02 18:00 | Norveç 1.Lig | Kongsvinger - Strommen | live | -
-- 2026-08-02 18:00 | Norveç 1.Lig | Raufoss - Stabaek | live | -
-- 2026-08-02 18:00 | Norveç 1.Lig | Egersunds - Sandnes | live | -
-- 2026-08-02 18:00 | Norveç 1.Lig | Hodd - Moss | live | -
-- 2026-08-02 18:00 | Norveç 1.Lig | Lyn Oslo - Sogndal | live | -
-- 2026-08-02 18:00 | Norveç 1.Lig | Odds Bk - Asane | live | -
-- 2026-08-02 18:00 | Slovakya Süper Lig | Zemplin - Zilina | live | -
-- 2026-08-02 18:00 | Slovakya Süper Lig | Dac - Dukla Banska By | live | -
-- 2026-08-02 18:00 | Polonya 1.Lig | Stal Mielec - P. Bielsko | live | -
-- 2026-08-02 18:00 | Belarus Premier Lig | Dinamo Brest - Belshina Bobrui | live | -
-- 2026-08-02 18:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi - Boston River | live | -
-- 2026-08-02 18:00 | Letonya Virsliga | Riga Fc - Grobina | live | -
-- 2026-08-02 18:00 | Kazakistan Premier Lig | Ordabasy - Tobol Kostanay | live | -
-- 2026-08-02 18:00 | Norveç 3.Lig Grup 1 | Asker - If Ready | live | -
-- 2026-08-02 18:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Tromso Ii | live | -
-- 2026-08-02 18:00 | Hazırlık Kulüpler | Parma - Iraklis 1908 | live | -
-- 2026-08-02 18:15 | Rusya Premier Lig | Krasnodar - Fakel Voronezh | live | -
-- 2026-08-02 18:15 | Çek Cumhuriyeti FNL | Arsenal Ceska - Slavia Praha Ii | live | -
-- 2026-08-02 18:15 | Norveç 1.Lig | Raufoss - Stabaek | live | -
 - 2026-08-02 18:30 | İskoçya Premiership | Hibernian - Motherwell | live | -
 - 2026-08-02 18:30 | Polonya Ekstraklasa | Slask Wroclaw - Rakow Czestocho | live | -
 - 2026-08-02 18:30 | Çek Cumhuriyeti Czech Liga | Bohemians 1905 - Hradec Kralove | live | -
@@ -136,6 +102,12 @@ Yarin: 27
 - 2026-08-02 20:00 | Macaristan NB II | Csakvari Tk - Nagykanizsai Ul | live | -
 - 2026-08-02 20:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Viggbyholms Ik | live | -
 - 2026-08-02 20:15 | Norveç Eliteserien | Brann - Rosenborg | live | -
+- 2026-08-02 20:30 | Rusya Premier Lig | Akhmat Grozny - Spartak Moskova | live | -
+- 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Riestra - Barracas | live | -
+- 2026-08-02 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Gimnasia La Pla | live | -
+- 2026-08-02 20:30 | Polonya 1.Lig | Pogon Grodzisk - Puszcza Niepolo | live | -
+- 2026-08-02 20:30 | Polonya 2.Lig | Sandecja Nowy - Chojniczanka | live | -
+- 2026-08-02 20:45 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ansar | live | -
 
 ## Biten Maclar
 Biten mac yok.
