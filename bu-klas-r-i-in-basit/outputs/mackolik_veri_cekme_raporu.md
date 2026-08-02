@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T16:17:45.890207+00:00
+Tarih: 2026-08-02T16:47:30.342541+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 49
+- Kac mac bulundu: 71
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 49
+- Kac mac zaten vardi: 71
 - Ham veri havuzu toplam mac sayisi: 4579
 - Hedef tarih: 02.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
@@ -21,11 +22,17 @@ Tarih: 2026-08-02T16:17:45.890207+00:00
 - Brezilya Kupa Son 16 Turu
 - Bulgaristan 1.Lig
 - Ekvador Pro Lig
-- Faroe Adaları Master Lig
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Lübnan Premier Lig Şampiyonluk Turu
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -38,6 +45,8 @@ Tarih: 2026-08-02T16:17:45.890207+00:00
 - Sırbistan Süper Lig
 - Uganda Süper 8 Çeyrek Final
 - Uruguay Premier Lig Intermediate Turu Grup 1
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İrlanda Premier Lig
 - İsveç 2.Lig Norra Svealand
@@ -98,8 +107,8 @@ Tarih: 2026-08-02T16:17:45.890207+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 44
-- Acilan detay: 44
+- Denenen Tumu alani: 43
+- Acilan detay: 43
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -120,18 +129,18 @@ Tarih: 2026-08-02T16:17:45.890207+00:00
 | 02.08.2026 | 20:15 | Norveç Eliteserien | Brann | Rosenborg | 23671 | 5 |
 | 02.08.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Radnicki Nis | 30718 | 5 |
 | 02.08.2026 | 21:00 | Sırbistan Süper Lig | Partizan Belgr | Imt Novi Beogra | 30701 | 5 |
-| 02.08.2026 | 15:30 | Hazırlık Kulüpler | Aachen | Eintracht Trier | 01905 | 3 |
-| 02.08.2026 | 21:45 | Hazırlık Kulüpler | Ascoli Picchio | Lazio | 06684 | 5 |
-| 02.08.2026 | 19:30 | Hazırlık Kulüpler | Genk | Twente | 06533 | 5 |
 | 02.08.2026 | 23:00 | Hazırlık Kulüpler | Liverpool | Leeds Utd | 06846 | 5 |
+| 02.08.2026 | 21:45 | Hazırlık Kulüpler | Ascoli Picchio | Lazio | 06684 | 5 |
+| 02.08.2026 | 15:30 | Hazırlık Kulüpler | Aachen | Eintracht Trier | 01905 | 3 |
 | 02.08.2026 | 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi | Gimnasia La Pla | 28202 | 5 |
-| 02.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo | Boca Juniors | 28760 | 5 |
 | 02.08.2026 | 20:30 | Arjantin Premier Lig 2. Aşama | Riestra | Barracas | 28318 | 5 |
+| 02.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo | Boca Juniors | 28760 | 5 |
+| 03.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | River Plate | Rosario Central | 28881 | 5 |
+| 03.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Lanus | Instituto Cordo | 28999 | 5 |
+| 03.08.2026 | 02:00 | Meksika Liga MX Apertura | Club America | Santos Laguna | 26356 | 5 |
+| 03.08.2026 | 04:05 | Meksika Liga MX Apertura | Toluca | Necaxa | 26398 | 5 |
 | 02.08.2026 | 22:00 | Brezilya Kupa Son 16 Turu | Palmeiras | Fortaleza Ce | 30799 | 5 |
-| 02.08.2026 | 21:15 | Bulgaristan 1.Lig | Cska Sofia | Dunav 2010 | 22041 | 5 |
-| 02.08.2026 | 22:00 | Hırvatistan 1.HNL | Rijeka | Rudes | 00984 | 4 |
-| 02.08.2026 | 19:30 | Hırvatistan 1.HNL | Varazdin | Hajduk Split | 24354 | 5 |
-| 02.08.2026 | 21:30 | Romanya 1.Lig | Rapid Bükreş | Cfr Cluj | 18586 | 5 |
+| 03.08.2026 | 01:30 | Brezilya Kupa Son 16 Turu | Internacional | Corinthians | 31009 | 5 |
 
 ## Sonuc
 

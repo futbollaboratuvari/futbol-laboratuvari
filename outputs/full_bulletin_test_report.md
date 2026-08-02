@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 71
 - Live match count: 48
-- Finished removed count: 24
+- Finished removed count: 0
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
 - 2026-08-02 18:00 | Avusturya Lust - Ried | live
