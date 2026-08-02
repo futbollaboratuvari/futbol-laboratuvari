@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 38
 - Live match count: 33
-- Finished removed count: 15
+- Finished removed count: 0
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
 - 2026-08-02 20:00 | Rapid Wien - Altach | live
