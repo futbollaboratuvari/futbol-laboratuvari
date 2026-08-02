@@ -3,36 +3,14 @@
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
 Ham mac: 207
-Aktif mac: 189
-Canli mac: 18
+Aktif mac: 167
+Canli mac: 40
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 162
+Bultenden dusurulen mac: 40
+Bugun: 140
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-02 15:00 | Danimarka Süperlig | Nordsjaelland - Randers | scheduled | -
-- 2026-08-02 15:00 | Danimarka Süperlig | Midtjylland - Horsens | scheduled | -
-- 2026-08-02 15:00 | İsviçre Süper Lig | Vaduz - St Gallen | scheduled | -
-- 2026-08-02 15:00 | Finlandiya Veikkausliiga | Vaasa - Inter Turku | scheduled | -
-- 2026-08-02 15:00 | İsveç Allsvenskan | Brommapojkarna - Malmö | scheduled | -
-- 2026-08-02 15:00 | İsveç Allsvenskan | Göteborg - Degerfors | scheduled | -
-- 2026-08-02 15:00 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Chongqing Tongl | scheduled | -
-- 2026-08-02 15:00 | Hazırlık Kulüpler | Union Berlin - Cagliari | scheduled | -
-- 2026-08-02 15:00 | Hazırlık Kulüpler | Aek - St. Truidense | scheduled | -
-- 2026-08-02 15:00 | Rusya FNL | Arsenal Tula - Torpedo Moskova | scheduled | -
-- 2026-08-02 15:00 | Norveç 2.Lig Grup 1 | Traeff - Jerv | scheduled | -
-- 2026-08-02 15:00 | Norveç 2.Lig Grup 2 | Follo - Trygg/Lade | scheduled | -
-- 2026-08-02 15:00 | Danimarka 1.Lig | Vendsyssel - Hobro | scheduled | -
-- 2026-08-02 15:00 | Kazakistan Premier Lig | Okzhetpes - Altay | scheduled | -
-- 2026-08-02 15:00 | Norveç 3.Lig Grup 4 | Viking B - Mandalskamerate | scheduled | -
-- 2026-08-02 15:00 | İsveç 2.Lig Norra Svealand | Bollstanas - Franke | scheduled | -
-- 2026-08-02 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Haninge | scheduled | -
-- 2026-08-02 15:00 | Letonya 1.Lig | Jfk Ventspils - Smiltene | scheduled | -
-- 2026-08-02 15:00 | Hazırlık Kulüpler | Aachen - Eintracht Trier | scheduled | -
-- 2026-08-02 15:00 | Hazırlık Kulüpler | Luton - Go Ahead Eagles | scheduled | -
-- 2026-08-02 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Erfurt | scheduled | -
-- 2026-08-02 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Magdeburg Ii | scheduled | -
 - 2026-08-02 15:30 | Ukrayna Premier Lig | Epitsentr Duna - Obolon-Brovar | scheduled | -
 - 2026-08-02 15:30 | Polonya 1.Lig | Ruch Chorzow - Miedz Legnica | scheduled | -
 - 2026-08-02 15:30 | Polonya 2.Lig | Rekord Bielsko - Zawisza Bydgosz | scheduled | -
@@ -220,6 +198,28 @@ Yarin: 27
 - 2026-08-02 14:00 | Hazırlık Kulüpler | Germania Ratin - Schermbeck | live | -
 - 2026-08-02 14:30 | Hazırlık Kulüpler | Leyton Orient - Antwerp | live | -
 - 2026-08-02 14:35 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Tiere - Shanghai Shenhu | live | -
+- 2026-08-02 15:00 | Danimarka Süperlig | Nordsjaelland - Randers | live | -
+- 2026-08-02 15:00 | Danimarka Süperlig | Midtjylland - Horsens | live | -
+- 2026-08-02 15:00 | İsviçre Süper Lig | Vaduz - St Gallen | live | -
+- 2026-08-02 15:00 | Finlandiya Veikkausliiga | Vaasa - Inter Turku | live | -
+- 2026-08-02 15:00 | İsveç Allsvenskan | Brommapojkarna - Malmö | live | -
+- 2026-08-02 15:00 | İsveç Allsvenskan | Göteborg - Degerfors | live | -
+- 2026-08-02 15:00 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Chongqing Tongl | live | -
+- 2026-08-02 15:00 | Hazırlık Kulüpler | Union Berlin - Cagliari | live | -
+- 2026-08-02 15:00 | Hazırlık Kulüpler | Aek - St. Truidense | live | -
+- 2026-08-02 15:00 | Rusya FNL | Arsenal Tula - Torpedo Moskova | live | -
+- 2026-08-02 15:00 | Norveç 2.Lig Grup 1 | Traeff - Jerv | live | -
+- 2026-08-02 15:00 | Norveç 2.Lig Grup 2 | Follo - Trygg/Lade | live | -
+- 2026-08-02 15:00 | Danimarka 1.Lig | Vendsyssel - Hobro | live | -
+- 2026-08-02 15:00 | Kazakistan Premier Lig | Okzhetpes - Altay | live | -
+- 2026-08-02 15:00 | Norveç 3.Lig Grup 4 | Viking B - Mandalskamerate | live | -
+- 2026-08-02 15:00 | İsveç 2.Lig Norra Svealand | Bollstanas - Franke | live | -
+- 2026-08-02 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Haninge | live | -
+- 2026-08-02 15:00 | Letonya 1.Lig | Jfk Ventspils - Smiltene | live | -
+- 2026-08-02 15:00 | Hazırlık Kulüpler | Aachen - Eintracht Trier | live | -
+- 2026-08-02 15:00 | Hazırlık Kulüpler | Luton - Go Ahead Eagles | live | -
+- 2026-08-02 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Erfurt | live | -
+- 2026-08-02 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Magdeburg Ii | live | -
 
 ## Biten Maclar
 Biten mac yok.
