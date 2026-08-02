@@ -1,40 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-02 / 2026-08-03
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 191
-Aktif mac: 142
-Canli mac: 49
+Aktif mac: 118
+Canli mac: 73
 Biten mac: 0
-Bultenden dusurulen mac: 49
-Bugun: 115
+Bultenden dusurulen mac: 73
+Bugun: 91
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-02 17:00 | Danimarka Süperlig | Brondby - Viborg | scheduled | -
-- 2026-08-02 17:00 | İrlanda Premier Lig | Waterford - Shelbourne | scheduled | -
-- 2026-08-02 17:00 | Finlandiya Veikkausliiga | Oulu - Ilves | scheduled | -
-- 2026-08-02 17:00 | Rusya FNL | Olimpiyets - Shinnik Yarosla | scheduled | -
-- 2026-08-02 17:00 | Norveç 2.Lig Grup 2 | Eidsvold Tf - Ik Junkeren | scheduled | -
-- 2026-08-02 17:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Tromsdalen | scheduled | -
-- 2026-08-02 17:00 | İzlanda Urvalsdeild | Akranes - Vikingur Reykja | scheduled | -
-- 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Zürich Ii - Biel-Bienne | scheduled | -
-- 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Paradiso - Schaffhausen | scheduled | -
-- 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Lugano Ii - Bulle | scheduled | -
-- 2026-08-02 17:00 | Estonya Premium Lig | Nomme Kalju - Tammeka Tartu | scheduled | -
-- 2026-08-02 17:00 | Estonya Premium Lig | Paide Linnamee - Kuressaare | scheduled | -
-- 2026-08-02 17:00 | İsveç 2.Lig Södra Götaland | Lilla Torg - Oskarshamns Aik | scheduled | -
-- 2026-08-02 17:00 | İsveç 2.Lig Södra Svealand | Sleipner - Karlslunds If | scheduled | -
-- 2026-08-02 17:00 | Litvanya 1.Lig | Fk Dainava - Tauras | scheduled | -
-- 2026-08-02 17:00 | Litvanya 1.Lig | Fa Siauliai Ii - Bfa | scheduled | -
-- 2026-08-02 17:00 | Faroe Adaları Master Lig | Kí Klaksvík - B36 Torshavn | scheduled | -
-- 2026-08-02 17:00 | Faroe Adaları Master Lig | Ab Argir - Skala | scheduled | -
-- 2026-08-02 17:00 | Faroe Adaları Master Lig | Streymur - Vikingur Gota | scheduled | -
-- 2026-08-02 17:00 | Hazırlık Kulüpler | Burnley - Torino | scheduled | -
-- 2026-08-02 17:30 | İsviçre Süper Lig | Sion - Luzern | scheduled | -
-- 2026-08-02 17:30 | İsviçre Süper Lig | Grasshoppers - Lugano | scheduled | -
-- 2026-08-02 17:30 | İsveç Allsvenskan | Aik Stockholm - Orgryte | scheduled | -
-- 2026-08-02 17:30 | Norveç 3.Lig Grup 5 | Skedsmo - Finnsnes | scheduled | -
 - 2026-08-02 18:00 | Avusturya Bundesliga | Wolfsberger - Austria Vienna | scheduled | -
 - 2026-08-02 18:00 | Avusturya Bundesliga | Avusturya Lust - Ried | scheduled | -
 - 2026-08-02 18:00 | Norveç Eliteserien | Molde - Sarpsborg | scheduled | -
@@ -155,6 +132,30 @@ Yarin: 27
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
+- 2026-08-02 17:00 | Danimarka Süperlig | Brondby - Viborg | live | -
+- 2026-08-02 17:00 | İrlanda Premier Lig | Waterford - Shelbourne | live | -
+- 2026-08-02 17:00 | Finlandiya Veikkausliiga | Oulu - Ilves | live | -
+- 2026-08-02 17:00 | Rusya FNL | Olimpiyets - Shinnik Yarosla | live | -
+- 2026-08-02 17:00 | Norveç 2.Lig Grup 2 | Eidsvold Tf - Ik Junkeren | live | -
+- 2026-08-02 17:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Tromsdalen | live | -
+- 2026-08-02 17:00 | İzlanda Urvalsdeild | Akranes - Vikingur Reykja | live | -
+- 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Zürich Ii - Biel-Bienne | live | -
+- 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Paradiso - Schaffhausen | live | -
+- 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Lugano Ii - Bulle | live | -
+- 2026-08-02 17:00 | Estonya Premium Lig | Nomme Kalju - Tammeka Tartu | live | -
+- 2026-08-02 17:00 | Estonya Premium Lig | Paide Linnamee - Kuressaare | live | -
+- 2026-08-02 17:00 | İsveç 2.Lig Södra Götaland | Lilla Torg - Oskarshamns Aik | live | -
+- 2026-08-02 17:00 | İsveç 2.Lig Södra Svealand | Sleipner - Karlslunds If | live | -
+- 2026-08-02 17:00 | Litvanya 1.Lig | Fk Dainava - Tauras | live | -
+- 2026-08-02 17:00 | Litvanya 1.Lig | Fa Siauliai Ii - Bfa | live | -
+- 2026-08-02 17:00 | Faroe Adaları Master Lig | Kí Klaksvík - B36 Torshavn | live | -
+- 2026-08-02 17:00 | Faroe Adaları Master Lig | Ab Argir - Skala | live | -
+- 2026-08-02 17:00 | Faroe Adaları Master Lig | Streymur - Vikingur Gota | live | -
+- 2026-08-02 17:00 | Hazırlık Kulüpler | Burnley - Torino | live | -
+- 2026-08-02 17:30 | İsviçre Süper Lig | Sion - Luzern | live | -
+- 2026-08-02 17:30 | İsviçre Süper Lig | Grasshoppers - Lugano | live | -
+- 2026-08-02 17:30 | İsveç Allsvenskan | Aik Stockholm - Orgryte | live | -
+- 2026-08-02 17:30 | Norveç 3.Lig Grup 5 | Skedsmo - Finnsnes | live | -
 - 2026-08-02 15:00 | Danimarka Süperlig | Nordsjaelland - Randers | live | -
 - 2026-08-02 15:00 | Danimarka Süperlig | Midtjylland - Horsens | live | -
 - 2026-08-02 15:00 | İsviçre Süper Lig | Vaduz - St Gallen | live | -
