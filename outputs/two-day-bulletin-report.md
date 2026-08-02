@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-03 / 2026-08-04
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 87
-Aktif mac: 76
-Canli mac: 11
+Aktif mac: 75
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 65
+Bultenden dusurulen mac: 12
+Bugun: 64
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-03 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Rosario Central | scheduled | -
 - 2026-08-03 01:30 | Brezilya Kupa Son 16 Turu | Internacional - Corinthians | scheduled | -
 - 2026-08-03 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Academia Puerto | scheduled | -
 - 2026-08-03 02:00 | Meksika Liga MX Apertura | Club America - Santos Laguna | scheduled | -
@@ -89,6 +89,7 @@ Yarin: 11
 - 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | scheduled | -
 
 ## Canli Maclar
+- 2026-08-03 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Rosario Central | live | -
 - 2026-08-03 00:00 | Brezilya Kupa Son 16 Turu | Mirassol - Gremio | live | -
 - 2026-08-03 00:00 | Venezuela Premier Lig Clausura | Zamora - Rayo Zuliano | live | -
 - 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Balboa - Isidro Metapan | live | -
