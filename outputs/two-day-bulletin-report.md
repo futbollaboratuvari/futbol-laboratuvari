@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 209
-Aktif mac: 207
-Canli mac: 2
+Ham mac: 210
+Aktif mac: 206
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 180
+Bultenden dusurulen mac: 4
+Bugun: 179
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-02 11:00 | Rusya FNL | Ska-Khabarovsk - Ural | scheduled | -
-- 2026-08-02 11:30 | Avusturya 1.Lig | Wspg Wels - Austria Salzbur | scheduled | -
-- 2026-08-02 11:30 | Slovakya 2.Lig | Petrzalka - Mfk Bytca | scheduled | -
-- 2026-08-02 11:30 | Slovakya 2.Lig | Malzenice - Slovan Bratisla | scheduled | -
 - 2026-08-02 13:00 | Ukrayna Premier Lig | Chernomorets - Polessya | scheduled | -
 - 2026-08-02 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Qingdao Zhongne | scheduled | -
 - 2026-08-02 13:00 | İsveç 2.Lig Vastra Götaland | Qviding - Astrio | scheduled | -
@@ -29,6 +25,7 @@ Yarin: 27
 - 2026-08-02 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Wuxi Wugou | scheduled | -
 - 2026-08-02 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Hebei Kungfu | scheduled | -
 - 2026-08-02 14:00 | İsveç 2.Lig Norra Svealand | Enskede - Taby | scheduled | -
+- 2026-08-02 14:00 | Norveç 3.Lig Grup 5 | Bossekop - Harstad | scheduled | -
 - 2026-08-02 14:30 | Hazırlık Kulüpler | Leyton Orient - Antwerp | scheduled | -
 - 2026-08-02 14:35 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Tiere - Shanghai Shenhu | scheduled | -
 - 2026-08-02 15:00 | Danimarka Süperlig | Nordsjaelland - Randers | scheduled | -
@@ -51,6 +48,8 @@ Yarin: 27
 - 2026-08-02 15:00 | Letonya 1.Lig | Jfk Ventspils - Smiltene | scheduled | -
 - 2026-08-02 15:00 | Hazırlık Kulüpler | Aachen - Eintracht Trier | scheduled | -
 - 2026-08-02 15:00 | Hazırlık Kulüpler | Luton - Go Ahead Eagles | scheduled | -
+- 2026-08-02 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Erfurt | scheduled | -
+- 2026-08-02 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Magdeburg Ii | scheduled | -
 - 2026-08-02 15:30 | Ukrayna Premier Lig | Epitsentr Duna - Obolon-Brovar | scheduled | -
 - 2026-08-02 15:30 | Polonya 1.Lig | Ruch Chorzow - Miedz Legnica | scheduled | -
 - 2026-08-02 15:30 | Polonya 2.Lig | Rekord Bielsko - Zawisza Bydgosz | scheduled | -
@@ -220,8 +219,10 @@ Yarin: 27
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
-- 2026-08-02 08:30 | Avustralya NPL Victoria | South Melbourn - St. Albans Sain | live | -
-- 2026-08-02 09:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Apia | live | -
+- 2026-08-02 11:00 | Rusya FNL | Ska-Khabarovsk - Ural | live | -
+- 2026-08-02 11:30 | Avusturya 1.Lig | Wspg Wels - Austria Salzbur | live | -
+- 2026-08-02 11:30 | Slovakya 2.Lig | Petrzalka - Mfk Bytca | live | -
+- 2026-08-02 11:30 | Slovakya 2.Lig | Malzenice - Slovan Bratisla | live | -
 
 ## Biten Maclar
 Biten mac yok.
