@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 29
 - Live match count: 28
-- Finished removed count: 14
+- Finished removed count: 0
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
 - 2026-08-02 21:00 | Almirante - R Cordoba | live
