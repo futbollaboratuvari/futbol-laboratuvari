@@ -1,19 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-02 / 2026-08-03
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 263
-Aktif mac: 216
-Canli mac: 47
-Biten mac: 0
-Bultenden dusurulen mac: 47
-Bugun: 192
+Kaynak: fixtures.json
+Ham mac: 271
+Aktif mac: 214
+Canli mac: 29
+Biten mac: 28
+Bultenden dusurulen mac: 57
+Bugun: 190
 Yarin: 24
 
 ## Baslamamis Maclar
-- 2026-08-02 04:05 | Meksika Liga MX Apertura | Atlas - Monterrey | scheduled | -
-- 2026-08-02 04:06 | Meksika Liga MX Apertura | Club Leon - Pachuca | scheduled | -
 - 2026-08-02 04:30 | ABD MLS | Colorado - Austin | scheduled | -
 - 2026-08-02 04:30 | Peru Premier Lig Clausura | Alianza Lima - Alianza Atletic | scheduled | -
 - 2026-08-02 04:30 | ABD USL | New Mexico Uni - Colorado Spring | scheduled | -
@@ -230,34 +227,6 @@ Yarin: 24
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
-- 2026-08-02 03:30 | ABD MLS | St. Louis City - Salt Lake | live | -
-- 2026-08-02 03:30 | ABD MLS | Kansas - Houston | live | -
-- 2026-08-02 03:30 | ABD MLS | Chicago - Charlotte | live | -
-- 2026-08-02 03:30 | ABD MLS | Minnesota Utd - San Diego | live | -
-- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Leones Negros | live | -
-- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Piratas - Monarcas | live | -
-- 2026-08-02 04:00 | Kanada Premier Lig | Cavalry - Inter Toronto | live | -
-- 2026-08-02 04:00 | CONCACAF U20 Grup C | Honduras (U20) - Panama (U20) | live | -
-- 2026-08-02 00:30 | Şili Premier Lig | Palestino - Coquimbo Unido | live | -
-- 2026-08-02 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Penarol - Cerro Largo | live | -
-- 2026-08-02 00:30 | Ekvador Pro Lig | Univ Catolica - T.Universitario | live | -
-- 2026-08-02 00:30 | Honduras Ulusal Lig Apertura | Genesis Pn - Choloma | live | -
-- 2026-08-02 00:45 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Venados Fc | live | -
-- 2026-08-02 01:00 | Kanada Premier Lig | Vancouver Fc - Atletico Ottawa | live | -
-- 2026-08-02 01:30 | Brezilya Kupa Son 16 Turu | Atletico Mg - Juventude | live | -
-- 2026-08-02 02:00 | Meksika Liga MX Apertura | Queretaro - Tigres Uanl | live | -
-- 2026-08-02 02:00 | Peru Premier Lig Clausura | Cusco Fc - Univ De Cajamar | live | -
-- 2026-08-02 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cds Tampico Mad | live | -
-- 2026-08-02 02:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Sporting San Jo | live | -
-- 2026-08-02 02:00 | ABD USL | Loudoun United - Hartford Athlet | live | -
-- 2026-08-02 02:00 | ABD USL | Lexington - Monterey Bay | live | -
-- 2026-08-02 02:00 | ABD USL | Miami Fc - Detroit City | live | -
-- 2026-08-02 02:00 | Nikaragua Premier Lig Apertura | Rancho Santana - Export Sebaco | live | -
-- 2026-08-02 02:00 | El Salvador Primera Lig Apertura | Municipal Lime - Platense | live | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Greenville Tri - Portland Hearts | live | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Charlotte Inde - One Knoxville | live | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Spokane Velocit | live | -
-- 2026-08-02 02:00 | ABD USL Lig 1 | Richmond Kicke - Alta | live | -
 - 2026-08-02 02:30 | ABD MLS | Cincinnati - San Jose | live | -
 - 2026-08-02 02:30 | ABD MLS | Montreal - New England | live | -
 - 2026-08-02 02:30 | ABD MLS | Philadelphia - Atlanta Utd | live | -
@@ -277,6 +246,43 @@ Yarin: 24
 - 2026-08-02 03:00 | ABD USL | Tampa Bay Rowd - Louisville City | live | -
 - 2026-08-02 03:00 | ABD USL Lig 1 | Forward Madiso - Westchester Sc | live | -
 - 2026-08-02 03:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Deportivo San P | live | -
+- 2026-08-02 03:30 | ABD MLS | St. Louis City - Salt Lake | live | -
+- 2026-08-02 03:30 | ABD MLS | Kansas - Houston | live | -
+- 2026-08-02 03:30 | ABD MLS | Chicago - Charlotte | live | -
+- 2026-08-02 03:30 | ABD MLS | Minnesota Utd - San Diego | live | -
+- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Leones Negros | live | -
+- 2026-08-02 04:00 | Meksika Ascenso MX Apertura | Piratas - Monarcas | live | -
+- 2026-08-02 04:00 | Kanada Premier Lig | Cavalry - Inter Toronto | live | -
+- 2026-08-02 04:00 | CONCACAF U20 Grup C | Honduras (U20) - Panama (U20) | live | -
+- 2026-08-02 04:05 | Meksika Liga MX Apertura | Atlas - Monterrey | live | -
+- 2026-08-02 04:06 | Meksika Liga MX Apertura | Club Leon - Pachuca | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Defensa Justici | finished | -
+- 2026-08-02 00:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Argentinos Jr | finished | -
+- 2026-08-02 00:00 | Nikaragua Premier Lig Apertura | San Marcos - Managua | finished | -
+- 2026-08-02 00:00 | El Salvador Primera Lig Apertura | Fuerte San Fra - Inter Fa | finished | -
+- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Trujillanos - Ucv | finished | -
+- 2026-08-02 00:00 | Venezuela Premier Lig Clausura | Monagas - Deportivo La Gu | finished | -
+- 2026-08-02 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Suchitepequez | finished | -
+- 2026-08-02 00:15 | Bolivya Premier Lig | San Antonio Bu - Blooming | finished | -
+- 2026-08-02 00:30 | Şili Premier Lig | Palestino - Coquimbo Unido | finished | -
+- 2026-08-02 00:30 | Uruguay Premier Lig Intermediate Turu Grup 1 | Penarol - Cerro Largo | finished | -
+- 2026-08-02 00:30 | Ekvador Pro Lig | Univ Catolica - T.Universitario | finished | -
+- 2026-08-02 00:30 | Honduras Ulusal Lig Apertura | Genesis Pn - Choloma | finished | -
+- 2026-08-02 00:45 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Venados Fc | finished | -
+- 2026-08-02 01:00 | Kanada Premier Lig | Vancouver Fc - Atletico Ottawa | finished | -
+- 2026-08-02 01:30 | Brezilya Kupa Son 16 Turu | Atletico Mg - Juventude | finished | -
+- 2026-08-02 02:00 | Meksika Liga MX Apertura | Queretaro - Tigres Uanl | finished | -
+- 2026-08-02 02:00 | Peru Premier Lig Clausura | Cusco Fc - Univ De Cajamar | finished | -
+- 2026-08-02 02:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Cds Tampico Mad | finished | -
+- 2026-08-02 02:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Sporting San Jo | finished | -
+- 2026-08-02 02:00 | ABD USL | Loudoun United - Hartford Athlet | finished | -
+- 2026-08-02 02:00 | ABD USL | Lexington - Monterey Bay | finished | -
+- 2026-08-02 02:00 | ABD USL | Miami Fc - Detroit City | finished | -
+- 2026-08-02 02:00 | Nikaragua Premier Lig Apertura | Rancho Santana - Export Sebaco | finished | -
+- 2026-08-02 02:00 | El Salvador Primera Lig Apertura | Municipal Lime - Platense | finished | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Greenville Tri - Portland Hearts | finished | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Charlotte Inde - One Knoxville | finished | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Chattanooga Re - Spokane Velocit | finished | -
+- 2026-08-02 02:00 | ABD USL Lig 1 | Richmond Kicke - Alta | finished | -

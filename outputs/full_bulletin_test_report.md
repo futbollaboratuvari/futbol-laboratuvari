@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 216
-- Live match count: 0
+- Scheduled match count: 214
+- Live match count: 29
 - Finished removed count: 0
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
-- 2026-08-02 04:05 | Atlas - Monterrey | scheduled
-- 2026-08-02 04:06 | Club Leon - Pachuca | scheduled
-- 2026-08-02 04:30 | Colorado - Austin | scheduled
-- 2026-08-02 04:30 | Athletic Club - Corpus Christi | scheduled
-- 2026-08-02 04:30 | New Mexico Uni - Colorado Spring | scheduled
-- 2026-08-02 04:30 | Alianza Lima - Alianza Atletic | scheduled
-- 2026-08-02 05:00 | Oakland Roots - Pittsburgh Rive | scheduled
-- 2026-08-02 05:00 | Orange County - El Paso Locomot | scheduled
-- 2026-08-02 05:00 | Guastatoya - Malacateco | scheduled
-- 2026-08-02 05:00 | Alajuelense - Liberia | scheduled
+- 2026-08-02 02:30 | Cincinnati - San Jose | live
+- 2026-08-02 02:30 | Dc United - Nashville Sc | live
+- 2026-08-02 02:30 | Inter Miami - Columbus | live
+- 2026-08-02 02:30 | Montreal - New England | live
+- 2026-08-02 02:30 | New York - Orlando City | live
+- 2026-08-02 02:30 | Philadelphia - Atlanta Utd | live
+- 2026-08-02 02:30 | Vancouver - Los Angeles Fc | live
+- 2026-08-02 02:30 | Charleston Bat - Brooklyn | live
+- 2026-08-02 02:30 | Fort Wayne - Union Omaha | live
+- 2026-08-02 02:30 | Sarasota Parad - Naples | live
