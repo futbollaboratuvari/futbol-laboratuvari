@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.08.2026 15:13:00
+Oluşturma: 02.08.2026 16:25:15
 
 ## Özet
 
@@ -32,7 +32,7 @@ Oluşturma: 02.08.2026 15:13:00
 - 2026-08-02 | İskoçya Premiership | Hibernian - Motherwell | MS 2 | pending | 50/100
 - 2026-08-02 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Meizhou Hakka | MS 2 | pending | 40/100
 - 2026-08-02 | İrlanda Premier Lig | Bohemian - Galway United | MS 2 | pending | 60/100
-- 2026-08-02 | Hazırlık Kulüpler | Ascoli Picchio - Lazio | MS 1 | pending | 40/100
+- 2026-08-02 | Hazırlık Kulüpler | Ascoli Picchio - Lazio | MS 1 | pending | 55/100
 - 2026-08-02 | Hazırlık Kulüpler | Liverpool - Leeds Utd | MS X | pending | 70/100
 - 2026-08-02 | Hazırlık Kulüpler | Albinoleffe - Internazionale | MS X | pending | 50/100
 - 2026-08-02 | Hazırlık Kulüpler | Sunderland - Wrexham | MS X | pending | 50/100
