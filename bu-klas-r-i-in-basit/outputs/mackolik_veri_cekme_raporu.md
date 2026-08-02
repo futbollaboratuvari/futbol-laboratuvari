@@ -1,37 +1,53 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T20:06:11.412609+00:00
+Tarih: 2026-08-02T21:08:35.453476+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 30
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 30
-- Ham veri havuzu toplam mac sayisi: 4579
-- Hedef tarih: 02.08.2026 Europe/Istanbul
+- Kac mac bulundu: 49
+- Kac mac kaydedildi: 49
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 4628
+- Hedef tarih: 03.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
+- AFF Şampiyonası Grup A
 - Arjantin Premier Lig 2. Aşama
-- Bolivya Premier Lig
-- Brezilya Kupa Son 16 Turu
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
-- Peru Premier Lig Clausura
-- Uganda Süper 8 Çeyrek Final
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
-- Şili Premier Lig
+- Arjantin Ulusal Primera Lig
+- Avustralya Victoria NPL 1
+- Bulgaristan 1.Lig
+- Danimarka Süperlig
+- Faroe Adaları Master Lig
+- Finlandiya Veikkausliiga
+- Letonya 1.Lig
+- Litvanya 1.Lig
+- Litvanya A Ligi
+- Macaristan NB I
+- Norveç 1.Lig
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 5
+- Norveç 3.Lig Grup 6
+- Polonya 1.Lig
+- Polonya Ekstraklasa
+- Romanya 1.Lig
+- Rusya FNL
+- Slovakya 2.Lig
+- Sırbistan Süper Lig
+- Ukrayna Premier Lig
+- İngiltere Lig Kupası Ön Eleme Turu
+- İrlanda 1.Lig
+- İskoçya Premiership
+- İsveç 2.Lig Södra Götaland
+- İsveç Allsvenskan
+- İsveç Superettan
+- İzlanda 1.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -88,8 +104,8 @@ Tarih: 2026-08-02T20:06:11.412609+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 42
+- Acilan detay: 42
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -102,26 +118,26 @@ Tarih: 2026-08-02T20:06:11.412609+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 02.08.2026 | 23:00 | Hazırlık Kulüpler | Liverpool | Leeds Utd | 06846 | 5 |
-| 03.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Lanus | Instituto Cordo | 28999 | 5 |
-| 03.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | River Plate | Rosario Central | 28881 | 5 |
-| 03.08.2026 | 02:00 | Meksika Liga MX Apertura | Club America | Santos Laguna | 26356 | 5 |
-| 03.08.2026 | 04:05 | Meksika Liga MX Apertura | Toluca | Necaxa | 26398 | 5 |
-| 03.08.2026 | 00:30 | Brezilya Kupa Son 16 Turu | Chapecoense | Cruzeiro | 30934 | 5 |
-| 03.08.2026 | 01:30 | Brezilya Kupa Son 16 Turu | Internacional | Corinthians | 31009 | 5 |
-| 03.08.2026 | 00:00 | Brezilya Kupa Son 16 Turu | Mirassol | Gremio | 30876 | 5 |
-| 02.08.2026 | 23:30 | Peru Premier Lig Clausura | Deportivo Moqu | Melgar | 25048 | 5 |
-| 03.08.2026 | 02:30 | Peru Premier Lig Clausura | Cienciano | Universitario | 25068 | 5 |
-| 03.08.2026 | 00:00 | Venezuela Premier Lig Clausura | Zamora | Rayo Zuliano | 15453 | 5 |
-| 03.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Metropolitanos | Academia Puerto | 15984 | 5 |
-| 03.08.2026 | 00:30 | Şili Premier Lig | Univ. De Şili | Huachipato | 15790 | 5 |
-| 03.08.2026 | 00:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df | Progreso | 27388 | 5 |
-| 03.08.2026 | 03:30 | Kosta Rika Premier Lig Apertura | Inter San Carl | Herediano | 08618 | 5 |
-| 03.08.2026 | 01:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr | Ad San Carlos | 30992 | 4 |
-| 03.08.2026 | 00:00 | Guatemala Ulusal Lig Apertura | Marquense | Municipal | 08686 | 5 |
-| 02.08.2026 | 23:30 | Ekvador Pro Lig | Depor Macara | Guayaquil City | 30859 | 5 |
-| 03.08.2026 | 02:10 | Ekvador Pro Lig | Leones Del Nor | Barcelona Gua | 31067 | 5 |
-| 03.08.2026 | 01:00 | Kanada Premier Lig | Hfx Wanderers | Forge | 25495 | 5 |
+| 03.08.2026 | 21:30 | İskoçya Premiership | Celtic | Dundee | 25894 | 4 |
+| 03.08.2026 | 20:00 | Danimarka Süperlig | Odense | Sonderjyske | 15590 | 5 |
+| 03.08.2026 | 20:00 | Polonya Ekstraklasa | Cracovia Krako | Pogon Szczecin | 20097 | 5 |
+| 03.08.2026 | 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Helsinki | 08416 | 5 |
+| 03.08.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Vasteras | 22843 | 5 |
+| 03.08.2026 | 20:00 | İsveç Allsvenskan | Halmstads | Sirius | 22890 | 5 |
+| 03.08.2026 | 15:30 | Ukrayna Premier Lig | Bukovyna | Lnz Cherkasy | 29873 | 5 |
+| 03.08.2026 | 18:00 | Ukrayna Premier Lig | Shakhtar Donet | Kudrivka | 00236 | 2 |
+| 03.08.2026 | 22:00 | Sırbistan Süper Lig | Zeleznicar Pan | Mladost Lucani | 31101 | 5 |
+| 03.08.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Macva | 31084 | 2 |
+| 03.08.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Sarmiento | Rivadavia | 29145 | 5 |
+| 03.08.2026 | 16:30 | AFF Şampiyonası Grup A | Endonezya | Vietnam | 17755 | 5 |
+| 03.08.2026 | 13:30 | AFF Şampiyonası Grup A | Kamboçya | Dogu Timor | 17752 | 3 |
+| 03.08.2026 | 21:30 | İngiltere Lig Kupası Ön Eleme Turu | York | Crawley | 05460 | 5 |
+| 03.08.2026 | 21:15 | Bulgaristan 1.Lig | Spartak Varna | Lokomotiv Plovd | 22058 | 5 |
+| 03.08.2026 | 20:05 | İsveç Superettan | Orebro | Varnamo | 22944 | 5 |
+| 03.08.2026 | 17:00 | Rusya FNL | Ufa | Kamaz | 07230 | 5 |
+| 03.08.2026 | 19:30 | Rusya FNL | Veles | Rotor Volgograd | 20661 | 5 |
+| 03.08.2026 | 20:00 | Norveç 1.Lig | Ranheim | Haugesund | 23725 | 5 |
+| 03.08.2026 | 18:30 | Macaristan NB I | Zalaegerszeg | Paksi | 25367 | 5 |
 
 ## Sonuc
 
