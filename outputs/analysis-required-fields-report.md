@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 187
-Tam analiz: 0
-Eksik analiz: 187
+Toplam analiz: 183
+Tam analiz: 156
+Eksik analiz: 27
 
-- Alajuelense VS Liberia: eksik score, confidence
-- Guastatoya VS Malacateco: eksik score, confidence
-- Orange County VS El Paso Locomot: eksik score, confidence
-- Oakland Roots VS Pittsburgh Rive: eksik score, confidence
-- Los Angeles VS Dallas: eksik score, confidence
-- Las Vegas Ligh VS Phoenix Rising: eksik score, confidence
-- Portland VS Seattle: eksik score, confidence
-- Cruz Azul VS Atlante: eksik score, confidence
-- Edgeworth Eagl VS Belmont Swansea: eksik score, confidence
-- Sacramento Rep VS Sporting Jax: eksik score, confidence
-- Sydney United VS Nws Spirit: eksik score, confidence
-- Magic United VS Brisbane Olympi: eksik score, confidence
-- Brisbane Roar VS Moreton City Ex: eksik score, confidence
-- Clarence Zebra VS Ulverstone: eksik score, confidence
-- Canberra VS Canberra Juvent: eksik score, confidence
-- Blacktown City VS Sydney Ii: eksik score, confidence
-- Marconi VS St George City: eksik score, confidence
-- Rockdale Cs VS Manly United: eksik score, confidence
-- South Melbourn VS St. Albans Sain: eksik score, confidence
-- Sydney Olympic VS Apia: eksik score, confidence
+- Petrzalka VS Mfk Bytca: eksik score, confidence
+- Qviding VS Astrio: eksik score, confidence
+- Bossekop VS Harstad: eksik score, confidence
+- Viking B VS Mandalskamerate: eksik score, confidence
+- Jfk Ventspils VS Smiltene: eksik score, confidence
+- Aachen VS Eintracht Trier: eksik score, confidence
+- Leipzig VS Magdeburg Ii: eksik score, confidence
+- Akranes VS Vikingur Reykja: eksik score, confidence
+- Sleipner VS Karlslunds If: eksik score, confidence
+- Fa Siauliai Ii VS Bfa: eksik score, confidence
+- Skedsmo VS Finnsnes: eksik score, confidence
+- Racing Montevi VS Boston River: eksik score, confidence
+- Asker VS If Ready: eksik score, confidence
+- Stromsgodset B VS Tromso Ii: eksik score, confidence
+- Sporting Crist VS Juan Pablo Ii C: eksik score, confidence
+- Flora Tallinn VS Harju Jalgpalli: eksik score, confidence
+- Vaprus VS Levadia Tallinn: eksik score, confidence
+- Petrocub VS Politeh Chişina: eksik score, confidence
+- Sunnersta Aif VS Viggbyholms Ik: eksik score, confidence
+- Almirante VS R Cordoba: eksik score, confidence
