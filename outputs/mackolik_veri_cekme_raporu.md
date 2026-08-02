@@ -1,9 +1,9 @@
 # Maçkolik Veri Çekme Raporu
 
-- Kaynak: Güncel veri bekleniyor
+- Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-02T22:16:12.818Z
-- Maç sayısı: 0
+- Güncelleme: 2026-08-02T23:10:27.242Z
+- Maç sayısı: 87
 - Aktif analiz sayısı: 0
 - Filtre: Çifte şans yok, eski sabit veri yok, düşük oranlı marketler elendi.

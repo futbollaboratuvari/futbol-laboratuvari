@@ -1,21 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-03 / 2026-08-04
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 87
-Aktif mac: 75
-Canli mac: 12
+Aktif mac: 71
+Canli mac: 16
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 64
+Bultenden dusurulen mac: 16
+Bugun: 60
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-03 01:30 | Brezilya Kupa Son 16 Turu | Internacional - Corinthians | scheduled | -
-- 2026-08-03 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Academia Puerto | scheduled | -
-- 2026-08-03 02:00 | Meksika Liga MX Apertura | Club America - Santos Laguna | scheduled | -
-- 2026-08-03 02:00 | ABD USL | Birmingham Leg - Rhode Island | scheduled | -
 - 2026-08-03 02:10 | Ekvador Pro Lig | Leones Del Nor - Barcelona Gua | scheduled | -
 - 2026-08-03 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Olancho | scheduled | -
 - 2026-08-03 02:30 | Peru Premier Lig Clausura | Cienciano - Universitario | scheduled | -
@@ -89,7 +84,6 @@ Yarin: 11
 - 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | scheduled | -
 
 ## Canli Maclar
-- 2026-08-03 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Rosario Central | live | -
 - 2026-08-03 00:00 | Brezilya Kupa Son 16 Turu | Mirassol - Gremio | live | -
 - 2026-08-03 00:00 | Venezuela Premier Lig Clausura | Zamora - Rayo Zuliano | live | -
 - 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Balboa - Isidro Metapan | live | -
@@ -101,6 +95,11 @@ Yarin: 11
 - 2026-08-03 00:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Progreso | live | -
 - 2026-08-03 01:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Ad San Carlos | live | -
 - 2026-08-03 01:00 | Kanada Premier Lig | Hfx Wanderers - Forge | live | -
+- 2026-08-03 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Rosario Central | live | -
+- 2026-08-03 01:30 | Brezilya Kupa Son 16 Turu | Internacional - Corinthians | live | -
+- 2026-08-03 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Academia Puerto | live | -
+- 2026-08-03 02:00 | Meksika Liga MX Apertura | Club America - Santos Laguna | live | -
+- 2026-08-03 02:00 | ABD USL | Birmingham Leg - Rhode Island | live | -
 
 ## Biten Maclar
 Biten mac yok.
