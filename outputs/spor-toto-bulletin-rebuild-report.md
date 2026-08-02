@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-02T14:55:34.965Z
+- Guncelleme: 2026-08-02T15:54:25.520Z
 - Ham fixture sayisi: 4560
 - Bugun/yarin kaynak mac: 295
-- Aktif bulten maci: 119
+- Aktif bulten maci: 85
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 176
+- Bultenden dusurulen mac: 210
 
-- 1. 2026-08-02 18:00 | Norveç Eliteserien | Aalesund - Tromso | scheduled
-- 2. 2026-08-02 18:00 | Norveç 3.Lig Grup 1 | Asker - If Ready | scheduled
-- 3. 2026-08-02 18:00 | Avusturya Bundesliga | Avusturya Lust - Ried | scheduled
-- 4. 2026-08-02 18:00 | Slovakya Süper Lig | Dac - Dukla Banska By | scheduled
-- 5. 2026-08-02 18:00 | Belarus Premier Lig | Dinamo Brest - Belshina Bobrui | scheduled
-- 6. 2026-08-02 18:00 | Norveç 1.Lig | Egersunds - Sandnes | scheduled
-- 7. 2026-08-02 18:00 | Norveç 1.Lig | Hodd - Moss | scheduled
-- 8. 2026-08-02 18:00 | Norveç Eliteserien | Kfum Oslo - Kristiansund | scheduled
-- 9. 2026-08-02 18:00 | Norveç 1.Lig | Kongsvinger - Strommen | scheduled
-- 10. 2026-08-02 18:00 | Norveç 1.Lig | Lyn Oslo - Sogndal | scheduled
-- 11. 2026-08-02 18:00 | Norveç Eliteserien | Molde - Sarpsborg | scheduled
-- 12. 2026-08-02 18:00 | Norveç 1.Lig | Odds Bk - Asane | scheduled
-- 13. 2026-08-02 18:00 | Kazakistan Premier Lig | Ordabasy - Tobol Kostanay | scheduled
-- 14. 2026-08-02 18:00 | Hazırlık Kulüpler | Parma - Iraklis 1908 | scheduled
-- 15. 2026-08-02 18:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi - Boston River | scheduled
+- 1. 2026-08-02 19:00 | Estonya Premium Lig | Flora Tallinn - Harju Jalgpalli | scheduled
+- 2. 2026-08-02 19:00 | İsveç 2.Lig Vastra Götaland | Landvetter Is - Dalstorps If | scheduled
+- 3. 2026-08-02 19:00 | Bulgaristan 1.Lig | Ludogorets - Botev Vratsa | scheduled
+- 4. 2026-08-02 19:00 | Hollanda Süper Kupa | Psv Eindhoven - Az Alkmaar | scheduled
+- 5. 2026-08-02 19:00 | Slovenya 1.SNL | Radomlje - Ask Bravo | scheduled
+- 6. 2026-08-02 19:00 | Danimarka Süperlig | Silkeborg - Kopenhag | scheduled
+- 7. 2026-08-02 19:00 | Peru Premier Lig Clausura | Sporting Crist - Juan Pablo Ii C | scheduled
+- 8. 2026-08-02 19:00 | İrlanda Premier Lig | St Patricks - Derry City | scheduled
+- 9. 2026-08-02 19:00 | Hazırlık Kulüpler | Sunderland - Wrexham | scheduled
+- 10. 2026-08-02 19:00 | Estonya Premium Lig | Vaprus - Levadia Tallinn | scheduled
+- 11. 2026-08-02 19:15 | Faroe Adaları Master Lig | B68 Toftir - Vestur Sorvagur | scheduled
+- 12. 2026-08-02 19:30 | Şili Premier Lig | Concepcion - Univ. Catolica | scheduled
+- 13. 2026-08-02 19:30 | Hazırlık Kulüpler | Genk - Twente | scheduled
+- 14. 2026-08-02 19:30 | Hırvatistan 1.HNL | Varazdin - Hajduk Split | scheduled
+- 15. 2026-08-02 20:00 | Macaristan NB II | Csakvari Tk - Nagykanizsai Ul | scheduled

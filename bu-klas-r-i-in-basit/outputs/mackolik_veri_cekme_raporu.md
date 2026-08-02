@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T15:14:01.596747+00:00
+Tarih: 2026-08-02T15:54:22.948317+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 73
+- Kac mac bulundu: 96
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 73
+- Kac mac zaten vardi: 96
 - Ham veri havuzu toplam mac sayisi: 4579
 - Hedef tarih: 02.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
@@ -22,18 +23,24 @@ Tarih: 2026-08-02T15:14:01.596747+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Kulüpler
 - Hollanda Süper Kupa
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Litvanya A Ligi
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
 - Macaristan NB II
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Norveç 1.Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -46,8 +53,9 @@ Tarih: 2026-08-02T15:14:01.596747+00:00
 - Sırbistan Süper Lig
 - Uganda Süper 8 Çeyrek Final
 - Uruguay Premier Lig Intermediate Turu Grup 1
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
-- Çek Cumhuriyeti FNL
 - İrlanda Premier Lig
 - İskoçya Premiership
 - İsveç 2.Lig Norra Svealand
@@ -109,8 +117,8 @@ Tarih: 2026-08-02T15:14:01.596747+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 55
-- Acilan detay: 55
+- Denenen Tumu alani: 53
+- Acilan detay: 53
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -131,17 +139,17 @@ Tarih: 2026-08-02T15:14:01.596747+00:00
 | 02.08.2026 | 18:30 | Polonya Ekstraklasa | Slask Wroclaw | Rakow Czestocho | 19890 | 5 |
 | 02.08.2026 | 19:00 | İrlanda Premier Lig | St Patricks | Derry City | 24781 | 5 |
 | 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
-| 02.08.2026 | 18:15 | Rusya Premier Lig | Krasnodar | Fakel Voronezh | 20553 | 5 |
 | 02.08.2026 | 20:30 | Rusya Premier Lig | Akhmat Grozny | Spartak Moskova | 20607 | 5 |
 | 02.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Pardubice | Jablonec | 19049 | 5 |
 | 02.08.2026 | 18:30 | Çek Cumhuriyeti Czech Liga | Bohemians 1905 | Hradec Kralove | 19016 | 5 |
 | 02.08.2026 | 20:15 | Norveç Eliteserien | Brann | Rosenborg | 23671 | 5 |
 | 02.08.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Radnicki Nis | 30718 | 5 |
 | 02.08.2026 | 21:00 | Sırbistan Süper Lig | Partizan Belgr | Imt Novi Beogra | 30701 | 5 |
-| 02.08.2026 | 15:30 | Hazırlık Kulüpler | Aachen | Eintracht Trier | 01905 | 3 |
-| 02.08.2026 | 19:30 | Hazırlık Kulüpler | Genk | Twente | 06533 | 5 |
 | 02.08.2026 | 21:45 | Hazırlık Kulüpler | Ascoli Picchio | Lazio | 06684 | 5 |
 | 02.08.2026 | 19:00 | Hazırlık Kulüpler | Sunderland | Wrexham | 06227 | 5 |
+| 02.08.2026 | 15:30 | Hazırlık Kulüpler | Aachen | Eintracht Trier | 01905 | 3 |
+| 02.08.2026 | 19:30 | Hazırlık Kulüpler | Genk | Twente | 06533 | 5 |
+| 02.08.2026 | 18:30 | Hazırlık Kulüpler | Albinoleffe | Internazionale | 05981 | 5 |
 | 02.08.2026 | 23:00 | Hazırlık Kulüpler | Liverpool | Leeds Utd | 06846 | 5 |
 
 ## Sonuc
