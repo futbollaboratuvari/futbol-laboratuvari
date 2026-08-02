@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.08.2026 15:03:38
+Oluşturma: 02.08.2026 15:06:54
 
 ## Özet
 
-- Toplam tahmin: 131
-- Bekleyen tahmin: 131
+- Toplam tahmin: 133
+- Bekleyen tahmin: 133
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 55
@@ -20,12 +20,14 @@ Oluşturma: 02.08.2026 15:03:38
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 - MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-02 | Norveç 1.Lig | Egersunds - Sandnes | MS 2 | pending | 60/100
+- 2026-08-02 | Norveç 2.Lig Grup 1 | Traeff - Jerv | MS 1 | pending | 50/100
 - 2026-08-02 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ansar | MS 1 | pending | 40/100
 - 2026-08-02 | İskoçya Premiership | Hibernian - Motherwell | MS 2 | pending | 50/100
 - 2026-08-02 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Meizhou Hakka | MS 2 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 02.08.2026 15:03:38
 - 2026-08-02 | Hazırlık Kulüpler | Utrecht - Sevilla | MS X | pending | 50/100
 - 2026-08-02 | Hazırlık Kulüpler | Volendam - Ajax | MS 1 | pending | 40/100
 - 2026-08-02 | Hazırlık Kulüpler | Feyenoord - Atalanta | MS X | pending | 70/100
-- 2026-08-02 | Hazırlık Kulüpler | Leyton Orient - Antwerp | MS X | pending | 50/100
-- 2026-08-02 | Hazırlık Kulüpler | Luton - Go Ahead Eagles | MS X | pending | 50/100
 

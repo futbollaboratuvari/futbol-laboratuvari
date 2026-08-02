@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T11:01:12.207485+00:00
+Tarih: 2026-08-02T12:03:58.502408+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 196
+- Kac mac bulundu: 178
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 196
+- Kac mac zaten vardi: 178
 - Ham veri havuzu toplam mac sayisi: 4576
 - Hedef tarih: 02.08.2026 Europe/Istanbul
 
@@ -23,7 +23,6 @@ Tarih: 2026-08-02T11:01:12.207485+00:00
 - Bolivya Premier Lig
 - Brezilya Kupa Son 16 Turu
 - Bulgaristan 1.Lig
-- Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
@@ -75,7 +74,6 @@ Tarih: 2026-08-02T11:01:12.207485+00:00
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
 - İrlanda Premier Lig
 - İskoçya Premiership
@@ -145,8 +143,8 @@ Tarih: 2026-08-02T11:01:12.207485+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 81
-- Acilan detay: 81
+- Denenen Tumu alani: 79
+- Acilan detay: 79
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -160,25 +158,25 @@ Tarih: 2026-08-02T11:01:12.207485+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 02.08.2026 | 19:00 | Hollanda Süper Kupa | Psv Eindhoven | Az Alkmaar | 30574 | 5 |
-| 02.08.2026 | 18:30 | İskoçya Premiership | Hibernian | Motherwell | 25840 | 5 |
 | 02.08.2026 | 16:00 | İskoçya Premiership | St Johnstone | Kilmarnock | 25786 | 5 |
-| 02.08.2026 | 18:00 | Avusturya Bundesliga | Wolfsberger | Austria Vienna | 11713 | 5 |
+| 02.08.2026 | 18:30 | İskoçya Premiership | Hibernian | Motherwell | 25840 | 5 |
 | 02.08.2026 | 20:00 | Avusturya Bundesliga | Rapid Wien | Altach | 11807 | 5 |
+| 02.08.2026 | 18:00 | Avusturya Bundesliga | Wolfsberger | Austria Vienna | 11713 | 5 |
 | 02.08.2026 | 18:00 | Avusturya Bundesliga | Avusturya Lust | Ried | 11546 | 5 |
-| 02.08.2026 | 19:00 | Danimarka Süperlig | Silkeborg | Kopenhag | 15536 | 5 |
 | 02.08.2026 | 17:00 | Danimarka Süperlig | Brondby | Viborg | 15478 | 5 |
-| 02.08.2026 | 15:00 | Danimarka Süperlig | Nordsjaelland | Randers | 15130 | 5 |
-| 02.08.2026 | 15:00 | Danimarka Süperlig | Midtjylland | Horsens | 15061 | 5 |
-| 02.08.2026 | 15:45 | Polonya Ekstraklasa | Legia Varşova | Zaglebie Lubin | 19803 | 5 |
+| 02.08.2026 | 19:00 | Danimarka Süperlig | Silkeborg | Kopenhag | 15536 | 5 |
 | 02.08.2026 | 18:30 | Polonya Ekstraklasa | Slask Wroclaw | Rakow Czestocho | 19890 | 5 |
+| 02.08.2026 | 15:45 | Polonya Ekstraklasa | Legia Varşova | Zaglebie Lubin | 19803 | 5 |
 | 02.08.2026 | 21:15 | Polonya Ekstraklasa | Gks Katowice | Radomiak Radom | 20010 | 5 |
 | 02.08.2026 | 17:30 | İsviçre Süper Lig | Sion | Luzern | 24203 | 5 |
 | 02.08.2026 | 17:30 | İsviçre Süper Lig | Grasshoppers | Lugano | 24149 | 5 |
-| 02.08.2026 | 15:00 | İsviçre Süper Lig | Vaduz | St Gallen | 24095 | 5 |
-| 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
 | 02.08.2026 | 17:00 | İrlanda Premier Lig | Waterford | Shelbourne | 24727 | 5 |
 | 02.08.2026 | 19:00 | İrlanda Premier Lig | St Patricks | Derry City | 24781 | 5 |
+| 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
+| 02.08.2026 | 18:15 | Rusya Premier Lig | Krasnodar | Fakel Voronezh | 20553 | 5 |
 | 02.08.2026 | 16:00 | Rusya Premier Lig | Orenburg | Zenit | 20482 | 5 |
+| 02.08.2026 | 20:30 | Rusya Premier Lig | Akhmat Grozny | Spartak Moskova | 20607 | 5 |
+| 02.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Pardubice | Jablonec | 19049 | 5 |
 
 ## Sonuc
 
