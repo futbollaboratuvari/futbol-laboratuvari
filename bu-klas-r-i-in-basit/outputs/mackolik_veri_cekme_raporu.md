@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T13:52:59.180139+00:00
+Tarih: 2026-08-02T14:00:57.410330+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 143
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 141
+- Kac mac bulundu: 117
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 117
 - Ham veri havuzu toplam mac sayisi: 4578
 - Hedef tarih: 02.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
@@ -24,28 +23,21 @@ Tarih: 2026-08-02T13:52:59.180139+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Kulüpler
 - Hollanda Süper Kupa
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Litvanya A Ligi
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
 - Macaristan NB II
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
@@ -63,8 +55,6 @@ Tarih: 2026-08-02T13:52:59.180139+00:00
 - Sırbistan Süper Lig
 - Uganda Süper 8 Çeyrek Final
 - Uruguay Premier Lig Intermediate Turu Grup 1
-- Uruguay Premier Lig Intermediate Turu Grup 2
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - İrlanda Premier Lig
