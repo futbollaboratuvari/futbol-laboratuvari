@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 02.08.2026 16:25:15
+Oluşturma: 02.08.2026 16:56:10
 
 ## Özet
 
-- Toplam tahmin: 133
-- Bekleyen tahmin: 133
+- Toplam tahmin: 135
+- Bekleyen tahmin: 135
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 55
@@ -20,12 +20,14 @@ Oluşturma: 02.08.2026 16:25:15
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 83, bekleyen 83, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
-- MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-02 | Polonya Ekstraklasa | Gks Katowice - Radomiak Radom | MS X | pending | 50/100
+- 2026-08-02 | Danimarka Süperlig | Brondby - Viborg | MS X | pending | 50/100
 - 2026-08-02 | Norveç 1.Lig | Egersunds - Sandnes | MS 2 | pending | 60/100
 - 2026-08-02 | Norveç 2.Lig Grup 1 | Traeff - Jerv | MS 1 | pending | 50/100
 - 2026-08-02 | Lübnan Premier Lig Şampiyonluk Turu | Nejmeh - Ansar | MS 1 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 02.08.2026 16:25:15
 - 2026-08-02 | Hazırlık Kulüpler | Genk - Twente | MS X | pending | 50/100
 - 2026-08-02 | Hazırlık Kulüpler | Burnley - Torino | MS X | pending | 50/100
 - 2026-08-02 | Hazırlık Kulüpler | Utrecht - Sevilla | MS X | pending | 50/100
-- 2026-08-02 | Hazırlık Kulüpler | Volendam - Ajax | MS 1 | pending | 40/100
-- 2026-08-02 | Hazırlık Kulüpler | Feyenoord - Atalanta | MS X | pending | 70/100
 
