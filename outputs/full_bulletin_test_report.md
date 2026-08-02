@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 206
 - Live match count: 4
-- Finished removed count: 2
+- Finished removed count: 0
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
 - 2026-08-02 11:00 | Ska-Khabarovsk - Ural | live
