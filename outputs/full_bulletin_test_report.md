@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 206
-- Live match count: 4
-- Finished removed count: 0
+- Scheduled match count: 197
+- Live match count: 10
+- Finished removed count: 4
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
-- 2026-08-02 11:00 | Ska-Khabarovsk - Ural | live
-- 2026-08-02 11:30 | Wspg Wels - Austria Salzbur | live
-- 2026-08-02 11:30 | Malzenice - Slovan Bratisla | live
-- 2026-08-02 11:30 | Petrzalka - Mfk Bytca | live
-- 2026-08-02 13:00 | Qingdao West C - Qingdao Zhongne | scheduled
-- 2026-08-02 13:00 | Qviding - Astrio | scheduled
-- 2026-08-02 13:00 | Chernomorets - Polessya | scheduled
-- 2026-08-02 13:30 | Daejeon Citize - Gwangju | scheduled
-- 2026-08-02 13:30 | Jeju Utd - Incheon Utd | scheduled
-- 2026-08-02 13:30 | Ulsan - Anyang | scheduled
+- 2026-08-02 13:00 | Qingdao West C - Qingdao Zhongne | live
+- 2026-08-02 13:00 | Qviding - Astrio | live
+- 2026-08-02 13:00 | Chernomorets - Polessya | live
+- 2026-08-02 13:30 | Daejeon Citize - Gwangju | live
+- 2026-08-02 13:30 | Jeju Utd - Incheon Utd | live
+- 2026-08-02 13:30 | Ulsan - Anyang | live
+- 2026-08-02 13:30 | Ansan Greeners - Gimhae City | live
+- 2026-08-02 13:30 | Busan Ipark - Seoul E-Land | live
+- 2026-08-02 13:30 | Gimpo Citizen - Gyeongnam | live
+- 2026-08-02 13:30 | Jeonnam Dragon - Paju Citizen | live

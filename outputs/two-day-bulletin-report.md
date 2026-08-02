@@ -2,27 +2,21 @@
 
 Gunler: 2026-08-02 / 2026-08-03
 Kaynak: fixtures.json
-Ham mac: 210
-Aktif mac: 203
-Canli mac: 7
+Ham mac: 207
+Aktif mac: 197
+Canli mac: 10
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 176
+Bultenden dusurulen mac: 10
+Bugun: 170
 Yarin: 27
 
 ## Baslamamis Maclar
-- 2026-08-02 13:30 | Güney Kore K Lig 1 | Jeju Utd - Incheon Utd | scheduled | -
-- 2026-08-02 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Gwangju | scheduled | -
-- 2026-08-02 13:30 | Güney Kore K Lig 1 | Ulsan - Anyang | scheduled | -
-- 2026-08-02 13:30 | Güney Kore K Lig 2 | Busan Ipark - Seoul E-Land | scheduled | -
-- 2026-08-02 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Gyeongnam | scheduled | -
-- 2026-08-02 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Gimhae City | scheduled | -
-- 2026-08-02 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Paju Citizen | scheduled | -
 - 2026-08-02 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Meizhou Hakka | scheduled | -
 - 2026-08-02 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Wuxi Wugou | scheduled | -
 - 2026-08-02 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Hebei Kungfu | scheduled | -
 - 2026-08-02 14:00 | İsveç 2.Lig Norra Svealand | Enskede - Taby | scheduled | -
 - 2026-08-02 14:00 | Norveç 3.Lig Grup 5 | Bossekop - Harstad | scheduled | -
+- 2026-08-02 14:00 | Hazırlık Kulüpler | Germania Ratin - Schermbeck | scheduled | -
 - 2026-08-02 14:30 | Hazırlık Kulüpler | Leyton Orient - Antwerp | scheduled | -
 - 2026-08-02 14:35 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Tiere - Shanghai Shenhu | scheduled | -
 - 2026-08-02 15:00 | Danimarka Süperlig | Nordsjaelland - Randers | scheduled | -
@@ -216,13 +210,16 @@ Yarin: 27
 - 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | scheduled | -
 
 ## Canli Maclar
-- 2026-08-02 11:00 | Rusya FNL | Ska-Khabarovsk - Ural | live | -
-- 2026-08-02 11:30 | Avusturya 1.Lig | Wspg Wels - Austria Salzbur | live | -
-- 2026-08-02 11:30 | Slovakya 2.Lig | Petrzalka - Mfk Bytca | live | -
-- 2026-08-02 11:30 | Slovakya 2.Lig | Malzenice - Slovan Bratisla | live | -
 - 2026-08-02 13:00 | Ukrayna Premier Lig | Chernomorets - Polessya | live | -
 - 2026-08-02 13:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Qingdao Zhongne | live | -
 - 2026-08-02 13:00 | İsveç 2.Lig Vastra Götaland | Qviding - Astrio | live | -
+- 2026-08-02 13:30 | Güney Kore K Lig 1 | Jeju Utd - Incheon Utd | live | -
+- 2026-08-02 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Gwangju | live | -
+- 2026-08-02 13:30 | Güney Kore K Lig 1 | Ulsan - Anyang | live | -
+- 2026-08-02 13:30 | Güney Kore K Lig 2 | Busan Ipark - Seoul E-Land | live | -
+- 2026-08-02 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Gyeongnam | live | -
+- 2026-08-02 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Gimhae City | live | -
+- 2026-08-02 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Paju Citizen | live | -
 
 ## Biten Maclar
 Biten mac yok.
