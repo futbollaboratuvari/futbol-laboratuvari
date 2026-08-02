@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 57
-- Live match count: 29
-- Finished removed count: 0
+- Scheduled match count: 38
+- Live match count: 33
+- Finished removed count: 15
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
-- 2026-08-02 18:45 | Hegelmann - Transinvest Vil | live
-- 2026-08-02 19:00 | Ludogorets - Botev Vratsa | live
-- 2026-08-02 19:00 | Silkeborg - Kopenhag | live
-- 2026-08-02 19:00 | Flora Tallinn - Harju Jalgpalli | live
-- 2026-08-02 19:00 | Vaprus - Levadia Tallinn | live
-- 2026-08-02 19:00 | Sunderland - Wrexham | live
-- 2026-08-02 19:00 | Psv Eindhoven - Az Alkmaar | live
-- 2026-08-02 19:00 | St Patricks - Derry City | live
-- 2026-08-02 19:00 | Landvetter Is - Dalstorps If | live
-- 2026-08-02 19:00 | Sporting Crist - Juan Pablo Ii C | live
+- 2026-08-02 20:00 | Rapid Wien - Altach | live
+- 2026-08-02 20:00 | Sunnersta Aif - Viggbyholms Ik | live
+- 2026-08-02 20:00 | Csakvari Tk - Nagykanizsai Ul | live
+- 2026-08-02 20:00 | Csf Balti - Sheriff Tiraspo | live
+- 2026-08-02 20:00 | Dacia-Buiucani - Zimbru | live
+- 2026-08-02 20:00 | Petrocub - Politeh Chişina | live
+- 2026-08-02 20:00 | Kfc Komarno - Spartak Trnava | live
+- 2026-08-02 20:15 | Brann - Rosenborg | live
+- 2026-08-02 20:30 | Aldosivi - Gimnasia La Pla | live
+- 2026-08-02 20:30 | Riestra - Barracas | live
