@@ -1,16 +1,15 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 180
-Tam analiz: 154
-Eksik analiz: 26
+Toplam analiz: 164
+Tam analiz: 139
+Eksik analiz: 25
 
-- Qviding VS Astrio: eksik score, confidence
-- Bossekop VS Harstad: eksik score, confidence
-- Germania Ratin VS Schermbeck: eksik score, confidence
 - Jfk Ventspils VS Smiltene: eksik score, confidence
 - Aachen VS Eintracht Trier: eksik score, confidence
 - Leipzig VS Magdeburg Ii: eksik score, confidence
+- Aachen VS Eintracht Trier: eksik score, confidence
+- Kitara VS Entebbe Uppc: eksik score, confidence
 - Akranes VS Vikingur Reykja: eksik score, confidence
 - Sleipner VS Karlslunds If: eksik score, confidence
 - Fa Siauliai Ii VS Bfa: eksik score, confidence
@@ -25,3 +24,4 @@ Eksik analiz: 26
 - Sunnersta Aif VS Viggbyholms Ik: eksik score, confidence
 - Almirante VS R Cordoba: eksik score, confidence
 - San Telmo VS San Miguel: eksik score, confidence
+- Chacarita Juni VS Agropecuario: eksik score, confidence
