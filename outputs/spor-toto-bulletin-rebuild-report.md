@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-02T13:53:02.286Z
-- Ham fixture sayisi: 4559
-- Bugun/yarin kaynak mac: 294
-- Aktif bulten maci: 142
+- Guncelleme: 2026-08-02T14:55:34.965Z
+- Ham fixture sayisi: 4560
+- Bugun/yarin kaynak mac: 295
+- Aktif bulten maci: 119
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 152
+- Bultenden dusurulen mac: 176
 
-- 1. 2026-08-02 17:00 | Faroe Adaları Master Lig | Ab Argir - Skala | scheduled
-- 2. 2026-08-02 17:00 | İzlanda Urvalsdeild | Akranes - Vikingur Reykja | scheduled
-- 3. 2026-08-02 17:00 | Danimarka Süperlig | Brondby - Viborg | scheduled
-- 4. 2026-08-02 17:00 | Hazırlık Kulüpler | Burnley - Torino | scheduled
-- 5. 2026-08-02 17:00 | Norveç 2.Lig Grup 2 | Eidsvold Tf - Ik Junkeren | scheduled
-- 6. 2026-08-02 17:00 | Litvanya 1.Lig | Fa Siauliai Ii - Bfa | scheduled
-- 7. 2026-08-02 17:00 | Litvanya 1.Lig | Fk Dainava - Tauras | scheduled
-- 8. 2026-08-02 17:00 | Faroe Adaları Master Lig | Kí Klaksvík - B36 Torshavn | scheduled
-- 9. 2026-08-02 17:00 | İsveç 2.Lig Södra Götaland | Lilla Torg - Oskarshamns Aik | scheduled
-- 10. 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Lugano Ii - Bulle | scheduled
-- 11. 2026-08-02 17:00 | Estonya Premium Lig | Nomme Kalju - Tammeka Tartu | scheduled
-- 12. 2026-08-02 17:00 | Rusya FNL | Olimpiyets - Shinnik Yarosla | scheduled
-- 13. 2026-08-02 17:00 | Finlandiya Veikkausliiga | Oulu - Ilves | scheduled
-- 14. 2026-08-02 17:00 | Estonya Premium Lig | Paide Linnamee - Kuressaare | scheduled
-- 15. 2026-08-02 17:00 | İsviçre 1.Lig Promotion | Paradiso - Schaffhausen | scheduled
+- 1. 2026-08-02 18:00 | Norveç Eliteserien | Aalesund - Tromso | scheduled
+- 2. 2026-08-02 18:00 | Norveç 3.Lig Grup 1 | Asker - If Ready | scheduled
+- 3. 2026-08-02 18:00 | Avusturya Bundesliga | Avusturya Lust - Ried | scheduled
+- 4. 2026-08-02 18:00 | Slovakya Süper Lig | Dac - Dukla Banska By | scheduled
+- 5. 2026-08-02 18:00 | Belarus Premier Lig | Dinamo Brest - Belshina Bobrui | scheduled
+- 6. 2026-08-02 18:00 | Norveç 1.Lig | Egersunds - Sandnes | scheduled
+- 7. 2026-08-02 18:00 | Norveç 1.Lig | Hodd - Moss | scheduled
+- 8. 2026-08-02 18:00 | Norveç Eliteserien | Kfum Oslo - Kristiansund | scheduled
+- 9. 2026-08-02 18:00 | Norveç 1.Lig | Kongsvinger - Strommen | scheduled
+- 10. 2026-08-02 18:00 | Norveç 1.Lig | Lyn Oslo - Sogndal | scheduled
+- 11. 2026-08-02 18:00 | Norveç Eliteserien | Molde - Sarpsborg | scheduled
+- 12. 2026-08-02 18:00 | Norveç 1.Lig | Odds Bk - Asane | scheduled
+- 13. 2026-08-02 18:00 | Kazakistan Premier Lig | Ordabasy - Tobol Kostanay | scheduled
+- 14. 2026-08-02 18:00 | Hazırlık Kulüpler | Parma - Iraklis 1908 | scheduled
+- 15. 2026-08-02 18:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Racing Montevi - Boston River | scheduled

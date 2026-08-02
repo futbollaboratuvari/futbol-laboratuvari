@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-02T14:00:57.410330+00:00
+Tarih: 2026-08-02T14:55:33.331100+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 117
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 117
-- Ham veri havuzu toplam mac sayisi: 4578
+- Kac mac bulundu: 120
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 119
+- Ham veri havuzu toplam mac sayisi: 4579
 - Hedef tarih: 02.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
@@ -23,23 +24,27 @@ Tarih: 2026-08-02T14:00:57.410330+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Kulüpler
 - Hollanda Süper Kupa
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Letonya Virsliga
-- Litvanya 1.Lig
 - Litvanya A Ligi
 - Lübnan Premier Lig Şampiyonluk Turu
 - Macaristan NB I
 - Macaristan NB II
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 5
 - Norveç Eliteserien
@@ -48,25 +53,20 @@ Tarih: 2026-08-02T14:00:57.410330+00:00
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Romanya 1.Lig
-- Rusya FNL
 - Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
 - Uganda Süper 8 Çeyrek Final
 - Uruguay Premier Lig Intermediate Turu Grup 1
+- Uruguay Premier Lig Intermediate Turu Grup 2
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - İrlanda Premier Lig
 - İskoçya Premiership
 - İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
 - İsveç 2.Lig Vastra Götaland
-- İsveç Allsvenskan
-- İsviçre 1.Lig Promotion
-- İsviçre Süper Lig
-- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -124,8 +124,8 @@ Tarih: 2026-08-02T14:00:57.410330+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 70
-- Acilan detay: 70
+- Denenen Tumu alani: 60
+- Acilan detay: 60
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -144,20 +144,20 @@ Tarih: 2026-08-02T14:00:57.410330+00:00
 | 02.08.2026 | 18:00 | Avusturya Bundesliga | Wolfsberger | Austria Vienna | 11713 | 5 |
 | 02.08.2026 | 18:00 | Avusturya Bundesliga | Avusturya Lust | Ried | 11546 | 5 |
 | 02.08.2026 | 19:00 | Danimarka Süperlig | Silkeborg | Kopenhag | 15536 | 5 |
-| 02.08.2026 | 17:00 | Danimarka Süperlig | Brondby | Viborg | 15478 | 5 |
 | 02.08.2026 | 21:15 | Polonya Ekstraklasa | Gks Katowice | Radomiak Radom | 20010 | 5 |
 | 02.08.2026 | 18:30 | Polonya Ekstraklasa | Slask Wroclaw | Rakow Czestocho | 19890 | 5 |
-| 02.08.2026 | 17:30 | İsviçre Süper Lig | Grasshoppers | Lugano | 24149 | 5 |
-| 02.08.2026 | 17:30 | İsviçre Süper Lig | Sion | Luzern | 24203 | 5 |
-| 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
-| 02.08.2026 | 17:00 | İrlanda Premier Lig | Waterford | Shelbourne | 24727 | 5 |
 | 02.08.2026 | 19:00 | İrlanda Premier Lig | St Patricks | Derry City | 24781 | 5 |
-| 02.08.2026 | 20:30 | Rusya Premier Lig | Akhmat Grozny | Spartak Moskova | 20607 | 5 |
+| 02.08.2026 | 21:00 | İrlanda Premier Lig | Bohemian | Galway United | 24834 | 5 |
 | 02.08.2026 | 18:15 | Rusya Premier Lig | Krasnodar | Fakel Voronezh | 20553 | 5 |
+| 02.08.2026 | 20:30 | Rusya Premier Lig | Akhmat Grozny | Spartak Moskova | 20607 | 5 |
 | 02.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Pardubice | Jablonec | 19049 | 5 |
 | 02.08.2026 | 18:30 | Çek Cumhuriyeti Czech Liga | Bohemians 1905 | Hradec Kralove | 19016 | 5 |
-| 02.08.2026 | 17:00 | Finlandiya Veikkausliiga | Oulu | Ilves | 08361 | 5 |
 | 02.08.2026 | 18:00 | Norveç Eliteserien | Kfum Oslo | Kristiansund | 23395 | 5 |
+| 02.08.2026 | 18:00 | Norveç Eliteserien | Aalesund | Tromso | 23256 | 5 |
+| 02.08.2026 | 20:15 | Norveç Eliteserien | Brann | Rosenborg | 23671 | 5 |
+| 02.08.2026 | 18:00 | Norveç Eliteserien | Molde | Sarpsborg | 23533 | 5 |
+| 02.08.2026 | 21:00 | Sırbistan Süper Lig | Zemun Belg. | Radnicki Nis | 30718 | 5 |
+| 02.08.2026 | 21:00 | Sırbistan Süper Lig | Partizan Belgr | Imt Novi Beogra | 30701 | 5 |
 
 ## Sonuc
 
