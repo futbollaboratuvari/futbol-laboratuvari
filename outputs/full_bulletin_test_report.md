@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 214
-- Live match count: 29
-- Finished removed count: 0
+- Scheduled match count: 198
+- Live match count: 8
+- Finished removed count: 2
 - Date window: 2026-08-02 / 2026-08-03 23:59
 
-- 2026-08-02 02:30 | Cincinnati - San Jose | live
-- 2026-08-02 02:30 | Dc United - Nashville Sc | live
-- 2026-08-02 02:30 | Inter Miami - Columbus | live
-- 2026-08-02 02:30 | Montreal - New England | live
-- 2026-08-02 02:30 | New York - Orlando City | live
-- 2026-08-02 02:30 | Philadelphia - Atlanta Utd | live
-- 2026-08-02 02:30 | Vancouver - Los Angeles Fc | live
-- 2026-08-02 02:30 | Charleston Bat - Brooklyn | live
-- 2026-08-02 02:30 | Fort Wayne - Union Omaha | live
-- 2026-08-02 02:30 | Sarasota Parad - Naples | live
+- 2026-08-02 05:45 | Portland - Seattle | live
+- 2026-08-02 06:00 | Sacramento Rep - Sporting Jax | live
+- 2026-08-02 06:00 | Edgeworth Eagl - Belmont Swansea | live
+- 2026-08-02 06:00 | Cruz Azul - Atlante | live
+- 2026-08-02 07:30 | Brisbane Roar - Moreton City Ex | live
+- 2026-08-02 07:30 | Magic United - Brisbane Olympi | live
+- 2026-08-02 07:30 | Clarence Zebra - Ulverstone | live
+- 2026-08-02 07:30 | Sydney United - Nws Spirit | live
+- 2026-08-02 08:00 | Canberra - Canberra Juvent | scheduled
+- 2026-08-02 08:00 | Blacktown City - Sydney Ii | scheduled
