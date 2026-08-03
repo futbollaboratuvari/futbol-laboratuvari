@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-03T16:03:58.847Z
+- Güncelleme: 2026-08-03T16:44:54.356Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -36,7 +36,7 @@
 | Djerv VS Asane Ii | Norveç 3.Lig Grup 3 | 19:00 | MS X | 4.57 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Brumunddal VS Lyn Oslo B | Norveç 3.Lig Grup 6 | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Veles VS Rotor Volgograd | Rusya FNL | 19:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Fk Panevezys VS Dziugas Telsiai | Litvanya A Ligi | 19:30 | MS X | 2.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Fk Panevezys VS Dziugas Telsiai | Litvanya A Ligi | 19:30 | MS X | 2.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Odense VS Sonderjyske | Danimarka Süperlig | 20:00 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cracovia Krako VS Pogon Szczecin | Polonya Ekstraklasa | 20:00 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Djurgarden VS Vasteras | İsveç Allsvenskan | 20:00 | MS 2 | 5.13 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
