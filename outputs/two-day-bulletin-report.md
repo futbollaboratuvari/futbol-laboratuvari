@@ -3,18 +3,14 @@
 Gunler: 2026-08-03 / 2026-08-04
 Kaynak: fixtures.json
 Ham mac: 48
-Aktif mac: 19
-Canli mac: 29
+Aktif mac: 15
+Canli mac: 33
 Biten mac: 0
-Bultenden dusurulen mac: 29
-Bugun: 8
+Bultenden dusurulen mac: 33
+Bugun: 4
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-03 21:15 | Bulgaristan 1.Lig | Spartak Varna - Lokomotiv Plovd | scheduled | -
-- 2026-08-03 21:30 | İskoçya Premiership | Celtic - Dundee | scheduled | -
-- 2026-08-03 21:30 | İngiltere Lig Kupası Ön Eleme Turu | York - Crawley | scheduled | -
-- 2026-08-03 21:30 | Romanya 1.Lig | Fc Steaua - Ssc Farul | scheduled | -
 - 2026-08-03 22:00 | Sırbistan Süper Lig | Zeleznicar Pan - Mladost Lucani | scheduled | -
 - 2026-08-03 22:00 | Arjantin Ulusal Primera Lig | Club Atletico - Tristan | scheduled | -
 - 2026-08-03 22:15 | İzlanda Urvalsdeild | Valur - Stjarnan | scheduled | -
@@ -61,6 +57,10 @@ Yarin: 11
 - 2026-08-03 20:00 | İsveç 2.Lig Södra Götaland | Torns - Staffanstorp Un | live | -
 - 2026-08-03 20:05 | İsveç Superettan | Orebro - Varnamo | live | -
 - 2026-08-03 20:30 | Faroe Adaları Master Lig | Hb Torshavn - Runavik | live | -
+- 2026-08-03 21:15 | Bulgaristan 1.Lig | Spartak Varna - Lokomotiv Plovd | live | -
+- 2026-08-03 21:30 | İskoçya Premiership | Celtic - Dundee | live | -
+- 2026-08-03 21:30 | İngiltere Lig Kupası Ön Eleme Turu | York - Crawley | live | -
+- 2026-08-03 21:30 | Romanya 1.Lig | Fc Steaua - Ssc Farul | live | -
 
 ## Biten Maclar
 Biten mac yok.

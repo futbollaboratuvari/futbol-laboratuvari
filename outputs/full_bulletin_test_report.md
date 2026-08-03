@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 19
-- Live match count: 29
-- Finished removed count: 0
+- Scheduled match count: 15
+- Live match count: 20
+- Finished removed count: 13
 - Date window: 2026-08-03 / 2026-08-04 23:59
 
-- 2026-08-03 19:00 | Seinajoen Jk - Helsinki | live
-- 2026-08-03 19:00 | Cork City - Athlone | live
-- 2026-08-03 19:00 | Kerry - Cobh Ramblers | live
-- 2026-08-03 19:00 | Longford - Finn Harps | live
-- 2026-08-03 19:00 | Ucd - Treaty Unt. | live
-- 2026-08-03 19:00 | Wexford Youths - Bray Wanderers | live
-- 2026-08-03 19:00 | Nardo - Molde 2 | live
-- 2026-08-03 19:00 | Strindheim - Aalesund B | live
-- 2026-08-03 19:00 | Djerv - Asane Ii | live
-- 2026-08-03 19:00 | Brodd - Stabaek 2 | live
+- 2026-08-03 19:30 | Fk Panevezys - Dziugas Telsiai | live
+- 2026-08-03 19:30 | Veles - Rotor Volgograd | live
+- 2026-08-03 20:00 | Odense - Sonderjyske | live
+- 2026-08-03 20:00 | Torns - Staffanstorp Un | live
+- 2026-08-03 20:00 | Djurgarden - Vasteras | live
+- 2026-08-03 20:00 | Halmstads - Sirius | live
+- 2026-08-03 20:00 | Ranheim - Haugesund | live
+- 2026-08-03 20:00 | Kfum Ii - Sf Grei | live
+- 2026-08-03 20:00 | Kvik Trond - Melhus | live
+- 2026-08-03 20:00 | Orkla - Rosenborg 2 | live
