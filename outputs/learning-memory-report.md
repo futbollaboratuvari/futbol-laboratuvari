@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.08.2026 11:07:09
+Oluşturma: 03.08.2026 11:21:06
 
 ## Özet
 
-- Toplam tahmin: 32
-- Bekleyen tahmin: 32
+- Toplam tahmin: 33
+- Bekleyen tahmin: 33
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 23
+- Lig sayısı: 24
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 03.08.2026 11:07:09
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - MS X: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-03 | Norveç 3.Lig Grup 3 | Djerv - Asane Ii | MS 2 | pending | 40/100
 - 2026-08-03 | Rusya FNL | Ufa - Kamaz | MS 2 | pending | 40/100
 - 2026-08-03 | İsveç Allsvenskan | Halmstads - Sirius | MS 1 | pending | 40/100
 - 2026-08-03 | Finlandiya Veikkausliiga | Seinajoen Jk - Helsinki | MS X | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 03.08.2026 11:07:09
 - 2026-08-03 | İsveç Allsvenskan | Halmstads - Sirius | MS X | pending | 40/100
 - 2026-08-03 | Norveç 1.Lig | Ranheim - Haugesund | MS X | pending | 55/100
 - 2026-08-03 | Polonya 1.Lig | Chrobry Glogow - Odra Opole | MS X | pending | 40/100
-- 2026-08-03 | İsveç Superettan | Orebro - Varnamo | MS X | pending | 50/100
 

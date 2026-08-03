@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-03 / 2026-08-04
 Kaynak: fixtures.json
-Ham mac: 60
-Aktif mac: 60
+Ham mac: 62
+Aktif mac: 62
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 49
+Bugun: 51
 Yarin: 11
 
 ## Baslamamis Maclar
@@ -36,6 +36,8 @@ Yarin: 11
 - 2026-08-03 19:00 | Norveç 3.Lig Grup 4 | Vindbjart - Odd Bk Ii | scheduled | -
 - 2026-08-03 19:00 | Norveç 3.Lig Grup 4 | Brodd - Stabaek 2 | scheduled | -
 - 2026-08-03 19:00 | Norveç 3.Lig Grup 6 | Oppsal - Sarpsborg 08 Ii | scheduled | -
+- 2026-08-03 19:00 | Norveç 3.Lig Grup 3 | Djerv - Asane Ii | scheduled | -
+- 2026-08-03 19:00 | Norveç 3.Lig Grup 6 | Brumunddal - Lyn Oslo B | scheduled | -
 - 2026-08-03 19:30 | Rusya FNL | Veles - Rotor Volgograd | scheduled | -
 - 2026-08-03 19:30 | Litvanya A Ligi | Fk Panevezys - Dziugas Telsiai | scheduled | -
 - 2026-08-03 20:00 | Danimarka Süperlig | Odense - Sonderjyske | scheduled | -
