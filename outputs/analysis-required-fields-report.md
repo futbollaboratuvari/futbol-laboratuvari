@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 49
-Tam analiz: 39
-Eksik analiz: 10
+Toplam analiz: 37
+Tam analiz: 28
+Eksik analiz: 9
 
-- Tukums Ii VS Jdfs Alberts: eksik score, confidence
 - Nardo VS Molde 2: eksik score, confidence
 - Vindbjart VS Odd Bk Ii: eksik score, confidence
 - Brodd VS Stabaek 2: eksik score, confidence
