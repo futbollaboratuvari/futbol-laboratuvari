@@ -1,21 +1,45 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-03T11:52:27.018Z",
-  "updated_at": "2026-08-03T20:55:39.451Z",
+  "updated_at": "2026-08-03T21:31:45.188Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 29,
-    "pending_predictions": 29,
+    "total_predictions": 31,
+    "pending_predictions": 31,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 21,
+    "league_count": 23,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 2,
+    "updated_predictions": 0,
+    "last_score_link_checked": 31,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
+    "MS 2": {
+      "total": 13,
+      "pending": 13,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 1": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS X": {
       "total": 15,
       "pending": 15,
@@ -25,29 +49,29 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS 1": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "MS 2": {
-      "total": 12,
-      "pending": 12,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
     }
   },
   "league_memory": {
+    "Venezuela Premier Lig Clausura": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kosta Rika Premier Lig Apertura": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 3.Lig Grup 3": {
       "total": 2,
       "pending": 2,
@@ -260,6 +284,26 @@
     }
   },
   "league_market_memory": {
+    "Venezuela Premier Lig Clausura :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kosta Rika Premier Lig Apertura :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Norveç 3.Lig Grup 3 :: MS X": {
       "total": 1,
       "pending": 1,
@@ -522,6 +566,40 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-08-04|venezuela premier lig clausura|caracas fc estudiantes fc|ms 2|01 30",
+      "date": "2026-08-04",
+      "created_at": "2026-08-03T21:31:43.589Z",
+      "match_name": "Caracas Fc - Estudiantes Fc",
+      "league": "Venezuela Premier Lig Clausura",
+      "start_time": "01:30",
+      "market": "MS 2",
+      "odds": "3.64",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-04|kosta rika premier lig apertura|perez zeledon cs cartagines|ms 1|05 00",
+      "date": "2026-08-04",
+      "created_at": "2026-08-03T21:31:43.589Z",
+      "match_name": "Perez Zeledon - Cs Cartagines",
+      "league": "Kosta Rika Premier Lig Apertura",
+      "start_time": "05:00",
+      "market": "MS 1",
+      "odds": "3.13",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-08-03|norvec 3 lig grup 3|djerv asane ii|ms x|19 00",
       "date": "2026-08-03",

@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-03T20:00:22.864Z",
-  "total": 8,
-  "ok_count": 7,
-  "bad_count": 1,
+  "generated_at": "2026-08-03T21:31:43.531Z",
+  "total": 11,
+  "ok_count": 9,
+  "bad_count": 2,
   "status": "warning",
   "bad_examples": [
     {
-      "match": "Club Atletico VS Tristan",
+      "match": "Defensor Sport VS Cerro",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Marathon VS Atlético Indepe",
       "market": "Değerli market yok",
       "score": 0,
       "confidence": 0,

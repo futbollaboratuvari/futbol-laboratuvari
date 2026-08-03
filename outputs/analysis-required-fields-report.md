@@ -1,8 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 8
-Tam analiz: 7
-Eksik analiz: 1
+Toplam analiz: 11
+Tam analiz: 9
+Eksik analiz: 2
 
-- Club Atletico VS Tristan: eksik score, confidence
+- Defensor Sport VS Cerro: eksik score, confidence
+- Marathon VS Atlético Indepe: eksik score, confidence
