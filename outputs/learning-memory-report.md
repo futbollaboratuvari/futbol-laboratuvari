@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.08.2026 16:31:49
+Oluşturma: 03.08.2026 17:12:48
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 27
+- Bekleyen tahmin: 27
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 21
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 03.08.2026 16:31:49
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
+- MS X: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-03 | Litvanya A Ligi | Fa Siauliai - Banga | MS 1 | pending | 50/100
+- 2026-08-03 | Finlandiya Veikkausliiga | Seinajoen Jk - Helsinki | MS X | pending | 45/100
+- 2026-08-03 | İrlanda 1.Lig | Longford - Finn Harps | MS 2 | pending | 60/100
+- 2026-08-03 | İrlanda 1.Lig | Kerry - Cobh Ramblers | MS X | pending | 50/100
+- 2026-08-03 | İrlanda 1.Lig | Wexford Youths - Bray Wanderers | MS X | pending | 50/100
+- 2026-08-03 | İrlanda 1.Lig | Ucd - Treaty Unt. | MS 2 | pending | 60/100
+- 2026-08-03 | Norveç 3.Lig Grup 3 | Djerv - Asane Ii | MS 2 | pending | 40/100
+- 2026-08-03 | Litvanya A Ligi | Fk Panevezys - Dziugas Telsiai | MS X | pending | 40/100
+- 2026-08-03 | Danimarka Süperlig | Odense - Sonderjyske | MS X | pending | 50/100
+- 2026-08-03 | Polonya Ekstraklasa | Cracovia Krako - Pogon Szczecin | MS X | pending | 40/100
+- 2026-08-03 | İsveç Allsvenskan | Djurgarden - Vasteras | MS 2 | pending | 40/100
+- 2026-08-03 | İsveç Allsvenskan | Halmstads - Sirius | MS 1 | pending | 40/100
+- 2026-08-03 | Norveç 1.Lig | Ranheim - Haugesund | MS X | pending | 55/100
+- 2026-08-03 | Polonya 1.Lig | Chrobry Glogow - Odra Opole | MS 2 | pending | 40/100
+- 2026-08-03 | İsveç 2.Lig Södra Götaland | Torns - Staffanstorp Un | MS X | pending | 50/100
 
