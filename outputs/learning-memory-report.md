@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.08.2026 02:28:14
+Oluşturma: 04.08.2026 02:58:15
 
 ## Özet
 
-- Toplam tahmin: 31
-- Bekleyen tahmin: 31
+- Toplam tahmin: 43
+- Bekleyen tahmin: 43
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 23
+- Lig sayısı: 28
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 04.08.2026 02:28:14
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-04 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | MS X | pending | 50/100
+- 2026-08-04 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Rubin Kazan | MS X | pending | 50/100
+- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | MS X | pending | 50/100
+- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | MS X | pending | 40/100
+- 2026-08-04 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | MS X | pending | 40/100
+- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya - Kairat Almaty | MS 2 | pending | 50/100
+- 2026-08-04 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova - Cska Moskova | MS X | pending | 50/100
+- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag - Lyon | MS X | pending | 50/100
+- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos - Nijmegen | MS 2 | pending | 60/100
+- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G - Bodo Glimt | MS X | pending | 50/100
+- 2026-08-04 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover - Egnatia | MS 2 | pending | 50/100
+- 2026-08-04 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc - Fc Iberia | MS X | pending | 40/100
 - 2026-08-04 | Venezuela Premier Lig Clausura | Caracas Fc - Estudiantes Fc | MS 2 | pending | 40/100
 - 2026-08-04 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Cs Cartagines | MS 1 | pending | 40/100
 - 2026-08-03 | Norveç 3.Lig Grup 3 | Djerv - Asane Ii | MS X | pending | 40/100
-- 2026-08-03 | İsveç Allsvenskan | Halmstads - Sirius | MS X | pending | 40/100
-- 2026-08-03 | Litvanya A Ligi | Fa Siauliai - Banga | MS 1 | pending | 50/100
-- 2026-08-03 | Finlandiya Veikkausliiga | Seinajoen Jk - Helsinki | MS X | pending | 45/100
-- 2026-08-03 | İrlanda 1.Lig | Longford - Finn Harps | MS 2 | pending | 60/100
-- 2026-08-03 | İrlanda 1.Lig | Kerry - Cobh Ramblers | MS X | pending | 50/100
-- 2026-08-03 | İrlanda 1.Lig | Wexford Youths - Bray Wanderers | MS X | pending | 50/100
-- 2026-08-03 | İrlanda 1.Lig | Ucd - Treaty Unt. | MS 2 | pending | 60/100
-- 2026-08-03 | Norveç 3.Lig Grup 3 | Djerv - Asane Ii | MS 2 | pending | 40/100
-- 2026-08-03 | Litvanya A Ligi | Fk Panevezys - Dziugas Telsiai | MS X | pending | 40/100
-- 2026-08-03 | Danimarka Süperlig | Odense - Sonderjyske | MS X | pending | 50/100
-- 2026-08-03 | Polonya Ekstraklasa | Cracovia Krako - Pogon Szczecin | MS X | pending | 40/100
-- 2026-08-03 | İsveç Allsvenskan | Djurgarden - Vasteras | MS 2 | pending | 40/100
 
