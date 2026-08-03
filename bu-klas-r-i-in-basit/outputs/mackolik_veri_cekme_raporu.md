@@ -1,32 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-03T13:30:25.130615+00:00
+Tarih: 2026-08-03T14:57:21.628350+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 60
+- Kac mac bulundu: 45
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 60
+- Kac mac zaten vardi: 45
 - Ham veri havuzu toplam mac sayisi: 4642
 - Hedef tarih: 03.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Grup A
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Brezilya Kupa Son 16 Turu
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Litvanya A Ligi
@@ -36,7 +30,6 @@ Tarih: 2026-08-03T13:30:25.130615+00:00
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
 - Norveç 3.Lig Grup 6
 - Polonya 1.Lig
 - Polonya Ekstraklasa
@@ -45,15 +38,12 @@ Tarih: 2026-08-03T13:30:25.130615+00:00
 - Slovakya 2.Lig
 - Sırbistan Süper Lig
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
-- Venezuela Premier Lig Clausura
 - İngiltere Lig Kupası Ön Eleme Turu
 - İrlanda 1.Lig
 - İskoçya Premiership
 - İsveç 2.Lig Södra Götaland
 - İsveç Allsvenskan
 - İsveç Superettan
-- İzlanda 1.Lig
 - İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
@@ -111,8 +101,8 @@ Tarih: 2026-08-03T13:30:25.130615+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 42
-- Acilan detay: 42
+- Denenen Tumu alani: 39
+- Acilan detay: 39
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -136,15 +126,15 @@ Tarih: 2026-08-03T13:30:25.130615+00:00
 | 03.08.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Macva | 31084 | 2 |
 | 03.08.2026 | 18:00 | Hazırlık Kulüpler | Al Shabab (Riy | Mc Alger | 10825 | 5 |
 | 03.08.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Sarmiento | Rivadavia | 29145 | 5 |
-| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia | San Lorenzo | 29485 | 5 |
-| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Independiente | 29365 | 5 |
-| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Platense | Talleres | 29257 | 5 |
-| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Huracan | Atletico Tucuma | 29614 | 5 |
-| 04.08.2026 | 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr | Vitoria Bahia | 31135 | 5 |
-| 03.08.2026 | 16:30 | AFF Şampiyonası Grup A | Endonezya | Vietnam | 17755 | 5 |
 | 03.08.2026 | 21:30 | İngiltere Lig Kupası Ön Eleme Turu | York | Crawley | 05460 | 5 |
 | 03.08.2026 | 21:15 | Bulgaristan 1.Lig | Spartak Varna | Lokomotiv Plovd | 22058 | 5 |
 | 03.08.2026 | 20:05 | İsveç Superettan | Orebro | Varnamo | 22944 | 5 |
+| 03.08.2026 | 19:30 | Rusya FNL | Veles | Rotor Volgograd | 20661 | 5 |
+| 03.08.2026 | 20:00 | Norveç 1.Lig | Ranheim | Haugesund | 23725 | 5 |
+| 03.08.2026 | 18:30 | Macaristan NB I | Zalaegerszeg | Paksi | 25367 | 5 |
+| 03.08.2026 | 21:30 | Romanya 1.Lig | Fc Steaua | Ssc Farul | 18649 | 5 |
+| 03.08.2026 | 18:30 | Romanya 1.Lig | Universitatea | Botosani | 18619 | 5 |
+| 03.08.2026 | 19:00 | İrlanda 1.Lig | Wexford Youths | Bray Wanderers | 24896 | 5 |
 
 ## Sonuc
 
