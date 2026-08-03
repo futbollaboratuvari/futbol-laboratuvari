@@ -1,7 +1,7 @@
 # Learning Output Check
 
-Generated: 2026-08-03T20:20:17.119Z
-Status: ready
+Generated: 2026-08-03T21:36:02.555Z
+Status: waiting
 
 ## Checks
 
@@ -10,17 +10,17 @@ Status: ready
 - live_exists: true
 - learning_engine_name: true
 - learning_mode_name: true
-- learning_fields_ready: true
+- learning_fields_ready: false
 - memory_has_predictions: true
 
 ## Summary
 
 - Robot engine: High Value Coupon Engine + Learning Memory
 - Scoring mode: net_threshold_rules_with_learning_memory
-- Robot matches: 8
+- Robot matches: 0
 - Learning adjusted count: 0
-- Memory predictions: 29
-- Pending predictions: 29
+- Memory predictions: 31
+- Pending predictions: 31
 
-Learning output fields are present. The site can display learning notes.
+Learning output is not fully ready yet. The next export run should regenerate robot-analysis.json with learning fields.
 
