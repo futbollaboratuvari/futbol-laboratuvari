@@ -1,22 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-03 / 2026-08-04
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 87
-Aktif mac: 69
-Canli mac: 18
-Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 58
+Aktif mac: 64
+Canli mac: 14
+Biten mac: 9
+Bultenden dusurulen mac: 23
+Bugun: 53
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-03 02:30 | Peru Premier Lig Clausura | Cienciano - Universitario | scheduled | -
-- 2026-08-03 02:30 | Bolivya Premier Lig | Oriente Petrol - Nacional Potosi | scheduled | -
-- 2026-08-03 02:30 | El Salvador Primera Lig Apertura | Inca-Aruba - Deportivo Fas | scheduled | -
-- 2026-08-03 03:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Herediano | scheduled | -
-- 2026-08-03 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Matagalpa | scheduled | -
 - 2026-08-03 03:30 | Arjantin Premier Lig 2. Aşama | Lanus - Instituto Cordo | scheduled | -
 - 2026-08-03 03:30 | Kosta Rika Premier Lig Apertura | Inter San Carl - Herediano | scheduled | -
 - 2026-08-03 04:05 | Meksika Liga MX Apertura | Toluca - Necaxa | scheduled | -
@@ -83,15 +77,6 @@ Yarin: 11
 - 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | scheduled | -
 
 ## Canli Maclar
-- 2026-08-03 00:00 | Brezilya Kupa Son 16 Turu | Mirassol - Gremio | live | -
-- 2026-08-03 00:00 | Venezuela Premier Lig Clausura | Zamora - Rayo Zuliano | live | -
-- 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Balboa - Isidro Metapan | live | -
-- 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Aguila | live | -
-- 2026-08-03 00:00 | Guatemala Ulusal Lig Apertura | Marquense - Municipal | live | -
-- 2026-08-03 00:15 | Bolivya Premier Lig | Always Ready - Bolivar | live | -
-- 2026-08-03 00:30 | Brezilya Kupa Son 16 Turu | Chapecoense - Cruzeiro | live | -
-- 2026-08-03 00:30 | Şili Premier Lig | Univ. De Şili - Huachipato | live | -
-- 2026-08-03 00:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Progreso | live | -
 - 2026-08-03 01:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Ad San Carlos | live | -
 - 2026-08-03 01:00 | Kanada Premier Lig | Hfx Wanderers - Forge | live | -
 - 2026-08-03 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Rosario Central | live | -
@@ -101,6 +86,19 @@ Yarin: 11
 - 2026-08-03 02:00 | ABD USL | Birmingham Leg - Rhode Island | live | -
 - 2026-08-03 02:10 | Ekvador Pro Lig | Leones Del Nor - Barcelona Gua | live | -
 - 2026-08-03 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Olancho | live | -
+- 2026-08-03 02:30 | Peru Premier Lig Clausura | Cienciano - Universitario | live | -
+- 2026-08-03 02:30 | Bolivya Premier Lig | Oriente Petrol - Nacional Potosi | live | -
+- 2026-08-03 02:30 | El Salvador Primera Lig Apertura | Inca-Aruba - Deportivo Fas | live | -
+- 2026-08-03 03:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Herediano | live | -
+- 2026-08-03 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Matagalpa | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-03 00:00 | Brezilya Kupa Son 16 Turu | Mirassol - Gremio | finished | -
+- 2026-08-03 00:00 | Venezuela Premier Lig Clausura | Zamora - Rayo Zuliano | finished | -
+- 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Balboa - Isidro Metapan | finished | -
+- 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Aguila | finished | -
+- 2026-08-03 00:00 | Guatemala Ulusal Lig Apertura | Marquense - Municipal | finished | -
+- 2026-08-03 00:15 | Bolivya Premier Lig | Always Ready - Bolivar | finished | -
+- 2026-08-03 00:30 | Brezilya Kupa Son 16 Turu | Chapecoense - Cruzeiro | finished | -
+- 2026-08-03 00:30 | Şili Premier Lig | Univ. De Şili - Huachipato | finished | -
+- 2026-08-03 00:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Progreso | finished | -
