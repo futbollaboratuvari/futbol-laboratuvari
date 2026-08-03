@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.08.2026 04:01:15
+Oluşturma: 03.08.2026 04:03:11
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 30
+- Bekleyen tahmin: 30
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 23
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 03.08.2026 04:01:15
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-03 | Finlandiya Veikkausliiga | Seinajoen Jk - Helsinki | MS X | pending | 60/100
+- 2026-08-03 | İrlanda 1.Lig | Longford - Finn Harps | MS 2 | pending | 60/100
+- 2026-08-03 | İrlanda 1.Lig | Kerry - Cobh Ramblers | MS X | pending | 50/100
+- 2026-08-03 | İrlanda 1.Lig | Wexford Youths - Bray Wanderers | MS X | pending | 50/100
+- 2026-08-03 | İrlanda 1.Lig | Ucd - Treaty Unt. | MS 2 | pending | 60/100
+- 2026-08-03 | Litvanya A Ligi | Fk Panevezys - Dziugas Telsiai | MS X | pending | 40/100
+- 2026-08-03 | Danimarka Süperlig | Odense - Sonderjyske | MS X | pending | 50/100
+- 2026-08-03 | Polonya Ekstraklasa | Cracovia Krako - Pogon Szczecin | MS 2 | pending | 40/100
+- 2026-08-03 | İsveç Allsvenskan | Djurgarden - Vasteras | MS 2 | pending | 40/100
+- 2026-08-03 | İsveç Allsvenskan | Halmstads - Sirius | MS X | pending | 40/100
+- 2026-08-03 | Norveç 1.Lig | Ranheim - Haugesund | MS X | pending | 55/100
+- 2026-08-03 | Polonya 1.Lig | Chrobry Glogow - Odra Opole | MS X | pending | 40/100
+- 2026-08-03 | İsveç Superettan | Orebro - Varnamo | MS X | pending | 50/100
+- 2026-08-03 | Faroe Adaları Master Lig | Hb Torshavn - Runavik | MS X | pending | 50/100
+- 2026-08-03 | Bulgaristan 1.Lig | Spartak Varna - Lokomotiv Plovd | MS X | pending | 40/100
 
