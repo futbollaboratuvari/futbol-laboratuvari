@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 15
-- Live match count: 20
-- Finished removed count: 13
+- Scheduled match count: 11
+- Live match count: 8
+- Finished removed count: 0
 - Date window: 2026-08-03 / 2026-08-04 23:59
 
-- 2026-08-03 19:30 | Fk Panevezys - Dziugas Telsiai | live
-- 2026-08-03 19:30 | Veles - Rotor Volgograd | live
-- 2026-08-03 20:00 | Odense - Sonderjyske | live
-- 2026-08-03 20:00 | Torns - Staffanstorp Un | live
-- 2026-08-03 20:00 | Djurgarden - Vasteras | live
-- 2026-08-03 20:00 | Halmstads - Sirius | live
-- 2026-08-03 20:00 | Ranheim - Haugesund | live
-- 2026-08-03 20:00 | Kfum Ii - Sf Grei | live
-- 2026-08-03 20:00 | Kvik Trond - Melhus | live
-- 2026-08-03 20:00 | Orkla - Rosenborg 2 | live
+- 2026-08-03 21:15 | Spartak Varna - Lokomotiv Plovd | live
+- 2026-08-03 21:30 | York - Crawley | live
+- 2026-08-03 21:30 | Celtic - Dundee | live
+- 2026-08-03 21:30 | Fc Steaua - Ssc Farul | live
+- 2026-08-03 22:00 | Club Atletico - Tristan | live
+- 2026-08-03 22:00 | Zeleznicar Pan - Mladost Lucani | live
+- 2026-08-03 22:15 | Valur - Stjarnan | live
+- 2026-08-03 22:45 | Sarmiento - Rivadavia | live
+- 2026-08-04 01:00 | Platense - Talleres | scheduled
+- 2026-08-04 01:00 | Velez Sarsfiel - Independiente | scheduled

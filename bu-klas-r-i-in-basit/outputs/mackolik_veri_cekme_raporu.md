@@ -1,23 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-03T19:00:23.090117+00:00
+Tarih: 2026-08-03T19:54:55.306367+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 4
+- Kac mac bulundu: 11
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 4
+- Kac mac zaten vardi: 11
 - Ham veri havuzu toplam mac sayisi: 4642
 - Hedef tarih: 03.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Sırbistan Süper Lig
-- İzlanda Urvalsdeild
+- Brezilya Kupa Son 16 Turu
+- Ekvador Pro Lig
+- Guatemala Ulusal Lig Apertura
+- Honduras Ulusal Lig Apertura
+- Kosta Rika Premier Lig Apertura
+- Uruguay Premier Lig Intermediate Turu Grup 1
+- Venezuela Premier Lig Clausura
 
 ## Okunabilen Oran Alanlari
 
@@ -74,8 +78,8 @@ Tarih: 2026-08-03T19:00:23.090117+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 12
-- Acilan detay: 12
+- Denenen Tumu alani: 8
+- Acilan detay: 8
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -88,10 +92,17 @@ Tarih: 2026-08-03T19:00:23.090117+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 03.08.2026 | 22:00 | Sırbistan Süper Lig | Zeleznicar Pan | Mladost Lucani | 31101 | 5 |
-| 03.08.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Sarmiento | Rivadavia | 29145 | 5 |
-| 03.08.2026 | 22:00 | Arjantin Ulusal Primera Lig | Club Atletico | Tristan | 29112 | 3 |
-| 03.08.2026 | 22:15 | İzlanda Urvalsdeild | Valur | Stjarnan | 05366 | 3 |
+| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Huracan | Atletico Tucuma | 29614 | 5 |
+| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Independiente | 29365 | 5 |
+| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Platense | Talleres | 29257 | 5 |
+| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia | San Lorenzo | 29485 | 5 |
+| 04.08.2026 | 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr | Vitoria Bahia | 31135 | 5 |
+| 04.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Caracas Fc | Estudiantes Fc | 00570 | 5 |
+| 04.08.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport | Cerro | 27399 | 5 |
+| 04.08.2026 | 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon | Cs Cartagines | 31193 | 5 |
+| 04.08.2026 | 05:00 | Guatemala Ulusal Lig Apertura | Xelaju | Aurora | 03197 | 5 |
+| 04.08.2026 | 03:00 | Ekvador Pro Lig | Ldu Quito | Delfin | 31118 | 5 |
+| 04.08.2026 | 04:00 | Honduras Ulusal Lig Apertura | Marathon | Atlético Indepe | 02150 | 5 |
 
 ## Sonuc
 
