@@ -1,27 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-03T20:55:15.717601+00:00
+Tarih: 2026-08-03T21:50:46.849286+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 11
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 11
-- Ham veri havuzu toplam mac sayisi: 4642
-- Hedef tarih: 03.08.2026 Europe/Istanbul
+- Kac mac bulundu: 19
+- Kac mac kaydedildi: 19
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 4661
+- Hedef tarih: 04.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Kupa Son 16 Turu
-- Ekvador Pro Lig
-- Guatemala Ulusal Lig Apertura
-- Honduras Ulusal Lig Apertura
-- Kosta Rika Premier Lig Apertura
-- Uruguay Premier Lig Intermediate Turu Grup 1
-- Venezuela Premier Lig Clausura
+- AFF Şampiyonası Grup B
+- Bolivya Premier Lig
+- Rusya Kupa Premier Lig Yolu Grup A
+- Rusya Kupa Premier Lig Yolu Grup C
+- Rusya Kupa Premier Lig Yolu Grup D
+- UEFA Avrupa Ligi 3. Eleme Turu
+- UEFA Konferans Ligi 3. Eleme Turu
+- UEFA Şampiyonlar Ligi 3.Eleme Turu
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
@@ -78,8 +79,8 @@ Tarih: 2026-08-03T20:55:15.717601+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 14
+- Acilan detay: 14
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,17 +93,25 @@ Tarih: 2026-08-03T20:55:15.717601+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Huracan | Atletico Tucuma | 29614 | 5 |
-| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Independiente | 29365 | 5 |
-| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Platense | Talleres | 29257 | 5 |
-| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia | San Lorenzo | 29485 | 5 |
-| 04.08.2026 | 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr | Vitoria Bahia | 31135 | 5 |
-| 04.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Caracas Fc | Estudiantes Fc | 00570 | 5 |
-| 04.08.2026 | 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport | Cerro | 27399 | 5 |
-| 04.08.2026 | 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon | Cs Cartagines | 31193 | 5 |
-| 04.08.2026 | 05:00 | Guatemala Ulusal Lig Apertura | Xelaju | Aurora | 03197 | 5 |
-| 04.08.2026 | 03:00 | Ekvador Pro Lig | Ldu Quito | Delfin | 31118 | 5 |
-| 04.08.2026 | 04:00 | Honduras Ulusal Lig Apertura | Marathon | Atlético Indepe | 02150 | 5 |
+| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby | Slovan Bratisla | 03071 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag | Lyon | 03918 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos | Nijmegen | 00042 | 5 |
+| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya | Kairat Almaty | 03353 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G | Bodo Glimt | 04236 | 5 |
+| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia | Celje | 00519 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb | Kauno Zalgiris | 03598 | 4 |
+| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh | Kizilyildiz | 03177 | 5 |
+| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
+| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc | Fc Iberia | 05528 | 5 |
+| 04.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda | Dinamo Tirana | 02922 | 5 |
+| 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Rubin Kazan | 11289 | 5 |
+| 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala | Krylya Sovietov | 11166 | 5 |
+| 04.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova | Cska Moskova | 11338 | 5 |
+| 04.08.2026 | 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron | Rostov | 01142 | 5 |
+| 04.08.2026 | 13:00 | AFF Şampiyonası Grup B | Myanmar | Laos | 02587 | 2 |
+| 04.08.2026 | 16:00 | AFF Şampiyonası Grup B | Filipinler | Tayland | 12640 | 5 |
+| 04.08.2026 | 21:30 | İzlanda Urvalsdeild | Thor Akureyri | Breidablik | 12657 | 3 |
+| 04.08.2026 | 22:00 | Bolivya Premier Lig | Academia Del B | Real Oruro | 12674 | 3 |
 
 ## Sonuc
 
