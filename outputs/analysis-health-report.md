@@ -2,11 +2,11 @@
 
 Durum: warning
 Tarih: 2026-08-03
-Bugünkü bülten maçı: 52
-Robot analiz maçı: 52
-Canlı veri maçı: 52
+Bugünkü bülten maçı: 49
+Robot analiz maçı: 49
+Canlı veri maçı: 49
 Tekrar eden analiz: 0
 Marketsiz analiz: 0
-Skorsuz analiz: 14
+Skorsuz analiz: 10
 
 Sonraki aksiyon: Analiz verisi kontrol edilmeli.

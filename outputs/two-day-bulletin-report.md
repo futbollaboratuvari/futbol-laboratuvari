@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-03 / 2026-08-04
 Kaynak: fixtures.json
-Ham mac: 61
-Aktif mac: 56
-Canli mac: 5
+Ham mac: 60
+Aktif mac: 52
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 45
+Bultenden dusurulen mac: 8
+Bugun: 41
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-03 18:00 | Ukrayna Premier Lig | Shakhtar Donet - Kudrivka | scheduled | -
-- 2026-08-03 18:00 | Slovakya 2.Lig | Inter Bratisla - Zilina Ii | scheduled | -
-- 2026-08-03 18:00 | Litvanya 1.Lig | Transinvest Vi - Babrungas | scheduled | -
-- 2026-08-03 18:00 | Hazırlık Kulüpler | Al Shabab (Riy - Mc Alger | scheduled | -
 - 2026-08-03 18:30 | Macaristan NB I | Zalaegerszeg - Paksi | scheduled | -
 - 2026-08-03 18:30 | Romanya 1.Lig | Universitatea - Botosani | scheduled | -
 - 2026-08-03 18:30 | Letonya 1.Lig | Tukums Ii - Jdfs Alberts | scheduled | -
@@ -69,11 +65,14 @@ Yarin: 11
 - 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | scheduled | -
 
 ## Canli Maclar
-- 2026-08-03 15:30 | Ukrayna Premier Lig | Bukovyna - Lnz Cherkasy | live | -
 - 2026-08-03 16:30 | AFF Şampiyonası Grup A | Endonezya - Vietnam | live | -
 - 2026-08-03 17:00 | Rusya FNL | Ufa - Kamaz | live | -
 - 2026-08-03 17:00 | İzlanda 1.Lig | Vestri - Grotta | live | -
 - 2026-08-03 17:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Kongsvinger Ii | live | -
+- 2026-08-03 18:00 | Ukrayna Premier Lig | Shakhtar Donet - Kudrivka | live | -
+- 2026-08-03 18:00 | Slovakya 2.Lig | Inter Bratisla - Zilina Ii | live | -
+- 2026-08-03 18:00 | Litvanya 1.Lig | Transinvest Vi - Babrungas | live | -
+- 2026-08-03 18:00 | Hazırlık Kulüpler | Al Shabab (Riy - Mc Alger | live | -
 
 ## Biten Maclar
 Biten mac yok.
