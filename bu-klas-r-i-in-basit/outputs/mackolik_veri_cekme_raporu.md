@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-03T16:03:33.960606+00:00
+Tarih: 2026-08-03T17:15:54.454702+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 48
+- Kac mac bulundu: 9
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 48
+- Kac mac zaten vardi: 9
 - Ham veri havuzu toplam mac sayisi: 4642
 - Hedef tarih: 03.08.2026 Europe/Istanbul
 
@@ -16,35 +16,12 @@ Tarih: 2026-08-03T16:03:33.960606+00:00
 
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Brezilya Kupa Son 16 Turu
 - Bulgaristan 1.Lig
-- Danimarka Süperlig
-- Ekvador Pro Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga
-- Guatemala Ulusal Lig Apertura
-- Honduras Ulusal Lig Apertura
-- Kosta Rika Premier Lig Apertura
-- Litvanya A Ligi
-- Norveç 1.Lig
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 6
-- Polonya 1.Lig
-- Polonya Ekstraklasa
 - Romanya 1.Lig
-- Rusya FNL
 - Sırbistan Süper Lig
-- Uruguay Premier Lig Intermediate Turu Grup 1
-- Venezuela Premier Lig Clausura
 - İngiltere Lig Kupası Ön Eleme Turu
-- İrlanda 1.Lig
 - İskoçya Premiership
-- İsveç 2.Lig Södra Götaland
-- İsveç Allsvenskan
-- İsveç Superettan
 - İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
@@ -102,8 +79,8 @@ Tarih: 2026-08-03T16:03:33.960606+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 33
-- Acilan detay: 33
+- Denenen Tumu alani: 17
+- Acilan detay: 17
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -117,25 +94,14 @@ Tarih: 2026-08-03T16:03:33.960606+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 03.08.2026 | 21:30 | İskoçya Premiership | Celtic | Dundee | 25894 | 4 |
-| 03.08.2026 | 20:00 | Danimarka Süperlig | Odense | Sonderjyske | 15590 | 5 |
-| 03.08.2026 | 20:00 | İsveç Allsvenskan | Djurgarden | Vasteras | 22843 | 5 |
-| 03.08.2026 | 20:00 | İsveç Allsvenskan | Halmstads | Sirius | 22890 | 5 |
-| 03.08.2026 | 20:00 | Polonya Ekstraklasa | Cracovia Krako | Pogon Szczecin | 20097 | 5 |
-| 03.08.2026 | 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Helsinki | 08416 | 5 |
-| 03.08.2026 | 20:00 | Sırbistan Süper Lig | Vojvodina | Macva | 31084 | 2 |
 | 03.08.2026 | 22:00 | Sırbistan Süper Lig | Zeleznicar Pan | Mladost Lucani | 31101 | 5 |
 | 03.08.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Sarmiento | Rivadavia | 29145 | 5 |
-| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia | San Lorenzo | 29485 | 5 |
-| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Independiente | 29365 | 5 |
-| 04.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Platense | Talleres | 29257 | 5 |
-| 04.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Huracan | Atletico Tucuma | 29614 | 5 |
-| 04.08.2026 | 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr | Vitoria Bahia | 31135 | 5 |
 | 03.08.2026 | 21:30 | İngiltere Lig Kupası Ön Eleme Turu | York | Crawley | 05460 | 5 |
 | 03.08.2026 | 21:15 | Bulgaristan 1.Lig | Spartak Varna | Lokomotiv Plovd | 22058 | 5 |
-| 03.08.2026 | 20:05 | İsveç Superettan | Orebro | Varnamo | 22944 | 5 |
-| 03.08.2026 | 19:30 | Rusya FNL | Veles | Rotor Volgograd | 20661 | 5 |
-| 03.08.2026 | 20:00 | Norveç 1.Lig | Ranheim | Haugesund | 23725 | 5 |
 | 03.08.2026 | 21:30 | Romanya 1.Lig | Fc Steaua | Ssc Farul | 18649 | 5 |
+| 03.08.2026 | 22:00 | Arjantin Ulusal Primera Lig | Club Atletico | Tristan | 29112 | 3 |
+| 03.08.2026 | 22:15 | İzlanda Urvalsdeild | Valur | Stjarnan | 05366 | 3 |
+| 03.08.2026 | 20:30 | Faroe Adaları Master Lig | Hb Torshavn | Runavik | 02387 | 5 |
 
 ## Sonuc
 
