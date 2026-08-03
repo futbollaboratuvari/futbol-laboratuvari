@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 03.08.2026 04:03:11
+Oluşturma: 03.08.2026 06:53:21
 
 ## Özet
 
-- Toplam tahmin: 30
-- Bekleyen tahmin: 30
+- Toplam tahmin: 31
+- Bekleyen tahmin: 31
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 23
@@ -20,12 +20,13 @@ Oluşturma: 03.08.2026 04:03:11
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - MS X: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-03 | İsveç Allsvenskan | Halmstads - Sirius | MS 1 | pending | 40/100
 - 2026-08-03 | Finlandiya Veikkausliiga | Seinajoen Jk - Helsinki | MS X | pending | 60/100
 - 2026-08-03 | İrlanda 1.Lig | Longford - Finn Harps | MS 2 | pending | 60/100
 - 2026-08-03 | İrlanda 1.Lig | Kerry - Cobh Ramblers | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 03.08.2026 04:03:11
 - 2026-08-03 | Polonya 1.Lig | Chrobry Glogow - Odra Opole | MS X | pending | 40/100
 - 2026-08-03 | İsveç Superettan | Orebro - Varnamo | MS X | pending | 50/100
 - 2026-08-03 | Faroe Adaları Master Lig | Hb Torshavn - Runavik | MS X | pending | 50/100
-- 2026-08-03 | Bulgaristan 1.Lig | Spartak Varna - Lokomotiv Plovd | MS X | pending | 40/100
 

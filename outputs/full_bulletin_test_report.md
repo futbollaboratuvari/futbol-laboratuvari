@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 62
-- Live match count: 11
-- Finished removed count: 3
+- Scheduled match count: 60
+- Live match count: 0
+- Finished removed count: 0
 - Date window: 2026-08-03 / 2026-08-04 23:59
 
-- 2026-08-03 02:00 | Birmingham Leg - Rhode Island | live
-- 2026-08-03 02:00 | Club America - Santos Laguna | live
-- 2026-08-03 02:10 | Leones Del Nor - Barcelona Gua | live
-- 2026-08-03 02:15 | Estrella Roja - Olancho | live
-- 2026-08-03 02:30 | Oriente Petrol - Nacional Potosi | live
-- 2026-08-03 02:30 | Inca-Aruba - Deportivo Fas | live
-- 2026-08-03 02:30 | Cienciano - Universitario | live
-- 2026-08-03 03:00 | Inter San Carl - Herediano | live
-- 2026-08-03 03:00 | Walter Ferrett - Matagalpa | live
-- 2026-08-03 03:30 | Lanus - Instituto Cordo | live
+- 2026-08-03 13:15 | Melbourne Vict - Melbourne Srbij | scheduled
+- 2026-08-03 13:30 | Kamboçya - Dogu Timor | scheduled
+- 2026-08-03 15:30 | Bukovyna - Lnz Cherkasy | scheduled
+- 2026-08-03 16:30 | Endonezya - Vietnam | scheduled
+- 2026-08-03 17:00 | Vestri - Grotta | scheduled
+- 2026-08-03 17:00 | Lillestrom Sk - Kongsvinger Ii | scheduled
+- 2026-08-03 17:00 | Ufa - Kamaz | scheduled
+- 2026-08-03 18:00 | Transinvest Vi - Babrungas | scheduled
+- 2026-08-03 18:00 | Inter Bratisla - Zilina Ii | scheduled
+- 2026-08-03 18:00 | Shakhtar Donet - Kudrivka | scheduled
