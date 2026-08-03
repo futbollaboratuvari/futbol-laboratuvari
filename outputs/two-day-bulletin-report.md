@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-03 / 2026-08-04
 Kaynak: fixtures.json
-Ham mac: 62
-Aktif mac: 62
-Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 51
+Ham mac: 90
+Aktif mac: 61
+Canli mac: 2
+Biten mac: 27
+Bultenden dusurulen mac: 29
+Bugun: 50
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-03 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Melbourne Srbij | scheduled | -
-- 2026-08-03 13:30 | AFF Şampiyonası Grup A | Kamboçya - Dogu Timor | scheduled | -
 - 2026-08-03 15:30 | Ukrayna Premier Lig | Bukovyna - Lnz Cherkasy | scheduled | -
 - 2026-08-03 16:30 | AFF Şampiyonası Grup A | Endonezya - Vietnam | scheduled | -
 - 2026-08-03 17:00 | Rusya FNL | Ufa - Kamaz | scheduled | -
@@ -21,6 +19,7 @@ Yarin: 11
 - 2026-08-03 18:00 | Ukrayna Premier Lig | Shakhtar Donet - Kudrivka | scheduled | -
 - 2026-08-03 18:00 | Slovakya 2.Lig | Inter Bratisla - Zilina Ii | scheduled | -
 - 2026-08-03 18:00 | Litvanya 1.Lig | Transinvest Vi - Babrungas | scheduled | -
+- 2026-08-03 18:00 | Hazırlık Kulüpler | Al Shabab (Riy - Mc Alger | scheduled | -
 - 2026-08-03 18:30 | Macaristan NB I | Zalaegerszeg - Paksi | scheduled | -
 - 2026-08-03 18:30 | Romanya 1.Lig | Universitatea - Botosani | scheduled | -
 - 2026-08-03 18:30 | Letonya 1.Lig | Tukums Ii - Jdfs Alberts | scheduled | -
@@ -75,7 +74,34 @@ Yarin: 11
 - 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-03 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Melbourne Srbij | live | -
+- 2026-08-03 13:30 | AFF Şampiyonası Grup A | Kamboçya - Dogu Timor | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-03 00:00 | Brezilya Kupa Son 16 Turu | Mirassol - Gremio | finished | -
+- 2026-08-03 00:00 | Venezuela Premier Lig Clausura | Zamora - Rayo Zuliano | finished | -
+- 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Balboa - Isidro Metapan | finished | -
+- 2026-08-03 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Aguila | finished | -
+- 2026-08-03 00:00 | Guatemala Ulusal Lig Apertura | Marquense - Municipal | finished | -
+- 2026-08-03 00:15 | Bolivya Premier Lig | Always Ready - Bolivar | finished | -
+- 2026-08-03 00:30 | Brezilya Kupa Son 16 Turu | Chapecoense - Cruzeiro | finished | -
+- 2026-08-03 00:30 | Şili Premier Lig | Univ. De Şili - Huachipato | finished | -
+- 2026-08-03 00:30 | Uruguay Premier Lig Intermediate Turu Grup 2 | Nacional Df - Progreso | finished | -
+- 2026-08-03 01:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Ad San Carlos | finished | -
+- 2026-08-03 01:00 | Kanada Premier Lig | Hfx Wanderers - Forge | finished | -
+- 2026-08-03 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Rosario Central | finished | -
+- 2026-08-03 01:30 | Brezilya Kupa Son 16 Turu | Internacional - Corinthians | finished | -
+- 2026-08-03 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Academia Puerto | finished | -
+- 2026-08-03 02:00 | Meksika Liga MX Apertura | Club America - Santos Laguna | finished | -
+- 2026-08-03 02:00 | ABD USL | Birmingham Leg - Rhode Island | finished | -
+- 2026-08-03 02:10 | Ekvador Pro Lig | Leones Del Nor - Barcelona Gua | finished | -
+- 2026-08-03 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Olancho | finished | -
+- 2026-08-03 02:30 | Peru Premier Lig Clausura | Cienciano - Universitario | finished | -
+- 2026-08-03 02:30 | Bolivya Premier Lig | Oriente Petrol - Nacional Potosi | finished | -
+- 2026-08-03 02:30 | El Salvador Primera Lig Apertura | Inca-Aruba - Deportivo Fas | finished | -
+- 2026-08-03 03:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Herediano | finished | -
+- 2026-08-03 03:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Matagalpa | finished | -
+- 2026-08-03 03:30 | Arjantin Premier Lig 2. Aşama | Lanus - Instituto Cordo | finished | -
+- 2026-08-03 03:30 | Kosta Rika Premier Lig Apertura | Inter San Carl - Herediano | finished | -
+- 2026-08-03 04:05 | Meksika Liga MX Apertura | Toluca - Necaxa | finished | -
+- 2026-08-03 04:30 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Upnfm | finished | -
