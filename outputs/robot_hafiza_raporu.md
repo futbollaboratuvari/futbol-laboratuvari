@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-03T09:35:19+03:00
+Güncelleme: 2026-08-04T09:04:48+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 98
+- Toplam tahmin kaydı: 43
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -14,13 +14,14 @@ Güncelleme: 2026-08-03T09:35:19+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
+| - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 48 | 0 | 0 | 48 | %0 | 0 |
+| Değerli market yok | 16 | 0 | 0 | 16 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 6 | 0 | 0 | 6 | %0 | 4.19 |
-| MS 2 | 20 | 0 | 0 | 20 | %0 | 3.85 |
-| MS X | 24 | 0 | 0 | 24 | %0 | 3.02 |
+| MS 1 | 2 | 0 | 0 | 2 | %0 | 3.13 |
+| MS 2 | 6 | 0 | 0 | 6 | %0 | 4.41 |
+| MS X | 18 | 0 | 0 | 18 | %0 | 2.99 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -30,49 +31,49 @@ Güncelleme: 2026-08-03T09:35:19+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 16 | 0 | 0 | 16 | %0 | 2.82 |
-| 3.00-4.99 | 30 | 0 | 0 | 30 | %0 | 3.55 |
-| 5.00+ | 4 | 0 | 0 | 4 | %0 | 5.72 |
-| bilinmiyor | 48 | 0 | 0 | 48 | %0 | 0 |
+| 2.00-2.99 | 8 | 0 | 0 | 8 | %0 | 2.88 |
+| 3.00-4.99 | 16 | 0 | 0 | 16 | %0 | 3.33 |
+| 5.00+ | 2 | 0 | 0 | 2 | %0 | 5.1 |
+| bilinmiyor | 17 | 0 | 0 | 17 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| AFF Şampiyonası Grup A | 4 | 0 | 0 | 4 | %0 | 2.77 |
-| Arjantin Premier Lig 2. Aşama | 2 | 0 | 0 | 2 | %0 | 0 |
-| Arjantin Ulusal Primera Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya Victoria NPL 1 | 2 | 0 | 0 | 2 | %0 | 0 |
-| Bulgaristan 1.Lig | 2 | 0 | 0 | 2 | %0 | 2.82 |
-| Danimarka Süperlig | 2 | 0 | 0 | 2 | %0 | 3.11 |
-| Faroe Adaları Master Lig | 2 | 0 | 0 | 2 | %0 | 3.04 |
-| Finlandiya Veikkausliiga | 2 | 0 | 0 | 2 | %0 | 3.39 |
-| Letonya 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| Litvanya 1.Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| Litvanya A Ligi | 4 | 0 | 0 | 4 | %0 | 3.01 |
-| Macaristan NB I | 2 | 0 | 0 | 2 | %0 | 3.11 |
+| AFF Şampiyonası Grup B | 4 | 0 | 0 | 4 | %0 | 0 |
+| Bolivya Premier Lig | 2 | 0 | 0 | 2 | %0 | 0 |
+| Guatemala Ulusal Lig Apertura | 2 | 0 | 0 | 2 | %0 | 0 |
+| Kosta Rika Premier Lig Apertura | 3 | 0 | 0 | 3 | %0 | 3.13 |
+| Rusya Kupa Premier Lig Yolu Grup A | 2 | 0 | 0 | 2 | %0 | 3.01 |
+| Rusya Kupa Premier Lig Yolu Grup C | 2 | 0 | 0 | 2 | %0 | 0 |
+| Rusya Kupa Premier Lig Yolu Grup D | 4 | 0 | 0 | 4 | %0 | 3.0 |
+| UEFA Avrupa Ligi 3. Eleme Turu | 4 | 0 | 0 | 4 | %0 | 3.06 |
+| UEFA Konferans Ligi 3. Eleme Turu | 2 | 0 | 0 | 2 | %0 | 2.88 |
+| UEFA Şampiyonlar Ligi 3.Eleme Turu | 16 | 0 | 0 | 16 | %0 | 3.68 |
+| İzlanda Urvalsdeild | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Brann Ii VS Stord Sunnhordl | 2 | 0 | 0 | 2 | %0 | 0 |
-| Brodd VS Stabaek 2 | 2 | 0 | 0 | 2 | %0 | 0 |
-| Bukovyna VS Lnz Cherkasy | 2 | 0 | 0 | 2 | %0 | 3.15 |
-| Celtic VS Dundee | 2 | 0 | 0 | 2 | %0 | 0 |
-| Chrobry Glogow VS Odra Opole | 2 | 0 | 0 | 2 | %0 | 2.78 |
-| Club Atletico VS Tristan | 2 | 0 | 0 | 2 | %0 | 0 |
-| Cork City VS Athlone | 2 | 0 | 0 | 2 | %0 | 0 |
-| Cracovia Krako VS Pogon Szczecin | 2 | 0 | 0 | 2 | %0 | 2.79 |
-| Djurgarden VS Vasteras | 2 | 0 | 0 | 2 | %0 | 5.25 |
-| Endonezya VS Vietnam | 2 | 0 | 0 | 2 | %0 | 2.77 |
-| Fa Siauliai VS Banga | 2 | 0 | 0 | 2 | %0 | 3.22 |
-| Fc Steaua VS Ssc Farul | 2 | 0 | 0 | 2 | %0 | 3.86 |
+| Academia Del B VS Real Oruro | 2 | 0 | 0 | 2 | %0 | 0 |
+| Akron VS Rostov | 2 | 0 | 0 | 2 | %0 | 3.06 |
+| Ararat-Armenia VS Celje | 2 | 0 | 0 | 2 | %0 | 2.84 |
+| Auda VS Dinamo Tirana | 2 | 0 | 0 | 2 | %0 | 2.88 |
+| Dinamo Zagreb VS Kauno Zalgiris | 2 | 0 | 0 | 2 | %0 | 0 |
+| Filipinler VS Tayland | 2 | 0 | 0 | 2 | %0 | 0 |
+| Fk Rodina Mosk VS Rubin Kazan | 2 | 0 | 0 | 2 | %0 | 3.01 |
+| Hapoel Beer Sh VS Kizilyildiz | 2 | 0 | 0 | 2 | %0 | 0 |
+| L.Moskova VS Cska Moskova | 2 | 0 | 0 | 2 | %0 | 2.95 |
+| Larne Fc VS Fc Iberia | 2 | 0 | 0 | 2 | %0 | 2.85 |
+| Levski Sofya VS Kairat Almaty | 2 | 0 | 0 | 2 | %0 | 5.1 |
+| Makhachkala VS Krylya Sovietov | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
+| - | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 2.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
