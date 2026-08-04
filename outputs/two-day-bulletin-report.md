@@ -2,16 +2,18 @@
 
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
-Ham mac: 33
-Aktif mac: 31
-Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 19
+Ham mac: 47
+Aktif mac: 36
+Canli mac: 0
+Biten mac: 11
+Bultenden dusurulen mac: 11
+Bugun: 24
 Yarin: 12
 
 ## Baslamamis Maclar
 - 2026-08-04 13:00 | AFF Şampiyonası Grup B | Myanmar - Laos | scheduled | -
+- 2026-08-04 14:00 | Hazırlık Kulüpler | Jeju Utd - B.Münih | scheduled | -
+- 2026-08-04 15:30 | Hazırlık Kulüpler | Bg Pathum Unit - Aston Villa | scheduled | -
 - 2026-08-04 16:00 | AFF Şampiyonası Grup B | Filipinler - Tayland | scheduled | -
 - 2026-08-04 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | scheduled | -
 - 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Rubin Kazan | scheduled | -
@@ -19,6 +21,9 @@ Yarin: 12
 - 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | scheduled | -
 - 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | scheduled | -
 - 2026-08-04 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | scheduled | -
+- 2026-08-04 19:00 | Hazırlık Kulüpler | Strasbourg - Elversberg | scheduled | -
+- 2026-08-04 20:00 | Hazırlık Kulüpler | Leganes - Al Rayyan | scheduled | -
+- 2026-08-04 20:00 | Hazırlık Kulüpler | Eldense - Villarreal B | scheduled | -
 - 2026-08-04 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya - Kairat Almaty | scheduled | -
 - 2026-08-04 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh - Kizilyildiz | scheduled | -
 - 2026-08-04 20:45 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova - Cska Moskova | scheduled | -
@@ -44,8 +49,17 @@ Yarin: 12
 - 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | scheduled | -
 
 ## Canli Maclar
-- 2026-08-04 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Cs Cartagines | live | -
-- 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Independiente | finished | -
+- 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Platense - Talleres | finished | -
+- 2026-08-04 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport - Cerro | finished | -
+- 2026-08-04 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Estudiantes Fc | finished | -
+- 2026-08-04 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr - Vitoria Bahia | finished | -
+- 2026-08-04 03:00 | Ekvador Pro Lig | Ldu Quito - Delfin | finished | -
+- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - San Lorenzo | finished | -
+- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Atletico Tucuma | finished | -
+- 2026-08-04 04:00 | Honduras Ulusal Lig Apertura | Marathon - Atlético Indepe | finished | -
+- 2026-08-04 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Cs Cartagines | finished | -
+- 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | finished | -

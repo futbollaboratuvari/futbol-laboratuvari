@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-04T03:34:09.511932+00:00
+Tarih: 2026-08-04T06:14:53.609024+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 31
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 36
+- Kac mac kaydedildi: 5
 - Kac mac zaten vardi: 31
-- Ham veri havuzu toplam mac sayisi: 4673
+- Ham veri havuzu toplam mac sayisi: 4678
 - Hedef tarih: 04.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -19,6 +19,7 @@ Tarih: 2026-08-04T03:34:09.511932+00:00
 - Brezilya Kupa Son 16 Turu
 - CONCACAF Ligler Kupası Grup Aşaması
 - CONCACAF Orta Amerika Kupası Grup A
+- Hazırlık Kulüpler
 - Rusya Kupa Premier Lig Yolu Grup A
 - Rusya Kupa Premier Lig Yolu Grup C
 - Rusya Kupa Premier Lig Yolu Grup D
@@ -83,8 +84,8 @@ Tarih: 2026-08-04T03:34:09.511932+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 14
-- Acilan detay: 14
+- Denenen Tumu alani: 15
+- Acilan detay: 15
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -97,13 +98,13 @@ Tarih: 2026-08-04T03:34:09.511932+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby | Slovan Bratisla | 03071 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag | Lyon | 03918 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos | Nijmegen | 00042 | 5 |
 | 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya | Kairat Almaty | 03353 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G | Bodo Glimt | 04236 | 5 |
-| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia | Celje | 00519 | 5 |
 | 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb | Kauno Zalgiris | 03598 | 4 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G | Bodo Glimt | 04236 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos | Nijmegen | 00042 | 5 |
+| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia | Celje | 00519 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag | Lyon | 03918 | 5 |
+| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby | Slovan Bratisla | 03071 | 5 |
 | 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh | Kizilyildiz | 03177 | 5 |
 | 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
 | 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc | Fc Iberia | 05528 | 5 |
@@ -112,11 +113,11 @@ Tarih: 2026-08-04T03:34:09.511932+00:00
 | 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala | Krylya Sovietov | 11166 | 5 |
 | 04.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova | Cska Moskova | 11338 | 5 |
 | 04.08.2026 | 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron | Rostov | 01142 | 5 |
-| 05.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver | Atlante | 01460 | 5 |
-| 05.08.2026 | 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus | Atlas | 05978 | 5 |
-| 05.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte | Pumas Unam | 06171 | 5 |
-| 05.08.2026 | 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati | Pachuca | 01391 | 5 |
-| 05.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd | Fc Juarez | 06233 | 5 |
+| 04.08.2026 | 14:00 | Hazırlık Kulüpler | Jeju Utd | B.Münih | 06683 | 2 |
+| 04.08.2026 | 20:00 | Hazırlık Kulüpler | Leganes | Al Rayyan | 07507 | 5 |
+| 04.08.2026 | 15:30 | Hazırlık Kulüpler | Bg Pathum Unit | Aston Villa | 06826 | 2 |
+| 04.08.2026 | 20:00 | Hazırlık Kulüpler | Eldense | Villarreal B | 01972 | 5 |
+| 04.08.2026 | 19:00 | Hazırlık Kulüpler | Strasbourg | Elversberg | 06872 | 5 |
 
 ## Sonuc
 
