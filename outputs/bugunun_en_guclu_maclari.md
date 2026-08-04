@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-04T19:59:04.569Z
+- Güncelleme: 2026-08-04T20:10:29.432Z
 - Ham maç sayısı: 46
 - Yarın bülteni maç sayısı: 19
 - Detay blok sayısı: 128
-- Aktif bülten maçı: 20
-- Bültenden düşürülen maç: 26
+- Aktif bülten maçı: 19
+- Bültenden düşürülen maç: 27
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kosta Rika (U2 - Haiti U20 | CONCACAF U20 Çeyrek Final | 23:00 | Veri bekleniyor | - | 1.48 | 7 |
 | Carabobo - Trujillanos | Venezuela Premier Lig Clausura | 00:00 | Veri bekleniyor | - | 1.08 | 6 |
 | Independiente - Aurora | Bolivya Premier Lig | 01:00 | Veri bekleniyor | - | 2.45 | 8 |
 | Ucv - Monagas | Venezuela Premier Lig Clausura | 01:00 | Veri bekleniyor | - | 1.79 | 8 |
