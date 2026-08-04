@@ -1,44 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-04T09:31:09.697962+00:00
+Tarih: 2026-08-04T11:33:49.861360+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 39
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 39
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 4693
 - Hedef tarih: 04.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Grup B
-- Bolivya Premier Lig
-- CONCACAF U20 Çeyrek Final
-- Hazırlık Kulüpler
-- Rusya Kupa Premier Lig Yolu Grup A
-- Rusya Kupa Premier Lig Yolu Grup C
-- Rusya Kupa Premier Lig Yolu Grup D
-- UEFA Avrupa Ligi 3. Eleme Turu
-- UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final
-- UEFA Konferans Ligi 3. Eleme Turu
-- UEFA Şampiyonlar Ligi 3.Eleme Turu
-- İzlanda Urvalsdeild
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -82,40 +72,90 @@ Tarih: 2026-08-04T09:31:09.697962+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 17
-- Acilan detay: 17
+- Denenen Tumu alani: 20
+- Acilan detay: 2
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Detay acilamadi #3: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(2)
+
+- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
+
+- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
+
+- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
+
+- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
+
+- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
+
+- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
+
+- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
+
+- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
+
+- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
+
+- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
+
+- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
+
+- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
+
+- Detay acilamadi #16: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(15)
+
+- Detay acilamadi #17: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(16)
+
+- Detay acilamadi #18: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(17)
+
+- Detay acilamadi #19: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(18)
+
+- Detay acilamadi #20: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(19)
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby | Slovan Bratisla | 03071 | 5 |
-| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia | Celje | 00519 | 5 |
-| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh | Kizilyildiz | 03177 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos | Nijmegen | 00042 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag | Lyon | 03918 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G | Bodo Glimt | 04236 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb | Kauno Zalgiris | 03598 | 4 |
-| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya | Kairat Almaty | 03353 | 5 |
-| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc | Fc Iberia | 05528 | 5 |
-| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
-| 04.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda | Dinamo Tirana | 02922 | 5 |
-| 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Rubin Kazan | 11289 | 5 |
-| 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala | Krylya Sovietov | 11166 | 5 |
-| 04.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova | Cska Moskova | 11338 | 5 |
-| 04.08.2026 | 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron | Rostov | 01142 | 5 |
-| 04.08.2026 | 14:00 | Hazırlık Kulüpler | Bournemouth | Genoa | 06573 | 5 |
-| 04.08.2026 | 20:00 | Hazırlık Kulüpler | Leganes | Al Rayyan | 07507 | 5 |
-| 04.08.2026 | 20:00 | Hazırlık Kulüpler | Huesca | Ud Logrones | 08758 | 5 |
-| 04.08.2026 | 21:45 | Hazırlık Kulüpler | Raynes Park Va | Hampton Richmon | 10364 | 3 |
-| 04.08.2026 | 21:00 | Hazırlık Kulüpler | Leyton Orient | Waltham Abbey | 09646 | 3 |
+- Ornek mac yok.
 
 ## Sonuc
 
