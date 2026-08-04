@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.08.2026 12:59:44
+Oluşturma: 04.08.2026 13:38:43
 
 ## Özet
 
-- Toplam tahmin: 50
-- Bekleyen tahmin: 50
+- Toplam tahmin: 52
+- Bekleyen tahmin: 52
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 28
@@ -20,12 +20,14 @@ Oluşturma: 04.08.2026 12:59:44
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
-- MS X: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
+- MS X: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-04 | Hazırlık Kulüpler | Huesca - Ud Logrones | MS 2 | pending | 50/100
+- 2026-08-04 | Hazırlık Kulüpler | Socuellamos - Puertollano | MS X | pending | 40/100
 - 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | MS 2 | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Strasbourg - Elversberg | MS X | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Leganes - Al Rayyan | MS 2 | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 04.08.2026 12:59:44
 - 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | MS X | pending | 40/100
 - 2026-08-04 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | MS X | pending | 40/100
 - 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya - Kairat Almaty | MS 2 | pending | 50/100
-- 2026-08-04 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova - Cska Moskova | MS X | pending | 50/100
-- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag - Lyon | MS X | pending | 50/100
 

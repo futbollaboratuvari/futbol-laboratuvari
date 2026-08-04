@@ -3,15 +3,14 @@
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
 Ham mac: 51
-Aktif mac: 51
-Canli mac: 0
+Aktif mac: 50
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 39
+Bultenden dusurulen mac: 1
+Bugun: 38
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-04 13:00 | AFF Şampiyonası Grup B | Myanmar - Laos | scheduled | -
 - 2026-08-04 14:00 | Hazırlık Kulüpler | Jeju Utd - B.Münih | scheduled | -
 - 2026-08-04 14:00 | Hazırlık Kulüpler | Bournemouth - Genoa | scheduled | -
 - 2026-08-04 15:30 | Hazırlık Kulüpler | Bg Pathum Unit - Aston Villa | scheduled | -
@@ -64,7 +63,7 @@ Yarin: 12
 - 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-04 13:00 | AFF Şampiyonası Grup B | Myanmar - Laos | live | -
 
 ## Biten Maclar
 Biten mac yok.
