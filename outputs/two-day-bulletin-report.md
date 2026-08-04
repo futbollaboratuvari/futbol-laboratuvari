@@ -2,25 +2,15 @@
 
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
-Ham mac: 52
-Aktif mac: 30
-Canli mac: 22
+Ham mac: 46
+Aktif mac: 20
+Canli mac: 26
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 11
+Bultenden dusurulen mac: 26
+Bugun: 1
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-08-04 21:30 | İzlanda Urvalsdeild | Thor Akureyri - Breidablik | scheduled | -
-- 2026-08-04 21:30 | Hazırlık Kulüpler | Rotherham - Derby County | scheduled | -
-- 2026-08-04 21:30 | Hazırlık Kulüpler | Enfield Town - Tottenham U21 | scheduled | -
-- 2026-08-04 21:30 | Hazırlık Kulüpler | Socuellamos - Puertollano | scheduled | -
-- 2026-08-04 21:45 | Hazırlık Kulüpler | Bracknell Town - Dorking Wand. | scheduled | -
-- 2026-08-04 21:45 | Hazırlık Kulüpler | Ipswich - Le Havre | scheduled | -
-- 2026-08-04 21:45 | Hazırlık Kulüpler | Raynes Park Va - Hampton Richmon | scheduled | -
-- 2026-08-04 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover - Egnatia | scheduled | -
-- 2026-08-04 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc - Fc Iberia | scheduled | -
-- 2026-08-04 22:00 | Bolivya Premier Lig | Academia Del B - Real Oruro | scheduled | -
 - 2026-08-04 23:00 | CONCACAF U20 Çeyrek Final | Kosta Rika (U2 - Haiti U20 | scheduled | -
 - 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | scheduled | -
 - 2026-08-05 01:00 | Bolivya Premier Lig | Independiente - Aurora | scheduled | -
@@ -43,12 +33,6 @@ Yarin: 19
 - 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | scheduled | -
 
 ## Canli Maclar
-- 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Rubin Kazan | live | -
-- 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala - Krylya Sovietov | live | -
-- 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | live | -
-- 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | live | -
-- 2026-08-04 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | live | -
-- 2026-08-04 19:00 | Hazırlık Kulüpler | Strasbourg - Elversberg | live | -
 - 2026-08-04 20:00 | Hazırlık Kulüpler | Leganes - Al Rayyan | live | -
 - 2026-08-04 20:00 | Hazırlık Kulüpler | Eldense - Villarreal B | live | -
 - 2026-08-04 20:00 | Hazırlık Kulüpler | Al Nassr (Riya - Almeria | live | -
@@ -65,6 +49,16 @@ Yarin: 19
 - 2026-08-04 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb - Kauno Zalgiris | live | -
 - 2026-08-04 21:00 | Hazırlık Kulüpler | Newport County - Roma | live | -
 - 2026-08-04 21:00 | Hazırlık Kulüpler | Leyton Orient - Waltham Abbey | live | -
+- 2026-08-04 21:30 | İzlanda Urvalsdeild | Thor Akureyri - Breidablik | live | -
+- 2026-08-04 21:30 | Hazırlık Kulüpler | Rotherham - Derby County | live | -
+- 2026-08-04 21:30 | Hazırlık Kulüpler | Enfield Town - Tottenham U21 | live | -
+- 2026-08-04 21:30 | Hazırlık Kulüpler | Socuellamos - Puertollano | live | -
+- 2026-08-04 21:45 | Hazırlık Kulüpler | Bracknell Town - Dorking Wand. | live | -
+- 2026-08-04 21:45 | Hazırlık Kulüpler | Ipswich - Le Havre | live | -
+- 2026-08-04 21:45 | Hazırlık Kulüpler | Raynes Park Va - Hampton Richmon | live | -
+- 2026-08-04 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover - Egnatia | live | -
+- 2026-08-04 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc - Fc Iberia | live | -
+- 2026-08-04 22:00 | Bolivya Premier Lig | Academia Del B - Real Oruro | live | -
 
 ## Biten Maclar
 Biten mac yok.
