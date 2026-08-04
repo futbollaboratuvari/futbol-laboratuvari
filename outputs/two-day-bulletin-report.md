@@ -3,18 +3,14 @@
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
 Ham mac: 93
-Aktif mac: 88
-Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 58
+Aktif mac: 84
+Canli mac: 8
+Biten mac: 1
+Bultenden dusurulen mac: 9
+Bugun: 54
 Yarin: 30
 
 ## Baslamamis Maclar
-- 2026-08-05 02:30 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | scheduled | -
-- 2026-08-05 02:30 | Şili Kupa Grup F | Univ De Concep - Curico | scheduled | -
-- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | scheduled | -
-- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pachuca | scheduled | -
 - 2026-08-05 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pumas Unam | scheduled | -
 - 2026-08-05 03:00 | Bolivya Premier Lig | Guabira - Real Tomayapo | scheduled | -
 - 2026-08-05 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | scheduled | -
@@ -101,11 +97,14 @@ Yarin: 30
 - 2026-08-06 05:30 | ABD USL | Las Vegas Ligh - Oakland Roots | scheduled | -
 
 ## Canli Maclar
-- 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | live | -
 - 2026-08-05 01:00 | Bolivya Premier Lig | Independiente - Aurora | live | -
 - 2026-08-05 01:00 | Venezuela Premier Lig Clausura | Ucv - Monagas | live | -
 - 2026-08-05 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | live | -
 - 2026-08-05 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | live | -
+- 2026-08-05 02:30 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | live | -
+- 2026-08-05 02:30 | Şili Kupa Grup F | Univ De Concep - Curico | live | -
+- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | live | -
+- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pachuca | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | finished | -
