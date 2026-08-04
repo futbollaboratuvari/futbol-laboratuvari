@@ -3,16 +3,14 @@
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
 Ham mac: 55
-Aktif mac: 51
-Canli mac: 4
+Aktif mac: 49
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 33
+Bultenden dusurulen mac: 6
+Bugun: 31
 Yarin: 18
 
 ## Baslamamis Maclar
-- 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Rubin Kazan | scheduled | -
-- 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala - Krylya Sovietov | scheduled | -
 - 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | scheduled | -
 - 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | scheduled | -
 - 2026-08-04 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | scheduled | -
@@ -68,6 +66,8 @@ Yarin: 18
 - 2026-08-04 16:00 | AFF Şampiyonası Grup B | Filipinler - Tayland | live | -
 - 2026-08-04 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | live | -
 - 2026-08-04 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Breidablik (K) - Aktobe (K) | live | -
+- 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Rubin Kazan | live | -
+- 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala - Krylya Sovietov | live | -
 
 ## Biten Maclar
 Biten mac yok.
