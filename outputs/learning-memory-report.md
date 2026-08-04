@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.08.2026 23:43:28
+Oluşturma: 04.08.2026 23:48:19
 
 ## Özet
 
-- Toplam tahmin: 57
-- Bekleyen tahmin: 57
+- Toplam tahmin: 58
+- Bekleyen tahmin: 58
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 29
@@ -20,12 +20,13 @@ Oluşturma: 04.08.2026 23:43:28
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS X: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-04 | Hazırlık Kulüpler | Bracknell Town - Dorking Wand. | MS X | pending | 60/100
 - 2026-08-04 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | MS 2 | pending | 40/100
 - 2026-08-04 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc - Fc Iberia | MS 1 | pending | 40/100
 - 2026-08-04 | CONCACAF U20 Çeyrek Final | Kosta Rika (U2 - Haiti U20 | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 04.08.2026 23:43:28
 - 2026-08-04 | Hazırlık Kulüpler | Al Nassr (Riya - Almeria | MS X | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Ipswich - Le Havre | MS 2 | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Bournemouth - Genoa | MS 2 | pending | 95/100
-- 2026-08-04 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | MS X | pending | 50/100
 
