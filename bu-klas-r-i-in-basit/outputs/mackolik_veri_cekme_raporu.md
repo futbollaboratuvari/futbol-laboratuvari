@@ -1,26 +1,32 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-04T16:32:53.454630+00:00
+Tarih: 2026-08-04T17:20:36.015694+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 26
+- Kac mac bulundu: 43
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 26
+- Kac mac zaten vardi: 43
 - Ham veri havuzu toplam mac sayisi: 4701
 - Hedef tarih: 04.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
 - CONCACAF U20 Çeyrek Final
 - Hazırlık Kulüpler
 - Rusya Kupa Premier Lig Yolu Grup D
 - UEFA Avrupa Ligi 3. Eleme Turu
 - UEFA Şampiyonlar Ligi 3.Eleme Turu
+- Venezuela Premier Lig Clausura
 - İzlanda Urvalsdeild
+- Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
 
@@ -91,26 +97,26 @@ Tarih: 2026-08-04T16:32:53.454630+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G | Bodo Glimt | 04236 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb | Kauno Zalgiris | 03598 | 4 |
 | 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya | Kairat Almaty | 03353 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb | Kauno Zalgiris | 03598 | 4 |
+| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh | Kizilyildiz | 03177 | 5 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G | Bodo Glimt | 04236 | 5 |
 | 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos | Nijmegen | 00042 | 5 |
 | 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag | Lyon | 03918 | 5 |
-| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh | Kizilyildiz | 03177 | 5 |
-| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
 | 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc | Fc Iberia | 05528 | 5 |
+| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
 | 04.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova | Cska Moskova | 11338 | 5 |
-| 04.08.2026 | 20:00 | Hazırlık Kulüpler | Leganes | Al Rayyan | 07507 | 5 |
 | 04.08.2026 | 21:30 | Hazırlık Kulüpler | Socuellamos | Puertollano | 09983 | 5 |
 | 04.08.2026 | 21:45 | Hazırlık Kulüpler | Bracknell Town | Dorking Wand. | 10002 | 3 |
 | 04.08.2026 | 21:45 | Hazırlık Kulüpler | Ipswich | Le Havre | 10128 | 5 |
 | 04.08.2026 | 20:00 | Hazırlık Kulüpler | Huesca | Ud Logrones | 08758 | 5 |
 | 04.08.2026 | 21:45 | Hazırlık Kulüpler | Raynes Park Va | Hampton Richmon | 10364 | 3 |
-| 04.08.2026 | 20:00 | Hazırlık Kulüpler | Al Nassr (Riya | Almeria | 00590 | 5 |
 | 04.08.2026 | 21:00 | Hazırlık Kulüpler | Leyton Orient | Waltham Abbey | 09646 | 3 |
 | 04.08.2026 | 21:00 | Hazırlık Kulüpler | Newport County | Roma | 09291 | 4 |
 | 04.08.2026 | 20:30 | Hazırlık Kulüpler | Noordwijk | Rijnsburgse Boy | 09025 | 3 |
 | 04.08.2026 | 20:30 | Hazırlık Kulüpler | Tenerife | Tamaraceite | 09186 | 5 |
+| 04.08.2026 | 21:30 | Hazırlık Kulüpler | Enfield Town | Tottenham U21 | 09688 | 3 |
+| 04.08.2026 | 21:30 | Hazırlık Kulüpler | Rotherham | Derby County | 09782 | 5 |
 
 ## Sonuc
 

@@ -3,22 +3,14 @@
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
 Ham mac: 70
-Aktif mac: 50
-Canli mac: 3
-Biten mac: 17
-Bultenden dusurulen mac: 20
-Bugun: 31
+Aktif mac: 42
+Canli mac: 10
+Biten mac: 18
+Bultenden dusurulen mac: 28
+Bugun: 23
 Yarin: 19
 
 ## Baslamamis Maclar
-- 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | scheduled | -
-- 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | scheduled | -
-- 2026-08-04 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | scheduled | -
-- 2026-08-04 19:00 | Hazırlık Kulüpler | Strasbourg - Elversberg | scheduled | -
-- 2026-08-04 20:00 | Hazırlık Kulüpler | Leganes - Al Rayyan | scheduled | -
-- 2026-08-04 20:00 | Hazırlık Kulüpler | Eldense - Villarreal B | scheduled | -
-- 2026-08-04 20:00 | Hazırlık Kulüpler | Al Nassr (Riya - Almeria | scheduled | -
-- 2026-08-04 20:00 | Hazırlık Kulüpler | Huesca - Ud Logrones | scheduled | -
 - 2026-08-04 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya - Kairat Almaty | scheduled | -
 - 2026-08-04 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh - Kizilyildiz | scheduled | -
 - 2026-08-04 20:30 | Hazırlık Kulüpler | Tenerife - Tamaraceite | scheduled | -
@@ -63,9 +55,16 @@ Yarin: 19
 - 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | scheduled | -
 
 ## Canli Maclar
-- 2026-08-04 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Breidablik (K) - Aktobe (K) | live | -
 - 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Rubin Kazan | live | -
 - 2026-08-04 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala - Krylya Sovietov | live | -
+- 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | live | -
+- 2026-08-04 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | live | -
+- 2026-08-04 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | live | -
+- 2026-08-04 19:00 | Hazırlık Kulüpler | Strasbourg - Elversberg | live | -
+- 2026-08-04 20:00 | Hazırlık Kulüpler | Leganes - Al Rayyan | live | -
+- 2026-08-04 20:00 | Hazırlık Kulüpler | Eldense - Villarreal B | live | -
+- 2026-08-04 20:00 | Hazırlık Kulüpler | Al Nassr (Riya - Almeria | live | -
+- 2026-08-04 20:00 | Hazırlık Kulüpler | Huesca - Ud Logrones | live | -
 
 ## Biten Maclar
 - 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Independiente | finished | -
@@ -85,3 +84,4 @@ Yarin: 19
 - 2026-08-04 15:30 | Hazırlık Kulüpler | Bg Pathum Unit - Aston Villa | finished | -
 - 2026-08-04 16:00 | AFF Şampiyonası Grup B | Filipinler - Tayland | finished | -
 - 2026-08-04 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | finished | -
+- 2026-08-04 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Breidablik (K) - Aktobe (K) | finished | -
