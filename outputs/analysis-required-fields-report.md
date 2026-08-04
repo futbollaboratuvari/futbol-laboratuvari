@@ -1,10 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 27
-Tam analiz: 24
-Eksik analiz: 3
+Toplam analiz: 19
+Tam analiz: 18
+Eksik analiz: 1
 
-- Noordwijk VS Rijnsburgse Boy: eksik score, confidence
-- Leyton Orient VS Waltham Abbey: eksik score, confidence
-- Raynes Park Va VS Hampton Richmon: eksik score, confidence
+- Guabira VS Real Tomayapo: eksik score, confidence

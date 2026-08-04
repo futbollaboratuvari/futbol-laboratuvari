@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.08.2026 23:48:19
+Oluşturma: 05.08.2026 00:38:21
 
 ## Özet
 
-- Toplam tahmin: 58
-- Bekleyen tahmin: 58
+- Toplam tahmin: 73
+- Bekleyen tahmin: 73
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 29
+- Lig sayısı: 35
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 04.08.2026 23:48:19
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
+- MS X: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-04 | Hazırlık Kulüpler | Bracknell Town - Dorking Wand. | MS X | pending | 60/100
-- 2026-08-04 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | MS 2 | pending | 40/100
-- 2026-08-04 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc - Fc Iberia | MS 1 | pending | 40/100
-- 2026-08-04 | CONCACAF U20 Çeyrek Final | Kosta Rika (U2 - Haiti U20 | MS 2 | pending | 50/100
-- 2026-08-04 | Hazırlık Kulüpler | Eldense - Villarreal B | MS X | pending | 40/100
-- 2026-08-04 | Hazırlık Kulüpler | Huesca - Ud Logrones | MS X | pending | 50/100
-- 2026-08-04 | Hazırlık Kulüpler | Huesca - Ud Logrones | MS 2 | pending | 50/100
-- 2026-08-04 | Hazırlık Kulüpler | Socuellamos - Puertollano | MS X | pending | 40/100
-- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | MS 2 | pending | 50/100
-- 2026-08-04 | Hazırlık Kulüpler | Strasbourg - Elversberg | MS X | pending | 50/100
-- 2026-08-04 | Hazırlık Kulüpler | Leganes - Al Rayyan | MS 2 | pending | 60/100
-- 2026-08-04 | Hazırlık Kulüpler | Eldense - Villarreal B | MS X | pending | 40/100
-- 2026-08-04 | Hazırlık Kulüpler | Al Nassr (Riya - Almeria | MS X | pending | 50/100
-- 2026-08-04 | Hazırlık Kulüpler | Ipswich - Le Havre | MS 2 | pending | 50/100
-- 2026-08-04 | Hazırlık Kulüpler | Bournemouth - Genoa | MS 2 | pending | 95/100
+- 2026-08-05 | Venezuela Premier Lig Clausura | Ucv - Monagas | MS 2 | pending | 50/100
+- 2026-08-05 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | MS 1 | pending | 40/100
+- 2026-08-05 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | MS 2 | pending | 65/100
+- 2026-08-05 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | MS 2 | pending | 50/100
+- 2026-08-05 | Şili Kupa Grup F | Univ De Concep - Curico | MS X | pending | 50/100
+- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | MS 2 | pending | 50/100
+- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pachuca | MS X | pending | 70/100
+- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pumas Unam | MS X | pending | 50/100
+- 2026-08-05 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | MS 2 | pending | 50/100
+- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | MS 2 | pending | 50/100
+- 2026-08-05 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | MS X | pending | 40/100
+- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | MS X | pending | 50/100
+- 2026-08-05 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | MS 2 | pending | 50/100
+- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | MS X | pending | 40/100
+- 2026-08-05 | Bolivya Premier Lig | Independiente - Aurora | MS X | pending | 50/100
 
