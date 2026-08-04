@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 33
-Tam analiz: 30
+Toplam analiz: 27
+Tam analiz: 24
 Eksik analiz: 3
 
 - Noordwijk VS Rijnsburgse Boy: eksik score, confidence
