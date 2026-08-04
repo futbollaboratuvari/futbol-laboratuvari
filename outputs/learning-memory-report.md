@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.08.2026 14:34:23
+Oluşturma: 04.08.2026 14:48:27
 
 ## Özet
 
-- Toplam tahmin: 52
-- Bekleyen tahmin: 52
+- Toplam tahmin: 53
+- Bekleyen tahmin: 53
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 28
@@ -20,12 +20,13 @@ Oluşturma: 04.08.2026 14:34:23
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
-- MS X: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-04 | Hazırlık Kulüpler | Huesca - Ud Logrones | MS X | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Huesca - Ud Logrones | MS 2 | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Socuellamos - Puertollano | MS X | pending | 40/100
 - 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 04.08.2026 14:34:23
 - 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | MS X | pending | 50/100
 - 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | MS X | pending | 40/100
 - 2026-08-04 | UEFA Konferans Ligi 3. Eleme Turu | Auda - Dinamo Tirana | MS X | pending | 40/100
-- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya - Kairat Almaty | MS 2 | pending | 50/100
 
