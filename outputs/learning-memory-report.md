@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.08.2026 02:19:58
+Oluşturma: 05.08.2026 02:31:12
 
 ## Özet
 
-- Toplam tahmin: 74
-- Bekleyen tahmin: 74
+- Toplam tahmin: 94
+- Bekleyen tahmin: 94
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 36
+- Lig sayısı: 40
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 05.08.2026 02:19:58
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
-- MS X: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
+- MS X: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-05 | Ekvador Kupa Son 16 Turu | Cuniburo Fc - Univ Catolica ( | MS 1 | pending | 40/100
-- 2026-08-05 | Venezuela Premier Lig Clausura | Ucv - Monagas | MS 2 | pending | 50/100
-- 2026-08-05 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | MS 1 | pending | 40/100
-- 2026-08-05 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | MS 2 | pending | 65/100
-- 2026-08-05 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | MS 2 | pending | 50/100
-- 2026-08-05 | Şili Kupa Grup F | Univ De Concep - Curico | MS X | pending | 50/100
-- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | MS 2 | pending | 50/100
-- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pachuca | MS X | pending | 70/100
-- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pumas Unam | MS X | pending | 50/100
-- 2026-08-05 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | MS 2 | pending | 50/100
-- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | MS 2 | pending | 50/100
-- 2026-08-05 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | MS X | pending | 40/100
-- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | MS X | pending | 50/100
-- 2026-08-05 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | MS 2 | pending | 50/100
-- 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | MS X | pending | 40/100
+- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Olimpia Grudzi - Swit Skolwin | MS X | pending | 50/100
+- 2026-08-05 | Finlandiya Ykkönen | Oulun Ls - Tpv Tampere | MS 2 | pending | 40/100
+- 2026-08-05 | Rusya Kupa Premier Lig Yolu Grup B | Fakel Voronezh - Dinamo Moskova | MS 1 | pending | 50/100
+- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Warta Poznan - Resovia Rzeszow | MS 2 | pending | 60/100
+- 2026-08-05 | Finlandiya Ykkönen | Salpa Salo - Jyvaskyla | MS X | pending | 70/100
+- 2026-08-05 | Finlandiya Ykkönen | Rops - Fc Jazz | MS 2 | pending | 40/100
+- 2026-08-05 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | St. Pölten (K) - Young Boys (K) | MS X | pending | 40/100
+- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Gornik Leczna - Kalisz | MS 2 | pending | 60/100
+- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Sandecja Nowy - Rekord Bielsko | MS X | pending | 50/100
+- 2026-08-05 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | MS X | pending | 70/100
+- 2026-08-05 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus - Sabah | MS 2 | pending | 60/100
+- 2026-08-05 | UEFA Konferans Ligi 3. Eleme Turu | Brann - Apollon Limasso | MS 2 | pending | 60/100
+- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Gks Tychy - Zaglebie Sosnow | MS 2 | pending | 50/100
+- 2026-08-05 | Rusya Kupa Premier Lig Yolu Grup B | Krasnodar - Akhmat Grozny | MS 2 | pending | 60/100
+- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Unia Skierniew - Sokol Kleczew | MS 2 | pending | 60/100
 
