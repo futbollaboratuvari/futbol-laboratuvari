@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.08.2026 00:54:44
+Oluşturma: 05.08.2026 01:02:57
 
 ## Özet
 
-- Toplam tahmin: 73
-- Bekleyen tahmin: 73
+- Toplam tahmin: 74
+- Bekleyen tahmin: 74
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 35
+- Lig sayısı: 36
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 05.08.2026 00:54:44
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - MS X: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-05 | Ekvador Kupa Son 16 Turu | Cuniburo Fc - Univ Catolica ( | MS 1 | pending | 40/100
 - 2026-08-05 | Venezuela Premier Lig Clausura | Ucv - Monagas | MS 2 | pending | 50/100
 - 2026-08-05 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | MS 1 | pending | 40/100
 - 2026-08-05 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | MS 2 | pending | 65/100
@@ -40,5 +41,4 @@ Oluşturma: 05.08.2026 00:54:44
 - 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | MS X | pending | 50/100
 - 2026-08-05 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | MS 2 | pending | 50/100
 - 2026-08-05 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | MS X | pending | 40/100
-- 2026-08-05 | Bolivya Premier Lig | Independiente - Aurora | MS X | pending | 50/100
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T21:54:44.751Z",
+  "generated_at": "2026-08-04T22:02:57.747Z",
   "date": "2026-08-05",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
@@ -7,17 +7,17 @@
   "status": "active",
   "message": "Başlayan karşılaşmalar canlı listede.",
   "counts": {
-    "total": 93,
-    "current_window": 93,
-    "live": 2,
-    "scheduled": 30,
-    "finished": 61,
+    "total": 32,
+    "current_window": 32,
+    "live": 1,
+    "scheduled": 31,
+    "finished": 0,
     "active_analysis": 2,
     "completed_analysis": 0,
     "coupon_candidates": 0,
     "watch_candidates": 0,
     "focused_markets": 16,
-    "wide_market_odds": 429
+    "wide_market_odds": 211
   },
   "next_match": {
     "date": "2026-08-06",
@@ -37,6 +37,8 @@
       "ms2": 3.53,
       "under25": 1.27,
       "over25": 2.46,
+      "bttsYes_guess": 1.11,
+      "bttsNo_guess": 1.24,
       "bttsYes": null,
       "bttsNo": null
     },
@@ -46,10 +48,20 @@
       "ms2": 3.53,
       "under25": 1.27,
       "over25": 2.46,
+      "bttsYes_guess": 1.11,
+      "bttsNo_guess": 1.24,
       "bttsYes": null,
       "bttsNo": null
     },
-    "raw_market_guess_odds": {},
+    "raw_market_guess_odds": {
+      "ms1": 1.9,
+      "msx": 2.61,
+      "ms2": 3.53,
+      "under25": 1.27,
+      "over25": 2.46,
+      "bttsYes_guess": 1.11,
+      "bttsNo_guess": 1.24
+    },
     "raw_odds_sequence": [],
     "market_odds_inventory": [
       "ms1",
@@ -57,10 +69,12 @@
       "ms2",
       "under25",
       "over25",
+      "bttsYes_guess",
+      "bttsNo_guess",
       "bttsYes",
       "bttsNo"
     ],
-    "wide_market_odds_count": 5,
+    "wide_market_odds_count": 7,
     "suggested_option": "",
     "suggested_odds": "",
     "analysis_score": null,
@@ -69,7 +83,7 @@
     "decision": "Analiz bekleniyor",
     "robot_reason": "",
     "include_in_coupon": false,
-    "raw_market_value_count": 5
+    "raw_market_value_count": 8
   },
   "focused_markets": [
     "İlk Yarı KG Var",
@@ -134,7 +148,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.08,
+        "msx": 4.76,
+        "ms2": 10.85,
+        "under25": 1.69,
+        "over25": 1.58
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -154,23 +174,25 @@
       "wide_market_odds_count": 11,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
-      "analysis_score": 0,
-      "confidence": "0%",
+      "analysis_score": 10,
+      "confidence": "10%",
       "risk_level": "Yüksek",
       "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
       "raw_market_value_count": 5
-    },
+    }
+  ],
+  "scheduled_matches": [
     {
       "date": "2026-08-05",
       "time": "23:00",
       "league": "Ekvador Kupa Son 16 Turu",
       "home": "Cuniburo Fc",
       "away": "Univ Catolica (",
-      "status": "live",
-      "liveStatus": "live",
-      "minute": 90,
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "10835",
@@ -208,7 +230,15 @@
         "bttsYes_guess": 1.59,
         "bttsNo_guess": 1.14
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 3.79,
+        "msx": 2.87,
+        "ms2": 1.63,
+        "under25": 1.41,
+        "over25": 1.94,
+        "bttsYes_guess": 1.59,
+        "bttsNo_guess": 1.14
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -228,18 +258,16 @@
         "bttsNo_guess"
       ],
       "wide_market_odds_count": 15,
-      "suggested_option": "Değerli market yok",
-      "suggested_odds": "-",
-      "analysis_score": 0,
-      "confidence": "0%",
+      "suggested_option": "MS 1",
+      "suggested_odds": "3.79",
+      "analysis_score": 40,
+      "confidence": "40%",
       "risk_level": "Yüksek",
       "decision": "Oynama",
-      "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_reason": "Market: MS 1 | Oran: 3.79 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
-    }
-  ],
-  "scheduled_matches": [
+      "raw_market_value_count": 8
+    },
     {
       "date": "2026-08-06",
       "time": "01:00",
@@ -258,6 +286,8 @@
         "ms2": 3.53,
         "under25": 1.27,
         "over25": 2.46,
+        "bttsYes_guess": 1.11,
+        "bttsNo_guess": 1.24,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -267,10 +297,20 @@
         "ms2": 3.53,
         "under25": 1.27,
         "over25": 2.46,
+        "bttsYes_guess": 1.11,
+        "bttsNo_guess": 1.24,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.9,
+        "msx": 2.61,
+        "ms2": 3.53,
+        "under25": 1.27,
+        "over25": 2.46,
+        "bttsYes_guess": 1.11,
+        "bttsNo_guess": 1.24
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -278,10 +318,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -290,7 +332,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -322,7 +364,13 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.18,
+        "msx": 4.14,
+        "ms2": 7.6,
+        "under25": 1.76,
+        "over25": 1.52
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -342,7 +390,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-06",
@@ -374,7 +422,13 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 5.21,
+        "msx": 3.85,
+        "ms2": 1.29,
+        "under25": 1.86,
+        "over25": 1.45
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -394,7 +448,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-06",
@@ -414,6 +468,8 @@
         "ms2": 1.72,
         "under25": 1.66,
         "over25": 1.61,
+        "bttsYes_guess": 1.51,
+        "bttsNo_guess": 1.13,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -423,10 +479,20 @@
         "ms2": 1.72,
         "under25": 1.66,
         "over25": 1.61,
+        "bttsYes_guess": 1.51,
+        "bttsNo_guess": 1.13,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 3.22,
+        "msx": 3,
+        "ms2": 1.72,
+        "under25": 1.66,
+        "over25": 1.61,
+        "bttsYes_guess": 1.51,
+        "bttsNo_guess": 1.13
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -434,10 +500,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -446,7 +514,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -464,8 +532,8 @@
         "ms1": 2.06,
         "msx": 3.23,
         "ms2": 2.32,
-        "over25": null,
-        "under25": null,
+        "over25": 1.11,
+        "under25": 1.25,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -473,12 +541,18 @@
         "ms1": 2.06,
         "msx": 3.23,
         "ms2": 2.32,
-        "over25": null,
-        "under25": null,
+        "over25": 1.11,
+        "under25": 1.25,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.06,
+        "msx": 3.23,
+        "ms2": 2.32,
+        "under25": 1.25,
+        "over25": 1.11
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -489,7 +563,7 @@
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 3,
+      "wide_market_odds_count": 5,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -498,7 +572,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 3
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-06",
@@ -518,6 +592,8 @@
         "ms2": 3.39,
         "under25": 1.35,
         "over25": 2.06,
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.16,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -527,10 +603,20 @@
         "ms2": 3.39,
         "under25": 1.35,
         "over25": 2.06,
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.16,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.75,
+        "msx": 2.79,
+        "ms2": 3.39,
+        "under25": 1.35,
+        "over25": 2.06,
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.16
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -538,10 +624,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -550,7 +638,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -582,7 +670,11 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.51,
+        "msx": 3.36,
+        "ms2": 3.73
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -622,6 +714,8 @@
         "ms2": 3.31,
         "under25": 1.33,
         "over25": 2.11,
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.17,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -631,10 +725,20 @@
         "ms2": 3.31,
         "under25": 1.33,
         "over25": 2.11,
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.17,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.79,
+        "msx": 2.73,
+        "ms2": 3.31,
+        "under25": 1.33,
+        "over25": 2.11,
+        "bttsYes_guess": 1.09,
+        "bttsNo_guess": 1.17
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -642,10 +746,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -654,7 +760,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -686,7 +792,13 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.4,
+        "msx": 3.24,
+        "ms2": 4.95,
+        "under25": 1.42,
+        "over25": 1.91
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -726,6 +838,8 @@
         "ms2": 2.08,
         "under25": 1.95,
         "over25": 1.4,
+        "bttsYes_guess": 1.32,
+        "bttsNo_guess": 1.12,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -735,10 +849,20 @@
         "ms2": 2.08,
         "under25": 1.95,
         "over25": 1.4,
+        "bttsYes_guess": 1.32,
+        "bttsNo_guess": 1.12,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.34,
+        "msx": 3.13,
+        "ms2": 2.08,
+        "under25": 1.95,
+        "over25": 1.4,
+        "bttsYes_guess": 1.32,
+        "bttsNo_guess": 1.12
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -746,10 +870,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -758,7 +884,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -790,7 +916,13 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.23,
+        "msx": 4.5,
+        "ms2": 5.25,
+        "under25": 2.73,
+        "over25": 1.17
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -810,7 +942,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-06",
@@ -830,6 +962,8 @@
         "ms2": 2.4,
         "under25": 2.4,
         "over25": 1.24,
+        "bttsYes_guess": 1.23,
+        "bttsNo_guess": 1.1,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -839,10 +973,20 @@
         "ms2": 2.4,
         "under25": 2.4,
         "over25": 1.24,
+        "bttsYes_guess": 1.23,
+        "bttsNo_guess": 1.1,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.97,
+        "msx": 3.32,
+        "ms2": 2.4,
+        "under25": 2.4,
+        "over25": 1.24,
+        "bttsYes_guess": 1.23,
+        "bttsNo_guess": 1.1
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -850,10 +994,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -862,7 +1008,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -882,6 +1028,8 @@
         "ms2": 2.15,
         "under25": 1.91,
         "over25": 1.43,
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.14,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -891,10 +1039,20 @@
         "ms2": 2.15,
         "under25": 1.91,
         "over25": 1.43,
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.14,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.38,
+        "msx": 2.94,
+        "ms2": 2.15,
+        "under25": 1.91,
+        "over25": 1.43,
+        "bttsYes_guess": 1.31,
+        "bttsNo_guess": 1.14
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -902,10 +1060,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -914,7 +1074,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -934,6 +1094,8 @@
         "ms2": 1.69,
         "under25": 1.5,
         "over25": 1.8,
+        "bttsYes_guess": 1.54,
+        "bttsNo_guess": 1.14,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -943,10 +1105,20 @@
         "ms2": 1.69,
         "under25": 1.5,
         "over25": 1.8,
+        "bttsYes_guess": 1.54,
+        "bttsNo_guess": 1.14,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 3.48,
+        "msx": 2.91,
+        "ms2": 1.69,
+        "under25": 1.5,
+        "over25": 1.8,
+        "bttsYes_guess": 1.54,
+        "bttsNo_guess": 1.14
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -954,10 +1126,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -966,7 +1140,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -986,6 +1160,8 @@
         "ms2": 4.69,
         "under25": 1.44,
         "over25": 1.88,
+        "bttsYes_guess": 1.1,
+        "bttsNo_guess": 1.83,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -995,10 +1171,20 @@
         "ms2": 4.69,
         "under25": 1.44,
         "over25": 1.88,
+        "bttsYes_guess": 1.1,
+        "bttsNo_guess": 1.83,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.43,
+        "msx": 3.22,
+        "ms2": 4.69,
+        "under25": 1.44,
+        "over25": 1.88,
+        "bttsYes_guess": 1.1,
+        "bttsNo_guess": 1.83
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1006,10 +1192,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1018,7 +1206,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 7
     },
     {
       "date": "2026-08-06",
@@ -1038,6 +1226,8 @@
         "ms2": 1.51,
         "under25": 1.38,
         "over25": 2.02,
+        "bttsYes_guess": 1.7,
+        "bttsNo_guess": 1.13,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1047,10 +1237,20 @@
         "ms2": 1.51,
         "under25": 1.38,
         "over25": 2.02,
+        "bttsYes_guess": 1.7,
+        "bttsNo_guess": 1.13,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 4.42,
+        "msx": 2.95,
+        "ms2": 1.51,
+        "under25": 1.38,
+        "over25": 2.02,
+        "bttsYes_guess": 1.7,
+        "bttsNo_guess": 1.13
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1058,10 +1258,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1070,7 +1272,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 7
     },
     {
       "date": "2026-08-06",
@@ -1085,6 +1287,8 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "12258",
       "available_odds": {
+        "bttsYes_guess": 6.45,
+        "bttsNo_guess": 8.65,
         "msx": 6.45,
         "ms2": 8.65,
         "ms1": null,
@@ -1094,6 +1298,8 @@
         "bttsNo": null
       },
       "odds": {
+        "bttsYes_guess": 6.45,
+        "bttsNo_guess": 8.65,
         "msx": 6.45,
         "ms2": 8.65,
         "ms1": null,
@@ -1102,9 +1308,14 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "bttsYes_guess": 6.45,
+        "bttsNo_guess": 8.65
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
+        "bttsYes_guess",
+        "bttsNo_guess",
         "msx",
         "ms2",
         "ms1",
@@ -1113,7 +1324,7 @@
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 2,
+      "wide_market_odds_count": 4,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1122,7 +1333,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 2
+      "raw_market_value_count": 3
     },
     {
       "date": "2026-08-06",
@@ -1142,6 +1353,8 @@
         "ms2": 2.88,
         "under25": 1.2,
         "over25": 2.8,
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.26,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1151,10 +1364,20 @@
         "ms2": 2.88,
         "under25": 1.2,
         "over25": 2.8,
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.26,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.26,
+        "msx": 2.5,
+        "ms2": 2.88,
+        "under25": 1.2,
+        "over25": 2.8,
+        "bttsYes_guess": 1.19,
+        "bttsNo_guess": 1.26
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1162,10 +1385,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1174,7 +1399,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -1194,6 +1419,8 @@
         "ms2": 3.67,
         "under25": 2.13,
         "over25": 1.32,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.08,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1203,10 +1430,20 @@
         "ms2": 3.67,
         "under25": 2.13,
         "over25": 1.32,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.08,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.51,
+        "msx": 3.41,
+        "ms2": 3.67,
+        "under25": 2.13,
+        "over25": 1.32,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.08
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1214,10 +1451,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1226,7 +1465,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -1246,6 +1485,8 @@
         "ms2": 4.22,
         "under25": 1.88,
         "over25": 1.44,
+        "bttsYes_guess": 1.07,
+        "bttsNo_guess": 1.83,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1255,10 +1496,20 @@
         "ms2": 4.22,
         "under25": 1.88,
         "over25": 1.44,
+        "bttsYes_guess": 1.07,
+        "bttsNo_guess": 1.83,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.42,
+        "msx": 3.52,
+        "ms2": 4.22,
+        "under25": 1.88,
+        "over25": 1.44,
+        "bttsYes_guess": 1.07,
+        "bttsNo_guess": 1.83
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1266,10 +1517,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1278,7 +1531,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 7
     },
     {
       "date": "2026-08-06",
@@ -1298,6 +1551,8 @@
         "ms2": 3.2,
         "under25": 1.41,
         "over25": 1.94,
+        "bttsYes_guess": 1.11,
+        "bttsNo_guess": 1.15,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1307,10 +1562,20 @@
         "ms2": 3.2,
         "under25": 1.41,
         "over25": 1.94,
+        "bttsYes_guess": 1.11,
+        "bttsNo_guess": 1.15,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.77,
+        "msx": 2.87,
+        "ms2": 3.2,
+        "under25": 1.41,
+        "over25": 1.94,
+        "bttsYes_guess": 1.11,
+        "bttsNo_guess": 1.15
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1318,10 +1583,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1330,7 +1597,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -1350,6 +1617,8 @@
         "ms2": 1.55,
         "under25": 1.55,
         "over25": 1.72,
+        "bttsYes_guess": 1.67,
+        "bttsNo_guess": 1.12,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1359,10 +1628,20 @@
         "ms2": 1.55,
         "under25": 1.55,
         "over25": 1.72,
+        "bttsYes_guess": 1.67,
+        "bttsNo_guess": 1.12,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 4,
+        "msx": 3.04,
+        "ms2": 1.55,
+        "under25": 1.55,
+        "over25": 1.72,
+        "bttsYes_guess": 1.67,
+        "bttsNo_guess": 1.12
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1370,10 +1649,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1382,7 +1663,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 7
     },
     {
       "date": "2026-08-06",
@@ -1414,7 +1695,13 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.27,
+        "msx": 3.9,
+        "ms2": 5.48,
+        "under25": 1.9,
+        "over25": 1.43
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1434,7 +1721,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-06",
@@ -1454,6 +1741,8 @@
         "ms2": 2.03,
         "under25": 2.03,
         "over25": 1.37,
+        "bttsYes_guess": 1.35,
+        "bttsNo_guess": 1.09,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1463,10 +1752,20 @@
         "ms2": 2.03,
         "under25": 2.03,
         "over25": 1.37,
+        "bttsYes_guess": 1.35,
+        "bttsNo_guess": 1.09,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.28,
+        "msx": 3.37,
+        "ms2": 2.03,
+        "under25": 2.03,
+        "over25": 1.37,
+        "bttsYes_guess": 1.35,
+        "bttsNo_guess": 1.09
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1474,10 +1773,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1486,7 +1787,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -1506,6 +1807,8 @@
         "ms2": 2.24,
         "under25": 1.52,
         "over25": 1.76,
+        "bttsYes_guess": 1.28,
+        "bttsNo_guess": 1.17,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1515,10 +1818,20 @@
         "ms2": 2.24,
         "under25": 1.52,
         "over25": 1.76,
+        "bttsYes_guess": 1.28,
+        "bttsNo_guess": 1.17,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.4,
+        "msx": 2.77,
+        "ms2": 2.24,
+        "under25": 1.52,
+        "over25": 1.76,
+        "bttsYes_guess": 1.28,
+        "bttsNo_guess": 1.17
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1526,10 +1839,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1538,7 +1853,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -1558,6 +1873,8 @@
         "ms2": 3.79,
         "under25": 1.84,
         "over25": 1.46,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.08,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1567,10 +1884,20 @@
         "ms2": 3.79,
         "under25": 1.84,
         "over25": 1.46,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.08,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.49,
+        "msx": 3.43,
+        "ms2": 3.79,
+        "under25": 1.84,
+        "over25": 1.46,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.08
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1578,10 +1905,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1590,7 +1919,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -1622,7 +1951,13 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.19,
+        "msx": 4.26,
+        "ms2": 6.46,
+        "under25": 1.98,
+        "over25": 1.39
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1642,7 +1977,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-06",
@@ -1674,7 +2009,11 @@
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.31,
+        "msx": 3.7,
+        "ms2": 5.11
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1714,6 +2053,8 @@
         "ms2": 2.35,
         "under25": 1.83,
         "over25": 1.48,
+        "bttsYes_guess": 1.25,
+        "bttsNo_guess": 1.13,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1723,10 +2064,20 @@
         "ms2": 2.35,
         "under25": 1.83,
         "over25": 1.48,
+        "bttsYes_guess": 1.25,
+        "bttsNo_guess": 1.13,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.15,
+        "msx": 2.98,
+        "ms2": 2.35,
+        "under25": 1.83,
+        "over25": 1.48,
+        "bttsYes_guess": 1.25,
+        "bttsNo_guess": 1.13
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1734,10 +2085,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1746,7 +2099,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     },
     {
       "date": "2026-08-06",
@@ -1766,6 +2119,8 @@
         "ms2": 2.48,
         "under25": 1.8,
         "over25": 1.5,
+        "bttsYes_guess": 1.21,
+        "bttsNo_guess": 1.14,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -1775,10 +2130,20 @@
         "ms2": 2.48,
         "under25": 1.8,
         "over25": 1.5,
+        "bttsYes_guess": 1.21,
+        "bttsNo_guess": 1.14,
         "bttsYes": null,
         "bttsNo": null
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 2.08,
+        "msx": 2.93,
+        "ms2": 2.48,
+        "under25": 1.8,
+        "over25": 1.5,
+        "bttsYes_guess": 1.21,
+        "bttsNo_guess": 1.14
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -1786,10 +2151,12 @@
         "ms2",
         "under25",
         "over25",
+        "bttsYes_guess",
+        "bttsNo_guess",
         "bttsYes",
         "bttsNo"
       ],
-      "wide_market_odds_count": 5,
+      "wide_market_odds_count": 7,
       "suggested_option": "",
       "suggested_odds": "",
       "analysis_score": null,
@@ -1798,7 +2165,7 @@
       "decision": "Analiz bekleniyor",
       "robot_reason": "",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 8
     }
   ]
 }
