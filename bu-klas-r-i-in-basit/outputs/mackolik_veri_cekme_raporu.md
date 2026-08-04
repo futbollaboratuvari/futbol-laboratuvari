@@ -1,36 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-04T13:22:13.198431+00:00
+Tarih: 2026-08-04T14:33:05.091388+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 51
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 45
+- Kac mac bulundu: 32
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 32
 - Ham veri havuzu toplam mac sayisi: 4700
 - Hedef tarih: 04.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Bolivya Premier Lig
-- Brezilya Kupa Son 16 Turu
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
 - CONCACAF U20 Çeyrek Final
 - Hazırlık Kulüpler
 - Rusya Kupa Premier Lig Yolu Grup A
 - Rusya Kupa Premier Lig Yolu Grup C
 - Rusya Kupa Premier Lig Yolu Grup D
 - UEFA Avrupa Ligi 3. Eleme Turu
-- UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final
 - UEFA Konferans Ligi 3. Eleme Turu
 - UEFA Şampiyonlar Ligi 3.Eleme Turu
-- Venezuela Premier Lig Clausura
 - İzlanda Urvalsdeild
-- Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
 
@@ -87,8 +80,8 @@ Tarih: 2026-08-04T13:22:13.198431+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 19
-- Acilan detay: 19
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -101,16 +94,16 @@ Tarih: 2026-08-04T13:22:13.198431+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb | Kauno Zalgiris | 03598 | 4 |
+| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby | Slovan Bratisla | 03071 | 5 |
 | 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia | Celje | 00519 | 5 |
 | 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh | Kizilyildiz | 03177 | 5 |
-| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya | Kairat Almaty | 03353 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos | Nijmegen | 00042 | 5 |
 | 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag | Lyon | 03918 | 5 |
-| 04.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby | Slovan Bratisla | 03071 | 5 |
-| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Dinamo Zagreb | Kauno Zalgiris | 03598 | 4 |
+| 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos | Nijmegen | 00042 | 5 |
 | 04.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Union St.G | Bodo Glimt | 04236 | 5 |
-| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
+| 04.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Levski Sofya | Kairat Almaty | 03353 | 5 |
 | 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc | Fc Iberia | 05528 | 5 |
+| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
 | 04.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Auda | Dinamo Tirana | 02922 | 5 |
 | 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Rubin Kazan | 11289 | 5 |
 | 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala | Krylya Sovietov | 11166 | 5 |
