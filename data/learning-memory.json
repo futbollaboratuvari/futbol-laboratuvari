@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-03T11:52:27.018Z",
-  "updated_at": "2026-08-04T11:48:27.036Z",
+  "updated_at": "2026-08-04T12:20:39.584Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 53,
-    "pending_predictions": 53,
+    "total_predictions": 54,
+    "pending_predictions": 54,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 28,
     "market_count": 3,
     "added_predictions": 1,
-    "updated_predictions": 0
+    "updated_predictions": 0,
+    "last_score_link_checked": 54,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 29,
-      "pending": 29,
+      "total": 30,
+      "pending": 30,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -49,8 +53,8 @@
   },
   "league_memory": {
     "Hazırlık Kulüpler": {
-      "total": 10,
-      "pending": 10,
+      "total": 11,
+      "pending": 11,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -331,8 +335,8 @@
   },
   "league_market_memory": {
     "Hazırlık Kulüpler :: MS X": {
-      "total": 5,
-      "pending": 5,
+      "total": 6,
+      "pending": 6,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -693,6 +697,23 @@
   },
   "predictions": [
     {
+      "id": "2026-08-04|hazirlik kulupler|eldense villarreal b|ms x|20 30",
+      "date": "2026-08-04",
+      "created_at": "2026-08-04T12:20:37.857Z",
+      "match_name": "Eldense - Villarreal B",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "20:30",
+      "market": "MS X",
+      "odds": "2.92",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-04|hazirlik kulupler|huesca ud logrones|ms x|20 00",
       "date": "2026-08-04",
       "created_at": "2026-08-04T11:48:27.035Z",
@@ -707,7 +728,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|huesca ud logrones|ms 2|20 00",
@@ -743,7 +765,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|mjallby slovan bratisla|ms 2|19 00",
@@ -761,7 +783,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.034Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|strasbourg elversberg|ms x|19 00",
@@ -779,7 +801,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|leganes al rayyan|ms 2|20 00",
@@ -797,7 +819,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|eldense villarreal b|ms x|20 00",
@@ -815,7 +837,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|al nassr riya almeria|ms x|20 00",
@@ -833,7 +855,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|ipswich le havre|ms 2|21 45",
@@ -851,7 +873,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|bournemouth genoa|ms 2|14 00",
@@ -869,7 +891,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.034Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|rusya kupa premier lig yolu grup d|akron rostov|ms x|16 15",
@@ -887,7 +909,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.034Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|rusya kupa premier lig yolu grup a|fk rodina mosk rubin kazan|ms x|18 30",
@@ -905,7 +927,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.034Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|mjallby slovan bratisla|ms x|19 00",
@@ -941,7 +963,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.034Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|uefa konferans ligi 3 eleme turu|auda dinamo tirana|ms x|19 00",
@@ -959,7 +981,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.034Z"
+      "updated_at": "2026-08-04T12:20:37.856Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|levski sofya kairat almaty|ms 2|20 30",
@@ -977,7 +999,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|rusya kupa premier lig yolu grup d|l moskova cska moskova|ms x|20 45",
@@ -995,7 +1017,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|sparta prag lyon|ms x|21 00",
@@ -1013,7 +1035,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|olympiakos nijmegen|ms 2|21 00",
@@ -1031,7 +1053,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|union st g bodo glimt|ms x|21 00",
@@ -1049,7 +1071,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|uefa avrupa ligi 3 eleme turu|shamrock rover egnatia|ms 2|22 00",
@@ -1067,7 +1089,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|uefa avrupa ligi 3 eleme turu|larne fc fc iberia|ms x|22 00",
@@ -1085,7 +1107,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T11:48:27.035Z"
+      "updated_at": "2026-08-04T12:20:37.857Z"
     },
     {
       "id": "2026-08-04|venezuela premier lig clausura|caracas fc estudiantes fc|ms 2|01 30",

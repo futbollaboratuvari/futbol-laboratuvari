@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
-Ham mac: 62
-Aktif mac: 48
+Ham mac: 52
+Aktif mac: 49
 Canli mac: 3
-Biten mac: 11
-Bultenden dusurulen mac: 14
-Bugun: 36
+Biten mac: 0
+Bultenden dusurulen mac: 3
+Bugun: 37
 Yarin: 12
 
 ## Baslamamis Maclar
@@ -29,6 +29,7 @@ Yarin: 12
 - 2026-08-04 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Hapoel Beer Sh - Kizilyildiz | scheduled | -
 - 2026-08-04 20:30 | Hazırlık Kulüpler | Tenerife - Tamaraceite | scheduled | -
 - 2026-08-04 20:30 | Hazırlık Kulüpler | Noordwijk - Rijnsburgse Boy | scheduled | -
+- 2026-08-04 20:30 | Hazırlık Kulüpler | Eldense - Villarreal B | scheduled | -
 - 2026-08-04 20:45 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova - Cska Moskova | scheduled | -
 - 2026-08-04 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sparta Prag - Lyon | scheduled | -
 - 2026-08-04 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Olympiakos - Nijmegen | scheduled | -
@@ -66,14 +67,4 @@ Yarin: 12
 - 2026-08-04 14:00 | Hazırlık Kulüpler | Bournemouth - Genoa | live | -
 
 ## Biten Maclar
-- 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Independiente | finished | -
-- 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Platense - Talleres | finished | -
-- 2026-08-04 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport - Cerro | finished | -
-- 2026-08-04 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Estudiantes Fc | finished | -
-- 2026-08-04 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr - Vitoria Bahia | finished | -
-- 2026-08-04 03:00 | Ekvador Pro Lig | Ldu Quito - Delfin | finished | -
-- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - San Lorenzo | finished | -
-- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Atletico Tucuma | finished | -
-- 2026-08-04 04:00 | Honduras Ulusal Lig Apertura | Marathon - Atlético Indepe | finished | -
-- 2026-08-04 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Cs Cartagines | finished | -
-- 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | finished | -
+Biten mac yok.
