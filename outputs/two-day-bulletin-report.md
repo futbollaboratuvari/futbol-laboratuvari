@@ -2,20 +2,15 @@
 
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
-Ham mac: 42
-Aktif mac: 36
-Canli mac: 6
+Ham mac: 39
+Aktif mac: 31
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 24
+Bultenden dusurulen mac: 8
+Bugun: 19
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - San Lorenzo | scheduled | -
-- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Atletico Tucuma | scheduled | -
-- 2026-08-04 04:00 | Honduras Ulusal Lig Apertura | Marathon - Atlético Indepe | scheduled | -
-- 2026-08-04 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Cs Cartagines | scheduled | -
-- 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | scheduled | -
 - 2026-08-04 13:00 | AFF Şampiyonası Grup B | Myanmar - Laos | scheduled | -
 - 2026-08-04 16:00 | AFF Şampiyonası Grup B | Filipinler - Tayland | scheduled | -
 - 2026-08-04 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | scheduled | -
@@ -49,12 +44,14 @@ Yarin: 12
 - 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | scheduled | -
 
 ## Canli Maclar
-- 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Independiente | live | -
-- 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Platense - Talleres | live | -
-- 2026-08-04 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport - Cerro | live | -
 - 2026-08-04 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Estudiantes Fc | live | -
 - 2026-08-04 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr - Vitoria Bahia | live | -
 - 2026-08-04 03:00 | Ekvador Pro Lig | Ldu Quito - Delfin | live | -
+- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - San Lorenzo | live | -
+- 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Atletico Tucuma | live | -
+- 2026-08-04 04:00 | Honduras Ulusal Lig Apertura | Marathon - Atlético Indepe | live | -
+- 2026-08-04 05:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Cs Cartagines | live | -
+- 2026-08-04 05:00 | Guatemala Ulusal Lig Apertura | Xelaju - Aurora | live | -
 
 ## Biten Maclar
 Biten mac yok.
