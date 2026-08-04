@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-04T19:01:36.298Z
+- Güncelleme: 2026-08-04T19:03:46.712Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -44,7 +44,7 @@
 | Juventude (0) VS (0) Atletico Mg | Brezilya Kupa Son 16 Turu | 01:30 | MS 1 | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Depor Tachira VS Portuguesa | Venezuela Premier Lig Clausura | 01:30 | MS 2 | 5.62 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Atletico Nuble VS Csd Rangers | Şili Kupa Grup F | 02:30 | MS 2 | 3.49 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Univ De Concep VS Curico | Şili Kupa Grup F | 02:30 | MS 2 | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Univ De Concep VS Curico | Şili Kupa Grup F | 02:30 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Columbus VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 02:45 | MS 2 | 3.54 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cincinnati VS Pachuca | CONCACAF Ligler Kupası Grup Aşaması | 02:45 | MS X | 3.30 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Charlotte VS Pumas Unam | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

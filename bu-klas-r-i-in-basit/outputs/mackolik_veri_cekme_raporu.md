@@ -1,24 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-04T18:18:47.227629+00:00
+Tarih: 2026-08-04T19:03:22.700764+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 13
+- Kac mac bulundu: 23
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 13
+- Kac mac zaten vardi: 23
 - Ham veri havuzu toplam mac sayisi: 4701
 - Hedef tarih: 04.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
 - CONCACAF U20 Çeyrek Final
 - Hazırlık Kulüpler
-- UEFA Avrupa Ligi 3. Eleme Turu
-- İzlanda Urvalsdeild
+- Venezuela Premier Lig Clausura
+- Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
 
@@ -75,8 +79,8 @@ Tarih: 2026-08-04T18:18:47.227629+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 13
-- Acilan detay: 13
+- Denenen Tumu alani: 10
+- Acilan detay: 10
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -89,19 +93,26 @@ Tarih: 2026-08-04T18:18:47.227629+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Larne Fc | Fc Iberia | 05528 | 5 |
-| 04.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Shamrock Rover | Egnatia | 05888 | 5 |
 | 04.08.2026 | 20:30 | Hazırlık Kulüpler | Eldense | Villarreal B | 01972 | 5 |
-| 04.08.2026 | 21:30 | Hazırlık Kulüpler | Socuellamos | Puertollano | 09983 | 5 |
+| 04.08.2026 | 21:45 | Hazırlık Kulüpler | Bracknell Town | Dorking Wand. | 10002 | 5 |
 | 04.08.2026 | 20:00 | Hazırlık Kulüpler | Huesca | Ud Logrones | 08758 | 5 |
-| 04.08.2026 | 21:45 | Hazırlık Kulüpler | Ipswich | Le Havre | 10128 | 5 |
-| 04.08.2026 | 21:45 | Hazırlık Kulüpler | Bracknell Town | Dorking Wand. | 10002 | 3 |
-| 04.08.2026 | 21:30 | Hazırlık Kulüpler | Rotherham | Derby County | 09782 | 5 |
-| 04.08.2026 | 21:45 | Hazırlık Kulüpler | Raynes Park Va | Hampton Richmon | 10364 | 3 |
-| 04.08.2026 | 21:30 | Hazırlık Kulüpler | Enfield Town | Tottenham U21 | 09688 | 3 |
-| 04.08.2026 | 21:30 | İzlanda Urvalsdeild | Thor Akureyri | Breidablik | 12657 | 3 |
+| 05.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte | Pumas Unam | 06171 | 5 |
+| 05.08.2026 | 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus | Atlas | 05978 | 5 |
+| 05.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver | Atlante | 01460 | 5 |
+| 05.08.2026 | 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati | Pachuca | 01391 | 5 |
+| 05.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd | Fc Juarez | 06233 | 5 |
+| 05.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl | Salt Lake | 06299 | 5 |
+| 05.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen | Alajuelense | 04110 | 5 |
+| 05.08.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador | Firpo | 04039 | 5 |
+| 05.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem | Real Esteli | 04106 | 5 |
+| 05.08.2026 | 03:30 | Brezilya Kupa Son 16 Turu | Remo (0) | (0) Santos | 12758 | 5 |
+| 05.08.2026 | 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) | (0) Atletico Mg | 12708 | 5 |
+| 05.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Depor Tachira | Portuguesa | 02240 | 5 |
+| 05.08.2026 | 00:00 | Venezuela Premier Lig Clausura | Carabobo | Trujillanos | 01366 | 5 |
+| 05.08.2026 | 01:00 | Venezuela Premier Lig Clausura | Ucv | Monagas | 09033 | 5 |
+| 05.08.2026 | 02:30 | Şili Kupa Grup F | Univ De Concep | Curico | 05806 | 5 |
+| 05.08.2026 | 02:30 | Şili Kupa Grup F | Atletico Nuble | Csd Rangers | 00552 | 5 |
 | 04.08.2026 | 23:00 | CONCACAF U20 Çeyrek Final | Kosta Rika (U2 | Haiti U20 | 04035 | 5 |
-| 04.08.2026 | 22:00 | Bolivya Premier Lig | Academia Del B | Real Oruro | 12674 | 3 |
 
 ## Sonuc
 

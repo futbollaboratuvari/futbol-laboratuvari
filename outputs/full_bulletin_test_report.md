@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 20
 - Live match count: 26
-- Finished removed count: 6
+- Finished removed count: 0
 - Date window: 2026-08-04 / 2026-08-05 23:59
 
 - 2026-08-04 20:00 | Al Nassr (Riya - Almeria | live
