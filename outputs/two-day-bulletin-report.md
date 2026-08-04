@@ -3,16 +3,14 @@
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
 Ham mac: 42
-Aktif mac: 38
-Canli mac: 4
+Aktif mac: 36
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 26
+Bultenden dusurulen mac: 6
+Bugun: 24
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-04 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr - Vitoria Bahia | scheduled | -
-- 2026-08-04 03:00 | Ekvador Pro Lig | Ldu Quito - Delfin | scheduled | -
 - 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - San Lorenzo | scheduled | -
 - 2026-08-04 03:15 | Arjantin Premier Lig 2. Aşama | Huracan - Atletico Tucuma | scheduled | -
 - 2026-08-04 04:00 | Honduras Ulusal Lig Apertura | Marathon - Atlético Indepe | scheduled | -
@@ -55,6 +53,8 @@ Yarin: 12
 - 2026-08-04 01:00 | Arjantin Premier Lig 2. Aşama | Platense - Talleres | live | -
 - 2026-08-04 01:00 | Uruguay Premier Lig Intermediate Turu Grup 1 | Defensor Sport - Cerro | live | -
 - 2026-08-04 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Estudiantes Fc | live | -
+- 2026-08-04 03:00 | Brezilya Kupa Son 16 Turu | Atletico Pr - Vitoria Bahia | live | -
+- 2026-08-04 03:00 | Ekvador Pro Lig | Ldu Quito - Delfin | live | -
 
 ## Biten Maclar
 Biten mac yok.

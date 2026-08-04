@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-03T23:11:21.496105+00:00
+Tarih: 2026-08-04T00:05:16.942876+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 19
+- Kac mac bulundu: 31
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 19
+- Kac mac zaten vardi: 31
 - Ham veri havuzu toplam mac sayisi: 4673
 - Hedef tarih: 04.08.2026 Europe/Istanbul
 
@@ -16,6 +16,9 @@ Tarih: 2026-08-03T23:11:21.496105+00:00
 
 - AFF Şampiyonası Grup B
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
 - Rusya Kupa Premier Lig Yolu Grup A
 - Rusya Kupa Premier Lig Yolu Grup C
 - Rusya Kupa Premier Lig Yolu Grup D
@@ -23,6 +26,7 @@ Tarih: 2026-08-03T23:11:21.496105+00:00
 - UEFA Konferans Ligi 3. Eleme Turu
 - UEFA Şampiyonlar Ligi 3.Eleme Turu
 - İzlanda Urvalsdeild
+- Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
 
@@ -108,10 +112,11 @@ Tarih: 2026-08-03T23:11:21.496105+00:00
 | 04.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup C | Makhachkala | Krylya Sovietov | 11166 | 5 |
 | 04.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup D | L.Moskova | Cska Moskova | 11338 | 5 |
 | 04.08.2026 | 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron | Rostov | 01142 | 5 |
-| 04.08.2026 | 13:00 | AFF Şampiyonası Grup B | Myanmar | Laos | 02587 | 2 |
-| 04.08.2026 | 16:00 | AFF Şampiyonası Grup B | Filipinler | Tayland | 12640 | 5 |
-| 04.08.2026 | 21:30 | İzlanda Urvalsdeild | Thor Akureyri | Breidablik | 12657 | 3 |
-| 04.08.2026 | 22:00 | Bolivya Premier Lig | Academia Del B | Real Oruro | 12674 | 3 |
+| 05.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver | Atlante | 01460 | 5 |
+| 05.08.2026 | 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus | Atlas | 05978 | 5 |
+| 05.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte | Pumas Unam | 06171 | 5 |
+| 05.08.2026 | 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati | Pachuca | 01391 | 5 |
+| 05.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd | Fc Juarez | 06233 | 5 |
 
 ## Sonuc
 
