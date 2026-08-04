@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 04.08.2026 15:20:37
+Oluşturma: 04.08.2026 15:53:13
 
 ## Özet
 
-- Toplam tahmin: 54
-- Bekleyen tahmin: 54
+- Toplam tahmin: 55
+- Bekleyen tahmin: 55
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 28
+- Lig sayısı: 29
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 04.08.2026 15:20:37
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
 - MS X: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-04 | CONCACAF U20 Çeyrek Final | Kosta Rika (U2 - Haiti U20 | MS 2 | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Eldense - Villarreal B | MS X | pending | 40/100
 - 2026-08-04 | Hazırlık Kulüpler | Huesca - Ud Logrones | MS X | pending | 50/100
 - 2026-08-04 | Hazırlık Kulüpler | Huesca - Ud Logrones | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 04.08.2026 15:20:37
 - 2026-08-04 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | MS X | pending | 50/100
 - 2026-08-04 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Rubin Kazan | MS X | pending | 50/100
 - 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Mjallby - Slovan Bratisla | MS X | pending | 50/100
-- 2026-08-04 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Ararat-Armenia - Celje | MS X | pending | 40/100
 

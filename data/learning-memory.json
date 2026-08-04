@@ -1,28 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-03T11:52:27.018Z",
-  "updated_at": "2026-08-04T12:20:39.584Z",
+  "updated_at": "2026-08-04T12:53:14.521Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 54,
-    "pending_predictions": 54,
+    "total_predictions": 55,
+    "pending_predictions": 55,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 28,
+    "league_count": 29,
     "market_count": 3,
     "added_predictions": 1,
     "updated_predictions": 0,
-    "last_score_link_checked": 54,
+    "last_score_link_checked": 55,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS X": {
-      "total": 30,
-      "pending": 30,
+    "MS 2": {
+      "total": 22,
+      "pending": 22,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -30,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 2": {
-      "total": 21,
-      "pending": 21,
+    "MS X": {
+      "total": 30,
+      "pending": 30,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +52,16 @@
     }
   },
   "league_memory": {
+    "CONCACAF U20 Çeyrek Final": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Hazırlık Kulüpler": {
       "total": 11,
       "pending": 11,
@@ -334,6 +344,16 @@
     }
   },
   "league_market_memory": {
+    "CONCACAF U20 Çeyrek Final :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Hazırlık Kulüpler :: MS X": {
       "total": 6,
       "pending": 6,
@@ -697,6 +717,23 @@
   },
   "predictions": [
     {
+      "id": "2026-08-04|concacaf u20 ceyrek final|kosta rika u2 haiti u20|ms 2|23 00",
+      "date": "2026-08-04",
+      "created_at": "2026-08-04T12:53:13.386Z",
+      "match_name": "Kosta Rika (U2 - Haiti U20",
+      "league": "CONCACAF U20 Çeyrek Final",
+      "start_time": "23:00",
+      "market": "MS 2",
+      "odds": "4.26",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-04|hazirlik kulupler|eldense villarreal b|ms x|20 30",
       "date": "2026-08-04",
       "created_at": "2026-08-04T12:20:37.857Z",
@@ -711,7 +748,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|huesca ud logrones|ms x|20 00",
@@ -729,7 +767,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|huesca ud logrones|ms 2|20 00",
@@ -765,7 +803,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.386Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|mjallby slovan bratisla|ms 2|19 00",
@@ -783,7 +821,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|strasbourg elversberg|ms x|19 00",
@@ -801,7 +839,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|leganes al rayyan|ms 2|20 00",
@@ -819,7 +857,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|eldense villarreal b|ms x|20 00",
@@ -837,7 +875,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|al nassr riya almeria|ms x|20 00",
@@ -855,7 +893,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|ipswich le havre|ms 2|21 45",
@@ -873,7 +911,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.386Z"
     },
     {
       "id": "2026-08-04|hazirlik kulupler|bournemouth genoa|ms 2|14 00",
@@ -891,7 +929,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.384Z"
     },
     {
       "id": "2026-08-04|rusya kupa premier lig yolu grup d|akron rostov|ms x|16 15",
@@ -909,7 +947,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.384Z"
     },
     {
       "id": "2026-08-04|rusya kupa premier lig yolu grup a|fk rodina mosk rubin kazan|ms x|18 30",
@@ -927,7 +965,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|mjallby slovan bratisla|ms x|19 00",
@@ -963,7 +1001,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|uefa konferans ligi 3 eleme turu|auda dinamo tirana|ms x|19 00",
@@ -981,7 +1019,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.856Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|levski sofya kairat almaty|ms 2|20 30",
@@ -999,7 +1037,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|rusya kupa premier lig yolu grup d|l moskova cska moskova|ms x|20 45",
@@ -1017,7 +1055,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|sparta prag lyon|ms x|21 00",
@@ -1035,7 +1073,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|olympiakos nijmegen|ms 2|21 00",
@@ -1053,7 +1091,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|uefa sampiyonlar ligi 3 eleme turu|union st g bodo glimt|ms x|21 00",
@@ -1071,7 +1109,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.385Z"
     },
     {
       "id": "2026-08-04|uefa avrupa ligi 3 eleme turu|shamrock rover egnatia|ms 2|22 00",
@@ -1089,7 +1127,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.386Z"
     },
     {
       "id": "2026-08-04|uefa avrupa ligi 3 eleme turu|larne fc fc iberia|ms x|22 00",
@@ -1107,7 +1145,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-04T12:20:37.857Z"
+      "updated_at": "2026-08-04T12:53:13.386Z"
     },
     {
       "id": "2026-08-04|venezuela premier lig clausura|caracas fc estudiantes fc|ms 2|01 30",

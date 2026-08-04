@@ -3,15 +3,14 @@
 Gunler: 2026-08-04 / 2026-08-05
 Kaynak: fixtures.json
 Ham mac: 52
-Aktif mac: 49
-Canli mac: 3
+Aktif mac: 48
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 37
+Bultenden dusurulen mac: 4
+Bugun: 36
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-04 15:30 | Hazırlık Kulüpler | Bg Pathum Unit - Aston Villa | scheduled | -
 - 2026-08-04 16:00 | AFF Şampiyonası Grup B | Filipinler - Tayland | scheduled | -
 - 2026-08-04 16:15 | Rusya Kupa Premier Lig Yolu Grup D | Akron - Rostov | scheduled | -
 - 2026-08-04 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Breidablik (K) - Aktobe (K) | scheduled | -
@@ -65,6 +64,7 @@ Yarin: 12
 - 2026-08-04 13:00 | AFF Şampiyonası Grup B | Myanmar - Laos | live | -
 - 2026-08-04 14:00 | Hazırlık Kulüpler | Jeju Utd - B.Münih | live | -
 - 2026-08-04 14:00 | Hazırlık Kulüpler | Bournemouth - Genoa | live | -
+- 2026-08-04 15:30 | Hazırlık Kulüpler | Bg Pathum Unit - Aston Villa | live | -
 
 ## Biten Maclar
 Biten mac yok.
