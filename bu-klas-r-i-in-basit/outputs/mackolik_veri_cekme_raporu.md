@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-04T09:07:53.610933+00:00
+Tarih: 2026-08-04T09:31:09.697962+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 51
-- Kac mac kaydedildi: 8
-- Kac mac zaten vardi: 43
+- Kac mac bulundu: 39
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 39
 - Ham veri havuzu toplam mac sayisi: 4693
 - Hedef tarih: 04.08.2026 Europe/Istanbul
 
@@ -16,9 +16,6 @@ Tarih: 2026-08-04T09:07:53.610933+00:00
 
 - AFF Şampiyonası Grup B
 - Bolivya Premier Lig
-- Brezilya Kupa Son 16 Turu
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup A
 - CONCACAF U20 Çeyrek Final
 - Hazırlık Kulüpler
 - Rusya Kupa Premier Lig Yolu Grup A
@@ -29,7 +26,6 @@ Tarih: 2026-08-04T09:07:53.610933+00:00
 - UEFA Konferans Ligi 3. Eleme Turu
 - UEFA Şampiyonlar Ligi 3.Eleme Turu
 - İzlanda Urvalsdeild
-- Şili Kupa Grup F
 
 ## Okunabilen Oran Alanlari
 
