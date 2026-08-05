@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 05.08.2026 06:35:55
-=======
-Oluşturma: 05.08.2026 06:37:32
->>>>>>> Stashed changes
+Oluşturma: 05.08.2026 06:52:21
 
 ## Özet
 
-- Toplam tahmin: 95
-- Bekleyen tahmin: 95
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 40
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 05.08.2026 06:37:32
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-05 | UEFA Konferans Ligi 3. Eleme Turu | Panathinaikos - Cska 1948 Sofia | MS X | pending | 75/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Olimpia Grudzi - Swit Skolwin | MS X | pending | 50/100
-- 2026-08-05 | Finlandiya Ykkönen | Oulun Ls - Tpv Tampere | MS 2 | pending | 40/100
-- 2026-08-05 | Rusya Kupa Premier Lig Yolu Grup B | Fakel Voronezh - Dinamo Moskova | MS 1 | pending | 50/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Warta Poznan - Resovia Rzeszow | MS 2 | pending | 60/100
-- 2026-08-05 | Finlandiya Ykkönen | Salpa Salo - Jyvaskyla | MS X | pending | 70/100
-- 2026-08-05 | Finlandiya Ykkönen | Rops - Fc Jazz | MS 2 | pending | 40/100
-- 2026-08-05 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | St. Pölten (K) - Young Boys (K) | MS X | pending | 40/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Gornik Leczna - Kalisz | MS 2 | pending | 60/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Sandecja Nowy - Rekord Bielsko | MS X | pending | 50/100
-- 2026-08-05 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | MS X | pending | 70/100
-- 2026-08-05 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus - Sabah | MS 2 | pending | 60/100
-- 2026-08-05 | UEFA Konferans Ligi 3. Eleme Turu | Brann - Apollon Limasso | MS 2 | pending | 60/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Gks Tychy - Zaglebie Sosnow | MS 2 | pending | 50/100
-- 2026-08-05 | Rusya Kupa Premier Lig Yolu Grup B | Krasnodar - Akhmat Grozny | MS 2 | pending | 60/100
 

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 78
-- Live match count: 8
-- Finished removed count: 2
+- Scheduled match count: 74
+- Live match count: 0
+- Finished removed count: 0
 - Date window: 2026-08-05 / 2026-08-06 23:59
 
-- 2026-08-05 02:45 | Cincinnati - Pachuca | live
-- 2026-08-05 02:45 | Columbus - Atlas | live
-- 2026-08-05 03:00 | Guabira - Real Tomayapo | live
-- 2026-08-05 03:00 | Charlotte - Pumas Unam | live
-- 2026-08-05 03:00 | Plaza Amador - Firpo | live
-- 2026-08-05 03:30 | Remo (0) - (0) Santos | live
-- 2026-08-05 03:30 | Minnesota Utd - Fc Juarez | live
-- 2026-08-05 04:00 | Abd (U20) - Guatemala U20 | live
-- 2026-08-05 05:00 | Tigres Uanl - Salt Lake | scheduled
-- 2026-08-05 05:00 | Diriangen - Alajuelense | scheduled
+- 2026-08-05 12:00 | Austria Wien ( - Hajduk Split (K | scheduled
+- 2026-08-05 12:30 | Queanbeyan Cit - Tuggeranong Uni | scheduled
+- 2026-08-05 14:00 | Sfk - Psv Eindhoven ( | scheduled
+- 2026-08-05 14:00 | Vålerenga (K) - Malmö Ff (K) | scheduled
+- 2026-08-05 16:00 | Ajax (K) - Brondby (K) | scheduled
+- 2026-08-05 16:30 | Gintra-Univers - Heart Of Midlot | scheduled
+- 2026-08-05 17:00 | P. Bielsko - Hutnik Krakow | scheduled
+- 2026-08-05 17:00 | Slask Wroclaw - Stal S Wola | scheduled
+- 2026-08-05 17:00 | Znicz Pruszkow - Lks Lodz Ii | scheduled
+- 2026-08-05 17:00 | Apollon Limass - Czarni Sosnowie | scheduled
