@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 58
-- Live match count: 31
-- Finished removed count: 4
+- Scheduled match count: 45
+- Live match count: 36
+- Finished removed count: 0
 - Date window: 2026-08-05 / 2026-08-06 23:59
 
-- 2026-08-05 18:30 | Rops - Fc Jazz | live
-- 2026-08-05 18:30 | Salpa Salo - Jyvaskyla | live
-- 2026-08-05 18:30 | Tampere Utd - Kpv Kokkola | live
-- 2026-08-05 18:30 | Pianese - Aquila M. | live
-- 2026-08-05 18:30 | Shahaniya - Marsilya | live
-- 2026-08-05 18:30 | Warta Poznan - Resovia Rzeszow | live
-- 2026-08-05 18:30 | Spartak Moskov - Orenburg | live
-- 2026-08-05 18:30 | Fakel Voronezh - Dinamo Moskova | live
 - 2026-08-05 19:00 | Dinamo Minsk I - Lida | live
 - 2026-08-05 19:00 | Uni Minsk - Smorgon | live
+- 2026-08-05 19:00 | Vjs - Pk Keski Uusima | live
+- 2026-08-05 19:00 | Lazio - Ostia Mare Lido | live
+- 2026-08-05 19:00 | Lecco - Inter Milano (U | live
+- 2026-08-05 19:00 | Saint Brieuc - Brest | live
+- 2026-08-05 19:00 | Gornik Leczna - Kalisz | live
+- 2026-08-05 19:00 | Sandecja Nowy - Rekord Bielsko | live
+- 2026-08-05 19:00 | St. Pölten (K) - Young Boys (K) | live
+- 2026-08-05 19:00 | Znk Mura (K) - Farul Constanta | live
