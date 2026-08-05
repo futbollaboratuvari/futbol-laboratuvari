@@ -1,28 +1,37 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-03T11:52:27.018Z",
+<<<<<<< Updated upstream
   "updated_at": "2026-08-05T03:35:56.239Z",
+=======
+  "updated_at": "2026-08-05T03:37:32.370Z",
+>>>>>>> Stashed changes
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 94,
-    "pending_predictions": 94,
+    "total_predictions": 95,
+    "pending_predictions": 95,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 40,
     "market_count": 3,
+<<<<<<< Updated upstream
     "added_predictions": 0,
     "updated_predictions": 0,
     "last_score_link_checked": 94,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
+=======
+    "added_predictions": 1,
+    "updated_predictions": 0
+>>>>>>> Stashed changes
   },
   "market_memory": {
     "MS X": {
-      "total": 45,
-      "pending": 45,
+      "total": 46,
+      "pending": 46,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +61,16 @@
     }
   },
   "league_memory": {
+    "UEFA Konferans Ligi 3. Eleme Turu": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Polonya Kupa Ön Eleme Turu": {
       "total": 9,
       "pending": 9,
@@ -95,16 +114,6 @@
     "UEFA Şampiyonlar Ligi 3.Eleme Turu": {
       "total": 8,
       "pending": 8,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "UEFA Konferans Ligi 3. Eleme Turu": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -454,6 +463,16 @@
     }
   },
   "league_market_memory": {
+    "UEFA Konferans Ligi 3. Eleme Turu :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Polonya Kupa Ön Eleme Turu :: MS X": {
       "total": 3,
       "pending": 3,
@@ -734,16 +753,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "UEFA Konferans Ligi 3. Eleme Turu :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "UEFA Avrupa Ligi 3. Eleme Turu :: MS X": {
       "total": 1,
       "pending": 1,
@@ -1017,6 +1026,23 @@
   },
   "predictions": [
     {
+      "id": "2026-08-05|uefa konferans ligi 3 eleme turu|panathinaikos cska 1948 sofia|ms x|21 30",
+      "date": "2026-08-05",
+      "created_at": "2026-08-05T03:37:32.369Z",
+      "match_name": "Panathinaikos - Cska 1948 Sofia",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "5.76",
+      "confidence_score": "75%",
+      "analysis_score": 75,
+      "risk_level": "Düşük",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-05|polonya kupa on eleme turu|olimpia grudzi swit skolwin|ms x|18 00",
       "date": "2026-08-05",
       "created_at": "2026-08-04T23:31:12.877Z",
@@ -1032,7 +1058,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|finlandiya ykkonen|oulun ls tpv tampere|ms 2|18 00",
@@ -1050,7 +1080,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|rusya kupa premier lig yolu grup b|fakel voronezh dinamo moskova|ms 1|18 30",
@@ -1068,7 +1102,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|warta poznan resovia rzeszow|ms 2|18 30",
@@ -1086,7 +1124,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|finlandiya ykkonen|salpa salo jyvaskyla|ms x|18 30",
@@ -1104,7 +1146,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|finlandiya ykkonen|rops fc jazz|ms 2|18 30",
@@ -1122,7 +1168,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|uefa kadinlar sampiyonlar ligi 2 eleme turu yari final|st polten k young boys k|ms x|19 00",
@@ -1140,7 +1190,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|gornik leczna kalisz|ms 2|19 00",
@@ -1158,7 +1212,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|sandecja nowy rekord bielsko|ms x|19 00",
@@ -1176,7 +1234,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|finlandiya ykkonen|vjs pk keski uusima|ms x|19 00",
@@ -1194,7 +1256,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|uefa sampiyonlar ligi 3 eleme turu|aarhus sabah|ms 2|19 30",
@@ -1212,7 +1278,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|uefa konferans ligi 3 eleme turu|brann apollon limasso|ms 2|20 00",
@@ -1222,7 +1292,7 @@
       "league": "UEFA Konferans Ligi 3. Eleme Turu",
       "start_time": "20:00",
       "market": "MS 2",
-      "odds": "4.66",
+      "odds": "4.65",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -1230,7 +1300,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.853Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|gks tychy zaglebie sosnow|ms 2|20 00",
@@ -1248,7 +1322,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.853Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|rusya kupa premier lig yolu grup b|krasnodar akhmat grozny|ms 2|20 45",
@@ -1266,7 +1344,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.853Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.369Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|unia skierniew sokol kleczew|ms 2|20 45",
@@ -1284,7 +1366,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.853Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.369Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|uefa avrupa ligi 3 eleme turu|ferencvaros gornik zabrze|ms 2|21 15",
@@ -1294,7 +1380,7 @@
       "league": "UEFA Avrupa Ligi 3. Eleme Turu",
       "start_time": "21:15",
       "market": "MS 2",
-      "odds": "4.03",
+      "odds": "4.16",
       "confidence_score": "60%",
       "analysis_score": 60,
       "risk_level": "Orta",
@@ -1302,7 +1388,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.853Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.369Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|uefa kadinlar sampiyonlar ligi 2 eleme turu yari final|ajax k brondby k|ms x|16 00",
@@ -1320,7 +1410,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|p bielsko hutnik krakow|ms 2|17 00",
@@ -1338,7 +1432,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|slask wroclaw stal s wola|ms x|17 00",
@@ -1356,7 +1454,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|polonya kupa on eleme turu|nkp podhale chojniczanka|ms 2|17 30",
@@ -1374,7 +1476,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|ekvador kupa son 16 turu|cuniburo fc univ catolica|ms 1|23 00",
@@ -1392,7 +1498,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.853Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.369Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|venezuela premier lig clausura|ucv monagas|ms 2|01 00",
@@ -1463,7 +1573,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|sili kupa grup f|univ de concep curico|ms x|02 30",
@@ -1481,7 +1595,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf ligler kupasi grup asamasi|columbus atlas|ms 2|02 45",
@@ -1499,7 +1617,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf ligler kupasi grup asamasi|cincinnati pachuca|ms x|02 45",
@@ -1517,7 +1639,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf ligler kupasi grup asamasi|charlotte pumas unam|ms x|03 00",
@@ -1535,7 +1661,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf orta amerika kupasi grup a|plaza amador firpo|ms 2|03 00",
@@ -1553,7 +1683,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf ligler kupasi grup asamasi|minnesota utd fc juarez|ms 2|03 30",
@@ -1571,7 +1705,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|brezilya kupa son 16 turu|remo 0 0 santos|ms x|03 30",
@@ -1589,7 +1727,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.851Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf ligler kupasi grup asamasi|tigres uanl salt lake|ms x|05 00",
@@ -1607,7 +1749,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.367Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf orta amerika kupasi grup b|antigua guatem real esteli|ms 2|05 00",
@@ -1625,7 +1771,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|concacaf ligler kupasi grup asamasi|vancouver atlante|ms x|05 30",
@@ -1643,7 +1793,11 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
+<<<<<<< Updated upstream
       "updated_at": "2026-08-05T03:35:55.852Z"
+=======
+      "updated_at": "2026-08-05T03:37:32.368Z"
+>>>>>>> Stashed changes
     },
     {
       "id": "2026-08-05|bolivya premier lig|independiente aurora|ms x|01 00",
