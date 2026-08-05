@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
-Ham mac: 90
-Aktif mac: 79
-Canli mac: 11
-Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 49
+Ham mac: 93
+Aktif mac: 78
+Canli mac: 10
+Biten mac: 5
+Bultenden dusurulen mac: 15
+Bugun: 48
 Yarin: 30
 
 ## Baslamamis Maclar
-- 2026-08-05 04:00 | CONCACAF U20 Çeyrek Final | Abd (U20) - Guatemala U20 | scheduled | -
 - 2026-08-05 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | scheduled | -
 - 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Alajuelense | scheduled | -
 - 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | scheduled | -
@@ -92,8 +91,6 @@ Yarin: 30
 - 2026-08-06 05:30 | ABD USL | Las Vegas Ligh - Oakland Roots | scheduled | -
 
 ## Canli Maclar
-- 2026-08-05 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | live | -
-- 2026-08-05 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | live | -
 - 2026-08-05 02:30 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | live | -
 - 2026-08-05 02:30 | Şili Kupa Grup F | Univ De Concep - Curico | live | -
 - 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | live | -
@@ -103,6 +100,11 @@ Yarin: 30
 - 2026-08-05 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | live | -
 - 2026-08-05 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | live | -
 - 2026-08-05 03:30 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | live | -
+- 2026-08-05 04:00 | CONCACAF U20 Çeyrek Final | Abd (U20) - Guatemala U20 | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | finished | -
+- 2026-08-05 01:00 | Bolivya Premier Lig | Independiente - Aurora | finished | -
+- 2026-08-05 01:00 | Venezuela Premier Lig Clausura | Ucv - Monagas | finished | -
+- 2026-08-05 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | finished | -
+- 2026-08-05 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | finished | -

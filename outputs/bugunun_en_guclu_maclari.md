@@ -4,15 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-05T00:54:45.191Z
+- Güncelleme: 2026-08-05T01:41:02.866Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Juventude (0) VS (0) Atletico Mg | Brezilya Kupa Son 16 Turu | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Depor Tachira VS Portuguesa | Venezuela Premier Lig Clausura | 01:30 | MS 2 | 5.62 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Atletico Nuble VS Csd Rangers | Şili Kupa Grup F | 02:30 | MS 2 | 3.56 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Univ De Concep VS Curico | Şili Kupa Grup F | 02:30 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Columbus VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 02:45 | MS 2 | 3.54 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -52,7 +50,7 @@
 | Sandecja Nowy VS Rekord Bielsko | Polonya Kupa Ön Eleme Turu | 19:00 | MS X | 2.87 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Vjs VS Pk Keski Uusima | Finlandiya Ykkönen | 19:00 | MS X | 3.74 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Aarhus VS Sabah | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:30 | MS 2 | 4.38 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Brann VS Apollon Limasso | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | MS 2 | 4.52 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Brann VS Apollon Limasso | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | MS 2 | 4.66 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Racing (K) VS Hjk (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Koge (K) VS Dinamo Riga (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gks Tychy VS Zaglebie Sosnow | Polonya Kupa Ön Eleme Turu | 20:00 | MS 2 | 3.76 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -75,7 +73,7 @@
 | Cruzeiro (0) VS (0) Chapecoense | Brezilya Kupa Son 16 Turu | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Union San Feli VS Univ. De Şili | Şili Kupa Grup D | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sant. Wanderer VS Union La Calera | Şili Kupa Grup D | 01:00 | MS 1 | 3.22 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Nacional Potos VS The Strongest | Bolivya Premier Lig | 01:00 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Nacional Potos VS The Strongest | Bolivya Premier Lig | 01:00 | MS X | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gremio (1) VS (1) Mirassol | Brezilya Kupa Son 16 Turu | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Kanada (U20) VS Jamaika U20 | CONCACAF U20 Çeyrek Final | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Quilmes VS Gimnasia Jujuy | Arjantin Ulusal Primera Lig | 02:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -83,7 +81,7 @@
 | Richmond Kicke VS New York Cosmos | ABD USL Lig 1 | 02:00 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Inter Miami VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 5.47 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Monterrey VS Orlando City | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 3.32 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Naples VS Alta | ABD USL Lig 1 | 02:30 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Naples VS Alta | ABD USL Lig 1 | 02:30 | MS X | 2.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Umecit VS Depor. Olimpia | CONCACAF Orta Amerika Kupası Grup C | 03:00 | MS 1 | 3.48 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Santa Fe VS Union Magdalena | Kolombiya Kupa 2.Tur | 03:00 | MS 2 | 4.83 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ldu Portoviejo VS Barcelona Gua | Ekvador Kupa Son 16 Turu | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -94,7 +92,7 @@
 | Fluminense (0) VS (0) Vasco Da Gama | Brezilya Kupa Son 16 Turu | 03:30 | MS 2 | 3.20 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fortaleza Ce (0) VS (3) Palmeiras | Brezilya Kupa Son 16 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Coquimbo Unido VS San Marcos Aric | Şili Kupa Grup A | 03:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Iquique VS Deportes Limach | Şili Kupa Grup A | 03:30 | MS X | 3.37 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Iquique VS Deportes Limach | Şili Kupa Grup A | 03:30 | MS X | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Tulsa Roughnec VS Sacramento Repu | ABD USL | 03:30 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | El Paso Locomo VS Monterey Bay | ABD USL | 04:00 | MS 2 | 3.79 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Toluca VS Seattle | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -109,7 +107,6 @@
 | Salpa Salo VS Jyvaskyla | MS X | 3.48 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Monterrey VS Orlando City | MS X | 3.32 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Cincinnati VS Pachuca | MS X | 3.26 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Depor Tachira VS Portuguesa | MS 2 | 5.62 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
