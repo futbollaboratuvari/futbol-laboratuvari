@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
-Ham mac: 108
-Aktif mac: 101
+Ham mac: 107
+Aktif mac: 100
 Canli mac: 7
 Biten mac: 0
 Bultenden dusurulen mac: 7
-Bugun: 68
+Bugun: 67
 Yarin: 33
 
 ## Baslamamis Maclar
-- 2026-08-05 14:30 | Hazırlık Kulüpler | Chelsea - Juventus | scheduled | -
 - 2026-08-05 15:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sporting Cp (K - Seasters (K) | scheduled | -
 - 2026-08-05 16:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | scheduled | -
 - 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Gintra-Univers - Heart Of Midlot | scheduled | -
@@ -114,13 +113,13 @@ Yarin: 33
 - 2026-08-06 05:30 | ABD USL | Las Vegas Ligh - Oakland Roots | scheduled | -
 
 ## Canli Maclar
-- 2026-08-05 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Austria Wien ( - Hajduk Split (K | live | -
 - 2026-08-05 12:30 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Tuggeranong Uni | live | -
 - 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Vålerenga (K) - Malmö Ff (K) | live | -
 - 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sfk 2000 (K) - Psv Eindhoven ( | live | -
 - 2026-08-05 14:00 | Hazırlık Kulüpler | Ac Milan - Inter | live | -
 - 2026-08-05 14:00 | Hazırlık Kulüpler | K-League Xi - Manchester City | live | -
 - 2026-08-05 14:00 | Hazırlık Kulüpler | Ratchaburi Fc - Eastern | live | -
+- 2026-08-05 14:30 | Hazırlık Kulüpler | Chelsea - Juventus | live | -
 
 ## Biten Maclar
 Biten mac yok.
