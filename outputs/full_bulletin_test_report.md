@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 45
-- Live match count: 36
-- Finished removed count: 0
+- Scheduled match count: 39
+- Live match count: 29
+- Finished removed count: 13
 - Date window: 2026-08-05 / 2026-08-06 23:59
 
-- 2026-08-05 19:00 | Dinamo Minsk I - Lida | live
-- 2026-08-05 19:00 | Uni Minsk - Smorgon | live
-- 2026-08-05 19:00 | Vjs - Pk Keski Uusima | live
-- 2026-08-05 19:00 | Lazio - Ostia Mare Lido | live
-- 2026-08-05 19:00 | Lecco - Inter Milano (U | live
-- 2026-08-05 19:00 | Saint Brieuc - Brest | live
-- 2026-08-05 19:00 | Gornik Leczna - Kalisz | live
-- 2026-08-05 19:00 | Sandecja Nowy - Rekord Bielsko | live
-- 2026-08-05 19:00 | St. Pölten (K) - Young Boys (K) | live
-- 2026-08-05 19:00 | Znk Mura (K) - Farul Constanta | live
+- 2026-08-05 20:00 | G.Segoviana - Valladolid | live
+- 2026-08-05 20:00 | Manresa - Espanyol Ii | live
+- 2026-08-05 20:00 | Ponferradina - Unionistas De S | live
+- 2026-08-05 20:00 | Portugalete - Rayo Cantabria | live
+- 2026-08-05 20:00 | Ranheim Ii - Ntnui | live
+- 2026-08-05 20:00 | Gks Tychy - Zaglebie Sosnow | live
+- 2026-08-05 20:00 | Koge (K) - Dinamo Riga (K) | live
+- 2026-08-05 20:00 | Racing (K) - Hjk (K) | live
+- 2026-08-05 20:00 | Brann - Apollon Limasso | live
+- 2026-08-05 20:10 | Aarhus - Sabah | live
