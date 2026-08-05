@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.08.2026 12:13:36
+Oluşturma: 05.08.2026 12:15:37
 
 ## Özet
 
-- Toplam tahmin: 27
-- Bekleyen tahmin: 27
+- Toplam tahmin: 41
+- Bekleyen tahmin: 41
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 9
@@ -20,25 +20,25 @@ Oluşturma: 05.08.2026 12:13:36
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
+- MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-05 | Hazırlık Kulüpler | Ponferradina - Unionistas De S | MS 2 | pending | 40/100
+- 2026-08-05 | Hazırlık Kulüpler | Manresa - Espanyol Ii | MS X | pending | 50/100
+- 2026-08-05 | Hazırlık Kulüpler | Cultural Leone - Real Aviles | MS X | pending | 50/100
+- 2026-08-05 | Hazırlık Kulüpler | La Nucia - Intercity | MS X | pending | 40/100
+- 2026-08-05 | Hazırlık Kulüpler | Sassuolo - Celta Vigo | MS X | pending | 50/100
+- 2026-08-05 | Hazırlık Kulüpler | Cacereno - Dep. Guadalajar | MS 2 | pending | 40/100
+- 2026-08-05 | Hazırlık Kulüpler | Mallorca - Psg | MS X | pending | 55/100
+- 2026-08-05 | Hazırlık Kulüpler | Cd Badajoz - Cd Coria | MS X | pending | 50/100
+- 2026-08-05 | Hazırlık Kulüpler | Arsenal - Real Betis | MS 2 | pending | 75/100
+- 2026-08-05 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Znk Mura (K) - Farul Constanta | MS X | pending | 40/100
+- 2026-08-05 | Hazırlık Kulüpler | Lecco - Inter Milano (U | MS X | pending | 40/100
+- 2026-08-05 | Hazırlık Kulüpler | Napoli - Osasuna | MS 2 | pending | 50/100
+- 2026-08-05 | Hazırlık Kulüpler | Villarreal - Levante | MS X | pending | 50/100
+- 2026-08-05 | Hazırlık Kulüpler | Toledo - Navalcarnero | MS X | pending | 40/100
 - 2026-08-05 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | MS X | pending | 70/100
-- 2026-08-05 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus - Sabah | MS 2 | pending | 60/100
-- 2026-08-05 | UEFA Konferans Ligi 3. Eleme Turu | Brann - Apollon Limasso | MS 2 | pending | 60/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Gks Tychy - Zaglebie Sosnow | MS 2 | pending | 50/100
-- 2026-08-05 | Rusya Kupa Premier Lig Yolu Grup B | Krasnodar - Akhmat Grozny | MS 2 | pending | 60/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Unia Skierniew - Sokol Kleczew | MS 2 | pending | 60/100
-- 2026-08-05 | UEFA Avrupa Ligi 3. Eleme Turu | Ferencvaros - Gornik Zabrze | MS 2 | pending | 60/100
-- 2026-08-05 | UEFA Konferans Ligi 3. Eleme Turu | Panathinaikos - Cska 1948 Sofia | MS X | pending | 75/100
-- 2026-08-05 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | S. Praha (K) - Rangers (K) | MS X | pending | 40/100
-- 2026-08-05 | Ekvador Kupa Son 16 Turu | Cuniburo Fc - Univ Catolica ( | MS 1 | pending | 40/100
-- 2026-08-05 | Hazırlık Kulüpler | Cadiz - Granada | MS X | pending | 40/100
-- 2026-08-05 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Vålerenga (K) - Malmö Ff (K) | MS X | pending | 40/100
-- 2026-08-05 | Hazırlık Kulüpler | Ac Milan - Inter | MS X | pending | 60/100
-- 2026-08-05 | Hazırlık Kulüpler | Chelsea - Juventus | MS X | pending | 60/100
-- 2026-08-05 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | MS X | pending | 40/100
 
