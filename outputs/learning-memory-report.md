@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.08.2026 18:29:59
+Oluşturma: 05.08.2026 18:41:57
 
 ## Özet
 
-- Toplam tahmin: 49
-- Bekleyen tahmin: 49
+- Toplam tahmin: 50
+- Bekleyen tahmin: 50
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 10
@@ -20,12 +20,13 @@ Oluşturma: 05.08.2026 18:29:59
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
-- MS X: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-05 | Finlandiya Ykkönen | Rops - Fc Jazz | MS X | pending | 40/100
 - 2026-08-05 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | MS 2 | pending | 70/100
 - 2026-08-05 | Hazırlık Kulüpler | Lecco - Inter Milano (U | MS 2 | pending | 40/100
 - 2026-08-05 | Belarus 1.Lig | Uni Minsk - Smorgon | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 05.08.2026 18:29:59
 - 2026-08-05 | Hazırlık Kulüpler | La Nucia - Intercity | MS X | pending | 40/100
 - 2026-08-05 | Hazırlık Kulüpler | Sassuolo - Celta Vigo | MS X | pending | 50/100
 - 2026-08-05 | Hazırlık Kulüpler | Cacereno - Dep. Guadalajar | MS 2 | pending | 40/100
-- 2026-08-05 | Hazırlık Kulüpler | Mallorca - Psg | MS X | pending | 55/100
 

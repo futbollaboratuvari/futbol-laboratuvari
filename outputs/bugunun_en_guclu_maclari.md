@@ -2,24 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-05T15:29:46.755Z
+- Güncelleme: 2026-08-05T15:40:43.781Z
 - Ham maç sayısı: 100
 - Yarın bülteni maç sayısı: 34
 - Detay blok sayısı: 281
-- Aktif bülten maçı: 88
-- Bültenden düşürülen maç: 12
+- Aktif bülten maçı: 80
+- Bültenden düşürülen maç: 20
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Spartak Moskov - Orenburg | Rusya Kupa Premier Lig Yolu Grup A | 18:30 | Veri bekleniyor | - | 1.14 | 5 |
-| Fakel Voronezh - Dinamo Moskova | Rusya Kupa Premier Lig Yolu Grup B | 18:30 | Veri bekleniyor | - | 3.13 | 8 |
-| Warta Poznan - Resovia Rzeszow | Polonya Kupa Ön Eleme Turu | 18:30 | Veri bekleniyor | - | 1.39 | 7 |
-| Salpa Salo - Jyvaskyla | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 1.9 | 8 |
-| Tampere Utd - Kpv Kokkola | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | - | 5 |
-| Rops - Fc Jazz | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 1.33 | 6 |
-| Pianese - Aquila M. | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.19 | 6 |
-| Shahaniya - Marsilya | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 10.95 | 5 |
 | St. Pölten (K) - Young Boys (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | 19:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Znk Mura (K) - Farul Constanta | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | 19:00 | Veri bekleniyor | - | 1.95 | 8 |
 | Gornik Leczna - Kalisz | Polonya Kupa Ön Eleme Turu | 19:00 | Veri bekleniyor | - | 1.38 | 7 |
