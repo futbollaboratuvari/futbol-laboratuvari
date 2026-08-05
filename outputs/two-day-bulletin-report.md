@@ -3,20 +3,14 @@
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
 Ham mac: 89
-Aktif mac: 58
-Canli mac: 31
+Aktif mac: 52
+Canli mac: 37
 Biten mac: 0
-Bultenden dusurulen mac: 31
-Bugun: 24
+Bultenden dusurulen mac: 37
+Bugun: 18
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-05 20:30 | Hazırlık Kulüpler | Cultural Leone - Real Aviles | scheduled | -
-- 2026-08-05 20:30 | Hazırlık Kulüpler | Siero - Caudal Deportiv | scheduled | -
-- 2026-08-05 20:30 | Hazırlık Kulüpler | La Nucia - Intercity | scheduled | -
-- 2026-08-05 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Krasnodar - Akhmat Grozny | scheduled | -
-- 2026-08-05 20:45 | Rusya Kupa Premier Lig Yolu Grup C | Zenit - Baltika Kalinin | scheduled | -
-- 2026-08-05 20:45 | Polonya Kupa Ön Eleme Turu | Unia Skierniew - Sokol Kleczew | scheduled | -
 - 2026-08-05 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Fenerbahçe - Sturm Graz | scheduled | -
 - 2026-08-05 21:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Oh Leuven (K) - Kanjiza (K) | scheduled | -
 - 2026-08-05 21:00 | Arjantin Ulusal Primera Lig | Almagro - Gimnasia Y Tiro | scheduled | -
@@ -102,6 +96,12 @@ Yarin: 34
 - 2026-08-05 20:00 | Hazırlık Kulüpler | Manresa - Espanyol Ii | live | -
 - 2026-08-05 20:00 | Norveç 3.Lig Grup 2 | Ranheim Ii - Ntnui | live | -
 - 2026-08-05 20:10 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus - Sabah | live | -
+- 2026-08-05 20:30 | Hazırlık Kulüpler | Cultural Leone - Real Aviles | live | -
+- 2026-08-05 20:30 | Hazırlık Kulüpler | Siero - Caudal Deportiv | live | -
+- 2026-08-05 20:30 | Hazırlık Kulüpler | La Nucia - Intercity | live | -
+- 2026-08-05 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Krasnodar - Akhmat Grozny | live | -
+- 2026-08-05 20:45 | Rusya Kupa Premier Lig Yolu Grup C | Zenit - Baltika Kalinin | live | -
+- 2026-08-05 20:45 | Polonya Kupa Ön Eleme Turu | Unia Skierniew - Sokol Kleczew | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,12 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 66
-Tam analiz: 57
-Eksik analiz: 9
+Toplam analiz: 55
+Tam analiz: 48
+Eksik analiz: 7
 
-- Gintra-Univers VS Heart Of Midlot: eksik score, confidence
-- Hammarby (K) VS Apolonia (K): eksik score, confidence
 - Lazio VS Ostia Mare Lido: eksik score, confidence
 - Racing (K) VS Hjk (K): eksik score, confidence
 - Koge (K) VS Dinamo Riga (K): eksik score, confidence
