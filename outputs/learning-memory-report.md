@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.08.2026 23:47:35
+Oluşturma: 06.08.2026 00:35:06
 
 ## Özet
 
-- Toplam tahmin: 51
-- Bekleyen tahmin: 51
+- Toplam tahmin: 72
+- Bekleyen tahmin: 72
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 10
+- Lig sayısı: 22
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 05.08.2026 23:47:35
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
-- MS X: toplam 30, bekleyen 30, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
+- MS X: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-05 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus - Sabah | MS 2 | pending | 60/100
-- 2026-08-05 | Finlandiya Ykkönen | Rops - Fc Jazz | MS X | pending | 40/100
-- 2026-08-05 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | MS 2 | pending | 70/100
-- 2026-08-05 | Hazırlık Kulüpler | Lecco - Inter Milano (U | MS 2 | pending | 40/100
-- 2026-08-05 | Belarus 1.Lig | Uni Minsk - Smorgon | MS X | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | Portugalete - Rayo Cantabria | MS X | pending | 50/100
-- 2026-08-05 | Belarus 1.Lig | Niva Dolbizno - Slutsk | MS X | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | Mallorca - Psg | MS X | pending | 55/100
-- 2026-08-05 | Finlandiya Ykkönen | Oulun Ls - Tpv Tampere | MS 2 | pending | 40/100
-- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Nkp Podhale - Chojniczanka | MS X | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | Ponferradina - Unionistas De S | MS 2 | pending | 40/100
-- 2026-08-05 | Hazırlık Kulüpler | Manresa - Espanyol Ii | MS X | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | Cultural Leone - Real Aviles | MS X | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | La Nucia - Intercity | MS X | pending | 40/100
-- 2026-08-05 | Hazırlık Kulüpler | Sassuolo - Celta Vigo | MS X | pending | 50/100
+- 2026-08-06 | ABD USL | Tulsa Roughnec - Sacramento Repu | MS X | pending | 40/100
+- 2026-08-06 | ABD USL | El Paso Locomo - Monterey Bay | MS 2 | pending | 50/100
+- 2026-08-06 | CONCACAF U20 Çeyrek Final | Meksika (U20) - Panama (U20) | MS 2 | pending | 65/100
+- 2026-08-06 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Herediano | MS X | pending | 50/100
+- 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Guadalajara | MS X | pending | 50/100
+- 2026-08-06 | ABD USL | Las Vegas Ligh - Oakland Roots | MS X | pending | 50/100
+- 2026-08-06 | Şili Kupa Grup D | Sant. Wanderer - Union La Calera | MS 1 | pending | 50/100
+- 2026-08-06 | Bolivya Premier Lig | Nacional Potos - The Strongest | MS X | pending | 50/100
+- 2026-08-06 | CONCACAF U20 Çeyrek Final | Kanada (U20) - Jamaika U20 | MS X | pending | 40/100
+- 2026-08-06 | Venezuela Premier Lig Clausura | Deportivo La G - Metropolitanos | MS 2 | pending | 40/100
+- 2026-08-06 | ABD USL Lig 1 | Richmond Kicke - New York Cosmos | MS X | pending | 50/100
+- 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Atletico San Lu | MS 2 | pending | 40/100
+- 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Orlando City | MS X | pending | 70/100
+- 2026-08-06 | ABD USL Lig 1 | Naples - Alta | MS X | pending | 50/100
+- 2026-08-06 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Depor. Olimpia | MS 1 | pending | 40/100
 
