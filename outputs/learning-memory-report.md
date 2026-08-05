@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.08.2026 16:38:59
+Oluşturma: 05.08.2026 17:45:13
 
 ## Özet
 
-- Toplam tahmin: 47
-- Bekleyen tahmin: 47
+- Toplam tahmin: 49
+- Bekleyen tahmin: 49
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 10
@@ -20,12 +20,14 @@ Oluşturma: 05.08.2026 16:38:59
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 - MS X: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-05 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | MS 2 | pending | 70/100
+- 2026-08-05 | Hazırlık Kulüpler | Lecco - Inter Milano (U | MS 2 | pending | 40/100
 - 2026-08-05 | Belarus 1.Lig | Uni Minsk - Smorgon | MS X | pending | 50/100
 - 2026-08-05 | Hazırlık Kulüpler | Portugalete - Rayo Cantabria | MS X | pending | 50/100
 - 2026-08-05 | Belarus 1.Lig | Niva Dolbizno - Slutsk | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 05.08.2026 16:38:59
 - 2026-08-05 | Hazırlık Kulüpler | Sassuolo - Celta Vigo | MS X | pending | 50/100
 - 2026-08-05 | Hazırlık Kulüpler | Cacereno - Dep. Guadalajar | MS 2 | pending | 40/100
 - 2026-08-05 | Hazırlık Kulüpler | Mallorca - Psg | MS X | pending | 55/100
-- 2026-08-05 | Hazırlık Kulüpler | Cd Badajoz - Cd Coria | MS X | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | Arsenal - Real Betis | MS 2 | pending | 75/100
 

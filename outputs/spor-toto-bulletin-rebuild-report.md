@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-05T10:15:52.601Z
-- Ham fixture sayisi: 4793
-- Bugun/yarin kaynak mac: 130
-- Aktif bulten maci: 106
+- Guncelleme: 2026-08-05T14:43:51.017Z
+- Ham fixture sayisi: 4794
+- Bugun/yarin kaynak mac: 131
+- Aktif bulten maci: 91
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 24
+- Bultenden dusurulen mac: 40
 
-- 1. 2026-08-05 14:00 | Hazırlık Kulüpler | Ac Milan - Inter | scheduled
-- 2. 2026-08-05 14:00 | Hazırlık Kulüpler | K-League Xi - Manchester City | scheduled
-- 3. 2026-08-05 14:00 | Hazırlık Kulüpler | Ratchaburi Fc - Eastern | scheduled
-- 4. 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sfk 2000 (K) - Psv Eindhoven ( | scheduled
-- 5. 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Vålerenga (K) - Malmö Ff (K) | scheduled
-- 6. 2026-08-05 14:30 | Hazırlık Kulüpler | Chelsea - Juventus | scheduled
-- 7. 2026-08-05 15:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sporting Cp (K - Seasters (K) | scheduled
-- 8. 2026-08-05 16:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | scheduled
-- 9. 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Gintra-Univers - Heart Of Midlot | scheduled
-- 10. 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Hammarby (K) - Apolonia (K) | scheduled
-- 11. 2026-08-05 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Apollon Limass - Czarni Sosnowie | scheduled
-- 12. 2026-08-05 17:00 | Belarus 1.Lig | Niva Dolbizno - Slutsk | scheduled
-- 13. 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | P. Bielsko - Hutnik Krakow | scheduled
-- 14. 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Slask Wroclaw - Stal S Wola | scheduled
-- 15. 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Znicz Pruszkow - Lks Lodz Ii | scheduled
+- 1. 2026-08-05 18:00 | Polonya Kupa Ön Eleme Turu | Olimpia Grudzi - Swit Skolwin | scheduled
+- 2. 2026-08-05 18:00 | Belarus 1.Lig | Ostrovets Fc - Osipovichy | scheduled
+- 3. 2026-08-05 18:00 | Finlandiya Ykkönen | Oulun Ls - Tpv Tampere | scheduled
+- 4. 2026-08-05 18:30 | Rusya Kupa Premier Lig Yolu Grup B | Fakel Voronezh - Dinamo Moskova | scheduled
+- 5. 2026-08-05 18:30 | Hazırlık Kulüpler | Pianese - Aquila M. | scheduled
+- 6. 2026-08-05 18:30 | Finlandiya Ykkönen | Rops - Fc Jazz | scheduled
+- 7. 2026-08-05 18:30 | Finlandiya Ykkönen | Salpa Salo - Jyvaskyla | scheduled
+- 8. 2026-08-05 18:30 | Hazırlık Kulüpler | Shahaniya - Marsilya | scheduled
+- 9. 2026-08-05 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Spartak Moskov - Orenburg | scheduled
+- 10. 2026-08-05 18:30 | Finlandiya Ykkönen | Tampere Utd - Kpv Kokkola | scheduled
+- 11. 2026-08-05 18:30 | Polonya Kupa Ön Eleme Turu | Warta Poznan - Resovia Rzeszow | scheduled
+- 12. 2026-08-05 19:00 | Belarus 1.Lig | Dinamo Minsk I - Lida | scheduled
+- 13. 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Gornik Leczna - Kalisz | scheduled
+- 14. 2026-08-05 19:00 | Hazırlık Kulüpler | Lazio - Ostia Mare Lido | scheduled
+- 15. 2026-08-05 19:00 | Hazırlık Kulüpler | Lecco - Inter Milano (U | scheduled
