@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 78
-Canli mac: 10
-Biten mac: 5
-Bultenden dusurulen mac: 15
-Bugun: 48
+Ham mac: 88
+Aktif mac: 74
+Canli mac: 14
+Biten mac: 0
+Bultenden dusurulen mac: 14
+Bugun: 44
 Yarin: 30
 
 ## Baslamamis Maclar
-- 2026-08-05 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | scheduled | -
-- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Alajuelense | scheduled | -
-- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | scheduled | -
-- 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | scheduled | -
 - 2026-08-05 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Austria Wien ( - Hajduk Split (K | scheduled | -
 - 2026-08-05 12:30 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Tuggeranong Uni | scheduled | -
 - 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Vålerenga (K) - Malmö Ff (K) | scheduled | -
@@ -101,10 +97,10 @@ Yarin: 30
 - 2026-08-05 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | live | -
 - 2026-08-05 03:30 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | live | -
 - 2026-08-05 04:00 | CONCACAF U20 Çeyrek Final | Abd (U20) - Guatemala U20 | live | -
+- 2026-08-05 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | live | -
+- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Alajuelense | live | -
+- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | live | -
+- 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | live | -
 
 ## Biten Maclar
-- 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | finished | -
-- 2026-08-05 01:00 | Bolivya Premier Lig | Independiente - Aurora | finished | -
-- 2026-08-05 01:00 | Venezuela Premier Lig Clausura | Ucv - Monagas | finished | -
-- 2026-08-05 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | finished | -
-- 2026-08-05 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | finished | -
+Biten mac yok.

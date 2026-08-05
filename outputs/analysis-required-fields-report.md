@@ -1,27 +1,20 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 63
-Tam analiz: 2
-Eksik analiz: 61
+Toplam analiz: 58
+Tam analiz: 45
+Eksik analiz: 13
 
-- Independiente VS Aurora: eksik score, confidence
-- Ucv VS Monagas: eksik score, confidence
-- Juventude (0) VS (0) Atletico Mg: eksik score, confidence
-- Depor Tachira VS Portuguesa: eksik score, confidence
-- Atletico Nuble VS Csd Rangers: eksik score, confidence
-- Univ De Concep VS Curico: eksik score, confidence
-- Columbus VS Atlas: eksik score, confidence
-- Cincinnati VS Pachuca: eksik score, confidence
-- Charlotte VS Pumas Unam: eksik score, confidence
 - Guabira VS Real Tomayapo: eksik score, confidence
-- Plaza Amador VS Firpo: eksik score, confidence
-- Minnesota Utd VS Fc Juarez: eksik score, confidence
-- Remo (0) VS (0) Santos: eksik score, confidence
-- Abd (U20) VS Guatemala U20: eksik score, confidence
-- Tigres Uanl VS Salt Lake: eksik score, confidence
-- Diriangen VS Alajuelense: eksik score, confidence
-- Antigua Guatem VS Real Esteli: eksik score, confidence
-- Vancouver VS Atlante: eksik score, confidence
 - Austria Wien ( VS Hajduk Split (K: eksik score, confidence
-- Queanbeyan Cit VS Tuggeranong Uni: eksik score, confidence
+- Vålerenga (K) VS Malmö Ff (K): eksik score, confidence
+- Sfk 2000 (K) VS Psv Eindhoven (: eksik score, confidence
+- Gintra-Univers VS Heart Of Midlot: eksik score, confidence
+- Znk Mura (K) VS Farul Constanta: eksik score, confidence
+- Racing (K) VS Hjk (K): eksik score, confidence
+- Koge (K) VS Dinamo Riga (K): eksik score, confidence
+- Zenit VS Baltika Kalinin: eksik score, confidence
+- Oh Leuven (K) VS Kanjiza (K): eksik score, confidence
+- S. Praha (K) VS Rangers (K): eksik score, confidence
+- Vllaznia (K) VS Spartak Myjava: eksik score, confidence
+- Juventus (K) VS Torreense (K): eksik score, confidence
