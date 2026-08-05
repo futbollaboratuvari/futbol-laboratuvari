@@ -2,20 +2,15 @@
 
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 84
-Canli mac: 8
-Biten mac: 1
-Bultenden dusurulen mac: 9
-Bugun: 54
+Ham mac: 90
+Aktif mac: 79
+Canli mac: 11
+Biten mac: 0
+Bultenden dusurulen mac: 11
+Bugun: 49
 Yarin: 30
 
 ## Baslamamis Maclar
-- 2026-08-05 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pumas Unam | scheduled | -
-- 2026-08-05 03:00 | Bolivya Premier Lig | Guabira - Real Tomayapo | scheduled | -
-- 2026-08-05 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | scheduled | -
-- 2026-08-05 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | scheduled | -
-- 2026-08-05 03:30 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | scheduled | -
 - 2026-08-05 04:00 | CONCACAF U20 Çeyrek Final | Abd (U20) - Guatemala U20 | scheduled | -
 - 2026-08-05 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | scheduled | -
 - 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Alajuelense | scheduled | -
@@ -97,14 +92,17 @@ Yarin: 30
 - 2026-08-06 05:30 | ABD USL | Las Vegas Ligh - Oakland Roots | scheduled | -
 
 ## Canli Maclar
-- 2026-08-05 01:00 | Bolivya Premier Lig | Independiente - Aurora | live | -
-- 2026-08-05 01:00 | Venezuela Premier Lig Clausura | Ucv - Monagas | live | -
 - 2026-08-05 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | live | -
 - 2026-08-05 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | live | -
 - 2026-08-05 02:30 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | live | -
 - 2026-08-05 02:30 | Şili Kupa Grup F | Univ De Concep - Curico | live | -
 - 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | live | -
 - 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pachuca | live | -
+- 2026-08-05 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pumas Unam | live | -
+- 2026-08-05 03:00 | Bolivya Premier Lig | Guabira - Real Tomayapo | live | -
+- 2026-08-05 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | live | -
+- 2026-08-05 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | live | -
+- 2026-08-05 03:30 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | live | -
 
 ## Biten Maclar
-- 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | finished | -
+Biten mac yok.
