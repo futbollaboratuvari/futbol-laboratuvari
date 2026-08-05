@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-05T23:11:53.696Z
+- Güncelleme: 2026-08-05T23:18:50.789Z
 - Ham maç sayısı: 94
 - Yarın bülteni maç sayısı: 15
 - Detay blok sayısı: 276
@@ -36,7 +36,7 @@
 | Las Vegas Ligh - Oakland Roots | ABD USL | 05:30 | Veri bekleniyor | - | 2.03 | 8 |
 | Police (1) - (1) Nec | Uganda Süper 8 Çeyrek Final | 16:00 | Veri bekleniyor | - | 2.3 | 6 |
 | Kuopion - Universitatea C | UEFA Avrupa Ligi 3. Eleme Turu | 18:00 | Veri bekleniyor | - | 2.98 | 8 |
-| Inter Turku - Vaduz | UEFA Konferans Ligi 3. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.72 | 8 |
+| Inter Turku - Vaduz | UEFA Konferans Ligi 3. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Maccabi Tel Av - Cska Sofia | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.76 | 8 |
 | Jagiellonia - Glasgow Rangers | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.6 | 8 |
 | Paide Linnamee - Rapid Wien | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 11.6 | 5 |
@@ -44,7 +44,7 @@
 | Noah - Sion | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.43 | 8 |
 | Helsinki - Motherwell | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.13 | 8 |
 | Entebbe Uppc (0) - (4) Kitara | Uganda Süper 8 Çeyrek Final | 19:00 | Veri bekleniyor | - | 3.99 | 7 |
-| Cfr Cluj - Tromso | UEFA Konferans Ligi 3. Eleme Turu | 19:30 | Veri bekleniyor | - | 2.42 | 8 |
+| Cfr Cluj - Tromso | UEFA Konferans Ligi 3. Eleme Turu | 19:30 | Veri bekleniyor | - | 2.34 | 8 |
 | Salzburg - Pafos Fc | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.33 | 7 |
 | Lech Poznan - Kí Klaksvík | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | - | 5 |
 | Lincoln Red Im - Omonia | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 4.73 | 7 |
@@ -78,7 +78,7 @@
 | Ir Reykjavik - Aegir | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.36 | 4 |
 | Rayo Zuliano - Academia Anzoat | Venezuela Premier Lig Clausura | 22:30 | Veri bekleniyor | - | 2.19 | 8 |
 | Alianza Atleti - Cienciano | Peru Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 1.95 | 8 |
-| Estudiantes Fc - Zamora | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 2.26 | 8 |
+| Estudiantes Fc - Zamora | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 2.22 | 8 |
 | Union Santa Fe - Lanus | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 2.05 | 8 |
 | Tlaxcala - Alebrijes | Meksika Ascenso MX Apertura | 01:00 | Veri bekleniyor | - | 1.34 | 7 |
 | Academia Puert - Caracas Fc | Venezuela Premier Lig Clausura | 01:30 | Veri bekleniyor | - | 1.62 | 8 |

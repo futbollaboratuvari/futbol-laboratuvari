@@ -3,20 +3,14 @@
 Gunler: 2026-08-06 / 2026-08-07
 Kaynak: fixtures.json
 Ham mac: 94
-Aktif mac: 88
-Canli mac: 6
+Aktif mac: 82
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 73
+Bultenden dusurulen mac: 12
+Bugun: 67
 Yarin: 15
 
 ## Baslamamis Maclar
-- 2026-08-06 01:30 | Brezilya Kupa Son 16 Turu | Gremio (1) - (1) Mirassol | scheduled | -
-- 2026-08-06 01:30 | CONCACAF U20 Çeyrek Final | Kanada (U20) - Jamaika U20 | scheduled | -
-- 2026-08-06 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Metropolitanos | scheduled | -
-- 2026-08-06 02:00 | Arjantin Ulusal Primera Lig | Quilmes - Gimnasia Jujuy | scheduled | -
-- 2026-08-06 02:00 | Uruguay Premier Lig Intermediate Final | Penarol - Montevideo Wand | scheduled | -
-- 2026-08-06 02:00 | ABD USL Lig 1 | Richmond Kicke - New York Cosmos | scheduled | -
 - 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Atletico San Lu | scheduled | -
 - 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Orlando City | scheduled | -
 - 2026-08-06 02:30 | ABD USL Lig 1 | Naples - Alta | scheduled | -
@@ -107,6 +101,12 @@ Yarin: 15
 - 2026-08-06 01:00 | Şili Kupa Grup D | Sant. Wanderer - Union La Calera | live | -
 - 2026-08-06 01:00 | Bolivya Premier Lig | Nacional Potos - The Strongest | live | -
 - 2026-08-06 01:00 | Arjantin Ulusal Primera Lig | Quilmes - Gimnasia Jujuy | live | -
+- 2026-08-06 01:30 | Brezilya Kupa Son 16 Turu | Gremio (1) - (1) Mirassol | live | -
+- 2026-08-06 01:30 | CONCACAF U20 Çeyrek Final | Kanada (U20) - Jamaika U20 | live | -
+- 2026-08-06 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Metropolitanos | live | -
+- 2026-08-06 02:00 | Arjantin Ulusal Primera Lig | Quilmes - Gimnasia Jujuy | live | -
+- 2026-08-06 02:00 | Uruguay Premier Lig Intermediate Final | Penarol - Montevideo Wand | live | -
+- 2026-08-06 02:00 | ABD USL Lig 1 | Richmond Kicke - New York Cosmos | live | -
 
 ## Biten Maclar
 Biten mac yok.
