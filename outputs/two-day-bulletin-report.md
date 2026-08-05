@@ -2,19 +2,22 @@
 
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 74
+Ham mac: 78
+Aktif mac: 78
 Canli mac: 0
-Biten mac: 19
-Bultenden dusurulen mac: 19
-Bugun: 44
+Biten mac: 0
+Bultenden dusurulen mac: 0
+Bugun: 48
 Yarin: 30
 
 ## Baslamamis Maclar
+- 2026-08-05 11:00 | Hazırlık Kulüpler | Cadiz - Granada | scheduled | -
 - 2026-08-05 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Austria Wien ( - Hajduk Split (K | scheduled | -
 - 2026-08-05 12:30 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Tuggeranong Uni | scheduled | -
 - 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Vålerenga (K) - Malmö Ff (K) | scheduled | -
 - 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sfk 2000 (K) - Psv Eindhoven ( | scheduled | -
+- 2026-08-05 14:00 | Hazırlık Kulüpler | Ac Milan - Inter | scheduled | -
+- 2026-08-05 14:30 | Hazırlık Kulüpler | Chelsea - Juventus | scheduled | -
 - 2026-08-05 16:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | scheduled | -
 - 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Gintra-Univers - Heart Of Midlot | scheduled | -
 - 2026-08-05 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Apollon Limass - Czarni Sosnowie | scheduled | -
@@ -35,6 +38,7 @@ Yarin: 30
 - 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Gornik Leczna - Kalisz | scheduled | -
 - 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Sandecja Nowy - Rekord Bielsko | scheduled | -
 - 2026-08-05 19:00 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | scheduled | -
+- 2026-08-05 19:00 | Hazırlık Kulüpler | Saint Brieuc - Brest | scheduled | -
 - 2026-08-05 19:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus - Sabah | scheduled | -
 - 2026-08-05 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Brann - Apollon Limasso | scheduled | -
 - 2026-08-05 20:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Racing (K) - Hjk (K) | scheduled | -
@@ -90,22 +94,4 @@ Yarin: 30
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | finished | -
-- 2026-08-05 01:00 | Bolivya Premier Lig | Independiente - Aurora | finished | -
-- 2026-08-05 01:00 | Venezuela Premier Lig Clausura | Ucv - Monagas | finished | -
-- 2026-08-05 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | finished | -
-- 2026-08-05 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | finished | -
-- 2026-08-05 02:30 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | finished | -
-- 2026-08-05 02:30 | Şili Kupa Grup F | Univ De Concep - Curico | finished | -
-- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | finished | -
-- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pachuca | finished | -
-- 2026-08-05 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pumas Unam | finished | -
-- 2026-08-05 03:00 | Bolivya Premier Lig | Guabira - Real Tomayapo | finished | -
-- 2026-08-05 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | finished | -
-- 2026-08-05 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | finished | -
-- 2026-08-05 03:30 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | finished | -
-- 2026-08-05 04:00 | CONCACAF U20 Çeyrek Final | Abd (U20) - Guatemala U20 | finished | -
-- 2026-08-05 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | finished | -
-- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Alajuelense | finished | -
-- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | finished | -
-- 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | finished | -
+Biten mac yok.
