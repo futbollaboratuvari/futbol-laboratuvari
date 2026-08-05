@@ -1,48 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-05T20:47:00.109278+00:00
+Tarih: 2026-08-05T21:58:32.119026+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 33
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 33
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 4815
-- Hedef tarih: 05.08.2026 Europe/Istanbul
+- Hedef tarih: 06.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Bolivya Premier Lig
-- Brezilya Kupa Son 16 Turu
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
-- CONCACAF U20 Çeyrek Final
-- Ekvador Kupa Son 16 Turu
-- Kolombiya Kupa 2.Tur
-- Uruguay Premier Lig Intermediate Final
-- Venezuela Premier Lig Clausura
-- Şili Kupa Grup A
-- Şili Kupa Grup D
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -86,40 +72,70 @@ Tarih: 2026-08-05T20:47:00.109278+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 16
-- Acilan detay: 16
+- Denenen Tumu alani: 15
+- Acilan detay: 2
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Detay acilamadi #3: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(2)
+
+- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
+
+- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
+
+- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
+
+- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
+
+- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
+
+- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
+
+- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
+
+- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
+
+- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
+
+- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
+
+- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
+
+- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 06.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Tigre | Belgrano | 12361 | 5 |
-| 06.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Boca Juniors | Estudiantes Lp | 12228 | 5 |
-| 06.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza | Herediano | 08838 | 5 |
-| 06.08.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit | Depor. Olimpia | 04859 | 5 |
-| 06.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup C | Deportivo Sapr | Alianza Fc | 08867 | 5 |
-| 06.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Atletico San Lu | 06524 | 5 |
-| 06.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc | Guadalajara | 06774 | 5 |
-| 06.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc | Club Leon | 06676 | 5 |
-| 06.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Seattle | 06727 | 5 |
-| 06.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey | Orlando City | 06457 | 5 |
-| 06.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Dallas | Queretaro | 06600 | 5 |
-| 06.08.2026 | 01:30 | Brezilya Kupa Son 16 Turu | Gremio (1) | (1) Mirassol | 12828 | 5 |
-| 06.08.2026 | 01:00 | Brezilya Kupa Son 16 Turu | Cruzeiro (0) | (0) Chapecoense | 12827 | 5 |
-| 06.08.2026 | 03:30 | Brezilya Kupa Son 16 Turu | Fortaleza Ce (0) | (3) Palmeiras | 12884 | 5 |
-| 06.08.2026 | 03:30 | Brezilya Kupa Son 16 Turu | Fluminense (0) | (0) Vasco Da Gama | 12829 | 5 |
-| 06.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Deportivo La G | Metropolitanos | 00156 | 5 |
-| 06.08.2026 | 03:30 | Şili Kupa Grup A | Coquimbo Unido | San Marcos Aric | 01898 | 5 |
-| 06.08.2026 | 03:30 | Şili Kupa Grup A | Iquique | Deportes Limach | 02503 | 5 |
-| 06.08.2026 | 01:00 | Şili Kupa Grup D | Sant. Wanderer | Union La Calera | 05808 | 5 |
-| 06.08.2026 | 01:00 | Şili Kupa Grup D | Union San Feli | Univ. De Şili | 00456 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
