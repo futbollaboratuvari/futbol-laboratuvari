@@ -3,17 +3,14 @@
 Gunler: 2026-08-06 / 2026-08-07
 Kaynak: fixtures.json
 Ham mac: 94
-Aktif mac: 82
-Canli mac: 12
+Aktif mac: 79
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 67
+Bultenden dusurulen mac: 15
+Bugun: 64
 Yarin: 15
 
 ## Baslamamis Maclar
-- 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Atletico San Lu | scheduled | -
-- 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Orlando City | scheduled | -
-- 2026-08-06 02:30 | ABD USL Lig 1 | Naples - Alta | scheduled | -
 - 2026-08-06 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Depor. Olimpia | scheduled | -
 - 2026-08-06 03:00 | Kolombiya Kupa 2.Tur | Santa Fe - Union Magdalena | scheduled | -
 - 2026-08-06 03:00 | Ekvador Kupa Son 16 Turu | Ldu Portoviejo - Barcelona Gua | scheduled | -
@@ -107,6 +104,9 @@ Yarin: 15
 - 2026-08-06 02:00 | Arjantin Ulusal Primera Lig | Quilmes - Gimnasia Jujuy | live | -
 - 2026-08-06 02:00 | Uruguay Premier Lig Intermediate Final | Penarol - Montevideo Wand | live | -
 - 2026-08-06 02:00 | ABD USL Lig 1 | Richmond Kicke - New York Cosmos | live | -
+- 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Atletico San Lu | live | -
+- 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Orlando City | live | -
+- 2026-08-06 02:30 | ABD USL Lig 1 | Naples - Alta | live | -
 
 ## Biten Maclar
 Biten mac yok.

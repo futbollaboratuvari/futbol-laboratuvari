@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.08.2026 02:18:51
+Oluşturma: 06.08.2026 02:45:55
 
 ## Özet
 
-- Toplam tahmin: 72
-- Bekleyen tahmin: 72
+- Toplam tahmin: 101
+- Bekleyen tahmin: 101
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 22
+- Lig sayısı: 23
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 06.08.2026 02:18:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 57, bekleyen 57, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-06 | ABD USL | Tulsa Roughnec - Sacramento Repu | MS X | pending | 40/100
-- 2026-08-06 | ABD USL | El Paso Locomo - Monterey Bay | MS 2 | pending | 50/100
-- 2026-08-06 | CONCACAF U20 Çeyrek Final | Meksika (U20) - Panama (U20) | MS 2 | pending | 65/100
-- 2026-08-06 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Herediano | MS X | pending | 50/100
-- 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Guadalajara | MS X | pending | 50/100
-- 2026-08-06 | ABD USL | Las Vegas Ligh - Oakland Roots | MS X | pending | 50/100
-- 2026-08-06 | Şili Kupa Grup D | Sant. Wanderer - Union La Calera | MS 1 | pending | 50/100
-- 2026-08-06 | Bolivya Premier Lig | Nacional Potos - The Strongest | MS X | pending | 50/100
-- 2026-08-06 | CONCACAF U20 Çeyrek Final | Kanada (U20) - Jamaika U20 | MS X | pending | 40/100
-- 2026-08-06 | Venezuela Premier Lig Clausura | Deportivo La G - Metropolitanos | MS 2 | pending | 40/100
-- 2026-08-06 | ABD USL Lig 1 | Richmond Kicke - New York Cosmos | MS X | pending | 50/100
-- 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Atletico San Lu | MS 2 | pending | 40/100
-- 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Orlando City | MS X | pending | 70/100
-- 2026-08-06 | ABD USL Lig 1 | Naples - Alta | MS X | pending | 50/100
-- 2026-08-06 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Depor. Olimpia | MS 1 | pending | 40/100
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Beitar Jerusal - Austria Vienna | MS X | pending | 40/100
+- 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Paok - Anderlecht | MS 2 | pending | 60/100
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Hapoel Tel Avi - Gks Katowice | MS X | pending | 40/100
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Valur - Nordsjaelland | MS X | pending | 40/100
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Borac Banja Lu - Ml Vitebsk | MS 2 | pending | 40/100
+- 2026-08-06 | Bolivya Premier Lig | Universitario - Real Potosi | MS X | pending | 50/100
+- 2026-08-06 | Venezuela Premier Lig Clausura | Rayo Zuliano - Academia Anzoat | MS X | pending | 40/100
+- 2026-08-06 | Peru Premier Lig Clausura | Alianza Atleti - Cienciano | MS 2 | pending | 50/100
+- 2026-08-06 | Venezuela Premier Lig Clausura | Estudiantes Fc - Zamora | MS X | pending | 40/100
+- 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Seattle | MS 2 | pending | 40/100
+- 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion - Universitatea C | MS 1 | pending | 50/100
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Turku - Vaduz | MS X | pending | 50/100
+- 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Maccabi Tel Av - Cska Sofia | MS 2 | pending | 40/100
+- 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Jagiellonia - Glasgow Rangers | MS X | pending | 40/100
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Paide Linnamee - Rapid Wien | MS X | pending | 45/100
 
