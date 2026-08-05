@@ -1,24 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-05T18:56:48.896141+00:00
+Tarih: 2026-08-05T19:36:55.025361+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 5
+- Kac mac bulundu: 34
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 5
+- Kac mac zaten vardi: 34
 - Ham veri havuzu toplam mac sayisi: 4815
 - Hedef tarih: 05.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF U20 Çeyrek Final
 - Ekvador Kupa Son 16 Turu
-- Hazırlık Kulüpler
-- UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final
-- İzlanda Urvalsdeild
+- Kolombiya Kupa 2.Tur
+- Uruguay Premier Lig Intermediate Final
+- Venezuela Premier Lig Clausura
+- Şili Kupa Grup A
+- Şili Kupa Grup D
 
 ## Okunabilen Oran Alanlari
 
@@ -75,8 +86,8 @@ Tarih: 2026-08-05T18:56:48.896141+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 21
-- Acilan detay: 21
+- Denenen Tumu alani: 17
+- Acilan detay: 17
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -89,11 +100,26 @@ Tarih: 2026-08-05T18:56:48.896141+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 05.08.2026 | 22:00 | Hazırlık Kulüpler | Mallorca | Psg | 14730 | 5 |
-| 05.08.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Juventus (K) | Torreense (K) | 13678 | 3 |
-| 05.08.2026 | 22:15 | İzlanda Urvalsdeild | Hafnarfjordur | Kr Reykjavik | 12810 | 3 |
-| 05.08.2026 | 23:00 | Ekvador Kupa Son 16 Turu | Cuniburo Fc | Univ Catolica ( | 10835 | 5 |
-| 05.08.2026 | 22:00 | Bolivya Premier Lig | Gualberto Vill | San Antonio Bul | 09744 | 3 |
+| 06.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Tigre | Belgrano | 12361 | 5 |
+| 06.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Boca Juniors | Estudiantes Lp | 12228 | 5 |
+| 06.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza | Herediano | 08838 | 5 |
+| 06.08.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit | Depor. Olimpia | 04859 | 5 |
+| 06.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup C | Deportivo Sapr | Alianza Fc | 08867 | 5 |
+| 06.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Atletico San Lu | 06524 | 5 |
+| 06.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc | Guadalajara | 06774 | 5 |
+| 06.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc | Club Leon | 06676 | 5 |
+| 06.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Seattle | 06727 | 5 |
+| 06.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey | Orlando City | 06457 | 5 |
+| 06.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Dallas | Queretaro | 06600 | 5 |
+| 06.08.2026 | 01:30 | Brezilya Kupa Son 16 Turu | Gremio (1) | (1) Mirassol | 12828 | 5 |
+| 06.08.2026 | 01:00 | Brezilya Kupa Son 16 Turu | Cruzeiro (0) | (0) Chapecoense | 12827 | 5 |
+| 06.08.2026 | 03:30 | Brezilya Kupa Son 16 Turu | Fortaleza Ce (0) | (3) Palmeiras | 12884 | 5 |
+| 06.08.2026 | 03:30 | Brezilya Kupa Son 16 Turu | Fluminense (0) | (0) Vasco Da Gama | 12829 | 5 |
+| 06.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Deportivo La G | Metropolitanos | 00156 | 5 |
+| 06.08.2026 | 03:30 | Şili Kupa Grup A | Coquimbo Unido | San Marcos Aric | 01898 | 5 |
+| 06.08.2026 | 03:30 | Şili Kupa Grup A | Iquique | Deportes Limach | 02503 | 5 |
+| 06.08.2026 | 01:00 | Şili Kupa Grup D | Sant. Wanderer | Union La Calera | 05808 | 5 |
+| 06.08.2026 | 01:00 | Şili Kupa Grup D | Union San Feli | Univ. De Şili | 00456 | 5 |
 
 ## Sonuc
 

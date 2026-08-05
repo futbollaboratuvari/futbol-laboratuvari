@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 39
-- Live match count: 29
-- Finished removed count: 13
+- Scheduled match count: 35
+- Live match count: 23
+- Finished removed count: 0
 - Date window: 2026-08-05 / 2026-08-06 23:59
 
-- 2026-08-05 20:00 | G.Segoviana - Valladolid | live
-- 2026-08-05 20:00 | Manresa - Espanyol Ii | live
-- 2026-08-05 20:00 | Ponferradina - Unionistas De S | live
-- 2026-08-05 20:00 | Portugalete - Rayo Cantabria | live
-- 2026-08-05 20:00 | Ranheim Ii - Ntnui | live
-- 2026-08-05 20:00 | Gks Tychy - Zaglebie Sosnow | live
-- 2026-08-05 20:00 | Koge (K) - Dinamo Riga (K) | live
-- 2026-08-05 20:00 | Racing (K) - Hjk (K) | live
-- 2026-08-05 20:00 | Brann - Apollon Limasso | live
-- 2026-08-05 20:10 | Aarhus - Sabah | live
+- 2026-08-05 20:30 | Cultural Leone - Real Aviles | live
+- 2026-08-05 20:30 | La Nucia - Intercity | live
+- 2026-08-05 20:30 | Siero - Caudal Deportiv | live
+- 2026-08-05 20:45 | Unia Skierniew - Sokol Kleczew | live
+- 2026-08-05 20:45 | Krasnodar - Akhmat Grozny | live
+- 2026-08-05 20:45 | Zenit - Baltika Kalinin | live
+- 2026-08-05 21:00 | Almagro - Gimnasia Y Tiro | live
+- 2026-08-05 21:00 | Cacereno - Dep. Guadalajar | live
+- 2026-08-05 21:00 | Mallorca - Psg | live
+- 2026-08-05 21:00 | Sassuolo - Celta Vigo | live
