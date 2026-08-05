@@ -2,23 +2,15 @@
 
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
-Ham mac: 100
-Aktif mac: 88
-Canli mac: 12
+Ham mac: 97
+Aktif mac: 80
+Canli mac: 17
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 54
+Bultenden dusurulen mac: 17
+Bugun: 46
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-05 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Spartak Moskov - Orenburg | scheduled | -
-- 2026-08-05 18:30 | Rusya Kupa Premier Lig Yolu Grup B | Fakel Voronezh - Dinamo Moskova | scheduled | -
-- 2026-08-05 18:30 | Polonya Kupa Ön Eleme Turu | Warta Poznan - Resovia Rzeszow | scheduled | -
-- 2026-08-05 18:30 | Finlandiya Ykkönen | Salpa Salo - Jyvaskyla | scheduled | -
-- 2026-08-05 18:30 | Finlandiya Ykkönen | Tampere Utd - Kpv Kokkola | scheduled | -
-- 2026-08-05 18:30 | Finlandiya Ykkönen | Rops - Fc Jazz | scheduled | -
-- 2026-08-05 18:30 | Hazırlık Kulüpler | Pianese - Aquila M. | scheduled | -
-- 2026-08-05 18:30 | Hazırlık Kulüpler | Shahaniya - Marsilya | scheduled | -
 - 2026-08-05 19:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | St. Pölten (K) - Young Boys (K) | scheduled | -
 - 2026-08-05 19:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Znk Mura (K) - Farul Constanta | scheduled | -
 - 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Gornik Leczna - Kalisz | scheduled | -
@@ -101,9 +93,6 @@ Yarin: 34
 - 2026-08-06 05:30 | ABD USL | Las Vegas Ligh - Oakland Roots | scheduled | -
 
 ## Canli Maclar
-- 2026-08-05 16:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | live | -
-- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Gintra-Univers - Heart Of Midlot | live | -
-- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Hammarby (K) - Apolonia (K) | live | -
 - 2026-08-05 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Apollon Limass - Czarni Sosnowie | live | -
 - 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | P. Bielsko - Hutnik Krakow | live | -
 - 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Slask Wroclaw - Stal S Wola | live | -
@@ -113,6 +102,14 @@ Yarin: 34
 - 2026-08-05 18:00 | Polonya Kupa Ön Eleme Turu | Olimpia Grudzi - Swit Skolwin | live | -
 - 2026-08-05 18:00 | Finlandiya Ykkönen | Oulun Ls - Tpv Tampere | live | -
 - 2026-08-05 18:00 | Belarus 1.Lig | Ostrovets Fc - Osipovichy | live | -
+- 2026-08-05 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Spartak Moskov - Orenburg | live | -
+- 2026-08-05 18:30 | Rusya Kupa Premier Lig Yolu Grup B | Fakel Voronezh - Dinamo Moskova | live | -
+- 2026-08-05 18:30 | Polonya Kupa Ön Eleme Turu | Warta Poznan - Resovia Rzeszow | live | -
+- 2026-08-05 18:30 | Finlandiya Ykkönen | Salpa Salo - Jyvaskyla | live | -
+- 2026-08-05 18:30 | Finlandiya Ykkönen | Tampere Utd - Kpv Kokkola | live | -
+- 2026-08-05 18:30 | Finlandiya Ykkönen | Rops - Fc Jazz | live | -
+- 2026-08-05 18:30 | Hazırlık Kulüpler | Pianese - Aquila M. | live | -
+- 2026-08-05 18:30 | Hazırlık Kulüpler | Shahaniya - Marsilya | live | -
 
 ## Biten Maclar
 Biten mac yok.
