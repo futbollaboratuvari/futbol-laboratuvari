@@ -3,15 +3,14 @@
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
 Ham mac: 101
-Aktif mac: 97
-Canli mac: 4
+Aktif mac: 96
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 65
+Bultenden dusurulen mac: 5
+Bugun: 64
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-05 12:30 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Tuggeranong Uni | scheduled | -
 - 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Vålerenga (K) - Malmö Ff (K) | scheduled | -
 - 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sfk 2000 (K) - Psv Eindhoven ( | scheduled | -
 - 2026-08-05 14:00 | Hazırlık Kulüpler | Ac Milan - Inter | scheduled | -
@@ -114,6 +113,7 @@ Yarin: 32
 - 2026-08-05 11:00 | Hazırlık Kulüpler | Villarreal - Levante | live | -
 - 2026-08-05 11:00 | Hazırlık Kulüpler | Toledo - Navalcarnero | live | -
 - 2026-08-05 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Austria Wien ( - Hajduk Split (K | live | -
+- 2026-08-05 12:30 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Tuggeranong Uni | live | -
 
 ## Biten Maclar
 Biten mac yok.
