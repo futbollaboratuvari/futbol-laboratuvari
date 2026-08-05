@@ -3,18 +3,14 @@
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
 Ham mac: 107
-Aktif mac: 100
-Canli mac: 7
+Aktif mac: 96
+Canli mac: 11
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 67
+Bultenden dusurulen mac: 11
+Bugun: 63
 Yarin: 33
 
 ## Baslamamis Maclar
-- 2026-08-05 15:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sporting Cp (K - Seasters (K) | scheduled | -
-- 2026-08-05 16:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | scheduled | -
-- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Gintra-Univers - Heart Of Midlot | scheduled | -
-- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Hammarby (K) - Apolonia (K) | scheduled | -
 - 2026-08-05 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Apollon Limass - Czarni Sosnowie | scheduled | -
 - 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | P. Bielsko - Hutnik Krakow | scheduled | -
 - 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Slask Wroclaw - Stal S Wola | scheduled | -
@@ -120,6 +116,10 @@ Yarin: 33
 - 2026-08-05 14:00 | Hazırlık Kulüpler | K-League Xi - Manchester City | live | -
 - 2026-08-05 14:00 | Hazırlık Kulüpler | Ratchaburi Fc - Eastern | live | -
 - 2026-08-05 14:30 | Hazırlık Kulüpler | Chelsea - Juventus | live | -
+- 2026-08-05 15:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sporting Cp (K - Seasters (K) | live | -
+- 2026-08-05 16:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | live | -
+- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Gintra-Univers - Heart Of Midlot | live | -
+- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Hammarby (K) - Apolonia (K) | live | -
 
 ## Biten Maclar
 Biten mac yok.
