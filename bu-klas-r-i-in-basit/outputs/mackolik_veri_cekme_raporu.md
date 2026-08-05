@@ -1,25 +1,33 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-05T15:41:22.953698+00:00
+Tarih: 2026-08-05T16:21:53.491715+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 48
+- Kac mac bulundu: 68
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 48
+- Kac mac zaten vardi: 68
 - Ham veri havuzu toplam mac sayisi: 4814
 - Hedef tarih: 05.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
+- ABD USL Lig 1
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belarus 1.Lig
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF U20 Çeyrek Final
 - Ekvador Kupa Son 16 Turu
-- Finlandiya Ykkönen
 - Hazırlık Kulüpler
+- Kolombiya Kupa 2.Tur
 - Norveç 3.Lig Grup 2
 - Polonya Kupa Ön Eleme Turu
 - Rusya Kupa Premier Lig Yolu Grup B
@@ -28,7 +36,11 @@ Tarih: 2026-08-05T15:41:22.953698+00:00
 - UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final
 - UEFA Konferans Ligi 3. Eleme Turu
 - UEFA Şampiyonlar Ligi 3.Eleme Turu
+- Uruguay Premier Lig Intermediate Final
+- Venezuela Premier Lig Clausura
 - İzlanda Urvalsdeild
+- Şili Kupa Grup A
+- Şili Kupa Grup D
 
 ## Okunabilen Oran Alanlari
 
@@ -85,8 +97,8 @@ Tarih: 2026-08-05T15:41:22.953698+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 31
-- Acilan detay: 31
+- Denenen Tumu alani: 30
+- Acilan detay: 30
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -102,23 +114,23 @@ Tarih: 2026-08-05T15:41:22.953698+00:00
 | 05.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Fenerbahçe | Sturm Graz | 07746 | 5 |
 | 05.08.2026 | 19:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus | Sabah | 01881 | 5 |
 | 05.08.2026 | 21:15 | UEFA Avrupa Ligi 3. Eleme Turu | Ferencvaros | Gornik Zabrze | 07789 | 5 |
-| 05.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Panathinaikos | Cska 1948 Sofia | 07848 | 5 |
 | 05.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Brann | Apollon Limasso | 07713 | 5 |
-| 05.08.2026 | 20:00 | Hazırlık Kulüpler | Manresa | Espanyol Ii | 14448 | 5 |
-| 05.08.2026 | 21:00 | Hazırlık Kulüpler | Sassuolo | Celta Vigo | 14589 | 5 |
-| 05.08.2026 | 21:00 | Hazırlık Kulüpler | Cacereno | Dep. Guadalajar | 14572 | 5 |
+| 05.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Panathinaikos | Cska 1948 Sofia | 07848 | 5 |
+| 05.08.2026 | 21:30 | Hazırlık Kulüpler | Arsenal | Real Betis | 14649 | 5 |
+| 05.08.2026 | 21:30 | Hazırlık Kulüpler | Cd Badajoz | Cd Coria | 14713 | 5 |
+| 05.08.2026 | 19:30 | Hazırlık Kulüpler | Napoli | Osasuna | 14383 | 5 |
 | 05.08.2026 | 22:00 | Hazırlık Kulüpler | Mallorca | Psg | 14730 | 5 |
 | 05.08.2026 | 20:30 | Hazırlık Kulüpler | Cultural Leone | Real Aviles | 14555 | 5 |
-| 05.08.2026 | 19:00 | Hazırlık Kulüpler | Lecco | Inter Milano (U | 01287 | 5 |
-| 05.08.2026 | 19:00 | Hazırlık Kulüpler | Lazio | Ostia Mare Lido | 14244 | 2 |
-| 05.08.2026 | 21:30 | Hazırlık Kulüpler | Arsenal | Real Betis | 14649 | 5 |
+| 05.08.2026 | 20:00 | Hazırlık Kulüpler | Portugalete | Rayo Cantabria | 14465 | 5 |
+| 05.08.2026 | 20:00 | Hazırlık Kulüpler | Manresa | Espanyol Ii | 14448 | 5 |
+| 05.08.2026 | 21:00 | Hazırlık Kulüpler | Sassuolo | Celta Vigo | 14589 | 5 |
+| 05.08.2026 | 20:30 | Hazırlık Kulüpler | La Nucia | Intercity | 14533 | 5 |
 | 05.08.2026 | 20:00 | Hazırlık Kulüpler | Ponferradina | Unionistas De S | 14516 | 5 |
 | 05.08.2026 | 20:30 | Hazırlık Kulüpler | Siero | Caudal Deportiv | 14550 | 5 |
-| 05.08.2026 | 20:00 | Hazırlık Kulüpler | Portugalete | Rayo Cantabria | 14465 | 5 |
+| 05.08.2026 | 21:00 | Hazırlık Kulüpler | Cacereno | Dep. Guadalajar | 14572 | 5 |
 | 05.08.2026 | 20:00 | Hazırlık Kulüpler | G.Segoviana | Valladolid | 14482 | 5 |
-| 05.08.2026 | 19:00 | Hazırlık Kulüpler | Saint Brieuc | Brest | 14300 | 5 |
-| 05.08.2026 | 18:30 | Hazırlık Kulüpler | Pianese | Aquila M. | 00884 | 5 |
-| 05.08.2026 | 20:30 | Hazırlık Kulüpler | La Nucia | Intercity | 14533 | 5 |
+| 05.08.2026 | 20:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Koge (K) | Dinamo Riga (K) | 03426 | 2 |
+| 05.08.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Juventus (K) | Torreense (K) | 13678 | 3 |
 
 ## Sonuc
 

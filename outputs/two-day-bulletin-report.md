@@ -2,25 +2,15 @@
 
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
-Ham mac: 97
-Aktif mac: 80
-Canli mac: 17
-Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 46
+Ham mac: 131
+Aktif mac: 70
+Canli mac: 22
+Biten mac: 39
+Bultenden dusurulen mac: 61
+Bugun: 36
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-05 19:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | St. Pölten (K) - Young Boys (K) | scheduled | -
-- 2026-08-05 19:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Znk Mura (K) - Farul Constanta | scheduled | -
-- 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Gornik Leczna - Kalisz | scheduled | -
-- 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Sandecja Nowy - Rekord Bielsko | scheduled | -
-- 2026-08-05 19:00 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | scheduled | -
-- 2026-08-05 19:00 | Hazırlık Kulüpler | Saint Brieuc - Brest | scheduled | -
-- 2026-08-05 19:00 | Hazırlık Kulüpler | Lecco - Inter Milano (U | scheduled | -
-- 2026-08-05 19:00 | Hazırlık Kulüpler | Lazio - Ostia Mare Lido | scheduled | -
-- 2026-08-05 19:00 | Belarus 1.Lig | Uni Minsk - Smorgon | scheduled | -
-- 2026-08-05 19:00 | Belarus 1.Lig | Dinamo Minsk I - Lida | scheduled | -
 - 2026-08-05 19:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Aarhus - Sabah | scheduled | -
 - 2026-08-05 19:30 | Hazırlık Kulüpler | Napoli - Osasuna | scheduled | -
 - 2026-08-05 19:30 | Belarus 1.Lig | Soligorsk - Energetik-Bgu | scheduled | -
@@ -93,11 +83,6 @@ Yarin: 34
 - 2026-08-06 05:30 | ABD USL | Las Vegas Ligh - Oakland Roots | scheduled | -
 
 ## Canli Maclar
-- 2026-08-05 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Apollon Limass - Czarni Sosnowie | live | -
-- 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | P. Bielsko - Hutnik Krakow | live | -
-- 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Slask Wroclaw - Stal S Wola | live | -
-- 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Znicz Pruszkow - Lks Lodz Ii | live | -
-- 2026-08-05 17:00 | Belarus 1.Lig | Niva Dolbizno - Slutsk | live | -
 - 2026-08-05 17:30 | Polonya Kupa Ön Eleme Turu | Nkp Podhale - Chojniczanka | live | -
 - 2026-08-05 18:00 | Polonya Kupa Ön Eleme Turu | Olimpia Grudzi - Swit Skolwin | live | -
 - 2026-08-05 18:00 | Finlandiya Ykkönen | Oulun Ls - Tpv Tampere | live | -
@@ -110,6 +95,54 @@ Yarin: 34
 - 2026-08-05 18:30 | Finlandiya Ykkönen | Rops - Fc Jazz | live | -
 - 2026-08-05 18:30 | Hazırlık Kulüpler | Pianese - Aquila M. | live | -
 - 2026-08-05 18:30 | Hazırlık Kulüpler | Shahaniya - Marsilya | live | -
+- 2026-08-05 19:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | St. Pölten (K) - Young Boys (K) | live | -
+- 2026-08-05 19:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Znk Mura (K) - Farul Constanta | live | -
+- 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Gornik Leczna - Kalisz | live | -
+- 2026-08-05 19:00 | Polonya Kupa Ön Eleme Turu | Sandecja Nowy - Rekord Bielsko | live | -
+- 2026-08-05 19:00 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | live | -
+- 2026-08-05 19:00 | Hazırlık Kulüpler | Saint Brieuc - Brest | live | -
+- 2026-08-05 19:00 | Hazırlık Kulüpler | Lecco - Inter Milano (U | live | -
+- 2026-08-05 19:00 | Hazırlık Kulüpler | Lazio - Ostia Mare Lido | live | -
+- 2026-08-05 19:00 | Belarus 1.Lig | Uni Minsk - Smorgon | live | -
+- 2026-08-05 19:00 | Belarus 1.Lig | Dinamo Minsk I - Lida | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-05 00:00 | Venezuela Premier Lig Clausura | Carabobo - Trujillanos | finished | -
+- 2026-08-05 01:00 | Bolivya Premier Lig | Independiente - Aurora | finished | -
+- 2026-08-05 01:00 | Venezuela Premier Lig Clausura | Ucv - Monagas | finished | -
+- 2026-08-05 01:30 | Brezilya Kupa Son 16 Turu | Juventude (0) - (0) Atletico Mg | finished | -
+- 2026-08-05 01:30 | Venezuela Premier Lig Clausura | Depor Tachira - Portuguesa | finished | -
+- 2026-08-05 02:30 | Şili Kupa Grup F | Atletico Nuble - Csd Rangers | finished | -
+- 2026-08-05 02:30 | Şili Kupa Grup F | Univ De Concep - Curico | finished | -
+- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Atlas | finished | -
+- 2026-08-05 02:45 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pachuca | finished | -
+- 2026-08-05 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pumas Unam | finished | -
+- 2026-08-05 03:00 | Bolivya Premier Lig | Guabira - Real Tomayapo | finished | -
+- 2026-08-05 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Firpo | finished | -
+- 2026-08-05 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Fc Juarez | finished | -
+- 2026-08-05 03:30 | Brezilya Kupa Son 16 Turu | Remo (0) - (0) Santos | finished | -
+- 2026-08-05 04:00 | CONCACAF U20 Çeyrek Final | Abd (U20) - Guatemala U20 | finished | -
+- 2026-08-05 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Salt Lake | finished | -
+- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup A | Diriangen - Alajuelense | finished | -
+- 2026-08-05 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Real Esteli | finished | -
+- 2026-08-05 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Atlante | finished | -
+- 2026-08-05 11:00 | Hazırlık Kulüpler | Cadiz - Granada | finished | -
+- 2026-08-05 11:00 | Hazırlık Kulüpler | Villarreal - Levante | finished | -
+- 2026-08-05 11:00 | Hazırlık Kulüpler | Toledo - Navalcarnero | finished | -
+- 2026-08-05 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Austria Wien ( - Hajduk Split (K | finished | -
+- 2026-08-05 12:30 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - Tuggeranong Uni | finished | -
+- 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Vålerenga (K) - Malmö Ff (K) | finished | -
+- 2026-08-05 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sfk 2000 (K) - Psv Eindhoven ( | finished | -
+- 2026-08-05 14:00 | Hazırlık Kulüpler | Ac Milan - Inter | finished | -
+- 2026-08-05 14:00 | Hazırlık Kulüpler | K-League Xi - Manchester City | finished | -
+- 2026-08-05 14:00 | Hazırlık Kulüpler | Ratchaburi Fc - Eastern | finished | -
+- 2026-08-05 14:30 | Hazırlık Kulüpler | Chelsea - Juventus | finished | -
+- 2026-08-05 15:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Sporting Cp (K - Seasters (K) | finished | -
+- 2026-08-05 16:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Ajax (K) - Brondby (K) | finished | -
+- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Gintra-Univers - Heart Of Midlot | finished | -
+- 2026-08-05 16:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Hammarby (K) - Apolonia (K) | finished | -
+- 2026-08-05 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Apollon Limass - Czarni Sosnowie | finished | -
+- 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | P. Bielsko - Hutnik Krakow | finished | -
+- 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Slask Wroclaw - Stal S Wola | finished | -
+- 2026-08-05 17:00 | Polonya Kupa Ön Eleme Turu | Znicz Pruszkow - Lks Lodz Ii | finished | -
+- 2026-08-05 17:00 | Belarus 1.Lig | Niva Dolbizno - Slutsk | finished | -
