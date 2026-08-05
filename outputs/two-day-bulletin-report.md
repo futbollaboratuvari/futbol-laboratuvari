@@ -3,15 +3,14 @@
 Gunler: 2026-08-05 / 2026-08-06
 Kaynak: fixtures.json
 Ham mac: 58
-Aktif mac: 35
-Canli mac: 23
+Aktif mac: 34
+Canli mac: 24
 Biten mac: 0
-Bultenden dusurulen mac: 23
-Bugun: 1
+Bultenden dusurulen mac: 24
+Bugun: 0
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-05 23:00 | Ekvador Kupa Son 16 Turu | Cuniburo Fc - Univ Catolica ( | scheduled | -
 - 2026-08-06 01:00 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Estudiantes Lp | scheduled | -
 - 2026-08-06 01:00 | Brezilya Kupa Son 16 Turu | Cruzeiro (0) - (0) Chapecoense | scheduled | -
 - 2026-08-06 01:00 | Şili Kupa Grup D | Union San Feli - Univ. De Şili | scheduled | -
@@ -71,6 +70,7 @@ Yarin: 34
 - 2026-08-05 22:00 | Bolivya Premier Lig | Gualberto Vill - San Antonio Bul | live | -
 - 2026-08-05 22:00 | Hazırlık Kulüpler | Mallorca - Psg | live | -
 - 2026-08-05 22:15 | İzlanda Urvalsdeild | Hafnarfjordur - Kr Reykjavik | live | -
+- 2026-08-05 23:00 | Ekvador Kupa Son 16 Turu | Cuniburo Fc - Univ Catolica ( | live | -
 
 ## Biten Maclar
 Biten mac yok.
