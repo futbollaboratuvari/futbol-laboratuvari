@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 05.08.2026 13:17:16
+Oluşturma: 05.08.2026 14:33:33
 
 ## Özet
 
-- Toplam tahmin: 41
-- Bekleyen tahmin: 41
+- Toplam tahmin: 44
+- Bekleyen tahmin: 44
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 9
@@ -20,12 +20,15 @@ Oluşturma: 05.08.2026 13:17:16
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
+- MS X: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-05 | Hazırlık Kulüpler | Mallorca - Psg | MS X | pending | 55/100
+- 2026-08-05 | Finlandiya Ykkönen | Oulun Ls - Tpv Tampere | MS 2 | pending | 40/100
+- 2026-08-05 | Polonya Kupa Ön Eleme Turu | Nkp Podhale - Chojniczanka | MS X | pending | 50/100
 - 2026-08-05 | Hazırlık Kulüpler | Ponferradina - Unionistas De S | MS 2 | pending | 40/100
 - 2026-08-05 | Hazırlık Kulüpler | Manresa - Espanyol Ii | MS X | pending | 50/100
 - 2026-08-05 | Hazırlık Kulüpler | Cultural Leone - Real Aviles | MS X | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 05.08.2026 13:17:16
 - 2026-08-05 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | Znk Mura (K) - Farul Constanta | MS X | pending | 40/100
 - 2026-08-05 | Hazırlık Kulüpler | Lecco - Inter Milano (U | MS X | pending | 40/100
 - 2026-08-05 | Hazırlık Kulüpler | Napoli - Osasuna | MS 2 | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | Villarreal - Levante | MS X | pending | 50/100
-- 2026-08-05 | Hazırlık Kulüpler | Toledo - Navalcarnero | MS X | pending | 40/100
-- 2026-08-05 | Finlandiya Ykkönen | Vjs - Pk Keski Uusima | MS X | pending | 70/100
 

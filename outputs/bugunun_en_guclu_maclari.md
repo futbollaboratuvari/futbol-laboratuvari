@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-05T11:09:55.694Z
+- Güncelleme: 2026-08-05T11:32:17.297Z
 - Ham maç sayısı: 108
 - Yarın bülteni maç sayısı: 33
 - Detay blok sayısı: 297
-- Aktif bülten maçı: 101
-- Bültenden düşürülen maç: 7
+- Aktif bülten maçı: 100
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Chelsea - Juventus | Hazırlık Kulüpler | 14:30 | Veri bekleniyor | - | 1.82 | 8 |
 | Sporting Cp (K - Seasters (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | 15:30 | Veri bekleniyor | - | - | 3 |
 | Ajax (K) - Brondby (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | 16:00 | Veri bekleniyor | - | 1.74 | 8 |
 | Gintra-Univers - Heart Of Midlot | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Yarı Final | 16:30 | Veri bekleniyor | - | 4.44 | 4 |
