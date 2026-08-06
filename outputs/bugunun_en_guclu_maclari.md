@@ -2,11 +2,11 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-06T09:24:17.875Z
-- Ham maç sayısı: 72
+- Güncelleme: 2026-08-06T10:00:31.270Z
+- Ham maç sayısı: 73
 - Yarın bülteni maç sayısı: 15
-- Detay blok sayısı: 207
-- Aktif bülten maçı: 72
+- Detay blok sayısı: 209
+- Aktif bülten maçı: 73
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
@@ -19,6 +19,7 @@
 | Molodechno - Volna Pinsk | Belarus 1.Lig | 18:00 | Veri bekleniyor | - | 2.07 | 6 |
 | Orsha - Gomel Ii | Belarus 1.Lig | 18:00 | Veri bekleniyor | - | 1.76 | 6 |
 | Pavonese - Calvina | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 6.6 | 5 |
+| Slonim - Fc Minsk Ii | Belarus 1.Lig | 18:30 | Veri bekleniyor | - | 1.87 | 6 |
 | Maccabi Tel Av - Cska Sofia | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.74 | 8 |
 | Jagiellonia - Glasgow Rangers | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.53 | 8 |
 | Paide Linnamee - Rapid Wien | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 11.1 | 6 |
