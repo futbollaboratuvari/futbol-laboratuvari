@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 51
-Tam analiz: 49
+Toplam analiz: 45
+Tam analiz: 43
 Eksik analiz: 2
 
 - Police (1) VS (1) Nec: eksik score, confidence
