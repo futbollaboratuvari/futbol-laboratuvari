@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.08.2026 02:45:55
+Oluşturma: 06.08.2026 03:13:05
 
 ## Özet
 
-- Toplam tahmin: 101
-- Bekleyen tahmin: 101
+- Toplam tahmin: 102
+- Bekleyen tahmin: 102
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 23
@@ -20,12 +20,13 @@ Oluşturma: 06.08.2026 02:45:55
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
 - MS X: toplam 57, bekleyen 57, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 36, bekleyen 36, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Turku - Vaduz | MS 2 | pending | 50/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Beitar Jerusal - Austria Vienna | MS X | pending | 40/100
 - 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Paok - Anderlecht | MS 2 | pending | 60/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Hapoel Tel Avi - Gks Katowice | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 06.08.2026 02:45:55
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Turku - Vaduz | MS X | pending | 50/100
 - 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Maccabi Tel Av - Cska Sofia | MS 2 | pending | 40/100
 - 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Jagiellonia - Glasgow Rangers | MS X | pending | 40/100
-- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Paide Linnamee - Rapid Wien | MS X | pending | 45/100
 
