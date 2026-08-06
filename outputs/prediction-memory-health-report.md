@@ -2,9 +2,9 @@
 
 Durum: ok
 Robot analiz maci: 62
-Aday tahmin: 2
-Toplam tahmin: 112
-Bekleyen: 112
+Aday tahmin: 4
+Toplam tahmin: 117
+Bekleyen: 117
 Kazanan: 0
 Kaybeden: 0
 Eksik kayit: 0

@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-06T13:23:35.304Z
+- Güncelleme: 2026-08-06T15:30:15.166Z
 - Ham maç sayısı: 77
 - Yarın bülteni maç sayısı: 15
 - Detay blok sayısı: 221
-- Aktif bülten maçı: 76
-- Bültenden düşürülen maç: 1
+- Aktif bülten maçı: 69
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bate Ii - Bumprom | Belarus 1.Lig | 17:30 | Veri bekleniyor | - | 4.13 | 4 |
-| Kuopion - Universitatea C | UEFA Avrupa Ligi 3. Eleme Turu | 18:00 | Veri bekleniyor | - | 2.91 | 8 |
-| Inter Turku - Vaduz | UEFA Konferans Ligi 3. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.67 | 8 |
-| Molodechno - Volna Pinsk | Belarus 1.Lig | 18:00 | Veri bekleniyor | - | 2.07 | 6 |
-| Orsha - Gomel Ii | Belarus 1.Lig | 18:00 | Veri bekleniyor | - | 1.82 | 6 |
-| Pavonese - Calvina | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 7.43 | 5 |
-| Slonim - Fc Minsk Ii | Belarus 1.Lig | 18:30 | Veri bekleniyor | - | 1.93 | 8 |
 | Maccabi Tel Av - Cska Sofia | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Jagiellonia - Glasgow Rangers | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.5 | 8 |
 | Paide Linnamee - Rapid Wien | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 13.55 | 5 |
@@ -35,7 +28,7 @@
 | Lincoln Red Im - Omonia | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 4.62 | 7 |
 | Hradec Kralove - Beşiktaş | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 3.44 | 8 |
 | Zalgiris Vilni - Hajduk Split | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 3.2 | 8 |
-| Göteborg - Gent | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.47 | 8 |
+| Göteborg - Gent | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.52 | 8 |
 | Riga Fc - Gyor | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.77 | 8 |
 | Dynamo Kiev - Qarabagh | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.88 | 8 |
 | Inter Escaldes - Flora Tallinn | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.91 | 8 |
@@ -53,7 +46,7 @@
 | Monaco - Getafe | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.66 | 8 |
 | Malaga - Al Arabi | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.72 | 8 |
 | Fiorentina - D.La Coruna | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.6 | 8 |
-| Lanzarote - Arenas De Getxo | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 7.06 | 5 |
+| Lanzarote - Arenas De Getxo | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 6.71 | 5 |
 | Lugano - Runavik | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | - | 5 |
 | Valur - Nordsjaelland | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 10.15 | 5 |
 | Braga - Dinamo Minsk | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | - | 5 |
