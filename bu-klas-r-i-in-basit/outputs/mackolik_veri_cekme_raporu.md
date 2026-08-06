@@ -1,22 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-06T09:24:40.808561+00:00
+Tarih: 2026-08-06T11:32:09.411543+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 57
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 56
-- Ham veri havuzu toplam mac sayisi: 4888
+- Kac mac bulundu: 76
+- Kac mac kaydedildi: 4
+- Kac mac zaten vardi: 72
+- Ham veri havuzu toplam mac sayisi: 4892
 - Hedef tarih: 06.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
 - Belarus 1.Lig
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup D
 - Hazırlık Kulüpler
+- Meksika Ascenso MX Apertura
 - Norveç 3.Lig Grup 5
 - Peru Premier Lig Clausura
 - UEFA Avrupa Ligi 3. Eleme Turu
@@ -106,15 +111,15 @@ Tarih: 2026-08-06T09:24:40.808561+00:00
 | 06.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Jagiellonia | Glasgow Rangers | 08168 | 5 |
 | 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Lincoln Red Im | Omonia | 08791 | 5 |
 | 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Göteborg | Gent | 08640 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Riga Fc | Gyor | 09112 | 5 |
-| 06.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Lugano | Runavik | 10120 | 4 |
-| 06.08.2026 | 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Ajax | Shelbourne | 09474 | 4 |
-| 06.08.2026 | 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Hapoel Tel Avi | Gks Katowice | 09532 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dynamo Kiev | Qarabagh | 08537 | 5 |
-| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Jablonec | Daugava Riga | 08132 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Inter Escaldes | Flora Tallinn | 08681 | 5 |
-| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Noah | Sion | 08056 | 5 |
+| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Sheriff Tirasp | St Gallen | 09242 | 5 |
 | 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Rakow Czestoch | Hammarby | 09004 | 5 |
+| 06.08.2026 | 19:30 | UEFA Konferans Ligi 3. Eleme Turu | Cfr Cluj | Tromso | 08289 | 5 |
+| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Noah | Sion | 08056 | 5 |
+| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Inter Escaldes | Flora Tallinn | 08681 | 5 |
+| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Jablonec | Daugava Riga | 08132 | 5 |
+| 06.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Tre Fiori | Fc Drita | 11057 | 5 |
+| 06.08.2026 | 21:45 | UEFA Konferans Ligi 3. Eleme Turu | Rijeka | Ilves | 10475 | 5 |
+| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Debreceni | Kopenhag | 08501 | 5 |
 
 ## Sonuc
 

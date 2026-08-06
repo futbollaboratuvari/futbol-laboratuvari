@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.08.2026 13:25:10
+Oluşturma: 06.08.2026 14:33:20
 
 ## Özet
 
-- Toplam tahmin: 111
-- Bekleyen tahmin: 111
+- Toplam tahmin: 112
+- Bekleyen tahmin: 112
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 23
@@ -20,12 +20,13 @@ Oluşturma: 06.08.2026 13:25:10
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS X: toplam 62, bekleyen 62, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 39, bekleyen 39, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-06 | Hazırlık Kulüpler | Real Jaen - Cordoba | MS 1 | pending | 40/100
 - 2026-08-06 | Hazırlık Kulüpler | Real Jaen - Cordoba | MS X | pending | 40/100
 - 2026-08-06 | Hazırlık Kulüpler | Monaco - Getafe | MS 2 | pending | 50/100
 - 2026-08-06 | Hazırlık Kulüpler | Malaga - Al Arabi | MS X | pending | 70/100
@@ -40,5 +41,4 @@ Oluşturma: 06.08.2026 13:25:10
 - 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Paok - Anderlecht | MS 2 | pending | 60/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Hapoel Tel Avi - Gks Katowice | MS X | pending | 40/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Valur - Nordsjaelland | MS X | pending | 40/100
-- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Borac Banja Lu - Ml Vitebsk | MS 2 | pending | 40/100
 

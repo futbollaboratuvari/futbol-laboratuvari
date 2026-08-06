@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-06 / 2026-08-07
 Kaynak: fixtures.json
-Ham mac: 73
-Aktif mac: 73
+Ham mac: 111
+Aktif mac: 77
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 58
+Biten mac: 34
+Bultenden dusurulen mac: 34
+Bugun: 62
 Yarin: 15
 
 ## Baslamamis Maclar
@@ -26,6 +26,7 @@ Yarin: 15
 - 2026-08-06 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Noah - Sion | scheduled | -
 - 2026-08-06 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Helsinki - Motherwell | scheduled | -
 - 2026-08-06 19:00 | Uganda Süper 8 Çeyrek Final | Entebbe Uppc (0) - (4) Kitara | scheduled | -
+- 2026-08-06 19:00 | Hazırlık Kulüpler | Pergolettese - Club Milano | scheduled | -
 - 2026-08-06 19:30 | UEFA Konferans Ligi 3. Eleme Turu | Cfr Cluj - Tromso | scheduled | -
 - 2026-08-06 19:30 | Hazırlık Kulüpler | Legnago Salus - Mantova | scheduled | -
 - 2026-08-06 19:30 | Hazırlık Kulüpler | Zaragoza - Fc Andorra | scheduled | -
@@ -52,11 +53,14 @@ Yarin: 15
 - 2026-08-06 21:00 | Hazırlık Kulüpler | Monaco - Getafe | scheduled | -
 - 2026-08-06 21:00 | Hazırlık Kulüpler | Malaga - Al Arabi | scheduled | -
 - 2026-08-06 21:00 | Hazırlık Kulüpler | Fiorentina - D.La Coruna | scheduled | -
+- 2026-08-06 21:00 | Hazırlık Kulüpler | Lanzarote - Arenas De Getxo | scheduled | -
 - 2026-08-06 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Lugano - Runavik | scheduled | -
 - 2026-08-06 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Valur - Nordsjaelland | scheduled | -
 - 2026-08-06 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Braga - Dinamo Minsk | scheduled | -
 - 2026-08-06 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Borac Banja Lu - Ml Vitebsk | scheduled | -
 - 2026-08-06 21:30 | Hazırlık Kulüpler | Lorca Deportiv - Cd Aguilas | scheduled | -
+- 2026-08-06 21:30 | Hazırlık Kulüpler | Dos Hermanas - Antoniano | scheduled | -
+- 2026-08-06 21:30 | Hazırlık Kulüpler | Cavese - Juve Stabia | scheduled | -
 - 2026-08-06 21:45 | UEFA Konferans Ligi 3. Eleme Turu | Rijeka - Ilves | scheduled | -
 - 2026-08-06 21:45 | UEFA Konferans Ligi 3. Eleme Turu | Bohemian - Midtjylland | scheduled | -
 - 2026-08-06 21:45 | İngiltere Lig Kupası 1.Tur | Bristol City - Walsall | scheduled | -
@@ -89,4 +93,37 @@ Yarin: 15
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-06 01:00 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Estudiantes Lp | finished | -
+- 2026-08-06 01:00 | Brezilya Kupa Son 16 Turu | Cruzeiro (0) - (0) Chapecoense | finished | -
+- 2026-08-06 01:00 | Şili Kupa Grup D | Union San Feli - Univ. De Şili | finished | -
+- 2026-08-06 01:00 | Şili Kupa Grup D | Sant. Wanderer - Union La Calera | finished | -
+- 2026-08-06 01:00 | Bolivya Premier Lig | Nacional Potos - The Strongest | finished | -
+- 2026-08-06 01:00 | Arjantin Ulusal Primera Lig | Quilmes - Gimnasia Jujuy | finished | -
+- 2026-08-06 01:30 | Brezilya Kupa Son 16 Turu | Gremio (1) - (1) Mirassol | finished | -
+- 2026-08-06 01:30 | CONCACAF U20 Çeyrek Final | Kanada (U20) - Jamaika U20 | finished | -
+- 2026-08-06 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Metropolitanos | finished | -
+- 2026-08-06 02:00 | Arjantin Ulusal Primera Lig | Quilmes - Gimnasia Jujuy | finished | -
+- 2026-08-06 02:00 | Uruguay Premier Lig Intermediate Final | Penarol - Montevideo Wand | finished | -
+- 2026-08-06 02:00 | ABD USL Lig 1 | Richmond Kicke - New York Cosmos | finished | -
+- 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Atletico San Lu | finished | -
+- 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Orlando City | finished | -
+- 2026-08-06 02:30 | ABD USL Lig 1 | Naples - Alta | finished | -
+- 2026-08-06 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Depor. Olimpia | finished | -
+- 2026-08-06 03:00 | Kolombiya Kupa 2.Tur | Santa Fe - Union Magdalena | finished | -
+- 2026-08-06 03:00 | Ekvador Kupa Son 16 Turu | Ldu Portoviejo - Barcelona Gua | finished | -
+- 2026-08-06 03:00 | Bolivya Premier Lig | Bolivar - Oriente Petrole | finished | -
+- 2026-08-06 03:15 | Arjantin Premier Lig 2. Aşama | Tigre - Belgrano | finished | -
+- 2026-08-06 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Dallas - Queretaro | finished | -
+- 2026-08-06 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc - Club Leon | finished | -
+- 2026-08-06 03:30 | Brezilya Kupa Son 16 Turu | Fluminense (0) - (0) Vasco Da Gama | finished | -
+- 2026-08-06 03:30 | Brezilya Kupa Son 16 Turu | Fortaleza Ce (0) - (3) Palmeiras | finished | -
+- 2026-08-06 03:30 | Şili Kupa Grup A | Coquimbo Unido - San Marcos Aric | finished | -
+- 2026-08-06 03:30 | Şili Kupa Grup A | Iquique - Deportes Limach | finished | -
+- 2026-08-06 03:30 | ABD USL | Tulsa Roughnec - Sacramento Repu | finished | -
+- 2026-08-06 04:00 | ABD USL | El Paso Locomo - Monterey Bay | finished | -
+- 2026-08-06 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Seattle | finished | -
+- 2026-08-06 05:00 | CONCACAF U20 Çeyrek Final | Meksika (U20) - Panama (U20) | finished | -
+- 2026-08-06 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Herediano | finished | -
+- 2026-08-06 05:00 | CONCACAF Orta Amerika Kupası Grup C | Deportivo Sapr - Alianza Fc | finished | -
+- 2026-08-06 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Guadalajara | finished | -
+- 2026-08-06 05:30 | ABD USL | Las Vegas Ligh - Oakland Roots | finished | -
