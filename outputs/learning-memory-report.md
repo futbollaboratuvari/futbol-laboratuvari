@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.08.2026 10:31:22
+Oluşturma: 06.08.2026 12:07:43
 
 ## Özet
 
-- Toplam tahmin: 103
-- Bekleyen tahmin: 103
+- Toplam tahmin: 104
+- Bekleyen tahmin: 104
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 23
@@ -20,12 +20,13 @@ Oluşturma: 06.08.2026 10:31:22
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
+- MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion - Universitatea C | MS X | pending | 50/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Rijeka - Ilves | MS X | pending | 85/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Turku - Vaduz | MS 2 | pending | 50/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Beitar Jerusal - Austria Vienna | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 06.08.2026 10:31:22
 - 2026-08-06 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Seattle | MS 2 | pending | 40/100
 - 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion - Universitatea C | MS 1 | pending | 50/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Turku - Vaduz | MS X | pending | 50/100
-- 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Maccabi Tel Av - Cska Sofia | MS 2 | pending | 40/100
 

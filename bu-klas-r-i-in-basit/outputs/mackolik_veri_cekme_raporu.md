@@ -1,20 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-06T06:18:40.874676+00:00
+Tarih: 2026-08-06T09:06:36.081039+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 45
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 45
-- Ham veri havuzu toplam mac sayisi: 4875
+- Kac mac bulundu: 71
+- Kac mac kaydedildi: 12
+- Kac mac zaten vardi: 59
+- Ham veri havuzu toplam mac sayisi: 4887
 - Hedef tarih: 06.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
+- Belarus 1.Lig
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup D
+- Hazırlık Kulüpler
+- Meksika Ascenso MX Apertura
+- Norveç 3.Lig Grup 5
 - Peru Premier Lig Clausura
 - UEFA Avrupa Ligi 3. Eleme Turu
 - UEFA Konferans Ligi 3. Eleme Turu
@@ -78,8 +86,8 @@ Tarih: 2026-08-06T06:18:40.874676+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 15
-- Acilan detay: 15
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,19 +100,16 @@ Tarih: 2026-08-06T06:18:40.874676+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 06.08.2026 | 20:45 | UEFA Avrupa Ligi 3. Eleme Turu | Paok | Anderlecht | 09378 | 5 |
+| 06.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Benfica | Hearts | 10599 | 4 |
 | 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Salzburg | Pafos Fc | 09156 | 5 |
 | 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Lech Poznan | Kí Klaksvík | 08723 | 4 |
 | 06.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Maccabi Tel Av | Cska Sofia | 08214 | 5 |
-| 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Lincoln Red Im | Omonia | 08791 | 5 |
 | 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Hradec Kralove | Beşiktaş | 08571 | 5 |
-| 06.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Thun | Vikingur Reykja | 09727 | 5 |
-| 06.08.2026 | 20:45 | UEFA Avrupa Ligi 3. Eleme Turu | Paok | Anderlecht | 09378 | 5 |
-| 06.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Benfica | Hearts | 10599 | 4 |
 | 06.08.2026 | 18:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion | Universitatea C | 07989 | 5 |
+| 06.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Thun | Vikingur Reykja | 09727 | 5 |
 | 06.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Jagiellonia | Glasgow Rangers | 08168 | 5 |
-| 06.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Partizan Belgr | Tobol Kostanay | 10712 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Zalgiris Vilni | Hajduk Split | 09287 | 5 |
-| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Paide Linnamee | Rapid Wien | 08256 | 4 |
+| 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Lincoln Red Im | Omonia | 08791 | 5 |
 | 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Göteborg | Gent | 08640 | 5 |
 | 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Riga Fc | Gyor | 09112 | 5 |
 | 06.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Lugano | Runavik | 10120 | 4 |
@@ -112,6 +117,9 @@ Tarih: 2026-08-06T06:18:40.874676+00:00
 | 06.08.2026 | 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Hapoel Tel Avi | Gks Katowice | 09532 | 5 |
 | 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dynamo Kiev | Qarabagh | 08537 | 5 |
 | 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Jablonec | Daugava Riga | 08132 | 5 |
+| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Inter Escaldes | Flora Tallinn | 08681 | 5 |
+| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Noah | Sion | 08056 | 5 |
+| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Rakow Czestoch | Hammarby | 09004 | 5 |
 
 ## Sonuc
 
