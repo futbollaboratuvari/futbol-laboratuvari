@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.08.2026 15:24:51
+Oluşturma: 06.08.2026 16:18:51
 
 ## Özet
 
-- Toplam tahmin: 116
-- Bekleyen tahmin: 116
+- Toplam tahmin: 117
+- Bekleyen tahmin: 117
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 23
@@ -20,12 +20,13 @@ Oluşturma: 06.08.2026 15:24:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 64, bekleyen 64, başarı bekleniyor, ağırlık 1
+- MS X: toplam 65, bekleyen 65, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Escaldes - Flora Tallinn | MS X | pending | 40/100
 - 2026-08-06 | Hazırlık Kulüpler | Dos Hermanas - Antoniano | MS X | pending | 40/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Hibernian - Skendija | MS 2 | pending | 75/100
 - 2026-08-06 | Belarus 1.Lig | Slonim - Fc Minsk Ii | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 06.08.2026 15:24:51
 - 2026-08-06 | Belarus 1.Lig | Bate Ii - Bumprom | MS 1 | pending | 40/100
 - 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion - Universitatea C | MS X | pending | 50/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Rijeka - Ilves | MS X | pending | 85/100
-- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Turku - Vaduz | MS 2 | pending | 50/100
 

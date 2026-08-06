@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 77
-- Live match count: 0
+- Scheduled match count: 76
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-06 / 2026-08-07 23:59
 
-- 2026-08-06 16:00 | Police (1) - (1) Nec | scheduled
+- 2026-08-06 16:00 | Police (1) - (1) Nec | live
 - 2026-08-06 17:30 | Bate Ii - Bumprom | scheduled
 - 2026-08-06 18:00 | Molodechno - Volna Pinsk | scheduled
 - 2026-08-06 18:00 | Orsha - Gomel Ii | scheduled

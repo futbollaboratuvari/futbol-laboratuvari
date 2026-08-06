@@ -1,22 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-06T11:44:30.949097+00:00
+Tarih: 2026-08-06T13:17:32.261928+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 61
+- Kac mac bulundu: 75
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 61
+- Kac mac zaten vardi: 75
 - Ham veri havuzu toplam mac sayisi: 4892
 - Hedef tarih: 06.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
 - Belarus 1.Lig
 - Bolivya Premier Lig
+- Brezilya Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup D
 - Hazırlık Kulüpler
+- Meksika Ascenso MX Apertura
 - Norveç 3.Lig Grup 5
 - Peru Premier Lig Clausura
 - UEFA Avrupa Ligi 3. Eleme Turu
