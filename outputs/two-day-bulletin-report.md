@@ -2,28 +2,15 @@
 
 Gunler: 2026-08-06 / 2026-08-07
 Kaynak: fixtures.json
-Ham mac: 94
-Aktif mac: 79
-Canli mac: 15
+Ham mac: 88
+Aktif mac: 66
+Canli mac: 22
 Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 64
+Bultenden dusurulen mac: 22
+Bugun: 51
 Yarin: 15
 
 ## Baslamamis Maclar
-- 2026-08-06 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Depor. Olimpia | scheduled | -
-- 2026-08-06 03:00 | Kolombiya Kupa 2.Tur | Santa Fe - Union Magdalena | scheduled | -
-- 2026-08-06 03:00 | Ekvador Kupa Son 16 Turu | Ldu Portoviejo - Barcelona Gua | scheduled | -
-- 2026-08-06 03:00 | Bolivya Premier Lig | Bolivar - Oriente Petrole | scheduled | -
-- 2026-08-06 03:15 | Arjantin Premier Lig 2. Aşama | Tigre - Belgrano | scheduled | -
-- 2026-08-06 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Dallas - Queretaro | scheduled | -
-- 2026-08-06 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc - Club Leon | scheduled | -
-- 2026-08-06 03:30 | Brezilya Kupa Son 16 Turu | Fluminense (0) - (0) Vasco Da Gama | scheduled | -
-- 2026-08-06 03:30 | Brezilya Kupa Son 16 Turu | Fortaleza Ce (0) - (3) Palmeiras | scheduled | -
-- 2026-08-06 03:30 | Şili Kupa Grup A | Coquimbo Unido - San Marcos Aric | scheduled | -
-- 2026-08-06 03:30 | Şili Kupa Grup A | Iquique - Deportes Limach | scheduled | -
-- 2026-08-06 03:30 | ABD USL | Tulsa Roughnec - Sacramento Repu | scheduled | -
-- 2026-08-06 04:00 | ABD USL | El Paso Locomo - Monterey Bay | scheduled | -
 - 2026-08-06 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Seattle | scheduled | -
 - 2026-08-06 05:00 | CONCACAF U20 Çeyrek Final | Meksika (U20) - Panama (U20) | scheduled | -
 - 2026-08-06 05:00 | CONCACAF Orta Amerika Kupası Grup B | Alianza - Herediano | scheduled | -
@@ -92,12 +79,6 @@ Yarin: 15
 - 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | scheduled | -
 
 ## Canli Maclar
-- 2026-08-06 01:00 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Estudiantes Lp | live | -
-- 2026-08-06 01:00 | Brezilya Kupa Son 16 Turu | Cruzeiro (0) - (0) Chapecoense | live | -
-- 2026-08-06 01:00 | Şili Kupa Grup D | Union San Feli - Univ. De Şili | live | -
-- 2026-08-06 01:00 | Şili Kupa Grup D | Sant. Wanderer - Union La Calera | live | -
-- 2026-08-06 01:00 | Bolivya Premier Lig | Nacional Potos - The Strongest | live | -
-- 2026-08-06 01:00 | Arjantin Ulusal Primera Lig | Quilmes - Gimnasia Jujuy | live | -
 - 2026-08-06 01:30 | Brezilya Kupa Son 16 Turu | Gremio (1) - (1) Mirassol | live | -
 - 2026-08-06 01:30 | CONCACAF U20 Çeyrek Final | Kanada (U20) - Jamaika U20 | live | -
 - 2026-08-06 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Metropolitanos | live | -
@@ -107,6 +88,19 @@ Yarin: 15
 - 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Atletico San Lu | live | -
 - 2026-08-06 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Orlando City | live | -
 - 2026-08-06 02:30 | ABD USL Lig 1 | Naples - Alta | live | -
+- 2026-08-06 03:00 | CONCACAF Orta Amerika Kupası Grup C | Umecit - Depor. Olimpia | live | -
+- 2026-08-06 03:00 | Kolombiya Kupa 2.Tur | Santa Fe - Union Magdalena | live | -
+- 2026-08-06 03:00 | Ekvador Kupa Son 16 Turu | Ldu Portoviejo - Barcelona Gua | live | -
+- 2026-08-06 03:00 | Bolivya Premier Lig | Bolivar - Oriente Petrole | live | -
+- 2026-08-06 03:15 | Arjantin Premier Lig 2. Aşama | Tigre - Belgrano | live | -
+- 2026-08-06 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Dallas - Queretaro | live | -
+- 2026-08-06 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc - Club Leon | live | -
+- 2026-08-06 03:30 | Brezilya Kupa Son 16 Turu | Fluminense (0) - (0) Vasco Da Gama | live | -
+- 2026-08-06 03:30 | Brezilya Kupa Son 16 Turu | Fortaleza Ce (0) - (3) Palmeiras | live | -
+- 2026-08-06 03:30 | Şili Kupa Grup A | Coquimbo Unido - San Marcos Aric | live | -
+- 2026-08-06 03:30 | Şili Kupa Grup A | Iquique - Deportes Limach | live | -
+- 2026-08-06 03:30 | ABD USL | Tulsa Roughnec - Sacramento Repu | live | -
+- 2026-08-06 04:00 | ABD USL | El Paso Locomo - Monterey Bay | live | -
 
 ## Biten Maclar
 Biten mac yok.

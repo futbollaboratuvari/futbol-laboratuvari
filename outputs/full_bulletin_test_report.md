@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 79
-- Live match count: 15
-- Finished removed count: 0
+- Scheduled match count: 66
+- Live match count: 16
+- Finished removed count: 12
 - Date window: 2026-08-06 / 2026-08-07 23:59
 
-- 2026-08-06 01:00 | Boca Juniors - Estudiantes Lp | live
-- 2026-08-06 01:00 | Quilmes - Gimnasia Jujuy | live
-- 2026-08-06 01:00 | Nacional Potos - The Strongest | live
-- 2026-08-06 01:00 | Cruzeiro (0) - (0) Chapecoense | live
-- 2026-08-06 01:00 | Sant. Wanderer - Union La Calera | live
-- 2026-08-06 01:00 | Union San Feli - Univ. De Şili | live
-- 2026-08-06 01:30 | Gremio (1) - (1) Mirassol | live
-- 2026-08-06 01:30 | Kanada (U20) - Jamaika U20 | live
-- 2026-08-06 01:30 | Deportivo La G - Metropolitanos | live
-- 2026-08-06 02:00 | Richmond Kicke - New York Cosmos | live
+- 2026-08-06 02:30 | Naples - Alta | live
+- 2026-08-06 02:30 | Inter Miami - Atletico San Lu | live
+- 2026-08-06 02:30 | Monterrey - Orlando City | live
+- 2026-08-06 03:00 | Bolivar - Oriente Petrole | live
+- 2026-08-06 03:00 | Umecit - Depor. Olimpia | live
+- 2026-08-06 03:00 | Ldu Portoviejo - Barcelona Gua | live
+- 2026-08-06 03:00 | Santa Fe - Union Magdalena | live
+- 2026-08-06 03:15 | Tigre - Belgrano | live
+- 2026-08-06 03:30 | Tulsa Roughnec - Sacramento Repu | live
+- 2026-08-06 03:30 | Fluminense (0) - (0) Vasco Da Gama | live
