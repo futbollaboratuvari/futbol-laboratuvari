@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-06T11:44:06.722Z
+- Güncelleme: 2026-08-06T12:20:39.977Z
 - Ham maç sayısı: 77
 - Yarın bülteni maç sayısı: 15
 - Detay blok sayısı: 221
@@ -18,12 +18,12 @@
 | Inter Turku - Vaduz | UEFA Konferans Ligi 3. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.67 | 8 |
 | Molodechno - Volna Pinsk | Belarus 1.Lig | 18:00 | Veri bekleniyor | - | 2.07 | 6 |
 | Orsha - Gomel Ii | Belarus 1.Lig | 18:00 | Veri bekleniyor | - | 1.82 | 6 |
-| Pavonese - Calvina | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 7.78 | 5 |
+| Pavonese - Calvina | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 7.46 | 5 |
 | Slonim - Fc Minsk Ii | Belarus 1.Lig | 18:30 | Veri bekleniyor | - | 1.93 | 8 |
 | Maccabi Tel Av - Cska Sofia | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.74 | 8 |
 | Jagiellonia - Glasgow Rangers | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.61 | 8 |
 | Paide Linnamee - Rapid Wien | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 12.9 | 5 |
-| Jablonec - Daugava Riga | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.5 | 7 |
+| Jablonec - Daugava Riga | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.48 | 7 |
 | Noah - Sion | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.32 | 8 |
 | Helsinki - Motherwell | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 2.05 | 8 |
 | Entebbe Uppc (0) - (4) Kitara | Uganda Süper 8 Çeyrek Final | 19:00 | Veri bekleniyor | - | 3.99 | 7 |
@@ -40,7 +40,7 @@
 | Riga Fc - Gyor | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.8 | 8 |
 | Dynamo Kiev - Qarabagh | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.88 | 8 |
 | Inter Escaldes - Flora Tallinn | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.87 | 8 |
-| Rakow Czestoch - Hammarby | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.97 | 8 |
+| Rakow Czestoch - Hammarby | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.03 | 8 |
 | Sheriff Tirasp - St Gallen | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 3.29 | 8 |
 | Debreceni - Kopenhag | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 4.39 | 7 |
 | Floya - Ulfstind | Norveç 3.Lig Grup 5 | 20:00 | Veri bekleniyor | - | 1.12 | 4 |
