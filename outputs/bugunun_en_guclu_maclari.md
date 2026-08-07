@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-07T09:54:26.649Z
+- Güncelleme: 2026-08-07T10:26:40.172Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -14,8 +14,8 @@
 | Intercity VS Villarreal B | Hazırlık Kulüpler | 11:00 | MS 1 | 3.49 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Queensland Lio VS Brisbane Roar I | Avustralya NPL Queensland | 11:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Almeria VS Cordoba | Hazırlık Kulüpler | 11:30 | MS X | 2.83 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Adelaide City VS Playford City P | Avustralya NPL Güney Avustralya | 13:00 | MS 2 | 4.13 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Yokohama Marin VS Kashima | Japonya J1 Lig | 13:25 | MS 1 | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Adelaide City VS Playford City P | Avustralya NPL Güney Avustralya | 13:00 | MS 2 | 4.13 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Yokohama Marin VS Kashima | Japonya J1 Lig | 13:25 | MS 1 | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Gamba Osaka VS Urawa | Japonya J1 Lig | 13:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | West Torrens VS West Adelaide | Avustralya NPL Güney Avustralya | 13:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Adelaide Comet VS Salisbury Inter | Avustralya NPL Güney Avustralya Kadınlar | 13:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
