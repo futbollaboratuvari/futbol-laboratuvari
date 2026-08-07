@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T12:12:30.284372+00:00
+Tarih: 2026-08-07T12:31:57.346504+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 151
+- Kac mac bulundu: 119
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 151
+- Kac mac zaten vardi: 119
 - Ham veri havuzu toplam mac sayisi: 5065
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
@@ -19,25 +19,14 @@ Tarih: 2026-08-07T12:12:30.284372+00:00
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus Premier Lig
 - Belçika Pro Lig
-- Bolivya Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF U20 Yarı Final
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
@@ -46,18 +35,13 @@ Tarih: 2026-08-07T12:12:30.284372+00:00
 - Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Macaristan NB I
-- Meksika Ascenso MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 4
 - Norveç Eliteserien
@@ -71,7 +55,6 @@ Tarih: 2026-08-07T12:12:30.284372+00:00
 - Türkiye TFF 1. Lig
 - UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final
 - Uganda Süper 8 Çeyrek Final
-- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - İngiltere Lig Kupası 1.Tur
@@ -85,7 +68,6 @@ Tarih: 2026-08-07T12:12:30.284372+00:00
 - İsveç Superettan
 - İsviçre Challenge Lig
 - İzlanda 1.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
