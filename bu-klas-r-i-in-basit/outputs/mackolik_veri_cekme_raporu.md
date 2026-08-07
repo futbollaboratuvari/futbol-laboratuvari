@@ -1,29 +1,73 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-06T13:23:58.793576+00:00
+Tarih: 2026-08-07T00:11:30.262011+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 60
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 60
-- Ham veri havuzu toplam mac sayisi: 4892
-- Hedef tarih: 06.08.2026 Europe/Istanbul
+- Kac mac bulundu: 118
+- Kac mac kaydedildi: 118
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 5010
+- Hedef tarih: 07.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Belarus 1.Lig
-- Bolivya Premier Lig
-- Hazırlık Kulüpler
-- Norveç 3.Lig Grup 5
+- AFF Şampiyonası Grup A
+- Almanya 2. Bundesliga
+- Almanya 3. Lig
+- Almanya Bölgesel Lig Kuzey
+- Avustralya NPL Güney Avustralya
+- Avustralya NPL Güney Avustralya Kadınlar
+- Avustralya NPL Queensland
+- Avusturya 1.Lig
+- Avusturya Bundesliga
+- Belarus Premier Lig
+- Belçika Pro Lig
+- Bulgaristan 1.Lig
+- Danimarka 2.Lig
+- Danimarka 3.Lig
+- Danimarka Süperlig
+- Estonya Premium Lig
+- Faroe Adaları Master Lig
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Fransa Ligue 3
+- Galler FAW Championship Güney
+- Galler Premier Lig 1.Aşama
+- Güney Kore K Lig 2
+- Gürcistan Erovnuli Liga
+- Hollanda Eerste Divisie
+- Hollanda Eredivisie
+- Japonya J1 Lig
+- Kuzey İrlanda Premiership
+- Litvanya 1.Lig
+- Macaristan NB I
+- Norveç Eliteserien
 - Peru Premier Lig Clausura
-- UEFA Avrupa Ligi 3. Eleme Turu
-- UEFA Konferans Ligi 3. Eleme Turu
+- Polonya 1.Lig
+- Polonya Ekstraklasa
+- Portekiz 3.Lig Grup A
+- Portekiz Premier Lig
+- Romanya 1.Lig
+- Rusya FNL
+- Slovenya 2.SNL
 - Uganda Süper 8 Çeyrek Final
-- Venezuela Premier Lig Clausura
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti Süper Lig
 - İngiltere Lig Kupası 1.Tur
+- İrlanda 1.Lig
+- İrlanda Premier Lig
+- İskoçya Championship
+- İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Vastra Götaland
+- İsveç Superettan
+- İsviçre Challenge Lig
 - İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
@@ -81,8 +125,8 @@ Tarih: 2026-08-06T13:23:58.793576+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 76
+- Acilan detay: 76
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -95,26 +139,26 @@ Tarih: 2026-08-06T13:23:58.793576+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 06.08.2026 | 20:45 | UEFA Avrupa Ligi 3. Eleme Turu | Paok | Anderlecht | 09378 | 5 |
-| 06.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Benfica | Hearts | 10599 | 4 |
-| 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Salzburg | Pafos Fc | 09156 | 5 |
-| 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Lech Poznan | Kí Klaksvík | 08723 | 4 |
-| 06.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Maccabi Tel Av | Cska Sofia | 08214 | 5 |
-| 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Hradec Kralove | Beşiktaş | 08571 | 5 |
-| 06.08.2026 | 18:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion | Universitatea C | 07989 | 5 |
-| 06.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Thun | Vikingur Reykja | 09727 | 5 |
-| 06.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Jagiellonia | Glasgow Rangers | 08168 | 5 |
-| 06.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Lincoln Red Im | Omonia | 08791 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Göteborg | Gent | 08640 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Sheriff Tirasp | St Gallen | 09242 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Rakow Czestoch | Hammarby | 09004 | 5 |
-| 06.08.2026 | 19:30 | UEFA Konferans Ligi 3. Eleme Turu | Cfr Cluj | Tromso | 08289 | 5 |
-| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Noah | Sion | 08056 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Inter Escaldes | Flora Tallinn | 08681 | 5 |
-| 06.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Jablonec | Daugava Riga | 08132 | 5 |
-| 06.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Tre Fiori | Fc Drita | 11057 | 5 |
-| 06.08.2026 | 21:45 | UEFA Konferans Ligi 3. Eleme Turu | Rijeka | Ilves | 10475 | 5 |
-| 06.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Debreceni | Kopenhag | 08501 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eredivisie | Cambuur | Excelsior | 17156 | 5 |
+| 07.08.2026 | 22:15 | Portekiz Premier Lig | Estoril | Famalicao | 20924 | 5 |
+| 07.08.2026 | 21:45 | Belçika Pro Lig | Club Brugge | Kortrijk | 16973 | 5 |
+| 07.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Middlesbrough | Wrexham | 23570 | 5 |
+| 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton | Port Vale | 14252 | 5 |
+| 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wycombe | Stevenage | 23528 | 5 |
+| 07.08.2026 | 21:30 | Almanya 2. Bundesliga | Bochum | Hertha Berlin | 00622 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vvv Venlo | Heracles | 17555 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vitesse | Waalwijk | 17715 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Roda | 16981 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Dordrecht | Ajax (B) | 16860 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Oss | Breda | 17375 | 5 |
+| 07.08.2026 | 20:30 | Avusturya Bundesliga | Altach | Wattens | 33026 | 5 |
+| 07.08.2026 | 20:00 | Danimarka Süperlig | Sonderjyske | Viborg | 19818 | 5 |
+| 07.08.2026 | 21:30 | Polonya Ekstraklasa | Wisla Krakow | Wisla Plock | 30860 | 5 |
+| 07.08.2026 | 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Gnistan | 18956 | 5 |
+| 07.08.2026 | 21:45 | İrlanda Premier Lig | Galway United | Drogheda | 22634 | 5 |
+| 07.08.2026 | 21:45 | İrlanda Premier Lig | Derry City | Sligo Rovers | 22580 | 5 |
+| 07.08.2026 | 22:00 | İrlanda Premier Lig | Shamrock Rover | Dundalk | 22721 | 5 |
+| 07.08.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Brno | Slovan Liberec | 16958 | 5 |
 
 ## Sonuc
 

@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-05T03:52:21.207Z",
-  "updated_at": "2026-08-06T15:30:35.502Z",
+  "updated_at": "2026-08-07T00:12:21.384Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 117,
-    "pending_predictions": 117,
+    "total_predictions": 129,
+    "pending_predictions": 129,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 23,
+    "league_count": 25,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 117,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 12,
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 65,
-      "pending": 65,
+      "total": 70,
+      "pending": 70,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -31,8 +27,8 @@
       "confidence_adjustment": 0
     },
     "MS 2": {
-      "total": 41,
-      "pending": 41,
+      "total": 48,
+      "pending": 48,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +48,66 @@
     }
   },
   "league_memory": {
+    "Meksika Ascenso MX Apertura": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "CONCACAF Ligler Kupası Grup Aşaması": {
+      "total": 11,
+      "pending": 11,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "CONCACAF Orta Amerika Kupası Grup D": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Venezuela Premier Lig Clausura": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Kupa Son 16 Turu": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Bolivya Premier Lig": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Konferans Ligi 3. Eleme Turu": {
       "total": 23,
       "pending": 23,
@@ -92,49 +148,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Bolivya Premier Lig": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Venezuela Premier Lig Clausura": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Peru Premier Lig Clausura": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "CONCACAF Ligler Kupası Grup Aşaması": {
-      "total": 6,
-      "pending": 6,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Kupa Son 16 Turu": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -284,6 +300,86 @@
     }
   },
   "league_market_memory": {
+    "Meksika Ascenso MX Apertura :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "CONCACAF Ligler Kupası Grup Aşaması :: MS 2": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "CONCACAF Orta Amerika Kupası Grup D :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Meksika Ascenso MX Apertura :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Venezuela Premier Lig Clausura :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Kupa Son 16 Turu :: MS 2": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Bolivya Premier Lig :: MS X": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "CONCACAF Ligler Kupası Grup Aşaması :: MS X": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Konferans Ligi 3. Eleme Turu :: MS X": {
       "total": 15,
       "pending": 15,
@@ -374,16 +470,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Bolivya Premier Lig :: MS X": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Venezuela Premier Lig Clausura :: MS X": {
       "total": 2,
       "pending": 2,
@@ -404,16 +490,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "CONCACAF Ligler Kupası Grup Aşaması :: MS 2": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "UEFA Avrupa Ligi 3. Eleme Turu :: MS 1": {
       "total": 2,
       "pending": 2,
@@ -425,16 +501,6 @@
       "confidence_adjustment": 0
     },
     "UEFA Konferans Ligi 3. Eleme Turu :: MS 1": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Kupa Son 16 Turu :: MS 2": {
       "total": 2,
       "pending": 2,
       "won": 0,
@@ -484,16 +550,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "CONCACAF Ligler Kupası Grup Aşaması :: MS X": {
-      "total": 3,
-      "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Şili Kupa Grup D :: MS 1": {
       "total": 1,
       "pending": 1,
@@ -505,16 +561,6 @@
       "confidence_adjustment": 0
     },
     "CONCACAF U20 Çeyrek Final :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Venezuela Premier Lig Clausura :: MS 2": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -666,6 +712,210 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-08-07|meksika ascenso mx apertura|dorados zacatecas|ms x|04 00",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.383Z",
+      "match_name": "Dorados - Zacatecas",
+      "league": "Meksika Ascenso MX Apertura",
+      "start_time": "04:00",
+      "market": "MS X",
+      "odds": "2.95",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|concacaf ligler kupasi grup asamasi|portland puebla|ms 2|05 30",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.383Z",
+      "match_name": "Portland - Puebla",
+      "league": "CONCACAF Ligler Kupası Grup Aşaması",
+      "start_time": "05:30",
+      "market": "MS 2",
+      "odds": "4.06",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|concacaf orta amerika kupasi grup d|depor motagua deportivo fas|ms 2|06 00",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.383Z",
+      "match_name": "Depor Motagua - Deportivo Fas",
+      "league": "CONCACAF Orta Amerika Kupası Grup D",
+      "start_time": "06:00",
+      "market": "MS 2",
+      "odds": "3.34",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|meksika ascenso mx apertura|tlaxcala alebrijes|ms 2|01 00",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Tlaxcala - Alebrijes",
+      "league": "Meksika Ascenso MX Apertura",
+      "start_time": "01:00",
+      "market": "MS 2",
+      "odds": "4.76",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|venezuela premier lig clausura|academia puert caracas fc|ms 2|01 30",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Academia Puert - Caracas Fc",
+      "league": "Venezuela Premier Lig Clausura",
+      "start_time": "01:30",
+      "market": "MS 2",
+      "odds": "4.28",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|brezilya kupa son 16 turu|corinthians 0 2 internacional|ms 2|02 00",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Corinthians (0) - (2) Internacional",
+      "league": "Brezilya Kupa Son 16 Turu",
+      "start_time": "02:00",
+      "market": "MS 2",
+      "odds": "3.74",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|concacaf ligler kupasi grup asamasi|new york city santos laguna|ms 2|02 30",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "New York City - Santos Laguna",
+      "league": "CONCACAF Ligler Kupası Grup Aşaması",
+      "start_time": "02:30",
+      "market": "MS 2",
+      "odds": "4.52",
+      "confidence_score": "70%",
+      "analysis_score": 70,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|bolivya premier lig|blooming always ready|ms x|02 30",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Blooming - Always Ready",
+      "league": "Bolivya Premier Lig",
+      "start_time": "02:30",
+      "market": "MS X",
+      "odds": "3.06",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|concacaf ligler kupasi grup asamasi|cruz azul philadelphia|ms x|03 00",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Cruz Azul - Philadelphia",
+      "league": "CONCACAF Ligler Kupası Grup Aşaması",
+      "start_time": "03:00",
+      "market": "MS X",
+      "odds": "3.17",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|concacaf ligler kupasi grup asamasi|chicago necaxa|ms 2|03 30",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Chicago - Necaxa",
+      "league": "CONCACAF Ligler Kupası Grup Aşaması",
+      "start_time": "03:30",
+      "market": "MS 2",
+      "odds": "4.33",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|concacaf ligler kupasi grup asamasi|austin club tijuana|ms x|04 00",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Austin - Club Tijuana",
+      "league": "CONCACAF Ligler Kupası Grup Aşaması",
+      "start_time": "04:00",
+      "market": "MS X",
+      "odds": "3.02",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-07|meksika ascenso mx apertura|leones negros correcaminos ua|ms x|04 00",
+      "date": "2026-08-07",
+      "created_at": "2026-08-07T00:12:21.382Z",
+      "match_name": "Leones Negros - Correcaminos Ua",
+      "league": "Meksika Ascenso MX Apertura",
+      "start_time": "04:00",
+      "market": "MS X",
+      "odds": "3.16",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-08-06|uefa konferans ligi 3 eleme turu|inter escaldes flora tallinn|ms x|20 00",
       "date": "2026-08-06",

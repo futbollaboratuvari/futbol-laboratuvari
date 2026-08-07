@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 06.08.2026 18:30:33
+Oluşturma: 07.08.2026 03:12:21
 
 ## Özet
 
-- Toplam tahmin: 117
-- Bekleyen tahmin: 117
+- Toplam tahmin: 129
+- Bekleyen tahmin: 129
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 23
+- Lig sayısı: 25
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 06.08.2026 18:30:33
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 65, bekleyen 65, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
+- MS X: toplam 70, bekleyen 70, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-07 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | MS X | pending | 50/100
+- 2026-08-07 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | MS 2 | pending | 60/100
+- 2026-08-07 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | MS 2 | pending | 50/100
+- 2026-08-07 | Meksika Ascenso MX Apertura | Tlaxcala - Alebrijes | MS 2 | pending | 60/100
+- 2026-08-07 | Venezuela Premier Lig Clausura | Academia Puert - Caracas Fc | MS 2 | pending | 40/100
+- 2026-08-07 | Brezilya Kupa Son 16 Turu | Corinthians (0) - (2) Internacional | MS 2 | pending | 40/100
+- 2026-08-07 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Santos Laguna | MS 2 | pending | 70/100
+- 2026-08-07 | Bolivya Premier Lig | Blooming - Always Ready | MS X | pending | 50/100
+- 2026-08-07 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Philadelphia | MS X | pending | 60/100
+- 2026-08-07 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | MS 2 | pending | 60/100
+- 2026-08-07 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | MS X | pending | 50/100
+- 2026-08-07 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | MS X | pending | 50/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Inter Escaldes - Flora Tallinn | MS X | pending | 40/100
 - 2026-08-06 | Hazırlık Kulüpler | Dos Hermanas - Antoniano | MS X | pending | 40/100
 - 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Hibernian - Skendija | MS 2 | pending | 75/100
-- 2026-08-06 | Belarus 1.Lig | Slonim - Fc Minsk Ii | MS X | pending | 50/100
-- 2026-08-06 | Hazırlık Kulüpler | Pergolettese - Club Milano | MS 2 | pending | 75/100
-- 2026-08-06 | Hazırlık Kulüpler | Real Jaen - Cordoba | MS 1 | pending | 40/100
-- 2026-08-06 | Hazırlık Kulüpler | Real Jaen - Cordoba | MS X | pending | 40/100
-- 2026-08-06 | Hazırlık Kulüpler | Monaco - Getafe | MS 2 | pending | 50/100
-- 2026-08-06 | Hazırlık Kulüpler | Malaga - Al Arabi | MS X | pending | 70/100
-- 2026-08-06 | Hazırlık Kulüpler | Fiorentina - D.La Coruna | MS 2 | pending | 40/100
-- 2026-08-06 | Hazırlık Kulüpler | Lorca Deportiv - Cd Aguilas | MS 1 | pending | 40/100
-- 2026-08-06 | Hazırlık Kulüpler | Zaragoza - Fc Andorra | MS X | pending | 40/100
-- 2026-08-06 | Belarus 1.Lig | Bate Ii - Bumprom | MS 1 | pending | 40/100
-- 2026-08-06 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion - Universitatea C | MS X | pending | 50/100
-- 2026-08-06 | UEFA Konferans Ligi 3. Eleme Turu | Rijeka - Ilves | MS X | pending | 85/100
 
