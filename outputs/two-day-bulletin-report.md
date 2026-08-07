@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
-Ham mac: 163
-Aktif mac: 157
-Canli mac: 6
+Ham mac: 153
+Aktif mac: 150
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 125
+Bultenden dusurulen mac: 3
+Bugun: 118
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-07 04:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Municipal | scheduled | -
-- 2026-08-07 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | scheduled | -
-- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | scheduled | -
-- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | scheduled | -
-- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | scheduled | -
-- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | scheduled | -
-- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | scheduled | -
 - 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | scheduled | -
 - 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | scheduled | -
 - 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | scheduled | -
@@ -170,12 +163,9 @@ Yarin: 32
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-08-07 01:30 | Venezuela Premier Lig Clausura | Academia Puert - Caracas Fc | live | -
-- 2026-08-07 02:00 | Brezilya Kupa Son 16 Turu | Corinthians (0) - (2) Internacional | live | -
-- 2026-08-07 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Santos Laguna | live | -
-- 2026-08-07 02:30 | Bolivya Premier Lig | Blooming - Always Ready | live | -
-- 2026-08-07 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Philadelphia | live | -
-- 2026-08-07 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | live | -
+- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | live | -
+- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | live | -
+- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | live | -
 
 ## Biten Maclar
 Biten mac yok.
