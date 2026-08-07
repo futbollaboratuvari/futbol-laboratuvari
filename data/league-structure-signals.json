@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T09:41:07.455Z",
+  "generated_at": "2026-08-07T10:31:43.310Z",
   "date": "2026-08-07",
   "country_count": 8,
-  "match_count": 3,
+  "match_count": 5,
   "countries": {
     "japan": {
       "country_name": "Japonya",
@@ -186,6 +186,49 @@
       "league_goal_tendency_score": 50,
       "risk_note": "Lig yapısı tanımlanmadı.",
       "robot_comment": "Lig yapısı henüz tanımlı değil. Veri riski yüksek."
+    },
+    {
+      "match_name": "-",
+      "league": "Avustralya NPL Güney Avustralya",
+      "detected_country": "australia",
+      "country_name": "Avustralya",
+      "main_leagues": [
+        "A-League Men",
+        "NPL"
+      ],
+      "calendar_type": "spring_autumn_or_summer_mix",
+      "style_tags": [
+        "acik_oyun",
+        "fizik",
+        "tempo",
+        "uzak_lig"
+      ],
+      "goal_tendency": "orta_yuksek",
+      "league_goal_tendency_score": 68,
+      "risk_note": "Uzak lig ve saat farkı nedeniyle veri tazeliği kontrol edilmelidir.",
+      "robot_comment": "tempo ve pres kontrol edilmeli | kart/faul ve kadro yorgunluğu takip edilmeli | veri tazeliği ve saat farkı kontrol edilmeli"
+    },
+    {
+      "match_name": "-",
+      "league": "Japonya J1 Lig",
+      "detected_country": "japan",
+      "country_name": "Japonya",
+      "main_leagues": [
+        "J1 League",
+        "J2 League",
+        "J3 League"
+      ],
+      "calendar_type": "spring_autumn",
+      "style_tags": [
+        "tempo",
+        "teknik",
+        "disiplin",
+        "gecis_oyunu"
+      ],
+      "goal_tendency": "orta_yuksek",
+      "league_goal_tendency_score": 68,
+      "risk_note": "Uzak lig ve kadro rotasyonu bilgisi eksikse veri riski artar.",
+      "robot_comment": "tempo ve pres kontrol edilmeli"
     }
   ]
 }
