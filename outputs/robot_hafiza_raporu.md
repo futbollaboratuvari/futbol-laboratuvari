@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-06T09:05:19+03:00
+Güncelleme: 2026-08-07T08:03:00+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 103
+- Toplam tahmin kaydı: 121
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -14,14 +14,13 @@ Güncelleme: 2026-08-06T09:05:19+03:00
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 40 | 0 | 0 | 40 | %0 | 0 |
+| Değerli market yok | 38 | 0 | 0 | 38 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 8 | 0 | 0 | 8 | %0 | 3.16 |
-| MS 2 | 20 | 0 | 0 | 20 | %0 | 4.18 |
-| MS X | 34 | 0 | 0 | 34 | %0 | 3.07 |
+| MS 1 | 3 | 0 | 0 | 3 | %0 | 3.51 |
+| MS 2 | 33 | 0 | 0 | 33 | %0 | 4.01 |
+| MS X | 47 | 0 | 0 | 47 | %0 | 3.12 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -31,50 +30,49 @@ Güncelleme: 2026-08-06T09:05:19+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 32 | 0 | 0 | 32 | %0 | 2.9 |
-| 3.00-4.99 | 26 | 0 | 0 | 26 | %0 | 3.64 |
-| 5.00+ | 4 | 0 | 0 | 4 | %0 | 6.43 |
-| bilinmiyor | 41 | 0 | 0 | 41 | %0 | 0 |
+| 2.00-2.99 | 21 | 0 | 0 | 21 | %0 | 2.89 |
+| 3.00-4.99 | 57 | 0 | 0 | 57 | %0 | 3.54 |
+| 5.00+ | 5 | 0 | 0 | 5 | %0 | 5.41 |
+| bilinmiyor | 38 | 0 | 0 | 38 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| ABD USL | 2 | 0 | 0 | 2 | %0 | 2.99 |
-| Bolivya Premier Lig | 2 | 0 | 0 | 2 | %0 | 3.15 |
-| CONCACAF Ligler Kupası Grup Aşaması | 5 | 0 | 0 | 5 | %0 | 5.22 |
-| CONCACAF Orta Amerika Kupası Grup B | 2 | 0 | 0 | 2 | %0 | 2.85 |
-| CONCACAF Orta Amerika Kupası Grup C | 2 | 0 | 0 | 2 | %0 | 0 |
-| CONCACAF U20 Çeyrek Final | 2 | 0 | 0 | 2 | %0 | 4.49 |
-| Peru Premier Lig Clausura | 2 | 0 | 0 | 2 | %0 | 2.83 |
-| UEFA Avrupa Ligi 3. Eleme Turu | 20 | 0 | 0 | 20 | %0 | 3.61 |
-| UEFA Konferans Ligi 3. Eleme Turu | 54 | 0 | 0 | 54 | %0 | 3.29 |
-| Uganda Süper 8 Çeyrek Final | 4 | 0 | 0 | 4 | %0 | 0 |
-| Venezuela Premier Lig Clausura | 4 | 0 | 0 | 4 | %0 | 2.83 |
-| İngiltere Lig Kupası 1.Tur | 2 | 0 | 0 | 2 | %0 | 0 |
+| AFF Şampiyonası Grup A | 2 | 0 | 0 | 2 | %0 | 0 |
+| Almanya 2. Bundesliga | 1 | 0 | 0 | 1 | %0 | 3.17 |
+| Almanya 3. Lig | 1 | 0 | 0 | 1 | %0 | 3.17 |
+| Almanya Bölgesel Lig Kuzey | 3 | 0 | 0 | 3 | %0 | 0 |
+| Avustralya NPL Güney Avustralya | 1 | 0 | 0 | 1 | %0 | 0 |
+| Avustralya NPL Güney Avustralya Kadınlar | 2 | 0 | 0 | 2 | %0 | 2.9 |
+| Avustralya NPL Queensland | 1 | 0 | 0 | 1 | %0 | 0 |
+| Avusturya 1.Lig | 3 | 0 | 0 | 3 | %0 | 3.72 |
+| Avusturya Bundesliga | 1 | 0 | 0 | 1 | %0 | 3.15 |
+| Belarus Premier Lig | 2 | 0 | 0 | 2 | %0 | 3.13 |
+| Belçika Pro Lig | 1 | 0 | 0 | 1 | %0 | 5.67 |
+| Bulgaristan 1.Lig | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Ajax VS Shelbourne | 2 | 0 | 0 | 2 | %0 | 0 |
-| Alianza Atleti VS Cienciano | 2 | 0 | 0 | 2 | %0 | 2.83 |
-| Alianza VS Herediano | 2 | 0 | 0 | 2 | %0 | 2.85 |
-| Beitar Jerusal VS Austria Vienna | 2 | 0 | 0 | 2 | %0 | 2.85 |
-| Benfica VS Hearts | 2 | 0 | 0 | 2 | %0 | 0 |
-| Bohemian VS Midtjylland | 2 | 0 | 0 | 2 | %0 | 0 |
-| Borac Banja Lu VS Ml Vitebsk | 2 | 0 | 0 | 2 | %0 | 3.76 |
-| Braga VS Dinamo Minsk | 2 | 0 | 0 | 2 | %0 | 0 |
-| Bristol City VS Walsall | 2 | 0 | 0 | 2 | %0 | 0 |
-| Cfr Cluj VS Tromso | 2 | 0 | 0 | 2 | %0 | 2.85 |
-| Debreceni VS Kopenhag | 2 | 0 | 0 | 2 | %0 | 0 |
-| Deportivo Sapr VS Alianza Fc | 2 | 0 | 0 | 2 | %0 | 0 |
+| Aarau VS Stade Nyonnais | 1 | 0 | 0 | 1 | %0 | 5.35 |
+| Adelaide Comet VS Salisbury Inter | 1 | 0 | 0 | 1 | %0 | 0 |
+| Afan Lido VS Llantwit Major | 1 | 0 | 0 | 1 | %0 | 3.17 |
+| Afturelding VS Grindavik | 1 | 0 | 0 | 1 | %0 | 0 |
+| Airbus Uk VS Cardiff Mu | 1 | 0 | 0 | 1 | %0 | 2.92 |
+| Altach VS Wattens | 1 | 0 | 0 | 1 | %0 | 3.15 |
+| Ammanford VS Colwyn Bay | 1 | 0 | 0 | 1 | %0 | 0 |
+| Asan Mugunghwa VS Ansan Greeners | 1 | 0 | 0 | 1 | %0 | 4.43 |
+| Astorp VS Lindome Gif | 1 | 0 | 0 | 1 | %0 | 0 |
+| Athlone VS Longford | 1 | 0 | 0 | 1 | %0 | 2.93 |
+| Aubagne VS Thionville Lusi | 1 | 0 | 0 | 1 | %0 | 3.04 |
+| B93 Kopenhag VS Roskilde | 1 | 0 | 0 | 1 | %0 | 3.95 |
 
 ## Öğrenme Ağırlıkları - Market
 
 | Başlık | Ağırlık | Güven | Sonuçlanan | Öneri |
 |---|---:|---|---:|---|
-| - | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 2.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
