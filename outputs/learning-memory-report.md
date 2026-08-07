@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 07.08.2026 14:36:00
-=======
-Oluşturma: 07.08.2026 14:36:54
->>>>>>> Stashed changes
+Oluşturma: 07.08.2026 14:59:22
 
 ## Özet
 
-- Toplam tahmin: 226
-- Bekleyen tahmin: 226
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 65
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 07.08.2026 14:36:54
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 83, bekleyen 83, başarı bekleniyor, ağırlık 1
-- MS X: toplam 127, bekleyen 127, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-07 | Hazırlık Kulüpler | Huesca - Fc Andorra | MS 1 | pending | 50/100
-- 2026-08-07 | Finlandiya Ykkösliiga | Haka - Jippo Joensuu | MS 2 | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Monza - Padova | MS 2 | pending | 75/100
-- 2026-08-07 | Hazırlık Kulüpler | Hercules - Castellon | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Albacete - Eldense | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Huesca - Fc Andorra | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Ceuta - Malaga | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Leganes - Merida Ad | MS 2 | pending | 60/100
-- 2026-08-07 | Hazırlık Kulüpler | Fulham - Crystal Palace | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Albacete - Eldense | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Aston Villa - B.Münih | MS X | pending | 55/100
-- 2026-08-07 | Slovenya 2.SNL | Krka Novo Mest - Bistrica | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Almeria - Cordoba | MS X | pending | 50/100
-- 2026-08-07 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | MS 2 | pending | 60/100
-- 2026-08-07 | Hazırlık Kulüpler | Intercity - Villarreal B | MS 1 | pending | 50/100
 
