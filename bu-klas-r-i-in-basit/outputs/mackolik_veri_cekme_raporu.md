@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T22:02:07.634861+00:00
+Tarih: 2026-08-07T22:53:13.468684+00:00
 
 ## Ozet
 
@@ -212,17 +212,17 @@ Tarih: 2026-08-07T22:02:07.634861+00:00
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Montpellier | Dijon | 11293 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Sochaux | St Etienne | 13248 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Sochaux | St Etienne | 13248 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Metz | Guingamp | 10885 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Montpellier | Dijon | 11293 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Clermont | Reims | 10439 | 5 |
-| 08.08.2026 | 15:30 | Ukrayna Premier Lig | Livyi Bereh | Kudrivka | 27105 | 5 |
 | 08.08.2026 | 18:00 | Ukrayna Premier Lig | Bukovyna | Obolon-Brovar | 27122 | 5 |
+| 08.08.2026 | 15:30 | Ukrayna Premier Lig | Livyi Bereh | Kudrivka | 27105 | 5 |
 
 ## Sonuc
 
