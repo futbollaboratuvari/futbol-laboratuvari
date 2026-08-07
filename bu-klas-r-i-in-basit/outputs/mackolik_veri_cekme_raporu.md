@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T08:54:06.755765+00:00
+Tarih: 2026-08-07T09:36:34.947834+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 167
+- Kac mac bulundu: 133
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 167
+- Kac mac zaten vardi: 133
 - Ham veri havuzu toplam mac sayisi: 5065
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
@@ -19,28 +19,16 @@ Tarih: 2026-08-07T08:54:06.755765+00:00
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
 - Avustralya NPL Güney Avustralya Kadınlar
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus Premier Lig
 - Belçika Pro Lig
-- Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF U20 Yarı Final
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
@@ -49,20 +37,15 @@ Tarih: 2026-08-07T08:54:06.755765+00:00
 - Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Kore K Lig 2
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Japonya J1 Lig
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Macaristan NB I
-- Meksika Ascenso MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 4
 - Norveç Eliteserien
@@ -76,7 +59,6 @@ Tarih: 2026-08-07T08:54:06.755765+00:00
 - Türkiye TFF 1. Lig
 - UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final
 - Uganda Süper 8 Çeyrek Final
-- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti Süper Lig
@@ -91,7 +73,6 @@ Tarih: 2026-08-07T08:54:06.755765+00:00
 - İsveç Superettan
 - İsviçre Challenge Lig
 - İzlanda 1.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -148,8 +129,8 @@ Tarih: 2026-08-07T08:54:06.755765+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 81
-- Acilan detay: 81
+- Denenen Tumu alani: 80
+- Acilan detay: 80
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
