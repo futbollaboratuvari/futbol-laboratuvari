@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T00:11:30.262011+00:00
+Tarih: 2026-08-07T00:38:21.429195+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 118
-- Kac mac kaydedildi: 118
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 5010
+- Kac mac bulundu: 150
+- Kac mac kaydedildi: 32
+- Kac mac zaten vardi: 118
+- Ham veri havuzu toplam mac sayisi: 5042
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -18,17 +18,28 @@ Tarih: 2026-08-07T00:11:30.262011+00:00
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Kuzey
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
 - Avustralya NPL Güney Avustralya Kadınlar
+- Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
+- Avustralya NPL Tazmanya
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus Premier Lig
 - Belçika Pro Lig
+- Bolivya Premier Lig
+- Brezilya Serie B
 - Bulgaristan 1.Lig
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF U20 Yarı Final
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
@@ -37,14 +48,19 @@ Tarih: 2026-08-07T00:11:30.262011+00:00
 - Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler Premier Lig 1.Aşama
+- Guatemala Ulusal Lig Apertura
 - Güney Kore K Lig 2
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Japonya J1 Lig
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Macaristan NB I
+- Meksika Ascenso MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -55,6 +71,7 @@ Tarih: 2026-08-07T00:11:30.262011+00:00
 - Rusya FNL
 - Slovenya 2.SNL
 - Uganda Süper 8 Çeyrek Final
+- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti Süper Lig
@@ -69,6 +86,7 @@ Tarih: 2026-08-07T00:11:30.262011+00:00
 - İsveç Superettan
 - İsviçre Challenge Lig
 - İzlanda 1.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 

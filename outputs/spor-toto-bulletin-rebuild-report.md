@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-06T13:17:35.260Z
-- Ham fixture sayisi: 4872
-- Bugun/yarin kaynak mac: 111
-- Aktif bulten maci: 76
+- Guncelleme: 2026-08-07T00:38:24.654Z
+- Ham fixture sayisi: 5022
+- Bugun/yarin kaynak mac: 165
+- Aktif bulten maci: 157
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 35
+- Bultenden dusurulen mac: 8
 
-- 1. 2026-08-06 17:30 | Belarus 1.Lig | Bate Ii - Bumprom | scheduled
-- 2. 2026-08-06 18:00 | UEFA Konferans Ligi 3. Eleme Turu | Inter Turku - Vaduz | scheduled
-- 3. 2026-08-06 18:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kuopion - Universitatea C | scheduled
-- 4. 2026-08-06 18:00 | Belarus 1.Lig | Molodechno - Volna Pinsk | scheduled
-- 5. 2026-08-06 18:00 | Belarus 1.Lig | Orsha - Gomel Ii | scheduled
-- 6. 2026-08-06 18:30 | Hazırlık Kulüpler | Pavonese - Calvina | scheduled
-- 7. 2026-08-06 18:30 | Belarus 1.Lig | Slonim - Fc Minsk Ii | scheduled
-- 8. 2026-08-06 19:00 | Uganda Süper 8 Çeyrek Final | Entebbe Uppc (0) - (4) Kitara | scheduled
-- 9. 2026-08-06 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Helsinki - Motherwell | scheduled
-- 10. 2026-08-06 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Jablonec - Daugava Riga | scheduled
-- 11. 2026-08-06 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Jagiellonia - Glasgow Rangers | scheduled
-- 12. 2026-08-06 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Maccabi Tel Av - Cska Sofia | scheduled
-- 13. 2026-08-06 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Noah - Sion | scheduled
-- 14. 2026-08-06 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Paide Linnamee - Rapid Wien | scheduled
-- 15. 2026-08-06 19:00 | Hazırlık Kulüpler | Pergolettese - Club Milano | scheduled
+- 1. 2026-08-07 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | scheduled
+- 2. 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | scheduled
+- 3. 2026-08-07 04:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Municipal | scheduled
+- 4. 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | scheduled
+- 5. 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | scheduled
+- 6. 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | scheduled
+- 7. 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | scheduled
+- 8. 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | scheduled
+- 9. 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | scheduled
+- 10. 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | scheduled
+- 11. 2026-08-07 13:30 | Avustralya NPL Güney Avustralya | West Torrens - West Adelaide | scheduled
+- 12. 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Adelaide Comet - Salisbury Inter | scheduled
+- 13. 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Campbelltown C - Metrostars (K) | scheduled
+- 14. 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | scheduled
+- 15. 2026-08-07 14:00 | Güney Kore K Lig 2 | Gimpo Citizen - Cheongju Fc | scheduled
