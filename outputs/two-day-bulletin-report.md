@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
-Ham mac: 153
-Aktif mac: 150
-Canli mac: 3
-Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 118
+Ham mac: 166
+Aktif mac: 151
+Canli mac: 0
+Biten mac: 15
+Bultenden dusurulen mac: 15
+Bugun: 119
 Yarin: 32
 
 ## Baslamamis Maclar
@@ -91,6 +91,7 @@ Yarin: 32
 - 2026-08-07 21:30 | Avusturya 1.Lig | Blau-Weiss Lin - Wacker Innsbruc | scheduled | -
 - 2026-08-07 21:30 | Galler FAW Championship Güney | Pontypridd Tow - Pontardawe | scheduled | -
 - 2026-08-07 21:30 | Galler FAW Championship Güney | Afan Lido - Llantwit Major | scheduled | -
+- 2026-08-07 21:30 | Türkiye TFF 1. Lig | Boluspor - Manisa Futbol K | scheduled | -
 - 2026-08-07 21:45 | Belçika Pro Lig | Club Brugge - Kortrijk | scheduled | -
 - 2026-08-07 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton - Port Vale | scheduled | -
 - 2026-08-07 21:45 | İngiltere Lig Kupası 1.Tur | Wycombe - Stevenage | scheduled | -
@@ -163,9 +164,21 @@ Yarin: 32
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | live | -
-- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | live | -
-- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
+- 2026-08-07 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Alebrijes | finished | -
+- 2026-08-07 01:30 | Venezuela Premier Lig Clausura | Academia Puert - Caracas Fc | finished | -
+- 2026-08-07 02:00 | Brezilya Kupa Son 16 Turu | Corinthians (0) - (2) Internacional | finished | -
+- 2026-08-07 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Santos Laguna | finished | -
+- 2026-08-07 02:30 | Bolivya Premier Lig | Blooming - Always Ready | finished | -
+- 2026-08-07 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Philadelphia | finished | -
+- 2026-08-07 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | finished | -
+- 2026-08-07 04:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Municipal | finished | -
+- 2026-08-07 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | finished | -
+- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | finished | -
+- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | finished | -
+- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | finished | -
+- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | finished | -
+- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | finished | -

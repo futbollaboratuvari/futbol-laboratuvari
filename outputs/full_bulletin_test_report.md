@@ -2,12 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 150
-- Live match count: 1
-- Finished removed count: 2
+- Scheduled match count: 151
+- Live match count: 0
+- Finished removed count: 0
 - Date window: 2026-08-07 / 2026-08-08 23:59
 
-- 2026-08-07 06:00 | Depor Motagua - Deportivo Fas | live
 - 2026-08-07 11:30 | Queensland Lio - Brisbane Roar I | scheduled
 - 2026-08-07 13:25 | Yokohama Marin - Kashima | scheduled
 - 2026-08-07 13:30 | West Torrens - West Adelaide | scheduled
@@ -17,3 +16,4 @@
 - 2026-08-07 14:00 | Asan Mugunghwa - Ansan Greeners | scheduled
 - 2026-08-07 14:00 | Gimpo Citizen - Cheongju Fc | scheduled
 - 2026-08-07 14:00 | Gyeongnam - Daegu | scheduled
+- 2026-08-07 14:00 | Hwaseong - Seoul E-Land | scheduled
