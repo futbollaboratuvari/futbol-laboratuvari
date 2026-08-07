@@ -1,9 +1,9 @@
 # Sonuc Takip Saglik Kontrolu
 
 Durum: izleme
-Aktif bulten maci: 153
-Arsiv maci: 5022
-Biten mac: 4869
+Aktif bulten maci: 151
+Arsiv maci: 5023
+Biten mac: 4872
 Skorlu arsiv maci: 0
 Tahmin sayisi: 210
 Bekleyen tahmin: 210
