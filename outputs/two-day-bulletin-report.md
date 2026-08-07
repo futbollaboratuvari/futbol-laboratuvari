@@ -3,17 +3,14 @@
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
 Ham mac: 187
-Aktif mac: 154
-Canli mac: 14
-Biten mac: 19
-Bultenden dusurulen mac: 33
-Bugun: 122
+Aktif mac: 151
+Canli mac: 5
+Biten mac: 31
+Bultenden dusurulen mac: 36
+Bugun: 119
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Vietnam - Kamboçya | scheduled | -
-- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Singapur - Endonezya | scheduled | -
-- 2026-08-07 16:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | scheduled | -
 - 2026-08-07 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Servette Cheno - Aktobe (K) | scheduled | -
 - 2026-08-07 17:45 | Belarus Premier Lig | Naftan - Arsenal | scheduled | -
 - 2026-08-07 18:00 | Finlandiya Ykkösliiga | Haka - Jippo Joensuu | scheduled | -
@@ -167,20 +164,11 @@ Yarin: 32
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | live | -
-- 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | live | -
-- 2026-08-07 13:30 | Avustralya NPL Güney Avustralya | West Torrens - West Adelaide | live | -
-- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Adelaide Comet - Salisbury Inter | live | -
-- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Campbelltown C - Metrostars (K) | live | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gyeongnam - Daegu | live | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Suwon Sb - Gimhae City | live | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gimpo Citizen - Cheongju Fc | live | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Yongin - Busan Ipark | live | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Hwaseong - Seoul E-Land | live | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | live | -
-- 2026-08-07 14:00 | Hazırlık Kulüpler | Melbourne City - Palermo | live | -
 - 2026-08-07 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shenzhen Peng | live | -
 - 2026-08-07 15:00 | Hazırlık Kulüpler | Aston Villa - B.Münih | live | -
+- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Vietnam - Kamboçya | live | -
+- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Singapur - Endonezya | live | -
+- 2026-08-07 16:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | live | -
 
 ## Biten Maclar
 - 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
@@ -202,3 +190,15 @@ Yarin: 32
 - 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | finished | -
 - 2026-08-07 11:30 | Hazırlık Kulüpler | Almeria - Cordoba | finished | -
 - 2026-08-07 13:00 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | finished | -
+- 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | finished | -
+- 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | finished | -
+- 2026-08-07 13:30 | Avustralya NPL Güney Avustralya | West Torrens - West Adelaide | finished | -
+- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Adelaide Comet - Salisbury Inter | finished | -
+- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Campbelltown C - Metrostars (K) | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gyeongnam - Daegu | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Suwon Sb - Gimhae City | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gimpo Citizen - Cheongju Fc | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Yongin - Busan Ipark | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Hwaseong - Seoul E-Land | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | finished | -
+- 2026-08-07 14:00 | Hazırlık Kulüpler | Melbourne City - Palermo | finished | -
