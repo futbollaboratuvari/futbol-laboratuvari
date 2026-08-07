@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T15:03:13.516566+00:00
+Tarih: 2026-08-07T15:35:37.296239+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 115
+- Kac mac bulundu: 142
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 115
+- Kac mac zaten vardi: 142
 - Ham veri havuzu toplam mac sayisi: 5065
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
@@ -18,30 +18,44 @@ Tarih: 2026-08-07T15:03:13.516566+00:00
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- Avustralya NPL Tazmanya
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus Premier Lig
 - Belçika Pro Lig
+- Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
+- Brezilya Serie B
 - Bulgaristan 1.Lig
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF U20 Yarı Final
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler Premier Lig 1.Aşama
+- Guatemala Ulusal Lig Apertura
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
-- Macaristan NB I
+- Meksika Ascenso MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 4
 - Norveç Eliteserien
@@ -54,6 +68,7 @@ Tarih: 2026-08-07T15:03:13.516566+00:00
 - Slovenya 2.SNL
 - Türkiye TFF 1. Lig
 - Uganda Süper 8 Çeyrek Final
+- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
 - İngiltere Lig Kupası 1.Tur
@@ -67,6 +82,7 @@ Tarih: 2026-08-07T15:03:13.516566+00:00
 - İsveç Superettan
 - İsviçre Challenge Lig
 - İzlanda 1.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -123,8 +139,8 @@ Tarih: 2026-08-07T15:03:13.516566+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 74
-- Acilan detay: 74
+- Denenen Tumu alani: 72
+- Acilan detay: 72
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -145,11 +161,11 @@ Tarih: 2026-08-07T15:03:13.516566+00:00
 | 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton | Port Vale | 14252 | 5 |
 | 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wycombe | Stevenage | 23528 | 5 |
 | 07.08.2026 | 21:30 | Almanya 2. Bundesliga | Bochum | Hertha Berlin | 00622 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vitesse | Waalwijk | 17715 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Oss | Breda | 17375 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Dordrecht | Ajax (B) | 16860 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vvv Venlo | Heracles | 17555 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Dordrecht | Ajax (B) | 16860 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Oss | Breda | 17375 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Roda | 16981 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vitesse | Waalwijk | 17715 | 5 |
 | 07.08.2026 | 20:30 | Avusturya Bundesliga | Altach | Wattens | 33026 | 5 |
 | 07.08.2026 | 20:00 | Danimarka Süperlig | Sonderjyske | Viborg | 19818 | 5 |
 | 07.08.2026 | 21:30 | Polonya Ekstraklasa | Wisla Krakow | Wisla Plock | 30860 | 5 |

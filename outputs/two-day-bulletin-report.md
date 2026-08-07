@@ -2,20 +2,15 @@
 
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
-Ham mac: 154
-Aktif mac: 146
-Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 114
+Ham mac: 187
+Aktif mac: 141
+Canli mac: 10
+Biten mac: 36
+Bultenden dusurulen mac: 46
+Bugun: 109
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-07 18:30 | Finlandiya Ykkösliiga | Japs - Mikkelin | scheduled | -
-- 2026-08-07 18:30 | Macaristan NB I | Mtk - Puskas Academy | scheduled | -
-- 2026-08-07 18:30 | Slovenya 2.SNL | Beltinci - Rudar | scheduled | -
-- 2026-08-07 18:30 | Finlandiya Ykkönen | Kups Ak. - Inter Turku Ii | scheduled | -
-- 2026-08-07 18:30 | Slovenya 2.SNL | Dren Vrhnika - Triglav Kranj | scheduled | -
 - 2026-08-07 18:45 | Çek Cumhuriyeti FNL | Jihlava - Pribram | scheduled | -
 - 2026-08-07 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Gnistan | scheduled | -
 - 2026-08-07 19:00 | Polonya 1.Lig | Polonia Bytom - Pogon Siedlce | scheduled | -
@@ -159,14 +154,51 @@ Yarin: 32
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Vietnam - Kamboçya | live | -
-- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Singapur - Endonezya | live | -
-- 2026-08-07 16:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | live | -
 - 2026-08-07 17:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Servette Cheno - Aktobe (K) | live | -
 - 2026-08-07 17:45 | Belarus Premier Lig | Naftan - Arsenal | live | -
 - 2026-08-07 18:00 | Finlandiya Ykkösliiga | Haka - Jippo Joensuu | live | -
 - 2026-08-07 18:00 | Çek Cumhuriyeti FNL | Slavia Praha I - Trinec | live | -
 - 2026-08-07 18:00 | Hazırlık Kulüpler | Sudtirol - Virtus Verona | live | -
+- 2026-08-07 18:30 | Finlandiya Ykkösliiga | Japs - Mikkelin | live | -
+- 2026-08-07 18:30 | Macaristan NB I | Mtk - Puskas Academy | live | -
+- 2026-08-07 18:30 | Slovenya 2.SNL | Beltinci - Rudar | live | -
+- 2026-08-07 18:30 | Finlandiya Ykkönen | Kups Ak. - Inter Turku Ii | live | -
+- 2026-08-07 18:30 | Slovenya 2.SNL | Dren Vrhnika - Triglav Kranj | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
+- 2026-08-07 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Alebrijes | finished | -
+- 2026-08-07 01:30 | Venezuela Premier Lig Clausura | Academia Puert - Caracas Fc | finished | -
+- 2026-08-07 02:00 | Brezilya Kupa Son 16 Turu | Corinthians (0) - (2) Internacional | finished | -
+- 2026-08-07 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Santos Laguna | finished | -
+- 2026-08-07 02:30 | Bolivya Premier Lig | Blooming - Always Ready | finished | -
+- 2026-08-07 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Philadelphia | finished | -
+- 2026-08-07 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | finished | -
+- 2026-08-07 04:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Municipal | finished | -
+- 2026-08-07 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | finished | -
+- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | finished | -
+- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | finished | -
+- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | finished | -
+- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | finished | -
+- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | finished | -
+- 2026-08-07 11:00 | Hazırlık Kulüpler | Intercity - Villarreal B | finished | -
+- 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | finished | -
+- 2026-08-07 11:30 | Hazırlık Kulüpler | Almeria - Cordoba | finished | -
+- 2026-08-07 13:00 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | finished | -
+- 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | finished | -
+- 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | finished | -
+- 2026-08-07 13:30 | Avustralya NPL Güney Avustralya | West Torrens - West Adelaide | finished | -
+- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Adelaide Comet - Salisbury Inter | finished | -
+- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Campbelltown C - Metrostars (K) | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gyeongnam - Daegu | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Suwon Sb - Gimhae City | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gimpo Citizen - Cheongju Fc | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Yongin - Busan Ipark | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Hwaseong - Seoul E-Land | finished | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | finished | -
+- 2026-08-07 14:00 | Hazırlık Kulüpler | Melbourne City - Palermo | finished | -
+- 2026-08-07 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shenzhen Peng | finished | -
+- 2026-08-07 15:00 | Hazırlık Kulüpler | Aston Villa - B.Münih | finished | -
+- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Vietnam - Kamboçya | finished | -
+- 2026-08-07 16:00 | AFF Şampiyonası Grup A | Singapur - Endonezya | finished | -
+- 2026-08-07 16:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | finished | -
