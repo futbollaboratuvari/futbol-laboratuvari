@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
-Ham mac: 165
+Ham mac: 163
 Aktif mac: 157
 Canli mac: 6
-Biten mac: 2
-Bultenden dusurulen mac: 8
+Biten mac: 0
+Bultenden dusurulen mac: 6
 Bugun: 125
 Yarin: 32
 
@@ -178,5 +178,4 @@ Yarin: 32
 - 2026-08-07 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | live | -
 
 ## Biten Maclar
-- 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
-- 2026-08-07 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Alebrijes | finished | -
+Biten mac yok.
