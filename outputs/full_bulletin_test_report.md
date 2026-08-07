@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 71
-- Live match count: 56
+- Scheduled match count: 33
+- Live match count: 69
 - Finished removed count: 0
 - Date window: 2026-08-07 / 2026-08-08 23:59
 
-- 2026-08-07 19:30 | Hannover 96 (A - Hsc Hannover | live
-- 2026-08-07 19:30 | Vfb Oldenburg - Drochtersen / A | live
-- 2026-08-07 19:30 | Liefering - Wspg Wels | live
-- 2026-08-07 19:30 | St Polten - Avusturya Wien | live
-- 2026-08-07 19:30 | Middelfart - Brabrand | live
-- 2026-08-07 19:30 | Huesca - Fc Andorra | live
-- 2026-08-07 19:30 | Österlen - Sölvesborgs Goi | live
-- 2026-08-07 19:45 | Slavia Mozyr - Dnepr Mogilev | live
-- 2026-08-07 20:00 | Waldhof Mannhe - Fortuna Düsseld | live
-- 2026-08-07 20:00 | Kickers Emden - Hamburger Sv (A | live
+- 2026-08-07 20:30 | Gutersloh - Bochum Ii | live
+- 2026-08-07 20:30 | Altach - Wattens | live
+- 2026-08-07 20:30 | Vestur Sorvagu - Streymur | live
+- 2026-08-07 20:30 | Hercules - Castellon | live
+- 2026-08-07 20:30 | Rappe - Ifk Berga | live
+- 2026-08-07 20:30 | Astorp - Lindome Gif | live
+- 2026-08-07 20:30 | Sc Kriens - Yverdon | live
+- 2026-08-07 20:30 | Stade Ouchy - Rappersvil Jona | live
+- 2026-08-07 20:30 | Winterthur - Wil | live
+- 2026-08-07 20:30 | Fk Union Carl - Konnerud | live
