@@ -2,24 +2,15 @@
 
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
-Ham mac: 187
-Aktif mac: 165
-Canli mac: 4
-Biten mac: 18
-Bultenden dusurulen mac: 22
-Bugun: 133
+Ham mac: 169
+Aktif mac: 156
+Canli mac: 13
+Biten mac: 0
+Bultenden dusurulen mac: 13
+Bugun: 124
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Adelaide Comet - Salisbury Inter | scheduled | -
-- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Campbelltown C - Metrostars (K) | scheduled | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gyeongnam - Daegu | scheduled | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Suwon Sb - Gimhae City | scheduled | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gimpo Citizen - Cheongju Fc | scheduled | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Yongin - Busan Ipark | scheduled | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Hwaseong - Seoul E-Land | scheduled | -
-- 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | scheduled | -
-- 2026-08-07 14:00 | Hazırlık Kulüpler | Melbourne City - Palermo | scheduled | -
 - 2026-08-07 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shenzhen Peng | scheduled | -
 - 2026-08-07 15:00 | Hazırlık Kulüpler | Aston Villa - B.Münih | scheduled | -
 - 2026-08-07 16:00 | AFF Şampiyonası Grup A | Vietnam - Kamboçya | scheduled | -
@@ -182,23 +173,15 @@ Yarin: 32
 - 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | live | -
 - 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | live | -
 - 2026-08-07 13:30 | Avustralya NPL Güney Avustralya | West Torrens - West Adelaide | live | -
+- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Adelaide Comet - Salisbury Inter | live | -
+- 2026-08-07 13:45 | Avustralya NPL Güney Avustralya Kadınlar | Campbelltown C - Metrostars (K) | live | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gyeongnam - Daegu | live | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Suwon Sb - Gimhae City | live | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Gimpo Citizen - Cheongju Fc | live | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Yongin - Busan Ipark | live | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Hwaseong - Seoul E-Land | live | -
+- 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | live | -
+- 2026-08-07 14:00 | Hazırlık Kulüpler | Melbourne City - Palermo | live | -
 
 ## Biten Maclar
-- 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
-- 2026-08-07 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Alebrijes | finished | -
-- 2026-08-07 01:30 | Venezuela Premier Lig Clausura | Academia Puert - Caracas Fc | finished | -
-- 2026-08-07 02:00 | Brezilya Kupa Son 16 Turu | Corinthians (0) - (2) Internacional | finished | -
-- 2026-08-07 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Santos Laguna | finished | -
-- 2026-08-07 02:30 | Bolivya Premier Lig | Blooming - Always Ready | finished | -
-- 2026-08-07 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Philadelphia | finished | -
-- 2026-08-07 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | finished | -
-- 2026-08-07 04:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Municipal | finished | -
-- 2026-08-07 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | finished | -
-- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | finished | -
-- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | finished | -
-- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | finished | -
-- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | finished | -
-- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | finished | -
-- 2026-08-07 11:00 | Hazırlık Kulüpler | Intercity - Villarreal B | finished | -
-- 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | finished | -
-- 2026-08-07 11:30 | Hazırlık Kulüpler | Almeria - Cordoba | finished | -
+Biten mac yok.

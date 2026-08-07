@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 140
-Tam analiz: 129
-Eksik analiz: 11
+Toplam analiz: 137
+Tam analiz: 127
+Eksik analiz: 10
 
-- Queensland Lio VS Brisbane Roar I: eksik score, confidence
 - West Torrens VS West Adelaide: eksik score, confidence
 - Adelaide Comet VS Salisbury Inter: eksik score, confidence
 - Servette Cheno VS Aktobe (K): eksik score, confidence
