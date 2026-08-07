@@ -4,15 +4,14 @@ Gunler: 2026-08-07 / 2026-08-08
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 187
-Aktif mac: 155
-Canli mac: 14
+Aktif mac: 154
+Canli mac: 15
 Biten mac: 18
-Bultenden dusurulen mac: 32
-Bugun: 123
+Bultenden dusurulen mac: 33
+Bugun: 122
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-07 15:00 | Hazırlık Kulüpler | Aston Villa - B.Münih | scheduled | -
 - 2026-08-07 16:00 | AFF Şampiyonası Grup A | Vietnam - Kamboçya | scheduled | -
 - 2026-08-07 16:00 | AFF Şampiyonası Grup A | Singapur - Endonezya | scheduled | -
 - 2026-08-07 16:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | scheduled | -
@@ -169,6 +168,7 @@ Yarin: 32
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
+- 2026-08-07 15:00 | Hazırlık Kulüpler | Aston Villa - B.Münih | live | -
 - 2026-08-07 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shenzhen Peng | live | -
 - 2026-08-07 13:00 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | live | -
 - 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | live | -
