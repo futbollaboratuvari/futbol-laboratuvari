@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-07T00:59:23.676Z
+- Güncelleme: 2026-08-07T03:17:55.020Z
 - Ham maç sayısı: 163
 - Yarın bülteni maç sayısı: 32
 - Detay blok sayısı: 454
-- Aktif bülten maçı: 157
-- Bültenden düşürülen maç: 6
+- Aktif bülten maçı: 150
+- Bültenden düşürülen maç: 13
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hankook Verdes - Municipal | CONCACAF Orta Amerika Kupası Grup D | 04:00 | Veri bekleniyor | - | 8.43 | 4 |
-| Austin - Club Tijuana | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | Veri bekleniyor | - | 2.06 | 8 |
-| Leones Negros - Correcaminos Ua | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 1.72 | 8 |
-| Dorados - Zacatecas | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 2.89 | 8 |
-| Club America - San Diego | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | Veri bekleniyor | - | 1.25 | 6 |
-| Portland - Puebla | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | Veri bekleniyor | - | 1.4 | 7 |
-| Depor Motagua - Deportivo Fas | CONCACAF Orta Amerika Kupası Grup D | 06:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Queensland Lio - Brisbane Roar I | Avustralya NPL Queensland | 11:30 | Veri bekleniyor | - | 1.06 | 4 |
 | Yokohama Marin - Kashima | Japonya J1 Lig | 13:25 | Veri bekleniyor | - | 3.39 | 8 |
 | Gamba Osaka - Urawa | Japonya J1 Lig | 13:30 | Veri bekleniyor | - | 2.15 | 8 |
