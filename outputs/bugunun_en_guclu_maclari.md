@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-07T18:30:25.935Z
+- Güncelleme: 2026-08-07T18:38:16.640Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -59,13 +59,13 @@
 | Levski Sofya VS Lokomotiv Plovd | Bulgaristan 1.Lig | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Etoile Carouge VS Neuchatel Xamax | İsviçre Challenge Lig | 21:15 | MS X | 3.18 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Aarau VS Stade Nyonnais | İsviçre Challenge Lig | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Bochum VS Hertha Berlin | Almanya 2. Bundesliga | 21:30 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Wisla Krakow VS Wisla Plock | Polonya Ekstraklasa | 21:30 | MS 2 | 3.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Polonia Varşov VS Ruch Chorzow | Polonya 1.Lig | 21:30 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Partick Thistl VS Livingston | İskoçya Championship | 21:30 | MS X | 2.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Blau-Weiss Lin VS Wacker Innsbruc | Avusturya 1.Lig | 21:30 | MS 2 | 4.51 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Pontypridd Tow VS Pontardawe | Galler FAW Championship Güney | 21:30 | MS X | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Afan Lido VS Llantwit Major | Galler FAW Championship Güney | 21:30 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bochum VS Hertha Berlin | Almanya 2. Bundesliga | 21:30 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Wisla Krakow VS Wisla Plock | Polonya Ekstraklasa | 21:30 | MS 2 | 3.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Polonia Varşov VS Ruch Chorzow | Polonya 1.Lig | 21:30 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Partick Thistl VS Livingston | İskoçya Championship | 21:30 | MS X | 2.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Blau-Weiss Lin VS Wacker Innsbruc | Avusturya 1.Lig | 21:30 | MS 2 | 4.51 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Pontypridd Tow VS Pontardawe | Galler FAW Championship Güney | 21:30 | MS X | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Afan Lido VS Llantwit Major | Galler FAW Championship Güney | 21:30 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Boluspor VS Manisa Futbol K | Türkiye TFF 1. Lig | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Club Brugge VS Kortrijk | Belçika Pro Lig | 21:45 | Değerli market yok | - | 30 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Wolverhampton VS Port Vale | İngiltere Lig Kupası 1.Tur | 21:45 | MS X | 5.40 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
