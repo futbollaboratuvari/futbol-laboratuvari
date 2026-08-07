@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.08.2026 10:43:52
+Oluşturma: 07.08.2026 11:02:03
 
 ## Özet
 
-- Toplam tahmin: 210
-- Bekleyen tahmin: 210
+- Toplam tahmin: 211
+- Bekleyen tahmin: 211
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 64
@@ -20,12 +20,13 @@ Oluşturma: 07.08.2026 10:43:52
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 117, bekleyen 117, başarı bekleniyor, ağırlık 1
+- MS X: toplam 118, bekleyen 118, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 79, bekleyen 79, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-07 | İrlanda Premier Lig | Galway United - Drogheda | MS X | pending | 50/100
 - 2026-08-07 | İrlanda 1.Lig | Cobh Ramblers - Treaty Unt. | MS X | pending | 50/100
 - 2026-08-07 | Fransa Ligue 3 | La Roche-Sur-Y - Versailles | MS X | pending | 50/100
 - 2026-08-07 | Fransa Ligue 3 | Bourg-Peronnas - Fc Villefranche | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 07.08.2026 10:43:52
 - 2026-08-07 | İrlanda Premier Lig | Shamrock Rover - Dundalk | MS 2 | pending | 60/100
 - 2026-08-07 | Portekiz 3.Lig Grup A | Paredes - Guimaraes (B) | MS 2 | pending | 50/100
 - 2026-08-07 | Portekiz Premier Lig | Estoril - Famalicao | MS X | pending | 50/100
-- 2026-08-07 | Peru Premier Lig Clausura | Comerciantes U - Cusco Fc | MS X | pending | 40/100
 
