@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 556
-Aktif mac: 549
-Canli mac: 5
-Biten mac: 2
-Bultenden dusurulen mac: 7
-Bugun: 496
+Ham mac: 554
+Aktif mac: 545
+Canli mac: 9
+Biten mac: 0
+Bultenden dusurulen mac: 9
+Bugun: 492
 Yarin: 53
 
 ## Baslamamis Maclar
-- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Atlas | scheduled | -
-- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pachuca | scheduled | -
-- 2026-08-08 02:30 | Brezilya Serie B | Ceara - Ponte Preta | scheduled | -
-- 2026-08-08 02:30 | Bolivya Premier Lig | Real Tomayapo - Real Oruro | scheduled | -
 - 2026-08-08 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pumas Unam | scheduled | -
 - 2026-08-08 03:00 | Ekvador Pro Lig | Ldu Quito - Indep. Jose Ter | scheduled | -
 - 2026-08-08 03:30 | Şili Premier Lig | Univ. Catolica - Cobresal | scheduled | -
@@ -567,7 +563,10 @@ Yarin: 53
 - 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | live | -
 - 2026-08-08 02:00 | Arjantin Ulusal Primera Lig | Midland - Maipu | live | -
 - 2026-08-08 02:00 | Kanada Premier Lig | Forge - Vancouver Fc | live | -
+- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Atlas | live | -
+- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pachuca | live | -
+- 2026-08-08 02:30 | Brezilya Serie B | Ceara - Ponte Preta | live | -
+- 2026-08-08 02:30 | Bolivya Premier Lig | Real Tomayapo - Real Oruro | live | -
 
 ## Biten Maclar
-- 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | finished | -
-- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | finished | -
+Biten mac yok.
