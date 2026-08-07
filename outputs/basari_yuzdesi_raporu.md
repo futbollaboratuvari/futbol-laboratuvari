@@ -1,5 +1,5 @@
 # Başarı Yüzdesi Raporu
 
-- Güncelleme: 2026-08-07T11:14:40.271Z
+- Güncelleme: 2026-08-07T11:33:56.193Z
 - Sonuçlanan analiz sayısı: 0
 - Durum: Sonuç verisi geldiğinde kazandı/kaybetti ayrımı otomatik gösterilecek.
