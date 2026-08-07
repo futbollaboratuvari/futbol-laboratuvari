@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-07T03:24:13.981Z
+- Güncelleme: 2026-08-07T03:40:44.894Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -45,7 +45,7 @@
 | Vlasim VS Viktoria Zizkov | Çek Cumhuriyeti FNL | 19:00 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Opava VS Kladno | Çek Cumhuriyeti FNL | 19:00 | MS 2 | 4.55 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Dukla Prag VS Hanacka Slavia | Çek Cumhuriyeti FNL | 19:00 | MS 2 | 4.80 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Usti Nad Labem VS Arsenal Ceska L | Çek Cumhuriyeti FNL | 19:00 | MS 2 | 4.18 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Usti Nad Labem VS Arsenal Ceska L | Çek Cumhuriyeti FNL | 19:00 | MS 2 | 3.98 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Kuressaare VS Harju Jalgpalli | Estonya Premium Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Hegelmann Ii VS Garliava | Litvanya 1.Lig | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Lietava Jonava VS Ekranas | Litvanya 1.Lig | 19:00 | MS 2 | 3.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -125,7 +125,7 @@
 | Llanelli Town VS Trethomas Blueb | Galler FAW Championship Güney | 21:45 | MS X | 3.30 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Caerau Ely VS Ynyshir Albions | Galler FAW Championship Güney | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Caerphilly Ath VS Cardiff Draconi | Galler FAW Championship Güney | 21:45 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Middlesbrough VS Wrexham | İngiltere Lig Kupası 1.Tur | 22:00 | MS 2 | 4.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Middlesbrough VS Wrexham | İngiltere Lig Kupası 1.Tur | 22:00 | MS 2 | 4.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Shamrock Rover VS Dundalk | İrlanda Premier Lig | 22:00 | MS 2 | 4.12 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Paredes VS Guimaraes (B) | Portekiz 3.Lig Grup A | 22:00 | MS 2 | 3.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Estoril VS Famalicao | Portekiz Premier Lig | 22:15 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -133,37 +133,37 @@
 | Afturelding VS Grindavik | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Comerciantes U VS Cusco Fc | Peru Premier Lig Clausura | 23:15 | MS X | 2.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kosta Rika (U2 VS Abd (U20) | CONCACAF U20 Yarı Final | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Academia Del B VS Guabira | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cerro Largo VS Juventud Dl Pie | Uruguay Premier Lig Clausura | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Rosario Centra VS Aldosivi | Arjantin Premier Lig 2. Aşama | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Operario VS Sao Bernardo | Brezilya Serie B | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Midland VS Maipu | Arjantin Ulusal Primera Lig | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Forge VS Vancouver Fc | Kanada Premier Lig | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Charlotte VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Columbus VS Pachuca | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Ceara VS Ponte Preta | Brezilya Serie B | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Real Tomayapo VS Real Oruro | Bolivya Premier Lig | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cincinnati VS Pumas Unam | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Ldu Quito VS Indep. Jose Ter | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Academia Del B VS Guabira | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Cerro Largo VS Juventud Dl Pie | Uruguay Premier Lig Clausura | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Rosario Centra VS Aldosivi | Arjantin Premier Lig 2. Aşama | 01:30 | MS 2 | 7.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Operario VS Sao Bernardo | Brezilya Serie B | 01:30 | MS 2 | 3.42 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Midland VS Maipu | Arjantin Ulusal Primera Lig | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Forge VS Vancouver Fc | Kanada Premier Lig | 02:00 | MS 2 | 4.29 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Charlotte VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 3.13 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Columbus VS Pachuca | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Ceara VS Ponte Preta | Brezilya Serie B | 02:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Real Tomayapo VS Real Oruro | Bolivya Premier Lig | 02:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Cincinnati VS Pumas Unam | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS X | 3.24 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Ldu Quito VS Indep. Jose Ter | Ekvador Pro Lig | 03:00 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Univ. Catolica VS Cobresal | Şili Premier Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Rivadavia VS Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Tigres Uanl VS Minnesota Utd | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Durango VS Piratas | Meksika Ascenso MX Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Tepatitlan De VS Ca La Paz | Meksika Ascenso MX Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Real Esteli VS Walter Ferretti | Nikaragua Premier Lig Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Isidro Metapan VS Aguila | El Salvador Primera Lig Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Universitario VS Sporting Crista | Peru Premier Lig Clausura | 04:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cs Cartagines VS Sporting San Jo | Kosta Rika Premier Lig Apertura | 05:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Malacateco VS Xelaju | Guatemala Ulusal Lig Apertura | 05:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Rivadavia VS Rio Cuarto | Arjantin Premier Lig 2. Aşama | 03:45 | MS 2 | 6.40 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Tigres Uanl VS Minnesota Utd | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Durango VS Piratas | Meksika Ascenso MX Apertura | 04:00 | MS X | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Tepatitlan De VS Ca La Paz | Meksika Ascenso MX Apertura | 04:00 | MS X | 3.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Real Esteli VS Walter Ferretti | Nikaragua Premier Lig Apertura | 04:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Isidro Metapan VS Aguila | El Salvador Primera Lig Apertura | 04:00 | MS X | 2.65 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Universitario VS Sporting Crista | Peru Premier Lig Clausura | 04:30 | MS 2 | 3.82 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cs Cartagines VS Sporting San Jo | Kosta Rika Premier Lig Apertura | 05:00 | MS 2 | 3.51 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Malacateco VS Xelaju | Guatemala Ulusal Lig Apertura | 05:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Kanada (U20) VS Meksika (U20) | CONCACAF U20 Yarı Final | 05:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Vancouver VS Fc Juarez | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| South Hobart VS Riverside Olymp | Avustralya NPL Tazmanya | 07:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Newcastle Olym VS Valentine Phoen | Avustralya NPL Kuzey YGG | 07:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Vancouver VS Fc Juarez | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| South Hobart VS Riverside Olymp | Avustralya NPL Tazmanya | 07:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Newcastle Olym VS Valentine Phoen | Avustralya NPL Kuzey YGG | 07:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Canberra Olymp VS Cooma Tigers | Avustralya NPL Başkent Bölgesi | 07:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Ulverstone VS South East Unit | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Ulverstone VS South East Unit | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Glenorchy Knig VS Launceston Unit | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Kingborough Li VS Clarence Zebras | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Devonport City VS Launceston City | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Devonport City VS Launceston City | Avustralya NPL Tazmanya | 07:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |

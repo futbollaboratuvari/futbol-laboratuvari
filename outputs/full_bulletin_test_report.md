@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 150
 - Live match count: 3
-- Finished removed count: 5
+- Finished removed count: 0
 - Date window: 2026-08-07 / 2026-08-08 23:59
 
 - 2026-08-07 05:00 | Club America - San Diego | live
