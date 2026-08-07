@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.08.2026 11:02:03
+Oluşturma: 07.08.2026 11:08:02
 
 ## Özet
 
-- Toplam tahmin: 211
-- Bekleyen tahmin: 211
+- Toplam tahmin: 224
+- Bekleyen tahmin: 224
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 64
+- Lig sayısı: 65
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 07.08.2026 11:02:03
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 118, bekleyen 118, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 79, bekleyen 79, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 82, bekleyen 82, başarı bekleniyor, ağırlık 1
+- MS X: toplam 127, bekleyen 127, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-07 | Hazırlık Kulüpler | Monza - Padova | MS 2 | pending | 75/100
+- 2026-08-07 | Hazırlık Kulüpler | Hercules - Castellon | MS X | pending | 50/100
+- 2026-08-07 | Hazırlık Kulüpler | Albacete - Eldense | MS X | pending | 50/100
+- 2026-08-07 | Hazırlık Kulüpler | Huesca - Fc Andorra | MS X | pending | 50/100
+- 2026-08-07 | Hazırlık Kulüpler | Ceuta - Malaga | MS X | pending | 50/100
+- 2026-08-07 | Hazırlık Kulüpler | Leganes - Merida Ad | MS 2 | pending | 60/100
+- 2026-08-07 | Hazırlık Kulüpler | Fulham - Crystal Palace | MS X | pending | 50/100
+- 2026-08-07 | Hazırlık Kulüpler | Albacete - Eldense | MS X | pending | 50/100
+- 2026-08-07 | Hazırlık Kulüpler | Aston Villa - B.Münih | MS X | pending | 55/100
+- 2026-08-07 | Slovenya 2.SNL | Krka Novo Mest - Bistrica | MS X | pending | 50/100
+- 2026-08-07 | Hazırlık Kulüpler | Almeria - Cordoba | MS X | pending | 50/100
+- 2026-08-07 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | MS 2 | pending | 60/100
+- 2026-08-07 | Hazırlık Kulüpler | Intercity - Villarreal B | MS 1 | pending | 50/100
 - 2026-08-07 | İrlanda Premier Lig | Galway United - Drogheda | MS X | pending | 50/100
 - 2026-08-07 | İrlanda 1.Lig | Cobh Ramblers - Treaty Unt. | MS X | pending | 50/100
-- 2026-08-07 | Fransa Ligue 3 | La Roche-Sur-Y - Versailles | MS X | pending | 50/100
-- 2026-08-07 | Fransa Ligue 3 | Bourg-Peronnas - Fc Villefranche | MS 2 | pending | 40/100
-- 2026-08-07 | Fransa Ligue 3 | Aubagne - Thionville Lusi | MS 2 | pending | 50/100
-- 2026-08-07 | Fransa Ligue 3 | Caen - Valenciennes | MS X | pending | 50/100
-- 2026-08-07 | Fransa Ligue 3 | Concarneau - Orleans | MS X | pending | 50/100
-- 2026-08-07 | Fransa Ligue 3 | Bastia - Le Puy | MS 2 | pending | 40/100
-- 2026-08-07 | Fransa Ligue 3 | Fc Fleury 91 - Amiens | MS X | pending | 40/100
-- 2026-08-07 | Fransa Ligue 3 | Rouen - Cannes | MS 2 | pending | 60/100
-- 2026-08-07 | Galler FAW Championship Güney | Llanelli Town - Trethomas Blueb | MS X | pending | 50/100
-- 2026-08-07 | İngiltere Lig Kupası 1.Tur | Middlesbrough - Wrexham | MS 2 | pending | 50/100
-- 2026-08-07 | İrlanda Premier Lig | Shamrock Rover - Dundalk | MS 2 | pending | 60/100
-- 2026-08-07 | Portekiz 3.Lig Grup A | Paredes - Guimaraes (B) | MS 2 | pending | 50/100
-- 2026-08-07 | Portekiz Premier Lig | Estoril - Famalicao | MS X | pending | 50/100
 
