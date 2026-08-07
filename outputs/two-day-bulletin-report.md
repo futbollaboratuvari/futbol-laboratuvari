@@ -2,17 +2,18 @@
 
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
-Ham mac: 175
-Aktif mac: 160
+Ham mac: 167
+Aktif mac: 167
 Canli mac: 0
-Biten mac: 15
-Bultenden dusurulen mac: 15
-Bugun: 128
+Biten mac: 0
+Bultenden dusurulen mac: 0
+Bugun: 135
 Yarin: 32
 
 ## Baslamamis Maclar
 - 2026-08-07 11:00 | Hazırlık Kulüpler | Intercity - Villarreal B | scheduled | -
 - 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | scheduled | -
+- 2026-08-07 11:30 | Hazırlık Kulüpler | Almeria - Cordoba | scheduled | -
 - 2026-08-07 13:00 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | scheduled | -
 - 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | scheduled | -
 - 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | scheduled | -
@@ -38,6 +39,7 @@ Yarin: 32
 - 2026-08-07 18:30 | Macaristan NB I | Mtk - Puskas Academy | scheduled | -
 - 2026-08-07 18:30 | Slovenya 2.SNL | Beltinci - Rudar | scheduled | -
 - 2026-08-07 18:30 | Finlandiya Ykkönen | Kups Ak. - Inter Turku Ii | scheduled | -
+- 2026-08-07 18:30 | Slovenya 2.SNL | Dren Vrhnika - Triglav Kranj | scheduled | -
 - 2026-08-07 18:45 | Çek Cumhuriyeti FNL | Jihlava - Pribram | scheduled | -
 - 2026-08-07 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Gnistan | scheduled | -
 - 2026-08-07 19:00 | Polonya 1.Lig | Polonia Bytom - Pogon Siedlce | scheduled | -
@@ -73,6 +75,8 @@ Yarin: 32
 - 2026-08-07 20:00 | İsveç 2.Lig Norra Götaland | Skara - Vanersborgs Fk | scheduled | -
 - 2026-08-07 20:00 | Hazırlık Kulüpler | Ceuta - Malaga | scheduled | -
 - 2026-08-07 20:00 | Hazırlık Kulüpler | Leganes - Merida Ad | scheduled | -
+- 2026-08-07 20:00 | Hazırlık Kulüpler | Fulham - Crystal Palace | scheduled | -
+- 2026-08-07 20:00 | Norveç 3.Lig Grup 4 | Akra - Varhaug | scheduled | -
 - 2026-08-07 20:30 | Avusturya Bundesliga | Altach - Wattens | scheduled | -
 - 2026-08-07 20:30 | İsviçre Challenge Lig | Stade Ouchy - Rappersvil Jona | scheduled | -
 - 2026-08-07 20:30 | İsviçre Challenge Lig | Sc Kriens - Yverdon | scheduled | -
@@ -81,6 +85,8 @@ Yarin: 32
 - 2026-08-07 20:30 | İsveç 2.Lig Södra Götaland | Rappe - Ifk Berga | scheduled | -
 - 2026-08-07 20:30 | Faroe Adaları Master Lig | Vestur Sorvagu - Streymur | scheduled | -
 - 2026-08-07 20:30 | Hazırlık Kulüpler | Hercules - Castellon | scheduled | -
+- 2026-08-07 20:30 | Almanya Bölgesel Lig Batı | Gutersloh - Bochum Ii | scheduled | -
+- 2026-08-07 20:30 | Norveç 3.Lig Grup 1 | Fk Union Carl - Konnerud | scheduled | -
 - 2026-08-07 21:00 | Hollanda Eredivisie | Cambuur - Excelsior | scheduled | -
 - 2026-08-07 21:00 | Hollanda Eerste Divisie | Vvv Venlo - Heracles | scheduled | -
 - 2026-08-07 21:00 | Hollanda Eerste Divisie | Vitesse - Waalwijk | scheduled | -
@@ -89,6 +95,7 @@ Yarin: 32
 - 2026-08-07 21:00 | Hollanda Eerste Divisie | Oss - Breda | scheduled | -
 - 2026-08-07 21:00 | Romanya 1.Lig | Uta Arad - Rapid Bükreş | scheduled | -
 - 2026-08-07 21:00 | Peru Premier Lig Clausura | Sport Huancayo - Chankas Cyc | scheduled | -
+- 2026-08-07 21:00 | Hazırlık Kulüpler | Albacete - Eldense | scheduled | -
 - 2026-08-07 21:15 | Bulgaristan 1.Lig | Levski Sofya - Lokomotiv Plovd | scheduled | -
 - 2026-08-07 21:15 | İsviçre Challenge Lig | Etoile Carouge - Neuchatel Xamax | scheduled | -
 - 2026-08-07 21:15 | İsviçre Challenge Lig | Aarau - Stade Nyonnais | scheduled | -
@@ -176,18 +183,4 @@ Yarin: 32
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
-- 2026-08-07 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Alebrijes | finished | -
-- 2026-08-07 01:30 | Venezuela Premier Lig Clausura | Academia Puert - Caracas Fc | finished | -
-- 2026-08-07 02:00 | Brezilya Kupa Son 16 Turu | Corinthians (0) - (2) Internacional | finished | -
-- 2026-08-07 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Santos Laguna | finished | -
-- 2026-08-07 02:30 | Bolivya Premier Lig | Blooming - Always Ready | finished | -
-- 2026-08-07 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Philadelphia | finished | -
-- 2026-08-07 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | finished | -
-- 2026-08-07 04:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Municipal | finished | -
-- 2026-08-07 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | finished | -
-- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | finished | -
-- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | finished | -
-- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | finished | -
-- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | finished | -
-- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | finished | -
+Biten mac yok.

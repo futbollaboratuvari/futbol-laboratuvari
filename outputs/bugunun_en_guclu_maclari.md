@@ -2,21 +2,22 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-07T06:50:29.715Z
-- Ham maç sayısı: 160
+- Güncelleme: 2026-08-07T07:43:51.120Z
+- Ham maç sayısı: 167
 - Yarın bülteni maç sayısı: 32
-- Detay blok sayısı: 448
-- Aktif bülten maçı: 160
+- Detay blok sayısı: 466
+- Aktif bülten maçı: 167
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Intercity - Villarreal B | Hazırlık Kulüpler | 11:00 | Veri bekleniyor | - | 3.36 | 8 |
-| Queensland Lio - Brisbane Roar I | Avustralya NPL Queensland | 11:30 | Veri bekleniyor | - | 1.08 | 4 |
+| Intercity - Villarreal B | Hazırlık Kulüpler | 11:00 | Veri bekleniyor | - | 3.49 | 8 |
+| Queensland Lio - Brisbane Roar I | Avustralya NPL Queensland | 11:30 | Veri bekleniyor | - | 1.09 | 4 |
+| Almeria - Cordoba | Hazırlık Kulüpler | 11:30 | Veri bekleniyor | - | 2.14 | 8 |
 | Adelaide City - Playford City P | Avustralya NPL Güney Avustralya | 13:00 | Veri bekleniyor | - | 1.45 | 7 |
-| Yokohama Marin - Kashima | Japonya J1 Lig | 13:25 | Veri bekleniyor | - | 3.28 | 8 |
-| Gamba Osaka - Urawa | Japonya J1 Lig | 13:30 | Veri bekleniyor | - | 2.1 | 8 |
+| Yokohama Marin - Kashima | Japonya J1 Lig | 13:25 | Veri bekleniyor | - | 3.26 | 8 |
+| Gamba Osaka - Urawa | Japonya J1 Lig | 13:30 | Veri bekleniyor | - | 2.05 | 8 |
 | West Torrens - West Adelaide | Avustralya NPL Güney Avustralya | 13:30 | Veri bekleniyor | - | 1.38 | 4 |
 | Adelaide Comet - Salisbury Inter | Avustralya NPL Güney Avustralya Kadınlar | 13:45 | Veri bekleniyor | - | 6.54 | 4 |
 | Campbelltown C - Metrostars (K) | Avustralya NPL Güney Avustralya Kadınlar | 13:45 | Veri bekleniyor | - | 2.3 | 8 |
@@ -25,20 +26,21 @@
 | Gimpo Citizen - Cheongju Fc | Güney Kore K Lig 2 | 14:00 | Veri bekleniyor | - | 1.56 | 7 |
 | Yongin - Busan Ipark | Güney Kore K Lig 2 | 14:00 | Veri bekleniyor | - | 3.31 | 8 |
 | Hwaseong - Seoul E-Land | Güney Kore K Lig 2 | 14:00 | Veri bekleniyor | - | 2.58 | 8 |
-| Asan Mugunghwa - Ansan Greeners | Güney Kore K Lig 2 | 14:00 | Veri bekleniyor | - | 1.41 | 7 |
+| Asan Mugunghwa - Ansan Greeners | Güney Kore K Lig 2 | 14:00 | Veri bekleniyor | - | 1.39 | 7 |
 | Melbourne City - Palermo | Hazırlık Kulüpler | 14:00 | Veri bekleniyor | - | 4.78 | 6 |
-| Beijing Guoan - Shenzhen Peng | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.19 | 6 |
+| Beijing Guoan - Shenzhen Peng | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.2 | 6 |
 | Vietnam - Kamboçya | AFF Şampiyonası Grup A | 16:00 | Veri bekleniyor | - | - | 3 |
 | Singapur - Endonezya | AFF Şampiyonası Grup A | 16:00 | Veri bekleniyor | - | 3.79 | 8 |
 | Maroons (1) - (1) Sc Villa | Uganda Süper 8 Çeyrek Final | 16:00 | Veri bekleniyor | - | 3.23 | 8 |
 | Naftan - Arsenal | Belarus Premier Lig | 17:45 | Veri bekleniyor | - | 2.72 | 8 |
 | Haka - Jippo Joensuu | Finlandiya Ykkösliiga | 18:00 | Veri bekleniyor | - | 1.98 | 8 |
 | Slavia Praha I - Trinec | Çek Cumhuriyeti FNL | 18:00 | Veri bekleniyor | - | 1.42 | 7 |
-| Sudtirol - Virtus Verona | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.1 | 6 |
+| Sudtirol - Virtus Verona | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.1 | 5 |
 | Japs - Mikkelin | Finlandiya Ykkösliiga | 18:30 | Veri bekleniyor | - | 1.95 | 8 |
 | Mtk - Puskas Academy | Macaristan NB I | 18:30 | Veri bekleniyor | - | 2.33 | 8 |
 | Beltinci - Rudar | Slovenya 2.SNL | 18:30 | Veri bekleniyor | - | 1.38 | 7 |
 | Kups Ak. - Inter Turku Ii | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 1.86 | 8 |
+| Dren Vrhnika - Triglav Kranj | Slovenya 2.SNL | 18:30 | Veri bekleniyor | - | 4.18 | 7 |
 | Jihlava - Pribram | Çek Cumhuriyeti FNL | 18:45 | Veri bekleniyor | - | 1.77 | 8 |
 | Seinajoen Jk - Gnistan | Finlandiya Veikkausliiga | 19:00 | Veri bekleniyor | - | 1.83 | 8 |
 | Polonia Bytom - Pogon Siedlce | Polonya 1.Lig | 19:00 | Veri bekleniyor | - | 1.48 | 7 |
@@ -56,7 +58,7 @@
 | Liefering - Wspg Wels | Avusturya 1.Lig | 19:30 | Veri bekleniyor | - | 1.72 | 8 |
 | Vfb Oldenburg - Drochtersen / A | Almanya Bölgesel Lig Kuzey | 19:30 | Veri bekleniyor | - | 1.95 | 6 |
 | Hannover 96 (A - Hsc Hannover | Almanya Bölgesel Lig Kuzey | 19:30 | Veri bekleniyor | - | 1.28 | 4 |
-| Middelfart - Brabrand | Danimarka 2.Lig | 19:30 | Veri bekleniyor | - | 1.36 | 7 |
+| Middelfart - Brabrand | Danimarka 2.Lig | 19:30 | Veri bekleniyor | - | 1.32 | 6 |
 | Österlen - Sölvesborgs Goi | İsveç 2.Lig Södra Götaland | 19:30 | Veri bekleniyor | - | 1.56 | 6 |
 | Huesca - Fc Andorra | Hazırlık Kulüpler | 19:30 | Veri bekleniyor | - | 2.35 | 8 |
 | Slavia Mozyr - Dnepr Mogilev | Belarus Premier Lig | 19:45 | Veri bekleniyor | - | 1.7 | 8 |
@@ -71,17 +73,21 @@
 | Frem - Horsholm-Ussero | Danimarka 3.Lig | 20:00 | Veri bekleniyor | - | 1.47 | 7 |
 | Kungsangen - Lidingö | İsveç 2.Lig Norra Svealand | 20:00 | Veri bekleniyor | - | 1.76 | 8 |
 | Galtabacks - Qviding | İsveç 2.Lig Vastra Götaland | 20:00 | Veri bekleniyor | - | 2.55 | 6 |
-| Skara - Vanersborgs Fk | İsveç 2.Lig Norra Götaland | 20:00 | Veri bekleniyor | - | 1.31 | 4 |
+| Skara - Vanersborgs Fk | İsveç 2.Lig Norra Götaland | 20:00 | Veri bekleniyor | - | 1.36 | 4 |
 | Ceuta - Malaga | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3.16 | 8 |
 | Leganes - Merida Ad | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.51 | 7 |
+| Fulham - Crystal Palace | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.14 | 8 |
+| Akra - Varhaug | Norveç 3.Lig Grup 4 | 20:00 | Veri bekleniyor | - | 3.11 | 6 |
 | Altach - Wattens | Avusturya Bundesliga | 20:30 | Veri bekleniyor | - | 1.88 | 8 |
 | Stade Ouchy - Rappersvil Jona | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 1.27 | 6 |
-| Sc Kriens - Yverdon | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 2.96 | 8 |
+| Sc Kriens - Yverdon | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 2.79 | 8 |
 | Winterthur - Wil | İsviçre Challenge Lig | 20:30 | Veri bekleniyor | - | 1.7 | 8 |
 | Astorp - Lindome Gif | İsveç 2.Lig Vastra Götaland | 20:30 | Veri bekleniyor | - | 1.72 | 6 |
 | Rappe - Ifk Berga | İsveç 2.Lig Södra Götaland | 20:30 | Veri bekleniyor | - | 2.84 | 8 |
-| Vestur Sorvagu - Streymur | Faroe Adaları Master Lig | 20:30 | Veri bekleniyor | - | 2.6 | 8 |
+| Vestur Sorvagu - Streymur | Faroe Adaları Master Lig | 20:30 | Veri bekleniyor | - | 2.36 | 8 |
 | Hercules - Castellon | Hazırlık Kulüpler | 20:30 | Veri bekleniyor | - | 2.61 | 8 |
+| Gutersloh - Bochum Ii | Almanya Bölgesel Lig Batı | 20:30 | Veri bekleniyor | - | 1.49 | 6 |
+| Fk Union Carl - Konnerud | Norveç 3.Lig Grup 1 | 20:30 | Veri bekleniyor | - | 1.24 | 4 |
 | Cambuur - Excelsior | Hollanda Eredivisie | 21:00 | Veri bekleniyor | - | 2.19 | 8 |
 | Vvv Venlo - Heracles | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 2.47 | 8 |
 | Vitesse - Waalwijk | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 2.06 | 8 |
@@ -90,6 +96,7 @@
 | Oss - Breda | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 3.82 | 7 |
 | Uta Arad - Rapid Bükreş | Romanya 1.Lig | 21:00 | Veri bekleniyor | - | 2.33 | 8 |
 | Sport Huancayo - Chankas Cyc | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.44 | 7 |
+| Albacete - Eldense | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.96 | 8 |
 | Levski Sofya - Lokomotiv Plovd | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.16 | 6 |
 | Etoile Carouge - Neuchatel Xamax | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 2.19 | 8 |
 | Aarau - Stade Nyonnais | İsviçre Challenge Lig | 21:15 | Veri bekleniyor | - | 1.25 | 6 |
@@ -104,15 +111,15 @@
 | Club Brugge - Kortrijk | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 1.09 | 6 |
 | Wolverhampton - Port Vale | İngiltere Lig Kupası 1.Tur | 21:45 | Veri bekleniyor | - | 1.08 | 6 |
 | Wycombe - Stevenage | İngiltere Lig Kupası 1.Tur | 21:45 | Veri bekleniyor | - | 1.92 | 8 |
-| Galway United - Drogheda | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 1.75 | 8 |
+| Galway United - Drogheda | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 1.81 | 8 |
 | Derry City - Sligo Rovers | İrlanda Premier Lig | 21:45 | Veri bekleniyor | - | 1.24 | 6 |
 | Cambrian - Briton Ferry | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 2.44 | 8 |
 | Caernarfon - Penybont | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.67 | 8 |
-| Airbus Uk - Cardiff Mu | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 2.56 | 8 |
+| Airbus Uk - Cardiff Mu | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 2.63 | 8 |
 | Trefelin - Llandudno | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 2.58 | 8 |
 | Ammanford - Colwyn Bay | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 8.19 | 6 |
 | Flint Town - Barry Town | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 2.47 | 8 |
-| Holywell Town - Gap Connahs Qua | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 6 | 6 |
+| Holywell Town - Gap Connahs Qua | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 6.46 | 6 |
 | The New Saints - Haverfordwest | Galler Premier Lig 1.Aşama | 21:45 | Veri bekleniyor | - | 1.12 | 6 |
 | Cliftonville - Crusaders | Kuzey İrlanda Premiership | 21:45 | Veri bekleniyor | - | 1.33 | 6 |
 | Cork City - Kerry | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.23 | 6 |
@@ -122,7 +129,7 @@
 | Cobh Ramblers - Treaty Unt. | İrlanda 1.Lig | 21:45 | Veri bekleniyor | - | 1.96 | 8 |
 | La Roche-Sur-Y - Versailles | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 2.19 | 8 |
 | Bourg-Peronnas - Fc Villefranche | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.86 | 8 |
-| Paris 13 Atlet - Quevilly-Rouen | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 2.82 | 8 |
+| Paris 13 Atlet - Quevilly-Rouen | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 2.8 | 8 |
 | Aubagne - Thionville Lusi | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.79 | 8 |
 | Caen - Valenciennes | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.87 | 8 |
 | Concarneau - Orleans | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 2.28 | 8 |
