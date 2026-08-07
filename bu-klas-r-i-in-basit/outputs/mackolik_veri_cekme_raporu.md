@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T15:35:37.296239+00:00
+Tarih: 2026-08-07T16:33:51.816158+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 142
+- Kac mac bulundu: 124
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 142
+- Kac mac zaten vardi: 124
 - Ham veri havuzu toplam mac sayisi: 5065
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
@@ -38,22 +38,17 @@ Tarih: 2026-08-07T15:35:37.296239+00:00
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
-- Estonya Premium Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga
-- Finlandiya Ykkösliiga
 - Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler Premier Lig 1.Aşama
 - Guatemala Ulusal Lig Apertura
-- Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Kanada Premier Lig
 - Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
-- Litvanya 1.Lig
 - Meksika Ascenso MX Apertura
 - Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
@@ -65,12 +60,9 @@ Tarih: 2026-08-07T15:35:37.296239+00:00
 - Portekiz 3.Lig Grup A
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Slovenya 2.SNL
 - Türkiye TFF 1. Lig
-- Uganda Süper 8 Çeyrek Final
 - Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
-- Çek Cumhuriyeti FNL
 - İngiltere Lig Kupası 1.Tur
 - İrlanda 1.Lig
 - İrlanda Premier Lig
@@ -139,8 +131,8 @@ Tarih: 2026-08-07T15:35:37.296239+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 72
-- Acilan detay: 72
+- Denenen Tumu alani: 64
+- Acilan detay: 64
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -157,22 +149,22 @@ Tarih: 2026-08-07T15:35:37.296239+00:00
 | 07.08.2026 | 21:00 | Hollanda Eredivisie | Cambuur | Excelsior | 17156 | 5 |
 | 07.08.2026 | 22:15 | Portekiz Premier Lig | Estoril | Famalicao | 20924 | 5 |
 | 07.08.2026 | 21:45 | Belçika Pro Lig | Club Brugge | Kortrijk | 16973 | 5 |
-| 07.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Middlesbrough | Wrexham | 23570 | 5 |
 | 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton | Port Vale | 14252 | 5 |
+| 07.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Middlesbrough | Wrexham | 23570 | 5 |
 | 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wycombe | Stevenage | 23528 | 5 |
 | 07.08.2026 | 21:30 | Almanya 2. Bundesliga | Bochum | Hertha Berlin | 00622 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vvv Venlo | Heracles | 17555 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vitesse | Waalwijk | 17715 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Roda | 16981 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Dordrecht | Ajax (B) | 16860 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Oss | Breda | 17375 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Roda | 16981 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vitesse | Waalwijk | 17715 | 5 |
 | 07.08.2026 | 20:30 | Avusturya Bundesliga | Altach | Wattens | 33026 | 5 |
 | 07.08.2026 | 20:00 | Danimarka Süperlig | Sonderjyske | Viborg | 19818 | 5 |
 | 07.08.2026 | 21:30 | Polonya Ekstraklasa | Wisla Krakow | Wisla Plock | 30860 | 5 |
-| 07.08.2026 | 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk | Gnistan | 18956 | 5 |
-| 07.08.2026 | 22:00 | İrlanda Premier Lig | Shamrock Rover | Dundalk | 22721 | 5 |
 | 07.08.2026 | 21:45 | İrlanda Premier Lig | Derry City | Sligo Rovers | 22580 | 5 |
+| 07.08.2026 | 22:00 | İrlanda Premier Lig | Shamrock Rover | Dundalk | 22721 | 5 |
 | 07.08.2026 | 21:45 | İrlanda Premier Lig | Galway United | Drogheda | 22634 | 5 |
+| 07.08.2026 | 20:00 | Çek Cumhuriyeti Czech Liga | Brno | Slovan Liberec | 16958 | 5 |
 
 ## Sonuc
 

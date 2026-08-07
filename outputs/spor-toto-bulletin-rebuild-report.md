@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-07T15:35:40.255Z
+- Guncelleme: 2026-08-07T16:33:54.716Z
 - Ham fixture sayisi: 5044
 - Bugun/yarin kaynak mac: 187
-- Aktif bulten maci: 141
+- Aktif bulten maci: 120
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 46
+- Bultenden dusurulen mac: 67
 
-- 1. 2026-08-07 18:45 | Çek Cumhuriyeti FNL | Jihlava - Pribram | scheduled
-- 2. 2026-08-07 19:00 | Uganda Süper 8 Çeyrek Final | Bul (1) - (2) Kampala City | scheduled
-- 3. 2026-08-07 19:00 | Çek Cumhuriyeti FNL | Dukla Prag - Hanacka Slavia | scheduled
-- 4. 2026-08-07 19:00 | Gürcistan Erovnuli Liga | Fc Rustavi - Torpedo Kutaisi | scheduled
-- 5. 2026-08-07 19:00 | Litvanya 1.Lig | Hegelmann Ii - Garliava | scheduled
-- 6. 2026-08-07 19:00 | Slovenya 2.SNL | Krka Novo Mest - Bistrica | scheduled
-- 7. 2026-08-07 19:00 | Estonya Premium Lig | Kuressaare - Harju Jalgpalli | scheduled
-- 8. 2026-08-07 19:00 | Litvanya 1.Lig | Lietava Jonava - Ekranas | scheduled
-- 9. 2026-08-07 19:00 | Çek Cumhuriyeti FNL | Opava - Kladno | scheduled
-- 10. 2026-08-07 19:00 | Polonya 1.Lig | Polonia Bytom - Pogon Siedlce | scheduled
-- 11. 2026-08-07 19:00 | Çek Cumhuriyeti FNL | Prostejov - Karvina | scheduled
-- 12. 2026-08-07 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Gnistan | scheduled
-- 13. 2026-08-07 19:00 | Çek Cumhuriyeti FNL | Usti Nad Labem - Arsenal Ceska L | scheduled
-- 14. 2026-08-07 19:00 | Çek Cumhuriyeti FNL | Vlasim - Viktoria Zizkov | scheduled
-- 15. 2026-08-07 19:30 | Almanya Bölgesel Lig Kuzey | Hannover 96 (A - Hsc Hannover | scheduled
+- 1. 2026-08-07 19:45 | Belarus Premier Lig | Slavia Mozyr - Dnepr Mogilev | scheduled
+- 2. 2026-08-07 20:00 | Norveç 3.Lig Grup 4 | Akra - Varhaug | scheduled
+- 3. 2026-08-07 20:00 | Hazırlık Kulüpler | Albacete - Eldense | scheduled
+- 4. 2026-08-07 20:00 | Danimarka 2.Lig | B93 Kopenhag - Roskilde | scheduled
+- 5. 2026-08-07 20:00 | Çek Cumhuriyeti Czech Liga | Brno - Slovan Liberec | scheduled
+- 6. 2026-08-07 20:00 | Hazırlık Kulüpler | Ceuta - Malaga | scheduled
+- 7. 2026-08-07 20:00 | Danimarka 3.Lig | Frem - Horsholm-Ussero | scheduled
+- 8. 2026-08-07 20:00 | Hazırlık Kulüpler | Fulham - Crystal Palace | scheduled
+- 9. 2026-08-07 20:00 | İsveç 2.Lig Vastra Götaland | Galtabacks - Qviding | scheduled
+- 10. 2026-08-07 20:00 | Almanya Bölgesel Lig Kuzey | Kickers Emden - Hamburger Sv (A | scheduled
+- 11. 2026-08-07 20:00 | İsveç 2.Lig Norra Svealand | Kungsangen - Lidingö | scheduled
+- 12. 2026-08-07 20:00 | Hazırlık Kulüpler | Leganes - Merida Ad | scheduled
+- 13. 2026-08-07 20:00 | İsveç Superettan | Ostersund - Sundsvall | scheduled
+- 14. 2026-08-07 20:00 | Norveç Eliteserien | Sandefjord - Kfum Oslo | scheduled
+- 15. 2026-08-07 20:00 | İsveç 2.Lig Norra Götaland | Skara - Vanersborgs Fk | scheduled
