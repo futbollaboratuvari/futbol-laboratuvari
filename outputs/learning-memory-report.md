@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.08.2026 11:08:02
+Oluşturma: 07.08.2026 11:22:00
 
 ## Özet
 
-- Toplam tahmin: 224
-- Bekleyen tahmin: 224
+- Toplam tahmin: 225
+- Bekleyen tahmin: 225
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 65
@@ -20,12 +20,13 @@ Oluşturma: 07.08.2026 11:08:02
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 82, bekleyen 82, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 83, bekleyen 83, başarı bekleniyor, ağırlık 1
 - MS X: toplam 127, bekleyen 127, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-07 | Finlandiya Ykkösliiga | Haka - Jippo Joensuu | MS 2 | pending | 50/100
 - 2026-08-07 | Hazırlık Kulüpler | Monza - Padova | MS 2 | pending | 75/100
 - 2026-08-07 | Hazırlık Kulüpler | Hercules - Castellon | MS X | pending | 50/100
 - 2026-08-07 | Hazırlık Kulüpler | Albacete - Eldense | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 07.08.2026 11:08:02
 - 2026-08-07 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | MS 2 | pending | 60/100
 - 2026-08-07 | Hazırlık Kulüpler | Intercity - Villarreal B | MS 1 | pending | 50/100
 - 2026-08-07 | İrlanda Premier Lig | Galway United - Drogheda | MS X | pending | 50/100
-- 2026-08-07 | İrlanda 1.Lig | Cobh Ramblers - Treaty Unt. | MS X | pending | 50/100
 
