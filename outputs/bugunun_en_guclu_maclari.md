@@ -4,23 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-07T19:43:29.159Z
+- Güncelleme: 2026-08-07T20:06:34.765Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Altach VS Wattens | Avusturya Bundesliga | 20:30 | MS 2 | 3.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Stade Ouchy VS Rappersvil Jona | İsviçre Challenge Lig | 20:30 | MS 2 | 4.51 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Sc Kriens VS Yverdon | İsviçre Challenge Lig | 20:30 | MS X | 3.24 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Winterthur VS Wil | İsviçre Challenge Lig | 20:30 | MS X | 3.34 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Astorp VS Lindome Gif | İsveç 2.Lig Vastra Götaland | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Rappe VS Ifk Berga | İsveç 2.Lig Södra Götaland | 20:30 | MS X | 3.29 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Vestur Sorvagu VS Streymur | Faroe Adaları Master Lig | 20:30 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Hercules VS Castellon | Hazırlık Kulüpler | 20:30 | MS 1 | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Gutersloh VS Bochum Ii | Almanya Bölgesel Lig Batı | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Fk Union Carl VS Konnerud | Norveç 3.Lig Grup 1 | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Cambuur VS Excelsior | Hollanda Eredivisie | 21:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Vvv Venlo VS Heracles | Hollanda Eerste Divisie | 21:00 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Vitesse VS Waalwijk | Hollanda Eerste Divisie | 21:00 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -80,12 +70,12 @@
 | Estoril VS Famalicao | Portekiz Premier Lig | 22:15 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Leiknir Reykja VS Fylkir | İzlanda 1.Lig | 22:15 | MS 1 | 5.30 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Afturelding VS Grindavik | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Comerciantes U VS Cusco Fc | Peru Premier Lig Clausura | 23:15 | MS X | 2.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Comerciantes U VS Cusco Fc | Peru Premier Lig Clausura | 23:15 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kosta Rika (U2 VS Abd (U20) | CONCACAF U20 Yarı Final | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Academia Del B VS Guabira | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Cerro Largo VS Juventud Dl Pie | Uruguay Premier Lig Clausura | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Rosario Centra VS Aldosivi | Arjantin Premier Lig 2. Aşama | 01:30 | MS 2 | 6.87 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Operario VS Sao Bernardo | Brezilya Serie B | 01:30 | MS 2 | 3.52 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Operario VS Sao Bernardo | Brezilya Serie B | 01:30 | MS 2 | 3.62 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Midland VS Maipu | Arjantin Ulusal Primera Lig | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Forge VS Vancouver Fc | Kanada Premier Lig | 02:00 | MS 2 | 4.29 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Charlotte VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -99,7 +89,7 @@
 | Tigres Uanl VS Minnesota Utd | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Durango VS Piratas | Meksika Ascenso MX Apertura | 04:00 | MS X | 2.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Tepatitlan De VS Ca La Paz | Meksika Ascenso MX Apertura | 04:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Real Esteli VS Walter Ferretti | Nikaragua Premier Lig Apertura | 04:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Real Esteli VS Walter Ferretti | Nikaragua Premier Lig Apertura | 04:00 | MS X | 3.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Isidro Metapan VS Aguila | El Salvador Primera Lig Apertura | 04:00 | MS X | 2.65 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Universitario VS Sporting Crista | Peru Premier Lig Clausura | 04:30 | MS 2 | 3.64 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cs Cartagines VS Sporting San Jo | Kosta Rika Premier Lig Apertura | 05:00 | MS 2 | 3.21 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

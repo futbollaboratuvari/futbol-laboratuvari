@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T19:29:23.823716+00:00
+Tarih: 2026-08-07T20:05:58.949122+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 34
+- Kac mac bulundu: 33
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 34
+- Kac mac zaten vardi: 33
 - Ham veri havuzu toplam mac sayisi: 5065
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
@@ -32,7 +32,6 @@ Tarih: 2026-08-07T19:29:23.823716+00:00
 - Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Uruguay Premier Lig Clausura
-- İzlanda 1.Lig
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -90,8 +89,8 @@ Tarih: 2026-08-07T19:29:23.823716+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 23
-- Acilan detay: 23
+- Denenen Tumu alani: 22
+- Acilan detay: 22
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0

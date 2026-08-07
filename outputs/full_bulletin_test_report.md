@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 33
 - Live match count: 59
-- Finished removed count: 10
+- Finished removed count: 0
 - Date window: 2026-08-07 / 2026-08-08 23:59
 
 - 2026-08-07 21:00 | Zeljeznicar - Bsk Banja Luka | live
