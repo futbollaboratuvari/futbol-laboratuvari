@@ -4,16 +4,14 @@ Gunler: 2026-08-08 / 2026-08-09
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 32
-Aktif mac: 27
-Canli mac: 5
+Aktif mac: 25
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 27
+Bultenden dusurulen mac: 7
+Bugun: 25
 Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-08-08 02:00 | Arjantin Ulusal Primera Lig | Midland - Maipu | scheduled | -
-- 2026-08-08 02:00 | Kanada Premier Lig | Forge - Vancouver Fc | scheduled | -
 - 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Atlas | scheduled | -
 - 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pachuca | scheduled | -
 - 2026-08-08 02:30 | Brezilya Serie B | Ceara - Ponte Preta | scheduled | -
@@ -41,6 +39,8 @@ Yarin: 0
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
+- 2026-08-08 02:00 | Arjantin Ulusal Primera Lig | Midland - Maipu | live | -
+- 2026-08-08 02:00 | Kanada Premier Lig | Forge - Vancouver Fc | live | -
 - 2026-08-08 01:00 | Uruguay Premier Lig Clausura | Cerro Largo - Juventud Dl Pie | live | -
 - 2026-08-08 01:30 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Aldosivi | live | -
 - 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | live | -
