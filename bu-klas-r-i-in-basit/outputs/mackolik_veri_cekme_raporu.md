@@ -1,65 +1,40 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T17:32:52.702129+00:00
+Tarih: 2026-08-07T18:06:01.992950+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 99
+- Kac mac bulundu: 51
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 99
+- Kac mac zaten vardi: 51
 - Ham veri havuzu toplam mac sayisi: 5065
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Almanya 2. Bundesliga
-- Almanya Bölgesel Lig Batı
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
-- Avustralya NPL Tazmanya
 - Avusturya 1.Lig
 - Belçika Pro Lig
-- Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF U20 Yarı Final
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Fransa Ligue 3
 - Galler FAW Championship Güney
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Hollanda Eerste Divisie
-- Hollanda Eredivisie
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Premiership
-- Meksika Ascenso MX Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya Ekstraklasa
 - Portekiz 3.Lig Grup A
 - Portekiz Premier Lig
-- Romanya 1.Lig
 - Türkiye TFF 1. Lig
-- Uruguay Premier Lig Clausura
 - İngiltere Lig Kupası 1.Tur
 - İrlanda 1.Lig
 - İrlanda Premier Lig
 - İskoçya Championship
-- İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Vastra Götaland
 - İsviçre Challenge Lig
 - İzlanda 1.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -116,8 +91,8 @@ Tarih: 2026-08-07T17:32:52.702129+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 49
-- Acilan detay: 49
+- Denenen Tumu alani: 42
+- Acilan detay: 42
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -131,25 +106,25 @@ Tarih: 2026-08-07T17:32:52.702129+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 07.08.2026 | 21:30 | Türkiye TFF 1. Lig | Boluspor | Manisa Futbol K | 30283 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eredivisie | Cambuur | Excelsior | 17156 | 5 |
 | 07.08.2026 | 22:15 | Portekiz Premier Lig | Estoril | Famalicao | 20924 | 5 |
 | 07.08.2026 | 21:45 | Belçika Pro Lig | Club Brugge | Kortrijk | 16973 | 5 |
-| 07.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Middlesbrough | Wrexham | 23570 | 5 |
-| 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton | Port Vale | 14252 | 4 |
 | 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wycombe | Stevenage | 23528 | 5 |
+| 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton | Port Vale | 14252 | 5 |
+| 07.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Middlesbrough | Wrexham | 23570 | 5 |
 | 07.08.2026 | 21:30 | Almanya 2. Bundesliga | Bochum | Hertha Berlin | 00622 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vitesse | Waalwijk | 17715 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vvv Venlo | Heracles | 17555 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Oss | Breda | 17375 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Dordrecht | Ajax (B) | 16860 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Roda | 16981 | 5 |
 | 07.08.2026 | 21:30 | Polonya Ekstraklasa | Wisla Krakow | Wisla Plock | 30860 | 5 |
 | 07.08.2026 | 22:00 | İrlanda Premier Lig | Shamrock Rover | Dundalk | 22721 | 5 |
 | 07.08.2026 | 21:45 | İrlanda Premier Lig | Derry City | Sligo Rovers | 22580 | 5 |
 | 07.08.2026 | 21:45 | İrlanda Premier Lig | Galway United | Drogheda | 22634 | 5 |
 | 07.08.2026 | - | Hazırlık Kulüpler | 21:30 | Llanera - | - | 0 |
 | 07.08.2026 | 21:45 | Hazırlık Kulüpler | Monza | Padova | 06529 | 5 |
-| 07.08.2026 | 20:30 | Hazırlık Kulüpler | Hercules | Castellon | 05035 | 5 |
+| 07.08.2026 | 21:15 | Bulgaristan 1.Lig | Levski Sofya | Lokomotiv Plovd | 32219 | 5 |
+| 07.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Airbus Uk | Cardiff Mu | 21019 | 5 |
+| 07.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Trefelin | Llandudno | 21507 | 5 |
+| 07.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Ammanford | Colwyn Bay | 20964 | 5 |
+| 07.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Flint Town | Barry Town | 21256 | 5 |
+| 07.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Holywell Town | Gap Connahs Qua | 21339 | 5 |
+| 07.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | The New Saints | Haverfordwest | 21419 | 5 |
 
 ## Sonuc
 
