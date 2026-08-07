@@ -4,15 +4,14 @@ Gunler: 2026-08-08 / 2026-08-09
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 32
-Aktif mac: 31
-Canli mac: 1
+Aktif mac: 30
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 31
+Bultenden dusurulen mac: 2
+Bugun: 30
 Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | scheduled | -
 - 2026-08-08 01:00 | Uruguay Premier Lig Clausura | Cerro Largo - Juventud Dl Pie | scheduled | -
 - 2026-08-08 01:30 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Aldosivi | scheduled | -
 - 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | scheduled | -
@@ -45,6 +44,7 @@ Yarin: 0
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
+- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | live | -
 - 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | live | -
 
 ## Biten Maclar
