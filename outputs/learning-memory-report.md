@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 07.08.2026 23:07:25
-=======
-Oluşturma: 07.08.2026 23:10:04
->>>>>>> Stashed changes
+Oluşturma: 07.08.2026 23:27:51
 
 ## Özet
 
-- Toplam tahmin: 98
-- Bekleyen tahmin: 98
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 42
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 07.08.2026 23:10:04
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-07 | Fransa Ligue 3 | Aubagne - Thionville Lusi | MS X | pending | 50/100
-- 2026-08-07 | İzlanda 1.Lig | Leiknir Reykja - Fylkir | MS 1 | pending | 40/100
-- 2026-08-07 | İngiltere Lig Kupası 1.Tur | Wolverhampton - Port Vale | MS X | pending | 70/100
-- 2026-08-07 | İrlanda Premier Lig | Galway United - Drogheda | MS 2 | pending | 50/100
-- 2026-08-07 | İrlanda 1.Lig | Bray Wanderers - Finn Harps | MS X | pending | 40/100
-- 2026-08-07 | Fransa Ligue 3 | Bourg-Peronnas - Fc Villefranche | MS X | pending | 40/100
-- 2026-08-07 | Avusturya 1.Lig | Liefering - Wspg Wels | MS 2 | pending | 60/100
-- 2026-08-07 | Belarus Premier Lig | Slavia Mozyr - Dnepr Mogilev | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Hercules - Castellon | MS 1 | pending | 50/100
-- 2026-08-07 | Belarus Premier Lig | Naftan - Arsenal | MS X | pending | 50/100
-- 2026-08-07 | Fransa Ligue 3 | Fc Fleury 91 - Amiens | MS 2 | pending | 40/100
-- 2026-08-07 | Fransa Ligue 3 | Rouen - Cannes | MS 2 | pending | 50/100
-- 2026-08-07 | Galler FAW Championship Güney | Llanelli Town - Trethomas Blueb | MS X | pending | 50/100
-- 2026-08-07 | Hazırlık Kulüpler | Monza - Padova | MS 2 | pending | 60/100
-- 2026-08-07 | İngiltere Lig Kupası 1.Tur | Middlesbrough - Wrexham | MS 2 | pending | 60/100
 

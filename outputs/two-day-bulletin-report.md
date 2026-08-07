@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-07 / 2026-08-08
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 187
-Aktif mac: 33
-Canli mac: 59
+Aktif mac: 32
+Canli mac: 60
 Biten mac: 95
-Bultenden dusurulen mac: 154
-Bugun: 1
+Bultenden dusurulen mac: 155
+Bugun: 0
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-07 23:15 | Peru Premier Lig Clausura | Comerciantes U - Cusco Fc | scheduled | -
 - 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | scheduled | -
 - 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | scheduled | -
 - 2026-08-08 01:00 | Uruguay Premier Lig Clausura | Cerro Largo - Juventud Dl Pie | scheduled | -
@@ -46,6 +46,7 @@ Yarin: 32
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
+- 2026-08-07 23:15 | Peru Premier Lig Clausura | Comerciantes U - Cusco Fc | live | -
 - 2026-08-07 21:00 | Hollanda Eredivisie | Cambuur - Excelsior | live | -
 - 2026-08-07 21:00 | Hollanda Eerste Divisie | Vvv Venlo - Heracles | live | -
 - 2026-08-07 21:00 | Hollanda Eerste Divisie | Vitesse - Waalwijk | live | -
