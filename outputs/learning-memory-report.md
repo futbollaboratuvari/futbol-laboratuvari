@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 07.08.2026 21:06:56
+Oluşturma: 07.08.2026 21:31:37
 
 ## Özet
 
-- Toplam tahmin: 97
-- Bekleyen tahmin: 97
+- Toplam tahmin: 98
+- Bekleyen tahmin: 98
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 42
@@ -20,12 +20,13 @@ Oluşturma: 07.08.2026 21:06:56
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS X: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 35, bekleyen 35, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-07 | Fransa Ligue 3 | Aubagne - Thionville Lusi | MS X | pending | 50/100
 - 2026-08-07 | İzlanda 1.Lig | Leiknir Reykja - Fylkir | MS 1 | pending | 40/100
 - 2026-08-07 | İngiltere Lig Kupası 1.Tur | Wolverhampton - Port Vale | MS X | pending | 70/100
 - 2026-08-07 | İrlanda Premier Lig | Galway United - Drogheda | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 07.08.2026 21:06:56
 - 2026-08-07 | Galler FAW Championship Güney | Llanelli Town - Trethomas Blueb | MS X | pending | 50/100
 - 2026-08-07 | Hazırlık Kulüpler | Monza - Padova | MS 2 | pending | 60/100
 - 2026-08-07 | İngiltere Lig Kupası 1.Tur | Middlesbrough - Wrexham | MS 2 | pending | 60/100
-- 2026-08-07 | İrlanda Premier Lig | Shamrock Rover - Dundalk | MS 2 | pending | 60/100
 

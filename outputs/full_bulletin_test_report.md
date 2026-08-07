@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 92
-- Live match count: 54
+- Scheduled match count: 71
+- Live match count: 56
 - Finished removed count: 0
 - Date window: 2026-08-07 / 2026-08-08 23:59
 
-- 2026-08-07 18:30 | Kups Ak. - Inter Turku Ii | live
-- 2026-08-07 18:30 | Japs - Mikkelin | live
-- 2026-08-07 18:30 | Mtk - Puskas Academy | live
-- 2026-08-07 18:30 | Beltinci - Rudar | live
-- 2026-08-07 18:30 | Dren Vrhnika - Triglav Kranj | live
-- 2026-08-07 18:45 | Jihlava - Pribram | live
-- 2026-08-07 19:00 | Dukla Prag - Hanacka Slavia | live
-- 2026-08-07 19:00 | Opava - Kladno | live
-- 2026-08-07 19:00 | Prostejov - Karvina | live
-- 2026-08-07 19:00 | Usti Nad Labem - Arsenal Ceska L | live
+- 2026-08-07 19:30 | Hannover 96 (A - Hsc Hannover | live
+- 2026-08-07 19:30 | Vfb Oldenburg - Drochtersen / A | live
+- 2026-08-07 19:30 | Liefering - Wspg Wels | live
+- 2026-08-07 19:30 | St Polten - Avusturya Wien | live
+- 2026-08-07 19:30 | Middelfart - Brabrand | live
+- 2026-08-07 19:30 | Huesca - Fc Andorra | live
+- 2026-08-07 19:30 | Österlen - Sölvesborgs Goi | live
+- 2026-08-07 19:45 | Slavia Mozyr - Dnepr Mogilev | live
+- 2026-08-07 20:00 | Waldhof Mannhe - Fortuna Düsseld | live
+- 2026-08-07 20:00 | Kickers Emden - Hamburger Sv (A | live
