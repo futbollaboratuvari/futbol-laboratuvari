@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-07 / 2026-08-08
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 187
 Aktif mac: 154
-Canli mac: 15
-Biten mac: 18
+Canli mac: 14
+Biten mac: 19
 Bultenden dusurulen mac: 33
 Bugun: 122
 Yarin: 32
@@ -168,9 +167,6 @@ Yarin: 32
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled | -
 
 ## Canli Maclar
-- 2026-08-07 15:00 | Hazırlık Kulüpler | Aston Villa - B.Münih | live | -
-- 2026-08-07 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shenzhen Peng | live | -
-- 2026-08-07 13:00 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | live | -
 - 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | live | -
 - 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | live | -
 - 2026-08-07 13:30 | Avustralya NPL Güney Avustralya | West Torrens - West Adelaide | live | -
@@ -183,6 +179,8 @@ Yarin: 32
 - 2026-08-07 14:00 | Güney Kore K Lig 2 | Hwaseong - Seoul E-Land | live | -
 - 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | live | -
 - 2026-08-07 14:00 | Hazırlık Kulüpler | Melbourne City - Palermo | live | -
+- 2026-08-07 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shenzhen Peng | live | -
+- 2026-08-07 15:00 | Hazırlık Kulüpler | Aston Villa - B.Münih | live | -
 
 ## Biten Maclar
 - 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
@@ -203,3 +201,4 @@ Yarin: 32
 - 2026-08-07 11:00 | Hazırlık Kulüpler | Intercity - Villarreal B | finished | -
 - 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | finished | -
 - 2026-08-07 11:30 | Hazırlık Kulüpler | Almeria - Cordoba | finished | -
+- 2026-08-07 13:00 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | finished | -

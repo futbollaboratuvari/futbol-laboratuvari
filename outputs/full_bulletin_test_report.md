@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 154
-- Live match count: 0
+- Live match count: 14
 - Finished removed count: 0
 - Date window: 2026-08-07 / 2026-08-08 23:59
 
-- 2026-08-07 16:00 | Singapur - Endonezya | scheduled
-- 2026-08-07 16:00 | Vietnam - Kamboçya | scheduled
-- 2026-08-07 16:00 | Maroons (1) - (1) Sc Villa | scheduled
-- 2026-08-07 17:00 | Servette Cheno - Aktobe (K) | scheduled
-- 2026-08-07 17:45 | Naftan - Arsenal | scheduled
-- 2026-08-07 18:00 | Slavia Praha I - Trinec | scheduled
-- 2026-08-07 18:00 | Haka - Jippo Joensuu | scheduled
-- 2026-08-07 18:00 | Sudtirol - Virtus Verona | scheduled
-- 2026-08-07 18:30 | Kups Ak. - Inter Turku Ii | scheduled
-- 2026-08-07 18:30 | Japs - Mikkelin | scheduled
+- 2026-08-07 13:25 | Yokohama Marin - Kashima | live
+- 2026-08-07 13:30 | West Torrens - West Adelaide | live
+- 2026-08-07 13:30 | Gamba Osaka - Urawa | live
+- 2026-08-07 13:45 | Adelaide Comet - Salisbury Inter | live
+- 2026-08-07 13:45 | Campbelltown C - Metrostars (K) | live
+- 2026-08-07 14:00 | Asan Mugunghwa - Ansan Greeners | live
+- 2026-08-07 14:00 | Gimpo Citizen - Cheongju Fc | live
+- 2026-08-07 14:00 | Gyeongnam - Daegu | live
+- 2026-08-07 14:00 | Hwaseong - Seoul E-Land | live
+- 2026-08-07 14:00 | Suwon Sb - Gimhae City | live
