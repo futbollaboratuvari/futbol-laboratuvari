@@ -2,16 +2,18 @@
 
 Gunler: 2026-08-07 / 2026-08-08
 Kaynak: fixtures.json
-Ham mac: 151
-Aktif mac: 151
+Ham mac: 175
+Aktif mac: 160
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 119
+Biten mac: 15
+Bultenden dusurulen mac: 15
+Bugun: 128
 Yarin: 32
 
 ## Baslamamis Maclar
+- 2026-08-07 11:00 | Hazırlık Kulüpler | Intercity - Villarreal B | scheduled | -
 - 2026-08-07 11:30 | Avustralya NPL Queensland | Queensland Lio - Brisbane Roar I | scheduled | -
+- 2026-08-07 13:00 | Avustralya NPL Güney Avustralya | Adelaide City - Playford City P | scheduled | -
 - 2026-08-07 13:25 | Japonya J1 Lig | Yokohama Marin - Kashima | scheduled | -
 - 2026-08-07 13:30 | Japonya J1 Lig | Gamba Osaka - Urawa | scheduled | -
 - 2026-08-07 13:30 | Avustralya NPL Güney Avustralya | West Torrens - West Adelaide | scheduled | -
@@ -23,6 +25,7 @@ Yarin: 32
 - 2026-08-07 14:00 | Güney Kore K Lig 2 | Yongin - Busan Ipark | scheduled | -
 - 2026-08-07 14:00 | Güney Kore K Lig 2 | Hwaseong - Seoul E-Land | scheduled | -
 - 2026-08-07 14:00 | Güney Kore K Lig 2 | Asan Mugunghwa - Ansan Greeners | scheduled | -
+- 2026-08-07 14:00 | Hazırlık Kulüpler | Melbourne City - Palermo | scheduled | -
 - 2026-08-07 14:35 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Shenzhen Peng | scheduled | -
 - 2026-08-07 16:00 | AFF Şampiyonası Grup A | Vietnam - Kamboçya | scheduled | -
 - 2026-08-07 16:00 | AFF Şampiyonası Grup A | Singapur - Endonezya | scheduled | -
@@ -30,6 +33,7 @@ Yarin: 32
 - 2026-08-07 17:45 | Belarus Premier Lig | Naftan - Arsenal | scheduled | -
 - 2026-08-07 18:00 | Finlandiya Ykkösliiga | Haka - Jippo Joensuu | scheduled | -
 - 2026-08-07 18:00 | Çek Cumhuriyeti FNL | Slavia Praha I - Trinec | scheduled | -
+- 2026-08-07 18:00 | Hazırlık Kulüpler | Sudtirol - Virtus Verona | scheduled | -
 - 2026-08-07 18:30 | Finlandiya Ykkösliiga | Japs - Mikkelin | scheduled | -
 - 2026-08-07 18:30 | Macaristan NB I | Mtk - Puskas Academy | scheduled | -
 - 2026-08-07 18:30 | Slovenya 2.SNL | Beltinci - Rudar | scheduled | -
@@ -53,6 +57,7 @@ Yarin: 32
 - 2026-08-07 19:30 | Almanya Bölgesel Lig Kuzey | Hannover 96 (A - Hsc Hannover | scheduled | -
 - 2026-08-07 19:30 | Danimarka 2.Lig | Middelfart - Brabrand | scheduled | -
 - 2026-08-07 19:30 | İsveç 2.Lig Södra Götaland | Österlen - Sölvesborgs Goi | scheduled | -
+- 2026-08-07 19:30 | Hazırlık Kulüpler | Huesca - Fc Andorra | scheduled | -
 - 2026-08-07 19:45 | Belarus Premier Lig | Slavia Mozyr - Dnepr Mogilev | scheduled | -
 - 2026-08-07 20:00 | Danimarka Süperlig | Sonderjyske - Viborg | scheduled | -
 - 2026-08-07 20:00 | Çek Cumhuriyeti Czech Liga | Brno - Slovan Liberec | scheduled | -
@@ -66,6 +71,8 @@ Yarin: 32
 - 2026-08-07 20:00 | İsveç 2.Lig Norra Svealand | Kungsangen - Lidingö | scheduled | -
 - 2026-08-07 20:00 | İsveç 2.Lig Vastra Götaland | Galtabacks - Qviding | scheduled | -
 - 2026-08-07 20:00 | İsveç 2.Lig Norra Götaland | Skara - Vanersborgs Fk | scheduled | -
+- 2026-08-07 20:00 | Hazırlık Kulüpler | Ceuta - Malaga | scheduled | -
+- 2026-08-07 20:00 | Hazırlık Kulüpler | Leganes - Merida Ad | scheduled | -
 - 2026-08-07 20:30 | Avusturya Bundesliga | Altach - Wattens | scheduled | -
 - 2026-08-07 20:30 | İsviçre Challenge Lig | Stade Ouchy - Rappersvil Jona | scheduled | -
 - 2026-08-07 20:30 | İsviçre Challenge Lig | Sc Kriens - Yverdon | scheduled | -
@@ -73,6 +80,7 @@ Yarin: 32
 - 2026-08-07 20:30 | İsveç 2.Lig Vastra Götaland | Astorp - Lindome Gif | scheduled | -
 - 2026-08-07 20:30 | İsveç 2.Lig Södra Götaland | Rappe - Ifk Berga | scheduled | -
 - 2026-08-07 20:30 | Faroe Adaları Master Lig | Vestur Sorvagu - Streymur | scheduled | -
+- 2026-08-07 20:30 | Hazırlık Kulüpler | Hercules - Castellon | scheduled | -
 - 2026-08-07 21:00 | Hollanda Eredivisie | Cambuur - Excelsior | scheduled | -
 - 2026-08-07 21:00 | Hollanda Eerste Divisie | Vvv Venlo - Heracles | scheduled | -
 - 2026-08-07 21:00 | Hollanda Eerste Divisie | Vitesse - Waalwijk | scheduled | -
@@ -123,6 +131,7 @@ Yarin: 32
 - 2026-08-07 21:45 | Galler FAW Championship Güney | Llanelli Town - Trethomas Blueb | scheduled | -
 - 2026-08-07 21:45 | Galler FAW Championship Güney | Caerau Ely - Ynyshir Albions | scheduled | -
 - 2026-08-07 21:45 | Galler FAW Championship Güney | Caerphilly Ath - Cardiff Draconi | scheduled | -
+- 2026-08-07 21:45 | Hazırlık Kulüpler | Monza - Padova | scheduled | -
 - 2026-08-07 22:00 | İngiltere Lig Kupası 1.Tur | Middlesbrough - Wrexham | scheduled | -
 - 2026-08-07 22:00 | İrlanda Premier Lig | Shamrock Rover - Dundalk | scheduled | -
 - 2026-08-07 22:00 | Portekiz 3.Lig Grup A | Paredes - Guimaraes (B) | scheduled | -
@@ -167,4 +176,18 @@ Yarin: 32
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-07 01:00 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Lanus | finished | -
+- 2026-08-07 01:00 | Meksika Ascenso MX Apertura | Tlaxcala - Alebrijes | finished | -
+- 2026-08-07 01:30 | Venezuela Premier Lig Clausura | Academia Puert - Caracas Fc | finished | -
+- 2026-08-07 02:00 | Brezilya Kupa Son 16 Turu | Corinthians (0) - (2) Internacional | finished | -
+- 2026-08-07 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Santos Laguna | finished | -
+- 2026-08-07 02:30 | Bolivya Premier Lig | Blooming - Always Ready | finished | -
+- 2026-08-07 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Philadelphia | finished | -
+- 2026-08-07 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Necaxa | finished | -
+- 2026-08-07 04:00 | CONCACAF Orta Amerika Kupası Grup D | Hankook Verdes - Municipal | finished | -
+- 2026-08-07 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Club Tijuana | finished | -
+- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Leones Negros - Correcaminos Ua | finished | -
+- 2026-08-07 04:00 | Meksika Ascenso MX Apertura | Dorados - Zacatecas | finished | -
+- 2026-08-07 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Club America - San Diego | finished | -
+- 2026-08-07 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Puebla | finished | -
+- 2026-08-07 06:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Deportivo Fas | finished | -

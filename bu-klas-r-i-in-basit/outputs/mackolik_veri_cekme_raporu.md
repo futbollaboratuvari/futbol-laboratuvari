@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-07T05:24:10.347089+00:00
+Tarih: 2026-08-07T06:42:35.400629+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 151
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 151
-- Ham veri havuzu toplam mac sayisi: 5043
+- Kac mac bulundu: 159
+- Kac mac kaydedildi: 9
+- Kac mac zaten vardi: 150
+- Ham veri havuzu toplam mac sayisi: 5052
 - Hedef tarih: 07.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -51,6 +51,7 @@ Tarih: 2026-08-07T05:24:10.347089+00:00
 - Guatemala Ulusal Lig Apertura
 - Güney Kore K Lig 2
 - Gürcistan Erovnuli Liga
+- Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Japonya J1 Lig
@@ -68,7 +69,6 @@ Tarih: 2026-08-07T05:24:10.347089+00:00
 - Portekiz 3.Lig Grup A
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya FNL
 - Slovenya 2.SNL
 - Türkiye TFF 1. Lig
 - Uganda Süper 8 Çeyrek Final
@@ -163,14 +163,14 @@ Tarih: 2026-08-07T05:24:10.347089+00:00
 | 07.08.2026 | 22:15 | Portekiz Premier Lig | Estoril | Famalicao | 20924 | 5 |
 | 07.08.2026 | 21:45 | Belçika Pro Lig | Club Brugge | Kortrijk | 16973 | 5 |
 | 07.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Middlesbrough | Wrexham | 23570 | 5 |
-| 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton | Port Vale | 14252 | 5 |
 | 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wycombe | Stevenage | 23528 | 5 |
+| 07.08.2026 | 21:45 | İngiltere Lig Kupası 1.Tur | Wolverhampton | Port Vale | 14252 | 5 |
 | 07.08.2026 | 21:30 | Almanya 2. Bundesliga | Bochum | Hertha Berlin | 00622 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Dordrecht | Ajax (B) | 16860 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vvv Venlo | Heracles | 17555 | 5 |
+| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Roda | 16981 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Vitesse | Waalwijk | 17715 | 5 |
 | 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Oss | Breda | 17375 | 5 |
-| 07.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Roda | 16981 | 5 |
 | 07.08.2026 | 20:30 | Avusturya Bundesliga | Altach | Wattens | 33026 | 5 |
 | 07.08.2026 | 20:00 | Danimarka Süperlig | Sonderjyske | Viborg | 19818 | 5 |
 | 07.08.2026 | 21:30 | Polonya Ekstraklasa | Wisla Krakow | Wisla Plock | 30860 | 5 |
