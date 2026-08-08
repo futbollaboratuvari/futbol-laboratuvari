@@ -2,20 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-08T09:24:56.479Z
+- Güncelleme: 2026-08-08T09:56:43.880Z
 - Ham maç sayısı: 526
 - Yarın bülteni maç sayısı: 54
 - Detay blok sayısı: 1479
-- Aktif bülten maçı: 503
-- Bültenden düşürülen maç: 23
+- Aktif bülten maçı: 499
+- Bültenden düşürülen maç: 27
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Western Sydney - Melbourne Victo | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 2.51 | 8 |
-| Vanraure - Kataller Toyama | Japonya J2 Lig | 12:30 | Veri bekleniyor | - | 2.53 | 8 |
-| Fujieda - Sendai | Japonya J2 Lig | 12:30 | Veri bekleniyor | - | 3.09 | 8 |
-| Skedsmo - Fauske/Sprint | Norveç 3.Lig Grup 5 | 12:30 | Veri bekleniyor | - | 1.07 | 4 |
 | Gintra-Univers - Dinamo Riga (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | 13:00 | Veri bekleniyor | - | 4.46 | 7 |
 | Nagoya - Shimizu | Japonya J1 Lig | 13:00 | Veri bekleniyor | - | 1.84 | 8 |
 | Avispa Fukuoka - Vissel Kobe | Japonya J1 Lig | 13:00 | Veri bekleniyor | - | 3.2 | 8 |

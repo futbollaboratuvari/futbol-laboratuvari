@@ -87,7 +87,7 @@ MAC_SAYISI: 5
 
 ## Rapor Bilgisi
 
-OLUSTURMA_ZAMANI: 2026-08-08T09:04:08.625494+00:00
+OLUSTURMA_ZAMANI: 2026-08-08T10:01:11.830135+00:00
 TOPLAM_TAHMIN: 250
 SONUCLANAN_TAHMIN: 0
 BEKLEYEN_TAHMIN: 250
@@ -139,7 +139,7 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 - Gelen mac: 5
 - Yeni eklenen mac: 0
 - Tekrar mac: 5
-- Toplam benzersiz mac: 5604
+- Toplam benzersiz mac: 5621
 - Dosya: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Tahmin Performans Takibi
@@ -164,12 +164,9 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 
 ## Mackolik Veri Cekme Durumu
 
-- Durum: error
-- Bulunan mac: 0
-- Yeni kaydedilen mac: 0
-- Tekrar mac: 0
-- Ham havuz toplam mac: 5604
+- Durum: success
+- Bulunan mac: 461
+- Yeni kaydedilen mac: 17
+- Tekrar mac: 444
+- Ham havuz toplam mac: 5621
 - Rapor: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md
-- Hata: Page.goto: Timeout 30000ms exceeded.
-Call log:
-  - navigating to "https://arsiv.mackolik.com/Iddaa-Programi", waiting until "domcontentloaded"
