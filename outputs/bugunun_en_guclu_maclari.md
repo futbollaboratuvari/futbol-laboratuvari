@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-08T18:01:41.141Z
+- Güncelleme: 2026-08-08T18:24:08.458Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -76,10 +76,10 @@
 | Almirante VS Ciudad De Bolív | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Falubaz Zielon VS Sokol Kleczew | Polonya 2.Lig | 21:00 | MS 2 | 3.41 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Liverpool Mont VS Albion | Uruguay Premier Lig Clausura | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Korona Kielce VS Legia Varşova | Polonya Ekstraklasa | 21:15 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Dunav 2010 VS Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | MS 1 | 3.25 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Korona Kielce VS Legia Varşova | Polonya Ekstraklasa | 21:15 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Dunav 2010 VS Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | MS 1 | 3.25 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | P. Bielsko VS Lechia Gdansk | Polonya 1.Lig | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Celje VS Olimpija Ljubli | Slovenya 1.SNL | 21:15 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Celje VS Olimpija Ljubli | Slovenya 1.SNL | 21:15 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Wolfsburg VS Kaiserslautern | Almanya 2. Bundesliga | 21:30 | MS 2 | 4.41 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Servette VS Grasshoppers | İsviçre Süper Lig | 21:30 | MS 2 | 5.90 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Ascoli Picchio VS Rossoblu Potenz | İtalya Kupa Ön Eleme Turu | 21:30 | MS 2 | 5.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
