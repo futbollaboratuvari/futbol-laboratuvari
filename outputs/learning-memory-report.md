@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 13:01:20
+Oluşturma: 08.08.2026 13:34:12
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 309
+- Bekleyen tahmin: 309
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 94
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 08.08.2026 13:01:20
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 112, bekleyen 112, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
+- MS X: toplam 180, bekleyen 180, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Belçika Pro Lig | St. Truidense - Lommel | MS 2 | pending | 75/100
+- 2026-08-08 | Fransa Ligue 2 | Nantes - Red Star Paris | MS 2 | pending | 40/100
+- 2026-08-08 | Fransa Ligue 2 | Sochaux - St Etienne | MS 1 | pending | 40/100
+- 2026-08-08 | Fransa Ligue 2 | Metz - Guingamp | MS 2 | pending | 40/100
+- 2026-08-08 | Fransa Ligue 2 | Montpellier - Dijon | MS 2 | pending | 40/100
+- 2026-08-08 | Fransa Ligue 2 | Pau Fc - Annecy | MS X | pending | 50/100
+- 2026-08-08 | Fransa Ligue 2 | Boulogne - Nancy | MS X | pending | 40/100
+- 2026-08-08 | Fransa Ligue 2 | Dunkerque - Grenoble | MS 2 | pending | 40/100
+- 2026-08-08 | Fransa Ligue 2 | Rodez Aveyron - Stade Lavallois | MS 2 | pending | 50/100
+- 2026-08-08 | Hazırlık Kulüpler | Genoa - D.La Coruna | MS X | pending | 40/100
+- 2026-08-08 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Juventus (K) - Hammarby (K) | MS X | pending | 40/100
+- 2026-08-08 | Hazırlık Kulüpler | Valencia - Newcastle Utd | MS X | pending | 50/100
+- 2026-08-08 | Hazırlık Kulüpler | Mallorca - Elversberg | MS X | pending | 50/100
+- 2026-08-08 | Hazırlık Kulüpler | Napoli - Celta Vigo | MS X | pending | 50/100
+- 2026-08-08 | Brezilya Serie A | Gremio - Sao Paulo | MS X | pending | 40/100
 
