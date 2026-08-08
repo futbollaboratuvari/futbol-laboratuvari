@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 124
-Aktif mac: 59
-Canli mac: 65
+Ham mac: 118
+Aktif mac: 57
+Canli mac: 61
 Biten mac: 0
-Bultenden dusurulen mac: 65
-Bugun: 4
+Bultenden dusurulen mac: 61
+Bugun: 2
 Yarin: 55
 
 ## Baslamamis Maclar
-- 2026-08-08 23:00 | Arjantin Premier Lig 2. Aşama | Tigre - River Plate | scheduled | -
-- 2026-08-08 23:00 | Venezuela Premier Lig Clausura | Monagas - Carabobo | scheduled | -
 - 2026-08-08 23:30 | ABD MLS | New England - Houston | scheduled | -
 - 2026-08-08 23:30 | Peru Premier Lig Clausura | Juan Pablo Ii - Atletico Grau | scheduled | -
 - 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | scheduled | -
@@ -72,12 +70,6 @@ Yarin: 55
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 20:30 | Avusturya Bundesliga | Hartberg - Sturm Graz | live | -
-- 2026-08-08 20:30 | Rusya Premier Lig | Cska Moskova - Rostov | live | -
-- 2026-08-08 20:30 | Hazırlık Kulüpler | La Nucia - Alcoyano | live | -
-- 2026-08-08 20:30 | Hazırlık Kulüpler | Atletico Astor - Dep. Fabril | live | -
-- 2026-08-08 20:45 | Arjantin Premier Lig 2. Aşama | Atletico Tucum - Sarmiento | live | -
-- 2026-08-08 20:45 | Arjantin Premier Lig 2. Aşama | Riestra - Estudiantes Lp | live | -
 - 2026-08-08 21:00 | Hollanda Eredivisie | Psv Eindhoven - Fortuna Sittard | live | -
 - 2026-08-08 21:00 | Çek Cumhuriyeti Czech Liga | Mlada Boleslav - Sparta Prag | live | -
 - 2026-08-08 21:00 | Sırbistan Süper Lig | Kizilyildiz - Novi Pazar | live | -
@@ -137,6 +129,8 @@ Yarin: 55
 - 2026-08-08 22:00 | Hazırlık Kulüpler | Real Betis - Bournemouth | live | -
 - 2026-08-08 22:30 | Portekiz Premier Lig | Estrela - Sporting Cp | live | -
 - 2026-08-08 22:30 | Hazırlık Kulüpler | Cadiz - Las Palmas | live | -
+- 2026-08-08 23:00 | Arjantin Premier Lig 2. Aşama | Tigre - River Plate | live | -
+- 2026-08-08 23:00 | Venezuela Premier Lig Clausura | Monagas - Carabobo | live | -
 
 ## Biten Maclar
 Biten mac yok.
