@@ -1,48 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T19:16:18.371178+00:00
+Tarih: 2026-08-08T19:37:00.449319+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 69
+- Kac mac bulundu: 12
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 69
+- Kac mac zaten vardi: 12
 - Ham veri havuzu toplam mac sayisi: 5632
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
-- Avustralya NPL Kuzey YGG
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Grup Aşaması
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Macaristan NB II
 - Macaristan NB III Güneybatı
 - Macaristan NB III Kuzeydoğu
-- Meksika Ascenso MX Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
-- Portekiz Premier Lig
-- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İsveç 2.Lig Södra Götaland
 - İsviçre 1.Lig Promotion
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -99,8 +80,8 @@ Tarih: 2026-08-08T19:16:18.371178+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 34
-- Acilan detay: 34
+- Denenen Tumu alani: 32
+- Acilan detay: 32
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -113,26 +94,18 @@ Tarih: 2026-08-08T19:16:18.371178+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.08.2026 | 22:30 | Portekiz Premier Lig | Estrela | Sporting Cp | 21389 | 5 |
-| 08.08.2026 | 22:30 | Hazırlık Kulüpler | Cadiz | Las Palmas | 05511 | 5 |
-| 08.08.2026 | 21:30 | Hazırlık Kulüpler | Forli | Cesena | 41829 | 5 |
 | 08.08.2026 | 23:30 | ABD MLS | New England | Houston | 30345 | 5 |
-| 09.08.2026 | 00:30 | Brezilya Serie A | Remo | Atletico Mg | 32117 | 5 |
-| 09.08.2026 | 02:30 | Brezilya Serie A | Coritiba | Chapecoense | 32175 | 5 |
-| 09.08.2026 | 03:00 | Brezilya Serie A | Botafogo | Fluminense | 32250 | 5 |
 | 08.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Tigre | River Plate | 28663 | 5 |
-| 09.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord | Gimnasia Mendoz | 28837 | 5 |
-| 09.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Boca Juniors | Velez Sarsfield | 28721 | 5 |
-| 09.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Independiente | Platense | 28779 | 5 |
-| 09.08.2026 | 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Los Angeles Fc | 37680 | 5 |
-| 09.08.2026 | 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City | Club Leon | 37512 | 5 |
-| 09.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Monterrey | 37554 | 5 |
-| 09.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake | Atlante | 37638 | 5 |
-| 09.08.2026 | 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Guadalajara | Dallas | 37596 | 5 |
 | 08.08.2026 | 23:30 | Peru Premier Lig Clausura | Juan Pablo Ii | Atletico Grau | 22846 | 5 |
-| 09.08.2026 | 04:00 | Peru Premier Lig Clausura | Sport Boys | Alianza Lima | 22877 | 5 |
 | 08.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Monagas | Carabobo | 39901 | 5 |
-| 09.08.2026 | 00:30 | Şili Premier Lig | Coquimbo Unido | La Serena | 35891 | 5 |
+| 08.08.2026 | 17:00 | İsviçre 1.Lig Promotion | Luzern Ii | Bruhl | 40830 | 3 |
+| 08.08.2026 | 18:30 | Macaristan NB II | Tiszakecske | Mezokovesd Zsor | 07321 | 5 |
+| 08.08.2026 | 15:00 | İsveç 2.Lig Södra Götaland | Karlskrona | Torns | 42552 | 3 |
+| 08.08.2026 | 18:30 | Macaristan NB III Kuzeydoğu | Cigand Se | Tiszaujvaros | 05326 | 3 |
+| 08.08.2026 | 18:30 | Macaristan NB III Kuzeydoğu | Dvsc Deac | Füzesabony | 05353 | 3 |
+| 08.08.2026 | - | Macaristan NB III Kuzeydoğu | 18:30 | - Deac | - | 0 |
+| 08.08.2026 | - | Macaristan NB III Güneybatı | 18:30 | - Pecs | - | 0 |
+| 08.08.2026 | 19:00 | İzlanda 2.Lig | Kormakur | Throttur Vogar | 02598 | 3 |
 
 ## Sonuc
 
