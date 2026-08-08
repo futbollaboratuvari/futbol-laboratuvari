@@ -3,15 +3,14 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 323
-Aktif mac: 311
-Canli mac: 12
+Aktif mac: 310
+Canli mac: 13
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 279
+Bultenden dusurulen mac: 13
+Bugun: 278
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Club Leon | scheduled | -
 - 2026-08-09 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Cd Tapatio | scheduled | -
 - 2026-08-09 02:00 | ABD USL | Brooklyn - Birmingham Legi | scheduled | -
 - 2026-08-09 02:00 | ABD USL | Lexington - Phoenix Rising | scheduled | -
@@ -336,6 +335,7 @@ Yarin: 32
 - 2026-08-09 00:30 | Ekvador Pro Lig | Aucas - Leones Del Nort | live | -
 - 2026-08-09 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Export Sebaco | live | -
 - 2026-08-09 01:15 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Velez Sarsfield | live | -
+- 2026-08-09 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Club Leon | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 24
-Tam analiz: 0
-Eksik analiz: 24
+Toplam analiz: 291
+Tam analiz: 265
+Eksik analiz: 26
 
-- Aurora VS Comunicaciones: eksik score, confidence
-- Pacific Fc VS Inter Toronto: eksik score, confidence
 - Platense VS Marathon: eksik score, confidence
-- Platense VS Inca-Aruba: eksik score, confidence
 - The Strongest VS Independiente P: eksik score, confidence
-- Remo VS Atletico Mg: eksik score, confidence
-- Coquimbo Unido VS La Serena: eksik score, confidence
-- Botafogo Ribei VS America Mineiro: eksik score, confidence
 - Torque VS Penarol: eksik score, confidence
-- Aucas VS Leones Del Nort: eksik score, confidence
-- Moreirense VS Braga: eksik score, confidence
-- Benfica VS Academico Viseu: eksik score, confidence
-- Gil Vicente VS Rio Ave: eksik score, confidence
-- Seattle VS Queretaro: eksik score, confidence
-- Academia Anzoa VS Portuguesa: eksik score, confidence
-- Godoy Cruz VS Chaco For Ever: eksik score, confidence
-- Zamora VS Academia Puerto: eksik score, confidence
-- Trujillanos VS Depor Tachira: eksik score, confidence
-- Quilmes VS Almagro: eksik score, confidence
-- Breidablik VS Valur: eksik score, confidence
+- Broadmeadow Ma VS Kahibah: eksik score, confidence
+- Canberra Juven VS Canberra White: eksik score, confidence
+- Kisvarda Ii VS Disgyor Ii: eksik score, confidence
+- Dalstorps If VS Kongahalla: eksik score, confidence
+- Danubio VS Cerro: eksik score, confidence
+- Raelingen VS Rade: eksik score, confidence
+- Vikingur Gota VS B68 Toftir: eksik score, confidence
+- Haladas Vse VS Balatonalmadi: eksik score, confidence
+- Völsungur VS Hk Kopavogur: eksik score, confidence
+- Sarpsborg 08 I VS Brumunddal: eksik score, confidence
+- Atlanta VS Atl Temperley: eksik score, confidence
+- Sheriff Tirasp VS Dacia-Buiucani: eksik score, confidence
+- Colegiales VS Patronato: eksik score, confidence
+- Moron VS Acassuso: eksik score, confidence
+- Defensor Sport VS Montevideo Wand: eksik score, confidence
+- Akranes VS Thor Akureyri: eksik score, confidence
+- Vikingur Reykj VS Vestmannaeyjar: eksik score, confidence
