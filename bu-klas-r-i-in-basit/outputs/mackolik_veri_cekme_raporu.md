@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T13:06:50.553769+00:00
+Tarih: 2026-08-08T14:02:53.060050+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 356
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 355
+- Kac mac bulundu: 318
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 318
 - Ham veri havuzu toplam mac sayisi: 5628
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
@@ -29,13 +29,11 @@ Tarih: 2026-08-08T13:06:50.553769+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
-- Danimarka 2.Lig
 - Danimarka 3.Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
 - Fransa Ligue 2
-- Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Çeyrek Final
@@ -59,13 +57,9 @@ Tarih: 2026-08-08T13:06:50.553769+00:00
 - Macaristan NB III Kuzeydoğu
 - Moldova Ulusal Lig
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 5
-- Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
