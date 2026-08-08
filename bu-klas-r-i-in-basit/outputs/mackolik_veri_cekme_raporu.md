@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T14:46:17.581873+00:00
+Tarih: 2026-08-08T15:15:48.735599+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 189
+- Kac mac bulundu: 153
 - Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 188
-- Ham veri havuzu toplam mac sayisi: 5629
+- Kac mac zaten vardi: 152
+- Ham veri havuzu toplam mac sayisi: 5630
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -20,7 +20,6 @@ Tarih: 2026-08-08T14:46:17.581873+00:00
 - Arjantin Ulusal Primera Lig
 - Avusturya 1.Lig
 - Avusturya Bundesliga
-- Belarus Premier Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
@@ -30,9 +29,7 @@ Tarih: 2026-08-08T14:46:17.581873+00:00
 - Danimarka 3.Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
-- Finlandiya Ykkösliiga
 - Fransa Ligue 2
-- Galler FAW Championship Kuzey
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
@@ -51,7 +48,6 @@ Tarih: 2026-08-08T14:46:17.581873+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Moldova Ulusal Lig
 - Norveç 3.Lig Grup 2
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -62,27 +58,21 @@ Tarih: 2026-08-08T14:46:17.581873+00:00
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya FNL
 - Rusya Premier Lig
-- Slovakya 2.Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Slovenya 2.SNL
 - Sırbistan Süper Lig
+- UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri
 - UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final
-- Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İngiltere Lig Kupası 1.Tur
-- İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
-- İngiltere Non League Premier Kuzey
-- İskoçya 2.Lig
 - İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsveç Allsvenskan
-- İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İsviçre Süper Lig
 - İtalya Kupa Ön Eleme Turu
@@ -144,8 +134,8 @@ Tarih: 2026-08-08T14:46:17.581873+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 86
+- Acilan detay: 86
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -167,16 +157,16 @@ Tarih: 2026-08-08T14:46:17.581873+00:00
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Cheltenham | Charlton | 26686 | 5 |
-| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham | West Bromwich | 26839 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Colchester | Southam | 26762 | 5 |
-| 08.08.2026 | 21:00 | İtalya Kupa Ön Eleme Turu | Vicenza | Catania | 14242 | 5 |
+| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham | West Bromwich | 26839 | 5 |
 | 08.08.2026 | 21:30 | İtalya Kupa Ön Eleme Turu | Ascoli Picchio | Rossoblu Potenz | 14280 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Clermont | Reims | 10439 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Metz | Guingamp | 10885 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
+| 08.08.2026 | 21:00 | İtalya Kupa Ön Eleme Turu | Vicenza | Catania | 14242 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Sochaux | St Etienne | 13248 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Montpellier | Dijon | 11293 | 5 |
 
 ## Sonuc

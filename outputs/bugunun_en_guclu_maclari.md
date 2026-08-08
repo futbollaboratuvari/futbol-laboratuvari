@@ -2,44 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-08T14:51:47.360Z
+- Güncelleme: 2026-08-08T15:13:30.688Z
 - Ham maç sayısı: 414
 - Yarın bülteni maç sayısı: 55
 - Detay blok sayısı: 1180
-- Aktif bülten maçı: 222
-- Bültenden düşürülen maç: 192
+- Aktif bülten maçı: 194
+- Bültenden düşürülen maç: 220
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bukovyna - Obolon-Brovar | Ukrayna Premier Lig | 18:00 | Veri bekleniyor | - | 1.75 | 8 |
-| Grazer Ak - Avusturya Luste | Avusturya Bundesliga | 18:00 | Veri bekleniyor | - | 1.74 | 8 |
-| L.Moskova - Akron | Rusya Premier Lig | 18:00 | Veri bekleniyor | - | 1.23 | 6 |
-| Zlin - Bohemians 1905 | Çek Cumhuriyeti Czech Liga | 18:00 | Veri bekleniyor | - | 2.05 | 8 |
-| Teplice - Viktoria Plzen | Çek Cumhuriyeti Czech Liga | 18:00 | Veri bekleniyor | - | 3.56 | 8 |
-| Angers - Lorient | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 2.66 | 8 |
-| Modena - Vis Pasaro | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 1.12 | 6 |
-| Psg - Man. Utd | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 2.7 | 8 |
-| Stuttgart - Everton | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 2.02 | 8 |
-| Schalke - Atalanta | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 2.57 | 8 |
-| Norrkoping - Brage | İsveç Superettan | 18:00 | Veri bekleniyor | - | 1.36 | 6 |
-| Kapa - Ekenas If | Finlandiya Ykkösliiga | 18:00 | Veri bekleniyor | - | 2.62 | 8 |
-| Sjk Ii - Pk-35 Ry | Finlandiya Ykkösliiga | 18:00 | Veri bekleniyor | - | 3.36 | 8 |
-| Torpedo Moskov - Pfc Sochi | Rusya FNL | 18:00 | Veri bekleniyor | - | 2.16 | 8 |
-| Politeh Chişin - Milsami-Ursidos | Moldova Ulusal Lig | 18:00 | Veri bekleniyor | - | 2.83 | 8 |
-| Galanta - Petrzalka | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 5.47 | 6 |
-| Mfk Bytca - Inter Bratislav | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 5.32 | 6 |
-| Banik Lehota P - Malzenice | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 1.7 | 8 |
-| Humenne - Lokomotiva Zvol | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 2.53 | 8 |
-| Rekord Bielsko - Stal S Wola | Polonya 2.Lig | 18:00 | Veri bekleniyor | - | 2.33 | 8 |
-| Kaspyi - Ulytau | Kazakistan Premier Lig | 18:00 | Veri bekleniyor | - | 2.21 | 8 |
-| Smiltene - Valmieras Fk/Bs | Letonya 1.Lig | 18:00 | Veri bekleniyor | - | 9.34 | 4 |
-| Jfk Ventspils - Super Nova Ii | Letonya 1.Lig | 18:00 | Veri bekleniyor | - | 1.83 | 8 |
-| Fk Dainava - Babrungas | Litvanya 1.Lig | 18:00 | Veri bekleniyor | - | 2.5 | 8 |
-| Minija - Be1 Nfa | Litvanya 1.Lig | 18:00 | Veri bekleniyor | - | 1.23 | 6 |
-| Gyor Ii - Sárisápi Bányás | Macaristan NB III Kuzeybatı | 18:00 | Veri bekleniyor | - | 1.31 | 6 |
-| Gyirmot - Kazincbarcika | Macaristan NB II | 18:00 | Veri bekleniyor | - | 1.87 | 8 |
-| Vitebsk - Neman Grodno | Belarus Premier Lig | 18:10 | Veri bekleniyor | - | 2.98 | 8 |
 | Mjallby - Elfsborg | İsveç Allsvenskan | 18:30 | Veri bekleniyor | - | 2.42 | 8 |
 | Pogon Szczecin - Motor Lublin | Polonya Ekstraklasa | 18:30 | Veri bekleniyor | - | 1.76 | 8 |
 | Salernitana - Sambiase | Hazırlık Kulüpler | 18:30 | Veri bekleniyor | - | 1.1 | 6 |
