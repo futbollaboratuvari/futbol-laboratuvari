@@ -1,22 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-08T05:58:58.358495+00:00
+=======
+Tarih: 2026-08-08T06:03:24.830385+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 531
 - Kac mac kaydedildi: 5
 - Kac mac zaten vardi: 526
+=======
+- Kac mac bulundu: 478
+- Kac mac kaydedildi: 5
+- Kac mac zaten vardi: 473
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 5604
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Grup B
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
@@ -40,12 +48,9 @@ Tarih: 2026-08-08T05:58:58.358495+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- CONCACAF Ligler Kupası Grup Aşaması
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
@@ -60,14 +65,12 @@ Tarih: 2026-08-08T05:58:58.358495+00:00
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Japonya J1 Lig
 - Japonya J2 Lig
 - Japonya J3 Lig
 - Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -80,9 +83,7 @@ Tarih: 2026-08-08T05:58:58.358495+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
-- Meksika Ascenso MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
