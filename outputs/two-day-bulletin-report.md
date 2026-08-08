@@ -2,54 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 525
-Aktif mac: 496
-Canli mac: 29
-Biten mac: 0
-Bultenden dusurulen mac: 29
-Bugun: 442
-Yarin: 54
+Ham mac: 584
+Aktif mac: 458
+Canli mac: 68
+Biten mac: 58
+Bultenden dusurulen mac: 126
+Bugun: 403
+Yarin: 55
 
 ## Baslamamis Maclar
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Darmstadt - Holstein Kiel | scheduled | -
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Karlsruhe - Arminia Bielefe | scheduled | -
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Magdeburg - Braunschweig | scheduled | -
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Heidenheim - Osnabruck | scheduled | -
-- 2026-08-08 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Sfk 2000 (K) - Racing (K) | scheduled | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Pohang Steeler - Ulsan | scheduled | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Bucheon - Gwangju | scheduled | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Gimcheon Sangm - Fc Seoul | scheduled | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Jeonbuk Hm - Jeju Utd | scheduled | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Anyang - Daejeon Citizen | scheduled | -
-- 2026-08-08 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Shanghai Shenhu | scheduled | -
-- 2026-08-08 14:00 | Hazırlık Kulüpler | Juventus - Inter | scheduled | -
-- 2026-08-08 14:00 | İsveç Superettan | Ljungskile - Oddevold | scheduled | -
-- 2026-08-08 14:00 | İsveç Superettan | Falkenberg - United Nordic | scheduled | -
-- 2026-08-08 14:00 | Norveç 2.Lig Grup 2 | Ik Junkeren - Follo | scheduled | -
-- 2026-08-08 14:00 | Polonya 2.Lig | Nkp Podhale - Hutnik Krakow | scheduled | -
-- 2026-08-08 14:00 | Güney Kore K Lig 2 | Seongnam - Cheonan City Fc | scheduled | -
-- 2026-08-08 14:00 | Güney Kore K Lig 2 | Paju Citizen - Suwon City | scheduled | -
-- 2026-08-08 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Changchun Yatai | scheduled | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Ullern - Gamle Oslo | scheduled | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Lokomotiv Oslo - Sf Grei | scheduled | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | If Ready - Heming | scheduled | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Nordstrand - Frigg | scheduled | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Staal Jorpeland | scheduled | -
-- 2026-08-08 14:00 | Danimarka 3.Lig | Ringsted - Helsingor | scheduled | -
-- 2026-08-08 14:00 | Galler FAW Championship Kuzey | Denbigh Town - Bangor | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Skiljebo Sk | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Böljan | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Vastra Götaland | Frolunda - Hestrafor | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Götaland | Staffanstorp U - Lilla Torg | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Haninge - Farsta | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Karlslunds If - Smedby Ais | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Örebro Syrians - Forward | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norra Götaland | Ahlafors If - If Karlstad Ii | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Ifk Lulea | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Taftea | scheduled | -
-- 2026-08-08 14:00 | Litvanya 1.Lig | Tauras - Neptüna Klaiped | scheduled | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 2 | Volda - Nardo | scheduled | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Kubikenborgs If | scheduled | -
 - 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Nantong Zhiyun | scheduled | -
 - 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Foshan Nanshi | scheduled | -
 - 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Shaanxi Union | scheduled | -
@@ -481,6 +442,7 @@ Yarin: 54
 - 2026-08-09 02:30 | Brezilya Serie A | Coritiba - Chapecoense | scheduled | -
 - 2026-08-09 02:30 | ABD USL | Rhode Island - Colorado Spring | scheduled | -
 - 2026-08-09 02:30 | ABD USL Lig 1 | One Knoxville - Sarasota Paradi | scheduled | -
+- 2026-08-09 02:30 | Bolivya Premier Lig | Aurora - Bolivar | scheduled | -
 - 2026-08-09 03:00 | Brezilya Serie A | Botafogo - Fluminense | scheduled | -
 - 2026-08-09 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Monterrey | scheduled | -
 - 2026-08-09 03:00 | Kosta Rika Premier Lig Apertura | Liberia - Perez Zeledon | scheduled | -
@@ -538,6 +500,102 @@ Yarin: 54
 - 2026-08-08 13:15 | Japonya J1 Lig | Hiroshima - Jef Utd Chiba | live | -
 - 2026-08-08 13:30 | Japonya J2 Lig | Sagan Tosu - Kofu | live | -
 - 2026-08-08 13:30 | Letonya 1.Lig | Skanste - Rezekne / Bjss | live | -
+- 2026-08-08 14:00 | Almanya 2. Bundesliga | Darmstadt - Holstein Kiel | live | -
+- 2026-08-08 14:00 | Almanya 2. Bundesliga | Karlsruhe - Arminia Bielefe | live | -
+- 2026-08-08 14:00 | Almanya 2. Bundesliga | Magdeburg - Braunschweig | live | -
+- 2026-08-08 14:00 | Almanya 2. Bundesliga | Heidenheim - Osnabruck | live | -
+- 2026-08-08 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Sfk 2000 (K) - Racing (K) | live | -
+- 2026-08-08 14:00 | Güney Kore K Lig 1 | Pohang Steeler - Ulsan | live | -
+- 2026-08-08 14:00 | Güney Kore K Lig 1 | Bucheon - Gwangju | live | -
+- 2026-08-08 14:00 | Güney Kore K Lig 1 | Gimcheon Sangm - Fc Seoul | live | -
+- 2026-08-08 14:00 | Güney Kore K Lig 1 | Jeonbuk Hm - Jeju Utd | live | -
+- 2026-08-08 14:00 | Güney Kore K Lig 1 | Anyang - Daejeon Citizen | live | -
+- 2026-08-08 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Shanghai Shenhu | live | -
+- 2026-08-08 14:00 | Hazırlık Kulüpler | Juventus - Inter | live | -
+- 2026-08-08 14:00 | İsveç Superettan | Ljungskile - Oddevold | live | -
+- 2026-08-08 14:00 | İsveç Superettan | Falkenberg - United Nordic | live | -
+- 2026-08-08 14:00 | Norveç 2.Lig Grup 2 | Ik Junkeren - Follo | live | -
+- 2026-08-08 14:00 | Polonya 2.Lig | Nkp Podhale - Hutnik Krakow | live | -
+- 2026-08-08 14:00 | Güney Kore K Lig 2 | Seongnam - Cheonan City Fc | live | -
+- 2026-08-08 14:00 | Güney Kore K Lig 2 | Paju Citizen - Suwon City | live | -
+- 2026-08-08 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Changchun Yatai | live | -
+- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Ullern - Gamle Oslo | live | -
+- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Lokomotiv Oslo - Sf Grei | live | -
+- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | If Ready - Heming | live | -
+- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Nordstrand - Frigg | live | -
+- 2026-08-08 14:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Staal Jorpeland | live | -
+- 2026-08-08 14:00 | Danimarka 3.Lig | Ringsted - Helsingor | live | -
+- 2026-08-08 14:00 | Galler FAW Championship Kuzey | Denbigh Town - Bangor | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Skiljebo Sk | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Böljan | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Vastra Götaland | Frolunda - Hestrafor | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Södra Götaland | Staffanstorp U - Lilla Torg | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Haninge - Farsta | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Karlslunds If - Smedby Ais | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Örebro Syrians - Forward | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Norra Götaland | Ahlafors If - If Karlstad Ii | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Ifk Lulea | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Taftea | live | -
+- 2026-08-08 14:00 | Litvanya 1.Lig | Tauras - Neptüna Klaiped | live | -
+- 2026-08-08 14:00 | Norveç 3.Lig Grup 2 | Volda - Nardo | live | -
+- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Kubikenborgs If | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | finished | -
+- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | finished | -
+- 2026-08-08 01:00 | Uruguay Premier Lig Clausura | Cerro Largo - Juventud Dl Pie | finished | -
+- 2026-08-08 01:30 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Aldosivi | finished | -
+- 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | finished | -
+- 2026-08-08 02:00 | Arjantin Ulusal Primera Lig | Midland - Maipu | finished | -
+- 2026-08-08 02:00 | Kanada Premier Lig | Forge - Vancouver Fc | finished | -
+- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Atlas | finished | -
+- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pachuca | finished | -
+- 2026-08-08 02:30 | Brezilya Serie B | Ceara - Ponte Preta | finished | -
+- 2026-08-08 02:30 | Bolivya Premier Lig | Real Tomayapo - Real Oruro | finished | -
+- 2026-08-08 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pumas Unam | finished | -
+- 2026-08-08 03:00 | Ekvador Pro Lig | Ldu Quito - Indep. Jose Ter | finished | -
+- 2026-08-08 03:30 | Şili Premier Lig | Univ. Catolica - Cobresal | finished | -
+- 2026-08-08 03:45 | Arjantin Premier Lig 2. Aşama | Rivadavia - Rio Cuarto | finished | -
+- 2026-08-08 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Minnesota Utd | finished | -
+- 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Durango - Piratas | finished | -
+- 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Ca La Paz | finished | -
+- 2026-08-08 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Walter Ferretti | finished | -
+- 2026-08-08 04:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Aguila | finished | -
+- 2026-08-08 04:30 | Peru Premier Lig Clausura | Universitario - Sporting Crista | finished | -
+- 2026-08-08 05:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Sporting San Jo | finished | -
+- 2026-08-08 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Xelaju | finished | -
+- 2026-08-08 05:00 | CONCACAF U20 Yarı Final | Kanada (U20) - Meksika (U20) | finished | -
+- 2026-08-08 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Fc Juarez | finished | -
+- 2026-08-08 07:00 | Avustralya NPL Tazmanya | South Hobart - Riverside Olymp | finished | -
+- 2026-08-08 07:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Valentine Phoen | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Cooma Tigers | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Ulverstone - South East Unit | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Glenorchy Knig - Launceston Unit | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Kingborough Li - Clarence Zebras | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | finished | -
+- 2026-08-08 08:00 | Avustralya NPL Güney Avustralya | Croydon Kings - Sturt Lions | finished | -
+- 2026-08-08 08:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Weston Bears | finished | -
+- 2026-08-08 08:00 | Avustralya Victoria NPL 1 | Melbourne Srbi - North Geelong | finished | -
+- 2026-08-08 08:30 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Sydney Olympic | finished | -
+- 2026-08-08 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Para Hills Knig | finished | -
+- 2026-08-08 08:45 | Japonya J2 Lig | Sapporo - Tokushima | finished | -
+- 2026-08-08 09:00 | Avustralya NPL Batı Avustralya | Bayswater City - Sorrento | finished | -
+- 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Belmont Swanse - Lambton Jaffas | finished | -
+- 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Adamstown Rose - Cooks Hill Unit | finished | -
+- 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Marconi | finished | -
+- 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Western Sydney | finished | -
+- 2026-08-08 10:30 | Hazırlık Kulüpler | Elche - Toulouse | finished | -
+- 2026-08-08 10:30 | Avustralya NPL Başkent Bölgesi | Canberra - O Connor Knight | finished | -
+- 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Blacktown City | finished | -
+- 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sydney Ii | finished | -
+- 2026-08-08 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Belconnen Unite | finished | -
+- 2026-08-08 11:00 | Hazırlık Kulüpler | Alcorcon - Navalcarnero | finished | -
+- 2026-08-08 11:00 | Avustralya NPL Queensland | Eastern Suburb - Brisbane Wolves | finished | -
+- 2026-08-08 11:00 | Avustralya NPL Queensland | Magic United - Rochedale Rover | finished | -
+- 2026-08-08 11:00 | Avustralya NPL Queensland | Brisbane Olymp - Moreton City Ex | finished | -
+- 2026-08-08 11:00 | Avustralya NPL Queensland | Gold Coast Kni - Peninsula Power | finished | -
+- 2026-08-08 11:00 | Avustralya NPL Queensland | Brisbane City - Gold Coast Unit | finished | -
+- 2026-08-08 11:00 | Macaristan NB III Güneydoğu | Ujpest Ii - Bekescsaba Elor | finished | -
+- 2026-08-08 11:30 | Hazırlık Kulüpler | Lumezzane - Crema | finished | -
+- 2026-08-08 11:30 | Hazırlık Kulüpler | Ucam Murcia - Orihuela | finished | -
+- 2026-08-08 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Apia | finished | -

@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 13:53:23
+Oluşturma: 08.08.2026 14:10:21
 
 ## Özet
 
-- Toplam tahmin: 314
-- Bekleyen tahmin: 314
+- Toplam tahmin: 316
+- Bekleyen tahmin: 316
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 94
@@ -20,12 +20,14 @@ Oluşturma: 08.08.2026 13:53:23
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 114, bekleyen 114, başarı bekleniyor, ağırlık 1
-- MS X: toplam 181, bekleyen 181, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 115, bekleyen 115, başarı bekleniyor, ağırlık 1
+- MS X: toplam 182, bekleyen 182, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | İskoçya 2.Lig | Kelty Hearts - Stirling Albion | MS 2 | pending | 50/100
+- 2026-08-08 | Güney Kore K Lig 1 | Gimcheon Sangm - Fc Seoul | MS X | pending | 50/100
 - 2026-08-08 | Macaristan NB III Güneybatı | Erdi Vse - Paksi Fc Ii | MS 2 | pending | 50/100
 - 2026-08-08 | Almanya Bölgesel Lig Güney Batı | Eintracht Trie - Lehnerz | MS X | pending | 50/100
 - 2026-08-08 | Güney Kore K Lig 1 | Pohang Steeler - Ulsan | MS 1 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 08.08.2026 13:53:23
 - 2026-08-08 | Fransa Ligue 2 | Pau Fc - Annecy | MS X | pending | 50/100
 - 2026-08-08 | Fransa Ligue 2 | Boulogne - Nancy | MS X | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Dunkerque - Grenoble | MS 2 | pending | 40/100
-- 2026-08-08 | Fransa Ligue 2 | Rodez Aveyron - Stade Lavallois | MS 2 | pending | 50/100
-- 2026-08-08 | Hazırlık Kulüpler | Genoa - D.La Coruna | MS X | pending | 40/100
 

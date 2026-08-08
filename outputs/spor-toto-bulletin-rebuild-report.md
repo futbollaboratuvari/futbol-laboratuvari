@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-08T08:24:44.859Z
-- Ham fixture sayisi: 5579
-- Bugun/yarin kaynak mac: 567
-- Aktif bulten maci: 512
+- Guncelleme: 2026-08-08T11:01:59.478Z
+- Ham fixture sayisi: 5596
+- Bugun/yarin kaynak mac: 584
+- Aktif bulten maci: 458
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 55
+- Bultenden dusurulen mac: 126
 
-- 1. 2026-08-08 11:30 | Hazırlık Kulüpler | Lumezzane - Crema | scheduled
-- 2. 2026-08-08 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Apia | scheduled
-- 3. 2026-08-08 11:30 | Hazırlık Kulüpler | Ucam Murcia - Orihuela | scheduled
-- 4. 2026-08-08 12:00 | Hazırlık Kulüpler | G.Segoviana - Atl Madrid Ii | scheduled
-- 5. 2026-08-08 12:00 | Japonya J3 Lig | Parceiro Nagan - Renofa Yamaguch | scheduled
-- 6. 2026-08-08 12:00 | Japonya J3 Lig | Sagamihara - Roasso Kumamoto | scheduled
-- 7. 2026-08-08 12:00 | Rusya FNL | Yenisey - Tekstilshchik | scheduled
-- 8. 2026-08-08 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Znk Mura (K) - Hajduk Split (K | scheduled
-- 9. 2026-08-08 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Rockdale Cs | scheduled
-- 10. 2026-08-08 12:30 | Japonya J2 Lig | Fujieda - Sendai | scheduled
-- 11. 2026-08-08 12:30 | Norveç 3.Lig Grup 5 | Skedsmo - Fauske/Sprint | scheduled
-- 12. 2026-08-08 12:30 | Japonya J2 Lig | Vanraure - Kataller Toyama | scheduled
-- 13. 2026-08-08 12:30 | Avustralya FFA Kupası Son 16 Turu | Western Sydney - Melbourne Victo | scheduled
-- 14. 2026-08-08 13:00 | Japonya J1 Lig | Avispa Fukuoka - Vissel Kobe | scheduled
-- 15. 2026-08-08 13:00 | Japonya J1 Lig | Cerezo Osaka - Fagiano Okayama | scheduled
+- 1. 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Shaanxi Union | scheduled
+- 2. 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Foshan Nanshi | scheduled
+- 3. 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Nantong Zhiyun | scheduled
+- 4. 2026-08-08 14:30 | Danimarka 2.Lig | Vsk Arhus - Fremad Amager | scheduled
+- 5. 2026-08-08 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Liaoning Tieren | scheduled
+- 6. 2026-08-08 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Wuhan Three Tow | scheduled
+- 7. 2026-08-08 15:00 | Danimarka 1.Lig | Aarhus Fremad - Hb Koge | scheduled
+- 8. 2026-08-08 15:00 | Kazakistan Premier Lig | Altay - Kyzyl-Zhar | scheduled
+- 9. 2026-08-08 15:00 | Norveç 3.Lig Grup 1 | Asker - Valerenga Ii | scheduled
+- 10. 2026-08-08 15:00 | Litvanya 1.Lig | Atmosfera - Fa Siauliai Ii | scheduled
+- 11. 2026-08-08 15:00 | Litvanya 1.Lig | Bfa - Transinvest Vil | scheduled
+- 12. 2026-08-08 15:00 | Norveç 2.Lig Grup 1 | Bjarg - Sotra Sk | scheduled
+- 13. 2026-08-08 15:00 | Norveç 3.Lig Grup 6 | Bjorkelangen - Oppsal | scheduled
+- 14. 2026-08-08 15:00 | Danimarka 3.Lig | Bronshoj - Sundby | scheduled
+- 15. 2026-08-08 15:00 | İngiltere Lig Kupası 1.Tur | Cambridge - Barnet | scheduled
