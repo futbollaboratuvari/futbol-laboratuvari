@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-08T19:36:21.261Z
+- Güncelleme: 2026-08-08T19:45:58.153Z
 - Ham maç sayısı: 124
 - Yarın bülteni maç sayısı: 55
 - Detay blok sayısı: 355
@@ -12,8 +12,8 @@
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tigre - River Plate | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 3.13 | 8 |
-| Monagas - Carabobo | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 3.54 | 8 |
+| Tigre - River Plate | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 3.03 | 8 |
+| Monagas - Carabobo | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 3.64 | 8 |
 | New England - Houston | ABD MLS | 23:30 | Veri bekleniyor | - | 2.12 | 8 |
 | Juan Pablo Ii - Atletico Grau | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 2.15 | 8 |
 | Aurora - Comunicaciones | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 2.79 | 8 |

@@ -1,13 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 85
-Tam analiz: 75
-Eksik analiz: 10
+Toplam analiz: 69
+Tam analiz: 62
+Eksik analiz: 7
 
-- Psv Eindhoven VS Hjk (K): eksik score, confidence
-- E. Frankfurt ( VS Malmö Ff (K): eksik score, confidence
-- Aek VS Kallithea: eksik score, confidence
 - La Nucia VS Alcoyano: eksik score, confidence
 - Caseros VS Deportivo Madry: eksik score, confidence
 - Agropecuario VS Club Atletico G: eksik score, confidence
