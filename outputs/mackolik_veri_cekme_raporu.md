@@ -3,7 +3,7 @@
 - Kaynak: Güncel veri bekleniyor
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-08T22:53:57.000Z
+- Güncelleme: 2026-08-08T23:17:17.211Z
 - Maç sayısı: 0
 - Aktif analiz sayısı: 0
 - Filtre: Çifte şans yok, eski sabit veri yok, düşük oranlı marketler elendi.

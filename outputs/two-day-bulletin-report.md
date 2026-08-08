@@ -4,26 +4,14 @@ Gunler: 2026-08-09 / 2026-08-10
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 323
-Aktif mac: 310
-Canli mac: 13
+Aktif mac: 298
+Canli mac: 25
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 278
+Bultenden dusurulen mac: 25
+Bugun: 266
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Cd Tapatio | scheduled | -
-- 2026-08-09 02:00 | ABD USL | Brooklyn - Birmingham Legi | scheduled | -
-- 2026-08-09 02:00 | ABD USL | Lexington - Phoenix Rising | scheduled | -
-- 2026-08-09 02:00 | ABD USL | Miami Fc - Las Vegas Light | scheduled | -
-- 2026-08-09 02:00 | ABD USL | Pittsburgh Riv - Sacramento Repu | scheduled | -
-- 2026-08-09 02:00 | ABD USL | Loudoun United - Charleston Batt | scheduled | -
-- 2026-08-09 02:00 | El Salvador Primera Lig Apertura | Inter Fa - Alianza | scheduled | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | New York Cosmo - Spokane Velocit | scheduled | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | Portland Heart - Corpus Christi | scheduled | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | Chattanooga Re - Union Omaha | scheduled | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | Charlotte Inde - Greenville Triu | scheduled | -
-- 2026-08-09 02:15 | Honduras Ulusal Lig Apertura | Upnfm - Olancho | scheduled | -
 - 2026-08-09 02:30 | Brezilya Serie A | Coritiba - Chapecoense | scheduled | -
 - 2026-08-09 02:30 | ABD USL | Rhode Island - Colorado Spring | scheduled | -
 - 2026-08-09 02:30 | ABD USL Lig 1 | One Knoxville - Sarasota Paradi | scheduled | -
@@ -324,6 +312,18 @@ Yarin: 32
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
+- 2026-08-09 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Cd Tapatio | live | -
+- 2026-08-09 02:00 | ABD USL | Brooklyn - Birmingham Legi | live | -
+- 2026-08-09 02:00 | ABD USL | Lexington - Phoenix Rising | live | -
+- 2026-08-09 02:00 | ABD USL | Miami Fc - Las Vegas Light | live | -
+- 2026-08-09 02:00 | ABD USL | Pittsburgh Riv - Sacramento Repu | live | -
+- 2026-08-09 02:00 | ABD USL | Loudoun United - Charleston Batt | live | -
+- 2026-08-09 02:00 | El Salvador Primera Lig Apertura | Inter Fa - Alianza | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | New York Cosmo - Spokane Velocit | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | Portland Heart - Corpus Christi | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | Chattanooga Re - Union Omaha | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | Charlotte Inde - Greenville Triu | live | -
+- 2026-08-09 02:15 | Honduras Ulusal Lig Apertura | Upnfm - Olancho | live | -
 - 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | live | -
 - 2026-08-09 00:00 | Kanada Premier Lig | Pacific Fc - Inter Toronto | live | -
 - 2026-08-09 00:00 | Honduras Ulusal Lig Apertura | Platense - Marathon | live | -
