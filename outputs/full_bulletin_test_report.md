@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 298
-- Live match count: 0
+- Live match count: 21
 - Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
-- 2026-08-09 02:30 | One Knoxville - Sarasota Paradi | scheduled
-- 2026-08-09 02:30 | Rhode Island - Colorado Spring | scheduled
-- 2026-08-09 02:30 | Aurora - Bolivar | scheduled
-- 2026-08-09 02:30 | Coritiba - Chapecoense | scheduled
-- 2026-08-09 03:00 | Louisville Cit - San Antonio | scheduled
-- 2026-08-09 03:00 | Botafogo - Fluminense | scheduled
-- 2026-08-09 03:00 | Inter Miami - Monterrey | scheduled
-- 2026-08-09 03:00 | Barcelona Gua - Depor Macara | scheduled
-- 2026-08-09 03:00 | Supra Du Quebe - Cavalry | scheduled
-- 2026-08-09 03:00 | Liberia - Perez Zeledon | scheduled
+- 2026-08-09 00:15 | The Strongest - Independiente P | live
+- 2026-08-09 00:30 | Remo - Atletico Mg | live
+- 2026-08-09 00:30 | Botafogo Ribei - America Mineiro | live
+- 2026-08-09 00:30 | Aucas - Leones Del Nort | live
+- 2026-08-09 00:30 | Coquimbo Unido - La Serena | live
+- 2026-08-09 00:30 | Torque - Penarol | live
+- 2026-08-09 01:00 | Jalapa - Export Sebaco | live
+- 2026-08-09 01:15 | Boca Juniors - Velez Sarsfield | live
+- 2026-08-09 01:30 | Orlando City - Club Leon | live
+- 2026-08-09 02:00 | Brooklyn - Birmingham Legi | live

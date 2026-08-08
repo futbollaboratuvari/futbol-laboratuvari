@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-09 / 2026-08-10
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 323
 Aktif mac: 298
-Canli mac: 25
-Biten mac: 0
+Canli mac: 21
+Biten mac: 4
 Bultenden dusurulen mac: 25
 Bugun: 266
 Yarin: 32
@@ -337,6 +336,21 @@ Yarin: 32
 - 2026-08-09 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Export Sebaco | live | -
 - 2026-08-09 01:15 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Velez Sarsfield | live | -
 - 2026-08-09 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Club Leon | live | -
+- 2026-08-09 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Cd Tapatio | live | -
+- 2026-08-09 02:00 | ABD USL | Brooklyn - Birmingham Legi | live | -
+- 2026-08-09 02:00 | ABD USL | Lexington - Phoenix Rising | live | -
+- 2026-08-09 02:00 | ABD USL | Miami Fc - Las Vegas Light | live | -
+- 2026-08-09 02:00 | ABD USL | Pittsburgh Riv - Sacramento Repu | live | -
+- 2026-08-09 02:00 | ABD USL | Loudoun United - Charleston Batt | live | -
+- 2026-08-09 02:00 | El Salvador Primera Lig Apertura | Inter Fa - Alianza | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | New York Cosmo - Spokane Velocit | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | Portland Heart - Corpus Christi | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | Chattanooga Re - Union Omaha | live | -
+- 2026-08-09 02:00 | ABD USL Lig 1 | Charlotte Inde - Greenville Triu | live | -
+- 2026-08-09 02:15 | Honduras Ulusal Lig Apertura | Upnfm - Olancho | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
+- 2026-08-09 00:00 | Kanada Premier Lig | Pacific Fc - Inter Toronto | finished | -
+- 2026-08-09 00:00 | Honduras Ulusal Lig Apertura | Platense - Marathon | finished | -
+- 2026-08-09 00:00 | El Salvador Primera Lig Apertura | Platense - Inca-Aruba | finished | -
