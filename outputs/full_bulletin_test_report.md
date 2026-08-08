@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 123
-- Live match count: 73
-- Finished removed count: 29
+- Scheduled match count: 119
+- Live match count: 77
+- Finished removed count: 0
 - Date window: 2026-08-08 / 2026-08-09 23:59
 
 - 2026-08-08 18:30 | Austria Salzbu - First Vienna | live

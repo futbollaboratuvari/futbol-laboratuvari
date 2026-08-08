@@ -4,14 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-08T17:28:51.745Z
+- Güncelleme: 2026-08-08T17:33:23.159Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vitebsk VS Neman Grodno | Belarus Premier Lig | 18:10 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Mjallby VS Elfsborg | İsveç Allsvenskan | 18:30 | MS X | 2.93 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Pogon Szczecin VS Motor Lublin | Polonya Ekstraklasa | 18:30 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Salernitana VS Sambiase | Hazırlık Kulüpler | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -86,7 +85,7 @@
 | Castellon VS Levante | Hazırlık Kulüpler | 20:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Sireti VS Csf Balti | Moldova Ulusal Lig | 20:00 | MS X | 2.76 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Hartberg VS Sturm Graz | Avusturya Bundesliga | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Cska Moskova VS Rostov | Rusya Premier Lig | 20:30 | MS 2 | 3.66 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cska Moskova VS Rostov | Rusya Premier Lig | 20:30 | MS 2 | 3.66 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | La Nucia VS Alcoyano | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Atletico Astor VS Dep. Fabril | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Atletico Tucum VS Sarmiento | Arjantin Premier Lig 2. Aşama | 20:45 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -183,9 +182,9 @@
 | One Knoxville VS Sarasota Paradi | ABD USL Lig 1 | 02:30 | MS 2 | 3.96 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Aurora VS Bolivar | Bolivya Premier Lig | 02:30 | MS X | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Botafogo VS Fluminense | Brezilya Serie A | 03:00 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Inter Miami VS Monterrey | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS X | 3.67 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Inter Miami VS Monterrey | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS X | 3.62 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Liberia VS Perez Zeledon | Kosta Rika Premier Lig Apertura | 03:00 | MS 2 | 3.52 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Barcelona Gua VS Depor Macara | Ekvador Pro Lig | 03:00 | MS 2 | 4.45 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Barcelona Gua VS Depor Macara | Ekvador Pro Lig | 03:00 | MS 2 | 4.69 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Supra Du Quebe VS Cavalry | Kanada Premier Lig | 03:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Louisville Cit VS San Antonio | ABD USL | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Diriangen VS Rancho Santana | Nikaragua Premier Lig Apertura | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -217,17 +216,17 @@
 | St. Truidense VS Lommel | MS 2 | 5.72 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Dinamo Bükreş VS Voluntari | MS 2 | 5.12 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Wolfsburg VS Kaiserslautern | MS 2 | 4.41 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Inter Miami VS Monterrey | MS X | 3.67 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Inter Miami VS Monterrey | MS X | 3.62 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Go Ahead Eagle VS Willem + Servette VS Grasshoppers | MS 2 + MS 2 | 29.74 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | St. Truidense VS Lommel + Dinamo Bükreş VS Voluntari | MS 2 + MS 2 | 29.29 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Wolfsburg VS Kaiserslautern + Inter Miami VS Monterrey | MS 2 + MS X | 16.18 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Wolfsburg VS Kaiserslautern + Inter Miami VS Monterrey | MS 2 + MS X | 15.96 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Go Ahead Eagle VS Willem + Servette VS Grasshoppers + St. Truidense VS Lommel | MS 2 + MS 2 + MS 2 | 170.09 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Dinamo Bükreş VS Voluntari + Wolfsburg VS Kaiserslautern + Inter Miami VS Monterrey | MS 2 + MS 2 + MS X | 82.87 | 72 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Dinamo Bükreş VS Voluntari + Wolfsburg VS Kaiserslautern + Inter Miami VS Monterrey | MS 2 + MS 2 + MS X | 81.74 | 72 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
