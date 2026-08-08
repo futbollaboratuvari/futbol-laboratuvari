@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 19:03:04
+Oluşturma: 08.08.2026 19:25:18
 
 ## Özet
 
-- Toplam tahmin: 233
-- Bekleyen tahmin: 233
+- Toplam tahmin: 234
+- Bekleyen tahmin: 234
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 77
@@ -20,12 +20,13 @@ Oluşturma: 08.08.2026 19:03:04
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
 - MS X: toplam 139, bekleyen 139, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 83, bekleyen 83, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Brezilya Serie A | Gremio - Sao Paulo | MS 2 | pending | 40/100
 - 2026-08-08 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | MS X | pending | 40/100
 - 2026-08-08 | Norveç Eliteserien | Start - Fredrikstad | MS 2 | pending | 50/100
 - 2026-08-08 | Belçika Pro Lig | St. Truidense - Lommel | MS 2 | pending | 75/100
@@ -40,5 +41,4 @@ Oluşturma: 08.08.2026 19:03:04
 - 2026-08-08 | Hazırlık Kulüpler | Genoa - D.La Coruna | MS X | pending | 40/100
 - 2026-08-08 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Juventus (K) - Hammarby (K) | MS X | pending | 40/100
 - 2026-08-08 | Hazırlık Kulüpler | Valencia - Newcastle Utd | MS X | pending | 50/100
-- 2026-08-08 | Hazırlık Kulüpler | Mallorca - Elversberg | MS X | pending | 50/100
 
