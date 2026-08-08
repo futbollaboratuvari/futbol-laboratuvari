@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 138
-- Live match count: 87
-- Finished removed count: 0
+- Scheduled match count: 123
+- Live match count: 73
+- Finished removed count: 29
 - Date window: 2026-08-08 / 2026-08-09 23:59
 
-- 2026-08-08 17:50 | Livyi Bereh - Kudrivka | live
-- 2026-08-08 18:00 | Grazer Ak - Avusturya Luste | live
-- 2026-08-08 18:00 | Teplice - Viktoria Plzen | live
-- 2026-08-08 18:00 | Zlin - Bohemians | live
-- 2026-08-08 18:00 | Kapa - Ekenas If | live
-- 2026-08-08 18:00 | Sjk Ii - Pk-35 Ry | live
-- 2026-08-08 18:00 | Angers - Lorient | live
-- 2026-08-08 18:00 | Modena - Vis Pasaro | live
-- 2026-08-08 18:00 | Psg - Man. Utd | live
-- 2026-08-08 18:00 | Schalke - Atalanta | live
+- 2026-08-08 18:30 | Austria Salzbu - First Vienna | live
+- 2026-08-08 18:30 | Bregenz - Kapfenberg | live
+- 2026-08-08 18:30 | Strum Graz Ii - Floridsdorfer | live
+- 2026-08-08 18:30 | Angers - Lorient | live
+- 2026-08-08 18:30 | Salernitana - Sambiase | live
+- 2026-08-08 18:30 | Mjallby - Elfsborg | live
+- 2026-08-08 18:30 | Jdfs Alberts - Riga Ii | live
+- 2026-08-08 18:30 | Metta / Lu - Rigas Fs Ii | live
+- 2026-08-08 18:30 | Kisvarda - Ujpest | live
+- 2026-08-08 18:30 | Bvsc - Kecskemeti | live

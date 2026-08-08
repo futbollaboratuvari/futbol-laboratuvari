@@ -2,30 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 225
-Aktif mac: 138
-Canli mac: 87
+Ham mac: 197
+Aktif mac: 123
+Canli mac: 74
 Biten mac: 0
-Bultenden dusurulen mac: 87
-Bugun: 83
+Bultenden dusurulen mac: 74
+Bugun: 68
 Yarin: 55
 
 ## Baslamamis Maclar
-- 2026-08-08 20:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Psv Eindhoven - Hjk (K) | scheduled | -
-- 2026-08-08 20:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | E. Frankfurt ( - Malmö Ff (K) | scheduled | -
-- 2026-08-08 20:00 | Hazırlık Kulüpler | Leganes - Tenerife | scheduled | -
-- 2026-08-08 20:00 | Hazırlık Kulüpler | Aek - Kallithea | scheduled | -
-- 2026-08-08 20:00 | Hazırlık Kulüpler | Barbastro - Atletic Lleida | scheduled | -
-- 2026-08-08 20:00 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | scheduled | -
-- 2026-08-08 20:00 | Hazırlık Kulüpler | Marino De Luan - Ponferradina | scheduled | -
-- 2026-08-08 20:00 | Portekiz 2.Lig | Tondela - Amarante Fc | scheduled | -
-- 2026-08-08 20:00 | Gürcistan Erovnuli Liga | Dinamo Batumi - Gagra | scheduled | -
-- 2026-08-08 20:00 | Guatemala Ulusal Lig Apertura | Mixco - Marquense | scheduled | -
-- 2026-08-08 20:00 | Norveç 3.Lig Grup 2 | Ntnui - Byasen | scheduled | -
-- 2026-08-08 20:00 | Kanada Premier Lig | Atletico Ottaw - Hfx Wanderers | scheduled | -
-- 2026-08-08 20:00 | Portekiz Premier Lig | Guimaraes - Arouca | scheduled | -
-- 2026-08-08 20:00 | Hazırlık Kulüpler | Castellon - Levante | scheduled | -
-- 2026-08-08 20:00 | Moldova Ulusal Lig | Sireti - Csf Balti | scheduled | -
 - 2026-08-08 20:30 | Avusturya Bundesliga | Hartberg - Sturm Graz | scheduled | -
 - 2026-08-08 20:30 | Rusya Premier Lig | Cska Moskova - Rostov | scheduled | -
 - 2026-08-08 20:30 | Hazırlık Kulüpler | La Nucia - Alcoyano | scheduled | -
@@ -151,34 +136,6 @@ Yarin: 55
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 17:50 | Ukrayna Premier Lig | Livyi Bereh - Kudrivka | live | -
-- 2026-08-08 18:00 | Ukrayna Premier Lig | Bukovyna - Obolon-Brovar | live | -
-- 2026-08-08 18:00 | Avusturya Bundesliga | Grazer Ak - Avusturya Luste | live | -
-- 2026-08-08 18:00 | Rusya Premier Lig | L.Moskova - Akron | live | -
-- 2026-08-08 18:00 | Çek Cumhuriyeti Czech Liga | Zlin - Bohemians 1905 | live | -
-- 2026-08-08 18:00 | Çek Cumhuriyeti Czech Liga | Teplice - Viktoria Plzen | live | -
-- 2026-08-08 18:00 | Hazırlık Kulüpler | Angers - Lorient | live | -
-- 2026-08-08 18:00 | Hazırlık Kulüpler | Modena - Vis Pasaro | live | -
-- 2026-08-08 18:00 | Hazırlık Kulüpler | Psg - Man. Utd | live | -
-- 2026-08-08 18:00 | Hazırlık Kulüpler | Stuttgart - Everton | live | -
-- 2026-08-08 18:00 | Hazırlık Kulüpler | Schalke - Atalanta | live | -
-- 2026-08-08 18:00 | İsveç Superettan | Norrkoping - Brage | live | -
-- 2026-08-08 18:00 | Finlandiya Ykkösliiga | Kapa - Ekenas If | live | -
-- 2026-08-08 18:00 | Finlandiya Ykkösliiga | Sjk Ii - Pk-35 Ry | live | -
-- 2026-08-08 18:00 | Rusya FNL | Torpedo Moskov - Pfc Sochi | live | -
-- 2026-08-08 18:00 | Moldova Ulusal Lig | Politeh Chişin - Milsami-Ursidos | live | -
-- 2026-08-08 18:00 | Slovakya 2.Lig | Galanta - Petrzalka | live | -
-- 2026-08-08 18:00 | Slovakya 2.Lig | Mfk Bytca - Inter Bratislav | live | -
-- 2026-08-08 18:00 | Slovakya 2.Lig | Banik Lehota P - Malzenice | live | -
-- 2026-08-08 18:00 | Slovakya 2.Lig | Humenne - Lokomotiva Zvol | live | -
-- 2026-08-08 18:00 | Polonya 2.Lig | Rekord Bielsko - Stal S Wola | live | -
-- 2026-08-08 18:00 | Kazakistan Premier Lig | Kaspyi - Ulytau | live | -
-- 2026-08-08 18:00 | Letonya 1.Lig | Smiltene - Valmieras Fk/Bs | live | -
-- 2026-08-08 18:00 | Letonya 1.Lig | Jfk Ventspils - Super Nova Ii | live | -
-- 2026-08-08 18:00 | Litvanya 1.Lig | Fk Dainava - Babrungas | live | -
-- 2026-08-08 18:00 | Litvanya 1.Lig | Minija - Be1 Nfa | live | -
-- 2026-08-08 18:00 | Macaristan NB III Kuzeybatı | Gyor Ii - Sárisápi Bányás | live | -
-- 2026-08-08 18:00 | Macaristan NB II | Gyirmot - Kazincbarcika | live | -
 - 2026-08-08 18:10 | Belarus Premier Lig | Vitebsk - Neman Grodno | live | -
 - 2026-08-08 18:30 | İsveç Allsvenskan | Mjallby - Elfsborg | live | -
 - 2026-08-08 18:30 | Polonya Ekstraklasa | Pogon Szczecin - Motor Lublin | live | -
@@ -238,6 +195,21 @@ Yarin: 55
 - 2026-08-08 19:30 | Hırvatistan 1.HNL | Rudes - Osijek | live | -
 - 2026-08-08 19:30 | Portekiz 3.Lig Grup B | Cf Os Belenens - Caldas | live | -
 - 2026-08-08 19:45 | Hollanda Eredivisie | Go Ahead Eagle - Willem | live | -
+- 2026-08-08 20:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Psv Eindhoven - Hjk (K) | live | -
+- 2026-08-08 20:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | E. Frankfurt ( - Malmö Ff (K) | live | -
+- 2026-08-08 20:00 | Hazırlık Kulüpler | Leganes - Tenerife | live | -
+- 2026-08-08 20:00 | Hazırlık Kulüpler | Aek - Kallithea | live | -
+- 2026-08-08 20:00 | Hazırlık Kulüpler | Barbastro - Atletic Lleida | live | -
+- 2026-08-08 20:00 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | live | -
+- 2026-08-08 20:00 | Hazırlık Kulüpler | Marino De Luan - Ponferradina | live | -
+- 2026-08-08 20:00 | Portekiz 2.Lig | Tondela - Amarante Fc | live | -
+- 2026-08-08 20:00 | Gürcistan Erovnuli Liga | Dinamo Batumi - Gagra | live | -
+- 2026-08-08 20:00 | Guatemala Ulusal Lig Apertura | Mixco - Marquense | live | -
+- 2026-08-08 20:00 | Norveç 3.Lig Grup 2 | Ntnui - Byasen | live | -
+- 2026-08-08 20:00 | Kanada Premier Lig | Atletico Ottaw - Hfx Wanderers | live | -
+- 2026-08-08 20:00 | Portekiz Premier Lig | Guimaraes - Arouca | live | -
+- 2026-08-08 20:00 | Hazırlık Kulüpler | Castellon - Levante | live | -
+- 2026-08-08 20:00 | Moldova Ulusal Lig | Sireti - Csf Balti | live | -
 
 ## Biten Maclar
 Biten mac yok.
