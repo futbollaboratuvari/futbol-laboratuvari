@@ -2,31 +2,30 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-08T16:42:54.926Z
-- Ham maç sayısı: 230
+- Güncelleme: 2026-08-08T16:54:28.291Z
+- Ham maç sayısı: 225
 - Yarın bülteni maç sayısı: 55
-- Detay blok sayısı: 659
-- Aktif bülten maçı: 139
-- Bültenden düşürülen maç: 91
+- Detay blok sayısı: 645
+- Aktif bülten maçı: 138
+- Bültenden düşürülen maç: 87
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Go Ahead Eagle - Willem | Hollanda Eredivisie | 19:45 | Veri bekleniyor | - | 1.34 | 7 |
 | Psv Eindhoven - Hjk (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | 20:00 | Veri bekleniyor | - | 1.18 | 6 |
 | E. Frankfurt ( - Malmö Ff (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | 20:00 | Veri bekleniyor | - | 1.1 | 6 |
-| Leganes - Tenerife | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.11 | 8 |
+| Leganes - Tenerife | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.8 | 8 |
 | Aek - Kallithea | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.06 | 4 |
 | Barbastro - Atletic Lleida | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 1.9 | 8 |
-| Ferencvaros - Real Madrid | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 6.46 | 6 |
+| Ferencvaros - Real Madrid | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 6.21 | 6 |
 | Marino De Luan - Ponferradina | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 3.62 | 8 |
 | Tondela - Amarante Fc | Portekiz 2.Lig | 20:00 | Veri bekleniyor | - | 1.37 | 7 |
-| Dinamo Batumi - Gagra | Gürcistan Erovnuli Liga | 20:00 | Veri bekleniyor | - | 1.57 | 7 |
-| Mixco - Marquense | Guatemala Ulusal Lig Apertura | 20:00 | Veri bekleniyor | - | 1.37 | 7 |
+| Dinamo Batumi - Gagra | Gürcistan Erovnuli Liga | 20:00 | Veri bekleniyor | - | 1.51 | 7 |
+| Mixco - Marquense | Guatemala Ulusal Lig Apertura | 20:00 | Veri bekleniyor | - | 1.34 | 7 |
 | Ntnui - Byasen | Norveç 3.Lig Grup 2 | 20:00 | Veri bekleniyor | - | 2.32 | 6 |
-| Atletico Ottaw - Hfx Wanderers | Kanada Premier Lig | 20:00 | Veri bekleniyor | - | 1.63 | 8 |
+| Atletico Ottaw - Hfx Wanderers | Kanada Premier Lig | 20:00 | Veri bekleniyor | - | 1.67 | 8 |
 | Guimaraes - Arouca | Portekiz Premier Lig | 20:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Castellon - Levante | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.52 | 8 |
+| Castellon - Levante | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.77 | 8 |
 | Sireti - Csf Balti | Moldova Ulusal Lig | 20:00 | Veri bekleniyor | - | 2.3 | 8 |
 | Hartberg - Sturm Graz | Avusturya Bundesliga | 20:30 | Veri bekleniyor | - | 4.2 | 8 |
 | Cska Moskova - Rostov | Rusya Premier Lig | 20:30 | Veri bekleniyor | - | 1.69 | 8 |
@@ -38,7 +37,7 @@
 | Mlada Boleslav - Sparta Prag | Çek Cumhuriyeti Czech Liga | 21:00 | Veri bekleniyor | - | 3.42 | 8 |
 | Kizilyildiz - Novi Pazar | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | - | 3 |
 | Radnicki 1923 - Zemun Belg. | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 1.18 | 6 |
-| Vicenza - Catania | İtalya Kupa Ön Eleme Turu | 21:00 | Veri bekleniyor | - | 1.52 | 7 |
+| Vicenza - Catania | İtalya Kupa Ön Eleme Turu | 21:00 | Veri bekleniyor | - | 1.5 | 7 |
 | Osasuna - Al Ain | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.51 | 7 |
 | Univ De Cajama - Adt | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.63 | 8 |
 | Caseros - Deportivo Madry | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.7 | 5 |
@@ -50,7 +49,7 @@
 | Dunav 2010 - Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 3.25 | 8 |
 | P. Bielsko - Lechia Gdansk | Polonya 1.Lig | 21:15 | Veri bekleniyor | - | 1.25 | 6 |
 | Celje - Olimpija Ljubli | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 1.83 | 8 |
-| Wolfsburg - Kaiserslautern | Almanya 2. Bundesliga | 21:30 | Veri bekleniyor | - | 1.43 | 8 |
+| Wolfsburg - Kaiserslautern | Almanya 2. Bundesliga | 21:30 | Veri bekleniyor | - | 1.4 | 7 |
 | Servette - Grasshoppers | İsviçre Süper Lig | 21:30 | Veri bekleniyor | - | 1.29 | 7 |
 | Ascoli Picchio - Rossoblu Potenz | İtalya Kupa Ön Eleme Turu | 21:30 | Veri bekleniyor | - | 1.41 | 7 |
 | Tarragona - Girona | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 2.99 | 8 |
@@ -61,10 +60,10 @@
 | Dinamo Bükreş - Voluntari | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 1.31 | 7 |
 | Spartak Trnava - Dukla Banska By | Slovakya Süper Lig | 21:30 | Veri bekleniyor | - | 1.09 | 6 |
 | Antalyaspor - A. Keçiörengücü | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 1.63 | 8 |
-| Ajax (K) - Rangers (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | 21:30 | Veri bekleniyor | - | 1.19 | 4 |
+| Ajax (K) - Rangers (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | 21:30 | Veri bekleniyor | - | 1.32 | 4 |
 | S. Praha (K) - Brondby (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | 21:30 | Veri bekleniyor | - | 2.16 | 8 |
 | Avellino - Torino | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 4.32 | 7 |
-| Westerlo - Union St.G | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 4.17 | 8 |
+| Westerlo - Union St.G | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 4.31 | 7 |
 | St. Truidense - Lommel | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 1.3 | 7 |
 | Nantes - Red Star Paris | Fransa Ligue 2 | 21:45 | Veri bekleniyor | - | 1.57 | 8 |
 | Sochaux - St Etienne | Fransa Ligue 2 | 21:45 | Veri bekleniyor | - | 3.37 | 8 |
