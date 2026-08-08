@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-08T23:35:55.584Z
-- Ham maç sayısı: 319
+- Güncelleme: 2026-08-08T23:46:41.209Z
+- Ham maç sayısı: 318
 - Yarın bülteni maç sayısı: 32
-- Detay blok sayısı: 901
+- Detay blok sayısı: 900
 - Aktif bülten maçı: 294
-- Bültenden düşürülen maç: 25
+- Bültenden düşürülen maç: 24
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -72,10 +72,10 @@
 | Legia Warszawa - Swit Skolwin | Polonya 2.Lig | 14:00 | Veri bekleniyor | - | 1.74 | 8 |
 | Wuxi Wugou - Ningbo | Çin Halk Cumhuriyeti 1.Lig | 14:00 | Veri bekleniyor | - | 1.93 | 8 |
 | Nastved - Hellerup Ik | Danimarka 2.Lig | 14:00 | Veri bekleniyor | - | 1.25 | 6 |
-| Franke - Enskede | İsveç 2.Lig Norra Svealand | 14:00 | Veri bekleniyor | - | 2.14 | 8 |
-| Astrio - Torslanda Ik | İsveç 2.Lig Vastra Götaland | 14:00 | Veri bekleniyor | - | 3.3 | 6 |
-| Jonsereds If - Landvetter Is | İsveç 2.Lig Vastra Götaland | 14:00 | Veri bekleniyor | - | 2.47 | 8 |
-| Herrestads - Ik Tord | İsveç 2.Lig Norra Götaland | 14:00 | Veri bekleniyor | - | 1.48 | 6 |
+| Franke - Enskede | İsveç 2.Lig Norra Svealand | 14:00 | Veri bekleniyor | - | 2.53 | 8 |
+| Astrio - Torslanda Ik | İsveç 2.Lig Vastra Götaland | 14:00 | Veri bekleniyor | - | 3.87 | 5 |
+| Jonsereds If - Landvetter Is | İsveç 2.Lig Vastra Götaland | 14:00 | Veri bekleniyor | - | 2.64 | 8 |
+| Herrestads - Ik Tord | İsveç 2.Lig Norra Götaland | 14:00 | Veri bekleniyor | - | 1.64 | 8 |
 | Gent - Mechelen | Belçika Pro Lig | 14:30 | Veri bekleniyor | - | 1.77 | 8 |
 | E.Cottbus - Hannover | Almanya 2. Bundesliga | 14:30 | Veri bekleniyor | - | 2.81 | 8 |
 | St Pauli - Greuther Furth | Almanya 2. Bundesliga | 14:30 | Veri bekleniyor | - | 1.65 | 8 |
@@ -251,7 +251,7 @@
 | Mladost Lucani - Cukaricki | Sırbistan Süper Lig | 22:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Ue Olot - Sabadell | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 9.3 | 6 |
 | Bahia - Vasco Da Gama | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.72 | 8 |
-| Palmeiras - Internacional | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.38 | 7 |
+| Palmeiras - Internacional | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.37 | 7 |
 | Hajduk Split - Istra | Hırvatistan 1.HNL | 22:00 | Veri bekleniyor | - | 1.22 | 6 |
 | O Higgins - Deportes Limach | Şili Premier Lig | 22:00 | Veri bekleniyor | - | 1.79 | 8 |
 | Ca Mitre - D Belgrano | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 2.08 | 6 |
