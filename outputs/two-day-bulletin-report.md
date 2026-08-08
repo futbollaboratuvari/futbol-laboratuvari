@@ -1,21 +1,17 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-08-08 / 2026-08-09
-Kaynak: fixtures.json
-Ham mac: 88
-Aktif mac: 55
-Canli mac: 33
+Gunler: 2026-08-09 / 2026-08-10
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Ham mac: 55
+Aktif mac: 50
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 33
-Bugun: 0
-Yarin: 55
+Bultenden dusurulen mac: 5
+Bugun: 50
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | scheduled | -
-- 2026-08-09 00:00 | Kanada Premier Lig | Pacific Fc - Inter Toronto | scheduled | -
-- 2026-08-09 00:00 | Honduras Ulusal Lig Apertura | Platense - Marathon | scheduled | -
-- 2026-08-09 00:00 | El Salvador Primera Lig Apertura | Platense - Inca-Aruba | scheduled | -
-- 2026-08-09 00:15 | Bolivya Premier Lig | The Strongest - Independiente P | scheduled | -
 - 2026-08-09 00:30 | Brezilya Serie A | Remo - Atletico Mg | scheduled | -
 - 2026-08-09 00:30 | Şili Premier Lig | Coquimbo Unido - La Serena | scheduled | -
 - 2026-08-09 00:30 | Brezilya Serie B | Botafogo Ribei - America Mineiro | scheduled | -
@@ -68,39 +64,11 @@ Yarin: 55
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 21:45 | Belçika Pro Lig | Westerlo - Union St.G | live | -
-- 2026-08-08 21:45 | Belçika Pro Lig | St. Truidense - Lommel | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Nantes - Red Star Paris | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Sochaux - St Etienne | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Metz - Guingamp | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Montpellier - Dijon | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Pau Fc - Annecy | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Boulogne - Nancy | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Dunkerque - Grenoble | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Rodez Aveyron - Stade Lavallois | live | -
-- 2026-08-08 21:45 | Fransa Ligue 2 | Clermont - Reims | live | -
-- 2026-08-08 21:45 | Hazırlık Kulüpler | Genoa - D.La Coruna | live | -
-- 2026-08-08 22:00 | Hollanda Eredivisie | Az Alkmaar - Den Haag | live | -
-- 2026-08-08 22:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Juventus (K) - Hammarby (K) | live | -
-- 2026-08-08 22:00 | Hazırlık Kulüpler | Valencia - Newcastle Utd | live | -
-- 2026-08-08 22:00 | Hazırlık Kulüpler | Mallorca - Elversberg | live | -
-- 2026-08-08 22:00 | Hazırlık Kulüpler | Napoli - Celta Vigo | live | -
-- 2026-08-08 22:00 | Brezilya Serie A | Gremio - Sao Paulo | live | -
-- 2026-08-08 22:00 | Hırvatistan 1.HNL | Lokomotiva - Hnk Gorica | live | -
-- 2026-08-08 22:00 | Şili Premier Lig | Huachipato - Everton De Vina | live | -
-- 2026-08-08 22:00 | Arjantin Ulusal Primera Lig | Rafaela - Chacarita Junio | live | -
-- 2026-08-08 22:00 | Brezilya Serie B | Vila Nova - Sport Recife | live | -
-- 2026-08-08 22:00 | Bosna-Hersek Premier Lig | Siroki Brijeg - Sloga Doboj | live | -
-- 2026-08-08 22:00 | Bosna-Hersek Premier Lig | Sarajevo - Radnik Bijeljin | live | -
-- 2026-08-08 22:00 | Bolivya Premier Lig | San Antonio Bu - Nacional Potosi | live | -
-- 2026-08-08 22:00 | Portekiz 3.Lig Grup B | Cd Mafra - Vitoria De Sern | live | -
-- 2026-08-08 22:00 | Hazırlık Kulüpler | Real Betis - Bournemouth | live | -
-- 2026-08-08 22:30 | Portekiz Premier Lig | Estrela - Sporting Cp | live | -
-- 2026-08-08 22:30 | Hazırlık Kulüpler | Cadiz - Las Palmas | live | -
-- 2026-08-08 23:00 | Arjantin Premier Lig 2. Aşama | Tigre - River Plate | live | -
-- 2026-08-08 23:00 | Venezuela Premier Lig Clausura | Monagas - Carabobo | live | -
-- 2026-08-08 23:30 | ABD MLS | New England - Houston | live | -
-- 2026-08-08 23:30 | Peru Premier Lig Clausura | Juan Pablo Ii - Atletico Grau | live | -
+- 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | live | -
+- 2026-08-09 00:00 | Kanada Premier Lig | Pacific Fc - Inter Toronto | live | -
+- 2026-08-09 00:00 | Honduras Ulusal Lig Apertura | Platense - Marathon | live | -
+- 2026-08-09 00:00 | El Salvador Primera Lig Apertura | Platense - Inca-Aruba | live | -
+- 2026-08-09 00:15 | Bolivya Premier Lig | The Strongest - Independiente P | live | -
 
 ## Biten Maclar
 Biten mac yok.
