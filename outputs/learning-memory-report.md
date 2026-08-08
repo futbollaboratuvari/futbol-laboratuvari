@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 19:25:18
+Oluşturma: 08.08.2026 19:48:05
 
 ## Özet
 
-- Toplam tahmin: 234
-- Bekleyen tahmin: 234
+- Toplam tahmin: 236
+- Bekleyen tahmin: 236
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 77
@@ -20,12 +20,14 @@ Oluşturma: 08.08.2026 19:25:18
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
-- MS X: toplam 139, bekleyen 139, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 85, bekleyen 85, başarı bekleniyor, ağırlık 1
+- MS X: toplam 140, bekleyen 140, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Hazırlık Kulüpler | Leganes - Tenerife | MS 2 | pending | 40/100
+- 2026-08-08 | Kanada Premier Lig | Atletico Ottaw - Hfx Wanderers | MS X | pending | 50/100
 - 2026-08-08 | Brezilya Serie A | Gremio - Sao Paulo | MS 2 | pending | 40/100
 - 2026-08-08 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | MS X | pending | 40/100
 - 2026-08-08 | Norveç Eliteserien | Start - Fredrikstad | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 08.08.2026 19:25:18
 - 2026-08-08 | Fransa Ligue 2 | Dunkerque - Grenoble | MS 2 | pending | 50/100
 - 2026-08-08 | Fransa Ligue 2 | Rodez Aveyron - Stade Lavallois | MS 2 | pending | 50/100
 - 2026-08-08 | Hazırlık Kulüpler | Genoa - D.La Coruna | MS X | pending | 40/100
-- 2026-08-08 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Juventus (K) - Hammarby (K) | MS X | pending | 40/100
-- 2026-08-08 | Hazırlık Kulüpler | Valencia - Newcastle Utd | MS X | pending | 50/100
 
