@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 311
-- Live match count: 12
+- Scheduled match count: 310
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
-- 2026-08-09 00:00 | Platense - Inca-Aruba | live
-- 2026-08-09 00:00 | Aurora - Comunicaciones | live
-- 2026-08-09 00:00 | Platense - Marathon | live
-- 2026-08-09 00:00 | Pacific Fc - Inter Toronto | live
-- 2026-08-09 00:15 | The Strongest - Independiente P | live
-- 2026-08-09 00:30 | Remo - Atletico Mg | live
-- 2026-08-09 00:30 | Botafogo Ribei - America Mineiro | live
-- 2026-08-09 00:30 | Aucas - Leones Del Nort | live
-- 2026-08-09 00:30 | Coquimbo Unido - La Serena | live
-- 2026-08-09 00:30 | Torque - Penarol | live
+- 2026-08-09 02:00 | Brooklyn - Birmingham Legi | scheduled
+- 2026-08-09 02:00 | Lexington - Phoenix Rising | scheduled
+- 2026-08-09 02:00 | Charlotte Inde - Greenville Triu | scheduled
+- 2026-08-09 02:00 | Chattanooga Re - Union Omaha | scheduled
+- 2026-08-09 02:00 | New York Cosmo - Spokane Velocit | scheduled
+- 2026-08-09 02:00 | Portland Heart - Corpus Christi | scheduled
+- 2026-08-09 02:00 | Loudoun United - Charleston Batt | scheduled
+- 2026-08-09 02:00 | Miami Fc - Las Vegas Light | scheduled
+- 2026-08-09 02:00 | Pittsburgh Riv - Sacramento Repu | scheduled
+- 2026-08-09 02:00 | Inter Fa - Alianza | scheduled
