@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 554
-Aktif mac: 543
-Canli mac: 11
-Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 490
+Ham mac: 557
+Aktif mac: 542
+Canli mac: 10
+Biten mac: 5
+Bultenden dusurulen mac: 15
+Bugun: 489
 Yarin: 53
 
 ## Baslamamis Maclar
-- 2026-08-08 03:45 | Arjantin Premier Lig 2. Aşama | Rivadavia - Rio Cuarto | scheduled | -
 - 2026-08-08 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Minnesota Utd | scheduled | -
 - 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Durango - Piratas | scheduled | -
 - 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Ca La Paz | scheduled | -
@@ -556,8 +555,6 @@ Yarin: 53
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 01:30 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Aldosivi | live | -
-- 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | live | -
 - 2026-08-08 02:00 | Arjantin Ulusal Primera Lig | Midland - Maipu | live | -
 - 2026-08-08 02:00 | Kanada Premier Lig | Forge - Vancouver Fc | live | -
 - 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Atlas | live | -
@@ -567,6 +564,11 @@ Yarin: 53
 - 2026-08-08 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pumas Unam | live | -
 - 2026-08-08 03:00 | Ekvador Pro Lig | Ldu Quito - Indep. Jose Ter | live | -
 - 2026-08-08 03:30 | Şili Premier Lig | Univ. Catolica - Cobresal | live | -
+- 2026-08-08 03:45 | Arjantin Premier Lig 2. Aşama | Rivadavia - Rio Cuarto | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | finished | -
+- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | finished | -
+- 2026-08-08 01:00 | Uruguay Premier Lig Clausura | Cerro Largo - Juventud Dl Pie | finished | -
+- 2026-08-08 01:30 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Aldosivi | finished | -
+- 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | finished | -
