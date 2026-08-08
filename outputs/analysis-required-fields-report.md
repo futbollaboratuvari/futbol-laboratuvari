@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 447
-Tam analiz: 400
-Eksik analiz: 47
+Toplam analiz: 359
+Tam analiz: 0
+Eksik analiz: 359
 
-- Ullern VS Gamle Oslo: eksik score, confidence
-- Odd Bk Ii VS Staal Jorpeland: eksik score, confidence
-- Ahlafors If VS If Karlstad Ii: eksik score, confidence
-- Volda VS Nardo: eksik score, confidence
-- Nanjing City VS Nantong Zhiyun: eksik score, confidence
-- Taby VS Korsnas If Fk: eksik score, confidence
-- Oskarshamns Ai VS Karlshamn: eksik score, confidence
-- Bfa VS Transinvest Vil: eksik score, confidence
-- Atmosfera VS Fa Siauliai Ii: eksik score, confidence
-- Fana VS Gneist: eksik score, confidence
-- Os Turn Fotbal VS Stord Sunnhordl: eksik score, confidence
-- Karlskrona VS Torns: eksik score, confidence
-- Young Boys (K) VS Seasters (K): eksik score, confidence
-- Genemuiden VS Hhc: eksik score, confidence
-- Leipzig VS Hertha Berlin I: eksik score, confidence
+- Radomiak Radom VS Gornik Zabrze: eksik score, confidence
+- Qpr VS Millwall: eksik score, confidence
+- Orgryte VS Aik Stockholm: eksik score, confidence
+- Penafiel VS Portimonense: eksik score, confidence
+- Tayland VS Myanmar: eksik score, confidence
+- Malezya VS Filipinler: eksik score, confidence
+- Oster VS Landskrona: eksik score, confidence
+- Arendal VS Pors Grenland: eksik score, confidence
+- Kvik Halden VS Mjondalen: eksik score, confidence
+- Jerv VS Vidar: eksik score, confidence
+- Notodden VS Sandviken: eksik score, confidence
+- Bfc Daugavpils VS Fk Tukums 2000: eksik score, confidence
+- Skive VS Nykobing: eksik score, confidence
+- Thisted VS Fa 2000: eksik score, confidence
+- Zhetysu VS Ordabasy: eksik score, confidence
+- Madla VS Vindbjart: eksik score, confidence
 - Hinna VS Flekkeroy: eksik score, confidence
 - Orlando Pirate VS Durban City: eksik score, confidence
 - Skelleftea VS Lucksta: eksik score, confidence
-- Angby VS Fc Gute: eksik score, confidence
-- Koge (K) VS Hearts (K): eksik score, confidence
+- Ferencvaros Ii VS Dunaharaszti: eksik score, confidence

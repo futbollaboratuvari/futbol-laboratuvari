@@ -2,20 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 502
-Aktif mac: 227
-Canli mac: 275
+Ham mac: 414
+Aktif mac: 222
+Canli mac: 192
 Biten mac: 0
-Bultenden dusurulen mac: 275
-Bugun: 172
+Bultenden dusurulen mac: 192
+Bugun: 167
 Yarin: 55
 
 ## Baslamamis Maclar
-- 2026-08-08 17:30 | Hollanda Eredivisie | Nijmegen - Telstar | scheduled | -
-- 2026-08-08 17:30 | Portekiz Premier Lig | Maritimo - Casa Pia | scheduled | -
-- 2026-08-08 17:30 | Hollanda Eerste Divisie | Den Bosch - Almere City | scheduled | -
-- 2026-08-08 17:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Brann (K) - Paok (K) | scheduled | -
-- 2026-08-08 17:30 | Almanya 3. Lig | Sonnenhof Gros - Fortuna Köln | scheduled | -
 - 2026-08-08 18:00 | Ukrayna Premier Lig | Bukovyna - Obolon-Brovar | scheduled | -
 - 2026-08-08 18:00 | Avusturya Bundesliga | Grazer Ak - Avusturya Luste | scheduled | -
 - 2026-08-08 18:00 | Rusya Premier Lig | L.Moskova - Akron | scheduled | -
@@ -240,95 +235,6 @@ Yarin: 55
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Darmstadt - Holstein Kiel | live | -
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Karlsruhe - Arminia Bielefe | live | -
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Magdeburg - Braunschweig | live | -
-- 2026-08-08 14:00 | Almanya 2. Bundesliga | Heidenheim - Osnabruck | live | -
-- 2026-08-08 14:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Sfk 2000 (K) - Racing (K) | live | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Pohang Steeler - Ulsan | live | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Bucheon - Gwangju | live | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Gimcheon Sangm - Fc Seoul | live | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Jeonbuk Hm - Jeju Utd | live | -
-- 2026-08-08 14:00 | Güney Kore K Lig 1 | Anyang - Daejeon Citizen | live | -
-- 2026-08-08 14:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao Zhongn - Shanghai Shenhu | live | -
-- 2026-08-08 14:00 | Hazırlık Kulüpler | Juventus - Inter | live | -
-- 2026-08-08 14:00 | İsveç Superettan | Ljungskile - Oddevold | live | -
-- 2026-08-08 14:00 | İsveç Superettan | Falkenberg - United Nordic | live | -
-- 2026-08-08 14:00 | Norveç 2.Lig Grup 2 | Ik Junkeren - Follo | live | -
-- 2026-08-08 14:00 | Polonya 2.Lig | Nkp Podhale - Hutnik Krakow | live | -
-- 2026-08-08 14:00 | Güney Kore K Lig 2 | Seongnam - Cheonan City Fc | live | -
-- 2026-08-08 14:00 | Güney Kore K Lig 2 | Paju Citizen - Suwon City | live | -
-- 2026-08-08 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Changchun Yatai | live | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Ullern - Gamle Oslo | live | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Lokomotiv Oslo - Sf Grei | live | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | If Ready - Heming | live | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 1 | Nordstrand - Frigg | live | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Staal Jorpeland | live | -
-- 2026-08-08 14:00 | Danimarka 3.Lig | Ringsted - Helsingor | live | -
-- 2026-08-08 14:00 | Galler FAW Championship Kuzey | Denbigh Town - Bangor | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Skiljebo Sk | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Böljan | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Vastra Götaland | Frolunda - Hestrafor | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Götaland | Staffanstorp U - Lilla Torg | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Haninge - Farsta | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Karlslunds If - Smedby Ais | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Södra Svealand | Örebro Syrians - Forward | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norra Götaland | Ahlafors If - If Karlstad Ii | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Ifk Lulea | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Taftea | live | -
-- 2026-08-08 14:00 | Litvanya 1.Lig | Tauras - Neptüna Klaiped | live | -
-- 2026-08-08 14:00 | Norveç 3.Lig Grup 2 | Volda - Nardo | live | -
-- 2026-08-08 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Kubikenborgs If | live | -
-- 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Nantong Zhiyun | live | -
-- 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Foshan Nanshi | live | -
-- 2026-08-08 14:30 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Shaanxi Union | live | -
-- 2026-08-08 14:30 | Danimarka 2.Lig | Vsk Arhus - Fremad Amager | live | -
-- 2026-08-08 14:35 | Çin Halk Cumhuriyeti Süper Lig | Dalian Zhixing - Liaoning Tieren | live | -
-- 2026-08-08 14:35 | Çin Halk Cumhuriyeti Süper Lig | Zhejiang G. Fc - Wuhan Three Tow | live | -
-- 2026-08-08 15:00 | İngiltere Lig Kupası 1.Tur | Cambridge - Barnet | live | -
-- 2026-08-08 15:00 | Norveç Eliteserien | Valerenga - Bodo Glimt | live | -
-- 2026-08-08 15:00 | Çin Halk Cumhuriyeti Süper Lig | Yunnan Yukun - Chengdu Ron. | live | -
-- 2026-08-08 15:00 | Hazırlık Kulüpler | Chelsea - Ac Milan | live | -
-- 2026-08-08 15:00 | Almanya 3. Lig | Ingolstadt - Würzburger Kick | live | -
-- 2026-08-08 15:00 | Almanya 3. Lig | Duisburg - Sv Meppen | live | -
-- 2026-08-08 15:00 | Almanya 3. Lig | Viktoria Köln - Regensburg | live | -
-- 2026-08-08 15:00 | Almanya 3. Lig | Wehen - Preussen Munste | live | -
-- 2026-08-08 15:00 | Almanya 3. Lig | Havelse - Stuttgart (Amt) | live | -
-- 2026-08-08 15:00 | Norveç 2.Lig Grup 1 | Bjarg - Sotra Sk | live | -
-- 2026-08-08 15:00 | Norveç 2.Lig Grup 2 | Eidsvold Tf - Kjelsas | live | -
-- 2026-08-08 15:00 | Norveç 2.Lig Grup 2 | Honefoss - Ullensaker Kisa | live | -
-- 2026-08-08 15:00 | Danimarka 1.Lig | Aarhus Fremad - Hb Koge | live | -
-- 2026-08-08 15:00 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Dalian Huayi | live | -
-- 2026-08-08 15:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I - Monchengladbach | live | -
-- 2026-08-08 15:00 | Almanya Bölgesel Lig Batı | Fc Bocholt - Schalke 04 (Am) | live | -
-- 2026-08-08 15:00 | Almanya Bölgesel Lig Batı | Rödinghausen - Bonner Sc | live | -
-- 2026-08-08 15:00 | Almanya Bölgesel Lig Güney Batı | Offenbach - Astoria Walldor | live | -
-- 2026-08-08 15:00 | Almanya Bölgesel Lig Güney Batı | Sandhausen - Steinbach | live | -
-- 2026-08-08 15:00 | Almanya Bölgesel Lig Güney Batı | Eintracht Trie - Lehnerz | live | -
-- 2026-08-08 15:00 | Kazakistan Premier Lig | Altay - Kyzyl-Zhar | live | -
-- 2026-08-08 15:00 | Norveç 3.Lig Grup 1 | Asker - Valerenga Ii | live | -
-- 2026-08-08 15:00 | Norveç 3.Lig Grup 2 | Melhus - Orkla | live | -
-- 2026-08-08 15:00 | Norveç 3.Lig Grup 6 | Bjorkelangen - Oppsal | live | -
-- 2026-08-08 15:00 | Norveç 3.Lig Grup 6 | Gjovik-Lyn - Ff Lillehammer | live | -
-- 2026-08-08 15:00 | Danimarka 3.Lig | Bronshoj - Sundby | live | -
-- 2026-08-08 15:00 | Danimarka 3.Lig | Vanlose - Naesby | live | -
-- 2026-08-08 15:00 | İsveç 2.Lig Norra Svealand | Taby - Korsnas If Fk | live | -
-- 2026-08-08 15:00 | İsveç 2.Lig Södra Götaland | Oskarshamns Ai - Karlshamn | live | -
-- 2026-08-08 15:00 | İsveç 2.Lig Norra Götaland | Grebbestads If - Ifk Skövde | live | -
-- 2026-08-08 15:00 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Vanersborgs If | live | -
-- 2026-08-08 15:00 | Litvanya 1.Lig | Bfa - Transinvest Vil | live | -
-- 2026-08-08 15:00 | Litvanya 1.Lig | Atmosfera - Fa Siauliai Ii | live | -
-- 2026-08-08 15:00 | Norveç 3.Lig Grup 3 | Fana - Gneist | live | -
-- 2026-08-08 15:00 | Norveç 3.Lig Grup 3 | Vard Haugesund - Djerv | live | -
-- 2026-08-08 15:00 | Norveç 3.Lig Grup 3 | Os Turn Fotbal - Stord Sunnhordl | live | -
-- 2026-08-08 15:00 | İsveç 2.Lig Södra Götaland | Karlskrona - Torns | live | -
-- 2026-08-08 15:30 | Ukrayna Premier Lig | Livyi Bereh - Kudrivka | live | -
-- 2026-08-08 15:30 | Rusya Premier Lig | Krylya Sovieto - Baltika Kalinin | live | -
-- 2026-08-08 15:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Young Boys (K) - Seasters (K) | live | -
-- 2026-08-08 15:30 | Hazırlık Kulüpler | Ijsselmeervoge - Evv | live | -
-- 2026-08-08 15:30 | Hazırlık Kulüpler | Genemuiden - Hhc | live | -
-- 2026-08-08 15:30 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Hertha Berlin I | live | -
-- 2026-08-08 15:30 | Danimarka 3.Lig | Holstebro - Holbæk | live | -
 - 2026-08-08 15:45 | Polonya Ekstraklasa | Radomiak Radom - Gornik Zabrze | live | -
 - 2026-08-08 16:00 | İngiltere Lig Kupası 1.Tur | Qpr - Millwall | live | -
 - 2026-08-08 16:00 | İsveç Allsvenskan | Orgryte - Aik Stockholm | live | -
@@ -515,6 +421,12 @@ Yarin: 55
 - 2026-08-08 17:00 | Türkiye TFF 1. Lig | Bandirmaspor - İstanbulspor | live | -
 - 2026-08-08 17:00 | Norveç 3.Lig Grup 5 | Harstad - Skjervoy | live | -
 - 2026-08-08 17:00 | İsveç 2.Lig Norra Svealand | Falu Bs - Sunnersta Aif | live | -
+- 2026-08-08 17:30 | Hollanda Eredivisie | Nijmegen - Telstar | live | -
+- 2026-08-08 17:30 | Portekiz Premier Lig | Maritimo - Casa Pia | live | -
+- 2026-08-08 17:30 | Hollanda Eerste Divisie | Den Bosch - Almere City | live | -
+- 2026-08-08 17:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Brann (K) - Paok (K) | live | -
+- 2026-08-08 17:30 | Almanya 3. Lig | Sonnenhof Gros - Fortuna Köln | live | -
+- 2026-08-08 17:50 | Ukrayna Premier Lig | Livyi Bereh - Kudrivka | live | -
 
 ## Biten Maclar
 Biten mac yok.
