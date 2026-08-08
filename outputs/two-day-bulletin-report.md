@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 554
+Ham mac: 556
 Aktif mac: 545
 Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
+Biten mac: 2
+Bultenden dusurulen mac: 11
 Bugun: 492
 Yarin: 53
 
@@ -569,4 +569,5 @@ Yarin: 53
 - 2026-08-08 02:30 | Bolivya Premier Lig | Real Tomayapo - Real Oruro | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | finished | -
+- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | finished | -
