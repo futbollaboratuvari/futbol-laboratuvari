@@ -1,41 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T20:47:02.328829+00:00
+Tarih: 2026-08-08T20:51:16.990518+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 56
+- Kac mac bulundu: 3
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 56
+- Kac mac zaten vardi: 3
 - Ham veri havuzu toplam mac sayisi: 5632
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
-- ABD USL Lig 1
-- Arjantin Premier Lig 2. Aşama
-- Avustralya NPL Kuzey YGG
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Grup Aşaması
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Honduras Ulusal Lig Apertura
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Macaristan NB II
-- Meksika Ascenso MX Apertura
-- Nikaragua Premier Lig Apertura
-- Peru Premier Lig Clausura
-- Uruguay Premier Lig Clausura
 - İsveç 2.Lig Södra Götaland
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -106,26 +87,9 @@ Tarih: 2026-08-08T20:47:02.328829+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.08.2026 | 02:30 | Brezilya Serie A | Coritiba | Chapecoense | 32175 | 5 |
-| 09.08.2026 | 00:30 | Brezilya Serie A | Remo | Atletico Mg | 32117 | 5 |
-| 09.08.2026 | 03:00 | Brezilya Serie A | Botafogo | Fluminense | 32250 | 5 |
-| 09.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Boca Juniors | Velez Sarsfield | 28721 | 5 |
-| 09.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord | Gimnasia Mendoz | 28837 | 5 |
-| 09.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Independiente | Platense | 28779 | 5 |
-| 09.08.2026 | 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City | Club Leon | 37512 | 5 |
-| 09.08.2026 | 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Guadalajara | Dallas | 37596 | 5 |
-| 09.08.2026 | 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Los Angeles Fc | 37680 | 5 |
-| 09.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Monterrey | 37554 | 5 |
-| 09.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake | Atlante | 37638 | 5 |
-| 09.08.2026 | 04:00 | Peru Premier Lig Clausura | Sport Boys | Alianza Lima | 22877 | 5 |
-| 09.08.2026 | 00:30 | Şili Premier Lig | Coquimbo Unido | La Serena | 35891 | 5 |
-| 09.08.2026 | 00:30 | Brezilya Serie B | Botafogo Ribei | America Mineiro | 32084 | 5 |
-| 09.08.2026 | 00:30 | Uruguay Premier Lig Clausura | Torque | Penarol | 18374 | 5 |
-| 09.08.2026 | 02:00 | Meksika Ascenso MX Apertura | Venados Fc | Cd Tapatio | 34806 | 5 |
-| 09.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma | Cruz Azul Hidal | 39809 | 5 |
-| 09.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Monarcas | Cancun Fc | 34835 | 5 |
-| 09.08.2026 | 05:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc | Deportivo Sapri | 35943 | 5 |
-| 09.08.2026 | 03:00 | Kosta Rika Premier Lig Apertura | Liberia | Perez Zeledon | 11126 | 5 |
+| 08.08.2026 | 18:30 | Macaristan NB II | Tiszakecske | Mezokovesd Zsor | 07321 | 5 |
+| 08.08.2026 | 15:00 | İsveç 2.Lig Södra Götaland | Karlskrona | Torns | 42552 | 3 |
+| 08.08.2026 | 19:00 | İzlanda 2.Lig | Kormakur | Throttur Vogar | 02598 | 3 |
 
 ## Sonuc
 
