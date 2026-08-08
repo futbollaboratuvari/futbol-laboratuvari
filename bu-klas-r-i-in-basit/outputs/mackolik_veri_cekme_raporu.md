@@ -1,22 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T14:02:53.060050+00:00
+Tarih: 2026-08-08T14:46:17.581873+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 318
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 318
-- Ham veri havuzu toplam mac sayisi: 5628
+- Kac mac bulundu: 189
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 188
+- Ham veri havuzu toplam mac sayisi: 5629
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
 - Almanya 2. Bundesliga
-- Almanya 3. Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya 1.Lig
@@ -28,7 +27,6 @@ Tarih: 2026-08-08T14:02:53.060050+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Danimarka 1.Lig
 - Danimarka 3.Lig
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
@@ -39,13 +37,11 @@ Tarih: 2026-08-08T14:02:53.060050+00:00
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
-- Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
 - Kanada Premier Lig
 - Kazakistan Premier Lig
 - Kuzey İrlanda Championship
-- Kuzey İrlanda Premiership
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Litvanya A Ligi
@@ -56,10 +52,7 @@ Tarih: 2026-08-08T14:02:53.060050+00:00
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Moldova Ulusal Lig
-- Norveç 1.Lig
-- Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 5
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -76,7 +69,6 @@ Tarih: 2026-08-08T14:02:53.060050+00:00
 - Slovenya 1.SNL
 - Slovenya 2.SNL
 - Sırbistan Süper Lig
-- UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri
 - UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final
 - Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
@@ -86,24 +78,14 @@ Tarih: 2026-08-08T14:02:53.060050+00:00
 - İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
 - İngiltere Non League Premier Kuzey
-- İngiltere Ulusal Lig
-- İngiltere Ulusal Lig N / S Güney
-- İngiltere Ulusal Lig N / S Kuzey
-- İskoçya 1.Lig
 - İskoçya 2.Lig
-- İskoçya Championship
-- İskoçya Premiership
-- İsveç 2.Lig Norra Götaland
-- İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
 - İsveç Allsvenskan
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İsviçre Süper Lig
 - İtalya Kupa Ön Eleme Turu
-- İzlanda 1.Lig
 - İzlanda 2.Lig
 - Şili Premier Lig
 
@@ -178,24 +160,24 @@ Tarih: 2026-08-08T14:02:53.060050+00:00
 |---|---|---|---|---|---|---:|
 | 08.08.2026 | 19:45 | Hollanda Eredivisie | Go Ahead Eagle | Willem | 18077 | 5 |
 | 08.08.2026 | 21:00 | Hollanda Eredivisie | Psv Eindhoven | Fortuna Sittard | 18198 | 4 |
-| 08.08.2026 | 17:30 | Hollanda Eredivisie | Nijmegen | Telstar | 17953 | 5 |
 | 08.08.2026 | 22:00 | Hollanda Eredivisie | Az Alkmaar | Den Haag | 18258 | 5 |
 | 08.08.2026 | 20:00 | Portekiz Premier Lig | Guimaraes | Arouca | 21189 | 5 |
-| 08.08.2026 | 17:30 | Portekiz Premier Lig | Maritimo | Casa Pia | 21016 | 5 |
 | 08.08.2026 | 22:30 | Portekiz Premier Lig | Estrela | Sporting Cp | 21389 | 5 |
-| 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
+| 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
+| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Cheltenham | Charlton | 26686 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham | West Bromwich | 26839 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Sheffield Wed | Bolton | 26017 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Stockport | Doncaster | 26059 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | West Ham | Portsmouth | 26370 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Salford City | Shrewsbury | 25921 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Swansea | Birmingham | 26154 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bradford | Rochdale | 24302 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Leicester | Northampton | 25753 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Derby County | Lincoln | 24936 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bristol Rovers | Peterborough | 24381 | 5 |
+| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Colchester | Southam | 26762 | 5 |
+| 08.08.2026 | 21:00 | İtalya Kupa Ön Eleme Turu | Vicenza | Catania | 14242 | 5 |
+| 08.08.2026 | 21:30 | İtalya Kupa Ön Eleme Turu | Ascoli Picchio | Rossoblu Potenz | 14280 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Clermont | Reims | 10439 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Metz | Guingamp | 10885 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Montpellier | Dijon | 11293 | 5 |
 
 ## Sonuc
 
