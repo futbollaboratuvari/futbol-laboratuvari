@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 524
-- Live match count: 0
-- Finished removed count: 0
+- Scheduled match count: 519
+- Live match count: 11
+- Finished removed count: 2
 - Date window: 2026-08-08 / 2026-08-09 23:59
 
-- 2026-08-08 10:30 | Canberra - O Connor Knight | scheduled
-- 2026-08-08 10:30 | Nws Spirit - Blacktown City | scheduled
-- 2026-08-08 10:30 | Sutherland Sha - Sydney Ii | scheduled
-- 2026-08-08 10:30 | Elche - Toulouse | scheduled
-- 2026-08-08 10:45 | Monaro Panther - Belconnen Unite | scheduled
-- 2026-08-08 11:00 | Brisbane City - Gold Coast Unit | scheduled
-- 2026-08-08 11:00 | Brisbane Olymp - Moreton City Ex | scheduled
-- 2026-08-08 11:00 | Eastern Suburb - Brisbane Wolves | scheduled
-- 2026-08-08 11:00 | Gold Coast Kni - Peninsula Power | scheduled
-- 2026-08-08 11:00 | Magic United - Rochedale Rover | scheduled
+- 2026-08-08 08:45 | Sapporo - Tokushima | live
+- 2026-08-08 09:00 | Bayswater City - Sorrento | live
+- 2026-08-08 09:30 | Adamstown Rose - Cooks Hill Unit | live
+- 2026-08-08 09:30 | Belmont Swanse - Lambton Jaffas | live
+- 2026-08-08 10:00 | Manly United - Marconi | live
+- 2026-08-08 10:00 | Sd Raiders - Western Sydney | live
+- 2026-08-08 10:30 | Canberra - O Connor Knight | live
+- 2026-08-08 10:30 | Nws Spirit - Blacktown City | live
+- 2026-08-08 10:30 | Sutherland Sha - Sydney Ii | live
+- 2026-08-08 10:30 | Elche - Toulouse | live

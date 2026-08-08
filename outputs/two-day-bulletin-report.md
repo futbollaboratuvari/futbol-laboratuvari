@@ -1,21 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-08 / 2026-08-09
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 567
-Aktif mac: 524
-Canli mac: 18
-Biten mac: 25
-Bultenden dusurulen mac: 43
-Bugun: 470
+Aktif mac: 520
+Canli mac: 12
+Biten mac: 35
+Bultenden dusurulen mac: 47
+Bugun: 466
 Yarin: 54
 
 ## Baslamamis Maclar
-- 2026-08-08 10:30 | Hazırlık Kulüpler | Elche - Toulouse | scheduled | -
-- 2026-08-08 10:30 | Avustralya NPL Başkent Bölgesi | Canberra - O Connor Knight | scheduled | -
-- 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Blacktown City | scheduled | -
-- 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sydney Ii | scheduled | -
 - 2026-08-08 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Belconnen Unite | scheduled | -
 - 2026-08-08 11:00 | Hazırlık Kulüpler | Alcorcon - Navalcarnero | scheduled | -
 - 2026-08-08 11:00 | Avustralya NPL Queensland | Eastern Suburb - Brisbane Wolves | scheduled | -
@@ -538,24 +533,18 @@ Yarin: 54
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
+- 2026-08-08 08:30 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Sydney Olympic | live | -
+- 2026-08-08 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Para Hills Knig | live | -
+- 2026-08-08 08:45 | Japonya J2 Lig | Sapporo - Tokushima | live | -
 - 2026-08-08 09:00 | Avustralya NPL Batı Avustralya | Bayswater City - Sorrento | live | -
 - 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Belmont Swanse - Lambton Jaffas | live | -
 - 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Adamstown Rose - Cooks Hill Unit | live | -
 - 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Marconi | live | -
 - 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Western Sydney | live | -
-- 2026-08-08 07:00 | Avustralya NPL Tazmanya | South Hobart - Riverside Olymp | live | -
-- 2026-08-08 07:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Valentine Phoen | live | -
-- 2026-08-08 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Cooma Tigers | live | -
-- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Ulverstone - South East Unit | live | -
-- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Glenorchy Knig - Launceston Unit | live | -
-- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Kingborough Li - Clarence Zebras | live | -
-- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | live | -
-- 2026-08-08 08:00 | Avustralya NPL Güney Avustralya | Croydon Kings - Sturt Lions | live | -
-- 2026-08-08 08:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Weston Bears | live | -
-- 2026-08-08 08:00 | Avustralya Victoria NPL 1 | Melbourne Srbi - North Geelong | live | -
-- 2026-08-08 08:30 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Sydney Olympic | live | -
-- 2026-08-08 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Para Hills Knig | live | -
-- 2026-08-08 08:45 | Japonya J2 Lig | Sapporo - Tokushima | live | -
+- 2026-08-08 10:30 | Hazırlık Kulüpler | Elche - Toulouse | live | -
+- 2026-08-08 10:30 | Avustralya NPL Başkent Bölgesi | Canberra - O Connor Knight | live | -
+- 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Blacktown City | live | -
+- 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sydney Ii | live | -
 
 ## Biten Maclar
 - 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | finished | -
@@ -583,3 +572,13 @@ Yarin: 54
 - 2026-08-08 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Xelaju | finished | -
 - 2026-08-08 05:00 | CONCACAF U20 Yarı Final | Kanada (U20) - Meksika (U20) | finished | -
 - 2026-08-08 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Fc Juarez | finished | -
+- 2026-08-08 07:00 | Avustralya NPL Tazmanya | South Hobart - Riverside Olymp | finished | -
+- 2026-08-08 07:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Valentine Phoen | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Cooma Tigers | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Ulverstone - South East Unit | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Glenorchy Knig - Launceston Unit | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Kingborough Li - Clarence Zebras | finished | -
+- 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | finished | -
+- 2026-08-08 08:00 | Avustralya NPL Güney Avustralya | Croydon Kings - Sturt Lions | finished | -
+- 2026-08-08 08:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Weston Bears | finished | -
+- 2026-08-08 08:00 | Avustralya Victoria NPL 1 | Melbourne Srbi - North Geelong | finished | -
