@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-08T09:03:36.837Z
-- Ham maç sayısı: 528
+- Güncelleme: 2026-08-08T09:24:56.479Z
+- Ham maç sayısı: 526
 - Yarın bülteni maç sayısı: 54
-- Detay blok sayısı: 1483
-- Aktif bülten maçı: 504
-- Bültenden düşürülen maç: 24
+- Detay blok sayısı: 1479
+- Aktif bülten maçı: 503
+- Bültenden düşürülen maç: 23
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| St George City - Rockdale Cs | Avustralya NPL Yeni Güney Galler | 12:15 | Veri bekleniyor | - | 2.99 | 8 |
 | Western Sydney - Melbourne Victo | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 2.51 | 8 |
 | Vanraure - Kataller Toyama | Japonya J2 Lig | 12:30 | Veri bekleniyor | - | 2.53 | 8 |
 | Fujieda - Sendai | Japonya J2 Lig | 12:30 | Veri bekleniyor | - | 3.09 | 8 |
