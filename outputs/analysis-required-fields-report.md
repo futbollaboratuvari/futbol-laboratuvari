@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 467
-Tam analiz: 413
-Eksik analiz: 54
+Toplam analiz: 447
+Tam analiz: 0
+Eksik analiz: 447
 
-- Skedsmo VS Fauske/Sprint: eksik score, confidence
-- Skanste VS Rezekne / Bjss: eksik score, confidence
-- Odd Bk Ii VS Staal Jorpeland: eksik score, confidence
-- Ahlafors If VS If Karlstad Ii: eksik score, confidence
-- Volda VS Nardo: eksik score, confidence
-- Taby VS Korsnas If Fk: eksik score, confidence
-- Oskarshamns Ai VS Karlshamn: eksik score, confidence
-- Bfa VS Transinvest Vil: eksik score, confidence
-- Atmosfera VS Fa Siauliai Ii: eksik score, confidence
-- Fana VS Gneist: eksik score, confidence
-- Os Turn Fotbal VS Stord Sunnhordl: eksik score, confidence
-- Karlskrona VS Torns: eksik score, confidence
-- Young Boys (K) VS Seasters (K): eksik score, confidence
-- Genemuiden VS Hhc: eksik score, confidence
-- Leipzig VS Hertha Berlin I: eksik score, confidence
-- Hinna VS Flekkeroy: eksik score, confidence
-- Orlando Pirate VS Durban City: eksik score, confidence
-- Skelleftea VS Lucksta: eksik score, confidence
-- Elverum VS Orn Horten: eksik score, confidence
-- Angby VS Fc Gute: eksik score, confidence
+- Darmstadt VS Holstein Kiel: eksik score, confidence
+- Karlsruhe VS Arminia Bielefe: eksik score, confidence
+- Magdeburg VS Braunschweig: eksik score, confidence
+- Heidenheim VS Osnabruck: eksik score, confidence
+- Sfk 2000 (K) VS Racing (K): eksik score, confidence
+- Pohang Steeler VS Ulsan: eksik score, confidence
+- Bucheon VS Gwangju: eksik score, confidence
+- Gimcheon Sangm VS Fc Seoul: eksik score, confidence
+- Jeonbuk Hm VS Jeju Utd: eksik score, confidence
+- Anyang VS Daejeon Citizen: eksik score, confidence
+- Qingdao Zhongn VS Shanghai Shenhu: eksik score, confidence
+- Juventus VS Inter: eksik score, confidence
+- Ljungskile VS Oddevold: eksik score, confidence
+- Falkenberg VS United Nordic: eksik score, confidence
+- Ik Junkeren VS Follo: eksik score, confidence
+- Nkp Podhale VS Hutnik Krakow: eksik score, confidence
+- Seongnam VS Cheonan City Fc: eksik score, confidence
+- Paju Citizen VS Suwon City: eksik score, confidence
+- Suzhou Dongwu VS Changchun Yatai: eksik score, confidence
+- Ullern VS Gamle Oslo: eksik score, confidence
