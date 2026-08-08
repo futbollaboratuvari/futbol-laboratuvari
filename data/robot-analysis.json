@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T16:54:28.931Z",
+  "generated_at": "2026-08-08T16:59:54.619Z",
   "date": "2026-08-08",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -7,7 +7,7 @@
   "summary": {
     "fixture_count": 170,
     "scored_match_count": 170,
-    "coupon_candidate_count": 6,
+    "coupon_candidate_count": 7,
     "watch_candidate_count": 100,
     "learning_adjusted_count": 0
   },
@@ -93630,24 +93630,24 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Kritik/derbi/belirsiz maç: -10",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Lig gol ortalaması 2.70 üzeri: +10",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Yüksek",
+      "data_gap_risk": "Orta",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
         "homeConcededLast10": null,
         "awayConcededLast10": null,
         "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
+        "over25Percent": 60,
+        "over35Percent": 42,
         "firstHalfGoalTrend": null,
         "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "leagueGoalAverage": 2.84,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -93681,18 +93681,20 @@
             "Hafıza: arşiv verisi henüz sınırlı"
           ]
         },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
+        "homeScoredLast10Count": 5,
+        "awayScoredLast10Count": 5,
         "homeConcededLast10Count": null,
         "awayConcededLast10Count": null
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
+        "Lig gol ortalaması 2.70 üzeri: +10",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Kritik/derbi/belirsiz maç: -10",
         "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Yüksek",
+        "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
       ]
     },
@@ -119506,8 +119508,8 @@
       "league": "Hazırlık Kulüpler",
       "start_time": "21:30",
       "recommended_market": "Değerli market yok",
-      "confidence_score": "0%",
-      "analysis_score": 0,
+      "confidence_score": "15%",
+      "analysis_score": 15,
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
@@ -120076,24 +120078,24 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Hafıza: arşiv verisi henüz sınırlı",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Yüksek",
+      "data_gap_risk": "Düşük",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 38,
+        "over25Percent": 48,
+        "over35Percent": 30,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 44,
+        "leagueGoalAverage": 2.7,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -120127,17 +120129,17 @@
             "Hafıza: arşiv verisi henüz sınırlı"
           ]
         },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 4,
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 3
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Yüksek",
+        "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
       ]
     },
@@ -132502,11 +132504,11 @@
       "match_name": "Sarajevo VS Radnik Bijeljin",
       "league": "Bosna-Hersek Premier Lig",
       "start_time": "22:00",
-      "recommended_market": "Değerli market yok",
-      "confidence_score": "0%",
-      "analysis_score": 0,
-      "risk_level": "Yüksek",
-      "estimated_odds": "-",
+      "recommended_market": "MS 2",
+      "confidence_score": "65%",
+      "analysis_score": 65,
+      "risk_level": "Orta",
+      "estimated_odds": "6.69",
       "available_odds": {
         "ms1": "1.27",
         "msx": "3.43",
@@ -133068,28 +133070,53 @@
         }
       ],
       "odds_source": "Robot ham veri havuzu",
-      "value_label": "Normal Değer",
+      "value_label": "Yüksek Değer",
       "band_attention_level": "Düşük",
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Hafıza: arşiv verisi henüz sınırlı",
-      "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
-      "status": "filtered_no_value_market",
-      "expected_scores": [],
-      "learning_adjustment": null,
+      "robot_comment": "Market: MS 2 | Oran: 6.69 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "include_in_coupon": true,
+      "suitable_coupon_type": "Yüksek Oranlı Kupon",
+      "data_gap_risk": "Düşük",
+      "status": "scheduled",
+      "expected_scores": [
+        "0-1",
+        "0-2",
+        "1-2"
+      ],
+      "learning_adjustment": {
+        "market": "MS 2",
+        "league": "Bosna-Hersek Premier Lig",
+        "delta": 0,
+        "weight": 1,
+        "applied": false,
+        "notes": [
+          "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+        ],
+        "market_bucket": {
+          "total": 85,
+          "pending": 85,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": null,
+        "league_market_bucket": null
+      },
       "metrics": {
         "homeScoredLast10": 4,
         "awayScoredLast10": 4,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 6,
+        "bttsPercent": 67,
         "over25Percent": 48,
         "over35Percent": 30,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 53,
+        "secondHalfGoalTrend": 73,
         "leagueGoalAverage": 2.7,
         "memory": {
           "scoreDelta": 0,
@@ -133126,17 +133153,24 @@
         },
         "homeScoredLast10Count": 4,
         "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeConcededLast10Count": 6,
+        "awayConcededLast10Count": 6
       },
       "signals": [
-        "Düşük oran veya eksik veri nedeniyle elendi",
-        "Çifte şans kullanılmadı",
+        "Market: MS 2",
+        "Oran: 6.69",
+        "Veri tipi: standard",
+        "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
+        "KG Var yüzdesi %65 üzeri: +15",
+        "İkinci yarı gol eğilimi yüksek: +10",
+        "Oran 1.70 üzeri: +10",
+        "Oran 2.20 üzeri: Yüksek Değer etiketi",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Orta risk kupon adayı",
+        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
       ]
     },
     {
