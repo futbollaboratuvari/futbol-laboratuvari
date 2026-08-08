@@ -3,40 +3,14 @@
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
 Ham mac: 391
-Aktif mac: 195
-Canli mac: 196
+Aktif mac: 169
+Canli mac: 222
 Biten mac: 0
-Bultenden dusurulen mac: 196
-Bugun: 140
+Bultenden dusurulen mac: 222
+Bugun: 114
 Yarin: 55
 
 ## Baslamamis Maclar
-- 2026-08-08 18:30 | İsveç Allsvenskan | Mjallby - Elfsborg | scheduled | -
-- 2026-08-08 18:30 | Polonya Ekstraklasa | Pogon Szczecin - Motor Lublin | scheduled | -
-- 2026-08-08 18:30 | Hazırlık Kulüpler | Salernitana - Sambiase | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB I | Kisvarda - Ujpest | scheduled | -
-- 2026-08-08 18:30 | Romanya 1.Lig | Ssc Farul - Csikszereda | scheduled | -
-- 2026-08-08 18:30 | Avusturya 1.Lig | Bregenz - Kapfenberg | scheduled | -
-- 2026-08-08 18:30 | Avusturya 1.Lig | Austria Salzbu - First Vienna | scheduled | -
-- 2026-08-08 18:30 | Avusturya 1.Lig | Strum Graz Ii - Floridsdorfer | scheduled | -
-- 2026-08-08 18:30 | Slovenya 2.SNL | Jesenice - Tabor Sezana | scheduled | -
-- 2026-08-08 18:30 | Slovenya 2.SNL | Nk Bilje - Brezice | scheduled | -
-- 2026-08-08 18:30 | Letonya 1.Lig | Metta / Lu - Rigas Fs Ii | scheduled | -
-- 2026-08-08 18:30 | Letonya 1.Lig | Jdfs Alberts - Riga Ii | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Godollo - Hajdunanas | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Cigand Se - Tiszaujvaros | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Tiszafuredi - Ozd Sajovölgye | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Dvsc Deac - Füzesabony | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Dorogi Fc - Veszprem | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Pápai Perutz - 1908 Szac | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Mosonmagyarova - Kiraly Sze | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Bicskei - Sc Sopron | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Güneydoğu | Bss Monor - Csepel Tc | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB III Güneybatı | Erdi Vse - Paksi Fc Ii | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB II | Mol Vidi - Szeged 2011 | scheduled | -
-- 2026-08-08 18:30 | Hazırlık Kulüpler | Angers - Lorient | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB II | Bvsc - Kecskemeti | scheduled | -
-- 2026-08-08 18:30 | Macaristan NB II | Tiszakecske - Mezokovesd Zsor | scheduled | -
 - 2026-08-08 19:00 | Finlandiya Veikkausliiga | Jaro - Vaasa | scheduled | -
 - 2026-08-08 19:00 | İsviçre Süper Lig | Lausanne - Young Boys | scheduled | -
 - 2026-08-08 19:00 | Norveç Eliteserien | Start - Fredrikstad | scheduled | -
@@ -404,6 +378,32 @@ Yarin: 55
 - 2026-08-08 18:00 | Macaristan NB III Kuzeybatı | Gyor Ii - Sárisápi Bányás | live | -
 - 2026-08-08 18:00 | Macaristan NB II | Gyirmot - Kazincbarcika | live | -
 - 2026-08-08 18:10 | Belarus Premier Lig | Vitebsk - Neman Grodno | live | -
+- 2026-08-08 18:30 | İsveç Allsvenskan | Mjallby - Elfsborg | live | -
+- 2026-08-08 18:30 | Polonya Ekstraklasa | Pogon Szczecin - Motor Lublin | live | -
+- 2026-08-08 18:30 | Hazırlık Kulüpler | Salernitana - Sambiase | live | -
+- 2026-08-08 18:30 | Macaristan NB I | Kisvarda - Ujpest | live | -
+- 2026-08-08 18:30 | Romanya 1.Lig | Ssc Farul - Csikszereda | live | -
+- 2026-08-08 18:30 | Avusturya 1.Lig | Bregenz - Kapfenberg | live | -
+- 2026-08-08 18:30 | Avusturya 1.Lig | Austria Salzbu - First Vienna | live | -
+- 2026-08-08 18:30 | Avusturya 1.Lig | Strum Graz Ii - Floridsdorfer | live | -
+- 2026-08-08 18:30 | Slovenya 2.SNL | Jesenice - Tabor Sezana | live | -
+- 2026-08-08 18:30 | Slovenya 2.SNL | Nk Bilje - Brezice | live | -
+- 2026-08-08 18:30 | Letonya 1.Lig | Metta / Lu - Rigas Fs Ii | live | -
+- 2026-08-08 18:30 | Letonya 1.Lig | Jdfs Alberts - Riga Ii | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Godollo - Hajdunanas | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Cigand Se - Tiszaujvaros | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Tiszafuredi - Ozd Sajovölgye | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeydoğu | Dvsc Deac - Füzesabony | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Dorogi Fc - Veszprem | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Pápai Perutz - 1908 Szac | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Mosonmagyarova - Kiraly Sze | live | -
+- 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Bicskei - Sc Sopron | live | -
+- 2026-08-08 18:30 | Macaristan NB III Güneydoğu | Bss Monor - Csepel Tc | live | -
+- 2026-08-08 18:30 | Macaristan NB III Güneybatı | Erdi Vse - Paksi Fc Ii | live | -
+- 2026-08-08 18:30 | Macaristan NB II | Mol Vidi - Szeged 2011 | live | -
+- 2026-08-08 18:30 | Hazırlık Kulüpler | Angers - Lorient | live | -
+- 2026-08-08 18:30 | Macaristan NB II | Bvsc - Kecskemeti | live | -
+- 2026-08-08 18:30 | Macaristan NB II | Tiszakecske - Mezokovesd Zsor | live | -
 
 ## Biten Maclar
 Biten mac yok.

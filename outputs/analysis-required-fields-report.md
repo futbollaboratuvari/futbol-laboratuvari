@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 359
-Tam analiz: 0
-Eksik analiz: 359
+Toplam analiz: 336
+Tam analiz: 307
+Eksik analiz: 29
 
-- Radomiak Radom VS Gornik Zabrze: eksik score, confidence
-- Qpr VS Millwall: eksik score, confidence
-- Orgryte VS Aik Stockholm: eksik score, confidence
-- Penafiel VS Portimonense: eksik score, confidence
-- Tayland VS Myanmar: eksik score, confidence
-- Malezya VS Filipinler: eksik score, confidence
-- Oster VS Landskrona: eksik score, confidence
-- Arendal VS Pors Grenland: eksik score, confidence
-- Kvik Halden VS Mjondalen: eksik score, confidence
-- Jerv VS Vidar: eksik score, confidence
-- Notodden VS Sandviken: eksik score, confidence
-- Bfc Daugavpils VS Fk Tukums 2000: eksik score, confidence
-- Skive VS Nykobing: eksik score, confidence
-- Thisted VS Fa 2000: eksik score, confidence
-- Zhetysu VS Ordabasy: eksik score, confidence
-- Madla VS Vindbjart: eksik score, confidence
-- Hinna VS Flekkeroy: eksik score, confidence
-- Orlando Pirate VS Durban City: eksik score, confidence
-- Skelleftea VS Lucksta: eksik score, confidence
-- Ferencvaros Ii VS Dunaharaszti: eksik score, confidence
+- Koge (K) VS Hearts (K): eksik score, confidence
+- Schaffhausen VS Fc Kreuzlingen: eksik score, confidence
+- Newtown VS Penrhyncoch: eksik score, confidence
+- Caersws VS Gresford Athlet: eksik score, confidence
+- Vllaznia (K) VS Apollon Limasso: eksik score, confidence
+- Central Espano VS Progreso: eksik score, confidence
+- Bavois VS Zürich Ii: eksik score, confidence
+- Njardvik VS Vestri: eksik score, confidence
+- Ragsved VS Syrianska: eksik score, confidence
+- Fjolnir VS Kfg Gardabar: eksik score, confidence
+- Harstad VS Skjervoy: eksik score, confidence
+- Brann (K) VS Paok (K): eksik score, confidence
+- Smiltene VS Valmieras Fk/Bs: eksik score, confidence
+- Metta / Lu VS Rigas Fs Ii: eksik score, confidence
+- Jdfs Alberts VS Riga Ii: eksik score, confidence
+- Cigand Se VS Tiszaujvaros: eksik score, confidence
+- Dvsc Deac VS Füzesabony: eksik score, confidence
+- Mamelodi Sundo VS Polokwane City: eksik score, confidence
+- Psv Eindhoven VS Hjk (K): eksik score, confidence
+- E. Frankfurt ( VS Malmö Ff (K): eksik score, confidence
