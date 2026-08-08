@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 170
-Tam analiz: 152
-Eksik analiz: 18
+Toplam analiz: 141
+Tam analiz: 126
+Eksik analiz: 15
 
-- Smiltene VS Valmieras Fk/Bs: eksik score, confidence
 - Metta / Lu VS Rigas Fs Ii: eksik score, confidence
 - Jdfs Alberts VS Riga Ii: eksik score, confidence
 - Cigand Se VS Tiszaujvaros: eksik score, confidence
@@ -20,6 +19,4 @@ Eksik analiz: 18
 - Almirante VS Ciudad De Bolív: eksik score, confidence
 - Liverpool Mont VS Albion: eksik score, confidence
 - Ajax (K) VS Rangers (K): eksik score, confidence
-- Avellino VS Torino: eksik score, confidence
 - Rafaela VS Chacarita Junio: eksik score, confidence
-- Sarajevo VS Radnik Bijeljin: eksik score, confidence
