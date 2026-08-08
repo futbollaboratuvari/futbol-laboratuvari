@@ -1,28 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T11:52:05.513515+00:00
+Tarih: 2026-08-08T12:29:10.202699+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 404
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 404
-- Ham veri havuzu toplam mac sayisi: 5625
+- Kac mac bulundu: 421
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 419
+- Ham veri havuzu toplam mac sayisi: 5627
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Grup B
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
-- Almanya Bölgesel Lig Batı
-- Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey Doğu
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus Premier Lig
@@ -32,9 +33,12 @@ Tarih: 2026-08-08T11:52:05.513515+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- CONCACAF Ligler Kupası Grup Aşaması
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
@@ -47,9 +51,11 @@ Tarih: 2026-08-08T11:52:05.513515+00:00
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -62,11 +68,12 @@ Tarih: 2026-08-08T11:52:05.513515+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
+- Meksika Ascenso MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
@@ -94,8 +101,6 @@ Tarih: 2026-08-08T11:52:05.513515+00:00
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
-- Çin Halk Cumhuriyeti 1.Lig
-- Çin Halk Cumhuriyeti Süper Lig
 - İngiltere Lig Kupası 1.Tur
 - İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
@@ -200,8 +205,6 @@ Tarih: 2026-08-08T11:52:05.513515+00:00
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
-| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Colchester | Southam | 26762 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bromley | Reading | 24453 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Sheffield Wed | Bolton | 26017 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Stockport | Doncaster | 26059 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham | West Bromwich | 26839 | 5 |
@@ -210,6 +213,8 @@ Tarih: 2026-08-08T11:52:05.513515+00:00
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Swansea | Birmingham | 26154 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bradford | Rochdale | 24302 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Leicester | Northampton | 25753 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Derby County | Lincoln | 24936 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bristol Rovers | Peterborough | 24381 | 5 |
 
 ## Sonuc
 
