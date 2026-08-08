@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 537
-- Live match count: 15
-- Finished removed count: 0
+- Scheduled match count: 526
+- Live match count: 10
+- Finished removed count: 4
 - Date window: 2026-08-08 / 2026-08-09 23:59
 
-- 2026-08-08 02:00 | Midland - Maipu | live
-- 2026-08-08 02:00 | Forge - Vancouver Fc | live
-- 2026-08-08 02:30 | Real Tomayapo - Real Oruro | live
-- 2026-08-08 02:30 | Ceara - Ponte Preta | live
-- 2026-08-08 02:30 | Charlotte - Atlas | live
-- 2026-08-08 02:30 | Columbus - Pachuca | live
-- 2026-08-08 03:00 | Cincinnati - Pumas Unam | live
-- 2026-08-08 03:00 | Ldu Quito - Indep. Jose Ter | live
-- 2026-08-08 03:30 | Univ. Catolica - Cobresal | live
-- 2026-08-08 03:45 | Rivadavia - Rio Cuarto | live
+- 2026-08-08 07:00 | Newcastle Olym - Valentine Phoen | live
+- 2026-08-08 07:00 | South Hobart - Riverside Olymp | live
+- 2026-08-08 07:30 | Canberra Olymp - Cooma Tigers | live
+- 2026-08-08 07:30 | Devonport City - Launceston City | live
+- 2026-08-08 07:30 | Glenorchy Knig - Launceston Unit | live
+- 2026-08-08 07:30 | Kingborough Li - Clarence Zebras | live
+- 2026-08-08 07:30 | Ulverstone - South East Unit | live
+- 2026-08-08 08:00 | Croydon Kings - Sturt Lions | live
+- 2026-08-08 08:00 | Edgeworth Eagl - Weston Bears | live
+- 2026-08-08 08:00 | Melbourne Srbi - North Geelong | live

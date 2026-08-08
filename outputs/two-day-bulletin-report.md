@@ -3,17 +3,14 @@
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
 Ham mac: 540
-Aktif mac: 529
-Canli mac: 11
+Aktif mac: 526
+Canli mac: 14
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 476
+Bultenden dusurulen mac: 14
+Bugun: 473
 Yarin: 53
 
 ## Baslamamis Maclar
-- 2026-08-08 08:00 | Avustralya NPL Güney Avustralya | Croydon Kings - Sturt Lions | scheduled | -
-- 2026-08-08 08:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Weston Bears | scheduled | -
-- 2026-08-08 08:00 | Avustralya Victoria NPL 1 | Melbourne Srbi - North Geelong | scheduled | -
 - 2026-08-08 08:30 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Sydney Olympic | scheduled | -
 - 2026-08-08 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Para Hills Knig | scheduled | -
 - 2026-08-08 08:45 | Japonya J2 Lig | Sapporo - Tokushima | scheduled | -
@@ -553,6 +550,9 @@ Yarin: 53
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Glenorchy Knig - Launceston Unit | live | -
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Kingborough Li - Clarence Zebras | live | -
 - 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | live | -
+- 2026-08-08 08:00 | Avustralya NPL Güney Avustralya | Croydon Kings - Sturt Lions | live | -
+- 2026-08-08 08:00 | Avustralya NPL Kuzey YGG | Edgeworth Eagl - Weston Bears | live | -
+- 2026-08-08 08:00 | Avustralya Victoria NPL 1 | Melbourne Srbi - North Geelong | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 07:30:08
+Oluşturma: 08.08.2026 08:14:14
 
 ## Özet
 
-- Toplam tahmin: 325
-- Bekleyen tahmin: 325
+- Toplam tahmin: 326
+- Bekleyen tahmin: 326
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 97
+- Lig sayısı: 98
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 08.08.2026 07:30:08
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 197, bekleyen 197, başarı bekleniyor, ağırlık 1
+- MS X: toplam 198, bekleyen 198, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 111, bekleyen 111, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Norveç 3.Lig Grup 3 | Vard Haugesund - Djerv | MS X | pending | 70/100
 - 2026-08-08 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | MS X | pending | 40/100
 - 2026-08-08 | Litvanya 1.Lig | Tauras - Neptüna Klaiped | MS 2 | pending | 50/100
 - 2026-08-08 | Danimarka 2.Lig | Vsk Arhus - Fremad Amager | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 08.08.2026 07:30:08
 - 2026-08-08 | Brezilya Serie B | Vila Nova - Sport Recife | MS 2 | pending | 40/100
 - 2026-08-08 | Hazırlık Kulüpler | Cadiz - Las Palmas | MS X | pending | 50/100
 - 2026-08-08 | Venezuela Premier Lig Clausura | Monagas - Carabobo | MS 1 | pending | 40/100
-- 2026-08-08 | ABD MLS | New England - Houston | MS X | pending | 50/100
 
