@@ -1,25 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-08T05:58:58.358495+00:00
-=======
-Tarih: 2026-08-08T06:03:24.830385+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-08T07:12:19.301431+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 531
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 526
-=======
-- Kac mac bulundu: 478
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 473
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 5604
+- Durum: error
+- Kac mac bulundu: 475
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -34,9 +24,7 @@ Tarih: 2026-08-08T06:03:24.830385+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Son 16 Turu
-- Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
 - Avustralya NPL Yeni Güney Galler
 - Avusturya 1.Lig
@@ -207,7 +195,8 @@ Tarih: 2026-08-08T06:03:24.830385+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -226,14 +215,14 @@ Tarih: 2026-08-08T06:03:24.830385+00:00
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Metz | Guingamp | 10885 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Clermont | Reims | 10439 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
+| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham | West Bromwich | 26839 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Sheffield Wed | Bolton | 26017 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Stockport | Doncaster | 26059 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | West Ham | Portsmouth | 26370 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Salford City | Shrewsbury | 25921 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Swansea | Birmingham | 26154 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bradford | Rochdale | 24302 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
