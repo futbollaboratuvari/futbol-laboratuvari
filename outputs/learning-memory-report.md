@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 13:34:12
+Oluşturma: 08.08.2026 13:46:30
 
 ## Özet
 
-- Toplam tahmin: 309
-- Bekleyen tahmin: 309
+- Toplam tahmin: 314
+- Bekleyen tahmin: 314
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 94
@@ -20,12 +20,17 @@ Oluşturma: 08.08.2026 13:34:12
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 112, bekleyen 112, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
-- MS X: toplam 180, bekleyen 180, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 114, bekleyen 114, başarı bekleniyor, ağırlık 1
+- MS X: toplam 181, bekleyen 181, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Macaristan NB III Güneybatı | Erdi Vse - Paksi Fc Ii | MS 2 | pending | 50/100
+- 2026-08-08 | Almanya Bölgesel Lig Güney Batı | Eintracht Trie - Lehnerz | MS X | pending | 50/100
+- 2026-08-08 | Güney Kore K Lig 1 | Pohang Steeler - Ulsan | MS 1 | pending | 40/100
+- 2026-08-08 | Güney Kore K Lig 1 | Anyang - Daejeon Citizen | MS 1 | pending | 40/100
+- 2026-08-08 | Norveç 2.Lig Grup 2 | Ik Junkeren - Follo | MS 2 | pending | 70/100
 - 2026-08-08 | Belçika Pro Lig | St. Truidense - Lommel | MS 2 | pending | 75/100
 - 2026-08-08 | Fransa Ligue 2 | Nantes - Red Star Paris | MS 2 | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Sochaux - St Etienne | MS 1 | pending | 40/100
@@ -36,9 +41,4 @@ Oluşturma: 08.08.2026 13:34:12
 - 2026-08-08 | Fransa Ligue 2 | Dunkerque - Grenoble | MS 2 | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Rodez Aveyron - Stade Lavallois | MS 2 | pending | 50/100
 - 2026-08-08 | Hazırlık Kulüpler | Genoa - D.La Coruna | MS X | pending | 40/100
-- 2026-08-08 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Juventus (K) - Hammarby (K) | MS X | pending | 40/100
-- 2026-08-08 | Hazırlık Kulüpler | Valencia - Newcastle Utd | MS X | pending | 50/100
-- 2026-08-08 | Hazırlık Kulüpler | Mallorca - Elversberg | MS X | pending | 50/100
-- 2026-08-08 | Hazırlık Kulüpler | Napoli - Celta Vigo | MS X | pending | 50/100
-- 2026-08-08 | Brezilya Serie A | Gremio - Sao Paulo | MS X | pending | 40/100
 

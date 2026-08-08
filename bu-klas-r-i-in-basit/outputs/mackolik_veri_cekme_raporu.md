@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T10:01:11.454111+00:00
+Tarih: 2026-08-08T10:46:22.869058+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 461
-- Kac mac kaydedildi: 17
-- Kac mac zaten vardi: 444
-- Ham veri havuzu toplam mac sayisi: 5621
+- Kac mac bulundu: 446
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 445
+- Ham veri havuzu toplam mac sayisi: 5622
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -50,9 +50,7 @@ Tarih: 2026-08-08T10:01:11.454111+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
-- Japonya J1 Lig
 - Japonya J2 Lig
-- Japonya J3 Lig
 - Kanada Premier Lig
 - Kazakistan Premier Lig
 - Kuzey İrlanda Championship
@@ -208,15 +206,15 @@ Tarih: 2026-08-08T10:01:11.454111+00:00
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Leyton Orient | Oxford | 25795 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Cardiff | Swindon | 24674 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Colchester | Southam | 26762 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bromley | Reading | 24453 | 5 |
+| 08.08.2026 | 16:00 | İngiltere Lig Kupası 1.Tur | Qpr | Millwall | 23666 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Sheffield Wed | Bolton | 26017 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Stockport | Doncaster | 26059 | 5 |
-| 08.08.2026 | 16:00 | İngiltere Lig Kupası 1.Tur | Qpr | Millwall | 23666 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Crewe | Accrington | 24864 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Bromley | Reading | 24453 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Leyton Orient | Oxford | 25795 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham | West Bromwich | 26839 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | West Ham | Portsmouth | 26370 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Salford City | Shrewsbury | 25921 | 5 |
 
 ## Sonuc
 
