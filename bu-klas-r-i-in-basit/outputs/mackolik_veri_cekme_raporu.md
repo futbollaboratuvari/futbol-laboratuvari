@@ -1,20 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T08:05:48.695183+00:00
+Tarih: 2026-08-08T08:24:40.942777+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 470
+- Kac mac bulundu: 516
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 470
+- Kac mac zaten vardi: 516
 - Ham veri havuzu toplam mac sayisi: 5604
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Grup B
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
@@ -24,7 +26,7 @@ Tarih: 2026-08-08T08:05:48.695183+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Son 16 Turu
-- Avustralya NPL Queensland
+- Avustralya NPL Kuzey YGG
 - Avustralya NPL Yeni Güney Galler
 - Avusturya 1.Lig
 - Avusturya Bundesliga
@@ -35,9 +37,12 @@ Tarih: 2026-08-08T08:05:48.695183+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- CONCACAF Ligler Kupası Grup Aşaması
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
@@ -52,12 +57,14 @@ Tarih: 2026-08-08T08:05:48.695183+00:00
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Japonya J1 Lig
 - Japonya J2 Lig
 - Japonya J3 Lig
 - Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -70,7 +77,9 @@ Tarih: 2026-08-08T08:05:48.695183+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
+- Meksika Ascenso MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -213,13 +222,13 @@ Tarih: 2026-08-08T08:05:48.695183+00:00
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Grimsby | Blackpool | 25412 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Gillingham | Luton | 25333 | 5 |
-| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Burton Albion | Blackburn | 24601 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Cardiff | Swindon | 24674 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Leyton Orient | Oxford | 25795 | 5 |
-| 08.08.2026 | 16:00 | İngiltere Lig Kupası 1.Tur | Qpr | Millwall | 23666 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Crewe | Accrington | 24864 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Stoke | Oldham | 26101 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Burton Albion | Blackburn | 24601 | 5 |
 | 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Barnsley | Wigan | 23991 | 5 |
+| 08.08.2026 | 17:00 | İngiltere Lig Kupası 1.Tur | Watford | Crawley | 26278 | 5 |
 
 ## Sonuc
 
