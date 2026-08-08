@@ -1,24 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T15:15:48.735599+00:00
+Tarih: 2026-08-08T15:56:17.825880+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 153
+- Kac mac bulundu: 179
 - Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 152
-- Ham veri havuzu toplam mac sayisi: 5630
+- Kac mac zaten vardi: 178
+- Ham veri havuzu toplam mac sayisi: 5631
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avusturya 1.Lig
+- Avustralya NPL Kuzey YGG
 - Avusturya Bundesliga
 - Belçika Pro Lig
 - Bolivya Premier Lig
@@ -26,7 +28,10 @@ Tarih: 2026-08-08T15:15:48.735599+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
+- CONCACAF Ligler Kupası Grup Aşaması
 - Danimarka 3.Lig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Fransa Ligue 2
@@ -35,19 +40,21 @@ Tarih: 2026-08-08T15:15:48.735599+00:00
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Letonya 1.Lig
-- Litvanya 1.Lig
 - Litvanya A Ligi
-- Macaristan NB I
 - Macaristan NB II
 - Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
+- Meksika Ascenso MX Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 2
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -72,7 +79,6 @@ Tarih: 2026-08-08T15:15:48.735599+00:00
 - İngiltere Non League Premier Güney Merkez
 - İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
-- İsveç Allsvenskan
 - İsviçre 1.Lig Promotion
 - İsviçre Süper Lig
 - İtalya Kupa Ön Eleme Turu
@@ -134,8 +140,8 @@ Tarih: 2026-08-08T15:15:48.735599+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 86
-- Acilan detay: 86
+- Denenen Tumu alani: 82
+- Acilan detay: 82
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -156,17 +162,17 @@ Tarih: 2026-08-08T15:15:48.735599+00:00
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
-| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Cheltenham | Charlton | 26686 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Colchester | Southam | 26762 | 5 |
+| 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Cheltenham | Charlton | 26686 | 5 |
 | 08.08.2026 | 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham | West Bromwich | 26839 | 5 |
 | 08.08.2026 | 21:30 | İtalya Kupa Ön Eleme Turu | Ascoli Picchio | Rossoblu Potenz | 14280 | 5 |
 | 08.08.2026 | 21:00 | İtalya Kupa Ön Eleme Turu | Vicenza | Catania | 14242 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Sochaux | St Etienne | 13248 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Montpellier | Dijon | 11293 | 5 |
 
 ## Sonuc
