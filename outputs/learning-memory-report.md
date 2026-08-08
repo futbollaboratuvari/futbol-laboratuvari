@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 21:54:01
+Oluşturma: 08.08.2026 22:00:30
 
 ## Özet
 
-- Toplam tahmin: 238
-- Bekleyen tahmin: 238
+- Toplam tahmin: 239
+- Bekleyen tahmin: 239
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 78
@@ -20,12 +20,13 @@ Oluşturma: 08.08.2026 21:54:01
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 141, bekleyen 141, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 87, bekleyen 87, başarı bekleniyor, ağırlık 1
-- MS X: toplam 140, bekleyen 140, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Hazırlık Kulüpler | Real Betis - Bournemouth | MS X | pending | 60/100
 - 2026-08-08 | Hazırlık Kulüpler | Napoli - Celta Vigo | MS 2 | pending | 50/100
 - 2026-08-08 | Bosna-Hersek Premier Lig | Sarajevo - Radnik Bijeljin | MS 2 | pending | 65/100
 - 2026-08-08 | Hazırlık Kulüpler | Leganes - Tenerife | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 08.08.2026 21:54:01
 - 2026-08-08 | Fransa Ligue 2 | Montpellier - Dijon | MS 2 | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Pau Fc - Annecy | MS X | pending | 50/100
 - 2026-08-08 | Fransa Ligue 2 | Boulogne - Nancy | MS X | pending | 40/100
-- 2026-08-08 | Fransa Ligue 2 | Dunkerque - Grenoble | MS 2 | pending | 50/100
 

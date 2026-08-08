@@ -2,31 +2,17 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-08T18:49:49.023Z
-- Ham maç sayısı: 146
+- Güncelleme: 2026-08-08T19:00:30.120Z
+- Ham maç sayısı: 140
 - Yarın bülteni maç sayısı: 55
-- Detay blok sayısı: 419
-- Aktif bülten maçı: 75
-- Bültenden düşürülen maç: 71
+- Detay blok sayısı: 401
+- Aktif bülten maçı: 61
+- Bültenden düşürülen maç: 79
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Az Alkmaar - Den Haag | Hollanda Eredivisie | 22:00 | Veri bekleniyor | - | 1.2 | 6 |
-| Juventus (K) - Hammarby (K) | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | 22:00 | Veri bekleniyor | - | 1.85 | 8 |
-| Valencia - Newcastle Utd | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 2.63 | 8 |
-| Mallorca - Elversberg | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 2.17 | 8 |
-| Napoli - Celta Vigo | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 1.8 | 8 |
-| Gremio - Sao Paulo | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 2.08 | 8 |
-| Lokomotiva - Hnk Gorica | Hırvatistan 1.HNL | 22:00 | Veri bekleniyor | - | 1.76 | 8 |
-| Huachipato - Everton De Vina | Şili Premier Lig | 22:00 | Veri bekleniyor | - | 2.63 | 8 |
-| Rafaela - Chacarita Junio | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 2.02 | 6 |
-| Vila Nova - Sport Recife | Brezilya Serie B | 22:00 | Veri bekleniyor | - | 1.98 | 8 |
-| Siroki Brijeg - Sloga Doboj | Bosna-Hersek Premier Lig | 22:00 | Veri bekleniyor | - | 1.96 | 8 |
-| Sarajevo - Radnik Bijeljin | Bosna-Hersek Premier Lig | 22:00 | Veri bekleniyor | - | 1.26 | 7 |
-| San Antonio Bu - Nacional Potosi | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 1.9 | 8 |
-| Cd Mafra - Vitoria De Sern | Portekiz 3.Lig Grup B | 22:00 | Veri bekleniyor | - | 1.44 | 7 |
-| Estrela - Sporting Cp | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 10.05 | 6 |
+| Estrela - Sporting Cp | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 8.74 | 6 |
 | Cadiz - Las Palmas | Hazırlık Kulüpler | 22:30 | Veri bekleniyor | - | 2.55 | 8 |
 | Tigre - River Plate | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 3.13 | 8 |
 | Monagas - Carabobo | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 3.54 | 8 |
