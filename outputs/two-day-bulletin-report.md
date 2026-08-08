@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 584
-Aktif mac: 458
-Canli mac: 68
-Biten mac: 58
+Ham mac: 586
+Aktif mac: 460
+Canli mac: 62
+Biten mac: 64
 Bultenden dusurulen mac: 126
-Bugun: 403
+Bugun: 405
 Yarin: 55
 
 ## Baslamamis Maclar
@@ -278,6 +278,7 @@ Yarin: 55
 - 2026-08-08 18:00 | Litvanya 1.Lig | Fk Dainava - Babrungas | scheduled | -
 - 2026-08-08 18:00 | Litvanya 1.Lig | Minija - Be1 Nfa | scheduled | -
 - 2026-08-08 18:00 | Macaristan NB III Kuzeybatı | Gyor Ii - Sárisápi Bányás | scheduled | -
+- 2026-08-08 18:00 | Macaristan NB II | Gyirmot - Kazincbarcika | scheduled | -
 - 2026-08-08 18:10 | Belarus Premier Lig | Vitebsk - Neman Grodno | scheduled | -
 - 2026-08-08 18:30 | İsveç Allsvenskan | Mjallby - Elfsborg | scheduled | -
 - 2026-08-08 18:30 | Polonya Ekstraklasa | Pogon Szczecin - Motor Lublin | scheduled | -
@@ -348,6 +349,7 @@ Yarin: 55
 - 2026-08-08 20:00 | Norveç 3.Lig Grup 2 | Ntnui - Byasen | scheduled | -
 - 2026-08-08 20:00 | Kanada Premier Lig | Atletico Ottaw - Hfx Wanderers | scheduled | -
 - 2026-08-08 20:00 | Portekiz Premier Lig | Guimaraes - Arouca | scheduled | -
+- 2026-08-08 20:00 | Hazırlık Kulüpler | Castellon - Levante | scheduled | -
 - 2026-08-08 20:30 | Avusturya Bundesliga | Hartberg - Sturm Graz | scheduled | -
 - 2026-08-08 20:30 | Rusya Premier Lig | Cska Moskova - Rostov | scheduled | -
 - 2026-08-08 20:30 | Hazırlık Kulüpler | La Nucia - Alcoyano | scheduled | -
@@ -471,12 +473,6 @@ Yarin: 55
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Znk Mura (K) - Hajduk Split (K | live | -
-- 2026-08-08 12:00 | Hazırlık Kulüpler | G.Segoviana - Atl Madrid Ii | live | -
-- 2026-08-08 12:00 | Rusya FNL | Yenisey - Tekstilshchik | live | -
-- 2026-08-08 12:00 | Japonya J3 Lig | Parceiro Nagan - Renofa Yamaguch | live | -
-- 2026-08-08 12:00 | Japonya J3 Lig | Sagamihara - Roasso Kumamoto | live | -
-- 2026-08-08 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Rockdale Cs | live | -
 - 2026-08-08 12:30 | Avustralya FFA Kupası Son 16 Turu | Western Sydney - Melbourne Victo | live | -
 - 2026-08-08 12:30 | Japonya J2 Lig | Vanraure - Kataller Toyama | live | -
 - 2026-08-08 12:30 | Japonya J2 Lig | Fujieda - Sendai | live | -
@@ -599,3 +595,9 @@ Yarin: 55
 - 2026-08-08 11:30 | Hazırlık Kulüpler | Lumezzane - Crema | finished | -
 - 2026-08-08 11:30 | Hazırlık Kulüpler | Ucam Murcia - Orihuela | finished | -
 - 2026-08-08 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Apia | finished | -
+- 2026-08-08 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Znk Mura (K) - Hajduk Split (K | finished | -
+- 2026-08-08 12:00 | Hazırlık Kulüpler | G.Segoviana - Atl Madrid Ii | finished | -
+- 2026-08-08 12:00 | Rusya FNL | Yenisey - Tekstilshchik | finished | -
+- 2026-08-08 12:00 | Japonya J3 Lig | Parceiro Nagan - Renofa Yamaguch | finished | -
+- 2026-08-08 12:00 | Japonya J3 Lig | Sagamihara - Roasso Kumamoto | finished | -
+- 2026-08-08 12:15 | Avustralya NPL Yeni Güney Galler | St George City - Rockdale Cs | finished | -

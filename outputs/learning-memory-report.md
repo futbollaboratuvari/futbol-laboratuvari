@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 14:20:00
+Oluşturma: 08.08.2026 14:32:32
 
 ## Özet
 
-- Toplam tahmin: 318
-- Bekleyen tahmin: 318
+- Toplam tahmin: 319
+- Bekleyen tahmin: 319
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 94
@@ -20,12 +20,13 @@ Oluşturma: 08.08.2026 14:20:00
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS X: toplam 183, bekleyen 183, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 115, bekleyen 115, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | MS 1 | pending | 40/100
 - 2026-08-08 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Foshan Nanshi | MS X | pending | 50/100
 - 2026-08-08 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Shaanxi Union | MS 1 | pending | 40/100
 - 2026-08-08 | İskoçya 2.Lig | Kelty Hearts - Stirling Albion | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 08.08.2026 14:20:00
 - 2026-08-08 | Fransa Ligue 2 | Sochaux - St Etienne | MS 1 | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Metz - Guingamp | MS 2 | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Montpellier - Dijon | MS 2 | pending | 40/100
-- 2026-08-08 | Fransa Ligue 2 | Pau Fc - Annecy | MS X | pending | 50/100
 
