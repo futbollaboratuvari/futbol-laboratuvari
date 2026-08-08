@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-08T00:56:10.341Z
-- Ham fixture sayisi: 5569
-- Bugun/yarin kaynak mac: 557
-- Aktif bulten maci: 542
+- Guncelleme: 2026-08-08T05:13:11.470Z
+- Ham fixture sayisi: 5574
+- Bugun/yarin kaynak mac: 562
+- Aktif bulten maci: 527
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 15
+- Bultenden dusurulen mac: 35
 
-- 1. 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Durango - Piratas | scheduled
-- 2. 2026-08-08 04:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Aguila | scheduled
-- 3. 2026-08-08 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Walter Ferretti | scheduled
-- 4. 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Ca La Paz | scheduled
-- 5. 2026-08-08 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Minnesota Utd | scheduled
-- 6. 2026-08-08 04:30 | Peru Premier Lig Clausura | Universitario - Sporting Crista | scheduled
-- 7. 2026-08-08 05:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Sporting San Jo | scheduled
-- 8. 2026-08-08 05:00 | CONCACAF U20 Yarı Final | Kanada (U20) - Meksika (U20) | scheduled
-- 9. 2026-08-08 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Xelaju | scheduled
-- 10. 2026-08-08 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Fc Juarez | scheduled
-- 11. 2026-08-08 07:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Valentine Phoen | scheduled
-- 12. 2026-08-08 07:00 | Avustralya NPL Tazmanya | South Hobart - Riverside Olymp | scheduled
-- 13. 2026-08-08 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Cooma Tigers | scheduled
-- 14. 2026-08-08 07:30 | Avustralya NPL Tazmanya | Devonport City - Launceston City | scheduled
-- 15. 2026-08-08 07:30 | Avustralya NPL Tazmanya | Glenorchy Knig - Launceston Unit | scheduled
+- 1. 2026-08-08 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Para Hills Knig | scheduled
+- 2. 2026-08-08 08:30 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Sydney Olympic | scheduled
+- 3. 2026-08-08 08:45 | Japonya J2 Lig | Sapporo - Tokushima | scheduled
+- 4. 2026-08-08 09:00 | Avustralya NPL Batı Avustralya | Bayswater City - Sorrento | scheduled
+- 5. 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Adamstown Rose - Cooks Hill Unit | scheduled
+- 6. 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Belmont Swanse - Lambton Jaffas | scheduled
+- 7. 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Marconi | scheduled
+- 8. 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Western Sydney | scheduled
+- 9. 2026-08-08 10:30 | Avustralya NPL Başkent Bölgesi | Canberra - O Connor Knight | scheduled
+- 10. 2026-08-08 10:30 | Hazırlık Kulüpler | Elche - Toulouse | scheduled
+- 11. 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Blacktown City | scheduled
+- 12. 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - Sydney Ii | scheduled
+- 13. 2026-08-08 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Belconnen Unite | scheduled
+- 14. 2026-08-08 11:00 | Hazırlık Kulüpler | Alcorcon - Navalcarnero | scheduled
+- 15. 2026-08-08 11:00 | Avustralya NPL Queensland | Brisbane City - Gold Coast Unit | scheduled
