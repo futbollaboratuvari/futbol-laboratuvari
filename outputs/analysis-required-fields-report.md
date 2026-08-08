@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 471
-Tam analiz: 419
-Eksik analiz: 52
+Toplam analiz: 467
+Tam analiz: 413
+Eksik analiz: 54
 
 - Skedsmo VS Fauske/Sprint: eksik score, confidence
 - Skanste VS Rezekne / Bjss: eksik score, confidence
