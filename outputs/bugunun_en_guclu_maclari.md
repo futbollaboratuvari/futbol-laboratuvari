@@ -1,75 +1,54 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-08T21:56:39.456Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-08-08T22:04:51.314Z
+- Ham maç sayısı: 50
+- Yarın bülteni maç sayısı: 32
+- Detay blok sayısı: 136
+- Aktif bülten maçı: 40
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Aurora VS Comunicaciones | Guatemala Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Pacific Fc VS Inter Toronto | Kanada Premier Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Platense VS Marathon | Honduras Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Platense VS Inca-Aruba | El Salvador Primera Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| The Strongest VS Independiente P | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Remo VS Atletico Mg | Brezilya Serie A | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Coquimbo Unido VS La Serena | Şili Premier Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Botafogo Ribei VS America Mineiro | Brezilya Serie B | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Torque VS Penarol | Uruguay Premier Lig Clausura | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Aucas VS Leones Del Nort | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Zamora VS Academia Puerto | Venezuela Premier Lig Clausura | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Trujillanos VS Depor Tachira | Venezuela Premier Lig Clausura | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Quilmes VS Almagro | Arjantin Ulusal Primera Lig | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Breidablik VS Valur | İzlanda Urvalsdeild | 23:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Melgar VS Fc Cajamarca | Peru Premier Lig Clausura | 23:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Gimnasia Y Tir VS Nueva Chicago | Arjantin Ulusal Primera Lig | 23:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Gimnasia La Pl VS Barracas | Arjantin Premier Lig 2. Aşama | 23:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Defensa Justic VS Newells Old Boy | Arjantin Premier Lig 2. Aşama | 23:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| San Martin Tuc VS San Martin Sj | Arjantin Ulusal Primera Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cuiaba VS Fortaleza Ce | Brezilya Serie B | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Inter San Carl VS Ad San Carlos | Kosta Rika Premier Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Deportivo San VS Suchitepequez | Guatemala Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Delfin VS Orense | Ekvador Pro Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Indy Eleven VS Hartford Athlet | ABD USL | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Juticalpa VS Depor. Olimpia | Honduras Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cacahuatique VS Fuerte San Fran | El Salvador Primera Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Real Potosi VS Blooming | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Santos VS Atletico Pr | Brezilya Serie A | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Bragantino VS Corinthians | Brezilya Serie A | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Union La Caler VS Colo Colo | Şili Premier Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Nacional Df VS Boston River | Uruguay Premier Lig Clausura | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Metropolitanos VS Ucv | Venezuela Premier Lig Clausura | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Municipal VS Coban Imperial | Guatemala Ulusal Lig Apertura | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| San Marcos VS Unan Managua | Nikaragua Premier Lig Apertura | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Argentinos Jr VS Racing Club | Arjantin Premier Lig 2. Aşama | 02:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Depor Motagua VS Estrella Roja | Honduras Ulusal Lig Apertura | 02:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cruz Azul VS New York City | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Philadelphia VS Necaxa | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Oriente Petrol VS Universitario D | Bolivya Premier Lig | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Deportivo Fas VS Balboa | El Salvador Primera Lig Apertura | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Nashville Sc VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Chicago VS Santos Laguna | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Univ. De Şili VS Palestino | Şili Premier Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Herediano VS Alajuelense | Kosta Rika Premier Lig Apertura | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Guayaquil City VS Emelec | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Austin VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Matagalpa VS Managua | Nikaragua Premier Lig Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Atlético Indep VS Choloma | Honduras Ulusal Lig Apertura | 04:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| San Diego VS Club Tijuana | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Club America VS Portland | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Zamora - Academia Puerto | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 2.68 | 6 |
+| Trujillanos - Depor Tachira | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 4.54 | 7 |
+| Quilmes - Almagro | Arjantin Ulusal Primera Lig | 23:00 | Veri bekleniyor | - | 1.34 | 5 |
+| Breidablik - Valur | İzlanda Urvalsdeild | 23:15 | Veri bekleniyor | - | 1.38 | 4 |
+| Melgar - Fc Cajamarca | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 1.12 | 6 |
+| Gimnasia Y Tir - Nueva Chicago | Arjantin Ulusal Primera Lig | 23:30 | Veri bekleniyor | - | 1.7 | 5 |
+| Gimnasia La Pl - Barracas | Arjantin Premier Lig 2. Aşama | 23:45 | Veri bekleniyor | - | 1.6 | 7 |
+| Defensa Justic - Newells Old Boy | Arjantin Premier Lig 2. Aşama | 23:45 | Veri bekleniyor | - | 2.02 | 8 |
+| San Martin Tuc - San Martin Sj | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 1.79 | 6 |
+| Cuiaba - Fortaleza Ce | Brezilya Serie B | 00:00 | Veri bekleniyor | - | 1.99 | 8 |
+| Inter San Carl - Ad San Carlos | Kosta Rika Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 1.84 | 8 |
+| Deportivo San - Suchitepequez | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.52 | 7 |
+| Delfin - Orense | Ekvador Pro Lig | 00:00 | Veri bekleniyor | - | 2.18 | 8 |
+| Indy Eleven - Hartford Athlet | ABD USL | 00:00 | Veri bekleniyor | - | 1.63 | 8 |
+| Juticalpa - Depor. Olimpia | Honduras Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 9.52 | 5 |
+| Cacahuatique - Fuerte San Fran | El Salvador Primera Lig Apertura | 00:00 | Veri bekleniyor | - | 1.65 | 8 |
+| Real Potosi - Blooming | Bolivya Premier Lig | 00:15 | Veri bekleniyor | - | 1.6 | 8 |
+| Santos - Atletico Pr | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 1.88 | 8 |
+| Bragantino - Corinthians | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 1.9 | 8 |
+| Union La Caler - Colo Colo | Şili Premier Lig | 00:30 | Veri bekleniyor | - | 3.85 | 7 |
+| Nacional Df - Boston River | Uruguay Premier Lig Clausura | 00:30 | Veri bekleniyor | - | 1.35 | 5 |
+| Metropolitanos - Ucv | Venezuela Premier Lig Clausura | 01:30 | Veri bekleniyor | - | 1.83 | 8 |
+| Municipal - Coban Imperial | Guatemala Ulusal Lig Apertura | 02:00 | Veri bekleniyor | - | 1.23 | 6 |
+| San Marcos - Unan Managua | Nikaragua Premier Lig Apertura | 02:00 | Veri bekleniyor | - | 2.6 | 8 |
+| Argentinos Jr - Racing Club | Arjantin Premier Lig 2. Aşama | 02:15 | Veri bekleniyor | - | 1.88 | 8 |
+| Depor Motagua - Estrella Roja | Honduras Ulusal Lig Apertura | 02:15 | Veri bekleniyor | - | 1.12 | 5 |
+| Cruz Azul - New York City | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Veri bekleniyor | - | 2.06 | 8 |
+| Philadelphia - Necaxa | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Veri bekleniyor | - | 1.49 | 8 |
+| Oriente Petrol - Universitario D | Bolivya Premier Lig | 02:30 | Veri bekleniyor | - | 1.36 | 5 |
+| Deportivo Fas - Balboa | El Salvador Primera Lig Apertura | 02:30 | Veri bekleniyor | - | 1.17 | 6 |
+| Nashville Sc - Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Veri bekleniyor | - | 1.44 | 7 |
+| Chicago - Santos Laguna | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Veri bekleniyor | - | 1.32 | 6 |
+| Univ. De Şili - Palestino | Şili Premier Lig | 03:00 | Veri bekleniyor | - | 1.59 | 8 |
+| Herediano - Alajuelense | Kosta Rika Premier Lig Apertura | 03:00 | Veri bekleniyor | - | 2.13 | 8 |
+| Guayaquil City - Emelec | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 2.53 | 6 |
+| Austin - Puebla | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | Veri bekleniyor | - | 1.62 | 8 |
+| Matagalpa - Managua | Nikaragua Premier Lig Apertura | 04:00 | Veri bekleniyor | - | 4.31 | 7 |
+| Atlético Indep - Choloma | Honduras Ulusal Lig Apertura | 04:30 | Veri bekleniyor | - | 1.77 | 5 |
+| San Diego - Club Tijuana | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | Veri bekleniyor | - | 1.38 | 7 |
+| Club America - Portland | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | Veri bekleniyor | - | 1.86 | 8 |
