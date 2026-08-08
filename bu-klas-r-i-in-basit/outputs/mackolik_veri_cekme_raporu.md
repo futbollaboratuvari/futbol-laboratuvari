@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T16:44:38.401387+00:00
+Tarih: 2026-08-08T17:17:13.176483+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 96
+- Kac mac bulundu: 80
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 96
+- Kac mac zaten vardi: 80
 - Ham veri havuzu toplam mac sayisi: 5631
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
@@ -27,23 +27,18 @@ Tarih: 2026-08-08T16:44:38.401387+00:00
 - Bulgaristan 1.Lig
 - Danimarka 3.Lig
 - Fransa Ligue 2
-- Guatemala Ulusal Lig Apertura
-- Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
 - Letonya 1.Lig
 - Macaristan NB II
 - Macaristan NB III Güneybatı
-- Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeydoğu
 - Norveç 3.Lig Grup 2
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
-- Portekiz 2.Lig
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
@@ -56,7 +51,6 @@ Tarih: 2026-08-08T16:44:38.401387+00:00
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
-- İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsviçre 1.Lig Promotion
 - İsviçre Süper Lig
@@ -119,8 +113,8 @@ Tarih: 2026-08-08T16:44:38.401387+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 71
-- Acilan detay: 71
+- Denenen Tumu alani: 65
+- Acilan detay: 65
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -135,24 +129,24 @@ Tarih: 2026-08-08T16:44:38.401387+00:00
 |---|---|---|---|---|---|---:|
 | 08.08.2026 | 21:00 | Hollanda Eredivisie | Psv Eindhoven | Fortuna Sittard | 18198 | 4 |
 | 08.08.2026 | 22:00 | Hollanda Eredivisie | Az Alkmaar | Den Haag | 18258 | 5 |
-| 08.08.2026 | 19:45 | Hollanda Eredivisie | Go Ahead Eagle | Willem | 18077 | 5 |
-| 08.08.2026 | 20:00 | Portekiz Premier Lig | Guimaraes | Arouca | 21189 | 5 |
 | 08.08.2026 | 22:30 | Portekiz Premier Lig | Estrela | Sporting Cp | 21389 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
 | 08.08.2026 | 21:30 | İtalya Kupa Ön Eleme Turu | Ascoli Picchio | Rossoblu Potenz | 14280 | 5 |
 | 08.08.2026 | 21:00 | İtalya Kupa Ön Eleme Turu | Vicenza | Catania | 14242 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Sochaux | St Etienne | 13248 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Sochaux | St Etienne | 13248 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Montpellier | Dijon | 11293 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Metz | Guingamp | 10885 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Clermont | Reims | 10439 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Metz | Guingamp | 10885 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
 | 08.08.2026 | 21:30 | Almanya 2. Bundesliga | Wolfsburg | Kaiserslautern | 06247 | 5 |
 | 08.08.2026 | 20:30 | Avusturya Bundesliga | Hartberg | Sturm Graz | 33415 | 5 |
+| 08.08.2026 | 21:15 | Polonya Ekstraklasa | Korona Kielce | Legia Varşova | 31297 | 5 |
+| 08.08.2026 | 21:30 | İsviçre Süper Lig | Servette | Grasshoppers | 26534 | 5 |
 
 ## Sonuc
 
