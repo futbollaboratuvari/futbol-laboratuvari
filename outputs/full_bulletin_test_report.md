@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 55
-- Live match count: 33
+- Scheduled match count: 50
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-08-08 / 2026-08-09 23:59
+- Date window: 2026-08-09 / 2026-08-10 23:59
 
-- 2026-08-08 21:45 | St. Truidense - Lommel | live
-- 2026-08-08 21:45 | Westerlo - Union St.G | live
-- 2026-08-08 21:45 | Boulogne - Nancy | live
-- 2026-08-08 21:45 | Clermont - Reims | live
-- 2026-08-08 21:45 | Dunkerque - Grenoble | live
-- 2026-08-08 21:45 | Metz - Guingamp | live
-- 2026-08-08 21:45 | Montpellier - Dijon | live
-- 2026-08-08 21:45 | Nantes - Red Star Paris | live
-- 2026-08-08 21:45 | Pau Fc - Annecy | live
-- 2026-08-08 21:45 | Rodez Aveyron - Stade Lavallois | live
+- 2026-08-09 00:30 | Remo - Atletico Mg | scheduled
+- 2026-08-09 00:30 | Botafogo Ribei - America Mineiro | scheduled
+- 2026-08-09 00:30 | Aucas - Leones Del Nort | scheduled
+- 2026-08-09 00:30 | Coquimbo Unido - La Serena | scheduled
+- 2026-08-09 00:30 | Torque - Penarol | scheduled
+- 2026-08-09 01:00 | Jalapa - Export Sebaco | scheduled
+- 2026-08-09 01:15 | Boca Juniors - Velez Sarsfield | scheduled
+- 2026-08-09 01:30 | Orlando City - Club Leon | scheduled
+- 2026-08-09 02:00 | Brooklyn - Birmingham Legi | scheduled
+- 2026-08-09 02:00 | Lexington - Phoenix Rising | scheduled
