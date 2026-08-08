@@ -2,18 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 556
-Aktif mac: 545
-Canli mac: 9
-Biten mac: 2
+Ham mac: 554
+Aktif mac: 543
+Canli mac: 11
+Biten mac: 0
 Bultenden dusurulen mac: 11
-Bugun: 492
+Bugun: 490
 Yarin: 53
 
 ## Baslamamis Maclar
-- 2026-08-08 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pumas Unam | scheduled | -
-- 2026-08-08 03:00 | Ekvador Pro Lig | Ldu Quito - Indep. Jose Ter | scheduled | -
-- 2026-08-08 03:30 | Şili Premier Lig | Univ. Catolica - Cobresal | scheduled | -
 - 2026-08-08 03:45 | Arjantin Premier Lig 2. Aşama | Rivadavia - Rio Cuarto | scheduled | -
 - 2026-08-08 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Minnesota Utd | scheduled | -
 - 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Durango - Piratas | scheduled | -
@@ -86,6 +83,7 @@ Yarin: 53
 - 2026-08-08 13:00 | Japonya J3 Lig | Kagoshima Unit - Kusatsu Gunma | scheduled | -
 - 2026-08-08 13:15 | Japonya J1 Lig | Hiroshima - Jef Utd Chiba | scheduled | -
 - 2026-08-08 13:30 | Japonya J2 Lig | Sagan Tosu - Kofu | scheduled | -
+- 2026-08-08 13:30 | Letonya 1.Lig | Skanste - Rezekne / Bjss | scheduled | -
 - 2026-08-08 14:00 | Almanya 2. Bundesliga | Darmstadt - Holstein Kiel | scheduled | -
 - 2026-08-08 14:00 | Almanya 2. Bundesliga | Karlsruhe - Arminia Bielefe | scheduled | -
 - 2026-08-08 14:00 | Almanya 2. Bundesliga | Magdeburg - Braunschweig | scheduled | -
@@ -558,7 +556,6 @@ Yarin: 53
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 01:00 | Uruguay Premier Lig Clausura | Cerro Largo - Juventud Dl Pie | live | -
 - 2026-08-08 01:30 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Aldosivi | live | -
 - 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | live | -
 - 2026-08-08 02:00 | Arjantin Ulusal Primera Lig | Midland - Maipu | live | -
@@ -567,7 +564,9 @@ Yarin: 53
 - 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pachuca | live | -
 - 2026-08-08 02:30 | Brezilya Serie B | Ceara - Ponte Preta | live | -
 - 2026-08-08 02:30 | Bolivya Premier Lig | Real Tomayapo - Real Oruro | live | -
+- 2026-08-08 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pumas Unam | live | -
+- 2026-08-08 03:00 | Ekvador Pro Lig | Ldu Quito - Indep. Jose Ter | live | -
+- 2026-08-08 03:30 | Şili Premier Lig | Univ. Catolica - Cobresal | live | -
 
 ## Biten Maclar
-- 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | finished | -
-- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | finished | -
+Biten mac yok.
