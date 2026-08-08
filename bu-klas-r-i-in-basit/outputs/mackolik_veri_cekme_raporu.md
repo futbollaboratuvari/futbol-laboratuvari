@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T05:13:07.085705+00:00
+Tarih: 2026-08-08T05:58:58.358495+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 533
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 532
-- Ham veri havuzu toplam mac sayisi: 5599
+- Kac mac bulundu: 531
+- Kac mac kaydedildi: 5
+- Kac mac zaten vardi: 526
+- Ham veri havuzu toplam mac sayisi: 5604
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -28,11 +28,9 @@ Tarih: 2026-08-08T05:13:07.085705+00:00
 - Avustralya FFA Kupası Son 16 Turu
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Güney Avustralya
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Queensland
 - Avustralya NPL Yeni Güney Galler
-- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus Premier Lig
@@ -77,6 +75,7 @@ Tarih: 2026-08-08T05:13:07.085705+00:00
 - Litvanya 1.Lig
 - Litvanya A Ligi
 - Macaristan NB I
+- Macaristan NB II
 - Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
@@ -109,6 +108,7 @@ Tarih: 2026-08-08T05:13:07.085705+00:00
 - Slovenya 1.SNL
 - Slovenya 2.SNL
 - Sırbistan Süper Lig
+- Türkiye TFF 1. Lig
 - UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri
 - UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final
 - Ukrayna Premier Lig
@@ -212,26 +212,26 @@ Tarih: 2026-08-08T05:13:07.085705+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.08.2026 | 19:45 | Hollanda Eredivisie | Go Ahead Eagle | Willem | 18077 | 5 |
-| 08.08.2026 | 21:00 | Hollanda Eredivisie | Psv Eindhoven | Fortuna Sittard | 18198 | 4 |
-| 08.08.2026 | 17:30 | Hollanda Eredivisie | Nijmegen | Telstar | 17953 | 5 |
+| 08.08.2026 | 19:00 | Türkiye TFF 1. Lig | Ümraniyespor | Mardin 1969 | 30333 | 5 |
+| 08.08.2026 | 17:00 | Türkiye TFF 1. Lig | Bandirmaspor | İstanbulspor | 30299 | 5 |
+| 08.08.2026 | 19:00 | Türkiye TFF 1. Lig | Sivasspor | Esenler Erokspo | 30316 | 5 |
+| 08.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | A. Keçiörengücü | 30335 | 5 |
 | 08.08.2026 | 22:00 | Hollanda Eredivisie | Az Alkmaar | Den Haag | 18258 | 5 |
+| 08.08.2026 | 21:00 | Hollanda Eredivisie | Psv Eindhoven | Fortuna Sittard | 18198 | 4 |
+| 08.08.2026 | 19:45 | Hollanda Eredivisie | Go Ahead Eagle | Willem | 18077 | 5 |
+| 08.08.2026 | 17:30 | Hollanda Eredivisie | Nijmegen | Telstar | 17953 | 5 |
 | 08.08.2026 | 17:30 | Portekiz Premier Lig | Maritimo | Casa Pia | 21016 | 5 |
 | 08.08.2026 | 22:30 | Portekiz Premier Lig | Estrela | Sporting Cp | 21389 | 5 |
+| 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | Westerlo | Union St.G | 17487 | 5 |
 | 08.08.2026 | 21:45 | Belçika Pro Lig | St. Truidense | Lommel | 17314 | 5 |
-| 08.08.2026 | 19:15 | Belçika Pro Lig | Standard Liege | Cercle Brugge | 17146 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Sochaux | St Etienne | 13248 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Metz | Guingamp | 10885 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Montpellier | Dijon | 11293 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Nantes | Red Star Paris | 11493 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
+| 08.08.2026 | 21:45 | Fransa Ligue 2 | Clermont | Reims | 10439 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Pau Fc | Annecy | 12729 | 5 |
 | 08.08.2026 | 21:45 | Fransa Ligue 2 | Boulogne | Nancy | 14149 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Dunkerque | Grenoble | 10556 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Rodez Aveyron | Stade Lavallois | 13090 | 5 |
-| 08.08.2026 | 21:45 | Fransa Ligue 2 | Clermont | Reims | 10439 | 5 |
-| 08.08.2026 | 18:00 | Ukrayna Premier Lig | Bukovyna | Obolon-Brovar | 27122 | 5 |
-| 08.08.2026 | 15:30 | Ukrayna Premier Lig | Livyi Bereh | Kudrivka | 27105 | 5 |
 
 ## Sonuc
 

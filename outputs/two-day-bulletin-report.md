@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 541
-Aktif mac: 525
-Canli mac: 16
-Biten mac: 0
-Bultenden dusurulen mac: 16
-Bugun: 471
+Ham mac: 567
+Aktif mac: 529
+Canli mac: 13
+Biten mac: 25
+Bultenden dusurulen mac: 38
+Bugun: 475
 Yarin: 54
 
 ## Baslamamis Maclar
-- 2026-08-08 08:45 | Japonya J2 Lig | Sapporo - Tokushima | scheduled | -
 - 2026-08-08 09:00 | Avustralya NPL Batı Avustralya | Bayswater City - Sorrento | scheduled | -
 - 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Belmont Swanse - Lambton Jaffas | scheduled | -
 - 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Adamstown Rose - Cooks Hill Unit | scheduled | -
@@ -325,6 +324,7 @@ Yarin: 54
 - 2026-08-08 17:00 | İngiltere Non League Premier Güney Merkez | Racing Club Wa - Peterborough Sp | scheduled | -
 - 2026-08-08 17:00 | İngiltere Non League Premier Güney Merkez | Bishops Stortf - Banbury United | scheduled | -
 - 2026-08-08 17:00 | Norveç 3.Lig Grup 2 | Spjelkavik - Strindheim | scheduled | -
+- 2026-08-08 17:00 | Türkiye TFF 1. Lig | Bandirmaspor - İstanbulspor | scheduled | -
 - 2026-08-08 17:30 | Hollanda Eredivisie | Nijmegen - Telstar | scheduled | -
 - 2026-08-08 17:30 | Portekiz Premier Lig | Maritimo - Casa Pia | scheduled | -
 - 2026-08-08 17:30 | Hollanda Eerste Divisie | Den Bosch - Almere City | scheduled | -
@@ -378,6 +378,7 @@ Yarin: 54
 - 2026-08-08 18:30 | Macaristan NB III Kuzeybatı | Bicskei - Sc Sopron | scheduled | -
 - 2026-08-08 18:30 | Macaristan NB III Güneydoğu | Bss Monor - Csepel Tc | scheduled | -
 - 2026-08-08 18:30 | Macaristan NB III Güneybatı | Erdi Vse - Paksi Fc Ii | scheduled | -
+- 2026-08-08 18:30 | Macaristan NB II | Mol Vidi - Szeged 2011 | scheduled | -
 - 2026-08-08 19:00 | Finlandiya Veikkausliiga | Jaro - Vaasa | scheduled | -
 - 2026-08-08 19:00 | İsviçre Süper Lig | Lausanne - Young Boys | scheduled | -
 - 2026-08-08 19:00 | Norveç Eliteserien | Start - Fredrikstad | scheduled | -
@@ -398,6 +399,8 @@ Yarin: 54
 - 2026-08-08 19:00 | İzlanda 2.Lig | Kormakur - Throttur Vogar | scheduled | -
 - 2026-08-08 19:00 | İzlanda 2.Lig | Dalvik - Kari | scheduled | -
 - 2026-08-08 19:00 | İzlanda 2.Lig | Hviti - Magni | scheduled | -
+- 2026-08-08 19:00 | Türkiye TFF 1. Lig | Ümraniyespor - Mardin 1969 | scheduled | -
+- 2026-08-08 19:00 | Türkiye TFF 1. Lig | Sivasspor - Esenler Erokspo | scheduled | -
 - 2026-08-08 19:15 | Belçika Pro Lig | Standard Liege - Cercle Brugge | scheduled | -
 - 2026-08-08 19:30 | İngiltere Lig Kupası 1.Tur | Colchester - Southam | scheduled | -
 - 2026-08-08 19:30 | İngiltere Lig Kupası 1.Tur | Rotherham - West Bromwich | scheduled | -
@@ -451,6 +454,7 @@ Yarin: 54
 - 2026-08-08 21:30 | Hazırlık Kulüpler | Cagliari - Nice | scheduled | -
 - 2026-08-08 21:30 | Romanya 1.Lig | Dinamo Bükreş - Voluntari | scheduled | -
 - 2026-08-08 21:30 | Slovakya Süper Lig | Spartak Trnava - Dukla Banska By | scheduled | -
+- 2026-08-08 21:30 | Türkiye TFF 1. Lig | Antalyaspor - A. Keçiörengücü | scheduled | -
 - 2026-08-08 21:45 | Belçika Pro Lig | Westerlo - Union St.G | scheduled | -
 - 2026-08-08 21:45 | Belçika Pro Lig | St. Truidense - Lommel | scheduled | -
 - 2026-08-08 21:45 | Fransa Ligue 2 | Nantes - Red Star Paris | scheduled | -
@@ -538,10 +542,6 @@ Yarin: 54
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 05:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Sporting San Jo | live | -
-- 2026-08-08 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Xelaju | live | -
-- 2026-08-08 05:00 | CONCACAF U20 Yarı Final | Kanada (U20) - Meksika (U20) | live | -
-- 2026-08-08 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Fc Juarez | live | -
 - 2026-08-08 07:00 | Avustralya NPL Tazmanya | South Hobart - Riverside Olymp | live | -
 - 2026-08-08 07:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Valentine Phoen | live | -
 - 2026-08-08 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Cooma Tigers | live | -
@@ -554,6 +554,31 @@ Yarin: 54
 - 2026-08-08 08:00 | Avustralya Victoria NPL 1 | Melbourne Srbi - North Geelong | live | -
 - 2026-08-08 08:30 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Sydney Olympic | live | -
 - 2026-08-08 08:30 | Avustralya NPL Güney Avustralya | Adelaide Unite - Para Hills Knig | live | -
+- 2026-08-08 08:45 | Japonya J2 Lig | Sapporo - Tokushima | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-08 00:00 | CONCACAF U20 Yarı Final | Kosta Rika (U2 - Abd (U20) | finished | -
+- 2026-08-08 00:15 | Bolivya Premier Lig | Academia Del B - Guabira | finished | -
+- 2026-08-08 01:00 | Uruguay Premier Lig Clausura | Cerro Largo - Juventud Dl Pie | finished | -
+- 2026-08-08 01:30 | Arjantin Premier Lig 2. Aşama | Rosario Centra - Aldosivi | finished | -
+- 2026-08-08 01:30 | Brezilya Serie B | Operario - Sao Bernardo | finished | -
+- 2026-08-08 02:00 | Arjantin Ulusal Primera Lig | Midland - Maipu | finished | -
+- 2026-08-08 02:00 | Kanada Premier Lig | Forge - Vancouver Fc | finished | -
+- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Atlas | finished | -
+- 2026-08-08 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pachuca | finished | -
+- 2026-08-08 02:30 | Brezilya Serie B | Ceara - Ponte Preta | finished | -
+- 2026-08-08 02:30 | Bolivya Premier Lig | Real Tomayapo - Real Oruro | finished | -
+- 2026-08-08 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Pumas Unam | finished | -
+- 2026-08-08 03:00 | Ekvador Pro Lig | Ldu Quito - Indep. Jose Ter | finished | -
+- 2026-08-08 03:30 | Şili Premier Lig | Univ. Catolica - Cobresal | finished | -
+- 2026-08-08 03:45 | Arjantin Premier Lig 2. Aşama | Rivadavia - Rio Cuarto | finished | -
+- 2026-08-08 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Minnesota Utd | finished | -
+- 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Durango - Piratas | finished | -
+- 2026-08-08 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Ca La Paz | finished | -
+- 2026-08-08 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Walter Ferretti | finished | -
+- 2026-08-08 04:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Aguila | finished | -
+- 2026-08-08 04:30 | Peru Premier Lig Clausura | Universitario - Sporting Crista | finished | -
+- 2026-08-08 05:00 | Kosta Rika Premier Lig Apertura | Cs Cartagines - Sporting San Jo | finished | -
+- 2026-08-08 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Xelaju | finished | -
+- 2026-08-08 05:00 | CONCACAF U20 Yarı Final | Kanada (U20) - Meksika (U20) | finished | -
+- 2026-08-08 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Vancouver - Fc Juarez | finished | -
