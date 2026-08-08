@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 454
-- Live match count: 64
-- Finished removed count: 4
+- Scheduled match count: 417
+- Live match count: 0
+- Finished removed count: 0
 - Date window: 2026-08-08 / 2026-08-09 23:59
 
-- 2026-08-08 13:00 | Avispa Fukuoka - Vissel Kobe | live
-- 2026-08-08 13:00 | Cerezo Osaka - Fagiano Okayama | live
-- 2026-08-08 13:00 | Fc Tokyo - Machida Zelvia | live
-- 2026-08-08 13:00 | Kashiwa - Mito Hollyhock | live
-- 2026-08-08 13:00 | Nagoya - Shimizu | live
-- 2026-08-08 13:00 | Iwata - Blaublitz Akita | live
-- 2026-08-08 13:00 | Oita Trinita - Shonan | live
-- 2026-08-08 13:00 | Omiya - Niigata | live
-- 2026-08-08 13:00 | Tegevajaro Miy - Yokohama Fc | live
-- 2026-08-08 13:00 | Gainare Tottor - Osaka | live
+- 2026-08-08 15:30 | Leipzig - Hertha Berlin I | scheduled
+- 2026-08-08 15:30 | Holstebro - Holbæk | scheduled
+- 2026-08-08 15:30 | Genemuiden - Hhc | scheduled
+- 2026-08-08 15:30 | Ijsselmeervoge - Evv | scheduled
+- 2026-08-08 15:30 | Krylya Sovieto - Baltika Kalinin | scheduled
+- 2026-08-08 15:30 | Young Boys (K) - Seasters (K) | scheduled
+- 2026-08-08 15:30 | Livyi Bereh - Kudrivka | scheduled
+- 2026-08-08 15:45 | Radomiak Radom - Gornik Zabrze | scheduled
+- 2026-08-08 16:00 | Malezya - Filipinler | scheduled
+- 2026-08-08 16:00 | Tayland - Myanmar | scheduled
