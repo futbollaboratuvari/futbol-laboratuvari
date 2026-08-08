@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 05:52:19
+Oluşturma: 08.08.2026 07:04:03
 
 ## Özet
 
-- Toplam tahmin: 323
-- Bekleyen tahmin: 323
+- Toplam tahmin: 325
+- Bekleyen tahmin: 325
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 97
@@ -20,12 +20,14 @@ Oluşturma: 08.08.2026 05:52:19
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 110, bekleyen 110, başarı bekleniyor, ağırlık 1
-- MS X: toplam 196, bekleyen 196, başarı bekleniyor, ağırlık 1
+- MS X: toplam 197, bekleyen 197, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 111, bekleyen 111, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | MS X | pending | 40/100
+- 2026-08-08 | Litvanya 1.Lig | Tauras - Neptüna Klaiped | MS 2 | pending | 50/100
 - 2026-08-08 | Danimarka 2.Lig | Vsk Arhus - Fremad Amager | MS 2 | pending | 50/100
 - 2026-08-08 | Avustralya NPL Yeni Güney Galler | St George City - Rockdale Cs | MS X | pending | 50/100
 - 2026-08-08 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Juventus (K) - Hammarby (K) | MS X | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 08.08.2026 05:52:19
 - 2026-08-08 | Hazırlık Kulüpler | Cadiz - Las Palmas | MS X | pending | 50/100
 - 2026-08-08 | Venezuela Premier Lig Clausura | Monagas - Carabobo | MS 1 | pending | 40/100
 - 2026-08-08 | ABD MLS | New England - Houston | MS X | pending | 50/100
-- 2026-08-08 | Peru Premier Lig Clausura | Juan Pablo Ii - Atletico Grau | MS 2 | pending | 40/100
-- 2026-08-08 | İtalya Kupa Ön Eleme Turu | Vicenza - Catania | MS 2 | pending | 40/100
 
