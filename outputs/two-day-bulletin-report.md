@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-08 / 2026-08-09
 Kaynak: fixtures.json
-Ham mac: 534
-Aktif mac: 495
-Canli mac: 39
+Ham mac: 525
+Aktif mac: 496
+Canli mac: 29
 Biten mac: 0
-Bultenden dusurulen mac: 39
-Bugun: 441
+Bultenden dusurulen mac: 29
+Bugun: 442
 Yarin: 54
 
 ## Baslamamis Maclar
@@ -92,6 +92,7 @@ Yarin: 54
 - 2026-08-08 15:00 | Norveç 3.Lig Grup 3 | Fana - Gneist | scheduled | -
 - 2026-08-08 15:00 | Norveç 3.Lig Grup 3 | Vard Haugesund - Djerv | scheduled | -
 - 2026-08-08 15:00 | Norveç 3.Lig Grup 3 | Os Turn Fotbal - Stord Sunnhordl | scheduled | -
+- 2026-08-08 15:00 | İsveç 2.Lig Södra Götaland | Karlskrona - Torns | scheduled | -
 - 2026-08-08 15:30 | Ukrayna Premier Lig | Livyi Bereh - Kudrivka | scheduled | -
 - 2026-08-08 15:30 | Rusya Premier Lig | Krylya Sovieto - Baltika Kalinin | scheduled | -
 - 2026-08-08 15:30 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Young Boys (K) - Seasters (K) | scheduled | -
@@ -508,16 +509,6 @@ Yarin: 54
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
-- 2026-08-08 11:00 | Hazırlık Kulüpler | Alcorcon - Navalcarnero | live | -
-- 2026-08-08 11:00 | Avustralya NPL Queensland | Eastern Suburb - Brisbane Wolves | live | -
-- 2026-08-08 11:00 | Avustralya NPL Queensland | Magic United - Rochedale Rover | live | -
-- 2026-08-08 11:00 | Avustralya NPL Queensland | Brisbane Olymp - Moreton City Ex | live | -
-- 2026-08-08 11:00 | Avustralya NPL Queensland | Gold Coast Kni - Peninsula Power | live | -
-- 2026-08-08 11:00 | Avustralya NPL Queensland | Brisbane City - Gold Coast Unit | live | -
-- 2026-08-08 11:00 | Macaristan NB III Güneydoğu | Ujpest Ii - Bekescsaba Elor | live | -
-- 2026-08-08 11:30 | Hazırlık Kulüpler | Lumezzane - Crema | live | -
-- 2026-08-08 11:30 | Hazırlık Kulüpler | Ucam Murcia - Orihuela | live | -
-- 2026-08-08 11:30 | Avustralya NPL Yeni Güney Galler | St. George Sai - Apia | live | -
 - 2026-08-08 12:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu 3. lük Finalleri | Znk Mura (K) - Hajduk Split (K | live | -
 - 2026-08-08 12:00 | Hazırlık Kulüpler | G.Segoviana - Atl Madrid Ii | live | -
 - 2026-08-08 12:00 | Rusya FNL | Yenisey - Tekstilshchik | live | -
