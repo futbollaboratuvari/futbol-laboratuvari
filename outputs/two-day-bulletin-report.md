@@ -1,21 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-08 / 2026-08-09
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 567
-Aktif mac: 529
-Canli mac: 13
+Aktif mac: 524
+Canli mac: 18
 Biten mac: 25
-Bultenden dusurulen mac: 38
-Bugun: 475
+Bultenden dusurulen mac: 43
+Bugun: 470
 Yarin: 54
 
 ## Baslamamis Maclar
-- 2026-08-08 09:00 | Avustralya NPL Batı Avustralya | Bayswater City - Sorrento | scheduled | -
-- 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Belmont Swanse - Lambton Jaffas | scheduled | -
-- 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Adamstown Rose - Cooks Hill Unit | scheduled | -
-- 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Marconi | scheduled | -
-- 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Western Sydney | scheduled | -
 - 2026-08-08 10:30 | Hazırlık Kulüpler | Elche - Toulouse | scheduled | -
 - 2026-08-08 10:30 | Avustralya NPL Başkent Bölgesi | Canberra - O Connor Knight | scheduled | -
 - 2026-08-08 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Blacktown City | scheduled | -
@@ -542,6 +538,11 @@ Yarin: 54
 - 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 
 ## Canli Maclar
+- 2026-08-08 09:00 | Avustralya NPL Batı Avustralya | Bayswater City - Sorrento | live | -
+- 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Belmont Swanse - Lambton Jaffas | live | -
+- 2026-08-08 09:30 | Avustralya NPL Kuzey YGG | Adamstown Rose - Cooks Hill Unit | live | -
+- 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Marconi | live | -
+- 2026-08-08 10:00 | Avustralya NPL Yeni Güney Galler | Sd Raiders - Western Sydney | live | -
 - 2026-08-08 07:00 | Avustralya NPL Tazmanya | South Hobart - Riverside Olymp | live | -
 - 2026-08-08 07:00 | Avustralya NPL Kuzey YGG | Newcastle Olym - Valentine Phoen | live | -
 - 2026-08-08 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Cooma Tigers | live | -
