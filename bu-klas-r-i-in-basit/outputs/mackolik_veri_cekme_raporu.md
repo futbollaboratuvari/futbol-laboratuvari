@@ -1,37 +1,43 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-08T18:50:43.668947+00:00
+Tarih: 2026-08-08T19:16:18.371178+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 31
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 30
+- Kac mac bulundu: 69
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 69
 - Ham veri havuzu toplam mac sayisi: 5632
 - Hedef tarih: 08.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG
 - Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
+- CONCACAF Ligler Kupası Grup Aşaması
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Hollanda Eredivisie
-- Hırvatistan 1.HNL
-- Letonya 1.Lig
+- Honduras Ulusal Lig Apertura
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB II
 - Macaristan NB III Güneybatı
 - Macaristan NB III Kuzeydoğu
+- Meksika Ascenso MX Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
-- Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
-- UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final
+- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İsveç 2.Lig Södra Götaland
 - İsviçre 1.Lig Promotion
@@ -93,8 +99,8 @@ Tarih: 2026-08-08T18:50:43.668947+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 45
-- Acilan detay: 45
+- Denenen Tumu alani: 34
+- Acilan detay: 34
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -107,26 +113,26 @@ Tarih: 2026-08-08T18:50:43.668947+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 08.08.2026 | 22:00 | Hollanda Eredivisie | Az Alkmaar | Den Haag | 18258 | 5 |
 | 08.08.2026 | 22:30 | Portekiz Premier Lig | Estrela | Sporting Cp | 21389 | 5 |
-| 08.08.2026 | 22:00 | UEFA Kadınlar Şampiyonlar Ligi 2. Eleme Turu Final | Juventus (K) | Hammarby (K) | 41106 | 5 |
-| 08.08.2026 | 22:00 | Hazırlık Kulüpler | Napoli | Celta Vigo | 40689 | 5 |
-| 08.08.2026 | 22:00 | Hazırlık Kulüpler | Valencia | Newcastle Utd | 39756 | 5 |
 | 08.08.2026 | 22:30 | Hazırlık Kulüpler | Cadiz | Las Palmas | 05511 | 5 |
 | 08.08.2026 | 21:30 | Hazırlık Kulüpler | Forli | Cesena | 41829 | 5 |
-| 08.08.2026 | 22:00 | Hazırlık Kulüpler | Mallorca | Elversberg | 13741 | 5 |
-| 08.08.2026 | 22:00 | Hazırlık Kulüpler | Real Betis | Bournemouth | 13531 | 5 |
 | 08.08.2026 | 23:30 | ABD MLS | New England | Houston | 30345 | 5 |
-| 08.08.2026 | 22:00 | Brezilya Serie A | Gremio | Sao Paulo | 31993 | 5 |
+| 09.08.2026 | 00:30 | Brezilya Serie A | Remo | Atletico Mg | 32117 | 5 |
+| 09.08.2026 | 02:30 | Brezilya Serie A | Coritiba | Chapecoense | 32175 | 5 |
+| 09.08.2026 | 03:00 | Brezilya Serie A | Botafogo | Fluminense | 32250 | 5 |
 | 08.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Tigre | River Plate | 28663 | 5 |
-| 08.08.2026 | 22:00 | Hırvatistan 1.HNL | Lokomotiva | Hnk Gorica | 34336 | 5 |
+| 09.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord | Gimnasia Mendoz | 28837 | 5 |
+| 09.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Boca Juniors | Velez Sarsfield | 28721 | 5 |
+| 09.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Independiente | Platense | 28779 | 5 |
+| 09.08.2026 | 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Los Angeles Fc | 37680 | 5 |
+| 09.08.2026 | 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City | Club Leon | 37512 | 5 |
+| 09.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Monterrey | 37554 | 5 |
+| 09.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake | Atlante | 37638 | 5 |
+| 09.08.2026 | 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Guadalajara | Dallas | 37596 | 5 |
 | 08.08.2026 | 23:30 | Peru Premier Lig Clausura | Juan Pablo Ii | Atletico Grau | 22846 | 5 |
+| 09.08.2026 | 04:00 | Peru Premier Lig Clausura | Sport Boys | Alianza Lima | 22877 | 5 |
 | 08.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Monagas | Carabobo | 39901 | 5 |
-| 08.08.2026 | 22:00 | Şili Premier Lig | Huachipato | Everton De Vina | 35841 | 5 |
-| 08.08.2026 | 22:00 | Arjantin Ulusal Primera Lig | Rafaela | Chacarita Junio | 28646 | 3 |
-| 08.08.2026 | 22:00 | Brezilya Serie B | Vila Nova | Sport Recife | 32051 | 5 |
-| 08.08.2026 | 22:00 | Portekiz 3.Lig Grup B | Cd Mafra | Vitoria De Sern | 09546 | 5 |
-| 08.08.2026 | 17:00 | İsviçre 1.Lig Promotion | Luzern Ii | Bruhl | 40830 | 3 |
+| 09.08.2026 | 00:30 | Şili Premier Lig | Coquimbo Unido | La Serena | 35891 | 5 |
 
 ## Sonuc
 
