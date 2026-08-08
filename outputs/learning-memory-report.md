@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 14:10:21
+Oluşturma: 08.08.2026 14:20:00
 
 ## Özet
 
-- Toplam tahmin: 316
-- Bekleyen tahmin: 316
+- Toplam tahmin: 318
+- Bekleyen tahmin: 318
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 94
@@ -20,12 +20,14 @@ Oluşturma: 08.08.2026 14:10:21
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 183, bekleyen 183, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 115, bekleyen 115, başarı bekleniyor, ağırlık 1
-- MS X: toplam 182, bekleyen 182, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Foshan Nanshi | MS X | pending | 50/100
+- 2026-08-08 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Shaanxi Union | MS 1 | pending | 40/100
 - 2026-08-08 | İskoçya 2.Lig | Kelty Hearts - Stirling Albion | MS 2 | pending | 50/100
 - 2026-08-08 | Güney Kore K Lig 1 | Gimcheon Sangm - Fc Seoul | MS X | pending | 50/100
 - 2026-08-08 | Macaristan NB III Güneybatı | Erdi Vse - Paksi Fc Ii | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 08.08.2026 14:10:21
 - 2026-08-08 | Fransa Ligue 2 | Metz - Guingamp | MS 2 | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Montpellier - Dijon | MS 2 | pending | 40/100
 - 2026-08-08 | Fransa Ligue 2 | Pau Fc - Annecy | MS X | pending | 50/100
-- 2026-08-08 | Fransa Ligue 2 | Boulogne - Nancy | MS X | pending | 40/100
-- 2026-08-08 | Fransa Ligue 2 | Dunkerque - Grenoble | MS 2 | pending | 40/100
 
