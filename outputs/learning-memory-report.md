@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 08.08.2026 14:47:54
+Oluşturma: 08.08.2026 14:51:11
 
 ## Özet
 
-- Toplam tahmin: 319
-- Bekleyen tahmin: 319
+- Toplam tahmin: 323
+- Bekleyen tahmin: 323
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 94
+- Lig sayısı: 96
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,16 @@ Oluşturma: 08.08.2026 14:47:54
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 185, bekleyen 185, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 117, bekleyen 117, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
-- MS X: toplam 183, bekleyen 183, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 115, bekleyen 115, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-08 | Hazırlık Kulüpler | Castellon - Levante | MS X | pending | 50/100
+- 2026-08-08 | Litvanya A Ligi | Kauno Zalgiris - Hegelmann | MS 2 | pending | 60/100
+- 2026-08-08 | İsveç 2.Lig Norra Svealand | Falu Bs - Sunnersta Aif | MS X | pending | 50/100
+- 2026-08-08 | İskoçya 2.Lig | Spartans - Edinburg C. | MS 2 | pending | 60/100
 - 2026-08-08 | Hazırlık Kulüpler | Ferencvaros - Real Madrid | MS 1 | pending | 40/100
 - 2026-08-08 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Foshan Nanshi | MS X | pending | 50/100
 - 2026-08-08 | Çin Halk Cumhuriyeti 1.Lig | Hebei Kungfu - Shaanxi Union | MS 1 | pending | 40/100
@@ -37,8 +41,4 @@ Oluşturma: 08.08.2026 14:47:54
 - 2026-08-08 | Güney Kore K Lig 1 | Anyang - Daejeon Citizen | MS 1 | pending | 40/100
 - 2026-08-08 | Norveç 2.Lig Grup 2 | Ik Junkeren - Follo | MS 2 | pending | 70/100
 - 2026-08-08 | Belçika Pro Lig | St. Truidense - Lommel | MS 2 | pending | 75/100
-- 2026-08-08 | Fransa Ligue 2 | Nantes - Red Star Paris | MS 2 | pending | 40/100
-- 2026-08-08 | Fransa Ligue 2 | Sochaux - St Etienne | MS 1 | pending | 40/100
-- 2026-08-08 | Fransa Ligue 2 | Metz - Guingamp | MS 2 | pending | 40/100
-- 2026-08-08 | Fransa Ligue 2 | Montpellier - Dijon | MS 2 | pending | 40/100
 
