@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-09T10:59:25.953Z
+- Güncelleme: 2026-08-09T11:26:35.657Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -33,17 +33,17 @@
 | Sparta Rotterd VS Feyenoord | Hollanda Eredivisie | 13:15 | MS 1 | 4.36 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Helmond Sport VS De Graafschap | Hollanda Eerste Divisie | 13:15 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Rana VS Skeid | Norveç 2.Lig Grup 2 | 13:30 | MS X | 3.30 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
-| Henan Jianye VS Qingdao West Co | Çin Halk Cumhuriyeti Süper Lig | 14:00 | MS 2 | 4.74 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Manchester Cit VS Atletico Madrid | Hazırlık Kulüpler | 14:00 | MS X | 3.72 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Eik Toensberg VS Traeff | Norveç 2.Lig Grup 1 | 14:00 | MS X | 3.31 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Hvidovre VS Esbjerg | Danimarka 1.Lig | 14:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Legia Warszawa VS Swit Skolwin | Polonya 2.Lig | 14:00 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Wuxi Wugou VS Ningbo | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Henan Jianye VS Qingdao West Co | Çin Halk Cumhuriyeti Süper Lig | 14:00 | MS 2 | 4.74 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Manchester Cit VS Atletico Madrid | Hazırlık Kulüpler | 14:00 | MS X | 3.72 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Eik Toensberg VS Traeff | Norveç 2.Lig Grup 1 | 14:00 | MS X | 3.31 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Hvidovre VS Esbjerg | Danimarka 1.Lig | 14:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Legia Warszawa VS Swit Skolwin | Polonya 2.Lig | 14:00 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Wuxi Wugou VS Ningbo | Çin Halk Cumhuriyeti 1.Lig | 14:00 | MS 2 | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Nastved VS Hellerup Ik | Danimarka 2.Lig | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Franke VS Enskede | İsveç 2.Lig Norra Svealand | 14:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Franke VS Enskede | İsveç 2.Lig Norra Svealand | 14:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Astrio VS Torslanda Ik | İsveç 2.Lig Vastra Götaland | 14:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Jonsereds If VS Landvetter Is | İsveç 2.Lig Vastra Götaland | 14:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Herrestads VS Ik Tord | İsveç 2.Lig Norra Götaland | 14:00 | MS X | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Jonsereds If VS Landvetter Is | İsveç 2.Lig Vastra Götaland | 14:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Herrestads VS Ik Tord | İsveç 2.Lig Norra Götaland | 14:00 | MS X | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Molde 2 VS Kvik Trond | Norveç 3.Lig Grup 2 | 14:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gent VS Mechelen | Belçika Pro Lig | 14:30 | MS 2 | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | E.Cottbus VS Hannover | Almanya 2. Bundesliga | 14:30 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -229,7 +229,7 @@
 | Benevento VS Ravenna | İtalya Kupa Ön Eleme Turu | 22:00 | MS 2 | 4.77 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ofk Beograd VS Zeleznicar Panc | Sırbistan Süper Lig | 22:00 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Mladost Lucani VS Cukaricki | Sırbistan Süper Lig | 22:00 | MS X | 2.59 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ue Olot VS Sabadell | Hazırlık Kulüpler | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Ue Olot VS Sabadell | Hazırlık Kulüpler | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Bahia VS Vasco Da Gama | Brezilya Serie A | 22:00 | MS 2 | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Palmeiras VS Internacional | Brezilya Serie A | 22:00 | MS 2 | 5.29 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Hajduk Split VS Istra | Hırvatistan 1.HNL | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |

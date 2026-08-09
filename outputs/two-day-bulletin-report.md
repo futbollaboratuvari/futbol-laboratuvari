@@ -3,26 +3,14 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 275
-Aktif mac: 253
-Canli mac: 22
+Aktif mac: 241
+Canli mac: 34
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 221
+Bultenden dusurulen mac: 34
+Bugun: 209
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 14:00 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao West Co | scheduled | -
-- 2026-08-09 14:00 | Hazırlık Kulüpler | Manchester Cit - Atletico Madrid | scheduled | -
-- 2026-08-09 14:00 | Norveç 2.Lig Grup 1 | Eik Toensberg - Traeff | scheduled | -
-- 2026-08-09 14:00 | Danimarka 1.Lig | Hvidovre - Esbjerg | scheduled | -
-- 2026-08-09 14:00 | Polonya 2.Lig | Legia Warszawa - Swit Skolwin | scheduled | -
-- 2026-08-09 14:00 | Çin Halk Cumhuriyeti 1.Lig | Wuxi Wugou - Ningbo | scheduled | -
-- 2026-08-09 14:00 | Danimarka 2.Lig | Nastved - Hellerup Ik | scheduled | -
-- 2026-08-09 14:00 | İsveç 2.Lig Norra Svealand | Franke - Enskede | scheduled | -
-- 2026-08-09 14:00 | İsveç 2.Lig Vastra Götaland | Astrio - Torslanda Ik | scheduled | -
-- 2026-08-09 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Landvetter Is | scheduled | -
-- 2026-08-09 14:00 | İsveç 2.Lig Norra Götaland | Herrestads - Ik Tord | scheduled | -
-- 2026-08-09 14:00 | Norveç 3.Lig Grup 2 | Molde 2 - Kvik Trond | scheduled | -
 - 2026-08-09 14:30 | Belçika Pro Lig | Gent - Mechelen | scheduled | -
 - 2026-08-09 14:30 | Almanya 2. Bundesliga | E.Cottbus - Hannover | scheduled | -
 - 2026-08-09 14:30 | Almanya 2. Bundesliga | St Pauli - Greuther Furth | scheduled | -
@@ -288,6 +276,18 @@ Yarin: 32
 - 2026-08-09 13:15 | Hollanda Eredivisie | Sparta Rotterd - Feyenoord | live | -
 - 2026-08-09 13:15 | Hollanda Eerste Divisie | Helmond Sport - De Graafschap | live | -
 - 2026-08-09 13:30 | Norveç 2.Lig Grup 2 | Rana - Skeid | live | -
+- 2026-08-09 14:00 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao West Co | live | -
+- 2026-08-09 14:00 | Hazırlık Kulüpler | Manchester Cit - Atletico Madrid | live | -
+- 2026-08-09 14:00 | Norveç 2.Lig Grup 1 | Eik Toensberg - Traeff | live | -
+- 2026-08-09 14:00 | Danimarka 1.Lig | Hvidovre - Esbjerg | live | -
+- 2026-08-09 14:00 | Polonya 2.Lig | Legia Warszawa - Swit Skolwin | live | -
+- 2026-08-09 14:00 | Çin Halk Cumhuriyeti 1.Lig | Wuxi Wugou - Ningbo | live | -
+- 2026-08-09 14:00 | Danimarka 2.Lig | Nastved - Hellerup Ik | live | -
+- 2026-08-09 14:00 | İsveç 2.Lig Norra Svealand | Franke - Enskede | live | -
+- 2026-08-09 14:00 | İsveç 2.Lig Vastra Götaland | Astrio - Torslanda Ik | live | -
+- 2026-08-09 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Landvetter Is | live | -
+- 2026-08-09 14:00 | İsveç 2.Lig Norra Götaland | Herrestads - Ik Tord | live | -
+- 2026-08-09 14:00 | Norveç 3.Lig Grup 2 | Molde 2 - Kvik Trond | live | -
 
 ## Biten Maclar
 Biten mac yok.
