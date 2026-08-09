@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T17:00:36.962821+00:00
+Tarih: 2026-08-09T17:04:17.227063+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 62
+- Kac mac bulundu: 91
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 62
+- Kac mac zaten vardi: 91
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
@@ -17,7 +17,6 @@ Tarih: 2026-08-09T17:00:36.962821+00:00
 - Almanya 3. Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avusturya Bundesliga
 - Belçika Pro Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
@@ -27,7 +26,8 @@ Tarih: 2026-08-09T17:00:36.962821+00:00
 - CONCACAF Ligler Kupası Grup Aşaması
 - Hazırlık Kulüpler
 - Hırvatistan 1.HNL
-- Moldova Ulusal Lig
+- Kosta Rika Premier Lig Apertura
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
@@ -99,8 +99,8 @@ Tarih: 2026-08-09T17:00:36.962821+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 46
-- Acilan detay: 46
+- Denenen Tumu alani: 44
+- Acilan detay: 44
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -124,15 +124,17 @@ Tarih: 2026-08-09T17:00:36.962821+00:00
 | 09.08.2026 | 21:00 | Hazırlık Kulüpler | Parma | Sampdoria | 18973 | 5 |
 | 09.08.2026 | 21:30 | Hazırlık Kulüpler | Mantova | Athletic Carpi | 18944 | 5 |
 | 09.08.2026 | 21:45 | Hazırlık Kulüpler | Frosinone | Lazio | 42729 | 5 |
-| 09.08.2026 | 20:00 | Avusturya Bundesliga | Austria Vienna | Lask Linz | 33632 | 5 |
 | 09.08.2026 | 21:15 | Polonya Ekstraklasa | Jagiellonia | Widzew Lodz | 31840 | 5 |
 | 09.08.2026 | 20:30 | Rusya Premier Lig | Rubin Kazan | Orenburg | 34144 | 5 |
 | 09.08.2026 | 20:00 | Rusya Premier Lig | Spartak Moskov | Krasnodar | 34084 | 5 |
 | 09.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno | Sigma Olomouc | 17592 | 5 |
 | 09.08.2026 | 20:15 | Norveç Eliteserien | Kristiansund | Molde | 30187 | 5 |
+| 09.08.2026 | 21:00 | Sırbistan Süper Lig | Macva | Imt Novi Beogra | 36061 | 5 |
+| 09.08.2026 | 21:00 | Sırbistan Süper Lig | Vojvodina | Radnik Surdulic | 36078 | 5 |
 | 09.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Cukaricki | 36095 | 5 |
 | 09.08.2026 | 22:00 | Sırbistan Süper Lig | Ofk Beograd | Zeleznicar Panc | 36129 | 5 |
-| 09.08.2026 | 21:00 | Sırbistan Süper Lig | Macva | Imt Novi Beogra | 36061 | 5 |
+| 09.08.2026 | 22:00 | Brezilya Serie A | Palmeiras | Internacional | 32625 | 5 |
+| 09.08.2026 | 22:00 | Brezilya Serie A | Bahia | Vasco Da Gama | 32501 | 5 |
 
 ## Sonuc
 
