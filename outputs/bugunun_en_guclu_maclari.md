@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-09T05:30:31.845Z
+- Güncelleme: 2026-08-09T05:42:49.544Z
 - Ham maç sayısı: 269
 - Yarın bülteni maç sayısı: 32
 - Detay blok sayısı: 761
@@ -32,7 +32,7 @@
 | Ad Marco 09 - Pacos Ferreira | Portekiz 3.Lig Grup A | 13:00 | Veri bekleniyor | - | 2.55 | 8 |
 | Tochigi Sc - Zweigen Kanazaw | Japonya J3 Lig | 13:00 | Veri bekleniyor | - | 2.04 | 8 |
 | Ehime Fc - Nara Club | Japonya J3 Lig | 13:00 | Veri bekleniyor | - | 1.6 | 8 |
-| Sparta Rotterd - Feyenoord | Hollanda Eredivisie | 13:15 | Veri bekleniyor | - | 4 | 8 |
+| Sparta Rotterd - Feyenoord | Hollanda Eredivisie | 13:15 | Veri bekleniyor | - | 3.92 | 8 |
 | Helmond Sport - De Graafschap | Hollanda Eerste Divisie | 13:15 | Veri bekleniyor | - | 2.76 | 8 |
 | Rana - Skeid | Norveç 2.Lig Grup 2 | 13:30 | Veri bekleniyor | - | 1.78 | 8 |
 | Henan Jianye - Qingdao West Co | Çin Halk Cumhuriyeti Süper Lig | 14:00 | Veri bekleniyor | - | 1.44 | 7 |
@@ -48,7 +48,7 @@
 | Herrestads - Ik Tord | İsveç 2.Lig Norra Götaland | 14:00 | Veri bekleniyor | - | 1.73 | 8 |
 | Molde 2 - Kvik Trond | Norveç 3.Lig Grup 2 | 14:00 | Veri bekleniyor | - | 1.46 | 5 |
 | Gent - Mechelen | Belçika Pro Lig | 14:30 | Veri bekleniyor | - | 1.77 | 8 |
-| E.Cottbus - Hannover | Almanya 2. Bundesliga | 14:30 | Veri bekleniyor | - | 2.81 | 8 |
+| E.Cottbus - Hannover | Almanya 2. Bundesliga | 14:30 | Veri bekleniyor | - | 2.91 | 8 |
 | St Pauli - Greuther Furth | Almanya 2. Bundesliga | 14:30 | Veri bekleniyor | - | 1.63 | 8 |
 | Nürnberg - Dynamo Dresden | Almanya 2. Bundesliga | 14:30 | Veri bekleniyor | - | 2.02 | 8 |
 | Dinamo Moskova - Makhachkala | Rusya Premier Lig | 14:30 | Veri bekleniyor | - | 1.5 | 7 |
@@ -86,7 +86,7 @@
 | Varbergs - Sandvikens | İsveç Superettan | 16:00 | Veri bekleniyor | - | 1.62 | 8 |
 | Meshakhte - Samgurali | Gürcistan Erovnuli Liga | 16:00 | Veri bekleniyor | - | 3.86 | 7 |
 | Fredericia - Vendsyssel | Danimarka 1.Lig | 16:00 | Veri bekleniyor | - | 1.43 | 7 |
-| Kpv Kokkola - Vjs | Finlandiya Ykkönen | 16:00 | Veri bekleniyor | - | 5.51 | 6 |
+| Kpv Kokkola - Vjs | Finlandiya Ykkönen | 16:00 | Veri bekleniyor | - | 5.61 | 6 |
 | Schöningen - Norderstedt | Almanya Bölgesel Lig Kuzey | 16:00 | Veri bekleniyor | - | 2.2 | 6 |
 | Amical Saint-P - Bellinzona | İsviçre 1.Lig Promotion | 16:00 | Veri bekleniyor | - | 3.41 | 6 |
 | Biel-Bienne - Yf Juventus | İsviçre 1.Lig Promotion | 16:00 | Veri bekleniyor | - | 1.44 | 5 |
@@ -97,7 +97,7 @@
 | Amazulu - Sekhukhune Unit | Güney Afrika 8 Kupası Çeyrek Final | 16:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Ifk Trelleborg - Växjö Norra | İsveç 2.Lig Södra Götaland | 16:00 | Veri bekleniyor | - | 1.78 | 8 |
 | Lindo Ff - Fittja | İsveç 2.Lig Södra Svealand | 16:00 | Veri bekleniyor | - | 1.84 | 6 |
-| Liverpool - Monaco | Hazırlık Kulüpler | 16:30 | Veri bekleniyor | - | 1.38 | 7 |
+| Liverpool - Monaco | Hazırlık Kulüpler | 16:30 | Veri bekleniyor | - | 1.36 | 7 |
 | Tromsdalen - Lorenskog | Norveç 2.Lig Grup 2 | 16:30 | Veri bekleniyor | - | 1.76 | 8 |
 | Baglan Dragons - Swansea Univers | Galler FAW Championship Güney | 16:30 | Veri bekleniyor | - | 2.14 | 8 |
 | Baranovichi - Bate Borisov | Belarus Premier Lig | 16:45 | Veri bekleniyor | - | 2.55 | 8 |
@@ -106,7 +106,7 @@
 | Motherwell - Falkirk | İskoçya Premiership | 17:00 | Veri bekleniyor | - | 1.6 | 8 |
 | Hearts - Dundee Utd | İskoçya Premiership | 17:00 | Veri bekleniyor | - | 1.46 | 7 |
 | Randers - Lyngby | Danimarka Süperlig | 17:00 | Veri bekleniyor | - | 2 | 8 |
-| Inter Turku - Lahti | Finlandiya Veikkausliiga | 17:00 | Veri bekleniyor | - | 1.66 | 8 |
+| Inter Turku - Lahti | Finlandiya Veikkausliiga | 17:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Waterford - Bohemian | İrlanda Premier Lig | 17:00 | Veri bekleniyor | - | 3.27 | 8 |
 | Zenit - Fk Rodina Moskv | Rusya Premier Lig | 17:00 | Veri bekleniyor | - | - | 5 |
 | Cruzeiro - Mirassol | Brezilya Serie A | 17:00 | Veri bekleniyor | - | 1.48 | 7 |
@@ -188,7 +188,7 @@
 | Spartak Moskov - Krasnodar | Rusya Premier Lig | 20:00 | Veri bekleniyor | - | 1.96 | 8 |
 | Atlanta - Atl Temperley | Arjantin Ulusal Primera Lig | 20:00 | Veri bekleniyor | - | 1.8 | 6 |
 | Sheriff Tirasp - Dacia-Buiucani | Moldova Ulusal Lig | 20:00 | Veri bekleniyor | - | 1.16 | 4 |
-| Zimbru - Petrocub | Moldova Ulusal Lig | 20:00 | Veri bekleniyor | - | 2.33 | 8 |
+| Zimbru - Petrocub | Moldova Ulusal Lig | 20:00 | Veri bekleniyor | - | 2.04 | 8 |
 | Antwerp - Waasland Bevere | Belçika Pro Lig | 20:15 | Veri bekleniyor | - | 1.67 | 8 |
 | Kristiansund - Molde | Norveç Eliteserien | 20:15 | Veri bekleniyor | - | 4.05 | 8 |
 | Rubin Kazan - Orenburg | Rusya Premier Lig | 20:30 | Veri bekleniyor | - | 1.76 | 8 |
@@ -204,7 +204,7 @@
 | Deportivo Garc - Deportivo Moque | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.32 | 7 |
 | Colegiales - Patronato | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.79 | 6 |
 | Moron - Acassuso | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.34 | 5 |
-| Defensor Sport - Montevideo Wand | Uruguay Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.96 | 5 |
+| Defensor Sport - Montevideo Wand | Uruguay Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.95 | 5 |
 | Akranes - Thor Akureyri | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.26 | 4 |
 | Vikingur Reykj - Vestmannaeyjar | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.16 | 4 |
 | Stjarnan - Keflavik | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.6 | 6 |
