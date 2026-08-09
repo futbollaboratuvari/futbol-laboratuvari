@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 12:04:56
+Oluşturma: 09.08.2026 12:08:37
 
 ## Özet
 
-- Toplam tahmin: 157
-- Bekleyen tahmin: 157
+- Toplam tahmin: 159
+- Bekleyen tahmin: 159
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 72
@@ -20,12 +20,14 @@ Oluşturma: 09.08.2026 12:04:56
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 83, bekleyen 83, başarı bekleniyor, ağırlık 1
+- MS X: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 57, bekleyen 57, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Türkiye TFF 1. Lig | Iğdır Fk - Fatih Karagümrü | MS X | pending | 50/100
+- 2026-08-09 | Macaristan NB I | Paksi - Budapest Honved | MS 2 | pending | 50/100
 - 2026-08-09 | Türkiye TFF 1. Lig | Van Spor Fk - Kayserispor | MS X | pending | 40/100
 - 2026-08-09 | Hazırlık Kulüpler | Pergolettese - Internazionale | MS 1 | pending | 40/100
 - 2026-08-09 | Litvanya A Ligi | Banga - Suduva | MS X | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 09.08.2026 12:04:56
 - 2026-08-09 | İtalya Kupa Ön Eleme Turu | Benevento - Ravenna | MS 2 | pending | 50/100
 - 2026-08-09 | Sırbistan Süper Lig | Ofk Beograd - Zeleznicar Panc | MS X | pending | 50/100
 - 2026-08-09 | Sırbistan Süper Lig | Mladost Lucani - Cukaricki | MS X | pending | 40/100
-- 2026-08-09 | Brezilya Serie A | Bahia - Vasco Da Gama | MS 2 | pending | 50/100
-- 2026-08-09 | Brezilya Serie A | Palmeiras - Internacional | MS 2 | pending | 65/100
 
