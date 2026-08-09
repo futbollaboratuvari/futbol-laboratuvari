@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 188
-- Live match count: 57
-- Finished removed count: 0
+- Scheduled match count: 158
+- Live match count: 51
+- Finished removed count: 1
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
-- 2026-08-09 14:30 | E.Cottbus - Hannover | live
-- 2026-08-09 14:30 | Nürnberg - Dynamo Dresden | live
-- 2026-08-09 14:30 | St Pauli - Greuther Furth | live
-- 2026-08-09 14:30 | Hoffenheim Ii - Hansa Rostock | live
-- 2026-08-09 14:30 | Gent - Mechelen | live
-- 2026-08-09 14:30 | Guangzhou E-Po - Guangxi Hengche | live
-- 2026-08-09 14:30 | Dinamo Moskova - Makhachkala | live
-- 2026-08-09 14:35 | Chongqing Tong - Shanghai Port | live
-- 2026-08-09 15:00 | Oberhausen - Sportfreunde Lo | live
-- 2026-08-09 15:00 | Bfc Dynamo - Zwickau | live
+- 2026-08-09 16:00 | Schöningen - Norderstedt | live
+- 2026-08-09 16:00 | Slavia Prag - Pardubice | live
+- 2026-08-09 16:00 | Fredericia - Vendsyssel | live
+- 2026-08-09 16:00 | Kpv Kokkola - Vjs | live
+- 2026-08-09 16:00 | Amazulu - Sekhukhune Unit | live
+- 2026-08-09 16:00 | Meshakhte - Samgurali | live
+- 2026-08-09 16:00 | Arsenal - B.Dortmund | live
+- 2026-08-09 16:00 | Ifk Trelleborg - Växjö Norra | live
+- 2026-08-09 16:00 | Lindo Ff - Fittja | live
+- 2026-08-09 16:00 | Varbergs - Sandvikens | live
