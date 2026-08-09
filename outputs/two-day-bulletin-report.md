@@ -1,21 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-09 / 2026-08-10
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 324
-Aktif mac: 269
-Canli mac: 3
-Biten mac: 52
-Bultenden dusurulen mac: 55
-Bugun: 237
+Aktif mac: 265
+Canli mac: 4
+Biten mac: 55
+Bultenden dusurulen mac: 59
+Bugun: 233
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 08:00 | Rusya FNL | Ska-Khabarovsk - Spartak Kostrom | scheduled | -
-- 2026-08-09 08:00 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra White | scheduled | -
-- 2026-08-09 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Sydney United | scheduled | -
-- 2026-08-09 08:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Maitland | scheduled | -
 - 2026-08-09 10:00 | Avustralya FFA Kupası Son 16 Turu | Brisbane Roar - Sydney | scheduled | -
 - 2026-08-09 11:30 | Avusturya 1.Lig | Amstetten - Admira Wacker | scheduled | -
 - 2026-08-09 11:30 | Slovakya 2.Lig | Slovan Bratisl - Samorin | scheduled | -
@@ -283,9 +278,10 @@ Yarin: 32
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 06:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Kahibah | live | -
-- 2026-08-09 06:00 | ABD USL Lig 1 | Alta - Fort Wayne | live | -
-- 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | live | -
+- 2026-08-09 08:00 | Rusya FNL | Ska-Khabarovsk - Spartak Kostrom | live | -
+- 2026-08-09 08:00 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra White | live | -
+- 2026-08-09 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Sydney United | live | -
+- 2026-08-09 08:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Maitland | live | -
 
 ## Biten Maclar
 - 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
@@ -340,3 +336,6 @@ Yarin: 32
 - 2026-08-09 05:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Deportivo Sapri | finished | -
 - 2026-08-09 05:00 | ABD USL | Orange County - Tampa Bay Rowdi | finished | -
 - 2026-08-09 05:00 | ABD USL | Monterey Bay - New Mexico Unit | finished | -
+- 2026-08-09 06:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Kahibah | finished | -
+- 2026-08-09 06:00 | ABD USL Lig 1 | Alta - Fort Wayne | finished | -
+- 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | finished | -
