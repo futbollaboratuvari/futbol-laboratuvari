@@ -1,37 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T20:20:45.830517+00:00
+Tarih: 2026-08-09T20:41:56.468001+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 38
+- Kac mac bulundu: 2
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 38
+- Kac mac zaten vardi: 2
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
 - Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF U20 Final
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Honduras Ulusal Lig Apertura
-- Kosta Rika Premier Lig Apertura
-- Nikaragua Premier Lig Apertura
-- Peru Premier Lig Clausura
-- Uruguay Premier Lig Clausura
-- Venezuela Premier Lig Clausura
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -88,8 +71,8 @@ Tarih: 2026-08-09T20:20:45.830517+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -102,26 +85,8 @@ Tarih: 2026-08-09T20:20:45.830517+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 10.08.2026 | 01:30 | Brezilya Serie A | Flamengo | Vitoria Bahia | 32831 | 5 |
-| 10.08.2026 | 00:30 | Brezilya Serie A | Bragantino | Corinthians | 32715 | 5 |
-| 10.08.2026 | 00:30 | Brezilya Serie A | Santos | Atletico Pr | 32773 | 5 |
-| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Newells Old Boy | 29199 | 5 |
 | 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl | Barracas | 29257 | 5 |
-| 10.08.2026 | 02:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr | Racing Club | 29332 | 5 |
-| 10.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | San Diego | Club Tijuana | 09353 | 5 |
-| 10.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Chicago | Santos Laguna | 09333 | 5 |
-| 10.08.2026 | 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America | Portland | 08005 | 5 |
-| 10.08.2026 | 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin | Puebla | 09340 | 5 |
-| 10.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc | Atletico San Lu | 09337 | 5 |
-| 10.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul | New York City | 09329 | 5 |
-| 10.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia | Necaxa | 09327 | 5 |
-| 09.08.2026 | 23:30 | Peru Premier Lig Clausura | Melgar | Fc Cajamarca | 22935 | 5 |
-| 10.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Metropolitanos | Ucv | 42948 | 5 |
-| 10.08.2026 | 00:30 | Şili Premier Lig | Union La Caler | Colo Colo | 36163 | 5 |
-| 10.08.2026 | 03:00 | Şili Premier Lig | Univ. De Şili | Palestino | 36214 | 5 |
-| 09.08.2026 | 23:30 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir | Nueva Chicago | 29182 | 3 |
-| 10.08.2026 | 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc | San Martin Sj | 29315 | 3 |
-| 10.08.2026 | 00:00 | Brezilya Serie B | Cuiaba | Fortaleza Ce | 32683 | 5 |
+| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Newells Old Boy | 29199 | 5 |
 
 ## Sonuc
 
