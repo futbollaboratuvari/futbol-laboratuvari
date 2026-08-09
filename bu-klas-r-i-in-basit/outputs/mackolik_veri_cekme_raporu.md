@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T08:28:22.887994+00:00
+Tarih: 2026-08-09T09:22:32.831856+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 242
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 238
-- Ham veri havuzu toplam mac sayisi: 5911
+- Kac mac bulundu: 234
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 233
+- Ham veri havuzu toplam mac sayisi: 5912
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -22,7 +22,6 @@ Tarih: 2026-08-09T08:28:22.887994+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Son 16 Turu
-- Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus Premier Lig
 - Belçika Pro Lig
@@ -60,7 +59,6 @@ Tarih: 2026-08-09T08:28:22.887994+00:00
 - Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
-- Macaristan NB III Kuzeydoğu
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
@@ -79,7 +77,6 @@ Tarih: 2026-08-09T08:28:22.887994+00:00
 - Romanya 1.Lig
 - Rusya FNL
 - Rusya Premier Lig
-- Slovakya 2.Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Slovenya 2.SNL

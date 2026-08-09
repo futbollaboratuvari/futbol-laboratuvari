@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 12:08:37
+Oluşturma: 09.08.2026 12:22:41
 
 ## Özet
 
-- Toplam tahmin: 159
-- Bekleyen tahmin: 159
+- Toplam tahmin: 162
+- Bekleyen tahmin: 162
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 72
@@ -20,12 +20,15 @@ Oluşturma: 09.08.2026 12:08:37
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
+- MS X: toplam 85, bekleyen 85, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Macaristan NB I | Paksi - Budapest Honved | MS X | pending | 50/100
+- 2026-08-09 | Almanya 3. Lig | Hoffenheim Ii - Hansa Rostock | MS 1 | pending | 55/100
+- 2026-08-09 | Almanya Bölgesel Lig Kuzey | Sankt Pauli Ii - Bremer Sv | MS 2 | pending | 50/100
 - 2026-08-09 | Türkiye TFF 1. Lig | Iğdır Fk - Fatih Karagümrü | MS X | pending | 50/100
 - 2026-08-09 | Macaristan NB I | Paksi - Budapest Honved | MS 2 | pending | 50/100
 - 2026-08-09 | Türkiye TFF 1. Lig | Van Spor Fk - Kayserispor | MS X | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 09.08.2026 12:08:37
 - 2026-08-09 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Tianjin Teda | MS X | pending | 50/100
 - 2026-08-09 | Romanya 1.Lig | Universitatea - Argesul Pitesti | MS 2 | pending | 50/100
 - 2026-08-09 | Hazırlık Kulüpler | Frosinone - Lazio | MS X | pending | 50/100
-- 2026-08-09 | İtalya Kupa Ön Eleme Turu | Benevento - Ravenna | MS 2 | pending | 50/100
-- 2026-08-09 | Sırbistan Süper Lig | Ofk Beograd - Zeleznicar Panc | MS X | pending | 50/100
-- 2026-08-09 | Sırbistan Süper Lig | Mladost Lucani - Cukaricki | MS X | pending | 40/100
 
