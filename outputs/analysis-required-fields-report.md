@@ -2,15 +2,14 @@
 
 Durum: warning
 Toplam analiz: 243
-Tam analiz: 217
-Eksik analiz: 26
+Tam analiz: 218
+Eksik analiz: 25
 
 - Kisvarda Ii VS Disgyor Ii: eksik score, confidence
 - Molde 2 VS Kvik Trond: eksik score, confidence
 - Johor Dt VS Chelsea: eksik score, confidence
 - Phönix Lübeck VS Jeddeloh: eksik score, confidence
 - Dalstorps If VS Kongahalla: eksik score, confidence
-- Carl Zeiss Jen VS Erfurt: eksik score, confidence
 - Biel-Bienne VS Yf Juventus: eksik score, confidence
 - Danubio VS Cerro: eksik score, confidence
 - Raelingen VS Rade: eksik score, confidence
@@ -25,3 +24,4 @@ Eksik analiz: 26
 - Defensor Sport VS Montevideo Wand: eksik score, confidence
 - Akranes VS Thor Akureyri: eksik score, confidence
 - Vikingur Reykj VS Vestmannaeyjar: eksik score, confidence
+- Ca Mitre VS D Belgrano: eksik score, confidence

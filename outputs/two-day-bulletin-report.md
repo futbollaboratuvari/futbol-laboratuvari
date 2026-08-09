@@ -3,17 +3,14 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 275
-Aktif mac: 256
-Canli mac: 19
+Aktif mac: 253
+Canli mac: 22
 Biten mac: 0
-Bultenden dusurulen mac: 19
-Bugun: 224
+Bultenden dusurulen mac: 22
+Bugun: 221
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 13:15 | Hollanda Eredivisie | Sparta Rotterd - Feyenoord | scheduled | -
-- 2026-08-09 13:15 | Hollanda Eerste Divisie | Helmond Sport - De Graafschap | scheduled | -
-- 2026-08-09 13:30 | Norveç 2.Lig Grup 2 | Rana - Skeid | scheduled | -
 - 2026-08-09 14:00 | Çin Halk Cumhuriyeti Süper Lig | Henan Jianye - Qingdao West Co | scheduled | -
 - 2026-08-09 14:00 | Hazırlık Kulüpler | Manchester Cit - Atletico Madrid | scheduled | -
 - 2026-08-09 14:00 | Norveç 2.Lig Grup 1 | Eik Toensberg - Traeff | scheduled | -
@@ -288,6 +285,9 @@ Yarin: 32
 - 2026-08-09 13:00 | Portekiz 3.Lig Grup A | Ad Marco 09 - Pacos Ferreira | live | -
 - 2026-08-09 13:00 | Japonya J3 Lig | Tochigi Sc - Zweigen Kanazaw | live | -
 - 2026-08-09 13:00 | Japonya J3 Lig | Ehime Fc - Nara Club | live | -
+- 2026-08-09 13:15 | Hollanda Eredivisie | Sparta Rotterd - Feyenoord | live | -
+- 2026-08-09 13:15 | Hollanda Eerste Divisie | Helmond Sport - De Graafschap | live | -
+- 2026-08-09 13:30 | Norveç 2.Lig Grup 2 | Rana - Skeid | live | -
 
 ## Biten Maclar
 Biten mac yok.
