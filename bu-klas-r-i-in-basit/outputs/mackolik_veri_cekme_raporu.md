@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T13:32:24.479940+00:00
+Tarih: 2026-08-09T14:11:33.775327+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 188
+- Kac mac bulundu: 132
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 188
+- Kac mac zaten vardi: 132
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
@@ -18,7 +18,6 @@ Tarih: 2026-08-09T13:32:24.479940+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
@@ -27,13 +26,10 @@ Tarih: 2026-08-09T13:32:24.479940+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF U20 Final
 - Danimarka Süperlig
 - Estonya Premium Lig
-- Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
-- Galler FAW Championship Güney
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
@@ -51,7 +47,6 @@ Tarih: 2026-08-09T13:32:24.479940+00:00
 - Macaristan NB III Kuzeybatı
 - Moldova Ulusal Lig
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -139,8 +134,8 @@ Tarih: 2026-08-09T13:32:24.479940+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 85
-- Acilan detay: 85
+- Denenen Tumu alani: 81
+- Acilan detay: 81
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -155,24 +150,24 @@ Tarih: 2026-08-09T13:32:24.479940+00:00
 |---|---|---|---|---|---|---:|
 | 09.08.2026 | 18:00 | Ukrayna Premier Lig | Veres Rivne | Dynamo Kiev | 27173 | 5 |
 | 09.08.2026 | 17:45 | Hollanda Eredivisie | Heerenveen | Twente | 18577 | 5 |
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
 | 09.08.2026 | 20:00 | Portekiz Premier Lig | Porto | Alverca | 21592 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
+| 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
 | 09.08.2026 | 20:15 | Belçika Pro Lig | Antwerp | Waasland Bevere | 18096 | 5 |
-| 09.08.2026 | 17:00 | Belçika Pro Lig | Zulte Waregem | Genk | 17881 | 5 |
 | 09.08.2026 | 19:30 | Belçika Pro Lig | Anderlecht | La Louvière | 17990 | 5 |
-| 09.08.2026 | 17:00 | Belçika Pro Lig | Charleroi | Oh Leuven | 17776 | 5 |
 | 09.08.2026 | 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield | Sheffield Utd | 26910 | 5 |
-| 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
 | 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
-| 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pergolettese | Internazionale | 40262 | 5 |
-| 09.08.2026 | 22:00 | Hazırlık Kulüpler | Ue Olot | Sabadell | 06788 | 5 |
-| 09.08.2026 | 18:30 | Hazırlık Kulüpler | Marsilya | Athletic Bilbao | 12166 | 5 |
-| 09.08.2026 | 16:30 | Hazırlık Kulüpler | Liverpool | Monaco | 36777 | 5 |
+| 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
 | 09.08.2026 | 21:45 | Hazırlık Kulüpler | Frosinone | Lazio | 42729 | 5 |
-| 09.08.2026 | 21:30 | Hazırlık Kulüpler | Mantova | Athletic Carpi | 18944 | 5 |
+| 09.08.2026 | 18:30 | Hazırlık Kulüpler | Marsilya | Athletic Bilbao | 12166 | 5 |
+| 09.08.2026 | 22:00 | Hazırlık Kulüpler | Ue Olot | Sabadell | 06788 | 5 |
 | 09.08.2026 | 21:00 | Hazırlık Kulüpler | Parma | Sampdoria | 18973 | 5 |
+| 09.08.2026 | 21:30 | Hazırlık Kulüpler | Mantova | Athletic Carpi | 18944 | 5 |
+| 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pergolettese | Internazionale | 40262 | 5 |
+| 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pro Patria | Pro Imperia | 06874 | 5 |
+| 09.08.2026 | 17:45 | Hollanda Eerste Divisie | Maastricht | Utrecht (Ii) | 18636 | 5 |
+| 09.08.2026 | 18:00 | İskoçya Premiership | Glasgow Ranger | Hibernian | 28180 | 5 |
 
 ## Sonuc
 
