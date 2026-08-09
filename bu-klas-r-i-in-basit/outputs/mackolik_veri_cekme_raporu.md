@@ -1,14 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-09T14:52:48.779873+00:00
+=======
+Tarih: 2026-08-09T14:57:02.403336+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 154
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 154
+=======
+- Kac mac bulundu: 120
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 120
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
@@ -38,10 +48,15 @@ Tarih: 2026-08-09T14:52:48.779873+00:00
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
+<<<<<<< Updated upstream
 - Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Kazakistan Premier Lig
 - Kosta Rika Premier Lig Apertura
+=======
+- Hırvatistan 1.HNL
+- Kazakistan Premier Lig
+>>>>>>> Stashed changes
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
