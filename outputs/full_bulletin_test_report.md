@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 26
-- Live match count: 8
+- Scheduled match count: 65
+- Live match count: 13
 - Finished removed count: 0
 - Date window: 2026-08-10 / 2026-08-11 23:59
 
@@ -15,5 +15,5 @@
 - 2026-08-10 00:00 | Deportivo San - Suchitepequez | live
 - 2026-08-10 00:00 | Juticalpa - Depor. Olimpia | live
 - 2026-08-10 00:00 | Inter San Carl - Ad San Carlos | live
-- 2026-08-10 00:15 | Real Potosi - Blooming | scheduled
-- 2026-08-10 00:30 | Bragantino - Corinthians | scheduled
+- 2026-08-10 00:15 | Real Potosi - Blooming | live
+- 2026-08-10 00:30 | Bragantino - Corinthians | live
