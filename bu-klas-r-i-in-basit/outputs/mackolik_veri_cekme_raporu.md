@@ -1,20 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-09T18:15:41.002346+00:00
+=======
+Tarih: 2026-08-09T18:17:04.000020+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 71
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 71
+=======
+- Kac mac bulundu: 36
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 36
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Bolivya Premier Lig
@@ -23,22 +32,14 @@ Tarih: 2026-08-09T18:15:41.002346+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF U20 Final
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kosta Rika Premier Lig Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya Ekstraklasa
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Slovenya 1.SNL
 - Sırbistan Süper Lig
-- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İtalya Kupa Ön Eleme Turu
 - İzlanda Urvalsdeild
@@ -125,6 +126,7 @@ Tarih: 2026-08-09T18:15:41.002346+00:00
 | 09.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Cukaricki | 36095 | 5 |
 | 09.08.2026 | 22:00 | Brezilya Serie A | Bahia | Vasco Da Gama | 32501 | 5 |
 | 09.08.2026 | 22:00 | Brezilya Serie A | Palmeiras | Internacional | 32625 | 5 |
+<<<<<<< Updated upstream
 | 10.08.2026 | 00:30 | Brezilya Serie A | Santos | Atletico Pr | 32773 | 5 |
 | 10.08.2026 | 01:30 | Brezilya Serie A | Flamengo | Vitoria Bahia | 32831 | 5 |
 | 10.08.2026 | 00:30 | Brezilya Serie A | Bragantino | Corinthians | 32715 | 5 |
@@ -133,6 +135,16 @@ Tarih: 2026-08-09T18:15:41.002346+00:00
 | 10.08.2026 | 02:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr | Racing Club | 29332 | 5 |
 | 09.08.2026 | 22:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Queretaro | 07807 | 5 |
 | 10.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | San Diego | Club Tijuana | 09353 | 5 |
+=======
+| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Newells Old Boy | 29199 | 5 |
+| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl | Barracas | 29257 | 5 |
+| 09.08.2026 | 22:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Queretaro | 07807 | 5 |
+| 09.08.2026 | 21:15 | Bulgaristan 1.Lig | Septemvri Sofi | Cska Sofia | 32339 | 5 |
+| 09.08.2026 | 22:00 | Hırvatistan 1.HNL | Hajduk Split | Istra | 34402 | 5 |
+| 09.08.2026 | 21:30 | Romanya 1.Lig | Universitatea | Argesul Pitesti | 35507 | 5 |
+| 09.08.2026 | 23:30 | Peru Premier Lig Clausura | Melgar | Fc Cajamarca | 22935 | 5 |
+| 09.08.2026 | 22:30 | Venezuela Premier Lig Clausura | Academia Anzoa | Portuguesa | 39549 | 5 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
