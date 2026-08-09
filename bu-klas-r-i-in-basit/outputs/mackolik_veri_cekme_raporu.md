@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T17:46:42.663303+00:00
+Tarih: 2026-08-09T18:15:41.002346+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 84
+- Kac mac bulundu: 71
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 84
+- Kac mac zaten vardi: 71
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
@@ -40,7 +40,6 @@ Tarih: 2026-08-09T17:46:42.663303+00:00
 - Sırbistan Süper Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Çek Cumhuriyeti Czech Liga
 - İtalya Kupa Ön Eleme Turu
 - İzlanda Urvalsdeild
 - Şili Premier Lig
@@ -100,8 +99,8 @@ Tarih: 2026-08-09T17:46:42.663303+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 39
-- Acilan detay: 39
+- Denenen Tumu alani: 37
+- Acilan detay: 37
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,26 +113,26 @@ Tarih: 2026-08-09T17:46:42.663303+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
+| 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
+| 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
 | 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
-| 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
 | 09.08.2026 | 22:00 | Hazırlık Kulüpler | Ue Olot | Sabadell | 06788 | 5 |
-| 09.08.2026 | 21:00 | Hazırlık Kulüpler | Parma | Sampdoria | 18973 | 5 |
 | 09.08.2026 | 21:30 | Hazırlık Kulüpler | Mantova | Athletic Carpi | 18944 | 5 |
 | 09.08.2026 | 21:45 | Hazırlık Kulüpler | Frosinone | Lazio | 42729 | 5 |
 | 09.08.2026 | 21:15 | Polonya Ekstraklasa | Jagiellonia | Widzew Lodz | 31840 | 5 |
-| 09.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno | Sigma Olomouc | 17592 | 5 |
-| 09.08.2026 | 21:00 | Sırbistan Süper Lig | Macva | Imt Novi Beogra | 36061 | 5 |
-| 09.08.2026 | 21:00 | Sırbistan Süper Lig | Vojvodina | Radnik Surdulic | 36078 | 5 |
-| 09.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Cukaricki | 36095 | 5 |
 | 09.08.2026 | 22:00 | Sırbistan Süper Lig | Ofk Beograd | Zeleznicar Panc | 36129 | 5 |
+| 09.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Cukaricki | 36095 | 5 |
 | 09.08.2026 | 22:00 | Brezilya Serie A | Bahia | Vasco Da Gama | 32501 | 5 |
 | 09.08.2026 | 22:00 | Brezilya Serie A | Palmeiras | Internacional | 32625 | 5 |
 | 10.08.2026 | 00:30 | Brezilya Serie A | Santos | Atletico Pr | 32773 | 5 |
-| 10.08.2026 | 00:30 | Brezilya Serie A | Bragantino | Corinthians | 32715 | 5 |
 | 10.08.2026 | 01:30 | Brezilya Serie A | Flamengo | Vitoria Bahia | 32831 | 5 |
+| 10.08.2026 | 00:30 | Brezilya Serie A | Bragantino | Corinthians | 32715 | 5 |
+| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Newells Old Boy | 29199 | 5 |
+| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl | Barracas | 29257 | 5 |
+| 10.08.2026 | 02:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr | Racing Club | 29332 | 5 |
+| 09.08.2026 | 22:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Queretaro | 07807 | 5 |
+| 10.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | San Diego | Club Tijuana | 09353 | 5 |
 
 ## Sonuc
 
