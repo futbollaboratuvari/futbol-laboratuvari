@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 09:15:21
+Oluşturma: 09.08.2026 10:20:12
 
 ## Özet
 
-- Toplam tahmin: 149
-- Bekleyen tahmin: 149
+- Toplam tahmin: 152
+- Bekleyen tahmin: 152
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 71
@@ -20,12 +20,15 @@ Oluşturma: 09.08.2026 09:15:21
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
+- MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
-- MS X: toplam 80, bekleyen 80, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Gürcistan Erovnuli Liga | Spaeri - Dinamo Tiflis | MS 1 | pending | 50/100
+- 2026-08-09 | Avusturya Bundesliga | Austria Vienna - Lask Linz | MS 1 | pending | 50/100
+- 2026-08-09 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Tianjin Teda | MS X | pending | 50/100
 - 2026-08-09 | Romanya 1.Lig | Universitatea - Argesul Pitesti | MS 2 | pending | 50/100
 - 2026-08-09 | Hazırlık Kulüpler | Frosinone - Lazio | MS X | pending | 50/100
 - 2026-08-09 | İtalya Kupa Ön Eleme Turu | Benevento - Ravenna | MS 2 | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 09.08.2026 09:15:21
 - 2026-08-09 | Portekiz Premier Lig | Gil Vicente - Rio Ave | MS 2 | pending | 50/100
 - 2026-08-09 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Queretaro | MS X | pending | 50/100
 - 2026-08-09 | Venezuela Premier Lig Clausura | Academia Anzoa - Portuguesa | MS X | pending | 40/100
-- 2026-08-09 | Portekiz 3.Lig Grup A | Fafe - Vianense | MS 2 | pending | 40/100
-- 2026-08-09 | Belçika Pro Lig | Anderlecht - La Louvière | MS 2 | pending | 50/100
-- 2026-08-09 | Hırvatistan 1.HNL | Slaven Belupo - Varazdin | MS X | pending | 50/100
 
