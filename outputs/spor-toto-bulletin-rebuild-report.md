@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-09T18:15:44.307Z
+- Guncelleme: 2026-08-09T19:47:07.249Z
 - Ham fixture sayisi: 5890
 - Bugun/yarin kaynak mac: 340
-- Aktif bulten maci: 68
+- Aktif bulten maci: 42
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 272
+- Bultenden dusurulen mac: 298
 
-- 1. 2026-08-09 21:30 | Türkiye TFF 1. Lig | Bodrum Fk - Bursaspor | scheduled
-- 2. 2026-08-09 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - San Telmo | scheduled
-- 3. 2026-08-09 21:30 | Hazırlık Kulüpler | Mantova - Athletic Carpi | scheduled
-- 4. 2026-08-09 21:30 | Romanya 1.Lig | Universitatea - Argesul Pitesti | scheduled
-- 5. 2026-08-09 21:30 | Türkiye TFF 1. Lig | Van Spor Fk - Kayserispor | scheduled
-- 6. 2026-08-09 21:45 | Hazırlık Kulüpler | Frosinone - Lazio | scheduled
-- 7. 2026-08-09 22:00 | Brezilya Serie A | Bahia - Vasco Da Gama | scheduled
-- 8. 2026-08-09 22:00 | İtalya Kupa Ön Eleme Turu | Benevento - Ravenna | scheduled
-- 9. 2026-08-09 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - D Belgrano | scheduled
-- 10. 2026-08-09 22:00 | Bolivya Premier Lig | Gualberto Vill - Always Ready | scheduled
-- 11. 2026-08-09 22:00 | Hırvatistan 1.HNL | Hajduk Split - Istra | scheduled
-- 12. 2026-08-09 22:00 | Sırbistan Süper Lig | Mladost Lucani - Cukaricki | scheduled
-- 13. 2026-08-09 22:00 | Brezilya Serie B | Nautico - Atletico Goiani | scheduled
-- 14. 2026-08-09 22:00 | Brezilya Serie B | Novorizontino - Juventude | scheduled
-- 15. 2026-08-09 22:00 | Şili Premier Lig | O Higgins - Deportes Limach | scheduled
+- 1. 2026-08-09 23:00 | Arjantin Ulusal Primera Lig | Quilmes - Almagro | scheduled
+- 2. 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Trujillanos - Depor Tachira | scheduled
+- 3. 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Zamora - Academia Puerto | scheduled
+- 4. 2026-08-09 23:15 | İzlanda Urvalsdeild | Breidablik - Valur | scheduled
+- 5. 2026-08-09 23:30 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Nueva Chicago | scheduled
+- 6. 2026-08-09 23:30 | Peru Premier Lig Clausura | Melgar - Fc Cajamarca | scheduled
+- 7. 2026-08-09 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic - Newells Old Boy | scheduled
+- 8. 2026-08-09 23:45 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - Barracas | scheduled
+- 9. 2026-08-10 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Fuerte San Fran | scheduled
+- 10. 2026-08-10 00:00 | Brezilya Serie B | Cuiaba - Fortaleza Ce | scheduled
+- 11. 2026-08-10 00:00 | Ekvador Pro Lig | Delfin - Orense | scheduled
+- 12. 2026-08-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Suchitepequez | scheduled
+- 13. 2026-08-10 00:00 | ABD USL | Indy Eleven - Hartford Athlet | scheduled
+- 14. 2026-08-10 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Ad San Carlos | scheduled
+- 15. 2026-08-10 00:00 | Honduras Ulusal Lig Apertura | Juticalpa - Depor. Olimpia | scheduled

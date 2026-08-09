@@ -1,27 +1,38 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T19:13:19.454078+00:00
+Tarih: 2026-08-09T19:47:05.232128+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 15
+- Durum: success
+- Kac mac bulundu: 42
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Kac mac zaten vardi: 42
+- Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Bosna-Hersek Premier Lig
+- Bolivya Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
 - CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF U20 Final
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
+- Honduras Ulusal Lig Apertura
+- Kosta Rika Premier Lig Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
-- Portekiz Premier Lig
+- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -78,37 +89,41 @@ Tarih: 2026-08-09T19:13:19.454078+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 25
-- Acilan detay: 25
+- Denenen Tumu alani: 22
+- Acilan detay: 22
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
-| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Newells Old Boy | 29199 | 5 |
+| 10.08.2026 | 00:30 | Brezilya Serie A | Santos | Atletico Pr | 32773 | 5 |
+| 10.08.2026 | 00:30 | Brezilya Serie A | Bragantino | Corinthians | 32715 | 5 |
+| 10.08.2026 | 01:30 | Brezilya Serie A | Flamengo | Vitoria Bahia | 32831 | 5 |
 | 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl | Barracas | 29257 | 5 |
-| 09.08.2026 | 22:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Queretaro | 07807 | 5 |
+| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Newells Old Boy | 29199 | 5 |
+| 10.08.2026 | 02:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr | Racing Club | 29332 | 5 |
+| 10.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia | Necaxa | 09327 | 5 |
+| 10.08.2026 | 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America | Portland | 08005 | 5 |
+| 10.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Chicago | Santos Laguna | 09333 | 5 |
+| 10.08.2026 | 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin | Puebla | 09340 | 5 |
+| 10.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul | New York City | 09329 | 5 |
+| 10.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc | Atletico San Lu | 09337 | 5 |
+| 10.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | San Diego | Club Tijuana | 09353 | 5 |
 | 09.08.2026 | 23:30 | Peru Premier Lig Clausura | Melgar | Fc Cajamarca | 22935 | 5 |
 | 09.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Trujillanos | Depor Tachira | 42914 | 5 |
 | 09.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Zamora | Academia Puerto | 42931 | 3 |
-| 09.08.2026 | 22:30 | Venezuela Premier Lig Clausura | Academia Anzoa | Portuguesa | 39549 | 5 |
+| 10.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Metropolitanos | Ucv | 42948 | 5 |
+| 10.08.2026 | 00:30 | Şili Premier Lig | Union La Caler | Colo Colo | 36163 | 5 |
+| 10.08.2026 | 03:00 | Şili Premier Lig | Univ. De Şili | Palestino | 36214 | 5 |
 | 09.08.2026 | 23:30 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir | Nueva Chicago | 29182 | 3 |
-| 09.08.2026 | 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz | Chaco For Ever | 29148 | 3 |
-| 09.08.2026 | 23:00 | Arjantin Ulusal Primera Lig | Quilmes | Almagro | 29165 | 3 |
-| 09.08.2026 | 23:15 | İzlanda Urvalsdeild | Breidablik | Valur | 34543 | 3 |
-| 09.08.2026 | 22:00 | Bosna-Hersek Premier Lig | Zrinjski | Celik | 41123 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

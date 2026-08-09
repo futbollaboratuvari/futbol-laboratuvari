@@ -1,23 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-09 / 2026-08-10
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 340
-Aktif mac: 48
-Canli mac: 55
-Biten mac: 237
-Bultenden dusurulen mac: 292
-Bugun: 14
+Aktif mac: 42
+Canli mac: 44
+Biten mac: 254
+Bultenden dusurulen mac: 298
+Bugun: 8
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-09 22:30 | Portekiz Premier Lig | Moreirense - Braga | scheduled | -
-- 2026-08-09 22:30 | Portekiz Premier Lig | Benfica - Academico Viseu | scheduled | -
-- 2026-08-09 22:30 | Portekiz Premier Lig | Gil Vicente - Rio Ave | scheduled | -
-- 2026-08-09 22:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Queretaro | scheduled | -
-- 2026-08-09 22:30 | Venezuela Premier Lig Clausura | Academia Anzoa - Portuguesa | scheduled | -
-- 2026-08-09 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - Chaco For Ever | scheduled | -
 - 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Zamora - Academia Puerto | scheduled | -
 - 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Trujillanos - Depor Tachira | scheduled | -
 - 2026-08-09 23:00 | Arjantin Ulusal Primera Lig | Quilmes - Almagro | scheduled | -
@@ -62,6 +55,24 @@ Yarin: 34
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
+- 2026-08-09 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo - Union Brescia | live | -
+- 2026-08-09 21:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno - Sigma Olomouc | live | -
+- 2026-08-09 21:00 | Sırbistan Süper Lig | Macva - Imt Novi Beogra | live | -
+- 2026-08-09 21:00 | Sırbistan Süper Lig | Vojvodina - Radnik Surdulic | live | -
+- 2026-08-09 21:00 | Hazırlık Kulüpler | Parma - Sampdoria | live | -
+- 2026-08-09 21:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Huracan | live | -
+- 2026-08-09 21:00 | Peru Premier Lig Clausura | Deportivo Garc - Deportivo Moque | live | -
+- 2026-08-09 21:00 | Arjantin Ulusal Primera Lig | Colegiales - Patronato | live | -
+- 2026-08-09 21:00 | Arjantin Ulusal Primera Lig | Moron - Acassuso | live | -
+- 2026-08-09 21:00 | Uruguay Premier Lig Clausura | Defensor Sport - Montevideo Wand | live | -
+- 2026-08-09 21:00 | İzlanda Urvalsdeild | Akranes - Thor Akureyri | live | -
+- 2026-08-09 21:00 | İzlanda Urvalsdeild | Vikingur Reykj - Vestmannaeyjar | live | -
+- 2026-08-09 21:00 | İzlanda Urvalsdeild | Stjarnan - Keflavik | live | -
+- 2026-08-09 21:15 | Polonya Ekstraklasa | Jagiellonia - Widzew Lodz | live | -
+- 2026-08-09 21:15 | Bulgaristan 1.Lig | Septemvri Sofi - Cska Sofia | live | -
+- 2026-08-09 21:15 | Slovenya 1.SNL | Maribor - Koper | live | -
+- 2026-08-09 21:15 | Slovenya 1.SNL | Ask Bravo - Nk Brinje Grosu | live | -
+- 2026-08-09 21:15 | İzlanda Urvalsdeild | Ka Akureyri - Hafnarfjordur | live | -
 - 2026-08-09 21:30 | Hazırlık Kulüpler | Mantova - Athletic Carpi | live | -
 - 2026-08-09 21:30 | Romanya 1.Lig | Universitatea - Argesul Pitesti | live | -
 - 2026-08-09 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - San Telmo | live | -
@@ -82,41 +93,12 @@ Yarin: 34
 - 2026-08-09 22:00 | Brezilya Serie B | Novorizontino - Juventude | live | -
 - 2026-08-09 22:00 | Bosna-Hersek Premier Lig | Zrinjski - Celik | live | -
 - 2026-08-09 22:00 | Bolivya Premier Lig | Gualberto Vill - Always Ready | live | -
-- 2026-08-09 19:30 | Belçika Pro Lig | Anderlecht - La Louvière | live | -
-- 2026-08-09 19:30 | Hırvatistan 1.HNL | Slaven Belupo - Varazdin | live | -
-- 2026-08-09 19:30 | Şili Premier Lig | Concepcion - Univ De Concepc | live | -
-- 2026-08-09 19:30 | Portekiz 3.Lig Grup A | Leca - Sao Joao Ver | live | -
-- 2026-08-09 19:30 | Bosna-Hersek Premier Lig | Borac Banja Lu - Velez Mostar | live | -
-- 2026-08-09 20:00 | Portekiz Premier Lig | Porto - Alverca | live | -
-- 2026-08-09 20:00 | Avusturya Bundesliga | Austria Vienna - Lask Linz | live | -
-- 2026-08-09 20:00 | Rusya Premier Lig | Spartak Moskov - Krasnodar | live | -
-- 2026-08-09 20:00 | Arjantin Ulusal Primera Lig | Atlanta - Atl Temperley | live | -
-- 2026-08-09 20:00 | Moldova Ulusal Lig | Sheriff Tirasp - Dacia-Buiucani | live | -
-- 2026-08-09 20:00 | Moldova Ulusal Lig | Zimbru - Petrocub | live | -
-- 2026-08-09 20:15 | Belçika Pro Lig | Antwerp - Waasland Bevere | live | -
-- 2026-08-09 20:15 | Norveç Eliteserien | Kristiansund - Molde | live | -
-- 2026-08-09 20:30 | Rusya Premier Lig | Rubin Kazan - Orenburg | live | -
-- 2026-08-09 20:30 | Almanya 3. Lig | Aachen - Verl 1924 | live | -
-- 2026-08-09 20:30 | Arjantin Ulusal Primera Lig | Los Andes - Ferro Carril Oe | live | -
-- 2026-08-09 20:30 | Polonya 2.Lig | Gks Tychy - Olimpia Grudzia | live | -
-- 2026-08-09 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo - Union Brescia | live | -
-- 2026-08-09 21:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno - Sigma Olomouc | live | -
-- 2026-08-09 21:00 | Sırbistan Süper Lig | Macva - Imt Novi Beogra | live | -
-- 2026-08-09 21:00 | Sırbistan Süper Lig | Vojvodina - Radnik Surdulic | live | -
-- 2026-08-09 21:00 | Hazırlık Kulüpler | Parma - Sampdoria | live | -
-- 2026-08-09 21:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Huracan | live | -
-- 2026-08-09 21:00 | Peru Premier Lig Clausura | Deportivo Garc - Deportivo Moque | live | -
-- 2026-08-09 21:00 | Arjantin Ulusal Primera Lig | Colegiales - Patronato | live | -
-- 2026-08-09 21:00 | Arjantin Ulusal Primera Lig | Moron - Acassuso | live | -
-- 2026-08-09 21:00 | Uruguay Premier Lig Clausura | Defensor Sport - Montevideo Wand | live | -
-- 2026-08-09 21:00 | İzlanda Urvalsdeild | Akranes - Thor Akureyri | live | -
-- 2026-08-09 21:00 | İzlanda Urvalsdeild | Vikingur Reykj - Vestmannaeyjar | live | -
-- 2026-08-09 21:00 | İzlanda Urvalsdeild | Stjarnan - Keflavik | live | -
-- 2026-08-09 21:15 | Polonya Ekstraklasa | Jagiellonia - Widzew Lodz | live | -
-- 2026-08-09 21:15 | Bulgaristan 1.Lig | Septemvri Sofi - Cska Sofia | live | -
-- 2026-08-09 21:15 | Slovenya 1.SNL | Maribor - Koper | live | -
-- 2026-08-09 21:15 | Slovenya 1.SNL | Ask Bravo - Nk Brinje Grosu | live | -
-- 2026-08-09 21:15 | İzlanda Urvalsdeild | Ka Akureyri - Hafnarfjordur | live | -
+- 2026-08-09 22:30 | Portekiz Premier Lig | Moreirense - Braga | live | -
+- 2026-08-09 22:30 | Portekiz Premier Lig | Benfica - Academico Viseu | live | -
+- 2026-08-09 22:30 | Portekiz Premier Lig | Gil Vicente - Rio Ave | live | -
+- 2026-08-09 22:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Queretaro | live | -
+- 2026-08-09 22:30 | Venezuela Premier Lig Clausura | Academia Anzoa - Portuguesa | live | -
+- 2026-08-09 22:30 | Arjantin Ulusal Primera Lig | Godoy Cruz - Chaco For Ever | live | -
 
 ## Biten Maclar
 - 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
@@ -356,3 +338,20 @@ Yarin: 34
 - 2026-08-09 19:00 | Hazırlık Kulüpler | Pergolettese - Internazionale | finished | -
 - 2026-08-09 19:00 | Türkiye TFF 1. Lig | Iğdır Fk - Fatih Karagümrü | finished | -
 - 2026-08-09 19:00 | Hazırlık Kulüpler | Pro Patria - Pro Imperia | finished | -
+- 2026-08-09 19:30 | Belçika Pro Lig | Anderlecht - La Louvière | finished | -
+- 2026-08-09 19:30 | Hırvatistan 1.HNL | Slaven Belupo - Varazdin | finished | -
+- 2026-08-09 19:30 | Şili Premier Lig | Concepcion - Univ De Concepc | finished | -
+- 2026-08-09 19:30 | Portekiz 3.Lig Grup A | Leca - Sao Joao Ver | finished | -
+- 2026-08-09 19:30 | Bosna-Hersek Premier Lig | Borac Banja Lu - Velez Mostar | finished | -
+- 2026-08-09 20:00 | Portekiz Premier Lig | Porto - Alverca | finished | -
+- 2026-08-09 20:00 | Avusturya Bundesliga | Austria Vienna - Lask Linz | finished | -
+- 2026-08-09 20:00 | Rusya Premier Lig | Spartak Moskov - Krasnodar | finished | -
+- 2026-08-09 20:00 | Arjantin Ulusal Primera Lig | Atlanta - Atl Temperley | finished | -
+- 2026-08-09 20:00 | Moldova Ulusal Lig | Sheriff Tirasp - Dacia-Buiucani | finished | -
+- 2026-08-09 20:00 | Moldova Ulusal Lig | Zimbru - Petrocub | finished | -
+- 2026-08-09 20:15 | Belçika Pro Lig | Antwerp - Waasland Bevere | finished | -
+- 2026-08-09 20:15 | Norveç Eliteserien | Kristiansund - Molde | finished | -
+- 2026-08-09 20:30 | Rusya Premier Lig | Rubin Kazan - Orenburg | finished | -
+- 2026-08-09 20:30 | Almanya 3. Lig | Aachen - Verl 1924 | finished | -
+- 2026-08-09 20:30 | Arjantin Ulusal Primera Lig | Los Andes - Ferro Carril Oe | finished | -
+- 2026-08-09 20:30 | Polonya 2.Lig | Gks Tychy - Olimpia Grudzia | finished | -
