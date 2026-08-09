@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 267
+- Scheduled match count: 270
 - Live match count: 1
-- Finished removed count: 4
+- Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
 - 2026-08-09 10:00 | Brisbane Roar - Sydney | live

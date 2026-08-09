@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
-Ham mac: 272
-Aktif mac: 267
-Canli mac: 5
+Ham mac: 271
+Aktif mac: 270
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 235
+Bultenden dusurulen mac: 1
+Bugun: 238
 Yarin: 32
 
 ## Baslamamis Maclar
@@ -116,6 +116,7 @@ Yarin: 32
 - 2026-08-09 17:00 | Norveç 3.Lig Grup 6 | Raelingen - Rade | scheduled | -
 - 2026-08-09 17:00 | İsveç 2.Lig Norra Svealand | Helges - Bollstanas | scheduled | -
 - 2026-08-09 17:00 | Faroe Adaları Master Lig | Vikingur Gota - B68 Toftir | scheduled | -
+- 2026-08-09 17:00 | Letonya 1.Lig | Riga Mariners - Tukums Ii | scheduled | -
 - 2026-08-09 17:30 | İsveç Allsvenskan | Göteborg - Kalmar | scheduled | -
 - 2026-08-09 17:30 | İsveç Allsvenskan | Halmstads - Gais | scheduled | -
 - 2026-08-09 17:30 | İsviçre Süper Lig | Sion - Vaduz | scheduled | -
@@ -178,6 +179,7 @@ Yarin: 32
 - 2026-08-09 19:00 | Güney Afrika 8 Kupası Çeyrek Final | Kaizer Chiefs - Golden Arrows | scheduled | -
 - 2026-08-09 19:00 | Türkiye TFF 1. Lig | Sarıyer - Muğlaspor | scheduled | -
 - 2026-08-09 19:00 | İzlanda 2.Lig | Kormakur - Throttur Vogar | scheduled | -
+- 2026-08-09 19:00 | Hazırlık Kulüpler | Pergolettese - Internazionale | scheduled | -
 - 2026-08-09 19:30 | Belçika Pro Lig | Anderlecht - La Louvière | scheduled | -
 - 2026-08-09 19:30 | Hırvatistan 1.HNL | Slaven Belupo - Varazdin | scheduled | -
 - 2026-08-09 19:30 | Şili Premier Lig | Concepcion - Univ De Concepc | scheduled | -
@@ -217,6 +219,7 @@ Yarin: 32
 - 2026-08-09 21:30 | Romanya 1.Lig | Universitatea - Argesul Pitesti | scheduled | -
 - 2026-08-09 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - San Telmo | scheduled | -
 - 2026-08-09 21:30 | Türkiye TFF 1. Lig | Bodrum Fk - Bursaspor | scheduled | -
+- 2026-08-09 21:30 | Türkiye TFF 1. Lig | Van Spor Fk - Kayserispor | scheduled | -
 - 2026-08-09 21:45 | Hazırlık Kulüpler | Frosinone - Lazio | scheduled | -
 - 2026-08-09 22:00 | İtalya Kupa Ön Eleme Turu | Benevento - Ravenna | scheduled | -
 - 2026-08-09 22:00 | Sırbistan Süper Lig | Ofk Beograd - Zeleznicar Panc | scheduled | -
@@ -280,10 +283,6 @@ Yarin: 32
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 08:00 | Rusya FNL | Ska-Khabarovsk - Spartak Kostrom | live | -
-- 2026-08-09 08:00 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra White | live | -
-- 2026-08-09 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Sydney United | live | -
-- 2026-08-09 08:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Maitland | live | -
 - 2026-08-09 10:00 | Avustralya FFA Kupası Son 16 Turu | Brisbane Roar - Sydney | live | -
 
 ## Biten Maclar
