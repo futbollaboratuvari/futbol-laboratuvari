@@ -3,22 +3,14 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 275
-Aktif mac: 264
-Canli mac: 11
+Aktif mac: 256
+Canli mac: 19
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 232
+Bultenden dusurulen mac: 19
+Bugun: 224
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 13:00 | Ukrayna Premier Lig | Zoria Luhansk - Kryvbas Kr | scheduled | -
-- 2026-08-09 13:00 | Japonya J1 Lig | V-Varen Nagasa - Kyoto Sanga | scheduled | -
-- 2026-08-09 13:00 | Portekiz 2.Lig | Farense - Torreense | scheduled | -
-- 2026-08-09 13:00 | Japonya J2 Lig | Yamagata - Tochigi City | scheduled | -
-- 2026-08-09 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Shenzhen Junior | scheduled | -
-- 2026-08-09 13:00 | Portekiz 3.Lig Grup A | Ad Marco 09 - Pacos Ferreira | scheduled | -
-- 2026-08-09 13:00 | Japonya J3 Lig | Tochigi Sc - Zweigen Kanazaw | scheduled | -
-- 2026-08-09 13:00 | Japonya J3 Lig | Ehime Fc - Nara Club | scheduled | -
 - 2026-08-09 13:15 | Hollanda Eredivisie | Sparta Rotterd - Feyenoord | scheduled | -
 - 2026-08-09 13:15 | Hollanda Eerste Divisie | Helmond Sport - De Graafschap | scheduled | -
 - 2026-08-09 13:30 | Norveç 2.Lig Grup 2 | Rana - Skeid | scheduled | -
@@ -288,6 +280,14 @@ Yarin: 32
 - 2026-08-09 12:00 | Japonya J3 Lig | Fukushima Unit - Kamatamare Sanu | live | -
 - 2026-08-09 12:30 | Japonya J3 Lig | Mio Biwako Shi - Fc Gifu | live | -
 - 2026-08-09 12:40 | Avustralya FFA Kupası Son 16 Turu | South Melbourn - Fremantle City | live | -
+- 2026-08-09 13:00 | Ukrayna Premier Lig | Zoria Luhansk - Kryvbas Kr | live | -
+- 2026-08-09 13:00 | Japonya J1 Lig | V-Varen Nagasa - Kyoto Sanga | live | -
+- 2026-08-09 13:00 | Portekiz 2.Lig | Farense - Torreense | live | -
+- 2026-08-09 13:00 | Japonya J2 Lig | Yamagata - Tochigi City | live | -
+- 2026-08-09 13:00 | Çin Halk Cumhuriyeti 1.Lig | Yanbian Longdi - Shenzhen Junior | live | -
+- 2026-08-09 13:00 | Portekiz 3.Lig Grup A | Ad Marco 09 - Pacos Ferreira | live | -
+- 2026-08-09 13:00 | Japonya J3 Lig | Tochigi Sc - Zweigen Kanazaw | live | -
+- 2026-08-09 13:00 | Japonya J3 Lig | Ehime Fc - Nara Club | live | -
 
 ## Biten Maclar
 Biten mac yok.
