@@ -1,24 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T15:40:13.570010+00:00
+Tarih: 2026-08-09T15:56:48.275726+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 88
+- Kac mac bulundu: 117
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 88
+- Kac mac zaten vardi: 117
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - Almanya 3. Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
-- Belarus Premier Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
@@ -26,19 +26,22 @@ Tarih: 2026-08-09T15:40:13.570010+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF U20 Final
 - Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Litvanya A Ligi
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB II
-- Macaristan NB III Güneybatı
-- Macaristan NB III Güneydoğu
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -116,8 +119,8 @@ Tarih: 2026-08-09T15:40:13.570010+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 63
-- Acilan detay: 63
+- Denenen Tumu alani: 58
+- Acilan detay: 58
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -130,16 +133,16 @@ Tarih: 2026-08-09T15:40:13.570010+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
+| 09.08.2026 | 20:00 | Portekiz Premier Lig | Porto | Alverca | 21592 | 4 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
+| 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
-| 09.08.2026 | 20:00 | Portekiz Premier Lig | Porto | Alverca | 21592 | 5 |
 | 09.08.2026 | 19:30 | Belçika Pro Lig | Anderlecht | La Louvière | 17990 | 5 |
 | 09.08.2026 | 20:15 | Belçika Pro Lig | Antwerp | Waasland Bevere | 18096 | 5 |
-| 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
 | 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
-| 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pergolettese | Internazionale | 40262 | 5 |
+| 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
 | 09.08.2026 | 22:00 | Hazırlık Kulüpler | Ue Olot | Sabadell | 06788 | 5 |
+| 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pergolettese | Internazionale | 40262 | 5 |
 | 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pro Patria | Pro Imperia | 06874 | 5 |
 | 09.08.2026 | 21:00 | Hazırlık Kulüpler | Parma | Sampdoria | 18973 | 5 |
 | 09.08.2026 | 21:30 | Hazırlık Kulüpler | Mantova | Athletic Carpi | 18944 | 5 |
@@ -149,7 +152,7 @@ Tarih: 2026-08-09T15:40:13.570010+00:00
 | 09.08.2026 | 21:15 | Polonya Ekstraklasa | Jagiellonia | Widzew Lodz | 31840 | 5 |
 | 09.08.2026 | 19:00 | Finlandiya Veikkausliiga | Oulu | Helsinki | 19588 | 5 |
 | 09.08.2026 | 19:00 | İrlanda Premier Lig | Shelbourne | St Patricks | 22964 | 5 |
-| 09.08.2026 | 20:00 | Rusya Premier Lig | Spartak Moskov | Krasnodar | 34084 | 5 |
+| 09.08.2026 | 20:30 | Rusya Premier Lig | Rubin Kazan | Orenburg | 34144 | 5 |
 
 ## Sonuc
 

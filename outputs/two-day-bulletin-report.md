@@ -3,32 +3,14 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 340
-Aktif mac: 138
-Canli mac: 54
-Biten mac: 148
-Bultenden dusurulen mac: 202
-Bugun: 104
+Aktif mac: 120
+Canli mac: 67
+Biten mac: 153
+Bultenden dusurulen mac: 220
+Bugun: 86
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-09 18:30 | Polonya Ekstraklasa | Lech Poznan - Piast Gliwice | scheduled | -
-- 2026-08-09 18:30 | Hazırlık Kulüpler | Marsilya - Athletic Bilbao | scheduled | -
-- 2026-08-09 18:30 | Rusya FNL | Rotor Volgogra - Chelyabinsk | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB I | Debreceni - Nyiregyhaza | scheduled | -
-- 2026-08-09 18:30 | Romanya 1.Lig | Petrolul 52 - Otelul Galati | scheduled | -
-- 2026-08-09 18:30 | Slovenya 1.SNL | Aluminij - Nafta | scheduled | -
-- 2026-08-09 18:30 | Slovenya 2.SNL | Ilirija - Dravinja | scheduled | -
-- 2026-08-09 18:30 | Polonya 2.Lig | Slask Wroclaw - Gornik Leczna | scheduled | -
-- 2026-08-09 18:30 | Finlandiya Ykkönen | Fc Jazz - Oulun Ls | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB II | Soroksar - Diosgyor | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB II | Szentlorinc Se - Nagykanizsai Ul | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB II | Csakvari Tk - Kozarmisleny | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB III Kuzeybatı | Haladas Vse - Balatonalmadi | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB III Güneydoğu | Esmtk - Hodmezovasarhel | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Pte-Peac - Siofok | scheduled | -
-- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Mtk Ii - Szekszard | scheduled | -
-- 2026-08-09 18:45 | Litvanya A Ligi | Banga - Suduva | scheduled | -
-- 2026-08-09 18:45 | Belarus Premier Lig | Gomel - Minsk | scheduled | -
 - 2026-08-09 19:00 | Danimarka Süperlig | Horsens - Brondby | scheduled | -
 - 2026-08-09 19:00 | Finlandiya Veikkausliiga | Oulu - Helsinki | scheduled | -
 - 2026-08-09 19:00 | İrlanda Premier Lig | Shelbourne - St Patricks | scheduled | -
@@ -151,11 +133,6 @@ Yarin: 34
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 16:30 | Hazırlık Kulüpler | Liverpool - Monaco | live | -
-- 2026-08-09 16:30 | Norveç 2.Lig Grup 2 | Tromsdalen - Lorenskog | live | -
-- 2026-08-09 16:30 | Galler FAW Championship Güney | Baglan Dragons - Swansea Univers | live | -
-- 2026-08-09 16:30 | Macaristan NB I | Paksi - Budapest Honved | live | -
-- 2026-08-09 16:45 | Belarus Premier Lig | Baranovichi - Bate Borisov | live | -
 - 2026-08-09 17:00 | Belçika Pro Lig | Charleroi - Oh Leuven | live | -
 - 2026-08-09 17:00 | Belçika Pro Lig | Zulte Waregem - Genk | live | -
 - 2026-08-09 17:00 | İskoçya Premiership | Motherwell - Falkirk | live | -
@@ -205,6 +182,24 @@ Yarin: 34
 - 2026-08-09 18:00 | Letonya Virsliga | Riga Fc - Ogre United | live | -
 - 2026-08-09 18:00 | Kazakistan Premier Lig | Atyrau - Aktobe | live | -
 - 2026-08-09 18:15 | Polonya 1.Lig | Nieciecza - Warta Poznan | live | -
+- 2026-08-09 18:30 | Polonya Ekstraklasa | Lech Poznan - Piast Gliwice | live | -
+- 2026-08-09 18:30 | Hazırlık Kulüpler | Marsilya - Athletic Bilbao | live | -
+- 2026-08-09 18:30 | Rusya FNL | Rotor Volgogra - Chelyabinsk | live | -
+- 2026-08-09 18:30 | Macaristan NB I | Debreceni - Nyiregyhaza | live | -
+- 2026-08-09 18:30 | Romanya 1.Lig | Petrolul 52 - Otelul Galati | live | -
+- 2026-08-09 18:30 | Slovenya 1.SNL | Aluminij - Nafta | live | -
+- 2026-08-09 18:30 | Slovenya 2.SNL | Ilirija - Dravinja | live | -
+- 2026-08-09 18:30 | Polonya 2.Lig | Slask Wroclaw - Gornik Leczna | live | -
+- 2026-08-09 18:30 | Finlandiya Ykkönen | Fc Jazz - Oulun Ls | live | -
+- 2026-08-09 18:30 | Macaristan NB II | Soroksar - Diosgyor | live | -
+- 2026-08-09 18:30 | Macaristan NB II | Szentlorinc Se - Nagykanizsai Ul | live | -
+- 2026-08-09 18:30 | Macaristan NB II | Csakvari Tk - Kozarmisleny | live | -
+- 2026-08-09 18:30 | Macaristan NB III Kuzeybatı | Haladas Vse - Balatonalmadi | live | -
+- 2026-08-09 18:30 | Macaristan NB III Güneydoğu | Esmtk - Hodmezovasarhel | live | -
+- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Pte-Peac - Siofok | live | -
+- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Mtk Ii - Szekszard | live | -
+- 2026-08-09 18:45 | Litvanya A Ligi | Banga - Suduva | live | -
+- 2026-08-09 18:45 | Belarus Premier Lig | Gomel - Minsk | live | -
 
 ## Biten Maclar
 - 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
@@ -355,3 +350,8 @@ Yarin: 34
 - 2026-08-09 16:00 | Güney Afrika 8 Kupası Çeyrek Final | Amazulu - Sekhukhune Unit | finished | -
 - 2026-08-09 16:00 | İsveç 2.Lig Södra Götaland | Ifk Trelleborg - Växjö Norra | finished | -
 - 2026-08-09 16:00 | İsveç 2.Lig Södra Svealand | Lindo Ff - Fittja | finished | -
+- 2026-08-09 16:30 | Hazırlık Kulüpler | Liverpool - Monaco | finished | -
+- 2026-08-09 16:30 | Norveç 2.Lig Grup 2 | Tromsdalen - Lorenskog | finished | -
+- 2026-08-09 16:30 | Galler FAW Championship Güney | Baglan Dragons - Swansea Univers | finished | -
+- 2026-08-09 16:30 | Macaristan NB I | Paksi - Budapest Honved | finished | -
+- 2026-08-09 16:45 | Belarus Premier Lig | Baranovichi - Bate Borisov | finished | -

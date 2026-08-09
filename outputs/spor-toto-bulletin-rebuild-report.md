@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-09T15:22:58.712Z
+- Guncelleme: 2026-08-09T15:56:51.672Z
 - Ham fixture sayisi: 5890
 - Bugun/yarin kaynak mac: 340
-- Aktif bulten maci: 138
+- Aktif bulten maci: 120
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 202
+- Bultenden dusurulen mac: 220
 
-- 1. 2026-08-09 18:30 | Slovenya 1.SNL | Aluminij - Nafta | scheduled
-- 2. 2026-08-09 18:30 | Macaristan NB II | Csakvari Tk - Kozarmisleny | scheduled
-- 3. 2026-08-09 18:30 | Macaristan NB I | Debreceni - Nyiregyhaza | scheduled
-- 4. 2026-08-09 18:30 | Macaristan NB III Güneydoğu | Esmtk - Hodmezovasarhel | scheduled
-- 5. 2026-08-09 18:30 | Finlandiya Ykkönen | Fc Jazz - Oulun Ls | scheduled
-- 6. 2026-08-09 18:30 | Macaristan NB III Kuzeybatı | Haladas Vse - Balatonalmadi | scheduled
-- 7. 2026-08-09 18:30 | Slovenya 2.SNL | Ilirija - Dravinja | scheduled
-- 8. 2026-08-09 18:30 | Polonya Ekstraklasa | Lech Poznan - Piast Gliwice | scheduled
-- 9. 2026-08-09 18:30 | Hazırlık Kulüpler | Marsilya - Athletic Bilbao | scheduled
-- 10. 2026-08-09 18:30 | Macaristan NB III Güneybatı | Mtk Ii - Szekszard | scheduled
-- 11. 2026-08-09 18:30 | Romanya 1.Lig | Petrolul 52 - Otelul Galati | scheduled
-- 12. 2026-08-09 18:30 | Macaristan NB III Güneybatı | Pte-Peac - Siofok | scheduled
-- 13. 2026-08-09 18:30 | Rusya FNL | Rotor Volgogra - Chelyabinsk | scheduled
-- 14. 2026-08-09 18:30 | Polonya 2.Lig | Slask Wroclaw - Gornik Leczna | scheduled
-- 15. 2026-08-09 18:30 | Macaristan NB II | Soroksar - Diosgyor | scheduled
+- 1. 2026-08-09 19:00 | Bulgaristan 1.Lig | Cherno More - Ludogorets | scheduled
+- 2. 2026-08-09 19:00 | Portekiz 3.Lig Grup A | Fafe - Vianense | scheduled
+- 3. 2026-08-09 19:00 | Danimarka Süperlig | Horsens - Brondby | scheduled
+- 4. 2026-08-09 19:00 | Türkiye TFF 1. Lig | Iğdır Fk - Fatih Karagümrü | scheduled
+- 5. 2026-08-09 19:00 | Güney Afrika 8 Kupası Çeyrek Final | Kaizer Chiefs - Golden Arrows | scheduled
+- 6. 2026-08-09 19:00 | İzlanda 2.Lig | Kormakur - Throttur Vogar | scheduled
+- 7. 2026-08-09 19:00 | Estonya Premium Lig | Levadia Tallin - Nomme United | scheduled
+- 8. 2026-08-09 19:00 | Finlandiya Veikkausliiga | Oulu - Helsinki | scheduled
+- 9. 2026-08-09 19:00 | Hazırlık Kulüpler | Pergolettese - Internazionale | scheduled
+- 10. 2026-08-09 19:00 | Hazırlık Kulüpler | Pro Patria - Pro Imperia | scheduled
+- 11. 2026-08-09 19:00 | Türkiye TFF 1. Lig | Sarıyer - Muğlaspor | scheduled
+- 12. 2026-08-09 19:00 | Norveç 3.Lig Grup 6 | Sarpsborg 08 I - Brumunddal | scheduled
+- 13. 2026-08-09 19:00 | İrlanda Premier Lig | Shelbourne - St Patricks | scheduled
+- 14. 2026-08-09 19:00 | Gürcistan Erovnuli Liga | Spaeri - Dinamo Tiflis | scheduled
+- 15. 2026-08-09 19:00 | Portekiz 3.Lig Grup A | Trofense - Varzim | scheduled
