@@ -1,14 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 227
-Tam analiz: 201
-Eksik analiz: 26
+Toplam analiz: 185
+Tam analiz: 163
+Eksik analiz: 22
 
-- Molde 2 VS Kvik Trond: eksik score, confidence
-- Johor Dt VS Chelsea: eksik score, confidence
-- Phönix Lübeck VS Jeddeloh: eksik score, confidence
-- Dalstorps If VS Kongahalla: eksik score, confidence
 - Biel-Bienne VS Yf Juventus: eksik score, confidence
 - Danubio VS Cerro: eksik score, confidence
 - Raelingen VS Rade: eksik score, confidence
@@ -25,3 +21,7 @@ Eksik analiz: 26
 - Defensor Sport VS Montevideo Wand: eksik score, confidence
 - Akranes VS Thor Akureyri: eksik score, confidence
 - Vikingur Reykj VS Vestmannaeyjar: eksik score, confidence
+- Ca Mitre VS D Belgrano: eksik score, confidence
+- R Cordoba VS San Miguel: eksik score, confidence
+- Zrinjski VS Celik: eksik score, confidence
+- Quilmes VS Almagro: eksik score, confidence
