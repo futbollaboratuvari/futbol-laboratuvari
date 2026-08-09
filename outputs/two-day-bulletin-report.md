@@ -2,25 +2,15 @@
 
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
-Ham mac: 323
-Aktif mac: 294
-Canli mac: 19
-Biten mac: 10
-Bultenden dusurulen mac: 29
-Bugun: 262
+Ham mac: 311
+Aktif mac: 284
+Canli mac: 27
+Biten mac: 0
+Bultenden dusurulen mac: 27
+Bugun: 252
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 03:00 | Brezilya Serie A | Botafogo - Fluminense | scheduled | -
-- 2026-08-09 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Monterrey | scheduled | -
-- 2026-08-09 03:00 | Kosta Rika Premier Lig Apertura | Liberia - Perez Zeledon | scheduled | -
-- 2026-08-09 03:00 | Ekvador Pro Lig | Barcelona Gua - Depor Macara | scheduled | -
-- 2026-08-09 03:00 | Kanada Premier Lig | Supra Du Quebe - Cavalry | scheduled | -
-- 2026-08-09 03:00 | ABD USL | Louisville Cit - San Antonio | scheduled | -
-- 2026-08-09 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Rancho Santana | scheduled | -
-- 2026-08-09 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Gimnasia Mendoz | scheduled | -
-- 2026-08-09 03:30 | Arjantin Premier Lig 2. Aşama | Independiente - Platense | scheduled | -
-- 2026-08-09 03:30 | ABD USL | Tulsa Roughnec - Detroit City | scheduled | -
 - 2026-08-09 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Guadalajara - Dallas | scheduled | -
 - 2026-08-09 04:00 | Peru Premier Lig Clausura | Sport Boys - Alianza Lima | scheduled | -
 - 2026-08-09 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Cruz Azul Hidal | scheduled | -
@@ -307,8 +297,6 @@ Yarin: 32
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Export Sebaco | live | -
-- 2026-08-09 01:15 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Velez Sarsfield | live | -
 - 2026-08-09 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Club Leon | live | -
 - 2026-08-09 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Cd Tapatio | live | -
 - 2026-08-09 02:00 | ABD USL | Brooklyn - Birmingham Legi | live | -
@@ -326,15 +314,16 @@ Yarin: 32
 - 2026-08-09 02:30 | ABD USL | Rhode Island - Colorado Spring | live | -
 - 2026-08-09 02:30 | ABD USL Lig 1 | One Knoxville - Sarasota Paradi | live | -
 - 2026-08-09 02:30 | Bolivya Premier Lig | Aurora - Bolivar | live | -
+- 2026-08-09 03:00 | Brezilya Serie A | Botafogo - Fluminense | live | -
+- 2026-08-09 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Monterrey | live | -
+- 2026-08-09 03:00 | Kosta Rika Premier Lig Apertura | Liberia - Perez Zeledon | live | -
+- 2026-08-09 03:00 | Ekvador Pro Lig | Barcelona Gua - Depor Macara | live | -
+- 2026-08-09 03:00 | Kanada Premier Lig | Supra Du Quebe - Cavalry | live | -
+- 2026-08-09 03:00 | ABD USL | Louisville Cit - San Antonio | live | -
+- 2026-08-09 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Rancho Santana | live | -
+- 2026-08-09 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Gimnasia Mendoz | live | -
+- 2026-08-09 03:30 | Arjantin Premier Lig 2. Aşama | Independiente - Platense | live | -
+- 2026-08-09 03:30 | ABD USL | Tulsa Roughnec - Detroit City | live | -
 
 ## Biten Maclar
-- 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
-- 2026-08-09 00:00 | Kanada Premier Lig | Pacific Fc - Inter Toronto | finished | -
-- 2026-08-09 00:00 | Honduras Ulusal Lig Apertura | Platense - Marathon | finished | -
-- 2026-08-09 00:00 | El Salvador Primera Lig Apertura | Platense - Inca-Aruba | finished | -
-- 2026-08-09 00:15 | Bolivya Premier Lig | The Strongest - Independiente P | finished | -
-- 2026-08-09 00:30 | Brezilya Serie A | Remo - Atletico Mg | finished | -
-- 2026-08-09 00:30 | Şili Premier Lig | Coquimbo Unido - La Serena | finished | -
-- 2026-08-09 00:30 | Brezilya Serie B | Botafogo Ribei - America Mineiro | finished | -
-- 2026-08-09 00:30 | Uruguay Premier Lig Clausura | Torque - Penarol | finished | -
-- 2026-08-09 00:30 | Ekvador Pro Lig | Aucas - Leones Del Nort | finished | -
+Biten mac yok.
