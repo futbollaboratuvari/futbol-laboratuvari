@@ -2,18 +2,15 @@
 
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
-Ham mac: 311
-Aktif mac: 272
-Canli mac: 39
+Ham mac: 285
+Aktif mac: 269
+Canli mac: 16
 Biten mac: 0
-Bultenden dusurulen mac: 39
-Bugun: 240
+Bultenden dusurulen mac: 16
+Bugun: 237
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 06:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Kahibah | scheduled | -
-- 2026-08-09 06:00 | ABD USL Lig 1 | Alta - Fort Wayne | scheduled | -
-- 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | scheduled | -
 - 2026-08-09 08:00 | Rusya FNL | Ska-Khabarovsk - Spartak Kostrom | scheduled | -
 - 2026-08-09 08:00 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Canberra White | scheduled | -
 - 2026-08-09 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Sydney United | scheduled | -
@@ -285,32 +282,6 @@ Yarin: 32
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Cd Tapatio | live | -
-- 2026-08-09 02:00 | ABD USL | Brooklyn - Birmingham Legi | live | -
-- 2026-08-09 02:00 | ABD USL | Lexington - Phoenix Rising | live | -
-- 2026-08-09 02:00 | ABD USL | Miami Fc - Las Vegas Light | live | -
-- 2026-08-09 02:00 | ABD USL | Pittsburgh Riv - Sacramento Repu | live | -
-- 2026-08-09 02:00 | ABD USL | Loudoun United - Charleston Batt | live | -
-- 2026-08-09 02:00 | El Salvador Primera Lig Apertura | Inter Fa - Alianza | live | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | New York Cosmo - Spokane Velocit | live | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | Portland Heart - Corpus Christi | live | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | Chattanooga Re - Union Omaha | live | -
-- 2026-08-09 02:00 | ABD USL Lig 1 | Charlotte Inde - Greenville Triu | live | -
-- 2026-08-09 02:15 | Honduras Ulusal Lig Apertura | Upnfm - Olancho | live | -
-- 2026-08-09 02:30 | Brezilya Serie A | Coritiba - Chapecoense | live | -
-- 2026-08-09 02:30 | ABD USL | Rhode Island - Colorado Spring | live | -
-- 2026-08-09 02:30 | ABD USL Lig 1 | One Knoxville - Sarasota Paradi | live | -
-- 2026-08-09 02:30 | Bolivya Premier Lig | Aurora - Bolivar | live | -
-- 2026-08-09 03:00 | Brezilya Serie A | Botafogo - Fluminense | live | -
-- 2026-08-09 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Monterrey | live | -
-- 2026-08-09 03:00 | Kosta Rika Premier Lig Apertura | Liberia - Perez Zeledon | live | -
-- 2026-08-09 03:00 | Ekvador Pro Lig | Barcelona Gua - Depor Macara | live | -
-- 2026-08-09 03:00 | Kanada Premier Lig | Supra Du Quebe - Cavalry | live | -
-- 2026-08-09 03:00 | ABD USL | Louisville Cit - San Antonio | live | -
-- 2026-08-09 03:00 | Nikaragua Premier Lig Apertura | Diriangen - Rancho Santana | live | -
-- 2026-08-09 03:30 | Arjantin Premier Lig 2. Aşama | Instituto Cord - Gimnasia Mendoz | live | -
-- 2026-08-09 03:30 | Arjantin Premier Lig 2. Aşama | Independiente - Platense | live | -
-- 2026-08-09 03:30 | ABD USL | Tulsa Roughnec - Detroit City | live | -
 - 2026-08-09 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Guadalajara - Dallas | live | -
 - 2026-08-09 04:00 | Peru Premier Lig Clausura | Sport Boys - Alianza Lima | live | -
 - 2026-08-09 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Cruz Azul Hidal | live | -
@@ -324,6 +295,9 @@ Yarin: 32
 - 2026-08-09 05:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Deportivo Sapri | live | -
 - 2026-08-09 05:00 | ABD USL | Orange County - Tampa Bay Rowdi | live | -
 - 2026-08-09 05:00 | ABD USL | Monterey Bay - New Mexico Unit | live | -
+- 2026-08-09 06:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Kahibah | live | -
+- 2026-08-09 06:00 | ABD USL Lig 1 | Alta - Fort Wayne | live | -
+- 2026-08-09 06:10 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Los Angeles Fc | live | -
 
 ## Biten Maclar
 Biten mac yok.
