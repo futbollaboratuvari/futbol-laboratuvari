@@ -2,13 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 241
-- Live match count: 25
-- Finished removed count: 0
+- Scheduled match count: 233
+- Live match count: 31
+- Finished removed count: 2
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
-- 2026-08-09 12:30 | Mio Biwako Shi - Fc Gifu | live
-- 2026-08-09 12:40 | South Melbourn - Fremantle City | live
 - 2026-08-09 13:00 | Yanbian Longdi - Shenzhen Junior | live
 - 2026-08-09 13:00 | V-Varen Nagasa - Kyoto Sanga | live
 - 2026-08-09 13:00 | Yamagata - Tochigi City | live
@@ -17,3 +15,5 @@
 - 2026-08-09 13:00 | Farense - Torreense | live
 - 2026-08-09 13:00 | Ad Marco 09 - Pacos Ferreira | live
 - 2026-08-09 13:00 | Zoria Luhansk - Kryvbas Kr | live
+- 2026-08-09 13:15 | Helmond Sport - De Graafschap | live
+- 2026-08-09 13:15 | Sparta Rotterd - Feyenoord | live
