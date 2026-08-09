@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-09T09:26:16.298Z
+- Güncelleme: 2026-08-09T09:59:04.779Z
 - Ham maç sayısı: 275
 - Yarın bülteni maç sayısı: 32
 - Detay blok sayısı: 775
-- Aktif bülten maçı: 266
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 264
+- Bültenden düşürülen maç: 11
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mio Biwako Shi - Fc Gifu | Japonya J3 Lig | 12:30 | Veri bekleniyor | - | 2.35 | 8 |
-| South Melbourn - Fremantle City | Avustralya FFA Kupası Son 16 Turu | 12:40 | Veri bekleniyor | - | - | 5 |
 | Zoria Luhansk - Kryvbas Kr | Ukrayna Premier Lig | 13:00 | Veri bekleniyor | - | 1.51 | 8 |
 | V-Varen Nagasa - Kyoto Sanga | Japonya J1 Lig | 13:00 | Veri bekleniyor | - | 2.92 | 8 |
 | Farense - Torreense | Portekiz 2.Lig | 13:00 | Veri bekleniyor | - | 3.01 | 8 |
