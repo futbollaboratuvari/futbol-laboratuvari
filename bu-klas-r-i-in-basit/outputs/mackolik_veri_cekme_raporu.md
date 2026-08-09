@@ -1,24 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-09T14:52:48.779873+00:00
-=======
-Tarih: 2026-08-09T14:57:02.403336+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-09T15:22:56.041290+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 154
+- Kac mac bulundu: 134
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 154
-=======
-- Kac mac bulundu: 120
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 120
->>>>>>> Stashed changes
+- Kac mac zaten vardi: 134
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
@@ -48,16 +38,9 @@ Tarih: 2026-08-09T14:57:02.403336+00:00
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
-<<<<<<< Updated upstream
 - Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Kazakistan Premier Lig
 - Kosta Rika Premier Lig Apertura
-=======
-- Hırvatistan 1.HNL
-- Kazakistan Premier Lig
->>>>>>> Stashed changes
-- Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
@@ -66,11 +49,9 @@ Tarih: 2026-08-09T14:57:02.403336+00:00
 - Macaristan NB III Kuzeybatı
 - Moldova Ulusal Lig
 - Nikaragua Premier Lig Apertura
-- Norveç 1.Lig
 - Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
-- Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz 3.Lig Grup A
@@ -78,17 +59,13 @@ Tarih: 2026-08-09T14:57:02.403336+00:00
 - Romanya 1.Lig
 - Rusya FNL
 - Rusya Premier Lig
-- Slovakya Süper Lig
 - Slovenya 1.SNL
 - Slovenya 2.SNL
 - Sırbistan Süper Lig
-- Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
-- İngiltere Lig Kupası 1.Tur
 - İrlanda Premier Lig
-- İskoçya Premiership
 - İtalya Kupa Ön Eleme Turu
 - İzlanda 1.Lig
 - İzlanda 2.Lig
@@ -150,8 +127,8 @@ Tarih: 2026-08-09T14:57:02.403336+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 74
-- Acilan detay: 74
+- Denenen Tumu alani: 66
+- Acilan detay: 66
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -164,14 +141,12 @@ Tarih: 2026-08-09T14:57:02.403336+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 09.08.2026 | 18:00 | Ukrayna Premier Lig | Veres Rivne | Dynamo Kiev | 27173 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
-| 09.08.2026 | 20:00 | Portekiz Premier Lig | Porto | Alverca | 21592 | 5 |
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
-| 09.08.2026 | 20:15 | Belçika Pro Lig | Antwerp | Waasland Bevere | 18096 | 5 |
+| 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
+| 09.08.2026 | 20:00 | Portekiz Premier Lig | Porto | Alverca | 21592 | 5 |
 | 09.08.2026 | 19:30 | Belçika Pro Lig | Anderlecht | La Louvière | 17990 | 5 |
-| 09.08.2026 | 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield | Sheffield Utd | 26910 | 5 |
+| 09.08.2026 | 20:15 | Belçika Pro Lig | Antwerp | Waasland Bevere | 18096 | 5 |
 | 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
 | 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
 | 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pergolettese | Internazionale | 40262 | 5 |
@@ -181,9 +156,11 @@ Tarih: 2026-08-09T14:57:02.403336+00:00
 | 09.08.2026 | 21:00 | Hazırlık Kulüpler | Parma | Sampdoria | 18973 | 5 |
 | 09.08.2026 | 21:30 | Hazırlık Kulüpler | Mantova | Athletic Carpi | 18944 | 5 |
 | 09.08.2026 | 21:45 | Hazırlık Kulüpler | Frosinone | Lazio | 42729 | 5 |
-| 09.08.2026 | 18:00 | İskoçya Premiership | Glasgow Ranger | Hibernian | 28180 | 5 |
 | 09.08.2026 | 20:00 | Avusturya Bundesliga | Austria Vienna | Lask Linz | 33632 | 5 |
-| 09.08.2026 | 18:00 | Avusturya Bundesliga | Ried | Rapid Wien | 33524 | 5 |
+| 09.08.2026 | 19:00 | Danimarka Süperlig | Horsens | Brondby | 20674 | 5 |
+| 09.08.2026 | 18:30 | Polonya Ekstraklasa | Lech Poznan | Piast Gliwice | 31720 | 5 |
+| 09.08.2026 | 21:15 | Polonya Ekstraklasa | Jagiellonia | Widzew Lodz | 31840 | 5 |
+| 09.08.2026 | 19:00 | Finlandiya Veikkausliiga | Oulu | Helsinki | 19588 | 5 |
 
 ## Sonuc
 

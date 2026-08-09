@@ -1,15 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 09.08.2026 17:56:59
-=======
-Oluşturma: 09.08.2026 17:59:17
->>>>>>> Stashed changes
+Oluşturma: 09.08.2026 18:25:24
 
 ## Özet
 
-- Toplam tahmin: 172
-- Bekleyen tahmin: 172
+- Toplam tahmin: 173
+- Bekleyen tahmin: 173
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 73
@@ -24,12 +20,13 @@ Oluşturma: 09.08.2026 17:59:17
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 61, bekleyen 61, başarı bekleniyor, ağırlık 1
 - MS X: toplam 92, bekleyen 92, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Hazırlık Kulüpler | Frosinone - Lazio | MS 1 | pending | 50/100
 - 2026-08-09 | Norveç 1.Lig | Sandnes - Hodd | MS 2 | pending | 50/100
 - 2026-08-09 | Kazakistan Premier Lig | Yelimay Semey - Irtysh | MS X | pending | 60/100
 - 2026-08-09 | Portekiz Premier Lig | Porto - Alverca | MS X | pending | 85/100
@@ -44,5 +41,4 @@ Oluşturma: 09.08.2026 17:59:17
 - 2026-08-09 | Almanya 3. Lig | Hoffenheim Ii - Hansa Rostock | MS 1 | pending | 55/100
 - 2026-08-09 | Almanya Bölgesel Lig Kuzey | Sankt Pauli Ii - Bremer Sv | MS 2 | pending | 50/100
 - 2026-08-09 | Türkiye TFF 1. Lig | Iğdır Fk - Fatih Karagümrü | MS X | pending | 50/100
-- 2026-08-09 | Macaristan NB I | Paksi - Budapest Honved | MS 2 | pending | 50/100
 

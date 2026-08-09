@@ -3,34 +3,14 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 340
-Aktif mac: 158
-Canli mac: 52
-Biten mac: 130
-Bultenden dusurulen mac: 182
-Bugun: 124
+Aktif mac: 138
+Canli mac: 54
+Biten mac: 148
+Bultenden dusurulen mac: 202
+Bugun: 104
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-09 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield - Sheffield Utd | scheduled | -
-- 2026-08-09 18:00 | İskoçya Premiership | Glasgow Ranger - Hibernian | scheduled | -
-- 2026-08-09 18:00 | Avusturya Bundesliga | Wolfsberger - Salzburg | scheduled | -
-- 2026-08-09 18:00 | Avusturya Bundesliga | Ried - Rapid Wien | scheduled | -
-- 2026-08-09 18:00 | Finlandiya Veikkausliiga | Ilves - Mariehamn | scheduled | -
-- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec - Slovacko | scheduled | -
-- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove - Banik Ostrava | scheduled | -
-- 2026-08-09 18:00 | Norveç Eliteserien | Ham Kam - Aalesund | scheduled | -
-- 2026-08-09 18:00 | Ukrayna Premier Lig | Veres Rivne - Dynamo Kiev | scheduled | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Sogndal - Bryne | scheduled | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Asane - Kongsvinger | scheduled | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Strommen - Ranheim | scheduled | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Haugesund - Raufoss | scheduled | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Sandnes - Hodd | scheduled | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Stromsgodset - Egersunds | scheduled | -
-- 2026-08-09 18:00 | Slovakya Süper Lig | Zilina - Skalica | scheduled | -
-- 2026-08-09 18:00 | Polonya 2.Lig | Chojniczanka - Znicz Pruszkow | scheduled | -
-- 2026-08-09 18:00 | Letonya Virsliga | Riga Fc - Ogre United | scheduled | -
-- 2026-08-09 18:00 | Kazakistan Premier Lig | Atyrau - Aktobe | scheduled | -
-- 2026-08-09 18:15 | Polonya 1.Lig | Nieciecza - Warta Poznan | scheduled | -
 - 2026-08-09 18:30 | Polonya Ekstraklasa | Lech Poznan - Piast Gliwice | scheduled | -
 - 2026-08-09 18:30 | Hazırlık Kulüpler | Marsilya - Athletic Bilbao | scheduled | -
 - 2026-08-09 18:30 | Rusya FNL | Rotor Volgogra - Chelyabinsk | scheduled | -
@@ -171,33 +151,6 @@ Yarin: 34
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 15:30 | Hollanda Eredivisie | Groningen - Utrecht | live | -
-- 2026-08-09 15:30 | Hollanda Eredivisie | Zwolle - Ajax | live | -
-- 2026-08-09 15:30 | İskoçya Premiership | Kilmarnock - Celtic | live | -
-- 2026-08-09 15:30 | Norveç Eliteserien | Lillestrom - Rosenborg | live | -
-- 2026-08-09 15:30 | Ukrayna Premier Lig | Epitsentr Duna - Shakhtar Donets | live | -
-- 2026-08-09 15:30 | Polonya 1.Lig | Lks Lodz - Chrobry Glogow | live | -
-- 2026-08-09 15:30 | Norveç 2.Lig Grup 1 | Brattvag Il - Lysekloster | live | -
-- 2026-08-09 15:30 | Çek Cumhuriyeti FNL | Banik Ostrava - Sezimivo Usti | live | -
-- 2026-08-09 15:30 | Polonya 2.Lig | Avia Swidnik - Sandecja Nowy S | live | -
-- 2026-08-09 15:45 | Polonya Ekstraklasa | Slask Wroclaw - Cracovia Krakow | live | -
-- 2026-08-09 16:00 | Hazırlık Emirates Kupası Final | Arsenal - B.Dortmund | live | -
-- 2026-08-09 16:00 | Çek Cumhuriyeti Czech Liga | Slavia Prag - Pardubice | live | -
-- 2026-08-09 16:00 | Portekiz 2.Lig | Vizela - Leiria | live | -
-- 2026-08-09 16:00 | İsveç Superettan | Varbergs - Sandvikens | live | -
-- 2026-08-09 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Samgurali | live | -
-- 2026-08-09 16:00 | Danimarka 1.Lig | Fredericia - Vendsyssel | live | -
-- 2026-08-09 16:00 | Finlandiya Ykkönen | Kpv Kokkola - Vjs | live | -
-- 2026-08-09 16:00 | Almanya Bölgesel Lig Kuzey | Schöningen - Norderstedt | live | -
-- 2026-08-09 16:00 | İsviçre 1.Lig Promotion | Amical Saint-P - Bellinzona | live | -
-- 2026-08-09 16:00 | İsviçre 1.Lig Promotion | Biel-Bienne - Yf Juventus | live | -
-- 2026-08-09 16:00 | Letonya Virsliga | Super Nova - Liepaja | live | -
-- 2026-08-09 16:00 | Letonya Virsliga | Fs Jelgava - Auda | live | -
-- 2026-08-09 16:00 | Kazakistan Premier Lig | Astana - Okzhetpes | live | -
-- 2026-08-09 16:00 | Norveç 3.Lig Grup 4 | Stabaek 2 - Vag Fk | live | -
-- 2026-08-09 16:00 | Güney Afrika 8 Kupası Çeyrek Final | Amazulu - Sekhukhune Unit | live | -
-- 2026-08-09 16:00 | İsveç 2.Lig Södra Götaland | Ifk Trelleborg - Växjö Norra | live | -
-- 2026-08-09 16:00 | İsveç 2.Lig Södra Svealand | Lindo Ff - Fittja | live | -
 - 2026-08-09 16:30 | Hazırlık Kulüpler | Liverpool - Monaco | live | -
 - 2026-08-09 16:30 | Norveç 2.Lig Grup 2 | Tromsdalen - Lorenskog | live | -
 - 2026-08-09 16:30 | Galler FAW Championship Güney | Baglan Dragons - Swansea Univers | live | -
@@ -232,6 +185,26 @@ Yarin: 34
 - 2026-08-09 17:30 | Almanya 3. Lig | Saarbrucken - Essen | live | -
 - 2026-08-09 17:45 | Hollanda Eredivisie | Heerenveen - Twente | live | -
 - 2026-08-09 17:45 | Hollanda Eerste Divisie | Maastricht - Utrecht (Ii) | live | -
+- 2026-08-09 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield - Sheffield Utd | live | -
+- 2026-08-09 18:00 | İskoçya Premiership | Glasgow Ranger - Hibernian | live | -
+- 2026-08-09 18:00 | Avusturya Bundesliga | Wolfsberger - Salzburg | live | -
+- 2026-08-09 18:00 | Avusturya Bundesliga | Ried - Rapid Wien | live | -
+- 2026-08-09 18:00 | Finlandiya Veikkausliiga | Ilves - Mariehamn | live | -
+- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec - Slovacko | live | -
+- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove - Banik Ostrava | live | -
+- 2026-08-09 18:00 | Norveç Eliteserien | Ham Kam - Aalesund | live | -
+- 2026-08-09 18:00 | Ukrayna Premier Lig | Veres Rivne - Dynamo Kiev | live | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Sogndal - Bryne | live | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Asane - Kongsvinger | live | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Strommen - Ranheim | live | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Haugesund - Raufoss | live | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Sandnes - Hodd | live | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Stromsgodset - Egersunds | live | -
+- 2026-08-09 18:00 | Slovakya Süper Lig | Zilina - Skalica | live | -
+- 2026-08-09 18:00 | Polonya 2.Lig | Chojniczanka - Znicz Pruszkow | live | -
+- 2026-08-09 18:00 | Letonya Virsliga | Riga Fc - Ogre United | live | -
+- 2026-08-09 18:00 | Kazakistan Premier Lig | Atyrau - Aktobe | live | -
+- 2026-08-09 18:15 | Polonya 1.Lig | Nieciecza - Warta Poznan | live | -
 
 ## Biten Maclar
 - 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
@@ -364,3 +337,21 @@ Yarin: 34
 - 2026-08-09 15:30 | Norveç 2.Lig Grup 1 | Brattvag Il - Lysekloster | finished | -
 - 2026-08-09 15:30 | Çek Cumhuriyeti FNL | Banik Ostrava - Sezimivo Usti | finished | -
 - 2026-08-09 15:30 | Polonya 2.Lig | Avia Swidnik - Sandecja Nowy S | finished | -
+- 2026-08-09 15:45 | Polonya Ekstraklasa | Slask Wroclaw - Cracovia Krakow | finished | -
+- 2026-08-09 16:00 | Hazırlık Emirates Kupası Final | Arsenal - B.Dortmund | finished | -
+- 2026-08-09 16:00 | Çek Cumhuriyeti Czech Liga | Slavia Prag - Pardubice | finished | -
+- 2026-08-09 16:00 | Portekiz 2.Lig | Vizela - Leiria | finished | -
+- 2026-08-09 16:00 | İsveç Superettan | Varbergs - Sandvikens | finished | -
+- 2026-08-09 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Samgurali | finished | -
+- 2026-08-09 16:00 | Danimarka 1.Lig | Fredericia - Vendsyssel | finished | -
+- 2026-08-09 16:00 | Finlandiya Ykkönen | Kpv Kokkola - Vjs | finished | -
+- 2026-08-09 16:00 | Almanya Bölgesel Lig Kuzey | Schöningen - Norderstedt | finished | -
+- 2026-08-09 16:00 | İsviçre 1.Lig Promotion | Amical Saint-P - Bellinzona | finished | -
+- 2026-08-09 16:00 | İsviçre 1.Lig Promotion | Biel-Bienne - Yf Juventus | finished | -
+- 2026-08-09 16:00 | Letonya Virsliga | Super Nova - Liepaja | finished | -
+- 2026-08-09 16:00 | Letonya Virsliga | Fs Jelgava - Auda | finished | -
+- 2026-08-09 16:00 | Kazakistan Premier Lig | Astana - Okzhetpes | finished | -
+- 2026-08-09 16:00 | Norveç 3.Lig Grup 4 | Stabaek 2 - Vag Fk | finished | -
+- 2026-08-09 16:00 | Güney Afrika 8 Kupası Çeyrek Final | Amazulu - Sekhukhune Unit | finished | -
+- 2026-08-09 16:00 | İsveç 2.Lig Södra Götaland | Ifk Trelleborg - Växjö Norra | finished | -
+- 2026-08-09 16:00 | İsveç 2.Lig Södra Svealand | Lindo Ff - Fittja | finished | -
