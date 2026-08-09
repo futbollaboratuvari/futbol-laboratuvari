@@ -3,21 +3,14 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 340
-Aktif mac: 92
-Canli mac: 66
-Biten mac: 182
-Bultenden dusurulen mac: 248
-Bugun: 58
+Aktif mac: 85
+Canli mac: 37
+Biten mac: 218
+Bultenden dusurulen mac: 255
+Bugun: 51
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-09 20:15 | Belçika Pro Lig | Antwerp - Waasland Bevere | scheduled | -
-- 2026-08-09 20:15 | Norveç Eliteserien | Kristiansund - Molde | scheduled | -
-- 2026-08-09 20:30 | Rusya Premier Lig | Rubin Kazan - Orenburg | scheduled | -
-- 2026-08-09 20:30 | Almanya 3. Lig | Aachen - Verl 1924 | scheduled | -
-- 2026-08-09 20:30 | Arjantin Ulusal Primera Lig | Los Andes - Ferro Carril Oe | scheduled | -
-- 2026-08-09 20:30 | Polonya 2.Lig | Gks Tychy - Olimpia Grudzia | scheduled | -
-- 2026-08-09 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo - Union Brescia | scheduled | -
 - 2026-08-09 21:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno - Sigma Olomouc | scheduled | -
 - 2026-08-09 21:00 | Sırbistan Süper Lig | Macva - Imt Novi Beogra | scheduled | -
 - 2026-08-09 21:00 | Sırbistan Süper Lig | Vojvodina - Radnik Surdulic | scheduled | -
@@ -105,42 +98,6 @@ Yarin: 34
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield - Sheffield Utd | live | -
-- 2026-08-09 18:00 | İskoçya Premiership | Glasgow Ranger - Hibernian | live | -
-- 2026-08-09 18:00 | Avusturya Bundesliga | Wolfsberger - Salzburg | live | -
-- 2026-08-09 18:00 | Avusturya Bundesliga | Ried - Rapid Wien | live | -
-- 2026-08-09 18:00 | Finlandiya Veikkausliiga | Ilves - Mariehamn | live | -
-- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec - Slovacko | live | -
-- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove - Banik Ostrava | live | -
-- 2026-08-09 18:00 | Norveç Eliteserien | Ham Kam - Aalesund | live | -
-- 2026-08-09 18:00 | Ukrayna Premier Lig | Veres Rivne - Dynamo Kiev | live | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Sogndal - Bryne | live | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Asane - Kongsvinger | live | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Strommen - Ranheim | live | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Haugesund - Raufoss | live | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Sandnes - Hodd | live | -
-- 2026-08-09 18:00 | Norveç 1.Lig | Stromsgodset - Egersunds | live | -
-- 2026-08-09 18:00 | Slovakya Süper Lig | Zilina - Skalica | live | -
-- 2026-08-09 18:00 | Polonya 2.Lig | Chojniczanka - Znicz Pruszkow | live | -
-- 2026-08-09 18:00 | Letonya Virsliga | Riga Fc - Ogre United | live | -
-- 2026-08-09 18:00 | Kazakistan Premier Lig | Atyrau - Aktobe | live | -
-- 2026-08-09 18:15 | Polonya 1.Lig | Nieciecza - Warta Poznan | live | -
-- 2026-08-09 18:30 | Polonya Ekstraklasa | Lech Poznan - Piast Gliwice | live | -
-- 2026-08-09 18:30 | Hazırlık Kulüpler | Marsilya - Athletic Bilbao | live | -
-- 2026-08-09 18:30 | Rusya FNL | Rotor Volgogra - Chelyabinsk | live | -
-- 2026-08-09 18:30 | Macaristan NB I | Debreceni - Nyiregyhaza | live | -
-- 2026-08-09 18:30 | Romanya 1.Lig | Petrolul 52 - Otelul Galati | live | -
-- 2026-08-09 18:30 | Slovenya 1.SNL | Aluminij - Nafta | live | -
-- 2026-08-09 18:30 | Slovenya 2.SNL | Ilirija - Dravinja | live | -
-- 2026-08-09 18:30 | Polonya 2.Lig | Slask Wroclaw - Gornik Leczna | live | -
-- 2026-08-09 18:30 | Finlandiya Ykkönen | Fc Jazz - Oulun Ls | live | -
-- 2026-08-09 18:30 | Macaristan NB II | Soroksar - Diosgyor | live | -
-- 2026-08-09 18:30 | Macaristan NB II | Szentlorinc Se - Nagykanizsai Ul | live | -
-- 2026-08-09 18:30 | Macaristan NB II | Csakvari Tk - Kozarmisleny | live | -
-- 2026-08-09 18:30 | Macaristan NB III Kuzeybatı | Haladas Vse - Balatonalmadi | live | -
-- 2026-08-09 18:30 | Macaristan NB III Güneydoğu | Esmtk - Hodmezovasarhel | live | -
-- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Pte-Peac - Siofok | live | -
-- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Mtk Ii - Szekszard | live | -
 - 2026-08-09 18:45 | Litvanya A Ligi | Banga - Suduva | live | -
 - 2026-08-09 18:45 | Belarus Premier Lig | Gomel - Minsk | live | -
 - 2026-08-09 19:00 | Danimarka Süperlig | Horsens - Brondby | live | -
@@ -171,6 +128,13 @@ Yarin: 34
 - 2026-08-09 20:00 | Arjantin Ulusal Primera Lig | Atlanta - Atl Temperley | live | -
 - 2026-08-09 20:00 | Moldova Ulusal Lig | Sheriff Tirasp - Dacia-Buiucani | live | -
 - 2026-08-09 20:00 | Moldova Ulusal Lig | Zimbru - Petrocub | live | -
+- 2026-08-09 20:15 | Belçika Pro Lig | Antwerp - Waasland Bevere | live | -
+- 2026-08-09 20:15 | Norveç Eliteserien | Kristiansund - Molde | live | -
+- 2026-08-09 20:30 | Rusya Premier Lig | Rubin Kazan - Orenburg | live | -
+- 2026-08-09 20:30 | Almanya 3. Lig | Aachen - Verl 1924 | live | -
+- 2026-08-09 20:30 | Arjantin Ulusal Primera Lig | Los Andes - Ferro Carril Oe | live | -
+- 2026-08-09 20:30 | Polonya 2.Lig | Gks Tychy - Olimpia Grudzia | live | -
+- 2026-08-09 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo - Union Brescia | live | -
 
 ## Biten Maclar
 - 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
@@ -355,3 +319,39 @@ Yarin: 34
 - 2026-08-09 17:30 | Almanya 3. Lig | Saarbrucken - Essen | finished | -
 - 2026-08-09 17:45 | Hollanda Eredivisie | Heerenveen - Twente | finished | -
 - 2026-08-09 17:45 | Hollanda Eerste Divisie | Maastricht - Utrecht (Ii) | finished | -
+- 2026-08-09 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield - Sheffield Utd | finished | -
+- 2026-08-09 18:00 | İskoçya Premiership | Glasgow Ranger - Hibernian | finished | -
+- 2026-08-09 18:00 | Avusturya Bundesliga | Wolfsberger - Salzburg | finished | -
+- 2026-08-09 18:00 | Avusturya Bundesliga | Ried - Rapid Wien | finished | -
+- 2026-08-09 18:00 | Finlandiya Veikkausliiga | Ilves - Mariehamn | finished | -
+- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Jablonec - Slovacko | finished | -
+- 2026-08-09 18:00 | Çek Cumhuriyeti Czech Liga | Hradec Kralove - Banik Ostrava | finished | -
+- 2026-08-09 18:00 | Norveç Eliteserien | Ham Kam - Aalesund | finished | -
+- 2026-08-09 18:00 | Ukrayna Premier Lig | Veres Rivne - Dynamo Kiev | finished | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Sogndal - Bryne | finished | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Asane - Kongsvinger | finished | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Strommen - Ranheim | finished | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Haugesund - Raufoss | finished | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Sandnes - Hodd | finished | -
+- 2026-08-09 18:00 | Norveç 1.Lig | Stromsgodset - Egersunds | finished | -
+- 2026-08-09 18:00 | Slovakya Süper Lig | Zilina - Skalica | finished | -
+- 2026-08-09 18:00 | Polonya 2.Lig | Chojniczanka - Znicz Pruszkow | finished | -
+- 2026-08-09 18:00 | Letonya Virsliga | Riga Fc - Ogre United | finished | -
+- 2026-08-09 18:00 | Kazakistan Premier Lig | Atyrau - Aktobe | finished | -
+- 2026-08-09 18:15 | Polonya 1.Lig | Nieciecza - Warta Poznan | finished | -
+- 2026-08-09 18:30 | Polonya Ekstraklasa | Lech Poznan - Piast Gliwice | finished | -
+- 2026-08-09 18:30 | Hazırlık Kulüpler | Marsilya - Athletic Bilbao | finished | -
+- 2026-08-09 18:30 | Rusya FNL | Rotor Volgogra - Chelyabinsk | finished | -
+- 2026-08-09 18:30 | Macaristan NB I | Debreceni - Nyiregyhaza | finished | -
+- 2026-08-09 18:30 | Romanya 1.Lig | Petrolul 52 - Otelul Galati | finished | -
+- 2026-08-09 18:30 | Slovenya 1.SNL | Aluminij - Nafta | finished | -
+- 2026-08-09 18:30 | Slovenya 2.SNL | Ilirija - Dravinja | finished | -
+- 2026-08-09 18:30 | Polonya 2.Lig | Slask Wroclaw - Gornik Leczna | finished | -
+- 2026-08-09 18:30 | Finlandiya Ykkönen | Fc Jazz - Oulun Ls | finished | -
+- 2026-08-09 18:30 | Macaristan NB II | Soroksar - Diosgyor | finished | -
+- 2026-08-09 18:30 | Macaristan NB II | Szentlorinc Se - Nagykanizsai Ul | finished | -
+- 2026-08-09 18:30 | Macaristan NB II | Csakvari Tk - Kozarmisleny | finished | -
+- 2026-08-09 18:30 | Macaristan NB III Kuzeybatı | Haladas Vse - Balatonalmadi | finished | -
+- 2026-08-09 18:30 | Macaristan NB III Güneydoğu | Esmtk - Hodmezovasarhel | finished | -
+- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Pte-Peac - Siofok | finished | -
+- 2026-08-09 18:30 | Macaristan NB III Güneybatı | Mtk Ii - Szekszard | finished | -

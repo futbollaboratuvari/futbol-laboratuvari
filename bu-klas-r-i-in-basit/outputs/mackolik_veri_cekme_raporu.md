@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T17:42:04.501319+00:00
+Tarih: 2026-08-09T17:46:42.663303+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 50
+- Kac mac bulundu: 84
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 50
+- Kac mac zaten vardi: 84
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Bolivya Premier Lig
@@ -22,8 +23,15 @@ Tarih: 2026-08-09T17:42:04.501319+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF U20 Final
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kosta Rika Premier Lig Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya Ekstraklasa
 - Portekiz Premier Lig
@@ -123,9 +131,9 @@ Tarih: 2026-08-09T17:42:04.501319+00:00
 | 09.08.2026 | 22:00 | Sırbistan Süper Lig | Ofk Beograd | Zeleznicar Panc | 36129 | 5 |
 | 09.08.2026 | 22:00 | Brezilya Serie A | Bahia | Vasco Da Gama | 32501 | 5 |
 | 09.08.2026 | 22:00 | Brezilya Serie A | Palmeiras | Internacional | 32625 | 5 |
-| 09.08.2026 | 21:00 | Arjantin Premier Lig 2. Aşama | San Lorenzo | Huracan | 29039 | 5 |
-| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Defensa Justic | Newells Old Boy | 29199 | 5 |
-| 09.08.2026 | 23:45 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl | Barracas | 29257 | 5 |
+| 10.08.2026 | 00:30 | Brezilya Serie A | Santos | Atletico Pr | 32773 | 5 |
+| 10.08.2026 | 00:30 | Brezilya Serie A | Bragantino | Corinthians | 32715 | 5 |
+| 10.08.2026 | 01:30 | Brezilya Serie A | Flamengo | Vitoria Bahia | 32831 | 5 |
 
 ## Sonuc
 
