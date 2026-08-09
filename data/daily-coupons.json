@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:35:40.728Z",
+  "generated_at": "2026-08-09T13:18:56.410Z",
   "date": "2026-08-09",
   "source": "High Value Coupon Engine",
   "message": "",
@@ -1818,8 +1818,8 @@
               "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
             ],
             "market_bucket": {
-              "total": 89,
-              "pending": 89,
+              "total": 91,
+              "pending": 91,
               "won": 0,
               "lost": 0,
               "void": 0,
@@ -1828,6 +1828,16 @@
               "confidence_adjustment": 0
             },
             "league_bucket": {
+              "total": 2,
+              "pending": 2,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
               "total": 1,
               "pending": 1,
               "won": 0,
@@ -1836,8 +1846,7 @@
               "success_rate": null,
               "weight": 1,
               "confidence_adjustment": 0
-            },
-            "league_market_bucket": null
+            }
           }
         },
         {
@@ -2654,7 +2663,5 @@
       "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
       "is_available": false
     }
-  },
-  "card_flow_note": "Oran bilgisi bulunamadığı için mevcut kart verisi korundu.",
-  "card_flow_checked_at": "2026-08-09T12:35:42.165Z"
+  }
 }
