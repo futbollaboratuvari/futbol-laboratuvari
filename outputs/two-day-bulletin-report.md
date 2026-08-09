@@ -1,20 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-09 / 2026-08-10
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 86
-Aktif mac: 42
-Canli mac: 44
+Aktif mac: 38
+Canli mac: 48
 Biten mac: 0
-Bultenden dusurulen mac: 44
-Bugun: 8
+Bultenden dusurulen mac: 48
+Bugun: 4
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Zamora - Academia Puerto | scheduled | -
-- 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Trujillanos - Depor Tachira | scheduled | -
-- 2026-08-09 23:00 | Arjantin Ulusal Primera Lig | Quilmes - Almagro | scheduled | -
-- 2026-08-09 23:15 | İzlanda Urvalsdeild | Breidablik - Valur | scheduled | -
 - 2026-08-09 23:30 | Peru Premier Lig Clausura | Melgar - Fc Cajamarca | scheduled | -
 - 2026-08-09 23:30 | Arjantin Ulusal Primera Lig | Gimnasia Y Tir - Nueva Chicago | scheduled | -
 - 2026-08-09 23:45 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - Barracas | scheduled | -
@@ -55,6 +52,10 @@ Yarin: 34
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
+- 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Zamora - Academia Puerto | live | -
+- 2026-08-09 23:00 | Venezuela Premier Lig Clausura | Trujillanos - Depor Tachira | live | -
+- 2026-08-09 23:00 | Arjantin Ulusal Primera Lig | Quilmes - Almagro | live | -
+- 2026-08-09 23:15 | İzlanda Urvalsdeild | Breidablik - Valur | live | -
 - 2026-08-09 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo - Union Brescia | live | -
 - 2026-08-09 21:00 | Çek Cumhuriyeti Czech Liga | Sk Artis Brno - Sigma Olomouc | live | -
 - 2026-08-09 21:00 | Sırbistan Süper Lig | Macva - Imt Novi Beogra | live | -
