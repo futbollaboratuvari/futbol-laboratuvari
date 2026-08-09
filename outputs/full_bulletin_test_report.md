@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 210
-- Live match count: 49
+- Scheduled match count: 188
+- Live match count: 57
 - Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
-- 2026-08-09 13:30 | Rana - Skeid | live
-- 2026-08-09 14:00 | Niva Dolbizno - Energetik-Bgu | live
-- 2026-08-09 14:00 | Wuxi Wugou - Ningbo | live
-- 2026-08-09 14:00 | Henan Jianye - Qingdao West Co | live
-- 2026-08-09 14:00 | Hvidovre - Esbjerg | live
-- 2026-08-09 14:00 | Nastved - Hellerup Ik | live
-- 2026-08-09 14:00 | Manchester Cit - Atletico Madrid | live
-- 2026-08-09 14:00 | Herrestads - Ik Tord | live
-- 2026-08-09 14:00 | Franke - Enskede | live
-- 2026-08-09 14:00 | Astrio - Torslanda Ik | live
+- 2026-08-09 14:30 | E.Cottbus - Hannover | live
+- 2026-08-09 14:30 | Nürnberg - Dynamo Dresden | live
+- 2026-08-09 14:30 | St Pauli - Greuther Furth | live
+- 2026-08-09 14:30 | Hoffenheim Ii - Hansa Rostock | live
+- 2026-08-09 14:30 | Gent - Mechelen | live
+- 2026-08-09 14:30 | Guangzhou E-Po - Guangxi Hengche | live
+- 2026-08-09 14:30 | Dinamo Moskova - Makhachkala | live
+- 2026-08-09 14:35 | Chongqing Tong - Shanghai Port | live
+- 2026-08-09 15:00 | Oberhausen - Sportfreunde Lo | live
+- 2026-08-09 15:00 | Bfc Dynamo - Zwickau | live

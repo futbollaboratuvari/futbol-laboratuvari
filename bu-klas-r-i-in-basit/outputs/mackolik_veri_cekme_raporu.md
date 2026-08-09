@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T13:28:20.182151+00:00
+Tarih: 2026-08-09T13:32:24.479940+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 154
+- Kac mac bulundu: 188
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 154
+- Kac mac zaten vardi: 188
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
@@ -27,6 +27,7 @@ Tarih: 2026-08-09T13:28:20.182151+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF U20 Final
 - Danimarka Süperlig
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
