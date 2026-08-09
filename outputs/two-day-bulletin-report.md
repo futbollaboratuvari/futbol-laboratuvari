@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
-Ham mac: 78
-Aktif mac: 58
-Canli mac: 12
-Biten mac: 8
-Bultenden dusurulen mac: 20
-Bugun: 50
+Ham mac: 70
+Aktif mac: 54
+Canli mac: 16
+Biten mac: 0
+Bultenden dusurulen mac: 16
+Bugun: 46
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-08-10 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - New York City | scheduled | -
-- 2026-08-10 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Necaxa | scheduled | -
-- 2026-08-10 02:30 | Bolivya Premier Lig | Oriente Petrol - Universitario D | scheduled | -
-- 2026-08-10 02:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Balboa | scheduled | -
 - 2026-08-10 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc - Atletico San Lu | scheduled | -
 - 2026-08-10 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Santos Laguna | scheduled | -
 - 2026-08-10 03:00 | Şili Premier Lig | Univ. De Şili - Palestino | scheduled | -
@@ -83,13 +79,10 @@ Yarin: 8
 - 2026-08-10 02:00 | CONCACAF U20 Final | Abd (U20) - Meksika (U20) | live | -
 - 2026-08-10 02:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Racing Club | live | -
 - 2026-08-10 02:15 | Honduras Ulusal Lig Apertura | Depor Motagua - Estrella Roja | live | -
+- 2026-08-10 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - New York City | live | -
+- 2026-08-10 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Necaxa | live | -
+- 2026-08-10 02:30 | Bolivya Premier Lig | Oriente Petrol - Universitario D | live | -
+- 2026-08-10 02:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Balboa | live | -
 
 ## Biten Maclar
-- 2026-08-10 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - San Martin Sj | finished | -
-- 2026-08-10 00:00 | Brezilya Serie B | Cuiaba - Fortaleza Ce | finished | -
-- 2026-08-10 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Ad San Carlos | finished | -
-- 2026-08-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Suchitepequez | finished | -
-- 2026-08-10 00:00 | Ekvador Pro Lig | Delfin - Orense | finished | -
-- 2026-08-10 00:00 | ABD USL | Indy Eleven - Hartford Athlet | finished | -
-- 2026-08-10 00:00 | Honduras Ulusal Lig Apertura | Juticalpa - Depor. Olimpia | finished | -
-- 2026-08-10 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Fuerte San Fran | finished | -
+Biten mac yok.
