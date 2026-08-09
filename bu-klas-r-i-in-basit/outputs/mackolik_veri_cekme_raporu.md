@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T11:23:29.293979+00:00
+Tarih: 2026-08-09T11:39:20.834340+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 239
+- Kac mac bulundu: 199
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 239
+- Kac mac zaten vardi: 199
 - Ham veri havuzu toplam mac sayisi: 5912
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
@@ -33,25 +32,20 @@ Tarih: 2026-08-09T11:23:29.293979+00:00
 - CONCACAF Ligler Kupası Grup Aşaması
 - Danimarka 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Galler FAW Championship Güney
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Emirates Kupası Final
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
@@ -61,11 +55,9 @@ Tarih: 2026-08-09T11:23:29.293979+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 4
 - Norveç 3.Lig Grup 6
 - Norveç Eliteserien
@@ -89,7 +81,6 @@ Tarih: 2026-08-09T11:23:29.293979+00:00
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
 - İngiltere Lig Kupası 1.Tur
 - İrlanda Premier Lig
@@ -184,20 +175,20 @@ Tarih: 2026-08-09T11:23:29.293979+00:00
 | 09.08.2026 | 17:45 | Hollanda Eredivisie | Heerenveen | Twente | 18577 | 5 |
 | 09.08.2026 | 15:30 | Hollanda Eredivisie | Groningen | Utrecht | 18461 | 5 |
 | 09.08.2026 | 15:30 | Hollanda Eredivisie | Zwolle | Ajax | 18519 | 5 |
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
+| 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
 | 09.08.2026 | 20:00 | Portekiz Premier Lig | Porto | Alverca | 21592 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
 | 09.08.2026 | 20:15 | Belçika Pro Lig | Antwerp | Waasland Bevere | 18096 | 5 |
 | 09.08.2026 | 17:00 | Belçika Pro Lig | Zulte Waregem | Genk | 17881 | 5 |
 | 09.08.2026 | 17:00 | Belçika Pro Lig | Charleroi | Oh Leuven | 17776 | 5 |
 | 09.08.2026 | 19:30 | Belçika Pro Lig | Anderlecht | La Louvière | 17990 | 5 |
-| 09.08.2026 | 14:30 | Belçika Pro Lig | Gent | Mechelen | 17661 | 5 |
 | 09.08.2026 | 16:00 | Hazırlık Emirates Kupası Final | Arsenal | B.Dortmund | 38661 | 5 |
 | 09.08.2026 | 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield | Sheffield Utd | 26910 | 5 |
-| 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
 | 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
+| 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
 | 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pergolettese | Internazionale | 40262 | 5 |
+| 09.08.2026 | 22:00 | Hazırlık Kulüpler | Ue Olot | Sabadell | 06788 | 5 |
 
 ## Sonuc
 
