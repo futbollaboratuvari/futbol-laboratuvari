@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 14:53:16
+Oluşturma: 09.08.2026 15:00:08
 
 ## Özet
 
-- Toplam tahmin: 165
-- Bekleyen tahmin: 165
+- Toplam tahmin: 168
+- Bekleyen tahmin: 168
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 73
@@ -20,12 +20,15 @@ Oluşturma: 09.08.2026 14:53:16
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 89, bekleyen 89, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 60, bekleyen 60, başarı bekleniyor, ağırlık 1
-- MS X: toplam 87, bekleyen 87, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Norveç 2.Lig Grup 1 | Brattvag Il - Lysekloster | MS X | pending | 40/100
+- 2026-08-09 | Letonya Virsliga | Fs Jelgava - Auda | MS 1 | pending | 50/100
+- 2026-08-09 | Finlandiya Veikkausliiga | Inter Turku - Lahti | MS X | pending | 50/100
 - 2026-08-09 | Slovenya 1.SNL | Maribor - Koper | MS 2 | pending | 50/100
 - 2026-08-09 | Finlandiya Veikkausliiga | Ilves - Mariehamn | MS X | pending | 40/100
 - 2026-08-09 | Almanya Bölgesel Lig Kuzey Doğu | Carl Zeiss Jen - Erfurt | MS X | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 09.08.2026 14:53:16
 - 2026-08-09 | Hazırlık Kulüpler | Pergolettese - Internazionale | MS 1 | pending | 40/100
 - 2026-08-09 | Litvanya A Ligi | Banga - Suduva | MS X | pending | 40/100
 - 2026-08-09 | Japonya J1 Lig | V-Varen Nagasa - Kyoto Sanga | MS 1 | pending | 40/100
-- 2026-08-09 | Türkiye TFF 1. Lig | Sarıyer - Muğlaspor | MS 2 | pending | 40/100
-- 2026-08-09 | Gürcistan Erovnuli Liga | Spaeri - Dinamo Tiflis | MS 1 | pending | 50/100
-- 2026-08-09 | Avusturya Bundesliga | Austria Vienna - Lask Linz | MS 1 | pending | 50/100
 

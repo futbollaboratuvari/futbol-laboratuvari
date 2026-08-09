@@ -1,20 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T11:39:20.834340+00:00
+Tarih: 2026-08-09T11:56:00.563886+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 199
+- Kac mac bulundu: 230
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 199
+- Kac mac zaten vardi: 230
 - Ham veri havuzu toplam mac sayisi: 5912
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya 2. Bundesliga
+- ABD USL
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
@@ -32,20 +32,25 @@ Tarih: 2026-08-09T11:39:20.834340+00:00
 - CONCACAF Ligler Kupası Grup Aşaması
 - Danimarka 1.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Galler FAW Championship Güney
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Çeyrek Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Emirates Kupası Final
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
@@ -55,6 +60,7 @@ Tarih: 2026-08-09T11:39:20.834340+00:00
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -185,10 +191,10 @@ Tarih: 2026-08-09T11:39:20.834340+00:00
 | 09.08.2026 | 19:30 | Belçika Pro Lig | Anderlecht | La Louvière | 17990 | 5 |
 | 09.08.2026 | 16:00 | Hazırlık Emirates Kupası Final | Arsenal | B.Dortmund | 38661 | 5 |
 | 09.08.2026 | 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield | Sheffield Utd | 26910 | 5 |
-| 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
 | 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
-| 09.08.2026 | 19:00 | Hazırlık Kulüpler | Pergolettese | Internazionale | 40262 | 5 |
-| 09.08.2026 | 22:00 | Hazırlık Kulüpler | Ue Olot | Sabadell | 06788 | 5 |
+| 09.08.2026 | 22:00 | İtalya Kupa Ön Eleme Turu | Benevento | Ravenna | 15020 | 5 |
+| 09.08.2026 | 21:00 | Hazırlık Kulüpler | Parma | Sampdoria | 18973 | 5 |
+| 09.08.2026 | 21:30 | Hazırlık Kulüpler | Mantova | Athletic Carpi | 18944 | 5 |
 
 ## Sonuc
 

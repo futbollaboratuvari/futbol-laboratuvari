@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 233
-- Live match count: 31
-- Finished removed count: 2
+- Scheduled match count: 215
+- Live match count: 49
+- Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
 - 2026-08-09 13:00 | Yanbian Longdi - Shenzhen Junior | live
