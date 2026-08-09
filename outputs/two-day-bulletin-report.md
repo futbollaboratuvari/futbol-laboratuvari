@@ -2,24 +2,15 @@
 
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
-Ham mac: 271
-Aktif mac: 270
-Canli mac: 1
+Ham mac: 275
+Aktif mac: 265
+Canli mac: 10
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 238
+Bultenden dusurulen mac: 10
+Bugun: 233
 Yarin: 32
 
 ## Baslamamis Maclar
-- 2026-08-09 11:30 | Avusturya 1.Lig | Amstetten - Admira Wacker | scheduled | -
-- 2026-08-09 11:30 | Slovakya 2.Lig | Slovan Bratisl - Samorin | scheduled | -
-- 2026-08-09 11:30 | Slovakya 2.Lig | Zilina Ii - Pohronie | scheduled | -
-- 2026-08-09 12:00 | Japonya J1 Lig | Tokyo Verdy - Kawasaki | scheduled | -
-- 2026-08-09 12:00 | Japonya J2 Lig | Iwaki - Fc Imabari | scheduled | -
-- 2026-08-09 12:00 | Macaristan NB III Kuzeydoğu | Kisvarda Ii - Disgyor Ii | scheduled | -
-- 2026-08-09 12:00 | Macaristan NB III Kuzeybatı | Puskas Fc Ii - Fc Tatabánya | scheduled | -
-- 2026-08-09 12:00 | Macaristan NB III Güneydoğu | Honved Ii - Szeged-Csanad I | scheduled | -
-- 2026-08-09 12:00 | Japonya J3 Lig | Fukushima Unit - Kamatamare Sanu | scheduled | -
 - 2026-08-09 12:30 | Japonya J3 Lig | Mio Biwako Shi - Fc Gifu | scheduled | -
 - 2026-08-09 12:40 | Avustralya FFA Kupası Son 16 Turu | South Melbourn - Fremantle City | scheduled | -
 - 2026-08-09 13:00 | Ukrayna Premier Lig | Zoria Luhansk - Kryvbas Kr | scheduled | -
@@ -68,6 +59,8 @@ Yarin: 32
 - 2026-08-09 15:00 | İsviçre 1.Lig Promotion | Young Boys Ii - Lugano Ii | scheduled | -
 - 2026-08-09 15:00 | İsveç 2.Lig Vastra Götaland | Dalstorps If - Kongahalla | scheduled | -
 - 2026-08-09 15:00 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - Husqvarna | scheduled | -
+- 2026-08-09 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Chemnitzer | scheduled | -
+- 2026-08-09 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Bfc Dynamo - Zwickau | scheduled | -
 - 2026-08-09 15:30 | Hollanda Eredivisie | Groningen - Utrecht | scheduled | -
 - 2026-08-09 15:30 | Hollanda Eredivisie | Zwolle - Ajax | scheduled | -
 - 2026-08-09 15:30 | İskoçya Premiership | Kilmarnock - Celtic | scheduled | -
@@ -98,6 +91,7 @@ Yarin: 32
 - 2026-08-09 16:30 | Hazırlık Kulüpler | Liverpool - Monaco | scheduled | -
 - 2026-08-09 16:30 | Norveç 2.Lig Grup 2 | Tromsdalen - Lorenskog | scheduled | -
 - 2026-08-09 16:30 | Galler FAW Championship Güney | Baglan Dragons - Swansea Univers | scheduled | -
+- 2026-08-09 16:30 | Macaristan NB I | Paksi - Budapest Honved | scheduled | -
 - 2026-08-09 16:45 | Belarus Premier Lig | Baranovichi - Bate Borisov | scheduled | -
 - 2026-08-09 17:00 | Belçika Pro Lig | Charleroi - Oh Leuven | scheduled | -
 - 2026-08-09 17:00 | Belçika Pro Lig | Zulte Waregem - Genk | scheduled | -
@@ -180,6 +174,7 @@ Yarin: 32
 - 2026-08-09 19:00 | Türkiye TFF 1. Lig | Sarıyer - Muğlaspor | scheduled | -
 - 2026-08-09 19:00 | İzlanda 2.Lig | Kormakur - Throttur Vogar | scheduled | -
 - 2026-08-09 19:00 | Hazırlık Kulüpler | Pergolettese - Internazionale | scheduled | -
+- 2026-08-09 19:00 | Türkiye TFF 1. Lig | Iğdır Fk - Fatih Karagümrü | scheduled | -
 - 2026-08-09 19:30 | Belçika Pro Lig | Anderlecht - La Louvière | scheduled | -
 - 2026-08-09 19:30 | Hırvatistan 1.HNL | Slaven Belupo - Varazdin | scheduled | -
 - 2026-08-09 19:30 | Şili Premier Lig | Concepcion - Univ De Concepc | scheduled | -
@@ -284,6 +279,15 @@ Yarin: 32
 
 ## Canli Maclar
 - 2026-08-09 10:00 | Avustralya FFA Kupası Son 16 Turu | Brisbane Roar - Sydney | live | -
+- 2026-08-09 11:30 | Avusturya 1.Lig | Amstetten - Admira Wacker | live | -
+- 2026-08-09 11:30 | Slovakya 2.Lig | Slovan Bratisl - Samorin | live | -
+- 2026-08-09 11:30 | Slovakya 2.Lig | Zilina Ii - Pohronie | live | -
+- 2026-08-09 12:00 | Japonya J1 Lig | Tokyo Verdy - Kawasaki | live | -
+- 2026-08-09 12:00 | Japonya J2 Lig | Iwaki - Fc Imabari | live | -
+- 2026-08-09 12:00 | Macaristan NB III Kuzeydoğu | Kisvarda Ii - Disgyor Ii | live | -
+- 2026-08-09 12:00 | Macaristan NB III Kuzeybatı | Puskas Fc Ii - Fc Tatabánya | live | -
+- 2026-08-09 12:00 | Macaristan NB III Güneydoğu | Honved Ii - Szeged-Csanad I | live | -
+- 2026-08-09 12:00 | Japonya J3 Lig | Fukushima Unit - Kamatamare Sanu | live | -
 
 ## Biten Maclar
 Biten mac yok.
