@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-09T20:41:36.379Z
-- Ham maç sayısı: 73
+- Güncelleme: 2026-08-09T20:53:29.811Z
+- Ham maç sayısı: 63
 - Yarın bülteni maç sayısı: 34
-- Detay blok sayısı: 202
-- Aktif bülten maçı: 36
-- Bültenden düşürülen maç: 37
+- Detay blok sayısı: 173
+- Aktif bülten maçı: 34
+- Bültenden düşürülen maç: 29
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Gimnasia La Pl - Barracas | Arjantin Premier Lig 2. Aşama | 23:45 | Veri bekleniyor | - | 1.63 | 7 |
-| Defensa Justic - Newells Old Boy | Arjantin Premier Lig 2. Aşama | 23:45 | Veri bekleniyor | - | 1.76 | 8 |
 | San Martin Tuc - San Martin Sj | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 1.86 | 6 |
 | Cuiaba - Fortaleza Ce | Brezilya Serie B | 00:00 | Veri bekleniyor | - | 2.14 | 8 |
 | Inter San Carl - Ad San Carlos | Kosta Rika Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 2.02 | 8 |
