@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 05:32:37
+Oluşturma: 09.08.2026 05:56:52
 
 ## Özet
 
-- Toplam tahmin: 182
-- Bekleyen tahmin: 182
+- Toplam tahmin: 183
+- Bekleyen tahmin: 183
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 79
@@ -20,12 +20,13 @@ Oluşturma: 09.08.2026 05:32:37
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 70, bekleyen 70, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 71, bekleyen 71, başarı bekleniyor, ağırlık 1
 - MS X: toplam 98, bekleyen 98, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | İtalya Kupa Ön Eleme Turu | Arezzo - Union Brescia | MS 2 | pending | 40/100
 - 2026-08-09 | Hazırlık Kulüpler | Parma - Sampdoria | MS 2 | pending | 40/100
 - 2026-08-09 | Peru Premier Lig Clausura | Deportivo Garc - Deportivo Moque | MS 2 | pending | 60/100
 - 2026-08-09 | Polonya Ekstraklasa | Jagiellonia - Widzew Lodz | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 09.08.2026 05:32:37
 - 2026-08-09 | Brezilya Serie A | Palmeiras - Internacional | MS 2 | pending | 65/100
 - 2026-08-09 | Şili Premier Lig | O Higgins - Deportes Limach | MS X | pending | 50/100
 - 2026-08-09 | Brezilya Serie B | Nautico - Atletico Goiani | MS X | pending | 40/100
-- 2026-08-09 | Portekiz Premier Lig | Gil Vicente - Rio Ave | MS 2 | pending | 50/100
 
