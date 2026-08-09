@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 10:20:12
+Oluşturma: 09.08.2026 10:34:34
 
 ## Özet
 
-- Toplam tahmin: 152
-- Bekleyen tahmin: 152
+- Toplam tahmin: 153
+- Bekleyen tahmin: 153
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 71
+- Lig sayısı: 72
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 09.08.2026 10:20:12
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 57, bekleyen 57, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Türkiye TFF 1. Lig | Sarıyer - Muğlaspor | MS 2 | pending | 40/100
 - 2026-08-09 | Gürcistan Erovnuli Liga | Spaeri - Dinamo Tiflis | MS 1 | pending | 50/100
 - 2026-08-09 | Avusturya Bundesliga | Austria Vienna - Lask Linz | MS 1 | pending | 50/100
 - 2026-08-09 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Tianjin Teda | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 09.08.2026 10:20:12
 - 2026-08-09 | Brezilya Serie B | Nautico - Atletico Goiani | MS X | pending | 40/100
 - 2026-08-09 | Portekiz Premier Lig | Gil Vicente - Rio Ave | MS 2 | pending | 50/100
 - 2026-08-09 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Queretaro | MS X | pending | 50/100
-- 2026-08-09 | Venezuela Premier Lig Clausura | Academia Anzoa - Portuguesa | MS X | pending | 40/100
 
