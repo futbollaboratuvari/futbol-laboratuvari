@@ -87,10 +87,10 @@ MAC_SAYISI: 5
 
 ## Rapor Bilgisi
 
-OLUSTURMA_ZAMANI: 2026-08-08T23:38:38.514987+00:00
-TOPLAM_TAHMIN: 250
+OLUSTURMA_ZAMANI: 2026-08-09T00:37:40.827193+00:00
+TOPLAM_TAHMIN: 255
 SONUCLANAN_TAHMIN: 0
-BEKLEYEN_TAHMIN: 250
+BEKLEYEN_TAHMIN: 255
 VOID_TAHMIN: 0
 GENEL_BASARI_ORANI: -
 
@@ -104,27 +104,27 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 
 | Market | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| KG_VAR | 0 | 0 | 100 | 0 | - |
-| UST_25 | 0 | 0 | 150 | 0 | - |
+| KG_VAR | 0 | 0 | 102 | 0 | - |
+| UST_25 | 0 | 0 | 153 | 0 | - |
 
 ## Tahmin Turu Bazli Basari
 
 | Tahmin Turu | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| KG_VAR | 0 | 0 | 100 | 0 | - |
-| UST_25 | 0 | 0 | 150 | 0 | - |
+| KG_VAR | 0 | 0 | 102 | 0 | - |
+| UST_25 | 0 | 0 | 153 | 0 | - |
 
 ## Lig Bazli Basari
 
 | Lig | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| Premier League | 0 | 0 | 250 | 0 | - |
+| Premier League | 0 | 0 | 255 | 0 | - |
 
 ## Confidence Bazli Basari
 
 | Confidence | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| low | 0 | 0 | 250 | 0 | - |
+| low | 0 | 0 | 255 | 0 | - |
 
 ## Faz 5 Notu
 
@@ -145,9 +145,9 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 ## Tahmin Performans Takibi
 
 - Gelen tahmin: 5
-- Yeni eklenen tahmin: 0
-- Tekrar tahmin: 5
-- Toplam tahmin: 250
+- Yeni eklenen tahmin: 5
+- Tekrar tahmin: 0
+- Toplam tahmin: 255
 - Dosya: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/tahmin_gecmisi.json
 
 ## Ortam Uyarilari
