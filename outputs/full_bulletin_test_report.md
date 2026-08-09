@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 284
-- Live match count: 26
-- Finished removed count: 3
+- Scheduled match count: 278
+- Live match count: 33
+- Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
 - 2026-08-09 02:00 | Brooklyn - Birmingham Legi | live
