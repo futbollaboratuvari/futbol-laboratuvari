@@ -1,17 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 185
-Tam analiz: 163
-Eksik analiz: 22
+Toplam analiz: 134
+Tam analiz: 118
+Eksik analiz: 16
 
-- Biel-Bienne VS Yf Juventus: eksik score, confidence
-- Danubio VS Cerro: eksik score, confidence
-- Raelingen VS Rade: eksik score, confidence
-- Vikingur Gota VS B68 Toftir: eksik score, confidence
-- Osipovichy VS Dinamo Minsk Ii: eksik score, confidence
 - Haladas Vse VS Balatonalmadi: eksik score, confidence
-- Völsungur VS Hk Kopavogur: eksik score, confidence
 - Sarpsborg 08 I VS Brumunddal: eksik score, confidence
 - Pro Patria VS Pro Imperia: eksik score, confidence
 - Atlanta VS Atl Temperley: eksik score, confidence
@@ -25,3 +19,5 @@ Eksik analiz: 22
 - R Cordoba VS San Miguel: eksik score, confidence
 - Zrinjski VS Celik: eksik score, confidence
 - Quilmes VS Almagro: eksik score, confidence
+- Breidablik VS Valur: eksik score, confidence
+- Gimnasia Y Tir VS Nueva Chicago: eksik score, confidence
