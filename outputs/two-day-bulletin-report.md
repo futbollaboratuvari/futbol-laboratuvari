@@ -4,34 +4,14 @@ Gunler: 2026-08-09 / 2026-08-10
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 340
-Aktif mac: 68
-Canli mac: 35
+Aktif mac: 48
+Canli mac: 55
 Biten mac: 237
-Bultenden dusurulen mac: 272
-Bugun: 34
+Bultenden dusurulen mac: 292
+Bugun: 14
 Yarin: 34
 
 ## Baslamamis Maclar
-- 2026-08-09 21:30 | Hazırlık Kulüpler | Mantova - Athletic Carpi | scheduled | -
-- 2026-08-09 21:30 | Romanya 1.Lig | Universitatea - Argesul Pitesti | scheduled | -
-- 2026-08-09 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - San Telmo | scheduled | -
-- 2026-08-09 21:30 | Türkiye TFF 1. Lig | Bodrum Fk - Bursaspor | scheduled | -
-- 2026-08-09 21:30 | Türkiye TFF 1. Lig | Van Spor Fk - Kayserispor | scheduled | -
-- 2026-08-09 21:45 | Hazırlık Kulüpler | Frosinone - Lazio | scheduled | -
-- 2026-08-09 22:00 | İtalya Kupa Ön Eleme Turu | Benevento - Ravenna | scheduled | -
-- 2026-08-09 22:00 | Sırbistan Süper Lig | Ofk Beograd - Zeleznicar Panc | scheduled | -
-- 2026-08-09 22:00 | Sırbistan Süper Lig | Mladost Lucani - Cukaricki | scheduled | -
-- 2026-08-09 22:00 | Hazırlık Kulüpler | Ue Olot - Sabadell | scheduled | -
-- 2026-08-09 22:00 | Brezilya Serie A | Bahia - Vasco Da Gama | scheduled | -
-- 2026-08-09 22:00 | Brezilya Serie A | Palmeiras - Internacional | scheduled | -
-- 2026-08-09 22:00 | Hırvatistan 1.HNL | Hajduk Split - Istra | scheduled | -
-- 2026-08-09 22:00 | Şili Premier Lig | O Higgins - Deportes Limach | scheduled | -
-- 2026-08-09 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - D Belgrano | scheduled | -
-- 2026-08-09 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Miguel | scheduled | -
-- 2026-08-09 22:00 | Brezilya Serie B | Nautico - Atletico Goiani | scheduled | -
-- 2026-08-09 22:00 | Brezilya Serie B | Novorizontino - Juventude | scheduled | -
-- 2026-08-09 22:00 | Bosna-Hersek Premier Lig | Zrinjski - Celik | scheduled | -
-- 2026-08-09 22:00 | Bolivya Premier Lig | Gualberto Vill - Always Ready | scheduled | -
 - 2026-08-09 22:30 | Portekiz Premier Lig | Moreirense - Braga | scheduled | -
 - 2026-08-09 22:30 | Portekiz Premier Lig | Benfica - Academico Viseu | scheduled | -
 - 2026-08-09 22:30 | Portekiz Premier Lig | Gil Vicente - Rio Ave | scheduled | -
@@ -82,6 +62,26 @@ Yarin: 34
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
+- 2026-08-09 21:30 | Hazırlık Kulüpler | Mantova - Athletic Carpi | live | -
+- 2026-08-09 21:30 | Romanya 1.Lig | Universitatea - Argesul Pitesti | live | -
+- 2026-08-09 21:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - San Telmo | live | -
+- 2026-08-09 21:30 | Türkiye TFF 1. Lig | Bodrum Fk - Bursaspor | live | -
+- 2026-08-09 21:30 | Türkiye TFF 1. Lig | Van Spor Fk - Kayserispor | live | -
+- 2026-08-09 21:45 | Hazırlık Kulüpler | Frosinone - Lazio | live | -
+- 2026-08-09 22:00 | İtalya Kupa Ön Eleme Turu | Benevento - Ravenna | live | -
+- 2026-08-09 22:00 | Sırbistan Süper Lig | Ofk Beograd - Zeleznicar Panc | live | -
+- 2026-08-09 22:00 | Sırbistan Süper Lig | Mladost Lucani - Cukaricki | live | -
+- 2026-08-09 22:00 | Hazırlık Kulüpler | Ue Olot - Sabadell | live | -
+- 2026-08-09 22:00 | Brezilya Serie A | Bahia - Vasco Da Gama | live | -
+- 2026-08-09 22:00 | Brezilya Serie A | Palmeiras - Internacional | live | -
+- 2026-08-09 22:00 | Hırvatistan 1.HNL | Hajduk Split - Istra | live | -
+- 2026-08-09 22:00 | Şili Premier Lig | O Higgins - Deportes Limach | live | -
+- 2026-08-09 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre - D Belgrano | live | -
+- 2026-08-09 22:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Miguel | live | -
+- 2026-08-09 22:00 | Brezilya Serie B | Nautico - Atletico Goiani | live | -
+- 2026-08-09 22:00 | Brezilya Serie B | Novorizontino - Juventude | live | -
+- 2026-08-09 22:00 | Bosna-Hersek Premier Lig | Zrinjski - Celik | live | -
+- 2026-08-09 22:00 | Bolivya Premier Lig | Gualberto Vill - Always Ready | live | -
 - 2026-08-09 19:30 | Belçika Pro Lig | Anderlecht - La Louvière | live | -
 - 2026-08-09 19:30 | Hırvatistan 1.HNL | Slaven Belupo - Varazdin | live | -
 - 2026-08-09 19:30 | Şili Premier Lig | Concepcion - Univ De Concepc | live | -
