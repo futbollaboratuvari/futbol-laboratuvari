@@ -3,19 +3,14 @@
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
 Ham mac: 78
-Aktif mac: 63
-Canli mac: 15
-Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 55
+Aktif mac: 58
+Canli mac: 12
+Biten mac: 8
+Bultenden dusurulen mac: 20
+Bugun: 50
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-08-10 02:00 | Guatemala Ulusal Lig Apertura | Municipal - Coban Imperial | scheduled | -
-- 2026-08-10 02:00 | Nikaragua Premier Lig Apertura | San Marcos - Unan Managua | scheduled | -
-- 2026-08-10 02:00 | CONCACAF U20 Final | Abd (U20) - Meksika (U20) | scheduled | -
-- 2026-08-10 02:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Racing Club | scheduled | -
-- 2026-08-10 02:15 | Honduras Ulusal Lig Apertura | Depor Motagua - Estrella Roja | scheduled | -
 - 2026-08-10 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - New York City | scheduled | -
 - 2026-08-10 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Necaxa | scheduled | -
 - 2026-08-10 02:30 | Bolivya Premier Lig | Oriente Petrol - Universitario D | scheduled | -
@@ -76,14 +71,6 @@ Yarin: 8
 - 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | scheduled | -
 
 ## Canli Maclar
-- 2026-08-10 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - San Martin Sj | live | -
-- 2026-08-10 00:00 | Brezilya Serie B | Cuiaba - Fortaleza Ce | live | -
-- 2026-08-10 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Ad San Carlos | live | -
-- 2026-08-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Suchitepequez | live | -
-- 2026-08-10 00:00 | Ekvador Pro Lig | Delfin - Orense | live | -
-- 2026-08-10 00:00 | ABD USL | Indy Eleven - Hartford Athlet | live | -
-- 2026-08-10 00:00 | Honduras Ulusal Lig Apertura | Juticalpa - Depor. Olimpia | live | -
-- 2026-08-10 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Fuerte San Fran | live | -
 - 2026-08-10 00:15 | Bolivya Premier Lig | Real Potosi - Blooming | live | -
 - 2026-08-10 00:30 | Brezilya Serie A | Santos - Atletico Pr | live | -
 - 2026-08-10 00:30 | Brezilya Serie A | Bragantino - Corinthians | live | -
@@ -91,6 +78,18 @@ Yarin: 8
 - 2026-08-10 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Boston River | live | -
 - 2026-08-10 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Ucv | live | -
 - 2026-08-10 01:30 | Brezilya Serie A | Flamengo - Vitoria Bahia | live | -
+- 2026-08-10 02:00 | Guatemala Ulusal Lig Apertura | Municipal - Coban Imperial | live | -
+- 2026-08-10 02:00 | Nikaragua Premier Lig Apertura | San Marcos - Unan Managua | live | -
+- 2026-08-10 02:00 | CONCACAF U20 Final | Abd (U20) - Meksika (U20) | live | -
+- 2026-08-10 02:15 | Arjantin Premier Lig 2. Aşama | Argentinos Jr - Racing Club | live | -
+- 2026-08-10 02:15 | Honduras Ulusal Lig Apertura | Depor Motagua - Estrella Roja | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-10 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - San Martin Sj | finished | -
+- 2026-08-10 00:00 | Brezilya Serie B | Cuiaba - Fortaleza Ce | finished | -
+- 2026-08-10 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Ad San Carlos | finished | -
+- 2026-08-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Suchitepequez | finished | -
+- 2026-08-10 00:00 | Ekvador Pro Lig | Delfin - Orense | finished | -
+- 2026-08-10 00:00 | ABD USL | Indy Eleven - Hartford Athlet | finished | -
+- 2026-08-10 00:00 | Honduras Ulusal Lig Apertura | Juticalpa - Depor. Olimpia | finished | -
+- 2026-08-10 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Fuerte San Fran | finished | -

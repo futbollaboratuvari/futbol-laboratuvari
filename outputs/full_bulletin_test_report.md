@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 63
-- Live match count: 15
+- Scheduled match count: 58
+- Live match count: 12
 - Finished removed count: 0
 - Date window: 2026-08-10 / 2026-08-11 23:59
 
-- 2026-08-10 00:00 | Indy Eleven - Hartford Athlet | live
-- 2026-08-10 00:00 | San Martin Tuc - San Martin Sj | live
-- 2026-08-10 00:00 | Cuiaba - Fortaleza Ce | live
-- 2026-08-10 00:00 | Delfin - Orense | live
-- 2026-08-10 00:00 | Cacahuatique - Fuerte San Fran | live
-- 2026-08-10 00:00 | Deportivo San - Suchitepequez | live
-- 2026-08-10 00:00 | Juticalpa - Depor. Olimpia | live
-- 2026-08-10 00:00 | Inter San Carl - Ad San Carlos | live
 - 2026-08-10 00:15 | Real Potosi - Blooming | live
 - 2026-08-10 00:30 | Bragantino - Corinthians | live
+- 2026-08-10 00:30 | Santos - Atletico Pr | live
+- 2026-08-10 00:30 | Union La Caler - Colo Colo | live
+- 2026-08-10 00:30 | Nacional Df - Boston River | live
+- 2026-08-10 01:30 | Flamengo - Vitoria Bahia | live
+- 2026-08-10 01:30 | Metropolitanos - Ucv | live
+- 2026-08-10 02:00 | Abd (U20) - Meksika (U20) | live
+- 2026-08-10 02:00 | Municipal - Coban Imperial | live
+- 2026-08-10 02:00 | San Marcos - Unan Managua | live
