@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 15:29:40
+Oluşturma: 09.08.2026 15:36:10
 
 ## Özet
 
-- Toplam tahmin: 168
-- Bekleyen tahmin: 168
+- Toplam tahmin: 170
+- Bekleyen tahmin: 170
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 73
@@ -20,12 +20,14 @@ Oluşturma: 09.08.2026 15:29:40
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 89, bekleyen 89, başarı bekleniyor, ağırlık 1
+- MS X: toplam 91, bekleyen 91, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 60, bekleyen 60, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Portekiz Premier Lig | Porto - Alverca | MS X | pending | 85/100
+- 2026-08-09 | İsveç Superettan | Varbergs - Sandvikens | MS X | pending | 50/100
 - 2026-08-09 | Norveç 2.Lig Grup 1 | Brattvag Il - Lysekloster | MS X | pending | 40/100
 - 2026-08-09 | Letonya Virsliga | Fs Jelgava - Auda | MS 1 | pending | 50/100
 - 2026-08-09 | Finlandiya Veikkausliiga | Inter Turku - Lahti | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 09.08.2026 15:29:40
 - 2026-08-09 | Macaristan NB I | Paksi - Budapest Honved | MS 2 | pending | 50/100
 - 2026-08-09 | Türkiye TFF 1. Lig | Van Spor Fk - Kayserispor | MS X | pending | 40/100
 - 2026-08-09 | Hazırlık Kulüpler | Pergolettese - Internazionale | MS 1 | pending | 40/100
-- 2026-08-09 | Litvanya A Ligi | Banga - Suduva | MS X | pending | 40/100
-- 2026-08-09 | Japonya J1 Lig | V-Varen Nagasa - Kyoto Sanga | MS 1 | pending | 40/100
 
