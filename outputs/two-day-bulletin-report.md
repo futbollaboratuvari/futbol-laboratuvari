@@ -3,11 +3,11 @@
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
 Ham mac: 275
-Aktif mac: 265
-Canli mac: 10
+Aktif mac: 266
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 233
+Bultenden dusurulen mac: 9
+Bugun: 234
 Yarin: 32
 
 ## Baslamamis Maclar
@@ -61,6 +61,7 @@ Yarin: 32
 - 2026-08-09 15:00 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - Husqvarna | scheduled | -
 - 2026-08-09 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Hallescher - Chemnitzer | scheduled | -
 - 2026-08-09 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Bfc Dynamo - Zwickau | scheduled | -
+- 2026-08-09 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Carl Zeiss Jen - Erfurt | scheduled | -
 - 2026-08-09 15:30 | Hollanda Eredivisie | Groningen - Utrecht | scheduled | -
 - 2026-08-09 15:30 | Hollanda Eredivisie | Zwolle - Ajax | scheduled | -
 - 2026-08-09 15:30 | İskoçya Premiership | Kilmarnock - Celtic | scheduled | -
@@ -278,7 +279,6 @@ Yarin: 32
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 10:00 | Avustralya FFA Kupası Son 16 Turu | Brisbane Roar - Sydney | live | -
 - 2026-08-09 11:30 | Avusturya 1.Lig | Amstetten - Admira Wacker | live | -
 - 2026-08-09 11:30 | Slovakya 2.Lig | Slovan Bratisl - Samorin | live | -
 - 2026-08-09 11:30 | Slovakya 2.Lig | Zilina Ii - Pohronie | live | -
