@@ -3,16 +3,14 @@
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
 Ham mac: 78
-Aktif mac: 65
-Canli mac: 13
+Aktif mac: 63
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 57
+Bultenden dusurulen mac: 15
+Bugun: 55
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-08-10 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Ucv | scheduled | -
-- 2026-08-10 01:30 | Brezilya Serie A | Flamengo - Vitoria Bahia | scheduled | -
 - 2026-08-10 02:00 | Guatemala Ulusal Lig Apertura | Municipal - Coban Imperial | scheduled | -
 - 2026-08-10 02:00 | Nikaragua Premier Lig Apertura | San Marcos - Unan Managua | scheduled | -
 - 2026-08-10 02:00 | CONCACAF U20 Final | Abd (U20) - Meksika (U20) | scheduled | -
@@ -91,6 +89,8 @@ Yarin: 8
 - 2026-08-10 00:30 | Brezilya Serie A | Bragantino - Corinthians | live | -
 - 2026-08-10 00:30 | Şili Premier Lig | Union La Caler - Colo Colo | live | -
 - 2026-08-10 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Boston River | live | -
+- 2026-08-10 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Ucv | live | -
+- 2026-08-10 01:30 | Brezilya Serie A | Flamengo - Vitoria Bahia | live | -
 
 ## Biten Maclar
 Biten mac yok.
