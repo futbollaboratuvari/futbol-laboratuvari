@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 103
-- Live match count: 84
-- Finished removed count: 0
+- Live match count: 65
+- Finished removed count: 19
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
-- 2026-08-09 17:00 | Osipovichy - Dinamo Minsk Ii | live
-- 2026-08-09 17:00 | Charleroi - Oh Leuven | live
-- 2026-08-09 17:00 | Zulte Waregem - Genk | live
-- 2026-08-09 17:00 | Cruzeiro - Mirassol | live
-- 2026-08-09 17:00 | Athletic Club - Criciuma | live
-- 2026-08-09 17:00 | Randers - Lyngby | live
-- 2026-08-09 17:00 | Vikingur Gota - B68 Toftir | live
-- 2026-08-09 17:00 | Inter Turku - Lahti | live
-- 2026-08-09 17:00 | Waterford - Bohemian | live
-- 2026-08-09 17:00 | Hearts - Dundee Utd | live
+- 2026-08-09 17:30 | Saarbrucken - Essen | live
+- 2026-08-09 17:30 | Göteborg - Kalmar | live
+- 2026-08-09 17:30 | Halmstads - Gais | live
+- 2026-08-09 17:30 | Basel - Thun | live
+- 2026-08-09 17:30 | Sion - Vaduz | live
+- 2026-08-09 17:30 | St Gallen - Luzern | live
+- 2026-08-09 17:30 | Avs - Sporting Cp (B) | live
+- 2026-08-09 17:30 | Feirense - Felgueiras | live
+- 2026-08-09 17:45 | Maastricht - Utrecht (Ii) | live
+- 2026-08-09 17:45 | Heerenveen - Twente | live
