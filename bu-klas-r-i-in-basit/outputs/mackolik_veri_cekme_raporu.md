@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T09:22:32.831856+00:00
+Tarih: 2026-08-09T10:09:47.840373+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 234
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 233
+- Kac mac bulundu: 225
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 225
 - Ham veri havuzu toplam mac sayisi: 5912
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
@@ -21,7 +21,6 @@ Tarih: 2026-08-09T09:22:32.831856+00:00
 - Almanya Bölgesel Lig Kuzey Doğu
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya FFA Kupası Son 16 Turu
 - Avusturya Bundesliga
 - Belarus Premier Lig
 - Belçika Pro Lig
@@ -48,7 +47,6 @@ Tarih: 2026-08-09T09:22:32.831856+00:00
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
 - Japonya J1 Lig
-- Japonya J2 Lig
 - Japonya J3 Lig
 - Kazakistan Premier Lig
 - Letonya 1.Lig
@@ -178,24 +176,24 @@ Tarih: 2026-08-09T09:22:32.831856+00:00
 |---|---|---|---|---|---|---:|
 | 09.08.2026 | 19:00 | Türkiye TFF 1. Lig | Iğdır Fk | Fatih Karagümrü | 30337 | 5 |
 | 09.08.2026 | 19:00 | Türkiye TFF 1. Lig | Sarıyer | Muğlaspor | 30339 | 5 |
-| 09.08.2026 | 21:30 | Türkiye TFF 1. Lig | Van Spor Fk | Kayserispor | 05703 | 5 |
-| 09.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bodrum Fk | Bursaspor | 30341 | 5 |
 | 09.08.2026 | 15:30 | Ukrayna Premier Lig | Epitsentr Duna | Shakhtar Donets | 27156 | 5 |
 | 09.08.2026 | 18:00 | Ukrayna Premier Lig | Veres Rivne | Dynamo Kiev | 27173 | 5 |
-| 09.08.2026 | 13:00 | Ukrayna Premier Lig | Zoria Luhansk | Kryvbas Kr | 27139 | 5 |
-| 09.08.2026 | 15:30 | Hollanda Eredivisie | Zwolle | Ajax | 18519 | 5 |
 | 09.08.2026 | 17:45 | Hollanda Eredivisie | Heerenveen | Twente | 18577 | 5 |
-| 09.08.2026 | 13:15 | Hollanda Eredivisie | Sparta Rotterd | Feyenoord | 18384 | 5 |
+| 09.08.2026 | 15:30 | Hollanda Eredivisie | Zwolle | Ajax | 18519 | 5 |
 | 09.08.2026 | 15:30 | Hollanda Eredivisie | Groningen | Utrecht | 18461 | 5 |
+| 09.08.2026 | 13:15 | Hollanda Eredivisie | Sparta Rotterd | Feyenoord | 18384 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Benfica | Academico Viseu | 21699 | 4 |
+| 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
 | 09.08.2026 | 20:00 | Portekiz Premier Lig | Porto | Alverca | 21592 | 5 |
 | 09.08.2026 | 22:30 | Portekiz Premier Lig | Moreirense | Braga | 21946 | 5 |
-| 09.08.2026 | 22:30 | Portekiz Premier Lig | Gil Vicente | Rio Ave | 21822 | 5 |
 | 09.08.2026 | 17:00 | Belçika Pro Lig | Charleroi | Oh Leuven | 17776 | 5 |
-| 09.08.2026 | 20:15 | Belçika Pro Lig | Antwerp | Waasland Bevere | 18096 | 5 |
 | 09.08.2026 | 14:30 | Belçika Pro Lig | Gent | Mechelen | 17661 | 5 |
 | 09.08.2026 | 19:30 | Belçika Pro Lig | Anderlecht | La Louvière | 17990 | 5 |
+| 09.08.2026 | 20:15 | Belçika Pro Lig | Antwerp | Waasland Bevere | 18096 | 5 |
 | 09.08.2026 | 17:00 | Belçika Pro Lig | Zulte Waregem | Genk | 17881 | 5 |
+| 09.08.2026 | 16:00 | Hazırlık Emirates Kupası Final | Arsenal | B.Dortmund | 38661 | 5 |
+| 09.08.2026 | 18:00 | İngiltere Lig Kupası 1.Tur | Mansfield | Sheffield Utd | 26910 | 5 |
+| 09.08.2026 | 20:45 | İtalya Kupa Ön Eleme Turu | Arezzo | Union Brescia | 15019 | 5 |
 
 ## Sonuc
 
