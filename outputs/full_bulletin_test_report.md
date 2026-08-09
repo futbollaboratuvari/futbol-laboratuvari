@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 103
 - Live match count: 65
-- Finished removed count: 19
+- Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
 - 2026-08-09 17:30 | Saarbrucken - Essen | live

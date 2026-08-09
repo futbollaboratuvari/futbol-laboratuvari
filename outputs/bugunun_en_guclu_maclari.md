@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-09T16:23:46.516Z
+- Güncelleme: 2026-08-09T16:24:48.189Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -83,7 +83,7 @@
 | Borac Banja Lu VS Velez Mostar | Bosna-Hersek Premier Lig | 19:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Porto VS Alverca | Portekiz Premier Lig | 20:00 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Austria Vienna VS Lask Linz | Avusturya Bundesliga | 20:00 | MS 1 | 3.63 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Spartak Moskov VS Krasnodar | Rusya Premier Lig | 20:00 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Spartak Moskov VS Krasnodar | Rusya Premier Lig | 20:00 | MS 2 | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Atlanta VS Atl Temperley | Arjantin Ulusal Primera Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sheriff Tirasp VS Dacia-Buiucani | Moldova Ulusal Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Zimbru VS Petrocub | Moldova Ulusal Lig | 20:00 | MS X | 2.95 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -122,7 +122,7 @@
 | Mladost Lucani VS Cukaricki | Sırbistan Süper Lig | 22:00 | MS X | 2.59 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ue Olot VS Sabadell | Hazırlık Kulüpler | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Bahia VS Vasco Da Gama | Brezilya Serie A | 22:00 | MS 2 | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Palmeiras VS Internacional | Brezilya Serie A | 22:00 | MS 2 | 5.29 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Palmeiras VS Internacional | Brezilya Serie A | 22:00 | MS 2 | 5.11 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Hajduk Split VS Istra | Hırvatistan 1.HNL | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | O Higgins VS Deportes Limach | Şili Premier Lig | 22:00 | MS X | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ca Mitre VS D Belgrano | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -134,7 +134,7 @@
 | Moreirense VS Braga | Portekiz Premier Lig | 22:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Benfica VS Academico Viseu | Portekiz Premier Lig | 22:30 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Gil Vicente VS Rio Ave | Portekiz Premier Lig | 22:30 | MS 2 | 3.36 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Seattle VS Queretaro | CONCACAF Ligler Kupası Grup Aşaması | 22:30 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Seattle VS Queretaro | CONCACAF Ligler Kupası Grup Aşaması | 22:30 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Academia Anzoa VS Portuguesa | Venezuela Premier Lig Clausura | 22:30 | MS X | 2.68 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Godoy Cruz VS Chaco For Ever | Arjantin Ulusal Primera Lig | 22:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Zamora VS Academia Puerto | Venezuela Premier Lig Clausura | 23:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -166,10 +166,10 @@
 | Argentinos Jr VS Racing Club | Arjantin Premier Lig 2. Aşama | 02:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Depor Motagua VS Estrella Roja | Honduras Ulusal Lig Apertura | 02:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Cruz Azul VS New York City | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 2.95 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Philadelphia VS Necaxa | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 3.70 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Philadelphia VS Necaxa | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 3.82 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Oriente Petrol VS Universitario D | Bolivya Premier Lig | 02:30 | MS 2 | 3.77 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Deportivo Fas VS Balboa | El Salvador Primera Lig Apertura | 02:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Nashville Sc VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 4.02 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Nashville Sc VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 3.89 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Chicago VS Santos Laguna | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Univ. De Şili VS Palestino | Şili Premier Lig | 03:00 | MS 2 | 3.94 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Herediano VS Alajuelense | Kosta Rika Premier Lig Apertura | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -177,7 +177,7 @@
 | Austin VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | MS 2 | 3.57 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Matagalpa VS Managua | Nikaragua Premier Lig Apertura | 04:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Atlético Indep VS Choloma | Honduras Ulusal Lig Apertura | 04:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| San Diego VS Club Tijuana | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | MS 2 | 3.61 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| San Diego VS Club Tijuana | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | MS 2 | 3.49 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Club America VS Portland | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | MS X | 3.15 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 
 ## Tek Mac Onerileri

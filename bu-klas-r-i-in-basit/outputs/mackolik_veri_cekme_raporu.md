@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-09T16:14:59.278232+00:00
+Tarih: 2026-08-09T16:23:30.626879+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 68
+- Kac mac bulundu: 102
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 68
+- Kac mac zaten vardi: 102
 - Ham veri havuzu toplam mac sayisi: 5917
 - Hedef tarih: 09.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL
 - Almanya 3. Lig
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
@@ -25,10 +26,17 @@ Tarih: 2026-08-09T16:14:59.278232+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF U20 Final
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB II
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 2.Lig

@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 19:25:55
+Oluşturma: 09.08.2026 19:27:10
 
 ## Özet
 
@@ -26,7 +26,7 @@ Oluşturma: 09.08.2026 19:25:55
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-09 | Bosna-Hersek Premier Lig | Borac Banja Lu - Velez Mostar | MS 2 | pending | 60/100
+- 2026-08-09 | Rusya Premier Lig | Spartak Moskov - Krasnodar | MS 2 | pending | 50/100
 - 2026-08-09 | Hazırlık Kulüpler | Frosinone - Lazio | MS 1 | pending | 50/100
 - 2026-08-09 | Norveç 1.Lig | Sandnes - Hodd | MS 2 | pending | 50/100
 - 2026-08-09 | Kazakistan Premier Lig | Yelimay Semey - Irtysh | MS X | pending | 60/100
