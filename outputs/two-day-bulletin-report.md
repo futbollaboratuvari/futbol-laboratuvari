@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-09 / 2026-08-10
 Kaynak: fixtures.json
-Ham mac: 318
+Ham mac: 323
 Aktif mac: 294
-Canli mac: 24
-Biten mac: 0
-Bultenden dusurulen mac: 24
+Canli mac: 19
+Biten mac: 10
+Bultenden dusurulen mac: 29
 Bugun: 262
 Yarin: 32
 
@@ -307,11 +307,6 @@ Yarin: 32
 - 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | scheduled | -
 
 ## Canli Maclar
-- 2026-08-09 00:30 | Brezilya Serie A | Remo - Atletico Mg | live | -
-- 2026-08-09 00:30 | Şili Premier Lig | Coquimbo Unido - La Serena | live | -
-- 2026-08-09 00:30 | Brezilya Serie B | Botafogo Ribei - America Mineiro | live | -
-- 2026-08-09 00:30 | Uruguay Premier Lig Clausura | Torque - Penarol | live | -
-- 2026-08-09 00:30 | Ekvador Pro Lig | Aucas - Leones Del Nort | live | -
 - 2026-08-09 01:00 | Nikaragua Premier Lig Apertura | Jalapa - Export Sebaco | live | -
 - 2026-08-09 01:15 | Arjantin Premier Lig 2. Aşama | Boca Juniors - Velez Sarsfield | live | -
 - 2026-08-09 01:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Club Leon | live | -
@@ -333,4 +328,13 @@ Yarin: 32
 - 2026-08-09 02:30 | Bolivya Premier Lig | Aurora - Bolivar | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-09 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Comunicaciones | finished | -
+- 2026-08-09 00:00 | Kanada Premier Lig | Pacific Fc - Inter Toronto | finished | -
+- 2026-08-09 00:00 | Honduras Ulusal Lig Apertura | Platense - Marathon | finished | -
+- 2026-08-09 00:00 | El Salvador Primera Lig Apertura | Platense - Inca-Aruba | finished | -
+- 2026-08-09 00:15 | Bolivya Premier Lig | The Strongest - Independiente P | finished | -
+- 2026-08-09 00:30 | Brezilya Serie A | Remo - Atletico Mg | finished | -
+- 2026-08-09 00:30 | Şili Premier Lig | Coquimbo Unido - La Serena | finished | -
+- 2026-08-09 00:30 | Brezilya Serie B | Botafogo Ribei - America Mineiro | finished | -
+- 2026-08-09 00:30 | Uruguay Premier Lig Clausura | Torque - Penarol | finished | -
+- 2026-08-09 00:30 | Ekvador Pro Lig | Aucas - Leones Del Nort | finished | -

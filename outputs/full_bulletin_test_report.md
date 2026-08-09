@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 294
-- Live match count: 19
-- Finished removed count: 5
+- Scheduled match count: 287
+- Live match count: 26
+- Finished removed count: 0
 - Date window: 2026-08-09 / 2026-08-10 23:59
 
 - 2026-08-09 01:00 | Jalapa - Export Sebaco | live
