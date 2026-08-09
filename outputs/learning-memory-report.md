@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 09.08.2026 10:34:34
+Oluşturma: 09.08.2026 10:40:58
 
 ## Özet
 
-- Toplam tahmin: 153
-- Bekleyen tahmin: 153
+- Toplam tahmin: 155
+- Bekleyen tahmin: 155
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 72
@@ -20,12 +20,14 @@ Oluşturma: 09.08.2026 10:34:34
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 82, bekleyen 82, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 57, bekleyen 57, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS X: toplam 81, bekleyen 81, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-09 | Litvanya A Ligi | Banga - Suduva | MS X | pending | 40/100
+- 2026-08-09 | Japonya J1 Lig | V-Varen Nagasa - Kyoto Sanga | MS 1 | pending | 40/100
 - 2026-08-09 | Türkiye TFF 1. Lig | Sarıyer - Muğlaspor | MS 2 | pending | 40/100
 - 2026-08-09 | Gürcistan Erovnuli Liga | Spaeri - Dinamo Tiflis | MS 1 | pending | 50/100
 - 2026-08-09 | Avusturya Bundesliga | Austria Vienna - Lask Linz | MS 1 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 09.08.2026 10:34:34
 - 2026-08-09 | Brezilya Serie A | Palmeiras - Internacional | MS 2 | pending | 65/100
 - 2026-08-09 | Şili Premier Lig | O Higgins - Deportes Limach | MS X | pending | 50/100
 - 2026-08-09 | Brezilya Serie B | Nautico - Atletico Goiani | MS X | pending | 40/100
-- 2026-08-09 | Portekiz Premier Lig | Gil Vicente - Rio Ave | MS 2 | pending | 50/100
-- 2026-08-09 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Queretaro | MS X | pending | 50/100
 
