@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 243
-Tam analiz: 218
-Eksik analiz: 25
+Toplam analiz: 234
+Tam analiz: 210
+Eksik analiz: 24
 
-- Kisvarda Ii VS Disgyor Ii: eksik score, confidence
 - Molde 2 VS Kvik Trond: eksik score, confidence
 - Johor Dt VS Chelsea: eksik score, confidence
 - Phönix Lübeck VS Jeddeloh: eksik score, confidence
@@ -25,3 +24,4 @@ Eksik analiz: 25
 - Akranes VS Thor Akureyri: eksik score, confidence
 - Vikingur Reykj VS Vestmannaeyjar: eksik score, confidence
 - Ca Mitre VS D Belgrano: eksik score, confidence
+- R Cordoba VS San Miguel: eksik score, confidence
