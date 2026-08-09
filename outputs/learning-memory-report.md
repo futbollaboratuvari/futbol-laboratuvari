@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.08.2026 00:50:10
+Oluşturma: 10.08.2026 00:58:32
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 5
+- Bekleyen tahmin: 5
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 5
+- Seçenek sayısı: 2
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,14 @@ Oluşturma: 10.08.2026 00:50:10
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-10 | Kosta Rika Premier Lig Apertura | Inter San Carl - Ad San Carlos | MS X | pending | 40/100
+- 2026-08-10 | ABD USL | Indy Eleven - Hartford Athlet | MS 2 | pending | 50/100
+- 2026-08-10 | El Salvador Primera Lig Apertura | Cacahuatique - Fuerte San Fran | MS 2 | pending | 40/100
+- 2026-08-10 | Bolivya Premier Lig | Real Potosi - Blooming | MS 2 | pending | 60/100
+- 2026-08-10 | Brezilya Serie A | Santos - Atletico Pr | MS 2 | pending | 40/100
 

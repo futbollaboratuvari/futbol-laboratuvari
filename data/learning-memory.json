@@ -1,26 +1,235 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-09T20:18:38.294Z",
-  "updated_at": "2026-08-09T21:50:12.618Z",
+  "updated_at": "2026-08-09T21:58:34.308Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 0,
-    "pending_predictions": 0,
+    "total_predictions": 5,
+    "pending_predictions": 5,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 0,
-    "market_count": 0,
-    "added_predictions": 0,
+    "league_count": 5,
+    "market_count": 2,
+    "added_predictions": 5,
     "updated_predictions": 0,
-    "last_score_link_checked": 0,
+    "last_score_link_checked": 5,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
-  "market_memory": {},
-  "league_memory": {},
-  "league_market_memory": {},
-  "predictions": []
+  "market_memory": {
+    "MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 2": {
+      "total": 4,
+      "pending": 4,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_memory": {
+    "Kosta Rika Premier Lig Apertura": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "El Salvador Primera Lig Apertura": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Bolivya Premier Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "league_market_memory": {
+    "Kosta Rika Premier Lig Apertura :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD USL :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "El Salvador Primera Lig Apertura :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Bolivya Premier Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    }
+  },
+  "predictions": [
+    {
+      "id": "2026-08-10|kosta rika premier lig apertura|inter san carl ad san carlos|ms x|00 00",
+      "date": "2026-08-10",
+      "created_at": "2026-08-09T21:58:32.960Z",
+      "match_name": "Inter San Carl - Ad San Carlos",
+      "league": "Kosta Rika Premier Lig Apertura",
+      "start_time": "00:00",
+      "market": "MS X",
+      "odds": "2.82",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-10|abd usl|indy eleven hartford athlet|ms 2|00 00",
+      "date": "2026-08-10",
+      "created_at": "2026-08-09T21:58:32.960Z",
+      "match_name": "Indy Eleven - Hartford Athlet",
+      "league": "ABD USL",
+      "start_time": "00:00",
+      "market": "MS 2",
+      "odds": "3.37",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-10|el salvador primera lig apertura|cacahuatique fuerte san fran|ms 2|00 00",
+      "date": "2026-08-10",
+      "created_at": "2026-08-09T21:58:32.960Z",
+      "match_name": "Cacahuatique - Fuerte San Fran",
+      "league": "El Salvador Primera Lig Apertura",
+      "start_time": "00:00",
+      "market": "MS 2",
+      "odds": "3.17",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-10|bolivya premier lig|real potosi blooming|ms 2|00 15",
+      "date": "2026-08-10",
+      "created_at": "2026-08-09T21:58:32.960Z",
+      "match_name": "Real Potosi - Blooming",
+      "league": "Bolivya Premier Lig",
+      "start_time": "00:15",
+      "market": "MS 2",
+      "odds": "4.85",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-10|brezilya serie a|santos atletico pr|ms 2|00 30",
+      "date": "2026-08-10",
+      "created_at": "2026-08-09T21:58:32.960Z",
+      "match_name": "Santos - Atletico Pr",
+      "league": "Brezilya Serie A",
+      "start_time": "00:30",
+      "market": "MS 2",
+      "odds": "3.28",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    }
+  ]
 }

@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
-Ham mac: 22
+Ham mac: 21
 Aktif mac: 8
 Canli mac: 13
-Biten mac: 1
-Bultenden dusurulen mac: 14
+Biten mac: 0
+Bultenden dusurulen mac: 13
 Bugun: 0
 Yarin: 8
 
@@ -36,4 +36,4 @@ Yarin: 8
 - 2026-08-10 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Boston River | live | -
 
 ## Biten Maclar
-- 2026-08-10 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano - Estudiantes Fc | finished | -
+Biten mac yok.
