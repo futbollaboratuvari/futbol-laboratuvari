@@ -4,8 +4,8 @@ Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
 Ham mac: 110
 Aktif mac: 103
-Canli mac: 7
-Biten mac: 0
+Canli mac: 5
+Biten mac: 2
 Bultenden dusurulen mac: 7
 Bugun: 87
 Yarin: 16
@@ -116,8 +116,6 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
-- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | live | -
-- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | live | -
 - 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | live | -
 - 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | live | -
 - 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | live | -
@@ -125,4 +123,5 @@ Yarin: 16
 - 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -

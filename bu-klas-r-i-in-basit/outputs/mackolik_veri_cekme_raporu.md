@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T23:46:32.519939+00:00
+Tarih: 2026-08-10T23:49:54.985658+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 84
+- Kac mac bulundu: 100
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 84
+- Kac mac zaten vardi: 100
 - Ham veri havuzu toplam mac sayisi: 6077
 - Hedef tarih: 11.08.2026 Europe/Istanbul
 
@@ -16,8 +16,16 @@ Tarih: 2026-08-10T23:46:32.519939+00:00
 
 - AFC Şampiyonlar Ligi Elite 1. Eleme Turu
 - Almanya Bölgesel Lig Kuzey
+- Arjantin Premier Lig 2. Aşama
 - Avustralya FFA Kupası Son 16 Turu
 - Avustralya NPL Güney Avustralya
+- Brezilya Serie B
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Finlandiya Ykkönen
 - Güney Afrika PSL
 - Kuzey İrlanda Championship
@@ -118,7 +126,7 @@ Tarih: 2026-08-10T23:46:32.519939+00:00
 | 11.08.2026 | 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite | Cand | 09669 | 5 |
 | 11.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders | Macarthur | 12360 | 5 |
 | 11.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio | Melbourne City | 12343 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio | Cove Rangers | 06757 | 3 |
+| 12.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Fluminense | Rivadavia | 06924 | 5 |
 
 ## Sonuc
 
