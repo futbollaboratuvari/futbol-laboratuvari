@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:19:17.160Z",
+  "generated_at": "2026-08-10T15:30:14.007Z",
   "date": "2026-08-10",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -15733,8 +15733,8 @@
       "league": "Belarus 1.Lig",
       "start_time": "18:00",
       "recommended_market": "Değerli market yok",
-      "confidence_score": "0%",
-      "analysis_score": 0,
+      "confidence_score": "20%",
+      "analysis_score": 20,
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
@@ -16077,24 +16077,24 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | 2.5 Üst yüzdesi %60 üzeri: +10",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Yüksek",
+      "data_gap_risk": "Orta",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
         "homeConcededLast10": null,
         "awayConcededLast10": null,
         "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
+        "over25Percent": 63,
+        "over35Percent": 45,
         "firstHalfGoalTrend": null,
         "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "leagueGoalAverage": 2.87,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -16128,17 +16128,20 @@
             "Hafıza: arşiv verisi henüz sınırlı"
           ]
         },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
+        "homeScoredLast10Count": 5,
+        "awayScoredLast10Count": 5,
         "homeConcededLast10Count": null,
         "awayConcededLast10Count": null
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
+        "2.5 Üst yüzdesi %60 üzeri: +10",
+        "Lig gol ortalaması 2.70 üzeri: +10",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Yüksek",
+        "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
       ]
     },
