@@ -1,21 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T11:54:44.681830+00:00
+Tarih: 2026-08-10T12:31:41.595270+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 49
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Durum: success
+- Kac mac bulundu: 57
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 56
+- Ham veri havuzu toplam mac sayisi: 5974
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belarus 1.Lig
+- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
@@ -42,12 +44,14 @@ Tarih: 2026-08-10T11:54:44.681830+00:00
 - Türkiye TFF 1. Lig
 - Uganda Süper 8 5.lik - 8.lik Play-off
 - Ukrayna Premier Lig
+- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İngiltere Lig Kupası 1.Tur
 - İsveç Allsvenskan
 - İsveç Superettan
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -112,8 +116,7 @@ Tarih: 2026-08-10T11:54:44.681830+00:00
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
@@ -130,6 +133,8 @@ Tarih: 2026-08-10T11:54:44.681830+00:00
 | 10.08.2026 | 19:30 | Rusya Premier Lig | Fakel Voronezh | Akhmat Grozny | 34199 | 5 |
 | 10.08.2026 | 18:00 | Ukrayna Premier Lig | Karpaty Lviv | Lnz Cherkasy | 27207 | 3 |
 | 10.08.2026 | 15:30 | Ukrayna Premier Lig | Polessya | Metalist 1925 K | 27190 | 5 |
+| 11.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Corboda Santiag | 29500 | 5 |
+| 11.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Belgrano | 29441 | 5 |
 | 10.08.2026 | 20:00 | Portekiz 2.Lig | Lusitania De L | Porto (B) | 34943 | 5 |
 | 10.08.2026 | 20:00 | Portekiz 2.Lig | Benfica (B) | Leixoes | 34910 | 5 |
 | 10.08.2026 | 21:15 | Bulgaristan 1.Lig | Botev Plovdiv | Spartak Varna | 32396 | 5 |
@@ -137,9 +142,7 @@ Tarih: 2026-08-10T11:54:44.681830+00:00
 | 10.08.2026 | 20:00 | İsveç Superettan | Norrby | Orebro | 25476 | 5 |
 | 10.08.2026 | 20:00 | Norveç 1.Lig | Moss | Odds Bk | 30241 | 5 |
 | 10.08.2026 | 21:00 | Hazırlık Kulüpler | Volos Nfc | Kalamata | 09515 | 5 |
-| 10.08.2026 | 21:30 | Romanya 1.Lig | Sepsi | Fc Steaua | 35573 | 5 |
-| 10.08.2026 | 18:30 | Romanya 1.Lig | Botosani | Hunedoara | 35540 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

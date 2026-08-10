@@ -1,18 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-10 / 2026-08-11
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 90
+Kaynak: fixtures.json
+Ham mac: 91
 Aktif mac: 56
-Canli mac: 0
+Canli mac: 1
 Biten mac: 34
-Bultenden dusurulen mac: 34
+Bultenden dusurulen mac: 35
 Bugun: 48
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-08-10 15:30 | Ukrayna Premier Lig | Polessya - Metalist 1925 K | scheduled | -
 - 2026-08-10 16:00 | Uganda Süper 8 5.lik - 8.lik Play-off | Bul - Police | scheduled | -
 - 2026-08-10 17:00 | Norveç 3.Lig Grup 5 | Kongsvinger Ii - Stromsgodset B | scheduled | -
 - 2026-08-10 17:00 | Belarus 1.Lig | Gomel Ii - Soligorsk | scheduled | -
@@ -31,6 +29,7 @@ Yarin: 8
 - 2026-08-10 19:00 | Litvanya 1.Lig | Zalgiris Ii - Kauno Zalgiris | scheduled | -
 - 2026-08-10 19:00 | Norveç 3.Lig Grup 4 | Haugesund Ii - Viking B | scheduled | -
 - 2026-08-10 19:00 | Norveç 3.Lig Grup 6 | Lyn Oslo B - Fram Larvik | scheduled | -
+- 2026-08-10 19:00 | Norveç 3.Lig Grup 3 | Askoy - Sogndal Ii | scheduled | -
 - 2026-08-10 19:30 | Rusya Premier Lig | Fakel Voronezh - Akhmat Grozny | scheduled | -
 - 2026-08-10 19:30 | Letonya Virsliga | Daugava Riga - Grobina | scheduled | -
 - 2026-08-10 20:00 | Danimarka Süperlig | Silkeborg - Odense | scheduled | -
@@ -70,7 +69,7 @@ Yarin: 8
 - 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-10 15:30 | Ukrayna Premier Lig | Polessya - Metalist 1925 K | live | -
 
 ## Biten Maclar
 - 2026-08-10 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - San Martin Sj | finished | -
