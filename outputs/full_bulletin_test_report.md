@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 11
-- Live match count: 9
+- Scheduled match count: 10
+- Live match count: 1
 - Finished removed count: 0
-- Date window: 2026-08-10 / 2026-08-11 23:59
+- Date window: 2026-08-11 / 2026-08-12 23:59
 
-- 2026-08-10 21:15 | Botev Plovdiv - Spartak Varna | live
-- 2026-08-10 21:30 | Sepsi - Fc Steaua | live
-- 2026-08-10 21:30 | Pendikspor - Batman Petrol | live
-- 2026-08-10 22:00 | T.Universitari - Mushuc Runa | live
-- 2026-08-10 22:00 | Plymouth - Exeter | live
-- 2026-08-10 22:15 | Vikingur Ol. - Selfoss | live
-- 2026-08-10 22:15 | Fram - Kr Reykjavik | live
-- 2026-08-10 22:15 | Santa Clara - Nacional Madeir | live
-- 2026-08-10 22:30 | Rayo Zuliano - Estudiantes Fc | live
-- 2026-08-11 00:00 | Rionegro Aguil - Llaneros | scheduled
+- 2026-08-11 00:00 | Rionegro Aguil - Llaneros | live
+- 2026-08-11 00:30 | Libertad - Univ Catolica ( | scheduled
+- 2026-08-11 01:00 | Banfield - Belgrano | scheduled
+- 2026-08-11 01:00 | Deportivo Mald - Racing Montevid | scheduled
+- 2026-08-11 01:30 | Goias - Londrina | scheduled
+- 2026-08-11 01:30 | Caracas Fc - Deportivo La Gu | scheduled
+- 2026-08-11 02:00 | Independiente - Los Millionario | scheduled
+- 2026-08-11 03:00 | Deportivo Cuen - Manta | scheduled
+- 2026-08-11 03:00 | Audax Italiano - Atletico Nublen | scheduled
+- 2026-08-11 03:15 | Union Santa Fe - Corboda Santiag | scheduled
