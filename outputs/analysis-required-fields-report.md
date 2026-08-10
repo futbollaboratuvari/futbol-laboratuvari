@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 44
-Tam analiz: 38
-Eksik analiz: 6
+Toplam analiz: 38
+Tam analiz: 33
+Eksik analiz: 5
 
-- Smorgon VS Bate Ii: eksik score, confidence
 - Lyn Oslo B VS Fram Larvik: eksik score, confidence
 - Rosenborg 2 VS Ranheim Ii: eksik score, confidence
 - Skjetten VS Lillestrom Sk I: eksik score, confidence

@@ -2,21 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-10T17:39:26.807Z
+- Güncelleme: 2026-08-10T18:06:00.090Z
 - Ham maç sayısı: 49
 - Yarın bülteni maç sayısı: 11
 - Detay blok sayısı: 134
-- Aktif bülten maçı: 25
-- Bültenden düşürülen maç: 24
+- Aktif bülten maçı: 20
+- Bültenden düşürülen maç: 29
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Jong Az Alkmaa - Fc Eindhoven | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 1.55 | 8 |
-| Psv (B) - Volendam | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 2.85 | 8 |
-| Gimnasia Jujuy - Tristan | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.56 | 5 |
-| Runavik - Skala | Faroe Adaları Master Lig | 21:00 | Veri bekleniyor | - | 1.25 | 4 |
-| Volos Nfc - Kalamata | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.62 | 8 |
 | Botev Plovdiv - Spartak Varna | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.38 | 7 |
 | Sepsi - Fc Steaua | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 3.53 | 8 |
 | Pendikspor - Batman Petrol | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 1.99 | 8 |
