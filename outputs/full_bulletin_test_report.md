@@ -2,15 +2,15 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 55
-- Live match count: 2
+- Scheduled match count: 53
+- Live match count: 4
 - Finished removed count: 0
 - Date window: 2026-08-10 / 2026-08-11 23:59
 
 - 2026-08-10 15:30 | Polessya - Metalist | live
 - 2026-08-10 16:00 | Bul - Police | live
-- 2026-08-10 17:00 | Gomel Ii - Soligorsk | scheduled
-- 2026-08-10 17:00 | Kongsvinger Ii - Stromsgodset B | scheduled
+- 2026-08-10 17:00 | Gomel Ii - Soligorsk | live
+- 2026-08-10 17:00 | Kongsvinger Ii - Stromsgodset B | live
 - 2026-08-10 17:30 | Fc Minsk Ii - Ostrovets Fc | scheduled
 - 2026-08-10 18:00 | Orsha - Molodechno | scheduled
 - 2026-08-10 18:00 | Slonim - Bumprom | scheduled
