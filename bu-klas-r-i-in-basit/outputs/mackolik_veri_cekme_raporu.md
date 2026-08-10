@@ -1,23 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T14:53:36.538410+00:00
+Tarih: 2026-08-10T15:42:37.490629+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 52
+- Kac mac bulundu: 37
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 52
+- Kac mac zaten vardi: 37
 - Ham veri havuzu toplam mac sayisi: 5974
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Belarus 1.Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
@@ -39,18 +36,14 @@ Tarih: 2026-08-10T14:53:36.538410+00:00
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Rusya Premier Lig
-- Slovakya 2.Lig
 - Slovenya 1.SNL
 - Türkiye TFF 1. Lig
-- Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İngiltere Lig Kupası 1.Tur
 - İsveç Allsvenskan
 - İsveç Superettan
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -107,8 +100,8 @@ Tarih: 2026-08-10T14:53:36.538410+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 39
-- Acilan detay: 39
+- Denenen Tumu alani: 37
+- Acilan detay: 37
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -130,17 +123,17 @@ Tarih: 2026-08-10T14:53:36.538410+00:00
 | 10.08.2026 | 20:00 | İsveç Allsvenskan | Sirius | Brommapojkarna | 25358 | 5 |
 | 10.08.2026 | 20:00 | İsveç Allsvenskan | Vasteras | Djurgarden | 25583 | 5 |
 | 10.08.2026 | 19:30 | Rusya Premier Lig | Fakel Voronezh | Akhmat Grozny | 34199 | 5 |
-| 10.08.2026 | 18:00 | Ukrayna Premier Lig | Karpaty Lviv | Lnz Cherkasy | 27207 | 5 |
-| 11.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Belgrano | 29441 | 5 |
-| 11.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Corboda Santiag | 29500 | 5 |
-| 10.08.2026 | 20:00 | Portekiz 2.Lig | Benfica (B) | Leixoes | 34910 | 5 |
 | 10.08.2026 | 20:00 | Portekiz 2.Lig | Lusitania De L | Porto (B) | 34943 | 5 |
+| 10.08.2026 | 20:00 | Portekiz 2.Lig | Benfica (B) | Leixoes | 34910 | 5 |
 | 10.08.2026 | 19:00 | Bulgaristan 1.Lig | Botev Vratsa | Slavia Sofia | 32365 | 5 |
 | 10.08.2026 | 21:15 | Bulgaristan 1.Lig | Botev Plovdiv | Spartak Varna | 32396 | 5 |
 | 10.08.2026 | 20:00 | İsveç Superettan | Norrby | Orebro | 25476 | 5 |
 | 10.08.2026 | 20:00 | Norveç 1.Lig | Moss | Odds Bk | 30241 | 5 |
 | 10.08.2026 | 21:00 | Hazırlık Kulüpler | Volos Nfc | Kalamata | 09515 | 5 |
-| 10.08.2026 | 18:30 | Romanya 1.Lig | Botosani | Hunedoara | 35540 | 5 |
+| 10.08.2026 | 21:30 | Romanya 1.Lig | Sepsi | Fc Steaua | 35573 | 5 |
+| 10.08.2026 | 20:00 | Polonya 1.Lig | Unia Skierniew | Arka Gdynia | 31894 | 5 |
+| 10.08.2026 | 18:45 | Litvanya A Ligi | Transinvest Vi | Fk Panevezys | 18827 | 5 |
+| 10.08.2026 | 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano | Estudiantes Fc | 05292 | 5 |
 
 ## Sonuc
 
