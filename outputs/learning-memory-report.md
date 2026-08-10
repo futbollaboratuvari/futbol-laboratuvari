@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.08.2026 15:32:58
+Oluşturma: 10.08.2026 15:41:52
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 26
+- Bekleyen tahmin: 26
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 20
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 10.08.2026 15:32:58
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-10 | Hollanda Eerste Divisie | Jong Az Alkmaa - Fc Eindhoven | MS X | pending | 70/100
+- 2026-08-10 | Hollanda Eerste Divisie | Psv (B) - Volendam | MS X | pending | 60/100
+- 2026-08-10 | Hazırlık Kulüpler | Volos Nfc - Kalamata | MS 2 | pending | 50/100
+- 2026-08-10 | Bulgaristan 1.Lig | Botev Plovdiv - Spartak Varna | MS 2 | pending | 60/100
+- 2026-08-10 | Romanya 1.Lig | Sepsi - Fc Steaua | MS 1 | pending | 50/100
+- 2026-08-10 | Türkiye TFF 1. Lig | Pendikspor - Batman Petrol | MS X | pending | 50/100
+- 2026-08-10 | Venezuela Premier Lig Clausura | Rayo Zuliano - Estudiantes Fc | MS X | pending | 40/100
+- 2026-08-10 | Slovakya 2.Lig | Povazska Bystr - Zlate Moravce | MS X | pending | 50/100
+- 2026-08-10 | Belarus 1.Lig | Volna Pinsk - Uni Minsk | MS X | pending | 50/100
+- 2026-08-10 | Romanya 1.Lig | Botosani - Hunedoara | MS X | pending | 40/100
+- 2026-08-10 | Litvanya A Ligi | Transinvest Vi - Fk Panevezys | MS 2 | pending | 60/100
+- 2026-08-10 | Bulgaristan 1.Lig | Botev Vratsa - Slavia Sofia | MS 2 | pending | 40/100
+- 2026-08-10 | Slovenya 1.SNL | Mura - Radomlje | MS 2 | pending | 50/100
+- 2026-08-10 | Litvanya 1.Lig | Zalgiris Ii - Kauno Zalgiris | MS X | pending | 50/100
+- 2026-08-10 | Norveç 3.Lig Grup 3 | Askoy - Sogndal Ii | MS 2 | pending | 40/100
 
