@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 11
-Tam analiz: 10
+Toplam analiz: 1
+Tam analiz: 0
 Eksik analiz: 1
 
-- Deportivo Mald VS Racing Montevid: eksik score, confidence
+- Rionegro Aguil VS Llaneros: eksik score, confidence
