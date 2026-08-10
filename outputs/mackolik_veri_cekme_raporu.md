@@ -2,7 +2,7 @@
 
 - Kaynak: Maçkolik canlı veri bekleniyor
 - URL: https://arsiv.mackolik.com/Iddaa-Programi
-- Güncelleme: 2026-08-10T13:25:25.421Z
+- Güncelleme: 2026-08-10T13:47:13.769Z
 - Hedef tarihler: 10.08.2026, 11.08.2026
 - Maç sayısı: 57
 - Yarın bülteni maç sayısı: 8

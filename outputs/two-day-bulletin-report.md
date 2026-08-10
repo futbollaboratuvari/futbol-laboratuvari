@@ -3,15 +3,14 @@
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
 Ham mac: 57
-Aktif mac: 56
-Canli mac: 1
+Aktif mac: 55
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 48
+Bultenden dusurulen mac: 2
+Bugun: 47
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-08-10 16:00 | Uganda Süper 8 5.lik - 8.lik Play-off | Bul - Police | scheduled | -
 - 2026-08-10 17:00 | Norveç 3.Lig Grup 5 | Kongsvinger Ii - Stromsgodset B | scheduled | -
 - 2026-08-10 17:00 | Belarus 1.Lig | Gomel Ii - Soligorsk | scheduled | -
 - 2026-08-10 17:30 | Belarus 1.Lig | Fc Minsk Ii - Ostrovets Fc | scheduled | -
@@ -70,6 +69,7 @@ Yarin: 8
 
 ## Canli Maclar
 - 2026-08-10 15:30 | Ukrayna Premier Lig | Polessya - Metalist 1925 K | live | -
+- 2026-08-10 16:00 | Uganda Süper 8 5.lik - 8.lik Play-off | Bul - Police | live | -
 
 ## Biten Maclar
 Biten mac yok.
