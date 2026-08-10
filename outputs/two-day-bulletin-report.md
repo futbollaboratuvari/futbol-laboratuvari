@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 110
+Ham mac: 108
 Aktif mac: 103
 Canli mac: 5
-Biten mac: 2
-Bultenden dusurulen mac: 7
+Biten mac: 0
+Bultenden dusurulen mac: 5
 Bugun: 87
 Yarin: 16
 
@@ -123,5 +123,4 @@ Yarin: 16
 - 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | live | -
 
 ## Biten Maclar
-- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
-- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
+Biten mac yok.

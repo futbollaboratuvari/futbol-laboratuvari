@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 02:52:03
+Oluşturma: 11.08.2026 02:59:37
 
 ## Özet
 
@@ -26,7 +26,7 @@ Oluşturma: 11.08.2026 02:52:03
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) - (3) Union St.G | MS X | pending | 40/100
+- 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) - (3) Union St.G | MS X | pending | 70/100
 - 2026-08-11 | İngiltere Non League Premier Kuzey | Stockton Town - Ashton United | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Havant And W. - Uxbridge | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Evesham United - Frome Town | MS X | pending | 50/100
