@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-10T03:06:04.801Z
+- Güncelleme: 2026-08-10T03:09:14.002Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -30,7 +30,7 @@
 | Daugava Riga VS Grobina | Letonya Virsliga | 19:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Silkeborg VS Odense | Danimarka Süperlig | 20:00 | MS X | 3.29 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Vasteras VS Djurgarden | İsveç Allsvenskan | 20:00 | MS 1 | 3.56 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Sirius VS Brommapojkarna | İsveç Allsvenskan | 20:00 | MS X | 5.35 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Sirius VS Brommapojkarna | İsveç Allsvenskan | 20:00 | MS 2 | 7.38 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Benfica (B) VS Leixoes | Portekiz 2.Lig | 20:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Lusitania De L VS Porto (B) | Portekiz 2.Lig | 20:00 | MS X | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Norrby VS Orebro | İsveç Superettan | 20:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -56,7 +56,7 @@
 | Banfield VS Belgrano | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Deportivo Mald VS Racing Montevid | Uruguay Premier Lig Clausura | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Caracas Fc VS Deportivo La Gu | Venezuela Premier Lig Clausura | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Goias VS Londrina | Brezilya Serie B | 01:30 | MS 2 | 4.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Goias VS Londrina | Brezilya Serie B | 01:30 | MS 2 | 4.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Audax Italiano VS Atletico Nublen | Şili Premier Lig | 03:00 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Deportivo Cuen VS Manta | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Union Santa Fe VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 03:15 | MS 2 | 5.90 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
