@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-09T23:56:53.976Z
+- Güncelleme: 2026-08-10T00:51:08.506Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -27,10 +27,10 @@
 | Philadelphia VS Necaxa | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 4.25 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Oriente Petrol VS Universitario D | Bolivya Premier Lig | 02:30 | MS 2 | 3.77 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Deportivo Fas VS Balboa | El Salvador Primera Lig Apertura | 02:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Nashville Sc VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 3.74 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Chicago VS Santos Laguna | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 4.48 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Univ. De Şili VS Palestino | Şili Premier Lig | 03:00 | MS 2 | 4.45 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Herediano VS Alajuelense | Kosta Rika Premier Lig Apertura | 03:00 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Nashville Sc VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 3.74 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Chicago VS Santos Laguna | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 4.48 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
+| Univ. De Şili VS Palestino | Şili Premier Lig | 03:00 | MS 2 | 4.45 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Herediano VS Alajuelense | Kosta Rika Premier Lig Apertura | 03:00 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Guayaquil City VS Emelec | Ekvador Pro Lig | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Austin VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | MS 2 | 3.69 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Matagalpa VS Managua | Nikaragua Premier Lig Apertura | 04:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |

@@ -2,20 +2,15 @@
 
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
-Ham mac: 78
-Aktif mac: 54
-Canli mac: 11
-Biten mac: 13
-Bultenden dusurulen mac: 24
-Bugun: 46
+Ham mac: 70
+Aktif mac: 49
+Canli mac: 21
+Biten mac: 0
+Bultenden dusurulen mac: 21
+Bugun: 41
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-08-10 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc - Atletico San Lu | scheduled | -
-- 2026-08-10 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Santos Laguna | scheduled | -
-- 2026-08-10 03:00 | Şili Premier Lig | Univ. De Şili - Palestino | scheduled | -
-- 2026-08-10 03:00 | Kosta Rika Premier Lig Apertura | Herediano - Alajuelense | scheduled | -
-- 2026-08-10 03:00 | Ekvador Pro Lig | Guayaquil City - Emelec | scheduled | -
 - 2026-08-10 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Puebla | scheduled | -
 - 2026-08-10 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Managua | scheduled | -
 - 2026-08-10 04:30 | Honduras Ulusal Lig Apertura | Atlético Indep - Choloma | scheduled | -
@@ -67,6 +62,11 @@ Yarin: 8
 - 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | scheduled | -
 
 ## Canli Maclar
+- 2026-08-10 00:15 | Bolivya Premier Lig | Real Potosi - Blooming | live | -
+- 2026-08-10 00:30 | Brezilya Serie A | Santos - Atletico Pr | live | -
+- 2026-08-10 00:30 | Brezilya Serie A | Bragantino - Corinthians | live | -
+- 2026-08-10 00:30 | Şili Premier Lig | Union La Caler - Colo Colo | live | -
+- 2026-08-10 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Boston River | live | -
 - 2026-08-10 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Ucv | live | -
 - 2026-08-10 01:30 | Brezilya Serie A | Flamengo - Vitoria Bahia | live | -
 - 2026-08-10 02:00 | Guatemala Ulusal Lig Apertura | Municipal - Coban Imperial | live | -
@@ -78,18 +78,11 @@ Yarin: 8
 - 2026-08-10 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Necaxa | live | -
 - 2026-08-10 02:30 | Bolivya Premier Lig | Oriente Petrol - Universitario D | live | -
 - 2026-08-10 02:30 | El Salvador Primera Lig Apertura | Deportivo Fas - Balboa | live | -
+- 2026-08-10 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Nashville Sc - Atletico San Lu | live | -
+- 2026-08-10 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Chicago - Santos Laguna | live | -
+- 2026-08-10 03:00 | Şili Premier Lig | Univ. De Şili - Palestino | live | -
+- 2026-08-10 03:00 | Kosta Rika Premier Lig Apertura | Herediano - Alajuelense | live | -
+- 2026-08-10 03:00 | Ekvador Pro Lig | Guayaquil City - Emelec | live | -
 
 ## Biten Maclar
-- 2026-08-10 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - San Martin Sj | finished | -
-- 2026-08-10 00:00 | Brezilya Serie B | Cuiaba - Fortaleza Ce | finished | -
-- 2026-08-10 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Ad San Carlos | finished | -
-- 2026-08-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Suchitepequez | finished | -
-- 2026-08-10 00:00 | Ekvador Pro Lig | Delfin - Orense | finished | -
-- 2026-08-10 00:00 | ABD USL | Indy Eleven - Hartford Athlet | finished | -
-- 2026-08-10 00:00 | Honduras Ulusal Lig Apertura | Juticalpa - Depor. Olimpia | finished | -
-- 2026-08-10 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Fuerte San Fran | finished | -
-- 2026-08-10 00:15 | Bolivya Premier Lig | Real Potosi - Blooming | finished | -
-- 2026-08-10 00:30 | Brezilya Serie A | Santos - Atletico Pr | finished | -
-- 2026-08-10 00:30 | Brezilya Serie A | Bragantino - Corinthians | finished | -
-- 2026-08-10 00:30 | Şili Premier Lig | Union La Caler - Colo Colo | finished | -
-- 2026-08-10 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Boston River | finished | -
+Biten mac yok.
