@@ -1,34 +1,38 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T19:44:37.357970+00:00
+Tarih: 2026-08-10T20:22:06.632940+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
+- Kac mac bulundu: 8
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
+- Kac mac zaten vardi: 8
 - Ham veri havuzu toplam mac sayisi: 5977
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie B
+- Ekvador Pro Lig
+- Uruguay Premier Lig Clausura
+- Venezuela Premier Lig Clausura
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -72,8 +76,8 @@ Tarih: 2026-08-10T19:44:37.357970+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 7
-- Acilan detay: 7
+- Denenen Tumu alani: 6
+- Acilan detay: 6
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -84,7 +88,16 @@ Tarih: 2026-08-10T19:44:37.357970+00:00
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 11.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Belgrano | 29441 | 5 |
+| 11.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Corboda Santiag | 29500 | 5 |
+| 11.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Caracas Fc | Deportivo La Gu | 06051 | 5 |
+| 11.08.2026 | 03:00 | Şili Premier Lig | Audax Italiano | Atletico Nublen | 36248 | 5 |
+| 11.08.2026 | 01:30 | Brezilya Serie B | Goias | Londrina | 32885 | 5 |
+| 11.08.2026 | 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald | Racing Montevid | 18407 | 3 |
+| 11.08.2026 | 03:00 | Ekvador Pro Lig | Deportivo Cuen | Manta | 22431 | 5 |
+| 11.08.2026 | 00:30 | Ekvador Pro Lig | Libertad | Univ Catolica ( | 22414 | 5 |
 
 ## Sonuc
 

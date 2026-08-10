@@ -4,18 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-10T20:07:40.690Z
+- Güncelleme: 2026-08-10T20:22:43.705Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Jong Az Alkmaa VS Fc Eindhoven | Hollanda Eerste Divisie | 21:00 | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
-| Psv (B) VS Volendam | Hollanda Eerste Divisie | 21:00 | MS X | 3.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Gimnasia Jujuy VS Tristan | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Runavik VS Skala | Faroe Adaları Master Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Volos Nfc VS Kalamata | Hazırlık Kulüpler | 21:00 | MS 2 | 3.33 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Botev Plovdiv VS Spartak Varna | Bulgaristan 1.Lig | 21:15 | MS 2 | 4.83 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Sepsi VS Fc Steaua | Romanya 1.Lig | 21:30 | MS 1 | 3.53 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Pendikspor VS Batman Petrol | Türkiye TFF 1. Lig | 21:30 | MS X | 2.85 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -40,13 +35,11 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Jong Az Alkmaa VS Fc Eindhoven | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Union Santa Fe VS Corboda Santiag | MS 2 | 5.73 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Jong Az Alkmaa VS Fc Eindhoven + Union Santa Fe VS Corboda Santiag | MS X + MS 2 | 20.40 | 68 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
