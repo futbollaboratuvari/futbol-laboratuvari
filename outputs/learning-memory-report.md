@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.08.2026 19:38:08
+Oluşturma: 10.08.2026 19:44:53
 
 ## Özet
 
-- Toplam tahmin: 31
-- Bekleyen tahmin: 31
+- Toplam tahmin: 32
+- Bekleyen tahmin: 32
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 21
@@ -20,12 +20,13 @@ Oluşturma: 10.08.2026 19:38:08
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS X: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-10 | Polonya 1.Lig | Unia Skierniew - Arka Gdynia | MS 1 | pending | 50/100
 - 2026-08-10 | Litvanya 1.Lig | Zalgiris Ii - Kauno Zalgiris | MS 2 | pending | 50/100
 - 2026-08-10 | Slovenya 1.SNL | Mura - Radomlje | MS X | pending | 50/100
 - 2026-08-10 | Ukrayna Premier Lig | Karpaty Lviv - Lnz Cherkasy | MS 1 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 10.08.2026 19:38:08
 - 2026-08-10 | Venezuela Premier Lig Clausura | Rayo Zuliano - Estudiantes Fc | MS X | pending | 40/100
 - 2026-08-10 | Slovakya 2.Lig | Povazska Bystr - Zlate Moravce | MS X | pending | 50/100
 - 2026-08-10 | Belarus 1.Lig | Volna Pinsk - Uni Minsk | MS X | pending | 50/100
-- 2026-08-10 | Romanya 1.Lig | Botosani - Hunedoara | MS X | pending | 40/100
 

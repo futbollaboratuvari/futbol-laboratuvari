@@ -1,26 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T16:37:25.234525+00:00
+Tarih: 2026-08-10T16:43:39.849111+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 27
+- Kac mac bulundu: 38
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 27
+- Kac mac zaten vardi: 38
 - Ham veri havuzu toplam mac sayisi: 5977
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
 - Faroe Adaları Master Lig
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
+- Kolombiya Primera A Clausura
 - Norveç 1.Lig
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
@@ -31,12 +34,14 @@ Tarih: 2026-08-10T16:37:25.234525+00:00
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Türkiye TFF 1. Lig
+- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İngiltere Lig Kupası 1.Tur
 - İsveç Allsvenskan
 - İsveç Superettan
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -115,6 +120,8 @@ Tarih: 2026-08-10T16:37:25.234525+00:00
 | 10.08.2026 | 20:00 | Danimarka Süperlig | Silkeborg | Odense | 20795 | 5 |
 | 10.08.2026 | 20:00 | İsveç Allsvenskan | Vasteras | Djurgarden | 25583 | 5 |
 | 10.08.2026 | 20:00 | İsveç Allsvenskan | Sirius | Brommapojkarna | 25358 | 5 |
+| 11.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Corboda Santiag | 29500 | 5 |
+| 11.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Belgrano | 29441 | 5 |
 | 10.08.2026 | 20:00 | Portekiz 2.Lig | Lusitania De L | Porto (B) | 34943 | 5 |
 | 10.08.2026 | 20:00 | Portekiz 2.Lig | Benfica (B) | Leixoes | 34910 | 5 |
 | 10.08.2026 | 21:15 | Bulgaristan 1.Lig | Botev Plovdiv | Spartak Varna | 32396 | 5 |
@@ -123,10 +130,8 @@ Tarih: 2026-08-10T16:37:25.234525+00:00
 | 10.08.2026 | 21:00 | Hazırlık Kulüpler | Volos Nfc | Kalamata | 09515 | 5 |
 | 10.08.2026 | 21:30 | Romanya 1.Lig | Sepsi | Fc Steaua | 35573 | 5 |
 | 10.08.2026 | 20:00 | Polonya 1.Lig | Unia Skierniew | Arka Gdynia | 31894 | 5 |
-| 10.08.2026 | 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano | Estudiantes Fc | 05292 | 5 |
-| 10.08.2026 | 21:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy | Tristan | 29424 | 3 |
-| 10.08.2026 | 22:15 | İzlanda Urvalsdeild | Fram | Kr Reykjavik | 34560 | 3 |
-| 10.08.2026 | 22:00 | Ekvador Pro Lig | T.Universitari | Mushuc Runa | 22397 | 5 |
+| 11.08.2026 | 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil | Llaneros | 13064 | 5 |
+| 11.08.2026 | 04:05 | Kolombiya Primera A Clausura | Atletico Junio | Pereira | 13005 | 5 |
 
 ## Sonuc
 
