@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
-Ham mac: 78
-Aktif mac: 44
-Canli mac: 5
-Biten mac: 29
+Ham mac: 79
+Aktif mac: 45
+Canli mac: 0
+Biten mac: 34
 Bultenden dusurulen mac: 34
-Bugun: 36
+Bugun: 37
 Yarin: 8
 
 ## Baslamamis Maclar
@@ -42,6 +42,7 @@ Yarin: 8
 - 2026-08-10 21:00 | Faroe Adaları Master Lig | Runavik - Skala | scheduled | -
 - 2026-08-10 21:15 | Bulgaristan 1.Lig | Botev Plovdiv - Spartak Varna | scheduled | -
 - 2026-08-10 21:30 | Romanya 1.Lig | Sepsi - Fc Steaua | scheduled | -
+- 2026-08-10 21:30 | Türkiye TFF 1. Lig | Pendikspor - Batman Petrol | scheduled | -
 - 2026-08-10 22:00 | İngiltere Lig Kupası 1.Tur | Plymouth - Exeter | scheduled | -
 - 2026-08-10 22:00 | Ekvador Pro Lig | T.Universitari - Mushuc Runa | scheduled | -
 - 2026-08-10 22:15 | Portekiz Premier Lig | Santa Clara - Nacional Madeir | scheduled | -
@@ -57,11 +58,7 @@ Yarin: 8
 - 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | scheduled | -
 
 ## Canli Maclar
-- 2026-08-10 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Puebla | live | -
-- 2026-08-10 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Managua | live | -
-- 2026-08-10 04:30 | Honduras Ulusal Lig Apertura | Atlético Indep - Choloma | live | -
-- 2026-08-10 05:00 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Club Tijuana | live | -
-- 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | live | -
+Canli mac yok.
 
 ## Biten Maclar
 - 2026-08-10 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - San Martin Sj | finished | -
@@ -93,3 +90,8 @@ Yarin: 8
 - 2026-08-10 03:00 | Şili Premier Lig | Univ. De Şili - Palestino | finished | -
 - 2026-08-10 03:00 | Kosta Rika Premier Lig Apertura | Herediano - Alajuelense | finished | -
 - 2026-08-10 03:00 | Ekvador Pro Lig | Guayaquil City - Emelec | finished | -
+- 2026-08-10 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Austin - Puebla | finished | -
+- 2026-08-10 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - Managua | finished | -
+- 2026-08-10 04:30 | Honduras Ulusal Lig Apertura | Atlético Indep - Choloma | finished | -
+- 2026-08-10 05:00 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Club Tijuana | finished | -
+- 2026-08-10 05:15 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Portland | finished | -
