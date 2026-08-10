@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 01:59:22
+Oluşturma: 11.08.2026 02:03:12
 
 ## Özet
 
-- Toplam tahmin: 38
-- Bekleyen tahmin: 38
+- Toplam tahmin: 84
+- Bekleyen tahmin: 84
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 26
+- Lig sayısı: 35
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 11.08.2026 01:59:22
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
-- MS X: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 54, bekleyen 54, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-11 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | MS 2 | pending | 40/100
-- 2026-08-11 | Brezilya Serie B | Goias - Londrina | MS 2 | pending | 50/100
-- 2026-08-11 | Kolombiya Primera A Clausura | Independiente - Los Millionario | MS X | pending | 40/100
-- 2026-08-11 | Şili Premier Lig | Audax Italiano - Atletico Nublen | MS X | pending | 40/100
-- 2026-08-11 | Ekvador Pro Lig | Deportivo Cuen - Manta | MS 2 | pending | 50/100
-- 2026-08-11 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | MS 2 | pending | 65/100
-- 2026-08-10 | Polonya 1.Lig | Unia Skierniew - Arka Gdynia | MS 1 | pending | 50/100
-- 2026-08-10 | Litvanya 1.Lig | Zalgiris Ii - Kauno Zalgiris | MS 2 | pending | 50/100
-- 2026-08-10 | Slovenya 1.SNL | Mura - Radomlje | MS X | pending | 50/100
-- 2026-08-10 | Ukrayna Premier Lig | Karpaty Lviv - Lnz Cherkasy | MS 1 | pending | 50/100
-- 2026-08-10 | Norveç 3.Lig Grup 3 | Askoy - Sogndal Ii | MS X | pending | 70/100
-- 2026-08-10 | Ukrayna Premier Lig | Karpaty Lviv - Lnz Cherkasy | MS X | pending | 50/100
-- 2026-08-10 | Hollanda Eerste Divisie | Jong Az Alkmaa - Fc Eindhoven | MS X | pending | 70/100
-- 2026-08-10 | Hollanda Eerste Divisie | Psv (B) - Volendam | MS X | pending | 60/100
-- 2026-08-10 | Hazırlık Kulüpler | Volos Nfc - Kalamata | MS 2 | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Stockton Town - Ashton United | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Havant And W. - Uxbridge | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Evesham United - Frome Town | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Poole Town - Sholing | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Bath City - Plymouth Parkwa | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Chertsey Town - Berkhamsted | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Chippenham Tow - Yate Town | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Hanwell - Basingstoke | MS 2 | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney | Taunton Town - Malvern Town | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Leiston - Bishops Stortfo | MS 2 | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Leighton Town - Kettering | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Alvechurch - Worcester City | MS X | pending | 40/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Stamford - Bury Town | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Banbury United - Racing Club War | MS 2 | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Stratford Town - Redditch United | MS X | pending | 50/100
 
