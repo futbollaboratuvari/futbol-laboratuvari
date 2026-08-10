@@ -1,19 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-10T10:49:20.743019+00:00
-=======
-Tarih: 2026-08-10T10:50:01.943682+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-10T11:54:44.681830+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-- Kac mac bulundu: 48
+- Durum: error
+- Kac mac bulundu: 49
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 48
-- Ham veri havuzu toplam mac sayisi: 5973
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -116,7 +112,8 @@ Tarih: 2026-08-10T10:50:01.943682+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -125,24 +122,24 @@ Tarih: 2026-08-10T10:50:01.943682+00:00
 | 10.08.2026 | 21:30 | Türkiye TFF 1. Lig | Pendikspor | Batman Petrol | 30343 | 5 |
 | 10.08.2026 | 22:15 | Portekiz Premier Lig | Santa Clara | Nacional Madeir | 22070 | 5 |
 | 10.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Plymouth | Exeter | 26980 | 5 |
-| 10.08.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Fc Eindhoven | 18690 | 5 |
 | 10.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Volendam | 18744 | 5 |
+| 10.08.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Fc Eindhoven | 18690 | 5 |
 | 10.08.2026 | 20:00 | Danimarka Süperlig | Silkeborg | Odense | 20795 | 5 |
-| 10.08.2026 | 20:00 | İsveç Allsvenskan | Sirius | Brommapojkarna | 25358 | 5 |
 | 10.08.2026 | 20:00 | İsveç Allsvenskan | Vasteras | Djurgarden | 25583 | 5 |
+| 10.08.2026 | 20:00 | İsveç Allsvenskan | Sirius | Brommapojkarna | 25358 | 5 |
 | 10.08.2026 | 19:30 | Rusya Premier Lig | Fakel Voronezh | Akhmat Grozny | 34199 | 5 |
-| 10.08.2026 | 15:30 | Ukrayna Premier Lig | Polessya | Metalist 1925 K | 27190 | 5 |
 | 10.08.2026 | 18:00 | Ukrayna Premier Lig | Karpaty Lviv | Lnz Cherkasy | 27207 | 3 |
+| 10.08.2026 | 15:30 | Ukrayna Premier Lig | Polessya | Metalist 1925 K | 27190 | 5 |
 | 10.08.2026 | 20:00 | Portekiz 2.Lig | Lusitania De L | Porto (B) | 34943 | 5 |
 | 10.08.2026 | 20:00 | Portekiz 2.Lig | Benfica (B) | Leixoes | 34910 | 5 |
-| 10.08.2026 | 19:00 | Bulgaristan 1.Lig | Botev Vratsa | Slavia Sofia | 32365 | 5 |
 | 10.08.2026 | 21:15 | Bulgaristan 1.Lig | Botev Plovdiv | Spartak Varna | 32396 | 5 |
+| 10.08.2026 | 19:00 | Bulgaristan 1.Lig | Botev Vratsa | Slavia Sofia | 32365 | 5 |
 | 10.08.2026 | 20:00 | İsveç Superettan | Norrby | Orebro | 25476 | 5 |
 | 10.08.2026 | 20:00 | Norveç 1.Lig | Moss | Odds Bk | 30241 | 5 |
-| 10.08.2026 | 21:00 | Hazırlık Kulüpler | Volos Nfc | Kalamata | 09515 | 3 |
-| 10.08.2026 | 18:30 | Romanya 1.Lig | Botosani | Hunedoara | 35540 | 5 |
+| 10.08.2026 | 21:00 | Hazırlık Kulüpler | Volos Nfc | Kalamata | 09515 | 5 |
 | 10.08.2026 | 21:30 | Romanya 1.Lig | Sepsi | Fc Steaua | 35573 | 5 |
+| 10.08.2026 | 18:30 | Romanya 1.Lig | Botosani | Hunedoara | 35540 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
