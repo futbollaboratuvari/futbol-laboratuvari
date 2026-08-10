@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 38
-Tam analiz: 33
-Eksik analiz: 5
+Toplam analiz: 29
+Tam analiz: 25
+Eksik analiz: 4
 
-- Lyn Oslo B VS Fram Larvik: eksik score, confidence
 - Rosenborg 2 VS Ranheim Ii: eksik score, confidence
 - Skjetten VS Lillestrom Sk I: eksik score, confidence
 - Gimnasia Jujuy VS Tristan: eksik score, confidence

@@ -2,21 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-10T18:36:24.236Z
+- Güncelleme: 2026-08-10T19:19:11.198Z
 - Ham maç sayısı: 40
 - Yarın bülteni maç sayısı: 11
 - Detay blok sayısı: 110
-- Aktif bülten maçı: 17
-- Bültenden düşürülen maç: 23
+- Aktif bülten maçı: 12
+- Bültenden düşürülen maç: 28
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Plymouth - Exeter | İngiltere Lig Kupası 1.Tur | 22:00 | Veri bekleniyor | - | 1.22 | 6 |
-| T.Universitari - Mushuc Runa | Ekvador Pro Lig | 22:00 | Veri bekleniyor | - | 2.41 | 8 |
-| Santa Clara - Nacional Madeir | Portekiz Premier Lig | 22:15 | Veri bekleniyor | - | 1.7 | 8 |
-| Fram - Kr Reykjavik | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.28 | 6 |
-| Vikingur Ol. - Selfoss | İzlanda 2.Lig | 22:15 | Veri bekleniyor | - | 2.24 | 6 |
 | Rayo Zuliano - Estudiantes Fc | Venezuela Premier Lig Clausura | 22:30 | Veri bekleniyor | - | 2.68 | 8 |
 | Rionegro Aguil - Llaneros | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.63 | 8 |
 | Libertad - Univ Catolica ( | Ekvador Pro Lig | 00:30 | Veri bekleniyor | - | 3.61 | 8 |
