@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 49
-Tam analiz: 42
+Toplam analiz: 48
+Tam analiz: 41
 Eksik analiz: 7
 
 - Smorgon VS Bate Ii: eksik score, confidence
