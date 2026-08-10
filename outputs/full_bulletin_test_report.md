@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 38
-- Live match count: 17
-- Finished removed count: 0
+- Scheduled match count: 26
+- Live match count: 23
+- Finished removed count: 6
 - Date window: 2026-08-10 / 2026-08-11 23:59
 
-- 2026-08-10 18:00 | Orsha - Molodechno | live
-- 2026-08-10 18:00 | Slonim - Bumprom | live
-- 2026-08-10 18:00 | Smorgon - Bate Ii | live
-- 2026-08-10 18:00 | Volna Pinsk - Uni Minsk | live
-- 2026-08-10 18:00 | Povazska Bystr - Zlate Moravce | live
-- 2026-08-10 18:00 | Karpaty Lviv - Lnz Cherkasy | live
 - 2026-08-10 18:30 | Botosani - Hunedoara | live
 - 2026-08-10 18:45 | Transinvest Vi - Fk Panevezys | live
 - 2026-08-10 19:00 | Botev Vratsa - Slavia Sofia | live
 - 2026-08-10 19:00 | Zalgiris Ii - Kauno Zalgiris | live
+- 2026-08-10 19:00 | Askoy - Sogndal Ii | live
+- 2026-08-10 19:00 | Haugesund Ii - Viking B | live
+- 2026-08-10 19:00 | Drobak/Frogn - Sandefjord Ii | live
+- 2026-08-10 19:00 | Lyn Oslo B - Fram Larvik | live
+- 2026-08-10 19:00 | Mura - Radomlje | live
+- 2026-08-10 19:30 | Daugava Riga - Grobina | live
