@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 62
-Tam analiz: 55
-Eksik analiz: 7
+Toplam analiz: 41
+Tam analiz: 35
+Eksik analiz: 6
 
-- Abd (U20) VS Meksika (U20): eksik score, confidence
 - Kongsvinger Ii VS Stromsgodset B: eksik score, confidence
 - Baerum VS Kfum Ii: eksik score, confidence
 - Rosenborg 2 VS Ranheim Ii: eksik score, confidence
