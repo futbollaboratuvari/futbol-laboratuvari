@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 26
-- Live match count: 23
-- Finished removed count: 6
+- Scheduled match count: 25
+- Live match count: 24
+- Finished removed count: 0
 - Date window: 2026-08-10 / 2026-08-11 23:59
 
 - 2026-08-10 18:30 | Botosani - Hunedoara | live

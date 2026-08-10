@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T16:43:39.849111+00:00
+Tarih: 2026-08-10T17:36:03.583896+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 38
+- Kac mac bulundu: 25
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 38
+- Kac mac zaten vardi: 25
 - Ham veri havuzu toplam mac sayisi: 5977
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
@@ -18,27 +18,17 @@ Tarih: 2026-08-10T16:43:39.849111+00:00
 - Arjantin Ulusal Primera Lig
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Danimarka Süperlig
 - Ekvador Pro Lig
 - Faroe Adaları Master Lig
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Kolombiya Primera A Clausura
-- Norveç 1.Lig
-- Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 5
-- Polonya 1.Lig
-- Portekiz 2.Lig
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İngiltere Lig Kupası 1.Tur
-- İsveç Allsvenskan
-- İsveç Superettan
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
 - Şili Premier Lig
@@ -98,8 +88,8 @@ Tarih: 2026-08-10T16:43:39.849111+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 30
-- Acilan detay: 30
+- Denenen Tumu alani: 20
+- Acilan detay: 20
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -117,21 +107,21 @@ Tarih: 2026-08-10T16:43:39.849111+00:00
 | 10.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Plymouth | Exeter | 26980 | 5 |
 | 10.08.2026 | 21:00 | Hollanda Eerste Divisie | Jong Az Alkmaa | Fc Eindhoven | 18690 | 5 |
 | 10.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Volendam | 18744 | 5 |
-| 10.08.2026 | 20:00 | Danimarka Süperlig | Silkeborg | Odense | 20795 | 5 |
-| 10.08.2026 | 20:00 | İsveç Allsvenskan | Vasteras | Djurgarden | 25583 | 5 |
-| 10.08.2026 | 20:00 | İsveç Allsvenskan | Sirius | Brommapojkarna | 25358 | 5 |
 | 11.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Corboda Santiag | 29500 | 5 |
 | 11.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Belgrano | 29441 | 5 |
-| 10.08.2026 | 20:00 | Portekiz 2.Lig | Lusitania De L | Porto (B) | 34943 | 5 |
-| 10.08.2026 | 20:00 | Portekiz 2.Lig | Benfica (B) | Leixoes | 34910 | 5 |
 | 10.08.2026 | 21:15 | Bulgaristan 1.Lig | Botev Plovdiv | Spartak Varna | 32396 | 5 |
-| 10.08.2026 | 20:00 | İsveç Superettan | Norrby | Orebro | 25476 | 5 |
-| 10.08.2026 | 20:00 | Norveç 1.Lig | Moss | Odds Bk | 30241 | 5 |
 | 10.08.2026 | 21:00 | Hazırlık Kulüpler | Volos Nfc | Kalamata | 09515 | 5 |
 | 10.08.2026 | 21:30 | Romanya 1.Lig | Sepsi | Fc Steaua | 35573 | 5 |
-| 10.08.2026 | 20:00 | Polonya 1.Lig | Unia Skierniew | Arka Gdynia | 31894 | 5 |
+| 11.08.2026 | 02:00 | Kolombiya Primera A Clausura | Independiente | Los Millionario | 00246 | 5 |
 | 11.08.2026 | 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil | Llaneros | 13064 | 5 |
 | 11.08.2026 | 04:05 | Kolombiya Primera A Clausura | Atletico Junio | Pereira | 13005 | 5 |
+| 10.08.2026 | 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano | Estudiantes Fc | 05292 | 5 |
+| 11.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Caracas Fc | Deportivo La Gu | 06051 | 5 |
+| 11.08.2026 | 03:00 | Şili Premier Lig | Audax Italiano | Atletico Nublen | 36248 | 5 |
+| 10.08.2026 | 21:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy | Tristan | 29424 | 3 |
+| 11.08.2026 | 01:30 | Brezilya Serie B | Goias | Londrina | 32885 | 5 |
+| 11.08.2026 | 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald | Racing Montevid | 18407 | 3 |
+| 10.08.2026 | 22:15 | İzlanda Urvalsdeild | Fram | Kr Reykjavik | 34560 | 3 |
 
 ## Sonuc
 
