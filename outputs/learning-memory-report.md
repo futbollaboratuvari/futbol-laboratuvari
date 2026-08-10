@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.08.2026 18:52:17
+Oluşturma: 10.08.2026 19:23:54
 
 ## Özet
 
@@ -29,7 +29,7 @@ Oluşturma: 10.08.2026 18:52:17
 - 2026-08-10 | Litvanya 1.Lig | Zalgiris Ii - Kauno Zalgiris | MS 2 | pending | 50/100
 - 2026-08-10 | Slovenya 1.SNL | Mura - Radomlje | MS X | pending | 50/100
 - 2026-08-10 | Ukrayna Premier Lig | Karpaty Lviv - Lnz Cherkasy | MS 1 | pending | 50/100
-- 2026-08-10 | Norveç 3.Lig Grup 3 | Askoy - Sogndal Ii | MS X | pending | 40/100
+- 2026-08-10 | Norveç 3.Lig Grup 3 | Askoy - Sogndal Ii | MS X | pending | 70/100
 - 2026-08-10 | Ukrayna Premier Lig | Karpaty Lviv - Lnz Cherkasy | MS X | pending | 50/100
 - 2026-08-10 | Hollanda Eerste Divisie | Jong Az Alkmaa - Fc Eindhoven | MS X | pending | 70/100
 - 2026-08-10 | Hollanda Eerste Divisie | Psv (B) - Volendam | MS X | pending | 60/100

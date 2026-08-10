@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-10T15:51:39.688Z
+- Güncelleme: 2026-08-10T16:23:06.657Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -22,13 +22,13 @@
 | Orsha VS Molodechno | Belarus 1.Lig | 18:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Botosani VS Hunedoara | Romanya 1.Lig | 18:30 | MS X | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Transinvest Vi VS Fk Panevezys | Litvanya A Ligi | 18:45 | MS 2 | 4.50 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Botev Vratsa VS Slavia Sofia | Bulgaristan 1.Lig | 19:00 | MS 2 | 3.37 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Mura VS Radomlje | Slovenya 1.SNL | 19:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Botev Vratsa VS Slavia Sofia | Bulgaristan 1.Lig | 19:00 | MS 2 | 3.37 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Mura VS Radomlje | Slovenya 1.SNL | 19:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Drobak/Frogn VS Sandefjord Ii | Norveç 3.Lig Grup 6 | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Zalgiris Ii VS Kauno Zalgiris | Litvanya 1.Lig | 19:00 | MS 2 | 3.30 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Zalgiris Ii VS Kauno Zalgiris | Litvanya 1.Lig | 19:00 | MS 2 | 3.30 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Haugesund Ii VS Viking B | Norveç 3.Lig Grup 4 | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Lyn Oslo B VS Fram Larvik | Norveç 3.Lig Grup 6 | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Askoy VS Sogndal Ii | Norveç 3.Lig Grup 3 | 19:00 | MS X | 3.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Askoy VS Sogndal Ii | Norveç 3.Lig Grup 3 | 19:00 | MS X | 3.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Fakel Voronezh VS Akhmat Grozny | Rusya Premier Lig | 19:30 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Daugava Riga VS Grobina | Letonya Virsliga | 19:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Silkeborg VS Odense | Danimarka Süperlig | 20:00 | MS X | 3.30 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
