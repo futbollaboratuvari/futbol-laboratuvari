@@ -1,14 +1,14 @@
 # Tahmin Kayit Saglik Kontrolu
 
-Durum: ok
-Robot analiz maci: 48
-Aday tahmin: 3
-Toplam tahmin: 45
-Bekleyen: 45
+Durum: empty
+Robot analiz maci: 0
+Aday tahmin: 0
+Toplam tahmin: 0
+Bekleyen: 0
 Kazanan: 0
 Kaybeden: 0
 Eksik kayit: 0
 Tekrar eden: 0
 
-Sonraki aksiyon: Sonuc takip asamasina gecilebilir.
+Sonraki aksiyon: Tahmin kaydi kontrol edilmeli.
 
