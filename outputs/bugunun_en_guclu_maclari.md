@@ -4,27 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-10T19:27:20.013Z
+- Güncelleme: 2026-08-10T19:41:06.162Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Fakel Voronezh VS Akhmat Grozny | Rusya Premier Lig | 19:30 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Daugava Riga VS Grobina | Letonya Virsliga | 19:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Silkeborg VS Odense | Danimarka Süperlig | 20:00 | MS X | 3.30 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Vasteras VS Djurgarden | İsveç Allsvenskan | 20:00 | MS 1 | 4.48 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Sirius VS Brommapojkarna | İsveç Allsvenskan | 20:00 | MS 2 | 5.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Benfica (B) VS Leixoes | Portekiz 2.Lig | 20:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Lusitania De L VS Porto (B) | Portekiz 2.Lig | 20:00 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Norrby VS Orebro | İsveç Superettan | 20:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Moss VS Odds Bk | Norveç 1.Lig | 20:00 | MS X | 3.36 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
-| Unia Skierniew VS Arka Gdynia | Polonya 1.Lig | 20:00 | MS 1 | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Baerum VS Kfum Ii | Norveç 3.Lig Grup 1 | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Rosenborg 2 VS Ranheim Ii | Norveç 3.Lig Grup 2 | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Asane Ii VS Austevoll | Norveç 3.Lig Grup 3 | 20:00 | MS X | 3.48 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
-| Skjetten VS Lillestrom Sk I | Norveç 3.Lig Grup 5 | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Kí Klaksvík VS Hb Torshavn | Faroe Adaları Master Lig | 20:30 | MS 2 | 4.20 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Jong Az Alkmaa VS Fc Eindhoven | Hollanda Eerste Divisie | 21:00 | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Psv (B) VS Volendam | Hollanda Eerste Divisie | 21:00 | MS X | 3.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
@@ -39,7 +25,7 @@
 | Santa Clara VS Nacional Madeir | Portekiz Premier Lig | 22:15 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Fram VS Kr Reykjavik | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Vikingur Ol. VS Selfoss | İzlanda 2.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Rayo Zuliano VS Estudiantes Fc | Venezuela Premier Lig Clausura | 22:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rayo Zuliano VS Estudiantes Fc | Venezuela Premier Lig Clausura | 22:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Rionegro Aguil VS Llaneros | Kolombiya Primera A Clausura | 00:00 | MS 2 | 3.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Libertad VS Univ Catolica ( | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Banfield VS Belgrano | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -56,17 +42,13 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Jong Az Alkmaa VS Fc Eindhoven | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Asane Ii VS Austevoll | MS X | 3.48 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Moss VS Odds Bk | MS X | 3.36 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Union Santa Fe VS Corboda Santiag | MS 2 | 5.73 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Jong Az Alkmaa VS Fc Eindhoven + Asane Ii VS Austevoll | MS X + MS X | 12.39 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Moss VS Odds Bk + Union Santa Fe VS Corboda Santiag | MS X + MS 2 | 19.25 | 68 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Jong Az Alkmaa VS Fc Eindhoven + Union Santa Fe VS Corboda Santiag | MS X + MS 2 | 20.40 | 68 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Jong Az Alkmaa VS Fc Eindhoven + Asane Ii VS Austevoll + Moss VS Odds Bk | MS X + MS X + MS X | 41.63 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
