@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-09T07:37:39+03:00
+Güncelleme: 2026-08-10T07:55:33+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 11
+- Toplam tahmin kaydı: 41
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -16,10 +16,14 @@ Güncelleme: 2026-08-09T07:37:39+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
+| Değerli market yok | 14 | 0 | 0 | 14 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 2 | 6 | 0 | 0 | 6 | %0 | 5.12 |
-| MS 2 + MS 2 | 3 | 0 | 0 | 3 | %0 | 26.37 |
-| MS 2 + MS 2 + MS 2 | 2 | 0 | 0 | 2 | %0 | 135.19 |
+| MS 1 | 2 | 0 | 0 | 2 | %0 | 3.44 |
+| MS 2 | 10 | 0 | 0 | 10 | %0 | 4.27 |
+| MS X | 12 | 0 | 0 | 12 | %0 | 3.13 |
+| MS X + MS 2 | 1 | 0 | 0 | 1 | %0 | 19.82 |
+| MS X + MS X | 1 | 0 | 0 | 1 | %0 | 12.48 |
+| MS X + MS X + MS X | 1 | 0 | 0 | 1 | %0 | 41.93 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -29,29 +33,44 @@ Güncelleme: 2026-08-09T07:37:39+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 3.00-4.99 | 4 | 0 | 0 | 4 | %0 | 4.81 |
-| 5.00+ | 7 | 0 | 0 | 7 | %0 | 51.57 |
+| 2.00-2.99 | 6 | 0 | 0 | 6 | %0 | 2.88 |
+| 3.00-4.99 | 16 | 0 | 0 | 16 | %0 | 3.55 |
+| 5.00+ | 5 | 0 | 0 | 5 | %0 | 17.44 |
+| bilinmiyor | 14 | 0 | 0 | 14 | %0 | 0 |
 
 ## Lig Hafızası
 
-Veri yok.
+| Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
+|---|---:|---:|---:|---:|---:|---:|
+| Arjantin Ulusal Primera Lig | 1 | 0 | 0 | 1 | %0 | 0 |
+| Bulgaristan 1.Lig | 2 | 0 | 0 | 2 | %0 | 4.11 |
+| Danimarka Süperlig | 1 | 0 | 0 | 1 | %0 | 3.29 |
+| Ekvador Pro Lig | 1 | 0 | 0 | 1 | %0 | 2.77 |
+| Faroe Adaları Master Lig | 2 | 0 | 0 | 2 | %0 | 4.2 |
+| Hollanda Eerste Divisie | 1 | 0 | 0 | 1 | %0 | 3.3 |
+| Letonya Virsliga | 1 | 0 | 0 | 1 | %0 | 0 |
+| Litvanya 1.Lig | 1 | 0 | 0 | 1 | %0 | 3.56 |
+| Litvanya A Ligi | 1 | 0 | 0 | 1 | %0 | 3.95 |
+| Norveç 3.Lig Grup 1 | 1 | 0 | 0 | 1 | %0 | 0 |
+| Norveç 3.Lig Grup 2 | 1 | 0 | 0 | 1 | %0 | 0 |
+| Norveç 3.Lig Grup 5 | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Glasgow Ranger VS Hibernian | 1 | 0 | 0 | 1 | %0 | 4.96 |
-| Glasgow Ranger VS Hibernian + Lugano VS Zurich | 1 | 0 | 0 | 1 | %0 | 24.55 |
-| Hammarby VS Hacken | 1 | 0 | 0 | 1 | %0 | 4.78 |
-| Hammarby VS Hacken + Liverpool VS Monaco | 1 | 0 | 0 | 1 | %0 | 21.7 |
-| Hammarby VS Hacken + Liverpool VS Monaco + Glasgow Ranger VS Hibernian | 1 | 0 | 0 | 1 | %0 | 107.64 |
-| Kuopion VS Turku | 1 | 0 | 0 | 1 | %0 | 5.61 |
-| Liverpool VS Monaco | 1 | 0 | 0 | 1 | %0 | 4.54 |
-| Lugano VS Zurich | 1 | 0 | 0 | 1 | %0 | 4.95 |
-| Lugano VS Zurich + Malmö VS Degerfors + Kuopion VS Turku | 1 | 0 | 0 | 1 | %0 | 162.73 |
-| Malmö VS Degerfors | 1 | 0 | 0 | 1 | %0 | 5.86 |
-| Malmö VS Degerfors + Kuopion VS Turku | 1 | 0 | 0 | 1 | %0 | 32.87 |
+| Asane Ii VS Austevoll | 1 | 0 | 0 | 1 | %0 | 3.67 |
+| Asane Ii VS Austevoll + Moss VS Odds Bk | 1 | 0 | 0 | 1 | %0 | 12.48 |
+| Asane Ii VS Austevoll + Moss VS Odds Bk + Jong Az Alkmaa VS Fc Eindhoven | 1 | 0 | 0 | 1 | %0 | 41.93 |
+| Baerum VS Kfum Ii | 1 | 0 | 0 | 1 | %0 | 0 |
+| Benfica (B) VS Leixoes | 1 | 0 | 0 | 1 | %0 | 3.0 |
+| Botev Plovdiv VS Spartak Varna | 1 | 0 | 0 | 1 | %0 | 4.78 |
+| Botev Vratsa VS Slavia Sofia | 1 | 0 | 0 | 1 | %0 | 3.43 |
+| Botosani VS Hunedoara | 1 | 0 | 0 | 1 | %0 | 2.85 |
+| Daugava Riga VS Grobina | 1 | 0 | 0 | 1 | %0 | 0 |
+| Drobak/Frogn VS Sandefjord Ii | 1 | 0 | 0 | 1 | %0 | 0 |
+| Fakel Voronezh VS Akhmat Grozny | 1 | 0 | 0 | 1 | %0 | 0 |
+| Fram VS Kr Reykjavik | 1 | 0 | 0 | 1 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -59,10 +78,14 @@ Veri yok.
 |---|---:|---|---:|---|
 | 2.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS X + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS X + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS X + MS X + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
@@ -75,6 +98,7 @@ Veri yok.
 | 2.00-2.99 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 3.00-4.99 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | 5.00+ | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| bilinmiyor | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
 ## Öğrenme Uyarıları
 
