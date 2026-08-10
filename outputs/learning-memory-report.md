@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 02:08:06
+Oluşturma: 11.08.2026 02:47:04
 
 ## Özet
 
-- Toplam tahmin: 84
-- Bekleyen tahmin: 84
+- Toplam tahmin: 85
+- Bekleyen tahmin: 85
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 35
@@ -20,12 +20,13 @@ Oluşturma: 11.08.2026 02:08:06
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 54, bekleyen 54, başarı bekleniyor, ağırlık 1
+- MS X: toplam 55, bekleyen 55, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) - (3) Union St.G | MS X | pending | 40/100
 - 2026-08-11 | İngiltere Non League Premier Kuzey | Stockton Town - Ashton United | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Havant And W. - Uxbridge | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Evesham United - Frome Town | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 11.08.2026 02:08:06
 - 2026-08-11 | İngiltere Non League Premier Güney Merkez | Alvechurch - Worcester City | MS X | pending | 40/100
 - 2026-08-11 | İngiltere Non League Premier Güney Merkez | Stamford - Bury Town | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney Merkez | Banbury United - Racing Club War | MS 2 | pending | 50/100
-- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Stratford Town - Redditch United | MS X | pending | 50/100
 

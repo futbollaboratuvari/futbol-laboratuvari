@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:08:06.154Z",
+  "generated_at": "2026-08-10T23:47:02.717Z",
   "date": "2026-08-11",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -450,7 +450,7 @@
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Düşük",
-      "status": "live",
+      "status": "finished",
       "expected_scores": [
         "0-1",
         "0-2",
@@ -3541,180 +3541,218 @@
       "match_name": "Bodo Glimt (3) VS (3) Union St.G",
       "league": "UEFA Şampiyonlar Ligi 3.Eleme Turu",
       "start_time": "19:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "MS X",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "3.92",
+      "estimated_odds": "3.81",
       "available_odds": {
-        "ms1": "1.40",
-        "msx": "3.88",
-        "ms2": "3.92",
-        "over25": "1.24",
-        "under25": "2.39",
+        "ms1": "1.44",
+        "msx": "3.81",
+        "ms2": "3.70",
+        "over25": "1.25",
+        "under25": "2.36",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
+        "bttsYes": "1.06",
+        "bttsNo": "1.06",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.4,
-        "msx": 3.88,
-        "ms2": 3.92,
-        "under25": 2.39,
-        "over25": 1.24
+        "ms1": 1.44,
+        "msx": 3.81,
+        "ms2": 3.7,
+        "under25": 2.36,
+        "over25": 1.25,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.06
       },
       "detail_market_candidates": [
         {
           "market_code": "05636",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.4,
-            "msx": 3.88,
-            "ms2": 3.92
+            "ms1": 1.44,
+            "msx": 3.81,
+            "ms2": 3.7
           }
         },
         {
           "market_code": "05636",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.4,
-            "firstHalfX_guess": 3.88,
-            "firstHalf2_guess": 3.92
+            "firstHalf1_guess": 1.44,
+            "firstHalfX_guess": 3.81,
+            "firstHalf2_guess": 3.7
           }
         },
         {
           "market_code": "05636",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.4,
-            "secondHalfX_guess": 3.88,
-            "secondHalf2_guess": 3.92
+            "secondHalf1_guess": 1.44,
+            "secondHalfX_guess": 3.81,
+            "secondHalf2_guess": 3.7
           }
         },
         {
           "market_code": "05636",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.4,
-            "handicapX_guess": 3.88,
-            "handicap2_guess": 3.92
+            "handicap1_guess": 1.44,
+            "handicapX_guess": 3.81,
+            "handicap2_guess": 3.7
           }
         },
         {
           "market_code": "05645",
           "market": "KG Var / Yok",
           "values": {
-            "bttsYes_guess": 2.39,
-            "bttsNo_guess": 1.24
+            "bttsYes_guess": 2.36,
+            "bttsNo_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İlk Yarı KG Var / Yok",
           "values": {
-            "firstHalfBttsYes_guess": 2.39,
-            "firstHalfBttsNo_guess": 1.24
+            "firstHalfBttsYes_guess": 2.36,
+            "firstHalfBttsNo_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İkinci Yarı KG Var / Yok",
           "values": {
-            "secondHalfBttsYes_guess": 2.39,
-            "secondHalfBttsNo_guess": 1.24
+            "secondHalfBttsYes_guess": 2.36,
+            "secondHalfBttsNo_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "0.5 Alt / Üst",
           "values": {
-            "under05_guess": 2.39,
-            "over05_guess": 1.24
+            "under05_guess": 2.36,
+            "over05_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "1.5 Alt / Üst",
           "values": {
-            "under15_guess": 2.39,
-            "over15_guess": 1.24
+            "under15_guess": 2.36,
+            "over15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "2.5 Alt / Üst",
           "values": {
-            "under25_guess": 2.39,
-            "over25_guess": 1.24
+            "under25_guess": 2.36,
+            "over25_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "3.5 Alt / Üst",
           "values": {
-            "under35_guess": 2.39,
-            "over35_guess": 1.24
+            "under35_guess": 2.36,
+            "over35_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "4.5 Alt / Üst",
           "values": {
-            "under45_guess": 2.39,
-            "over45_guess": 1.24
+            "under45_guess": 2.36,
+            "over45_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İlk Yarı 0.5 Alt / Üst",
           "values": {
-            "firstHalfUnder05_guess": 2.39,
-            "firstHalfOver05_guess": 1.24
+            "firstHalfUnder05_guess": 2.36,
+            "firstHalfOver05_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İlk Yarı 1.5 Alt / Üst",
           "values": {
-            "firstHalfUnder15_guess": 2.39,
-            "firstHalfOver15_guess": 1.24
+            "firstHalfUnder15_guess": 2.36,
+            "firstHalfOver15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İkinci Yarı 0.5 Alt / Üst",
           "values": {
-            "secondHalfUnder05_guess": 2.39,
-            "secondHalfOver05_guess": 1.24
+            "secondHalfUnder05_guess": 2.36,
+            "secondHalfOver05_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İkinci Yarı 1.5 Alt / Üst",
           "values": {
-            "secondHalfUnder15_guess": 2.39,
-            "secondHalfOver15_guess": 1.24
+            "secondHalfUnder15_guess": 2.36,
+            "secondHalfOver15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "Ev Sahibi 1.5 Alt / Üst",
           "values": {
-            "homeUnder15_guess": 2.39,
-            "homeOver15_guess": 1.24
+            "homeUnder15_guess": 2.36,
+            "homeOver15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "Deplasman 1.5 Alt / Üst",
           "values": {
-            "awayUnder15_guess": 2.39,
-            "awayOver15_guess": 1.24
+            "awayUnder15_guess": 2.36,
+            "awayOver15_guess": 1.25
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.06,
+            "msx": 1.06,
+            "ms2": 1.8
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.06,
+            "firstHalfX_guess": 1.06,
+            "firstHalf2_guess": 1.8
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.06,
+            "secondHalfX_guess": 1.06,
+            "secondHalf2_guess": 1.8
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.06,
+            "handicapX_guess": 1.06,
+            "handicap2_guess": 1.8
           }
         }
       ],
@@ -3722,47 +3760,47 @@
         {
           "market_code": "05636",
           "values": [
-            1.4,
-            3.88,
-            3.92
+            1.44,
+            3.81,
+            3.7
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.4,
-            "msx": 3.88,
-            "ms2": 3.92
+            "ms1": 1.44,
+            "msx": 3.81,
+            "ms2": 3.7
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.4,
-                "msx": 3.88,
-                "ms2": 3.92
+                "ms1": 1.44,
+                "msx": 3.81,
+                "ms2": 3.7
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.4,
-                "firstHalfX_guess": 3.88,
-                "firstHalf2_guess": 3.92
+                "firstHalf1_guess": 1.44,
+                "firstHalfX_guess": 3.81,
+                "firstHalf2_guess": 3.7
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.4,
-                "secondHalfX_guess": 3.88,
-                "secondHalf2_guess": 3.92
+                "secondHalf1_guess": 1.44,
+                "secondHalfX_guess": 3.81,
+                "secondHalf2_guess": 3.7
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.4,
-                "handicapX_guess": 3.88,
-                "handicap2_guess": 3.92
+                "handicap1_guess": 1.44,
+                "handicapX_guess": 3.81,
+                "handicap2_guess": 3.7
               }
             }
           ]
@@ -3770,111 +3808,111 @@
         {
           "market_code": "05645",
           "values": [
-            2.39,
-            1.24
+            2.36,
+            1.25
           ],
           "guess": "2.5 Alt / Üst",
           "named_values": {
-            "under25": 2.39,
-            "over25": 1.24
+            "under25": 2.36,
+            "over25": 1.25
           },
           "detail_market_candidates": [
             {
               "market": "KG Var / Yok",
               "values": {
-                "bttsYes_guess": 2.39,
-                "bttsNo_guess": 1.24
+                "bttsYes_guess": 2.36,
+                "bttsNo_guess": 1.25
               }
             },
             {
               "market": "İlk Yarı KG Var / Yok",
               "values": {
-                "firstHalfBttsYes_guess": 2.39,
-                "firstHalfBttsNo_guess": 1.24
+                "firstHalfBttsYes_guess": 2.36,
+                "firstHalfBttsNo_guess": 1.25
               }
             },
             {
               "market": "İkinci Yarı KG Var / Yok",
               "values": {
-                "secondHalfBttsYes_guess": 2.39,
-                "secondHalfBttsNo_guess": 1.24
+                "secondHalfBttsYes_guess": 2.36,
+                "secondHalfBttsNo_guess": 1.25
               }
             },
             {
               "market": "0.5 Alt / Üst",
               "values": {
-                "under05_guess": 2.39,
-                "over05_guess": 1.24
+                "under05_guess": 2.36,
+                "over05_guess": 1.25
               }
             },
             {
               "market": "1.5 Alt / Üst",
               "values": {
-                "under15_guess": 2.39,
-                "over15_guess": 1.24
+                "under15_guess": 2.36,
+                "over15_guess": 1.25
               }
             },
             {
               "market": "2.5 Alt / Üst",
               "values": {
-                "under25_guess": 2.39,
-                "over25_guess": 1.24
+                "under25_guess": 2.36,
+                "over25_guess": 1.25
               }
             },
             {
               "market": "3.5 Alt / Üst",
               "values": {
-                "under35_guess": 2.39,
-                "over35_guess": 1.24
+                "under35_guess": 2.36,
+                "over35_guess": 1.25
               }
             },
             {
               "market": "4.5 Alt / Üst",
               "values": {
-                "under45_guess": 2.39,
-                "over45_guess": 1.24
+                "under45_guess": 2.36,
+                "over45_guess": 1.25
               }
             },
             {
               "market": "İlk Yarı 0.5 Alt / Üst",
               "values": {
-                "firstHalfUnder05_guess": 2.39,
-                "firstHalfOver05_guess": 1.24
+                "firstHalfUnder05_guess": 2.36,
+                "firstHalfOver05_guess": 1.25
               }
             },
             {
               "market": "İlk Yarı 1.5 Alt / Üst",
               "values": {
-                "firstHalfUnder15_guess": 2.39,
-                "firstHalfOver15_guess": 1.24
+                "firstHalfUnder15_guess": 2.36,
+                "firstHalfOver15_guess": 1.25
               }
             },
             {
               "market": "İkinci Yarı 0.5 Alt / Üst",
               "values": {
-                "secondHalfUnder05_guess": 2.39,
-                "secondHalfOver05_guess": 1.24
+                "secondHalfUnder05_guess": 2.36,
+                "secondHalfOver05_guess": 1.25
               }
             },
             {
               "market": "İkinci Yarı 1.5 Alt / Üst",
               "values": {
-                "secondHalfUnder15_guess": 2.39,
-                "secondHalfOver15_guess": 1.24
+                "secondHalfUnder15_guess": 2.36,
+                "secondHalfOver15_guess": 1.25
               }
             },
             {
               "market": "Ev Sahibi 1.5 Alt / Üst",
               "values": {
-                "homeUnder15_guess": 2.39,
-                "homeOver15_guess": 1.24
+                "homeUnder15_guess": 2.36,
+                "homeOver15_guess": 1.25
               }
             },
             {
               "market": "Deplasman 1.5 Alt / Üst",
               "values": {
-                "awayUnder15_guess": 2.39,
-                "awayOver15_guess": 1.24
+                "awayUnder15_guess": 2.36,
+                "awayOver15_guess": 1.25
               }
             }
           ]
@@ -3882,11 +3920,49 @@
         {
           "market_code": "05637",
           "values": [
-            1.87
+            1.06,
+            1.06,
+            1.8
           ],
-          "guess": "Ham detay market",
-          "named_values": {},
-          "detail_market_candidates": []
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.06,
+            "bttsNo_guess": 1.06
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.06,
+                "msx": 1.06,
+                "ms2": 1.8
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.06,
+                "firstHalfX_guess": 1.06,
+                "firstHalf2_guess": 1.8
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.06,
+                "secondHalfX_guess": 1.06,
+                "secondHalf2_guess": 1.8
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.06,
+                "handicapX_guess": 1.06,
+                "handicap2_guess": 1.8
+              }
+            }
+          ]
         }
       ],
       "odds_source": "Robot ham veri havuzu",
@@ -3895,18 +3971,18 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 3.92 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 3.81 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Orta",
       "status": "scheduled",
       "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
+        "0-0",
+        "1-1",
+        "2-2"
       ],
       "learning_adjustment": {
-        "market": "MS 2",
+        "market": "MS X",
         "league": "UEFA Şampiyonlar Ligi 3.Eleme Turu",
         "delta": 0,
         "weight": 1,
@@ -3915,8 +3991,8 @@
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
         "market_bucket": {
-          "total": 25,
-          "pending": 25,
+          "total": 54,
+          "pending": 54,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -3935,8 +4011,8 @@
           "confidence_adjustment": 0
         },
         "league_market_bucket": {
-          "total": 3,
-          "pending": 3,
+          "total": 2,
+          "pending": 2,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -5550,16 +5626,16 @@
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
-      "estimated_odds": "3.13",
+      "estimated_odds": "3.11",
       "available_odds": {
-        "ms1": "1.89",
-        "msx": "3.13",
-        "ms2": "2.66",
+        "ms1": "1.96",
+        "msx": "3.11",
+        "ms2": "2.53",
         "over25": "1.41",
         "under25": "1.94",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.18",
+        "bttsYes": "1.20",
         "bttsNo": "1.12",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -5567,12 +5643,12 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.89,
-        "msx": 3.13,
-        "ms2": 2.66,
+        "ms1": 1.96,
+        "msx": 3.11,
+        "ms2": 2.53,
         "under25": 1.94,
         "over25": 1.41,
-        "bttsYes_guess": 1.18,
+        "bttsYes_guess": 1.2,
         "bttsNo_guess": 1.12
       },
       "detail_market_candidates": [
@@ -5580,36 +5656,36 @@
           "market_code": "12269",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.89,
-            "msx": 3.13,
-            "ms2": 2.66
+            "ms1": 1.96,
+            "msx": 3.11,
+            "ms2": 2.53
           }
         },
         {
           "market_code": "12269",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.89,
-            "firstHalfX_guess": 3.13,
-            "firstHalf2_guess": 2.66
+            "firstHalf1_guess": 1.96,
+            "firstHalfX_guess": 3.11,
+            "firstHalf2_guess": 2.53
           }
         },
         {
           "market_code": "12269",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.89,
-            "secondHalfX_guess": 3.13,
-            "secondHalf2_guess": 2.66
+            "secondHalf1_guess": 1.96,
+            "secondHalfX_guess": 3.11,
+            "secondHalf2_guess": 2.53
           }
         },
         {
           "market_code": "12269",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.89,
-            "handicapX_guess": 3.13,
-            "handicap2_guess": 2.66
+            "handicap1_guess": 1.96,
+            "handicapX_guess": 3.11,
+            "handicap2_guess": 2.53
           }
         },
         {
@@ -5728,36 +5804,36 @@
           "market_code": "12270",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.18,
+            "ms1": 1.2,
             "msx": 1.12,
-            "ms2": 1.42
+            "ms2": 1.38
           }
         },
         {
           "market_code": "12270",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.18,
+            "firstHalf1_guess": 1.2,
             "firstHalfX_guess": 1.12,
-            "firstHalf2_guess": 1.42
+            "firstHalf2_guess": 1.38
           }
         },
         {
           "market_code": "12270",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.18,
+            "secondHalf1_guess": 1.2,
             "secondHalfX_guess": 1.12,
-            "secondHalf2_guess": 1.42
+            "secondHalf2_guess": 1.38
           }
         },
         {
           "market_code": "12270",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.18,
+            "handicap1_guess": 1.2,
             "handicapX_guess": 1.12,
-            "handicap2_guess": 1.42
+            "handicap2_guess": 1.38
           }
         }
       ],
@@ -5765,47 +5841,47 @@
         {
           "market_code": "12269",
           "values": [
-            1.89,
-            3.13,
-            2.66
+            1.96,
+            3.11,
+            2.53
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.89,
-            "msx": 3.13,
-            "ms2": 2.66
+            "ms1": 1.96,
+            "msx": 3.11,
+            "ms2": 2.53
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.89,
-                "msx": 3.13,
-                "ms2": 2.66
+                "ms1": 1.96,
+                "msx": 3.11,
+                "ms2": 2.53
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.89,
-                "firstHalfX_guess": 3.13,
-                "firstHalf2_guess": 2.66
+                "firstHalf1_guess": 1.96,
+                "firstHalfX_guess": 3.11,
+                "firstHalf2_guess": 2.53
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.89,
-                "secondHalfX_guess": 3.13,
-                "secondHalf2_guess": 2.66
+                "secondHalf1_guess": 1.96,
+                "secondHalfX_guess": 3.11,
+                "secondHalf2_guess": 2.53
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.89,
-                "handicapX_guess": 3.13,
-                "handicap2_guess": 2.66
+                "handicap1_guess": 1.96,
+                "handicapX_guess": 3.11,
+                "handicap2_guess": 2.53
               }
             }
           ]
@@ -5925,46 +6001,46 @@
         {
           "market_code": "12270",
           "values": [
-            1.18,
+            1.2,
             1.12,
-            1.42
+            1.38
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.18,
+            "bttsYes_guess": 1.2,
             "bttsNo_guess": 1.12
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.18,
+                "ms1": 1.2,
                 "msx": 1.12,
-                "ms2": 1.42
+                "ms2": 1.38
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.18,
+                "firstHalf1_guess": 1.2,
                 "firstHalfX_guess": 1.12,
-                "firstHalf2_guess": 1.42
+                "firstHalf2_guess": 1.38
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.18,
+                "secondHalf1_guess": 1.2,
                 "secondHalfX_guess": 1.12,
-                "secondHalf2_guess": 1.42
+                "secondHalf2_guess": 1.38
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.18,
+                "handicap1_guess": 1.2,
                 "handicapX_guess": 1.12,
-                "handicap2_guess": 1.42
+                "handicap2_guess": 1.38
               }
             }
           ]
@@ -5976,7 +6052,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 3.13 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 3.11 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Düşük",
@@ -6520,11 +6596,11 @@
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "5.26",
+      "estimated_odds": "5.25",
       "available_odds": {
         "ms1": "1.10",
-        "msx": "5.26",
-        "ms2": "8.19",
+        "msx": "5.25",
+        "ms2": "8.17",
         "over25": "1.25",
         "under25": "2.34",
         "over35": "-",
@@ -6538,8 +6614,8 @@
       },
       "raw_market_guess_odds": {
         "ms1": 1.1,
-        "msx": 5.26,
-        "ms2": 8.19,
+        "msx": 5.25,
+        "ms2": 8.17,
         "under25": 2.34,
         "over25": 1.25
       },
@@ -6549,8 +6625,8 @@
           "market": "Maç Sonucu 1/X/2",
           "values": {
             "ms1": 1.1,
-            "msx": 5.26,
-            "ms2": 8.19
+            "msx": 5.25,
+            "ms2": 8.17
           }
         },
         {
@@ -6558,8 +6634,8 @@
           "market": "İlk Yarı 1/X/2",
           "values": {
             "firstHalf1_guess": 1.1,
-            "firstHalfX_guess": 5.26,
-            "firstHalf2_guess": 8.19
+            "firstHalfX_guess": 5.25,
+            "firstHalf2_guess": 8.17
           }
         },
         {
@@ -6567,8 +6643,8 @@
           "market": "İkinci Yarı 1/X/2",
           "values": {
             "secondHalf1_guess": 1.1,
-            "secondHalfX_guess": 5.26,
-            "secondHalf2_guess": 8.19
+            "secondHalfX_guess": 5.25,
+            "secondHalf2_guess": 8.17
           }
         },
         {
@@ -6576,8 +6652,8 @@
           "market": "Handikap 1/X/2",
           "values": {
             "handicap1_guess": 1.1,
-            "handicapX_guess": 5.26,
-            "handicap2_guess": 8.19
+            "handicapX_guess": 5.25,
+            "handicap2_guess": 8.17
           }
         },
         {
@@ -6698,46 +6774,46 @@
           "market_code": "06292",
           "values": [
             1.1,
-            5.26,
-            8.19
+            5.25,
+            8.17
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
             "ms1": 1.1,
-            "msx": 5.26,
-            "ms2": 8.19
+            "msx": 5.25,
+            "ms2": 8.17
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
                 "ms1": 1.1,
-                "msx": 5.26,
-                "ms2": 8.19
+                "msx": 5.25,
+                "ms2": 8.17
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
                 "firstHalf1_guess": 1.1,
-                "firstHalfX_guess": 5.26,
-                "firstHalf2_guess": 8.19
+                "firstHalfX_guess": 5.25,
+                "firstHalf2_guess": 8.17
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
                 "secondHalf1_guess": 1.1,
-                "secondHalfX_guess": 5.26,
-                "secondHalf2_guess": 8.19
+                "secondHalfX_guess": 5.25,
+                "secondHalf2_guess": 8.17
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
                 "handicap1_guess": 1.1,
-                "handicapX_guess": 5.26,
-                "handicap2_guess": 8.19
+                "handicapX_guess": 5.25,
+                "handicap2_guess": 8.17
               }
             }
           ]
@@ -6857,7 +6933,7 @@
         {
           "market_code": "06293",
           "values": [
-            2.88
+            2.87
           ],
           "guess": "Ham detay market",
           "named_values": {},
@@ -6870,7 +6946,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 5.26 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 5.25 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Orta",
@@ -9980,11 +10056,11 @@
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "2.82",
+      "estimated_odds": "2.83",
       "available_odds": {
         "ms1": "2.08",
-        "msx": "2.82",
-        "ms2": "2.56",
+        "msx": "2.83",
+        "ms2": "2.55",
         "over25": "1.71",
         "under25": "1.56",
         "over35": "-",
@@ -9998,8 +10074,8 @@
       },
       "raw_market_guess_odds": {
         "ms1": 2.08,
-        "msx": 2.82,
-        "ms2": 2.56,
+        "msx": 2.83,
+        "ms2": 2.55,
         "under25": 1.56,
         "over25": 1.71,
         "bttsYes_guess": 1.2,
@@ -10011,8 +10087,8 @@
           "market": "Maç Sonucu 1/X/2",
           "values": {
             "ms1": 2.08,
-            "msx": 2.82,
-            "ms2": 2.56
+            "msx": 2.83,
+            "ms2": 2.55
           }
         },
         {
@@ -10020,8 +10096,8 @@
           "market": "İlk Yarı 1/X/2",
           "values": {
             "firstHalf1_guess": 2.08,
-            "firstHalfX_guess": 2.82,
-            "firstHalf2_guess": 2.56
+            "firstHalfX_guess": 2.83,
+            "firstHalf2_guess": 2.55
           }
         },
         {
@@ -10029,8 +10105,8 @@
           "market": "İkinci Yarı 1/X/2",
           "values": {
             "secondHalf1_guess": 2.08,
-            "secondHalfX_guess": 2.82,
-            "secondHalf2_guess": 2.56
+            "secondHalfX_guess": 2.83,
+            "secondHalf2_guess": 2.55
           }
         },
         {
@@ -10038,8 +10114,8 @@
           "market": "Handikap 1/X/2",
           "values": {
             "handicap1_guess": 2.08,
-            "handicapX_guess": 2.82,
-            "handicap2_guess": 2.56
+            "handicapX_guess": 2.83,
+            "handicap2_guess": 2.55
           }
         },
         {
@@ -10196,46 +10272,46 @@
           "market_code": "12793",
           "values": [
             2.08,
-            2.82,
-            2.56
+            2.83,
+            2.55
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
             "ms1": 2.08,
-            "msx": 2.82,
-            "ms2": 2.56
+            "msx": 2.83,
+            "ms2": 2.55
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
                 "ms1": 2.08,
-                "msx": 2.82,
-                "ms2": 2.56
+                "msx": 2.83,
+                "ms2": 2.55
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
                 "firstHalf1_guess": 2.08,
-                "firstHalfX_guess": 2.82,
-                "firstHalf2_guess": 2.56
+                "firstHalfX_guess": 2.83,
+                "firstHalf2_guess": 2.55
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
                 "secondHalf1_guess": 2.08,
-                "secondHalfX_guess": 2.82,
-                "secondHalf2_guess": 2.56
+                "secondHalfX_guess": 2.83,
+                "secondHalf2_guess": 2.55
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
                 "handicap1_guess": 2.08,
-                "handicapX_guess": 2.82,
-                "handicap2_guess": 2.56
+                "handicapX_guess": 2.83,
+                "handicap2_guess": 2.55
               }
             }
           ]
@@ -10406,7 +10482,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 2.82 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 2.83 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Düşük",
@@ -10467,14 +10543,14 @@
       "risk_level": "Yüksek",
       "estimated_odds": "2.82",
       "available_odds": {
-        "ms1": "2.41",
+        "ms1": "2.45",
         "msx": "2.82",
-        "ms2": "2.19",
-        "over25": "1.81",
-        "under25": "1.49",
+        "ms2": "2.16",
+        "over25": "1.83",
+        "under25": "1.47",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.29",
+        "bttsYes": "1.31",
         "bttsNo": "1.16",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -10482,12 +10558,12 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 2.41,
+        "ms1": 2.45,
         "msx": 2.82,
-        "ms2": 2.19,
-        "under25": 1.49,
-        "over25": 1.81,
-        "bttsYes_guess": 1.29,
+        "ms2": 2.16,
+        "under25": 1.47,
+        "over25": 1.83,
+        "bttsYes_guess": 1.31,
         "bttsNo_guess": 1.16
       },
       "detail_market_candidates": [
@@ -10495,184 +10571,184 @@
           "market_code": "13092",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 2.41,
+            "ms1": 2.45,
             "msx": 2.82,
-            "ms2": 2.19
+            "ms2": 2.16
           }
         },
         {
           "market_code": "13092",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 2.41,
+            "firstHalf1_guess": 2.45,
             "firstHalfX_guess": 2.82,
-            "firstHalf2_guess": 2.19
+            "firstHalf2_guess": 2.16
           }
         },
         {
           "market_code": "13092",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 2.41,
+            "secondHalf1_guess": 2.45,
             "secondHalfX_guess": 2.82,
-            "secondHalf2_guess": 2.19
+            "secondHalf2_guess": 2.16
           }
         },
         {
           "market_code": "13092",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 2.41,
+            "handicap1_guess": 2.45,
             "handicapX_guess": 2.82,
-            "handicap2_guess": 2.19
+            "handicap2_guess": 2.16
           }
         },
         {
           "market_code": "13096",
           "market": "KG Var / Yok",
           "values": {
-            "bttsYes_guess": 1.49,
-            "bttsNo_guess": 1.81
+            "bttsYes_guess": 1.47,
+            "bttsNo_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İlk Yarı KG Var / Yok",
           "values": {
-            "firstHalfBttsYes_guess": 1.49,
-            "firstHalfBttsNo_guess": 1.81
+            "firstHalfBttsYes_guess": 1.47,
+            "firstHalfBttsNo_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İkinci Yarı KG Var / Yok",
           "values": {
-            "secondHalfBttsYes_guess": 1.49,
-            "secondHalfBttsNo_guess": 1.81
+            "secondHalfBttsYes_guess": 1.47,
+            "secondHalfBttsNo_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "0.5 Alt / Üst",
           "values": {
-            "under05_guess": 1.49,
-            "over05_guess": 1.81
+            "under05_guess": 1.47,
+            "over05_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "1.5 Alt / Üst",
           "values": {
-            "under15_guess": 1.49,
-            "over15_guess": 1.81
+            "under15_guess": 1.47,
+            "over15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "2.5 Alt / Üst",
           "values": {
-            "under25_guess": 1.49,
-            "over25_guess": 1.81
+            "under25_guess": 1.47,
+            "over25_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "3.5 Alt / Üst",
           "values": {
-            "under35_guess": 1.49,
-            "over35_guess": 1.81
+            "under35_guess": 1.47,
+            "over35_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "4.5 Alt / Üst",
           "values": {
-            "under45_guess": 1.49,
-            "over45_guess": 1.81
+            "under45_guess": 1.47,
+            "over45_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İlk Yarı 0.5 Alt / Üst",
           "values": {
-            "firstHalfUnder05_guess": 1.49,
-            "firstHalfOver05_guess": 1.81
+            "firstHalfUnder05_guess": 1.47,
+            "firstHalfOver05_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İlk Yarı 1.5 Alt / Üst",
           "values": {
-            "firstHalfUnder15_guess": 1.49,
-            "firstHalfOver15_guess": 1.81
+            "firstHalfUnder15_guess": 1.47,
+            "firstHalfOver15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İkinci Yarı 0.5 Alt / Üst",
           "values": {
-            "secondHalfUnder05_guess": 1.49,
-            "secondHalfOver05_guess": 1.81
+            "secondHalfUnder05_guess": 1.47,
+            "secondHalfOver05_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İkinci Yarı 1.5 Alt / Üst",
           "values": {
-            "secondHalfUnder15_guess": 1.49,
-            "secondHalfOver15_guess": 1.81
+            "secondHalfUnder15_guess": 1.47,
+            "secondHalfOver15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "Ev Sahibi 1.5 Alt / Üst",
           "values": {
-            "homeUnder15_guess": 1.49,
-            "homeOver15_guess": 1.81
+            "homeUnder15_guess": 1.47,
+            "homeOver15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "Deplasman 1.5 Alt / Üst",
           "values": {
-            "awayUnder15_guess": 1.49,
-            "awayOver15_guess": 1.81
+            "awayUnder15_guess": 1.47,
+            "awayOver15_guess": 1.83
           }
         },
         {
           "market_code": "13093",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.29,
+            "ms1": 1.31,
             "msx": 1.16,
-            "ms2": 1.23
+            "ms2": 1.22
           }
         },
         {
           "market_code": "13093",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.29,
+            "firstHalf1_guess": 1.31,
             "firstHalfX_guess": 1.16,
-            "firstHalf2_guess": 1.23
+            "firstHalf2_guess": 1.22
           }
         },
         {
           "market_code": "13093",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.29,
+            "secondHalf1_guess": 1.31,
             "secondHalfX_guess": 1.16,
-            "secondHalf2_guess": 1.23
+            "secondHalf2_guess": 1.22
           }
         },
         {
           "market_code": "13093",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.29,
+            "handicap1_guess": 1.31,
             "handicapX_guess": 1.16,
-            "handicap2_guess": 1.23
+            "handicap2_guess": 1.22
           }
         }
       ],
@@ -10680,47 +10756,47 @@
         {
           "market_code": "13092",
           "values": [
-            2.41,
+            2.45,
             2.82,
-            2.19
+            2.16
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 2.41,
+            "ms1": 2.45,
             "msx": 2.82,
-            "ms2": 2.19
+            "ms2": 2.16
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.41,
+                "ms1": 2.45,
                 "msx": 2.82,
-                "ms2": 2.19
+                "ms2": 2.16
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.41,
+                "firstHalf1_guess": 2.45,
                 "firstHalfX_guess": 2.82,
-                "firstHalf2_guess": 2.19
+                "firstHalf2_guess": 2.16
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.41,
+                "secondHalf1_guess": 2.45,
                 "secondHalfX_guess": 2.82,
-                "secondHalf2_guess": 2.19
+                "secondHalf2_guess": 2.16
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.41,
+                "handicap1_guess": 2.45,
                 "handicapX_guess": 2.82,
-                "handicap2_guess": 2.19
+                "handicap2_guess": 2.16
               }
             }
           ]
@@ -10728,111 +10804,111 @@
         {
           "market_code": "13096",
           "values": [
-            1.49,
-            1.81
+            1.47,
+            1.83
           ],
           "guess": "2.5 Alt / Üst",
           "named_values": {
-            "under25": 1.49,
-            "over25": 1.81
+            "under25": 1.47,
+            "over25": 1.83
           },
           "detail_market_candidates": [
             {
               "market": "KG Var / Yok",
               "values": {
-                "bttsYes_guess": 1.49,
-                "bttsNo_guess": 1.81
+                "bttsYes_guess": 1.47,
+                "bttsNo_guess": 1.83
               }
             },
             {
               "market": "İlk Yarı KG Var / Yok",
               "values": {
-                "firstHalfBttsYes_guess": 1.49,
-                "firstHalfBttsNo_guess": 1.81
+                "firstHalfBttsYes_guess": 1.47,
+                "firstHalfBttsNo_guess": 1.83
               }
             },
             {
               "market": "İkinci Yarı KG Var / Yok",
               "values": {
-                "secondHalfBttsYes_guess": 1.49,
-                "secondHalfBttsNo_guess": 1.81
+                "secondHalfBttsYes_guess": 1.47,
+                "secondHalfBttsNo_guess": 1.83
               }
             },
             {
               "market": "0.5 Alt / Üst",
               "values": {
-                "under05_guess": 1.49,
-                "over05_guess": 1.81
+                "under05_guess": 1.47,
+                "over05_guess": 1.83
               }
             },
             {
               "market": "1.5 Alt / Üst",
               "values": {
-                "under15_guess": 1.49,
-                "over15_guess": 1.81
+                "under15_guess": 1.47,
+                "over15_guess": 1.83
               }
             },
             {
               "market": "2.5 Alt / Üst",
               "values": {
-                "under25_guess": 1.49,
-                "over25_guess": 1.81
+                "under25_guess": 1.47,
+                "over25_guess": 1.83
               }
             },
             {
               "market": "3.5 Alt / Üst",
               "values": {
-                "under35_guess": 1.49,
-                "over35_guess": 1.81
+                "under35_guess": 1.47,
+                "over35_guess": 1.83
               }
             },
             {
               "market": "4.5 Alt / Üst",
               "values": {
-                "under45_guess": 1.49,
-                "over45_guess": 1.81
+                "under45_guess": 1.47,
+                "over45_guess": 1.83
               }
             },
             {
               "market": "İlk Yarı 0.5 Alt / Üst",
               "values": {
-                "firstHalfUnder05_guess": 1.49,
-                "firstHalfOver05_guess": 1.81
+                "firstHalfUnder05_guess": 1.47,
+                "firstHalfOver05_guess": 1.83
               }
             },
             {
               "market": "İlk Yarı 1.5 Alt / Üst",
               "values": {
-                "firstHalfUnder15_guess": 1.49,
-                "firstHalfOver15_guess": 1.81
+                "firstHalfUnder15_guess": 1.47,
+                "firstHalfOver15_guess": 1.83
               }
             },
             {
               "market": "İkinci Yarı 0.5 Alt / Üst",
               "values": {
-                "secondHalfUnder05_guess": 1.49,
-                "secondHalfOver05_guess": 1.81
+                "secondHalfUnder05_guess": 1.47,
+                "secondHalfOver05_guess": 1.83
               }
             },
             {
               "market": "İkinci Yarı 1.5 Alt / Üst",
               "values": {
-                "secondHalfUnder15_guess": 1.49,
-                "secondHalfOver15_guess": 1.81
+                "secondHalfUnder15_guess": 1.47,
+                "secondHalfOver15_guess": 1.83
               }
             },
             {
               "market": "Ev Sahibi 1.5 Alt / Üst",
               "values": {
-                "homeUnder15_guess": 1.49,
-                "homeOver15_guess": 1.81
+                "homeUnder15_guess": 1.47,
+                "homeOver15_guess": 1.83
               }
             },
             {
               "market": "Deplasman 1.5 Alt / Üst",
               "values": {
-                "awayUnder15_guess": 1.49,
-                "awayOver15_guess": 1.81
+                "awayUnder15_guess": 1.47,
+                "awayOver15_guess": 1.83
               }
             }
           ]
@@ -10840,46 +10916,46 @@
         {
           "market_code": "13093",
           "values": [
-            1.29,
+            1.31,
             1.16,
-            1.23
+            1.22
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.29,
+            "bttsYes_guess": 1.31,
             "bttsNo_guess": 1.16
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.29,
+                "ms1": 1.31,
                 "msx": 1.16,
-                "ms2": 1.23
+                "ms2": 1.22
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.29,
+                "firstHalf1_guess": 1.31,
                 "firstHalfX_guess": 1.16,
-                "firstHalf2_guess": 1.23
+                "firstHalf2_guess": 1.22
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.29,
+                "secondHalf1_guess": 1.31,
                 "secondHalfX_guess": 1.16,
-                "secondHalf2_guess": 1.23
+                "secondHalf2_guess": 1.22
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.29,
+                "handicap1_guess": 1.31,
                 "handicapX_guess": 1.16,
-                "handicap2_guess": 1.23
+                "handicap2_guess": 1.22
               }
             }
           ]
@@ -12890,66 +12966,66 @@
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
-      "estimated_odds": "2.96",
+      "estimated_odds": "3.06",
       "available_odds": {
-        "ms1": "2.60",
-        "msx": "2.96",
-        "ms2": "1.99",
+        "ms1": "2.59",
+        "msx": "3.06",
+        "ms2": "1.95",
         "over25": "1.62",
         "under25": "1.65",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.37",
-        "bttsNo": "1.14",
+        "bttsYes": "1.38",
+        "bttsNo": "1.12",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 2.6,
-        "msx": 2.96,
-        "ms2": 1.99,
+        "ms1": 2.59,
+        "msx": 3.06,
+        "ms2": 1.95,
         "under25": 1.65,
         "over25": 1.62,
-        "bttsYes_guess": 1.37,
-        "bttsNo_guess": 1.14
+        "bttsYes_guess": 1.38,
+        "bttsNo_guess": 1.12
       },
       "detail_market_candidates": [
         {
           "market_code": "13029",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 2.6,
-            "msx": 2.96,
-            "ms2": 1.99
+            "ms1": 2.59,
+            "msx": 3.06,
+            "ms2": 1.95
           }
         },
         {
           "market_code": "13029",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 2.6,
-            "firstHalfX_guess": 2.96,
-            "firstHalf2_guess": 1.99
+            "firstHalf1_guess": 2.59,
+            "firstHalfX_guess": 3.06,
+            "firstHalf2_guess": 1.95
           }
         },
         {
           "market_code": "13029",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 2.6,
-            "secondHalfX_guess": 2.96,
-            "secondHalf2_guess": 1.99
+            "secondHalf1_guess": 2.59,
+            "secondHalfX_guess": 3.06,
+            "secondHalf2_guess": 1.95
           }
         },
         {
           "market_code": "13029",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 2.6,
-            "handicapX_guess": 2.96,
-            "handicap2_guess": 1.99
+            "handicap1_guess": 2.59,
+            "handicapX_guess": 3.06,
+            "handicap2_guess": 1.95
           }
         },
         {
@@ -13068,8 +13144,8 @@
           "market_code": "13030",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.37,
-            "msx": 1.14,
+            "ms1": 1.38,
+            "msx": 1.12,
             "ms2": 1.19
           }
         },
@@ -13077,8 +13153,8 @@
           "market_code": "13030",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.37,
-            "firstHalfX_guess": 1.14,
+            "firstHalf1_guess": 1.38,
+            "firstHalfX_guess": 1.12,
             "firstHalf2_guess": 1.19
           }
         },
@@ -13086,8 +13162,8 @@
           "market_code": "13030",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.37,
-            "secondHalfX_guess": 1.14,
+            "secondHalf1_guess": 1.38,
+            "secondHalfX_guess": 1.12,
             "secondHalf2_guess": 1.19
           }
         },
@@ -13095,8 +13171,8 @@
           "market_code": "13030",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.37,
-            "handicapX_guess": 1.14,
+            "handicap1_guess": 1.38,
+            "handicapX_guess": 1.12,
             "handicap2_guess": 1.19
           }
         }
@@ -13105,47 +13181,47 @@
         {
           "market_code": "13029",
           "values": [
-            2.6,
-            2.96,
-            1.99
+            2.59,
+            3.06,
+            1.95
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 2.6,
-            "msx": 2.96,
-            "ms2": 1.99
+            "ms1": 2.59,
+            "msx": 3.06,
+            "ms2": 1.95
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.6,
-                "msx": 2.96,
-                "ms2": 1.99
+                "ms1": 2.59,
+                "msx": 3.06,
+                "ms2": 1.95
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.6,
-                "firstHalfX_guess": 2.96,
-                "firstHalf2_guess": 1.99
+                "firstHalf1_guess": 2.59,
+                "firstHalfX_guess": 3.06,
+                "firstHalf2_guess": 1.95
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.6,
-                "secondHalfX_guess": 2.96,
-                "secondHalf2_guess": 1.99
+                "secondHalf1_guess": 2.59,
+                "secondHalfX_guess": 3.06,
+                "secondHalf2_guess": 1.95
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.6,
-                "handicapX_guess": 2.96,
-                "handicap2_guess": 1.99
+                "handicap1_guess": 2.59,
+                "handicapX_guess": 3.06,
+                "handicap2_guess": 1.95
               }
             }
           ]
@@ -13265,45 +13341,45 @@
         {
           "market_code": "13030",
           "values": [
-            1.37,
-            1.14,
+            1.38,
+            1.12,
             1.19
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.37,
-            "bttsNo_guess": 1.14
+            "bttsYes_guess": 1.38,
+            "bttsNo_guess": 1.12
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.37,
-                "msx": 1.14,
+                "ms1": 1.38,
+                "msx": 1.12,
                 "ms2": 1.19
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.37,
-                "firstHalfX_guess": 1.14,
+                "firstHalf1_guess": 1.38,
+                "firstHalfX_guess": 1.12,
                 "firstHalf2_guess": 1.19
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.37,
-                "secondHalfX_guess": 1.14,
+                "secondHalf1_guess": 1.38,
+                "secondHalfX_guess": 1.12,
                 "secondHalf2_guess": 1.19
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.37,
-                "handicapX_guess": 1.14,
+                "handicap1_guess": 1.38,
+                "handicapX_guess": 1.12,
                 "handicap2_guess": 1.19
               }
             }
@@ -13316,7 +13392,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 2.96 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 3.06 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Düşük",
@@ -23507,7 +23583,7 @@
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Düşük",
-      "status": "live",
+      "status": "finished",
       "expected_scores": [
         "0-1",
         "0-2",
@@ -33809,180 +33885,218 @@
       "match_name": "Bodo Glimt (3) VS (3) Union St.G",
       "league": "UEFA Şampiyonlar Ligi 3.Eleme Turu",
       "start_time": "19:00",
-      "recommended_market": "MS 2",
+      "recommended_market": "MS X",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "3.92",
+      "estimated_odds": "3.81",
       "available_odds": {
-        "ms1": "1.40",
-        "msx": "3.88",
-        "ms2": "3.92",
-        "over25": "1.24",
-        "under25": "2.39",
+        "ms1": "1.44",
+        "msx": "3.81",
+        "ms2": "3.70",
+        "over25": "1.25",
+        "under25": "2.36",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
+        "bttsYes": "1.06",
+        "bttsNo": "1.06",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.4,
-        "msx": 3.88,
-        "ms2": 3.92,
-        "under25": 2.39,
-        "over25": 1.24
+        "ms1": 1.44,
+        "msx": 3.81,
+        "ms2": 3.7,
+        "under25": 2.36,
+        "over25": 1.25,
+        "bttsYes_guess": 1.06,
+        "bttsNo_guess": 1.06
       },
       "detail_market_candidates": [
         {
           "market_code": "05636",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.4,
-            "msx": 3.88,
-            "ms2": 3.92
+            "ms1": 1.44,
+            "msx": 3.81,
+            "ms2": 3.7
           }
         },
         {
           "market_code": "05636",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.4,
-            "firstHalfX_guess": 3.88,
-            "firstHalf2_guess": 3.92
+            "firstHalf1_guess": 1.44,
+            "firstHalfX_guess": 3.81,
+            "firstHalf2_guess": 3.7
           }
         },
         {
           "market_code": "05636",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.4,
-            "secondHalfX_guess": 3.88,
-            "secondHalf2_guess": 3.92
+            "secondHalf1_guess": 1.44,
+            "secondHalfX_guess": 3.81,
+            "secondHalf2_guess": 3.7
           }
         },
         {
           "market_code": "05636",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.4,
-            "handicapX_guess": 3.88,
-            "handicap2_guess": 3.92
+            "handicap1_guess": 1.44,
+            "handicapX_guess": 3.81,
+            "handicap2_guess": 3.7
           }
         },
         {
           "market_code": "05645",
           "market": "KG Var / Yok",
           "values": {
-            "bttsYes_guess": 2.39,
-            "bttsNo_guess": 1.24
+            "bttsYes_guess": 2.36,
+            "bttsNo_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İlk Yarı KG Var / Yok",
           "values": {
-            "firstHalfBttsYes_guess": 2.39,
-            "firstHalfBttsNo_guess": 1.24
+            "firstHalfBttsYes_guess": 2.36,
+            "firstHalfBttsNo_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İkinci Yarı KG Var / Yok",
           "values": {
-            "secondHalfBttsYes_guess": 2.39,
-            "secondHalfBttsNo_guess": 1.24
+            "secondHalfBttsYes_guess": 2.36,
+            "secondHalfBttsNo_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "0.5 Alt / Üst",
           "values": {
-            "under05_guess": 2.39,
-            "over05_guess": 1.24
+            "under05_guess": 2.36,
+            "over05_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "1.5 Alt / Üst",
           "values": {
-            "under15_guess": 2.39,
-            "over15_guess": 1.24
+            "under15_guess": 2.36,
+            "over15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "2.5 Alt / Üst",
           "values": {
-            "under25_guess": 2.39,
-            "over25_guess": 1.24
+            "under25_guess": 2.36,
+            "over25_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "3.5 Alt / Üst",
           "values": {
-            "under35_guess": 2.39,
-            "over35_guess": 1.24
+            "under35_guess": 2.36,
+            "over35_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "4.5 Alt / Üst",
           "values": {
-            "under45_guess": 2.39,
-            "over45_guess": 1.24
+            "under45_guess": 2.36,
+            "over45_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İlk Yarı 0.5 Alt / Üst",
           "values": {
-            "firstHalfUnder05_guess": 2.39,
-            "firstHalfOver05_guess": 1.24
+            "firstHalfUnder05_guess": 2.36,
+            "firstHalfOver05_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İlk Yarı 1.5 Alt / Üst",
           "values": {
-            "firstHalfUnder15_guess": 2.39,
-            "firstHalfOver15_guess": 1.24
+            "firstHalfUnder15_guess": 2.36,
+            "firstHalfOver15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İkinci Yarı 0.5 Alt / Üst",
           "values": {
-            "secondHalfUnder05_guess": 2.39,
-            "secondHalfOver05_guess": 1.24
+            "secondHalfUnder05_guess": 2.36,
+            "secondHalfOver05_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "İkinci Yarı 1.5 Alt / Üst",
           "values": {
-            "secondHalfUnder15_guess": 2.39,
-            "secondHalfOver15_guess": 1.24
+            "secondHalfUnder15_guess": 2.36,
+            "secondHalfOver15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "Ev Sahibi 1.5 Alt / Üst",
           "values": {
-            "homeUnder15_guess": 2.39,
-            "homeOver15_guess": 1.24
+            "homeUnder15_guess": 2.36,
+            "homeOver15_guess": 1.25
           }
         },
         {
           "market_code": "05645",
           "market": "Deplasman 1.5 Alt / Üst",
           "values": {
-            "awayUnder15_guess": 2.39,
-            "awayOver15_guess": 1.24
+            "awayUnder15_guess": 2.36,
+            "awayOver15_guess": 1.25
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.06,
+            "msx": 1.06,
+            "ms2": 1.8
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.06,
+            "firstHalfX_guess": 1.06,
+            "firstHalf2_guess": 1.8
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.06,
+            "secondHalfX_guess": 1.06,
+            "secondHalf2_guess": 1.8
+          }
+        },
+        {
+          "market_code": "05637",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.06,
+            "handicapX_guess": 1.06,
+            "handicap2_guess": 1.8
           }
         }
       ],
@@ -33990,47 +34104,47 @@
         {
           "market_code": "05636",
           "values": [
-            1.4,
-            3.88,
-            3.92
+            1.44,
+            3.81,
+            3.7
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.4,
-            "msx": 3.88,
-            "ms2": 3.92
+            "ms1": 1.44,
+            "msx": 3.81,
+            "ms2": 3.7
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.4,
-                "msx": 3.88,
-                "ms2": 3.92
+                "ms1": 1.44,
+                "msx": 3.81,
+                "ms2": 3.7
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.4,
-                "firstHalfX_guess": 3.88,
-                "firstHalf2_guess": 3.92
+                "firstHalf1_guess": 1.44,
+                "firstHalfX_guess": 3.81,
+                "firstHalf2_guess": 3.7
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.4,
-                "secondHalfX_guess": 3.88,
-                "secondHalf2_guess": 3.92
+                "secondHalf1_guess": 1.44,
+                "secondHalfX_guess": 3.81,
+                "secondHalf2_guess": 3.7
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.4,
-                "handicapX_guess": 3.88,
-                "handicap2_guess": 3.92
+                "handicap1_guess": 1.44,
+                "handicapX_guess": 3.81,
+                "handicap2_guess": 3.7
               }
             }
           ]
@@ -34038,111 +34152,111 @@
         {
           "market_code": "05645",
           "values": [
-            2.39,
-            1.24
+            2.36,
+            1.25
           ],
           "guess": "2.5 Alt / Üst",
           "named_values": {
-            "under25": 2.39,
-            "over25": 1.24
+            "under25": 2.36,
+            "over25": 1.25
           },
           "detail_market_candidates": [
             {
               "market": "KG Var / Yok",
               "values": {
-                "bttsYes_guess": 2.39,
-                "bttsNo_guess": 1.24
+                "bttsYes_guess": 2.36,
+                "bttsNo_guess": 1.25
               }
             },
             {
               "market": "İlk Yarı KG Var / Yok",
               "values": {
-                "firstHalfBttsYes_guess": 2.39,
-                "firstHalfBttsNo_guess": 1.24
+                "firstHalfBttsYes_guess": 2.36,
+                "firstHalfBttsNo_guess": 1.25
               }
             },
             {
               "market": "İkinci Yarı KG Var / Yok",
               "values": {
-                "secondHalfBttsYes_guess": 2.39,
-                "secondHalfBttsNo_guess": 1.24
+                "secondHalfBttsYes_guess": 2.36,
+                "secondHalfBttsNo_guess": 1.25
               }
             },
             {
               "market": "0.5 Alt / Üst",
               "values": {
-                "under05_guess": 2.39,
-                "over05_guess": 1.24
+                "under05_guess": 2.36,
+                "over05_guess": 1.25
               }
             },
             {
               "market": "1.5 Alt / Üst",
               "values": {
-                "under15_guess": 2.39,
-                "over15_guess": 1.24
+                "under15_guess": 2.36,
+                "over15_guess": 1.25
               }
             },
             {
               "market": "2.5 Alt / Üst",
               "values": {
-                "under25_guess": 2.39,
-                "over25_guess": 1.24
+                "under25_guess": 2.36,
+                "over25_guess": 1.25
               }
             },
             {
               "market": "3.5 Alt / Üst",
               "values": {
-                "under35_guess": 2.39,
-                "over35_guess": 1.24
+                "under35_guess": 2.36,
+                "over35_guess": 1.25
               }
             },
             {
               "market": "4.5 Alt / Üst",
               "values": {
-                "under45_guess": 2.39,
-                "over45_guess": 1.24
+                "under45_guess": 2.36,
+                "over45_guess": 1.25
               }
             },
             {
               "market": "İlk Yarı 0.5 Alt / Üst",
               "values": {
-                "firstHalfUnder05_guess": 2.39,
-                "firstHalfOver05_guess": 1.24
+                "firstHalfUnder05_guess": 2.36,
+                "firstHalfOver05_guess": 1.25
               }
             },
             {
               "market": "İlk Yarı 1.5 Alt / Üst",
               "values": {
-                "firstHalfUnder15_guess": 2.39,
-                "firstHalfOver15_guess": 1.24
+                "firstHalfUnder15_guess": 2.36,
+                "firstHalfOver15_guess": 1.25
               }
             },
             {
               "market": "İkinci Yarı 0.5 Alt / Üst",
               "values": {
-                "secondHalfUnder05_guess": 2.39,
-                "secondHalfOver05_guess": 1.24
+                "secondHalfUnder05_guess": 2.36,
+                "secondHalfOver05_guess": 1.25
               }
             },
             {
               "market": "İkinci Yarı 1.5 Alt / Üst",
               "values": {
-                "secondHalfUnder15_guess": 2.39,
-                "secondHalfOver15_guess": 1.24
+                "secondHalfUnder15_guess": 2.36,
+                "secondHalfOver15_guess": 1.25
               }
             },
             {
               "market": "Ev Sahibi 1.5 Alt / Üst",
               "values": {
-                "homeUnder15_guess": 2.39,
-                "homeOver15_guess": 1.24
+                "homeUnder15_guess": 2.36,
+                "homeOver15_guess": 1.25
               }
             },
             {
               "market": "Deplasman 1.5 Alt / Üst",
               "values": {
-                "awayUnder15_guess": 2.39,
-                "awayOver15_guess": 1.24
+                "awayUnder15_guess": 2.36,
+                "awayOver15_guess": 1.25
               }
             }
           ]
@@ -34150,11 +34264,49 @@
         {
           "market_code": "05637",
           "values": [
-            1.87
+            1.06,
+            1.06,
+            1.8
           ],
-          "guess": "Ham detay market",
-          "named_values": {},
-          "detail_market_candidates": []
+          "guess": "KG Var / Yok tahmini",
+          "named_values": {
+            "bttsYes_guess": 1.06,
+            "bttsNo_guess": 1.06
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.06,
+                "msx": 1.06,
+                "ms2": 1.8
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.06,
+                "firstHalfX_guess": 1.06,
+                "firstHalf2_guess": 1.8
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.06,
+                "secondHalfX_guess": 1.06,
+                "secondHalf2_guess": 1.8
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.06,
+                "handicapX_guess": 1.06,
+                "handicap2_guess": 1.8
+              }
+            }
+          ]
         }
       ],
       "odds_source": "Robot ham veri havuzu",
@@ -34163,18 +34315,18 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 3.92 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 3.81 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Orta",
       "status": "scheduled",
       "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
+        "0-0",
+        "1-1",
+        "2-2"
       ],
       "learning_adjustment": {
-        "market": "MS 2",
+        "market": "MS X",
         "league": "UEFA Şampiyonlar Ligi 3.Eleme Turu",
         "delta": 0,
         "weight": 1,
@@ -34183,8 +34335,8 @@
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
         "market_bucket": {
-          "total": 25,
-          "pending": 25,
+          "total": 54,
+          "pending": 54,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -34203,8 +34355,8 @@
           "confidence_adjustment": 0
         },
         "league_market_bucket": {
-          "total": 3,
-          "pending": 3,
+          "total": 2,
+          "pending": 2,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -34263,8 +34415,8 @@
         "awayConcededLast10Count": null
       },
       "signals": [
-        "Market: MS 2",
-        "Oran: 3.92",
+        "Market: MS X",
+        "Oran: 3.81",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -36690,16 +36842,16 @@
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
-      "estimated_odds": "3.13",
+      "estimated_odds": "3.11",
       "available_odds": {
-        "ms1": "1.89",
-        "msx": "3.13",
-        "ms2": "2.66",
+        "ms1": "1.96",
+        "msx": "3.11",
+        "ms2": "2.53",
         "over25": "1.41",
         "under25": "1.94",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.18",
+        "bttsYes": "1.20",
         "bttsNo": "1.12",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -36707,12 +36859,12 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.89,
-        "msx": 3.13,
-        "ms2": 2.66,
+        "ms1": 1.96,
+        "msx": 3.11,
+        "ms2": 2.53,
         "under25": 1.94,
         "over25": 1.41,
-        "bttsYes_guess": 1.18,
+        "bttsYes_guess": 1.2,
         "bttsNo_guess": 1.12
       },
       "detail_market_candidates": [
@@ -36720,36 +36872,36 @@
           "market_code": "12269",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.89,
-            "msx": 3.13,
-            "ms2": 2.66
+            "ms1": 1.96,
+            "msx": 3.11,
+            "ms2": 2.53
           }
         },
         {
           "market_code": "12269",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.89,
-            "firstHalfX_guess": 3.13,
-            "firstHalf2_guess": 2.66
+            "firstHalf1_guess": 1.96,
+            "firstHalfX_guess": 3.11,
+            "firstHalf2_guess": 2.53
           }
         },
         {
           "market_code": "12269",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.89,
-            "secondHalfX_guess": 3.13,
-            "secondHalf2_guess": 2.66
+            "secondHalf1_guess": 1.96,
+            "secondHalfX_guess": 3.11,
+            "secondHalf2_guess": 2.53
           }
         },
         {
           "market_code": "12269",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.89,
-            "handicapX_guess": 3.13,
-            "handicap2_guess": 2.66
+            "handicap1_guess": 1.96,
+            "handicapX_guess": 3.11,
+            "handicap2_guess": 2.53
           }
         },
         {
@@ -36868,36 +37020,36 @@
           "market_code": "12270",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.18,
+            "ms1": 1.2,
             "msx": 1.12,
-            "ms2": 1.42
+            "ms2": 1.38
           }
         },
         {
           "market_code": "12270",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.18,
+            "firstHalf1_guess": 1.2,
             "firstHalfX_guess": 1.12,
-            "firstHalf2_guess": 1.42
+            "firstHalf2_guess": 1.38
           }
         },
         {
           "market_code": "12270",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.18,
+            "secondHalf1_guess": 1.2,
             "secondHalfX_guess": 1.12,
-            "secondHalf2_guess": 1.42
+            "secondHalf2_guess": 1.38
           }
         },
         {
           "market_code": "12270",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.18,
+            "handicap1_guess": 1.2,
             "handicapX_guess": 1.12,
-            "handicap2_guess": 1.42
+            "handicap2_guess": 1.38
           }
         }
       ],
@@ -36905,47 +37057,47 @@
         {
           "market_code": "12269",
           "values": [
-            1.89,
-            3.13,
-            2.66
+            1.96,
+            3.11,
+            2.53
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.89,
-            "msx": 3.13,
-            "ms2": 2.66
+            "ms1": 1.96,
+            "msx": 3.11,
+            "ms2": 2.53
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.89,
-                "msx": 3.13,
-                "ms2": 2.66
+                "ms1": 1.96,
+                "msx": 3.11,
+                "ms2": 2.53
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.89,
-                "firstHalfX_guess": 3.13,
-                "firstHalf2_guess": 2.66
+                "firstHalf1_guess": 1.96,
+                "firstHalfX_guess": 3.11,
+                "firstHalf2_guess": 2.53
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.89,
-                "secondHalfX_guess": 3.13,
-                "secondHalf2_guess": 2.66
+                "secondHalf1_guess": 1.96,
+                "secondHalfX_guess": 3.11,
+                "secondHalf2_guess": 2.53
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.89,
-                "handicapX_guess": 3.13,
-                "handicap2_guess": 2.66
+                "handicap1_guess": 1.96,
+                "handicapX_guess": 3.11,
+                "handicap2_guess": 2.53
               }
             }
           ]
@@ -37065,46 +37217,46 @@
         {
           "market_code": "12270",
           "values": [
-            1.18,
+            1.2,
             1.12,
-            1.42
+            1.38
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.18,
+            "bttsYes_guess": 1.2,
             "bttsNo_guess": 1.12
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.18,
+                "ms1": 1.2,
                 "msx": 1.12,
-                "ms2": 1.42
+                "ms2": 1.38
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.18,
+                "firstHalf1_guess": 1.2,
                 "firstHalfX_guess": 1.12,
-                "firstHalf2_guess": 1.42
+                "firstHalf2_guess": 1.38
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.18,
+                "secondHalf1_guess": 1.2,
                 "secondHalfX_guess": 1.12,
-                "secondHalf2_guess": 1.42
+                "secondHalf2_guess": 1.38
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.18,
+                "handicap1_guess": 1.2,
                 "handicapX_guess": 1.12,
-                "handicap2_guess": 1.42
+                "handicap2_guess": 1.38
               }
             }
           ]
@@ -37116,7 +37268,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 3.13 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 3.11 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Düşük",
@@ -37217,7 +37369,7 @@
       },
       "signals": [
         "Market: MS X",
-        "Oran: 3.13",
+        "Oran: 3.11",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -40700,11 +40852,11 @@
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "5.26",
+      "estimated_odds": "5.25",
       "available_odds": {
         "ms1": "1.10",
-        "msx": "5.26",
-        "ms2": "8.19",
+        "msx": "5.25",
+        "ms2": "8.17",
         "over25": "1.25",
         "under25": "2.34",
         "over35": "-",
@@ -40718,8 +40870,8 @@
       },
       "raw_market_guess_odds": {
         "ms1": 1.1,
-        "msx": 5.26,
-        "ms2": 8.19,
+        "msx": 5.25,
+        "ms2": 8.17,
         "under25": 2.34,
         "over25": 1.25
       },
@@ -40729,8 +40881,8 @@
           "market": "Maç Sonucu 1/X/2",
           "values": {
             "ms1": 1.1,
-            "msx": 5.26,
-            "ms2": 8.19
+            "msx": 5.25,
+            "ms2": 8.17
           }
         },
         {
@@ -40738,8 +40890,8 @@
           "market": "İlk Yarı 1/X/2",
           "values": {
             "firstHalf1_guess": 1.1,
-            "firstHalfX_guess": 5.26,
-            "firstHalf2_guess": 8.19
+            "firstHalfX_guess": 5.25,
+            "firstHalf2_guess": 8.17
           }
         },
         {
@@ -40747,8 +40899,8 @@
           "market": "İkinci Yarı 1/X/2",
           "values": {
             "secondHalf1_guess": 1.1,
-            "secondHalfX_guess": 5.26,
-            "secondHalf2_guess": 8.19
+            "secondHalfX_guess": 5.25,
+            "secondHalf2_guess": 8.17
           }
         },
         {
@@ -40756,8 +40908,8 @@
           "market": "Handikap 1/X/2",
           "values": {
             "handicap1_guess": 1.1,
-            "handicapX_guess": 5.26,
-            "handicap2_guess": 8.19
+            "handicapX_guess": 5.25,
+            "handicap2_guess": 8.17
           }
         },
         {
@@ -40878,46 +41030,46 @@
           "market_code": "06292",
           "values": [
             1.1,
-            5.26,
-            8.19
+            5.25,
+            8.17
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
             "ms1": 1.1,
-            "msx": 5.26,
-            "ms2": 8.19
+            "msx": 5.25,
+            "ms2": 8.17
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
                 "ms1": 1.1,
-                "msx": 5.26,
-                "ms2": 8.19
+                "msx": 5.25,
+                "ms2": 8.17
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
                 "firstHalf1_guess": 1.1,
-                "firstHalfX_guess": 5.26,
-                "firstHalf2_guess": 8.19
+                "firstHalfX_guess": 5.25,
+                "firstHalf2_guess": 8.17
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
                 "secondHalf1_guess": 1.1,
-                "secondHalfX_guess": 5.26,
-                "secondHalf2_guess": 8.19
+                "secondHalfX_guess": 5.25,
+                "secondHalf2_guess": 8.17
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
                 "handicap1_guess": 1.1,
-                "handicapX_guess": 5.26,
-                "handicap2_guess": 8.19
+                "handicapX_guess": 5.25,
+                "handicap2_guess": 8.17
               }
             }
           ]
@@ -41037,7 +41189,7 @@
         {
           "market_code": "06293",
           "values": [
-            2.88
+            2.87
           ],
           "guess": "Ham detay market",
           "named_values": {},
@@ -41050,7 +41202,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 5.26 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 5.25 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Orta",
@@ -41151,7 +41303,7 @@
       },
       "signals": [
         "Market: MS X",
-        "Oran: 5.26",
+        "Oran: 5.25",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -43952,9 +44104,9 @@
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
-        "ms1": "4.56",
-        "msx": "3.91",
-        "ms2": "1.33",
+        "ms1": "4.43",
+        "msx": "3.84",
+        "ms2": "1.35",
         "over25": "-",
         "under25": "-",
         "over35": "-",
@@ -43967,45 +44119,45 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 4.56,
-        "msx": 3.91,
-        "ms2": 1.33
+        "ms1": 4.43,
+        "msx": 3.84,
+        "ms2": 1.35
       },
       "detail_market_candidates": [
         {
           "market_code": "06414",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 4.56,
-            "msx": 3.91,
-            "ms2": 1.33
+            "ms1": 4.43,
+            "msx": 3.84,
+            "ms2": 1.35
           }
         },
         {
           "market_code": "06414",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 4.56,
-            "firstHalfX_guess": 3.91,
-            "firstHalf2_guess": 1.33
+            "firstHalf1_guess": 4.43,
+            "firstHalfX_guess": 3.84,
+            "firstHalf2_guess": 1.35
           }
         },
         {
           "market_code": "06414",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 4.56,
-            "secondHalfX_guess": 3.91,
-            "secondHalf2_guess": 1.33
+            "secondHalf1_guess": 4.43,
+            "secondHalfX_guess": 3.84,
+            "secondHalf2_guess": 1.35
           }
         },
         {
           "market_code": "06414",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 4.56,
-            "handicapX_guess": 3.91,
-            "handicap2_guess": 1.33
+            "handicap1_guess": 4.43,
+            "handicapX_guess": 3.84,
+            "handicap2_guess": 1.35
           }
         }
       ],
@@ -44013,47 +44165,47 @@
         {
           "market_code": "06414",
           "values": [
-            4.56,
-            3.91,
-            1.33
+            4.43,
+            3.84,
+            1.35
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 4.56,
-            "msx": 3.91,
-            "ms2": 1.33
+            "ms1": 4.43,
+            "msx": 3.84,
+            "ms2": 1.35
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 4.56,
-                "msx": 3.91,
-                "ms2": 1.33
+                "ms1": 4.43,
+                "msx": 3.84,
+                "ms2": 1.35
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 4.56,
-                "firstHalfX_guess": 3.91,
-                "firstHalf2_guess": 1.33
+                "firstHalf1_guess": 4.43,
+                "firstHalfX_guess": 3.84,
+                "firstHalf2_guess": 1.35
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 4.56,
-                "secondHalfX_guess": 3.91,
-                "secondHalf2_guess": 1.33
+                "secondHalf1_guess": 4.43,
+                "secondHalfX_guess": 3.84,
+                "secondHalf2_guess": 1.35
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 4.56,
-                "handicapX_guess": 3.91,
-                "handicap2_guess": 1.33
+                "handicap1_guess": 4.43,
+                "handicapX_guess": 3.84,
+                "handicap2_guess": 1.35
               }
             }
           ]
@@ -44140,9 +44292,9 @@
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
-        "ms1": "1.21",
-        "msx": "4.67",
-        "ms2": "5.41",
+        "ms1": "1.13",
+        "msx": "5.07",
+        "ms2": "6.77",
         "over25": "-",
         "under25": "-",
         "over35": "-",
@@ -44155,45 +44307,45 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.21,
-        "msx": 4.67,
-        "ms2": 5.41
+        "ms1": 1.13,
+        "msx": 5.07,
+        "ms2": 6.77
       },
       "detail_market_candidates": [
         {
           "market_code": "06752",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.21,
-            "msx": 4.67,
-            "ms2": 5.41
+            "ms1": 1.13,
+            "msx": 5.07,
+            "ms2": 6.77
           }
         },
         {
           "market_code": "06752",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.21,
-            "firstHalfX_guess": 4.67,
-            "firstHalf2_guess": 5.41
+            "firstHalf1_guess": 1.13,
+            "firstHalfX_guess": 5.07,
+            "firstHalf2_guess": 6.77
           }
         },
         {
           "market_code": "06752",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.21,
-            "secondHalfX_guess": 4.67,
-            "secondHalf2_guess": 5.41
+            "secondHalf1_guess": 1.13,
+            "secondHalfX_guess": 5.07,
+            "secondHalf2_guess": 6.77
           }
         },
         {
           "market_code": "06752",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.21,
-            "handicapX_guess": 4.67,
-            "handicap2_guess": 5.41
+            "handicap1_guess": 1.13,
+            "handicapX_guess": 5.07,
+            "handicap2_guess": 6.77
           }
         }
       ],
@@ -44201,47 +44353,47 @@
         {
           "market_code": "06752",
           "values": [
-            1.21,
-            4.67,
-            5.41
+            1.13,
+            5.07,
+            6.77
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.21,
-            "msx": 4.67,
-            "ms2": 5.41
+            "ms1": 1.13,
+            "msx": 5.07,
+            "ms2": 6.77
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.21,
-                "msx": 4.67,
-                "ms2": 5.41
+                "ms1": 1.13,
+                "msx": 5.07,
+                "ms2": 6.77
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.21,
-                "firstHalfX_guess": 4.67,
-                "firstHalf2_guess": 5.41
+                "firstHalf1_guess": 1.13,
+                "firstHalfX_guess": 5.07,
+                "firstHalf2_guess": 6.77
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.21,
-                "secondHalfX_guess": 4.67,
-                "secondHalf2_guess": 5.41
+                "secondHalf1_guess": 1.13,
+                "secondHalfX_guess": 5.07,
+                "secondHalf2_guess": 6.77
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.21,
-                "handicapX_guess": 4.67,
-                "handicap2_guess": 5.41
+                "handicap1_guess": 1.13,
+                "handicapX_guess": 5.07,
+                "handicap2_guess": 6.77
               }
             }
           ]
@@ -44704,9 +44856,9 @@
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
-        "ms1": "2.27",
+        "ms1": "2.21",
         "msx": "3.24",
-        "ms2": "2.09",
+        "ms2": "2.15",
         "over25": "-",
         "under25": "-",
         "over35": "-",
@@ -44719,45 +44871,45 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 2.27,
+        "ms1": 2.21,
         "msx": 3.24,
-        "ms2": 2.09
+        "ms2": 2.15
       },
       "detail_market_candidates": [
         {
           "market_code": "06422",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 2.27,
+            "ms1": 2.21,
             "msx": 3.24,
-            "ms2": 2.09
+            "ms2": 2.15
           }
         },
         {
           "market_code": "06422",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 2.27,
+            "firstHalf1_guess": 2.21,
             "firstHalfX_guess": 3.24,
-            "firstHalf2_guess": 2.09
+            "firstHalf2_guess": 2.15
           }
         },
         {
           "market_code": "06422",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 2.27,
+            "secondHalf1_guess": 2.21,
             "secondHalfX_guess": 3.24,
-            "secondHalf2_guess": 2.09
+            "secondHalf2_guess": 2.15
           }
         },
         {
           "market_code": "06422",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 2.27,
+            "handicap1_guess": 2.21,
             "handicapX_guess": 3.24,
-            "handicap2_guess": 2.09
+            "handicap2_guess": 2.15
           }
         }
       ],
@@ -44765,47 +44917,47 @@
         {
           "market_code": "06422",
           "values": [
-            2.27,
+            2.21,
             3.24,
-            2.09
+            2.15
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 2.27,
+            "ms1": 2.21,
             "msx": 3.24,
-            "ms2": 2.09
+            "ms2": 2.15
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.27,
+                "ms1": 2.21,
                 "msx": 3.24,
-                "ms2": 2.09
+                "ms2": 2.15
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.27,
+                "firstHalf1_guess": 2.21,
                 "firstHalfX_guess": 3.24,
-                "firstHalf2_guess": 2.09
+                "firstHalf2_guess": 2.15
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.27,
+                "secondHalf1_guess": 2.21,
                 "secondHalfX_guess": 3.24,
-                "secondHalf2_guess": 2.09
+                "secondHalf2_guess": 2.15
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.27,
+                "handicap1_guess": 2.21,
                 "handicapX_guess": 3.24,
-                "handicap2_guess": 2.09
+                "handicap2_guess": 2.15
               }
             }
           ]
@@ -46539,8 +46691,8 @@
       "estimated_odds": "-",
       "available_odds": {
         "ms1": "1.50",
-        "msx": "3.71",
-        "ms2": "3.47",
+        "msx": "3.57",
+        "ms2": "3.59",
         "over25": "-",
         "under25": "-",
         "over35": "-",
@@ -46554,8 +46706,8 @@
       },
       "raw_market_guess_odds": {
         "ms1": 1.5,
-        "msx": 3.71,
-        "ms2": 3.47
+        "msx": 3.57,
+        "ms2": 3.59
       },
       "detail_market_candidates": [
         {
@@ -46563,8 +46715,8 @@
           "market": "Maç Sonucu 1/X/2",
           "values": {
             "ms1": 1.5,
-            "msx": 3.71,
-            "ms2": 3.47
+            "msx": 3.57,
+            "ms2": 3.59
           }
         },
         {
@@ -46572,8 +46724,8 @@
           "market": "İlk Yarı 1/X/2",
           "values": {
             "firstHalf1_guess": 1.5,
-            "firstHalfX_guess": 3.71,
-            "firstHalf2_guess": 3.47
+            "firstHalfX_guess": 3.57,
+            "firstHalf2_guess": 3.59
           }
         },
         {
@@ -46581,8 +46733,8 @@
           "market": "İkinci Yarı 1/X/2",
           "values": {
             "secondHalf1_guess": 1.5,
-            "secondHalfX_guess": 3.71,
-            "secondHalf2_guess": 3.47
+            "secondHalfX_guess": 3.57,
+            "secondHalf2_guess": 3.59
           }
         },
         {
@@ -46590,8 +46742,8 @@
           "market": "Handikap 1/X/2",
           "values": {
             "handicap1_guess": 1.5,
-            "handicapX_guess": 3.71,
-            "handicap2_guess": 3.47
+            "handicapX_guess": 3.57,
+            "handicap2_guess": 3.59
           }
         }
       ],
@@ -46600,46 +46752,46 @@
           "market_code": "10097",
           "values": [
             1.5,
-            3.71,
-            3.47
+            3.57,
+            3.59
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
             "ms1": 1.5,
-            "msx": 3.71,
-            "ms2": 3.47
+            "msx": 3.57,
+            "ms2": 3.59
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
                 "ms1": 1.5,
-                "msx": 3.71,
-                "ms2": 3.47
+                "msx": 3.57,
+                "ms2": 3.59
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
                 "firstHalf1_guess": 1.5,
-                "firstHalfX_guess": 3.71,
-                "firstHalf2_guess": 3.47
+                "firstHalfX_guess": 3.57,
+                "firstHalf2_guess": 3.59
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
                 "secondHalf1_guess": 1.5,
-                "secondHalfX_guess": 3.71,
-                "secondHalf2_guess": 3.47
+                "secondHalfX_guess": 3.57,
+                "secondHalf2_guess": 3.59
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
                 "handicap1_guess": 1.5,
-                "handicapX_guess": 3.71,
-                "handicap2_guess": 3.47
+                "handicapX_guess": 3.57,
+                "handicap2_guess": 3.59
               }
             }
           ]
@@ -49942,11 +50094,11 @@
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "2.82",
+      "estimated_odds": "2.83",
       "available_odds": {
         "ms1": "2.08",
-        "msx": "2.82",
-        "ms2": "2.56",
+        "msx": "2.83",
+        "ms2": "2.55",
         "over25": "1.71",
         "under25": "1.56",
         "over35": "-",
@@ -49960,8 +50112,8 @@
       },
       "raw_market_guess_odds": {
         "ms1": 2.08,
-        "msx": 2.82,
-        "ms2": 2.56,
+        "msx": 2.83,
+        "ms2": 2.55,
         "under25": 1.56,
         "over25": 1.71,
         "bttsYes_guess": 1.2,
@@ -49973,8 +50125,8 @@
           "market": "Maç Sonucu 1/X/2",
           "values": {
             "ms1": 2.08,
-            "msx": 2.82,
-            "ms2": 2.56
+            "msx": 2.83,
+            "ms2": 2.55
           }
         },
         {
@@ -49982,8 +50134,8 @@
           "market": "İlk Yarı 1/X/2",
           "values": {
             "firstHalf1_guess": 2.08,
-            "firstHalfX_guess": 2.82,
-            "firstHalf2_guess": 2.56
+            "firstHalfX_guess": 2.83,
+            "firstHalf2_guess": 2.55
           }
         },
         {
@@ -49991,8 +50143,8 @@
           "market": "İkinci Yarı 1/X/2",
           "values": {
             "secondHalf1_guess": 2.08,
-            "secondHalfX_guess": 2.82,
-            "secondHalf2_guess": 2.56
+            "secondHalfX_guess": 2.83,
+            "secondHalf2_guess": 2.55
           }
         },
         {
@@ -50000,8 +50152,8 @@
           "market": "Handikap 1/X/2",
           "values": {
             "handicap1_guess": 2.08,
-            "handicapX_guess": 2.82,
-            "handicap2_guess": 2.56
+            "handicapX_guess": 2.83,
+            "handicap2_guess": 2.55
           }
         },
         {
@@ -50158,46 +50310,46 @@
           "market_code": "12793",
           "values": [
             2.08,
-            2.82,
-            2.56
+            2.83,
+            2.55
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
             "ms1": 2.08,
-            "msx": 2.82,
-            "ms2": 2.56
+            "msx": 2.83,
+            "ms2": 2.55
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
                 "ms1": 2.08,
-                "msx": 2.82,
-                "ms2": 2.56
+                "msx": 2.83,
+                "ms2": 2.55
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
                 "firstHalf1_guess": 2.08,
-                "firstHalfX_guess": 2.82,
-                "firstHalf2_guess": 2.56
+                "firstHalfX_guess": 2.83,
+                "firstHalf2_guess": 2.55
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
                 "secondHalf1_guess": 2.08,
-                "secondHalfX_guess": 2.82,
-                "secondHalf2_guess": 2.56
+                "secondHalfX_guess": 2.83,
+                "secondHalf2_guess": 2.55
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
                 "handicap1_guess": 2.08,
-                "handicapX_guess": 2.82,
-                "handicap2_guess": 2.56
+                "handicapX_guess": 2.83,
+                "handicap2_guess": 2.55
               }
             }
           ]
@@ -50368,7 +50520,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 2.82 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 2.83 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Düşük",
@@ -50469,7 +50621,7 @@
       },
       "signals": [
         "Market: MS X",
-        "Oran: 2.82",
+        "Oran: 2.83",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -50492,14 +50644,14 @@
       "risk_level": "Yüksek",
       "estimated_odds": "2.82",
       "available_odds": {
-        "ms1": "2.41",
+        "ms1": "2.45",
         "msx": "2.82",
-        "ms2": "2.19",
-        "over25": "1.81",
-        "under25": "1.49",
+        "ms2": "2.16",
+        "over25": "1.83",
+        "under25": "1.47",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.29",
+        "bttsYes": "1.31",
         "bttsNo": "1.16",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -50507,12 +50659,12 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 2.41,
+        "ms1": 2.45,
         "msx": 2.82,
-        "ms2": 2.19,
-        "under25": 1.49,
-        "over25": 1.81,
-        "bttsYes_guess": 1.29,
+        "ms2": 2.16,
+        "under25": 1.47,
+        "over25": 1.83,
+        "bttsYes_guess": 1.31,
         "bttsNo_guess": 1.16
       },
       "detail_market_candidates": [
@@ -50520,184 +50672,184 @@
           "market_code": "13092",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 2.41,
+            "ms1": 2.45,
             "msx": 2.82,
-            "ms2": 2.19
+            "ms2": 2.16
           }
         },
         {
           "market_code": "13092",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 2.41,
+            "firstHalf1_guess": 2.45,
             "firstHalfX_guess": 2.82,
-            "firstHalf2_guess": 2.19
+            "firstHalf2_guess": 2.16
           }
         },
         {
           "market_code": "13092",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 2.41,
+            "secondHalf1_guess": 2.45,
             "secondHalfX_guess": 2.82,
-            "secondHalf2_guess": 2.19
+            "secondHalf2_guess": 2.16
           }
         },
         {
           "market_code": "13092",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 2.41,
+            "handicap1_guess": 2.45,
             "handicapX_guess": 2.82,
-            "handicap2_guess": 2.19
+            "handicap2_guess": 2.16
           }
         },
         {
           "market_code": "13096",
           "market": "KG Var / Yok",
           "values": {
-            "bttsYes_guess": 1.49,
-            "bttsNo_guess": 1.81
+            "bttsYes_guess": 1.47,
+            "bttsNo_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İlk Yarı KG Var / Yok",
           "values": {
-            "firstHalfBttsYes_guess": 1.49,
-            "firstHalfBttsNo_guess": 1.81
+            "firstHalfBttsYes_guess": 1.47,
+            "firstHalfBttsNo_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İkinci Yarı KG Var / Yok",
           "values": {
-            "secondHalfBttsYes_guess": 1.49,
-            "secondHalfBttsNo_guess": 1.81
+            "secondHalfBttsYes_guess": 1.47,
+            "secondHalfBttsNo_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "0.5 Alt / Üst",
           "values": {
-            "under05_guess": 1.49,
-            "over05_guess": 1.81
+            "under05_guess": 1.47,
+            "over05_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "1.5 Alt / Üst",
           "values": {
-            "under15_guess": 1.49,
-            "over15_guess": 1.81
+            "under15_guess": 1.47,
+            "over15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "2.5 Alt / Üst",
           "values": {
-            "under25_guess": 1.49,
-            "over25_guess": 1.81
+            "under25_guess": 1.47,
+            "over25_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "3.5 Alt / Üst",
           "values": {
-            "under35_guess": 1.49,
-            "over35_guess": 1.81
+            "under35_guess": 1.47,
+            "over35_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "4.5 Alt / Üst",
           "values": {
-            "under45_guess": 1.49,
-            "over45_guess": 1.81
+            "under45_guess": 1.47,
+            "over45_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İlk Yarı 0.5 Alt / Üst",
           "values": {
-            "firstHalfUnder05_guess": 1.49,
-            "firstHalfOver05_guess": 1.81
+            "firstHalfUnder05_guess": 1.47,
+            "firstHalfOver05_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İlk Yarı 1.5 Alt / Üst",
           "values": {
-            "firstHalfUnder15_guess": 1.49,
-            "firstHalfOver15_guess": 1.81
+            "firstHalfUnder15_guess": 1.47,
+            "firstHalfOver15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İkinci Yarı 0.5 Alt / Üst",
           "values": {
-            "secondHalfUnder05_guess": 1.49,
-            "secondHalfOver05_guess": 1.81
+            "secondHalfUnder05_guess": 1.47,
+            "secondHalfOver05_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "İkinci Yarı 1.5 Alt / Üst",
           "values": {
-            "secondHalfUnder15_guess": 1.49,
-            "secondHalfOver15_guess": 1.81
+            "secondHalfUnder15_guess": 1.47,
+            "secondHalfOver15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "Ev Sahibi 1.5 Alt / Üst",
           "values": {
-            "homeUnder15_guess": 1.49,
-            "homeOver15_guess": 1.81
+            "homeUnder15_guess": 1.47,
+            "homeOver15_guess": 1.83
           }
         },
         {
           "market_code": "13096",
           "market": "Deplasman 1.5 Alt / Üst",
           "values": {
-            "awayUnder15_guess": 1.49,
-            "awayOver15_guess": 1.81
+            "awayUnder15_guess": 1.47,
+            "awayOver15_guess": 1.83
           }
         },
         {
           "market_code": "13093",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.29,
+            "ms1": 1.31,
             "msx": 1.16,
-            "ms2": 1.23
+            "ms2": 1.22
           }
         },
         {
           "market_code": "13093",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.29,
+            "firstHalf1_guess": 1.31,
             "firstHalfX_guess": 1.16,
-            "firstHalf2_guess": 1.23
+            "firstHalf2_guess": 1.22
           }
         },
         {
           "market_code": "13093",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.29,
+            "secondHalf1_guess": 1.31,
             "secondHalfX_guess": 1.16,
-            "secondHalf2_guess": 1.23
+            "secondHalf2_guess": 1.22
           }
         },
         {
           "market_code": "13093",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.29,
+            "handicap1_guess": 1.31,
             "handicapX_guess": 1.16,
-            "handicap2_guess": 1.23
+            "handicap2_guess": 1.22
           }
         }
       ],
@@ -50705,47 +50857,47 @@
         {
           "market_code": "13092",
           "values": [
-            2.41,
+            2.45,
             2.82,
-            2.19
+            2.16
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 2.41,
+            "ms1": 2.45,
             "msx": 2.82,
-            "ms2": 2.19
+            "ms2": 2.16
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.41,
+                "ms1": 2.45,
                 "msx": 2.82,
-                "ms2": 2.19
+                "ms2": 2.16
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.41,
+                "firstHalf1_guess": 2.45,
                 "firstHalfX_guess": 2.82,
-                "firstHalf2_guess": 2.19
+                "firstHalf2_guess": 2.16
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.41,
+                "secondHalf1_guess": 2.45,
                 "secondHalfX_guess": 2.82,
-                "secondHalf2_guess": 2.19
+                "secondHalf2_guess": 2.16
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.41,
+                "handicap1_guess": 2.45,
                 "handicapX_guess": 2.82,
-                "handicap2_guess": 2.19
+                "handicap2_guess": 2.16
               }
             }
           ]
@@ -50753,111 +50905,111 @@
         {
           "market_code": "13096",
           "values": [
-            1.49,
-            1.81
+            1.47,
+            1.83
           ],
           "guess": "2.5 Alt / Üst",
           "named_values": {
-            "under25": 1.49,
-            "over25": 1.81
+            "under25": 1.47,
+            "over25": 1.83
           },
           "detail_market_candidates": [
             {
               "market": "KG Var / Yok",
               "values": {
-                "bttsYes_guess": 1.49,
-                "bttsNo_guess": 1.81
+                "bttsYes_guess": 1.47,
+                "bttsNo_guess": 1.83
               }
             },
             {
               "market": "İlk Yarı KG Var / Yok",
               "values": {
-                "firstHalfBttsYes_guess": 1.49,
-                "firstHalfBttsNo_guess": 1.81
+                "firstHalfBttsYes_guess": 1.47,
+                "firstHalfBttsNo_guess": 1.83
               }
             },
             {
               "market": "İkinci Yarı KG Var / Yok",
               "values": {
-                "secondHalfBttsYes_guess": 1.49,
-                "secondHalfBttsNo_guess": 1.81
+                "secondHalfBttsYes_guess": 1.47,
+                "secondHalfBttsNo_guess": 1.83
               }
             },
             {
               "market": "0.5 Alt / Üst",
               "values": {
-                "under05_guess": 1.49,
-                "over05_guess": 1.81
+                "under05_guess": 1.47,
+                "over05_guess": 1.83
               }
             },
             {
               "market": "1.5 Alt / Üst",
               "values": {
-                "under15_guess": 1.49,
-                "over15_guess": 1.81
+                "under15_guess": 1.47,
+                "over15_guess": 1.83
               }
             },
             {
               "market": "2.5 Alt / Üst",
               "values": {
-                "under25_guess": 1.49,
-                "over25_guess": 1.81
+                "under25_guess": 1.47,
+                "over25_guess": 1.83
               }
             },
             {
               "market": "3.5 Alt / Üst",
               "values": {
-                "under35_guess": 1.49,
-                "over35_guess": 1.81
+                "under35_guess": 1.47,
+                "over35_guess": 1.83
               }
             },
             {
               "market": "4.5 Alt / Üst",
               "values": {
-                "under45_guess": 1.49,
-                "over45_guess": 1.81
+                "under45_guess": 1.47,
+                "over45_guess": 1.83
               }
             },
             {
               "market": "İlk Yarı 0.5 Alt / Üst",
               "values": {
-                "firstHalfUnder05_guess": 1.49,
-                "firstHalfOver05_guess": 1.81
+                "firstHalfUnder05_guess": 1.47,
+                "firstHalfOver05_guess": 1.83
               }
             },
             {
               "market": "İlk Yarı 1.5 Alt / Üst",
               "values": {
-                "firstHalfUnder15_guess": 1.49,
-                "firstHalfOver15_guess": 1.81
+                "firstHalfUnder15_guess": 1.47,
+                "firstHalfOver15_guess": 1.83
               }
             },
             {
               "market": "İkinci Yarı 0.5 Alt / Üst",
               "values": {
-                "secondHalfUnder05_guess": 1.49,
-                "secondHalfOver05_guess": 1.81
+                "secondHalfUnder05_guess": 1.47,
+                "secondHalfOver05_guess": 1.83
               }
             },
             {
               "market": "İkinci Yarı 1.5 Alt / Üst",
               "values": {
-                "secondHalfUnder15_guess": 1.49,
-                "secondHalfOver15_guess": 1.81
+                "secondHalfUnder15_guess": 1.47,
+                "secondHalfOver15_guess": 1.83
               }
             },
             {
               "market": "Ev Sahibi 1.5 Alt / Üst",
               "values": {
-                "homeUnder15_guess": 1.49,
-                "homeOver15_guess": 1.81
+                "homeUnder15_guess": 1.47,
+                "homeOver15_guess": 1.83
               }
             },
             {
               "market": "Deplasman 1.5 Alt / Üst",
               "values": {
-                "awayUnder15_guess": 1.49,
-                "awayOver15_guess": 1.81
+                "awayUnder15_guess": 1.47,
+                "awayOver15_guess": 1.83
               }
             }
           ]
@@ -50865,46 +51017,46 @@
         {
           "market_code": "13093",
           "values": [
-            1.29,
+            1.31,
             1.16,
-            1.23
+            1.22
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.29,
+            "bttsYes_guess": 1.31,
             "bttsNo_guess": 1.16
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.29,
+                "ms1": 1.31,
                 "msx": 1.16,
-                "ms2": 1.23
+                "ms2": 1.22
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.29,
+                "firstHalf1_guess": 1.31,
                 "firstHalfX_guess": 1.16,
-                "firstHalf2_guess": 1.23
+                "firstHalf2_guess": 1.22
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.29,
+                "secondHalf1_guess": 1.31,
                 "secondHalfX_guess": 1.16,
-                "secondHalf2_guess": 1.23
+                "secondHalf2_guess": 1.22
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.29,
+                "handicap1_guess": 1.31,
                 "handicapX_guess": 1.16,
-                "handicap2_guess": 1.23
+                "handicap2_guess": 1.22
               }
             }
           ]
@@ -53233,66 +53385,66 @@
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
-      "estimated_odds": "2.96",
+      "estimated_odds": "3.06",
       "available_odds": {
-        "ms1": "2.60",
-        "msx": "2.96",
-        "ms2": "1.99",
+        "ms1": "2.59",
+        "msx": "3.06",
+        "ms2": "1.95",
         "over25": "1.62",
         "under25": "1.65",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.37",
-        "bttsNo": "1.14",
+        "bttsYes": "1.38",
+        "bttsNo": "1.12",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 2.6,
-        "msx": 2.96,
-        "ms2": 1.99,
+        "ms1": 2.59,
+        "msx": 3.06,
+        "ms2": 1.95,
         "under25": 1.65,
         "over25": 1.62,
-        "bttsYes_guess": 1.37,
-        "bttsNo_guess": 1.14
+        "bttsYes_guess": 1.38,
+        "bttsNo_guess": 1.12
       },
       "detail_market_candidates": [
         {
           "market_code": "13029",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 2.6,
-            "msx": 2.96,
-            "ms2": 1.99
+            "ms1": 2.59,
+            "msx": 3.06,
+            "ms2": 1.95
           }
         },
         {
           "market_code": "13029",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 2.6,
-            "firstHalfX_guess": 2.96,
-            "firstHalf2_guess": 1.99
+            "firstHalf1_guess": 2.59,
+            "firstHalfX_guess": 3.06,
+            "firstHalf2_guess": 1.95
           }
         },
         {
           "market_code": "13029",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 2.6,
-            "secondHalfX_guess": 2.96,
-            "secondHalf2_guess": 1.99
+            "secondHalf1_guess": 2.59,
+            "secondHalfX_guess": 3.06,
+            "secondHalf2_guess": 1.95
           }
         },
         {
           "market_code": "13029",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 2.6,
-            "handicapX_guess": 2.96,
-            "handicap2_guess": 1.99
+            "handicap1_guess": 2.59,
+            "handicapX_guess": 3.06,
+            "handicap2_guess": 1.95
           }
         },
         {
@@ -53411,8 +53563,8 @@
           "market_code": "13030",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.37,
-            "msx": 1.14,
+            "ms1": 1.38,
+            "msx": 1.12,
             "ms2": 1.19
           }
         },
@@ -53420,8 +53572,8 @@
           "market_code": "13030",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.37,
-            "firstHalfX_guess": 1.14,
+            "firstHalf1_guess": 1.38,
+            "firstHalfX_guess": 1.12,
             "firstHalf2_guess": 1.19
           }
         },
@@ -53429,8 +53581,8 @@
           "market_code": "13030",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.37,
-            "secondHalfX_guess": 1.14,
+            "secondHalf1_guess": 1.38,
+            "secondHalfX_guess": 1.12,
             "secondHalf2_guess": 1.19
           }
         },
@@ -53438,8 +53590,8 @@
           "market_code": "13030",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.37,
-            "handicapX_guess": 1.14,
+            "handicap1_guess": 1.38,
+            "handicapX_guess": 1.12,
             "handicap2_guess": 1.19
           }
         }
@@ -53448,47 +53600,47 @@
         {
           "market_code": "13029",
           "values": [
-            2.6,
-            2.96,
-            1.99
+            2.59,
+            3.06,
+            1.95
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 2.6,
-            "msx": 2.96,
-            "ms2": 1.99
+            "ms1": 2.59,
+            "msx": 3.06,
+            "ms2": 1.95
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.6,
-                "msx": 2.96,
-                "ms2": 1.99
+                "ms1": 2.59,
+                "msx": 3.06,
+                "ms2": 1.95
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.6,
-                "firstHalfX_guess": 2.96,
-                "firstHalf2_guess": 1.99
+                "firstHalf1_guess": 2.59,
+                "firstHalfX_guess": 3.06,
+                "firstHalf2_guess": 1.95
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.6,
-                "secondHalfX_guess": 2.96,
-                "secondHalf2_guess": 1.99
+                "secondHalf1_guess": 2.59,
+                "secondHalfX_guess": 3.06,
+                "secondHalf2_guess": 1.95
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.6,
-                "handicapX_guess": 2.96,
-                "handicap2_guess": 1.99
+                "handicap1_guess": 2.59,
+                "handicapX_guess": 3.06,
+                "handicap2_guess": 1.95
               }
             }
           ]
@@ -53608,45 +53760,45 @@
         {
           "market_code": "13030",
           "values": [
-            1.37,
-            1.14,
+            1.38,
+            1.12,
             1.19
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.37,
-            "bttsNo_guess": 1.14
+            "bttsYes_guess": 1.38,
+            "bttsNo_guess": 1.12
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.37,
-                "msx": 1.14,
+                "ms1": 1.38,
+                "msx": 1.12,
                 "ms2": 1.19
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.37,
-                "firstHalfX_guess": 1.14,
+                "firstHalf1_guess": 1.38,
+                "firstHalfX_guess": 1.12,
                 "firstHalf2_guess": 1.19
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.37,
-                "secondHalfX_guess": 1.14,
+                "secondHalf1_guess": 1.38,
+                "secondHalfX_guess": 1.12,
                 "secondHalf2_guess": 1.19
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.37,
-                "handicapX_guess": 1.14,
+                "handicap1_guess": 1.38,
+                "handicapX_guess": 1.12,
                 "handicap2_guess": 1.19
               }
             }
@@ -53659,7 +53811,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS X | Oran: 2.96 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS X | Oran: 3.06 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Düşük",
@@ -53760,7 +53912,7 @@
       },
       "signals": [
         "Market: MS X",
-        "Oran: 2.96",
+        "Oran: 3.06",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
