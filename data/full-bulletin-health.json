@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:04:39.537Z",
+  "generated_at": "2026-08-10T08:20:37.845Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
@@ -13,26 +13,29 @@
     "league": "Ukrayna Premier Lig",
     "home": "Polessya",
     "away": "Metalist",
-    "matchCode": "27190",
-    "mbs": null,
     "status": "scheduled",
     "liveStatus": "scheduled",
     "minute": null,
     "score": "",
     "source": "Maçkolik canlı robot",
-    "odds": {
-      "ms1": 1.76,
-      "msx": 2.84,
-      "ms2": 3.27,
-      "under25": 1.38,
-      "over25": 2
-    },
+    "matchCode": "27190",
     "available_odds": {
       "ms1": 1.76,
       "msx": 2.84,
       "ms2": 3.27,
       "under25": 1.38,
-      "over25": 2
+      "over25": 2,
+      "bttsYes_guess": 1.1,
+      "bttsNo_guess": 1.15
+    },
+    "odds": {
+      "ms1": 1.76,
+      "msx": 2.84,
+      "ms2": 3.27,
+      "under25": 1.38,
+      "over25": 2,
+      "bttsYes_guess": 1.1,
+      "bttsNo_guess": 1.15
     },
     "raw_market_guess_odds": {
       "ms1": 1.76,
@@ -44,7 +47,132 @@
       "bttsNo_guess": 1.15
     },
     "raw_odds_sequence": [],
-    "raw_market_value_count": 8
+    "market_odds_inventory": [
+      "ms1",
+      "msx",
+      "ms2",
+      "under25",
+      "over25",
+      "bttsYes_guess",
+      "bttsNo_guess",
+      "bttsYes",
+      "bttsNo"
+    ],
+    "wide_market_odds_count": 7,
+    "suggested_option": "",
+    "suggested_odds": "",
+    "analysis_score": null,
+    "confidence": "",
+    "risk_level": "",
+    "decision": "Analiz bekleniyor",
+    "robot_reason": "",
+    "include_in_coupon": false,
+    "raw_market_value_count": 8,
+    "mbs": null,
+    "raw_market_blocks": [],
+    "detail_market_candidates": [],
+    "detail_markets": [
+      {
+        "key": "ms1",
+        "label": "MS 1",
+        "odd": 1.76,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "msx",
+        "label": "MS X",
+        "odd": 2.84,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "ms2",
+        "label": "MS 2",
+        "odd": 3.27,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "under25",
+        "label": "2.5 Alt",
+        "odd": 1.38,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "over25",
+        "label": "2.5 Ust",
+        "odd": 2,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "bttsYes_guess",
+        "label": "bttsYes_guess",
+        "odd": 1.1,
+        "source": "Maçkolik canlı robot"
+      },
+      {
+        "key": "bttsNo_guess",
+        "label": "bttsNo_guess",
+        "odd": 1.15,
+        "source": "Maçkolik canlı robot"
+      }
+    ],
+    "raw_market_source": "Maçkolik canlı robot",
+    "oddsSource": "Maçkolik canlı robot",
+    "detail": {
+      "analysis": "Detay analizi icin robot verisi bekleniyor.",
+      "prediction": "Analiz bekleniyor",
+      "confidence": "",
+      "risk": "",
+      "team_info": {
+        "home": null,
+        "away": null
+      },
+      "league_info": null,
+      "goal_expectation": null,
+      "markets": [
+        {
+          "key": "ms1",
+          "label": "MS 1",
+          "odd": 1.76,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "msx",
+          "label": "MS X",
+          "odd": 2.84,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "ms2",
+          "label": "MS 2",
+          "odd": 3.27,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "under25",
+          "label": "2.5 Alt",
+          "odd": 1.38,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "over25",
+          "label": "2.5 Ust",
+          "odd": 2,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "bttsYes_guess",
+          "label": "bttsYes_guess",
+          "odd": 1.1,
+          "source": "Maçkolik canlı robot"
+        },
+        {
+          "key": "bttsNo_guess",
+          "label": "bttsNo_guess",
+          "odd": 1.15,
+          "source": "Maçkolik canlı robot"
+        }
+      ]
+    }
   },
   "date_window": {
     "main_day": "2026-08-10",
