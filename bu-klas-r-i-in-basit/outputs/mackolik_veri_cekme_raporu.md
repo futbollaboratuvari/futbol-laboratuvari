@@ -1,39 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T19:40:53.094856+00:00
+Tarih: 2026-08-10T19:44:37.357970+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 10
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 10
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 5977
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie B
-- Ekvador Pro Lig
-- Kolombiya Primera A Clausura
-- Uruguay Premier Lig Clausura
-- Venezuela Premier Lig Clausura
-- Şili Premier Lig
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -89,18 +84,7 @@ Tarih: 2026-08-10T19:40:53.094856+00:00
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 11.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Belgrano | 29441 | 5 |
-| 11.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Corboda Santiag | 29500 | 5 |
-| 11.08.2026 | 02:00 | Kolombiya Primera A Clausura | Independiente | Los Millionario | 00246 | 5 |
-| 11.08.2026 | 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil | Llaneros | 13064 | 5 |
-| 11.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Caracas Fc | Deportivo La Gu | 06051 | 5 |
-| 11.08.2026 | 03:00 | Şili Premier Lig | Audax Italiano | Atletico Nublen | 36248 | 5 |
-| 11.08.2026 | 01:30 | Brezilya Serie B | Goias | Londrina | 32885 | 5 |
-| 11.08.2026 | 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald | Racing Montevid | 18407 | 3 |
-| 11.08.2026 | 03:00 | Ekvador Pro Lig | Deportivo Cuen | Manta | 22431 | 5 |
-| 11.08.2026 | 00:30 | Ekvador Pro Lig | Libertad | Univ Catolica ( | 22414 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
