@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-10 / 2026-08-11
 Kaynak: fixtures.json
-Ham mac: 70
+Ham mac: 78
 Aktif mac: 49
-Canli mac: 21
-Biten mac: 0
-Bultenden dusurulen mac: 21
+Canli mac: 14
+Biten mac: 15
+Bultenden dusurulen mac: 29
 Bugun: 41
 Yarin: 8
 
@@ -62,13 +62,6 @@ Yarin: 8
 - 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | scheduled | -
 
 ## Canli Maclar
-- 2026-08-10 00:15 | Bolivya Premier Lig | Real Potosi - Blooming | live | -
-- 2026-08-10 00:30 | Brezilya Serie A | Santos - Atletico Pr | live | -
-- 2026-08-10 00:30 | Brezilya Serie A | Bragantino - Corinthians | live | -
-- 2026-08-10 00:30 | Şili Premier Lig | Union La Caler - Colo Colo | live | -
-- 2026-08-10 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Boston River | live | -
-- 2026-08-10 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Ucv | live | -
-- 2026-08-10 01:30 | Brezilya Serie A | Flamengo - Vitoria Bahia | live | -
 - 2026-08-10 02:00 | Guatemala Ulusal Lig Apertura | Municipal - Coban Imperial | live | -
 - 2026-08-10 02:00 | Nikaragua Premier Lig Apertura | San Marcos - Unan Managua | live | -
 - 2026-08-10 02:00 | CONCACAF U20 Final | Abd (U20) - Meksika (U20) | live | -
@@ -85,4 +78,18 @@ Yarin: 8
 - 2026-08-10 03:00 | Ekvador Pro Lig | Guayaquil City - Emelec | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-10 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - San Martin Sj | finished | -
+- 2026-08-10 00:00 | Brezilya Serie B | Cuiaba - Fortaleza Ce | finished | -
+- 2026-08-10 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Ad San Carlos | finished | -
+- 2026-08-10 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Suchitepequez | finished | -
+- 2026-08-10 00:00 | Ekvador Pro Lig | Delfin - Orense | finished | -
+- 2026-08-10 00:00 | ABD USL | Indy Eleven - Hartford Athlet | finished | -
+- 2026-08-10 00:00 | Honduras Ulusal Lig Apertura | Juticalpa - Depor. Olimpia | finished | -
+- 2026-08-10 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Fuerte San Fran | finished | -
+- 2026-08-10 00:15 | Bolivya Premier Lig | Real Potosi - Blooming | finished | -
+- 2026-08-10 00:30 | Brezilya Serie A | Santos - Atletico Pr | finished | -
+- 2026-08-10 00:30 | Brezilya Serie A | Bragantino - Corinthians | finished | -
+- 2026-08-10 00:30 | Şili Premier Lig | Union La Caler - Colo Colo | finished | -
+- 2026-08-10 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Boston River | finished | -
+- 2026-08-10 01:30 | Venezuela Premier Lig Clausura | Metropolitanos - Ucv | finished | -
+- 2026-08-10 01:30 | Brezilya Serie A | Flamengo - Vitoria Bahia | finished | -

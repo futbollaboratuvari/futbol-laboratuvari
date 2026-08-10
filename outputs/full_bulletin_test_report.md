@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 49
 - Live match count: 14
-- Finished removed count: 7
+- Finished removed count: 0
 - Date window: 2026-08-10 / 2026-08-11 23:59
 
 - 2026-08-10 02:00 | Abd (U20) - Meksika (U20) | live

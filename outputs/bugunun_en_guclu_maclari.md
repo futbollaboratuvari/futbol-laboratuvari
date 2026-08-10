@@ -4,20 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-10T00:51:08.506Z
+- Güncelleme: 2026-08-10T00:58:03.915Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Real Potosi VS Blooming | Bolivya Premier Lig | 00:15 | MS 2 | 4.85 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Santos VS Atletico Pr | Brezilya Serie A | 00:30 | MS 2 | 3.28 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Bragantino VS Corinthians | Brezilya Serie A | 00:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Union La Caler VS Colo Colo | Şili Premier Lig | 00:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Nacional Df VS Boston River | Uruguay Premier Lig Clausura | 00:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Metropolitanos VS Ucv | Venezuela Premier Lig Clausura | 01:30 | MS 2 | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Flamengo VS Vitoria Bahia | Brezilya Serie A | 01:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Municipal VS Coban Imperial | Guatemala Ulusal Lig Apertura | 02:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | San Marcos VS Unan Managua | Nikaragua Premier Lig Apertura | 02:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Abd (U20) VS Meksika (U20) | CONCACAF U20 Final | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
@@ -72,7 +65,7 @@
 | T.Universitari VS Mushuc Runa | Ekvador Pro Lig | 22:00 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Santa Clara VS Nacional Madeir | Portekiz Premier Lig | 22:15 | MS 2 | 3.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fram VS Kr Reykjavik | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Rayo Zuliano VS Estudiantes Fc | Venezuela Premier Lig Clausura | 22:30 | MS X | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rayo Zuliano VS Estudiantes Fc | Venezuela Premier Lig Clausura | 22:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Libertad VS Univ Catolica ( | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Banfield VS Belgrano | Arjantin Premier Lig 2. Aşama | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Deportivo Mald VS Racing Montevid | Uruguay Premier Lig Clausura | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
