@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 10.08.2026 23:27:37
+Oluşturma: 11.08.2026 00:04:10
 
 ## Özet
 
-- Toplam tahmin: 32
-- Bekleyen tahmin: 32
+- Toplam tahmin: 38
+- Bekleyen tahmin: 38
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 21
+- Lig sayısı: 26
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,18 @@ Oluşturma: 10.08.2026 23:27:37
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS X: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
-- MS X: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-11 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | MS 2 | pending | 40/100
+- 2026-08-11 | Brezilya Serie B | Goias - Londrina | MS 2 | pending | 50/100
+- 2026-08-11 | Kolombiya Primera A Clausura | Independiente - Los Millionario | MS X | pending | 40/100
+- 2026-08-11 | Şili Premier Lig | Audax Italiano - Atletico Nublen | MS X | pending | 40/100
+- 2026-08-11 | Ekvador Pro Lig | Deportivo Cuen - Manta | MS 2 | pending | 50/100
+- 2026-08-11 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | MS 2 | pending | 65/100
 - 2026-08-10 | Polonya 1.Lig | Unia Skierniew - Arka Gdynia | MS 1 | pending | 50/100
 - 2026-08-10 | Litvanya 1.Lig | Zalgiris Ii - Kauno Zalgiris | MS 2 | pending | 50/100
 - 2026-08-10 | Slovenya 1.SNL | Mura - Radomlje | MS X | pending | 50/100
@@ -35,10 +41,4 @@ Oluşturma: 10.08.2026 23:27:37
 - 2026-08-10 | Hollanda Eerste Divisie | Jong Az Alkmaa - Fc Eindhoven | MS X | pending | 70/100
 - 2026-08-10 | Hollanda Eerste Divisie | Psv (B) - Volendam | MS X | pending | 60/100
 - 2026-08-10 | Hazırlık Kulüpler | Volos Nfc - Kalamata | MS 2 | pending | 50/100
-- 2026-08-10 | Bulgaristan 1.Lig | Botev Plovdiv - Spartak Varna | MS 2 | pending | 60/100
-- 2026-08-10 | Romanya 1.Lig | Sepsi - Fc Steaua | MS 1 | pending | 50/100
-- 2026-08-10 | Türkiye TFF 1. Lig | Pendikspor - Batman Petrol | MS X | pending | 50/100
-- 2026-08-10 | Venezuela Premier Lig Clausura | Rayo Zuliano - Estudiantes Fc | MS X | pending | 40/100
-- 2026-08-10 | Slovakya 2.Lig | Povazska Bystr - Zlate Moravce | MS X | pending | 50/100
-- 2026-08-10 | Belarus 1.Lig | Volna Pinsk - Uni Minsk | MS X | pending | 50/100
 
