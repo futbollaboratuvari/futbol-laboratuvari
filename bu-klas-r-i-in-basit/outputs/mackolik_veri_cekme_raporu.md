@@ -1,32 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-10T18:32:16.052900+00:00
+Tarih: 2026-08-10T18:36:39.384934+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 18
+- Kac mac bulundu: 6
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 18
+- Kac mac zaten vardi: 6
 - Ham veri havuzu toplam mac sayisi: 5977
 - Hedef tarih: 10.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie B
 - Ekvador Pro Lig
-- Kolombiya Primera A Clausura
 - Portekiz Premier Lig
-- Romanya 1.Lig
-- Türkiye TFF 1. Lig
-- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İngiltere Lig Kupası 1.Tur
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -83,8 +76,8 @@ Tarih: 2026-08-10T18:32:16.052900+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 15
-- Acilan detay: 15
+- Denenen Tumu alani: 13
+- Acilan detay: 13
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -97,23 +90,11 @@ Tarih: 2026-08-10T18:32:16.052900+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 10.08.2026 | 21:30 | Türkiye TFF 1. Lig | Pendikspor | Batman Petrol | 30343 | 5 |
 | 10.08.2026 | 22:15 | Portekiz Premier Lig | Santa Clara | Nacional Madeir | 22070 | 5 |
 | 10.08.2026 | 22:00 | İngiltere Lig Kupası 1.Tur | Plymouth | Exeter | 26980 | 5 |
-| 11.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Banfield | Belgrano | 29441 | 5 |
-| 11.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe | Corboda Santiag | 29500 | 5 |
-| 10.08.2026 | 21:30 | Romanya 1.Lig | Sepsi | Fc Steaua | 35573 | 5 |
-| 11.08.2026 | 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil | Llaneros | 13064 | 5 |
-| 11.08.2026 | 02:00 | Kolombiya Primera A Clausura | Independiente | Los Millionario | 00246 | 5 |
 | 10.08.2026 | 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano | Estudiantes Fc | 05292 | 5 |
-| 11.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Caracas Fc | Deportivo La Gu | 06051 | 5 |
-| 11.08.2026 | 03:00 | Şili Premier Lig | Audax Italiano | Atletico Nublen | 36248 | 5 |
-| 11.08.2026 | 01:30 | Brezilya Serie B | Goias | Londrina | 32885 | 5 |
-| 11.08.2026 | 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald | Racing Montevid | 18407 | 3 |
 | 10.08.2026 | 22:15 | İzlanda Urvalsdeild | Fram | Kr Reykjavik | 34560 | 3 |
 | 10.08.2026 | 22:00 | Ekvador Pro Lig | T.Universitari | Mushuc Runa | 22397 | 5 |
-| 11.08.2026 | 03:00 | Ekvador Pro Lig | Deportivo Cuen | Manta | 22431 | 5 |
-| 11.08.2026 | 00:30 | Ekvador Pro Lig | Libertad | Univ Catolica ( | 22414 | 5 |
 | 10.08.2026 | 22:15 | İzlanda 2.Lig | Vikingur Ol. | Selfoss | 09521 | 3 |
 
 ## Sonuc
