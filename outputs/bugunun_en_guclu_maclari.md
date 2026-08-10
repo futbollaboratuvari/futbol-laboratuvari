@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-10T05:50:17.587Z
+- Güncelleme: 2026-08-10T06:08:26.170Z
 - Ham maç sayısı: 45
 - Yarın bülteni maç sayısı: 8
 - Detay blok sayısı: 124
@@ -20,20 +20,20 @@
 | Transinvest Vi - Fk Panevezys | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 1.48 | 7 |
 | Botev Vratsa - Slavia Sofia | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Mura - Radomlje | Slovenya 1.SNL | 19:00 | Veri bekleniyor | - | 1.77 | 8 |
-| Drobak/Frogn - Sandefjord Ii | Norveç 3.Lig Grup 6 | 19:00 | Veri bekleniyor | - | 1.69 | 6 |
+| Drobak/Frogn - Sandefjord Ii | Norveç 3.Lig Grup 6 | 19:00 | Veri bekleniyor | - | 1.65 | 6 |
 | Zalgiris Ii - Kauno Zalgiris | Litvanya 1.Lig | 19:00 | Veri bekleniyor | - | 1.55 | 8 |
 | Fakel Voronezh - Akhmat Grozny | Rusya Premier Lig | 19:30 | Veri bekleniyor | - | 2.89 | 8 |
 | Daugava Riga - Grobina | Letonya Virsliga | 19:30 | Veri bekleniyor | - | - | 3 |
 | Silkeborg - Odense | Danimarka Süperlig | 20:00 | Veri bekleniyor | - | 2.27 | 8 |
-| Vasteras - Djurgarden | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 3.56 | 8 |
-| Sirius - Brommapojkarna | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.17 | 6 |
+| Vasteras - Djurgarden | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 3.43 | 8 |
+| Sirius - Brommapojkarna | İsveç Allsvenskan | 20:00 | Veri bekleniyor | - | 1.15 | 6 |
 | Benfica (B) - Leixoes | Portekiz 2.Lig | 20:00 | Veri bekleniyor | - | 1.95 | 8 |
 | Lusitania De L - Porto (B) | Portekiz 2.Lig | 20:00 | Veri bekleniyor | - | 2.08 | 8 |
 | Norrby - Orebro | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2 | 8 |
 | Moss - Odds Bk | Norveç 1.Lig | 20:00 | Veri bekleniyor | - | 2.53 | 8 |
-| Unia Skierniew - Arka Gdynia | Polonya 1.Lig | 20:00 | Veri bekleniyor | - | 2.79 | 8 |
+| Unia Skierniew - Arka Gdynia | Polonya 1.Lig | 20:00 | Veri bekleniyor | - | 2.74 | 8 |
 | Baerum - Kfum Ii | Norveç 3.Lig Grup 1 | 20:00 | Veri bekleniyor | - | 1.09 | 4 |
-| Rosenborg 2 - Ranheim Ii | Norveç 3.Lig Grup 2 | 20:00 | Veri bekleniyor | - | 1.32 | 4 |
+| Rosenborg 2 - Ranheim Ii | Norveç 3.Lig Grup 2 | 20:00 | Veri bekleniyor | - | 1.2 | 4 |
 | Asane Ii - Austevoll | Norveç 3.Lig Grup 3 | 20:00 | Veri bekleniyor | - | 1.74 | 8 |
 | Skjetten - Lillestrom Sk I | Norveç 3.Lig Grup 5 | 20:00 | Veri bekleniyor | - | 1.65 | 5 |
 | Kí Klaksvík - Hb Torshavn | Faroe Adaları Master Lig | 20:30 | Veri bekleniyor | - | 1.44 | 7 |
