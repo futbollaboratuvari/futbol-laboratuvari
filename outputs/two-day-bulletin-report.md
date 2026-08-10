@@ -1,7 +1,8 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-10 / 2026-08-11
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 90
 Aktif mac: 56
 Canli mac: 0
