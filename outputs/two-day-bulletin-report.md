@@ -2,18 +2,23 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 101
-Aktif mac: 101
+Ham mac: 122
+Aktif mac: 111
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 85
+Biten mac: 11
+Bultenden dusurulen mac: 11
+Bugun: 95
 Yarin: 16
 
 ## Baslamamis Maclar
+- 2026-08-11 11:30 | Hazırlık Kulüpler | Eldense - Cartagena | scheduled | -
 - 2026-08-11 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite - Cand | scheduled | -
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | scheduled | -
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | scheduled | -
+- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | scheduled | -
+- 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | scheduled | -
+- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | scheduled | -
+- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | scheduled | -
 - 2026-08-11 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | scheduled | -
 - 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | scheduled | -
 - 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | scheduled | -
@@ -27,10 +32,13 @@ Yarin: 16
 - 2026-08-11 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) - (0) Larne Fc | scheduled | -
 - 2026-08-11 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira - Al Ittihad (Cid | scheduled | -
 - 2026-08-11 19:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | scheduled | -
+- 2026-08-11 19:30 | Danimarka 3.Lig | Ishoj - Asa Aarhus | scheduled | -
 - 2026-08-11 20:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kauno Zalgiris (0) - (5) Dinamo Zagreb | scheduled | -
 - 2026-08-11 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) - (0) Brann | scheduled | -
 - 2026-08-11 20:00 | İsveç Superettan | Helsingborg - Varnamo | scheduled | -
 - 2026-08-11 20:00 | Almanya Bölgesel Lig Kuzey | Lübeck - Vfb Oldenburg | scheduled | -
+- 2026-08-11 20:00 | Hazırlık Kulüpler | G.Torrelavega - Sestao | scheduled | -
+- 2026-08-11 20:00 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - União De Leiria | scheduled | -
 - 2026-08-11 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Nijmegen (0) - (0) Olympiakos | scheduled | -
 - 2026-08-11 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Cska 1948 Sofi (1) - (1) Panathinaikos | scheduled | -
 - 2026-08-11 20:30 | Güney Afrika PSL | Ts Galaxy - Mamelodi Sundow | scheduled | -
@@ -95,7 +103,9 @@ Yarin: 16
 - 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Bromsgrove Spo - Rushall Olympic | scheduled | -
 - 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Hitchin Town - Needham Market | scheduled | -
 - 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Peterborough S - Real Bedford | scheduled | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc - Hibernian Ii | scheduled | -
 - 2026-08-11 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) - (2) Sparta Prag | scheduled | -
+- 2026-08-11 22:30 | Paraguay Kupa 3.Tur | Indep Cambo Gr - Sportivo Amelia | scheduled | -
 - 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | scheduled | -
 - 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | scheduled | -
 - 2026-08-12 01:30 | Brezilya Serie B | Avai - Regatas | scheduled | -
@@ -117,4 +127,14 @@ Yarin: 16
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
+- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | finished | -
+- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | finished | -
+- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | finished | -
+- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | finished | -
+- 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | finished | -
+- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | finished | -
+- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | finished | -
+- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | finished | -
+- 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | finished | -
