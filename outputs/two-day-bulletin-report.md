@@ -3,16 +3,14 @@
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
 Ham mac: 81
-Aktif mac: 78
-Canli mac: 3
+Aktif mac: 76
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 58
+Bultenden dusurulen mac: 5
+Bugun: 56
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | scheduled | -
-- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pumas Unam | scheduled | -
 - 2026-08-12 03:00 | Arjantin Premier Lig 2. Aşama | Talleres - Lanus | scheduled | -
 - 2026-08-12 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Xelaju | scheduled | -
 - 2026-08-12 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Atlas | scheduled | -
@@ -94,6 +92,8 @@ Yarin: 20
 - 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | live | -
 - 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | live | -
 - 2026-08-12 01:30 | Brezilya Serie B | Avai - Regatas | live | -
+- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | live | -
+- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pumas Unam | live | -
 
 ## Biten Maclar
 Biten mac yok.
