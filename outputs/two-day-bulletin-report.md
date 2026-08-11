@@ -3,69 +3,14 @@
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
 Ham mac: 93
-Aktif mac: 72
-Canli mac: 21
+Aktif mac: 17
+Canli mac: 76
 Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 56
+Bultenden dusurulen mac: 76
+Bugun: 1
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio - Cove Rangers | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clachnacuddin - Dundee United I | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Elgin - Ross County | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Motherwell Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee - Peterhead | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Montrose - Fraserburgh | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Edinburg C. - Cowdenbeath | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Airdrieonians | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Annan | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Kilbride - Kilmarnock Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Queen Of South - Cumbernauld Col | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Forfar - Aberdeen Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank - Hibernian Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Berwick - Hearts Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Fife - Spartans | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Gala Fairydean - Rangers Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clyde - St. Mirren Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni - Dundee Ii | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Alloa - Stranraer | scheduled | -
-- 2026-08-11 21:45 | Kuzey İrlanda Championship | Queens Univers - Hw Welders | scheduled | -
-- 2026-08-11 21:45 | Kuzey İrlanda Championship | Institute Fc - Ballinamallard | scheduled | -
-- 2026-08-11 21:45 | Kuzey İrlanda Championship | Ards Fc - Dundela | scheduled | -
-- 2026-08-11 21:45 | Kuzey İrlanda Championship | Loughgall Fc - Newington Yc | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Bamber Bridge - Avro | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Afc Emley - Ilkeston Town | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Whitby Town - Guiseley | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Warrington Tow - Hyde | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Alfreton - Gainsborough Tr | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Bury - Curzon Ashton | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Quorn - Cleethorpes Tow | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Lancaster City - Rylands | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Workington - Redcar Athletic | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Stockton Town - Ashton United | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Bracknell Town - Gloucester City | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Havant And W. - Uxbridge | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Evesham United - Frome Town | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Poole Town - Sholing | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Bath City - Plymouth Parkwa | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Chertsey Town - Berkhamsted | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Chippenham Tow - Yate Town | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Hanwell - Basingstoke | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Taunton Town - Malvern Town | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Leiston - Bishops Stortfo | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Leighton Town - Kettering | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Alvechurch - Worcester City | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Stamford - Bury Town | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Banbury United - Racing Club War | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Stratford Town - Redditch United | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Bromsgrove Spo - Rushall Olympic | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Hitchin Town - Needham Market | scheduled | -
-- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Peterborough S - Real Bedford | scheduled | -
-- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc - Hibernian Ii | scheduled | -
-- 2026-08-11 21:45 | Kuzey İrlanda Championship | Moyola Park - Strabane Athlet | scheduled | -
-- 2026-08-11 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) - (2) Sparta Prag | scheduled | -
 - 2026-08-11 22:30 | Paraguay Kupa 3.Tur | Indep Cambo Gr - Sportivo Amelia | scheduled | -
 - 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | scheduled | -
 - 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | scheduled | -
@@ -106,6 +51,61 @@ Yarin: 16
 - 2026-08-11 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Slovan Bratisl (2) - (1) Mjallby | live | -
 - 2026-08-11 21:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sturm Graz (0) - (2) Fenerbahçe | live | -
 - 2026-08-11 21:30 | İngiltere Non League Premier Güney | Wimborne Town - Chichester City | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio - Cove Rangers | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clachnacuddin - Dundee United I | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Elgin - Ross County | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Motherwell Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee - Peterhead | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Montrose - Fraserburgh | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Edinburg C. - Cowdenbeath | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Airdrieonians | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Annan | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Kilbride - Kilmarnock Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Queen Of South - Cumbernauld Col | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Forfar - Aberdeen Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank - Hibernian Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Berwick - Hearts Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Fife - Spartans | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Gala Fairydean - Rangers Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clyde - St. Mirren Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni - Dundee Ii | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Alloa - Stranraer | live | -
+- 2026-08-11 21:45 | Kuzey İrlanda Championship | Queens Univers - Hw Welders | live | -
+- 2026-08-11 21:45 | Kuzey İrlanda Championship | Institute Fc - Ballinamallard | live | -
+- 2026-08-11 21:45 | Kuzey İrlanda Championship | Ards Fc - Dundela | live | -
+- 2026-08-11 21:45 | Kuzey İrlanda Championship | Loughgall Fc - Newington Yc | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Bamber Bridge - Avro | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Afc Emley - Ilkeston Town | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Whitby Town - Guiseley | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Warrington Tow - Hyde | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Alfreton - Gainsborough Tr | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Bury - Curzon Ashton | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Quorn - Cleethorpes Tow | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Lancaster City - Rylands | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Workington - Redcar Athletic | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Kuzey | Stockton Town - Ashton United | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Bracknell Town - Gloucester City | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Havant And W. - Uxbridge | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Evesham United - Frome Town | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Poole Town - Sholing | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Bath City - Plymouth Parkwa | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Chertsey Town - Berkhamsted | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Chippenham Tow - Yate Town | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Hanwell - Basingstoke | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney | Taunton Town - Malvern Town | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Leiston - Bishops Stortfo | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Leighton Town - Kettering | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Alvechurch - Worcester City | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Stamford - Bury Town | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Banbury United - Racing Club War | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Stratford Town - Redditch United | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Bromsgrove Spo - Rushall Olympic | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Hitchin Town - Needham Market | live | -
+- 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Peterborough S - Real Bedford | live | -
+- 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc - Hibernian Ii | live | -
+- 2026-08-11 21:45 | Kuzey İrlanda Championship | Moyola Park - Strabane Athlet | live | -
+- 2026-08-11 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) - (2) Sparta Prag | live | -
 
 ## Biten Maclar
 Biten mac yok.
