@@ -4,15 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-11T19:54:06.212Z
+- Güncelleme: 2026-08-11T20:25:14.270Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kizilyildiz (0) VS (1) Hapoel Beer She | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:00 | MS X | 5.38 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | live |
-| Real Jaen VS Cacereno | Hazırlık Kulüpler | 21:00 | MS 2 | 3.20 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Celje (1) VS (2) Ararat-Armenia | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Slovan Bratisl (2) VS (1) Mjallby | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:15 | MS 2 | 3.58 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Sturm Graz (0) VS (2) Fenerbahçe | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -76,30 +74,28 @@
 | Fluminense VS Rivadavia | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Boca Juniors VS Deportivo Recol | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Avai VS Regatas | Brezilya Serie B | 01:30 | MS X | 2.66 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Charlotte VS Pachuca | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 3.74 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Charlotte VS Pachuca | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 3.85 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Columbus VS Pumas Unam | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Talleres VS Lanus | Arjantin Premier Lig 2. Aşama | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Plaza Amador VS Xelaju | CONCACAF Orta Amerika Kupası Grup A | 03:00 | MS X | 2.93 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cincinnati VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 6.15 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Plaza Amador VS Xelaju | CONCACAF Orta Amerika Kupası Grup A | 03:00 | MS X | 3.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cincinnati VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 6.09 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Estudiantes Lp VS Univ. Catolica | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Deportes Tolim VS Indep. Jose Ter | Copa Libertadores Son 16 Turu | 03:30 | MS X | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Bolivar VS Sao Paulo | Copa Sudamericana Son 16 Turu | 03:30 | MS 2 | 4.00 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Minnesota Utd VS Atlante | CONCACAF Ligler Kupası Grup Aşaması | 03:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Salt Lake VS Fc Juarez | CONCACAF Ligler Kupası Grup Aşaması | 04:30 | MS 2 | 4.07 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Real Esteli VS Alianza | CONCACAF Orta Amerika Kupası Grup B | 05:00 | MS 2 | 4.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Real Esteli VS Alianza | CONCACAF Orta Amerika Kupası Grup B | 05:00 | MS 2 | 4.57 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Deportivo Sapr VS Mixco | CONCACAF Orta Amerika Kupası Grup C | 05:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Tigres Uanl VS Vancouver | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kizilyildiz (0) VS (1) Hapoel Beer She | MS X | 5.38 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Salt Lake VS Fc Juarez | MS 2 | 4.07 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kizilyildiz (0) VS (1) Hapoel Beer She + Salt Lake VS Fc Juarez | MS X + MS 2 | 21.90 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
