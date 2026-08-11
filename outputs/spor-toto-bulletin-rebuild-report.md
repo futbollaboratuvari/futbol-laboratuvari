@@ -1,9 +1,9 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-11T04:22:28.479Z
-- Ham fixture sayisi: 6049
-- Bugun/yarin kaynak mac: 110
-- Aktif bulten maci: 99
+- Guncelleme: 2026-08-11T05:36:15.797Z
+- Ham fixture sayisi: 6051
+- Bugun/yarin kaynak mac: 112
+- Aktif bulten maci: 101
 - Gosterilen mac: 15
 - Bultenden dusurulen mac: 11
 
@@ -21,4 +21,4 @@
 - 12. 2026-08-11 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira - Al Ittihad (Cid | scheduled
 - 13. 2026-08-11 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) - (3) Union St.G | scheduled
 - 14. 2026-08-11 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) - (0) Larne Fc | scheduled
-- 15. 2026-08-11 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) - (2) Aarhus | scheduled
+- 15. 2026-08-11 19:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | scheduled

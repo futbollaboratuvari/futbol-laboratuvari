@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 99
-Aktif mac: 99
+Ham mac: 112
+Aktif mac: 101
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 83
+Biten mac: 11
+Bultenden dusurulen mac: 11
+Bugun: 85
 Yarin: 16
 
 ## Baslamamis Maclar
@@ -26,6 +26,7 @@ Yarin: 16
 - 2026-08-11 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) - (2) Aarhus | scheduled | -
 - 2026-08-11 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) - (0) Larne Fc | scheduled | -
 - 2026-08-11 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira - Al Ittihad (Cid | scheduled | -
+- 2026-08-11 19:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | scheduled | -
 - 2026-08-11 20:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kauno Zalgiris (0) - (5) Dinamo Zagreb | scheduled | -
 - 2026-08-11 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) - (0) Brann | scheduled | -
 - 2026-08-11 20:00 | İsveç Superettan | Helsingborg - Varnamo | scheduled | -
@@ -36,6 +37,7 @@ Yarin: 16
 - 2026-08-11 20:30 | Güney Afrika PSL | Polokwane City - Stellenbosch Fc | scheduled | -
 - 2026-08-11 20:30 | Güney Afrika PSL | Marumo Gallant - Kruger United | scheduled | -
 - 2026-08-11 20:30 | Güney Afrika PSL | Chippa United - Richards Bay | scheduled | -
+- 2026-08-11 20:30 | Hazırlık Kulüpler | Unionistas De - Cd Coria | scheduled | -
 - 2026-08-11 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) - (1) Hapoel Beer She | scheduled | -
 - 2026-08-11 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Celje (1) - (2) Ararat-Armenia | scheduled | -
 - 2026-08-11 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Slovan Bratisl (2) - (1) Mjallby | scheduled | -
@@ -115,4 +117,14 @@ Yarin: 16
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
+- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | finished | -
+- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | finished | -
+- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | finished | -
+- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | finished | -
+- 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | finished | -
+- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | finished | -
+- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | finished | -
+- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | finished | -
+- 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | finished | -
