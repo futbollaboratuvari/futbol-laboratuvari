@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-11T22:53:23.733Z
+- Güncelleme: 2026-08-11T23:05:17.629Z
 - Ham maç sayısı: 81
 - Yarın bülteni maç sayısı: 20
 - Detay blok sayısı: 228
@@ -48,7 +48,7 @@
 | Gks Katowice (0) - (2) Hapoel Tel Aviv | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.76 | 8 |
 | Kopenhag (3) - (0) Debreceni | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.07 | 6 |
 | Bremer Sv - Phönix Lübeck | Almanya Bölgesel Lig Kuzey | 19:00 | Veri bekleniyor | - | 3.44 | 8 |
-| Everton - Newcastle Utd | Hazırlık Kulüpler | 19:15 | Veri bekleniyor | - | 2.52 | 8 |
+| Everton - Newcastle Utd | Hazırlık Kulüpler | 19:15 | Veri bekleniyor | - | 2.6 | 8 |
 | Aek - Ofi | Yunanistan Süper Kupa | 20:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Norderstedt - Kickers Emden | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 2.86 | 6 |
 | Jeddeloh - Sankt Pauli Ii | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 1.63 | 6 |
@@ -63,7 +63,7 @@
 | Taftea - Skelleftea | İsveç 2.Lig Norrland Yükselme Grubu | 20:30 | Veri bekleniyor | - | 2.49 | 6 |
 | Man. Utd - Leeds Utd | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.93 | 8 |
 | Arsenal - Como | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.28 | 6 |
-| Hamilton - Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.18 | 4 |
+| Hamilton - Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.17 | 4 |
 | Nottingham F - B.Leverkusen | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.12 | 8 |
 | Gosport Boroug - Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | Veri bekleniyor | - | 2.59 | 8 |
 | Psg - Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | Veri bekleniyor | - | 1.57 | 8 |
