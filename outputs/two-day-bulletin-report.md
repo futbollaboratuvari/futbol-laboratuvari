@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 17
-Canli mac: 76
+Ham mac: 78
+Aktif mac: 16
+Canli mac: 62
 Biten mac: 0
-Bultenden dusurulen mac: 76
-Bugun: 1
+Bultenden dusurulen mac: 62
+Bugun: 0
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 22:30 | Paraguay Kupa 3.Tur | Indep Cambo Gr - Sportivo Amelia | scheduled | -
 - 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | scheduled | -
 - 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | scheduled | -
 - 2026-08-12 01:30 | Brezilya Serie B | Avai - Regatas | scheduled | -
@@ -30,21 +29,6 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
-- 2026-08-11 19:30 | Danimarka 3.Lig | Ishoj - Asa Aarhus | live | -
-- 2026-08-11 20:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kauno Zalgiris (0) - (5) Dinamo Zagreb | live | -
-- 2026-08-11 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) - (0) Brann | live | -
-- 2026-08-11 20:00 | İsveç Superettan | Helsingborg - Varnamo | live | -
-- 2026-08-11 20:00 | Almanya Bölgesel Lig Kuzey | Lübeck - Vfb Oldenburg | live | -
-- 2026-08-11 20:00 | Hazırlık Kulüpler | G.Torrelavega - Sestao | live | -
-- 2026-08-11 20:00 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - União De Leiria | live | -
-- 2026-08-11 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Nijmegen (0) - (0) Olympiakos | live | -
-- 2026-08-11 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Cska 1948 Sofi (1) - (1) Panathinaikos | live | -
-- 2026-08-11 20:30 | Güney Afrika PSL | Ts Galaxy - Mamelodi Sundow | live | -
-- 2026-08-11 20:30 | Güney Afrika PSL | Polokwane City - Stellenbosch Fc | live | -
-- 2026-08-11 20:30 | Güney Afrika PSL | Marumo Gallant - Kruger United | live | -
-- 2026-08-11 20:30 | Güney Afrika PSL | Chippa United - Richards Bay | live | -
-- 2026-08-11 20:30 | Hazırlık Kulüpler | Unionistas De - Cd Coria | live | -
-- 2026-08-11 20:30 | Hazırlık Kulüpler | Marino De Luan - Langreo | live | -
 - 2026-08-11 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) - (1) Hapoel Beer She | live | -
 - 2026-08-11 21:00 | Hazırlık Kulüpler | Real Jaen - Cacereno | live | -
 - 2026-08-11 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Celje (1) - (2) Ararat-Armenia | live | -
@@ -106,6 +90,7 @@ Yarin: 16
 - 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc - Hibernian Ii | live | -
 - 2026-08-11 21:45 | Kuzey İrlanda Championship | Moyola Park - Strabane Athlet | live | -
 - 2026-08-11 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) - (2) Sparta Prag | live | -
+- 2026-08-11 22:30 | Paraguay Kupa 3.Tur | Indep Cambo Gr - Sportivo Amelia | live | -
 
 ## Biten Maclar
 Biten mac yok.
