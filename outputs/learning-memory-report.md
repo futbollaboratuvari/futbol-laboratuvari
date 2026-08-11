@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 19:46:41
+Oluşturma: 11.08.2026 20:40:09
 
 ## Özet
 
-- Toplam tahmin: 57
-- Bekleyen tahmin: 57
+- Toplam tahmin: 58
+- Bekleyen tahmin: 58
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 15
@@ -20,12 +20,13 @@ Oluşturma: 11.08.2026 19:46:41
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 - MS X: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-11 | Hazırlık Kulüpler | Real Jaen - Cacereno | MS 2 | pending | 40/100
 - 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) - (1) Hapoel Beer She | MS X | pending | 80/100
 - 2026-08-11 | İngiltere Non League Premier Güney Merkez | Bromsgrove Spo - Rushall Olympic | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney Merkez | Hitchin Town - Needham Market | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 11.08.2026 19:46:41
 - 2026-08-11 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Kuzey | Quorn - Cleethorpes Tow | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Kuzey | Lancaster City - Rylands | MS X | pending | 40/100
-- 2026-08-11 | İngiltere Non League Premier Kuzey | Workington - Redcar Athletic | MS X | pending | 50/100
 
