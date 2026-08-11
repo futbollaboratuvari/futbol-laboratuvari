@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-11T15:38:13.718556+00:00
+Tarih: 2026-08-11T15:45:21.775045+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 97
+- Kac mac bulundu: 82
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 97
+- Kac mac zaten vardi: 82
 - Ham veri havuzu toplam mac sayisi: 6093
 - Hedef tarih: 11.08.2026 Europe/Istanbul
 
@@ -16,14 +16,6 @@ Tarih: 2026-08-11T15:38:13.718556+00:00
 
 - AFC Şampiyonlar Ligi Elite 1. Eleme Turu
 - Almanya Bölgesel Lig Kuzey
-- Arjantin Premier Lig 2. Aşama
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Danimarka 3.Lig
 - Güney Afrika PSL
 - Hazırlık Kulüpler
@@ -122,13 +114,13 @@ Tarih: 2026-08-11T15:38:13.718556+00:00
 | 11.08.2026 | 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Cska 1948 Sofi (1) | (1) Panathinaikos | 06076 | 5 |
 | 11.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) | (0) Brann | 05859 | 5 |
 | 11.08.2026 | 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira | Al Ittihad (Cid | 10000 | 5 |
-| 12.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Fluminense | Rivadavia | 06924 | 5 |
-| 12.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp | Univ. Catolica | 07339 | 5 |
-| 12.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Bolivar | Sao Paulo | 07228 | 5 |
-| 12.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors | Deportivo Recol | 06769 | 5 |
-| 12.08.2026 | 03:00 | Arjantin Premier Lig 2. Aşama | Talleres | Lanus | 12596 | 5 |
-| 12.08.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador | Xelaju | 13306 | 5 |
-| 12.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli | Alianza | 09588 | 5 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee | Peterhead | 06414 | 5 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Montrose | Fraserburgh | 06752 | 3 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Elgin | Ross County | 10025 | 3 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc | Hibernian Ii | 05690 | 3 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Edinburg C. | Cowdenbeath | 10024 | 3 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose | Annan | 06422 | 3 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Kilbride | Kilmarnock Ii | 10014 | 3 |
 
 ## Sonuc
 
