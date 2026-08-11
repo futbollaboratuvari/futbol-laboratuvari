@@ -1,20 +1,44 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-11T20:56:01.314281+00:00
+Tarih: 2026-08-11T21:12:32.630312+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 2
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 2
-- Ham veri havuzu toplam mac sayisi: 6093
-- Hedef tarih: 11.08.2026 Europe/Istanbul
+- Kac mac bulundu: 70
+- Kac mac kaydedildi: 70
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 6163
+- Hedef tarih: 12.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- İngiltere Non League Premier Güney Merkez
+- ABD USL Kupası Çeyrek Final
+- ABD USL Lig 1
+- Almanya Bölgesel Lig Kuzey
+- Arjantin Kupa Son 16 Turu
+- Avustralya FFA Kupası Son 16 Turu
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Ekvador Kupa Son 16 Turu
+- Güney Afrika PSL
+- Hazırlık Kulüpler
+- Macaristan NB III Güneybatı
+- Macaristan NB III Güneydoğu
+- Macaristan NB III Kuzeybatı
+- Macaristan NB III Kuzeydoğu
+- Portekiz U23 Ulusal Şampiyona
+- UEFA Konferans Ligi 3. Eleme Turu
+- UEFA Süper Kupa Süper Kupa
+- Yunanistan Süper Kupa
+- İngiltere Non League Premier Güney
+- İskoçya Challenge Kupası Lig Aşaması
+- İsveç 2.Lig Norrland Yükselme Grubu
 
 ## Okunabilen Oran Alanlari
 
@@ -71,8 +95,8 @@ Tarih: 2026-08-11T20:56:01.314281+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 9
-- Acilan detay: 9
+- Denenen Tumu alani: 25
+- Acilan detay: 25
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -85,8 +109,26 @@ Tarih: 2026-08-11T20:56:01.314281+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 11.08.2026 | 21:45 | İngiltere Non League Premier Güney Merkez | Stamford | Bury Town | 13037 | 5 |
-| 11.08.2026 | 21:45 | İngiltere Non League Premier Güney Merkez | Alvechurch | Worcester City | 12810 | 5 |
+| 12.08.2026 | 22:00 | UEFA Süper Kupa Süper Kupa | Psg | Aston Villa | 00027 | 5 |
+| 12.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Rapid Wien (4) | (1) Paide Linnamees | 07624 | 4 |
+| 12.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Gks Katowice (0) | (2) Hapoel Tel Aviv | 07429 | 5 |
+| 12.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Kopenhag (3) | (0) Debreceni | 07488 | 5 |
+| 12.08.2026 | 20:00 | Yunanistan Süper Kupa | Aek | Ofi | 13143 | 5 |
+| 12.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra | Preston Lions | 12416 | 5 |
+| 12.08.2026 | 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine | Heidelberg Unit | 12511 | 3 |
+| 12.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia | Sydney United | 12399 | 5 |
+| 13.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro | Flamengo | 08829 | 5 |
+| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Palmeiras | Cerro Porteno | 08589 | 5 |
+| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Platense | Coquimbo Unido | 08330 | 5 |
+| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Bragantino | Atletico Mg | 08191 | 5 |
+| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Tigre | Torque | 08449 | 5 |
+| 13.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua | Cs Cartagines | 04974 | 5 |
+| 13.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas | Hankook Verdes | 10715 | 4 |
+| 13.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Club Leon | 07084 | 5 |
+| 13.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Dallas | 07694 | 5 |
+| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Guadalajara | 08033 | 5 |
+| 13.08.2026 | 05:15 | CONCACAF Ligler Kupası Grup Aşaması | San Diego | Puebla | 07793 | 5 |
+| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc | Queretaro | 07850 | 5 |
 
 ## Sonuc
 

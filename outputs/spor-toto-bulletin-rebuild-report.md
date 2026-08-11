@@ -1,11 +1,11 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-11T20:24:36.385Z
-- Ham fixture sayisi: 6065
-- Bugun/yarin kaynak mac: 126
-- Aktif bulten maci: 16
+- Guncelleme: 2026-08-11T21:12:36.393Z
+- Ham fixture sayisi: 6130
+- Bugun/yarin kaynak mac: 81
+- Aktif bulten maci: 81
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 110
+- Bultenden dusurulen mac: 0
 
 - 1. 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | scheduled
 - 2. 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | scheduled
