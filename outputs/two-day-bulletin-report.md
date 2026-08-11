@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 112
-Aktif mac: 104
-Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 88
+Ham mac: 123
+Aktif mac: 102
+Canli mac: 10
+Biten mac: 11
+Bultenden dusurulen mac: 21
+Bugun: 86
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | scheduled | -
-- 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | scheduled | -
 - 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | scheduled | -
 - 2026-08-11 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor - Al-Hussein | scheduled | -
 - 2026-08-11 18:30 | Finlandiya Ykkönen | Jyvaskyla - Tampere Utd | scheduled | -
@@ -125,6 +123,18 @@ Yarin: 16
 - 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | live | -
 - 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | live | -
 - 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | live | -
+- 2026-08-11 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | live | -
+- 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
+- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | finished | -
+- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | finished | -
+- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | finished | -
+- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | finished | -
+- 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | finished | -
+- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | finished | -
+- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | finished | -
+- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | finished | -
+- 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | finished | -

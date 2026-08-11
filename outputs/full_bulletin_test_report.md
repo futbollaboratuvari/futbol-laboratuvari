@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 104
-- Live match count: 8
+- Scheduled match count: 102
+- Live match count: 10
 - Finished removed count: 0
 - Date window: 2026-08-11 / 2026-08-12 23:59
 
@@ -15,5 +15,5 @@
 - 2026-08-11 13:00 | Palermo - Juventus | live
 - 2026-08-11 13:00 | Famalicão U23 - Torreense U23 | live
 - 2026-08-11 13:00 | Sporting Braga - Farense U23 | live
-- 2026-08-11 13:30 | Gangwon - Gamba Osaka | scheduled
-- 2026-08-11 13:30 | Sturt Lions - Adelaide Comets | scheduled
+- 2026-08-11 13:30 | Gangwon - Gamba Osaka | live
+- 2026-08-11 13:30 | Sturt Lions - Adelaide Comets | live
