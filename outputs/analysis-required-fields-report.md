@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 83
-Tam analiz: 75
+Toplam analiz: 85
+Tam analiz: 77
 Eksik analiz: 8
 
 - Clachnacuddin VS Dundee United I: eksik score, confidence
