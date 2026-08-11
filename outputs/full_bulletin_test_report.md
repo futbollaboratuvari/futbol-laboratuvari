@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 111
-- Live match count: 0
+- Scheduled match count: 110
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-11 / 2026-08-12 23:59
 
-- 2026-08-11 11:30 | Eldense - Cartagena | scheduled
+- 2026-08-11 11:30 | Eldense - Cartagena | live
 - 2026-08-11 12:30 | Adelaide Unite - Cand | scheduled
 - 2026-08-11 12:30 | Macarthur - Sd Raiders | scheduled
 - 2026-08-11 12:30 | Queensland Lio - Melbourne City | scheduled
