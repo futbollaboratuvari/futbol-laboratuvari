@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-11T07:54:13.510Z
+- Güncelleme: 2026-08-11T08:02:35.503Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -15,7 +15,7 @@
 | Adelaide Unite VS Cand | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 12:30 | MS 2 | 4.47 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Sd Raiders VS Macarthur | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Queensland Lio VS Melbourne City | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Macarthur VS Sd Raiders | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Macarthur VS Sd Raiders | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Palermo VS Juventus | Hazırlık Kulüpler | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Sporting Braga VS Farense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Famalicão U23 VS Torreense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
@@ -103,7 +103,7 @@
 | Bromsgrove Spo VS Rushall Olympic | İngiltere Non League Premier Güney Merkez | 21:45 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hitchin Town VS Needham Market | İngiltere Non League Premier Güney Merkez | 21:45 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Peterborough S VS Real Bedford | İngiltere Non League Premier Güney Merkez | 21:45 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Clydebank Fc VS Hibernian Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Clydebank Fc VS Hibernian Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Lyon (1) VS (2) Sparta Prag | UEFA Şampiyonlar Ligi 3.Eleme Turu | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Indep Cambo Gr VS Sportivo Amelia | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Fluminense VS Rivadavia | Copa Libertadores Son 16 Turu | 01:00 | MS 2 | 4.42 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 10:55:23
+Oluşturma: 11.08.2026 11:04:02
 
 ## Özet
 
-- Toplam tahmin: 95
-- Bekleyen tahmin: 95
+- Toplam tahmin: 101
+- Bekleyen tahmin: 101
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 36
+- Lig sayısı: 38
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,18 @@ Oluşturma: 11.08.2026 10:55:23
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 61, bekleyen 61, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
+- MS X: toplam 62, bekleyen 62, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-11 | Danimarka 3.Lig | Ishoj - Asa Aarhus | MS 2 | pending | 60/100
+- 2026-08-11 | Hazırlık Kulüpler | G.Torrelavega - Sestao | MS X | pending | 40/100
+- 2026-08-11 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - União De Leiria | MS 2 | pending | 50/100
+- 2026-08-11 | Hazırlık Kulüpler | Eldense - Cartagena | MS 2 | pending | 40/100
+- 2026-08-11 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | MS 2 | pending | 50/100
+- 2026-08-11 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | MS 2 | pending | 50/100
 - 2026-08-11 | Kuzey İrlanda Championship | Queens Univers - Hw Welders | MS X | pending | 45/100
 - 2026-08-11 | Hazırlık Kulüpler | Unionistas De - Cd Coria | MS 2 | pending | 50/100
 - 2026-08-11 | Hazırlık Kulüpler | Unionistas De - Cd Coria | MS X | pending | 50/100
@@ -35,10 +41,4 @@ Oluşturma: 11.08.2026 10:55:23
 - 2026-08-11 | İskoçya Challenge Kupası Lig Aşaması | Alloa - Stranraer | MS 2 | pending | 50/100
 - 2026-08-11 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | MS X | pending | 40/100
 - 2026-08-11 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor - Al-Hussein | MS 2 | pending | 50/100
-- 2026-08-11 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio - Cove Rangers | MS X | pending | 50/100
-- 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) - (3) Union St.G | MS X | pending | 70/100
-- 2026-08-11 | İngiltere Non League Premier Kuzey | Stockton Town - Ashton United | MS X | pending | 50/100
-- 2026-08-11 | İngiltere Non League Premier Güney | Havant And W. - Uxbridge | MS X | pending | 50/100
-- 2026-08-11 | İngiltere Non League Premier Güney | Evesham United - Frome Town | MS X | pending | 50/100
-- 2026-08-11 | İngiltere Non League Premier Güney | Poole Town - Sholing | MS X | pending | 50/100
 
