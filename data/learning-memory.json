@@ -1,34 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-11T14:49:54.630Z",
-  "updated_at": "2026-08-11T21:13:11.464Z",
+  "updated_at": "2026-08-11T21:34:32.672Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 70,
-    "pending_predictions": 70,
+    "total_predictions": 73,
+    "pending_predictions": 73,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 21,
+    "league_count": 22,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 3,
+    "updated_predictions": 0,
+    "last_score_link_checked": 73,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
     "MS 2": {
-      "total": 24,
-      "pending": 24,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "MS X": {
-      "total": 45,
-      "pending": 45,
+      "total": 25,
+      "pending": 25,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -37,8 +31,18 @@
       "confidence_adjustment": 0
     },
     "MS 1": {
-      "total": 1,
-      "pending": 1,
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS X": {
+      "total": 46,
+      "pending": 46,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,6 +52,36 @@
     }
   },
   "league_memory": {
+    "UEFA Süper Kupa Süper Kupa": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Portekiz U23 Ulusal Şampiyona": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "CONCACAF Ligler Kupası Grup Aşaması": {
       "total": 4,
       "pending": 4,
@@ -138,16 +172,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler": {
-      "total": 4,
-      "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "UEFA Şampiyonlar Ligi 3.Eleme Turu": {
       "total": 6,
       "pending": 6,
@@ -228,16 +252,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Portekiz U23 Ulusal Şampiyona": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "AFC Şampiyonlar Ligi Elite 1. Eleme Turu": {
       "total": 1,
       "pending": 1,
@@ -260,6 +274,36 @@
     }
   },
   "league_market_memory": {
+    "UEFA Süper Kupa Süper Kupa :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Portekiz U23 Ulusal Şampiyona :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "CONCACAF Ligler Kupası Grup Aşaması :: MS 2": {
       "total": 3,
       "pending": 3,
@@ -500,16 +544,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Portekiz U23 Ulusal Şampiyona :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "İskoçya Challenge Kupası Lig Aşaması :: MS X": {
       "total": 2,
       "pending": 2,
@@ -562,6 +596,57 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-08-12|uefa super kupa super kupa|psg aston villa|ms 2|22 00",
+      "date": "2026-08-12",
+      "created_at": "2026-08-11T21:34:31.311Z",
+      "match_name": "Psg - Aston Villa",
+      "league": "UEFA Süper Kupa Süper Kupa",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "4.04",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-12|hazirlik kulupler|d la coruna real madrid|ms 1|22 00",
+      "date": "2026-08-12",
+      "created_at": "2026-08-11T21:34:31.311Z",
+      "match_name": "D.La Coruna - Real Madrid",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "22:00",
+      "market": "MS 1",
+      "odds": "5.08",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-12|portekiz u23 ulusal sampiyona|estoril u23 gil vicente u23|ms x|22 00",
+      "date": "2026-08-12",
+      "created_at": "2026-08-11T21:34:31.311Z",
+      "match_name": "Estoril U23 - Gil Vicente U23",
+      "league": "Portekiz U23 Ulusal Şampiyona",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "3.02",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-08-12|concacaf ligler kupasi grup asamasi|charlotte pachuca|ms 2|02 30",
       "date": "2026-08-12",

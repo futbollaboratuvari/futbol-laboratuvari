@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 81
+- Scheduled match count: 21
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
-- 2026-08-12 01:00 | Fluminense - Rivadavia | scheduled
-- 2026-08-12 01:00 | Boca Juniors - Deportivo Recol | scheduled
-- 2026-08-12 01:30 | Avai - Regatas | scheduled
-- 2026-08-12 02:30 | Charlotte - Pachuca | scheduled
-- 2026-08-12 02:30 | Columbus - Pumas Unam | scheduled
-- 2026-08-12 03:00 | Talleres - Lanus | scheduled
-- 2026-08-12 03:00 | Cincinnati - Atlas | scheduled
-- 2026-08-12 03:00 | Plaza Amador - Xelaju | scheduled
-- 2026-08-12 03:30 | Minnesota Utd - Atlante | scheduled
-- 2026-08-12 03:30 | Deportes Tolim - Indep. Jose Ter | scheduled
+- 2026-08-13 01:00 | Palmeiras - Cerro Porteno | scheduled
+- 2026-08-13 01:00 | Platense - Coquimbo Unido | scheduled
+- 2026-08-13 01:00 | Bragantino - Atletico Mg | scheduled
+- 2026-08-13 01:00 | Tigre - Torque | scheduled
+- 2026-08-13 01:15 | Atletico Tucum - Independiente | scheduled
+- 2026-08-13 02:00 | Charlotte Inde - Hartford Athlet | scheduled
+- 2026-08-13 02:00 | Tampa Bay Rowd - Louisville City | scheduled
+- 2026-08-13 02:30 | Inter Miami - Club Leon | scheduled
+- 2026-08-13 02:30 | Orlando City - Atletico San Lu | scheduled
+- 2026-08-13 03:00 | Forward Madiso - Greenville Triu | scheduled

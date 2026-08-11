@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 00:13:11
+Oluşturma: 12.08.2026 00:34:31
 
 ## Özet
 
-- Toplam tahmin: 70
-- Bekleyen tahmin: 70
+- Toplam tahmin: 73
+- Bekleyen tahmin: 73
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 21
+- Lig sayısı: 22
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,15 @@ Oluşturma: 12.08.2026 00:13:11
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
-- MS X: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
+- MS X: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-12 | UEFA Süper Kupa Süper Kupa | Psg - Aston Villa | MS 2 | pending | 50/100
+- 2026-08-12 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | MS 1 | pending | 40/100
+- 2026-08-12 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Gil Vicente U23 | MS X | pending | 50/100
 - 2026-08-12 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | MS 2 | pending | 50/100
 - 2026-08-12 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Xelaju | MS X | pending | 50/100
 - 2026-08-12 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Atlas | MS 2 | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 12.08.2026 00:13:11
 - 2026-08-11 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | MS 2 | pending | 50/100
 - 2026-08-11 | İskoçya Challenge Kupası Lig Aşaması | East Fife - Spartans | MS 2 | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Bracknell Town - Gloucester City | MS X | pending | 50/100
-- 2026-08-11 | Hazırlık Kulüpler | Real Jaen - Cacereno | MS 2 | pending | 40/100
-- 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) - (1) Hapoel Beer She | MS X | pending | 80/100
-- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Bromsgrove Spo - Rushall Olympic | MS X | pending | 50/100
 
