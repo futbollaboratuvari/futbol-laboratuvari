@@ -1,35 +1,30 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-11T06:34:45.410284+00:00
+Tarih: 2026-08-11T07:50:49.164147+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 101
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 101
-- Ham veri havuzu toplam mac sayisi: 6079
+- Kac mac bulundu: 94
+- Kac mac kaydedildi: 10
+- Kac mac zaten vardi: 84
+- Ham veri havuzu toplam mac sayisi: 6089
 - Hedef tarih: 11.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - AFC Şampiyonlar Ligi Elite 1. Eleme Turu
 - Almanya Bölgesel Lig Kuzey
-- Arjantin Premier Lig 2. Aşama
 - Avustralya FFA Kupası Son 16 Turu
 - Avustralya NPL Güney Avustralya
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
+- Danimarka 3.Lig
 - Finlandiya Ykkönen
 - Güney Afrika PSL
 - Hazırlık Kulüpler
 - Kuzey İrlanda Championship
+- Paraguay Kupa 3.Tur
+- Portekiz U23 Ulusal Şampiyona
 - UEFA Avrupa Ligi 3. Eleme Turu
 - UEFA Konferans Ligi 3. Eleme Turu
 - UEFA Şampiyonlar Ligi 3.Eleme Turu
@@ -95,8 +90,8 @@ Tarih: 2026-08-11T06:34:45.410284+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 25
-- Acilan detay: 25
+- Denenen Tumu alani: 28
+- Acilan detay: 28
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -109,26 +104,26 @@ Tarih: 2026-08-11T06:34:45.410284+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 11.08.2026 | 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) | (1) Levski Sofya | 00396 | 5 |
 | 11.08.2026 | 20:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kauno Zalgiris (0) | (5) Dinamo Zagreb | 05943 | 5 |
-| 11.08.2026 | 21:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sturm Graz (0) | (2) Fenerbahçe | 06536 | 5 |
-| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) | (2) Aarhus | 05815 | 5 |
 | 11.08.2026 | 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) | (2) Sparta Prag | 06602 | 5 |
+| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) | (2) Aarhus | 05815 | 5 |
 | 11.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) | (1) Hapoel Beer She | 06292 | 5 |
 | 11.08.2026 | 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Celje (1) | (2) Ararat-Armenia | 06376 | 5 |
-| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) | (3) Union St.G | 05636 | 5 |
+| 11.08.2026 | 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) | (1) Levski Sofya | 00396 | 5 |
+| 11.08.2026 | 21:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sturm Graz (0) | (2) Fenerbahçe | 06536 | 5 |
 | 11.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Nijmegen (0) | (0) Olympiakos | 06206 | 5 |
+| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) | (3) Union St.G | 05636 | 5 |
 | 11.08.2026 | 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Slovan Bratisl (2) | (1) Mjallby | 06488 | 5 |
 | 11.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) | (0) Larne Fc | 05730 | 5 |
 | 11.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) | (0) Brann | 05859 | 5 |
 | 11.08.2026 | 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Cska 1948 Sofi (1) | (1) Panathinaikos | 06076 | 5 |
 | 11.08.2026 | 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira | Al Ittihad (Cid | 10000 | 5 |
-| 11.08.2026 | 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon | Gamba Osaka | 09674 | 5 |
 | 11.08.2026 | 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite | Cand | 09669 | 5 |
+| 11.08.2026 | 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon | Gamba Osaka | 09674 | 5 |
 | 11.08.2026 | 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor | Al-Hussein | 09608 | 5 |
+| 11.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur | Sd Raiders | 12360 | 5 |
 | 11.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio | Melbourne City | 12343 | 5 |
-| 11.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders | Macarthur | 12360 | 5 |
-| 12.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Fluminense | Rivadavia | 06924 | 5 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Elgin | Ross County | 10025 | 3 |
 
 ## Sonuc
 

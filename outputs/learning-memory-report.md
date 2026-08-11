@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 09:45:18
+Oluşturma: 11.08.2026 10:51:40
 
 ## Özet
 
-- Toplam tahmin: 94
-- Bekleyen tahmin: 94
+- Toplam tahmin: 95
+- Bekleyen tahmin: 95
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,13 @@ Oluşturma: 11.08.2026 09:45:18
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 61, bekleyen 61, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
-- MS X: toplam 60, bekleyen 60, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-11 | Kuzey İrlanda Championship | Queens Univers - Hw Welders | MS X | pending | 45/100
 - 2026-08-11 | Hazırlık Kulüpler | Unionistas De - Cd Coria | MS 2 | pending | 50/100
 - 2026-08-11 | Hazırlık Kulüpler | Unionistas De - Cd Coria | MS X | pending | 50/100
 - 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) - (2) Aarhus | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 11.08.2026 09:45:18
 - 2026-08-11 | İngiltere Non League Premier Güney | Havant And W. - Uxbridge | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Evesham United - Frome Town | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Poole Town - Sholing | MS X | pending | 50/100
-- 2026-08-11 | İngiltere Non League Premier Güney | Bath City - Plymouth Parkwa | MS X | pending | 50/100
 
