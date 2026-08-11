@@ -1,21 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-11 / 2026-08-12
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 126
-Aktif mac: 102
-Canli mac: 3
+Aktif mac: 98
+Canli mac: 7
 Biten mac: 21
-Bultenden dusurulen mac: 24
-Bugun: 86
+Bultenden dusurulen mac: 28
+Bugun: 82
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Jyvaskyla - Tampere Utd | scheduled | -
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Rops - Kups Ak. | scheduled | -
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Tpv Tampere - Salpa Salo | scheduled | -
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Inter Turku Ii | scheduled | -
 - 2026-08-11 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) - (3) Union St.G | scheduled | -
 - 2026-08-11 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) - (2) Aarhus | scheduled | -
 - 2026-08-11 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) - (0) Larne Fc | scheduled | -
@@ -116,9 +111,13 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
+- 2026-08-11 17:00 | İngiltere Ulusal Lig Kupası Grup C | Hartlepool - Middlesbrough ( | live | -
 - 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | live | -
 - 2026-08-11 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor - Al-Hussein | live | -
-- 2026-08-11 17:00 | İngiltere Ulusal Lig Kupası Grup C | Hartlepool - Middlesbrough ( | live | -
+- 2026-08-11 18:30 | Finlandiya Ykkönen | Jyvaskyla - Tampere Utd | live | -
+- 2026-08-11 18:30 | Finlandiya Ykkönen | Rops - Kups Ak. | live | -
+- 2026-08-11 18:30 | Finlandiya Ykkönen | Tpv Tampere - Salpa Salo | live | -
+- 2026-08-11 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Inter Turku Ii | live | -
 
 ## Biten Maclar
 - 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -

@@ -1,24 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-11T14:43:18.507093+00:00
-=======
-Tarih: 2026-08-11T14:46:41.573341+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-11T15:38:13.718556+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 103
+- Kac mac bulundu: 97
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 103
-=======
-- Kac mac bulundu: 88
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 88
->>>>>>> Stashed changes
+- Kac mac zaten vardi: 97
 - Ham veri havuzu toplam mac sayisi: 6093
 - Hedef tarih: 11.08.2026 Europe/Istanbul
 
@@ -26,8 +16,15 @@ Tarih: 2026-08-11T14:46:41.573341+00:00
 
 - AFC Şampiyonlar Ligi Elite 1. Eleme Turu
 - Almanya Bölgesel Lig Kuzey
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie B
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Danimarka 3.Lig
-- Finlandiya Ykkönen
 - Güney Afrika PSL
 - Hazırlık Kulüpler
 - Kuzey İrlanda Championship
@@ -98,8 +95,8 @@ Tarih: 2026-08-11T14:46:41.573341+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 25
+- Acilan detay: 25
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -112,26 +109,26 @@ Tarih: 2026-08-11T14:46:41.573341+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 11.08.2026 | 21:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sturm Graz (0) | (2) Fenerbahçe | 06536 | 5 |
-| 11.08.2026 | 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) | (1) Levski Sofya | 00396 | 5 |
-| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) | (3) Union St.G | 05636 | 5 |
 | 11.08.2026 | 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Slovan Bratisl (2) | (1) Mjallby | 06488 | 5 |
-| 11.08.2026 | 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Celje (1) | (2) Ararat-Armenia | 06376 | 5 |
-| 11.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Nijmegen (0) | (0) Olympiakos | 06206 | 5 |
+| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) | (3) Union St.G | 05636 | 5 |
 | 11.08.2026 | 20:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kauno Zalgiris (0) | (5) Dinamo Zagreb | 05943 | 5 |
 | 11.08.2026 | 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) | (2) Sparta Prag | 06602 | 5 |
-| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) | (2) Aarhus | 05815 | 5 |
 | 11.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) | (1) Hapoel Beer She | 06292 | 4 |
+| 11.08.2026 | 21:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sturm Graz (0) | (2) Fenerbahçe | 06536 | 5 |
+| 11.08.2026 | 20:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Nijmegen (0) | (0) Olympiakos | 06206 | 5 |
+| 11.08.2026 | 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Celje (1) | (2) Ararat-Armenia | 06376 | 5 |
+| 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) | (2) Aarhus | 05815 | 5 |
 | 11.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) | (0) Larne Fc | 05730 | 5 |
-| 11.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) | (0) Brann | 05859 | 5 |
 | 11.08.2026 | 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Cska 1948 Sofi (1) | (1) Panathinaikos | 06076 | 5 |
-| 11.08.2026 | 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor | Al-Hussein | 09608 | 5 |
+| 11.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) | (0) Brann | 05859 | 5 |
 | 11.08.2026 | 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira | Al Ittihad (Cid | 10000 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio | Cove Rangers | 06757 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni | Dundee Ii | 10097 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clyde | St. Mirren Ii | 06627 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Gala Fairydean | Rangers Ii | 06742 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Berwick | Hearts Ii | 06035 | 3 |
+| 12.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Fluminense | Rivadavia | 06924 | 5 |
+| 12.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp | Univ. Catolica | 07339 | 5 |
+| 12.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Bolivar | Sao Paulo | 07228 | 5 |
+| 12.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors | Deportivo Recol | 06769 | 5 |
+| 12.08.2026 | 03:00 | Arjantin Premier Lig 2. Aşama | Talleres | Lanus | 12596 | 5 |
+| 12.08.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador | Xelaju | 13306 | 5 |
+| 12.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli | Alianza | 09588 | 5 |
 
 ## Sonuc
 
