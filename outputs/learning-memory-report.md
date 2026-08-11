@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 18:46:19
+Oluşturma: 11.08.2026 18:50:00
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 56
+- Bekleyen tahmin: 56
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 15
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 11.08.2026 18:46:19
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 39, bekleyen 39, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Bromsgrove Spo - Rushall Olympic | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Hitchin Town - Needham Market | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Güney Merkez | Peterborough S - Real Bedford | MS X | pending | 50/100
+- 2026-08-11 | Kuzey İrlanda Championship | Moyola Park - Strabane Athlet | MS X | pending | 50/100
+- 2026-08-11 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) - (2) Sparta Prag | MS 2 | pending | 40/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Afc Emley - Ilkeston Town | MS X | pending | 40/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Whitby Town - Guiseley | MS X | pending | 40/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Warrington Tow - Hyde | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Alfreton - Gainsborough Tr | MS X | pending | 40/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Bury - Curzon Ashton | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Quorn - Cleethorpes Tow | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Lancaster City - Rylands | MS X | pending | 40/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Workington - Redcar Athletic | MS X | pending | 50/100
+- 2026-08-11 | İngiltere Non League Premier Kuzey | Stockton Town - Ashton United | MS X | pending | 50/100
 
