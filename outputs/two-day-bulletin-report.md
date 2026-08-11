@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 104
+Ham mac: 101
 Aktif mac: 99
-Canli mac: 5
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 5
+Bultenden dusurulen mac: 2
 Bugun: 83
 Yarin: 16
 
@@ -112,9 +112,6 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
-- 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | live | -
-- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | live | -
-- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | live | -
 - 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | live | -
 - 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | live | -
 
