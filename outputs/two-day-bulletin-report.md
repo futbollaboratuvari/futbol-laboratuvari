@@ -3,17 +3,14 @@
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
 Ham mac: 112
-Aktif mac: 107
-Canli mac: 5
+Aktif mac: 104
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 91
+Bultenden dusurulen mac: 8
+Bugun: 88
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | scheduled | -
-- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | scheduled | -
-- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | scheduled | -
 - 2026-08-11 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | scheduled | -
 - 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | scheduled | -
 - 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | scheduled | -
@@ -125,6 +122,9 @@ Yarin: 16
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | live | -
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | live | -
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | live | -
+- 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | live | -
+- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | live | -
+- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | live | -
 
 ## Biten Maclar
 Biten mac yok.
