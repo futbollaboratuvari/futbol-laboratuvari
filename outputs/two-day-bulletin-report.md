@@ -4,16 +4,14 @@ Gunler: 2026-08-11 / 2026-08-12
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 126
-Aktif mac: 104
-Canli mac: 1
+Aktif mac: 102
+Canli mac: 3
 Biten mac: 21
-Bultenden dusurulen mac: 22
-Bugun: 88
+Bultenden dusurulen mac: 24
+Bugun: 86
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | scheduled | -
-- 2026-08-11 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor - Al-Hussein | scheduled | -
 - 2026-08-11 18:30 | Finlandiya Ykkönen | Jyvaskyla - Tampere Utd | scheduled | -
 - 2026-08-11 18:30 | Finlandiya Ykkönen | Rops - Kups Ak. | scheduled | -
 - 2026-08-11 18:30 | Finlandiya Ykkönen | Tpv Tampere - Salpa Salo | scheduled | -
@@ -118,6 +116,8 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
+- 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | live | -
+- 2026-08-11 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor - Al-Hussein | live | -
 - 2026-08-11 17:00 | İngiltere Ulusal Lig Kupası Grup C | Hartlepool - Middlesbrough ( | live | -
 
 ## Biten Maclar
