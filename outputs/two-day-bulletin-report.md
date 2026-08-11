@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 108
+Ham mac: 124
 Aktif mac: 103
 Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
+Biten mac: 16
+Bultenden dusurulen mac: 21
 Bugun: 87
 Yarin: 16
 
@@ -123,4 +123,19 @@ Yarin: 16
 - 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
+- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | finished | -
+- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | finished | -
+- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | finished | -
+- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | finished | -
+- 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | finished | -
+- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | finished | -
+- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | finished | -
+- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | finished | -
+- 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | finished | -
+- 2026-08-11 11:30 | Hazırlık Kulüpler | Eldense - Cartagena | finished | -
+- 2026-08-11 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite - Cand | finished | -
+- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | finished | -
+- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | finished | -
+- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | finished | -

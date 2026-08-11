@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T12:04:48.435Z",
+  "generated_at": "2026-08-11T12:09:58.155Z",
   "date": "2026-08-11",
   "source": "High Value Coupon Engine",
   "message": "",
@@ -17,16 +17,16 @@
           "confidence_score": "70%",
           "analysis_score": 70,
           "risk_level": "Orta",
-          "estimated_odds": "3.36",
+          "estimated_odds": "3.35",
           "available_odds": {
-            "ms1": "2.32",
-            "msx": "3.36",
-            "ms2": "2.02",
+            "ms1": "2.40",
+            "msx": "3.35",
+            "ms2": "1.96",
             "over25": "1.22",
             "under25": "2.47",
             "over35": "-",
             "under35": "-",
-            "bttsYes": "1.36",
+            "bttsYes": "1.38",
             "bttsNo": "1.10",
             "firstHalfBttsYes": "-",
             "firstHalfBttsNo": "-",
@@ -34,12 +34,12 @@
             "secondHalfBttsNo": "-"
           },
           "raw_market_guess_odds": {
-            "ms1": 2.32,
-            "msx": 3.36,
-            "ms2": 2.02,
+            "ms1": 2.4,
+            "msx": 3.35,
+            "ms2": 1.96,
             "under25": 2.47,
             "over25": 1.22,
-            "bttsYes_guess": 1.36,
+            "bttsYes_guess": 1.38,
             "bttsNo_guess": 1.1
           },
           "detail_market_candidates": [
@@ -47,36 +47,36 @@
               "market_code": "04303",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.32,
-                "msx": 3.36,
-                "ms2": 2.02
+                "ms1": 2.4,
+                "msx": 3.35,
+                "ms2": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.32,
-                "firstHalfX_guess": 3.36,
-                "firstHalf2_guess": 2.02
+                "firstHalf1_guess": 2.4,
+                "firstHalfX_guess": 3.35,
+                "firstHalf2_guess": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.32,
-                "secondHalfX_guess": 3.36,
-                "secondHalf2_guess": 2.02
+                "secondHalf1_guess": 2.4,
+                "secondHalfX_guess": 3.35,
+                "secondHalf2_guess": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.32,
-                "handicapX_guess": 3.36,
-                "handicap2_guess": 2.02
+                "handicap1_guess": 2.4,
+                "handicapX_guess": 3.35,
+                "handicap2_guess": 1.96
               }
             },
             {
@@ -195,43 +195,43 @@
               "market_code": "04305",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.36,
+                "ms1": 1.38,
                 "msx": 1.1,
-                "ms2": 1.25
+                "ms2": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.36,
+                "firstHalf1_guess": 1.38,
                 "firstHalfX_guess": 1.1,
-                "firstHalf2_guess": 1.25
+                "firstHalf2_guess": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.36,
+                "secondHalf1_guess": 1.38,
                 "secondHalfX_guess": 1.1,
-                "secondHalf2_guess": 1.25
+                "secondHalf2_guess": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.36,
+                "handicap1_guess": 1.38,
                 "handicapX_guess": 1.1,
-                "handicap2_guess": 1.25
+                "handicap2_guess": 1.23
               }
             }
           ],
           "odds_source": "Robot ham veri havuzu",
           "value_label": "Yüksek Değer",
           "band_attention_level": "Düşük",
-          "robot_reason": "Market: MS X | Oran: 3.36 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+          "robot_reason": "Market: MS X | Oran: 3.35 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
           "learning_adjustment": {
             "market": "MS X",
             "league": "Finlandiya Ykkönen",
@@ -241,9 +241,36 @@
             "notes": [
               "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
             ],
-            "market_bucket": null,
-            "league_bucket": null,
-            "league_market_bucket": null
+            "market_bucket": {
+              "total": 43,
+              "pending": 43,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_bucket": {
+              "total": 4,
+              "pending": 4,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
+              "total": 3,
+              "pending": 3,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         },
         {
@@ -255,16 +282,16 @@
           "confidence_score": "70%",
           "analysis_score": 70,
           "risk_level": "Orta",
-          "estimated_odds": "3.39",
+          "estimated_odds": "3.43",
           "available_odds": {
-            "ms1": "2.87",
-            "msx": "3.39",
-            "ms2": "1.72",
+            "ms1": "2.95",
+            "msx": "3.43",
+            "ms2": "1.68",
             "over25": "1.19",
             "under25": "2.56",
             "over35": "-",
             "under35": "-",
-            "bttsYes": "1.52",
+            "bttsYes": "1.55",
             "bttsNo": "1.09",
             "firstHalfBttsYes": "-",
             "firstHalfBttsNo": "-",
@@ -272,12 +299,12 @@
             "secondHalfBttsNo": "-"
           },
           "raw_market_guess_odds": {
-            "ms1": 2.87,
-            "msx": 3.39,
-            "ms2": 1.72,
+            "ms1": 2.95,
+            "msx": 3.43,
+            "ms2": 1.68,
             "under25": 2.56,
             "over25": 1.19,
-            "bttsYes_guess": 1.52,
+            "bttsYes_guess": 1.55,
             "bttsNo_guess": 1.09
           },
           "detail_market_candidates": [
@@ -285,36 +312,36 @@
               "market_code": "13272",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.87,
-                "msx": 3.39,
-                "ms2": 1.72
+                "ms1": 2.95,
+                "msx": 3.43,
+                "ms2": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.87,
-                "firstHalfX_guess": 3.39,
-                "firstHalf2_guess": 1.72
+                "firstHalf1_guess": 2.95,
+                "firstHalfX_guess": 3.43,
+                "firstHalf2_guess": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.87,
-                "secondHalfX_guess": 3.39,
-                "secondHalf2_guess": 1.72
+                "secondHalf1_guess": 2.95,
+                "secondHalfX_guess": 3.43,
+                "secondHalf2_guess": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.87,
-                "handicapX_guess": 3.39,
-                "handicap2_guess": 1.72
+                "handicap1_guess": 2.95,
+                "handicapX_guess": 3.43,
+                "handicap2_guess": 1.68
               }
             },
             {
@@ -433,43 +460,43 @@
               "market_code": "13273",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.52,
+                "ms1": 1.55,
                 "msx": 1.09,
-                "ms2": 1.14
+                "ms2": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.52,
+                "firstHalf1_guess": 1.55,
                 "firstHalfX_guess": 1.09,
-                "firstHalf2_guess": 1.14
+                "firstHalf2_guess": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.52,
+                "secondHalf1_guess": 1.55,
                 "secondHalfX_guess": 1.09,
-                "secondHalf2_guess": 1.14
+                "secondHalf2_guess": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.52,
+                "handicap1_guess": 1.55,
                 "handicapX_guess": 1.09,
-                "handicap2_guess": 1.14
+                "handicap2_guess": 1.13
               }
             }
           ],
           "odds_source": "Robot ham veri havuzu",
           "value_label": "Yüksek Değer",
           "band_attention_level": "Düşük",
-          "robot_reason": "Market: MS X | Oran: 3.39 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+          "robot_reason": "Market: MS X | Oran: 3.43 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
           "learning_adjustment": {
             "market": "MS X",
             "league": "Finlandiya Ykkönen",
@@ -479,17 +506,44 @@
             "notes": [
               "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
             ],
-            "market_bucket": null,
-            "league_bucket": null,
-            "league_market_bucket": null
+            "market_bucket": {
+              "total": 43,
+              "pending": 43,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_bucket": {
+              "total": 4,
+              "pending": 4,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
+              "total": 3,
+              "pending": 3,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         }
       ],
-      "total_odds": "11.39",
+      "total_odds": "11.49",
       "average_confidence_score": "70%",
       "risk_level": "Düşük-Orta",
       "short_description": "Daha güvenli maçlardan oluşan düşük-orta riskli laboratuvar kuponu.",
-      "robot_reason": "Dengeli Kupon; 2 maç, toplam oran 11.39, ortalama güven 70%.",
+      "robot_reason": "Dengeli Kupon; 2 maç, toplam oran 11.49, ortalama güven 70%.",
       "is_available": true
     },
     "balanced": {
@@ -505,16 +559,16 @@
           "confidence_score": "70%",
           "analysis_score": 70,
           "risk_level": "Orta",
-          "estimated_odds": "3.36",
+          "estimated_odds": "3.35",
           "available_odds": {
-            "ms1": "2.32",
-            "msx": "3.36",
-            "ms2": "2.02",
+            "ms1": "2.40",
+            "msx": "3.35",
+            "ms2": "1.96",
             "over25": "1.22",
             "under25": "2.47",
             "over35": "-",
             "under35": "-",
-            "bttsYes": "1.36",
+            "bttsYes": "1.38",
             "bttsNo": "1.10",
             "firstHalfBttsYes": "-",
             "firstHalfBttsNo": "-",
@@ -522,12 +576,12 @@
             "secondHalfBttsNo": "-"
           },
           "raw_market_guess_odds": {
-            "ms1": 2.32,
-            "msx": 3.36,
-            "ms2": 2.02,
+            "ms1": 2.4,
+            "msx": 3.35,
+            "ms2": 1.96,
             "under25": 2.47,
             "over25": 1.22,
-            "bttsYes_guess": 1.36,
+            "bttsYes_guess": 1.38,
             "bttsNo_guess": 1.1
           },
           "detail_market_candidates": [
@@ -535,36 +589,36 @@
               "market_code": "04303",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.32,
-                "msx": 3.36,
-                "ms2": 2.02
+                "ms1": 2.4,
+                "msx": 3.35,
+                "ms2": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.32,
-                "firstHalfX_guess": 3.36,
-                "firstHalf2_guess": 2.02
+                "firstHalf1_guess": 2.4,
+                "firstHalfX_guess": 3.35,
+                "firstHalf2_guess": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.32,
-                "secondHalfX_guess": 3.36,
-                "secondHalf2_guess": 2.02
+                "secondHalf1_guess": 2.4,
+                "secondHalfX_guess": 3.35,
+                "secondHalf2_guess": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.32,
-                "handicapX_guess": 3.36,
-                "handicap2_guess": 2.02
+                "handicap1_guess": 2.4,
+                "handicapX_guess": 3.35,
+                "handicap2_guess": 1.96
               }
             },
             {
@@ -683,43 +737,43 @@
               "market_code": "04305",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.36,
+                "ms1": 1.38,
                 "msx": 1.1,
-                "ms2": 1.25
+                "ms2": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.36,
+                "firstHalf1_guess": 1.38,
                 "firstHalfX_guess": 1.1,
-                "firstHalf2_guess": 1.25
+                "firstHalf2_guess": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.36,
+                "secondHalf1_guess": 1.38,
                 "secondHalfX_guess": 1.1,
-                "secondHalf2_guess": 1.25
+                "secondHalf2_guess": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.36,
+                "handicap1_guess": 1.38,
                 "handicapX_guess": 1.1,
-                "handicap2_guess": 1.25
+                "handicap2_guess": 1.23
               }
             }
           ],
           "odds_source": "Robot ham veri havuzu",
           "value_label": "Yüksek Değer",
           "band_attention_level": "Düşük",
-          "robot_reason": "Market: MS X | Oran: 3.36 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+          "robot_reason": "Market: MS X | Oran: 3.35 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
           "learning_adjustment": {
             "market": "MS X",
             "league": "Finlandiya Ykkönen",
@@ -729,9 +783,36 @@
             "notes": [
               "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
             ],
-            "market_bucket": null,
-            "league_bucket": null,
-            "league_market_bucket": null
+            "market_bucket": {
+              "total": 43,
+              "pending": 43,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_bucket": {
+              "total": 4,
+              "pending": 4,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
+              "total": 3,
+              "pending": 3,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         },
         {
@@ -743,16 +824,16 @@
           "confidence_score": "70%",
           "analysis_score": 70,
           "risk_level": "Orta",
-          "estimated_odds": "3.39",
+          "estimated_odds": "3.43",
           "available_odds": {
-            "ms1": "2.87",
-            "msx": "3.39",
-            "ms2": "1.72",
+            "ms1": "2.95",
+            "msx": "3.43",
+            "ms2": "1.68",
             "over25": "1.19",
             "under25": "2.56",
             "over35": "-",
             "under35": "-",
-            "bttsYes": "1.52",
+            "bttsYes": "1.55",
             "bttsNo": "1.09",
             "firstHalfBttsYes": "-",
             "firstHalfBttsNo": "-",
@@ -760,12 +841,12 @@
             "secondHalfBttsNo": "-"
           },
           "raw_market_guess_odds": {
-            "ms1": 2.87,
-            "msx": 3.39,
-            "ms2": 1.72,
+            "ms1": 2.95,
+            "msx": 3.43,
+            "ms2": 1.68,
             "under25": 2.56,
             "over25": 1.19,
-            "bttsYes_guess": 1.52,
+            "bttsYes_guess": 1.55,
             "bttsNo_guess": 1.09
           },
           "detail_market_candidates": [
@@ -773,36 +854,36 @@
               "market_code": "13272",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.87,
-                "msx": 3.39,
-                "ms2": 1.72
+                "ms1": 2.95,
+                "msx": 3.43,
+                "ms2": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.87,
-                "firstHalfX_guess": 3.39,
-                "firstHalf2_guess": 1.72
+                "firstHalf1_guess": 2.95,
+                "firstHalfX_guess": 3.43,
+                "firstHalf2_guess": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.87,
-                "secondHalfX_guess": 3.39,
-                "secondHalf2_guess": 1.72
+                "secondHalf1_guess": 2.95,
+                "secondHalfX_guess": 3.43,
+                "secondHalf2_guess": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.87,
-                "handicapX_guess": 3.39,
-                "handicap2_guess": 1.72
+                "handicap1_guess": 2.95,
+                "handicapX_guess": 3.43,
+                "handicap2_guess": 1.68
               }
             },
             {
@@ -921,43 +1002,43 @@
               "market_code": "13273",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.52,
+                "ms1": 1.55,
                 "msx": 1.09,
-                "ms2": 1.14
+                "ms2": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.52,
+                "firstHalf1_guess": 1.55,
                 "firstHalfX_guess": 1.09,
-                "firstHalf2_guess": 1.14
+                "firstHalf2_guess": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.52,
+                "secondHalf1_guess": 1.55,
                 "secondHalfX_guess": 1.09,
-                "secondHalf2_guess": 1.14
+                "secondHalf2_guess": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.52,
+                "handicap1_guess": 1.55,
                 "handicapX_guess": 1.09,
-                "handicap2_guess": 1.14
+                "handicap2_guess": 1.13
               }
             }
           ],
           "odds_source": "Robot ham veri havuzu",
           "value_label": "Yüksek Değer",
           "band_attention_level": "Düşük",
-          "robot_reason": "Market: MS X | Oran: 3.39 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+          "robot_reason": "Market: MS X | Oran: 3.43 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
           "learning_adjustment": {
             "market": "MS X",
             "league": "Finlandiya Ykkönen",
@@ -967,17 +1048,44 @@
             "notes": [
               "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
             ],
-            "market_bucket": null,
-            "league_bucket": null,
-            "league_market_bucket": null
+            "market_bucket": {
+              "total": 43,
+              "pending": 43,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_bucket": {
+              "total": 4,
+              "pending": 4,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
+              "total": 3,
+              "pending": 3,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         }
       ],
-      "total_odds": "11.39",
+      "total_odds": "11.49",
       "average_confidence_score": "70%",
       "risk_level": "Düşük-Orta",
       "short_description": "Daha güvenli maçlardan oluşan düşük-orta riskli laboratuvar kuponu.",
-      "robot_reason": "Dengeli Kupon; 2 maç, toplam oran 11.39, ortalama güven 70%.",
+      "robot_reason": "Dengeli Kupon; 2 maç, toplam oran 11.49, ortalama güven 70%.",
       "is_available": true
     },
     "high_value": {
@@ -993,16 +1101,16 @@
           "confidence_score": "70%",
           "analysis_score": 70,
           "risk_level": "Orta",
-          "estimated_odds": "3.39",
+          "estimated_odds": "3.43",
           "available_odds": {
-            "ms1": "2.87",
-            "msx": "3.39",
-            "ms2": "1.72",
+            "ms1": "2.95",
+            "msx": "3.43",
+            "ms2": "1.68",
             "over25": "1.19",
             "under25": "2.56",
             "over35": "-",
             "under35": "-",
-            "bttsYes": "1.52",
+            "bttsYes": "1.55",
             "bttsNo": "1.09",
             "firstHalfBttsYes": "-",
             "firstHalfBttsNo": "-",
@@ -1010,12 +1118,12 @@
             "secondHalfBttsNo": "-"
           },
           "raw_market_guess_odds": {
-            "ms1": 2.87,
-            "msx": 3.39,
-            "ms2": 1.72,
+            "ms1": 2.95,
+            "msx": 3.43,
+            "ms2": 1.68,
             "under25": 2.56,
             "over25": 1.19,
-            "bttsYes_guess": 1.52,
+            "bttsYes_guess": 1.55,
             "bttsNo_guess": 1.09
           },
           "detail_market_candidates": [
@@ -1023,36 +1131,36 @@
               "market_code": "13272",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.87,
-                "msx": 3.39,
-                "ms2": 1.72
+                "ms1": 2.95,
+                "msx": 3.43,
+                "ms2": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.87,
-                "firstHalfX_guess": 3.39,
-                "firstHalf2_guess": 1.72
+                "firstHalf1_guess": 2.95,
+                "firstHalfX_guess": 3.43,
+                "firstHalf2_guess": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.87,
-                "secondHalfX_guess": 3.39,
-                "secondHalf2_guess": 1.72
+                "secondHalf1_guess": 2.95,
+                "secondHalfX_guess": 3.43,
+                "secondHalf2_guess": 1.68
               }
             },
             {
               "market_code": "13272",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.87,
-                "handicapX_guess": 3.39,
-                "handicap2_guess": 1.72
+                "handicap1_guess": 2.95,
+                "handicapX_guess": 3.43,
+                "handicap2_guess": 1.68
               }
             },
             {
@@ -1171,43 +1279,43 @@
               "market_code": "13273",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.52,
+                "ms1": 1.55,
                 "msx": 1.09,
-                "ms2": 1.14
+                "ms2": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.52,
+                "firstHalf1_guess": 1.55,
                 "firstHalfX_guess": 1.09,
-                "firstHalf2_guess": 1.14
+                "firstHalf2_guess": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.52,
+                "secondHalf1_guess": 1.55,
                 "secondHalfX_guess": 1.09,
-                "secondHalf2_guess": 1.14
+                "secondHalf2_guess": 1.13
               }
             },
             {
               "market_code": "13273",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.52,
+                "handicap1_guess": 1.55,
                 "handicapX_guess": 1.09,
-                "handicap2_guess": 1.14
+                "handicap2_guess": 1.13
               }
             }
           ],
           "odds_source": "Robot ham veri havuzu",
           "value_label": "Yüksek Değer",
           "band_attention_level": "Düşük",
-          "robot_reason": "Market: MS X | Oran: 3.39 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+          "robot_reason": "Market: MS X | Oran: 3.43 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
           "learning_adjustment": {
             "market": "MS X",
             "league": "Finlandiya Ykkönen",
@@ -1217,9 +1325,36 @@
             "notes": [
               "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
             ],
-            "market_bucket": null,
-            "league_bucket": null,
-            "league_market_bucket": null
+            "market_bucket": {
+              "total": 43,
+              "pending": 43,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_bucket": {
+              "total": 4,
+              "pending": 4,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
+              "total": 3,
+              "pending": 3,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         },
         {
@@ -1231,16 +1366,16 @@
           "confidence_score": "70%",
           "analysis_score": 70,
           "risk_level": "Orta",
-          "estimated_odds": "3.36",
+          "estimated_odds": "3.35",
           "available_odds": {
-            "ms1": "2.32",
-            "msx": "3.36",
-            "ms2": "2.02",
+            "ms1": "2.40",
+            "msx": "3.35",
+            "ms2": "1.96",
             "over25": "1.22",
             "under25": "2.47",
             "over35": "-",
             "under35": "-",
-            "bttsYes": "1.36",
+            "bttsYes": "1.38",
             "bttsNo": "1.10",
             "firstHalfBttsYes": "-",
             "firstHalfBttsNo": "-",
@@ -1248,12 +1383,12 @@
             "secondHalfBttsNo": "-"
           },
           "raw_market_guess_odds": {
-            "ms1": 2.32,
-            "msx": 3.36,
-            "ms2": 2.02,
+            "ms1": 2.4,
+            "msx": 3.35,
+            "ms2": 1.96,
             "under25": 2.47,
             "over25": 1.22,
-            "bttsYes_guess": 1.36,
+            "bttsYes_guess": 1.38,
             "bttsNo_guess": 1.1
           },
           "detail_market_candidates": [
@@ -1261,36 +1396,36 @@
               "market_code": "04303",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 2.32,
-                "msx": 3.36,
-                "ms2": 2.02
+                "ms1": 2.4,
+                "msx": 3.35,
+                "ms2": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 2.32,
-                "firstHalfX_guess": 3.36,
-                "firstHalf2_guess": 2.02
+                "firstHalf1_guess": 2.4,
+                "firstHalfX_guess": 3.35,
+                "firstHalf2_guess": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 2.32,
-                "secondHalfX_guess": 3.36,
-                "secondHalf2_guess": 2.02
+                "secondHalf1_guess": 2.4,
+                "secondHalfX_guess": 3.35,
+                "secondHalf2_guess": 1.96
               }
             },
             {
               "market_code": "04303",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 2.32,
-                "handicapX_guess": 3.36,
-                "handicap2_guess": 2.02
+                "handicap1_guess": 2.4,
+                "handicapX_guess": 3.35,
+                "handicap2_guess": 1.96
               }
             },
             {
@@ -1409,43 +1544,43 @@
               "market_code": "04305",
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.36,
+                "ms1": 1.38,
                 "msx": 1.1,
-                "ms2": 1.25
+                "ms2": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.36,
+                "firstHalf1_guess": 1.38,
                 "firstHalfX_guess": 1.1,
-                "firstHalf2_guess": 1.25
+                "firstHalf2_guess": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.36,
+                "secondHalf1_guess": 1.38,
                 "secondHalfX_guess": 1.1,
-                "secondHalf2_guess": 1.25
+                "secondHalf2_guess": 1.23
               }
             },
             {
               "market_code": "04305",
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.36,
+                "handicap1_guess": 1.38,
                 "handicapX_guess": 1.1,
-                "handicap2_guess": 1.25
+                "handicap2_guess": 1.23
               }
             }
           ],
           "odds_source": "Robot ham veri havuzu",
           "value_label": "Yüksek Değer",
           "band_attention_level": "Düşük",
-          "robot_reason": "Market: MS X | Oran: 3.36 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+          "robot_reason": "Market: MS X | Oran: 3.35 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
           "learning_adjustment": {
             "market": "MS X",
             "league": "Finlandiya Ykkönen",
@@ -1455,17 +1590,44 @@
             "notes": [
               "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
             ],
-            "market_bucket": null,
-            "league_bucket": null,
-            "league_market_bucket": null
+            "market_bucket": {
+              "total": 43,
+              "pending": 43,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_bucket": {
+              "total": 4,
+              "pending": 4,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            },
+            "league_market_bucket": {
+              "total": 3,
+              "pending": 3,
+              "won": 0,
+              "lost": 0,
+              "void": 0,
+              "success_rate": null,
+              "weight": 1,
+              "confidence_adjustment": 0
+            }
           }
         }
       ],
-      "total_odds": "11.39",
+      "total_odds": "11.49",
       "average_confidence_score": "70%",
       "risk_level": "Orta-Yüksek",
       "short_description": "Oran değeri yüksek, veri desteği olan orta-yüksek riskli kupon.",
-      "robot_reason": "Yüksek Oranlı Kupon; 2 maç, toplam oran 11.39, ortalama güven 70%.",
+      "robot_reason": "Yüksek Oranlı Kupon; 2 maç, toplam oran 11.49, ortalama güven 70%.",
       "is_available": true
     },
     "risk_lab": {
@@ -1479,5 +1641,7 @@
       "robot_reason": "Bugün için güncel veri henüz oluşmadı.",
       "is_available": false
     }
-  }
+  },
+  "card_flow_note": "Oran bilgisi bulunamadığı için mevcut kart verisi korundu.",
+  "card_flow_checked_at": "2026-08-11T12:09:58.540Z"
 }
