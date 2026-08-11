@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-11T09:47:06.194Z
+- Güncelleme: 2026-08-11T10:14:01.463Z
 - Ham maç sayısı: 112
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 318
-- Aktif bülten maçı: 107
-- Bültenden düşürülen maç: 5
+- Aktif bülten maçı: 104
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Palermo - Juventus | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 5.8 | 6 |
-| Sporting Braga - Farense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | Veri bekleniyor | - | 1.72 | 8 |
-| Famalicão U23 - Torreense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | Veri bekleniyor | - | 1.63 | 8 |
 | Gangwon - Gamba Osaka | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 13:30 | Veri bekleniyor | - | 2.44 | 8 |
 | Sturt Lions - Adelaide Comets | Avustralya NPL Güney Avustralya | 13:30 | Veri bekleniyor | - | 1.63 | 6 |
 | Kairat Almaty (0) - (1) Levski Sofya | UEFA Şampiyonlar Ligi 3.Eleme Turu | 18:00 | Veri bekleniyor | - | 2.4 | 8 |

@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-11T09:42:59.499379+00:00
+Tarih: 2026-08-11T10:14:39.552178+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 106
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 105
+- Kac mac bulundu: 88
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 88
 - Ham veri havuzu toplam mac sayisi: 6090
 - Hedef tarih: 11.08.2026 Europe/Istanbul
 
@@ -16,15 +16,7 @@ Tarih: 2026-08-11T09:42:59.499379+00:00
 
 - AFC Şampiyonlar Ligi Elite 1. Eleme Turu
 - Almanya Bölgesel Lig Kuzey
-- Arjantin Premier Lig 2. Aşama
 - Avustralya NPL Güney Avustralya
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Danimarka 3.Lig
 - Finlandiya Ykkönen
 - Güney Afrika PSL
@@ -127,10 +119,10 @@ Tarih: 2026-08-11T09:42:59.499379+00:00
 | 11.08.2026 | 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon | Gamba Osaka | 09674 | 5 |
 | 11.08.2026 | 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira | Al Ittihad (Cid | 10000 | 5 |
 | 11.08.2026 | 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor | Al-Hussein | 09608 | 5 |
-| 12.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp | Univ. Catolica | 07339 | 5 |
-| 12.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Fluminense | Rivadavia | 06924 | 5 |
-| 12.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Bolivar | Sao Paulo | 07228 | 5 |
-| 12.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors | Deportivo Recol | 06769 | 5 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio | Cove Rangers | 06757 | 5 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni | Dundee Ii | 10097 | 5 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clyde | St. Mirren Ii | 06627 | 3 |
+| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Gala Fairydean | Rangers Ii | 06742 | 3 |
 
 ## Sonuc
 
