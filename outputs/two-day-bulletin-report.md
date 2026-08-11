@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 124
-Aktif mac: 103
-Canli mac: 5
-Biten mac: 16
+Ham mac: 126
+Aktif mac: 105
+Canli mac: 0
+Biten mac: 21
 Bultenden dusurulen mac: 21
-Bugun: 87
+Bugun: 89
 Yarin: 16
 
 ## Baslamamis Maclar
@@ -37,7 +37,9 @@ Yarin: 16
 - 2026-08-11 20:30 | Güney Afrika PSL | Marumo Gallant - Kruger United | scheduled | -
 - 2026-08-11 20:30 | Güney Afrika PSL | Chippa United - Richards Bay | scheduled | -
 - 2026-08-11 20:30 | Hazırlık Kulüpler | Unionistas De - Cd Coria | scheduled | -
+- 2026-08-11 20:30 | Hazırlık Kulüpler | Marino De Luan - Langreo | scheduled | -
 - 2026-08-11 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) - (1) Hapoel Beer She | scheduled | -
+- 2026-08-11 21:00 | Hazırlık Kulüpler | Real Jaen - Cacereno | scheduled | -
 - 2026-08-11 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Celje (1) - (2) Ararat-Armenia | scheduled | -
 - 2026-08-11 21:15 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Slovan Bratisl (2) - (1) Mjallby | scheduled | -
 - 2026-08-11 21:30 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sturm Graz (0) - (2) Fenerbahçe | scheduled | -
@@ -116,11 +118,7 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
-- 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | live | -
-- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | live | -
-- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | live | -
-- 2026-08-11 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | live | -
-- 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | live | -
+Canli mac yok.
 
 ## Biten Maclar
 - 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
@@ -139,3 +137,8 @@ Yarin: 16
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | finished | -
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | finished | -
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | finished | -
+- 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | finished | -
+- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | finished | -
+- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | finished | -
+- 2026-08-11 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | finished | -
+- 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | finished | -
