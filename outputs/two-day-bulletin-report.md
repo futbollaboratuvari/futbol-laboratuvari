@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 126
+Ham mac: 93
 Aktif mac: 72
 Canli mac: 21
-Biten mac: 33
-Bultenden dusurulen mac: 54
+Biten mac: 0
+Bultenden dusurulen mac: 21
 Bugun: 56
 Yarin: 16
 
@@ -108,36 +108,4 @@ Yarin: 16
 - 2026-08-11 21:30 | İngiltere Non League Premier Güney | Wimborne Town - Chichester City | live | -
 
 ## Biten Maclar
-- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
-- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
-- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | finished | -
-- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | finished | -
-- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | finished | -
-- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | finished | -
-- 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | finished | -
-- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | finished | -
-- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | finished | -
-- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | finished | -
-- 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | finished | -
-- 2026-08-11 11:30 | Hazırlık Kulüpler | Eldense - Cartagena | finished | -
-- 2026-08-11 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite - Cand | finished | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | finished | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | finished | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | finished | -
-- 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | finished | -
-- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | finished | -
-- 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | finished | -
-- 2026-08-11 13:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Gangwon - Gamba Osaka | finished | -
-- 2026-08-11 13:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Adelaide Comets | finished | -
-- 2026-08-11 17:00 | İngiltere Ulusal Lig Kupası Grup C | Hartlepool - Middlesbrough ( | finished | -
-- 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | finished | -
-- 2026-08-11 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor - Al-Hussein | finished | -
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Jyvaskyla - Tampere Utd | finished | -
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Rops - Kups Ak. | finished | -
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Tpv Tampere - Salpa Salo | finished | -
-- 2026-08-11 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Inter Turku Ii | finished | -
-- 2026-08-11 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Bodo Glimt (3) - (3) Union St.G | finished | -
-- 2026-08-11 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) - (2) Aarhus | finished | -
-- 2026-08-11 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) - (0) Larne Fc | finished | -
-- 2026-08-11 19:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Al Jazira - Al Ittihad (Cid | finished | -
-- 2026-08-11 19:00 | Uganda Süper 8 Çeyrek Final | Maroons (1) - (1) Sc Villa | finished | -
+Biten mac yok.

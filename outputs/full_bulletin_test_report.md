@@ -3,11 +3,10 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 72
-- Live match count: 21
-- Finished removed count: 0
+- Live match count: 20
+- Finished removed count: 1
 - Date window: 2026-08-11 / 2026-08-12 23:59
 
-- 2026-08-11 19:30 | Ishoj - Asa Aarhus | live
 - 2026-08-11 20:00 | Lübeck - Vfb Oldenburg | live
 - 2026-08-11 20:00 | G.Torrelavega - Sestao | live
 - 2026-08-11 20:00 | Helsingborg - Varnamo | live
@@ -17,3 +16,4 @@
 - 2026-08-11 20:30 | Chippa United - Richards Bay | live
 - 2026-08-11 20:30 | Marumo Gallant - Kruger United | live
 - 2026-08-11 20:30 | Polokwane City - Stellenbosch Fc | live
+- 2026-08-11 20:30 | Ts Galaxy - Mamelodi Sundow | live
