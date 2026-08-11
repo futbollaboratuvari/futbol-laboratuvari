@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 111
-Aktif mac: 110
-Canli mac: 1
-Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 94
+Ham mac: 123
+Aktif mac: 107
+Canli mac: 5
+Biten mac: 11
+Bultenden dusurulen mac: 16
+Bugun: 91
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite - Cand | scheduled | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | scheduled | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | scheduled | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | scheduled | -
 - 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | scheduled | -
 - 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | scheduled | -
 - 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | scheduled | -
@@ -103,6 +99,7 @@ Yarin: 16
 - 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Hitchin Town - Needham Market | scheduled | -
 - 2026-08-11 21:45 | İngiltere Non League Premier Güney Merkez | Peterborough S - Real Bedford | scheduled | -
 - 2026-08-11 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc - Hibernian Ii | scheduled | -
+- 2026-08-11 21:45 | Kuzey İrlanda Championship | Moyola Park - Strabane Athlet | scheduled | -
 - 2026-08-11 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) - (2) Sparta Prag | scheduled | -
 - 2026-08-11 22:30 | Paraguay Kupa 3.Tur | Indep Cambo Gr - Sportivo Amelia | scheduled | -
 - 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | scheduled | -
@@ -124,6 +121,20 @@ Yarin: 16
 
 ## Canli Maclar
 - 2026-08-11 11:30 | Hazırlık Kulüpler | Eldense - Cartagena | live | -
+- 2026-08-11 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite - Cand | live | -
+- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | live | -
+- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | live | -
+- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
+- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | finished | -
+- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | finished | -
+- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | finished | -
+- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | finished | -
+- 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | finished | -
+- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | finished | -
+- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | finished | -
+- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | finished | -
+- 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | finished | -

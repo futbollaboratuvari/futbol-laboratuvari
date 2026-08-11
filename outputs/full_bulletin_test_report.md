@@ -2,16 +2,16 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 110
-- Live match count: 1
+- Scheduled match count: 107
+- Live match count: 5
 - Finished removed count: 0
 - Date window: 2026-08-11 / 2026-08-12 23:59
 
 - 2026-08-11 11:30 | Eldense - Cartagena | live
-- 2026-08-11 12:30 | Adelaide Unite - Cand | scheduled
-- 2026-08-11 12:30 | Macarthur - Sd Raiders | scheduled
-- 2026-08-11 12:30 | Queensland Lio - Melbourne City | scheduled
-- 2026-08-11 12:30 | Sd Raiders - Macarthur | scheduled
+- 2026-08-11 12:30 | Adelaide Unite - Cand | live
+- 2026-08-11 12:30 | Macarthur - Sd Raiders | live
+- 2026-08-11 12:30 | Queensland Lio - Melbourne City | live
+- 2026-08-11 12:30 | Sd Raiders - Macarthur | live
 - 2026-08-11 13:00 | Palermo - Juventus | scheduled
 - 2026-08-11 13:00 | Famalicão U23 - Torreense U23 | scheduled
 - 2026-08-11 13:00 | Sporting Braga - Farense U23 | scheduled

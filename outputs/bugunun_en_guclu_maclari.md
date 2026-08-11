@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-11T09:28:51.166Z
+- Güncelleme: 2026-08-11T09:43:52.877Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -12,23 +12,23 @@
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eldense VS Cartagena | Hazırlık Kulüpler | 11:30 | MS 2 | 3.48 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Adelaide Unite VS Cand | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 12:30 | MS 2 | 3.59 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Adelaide Unite VS Cand | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 12:30 | MS 2 | 3.59 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Sd Raiders VS Macarthur | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Queensland Lio VS Melbourne City | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Macarthur VS Sd Raiders | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Palermo VS Juventus | Hazırlık Kulüpler | 13:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sporting Braga VS Farense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | MS 2 | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Famalicão U23 VS Torreense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | MS 2 | 3.52 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Gangwon VS Gamba Osaka | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 13:30 | MS X | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gangwon VS Gamba Osaka | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 13:30 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sturt Lions VS Adelaide Comets | Avustralya NPL Güney Avustralya | 13:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Kairat Almaty (0) VS (1) Levski Sofya | UEFA Şampiyonlar Ligi 3.Eleme Turu | 18:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Pakhtakor VS Al-Hussein | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 18:00 | MS 2 | 3.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Pakhtakor VS Al-Hussein | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 18:00 | MS 2 | 3.68 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Jyvaskyla VS Tampere Utd | Finlandiya Ykkönen | 18:30 | MS X | 3.35 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Rops VS Kups Ak. | Finlandiya Ykkönen | 18:30 | MS 2 | 5.48 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Tpv Tampere VS Salpa Salo | Finlandiya Ykkönen | 18:30 | MS X | 3.30 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Pk Keski Uusim VS Inter Turku Ii | Finlandiya Ykkönen | 18:30 | MS 2 | 4.26 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Bodo Glimt (3) VS (3) Union St.G | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:00 | MS 2 | 3.97 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Sabah (1) VS (2) Aarhus | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:00 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bodo Glimt (3) VS (3) Union St.G | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:00 | MS 2 | 3.94 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Sabah (1) VS (2) Aarhus | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fc Iberia (0) VS (0) Larne Fc | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | MS 2 | 4.53 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Jazira VS Al Ittihad (Cid | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Maroons (1) VS (1) Sc Villa | Uganda Süper 8 Çeyrek Final | 19:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -46,7 +46,7 @@
 | Marumo Gallant VS Kruger United | Güney Afrika PSL | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Chippa United VS Richards Bay | Güney Afrika PSL | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Unionistas De VS Cd Coria | Hazırlık Kulüpler | 20:30 | MS 2 | 3.65 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Kizilyildiz (0) VS (1) Hapoel Beer She | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:00 | MS X | 5.63 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Kizilyildiz (0) VS (1) Hapoel Beer She | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:00 | MS X | 5.60 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Celje (1) VS (2) Ararat-Armenia | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Slovan Bratisl (2) VS (1) Mjallby | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:15 | MS 2 | 3.51 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sturm Graz (0) VS (2) Fenerbahçe | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -70,8 +70,8 @@
 | Clyde VS St. Mirren Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Formartine Uni VS Dundee Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 3.59 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Alloa VS Stranraer | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 3.43 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Queens Univers VS Hw Welders | Kuzey İrlanda Championship | 21:45 | MS 1 | 4.82 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Institute Fc VS Ballinamallard | Kuzey İrlanda Championship | 21:45 | MS 2 | 4.33 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Queens Univers VS Hw Welders | Kuzey İrlanda Championship | 21:45 | MS 1 | 4.25 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Institute Fc VS Ballinamallard | Kuzey İrlanda Championship | 21:45 | MS 2 | 4.47 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Ards Fc VS Dundela | Kuzey İrlanda Championship | 21:45 | MS 2 | 4.37 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Loughgall Fc VS Newington Yc | Kuzey İrlanda Championship | 21:45 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Bamber Bridge VS Avro | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -104,17 +104,18 @@
 | Hitchin Town VS Needham Market | İngiltere Non League Premier Güney Merkez | 21:45 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Peterborough S VS Real Bedford | İngiltere Non League Premier Güney Merkez | 21:45 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Clydebank Fc VS Hibernian Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Moyola Park VS Strabane Athlet | Kuzey İrlanda Championship | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Lyon (1) VS (2) Sparta Prag | UEFA Şampiyonlar Ligi 3.Eleme Turu | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Indep Cambo Gr VS Sportivo Amelia | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Fluminense VS Rivadavia | Copa Libertadores Son 16 Turu | 01:00 | MS 2 | 4.52 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Boca Juniors VS Deportivo Recol | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Avai VS Regatas | Brezilya Serie B | 01:30 | MS X | 2.68 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Charlotte VS Pachuca | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 3.39 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Columbus VS Pumas Unam | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 4.31 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Columbus VS Pumas Unam | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 4.45 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Talleres VS Lanus | Arjantin Premier Lig 2. Aşama | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Plaza Amador VS Xelaju | CONCACAF Orta Amerika Kupası Grup A | 03:00 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cincinnati VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 5.87 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Estudiantes Lp VS Univ. Catolica | Copa Libertadores Son 16 Turu | 03:30 | MS 2 | 5.54 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cincinnati VS Atlas | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS 2 | 5.61 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Estudiantes Lp VS Univ. Catolica | Copa Libertadores Son 16 Turu | 03:30 | MS 2 | 5.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Deportes Tolim VS Indep. Jose Ter | Copa Libertadores Son 16 Turu | 03:30 | MS X | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Bolivar VS Sao Paulo | Copa Sudamericana Son 16 Turu | 03:30 | MS 2 | 3.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Minnesota Utd VS Atlante | CONCACAF Ligler Kupası Grup Aşaması | 03:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -128,20 +129,20 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Deportivo Sapr VS Mixco | MS 2 | 6.08 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Ards Fc VS Dundela | MS 2 | 4.37 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Cincinnati VS Atlas | MS 2 | 5.87 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Columbus VS Pumas Unam | MS 2 | 4.31 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Cincinnati VS Atlas | MS 2 | 5.61 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Columbus VS Pumas Unam | MS 2 | 4.45 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Salt Lake VS Fc Juarez | MS 2 | 4.07 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Bodo Glimt (3) VS (3) Union St.G | MS 2 | 3.97 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Bodo Glimt (3) VS (3) Union St.G | MS 2 | 3.94 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Deportivo Sapr VS Mixco + Ards Fc VS Dundela | MS 2 + MS 2 | 26.57 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Cincinnati VS Atlas + Columbus VS Pumas Unam | MS 2 + MS 2 | 25.30 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Salt Lake VS Fc Juarez + Bodo Glimt (3) VS (3) Union St.G | MS 2 + MS 2 | 16.16 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Cincinnati VS Atlas + Columbus VS Pumas Unam | MS 2 + MS 2 | 24.96 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Salt Lake VS Fc Juarez + Bodo Glimt (3) VS (3) Union St.G | MS 2 + MS 2 | 16.04 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Deportivo Sapr VS Mixco + Ards Fc VS Dundela + Cincinnati VS Atlas | MS 2 + MS 2 + MS 2 | 155.96 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Columbus VS Pumas Unam + Salt Lake VS Fc Juarez + Bodo Glimt (3) VS (3) Union St.G | MS 2 + MS 2 + MS 2 | 69.64 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Deportivo Sapr VS Mixco + Ards Fc VS Dundela + Cincinnati VS Atlas | MS 2 + MS 2 + MS 2 | 149.06 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Columbus VS Pumas Unam + Salt Lake VS Fc Juarez + Bodo Glimt (3) VS (3) Union St.G | MS 2 + MS 2 + MS 2 | 71.36 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
