@@ -1,26 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-11T18:40:51.127605+00:00
+Tarih: 2026-08-11T19:49:17.774217+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 56
+- Kac mac bulundu: 2
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 56
+- Kac mac zaten vardi: 2
 - Ham veri havuzu toplam mac sayisi: 6093
 - Hedef tarih: 11.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Kuzey İrlanda Championship
-- Paraguay Kupa 3.Tur
-- UEFA Şampiyonlar Ligi 3.Eleme Turu
-- İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
-- İngiltere Non League Premier Kuzey
-- İskoçya Challenge Kupası Lig Aşaması
 
 ## Okunabilen Oran Alanlari
 
@@ -77,8 +71,8 @@ Tarih: 2026-08-11T18:40:51.127605+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 15
-- Acilan detay: 15
+- Denenen Tumu alani: 9
+- Acilan detay: 9
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -91,26 +85,8 @@ Tarih: 2026-08-11T18:40:51.127605+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 11.08.2026 | 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) | (2) Sparta Prag | 06602 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose | Annan | 06422 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clyde | St. Mirren Ii | 06627 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Gala Fairydean | Rangers Ii | 06742 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Stirling Albio | Cove Rangers | 06757 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Alloa | Stranraer | 02135 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton | Airdrieonians | 06749 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts | Motherwell Ii | 06745 | 2 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Edinburg C. | Cowdenbeath | 10024 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clydebank Fc | Hibernian Ii | 05690 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Clachnacuddin | Dundee United I | 06429 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Fife | Spartans | 06758 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Elgin | Ross County | 10025 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Montrose | Fraserburgh | 06752 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Banks O Dee | Peterhead | 06414 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | East Kilbride | Kilmarnock Ii | 10014 | 2 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Queen Of South | Cumbernauld Col | 06755 | 2 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Forfar | Aberdeen Ii | 10051 | 5 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Berwick | Hearts Ii | 06035 | 3 |
-| 11.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Formartine Uni | Dundee Ii | 10097 | 5 |
+| 11.08.2026 | 21:45 | İngiltere Non League Premier Güney Merkez | Stamford | Bury Town | 13037 | 5 |
+| 11.08.2026 | 21:45 | İngiltere Non League Premier Güney Merkez | Alvechurch | Worcester City | 12810 | 5 |
 
 ## Sonuc
 

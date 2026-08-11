@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-11T19:27:32.390Z
+- Güncelleme: 2026-08-11T19:49:06.071Z
 - Ham maç sayısı: 93
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 263
-- Aktif bülten maçı: 17
-- Bültenden düşürülen maç: 76
+- Aktif bülten maçı: 16
+- Bültenden düşürülen maç: 77
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Indep Cambo Gr - Sportivo Amelia | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 5.71 | 5 |
 | Fluminense - Rivadavia | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.51 | 7 |
 | Boca Juniors - Deportivo Recol | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.07 | 6 |
 | Avai - Regatas | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 2.43 | 8 |
