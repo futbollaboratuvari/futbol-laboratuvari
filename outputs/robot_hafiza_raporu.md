@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-10T07:55:33+03:00
+Güncelleme: 2026-08-11T07:40:29+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 41
+- Toplam tahmin kaydı: 92
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -16,14 +16,13 @@ Güncelleme: 2026-08-10T07:55:33+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 14 | 0 | 0 | 14 | %0 | 0 |
+| Değerli market yok | 31 | 0 | 0 | 31 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 2 | 0 | 0 | 2 | %0 | 3.44 |
-| MS 2 | 10 | 0 | 0 | 10 | %0 | 4.27 |
-| MS X | 12 | 0 | 0 | 12 | %0 | 3.13 |
-| MS X + MS 2 | 1 | 0 | 0 | 1 | %0 | 19.82 |
-| MS X + MS X | 1 | 0 | 0 | 1 | %0 | 12.48 |
-| MS X + MS X + MS X | 1 | 0 | 0 | 1 | %0 | 41.93 |
+| MS 1 | 1 | 0 | 0 | 1 | %0 | 3.68 |
+| MS 2 | 18 | 0 | 0 | 18 | %0 | 4.17 |
+| MS 2 + MS 2 | 3 | 0 | 0 | 3 | %0 | 22.0 |
+| MS 2 + MS 2 + MS 2 | 2 | 0 | 0 | 2 | %0 | 103.84 |
+| MS X | 37 | 0 | 0 | 37 | %0 | 3.11 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -33,44 +32,44 @@ Güncelleme: 2026-08-10T07:55:33+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 6 | 0 | 0 | 6 | %0 | 2.88 |
-| 3.00-4.99 | 16 | 0 | 0 | 16 | %0 | 3.55 |
-| 5.00+ | 5 | 0 | 0 | 5 | %0 | 17.44 |
-| bilinmiyor | 14 | 0 | 0 | 14 | %0 | 0 |
+| 2.00-2.99 | 11 | 0 | 0 | 11 | %0 | 2.87 |
+| 3.00-4.99 | 41 | 0 | 0 | 41 | %0 | 3.42 |
+| 5.00+ | 9 | 0 | 0 | 9 | %0 | 32.86 |
+| bilinmiyor | 31 | 0 | 0 | 31 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Arjantin Ulusal Primera Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bulgaristan 1.Lig | 2 | 0 | 0 | 2 | %0 | 4.11 |
-| Danimarka Süperlig | 1 | 0 | 0 | 1 | %0 | 3.29 |
-| Ekvador Pro Lig | 1 | 0 | 0 | 1 | %0 | 2.77 |
-| Faroe Adaları Master Lig | 2 | 0 | 0 | 2 | %0 | 4.2 |
-| Hollanda Eerste Divisie | 1 | 0 | 0 | 1 | %0 | 3.3 |
-| Letonya Virsliga | 1 | 0 | 0 | 1 | %0 | 0 |
-| Litvanya 1.Lig | 1 | 0 | 0 | 1 | %0 | 3.56 |
-| Litvanya A Ligi | 1 | 0 | 0 | 1 | %0 | 3.95 |
-| Norveç 3.Lig Grup 1 | 1 | 0 | 0 | 1 | %0 | 0 |
-| Norveç 3.Lig Grup 2 | 1 | 0 | 0 | 1 | %0 | 0 |
-| Norveç 3.Lig Grup 5 | 2 | 0 | 0 | 2 | %0 | 0 |
+| AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 4 | 0 | 0 | 4 | %0 | 3.72 |
+| Almanya Bölgesel Lig Kuzey | 1 | 0 | 0 | 1 | %0 | 0 |
+| Avustralya FFA Kupası Son 16 Turu | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya NPL Güney Avustralya | 1 | 0 | 0 | 1 | %0 | 0 |
+| Finlandiya Ykkönen | 4 | 0 | 0 | 4 | %0 | 4.12 |
+| Güney Afrika PSL | 4 | 0 | 0 | 4 | %0 | 0 |
+| Kuzey İrlanda Championship | 3 | 0 | 0 | 3 | %0 | 3.62 |
+| UEFA Avrupa Ligi 3. Eleme Turu | 1 | 0 | 0 | 1 | %0 | 4.53 |
+| UEFA Konferans Ligi 3. Eleme Turu | 2 | 0 | 0 | 2 | %0 | 2.85 |
+| UEFA Şampiyonlar Ligi 3.Eleme Turu | 9 | 0 | 0 | 9 | %0 | 3.78 |
+| İngiltere Non League Premier Güney | 10 | 0 | 0 | 10 | %0 | 3.09 |
+| İngiltere Non League Premier Güney Merkez | 9 | 0 | 0 | 9 | %0 | 3.07 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Asane Ii VS Austevoll | 1 | 0 | 0 | 1 | %0 | 3.67 |
-| Asane Ii VS Austevoll + Moss VS Odds Bk | 1 | 0 | 0 | 1 | %0 | 12.48 |
-| Asane Ii VS Austevoll + Moss VS Odds Bk + Jong Az Alkmaa VS Fc Eindhoven | 1 | 0 | 0 | 1 | %0 | 41.93 |
-| Baerum VS Kfum Ii | 1 | 0 | 0 | 1 | %0 | 0 |
-| Benfica (B) VS Leixoes | 1 | 0 | 0 | 1 | %0 | 3.0 |
-| Botev Plovdiv VS Spartak Varna | 1 | 0 | 0 | 1 | %0 | 4.78 |
-| Botev Vratsa VS Slavia Sofia | 1 | 0 | 0 | 1 | %0 | 3.43 |
-| Botosani VS Hunedoara | 1 | 0 | 0 | 1 | %0 | 2.85 |
-| Daugava Riga VS Grobina | 1 | 0 | 0 | 1 | %0 | 0 |
-| Drobak/Frogn VS Sandefjord Ii | 1 | 0 | 0 | 1 | %0 | 0 |
-| Fakel Voronezh VS Akhmat Grozny | 1 | 0 | 0 | 1 | %0 | 0 |
-| Fram VS Kr Reykjavik | 1 | 0 | 0 | 1 | %0 | 0 |
+| Adelaide Unite VS Cand | 1 | 0 | 0 | 1 | %0 | 4.47 |
+| Afc Emley VS Ilkeston Town | 1 | 0 | 0 | 1 | %0 | 2.83 |
+| Al Jazira VS Al Ittihad (Cid | 1 | 0 | 0 | 1 | %0 | 0 |
+| Alfreton VS Gainsborough Tr | 1 | 0 | 0 | 1 | %0 | 2.94 |
+| Alloa VS Stranraer | 1 | 0 | 0 | 1 | %0 | 3.49 |
+| Alvechurch VS Worcester City | 1 | 0 | 0 | 1 | %0 | 2.88 |
+| Apollon Limass (1) VS (0) Brann | 1 | 0 | 0 | 1 | %0 | 2.85 |
+| Ards Fc VS Dundela | 1 | 0 | 0 | 1 | %0 | 5.09 |
+| Bamber Bridge VS Avro | 1 | 0 | 0 | 1 | %0 | 3.08 |
+| Banbury United VS Racing Club War | 1 | 0 | 0 | 1 | %0 | 3.14 |
+| Banks O Dee VS Peterhead | 1 | 0 | 0 | 1 | %0 | 0 |
+| Bath City VS Plymouth Parkwa | 1 | 0 | 0 | 1 | %0 | 3.28 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -82,10 +81,9 @@ Güncelleme: 2026-08-10T07:55:33+03:00
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS 2 + MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS X + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS X + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS X + MS X + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
