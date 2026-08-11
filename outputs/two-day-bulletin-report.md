@@ -2,15 +2,16 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 112
-Aktif mac: 102
-Canli mac: 10
+Ham mac: 108
+Aktif mac: 103
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 86
+Bultenden dusurulen mac: 5
+Bugun: 87
 Yarin: 16
 
 ## Baslamamis Maclar
+- 2026-08-11 17:00 | İngiltere Ulusal Lig Kupası Grup C | Hartlepool - Middlesbrough ( | scheduled | -
 - 2026-08-11 18:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kairat Almaty (0) - (1) Levski Sofya | scheduled | -
 - 2026-08-11 18:00 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Pakhtakor - Al-Hussein | scheduled | -
 - 2026-08-11 18:30 | Finlandiya Ykkönen | Jyvaskyla - Tampere Utd | scheduled | -
@@ -115,11 +116,6 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
-- 2026-08-11 11:30 | Hazırlık Kulüpler | Eldense - Cartagena | live | -
-- 2026-08-11 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite - Cand | live | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | live | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Queensland Lio - Melbourne City | live | -
-- 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Macarthur - Sd Raiders | live | -
 - 2026-08-11 13:00 | Hazırlık Kulüpler | Palermo - Juventus | live | -
 - 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Farense U23 | live | -
 - 2026-08-11 13:00 | Portekiz U23 Ulusal Şampiyona | Famalicão U23 - Torreense U23 | live | -
