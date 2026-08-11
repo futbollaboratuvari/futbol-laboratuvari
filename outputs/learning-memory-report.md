@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 11.08.2026 21:35:49
+Oluşturma: 11.08.2026 21:41:40
 
 ## Özet
 
-- Toplam tahmin: 60
-- Bekleyen tahmin: 60
+- Toplam tahmin: 61
+- Bekleyen tahmin: 61
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 15
@@ -20,12 +20,13 @@ Oluşturma: 11.08.2026 21:35:49
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
 - MS X: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-11 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | MS 2 | pending | 50/100
 - 2026-08-11 | İskoçya Challenge Kupası Lig Aşaması | East Fife - Spartans | MS 2 | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Güney | Bracknell Town - Gloucester City | MS X | pending | 50/100
 - 2026-08-11 | Hazırlık Kulüpler | Real Jaen - Cacereno | MS 2 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 11.08.2026 21:35:49
 - 2026-08-11 | İngiltere Non League Premier Kuzey | Warrington Tow - Hyde | MS X | pending | 50/100
 - 2026-08-11 | İngiltere Non League Premier Kuzey | Alfreton - Gainsborough Tr | MS X | pending | 40/100
 - 2026-08-11 | İngiltere Non League Premier Kuzey | Bury - Curzon Ashton | MS X | pending | 50/100
-- 2026-08-11 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | MS X | pending | 50/100
 
