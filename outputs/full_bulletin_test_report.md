@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 105
-- Live match count: 0
+- Scheduled match count: 104
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-11 / 2026-08-12 23:59
 
-- 2026-08-11 17:00 | Hartlepool - Middlesbrough ( | scheduled
+- 2026-08-11 17:00 | Hartlepool - Middlesbrough ( | live
 - 2026-08-11 18:00 | Pakhtakor - Al-Hussein | scheduled
 - 2026-08-11 18:00 | Kairat Almaty (0) - (1) Levski Sofya | scheduled
 - 2026-08-11 18:30 | Jyvaskyla - Tampere Utd | scheduled

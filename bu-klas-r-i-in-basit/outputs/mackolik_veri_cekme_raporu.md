@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-11T13:39:55.246069+00:00
+Tarih: 2026-08-11T14:43:18.507093+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 104
+- Kac mac bulundu: 103
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 104
+- Kac mac zaten vardi: 103
 - Ham veri havuzu toplam mac sayisi: 6093
 - Hedef tarih: 11.08.2026 Europe/Istanbul
 
@@ -38,7 +38,6 @@ Tarih: 2026-08-11T13:39:55.246069+00:00
 - İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
 - İngiltere Non League Premier Kuzey
-- İngiltere Ulusal Lig Kupası Grup C
 - İskoçya Challenge Kupası Lig Aşaması
 - İsveç Superettan
 
@@ -97,8 +96,8 @@ Tarih: 2026-08-11T13:39:55.246069+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 27
-- Acilan detay: 27
+- Denenen Tumu alani: 26
+- Acilan detay: 26
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -120,7 +119,7 @@ Tarih: 2026-08-11T13:39:55.246069+00:00
 | 11.08.2026 | 20:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kauno Zalgiris (0) | (5) Dinamo Zagreb | 05943 | 5 |
 | 11.08.2026 | 22:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Lyon (1) | (2) Sparta Prag | 06602 | 5 |
 | 11.08.2026 | 19:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Sabah (1) | (2) Aarhus | 05815 | 5 |
-| 11.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) | (1) Hapoel Beer She | 06292 | 5 |
+| 11.08.2026 | 21:00 | UEFA Şampiyonlar Ligi 3.Eleme Turu | Kizilyildiz (0) | (1) Hapoel Beer She | 06292 | 4 |
 | 11.08.2026 | 19:00 | UEFA Avrupa Ligi 3. Eleme Turu | Fc Iberia (0) | (0) Larne Fc | 05730 | 5 |
 | 11.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Apollon Limass (1) | (0) Brann | 05859 | 5 |
 | 11.08.2026 | 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Cska 1948 Sofi (1) | (1) Panathinaikos | 06076 | 5 |
