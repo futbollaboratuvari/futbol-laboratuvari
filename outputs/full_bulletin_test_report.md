@@ -2,14 +2,14 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 79
-- Live match count: 2
+- Scheduled match count: 78
+- Live match count: 3
 - Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
 - 2026-08-12 01:00 | Fluminense - Rivadavia | live
 - 2026-08-12 01:00 | Boca Juniors - Deportivo Recol | live
-- 2026-08-12 01:30 | Avai - Regatas | scheduled
+- 2026-08-12 01:30 | Avai - Regatas | live
 - 2026-08-12 02:30 | Charlotte - Pachuca | scheduled
 - 2026-08-12 02:30 | Columbus - Pumas Unam | scheduled
 - 2026-08-12 03:00 | Talleres - Lanus | scheduled

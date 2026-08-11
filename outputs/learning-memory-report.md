@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 01:07:35
+Oluşturma: 12.08.2026 01:32:17
 
 ## Özet
 
-- Toplam tahmin: 73
-- Bekleyen tahmin: 73
+- Toplam tahmin: 88
+- Bekleyen tahmin: 88
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 22
+- Lig sayısı: 27
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 12.08.2026 01:07:35
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
+- MS X: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
-- MS X: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-12 | UEFA Süper Kupa Süper Kupa | Psg - Aston Villa | MS 2 | pending | 50/100
-- 2026-08-12 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | MS 1 | pending | 40/100
-- 2026-08-12 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Gil Vicente U23 | MS X | pending | 50/100
-- 2026-08-12 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | MS 2 | pending | 50/100
-- 2026-08-12 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Xelaju | MS X | pending | 50/100
-- 2026-08-12 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Atlas | MS 2 | pending | 40/100
-- 2026-08-12 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | MS X | pending | 40/100
-- 2026-08-12 | Copa Sudamericana Son 16 Turu | Bolivar - Sao Paulo | MS 2 | pending | 40/100
-- 2026-08-12 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Atlante | MS X | pending | 50/100
-- 2026-08-12 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake - Fc Juarez | MS 2 | pending | 70/100
-- 2026-08-12 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Alianza | MS 2 | pending | 50/100
-- 2026-08-12 | Brezilya Serie B | Avai - Regatas | MS X | pending | 40/100
-- 2026-08-11 | İngiltere Non League Premier Kuzey | United Of Manc - Leek Town | MS 2 | pending | 50/100
-- 2026-08-11 | İskoçya Challenge Kupası Lig Aşaması | East Fife - Spartans | MS 2 | pending | 50/100
-- 2026-08-11 | İngiltere Non League Premier Güney | Bracknell Town - Gloucester City | MS X | pending | 50/100
+- 2026-08-12 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | MS X | pending | 50/100
+- 2026-08-12 | Macaristan NB III Kuzeydoğu | Egri - Tiszafuredi | MS X | pending | 50/100
+- 2026-08-12 | Macaristan NB III Kuzeybatı | Kiraly Sze - Dorogi Fc | MS X | pending | 50/100
+- 2026-08-12 | Macaristan NB III Kuzeybatı | Pápai Perutz - Veszprem | MS X | pending | 50/100
+- 2026-08-12 | Macaristan NB III Kuzeybatı | Sc Sopron - Gyor Ii | MS X | pending | 50/100
+- 2026-08-12 | Macaristan NB III Kuzeybatı | Puskas Fc Ii - Komarom | MS X | pending | 50/100
+- 2026-08-12 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | MS X | pending | 50/100
+- 2026-08-12 | Macaristan NB III Güneybatı | Budaors - Kse Ivancsa | MS X | pending | 50/100
+- 2026-08-12 | UEFA Konferans Ligi 3. Eleme Turu | Gks Katowice (0) - (2) Hapoel Tel Aviv | MS 2 | pending | 40/100
+- 2026-08-12 | Hazırlık Kulüpler | Everton - Newcastle Utd | MS X | pending | 50/100
+- 2026-08-12 | Yunanistan Süper Kupa | Aek - Ofi | MS 2 | pending | 60/100
+- 2026-08-12 | Hazırlık Kulüpler | Man. Utd - Leeds Utd | MS X | pending | 60/100
+- 2026-08-12 | Hazırlık Kulüpler | Arsenal - Como | MS 2 | pending | 40/100
+- 2026-08-12 | Hazırlık Kulüpler | Nottingham F - B.Leverkusen | MS X | pending | 50/100
+- 2026-08-12 | İngiltere Non League Premier Güney | Gosport Boroug - Hanworth Villa | MS X | pending | 50/100
 
