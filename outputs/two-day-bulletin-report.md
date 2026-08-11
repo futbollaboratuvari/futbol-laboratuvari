@@ -2,18 +2,15 @@
 
 Gunler: 2026-08-11 / 2026-08-12
 Kaynak: fixtures.json
-Ham mac: 108
-Aktif mac: 103
-Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 87
+Ham mac: 110
+Aktif mac: 100
+Canli mac: 4
+Biten mac: 6
+Bultenden dusurulen mac: 10
+Bugun: 84
 Yarin: 16
 
 ## Baslamamis Maclar
-- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | scheduled | -
-- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | scheduled | -
-- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | scheduled | -
 - 2026-08-11 04:05 | Kolombiya Primera A Clausura | Atletico Junio - Pereira | scheduled | -
 - 2026-08-11 12:30 | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | Adelaide Unite - Cand | scheduled | -
 - 2026-08-11 12:30 | Avustralya FFA Kupası Son 16 Turu | Sd Raiders - Macarthur | scheduled | -
@@ -116,11 +113,15 @@ Yarin: 16
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | scheduled | -
 
 ## Canli Maclar
-- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | live | -
-- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | live | -
-- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | live | -
-- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | live | -
 - 2026-08-11 02:00 | Kolombiya Primera A Clausura | Independiente - Los Millionario | live | -
+- 2026-08-11 03:00 | Şili Premier Lig | Audax Italiano - Atletico Nublen | live | -
+- 2026-08-11 03:00 | Ekvador Pro Lig | Deportivo Cuen - Manta | live | -
+- 2026-08-11 03:15 | Arjantin Premier Lig 2. Aşama | Union Santa Fe - Corboda Santiag | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-11 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-11 00:30 | Ekvador Pro Lig | Libertad - Univ Catolica ( | finished | -
+- 2026-08-11 01:00 | Arjantin Premier Lig 2. Aşama | Banfield - Belgrano | finished | -
+- 2026-08-11 01:00 | Uruguay Premier Lig Clausura | Deportivo Mald - Racing Montevid | finished | -
+- 2026-08-11 01:30 | Venezuela Premier Lig Clausura | Caracas Fc - Deportivo La Gu | finished | -
+- 2026-08-11 01:30 | Brezilya Serie B | Goias - Londrina | finished | -
