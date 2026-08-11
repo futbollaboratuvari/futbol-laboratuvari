@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-11T09:07:13.026Z
+- Güncelleme: 2026-08-11T09:16:15.408Z
 - Ham maç sayısı: 111
 - Yarın bülteni maç sayısı: 16
 - Detay blok sayısı: 315
@@ -12,31 +12,31 @@
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Adelaide Unite - Cand | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 12:30 | Veri bekleniyor | - | 1.36 | 7 |
+| Adelaide Unite - Cand | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 12:30 | Veri bekleniyor | - | 1.51 | 8 |
 | Sd Raiders - Macarthur | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 6.05 | 6 |
-| Queensland Lio - Melbourne City | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 3.27 | 8 |
-| Macarthur - Sd Raiders | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 7.57 | 6 |
-| Palermo - Juventus | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 5.59 | 6 |
+| Queensland Lio - Melbourne City | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 3.17 | 8 |
+| Macarthur - Sd Raiders | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 5.69 | 6 |
+| Palermo - Juventus | Hazırlık Kulüpler | 13:00 | Veri bekleniyor | - | 5.8 | 6 |
 | Sporting Braga - Farense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | Veri bekleniyor | - | 1.72 | 8 |
 | Famalicão U23 - Torreense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | Veri bekleniyor | - | 1.63 | 8 |
-| Gangwon - Gamba Osaka | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 13:30 | Veri bekleniyor | - | 2.43 | 8 |
+| Gangwon - Gamba Osaka | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 13:30 | Veri bekleniyor | - | 2.49 | 8 |
 | Sturt Lions - Adelaide Comets | Avustralya NPL Güney Avustralya | 13:30 | Veri bekleniyor | - | 1.63 | 6 |
-| Kairat Almaty (0) - (1) Levski Sofya | UEFA Şampiyonlar Ligi 3.Eleme Turu | 18:00 | Veri bekleniyor | - | 2.38 | 8 |
+| Kairat Almaty (0) - (1) Levski Sofya | UEFA Şampiyonlar Ligi 3.Eleme Turu | 18:00 | Veri bekleniyor | - | 2.4 | 8 |
 | Pakhtakor - Al-Hussein | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 18:00 | Veri bekleniyor | - | 1.56 | 7 |
-| Jyvaskyla - Tampere Utd | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 2.42 | 8 |
+| Jyvaskyla - Tampere Utd | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 2.27 | 8 |
 | Rops - Kups Ak. | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 1.19 | 6 |
 | Tpv Tampere - Salpa Salo | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 2.59 | 8 |
 | Pk Keski Uusim - Inter Turku Ii | Finlandiya Ykkönen | 18:30 | Veri bekleniyor | - | 1.32 | 6 |
-| Bodo Glimt (3) - (3) Union St.G | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.41 | 7 |
+| Bodo Glimt (3) - (3) Union St.G | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.42 | 7 |
 | Sabah (1) - (2) Aarhus | UEFA Şampiyonlar Ligi 3.Eleme Turu | 19:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Fc Iberia (0) - (0) Larne Fc | UEFA Avrupa Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.45 | 7 |
 | Al Jazira - Al Ittihad (Cid | AFC Şampiyonlar Ligi Elite 1. Eleme Turu | 19:00 | Veri bekleniyor | - | 3.23 | 8 |
 | Maroons (1) - (1) Sc Villa | Uganda Süper 8 Çeyrek Final | 19:00 | Veri bekleniyor | - | 3.19 | 8 |
 | Ishoj - Asa Aarhus | Danimarka 3.Lig | 19:30 | Veri bekleniyor | - | 1.5 | 7 |
-| Kauno Zalgiris (0) - (5) Dinamo Zagreb | UEFA Şampiyonlar Ligi 3.Eleme Turu | 20:00 | Veri bekleniyor | - | 6.12 | 6 |
+| Kauno Zalgiris (0) - (5) Dinamo Zagreb | UEFA Şampiyonlar Ligi 3.Eleme Turu | 20:00 | Veri bekleniyor | - | 6.05 | 6 |
 | Apollon Limass (1) - (0) Brann | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.98 | 8 |
 | Helsingborg - Varnamo | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2.01 | 8 |
-| Lübeck - Vfb Oldenburg | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 4.2 | 4 |
+| Lübeck - Vfb Oldenburg | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 4.39 | 4 |
 | G.Torrelavega - Sestao | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.21 | 8 |
 | Sporting Cp U2 - União De Leiria | Portekiz U23 Ulusal Şampiyona | 20:00 | Veri bekleniyor | - | 1.57 | 8 |
 | Nijmegen (0) - (0) Olympiakos | UEFA Şampiyonlar Ligi 3.Eleme Turu | 20:30 | Veri bekleniyor | - | 2.36 | 8 |
@@ -45,11 +45,11 @@
 | Polokwane City - Stellenbosch Fc | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 2.23 | 8 |
 | Marumo Gallant - Kruger United | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 2.13 | 8 |
 | Chippa United - Richards Bay | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 2.48 | 8 |
-| Unionistas De - Cd Coria | Hazırlık Kulüpler | 20:30 | Veri bekleniyor | - | 1.61 | 8 |
-| Kizilyildiz (0) - (1) Hapoel Beer She | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:00 | Veri bekleniyor | - | 1.07 | 6 |
-| Celje (1) - (2) Ararat-Armenia | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:15 | Veri bekleniyor | - | 1.22 | 6 |
+| Unionistas De - Cd Coria | Hazırlık Kulüpler | 20:30 | Veri bekleniyor | - | 1.59 | 8 |
+| Kizilyildiz (0) - (1) Hapoel Beer She | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:00 | Veri bekleniyor | - | 1.06 | 6 |
+| Celje (1) - (2) Ararat-Armenia | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:15 | Veri bekleniyor | - | 1.25 | 6 |
 | Slovan Bratisl (2) - (1) Mjallby | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:15 | Veri bekleniyor | - | 1.61 | 8 |
-| Sturm Graz (0) - (2) Fenerbahçe | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:30 | Veri bekleniyor | - | 3.46 | 8 |
+| Sturm Graz (0) - (2) Fenerbahçe | UEFA Şampiyonlar Ligi 3.Eleme Turu | 21:30 | Veri bekleniyor | - | 3.47 | 8 |
 | Wimborne Town - Chichester City | İngiltere Non League Premier Güney | 21:30 | Veri bekleniyor | - | 1.98 | 8 |
 | Stirling Albio - Cove Rangers | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 2.93 | 8 |
 | Clachnacuddin - Dundee United I | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.3 | 4 |
@@ -70,8 +70,8 @@
 | Clyde - St. Mirren Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.14 | 4 |
 | Formartine Uni - Dundee Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.5 | 8 |
 | Alloa - Stranraer | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.62 | 8 |
-| Queens Univers - Hw Welders | Kuzey İrlanda Championship | 21:45 | Veri bekleniyor | - | 3.2 | 8 |
-| Institute Fc - Ballinamallard | Kuzey İrlanda Championship | 21:45 | Veri bekleniyor | - | 1.46 | 7 |
+| Queens Univers - Hw Welders | Kuzey İrlanda Championship | 21:45 | Veri bekleniyor | - | 4.82 | 6 |
+| Institute Fc - Ballinamallard | Kuzey İrlanda Championship | 21:45 | Veri bekleniyor | - | 1.42 | 7 |
 | Ards Fc - Dundela | Kuzey İrlanda Championship | 21:45 | Veri bekleniyor | - | 1.41 | 7 |
 | Loughgall Fc - Newington Yc | Kuzey İrlanda Championship | 21:45 | Veri bekleniyor | - | 1.9 | 8 |
 | Bamber Bridge - Avro | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 2.2 | 8 |
@@ -79,7 +79,7 @@
 | Whitby Town - Guiseley | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 2.45 | 8 |
 | Warrington Tow - Hyde | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 2.02 | 8 |
 | Alfreton - Gainsborough Tr | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 2.51 | 8 |
-| Bury - Curzon Ashton | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.8 | 8 |
+| Bury - Curzon Ashton | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.83 | 8 |
 | United Of Manc - Leek Town | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.79 | 8 |
 | Quorn - Cleethorpes Tow | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 2.59 | 8 |
 | Lancaster City - Rylands | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 2.29 | 8 |
