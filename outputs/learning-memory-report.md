@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 15:00:40
+Oluşturma: 12.08.2026 15:35:54
 
 ## Özet
 
-- Toplam tahmin: 96
-- Bekleyen tahmin: 96
+- Toplam tahmin: 97
+- Bekleyen tahmin: 97
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 27
@@ -20,12 +20,13 @@ Oluşturma: 12.08.2026 15:00:40
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
 - MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-12 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | MS 1 | pending | 50/100
 - 2026-08-12 | İngiltere Non League Premier Güney | Gosport Boroug - Hanworth Villa | MS 1 | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Pápai Perutz - Veszprem | MS 1 | pending | 50/100
 - 2026-08-12 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 12.08.2026 15:00:40
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Pápai Perutz - Veszprem | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Sc Sopron - Gyor Ii | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Puskas Fc Ii - Komarom | MS X | pending | 50/100
-- 2026-08-12 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | MS X | pending | 50/100
 
