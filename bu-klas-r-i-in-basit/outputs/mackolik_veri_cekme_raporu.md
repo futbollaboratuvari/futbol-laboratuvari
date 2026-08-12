@@ -1,27 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-12T16:34:17.540288+00:00
+Tarih: 2026-08-12T17:34:51.505956+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 44
+- Kac mac bulundu: 16
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 44
+- Kac mac zaten vardi: 16
 - Ham veri havuzu toplam mac sayisi: 6174
 - Hedef tarih: 12.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL Kupası Çeyrek Final
-- ABD USL Lig 1
-- Almanya Bölgesel Lig Kuzey
-- Arjantin Kupa Son 16 Turu
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Ekvador Kupa Son 16 Turu
 - Güney Afrika PSL
 - Hazırlık Kulüpler
@@ -29,7 +21,6 @@ Tarih: 2026-08-12T16:34:17.540288+00:00
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
 - UEFA Süper Kupa Süper Kupa
-- Yunanistan Süper Kupa
 - İngiltere Non League Premier Güney
 - İskoçya Challenge Kupası Lig Aşaması
 - İsveç 2.Lig Norrland Yükselme Grubu
@@ -89,8 +80,8 @@ Tarih: 2026-08-12T16:34:17.540288+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 19
-- Acilan detay: 19
+- Denenen Tumu alani: 17
+- Acilan detay: 17
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -104,25 +95,21 @@ Tarih: 2026-08-12T16:34:17.540288+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 12.08.2026 | 22:00 | UEFA Süper Kupa Süper Kupa | Psg | Aston Villa | 00027 | 5 |
-| 12.08.2026 | 20:00 | Yunanistan Süper Kupa | Aek | Ofi | 13143 | 5 |
-| 13.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro | Flamengo | 08829 | 5 |
-| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Platense | Coquimbo Unido | 08330 | 5 |
-| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Palmeiras | Cerro Porteno | 08589 | 5 |
-| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Tigre | Torque | 08449 | 5 |
-| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Bragantino | Atletico Mg | 08191 | 5 |
-| 13.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas | Hankook Verdes | 10715 | 4 |
-| 13.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua | Cs Cartagines | 04974 | 5 |
-| 13.08.2026 | 05:15 | CONCACAF Ligler Kupası Grup Aşaması | San Diego | Puebla | 07793 | 5 |
-| 13.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey | Nashville Sc | 07517 | 5 |
-| 13.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Dallas | 07694 | 5 |
-| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Guadalajara | 08033 | 5 |
-| 13.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Club Leon | 07084 | 5 |
-| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc | Queretaro | 07850 | 5 |
-| 13.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City | Atletico San Lu | 07274 | 5 |
 | 12.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton | Celtic Ii | 04754 | 3 |
-| 13.08.2026 | 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum | Independiente | 12697 | 5 |
-| 12.08.2026 | 21:30 | Hazırlık Kulüpler | Arsenal | Como | 07898 | 5 |
 | 12.08.2026 | 21:45 | Hazırlık Kulüpler | Nottingham F | B.Leverkusen | 08095 | 5 |
+| 12.08.2026 | 22:00 | Hazırlık Kulüpler | D.La Coruna | Real Madrid | 06619 | 5 |
+| 12.08.2026 | 21:30 | Hazırlık Kulüpler | Arsenal | Como | 07898 | 5 |
+| 12.08.2026 | 21:30 | Hazırlık Kulüpler | Man. Utd | Leeds Utd | 08002 | 5 |
+| 12.08.2026 | 20:30 | Güney Afrika PSL | Durban City | Golden Arrows | 02672 | 5 |
+| 12.08.2026 | 23:00 | Ekvador Kupa Son 16 Turu | La Unión | Aucas | 00155 | 5 |
+| 12.08.2026 | 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea | Bodens | 13428 | 3 |
+| 12.08.2026 | 20:30 | İsveç 2.Lig Norrland Yükselme Grubu | Taftea | Skelleftea | 06208 | 3 |
+| 12.08.2026 | 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Lucksta | Kubikenborgs If | 13426 | 3 |
+| 12.08.2026 | 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne | Ifk Ostersund | 13409 | 3 |
+| 12.08.2026 | 18:30 | Macaristan NB III Güneybatı | Dunaujvaros Pa | Erdi Vse | 09809 | 5 |
+| 12.08.2026 | 22:30 | Paraguay Kupa 3.Tur | Sportivo Iteno | Guarani Asuncio | 05753 | 5 |
+| 12.08.2026 | 21:45 | İngiltere Non League Premier Güney | Gosport Boroug | Hanworth Villa | 13112 | 5 |
+| 12.08.2026 | 22:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 | Gil Vicente U23 | 04755 | 5 |
 
 ## Sonuc
 
