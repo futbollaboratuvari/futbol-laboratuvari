@@ -2,15 +2,17 @@
 
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
-Ham mac: 65
-Aktif mac: 65
+Ham mac: 68
+Aktif mac: 68
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 45
+Bugun: 48
 Yarin: 20
 
 ## Baslamamis Maclar
+- 2026-08-12 11:00 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | scheduled | -
+- 2026-08-12 11:00 | Hazırlık Kulüpler | Cartagena - Orihuela | scheduled | -
 - 2026-08-12 11:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Tuggeranong Uni | scheduled | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra - Preston Lions | scheduled | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | scheduled | -
@@ -55,6 +57,7 @@ Yarin: 20
 - 2026-08-12 22:00 | UEFA Süper Kupa Süper Kupa | Psg - Aston Villa | scheduled | -
 - 2026-08-12 22:00 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | scheduled | -
 - 2026-08-12 22:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Gil Vicente U23 | scheduled | -
+- 2026-08-12 22:30 | Paraguay Kupa 3.Tur | Sportivo Iteno - Guarani Asuncio | scheduled | -
 - 2026-08-12 23:00 | Ekvador Kupa Son 16 Turu | La Unión - Aucas | scheduled | -
 - 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | scheduled | -
 - 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Platense - Coquimbo Unido | scheduled | -

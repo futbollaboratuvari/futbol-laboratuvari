@@ -2,32 +2,34 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-12T06:02:20.114Z
-- Ham maç sayısı: 65
+- Güncelleme: 2026-08-12T06:08:45.142Z
+- Ham maç sayısı: 68
 - Yarın bülteni maç sayısı: 20
-- Detay blok sayısı: 181
-- Aktif bülten maçı: 65
+- Detay blok sayısı: 189
+- Aktif bülten maçı: 68
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Brindabella Bl - Tuggeranong Uni | Avustralya NPL Başkent Bölgesi | 11:30 | Veri bekleniyor | - | 5.15 | 4 |
-| Moreland Zebra - Preston Lions | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 4.5 | 7 |
+| Alcorcon - Rayo Majadahond | Hazırlık Kulüpler | 11:00 | Veri bekleniyor | - | 1.54 | 7 |
+| Cartagena - Orihuela | Hazırlık Kulüpler | 11:00 | Veri bekleniyor | - | 1.56 | 8 |
+| Brindabella Bl - Tuggeranong Uni | Avustralya NPL Başkent Bölgesi | 11:30 | Veri bekleniyor | - | 4.99 | 4 |
+| Moreland Zebra - Preston Lions | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 4.65 | 7 |
 | Apia - Sydney United | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 1.88 | 8 |
-| North Sunshine - Heidelberg Unit | Avustralya FFA Kupası Son 16 Turu | 12:45 | Veri bekleniyor | - | 7.18 | 4 |
+| North Sunshine - Heidelberg Unit | Avustralya FFA Kupası Son 16 Turu | 12:45 | Veri bekleniyor | - | 6.56 | 4 |
 | Kahibah - Maitland | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 3.23 | 5 |
 | Charlestow Cit - Edgeworth Eagle | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 3.59 | 5 |
 | Egri - Tiszafuredi | Macaristan NB III Kuzeydoğu | 18:00 | Veri bekleniyor | - | 2.28 | 8 |
-| Deac - Tarpa | Macaristan NB III Kuzeydoğu | 18:30 | Veri bekleniyor | - | 1.32 | 6 |
+| Deac - Tarpa | Macaristan NB III Kuzeydoğu | 18:30 | Veri bekleniyor | - | 1.34 | 7 |
 | Hajdunanas - Kisvarda Ii | Macaristan NB III Kuzeydoğu | 18:30 | Veri bekleniyor | - | 4.46 | 7 |
 | Kiraly Sze - Dorogi Fc | Macaristan NB III Kuzeybatı | 18:30 | Veri bekleniyor | - | 2.44 | 8 |
 | Fc Tatabánya - Bicskei | Macaristan NB III Kuzeybatı | 18:30 | Veri bekleniyor | - | 1.32 | 4 |
 | Pápai Perutz - Veszprem | Macaristan NB III Kuzeybatı | 18:30 | Veri bekleniyor | - | 2.72 | 8 |
 | Sc Sopron - Gyor Ii | Macaristan NB III Kuzeybatı | 18:30 | Veri bekleniyor | - | 1.93 | 8 |
 | Puskas Fc Ii - Komarom | Macaristan NB III Kuzeybatı | 18:30 | Veri bekleniyor | - | 1.95 | 8 |
-| Csepel Tc - Esmtk | Macaristan NB III Güneydoğu | 18:30 | Veri bekleniyor | - | 4.69 | 7 |
-| Budafoki Mte - Pte-Peac | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 1.29 | 4 |
+| Csepel Tc - Esmtk | Macaristan NB III Güneydoğu | 18:30 | Veri bekleniyor | - | 4.56 | 7 |
+| Budafoki Mte - Pte-Peac | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 1.32 | 4 |
 | Dunaujvaros Pa - Erdi Vse | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 2.08 | 8 |
 | Siofok - Mtk Ii | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 3.45 | 8 |
 | Budaors - Kse Ivancsa | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 2.23 | 8 |
@@ -44,18 +46,19 @@
 | Gottne - Ifk Ostersund | İsveç 2.Lig Norrland Yükselme Grubu | 20:00 | Veri bekleniyor | - | 2.21 | 6 |
 | Kaizer Chiefs - Sekhukhune Unit | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 1.68 | 7 |
 | Durban City - Golden Arrows | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 2.28 | 8 |
-| Milford - Siwelele | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 2.53 | 8 |
+| Milford - Siwelele | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 2.47 | 8 |
 | Amazulu - Orlando Pirates | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 5.33 | 7 |
 | Drochtersen / - Hannover 96 (Am | Almanya Bölgesel Lig Kuzey | 20:30 | Veri bekleniyor | - | 1.82 | 6 |
 | Taftea - Skelleftea | İsveç 2.Lig Norrland Yükselme Grubu | 20:30 | Veri bekleniyor | - | 2.49 | 6 |
-| Man. Utd - Leeds Utd | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.85 | 8 |
-| Arsenal - Como | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.25 | 6 |
+| Man. Utd - Leeds Utd | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.86 | 8 |
+| Arsenal - Como | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.27 | 6 |
 | Hamilton - Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.17 | 4 |
-| Nottingham F - B.Leverkusen | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.12 | 8 |
+| Nottingham F - B.Leverkusen | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.07 | 8 |
 | Gosport Boroug - Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | Veri bekleniyor | - | 2.59 | 8 |
 | Psg - Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | Veri bekleniyor | - | 1.53 | 8 |
-| D.La Coruna - Real Madrid | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 5.59 | 6 |
+| D.La Coruna - Real Madrid | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 5.82 | 6 |
 | Estoril U23 - Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.43 | 8 |
+| Sportivo Iteno - Guarani Asuncio | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 10.05 | 5 |
 | La Unión - Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 4.51 | 7 |
 | Palmeiras - Cerro Porteno | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.16 | 6 |
 | Platense - Coquimbo Unido | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.71 | 8 |
