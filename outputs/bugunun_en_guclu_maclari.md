@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T15:36:40.029Z
+- Güncelleme: 2026-08-12T16:16:03.723Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -28,11 +28,11 @@
 | Atletico Torde VS Real Avila | Hazırlık Kulüpler | 18:30 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Sárisápi Bányá VS Szombathelyi Ii | Macaristan NB III Kuzeybatı | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Rapid Wien (4) VS (1) Paide Linnamees | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Gks Katowice (0) VS (2) Hapoel Tel Aviv | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | MS X | 2.96 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gks Katowice (0) VS (2) Hapoel Tel Aviv | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | MS X | 2.96 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Kopenhag (3) VS (0) Debreceni | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bremer Sv VS Phönix Lübeck | Almanya Bölgesel Lig Kuzey | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Nea Salamis Fc VS Anorthosis | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Everton VS Newcastle Utd | Hazırlık Kulüpler | 19:15 | MS X | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Everton VS Newcastle Utd | Hazırlık Kulüpler | 19:15 | MS X | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Aek VS Ofi | Yunanistan Süper Kupa | 20:00 | MS 2 | 5.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Norderstedt VS Kickers Emden | Almanya Bölgesel Lig Kuzey | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Jeddeloh VS Sankt Pauli Ii | Almanya Bölgesel Lig Kuzey | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |

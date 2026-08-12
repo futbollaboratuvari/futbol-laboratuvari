@@ -2,12 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 50
-- Live match count: 16
-- Finished removed count: 0
+- Scheduled match count: 44
+- Live match count: 21
+- Finished removed count: 1
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
-- 2026-08-12 16:30 | East-Bengal - Al Arabi | live
 - 2026-08-12 18:00 | Egri - Tiszafuredi | live
 - 2026-08-12 18:30 | Atletico Torde - Real Avila | live
 - 2026-08-12 18:30 | Budafoki Mte - Pte-Peac | live
@@ -17,3 +16,4 @@
 - 2026-08-12 18:30 | Csepel Tc - Esmtk | live
 - 2026-08-12 18:30 | Fc Tatabánya - Bicskei | live
 - 2026-08-12 18:30 | Kiraly Sze - Dorogi Fc | live
+- 2026-08-12 18:30 | Pápai Perutz - Veszprem | live
