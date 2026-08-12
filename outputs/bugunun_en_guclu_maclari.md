@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T23:09:55.779Z
+- Güncelleme: 2026-08-12T23:38:06.609Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -18,8 +18,8 @@
 | Atletico Tucum VS Independiente | Arjantin Kupa Son 16 Turu | 01:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Tampa Bay Rowd VS Louisville City | ABD USL Kupası Çeyrek Final | 02:00 | MS X | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Charlotte Inde VS Hartford Athlet | ABD USL Kupası Çeyrek Final | 02:00 | MS X | 3.00 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Inter Miami VS Club Leon | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Orlando City VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 4.24 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Inter Miami VS Club Leon | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Orlando City VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 4.24 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Monterrey VS Nashville Sc | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS X | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Forward Madiso VS Greenville Triu | ABD USL Lig 1 | 03:00 | MS 2 | 3.92 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Cruzeiro VS Flamengo | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
