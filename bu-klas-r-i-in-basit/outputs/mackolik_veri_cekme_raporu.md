@@ -1,26 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-12T23:37:11.287257+00:00
+Tarih: 2026-08-12T23:51:23.236064+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 62
+- Kac mac bulundu: 48
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 62
+- Kac mac zaten vardi: 48
 - Ham veri havuzu toplam mac sayisi: 6236
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
-- Meksika Ascenso MX Apertura
 - Paraguay Kupa 3.Tur
 - Suudi Arabistan Pro Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
