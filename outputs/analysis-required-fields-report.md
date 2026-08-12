@@ -1,10 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 24
-Tam analiz: 21
-Eksik analiz: 3
+Durum: ok
+Toplam analiz: 20
+Tam analiz: 20
+Eksik analiz: 0
 
-- Ifk Lulea VS Bodens: eksik score, confidence
-- 29 De Setiembr VS San Lorenzo (Pa: eksik score, confidence
-- Hamilton VS Celtic Ii: eksik score, confidence

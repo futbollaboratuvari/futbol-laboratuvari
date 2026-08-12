@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 23:55:55
+Oluşturma: 13.08.2026 00:04:58
 
 ## Özet
 
-- Toplam tahmin: 100
-- Bekleyen tahmin: 100
+- Toplam tahmin: 117
+- Bekleyen tahmin: 117
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 27
+- Lig sayısı: 30
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 12.08.2026 23:55:55
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 62, bekleyen 62, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
+- MS X: toplam 71, bekleyen 71, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-12 | UEFA Konferans Ligi 3. Eleme Turu | Kopenhag (3) - (0) Debreceni | MS X | pending | 70/100
-- 2026-08-12 | UEFA Konferans Ligi 3. Eleme Turu | Gks Katowice (0) - (2) Hapoel Tel Aviv | MS X | pending | 40/100
-- 2026-08-12 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | MS X | pending | 40/100
-- 2026-08-12 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | MS 1 | pending | 50/100
-- 2026-08-12 | İngiltere Non League Premier Güney | Gosport Boroug - Hanworth Villa | MS 1 | pending | 50/100
-- 2026-08-12 | Macaristan NB III Kuzeybatı | Pápai Perutz - Veszprem | MS 1 | pending | 50/100
-- 2026-08-12 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | MS 2 | pending | 50/100
-- 2026-08-12 | Hazırlık Kulüpler | Atletico Torde - Real Avila | MS X | pending | 50/100
-- 2026-08-12 | Hazırlık Kulüpler | Sevilla B - Merida Ad | MS 1 | pending | 40/100
-- 2026-08-12 | Macaristan NB III Kuzeydoğu | Deac - Tarpa | MS 2 | pending | 60/100
-- 2026-08-12 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | MS 2 | pending | 50/100
-- 2026-08-12 | Hazırlık Kulüpler | Cartagena - Orihuela | MS 2 | pending | 50/100
-- 2026-08-12 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | MS X | pending | 50/100
-- 2026-08-12 | Macaristan NB III Kuzeydoğu | Egri - Tiszafuredi | MS X | pending | 50/100
-- 2026-08-12 | Macaristan NB III Kuzeybatı | Kiraly Sze - Dorogi Fc | MS X | pending | 50/100
+- 2026-08-13 | Copa Sudamericana Son 16 Turu | Tigre - Torque | MS 2 | pending | 40/100
+- 2026-08-13 | ABD USL Kupası Çeyrek Final | Tampa Bay Rowd - Louisville City | MS X | pending | 40/100
+- 2026-08-13 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | MS X | pending | 40/100
+- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Club Leon | MS X | pending | 70/100
+- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Atletico San Lu | MS 2 | pending | 80/100
+- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Nashville Sc | MS X | pending | 50/100
+- 2026-08-13 | ABD USL Lig 1 | Forward Madiso - Greenville Triu | MS 2 | pending | 50/100
+- 2026-08-13 | Copa Libertadores Son 16 Turu | Cruzeiro - Flamengo | MS X | pending | 40/100
+- 2026-08-13 | ABD USL Kupası Çeyrek Final | San Antonio - Miami Fc | MS X | pending | 40/100
+- 2026-08-13 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Cs Cartagines | MS 2 | pending | 50/100
+- 2026-08-13 | ABD USL Kupası Çeyrek Final | Spokane Veloci - Colorado Spring | MS X | pending | 40/100
+- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Dallas | MS 2 | pending | 40/100
+- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Puebla | MS 2 | pending | 70/100
+- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Guadalajara | MS X | pending | 50/100
+- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Queretaro | MS 2 | pending | 40/100
 
