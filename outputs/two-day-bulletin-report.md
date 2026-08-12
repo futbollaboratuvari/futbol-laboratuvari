@@ -3,16 +3,14 @@
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 82
-Aktif mac: 77
-Canli mac: 5
+Aktif mac: 75
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 63
+Bultenden dusurulen mac: 7
+Bugun: 61
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Tampa Bay Rowd - Louisville City | scheduled | -
-- 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | scheduled | -
 - 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Club Leon | scheduled | -
 - 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Atletico San Lu | scheduled | -
 - 2026-08-13 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Nashville Sc | scheduled | -
@@ -95,6 +93,8 @@ Yarin: 14
 - 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Bragantino - Atletico Mg | live | -
 - 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Tigre - Torque | live | -
 - 2026-08-13 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum - Independiente | live | -
+- 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Tampa Bay Rowd - Louisville City | live | -
+- 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,8 +1,45 @@
 {
-  "generated_at": "2026-08-12T22:05:01.110Z",
-  "total": 0,
-  "ok_count": 0,
-  "bad_count": 0,
-  "status": "empty",
-  "bad_examples": []
+  "generated_at": "2026-08-12T23:04:31.686Z",
+  "total": 68,
+  "ok_count": 65,
+  "bad_count": 3,
+  "status": "warning",
+  "bad_examples": [
+    {
+      "match": "Grindavik VS Throttur",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Hk Kopavogur VS Leiknir Reykjav",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "1 De Marzo VS Atlético Tembet",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | Hafıza: arşiv verisi henüz sınırlı",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    }
+  ]
 }
