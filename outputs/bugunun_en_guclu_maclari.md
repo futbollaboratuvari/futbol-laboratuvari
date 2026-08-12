@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-12T02:31:13.565Z
-- Ham maç sayısı: 78
+- Güncelleme: 2026-08-12T02:47:02.036Z
+- Ham maç sayısı: 73
 - Yarın bülteni maç sayısı: 20
-- Detay blok sayısı: 219
+- Detay blok sayısı: 204
 - Aktif bülten maçı: 65
-- Bültenden düşürülen maç: 13
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -33,9 +33,9 @@
 | Budaors - Kse Ivancsa | Macaristan NB III Güneybatı | 18:30 | Veri bekleniyor | - | 2.23 | 8 |
 | Rapid Wien (4) - (1) Paide Linnamees | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | - | 5 |
 | Gks Katowice (0) - (2) Hapoel Tel Aviv | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.76 | 8 |
-| Kopenhag (3) - (0) Debreceni | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.07 | 6 |
+| Kopenhag (3) - (0) Debreceni | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.06 | 6 |
 | Bremer Sv - Phönix Lübeck | Almanya Bölgesel Lig Kuzey | 19:00 | Veri bekleniyor | - | 3.56 | 8 |
-| Everton - Newcastle Utd | Hazırlık Kulüpler | 19:15 | Veri bekleniyor | - | 2.6 | 8 |
+| Everton - Newcastle Utd | Hazırlık Kulüpler | 19:15 | Veri bekleniyor | - | 2.68 | 8 |
 | Aek - Ofi | Yunanistan Süper Kupa | 20:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Norderstedt - Kickers Emden | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 2.82 | 6 |
 | Jeddeloh - Sankt Pauli Ii | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 1.66 | 6 |
@@ -48,12 +48,12 @@
 | Amazulu - Orlando Pirates | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 5.53 | 7 |
 | Drochtersen / - Hannover 96 (Am | Almanya Bölgesel Lig Kuzey | 20:30 | Veri bekleniyor | - | 1.82 | 6 |
 | Taftea - Skelleftea | İsveç 2.Lig Norrland Yükselme Grubu | 20:30 | Veri bekleniyor | - | 2.49 | 6 |
-| Man. Utd - Leeds Utd | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.93 | 8 |
-| Arsenal - Como | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.28 | 6 |
+| Man. Utd - Leeds Utd | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.85 | 8 |
+| Arsenal - Como | Hazırlık Kulüpler | 21:30 | Veri bekleniyor | - | 1.27 | 6 |
 | Hamilton - Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.17 | 4 |
 | Nottingham F - B.Leverkusen | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.12 | 8 |
 | Gosport Boroug - Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | Veri bekleniyor | - | 2.59 | 8 |
-| Psg - Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | Veri bekleniyor | - | 1.53 | 8 |
+| Psg - Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | Veri bekleniyor | - | 1.56 | 8 |
 | D.La Coruna - Real Madrid | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 5.35 | 6 |
 | Estoril U23 - Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.43 | 8 |
 | La Unión - Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 4.51 | 7 |

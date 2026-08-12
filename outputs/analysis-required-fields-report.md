@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 61
-Tam analiz: 55
+Toplam analiz: 53
+Tam analiz: 47
 Eksik analiz: 6
 
 - Brindabella Bl VS Tuggeranong Uni: eksik score, confidence
