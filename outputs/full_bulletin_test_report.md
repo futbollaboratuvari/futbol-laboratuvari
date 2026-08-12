@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 30
-- Live match count: 34
-- Finished removed count: 0
+- Live match count: 15
+- Finished removed count: 19
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
-- 2026-08-12 18:30 | Atletico Torde - Real Avila | live
-- 2026-08-12 18:30 | Budafoki Mte - Pte-Peac | live
-- 2026-08-12 18:30 | Budaors - Kse Ivancsa | live
-- 2026-08-12 18:30 | Dunaujvaros Pa - Erdi Vse | live
-- 2026-08-12 18:30 | Siofok - Mtk Ii | live
-- 2026-08-12 18:30 | Csepel Tc - Esmtk | live
-- 2026-08-12 18:30 | Fc Tatabánya - Bicskei | live
-- 2026-08-12 18:30 | Kiraly Sze - Dorogi Fc | live
-- 2026-08-12 18:30 | Pápai Perutz - Veszprem | live
-- 2026-08-12 18:30 | Puskas Fc Ii - Komarom | live
+- 2026-08-12 19:15 | Everton - Newcastle Utd | live
+- 2026-08-12 20:00 | Jeddeloh - Sankt Pauli Ii | live
+- 2026-08-12 20:00 | Norderstedt - Kickers Emden | live
+- 2026-08-12 20:00 | Gottne - Ifk Ostersund | live
+- 2026-08-12 20:00 | Ifk Lulea - Bodens | live
+- 2026-08-12 20:00 | Lucksta - Kubikenborgs If | live
+- 2026-08-12 20:00 | 29 De Setiembr - San Lorenzo (Pa | live
+- 2026-08-12 20:00 | Aek - Ofi | live
+- 2026-08-12 20:30 | Drochtersen / - Hannover 96 (Am | live
+- 2026-08-12 20:30 | Amazulu - Orlando Pirates | live
