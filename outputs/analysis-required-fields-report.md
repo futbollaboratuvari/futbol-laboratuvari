@@ -1,13 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 53
-Tam analiz: 44
-Eksik analiz: 9
+Toplam analiz: 46
+Tam analiz: 39
+Eksik analiz: 7
 
-- Brindabella Bl VS Tuggeranong Uni: eksik score, confidence
-- North Sunshine VS Heidelberg Unit: eksik score, confidence
-- Weston Bears VS Adamstown Roseb: eksik score, confidence
+- East-Bengal VS Al Arabi: eksik score, confidence
 - Fc Tatabánya VS Bicskei: eksik score, confidence
 - Budafoki Mte VS Pte-Peac: eksik score, confidence
 - Sárisápi Bányá VS Szombathelyi Ii: eksik score, confidence
