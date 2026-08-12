@@ -1,23 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-12T07:55:36.500836+00:00
+Tarih: 2026-08-12T09:01:55.525233+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 60
-- Kac mac kaydedildi: 7
-- Kac mac zaten vardi: 53
+- Kac mac bulundu: 76
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 76
 - Ham veri havuzu toplam mac sayisi: 6173
 - Hedef tarih: 12.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD USL Kupası Çeyrek Final
+- ABD USL Lig 1
 - Almanya Bölgesel Lig Kuzey
+- Arjantin Kupa Son 16 Turu
 - Avustralya FFA Kupası Son 16 Turu
-- Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Kuzey YGG
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Ekvador Kupa Son 16 Turu
 - Güney Afrika PSL
 - Hazırlık Kulüpler
@@ -89,8 +95,8 @@ Tarih: 2026-08-12T07:55:36.500836+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 26
-- Acilan detay: 26
+- Denenen Tumu alani: 25
+- Acilan detay: 25
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -108,21 +114,21 @@ Tarih: 2026-08-12T07:55:36.500836+00:00
 | 12.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Kopenhag (3) | (0) Debreceni | 07488 | 5 |
 | 12.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Rapid Wien (4) | (1) Paide Linnamees | 07624 | 4 |
 | 12.08.2026 | 20:00 | Yunanistan Süper Kupa | Aek | Ofi | 13143 | 5 |
+| 12.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia | Sydney United | 12399 | 5 |
 | 12.08.2026 | 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine | Heidelberg Unit | 12511 | 3 |
 | 12.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra | Preston Lions | 12416 | 5 |
-| 12.08.2026 | 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia | Sydney United | 12399 | 5 |
-| 12.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton | Celtic Ii | 04754 | 3 |
-| 12.08.2026 | 20:30 | Hazırlık Kulüpler | Bergantinos | Lugo | 07498 | 5 |
-| 12.08.2026 | 19:15 | Hazırlık Kulüpler | Everton | Newcastle Utd | 07763 | 5 |
-| 12.08.2026 | 11:00 | Hazırlık Kulüpler | Alcorcon | Rayo Majadahond | 06574 | 5 |
-| 12.08.2026 | 21:30 | Hazırlık Kulüpler | Man. Utd | Leeds Utd | 08002 | 5 |
-| 12.08.2026 | 19:00 | Hazırlık Kulüpler | Nea Salamis Fc | Anorthosis | 07968 | 5 |
-| 12.08.2026 | 21:45 | Hazırlık Kulüpler | Nottingham F | B.Leverkusen | 08095 | 5 |
-| 12.08.2026 | 21:30 | Hazırlık Kulüpler | Arsenal | Como | 07898 | 5 |
-| 12.08.2026 | 11:30 | Hazırlık Kulüpler | Sevilla B | Merida Ad | 07222 | 5 |
-| 12.08.2026 | 22:00 | Hazırlık Kulüpler | D.La Coruna | Real Madrid | 06619 | 5 |
-| 12.08.2026 | 11:00 | Hazırlık Kulüpler | Cartagena | Orihuela | 07090 | 5 |
-| 12.08.2026 | 18:30 | Hazırlık Kulüpler | Atletico Torde | Real Avila | 07906 | 5 |
+| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Palmeiras | Cerro Porteno | 08589 | 5 |
+| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Platense | Coquimbo Unido | 08330 | 5 |
+| 13.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro | Flamengo | 08829 | 5 |
+| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Tigre | Torque | 08449 | 5 |
+| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Bragantino | Atletico Mg | 08191 | 5 |
+| 13.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas | Hankook Verdes | 10715 | 4 |
+| 13.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua | Cs Cartagines | 04974 | 5 |
+| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc | Queretaro | 07850 | 5 |
+| 13.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Dallas | 07694 | 5 |
+| 13.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Club Leon | 07084 | 5 |
+| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Guadalajara | 08033 | 5 |
+| 13.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey | Nashville Sc | 07517 | 5 |
 
 ## Sonuc
 

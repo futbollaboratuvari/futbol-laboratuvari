@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 11:41:24
+Oluşturma: 12.08.2026 12:03:28
 
 ## Özet
 
-- Toplam tahmin: 93
-- Bekleyen tahmin: 93
+- Toplam tahmin: 94
+- Bekleyen tahmin: 94
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 27
@@ -20,12 +20,13 @@ Oluşturma: 12.08.2026 11:41:24
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
 - MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-12 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | MS 2 | pending | 50/100
 - 2026-08-12 | Hazırlık Kulüpler | Atletico Torde - Real Avila | MS X | pending | 50/100
 - 2026-08-12 | Hazırlık Kulüpler | Sevilla B - Merida Ad | MS 1 | pending | 40/100
 - 2026-08-12 | Macaristan NB III Kuzeydoğu | Deac - Tarpa | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 12.08.2026 11:41:24
 - 2026-08-12 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Güneybatı | Budaors - Kse Ivancsa | MS X | pending | 50/100
 - 2026-08-12 | UEFA Konferans Ligi 3. Eleme Turu | Gks Katowice (0) - (2) Hapoel Tel Aviv | MS 2 | pending | 40/100
-- 2026-08-12 | Hazırlık Kulüpler | Everton - Newcastle Utd | MS X | pending | 50/100
 
