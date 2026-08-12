@@ -4,21 +4,18 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T11:38:34.068Z
+- Güncelleme: 2026-08-12T11:59:48.209Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Moreland Zebra VS Preston Lions | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Apia VS Sydney United | Avustralya FFA Kupası Son 16 Turu | 12:30 | MS 2 | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| North Sunshine VS Heidelberg Unit | Avustralya FFA Kupası Son 16 Turu | 12:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Kahibah VS Maitland | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Charlestow Cit VS Edgeworth Eagle | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Weston Bears VS Adamstown Roseb | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | East-Bengal VS Al Arabi | AFC Şampiyonlar Ligi 2 Ön Eleme Turu | 16:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Egri VS Tiszafuredi | Macaristan NB III Kuzeydoğu | 18:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Egri VS Tiszafuredi | Macaristan NB III Kuzeydoğu | 18:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Deac VS Tarpa | Macaristan NB III Kuzeydoğu | 18:30 | MS 2 | 5.76 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Hajdunanas VS Kisvarda Ii | Macaristan NB III Kuzeydoğu | 18:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Kiraly Sze VS Dorogi Fc | Macaristan NB III Kuzeybatı | 18:30 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -34,7 +31,7 @@
 | Atletico Torde VS Real Avila | Hazırlık Kulüpler | 18:30 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sárisápi Bányá VS Szombathelyi Ii | Macaristan NB III Kuzeybatı | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Rapid Wien (4) VS (1) Paide Linnamees | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Gks Katowice (0) VS (2) Hapoel Tel Aviv | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | MS 2 | 3.17 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gks Katowice (0) VS (2) Hapoel Tel Aviv | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | MS 2 | 3.08 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kopenhag (3) VS (0) Debreceni | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bremer Sv VS Phönix Lübeck | Almanya Bölgesel Lig Kuzey | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Nea Salamis Fc VS Anorthosis | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -56,10 +53,10 @@
 | Man. Utd VS Leeds Utd | Hazırlık Kulüpler | 21:30 | MS X | 3.42 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Arsenal VS Como | Hazırlık Kulüpler | 21:30 | MS 2 | 5.59 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Hamilton VS Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Nottingham F VS B.Leverkusen | Hazırlık Kulüpler | 21:45 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Gosport Boroug VS Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Nottingham F VS B.Leverkusen | Hazırlık Kulüpler | 21:45 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gosport Boroug VS Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | MS 1 | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Psg VS Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | MS 2 | 4.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| D.La Coruna VS Real Madrid | Hazırlık Kulüpler | 22:00 | MS 1 | 5.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| D.La Coruna VS Real Madrid | Hazırlık Kulüpler | 22:00 | MS 1 | 5.60 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Estoril U23 VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sportivo Iteno VS Guarani Asuncio | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | La Unión VS Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
