@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 37
-- Live match count: 27
-- Finished removed count: 1
+- Scheduled match count: 30
+- Live match count: 34
+- Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
 - 2026-08-12 18:30 | Atletico Torde - Real Avila | live

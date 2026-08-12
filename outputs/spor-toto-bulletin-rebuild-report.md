@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-12T16:34:20.071Z
+- Guncelleme: 2026-08-12T17:39:48.132Z
 - Ham fixture sayisi: 6141
 - Bugun/yarin kaynak mac: 92
-- Aktif bulten maci: 44
+- Aktif bulten maci: 30
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 48
+- Bultenden dusurulen mac: 62
 
-- 1. 2026-08-12 20:00 | Paraguay Kupa 3.Tur | 29 De Setiembr - San Lorenzo (Pa | scheduled
-- 2. 2026-08-12 20:00 | Yunanistan Süper Kupa | Aek - Ofi | scheduled
-- 3. 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Ifk Ostersund | scheduled
-- 4. 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Bodens | scheduled
-- 5. 2026-08-12 20:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Sankt Pauli Ii | scheduled
-- 6. 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Lucksta - Kubikenborgs If | scheduled
-- 7. 2026-08-12 20:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Kickers Emden | scheduled
-- 8. 2026-08-12 20:30 | Güney Afrika PSL | Amazulu - Orlando Pirates | scheduled
-- 9. 2026-08-12 20:30 | Hazırlık Kulüpler | Bergantinos - Lugo | scheduled
-- 10. 2026-08-12 20:30 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Hannover 96 (Am | scheduled
-- 11. 2026-08-12 20:30 | Güney Afrika PSL | Durban City - Golden Arrows | scheduled
-- 12. 2026-08-12 20:30 | Güney Afrika PSL | Kaizer Chiefs - Sekhukhune Unit | scheduled
-- 13. 2026-08-12 20:30 | Güney Afrika PSL | Milford - Siwelele | scheduled
-- 14. 2026-08-12 20:30 | İsveç 2.Lig Norrland Yükselme Grubu | Taftea - Skelleftea | scheduled
-- 15. 2026-08-12 21:30 | Hazırlık Kulüpler | Arsenal - Como | scheduled
+- 1. 2026-08-12 21:30 | Hazırlık Kulüpler | Arsenal - Como | scheduled
+- 2. 2026-08-12 21:30 | Hazırlık Kulüpler | Man. Utd - Leeds Utd | scheduled
+- 3. 2026-08-12 21:45 | İngiltere Non League Premier Güney | Gosport Boroug - Hanworth Villa | scheduled
+- 4. 2026-08-12 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton - Celtic Ii | scheduled
+- 5. 2026-08-12 21:45 | Hazırlık Kulüpler | Nottingham F - B.Leverkusen | scheduled
+- 6. 2026-08-12 22:00 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | scheduled
+- 7. 2026-08-12 22:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Gil Vicente U23 | scheduled
+- 8. 2026-08-12 22:00 | UEFA Süper Kupa Süper Kupa | Psg - Aston Villa | scheduled
+- 9. 2026-08-12 22:30 | Paraguay Kupa 3.Tur | Sportivo Iteno - Guarani Asuncio | scheduled
+- 10. 2026-08-12 23:00 | Ekvador Kupa Son 16 Turu | La Unión - Aucas | scheduled
+- 11. 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Bragantino - Atletico Mg | scheduled
+- 12. 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | scheduled
+- 13. 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Platense - Coquimbo Unido | scheduled
+- 14. 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Tigre - Torque | scheduled
+- 15. 2026-08-13 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum - Independiente | scheduled
