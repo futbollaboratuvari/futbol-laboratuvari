@@ -1,7 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: ok
-Toplam analiz: 20
-Tam analiz: 20
+Durum: empty
+Toplam analiz: 0
+Tam analiz: 0
 Eksik analiz: 0
 

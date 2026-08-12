@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
-Ham mac: 18
+Ham mac: 14
 Aktif mac: 14
-Canli mac: 1
-Biten mac: 3
-Bultenden dusurulen mac: 4
+Canli mac: 0
+Biten mac: 0
+Bultenden dusurulen mac: 0
 Bugun: 0
 Yarin: 14
 
@@ -27,9 +27,7 @@ Yarin: 14
 - 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 
 ## Canli Maclar
-- 2026-08-13 22:30 | Paraguay Kupa 3.Tur | 1 De Marzo - Atlético Tembet | live | -
+Canli mac yok.
 
 ## Biten Maclar
-- 2026-08-13 22:15 | İzlanda 1.Lig | Fylkir - Afturelding | finished | -
-- 2026-08-13 22:15 | İzlanda 1.Lig | Hk Kopavogur - Leiknir Reykjav | finished | -
-- 2026-08-13 22:15 | İzlanda 1.Lig | Grotta - Njardvik | finished | -
+Biten mac yok.
