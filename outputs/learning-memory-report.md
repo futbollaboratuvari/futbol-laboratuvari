@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 17:34:31
+Oluşturma: 12.08.2026 18:17:56
 
 ## Özet
 
-- Toplam tahmin: 98
-- Bekleyen tahmin: 98
+- Toplam tahmin: 99
+- Bekleyen tahmin: 99
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 27
@@ -20,12 +20,13 @@ Oluşturma: 12.08.2026 17:34:31
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 60, bekleyen 60, başarı bekleniyor, ağırlık 1
+- MS X: toplam 61, bekleyen 61, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-12 | UEFA Konferans Ligi 3. Eleme Turu | Gks Katowice (0) - (2) Hapoel Tel Aviv | MS X | pending | 40/100
 - 2026-08-12 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | MS X | pending | 40/100
 - 2026-08-12 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | MS 1 | pending | 50/100
 - 2026-08-12 | İngiltere Non League Premier Güney | Gosport Boroug - Hanworth Villa | MS 1 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 12.08.2026 17:34:31
 - 2026-08-12 | Macaristan NB III Kuzeydoğu | Egri - Tiszafuredi | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Kiraly Sze - Dorogi Fc | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Pápai Perutz - Veszprem | MS X | pending | 50/100
-- 2026-08-12 | Macaristan NB III Kuzeybatı | Sc Sopron - Gyor Ii | MS X | pending | 50/100
 
