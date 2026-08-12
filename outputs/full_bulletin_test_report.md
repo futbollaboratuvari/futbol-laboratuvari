@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 15
-- Live match count: 0
+- Scheduled match count: 78
+- Live match count: 4
 - Finished removed count: 0
 - Date window: 2026-08-13 / 2026-08-14 23:59
 
-- 2026-08-14 01:00 | Mirassol - Ldu Quito | scheduled
-- 2026-08-14 01:00 | Santos - Depor Macara | scheduled
-- 2026-08-14 01:00 | Vasco Da Gama - Olimpia Asuncio | scheduled
-- 2026-08-14 02:00 | Philadelphia - Santos Laguna | scheduled
-- 2026-08-14 02:30 | New York City - Necaxa | scheduled
-- 2026-08-14 03:00 | Alianza Fc - Umecit | scheduled
-- 2026-08-14 03:30 | Club America - Austin | scheduled
-- 2026-08-14 03:30 | Rosario Centra - Corinthians | scheduled
-- 2026-08-14 03:30 | Cienciano - Botafogo | scheduled
-- 2026-08-14 04:00 | Cruz Azul - Chicago | scheduled
+- 2026-08-13 01:00 | Palmeiras - Cerro Porteno | live
+- 2026-08-13 01:00 | Platense - Coquimbo Unido | live
+- 2026-08-13 01:00 | Bragantino - Atletico Mg | live
+- 2026-08-13 01:00 | Tigre - Torque | live
+- 2026-08-13 01:15 | Atletico Tucum - Independiente | scheduled
+- 2026-08-13 02:00 | Charlotte Inde - Hartford Athlet | scheduled
+- 2026-08-13 02:00 | Tampa Bay Rowd - Louisville City | scheduled
+- 2026-08-13 02:30 | Inter Miami - Club Leon | scheduled
+- 2026-08-13 02:30 | Orlando City - Atletico San Lu | scheduled
+- 2026-08-13 03:00 | Forward Madiso - Greenville Triu | scheduled

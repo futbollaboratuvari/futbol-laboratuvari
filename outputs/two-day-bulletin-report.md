@@ -2,15 +2,79 @@
 
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
-Ham mac: 14
-Aktif mac: 14
-Canli mac: 0
+Ham mac: 82
+Aktif mac: 78
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 0
+Bultenden dusurulen mac: 4
+Bugun: 64
 Yarin: 14
 
 ## Baslamamis Maclar
+- 2026-08-13 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum - Independiente | scheduled | -
+- 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Tampa Bay Rowd - Louisville City | scheduled | -
+- 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | scheduled | -
+- 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Club Leon | scheduled | -
+- 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Atletico San Lu | scheduled | -
+- 2026-08-13 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Nashville Sc | scheduled | -
+- 2026-08-13 03:00 | ABD USL Lig 1 | Forward Madiso - Greenville Triu | scheduled | -
+- 2026-08-13 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro - Flamengo | scheduled | -
+- 2026-08-13 03:30 | ABD USL Kupası Çeyrek Final | San Antonio - Miami Fc | scheduled | -
+- 2026-08-13 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Cs Cartagines | scheduled | -
+- 2026-08-13 04:00 | ABD USL Kupası Çeyrek Final | Spokane Veloci - Colorado Spring | scheduled | -
+- 2026-08-13 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Dallas | scheduled | -
+- 2026-08-13 05:15 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Puebla | scheduled | -
+- 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Guadalajara | scheduled | -
+- 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Queretaro | scheduled | -
+- 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | scheduled | -
+- 2026-08-13 18:00 | UEFA Konferans Ligi 3. Eleme Turu | Tobol Kostanay (0) - (3) Partizan Belgra | scheduled | -
+- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Ilves (0) - (1) Rijeka | scheduled | -
+- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) - (2) Inter Escaldes | scheduled | -
+- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) - (1) Dynamo Kiev | scheduled | -
+- 2026-08-13 19:15 | Suudi Arabistan Pro Lig | Abha - Al Hazm | scheduled | -
+- 2026-08-13 19:30 | UEFA Konferans Ligi 3. Eleme Turu | Daugava Riga (0) - (2) Jablonec | scheduled | -
+- 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Beşiktaş (1) - (0) Hradec Kralove | scheduled | -
+- 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) - (1) Salzburg | scheduled | -
+- 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Universitatea (1) - (1) Kuopion | scheduled | -
+- 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) - (1) Ferencvaros | scheduled | -
+- 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Omonia (1) - (1) Lincoln Red Imp | scheduled | -
+- 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Midtjylland (2) - (0) Bohemian | scheduled | -
+- 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Hammarby (0) - (0) Rakow Czestocho | scheduled | -
+- 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Ml Vitebsk (0) - (1) Borac Banja Luk | scheduled | -
+- 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Minsk (0) - (1) Braga | scheduled | -
+- 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Nordsjaelland (2) - (0) Valur | scheduled | -
+- 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Tromso (5) - (0) Cfr Cluj | scheduled | -
+- 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dac (0) - (6) Twente | scheduled | -
+- 2026-08-13 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | scheduled | -
+- 2026-08-13 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) - (3) Thun | scheduled | -
+- 2026-08-13 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Vaduz (1) - (2) Inter Turku | scheduled | -
+- 2026-08-13 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Runavik (0) - (2) Lugano | scheduled | -
+- 2026-08-13 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) - (0) Maccabi Tel Avi | scheduled | -
+- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | scheduled | -
+- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) - (1) Sheriff Tiraspo | scheduled | -
+- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Fc Drita (4) - (1) Tre Fiori | scheduled | -
+- 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al-Qadsiah | scheduled | -
+- 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Diriyah - Al Ahli (Cidde) | scheduled | -
+- 2026-08-13 21:00 | İzlanda 1.Lig | Grindavik - Throttur | scheduled | -
+- 2026-08-13 21:00 | İzlanda 1.Lig | Aegir - Völsungur | scheduled | -
+- 2026-08-13 21:00 | İzlanda 1.Lig | Vestri - Ir Reykjavik | scheduled | -
+- 2026-08-13 21:00 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | scheduled | -
+- 2026-08-13 21:15 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) - (2) Noah | scheduled | -
+- 2026-08-13 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Glasgow Ranger (1) - (2) Jagiellonia | scheduled | -
+- 2026-08-13 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) - (0) Paok | scheduled | -
+- 2026-08-13 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Austria Vienna (2) - (1) Beitar Jerusale | scheduled | -
+- 2026-08-13 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Gyor (0) - (1) Riga Fc | scheduled | -
+- 2026-08-13 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Gent (1) - (0) Göteborg | scheduled | -
+- 2026-08-13 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Motherwell (1) - (1) Helsinki | scheduled | -
+- 2026-08-13 21:45 | UEFA Avrupa Ligi 3. Eleme Turu | Hearts (1) - (6) Benfica | scheduled | -
+- 2026-08-13 21:45 | UEFA Konferans Ligi 3. Eleme Turu | Shelbourne (1) - (3) Ajax | scheduled | -
+- 2026-08-13 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Egnatia (1) - (3) Shamrock Rovers | scheduled | -
+- 2026-08-13 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) - (2) Zalgiris Vilniu | scheduled | -
+- 2026-08-13 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) - (1) Auda | scheduled | -
+- 2026-08-13 22:15 | İzlanda 1.Lig | Fylkir - Afturelding | scheduled | -
+- 2026-08-13 22:15 | İzlanda 1.Lig | Hk Kopavogur - Leiknir Reykjav | scheduled | -
+- 2026-08-13 22:15 | İzlanda 1.Lig | Grotta - Njardvik | scheduled | -
+- 2026-08-13 22:30 | Paraguay Kupa 3.Tur | 1 De Marzo - Atlético Tembet | scheduled | -
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | scheduled | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | scheduled | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | scheduled | -
@@ -27,7 +91,10 @@ Yarin: 14
 - 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | live | -
+- 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Platense - Coquimbo Unido | live | -
+- 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Bragantino - Atletico Mg | live | -
+- 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Tigre - Torque | live | -
 
 ## Biten Maclar
 Biten mac yok.
