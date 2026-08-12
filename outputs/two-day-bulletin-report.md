@@ -2,18 +2,15 @@
 
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
-Ham mac: 75
-Aktif mac: 68
-Canli mac: 7
-Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 48
+Ham mac: 91
+Aktif mac: 65
+Canli mac: 8
+Biten mac: 18
+Bultenden dusurulen mac: 26
+Bugun: 45
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | scheduled | -
-- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Edgeworth Eagle | scheduled | -
-- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Weston Bears - Adamstown Roseb | scheduled | -
 - 2026-08-12 18:00 | Macaristan NB III Kuzeydoğu | Egri - Tiszafuredi | scheduled | -
 - 2026-08-12 18:30 | Macaristan NB III Kuzeydoğu | Deac - Tarpa | scheduled | -
 - 2026-08-12 18:30 | Macaristan NB III Kuzeydoğu | Hajdunanas - Kisvarda Ii | scheduled | -
@@ -81,13 +78,31 @@ Yarin: 20
 - 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | scheduled | -
 
 ## Canli Maclar
-- 2026-08-12 11:00 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | live | -
-- 2026-08-12 11:00 | Hazırlık Kulüpler | Cartagena - Orihuela | live | -
 - 2026-08-12 11:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Tuggeranong Uni | live | -
 - 2026-08-12 11:30 | Hazırlık Kulüpler | Sevilla B - Merida Ad | live | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra - Preston Lions | live | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | live | -
 - 2026-08-12 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine - Heidelberg Unit | live | -
+- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | live | -
+- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Edgeworth Eagle | live | -
+- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Weston Bears - Adamstown Roseb | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | finished | -
+- 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | finished | -
+- 2026-08-12 01:30 | Brezilya Serie B | Avai - Regatas | finished | -
+- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | finished | -
+- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pumas Unam | finished | -
+- 2026-08-12 03:00 | Arjantin Premier Lig 2. Aşama | Talleres - Lanus | finished | -
+- 2026-08-12 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Xelaju | finished | -
+- 2026-08-12 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Atlas | finished | -
+- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp - Univ. Catolica | finished | -
+- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | finished | -
+- 2026-08-12 03:30 | Copa Sudamericana Son 16 Turu | Bolivar - Sao Paulo | finished | -
+- 2026-08-12 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Atlante | finished | -
+- 2026-08-12 04:30 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake - Fc Juarez | finished | -
+- 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Alianza | finished | -
+- 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup C | Deportivo Sapr - Mixco | finished | -
+- 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | finished | -
+- 2026-08-12 11:00 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | finished | -
+- 2026-08-12 11:00 | Hazırlık Kulüpler | Cartagena - Orihuela | finished | -

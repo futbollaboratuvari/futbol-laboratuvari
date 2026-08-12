@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 69
-- Live match count: 6
+- Scheduled match count: 65
+- Live match count: 8
 - Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
-- 2026-08-12 11:00 | Alcorcon - Rayo Majadahond | live
-- 2026-08-12 11:00 | Cartagena - Orihuela | live
 - 2026-08-12 11:30 | Brindabella Bl - Tuggeranong Uni | live
 - 2026-08-12 11:30 | Sevilla B - Merida Ad | live
 - 2026-08-12 12:30 | Apia - Sydney United | live
 - 2026-08-12 12:30 | Moreland Zebra - Preston Lions | live
-- 2026-08-12 12:45 | North Sunshine - Heidelberg Unit | scheduled
-- 2026-08-12 13:00 | Charlestow Cit - Edgeworth Eagle | scheduled
-- 2026-08-12 13:00 | Kahibah - Maitland | scheduled
-- 2026-08-12 13:00 | Weston Bears - Adamstown Roseb | scheduled
+- 2026-08-12 12:45 | North Sunshine - Heidelberg Unit | live
+- 2026-08-12 13:00 | Charlestow Cit - Edgeworth Eagle | live
+- 2026-08-12 13:00 | Kahibah - Maitland | live
+- 2026-08-12 13:00 | Weston Bears - Adamstown Roseb | live
+- 2026-08-12 18:00 | Egri - Tiszafuredi | scheduled
+- 2026-08-12 18:30 | Atletico Torde - Real Avila | scheduled
