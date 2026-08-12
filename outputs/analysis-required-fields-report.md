@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 45
-Tam analiz: 39
+Toplam analiz: 44
+Tam analiz: 38
 Eksik analiz: 6
 
 - Fc Tatabánya VS Bicskei: eksik score, confidence
