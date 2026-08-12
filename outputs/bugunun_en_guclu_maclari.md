@@ -2,19 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-11T23:51:23.854Z
+- Güncelleme: 2026-08-12T00:02:11.830Z
 - Ham maç sayısı: 81
 - Yarın bülteni maç sayısı: 20
 - Detay blok sayısı: 228
-- Aktif bülten maçı: 76
-- Bültenden düşürülen maç: 5
+- Aktif bülten maçı: 73
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Talleres - Lanus | Arjantin Premier Lig 2. Aşama | 03:00 | Veri bekleniyor | - | 2.15 | 8 |
-| Plaza Amador - Xelaju | CONCACAF Orta Amerika Kupası Grup A | 03:00 | Veri bekleniyor | - | 1.95 | 8 |
-| Cincinnati - Atlas | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Veri bekleniyor | - | 1.19 | 6 |
 | Estudiantes Lp - Univ. Catolica | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 1.49 | 7 |
 | Deportes Tolim - Indep. Jose Ter | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 2.58 | 8 |
 | Bolivar - Sao Paulo | Copa Sudamericana Son 16 Turu | 03:30 | Veri bekleniyor | - | 1.61 | 8 |
@@ -26,7 +23,7 @@
 | Brindabella Bl - Tuggeranong Uni | Avustralya NPL Başkent Bölgesi | 11:30 | Veri bekleniyor | - | 4.94 | 4 |
 | Moreland Zebra - Preston Lions | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 4.5 | 7 |
 | Apia - Sydney United | Avustralya FFA Kupası Son 16 Turu | 12:30 | Veri bekleniyor | - | 1.88 | 8 |
-| North Sunshine - Heidelberg Unit | Avustralya FFA Kupası Son 16 Turu | 12:45 | Veri bekleniyor | - | 7.91 | 4 |
+| North Sunshine - Heidelberg Unit | Avustralya FFA Kupası Son 16 Turu | 12:45 | Veri bekleniyor | - | 7.5 | 4 |
 | Kahibah - Maitland | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 3.23 | 5 |
 | Charlestow Cit - Edgeworth Eagle | Avustralya NPL Kuzey YGG | 13:00 | Veri bekleniyor | - | 3.59 | 5 |
 | Egri - Tiszafuredi | Macaristan NB III Kuzeydoğu | 18:00 | Veri bekleniyor | - | 2.28 | 8 |
@@ -65,7 +62,7 @@
 | Nottingham F - B.Leverkusen | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.12 | 8 |
 | Gosport Boroug - Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | Veri bekleniyor | - | 2.59 | 8 |
 | Psg - Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | Veri bekleniyor | - | 1.57 | 8 |
-| D.La Coruna - Real Madrid | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 5.08 | 6 |
+| D.La Coruna - Real Madrid | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 5.35 | 6 |
 | Estoril U23 - Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.43 | 8 |
 | La Unión - Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 4.51 | 7 |
 | Palmeiras - Cerro Porteno | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.14 | 6 |
