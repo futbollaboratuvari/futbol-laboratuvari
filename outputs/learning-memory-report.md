@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 16:50:58
+Oluşturma: 12.08.2026 17:09:18
 
 ## Özet
 
-- Toplam tahmin: 97
-- Bekleyen tahmin: 97
+- Toplam tahmin: 98
+- Bekleyen tahmin: 98
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 27
@@ -20,12 +20,13 @@ Oluşturma: 12.08.2026 16:50:58
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 60, bekleyen 60, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
-- MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-12 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | MS X | pending | 40/100
 - 2026-08-12 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | MS 1 | pending | 50/100
 - 2026-08-12 | İngiltere Non League Premier Güney | Gosport Boroug - Hanworth Villa | MS 1 | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Pápai Perutz - Veszprem | MS 1 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 12.08.2026 16:50:58
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Kiraly Sze - Dorogi Fc | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Pápai Perutz - Veszprem | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Sc Sopron - Gyor Ii | MS X | pending | 50/100
-- 2026-08-12 | Macaristan NB III Kuzeybatı | Puskas Fc Ii - Komarom | MS X | pending | 50/100
 
