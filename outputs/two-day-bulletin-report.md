@@ -3,15 +3,14 @@
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
 Ham mac: 44
-Aktif mac: 22
-Canli mac: 22
+Aktif mac: 21
+Canli mac: 23
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 2
+Bultenden dusurulen mac: 23
+Bugun: 1
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-08-12 22:30 | Paraguay Kupa 3.Tur | Sportivo Iteno - Guarani Asuncio | scheduled | -
 - 2026-08-12 23:00 | Ekvador Kupa Son 16 Turu | La Unión - Aucas | scheduled | -
 - 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | scheduled | -
 - 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Platense - Coquimbo Unido | scheduled | -
@@ -57,6 +56,7 @@ Yarin: 20
 - 2026-08-12 22:00 | UEFA Süper Kupa Süper Kupa | Psg - Aston Villa | live | -
 - 2026-08-12 22:00 | Hazırlık Kulüpler | D.La Coruna - Real Madrid | live | -
 - 2026-08-12 22:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Gil Vicente U23 | live | -
+- 2026-08-12 22:30 | Paraguay Kupa 3.Tur | Sportivo Iteno - Guarani Asuncio | live | -
 
 ## Biten Maclar
 Biten mac yok.
