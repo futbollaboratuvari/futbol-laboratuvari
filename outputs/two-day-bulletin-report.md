@@ -3,15 +3,14 @@
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
 Ham mac: 75
-Aktif mac: 69
-Canli mac: 6
+Aktif mac: 68
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 49
+Bultenden dusurulen mac: 7
+Bugun: 48
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-08-12 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine - Heidelberg Unit | scheduled | -
 - 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | scheduled | -
 - 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Edgeworth Eagle | scheduled | -
 - 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Weston Bears - Adamstown Roseb | scheduled | -
@@ -88,6 +87,7 @@ Yarin: 20
 - 2026-08-12 11:30 | Hazırlık Kulüpler | Sevilla B - Merida Ad | live | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra - Preston Lions | live | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | live | -
+- 2026-08-12 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine - Heidelberg Unit | live | -
 
 ## Biten Maclar
 Biten mac yok.
