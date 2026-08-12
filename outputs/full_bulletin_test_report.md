@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 65
+- Scheduled match count: 66
 - Live match count: 6
-- Finished removed count: 2
+- Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
 - 2026-08-12 12:30 | Apia - Sydney United | live
@@ -13,7 +13,7 @@
 - 2026-08-12 13:00 | Charlestow Cit - Edgeworth Eagle | live
 - 2026-08-12 13:00 | Kahibah - Maitland | live
 - 2026-08-12 13:00 | Weston Bears - Adamstown Roseb | live
+- 2026-08-12 16:30 | East-Bengal - Al Arabi | scheduled
 - 2026-08-12 18:00 | Egri - Tiszafuredi | scheduled
 - 2026-08-12 18:30 | Atletico Torde - Real Avila | scheduled
 - 2026-08-12 18:30 | Budafoki Mte - Pte-Peac | scheduled
-- 2026-08-12 18:30 | Budaors - Kse Ivancsa | scheduled

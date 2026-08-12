@@ -4,21 +4,20 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T10:50:40.678Z
+- Güncelleme: 2026-08-12T11:15:55.090Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Brindabella Bl VS Tuggeranong Uni | Avustralya NPL Başkent Bölgesi | 11:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Sevilla B VS Merida Ad | Hazırlık Kulüpler | 11:30 | MS 1 | 3.56 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Moreland Zebra VS Preston Lions | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Apia VS Sydney United | Avustralya FFA Kupası Son 16 Turu | 12:30 | MS 2 | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | North Sunshine VS Heidelberg Unit | Avustralya FFA Kupası Son 16 Turu | 12:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Kahibah VS Maitland | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Charlestow Cit VS Edgeworth Eagle | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Weston Bears VS Adamstown Roseb | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| East-Bengal VS Al Arabi | AFC Şampiyonlar Ligi 2 Ön Eleme Turu | 16:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Egri VS Tiszafuredi | Macaristan NB III Kuzeydoğu | 18:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Deac VS Tarpa | Macaristan NB III Kuzeydoğu | 18:30 | MS 2 | 5.76 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Hajdunanas VS Kisvarda Ii | Macaristan NB III Kuzeydoğu | 18:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -40,7 +39,7 @@
 | Bremer Sv VS Phönix Lübeck | Almanya Bölgesel Lig Kuzey | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Nea Salamis Fc VS Anorthosis | Hazırlık Kulüpler | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Everton VS Newcastle Utd | Hazırlık Kulüpler | 19:15 | MS X | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Aek VS Ofi | Yunanistan Süper Kupa | 20:00 | MS 2 | 4.78 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Aek VS Ofi | Yunanistan Süper Kupa | 20:00 | MS 2 | 4.94 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Norderstedt VS Kickers Emden | Almanya Bölgesel Lig Kuzey | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Jeddeloh VS Sankt Pauli Ii | Almanya Bölgesel Lig Kuzey | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ifk Lulea VS Bodens | İsveç 2.Lig Norrland Yükselme Grubu | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
