@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 65
 - Live match count: 4
-- Finished removed count: 4
+- Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
 - 2026-08-12 04:30 | Salt Lake - Fc Juarez | live

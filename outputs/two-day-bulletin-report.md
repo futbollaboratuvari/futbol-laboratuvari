@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
-Ham mac: 73
+Ham mac: 81
 Aktif mac: 65
-Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
+Canli mac: 4
+Biten mac: 12
+Bultenden dusurulen mac: 16
 Bugun: 45
 Yarin: 20
 
@@ -78,14 +78,21 @@ Yarin: 20
 - 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | scheduled | -
 
 ## Canli Maclar
-- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp - Univ. Catolica | live | -
-- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | live | -
-- 2026-08-12 03:30 | Copa Sudamericana Son 16 Turu | Bolivar - Sao Paulo | live | -
-- 2026-08-12 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Atlante | live | -
 - 2026-08-12 04:30 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake - Fc Juarez | live | -
 - 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Alianza | live | -
 - 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup C | Deportivo Sapr - Mixco | live | -
 - 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | finished | -
+- 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | finished | -
+- 2026-08-12 01:30 | Brezilya Serie B | Avai - Regatas | finished | -
+- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | finished | -
+- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pumas Unam | finished | -
+- 2026-08-12 03:00 | Arjantin Premier Lig 2. Aşama | Talleres - Lanus | finished | -
+- 2026-08-12 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Xelaju | finished | -
+- 2026-08-12 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Atlas | finished | -
+- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp - Univ. Catolica | finished | -
+- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | finished | -
+- 2026-08-12 03:30 | Copa Sudamericana Son 16 Turu | Bolivar - Sao Paulo | finished | -
+- 2026-08-12 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Atlante | finished | -

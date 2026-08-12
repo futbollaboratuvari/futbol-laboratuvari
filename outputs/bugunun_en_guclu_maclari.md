@@ -4,17 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T03:02:55.775Z
+- Güncelleme: 2026-08-12T03:11:43.424Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Estudiantes Lp VS Univ. Catolica | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Deportes Tolim VS Indep. Jose Ter | Copa Libertadores Son 16 Turu | 03:30 | MS X | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Bolivar VS Sao Paulo | Copa Sudamericana Son 16 Turu | 03:30 | MS 2 | 4.00 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Minnesota Utd VS Atlante | CONCACAF Ligler Kupası Grup Aşaması | 03:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Salt Lake VS Fc Juarez | CONCACAF Ligler Kupası Grup Aşaması | 04:30 | MS 2 | 4.07 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Real Esteli VS Alianza | CONCACAF Orta Amerika Kupası Grup B | 05:00 | MS 2 | 4.57 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Deportivo Sapr VS Mixco | CONCACAF Orta Amerika Kupası Grup C | 05:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -60,14 +56,14 @@
 | Hamilton VS Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Nottingham F VS B.Leverkusen | Hazırlık Kulüpler | 21:45 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gosport Boroug VS Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Psg VS Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | MS 2 | 4.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Psg VS Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | MS 2 | 4.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | D.La Coruna VS Real Madrid | Hazırlık Kulüpler | 22:00 | MS 1 | 5.35 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Estoril U23 VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | La Unión VS Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Palmeiras VS Cerro Porteno | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Platense VS Coquimbo Unido | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Bragantino VS Atletico Mg | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 3.26 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Tigre VS Torque | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 4.28 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bragantino VS Atletico Mg | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 3.36 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Tigre VS Torque | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 4.44 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Atletico Tucum VS Independiente | Arjantin Kupa Son 16 Turu | 01:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Tampa Bay Rowd VS Louisville City | ABD USL Kupası Çeyrek Final | 02:00 | MS 2 | 3.69 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Charlotte Inde VS Hartford Athlet | ABD USL Kupası Çeyrek Final | 02:00 | MS X | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -75,13 +71,13 @@
 | Orlando City VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 4.13 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Monterrey VS Nashville Sc | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Forward Madiso VS Greenville Triu | ABD USL Lig 1 | 03:00 | MS 2 | 3.53 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cruzeiro VS Flamengo | Copa Libertadores Son 16 Turu | 03:30 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cruzeiro VS Flamengo | Copa Libertadores Son 16 Turu | 03:30 | MS X | 2.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | San Antonio VS Miami Fc | ABD USL Kupası Çeyrek Final | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Depor Motagua VS Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 04:00 | MS 2 | 3.47 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Spokane Veloci VS Colorado Spring | ABD USL Kupası Çeyrek Final | 04:00 | MS X | 3.24 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Toluca VS Dallas | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | MS 2 | 5.63 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| San Diego VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | MS X | 3.76 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Seattle VS Guadalajara | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Toluca VS Dallas | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | MS 2 | 6.00 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| San Diego VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | MS 2 | 3.94 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Seattle VS Guadalajara | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS X | 3.22 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Los Angeles Fc VS Queretaro | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS 2 | 6.07 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Deportivo Fas VS Hankook Verdes | CONCACAF Orta Amerika Kupası Grup D | 06:00 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 
@@ -90,14 +86,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Orlando City VS Atletico San Lu | MS 2 | 4.13 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Salt Lake VS Fc Juarez | MS 2 | 4.07 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| San Diego VS Puebla | MS 2 | 3.94 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Inter Miami VS Club Leon | MS X | 3.56 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Orlando City VS Atletico San Lu + Salt Lake VS Fc Juarez | MS 2 + MS 2 | 16.81 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| San Diego VS Puebla + Inter Miami VS Club Leon | MS 2 + MS X | 14.03 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Orlando City VS Atletico San Lu + Salt Lake VS Fc Juarez + Inter Miami VS Club Leon | MS 2 + MS 2 + MS X | 59.84 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Orlando City VS Atletico San Lu + Salt Lake VS Fc Juarez + San Diego VS Puebla | MS 2 + MS 2 + MS 2 | 66.23 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
