@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 21
-- Live match count: 9
+- Scheduled match count: 20
+- Live match count: 10
 - Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
@@ -16,4 +16,4 @@
 - 2026-08-12 22:00 | Estoril U23 - Gil Vicente U23 | live
 - 2026-08-12 22:00 | Psg - Aston Villa | live
 - 2026-08-12 22:30 | Sportivo Iteno - Guarani Asuncio | live
-- 2026-08-12 23:00 | La Unión - Aucas | scheduled
+- 2026-08-12 23:00 | La Unión - Aucas | live
