@@ -1,11 +1,11 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-12T20:33:24.109Z
-- Ham fixture sayisi: 6141
-- Bugun/yarin kaynak mac: 92
-- Aktif bulten maci: 20
+- Guncelleme: 2026-08-12T21:26:32.658Z
+- Ham fixture sayisi: 6203
+- Bugun/yarin kaynak mac: 82
+- Aktif bulten maci: 82
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 72
+- Bultenden dusurulen mac: 0
 
 - 1. 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Bragantino - Atletico Mg | scheduled
 - 2. 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | scheduled
