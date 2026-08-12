@@ -2,13 +2,13 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 65
-- Live match count: 1
+- Scheduled match count: 64
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
 - 2026-08-12 16:30 | East-Bengal - Al Arabi | live
-- 2026-08-12 18:00 | Egri - Tiszafuredi | scheduled
+- 2026-08-12 18:00 | Egri - Tiszafuredi | live
 - 2026-08-12 18:30 | Atletico Torde - Real Avila | scheduled
 - 2026-08-12 18:30 | Budafoki Mte - Pte-Peac | scheduled
 - 2026-08-12 18:30 | Budaors - Kse Ivancsa | scheduled
