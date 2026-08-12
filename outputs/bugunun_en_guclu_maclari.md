@@ -4,15 +4,15 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T06:50:58.623Z
+- Güncelleme: 2026-08-12T07:52:42.922Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Alcorcon VS Rayo Majadahond | Hazırlık Kulüpler | 11:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cartagena VS Orihuela | Hazırlık Kulüpler | 11:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Alcorcon VS Rayo Majadahond | Hazırlık Kulüpler | 11:00 | MS 2 | 4.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cartagena VS Orihuela | Hazırlık Kulüpler | 11:00 | MS 2 | 3.63 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Brindabella Bl VS Tuggeranong Uni | Avustralya NPL Başkent Bölgesi | 11:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Moreland Zebra VS Preston Lions | Avustralya FFA Kupası Son 16 Turu | 12:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Apia VS Sydney United | Avustralya FFA Kupası Son 16 Turu | 12:30 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -20,7 +20,7 @@
 | Kahibah VS Maitland | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Charlestow Cit VS Edgeworth Eagle | Avustralya NPL Kuzey YGG | 13:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Egri VS Tiszafuredi | Macaristan NB III Kuzeydoğu | 18:00 | MS X | 3.29 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Deac VS Tarpa | Macaristan NB III Kuzeydoğu | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Deac VS Tarpa | Macaristan NB III Kuzeydoğu | 18:30 | MS 2 | 4.78 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Hajdunanas VS Kisvarda Ii | Macaristan NB III Kuzeydoğu | 18:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Kiraly Sze VS Dorogi Fc | Macaristan NB III Kuzeybatı | 18:30 | MS X | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fc Tatabánya VS Bicskei | Macaristan NB III Kuzeybatı | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
@@ -57,7 +57,7 @@
 | Psg VS Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | MS 2 | 4.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | D.La Coruna VS Real Madrid | Hazırlık Kulüpler | 22:00 | MS 1 | 5.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Estoril U23 VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Sportivo Iteno VS Guarani Asuncio | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Sportivo Iteno VS Guarani Asuncio | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | La Unión VS Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Palmeiras VS Cerro Porteno | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Platense VS Coquimbo Unido | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
