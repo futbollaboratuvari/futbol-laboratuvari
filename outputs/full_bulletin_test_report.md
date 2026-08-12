@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 66
 - Live match count: 0
-- Finished removed count: 3
+- Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
 - 2026-08-12 16:30 | East-Bengal - Al Arabi | scheduled
