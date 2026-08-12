@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 69
-- Live match count: 9
-- Finished removed count: 0
+- Scheduled match count: 65
+- Live match count: 4
+- Finished removed count: 4
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
-- 2026-08-12 02:30 | Charlotte - Pachuca | live
-- 2026-08-12 02:30 | Columbus - Pumas Unam | live
-- 2026-08-12 03:00 | Talleres - Lanus | live
-- 2026-08-12 03:00 | Cincinnati - Atlas | live
-- 2026-08-12 03:00 | Plaza Amador - Xelaju | live
-- 2026-08-12 03:30 | Minnesota Utd - Atlante | live
-- 2026-08-12 03:30 | Deportes Tolim - Indep. Jose Ter | live
-- 2026-08-12 03:30 | Estudiantes Lp - Univ. Catolica | live
-- 2026-08-12 03:30 | Bolivar - Sao Paulo | live
-- 2026-08-12 04:30 | Salt Lake - Fc Juarez | scheduled
+- 2026-08-12 04:30 | Salt Lake - Fc Juarez | live
+- 2026-08-12 05:00 | Tigres Uanl - Vancouver | live
+- 2026-08-12 05:00 | Real Esteli - Alianza | live
+- 2026-08-12 05:00 | Deportivo Sapr - Mixco | live
+- 2026-08-12 11:30 | Brindabella Bl - Tuggeranong Uni | scheduled
+- 2026-08-12 12:30 | Apia - Sydney United | scheduled
+- 2026-08-12 12:30 | Moreland Zebra - Preston Lions | scheduled
+- 2026-08-12 12:45 | North Sunshine - Heidelberg Unit | scheduled
+- 2026-08-12 13:00 | Charlestow Cit - Edgeworth Eagle | scheduled
+- 2026-08-12 13:00 | Kahibah - Maitland | scheduled
