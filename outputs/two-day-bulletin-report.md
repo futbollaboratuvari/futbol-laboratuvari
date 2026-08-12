@@ -3,15 +3,14 @@
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 82
-Aktif mac: 78
-Canli mac: 4
+Aktif mac: 77
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 64
+Bultenden dusurulen mac: 5
+Bugun: 63
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum - Independiente | scheduled | -
 - 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Tampa Bay Rowd - Louisville City | scheduled | -
 - 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | scheduled | -
 - 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Club Leon | scheduled | -
@@ -95,6 +94,7 @@ Yarin: 14
 - 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Platense - Coquimbo Unido | live | -
 - 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Bragantino - Atletico Mg | live | -
 - 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Tigre - Torque | live | -
+- 2026-08-13 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum - Independiente | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.08.2026 01:11:05
+Oluşturma: 13.08.2026 01:30:18
 
 ## Özet
 
-- Toplam tahmin: 117
-- Bekleyen tahmin: 117
+- Toplam tahmin: 140
+- Bekleyen tahmin: 140
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 30
+- Lig sayısı: 31
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 13.08.2026 01:11:05
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
-- MS X: toplam 71, bekleyen 71, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
+- MS X: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-13 | Copa Sudamericana Son 16 Turu | Tigre - Torque | MS 2 | pending | 40/100
-- 2026-08-13 | ABD USL Kupası Çeyrek Final | Tampa Bay Rowd - Louisville City | MS X | pending | 40/100
-- 2026-08-13 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | MS X | pending | 40/100
-- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Club Leon | MS X | pending | 70/100
-- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Atletico San Lu | MS 2 | pending | 80/100
-- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Nashville Sc | MS X | pending | 50/100
-- 2026-08-13 | ABD USL Lig 1 | Forward Madiso - Greenville Triu | MS 2 | pending | 50/100
-- 2026-08-13 | Copa Libertadores Son 16 Turu | Cruzeiro - Flamengo | MS X | pending | 40/100
-- 2026-08-13 | ABD USL Kupası Çeyrek Final | San Antonio - Miami Fc | MS X | pending | 40/100
-- 2026-08-13 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Cs Cartagines | MS 2 | pending | 50/100
-- 2026-08-13 | ABD USL Kupası Çeyrek Final | Spokane Veloci - Colorado Spring | MS X | pending | 40/100
-- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Dallas | MS 2 | pending | 40/100
-- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Puebla | MS 2 | pending | 70/100
-- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Guadalajara | MS X | pending | 50/100
-- 2026-08-13 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Queretaro | MS 2 | pending | 40/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) - (2) Zalgiris Vilniu | MS X | pending | 40/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) - (1) Auda | MS 2 | pending | 40/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Tobol Kostanay (0) - (3) Partizan Belgra | MS X | pending | 50/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) - (2) Inter Escaldes | MS 2 | pending | 40/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) - (1) Dynamo Kiev | MS 2 | pending | 50/100
+- 2026-08-13 | Suudi Arabistan Pro Lig | Abha - Al Hazm | MS X | pending | 40/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Daugava Riga (0) - (2) Jablonec | MS 2 | pending | 40/100
+- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) - (1) Salzburg | MS X | pending | 50/100
+- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) - (1) Ferencvaros | MS X | pending | 50/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Hammarby (0) - (0) Rakow Czestocho | MS 2 | pending | 50/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Ml Vitebsk (0) - (1) Borac Banja Luk | MS X | pending | 50/100
+- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) - (3) Thun | MS X | pending | 60/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Vaduz (1) - (2) Inter Turku | MS 2 | pending | 50/100
+- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) - (0) Maccabi Tel Avi | MS X | pending | 40/100
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | MS X | pending | 50/100
 

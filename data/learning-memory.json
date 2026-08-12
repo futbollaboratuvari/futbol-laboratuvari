@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-11T14:49:54.630Z",
-  "updated_at": "2026-08-12T22:11:05.109Z",
+  "updated_at": "2026-08-12T22:30:19.234Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 117,
-    "pending_predictions": 117,
+    "total_predictions": 140,
+    "pending_predictions": 140,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 30,
+    "league_count": 31,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 23,
+    "updated_predictions": 6,
+    "last_score_link_checked": 140,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS 2": {
-      "total": 40,
-      "pending": 40,
+    "MS X": {
+      "total": 84,
+      "pending": 84,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -26,9 +30,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS X": {
-      "total": 71,
-      "pending": 71,
+    "MS 2": {
+      "total": 48,
+      "pending": 48,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -37,8 +41,8 @@
       "confidence_adjustment": 0
     },
     "MS 1": {
-      "total": 6,
-      "pending": 6,
+      "total": 8,
+      "pending": 8,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -48,6 +52,36 @@
     }
   },
   "league_memory": {
+    "UEFA Konferans Ligi 3. Eleme Turu": {
+      "total": 17,
+      "pending": 17,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Suudi Arabistan Pro Lig": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Avrupa Ligi 3. Eleme Turu": {
+      "total": 9,
+      "pending": 9,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Copa Sudamericana Son 16 Turu": {
       "total": 3,
       "pending": 3,
@@ -101,16 +135,6 @@
     "CONCACAF Orta Amerika Kupası Grup D": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "UEFA Konferans Ligi 3. Eleme Turu": {
-      "total": 4,
-      "pending": 4,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -288,16 +312,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "UEFA Avrupa Ligi 3. Eleme Turu": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Uganda Süper 8 Çeyrek Final": {
       "total": 1,
       "pending": 1,
@@ -350,6 +364,76 @@
     }
   },
   "league_market_memory": {
+    "UEFA Konferans Ligi 3. Eleme Turu :: MS X": {
+      "total": 9,
+      "pending": 9,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Konferans Ligi 3. Eleme Turu :: MS 2": {
+      "total": 8,
+      "pending": 8,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Suudi Arabistan Pro Lig :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Avrupa Ligi 3. Eleme Turu :: MS X": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Suudi Arabistan Pro Lig :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Avrupa Ligi 3. Eleme Turu :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "UEFA Avrupa Ligi 3. Eleme Turu :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Copa Sudamericana Son 16 Turu :: MS 2": {
       "total": 3,
       "pending": 3,
@@ -413,16 +497,6 @@
     "CONCACAF Orta Amerika Kupası Grup D :: MS 2": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "UEFA Konferans Ligi 3. Eleme Turu :: MS X": {
-      "total": 3,
-      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -543,16 +617,6 @@
     "Macaristan NB III Güneybatı :: MS X": {
       "total": 2,
       "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "UEFA Konferans Ligi 3. Eleme Turu :: MS 2": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -720,16 +784,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "UEFA Avrupa Ligi 3. Eleme Turu :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Uganda Süper 8 Çeyrek Final :: MS 1": {
       "total": 1,
       "pending": 1,
@@ -813,6 +867,397 @@
   },
   "predictions": [
     {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|hajduk split 5 2 zalgiris vilniu|ms x|22 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.687Z",
+      "match_name": "Hajduk Split (5) - (2) Zalgiris Vilniu",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "5.12",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|dinamo tirana 0 1 auda|ms 2|22 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.687Z",
+      "match_name": "Dinamo Tirana (0) - (1) Auda",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "22:00",
+      "market": "MS 2",
+      "odds": "3.30",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|tobol kostanay 0 3 partizan belgra|ms x|18 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Tobol Kostanay (0) - (3) Partizan Belgra",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "18:00",
+      "market": "MS X",
+      "odds": "2.96",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|flora tallinn 0 2 inter escaldes|ms 2|19 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Flora Tallinn (0) - (2) Inter Escaldes",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "19:00",
+      "market": "MS 2",
+      "odds": "3.48",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|qarabagh 0 1 dynamo kiev|ms 2|19 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Qarabagh (0) - (1) Dynamo Kiev",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "19:00",
+      "market": "MS 2",
+      "odds": "3.48",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|suudi arabistan pro lig|abha al hazm|ms x|19 15",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Abha - Al Hazm",
+      "league": "Suudi Arabistan Pro Lig",
+      "start_time": "19:15",
+      "market": "MS X",
+      "odds": "2.83",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|daugava riga 0 2 jablonec|ms 2|19 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Daugava Riga (0) - (2) Jablonec",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "19:30",
+      "market": "MS 2",
+      "odds": "2.98",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|pafos fc 0 1 salzburg|ms x|20 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Pafos Fc (0) - (1) Salzburg",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "3.00",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|gornik zabrze 0 1 ferencvaros|ms x|20 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Gornik Zabrze (0) - (1) Ferencvaros",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "2.91",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|hammarby 0 0 rakow czestocho|ms 2|20 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Hammarby (0) - (0) Rakow Czestocho",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "20:00",
+      "market": "MS 2",
+      "odds": "3.74",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|ml vitebsk 0 1 borac banja luk|ms x|20 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Ml Vitebsk (0) - (1) Borac Banja Luk",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "20:00",
+      "market": "MS X",
+      "odds": "2.91",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|vikingur reykj 0 3 thun|ms x|20 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Vikingur Reykj (0) - (3) Thun",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "20:30",
+      "market": "MS X",
+      "odds": "3.27",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|vaduz 1 2 inter turku|ms 2|20 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Vaduz (1) - (2) Inter Turku",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "20:30",
+      "market": "MS 2",
+      "odds": "3.68",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|cska sofia 3 0 maccabi tel avi|ms x|21 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Cska Sofia (3) - (0) Maccabi Tel Avi",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "21:00",
+      "market": "MS X",
+      "odds": "2.83",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|skendija 1 2 hibernian|ms x|21 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Skendija (1) - (2) Hibernian",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "21:00",
+      "market": "MS X",
+      "odds": "3.12",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|suudi arabistan pro lig|diriyah al ahli cidde|ms 1|21 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Diriyah - Al Ahli (Cidde)",
+      "league": "Suudi Arabistan Pro Lig",
+      "start_time": "21:00",
+      "market": "MS 1",
+      "odds": "6.34",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|glasgow ranger 1 2 jagiellonia|ms 2|21 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Glasgow Ranger (1) - (2) Jagiellonia",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "21:30",
+      "market": "MS 2",
+      "odds": "4.48",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|anderlecht 1 0 paok|ms x|21 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Anderlecht (1) - (0) Paok",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "2.91",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|austria vienna 2 1 beitar jerusale|ms x|21 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Austria Vienna (2) - (1) Beitar Jerusale",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "3.12",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|gyor 0 1 riga fc|ms x|21 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Gyor (0) - (1) Riga Fc",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "21:30",
+      "market": "MS X",
+      "odds": "2.99",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|motherwell 1 1 helsinki|ms 2|21 30",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Motherwell (1) - (1) Helsinki",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "21:30",
+      "market": "MS 2",
+      "odds": "3.88",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|hearts 1 6 benfica|ms 1|21 45",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Hearts (1) - (6) Benfica",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "21:45",
+      "market": "MS 1",
+      "odds": "5.40",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|egnatia 1 3 shamrock rovers|ms x|22 00",
+      "date": "2026-08-13",
+      "created_at": "2026-08-12T22:30:18.686Z",
+      "match_name": "Egnatia (1) - (3) Shamrock Rovers",
+      "league": "UEFA Avrupa Ligi 3. Eleme Turu",
+      "start_time": "22:00",
+      "market": "MS X",
+      "odds": "3.02",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-13|copa sudamericana son 16 turu|tigre torque|ms 2|01 00",
       "date": "2026-08-13",
       "created_at": "2026-08-12T21:04:58.331Z",
@@ -844,7 +1289,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|abd usl kupasi ceyrek final|charlotte inde hartford athlet|ms x|02 00",
@@ -861,7 +1307,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf ligler kupasi grup asamasi|inter miami club leon|ms x|02 30",
@@ -872,13 +1319,14 @@
       "start_time": "02:30",
       "market": "MS X",
       "odds": "3.35",
-      "confidence_score": "70%",
-      "analysis_score": 70,
-      "risk_level": "Orta",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf ligler kupasi grup asamasi|orlando city atletico san lu|ms 2|02 30",
@@ -889,13 +1337,14 @@
       "start_time": "02:30",
       "market": "MS 2",
       "odds": "4.24",
-      "confidence_score": "80%",
-      "analysis_score": 80,
-      "risk_level": "Düşük",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf ligler kupasi grup asamasi|monterrey nashville sc|ms x|03 00",
@@ -912,7 +1361,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|abd usl lig 1|forward madiso greenville triu|ms 2|03 00",
@@ -923,13 +1373,14 @@
       "start_time": "03:00",
       "market": "MS 2",
       "odds": "3.92",
-      "confidence_score": "50%",
-      "analysis_score": 50,
-      "risk_level": "Yüksek",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|copa libertadores son 16 turu|cruzeiro flamengo|ms x|03 30",
@@ -963,7 +1414,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf orta amerika kupasi grup d|depor motagua cs cartagines|ms 2|04 00",
@@ -974,13 +1426,14 @@
       "start_time": "04:00",
       "market": "MS 2",
       "odds": "3.10",
-      "confidence_score": "50%",
-      "analysis_score": 50,
+      "confidence_score": "40%",
+      "analysis_score": 40,
       "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|abd usl kupasi ceyrek final|spokane veloci colorado spring|ms x|04 00",
@@ -997,7 +1450,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf ligler kupasi grup asamasi|toluca dallas|ms 2|05 00",
@@ -1014,7 +1468,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf ligler kupasi grup asamasi|san diego puebla|ms 2|05 15",
@@ -1025,13 +1480,14 @@
       "start_time": "05:15",
       "market": "MS 2",
       "odds": "4.05",
-      "confidence_score": "70%",
-      "analysis_score": 70,
-      "risk_level": "Orta",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf ligler kupasi grup asamasi|seattle guadalajara|ms x|05 30",
@@ -1048,7 +1504,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|concacaf ligler kupasi grup asamasi|los angeles fc queretaro|ms 2|05 30",
@@ -1065,7 +1522,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.685Z"
     },
     {
       "id": "2026-08-13|copa libertadores son 16 turu|palmeiras cerro porteno|ms x|01 00",
@@ -1076,13 +1534,14 @@
       "start_time": "01:00",
       "market": "MS X",
       "odds": "4.19",
-      "confidence_score": "75%",
-      "analysis_score": 75,
-      "risk_level": "Düşük",
+      "confidence_score": "65%",
+      "analysis_score": 65,
+      "risk_level": "Orta",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-12T22:30:18.684Z"
     },
     {
       "id": "2026-08-13|copa sudamericana son 16 turu|bragantino atletico mg|ms 2|01 00",
