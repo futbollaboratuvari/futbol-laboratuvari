@@ -3,16 +3,14 @@
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
 Ham mac: 75
-Aktif mac: 73
-Canli mac: 2
+Aktif mac: 71
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 53
+Bultenden dusurulen mac: 4
+Bugun: 51
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-08-12 11:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Tuggeranong Uni | scheduled | -
-- 2026-08-12 11:30 | Hazırlık Kulüpler | Sevilla B - Merida Ad | scheduled | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra - Preston Lions | scheduled | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | scheduled | -
 - 2026-08-12 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine - Heidelberg Unit | scheduled | -
@@ -88,6 +86,8 @@ Yarin: 20
 ## Canli Maclar
 - 2026-08-12 11:00 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | live | -
 - 2026-08-12 11:00 | Hazırlık Kulüpler | Cartagena - Orihuela | live | -
+- 2026-08-12 11:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Tuggeranong Uni | live | -
+- 2026-08-12 11:30 | Hazırlık Kulüpler | Sevilla B - Merida Ad | live | -
 
 ## Biten Maclar
 Biten mac yok.
