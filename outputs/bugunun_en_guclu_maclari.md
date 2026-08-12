@@ -1,76 +1,42 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T18:34:35.186Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-08-12T18:39:19.669Z
+- Ham maç sayısı: 44
+- Yarın bülteni maç sayısı: 20
+- Detay blok sayısı: 122
+- Aktif bülten maçı: 28
+- Bültenden düşürülen maç: 16
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Aek VS Ofi | Yunanistan Süper Kupa | 20:00 | MS 2 | 5.82 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Norderstedt VS Kickers Emden | Almanya Bölgesel Lig Kuzey | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Jeddeloh VS Sankt Pauli Ii | Almanya Bölgesel Lig Kuzey | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Ifk Lulea VS Bodens | İsveç 2.Lig Norrland Yükselme Grubu | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Lucksta VS Kubikenborgs If | İsveç 2.Lig Norrland Yükselme Grubu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Gottne VS Ifk Ostersund | İsveç 2.Lig Norrland Yükselme Grubu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| 29 De Setiembr VS San Lorenzo (Pa | Paraguay Kupa 3.Tur | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Kaizer Chiefs VS Sekhukhune Unit | Güney Afrika PSL | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Durban City VS Golden Arrows | Güney Afrika PSL | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Milford VS Siwelele | Güney Afrika PSL | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Amazulu VS Orlando Pirates | Güney Afrika PSL | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Drochtersen / VS Hannover 96 (Am | Almanya Bölgesel Lig Kuzey | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Taftea VS Skelleftea | İsveç 2.Lig Norrland Yükselme Grubu | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Bergantinos VS Lugo | Hazırlık Kulüpler | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Man. Utd VS Leeds Utd | Hazırlık Kulüpler | 21:30 | MS X | 3.49 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Arsenal VS Como | Hazırlık Kulüpler | 21:30 | MS 2 | 5.09 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Hamilton VS Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Nottingham F VS B.Leverkusen | Hazırlık Kulüpler | 21:45 | MS X | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Gosport Boroug VS Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Psg VS Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | MS 2 | 4.56 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| D.La Coruna VS Real Madrid | Hazırlık Kulüpler | 22:00 | MS X | 5.19 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Estoril U23 VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Sportivo Iteno VS Guarani Asuncio | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| La Unión VS Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Palmeiras VS Cerro Porteno | Copa Libertadores Son 16 Turu | 01:00 | MS X | 4.19 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Platense VS Coquimbo Unido | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Bragantino VS Atletico Mg | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 3.30 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Tigre VS Torque | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 4.36 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Atletico Tucum VS Independiente | Arjantin Kupa Son 16 Turu | 01:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Tampa Bay Rowd VS Louisville City | ABD USL Kupası Çeyrek Final | 02:00 | MS X | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Charlotte Inde VS Hartford Athlet | ABD USL Kupası Çeyrek Final | 02:00 | MS X | 3.00 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Inter Miami VS Club Leon | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS X | 3.35 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Orlando City VS Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 4.24 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Monterrey VS Nashville Sc | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | MS X | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Forward Madiso VS Greenville Triu | ABD USL Lig 1 | 03:00 | MS 2 | 3.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cruzeiro VS Flamengo | Copa Libertadores Son 16 Turu | 03:30 | MS X | 2.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| San Antonio VS Miami Fc | ABD USL Kupası Çeyrek Final | 03:30 | MS X | 3.05 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Depor Motagua VS Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 04:00 | MS 2 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Spokane Veloci VS Colorado Spring | ABD USL Kupası Çeyrek Final | 04:00 | MS X | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Toluca VS Dallas | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | MS 2 | 6.13 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| San Diego VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | MS 2 | 4.05 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Seattle VS Guadalajara | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS X | 3.22 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Los Angeles Fc VS Queretaro | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS 2 | 7.35 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Deportivo Fas VS Hankook Verdes | CONCACAF Orta Amerika Kupası Grup D | 06:00 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Orlando City VS Atletico San Lu | MS 2 | 4.24 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Palmeiras VS Cerro Porteno | MS X | 4.19 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| San Diego VS Puebla | MS 2 | 4.05 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Inter Miami VS Club Leon | MS X | 3.35 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Orlando City VS Atletico San Lu + Palmeiras VS Cerro Porteno | MS 2 + MS X | 17.77 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| San Diego VS Puebla + Inter Miami VS Club Leon | MS 2 + MS X | 13.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Orlando City VS Atletico San Lu + Palmeiras VS Cerro Porteno + San Diego VS Puebla | MS 2 + MS X + MS 2 | 71.95 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Hamilton - Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Veri bekleniyor | - | 1.26 | 4 |
+| Nottingham F - B.Leverkusen | Hazırlık Kulüpler | 21:45 | Veri bekleniyor | - | 2.16 | 8 |
+| Gosport Boroug - Hanworth Villa | İngiltere Non League Premier Güney | 21:45 | Veri bekleniyor | - | 2.63 | 8 |
+| Psg - Aston Villa | UEFA Süper Kupa Süper Kupa | 22:00 | Veri bekleniyor | - | 1.44 | 7 |
+| D.La Coruna - Real Madrid | Hazırlık Kulüpler | 22:00 | Veri bekleniyor | - | 7.14 | 6 |
+| Estoril U23 - Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.39 | 8 |
+| Sportivo Iteno - Guarani Asuncio | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 7.59 | 5 |
+| La Unión - Aucas | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 4.6 | 7 |
+| Palmeiras - Cerro Porteno | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.19 | 7 |
+| Platense - Coquimbo Unido | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.89 | 8 |
+| Bragantino - Atletico Mg | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.91 | 8 |
+| Tigre - Torque | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.67 | 7 |
+| Atletico Tucum - Independiente | Arjantin Kupa Son 16 Turu | 01:15 | Veri bekleniyor | - | 3.14 | 8 |
+| Tampa Bay Rowd - Louisville City | ABD USL Kupası Çeyrek Final | 02:00 | Veri bekleniyor | - | 1.83 | 8 |
+| Charlotte Inde - Hartford Athlet | ABD USL Kupası Çeyrek Final | 02:00 | Veri bekleniyor | - | 2.65 | 8 |
+| Inter Miami - Club Leon | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Veri bekleniyor | - | 1.79 | 8 |
+| Orlando City - Atletico San Lu | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | Veri bekleniyor | - | 1.36 | 6 |
+| Monterrey - Nashville Sc | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Veri bekleniyor | - | 2.53 | 8 |
+| Forward Madiso - Greenville Triu | ABD USL Lig 1 | 03:00 | Veri bekleniyor | - | 1.48 | 7 |
+| Cruzeiro - Flamengo | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 2.6 | 8 |
+| San Antonio - Miami Fc | ABD USL Kupası Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.79 | 8 |
+| Depor Motagua - Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 04:00 | Veri bekleniyor | - | 1.79 | 8 |
+| Spokane Veloci - Colorado Spring | ABD USL Kupası Çeyrek Final | 04:00 | Veri bekleniyor | - | 2.84 | 8 |
+| Toluca - Dallas | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | Veri bekleniyor | - | 1.18 | 6 |
+| San Diego - Puebla | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | Veri bekleniyor | - | 1.39 | 6 |
+| Seattle - Guadalajara | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | Veri bekleniyor | - | 2.73 | 8 |
+| Los Angeles Fc - Queretaro | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | Veri bekleniyor | - | 1.12 | 6 |
+| Deportivo Fas - Hankook Verdes | CONCACAF Orta Amerika Kupası Grup D | 06:00 | Veri bekleniyor | - | - | 5 |
