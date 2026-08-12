@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 09:45:01
+Oluşturma: 12.08.2026 09:51:51
 
 ## Özet
 
-- Toplam tahmin: 88
-- Bekleyen tahmin: 88
+- Toplam tahmin: 91
+- Bekleyen tahmin: 91
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 27
@@ -20,12 +20,15 @@ Oluşturma: 12.08.2026 09:45:01
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 - MS X: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-12 | Macaristan NB III Kuzeydoğu | Deac - Tarpa | MS 2 | pending | 60/100
+- 2026-08-12 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | MS 2 | pending | 50/100
+- 2026-08-12 | Hazırlık Kulüpler | Cartagena - Orihuela | MS 2 | pending | 50/100
 - 2026-08-12 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeydoğu | Egri - Tiszafuredi | MS X | pending | 50/100
 - 2026-08-12 | Macaristan NB III Kuzeybatı | Kiraly Sze - Dorogi Fc | MS X | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 12.08.2026 09:45:01
 - 2026-08-12 | Hazırlık Kulüpler | Everton - Newcastle Utd | MS X | pending | 50/100
 - 2026-08-12 | Yunanistan Süper Kupa | Aek - Ofi | MS 2 | pending | 60/100
 - 2026-08-12 | Hazırlık Kulüpler | Man. Utd - Leeds Utd | MS X | pending | 60/100
-- 2026-08-12 | Hazırlık Kulüpler | Arsenal - Como | MS 2 | pending | 40/100
-- 2026-08-12 | Hazırlık Kulüpler | Nottingham F - B.Leverkusen | MS X | pending | 50/100
-- 2026-08-12 | İngiltere Non League Premier Güney | Gosport Boroug - Hanworth Villa | MS X | pending | 50/100
 
