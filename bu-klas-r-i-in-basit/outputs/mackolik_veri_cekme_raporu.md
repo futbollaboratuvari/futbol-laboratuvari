@@ -1,20 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-12T19:50:43.745871+00:00
+Tarih: 2026-08-12T20:33:20.460052+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 5
+- Kac mac bulundu: 23
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 5
+- Kac mac zaten vardi: 23
 - Ham veri havuzu toplam mac sayisi: 6174
 - Hedef tarih: 12.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Ekvador Kupa Son 16 Turu
+- ABD USL Kupası Çeyrek Final
+- ABD USL Lig 1
+- Arjantin Kupa Son 16 Turu
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Macaristan NB III Güneybatı
 - İsveç 2.Lig Norrland Yükselme Grubu
 
@@ -73,8 +79,8 @@ Tarih: 2026-08-12T19:50:43.745871+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 10
-- Acilan detay: 10
+- Denenen Tumu alani: 9
+- Acilan detay: 9
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -87,11 +93,26 @@ Tarih: 2026-08-12T19:50:43.745871+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 12.08.2026 | 23:00 | Ekvador Kupa Son 16 Turu | La Unión | Aucas | 00155 | 5 |
-| 12.08.2026 | 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea | Bodens | 13428 | 3 |
-| 12.08.2026 | 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne | Ifk Ostersund | 13409 | 3 |
+| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Platense | Coquimbo Unido | 08330 | 5 |
+| 13.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro | Flamengo | 08829 | 5 |
+| 13.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Palmeiras | Cerro Porteno | 08589 | 5 |
+| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Tigre | Torque | 08449 | 5 |
+| 13.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Bragantino | Atletico Mg | 08191 | 5 |
+| 13.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas | Hankook Verdes | 10715 | 4 |
+| 13.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua | Cs Cartagines | 04974 | 5 |
+| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc | Queretaro | 07850 | 5 |
+| 13.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City | Atletico San Lu | 07274 | 5 |
+| 13.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle | Guadalajara | 08033 | 5 |
+| 13.08.2026 | 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca | Dallas | 07694 | 5 |
+| 13.08.2026 | 05:15 | CONCACAF Ligler Kupası Grup Aşaması | San Diego | Puebla | 07793 | 5 |
+| 13.08.2026 | 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey | Nashville Sc | 07517 | 5 |
+| 13.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami | Club Leon | 07084 | 5 |
+| 13.08.2026 | 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum | Independiente | 12697 | 5 |
+| 13.08.2026 | 04:00 | ABD USL Kupası Çeyrek Final | Spokane Veloci | Colorado Spring | 06004 | 5 |
+| 13.08.2026 | 03:30 | ABD USL Kupası Çeyrek Final | San Antonio | Miami Fc | 01830 | 5 |
+| 13.08.2026 | 02:00 | ABD USL Kupası Çeyrek Final | Charlotte Inde | Hartford Athlet | 13446 | 5 |
 | 12.08.2026 | 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Lucksta | Kubikenborgs If | 13426 | 3 |
-| 12.08.2026 | 18:30 | Macaristan NB III Güneybatı | Dunaujvaros Pa | Erdi Vse | 09809 | 5 |
+| 12.08.2026 | 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne | Ifk Ostersund | 13409 | 3 |
 
 ## Sonuc
 

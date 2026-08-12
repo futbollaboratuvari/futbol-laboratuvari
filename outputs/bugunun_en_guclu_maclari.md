@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-12T20:31:23.055Z
+- Güncelleme: 2026-08-12T20:33:37.446Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -35,7 +35,7 @@
 | Cruzeiro VS Flamengo | Copa Libertadores Son 16 Turu | 03:30 | MS X | 2.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | San Antonio VS Miami Fc | ABD USL Kupası Çeyrek Final | 03:30 | MS X | 3.05 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Depor Motagua VS Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 04:00 | MS 2 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Spokane Veloci VS Colorado Spring | ABD USL Kupası Çeyrek Final | 04:00 | MS X | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Spokane Veloci VS Colorado Spring | ABD USL Kupası Çeyrek Final | 04:00 | MS X | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Toluca VS Dallas | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | MS 2 | 5.93 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | San Diego VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | MS 2 | 4.05 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Seattle VS Guadalajara | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS X | 3.22 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
