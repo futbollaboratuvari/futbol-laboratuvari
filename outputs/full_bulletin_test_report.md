@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 44
 - Live match count: 21
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-12 / 2026-08-13 23:59
 
 - 2026-08-12 18:00 | Egri - Tiszafuredi | live
