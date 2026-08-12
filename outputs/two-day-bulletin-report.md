@@ -2,23 +2,23 @@
 
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
-Ham mac: 84
-Aktif mac: 68
-Canli mac: 0
-Biten mac: 16
-Bultenden dusurulen mac: 16
-Bugun: 48
+Ham mac: 75
+Aktif mac: 73
+Canli mac: 2
+Biten mac: 0
+Bultenden dusurulen mac: 2
+Bugun: 53
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-08-12 11:00 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | scheduled | -
-- 2026-08-12 11:00 | Hazırlık Kulüpler | Cartagena - Orihuela | scheduled | -
 - 2026-08-12 11:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Tuggeranong Uni | scheduled | -
+- 2026-08-12 11:30 | Hazırlık Kulüpler | Sevilla B - Merida Ad | scheduled | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra - Preston Lions | scheduled | -
 - 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | scheduled | -
 - 2026-08-12 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine - Heidelberg Unit | scheduled | -
 - 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | scheduled | -
 - 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Edgeworth Eagle | scheduled | -
+- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Weston Bears - Adamstown Roseb | scheduled | -
 - 2026-08-12 18:00 | Macaristan NB III Kuzeydoğu | Egri - Tiszafuredi | scheduled | -
 - 2026-08-12 18:30 | Macaristan NB III Kuzeydoğu | Deac - Tarpa | scheduled | -
 - 2026-08-12 18:30 | Macaristan NB III Kuzeydoğu | Hajdunanas - Kisvarda Ii | scheduled | -
@@ -32,10 +32,13 @@ Yarin: 20
 - 2026-08-12 18:30 | Macaristan NB III Güneybatı | Dunaujvaros Pa - Erdi Vse | scheduled | -
 - 2026-08-12 18:30 | Macaristan NB III Güneybatı | Siofok - Mtk Ii | scheduled | -
 - 2026-08-12 18:30 | Macaristan NB III Güneybatı | Budaors - Kse Ivancsa | scheduled | -
+- 2026-08-12 18:30 | Hazırlık Kulüpler | Atletico Torde - Real Avila | scheduled | -
+- 2026-08-12 18:30 | Macaristan NB III Kuzeybatı | Sárisápi Bányá - Szombathelyi Ii | scheduled | -
 - 2026-08-12 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Rapid Wien (4) - (1) Paide Linnamees | scheduled | -
 - 2026-08-12 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Gks Katowice (0) - (2) Hapoel Tel Aviv | scheduled | -
 - 2026-08-12 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Kopenhag (3) - (0) Debreceni | scheduled | -
 - 2026-08-12 19:00 | Almanya Bölgesel Lig Kuzey | Bremer Sv - Phönix Lübeck | scheduled | -
+- 2026-08-12 19:00 | Hazırlık Kulüpler | Nea Salamis Fc - Anorthosis | scheduled | -
 - 2026-08-12 19:15 | Hazırlık Kulüpler | Everton - Newcastle Utd | scheduled | -
 - 2026-08-12 20:00 | Yunanistan Süper Kupa | Aek - Ofi | scheduled | -
 - 2026-08-12 20:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Kickers Emden | scheduled | -
@@ -43,12 +46,14 @@ Yarin: 20
 - 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Bodens | scheduled | -
 - 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Lucksta - Kubikenborgs If | scheduled | -
 - 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Ifk Ostersund | scheduled | -
+- 2026-08-12 20:00 | Paraguay Kupa 3.Tur | 29 De Setiembr - San Lorenzo (Pa | scheduled | -
 - 2026-08-12 20:30 | Güney Afrika PSL | Kaizer Chiefs - Sekhukhune Unit | scheduled | -
 - 2026-08-12 20:30 | Güney Afrika PSL | Durban City - Golden Arrows | scheduled | -
 - 2026-08-12 20:30 | Güney Afrika PSL | Milford - Siwelele | scheduled | -
 - 2026-08-12 20:30 | Güney Afrika PSL | Amazulu - Orlando Pirates | scheduled | -
 - 2026-08-12 20:30 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Hannover 96 (Am | scheduled | -
 - 2026-08-12 20:30 | İsveç 2.Lig Norrland Yükselme Grubu | Taftea - Skelleftea | scheduled | -
+- 2026-08-12 20:30 | Hazırlık Kulüpler | Bergantinos - Lugo | scheduled | -
 - 2026-08-12 21:30 | Hazırlık Kulüpler | Man. Utd - Leeds Utd | scheduled | -
 - 2026-08-12 21:30 | Hazırlık Kulüpler | Arsenal - Como | scheduled | -
 - 2026-08-12 21:45 | İskoçya Challenge Kupası Lig Aşaması | Hamilton - Celtic Ii | scheduled | -
@@ -81,22 +86,8 @@ Yarin: 20
 - 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-12 11:00 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | live | -
+- 2026-08-12 11:00 | Hazırlık Kulüpler | Cartagena - Orihuela | live | -
 
 ## Biten Maclar
-- 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | finished | -
-- 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | finished | -
-- 2026-08-12 01:30 | Brezilya Serie B | Avai - Regatas | finished | -
-- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | finished | -
-- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pumas Unam | finished | -
-- 2026-08-12 03:00 | Arjantin Premier Lig 2. Aşama | Talleres - Lanus | finished | -
-- 2026-08-12 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Xelaju | finished | -
-- 2026-08-12 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Atlas | finished | -
-- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp - Univ. Catolica | finished | -
-- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | finished | -
-- 2026-08-12 03:30 | Copa Sudamericana Son 16 Turu | Bolivar - Sao Paulo | finished | -
-- 2026-08-12 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Atlante | finished | -
-- 2026-08-12 04:30 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake - Fc Juarez | finished | -
-- 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Alianza | finished | -
-- 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup C | Deportivo Sapr - Mixco | finished | -
-- 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | finished | -
+Biten mac yok.

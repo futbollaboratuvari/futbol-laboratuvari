@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 12.08.2026 10:55:59
+Oluşturma: 12.08.2026 11:10:08
 
 ## Özet
 
-- Toplam tahmin: 91
-- Bekleyen tahmin: 91
+- Toplam tahmin: 93
+- Bekleyen tahmin: 93
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 27
@@ -20,12 +20,14 @@ Oluşturma: 12.08.2026 10:55:59
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
-- MS X: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-12 | Hazırlık Kulüpler | Atletico Torde - Real Avila | MS X | pending | 50/100
+- 2026-08-12 | Hazırlık Kulüpler | Sevilla B - Merida Ad | MS 1 | pending | 40/100
 - 2026-08-12 | Macaristan NB III Kuzeydoğu | Deac - Tarpa | MS 2 | pending | 60/100
 - 2026-08-12 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | MS 2 | pending | 50/100
 - 2026-08-12 | Hazırlık Kulüpler | Cartagena - Orihuela | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 12.08.2026 10:55:59
 - 2026-08-12 | Macaristan NB III Güneybatı | Budaors - Kse Ivancsa | MS X | pending | 50/100
 - 2026-08-12 | UEFA Konferans Ligi 3. Eleme Turu | Gks Katowice (0) - (2) Hapoel Tel Aviv | MS 2 | pending | 40/100
 - 2026-08-12 | Hazırlık Kulüpler | Everton - Newcastle Utd | MS X | pending | 50/100
-- 2026-08-12 | Yunanistan Süper Kupa | Aek - Ofi | MS 2 | pending | 60/100
-- 2026-08-12 | Hazırlık Kulüpler | Man. Utd - Leeds Utd | MS X | pending | 60/100
 

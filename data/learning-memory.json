@@ -1,21 +1,45 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-11T14:49:54.630Z",
-  "updated_at": "2026-08-12T07:55:59.904Z",
+  "updated_at": "2026-08-12T08:10:09.912Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 91,
-    "pending_predictions": 91,
+    "total_predictions": 93,
+    "pending_predictions": 93,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 27,
     "market_count": 3,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 2,
+    "updated_predictions": 0,
+    "last_score_link_checked": 93,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
+    "MS X": {
+      "total": 59,
+      "pending": 59,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 1": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS 2": {
       "total": 31,
       "pending": 31,
@@ -25,32 +49,12 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS X": {
-      "total": 58,
-      "pending": 58,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "MS 1": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
     }
   },
   "league_memory": {
-    "Macaristan NB III Kuzeydoğu": {
-      "total": 2,
-      "pending": 2,
+    "Hazırlık Kulüpler": {
+      "total": 13,
+      "pending": 13,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -58,9 +62,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler": {
-      "total": 11,
-      "pending": 11,
+    "Macaristan NB III Kuzeydoğu": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -320,6 +324,26 @@
     }
   },
   "league_market_memory": {
+    "Hazırlık Kulüpler :: MS X": {
+      "total": 6,
+      "pending": 6,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Hazırlık Kulüpler :: MS 1": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Macaristan NB III Kuzeydoğu :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -390,16 +414,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Hazırlık Kulüpler :: MS X": {
-      "total": 5,
-      "pending": 5,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Yunanistan Süper Kupa :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -421,16 +435,6 @@
       "confidence_adjustment": 0
     },
     "UEFA Süper Kupa Süper Kupa :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Hazırlık Kulüpler :: MS 1": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -713,6 +717,40 @@
   },
   "predictions": [
     {
+      "id": "2026-08-12|hazirlik kulupler|atletico torde real avila|ms x|18 30",
+      "date": "2026-08-12",
+      "created_at": "2026-08-12T08:10:08.539Z",
+      "match_name": "Atletico Torde - Real Avila",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "18:30",
+      "market": "MS X",
+      "odds": "2.92",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-12|hazirlik kulupler|sevilla b merida ad|ms 1|11 30",
+      "date": "2026-08-12",
+      "created_at": "2026-08-12T08:10:08.538Z",
+      "match_name": "Sevilla B - Merida Ad",
+      "league": "Hazırlık Kulüpler",
+      "start_time": "11:30",
+      "market": "MS 1",
+      "odds": "3.56",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-12|macaristan nb iii kuzeydogu|deac tarpa|ms 2|18 30",
       "date": "2026-08-12",
       "created_at": "2026-08-12T06:51:51.108Z",
@@ -728,7 +766,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|hazirlik kulupler|alcorcon rayo majadahond|ms 2|11 00",
@@ -746,7 +784,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.538Z"
     },
     {
       "id": "2026-08-12|hazirlik kulupler|cartagena orihuela|ms 2|11 00",
@@ -764,7 +802,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.538Z"
     },
     {
       "id": "2026-08-12|avustralya ffa kupasi son 16 turu|apia sydney united|ms x|12 30",
@@ -782,7 +820,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|macaristan nb iii kuzeydogu|egri tiszafuredi|ms x|18 00",
@@ -800,7 +838,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|macaristan nb iii kuzeybati|kiraly sze dorogi fc|ms x|18 30",
@@ -818,7 +856,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|macaristan nb iii kuzeybati|papai perutz veszprem|ms x|18 30",
@@ -836,7 +874,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|macaristan nb iii kuzeybati|sc sopron gyor ii|ms x|18 30",
@@ -854,7 +892,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|macaristan nb iii kuzeybati|puskas fc ii komarom|ms x|18 30",
@@ -872,7 +910,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|macaristan nb iii guneybati|dunaujvaros pa erdi vse|ms x|18 30",
@@ -890,7 +928,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|macaristan nb iii guneybati|budaors kse ivancsa|ms x|18 30",
@@ -908,7 +946,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|uefa konferans ligi 3 eleme turu|gks katowice 0 2 hapoel tel aviv|ms 2|19 00",
@@ -926,7 +964,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.903Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|hazirlik kulupler|everton newcastle utd|ms x|19 15",
@@ -944,7 +982,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|yunanistan super kupa|aek ofi|ms 2|20 00",
@@ -962,7 +1000,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|hazirlik kulupler|man utd leeds utd|ms x|21 30",
@@ -980,7 +1018,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.539Z"
     },
     {
       "id": "2026-08-12|hazirlik kulupler|arsenal como|ms 2|21 30",
@@ -998,7 +1036,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.540Z"
     },
     {
       "id": "2026-08-12|hazirlik kulupler|nottingham f b leverkusen|ms x|21 45",
@@ -1016,7 +1054,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.540Z"
     },
     {
       "id": "2026-08-12|ingiltere non league premier guney|gosport boroug hanworth villa|ms x|21 45",
@@ -1034,7 +1072,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.540Z"
     },
     {
       "id": "2026-08-12|uefa super kupa super kupa|psg aston villa|ms 2|22 00",
@@ -1052,7 +1090,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.540Z"
     },
     {
       "id": "2026-08-12|hazirlik kulupler|d la coruna real madrid|ms 1|22 00",
@@ -1070,7 +1108,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.540Z"
     },
     {
       "id": "2026-08-12|portekiz u23 ulusal sampiyona|estoril u23 gil vicente u23|ms x|22 00",
@@ -1088,7 +1126,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-12T07:55:59.904Z"
+      "updated_at": "2026-08-12T08:10:08.540Z"
     },
     {
       "id": "2026-08-12|concacaf ligler kupasi grup asamasi|charlotte pachuca|ms 2|02 30",
