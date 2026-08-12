@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 46
+Toplam analiz: 45
 Tam analiz: 39
-Eksik analiz: 7
+Eksik analiz: 6
 
-- East-Bengal VS Al Arabi: eksik score, confidence
 - Fc Tatabánya VS Bicskei: eksik score, confidence
 - Budafoki Mte VS Pte-Peac: eksik score, confidence
 - Sárisápi Bányá VS Szombathelyi Ii: eksik score, confidence

@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-12 / 2026-08-13
 Kaynak: fixtures.json
-Ham mac: 92
-Aktif mac: 44
-Canli mac: 21
-Biten mac: 27
-Bultenden dusurulen mac: 48
-Bugun: 24
+Ham mac: 65
+Aktif mac: 37
+Canli mac: 28
+Biten mac: 0
+Bultenden dusurulen mac: 28
+Bugun: 17
 Yarin: 20
 
 ## Baslamamis Maclar
-- 2026-08-12 20:00 | Yunanistan Süper Kupa | Aek - Ofi | scheduled | -
-- 2026-08-12 20:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Kickers Emden | scheduled | -
-- 2026-08-12 20:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Sankt Pauli Ii | scheduled | -
-- 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Bodens | scheduled | -
-- 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Lucksta - Kubikenborgs If | scheduled | -
-- 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Ifk Ostersund | scheduled | -
-- 2026-08-12 20:00 | Paraguay Kupa 3.Tur | 29 De Setiembr - San Lorenzo (Pa | scheduled | -
 - 2026-08-12 20:30 | Güney Afrika PSL | Kaizer Chiefs - Sekhukhune Unit | scheduled | -
 - 2026-08-12 20:30 | Güney Afrika PSL | Durban City - Golden Arrows | scheduled | -
 - 2026-08-12 20:30 | Güney Afrika PSL | Milford - Siwelele | scheduled | -
@@ -78,32 +71,13 @@ Yarin: 20
 - 2026-08-12 19:00 | Almanya Bölgesel Lig Kuzey | Bremer Sv - Phönix Lübeck | live | -
 - 2026-08-12 19:00 | Hazırlık Kulüpler | Nea Salamis Fc - Anorthosis | live | -
 - 2026-08-12 19:15 | Hazırlık Kulüpler | Everton - Newcastle Utd | live | -
+- 2026-08-12 20:00 | Yunanistan Süper Kupa | Aek - Ofi | live | -
+- 2026-08-12 20:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Kickers Emden | live | -
+- 2026-08-12 20:00 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Sankt Pauli Ii | live | -
+- 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Bodens | live | -
+- 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Lucksta - Kubikenborgs If | live | -
+- 2026-08-12 20:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Ifk Ostersund | live | -
+- 2026-08-12 20:00 | Paraguay Kupa 3.Tur | 29 De Setiembr - San Lorenzo (Pa | live | -
 
 ## Biten Maclar
-- 2026-08-12 01:00 | Copa Libertadores Son 16 Turu | Fluminense - Rivadavia | finished | -
-- 2026-08-12 01:00 | Copa Sudamericana Son 16 Turu | Boca Juniors - Deportivo Recol | finished | -
-- 2026-08-12 01:30 | Brezilya Serie B | Avai - Regatas | finished | -
-- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Charlotte - Pachuca | finished | -
-- 2026-08-12 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Columbus - Pumas Unam | finished | -
-- 2026-08-12 03:00 | Arjantin Premier Lig 2. Aşama | Talleres - Lanus | finished | -
-- 2026-08-12 03:00 | CONCACAF Orta Amerika Kupası Grup A | Plaza Amador - Xelaju | finished | -
-- 2026-08-12 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Cincinnati - Atlas | finished | -
-- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Estudiantes Lp - Univ. Catolica | finished | -
-- 2026-08-12 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | finished | -
-- 2026-08-12 03:30 | Copa Sudamericana Son 16 Turu | Bolivar - Sao Paulo | finished | -
-- 2026-08-12 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Minnesota Utd - Atlante | finished | -
-- 2026-08-12 04:30 | CONCACAF Ligler Kupası Grup Aşaması | Salt Lake - Fc Juarez | finished | -
-- 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Alianza | finished | -
-- 2026-08-12 05:00 | CONCACAF Orta Amerika Kupası Grup C | Deportivo Sapr - Mixco | finished | -
-- 2026-08-12 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Tigres Uanl - Vancouver | finished | -
-- 2026-08-12 11:00 | Hazırlık Kulüpler | Alcorcon - Rayo Majadahond | finished | -
-- 2026-08-12 11:00 | Hazırlık Kulüpler | Cartagena - Orihuela | finished | -
-- 2026-08-12 11:30 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Tuggeranong Uni | finished | -
-- 2026-08-12 11:30 | Hazırlık Kulüpler | Sevilla B - Merida Ad | finished | -
-- 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Moreland Zebra - Preston Lions | finished | -
-- 2026-08-12 12:30 | Avustralya FFA Kupası Son 16 Turu | Apia - Sydney United | finished | -
-- 2026-08-12 12:45 | Avustralya FFA Kupası Son 16 Turu | North Sunshine - Heidelberg Unit | finished | -
-- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Kahibah - Maitland | finished | -
-- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Charlestow Cit - Edgeworth Eagle | finished | -
-- 2026-08-12 13:00 | Avustralya NPL Kuzey YGG | Weston Bears - Adamstown Roseb | finished | -
-- 2026-08-12 16:30 | AFC Şampiyonlar Ligi 2 Ön Eleme Turu | East-Bengal - Al Arabi | finished | -
+Biten mac yok.
