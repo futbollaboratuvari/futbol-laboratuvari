@@ -4,19 +4,14 @@ Gunler: 2026-08-13 / 2026-08-14
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 66
-Aktif mac: 65
-Canli mac: 1
+Aktif mac: 60
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 51
+Bultenden dusurulen mac: 6
+Bugun: 46
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 18:30 | Hazırlık Kulüpler | Reggina - Sanremese | scheduled | -
-- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Ilves (0) - (1) Rijeka | scheduled | -
-- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) - (2) Inter Escaldes | scheduled | -
-- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) - (1) Dynamo Kiev | scheduled | -
-- 2026-08-13 19:15 | Suudi Arabistan Pro Lig | Abha - Al Hazm | scheduled | -
 - 2026-08-13 19:30 | UEFA Konferans Ligi 3. Eleme Turu | Daugava Riga (0) - (2) Jablonec | scheduled | -
 - 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Beşiktaş (1) - (0) Hradec Kralove | scheduled | -
 - 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) - (1) Salzburg | scheduled | -
@@ -79,6 +74,11 @@ Yarin: 14
 - 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 
 ## Canli Maclar
+- 2026-08-13 18:30 | Hazırlık Kulüpler | Reggina - Sanremese | live | -
+- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Ilves (0) - (1) Rijeka | live | -
+- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) - (2) Inter Escaldes | live | -
+- 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) - (1) Dynamo Kiev | live | -
+- 2026-08-13 19:15 | Suudi Arabistan Pro Lig | Abha - Al Hazm | live | -
 - 2026-08-13 18:00 | UEFA Konferans Ligi 3. Eleme Turu | Tobol Kostanay (0) - (3) Partizan Belgra | live | -
 
 ## Biten Maclar
