@@ -2,24 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-13T18:40:09.136Z
+- Güncelleme: 2026-08-13T19:28:57.502Z
 - Ham maç sayısı: 61
 - Yarın bülteni maç sayısı: 14
 - Detay blok sayısı: 175
-- Aktif bülten maçı: 24
-- Bültenden düşürülen maç: 37
+- Aktif bülten maçı: 16
+- Bültenden düşürülen maç: 45
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hearts (1) - (6) Benfica | UEFA Avrupa Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 5.6 | 6 |
-| Shelbourne (1) - (3) Ajax | UEFA Konferans Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 9 | 6 |
-| Egnatia (1) - (3) Shamrock Rovers | UEFA Avrupa Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.91 | 8 |
-| Hajduk Split (5) - (2) Zalgiris Vilniu | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.16 | 6 |
-| Dinamo Tirana (0) - (1) Auda | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.73 | 8 |
-| Fylkir - Afturelding | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 2.16 | 6 |
-| Hk Kopavogur - Leiknir Reykjav | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.3 | 4 |
-| Grotta - Njardvik | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 2.98 | 6 |
 | 1 De Marzo - Atlético Tembet | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 3.48 | 5 |
 | Kí Klaksvík (0) - (1) Lech Poznan | UEFA Avrupa Ligi 3. Eleme Turu | 22:45 | Veri bekleniyor | - | 4.09 | 8 |
 | Mirassol - Ldu Quito | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.49 | 7 |

@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 52
-Tam analiz: 49
+Toplam analiz: 47
+Tam analiz: 44
 Eksik analiz: 3
 
 - Dinamo Minsk (0) VS (1) Braga: eksik score, confidence
