@@ -3,16 +3,14 @@
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 82
-Aktif mac: 71
-Canli mac: 11
-Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 57
+Aktif mac: 69
+Canli mac: 8
+Biten mac: 5
+Bultenden dusurulen mac: 13
+Bugun: 55
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro - Flamengo | scheduled | -
-- 2026-08-13 03:30 | ABD USL Kupası Çeyrek Final | San Antonio - Miami Fc | scheduled | -
 - 2026-08-13 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Cs Cartagines | scheduled | -
 - 2026-08-13 04:00 | ABD USL Kupası Çeyrek Final | Spokane Veloci - Colorado Spring | scheduled | -
 - 2026-08-13 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Dallas | scheduled | -
@@ -84,17 +82,18 @@ Yarin: 14
 - 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 
 ## Canli Maclar
-- 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | live | -
-- 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Platense - Coquimbo Unido | live | -
-- 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Bragantino - Atletico Mg | live | -
-- 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Tigre - Torque | live | -
-- 2026-08-13 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum - Independiente | live | -
 - 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Tampa Bay Rowd - Louisville City | live | -
 - 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | live | -
 - 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Club Leon | live | -
 - 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Atletico San Lu | live | -
 - 2026-08-13 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Nashville Sc | live | -
 - 2026-08-13 03:00 | ABD USL Lig 1 | Forward Madiso - Greenville Triu | live | -
+- 2026-08-13 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro - Flamengo | live | -
+- 2026-08-13 03:30 | ABD USL Kupası Çeyrek Final | San Antonio - Miami Fc | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | finished | -
+- 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Platense - Coquimbo Unido | finished | -
+- 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Bragantino - Atletico Mg | finished | -
+- 2026-08-13 01:00 | Copa Sudamericana Son 16 Turu | Tigre - Torque | finished | -
+- 2026-08-13 01:15 | Arjantin Kupa Son 16 Turu | Atletico Tucum - Independiente | finished | -
