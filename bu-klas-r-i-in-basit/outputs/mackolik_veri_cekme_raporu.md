@@ -1,20 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T12:35:55.929372+00:00
+Tarih: 2026-08-13T13:43:58.519224+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 49
+- Kac mac bulundu: 65
 - Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 47
-- Ham veri havuzu toplam mac sayisi: 6238
+- Kac mac zaten vardi: 63
+- Ham veri havuzu toplam mac sayisi: 6240
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
+- Meksika Ascenso MX Apertura
 - Suudi Arabistan Pro Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
 - UEFA Konferans Ligi 3. Eleme Turu
@@ -90,26 +97,26 @@ Tarih: 2026-08-13T12:35:55.929372+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 13.08.2026 | 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
+| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) | (1) Salzburg | 10768 | 5 |
 | 13.08.2026 | 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Glasgow Ranger (1) | (2) Jagiellonia | 11691 | 5 |
 | 13.08.2026 | 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) | (3) Thun | 11066 | 5 |
 | 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Omonia (1) | (1) Lincoln Red Imp | 10677 | 4 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Beşiktaş (1) | (0) Hradec Kralove | 10054 | 5 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) | (1) Salzburg | 10768 | 5 |
+| 13.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Egnatia (1) | (3) Shamrock Rovers | 11907 | 5 |
 | 13.08.2026 | 21:45 | UEFA Avrupa Ligi 3. Eleme Turu | Hearts (1) | (6) Benfica | 11731 | 5 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) | (1) Ferencvaros | 10305 | 5 |
+| 13.08.2026 | 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) | (0) Paok | 11426 | 5 |
+| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Beşiktaş (1) | (0) Hradec Kralove | 10054 | 5 |
 | 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Universitatea (1) | (1) Kuopion | 10854 | 5 |
 | 13.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) | (0) Maccabi Tel Avi | 11144 | 5 |
-| 13.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Egnatia (1) | (3) Shamrock Rovers | 11907 | 5 |
-| 13.08.2026 | 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) | (0) Paok | 11426 | 5 |
-| 13.08.2026 | 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
-| 13.08.2026 | 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Vaduz (1) | (2) Inter Turku | 11001 | 5 |
-| 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Ilves (0) | (1) Rijeka | 09698 | 5 |
-| 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) | (2) Inter Escaldes | 09441 | 5 |
-| 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) | (1) Dynamo Kiev | 09647 | 5 |
-| 13.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Austria Vienna (2) | (1) Beitar Jerusale | 11487 | 5 |
-| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Midtjylland (2) | (0) Bohemian | 10576 | 4 |
-| 13.08.2026 | 21:15 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) | (2) Noah | 11350 | 5 |
+| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) | (1) Ferencvaros | 10305 | 5 |
+| 13.08.2026 | 18:00 | UEFA Konferans Ligi 3. Eleme Turu | Tobol Kostanay (0) | (3) Partizan Belgra | 09336 | 5 |
+| 13.08.2026 | 19:30 | UEFA Konferans Ligi 3. Eleme Turu | Daugava Riga (0) | (2) Jablonec | 09835 | 5 |
 | 13.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) | (2) Zalgiris Vilniu | 11871 | 5 |
+| 13.08.2026 | 21:15 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) | (2) Noah | 11350 | 5 |
+| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Midtjylland (2) | (0) Bohemian | 10576 | 4 |
+| 13.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Austria Vienna (2) | (1) Beitar Jerusale | 11487 | 5 |
+| 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) | (1) Dynamo Kiev | 09647 | 5 |
+| 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) | (2) Inter Escaldes | 09441 | 5 |
 
 ## Sonuc
 
