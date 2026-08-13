@@ -4,16 +4,16 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-13T10:44:07.944Z
+- Güncelleme: 2026-08-13T11:28:52.495Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Tobol Kostanay (0) VS (3) Partizan Belgra | UEFA Konferans Ligi 3. Eleme Turu | 18:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Tobol Kostanay (0) VS (3) Partizan Belgra | UEFA Konferans Ligi 3. Eleme Turu | 18:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ilves (0) VS (1) Rijeka | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Flora Tallinn (0) VS (2) Inter Escaldes | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | MS 2 | 3.44 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Flora Tallinn (0) VS (2) Inter Escaldes | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | MS 2 | 3.67 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Qarabagh (0) VS (1) Dynamo Kiev | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | MS 2 | 3.65 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Abha VS Al Hazm | Suudi Arabistan Pro Lig | 19:15 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Daugava Riga (0) VS (2) Jablonec | UEFA Konferans Ligi 3. Eleme Turu | 19:30 | MS 2 | 3.08 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -38,8 +38,8 @@
 | St Gallen (3) VS (1) Sheriff Tiraspo | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Fc Drita (4) VS (1) Tre Fiori | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Al Shabab (Riy VS Al-Qadsiah | Suudi Arabistan Pro Lig | 21:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Diriyah VS Al Ahli (Cidde) | Suudi Arabistan Pro Lig | 21:00 | MS 1 | 5.07 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Grindavik VS Throttur | İzlanda 1.Lig | 21:00 | MS 1 | 4.46 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Diriyah VS Al Ahli (Cidde) | Suudi Arabistan Pro Lig | 21:00 | MS 1 | 4.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Grindavik VS Throttur | İzlanda 1.Lig | 21:00 | MS 1 | 4.59 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Aegir VS Völsungur | İzlanda 1.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Vestri VS Ir Reykjavik | İzlanda 1.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sleipner VS Lindo Ff | İsveç 2.Lig Södra Svealand | 21:00 | MS 2 | 3.56 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -50,7 +50,7 @@
 | Gyor (0) VS (1) Riga Fc | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gent (1) VS (0) Göteborg | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Motherwell (1) VS (1) Helsinki | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | MS 2 | 4.00 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Hearts (1) VS (6) Benfica | UEFA Avrupa Ligi 3. Eleme Turu | 21:45 | MS 1 | 5.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Hearts (1) VS (6) Benfica | UEFA Avrupa Ligi 3. Eleme Turu | 21:45 | MS 1 | 5.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Shelbourne (1) VS (3) Ajax | UEFA Konferans Ligi 3. Eleme Turu | 21:45 | Değerli market yok | - | 45 | Sadece izleme | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Egnatia (1) VS (3) Shamrock Rovers | UEFA Avrupa Ligi 3. Eleme Turu | 22:00 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hajduk Split (5) VS (2) Zalgiris Vilniu | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | MS 2 | 7.07 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
