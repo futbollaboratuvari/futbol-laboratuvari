@@ -1,20 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T16:28:34.103554+00:00
+Tarih: 2026-08-13T16:33:31.155845+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 45
+- Kac mac bulundu: 58
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 45
+- Kac mac zaten vardi: 58
 - Ham veri havuzu toplam mac sayisi: 6240
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
+- Meksika Ascenso MX Apertura
 - Suudi Arabistan Pro Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
 - UEFA Konferans Ligi 3. Eleme Turu
@@ -102,10 +109,10 @@ Tarih: 2026-08-13T16:28:34.103554+00:00
 | 13.08.2026 | 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) | (3) Thun | 11066 | 5 |
 | 13.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) | (0) Maccabi Tel Avi | 11144 | 5 |
 | 13.08.2026 | 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
-| 13.08.2026 | 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) | (1) Sheriff Tiraspo | 11311 | 5 |
 | 13.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Motherwell (1) | (1) Helsinki | 11657 | 5 |
 | 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Hammarby (0) | (0) Rakow Czestocho | 10492 | 5 |
 | 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Minsk (0) | (1) Braga | 10141 | 5 |
+| 13.08.2026 | 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) | (1) Sheriff Tiraspo | 11311 | 5 |
 | 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Tromso (5) | (0) Cfr Cluj | 10821 | 5 |
 | 13.08.2026 | 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Vaduz (1) | (2) Inter Turku | 11001 | 5 |
 | 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Ml Vitebsk (0) | (1) Borac Banja Luk | 10536 | 5 |
