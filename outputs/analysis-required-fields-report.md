@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 57
-Tam analiz: 54
+Toplam analiz: 49
+Tam analiz: 46
 Eksik analiz: 3
 
 - Grindavik VS Throttur: eksik score, confidence
