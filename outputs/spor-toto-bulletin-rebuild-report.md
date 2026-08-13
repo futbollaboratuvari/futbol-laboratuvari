@@ -1,6 +1,6 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-13T09:32:10.144Z
+- Guncelleme: 2026-08-13T10:43:27.241Z
 - Ham fixture sayisi: 6203
 - Bugun/yarin kaynak mac: 82
 - Aktif bulten maci: 62
