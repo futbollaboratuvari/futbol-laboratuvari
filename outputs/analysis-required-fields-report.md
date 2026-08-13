@@ -1,10 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 49
+Toplam analiz: 48
 Tam analiz: 46
-Eksik analiz: 3
+Eksik analiz: 2
 
-- Grindavik VS Throttur: eksik score, confidence
 - Hk Kopavogur VS Leiknir Reykjav: eksik score, confidence
 - 1 De Marzo VS Atlético Tembet: eksik score, confidence
