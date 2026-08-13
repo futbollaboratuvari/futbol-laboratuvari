@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
-Ham mac: 63
+Ham mac: 62
 Aktif mac: 62
-Canli mac: 1
+Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 1
+Bultenden dusurulen mac: 0
 Bugun: 48
 Yarin: 14
 
@@ -75,7 +75,7 @@ Yarin: 14
 - 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 
 ## Canli Maclar
-- 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | live | -
+Canli mac yok.
 
 ## Biten Maclar
 Biten mac yok.

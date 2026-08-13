@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-13T06:07:21.290Z
-- Ham maç sayısı: 63
+- Güncelleme: 2026-08-13T06:12:15.696Z
+- Ham maç sayısı: 62
 - Yarın bülteni maç sayısı: 14
-- Detay blok sayısı: 180
+- Detay blok sayısı: 177
 - Aktif bülten maçı: 62
-- Bültenden düşürülen maç: 1
+- Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -18,30 +18,30 @@
 | Qarabagh (0) - (1) Dynamo Kiev | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.59 | 8 |
 | Abha - Al Hazm | Suudi Arabistan Pro Lig | 19:15 | Veri bekleniyor | - | 2.34 | 8 |
 | Daugava Riga (0) - (2) Jablonec | UEFA Konferans Ligi 3. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.82 | 8 |
-| Beşiktaş (1) - (0) Hradec Kralove | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.13 | 6 |
+| Beşiktaş (1) - (0) Hradec Kralove | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.12 | 6 |
 | Pafos Fc (0) - (1) Salzburg | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.65 | 8 |
-| Universitatea (1) - (1) Kuopion | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.22 | 6 |
+| Universitatea (1) - (1) Kuopion | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.2 | 6 |
 | Gornik Zabrze (0) - (1) Ferencvaros | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.01 | 8 |
 | Omonia (1) - (1) Lincoln Red Imp | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | - | 5 |
 | Midtjylland (2) - (0) Bohemian | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.06 | 5 |
 | Hammarby (0) - (0) Rakow Czestocho | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.54 | 7 |
-| Ml Vitebsk (0) - (1) Borac Banja Luk | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.13 | 8 |
+| Ml Vitebsk (0) - (1) Borac Banja Luk | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 2.18 | 8 |
 | Dinamo Minsk (0) - (1) Braga | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 6.96 | 6 |
 | Nordsjaelland (2) - (0) Valur | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | - | 5 |
 | Tromso (5) - (0) Cfr Cluj | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.25 | 6 |
-| Dac (0) - (6) Twente | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 4.75 | 6 |
-| Kí Klaksvík (0) - (1) Lech Poznan | UEFA Avrupa Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 4.25 | 7 |
+| Dac (0) - (6) Twente | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 4.62 | 7 |
+| Kí Klaksvík (0) - (1) Lech Poznan | UEFA Avrupa Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 4.39 | 7 |
 | Vikingur Reykj (0) - (3) Thun | UEFA Avrupa Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 2.08 | 8 |
 | Vaduz (1) - (2) Inter Turku | UEFA Konferans Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.54 | 8 |
-| Runavik (0) - (2) Lugano | UEFA Konferans Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 6.89 | 6 |
+| Runavik (0) - (2) Lugano | UEFA Konferans Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 6.63 | 6 |
 | Cska Sofia (3) - (0) Maccabi Tel Avi | UEFA Avrupa Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.07 | 8 |
 | Skendija (1) - (2) Hibernian | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.13 | 8 |
 | St Gallen (3) - (1) Sheriff Tiraspo | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | 1.13 | 6 |
 | Fc Drita (4) - (1) Tre Fiori | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | - | 5 |
 | Al Shabab (Riy - Al-Qadsiah | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 4.39 | 6 |
 | Diriyah - Al Ahli (Cidde) | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 5.6 | 6 |
-| Grindavik - Throttur | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 4.32 | 5 |
-| Aegir - Völsungur | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.08 | 6 |
+| Grindavik - Throttur | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 4.46 | 4 |
+| Aegir - Völsungur | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.14 | 6 |
 | Vestri - Ir Reykjavik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.24 | 6 |
 | Sleipner - Lindo Ff | İsveç 2.Lig Södra Svealand | 21:00 | Veri bekleniyor | - | 1.57 | 6 |
 | Sion (2) - (2) Noah | UEFA Konferans Ligi 3. Eleme Turu | 21:15 | Veri bekleniyor | - | 1.43 | 7 |
@@ -51,10 +51,10 @@
 | Gyor (0) - (1) Riga Fc | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.03 | 8 |
 | Gent (1) - (0) Göteborg | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.31 | 6 |
 | Motherwell (1) - (1) Helsinki | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.49 | 7 |
-| Hearts (1) - (6) Benfica | UEFA Avrupa Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 5.2 | 6 |
+| Hearts (1) - (6) Benfica | UEFA Avrupa Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 5.37 | 6 |
 | Shelbourne (1) - (3) Ajax | UEFA Konferans Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 12.45 | 5 |
 | Egnatia (1) - (3) Shamrock Rovers | UEFA Avrupa Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.83 | 8 |
-| Hajduk Split (5) - (2) Zalgiris Vilniu | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.12 | 6 |
+| Hajduk Split (5) - (2) Zalgiris Vilniu | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.13 | 6 |
 | Dinamo Tirana (0) - (1) Auda | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
 | Fylkir - Afturelding | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 2.02 | 6 |
 | Hk Kopavogur - Leiknir Reykjav | İzlanda 1.Lig | 22:15 | Veri bekleniyor | - | 1.31 | 4 |
