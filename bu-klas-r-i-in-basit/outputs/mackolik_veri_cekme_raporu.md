@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T21:13:51.694182+00:00
+Tarih: 2026-08-13T21:56:45.839737+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 178
-- Kac mac kaydedildi: 178
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 6419
+- Kac mac bulundu: 162
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 161
+- Ham veri havuzu toplam mac sayisi: 6420
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -17,7 +17,6 @@ Tarih: 2026-08-13T21:13:51.694182+00:00
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Queensland
@@ -32,14 +31,11 @@ Tarih: 2026-08-13T21:13:51.694182+00:00
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
@@ -53,13 +49,10 @@ Tarih: 2026-08-13T21:13:51.694182+00:00
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Japonya J1 Lig
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya Kupa Çeyrek Final
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -76,8 +69,8 @@ Tarih: 2026-08-13T21:13:51.694182+00:00
 - Suudi Arabistan Pro Lig
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
+- UEFA Avrupa Ligi 3. Eleme Turu
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
@@ -105,7 +98,6 @@ Tarih: 2026-08-13T21:13:51.694182+00:00
 - İsveç Superettan
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -177,11 +169,12 @@ Tarih: 2026-08-13T21:13:51.694182+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 14.08.2026 | 21:30 | Türkiye Süper Lig | Galatasaray | Çorum | 02589 | 5 |
+| 14.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
 | 14.08.2026 | 21:00 | Hollanda Eredivisie | Telstar | Sparta Rotterda | 13497 | 5 |
 | 14.08.2026 | 22:15 | Portekiz Premier Lig | Sporting Cp | Guimaraes | 15929 | 5 |
+| 14.08.2026 | 19:50 | Suudi Arabistan Pro Lig | Neom Sc | Al Feiha | 07112 | 5 |
 | 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Faisaly | 12908 | 4 |
 | 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Riyadh | 12847 | 5 |
-| 14.08.2026 | 19:50 | Suudi Arabistan Pro Lig | Neom Sc | Al Feiha | 07112 | 5 |
 | 14.08.2026 | 21:30 | İspanya 2.Lig | Real Sociedad | Castellon | 13801 | 5 |
 | 14.08.2026 | 21:45 | Belçika Pro Lig | Cercle Brugge | St. Truidense | 15075 | 5 |
 | 14.08.2026 | 22:00 | İngiltere Championship | Wolverhampton | Blackburn | 15815 | 5 |
@@ -195,7 +188,6 @@ Tarih: 2026-08-13T21:13:51.694182+00:00
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Grenoble | Metz | 15226 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
 
 ## Sonuc
 
