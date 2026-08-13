@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 62
 - Live match count: 0
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-13 / 2026-08-14 23:59
 
 - 2026-08-13 18:00 | Tobol Kostanay (0) - (3) Partizan Belgra | scheduled
