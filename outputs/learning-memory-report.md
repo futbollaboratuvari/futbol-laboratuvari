@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.08.2026 21:13:00
+Oluşturma: 13.08.2026 21:36:21
 
 ## Özet
 
-- Toplam tahmin: 33
-- Bekleyen tahmin: 33
+- Toplam tahmin: 34
+- Bekleyen tahmin: 34
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 6
@@ -20,12 +20,13 @@ Oluşturma: 13.08.2026 21:13:00
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
+- MS X: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Shelbourne (1) - (3) Ajax | MS X | pending | 55/100
 - 2026-08-13 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | MS X | pending | 50/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) - (1) Sheriff Tiraspo | MS 2 | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 13.08.2026 21:13:00
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Gyor (0) - (1) Riga Fc | MS X | pending | 50/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Gent (1) - (0) Göteborg | MS 2 | pending | 60/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Motherwell (1) - (1) Helsinki | MS 2 | pending | 60/100
-- 2026-08-13 | Hazırlık Kulüpler | Chiclana - Sanluqueno | MS 1 | pending | 40/100
 

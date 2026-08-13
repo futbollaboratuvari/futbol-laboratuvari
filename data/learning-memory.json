@@ -1,28 +1,24 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-13T15:28:18.530Z",
-  "updated_at": "2026-08-13T18:13:02.726Z",
+  "updated_at": "2026-08-13T18:36:21.545Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 33,
-    "pending_predictions": 33,
+    "total_predictions": 34,
+    "pending_predictions": 34,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 6,
     "market_count": 3,
     "added_predictions": 0,
-    "updated_predictions": 0,
-    "last_score_link_checked": 33,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "updated_predictions": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 17,
-      "pending": 17,
+      "total": 18,
+      "pending": 18,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,9 +48,9 @@
     }
   },
   "league_memory": {
-    "İsveç 2.Lig Södra Svealand": {
-      "total": 2,
-      "pending": 2,
+    "UEFA Konferans Ligi 3. Eleme Turu": {
+      "total": 19,
+      "pending": 19,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -62,9 +58,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "UEFA Konferans Ligi 3. Eleme Turu": {
-      "total": 18,
-      "pending": 18,
+    "İsveç 2.Lig Södra Svealand": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -114,6 +110,16 @@
     }
   },
   "league_market_memory": {
+    "UEFA Konferans Ligi 3. Eleme Turu :: MS X": {
+      "total": 8,
+      "pending": 8,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İsveç 2.Lig Södra Svealand :: MS X": {
       "total": 1,
       "pending": 1,
@@ -127,16 +133,6 @@
     "UEFA Konferans Ligi 3. Eleme Turu :: MS 2": {
       "total": 10,
       "pending": 10,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "UEFA Konferans Ligi 3. Eleme Turu :: MS X": {
-      "total": 7,
-      "pending": 7,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -237,6 +233,24 @@
   },
   "predictions": [
     {
+      "id": "2026-08-13|uefa konferans ligi 3 eleme turu|shelbourne 1 3 ajax|ms x|21 45",
+      "date": "2026-08-13",
+      "created_at": "2026-08-13T18:36:17.981Z",
+      "match_name": "Shelbourne (1) - (3) Ajax",
+      "league": "UEFA Konferans Ligi 3. Eleme Turu",
+      "start_time": "21:45",
+      "market": "MS X",
+      "odds": "5.72",
+      "confidence_score": "55%",
+      "analysis_score": 55,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-13T18:36:21.544Z"
+    },
+    {
       "id": "2026-08-13|isvec 2 lig sodra svealand|sleipner lindo ff|ms x|21 00",
       "date": "2026-08-13",
       "created_at": "2026-08-13T17:35:19.784Z",
@@ -252,7 +266,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|st gallen 3 1 sheriff tiraspo|ms 2|21 00",
@@ -270,7 +284,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|skendija 1 2 hibernian|ms x|21 00",
@@ -288,7 +302,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|st gallen 3 1 sheriff tiraspo|ms x|21 00",
@@ -323,7 +337,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|izlanda 1 lig|grindavik throttur|ms 1|21 00",
@@ -341,7 +355,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|isvec 2 lig sodra svealand|sleipner lindo ff|ms 2|21 00",
@@ -376,7 +390,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|sion 2 2 noah|ms 2|21 15",
@@ -394,7 +408,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|anderlecht 1 0 paok|ms x|21 30",
@@ -412,7 +426,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|austria vienna 2 1 beitar jerusale|ms x|21 30",
@@ -430,7 +444,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|gyor 0 1 riga fc|ms x|21 30",
@@ -448,7 +462,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|gent 1 0 goteborg|ms 2|21 30",
@@ -466,7 +480,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|motherwell 1 1 helsinki|ms 2|21 30",
@@ -484,7 +498,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|hazirlik kulupler|chiclana sanluqueno|ms 1|21 30",
@@ -502,7 +516,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|egnatia 1 3 shamrock rovers|ms x|22 00",
@@ -520,7 +534,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|dinamo tirana 0 1 auda|ms x|22 00",
@@ -530,7 +544,7 @@
       "league": "UEFA Konferans Ligi 3. Eleme Turu",
       "start_time": "22:00",
       "market": "MS X",
-      "odds": "3.03",
+      "odds": "3.13",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
@@ -538,7 +552,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.625Z"
+      "updated_at": "2026-08-13T18:36:21.545Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|tobol kostanay 0 3 partizan belgra|ms x|18 00",
@@ -664,7 +678,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|pafos fc 0 1 salzburg|ms x|20 00",
@@ -682,7 +696,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|gornik zabrze 0 1 ferencvaros|ms x|20 00",
@@ -700,7 +714,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|hammarby 0 0 rakow czestocho|ms 2|20 00",
@@ -718,7 +732,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|ml vitebsk 0 1 borac banja luk|ms x|20 00",
@@ -736,7 +750,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|tromso 5 0 cfr cluj|ms 2|20 00",
@@ -754,7 +768,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|hazirlik kulupler|racing ferrol real aviles|ms x|20 00",
@@ -772,7 +786,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|vikingur reykj 0 3 thun|ms x|20 30",
@@ -790,7 +804,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa konferans ligi 3 eleme turu|vaduz 1 2 inter turku|ms 2|20 30",
@@ -808,7 +822,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     },
     {
       "id": "2026-08-13|uefa avrupa ligi 3 eleme turu|cska sofia 3 0 maccabi tel avi|ms x|21 00",
@@ -826,7 +840,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-13T18:13:00.624Z"
+      "updated_at": "2026-08-13T18:36:21.544Z"
     }
   ]
 }
