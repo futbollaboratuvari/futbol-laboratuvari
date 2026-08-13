@@ -1,8 +1,7 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-14 / 2026-08-15
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 192
 Aktif mac: 188
 Canli mac: 4
@@ -202,10 +201,10 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | live | -
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | live | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | live | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | live | -
+- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | live | -
 
 ## Biten Maclar
 Biten mac yok.
