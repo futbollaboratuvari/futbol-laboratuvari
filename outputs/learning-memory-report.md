@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.08.2026 23:53:37
+Oluşturma: 14.08.2026 00:05:44
 
 ## Özet
 
-- Toplam tahmin: 34
-- Bekleyen tahmin: 34
+- Toplam tahmin: 43
+- Bekleyen tahmin: 43
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 6
+- Lig sayısı: 11
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 13.08.2026 23:53:37
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS X: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | MS 2 | pending | 40/100
+- 2026-08-14 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | MS 2 | pending | 60/100
+- 2026-08-14 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | MS X | pending | 40/100
+- 2026-08-14 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | MS X | pending | 40/100
+- 2026-08-14 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | MS X | pending | 50/100
+- 2026-08-14 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | MS 2 | pending | 50/100
+- 2026-08-14 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | MS 2 | pending | 50/100
+- 2026-08-14 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | MS X | pending | 40/100
+- 2026-08-14 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | MS X | pending | 60/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Shelbourne (1) - (3) Ajax | MS X | pending | 55/100
 - 2026-08-13 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | MS X | pending | 50/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) - (1) Sheriff Tiraspo | MS 2 | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | MS X | pending | 50/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) - (1) Sheriff Tiraspo | MS X | pending | 40/100
 - 2026-08-13 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al-Qadsiah | MS 1 | pending | 40/100
-- 2026-08-13 | İzlanda 1.Lig | Grindavik - Throttur | MS 1 | pending | 40/100
-- 2026-08-13 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | MS 2 | pending | 50/100
-- 2026-08-13 | Hazırlık Kulüpler | Tarragona - Huesca | MS X | pending | 40/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) - (2) Noah | MS 2 | pending | 60/100
-- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) - (0) Paok | MS X | pending | 50/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Austria Vienna (2) - (1) Beitar Jerusale | MS X | pending | 50/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Gyor (0) - (1) Riga Fc | MS X | pending | 50/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Gent (1) - (0) Göteborg | MS 2 | pending | 60/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Motherwell (1) - (1) Helsinki | MS 2 | pending | 60/100
 

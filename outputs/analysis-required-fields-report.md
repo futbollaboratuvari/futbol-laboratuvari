@@ -1,10 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 47
-Tam analiz: 44
-Eksik analiz: 3
+Durum: ok
+Toplam analiz: 14
+Tam analiz: 14
+Eksik analiz: 0
 
-- Dinamo Minsk (0) VS (1) Braga: eksik score, confidence
-- Hk Kopavogur VS Leiknir Reykjav: eksik score, confidence
-- 1 De Marzo VS Atlético Tembet: eksik score, confidence
