@@ -4,8 +4,8 @@ Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 82
 Aktif mac: 62
-Canli mac: 5
-Biten mac: 15
+Canli mac: 1
+Biten mac: 19
 Bultenden dusurulen mac: 20
 Bugun: 48
 Yarin: 14
@@ -75,10 +75,6 @@ Yarin: 14
 - 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 
 ## Canli Maclar
-- 2026-08-13 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Dallas | live | -
-- 2026-08-13 05:15 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Puebla | live | -
-- 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Guadalajara | live | -
-- 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Queretaro | live | -
 - 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | live | -
 
 ## Biten Maclar
@@ -97,3 +93,7 @@ Yarin: 14
 - 2026-08-13 03:30 | ABD USL Kupası Çeyrek Final | San Antonio - Miami Fc | finished | -
 - 2026-08-13 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Cs Cartagines | finished | -
 - 2026-08-13 04:00 | ABD USL Kupası Çeyrek Final | Spokane Veloci - Colorado Spring | finished | -
+- 2026-08-13 05:00 | CONCACAF Ligler Kupası Grup Aşaması | Toluca - Dallas | finished | -
+- 2026-08-13 05:15 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Puebla | finished | -
+- 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Guadalajara | finished | -
+- 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Queretaro | finished | -
