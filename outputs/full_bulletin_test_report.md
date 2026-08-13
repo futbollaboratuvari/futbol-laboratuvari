@@ -2,14 +2,14 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 191
-- Live match count: 0
+- Scheduled match count: 189
+- Live match count: 3
 - Finished removed count: 0
 - Date window: 2026-08-14 / 2026-08-15 23:59
 
-- 2026-08-14 01:00 | Mirassol - Ldu Quito | scheduled
-- 2026-08-14 01:00 | Santos - Depor Macara | scheduled
-- 2026-08-14 01:00 | Vasco Da Gama - Olimpia Asuncio | scheduled
+- 2026-08-14 01:00 | Mirassol - Ldu Quito | live
+- 2026-08-14 01:00 | Santos - Depor Macara | live
+- 2026-08-14 01:00 | Vasco Da Gama - Olimpia Asuncio | live
 - 2026-08-14 02:00 | Philadelphia - Santos Laguna | scheduled
 - 2026-08-14 02:30 | New York City - Necaxa | scheduled
 - 2026-08-14 03:00 | Alianza Fc - Umecit | scheduled
