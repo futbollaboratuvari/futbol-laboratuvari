@@ -3,15 +3,14 @@
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 61
-Aktif mac: 16
-Canli mac: 45
+Aktif mac: 15
+Canli mac: 46
 Biten mac: 0
-Bultenden dusurulen mac: 45
-Bugun: 2
+Bultenden dusurulen mac: 46
+Bugun: 1
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 22:30 | Paraguay Kupa 3.Tur | 1 De Marzo - Atlético Tembet | scheduled | -
 - 2026-08-13 22:45 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | scheduled | -
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | scheduled | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | scheduled | -
@@ -74,6 +73,7 @@ Yarin: 14
 - 2026-08-13 22:15 | İzlanda 1.Lig | Fylkir - Afturelding | live | -
 - 2026-08-13 22:15 | İzlanda 1.Lig | Hk Kopavogur - Leiknir Reykjav | live | -
 - 2026-08-13 22:15 | İzlanda 1.Lig | Grotta - Njardvik | live | -
+- 2026-08-13 22:30 | Paraguay Kupa 3.Tur | 1 De Marzo - Atlético Tembet | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 24
-- Live match count: 37
-- Finished removed count: 0
+- Scheduled match count: 15
+- Live match count: 32
+- Finished removed count: 14
 - Date window: 2026-08-13 / 2026-08-14 23:59
 
-- 2026-08-13 19:30 | Daugava Riga (0) - (2) Jablonec | live
-- 2026-08-13 20:00 | Racing Ferrol - Real Aviles | live
-- 2026-08-13 20:00 | Beşiktaş (1) - (0) Hradec Kralove | live
-- 2026-08-13 20:00 | Gornik Zabrze (0) - (1) Ferencvaros | live
-- 2026-08-13 20:00 | Omonia (1) - (1) Lincoln Red Imp | live
-- 2026-08-13 20:00 | Pafos Fc (0) - (1) Salzburg | live
-- 2026-08-13 20:00 | Universitatea (1) - (1) Kuopion | live
-- 2026-08-13 20:00 | Dac (0) - (6) Twente | live
-- 2026-08-13 20:00 | Dinamo Minsk (0) - (1) Braga | live
-- 2026-08-13 20:00 | Hammarby (0) - (0) Rakow Czestocho | live
+- 2026-08-13 20:30 | Kí Klaksvík (0) - (1) Lech Poznan | live
+- 2026-08-13 20:30 | Vikingur Reykj (0) - (3) Thun | live
+- 2026-08-13 20:30 | Runavik (0) - (2) Lugano | live
+- 2026-08-13 20:30 | Vaduz (1) - (2) Inter Turku | live
+- 2026-08-13 21:00 | Tarragona - Huesca | live
+- 2026-08-13 21:00 | Sleipner - Lindo Ff | live
+- 2026-08-13 21:00 | Aegir - Völsungur | live
+- 2026-08-13 21:00 | Grindavik - Throttur | live
+- 2026-08-13 21:00 | Vestri - Ir Reykjavik | live
+- 2026-08-13 21:00 | Al Shabab (Riy - Al-Qadsiah | live
