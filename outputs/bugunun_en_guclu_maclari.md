@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-13T02:32:13.303Z
-- Ham maç sayısı: 77
+- Güncelleme: 2026-08-13T02:49:55.902Z
+- Ham maç sayısı: 71
 - Yarın bülteni maç sayısı: 14
-- Detay blok sayısı: 222
+- Detay blok sayısı: 204
 - Aktif bülten maçı: 63
-- Bültenden düşürülen maç: 14
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -16,7 +16,7 @@
 | Tobol Kostanay (0) - (3) Partizan Belgra | UEFA Konferans Ligi 3. Eleme Turu | 18:00 | Veri bekleniyor | - | 2.59 | 8 |
 | Ilves (0) - (1) Rijeka | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 4.04 | 7 |
 | Flora Tallinn (0) - (2) Inter Escaldes | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.65 | 8 |
-| Qarabagh (0) - (1) Dynamo Kiev | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.63 | 8 |
+| Qarabagh (0) - (1) Dynamo Kiev | UEFA Konferans Ligi 3. Eleme Turu | 19:00 | Veri bekleniyor | - | 1.59 | 8 |
 | Abha - Al Hazm | Suudi Arabistan Pro Lig | 19:15 | Veri bekleniyor | - | 2.34 | 8 |
 | Daugava Riga (0) - (2) Jablonec | UEFA Konferans Ligi 3. Eleme Turu | 19:30 | Veri bekleniyor | - | 1.82 | 8 |
 | Beşiktaş (1) - (0) Hradec Kralove | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Veri bekleniyor | - | 1.14 | 6 |
@@ -36,7 +36,7 @@
 | Vaduz (1) - (2) Inter Turku | UEFA Konferans Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 1.54 | 8 |
 | Runavik (0) - (2) Lugano | UEFA Konferans Ligi 3. Eleme Turu | 20:30 | Veri bekleniyor | - | 7.66 | 6 |
 | Cska Sofia (3) - (0) Maccabi Tel Avi | UEFA Avrupa Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.07 | 8 |
-| Skendija (1) - (2) Hibernian | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.18 | 8 |
+| Skendija (1) - (2) Hibernian | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | 2.13 | 8 |
 | St Gallen (3) - (1) Sheriff Tiraspo | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | 1.14 | 6 |
 | Fc Drita (4) - (1) Tre Fiori | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | Veri bekleniyor | - | - | 5 |
 | Al Shabab (Riy - Al-Qadsiah | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 4.54 | 6 |
@@ -46,14 +46,14 @@
 | Vestri - Ir Reykjavik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.24 | 6 |
 | Sleipner - Lindo Ff | İsveç 2.Lig Södra Svealand | 21:00 | Veri bekleniyor | - | 1.57 | 6 |
 | Sion (2) - (2) Noah | UEFA Konferans Ligi 3. Eleme Turu | 21:15 | Veri bekleniyor | - | 1.28 | 6 |
-| Glasgow Ranger (1) - (2) Jagiellonia | UEFA Avrupa Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.36 | 7 |
+| Glasgow Ranger (1) - (2) Jagiellonia | UEFA Avrupa Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.34 | 7 |
 | Anderlecht (1) - (0) Paok | UEFA Avrupa Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.6 | 8 |
 | Austria Vienna (2) - (1) Beitar Jerusale | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.96 | 8 |
 | Gyor (0) - (1) Riga Fc | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 2.03 | 8 |
 | Gent (1) - (0) Göteborg | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.31 | 6 |
-| Motherwell (1) - (1) Helsinki | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.51 | 7 |
+| Motherwell (1) - (1) Helsinki | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | Veri bekleniyor | - | 1.49 | 7 |
 | Hearts (1) - (6) Benfica | UEFA Avrupa Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 5.4 | 6 |
-| Shelbourne (1) - (3) Ajax | UEFA Konferans Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 12 | 5 |
+| Shelbourne (1) - (3) Ajax | UEFA Konferans Ligi 3. Eleme Turu | 21:45 | Veri bekleniyor | - | 12.45 | 5 |
 | Egnatia (1) - (3) Shamrock Rovers | UEFA Avrupa Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.83 | 8 |
 | Hajduk Split (5) - (2) Zalgiris Vilniu | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.11 | 6 |
 | Dinamo Tirana (0) - (1) Auda | UEFA Konferans Ligi 3. Eleme Turu | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
