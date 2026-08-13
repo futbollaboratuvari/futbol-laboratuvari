@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-13T16:33:34.970Z
-- Ham fixture sayisi: 6207
-- Bugun/yarin kaynak mac: 86
-- Aktif bulten maci: 59
+- Guncelleme: 2026-08-13T17:40:32.531Z
+- Ham fixture sayisi: 6208
+- Bugun/yarin kaynak mac: 87
+- Aktif bulten maci: 43
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 27
+- Bultenden dusurulen mac: 44
 
-- 1. 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Beşiktaş (1) - (0) Hradec Kralove | scheduled
-- 2. 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dac (0) - (6) Twente | scheduled
-- 3. 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Minsk (0) - (1) Braga | scheduled
-- 4. 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) - (1) Ferencvaros | scheduled
-- 5. 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Hammarby (0) - (0) Rakow Czestocho | scheduled
-- 6. 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Midtjylland (2) - (0) Bohemian | scheduled
-- 7. 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Ml Vitebsk (0) - (1) Borac Banja Luk | scheduled
-- 8. 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Nordsjaelland (2) - (0) Valur | scheduled
-- 9. 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Omonia (1) - (1) Lincoln Red Imp | scheduled
-- 10. 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) - (1) Salzburg | scheduled
-- 11. 2026-08-13 20:00 | Hazırlık Kulüpler | Racing Ferrol - Real Aviles | scheduled
-- 12. 2026-08-13 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Tromso (5) - (0) Cfr Cluj | scheduled
-- 13. 2026-08-13 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Universitatea (1) - (1) Kuopion | scheduled
-- 14. 2026-08-13 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | scheduled
-- 15. 2026-08-13 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Runavik (0) - (2) Lugano | scheduled
+- 1. 2026-08-13 21:00 | İzlanda 1.Lig | Aegir - Völsungur | scheduled
+- 2. 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al-Qadsiah | scheduled
+- 3. 2026-08-13 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) - (0) Maccabi Tel Avi | scheduled
+- 4. 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Diriyah - Al Ahli (Cidde) | scheduled
+- 5. 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Fc Drita (4) - (1) Tre Fiori | scheduled
+- 6. 2026-08-13 21:00 | İzlanda 1.Lig | Grindavik - Throttur | scheduled
+- 7. 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | scheduled
+- 8. 2026-08-13 21:00 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | scheduled
+- 9. 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) - (1) Sheriff Tiraspo | scheduled
+- 10. 2026-08-13 21:00 | Hazırlık Kulüpler | Tarragona - Huesca | scheduled
+- 11. 2026-08-13 21:00 | İzlanda 1.Lig | Vestri - Ir Reykjavik | scheduled
+- 12. 2026-08-13 21:15 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) - (2) Noah | scheduled
+- 13. 2026-08-13 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) - (0) Paok | scheduled
+- 14. 2026-08-13 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Austria Vienna (2) - (1) Beitar Jerusale | scheduled
+- 15. 2026-08-13 21:30 | Hazırlık Kulüpler | Chiclana - Sanluqueno | scheduled

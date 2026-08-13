@@ -1,20 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T17:34:44.611669+00:00
+Tarih: 2026-08-13T17:40:29.147044+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 29
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 28
+- Kac mac bulundu: 42
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 42
 - Ham veri havuzu toplam mac sayisi: 6241
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
+- Meksika Ascenso MX Apertura
 - Suudi Arabistan Pro Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
 - UEFA Konferans Ligi 3. Eleme Turu
@@ -90,11 +97,11 @@ Tarih: 2026-08-13T17:34:44.611669+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 13.08.2026 | 21:45 | UEFA Avrupa Ligi 3. Eleme Turu | Hearts (1) | (6) Benfica | 11731 | 5 |
 | 13.08.2026 | 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Glasgow Ranger (1) | (2) Jagiellonia | 11691 | 5 |
 | 13.08.2026 | 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) | (0) Paok | 11426 | 5 |
-| 13.08.2026 | 21:45 | UEFA Avrupa Ligi 3. Eleme Turu | Hearts (1) | (6) Benfica | 11731 | 5 |
-| 13.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Egnatia (1) | (3) Shamrock Rovers | 11907 | 5 |
 | 13.08.2026 | 22:45 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
+| 13.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Egnatia (1) | (3) Shamrock Rovers | 11907 | 5 |
 | 13.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) | (0) Maccabi Tel Avi | 11144 | 5 |
 | 13.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) | (1) Auda | 11832 | 5 |
 | 13.08.2026 | 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) | (1) Sheriff Tiraspo | 11311 | 5 |
@@ -109,7 +116,7 @@ Tarih: 2026-08-13T17:34:44.611669+00:00
 | 13.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Motherwell (1) | (1) Helsinki | 11657 | 5 |
 | 13.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al Ahli (Cidde) | 12591 | 5 |
 | 13.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al-Qadsiah | 12594 | 5 |
-| 13.08.2026 | 21:30 | Hazırlık Kulüpler | Chiclana | Sanluqueno | 07398 | 5 |
+| 14.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Mirassol | Ldu Quito | 11950 | 5 |
 
 ## Sonuc
 
