@@ -4,31 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-13T19:32:22.523Z
+- Güncelleme: 2026-08-13T19:43:53.441Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Daugava Riga (0) VS (2) Jablonec | UEFA Konferans Ligi 3. Eleme Turu | 19:30 | MS 2 | 2.99 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Beşiktaş (1) VS (0) Hradec Kralove | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Pafos Fc (0) VS (1) Salzburg | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Universitatea (1) VS (1) Kuopion | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Gornik Zabrze (0) VS (1) Ferencvaros | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Omonia (1) VS (1) Lincoln Red Imp | UEFA Avrupa Ligi 3. Eleme Turu | 20:00 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Midtjylland (2) VS (0) Bohemian | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Değerli market yok | - | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Hammarby (0) VS (0) Rakow Czestocho | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | MS 2 | 4.90 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Ml Vitebsk (0) VS (1) Borac Banja Luk | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | MS X | 2.90 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Dinamo Minsk (0) VS (1) Braga | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Nordsjaelland (2) VS (0) Valur | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Tromso (5) VS (0) Cfr Cluj | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | MS 2 | 4.52 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Dac (0) VS (6) Twente | UEFA Konferans Ligi 3. Eleme Turu | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Racing Ferrol VS Real Aviles | Hazırlık Kulüpler | 20:00 | MS X | 2.88 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Kí Klaksvík (0) VS (1) Lech Poznan | UEFA Avrupa Ligi 3. Eleme Turu | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Vikingur Reykj (0) VS (3) Thun | UEFA Avrupa Ligi 3. Eleme Turu | 20:30 | MS X | 3.45 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
-| Vaduz (1) VS (2) Inter Turku | UEFA Konferans Ligi 3. Eleme Turu | 20:30 | MS 2 | 3.65 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Runavik (0) VS (2) Lugano | UEFA Konferans Ligi 3. Eleme Turu | 20:30 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Cska Sofia (3) VS (0) Maccabi Tel Avi | UEFA Avrupa Ligi 3. Eleme Turu | 21:00 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Skendija (1) VS (2) Hibernian | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | St Gallen (3) VS (1) Sheriff Tiraspo | UEFA Konferans Ligi 3. Eleme Turu | 21:00 | MS 2 | 7.41 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
@@ -65,18 +47,17 @@
 | New York City VS Necaxa | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 3.80 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Alianza Fc VS Umecit | CONCACAF Orta Amerika Kupası Grup C | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Rosario Centra VS Corinthians | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Cienciano VS Botafogo | Copa Sudamericana Son 16 Turu | 03:30 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cienciano VS Botafogo | Copa Sudamericana Son 16 Turu | 03:30 | MS X | 2.90 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Club America VS Austin | CONCACAF Ligler Kupası Grup Aşaması | 03:30 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cruz Azul VS Chicago | CONCACAF Ligler Kupası Grup Aşaması | 04:00 | MS X | 2.79 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Alebrijes VS Tepatitlan De M | Meksika Ascenso MX Apertura | 04:00 | MS 2 | 3.61 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Firpo VS Diriangen | CONCACAF Orta Amerika Kupası Grup A | 05:00 | MS 2 | 3.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Firpo VS Diriangen | CONCACAF Orta Amerika Kupası Grup A | 05:00 | MS 2 | 4.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Antigua Guatem VS Marathon | CONCACAF Orta Amerika Kupası Grup B | 05:00 | MS X | 2.75 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Portland VS Club Tijuana | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS X | 3.30 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vikingur Reykj (0) VS (3) Thun | MS X | 3.45 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
