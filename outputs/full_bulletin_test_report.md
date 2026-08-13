@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 14
-- Live match count: 17
-- Finished removed count: 1
-- Date window: 2026-08-13 / 2026-08-14 23:59
+- Live match count: 0
+- Finished removed count: 0
+- Date window: 2026-08-14 / 2026-08-15 23:59
 
-- 2026-08-13 21:30 | Chiclana - Sanluqueno | live
-- 2026-08-13 21:30 | Anderlecht (1) - (0) Paok | live
-- 2026-08-13 21:30 | Glasgow Ranger (1) - (2) Jagiellonia | live
-- 2026-08-13 21:30 | Austria Vienna (2) - (1) Beitar Jerusale | live
-- 2026-08-13 21:30 | Gent (1) - (0) Göteborg | live
-- 2026-08-13 21:30 | Gyor (0) - (1) Riga Fc | live
-- 2026-08-13 21:30 | Motherwell (1) - (1) Helsinki | live
-- 2026-08-13 21:45 | Hearts (1) - (6) Benfica | live
-- 2026-08-13 21:45 | Shelbourne (1) - (3) Ajax | live
-- 2026-08-13 22:00 | Egnatia (1) - (3) Shamrock Rovers | live
+- 2026-08-14 01:00 | Mirassol - Ldu Quito | scheduled
+- 2026-08-14 01:00 | Santos - Depor Macara | scheduled
+- 2026-08-14 01:00 | Vasco Da Gama - Olimpia Asuncio | scheduled
+- 2026-08-14 02:00 | Philadelphia - Santos Laguna | scheduled
+- 2026-08-14 02:30 | New York City - Necaxa | scheduled
+- 2026-08-14 03:00 | Alianza Fc - Umecit | scheduled
+- 2026-08-14 03:30 | Club America - Austin | scheduled
+- 2026-08-14 03:30 | Rosario Centra - Corinthians | scheduled
+- 2026-08-14 03:30 | Cienciano - Botafogo | scheduled
+- 2026-08-14 04:00 | Cruz Azul - Chicago | scheduled
