@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T22:03:09.260943+00:00
+Tarih: 2026-08-13T22:47:48.506888+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 179
+- Kac mac bulundu: 177
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 179
+- Kac mac zaten vardi: 177
 - Ham veri havuzu toplam mac sayisi: 6420
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
@@ -58,7 +58,6 @@ Tarih: 2026-08-13T22:03:09.260943+00:00
 - Letonya Kupa Çeyrek Final
 - Litvanya 1.Lig
 - Macaristan NB I
-- Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
