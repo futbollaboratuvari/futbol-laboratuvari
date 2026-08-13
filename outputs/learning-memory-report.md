@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.08.2026 08:09:09
+Oluşturma: 13.08.2026 08:16:16
 
 ## Özet
 
-- Toplam tahmin: 140
-- Bekleyen tahmin: 140
+- Toplam tahmin: 142
+- Bekleyen tahmin: 142
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 31
+- Lig sayısı: 32
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,14 @@ Oluşturma: 13.08.2026 08:09:09
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 49, bekleyen 49, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS X: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) - (2) Noah | MS 2 | pending | 60/100
+- 2026-08-13 | İzlanda 1.Lig | Grindavik - Throttur | MS 1 | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) - (2) Zalgiris Vilniu | MS X | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) - (1) Auda | MS 2 | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Tobol Kostanay (0) - (3) Partizan Belgra | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 13.08.2026 08:09:09
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Ml Vitebsk (0) - (1) Borac Banja Luk | MS X | pending | 50/100
 - 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) - (3) Thun | MS X | pending | 60/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Vaduz (1) - (2) Inter Turku | MS 2 | pending | 50/100
-- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) - (0) Maccabi Tel Avi | MS X | pending | 40/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | MS X | pending | 50/100
 
