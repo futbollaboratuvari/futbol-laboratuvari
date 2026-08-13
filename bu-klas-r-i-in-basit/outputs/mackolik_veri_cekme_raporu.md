@@ -1,27 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T18:35:34.504367+00:00
+Tarih: 2026-08-13T18:40:25.732656+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 24
+- Kac mac bulundu: 10
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 24
+- Kac mac zaten vardi: 10
 - Ham veri havuzu toplam mac sayisi: 6241
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- CONCACAF Ligler Kupası Grup Aşaması
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup C
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
-- Meksika Ascenso MX Apertura
 - UEFA Avrupa Ligi 3. Eleme Turu
 - UEFA Konferans Ligi 3. Eleme Turu
 - İzlanda 1.Lig
@@ -101,20 +94,10 @@ Tarih: 2026-08-13T18:35:34.504367+00:00
 | 13.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) | (1) Auda | 11832 | 5 |
 | 13.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) | (2) Zalgiris Vilniu | 11871 | 5 |
 | 13.08.2026 | 21:45 | UEFA Konferans Ligi 3. Eleme Turu | Shelbourne (1) | (3) Ajax | 11779 | 5 |
-| 14.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Mirassol | Ldu Quito | 11950 | 5 |
-| 14.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra | Corinthians | 12196 | 5 |
-| 14.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Santos | Depor Macara | 12008 | 5 |
-| 14.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama | Olimpia Asuncio | 12064 | 5 |
-| 14.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Cienciano | Botafogo | 12126 | 5 |
-| 14.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo | Diriangen | 00178 | 5 |
-| 14.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem | Marathon | 00084 | 5 |
-| 14.08.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc | Umecit | 01712 | 3 |
-| 14.08.2026 | 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia | Santos Laguna | 06995 | 5 |
-| 14.08.2026 | 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul | Chicago | 14770 | 5 |
-| 14.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America | Austin | 07120 | 5 |
-| 14.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City | Necaxa | 14728 | 5 |
-| 14.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland | Club Tijuana | 07202 | 5 |
 | 13.08.2026 | 21:30 | Hazırlık Kulüpler | Chiclana | Sanluqueno | 07398 | 5 |
+| 13.08.2026 | 22:15 | İzlanda 1.Lig | Grotta | Njardvik | 12545 | 3 |
+| 13.08.2026 | 22:15 | İzlanda 1.Lig | Hk Kopavogur | Leiknir Reykjav | 12547 | 3 |
+| 13.08.2026 | 22:15 | İzlanda 1.Lig | Fylkir | Afturelding | 12543 | 3 |
 
 ## Sonuc
 
