@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-12T23:51:03.032Z
+- Güncelleme: 2026-08-13T00:01:04.912Z
 - Ham maç sayısı: 82
 - Yarın bülteni maç sayısı: 14
 - Detay blok sayısı: 237
-- Aktif bülten maçı: 73
-- Bültenden düşürülen maç: 9
+- Aktif bülten maçı: 71
+- Bültenden düşürülen maç: 11
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Monterrey - Nashville Sc | CONCACAF Ligler Kupası Grup Aşaması | 03:00 | Veri bekleniyor | - | 2.53 | 8 |
-| Forward Madiso - Greenville Triu | ABD USL Lig 1 | 03:00 | Veri bekleniyor | - | 1.48 | 7 |
 | Cruzeiro - Flamengo | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 2.6 | 8 |
 | San Antonio - Miami Fc | ABD USL Kupası Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.79 | 8 |
 | Depor Motagua - Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 04:00 | Veri bekleniyor | - | 1.79 | 8 |

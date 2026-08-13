@@ -3,16 +3,14 @@
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 82
-Aktif mac: 73
-Canli mac: 9
+Aktif mac: 71
+Canli mac: 11
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 59
+Bultenden dusurulen mac: 11
+Bugun: 57
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Nashville Sc | scheduled | -
-- 2026-08-13 03:00 | ABD USL Lig 1 | Forward Madiso - Greenville Triu | scheduled | -
 - 2026-08-13 03:30 | Copa Libertadores Son 16 Turu | Cruzeiro - Flamengo | scheduled | -
 - 2026-08-13 03:30 | ABD USL Kupası Çeyrek Final | San Antonio - Miami Fc | scheduled | -
 - 2026-08-13 04:00 | CONCACAF Orta Amerika Kupası Grup D | Depor Motagua - Cs Cartagines | scheduled | -
@@ -95,6 +93,8 @@ Yarin: 14
 - 2026-08-13 02:00 | ABD USL Kupası Çeyrek Final | Charlotte Inde - Hartford Athlet | live | -
 - 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Inter Miami - Club Leon | live | -
 - 2026-08-13 02:30 | CONCACAF Ligler Kupası Grup Aşaması | Orlando City - Atletico San Lu | live | -
+- 2026-08-13 03:00 | CONCACAF Ligler Kupası Grup Aşaması | Monterrey - Nashville Sc | live | -
+- 2026-08-13 03:00 | ABD USL Lig 1 | Forward Madiso - Greenville Triu | live | -
 
 ## Biten Maclar
 Biten mac yok.
