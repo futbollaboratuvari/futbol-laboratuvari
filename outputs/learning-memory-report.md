@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.08.2026 15:09:22
+Oluşturma: 13.08.2026 15:36:28
 
 ## Özet
 
-- Toplam tahmin: 145
-- Bekleyen tahmin: 145
+- Toplam tahmin: 147
+- Bekleyen tahmin: 147
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 33
@@ -20,12 +20,14 @@ Oluşturma: 13.08.2026 15:09:22
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 86, bekleyen 86, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
-- MS X: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) - (1) Auda | MS X | pending | 40/100
+- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Universitatea (1) - (1) Kuopion | MS X | pending | 75/100
 - 2026-08-13 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | MS 2 | pending | 50/100
 - 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Universitatea (1) - (1) Kuopion | MS 2 | pending | 75/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) - (2) Zalgiris Vilniu | MS 2 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 13.08.2026 15:09:22
 - 2026-08-13 | Suudi Arabistan Pro Lig | Abha - Al Hazm | MS X | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Daugava Riga (0) - (2) Jablonec | MS 2 | pending | 40/100
 - 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) - (1) Salzburg | MS X | pending | 50/100
-- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) - (1) Ferencvaros | MS X | pending | 50/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Hammarby (0) - (0) Rakow Czestocho | MS 2 | pending | 50/100
 
