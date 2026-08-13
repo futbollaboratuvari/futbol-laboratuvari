@@ -1,14 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-13T22:47:48.506888+00:00
+=======
+Tarih: 2026-08-13T22:55:00.309298+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 177
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 177
+=======
+- Kac mac bulundu: 160
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 160
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 6420
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
@@ -17,7 +27,6 @@ Tarih: 2026-08-13T22:47:48.506888+00:00
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Queensland
@@ -32,14 +41,11 @@ Tarih: 2026-08-13T22:47:48.506888+00:00
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
@@ -53,12 +59,13 @@ Tarih: 2026-08-13T22:47:48.506888+00:00
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Japonya J1 Lig
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya Kupa Çeyrek Final
 - Litvanya 1.Lig
 - Macaristan NB I
+<<<<<<< Updated upstream
 - Meksika Ascenso MX Apertura
+=======
+>>>>>>> Stashed changes
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -77,7 +84,6 @@ Tarih: 2026-08-13T22:47:48.506888+00:00
 - Türkiye Süper Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
@@ -105,7 +111,6 @@ Tarih: 2026-08-13T22:47:48.506888+00:00
 - İsveç Superettan
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
