@@ -1,37 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T07:56:46.078194+00:00
+Tarih: 2026-08-13T08:05:28.154033+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 47
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 47
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 6236
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Suudi Arabistan Pro Lig
-- UEFA Avrupa Ligi 3. Eleme Turu
-- UEFA Konferans Ligi 3. Eleme Turu
-- İsveç 2.Lig Södra Svealand
-- İzlanda 1.Lig
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -76,39 +73,57 @@ Tarih: 2026-08-13T07:56:46.078194+00:00
 ## Mac Detay Pencereleri
 
 - Denenen Tumu alani: 12
-- Acilan detay: 12
+- Acilan detay: 2
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Detay acilamadi #3: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(2)
+
+- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
+
+- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
+
+- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
+
+- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
+
+- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
+
+- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
+
+- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
+
+- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
+
+- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 13.08.2026 | 21:45 | UEFA Avrupa Ligi 3. Eleme Turu | Hearts (1) | (6) Benfica | 11731 | 5 |
-| 13.08.2026 | 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) | (0) Paok | 11426 | 5 |
-| 13.08.2026 | 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) | (3) Thun | 11066 | 5 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) | (1) Salzburg | 10768 | 5 |
-| 13.08.2026 | 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
-| 13.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) | (0) Maccabi Tel Avi | 11144 | 5 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Omonia (1) | (1) Lincoln Red Imp | 10677 | 4 |
-| 13.08.2026 | 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Glasgow Ranger (1) | (2) Jagiellonia | 11691 | 5 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) | (1) Ferencvaros | 10305 | 5 |
-| 13.08.2026 | 22:00 | UEFA Avrupa Ligi 3. Eleme Turu | Egnatia (1) | (3) Shamrock Rovers | 11907 | 5 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Universitatea (1) | (1) Kuopion | 10854 | 5 |
-| 13.08.2026 | 20:00 | UEFA Avrupa Ligi 3. Eleme Turu | Beşiktaş (1) | (0) Hradec Kralove | 10054 | 5 |
-| 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Ilves (0) | (1) Rijeka | 09698 | 5 |
-| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Ml Vitebsk (0) | (1) Borac Banja Luk | 10536 | 5 |
-| 13.08.2026 | 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Vaduz (1) | (2) Inter Turku | 11001 | 5 |
-| 13.08.2026 | 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) | (1) Sheriff Tiraspo | 11311 | 5 |
-| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Minsk (0) | (1) Braga | 10141 | 5 |
-| 13.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Motherwell (1) | (1) Helsinki | 11657 | 5 |
-| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Hammarby (0) | (0) Rakow Czestocho | 10492 | 5 |
-| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Tromso (5) | (0) Cfr Cluj | 10821 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
