@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 15
-- Live match count: 28
+- Scheduled match count: 14
+- Live match count: 18
 - Finished removed count: 0
 - Date window: 2026-08-13 / 2026-08-14 23:59
 
-- 2026-08-13 21:00 | Tarragona - Huesca | live
-- 2026-08-13 21:00 | Sleipner - Lindo Ff | live
-- 2026-08-13 21:00 | Aegir - Völsungur | live
-- 2026-08-13 21:00 | Grindavik - Throttur | live
-- 2026-08-13 21:00 | Vestri - Ir Reykjavik | live
-- 2026-08-13 21:00 | Al Shabab (Riy - Al-Qadsiah | live
-- 2026-08-13 21:00 | Diriyah - Al Ahli (Cidde) | live
-- 2026-08-13 21:00 | Cska Sofia (3) - (0) Maccabi Tel Avi | live
-- 2026-08-13 21:00 | Fc Drita (4) - (1) Tre Fiori | live
-- 2026-08-13 21:00 | Skendija (1) - (2) Hibernian | live
+- 2026-08-13 21:15 | Sion (2) - (2) Noah | live
+- 2026-08-13 21:30 | Chiclana - Sanluqueno | live
+- 2026-08-13 21:30 | Anderlecht (1) - (0) Paok | live
+- 2026-08-13 21:30 | Glasgow Ranger (1) - (2) Jagiellonia | live
+- 2026-08-13 21:30 | Austria Vienna (2) - (1) Beitar Jerusale | live
+- 2026-08-13 21:30 | Gent (1) - (0) Göteborg | live
+- 2026-08-13 21:30 | Gyor (0) - (1) Riga Fc | live
+- 2026-08-13 21:30 | Motherwell (1) - (1) Helsinki | live
+- 2026-08-13 21:45 | Hearts (1) - (6) Benfica | live
+- 2026-08-13 21:45 | Shelbourne (1) - (3) Ajax | live

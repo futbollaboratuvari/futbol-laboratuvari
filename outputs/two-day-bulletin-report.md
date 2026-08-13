@@ -3,15 +3,14 @@
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 87
-Aktif mac: 15
-Canli mac: 28
-Biten mac: 44
-Bultenden dusurulen mac: 72
-Bugun: 1
+Aktif mac: 14
+Canli mac: 18
+Biten mac: 55
+Bultenden dusurulen mac: 73
+Bugun: 0
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 22:45 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | scheduled | -
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | scheduled | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | scheduled | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | scheduled | -
@@ -28,17 +27,6 @@ Yarin: 14
 - 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 
 ## Canli Maclar
-- 2026-08-13 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) - (0) Maccabi Tel Avi | live | -
-- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | live | -
-- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) - (1) Sheriff Tiraspo | live | -
-- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Fc Drita (4) - (1) Tre Fiori | live | -
-- 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al-Qadsiah | live | -
-- 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Diriyah - Al Ahli (Cidde) | live | -
-- 2026-08-13 21:00 | İzlanda 1.Lig | Grindavik - Throttur | live | -
-- 2026-08-13 21:00 | İzlanda 1.Lig | Aegir - Völsungur | live | -
-- 2026-08-13 21:00 | İzlanda 1.Lig | Vestri - Ir Reykjavik | live | -
-- 2026-08-13 21:00 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | live | -
-- 2026-08-13 21:00 | Hazırlık Kulüpler | Tarragona - Huesca | live | -
 - 2026-08-13 21:15 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) - (2) Noah | live | -
 - 2026-08-13 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Glasgow Ranger (1) - (2) Jagiellonia | live | -
 - 2026-08-13 21:30 | UEFA Avrupa Ligi 3. Eleme Turu | Anderlecht (1) - (0) Paok | live | -
@@ -56,6 +44,7 @@ Yarin: 14
 - 2026-08-13 22:15 | İzlanda 1.Lig | Hk Kopavogur - Leiknir Reykjav | live | -
 - 2026-08-13 22:15 | İzlanda 1.Lig | Grotta - Njardvik | live | -
 - 2026-08-13 22:30 | Paraguay Kupa 3.Tur | 1 De Marzo - Atlético Tembet | live | -
+- 2026-08-13 22:45 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | live | -
 
 ## Biten Maclar
 - 2026-08-13 01:00 | Copa Libertadores Son 16 Turu | Palmeiras - Cerro Porteno | finished | -
@@ -102,3 +91,14 @@ Yarin: 14
 - 2026-08-13 20:30 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) - (3) Thun | finished | -
 - 2026-08-13 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Vaduz (1) - (2) Inter Turku | finished | -
 - 2026-08-13 20:30 | UEFA Konferans Ligi 3. Eleme Turu | Runavik (0) - (2) Lugano | finished | -
+- 2026-08-13 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Cska Sofia (3) - (0) Maccabi Tel Avi | finished | -
+- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Skendija (1) - (2) Hibernian | finished | -
+- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | St Gallen (3) - (1) Sheriff Tiraspo | finished | -
+- 2026-08-13 21:00 | UEFA Konferans Ligi 3. Eleme Turu | Fc Drita (4) - (1) Tre Fiori | finished | -
+- 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al-Qadsiah | finished | -
+- 2026-08-13 21:00 | Suudi Arabistan Pro Lig | Diriyah - Al Ahli (Cidde) | finished | -
+- 2026-08-13 21:00 | İzlanda 1.Lig | Grindavik - Throttur | finished | -
+- 2026-08-13 21:00 | İzlanda 1.Lig | Aegir - Völsungur | finished | -
+- 2026-08-13 21:00 | İzlanda 1.Lig | Vestri - Ir Reykjavik | finished | -
+- 2026-08-13 21:00 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | finished | -
+- 2026-08-13 21:00 | Hazırlık Kulüpler | Tarragona - Huesca | finished | -

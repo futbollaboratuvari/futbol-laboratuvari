@@ -1,19 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T19:46:37.992947+00:00
+Tarih: 2026-08-13T20:20:26.727333+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 1
+- Kac mac bulundu: 15
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 1
+- Kac mac zaten vardi: 15
 - Ham veri havuzu toplam mac sayisi: 6241
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Meksika Ascenso MX Apertura
 - UEFA Avrupa Ligi 3. Eleme Turu
 
 ## Okunabilen Oran Alanlari
@@ -86,6 +93,20 @@ Tarih: 2026-08-13T19:46:37.992947+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 13.08.2026 | 22:45 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
+| 14.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra | Corinthians | 12196 | 5 |
+| 14.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Mirassol | Ldu Quito | 11950 | 5 |
+| 14.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Cienciano | Botafogo | 12126 | 5 |
+| 14.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama | Olimpia Asuncio | 12064 | 5 |
+| 14.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Santos | Depor Macara | 12008 | 5 |
+| 14.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo | Diriangen | 00178 | 5 |
+| 14.08.2026 | 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem | Marathon | 00084 | 5 |
+| 14.08.2026 | 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc | Umecit | 01712 | 3 |
+| 14.08.2026 | 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City | Necaxa | 14728 | 5 |
+| 14.08.2026 | 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America | Austin | 07120 | 5 |
+| 14.08.2026 | 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia | Santos Laguna | 06995 | 5 |
+| 14.08.2026 | 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul | Chicago | 14770 | 5 |
+| 14.08.2026 | 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland | Club Tijuana | 07202 | 5 |
+| 14.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Alebrijes | Tepatitlan De M | 13202 | 5 |
 
 ## Sonuc
 
