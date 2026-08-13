@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.08.2026 17:10:59
+Oluşturma: 13.08.2026 17:14:05
 
 ## Özet
 
-- Toplam tahmin: 149
-- Bekleyen tahmin: 149
+- Toplam tahmin: 151
+- Bekleyen tahmin: 151
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 33
@@ -20,12 +20,14 @@ Oluşturma: 13.08.2026 17:10:59
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
+- MS X: toplam 88, bekleyen 88, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
-- MS X: toplam 87, bekleyen 87, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-13 | Hazırlık Kulüpler | Reggina - Sanremese | MS 2 | pending | 50/100
+- 2026-08-13 | Hazırlık Kulüpler | Racing Ferrol - Real Aviles | MS X | pending | 50/100
 - 2026-08-13 | Hazırlık Kulüpler | Chiclana - Sanluqueno | MS 1 | pending | 40/100
 - 2026-08-13 | Hazırlık Kulüpler | Tarragona - Huesca | MS X | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) - (1) Auda | MS X | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 13.08.2026 17:10:59
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Dinamo Tirana (0) - (1) Auda | MS 2 | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Tobol Kostanay (0) - (3) Partizan Belgra | MS X | pending | 50/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) - (2) Inter Escaldes | MS 2 | pending | 40/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) - (1) Dynamo Kiev | MS 2 | pending | 50/100
-- 2026-08-13 | Suudi Arabistan Pro Lig | Abha - Al Hazm | MS X | pending | 40/100
 
