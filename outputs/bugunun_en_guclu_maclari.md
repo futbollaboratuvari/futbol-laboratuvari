@@ -4,17 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-13T03:06:03.982Z
+- Güncelleme: 2026-08-13T03:14:32.557Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Cruzeiro VS Flamengo | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| San Antonio VS Miami Fc | ABD USL Kupası Çeyrek Final | 03:30 | MS X | 3.05 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Depor Motagua VS Cs Cartagines | CONCACAF Orta Amerika Kupası Grup D | 04:00 | MS 2 | 3.10 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Spokane Veloci VS Colorado Spring | ABD USL Kupası Çeyrek Final | 04:00 | MS X | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Toluca VS Dallas | CONCACAF Ligler Kupası Grup Aşaması | 05:00 | MS 2 | 5.93 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | San Diego VS Puebla | CONCACAF Ligler Kupası Grup Aşaması | 05:15 | MS 2 | 4.05 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Seattle VS Guadalajara | CONCACAF Ligler Kupası Grup Aşaması | 05:30 | MS X | 3.22 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -53,7 +49,7 @@
 | Vestri VS Ir Reykjavik | İzlanda 1.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sleipner VS Lindo Ff | İsveç 2.Lig Södra Svealand | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sion (2) VS (2) Noah | UEFA Konferans Ligi 3. Eleme Turu | 21:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Glasgow Ranger (1) VS (2) Jagiellonia | UEFA Avrupa Ligi 3. Eleme Turu | 21:30 | MS 2 | 4.86 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Glasgow Ranger (1) VS (2) Jagiellonia | UEFA Avrupa Ligi 3. Eleme Turu | 21:30 | MS 2 | 4.69 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Anderlecht (1) VS (0) Paok | UEFA Avrupa Ligi 3. Eleme Turu | 21:30 | MS X | 2.91 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Austria Vienna (2) VS (1) Beitar Jerusale | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gyor (0) VS (1) Riga Fc | UEFA Konferans Ligi 3. Eleme Turu | 21:30 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -70,7 +66,7 @@
 | 1 De Marzo VS Atlético Tembet | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Mirassol VS Ldu Quito | Copa Libertadores Son 16 Turu | 01:00 | MS 2 | 4.61 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Vasco Da Gama VS Olimpia Asuncio | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 4.40 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Santos VS Depor Macara | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Santos VS Depor Macara | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 6.50 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Philadelphia VS Santos Laguna | CONCACAF Ligler Kupası Grup Aşaması | 02:00 | MS 2 | 5.26 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | New York City VS Necaxa | CONCACAF Ligler Kupası Grup Aşaması | 02:30 | MS 2 | 3.94 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Alianza Fc VS Umecit | CONCACAF Orta Amerika Kupası Grup C | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -87,10 +83,12 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | New York City VS Necaxa | MS 2 | 3.94 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Santos VS Depor Macara | MS 2 | 6.50 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| New York City VS Necaxa + Santos VS Depor Macara | MS 2 + MS 2 | 25.61 | 78 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |

@@ -1,19 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-13T02:32:32.924301+00:00
+Tarih: 2026-08-13T03:14:04.963762+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 48
+- Kac mac bulundu: 62
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 48
+- Kac mac zaten vardi: 62
 - Ham veri havuzu toplam mac sayisi: 6236
 - Hedef tarih: 13.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- CONCACAF Ligler Kupası Grup Aşaması
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Meksika Ascenso MX Apertura
 - Paraguay Kupa 3.Tur
 - Suudi Arabistan Pro Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
@@ -107,7 +114,7 @@ Tarih: 2026-08-13T02:32:32.924301+00:00
 | 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) | (2) Inter Escaldes | 09441 | 5 |
 | 13.08.2026 | 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Qarabagh (0) | (1) Dynamo Kiev | 09647 | 5 |
 | 13.08.2026 | 21:30 | UEFA Konferans Ligi 3. Eleme Turu | Austria Vienna (2) | (1) Beitar Jerusale | 11487 | 5 |
-| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Midtjylland (2) | (0) Bohemian | 10576 | 5 |
+| 13.08.2026 | 20:00 | UEFA Konferans Ligi 3. Eleme Turu | Midtjylland (2) | (0) Bohemian | 10576 | 4 |
 | 13.08.2026 | 21:15 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) | (2) Noah | 11350 | 5 |
 | 13.08.2026 | 22:00 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) | (2) Zalgiris Vilniu | 11871 | 5 |
 
