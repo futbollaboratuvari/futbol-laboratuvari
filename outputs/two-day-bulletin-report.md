@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-14 / 2026-08-15
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 192
-Aktif mac: 189
-Canli mac: 3
+Aktif mac: 188
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 172
+Bultenden dusurulen mac: 4
+Bugun: 171
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | scheduled | -
 - 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | scheduled | -
 - 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | scheduled | -
 - 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | scheduled | -
@@ -202,6 +202,7 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
+- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | live | -
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | live | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | live | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | live | -
