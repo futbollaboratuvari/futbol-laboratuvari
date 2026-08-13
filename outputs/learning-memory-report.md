@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 13.08.2026 12:33:21
+Oluşturma: 13.08.2026 12:38:50
 
 ## Özet
 
-- Toplam tahmin: 143
-- Bekleyen tahmin: 143
+- Toplam tahmin: 145
+- Bekleyen tahmin: 145
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 32
+- Lig sayısı: 33
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,14 @@ Oluşturma: 13.08.2026 12:33:21
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 50, bekleyen 50, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS X: toplam 84, bekleyen 84, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-13 | İsveç 2.Lig Södra Svealand | Sleipner - Lindo Ff | MS 2 | pending | 50/100
+- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Universitatea (1) - (1) Kuopion | MS 2 | pending | 75/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Hajduk Split (5) - (2) Zalgiris Vilniu | MS 2 | pending | 40/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Sion (2) - (2) Noah | MS 2 | pending | 60/100
 - 2026-08-13 | İzlanda 1.Lig | Grindavik - Throttur | MS 1 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 13.08.2026 12:33:21
 - 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Pafos Fc (0) - (1) Salzburg | MS X | pending | 50/100
 - 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Gornik Zabrze (0) - (1) Ferencvaros | MS X | pending | 50/100
 - 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Hammarby (0) - (0) Rakow Czestocho | MS 2 | pending | 50/100
-- 2026-08-13 | UEFA Konferans Ligi 3. Eleme Turu | Ml Vitebsk (0) - (1) Borac Banja Luk | MS X | pending | 50/100
-- 2026-08-13 | UEFA Avrupa Ligi 3. Eleme Turu | Vikingur Reykj (0) - (3) Thun | MS X | pending | 60/100
 
