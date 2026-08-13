@@ -3,15 +3,14 @@
 Gunler: 2026-08-13 / 2026-08-14
 Kaynak: fixtures.json
 Ham mac: 71
-Aktif mac: 63
-Canli mac: 8
+Aktif mac: 62
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 49
+Bultenden dusurulen mac: 9
+Bugun: 48
 Yarin: 14
 
 ## Baslamamis Maclar
-- 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | scheduled | -
 - 2026-08-13 18:00 | UEFA Konferans Ligi 3. Eleme Turu | Tobol Kostanay (0) - (3) Partizan Belgra | scheduled | -
 - 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Ilves (0) - (1) Rijeka | scheduled | -
 - 2026-08-13 19:00 | UEFA Konferans Ligi 3. Eleme Turu | Flora Tallinn (0) - (2) Inter Escaldes | scheduled | -
@@ -84,6 +83,7 @@ Yarin: 14
 - 2026-08-13 05:15 | CONCACAF Ligler Kupası Grup Aşaması | San Diego - Puebla | live | -
 - 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Seattle - Guadalajara | live | -
 - 2026-08-13 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Los Angeles Fc - Queretaro | live | -
+- 2026-08-13 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Hankook Verdes | live | -
 
 ## Biten Maclar
 Biten mac yok.
