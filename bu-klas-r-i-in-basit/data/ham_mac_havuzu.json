@@ -1,7 +1,7 @@
 {
   "schema_version": "raw_match_pool_v1",
   "created_at": "2026-06-18T00:00:00+00:00",
-  "updated_at": "2026-08-14T19:13:57.824821+00:00",
+  "updated_at": "2026-08-14T19:40:03.057748+00:00",
   "storage_strategy": "match_id_indexed_raw_matches",
   "match_count": 6441,
   "matches": [
@@ -208387,14 +208387,14 @@
       "away_goals": 1,
       "winner": "DRAW",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-08-14T18:36:55.488916+00:00",
+      "stored_at": "2026-08-14T19:40:03.056387+00:00",
       "raw_pool_key": "id:537787",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 1,
       "awayScore": 1,
       "score": "1-1",
-      "lastLiveUpdate": "2026-08-14T18:36:55.488923+00:00"
+      "lastLiveUpdate": "2026-08-14T19:40:03.056401+00:00"
     },
     {
       "match_id": 537789,
@@ -208411,14 +208411,14 @@
       "away_goals": 0,
       "winner": "HOME_TEAM",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-08-14T18:36:55.488932+00:00",
+      "stored_at": "2026-08-14T19:40:03.056412+00:00",
       "raw_pool_key": "id:537789",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 3,
       "awayScore": 0,
       "score": "3-0",
-      "lastLiveUpdate": "2026-08-14T18:36:55.488939+00:00"
+      "lastLiveUpdate": "2026-08-14T19:40:03.056419+00:00"
     },
     {
       "match_id": 537790,
@@ -208435,14 +208435,14 @@
       "away_goals": 0,
       "winner": "HOME_TEAM",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-08-14T18:36:55.488947+00:00",
+      "stored_at": "2026-08-14T19:40:03.056429+00:00",
       "raw_pool_key": "id:537790",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 3,
       "awayScore": 0,
       "score": "3-0",
-      "lastLiveUpdate": "2026-08-14T18:36:55.488952+00:00"
+      "lastLiveUpdate": "2026-08-14T19:40:03.056435+00:00"
     },
     {
       "match_id": 537786,
@@ -208459,14 +208459,14 @@
       "away_goals": 0,
       "winner": "DRAW",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-08-14T18:36:55.488897+00:00",
+      "stored_at": "2026-08-14T19:40:03.056369+00:00",
       "raw_pool_key": "id:537786",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 0,
       "awayScore": 0,
       "score": "0-0",
-      "lastLiveUpdate": "2026-08-14T18:36:55.488904+00:00"
+      "lastLiveUpdate": "2026-08-14T19:40:03.056377+00:00"
     },
     {
       "match_id": 537785,
@@ -208483,14 +208483,14 @@
       "away_goals": 2,
       "winner": "HOME_TEAM",
       "source": "demo_mode_local_sample",
-      "stored_at": "2026-08-14T18:36:55.488876+00:00",
+      "stored_at": "2026-08-14T19:40:03.056342+00:00",
       "raw_pool_key": "id:537785",
       "liveStatus": "finished",
       "minute": 90,
       "homeScore": 4,
       "awayScore": 2,
       "score": "4-2",
-      "lastLiveUpdate": "2026-08-14T18:36:55.488887+00:00"
+      "lastLiveUpdate": "2026-08-14T19:40:03.056356+00:00"
     },
     {
       "tarih": "20.07.2026",
@@ -289930,13 +289930,13 @@
       "utc_date": "14.08.2026",
       "source_url": "https://arsiv.mackolik.com/Iddaa-Programi",
       "status": "scheduled",
-      "stored_at": "2026-08-14T19:13:57.735277+00:00",
+      "stored_at": "2026-08-14T19:40:02.466980+00:00",
       "liveStatus": "scheduled",
       "minute": null,
       "homeScore": null,
       "awayScore": null,
       "score": "",
-      "lastLiveUpdate": "2026-08-14T19:13:57.823466+00:00"
+      "lastLiveUpdate": "2026-08-14T19:40:02.591571+00:00"
     },
     {
       "tarih": "14.08.2026",
@@ -644945,11 +644945,23 @@
       "added_at": "2026-08-14T19:13:57.824754+00:00",
       "incoming_matches": 23,
       "new_matches_added": 0
+    },
+    {
+      "source": "mackolik_arsiv",
+      "added_at": "2026-08-14T19:40:02.593083+00:00",
+      "incoming_matches": 1,
+      "new_matches_added": 0
+    },
+    {
+      "source": "demo_mode_local_sample",
+      "added_at": "2026-08-14T19:40:03.057720+00:00",
+      "incoming_matches": 5,
+      "new_matches_added": 0
     }
   ],
   "deduplication": {
-    "incoming_matches": 23,
-    "duplicate_matches": 23,
+    "incoming_matches": 5,
+    "duplicate_matches": 5,
     "new_matches_added": 0,
     "total_unique_matches": 6441
   },
