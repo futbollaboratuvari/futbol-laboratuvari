@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-14T09:48:41.503Z
+- Güncelleme: 2026-08-14T10:12:13.778Z
 - Ham maç sayısı: 197
 - Yarın bülteni maç sayısı: 17
 - Detay blok sayısı: 541
-- Aktif bülten maçı: 189
-- Bültenden düşürülen maç: 8
+- Aktif bülten maçı: 188
+- Bültenden düşürülen maç: 9
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tokyo Verdy - Kashiwa | Japonya J1 Lig | 13:00 | Veri bekleniyor | - | 3.89 | 8 |
 | Oakleigh Canno - Green Gully | Avustralya NPL Victoria | 13:15 | Veri bekleniyor | - | 1.19 | 4 |
 | St. Albans Sai - Bentleigh Green | Avustralya NPL Victoria | 13:30 | Veri bekleniyor | - | 1.89 | 8 |
 | Eltham Redback - Manningham Unit | Avustralya Victoria NPL 1 | 13:30 | Veri bekleniyor | - | 1.43 | 5 |

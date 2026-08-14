@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 12:36:57
+Oluşturma: 14.08.2026 13:16:14
 
 ## Özet
 
-- Toplam tahmin: 118
-- Bekleyen tahmin: 118
+- Toplam tahmin: 120
+- Bekleyen tahmin: 120
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 60
@@ -20,12 +20,14 @@ Oluşturma: 14.08.2026 12:36:57
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 62, bekleyen 62, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
+- MS X: toplam 63, bekleyen 63, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | İrlanda FAI Kupası 3.Tur | Galway United - Bray Wanderers | MS X | pending | 60/100
+- 2026-08-14 | Portekiz Premier Lig | Sporting Cp - Guimaraes | MS 2 | pending | 40/100
 - 2026-08-14 | Hazırlık Kulüpler | Atalanta - Athletic Bilbao | MS X | pending | 50/100
 - 2026-08-14 | Türkiye TFF 1. Lig | Esenler Eroksp - Sarıyer | MS 2 | pending | 50/100
 - 2026-08-14 | Hazırlık Kulüpler | Coventry - Monaco | MS X | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 14.08.2026 12:36:57
 - 2026-08-14 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | MS 2 | pending | 40/100
 - 2026-08-14 | Irak Premier Lig | Naft Maysan - Al Golan | MS 2 | pending | 40/100
 - 2026-08-14 | Malta Premier Lig Açılış | Birzebbuga - Birzebbuga | MS X | pending | 40/100
-- 2026-08-14 | Avustralya NPL Victoria | Dandenong City - Altona Magic | MS 2 | pending | 50/100
-- 2026-08-14 | Polonya 1.Lig | Ruch Chorzow - Lechia Gdansk | MS 2 | pending | 60/100
 
