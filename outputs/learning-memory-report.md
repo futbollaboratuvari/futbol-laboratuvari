@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 09:45:46
+Oluşturma: 14.08.2026 09:54:38
 
 ## Özet
 
-- Toplam tahmin: 100
-- Bekleyen tahmin: 100
+- Toplam tahmin: 104
+- Bekleyen tahmin: 104
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 54
+- Lig sayısı: 55
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,16 @@ Oluşturma: 14.08.2026 09:45:46
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 47, bekleyen 47, başarı bekleniyor, ağırlık 1
+- MS X: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | Polonya 1.Lig | Ruch Chorzow - Lechia Gdansk | MS 2 | pending | 60/100
+- 2026-08-14 | Hollanda Eerste Divisie | Heracles - Den Bosch | MS 2 | pending | 70/100
+- 2026-08-14 | Litvanya 1.Lig | Fa Siauliai Ii - Zalgiris Ii | MS X | pending | 50/100
+- 2026-08-14 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Changchun Yatai | MS 2 | pending | 60/100
 - 2026-08-14 | Portekiz Premier Lig | Sporting Cp - Guimaraes | MS X | pending | 40/100
 - 2026-08-14 | Slovenya 2.SNL | Rudar - Krka Novo Mesto | MS 2 | pending | 50/100
 - 2026-08-14 | Litvanya 1.Lig | Kauno Zalgiris - Lietava Jonava | MS 1 | pending | 50/100
@@ -37,8 +41,4 @@ Oluşturma: 14.08.2026 09:45:46
 - 2026-08-14 | Fransa Ligue 2 | Reims - Dunkerque | MS 2 | pending | 50/100
 - 2026-08-14 | Galler Premier Lig 1.Aşama | Haverfordwest - Penybont | MS X | pending | 40/100
 - 2026-08-14 | Galler Premier Lig 1.Aşama | Llandudno - Holywell Town | MS 2 | pending | 40/100
-- 2026-08-14 | Galler Premier Lig 1.Aşama | Airbus Uk - Ammanford | MS 2 | pending | 50/100
-- 2026-08-14 | Galler Premier Lig 1.Aşama | Cambrian - Flint Town | MS X | pending | 50/100
-- 2026-08-14 | İrlanda FAI Kupası 3.Tur | Galway United - Bray Wanderers | MS 2 | pending | 60/100
-- 2026-08-14 | İngiltere Non League Premier Kuzey | Afc Emley - Curzon Ashton | MS X | pending | 50/100
 
