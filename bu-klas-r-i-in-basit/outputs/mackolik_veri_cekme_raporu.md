@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T07:48:11.062954+00:00
+Tarih: 2026-08-14T08:55:23.343981+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 168
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 167
-- Ham veri havuzu toplam mac sayisi: 6432
+- Kac mac bulundu: 175
+- Kac mac kaydedildi: 7
+- Kac mac zaten vardi: 168
+- Ham veri havuzu toplam mac sayisi: 6439
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -46,6 +46,7 @@ Tarih: 2026-08-14T07:48:11.062954+00:00
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Güney Afrika PSL
+- Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
@@ -71,6 +72,7 @@ Tarih: 2026-08-14T07:48:11.062954+00:00
 - Suudi Arabistan Pro Lig
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
+- Türkiye TFF 1. Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
 - Uganda Süper 8 Yarı Final
 - Ukrayna Premier Lig
@@ -172,25 +174,25 @@ Tarih: 2026-08-14T07:48:11.062954+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 14.08.2026 | 21:30 | Türkiye Süper Lig | Galatasaray | Çorum | 02589 | 5 |
+| 14.08.2026 | 21:30 | Türkiye TFF 1. Lig | Esenler Eroksp | Sarıyer | 02631 | 5 |
 | 14.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
 | 14.08.2026 | 21:00 | Hollanda Eredivisie | Telstar | Sparta Rotterda | 13497 | 5 |
 | 14.08.2026 | 22:15 | Portekiz Premier Lig | Sporting Cp | Guimaraes | 15929 | 5 |
-| 14.08.2026 | 19:50 | Suudi Arabistan Pro Lig | Neom Sc | Al Feiha | 07112 | 5 |
 | 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Faisaly | 12908 | 4 |
+| 14.08.2026 | 19:50 | Suudi Arabistan Pro Lig | Neom Sc | Al Feiha | 07112 | 5 |
 | 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Riyadh | 12847 | 5 |
-| 14.08.2026 | 21:30 | İspanya 2.Lig | Real Sociedad | Castellon | 13801 | 5 |
 | 14.08.2026 | 21:45 | Belçika Pro Lig | Cercle Brugge | St. Truidense | 15075 | 5 |
 | 14.08.2026 | 22:00 | İngiltere Championship | Wolverhampton | Blackburn | 15815 | 5 |
-| 14.08.2026 | 21:45 | İtalya Kupa 1.Tur | Monza | Avellino | 14826 | 5 |
-| 14.08.2026 | 22:15 | İtalya Kupa 1.Tur | Fiorentina | Benevento | 15875 | 5 |
-| 14.08.2026 | 19:00 | İtalya Kupa 1.Tur | Parma | Catania | 06409 | 5 |
-| 14.08.2026 | 19:30 | İtalya Kupa 1.Tur | Cagliari | Arezzo | 06647 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
+| 14.08.2026 | 21:30 | İspanya 2.Lig | Real Sociedad | Castellon | 13801 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Grenoble | Metz | 15226 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Guingamp | Boulogne | 15284 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
 
 ## Sonuc
 
