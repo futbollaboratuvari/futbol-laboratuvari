@@ -2,18 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 17
+- Scheduled match count: 3
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
-- 2026-08-15 01:00 | Boston River - Danubio | scheduled
-- 2026-08-15 01:30 | Ponte Preta - Nautico | scheduled
-- 2026-08-15 01:30 | Sao Bernardo - Botafogo Ribeir | scheduled
-- 2026-08-15 02:00 | Cusco Fc - Juan Pablo Ii C | scheduled
-- 2026-08-15 02:00 | Univ De Concep - La Serena | scheduled
-- 2026-08-15 02:30 | Racing Club - Banfield | scheduled
-- 2026-08-15 02:30 | Rafaela - D Belgrano | scheduled
-- 2026-08-15 02:30 | Sport Recife - Londrina | scheduled
-- 2026-08-15 03:00 | Bolivar - San Antonio Bul | scheduled
-- 2026-08-15 03:00 | Indep. Jose Te - Delfin | scheduled
+- 2026-08-15 22:45 | Estudiantes Lp - Gimnasia La Pla | scheduled
+- 2026-08-15 23:00 | Estudiantes Fc - Academia Anzoat | scheduled
+- 2026-08-15 23:30 | Chankas Cyc - Melgar | scheduled
