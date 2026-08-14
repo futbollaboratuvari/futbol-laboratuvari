@@ -3,15 +3,14 @@
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
 Ham mac: 197
-Aktif mac: 190
-Canli mac: 7
+Aktif mac: 189
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 173
+Bultenden dusurulen mac: 8
+Bugun: 172
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 12:45 | Avustralya NPL Victoria | Dandenong City - Altona Magic | scheduled | -
 - 2026-08-14 13:00 | Japonya J1 Lig | Tokyo Verdy - Kashiwa | scheduled | -
 - 2026-08-14 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Green Gully | scheduled | -
 - 2026-08-14 13:30 | Avustralya NPL Victoria | St. Albans Sai - Bentleigh Green | scheduled | -
@@ -210,6 +209,7 @@ Yarin: 17
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Olymp - Rochedale Rover | live | -
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Moreton City E - Queensland Lion | live | -
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Magic United | live | -
+- 2026-08-14 12:45 | Avustralya NPL Victoria | Dandenong City - Altona Magic | live | -
 
 ## Biten Maclar
 Biten mac yok.
