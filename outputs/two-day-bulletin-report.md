@@ -1,19 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-14 / 2026-08-15
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 199
-Aktif mac: 181
-Canli mac: 18
-Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 164
+Kaynak: fixtures.json
+Ham mac: 213
+Aktif mac: 179
+Canli mac: 6
+Biten mac: 28
+Bultenden dusurulen mac: 34
+Bugun: 162
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | scheduled | -
-- 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | scheduled | -
 - 2026-08-14 17:00 | Rusya Premier Lig | Orenburg - L.Moskova | scheduled | -
 - 2026-08-14 17:00 | Belarus Premier Lig | Arsenal - Slavia Mozyr | scheduled | -
 - 2026-08-14 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Ittihad Kalb | scheduled | -
@@ -195,24 +192,39 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-08-14 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Chongqing Tongl | live | -
-- 2026-08-14 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - St George City | live | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Gold Coast Uni - Eastern Suburbs | live | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane City | live | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Roar - Gold Coast Knig | live | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Olymp - Rochedale Rover | live | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Moreton City E - Queensland Lion | live | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Magic United | live | -
-- 2026-08-14 12:45 | Avustralya NPL Victoria | Dandenong City - Altona Magic | live | -
-- 2026-08-14 13:00 | Japonya J1 Lig | Tokyo Verdy - Kashiwa | live | -
-- 2026-08-14 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Green Gully | live | -
-- 2026-08-14 13:30 | Avustralya NPL Victoria | St. Albans Sai - Bentleigh Green | live | -
-- 2026-08-14 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Manningham Unit | live | -
-- 2026-08-14 14:00 | Avustralya NPL Batı Avustralya | Bayswater City - Stirling Lions | live | -
-- 2026-08-14 14:00 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Dodoma Jiji | live | -
 - 2026-08-14 14:30 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Changchun Yatai | live | -
 - 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Qingdao Zhongne | live | -
 - 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shanghai Port | live | -
+- 2026-08-14 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Chongqing Tongl | live | -
+- 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | live | -
+- 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
+- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | finished | -
+- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | finished | -
+- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | finished | -
+- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | finished | -
+- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | finished | -
+- 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | finished | -
+- 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | finished | -
+- 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | finished | -
+- 2026-08-14 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | finished | -
+- 2026-08-14 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | finished | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | finished | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | finished | -
+- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | finished | -
+- 2026-08-14 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - St George City | finished | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Gold Coast Uni - Eastern Suburbs | finished | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane City | finished | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Roar - Gold Coast Knig | finished | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Olymp - Rochedale Rover | finished | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Moreton City E - Queensland Lion | finished | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Magic United | finished | -
+- 2026-08-14 12:45 | Avustralya NPL Victoria | Dandenong City - Altona Magic | finished | -
+- 2026-08-14 13:00 | Japonya J1 Lig | Tokyo Verdy - Kashiwa | finished | -
+- 2026-08-14 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Green Gully | finished | -
+- 2026-08-14 13:30 | Avustralya NPL Victoria | St. Albans Sai - Bentleigh Green | finished | -
+- 2026-08-14 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Manningham Unit | finished | -
+- 2026-08-14 14:00 | Avustralya NPL Batı Avustralya | Bayswater City - Stirling Lions | finished | -
+- 2026-08-14 14:00 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Dodoma Jiji | finished | -
