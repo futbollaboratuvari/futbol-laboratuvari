@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-14T14:39:48.461Z
+- Guncelleme: 2026-08-14T16:25:37.235Z
 - Ham fixture sayisi: 6407
 - Bugun/yarin kaynak mac: 213
-- Aktif bulten maci: 175
+- Aktif bulten maci: 140
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 38
+- Bultenden dusurulen mac: 73
 
-- 1. 2026-08-14 18:00 | Letonya Kupa Çeyrek Final | Bfc Daugavpils - Ogre United | scheduled
-- 2. 2026-08-14 18:00 | Ukrayna Premier Lig | Epitsentr Duna - Veres Rivne | scheduled
-- 3. 2026-08-14 18:00 | Rusya FNL | Neftekhimik - Shinnik Yarosla | scheduled
-- 4. 2026-08-14 18:00 | Slovakya 2.Lig | Pohronie - Mfk Bytca | scheduled
-- 5. 2026-08-14 18:00 | Finlandiya Veikkausliiga | Vaasa - Turku | scheduled
-- 6. 2026-08-14 18:30 | Litvanya 1.Lig | Be1 Nfa - Hegelmann Ii | scheduled
-- 7. 2026-08-14 18:30 | Macaristan NB I | Budapest Honve - Vasas | scheduled
-- 8. 2026-08-14 18:30 | Finlandiya Ykkösliiga | Japs - Haka | scheduled
-- 9. 2026-08-14 18:30 | Slovenya 2.SNL | Jesenice - Krsko | scheduled
-- 10. 2026-08-14 18:30 | Hazırlık Kulüpler | Marsilya - Atletico Madrid | scheduled
-- 11. 2026-08-14 18:30 | Irak Premier Lig | Naft - Al Karkh | scheduled
-- 12. 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Julan | scheduled
-- 13. 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Golan | scheduled
-- 14. 2026-08-14 18:30 | Hazırlık Kulüpler | Portugalete - Barakaldo | scheduled
-- 15. 2026-08-14 18:30 | Azerbaycan Premier Lig | Turan - Qabala | scheduled
+- 1. 2026-08-14 19:30 | İsveç 2.Lig Norra Götaland | Ahlafors If - Grebbestads If | scheduled
+- 2. 2026-08-14 19:30 | Almanya 2. Bundesliga | Braunschweig - Bochum | scheduled
+- 3. 2026-08-14 19:30 | İtalya Kupa 1.Tur | Cagliari - Arezzo | scheduled
+- 4. 2026-08-14 19:30 | İran Persian Gulf Pro Lig | Chadormalu - Sepahan | scheduled
+- 5. 2026-08-14 19:30 | İran Persian Gulf Pro Lig | Esteghlal - Mes Shahr-E Bab | scheduled
+- 6. 2026-08-14 19:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Shahrdari Arak | scheduled
+- 7. 2026-08-14 19:30 | İsveç 2.Lig Vastra Götaland | Hestrafor - Qviding | scheduled
+- 8. 2026-08-14 19:30 | Almanya 2. Bundesliga | Holstein Kiel - St Pauli | scheduled
+- 9. 2026-08-14 19:30 | Rusya FNL | Rotor Volgogra - Ural | scheduled
+- 10. 2026-08-14 19:30 | Hazırlık Kulüpler | Seravezza - Pistoiese | scheduled
+- 11. 2026-08-14 19:30 | Avusturya 1.Lig | Wspg Wels - Rapid Vienna (A | scheduled
+- 12. 2026-08-14 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wahda - Ajman | scheduled
+- 13. 2026-08-14 19:45 | İran Persian Gulf Pro Lig | Gol Gohar Sirj - Nassaji Mazanda | scheduled
+- 14. 2026-08-14 19:50 | Suudi Arabistan Pro Lig | Neom Sc - Al Feiha | scheduled
+- 15. 2026-08-14 20:00 | Danimarka 1.Lig | Aalborg - Fredericia | scheduled

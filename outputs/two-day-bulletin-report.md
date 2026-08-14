@@ -1,18 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-14 / 2026-08-15
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 213
-Aktif mac: 141
-Canli mac: 40
-Biten mac: 32
-Bultenden dusurulen mac: 72
-Bugun: 124
+Aktif mac: 140
+Canli mac: 36
+Biten mac: 37
+Bultenden dusurulen mac: 73
+Bugun: 123
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 19:15 | İsveç 2.Lig Södra Götaland | Sölvesborgs Go - Nosaby If | scheduled | -
 - 2026-08-14 19:30 | İtalya Kupa 1.Tur | Cagliari - Arezzo | scheduled | -
 - 2026-08-14 19:30 | Almanya 2. Bundesliga | Holstein Kiel - St Pauli | scheduled | -
 - 2026-08-14 19:30 | Almanya 2. Bundesliga | Braunschweig - Bochum | scheduled | -
@@ -155,6 +153,12 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
+- 2026-08-14 17:30 | İran Persian Gulf Pro Lig | Tractor Fc - Peykan | live | -
+- 2026-08-14 18:00 | Finlandiya Veikkausliiga | Vaasa - Turku | live | -
+- 2026-08-14 18:00 | Ukrayna Premier Lig | Epitsentr Duna - Veres Rivne | live | -
+- 2026-08-14 18:00 | Rusya FNL | Neftekhimik - Shinnik Yarosla | live | -
+- 2026-08-14 18:00 | Slovakya 2.Lig | Pohronie - Mfk Bytca | live | -
+- 2026-08-14 18:00 | Letonya Kupa Çeyrek Final | Bfc Daugavpils - Ogre United | live | -
 - 2026-08-14 18:30 | Azerbaycan Premier Lig | Turan - Qabala | live | -
 - 2026-08-14 18:30 | Finlandiya Ykkösliiga | Japs - Haka | live | -
 - 2026-08-14 18:30 | Macaristan NB I | Budapest Honve - Vasas | live | -
@@ -184,17 +188,7 @@ Yarin: 17
 - 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Esteghlal - Mes Shahr-E Bab | live | -
 - 2026-08-14 19:00 | Uganda Süper 8 Yarı Final | Sc Villa - Nec | live | -
 - 2026-08-14 19:00 | Malta Premier Lig Açılış | Birzebbuga - Birzebbuga | live | -
-- 2026-08-14 18:00 | Finlandiya Veikkausliiga | Vaasa - Turku | live | -
-- 2026-08-14 18:00 | Ukrayna Premier Lig | Epitsentr Duna - Veres Rivne | live | -
-- 2026-08-14 18:00 | Rusya FNL | Neftekhimik - Shinnik Yarosla | live | -
-- 2026-08-14 18:00 | Slovakya 2.Lig | Pohronie - Mfk Bytca | live | -
-- 2026-08-14 18:00 | Letonya Kupa Çeyrek Final | Bfc Daugavpils - Ogre United | live | -
-- 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | live | -
-- 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | live | -
-- 2026-08-14 17:00 | Rusya Premier Lig | Orenburg - L.Moskova | live | -
-- 2026-08-14 17:00 | Belarus Premier Lig | Arsenal - Slavia Mozyr | live | -
-- 2026-08-14 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Ittihad Kalb | live | -
-- 2026-08-14 17:30 | İran Persian Gulf Pro Lig | Tractor Fc - Peykan | live | -
+- 2026-08-14 19:15 | İsveç 2.Lig Södra Götaland | Sölvesborgs Go - Nosaby If | live | -
 
 ## Biten Maclar
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
@@ -229,3 +223,8 @@ Yarin: 17
 - 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Qingdao Zhongne | finished | -
 - 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shanghai Port | finished | -
 - 2026-08-14 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Chongqing Tongl | finished | -
+- 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | finished | -
+- 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | finished | -
+- 2026-08-14 17:00 | Rusya Premier Lig | Orenburg - L.Moskova | finished | -
+- 2026-08-14 17:00 | Belarus Premier Lig | Arsenal - Slavia Mozyr | finished | -
+- 2026-08-14 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Ittihad Kalb | finished | -
