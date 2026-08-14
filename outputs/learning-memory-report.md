@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 13:45:19
+Oluşturma: 14.08.2026 14:14:59
 
 ## Özet
 
-- Toplam tahmin: 120
-- Bekleyen tahmin: 120
+- Toplam tahmin: 121
+- Bekleyen tahmin: 121
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 60
@@ -20,12 +20,13 @@ Oluşturma: 14.08.2026 13:45:19
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 63, bekleyen 63, başarı bekleniyor, ağırlık 1
+- MS X: toplam 64, bekleyen 64, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | MS X | pending | 60/100
 - 2026-08-14 | İrlanda FAI Kupası 3.Tur | Galway United - Bray Wanderers | MS X | pending | 60/100
 - 2026-08-14 | Portekiz Premier Lig | Sporting Cp - Guimaraes | MS 2 | pending | 40/100
 - 2026-08-14 | Hazırlık Kulüpler | Atalanta - Athletic Bilbao | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 14.08.2026 13:45:19
 - 2026-08-14 | İsveç 2.Lig Vastra Götaland | Böljan - Astorp | MS X | pending | 50/100
 - 2026-08-14 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | MS 2 | pending | 40/100
 - 2026-08-14 | Irak Premier Lig | Naft Maysan - Al Golan | MS 2 | pending | 40/100
-- 2026-08-14 | Malta Premier Lig Açılış | Birzebbuga - Birzebbuga | MS X | pending | 40/100
 
