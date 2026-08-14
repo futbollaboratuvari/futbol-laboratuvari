@@ -1,21 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-14 / 2026-08-15
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 213
-Aktif mac: 175
-Canli mac: 6
+Aktif mac: 170
+Canli mac: 11
 Biten mac: 32
-Bultenden dusurulen mac: 38
-Bugun: 158
+Bultenden dusurulen mac: 43
+Bugun: 153
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 18:00 | Finlandiya Veikkausliiga | Vaasa - Turku | scheduled | -
-- 2026-08-14 18:00 | Ukrayna Premier Lig | Epitsentr Duna - Veres Rivne | scheduled | -
-- 2026-08-14 18:00 | Rusya FNL | Neftekhimik - Shinnik Yarosla | scheduled | -
-- 2026-08-14 18:00 | Slovakya 2.Lig | Pohronie - Mfk Bytca | scheduled | -
-- 2026-08-14 18:00 | Letonya Kupa Çeyrek Final | Bfc Daugavpils - Ogre United | scheduled | -
 - 2026-08-14 18:30 | Azerbaycan Premier Lig | Turan - Qabala | scheduled | -
 - 2026-08-14 18:30 | Finlandiya Ykkösliiga | Japs - Haka | scheduled | -
 - 2026-08-14 18:30 | Macaristan NB I | Budapest Honve - Vasas | scheduled | -
@@ -188,6 +184,11 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
+- 2026-08-14 18:00 | Finlandiya Veikkausliiga | Vaasa - Turku | live | -
+- 2026-08-14 18:00 | Ukrayna Premier Lig | Epitsentr Duna - Veres Rivne | live | -
+- 2026-08-14 18:00 | Rusya FNL | Neftekhimik - Shinnik Yarosla | live | -
+- 2026-08-14 18:00 | Slovakya 2.Lig | Pohronie - Mfk Bytca | live | -
+- 2026-08-14 18:00 | Letonya Kupa Çeyrek Final | Bfc Daugavpils - Ogre United | live | -
 - 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | live | -
 - 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | live | -
 - 2026-08-14 17:00 | Rusya Premier Lig | Orenburg - L.Moskova | live | -
