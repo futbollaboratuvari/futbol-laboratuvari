@@ -1,25 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-14T14:39:44.766092+00:00
-=======
-Tarih: 2026-08-14T14:43:36.283433+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-14T15:39:12.401921+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 170
+- Durum: error
+- Kac mac bulundu: 141
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 170
-=======
-- Kac mac bulundu: 153
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 153
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 6441
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -30,7 +20,6 @@ Tarih: 2026-08-14T14:43:36.283433+00:00
 - Arjantin Ulusal Primera Lig
 - Avusturya 1.Lig
 - Avusturya Bundesliga
-- Azerbaycan Premier Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -43,8 +32,6 @@ Tarih: 2026-08-14T14:43:36.283433+00:00
 - Danimarka 3.Lig
 - Danimarka Süperlig
 - Estonya Premium Lig
-- Finlandiya Veikkausliiga
-- Finlandiya Ykkösliiga
 - Fransa Ligue 2
 - Fransa Ligue 3
 - Galler FAW Championship Güney
@@ -56,9 +43,7 @@ Tarih: 2026-08-14T14:43:36.283433+00:00
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Letonya Kupa Çeyrek Final
 - Litvanya 1.Lig
-- Macaristan NB I
 - Malta Premier Lig Açılış
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -78,7 +63,6 @@ Tarih: 2026-08-14T14:43:36.283433+00:00
 - Türkiye TFF 1. Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
 - Uganda Süper 8 Yarı Final
-- Ukrayna Premier Lig
 - Çek Cumhuriyeti FNL
 - İngiltere Championship
 - İngiltere Non League Premier Kuzey
@@ -167,7 +151,8 @@ Tarih: 2026-08-14T14:43:36.283433+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -178,22 +163,22 @@ Tarih: 2026-08-14T14:43:36.283433+00:00
 | 14.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
 | 14.08.2026 | 21:00 | Hollanda Eredivisie | Telstar | Sparta Rotterda | 13497 | 5 |
 | 14.08.2026 | 22:15 | Portekiz Premier Lig | Sporting Cp | Guimaraes | 15929 | 5 |
+| 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Faisaly | 12908 | 4 |
 | 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Riyadh | 12847 | 5 |
 | 14.08.2026 | 19:50 | Suudi Arabistan Pro Lig | Neom Sc | Al Feiha | 07112 | 5 |
-| 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Faisaly | 12908 | 4 |
 | 14.08.2026 | 21:45 | Belçika Pro Lig | Cercle Brugge | St. Truidense | 15075 | 5 |
 | 14.08.2026 | 22:00 | İngiltere Championship | Wolverhampton | Blackburn | 15815 | 5 |
 | 14.08.2026 | 21:30 | İspanya 2.Lig | Real Sociedad | Castellon | 13801 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Grenoble | Metz | 15226 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Guingamp | Boulogne | 15284 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
