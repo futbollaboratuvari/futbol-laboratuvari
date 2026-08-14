@@ -3,16 +3,14 @@
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
 Ham mac: 185
-Aktif mac: 179
-Canli mac: 6
+Aktif mac: 177
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 162
+Bultenden dusurulen mac: 8
+Bugun: 160
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 17:00 | Rusya Premier Lig | Orenburg - L.Moskova | scheduled | -
-- 2026-08-14 17:00 | Belarus Premier Lig | Arsenal - Slavia Mozyr | scheduled | -
 - 2026-08-14 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Ittihad Kalb | scheduled | -
 - 2026-08-14 17:30 | İran Persian Gulf Pro Lig | Tractor Fc - Peykan | scheduled | -
 - 2026-08-14 18:00 | Finlandiya Veikkausliiga | Vaasa - Turku | scheduled | -
@@ -198,6 +196,8 @@ Yarin: 17
 - 2026-08-14 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Chongqing Tongl | live | -
 - 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | live | -
 - 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | live | -
+- 2026-08-14 17:00 | Rusya Premier Lig | Orenburg - L.Moskova | live | -
+- 2026-08-14 17:00 | Belarus Premier Lig | Arsenal - Slavia Mozyr | live | -
 
 ## Biten Maclar
 Biten mac yok.
