@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
-Ham mac: 190
+Ham mac: 197
 Aktif mac: 190
-Canli mac: 0
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 0
+Bultenden dusurulen mac: 7
 Bugun: 173
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - St George City | scheduled | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Gold Coast Uni - Eastern Suburbs | scheduled | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane City | scheduled | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Roar - Gold Coast Knig | scheduled | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Olymp - Rochedale Rover | scheduled | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Moreton City E - Queensland Lion | scheduled | -
-- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Magic United | scheduled | -
 - 2026-08-14 12:45 | Avustralya NPL Victoria | Dandenong City - Altona Magic | scheduled | -
 - 2026-08-14 13:00 | Japonya J1 Lig | Tokyo Verdy - Kashiwa | scheduled | -
 - 2026-08-14 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Green Gully | scheduled | -
@@ -49,6 +42,8 @@ Yarin: 17
 - 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Julan | scheduled | -
 - 2026-08-14 18:30 | Litvanya 1.Lig | Be1 Nfa - Hegelmann Ii | scheduled | -
 - 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Golan | scheduled | -
+- 2026-08-14 18:30 | Hazırlık Kulüpler | Marsilya - Atletico Madrid | scheduled | -
+- 2026-08-14 18:30 | Hazırlık Kulüpler | Portugalete - Barakaldo | scheduled | -
 - 2026-08-14 19:00 | İtalya Kupa 1.Tur | Parma - Catania | scheduled | -
 - 2026-08-14 19:00 | Polonya 1.Lig | Pogon Grodzisk - Rzeszow | scheduled | -
 - 2026-08-14 19:00 | Belarus Premier Lig | Dnepr Mogilev - Belshina Bobrui | scheduled | -
@@ -115,6 +110,8 @@ Yarin: 17
 - 2026-08-14 20:30 | Almanya Bölgesel Lig Batı | Bonner Sc - Sportfreunde Lo | scheduled | -
 - 2026-08-14 20:30 | İsveç 2.Lig Vastra Götaland | Lindome Gif - Astrio | scheduled | -
 - 2026-08-14 20:30 | İsveç 2.Lig Norra Götaland | Husqvarna - Skara | scheduled | -
+- 2026-08-14 20:30 | Hazırlık Kulüpler | Cd Coria - Extremadura 192 | scheduled | -
+- 2026-08-14 20:30 | Hazırlık Kulüpler | Alcoyano - Hercules | scheduled | -
 - 2026-08-14 21:00 | Hollanda Eredivisie | Telstar - Sparta Rotterda | scheduled | -
 - 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya - Al Faisaly | scheduled | -
 - 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Riyadh | scheduled | -
@@ -152,6 +149,8 @@ Yarin: 17
 - 2026-08-14 21:30 | Malta Premier Lig Açılış | Marsaxlokk Fc - Balzan Fc | scheduled | -
 - 2026-08-14 21:30 | Irak Premier Lig | Newroz - Al Jawiya | scheduled | -
 - 2026-08-14 21:30 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | scheduled | -
+- 2026-08-14 21:30 | Türkiye TFF 1. Lig | Esenler Eroksp - Sarıyer | scheduled | -
+- 2026-08-14 21:30 | Hazırlık Kulüpler | Coventry - Monaco | scheduled | -
 - 2026-08-14 21:45 | Belçika Pro Lig | Cercle Brugge - St. Truidense | scheduled | -
 - 2026-08-14 21:45 | İtalya Kupa 1.Tur | Monza - Avellino | scheduled | -
 - 2026-08-14 21:45 | Fransa Ligue 2 | Nancy - Montpellier | scheduled | -
@@ -175,6 +174,7 @@ Yarin: 17
 - 2026-08-14 21:45 | Galler FAW Championship Güney | Trethomas Blue - Caerau Ely | scheduled | -
 - 2026-08-14 21:45 | İngiltere Non League Premier Kuzey | Afc Emley - Curzon Ashton | scheduled | -
 - 2026-08-14 21:45 | İskoçya Lig Kupası 2.Tur | Kilmarnock - Ayr Utd | scheduled | -
+- 2026-08-14 21:45 | Hazırlık Kulüpler | Atalanta - Athletic Bilbao | scheduled | -
 - 2026-08-14 22:00 | İngiltere Championship | Wolverhampton - Blackburn | scheduled | -
 - 2026-08-14 22:00 | Polonya 1.Lig | Ruch Chorzow - Lechia Gdansk | scheduled | -
 - 2026-08-14 22:00 | Bolivya Premier Lig | Universitario - Real Tomayapo | scheduled | -
@@ -203,7 +203,13 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-14 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - St George City | live | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Gold Coast Uni - Eastern Suburbs | live | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane City | live | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Roar - Gold Coast Knig | live | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Olymp - Rochedale Rover | live | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Moreton City E - Queensland Lion | live | -
+- 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Magic United | live | -
 
 ## Biten Maclar
 Biten mac yok.
