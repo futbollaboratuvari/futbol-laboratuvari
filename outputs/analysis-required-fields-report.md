@@ -1,7 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: empty
-Toplam analiz: 0
-Tam analiz: 0
-Eksik analiz: 0
+Durum: warning
+Toplam analiz: 45
+Tam analiz: 43
+Eksik analiz: 2
 
+- Waterford VS Athlone: eksik score, confidence
+- Universitario VS Real Tomayapo: eksik score, confidence
