@@ -3,16 +3,14 @@
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
 Ham mac: 192
-Aktif mac: 188
-Canli mac: 4
+Aktif mac: 186
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 171
+Bultenden dusurulen mac: 6
+Bugun: 169
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | scheduled | -
-- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | scheduled | -
 - 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | scheduled | -
 - 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | scheduled | -
 - 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | scheduled | -
@@ -205,6 +203,8 @@ Yarin: 17
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | live | -
 - 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | live | -
 - 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | live | -
+- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | live | -
+- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | live | -
 
 ## Biten Maclar
 Biten mac yok.
