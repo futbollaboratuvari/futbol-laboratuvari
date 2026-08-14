@@ -1,22 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T23:20:56.835593+00:00
+Tarih: 2026-08-14T23:44:58.537042+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 558
+- Kac mac bulundu: 484
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 558
+- Kac mac zaten vardi: 484
 - Ham veri havuzu toplam mac sayisi: 7001
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
@@ -29,7 +26,6 @@ Tarih: 2026-08-14T23:20:56.835593+00:00
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
@@ -48,7 +44,6 @@ Tarih: 2026-08-14T23:20:56.835593+00:00
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -64,15 +59,12 @@ Tarih: 2026-08-14T23:20:56.835593+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Japonya J1 Lig
 - Japonya J2 Lig
 - Japonya J3 Lig
-- Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -83,9 +75,7 @@ Tarih: 2026-08-14T23:20:56.835593+00:00
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -149,7 +139,6 @@ Tarih: 2026-08-14T23:20:56.835593+00:00
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
