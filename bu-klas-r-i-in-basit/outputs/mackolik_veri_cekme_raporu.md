@@ -1,46 +1,35 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T17:25:44.993964+00:00
+Tarih: 2026-08-14T17:42:16.948632+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 97
+- Kac mac bulundu: 71
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 97
+- Kac mac zaten vardi: 71
 - Ham veri havuzu toplam mac sayisi: 6441
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya Bölgesel Lig Batı
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
-- Avusturya Bundesliga
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Fransa Ligue 2
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Güney Afrika PSL
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya Ekstraklasa
@@ -52,7 +41,6 @@ Tarih: 2026-08-14T17:25:44.993964+00:00
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - UEFA Avrupa Ligi 3. Eleme Turu
-- Uruguay Premier Lig Clausura
 - İngiltere Championship
 - İngiltere Non League Premier Kuzey
 - İngiltere Premier Lig Kupası Grup A
@@ -67,12 +55,9 @@ Tarih: 2026-08-14T17:25:44.993964+00:00
 - İrlanda FAI Kupası 3.Tur
 - İskoçya Lig Kupası 2.Tur
 - İspanya 2.Lig
-- İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -129,8 +114,8 @@ Tarih: 2026-08-14T17:25:44.993964+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 66
-- Acilan detay: 66
+- Denenen Tumu alani: 61
+- Acilan detay: 61
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -162,7 +147,7 @@ Tarih: 2026-08-14T17:25:44.993964+00:00
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Guingamp | Boulogne | 15284 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
-| 14.08.2026 | 21:45 | İtalya Kupa 1.Tur | Monza | Avellino | 14826 | 5 |
+| 14.08.2026 | 22:15 | İtalya Kupa 1.Tur | Fiorentina | Benevento | 15875 | 5 |
 
 ## Sonuc
 
