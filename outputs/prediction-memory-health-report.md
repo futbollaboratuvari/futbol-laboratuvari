@@ -1,14 +1,14 @@
 # Tahmin Kayit Saglik Kontrolu
 
-Durum: ok
-Robot analiz maci: 182
-Aday tahmin: 7
-Toplam tahmin: 124
-Bekleyen: 124
+Durum: aday_yok_izleme
+Robot analiz maci: 168
+Aday tahmin: 0
+Toplam tahmin: 0
+Bekleyen: 0
 Kazanan: 0
 Kaybeden: 0
 Eksik kayit: 0
 Tekrar eden: 0
 
-Sonraki aksiyon: Sonuc takip asamasina gecilebilir.
+Sonraki aksiyon: Aday yok. Izleme devam.
 

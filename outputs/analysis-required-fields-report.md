@@ -1,25 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 182
-Tam analiz: 164
-Eksik analiz: 18
+Toplam analiz: 168
+Tam analiz: 0
+Eksik analiz: 168
 
-- Oakleigh Canno VS Green Gully: eksik score, confidence
-- Pamba Jiji VS Dodoma Jiji: eksik score, confidence
+- Shaanxi Union VS Changchun Yatai: eksik score, confidence
+- Shandong Taish VS Qingdao Zhongne: eksik score, confidence
+- Wuhan Three To VS Shanghai Port: eksik score, confidence
+- Qingdao West C VS Chongqing Tongl: eksik score, confidence
+- Fleetwood Town VS Colchester Unit: eksik score, confidence
+- Mbeya City VS Geita Gold: eksik score, confidence
+- Orenburg VS L.Moskova: eksik score, confidence
+- Arsenal VS Slavia Mozyr: eksik score, confidence
+- Al Nasr VS Al Ittihad Kalb: eksik score, confidence
+- Tractor Fc VS Peykan: eksik score, confidence
+- Vaasa VS Turku: eksik score, confidence
+- Epitsentr Duna VS Veres Rivne: eksik score, confidence
+- Neftekhimik VS Shinnik Yarosla: eksik score, confidence
+- Pohronie VS Mfk Bytca: eksik score, confidence
 - Bfc Daugavpils VS Ogre United: eksik score, confidence
-- Be1 Nfa VS Hegelmann Ii: eksik score, confidence
-- Nomme United VS Tammeka Tartu: eksik score, confidence
-- Singida Black VS Fountain Gate: eksik score, confidence
-- Sc Villa VS Nec: eksik score, confidence
-- Gol Gohar Sirj VS Nassaji Mazanda: eksik score, confidence
-- Landvetter Is VS Galtabacks: eksik score, confidence
-- Lindome Gif VS Astrio: eksik score, confidence
-- Southampton (B VS Blackburn Rover: eksik score, confidence
-- Leicester (B) VS Plymouth Argyle: eksik score, confidence
-- Nottingham For VS Luton Town U21: eksik score, confidence
-- Brighton (B) VS Millwall U21: eksik score, confidence
-- Ipswich Town U VS Coventry City U: eksik score, confidence
-- Haukar VS Hviti: eksik score, confidence
-- Waterford VS Athlone: eksik score, confidence
-- Universitario VS Real Tomayapo: eksik score, confidence
+- Turan VS Qabala: eksik score, confidence
+- Japs VS Haka: eksik score, confidence
+- Budapest Honve VS Vasas: eksik score, confidence
+- Voluntari VS Petrolul 52: eksik score, confidence
+- Jesenice VS Krsko: eksik score, confidence
