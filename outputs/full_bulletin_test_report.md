@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 17
-- Live match count: 45
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-08-14 / 2026-08-15 23:59
+- Date window: 2026-08-15 / 2026-08-16 23:59
 
-- 2026-08-14 21:15 | Cska - Cherno More | live
-- 2026-08-14 21:30 | St Polten - Blau-Weiss Linz | live
-- 2026-08-14 21:30 | Carmarthen - Afan Lido | live
-- 2026-08-14 21:30 | Coventry - Monaco | live
-- 2026-08-14 21:30 | Newroz - Al Jawiya | live
-- 2026-08-14 21:30 | Real Sociedad - Castellon | live
-- 2026-08-14 21:30 | Balzan Fc - Marsaxlokk Fc | live
-- 2026-08-14 21:30 | Marsaxlokk Fc - Balzan Fc | live
-- 2026-08-14 21:30 | Legia Varşova - Radomiak Radom | live
-- 2026-08-14 21:30 | Argesul Pitest - Ssc Farul | live
+- 2026-08-15 01:00 | Boston River - Danubio | scheduled
+- 2026-08-15 01:30 | Ponte Preta - Nautico | scheduled
+- 2026-08-15 01:30 | Sao Bernardo - Botafogo Ribeir | scheduled
+- 2026-08-15 02:00 | Cusco Fc - Juan Pablo Ii C | scheduled
+- 2026-08-15 02:00 | Univ De Concep - La Serena | scheduled
+- 2026-08-15 02:30 | Racing Club - Banfield | scheduled
+- 2026-08-15 02:30 | Rafaela - D Belgrano | scheduled
+- 2026-08-15 02:30 | Sport Recife - Londrina | scheduled
+- 2026-08-15 03:00 | Bolivar - San Antonio Bul | scheduled
+- 2026-08-15 03:00 | Indep. Jose Te - Delfin | scheduled

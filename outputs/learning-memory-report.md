@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 23:59:13
+Oluşturma: 15.08.2026 00:15:19
 
 ## Özet
 
-- Toplam tahmin: 102
-- Bekleyen tahmin: 102
+- Toplam tahmin: 112
+- Bekleyen tahmin: 112
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 48
+- Lig sayısı: 55
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 14.08.2026 23:59:13
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 59, bekleyen 59, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 47, bekleyen 47, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Şili Premier Lig | Univ De Concep - La Serena | MS X | pending | 40/100
+- 2026-08-15 | Brezilya Serie B | Sport Recife - Londrina | MS 2 | pending | 50/100
+- 2026-08-15 | Ekvador Pro Lig | Indep. Jose Te - Delfin | MS X | pending | 75/100
+- 2026-08-15 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | MS X | pending | 50/100
+- 2026-08-15 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | MS X | pending | 50/100
+- 2026-08-15 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | MS 2 | pending | 80/100
+- 2026-08-15 | El Salvador Primera Lig Apertura | Municipal Lime - Inter Fa | MS 1 | pending | 40/100
+- 2026-08-15 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | MS X | pending | 40/100
+- 2026-08-15 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | MS X | pending | 50/100
+- 2026-08-15 | Brezilya Serie B | Ponte Preta - Nautico | MS 1 | pending | 40/100
 - 2026-08-14 | Fransa Ligue 2 | Grenoble - Metz | MS X | pending | 40/100
 - 2026-08-14 | Fransa Ligue 2 | Dijon - Pau Fc | MS 2 | pending | 40/100
 - 2026-08-14 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | MS 2 | pending | 50/100
 - 2026-08-14 | Hollanda Eerste Divisie | Waalwijk - Dordrecht | MS X | pending | 50/100
 - 2026-08-14 | İngiltere Championship | Wolverhampton - Blackburn | MS 2 | pending | 75/100
-- 2026-08-14 | Polonya 1.Lig | Ruch Chorzow - Lechia Gdansk | MS 2 | pending | 60/100
-- 2026-08-14 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | MS X | pending | 50/100
-- 2026-08-14 | Portekiz 3.Lig Grup B | Uniao Santarem - Oliveirense | MS X | pending | 40/100
-- 2026-08-14 | Galler FAW Championship Güney | Carmarthen - Afan Lido | MS 2 | pending | 60/100
-- 2026-08-14 | Malta Premier Lig Açılış | Marsaxlokk Fc - Balzan Fc | MS X | pending | 40/100
-- 2026-08-14 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | MS X | pending | 40/100
-- 2026-08-14 | Türkiye TFF 1. Lig | Esenler Eroksp - Sarıyer | MS 2 | pending | 50/100
-- 2026-08-14 | Hazırlık Kulüpler | Coventry - Monaco | MS X | pending | 60/100
-- 2026-08-14 | Belçika Pro Lig | Cercle Brugge - St. Truidense | MS X | pending | 50/100
-- 2026-08-14 | İtalya Kupa 1.Tur | Monza - Avellino | MS 2 | pending | 50/100
 
