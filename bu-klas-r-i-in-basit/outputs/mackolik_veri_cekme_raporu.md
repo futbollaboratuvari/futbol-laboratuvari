@@ -1,34 +1,157 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T20:59:04.955915+00:00
+Tarih: 2026-08-14T21:39:35.149110+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 485
+- Kac mac kaydedildi: 485
 - Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 6441
-- Hedef tarih: 14.08.2026 Europe/Istanbul
+- Ham veri havuzu toplam mac sayisi: 6926
+- Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- AFF Şampiyonası Yarı Final
+- Almanya 2. Bundesliga
+- Almanya 3. Lig
+- Almanya Bölgesel Lig Batı
+- Almanya Bölgesel Lig Güney Batı
+- Almanya Bölgesel Lig Kuzey
+- Almanya Bölgesel Lig Kuzey Doğu
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Batı Avustralya
+- Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Güney Avustralya
+- Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avustralya Victoria NPL 1
+- Avusturya 1.Lig
+- Avusturya Bundesliga
+- Azerbaycan Premier Lig
+- Belarus Premier Lig
+- Belçika Challenger Pro Lig
+- Belçika Pro Lig
+- Birleşik Arap Emirlikleri Arap Körfez Ligi
+- Bolivya Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Bulgaristan 1.Lig
+- Danimarka 1.Lig
+- Danimarka 2.Lig
+- Danimarka 3.Lig
+- Ekvador Pro Lig
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Galler FAW Championship Güney
+- Galler FAW Championship Kuzey
+- Galler Premier Lig 1.Aşama
+- Guatemala Ulusal Lig Apertura
+- Güney Afrika PSL
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Gürcistan Erovnuli Liga
+- Hazırlık Kulüpler
+- Hollanda Eerste Divisie
+- Hollanda Eredivisie
+- Hollanda Tweede Divisie
+- Hırvatistan 1.HNL
+- Irak Premier Lig
+- Japonya J1 Lig
+- Japonya J2 Lig
+- Japonya J3 Lig
+- Kazakistan Premier Lig
+- Kuzey İrlanda Championship
+- Kuzey İrlanda Premiership
+- Letonya 1.Lig
+- Litvanya 1.Lig
+- Macaristan NB I
+- Macaristan NB II
+- Macaristan NB III Güneybatı
+- Macaristan NB III Kuzeybatı
+- Macaristan NB III Kuzeydoğu
+- Meksika Ascenso MX Apertura
+- Moldova Ulusal Lig
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 6
+- Norveç Eliteserien
+- Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
+- Portekiz 2.Lig
+- Portekiz 3.Lig Grup A
+- Portekiz 3.Lig Grup B
+- Portekiz Premier Lig
+- Romanya 1.Lig
+- Rusya FNL
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Slovakya Süper Lig
+- Slovenya 1.SNL
+- Slovenya 2.SNL
+- Suudi Arabistan Pro Lig
+- Sırbistan Süper Lig
+- Tanzanya Kuu Bara Ligi
+- Türkiye Süper Lig
+- Ukrayna Premier Lig
+- Uruguay Premier Lig Clausura
+- Venezuela Premier Lig Clausura
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti 1.Lig
+- Çin Halk Cumhuriyeti Süper Lig
+- İngiltere 1.Lig
+- İngiltere 2.Lig
+- İngiltere Championship
+- İngiltere Non League Premier Güney
+- İngiltere Non League Premier Güney Merkez
+- İngiltere Non League Premier Kuzey
+- İngiltere Ulusal Lig
+- İngiltere Ulusal Lig N / S Güney
+- İngiltere Ulusal Lig N / S Kuzey
+- İran Persian Gulf Pro Lig
+- İrlanda FAI Kupası 3.Tur
+- İskoçya 1.Lig
+- İskoçya 2.Lig
+- İskoçya Lig Kupası 2.Tur
+- İspanya 2.Lig
+- İspanya LaLiga
+- İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Norrland Yükselme Grubu
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç 2.Lig Vastra Götaland
+- İsveç Allsvenskan
+- İsveç Superettan
+- İsviçre 1.Lig Promotion
+- İtalya Kupa 1.Tur
+- İzlanda 2.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -72,8 +195,8 @@ Tarih: 2026-08-14T20:59:04.955915+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 17
-- Acilan detay: 17
+- Denenen Tumu alani: 90
+- Acilan detay: 90
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -84,7 +207,28 @@ Tarih: 2026-08-14T20:59:04.955915+00:00
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 15.08.2026 | 19:00 | Türkiye Süper Lig | Konyaspor | Rizespor | 41890 | 5 |
+| 15.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Fenerbahçe | 42006 | 5 |
+| 15.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Alanyaspor | 41948 | 5 |
+| 15.08.2026 | 19:00 | Türkiye Süper Lig | Kasimpaşa | Trabzonspor | 12464 | 5 |
+| 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
+| 15.08.2026 | 20:30 | İspanya LaLiga | Alaves | Getafe | 25622 | 5 |
+| 15.08.2026 | 19:45 | Hollanda Eredivisie | Utrecht | Az Alkmaar | 27112 | 5 |
+| 15.08.2026 | 21:00 | Hollanda Eredivisie | Excelsior | Psv Eindhoven | 28159 | 5 |
+| 15.08.2026 | 17:30 | Hollanda Eredivisie | Willem | Nijmegen | 24422 | 5 |
+| 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
+| 15.08.2026 | 20:00 | Portekiz Premier Lig | Academico Vise | Santa Clara | 27170 | 5 |
+| 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
+| 15.08.2026 | 17:30 | Portekiz Premier Lig | Alverca | Estrela | 24244 | 5 |
+| 15.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Taawon | Al Khaleej | 26583 | 5 |
+| 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Al Fateh | 28067 | 4 |
+| 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Kholood | 28020 | 5 |
+| 15.08.2026 | 19:15 | Belçika Pro Lig | Kortrijk | Antwerp | 26709 | 5 |
+| 15.08.2026 | 21:45 | Belçika Pro Lig | Genk | Westerlo | 28490 | 5 |
+| 15.08.2026 | 17:00 | Belçika Pro Lig | Union St.G | Zulte Waregem | 23818 | 5 |
+| 15.08.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Club Brugge | 28581 | 5 |
 
 ## Sonuc
 
