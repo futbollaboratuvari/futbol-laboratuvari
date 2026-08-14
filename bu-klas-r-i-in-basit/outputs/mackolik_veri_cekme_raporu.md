@@ -1,14 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-14T14:39:44.766092+00:00
+=======
+Tarih: 2026-08-14T14:43:36.283433+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 170
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 170
+=======
+- Kac mac bulundu: 153
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 153
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 6441
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
@@ -17,9 +27,7 @@ Tarih: 2026-08-14T14:39:44.766092+00:00
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -29,14 +37,11 @@ Tarih: 2026-08-14T14:39:44.766092+00:00
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
@@ -51,13 +56,10 @@ Tarih: 2026-08-14T14:39:44.766092+00:00
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Letonya Kupa Çeyrek Final
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -77,7 +79,6 @@ Tarih: 2026-08-14T14:39:44.766092+00:00
 - UEFA Avrupa Ligi 3. Eleme Turu
 - Uganda Süper 8 Yarı Final
 - Ukrayna Premier Lig
-- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti FNL
 - İngiltere Championship
 - İngiltere Non League Premier Kuzey
@@ -102,7 +103,6 @@ Tarih: 2026-08-14T14:39:44.766092+00:00
 - İsveç Superettan
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
