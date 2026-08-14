@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-14T17:25:48.870Z
+- Guncelleme: 2026-08-14T18:14:26.152Z
 - Ham fixture sayisi: 6407
 - Bugun/yarin kaynak mac: 213
-- Aktif bulten maci: 98
+- Aktif bulten maci: 62
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 115
+- Bultenden dusurulen mac: 151
 
-- 1. 2026-08-14 20:30 | Hazırlık Kulüpler | Alcoyano - Hercules | scheduled
-- 2. 2026-08-14 20:30 | Almanya Bölgesel Lig Batı | Bonner Sc - Sportfreunde Lo | scheduled
-- 3. 2026-08-14 20:30 | Hazırlık Kulüpler | Cd Coria - Extremadura 192 | scheduled
-- 4. 2026-08-14 20:30 | İsveç 2.Lig Norra Götaland | Husqvarna - Skara | scheduled
-- 5. 2026-08-14 20:30 | Avusturya Bundesliga | Lask Linz - Ried | scheduled
-- 6. 2026-08-14 20:30 | İsveç 2.Lig Vastra Götaland | Lindome Gif - Astrio | scheduled
-- 7. 2026-08-14 20:30 | Hazırlık Kulüpler | Reddis - Saguntino | scheduled
-- 8. 2026-08-14 20:30 | Almanya Bölgesel Lig Batı | Schalke 04 (Am - Sportfreunde Si | scheduled
-- 9. 2026-08-14 20:30 | Güney Afrika PSL | Stellenbosch F - Marumo Gallants | scheduled
-- 10. 2026-08-14 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Midland | scheduled
-- 11. 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Riyadh | scheduled
-- 12. 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya - Al Faisaly | scheduled
-- 13. 2026-08-14 21:00 | Hollanda Eerste Divisie | Almere City - Psv (B) | scheduled
-- 14. 2026-08-14 21:00 | Hollanda Eerste Divisie | Breda - Vvv Venlo | scheduled
-- 15. 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup F | Brighton (B) - Millwall U21 | scheduled
+- 1. 2026-08-14 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi - Cherno More | scheduled
+- 2. 2026-08-14 21:30 | Romanya 1.Lig | Argesul Pitest - Ssc Farul | scheduled
+- 3. 2026-08-14 21:30 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | scheduled
+- 4. 2026-08-14 21:30 | Galler FAW Championship Güney | Carmarthen - Afan Lido | scheduled
+- 5. 2026-08-14 21:30 | Hazırlık Kulüpler | Coventry - Monaco | scheduled
+- 6. 2026-08-14 21:30 | Türkiye TFF 1. Lig | Esenler Eroksp - Sarıyer | scheduled
+- 7. 2026-08-14 21:30 | Türkiye Süper Lig | Galatasaray - Çorum | scheduled
+- 8. 2026-08-14 21:30 | Polonya Ekstraklasa | Legia Varşova - Radomiak Radom | scheduled
+- 9. 2026-08-14 21:30 | Malta Premier Lig Açılış | Marsaxlokk Fc - Balzan Fc | scheduled
+- 10. 2026-08-14 21:30 | Irak Premier Lig | Newroz - Al Jawiya | scheduled
+- 11. 2026-08-14 21:30 | İspanya 2.Lig | Real Sociedad - Castellon | scheduled
+- 12. 2026-08-14 21:30 | Avusturya 1.Lig | St Polten - Blau-Weiss Linz | scheduled
+- 13. 2026-08-14 21:45 | İngiltere Non League Premier Kuzey | Afc Emley - Curzon Ashton | scheduled
+- 14. 2026-08-14 21:45 | Galler Premier Lig 1.Aşama | Airbus Uk - Ammanford | scheduled
+- 15. 2026-08-14 21:45 | Fransa Ligue 2 | Annecy - Rodez Aveyron | scheduled

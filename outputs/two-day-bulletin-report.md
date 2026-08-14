@@ -3,50 +3,14 @@
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
 Ham mac: 213
-Aktif mac: 98
-Canli mac: 72
-Biten mac: 43
-Bultenden dusurulen mac: 115
-Bugun: 81
+Aktif mac: 62
+Canli mac: 79
+Biten mac: 72
+Bultenden dusurulen mac: 151
+Bugun: 45
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 20:30 | Avusturya Bundesliga | Lask Linz - Ried | scheduled | -
-- 2026-08-14 20:30 | Güney Afrika PSL | Stellenbosch F - Marumo Gallants | scheduled | -
-- 2026-08-14 20:30 | Almanya Bölgesel Lig Batı | Schalke 04 (Am - Sportfreunde Si | scheduled | -
-- 2026-08-14 20:30 | Almanya Bölgesel Lig Batı | Bonner Sc - Sportfreunde Lo | scheduled | -
-- 2026-08-14 20:30 | İsveç 2.Lig Vastra Götaland | Lindome Gif - Astrio | scheduled | -
-- 2026-08-14 20:30 | İsveç 2.Lig Norra Götaland | Husqvarna - Skara | scheduled | -
-- 2026-08-14 20:30 | Hazırlık Kulüpler | Cd Coria - Extremadura 192 | scheduled | -
-- 2026-08-14 20:30 | Hazırlık Kulüpler | Alcoyano - Hercules | scheduled | -
-- 2026-08-14 20:30 | Hazırlık Kulüpler | Reddis - Saguntino | scheduled | -
-- 2026-08-14 21:00 | Hollanda Eredivisie | Telstar - Sparta Rotterda | scheduled | -
-- 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya - Al Faisaly | scheduled | -
-- 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Riyadh | scheduled | -
-- 2026-08-14 21:00 | Hollanda Eerste Divisie | Waalwijk - Dordrecht | scheduled | -
-- 2026-08-14 21:00 | Hollanda Eerste Divisie | Roda - Helmond Sport | scheduled | -
-- 2026-08-14 21:00 | Hollanda Eerste Divisie | Fc Eindhoven - Maastricht | scheduled | -
-- 2026-08-14 21:00 | Hollanda Eerste Divisie | Almere City - Psv (B) | scheduled | -
-- 2026-08-14 21:00 | Hollanda Eerste Divisie | Heracles - Den Bosch | scheduled | -
-- 2026-08-14 21:00 | Hollanda Eerste Divisie | Breda - Vvv Venlo | scheduled | -
-- 2026-08-14 21:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Rudes | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup A | Southampton (B - Blackburn Rover | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup B | Leicester (B) - Plymouth Argyle | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup B | Cardiff City U - Bournemouth U21 | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup C | Swansea (B) - Birmingham City | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup D | Nottingham For - Luton Town U21 | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup E | Wolverhampton - Burnley U21 | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup F | Brighton (B) - Millwall U21 | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup H | Ipswich Town U - Coventry City U | scheduled | -
-- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup I | Stoke (B) - Leeds United U2 | scheduled | -
-- 2026-08-14 21:00 | Belçika Challenger Pro Lig | Sporting Hasse - Dender | scheduled | -
-- 2026-08-14 21:00 | Belçika Challenger Pro Lig | Rfc Seraing - Lokeren-Temse | scheduled | -
-- 2026-08-14 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Midland | scheduled | -
-- 2026-08-14 21:00 | Slovenya 2.SNL | Tabor Sezana - Triglav Kranj | scheduled | -
-- 2026-08-14 21:00 | İsveç 2.Lig Södra Svealand | Farsta - Nykobing Fa | scheduled | -
-- 2026-08-14 21:00 | İzlanda 2.Lig | Haukar - Hviti | scheduled | -
-- 2026-08-14 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | scheduled | -
-- 2026-08-14 21:00 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | scheduled | -
 - 2026-08-14 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi - Cherno More | scheduled | -
 - 2026-08-14 21:30 | Türkiye Süper Lig | Galatasaray - Çorum | scheduled | -
 - 2026-08-14 21:30 | İspanya 2.Lig | Real Sociedad - Castellon | scheduled | -
@@ -111,35 +75,6 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-08-14 18:30 | Azerbaycan Premier Lig | Turan - Qabala | live | -
-- 2026-08-14 18:30 | Finlandiya Ykkösliiga | Japs - Haka | live | -
-- 2026-08-14 18:30 | Macaristan NB I | Budapest Honve - Vasas | live | -
-- 2026-08-14 18:30 | Romanya 1.Lig | Voluntari - Petrolul 52 | live | -
-- 2026-08-14 18:30 | Slovenya 2.SNL | Jesenice - Krsko | live | -
-- 2026-08-14 18:30 | Irak Premier Lig | Naft - Al Karkh | live | -
-- 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Julan | live | -
-- 2026-08-14 18:30 | Litvanya 1.Lig | Be1 Nfa - Hegelmann Ii | live | -
-- 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Golan | live | -
-- 2026-08-14 18:30 | Hazırlık Kulüpler | Marsilya - Atletico Madrid | live | -
-- 2026-08-14 18:30 | Hazırlık Kulüpler | Portugalete - Barakaldo | live | -
-- 2026-08-14 19:00 | İtalya Kupa 1.Tur | Parma - Catania | live | -
-- 2026-08-14 19:00 | Polonya 1.Lig | Pogon Grodzisk - Rzeszow | live | -
-- 2026-08-14 19:00 | Belarus Premier Lig | Dnepr Mogilev - Belshina Bobrui | live | -
-- 2026-08-14 19:00 | Çek Cumhuriyeti FNL | Dukla Prag - Slavia Praha Ii | live | -
-- 2026-08-14 19:00 | Çek Cumhuriyeti FNL | Kladno - Vlasim | live | -
-- 2026-08-14 19:00 | Polonya 2.Lig | Gornik Leczna - Nkp Podhale | live | -
-- 2026-08-14 19:00 | Danimarka 2.Lig | Hellerup Ik - Fa 2000 | live | -
-- 2026-08-14 19:00 | Estonya Premium Lig | Nomme United - Tammeka Tartu | live | -
-- 2026-08-14 19:00 | Malta Premier Lig Açılış | Floriana - Birzebbuga | live | -
-- 2026-08-14 19:00 | Litvanya 1.Lig | Fa Siauliai Ii - Zalgiris Ii | live | -
-- 2026-08-14 19:00 | Litvanya 1.Lig | Transinvest Vi - Atmosfera | live | -
-- 2026-08-14 19:00 | Litvanya 1.Lig | Ekranas - Minija | live | -
-- 2026-08-14 19:00 | Litvanya 1.Lig | Kauno Zalgiris - Lietava Jonava | live | -
-- 2026-08-14 19:00 | Tanzanya Kuu Bara Ligi | Singida Black - Fountain Gate | live | -
-- 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Kheybar Khorra - Fajr Sepasi | live | -
-- 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Esteghlal - Mes Shahr-E Bab | live | -
-- 2026-08-14 19:00 | Uganda Süper 8 Yarı Final | Sc Villa - Nec | live | -
-- 2026-08-14 19:00 | Malta Premier Lig Açılış | Birzebbuga - Birzebbuga | live | -
 - 2026-08-14 19:15 | İsveç 2.Lig Södra Götaland | Sölvesborgs Go - Nosaby If | live | -
 - 2026-08-14 19:30 | İtalya Kupa 1.Tur | Cagliari - Arezzo | live | -
 - 2026-08-14 19:30 | Almanya 2. Bundesliga | Holstein Kiel - St Pauli | live | -
@@ -183,6 +118,42 @@ Yarin: 17
 - 2026-08-14 20:00 | İsveç 2.Lig Vastra Götaland | Kongahalla - Frolunda | live | -
 - 2026-08-14 20:00 | İsveç 2.Lig Vastra Götaland | Landvetter Is - Galtabacks | live | -
 - 2026-08-14 20:00 | İsveç 2.Lig Vastra Götaland | Böljan - Astorp | live | -
+- 2026-08-14 20:30 | Avusturya Bundesliga | Lask Linz - Ried | live | -
+- 2026-08-14 20:30 | Güney Afrika PSL | Stellenbosch F - Marumo Gallants | live | -
+- 2026-08-14 20:30 | Almanya Bölgesel Lig Batı | Schalke 04 (Am - Sportfreunde Si | live | -
+- 2026-08-14 20:30 | Almanya Bölgesel Lig Batı | Bonner Sc - Sportfreunde Lo | live | -
+- 2026-08-14 20:30 | İsveç 2.Lig Vastra Götaland | Lindome Gif - Astrio | live | -
+- 2026-08-14 20:30 | İsveç 2.Lig Norra Götaland | Husqvarna - Skara | live | -
+- 2026-08-14 20:30 | Hazırlık Kulüpler | Cd Coria - Extremadura 192 | live | -
+- 2026-08-14 20:30 | Hazırlık Kulüpler | Alcoyano - Hercules | live | -
+- 2026-08-14 20:30 | Hazırlık Kulüpler | Reddis - Saguntino | live | -
+- 2026-08-14 21:00 | Hollanda Eredivisie | Telstar - Sparta Rotterda | live | -
+- 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya - Al Faisaly | live | -
+- 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Riyadh | live | -
+- 2026-08-14 21:00 | Hollanda Eerste Divisie | Waalwijk - Dordrecht | live | -
+- 2026-08-14 21:00 | Hollanda Eerste Divisie | Roda - Helmond Sport | live | -
+- 2026-08-14 21:00 | Hollanda Eerste Divisie | Fc Eindhoven - Maastricht | live | -
+- 2026-08-14 21:00 | Hollanda Eerste Divisie | Almere City - Psv (B) | live | -
+- 2026-08-14 21:00 | Hollanda Eerste Divisie | Heracles - Den Bosch | live | -
+- 2026-08-14 21:00 | Hollanda Eerste Divisie | Breda - Vvv Venlo | live | -
+- 2026-08-14 21:00 | Hırvatistan 1.HNL | Dinamo Zagreb - Rudes | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup A | Southampton (B - Blackburn Rover | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup B | Leicester (B) - Plymouth Argyle | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup B | Cardiff City U - Bournemouth U21 | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup C | Swansea (B) - Birmingham City | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup D | Nottingham For - Luton Town U21 | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup E | Wolverhampton - Burnley U21 | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup F | Brighton (B) - Millwall U21 | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup H | Ipswich Town U - Coventry City U | live | -
+- 2026-08-14 21:00 | İngiltere Premier Lig Kupası Grup I | Stoke (B) - Leeds United U2 | live | -
+- 2026-08-14 21:00 | Belçika Challenger Pro Lig | Sporting Hasse - Dender | live | -
+- 2026-08-14 21:00 | Belçika Challenger Pro Lig | Rfc Seraing - Lokeren-Temse | live | -
+- 2026-08-14 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Midland | live | -
+- 2026-08-14 21:00 | Slovenya 2.SNL | Tabor Sezana - Triglav Kranj | live | -
+- 2026-08-14 21:00 | İsveç 2.Lig Södra Svealand | Farsta - Nykobing Fa | live | -
+- 2026-08-14 21:00 | İzlanda 2.Lig | Haukar - Hviti | live | -
+- 2026-08-14 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | live | -
+- 2026-08-14 21:00 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | live | -
 
 ## Biten Maclar
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
@@ -228,3 +199,32 @@ Yarin: 17
 - 2026-08-14 18:00 | Rusya FNL | Neftekhimik - Shinnik Yarosla | finished | -
 - 2026-08-14 18:00 | Slovakya 2.Lig | Pohronie - Mfk Bytca | finished | -
 - 2026-08-14 18:00 | Letonya Kupa Çeyrek Final | Bfc Daugavpils - Ogre United | finished | -
+- 2026-08-14 18:30 | Azerbaycan Premier Lig | Turan - Qabala | finished | -
+- 2026-08-14 18:30 | Finlandiya Ykkösliiga | Japs - Haka | finished | -
+- 2026-08-14 18:30 | Macaristan NB I | Budapest Honve - Vasas | finished | -
+- 2026-08-14 18:30 | Romanya 1.Lig | Voluntari - Petrolul 52 | finished | -
+- 2026-08-14 18:30 | Slovenya 2.SNL | Jesenice - Krsko | finished | -
+- 2026-08-14 18:30 | Irak Premier Lig | Naft - Al Karkh | finished | -
+- 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Julan | finished | -
+- 2026-08-14 18:30 | Litvanya 1.Lig | Be1 Nfa - Hegelmann Ii | finished | -
+- 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Golan | finished | -
+- 2026-08-14 18:30 | Hazırlık Kulüpler | Marsilya - Atletico Madrid | finished | -
+- 2026-08-14 18:30 | Hazırlık Kulüpler | Portugalete - Barakaldo | finished | -
+- 2026-08-14 19:00 | İtalya Kupa 1.Tur | Parma - Catania | finished | -
+- 2026-08-14 19:00 | Polonya 1.Lig | Pogon Grodzisk - Rzeszow | finished | -
+- 2026-08-14 19:00 | Belarus Premier Lig | Dnepr Mogilev - Belshina Bobrui | finished | -
+- 2026-08-14 19:00 | Çek Cumhuriyeti FNL | Dukla Prag - Slavia Praha Ii | finished | -
+- 2026-08-14 19:00 | Çek Cumhuriyeti FNL | Kladno - Vlasim | finished | -
+- 2026-08-14 19:00 | Polonya 2.Lig | Gornik Leczna - Nkp Podhale | finished | -
+- 2026-08-14 19:00 | Danimarka 2.Lig | Hellerup Ik - Fa 2000 | finished | -
+- 2026-08-14 19:00 | Estonya Premium Lig | Nomme United - Tammeka Tartu | finished | -
+- 2026-08-14 19:00 | Malta Premier Lig Açılış | Floriana - Birzebbuga | finished | -
+- 2026-08-14 19:00 | Litvanya 1.Lig | Fa Siauliai Ii - Zalgiris Ii | finished | -
+- 2026-08-14 19:00 | Litvanya 1.Lig | Transinvest Vi - Atmosfera | finished | -
+- 2026-08-14 19:00 | Litvanya 1.Lig | Ekranas - Minija | finished | -
+- 2026-08-14 19:00 | Litvanya 1.Lig | Kauno Zalgiris - Lietava Jonava | finished | -
+- 2026-08-14 19:00 | Tanzanya Kuu Bara Ligi | Singida Black - Fountain Gate | finished | -
+- 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Kheybar Khorra - Fajr Sepasi | finished | -
+- 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Esteghlal - Mes Shahr-E Bab | finished | -
+- 2026-08-14 19:00 | Uganda Süper 8 Yarı Final | Sc Villa - Nec | finished | -
+- 2026-08-14 19:00 | Malta Premier Lig Açılış | Birzebbuga - Birzebbuga | finished | -

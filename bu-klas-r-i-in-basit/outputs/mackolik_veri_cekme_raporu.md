@@ -1,63 +1,56 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T17:42:16.948632+00:00
+Tarih: 2026-08-14T18:14:22.217404+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 71
+- Kac mac bulundu: 61
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 71
+- Kac mac zaten vardi: 61
 - Ham veri havuzu toplam mac sayisi: 6441
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
-- Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
+- Brezilya Serie B
 - Bulgaristan 1.Lig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Fransa Ligue 2
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
-- Hollanda Eerste Divisie
-- Hollanda Eredivisie
-- Hırvatistan 1.HNL
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya Ekstraklasa
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Slovenya 2.SNL
-- Suudi Arabistan Pro Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- UEFA Avrupa Ligi 3. Eleme Turu
+- Uruguay Premier Lig Clausura
 - İngiltere Championship
 - İngiltere Non League Premier Kuzey
-- İngiltere Premier Lig Kupası Grup A
 - İngiltere Premier Lig Kupası Grup B
-- İngiltere Premier Lig Kupası Grup C
-- İngiltere Premier Lig Kupası Grup D
-- İngiltere Premier Lig Kupası Grup E
-- İngiltere Premier Lig Kupası Grup F
-- İngiltere Premier Lig Kupası Grup H
-- İngiltere Premier Lig Kupası Grup I
 - İngiltere Ulusal Lig N / S Güney
 - İrlanda FAI Kupası 3.Tur
 - İskoçya Lig Kupası 2.Tur
 - İspanya 2.Lig
-- İsveç 2.Lig Södra Svealand
 - İtalya Kupa 1.Tur
-- İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -114,8 +107,8 @@ Tarih: 2026-08-14T17:42:16.948632+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 61
-- Acilan detay: 61
+- Denenen Tumu alani: 43
+- Acilan detay: 43
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -130,24 +123,24 @@ Tarih: 2026-08-14T17:42:16.948632+00:00
 |---|---|---|---|---|---|---:|
 | 14.08.2026 | 21:30 | Türkiye Süper Lig | Galatasaray | Çorum | 02589 | 5 |
 | 14.08.2026 | 21:30 | Türkiye TFF 1. Lig | Esenler Eroksp | Sarıyer | 02631 | 5 |
-| 14.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
-| 14.08.2026 | 21:00 | Hollanda Eredivisie | Telstar | Sparta Rotterda | 13497 | 5 |
 | 14.08.2026 | 22:15 | Portekiz Premier Lig | Sporting Cp | Guimaraes | 15929 | 5 |
-| 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Faisaly | 12908 | 4 |
-| 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Riyadh | 12847 | 5 |
 | 14.08.2026 | 21:45 | Belçika Pro Lig | Cercle Brugge | St. Truidense | 15075 | 5 |
 | 14.08.2026 | 22:00 | İngiltere Championship | Wolverhampton | Blackburn | 15815 | 5 |
 | 14.08.2026 | 21:30 | İspanya 2.Lig | Real Sociedad | Castellon | 13801 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Grenoble | Metz | 15226 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Guingamp | Boulogne | 15284 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Guingamp | Boulogne | 15284 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Grenoble | Metz | 15226 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
+| 14.08.2026 | 21:45 | İtalya Kupa 1.Tur | Monza | Avellino | 14826 | 5 |
 | 14.08.2026 | 22:15 | İtalya Kupa 1.Tur | Fiorentina | Benevento | 15875 | 5 |
+| 14.08.2026 | 21:30 | Polonya Ekstraklasa | Legia Varşova | Radomiak Radom | 13746 | 5 |
+| 15.08.2026 | 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club | Banfield | 16146 | 5 |
+| 14.08.2026 | 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi | Cherno More | 13696 | 5 |
 
 ## Sonuc
 

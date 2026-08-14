@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 20:43:48
+Oluşturma: 14.08.2026 21:17:32
 
 ## Özet
 
-- Toplam tahmin: 100
-- Bekleyen tahmin: 100
+- Toplam tahmin: 101
+- Bekleyen tahmin: 101
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 48
@@ -20,12 +20,13 @@ Oluşturma: 14.08.2026 20:43:48
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 - MS X: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | Fransa Ligue 2 | Dijon - Pau Fc | MS 2 | pending | 40/100
 - 2026-08-14 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | MS 2 | pending | 50/100
 - 2026-08-14 | Hollanda Eerste Divisie | Waalwijk - Dordrecht | MS X | pending | 50/100
 - 2026-08-14 | İngiltere Championship | Wolverhampton - Blackburn | MS 2 | pending | 75/100
@@ -40,5 +41,4 @@ Oluşturma: 14.08.2026 20:43:48
 - 2026-08-14 | Belçika Pro Lig | Cercle Brugge - St. Truidense | MS X | pending | 50/100
 - 2026-08-14 | İtalya Kupa 1.Tur | Monza - Avellino | MS 2 | pending | 50/100
 - 2026-08-14 | Fransa Ligue 2 | Nancy - Montpellier | MS X | pending | 40/100
-- 2026-08-14 | Fransa Ligue 2 | Dijon - Pau Fc | MS X | pending | 40/100
 
