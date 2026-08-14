@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 19:39:33
+Oluşturma: 14.08.2026 20:27:37
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 98
+- Bekleyen tahmin: 98
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 48
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 14.08.2026 19:39:33
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
+- MS X: toplam 51, bekleyen 51, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | İngiltere Championship | Wolverhampton - Blackburn | MS 2 | pending | 75/100
+- 2026-08-14 | Polonya 1.Lig | Ruch Chorzow - Lechia Gdansk | MS 2 | pending | 60/100
+- 2026-08-14 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | MS X | pending | 50/100
+- 2026-08-14 | Portekiz 3.Lig Grup B | Uniao Santarem - Oliveirense | MS X | pending | 40/100
+- 2026-08-14 | Galler FAW Championship Güney | Carmarthen - Afan Lido | MS 2 | pending | 60/100
+- 2026-08-14 | Malta Premier Lig Açılış | Marsaxlokk Fc - Balzan Fc | MS X | pending | 40/100
+- 2026-08-14 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | MS X | pending | 40/100
+- 2026-08-14 | Türkiye TFF 1. Lig | Esenler Eroksp - Sarıyer | MS 2 | pending | 50/100
+- 2026-08-14 | Hazırlık Kulüpler | Coventry - Monaco | MS X | pending | 60/100
+- 2026-08-14 | Belçika Pro Lig | Cercle Brugge - St. Truidense | MS X | pending | 50/100
+- 2026-08-14 | İtalya Kupa 1.Tur | Monza - Avellino | MS 2 | pending | 50/100
+- 2026-08-14 | Fransa Ligue 2 | Nancy - Montpellier | MS X | pending | 40/100
+- 2026-08-14 | Fransa Ligue 2 | Dijon - Pau Fc | MS X | pending | 40/100
+- 2026-08-14 | Fransa Ligue 2 | Annecy - Rodez Aveyron | MS X | pending | 50/100
+- 2026-08-14 | Fransa Ligue 2 | St Etienne - Clermont | MS 2 | pending | 75/100
 

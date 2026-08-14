@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 129
-- Live match count: 47
-- Finished removed count: 0
+- Scheduled match count: 98
+- Live match count: 72
+- Finished removed count: 6
 - Date window: 2026-08-14 / 2026-08-15 23:59
 
-- 2026-08-14 17:30 | Tractor Fc - Peykan | live
-- 2026-08-14 18:00 | Vaasa - Turku | live
-- 2026-08-14 18:00 | Bfc Daugavpils - Ogre United | live
-- 2026-08-14 18:00 | Neftekhimik - Shinnik Yarosla | live
-- 2026-08-14 18:00 | Pohronie - Mfk Bytca | live
-- 2026-08-14 18:00 | Epitsentr Duna - Veres Rivne | live
 - 2026-08-14 18:30 | Turan - Qabala | live
 - 2026-08-14 18:30 | Japs - Haka | live
 - 2026-08-14 18:30 | Marsilya - Atletico Madrid | live
 - 2026-08-14 18:30 | Portugalete - Barakaldo | live
+- 2026-08-14 18:30 | Naft - Al Karkh | live
+- 2026-08-14 18:30 | Naft Maysan - Al Julan | live
+- 2026-08-14 18:30 | Naft Maysan - Al Golan | live
+- 2026-08-14 18:30 | Be1 Nfa - Hegelmann Ii | live
+- 2026-08-14 18:30 | Budapest Honve - Vasas | live
+- 2026-08-14 18:30 | Voluntari - Petrolul 52 | live
