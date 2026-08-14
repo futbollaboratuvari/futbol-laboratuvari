@@ -2,23 +2,15 @@
 
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
-Ham mac: 192
-Aktif mac: 186
-Canli mac: 6
+Ham mac: 186
+Aktif mac: 178
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 169
+Bultenden dusurulen mac: 8
+Bugun: 161
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | scheduled | -
-- 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | scheduled | -
-- 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | scheduled | -
-- 2026-08-14 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | scheduled | -
-- 2026-08-14 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | scheduled | -
-- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | scheduled | -
-- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | scheduled | -
-- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | scheduled | -
 - 2026-08-14 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - St George City | scheduled | -
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Gold Coast Uni - Eastern Suburbs | scheduled | -
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane City | scheduled | -
@@ -199,12 +191,14 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | live | -
-- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | live | -
-- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | live | -
-- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | live | -
-- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | live | -
-- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | live | -
+- 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | live | -
+- 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | live | -
+- 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | live | -
+- 2026-08-14 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | live | -
+- 2026-08-14 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | live | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | live | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | live | -
+- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,16 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 175
+Toplam analiz: 169
 Tam analiz: 0
-Eksik analiz: 175
+Eksik analiz: 169
 
-- Mirassol VS Ldu Quito: eksik score, confidence
-- Vasco Da Gama VS Olimpia Asuncio: eksik score, confidence
-- Santos VS Depor Macara: eksik score, confidence
-- Philadelphia VS Santos Laguna: eksik score, confidence
-- New York City VS Necaxa: eksik score, confidence
-- Alianza Fc VS Umecit: eksik score, confidence
 - Rosario Centra VS Corinthians: eksik score, confidence
 - Cienciano VS Botafogo: eksik score, confidence
 - Club America VS Austin: eksik score, confidence
@@ -25,3 +19,9 @@ Eksik analiz: 175
 - Brisbane Roar VS Gold Coast Knig: eksik score, confidence
 - Brisbane Olymp VS Rochedale Rover: eksik score, confidence
 - Moreton City E VS Queensland Lion: eksik score, confidence
+- Brisbane Wolve VS Magic United: eksik score, confidence
+- Dandenong City VS Altona Magic: eksik score, confidence
+- Tokyo Verdy VS Kashiwa: eksik score, confidence
+- Oakleigh Canno VS Green Gully: eksik score, confidence
+- St. Albans Sai VS Bentleigh Green: eksik score, confidence
+- Eltham Redback VS Manningham Unit: eksik score, confidence
