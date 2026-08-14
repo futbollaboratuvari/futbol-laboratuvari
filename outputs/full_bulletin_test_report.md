@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 170
+- Scheduled match count: 141
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-14 / 2026-08-15 23:59
 
-- 2026-08-14 18:30 | Turan - Qabala | scheduled
-- 2026-08-14 18:30 | Japs - Haka | scheduled
-- 2026-08-14 18:30 | Marsilya - Atletico Madrid | scheduled
-- 2026-08-14 18:30 | Portugalete - Barakaldo | scheduled
-- 2026-08-14 18:30 | Naft - Al Karkh | scheduled
-- 2026-08-14 18:30 | Naft Maysan - Al Julan | scheduled
-- 2026-08-14 18:30 | Naft Maysan - Al Golan | scheduled
-- 2026-08-14 18:30 | Be1 Nfa - Hegelmann Ii | scheduled
-- 2026-08-14 18:30 | Budapest Honve - Vasas | scheduled
-- 2026-08-14 18:30 | Voluntari - Petrolul 52 | scheduled
+- 2026-08-14 19:15 | Sölvesborgs Go - Nosaby If | scheduled
+- 2026-08-14 19:30 | Braunschweig - Bochum | scheduled
+- 2026-08-14 19:30 | Holstein Kiel - St Pauli | scheduled
+- 2026-08-14 19:30 | Wspg Wels - Rapid Vienna (A | scheduled
+- 2026-08-14 19:30 | Seravezza - Pistoiese | scheduled
+- 2026-08-14 19:30 | Chadormalu - Sepahan | scheduled
+- 2026-08-14 19:30 | Esteghlal - Mes Shahr-E Bab | scheduled
+- 2026-08-14 19:30 | Esteghlal Khuz - Shahrdari Arak | scheduled
+- 2026-08-14 19:30 | Ahlafors If - Grebbestads If | scheduled
+- 2026-08-14 19:30 | Hestrafor - Qviding | scheduled
