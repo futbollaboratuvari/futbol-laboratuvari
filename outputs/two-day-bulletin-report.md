@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
-Ham mac: 180
-Aktif mac: 179
-Canli mac: 1
-Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 162
+Ham mac: 199
+Aktif mac: 185
+Canli mac: 0
+Biten mac: 14
+Bultenden dusurulen mac: 14
+Bugun: 168
 Yarin: 17
 
 ## Baslamamis Maclar
@@ -62,6 +62,9 @@ Yarin: 17
 - 2026-08-14 19:00 | Litvanya 1.Lig | Ekranas - Minija | scheduled | -
 - 2026-08-14 19:00 | Litvanya 1.Lig | Kauno Zalgiris - Lietava Jonava | scheduled | -
 - 2026-08-14 19:00 | Tanzanya Kuu Bara Ligi | Singida Black - Fountain Gate | scheduled | -
+- 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Kheybar Khorra - Fajr Sepasi | scheduled | -
+- 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Esteghlal - Mes Shahr-E Bab | scheduled | -
+- 2026-08-14 19:00 | Uganda Süper 8 Yarı Final | Sc Villa - Nec | scheduled | -
 - 2026-08-14 19:15 | İsveç 2.Lig Södra Götaland | Sölvesborgs Go - Nosaby If | scheduled | -
 - 2026-08-14 19:30 | İtalya Kupa 1.Tur | Cagliari - Arezzo | scheduled | -
 - 2026-08-14 19:30 | Almanya 2. Bundesliga | Holstein Kiel - St Pauli | scheduled | -
@@ -71,7 +74,10 @@ Yarin: 17
 - 2026-08-14 19:30 | Avusturya 1.Lig | Wspg Wels - Rapid Vienna (A | scheduled | -
 - 2026-08-14 19:30 | İsveç 2.Lig Vastra Götaland | Hestrafor - Qviding | scheduled | -
 - 2026-08-14 19:30 | İsveç 2.Lig Norra Götaland | Ahlafors If - Grebbestads If | scheduled | -
+- 2026-08-14 19:30 | İran Persian Gulf Pro Lig | Chadormalu - Sepahan | scheduled | -
+- 2026-08-14 19:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Shahrdari Arak | scheduled | -
 - 2026-08-14 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wahda - Ajman | scheduled | -
+- 2026-08-14 19:45 | İran Persian Gulf Pro Lig | Gol Gohar Sirj - Nassaji Mazanda | scheduled | -
 - 2026-08-14 19:50 | Suudi Arabistan Pro Lig | Neom Sc - Al Feiha | scheduled | -
 - 2026-08-14 20:00 | Danimarka Süperlig | Viborg - Aarhus | scheduled | -
 - 2026-08-14 20:00 | İsveç Allsvenskan | Elfsborg - Vasteras | scheduled | -
@@ -192,7 +198,20 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
-- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | live | -
+Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
+- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | finished | -
+- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | finished | -
+- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | finished | -
+- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | finished | -
+- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | finished | -
+- 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | finished | -
+- 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | finished | -
+- 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | finished | -
+- 2026-08-14 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | finished | -
+- 2026-08-14 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | finished | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | finished | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | finished | -
+- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | finished | -
