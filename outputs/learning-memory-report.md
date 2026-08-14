@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 14:33:06
+Oluşturma: 14.08.2026 14:39:57
 
 ## Özet
 
-- Toplam tahmin: 121
-- Bekleyen tahmin: 121
+- Toplam tahmin: 124
+- Bekleyen tahmin: 124
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 60
+- Lig sayısı: 61
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,15 @@ Oluşturma: 14.08.2026 14:33:06
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 64, bekleyen 64, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 52, bekleyen 52, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
+- MS X: toplam 66, bekleyen 66, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | Hazırlık Kulüpler | Reddis - Saguntino | MS 2 | pending | 40/100
+- 2026-08-14 | Hazırlık Kulüpler | Seravezza - Pistoiese | MS X | pending | 50/100
+- 2026-08-14 | İran Persian Gulf Pro Lig | Tractor Fc - Peykan | MS X | pending | 50/100
 - 2026-08-14 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | MS X | pending | 60/100
 - 2026-08-14 | İrlanda FAI Kupası 3.Tur | Galway United - Bray Wanderers | MS X | pending | 60/100
 - 2026-08-14 | Portekiz Premier Lig | Sporting Cp - Guimaraes | MS 2 | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 14.08.2026 14:33:06
 - 2026-08-14 | Hazırlık Kulüpler | Portugalete - Barakaldo | MS 1 | pending | 40/100
 - 2026-08-14 | Türkiye Süper Lig | Galatasaray - Çorum | MS X | pending | 40/100
 - 2026-08-14 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | MS X | pending | 40/100
-- 2026-08-14 | İsveç 2.Lig Vastra Götaland | Böljan - Astorp | MS X | pending | 50/100
-- 2026-08-14 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | MS 2 | pending | 40/100
-- 2026-08-14 | Irak Premier Lig | Naft Maysan - Al Golan | MS 2 | pending | 40/100
 

@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-14T11:30:26.989Z
+- Güncelleme: 2026-08-14T11:37:07.003Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -25,9 +25,9 @@
 | Eltham Redback VS Manningham Unit | Avustralya Victoria NPL 1 | 13:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bayswater City VS Stirling Lions | Avustralya NPL Batı Avustralya | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Pamba Jiji VS Dodoma Jiji | Tanzanya Kuu Bara Ligi | 14:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Shaanxi Union VS Changchun Yatai | Çin Halk Cumhuriyeti 1.Lig | 14:30 | MS 2 | 5.52 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Shandong Taish VS Qingdao Zhongne | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS 2 | 7.14 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Wuhan Three To VS Shanghai Port | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS X | 3.18 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Shaanxi Union VS Changchun Yatai | Çin Halk Cumhuriyeti 1.Lig | 14:30 | MS 2 | 5.52 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Shandong Taish VS Qingdao Zhongne | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS 2 | 7.14 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
+| Wuhan Three To VS Shanghai Port | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS X | 3.18 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Qingdao West C VS Chongqing Tongl | Çin Halk Cumhuriyeti Süper Lig | 15:00 | MS 2 | 3.37 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fleetwood Town VS Colchester Unit | İngiltere Professional Development Lig | 16:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Mbeya City VS Geita Gold | Tanzanya Kuu Bara Ligi | 16:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |

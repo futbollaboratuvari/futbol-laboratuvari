@@ -2,18 +2,15 @@
 
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
-Ham mac: 213
-Aktif mac: 185
-Canli mac: 14
-Biten mac: 14
-Bultenden dusurulen mac: 28
-Bugun: 168
+Ham mac: 199
+Aktif mac: 182
+Canli mac: 17
+Biten mac: 0
+Bultenden dusurulen mac: 17
+Bugun: 165
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 14:30 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Changchun Yatai | scheduled | -
-- 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Qingdao Zhongne | scheduled | -
-- 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shanghai Port | scheduled | -
 - 2026-08-14 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Chongqing Tongl | scheduled | -
 - 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | scheduled | -
 - 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | scheduled | -
@@ -212,19 +209,9 @@ Yarin: 17
 - 2026-08-14 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Manningham Unit | live | -
 - 2026-08-14 14:00 | Avustralya NPL Batı Avustralya | Bayswater City - Stirling Lions | live | -
 - 2026-08-14 14:00 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Dodoma Jiji | live | -
+- 2026-08-14 14:30 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Changchun Yatai | live | -
+- 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Qingdao Zhongne | live | -
+- 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shanghai Port | live | -
 
 ## Biten Maclar
-- 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
-- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | finished | -
-- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | finished | -
-- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | finished | -
-- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | finished | -
-- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | finished | -
-- 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | finished | -
-- 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | finished | -
-- 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | finished | -
-- 2026-08-14 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | finished | -
-- 2026-08-14 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | finished | -
-- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | finished | -
-- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | finished | -
-- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | finished | -
+Biten mac yok.
