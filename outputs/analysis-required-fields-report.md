@@ -1,27 +1,25 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 169
-Tam analiz: 0
-Eksik analiz: 169
+Toplam analiz: 163
+Tam analiz: 145
+Eksik analiz: 18
 
-- Rosario Centra VS Corinthians: eksik score, confidence
-- Cienciano VS Botafogo: eksik score, confidence
-- Club America VS Austin: eksik score, confidence
-- Cruz Azul VS Chicago: eksik score, confidence
-- Alebrijes VS Tepatitlan De M: eksik score, confidence
-- Firpo VS Diriangen: eksik score, confidence
-- Antigua Guatem VS Marathon: eksik score, confidence
-- Portland VS Club Tijuana: eksik score, confidence
-- Sydney Ii VS St George City: eksik score, confidence
-- Gold Coast Uni VS Eastern Suburbs: eksik score, confidence
-- Peninsula Powe VS Brisbane City: eksik score, confidence
-- Brisbane Roar VS Gold Coast Knig: eksik score, confidence
-- Brisbane Olymp VS Rochedale Rover: eksik score, confidence
-- Moreton City E VS Queensland Lion: eksik score, confidence
-- Brisbane Wolve VS Magic United: eksik score, confidence
-- Dandenong City VS Altona Magic: eksik score, confidence
-- Tokyo Verdy VS Kashiwa: eksik score, confidence
 - Oakleigh Canno VS Green Gully: eksik score, confidence
-- St. Albans Sai VS Bentleigh Green: eksik score, confidence
-- Eltham Redback VS Manningham Unit: eksik score, confidence
+- Pamba Jiji VS Dodoma Jiji: eksik score, confidence
+- Tractor Fc VS Peykan: eksik score, confidence
+- Bfc Daugavpils VS Ogre United: eksik score, confidence
+- Be1 Nfa VS Hegelmann Ii: eksik score, confidence
+- Nomme United VS Tammeka Tartu: eksik score, confidence
+- Transinvest Vi VS Atmosfera: eksik score, confidence
+- Singida Black VS Fountain Gate: eksik score, confidence
+- Landvetter Is VS Galtabacks: eksik score, confidence
+- Lindome Gif VS Astrio: eksik score, confidence
+- Southampton (B VS Blackburn Rover: eksik score, confidence
+- Leicester (B) VS Plymouth Argyle: eksik score, confidence
+- Nottingham For VS Luton Town U21: eksik score, confidence
+- Brighton (B) VS Millwall U21: eksik score, confidence
+- Ipswich Town U VS Coventry City U: eksik score, confidence
+- Haukar VS Hviti: eksik score, confidence
+- Waterford VS Athlone: eksik score, confidence
+- Universitario VS Real Tomayapo: eksik score, confidence
