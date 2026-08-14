@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T13:40:30.904980+00:00
+Tarih: 2026-08-14T14:39:44.766092+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 174
+- Kac mac bulundu: 170
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 174
+- Kac mac zaten vardi: 170
 - Ham veri havuzu toplam mac sayisi: 6441
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
@@ -68,7 +68,6 @@ Tarih: 2026-08-14T13:40:30.904980+00:00
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Rusya FNL
-- Rusya Premier Lig
 - Slovakya 2.Lig
 - Slovenya 2.SNL
 - Suudi Arabistan Pro Lig
@@ -179,21 +178,21 @@ Tarih: 2026-08-14T13:40:30.904980+00:00
 | 14.08.2026 | 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) | (1) Lech Poznan | 10903 | 5 |
 | 14.08.2026 | 21:00 | Hollanda Eredivisie | Telstar | Sparta Rotterda | 13497 | 5 |
 | 14.08.2026 | 22:15 | Portekiz Premier Lig | Sporting Cp | Guimaraes | 15929 | 5 |
+| 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Riyadh | 12847 | 5 |
 | 14.08.2026 | 19:50 | Suudi Arabistan Pro Lig | Neom Sc | Al Feiha | 07112 | 5 |
 | 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya | Al Faisaly | 12908 | 4 |
-| 14.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Riyadh | 12847 | 5 |
 | 14.08.2026 | 21:45 | Belçika Pro Lig | Cercle Brugge | St. Truidense | 15075 | 5 |
 | 14.08.2026 | 22:00 | İngiltere Championship | Wolverhampton | Blackburn | 15815 | 5 |
 | 14.08.2026 | 21:30 | İspanya 2.Lig | Real Sociedad | Castellon | 13801 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Grenoble | Metz | 15226 | 5 |
+| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
 | 14.08.2026 | 21:45 | Fransa Ligue 2 | Guingamp | Boulogne | 15284 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
 
 ## Sonuc
 

@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 17:07:33
+Oluşturma: 14.08.2026 17:43:15
 
 ## Özet
 
-- Toplam tahmin: 106
-- Bekleyen tahmin: 106
+- Toplam tahmin: 108
+- Bekleyen tahmin: 108
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 52
@@ -20,12 +20,14 @@ Oluşturma: 14.08.2026 17:07:33
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
-- MS X: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | Fransa Ligue 3 | Thionville Lus - Caen | MS X | pending | 40/100
+- 2026-08-14 | Litvanya 1.Lig | Be1 Nfa - Hegelmann Ii | MS X | pending | 40/100
 - 2026-08-14 | Galler Premier Lig 1.Aşama | Llandudno - Holywell Town | MS 2 | pending | 40/100
 - 2026-08-14 | Galler Premier Lig 1.Aşama | Airbus Uk - Ammanford | MS 2 | pending | 50/100
 - 2026-08-14 | Galler Premier Lig 1.Aşama | Cambrian - Flint Town | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 14.08.2026 17:07:33
 - 2026-08-14 | Portekiz 3.Lig Grup B | Uniao Santarem - Oliveirense | MS X | pending | 40/100
 - 2026-08-14 | Belçika Challenger Pro Lig | Rfc Seraing - Lokeren-Temse | MS X | pending | 50/100
 - 2026-08-14 | Slovenya 2.SNL | Tabor Sezana - Triglav Kranj | MS X | pending | 50/100
-- 2026-08-14 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | MS 2 | pending | 40/100
-- 2026-08-14 | Bulgaristan 1.Lig | Cska 1948 Sofi - Cherno More | MS 2 | pending | 50/100
 
