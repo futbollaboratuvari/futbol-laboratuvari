@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
-Ham mac: 573
-Aktif mac: 572
-Canli mac: 1
+Ham mac: 574
+Aktif mac: 569
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 498
+Bultenden dusurulen mac: 5
+Bugun: 495
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 01:30 | Brezilya Serie B | Sao Bernardo - Botafogo Ribeir | scheduled | -
-- 2026-08-15 01:30 | Brezilya Serie B | Ponte Preta - Nautico | scheduled | -
-- 2026-08-15 02:00 | Peru Premier Lig Clausura | Cusco Fc - Juan Pablo Ii C | scheduled | -
-- 2026-08-15 02:00 | Şili Premier Lig | Univ De Concep - La Serena | scheduled | -
 - 2026-08-15 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Banfield | scheduled | -
 - 2026-08-15 02:30 | Arjantin Ulusal Primera Lig | Rafaela - D Belgrano | scheduled | -
 - 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | scheduled | -
@@ -116,6 +112,7 @@ Yarin: 74
 - 2026-08-15 14:00 | İsveç 2.Lig Södra Svealand | Karlslunds If - Haninge | scheduled | -
 - 2026-08-15 14:00 | İsveç 2.Lig Södra Svealand | Smedby Ais - Eker Örebro | scheduled | -
 - 2026-08-15 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Gottne | scheduled | -
+- 2026-08-15 14:00 | Norveç 3.Lig Grup 1 | Frigg - Lokomotiv Oslo | scheduled | -
 - 2026-08-15 14:30 | İngiltere Championship | Bolton - Prest | scheduled | -
 - 2026-08-15 14:30 | İngiltere 1.Lig | Notts County - Leicester | scheduled | -
 - 2026-08-15 14:30 | İngiltere 1.Lig | Reading - Luton | scheduled | -
@@ -586,6 +583,10 @@ Yarin: 74
 
 ## Canli Maclar
 - 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | live | -
+- 2026-08-15 01:30 | Brezilya Serie B | Sao Bernardo - Botafogo Ribeir | live | -
+- 2026-08-15 01:30 | Brezilya Serie B | Ponte Preta - Nautico | live | -
+- 2026-08-15 02:00 | Peru Premier Lig Clausura | Cusco Fc - Juan Pablo Ii C | live | -
+- 2026-08-15 02:00 | Şili Premier Lig | Univ De Concep - La Serena | live | -
 
 ## Biten Maclar
 Biten mac yok.
