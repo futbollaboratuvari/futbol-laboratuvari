@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
-Ham mac: 197
+Ham mac: 199
 Aktif mac: 189
-Canli mac: 8
+Canli mac: 10
 Biten mac: 0
-Bultenden dusurulen mac: 8
+Bultenden dusurulen mac: 10
 Bugun: 172
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 13:00 | Japonya J1 Lig | Tokyo Verdy - Kashiwa | scheduled | -
-- 2026-08-14 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Green Gully | scheduled | -
 - 2026-08-14 13:30 | Avustralya NPL Victoria | St. Albans Sai - Bentleigh Green | scheduled | -
 - 2026-08-14 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Manningham Unit | scheduled | -
 - 2026-08-14 14:00 | Avustralya NPL Batı Avustralya | Bayswater City - Stirling Lions | scheduled | -
@@ -72,6 +70,7 @@ Yarin: 17
 - 2026-08-14 19:30 | İsveç 2.Lig Norra Götaland | Ahlafors If - Grebbestads If | scheduled | -
 - 2026-08-14 19:30 | İran Persian Gulf Pro Lig | Chadormalu - Sepahan | scheduled | -
 - 2026-08-14 19:30 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Shahrdari Arak | scheduled | -
+- 2026-08-14 19:30 | Hazırlık Kulüpler | Seravezza - Pistoiese | scheduled | -
 - 2026-08-14 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wahda - Ajman | scheduled | -
 - 2026-08-14 19:45 | İran Persian Gulf Pro Lig | Gol Gohar Sirj - Nassaji Mazanda | scheduled | -
 - 2026-08-14 19:50 | Suudi Arabistan Pro Lig | Neom Sc - Al Feiha | scheduled | -
@@ -111,6 +110,7 @@ Yarin: 17
 - 2026-08-14 20:30 | İsveç 2.Lig Norra Götaland | Husqvarna - Skara | scheduled | -
 - 2026-08-14 20:30 | Hazırlık Kulüpler | Cd Coria - Extremadura 192 | scheduled | -
 - 2026-08-14 20:30 | Hazırlık Kulüpler | Alcoyano - Hercules | scheduled | -
+- 2026-08-14 20:30 | Hazırlık Kulüpler | Reddis - Saguntino | scheduled | -
 - 2026-08-14 21:00 | Hollanda Eredivisie | Telstar - Sparta Rotterda | scheduled | -
 - 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Hilal (Riya - Al Faisaly | scheduled | -
 - 2026-08-14 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Riyadh | scheduled | -
@@ -210,6 +210,8 @@ Yarin: 17
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Moreton City E - Queensland Lion | live | -
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Brisbane Wolve - Magic United | live | -
 - 2026-08-14 12:45 | Avustralya NPL Victoria | Dandenong City - Altona Magic | live | -
+- 2026-08-14 13:00 | Japonya J1 Lig | Tokyo Verdy - Kashiwa | live | -
+- 2026-08-14 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Green Gully | live | -
 
 ## Biten Maclar
 Biten mac yok.
