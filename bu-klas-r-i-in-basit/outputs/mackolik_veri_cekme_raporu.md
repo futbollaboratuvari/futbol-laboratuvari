@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T11:13:26.656194+00:00
+Tarih: 2026-08-14T11:28:36.263797+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 163
+- Kac mac bulundu: 180
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 163
+- Kac mac zaten vardi: 180
 - Ham veri havuzu toplam mac sayisi: 6441
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
@@ -17,7 +17,9 @@ Tarih: 2026-08-14T11:13:26.656194+00:00
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Batı
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -27,11 +29,14 @@ Tarih: 2026-08-14T11:13:26.656194+00:00
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
+- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
@@ -46,10 +51,13 @@ Tarih: 2026-08-14T11:13:26.656194+00:00
 - Hollanda Eredivisie
 - Hırvatistan 1.HNL
 - Irak Premier Lig
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Letonya Kupa Çeyrek Final
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -70,6 +78,7 @@ Tarih: 2026-08-14T11:13:26.656194+00:00
 - UEFA Avrupa Ligi 3. Eleme Turu
 - Uganda Süper 8 Yarı Final
 - Ukrayna Premier Lig
+- Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti FNL
 - Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
@@ -97,6 +106,7 @@ Tarih: 2026-08-14T11:13:26.656194+00:00
 - İsveç Superettan
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 

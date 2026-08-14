@@ -3,16 +3,14 @@
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
 Ham mac: 213
-Aktif mac: 187
-Canli mac: 12
+Aktif mac: 185
+Canli mac: 14
 Biten mac: 14
-Bultenden dusurulen mac: 26
-Bugun: 170
+Bultenden dusurulen mac: 28
+Bugun: 168
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 14:00 | Avustralya NPL Batı Avustralya | Bayswater City - Stirling Lions | scheduled | -
-- 2026-08-14 14:00 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Dodoma Jiji | scheduled | -
 - 2026-08-14 14:30 | Çin Halk Cumhuriyeti 1.Lig | Shaanxi Union - Changchun Yatai | scheduled | -
 - 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shandong Taish - Qingdao Zhongne | scheduled | -
 - 2026-08-14 14:35 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Shanghai Port | scheduled | -
@@ -212,6 +210,8 @@ Yarin: 17
 - 2026-08-14 13:15 | Avustralya NPL Victoria | Oakleigh Canno - Green Gully | live | -
 - 2026-08-14 13:30 | Avustralya NPL Victoria | St. Albans Sai - Bentleigh Green | live | -
 - 2026-08-14 13:30 | Avustralya Victoria NPL 1 | Eltham Redback - Manningham Unit | live | -
+- 2026-08-14 14:00 | Avustralya NPL Batı Avustralya | Bayswater City - Stirling Lions | live | -
+- 2026-08-14 14:00 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Dodoma Jiji | live | -
 
 ## Biten Maclar
 - 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
