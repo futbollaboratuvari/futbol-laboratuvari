@@ -1,37 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-14T18:36:55.369105+00:00
+Tarih: 2026-08-14T19:13:58.400872+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 35
+- Kac mac bulundu: 23
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 35
+- Kac mac zaten vardi: 23
 - Ham veri havuzu toplam mac sayisi: 6441
 - Hedef tarih: 14.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Belçika Pro Lig
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya Victoria NPL 1
 - Bolivya Premier Lig
-- Fransa Ligue 2
+- Brezilya Serie B
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
-- Galler Premier Lig 1.Aşama
-- Hazırlık Kulüpler
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
+- Meksika Ascenso MX Apertura
 - Peru Premier Lig Clausura
-- Polonya 1.Lig
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
-- Romanya 1.Lig
-- İngiltere Championship
-- İngiltere Non League Premier Kuzey
-- İngiltere Ulusal Lig N / S Güney
-- İrlanda FAI Kupası 3.Tur
-- İskoçya Lig Kupası 2.Tur
+- Uruguay Premier Lig Clausura
 - İtalya Kupa 1.Tur
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -88,8 +88,8 @@ Tarih: 2026-08-14T18:36:55.369105+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 35
-- Acilan detay: 35
+- Denenen Tumu alani: 23
+- Acilan detay: 23
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -103,25 +103,25 @@ Tarih: 2026-08-14T18:36:55.369105+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 14.08.2026 | 22:15 | Portekiz Premier Lig | Sporting Cp | Guimaraes | 15929 | 5 |
-| 14.08.2026 | 21:45 | Belçika Pro Lig | Cercle Brugge | St. Truidense | 15075 | 5 |
-| 14.08.2026 | 22:00 | İngiltere Championship | Wolverhampton | Blackburn | 15815 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Nancy | Montpellier | 14888 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Dijon | Pau Fc | 15168 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Annecy | Rodez Aveyron | 14949 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | St Etienne | Clermont | 15582 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Stade Lavalloi | Nantes | 15642 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Grenoble | Metz | 15226 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Red Star Paris | Sochaux | 15465 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Guingamp | Boulogne | 15284 | 5 |
-| 14.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Dunkerque | 15522 | 5 |
-| 14.08.2026 | 21:45 | İtalya Kupa 1.Tur | Monza | Avellino | 14826 | 5 |
 | 14.08.2026 | 22:15 | İtalya Kupa 1.Tur | Fiorentina | Benevento | 15875 | 5 |
-| 14.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Airbus Uk | Ammanford | 15009 | 5 |
-| 14.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Llandudno | Holywell Town | 15432 | 5 |
-| 14.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Gap Connahs Qu | Trefelin | 15135 | 5 |
-| 14.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | The New Saints | Briton Ferry | 15700 | 4 |
-| 14.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Haverfordwest | Penybont | 15344 | 5 |
-| 14.08.2026 | 21:45 | Galler Premier Lig 1.Aşama | Cambrian | Flint Town | 15042 | 5 |
+| 15.08.2026 | 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club | Banfield | 16146 | 5 |
+| 14.08.2026 | 23:00 | Peru Premier Lig Clausura | Atletico Grau | Comerciantes Un | 15989 | 5 |
+| 15.08.2026 | 02:00 | Peru Premier Lig Clausura | Cusco Fc | Juan Pablo Ii C | 16078 | 3 |
+| 15.08.2026 | 02:00 | Şili Premier Lig | Univ De Concep | La Serena | 16112 | 5 |
+| 15.08.2026 | 02:30 | Arjantin Ulusal Primera Lig | Rafaela | D Belgrano | 16129 | 3 |
+| 15.08.2026 | 01:30 | Brezilya Serie B | Ponte Preta | Nautico | 16011 | 5 |
+| 15.08.2026 | 02:30 | Brezilya Serie B | Sport Recife | Londrina | 16206 | 5 |
+| 15.08.2026 | 01:30 | Brezilya Serie B | Sao Bernardo | Botafogo Ribeir | 16044 | 5 |
+| 15.08.2026 | 01:00 | Uruguay Premier Lig Clausura | Boston River | Danubio | 16006 | 5 |
+| 15.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Zacatecas | Venados Fc | 16273 | 5 |
+| 15.08.2026 | 06:00 | Meksika Ascenso MX Apertura | Ca La Paz | Piratas | 16375 | 5 |
+| 15.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Correcaminos U | Cd Tapatio | 16290 | 5 |
+| 15.08.2026 | 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos | Herediano | 16358 | 5 |
+| 14.08.2026 | 22:30 | Portekiz 3.Lig Grup B | Uniao Santarem | Oliveirense | 03201 | 5 |
+| 15.08.2026 | 03:00 | Ekvador Pro Lig | Indep. Jose Te | Delfin | 16256 | 4 |
+| 15.08.2026 | 04:00 | Kanada Premier Lig | Vancouver Fc | Pacific Fc | 16307 | 5 |
+| 15.08.2026 | 07:00 | Avustralya Victoria NPL 1 | Port Melbourne | Melbourne Knigh | 16392 | 2 |
+| 15.08.2026 | 03:00 | Bolivya Premier Lig | Bolivar | San Antonio Bul | 16239 | 2 |
 
 ## Sonuc
 
