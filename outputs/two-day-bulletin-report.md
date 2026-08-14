@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-14 / 2026-08-15
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 199
-Aktif mac: 182
-Canli mac: 17
+Aktif mac: 181
+Canli mac: 18
 Biten mac: 0
-Bultenden dusurulen mac: 17
-Bugun: 165
+Bultenden dusurulen mac: 18
+Bugun: 164
 Yarin: 17
 
 ## Baslamamis Maclar
-- 2026-08-14 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Chongqing Tongl | scheduled | -
 - 2026-08-14 16:00 | İngiltere Professional Development Lig | Fleetwood Town - Colchester Unit | scheduled | -
 - 2026-08-14 16:15 | Tanzanya Kuu Bara Ligi | Mbeya City - Geita Gold | scheduled | -
 - 2026-08-14 17:00 | Rusya Premier Lig | Orenburg - L.Moskova | scheduled | -
@@ -195,6 +195,7 @@ Yarin: 17
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 
 ## Canli Maclar
+- 2026-08-14 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Chongqing Tongl | live | -
 - 2026-08-14 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - St George City | live | -
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Gold Coast Uni - Eastern Suburbs | live | -
 - 2026-08-14 12:30 | Avustralya NPL Queensland | Peninsula Powe - Brisbane City | live | -

@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 14.08.2026 15:00:40
-=======
-Oluşturma: 14.08.2026 15:04:13
->>>>>>> Stashed changes
+Oluşturma: 14.08.2026 15:37:40
 
 ## Özet
 
-- Toplam tahmin: 125
-- Bekleyen tahmin: 125
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 61
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 14.08.2026 15:04:13
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 67, bekleyen 67, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-14 | Slovakya 2.Lig | Pohronie - Mfk Bytca | MS X | pending | 60/100
-- 2026-08-14 | Hazırlık Kulüpler | Reddis - Saguntino | MS 2 | pending | 40/100
-- 2026-08-14 | Hazırlık Kulüpler | Seravezza - Pistoiese | MS X | pending | 50/100
-- 2026-08-14 | İran Persian Gulf Pro Lig | Tractor Fc - Peykan | MS X | pending | 50/100
-- 2026-08-14 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | MS X | pending | 60/100
-- 2026-08-14 | İrlanda FAI Kupası 3.Tur | Galway United - Bray Wanderers | MS X | pending | 60/100
-- 2026-08-14 | Portekiz Premier Lig | Sporting Cp - Guimaraes | MS 2 | pending | 40/100
-- 2026-08-14 | Hazırlık Kulüpler | Atalanta - Athletic Bilbao | MS X | pending | 50/100
-- 2026-08-14 | Türkiye TFF 1. Lig | Esenler Eroksp - Sarıyer | MS 2 | pending | 50/100
-- 2026-08-14 | Hazırlık Kulüpler | Coventry - Monaco | MS X | pending | 60/100
-- 2026-08-14 | Hazırlık Kulüpler | Cd Coria - Extremadura 192 | MS X | pending | 50/100
-- 2026-08-14 | Hazırlık Kulüpler | Alcoyano - Hercules | MS X | pending | 40/100
-- 2026-08-14 | Hazırlık Kulüpler | Marsilya - Atletico Madrid | MS X | pending | 60/100
-- 2026-08-14 | Hazırlık Kulüpler | Portugalete - Barakaldo | MS 1 | pending | 40/100
-- 2026-08-14 | Türkiye Süper Lig | Galatasaray - Çorum | MS X | pending | 40/100
 

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 182
-- Live match count: 17
+- Scheduled match count: 181
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-14 / 2026-08-15 23:59
 
-- 2026-08-14 12:30 | Brisbane Olymp - Rochedale Rover | live
-- 2026-08-14 12:30 | Brisbane Roar - Gold Coast Knig | live
-- 2026-08-14 12:30 | Brisbane Wolve - Magic United | live
-- 2026-08-14 12:30 | Gold Coast Uni - Eastern Suburbs | live
-- 2026-08-14 12:30 | Moreton City E - Queensland Lion | live
-- 2026-08-14 12:30 | Peninsula Powe - Brisbane City | live
-- 2026-08-14 12:30 | Sydney Ii - St George City | live
-- 2026-08-14 12:45 | Dandenong City - Altona Magic | live
-- 2026-08-14 13:00 | Tokyo Verdy - Kashiwa | live
-- 2026-08-14 13:15 | Oakleigh Canno - Green Gully | live
+- 2026-08-14 16:00 | Fleetwood Town - Colchester Unit | scheduled
+- 2026-08-14 16:15 | Mbeya City - Geita Gold | scheduled
+- 2026-08-14 17:00 | Arsenal - Slavia Mozyr | scheduled
+- 2026-08-14 17:00 | Orenburg - L.Moskova | scheduled
+- 2026-08-14 17:10 | Al Nasr - Al Ittihad Kalb | scheduled
+- 2026-08-14 17:30 | Tractor Fc - Peykan | scheduled
+- 2026-08-14 18:00 | Vaasa - Turku | scheduled
+- 2026-08-14 18:00 | Bfc Daugavpils - Ogre United | scheduled
+- 2026-08-14 18:00 | Neftekhimik - Shinnik Yarosla | scheduled
+- 2026-08-14 18:00 | Pohronie - Mfk Bytca | scheduled
