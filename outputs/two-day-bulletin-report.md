@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
-Ham mac: 203
-Aktif mac: 189
+Ham mac: 190
+Aktif mac: 190
 Canli mac: 0
-Biten mac: 14
-Bultenden dusurulen mac: 14
-Bugun: 172
+Biten mac: 0
+Bultenden dusurulen mac: 0
+Bugun: 173
 Yarin: 17
 
 ## Baslamamis Maclar
@@ -48,6 +48,7 @@ Yarin: 17
 - 2026-08-14 18:30 | Irak Premier Lig | Naft - Al Karkh | scheduled | -
 - 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Julan | scheduled | -
 - 2026-08-14 18:30 | Litvanya 1.Lig | Be1 Nfa - Hegelmann Ii | scheduled | -
+- 2026-08-14 18:30 | Irak Premier Lig | Naft Maysan - Al Golan | scheduled | -
 - 2026-08-14 19:00 | İtalya Kupa 1.Tur | Parma - Catania | scheduled | -
 - 2026-08-14 19:00 | Polonya 1.Lig | Pogon Grodzisk - Rzeszow | scheduled | -
 - 2026-08-14 19:00 | Belarus Premier Lig | Dnepr Mogilev - Belshina Bobrui | scheduled | -
@@ -205,17 +206,4 @@ Yarin: 17
 Canli mac yok.
 
 ## Biten Maclar
-- 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
-- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | finished | -
-- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | finished | -
-- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | finished | -
-- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | finished | -
-- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | finished | -
-- 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | finished | -
-- 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | finished | -
-- 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | finished | -
-- 2026-08-14 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | finished | -
-- 2026-08-14 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | finished | -
-- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | finished | -
-- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | finished | -
-- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | finished | -
+Biten mac yok.

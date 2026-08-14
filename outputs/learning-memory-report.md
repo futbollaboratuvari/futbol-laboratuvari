@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 14.08.2026 10:49:34
+Oluşturma: 14.08.2026 11:10:23
 
 ## Özet
 
-- Toplam tahmin: 105
-- Bekleyen tahmin: 105
+- Toplam tahmin: 110
+- Bekleyen tahmin: 110
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 55
+- Lig sayısı: 57
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,17 @@ Oluşturma: 14.08.2026 10:49:34
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
-- MS X: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
+- MS X: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 50, bekleyen 50, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | MS X | pending | 40/100
+- 2026-08-14 | İsveç 2.Lig Vastra Götaland | Böljan - Astorp | MS X | pending | 50/100
+- 2026-08-14 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | MS 2 | pending | 40/100
+- 2026-08-14 | Irak Premier Lig | Naft Maysan - Al Golan | MS 2 | pending | 40/100
+- 2026-08-14 | Malta Premier Lig Açılış | Birzebbuga - Birzebbuga | MS X | pending | 40/100
 - 2026-08-14 | Avustralya NPL Victoria | Dandenong City - Altona Magic | MS 2 | pending | 50/100
 - 2026-08-14 | Polonya 1.Lig | Ruch Chorzow - Lechia Gdansk | MS 2 | pending | 60/100
 - 2026-08-14 | Hollanda Eerste Divisie | Heracles - Den Bosch | MS 2 | pending | 70/100
@@ -36,9 +41,4 @@ Oluşturma: 14.08.2026 10:49:34
 - 2026-08-14 | Litvanya 1.Lig | Kauno Zalgiris - Lietava Jonava | MS 1 | pending | 50/100
 - 2026-08-14 | Fransa Ligue 2 | St Etienne - Clermont | MS 2 | pending | 75/100
 - 2026-08-14 | Fransa Ligue 2 | Stade Lavalloi - Nantes | MS 1 | pending | 40/100
-- 2026-08-14 | Fransa Ligue 2 | Grenoble - Metz | MS 1 | pending | 40/100
-- 2026-08-14 | Fransa Ligue 2 | Red Star Paris - Sochaux | MS 2 | pending | 40/100
-- 2026-08-14 | Fransa Ligue 2 | Guingamp - Boulogne | MS 2 | pending | 50/100
-- 2026-08-14 | Fransa Ligue 2 | Reims - Dunkerque | MS 2 | pending | 50/100
-- 2026-08-14 | Galler Premier Lig 1.Aşama | Haverfordwest - Penybont | MS X | pending | 40/100
 
