@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-14 / 2026-08-15
 Kaynak: fixtures.json
-Ham mac: 185
-Aktif mac: 185
+Ham mac: 203
+Aktif mac: 189
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 168
+Biten mac: 14
+Bultenden dusurulen mac: 14
+Bugun: 172
 Yarin: 17
 
 ## Baslamamis Maclar
@@ -65,6 +65,7 @@ Yarin: 17
 - 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Kheybar Khorra - Fajr Sepasi | scheduled | -
 - 2026-08-14 19:00 | İran Persian Gulf Pro Lig | Esteghlal - Mes Shahr-E Bab | scheduled | -
 - 2026-08-14 19:00 | Uganda Süper 8 Yarı Final | Sc Villa - Nec | scheduled | -
+- 2026-08-14 19:00 | Malta Premier Lig Açılış | Birzebbuga - Birzebbuga | scheduled | -
 - 2026-08-14 19:15 | İsveç 2.Lig Södra Götaland | Sölvesborgs Go - Nosaby If | scheduled | -
 - 2026-08-14 19:30 | İtalya Kupa 1.Tur | Cagliari - Arezzo | scheduled | -
 - 2026-08-14 19:30 | Almanya 2. Bundesliga | Holstein Kiel - St Pauli | scheduled | -
@@ -139,6 +140,7 @@ Yarin: 17
 - 2026-08-14 21:00 | İsveç 2.Lig Södra Svealand | Farsta - Nykobing Fa | scheduled | -
 - 2026-08-14 21:00 | İzlanda 2.Lig | Haukar - Hviti | scheduled | -
 - 2026-08-14 21:00 | UEFA Avrupa Ligi 3. Eleme Turu | Kí Klaksvík (0) - (1) Lech Poznan | scheduled | -
+- 2026-08-14 21:00 | Bosna-Hersek Premier Lig | Celik - Siroki Brijeg | scheduled | -
 - 2026-08-14 21:15 | Bulgaristan 1.Lig | Cska 1948 Sofi - Cherno More | scheduled | -
 - 2026-08-14 21:30 | Türkiye Süper Lig | Galatasaray - Çorum | scheduled | -
 - 2026-08-14 21:30 | İspanya 2.Lig | Real Sociedad - Castellon | scheduled | -
@@ -148,6 +150,7 @@ Yarin: 17
 - 2026-08-14 21:30 | Galler FAW Championship Güney | Carmarthen - Afan Lido | scheduled | -
 - 2026-08-14 21:30 | Malta Premier Lig Açılış | Marsaxlokk Fc - Balzan Fc | scheduled | -
 - 2026-08-14 21:30 | Irak Premier Lig | Newroz - Al Jawiya | scheduled | -
+- 2026-08-14 21:30 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | scheduled | -
 - 2026-08-14 21:45 | Belçika Pro Lig | Cercle Brugge - St. Truidense | scheduled | -
 - 2026-08-14 21:45 | İtalya Kupa 1.Tur | Monza - Avellino | scheduled | -
 - 2026-08-14 21:45 | Fransa Ligue 2 | Nancy - Montpellier | scheduled | -
@@ -175,6 +178,7 @@ Yarin: 17
 - 2026-08-14 22:00 | Polonya 1.Lig | Ruch Chorzow - Lechia Gdansk | scheduled | -
 - 2026-08-14 22:00 | Bolivya Premier Lig | Universitario - Real Tomayapo | scheduled | -
 - 2026-08-14 22:00 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Farnham Town | scheduled | -
+- 2026-08-14 22:00 | Galler FAW Championship Kuzey | Ruthin Town - Denbigh Town | scheduled | -
 - 2026-08-14 22:15 | Portekiz Premier Lig | Sporting Cp - Guimaraes | scheduled | -
 - 2026-08-14 22:15 | İtalya Kupa 1.Tur | Fiorentina - Benevento | scheduled | -
 - 2026-08-14 22:30 | Portekiz 3.Lig Grup B | Uniao Santarem - Oliveirense | scheduled | -
@@ -201,4 +205,17 @@ Yarin: 17
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-14 01:00 | Copa Libertadores Son 16 Turu | Mirassol - Ldu Quito | finished | -
+- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Vasco Da Gama - Olimpia Asuncio | finished | -
+- 2026-08-14 01:00 | Copa Sudamericana Son 16 Turu | Santos - Depor Macara | finished | -
+- 2026-08-14 02:00 | CONCACAF Ligler Kupası Grup Aşaması | Philadelphia - Santos Laguna | finished | -
+- 2026-08-14 02:30 | CONCACAF Ligler Kupası Grup Aşaması | New York City - Necaxa | finished | -
+- 2026-08-14 03:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Umecit | finished | -
+- 2026-08-14 03:30 | Copa Libertadores Son 16 Turu | Rosario Centra - Corinthians | finished | -
+- 2026-08-14 03:30 | Copa Sudamericana Son 16 Turu | Cienciano - Botafogo | finished | -
+- 2026-08-14 03:30 | CONCACAF Ligler Kupası Grup Aşaması | Club America - Austin | finished | -
+- 2026-08-14 04:00 | CONCACAF Ligler Kupası Grup Aşaması | Cruz Azul - Chicago | finished | -
+- 2026-08-14 04:00 | Meksika Ascenso MX Apertura | Alebrijes - Tepatitlan De M | finished | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Diriangen | finished | -
+- 2026-08-14 05:00 | CONCACAF Orta Amerika Kupası Grup B | Antigua Guatem - Marathon | finished | -
+- 2026-08-14 05:30 | CONCACAF Ligler Kupası Grup Aşaması | Portland - Club Tijuana | finished | -

@@ -2,7 +2,7 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 185
+- Scheduled match count: 189
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-14 / 2026-08-15 23:59
