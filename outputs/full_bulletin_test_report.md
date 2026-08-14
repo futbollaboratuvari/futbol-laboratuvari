@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 186
-- Live match count: 3
+- Scheduled match count: 178
+- Live match count: 5
 - Finished removed count: 3
 - Date window: 2026-08-14 / 2026-08-15 23:59
 
-- 2026-08-14 02:00 | Philadelphia - Santos Laguna | live
-- 2026-08-14 02:30 | New York City - Necaxa | live
-- 2026-08-14 03:00 | Alianza Fc - Umecit | live
-- 2026-08-14 03:30 | Club America - Austin | scheduled
-- 2026-08-14 03:30 | Rosario Centra - Corinthians | scheduled
-- 2026-08-14 03:30 | Cienciano - Botafogo | scheduled
-- 2026-08-14 04:00 | Cruz Azul - Chicago | scheduled
-- 2026-08-14 04:00 | Alebrijes - Tepatitlan De M | scheduled
-- 2026-08-14 05:00 | Firpo - Diriangen | scheduled
-- 2026-08-14 05:00 | Antigua Guatem - Marathon | scheduled
+- 2026-08-14 04:00 | Cruz Azul - Chicago | live
+- 2026-08-14 04:00 | Alebrijes - Tepatitlan De M | live
+- 2026-08-14 05:00 | Firpo - Diriangen | live
+- 2026-08-14 05:00 | Antigua Guatem - Marathon | live
+- 2026-08-14 05:30 | Portland - Club Tijuana | live
+- 2026-08-14 12:30 | Brisbane Olymp - Rochedale Rover | scheduled
+- 2026-08-14 12:30 | Brisbane Roar - Gold Coast Knig | scheduled
+- 2026-08-14 12:30 | Brisbane Wolve - Magic United | scheduled
+- 2026-08-14 12:30 | Gold Coast Uni - Eastern Suburbs | scheduled
+- 2026-08-14 12:30 | Moreton City E - Queensland Lion | scheduled
