@@ -2,17 +2,29 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
+<<<<<<< Updated upstream
 - Güncelleme: 2026-08-14T11:59:28.956Z
 - Ham maç sayısı: 199
 - Yarın bülteni maç sayısı: 17
 - Detay blok sayısı: 549
 - Aktif bülten maçı: 182
 - Bültenden düşürülen maç: 17
+=======
+- Güncelleme: 2026-08-14T12:00:12.031Z
+- Ham maç sayısı: 199
+- Yarın bülteni maç sayısı: 17
+- Detay blok sayısı: 549
+- Aktif bülten maçı: 181
+- Bültenden düşürülen maç: 18
+>>>>>>> Stashed changes
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
+<<<<<<< Updated upstream
 | Qingdao West C - Chongqing Tongl | Çin Halk Cumhuriyeti Süper Lig | 15:00 | Veri bekleniyor | - | 1.79 | 8 |
+=======
+>>>>>>> Stashed changes
 | Fleetwood Town - Colchester Unit | İngiltere Professional Development Lig | 16:00 | Veri bekleniyor | - | 1.84 | 6 |
 | Mbeya City - Geita Gold | Tanzanya Kuu Bara Ligi | 16:15 | Veri bekleniyor | - | 2.04 | 8 |
 | Orenburg - L.Moskova | Rusya Premier Lig | 17:00 | Veri bekleniyor | - | 2.78 | 8 |

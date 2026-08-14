@@ -1,11 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
+<<<<<<< Updated upstream
 Oluşturma: 14.08.2026 15:00:40
+=======
+Oluşturma: 14.08.2026 15:04:13
+>>>>>>> Stashed changes
 
 ## Özet
 
-- Toplam tahmin: 124
-- Bekleyen tahmin: 124
+- Toplam tahmin: 125
+- Bekleyen tahmin: 125
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 61
@@ -20,12 +24,13 @@ Oluşturma: 14.08.2026 15:00:40
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 67, bekleyen 67, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 53, bekleyen 53, başarı bekleniyor, ağırlık 1
-- MS X: toplam 66, bekleyen 66, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-14 | Slovakya 2.Lig | Pohronie - Mfk Bytca | MS X | pending | 60/100
 - 2026-08-14 | Hazırlık Kulüpler | Reddis - Saguntino | MS 2 | pending | 40/100
 - 2026-08-14 | Hazırlık Kulüpler | Seravezza - Pistoiese | MS X | pending | 50/100
 - 2026-08-14 | İran Persian Gulf Pro Lig | Tractor Fc - Peykan | MS X | pending | 50/100
@@ -40,5 +45,4 @@ Oluşturma: 14.08.2026 15:00:40
 - 2026-08-14 | Hazırlık Kulüpler | Marsilya - Atletico Madrid | MS X | pending | 60/100
 - 2026-08-14 | Hazırlık Kulüpler | Portugalete - Barakaldo | MS 1 | pending | 40/100
 - 2026-08-14 | Türkiye Süper Lig | Galatasaray - Çorum | MS X | pending | 40/100
-- 2026-08-14 | Malta Premier Lig Açılış | Balzan Fc - Marsaxlokk Fc | MS X | pending | 40/100
 
