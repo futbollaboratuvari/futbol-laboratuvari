@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T17:39:12.950768+00:00
+Tarih: 2026-08-15T18:01:35.045507+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 61
+- Kac mac bulundu: 60
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 61
+- Kac mac zaten vardi: 60
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
@@ -40,7 +40,6 @@ Tarih: 2026-08-15T17:39:12.950768+00:00
 - Polonya Ekstraklasa
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
 - Suudi Arabistan Pro Lig
@@ -112,8 +111,8 @@ Tarih: 2026-08-15T17:39:12.950768+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 67
-- Acilan detay: 67
+- Denenen Tumu alani: 66
+- Acilan detay: 66
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -126,26 +125,26 @@ Tarih: 2026-08-15T17:39:12.950768+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 15.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Fenerbahçe | 42006 | 5 |
 | 15.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Alanyaspor | 41948 | 5 |
-| 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bursaspor | Iğdır Fk | 00493 | 5 |
+| 15.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Fenerbahçe | 42006 | 5 |
 | 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Van Spor Fk | 13950 | 5 |
+| 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bursaspor | Iğdır Fk | 00493 | 5 |
 | 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
 | 15.08.2026 | 21:00 | Hollanda Eredivisie | Excelsior | Psv Eindhoven | 28159 | 5 |
 | 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
 | 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
 | 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Kholood | 28020 | 5 |
 | 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Al Fateh | 28067 | 4 |
-| 15.08.2026 | 21:45 | Belçika Pro Lig | Genk | Westerlo | 28490 | 5 |
 | 15.08.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Club Brugge | 28581 | 5 |
+| 15.08.2026 | 21:45 | Belçika Pro Lig | Genk | Westerlo | 28490 | 5 |
 | 15.08.2026 | 22:30 | İspanya 2.Lig | Mallorca | Valladolid | 25750 | 5 |
 | 15.08.2026 | 21:30 | Almanya 2. Bundesliga | Kaiserslautern | Karlsruhe | 27245 | 5 |
 | 15.08.2026 | 22:15 | İtalya Kupa 1.Tur | Torino | Carrarese | 28626 | 5 |
 | 15.08.2026 | 21:45 | İtalya Kupa 1.Tur | Unione V. | Modena | 28521 | 5 |
 | 15.08.2026 | 21:15 | Polonya Ekstraklasa | Widzew Lodz | Korona Kielce | 28334 | 5 |
-| 15.08.2026 | 20:45 | Rusya Premier Lig | Krasnodar | Akhmat Grozny | 27914 | 5 |
 | 15.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen | Zlin | 28251 | 5 |
 | 15.08.2026 | 22:00 | Sırbistan Süper Lig | Cukaricki | Ofk Beograd | 28851 | 5 |
+| 15.08.2026 | 22:30 | Brezilya Serie A | Fluminense | Palmeiras | 29201 | 5 |
 
 ## Sonuc
 
