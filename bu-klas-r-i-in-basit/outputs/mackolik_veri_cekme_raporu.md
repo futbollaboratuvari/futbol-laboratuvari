@@ -1,32 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-15T09:21:23.728038+00:00
-=======
-Tarih: 2026-08-15T09:37:12.542189+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-15T10:05:41.877746+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 555
+- Durum: error
+- Kac mac bulundu: 471
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 555
-=======
-- Kac mac bulundu: 479
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 479
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 7019
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
@@ -38,13 +25,11 @@ Tarih: 2026-08-15T09:37:12.542189+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Güney Avustralya
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
-- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -57,7 +42,6 @@ Tarih: 2026-08-15T09:37:12.542189+00:00
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -73,15 +57,12 @@ Tarih: 2026-08-15T09:37:12.542189+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Japonya J1 Lig
 - Japonya J2 Lig
 - Japonya J3 Lig
-- Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -92,9 +73,7 @@ Tarih: 2026-08-15T09:37:12.542189+00:00
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -160,7 +139,6 @@ Tarih: 2026-08-15T09:37:12.542189+00:00
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -225,7 +203,8 @@ Tarih: 2026-08-15T09:37:12.542189+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -254,4 +233,4 @@ Tarih: 2026-08-15T09:37:12.542189+00:00
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
