@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 558
 - Live match count: 10
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
 - 2026-08-15 10:00 | Armadale - Dianella White | live

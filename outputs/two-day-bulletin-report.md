@@ -4,8 +4,8 @@ Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
 Ham mac: 592
 Aktif mac: 558
-Canli mac: 11
-Biten mac: 23
+Canli mac: 10
+Biten mac: 24
 Bultenden dusurulen mac: 34
 Bugun: 484
 Yarin: 74
@@ -571,7 +571,6 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 09:00 | Avustralya NPL Yeni Güney Galler | Apia - Sd Raiders | live | -
 - 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Nws Spirit | live | -
 - 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney United | live | -
 - 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Fremantle City | live | -
@@ -607,3 +606,4 @@ Yarin: 74
 - 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | finished | -
 - 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | finished | -
 - 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | finished | -
+- 2026-08-15 09:00 | Avustralya NPL Yeni Güney Galler | Apia - Sd Raiders | finished | -
