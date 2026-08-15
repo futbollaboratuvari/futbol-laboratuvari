@@ -2,25 +2,15 @@
 
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
-Ham mac: 570
-Aktif mac: 562
-Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 488
+Ham mac: 592
+Aktif mac: 558
+Canli mac: 11
+Biten mac: 23
+Bultenden dusurulen mac: 34
+Bugun: 484
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Nws Spirit | scheduled | -
-- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney United | scheduled | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Fremantle City | scheduled | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth - Perth Redstar F | scheduled | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Sorrento | scheduled | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Balcatta | scheduled | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Armadale - Dianella White | scheduled | -
-- 2026-08-15 10:15 | Avustralya Victoria NPL 1 | Brunswick City - North Geelong | scheduled | -
-- 2026-08-15 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Canberra | scheduled | -
-- 2026-08-15 11:00 | Avustralya NPL Victoria | Caroline S. - Avondale Height | scheduled | -
 - 2026-08-15 12:00 | Japonya J1 Lig | Kashima - Nagoya | scheduled | -
 - 2026-08-15 12:00 | Japonya J1 Lig | Mito Hollyhock - Gamba Osaka | scheduled | -
 - 2026-08-15 12:00 | Rusya FNL | Yenisey - Kamaz | scheduled | -
@@ -95,6 +85,7 @@ Yarin: 74
 - 2026-08-15 14:00 | İsveç 2.Lig Södra Svealand | Smedby Ais - Eker Örebro | scheduled | -
 - 2026-08-15 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Gottne | scheduled | -
 - 2026-08-15 14:00 | Norveç 3.Lig Grup 1 | Frigg - Lokomotiv Oslo | scheduled | -
+- 2026-08-15 14:00 | Almanya U19 Bundesliga Grup A | Hamburger Sv U - Werder Bremen U | scheduled | -
 - 2026-08-15 14:30 | İngiltere Championship | Bolton - Prest | scheduled | -
 - 2026-08-15 14:30 | İngiltere 1.Lig | Notts County - Leicester | scheduled | -
 - 2026-08-15 14:30 | İngiltere 1.Lig | Reading - Luton | scheduled | -
@@ -168,6 +159,9 @@ Yarin: 74
 - 2026-08-15 16:00 | Hollanda Tweede Divisie | Sv Spakenburg - Katwijk | scheduled | -
 - 2026-08-15 16:00 | Norveç 3.Lig Grup 2 | Orkla - Spjelkavik | scheduled | -
 - 2026-08-15 16:00 | Norveç 3.Lig Grup 4 | Flekkeroy - Brodd | scheduled | -
+- 2026-08-15 16:00 | Norveç 3.Lig Grup 5 | Skjervoy - Floya | scheduled | -
+- 2026-08-15 16:00 | Norveç 3.Lig Grup 6 | Rade - Drobak/Frogn | scheduled | -
+- 2026-08-15 16:00 | Norveç 3.Lig Grup 6 | Brumunddal - Raelingen | scheduled | -
 - 2026-08-15 16:15 | Rusya Premier Lig | Cska Moskova - Fakel Voronezh | scheduled | -
 - 2026-08-15 16:15 | Hollanda Tweede Divisie | Afc Amsterdams - Vv Kloetinge | scheduled | -
 - 2026-08-15 16:30 | Hazırlık Kulüpler | Union Berlin - Ipswich | scheduled | -
@@ -184,6 +178,7 @@ Yarin: 74
 - 2026-08-15 16:30 | Galler FAW Championship Güney | Swansea Univer - Llanelli Town | scheduled | -
 - 2026-08-15 16:30 | Galler FAW Championship Güney | Cardiff Dracon - Pontypridd Town | scheduled | -
 - 2026-08-15 16:30 | Galler FAW Championship Güney | Pontardawe - Newport City | scheduled | -
+- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Y Rhyl 1879 - Caersws | scheduled | -
 - 2026-08-15 17:00 | Belçika Pro Lig | Union St.G - Zulte Waregem | scheduled | -
 - 2026-08-15 17:00 | İngiltere Championship | Bristol City - Millwall | scheduled | -
 - 2026-08-15 17:00 | İngiltere Championship | Middlesbrough - Lincoln | scheduled | -
@@ -334,6 +329,7 @@ Yarin: 74
 - 2026-08-15 17:30 | Almanya 3. Lig | Verl 1924 - Duisburg | scheduled | -
 - 2026-08-15 17:30 | Macaristan NB I | Ujpest - Mtk | scheduled | -
 - 2026-08-15 17:45 | Hazırlık Kulüpler | Ac Milan - Man. Utd | scheduled | -
+- 2026-08-15 17:45 | Hazırlık Kulüpler | Man. Utd - Ac Milan | scheduled | -
 - 2026-08-15 18:00 | İspanya 2.Lig | Fc Andorra - Ceuta | scheduled | -
 - 2026-08-15 18:00 | Avusturya Bundesliga | Avusturya Lust - Wolfsberger | scheduled | -
 - 2026-08-15 18:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag - Teplice | scheduled | -
@@ -575,14 +571,39 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | live | -
-- 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | live | -
-- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | live | -
-- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Cooma Tigers | live | -
-- 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | live | -
-- 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | live | -
-- 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | live | -
 - 2026-08-15 09:00 | Avustralya NPL Yeni Güney Galler | Apia - Sd Raiders | live | -
+- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Nws Spirit | live | -
+- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney United | live | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Fremantle City | live | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth - Perth Redstar F | live | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Sorrento | live | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Balcatta | live | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Armadale - Dianella White | live | -
+- 2026-08-15 10:15 | Avustralya Victoria NPL 1 | Brunswick City - North Geelong | live | -
+- 2026-08-15 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Canberra | live | -
+- 2026-08-15 11:00 | Avustralya NPL Victoria | Caroline S. - Avondale Height | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
+- 2026-08-15 01:30 | Brezilya Serie B | Sao Bernardo - Botafogo Ribeir | finished | -
+- 2026-08-15 01:30 | Brezilya Serie B | Ponte Preta - Nautico | finished | -
+- 2026-08-15 02:00 | Peru Premier Lig Clausura | Cusco Fc - Juan Pablo Ii C | finished | -
+- 2026-08-15 02:00 | Şili Premier Lig | Univ De Concep - La Serena | finished | -
+- 2026-08-15 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Banfield | finished | -
+- 2026-08-15 02:30 | Arjantin Ulusal Primera Lig | Rafaela - D Belgrano | finished | -
+- 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | finished | -
+- 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | finished | -
+- 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | finished | -
+- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | finished | -
+- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | finished | -
+- 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | finished | -
+- 2026-08-15 04:00 | El Salvador Primera Lig Apertura | Municipal Lime - Inter Fa | finished | -
+- 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | finished | -
+- 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | finished | -
+- 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | finished | -
+- 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | finished | -
+- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | finished | -
+- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Cooma Tigers | finished | -
+- 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | finished | -
+- 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | finished | -
+- 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | finished | -
