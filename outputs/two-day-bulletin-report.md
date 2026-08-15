@@ -1,12 +1,13 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-15 / 2026-08-16
-Kaynak: fixtures.json
-Ham mac: 582
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Ham mac: 583
 Aktif mac: 565
-Canli mac: 2
+Canli mac: 3
 Biten mac: 15
-Bultenden dusurulen mac: 17
+Bultenden dusurulen mac: 18
 Bugun: 491
 Yarin: 74
 
@@ -578,6 +579,7 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
+- 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | live | -
 - 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | live | -
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | live | -
 
