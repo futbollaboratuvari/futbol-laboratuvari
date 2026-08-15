@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-15 / 2026-08-16
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 606
 Aktif mac: 76
-Canli mac: 52
-Biten mac: 478
+Canli mac: 33
+Biten mac: 497
 Bultenden dusurulen mac: 530
 Bugun: 1
 Yarin: 75
@@ -90,26 +89,6 @@ Yarin: 75
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | live | -
-- 2026-08-15 20:45 | Rusya Premier Lig | Krasnodar - Akhmat Grozny | live | -
-- 2026-08-15 21:00 | Hollanda Eredivisie | Excelsior - Psv Eindhoven | live | -
-- 2026-08-15 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya - Al Fateh | live | -
-- 2026-08-15 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Kholood | live | -
-- 2026-08-15 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen - Zlin | live | -
-- 2026-08-15 21:00 | Belçika Challenger Pro Lig | Excelsior Virt - Lierse Kempenzo | live | -
-- 2026-08-15 21:00 | Hazırlık Kulüpler | Orihuela - Cieza | live | -
-- 2026-08-15 21:00 | Hazırlık Kulüpler | Cd Aguilas - Lorca Deportiva | live | -
-- 2026-08-15 21:00 | Peru Premier Lig Clausura | Adt - Alianza Atletic | live | -
-- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | Moron - Almagro | live | -
-- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | Agropecuario - Ciudad De Bolív | live | -
-- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | San Miguel - Colegiales | live | -
-- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - Atlanta | live | -
-- 2026-08-15 21:00 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Monarcas | live | -
-- 2026-08-15 21:00 | Güney Afrika PSL | Milford - Kruger United | live | -
-- 2026-08-15 21:00 | Güney Afrika PSL | Durban City - Richards Bay | live | -
-- 2026-08-15 21:00 | Irak Premier Lig | Al Zawraa - Al Minaa Basra | live | -
-- 2026-08-15 21:00 | Irak Premier Lig | Al Karma - Al Mosul | live | -
-- 2026-08-15 21:00 | Tanzanya Kuu Bara Ligi | Namungo - Young Africans | live | -
 - 2026-08-15 21:15 | Polonya Ekstraklasa | Widzew Lodz - Korona Kielce | live | -
 - 2026-08-15 21:15 | Bulgaristan 1.Lig | Ludogorets - Botev Plovdiv | live | -
 - 2026-08-15 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Maribor | live | -
@@ -142,6 +121,7 @@ Yarin: 75
 - 2026-08-15 22:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe - Patronato | live | -
 - 2026-08-15 22:30 | Uruguay Premier Lig Clausura | Racing Montevi - Nacional Df | live | -
 - 2026-08-15 22:45 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Gimnasia La Pla | live | -
+- 2026-08-15 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | live | -
 
 ## Biten Maclar
 - 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
@@ -622,3 +602,22 @@ Yarin: 75
 - 2026-08-15 20:30 | Arjantin Premier Lig 2. Aşama | San Lorenzo - Union Santa Fe | finished | -
 - 2026-08-15 20:30 | Hazırlık Kulüpler | Inter - Real Betis | finished | -
 - 2026-08-15 20:30 | Almanya Kadınlar Süper Kupa | Bayern München - Wolfsburg (K) | finished | -
+- 2026-08-15 20:45 | Rusya Premier Lig | Krasnodar - Akhmat Grozny | finished | -
+- 2026-08-15 21:00 | Hollanda Eredivisie | Excelsior - Psv Eindhoven | finished | -
+- 2026-08-15 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya - Al Fateh | finished | -
+- 2026-08-15 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Kholood | finished | -
+- 2026-08-15 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen - Zlin | finished | -
+- 2026-08-15 21:00 | Belçika Challenger Pro Lig | Excelsior Virt - Lierse Kempenzo | finished | -
+- 2026-08-15 21:00 | Hazırlık Kulüpler | Orihuela - Cieza | finished | -
+- 2026-08-15 21:00 | Hazırlık Kulüpler | Cd Aguilas - Lorca Deportiva | finished | -
+- 2026-08-15 21:00 | Peru Premier Lig Clausura | Adt - Alianza Atletic | finished | -
+- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | Moron - Almagro | finished | -
+- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | Agropecuario - Ciudad De Bolív | finished | -
+- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | San Miguel - Colegiales | finished | -
+- 2026-08-15 21:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - Atlanta | finished | -
+- 2026-08-15 21:00 | Meksika Ascenso MX Apertura | Cruz Azul Hida - Monarcas | finished | -
+- 2026-08-15 21:00 | Güney Afrika PSL | Milford - Kruger United | finished | -
+- 2026-08-15 21:00 | Güney Afrika PSL | Durban City - Richards Bay | finished | -
+- 2026-08-15 21:00 | Irak Premier Lig | Al Zawraa - Al Minaa Basra | finished | -
+- 2026-08-15 21:00 | Irak Premier Lig | Al Karma - Al Mosul | finished | -
+- 2026-08-15 21:00 | Tanzanya Kuu Bara Ligi | Namungo - Young Africans | finished | -
