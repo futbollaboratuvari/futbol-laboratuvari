@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 15:03:42
+Oluşturma: 15.08.2026 15:15:27
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 323
+- Bekleyen tahmin: 323
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 96
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 15.08.2026 15:03:42
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 87, bekleyen 87, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
+- MS X: toplam 218, bekleyen 218, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Türkiye TFF 1. Lig | Bursaspor - Iğdır Fk | MS 2 | pending | 60/100
+- 2026-08-15 | Belçika Pro Lig | Genk - Westerlo | MS 2 | pending | 40/100
+- 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS 1 | pending | 40/100
+- 2026-08-15 | İtalya Kupa 1.Tur | Unione V. - Modena | MS 2 | pending | 75/100
+- 2026-08-15 | Hollanda Eredivisie | Fortuna Sittar - Cambuur | MS 2 | pending | 60/100
+- 2026-08-15 | Sırbistan Süper Lig | Cukaricki - Ofk Beograd | MS X | pending | 50/100
+- 2026-08-15 | Hırvatistan 1.HNL | Osijek - Lokomotiva | MS 2 | pending | 50/100
+- 2026-08-15 | Guatemala Ulusal Lig Apertura | Coban Imperial - Mixco | MS 2 | pending | 50/100
+- 2026-08-15 | İspanya 2.Lig | Mallorca - Valladolid | MS 2 | pending | 60/100
+- 2026-08-15 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | MS 2 | pending | 40/100
+- 2026-08-15 | Peru Premier Lig Clausura | Chankas Cyc - Melgar | MS X | pending | 50/100
+- 2026-08-15 | Gürcistan Erovnuli Liga | Torpedo Kutais - Fc Iberia | MS X | pending | 40/100
+- 2026-08-15 | Slovenya 2.SNL | Nd Primorje - Jadran Dekani | MS X | pending | 50/100
+- 2026-08-15 | Slovenya 2.SNL | Brezice - Dren Vrhnika | MS X | pending | 50/100
+- 2026-08-15 | Polonya 2.Lig | Resovia Rzeszo - Gks Tychy | MS X | pending | 50/100
 
