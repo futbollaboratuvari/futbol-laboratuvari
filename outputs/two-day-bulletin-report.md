@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
-Ham mac: 578
-Aktif mac: 562
-Canli mac: 2
-Biten mac: 14
-Bultenden dusurulen mac: 16
-Bugun: 488
+Ham mac: 567
+Aktif mac: 564
+Canli mac: 3
+Biten mac: 0
+Bultenden dusurulen mac: 3
+Bugun: 490
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 - 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | scheduled | -
 - 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | scheduled | -
 - 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Cooma Tigers | scheduled | -
@@ -173,6 +172,8 @@ Yarin: 74
 - 2026-08-15 16:00 | Hollanda Tweede Divisie | Jong Sparta - Rohda Raalte | scheduled | -
 - 2026-08-15 16:00 | Hollanda Tweede Divisie | Kozakken Boys - Ijsselmeervogel | scheduled | -
 - 2026-08-15 16:00 | Hollanda Tweede Divisie | Sv Spakenburg - Katwijk | scheduled | -
+- 2026-08-15 16:00 | Norveç 3.Lig Grup 2 | Orkla - Spjelkavik | scheduled | -
+- 2026-08-15 16:00 | Norveç 3.Lig Grup 4 | Flekkeroy - Brodd | scheduled | -
 - 2026-08-15 16:15 | Rusya Premier Lig | Cska Moskova - Fakel Voronezh | scheduled | -
 - 2026-08-15 16:15 | Hollanda Tweede Divisie | Afc Amsterdams - Vv Kloetinge | scheduled | -
 - 2026-08-15 16:30 | Hazırlık Kulüpler | Union Berlin - Ipswich | scheduled | -
@@ -329,6 +330,7 @@ Yarin: 74
 - 2026-08-15 17:00 | İskoçya Lig Kupası 2.Tur | Dunfermline - Ross County | scheduled | -
 - 2026-08-15 17:00 | İskoçya Lig Kupası 2.Tur | Aberdeen - Dundee | scheduled | -
 - 2026-08-15 17:00 | Kuzey İrlanda Championship | Newington Yc - Queens Universi | scheduled | -
+- 2026-08-15 17:00 | Kuzey İrlanda Championship | Institute Fc - Loughgall Fc | scheduled | -
 - 2026-08-15 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Dhafra - Al Sharjah | scheduled | -
 - 2026-08-15 17:30 | Hollanda Eredivisie | Willem - Nijmegen | scheduled | -
 - 2026-08-15 17:30 | Portekiz Premier Lig | Alverca - Estrela | scheduled | -
@@ -577,19 +579,7 @@ Yarin: 74
 ## Canli Maclar
 - 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | live | -
 - 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | live | -
+- 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | live | -
 
 ## Biten Maclar
-- 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
-- 2026-08-15 01:30 | Brezilya Serie B | Sao Bernardo - Botafogo Ribeir | finished | -
-- 2026-08-15 01:30 | Brezilya Serie B | Ponte Preta - Nautico | finished | -
-- 2026-08-15 02:00 | Peru Premier Lig Clausura | Cusco Fc - Juan Pablo Ii C | finished | -
-- 2026-08-15 02:00 | Şili Premier Lig | Univ De Concep - La Serena | finished | -
-- 2026-08-15 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Banfield | finished | -
-- 2026-08-15 02:30 | Arjantin Ulusal Primera Lig | Rafaela - D Belgrano | finished | -
-- 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | finished | -
-- 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | finished | -
-- 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | finished | -
-- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | finished | -
-- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | finished | -
-- 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | finished | -
-- 2026-08-15 04:00 | El Salvador Primera Lig Apertura | Municipal Lime - Inter Fa | finished | -
+Biten mac yok.

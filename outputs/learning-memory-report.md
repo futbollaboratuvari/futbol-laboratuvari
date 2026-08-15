@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 06:57:08
+Oluşturma: 15.08.2026 07:01:06
 
 ## Özet
 
-- Toplam tahmin: 347
-- Bekleyen tahmin: 347
+- Toplam tahmin: 350
+- Bekleyen tahmin: 350
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 105
+- Lig sayısı: 107
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,15 @@ Oluşturma: 15.08.2026 06:57:08
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 231, bekleyen 231, başarı bekleniyor, ağırlık 1
+- MS X: toplam 234, bekleyen 234, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 96, bekleyen 96, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Kuzey İrlanda Championship | Institute Fc - Loughgall Fc | MS X | pending | 50/100
+- 2026-08-15 | İzlanda 2.Lig | Kfg Gardabar - Kfa | MS X | pending | 40/100
+- 2026-08-15 | Norveç 3.Lig Grup 5 | Ulfstind - Skjetten | MS X | pending | 40/100
 - 2026-08-15 | İngiltere Ulusal Lig N / S Güney | Horsham - Salisbury | MS X | pending | 50/100
 - 2026-08-15 | Hazırlık Kulüpler | G.Segoviana - Unionistas De S | MS X | pending | 50/100
 - 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS X | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 15.08.2026 06:57:08
 - 2026-08-15 | Slovenya 1.SNL | Olimpija Ljubl - Maribor | MS X | pending | 50/100
 - 2026-08-15 | Türkiye Süper Lig | Gaziantep Fk - Alanyaspor | MS X | pending | 50/100
 - 2026-08-15 | Almanya 2. Bundesliga | Kaiserslautern - Karlsruhe | MS X | pending | 60/100
-- 2026-08-15 | Romanya 1.Lig | Rapid Bükreş - Dinamo Bükreş | MS X | pending | 40/100
-- 2026-08-15 | Slovakya Süper Lig | Podbrezova - Trencin | MS 2 | pending | 70/100
-- 2026-08-15 | Belçika Pro Lig | Genk - Westerlo | MS 2 | pending | 80/100
 

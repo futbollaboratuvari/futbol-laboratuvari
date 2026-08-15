@@ -1,6 +1,6 @@
 # Learning Output Check
 
-Generated: 2026-08-15T02:07:18.410Z
+Generated: 2026-08-15T04:01:07.602Z
 Status: ready
 
 ## Checks
@@ -19,8 +19,8 @@ Status: ready
 - Scoring mode: net_threshold_rules_with_learning_memory
 - Robot matches: 493
 - Learning adjusted count: 0
-- Memory predictions: 343
-- Pending predictions: 343
+- Memory predictions: 350
+- Pending predictions: 350
 
 Learning output fields are present. The site can display learning notes.
 
