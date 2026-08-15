@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-15 / 2026-08-16
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 606
-Aktif mac: 77
-Canli mac: 51
+Aktif mac: 76
+Canli mac: 52
 Biten mac: 478
-Bultenden dusurulen mac: 529
-Bugun: 2
+Bultenden dusurulen mac: 530
+Bugun: 1
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-15 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | scheduled | -
 - 2026-08-15 23:30 | Peru Premier Lig Clausura | Chankas Cyc - Melgar | scheduled | -
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | scheduled | -
 - 2026-08-16 00:00 | Kanada Premier Lig | Cavalry - Forge | scheduled | -
@@ -90,6 +90,7 @@ Yarin: 75
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
+- 2026-08-15 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | live | -
 - 2026-08-15 20:45 | Rusya Premier Lig | Krasnodar - Akhmat Grozny | live | -
 - 2026-08-15 21:00 | Hollanda Eredivisie | Excelsior - Psv Eindhoven | live | -
 - 2026-08-15 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya - Al Fateh | live | -
