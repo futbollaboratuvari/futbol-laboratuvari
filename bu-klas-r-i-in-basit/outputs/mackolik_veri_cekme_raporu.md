@@ -1,25 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T17:04:39.106524+00:00
+Tarih: 2026-08-15T17:19:44.395408+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 71
+- Kac mac bulundu: 141
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 71
+- Kac mac zaten vardi: 141
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Almanya 2. Bundesliga
-- Almanya Bölgesel Lig Kuzey
 - Almanya Kadınlar Süper Kupa
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
 - Avusturya Bundesliga
 - Belçika Challenger Pro Lig
@@ -29,25 +32,29 @@ Tarih: 2026-08-15T17:04:39.106524+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
-- Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
-- Slovenya 2.SNL
 - Suudi Arabistan Pro Lig
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
@@ -61,7 +68,7 @@ Tarih: 2026-08-15T17:04:39.106524+00:00
 - İspanya LaLiga
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
-- İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -118,8 +125,8 @@ Tarih: 2026-08-15T17:04:39.106524+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 73
-- Acilan detay: 73
+- Denenen Tumu alani: 69
+- Acilan detay: 69
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0

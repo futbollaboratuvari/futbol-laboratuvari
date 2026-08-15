@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 134
 - Live match count: 86
-- Finished removed count: 26
+- Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
 - 2026-08-15 18:30 | Floridsdorfer - Amstetten | live
