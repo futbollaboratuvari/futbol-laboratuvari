@@ -4,20 +4,14 @@ Gunler: 2026-08-15 / 2026-08-16
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 583
-Aktif mac: 565
-Canli mac: 3
+Aktif mac: 559
+Canli mac: 9
 Biten mac: 15
-Bultenden dusurulen mac: 18
-Bugun: 491
+Bultenden dusurulen mac: 24
+Bugun: 485
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | scheduled | -
-- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | scheduled | -
-- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Cooma Tigers | scheduled | -
-- 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | scheduled | -
-- 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | scheduled | -
-- 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | scheduled | -
 - 2026-08-15 09:00 | Avustralya NPL Yeni Güney Galler | Apia - Sd Raiders | scheduled | -
 - 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Nws Spirit | scheduled | -
 - 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney United | scheduled | -
@@ -579,6 +573,12 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
+- 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | live | -
+- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | live | -
+- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Cooma Tigers | live | -
+- 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | live | -
+- 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | live | -
+- 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | live | -
 - 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | live | -
 - 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | live | -
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | live | -
