@@ -3,21 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 356
-Aktif mac: 352
-Canli mac: 4
+Aktif mac: 345
+Canli mac: 11
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 315
+Bultenden dusurulen mac: 11
+Bugun: 308
 Yarin: 37
 
 ## Baslamamis Maclar
-- 2026-08-16 00:30 | Brezilya Serie A | Atletico Pr - Bragantino | scheduled | -
-- 2026-08-16 00:30 | Venezuela Premier Lig Clausura | Ucv - Caracas Fc | scheduled | -
-- 2026-08-16 00:30 | Şili Premier Lig | Deportes Limac - Univ. De Şili | scheduled | -
-- 2026-08-16 00:30 | Brezilya Serie B | Juventude - Fortaleza Ce | scheduled | -
-- 2026-08-16 00:30 | Ekvador Pro Lig | Guayaquil City - Libertad | scheduled | -
-- 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Fuerte San Fra - Isidro Metapan | scheduled | -
-- 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Aguila - Balboa | scheduled | -
 - 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Rivadavia | scheduled | -
 - 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Riestra | scheduled | -
 - 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Quilmes - San Telmo | scheduled | -
@@ -369,6 +362,13 @@ Yarin: 37
 - 2026-08-16 00:00 | Kanada Premier Lig | Cavalry - Forge | live | -
 - 2026-08-16 00:00 | Honduras Ulusal Lig Apertura | Genesis Pn - Platense | live | -
 - 2026-08-16 00:15 | Bolivya Premier Lig | Guabira - The Strongest | live | -
+- 2026-08-16 00:30 | Brezilya Serie A | Atletico Pr - Bragantino | live | -
+- 2026-08-16 00:30 | Venezuela Premier Lig Clausura | Ucv - Caracas Fc | live | -
+- 2026-08-16 00:30 | Şili Premier Lig | Deportes Limac - Univ. De Şili | live | -
+- 2026-08-16 00:30 | Brezilya Serie B | Juventude - Fortaleza Ce | live | -
+- 2026-08-16 00:30 | Ekvador Pro Lig | Guayaquil City - Libertad | live | -
+- 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Fuerte San Fra - Isidro Metapan | live | -
+- 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Aguila - Balboa | live | -
 
 ## Biten Maclar
 Biten mac yok.

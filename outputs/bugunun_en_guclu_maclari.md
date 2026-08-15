@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-15T21:20:01.815Z
+- Güncelleme: 2026-08-15T21:40:09.645Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -15,7 +15,13 @@
 | Cavalry VS Forge | Kanada Premier Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Genesis Pn VS Platense | Honduras Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Guabira VS The Strongest | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Lazio VS Mantova | İtalya Kupa 1.Tur | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Atletico Pr VS Bragantino | Brezilya Serie A | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Ucv VS Caracas Fc | Venezuela Premier Lig Clausura | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Deportes Limac VS Univ. De Şili | Şili Premier Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Juventude VS Fortaleza Ce | Brezilya Serie B | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Guayaquil City VS Libertad | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Fuerte San Fra VS Isidro Metapan | El Salvador Primera Lig Apertura | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Aguila VS Balboa | El Salvador Primera Lig Apertura | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Braga VS Gil Vicente | Portekiz Premier Lig | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Famalicao VS Maritimo | Portekiz Premier Lig | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Las Palmas VS Albacete | İspanya 2.Lig | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
