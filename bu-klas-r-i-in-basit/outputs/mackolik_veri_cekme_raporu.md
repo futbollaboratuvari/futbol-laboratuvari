@@ -1,24 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-15T19:55:08.797146+00:00
+=======
+Tarih: 2026-08-15T19:59:37.882538+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 82
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 82
+=======
+- Kac mac bulundu: 8
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 8
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
+<<<<<<< Updated upstream
 - ABD MLS
 - ABD USL
 - ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+=======
+>>>>>>> Stashed changes
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
@@ -110,6 +123,7 @@ Tarih: 2026-08-15T19:55:08.797146+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+<<<<<<< Updated upstream
 | 16.08.2026 | 04:30 | ABD MLS | Salt Lake | Minnesota Utd | 30986 | 5 |
 | 16.08.2026 | 02:30 | ABD MLS | Orlando City | Cincinnati | 30302 | 5 |
 | 16.08.2026 | 02:30 | ABD MLS | Atlanta Utd | New York | 30112 | 5 |
@@ -130,6 +144,16 @@ Tarih: 2026-08-15T19:55:08.797146+00:00
 | 16.08.2026 | 02:00 | Meksika Liga MX Apertura | Atlante | Toluca | 29921 | 5 |
 | 16.08.2026 | 06:10 | Meksika Liga MX Apertura | Atlas | Tigres Uanl | 31310 | 5 |
 | 15.08.2026 | 23:30 | Peru Premier Lig Clausura | Chankas Cyc | Melgar | 29541 | 5 |
+=======
+| 15.08.2026 | 23:30 | Peru Premier Lig Clausura | Chankas Cyc | Melgar | 29541 | 5 |
+| 15.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc | Academia Anzoat | 41521 | 5 |
+| 15.08.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh | Canberra White | 16443 | 3 |
+| 15.08.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl | Cooma Tigers | 02333 | 3 |
+| 15.08.2026 | 08:00 | Avustralya NPL Victoria | Melbourne City | South Melbourne | 16426 | 3 |
+| 15.08.2026 | 08:00 | Avustralya NPL Victoria | Heidelberg Uni | Hume City | 16409 | 5 |
+| 15.08.2026 | 17:00 | İzlanda 2.Lig | Kfg Gardabar | Kfa | 06051 | 3 |
+| 15.08.2026 | 21:00 | Tanzanya Kuu Bara Ligi | Namungo | Young Africans | 07581 | 5 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
