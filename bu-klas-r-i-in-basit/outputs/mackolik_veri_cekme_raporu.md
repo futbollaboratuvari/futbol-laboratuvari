@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T06:07:58.728048+00:00
+Tarih: 2026-08-15T07:05:06.244877+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 495
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 495
-- Ham veri havuzu toplam mac sayisi: 7013
+- Kac mac bulundu: 499
+- Kac mac kaydedildi: 6
+- Kac mac zaten vardi: 493
+- Ham veri havuzu toplam mac sayisi: 7019
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -21,6 +21,7 @@ Tarih: 2026-08-15T06:07:58.728048+00:00
 - Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey
 - Almanya Bölgesel Lig Kuzey Doğu
+- Almanya U19 Bundesliga Grup A
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Batı Avustralya
