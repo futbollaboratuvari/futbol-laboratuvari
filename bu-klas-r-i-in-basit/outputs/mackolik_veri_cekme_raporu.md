@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T11:05:57.277192+00:00
+Tarih: 2026-08-15T11:40:50.768914+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 437
-- Kac mac kaydedildi: 3
-- Kac mac zaten vardi: 434
-- Ham veri havuzu toplam mac sayisi: 7026
+- Kac mac bulundu: 416
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 414
+- Ham veri havuzu toplam mac sayisi: 7028
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -104,7 +104,6 @@ Tarih: 2026-08-15T11:05:57.277192+00:00
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
-- Çin Halk Cumhuriyeti 1.Lig
 - Çin Halk Cumhuriyeti Süper Lig
 - İngiltere 1.Lig
 - İngiltere 2.Lig
@@ -126,8 +125,6 @@ Tarih: 2026-08-15T11:05:57.277192+00:00
 - İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
 - İsveç Allsvenskan
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
