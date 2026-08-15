@@ -1,48 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T18:54:54.704583+00:00
+Tarih: 2026-08-15T19:11:03.505347+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 105
+- Kac mac bulundu: 16
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 105
+- Kac mac zaten vardi: 16
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
-- Bolivya Premier Lig
 - Brezilya Serie A
-- Brezilya Serie B
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
-- Hırvatistan 1.HNL
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
-- Macaristan NB III Güneybatı
-- Macaristan NB III Güneydoğu
-- Macaristan NB III Kuzeybatı
-- Macaristan NB III Kuzeydoğu
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Portekiz Premier Lig
-- Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
@@ -50,7 +28,6 @@ Tarih: 2026-08-15T18:54:54.704583+00:00
 - İspanya LaLiga
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -107,8 +84,8 @@ Tarih: 2026-08-15T18:54:54.704583+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 50
-- Acilan detay: 50
+- Denenen Tumu alani: 39
+- Acilan detay: 39
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -122,25 +99,21 @@ Tarih: 2026-08-15T18:54:54.704583+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
-| 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
 | 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
 | 15.08.2026 | 22:30 | İspanya 2.Lig | Mallorca | Valladolid | 25750 | 5 |
 | 15.08.2026 | 22:15 | İtalya Kupa 1.Tur | Torino | Carrarese | 28626 | 5 |
-| 15.08.2026 | 22:00 | Sırbistan Süper Lig | Cukaricki | Ofk Beograd | 28851 | 5 |
-| 16.08.2026 | 03:30 | ABD MLS | Nashville Sc | Inter Miami | 30587 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Montreal | Dc United | 30245 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Charlotte | Columbus | 30179 | 5 |
-| 16.08.2026 | 03:30 | ABD MLS | Houston | Los Angeles | 30452 | 5 |
-| 16.08.2026 | 04:30 | ABD MLS | Salt Lake | Minnesota Utd | 30986 | 5 |
-| 16.08.2026 | 04:30 | ABD MLS | Colorado | Kansas | 30819 | 5 |
-| 16.08.2026 | 05:30 | ABD MLS | San Jose | St. Louis City | 31218 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Orlando City | Cincinnati | 30302 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Toronto | New England | 30393 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Atlanta Utd | New York | 30112 | 5 |
-| 16.08.2026 | 05:30 | ABD MLS | Los Angeles Fc | San Diego | 31160 | 5 |
 | 15.08.2026 | 22:30 | Brezilya Serie A | Fluminense | Palmeiras | 29201 | 5 |
-| 16.08.2026 | 03:00 | Brezilya Serie A | Sao Paulo | Coritiba | 30511 | 5 |
-| 16.08.2026 | 00:30 | Brezilya Serie A | Atletico Pr | Bragantino | 29692 | 5 |
+| 15.08.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Gimnasia La Pla | 29439 | 5 |
+| 15.08.2026 | 23:30 | Peru Premier Lig Clausura | Chankas Cyc | Melgar | 29541 | 5 |
+| 15.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc | Academia Anzoat | 41521 | 5 |
+| 15.08.2026 | 22:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe | Patronato | 29173 | 3 |
+| 15.08.2026 | 22:30 | Uruguay Premier Lig Clausura | Racing Montevi | Nacional Df | 29321 | 5 |
+| 15.08.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh | Canberra White | 16443 | 3 |
+| 15.08.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl | Cooma Tigers | 02333 | 3 |
+| 15.08.2026 | 08:00 | Avustralya NPL Victoria | Melbourne City | South Melbourne | 16426 | 3 |
+| 15.08.2026 | 08:00 | Avustralya NPL Victoria | Heidelberg Uni | Hume City | 16409 | 5 |
+| 15.08.2026 | 17:00 | İzlanda 2.Lig | Kfg Gardabar | Kfa | 06051 | 3 |
+| 15.08.2026 | 21:00 | Tanzanya Kuu Bara Ligi | Namungo | Young Africans | 07581 | 5 |
 
 ## Sonuc
 
