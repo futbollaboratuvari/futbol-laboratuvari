@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 109
-- Live match count: 57
-- Finished removed count: 54
+- Scheduled match count: 106
+- Live match count: 60
+- Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
 - 2026-08-15 19:15 | Kortrijk - Antwerp | live
