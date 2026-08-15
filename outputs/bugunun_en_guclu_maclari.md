@@ -2,27 +2,27 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-15T16:36:26.332Z
-- Ham maç sayısı: 399
+- Güncelleme: 2026-08-15T16:43:44.559Z
+- Ham maç sayısı: 253
 - Yarın bülteni maç sayısı: 75
-- Detay blok sayısı: 1141
+- Detay blok sayısı: 714
 - Aktif bülten maçı: 154
-- Bültenden düşürülen maç: 245
+- Bültenden düşürülen maç: 99
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Utrecht - Az Alkmaar | Hollanda Eredivisie | 19:45 | Veri bekleniyor | - | 2.47 | 8 |
-| Sabah - Kapaz | Azerbaycan Premier Lig | 19:45 | Veri bekleniyor | - | 1.07 | 4 |
+| Utrecht - Az Alkmaar | Hollanda Eredivisie | 19:45 | Veri bekleniyor | - | 2.6 | 8 |
+| Sabah - Kapaz | Azerbaycan Premier Lig | 19:45 | Veri bekleniyor | - | 1.19 | 4 |
 | Al Wasl - Dubai United | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:45 | Veri bekleniyor | - | 1.14 | 6 |
-| Khorfakkan Clu - Al Ahli Dubai | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:45 | Veri bekleniyor | - | 4.64 | 6 |
-| Dundee Utd - Celtic | İskoçya Lig Kupası 2.Tur | 19:45 | Veri bekleniyor | - | 4.26 | 6 |
-| Academico Vise - Santa Clara | Portekiz Premier Lig | 20:00 | Veri bekleniyor | - | 2.69 | 8 |
-| Oviedo - Granada | İspanya 2.Lig | 20:00 | Veri bekleniyor | - | 1.82 | 8 |
+| Khorfakkan Clu - Al Ahli Dubai | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:45 | Veri bekleniyor | - | 4.81 | 6 |
+| Dundee Utd - Celtic | İskoçya Lig Kupası 2.Tur | 19:45 | Veri bekleniyor | - | 4.4 | 6 |
+| Academico Vise - Santa Clara | Portekiz Premier Lig | 20:00 | Veri bekleniyor | - | 2.66 | 8 |
+| Oviedo - Granada | İspanya 2.Lig | 20:00 | Veri bekleniyor | - | 1.8 | 8 |
 | Cadiz - Celta Vigo Ii | İspanya 2.Lig | 20:00 | Veri bekleniyor | - | 1.83 | 8 |
-| Radnik Surduli - Macva | Sırbistan Süper Lig | 20:00 | Veri bekleniyor | - | 1.36 | 7 |
+| Radnik Surduli - Macva | Sırbistan Süper Lig | 20:00 | Veri bekleniyor | - | 1.34 | 7 |
 | Torreense - Penafiel | Portekiz 2.Lig | 20:00 | Veri bekleniyor | - | 1.69 | 8 |
-| Kotka - Kapa | Finlandiya Ykkösliiga | 20:00 | Veri bekleniyor | - | 1.09 | 6 |
+| Kotka - Kapa | Finlandiya Ykkösliiga | 20:00 | Veri bekleniyor | - | 1.07 | 6 |
 | Toulouse - Hamburg | Hazırlık Kulüpler | 20:00 | Veri bekleniyor | - | 2.32 | 8 |
 | Bate Borisov - Vitebsk | Belarus Premier Lig | 20:00 | Veri bekleniyor | - | 2.51 | 8 |
 | Torpedo Kutais - Fc Iberia | Gürcistan Erovnuli Liga | 20:00 | Veri bekleniyor | - | 2.1 | 8 |
@@ -31,7 +31,7 @@
 | Brezice - Dren Vrhnika | Slovenya 2.SNL | 20:00 | Veri bekleniyor | - | 2.2 | 8 |
 | Resovia Rzeszo - Gks Tychy | Polonya 2.Lig | 20:00 | Veri bekleniyor | - | 2.82 | 8 |
 | Thor Akureyri - Keflavik | İzlanda Urvalsdeild | 20:00 | Veri bekleniyor | - | 2.5 | 6 |
-| Phönix Lübeck - Lübeck | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 1.8 | 8 |
+| Phönix Lübeck - Lübeck | Almanya Bölgesel Lig Kuzey | 20:00 | Veri bekleniyor | - | 1.75 | 8 |
 | Alaves - Getafe | İspanya LaLiga | 20:30 | Veri bekleniyor | - | 2.13 | 8 |
 | Sturm Graz - Altach | Avusturya Bundesliga | 20:30 | Veri bekleniyor | - | 1.44 | 7 |
 | Aldosivi - Tigre | Arjantin Premier Lig 2. Aşama | 20:30 | Veri bekleniyor | - | 2.73 | 8 |
@@ -41,12 +41,12 @@
 | Krasnodar - Akhmat Grozny | Rusya Premier Lig | 20:45 | Veri bekleniyor | - | 1.38 | 7 |
 | Excelsior - Psv Eindhoven | Hollanda Eredivisie | 21:00 | Veri bekleniyor | - | 5.24 | 6 |
 | Al Nassr (Riya - Al Fateh | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | - | 5 |
-| Al Ittihad (Ci - Al Kholood | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 1.36 | 7 |
-| Viktoria Plzen - Zlin | Çek Cumhuriyeti Czech Liga | 21:00 | Veri bekleniyor | - | 1.12 | 6 |
+| Al Ittihad (Ci - Al Kholood | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 1.38 | 7 |
+| Viktoria Plzen - Zlin | Çek Cumhuriyeti Czech Liga | 21:00 | Veri bekleniyor | - | 1.11 | 6 |
 | Excelsior Virt - Lierse Kempenzo | Belçika Challenger Pro Lig | 21:00 | Veri bekleniyor | - | 1.81 | 8 |
 | Orihuela - Cieza | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.93 | 8 |
 | Cd Aguilas - Lorca Deportiva | Hazırlık Kulüpler | 21:00 | Veri bekleniyor | - | 1.79 | 8 |
-| Adt - Alianza Atletic | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.61 | 8 |
+| Adt - Alianza Atletic | Peru Premier Lig Clausura | 21:00 | Veri bekleniyor | - | 1.57 | 8 |
 | Moron - Almagro | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.47 | 5 |
 | Agropecuario - Ciudad De Bolív | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.67 | 5 |
 | San Miguel - Colegiales | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.08 | 6 |
@@ -60,15 +60,15 @@
 | Widzew Lodz - Korona Kielce | Polonya Ekstraklasa | 21:15 | Veri bekleniyor | - | 1.73 | 8 |
 | Ludogorets - Botev Plovdiv | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.38 | 7 |
 | Olimpija Ljubl - Maribor | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 2.92 | 8 |
-| Gençlerbirliği - Fenerbahçe | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 5.33 | 7 |
+| Gençlerbirliği - Fenerbahçe | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 5.51 | 7 |
 | Gaziantep Fk - Alanyaspor | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 2.21 | 8 |
 | Kaiserslautern - Karlsruhe | Almanya 2. Bundesliga | 21:30 | Veri bekleniyor | - | 1.82 | 8 |
 | Rapid Bükreş - Dinamo Bükreş | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 1.92 | 8 |
 | Podbrezova - Trencin | Slovakya Süper Lig | 21:30 | Veri bekleniyor | - | 1.35 | 6 |
 | Manisa Futbol - Van Spor Fk | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 1.46 | 7 |
 | Bursaspor - Iğdır Fk | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 1.28 | 6 |
-| Genk - Westerlo | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 1.26 | 6 |
-| Oh Leuven - Club Brugge | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 5.22 | 7 |
+| Genk - Westerlo | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 1.25 | 6 |
+| Oh Leuven - Club Brugge | Belçika Pro Lig | 21:45 | Veri bekleniyor | - | 5.19 | 7 |
 | Unione V. - Modena | İtalya Kupa 1.Tur | 21:45 | Veri bekleniyor | - | 1.34 | 7 |
 | Sligo Rovers - Kerry | İrlanda FAI Kupası 3.Tur | 21:45 | Veri bekleniyor | - | 1.44 | 3 |
 | Fortuna Sittar - Cambuur | Hollanda Eredivisie | 22:00 | Veri bekleniyor | - | 1.43 | 7 |
@@ -81,9 +81,9 @@
 | Coban Imperial - Mixco | Guatemala Ulusal Lig Apertura | 22:00 | Veri bekleniyor | - | 1.54 | 7 |
 | Manta - Leones Del Nort | Ekvador Pro Lig | 22:00 | Veri bekleniyor | - | 2.28 | 6 |
 | Real Oruro - Oriente Petrole | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 1.66 | 6 |
-| Torino - Carrarese | İtalya Kupa 1.Tur | 22:15 | Veri bekleniyor | - | 1.19 | 6 |
+| Torino - Carrarese | İtalya Kupa 1.Tur | 22:15 | Veri bekleniyor | - | 1.2 | 6 |
 | Sevilla - Vallecano | İspanya LaLiga | 22:30 | Veri bekleniyor | - | 2.16 | 8 |
-| Rio Ave - Porto | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 7.71 | 6 |
+| Rio Ave - Porto | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 7.42 | 6 |
 | Mallorca - Valladolid | İspanya 2.Lig | 22:30 | Veri bekleniyor | - | 1.46 | 7 |
 | Fluminense - Palmeiras | Brezilya Serie A | 22:30 | Veri bekleniyor | - | 2.6 | 8 |
 | Colon Santa Fe - Patronato | Arjantin Ulusal Primera Lig | 22:30 | Veri bekleniyor | - | 1.46 | 5 |

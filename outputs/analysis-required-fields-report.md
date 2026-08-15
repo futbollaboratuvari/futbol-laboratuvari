@@ -1,27 +1,24 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 491
-Tam analiz: 0
-Eksik analiz: 491
+Toplam analiz: 178
+Tam analiz: 161
+Eksik analiz: 17
 
-- Kashima VS Nagoya: eksik score, confidence
-- Mito Hollyhock VS Gamba Osaka: eksik score, confidence
-- Yenisey VS Kamaz: eksik score, confidence
-- G.Segoviana VS Unionistas De S: eksik score, confidence
-- Tochigi City VS Vanraure: eksik score, confidence
-- Blaublitz Akit VS Kataller Toyama: eksik score, confidence
-- Veszprem VS Mosonmagyarovar: eksik score, confidence
-- Paksi Fc Ii VS Kse Ivancsa: eksik score, confidence
-- Fc Gifu VS Kochi United: eksik score, confidence
-- Gira Kitakyush VS Kamatamare Sanu: eksik score, confidence
-- Shimizu VS Yokohama Marino: eksik score, confidence
-- Atletico Torde VS Guijuelo: eksik score, confidence
-- Cultural Leone VS Salamanca: eksik score, confidence
-- Fujieda VS Iwaki: eksik score, confidence
-- West Torrens VS Adelaide United: eksik score, confidence
-- Ne Metrostars VS Croydon Kings: eksik score, confidence
-- West Adelaide VS Playford City P: eksik score, confidence
-- Sturt Lions VS Campbelltown Ci: eksik score, confidence
-- White City Woo VS Adelaide City: eksik score, confidence
-- Moreland Zebra VS Melbourne Srbij: eksik score, confidence
+- College Corint VS Drogheda: eksik score, confidence
+- Deac VS Dvsc Deac: eksik score, confidence
+- Komarom VS Pápai Perutz: eksik score, confidence
+- Shams Azar Qaz VS Persepolis: eksik score, confidence
+- Juventud Dl Pi VS Torque: eksik score, confidence
+- Vfb Oldenburg VS Norderstedt: eksik score, confidence
+- De Treffers VS Gvvv: eksik score, confidence
+- Bayern München VS Wolfsburg (K): eksik score, confidence
+- Moron VS Almagro: eksik score, confidence
+- Agropecuario VS Ciudad De Bolív: eksik score, confidence
+- San Miguel VS Colegiales: eksik score, confidence
+- Ferro Carril O VS Atlanta: eksik score, confidence
+- Namungo VS Young Africans: eksik score, confidence
+- Sligo Rovers VS Kerry: eksik score, confidence
+- Ca Mitre VS Club Atletico G: eksik score, confidence
+- Colon Santa Fe VS Patronato: eksik score, confidence
+- Racing Montevi VS Nacional Df: eksik score, confidence
