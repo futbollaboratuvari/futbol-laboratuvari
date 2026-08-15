@@ -1,19 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T15:04:31.977441+00:00
+Tarih: 2026-08-15T15:23:46.378241+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 176
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 176
-- Ham veri havuzu toplam mac sayisi: 7031
+- Kac mac bulundu: 228
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 227
+- Ham veri havuzu toplam mac sayisi: 7032
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Almanya 2. Bundesliga
 - Almanya Bölgesel Lig Kuzey
 - Almanya Kadınlar Süper Kupa
@@ -21,11 +24,11 @@ Tarih: 2026-08-15T15:04:31.977441+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -35,6 +38,7 @@ Tarih: 2026-08-15T15:04:31.977441+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
 - Galler Premier Lig 1.Aşama
@@ -44,11 +48,11 @@ Tarih: 2026-08-15T15:04:31.977441+00:00
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Kazakistan Premier Lig
-- Kuzey İrlanda Championship
-- Litvanya 1.Lig
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB I
 - Macaristan NB II
 - Macaristan NB III Güneybatı
@@ -56,7 +60,9 @@ Tarih: 2026-08-15T15:04:31.977441+00:00
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
 - Polonya Ekstraklasa
@@ -76,7 +82,6 @@ Tarih: 2026-08-15T15:04:31.977441+00:00
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
@@ -87,14 +92,12 @@ Tarih: 2026-08-15T15:04:31.977441+00:00
 - İskoçya Lig Kupası 2.Tur
 - İspanya 2.Lig
 - İspanya LaLiga
-- İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Norrland Düşme Grubu
-- İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 

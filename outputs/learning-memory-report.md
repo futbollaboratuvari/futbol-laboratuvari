@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 18:10:02
+Oluşturma: 15.08.2026 18:32:01
 
 ## Özet
 
-- Toplam tahmin: 337
-- Bekleyen tahmin: 337
+- Toplam tahmin: 338
+- Bekleyen tahmin: 338
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 96
@@ -20,12 +20,13 @@ Oluşturma: 15.08.2026 18:10:02
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 95, bekleyen 95, başarı bekleniyor, ağırlık 1
 - MS X: toplam 222, bekleyen 222, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Portekiz Premier Lig | Academico Vise - Santa Clara | MS 1 | pending | 40/100
 - 2026-08-15 | Finlandiya Ykkösliiga | Kotka - Kapa | MS 2 | pending | 40/100
 - 2026-08-15 | İsveç Superettan | Falkenberg - Norrby | MS X | pending | 50/100
 - 2026-08-15 | İsveç Superettan | Sandvikens - Norrkoping | MS 1 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 15.08.2026 18:10:02
 - 2026-08-15 | Litvanya 1.Lig | Fk Dainava - Bfa | MS 2 | pending | 50/100
 - 2026-08-15 | Slovenya 2.SNL | Bistrica - Ilirija | MS X | pending | 50/100
 - 2026-08-15 | İngiltere Ulusal Lig N / S Güney | Chelmsford - Truro City | MS 2 | pending | 50/100
-- 2026-08-15 | Türkiye TFF 1. Lig | Bursaspor - Iğdır Fk | MS 2 | pending | 60/100
 
