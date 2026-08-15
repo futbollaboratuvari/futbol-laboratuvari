@@ -2,9 +2,9 @@
 
 - Kaynak: Maçkolik canlı veri bekleniyor
 - URL: https://arsiv.mackolik.com/Iddaa-Programi
-- Güncelleme: 2026-08-15T05:44:06.150Z
+- Güncelleme: 2026-08-15T06:03:29.282Z
 - Hedef tarihler: 15.08.2026, 16.08.2026
 - Maç sayısı: 570
 - Yarın bülteni maç sayısı: 74
-- Detay blok sayısı: 1600
+- Detay blok sayısı: 1601
 - Not: Tarayıcı robotu video mantığıyla yarın tarihini seçmeyi ve satır detaylarını açmayı dener; açılan marketler raw_market_blocks ve available_odds içine yazılır. Tarayıcı çalışamazsa statik parser ve mevcut pencere yedeği devam eder.
