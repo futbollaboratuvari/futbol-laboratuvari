@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 134
-- Live match count: 86
-- Finished removed count: 0
+- Scheduled match count: 109
+- Live match count: 57
+- Finished removed count: 54
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
-- 2026-08-15 18:30 | Floridsdorfer - Amstetten | live
-- 2026-08-15 18:30 | Strum Graz Ii - Admira Wacker | live
-- 2026-08-15 18:30 | Sekhukhune Uni - Polokwane City | live
-- 2026-08-15 18:30 | B.Dortmund - Roma | live
-- 2026-08-15 18:30 | Jong Almere Ci - Rijnsburgse Boy | live
-- 2026-08-15 18:30 | Diala - Al Talaba | live
-- 2026-08-15 18:30 | Zakho - Gaz Al-Shamal | live
-- 2026-08-15 18:30 | Lugano Ii - Luzern Ii | live
-- 2026-08-15 18:30 | Nyiregyhaza - Kisvarda | live
-- 2026-08-15 18:30 | Diosgyor - Ajka | live
+- 2026-08-15 19:15 | Kortrijk - Antwerp | live
+- 2026-08-15 19:15 | Caernarfon - Colwyn Bay | live
+- 2026-08-15 19:15 | Al Taawon - Al Khaleej | live
+- 2026-08-15 19:30 | Avusturya Wien - Austria Salzbur | live
+- 2026-08-15 19:30 | Kapfenberg - Wacker Innsbruc | live
+- 2026-08-15 19:30 | Voitsberg - Bregenz | live
+- 2026-08-15 19:30 | Istra - Slaven Belupo | live
+- 2026-08-15 19:30 | Sheffield Utd - Birmingham | live
+- 2026-08-15 19:30 | Sanat Naft - Malavan Fc | live
+- 2026-08-15 19:30 | Udinese - Padova | live
