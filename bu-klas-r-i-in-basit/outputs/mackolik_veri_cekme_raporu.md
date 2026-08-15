@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T11:40:50.768914+00:00
+Tarih: 2026-08-15T12:03:32.341292+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 416
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 414
+- Kac mac bulundu: 412
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 412
 - Ham veri havuzu toplam mac sayisi: 7028
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
@@ -72,7 +72,6 @@ Tarih: 2026-08-15T11:40:50.768914+00:00
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
-- Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
 - Norveç 3.Lig Grup 4
