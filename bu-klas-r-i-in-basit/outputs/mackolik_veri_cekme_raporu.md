@@ -1,22 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T12:22:01.207805+00:00
+Tarih: 2026-08-15T12:59:15.608205+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 464
+- Kac mac bulundu: 375
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 464
+- Kac mac zaten vardi: 375
 - Ham veri havuzu toplam mac sayisi: 7028
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
@@ -26,7 +23,6 @@ Tarih: 2026-08-15T12:22:01.207805+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
 - Avusturya 1.Lig
 - Avusturya Bundesliga
@@ -41,10 +37,8 @@ Tarih: 2026-08-15T12:22:01.207805+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
-- Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -58,12 +52,9 @@ Tarih: 2026-08-15T12:22:01.207805+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Kanada Premier Lig
 - Kazakistan Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -74,9 +65,7 @@ Tarih: 2026-08-15T12:22:01.207805+00:00
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 3.Lig Grup 2
@@ -128,15 +117,12 @@ Tarih: 2026-08-15T12:22:01.207805+00:00
 - İspanya LaLiga
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Norrland Yükselme Grubu
-- İsveç 2.Lig Södra Götaland
 - İsveç Allsvenskan
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 

@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 15:33:16
+Oluşturma: 15.08.2026 16:03:09
 
 ## Özet
 
-- Toplam tahmin: 326
-- Bekleyen tahmin: 326
+- Toplam tahmin: 328
+- Bekleyen tahmin: 328
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 96
@@ -20,12 +20,14 @@ Oluşturma: 15.08.2026 15:33:16
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 89, bekleyen 89, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 90, bekleyen 90, başarı bekleniyor, ağırlık 1
 - MS X: toplam 219, bekleyen 219, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | İngiltere Ulusal Lig N / S Güney | Walton And Her - Maidstone Unite | MS 1 | pending | 50/100
+- 2026-08-15 | Portekiz 2.Lig | Leiria - Benfica (B) | MS 2 | pending | 50/100
 - 2026-08-15 | Litvanya 1.Lig | Fk Dainava - Bfa | MS 2 | pending | 50/100
 - 2026-08-15 | Slovenya 2.SNL | Bistrica - Ilirija | MS X | pending | 50/100
 - 2026-08-15 | İngiltere Ulusal Lig N / S Güney | Chelmsford - Truro City | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 15.08.2026 15:33:16
 - 2026-08-15 | Guatemala Ulusal Lig Apertura | Coban Imperial - Mixco | MS 2 | pending | 50/100
 - 2026-08-15 | İspanya 2.Lig | Mallorca - Valladolid | MS 2 | pending | 60/100
 - 2026-08-15 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | MS 2 | pending | 40/100
-- 2026-08-15 | Peru Premier Lig Clausura | Chankas Cyc - Melgar | MS X | pending | 50/100
-- 2026-08-15 | Gürcistan Erovnuli Liga | Torpedo Kutais - Fc Iberia | MS X | pending | 40/100
 
