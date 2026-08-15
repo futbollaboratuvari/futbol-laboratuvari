@@ -1,19 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T05:09:31.652739+00:00
+Tarih: 2026-08-15T05:21:16.186313+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 491
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Durum: success
+- Kac mac bulundu: 569
+- Kac mac kaydedildi: 4
+- Kac mac zaten vardi: 565
+- Ham veri havuzu toplam mac sayisi: 7013
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
@@ -26,6 +29,7 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
+- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
@@ -44,6 +48,7 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
@@ -59,12 +64,15 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Japonya J1 Lig
 - Japonya J2 Lig
 - Japonya J3 Lig
+- Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -75,7 +83,9 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -105,6 +115,7 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
+- Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
@@ -140,6 +151,7 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -204,8 +216,7 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
@@ -215,23 +226,23 @@ Tarih: 2026-08-15T05:09:31.652739+00:00
 | 15.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Fenerbahçe | 42006 | 5 |
 | 15.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Alanyaspor | 41948 | 5 |
 | 15.08.2026 | 19:00 | Türkiye Süper Lig | Kasimpaşa | Trabzonspor | 12464 | 5 |
-| 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
+| 15.08.2026 | 19:00 | Türkiye TFF 1. Lig | Fatih Karagümr | Ümraniyespor | 13893 | 5 |
+| 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Van Spor Fk | 13950 | 5 |
+| 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bursaspor | Iğdır Fk | 00493 | 5 |
+| 15.08.2026 | 19:00 | Türkiye TFF 1. Lig | İstanbulspor | Bodrum Fk | 02931 | 5 |
 | 15.08.2026 | 20:30 | İspanya LaLiga | Alaves | Getafe | 25622 | 5 |
-| 15.08.2026 | 19:45 | Hollanda Eredivisie | Utrecht | Az Alkmaar | 27112 | 5 |
-| 15.08.2026 | 21:00 | Hollanda Eredivisie | Excelsior | Psv Eindhoven | 28159 | 5 |
-| 15.08.2026 | 17:30 | Hollanda Eredivisie | Willem | Nijmegen | 24422 | 5 |
+| 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
 | 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
-| 15.08.2026 | 20:00 | Portekiz Premier Lig | Academico Vise | Santa Clara | 27170 | 5 |
+| 15.08.2026 | 17:30 | Hollanda Eredivisie | Willem | Nijmegen | 24422 | 5 |
+| 15.08.2026 | 21:00 | Hollanda Eredivisie | Excelsior | Psv Eindhoven | 28159 | 5 |
+| 15.08.2026 | 19:45 | Hollanda Eredivisie | Utrecht | Az Alkmaar | 27112 | 5 |
 | 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
 | 15.08.2026 | 17:30 | Portekiz Premier Lig | Alverca | Estrela | 24244 | 5 |
-| 15.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Taawon | Al Khaleej | 26583 | 5 |
-| 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Al Fateh | 28067 | 4 |
+| 15.08.2026 | 20:00 | Portekiz Premier Lig | Academico Vise | Santa Clara | 27170 | 5 |
 | 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Kholood | 28020 | 5 |
-| 15.08.2026 | 19:15 | Belçika Pro Lig | Kortrijk | Antwerp | 26709 | 5 |
-| 15.08.2026 | 21:45 | Belçika Pro Lig | Genk | Westerlo | 28490 | 5 |
-| 15.08.2026 | 17:00 | Belçika Pro Lig | Union St.G | Zulte Waregem | 23818 | 5 |
-| 15.08.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Club Brugge | 28581 | 5 |
+| 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Al Fateh | 28067 | 4 |
+| 15.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Taawon | Al Khaleej | 26583 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

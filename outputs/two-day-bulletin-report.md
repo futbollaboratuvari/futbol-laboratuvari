@@ -1,14 +1,13 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-15 / 2026-08-16
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 583
-Aktif mac: 559
-Canli mac: 9
-Biten mac: 15
-Bultenden dusurulen mac: 24
-Bugun: 485
+Kaynak: fixtures.json
+Ham mac: 586
+Aktif mac: 563
+Canli mac: 7
+Biten mac: 16
+Bultenden dusurulen mac: 23
+Bugun: 489
 Yarin: 74
 
 ## Baslamamis Maclar
@@ -409,6 +408,8 @@ Yarin: 74
 - 2026-08-15 19:00 | İsveç 2.Lig Norra Svealand | Fc Gute - Bollstanas | scheduled | -
 - 2026-08-15 19:00 | Hollanda Tweede Divisie | De Treffers - Gvvv | scheduled | -
 - 2026-08-15 19:00 | İzlanda 2.Lig | Throttur Vogar - Dalvik | scheduled | -
+- 2026-08-15 19:00 | Türkiye TFF 1. Lig | Fatih Karagümr - Ümraniyespor | scheduled | -
+- 2026-08-15 19:00 | Türkiye TFF 1. Lig | İstanbulspor - Bodrum Fk | scheduled | -
 - 2026-08-15 19:15 | Suudi Arabistan Pro Lig | Al Taawon - Al Khaleej | scheduled | -
 - 2026-08-15 19:15 | Belçika Pro Lig | Kortrijk - Antwerp | scheduled | -
 - 2026-08-15 19:15 | Galler Premier Lig 1.Aşama | Caernarfon - Colwyn Bay | scheduled | -
@@ -473,6 +474,8 @@ Yarin: 74
 - 2026-08-15 21:30 | Almanya 2. Bundesliga | Kaiserslautern - Karlsruhe | scheduled | -
 - 2026-08-15 21:30 | Romanya 1.Lig | Rapid Bükreş - Dinamo Bükreş | scheduled | -
 - 2026-08-15 21:30 | Slovakya Süper Lig | Podbrezova - Trencin | scheduled | -
+- 2026-08-15 21:30 | Türkiye TFF 1. Lig | Manisa Futbol - Van Spor Fk | scheduled | -
+- 2026-08-15 21:30 | Türkiye TFF 1. Lig | Bursaspor - Iğdır Fk | scheduled | -
 - 2026-08-15 21:45 | Belçika Pro Lig | Genk - Westerlo | scheduled | -
 - 2026-08-15 21:45 | Belçika Pro Lig | Oh Leuven - Club Brugge | scheduled | -
 - 2026-08-15 21:45 | İtalya Kupa 1.Tur | Unione V. - Modena | scheduled | -
@@ -582,6 +585,12 @@ Yarin: 74
 - 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | live | -
 - 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | live | -
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | live | -
+- 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | live | -
+- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | live | -
+- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Cooma Tigers | live | -
+- 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | live | -
+- 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | live | -
+- 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | live | -
 
 ## Biten Maclar
 - 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
@@ -599,3 +608,4 @@ Yarin: 74
 - 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | finished | -
 - 2026-08-15 04:00 | El Salvador Primera Lig Apertura | Municipal Lime - Inter Fa | finished | -
 - 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | finished | -
+- 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | finished | -
