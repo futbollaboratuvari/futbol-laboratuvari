@@ -1,20 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T12:59:15.608205+00:00
+Tarih: 2026-08-15T13:39:57.751051+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 375
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 375
-- Ham veri havuzu toplam mac sayisi: 7028
+- Kac mac bulundu: 335
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 334
+- Ham veri havuzu toplam mac sayisi: 7029
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Yarı Final
 - Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Kuzey
@@ -37,7 +36,6 @@ Tarih: 2026-08-15T12:59:15.608205+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
-- Danimarka 3.Lig
 - Ekvador Pro Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
@@ -62,20 +60,15 @@ Tarih: 2026-08-15T12:59:15.608205+00:00
 - Macaristan NB I
 - Macaristan NB II
 - Macaristan NB III Güneybatı
+- Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
 - Moldova Ulusal Lig
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 5
-- Norveç 3.Lig Grup 6
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
-- Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz 2.Lig
@@ -117,7 +110,6 @@ Tarih: 2026-08-15T12:59:15.608205+00:00
 - İspanya LaLiga
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
-- İsveç Allsvenskan
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
 - İtalya Kupa 1.Tur
