@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 17:05:24
+Oluşturma: 15.08.2026 17:45:07
 
 ## Özet
 
-- Toplam tahmin: 334
-- Bekleyen tahmin: 334
+- Toplam tahmin: 337
+- Bekleyen tahmin: 337
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 96
@@ -20,12 +20,15 @@ Oluşturma: 15.08.2026 17:05:24
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 221, bekleyen 221, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 94, bekleyen 94, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 19, bekleyen 19, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 95, bekleyen 95, başarı bekleniyor, ağırlık 1
+- MS X: toplam 222, bekleyen 222, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Finlandiya Ykkösliiga | Kotka - Kapa | MS 2 | pending | 40/100
+- 2026-08-15 | İsveç Superettan | Falkenberg - Norrby | MS X | pending | 50/100
+- 2026-08-15 | İsveç Superettan | Sandvikens - Norrkoping | MS 1 | pending | 50/100
 - 2026-08-15 | Gürcistan Erovnuli Liga | Dinamo Tiflis - Fc Rustavi | MS X | pending | 40/100
 - 2026-08-15 | İskoçya Lig Kupası 2.Tur | Aberdeen - Dundee | MS 2 | pending | 50/100
 - 2026-08-15 | İskoçya 1.Lig | Hamilton - Airdrieonians | MS 2 | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 15.08.2026 17:05:24
 - 2026-08-15 | Slovenya 2.SNL | Bistrica - Ilirija | MS X | pending | 50/100
 - 2026-08-15 | İngiltere Ulusal Lig N / S Güney | Chelmsford - Truro City | MS 2 | pending | 50/100
 - 2026-08-15 | Türkiye TFF 1. Lig | Bursaspor - Iğdır Fk | MS 2 | pending | 60/100
-- 2026-08-15 | Belçika Pro Lig | Genk - Westerlo | MS 2 | pending | 40/100
-- 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS 1 | pending | 40/100
-- 2026-08-15 | İtalya Kupa 1.Tur | Unione V. - Modena | MS 2 | pending | 75/100
 

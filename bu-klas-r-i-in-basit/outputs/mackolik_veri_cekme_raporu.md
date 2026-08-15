@@ -1,23 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T14:05:15.075122+00:00
+Tarih: 2026-08-15T14:44:56.937586+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 301
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 299
+- Kac mac bulundu: 194
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 194
 - Ham veri havuzu toplam mac sayisi: 7031
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Almanya 2. Bundesliga
-- Almanya 3. Lig
 - Almanya Bölgesel Lig Kuzey
-- Almanya Bölgesel Lig Kuzey Doğu
 - Almanya Kadınlar Süper Kupa
 - Almanya U19 Bundesliga Grup A
 - Arjantin Premier Lig 2. Aşama
@@ -36,7 +34,6 @@ Tarih: 2026-08-15T14:05:15.075122+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Bulgaristan 1.Lig
-- Danimarka 1.Lig
 - Ekvador Pro Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
@@ -46,14 +43,12 @@ Tarih: 2026-08-15T14:05:15.075122+00:00
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
-- Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Tweede Divisie
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kazakistan Premier Lig
 - Kuzey İrlanda Championship
-- Kuzey İrlanda Premiership
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB I
@@ -64,8 +59,6 @@ Tarih: 2026-08-15T14:05:15.075122+00:00
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
 - Moldova Ulusal Lig
-- Norveç 2.Lig Grup 1
-- Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
 - Polonya Ekstraklasa
@@ -90,19 +83,9 @@ Tarih: 2026-08-15T14:05:15.075122+00:00
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - Çek Cumhuriyeti FNL
-- İngiltere 1.Lig
-- İngiltere 2.Lig
 - İngiltere Championship
-- İngiltere Non League Premier Güney
-- İngiltere Non League Premier Güney Merkez
-- İngiltere Non League Premier Kuzey
-- İngiltere Ulusal Lig
-- İngiltere Ulusal Lig N / S Güney
-- İngiltere Ulusal Lig N / S Kuzey
 - İran Persian Gulf Pro Lig
 - İrlanda FAI Kupası 3.Tur
-- İskoçya 1.Lig
-- İskoçya 2.Lig
 - İskoçya Lig Kupası 2.Tur
 - İspanya 2.Lig
 - İspanya LaLiga
@@ -188,22 +171,22 @@ Tarih: 2026-08-15T14:05:15.075122+00:00
 | 15.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Fenerbahçe | 42006 | 5 |
 | 15.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Alanyaspor | 41948 | 5 |
 | 15.08.2026 | 19:00 | Türkiye Süper Lig | Kasimpaşa | Trabzonspor | 12464 | 5 |
-| 15.08.2026 | 19:00 | Türkiye TFF 1. Lig | Fatih Karagümr | Ümraniyespor | 13893 | 5 |
-| 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Van Spor Fk | 13950 | 5 |
 | 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bursaspor | Iğdır Fk | 00493 | 5 |
 | 15.08.2026 | 19:00 | Türkiye TFF 1. Lig | İstanbulspor | Bodrum Fk | 02931 | 5 |
-| 15.08.2026 | 20:30 | İspanya LaLiga | Alaves | Getafe | 25622 | 5 |
+| 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Van Spor Fk | 13950 | 5 |
+| 15.08.2026 | 19:00 | Türkiye TFF 1. Lig | Fatih Karagümr | Ümraniyespor | 13893 | 5 |
 | 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
-| 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
-| 15.08.2026 | 17:30 | Hollanda Eredivisie | Willem | Nijmegen | 24422 | 5 |
-| 15.08.2026 | 21:00 | Hollanda Eredivisie | Excelsior | Psv Eindhoven | 28159 | 5 |
+| 15.08.2026 | 20:30 | İspanya LaLiga | Alaves | Getafe | 25622 | 5 |
 | 15.08.2026 | 19:45 | Hollanda Eredivisie | Utrecht | Az Alkmaar | 27112 | 5 |
-| 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
-| 15.08.2026 | 17:30 | Portekiz Premier Lig | Alverca | Estrela | 24244 | 5 |
+| 15.08.2026 | 21:00 | Hollanda Eredivisie | Excelsior | Psv Eindhoven | 28159 | 5 |
+| 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
 | 15.08.2026 | 20:00 | Portekiz Premier Lig | Academico Vise | Santa Clara | 27170 | 5 |
+| 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
+| 15.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Taawon | Al Khaleej | 26583 | 5 |
 | 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Kholood | 28020 | 5 |
 | 15.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Nassr (Riya | Al Fateh | 28067 | 4 |
-| 15.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Taawon | Al Khaleej | 26583 | 5 |
+| 15.08.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Club Brugge | 28581 | 5 |
+| 15.08.2026 | 21:45 | Belçika Pro Lig | Genk | Westerlo | 28490 | 5 |
 
 ## Sonuc
 
