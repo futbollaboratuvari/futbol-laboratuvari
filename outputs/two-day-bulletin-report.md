@@ -3,19 +3,14 @@
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
 Ham mac: 253
-Aktif mac: 154
-Canli mac: 99
+Aktif mac: 149
+Canli mac: 104
 Biten mac: 0
-Bultenden dusurulen mac: 99
-Bugun: 79
+Bultenden dusurulen mac: 104
+Bugun: 74
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-15 19:45 | Hollanda Eredivisie | Utrecht - Az Alkmaar | scheduled | -
-- 2026-08-15 19:45 | Azerbaycan Premier Lig | Sabah - Kapaz | scheduled | -
-- 2026-08-15 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wasl - Dubai United | scheduled | -
-- 2026-08-15 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Khorfakkan Clu - Al Ahli Dubai | scheduled | -
-- 2026-08-15 19:45 | İskoçya Lig Kupası 2.Tur | Dundee Utd - Celtic | scheduled | -
 - 2026-08-15 20:00 | Portekiz Premier Lig | Academico Vise - Santa Clara | scheduled | -
 - 2026-08-15 20:00 | İspanya 2.Lig | Oviedo - Granada | scheduled | -
 - 2026-08-15 20:00 | İspanya 2.Lig | Cadiz - Celta Vigo Ii | scheduled | -
@@ -266,6 +261,11 @@ Yarin: 75
 - 2026-08-15 19:30 | Avusturya 1.Lig | Avusturya Wien - Austria Salzbur | live | -
 - 2026-08-15 19:30 | Portekiz 3.Lig Grup A | Pacos Ferreira - Paredes | live | -
 - 2026-08-15 19:30 | Portekiz 3.Lig Grup A | Vianense - Trofense | live | -
+- 2026-08-15 19:45 | Hollanda Eredivisie | Utrecht - Az Alkmaar | live | -
+- 2026-08-15 19:45 | Azerbaycan Premier Lig | Sabah - Kapaz | live | -
+- 2026-08-15 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wasl - Dubai United | live | -
+- 2026-08-15 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Khorfakkan Clu - Al Ahli Dubai | live | -
+- 2026-08-15 19:45 | İskoçya Lig Kupası 2.Tur | Dundee Utd - Celtic | live | -
 
 ## Biten Maclar
 Biten mac yok.

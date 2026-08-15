@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 189
-- Live match count: 224
-- Finished removed count: 2
+- Scheduled match count: 149
+- Live match count: 97
+- Finished removed count: 7
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
-- 2026-08-15 16:30 | Cardiff Dracon - Pontypridd Town | live
-- 2026-08-15 16:30 | Llantwit Major - Baglan Dragons | live
-- 2026-08-15 16:30 | Pontardawe - Newport City | live
-- 2026-08-15 16:30 | Swansea Univer - Llanelli Town | live
-- 2026-08-15 16:30 | Ynyshir Albion - Aberystwyth Tow | live
-- 2026-08-15 16:30 | Buckley Town - Porthmadog | live
-- 2026-08-15 16:30 | Mold Alexandra - Holyhead | live
-- 2026-08-15 16:30 | Newtown - Guilsfield Fc | live
-- 2026-08-15 16:30 | Y Rhyl - Caersws | live
-- 2026-08-15 16:30 | M Gladbach - Aston Villa | live
+- 2026-08-15 17:45 | Ac Milan - Man. Utd | live
+- 2026-08-15 17:45 | Man. Utd - Ac Milan | live
+- 2026-08-15 18:00 | Avusturya Lust - Wolfsberger | live
+- 2026-08-15 18:00 | Energetik-Bgu - Lida | live
+- 2026-08-15 18:00 | Neman Grodno - Minsk | live
+- 2026-08-15 18:00 | Pardubice - Mlada Boleslav | live
+- 2026-08-15 18:00 | Slovacko - Sigma Olomouc | live
+- 2026-08-15 18:00 | Sparta Prag - Teplice | live
+- 2026-08-15 18:00 | Pribram - Prostejov | live
+- 2026-08-15 18:00 | Pk-35 Ry - Klubi 04 | live
