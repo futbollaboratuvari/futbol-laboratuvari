@@ -3,19 +3,14 @@
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
 Ham mac: 574
-Aktif mac: 569
-Canli mac: 5
+Aktif mac: 564
+Canli mac: 10
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 495
+Bultenden dusurulen mac: 10
+Bugun: 490
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Banfield | scheduled | -
-- 2026-08-15 02:30 | Arjantin Ulusal Primera Lig | Rafaela - D Belgrano | scheduled | -
-- 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | scheduled | -
-- 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | scheduled | -
-- 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | scheduled | -
 - 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | scheduled | -
 - 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | scheduled | -
 - 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | scheduled | -
@@ -587,6 +582,11 @@ Yarin: 74
 - 2026-08-15 01:30 | Brezilya Serie B | Ponte Preta - Nautico | live | -
 - 2026-08-15 02:00 | Peru Premier Lig Clausura | Cusco Fc - Juan Pablo Ii C | live | -
 - 2026-08-15 02:00 | Şili Premier Lig | Univ De Concep - La Serena | live | -
+- 2026-08-15 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Banfield | live | -
+- 2026-08-15 02:30 | Arjantin Ulusal Primera Lig | Rafaela - D Belgrano | live | -
+- 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | live | -
+- 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | live | -
+- 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | live | -
 
 ## Biten Maclar
 Biten mac yok.
