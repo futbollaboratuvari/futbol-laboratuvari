@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 149
-- Live match count: 97
-- Finished removed count: 7
+- Scheduled match count: 134
+- Live match count: 86
+- Finished removed count: 26
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
-- 2026-08-15 17:45 | Ac Milan - Man. Utd | live
-- 2026-08-15 17:45 | Man. Utd - Ac Milan | live
-- 2026-08-15 18:00 | Avusturya Lust - Wolfsberger | live
-- 2026-08-15 18:00 | Energetik-Bgu - Lida | live
-- 2026-08-15 18:00 | Neman Grodno - Minsk | live
-- 2026-08-15 18:00 | Pardubice - Mlada Boleslav | live
-- 2026-08-15 18:00 | Slovacko - Sigma Olomouc | live
-- 2026-08-15 18:00 | Sparta Prag - Teplice | live
-- 2026-08-15 18:00 | Pribram - Prostejov | live
-- 2026-08-15 18:00 | Pk-35 Ry - Klubi 04 | live
+- 2026-08-15 18:30 | Floridsdorfer - Amstetten | live
+- 2026-08-15 18:30 | Strum Graz Ii - Admira Wacker | live
+- 2026-08-15 18:30 | Sekhukhune Uni - Polokwane City | live
+- 2026-08-15 18:30 | B.Dortmund - Roma | live
+- 2026-08-15 18:30 | Jong Almere Ci - Rijnsburgse Boy | live
+- 2026-08-15 18:30 | Diala - Al Talaba | live
+- 2026-08-15 18:30 | Zakho - Gaz Al-Shamal | live
+- 2026-08-15 18:30 | Lugano Ii - Luzern Ii | live
+- 2026-08-15 18:30 | Nyiregyhaza - Kisvarda | live
+- 2026-08-15 18:30 | Diosgyor - Ajka | live

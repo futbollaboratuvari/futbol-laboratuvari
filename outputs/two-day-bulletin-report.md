@@ -2,30 +2,15 @@
 
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
-Ham mac: 253
-Aktif mac: 149
-Canli mac: 104
+Ham mac: 244
+Aktif mac: 134
+Canli mac: 110
 Biten mac: 0
-Bultenden dusurulen mac: 104
-Bugun: 74
+Bultenden dusurulen mac: 110
+Bugun: 59
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-15 20:00 | Portekiz Premier Lig | Academico Vise - Santa Clara | scheduled | -
-- 2026-08-15 20:00 | İspanya 2.Lig | Oviedo - Granada | scheduled | -
-- 2026-08-15 20:00 | İspanya 2.Lig | Cadiz - Celta Vigo Ii | scheduled | -
-- 2026-08-15 20:00 | Sırbistan Süper Lig | Radnik Surduli - Macva | scheduled | -
-- 2026-08-15 20:00 | Portekiz 2.Lig | Torreense - Penafiel | scheduled | -
-- 2026-08-15 20:00 | Finlandiya Ykkösliiga | Kotka - Kapa | scheduled | -
-- 2026-08-15 20:00 | Hazırlık Kulüpler | Toulouse - Hamburg | scheduled | -
-- 2026-08-15 20:00 | Belarus Premier Lig | Bate Borisov - Vitebsk | scheduled | -
-- 2026-08-15 20:00 | Gürcistan Erovnuli Liga | Torpedo Kutais - Fc Iberia | scheduled | -
-- 2026-08-15 20:00 | Moldova Ulusal Lig | Dacia-Buiucani - Petrocub | scheduled | -
-- 2026-08-15 20:00 | Slovenya 2.SNL | Nd Primorje - Jadran Dekani | scheduled | -
-- 2026-08-15 20:00 | Slovenya 2.SNL | Brezice - Dren Vrhnika | scheduled | -
-- 2026-08-15 20:00 | Polonya 2.Lig | Resovia Rzeszo - Gks Tychy | scheduled | -
-- 2026-08-15 20:00 | İzlanda Urvalsdeild | Thor Akureyri - Keflavik | scheduled | -
-- 2026-08-15 20:00 | Almanya Bölgesel Lig Kuzey | Phönix Lübeck - Lübeck | scheduled | -
 - 2026-08-15 20:30 | İspanya LaLiga | Alaves - Getafe | scheduled | -
 - 2026-08-15 20:30 | Avusturya Bundesliga | Sturm Graz - Altach | scheduled | -
 - 2026-08-15 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Tigre | scheduled | -
@@ -162,15 +147,6 @@ Yarin: 75
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 17:30 | Hollanda Eredivisie | Willem - Nijmegen | live | -
-- 2026-08-15 17:30 | Portekiz Premier Lig | Alverca - Estrela | live | -
-- 2026-08-15 17:30 | Hollanda Eerste Divisie | Volendam - Oss | live | -
-- 2026-08-15 17:30 | Portekiz 2.Lig | Sporting Cp (B - Chaves | live | -
-- 2026-08-15 17:30 | Azerbaycan Premier Lig | Araz - İmişli Fk | live | -
-- 2026-08-15 17:30 | Almanya 3. Lig | Verl 1924 - Duisburg | live | -
-- 2026-08-15 17:30 | Macaristan NB I | Ujpest - Mtk | live | -
-- 2026-08-15 17:45 | Hazırlık Kulüpler | Ac Milan - Man. Utd | live | -
-- 2026-08-15 17:45 | Hazırlık Kulüpler | Man. Utd - Ac Milan | live | -
 - 2026-08-15 18:00 | İspanya 2.Lig | Fc Andorra - Ceuta | live | -
 - 2026-08-15 18:00 | Avusturya Bundesliga | Avusturya Lust - Wolfsberger | live | -
 - 2026-08-15 18:00 | Çek Cumhuriyeti Czech Liga | Sparta Prag - Teplice | live | -
@@ -266,6 +242,21 @@ Yarin: 75
 - 2026-08-15 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wasl - Dubai United | live | -
 - 2026-08-15 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Khorfakkan Clu - Al Ahli Dubai | live | -
 - 2026-08-15 19:45 | İskoçya Lig Kupası 2.Tur | Dundee Utd - Celtic | live | -
+- 2026-08-15 20:00 | Portekiz Premier Lig | Academico Vise - Santa Clara | live | -
+- 2026-08-15 20:00 | İspanya 2.Lig | Oviedo - Granada | live | -
+- 2026-08-15 20:00 | İspanya 2.Lig | Cadiz - Celta Vigo Ii | live | -
+- 2026-08-15 20:00 | Sırbistan Süper Lig | Radnik Surduli - Macva | live | -
+- 2026-08-15 20:00 | Portekiz 2.Lig | Torreense - Penafiel | live | -
+- 2026-08-15 20:00 | Finlandiya Ykkösliiga | Kotka - Kapa | live | -
+- 2026-08-15 20:00 | Hazırlık Kulüpler | Toulouse - Hamburg | live | -
+- 2026-08-15 20:00 | Belarus Premier Lig | Bate Borisov - Vitebsk | live | -
+- 2026-08-15 20:00 | Gürcistan Erovnuli Liga | Torpedo Kutais - Fc Iberia | live | -
+- 2026-08-15 20:00 | Moldova Ulusal Lig | Dacia-Buiucani - Petrocub | live | -
+- 2026-08-15 20:00 | Slovenya 2.SNL | Nd Primorje - Jadran Dekani | live | -
+- 2026-08-15 20:00 | Slovenya 2.SNL | Brezice - Dren Vrhnika | live | -
+- 2026-08-15 20:00 | Polonya 2.Lig | Resovia Rzeszo - Gks Tychy | live | -
+- 2026-08-15 20:00 | İzlanda Urvalsdeild | Thor Akureyri - Keflavik | live | -
+- 2026-08-15 20:00 | Almanya Bölgesel Lig Kuzey | Phönix Lübeck - Lübeck | live | -
 
 ## Biten Maclar
 Biten mac yok.
