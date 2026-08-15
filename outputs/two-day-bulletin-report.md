@@ -1,27 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-15 / 2026-08-16
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 592
-Aktif mac: 548
-Canli mac: 13
+Aktif mac: 537
+Canli mac: 24
 Biten mac: 31
-Bultenden dusurulen mac: 44
-Bugun: 474
+Bultenden dusurulen mac: 55
+Bugun: 463
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 12:30 | Japonya J1 Lig | Shimizu - Yokohama Marino | scheduled | -
-- 2026-08-15 12:30 | Hazırlık Kulüpler | Atletico Torde - Guijuelo | scheduled | -
-- 2026-08-15 12:30 | Hazırlık Kulüpler | Cultural Leone - Salamanca | scheduled | -
-- 2026-08-15 12:30 | Japonya J2 Lig | Fujieda - Iwaki | scheduled | -
-- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | West Torrens - Adelaide United | scheduled | -
-- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | Ne Metrostars - Croydon Kings | scheduled | -
-- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | West Adelaide - Playford City P | scheduled | -
-- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Campbelltown Ci | scheduled | -
-- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | White City Woo - Adelaide City | scheduled | -
-- 2026-08-15 12:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Melbourne Srbij | scheduled | -
-- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | Para Hills Kni - Adelaide Comets | scheduled | -
 - 2026-08-15 12:55 | Japonya J1 Lig | Fagiano Okayam - V-Varen Nagasak | scheduled | -
 - 2026-08-15 13:00 | Ukrayna Premier Lig | Kryvbas Kr - Livyi Bereh | scheduled | -
 - 2026-08-15 13:00 | Japonya J1 Lig | Kawasaki - Kyoto Sanga | scheduled | -
@@ -561,6 +551,17 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
+- 2026-08-15 12:30 | Japonya J1 Lig | Shimizu - Yokohama Marino | live | -
+- 2026-08-15 12:30 | Hazırlık Kulüpler | Atletico Torde - Guijuelo | live | -
+- 2026-08-15 12:30 | Hazırlık Kulüpler | Cultural Leone - Salamanca | live | -
+- 2026-08-15 12:30 | Japonya J2 Lig | Fujieda - Iwaki | live | -
+- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | West Torrens - Adelaide United | live | -
+- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | Ne Metrostars - Croydon Kings | live | -
+- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | West Adelaide - Playford City P | live | -
+- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | Sturt Lions - Campbelltown Ci | live | -
+- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | White City Woo - Adelaide City | live | -
+- 2026-08-15 12:30 | Avustralya Victoria NPL 1 | Moreland Zebra - Melbourne Srbij | live | -
+- 2026-08-15 12:30 | Avustralya NPL Güney Avustralya | Para Hills Kni - Adelaide Comets | live | -
 - 2026-08-15 10:15 | Avustralya Victoria NPL 1 | Brunswick City - North Geelong | live | -
 - 2026-08-15 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Canberra | live | -
 - 2026-08-15 11:00 | Avustralya NPL Victoria | Caroline S. - Avondale Height | live | -
