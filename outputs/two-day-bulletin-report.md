@@ -3,15 +3,14 @@
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
 Ham mac: 606
-Aktif mac: 76
-Canli mac: 33
-Biten mac: 497
-Bultenden dusurulen mac: 530
-Bugun: 1
+Aktif mac: 75
+Canli mac: 31
+Biten mac: 500
+Bultenden dusurulen mac: 531
+Bugun: 0
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-15 23:30 | Peru Premier Lig Clausura | Chankas Cyc - Melgar | scheduled | -
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | scheduled | -
 - 2026-08-16 00:00 | Kanada Premier Lig | Cavalry - Forge | scheduled | -
 - 2026-08-16 00:00 | Honduras Ulusal Lig Apertura | Genesis Pn - Platense | scheduled | -
@@ -89,9 +88,6 @@ Yarin: 75
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 21:15 | Polonya Ekstraklasa | Widzew Lodz - Korona Kielce | live | -
-- 2026-08-15 21:15 | Bulgaristan 1.Lig | Ludogorets - Botev Plovdiv | live | -
-- 2026-08-15 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Maribor | live | -
 - 2026-08-15 21:30 | Türkiye Süper Lig | Gençlerbirliği - Fenerbahçe | live | -
 - 2026-08-15 21:30 | Türkiye Süper Lig | Gaziantep Fk - Alanyaspor | live | -
 - 2026-08-15 21:30 | Almanya 2. Bundesliga | Kaiserslautern - Karlsruhe | live | -
@@ -122,6 +118,7 @@ Yarin: 75
 - 2026-08-15 22:30 | Uruguay Premier Lig Clausura | Racing Montevi - Nacional Df | live | -
 - 2026-08-15 22:45 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp - Gimnasia La Pla | live | -
 - 2026-08-15 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | live | -
+- 2026-08-15 23:30 | Peru Premier Lig Clausura | Chankas Cyc - Melgar | live | -
 
 ## Biten Maclar
 - 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
@@ -621,3 +618,6 @@ Yarin: 75
 - 2026-08-15 21:00 | Irak Premier Lig | Al Zawraa - Al Minaa Basra | finished | -
 - 2026-08-15 21:00 | Irak Premier Lig | Al Karma - Al Mosul | finished | -
 - 2026-08-15 21:00 | Tanzanya Kuu Bara Ligi | Namungo - Young Africans | finished | -
+- 2026-08-15 21:15 | Polonya Ekstraklasa | Widzew Lodz - Korona Kielce | finished | -
+- 2026-08-15 21:15 | Bulgaristan 1.Lig | Ludogorets - Botev Plovdiv | finished | -
+- 2026-08-15 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Maribor | finished | -

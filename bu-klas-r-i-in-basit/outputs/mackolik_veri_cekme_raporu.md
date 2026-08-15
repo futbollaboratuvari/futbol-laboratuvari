@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T20:12:16.462373+00:00
+Tarih: 2026-08-15T20:37:26.321619+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 81
+- Kac mac bulundu: 80
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 81
+- Kac mac zaten vardi: 80
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
@@ -96,8 +96,8 @@ Tarih: 2026-08-15T20:12:16.462373+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 30
-- Acilan detay: 30
+- Denenen Tumu alani: 29
+- Acilan detay: 29
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -111,7 +111,6 @@ Tarih: 2026-08-15T20:12:16.462373+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 16.08.2026 | 04:30 | ABD MLS | Salt Lake | Minnesota Utd | 30986 | 5 |
-| 16.08.2026 | 03:30 | ABD MLS | Houston | Los Angeles | 30452 | 5 |
 | 16.08.2026 | 02:30 | ABD MLS | Orlando City | Cincinnati | 30302 | 5 |
 | 16.08.2026 | 02:30 | ABD MLS | Atlanta Utd | New York | 30112 | 5 |
 | 16.08.2026 | 05:30 | ABD MLS | San Jose | St. Louis City | 31218 | 5 |
@@ -121,15 +120,16 @@ Tarih: 2026-08-15T20:12:16.462373+00:00
 | 16.08.2026 | 05:30 | ABD MLS | Los Angeles Fc | San Diego | 31160 | 5 |
 | 16.08.2026 | 02:30 | ABD MLS | Toronto | New England | 30393 | 5 |
 | 16.08.2026 | 02:30 | ABD MLS | Montreal | Dc United | 30245 | 5 |
+| 16.08.2026 | 03:30 | ABD MLS | Houston | Los Angeles | 30452 | 5 |
 | 16.08.2026 | 00:30 | Brezilya Serie A | Atletico Pr | Bragantino | 29692 | 5 |
 | 16.08.2026 | 03:00 | Brezilya Serie A | Sao Paulo | Coritiba | 30511 | 5 |
 | 16.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Platense | Boca Juniors | 30624 | 5 |
 | 16.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano | Rivadavia | 29767 | 5 |
 | 16.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo | Riestra | 29847 | 5 |
-| 16.08.2026 | 04:10 | Meksika Liga MX Apertura | Monterrey | Fc Juarez | 30851 | 5 |
 | 16.08.2026 | 02:00 | Meksika Liga MX Apertura | Atlante | Toluca | 29921 | 5 |
+| 16.08.2026 | 04:10 | Meksika Liga MX Apertura | Monterrey | Fc Juarez | 30851 | 5 |
 | 16.08.2026 | 06:10 | Meksika Liga MX Apertura | Atlas | Tigres Uanl | 31310 | 5 |
-| 15.08.2026 | 23:30 | Peru Premier Lig Clausura | Chankas Cyc | Melgar | 29541 | 5 |
+| 16.08.2026 | 03:30 | Peru Premier Lig Clausura | Alianza Lima | Univ De Cajamar | 30730 | 5 |
 
 ## Sonuc
 
