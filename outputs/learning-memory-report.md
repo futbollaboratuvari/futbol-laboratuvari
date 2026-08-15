@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 03:34:10
+Oluşturma: 15.08.2026 04:39:34
 
 ## Özet
 
-- Toplam tahmin: 340
-- Bekleyen tahmin: 340
+- Toplam tahmin: 341
+- Bekleyen tahmin: 341
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 103
@@ -20,12 +20,13 @@ Oluşturma: 15.08.2026 03:34:10
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 95, bekleyen 95, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 96, bekleyen 96, başarı bekleniyor, ağırlık 1
 - MS X: toplam 225, bekleyen 225, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | İsveç Superettan | Ljungskile - Oster | MS 2 | pending | 60/100
 - 2026-08-15 | Polonya Ekstraklasa | Widzew Lodz - Korona Kielce | MS 2 | pending | 40/100
 - 2026-08-15 | Bulgaristan 1.Lig | Ludogorets - Botev Plovdiv | MS 2 | pending | 60/100
 - 2026-08-15 | Slovenya 1.SNL | Olimpija Ljubl - Maribor | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 15.08.2026 03:34:10
 - 2026-08-15 | Sırbistan Süper Lig | Cukaricki - Ofk Beograd | MS X | pending | 50/100
 - 2026-08-15 | Hırvatistan 1.HNL | Osijek - Lokomotiva | MS 2 | pending | 50/100
 - 2026-08-15 | Guatemala Ulusal Lig Apertura | Coban Imperial - Mixco | MS 2 | pending | 50/100
-- 2026-08-15 | Portekiz Premier Lig | Academico Vise - Santa Clara | MS X | pending | 40/100
 
