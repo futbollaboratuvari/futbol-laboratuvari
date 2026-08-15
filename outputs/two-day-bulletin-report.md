@@ -3,15 +3,14 @@
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
 Ham mac: 578
-Aktif mac: 563
-Canli mac: 5
-Biten mac: 10
-Bultenden dusurulen mac: 15
-Bugun: 489
+Aktif mac: 562
+Canli mac: 2
+Biten mac: 14
+Bultenden dusurulen mac: 16
+Bugun: 488
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | scheduled | -
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | scheduled | -
 - 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | scheduled | -
 - 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | scheduled | -
@@ -576,11 +575,8 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | live | -
-- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | live | -
-- 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | live | -
-- 2026-08-15 04:00 | El Salvador Primera Lig Apertura | Municipal Lime - Inter Fa | live | -
 - 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | live | -
+- 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | live | -
 
 ## Biten Maclar
 - 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
@@ -593,3 +589,7 @@ Yarin: 74
 - 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | finished | -
 - 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | finished | -
 - 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | finished | -
+- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | finished | -
+- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | finished | -
+- 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | finished | -
+- 2026-08-15 04:00 | El Salvador Primera Lig Apertura | Municipal Lime - Inter Fa | finished | -
