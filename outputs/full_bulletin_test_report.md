@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 446
-- Live match count: 79
-- Finished removed count: 42
+- Scheduled match count: 444
+- Live match count: 81
+- Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
 - 2026-08-15 13:30 | Fc Seoul - Daejeon Citizen | live

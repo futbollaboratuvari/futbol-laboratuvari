@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 15:15:27
+Oluşturma: 15.08.2026 15:33:16
 
 ## Özet
 
-- Toplam tahmin: 323
-- Bekleyen tahmin: 323
+- Toplam tahmin: 326
+- Bekleyen tahmin: 326
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 96
@@ -20,12 +20,15 @@ Oluşturma: 15.08.2026 15:15:27
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 87, bekleyen 87, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 89, bekleyen 89, başarı bekleniyor, ağırlık 1
+- MS X: toplam 219, bekleyen 219, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
-- MS X: toplam 218, bekleyen 218, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Litvanya 1.Lig | Fk Dainava - Bfa | MS 2 | pending | 50/100
+- 2026-08-15 | Slovenya 2.SNL | Bistrica - Ilirija | MS X | pending | 50/100
+- 2026-08-15 | İngiltere Ulusal Lig N / S Güney | Chelmsford - Truro City | MS 2 | pending | 50/100
 - 2026-08-15 | Türkiye TFF 1. Lig | Bursaspor - Iğdır Fk | MS 2 | pending | 60/100
 - 2026-08-15 | Belçika Pro Lig | Genk - Westerlo | MS 2 | pending | 40/100
 - 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS 1 | pending | 40/100
@@ -38,7 +41,4 @@ Oluşturma: 15.08.2026 15:15:27
 - 2026-08-15 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | MS 2 | pending | 40/100
 - 2026-08-15 | Peru Premier Lig Clausura | Chankas Cyc - Melgar | MS X | pending | 50/100
 - 2026-08-15 | Gürcistan Erovnuli Liga | Torpedo Kutais - Fc Iberia | MS X | pending | 40/100
-- 2026-08-15 | Slovenya 2.SNL | Nd Primorje - Jadran Dekani | MS X | pending | 50/100
-- 2026-08-15 | Slovenya 2.SNL | Brezice - Dren Vrhnika | MS X | pending | 50/100
-- 2026-08-15 | Polonya 2.Lig | Resovia Rzeszo - Gks Tychy | MS X | pending | 50/100
 
