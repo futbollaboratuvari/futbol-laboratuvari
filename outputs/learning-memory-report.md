@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 11:54:51
+Oluşturma: 15.08.2026 12:31:29
 
 ## Özet
 
-- Toplam tahmin: 345
-- Bekleyen tahmin: 345
+- Toplam tahmin: 347
+- Bekleyen tahmin: 347
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 100
@@ -20,13 +20,15 @@ Oluşturma: 15.08.2026 11:54:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 229, bekleyen 229, başarı bekleniyor, ağırlık 1
+- MS X: toplam 231, bekleyen 231, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 97, bekleyen 97, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Rusya FNL | Chelyabinsk - Torpedo Moskova | MS X | pending | 40/100
+- 2026-08-15 | Japonya J1 Lig | Vissel Kobe - Fc Tokyo | MS X | pending | 40/100
 - 2026-08-15 | Japonya J3 Lig | Gira Kitakyush - Kamatamare Sanu | MS X | pending | 40/100
 - 2026-08-15 | Japonya J3 Lig | Roasso Kumamot - Tochigi Sc | MS 2 | pending | 40/100
 - 2026-08-15 | İngiltere 2.Lig | York - Bristol Rovers | MS 2 | pending | 40/100
@@ -40,6 +42,4 @@ Oluşturma: 15.08.2026 11:54:51
 - 2026-08-15 | İngiltere Championship | Sheffield Utd - Birmingham | MS X | pending | 40/100
 - 2026-08-15 | Hırvatistan 1.HNL | Istra - Slaven Belupo | MS 2 | pending | 50/100
 - 2026-08-15 | Avusturya 1.Lig | Kapfenberg - Wacker Innsbruc | MS X | pending | 50/100
-- 2026-08-15 | Avusturya 1.Lig | Voitsberg - Bregenz | MS 2 | pending | 60/100
-- 2026-08-15 | Avusturya 1.Lig | Avusturya Wien - Austria Salzbur | MS X | pending | 50/100
 

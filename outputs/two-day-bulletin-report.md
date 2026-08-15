@@ -3,24 +3,14 @@
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
 Ham mac: 592
-Aktif mac: 558
-Canli mac: 10
-Biten mac: 24
-Bultenden dusurulen mac: 34
-Bugun: 484
+Aktif mac: 548
+Canli mac: 13
+Biten mac: 31
+Bultenden dusurulen mac: 44
+Bugun: 474
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 12:00 | Japonya J1 Lig | Kashima - Nagoya | scheduled | -
-- 2026-08-15 12:00 | Japonya J1 Lig | Mito Hollyhock - Gamba Osaka | scheduled | -
-- 2026-08-15 12:00 | Rusya FNL | Yenisey - Kamaz | scheduled | -
-- 2026-08-15 12:00 | Hazırlık Kulüpler | G.Segoviana - Unionistas De S | scheduled | -
-- 2026-08-15 12:00 | Japonya J2 Lig | Tochigi City - Vanraure | scheduled | -
-- 2026-08-15 12:00 | Japonya J2 Lig | Blaublitz Akit - Kataller Toyama | scheduled | -
-- 2026-08-15 12:00 | Macaristan NB III Kuzeybatı | Veszprem - Mosonmagyarovar | scheduled | -
-- 2026-08-15 12:00 | Macaristan NB III Güneybatı | Paksi Fc Ii - Kse Ivancsa | scheduled | -
-- 2026-08-15 12:00 | Japonya J3 Lig | Fc Gifu - Kochi United | scheduled | -
-- 2026-08-15 12:00 | Japonya J3 Lig | Gira Kitakyush - Kamatamare Sanu | scheduled | -
 - 2026-08-15 12:30 | Japonya J1 Lig | Shimizu - Yokohama Marino | scheduled | -
 - 2026-08-15 12:30 | Hazırlık Kulüpler | Atletico Torde - Guijuelo | scheduled | -
 - 2026-08-15 12:30 | Hazırlık Kulüpler | Cultural Leone - Salamanca | scheduled | -
@@ -571,16 +561,19 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Nws Spirit | live | -
-- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney United | live | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Fremantle City | live | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth - Perth Redstar F | live | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Sorrento | live | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Balcatta | live | -
-- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Armadale - Dianella White | live | -
 - 2026-08-15 10:15 | Avustralya Victoria NPL 1 | Brunswick City - North Geelong | live | -
 - 2026-08-15 10:45 | Avustralya NPL Başkent Bölgesi | Monaro Panther - Canberra | live | -
 - 2026-08-15 11:00 | Avustralya NPL Victoria | Caroline S. - Avondale Height | live | -
+- 2026-08-15 12:00 | Japonya J1 Lig | Kashima - Nagoya | live | -
+- 2026-08-15 12:00 | Japonya J1 Lig | Mito Hollyhock - Gamba Osaka | live | -
+- 2026-08-15 12:00 | Rusya FNL | Yenisey - Kamaz | live | -
+- 2026-08-15 12:00 | Hazırlık Kulüpler | G.Segoviana - Unionistas De S | live | -
+- 2026-08-15 12:00 | Japonya J2 Lig | Tochigi City - Vanraure | live | -
+- 2026-08-15 12:00 | Japonya J2 Lig | Blaublitz Akit - Kataller Toyama | live | -
+- 2026-08-15 12:00 | Macaristan NB III Kuzeybatı | Veszprem - Mosonmagyarovar | live | -
+- 2026-08-15 12:00 | Macaristan NB III Güneybatı | Paksi Fc Ii - Kse Ivancsa | live | -
+- 2026-08-15 12:00 | Japonya J3 Lig | Fc Gifu - Kochi United | live | -
+- 2026-08-15 12:00 | Japonya J3 Lig | Gira Kitakyush - Kamatamare Sanu | live | -
 
 ## Biten Maclar
 - 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
@@ -607,3 +600,10 @@ Yarin: 74
 - 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | finished | -
 - 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | finished | -
 - 2026-08-15 09:00 | Avustralya NPL Yeni Güney Galler | Apia - Sd Raiders | finished | -
+- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Nws Spirit | finished | -
+- 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney United | finished | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Fremantle City | finished | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth - Perth Redstar F | finished | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Sorrento | finished | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Western Knight - Balcatta | finished | -
+- 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Armadale - Dianella White | finished | -
