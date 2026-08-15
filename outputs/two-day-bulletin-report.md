@@ -2,32 +2,15 @@
 
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
-Ham mac: 517
-Aktif mac: 411
-Canli mac: 106
+Ham mac: 492
+Aktif mac: 395
+Canli mac: 97
 Biten mac: 0
-Bultenden dusurulen mac: 106
-Bugun: 337
+Bultenden dusurulen mac: 97
+Bugun: 321
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 16:15 | Rusya Premier Lig | Cska Moskova - Fakel Voronezh | scheduled | -
-- 2026-08-15 16:15 | Hollanda Tweede Divisie | Afc Amsterdams - Vv Kloetinge | scheduled | -
-- 2026-08-15 16:30 | Hazırlık Kulüpler | Union Berlin - Ipswich | scheduled | -
-- 2026-08-15 16:30 | Hazırlık Kulüpler | M Gladbach - Aston Villa | scheduled | -
-- 2026-08-15 16:30 | Hazırlık Kulüpler | Mainz - Bournemouth | scheduled | -
-- 2026-08-15 16:30 | Polonya 1.Lig | Chrobry Glogow - P. Bielsko | scheduled | -
-- 2026-08-15 16:30 | Polonya 1.Lig | Pogon Siedlce - Polonia Varşova | scheduled | -
-- 2026-08-15 16:30 | Polonya 1.Lig | Odra Opole - Warta Poznan | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Mold Alexandra - Holyhead | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Newtown - Guilsfield Fc | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Buckley Town - Porthmadog | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Güney | Ynyshir Albion - Aberystwyth Tow | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Güney | Llantwit Major - Baglan Dragons | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Güney | Swansea Univer - Llanelli Town | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Güney | Cardiff Dracon - Pontypridd Town | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Güney | Pontardawe - Newport City | scheduled | -
-- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Y Rhyl 1879 - Caersws | scheduled | -
 - 2026-08-15 17:00 | Belçika Pro Lig | Union St.G - Zulte Waregem | scheduled | -
 - 2026-08-15 17:00 | İngiltere Championship | Bristol City - Millwall | scheduled | -
 - 2026-08-15 17:00 | İngiltere Championship | Middlesbrough - Lincoln | scheduled | -
@@ -171,6 +154,7 @@ Yarin: 74
 - 2026-08-15 17:00 | Kuzey İrlanda Championship | Institute Fc - Loughgall Fc | scheduled | -
 - 2026-08-15 17:00 | Belarus 1.Lig | Slutsk - Osipovichy | scheduled | -
 - 2026-08-15 17:00 | Belarus 1.Lig | Uni Minsk - Orsha | scheduled | -
+- 2026-08-15 17:00 | Macaristan NB III Güneydoğu | Szegedi Vse - Bss Monor | scheduled | -
 - 2026-08-15 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Dhafra - Al Sharjah | scheduled | -
 - 2026-08-15 17:30 | Hollanda Eredivisie | Willem - Nijmegen | scheduled | -
 - 2026-08-15 17:30 | Portekiz Premier Lig | Alverca - Estrela | scheduled | -
@@ -424,32 +408,6 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 14:00 | Almanya 2. Bundesliga | Hertha Berlin - Heidenheim | live | -
-- 2026-08-15 14:00 | Almanya 2. Bundesliga | Osnabruck - Magdeburg | live | -
-- 2026-08-15 14:00 | Almanya 2. Bundesliga | Greuther Furth - Nürnberg | live | -
-- 2026-08-15 14:00 | Rusya Premier Lig | Fk Rodina Mosk - Akron | live | -
-- 2026-08-15 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Tiere - Shenzhen Peng | live | -
-- 2026-08-15 14:00 | İsveç Superettan | Ljungskile - Oster | live | -
-- 2026-08-15 14:00 | Norveç 2.Lig Grup 1 | Notodden - Brattvag Il | live | -
-- 2026-08-15 14:00 | Danimarka 1.Lig | Hillerod - Aarhus Fremad | live | -
-- 2026-08-15 14:00 | Çin Halk Cumhuriyeti 1.Lig | Wuxi Wugou - Guangzhou E-Pow | live | -
-- 2026-08-15 14:00 | Norveç 3.Lig Grup 1 | Ullern - Fk Union Carl B | live | -
-- 2026-08-15 14:00 | Norveç 3.Lig Grup 1 | Heming - Asker | live | -
-- 2026-08-15 14:00 | Norveç 3.Lig Grup 1 | Sf Grei - Baerum | live | -
-- 2026-08-15 14:00 | Norveç 3.Lig Grup 2 | Byasen - Volda | live | -
-- 2026-08-15 14:00 | Danimarka 3.Lig | Holbæk - Sundby | live | -
-- 2026-08-15 14:00 | Danimarka 3.Lig | Ringsted - Holstebro | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Norra Svealand | Angby - Kungsangen | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Norra Svealand | Lidingö - Viggbyholms Ik | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Vastra Götaland | Torslanda Ik - Dalstorps If | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Vastra Götaland | Jonsereds If - Onsala | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Södra Götaland | Lilla Torg - Karlskrona | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Södra Svealand | Karlslunds If - Haninge | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Södra Svealand | Smedby Ais - Eker Örebro | live | -
-- 2026-08-15 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Gottne | live | -
-- 2026-08-15 14:00 | Norveç 3.Lig Grup 1 | Frigg - Lokomotiv Oslo | live | -
-- 2026-08-15 14:00 | Almanya U19 Bundesliga Grup A | Hamburger Sv U - Werder Bremen U | live | -
-- 2026-08-15 14:15 | Norveç 3.Lig Grup 3 | Austevoll - Vard Haugesund | live | -
 - 2026-08-15 14:30 | İngiltere Championship | Bolton - Prest | live | -
 - 2026-08-15 14:30 | İngiltere 1.Lig | Notts County - Leicester | live | -
 - 2026-08-15 14:30 | İngiltere 1.Lig | Reading - Luton | live | -
@@ -530,6 +488,23 @@ Yarin: 74
 - 2026-08-15 16:00 | Norveç 3.Lig Grup 6 | Rade - Drobak/Frogn | live | -
 - 2026-08-15 16:00 | Norveç 3.Lig Grup 6 | Brumunddal - Raelingen | live | -
 - 2026-08-15 16:00 | Belarus 1.Lig | Soligorsk - Niva Dolbizno | live | -
+- 2026-08-15 16:15 | Rusya Premier Lig | Cska Moskova - Fakel Voronezh | live | -
+- 2026-08-15 16:15 | Hollanda Tweede Divisie | Afc Amsterdams - Vv Kloetinge | live | -
+- 2026-08-15 16:30 | Hazırlık Kulüpler | Union Berlin - Ipswich | live | -
+- 2026-08-15 16:30 | Hazırlık Kulüpler | M Gladbach - Aston Villa | live | -
+- 2026-08-15 16:30 | Hazırlık Kulüpler | Mainz - Bournemouth | live | -
+- 2026-08-15 16:30 | Polonya 1.Lig | Chrobry Glogow - P. Bielsko | live | -
+- 2026-08-15 16:30 | Polonya 1.Lig | Pogon Siedlce - Polonia Varşova | live | -
+- 2026-08-15 16:30 | Polonya 1.Lig | Odra Opole - Warta Poznan | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Mold Alexandra - Holyhead | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Newtown - Guilsfield Fc | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Buckley Town - Porthmadog | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Güney | Ynyshir Albion - Aberystwyth Tow | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Güney | Llantwit Major - Baglan Dragons | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Güney | Swansea Univer - Llanelli Town | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Güney | Cardiff Dracon - Pontypridd Town | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Güney | Pontardawe - Newport City | live | -
+- 2026-08-15 16:30 | Galler FAW Championship Kuzey | Y Rhyl 1879 - Caersws | live | -
 
 ## Biten Maclar
 Biten mac yok.
