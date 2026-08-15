@@ -1,32 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T19:11:03.505347+00:00
+Tarih: 2026-08-15T19:38:33.684150+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 16
+- Kac mac bulundu: 10
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 16
+- Kac mac zaten vardi: 10
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Victoria
-- Brezilya Serie A
 - Peru Premier Lig Clausura
-- Portekiz Premier Lig
 - Tanzanya Kuu Bara Ligi
-- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- İspanya 2.Lig
 - İspanya LaLiga
-- İtalya Kupa 1.Tur
 - İzlanda 2.Lig
 
 ## Okunabilen Oran Alanlari
@@ -84,8 +78,8 @@ Tarih: 2026-08-15T19:11:03.505347+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 39
-- Acilan detay: 39
+- Denenen Tumu alani: 33
+- Acilan detay: 33
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -99,17 +93,11 @@ Tarih: 2026-08-15T19:11:03.505347+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
-| 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
-| 15.08.2026 | 22:30 | İspanya 2.Lig | Mallorca | Valladolid | 25750 | 5 |
-| 15.08.2026 | 22:15 | İtalya Kupa 1.Tur | Torino | Carrarese | 28626 | 5 |
-| 15.08.2026 | 22:30 | Brezilya Serie A | Fluminense | Palmeiras | 29201 | 5 |
 | 15.08.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Gimnasia La Pla | 29439 | 5 |
 | 15.08.2026 | 23:30 | Peru Premier Lig Clausura | Chankas Cyc | Melgar | 29541 | 5 |
 | 15.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc | Academia Anzoat | 41521 | 5 |
-| 15.08.2026 | 22:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe | Patronato | 29173 | 3 |
-| 15.08.2026 | 22:30 | Uruguay Premier Lig Clausura | Racing Montevi | Nacional Df | 29321 | 5 |
-| 15.08.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh | Canberra White | 16443 | 3 |
 | 15.08.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl | Cooma Tigers | 02333 | 3 |
+| 15.08.2026 | 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh | Canberra White | 16443 | 3 |
 | 15.08.2026 | 08:00 | Avustralya NPL Victoria | Melbourne City | South Melbourne | 16426 | 3 |
 | 15.08.2026 | 08:00 | Avustralya NPL Victoria | Heidelberg Uni | Hume City | 16409 | 5 |
 | 15.08.2026 | 17:00 | İzlanda 2.Lig | Kfg Gardabar | Kfa | 06051 | 3 |
