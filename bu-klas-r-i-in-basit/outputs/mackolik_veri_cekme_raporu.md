@@ -1,30 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T17:19:44.395408+00:00
+Tarih: 2026-08-15T17:39:12.950768+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 141
+- Kac mac bulundu: 61
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 141
+- Kac mac zaten vardi: 61
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Almanya 2. Bundesliga
-- Almanya Kadınlar Süper Kupa
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
-- Avusturya Bundesliga
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
@@ -32,22 +26,16 @@ Tarih: 2026-08-15T17:19:44.395408+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
 - Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya Ekstraklasa
 - Portekiz Premier Lig
@@ -68,7 +56,6 @@ Tarih: 2026-08-15T17:19:44.395408+00:00
 - İspanya LaLiga
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -125,8 +112,8 @@ Tarih: 2026-08-15T17:19:44.395408+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 69
-- Acilan detay: 69
+- Denenen Tumu alani: 67
+- Acilan detay: 67
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -139,11 +126,10 @@ Tarih: 2026-08-15T17:19:44.395408+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 15.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Alanyaspor | 41948 | 5 |
 | 15.08.2026 | 21:30 | Türkiye Süper Lig | Gençlerbirliği | Fenerbahçe | 42006 | 5 |
+| 15.08.2026 | 21:30 | Türkiye Süper Lig | Gaziantep Fk | Alanyaspor | 41948 | 5 |
 | 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bursaspor | Iğdır Fk | 00493 | 5 |
 | 15.08.2026 | 21:30 | Türkiye TFF 1. Lig | Manisa Futbol | Van Spor Fk | 13950 | 5 |
-| 15.08.2026 | 20:30 | İspanya LaLiga | Alaves | Getafe | 25622 | 5 |
 | 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
 | 15.08.2026 | 21:00 | Hollanda Eredivisie | Excelsior | Psv Eindhoven | 28159 | 5 |
 | 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
@@ -156,9 +142,10 @@ Tarih: 2026-08-15T17:19:44.395408+00:00
 | 15.08.2026 | 21:30 | Almanya 2. Bundesliga | Kaiserslautern | Karlsruhe | 27245 | 5 |
 | 15.08.2026 | 22:15 | İtalya Kupa 1.Tur | Torino | Carrarese | 28626 | 5 |
 | 15.08.2026 | 21:45 | İtalya Kupa 1.Tur | Unione V. | Modena | 28521 | 5 |
-| 15.08.2026 | 20:30 | Avusturya Bundesliga | Sturm Graz | Altach | 27802 | 5 |
 | 15.08.2026 | 21:15 | Polonya Ekstraklasa | Widzew Lodz | Korona Kielce | 28334 | 5 |
 | 15.08.2026 | 20:45 | Rusya Premier Lig | Krasnodar | Akhmat Grozny | 27914 | 5 |
+| 15.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Viktoria Plzen | Zlin | 28251 | 5 |
+| 15.08.2026 | 22:00 | Sırbistan Süper Lig | Cukaricki | Ofk Beograd | 28851 | 5 |
 
 ## Sonuc
 
