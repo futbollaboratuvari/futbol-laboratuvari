@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-15T04:01:04.349Z
+- Güncelleme: 2026-08-15T04:31:51.264Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -142,9 +142,9 @@
 | Stenungsund VS Ifk Kumla | İsveç 2.Lig Norra Götaland | 15:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Skelleftea VS Ifk Lulea | İsveç 2.Lig Norrland Yükselme Grubu | 15:00 | MS X | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kubikenborgs I VS Taftea | İsveç 2.Lig Norrland Yükselme Grubu | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Djerv VS Fyllingsdalen | Norveç 3.Lig Grup 3 | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Ulfstind VS Skjetten | Norveç 3.Lig Grup 5 | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Oppsal VS Elverum | Norveç 3.Lig Grup 6 | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Djerv VS Fyllingsdalen | Norveç 3.Lig Grup 3 | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Ulfstind VS Skjetten | Norveç 3.Lig Grup 5 | 15:00 | MS X | 4.27 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Oppsal VS Elverum | Norveç 3.Lig Grup 6 | 15:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gomel VS Naftan | Belarus Premier Lig | 15:10 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Kudrivka VS Obolon-Brovar | Ukrayna Premier Lig | 15:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Hoek Hsv VS Koninklijke Hfc | Hollanda Tweede Divisie | 15:30 | MS 2 | 4.37 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
@@ -175,8 +175,8 @@
 | Jong Sparta VS Rohda Raalte | Hollanda Tweede Divisie | 16:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Kozakken Boys VS Ijsselmeervogel | Hollanda Tweede Divisie | 16:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sv Spakenburg VS Katwijk | Hollanda Tweede Divisie | 16:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Orkla VS Spjelkavik | Norveç 3.Lig Grup 2 | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Flekkeroy VS Brodd | Norveç 3.Lig Grup 4 | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Orkla VS Spjelkavik | Norveç 3.Lig Grup 2 | 16:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Flekkeroy VS Brodd | Norveç 3.Lig Grup 4 | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Cska Moskova VS Fakel Voronezh | Rusya Premier Lig | 16:15 | MS 2 | 6.50 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Afc Amsterdams VS Vv Kloetinge | Hollanda Tweede Divisie | 16:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Union Berlin VS Ipswich | Hazırlık Kulüpler | 16:30 | MS X | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -297,7 +297,7 @@
 | Szombathelyi I VS Kiraly Sze | Macaristan NB III Kuzeybatı | 17:00 | MS X | 3.38 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Selfoss VS Fjolnir | İzlanda 2.Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Magni VS Kormakur | İzlanda 2.Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Kfg Gardabar VS Kfa | İzlanda 2.Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Kfg Gardabar VS Kfa | İzlanda 2.Lig | 17:00 | MS X | 4.15 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Kari VS Vikingur Ol. | İzlanda 2.Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Whitby Town VS Ilkeston Town | İngiltere Non League Premier Kuzey | 17:00 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Workington VS Guiseley | İngiltere Non League Premier Kuzey | 17:00 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -333,7 +333,7 @@
 | Dunfermline VS Ross County | İskoçya Lig Kupası 2.Tur | 17:00 | MS X | 2.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Aberdeen VS Dundee | İskoçya Lig Kupası 2.Tur | 17:00 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Newington Yc VS Queens Universi | Kuzey İrlanda Championship | 17:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Institute Fc VS Loughgall Fc | Kuzey İrlanda Championship | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Institute Fc VS Loughgall Fc | Kuzey İrlanda Championship | 17:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Dhafra VS Al Sharjah | Birleşik Arap Emirlikleri Arap Körfez Ligi | 17:10 | MS 1 | 3.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Willem VS Nijmegen | Hollanda Eredivisie | 17:30 | MS 1 | 4.21 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Alverca VS Estrela | Portekiz Premier Lig | 17:30 | MS 2 | 3.01 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
