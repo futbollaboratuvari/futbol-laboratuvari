@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 05:07:17
+Oluşturma: 15.08.2026 05:46:21
 
 ## Özet
 
-- Toplam tahmin: 343
-- Bekleyen tahmin: 343
+- Toplam tahmin: 345
+- Bekleyen tahmin: 345
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 105
@@ -20,12 +20,14 @@ Oluşturma: 15.08.2026 05:07:17
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 227, bekleyen 227, başarı bekleniyor, ağırlık 1
+- MS X: toplam 229, bekleyen 229, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 96, bekleyen 96, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS X | pending | 40/100
+- 2026-08-15 | Portekiz 3.Lig Grup B | Louletano - Cf Os Belenense | MS X | pending | 40/100
 - 2026-08-15 | Kuzey İrlanda Championship | Newington Yc - Queens Universi | MS X | pending | 50/100
 - 2026-08-15 | İsveç 2.Lig Norrland Yükselme Grubu | Skelleftea - Ifk Lulea | MS X | pending | 50/100
 - 2026-08-15 | İsveç Superettan | Ljungskile - Oster | MS 2 | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 15.08.2026 05:07:17
 - 2026-08-15 | Belçika Pro Lig | Genk - Westerlo | MS 2 | pending | 80/100
 - 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS 1 | pending | 40/100
 - 2026-08-15 | İtalya Kupa 1.Tur | Unione V. - Modena | MS 2 | pending | 75/100
-- 2026-08-15 | Hollanda Eredivisie | Fortuna Sittar - Cambuur | MS 2 | pending | 60/100
-- 2026-08-15 | Sırbistan Süper Lig | Cukaricki - Ofk Beograd | MS X | pending | 50/100
 

@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
-Ham mac: 567
-Aktif mac: 560
-Canli mac: 7
-Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 486
+Ham mac: 578
+Aktif mac: 563
+Canli mac: 5
+Biten mac: 10
+Bultenden dusurulen mac: 15
+Bugun: 489
 Yarin: 74
 
 ## Baslamamis Maclar
@@ -141,6 +141,9 @@ Yarin: 74
 - 2026-08-15 15:00 | İsveç 2.Lig Norra Götaland | Stenungsund - Ifk Kumla | scheduled | -
 - 2026-08-15 15:00 | İsveç 2.Lig Norrland Yükselme Grubu | Skelleftea - Ifk Lulea | scheduled | -
 - 2026-08-15 15:00 | İsveç 2.Lig Norrland Yükselme Grubu | Kubikenborgs I - Taftea | scheduled | -
+- 2026-08-15 15:00 | Norveç 3.Lig Grup 3 | Djerv - Fyllingsdalen | scheduled | -
+- 2026-08-15 15:00 | Norveç 3.Lig Grup 5 | Ulfstind - Skjetten | scheduled | -
+- 2026-08-15 15:00 | Norveç 3.Lig Grup 6 | Oppsal - Elverum | scheduled | -
 - 2026-08-15 15:10 | Belarus Premier Lig | Gomel - Naftan | scheduled | -
 - 2026-08-15 15:30 | Ukrayna Premier Lig | Kudrivka - Obolon-Brovar | scheduled | -
 - 2026-08-15 15:30 | Hollanda Tweede Divisie | Hoek Hsv - Koninklijke Hfc | scheduled | -
@@ -573,8 +576,6 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | live | -
-- 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | live | -
 - 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | live | -
 - 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | live | -
 - 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | live | -
@@ -582,4 +583,13 @@ Yarin: 74
 - 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
+- 2026-08-15 01:30 | Brezilya Serie B | Sao Bernardo - Botafogo Ribeir | finished | -
+- 2026-08-15 01:30 | Brezilya Serie B | Ponte Preta - Nautico | finished | -
+- 2026-08-15 02:00 | Peru Premier Lig Clausura | Cusco Fc - Juan Pablo Ii C | finished | -
+- 2026-08-15 02:00 | Şili Premier Lig | Univ De Concep - La Serena | finished | -
+- 2026-08-15 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Banfield | finished | -
+- 2026-08-15 02:30 | Arjantin Ulusal Primera Lig | Rafaela - D Belgrano | finished | -
+- 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | finished | -
+- 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | finished | -
+- 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | finished | -
