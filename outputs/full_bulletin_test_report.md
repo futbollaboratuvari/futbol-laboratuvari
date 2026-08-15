@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 537
-- Live match count: 0
+- Scheduled match count: 512
+- Live match count: 50
 - Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
-- 2026-08-15 12:55 | Fagiano Okayam - V-Varen Nagasak | scheduled
-- 2026-08-15 13:00 | Yanbian Longdi - Dalian Huayi | scheduled
-- 2026-08-15 13:00 | Avispa Fukuoka - Cerezo Osaka | scheduled
-- 2026-08-15 13:00 | Jef Utd Chiba - Machida Zelvia | scheduled
-- 2026-08-15 13:00 | Kawasaki - Kyoto Sanga | scheduled
-- 2026-08-15 13:00 | Urawa - Hiroshima | scheduled
-- 2026-08-15 13:00 | Vissel Kobe - Fc Tokyo | scheduled
-- 2026-08-15 13:00 | Fc Imabari - Omiya | scheduled
-- 2026-08-15 13:00 | Kofu - Tegevajaro Miya | scheduled
-- 2026-08-15 13:00 | Niigata - Sapporo | scheduled
+- 2026-08-15 12:00 | G.Segoviana - Unionistas De S | live
+- 2026-08-15 12:00 | Kashima - Nagoya | live
+- 2026-08-15 12:00 | Mito Hollyhock - Gamba Osaka | live
+- 2026-08-15 12:00 | Blaublitz Akit - Kataller Toyama | live
+- 2026-08-15 12:00 | Tochigi City - Vanraure | live
+- 2026-08-15 12:00 | Fc Gifu - Kochi United | live
+- 2026-08-15 12:00 | Gira Kitakyush - Kamatamare Sanu | live
+- 2026-08-15 12:00 | Paksi Fc Ii - Kse Ivancsa | live
+- 2026-08-15 12:00 | Veszprem - Mosonmagyarovar | live
+- 2026-08-15 12:00 | Yenisey - Kamaz | live
