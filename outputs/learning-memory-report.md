@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 06:27:31
+Oluşturma: 15.08.2026 06:57:08
 
 ## Özet
 
-- Toplam tahmin: 346
-- Bekleyen tahmin: 346
+- Toplam tahmin: 347
+- Bekleyen tahmin: 347
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 105
@@ -20,12 +20,13 @@ Oluşturma: 15.08.2026 06:27:31
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 230, bekleyen 230, başarı bekleniyor, ağırlık 1
+- MS X: toplam 231, bekleyen 231, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 96, bekleyen 96, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | İngiltere Ulusal Lig N / S Güney | Horsham - Salisbury | MS X | pending | 50/100
 - 2026-08-15 | Hazırlık Kulüpler | G.Segoviana - Unionistas De S | MS X | pending | 50/100
 - 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS X | pending | 40/100
 - 2026-08-15 | Portekiz 3.Lig Grup B | Louletano - Cf Os Belenense | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 15.08.2026 06:27:31
 - 2026-08-15 | Romanya 1.Lig | Rapid Bükreş - Dinamo Bükreş | MS X | pending | 40/100
 - 2026-08-15 | Slovakya Süper Lig | Podbrezova - Trencin | MS 2 | pending | 70/100
 - 2026-08-15 | Belçika Pro Lig | Genk - Westerlo | MS 2 | pending | 80/100
-- 2026-08-15 | Belçika Pro Lig | Oh Leuven - Club Brugge | MS 1 | pending | 40/100
 
