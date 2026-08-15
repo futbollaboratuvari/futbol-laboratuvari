@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 564
+- Scheduled match count: 565
 - Live match count: 2
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
 - 2026-08-15 06:00 | Ca La Paz - Piratas | live
