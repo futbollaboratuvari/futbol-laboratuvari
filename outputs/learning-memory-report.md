@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 10:09:17
+Oluşturma: 15.08.2026 10:43:46
 
 ## Özet
 
-- Toplam tahmin: 339
-- Bekleyen tahmin: 339
+- Toplam tahmin: 341
+- Bekleyen tahmin: 341
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 100
@@ -20,13 +20,15 @@ Oluşturma: 15.08.2026 10:09:17
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 94, bekleyen 94, başarı bekleniyor, ağırlık 1
-- MS X: toplam 226, bekleyen 226, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 95, bekleyen 95, başarı bekleniyor, ağırlık 1
+- MS X: toplam 227, bekleyen 227, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 - KG Var: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Macaristan NB III Kuzeybatı | Szombathelyi I - Kiraly Sze | MS 2 | pending | 50/100
+- 2026-08-15 | Macaristan NB III Kuzeybatı | Veszprem - Mosonmagyarovar | MS X | pending | 50/100
 - 2026-08-15 | Guatemala Ulusal Lig Apertura | Coban Imperial - Mixco | MS 2 | pending | 50/100
 - 2026-08-15 | İspanya 2.Lig | Mallorca - Valladolid | MS 2 | pending | 60/100
 - 2026-08-15 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Anzoat | MS 2 | pending | 40/100
@@ -40,6 +42,4 @@ Oluşturma: 15.08.2026 10:09:17
 - 2026-08-15 | Hollanda Eredivisie | Utrecht - Az Alkmaar | MS X | pending | 50/100
 - 2026-08-15 | Portekiz Premier Lig | Academico Vise - Santa Clara | MS X | pending | 40/100
 - 2026-08-15 | İspanya 2.Lig | Oviedo - Granada | MS 2 | pending | 40/100
-- 2026-08-15 | İspanya 2.Lig | Cadiz - Celta Vigo Ii | MS 2 | pending | 50/100
-- 2026-08-15 | Sırbistan Süper Lig | Radnik Surduli - Macva | MS 2 | pending | 60/100
 

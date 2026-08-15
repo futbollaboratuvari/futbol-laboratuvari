@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T07:05:06.244877+00:00
+Tarih: 2026-08-15T07:43:35.198742+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 499
-- Kac mac kaydedildi: 6
-- Kac mac zaten vardi: 493
+- Kac mac bulundu: 491
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 491
 - Ham veri havuzu toplam mac sayisi: 7019
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
@@ -24,11 +24,9 @@ Tarih: 2026-08-15T07:05:06.244877+00:00
 - Almanya U19 Bundesliga Grup A
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya
 - Avustralya NPL Victoria
-- Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
