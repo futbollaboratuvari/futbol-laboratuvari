@@ -1,6 +1,7 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
+<<<<<<< Updated upstream
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
@@ -78,3 +79,53 @@
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+=======
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-08-15T21:37:43.267Z
+- Ham maç sayısı: 49
+- Yarın bülteni maç sayısı: 37
+- Detay blok sayısı: 136
+- Aktif bülten maçı: 37
+- Bültenden düşürülen maç: 12
+
+## Skorlanan Maclar
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| River Plate - Argentinos Jr | Arjantin Premier Lig 2. Aşama | 00:00 | Veri bekleniyor | - | 1.81 | 8 |
+| Depor Tachira - Monagas | Venezuela Premier Lig Clausura | 00:00 | Veri bekleniyor | - | 1.32 | 7 |
+| Atl Temperley - Los Andes | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 1.92 | 6 |
+| San Martin Tuc - Deportivo Madry | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 1.63 | 5 |
+| Deportivo San - Aurora | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.43 | 7 |
+| Choloma - Marathon | Honduras Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 3.93 | 5 |
+| Emelec - T.Universitario | Ekvador Pro Lig | 00:15 | Veri bekleniyor | - | 1.5 | 7 |
+| Nacional Potos - Academia Del Ba | Bolivya Premier Lig | 00:15 | Veri bekleniyor | - | 1.19 | 4 |
+| Vitoria Bahia - Botafogo | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 2.01 | 8 |
+| Mirassol - Flamengo | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 3.69 | 8 |
+| Colo Colo - O Higgins | Şili Premier Lig | 00:30 | Veri bekleniyor | - | 1.29 | 6 |
+| America Mineir - Athletic Club | Brezilya Serie B | 00:30 | Veri bekleniyor | - | 2.02 | 8 |
+| Regatas - Novorizontino | Brezilya Serie B | 00:30 | Veri bekleniyor | - | 2.1 | 8 |
+| Penarol - Central Espanol | Uruguay Premier Lig Clausura | 00:30 | Veri bekleniyor | - | 1.25 | 5 |
+| Chicago - Portland | ABD MLS | 01:00 | Veri bekleniyor | - | 1.33 | 6 |
+| New York City - Philadelphia | ABD MLS | 01:00 | Veri bekleniyor | - | 2.03 | 8 |
+| Perez Zeledon - Inter San Carlo | Kosta Rika Premier Lig Apertura | 01:00 | Veri bekleniyor | - | 2.5 | 8 |
+| Inca-Aruba - Firpo | El Salvador Primera Lig Apertura | 01:00 | Veri bekleniyor | - | 6.48 | 6 |
+| Corinthians - Cruzeiro | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 2.02 | 8 |
+| Deportivo La G - Zamora | Venezuela Premier Lig Clausura | 01:30 | Veri bekleniyor | - | 1.42 | 7 |
+| Portland Heart - Forward Madison | ABD USL Lig 1 | 01:30 | Veri bekleniyor | - | 2.47 | 8 |
+| Club America - Atletico San Lu | Meksika Liga MX Apertura | 02:00 | Veri bekleniyor | - | 1.33 | 7 |
+| Carabobo - Metropolitanos | Venezuela Premier Lig Clausura | 02:00 | Veri bekleniyor | - | 1.44 | 7 |
+| Suchitepequez - Marquense | Guatemala Ulusal Lig Apertura | 02:00 | Veri bekleniyor | - | 1.53 | 7 |
+| Barracas - Rosario Central | Arjantin Premier Lig 2. Aşama | 02:15 | Veri bekleniyor | - | 2.49 | 8 |
+| Corboda Santia - Instituto Cordo | Arjantin Premier Lig 2. Aşama | 02:15 | Veri bekleniyor | - | 3.41 | 8 |
+| Depor. Olimpia - Depor Motagua | Honduras Ulusal Lig Apertura | 02:15 | Veri bekleniyor | - | 1.63 | 5 |
+| Cienciano - Deportivo Garci | Peru Premier Lig Clausura | 02:30 | Veri bekleniyor | - | 2.08 | 8 |
+| Independiente - Gualberto Villa | Bolivya Premier Lig | 02:30 | Veri bekleniyor | - | 1.49 | 6 |
+| Aucas - Ldu Quito | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 2.06 | 8 |
+| Unan Managua - Jalapa | Nikaragua Premier Lig Apertura | 03:00 | Veri bekleniyor | - | 1.9 | 8 |
+| Platense - Deportivo Fas | El Salvador Primera Lig Apertura | 03:00 | Veri bekleniyor | - | 3.45 | 8 |
+| Austin - Dallas | ABD MLS | 03:30 | Veri bekleniyor | - | 2.58 | 8 |
+| Santos Laguna - Guadalajara | Meksika Liga MX Apertura | 04:10 | Veri bekleniyor | - | 4.66 | 6 |
+| Olancho - Juticalpa | Honduras Ulusal Lig Apertura | 04:30 | Veri bekleniyor | - | 1.15 | 5 |
+| Seattle - Vancouver | ABD MLS | 05:30 | Veri bekleniyor | - | 3.45 | 8 |
+| Club Tijuana - Cruz Azul | Meksika Liga MX Apertura | 06:00 | Veri bekleniyor | - | 2.74 | 8 |
+>>>>>>> Stashed changes
