@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
-Ham mac: 586
-Aktif mac: 563
-Canli mac: 7
-Biten mac: 16
-Bultenden dusurulen mac: 23
-Bugun: 489
+Ham mac: 570
+Aktif mac: 562
+Canli mac: 8
+Biten mac: 0
+Bultenden dusurulen mac: 8
+Bugun: 488
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-15 09:00 | Avustralya NPL Yeni Güney Galler | Apia - Sd Raiders | scheduled | -
 - 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Manly United - Nws Spirit | scheduled | -
 - 2026-08-15 10:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Sydney United | scheduled | -
 - 2026-08-15 10:00 | Avustralya NPL Batı Avustralya | Perth Glory Ii - Fremantle City | scheduled | -
@@ -576,14 +575,6 @@ Yarin: 74
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | live | -
-- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | live | -
-- 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | Brindabella Bl - Cooma Tigers | live | -
-- 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | live | -
-- 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | live | -
-- 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | live | -
-- 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | live | -
-- 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | live | -
 - 2026-08-15 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Melbourne Knigh | live | -
 - 2026-08-15 08:00 | Rusya FNL | Ska-Khabarovsk - Veles | live | -
 - 2026-08-15 08:00 | Avustralya NPL Başkent Bölgesi | O Connor Knigh - Canberra White | live | -
@@ -591,21 +582,7 @@ Yarin: 74
 - 2026-08-15 08:00 | Avustralya NPL Yeni Güney Galler | Western Sydney - St. George Sain | live | -
 - 2026-08-15 08:00 | Avustralya NPL Victoria | Heidelberg Uni - Hume City | live | -
 - 2026-08-15 08:00 | Avustralya NPL Victoria | Melbourne City - South Melbourne | live | -
+- 2026-08-15 09:00 | Avustralya NPL Yeni Güney Galler | Apia - Sd Raiders | live | -
 
 ## Biten Maclar
-- 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
-- 2026-08-15 01:30 | Brezilya Serie B | Sao Bernardo - Botafogo Ribeir | finished | -
-- 2026-08-15 01:30 | Brezilya Serie B | Ponte Preta - Nautico | finished | -
-- 2026-08-15 02:00 | Peru Premier Lig Clausura | Cusco Fc - Juan Pablo Ii C | finished | -
-- 2026-08-15 02:00 | Şili Premier Lig | Univ De Concep - La Serena | finished | -
-- 2026-08-15 02:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Banfield | finished | -
-- 2026-08-15 02:30 | Arjantin Ulusal Primera Lig | Rafaela - D Belgrano | finished | -
-- 2026-08-15 02:30 | Brezilya Serie B | Sport Recife - Londrina | finished | -
-- 2026-08-15 03:00 | Ekvador Pro Lig | Indep. Jose Te - Delfin | finished | -
-- 2026-08-15 03:00 | Bolivya Premier Lig | Bolivar - San Antonio Bul | finished | -
-- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Zacatecas - Venados Fc | finished | -
-- 2026-08-15 04:00 | Meksika Ascenso MX Apertura | Correcaminos U - Cd Tapatio | finished | -
-- 2026-08-15 04:00 | Kanada Premier Lig | Vancouver Fc - Pacific Fc | finished | -
-- 2026-08-15 04:00 | El Salvador Primera Lig Apertura | Municipal Lime - Inter Fa | finished | -
-- 2026-08-15 05:00 | Kosta Rika Premier Lig Apertura | Ad San Carlos - Herediano | finished | -
-- 2026-08-15 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Piratas | finished | -
+Biten mac yok.
