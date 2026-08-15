@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 15.08.2026 04:59:53
+Oluşturma: 15.08.2026 05:07:17
 
 ## Özet
 
-- Toplam tahmin: 341
-- Bekleyen tahmin: 341
+- Toplam tahmin: 343
+- Bekleyen tahmin: 343
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 103
+- Lig sayısı: 105
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,14 @@ Oluşturma: 15.08.2026 04:59:53
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 227, bekleyen 227, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 96, bekleyen 96, başarı bekleniyor, ağırlık 1
-- MS X: toplam 225, bekleyen 225, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 20, bekleyen 20, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-15 | Kuzey İrlanda Championship | Newington Yc - Queens Universi | MS X | pending | 50/100
+- 2026-08-15 | İsveç 2.Lig Norrland Yükselme Grubu | Skelleftea - Ifk Lulea | MS X | pending | 50/100
 - 2026-08-15 | İsveç Superettan | Ljungskile - Oster | MS 2 | pending | 60/100
 - 2026-08-15 | Polonya Ekstraklasa | Widzew Lodz - Korona Kielce | MS 2 | pending | 40/100
 - 2026-08-15 | Bulgaristan 1.Lig | Ludogorets - Botev Plovdiv | MS 2 | pending | 60/100
@@ -39,6 +41,4 @@ Oluşturma: 15.08.2026 04:59:53
 - 2026-08-15 | İtalya Kupa 1.Tur | Unione V. - Modena | MS 2 | pending | 75/100
 - 2026-08-15 | Hollanda Eredivisie | Fortuna Sittar - Cambuur | MS 2 | pending | 60/100
 - 2026-08-15 | Sırbistan Süper Lig | Cukaricki - Ofk Beograd | MS X | pending | 50/100
-- 2026-08-15 | Hırvatistan 1.HNL | Osijek - Lokomotiva | MS 2 | pending | 50/100
-- 2026-08-15 | Guatemala Ulusal Lig Apertura | Coban Imperial - Mixco | MS 2 | pending | 50/100
 
