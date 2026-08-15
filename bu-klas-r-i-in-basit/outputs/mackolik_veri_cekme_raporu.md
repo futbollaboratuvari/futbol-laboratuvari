@@ -1,46 +1,56 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T18:44:57.443510+00:00
+Tarih: 2026-08-15T18:54:54.704583+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 35
+- Kac mac bulundu: 105
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 35
+- Kac mac zaten vardi: 105
 - Ham veri havuzu toplam mac sayisi: 7033
 - Hedef tarih: 15.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
+- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
-- Belçika Pro Lig
 - Bolivya Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Guatemala Ulusal Lig Apertura
 - Hollanda Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
+- Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Macaristan NB III Güneybatı
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Macaristan NB III Kuzeydoğu
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Portekiz Premier Lig
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- İrlanda FAI Kupası 3.Tur
 - İspanya 2.Lig
 - İspanya LaLiga
 - İtalya Kupa 1.Tur
 - İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -97,8 +107,8 @@ Tarih: 2026-08-15T18:44:57.443510+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 52
-- Acilan detay: 52
+- Denenen Tumu alani: 50
+- Acilan detay: 50
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -114,23 +124,23 @@ Tarih: 2026-08-15T18:44:57.443510+00:00
 | 15.08.2026 | 22:30 | İspanya LaLiga | Sevilla | Vallecano | 08103 | 5 |
 | 15.08.2026 | 22:00 | Hollanda Eredivisie | Fortuna Sittar | Cambuur | 28882 | 5 |
 | 15.08.2026 | 22:30 | Portekiz Premier Lig | Rio Ave | Porto | 29329 | 5 |
-| 15.08.2026 | 21:45 | Belçika Pro Lig | Oh Leuven | Club Brugge | 28581 | 5 |
-| 15.08.2026 | 21:45 | Belçika Pro Lig | Genk | Westerlo | 28490 | 5 |
 | 15.08.2026 | 22:30 | İspanya 2.Lig | Mallorca | Valladolid | 25750 | 5 |
-| 15.08.2026 | 21:45 | İtalya Kupa 1.Tur | Unione V. | Modena | 28521 | 5 |
 | 15.08.2026 | 22:15 | İtalya Kupa 1.Tur | Torino | Carrarese | 28626 | 5 |
 | 15.08.2026 | 22:00 | Sırbistan Süper Lig | Cukaricki | Ofk Beograd | 28851 | 5 |
+| 16.08.2026 | 03:30 | ABD MLS | Nashville Sc | Inter Miami | 30587 | 5 |
+| 16.08.2026 | 02:30 | ABD MLS | Montreal | Dc United | 30245 | 5 |
+| 16.08.2026 | 02:30 | ABD MLS | Charlotte | Columbus | 30179 | 5 |
+| 16.08.2026 | 03:30 | ABD MLS | Houston | Los Angeles | 30452 | 5 |
+| 16.08.2026 | 04:30 | ABD MLS | Salt Lake | Minnesota Utd | 30986 | 5 |
+| 16.08.2026 | 04:30 | ABD MLS | Colorado | Kansas | 30819 | 5 |
+| 16.08.2026 | 05:30 | ABD MLS | San Jose | St. Louis City | 31218 | 5 |
+| 16.08.2026 | 02:30 | ABD MLS | Orlando City | Cincinnati | 30302 | 5 |
+| 16.08.2026 | 02:30 | ABD MLS | Toronto | New England | 30393 | 5 |
+| 16.08.2026 | 02:30 | ABD MLS | Atlanta Utd | New York | 30112 | 5 |
+| 16.08.2026 | 05:30 | ABD MLS | Los Angeles Fc | San Diego | 31160 | 5 |
 | 15.08.2026 | 22:30 | Brezilya Serie A | Fluminense | Palmeiras | 29201 | 5 |
-| 15.08.2026 | 22:45 | Arjantin Premier Lig 2. Aşama | Estudiantes Lp | Gimnasia La Pla | 29439 | 5 |
-| 15.08.2026 | 22:00 | Hırvatistan 1.HNL | Osijek | Lokomotiva | 29107 | 5 |
-| 15.08.2026 | 21:45 | İrlanda FAI Kupası 3.Tur | Sligo Rovers | Kerry | 04401 | 3 |
-| 15.08.2026 | 23:30 | Peru Premier Lig Clausura | Chankas Cyc | Melgar | 29541 | 5 |
-| 15.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc | Academia Anzoat | 41521 | 5 |
-| 15.08.2026 | 22:00 | Arjantin Ulusal Primera Lig | Ca Mitre | Club Atletico G | 29075 | 3 |
-| 15.08.2026 | 22:30 | Arjantin Ulusal Primera Lig | Colon Santa Fe | Patronato | 29173 | 3 |
-| 15.08.2026 | 22:00 | Brezilya Serie B | Atletico Goian | Vila Nova | 28990 | 5 |
-| 15.08.2026 | 22:00 | Brezilya Serie B | Criciuma | Goias | 28793 | 5 |
-| 15.08.2026 | 22:00 | Brezilya Serie B | Ceara | Cuiaba | 28733 | 5 |
+| 16.08.2026 | 03:00 | Brezilya Serie A | Sao Paulo | Coritiba | 30511 | 5 |
+| 16.08.2026 | 00:30 | Brezilya Serie A | Atletico Pr | Bragantino | 29692 | 5 |
 
 ## Sonuc
 

@@ -3,25 +3,14 @@
 Gunler: 2026-08-15 / 2026-08-16
 Kaynak: fixtures.json
 Ham mac: 606
-Aktif mac: 106
-Canli mac: 60
-Biten mac: 440
-Bultenden dusurulen mac: 500
-Bugun: 31
+Aktif mac: 95
+Canli mac: 59
+Biten mac: 452
+Bultenden dusurulen mac: 511
+Bugun: 20
 Yarin: 75
 
 ## Baslamamis Maclar
-- 2026-08-15 21:30 | Türkiye Süper Lig | Gençlerbirliği - Fenerbahçe | scheduled | -
-- 2026-08-15 21:30 | Türkiye Süper Lig | Gaziantep Fk - Alanyaspor | scheduled | -
-- 2026-08-15 21:30 | Almanya 2. Bundesliga | Kaiserslautern - Karlsruhe | scheduled | -
-- 2026-08-15 21:30 | Romanya 1.Lig | Rapid Bükreş - Dinamo Bükreş | scheduled | -
-- 2026-08-15 21:30 | Slovakya Süper Lig | Podbrezova - Trencin | scheduled | -
-- 2026-08-15 21:30 | Türkiye TFF 1. Lig | Manisa Futbol - Van Spor Fk | scheduled | -
-- 2026-08-15 21:30 | Türkiye TFF 1. Lig | Bursaspor - Iğdır Fk | scheduled | -
-- 2026-08-15 21:45 | Belçika Pro Lig | Genk - Westerlo | scheduled | -
-- 2026-08-15 21:45 | Belçika Pro Lig | Oh Leuven - Club Brugge | scheduled | -
-- 2026-08-15 21:45 | İtalya Kupa 1.Tur | Unione V. - Modena | scheduled | -
-- 2026-08-15 21:45 | İrlanda FAI Kupası 3.Tur | Sligo Rovers - Kerry | scheduled | -
 - 2026-08-15 22:00 | Hollanda Eredivisie | Fortuna Sittar - Cambuur | scheduled | -
 - 2026-08-15 22:00 | Sırbistan Süper Lig | Cukaricki - Ofk Beograd | scheduled | -
 - 2026-08-15 22:00 | Hırvatistan 1.HNL | Osijek - Lokomotiva | scheduled | -
@@ -119,18 +108,6 @@ Yarin: 75
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 
 ## Canli Maclar
-- 2026-08-15 19:15 | Suudi Arabistan Pro Lig | Al Taawon - Al Khaleej | live | -
-- 2026-08-15 19:15 | Belçika Pro Lig | Kortrijk - Antwerp | live | -
-- 2026-08-15 19:15 | Galler Premier Lig 1.Aşama | Caernarfon - Colwyn Bay | live | -
-- 2026-08-15 19:30 | İngiltere Championship | Sheffield Utd - Birmingham | live | -
-- 2026-08-15 19:30 | İtalya Kupa 1.Tur | Udinese - Padova | live | -
-- 2026-08-15 19:30 | Hırvatistan 1.HNL | Istra - Slaven Belupo | live | -
-- 2026-08-15 19:30 | İran Persian Gulf Pro Lig | Sanat Naft - Malavan Fc | live | -
-- 2026-08-15 19:30 | Avusturya 1.Lig | Kapfenberg - Wacker Innsbruc | live | -
-- 2026-08-15 19:30 | Avusturya 1.Lig | Voitsberg - Bregenz | live | -
-- 2026-08-15 19:30 | Avusturya 1.Lig | Avusturya Wien - Austria Salzbur | live | -
-- 2026-08-15 19:30 | Portekiz 3.Lig Grup A | Pacos Ferreira - Paredes | live | -
-- 2026-08-15 19:30 | Portekiz 3.Lig Grup A | Vianense - Trofense | live | -
 - 2026-08-15 19:45 | Hollanda Eredivisie | Utrecht - Az Alkmaar | live | -
 - 2026-08-15 19:45 | Azerbaycan Premier Lig | Sabah - Kapaz | live | -
 - 2026-08-15 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Wasl - Dubai United | live | -
@@ -179,6 +156,17 @@ Yarin: 75
 - 2026-08-15 21:15 | Polonya Ekstraklasa | Widzew Lodz - Korona Kielce | live | -
 - 2026-08-15 21:15 | Bulgaristan 1.Lig | Ludogorets - Botev Plovdiv | live | -
 - 2026-08-15 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Maribor | live | -
+- 2026-08-15 21:30 | Türkiye Süper Lig | Gençlerbirliği - Fenerbahçe | live | -
+- 2026-08-15 21:30 | Türkiye Süper Lig | Gaziantep Fk - Alanyaspor | live | -
+- 2026-08-15 21:30 | Almanya 2. Bundesliga | Kaiserslautern - Karlsruhe | live | -
+- 2026-08-15 21:30 | Romanya 1.Lig | Rapid Bükreş - Dinamo Bükreş | live | -
+- 2026-08-15 21:30 | Slovakya Süper Lig | Podbrezova - Trencin | live | -
+- 2026-08-15 21:30 | Türkiye TFF 1. Lig | Manisa Futbol - Van Spor Fk | live | -
+- 2026-08-15 21:30 | Türkiye TFF 1. Lig | Bursaspor - Iğdır Fk | live | -
+- 2026-08-15 21:45 | Belçika Pro Lig | Genk - Westerlo | live | -
+- 2026-08-15 21:45 | Belçika Pro Lig | Oh Leuven - Club Brugge | live | -
+- 2026-08-15 21:45 | İtalya Kupa 1.Tur | Unione V. - Modena | live | -
+- 2026-08-15 21:45 | İrlanda FAI Kupası 3.Tur | Sligo Rovers - Kerry | live | -
 
 ## Biten Maclar
 - 2026-08-15 01:00 | Uruguay Premier Lig Clausura | Boston River - Danubio | finished | -
@@ -621,3 +609,15 @@ Yarin: 75
 - 2026-08-15 19:00 | Türkiye TFF 1. Lig | İstanbulspor - Bodrum Fk | finished | -
 - 2026-08-15 19:00 | İrlanda FAI Kupası 3.Tur | Dundalk - Castelbar | finished | -
 - 2026-08-15 19:00 | Rusya FNL | Pfc Sochi - Volga Ulyanovsk | finished | -
+- 2026-08-15 19:15 | Suudi Arabistan Pro Lig | Al Taawon - Al Khaleej | finished | -
+- 2026-08-15 19:15 | Belçika Pro Lig | Kortrijk - Antwerp | finished | -
+- 2026-08-15 19:15 | Galler Premier Lig 1.Aşama | Caernarfon - Colwyn Bay | finished | -
+- 2026-08-15 19:30 | İngiltere Championship | Sheffield Utd - Birmingham | finished | -
+- 2026-08-15 19:30 | İtalya Kupa 1.Tur | Udinese - Padova | finished | -
+- 2026-08-15 19:30 | Hırvatistan 1.HNL | Istra - Slaven Belupo | finished | -
+- 2026-08-15 19:30 | İran Persian Gulf Pro Lig | Sanat Naft - Malavan Fc | finished | -
+- 2026-08-15 19:30 | Avusturya 1.Lig | Kapfenberg - Wacker Innsbruc | finished | -
+- 2026-08-15 19:30 | Avusturya 1.Lig | Voitsberg - Bregenz | finished | -
+- 2026-08-15 19:30 | Avusturya 1.Lig | Avusturya Wien - Austria Salzbur | finished | -
+- 2026-08-15 19:30 | Portekiz 3.Lig Grup A | Pacos Ferreira - Paredes | finished | -
+- 2026-08-15 19:30 | Portekiz 3.Lig Grup A | Vianense - Trofense | finished | -
