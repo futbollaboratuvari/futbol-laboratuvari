@@ -1,22 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-16 / 2026-08-17
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 356
-Aktif mac: 345
-Canli mac: 11
+Aktif mac: 339
+Canli mac: 17
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 308
+Bultenden dusurulen mac: 17
+Bugun: 302
 Yarin: 37
 
 ## Baslamamis Maclar
-- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Rivadavia | scheduled | -
-- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Riestra | scheduled | -
-- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Quilmes - San Telmo | scheduled | -
-- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Caseros - Chacarita Junio | scheduled | -
-- 2026-08-16 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | scheduled | -
-- 2026-08-16 01:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Puntarenas Fc | scheduled | -
 - 2026-08-16 01:30 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | scheduled | -
 - 2026-08-16 02:00 | Meksika Liga MX Apertura | Atlante - Toluca | scheduled | -
 - 2026-08-16 02:00 | Venezuela Premier Lig Clausura | Portuguesa - Trujillanos | scheduled | -
@@ -358,6 +353,12 @@ Yarin: 37
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
+- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Rivadavia | live | -
+- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Riestra | live | -
+- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Quilmes - San Telmo | live | -
+- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Caseros - Chacarita Junio | live | -
+- 2026-08-16 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | live | -
+- 2026-08-16 01:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Puntarenas Fc | live | -
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | live | -
 - 2026-08-16 00:00 | Kanada Premier Lig | Cavalry - Forge | live | -
 - 2026-08-16 00:00 | Honduras Ulusal Lig Apertura | Genesis Pn - Platense | live | -
