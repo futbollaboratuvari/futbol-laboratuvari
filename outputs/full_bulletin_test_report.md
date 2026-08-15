@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 95
-- Live match count: 54
-- Finished removed count: 5
+- Scheduled match count: 78
+- Live match count: 0
+- Finished removed count: 0
 - Date window: 2026-08-15 / 2026-08-16 23:59
 
-- 2026-08-15 20:00 | Phönix Lübeck - Lübeck | live
-- 2026-08-15 20:00 | Bate Borisov - Vitebsk | live
-- 2026-08-15 20:00 | Kotka - Kapa | live
-- 2026-08-15 20:00 | Torpedo Kutais - Fc Iberia | live
-- 2026-08-15 20:00 | Toulouse - Hamburg | live
-- 2026-08-15 20:00 | Cadiz - Celta Vigo Ii | live
-- 2026-08-15 20:00 | Oviedo - Granada | live
-- 2026-08-15 20:00 | Thor Akureyri - Keflavik | live
-- 2026-08-15 20:00 | Dacia-Buiucani - Petrocub | live
-- 2026-08-15 20:00 | Resovia Rzeszo - Gks Tychy | live
+- 2026-08-15 22:45 | Estudiantes Lp - Gimnasia La Pla | scheduled
+- 2026-08-15 23:00 | Estudiantes Fc - Academia Anzoat | scheduled
+- 2026-08-15 23:30 | Chankas Cyc - Melgar | scheduled
+- 2026-08-16 00:00 | Godoy Cruz - Maipu | scheduled
+- 2026-08-16 00:00 | Genesis Pn - Platense | scheduled
+- 2026-08-16 00:00 | Cavalry - Forge | scheduled
+- 2026-08-16 00:15 | Guabira - The Strongest | scheduled
+- 2026-08-16 00:30 | Atletico Pr - Bragantino | scheduled
+- 2026-08-16 00:30 | Juventude - Fortaleza Ce | scheduled
+- 2026-08-16 00:30 | Guayaquil City - Libertad | scheduled
