@@ -1,44 +1,127 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-15T20:58:22.694577+00:00
+Tarih: 2026-08-15T21:19:01.103965+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 80
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 80
-- Ham veri havuzu toplam mac sayisi: 7033
-- Hedef tarih: 15.08.2026 Europe/Istanbul
+- Kac mac bulundu: 282
+- Kac mac kaydedildi: 282
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 7315
+- Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- ABD USL
 - ABD USL Lig 1
+- AFF Şampiyonası Yarı Final
+- Almanya 2. Bundesliga
+- Almanya 3. Lig
+- Almanya Bölgesel Lig Güney Batı
+- Almanya Bölgesel Lig Kuzey
+- Almanya Bölgesel Lig Kuzey Doğu
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Kuzey YGG
 - Avustralya NPL Victoria
+- Avustralya NPL Yeni Güney Galler
+- Avusturya 1.Lig
+- Avusturya Bundesliga
+- Azerbaycan Premier Lig
+- Belarus Premier Lig
+- Belçika Challenger Pro Lig
+- Belçika Pro Lig
+- Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
+- Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
+- Bulgaristan 1.Lig
+- Danimarka 1.Lig
+- Danimarka Süperlig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
+- Estonya Premium Lig
+- Faroe Adaları Master Lig
+- Finlandiya Veikkausliiga
+- Finlandiya Ykkönen
+- Finlandiya Ykkösliiga
+- Fransa Süper Kupa
+- Galler FAW Championship Kuzey
 - Guatemala Ulusal Lig Apertura
+- Güney Afrika PSL
+- Güney Kore K Lig 1
+- Güney Kore K Lig 2
+- Gürcistan Erovnuli Liga
+- Hazırlık Kulüpler
+- Hollanda Eredivisie
+- Hollanda Kadınlar Eredivisie
 - Honduras Ulusal Lig Apertura
+- Hırvatistan 1.HNL
+- Irak Premier Lig
+- Japonya J2 Lig
+- Japonya J3 Lig
 - Kanada Premier Lig
+- Kazakistan Premier Lig
 - Kosta Rika Premier Lig Apertura
+- Litvanya A Ligi
+- Macaristan NB I
+- Macaristan NB II
+- Macaristan NB III Güneydoğu
+- Macaristan NB III Kuzeybatı
+- Macaristan NB III Kuzeydoğu
+- Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
+- Moldova Ulusal Lig
 - Nikaragua Premier Lig Apertura
+- Norveç 1.Lig
+- Norveç 2.Lig Grup 1
+- Norveç 2.Lig Grup 2
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 5
+- Norveç Eliteserien
 - Peru Premier Lig Clausura
+- Polonya 1.Lig
+- Polonya 2.Lig
+- Polonya Ekstraklasa
+- Portekiz 2.Lig
+- Portekiz 3.Lig Grup A
+- Portekiz 3.Lig Grup B
+- Portekiz Premier Lig
+- Romanya 1.Lig
+- Rusya Premier Lig
+- Slovakya 2.Lig
+- Slovakya Süper Lig
+- Slovenya 1.SNL
+- Slovenya 2.SNL
+- Suudi Arabistan Kral Kupası Son 32 Turu
+- Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
+- Türkiye Süper Lig
+- Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- İzlanda 2.Lig
+- Çek Cumhuriyeti Czech Liga
+- Çek Cumhuriyeti FNL
+- Çin Halk Cumhuriyeti 1.Lig
+- İngiltere Championship
+- İngiltere Community Shield
+- İrlanda FAI Kupası 3.Tur
+- İskoçya Lig Kupası 2.Tur
+- İspanya 2.Lig
+- İspanya LaLiga
+- İsveç 2.Lig Norra Götaland
+- İsveç 2.Lig Norra Svealand
+- İsveç 2.Lig Norrland Yükselme Grubu
+- İsveç 2.Lig Södra Götaland
+- İsveç 2.Lig Södra Svealand
+- İsveç Allsvenskan
+- İsveç Superettan
+- İtalya Kupa 1.Tur
+- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -96,8 +179,8 @@ Tarih: 2026-08-15T20:58:22.694577+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 29
-- Acilan detay: 29
+- Denenen Tumu alani: 90
+- Acilan detay: 90
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -110,26 +193,26 @@ Tarih: 2026-08-15T20:58:22.694577+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 16.08.2026 | 04:30 | ABD MLS | Salt Lake | Minnesota Utd | 30986 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Orlando City | Cincinnati | 30302 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Atlanta Utd | New York | 30112 | 5 |
-| 16.08.2026 | 05:30 | ABD MLS | San Jose | St. Louis City | 31218 | 5 |
-| 16.08.2026 | 03:30 | ABD MLS | Nashville Sc | Inter Miami | 30587 | 5 |
-| 16.08.2026 | 04:30 | ABD MLS | Colorado | Kansas | 30819 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Charlotte | Columbus | 30179 | 5 |
-| 16.08.2026 | 05:30 | ABD MLS | Los Angeles Fc | San Diego | 31160 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Toronto | New England | 30393 | 5 |
-| 16.08.2026 | 02:30 | ABD MLS | Montreal | Dc United | 30245 | 5 |
-| 16.08.2026 | 03:30 | ABD MLS | Houston | Los Angeles | 30452 | 5 |
-| 16.08.2026 | 00:30 | Brezilya Serie A | Atletico Pr | Bragantino | 29692 | 5 |
-| 16.08.2026 | 03:00 | Brezilya Serie A | Sao Paulo | Coritiba | 30511 | 5 |
-| 16.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Platense | Boca Juniors | 30624 | 5 |
-| 16.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano | Rivadavia | 29767 | 5 |
-| 16.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo | Riestra | 29847 | 5 |
-| 16.08.2026 | 02:00 | Meksika Liga MX Apertura | Atlante | Toluca | 29921 | 5 |
-| 16.08.2026 | 04:10 | Meksika Liga MX Apertura | Monterrey | Fc Juarez | 30851 | 5 |
-| 16.08.2026 | 06:10 | Meksika Liga MX Apertura | Atlas | Tigres Uanl | 31310 | 5 |
-| 16.08.2026 | 03:30 | Peru Premier Lig Clausura | Alianza Lima | Univ De Cajamar | 30730 | 5 |
+| 16.08.2026 | 19:00 | Türkiye Süper Lig | Başakşehir Fk | Kocaelispor | 01443 | 5 |
+| 16.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Eyüpspor | 01283 | 5 |
+| 16.08.2026 | 21:30 | Türkiye Süper Lig | Amed Sk | Erzurumspor Fk | 01281 | 5 |
+| 16.08.2026 | 17:00 | İngiltere Community Shield | Arsenal | Manchester City | 01574 | 5 |
+| 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
+| 16.08.2026 | 18:00 | İspanya LaLiga | Santander | Villarreal | 08141 | 5 |
+| 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
+| 16.08.2026 | 15:30 | Hollanda Eredivisie | Feyenoord | Go Ahead Eagles | 33127 | 5 |
+| 16.08.2026 | 13:15 | Hollanda Eredivisie | Den Haag | Groningen | 31941 | 5 |
+| 16.08.2026 | 17:45 | Hollanda Eredivisie | Ajax | Heerenveen | 36167 | 5 |
+| 16.08.2026 | 15:30 | Hollanda Eredivisie | Twente | Zwolle | 35445 | 5 |
+| 16.08.2026 | 22:30 | Portekiz Premier Lig | Braga | Gil Vicente | 33976 | 5 |
+| 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
+| 16.08.2026 | 17:30 | Portekiz Premier Lig | Nacional Madei | Estoril | 33827 | 5 |
+| 16.08.2026 | 20:00 | Portekiz Premier Lig | Arouca | Moreirense | 33885 | 5 |
+| 16.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah | Al Hazm | 05909 | 5 |
+| 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
+| 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
+| 16.08.2026 | 20:15 | Belçika Pro Lig | Lommel | Charleroi | 36968 | 5 |
+| 16.08.2026 | 14:30 | Belçika Pro Lig | Waasland Bever | Anderlecht | 32566 | 5 |
 
 ## Sonuc
 
