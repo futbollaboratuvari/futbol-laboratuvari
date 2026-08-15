@@ -1,14 +1,13 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-16 / 2026-08-17
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 356
-Aktif mac: 339
+Kaynak: fixtures.json
+Ham mac: 357
+Aktif mac: 340
 Canli mac: 17
 Biten mac: 0
 Bultenden dusurulen mac: 17
-Bugun: 302
+Bugun: 303
 Yarin: 37
 
 ## Baslamamis Maclar
@@ -133,6 +132,7 @@ Yarin: 37
 - 2026-08-16 15:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skedsmo | scheduled | -
 - 2026-08-16 15:00 | İsveç 2.Lig Södra Götaland | Linero - Rappe | scheduled | -
 - 2026-08-16 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Ragsved | scheduled | -
+- 2026-08-16 15:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Trygg/Lade | scheduled | -
 - 2026-08-16 15:30 | Hollanda Eredivisie | Feyenoord - Go Ahead Eagles | scheduled | -
 - 2026-08-16 15:30 | Hollanda Eredivisie | Twente - Zwolle | scheduled | -
 - 2026-08-16 15:30 | İngiltere Championship | Watford - Southam | scheduled | -
@@ -353,12 +353,6 @@ Yarin: 37
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Rivadavia | live | -
-- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Riestra | live | -
-- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Quilmes - San Telmo | live | -
-- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Caseros - Chacarita Junio | live | -
-- 2026-08-16 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | live | -
-- 2026-08-16 01:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Puntarenas Fc | live | -
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | live | -
 - 2026-08-16 00:00 | Kanada Premier Lig | Cavalry - Forge | live | -
 - 2026-08-16 00:00 | Honduras Ulusal Lig Apertura | Genesis Pn - Platense | live | -
@@ -370,6 +364,12 @@ Yarin: 37
 - 2026-08-16 00:30 | Ekvador Pro Lig | Guayaquil City - Libertad | live | -
 - 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Fuerte San Fra - Isidro Metapan | live | -
 - 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Aguila - Balboa | live | -
+- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Rivadavia | live | -
+- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Riestra | live | -
+- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Quilmes - San Telmo | live | -
+- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Caseros - Chacarita Junio | live | -
+- 2026-08-16 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | live | -
+- 2026-08-16 01:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Puntarenas Fc | live | -
 
 ## Biten Maclar
 Biten mac yok.
