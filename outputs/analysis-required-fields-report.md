@@ -1,17 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 178
-Tam analiz: 161
-Eksik analiz: 17
+Toplam analiz: 59
+Tam analiz: 49
+Eksik analiz: 10
 
-- College Corint VS Drogheda: eksik score, confidence
-- Deac VS Dvsc Deac: eksik score, confidence
-- Komarom VS Pápai Perutz: eksik score, confidence
-- Shams Azar Qaz VS Persepolis: eksik score, confidence
-- Juventud Dl Pi VS Torque: eksik score, confidence
-- Vfb Oldenburg VS Norderstedt: eksik score, confidence
-- De Treffers VS Gvvv: eksik score, confidence
 - Bayern München VS Wolfsburg (K): eksik score, confidence
 - Moron VS Almagro: eksik score, confidence
 - Agropecuario VS Ciudad De Bolív: eksik score, confidence

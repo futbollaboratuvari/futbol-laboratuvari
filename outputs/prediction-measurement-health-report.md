@@ -1,9 +1,9 @@
 # Tahmin Olcum Saglik Kontrolu
 
 Durum: ok
-Toplam tahmin: 339
+Toplam tahmin: 341
 Olculen tahmin: 0
-Bekleyen tahmin: 339
+Bekleyen tahmin: 341
 Kazanan: 0
 Kaybeden: 0
 Skoru olup pending kalan: 0

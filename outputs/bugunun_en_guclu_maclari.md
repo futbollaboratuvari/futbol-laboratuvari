@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-15T19:10:13.638Z
-- Ham maç sayısı: 154
+- Güncelleme: 2026-08-15T19:37:49.129Z
+- Ham maç sayısı: 134
 - Yarın bülteni maç sayısı: 75
-- Detay blok sayısı: 434
-- Aktif bülten maçı: 85
-- Bültenden düşürülen maç: 69
+- Detay blok sayısı: 376
+- Aktif bülten maçı: 78
+- Bültenden düşürülen maç: 56
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Torino - Carrarese | İtalya Kupa 1.Tur | 22:15 | Veri bekleniyor | - | 1.15 | 6 |
-| Sevilla - Vallecano | İspanya LaLiga | 22:30 | Veri bekleniyor | - | 2.31 | 8 |
-| Rio Ave - Porto | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 7.31 | 6 |
-| Mallorca - Valladolid | İspanya 2.Lig | 22:30 | Veri bekleniyor | - | 1.51 | 7 |
-| Fluminense - Palmeiras | Brezilya Serie A | 22:30 | Veri bekleniyor | - | 2.6 | 8 |
-| Colon Santa Fe - Patronato | Arjantin Ulusal Primera Lig | 22:30 | Veri bekleniyor | - | 1.46 | 5 |
-| Racing Montevi - Nacional Df | Uruguay Premier Lig Clausura | 22:30 | Veri bekleniyor | - | 2.77 | 5 |
 | Estudiantes Lp - Gimnasia La Pla | Arjantin Premier Lig 2. Aşama | 22:45 | Veri bekleniyor | - | 1.85 | 8 |
 | Estudiantes Fc - Academia Anzoat | Venezuela Premier Lig Clausura | 23:00 | Veri bekleniyor | - | 1.73 | 8 |
 | Chankas Cyc - Melgar | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 2.44 | 8 |
