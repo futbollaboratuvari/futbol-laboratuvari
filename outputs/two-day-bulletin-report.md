@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-16 / 2026-08-17
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 364
 Aktif mac: 241
-Canli mac: 39
-Biten mac: 84
+Canli mac: 34
+Biten mac: 89
 Bultenden dusurulen mac: 123
 Bugun: 203
 Yarin: 38
@@ -294,6 +293,14 @@ Yarin: 38
 - 2026-08-16 14:00 | İsveç 2.Lig Norra Svealand | Skiljebo Sk - Helges | live | -
 - 2026-08-16 14:00 | İsveç 2.Lig Södra Götaland | Växjö Norra - Staffanstorp Un | live | -
 - 2026-08-16 14:00 | İsveç 2.Lig Södra Svealand | Forward - Syrianska | live | -
+- 2026-08-16 14:30 | Belçika Pro Lig | Waasland Bever - Anderlecht | live | -
+- 2026-08-16 14:30 | Almanya 2. Bundesliga | Hannover - Wolfsburg | live | -
+- 2026-08-16 14:30 | Almanya 2. Bundesliga | Dynamo Dresden - Darmstadt | live | -
+- 2026-08-16 14:30 | Almanya 2. Bundesliga | Arminia Bielef - E.Cottbus | live | -
+- 2026-08-16 14:30 | Rusya Premier Lig | Zenit - Dinamo Moskova | live | -
+- 2026-08-16 14:30 | Almanya 3. Lig | Hansa Rostock - Waldhof Mannhei | live | -
+- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Hebei Kungfu | live | -
+- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Heilongjiang Ls | live | -
 
 ## Biten Maclar
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | finished | -
@@ -380,3 +387,8 @@ Yarin: 38
 - 2026-08-16 11:30 | Avusturya 1.Lig | First Vienna - Liefering | finished | -
 - 2026-08-16 11:30 | Slovakya 2.Lig | Petrzalka - Tatran Presov | finished | -
 - 2026-08-16 11:30 | Slovakya 2.Lig | Malzenice - Povazska Bystri | finished | -
+- 2026-08-16 12:00 | Japonya J2 Lig | Yokohama Fc - Iwata | finished | -
+- 2026-08-16 12:00 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Godollo | finished | -
+- 2026-08-16 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Ujpest Ii | finished | -
+- 2026-08-16 12:00 | Japonya J3 Lig | Osaka - Parceiro Nagano | finished | -
+- 2026-08-16 12:00 | Japonya J3 Lig | Nara Club - Kagoshima Unite | finished | -

@@ -1,19 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T11:39:34.599480+00:00
+Tarih: 2026-08-16T11:37:36.424464+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 205
+- Durum: success
+- Kac mac bulundu: 243
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Kac mac zaten vardi: 243
+- Ham veri havuzu toplam mac sayisi: 7323
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Güney Batı
@@ -35,6 +37,7 @@ Tarih: 2026-08-16T11:39:34.599480+00:00
 - Danimarka 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
@@ -42,15 +45,18 @@ Tarih: 2026-08-16T11:39:34.599480+00:00
 - Finlandiya Ykkösliiga
 - Fransa Süper Kupa
 - Galler FAW Championship Kuzey
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Letonya Kupa Çeyrek Final
 - Litvanya A Ligi
 - Macaristan NB I
@@ -60,6 +66,7 @@ Tarih: 2026-08-16T11:39:34.599480+00:00
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -87,6 +94,7 @@ Tarih: 2026-08-16T11:39:34.599480+00:00
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İngiltere Championship
 - İngiltere Community Shield
