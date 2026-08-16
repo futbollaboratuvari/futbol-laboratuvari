@@ -1,19 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 211
-Tam analiz: 187
-Eksik analiz: 24
+Toplam analiz: 141
+Tam analiz: 127
+Eksik analiz: 14
 
-- Linero VS Rappe: eksik score, confidence
-- Chippa United VS Orlando Pirates: eksik score, confidence
-- Odd Bk Ii VS Hinna: eksik score, confidence
-- Riga Fc VS Metta / Lu: eksik score, confidence
-- Progreso VS Deportivo Maldo: eksik score, confidence
-- Nomme Kalju VS Vaprus: eksik score, confidence
-- Runavik VS Streymur: eksik score, confidence
-- Hb Torshavn VS B68 Toftir: eksik score, confidence
-- Bate Ii VS Volna Pinsk: eksik score, confidence
 - Heerenveen (K) VS Feyenoord (K): eksik score, confidence
 - Super Nova VS Daugava Riga: eksik score, confidence
 - Balatonalmadi VS Gyor Ii: eksik score, confidence
@@ -25,3 +16,6 @@ Eksik analiz: 24
 - Bohemian VS Longford: eksik score, confidence
 - Tristan VS Almirante: eksik score, confidence
 - Defensor Sport VS Liverpool Monte: eksik score, confidence
+- Kr Reykjavik VS Breidablik: eksik score, confidence
+- Always Ready VS Real Potosi: eksik score, confidence
+- R Cordoba VS San Martin Sj: eksik score, confidence

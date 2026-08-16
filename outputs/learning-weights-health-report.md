@@ -1,10 +1,10 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
 Durum: waiting_data
-Tahmin sayisi: 107
+Tahmin sayisi: 110
 Hazir market hafizasi: 0/3
-Hazir lig hafizasi: 0/58
-Hazir lig+market hafizasi: 0/76
+Hazir lig hafizasi: 0/59
+Hazir lig+market hafizasi: 0/79
 Guclendirilen toplam: 0
 Dusurulen toplam: 0
 
