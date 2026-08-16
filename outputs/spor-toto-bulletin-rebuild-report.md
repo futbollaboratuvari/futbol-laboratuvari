@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-16T15:26:12.401Z
+- Guncelleme: 2026-08-16T16:21:42.006Z
 - Ham fixture sayisi: 7294
 - Bugun/yarin kaynak mac: 373
-- Aktif bulten maci: 142
+- Aktif bulten maci: 113
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 231
+- Bultenden dusurulen mac: 260
 
-- 1. 2026-08-16 18:30 | Macaristan NB III Kuzeybatı | 1908 Szac - Dorogi Fc | scheduled
-- 2. 2026-08-16 18:30 | Macaristan NB III Kuzeybatı | Balatonalmadi - Gyor Ii | scheduled
-- 3. 2026-08-16 18:30 | Macaristan NB III Güneydoğu | Bkv Elore - Esmtk | scheduled
-- 4. 2026-08-16 18:30 | Polonya Ekstraklasa | Cracovia Krako - Rakow Czestocho | scheduled
-- 5. 2026-08-16 18:30 | Slovenya 2.SNL | Dravinja - Nk Bilje | scheduled
-- 6. 2026-08-16 18:30 | Irak Premier Lig | Duhok - Al Gharraf | scheduled
-- 7. 2026-08-16 18:30 | Romanya 1.Lig | Otelul Galati - Universitatea C | scheduled
-- 8. 2026-08-16 18:30 | Macaristan NB I | Puskas Academy - Paksi | scheduled
-- 9. 2026-08-16 18:30 | Slovenya 1.SNL | Radomlje - Aluminij | scheduled
-- 10. 2026-08-16 18:30 | Macaristan NB II | Szentlorinc Se - Csakvari Tk | scheduled
-- 11. 2026-08-16 18:30 | Güney Afrika PSL | Ts Galaxy - Golden Arrows | scheduled
-- 12. 2026-08-16 18:45 | Litvanya A Ligi | Kauno Zalgiris - Transinvest Vil | scheduled
-- 13. 2026-08-16 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc - Pendikspor | scheduled
-- 14. 2026-08-16 19:00 | Türkiye Süper Lig | Başakşehir Fk - Kocaelispor | scheduled
-- 15. 2026-08-16 19:00 | Bulgaristan 1.Lig | Cska Sofia - Botev Vratsa | scheduled
+- 1. 2026-08-16 19:30 | Şili Premier Lig | Atletico Nuble - Union La Calera | scheduled
+- 2. 2026-08-16 19:30 | Rusya Premier Lig | Baltika Kalini - Spartak Moskova | scheduled
+- 3. 2026-08-16 19:30 | Portekiz 3.Lig Grup B | Caldas - Lusitano Evora | scheduled
+- 4. 2026-08-16 19:30 | İtalya Kupa 1.Tur | Genoa - Ascoli Picchio | scheduled
+- 5. 2026-08-16 19:30 | Belçika Pro Lig | Mechelen - Standard Liege | scheduled
+- 6. 2026-08-16 19:30 | Hırvatistan 1.HNL | Varazdin - Rijeka | scheduled
+- 7. 2026-08-16 19:30 | Litvanya A Ligi | Zalgiris Vilni - Banga | scheduled
+- 8. 2026-08-16 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club - Abha | scheduled
+- 9. 2026-08-16 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Banniyas - Al Ain | scheduled
+- 10. 2026-08-16 20:00 | Portekiz Premier Lig | Arouca - Moreirense | scheduled
+- 11. 2026-08-16 20:00 | İspanya 2.Lig | Burgos - Cordoba | scheduled
+- 12. 2026-08-16 20:00 | Belarus Premier Lig | Dinamo Brest - Isloch | scheduled
+- 13. 2026-08-16 20:00 | İspanya LaLiga | Espanyol - Levante | scheduled
+- 14. 2026-08-16 20:00 | İspanya 2.Lig | Girona - Leganes | scheduled
+- 15. 2026-08-16 20:00 | Sırbistan Süper Lig | Imt Novi Beogr - Radnicki Nis | scheduled

@@ -4,38 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-16T16:11:55.214Z
+- Güncelleme: 2026-08-16T16:23:13.199Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Arsenal VS Manchester City | İngiltere Community Shield | 17:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| La Louvière VS Gent | Belçika Pro Lig | 17:00 | MS 1 | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Lyngby VS Midtjylland | Danimarka Süperlig | 17:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Oulu VS Inter Turku | Finlandiya Veikkausliiga | 17:00 | MS X | 2.95 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Lahti VS Kuopion | Finlandiya Veikkausliiga | 17:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Krylya Sovieto VS Makhachkala | Rusya Premier Lig | 17:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Chapecoense VS Bahia | Brezilya Serie A | 17:00 | MS 1 | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Mikkelin VS Ekenas If | Finlandiya Ykkösliiga | 17:00 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Beerschot-Wilr VS Kaa Gent Ii | Belçika Challenger Pro Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Sotra Sk VS Traeff | Norveç 2.Lig Grup 1 | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Operario VS Avai | Brezilya Serie B | 17:00 | MS 2 | 4.67 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Hutnik Krakow VS Legia Warszawa | Polonya 2.Lig | 17:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Progreso VS Deportivo Maldo | Uruguay Premier Lig Clausura | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Vjs VS Jyvaskyla | Finlandiya Ykkönen | 17:00 | MS X | 3.97 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Trans Narva VS Paide Linnamees | Estonya Premium Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Nomme Kalju VS Vaprus | Estonya Premium Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Kyzyl-Zhar VS Astana | Kazakistan Premier Lig | 17:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Lillestrom Sk VS Harstad | Norveç 3.Lig Grup 5 | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Österlen VS Oskarshamns Aik | İsveç 2.Lig Södra Götaland | 17:00 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| If Karlstad Ii VS Lidkopings | İsveç 2.Lig Norra Götaland | 17:00 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Ifk Ostersund VS Lucksta | İsveç 2.Lig Norrland Yükselme Grubu | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Runavik VS Streymur | Faroe Adaları Master Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Hb Torshavn VS B68 Toftir | Faroe Adaları Master Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Bate Ii VS Volna Pinsk | Belarus 1.Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Hatta Dubai VS Al Jazira | Birleşik Arap Emirlikleri Arap Körfez Ligi | 17:10 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Nacional Madei VS Estoril | Portekiz Premier Lig | 17:30 | MS X | 2.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Gais VS Malmö | İsveç Allsvenskan | 17:30 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Kalmar VS Hammarby | İsveç Allsvenskan | 17:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -102,37 +77,37 @@
 | Al Bukayriyah VS Al Hazm | Suudi Arabistan Kral Kupası Son 32 Turu | 19:15 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Vestur Sorvagu VS B36 Torshavn | Faroe Adaları Master Lig | 19:15 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Ab Argir VS Kí Klaksvík | Faroe Adaları Master Lig | 19:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Mechelen VS Standard Liege | Belçika Pro Lig | 19:30 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Genoa VS Ascoli Picchio | İtalya Kupa 1.Tur | 19:30 | MS 2 | 6.26 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Mechelen VS Standard Liege | Belçika Pro Lig | 19:30 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Genoa VS Ascoli Picchio | İtalya Kupa 1.Tur | 19:30 | MS 2 | 6.52 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Baltika Kalini VS Spartak Moskova | Rusya Premier Lig | 19:30 | MS 1 | 3.20 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Varazdin VS Rijeka | Hırvatistan 1.HNL | 19:30 | MS X | 2.74 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Zalgiris Vilni VS Banga | Litvanya A Ligi | 19:30 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Atletico Nuble VS Union La Calera | Şili Premier Lig | 19:30 | MS 2 | 3.91 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Varazdin VS Rijeka | Hırvatistan 1.HNL | 19:30 | MS X | 2.76 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Zalgiris Vilni VS Banga | Litvanya A Ligi | 19:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atletico Nuble VS Union La Calera | Şili Premier Lig | 19:30 | MS 2 | 3.77 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Caldas VS Lusitano Evora | Portekiz 3.Lig Grup B | 19:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Al Orubah Club VS Abha | Suudi Arabistan Kral Kupası Son 32 Turu | 19:40 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Banniyas VS Al Ain | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:45 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Espanyol VS Levante | İspanya LaLiga | 20:00 | MS 2 | 3.17 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Arouca VS Moreirense | Portekiz Premier Lig | 20:00 | MS 2 | 3.68 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Espanyol VS Levante | İspanya LaLiga | 20:00 | MS 2 | 3.22 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Arouca VS Moreirense | Portekiz Premier Lig | 20:00 | MS 2 | 3.76 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Burgos VS Cordoba | İspanya 2.Lig | 20:00 | MS 2 | 2.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Girona VS Leganes | İspanya 2.Lig | 20:00 | MS 2 | 5.23 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Rapid Wien VS Grazer Ak | Avusturya Bundesliga | 20:00 | MS 2 | 5.01 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Rapid Wien VS Grazer Ak | Avusturya Bundesliga | 20:00 | MS 2 | 5.18 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Imt Novi Beogr VS Radnicki Nis | Sırbistan Süper Lig | 20:00 | MS 2 | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Porto (B) VS Farense | Portekiz 2.Lig | 20:00 | MS 1 | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Porto (B) VS Farense | Portekiz 2.Lig | 20:00 | MS 1 | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Zira VS Safa | Azerbaycan Premier Lig | 20:00 | MS 2 | 4.77 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Kfc Komarno VS Dac | Slovakya Süper Lig | 20:00 | MS 1 | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Dinamo Brest VS Isloch | Belarus Premier Lig | 20:00 | MS X | 2.82 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Samgurali VS Dinamo Batumi | Gürcistan Erovnuli Liga | 20:00 | MS X | 2.91 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Samgurali VS Dinamo Batumi | Gürcistan Erovnuli Liga | 20:00 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sireti VS Sheriff Tiraspo | Moldova Ulusal Lig | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Zimbru VS Milsami-Ursidos | Moldova Ulusal Lig | 20:00 | MS 2 | 4.16 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Valerenga Ii VS If Ready | Norveç 3.Lig Grup 1 | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sunnersta Aif VS Taby | İsveç 2.Lig Norra Svealand | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Lommel VS Charleroi | Belçika Pro Lig | 20:15 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Fredrikstad VS Kristiansund | Norveç Eliteserien | 20:15 | MS 2 | 3.56 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Fredrikstad VS Kristiansund | Norveç Eliteserien | 20:15 | MS 2 | 3.69 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Stuttgart (Amt VS Viktoria Köln | Almanya 3. Lig | 20:30 | MS X | 3.30 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Unia Skierniew VS Miedz Legnica | Polonya 1.Lig | 20:30 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Stal S Wola VS Avia Swidnik | Polonya 2.Lig | 20:30 | MS X | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Stal S Wola VS Avia Swidnik | Polonya 2.Lig | 20:30 | MS X | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Skala VS Vikingur Gota | Faroe Adaları Master Lig | 20:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Jkt Tanzania VS Tabora United | Tanzanya Kuu Bara Ligi | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Jkt Tanzania VS Tabora United | Tanzanya Kuu Bara Ligi | 20:30 | MS 2 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Wahda VS Al Shabab (Riya | Suudi Arabistan Kral Kupası Son 32 Turu | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Slovan Liberec VS Slavia Prag | Çek Cumhuriyeti Czech Liga | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sarmiento VS Huracan | Arjantin Premier Lig 2. Aşama | 21:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -143,8 +118,8 @@
 | Leones Negros VS Cds Tampico Mad | Meksika Ascenso MX Apertura | 21:00 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Vestmannaeyjar VS Akranes | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Kr Reykjavik VS Breidablik | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Hafnarfjordur VS Vikingur Reykja | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Erbil Sc VS Al Kahraba | Irak Premier Lig | 21:00 | MS 2 | 4.17 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Hafnarfjordur VS Vikingur Reykja | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Erbil Sc VS Al Kahraba | Irak Premier Lig | 21:00 | MS 2 | 4.32 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Al Shorta VS Karbala | Irak Premier Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gornik Zabrze VS Wisla Krakow | Polonya Ekstraklasa | 21:15 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Lokomotiv Plov VS Dunav 2010 | Bulgaristan 1.Lig | 21:15 | MS 2 | 4.52 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -154,16 +129,16 @@
 | Amed Sk VS Erzurumspor Fk | Türkiye Süper Lig | 21:30 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hunedoara VS Cfr Cluj | Romanya 1.Lig | 21:30 | MS X | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Sliema VS Hibernians | Malta Premier Lig Açılış | 21:30 | MS 2 | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Mardin 1969 VS Antalyaspor | Türkiye TFF 1. Lig | 21:30 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Mardin 1969 VS Antalyaspor | Türkiye TFF 1. Lig | 21:30 | MS 1 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Muğlaspor VS Bandirmaspor | Türkiye TFF 1. Lig | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Lens VS Psg | Fransa Süper Kupa | 21:45 | MS 1 | 4.06 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Lens VS Psg | Fransa Süper Kupa | 21:45 | MS 1 | 4.19 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Verona VS Virtus Entella | İtalya Kupa 1.Tur | 21:45 | MS 2 | 4.56 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Partizan Belgr VS Radnicki 1923 | Sırbistan Süper Lig | 22:00 | MS 2 | 4.15 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Zemun Belg. VS Mladost Lucani | Sırbistan Süper Lig | 22:00 | MS 1 | 2.87 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Vasco Da Gama VS Santos | Brezilya Serie A | 22:00 | MS 2 | 3.58 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Atletico Mg VS Gremio | Brezilya Serie A | 22:00 | MS 2 | 3.95 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hnk Gorica VS Hajduk Split | Hırvatistan 1.HNL | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Cobresal VS Concepcion | Şili Premier Lig | 22:00 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cobresal VS Concepcion | Şili Premier Lig | 22:00 | MS X | 2.93 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gimnasia Jujuy VS Chaco For Ever | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Varzim VS Ad Marco 09 | Portekiz 3.Lig Grup A | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Orense VS Deportivo Cuenc | Ekvador Pro Lig | 22:00 | MS 2 | 3.46 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -181,7 +156,7 @@
 | Depor Tachira VS Monagas | Venezuela Premier Lig Clausura | 00:00 | MS 2 | 5.53 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Atl Temperley VS Los Andes | Arjantin Ulusal Primera Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | San Martin Tuc VS Deportivo Madry | Arjantin Ulusal Primera Lig | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Deportivo San VS Aurora | Guatemala Ulusal Lig Apertura | 00:00 | MS 2 | 4.40 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Deportivo San VS Aurora | Guatemala Ulusal Lig Apertura | 00:00 | MS 2 | 4.52 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Choloma VS Marathon | Honduras Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Emelec VS T.Universitario | Ekvador Pro Lig | 00:15 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Nacional Potos VS Academia Del Ba | Bolivya Premier Lig | 00:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
@@ -220,21 +195,21 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Chicago VS Portland | MS 2 | 4.58 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Genoa VS Ascoli Picchio | MS 2 | 6.26 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Genoa VS Ascoli Picchio | MS 2 | 6.52 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Depor Tachira VS Monagas | MS 2 | 5.53 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Club America VS Atletico San Lu | MS 2 | 5.20 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Rapid Wien VS Grazer Ak | MS 2 | 5.01 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Rapid Wien VS Grazer Ak | MS 2 | 5.18 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Brann VS Ham Kam | MS 2 | 4.93 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chicago VS Portland + Genoa VS Ascoli Picchio | MS 2 + MS 2 | 28.67 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Chicago VS Portland + Genoa VS Ascoli Picchio | MS 2 + MS 2 | 29.86 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | Depor Tachira VS Monagas + Club America VS Atletico San Lu | MS 2 + MS 2 | 28.76 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Rapid Wien VS Grazer Ak + Brann VS Ham Kam | MS 2 + MS 2 | 24.70 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Rapid Wien VS Grazer Ak + Brann VS Ham Kam | MS 2 + MS 2 | 25.54 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chicago VS Portland + Genoa VS Ascoli Picchio + Depor Tachira VS Monagas | MS 2 + MS 2 + MS 2 | 158.55 | 82 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Club America VS Atletico San Lu + Rapid Wien VS Grazer Ak + Brann VS Ham Kam | MS 2 + MS 2 + MS 2 | 128.44 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Chicago VS Portland + Genoa VS Ascoli Picchio + Depor Tachira VS Monagas | MS 2 + MS 2 + MS 2 | 165.13 | 82 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Club America VS Atletico San Lu + Rapid Wien VS Grazer Ak + Brann VS Ham Kam | MS 2 + MS 2 + MS 2 | 132.79 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
