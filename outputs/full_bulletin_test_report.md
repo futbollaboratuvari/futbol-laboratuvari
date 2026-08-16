@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 39
-- Live match count: 31
+- Scheduled match count: 38
+- Live match count: 20
 - Finished removed count: 0
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 21:15 | Lokomotiv Plov - Dunav | live
-- 2026-08-16 21:15 | Deportivo Moqu - Sport Boys | live
-- 2026-08-16 21:15 | Gornik Zabrze - Wisla Krakow | live
-- 2026-08-16 21:15 | Koper - Ask Bravo | live
-- 2026-08-16 21:30 | Sliema - Hibernians | live
-- 2026-08-16 21:30 | Hunedoara - Cfr Cluj | live
-- 2026-08-16 21:30 | Amed Sk - Erzurumspor Fk | live
-- 2026-08-16 21:30 | Beşiktaş - Eyüpspor | live
-- 2026-08-16 21:30 | Mardin - Antalyaspor | live
-- 2026-08-16 21:30 | Muğlaspor - Bandirmaspor | live
+- 2026-08-16 22:00 | Gimnasia Jujuy - Chaco For Ever | live
+- 2026-08-16 22:00 | Always Ready - Real Potosi | live
+- 2026-08-16 22:00 | Radnik Bijelji - Zrinjski | live
+- 2026-08-16 22:00 | Atletico Mg - Gremio | live
+- 2026-08-16 22:00 | Vasco Da Gama - Santos | live
+- 2026-08-16 22:00 | Orense - Deportivo Cuenc | live
+- 2026-08-16 22:00 | Hnk Gorica - Hajduk Split | live
+- 2026-08-16 22:00 | Varzim - Ad Marco 09 | live
+- 2026-08-16 22:00 | Partizan Belgr - Radnicki | live
+- 2026-08-16 22:00 | Zemun Belg. - Mladost Lucani | live
