@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T14:04:38.514975+00:00
+Tarih: 2026-08-16T14:44:54.155110+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 157
+- Kac mac bulundu: 137
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 157
+- Kac mac zaten vardi: 137
 - Ham veri havuzu toplam mac sayisi: 7334
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
@@ -22,7 +22,6 @@ Tarih: 2026-08-16T14:04:38.514975+00:00
 - Azerbaycan Premier Lig
 - Belarus 1.Lig
 - Belarus Premier Lig
-- Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
@@ -33,9 +32,6 @@ Tarih: 2026-08-16T14:04:38.514975+00:00
 - Ekvador Pro Lig
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
-- Finlandiya Ykkösliiga
 - Fransa Süper Kupa
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
@@ -58,7 +54,6 @@ Tarih: 2026-08-16T14:04:38.514975+00:00
 - Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Norveç 1.Lig
-- Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
 - Norveç 3.Lig Grup 1
 - Norveç Eliteserien
@@ -84,16 +79,12 @@ Tarih: 2026-08-16T14:04:38.514975+00:00
 - Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İngiltere Championship
-- İngiltere Community Shield
 - İrlanda FAI Kupası 3.Tur
 - İskoçya Lig Kupası 2.Tur
 - İspanya 2.Lig
 - İspanya LaLiga
-- İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Norrland Yükselme Grubu
-- İsveç 2.Lig Södra Götaland
-- İsveç Allsvenskan
 - İtalya Kupa 1.Tur
 - İzlanda Urvalsdeild
 - Şili Premier Lig
@@ -167,26 +158,26 @@ Tarih: 2026-08-16T14:04:38.514975+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 16.08.2026 | 19:00 | Türkiye Süper Lig | Başakşehir Fk | Kocaelispor | 01443 | 5 |
 | 16.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Eyüpspor | 01283 | 5 |
 | 16.08.2026 | 21:30 | Türkiye Süper Lig | Amed Sk | Erzurumspor Fk | 01281 | 5 |
+| 16.08.2026 | 19:00 | Türkiye Süper Lig | Başakşehir Fk | Kocaelispor | 01443 | 5 |
 | 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc | Pendikspor | 08816 | 5 |
-| 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Sivasspor | 08896 | 5 |
-| 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Bandirmaspor | 09092 | 5 |
 | 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Antalyaspor | 09031 | 5 |
-| 16.08.2026 | 17:00 | İngiltere Community Shield | Arsenal | Manchester City | 01574 | 5 |
+| 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Bandirmaspor | 09092 | 5 |
+| 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Sivasspor | 08896 | 5 |
 | 16.08.2026 | 18:00 | İspanya LaLiga | Santander | Villarreal | 08141 | 5 |
 | 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
 | 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
 | 16.08.2026 | 17:45 | Hollanda Eredivisie | Ajax | Heerenveen | 36167 | 5 |
-| 16.08.2026 | 17:30 | Portekiz Premier Lig | Nacional Madei | Estoril | 33827 | 5 |
 | 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
 | 16.08.2026 | 20:00 | Portekiz Premier Lig | Arouca | Moreirense | 33885 | 5 |
 | 16.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah | Al Hazm | 05909 | 5 |
-| 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
 | 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
+| 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
 | 16.08.2026 | 19:30 | Belçika Pro Lig | Mechelen | Standard Liege | 36709 | 5 |
 | 16.08.2026 | 20:15 | Belçika Pro Lig | Lommel | Charleroi | 36968 | 5 |
+| 16.08.2026 | 18:00 | İngiltere Championship | Burnley | West Ham | 24810 | 5 |
+| 16.08.2026 | 22:30 | İspanya 2.Lig | Las Palmas | Albacete | 26206 | 5 |
 
 ## Sonuc
 

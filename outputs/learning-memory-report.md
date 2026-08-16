@@ -1,11 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
+<<<<<<< Updated upstream
 Oluşturma: 16.08.2026 17:42:02
+=======
+Oluşturma: 16.08.2026 17:45:04
+>>>>>>> Stashed changes
 
 ## Özet
 
-- Toplam tahmin: 126
-- Bekleyen tahmin: 126
+- Toplam tahmin: 128
+- Bekleyen tahmin: 128
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 63
@@ -20,12 +24,14 @@ Oluşturma: 16.08.2026 17:42:02
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS X: toplam 68, bekleyen 68, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 47, bekleyen 47, başarı bekleniyor, ağırlık 1
-- MS X: toplam 67, bekleyen 67, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-16 | Avusturya Bundesliga | Wattens - Salzburg | MS 1 | pending | 40/100
+- 2026-08-16 | Norveç Eliteserien | Sarpsborg - Sandefjord | MS X | pending | 60/100
 - 2026-08-16 | Fransa Süper Kupa | Lens - Psg | MS 1 | pending | 45/100
 - 2026-08-16 | İtalya Kupa 1.Tur | Verona - Virtus Entella | MS 2 | pending | 50/100
 - 2026-08-16 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | MS 2 | pending | 60/100
@@ -39,6 +45,4 @@ Oluşturma: 16.08.2026 17:42:02
 - 2026-08-16 | İspanya 2.Lig | Las Palmas - Albacete | MS 2 | pending | 40/100
 - 2026-08-16 | Kanada Premier Lig | Inter Toronto - Hfx Wanderers | MS X | pending | 50/100
 - 2026-08-16 | Sırbistan Süper Lig | Imt Novi Beogr - Radnicki Nis | MS 2 | pending | 40/100
-- 2026-08-16 | Portekiz 2.Lig | Porto (B) - Farense | MS 1 | pending | 40/100
-- 2026-08-16 | Azerbaycan Premier Lig | Zira - Safa | MS 2 | pending | 60/100
 
