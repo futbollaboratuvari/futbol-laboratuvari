@@ -1,11 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
+<<<<<<< Updated upstream
 Oluşturma: 16.08.2026 07:04:16
+=======
+Oluşturma: 16.08.2026 07:05:18
+>>>>>>> Stashed changes
 
 ## Özet
 
-- Toplam tahmin: 199
-- Bekleyen tahmin: 199
+- Toplam tahmin: 200
+- Bekleyen tahmin: 200
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 84
@@ -20,12 +24,13 @@ Oluşturma: 16.08.2026 07:04:16
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 104, bekleyen 104, başarı bekleniyor, ağırlık 1
+- MS X: toplam 105, bekleyen 105, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 83, bekleyen 83, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-16 | Gürcistan Erovnuli Liga | Dila Gori - Meshakhte | MS X | pending | 75/100
 - 2026-08-16 | İsveç 2.Lig Södra Götaland | Växjö Norra - Staffanstorp Un | MS X | pending | 50/100
 - 2026-08-16 | Güney Kore K Lig 2 | Daegu - Asan Mugunghwa | MS X | pending | 50/100
 - 2026-08-16 | Meksika Liga MX Apertura | Pumas Unam - Queretaro | MS 2 | pending | 50/100
@@ -40,5 +45,4 @@ Oluşturma: 16.08.2026 07:04:16
 - 2026-08-16 | İtalya Kupa 1.Tur | Verona - Virtus Entella | MS 2 | pending | 50/100
 - 2026-08-16 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | MS 2 | pending | 60/100
 - 2026-08-16 | Sırbistan Süper Lig | Zemun Belg. - Mladost Lucani | MS 1 | pending | 40/100
-- 2026-08-16 | Brezilya Serie A | Vasco Da Gama - Santos | MS 2 | pending | 40/100
 
