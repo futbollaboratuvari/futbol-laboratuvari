@@ -2,20 +2,15 @@
 
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
-Ham mac: 311
-Aktif mac: 284
-Canli mac: 27
+Ham mac: 292
+Aktif mac: 279
+Canli mac: 13
 Biten mac: 0
-Bultenden dusurulen mac: 27
-Bugun: 247
+Bultenden dusurulen mac: 13
+Bugun: 242
 Yarin: 37
 
 ## Baslamamis Maclar
-- 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
-- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - Unsw Fc | scheduled | -
-- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Rockdale Cs - Wollongong Wolv | scheduled | -
-- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Sutherland Shar | scheduled | -
-- 2026-08-16 08:00 | Avustralya NPL Victoria | Preston Lions - Dandenong Thund | scheduled | -
 - 2026-08-16 09:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Queanbeyan City | scheduled | -
 - 2026-08-16 11:15 | Çek Cumhuriyeti FNL | Viktoria Zizko - Banik Ostrava I | scheduled | -
 - 2026-08-16 11:30 | Avusturya 1.Lig | First Vienna - Liefering | scheduled | -
@@ -297,25 +292,6 @@ Yarin: 37
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 04:00 | Meksika Ascenso MX Apertura | Dorados - Tlaxcala | live | -
-- 2026-08-16 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Durango | live | -
-- 2026-08-16 04:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Malacateco | live | -
-- 2026-08-16 04:00 | ABD USL | Colorado Sprin - Birmingham Legi | live | -
-- 2026-08-16 04:00 | ABD USL | San Antonio - El Paso Locomot | live | -
-- 2026-08-16 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - San Marcos | live | -
-- 2026-08-16 04:00 | El Salvador Primera Lig Apertura | Alianza - Cacahuatique | live | -
-- 2026-08-16 04:00 | ABD USL Lig 1 | Spokane Veloci - Corpus Christi | live | -
-- 2026-08-16 04:10 | Meksika Liga MX Apertura | Monterrey - Fc Juarez | live | -
-- 2026-08-16 04:30 | ABD MLS | Salt Lake - Minnesota Utd | live | -
-- 2026-08-16 04:30 | ABD MLS | Colorado - Kansas | live | -
-- 2026-08-16 04:30 | ABD USL | New Mexico Uni - Tulsa Roughneck | live | -
-- 2026-08-16 04:30 | Honduras Ulusal Lig Apertura | Real Espana - Atlético Indepe | live | -
-- 2026-08-16 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Cs Cartagines | live | -
-- 2026-08-16 05:00 | ABD USL | Oakland Roots - Monterey Bay | live | -
-- 2026-08-16 05:00 | ABD USL | Orange County - Louisville City | live | -
-- 2026-08-16 05:30 | ABD MLS | San Jose - St. Louis City | live | -
-- 2026-08-16 05:30 | ABD MLS | Los Angeles Fc - San Diego | live | -
-- 2026-08-16 05:30 | ABD USL | Las Vegas Ligh - Brooklyn | live | -
 - 2026-08-16 06:00 | ABD USL | Sacramento Rep - Lexington | live | -
 - 2026-08-16 06:10 | Meksika Liga MX Apertura | Atlas - Tigres Uanl | live | -
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Charlestow City | live | -
@@ -324,6 +300,11 @@ Yarin: 37
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Maitland - Edgeworth Eagle | live | -
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Newcastle Olymp | live | -
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Valentine Phoe - Weston Bears | live | -
+- 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | live | -
+- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - Unsw Fc | live | -
+- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Rockdale Cs - Wollongong Wolv | live | -
+- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Sutherland Shar | live | -
+- 2026-08-16 08:00 | Avustralya NPL Victoria | Preston Lions - Dandenong Thund | live | -
 
 ## Biten Maclar
 Biten mac yok.
