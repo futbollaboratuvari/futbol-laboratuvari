@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-15T22:14:09.631Z
+- Guncelleme: 2026-08-16T00:43:30.210Z
 - Ham fixture sayisi: 7278
 - Bugun/yarin kaynak mac: 357
-- Aktif bulten maci: 340
+- Aktif bulten maci: 310
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 17
+- Bultenden dusurulen mac: 47
 
-- 1. 2026-08-16 01:30 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | scheduled
-- 2. 2026-08-16 02:00 | Meksika Liga MX Apertura | Atlante - Toluca | scheduled
-- 3. 2026-08-16 02:00 | ABD USL Lig 1 | Charlotte Inde - Sarasota Paradi | scheduled
-- 4. 2026-08-16 02:00 | ABD USL | Detroit City - Loudoun United | scheduled
-- 5. 2026-08-16 02:00 | ABD USL Lig 1 | Greenville Tri - One Knoxville | scheduled
-- 6. 2026-08-16 02:00 | Guatemala Ulusal Lig Apertura | Guastatoya - Municipal | scheduled
-- 7. 2026-08-16 02:00 | ABD USL | Hartford Athle - Miami Fc | scheduled
-- 8. 2026-08-16 02:00 | ABD USL Lig 1 | New York Cosmo - Alta | scheduled
-- 9. 2026-08-16 02:00 | ABD USL | Pittsburgh Riv - Charleston Batt | scheduled
-- 10. 2026-08-16 02:00 | Venezuela Premier Lig Clausura | Portuguesa - Trujillanos | scheduled
-- 11. 2026-08-16 02:00 | Nikaragua Premier Lig Apertura | Rancho Santana - Walter Ferretti | scheduled
-- 12. 2026-08-16 02:00 | ABD USL | Sporting Jax - Indy Eleven | scheduled
-- 13. 2026-08-16 02:00 | ABD USL Lig 1 | Westchester Sc - Naples | scheduled
-- 14. 2026-08-16 02:15 | Honduras Ulusal Lig Apertura | Upnfm - Estrella Roja | scheduled
-- 15. 2026-08-16 02:30 | Venezuela Premier Lig Clausura | Academia Puert - Rayo Zuliano | scheduled
+- 1. 2026-08-16 04:00 | El Salvador Primera Lig Apertura | Alianza - Cacahuatique | scheduled
+- 2. 2026-08-16 04:00 | Meksika Ascenso MX Apertura | Cancun Fc - Durango | scheduled
+- 3. 2026-08-16 04:00 | ABD USL | Colorado Sprin - Birmingham Legi | scheduled
+- 4. 2026-08-16 04:00 | Guatemala Ulusal Lig Apertura | Comunicaciones - Malacateco | scheduled
+- 5. 2026-08-16 04:00 | Meksika Ascenso MX Apertura | Dorados - Tlaxcala | scheduled
+- 6. 2026-08-16 04:00 | Nikaragua Premier Lig Apertura | Matagalpa - San Marcos | scheduled
+- 7. 2026-08-16 04:00 | ABD USL | San Antonio - El Paso Locomot | scheduled
+- 8. 2026-08-16 04:00 | ABD USL Lig 1 | Spokane Veloci - Corpus Christi | scheduled
+- 9. 2026-08-16 04:10 | Meksika Liga MX Apertura | Monterrey - Fc Juarez | scheduled
+- 10. 2026-08-16 04:30 | ABD MLS | Colorado - Kansas | scheduled
+- 11. 2026-08-16 04:30 | ABD USL | New Mexico Uni - Tulsa Roughneck | scheduled
+- 12. 2026-08-16 04:30 | Honduras Ulusal Lig Apertura | Real Espana - Atlético Indepe | scheduled
+- 13. 2026-08-16 04:30 | ABD MLS | Salt Lake - Minnesota Utd | scheduled
+- 14. 2026-08-16 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Cs Cartagines | scheduled
+- 15. 2026-08-16 05:00 | ABD USL | Oakland Roots - Monterey Bay | scheduled
