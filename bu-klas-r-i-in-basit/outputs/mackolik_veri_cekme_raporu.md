@@ -1,51 +1,38 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T16:49:18.061054+00:00
+Tarih: 2026-08-16T17:03:58.579151+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 106
+- Kac mac bulundu: 56
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 106
+- Kac mac zaten vardi: 56
 - Ham veri havuzu toplam mac sayisi: 7334
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL Lig 1
 - Almanya 3. Lig
 - Almanya U19 Bundesliga Grup H
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avusturya Bundesliga
 - Azerbaycan Premier Lig
-- Belarus Premier Lig
 - Belçika Pro Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Faroe Adaları Master Lig
 - Fransa Süper Kupa
-- Guatemala Ulusal Lig Apertura
-- Gürcistan Erovnuli Liga
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
-- Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
-- Norveç 3.Lig Grup 1
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -55,7 +42,6 @@ Tarih: 2026-08-16T16:49:18.061054+00:00
 - Portekiz 3.Lig Grup A
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Slovakya Süper Lig
 - Slovenya 1.SNL
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Sırbistan Süper Lig
@@ -63,7 +49,6 @@ Tarih: 2026-08-16T16:49:18.061054+00:00
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İrlanda FAI Kupası 3.Tur
 - İspanya 2.Lig
@@ -129,8 +114,8 @@ Tarih: 2026-08-16T16:49:18.061054+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 68
-- Acilan detay: 68
+- Denenen Tumu alani: 62
+- Acilan detay: 62
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -150,19 +135,19 @@ Tarih: 2026-08-16T16:49:18.061054+00:00
 | 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
 | 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
 | 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
-| 16.08.2026 | 20:00 | Portekiz Premier Lig | Arouca | Moreirense | 33885 | 5 |
-| 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
 | 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
 | 16.08.2026 | 20:15 | Belçika Pro Lig | Lommel | Charleroi | 36968 | 5 |
 | 16.08.2026 | 22:30 | İspanya 2.Lig | Las Palmas | Albacete | 26206 | 5 |
-| 16.08.2026 | 20:00 | İspanya 2.Lig | Girona | Leganes | 26092 | 5 |
-| 16.08.2026 | 20:00 | İspanya 2.Lig | Burgos | Cordoba | 25969 | 5 |
-| 16.08.2026 | 21:45 | İtalya Kupa 1.Tur | Verona | Virtus Entella | 28852 | 5 |
 | 16.08.2026 | 22:15 | İtalya Kupa 1.Tur | Lazio | Mantova | 28968 | 5 |
-| 16.08.2026 | 20:00 | Avusturya Bundesliga | Rapid Wien | Grazer Ak | 36914 | 5 |
+| 16.08.2026 | 21:45 | İtalya Kupa 1.Tur | Verona | Virtus Entella | 28852 | 5 |
 | 16.08.2026 | 21:15 | Polonya Ekstraklasa | Gornik Zabrze | Wisla Krakow | 35191 | 5 |
 | 16.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec | Slavia Prag | 37124 | 5 |
 | 16.08.2026 | 20:15 | Norveç Eliteserien | Fredrikstad | Kristiansund | 33571 | 5 |
+| 16.08.2026 | 22:00 | Sırbistan Süper Lig | Zemun Belg. | Mladost Lucani | 33676 | 5 |
+| 16.08.2026 | 22:00 | Sırbistan Süper Lig | Partizan Belgr | Radnicki 1923 | 33659 | 5 |
+| 16.08.2026 | 22:00 | Brezilya Serie A | Vasco Da Gama | Santos | 37399 | 5 |
+| 16.08.2026 | 22:00 | Brezilya Serie A | Atletico Mg | Gremio | 37274 | 5 |
+| 16.08.2026 | 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento | Huracan | 06236 | 5 |
 
 ## Sonuc
 
