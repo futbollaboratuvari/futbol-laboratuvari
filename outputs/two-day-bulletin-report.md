@@ -4,8 +4,8 @@ Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 363
 Aktif mac: 283
-Canli mac: 5
-Biten mac: 75
+Canli mac: 1
+Biten mac: 79
 Bultenden dusurulen mac: 80
 Bugun: 245
 Yarin: 38
@@ -296,10 +296,6 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - Unsw Fc | live | -
-- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Rockdale Cs - Wollongong Wolv | live | -
-- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Sutherland Shar | live | -
-- 2026-08-16 08:00 | Avustralya NPL Victoria | Preston Lions - Dandenong Thund | live | -
 - 2026-08-16 09:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Queanbeyan City | live | -
 
 ## Biten Maclar
@@ -378,3 +374,7 @@ Yarin: 38
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Newcastle Olymp | finished | -
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Valentine Phoe - Weston Bears | finished | -
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | finished | -
+- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - Unsw Fc | finished | -
+- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Rockdale Cs - Wollongong Wolv | finished | -
+- 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Sutherland Shar | finished | -
+- 2026-08-16 08:00 | Avustralya NPL Victoria | Preston Lions - Dandenong Thund | finished | -

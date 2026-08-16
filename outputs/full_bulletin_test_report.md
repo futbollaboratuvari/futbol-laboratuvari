@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 283
-- Live match count: 5
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 08:00 | Preston Lions - Dandenong Thund | live
-- 2026-08-16 08:00 | Blacktown City - Unsw Fc | live
-- 2026-08-16 08:00 | Marconi - Sutherland Shar | live
-- 2026-08-16 08:00 | Rockdale Cs - Wollongong Wolv | live
 - 2026-08-16 09:30 | Canberra Juven - Queanbeyan City | live
 - 2026-08-16 11:15 | Viktoria Zizko - Banik Ostrava I | scheduled
 - 2026-08-16 11:30 | First Vienna - Liefering | scheduled
 - 2026-08-16 11:30 | Malzenice - Povazska Bystri | scheduled
 - 2026-08-16 11:30 | Petrzalka - Tatran Presov | scheduled
 - 2026-08-16 12:00 | Yokohama Fc - Iwata | scheduled
+- 2026-08-16 12:00 | Nara Club - Kagoshima Unite | scheduled
+- 2026-08-16 12:00 | Osaka - Parceiro Nagano | scheduled
+- 2026-08-16 12:00 | Vasas Ii - Ujpest Ii | scheduled
+- 2026-08-16 12:00 | Disgyor Ii - Godollo | scheduled
