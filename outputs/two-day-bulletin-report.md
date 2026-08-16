@@ -2,18 +2,15 @@
 
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
-Ham mac: 284
-Aktif mac: 282
-Canli mac: 2
+Ham mac: 283
+Aktif mac: 279
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 244
+Bultenden dusurulen mac: 4
+Bugun: 241
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 11:30 | Avusturya 1.Lig | First Vienna - Liefering | scheduled | -
-- 2026-08-16 11:30 | Slovakya 2.Lig | Petrzalka - Tatran Presov | scheduled | -
-- 2026-08-16 11:30 | Slovakya 2.Lig | Malzenice - Povazska Bystri | scheduled | -
 - 2026-08-16 12:00 | Japonya J2 Lig | Yokohama Fc - Iwata | scheduled | -
 - 2026-08-16 12:00 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Godollo | scheduled | -
 - 2026-08-16 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Ujpest Ii | scheduled | -
@@ -295,8 +292,10 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 09:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Queanbeyan City | live | -
 - 2026-08-16 11:15 | Çek Cumhuriyeti FNL | Viktoria Zizko - Banik Ostrava I | live | -
+- 2026-08-16 11:30 | Avusturya 1.Lig | First Vienna - Liefering | live | -
+- 2026-08-16 11:30 | Slovakya 2.Lig | Petrzalka - Tatran Presov | live | -
+- 2026-08-16 11:30 | Slovakya 2.Lig | Malzenice - Povazska Bystri | live | -
 
 ## Biten Maclar
 Biten mac yok.
