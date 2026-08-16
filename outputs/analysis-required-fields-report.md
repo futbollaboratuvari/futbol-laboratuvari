@@ -1,20 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 130
-Tam analiz: 117
-Eksik analiz: 13
+Toplam analiz: 69
+Tam analiz: 0
+Eksik analiz: 69
 
-- Super Nova VS Daugava Riga: eksik score, confidence
-- Balatonalmadi VS Gyor Ii: eksik score, confidence
-- 1908 Szac VS Dorogi Fc: eksik score, confidence
-- Bkv Elore VS Esmtk: eksik score, confidence
-- Harju Jalgpall VS Levadia Tallinn: eksik score, confidence
-- Flora Tallinn VS Kuressaare: eksik score, confidence
-- Ab Argir VS Kí Klaksvík: eksik score, confidence
-- Bohemian VS Longford: eksik score, confidence
-- Tristan VS Almirante: eksik score, confidence
-- Defensor Sport VS Liverpool Monte: eksik score, confidence
-- Kr Reykjavik VS Breidablik: eksik score, confidence
-- Always Ready VS Real Potosi: eksik score, confidence
-- R Cordoba VS San Martin Sj: eksik score, confidence
+- Al Orubah Club VS Abha: eksik score, confidence
+- Banniyas VS Al Ain: eksik score, confidence
+- Espanyol VS Levante: eksik score, confidence
+- Arouca VS Moreirense: eksik score, confidence
+- Burgos VS Cordoba: eksik score, confidence
+- Girona VS Leganes: eksik score, confidence
+- Rapid Wien VS Grazer Ak: eksik score, confidence
+- Imt Novi Beogr VS Radnicki Nis: eksik score, confidence
+- Porto (B) VS Farense: eksik score, confidence
+- Zira VS Safa: eksik score, confidence
+- Kfc Komarno VS Dac: eksik score, confidence
+- Dinamo Brest VS Isloch: eksik score, confidence
+- Samgurali VS Dinamo Batumi: eksik score, confidence
+- Sireti VS Sheriff Tiraspo: eksik score, confidence
+- Zimbru VS Milsami-Ursidos: eksik score, confidence
+- Valerenga Ii VS If Ready: eksik score, confidence
+- Sunnersta Aif VS Taby: eksik score, confidence
+- Lommel VS Charleroi: eksik score, confidence
+- Fredrikstad VS Kristiansund: eksik score, confidence
+- Stuttgart (Amt VS Viktoria Köln: eksik score, confidence

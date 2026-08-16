@@ -2,38 +2,36 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-16T18:41:22.799Z
-- Ham maç sayısı: 117
+- Güncelleme: 2026-08-16T18:48:52.841Z
+- Ham maç sayısı: 107
 - Yarın bülteni maç sayısı: 38
-- Detay blok sayısı: 329
-- Aktif bülten maçı: 60
-- Bültenden düşürülen maç: 57
+- Detay blok sayısı: 300
+- Aktif bülten maçı: 58
+- Bültenden düşürülen maç: 49
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lens - Psg | Fransa Süper Kupa | 21:45 | Veri bekleniyor | - | 4.02 | 8 |
-| Verona - Virtus Entella | İtalya Kupa 1.Tur | 21:45 | Veri bekleniyor | - | 1.59 | 8 |
-| Partizan Belgr - Radnicki 1923 | Sırbistan Süper Lig | 22:00 | Veri bekleniyor | - | 1.42 | 7 |
-| Zemun Belg. - Mladost Lucani | Sırbistan Süper Lig | 22:00 | Veri bekleniyor | - | 2.79 | 8 |
+| Partizan Belgr - Radnicki 1923 | Sırbistan Süper Lig | 22:00 | Veri bekleniyor | - | 1.39 | 7 |
+| Zemun Belg. - Mladost Lucani | Sırbistan Süper Lig | 22:00 | Veri bekleniyor | - | 2.72 | 8 |
 | Vasco Da Gama - Santos | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.7 | 8 |
-| Atletico Mg - Gremio | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.61 | 8 |
-| Hnk Gorica - Hajduk Split | Hırvatistan 1.HNL | 22:00 | Veri bekleniyor | - | 4.07 | 7 |
+| Atletico Mg - Gremio | Brezilya Serie A | 22:00 | Veri bekleniyor | - | 1.54 | 7 |
+| Hnk Gorica - Hajduk Split | Hırvatistan 1.HNL | 22:00 | Veri bekleniyor | - | 4.19 | 7 |
 | Cobresal - Concepcion | Şili Premier Lig | 22:00 | Veri bekleniyor | - | 1.94 | 8 |
 | Gimnasia Jujuy - Chaco For Ever | Arjantin Ulusal Primera Lig | 22:00 | Veri bekleniyor | - | 1.72 | 8 |
 | Varzim - Ad Marco 09 | Portekiz 3.Lig Grup A | 22:00 | Veri bekleniyor | - | 1.73 | 8 |
-| Orense - Deportivo Cuenc | Ekvador Pro Lig | 22:00 | Veri bekleniyor | - | 1.71 | 8 |
+| Orense - Deportivo Cuenc | Ekvador Pro Lig | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
 | Radnik Bijelji - Zrinjski | Bosna-Hersek Premier Lig | 22:00 | Veri bekleniyor | - | 4.04 | 5 |
-| Always Ready - Real Potosi | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 1.18 | 4 |
+| Always Ready - Real Potosi | Bolivya Premier Lig | 22:00 | Veri bekleniyor | - | 1.19 | 4 |
 | Lazio - Mantova | İtalya Kupa 1.Tur | 22:15 | Veri bekleniyor | - | 1.13 | 6 |
 | Braga - Gil Vicente | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 1.42 | 7 |
 | Famalicao - Maritimo | Portekiz Premier Lig | 22:30 | Veri bekleniyor | - | 1.54 | 7 |
-| Las Palmas - Albacete | İspanya 2.Lig | 22:30 | Veri bekleniyor | - | 1.58 | 8 |
+| Las Palmas - Albacete | İspanya 2.Lig | 22:30 | Veri bekleniyor | - | 1.62 | 8 |
 | Central Norte - Gimnasia Y Tiro | Arjantin Ulusal Primera Lig | 23:00 | Veri bekleniyor | - | 2.49 | 6 |
-| R Cordoba - San Martin Sj | Arjantin Ulusal Primera Lig | 23:00 | Veri bekleniyor | - | 2.04 | 6 |
+| R Cordoba - San Martin Sj | Arjantin Ulusal Primera Lig | 23:00 | Veri bekleniyor | - | 2.01 | 6 |
 | Inter Toronto - Hfx Wanderers | Kanada Premier Lig | 23:00 | Veri bekleniyor | - | 2.05 | 8 |
 | San Martin Tuc - Deportivo Madry | Arjantin Ulusal Primera Lig | 23:00 | Veri bekleniyor | - | 1.66 | 5 |
-| Fc Cajamarca - Universitario | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 4.19 | 7 |
+| Fc Cajamarca - Universitario | Peru Premier Lig Clausura | 23:30 | Veri bekleniyor | - | 3.89 | 7 |
 | River Plate - Argentinos Jr | Arjantin Premier Lig 2. Aşama | 00:00 | Veri bekleniyor | - | 1.71 | 8 |
 | Depor Tachira - Monagas | Venezuela Premier Lig Clausura | 00:00 | Veri bekleniyor | - | 1.3 | 7 |
 | Atl Temperley - Los Andes | Arjantin Ulusal Primera Lig | 00:00 | Veri bekleniyor | - | 2.02 | 6 |
