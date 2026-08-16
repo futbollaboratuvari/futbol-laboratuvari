@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T10:16:30.732540+00:00
+Tarih: 2026-08-16T10:42:46.347962+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 267
+- Kac mac bulundu: 258
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 267
+- Kac mac zaten vardi: 258
 - Ham veri havuzu toplam mac sayisi: 7323
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
@@ -48,8 +48,6 @@ Tarih: 2026-08-16T10:16:30.732540+00:00
 - Galler FAW Championship Kuzey
 - Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
-- Güney Kore K Lig 1
-- Güney Kore K Lig 2
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
@@ -199,12 +197,12 @@ Tarih: 2026-08-16T10:16:30.732540+00:00
 | 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
 | 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
 | 16.08.2026 | 15:30 | Hollanda Eredivisie | Feyenoord | Go Ahead Eagles | 33127 | 5 |
-| 16.08.2026 | 13:15 | Hollanda Eredivisie | Den Haag | Groningen | 31941 | 5 |
 | 16.08.2026 | 17:45 | Hollanda Eredivisie | Ajax | Heerenveen | 36167 | 5 |
 | 16.08.2026 | 15:30 | Hollanda Eredivisie | Twente | Zwolle | 35445 | 5 |
-| 16.08.2026 | 17:30 | Portekiz Premier Lig | Nacional Madei | Estoril | 33827 | 5 |
-| 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
 | 16.08.2026 | 20:00 | Portekiz Premier Lig | Arouca | Moreirense | 33885 | 5 |
+| 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
+| 16.08.2026 | 17:30 | Portekiz Premier Lig | Nacional Madei | Estoril | 33827 | 5 |
+| 16.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah | Al Hazm | 05909 | 5 |
 | 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
 | 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
 

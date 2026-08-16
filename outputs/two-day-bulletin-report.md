@@ -3,21 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 364
-Aktif mac: 266
-Canli mac: 18
-Biten mac: 80
-Bultenden dusurulen mac: 98
-Bugun: 228
+Aktif mac: 259
+Canli mac: 21
+Biten mac: 84
+Bultenden dusurulen mac: 105
+Bugun: 221
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 13:30 | Güney Kore K Lig 1 | Ulsan - Gangwon | scheduled | -
-- 2026-08-16 13:30 | Güney Kore K Lig 1 | Incheon Utd - Gimcheon Sangmu | scheduled | -
-- 2026-08-16 13:30 | Güney Kore K Lig 1 | Bucheon - Jeonbuk Hm | scheduled | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Ansan Greeners | scheduled | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Daegu - Asan Mugunghwa | scheduled | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Paju Citizen - Seongnam | scheduled | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Cheonan City Fc | scheduled | -
 - 2026-08-16 14:00 | İsveç Superettan | Varnamo - Ostersund | scheduled | -
 - 2026-08-16 14:00 | Norveç 2.Lig Grup 2 | Follo - Rana | scheduled | -
 - 2026-08-16 14:00 | Polonya 2.Lig | Zawisza Bydgos - Falubaz Zielona | scheduled | -
@@ -279,10 +272,6 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 11:15 | Çek Cumhuriyeti FNL | Viktoria Zizko - Banik Ostrava I | live | -
-- 2026-08-16 11:30 | Avusturya 1.Lig | First Vienna - Liefering | live | -
-- 2026-08-16 11:30 | Slovakya 2.Lig | Petrzalka - Tatran Presov | live | -
-- 2026-08-16 11:30 | Slovakya 2.Lig | Malzenice - Povazska Bystri | live | -
 - 2026-08-16 12:00 | Japonya J2 Lig | Yokohama Fc - Iwata | live | -
 - 2026-08-16 12:00 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Godollo | live | -
 - 2026-08-16 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Ujpest Ii | live | -
@@ -297,6 +286,13 @@ Yarin: 38
 - 2026-08-16 13:00 | Japonya J3 Lig | Matsumoto Yama - Mio Biwako Shig | live | -
 - 2026-08-16 13:15 | Hollanda Eredivisie | Den Haag - Groningen | live | -
 - 2026-08-16 13:15 | Hollanda Kadınlar Eredivisie | Utrecht (K) - Ajax (K) | live | -
+- 2026-08-16 13:30 | Güney Kore K Lig 1 | Ulsan - Gangwon | live | -
+- 2026-08-16 13:30 | Güney Kore K Lig 1 | Incheon Utd - Gimcheon Sangmu | live | -
+- 2026-08-16 13:30 | Güney Kore K Lig 1 | Bucheon - Jeonbuk Hm | live | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Ansan Greeners | live | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Daegu - Asan Mugunghwa | live | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Paju Citizen - Seongnam | live | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Cheonan City Fc | live | -
 
 ## Biten Maclar
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | finished | -
@@ -379,3 +375,7 @@ Yarin: 38
 - 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Marconi - Sutherland Shar | finished | -
 - 2026-08-16 08:00 | Avustralya NPL Victoria | Preston Lions - Dandenong Thund | finished | -
 - 2026-08-16 09:30 | Avustralya NPL Başkent Bölgesi | Canberra Juven - Queanbeyan City | finished | -
+- 2026-08-16 11:15 | Çek Cumhuriyeti FNL | Viktoria Zizko - Banik Ostrava I | finished | -
+- 2026-08-16 11:30 | Avusturya 1.Lig | First Vienna - Liefering | finished | -
+- 2026-08-16 11:30 | Slovakya 2.Lig | Petrzalka - Tatran Presov | finished | -
+- 2026-08-16 11:30 | Slovakya 2.Lig | Malzenice - Povazska Bystri | finished | -
