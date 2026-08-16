@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.08.2026 11:16:29
+Oluşturma: 16.08.2026 11:41:12
 
 ## Özet
 
-- Toplam tahmin: 164
-- Bekleyen tahmin: 164
+- Toplam tahmin: 167
+- Bekleyen tahmin: 167
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 79
@@ -20,12 +20,15 @@ Oluşturma: 16.08.2026 11:16:29
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 91, bekleyen 91, başarı bekleniyor, ağırlık 1
+- MS X: toplam 92, bekleyen 92, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 63, bekleyen 63, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 61, bekleyen 61, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-16 | Norveç 2.Lig Grup 2 | Kjelsas - Ik Junkeren | MS X | pending | 40/100
+- 2026-08-16 | Finlandiya Veikkausliiga | Helsinki - Jaro | MS 2 | pending | 40/100
+- 2026-08-16 | Polonya 2.Lig | Zawisza Bydgos - Falubaz Zielona | MS 2 | pending | 50/100
 - 2026-08-16 | Türkiye TFF 1. Lig | Muğlaspor - Bandirmaspor | MS X | pending | 40/100
 - 2026-08-16 | Fransa Süper Kupa | Lens - Psg | MS 1 | pending | 45/100
 - 2026-08-16 | İtalya Kupa 1.Tur | Verona - Virtus Entella | MS 2 | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 16.08.2026 11:16:29
 - 2026-08-16 | Portekiz Premier Lig | Braga - Gil Vicente | MS 2 | pending | 50/100
 - 2026-08-16 | Portekiz Premier Lig | Famalicao - Maritimo | MS 2 | pending | 40/100
 - 2026-08-16 | İspanya 2.Lig | Las Palmas - Albacete | MS 2 | pending | 50/100
-- 2026-08-16 | Kanada Premier Lig | Inter Toronto - Hfx Wanderers | MS X | pending | 50/100
-- 2026-08-16 | Rusya Premier Lig | Baltika Kalini - Spartak Moskova | MS 1 | pending | 40/100
-- 2026-08-16 | Hırvatistan 1.HNL | Varazdin - Rijeka | MS X | pending | 40/100
 
