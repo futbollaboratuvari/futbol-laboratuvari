@@ -1,32 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-16 / 2026-08-17
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 364
-Aktif mac: 241
-Canli mac: 34
+Aktif mac: 225
+Canli mac: 50
 Biten mac: 89
-Bultenden dusurulen mac: 123
-Bugun: 203
+Bultenden dusurulen mac: 139
+Bugun: 187
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 15:00 | Danimarka Süperlig | Nordsjaelland - Silkeborg | scheduled | -
-- 2026-08-16 15:00 | Danimarka Süperlig | Odense - Horsens | scheduled | -
-- 2026-08-16 15:00 | İsveç Allsvenskan | Degerfors - Göteborg | scheduled | -
-- 2026-08-16 15:00 | İsveç Allsvenskan | Djurgarden - Aik Stockholm | scheduled | -
-- 2026-08-16 15:00 | İsveç Allsvenskan | Brommapojkarna - Orgryte | scheduled | -
-- 2026-08-16 15:00 | Norveç 2.Lig Grup 1 | Sandviken - Jerv | scheduled | -
-- 2026-08-16 15:00 | Danimarka 1.Lig | Vendsyssel - Ab Gladsaxe | scheduled | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey | Hamburger Sv ( - Drochtersen / A | scheduled | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey | Sankt Pauli Ii - Werder Bremen ( | scheduled | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Güney Batı | Freiburg Ii - Hessen Kassel | scheduled | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Altglienicke - Hallescher | scheduled | -
-- 2026-08-16 15:00 | Kazakistan Premier Lig | Irtysh - Tobol Kostanay | scheduled | -
-- 2026-08-16 15:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skedsmo | scheduled | -
-- 2026-08-16 15:00 | İsveç 2.Lig Södra Götaland | Linero - Rappe | scheduled | -
-- 2026-08-16 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Ragsved | scheduled | -
-- 2026-08-16 15:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Trygg/Lade | scheduled | -
 - 2026-08-16 15:30 | Hollanda Eredivisie | Feyenoord - Go Ahead Eagles | scheduled | -
 - 2026-08-16 15:30 | Hollanda Eredivisie | Twente - Zwolle | scheduled | -
 - 2026-08-16 15:30 | İngiltere Championship | Watford - Southam | scheduled | -
@@ -254,6 +239,22 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
+- 2026-08-16 15:00 | Danimarka Süperlig | Nordsjaelland - Silkeborg | live | -
+- 2026-08-16 15:00 | Danimarka Süperlig | Odense - Horsens | live | -
+- 2026-08-16 15:00 | İsveç Allsvenskan | Degerfors - Göteborg | live | -
+- 2026-08-16 15:00 | İsveç Allsvenskan | Djurgarden - Aik Stockholm | live | -
+- 2026-08-16 15:00 | İsveç Allsvenskan | Brommapojkarna - Orgryte | live | -
+- 2026-08-16 15:00 | Norveç 2.Lig Grup 1 | Sandviken - Jerv | live | -
+- 2026-08-16 15:00 | Danimarka 1.Lig | Vendsyssel - Ab Gladsaxe | live | -
+- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey | Hamburger Sv ( - Drochtersen / A | live | -
+- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey | Sankt Pauli Ii - Werder Bremen ( | live | -
+- 2026-08-16 15:00 | Almanya Bölgesel Lig Güney Batı | Freiburg Ii - Hessen Kassel | live | -
+- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Altglienicke - Hallescher | live | -
+- 2026-08-16 15:00 | Kazakistan Premier Lig | Irtysh - Tobol Kostanay | live | -
+- 2026-08-16 15:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skedsmo | live | -
+- 2026-08-16 15:00 | İsveç 2.Lig Södra Götaland | Linero - Rappe | live | -
+- 2026-08-16 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Ragsved | live | -
+- 2026-08-16 15:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Trygg/Lade | live | -
 - 2026-08-16 13:00 | Ukrayna Premier Lig | Lnz Cherkasy - Chernomorets | live | -
 - 2026-08-16 13:00 | Portekiz 2.Lig | Portimonense - Vizela | live | -
 - 2026-08-16 13:00 | Polonya 2.Lig | Znicz Pruszkow - Olimpia Grudzia | live | -
