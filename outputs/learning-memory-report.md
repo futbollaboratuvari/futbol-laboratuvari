@@ -1,11 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
+<<<<<<< Updated upstream
 Oluşturma: 16.08.2026 14:07:11
+=======
+Oluşturma: 16.08.2026 14:07:46
+>>>>>>> Stashed changes
 
 ## Özet
 
-- Toplam tahmin: 171
-- Bekleyen tahmin: 171
+- Toplam tahmin: 172
+- Bekleyen tahmin: 172
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 79
@@ -20,12 +24,13 @@ Oluşturma: 16.08.2026 14:07:11
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 - MS X: toplam 94, bekleyen 94, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 64, bekleyen 64, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-16 | İngiltere Championship | Watford - Southam | MS 1 | pending | 50/100
 - 2026-08-16 | Hazırlık Kulüpler | Schalke - Real Madrid | MS X | pending | 40/100
 - 2026-08-16 | Danimarka Süperlig | Lyngby - Midtjylland | MS X | pending | 45/100
 - 2026-08-16 | Bosna-Hersek Premier Lig | Bsk Banja Luka - Velez Mostar | MS 1 | pending | 40/100
@@ -40,5 +45,4 @@ Oluşturma: 16.08.2026 14:07:11
 - 2026-08-16 | Sırbistan Süper Lig | Zemun Belg. - Mladost Lucani | MS 1 | pending | 40/100
 - 2026-08-16 | Brezilya Serie A | Vasco Da Gama - Santos | MS 2 | pending | 40/100
 - 2026-08-16 | Brezilya Serie A | Atletico Mg - Gremio | MS 2 | pending | 40/100
-- 2026-08-16 | Şili Premier Lig | Cobresal - Concepcion | MS X | pending | 50/100
 
