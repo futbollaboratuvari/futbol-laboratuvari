@@ -1,29 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-16 / 2026-08-17
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 373
-Aktif mac: 82
-Canli mac: 49
+Aktif mac: 69
+Canli mac: 62
 Biten mac: 242
-Bultenden dusurulen mac: 291
-Bugun: 44
+Bultenden dusurulen mac: 304
+Bugun: 31
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda - Al Shabab (Riya | scheduled | -
-- 2026-08-16 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec - Slavia Prag | scheduled | -
-- 2026-08-16 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento - Huracan | scheduled | -
-- 2026-08-16 21:00 | Meksika Liga MX Apertura | Pumas Unam - Queretaro | scheduled | -
-- 2026-08-16 21:00 | İrlanda FAI Kupası 3.Tur | Bohemian - Longford | scheduled | -
-- 2026-08-16 21:00 | Arjantin Ulusal Primera Lig | Tristan - Almirante | scheduled | -
-- 2026-08-16 21:00 | Uruguay Premier Lig Clausura | Defensor Sport - Liverpool Monte | scheduled | -
-- 2026-08-16 21:00 | Meksika Ascenso MX Apertura | Leones Negros - Cds Tampico Mad | scheduled | -
-- 2026-08-16 21:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Akranes | scheduled | -
-- 2026-08-16 21:00 | İzlanda Urvalsdeild | Kr Reykjavik - Breidablik | scheduled | -
-- 2026-08-16 21:00 | İzlanda Urvalsdeild | Hafnarfjordur - Vikingur Reykja | scheduled | -
-- 2026-08-16 21:00 | Irak Premier Lig | Erbil Sc - Al Kahraba | scheduled | -
-- 2026-08-16 21:00 | Irak Premier Lig | Al Shorta - Karbala | scheduled | -
 - 2026-08-16 21:15 | Polonya Ekstraklasa | Gornik Zabrze - Wisla Krakow | scheduled | -
 - 2026-08-16 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov - Dunav 2010 | scheduled | -
 - 2026-08-16 21:15 | Peru Premier Lig Clausura | Deportivo Moqu - Sport Boys | scheduled | -
@@ -95,6 +83,19 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
+- 2026-08-16 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda - Al Shabab (Riya | live | -
+- 2026-08-16 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec - Slavia Prag | live | -
+- 2026-08-16 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento - Huracan | live | -
+- 2026-08-16 21:00 | Meksika Liga MX Apertura | Pumas Unam - Queretaro | live | -
+- 2026-08-16 21:00 | İrlanda FAI Kupası 3.Tur | Bohemian - Longford | live | -
+- 2026-08-16 21:00 | Arjantin Ulusal Primera Lig | Tristan - Almirante | live | -
+- 2026-08-16 21:00 | Uruguay Premier Lig Clausura | Defensor Sport - Liverpool Monte | live | -
+- 2026-08-16 21:00 | Meksika Ascenso MX Apertura | Leones Negros - Cds Tampico Mad | live | -
+- 2026-08-16 21:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Akranes | live | -
+- 2026-08-16 21:00 | İzlanda Urvalsdeild | Kr Reykjavik - Breidablik | live | -
+- 2026-08-16 21:00 | İzlanda Urvalsdeild | Hafnarfjordur - Vikingur Reykja | live | -
+- 2026-08-16 21:00 | Irak Premier Lig | Erbil Sc - Al Kahraba | live | -
+- 2026-08-16 21:00 | Irak Premier Lig | Al Shorta - Karbala | live | -
 - 2026-08-16 18:45 | Litvanya A Ligi | Kauno Zalgiris - Transinvest Vil | live | -
 - 2026-08-16 19:00 | Türkiye Süper Lig | Başakşehir Fk - Kocaelispor | live | -
 - 2026-08-16 19:00 | İtalya Kupa 1.Tur | Frosinone - Juve Stabia | live | -
