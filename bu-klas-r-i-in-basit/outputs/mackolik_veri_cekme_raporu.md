@@ -1,25 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-16T11:00:37.515565+00:00
-=======
-Tarih: 2026-08-16T11:05:13.456960+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-16T11:39:34.599480+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-- Kac mac bulundu: 218
+- Durum: error
+- Kac mac bulundu: 205
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 218
-- Ham veri havuzu toplam mac sayisi: 7323
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - AFF Şampiyonası Yarı Final
-- Almanya 2. Bundesliga
 - Almanya 3. Lig
 - Almanya Bölgesel Lig Güney Batı
 - Almanya Bölgesel Lig Kuzey
@@ -60,7 +55,6 @@ Tarih: 2026-08-16T11:05:13.456960+00:00
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
-- Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
@@ -94,7 +88,6 @@ Tarih: 2026-08-16T11:05:13.456960+00:00
 - Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
-- Çin Halk Cumhuriyeti 1.Lig
 - İngiltere Championship
 - İngiltere Community Shield
 - İrlanda FAI Kupası 3.Tur
@@ -174,7 +167,8 @@ Tarih: 2026-08-16T11:05:13.456960+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -203,4 +197,4 @@ Tarih: 2026-08-16T11:05:13.456960+00:00
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
