@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T09:47:44.325817+00:00
+Tarih: 2026-08-16T10:07:38.737282+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 236
+- Kac mac bulundu: 231
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 236
+- Kac mac zaten vardi: 231
 - Ham veri havuzu toplam mac sayisi: 7323
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
@@ -52,8 +52,6 @@ Tarih: 2026-08-16T09:47:44.325817+00:00
 - Hollanda Kadınlar Eredivisie
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Japonya J2 Lig
-- Japonya J3 Lig
 - Kanada Premier Lig
 - Kazakistan Premier Lig
 - Letonya Kupa Çeyrek Final
