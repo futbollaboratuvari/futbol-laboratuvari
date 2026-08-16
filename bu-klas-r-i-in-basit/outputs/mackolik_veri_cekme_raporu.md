@@ -1,21 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T15:26:09.056984+00:00
+Tarih: 2026-08-16T15:41:04.188288+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 145
+- Kac mac bulundu: 96
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 145
+- Kac mac zaten vardi: 96
 - Ham veri havuzu toplam mac sayisi: 7334
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL Lig 1
 - Almanya 3. Lig
 - Almanya U19 Bundesliga Grup H
 - Arjantin Premier Lig 2. Aşama
@@ -28,33 +26,23 @@ Tarih: 2026-08-16T15:26:09.056984+00:00
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Fransa Süper Kupa
-- Guatemala Ulusal Lig Apertura
-- Güney Afrika PSL
 - Gürcistan Erovnuli Liga
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
-- Kosta Rika Premier Lig Apertura
 - Litvanya A Ligi
-- Macaristan NB I
-- Macaristan NB II
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeybatı
-- Macaristan NB III Kuzeydoğu
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -69,14 +57,12 @@ Tarih: 2026-08-16T15:26:09.056984+00:00
 - Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 1.SNL
-- Slovenya 2.SNL
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
-- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İrlanda FAI Kupası 3.Tur
 - İspanya 2.Lig
@@ -142,8 +128,8 @@ Tarih: 2026-08-16T15:26:09.056984+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 81
-- Acilan detay: 81
+- Denenen Tumu alani: 76
+- Acilan detay: 76
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -161,21 +147,21 @@ Tarih: 2026-08-16T15:26:09.056984+00:00
 | 16.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Eyüpspor | 01283 | 5 |
 | 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Sivasspor | 08896 | 5 |
 | 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc | Pendikspor | 08816 | 5 |
-| 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Antalyaspor | 09031 | 5 |
 | 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Bandirmaspor | 09092 | 5 |
+| 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Antalyaspor | 09031 | 5 |
 | 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
 | 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
 | 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
 | 16.08.2026 | 20:00 | Portekiz Premier Lig | Arouca | Moreirense | 33885 | 5 |
-| 16.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah | Al Hazm | 05909 | 5 |
 | 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
 | 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
-| 16.08.2026 | 20:15 | Belçika Pro Lig | Lommel | Charleroi | 36968 | 5 |
+| 16.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah | Al Hazm | 05909 | 5 |
 | 16.08.2026 | 19:30 | Belçika Pro Lig | Mechelen | Standard Liege | 36709 | 5 |
+| 16.08.2026 | 20:15 | Belçika Pro Lig | Lommel | Charleroi | 36968 | 5 |
 | 16.08.2026 | 20:00 | İspanya 2.Lig | Burgos | Cordoba | 25969 | 5 |
-| 16.08.2026 | 22:30 | İspanya 2.Lig | Las Palmas | Albacete | 26206 | 5 |
 | 16.08.2026 | 20:00 | İspanya 2.Lig | Girona | Leganes | 26092 | 5 |
-| 16.08.2026 | 22:15 | İtalya Kupa 1.Tur | Lazio | Mantova | 28968 | 5 |
+| 16.08.2026 | 22:30 | İspanya 2.Lig | Las Palmas | Albacete | 26206 | 5 |
+| 16.08.2026 | 19:30 | İtalya Kupa 1.Tur | Genoa | Ascoli Picchio | 41284 | 5 |
 
 ## Sonuc
 
