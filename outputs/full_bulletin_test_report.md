@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 294
-- Live match count: 20
-- Finished removed count: 0
+- Scheduled match count: 290
+- Live match count: 12
+- Finished removed count: 13
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 03:15 | Platense - Boca Juniors | live
-- 2026-08-16 03:30 | Houston - Los Angeles | live
-- 2026-08-16 03:30 | Nashville Sc - Inter Miami | live
-- 2026-08-16 03:30 | Alianza Lima - Univ De Cajamar | live
-- 2026-08-16 04:00 | Colorado Sprin - Birmingham Legi | live
-- 2026-08-16 04:00 | Spokane Veloci - Corpus Christi | live
-- 2026-08-16 04:00 | San Antonio - El Paso Locomot | live
-- 2026-08-16 04:00 | Alianza - Cacahuatique | live
-- 2026-08-16 04:00 | Comunicaciones - Malacateco | live
-- 2026-08-16 04:00 | Cancun Fc - Durango | live
+- 2026-08-16 04:30 | Colorado - Kansas | live
+- 2026-08-16 04:30 | Salt Lake - Minnesota Utd | live
+- 2026-08-16 04:30 | New Mexico Uni - Tulsa Roughneck | live
+- 2026-08-16 04:30 | Real Espana - Atlético Indepe | live
+- 2026-08-16 05:00 | Oakland Roots - Monterey Bay | live
+- 2026-08-16 05:00 | Orange County - Louisville City | live
+- 2026-08-16 05:00 | Deportivo Sapr - Cs Cartagines | live
+- 2026-08-16 05:30 | Los Angeles Fc - San Diego | live
+- 2026-08-16 05:30 | San Jose - St. Louis City | live
+- 2026-08-16 05:30 | Las Vegas Ligh - Brooklyn | live
