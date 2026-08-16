@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 275
-- Live match count: 9
+- Scheduled match count: 268
+- Live match count: 16
 - Finished removed count: 0
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
@@ -16,4 +16,4 @@
 - 2026-08-16 12:00 | Osaka - Parceiro Nagano | live
 - 2026-08-16 12:00 | Vasas Ii - Ujpest Ii | live
 - 2026-08-16 12:00 | Disgyor Ii - Godollo | live
-- 2026-08-16 13:00 | Nacka Iliria - Örebro Syriansk | scheduled
+- 2026-08-16 13:00 | Nacka Iliria - Örebro Syriansk | live
