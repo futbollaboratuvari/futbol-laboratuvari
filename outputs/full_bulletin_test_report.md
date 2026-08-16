@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 66
-- Live match count: 51
-- Finished removed count: 0
+- Scheduled match count: 58
+- Live match count: 48
+- Finished removed count: 1
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 19:15 | Ab Argir - Kí Klaksvík | live
-- 2026-08-16 19:15 | Vestur Sorvagu - B36 Torshavn | live
-- 2026-08-16 19:15 | Al Bukayriyah - Al Hazm | live
-- 2026-08-16 19:30 | Mechelen - Standard Liege | live
-- 2026-08-16 19:30 | Varazdin - Rijeka | live
-- 2026-08-16 19:30 | Genoa - Ascoli Picchio | live
-- 2026-08-16 19:30 | Zalgiris Vilni - Banga | live
-- 2026-08-16 19:30 | Caldas - Lusitano Evora | live
-- 2026-08-16 19:30 | Baltika Kalini - Spartak Moskova | live
-- 2026-08-16 19:30 | Atletico Nuble - Union La Calera | live
+- 2026-08-16 19:45 | Banniyas - Al Ain | live
+- 2026-08-16 20:00 | Rapid Wien - Grazer Ak | live
+- 2026-08-16 20:00 | Zira - Safa | live
+- 2026-08-16 20:00 | Dinamo Brest - Isloch | live
+- 2026-08-16 20:00 | Samgurali - Dinamo Batumi | live
+- 2026-08-16 20:00 | Burgos - Cordoba | live
+- 2026-08-16 20:00 | Girona - Leganes | live
+- 2026-08-16 20:00 | Espanyol - Levante | live
+- 2026-08-16 20:00 | Sunnersta Aif - Taby | live
+- 2026-08-16 20:00 | Sireti - Sheriff Tiraspo | live
