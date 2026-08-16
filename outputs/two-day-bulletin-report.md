@@ -3,24 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 364
-Aktif mac: 259
-Canli mac: 21
+Aktif mac: 249
+Canli mac: 31
 Biten mac: 84
-Bultenden dusurulen mac: 105
-Bugun: 221
+Bultenden dusurulen mac: 115
+Bugun: 211
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 14:00 | İsveç Superettan | Varnamo - Ostersund | scheduled | -
-- 2026-08-16 14:00 | Norveç 2.Lig Grup 2 | Follo - Rana | scheduled | -
-- 2026-08-16 14:00 | Polonya 2.Lig | Zawisza Bydgos - Falubaz Zielona | scheduled | -
-- 2026-08-16 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Nantong Zhiyun | scheduled | -
-- 2026-08-16 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Ningbo | scheduled | -
-- 2026-08-16 14:00 | Norveç 3.Lig Grup 5 | Fauske/Sprint - Finnsnes | scheduled | -
-- 2026-08-16 14:00 | İsveç 2.Lig Norra Svealand | Enskede - Korsnas If Fk | scheduled | -
-- 2026-08-16 14:00 | İsveç 2.Lig Norra Svealand | Skiljebo Sk - Helges | scheduled | -
-- 2026-08-16 14:00 | İsveç 2.Lig Södra Götaland | Växjö Norra - Staffanstorp Un | scheduled | -
-- 2026-08-16 14:00 | İsveç 2.Lig Södra Svealand | Forward - Syrianska | scheduled | -
 - 2026-08-16 14:30 | Belçika Pro Lig | Waasland Bever - Anderlecht | scheduled | -
 - 2026-08-16 14:30 | Almanya 2. Bundesliga | Hannover - Wolfsburg | scheduled | -
 - 2026-08-16 14:30 | Almanya 2. Bundesliga | Dynamo Dresden - Darmstadt | scheduled | -
@@ -293,6 +283,16 @@ Yarin: 38
 - 2026-08-16 13:30 | Güney Kore K Lig 2 | Daegu - Asan Mugunghwa | live | -
 - 2026-08-16 13:30 | Güney Kore K Lig 2 | Paju Citizen - Seongnam | live | -
 - 2026-08-16 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Cheonan City Fc | live | -
+- 2026-08-16 14:00 | İsveç Superettan | Varnamo - Ostersund | live | -
+- 2026-08-16 14:00 | Norveç 2.Lig Grup 2 | Follo - Rana | live | -
+- 2026-08-16 14:00 | Polonya 2.Lig | Zawisza Bydgos - Falubaz Zielona | live | -
+- 2026-08-16 14:00 | Çin Halk Cumhuriyeti 1.Lig | Suzhou Dongwu - Nantong Zhiyun | live | -
+- 2026-08-16 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Ningbo | live | -
+- 2026-08-16 14:00 | Norveç 3.Lig Grup 5 | Fauske/Sprint - Finnsnes | live | -
+- 2026-08-16 14:00 | İsveç 2.Lig Norra Svealand | Enskede - Korsnas If Fk | live | -
+- 2026-08-16 14:00 | İsveç 2.Lig Norra Svealand | Skiljebo Sk - Helges | live | -
+- 2026-08-16 14:00 | İsveç 2.Lig Södra Götaland | Växjö Norra - Staffanstorp Un | live | -
+- 2026-08-16 14:00 | İsveç 2.Lig Södra Svealand | Forward - Syrianska | live | -
 
 ## Biten Maclar
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | finished | -
