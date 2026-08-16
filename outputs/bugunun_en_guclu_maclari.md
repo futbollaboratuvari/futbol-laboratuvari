@@ -2,23 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-16T14:02:14.077Z
+- Güncelleme: 2026-08-16T14:42:01.342Z
 - Ham maç sayısı: 249
 - Yarın bülteni maç sayısı: 38
 - Detay blok sayısı: 693
-- Aktif bülten maçı: 180
-- Bültenden düşürülen maç: 69
+- Aktif bülten maçı: 173
+- Bültenden düşürülen maç: 76
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hatta Dubai - Al Jazira | Birleşik Arap Emirlikleri Arap Körfez Ligi | 17:10 | Veri bekleniyor | - | 5.41 | 6 |
-| Nacional Madei - Estoril | Portekiz Premier Lig | 17:30 | Veri bekleniyor | - | 2.51 | 8 |
-| Gais - Malmö | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 2 | 8 |
-| Kalmar - Hammarby | İsveç Allsvenskan | 17:30 | Veri bekleniyor | - | 4.1 | 8 |
-| Leixoes - Tondela | Portekiz 2.Lig | 17:30 | Veri bekleniyor | - | 2.34 | 8 |
-| Regensburg - Saarbrucken | Almanya 3. Lig | 17:30 | Veri bekleniyor | - | 2.4 | 8 |
-| Debreceni - Gyor | Macaristan NB I | 17:30 | Veri bekleniyor | - | 2.34 | 8 |
 | Ajax - Heerenveen | Hollanda Eredivisie | 17:45 | Veri bekleniyor | - | 1.28 | 6 |
 | Az (K) - Ado Den Haag (K | Hollanda Kadınlar Eredivisie | 17:45 | Veri bekleniyor | - | 1.7 | 8 |
 | Twente (K) - De Graafschap ( | Hollanda Kadınlar Eredivisie | 17:45 | Veri bekleniyor | - | - | 3 |
@@ -27,7 +20,7 @@
 | Santander - Villarreal | İspanya LaLiga | 18:00 | Veri bekleniyor | - | 3.01 | 8 |
 | Burnley - West Ham | İngiltere Championship | 18:00 | Veri bekleniyor | - | 2.85 | 8 |
 | Eibar - Tenerife | İspanya 2.Lig | 18:00 | Veri bekleniyor | - | 1.74 | 8 |
-| Wattens - Salzburg | Avusturya Bundesliga | 18:00 | Veri bekleniyor | - | 7.58 | 6 |
+| Wattens - Salzburg | Avusturya Bundesliga | 18:00 | Veri bekleniyor | - | 7.31 | 6 |
 | Hartberg - Austria Vienna | Avusturya Bundesliga | 18:00 | Veri bekleniyor | - | 2.55 | 8 |
 | Brann - Ham Kam | Norveç Eliteserien | 18:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Molde - Tromso | Norveç Eliteserien | 18:00 | Veri bekleniyor | - | 1.77 | 8 |
@@ -39,7 +32,7 @@
 | Hodd - Strommen | Norveç 1.Lig | 18:00 | Veri bekleniyor | - | 1.84 | 8 |
 | Kongsvinger - Haugesund | Norveç 1.Lig | 18:00 | Veri bekleniyor | - | 1.55 | 8 |
 | Sogndal - Sandnes | Norveç 1.Lig | 18:00 | Veri bekleniyor | - | 1.77 | 8 |
-| Schalke - Real Madrid | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 7.21 | 6 |
+| Schalke - Real Madrid | Hazırlık Kulüpler | 18:00 | Veri bekleniyor | - | 7.56 | 6 |
 | Spartak Trnava - Zemplin | Slovakya Süper Lig | 18:00 | Veri bekleniyor | - | 1.35 | 7 |
 | Stal Mielec - Polonia Bytom | Polonya 1.Lig | 18:00 | Veri bekleniyor | - | 1.95 | 8 |
 | Dila Gori - Meshakhte | Gürcistan Erovnuli Liga | 18:00 | Veri bekleniyor | - | 1.17 | 6 |
@@ -109,7 +102,7 @@
 | Unia Skierniew - Miedz Legnica | Polonya 1.Lig | 20:30 | Veri bekleniyor | - | 2.3 | 8 |
 | Stal S Wola - Avia Swidnik | Polonya 2.Lig | 20:30 | Veri bekleniyor | - | 2.14 | 8 |
 | Skala - Vikingur Gota | Faroe Adaları Master Lig | 20:30 | Veri bekleniyor | - | 4.77 | 7 |
-| Jkt Tanzania - Tabora United | Tanzanya Kuu Bara Ligi | 20:30 | Veri bekleniyor | - | 2.37 | 6 |
+| Jkt Tanzania - Tabora United | Tanzanya Kuu Bara Ligi | 20:30 | Veri bekleniyor | - | 2.09 | 6 |
 | Al Wahda - Al Shabab (Riya | Suudi Arabistan Kral Kupası Son 32 Turu | 21:00 | Veri bekleniyor | - | 4.27 | 7 |
 | Slovan Liberec - Slavia Prag | Çek Cumhuriyeti Czech Liga | 21:00 | Veri bekleniyor | - | 3.93 | 7 |
 | Sarmiento - Huracan | Arjantin Premier Lig 2. Aşama | 21:00 | Veri bekleniyor | - | 2.84 | 8 |
@@ -127,9 +120,9 @@
 | Lokomotiv Plov - Dunav 2010 | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.48 | 7 |
 | Deportivo Moqu - Sport Boys | Peru Premier Lig Clausura | 21:15 | Veri bekleniyor | - | 2.45 | 8 |
 | Koper - Ask Bravo | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 1.52 | 8 |
-| Beşiktaş - Eyüpspor | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 1.23 | 6 |
+| Beşiktaş - Eyüpspor | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 1.24 | 6 |
 | Amed Sk - Erzurumspor Fk | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 2.02 | 8 |
-| Hunedoara - Cfr Cluj | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 2.31 | 8 |
+| Hunedoara - Cfr Cluj | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 2.26 | 8 |
 | Sliema - Hibernians | Malta Premier Lig Açılış | 21:30 | Veri bekleniyor | - | 1.99 | 8 |
 | Mardin 1969 - Antalyaspor | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 2.9 | 8 |
 | Muğlaspor - Bandirmaspor | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 2.38 | 8 |

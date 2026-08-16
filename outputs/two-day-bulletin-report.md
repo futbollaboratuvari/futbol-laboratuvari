@@ -3,45 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 249
-Aktif mac: 204
-Canli mac: 45
+Aktif mac: 173
+Canli mac: 76
 Biten mac: 0
-Bultenden dusurulen mac: 45
-Bugun: 166
+Bultenden dusurulen mac: 76
+Bugun: 135
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 17:00 | İngiltere Community Shield | Arsenal - Manchester City | scheduled | -
-- 2026-08-16 17:00 | Belçika Pro Lig | La Louvière - Gent | scheduled | -
-- 2026-08-16 17:00 | Danimarka Süperlig | Lyngby - Midtjylland | scheduled | -
-- 2026-08-16 17:00 | Finlandiya Veikkausliiga | Oulu - Inter Turku | scheduled | -
-- 2026-08-16 17:00 | Finlandiya Veikkausliiga | Lahti - Kuopion | scheduled | -
-- 2026-08-16 17:00 | Rusya Premier Lig | Krylya Sovieto - Makhachkala | scheduled | -
-- 2026-08-16 17:00 | Brezilya Serie A | Chapecoense - Bahia | scheduled | -
-- 2026-08-16 17:00 | Finlandiya Ykkösliiga | Mikkelin - Ekenas If | scheduled | -
-- 2026-08-16 17:00 | Belçika Challenger Pro Lig | Beerschot-Wilr - Kaa Gent Ii | scheduled | -
-- 2026-08-16 17:00 | Norveç 2.Lig Grup 1 | Sotra Sk - Traeff | scheduled | -
-- 2026-08-16 17:00 | Brezilya Serie B | Operario - Avai | scheduled | -
-- 2026-08-16 17:00 | Polonya 2.Lig | Hutnik Krakow - Legia Warszawa | scheduled | -
-- 2026-08-16 17:00 | Uruguay Premier Lig Clausura | Progreso - Deportivo Maldo | scheduled | -
-- 2026-08-16 17:00 | Finlandiya Ykkönen | Vjs - Jyvaskyla | scheduled | -
-- 2026-08-16 17:00 | Estonya Premium Lig | Trans Narva - Paide Linnamees | scheduled | -
-- 2026-08-16 17:00 | Estonya Premium Lig | Nomme Kalju - Vaprus | scheduled | -
-- 2026-08-16 17:00 | Kazakistan Premier Lig | Kyzyl-Zhar - Astana | scheduled | -
-- 2026-08-16 17:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Harstad | scheduled | -
-- 2026-08-16 17:00 | İsveç 2.Lig Södra Götaland | Österlen - Oskarshamns Aik | scheduled | -
-- 2026-08-16 17:00 | İsveç 2.Lig Norra Götaland | If Karlstad Ii - Lidkopings | scheduled | -
-- 2026-08-16 17:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Lucksta | scheduled | -
-- 2026-08-16 17:00 | Faroe Adaları Master Lig | Runavik - Streymur | scheduled | -
-- 2026-08-16 17:00 | Faroe Adaları Master Lig | Hb Torshavn - B68 Toftir | scheduled | -
-- 2026-08-16 17:00 | Belarus 1.Lig | Bate Ii - Volna Pinsk | scheduled | -
-- 2026-08-16 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Hatta Dubai - Al Jazira | scheduled | -
-- 2026-08-16 17:30 | Portekiz Premier Lig | Nacional Madei - Estoril | scheduled | -
-- 2026-08-16 17:30 | İsveç Allsvenskan | Gais - Malmö | scheduled | -
-- 2026-08-16 17:30 | İsveç Allsvenskan | Kalmar - Hammarby | scheduled | -
-- 2026-08-16 17:30 | Portekiz 2.Lig | Leixoes - Tondela | scheduled | -
-- 2026-08-16 17:30 | Almanya 3. Lig | Regensburg - Saarbrucken | scheduled | -
-- 2026-08-16 17:30 | Macaristan NB I | Debreceni - Gyor | scheduled | -
 - 2026-08-16 17:45 | Hollanda Eredivisie | Ajax - Heerenveen | scheduled | -
 - 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Az (K) - Ado Den Haag (K | scheduled | -
 - 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Twente (K) - De Graafschap ( | scheduled | -
@@ -262,6 +231,37 @@ Yarin: 38
 - 2026-08-16 16:00 | Belarus 1.Lig | Ostrovets Fc - Bumprom | live | -
 - 2026-08-16 16:30 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Honefoss | live | -
 - 2026-08-16 16:30 | Galler FAW Championship Kuzey | Gresford Athle - Brickfield Rang | live | -
+- 2026-08-16 17:00 | İngiltere Community Shield | Arsenal - Manchester City | live | -
+- 2026-08-16 17:00 | Belçika Pro Lig | La Louvière - Gent | live | -
+- 2026-08-16 17:00 | Danimarka Süperlig | Lyngby - Midtjylland | live | -
+- 2026-08-16 17:00 | Finlandiya Veikkausliiga | Oulu - Inter Turku | live | -
+- 2026-08-16 17:00 | Finlandiya Veikkausliiga | Lahti - Kuopion | live | -
+- 2026-08-16 17:00 | Rusya Premier Lig | Krylya Sovieto - Makhachkala | live | -
+- 2026-08-16 17:00 | Brezilya Serie A | Chapecoense - Bahia | live | -
+- 2026-08-16 17:00 | Finlandiya Ykkösliiga | Mikkelin - Ekenas If | live | -
+- 2026-08-16 17:00 | Belçika Challenger Pro Lig | Beerschot-Wilr - Kaa Gent Ii | live | -
+- 2026-08-16 17:00 | Norveç 2.Lig Grup 1 | Sotra Sk - Traeff | live | -
+- 2026-08-16 17:00 | Brezilya Serie B | Operario - Avai | live | -
+- 2026-08-16 17:00 | Polonya 2.Lig | Hutnik Krakow - Legia Warszawa | live | -
+- 2026-08-16 17:00 | Uruguay Premier Lig Clausura | Progreso - Deportivo Maldo | live | -
+- 2026-08-16 17:00 | Finlandiya Ykkönen | Vjs - Jyvaskyla | live | -
+- 2026-08-16 17:00 | Estonya Premium Lig | Trans Narva - Paide Linnamees | live | -
+- 2026-08-16 17:00 | Estonya Premium Lig | Nomme Kalju - Vaprus | live | -
+- 2026-08-16 17:00 | Kazakistan Premier Lig | Kyzyl-Zhar - Astana | live | -
+- 2026-08-16 17:00 | Norveç 3.Lig Grup 5 | Lillestrom Sk - Harstad | live | -
+- 2026-08-16 17:00 | İsveç 2.Lig Södra Götaland | Österlen - Oskarshamns Aik | live | -
+- 2026-08-16 17:00 | İsveç 2.Lig Norra Götaland | If Karlstad Ii - Lidkopings | live | -
+- 2026-08-16 17:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Lucksta | live | -
+- 2026-08-16 17:00 | Faroe Adaları Master Lig | Runavik - Streymur | live | -
+- 2026-08-16 17:00 | Faroe Adaları Master Lig | Hb Torshavn - B68 Toftir | live | -
+- 2026-08-16 17:00 | Belarus 1.Lig | Bate Ii - Volna Pinsk | live | -
+- 2026-08-16 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Hatta Dubai - Al Jazira | live | -
+- 2026-08-16 17:30 | Portekiz Premier Lig | Nacional Madei - Estoril | live | -
+- 2026-08-16 17:30 | İsveç Allsvenskan | Gais - Malmö | live | -
+- 2026-08-16 17:30 | İsveç Allsvenskan | Kalmar - Hammarby | live | -
+- 2026-08-16 17:30 | Portekiz 2.Lig | Leixoes - Tondela | live | -
+- 2026-08-16 17:30 | Almanya 3. Lig | Regensburg - Saarbrucken | live | -
+- 2026-08-16 17:30 | Macaristan NB I | Debreceni - Gyor | live | -
 
 ## Biten Maclar
 Biten mac yok.
