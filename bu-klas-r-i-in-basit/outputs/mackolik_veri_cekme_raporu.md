@@ -1,34 +1,42 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T17:37:19.918736+00:00
+Tarih: 2026-08-16T17:55:46.026062+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 46
+- Kac mac bulundu: 83
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 46
+- Kac mac zaten vardi: 83
 - Ham veri havuzu toplam mac sayisi: 7334
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL Lig 1
 - Almanya U19 Bundesliga Grup H
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
+- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Fransa Süper Kupa
+- Guatemala Ulusal Lig Apertura
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
+- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya Ekstraklasa
 - Portekiz 3.Lig Grup A
@@ -37,10 +45,10 @@ Tarih: 2026-08-16T17:37:19.918736+00:00
 - Slovenya 1.SNL
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Sırbistan Süper Lig
-- Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İrlanda FAI Kupası 3.Tur
 - İspanya 2.Lig
@@ -104,8 +112,8 @@ Tarih: 2026-08-16T17:37:19.918736+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 52
-- Acilan detay: 52
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -132,12 +140,12 @@ Tarih: 2026-08-16T17:37:19.918736+00:00
 | 16.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec | Slavia Prag | 37124 | 5 |
 | 16.08.2026 | 22:00 | Sırbistan Süper Lig | Zemun Belg. | Mladost Lucani | 33676 | 5 |
 | 16.08.2026 | 22:00 | Sırbistan Süper Lig | Partizan Belgr | Radnicki 1923 | 33659 | 5 |
+| 17.08.2026 | 01:00 | ABD MLS | New York City | Philadelphia | 31436 | 5 |
+| 17.08.2026 | 01:00 | ABD MLS | Chicago | Portland | 31309 | 5 |
+| 17.08.2026 | 05:30 | ABD MLS | Seattle | Vancouver | 31697 | 5 |
+| 17.08.2026 | 03:30 | ABD MLS | Austin | Dallas | 31570 | 5 |
 | 16.08.2026 | 22:00 | Brezilya Serie A | Atletico Mg | Gremio | 37274 | 5 |
 | 16.08.2026 | 22:00 | Brezilya Serie A | Vasco Da Gama | Santos | 37399 | 5 |
-| 16.08.2026 | 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento | Huracan | 06236 | 5 |
-| 16.08.2026 | 21:00 | Meksika Liga MX Apertura | Pumas Unam | Queretaro | 37082 | 5 |
-| 16.08.2026 | 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov | Dunav 2010 | 37224 | 5 |
-| 16.08.2026 | 22:00 | Hırvatistan 1.HNL | Hnk Gorica | Hajduk Split | 37349 | 5 |
 
 ## Sonuc
 
