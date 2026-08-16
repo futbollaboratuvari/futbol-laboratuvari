@@ -2,46 +2,15 @@
 
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
-Ham mac: 249
-Aktif mac: 173
-Canli mac: 76
+Ham mac: 224
+Aktif mac: 142
+Canli mac: 82
 Biten mac: 0
-Bultenden dusurulen mac: 76
-Bugun: 135
+Bultenden dusurulen mac: 82
+Bugun: 104
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 17:45 | Hollanda Eredivisie | Ajax - Heerenveen | scheduled | -
-- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Az (K) - Ado Den Haag (K | scheduled | -
-- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Twente (K) - De Graafschap ( | scheduled | -
-- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Pec Zwolle (K) - Psv Eindhoven ( | scheduled | -
-- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Heerenveen (K) - Feyenoord (K) | scheduled | -
-- 2026-08-16 18:00 | İspanya LaLiga | Santander - Villarreal | scheduled | -
-- 2026-08-16 18:00 | İngiltere Championship | Burnley - West Ham | scheduled | -
-- 2026-08-16 18:00 | İspanya 2.Lig | Eibar - Tenerife | scheduled | -
-- 2026-08-16 18:00 | Avusturya Bundesliga | Wattens - Salzburg | scheduled | -
-- 2026-08-16 18:00 | Avusturya Bundesliga | Hartberg - Austria Vienna | scheduled | -
-- 2026-08-16 18:00 | Norveç Eliteserien | Brann - Ham Kam | scheduled | -
-- 2026-08-16 18:00 | Norveç Eliteserien | Molde - Tromso | scheduled | -
-- 2026-08-16 18:00 | Norveç Eliteserien | Sarpsborg - Sandefjord | scheduled | -
-- 2026-08-16 18:00 | Ukrayna Premier Lig | Dynamo Kiev - Kolos Kovalivka | scheduled | -
-- 2026-08-16 18:00 | Azerbaycan Premier Lig | Sumqayit - Neftchi Baku | scheduled | -
-- 2026-08-16 18:00 | Norveç 1.Lig | Egersunds - Stabaek | scheduled | -
-- 2026-08-16 18:00 | Norveç 1.Lig | Raufoss - Asane | scheduled | -
-- 2026-08-16 18:00 | Norveç 1.Lig | Hodd - Strommen | scheduled | -
-- 2026-08-16 18:00 | Norveç 1.Lig | Kongsvinger - Haugesund | scheduled | -
-- 2026-08-16 18:00 | Norveç 1.Lig | Sogndal - Sandnes | scheduled | -
-- 2026-08-16 18:00 | Hazırlık Kulüpler | Schalke - Real Madrid | scheduled | -
-- 2026-08-16 18:00 | Slovakya Süper Lig | Spartak Trnava - Zemplin | scheduled | -
-- 2026-08-16 18:00 | Polonya 1.Lig | Stal Mielec - Polonia Bytom | scheduled | -
-- 2026-08-16 18:00 | Gürcistan Erovnuli Liga | Dila Gori - Meshakhte | scheduled | -
-- 2026-08-16 18:00 | Norveç 2.Lig Grup 2 | Grorud Il - Tromsdalen | scheduled | -
-- 2026-08-16 18:00 | Norveç 2.Lig Grup 2 | Kjelsas - Ik Junkeren | scheduled | -
-- 2026-08-16 18:00 | Bosna-Hersek Premier Lig | Bsk Banja Luka - Velez Mostar | scheduled | -
-- 2026-08-16 18:00 | Kazakistan Premier Lig | Atyrau - Okzhetpes | scheduled | -
-- 2026-08-16 18:00 | İskoçya Lig Kupası 2.Tur | Glasgow Ranger - St Mirren | scheduled | -
-- 2026-08-16 18:00 | Letonya Kupa Çeyrek Final | Super Nova - Daugava Riga | scheduled | -
-- 2026-08-16 18:00 | Belarus 1.Lig | Slonim - Smorgon | scheduled | -
 - 2026-08-16 18:30 | Polonya Ekstraklasa | Cracovia Krako - Rakow Czestocho | scheduled | -
 - 2026-08-16 18:30 | Macaristan NB I | Puskas Academy - Paksi | scheduled | -
 - 2026-08-16 18:30 | Romanya 1.Lig | Otelul Galati - Universitatea C | scheduled | -
@@ -186,31 +155,6 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 15:00 | Danimarka Süperlig | Nordsjaelland - Silkeborg | live | -
-- 2026-08-16 15:00 | Danimarka Süperlig | Odense - Horsens | live | -
-- 2026-08-16 15:00 | İsveç Allsvenskan | Degerfors - Göteborg | live | -
-- 2026-08-16 15:00 | İsveç Allsvenskan | Djurgarden - Aik Stockholm | live | -
-- 2026-08-16 15:00 | İsveç Allsvenskan | Brommapojkarna - Orgryte | live | -
-- 2026-08-16 15:00 | Norveç 2.Lig Grup 1 | Sandviken - Jerv | live | -
-- 2026-08-16 15:00 | Danimarka 1.Lig | Vendsyssel - Ab Gladsaxe | live | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey | Hamburger Sv ( - Drochtersen / A | live | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey | Sankt Pauli Ii - Werder Bremen ( | live | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Güney Batı | Freiburg Ii - Hessen Kassel | live | -
-- 2026-08-16 15:00 | Almanya Bölgesel Lig Kuzey Doğu | Altglienicke - Hallescher | live | -
-- 2026-08-16 15:00 | Kazakistan Premier Lig | Irtysh - Tobol Kostanay | live | -
-- 2026-08-16 15:00 | Norveç 3.Lig Grup 5 | Stromsgodset B - Skedsmo | live | -
-- 2026-08-16 15:00 | İsveç 2.Lig Södra Götaland | Linero - Rappe | live | -
-- 2026-08-16 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Ragsved | live | -
-- 2026-08-16 15:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Trygg/Lade | live | -
-- 2026-08-16 15:00 | Belarus 1.Lig | Dinamo Minsk I - Fc Minsk Ii | live | -
-- 2026-08-16 15:30 | Hollanda Eredivisie | Feyenoord - Go Ahead Eagles | live | -
-- 2026-08-16 15:30 | Hollanda Eredivisie | Twente - Zwolle | live | -
-- 2026-08-16 15:30 | İngiltere Championship | Watford - Southam | live | -
-- 2026-08-16 15:30 | Norveç Eliteserien | Aalesund - Valerenga | live | -
-- 2026-08-16 15:30 | Ukrayna Premier Lig | Metalist 1925 - Shakhtar Donets | live | -
-- 2026-08-16 15:30 | Polonya 1.Lig | Lks Lodz - Nieciecza | live | -
-- 2026-08-16 15:30 | Norveç 2.Lig Grup 1 | Pors Grenland - Bjarg | live | -
-- 2026-08-16 15:45 | Polonya Ekstraklasa | Motor Lublin - Gks Katowice | live | -
 - 2026-08-16 16:00 | Finlandiya Veikkausliiga | Helsinki - Jaro | live | -
 - 2026-08-16 16:00 | Çek Cumhuriyeti Czech Liga | Banik Ostrava - Sk Artis Brno | live | -
 - 2026-08-16 16:00 | AFF Şampiyonası Yarı Final | Malezya - Vietnam | live | -
@@ -262,6 +206,37 @@ Yarin: 38
 - 2026-08-16 17:30 | Portekiz 2.Lig | Leixoes - Tondela | live | -
 - 2026-08-16 17:30 | Almanya 3. Lig | Regensburg - Saarbrucken | live | -
 - 2026-08-16 17:30 | Macaristan NB I | Debreceni - Gyor | live | -
+- 2026-08-16 17:45 | Hollanda Eredivisie | Ajax - Heerenveen | live | -
+- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Az (K) - Ado Den Haag (K | live | -
+- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Twente (K) - De Graafschap ( | live | -
+- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Pec Zwolle (K) - Psv Eindhoven ( | live | -
+- 2026-08-16 17:45 | Hollanda Kadınlar Eredivisie | Heerenveen (K) - Feyenoord (K) | live | -
+- 2026-08-16 18:00 | İspanya LaLiga | Santander - Villarreal | live | -
+- 2026-08-16 18:00 | İngiltere Championship | Burnley - West Ham | live | -
+- 2026-08-16 18:00 | İspanya 2.Lig | Eibar - Tenerife | live | -
+- 2026-08-16 18:00 | Avusturya Bundesliga | Wattens - Salzburg | live | -
+- 2026-08-16 18:00 | Avusturya Bundesliga | Hartberg - Austria Vienna | live | -
+- 2026-08-16 18:00 | Norveç Eliteserien | Brann - Ham Kam | live | -
+- 2026-08-16 18:00 | Norveç Eliteserien | Molde - Tromso | live | -
+- 2026-08-16 18:00 | Norveç Eliteserien | Sarpsborg - Sandefjord | live | -
+- 2026-08-16 18:00 | Ukrayna Premier Lig | Dynamo Kiev - Kolos Kovalivka | live | -
+- 2026-08-16 18:00 | Azerbaycan Premier Lig | Sumqayit - Neftchi Baku | live | -
+- 2026-08-16 18:00 | Norveç 1.Lig | Egersunds - Stabaek | live | -
+- 2026-08-16 18:00 | Norveç 1.Lig | Raufoss - Asane | live | -
+- 2026-08-16 18:00 | Norveç 1.Lig | Hodd - Strommen | live | -
+- 2026-08-16 18:00 | Norveç 1.Lig | Kongsvinger - Haugesund | live | -
+- 2026-08-16 18:00 | Norveç 1.Lig | Sogndal - Sandnes | live | -
+- 2026-08-16 18:00 | Hazırlık Kulüpler | Schalke - Real Madrid | live | -
+- 2026-08-16 18:00 | Slovakya Süper Lig | Spartak Trnava - Zemplin | live | -
+- 2026-08-16 18:00 | Polonya 1.Lig | Stal Mielec - Polonia Bytom | live | -
+- 2026-08-16 18:00 | Gürcistan Erovnuli Liga | Dila Gori - Meshakhte | live | -
+- 2026-08-16 18:00 | Norveç 2.Lig Grup 2 | Grorud Il - Tromsdalen | live | -
+- 2026-08-16 18:00 | Norveç 2.Lig Grup 2 | Kjelsas - Ik Junkeren | live | -
+- 2026-08-16 18:00 | Bosna-Hersek Premier Lig | Bsk Banja Luka - Velez Mostar | live | -
+- 2026-08-16 18:00 | Kazakistan Premier Lig | Atyrau - Okzhetpes | live | -
+- 2026-08-16 18:00 | İskoçya Lig Kupası 2.Tur | Glasgow Ranger - St Mirren | live | -
+- 2026-08-16 18:00 | Letonya Kupa Çeyrek Final | Super Nova - Daugava Riga | live | -
+- 2026-08-16 18:00 | Belarus 1.Lig | Slonim - Smorgon | live | -
 
 ## Biten Maclar
 Biten mac yok.
