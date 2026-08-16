@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 280
-Tam analiz: 257
-Eksik analiz: 23
+Toplam analiz: 274
+Tam analiz: 250
+Eksik analiz: 24
 
 - Broadmeadow Ma VS Charlestow City: eksik score, confidence
 - Valentine Phoe VS Weston Bears: eksik score, confidence
@@ -11,6 +11,7 @@ Eksik analiz: 23
 - Utrecht (K) VS Ajax (K): eksik score, confidence
 - Enskede VS Korsnas If Fk: eksik score, confidence
 - Linero VS Rappe: eksik score, confidence
+- Odd Bk Ii VS Hinna: eksik score, confidence
 - Progreso VS Deportivo Maldo: eksik score, confidence
 - Nomme Kalju VS Vaprus: eksik score, confidence
 - Runavik VS Streymur: eksik score, confidence
@@ -24,4 +25,3 @@ Eksik analiz: 23
 - Bohemian VS Longford: eksik score, confidence
 - Tristan VS Almirante: eksik score, confidence
 - Defensor Sport VS Liverpool Monte: eksik score, confidence
-- Kr Reykjavik VS Breidablik: eksik score, confidence

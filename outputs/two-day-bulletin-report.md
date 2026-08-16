@@ -3,20 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 311
-Aktif mac: 290
-Canli mac: 21
+Aktif mac: 284
+Canli mac: 27
 Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 253
+Bultenden dusurulen mac: 27
+Bugun: 247
 Yarin: 37
 
 ## Baslamamis Maclar
-- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Charlestow City | scheduled | -
-- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Belmont Swanse - Adamstown Roseb | scheduled | -
-- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Kahibah - Cooks Hill Unit | scheduled | -
-- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Maitland - Edgeworth Eagle | scheduled | -
-- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Newcastle Olymp | scheduled | -
-- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Valentine Phoe - Weston Bears | scheduled | -
 - 2026-08-16 07:30 | Avustralya NPL Başkent Bölgesi | Belconnen Unit - Canberra Olympi | scheduled | -
 - 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Blacktown City - Unsw Fc | scheduled | -
 - 2026-08-16 08:00 | Avustralya NPL Yeni Güney Galler | Rockdale Cs - Wollongong Wolv | scheduled | -
@@ -324,6 +318,12 @@ Yarin: 37
 - 2026-08-16 05:30 | ABD USL | Las Vegas Ligh - Brooklyn | live | -
 - 2026-08-16 06:00 | ABD USL | Sacramento Rep - Lexington | live | -
 - 2026-08-16 06:10 | Meksika Liga MX Apertura | Atlas - Tigres Uanl | live | -
+- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Charlestow City | live | -
+- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Belmont Swanse - Adamstown Roseb | live | -
+- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Kahibah - Cooks Hill Unit | live | -
+- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Maitland - Edgeworth Eagle | live | -
+- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Lambton Jaffas - Newcastle Olymp | live | -
+- 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Valentine Phoe - Weston Bears | live | -
 
 ## Biten Maclar
 Biten mac yok.
