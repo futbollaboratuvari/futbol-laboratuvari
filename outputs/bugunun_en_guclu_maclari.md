@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-16T22:31:56.440Z
+- Güncelleme: 2026-08-16T22:39:22.868Z
 - Ham maç sayısı: 111
 - Yarın bülteni maç sayısı: 7
 - Detay blok sayısı: 297
@@ -38,7 +38,7 @@
 | Fa Siauliai - Fk Panevezys | Litvanya A Ligi | 18:00 | Veri bekleniyor | - | 2.47 | 8 |
 | Slovan Bratisl - Humenne | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 1.68 | 8 |
 | Auda - Grobina | Letonya Kupa Çeyrek Final | 18:00 | Veri bekleniyor | - | 1.43 | 5 |
-| Qarabagh - Keshla | Azerbaycan Premier Lig | 18:30 | Veri bekleniyor | - | 1.31 | 4 |
+| Qarabagh - Keshla | Azerbaycan Premier Lig | 18:30 | Veri bekleniyor | - | 1.3 | 4 |
 | Zalaegerszeg - Ferencvaros | Macaristan NB I | 18:30 | Veri bekleniyor | - | 4.88 | 6 |
 | Universitatea - Uta Arad | Romanya 1.Lig | 18:30 | Veri bekleniyor | - | 1.79 | 8 |
 | Dziugas Telsia - Suduva | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 2.98 | 8 |
@@ -76,7 +76,7 @@
 | Novi Pazar - Vojvodina | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 3.17 | 8 |
 | Rfc Liege - Francs Borains | Belçika Challenger Pro Lig | 21:00 | Veri bekleniyor | - | 1.82 | 8 |
 | All Boys - Nueva Chicago | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.96 | 6 |
-| Valur - Ka Akureyri | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.8 | 6 |
+| Valur - Ka Akureyri | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.84 | 6 |
 | Völsungur - Vestri | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.07 | 6 |
 | Ir Reykjavik - Njardvik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 3.23 | 6 |
 | Grindavik - Grotta | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.26 | 6 |

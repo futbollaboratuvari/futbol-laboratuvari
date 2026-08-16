@@ -3,17 +3,14 @@
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
 Ham mac: 111
-Aktif mac: 93
-Canli mac: 18
+Aktif mac: 90
+Canli mac: 21
 Biten mac: 0
-Bultenden dusurulen mac: 18
-Bugun: 86
+Bultenden dusurulen mac: 21
+Bugun: 83
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 01:30 | Brezilya Serie A | Corinthians - Cruzeiro | scheduled | -
-- 2026-08-17 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Zamora | scheduled | -
-- 2026-08-17 01:30 | ABD USL Lig 1 | Portland Heart - Forward Madison | scheduled | -
 - 2026-08-17 02:00 | Meksika Liga MX Apertura | Club America - Atletico San Lu | scheduled | -
 - 2026-08-17 02:00 | Venezuela Premier Lig Clausura | Carabobo - Metropolitanos | scheduled | -
 - 2026-08-17 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Marquense | scheduled | -
@@ -124,6 +121,9 @@ Yarin: 7
 - 2026-08-17 01:00 | ABD MLS | New York City - Philadelphia | live | -
 - 2026-08-17 01:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Inter San Carlo | live | -
 - 2026-08-17 01:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Firpo | live | -
+- 2026-08-17 01:30 | Brezilya Serie A | Corinthians - Cruzeiro | live | -
+- 2026-08-17 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Zamora | live | -
+- 2026-08-17 01:30 | ABD USL Lig 1 | Portland Heart - Forward Madison | live | -
 
 ## Biten Maclar
 Biten mac yok.
