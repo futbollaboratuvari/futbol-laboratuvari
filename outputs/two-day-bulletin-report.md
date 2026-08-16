@@ -254,19 +254,6 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 14:30 | Belçika Pro Lig | Waasland Bever - Anderlecht | live | -
-- 2026-08-16 14:30 | Almanya 2. Bundesliga | Hannover - Wolfsburg | live | -
-- 2026-08-16 14:30 | Almanya 2. Bundesliga | Dynamo Dresden - Darmstadt | live | -
-- 2026-08-16 14:30 | Almanya 2. Bundesliga | Arminia Bielef - E.Cottbus | live | -
-- 2026-08-16 14:30 | Rusya Premier Lig | Zenit - Dinamo Moskova | live | -
-- 2026-08-16 14:30 | Almanya 3. Lig | Hansa Rostock - Waldhof Mannhei | live | -
-- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Hebei Kungfu | live | -
-- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Heilongjiang Ls | live | -
-- 2026-08-16 12:00 | Japonya J2 Lig | Yokohama Fc - Iwata | live | -
-- 2026-08-16 12:00 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Godollo | live | -
-- 2026-08-16 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Ujpest Ii | live | -
-- 2026-08-16 12:00 | Japonya J3 Lig | Osaka - Parceiro Nagano | live | -
-- 2026-08-16 12:00 | Japonya J3 Lig | Nara Club - Kagoshima Unite | live | -
 - 2026-08-16 13:00 | Ukrayna Premier Lig | Lnz Cherkasy - Chernomorets | live | -
 - 2026-08-16 13:00 | Portekiz 2.Lig | Portimonense - Vizela | live | -
 - 2026-08-16 13:00 | Polonya 2.Lig | Znicz Pruszkow - Olimpia Grudzia | live | -
