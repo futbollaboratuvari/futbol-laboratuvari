@@ -2,26 +2,15 @@
 
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
-Ham mac: 107
-Aktif mac: 58
-Canli mac: 49
+Ham mac: 105
+Aktif mac: 47
+Canli mac: 58
 Biten mac: 0
-Bultenden dusurulen mac: 49
-Bugun: 20
+Bultenden dusurulen mac: 58
+Bugun: 9
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 22:00 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | scheduled | -
-- 2026-08-16 22:00 | Sırbistan Süper Lig | Zemun Belg. - Mladost Lucani | scheduled | -
-- 2026-08-16 22:00 | Brezilya Serie A | Vasco Da Gama - Santos | scheduled | -
-- 2026-08-16 22:00 | Brezilya Serie A | Atletico Mg - Gremio | scheduled | -
-- 2026-08-16 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Hajduk Split | scheduled | -
-- 2026-08-16 22:00 | Şili Premier Lig | Cobresal - Concepcion | scheduled | -
-- 2026-08-16 22:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Chaco For Ever | scheduled | -
-- 2026-08-16 22:00 | Portekiz 3.Lig Grup A | Varzim - Ad Marco 09 | scheduled | -
-- 2026-08-16 22:00 | Ekvador Pro Lig | Orense - Deportivo Cuenc | scheduled | -
-- 2026-08-16 22:00 | Bosna-Hersek Premier Lig | Radnik Bijelji - Zrinjski | scheduled | -
-- 2026-08-16 22:00 | Bolivya Premier Lig | Always Ready - Real Potosi | scheduled | -
 - 2026-08-16 22:15 | İtalya Kupa 1.Tur | Lazio - Mantova | scheduled | -
 - 2026-08-16 22:30 | Portekiz Premier Lig | Braga - Gil Vicente | scheduled | -
 - 2026-08-16 22:30 | Portekiz Premier Lig | Famalicao - Maritimo | scheduled | -
@@ -71,8 +60,6 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club - Abha | live | -
-- 2026-08-16 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Banniyas - Al Ain | live | -
 - 2026-08-16 20:00 | İspanya LaLiga | Espanyol - Levante | live | -
 - 2026-08-16 20:00 | Portekiz Premier Lig | Arouca - Moreirense | live | -
 - 2026-08-16 20:00 | İspanya 2.Lig | Burgos - Cordoba | live | -
@@ -120,6 +107,17 @@ Yarin: 38
 - 2026-08-16 21:30 | Türkiye TFF 1. Lig | Muğlaspor - Bandirmaspor | live | -
 - 2026-08-16 21:45 | Fransa Süper Kupa | Lens - Psg | live | -
 - 2026-08-16 21:45 | İtalya Kupa 1.Tur | Verona - Virtus Entella | live | -
+- 2026-08-16 22:00 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | live | -
+- 2026-08-16 22:00 | Sırbistan Süper Lig | Zemun Belg. - Mladost Lucani | live | -
+- 2026-08-16 22:00 | Brezilya Serie A | Vasco Da Gama - Santos | live | -
+- 2026-08-16 22:00 | Brezilya Serie A | Atletico Mg - Gremio | live | -
+- 2026-08-16 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Hajduk Split | live | -
+- 2026-08-16 22:00 | Şili Premier Lig | Cobresal - Concepcion | live | -
+- 2026-08-16 22:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Chaco For Ever | live | -
+- 2026-08-16 22:00 | Portekiz 3.Lig Grup A | Varzim - Ad Marco 09 | live | -
+- 2026-08-16 22:00 | Ekvador Pro Lig | Orense - Deportivo Cuenc | live | -
+- 2026-08-16 22:00 | Bosna-Hersek Premier Lig | Radnik Bijelji - Zrinjski | live | -
+- 2026-08-16 22:00 | Bolivya Premier Lig | Always Ready - Real Potosi | live | -
 
 ## Biten Maclar
 Biten mac yok.
