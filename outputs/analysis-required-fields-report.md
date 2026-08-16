@@ -1,11 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 141
-Tam analiz: 127
-Eksik analiz: 14
+Toplam analiz: 130
+Tam analiz: 117
+Eksik analiz: 13
 
-- Heerenveen (K) VS Feyenoord (K): eksik score, confidence
 - Super Nova VS Daugava Riga: eksik score, confidence
 - Balatonalmadi VS Gyor Ii: eksik score, confidence
 - 1908 Szac VS Dorogi Fc: eksik score, confidence

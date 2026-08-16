@@ -3,21 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 168
-Aktif mac: 89
-Canli mac: 79
+Aktif mac: 82
+Canli mac: 86
 Biten mac: 0
-Bultenden dusurulen mac: 79
-Bugun: 51
+Bultenden dusurulen mac: 86
+Bugun: 44
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 20:15 | Belçika Pro Lig | Lommel - Charleroi | scheduled | -
-- 2026-08-16 20:15 | Norveç Eliteserien | Fredrikstad - Kristiansund | scheduled | -
-- 2026-08-16 20:30 | Almanya 3. Lig | Stuttgart (Amt - Viktoria Köln | scheduled | -
-- 2026-08-16 20:30 | Polonya 1.Lig | Unia Skierniew - Miedz Legnica | scheduled | -
-- 2026-08-16 20:30 | Polonya 2.Lig | Stal S Wola - Avia Swidnik | scheduled | -
-- 2026-08-16 20:30 | Faroe Adaları Master Lig | Skala - Vikingur Gota | scheduled | -
-- 2026-08-16 20:30 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Tabora United | scheduled | -
 - 2026-08-16 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda - Al Shabab (Riya | scheduled | -
 - 2026-08-16 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec - Slavia Prag | scheduled | -
 - 2026-08-16 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento - Huracan | scheduled | -
@@ -181,6 +174,13 @@ Yarin: 38
 - 2026-08-16 20:00 | Moldova Ulusal Lig | Zimbru - Milsami-Ursidos | live | -
 - 2026-08-16 20:00 | Norveç 3.Lig Grup 1 | Valerenga Ii - If Ready | live | -
 - 2026-08-16 20:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Taby | live | -
+- 2026-08-16 20:15 | Belçika Pro Lig | Lommel - Charleroi | live | -
+- 2026-08-16 20:15 | Norveç Eliteserien | Fredrikstad - Kristiansund | live | -
+- 2026-08-16 20:30 | Almanya 3. Lig | Stuttgart (Amt - Viktoria Köln | live | -
+- 2026-08-16 20:30 | Polonya 1.Lig | Unia Skierniew - Miedz Legnica | live | -
+- 2026-08-16 20:30 | Polonya 2.Lig | Stal S Wola - Avia Swidnik | live | -
+- 2026-08-16 20:30 | Faroe Adaları Master Lig | Skala - Vikingur Gota | live | -
+- 2026-08-16 20:30 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Tabora United | live | -
 
 ## Biten Maclar
 Biten mac yok.
