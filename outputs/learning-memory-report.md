@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 16.08.2026 14:07:11
-=======
-Oluşturma: 16.08.2026 14:07:46
->>>>>>> Stashed changes
+Oluşturma: 16.08.2026 14:11:22
 
 ## Özet
 
-- Toplam tahmin: 172
-- Bekleyen tahmin: 172
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 79
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 16.08.2026 14:07:46
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
-- MS X: toplam 94, bekleyen 94, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 64, bekleyen 64, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-16 | İngiltere Championship | Watford - Southam | MS 1 | pending | 50/100
-- 2026-08-16 | Hazırlık Kulüpler | Schalke - Real Madrid | MS X | pending | 40/100
-- 2026-08-16 | Danimarka Süperlig | Lyngby - Midtjylland | MS X | pending | 45/100
-- 2026-08-16 | Bosna-Hersek Premier Lig | Bsk Banja Luka - Velez Mostar | MS 1 | pending | 40/100
-- 2026-08-16 | Slovakya Süper Lig | Spartak Trnava - Zemplin | MS 2 | pending | 60/100
-- 2026-08-16 | Norveç 2.Lig Grup 2 | Kjelsas - Ik Junkeren | MS X | pending | 40/100
-- 2026-08-16 | Finlandiya Veikkausliiga | Helsinki - Jaro | MS 2 | pending | 40/100
-- 2026-08-16 | Polonya 2.Lig | Zawisza Bydgos - Falubaz Zielona | MS 2 | pending | 50/100
-- 2026-08-16 | Türkiye TFF 1. Lig | Muğlaspor - Bandirmaspor | MS X | pending | 40/100
-- 2026-08-16 | Fransa Süper Kupa | Lens - Psg | MS 1 | pending | 45/100
-- 2026-08-16 | İtalya Kupa 1.Tur | Verona - Virtus Entella | MS 2 | pending | 50/100
-- 2026-08-16 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | MS 2 | pending | 60/100
-- 2026-08-16 | Sırbistan Süper Lig | Zemun Belg. - Mladost Lucani | MS 1 | pending | 40/100
-- 2026-08-16 | Brezilya Serie A | Vasco Da Gama - Santos | MS 2 | pending | 40/100
-- 2026-08-16 | Brezilya Serie A | Atletico Mg - Gremio | MS 2 | pending | 40/100
 
