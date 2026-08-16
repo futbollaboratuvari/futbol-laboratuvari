@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 142
+- Scheduled match count: 116
 - Live match count: 64
-- Finished removed count: 0
+- Finished removed count: 26
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 16:30 | Gresford Athle - Brickfield Rang | live
-- 2026-08-16 16:30 | Stjordals-Blin - Honefoss | live
-- 2026-08-16 17:00 | Bate Ii - Volna Pinsk | live
-- 2026-08-16 17:00 | Beerschot-Wilr - Kaa Gent Ii | live
-- 2026-08-16 17:00 | La Louvière - Gent | live
-- 2026-08-16 17:00 | Chapecoense - Bahia | live
-- 2026-08-16 17:00 | Operario - Avai | live
-- 2026-08-16 17:00 | Lyngby - Midtjylland | live
-- 2026-08-16 17:00 | Nomme Kalju - Vaprus | live
-- 2026-08-16 17:00 | Trans Narva - Paide Linnamees | live
+- 2026-08-16 17:10 | Hatta Dubai - Al Jazira | live
+- 2026-08-16 17:30 | Regensburg - Saarbrucken | live
+- 2026-08-16 17:30 | Gais - Malmö | live
+- 2026-08-16 17:30 | Kalmar - Hammarby | live
+- 2026-08-16 17:30 | Debreceni - Gyor | live
+- 2026-08-16 17:30 | Leixoes - Tondela | live
+- 2026-08-16 17:30 | Nacional Madei - Estoril | live
+- 2026-08-16 17:45 | Ajax - Heerenveen | live
+- 2026-08-16 17:45 | Az (K) - Ado Den Haag (K | live
+- 2026-08-16 17:45 | Heerenveen (K) - Feyenoord (K) | live
