@@ -1,13 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 104
-Tam analiz: 11
-Eksik analiz: 93
+Toplam analiz: 96
+Tam analiz: 6
+Eksik analiz: 90
 
-- Atl Temperley VS Los Andes: eksik score, confidence
-- San Martin Tuc VS Deportivo Madry: eksik score, confidence
-- Nacional Potos VS Academia Del Ba: eksik score, confidence
 - Penarol VS Central Espanol: eksik score, confidence
 - Chicago VS Portland: eksik score, confidence
 - New York City VS Philadelphia: eksik score, confidence
@@ -25,3 +22,6 @@ Eksik analiz: 93
 - Depor. Olimpia VS Depor Motagua: eksik score, confidence
 - Cienciano VS Deportivo Garci: eksik score, confidence
 - Independiente VS Gualberto Villa: eksik score, confidence
+- Aucas VS Ldu Quito: eksik score, confidence
+- Unan Managua VS Jalapa: eksik score, confidence
+- Platense VS Deportivo Fas: eksik score, confidence

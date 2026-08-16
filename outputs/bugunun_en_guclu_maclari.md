@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-16T23:30:31.284Z
-- Ham maç sayısı: 111
+- Güncelleme: 2026-08-16T23:36:00.319Z
+- Ham maç sayısı: 103
 - Yarın bülteni maç sayısı: 7
-- Detay blok sayısı: 297
+- Detay blok sayısı: 277
 - Aktif bülten maçı: 81
-- Bültenden düşürülen maç: 30
+- Bültenden düşürülen maç: 22
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -28,7 +28,7 @@
 | Polessya - Zoria Luhansk | Ukrayna Premier Lig | 18:00 | Veri bekleniyor | - | 1.31 | 7 |
 | Fa Siauliai - Fk Panevezys | Litvanya A Ligi | 18:00 | Veri bekleniyor | - | 2.47 | 8 |
 | Slovan Bratisl - Humenne | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 1.68 | 8 |
-| Auda - Grobina | Letonya Kupa Çeyrek Final | 18:00 | Veri bekleniyor | - | 1.43 | 5 |
+| Auda - Grobina | Letonya Kupa Çeyrek Final | 18:00 | Veri bekleniyor | - | 1.4 | 5 |
 | Qarabagh - Keshla | Azerbaycan Premier Lig | 18:30 | Veri bekleniyor | - | 1.3 | 4 |
 | Zalaegerszeg - Ferencvaros | Macaristan NB I | 18:30 | Veri bekleniyor | - | 4.88 | 6 |
 | Universitatea - Uta Arad | Romanya 1.Lig | 18:30 | Veri bekleniyor | - | 1.79 | 8 |

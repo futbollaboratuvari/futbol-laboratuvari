@@ -2,24 +2,15 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 111
-Aktif mac: 90
-Canli mac: 21
+Ham mac: 103
+Aktif mac: 81
+Canli mac: 22
 Biten mac: 0
-Bultenden dusurulen mac: 21
-Bugun: 83
+Bultenden dusurulen mac: 22
+Bugun: 74
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 02:00 | Meksika Liga MX Apertura | Club America - Atletico San Lu | scheduled | -
-- 2026-08-17 02:00 | Venezuela Premier Lig Clausura | Carabobo - Metropolitanos | scheduled | -
-- 2026-08-17 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Marquense | scheduled | -
-- 2026-08-17 02:00 | ABD USL Lig 1 | Union Omaha - Richmond Kicker | scheduled | -
-- 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Barracas - Rosario Central | scheduled | -
-- 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Instituto Cordo | scheduled | -
-- 2026-08-17 02:15 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Depor Motagua | scheduled | -
-- 2026-08-17 02:30 | Peru Premier Lig Clausura | Cienciano - Deportivo Garci | scheduled | -
-- 2026-08-17 02:30 | Bolivya Premier Lig | Independiente - Gualberto Villa | scheduled | -
 - 2026-08-17 03:00 | Ekvador Pro Lig | Aucas - Ldu Quito | scheduled | -
 - 2026-08-17 03:00 | Nikaragua Premier Lig Apertura | Unan Managua - Jalapa | scheduled | -
 - 2026-08-17 03:00 | El Salvador Primera Lig Apertura | Platense - Deportivo Fas | scheduled | -
@@ -103,14 +94,6 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | live | -
-- 2026-08-17 00:00 | Venezuela Premier Lig Clausura | Depor Tachira - Monagas | live | -
-- 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | Atl Temperley - Los Andes | live | -
-- 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | live | -
-- 2026-08-17 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Aurora | live | -
-- 2026-08-17 00:00 | Honduras Ulusal Lig Apertura | Choloma - Marathon | live | -
-- 2026-08-17 00:15 | Ekvador Pro Lig | Emelec - T.Universitario | live | -
-- 2026-08-17 00:15 | Bolivya Premier Lig | Nacional Potos - Academia Del Ba | live | -
 - 2026-08-17 00:30 | Brezilya Serie A | Vitoria Bahia - Botafogo | live | -
 - 2026-08-17 00:30 | Brezilya Serie A | Mirassol - Flamengo | live | -
 - 2026-08-17 00:30 | Şili Premier Lig | Colo Colo - O Higgins | live | -
@@ -124,6 +107,15 @@ Yarin: 7
 - 2026-08-17 01:30 | Brezilya Serie A | Corinthians - Cruzeiro | live | -
 - 2026-08-17 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Zamora | live | -
 - 2026-08-17 01:30 | ABD USL Lig 1 | Portland Heart - Forward Madison | live | -
+- 2026-08-17 02:00 | Meksika Liga MX Apertura | Club America - Atletico San Lu | live | -
+- 2026-08-17 02:00 | Venezuela Premier Lig Clausura | Carabobo - Metropolitanos | live | -
+- 2026-08-17 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Marquense | live | -
+- 2026-08-17 02:00 | ABD USL Lig 1 | Union Omaha - Richmond Kicker | live | -
+- 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Barracas - Rosario Central | live | -
+- 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Instituto Cordo | live | -
+- 2026-08-17 02:15 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Depor Motagua | live | -
+- 2026-08-17 02:30 | Peru Premier Lig Clausura | Cienciano - Deportivo Garci | live | -
+- 2026-08-17 02:30 | Bolivya Premier Lig | Independiente - Gualberto Villa | live | -
 
 ## Biten Maclar
 Biten mac yok.
