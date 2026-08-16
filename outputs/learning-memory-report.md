@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.08.2026 12:11:06
+Oluşturma: 16.08.2026 12:16:15
 
 ## Özet
 
-- Toplam tahmin: 167
-- Bekleyen tahmin: 167
+- Toplam tahmin: 168
+- Bekleyen tahmin: 168
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 79
@@ -20,12 +20,13 @@ Oluşturma: 16.08.2026 12:11:06
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 64, bekleyen 64, başarı bekleniyor, ağırlık 1
 - MS X: toplam 92, bekleyen 92, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 63, bekleyen 63, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-16 | Slovakya Süper Lig | Spartak Trnava - Zemplin | MS 2 | pending | 60/100
 - 2026-08-16 | Norveç 2.Lig Grup 2 | Kjelsas - Ik Junkeren | MS X | pending | 40/100
 - 2026-08-16 | Finlandiya Veikkausliiga | Helsinki - Jaro | MS 2 | pending | 40/100
 - 2026-08-16 | Polonya 2.Lig | Zawisza Bydgos - Falubaz Zielona | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 16.08.2026 12:11:06
 - 2026-08-16 | Ekvador Pro Lig | Orense - Deportivo Cuenc | MS 2 | pending | 40/100
 - 2026-08-16 | Portekiz Premier Lig | Braga - Gil Vicente | MS 2 | pending | 50/100
 - 2026-08-16 | Portekiz Premier Lig | Famalicao - Maritimo | MS 2 | pending | 40/100
-- 2026-08-16 | İspanya 2.Lig | Las Palmas - Albacete | MS 2 | pending | 50/100
 
