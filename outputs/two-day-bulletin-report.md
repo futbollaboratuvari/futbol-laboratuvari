@@ -1,21 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-16 / 2026-08-17
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 373
-Aktif mac: 69
-Canli mac: 62
-Biten mac: 242
-Bultenden dusurulen mac: 304
-Bugun: 31
+Kaynak: fixtures.json
+Ham mac: 374
+Aktif mac: 66
+Canli mac: 51
+Biten mac: 257
+Bultenden dusurulen mac: 308
+Bugun: 28
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 21:15 | Polonya Ekstraklasa | Gornik Zabrze - Wisla Krakow | scheduled | -
-- 2026-08-16 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov - Dunav 2010 | scheduled | -
-- 2026-08-16 21:15 | Peru Premier Lig Clausura | Deportivo Moqu - Sport Boys | scheduled | -
-- 2026-08-16 21:15 | Slovenya 1.SNL | Koper - Ask Bravo | scheduled | -
 - 2026-08-16 21:30 | Türkiye Süper Lig | Beşiktaş - Eyüpspor | scheduled | -
 - 2026-08-16 21:30 | Türkiye Süper Lig | Amed Sk - Erzurumspor Fk | scheduled | -
 - 2026-08-16 21:30 | Romanya 1.Lig | Hunedoara - Cfr Cluj | scheduled | -
@@ -42,6 +37,7 @@ Yarin: 38
 - 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | Central Norte - Gimnasia Y Tiro | scheduled | -
 - 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Martin Sj | scheduled | -
 - 2026-08-16 23:00 | Kanada Premier Lig | Inter Toronto - Hfx Wanderers | scheduled | -
+- 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | scheduled | -
 - 2026-08-16 23:30 | Peru Premier Lig Clausura | Fc Cajamarca - Universitario | scheduled | -
 - 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | scheduled | -
 - 2026-08-17 00:00 | Venezuela Premier Lig Clausura | Depor Tachira - Monagas | scheduled | -
@@ -83,34 +79,6 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda - Al Shabab (Riya | live | -
-- 2026-08-16 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec - Slavia Prag | live | -
-- 2026-08-16 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento - Huracan | live | -
-- 2026-08-16 21:00 | Meksika Liga MX Apertura | Pumas Unam - Queretaro | live | -
-- 2026-08-16 21:00 | İrlanda FAI Kupası 3.Tur | Bohemian - Longford | live | -
-- 2026-08-16 21:00 | Arjantin Ulusal Primera Lig | Tristan - Almirante | live | -
-- 2026-08-16 21:00 | Uruguay Premier Lig Clausura | Defensor Sport - Liverpool Monte | live | -
-- 2026-08-16 21:00 | Meksika Ascenso MX Apertura | Leones Negros - Cds Tampico Mad | live | -
-- 2026-08-16 21:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Akranes | live | -
-- 2026-08-16 21:00 | İzlanda Urvalsdeild | Kr Reykjavik - Breidablik | live | -
-- 2026-08-16 21:00 | İzlanda Urvalsdeild | Hafnarfjordur - Vikingur Reykja | live | -
-- 2026-08-16 21:00 | Irak Premier Lig | Erbil Sc - Al Kahraba | live | -
-- 2026-08-16 21:00 | Irak Premier Lig | Al Shorta - Karbala | live | -
-- 2026-08-16 18:45 | Litvanya A Ligi | Kauno Zalgiris - Transinvest Vil | live | -
-- 2026-08-16 19:00 | Türkiye Süper Lig | Başakşehir Fk - Kocaelispor | live | -
-- 2026-08-16 19:00 | İtalya Kupa 1.Tur | Frosinone - Juve Stabia | live | -
-- 2026-08-16 19:00 | Danimarka Süperlig | Randers - Kopenhag | live | -
-- 2026-08-16 19:00 | Bulgaristan 1.Lig | Cska Sofia - Botev Vratsa | live | -
-- 2026-08-16 19:00 | Peru Premier Lig Clausura | Sporting Crist - Sport Huancayo | live | -
-- 2026-08-16 19:00 | Slovenya 1.SNL | Nk Brinje Gros - Mura | live | -
-- 2026-08-16 19:00 | Portekiz 3.Lig Grup A | Sao Joao Ver - Fafe | live | -
-- 2026-08-16 19:00 | Portekiz 3.Lig Grup B | Vitoria De Ser - Sporting Covilh | live | -
-- 2026-08-16 19:00 | Estonya Premium Lig | Harju Jalgpall - Levadia Tallinn | live | -
-- 2026-08-16 19:00 | Estonya Premium Lig | Flora Tallinn - Kuressaare | live | -
-- 2026-08-16 19:00 | Kanada Premier Lig | Supra Du Quebe - Atletico Ottawa | live | -
-- 2026-08-16 19:00 | Malta Premier Lig Açılış | Valletta - Zabbar St Patri | live | -
-- 2026-08-16 19:00 | Türkiye TFF 1. Lig | Kayserispor - Sivasspor | live | -
-- 2026-08-16 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc - Pendikspor | live | -
 - 2026-08-16 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah - Al Hazm | live | -
 - 2026-08-16 19:15 | Faroe Adaları Master Lig | Vestur Sorvagu - B36 Torshavn | live | -
 - 2026-08-16 19:15 | Faroe Adaları Master Lig | Ab Argir - Kí Klaksvík | live | -
@@ -145,6 +113,23 @@ Yarin: 38
 - 2026-08-16 20:30 | Polonya 2.Lig | Stal S Wola - Avia Swidnik | live | -
 - 2026-08-16 20:30 | Faroe Adaları Master Lig | Skala - Vikingur Gota | live | -
 - 2026-08-16 20:30 | Tanzanya Kuu Bara Ligi | Jkt Tanzania - Tabora United | live | -
+- 2026-08-16 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda - Al Shabab (Riya | live | -
+- 2026-08-16 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec - Slavia Prag | live | -
+- 2026-08-16 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento - Huracan | live | -
+- 2026-08-16 21:00 | Meksika Liga MX Apertura | Pumas Unam - Queretaro | live | -
+- 2026-08-16 21:00 | İrlanda FAI Kupası 3.Tur | Bohemian - Longford | live | -
+- 2026-08-16 21:00 | Arjantin Ulusal Primera Lig | Tristan - Almirante | live | -
+- 2026-08-16 21:00 | Uruguay Premier Lig Clausura | Defensor Sport - Liverpool Monte | live | -
+- 2026-08-16 21:00 | Meksika Ascenso MX Apertura | Leones Negros - Cds Tampico Mad | live | -
+- 2026-08-16 21:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Akranes | live | -
+- 2026-08-16 21:00 | İzlanda Urvalsdeild | Kr Reykjavik - Breidablik | live | -
+- 2026-08-16 21:00 | İzlanda Urvalsdeild | Hafnarfjordur - Vikingur Reykja | live | -
+- 2026-08-16 21:00 | Irak Premier Lig | Erbil Sc - Al Kahraba | live | -
+- 2026-08-16 21:00 | Irak Premier Lig | Al Shorta - Karbala | live | -
+- 2026-08-16 21:15 | Polonya Ekstraklasa | Gornik Zabrze - Wisla Krakow | live | -
+- 2026-08-16 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov - Dunav 2010 | live | -
+- 2026-08-16 21:15 | Peru Premier Lig Clausura | Deportivo Moqu - Sport Boys | live | -
+- 2026-08-16 21:15 | Slovenya 1.SNL | Koper - Ask Bravo | live | -
 
 ## Biten Maclar
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | finished | -
@@ -389,3 +374,18 @@ Yarin: 38
 - 2026-08-16 18:30 | Irak Premier Lig | Duhok - Al Gharraf | finished | -
 - 2026-08-16 18:30 | Macaristan NB III Kuzeybatı | 1908 Szac - Dorogi Fc | finished | -
 - 2026-08-16 18:30 | Macaristan NB III Güneydoğu | Bkv Elore - Esmtk | finished | -
+- 2026-08-16 18:45 | Litvanya A Ligi | Kauno Zalgiris - Transinvest Vil | finished | -
+- 2026-08-16 19:00 | Türkiye Süper Lig | Başakşehir Fk - Kocaelispor | finished | -
+- 2026-08-16 19:00 | İtalya Kupa 1.Tur | Frosinone - Juve Stabia | finished | -
+- 2026-08-16 19:00 | Danimarka Süperlig | Randers - Kopenhag | finished | -
+- 2026-08-16 19:00 | Bulgaristan 1.Lig | Cska Sofia - Botev Vratsa | finished | -
+- 2026-08-16 19:00 | Peru Premier Lig Clausura | Sporting Crist - Sport Huancayo | finished | -
+- 2026-08-16 19:00 | Slovenya 1.SNL | Nk Brinje Gros - Mura | finished | -
+- 2026-08-16 19:00 | Portekiz 3.Lig Grup A | Sao Joao Ver - Fafe | finished | -
+- 2026-08-16 19:00 | Portekiz 3.Lig Grup B | Vitoria De Ser - Sporting Covilh | finished | -
+- 2026-08-16 19:00 | Estonya Premium Lig | Harju Jalgpall - Levadia Tallinn | finished | -
+- 2026-08-16 19:00 | Estonya Premium Lig | Flora Tallinn - Kuressaare | finished | -
+- 2026-08-16 19:00 | Kanada Premier Lig | Supra Du Quebe - Atletico Ottawa | finished | -
+- 2026-08-16 19:00 | Malta Premier Lig Açılış | Valletta - Zabbar St Patri | finished | -
+- 2026-08-16 19:00 | Türkiye TFF 1. Lig | Kayserispor - Sivasspor | finished | -
+- 2026-08-16 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc - Pendikspor | finished | -

@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-16T17:55:50.289Z
-- Ham fixture sayisi: 7294
-- Bugun/yarin kaynak mac: 373
-- Aktif bulten maci: 82
+- Guncelleme: 2026-08-16T18:15:25.155Z
+- Ham fixture sayisi: 7295
+- Bugun/yarin kaynak mac: 374
+- Aktif bulten maci: 66
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 291
+- Bultenden dusurulen mac: 308
 
-- 1. 2026-08-16 21:00 | Irak Premier Lig | Al Shorta - Karbala | scheduled
-- 2. 2026-08-16 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda - Al Shabab (Riya | scheduled
-- 3. 2026-08-16 21:00 | İrlanda FAI Kupası 3.Tur | Bohemian - Longford | scheduled
-- 4. 2026-08-16 21:00 | Uruguay Premier Lig Clausura | Defensor Sport - Liverpool Monte | scheduled
-- 5. 2026-08-16 21:00 | Irak Premier Lig | Erbil Sc - Al Kahraba | scheduled
-- 6. 2026-08-16 21:00 | İzlanda Urvalsdeild | Hafnarfjordur - Vikingur Reykja | scheduled
-- 7. 2026-08-16 21:00 | İzlanda Urvalsdeild | Kr Reykjavik - Breidablik | scheduled
-- 8. 2026-08-16 21:00 | Meksika Ascenso MX Apertura | Leones Negros - Cds Tampico Mad | scheduled
-- 9. 2026-08-16 21:00 | Meksika Liga MX Apertura | Pumas Unam - Queretaro | scheduled
-- 10. 2026-08-16 21:00 | Arjantin Premier Lig 2. Aşama | Sarmiento - Huracan | scheduled
-- 11. 2026-08-16 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec - Slavia Prag | scheduled
-- 12. 2026-08-16 21:00 | Arjantin Ulusal Primera Lig | Tristan - Almirante | scheduled
-- 13. 2026-08-16 21:00 | İzlanda Urvalsdeild | Vestmannaeyjar - Akranes | scheduled
-- 14. 2026-08-16 21:15 | Peru Premier Lig Clausura | Deportivo Moqu - Sport Boys | scheduled
-- 15. 2026-08-16 21:15 | Polonya Ekstraklasa | Gornik Zabrze - Wisla Krakow | scheduled
+- 1. 2026-08-16 21:30 | Türkiye Süper Lig | Amed Sk - Erzurumspor Fk | scheduled
+- 2. 2026-08-16 21:30 | Türkiye Süper Lig | Beşiktaş - Eyüpspor | scheduled
+- 3. 2026-08-16 21:30 | Romanya 1.Lig | Hunedoara - Cfr Cluj | scheduled
+- 4. 2026-08-16 21:30 | Türkiye TFF 1. Lig | Mardin 1969 - Antalyaspor | scheduled
+- 5. 2026-08-16 21:30 | Türkiye TFF 1. Lig | Muğlaspor - Bandirmaspor | scheduled
+- 6. 2026-08-16 21:30 | Malta Premier Lig Açılış | Sliema - Hibernians | scheduled
+- 7. 2026-08-16 21:45 | Fransa Süper Kupa | Lens - Psg | scheduled
+- 8. 2026-08-16 21:45 | İtalya Kupa 1.Tur | Verona - Virtus Entella | scheduled
+- 9. 2026-08-16 22:00 | Bolivya Premier Lig | Always Ready - Real Potosi | scheduled
+- 10. 2026-08-16 22:00 | Brezilya Serie A | Atletico Mg - Gremio | scheduled
+- 11. 2026-08-16 22:00 | Şili Premier Lig | Cobresal - Concepcion | scheduled
+- 12. 2026-08-16 22:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Chaco For Ever | scheduled
+- 13. 2026-08-16 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Hajduk Split | scheduled
+- 14. 2026-08-16 22:00 | Ekvador Pro Lig | Orense - Deportivo Cuenc | scheduled
+- 15. 2026-08-16 22:00 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | scheduled

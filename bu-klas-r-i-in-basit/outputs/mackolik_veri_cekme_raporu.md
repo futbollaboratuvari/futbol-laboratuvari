@@ -1,25 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-16T17:55:46.026062+00:00
-=======
-Tarih: 2026-08-16T17:59:40.587283+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-16T18:15:21.395793+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 83
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 83
-=======
-- Kac mac bulundu: 45
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 45
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 7334
+- Kac mac bulundu: 70
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 69
+- Ham veri havuzu toplam mac sayisi: 7335
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -40,11 +30,9 @@ Tarih: 2026-08-16T17:59:40.587283+00:00
 - Guatemala Ulusal Lig Apertura
 - Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Irak Premier Lig
 - Kanada Premier Lig
 - Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
@@ -53,18 +41,14 @@ Tarih: 2026-08-16T17:59:40.587283+00:00
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Slovenya 1.SNL
-- Suudi Arabistan Kral Kupası Son 32 Turu
 - Sırbistan Süper Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Çek Cumhuriyeti Czech Liga
-- İrlanda FAI Kupası 3.Tur
 - İspanya 2.Lig
 - İsveç 2.Lig Norrland Yükselme Grubu
 - İtalya Kupa 1.Tur
-- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -122,8 +106,8 @@ Tarih: 2026-08-16T17:59:40.587283+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 51
-- Acilan detay: 51
+- Denenen Tumu alani: 42
+- Acilan detay: 42
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -142,20 +126,20 @@ Tarih: 2026-08-16T17:59:40.587283+00:00
 | 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Antalyaspor | 09031 | 5 |
 | 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
 | 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
-| 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
 | 16.08.2026 | 22:30 | İspanya 2.Lig | Las Palmas | Albacete | 26206 | 5 |
 | 16.08.2026 | 21:45 | İtalya Kupa 1.Tur | Verona | Virtus Entella | 28852 | 5 |
 | 16.08.2026 | 22:15 | İtalya Kupa 1.Tur | Lazio | Mantova | 28968 | 5 |
 | 16.08.2026 | 21:15 | Polonya Ekstraklasa | Gornik Zabrze | Wisla Krakow | 35191 | 5 |
-| 16.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Slovan Liberec | Slavia Prag | 37124 | 5 |
 | 16.08.2026 | 22:00 | Sırbistan Süper Lig | Zemun Belg. | Mladost Lucani | 33676 | 5 |
 | 16.08.2026 | 22:00 | Sırbistan Süper Lig | Partizan Belgr | Radnicki 1923 | 33659 | 5 |
-| 17.08.2026 | 01:00 | ABD MLS | New York City | Philadelphia | 31436 | 5 |
+| 17.08.2026 | 03:30 | ABD MLS | Austin | Dallas | 31570 | 5 |
 | 17.08.2026 | 01:00 | ABD MLS | Chicago | Portland | 31309 | 5 |
 | 17.08.2026 | 05:30 | ABD MLS | Seattle | Vancouver | 31697 | 5 |
-| 17.08.2026 | 03:30 | ABD MLS | Austin | Dallas | 31570 | 5 |
+| 17.08.2026 | 01:00 | ABD MLS | New York City | Philadelphia | 31436 | 5 |
 | 16.08.2026 | 22:00 | Brezilya Serie A | Atletico Mg | Gremio | 37274 | 5 |
 | 16.08.2026 | 22:00 | Brezilya Serie A | Vasco Da Gama | Santos | 37399 | 5 |
+| 17.08.2026 | 01:30 | Brezilya Serie A | Corinthians | Cruzeiro | 37728 | 5 |
+| 17.08.2026 | 00:30 | Brezilya Serie A | Mirassol | Flamengo | 37607 | 5 |
 
 ## Sonuc
 
