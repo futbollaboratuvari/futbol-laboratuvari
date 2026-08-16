@@ -4,22 +4,14 @@ Gunler: 2026-08-16 / 2026-08-17
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 364
-Aktif mac: 249
-Canli mac: 31
+Aktif mac: 241
+Canli mac: 39
 Biten mac: 84
-Bultenden dusurulen mac: 115
-Bugun: 211
+Bultenden dusurulen mac: 123
+Bugun: 203
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 14:30 | Belçika Pro Lig | Waasland Bever - Anderlecht | scheduled | -
-- 2026-08-16 14:30 | Almanya 2. Bundesliga | Hannover - Wolfsburg | scheduled | -
-- 2026-08-16 14:30 | Almanya 2. Bundesliga | Dynamo Dresden - Darmstadt | scheduled | -
-- 2026-08-16 14:30 | Almanya 2. Bundesliga | Arminia Bielef - E.Cottbus | scheduled | -
-- 2026-08-16 14:30 | Rusya Premier Lig | Zenit - Dinamo Moskova | scheduled | -
-- 2026-08-16 14:30 | Almanya 3. Lig | Hansa Rostock - Waldhof Mannhei | scheduled | -
-- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Hebei Kungfu | scheduled | -
-- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Heilongjiang Ls | scheduled | -
 - 2026-08-16 15:00 | Danimarka Süperlig | Nordsjaelland - Silkeborg | scheduled | -
 - 2026-08-16 15:00 | Danimarka Süperlig | Odense - Horsens | scheduled | -
 - 2026-08-16 15:00 | İsveç Allsvenskan | Degerfors - Göteborg | scheduled | -
@@ -263,6 +255,14 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
+- 2026-08-16 14:30 | Belçika Pro Lig | Waasland Bever - Anderlecht | live | -
+- 2026-08-16 14:30 | Almanya 2. Bundesliga | Hannover - Wolfsburg | live | -
+- 2026-08-16 14:30 | Almanya 2. Bundesliga | Dynamo Dresden - Darmstadt | live | -
+- 2026-08-16 14:30 | Almanya 2. Bundesliga | Arminia Bielef - E.Cottbus | live | -
+- 2026-08-16 14:30 | Rusya Premier Lig | Zenit - Dinamo Moskova | live | -
+- 2026-08-16 14:30 | Almanya 3. Lig | Hansa Rostock - Waldhof Mannhei | live | -
+- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Foshan Nanshi - Hebei Kungfu | live | -
+- 2026-08-16 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nanjing City - Heilongjiang Ls | live | -
 - 2026-08-16 12:00 | Japonya J2 Lig | Yokohama Fc - Iwata | live | -
 - 2026-08-16 12:00 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Godollo | live | -
 - 2026-08-16 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Ujpest Ii | live | -
