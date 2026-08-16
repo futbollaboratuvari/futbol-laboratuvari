@@ -3,18 +3,14 @@
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
 Ham mac: 111
-Aktif mac: 97
-Canli mac: 14
+Aktif mac: 93
+Canli mac: 18
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 90
+Bultenden dusurulen mac: 18
+Bugun: 86
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 01:00 | ABD MLS | Chicago - Portland | scheduled | -
-- 2026-08-17 01:00 | ABD MLS | New York City - Philadelphia | scheduled | -
-- 2026-08-17 01:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Inter San Carlo | scheduled | -
-- 2026-08-17 01:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Firpo | scheduled | -
 - 2026-08-17 01:30 | Brezilya Serie A | Corinthians - Cruzeiro | scheduled | -
 - 2026-08-17 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Zamora | scheduled | -
 - 2026-08-17 01:30 | ABD USL Lig 1 | Portland Heart - Forward Madison | scheduled | -
@@ -124,6 +120,10 @@ Yarin: 7
 - 2026-08-17 00:30 | Brezilya Serie B | America Mineir - Athletic Club | live | -
 - 2026-08-17 00:30 | Brezilya Serie B | Regatas - Novorizontino | live | -
 - 2026-08-17 00:30 | Uruguay Premier Lig Clausura | Penarol - Central Espanol | live | -
+- 2026-08-17 01:00 | ABD MLS | Chicago - Portland | live | -
+- 2026-08-17 01:00 | ABD MLS | New York City - Philadelphia | live | -
+- 2026-08-17 01:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Inter San Carlo | live | -
+- 2026-08-17 01:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Firpo | live | -
 
 ## Biten Maclar
 Biten mac yok.
