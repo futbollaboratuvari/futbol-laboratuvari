@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.08.2026 18:43:48
+Oluşturma: 16.08.2026 19:02:04
 
 ## Özet
 
-- Toplam tahmin: 107
-- Bekleyen tahmin: 107
+- Toplam tahmin: 108
+- Bekleyen tahmin: 108
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 58
@@ -20,12 +20,13 @@ Oluşturma: 16.08.2026 18:43:48
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
 - MS X: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-16 | Slovakya Süper Lig | Kfc Komarno - Dac | MS 1 | pending | 40/100
 - 2026-08-16 | Ekvador Pro Lig | Orense - Deportivo Cuenc | MS 2 | pending | 40/100
 - 2026-08-16 | Portekiz Premier Lig | Braga - Gil Vicente | MS 2 | pending | 50/100
 - 2026-08-16 | Portekiz Premier Lig | Famalicao - Maritimo | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 16.08.2026 18:43:48
 - 2026-08-16 | Meksika Ascenso MX Apertura | Leones Negros - Cds Tampico Mad | MS X | pending | 40/100
 - 2026-08-16 | Irak Premier Lig | Erbil Sc - Al Kahraba | MS 2 | pending | 60/100
 - 2026-08-16 | Polonya Ekstraklasa | Gornik Zabrze - Wisla Krakow | MS X | pending | 50/100
-- 2026-08-16 | Bulgaristan 1.Lig | Lokomotiv Plov - Dunav 2010 | MS 2 | pending | 50/100
 

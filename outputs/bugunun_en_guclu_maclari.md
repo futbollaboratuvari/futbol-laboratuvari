@@ -2,31 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-16T15:39:16.844Z
-- Ham maç sayısı: 206
+- Güncelleme: 2026-08-16T16:00:23.926Z
+- Ham maç sayısı: 204
 - Yarın bülteni maç sayısı: 38
-- Detay blok sayısı: 576
-- Aktif bülten maçı: 131
-- Bültenden düşürülen maç: 75
+- Detay blok sayısı: 570
+- Aktif bülten maçı: 116
+- Bültenden düşürülen maç: 88
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kauno Zalgiris - Transinvest Vil | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 1.35 | 7 |
-| Başakşehir Fk - Kocaelispor | Türkiye Süper Lig | 19:00 | Veri bekleniyor | - | 1.51 | 7 |
-| Frosinone - Juve Stabia | İtalya Kupa 1.Tur | 19:00 | Veri bekleniyor | - | 1.32 | 7 |
-| Randers - Kopenhag | Danimarka Süperlig | 19:00 | Veri bekleniyor | - | 3.94 | 8 |
-| Cska Sofia - Botev Vratsa | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 1.1 | 6 |
-| Sporting Crist - Sport Huancayo | Peru Premier Lig Clausura | 19:00 | Veri bekleniyor | - | 1.46 | 7 |
-| Nk Brinje Gros - Mura | Slovenya 1.SNL | 19:00 | Veri bekleniyor | - | 2.03 | 8 |
-| Sao Joao Ver - Fafe | Portekiz 3.Lig Grup A | 19:00 | Veri bekleniyor | - | 3.08 | 8 |
-| Vitoria De Ser - Sporting Covilh | Portekiz 3.Lig Grup B | 19:00 | Veri bekleniyor | - | 2.73 | 8 |
-| Harju Jalgpall - Levadia Tallinn | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 7.83 | 3 |
-| Flora Tallinn - Kuressaare | Estonya Premium Lig | 19:00 | Veri bekleniyor | - | 1.19 | 3 |
-| Supra Du Quebe - Atletico Ottawa | Kanada Premier Lig | 19:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Valletta - Zabbar St Patri | Malta Premier Lig Açılış | 19:00 | Veri bekleniyor | - | 1.53 | 7 |
-| Kayserispor - Sivasspor | Türkiye TFF 1. Lig | 19:00 | Veri bekleniyor | - | 1.58 | 8 |
-| A. Keçiörengüc - Pendikspor | Türkiye TFF 1. Lig | 19:00 | Veri bekleniyor | - | 1.97 | 8 |
 | Al Bukayriyah - Al Hazm | Suudi Arabistan Kral Kupası Son 32 Turu | 19:15 | Veri bekleniyor | - | 3.94 | 7 |
 | Vestur Sorvagu - B36 Torshavn | Faroe Adaları Master Lig | 19:15 | Veri bekleniyor | - | 4.32 | 7 |
 | Ab Argir - Kí Klaksvík | Faroe Adaları Master Lig | 19:15 | Veri bekleniyor | - | 7.65 | 4 |
@@ -38,7 +23,7 @@
 | Atletico Nuble - Union La Calera | Şili Premier Lig | 19:30 | Veri bekleniyor | - | 1.56 | 7 |
 | Caldas - Lusitano Evora | Portekiz 3.Lig Grup B | 19:30 | Veri bekleniyor | - | 2.31 | 8 |
 | Al Orubah Club - Abha | Suudi Arabistan Kral Kupası Son 32 Turu | 19:40 | Veri bekleniyor | - | 3.61 | 8 |
-| Banniyas - Al Ain | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:45 | Veri bekleniyor | - | 8.02 | 6 |
+| Banniyas - Al Ain | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:45 | Veri bekleniyor | - | 7.8 | 6 |
 | Espanyol - Levante | İspanya LaLiga | 20:00 | Veri bekleniyor | - | 1.9 | 8 |
 | Arouca - Moreirense | Portekiz Premier Lig | 20:00 | Veri bekleniyor | - | 1.75 | 8 |
 | Burgos - Cordoba | İspanya 2.Lig | 20:00 | Veri bekleniyor | - | 1.99 | 8 |
@@ -75,8 +60,8 @@
 | Erbil Sc - Al Kahraba | Irak Premier Lig | 21:00 | Veri bekleniyor | - | 1.59 | 7 |
 | Al Shorta - Karbala | Irak Premier Lig | 21:00 | Veri bekleniyor | - | 1.14 | 6 |
 | Gornik Zabrze - Wisla Krakow | Polonya Ekstraklasa | 21:15 | Veri bekleniyor | - | 1.87 | 8 |
-| Lokomotiv Plov - Dunav 2010 | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.48 | 7 |
-| Deportivo Moqu - Sport Boys | Peru Premier Lig Clausura | 21:15 | Veri bekleniyor | - | 2.25 | 8 |
+| Lokomotiv Plov - Dunav 2010 | Bulgaristan 1.Lig | 21:15 | Veri bekleniyor | - | 1.46 | 7 |
+| Deportivo Moqu - Sport Boys | Peru Premier Lig Clausura | 21:15 | Veri bekleniyor | - | 2.15 | 8 |
 | Koper - Ask Bravo | Slovenya 1.SNL | 21:15 | Veri bekleniyor | - | 1.52 | 8 |
 | Beşiktaş - Eyüpspor | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 1.2 | 6 |
 | Amed Sk - Erzurumspor Fk | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 2.02 | 8 |
