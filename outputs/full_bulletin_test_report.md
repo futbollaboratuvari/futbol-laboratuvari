@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 38
-- Live match count: 20
+- Scheduled match count: 9
+- Live match count: 6
 - Finished removed count: 0
-- Date window: 2026-08-16 / 2026-08-17 23:59
+- Date window: 2026-08-17 / 2026-08-18 23:59
 
-- 2026-08-16 22:00 | Gimnasia Jujuy - Chaco For Ever | live
-- 2026-08-16 22:00 | Always Ready - Real Potosi | live
-- 2026-08-16 22:00 | Radnik Bijelji - Zrinjski | live
-- 2026-08-16 22:00 | Atletico Mg - Gremio | live
-- 2026-08-16 22:00 | Vasco Da Gama - Santos | live
-- 2026-08-16 22:00 | Orense - Deportivo Cuenc | live
-- 2026-08-16 22:00 | Hnk Gorica - Hajduk Split | live
-- 2026-08-16 22:00 | Varzim - Ad Marco 09 | live
-- 2026-08-16 22:00 | Partizan Belgr - Radnicki | live
-- 2026-08-16 22:00 | Zemun Belg. - Mladost Lucani | live
+- 2026-08-17 00:00 | River Plate - Argentinos Jr | live
+- 2026-08-17 00:00 | Atl Temperley - Los Andes | live
+- 2026-08-17 00:00 | San Martin Tuc - Deportivo Madry | live
+- 2026-08-17 00:00 | Deportivo San - Aurora | live
+- 2026-08-17 00:00 | Choloma - Marathon | live
+- 2026-08-17 00:00 | Depor Tachira - Monagas | live
+- 2026-08-17 22:00 | Cardiff - Wrexham | scheduled
+- 2026-08-17 22:00 | D.La Coruna - Elche | scheduled
+- 2026-08-17 22:15 | Palermo - Lecce | scheduled
+- 2026-08-17 22:15 | Afturelding - Hk Kopavogur | scheduled
