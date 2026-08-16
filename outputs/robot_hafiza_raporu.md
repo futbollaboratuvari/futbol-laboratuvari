@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-14T08:03:32+03:00
+Güncelleme: 2026-08-16T07:00:19+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 183
+- Toplam tahmin kaydı: 549
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -17,15 +17,13 @@ Güncelleme: 2026-08-14T08:03:32+03:00
 | - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 79 | 0 | 0 | 79 | %0 | 0 |
+| Değerli market yok | 196 | 0 | 0 | 196 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 4 | 0 | 0 | 4 | %0 | 3.33 |
-| MS 2 | 43 | 0 | 0 | 43 | %0 | 4.03 |
-| MS 2 + MS 2 | 1 | 0 | 0 | 1 | %0 | 29.81 |
-| MS 2 + MS 2 + MS X | 1 | 0 | 0 | 1 | %0 | 107.09 |
-| MS 2 + MS X | 2 | 0 | 0 | 2 | %0 | 28.65 |
-| MS 2 + MS X + MS 2 | 1 | 0 | 0 | 1 | %0 | 205.92 |
-| MS X | 51 | 0 | 0 | 51 | %0 | 3.11 |
+| MS 1 | 24 | 0 | 0 | 24 | %0 | 3.52 |
+| MS 2 | 146 | 0 | 0 | 146 | %0 | 4.17 |
+| MS X | 182 | 0 | 0 | 182 | %0 | 3.11 |
+| İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
+| İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
 ## Oran Aralığı Performansı
 
@@ -33,44 +31,44 @@ Güncelleme: 2026-08-14T08:03:32+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 24 | 0 | 0 | 24 | %0 | 2.87 |
-| 3.00-4.99 | 67 | 0 | 0 | 67 | %0 | 3.52 |
-| 5.00+ | 12 | 0 | 0 | 12 | %0 | 36.7 |
-| bilinmiyor | 80 | 0 | 0 | 80 | %0 | 0 |
+| 2.00-2.99 | 70 | 0 | 0 | 70 | %0 | 2.85 |
+| 3.00-4.99 | 256 | 0 | 0 | 256 | %0 | 3.55 |
+| 5.00+ | 26 | 0 | 0 | 26 | %0 | 5.86 |
+| bilinmiyor | 197 | 0 | 0 | 197 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Almanya 2. Bundesliga | 2 | 0 | 0 | 2 | %0 | 3.01 |
-| Almanya 3. Lig | 1 | 0 | 0 | 1 | %0 | 3.08 |
-| Almanya Bölgesel Lig Batı | 2 | 0 | 0 | 2 | %0 | 3.68 |
-| Arjantin Ulusal Primera Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Batı Avustralya | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avustralya NPL Queensland | 6 | 0 | 0 | 6 | %0 | 0 |
-| Avustralya NPL Victoria | 3 | 0 | 0 | 3 | %0 | 3.1 |
-| Avustralya NPL Yeni Güney Galler | 1 | 0 | 0 | 1 | %0 | 3.0 |
-| Avustralya Victoria NPL 1 | 1 | 0 | 0 | 1 | %0 | 0 |
-| Avusturya 1.Lig | 2 | 0 | 0 | 2 | %0 | 3.1 |
-| Azerbaycan Premier Lig | 1 | 0 | 0 | 1 | %0 | 0 |
-| Belarus Premier Lig | 2 | 0 | 0 | 2 | %0 | 3.51 |
+| ABD MLS | 8 | 0 | 0 | 8 | %0 | 4.07 |
+| ABD USL | 14 | 0 | 0 | 14 | %0 | 3.15 |
+| ABD USL Lig 1 | 2 | 0 | 0 | 2 | %0 | 4.0 |
+| AFF Şampiyonası Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
+| Almanya 2. Bundesliga | 6 | 0 | 0 | 6 | %0 | 3.51 |
+| Almanya 3. Lig | 6 | 0 | 0 | 6 | %0 | 3.52 |
+| Almanya Bölgesel Lig Güney Batı | 2 | 0 | 0 | 2 | %0 | 0 |
+| Almanya Bölgesel Lig Kuzey | 6 | 0 | 0 | 6 | %0 | 3.16 |
+| Almanya Bölgesel Lig Kuzey Doğu | 2 | 0 | 0 | 2 | %0 | 3.08 |
+| Arjantin Premier Lig 2. Aşama | 2 | 0 | 0 | 2 | %0 | 0 |
+| Arjantin Ulusal Primera Lig | 8 | 0 | 0 | 8 | %0 | 0 |
+| Avustralya NPL Başkent Bölgesi | 4 | 0 | 0 | 4 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Aalborg VS Fredericia | 1 | 0 | 0 | 1 | %0 | 3.11 |
-| Academica VS Feirense | 1 | 0 | 0 | 1 | %0 | 2.86 |
-| Acassuso VS Midland | 1 | 0 | 0 | 1 | %0 | 0 |
-| Afc Emley VS Curzon Ashton | 1 | 0 | 0 | 1 | %0 | 3.67 |
-| Ahlafors If VS Grebbestads If | 1 | 0 | 0 | 1 | %0 | 0 |
-| Airbus Uk VS Ammanford | 1 | 0 | 0 | 1 | %0 | 3.27 |
-| Al Ettifaq VS Al Riyadh | 1 | 0 | 0 | 1 | %0 | 3.24 |
-| Al Hilal (Riya VS Al Faisaly | 1 | 0 | 0 | 1 | %0 | 0 |
-| Al Nasr VS Al Ittihad Kalb | 1 | 0 | 0 | 1 | %0 | 4.18 |
-| Al Wahda VS Ajman | 1 | 0 | 0 | 1 | %0 | 3.58 |
-| Alebrijes VS Tepatitlan De M | 1 | 0 | 0 | 1 | %0 | 3.61 |
-| Alianza Fc VS Umecit | 1 | 0 | 0 | 1 | %0 | 0 |
+| Aalesund VS Valerenga | 2 | 0 | 0 | 2 | %0 | 3.42 |
+| Ab Argir VS Kí Klaksvík | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ajax VS Heerenveen | 2 | 0 | 0 | 2 | %0 | 5.49 |
+| Al Bukayriyah VS Al Hazm | 2 | 0 | 0 | 2 | %0 | 3.56 |
+| Al Orubah Club VS Abha | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Shorta VS Karbala | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Wahda VS Al Shabab (Riya | 2 | 0 | 0 | 2 | %0 | 0 |
+| Alianza VS Cacahuatique | 2 | 0 | 0 | 2 | %0 | 4.2 |
+| Altglienicke VS Hallescher | 2 | 0 | 0 | 2 | %0 | 3.08 |
+| Always Ready VS Real Potosi | 2 | 0 | 0 | 2 | %0 | 0 |
+| Amarante Fc VS Lusitania De Lo | 2 | 0 | 0 | 2 | %0 | 2.83 |
+| Amed Sk VS Erzurumspor Fk | 2 | 0 | 0 | 2 | %0 | 3.1 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -83,11 +81,9 @@ Güncelleme: 2026-08-14T08:03:32+03:00
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS X + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
 ## Öğrenme Ağırlıkları - Oran Aralığı
 
