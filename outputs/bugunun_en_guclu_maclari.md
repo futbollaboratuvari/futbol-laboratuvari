@@ -1,6 +1,7 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
+<<<<<<< Updated upstream
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
@@ -154,3 +155,16 @@
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+=======
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-08-16T17:58:43.970Z
+- Ham maç sayısı: 0
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 0
+- Aktif bülten maçı: 0
+- Bültenden düşürülen maç: 0
+
+## Skorlanan Maclar
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+>>>>>>> Stashed changes
