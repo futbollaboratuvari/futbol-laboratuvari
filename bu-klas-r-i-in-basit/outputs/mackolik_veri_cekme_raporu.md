@@ -1,14 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-16T19:33:37.147578+00:00
+=======
+Tarih: 2026-08-16T19:37:35.913882+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 45
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 45
+=======
+- Kac mac bulundu: 7
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 7
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 7335
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
@@ -31,11 +41,15 @@ Tarih: 2026-08-16T19:33:37.147578+00:00
 - Meksika Liga MX Apertura
 - Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
+<<<<<<< Updated upstream
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İspanya 2.Lig
 - İsveç 2.Lig Norrland Yükselme Grubu
 - Şili Premier Lig
+=======
+- İsveç 2.Lig Norrland Yükselme Grubu
+>>>>>>> Stashed changes
 
 ## Okunabilen Oran Alanlari
 
@@ -92,8 +106,13 @@ Tarih: 2026-08-16T19:33:37.147578+00:00
 
 ## Mac Detay Pencereleri
 
+<<<<<<< Updated upstream
 - Denenen Tumu alani: 24
 - Acilan detay: 24
+=======
+- Denenen Tumu alani: 23
+- Acilan detay: 23
+>>>>>>> Stashed changes
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -106,6 +125,7 @@ Tarih: 2026-08-16T19:33:37.147578+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+<<<<<<< Updated upstream
 | 16.08.2026 | 22:30 | İspanya 2.Lig | Las Palmas | Albacete | 26206 | 5 |
 | 17.08.2026 | 05:30 | ABD MLS | Seattle | Vancouver | 31697 | 5 |
 | 17.08.2026 | 01:00 | ABD MLS | New York City | Philadelphia | 31436 | 5 |
@@ -126,6 +146,15 @@ Tarih: 2026-08-16T19:33:37.147578+00:00
 | 17.08.2026 | 01:30 | Venezuela Premier Lig Clausura | Deportivo La G | Zamora | 42319 | 5 |
 | 17.08.2026 | 00:00 | Venezuela Premier Lig Clausura | Depor Tachira | Monagas | 09864 | 5 |
 | 17.08.2026 | 00:30 | Şili Premier Lig | Colo Colo | O Higgins | 37557 | 5 |
+=======
+| 16.08.2026 | 23:30 | Peru Premier Lig Clausura | Fc Cajamarca | Universitario | 37490 | 5 |
+| 16.08.2026 | 23:00 | Arjantin Ulusal Primera Lig | San Martin Tuc | Deportivo Madry | 34305 | 3 |
+| 16.08.2026 | 23:00 | Arjantin Ulusal Primera Lig | Central Norte | Gimnasia Y Tiro | 34196 | 3 |
+| 16.08.2026 | 23:00 | Arjantin Ulusal Primera Lig | R Cordoba | San Martin Sj | 34213 | 3 |
+| 16.08.2026 | 23:00 | Kanada Premier Lig | Inter Toronto | Hfx Wanderers | 37457 | 5 |
+| 16.08.2026 | 17:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund | Lucksta | 41756 | 3 |
+| 16.08.2026 | 14:00 | Almanya U19 Bundesliga Grup H | Osnabrück U19 | Fortuna Düsseld | 10234 | 2 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
