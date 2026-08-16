@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 39
-- Live match count: 40
-- Finished removed count: 5
+- Live match count: 31
+- Finished removed count: 0
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 21:00 | Sarmiento - Huracan | live
-- 2026-08-16 21:00 | Tristan - Almirante | live
-- 2026-08-16 21:00 | Slovan Liberec - Slavia Prag | live
-- 2026-08-16 21:00 | Al Shorta - Karbala | live
-- 2026-08-16 21:00 | Erbil Sc - Al Kahraba | live
-- 2026-08-16 21:00 | Bohemian - Longford | live
-- 2026-08-16 21:00 | Hafnarfjordur - Vikingur Reykja | live
-- 2026-08-16 21:00 | Kr Reykjavik - Breidablik | live
-- 2026-08-16 21:00 | Vestmannaeyjar - Akranes | live
-- 2026-08-16 21:00 | Leones Negros - Cds Tampico Mad | live
+- 2026-08-16 21:15 | Lokomotiv Plov - Dunav | live
+- 2026-08-16 21:15 | Deportivo Moqu - Sport Boys | live
+- 2026-08-16 21:15 | Gornik Zabrze - Wisla Krakow | live
+- 2026-08-16 21:15 | Koper - Ask Bravo | live
+- 2026-08-16 21:30 | Sliema - Hibernians | live
+- 2026-08-16 21:30 | Hunedoara - Cfr Cluj | live
+- 2026-08-16 21:30 | Amed Sk - Erzurumspor Fk | live
+- 2026-08-16 21:30 | Beşiktaş - Eyüpspor | live
+- 2026-08-16 21:30 | Mardin - Antalyaspor | live
+- 2026-08-16 21:30 | Muğlaspor - Bandirmaspor | live
