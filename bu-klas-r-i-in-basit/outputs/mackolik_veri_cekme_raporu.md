@@ -1,45 +1,49 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T15:04:37.613952+00:00
+Tarih: 2026-08-16T15:26:09.056984+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 120
+- Kac mac bulundu: 145
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 120
+- Kac mac zaten vardi: 145
 - Ham veri havuzu toplam mac sayisi: 7334
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL Lig 1
 - Almanya 3. Lig
 - Almanya U19 Bundesliga Grup H
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
+- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Fransa Süper Kupa
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
-- Kazakistan Premier Lig
-- Letonya Kupa Çeyrek Final
+- Kosta Rika Premier Lig Apertura
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
@@ -50,7 +54,7 @@ Tarih: 2026-08-16T15:04:37.613952+00:00
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Moldova Ulusal Lig
-- Norveç 1.Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 3.Lig Grup 1
 - Norveç Eliteserien
 - Peru Premier Lig Clausura
@@ -71,12 +75,10 @@ Tarih: 2026-08-16T15:04:37.613952+00:00
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
-- İngiltere Championship
 - İrlanda FAI Kupası 3.Tur
-- İskoçya Lig Kupası 2.Tur
 - İspanya 2.Lig
 - İspanya LaLiga
 - İsveç 2.Lig Norra Svealand
@@ -140,8 +142,8 @@ Tarih: 2026-08-16T15:04:37.613952+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 88
-- Acilan detay: 88
+- Denenen Tumu alani: 81
+- Acilan detay: 81
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -154,26 +156,26 @@ Tarih: 2026-08-16T15:04:37.613952+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 16.08.2026 | 19:00 | Türkiye Süper Lig | Başakşehir Fk | Kocaelispor | 01443 | 5 |
 | 16.08.2026 | 21:30 | Türkiye Süper Lig | Amed Sk | Erzurumspor Fk | 01281 | 5 |
 | 16.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Eyüpspor | 01283 | 5 |
-| 16.08.2026 | 19:00 | Türkiye Süper Lig | Başakşehir Fk | Kocaelispor | 01443 | 5 |
 | 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Sivasspor | 08896 | 5 |
-| 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Bandirmaspor | 09092 | 5 |
 | 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc | Pendikspor | 08816 | 5 |
 | 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Antalyaspor | 09031 | 5 |
+| 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Bandirmaspor | 09092 | 5 |
 | 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
-| 16.08.2026 | 18:00 | İspanya LaLiga | Santander | Villarreal | 08141 | 5 |
 | 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
 | 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
 | 16.08.2026 | 20:00 | Portekiz Premier Lig | Arouca | Moreirense | 33885 | 5 |
-| 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
-| 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
 | 16.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah | Al Hazm | 05909 | 5 |
-| 16.08.2026 | 19:30 | Belçika Pro Lig | Mechelen | Standard Liege | 36709 | 5 |
+| 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
+| 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
 | 16.08.2026 | 20:15 | Belçika Pro Lig | Lommel | Charleroi | 36968 | 5 |
-| 16.08.2026 | 18:00 | İngiltere Championship | Burnley | West Ham | 24810 | 5 |
-| 16.08.2026 | 20:00 | İspanya 2.Lig | Girona | Leganes | 26092 | 5 |
+| 16.08.2026 | 19:30 | Belçika Pro Lig | Mechelen | Standard Liege | 36709 | 5 |
 | 16.08.2026 | 20:00 | İspanya 2.Lig | Burgos | Cordoba | 25969 | 5 |
+| 16.08.2026 | 22:30 | İspanya 2.Lig | Las Palmas | Albacete | 26206 | 5 |
+| 16.08.2026 | 20:00 | İspanya 2.Lig | Girona | Leganes | 26092 | 5 |
+| 16.08.2026 | 22:15 | İtalya Kupa 1.Tur | Lazio | Mantova | 28968 | 5 |
 
 ## Sonuc
 

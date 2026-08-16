@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 142
-- Live match count: 82
-- Finished removed count: 25
+- Live match count: 64
+- Finished removed count: 0
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 16:00 | Malezya - Vietnam | live
-- 2026-08-16 16:00 | Bremer Sv - Hsc Hannover | live
-- 2026-08-16 16:00 | Ostrovets Fc - Bumprom | live
-- 2026-08-16 16:00 | Banik Ostrava - Sk Artis Brno | live
-- 2026-08-16 16:00 | Helsinki - Jaro | live
-- 2026-08-16 16:00 | Inter Turku Ii - Kpv Kokkola | live
-- 2026-08-16 16:00 | Kups Ak. - Pk Keski Uusima | live
-- 2026-08-16 16:00 | Chippa United - Orlando Pirates | live
-- 2026-08-16 16:00 | Nottingham F - Brest | live
-- 2026-08-16 16:00 | St Patricks - Shamrock Rovers | live
+- 2026-08-16 16:30 | Gresford Athle - Brickfield Rang | live
+- 2026-08-16 16:30 | Stjordals-Blin - Honefoss | live
+- 2026-08-16 17:00 | Bate Ii - Volna Pinsk | live
+- 2026-08-16 17:00 | Beerschot-Wilr - Kaa Gent Ii | live
+- 2026-08-16 17:00 | La Louvière - Gent | live
+- 2026-08-16 17:00 | Chapecoense - Bahia | live
+- 2026-08-16 17:00 | Operario - Avai | live
+- 2026-08-16 17:00 | Lyngby - Midtjylland | live
+- 2026-08-16 17:00 | Nomme Kalju - Vaprus | live
+- 2026-08-16 17:00 | Trans Narva - Paide Linnamees | live
