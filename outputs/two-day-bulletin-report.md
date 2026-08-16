@@ -3,15 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 179
-Aktif mac: 105
-Canli mac: 74
+Aktif mac: 104
+Canli mac: 75
 Biten mac: 0
-Bultenden dusurulen mac: 74
-Bugun: 67
+Bultenden dusurulen mac: 75
+Bugun: 66
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Banniyas - Al Ain | scheduled | -
 - 2026-08-16 20:00 | İspanya LaLiga | Espanyol - Levante | scheduled | -
 - 2026-08-16 20:00 | Portekiz Premier Lig | Arouca - Moreirense | scheduled | -
 - 2026-08-16 20:00 | İspanya 2.Lig | Burgos - Cordoba | scheduled | -
@@ -192,6 +191,7 @@ Yarin: 38
 - 2026-08-16 19:30 | Şili Premier Lig | Atletico Nuble - Union La Calera | live | -
 - 2026-08-16 19:30 | Portekiz 3.Lig Grup B | Caldas - Lusitano Evora | live | -
 - 2026-08-16 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club - Abha | live | -
+- 2026-08-16 19:45 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Banniyas - Al Ain | live | -
 
 ## Biten Maclar
 Biten mac yok.
