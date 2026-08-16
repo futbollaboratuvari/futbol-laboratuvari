@@ -1,20 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-16 / 2026-08-17
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 374
-Aktif mac: 43
-Canli mac: 45
+Aktif mac: 39
+Canli mac: 49
 Biten mac: 286
-Bultenden dusurulen mac: 331
-Bugun: 5
+Bultenden dusurulen mac: 335
+Bugun: 1
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | Central Norte - Gimnasia Y Tiro | scheduled | -
-- 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Martin Sj | scheduled | -
-- 2026-08-16 23:00 | Kanada Premier Lig | Inter Toronto - Hfx Wanderers | scheduled | -
-- 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | scheduled | -
 - 2026-08-16 23:30 | Peru Premier Lig Clausura | Fc Cajamarca - Universitario | scheduled | -
 - 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | scheduled | -
 - 2026-08-17 00:00 | Venezuela Premier Lig Clausura | Depor Tachira - Monagas | scheduled | -
@@ -56,6 +53,10 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
+- 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | Central Norte - Gimnasia Y Tiro | live | -
+- 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Martin Sj | live | -
+- 2026-08-16 23:00 | Kanada Premier Lig | Inter Toronto - Hfx Wanderers | live | -
+- 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | live | -
 - 2026-08-16 20:30 | Almanya 3. Lig | Stuttgart (Amt - Viktoria Köln | live | -
 - 2026-08-16 20:30 | Polonya 1.Lig | Unia Skierniew - Miedz Legnica | live | -
 - 2026-08-16 20:30 | Polonya 2.Lig | Stal S Wola - Avia Swidnik | live | -
