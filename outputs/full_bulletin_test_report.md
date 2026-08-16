@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 226
-- Live match count: 41
-- Finished removed count: 2
+- Scheduled match count: 206
+- Live match count: 51
+- Finished removed count: 11
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 13:30 | Bucheon - Jeonbuk Hm | live
-- 2026-08-16 13:30 | Incheon Utd - Gimcheon Sangmu | live
-- 2026-08-16 13:30 | Ulsan - Gangwon | live
-- 2026-08-16 13:30 | Daegu - Asan Mugunghwa | live
-- 2026-08-16 13:30 | Gimpo Citizen - Cheonan City Fc | live
-- 2026-08-16 13:30 | Paju Citizen - Seongnam | live
-- 2026-08-16 13:30 | Seoul E-Land - Ansan Greeners | live
-- 2026-08-16 14:00 | Shenzhen Junio - Ningbo | live
-- 2026-08-16 14:00 | Suzhou Dongwu - Nantong Zhiyun | live
-- 2026-08-16 14:00 | Enskede - Korsnas If Fk | live
+- 2026-08-16 14:30 | Arminia Bielef - E.Cottbus | live
+- 2026-08-16 14:30 | Dynamo Dresden - Darmstadt | live
+- 2026-08-16 14:30 | Hannover - Wolfsburg | live
+- 2026-08-16 14:30 | Hansa Rostock - Waldhof Mannhei | live
+- 2026-08-16 14:30 | Waasland Bever - Anderlecht | live
+- 2026-08-16 14:30 | Foshan Nanshi - Hebei Kungfu | live
+- 2026-08-16 14:30 | Nanjing City - Heilongjiang Ls | live
+- 2026-08-16 14:30 | Zenit - Dinamo Moskova | live
+- 2026-08-16 15:00 | Freiburg Ii - Hessen Kassel | live
+- 2026-08-16 15:00 | Altglienicke - Hallescher | live

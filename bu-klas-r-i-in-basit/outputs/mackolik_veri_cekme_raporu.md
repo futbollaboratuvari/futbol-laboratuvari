@@ -1,22 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T12:59:59.337366+00:00
+Tarih: 2026-08-16T13:10:35.793062+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 188
-- Kac mac kaydedildi: 10
-- Kac mac zaten vardi: 178
+- Kac mac bulundu: 212
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 212
 - Ham veri havuzu toplam mac sayisi: 7334
 - Hedef tarih: 16.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Yarı Final
+- ABD MLS
+- ABD USL Lig 1
 - Almanya 3. Lig
-- Almanya Bölgesel Lig Kuzey
 - Almanya U19 Bundesliga Grup H
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
@@ -34,6 +34,7 @@ Tarih: 2026-08-16T12:59:59.337366+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
@@ -41,15 +42,18 @@ Tarih: 2026-08-16T12:59:59.337366+00:00
 - Finlandiya Ykkösliiga
 - Fransa Süper Kupa
 - Galler FAW Championship Kuzey
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
 - Kazakistan Premier Lig
+- Kosta Rika Premier Lig Apertura
 - Letonya Kupa Çeyrek Final
 - Litvanya A Ligi
 - Macaristan NB I
@@ -61,6 +65,7 @@ Tarih: 2026-08-16T12:59:59.337366+00:00
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Moldova Ulusal Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç 2.Lig Grup 1
 - Norveç 2.Lig Grup 2
@@ -87,6 +92,7 @@ Tarih: 2026-08-16T12:59:59.337366+00:00
 - Türkiye TFF 1. Lig
 - Ukrayna Premier Lig
 - Uruguay Premier Lig Clausura
+- Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti Czech Liga
 - İngiltere Championship
 - İngiltere Community Shield
@@ -173,22 +179,22 @@ Tarih: 2026-08-16T12:59:59.337366+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 16.08.2026 | 21:30 | Türkiye Süper Lig | Amed Sk | Erzurumspor Fk | 01281 | 5 |
-| 16.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Eyüpspor | 01283 | 5 |
 | 16.08.2026 | 19:00 | Türkiye Süper Lig | Başakşehir Fk | Kocaelispor | 01443 | 5 |
+| 16.08.2026 | 21:30 | Türkiye Süper Lig | Beşiktaş | Eyüpspor | 01283 | 5 |
+| 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Sivasspor | 08896 | 5 |
 | 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Mardin 1969 | Antalyaspor | 09031 | 5 |
 | 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc | Pendikspor | 08816 | 5 |
 | 16.08.2026 | 21:30 | Türkiye TFF 1. Lig | Muğlaspor | Bandirmaspor | 09092 | 5 |
-| 16.08.2026 | 19:00 | Türkiye TFF 1. Lig | Kayserispor | Sivasspor | 08896 | 5 |
 | 16.08.2026 | 17:00 | İngiltere Community Shield | Arsenal | Manchester City | 01574 | 5 |
-| 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
 | 16.08.2026 | 18:00 | İspanya LaLiga | Santander | Villarreal | 08141 | 5 |
+| 16.08.2026 | 20:00 | İspanya LaLiga | Espanyol | Levante | 41647 | 5 |
 | 16.08.2026 | 21:45 | Fransa Süper Kupa | Lens | Psg | 02033 | 5 |
 | 16.08.2026 | 17:45 | Hollanda Eredivisie | Ajax | Heerenveen | 36167 | 5 |
 | 16.08.2026 | 20:00 | Portekiz Premier Lig | Arouca | Moreirense | 33885 | 5 |
-| 16.08.2026 | 17:30 | Portekiz Premier Lig | Nacional Madei | Estoril | 33827 | 5 |
 | 16.08.2026 | 22:30 | Portekiz Premier Lig | Famalicao | Maritimo | 40430 | 5 |
-| 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
+| 16.08.2026 | 17:30 | Portekiz Premier Lig | Nacional Madei | Estoril | 33827 | 5 |
 | 16.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah | Al Hazm | 05909 | 5 |
+| 16.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Wahda | Al Shabab (Riya | 44400 | 5 |
 | 16.08.2026 | 19:40 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Orubah Club | Abha | 44038 | 5 |
 | 16.08.2026 | 19:30 | Belçika Pro Lig | Mechelen | Standard Liege | 36709 | 5 |
 | 16.08.2026 | 20:15 | Belçika Pro Lig | Lommel | Charleroi | 36968 | 5 |

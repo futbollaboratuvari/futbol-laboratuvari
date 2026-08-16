@@ -2,40 +2,15 @@
 
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
-Ham mac: 365
-Aktif mac: 226
-Canli mac: 43
-Biten mac: 96
-Bultenden dusurulen mac: 139
-Bugun: 188
+Ham mac: 373
+Aktif mac: 206
+Canli mac: 62
+Biten mac: 105
+Bultenden dusurulen mac: 167
+Bugun: 168
 Yarin: 38
 
 ## Baslamamis Maclar
-- 2026-08-16 15:30 | Hollanda Eredivisie | Feyenoord - Go Ahead Eagles | scheduled | -
-- 2026-08-16 15:30 | Hollanda Eredivisie | Twente - Zwolle | scheduled | -
-- 2026-08-16 15:30 | İngiltere Championship | Watford - Southam | scheduled | -
-- 2026-08-16 15:30 | Norveç Eliteserien | Aalesund - Valerenga | scheduled | -
-- 2026-08-16 15:30 | Ukrayna Premier Lig | Metalist 1925 - Shakhtar Donets | scheduled | -
-- 2026-08-16 15:30 | Polonya 1.Lig | Lks Lodz - Nieciecza | scheduled | -
-- 2026-08-16 15:30 | Norveç 2.Lig Grup 1 | Pors Grenland - Bjarg | scheduled | -
-- 2026-08-16 15:45 | Polonya Ekstraklasa | Motor Lublin - Gks Katowice | scheduled | -
-- 2026-08-16 16:00 | Finlandiya Veikkausliiga | Helsinki - Jaro | scheduled | -
-- 2026-08-16 16:00 | Çek Cumhuriyeti Czech Liga | Banik Ostrava - Sk Artis Brno | scheduled | -
-- 2026-08-16 16:00 | AFF Şampiyonası Yarı Final | Malezya - Vietnam | scheduled | -
-- 2026-08-16 16:00 | Portekiz 2.Lig | Amarante Fc - Lusitania De Lo | scheduled | -
-- 2026-08-16 16:00 | İrlanda FAI Kupası 3.Tur | St Patricks - Shamrock Rovers | scheduled | -
-- 2026-08-16 16:00 | Hazırlık Kulüpler | Nottingham F - Brest | scheduled | -
-- 2026-08-16 16:00 | Norveç 2.Lig Grup 2 | Skeid - Levanger | scheduled | -
-- 2026-08-16 16:00 | Güney Afrika PSL | Chippa United - Orlando Pirates | scheduled | -
-- 2026-08-16 16:00 | Finlandiya Ykkönen | Kups Ak. - Pk Keski Uusima | scheduled | -
-- 2026-08-16 16:00 | Finlandiya Ykkönen | Inter Turku Ii - Kpv Kokkola | scheduled | -
-- 2026-08-16 16:00 | Almanya Bölgesel Lig Kuzey | Bremer Sv - Hsc Hannover | scheduled | -
-- 2026-08-16 16:00 | Kazakistan Premier Lig | Kaspyi - Yelimay Semey | scheduled | -
-- 2026-08-16 16:00 | İskoçya Lig Kupası 2.Tur | Hibernian - Partick Thistle | scheduled | -
-- 2026-08-16 16:00 | İskoçya Lig Kupası 2.Tur | Stenhousemuir - Motherwell | scheduled | -
-- 2026-08-16 16:00 | İskoçya Lig Kupası 2.Tur | Hearts - Inverness Ct | scheduled | -
-- 2026-08-16 16:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Hinna | scheduled | -
-- 2026-08-16 16:00 | Letonya Kupa Çeyrek Final | Riga Fc - Metta / Lu | scheduled | -
 - 2026-08-16 16:30 | Norveç 2.Lig Grup 2 | Stjordals-Blin - Honefoss | scheduled | -
 - 2026-08-16 16:30 | Galler FAW Championship Kuzey | Gresford Athle - Brickfield Rang | scheduled | -
 - 2026-08-16 17:00 | İngiltere Community Shield | Arsenal - Manchester City | scheduled | -
@@ -61,6 +36,7 @@ Yarin: 38
 - 2026-08-16 17:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Ostersund - Lucksta | scheduled | -
 - 2026-08-16 17:00 | Faroe Adaları Master Lig | Runavik - Streymur | scheduled | -
 - 2026-08-16 17:00 | Faroe Adaları Master Lig | Hb Torshavn - B68 Toftir | scheduled | -
+- 2026-08-16 17:00 | Belarus 1.Lig | Bate Ii - Volna Pinsk | scheduled | -
 - 2026-08-16 17:10 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Hatta Dubai - Al Jazira | scheduled | -
 - 2026-08-16 17:30 | Portekiz Premier Lig | Nacional Madei - Estoril | scheduled | -
 - 2026-08-16 17:30 | İsveç Allsvenskan | Gais - Malmö | scheduled | -
@@ -98,6 +74,7 @@ Yarin: 38
 - 2026-08-16 18:00 | Kazakistan Premier Lig | Atyrau - Okzhetpes | scheduled | -
 - 2026-08-16 18:00 | İskoçya Lig Kupası 2.Tur | Glasgow Ranger - St Mirren | scheduled | -
 - 2026-08-16 18:00 | Letonya Kupa Çeyrek Final | Super Nova - Daugava Riga | scheduled | -
+- 2026-08-16 18:00 | Belarus 1.Lig | Slonim - Smorgon | scheduled | -
 - 2026-08-16 18:30 | Polonya Ekstraklasa | Cracovia Krako - Rakow Czestocho | scheduled | -
 - 2026-08-16 18:30 | Macaristan NB I | Puskas Academy - Paksi | scheduled | -
 - 2026-08-16 18:30 | Romanya 1.Lig | Otelul Galati - Universitatea C | scheduled | -
@@ -106,6 +83,9 @@ Yarin: 38
 - 2026-08-16 18:30 | Güney Afrika PSL | Ts Galaxy - Golden Arrows | scheduled | -
 - 2026-08-16 18:30 | Macaristan NB II | Szentlorinc Se - Csakvari Tk | scheduled | -
 - 2026-08-16 18:30 | Macaristan NB III Kuzeybatı | Balatonalmadi - Gyor Ii | scheduled | -
+- 2026-08-16 18:30 | Irak Premier Lig | Duhok - Al Gharraf | scheduled | -
+- 2026-08-16 18:30 | Macaristan NB III Kuzeybatı | 1908 Szac - Dorogi Fc | scheduled | -
+- 2026-08-16 18:30 | Macaristan NB III Güneydoğu | Bkv Elore - Esmtk | scheduled | -
 - 2026-08-16 18:45 | Litvanya A Ligi | Kauno Zalgiris - Transinvest Vil | scheduled | -
 - 2026-08-16 19:00 | Türkiye Süper Lig | Başakşehir Fk - Kocaelispor | scheduled | -
 - 2026-08-16 19:00 | İtalya Kupa 1.Tur | Frosinone - Juve Stabia | scheduled | -
@@ -239,15 +219,6 @@ Yarin: 38
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 13:15 | Hollanda Eredivisie | Den Haag - Groningen | live | -
-- 2026-08-16 13:15 | Hollanda Kadınlar Eredivisie | Utrecht (K) - Ajax (K) | live | -
-- 2026-08-16 13:30 | Güney Kore K Lig 1 | Ulsan - Gangwon | live | -
-- 2026-08-16 13:30 | Güney Kore K Lig 1 | Incheon Utd - Gimcheon Sangmu | live | -
-- 2026-08-16 13:30 | Güney Kore K Lig 1 | Bucheon - Jeonbuk Hm | live | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Ansan Greeners | live | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Daegu - Asan Mugunghwa | live | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Paju Citizen - Seongnam | live | -
-- 2026-08-16 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Cheonan City Fc | live | -
 - 2026-08-16 14:00 | İsveç Superettan | Varnamo - Ostersund | live | -
 - 2026-08-16 14:00 | Norveç 2.Lig Grup 2 | Follo - Rana | live | -
 - 2026-08-16 14:00 | Polonya 2.Lig | Zawisza Bydgos - Falubaz Zielona | live | -
@@ -258,6 +229,7 @@ Yarin: 38
 - 2026-08-16 14:00 | İsveç 2.Lig Norra Svealand | Skiljebo Sk - Helges | live | -
 - 2026-08-16 14:00 | İsveç 2.Lig Södra Götaland | Växjö Norra - Staffanstorp Un | live | -
 - 2026-08-16 14:00 | İsveç 2.Lig Södra Svealand | Forward - Syrianska | live | -
+- 2026-08-16 14:00 | Almanya U19 Bundesliga Grup H | Osnabrück U19 - Fortuna Düsseld | live | -
 - 2026-08-16 14:30 | Belçika Pro Lig | Waasland Bever - Anderlecht | live | -
 - 2026-08-16 14:30 | Almanya 2. Bundesliga | Hannover - Wolfsburg | live | -
 - 2026-08-16 14:30 | Almanya 2. Bundesliga | Dynamo Dresden - Darmstadt | live | -
@@ -282,6 +254,33 @@ Yarin: 38
 - 2026-08-16 15:00 | İsveç 2.Lig Södra Götaland | Linero - Rappe | live | -
 - 2026-08-16 15:00 | İsveç 2.Lig Södra Svealand | Fittja - Ragsved | live | -
 - 2026-08-16 15:00 | Norveç 2.Lig Grup 2 | Ullensaker Kis - Trygg/Lade | live | -
+- 2026-08-16 15:00 | Belarus 1.Lig | Dinamo Minsk I - Fc Minsk Ii | live | -
+- 2026-08-16 15:30 | Hollanda Eredivisie | Feyenoord - Go Ahead Eagles | live | -
+- 2026-08-16 15:30 | Hollanda Eredivisie | Twente - Zwolle | live | -
+- 2026-08-16 15:30 | İngiltere Championship | Watford - Southam | live | -
+- 2026-08-16 15:30 | Norveç Eliteserien | Aalesund - Valerenga | live | -
+- 2026-08-16 15:30 | Ukrayna Premier Lig | Metalist 1925 - Shakhtar Donets | live | -
+- 2026-08-16 15:30 | Polonya 1.Lig | Lks Lodz - Nieciecza | live | -
+- 2026-08-16 15:30 | Norveç 2.Lig Grup 1 | Pors Grenland - Bjarg | live | -
+- 2026-08-16 15:45 | Polonya Ekstraklasa | Motor Lublin - Gks Katowice | live | -
+- 2026-08-16 16:00 | Finlandiya Veikkausliiga | Helsinki - Jaro | live | -
+- 2026-08-16 16:00 | Çek Cumhuriyeti Czech Liga | Banik Ostrava - Sk Artis Brno | live | -
+- 2026-08-16 16:00 | AFF Şampiyonası Yarı Final | Malezya - Vietnam | live | -
+- 2026-08-16 16:00 | Portekiz 2.Lig | Amarante Fc - Lusitania De Lo | live | -
+- 2026-08-16 16:00 | İrlanda FAI Kupası 3.Tur | St Patricks - Shamrock Rovers | live | -
+- 2026-08-16 16:00 | Hazırlık Kulüpler | Nottingham F - Brest | live | -
+- 2026-08-16 16:00 | Norveç 2.Lig Grup 2 | Skeid - Levanger | live | -
+- 2026-08-16 16:00 | Güney Afrika PSL | Chippa United - Orlando Pirates | live | -
+- 2026-08-16 16:00 | Finlandiya Ykkönen | Kups Ak. - Pk Keski Uusima | live | -
+- 2026-08-16 16:00 | Finlandiya Ykkönen | Inter Turku Ii - Kpv Kokkola | live | -
+- 2026-08-16 16:00 | Almanya Bölgesel Lig Kuzey | Bremer Sv - Hsc Hannover | live | -
+- 2026-08-16 16:00 | Kazakistan Premier Lig | Kaspyi - Yelimay Semey | live | -
+- 2026-08-16 16:00 | İskoçya Lig Kupası 2.Tur | Hibernian - Partick Thistle | live | -
+- 2026-08-16 16:00 | İskoçya Lig Kupası 2.Tur | Stenhousemuir - Motherwell | live | -
+- 2026-08-16 16:00 | İskoçya Lig Kupası 2.Tur | Hearts - Inverness Ct | live | -
+- 2026-08-16 16:00 | Norveç 3.Lig Grup 4 | Odd Bk Ii - Hinna | live | -
+- 2026-08-16 16:00 | Letonya Kupa Çeyrek Final | Riga Fc - Metta / Lu | live | -
+- 2026-08-16 16:00 | Belarus 1.Lig | Ostrovets Fc - Bumprom | live | -
 
 ## Biten Maclar
 - 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | finished | -
@@ -380,3 +379,12 @@ Yarin: 38
 - 2026-08-16 13:00 | İsveç 2.Lig Södra Svealand | Nacka Iliria - Örebro Syriansk | finished | -
 - 2026-08-16 13:00 | Japonya J3 Lig | Ehime Fc - Gainare Tottori | finished | -
 - 2026-08-16 13:00 | Japonya J3 Lig | Matsumoto Yama - Mio Biwako Shig | finished | -
+- 2026-08-16 13:15 | Hollanda Eredivisie | Den Haag - Groningen | finished | -
+- 2026-08-16 13:15 | Hollanda Kadınlar Eredivisie | Utrecht (K) - Ajax (K) | finished | -
+- 2026-08-16 13:30 | Güney Kore K Lig 1 | Ulsan - Gangwon | finished | -
+- 2026-08-16 13:30 | Güney Kore K Lig 1 | Incheon Utd - Gimcheon Sangmu | finished | -
+- 2026-08-16 13:30 | Güney Kore K Lig 1 | Bucheon - Jeonbuk Hm | finished | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Ansan Greeners | finished | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Daegu - Asan Mugunghwa | finished | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Paju Citizen - Seongnam | finished | -
+- 2026-08-16 13:30 | Güney Kore K Lig 2 | Gimpo Citizen - Cheonan City Fc | finished | -
