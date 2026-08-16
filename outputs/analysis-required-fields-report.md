@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 69
+Toplam analiz: 28
 Tam analiz: 0
-Eksik analiz: 69
+Eksik analiz: 28
 
-- Al Orubah Club VS Abha: eksik score, confidence
-- Banniyas VS Al Ain: eksik score, confidence
-- Espanyol VS Levante: eksik score, confidence
-- Arouca VS Moreirense: eksik score, confidence
-- Burgos VS Cordoba: eksik score, confidence
-- Girona VS Leganes: eksik score, confidence
-- Rapid Wien VS Grazer Ak: eksik score, confidence
-- Imt Novi Beogr VS Radnicki Nis: eksik score, confidence
-- Porto (B) VS Farense: eksik score, confidence
-- Zira VS Safa: eksik score, confidence
-- Kfc Komarno VS Dac: eksik score, confidence
-- Dinamo Brest VS Isloch: eksik score, confidence
-- Samgurali VS Dinamo Batumi: eksik score, confidence
-- Sireti VS Sheriff Tiraspo: eksik score, confidence
-- Zimbru VS Milsami-Ursidos: eksik score, confidence
-- Valerenga Ii VS If Ready: eksik score, confidence
-- Sunnersta Aif VS Taby: eksik score, confidence
-- Lommel VS Charleroi: eksik score, confidence
-- Fredrikstad VS Kristiansund: eksik score, confidence
-- Stuttgart (Amt VS Viktoria Köln: eksik score, confidence
+- Beşiktaş VS Eyüpspor: eksik score, confidence
+- Amed Sk VS Erzurumspor Fk: eksik score, confidence
+- Hunedoara VS Cfr Cluj: eksik score, confidence
+- Sliema VS Hibernians: eksik score, confidence
+- Mardin 1969 VS Antalyaspor: eksik score, confidence
+- Muğlaspor VS Bandirmaspor: eksik score, confidence
+- Lens VS Psg: eksik score, confidence
+- Verona VS Virtus Entella: eksik score, confidence
+- Partizan Belgr VS Radnicki 1923: eksik score, confidence
+- Zemun Belg. VS Mladost Lucani: eksik score, confidence
+- Vasco Da Gama VS Santos: eksik score, confidence
+- Atletico Mg VS Gremio: eksik score, confidence
+- Hnk Gorica VS Hajduk Split: eksik score, confidence
+- Cobresal VS Concepcion: eksik score, confidence
+- Gimnasia Jujuy VS Chaco For Ever: eksik score, confidence
+- Varzim VS Ad Marco 09: eksik score, confidence
+- Orense VS Deportivo Cuenc: eksik score, confidence
+- Radnik Bijelji VS Zrinjski: eksik score, confidence
+- Always Ready VS Real Potosi: eksik score, confidence
+- Lazio VS Mantova: eksik score, confidence
