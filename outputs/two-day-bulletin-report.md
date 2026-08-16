@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
-Ham mac: 292
-Aktif mac: 279
-Canli mac: 13
+Ham mac: 294
+Aktif mac: 283
+Canli mac: 11
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 242
+Bultenden dusurulen mac: 11
+Bugun: 246
 Yarin: 37
 
 ## Baslamamis Maclar
@@ -177,6 +177,8 @@ Yarin: 37
 - 2026-08-16 19:00 | Estonya Premium Lig | Flora Tallinn - Kuressaare | scheduled | -
 - 2026-08-16 19:00 | Kanada Premier Lig | Supra Du Quebe - Atletico Ottawa | scheduled | -
 - 2026-08-16 19:00 | Malta Premier Lig Açılış | Valletta - Zabbar St Patri | scheduled | -
+- 2026-08-16 19:00 | Türkiye TFF 1. Lig | Kayserispor - Sivasspor | scheduled | -
+- 2026-08-16 19:00 | Türkiye TFF 1. Lig | A. Keçiörengüc - Pendikspor | scheduled | -
 - 2026-08-16 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Bukayriyah - Al Hazm | scheduled | -
 - 2026-08-16 19:15 | Faroe Adaları Master Lig | Vestur Sorvagu - B36 Torshavn | scheduled | -
 - 2026-08-16 19:15 | Faroe Adaları Master Lig | Ab Argir - Kí Klaksvík | scheduled | -
@@ -232,6 +234,8 @@ Yarin: 37
 - 2026-08-16 21:30 | Türkiye Süper Lig | Amed Sk - Erzurumspor Fk | scheduled | -
 - 2026-08-16 21:30 | Romanya 1.Lig | Hunedoara - Cfr Cluj | scheduled | -
 - 2026-08-16 21:30 | Malta Premier Lig Açılış | Sliema - Hibernians | scheduled | -
+- 2026-08-16 21:30 | Türkiye TFF 1. Lig | Mardin 1969 - Antalyaspor | scheduled | -
+- 2026-08-16 21:30 | Türkiye TFF 1. Lig | Muğlaspor - Bandirmaspor | scheduled | -
 - 2026-08-16 21:45 | Fransa Süper Kupa | Lens - Psg | scheduled | -
 - 2026-08-16 21:45 | İtalya Kupa 1.Tur | Verona - Virtus Entella | scheduled | -
 - 2026-08-16 22:00 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | scheduled | -
@@ -292,8 +296,6 @@ Yarin: 37
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 06:00 | ABD USL | Sacramento Rep - Lexington | live | -
-- 2026-08-16 06:10 | Meksika Liga MX Apertura | Atlas - Tigres Uanl | live | -
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Broadmeadow Ma - Charlestow City | live | -
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Belmont Swanse - Adamstown Roseb | live | -
 - 2026-08-16 07:00 | Avustralya NPL Kuzey YGG | Kahibah - Cooks Hill Unit | live | -

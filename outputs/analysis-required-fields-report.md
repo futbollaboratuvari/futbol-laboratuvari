@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 274
-Tam analiz: 250
-Eksik analiz: 24
+Toplam analiz: 257
+Tam analiz: 0
+Eksik analiz: 257
 
 - Broadmeadow Ma VS Charlestow City: eksik score, confidence
+- Belmont Swanse VS Adamstown Roseb: eksik score, confidence
+- Kahibah VS Cooks Hill Unit: eksik score, confidence
+- Maitland VS Edgeworth Eagle: eksik score, confidence
+- Lambton Jaffas VS Newcastle Olymp: eksik score, confidence
 - Valentine Phoe VS Weston Bears: eksik score, confidence
-- Lnz Cherkasy VS Chernomorets: eksik score, confidence
-- Utrecht (K) VS Ajax (K): eksik score, confidence
-- Enskede VS Korsnas If Fk: eksik score, confidence
-- Linero VS Rappe: eksik score, confidence
-- Odd Bk Ii VS Hinna: eksik score, confidence
-- Progreso VS Deportivo Maldo: eksik score, confidence
-- Nomme Kalju VS Vaprus: eksik score, confidence
-- Runavik VS Streymur: eksik score, confidence
-- Hb Torshavn VS B68 Toftir: eksik score, confidence
-- Heerenveen (K) VS Feyenoord (K): eksik score, confidence
-- Balatonalmadi VS Gyor Ii: eksik score, confidence
-- Harju Jalgpall VS Levadia Tallinn: eksik score, confidence
-- Flora Tallinn VS Kuressaare: eksik score, confidence
-- Ab Argir VS Kí Klaksvík: eksik score, confidence
-- Jkt Tanzania VS Tabora United: eksik score, confidence
-- Bohemian VS Longford: eksik score, confidence
-- Tristan VS Almirante: eksik score, confidence
-- Defensor Sport VS Liverpool Monte: eksik score, confidence
+- Belconnen Unit VS Canberra Olympi: eksik score, confidence
+- Blacktown City VS Unsw Fc: eksik score, confidence
+- Rockdale Cs VS Wollongong Wolv: eksik score, confidence
+- Marconi VS Sutherland Shar: eksik score, confidence
+- Preston Lions VS Dandenong Thund: eksik score, confidence
+- Canberra Juven VS Queanbeyan City: eksik score, confidence
+- Viktoria Zizko VS Banik Ostrava I: eksik score, confidence
+- First Vienna VS Liefering: eksik score, confidence
+- Petrzalka VS Tatran Presov: eksik score, confidence
+- Malzenice VS Povazska Bystri: eksik score, confidence
+- Yokohama Fc VS Iwata: eksik score, confidence
+- Disgyor Ii VS Godollo: eksik score, confidence
+- Vasas Ii VS Ujpest Ii: eksik score, confidence
+- Osaka VS Parceiro Nagano: eksik score, confidence
