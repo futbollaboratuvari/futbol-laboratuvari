@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-16T18:15:25.155Z
+- Guncelleme: 2026-08-16T19:33:41.863Z
 - Ham fixture sayisi: 7295
 - Bugun/yarin kaynak mac: 374
-- Aktif bulten maci: 66
+- Aktif bulten maci: 43
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 308
+- Bultenden dusurulen mac: 331
 
-- 1. 2026-08-16 21:30 | Türkiye Süper Lig | Amed Sk - Erzurumspor Fk | scheduled
-- 2. 2026-08-16 21:30 | Türkiye Süper Lig | Beşiktaş - Eyüpspor | scheduled
-- 3. 2026-08-16 21:30 | Romanya 1.Lig | Hunedoara - Cfr Cluj | scheduled
-- 4. 2026-08-16 21:30 | Türkiye TFF 1. Lig | Mardin 1969 - Antalyaspor | scheduled
-- 5. 2026-08-16 21:30 | Türkiye TFF 1. Lig | Muğlaspor - Bandirmaspor | scheduled
-- 6. 2026-08-16 21:30 | Malta Premier Lig Açılış | Sliema - Hibernians | scheduled
-- 7. 2026-08-16 21:45 | Fransa Süper Kupa | Lens - Psg | scheduled
-- 8. 2026-08-16 21:45 | İtalya Kupa 1.Tur | Verona - Virtus Entella | scheduled
-- 9. 2026-08-16 22:00 | Bolivya Premier Lig | Always Ready - Real Potosi | scheduled
-- 10. 2026-08-16 22:00 | Brezilya Serie A | Atletico Mg - Gremio | scheduled
-- 11. 2026-08-16 22:00 | Şili Premier Lig | Cobresal - Concepcion | scheduled
-- 12. 2026-08-16 22:00 | Arjantin Ulusal Primera Lig | Gimnasia Jujuy - Chaco For Ever | scheduled
-- 13. 2026-08-16 22:00 | Hırvatistan 1.HNL | Hnk Gorica - Hajduk Split | scheduled
-- 14. 2026-08-16 22:00 | Ekvador Pro Lig | Orense - Deportivo Cuenc | scheduled
-- 15. 2026-08-16 22:00 | Sırbistan Süper Lig | Partizan Belgr - Radnicki 1923 | scheduled
+- 1. 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | Central Norte - Gimnasia Y Tiro | scheduled
+- 2. 2026-08-16 23:00 | Kanada Premier Lig | Inter Toronto - Hfx Wanderers | scheduled
+- 3. 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | R Cordoba - San Martin Sj | scheduled
+- 4. 2026-08-16 23:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | scheduled
+- 5. 2026-08-16 23:30 | Peru Premier Lig Clausura | Fc Cajamarca - Universitario | scheduled
+- 6. 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | Atl Temperley - Los Andes | scheduled
+- 7. 2026-08-17 00:00 | Honduras Ulusal Lig Apertura | Choloma - Marathon | scheduled
+- 8. 2026-08-17 00:00 | Venezuela Premier Lig Clausura | Depor Tachira - Monagas | scheduled
+- 9. 2026-08-17 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Aurora | scheduled
+- 10. 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | scheduled
+- 11. 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | scheduled
+- 12. 2026-08-17 00:15 | Ekvador Pro Lig | Emelec - T.Universitario | scheduled
+- 13. 2026-08-17 00:15 | Bolivya Premier Lig | Nacional Potos - Academia Del Ba | scheduled
+- 14. 2026-08-17 00:30 | Brezilya Serie B | America Mineir - Athletic Club | scheduled
+- 15. 2026-08-17 00:30 | Şili Premier Lig | Colo Colo - O Higgins | scheduled
