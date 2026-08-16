@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 294
 - Live match count: 20
-- Finished removed count: 3
+- Finished removed count: 0
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
 - 2026-08-16 03:15 | Platense - Boca Juniors | live

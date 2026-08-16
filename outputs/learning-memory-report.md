@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 16.08.2026 05:15:13
+Oluşturma: 16.08.2026 05:22:08
 
 ## Özet
 
@@ -26,7 +26,7 @@ Oluşturma: 16.08.2026 05:15:13
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-16 | İsveç 2.Lig Södra Götaland | Växjö Norra - Staffanstorp Un | MS X | pending | 50/100
+- 2026-08-16 | Güney Kore K Lig 2 | Daegu - Asan Mugunghwa | MS X | pending | 50/100
 - 2026-08-16 | Meksika Liga MX Apertura | Pumas Unam - Queretaro | MS 2 | pending | 50/100
 - 2026-08-16 | Meksika Ascenso MX Apertura | Leones Negros - Cds Tampico Mad | MS X | pending | 40/100
 - 2026-08-16 | Irak Premier Lig | Erbil Sc - Al Kahraba | MS 2 | pending | 60/100

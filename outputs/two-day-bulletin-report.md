@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
-Ham mac: 317
+Ham mac: 357
 Aktif mac: 294
-Canli mac: 23
-Biten mac: 0
-Bultenden dusurulen mac: 23
+Canli mac: 20
+Biten mac: 43
+Bultenden dusurulen mac: 63
 Bugun: 257
 Yarin: 37
 
@@ -307,9 +307,6 @@ Yarin: 37
 - 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 
 ## Canli Maclar
-- 2026-08-16 03:00 | Brezilya Serie A | Sao Paulo - Coritiba | live | -
-- 2026-08-16 03:00 | Şili Premier Lig | Everton De Vin - Audax Italiano | live | -
-- 2026-08-16 03:00 | Ekvador Pro Lig | Mushuc Runa - Barcelona Gua | live | -
 - 2026-08-16 03:15 | Arjantin Premier Lig 2. Aşama | Platense - Boca Juniors | live | -
 - 2026-08-16 03:30 | ABD MLS | Houston - Los Angeles | live | -
 - 2026-08-16 03:30 | ABD MLS | Nashville Sc - Inter Miami | live | -
@@ -332,4 +329,46 @@ Yarin: 37
 - 2026-08-16 05:00 | ABD USL | Orange County - Louisville City | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-16 00:00 | Arjantin Ulusal Primera Lig | Godoy Cruz - Maipu | finished | -
+- 2026-08-16 00:00 | Kanada Premier Lig | Cavalry - Forge | finished | -
+- 2026-08-16 00:00 | Honduras Ulusal Lig Apertura | Genesis Pn - Platense | finished | -
+- 2026-08-16 00:15 | Bolivya Premier Lig | Guabira - The Strongest | finished | -
+- 2026-08-16 00:30 | Brezilya Serie A | Atletico Pr - Bragantino | finished | -
+- 2026-08-16 00:30 | Venezuela Premier Lig Clausura | Ucv - Caracas Fc | finished | -
+- 2026-08-16 00:30 | Şili Premier Lig | Deportes Limac - Univ. De Şili | finished | -
+- 2026-08-16 00:30 | Brezilya Serie B | Juventude - Fortaleza Ce | finished | -
+- 2026-08-16 00:30 | Ekvador Pro Lig | Guayaquil City - Libertad | finished | -
+- 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Fuerte San Fra - Isidro Metapan | finished | -
+- 2026-08-16 00:30 | El Salvador Primera Lig Apertura | Aguila - Balboa | finished | -
+- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Belgrano - Rivadavia | finished | -
+- 2026-08-16 01:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Riestra | finished | -
+- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Quilmes - San Telmo | finished | -
+- 2026-08-16 01:00 | Arjantin Ulusal Primera Lig | Caseros - Chacarita Junio | finished | -
+- 2026-08-16 01:00 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | finished | -
+- 2026-08-16 01:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Puntarenas Fc | finished | -
+- 2026-08-16 01:30 | Uruguay Premier Lig Clausura | Montevideo Wan - Cerro Largo | finished | -
+- 2026-08-16 02:00 | Meksika Liga MX Apertura | Atlante - Toluca | finished | -
+- 2026-08-16 02:00 | Venezuela Premier Lig Clausura | Portuguesa - Trujillanos | finished | -
+- 2026-08-16 02:00 | Guatemala Ulusal Lig Apertura | Guastatoya - Municipal | finished | -
+- 2026-08-16 02:00 | ABD USL | Pittsburgh Riv - Charleston Batt | finished | -
+- 2026-08-16 02:00 | ABD USL | Detroit City - Loudoun United | finished | -
+- 2026-08-16 02:00 | ABD USL | Hartford Athle - Miami Fc | finished | -
+- 2026-08-16 02:00 | ABD USL | Sporting Jax - Indy Eleven | finished | -
+- 2026-08-16 02:00 | Nikaragua Premier Lig Apertura | Rancho Santana - Walter Ferretti | finished | -
+- 2026-08-16 02:00 | ABD USL Lig 1 | Charlotte Inde - Sarasota Paradi | finished | -
+- 2026-08-16 02:00 | ABD USL Lig 1 | Westchester Sc - Naples | finished | -
+- 2026-08-16 02:00 | ABD USL Lig 1 | New York Cosmo - Alta | finished | -
+- 2026-08-16 02:00 | ABD USL Lig 1 | Greenville Tri - One Knoxville | finished | -
+- 2026-08-16 02:15 | Honduras Ulusal Lig Apertura | Upnfm - Estrella Roja | finished | -
+- 2026-08-16 02:30 | ABD MLS | Montreal - Dc United | finished | -
+- 2026-08-16 02:30 | ABD MLS | Orlando City - Cincinnati | finished | -
+- 2026-08-16 02:30 | ABD MLS | Atlanta Utd - New York | finished | -
+- 2026-08-16 02:30 | ABD MLS | Toronto - New England | finished | -
+- 2026-08-16 02:30 | ABD MLS | Charlotte - Columbus | finished | -
+- 2026-08-16 02:30 | Venezuela Premier Lig Clausura | Academia Puert - Rayo Zuliano | finished | -
+- 2026-08-16 02:30 | Bolivya Premier Lig | Blooming - Aurora | finished | -
+- 2026-08-16 02:30 | ABD USL | Tampa Bay Rowd - Rhode Island | finished | -
+- 2026-08-16 02:30 | ABD USL Lig 1 | Fort Wayne - Chattanooga Red | finished | -
+- 2026-08-16 03:00 | Brezilya Serie A | Sao Paulo - Coritiba | finished | -
+- 2026-08-16 03:00 | Şili Premier Lig | Everton De Vin - Audax Italiano | finished | -
+- 2026-08-16 03:00 | Ekvador Pro Lig | Mushuc Runa - Barcelona Gua | finished | -
