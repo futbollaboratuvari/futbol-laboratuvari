@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 310
-- Live match count: 29
-- Finished removed count: 0
+- Scheduled match count: 294
+- Live match count: 20
+- Finished removed count: 3
 - Date window: 2026-08-16 / 2026-08-17 23:59
 
-- 2026-08-16 02:00 | Detroit City - Loudoun United | live
-- 2026-08-16 02:00 | Hartford Athle - Miami Fc | live
-- 2026-08-16 02:00 | Charlotte Inde - Sarasota Paradi | live
-- 2026-08-16 02:00 | Greenville Tri - One Knoxville | live
-- 2026-08-16 02:00 | New York Cosmo - Alta | live
-- 2026-08-16 02:00 | Westchester Sc - Naples | live
-- 2026-08-16 02:00 | Pittsburgh Riv - Charleston Batt | live
-- 2026-08-16 02:00 | Sporting Jax - Indy Eleven | live
-- 2026-08-16 02:00 | Guastatoya - Municipal | live
-- 2026-08-16 02:00 | Atlante - Toluca | live
+- 2026-08-16 03:15 | Platense - Boca Juniors | live
+- 2026-08-16 03:30 | Houston - Los Angeles | live
+- 2026-08-16 03:30 | Nashville Sc - Inter Miami | live
+- 2026-08-16 03:30 | Alianza Lima - Univ De Cajamar | live
+- 2026-08-16 04:00 | Colorado Sprin - Birmingham Legi | live
+- 2026-08-16 04:00 | Spokane Veloci - Corpus Christi | live
+- 2026-08-16 04:00 | San Antonio - El Paso Locomot | live
+- 2026-08-16 04:00 | Alianza - Cacahuatique | live
+- 2026-08-16 04:00 | Comunicaciones - Malacateco | live
+- 2026-08-16 04:00 | Cancun Fc - Durango | live

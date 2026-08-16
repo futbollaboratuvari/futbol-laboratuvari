@@ -3,17 +3,14 @@
 Gunler: 2026-08-16 / 2026-08-17
 Kaynak: fixtures.json
 Ham mac: 317
-Aktif mac: 297
-Canli mac: 20
+Aktif mac: 294
+Canli mac: 23
 Biten mac: 0
-Bultenden dusurulen mac: 20
-Bugun: 260
+Bultenden dusurulen mac: 23
+Bugun: 257
 Yarin: 37
 
 ## Baslamamis Maclar
-- 2026-08-16 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Cs Cartagines | scheduled | -
-- 2026-08-16 05:00 | ABD USL | Oakland Roots - Monterey Bay | scheduled | -
-- 2026-08-16 05:00 | ABD USL | Orange County - Louisville City | scheduled | -
 - 2026-08-16 05:30 | ABD MLS | San Jose - St. Louis City | scheduled | -
 - 2026-08-16 05:30 | ABD MLS | Los Angeles Fc - San Diego | scheduled | -
 - 2026-08-16 05:30 | ABD USL | Las Vegas Ligh - Brooklyn | scheduled | -
@@ -330,6 +327,9 @@ Yarin: 37
 - 2026-08-16 04:30 | ABD MLS | Colorado - Kansas | live | -
 - 2026-08-16 04:30 | ABD USL | New Mexico Uni - Tulsa Roughneck | live | -
 - 2026-08-16 04:30 | Honduras Ulusal Lig Apertura | Real Espana - Atlético Indepe | live | -
+- 2026-08-16 05:00 | Kosta Rika Premier Lig Apertura | Deportivo Sapr - Cs Cartagines | live | -
+- 2026-08-16 05:00 | ABD USL | Oakland Roots - Monterey Bay | live | -
+- 2026-08-16 05:00 | ABD USL | Orange County - Louisville City | live | -
 
 ## Biten Maclar
 Biten mac yok.
