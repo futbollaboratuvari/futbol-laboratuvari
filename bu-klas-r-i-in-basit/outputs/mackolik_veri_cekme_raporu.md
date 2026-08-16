@@ -1,34 +1,72 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-16T20:57:57.638219+00:00
+Tarih: 2026-08-16T21:02:08.116801+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 66
+- Kac mac kaydedildi: 66
 - Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 7335
-- Hedef tarih: 16.08.2026 Europe/Istanbul
+- Ham veri havuzu toplam mac sayisi: 7401
+- Hedef tarih: 17.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya Victoria NPL 1
+- Azerbaycan Premier Lig
+- Belçika Challenger Pro Lig
+- Bulgaristan 1.Lig
+- Danimarka Süperlig
+- Faroe Adaları Master Lig
+- Finlandiya Veikkausliiga
+- Gürcistan Erovnuli Liga
+- Hollanda Eerste Divisie
+- Letonya Kupa Çeyrek Final
+- Litvanya A Ligi
+- Macaristan NB I
+- Malta Premier Lig Açılış
+- Norveç 3.Lig Grup 1
+- Norveç 3.Lig Grup 2
+- Norveç 3.Lig Grup 3
+- Norveç 3.Lig Grup 4
+- Norveç 3.Lig Grup 6
+- Polonya 1.Lig
+- Portekiz 2.Lig
+- Portekiz Premier Lig
+- Romanya 1.Lig
+- Rusya FNL
+- Slovakya 2.Lig
+- Suudi Arabistan Kral Kupası Son 32 Turu
+- Sırbistan Süper Lig
+- Türkiye Süper Lig
+- Ukrayna Premier Lig
+- Çek Cumhuriyeti FNL
+- İngiltere Championship
+- İngiltere Professional Development Lig
+- İspanya 2.Lig
+- İspanya LaLiga
+- İsveç 2.Lig Norra Götaland
+- İsveç Allsvenskan
+- İtalya Kupa 1.Tur
+- İzlanda 1.Lig
+- İzlanda Urvalsdeild
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -72,78 +110,40 @@ Tarih: 2026-08-16T20:57:57.638219+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 3
+- Denenen Tumu alani: 45
+- Acilan detay: 45
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
-
-- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
-
-- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
-
-- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
-
-- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
-
-- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
-
-- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
-
-- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
-
-- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
-
-- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
-
-- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
-
-- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
-
-- Detay acilamadi #16: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(15)
-
-- Detay acilamadi #17: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(16)
-
-- Detay acilamadi #18: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(17)
-
+- Hata yok.
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 17.08.2026 | 21:30 | Türkiye Süper Lig | Samsunspor | Göztepe | 02993 | 5 |
+| 17.08.2026 | 22:00 | İspanya LaLiga | D.La Coruna | Elche | 26453 | 5 |
+| 17.08.2026 | 22:15 | Portekiz Premier Lig | Casa Pia | Benfica | 34067 | 5 |
+| 17.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al-Raed | Al Hilal (Riyad | 12521 | 2 |
+| 17.08.2026 | 19:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Anwar | Al Ahli (Cidde) | 12461 | 2 |
+| 17.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Adalah | Al Feiha | 12516 | 5 |
+| 17.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Zulfi | Al Riyadh | 03337 | 5 |
+| 17.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Taee | Al-Qadsiah | 03275 | 2 |
+| 17.08.2026 | 22:00 | İngiltere Championship | Cardiff | Wrexham | 24993 | 5 |
+| 17.08.2026 | 20:00 | İspanya 2.Lig | Sporting Gijon | Sabadell | 26321 | 5 |
+| 17.08.2026 | 22:30 | İspanya 2.Lig | Almeria | Eldense | 26570 | 5 |
+| 17.08.2026 | 22:15 | İtalya Kupa 1.Tur | Palermo | Lecce | 29418 | 5 |
+| 17.08.2026 | 21:45 | İtalya Kupa 1.Tur | Cremonese | Sampdoria | 29310 | 5 |
+| 17.08.2026 | 19:30 | İtalya Kupa 1.Tur | Sassuolo | Cesena | 29206 | 5 |
+| 17.08.2026 | 19:00 | İtalya Kupa 1.Tur | Pisa | Empoli | 29092 | 5 |
+| 17.08.2026 | 21:00 | Hollanda Eerste Divisie | De Graafschap | Jong Az Alkmaar | 38223 | 5 |
+| 17.08.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Vitesse | 38335 | 5 |
+| 17.08.2026 | 21:00 | Hollanda Eerste Divisie | Ajax (B) | Emmen | 38281 | 5 |
+| 17.08.2026 | 20:00 | Danimarka Süperlig | Brondby | Sonderjyske | 38169 | 5 |
+| 17.08.2026 | 20:00 | İsveç Allsvenskan | Hacken | Halmstads | 34789 | 5 |
 
 ## Sonuc
 
