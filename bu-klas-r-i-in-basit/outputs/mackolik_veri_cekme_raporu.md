@@ -1,34 +1,37 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T20:47:34.123210+00:00
+Tarih: 2026-08-17T20:51:03.774993+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
+- Kac mac bulundu: 7
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
+- Kac mac zaten vardi: 7
 - Ham veri havuzu toplam mac sayisi: 7415
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- Arjantin Premier Lig 2. Aşama
+- Brezilya Serie A
+- Ekvador Pro Lig
+- Meksika Liga MX Apertura
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -73,21 +76,26 @@ Tarih: 2026-08-17T20:47:34.123210+00:00
 ## Mac Detay Pencereleri
 
 - Denenen Tumu alani: 5
-- Acilan detay: 4
+- Acilan detay: 5
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
-
+- Hata yok.
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 18.08.2026 | 02:00 | Brezilya Serie A | Internacional | Remo | 38544 | 5 |
+| 18.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Defensa Justici | 34584 | 5 |
+| 18.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo | Talleres | 34705 | 5 |
+| 18.08.2026 | 04:00 | Meksika Liga MX Apertura | Necaxa | Club Leon | 38636 | 5 |
+| 18.08.2026 | 06:06 | Meksika Liga MX Apertura | Pachuca | Puebla | 38678 | 5 |
+| 18.08.2026 | 03:30 | Şili Premier Lig | Palestino | Huachipato | 38619 | 5 |
+| 18.08.2026 | 03:00 | Ekvador Pro Lig | Depor Macara | Univ Catolica ( | 38602 | 5 |
 
 ## Sonuc
 

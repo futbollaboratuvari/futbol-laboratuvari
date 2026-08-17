@@ -4,8 +4,8 @@ Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
 Ham mac: 118
 Aktif mac: 8
-Canli mac: 15
-Biten mac: 95
+Canli mac: 10
+Biten mac: 100
 Bultenden dusurulen mac: 110
 Bugun: 0
 Yarin: 8
@@ -21,11 +21,6 @@ Yarin: 8
 - 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | live | -
-- 2026-08-17 21:30 | Türkiye Süper Lig | Samsunspor - Göztepe | live | -
-- 2026-08-17 21:30 | Romanya 1.Lig | Fc Steaua - Botosani | live | -
-- 2026-08-17 21:30 | Malta Premier Lig Açılış | Hamrun - Mosta Fc | live | -
-- 2026-08-17 21:30 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | live | -
 - 2026-08-17 21:45 | İtalya Kupa 1.Tur | Cremonese - Sampdoria | live | -
 - 2026-08-17 22:00 | İspanya LaLiga | D.La Coruna - Elche | live | -
 - 2026-08-17 22:00 | İngiltere Championship | Cardiff - Wrexham | live | -
@@ -133,3 +128,8 @@ Yarin: 8
 - 2026-08-17 21:00 | İzlanda 1.Lig | Ir Reykjavik - Njardvik | finished | -
 - 2026-08-17 21:00 | İzlanda 1.Lig | Grindavik - Grotta | finished | -
 - 2026-08-17 21:00 | İzlanda 1.Lig | Leiknir Reykja - Aegir | finished | -
+- 2026-08-17 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | finished | -
+- 2026-08-17 21:30 | Türkiye Süper Lig | Samsunspor - Göztepe | finished | -
+- 2026-08-17 21:30 | Romanya 1.Lig | Fc Steaua - Botosani | finished | -
+- 2026-08-17 21:30 | Malta Premier Lig Açılış | Hamrun - Mosta Fc | finished | -
+- 2026-08-17 21:30 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | finished | -
