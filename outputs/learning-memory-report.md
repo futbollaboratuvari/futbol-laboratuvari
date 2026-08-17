@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.08.2026 07:45:09
+Oluşturma: 17.08.2026 08:06:17
 
 ## Özet
 
@@ -27,7 +27,7 @@ Oluşturma: 17.08.2026 07:45:09
 ## Son Tahmin Kayıtları
 
 - 2026-08-17 | Sırbistan Süper Lig | Novi Pazar - Vojvodina | MS X | pending | 50/100
-- 2026-08-17 | Norveç 3.Lig Grup 3 | Brann Ii - Os Turn Fotball | MS X | pending | 40/100
+- 2026-08-17 | Norveç 3.Lig Grup 3 | Brann Ii - Os Turn Fotball | MS X | pending | 55/100
 - 2026-08-17 | Belçika Challenger Pro Lig | Rfc Liege - Francs Borains | MS X | pending | 50/100
 - 2026-08-17 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | MS 2 | pending | 50/100
 - 2026-08-17 | Türkiye Süper Lig | Samsunspor - Göztepe | MS 2 | pending | 50/100
