@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T11:45:05.237715+00:00
+Tarih: 2026-08-17T12:04:30.322925+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 66
+- Kac mac bulundu: 65
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 66
+- Kac mac zaten vardi: 65
 - Ham veri havuzu toplam mac sayisi: 7412
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
@@ -48,7 +48,6 @@ Tarih: 2026-08-17T11:45:05.237715+00:00
 - Ukrayna Premier Lig
 - Çek Cumhuriyeti FNL
 - İngiltere Championship
-- İngiltere Professional Development Lig
 - İspanya 2.Lig
 - İspanya LaLiga
 - İsveç 2.Lig Norra Götaland
@@ -112,8 +111,8 @@ Tarih: 2026-08-17T11:45:05.237715+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 47
-- Acilan detay: 47
+- Denenen Tumu alani: 46
+- Acilan detay: 46
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
