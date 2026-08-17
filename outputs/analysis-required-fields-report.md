@@ -1,11 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 31
-Tam analiz: 27
-Eksik analiz: 4
+Toplam analiz: 2
+Tam analiz: 0
+Eksik analiz: 2
 
-- Al-Raed VS Al Hilal (Riyad: eksik score, confidence
-- All Boys VS Nueva Chicago: eksik score, confidence
-- Valur VS Ka Akureyri: eksik score, confidence
-- Leiknir Reykja VS Aegir: eksik score, confidence
+- Benjamin Aceva VS Nacional Asunci: eksik score, confidence
+- Riestra VS Gimnasia La Pla: eksik score, confidence

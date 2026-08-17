@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 8
+Ham mac: 2
 Aktif mac: 0
-Canli mac: 0
-Biten mac: 8
-Bultenden dusurulen mac: 8
+Canli mac: 1
+Biten mac: 1
+Bultenden dusurulen mac: 2
 Bugun: 0
 Yarin: 0
 
@@ -14,14 +14,7 @@ Yarin: 0
 Mac bekleniyor.
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-18 23:00 | Arjantin Kupa Son 16 Turu | Riestra - Gimnasia La Pla | live | -
 
 ## Biten Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
-- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
-- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
-- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
-- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
-- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
-- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
+- 2026-08-18 22:30 | Paraguay Kupa 3.Tur | Benjamin Aceva - Nacional Asunci | finished | -
