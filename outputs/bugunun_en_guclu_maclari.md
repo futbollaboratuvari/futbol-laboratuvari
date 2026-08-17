@@ -4,14 +4,14 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-17T22:15:35.661Z
+- Güncelleme: 2026-08-17T22:42:45.364Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Velez Sarsfiel VS Defensa Justici | Arjantin Premier Lig 2. Aşama | 01:15 | MS 2 | 4.10 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Velez Sarsfiel VS Defensa Justici | Arjantin Premier Lig 2. Aşama | 01:15 | MS 2 | 4.10 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Internacional VS Remo | Brezilya Serie A | 02:00 | MS 2 | 5.99 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Depor Macara VS Univ Catolica ( | Ekvador Pro Lig | 03:00 | MS 1 | 3.51 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gimnasia Mendo VS Talleres | Arjantin Premier Lig 2. Aşama | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -98,15 +98,15 @@
 | Guiseley VS Bury | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Rylands VS Quorn | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 4.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Leek Town VS Afc Emley | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Gainsborough T VS Stockton Town | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.03 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gainsborough T VS Stockton Town | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.02 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ashton United VS Whitby Town | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ilkeston Town VS Warrington Town | İngiltere Non League Premier Kuzey | 21:45 | MS X | 2.87 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Ilkeston Town VS Warrington Town | İngiltere Non League Premier Kuzey | 21:45 | MS X | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Curzon Ashton VS Bamber Bridge | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.78 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cleethorpes To VS Alfreton | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Dinamo Zagreb VS Viking | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 3.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Levski Sofya VS Aek | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fenerbahçe VS Lyon | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Farense U23 VS Estoril U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Farense U23 VS Estoril U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 3.07 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Benjamin Aceva VS Nacional Asunci | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Riestra VS Gimnasia La Pla | Arjantin Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Rivadavia (0) VS (0) Fluminense | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -120,7 +120,7 @@
 | Goias VS Juventude | Brezilya Serie B | 03:35 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Cs Cartagines VS Hankook Verdes | CONCACAF Orta Amerika Kupası Grup D | 04:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Xelaju VS Diriangen | CONCACAF Orta Amerika Kupası Grup A | 06:00 | MS 2 | 4.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Real Esteli VS Herediano | CONCACAF Orta Amerika Kupası Grup B | 06:00 | MS 2 | 3.20 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Real Esteli VS Herediano | CONCACAF Orta Amerika Kupası Grup B | 06:00 | MS 2 | 3.30 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |

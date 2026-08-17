@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 01:16:35
+Oluşturma: 18.08.2026 01:44:30
 
 ## Özet
 
-- Toplam tahmin: 70
-- Bekleyen tahmin: 70
+- Toplam tahmin: 71
+- Bekleyen tahmin: 71
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 31
@@ -20,12 +20,13 @@ Oluşturma: 18.08.2026 01:16:35
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
+- MS X: toplam 47, bekleyen 47, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-18 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | MS X | pending | 50/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | MS X | pending | 50/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | MS X | pending | 40/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 18.08.2026 01:16:35
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Ilkeston Town - Warrington Town | MS X | pending | 40/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Curzon Ashton - Bamber Bridge | MS 2 | pending | 50/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Cleethorpes To - Alfreton | MS X | pending | 50/100
-- 2026-08-18 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb - Viking | MS 2 | pending | 50/100
 
