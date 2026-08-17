@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 36
-- Live match count: 29
-- Finished removed count: 0
+- Scheduled match count: 22
+- Live match count: 28
+- Finished removed count: 15
 - Date window: 2026-08-17 / 2026-08-18 23:59
 
-- 2026-08-17 18:45 | Dziugas Telsia - Suduva | live
-- 2026-08-17 19:00 | Spartak Varna - Septemvri Sofia | live
-- 2026-08-17 19:00 | Trinec - Usti Nad Labem | live
-- 2026-08-17 19:00 | Gagra - Spaeri | live
-- 2026-08-17 19:00 | Pisa - Empoli | live
-- 2026-08-17 19:00 | Birkirkara - Gzira United | live
-- 2026-08-17 19:00 | Brann Ii - Os Turn Fotball | live
-- 2026-08-17 19:00 | Stord Sunnhord - Asane Ii | live
-- 2026-08-17 19:00 | Staal Jorpelan - Haugesund Ii | live
-- 2026-08-17 19:00 | Varhaug - Stabaek 2 | live
+- 2026-08-17 19:15 | Al Taee - Al-Qadsiah | live
+- 2026-08-17 19:15 | Al Zulfi - Al Riyadh | live
+- 2026-08-17 19:30 | Sassuolo - Cesena | live
+- 2026-08-17 19:30 | Kvik Trond - Aalesund B | live
+- 2026-08-17 19:30 | Spartak Kostro - Ufa | live
+- 2026-08-17 20:00 | Brondby - Sonderjyske | live
+- 2026-08-17 20:00 | Sporting Gijon - Sabadell | live
+- 2026-08-17 20:00 | Hacken - Halmstads | live
+- 2026-08-17 20:00 | Kfum Ii - Nordstrand | live
+- 2026-08-17 20:00 | Arka Gdynia - Puszcza Niepolo | live
