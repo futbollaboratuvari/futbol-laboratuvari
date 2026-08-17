@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 81
-Aktif mac: 75
-Canli mac: 6
+Ham mac: 77
+Aktif mac: 73
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 68
+Bultenden dusurulen mac: 4
+Bugun: 66
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 05:30 | ABD MLS | Seattle - Vancouver | scheduled | -
-- 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled | -
 - 2026-08-17 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Northcote City | scheduled | -
 - 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | scheduled | -
 - 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | scheduled | -
@@ -88,12 +86,10 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 03:00 | Ekvador Pro Lig | Aucas - Ldu Quito | live | -
-- 2026-08-17 03:00 | Nikaragua Premier Lig Apertura | Unan Managua - Jalapa | live | -
-- 2026-08-17 03:00 | El Salvador Primera Lig Apertura | Platense - Deportivo Fas | live | -
-- 2026-08-17 03:30 | ABD MLS | Austin - Dallas | live | -
 - 2026-08-17 04:10 | Meksika Liga MX Apertura | Santos Laguna - Guadalajara | live | -
 - 2026-08-17 04:30 | Honduras Ulusal Lig Apertura | Olancho - Juticalpa | live | -
+- 2026-08-17 05:30 | ABD MLS | Seattle - Vancouver | live | -
+- 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | live | -
 
 ## Biten Maclar
 Biten mac yok.
