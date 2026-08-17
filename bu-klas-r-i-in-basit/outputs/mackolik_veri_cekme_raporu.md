@@ -1,29 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T18:14:48.334502+00:00
+Tarih: 2026-08-17T19:03:11.417647+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 15
+- Kac mac bulundu: 7
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 15
+- Kac mac zaten vardi: 7
 - Ham veri havuzu toplam mac sayisi: 7415
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Arjantin Premier Lig 2. Aşama
-- Bulgaristan 1.Lig
-- Malta Premier Lig Açılış
 - Portekiz Premier Lig
-- Romanya 1.Lig
-- Türkiye Süper Lig
-- Türkiye TFF 1. Lig
-- İngiltere Championship
 - İspanya 2.Lig
-- İspanya LaLiga
 - İtalya Kupa 1.Tur
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
@@ -83,8 +76,8 @@ Tarih: 2026-08-17T18:14:48.334502+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 18
-- Acilan detay: 18
+- Denenen Tumu alani: 11
+- Acilan detay: 11
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -97,21 +90,13 @@ Tarih: 2026-08-17T18:14:48.334502+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 17.08.2026 | 21:30 | Türkiye Süper Lig | Samsunspor | Göztepe | 02993 | 5 |
-| 17.08.2026 | 21:30 | Türkiye TFF 1. Lig | Batman Petrol | Boluspor | 02680 | 5 |
-| 17.08.2026 | 22:00 | İspanya LaLiga | D.La Coruna | Elche | 26453 | 5 |
-| 17.08.2026 | 22:15 | Portekiz Premier Lig | Casa Pia | Benfica | 34067 | 5 |
-| 17.08.2026 | 22:00 | İngiltere Championship | Cardiff | Wrexham | 24993 | 5 |
+| 17.08.2026 | 22:15 | Portekiz Premier Lig | Casa Pia | Benfica | 34067 | 4 |
 | 17.08.2026 | 22:30 | İspanya 2.Lig | Almeria | Eldense | 26570 | 5 |
-| 17.08.2026 | 21:45 | İtalya Kupa 1.Tur | Cremonese | Sampdoria | 29310 | 5 |
 | 17.08.2026 | 22:15 | İtalya Kupa 1.Tur | Palermo | Lecce | 29418 | 5 |
 | 17.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Lanus | Independiente | 34501 | 5 |
-| 17.08.2026 | 21:15 | Bulgaristan 1.Lig | Arda Kardzhali | Lokomotiv Sofia | 38441 | 5 |
-| 17.08.2026 | 21:30 | Romanya 1.Lig | Fc Steaua | Botosani | 38469 | 5 |
 | 17.08.2026 | 22:15 | İzlanda Urvalsdeild | Fram | Stjarnan | 38525 | 3 |
 | 17.08.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Hk Kopavogur | 44630 | 3 |
 | 17.08.2026 | 22:15 | İzlanda 1.Lig | Throttur | Fylkir | 38542 | 3 |
-| 17.08.2026 | 21:30 | Malta Premier Lig Açılış | Hamrun | Mosta Fc | 12526 | 5 |
 
 ## Sonuc
 
