@@ -3,15 +3,14 @@
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
 Ham mac: 110
-Aktif mac: 109
-Canli mac: 1
+Aktif mac: 108
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 97
+Bultenden dusurulen mac: 2
+Bugun: 96
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | scheduled | -
 - 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | scheduled | -
 - 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | scheduled | -
 - 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | scheduled | -
@@ -123,6 +122,7 @@ Yarin: 12
 
 ## Canli Maclar
 - 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | live | -
+- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | live | -
 
 ## Biten Maclar
 Biten mac yok.
