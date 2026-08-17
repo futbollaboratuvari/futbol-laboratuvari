@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 70
-Tam analiz: 60
-Eksik analiz: 10
+Toplam analiz: 67
+Tam analiz: 56
+Eksik analiz: 11
 
 - Auda VS Grobina: eksik score, confidence
 - Qarabagh VS Keshla: eksik score, confidence
@@ -14,4 +14,5 @@ Eksik analiz: 10
 - Al-Raed VS Al Hilal (Riyad: eksik score, confidence
 - All Boys VS Nueva Chicago: eksik score, confidence
 - Leiknir Reykja VS Aegir: eksik score, confidence
+- Batman Petrol VS Boluspor: eksik score, confidence
 - Afturelding VS Hk Kopavogur: eksik score, confidence
