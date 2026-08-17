@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.08.2026 19:03:35
+Oluşturma: 17.08.2026 19:14:10
 
 ## Özet
 
-- Toplam tahmin: 31
-- Bekleyen tahmin: 31
+- Toplam tahmin: 34
+- Bekleyen tahmin: 34
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 23
+- Lig sayısı: 24
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,15 @@ Oluşturma: 17.08.2026 19:03:35
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 18, bekleyen 18, başarı bekleniyor, ağırlık 1
 - MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-17 | İspanya 2.Lig | Almeria - Eldense | MS 2 | pending | 75/100
+- 2026-08-17 | İtalya Kupa 1.Tur | Sassuolo - Cesena | MS 2 | pending | 85/100
+- 2026-08-17 | Danimarka Süperlig | Brondby - Sonderjyske | MS 2 | pending | 75/100
 - 2026-08-17 | Ukrayna Premier Lig | Polessya - Zoria Luhansk | MS 2 | pending | 75/100
 - 2026-08-17 | İzlanda 1.Lig | Völsungur - Vestri | MS X | pending | 50/100
 - 2026-08-17 | Romanya 1.Lig | Fc Steaua - Botosani | MS 2 | pending | 75/100
@@ -38,7 +41,4 @@ Oluşturma: 17.08.2026 19:03:35
 - 2026-08-17 | İtalya Kupa 1.Tur | Cremonese - Sampdoria | MS 2 | pending | 40/100
 - 2026-08-17 | İspanya LaLiga | D.La Coruna - Elche | MS 2 | pending | 40/100
 - 2026-08-17 | İngiltere Championship | Cardiff - Wrexham | MS X | pending | 50/100
-- 2026-08-17 | İtalya Kupa 1.Tur | Palermo - Lecce | MS X | pending | 40/100
-- 2026-08-17 | Romanya 1.Lig | Universitatea - Uta Arad | MS 2 | pending | 40/100
-- 2026-08-17 | Litvanya A Ligi | Dziugas Telsia - Suduva | MS 1 | pending | 40/100
 

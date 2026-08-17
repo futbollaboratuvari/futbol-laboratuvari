@@ -2,33 +2,15 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 76
-Aktif mac: 67
-Canli mac: 9
+Ham mac: 73
+Aktif mac: 49
+Canli mac: 24
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 60
+Bultenden dusurulen mac: 24
+Bugun: 42
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 18:30 | Azerbaycan Premier Lig | Qarabagh - Keshla | scheduled | -
-- 2026-08-17 18:30 | Macaristan NB I | Zalaegerszeg - Ferencvaros | scheduled | -
-- 2026-08-17 18:30 | Romanya 1.Lig | Universitatea - Uta Arad | scheduled | -
-- 2026-08-17 18:45 | Litvanya A Ligi | Dziugas Telsia - Suduva | scheduled | -
-- 2026-08-17 19:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Anwar - Al Ahli (Cidde) | scheduled | -
-- 2026-08-17 19:00 | İtalya Kupa 1.Tur | Pisa - Empoli | scheduled | -
-- 2026-08-17 19:00 | Bulgaristan 1.Lig | Spartak Varna - Septemvri Sofia | scheduled | -
-- 2026-08-17 19:00 | Gürcistan Erovnuli Liga | Gagra - Spaeri | scheduled | -
-- 2026-08-17 19:00 | Çek Cumhuriyeti FNL | Trinec - Usti Nad Labem | scheduled | -
-- 2026-08-17 19:00 | Norveç 3.Lig Grup 3 | Brann Ii - Os Turn Fotball | scheduled | -
-- 2026-08-17 19:00 | Norveç 3.Lig Grup 4 | Viking B - Madla | scheduled | -
-- 2026-08-17 19:00 | Norveç 3.Lig Grup 4 | Staal Jorpelan - Haugesund Ii | scheduled | -
-- 2026-08-17 19:00 | Norveç 3.Lig Grup 4 | Varhaug - Stabaek 2 | scheduled | -
-- 2026-08-17 19:00 | Norveç 3.Lig Grup 6 | Fram Larvik - Sarpsborg 08 Ii | scheduled | -
-- 2026-08-17 19:00 | Norveç 3.Lig Grup 6 | Ff Lillehammer - Lyn Oslo B | scheduled | -
-- 2026-08-17 19:00 | Malta Premier Lig Açılış | Birkirkara - Gzira United | scheduled | -
-- 2026-08-17 19:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Asane Ii | scheduled | -
-- 2026-08-17 19:00 | Uganda Süper 8 Beşincilik Maçı | Bul - Entebbe Uppc | scheduled | -
 - 2026-08-17 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Zulfi - Al Riyadh | scheduled | -
 - 2026-08-17 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Taee - Al-Qadsiah | scheduled | -
 - 2026-08-17 19:30 | İtalya Kupa 1.Tur | Sassuolo - Cesena | scheduled | -
@@ -80,15 +62,30 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | live | -
-- 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Police - Maroons | live | -
-- 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Maroons - Police | live | -
 - 2026-08-17 17:00 | Norveç 3.Lig Grup 5 | Bossekop - Tromso Ii | live | -
 - 2026-08-17 18:00 | Finlandiya Veikkausliiga | Gnistan - Ilves | live | -
 - 2026-08-17 18:00 | Ukrayna Premier Lig | Polessya - Zoria Luhansk | live | -
 - 2026-08-17 18:00 | Litvanya A Ligi | Fa Siauliai - Fk Panevezys | live | -
 - 2026-08-17 18:00 | Slovakya 2.Lig | Slovan Bratisl - Humenne | live | -
 - 2026-08-17 18:00 | Letonya Kupa Çeyrek Final | Auda - Grobina | live | -
+- 2026-08-17 18:30 | Azerbaycan Premier Lig | Qarabagh - Keshla | live | -
+- 2026-08-17 18:30 | Macaristan NB I | Zalaegerszeg - Ferencvaros | live | -
+- 2026-08-17 18:30 | Romanya 1.Lig | Universitatea - Uta Arad | live | -
+- 2026-08-17 18:45 | Litvanya A Ligi | Dziugas Telsia - Suduva | live | -
+- 2026-08-17 19:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Anwar - Al Ahli (Cidde) | live | -
+- 2026-08-17 19:00 | İtalya Kupa 1.Tur | Pisa - Empoli | live | -
+- 2026-08-17 19:00 | Bulgaristan 1.Lig | Spartak Varna - Septemvri Sofia | live | -
+- 2026-08-17 19:00 | Gürcistan Erovnuli Liga | Gagra - Spaeri | live | -
+- 2026-08-17 19:00 | Çek Cumhuriyeti FNL | Trinec - Usti Nad Labem | live | -
+- 2026-08-17 19:00 | Norveç 3.Lig Grup 3 | Brann Ii - Os Turn Fotball | live | -
+- 2026-08-17 19:00 | Norveç 3.Lig Grup 4 | Viking B - Madla | live | -
+- 2026-08-17 19:00 | Norveç 3.Lig Grup 4 | Staal Jorpelan - Haugesund Ii | live | -
+- 2026-08-17 19:00 | Norveç 3.Lig Grup 4 | Varhaug - Stabaek 2 | live | -
+- 2026-08-17 19:00 | Norveç 3.Lig Grup 6 | Fram Larvik - Sarpsborg 08 Ii | live | -
+- 2026-08-17 19:00 | Norveç 3.Lig Grup 6 | Ff Lillehammer - Lyn Oslo B | live | -
+- 2026-08-17 19:00 | Malta Premier Lig Açılış | Birkirkara - Gzira United | live | -
+- 2026-08-17 19:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Asane Ii | live | -
+- 2026-08-17 19:00 | Uganda Süper 8 Beşincilik Maçı | Bul - Entebbe Uppc | live | -
 
 ## Biten Maclar
 Biten mac yok.
