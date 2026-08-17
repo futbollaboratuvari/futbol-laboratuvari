@@ -1,27 +1,25 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-<<<<<<< Updated upstream
-- Güncelleme: 2026-08-17T19:44:16.719Z
-=======
-- Güncelleme: 2026-08-17T19:44:31.156Z
->>>>>>> Stashed changes
-- Ham maç sayısı: 39
-- Yarın bülteni maç sayısı: 8
-- Detay blok sayısı: 107
-- Aktif bülten maçı: 9
-- Bültenden düşürülen maç: 30
+- Kaynak: Güncel veri bekleniyor
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-08-17T19:48:46.001Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Lanus - Independiente | Arjantin Premier Lig 2. Aşama | 23:00 | Veri bekleniyor | - | 1.86 | 8 |
-| Velez Sarsfiel - Defensa Justici | Arjantin Premier Lig 2. Aşama | 01:15 | Veri bekleniyor | - | 1.64 | 8 |
-| Internacional - Remo | Brezilya Serie A | 02:00 | Veri bekleniyor | - | 1.33 | 7 |
-| Depor Macara - Univ Catolica ( | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 3.32 | 8 |
-| Gimnasia Mendo - Talleres | Arjantin Premier Lig 2. Aşama | 03:30 | Veri bekleniyor | - | 2.82 | 8 |
-| Palestino - Huachipato | Şili Premier Lig | 03:30 | Veri bekleniyor | - | 1.51 | 8 |
-| Necaxa - Club Leon | Meksika Liga MX Apertura | 04:00 | Veri bekleniyor | - | 2.28 | 8 |
-| Pachuca - Puebla | Meksika Liga MX Apertura | 06:00 | Veri bekleniyor | - | 1.34 | 7 |
-| Pachuca - Puebla | Meksika Liga MX Apertura | 06:06 | Veri bekleniyor | - | 1.34 | 7 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
