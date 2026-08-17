@@ -1,11 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
+<<<<<<< Updated upstream
 Oluşturma: 17.08.2026 14:43:43
+=======
+Oluşturma: 17.08.2026 14:45:14
+>>>>>>> Stashed changes
 
 ## Özet
 
-- Toplam tahmin: 30
-- Bekleyen tahmin: 30
+- Toplam tahmin: 31
+- Bekleyen tahmin: 31
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 22
@@ -20,12 +24,13 @@ Oluşturma: 17.08.2026 14:43:43
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-17 | Portekiz 2.Lig | Felgueiras 193 - Avs | MS 2 | pending | 40/100
 - 2026-08-17 | Uganda Süper 8 Beşincilik Maçı | Bul - Entebbe Uppc | MS X | pending | 40/100
 - 2026-08-17 | İtalya Kupa 1.Tur | Sassuolo - Cesena | MS 2 | pending | 85/100
 - 2026-08-17 | Rusya FNL | Spartak Kostro - Ufa | MS 2 | pending | 50/100
@@ -40,5 +45,4 @@ Oluşturma: 17.08.2026 14:43:43
 - 2026-08-17 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | MS 2 | pending | 50/100
 - 2026-08-17 | Türkiye Süper Lig | Samsunspor - Göztepe | MS X | pending | 40/100
 - 2026-08-17 | Malta Premier Lig Açılış | Hamrun - Mosta Fc | MS X | pending | 85/100
-- 2026-08-17 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | MS 2 | pending | 60/100
 
