@@ -1,13 +1,13 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-17T10:55:38.122Z
-- Ham fixture sayisi: 7372
-- Bugun/yarin kaynak mac: 115
+- Guncelleme: 2026-08-17T12:23:30.651Z
+- Ham fixture sayisi: 7373
+- Bugun/yarin kaynak mac: 116
 - Aktif bulten maci: 75
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 40
+- Bultenden dusurulen mac: 41
 
-- 1. 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | scheduled
+- 1. 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Maroons - Police | scheduled
 - 2. 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | scheduled
 - 3. 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Police - Maroons | scheduled
 - 4. 2026-08-17 18:00 | Letonya Kupa Çeyrek Final | Auda - Grobina | scheduled
