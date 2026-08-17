@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-17T06:39:58.271Z
+- Güncelleme: 2026-08-17T06:44:06.808Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -66,8 +66,8 @@
 | Arda Kardzhali VS Lokomotiv Sofia | Bulgaristan 1.Lig | 21:15 | MS 2 | 4.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Samsunspor VS Göztepe | Türkiye Süper Lig | 21:30 | MS 2 | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fc Steaua VS Botosani | Romanya 1.Lig | 21:30 | MS 2 | 5.06 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Hamrun VS Mosta Fc | Malta Premier Lig Açılış | 21:30 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Batman Petrol VS Boluspor | Türkiye TFF 1. Lig | 21:30 | MS 2 | 4.48 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Hamrun VS Mosta Fc | Malta Premier Lig Açılış | 21:30 | MS X | 5.80 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Batman Petrol VS Boluspor | Türkiye TFF 1. Lig | 21:30 | MS 2 | 4.33 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Cremonese VS Sampdoria | İtalya Kupa 1.Tur | 21:45 | MS 2 | 3.44 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | D.La Coruna VS Elche | İspanya LaLiga | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Cardiff VS Wrexham | İngiltere Championship | 22:00 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -89,6 +89,7 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Hamrun VS Mosta Fc | MS X | 5.80 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Sassuolo VS Cesena | MS 2 | 5.13 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Polessya VS Zoria Luhansk | MS 2 | 5.42 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | De Graafschap VS Jong Az Alkmaar | MS X | 3.80 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
@@ -96,9 +97,10 @@
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Sassuolo VS Cesena + Polessya VS Zoria Luhansk | MS 2 + MS 2 | 27.80 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Hamrun VS Mosta Fc + Sassuolo VS Cesena | MS X + MS 2 | 29.75 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Polessya VS Zoria Luhansk + De Graafschap VS Jong Az Alkmaar | MS 2 + MS X | 20.60 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Sassuolo VS Cesena + Polessya VS Zoria Luhansk + De Graafschap VS Jong Az Alkmaar | MS 2 + MS 2 + MS X | 105.66 | 77 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Hamrun VS Mosta Fc + Sassuolo VS Cesena + Polessya VS Zoria Luhansk | MS X + MS 2 + MS 2 | 161.27 | 82 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
