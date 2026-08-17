@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T17:34:35.905574+00:00
+Tarih: 2026-08-17T17:52:43.017246+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 29
+- Kac mac bulundu: 35
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 29
+- Kac mac zaten vardi: 35
 - Ham veri havuzu toplam mac sayisi: 7415
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
@@ -17,9 +17,12 @@ Tarih: 2026-08-17T17:34:35.905574+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belçika Challenger Pro Lig
+- Brezilya Serie A
 - Bulgaristan 1.Lig
+- Ekvador Pro Lig
 - Hollanda Eerste Divisie
 - Malta Premier Lig Açılış
+- Meksika Liga MX Apertura
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Suudi Arabistan Kral Kupası Son 32 Turu
@@ -32,6 +35,7 @@ Tarih: 2026-08-17T17:34:35.905574+00:00
 - İtalya Kupa 1.Tur
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -113,15 +117,15 @@ Tarih: 2026-08-17T17:34:35.905574+00:00
 | 17.08.2026 | 21:45 | İtalya Kupa 1.Tur | Cremonese | Sampdoria | 29310 | 5 |
 | 17.08.2026 | 22:15 | İtalya Kupa 1.Tur | Palermo | Lecce | 29418 | 5 |
 | 17.08.2026 | 21:00 | Hollanda Eerste Divisie | Ajax (B) | Emmen | 38281 | 5 |
-| 17.08.2026 | 21:00 | Hollanda Eerste Divisie | De Graafschap | Jong Az Alkmaar | 38223 | 5 |
 | 17.08.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Vitesse | 38335 | 5 |
+| 17.08.2026 | 21:00 | Hollanda Eerste Divisie | De Graafschap | Jong Az Alkmaar | 38223 | 5 |
 | 17.08.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Vojvodina | 33693 | 5 |
+| 18.08.2026 | 02:00 | Brezilya Serie A | Internacional | Remo | 38544 | 5 |
 | 17.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Lanus | Independiente | 34501 | 5 |
-| 17.08.2026 | 20:45 | Arjantin Premier Lig 2. Aşama | Rio Cuarto | Atletico Tucuma | 34426 | 5 |
-| 17.08.2026 | 21:15 | Bulgaristan 1.Lig | Arda Kardzhali | Lokomotiv Sofia | 38441 | 5 |
-| 17.08.2026 | 21:00 | Belçika Challenger Pro Lig | Rfc Liege | Francs Borains | 38391 | 5 |
-| 17.08.2026 | 21:30 | Romanya 1.Lig | Fc Steaua | Botosani | 38469 | 5 |
-| 17.08.2026 | 21:00 | Arjantin Ulusal Primera Lig | All Boys | Nueva Chicago | 34484 | 3 |
+| 18.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo | Talleres | 34705 | 5 |
+| 18.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Defensa Justici | 34584 | 5 |
+| 18.08.2026 | 04:00 | Meksika Liga MX Apertura | Necaxa | Club Leon | 38636 | 5 |
+| 18.08.2026 | 06:06 | Meksika Liga MX Apertura | Pachuca | Puebla | 38678 | 5 |
 
 ## Sonuc
 
