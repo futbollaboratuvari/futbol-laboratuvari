@@ -1,13 +1,13 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T21:48:26.227227+00:00
+Tarih: 2026-08-17T22:03:08.281336+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 102
-- Kac mac kaydedildi: 12
+- Kac mac bulundu: 90
+- Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 90
 - Ham veri havuzu toplam mac sayisi: 7517
 - Hedef tarih: 18.08.2026 Europe/Istanbul
@@ -17,12 +17,6 @@ Tarih: 2026-08-17T21:48:26.227227+00:00
 - AFF Şampiyonası Yarı Final
 - Arjantin Kupa Son 16 Turu
 - Avustralya FFA Kupası Çeyrek Final
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -128,7 +122,7 @@ Tarih: 2026-08-17T21:48:26.227227+00:00
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe | Lyon | 09814 | 5 |
 | 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Akhdoud | Al Khaleej | 05354 | 5 |
 | 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Najma | Al Ittihad (Cid | 04802 | 3 |
-| 18.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah | Al Nassr (Riyad | 04733 | 3 |
+| 18.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah | Al Nassr (Riyad | 04733 | 5 |
 | 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain | Al Ettifaq | 04797 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Aston Villa U21 | 05995 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup E | Stockport | Everton (B) | 08963 | 5 |
@@ -139,10 +133,10 @@ Tarih: 2026-08-17T21:48:26.227227+00:00
 | 18.08.2026 | 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) | (1) Singapur | 09195 | 5 |
 | 18.08.2026 | 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders | Sydney | 10475 | 3 |
 | 18.08.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh | Beijing Guoan | 18481 | 5 |
-| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
-| 19.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) | (3) Boca Juniors | 10128 | 5 |
+| 18.08.2026 | 23:00 | Arjantin Kupa Son 16 Turu | Riestra | Gimnasia La Pla | 09193 | 3 |
+| 18.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Orenburg | 05603 | 5 |
+| 18.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny | Fakel Voronezh | 05696 | 5 |
+| 18.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova | Akron | 05152 | 5 |
 
 ## Sonuc
 

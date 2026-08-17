@@ -1,38 +1,27 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-17T21:48:42.197Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-08-17T22:02:18.711Z
+- Ham maç sayısı: 13
+- Yarın bülteni maç sayısı: 12
+- Detay blok sayısı: 37
+- Aktif bülten maçı: 13
+- Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Riestra VS Gimnasia La Pla | Arjantin Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Rivadavia (0) VS (0) Fluminense | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Deportivo Reco (1) VS (3) Boca Juniors | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Londrina VS Atletico Goiani | Brezilya Serie B | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Banfield VS Midland | Arjantin Kupa Son 16 Turu | 03:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Univ. Catolica (1) VS (1) Estudiantes Lp | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Deportes Tolim VS Indep. Jose Ter | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Sao Paulo (1) VS (1) Bolivar | Copa Sudamericana Son 16 Turu | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Nautico VS Ceara | Brezilya Serie B | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Goias VS Juventude | Brezilya Serie B | 03:35 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cs Cartagines VS Hankook Verdes | CONCACAF Orta Amerika Kupası Grup D | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Xelaju VS Diriangen | CONCACAF Orta Amerika Kupası Grup A | 06:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Real Esteli VS Herediano | CONCACAF Orta Amerika Kupası Grup B | 06:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Riestra - Gimnasia La Pla | Arjantin Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 3.05 | 6 |
+| Rivadavia (0) - (0) Fluminense | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 2.17 | 8 |
+| Deportivo Reco (1) - (3) Boca Juniors | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 4.67 | 8 |
+| Londrina - Atletico Goiani | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 2.4 | 8 |
+| Banfield - Midland | Arjantin Kupa Son 16 Turu | 03:15 | Veri bekleniyor | - | 1.65 | 8 |
+| Univ. Catolica (1) - (1) Estudiantes Lp | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 2.35 | 8 |
+| Deportes Tolim - Indep. Jose Ter | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 2.63 | 8 |
+| Sao Paulo (1) - (1) Bolivar | Copa Sudamericana Son 16 Turu | 03:30 | Veri bekleniyor | - | 1.25 | 7 |
+| Nautico - Ceara | Brezilya Serie B | 03:30 | Veri bekleniyor | - | 1.9 | 8 |
+| Goias - Juventude | Brezilya Serie B | 03:35 | Veri bekleniyor | - | 2.06 | 8 |
+| Cs Cartagines - Hankook Verdes | CONCACAF Orta Amerika Kupası Grup D | 04:00 | Veri bekleniyor | - | - | 3 |
+| Xelaju - Diriangen | CONCACAF Orta Amerika Kupası Grup A | 06:00 | Veri bekleniyor | - | 1.51 | 8 |
+| Real Esteli - Herediano | CONCACAF Orta Amerika Kupası Grup B | 06:00 | Veri bekleniyor | - | 1.93 | 8 |
