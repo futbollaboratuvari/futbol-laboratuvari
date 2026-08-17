@@ -1,15 +1,27 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-17T23:00:15.754386+00:00
+=======
+Tarih: 2026-08-17T23:04:14.964545+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
+<<<<<<< Updated upstream
 - Durum: success
 - Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 7518
+=======
+- Durum: error
+- Kac mac bulundu: 90
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
+>>>>>>> Stashed changes
 - Hedef tarih: 18.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -80,6 +92,7 @@ Tarih: 2026-08-17T23:00:15.754386+00:00
 
 ## Hatalar
 
+<<<<<<< Updated upstream
 - Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
 Call log:
   - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
@@ -224,6 +237,10 @@ Call log:
 Call log:
   - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(39)
 
+=======
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+>>>>>>> Stashed changes
 
 ## Ornek Maclar
 
@@ -231,4 +248,4 @@ Call log:
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
