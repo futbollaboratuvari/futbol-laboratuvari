@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.08.2026 18:06:47
+Oluşturma: 17.08.2026 18:15:41
 
 ## Özet
 
-- Toplam tahmin: 30
-- Bekleyen tahmin: 30
+- Toplam tahmin: 31
+- Bekleyen tahmin: 31
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 22
+- Lig sayısı: 23
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 17.08.2026 18:06:47
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-17 | Ukrayna Premier Lig | Polessya - Zoria Luhansk | MS 2 | pending | 75/100
 - 2026-08-17 | İzlanda 1.Lig | Völsungur - Vestri | MS X | pending | 50/100
 - 2026-08-17 | Romanya 1.Lig | Fc Steaua - Botosani | MS 2 | pending | 75/100
 - 2026-08-17 | Hollanda Eerste Divisie | Ajax (B) - Emmen | MS X | pending | 70/100
@@ -40,5 +41,4 @@ Oluşturma: 17.08.2026 18:06:47
 - 2026-08-17 | İtalya Kupa 1.Tur | Palermo - Lecce | MS X | pending | 40/100
 - 2026-08-17 | Romanya 1.Lig | Universitatea - Uta Arad | MS 2 | pending | 40/100
 - 2026-08-17 | Litvanya A Ligi | Dziugas Telsia - Suduva | MS 1 | pending | 40/100
-- 2026-08-17 | İtalya Kupa 1.Tur | Pisa - Empoli | MS 2 | pending | 50/100
 
