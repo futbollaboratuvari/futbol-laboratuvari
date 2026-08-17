@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 97
+Ham mac: 111
 Aktif mac: 77
-Canli mac: 20
-Biten mac: 0
-Bultenden dusurulen mac: 20
+Canli mac: 16
+Biten mac: 18
+Bultenden dusurulen mac: 34
 Bugun: 70
 Yarin: 7
 
@@ -90,10 +90,6 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 01:00 | ABD MLS | Chicago - Portland | live | -
-- 2026-08-17 01:00 | ABD MLS | New York City - Philadelphia | live | -
-- 2026-08-17 01:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Inter San Carlo | live | -
-- 2026-08-17 01:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Firpo | live | -
 - 2026-08-17 01:30 | Brezilya Serie A | Corinthians - Cruzeiro | live | -
 - 2026-08-17 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Zamora | live | -
 - 2026-08-17 01:30 | ABD USL Lig 1 | Portland Heart - Forward Madison | live | -
@@ -112,4 +108,21 @@ Yarin: 7
 - 2026-08-17 03:30 | ABD MLS | Austin - Dallas | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | finished | -
+- 2026-08-17 00:00 | Venezuela Premier Lig Clausura | Depor Tachira - Monagas | finished | -
+- 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | Atl Temperley - Los Andes | finished | -
+- 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | finished | -
+- 2026-08-17 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Aurora | finished | -
+- 2026-08-17 00:00 | Honduras Ulusal Lig Apertura | Choloma - Marathon | finished | -
+- 2026-08-17 00:15 | Ekvador Pro Lig | Emelec - T.Universitario | finished | -
+- 2026-08-17 00:15 | Bolivya Premier Lig | Nacional Potos - Academia Del Ba | finished | -
+- 2026-08-17 00:30 | Brezilya Serie A | Vitoria Bahia - Botafogo | finished | -
+- 2026-08-17 00:30 | Brezilya Serie A | Mirassol - Flamengo | finished | -
+- 2026-08-17 00:30 | Şili Premier Lig | Colo Colo - O Higgins | finished | -
+- 2026-08-17 00:30 | Brezilya Serie B | America Mineir - Athletic Club | finished | -
+- 2026-08-17 00:30 | Brezilya Serie B | Regatas - Novorizontino | finished | -
+- 2026-08-17 00:30 | Uruguay Premier Lig Clausura | Penarol - Central Espanol | finished | -
+- 2026-08-17 01:00 | ABD MLS | Chicago - Portland | finished | -
+- 2026-08-17 01:00 | ABD MLS | New York City - Philadelphia | finished | -
+- 2026-08-17 01:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Inter San Carlo | finished | -
+- 2026-08-17 01:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Firpo | finished | -

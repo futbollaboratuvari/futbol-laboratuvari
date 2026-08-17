@@ -4,17 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-17T00:33:37.052Z
+- Güncelleme: 2026-08-17T00:41:13.083Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chicago VS Portland | ABD MLS | 01:00 | MS 2 | 4.58 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | live |
-| New York City VS Philadelphia | ABD MLS | 01:00 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Perez Zeledon VS Inter San Carlo | Kosta Rika Premier Lig Apertura | 01:00 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Inca-Aruba VS Firpo | El Salvador Primera Lig Apertura | 01:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Corinthians VS Cruzeiro | Brezilya Serie A | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Deportivo La G VS Zamora | Venezuela Premier Lig Clausura | 01:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Portland Heart VS Forward Madison | ABD USL Lig 1 | 01:30 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -46,7 +42,7 @@
 | Auda VS Grobina | Letonya Kupa Çeyrek Final | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Qarabagh VS Keshla | Azerbaycan Premier Lig | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Zalaegerszeg VS Ferencvaros | Macaristan NB I | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Universitatea VS Uta Arad | Romanya 1.Lig | 18:30 | MS 2 | 3.17 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Universitatea VS Uta Arad | Romanya 1.Lig | 18:30 | MS 2 | 3.23 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Dziugas Telsia VS Suduva | Litvanya A Ligi | 18:45 | MS 1 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Anwar VS Al Ahli (Cidde) | Suudi Arabistan Kral Kupası Son 32 Turu | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Pisa VS Empoli | İtalya Kupa 1.Tur | 19:00 | MS 2 | 3.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -91,7 +87,7 @@
 | Samsunspor VS Göztepe | Türkiye Süper Lig | 21:30 | MS 2 | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fc Steaua VS Botosani | Romanya 1.Lig | 21:30 | MS 2 | 4.88 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Hamrun VS Mosta Fc | Malta Premier Lig Açılış | 21:30 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Cremonese VS Sampdoria | İtalya Kupa 1.Tur | 21:45 | MS 2 | 3.52 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cremonese VS Sampdoria | İtalya Kupa 1.Tur | 21:45 | MS 2 | 3.53 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | D.La Coruna VS Elche | İspanya LaLiga | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Cardiff VS Wrexham | İngiltere Championship | 22:00 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Casa Pia VS Benfica | Portekiz Premier Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -112,7 +108,6 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chicago VS Portland | MS 2 | 4.58 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Sassuolo VS Cesena | MS 2 | 5.13 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Polessya VS Zoria Luhansk | MS 2 | 5.42 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | De Graafschap VS Jong Az Alkmaar | MS X | 3.80 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
@@ -120,10 +115,9 @@
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chicago VS Portland + Sassuolo VS Cesena | MS 2 + MS 2 | 23.50 | 90 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Polessya VS Zoria Luhansk + De Graafschap VS Jong Az Alkmaar | MS 2 + MS X | 20.60 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Sassuolo VS Cesena + Polessya VS Zoria Luhansk | MS 2 + MS 2 | 27.80 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Chicago VS Portland + Sassuolo VS Cesena + Polessya VS Zoria Luhansk | MS 2 + MS 2 + MS 2 | 127.35 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Sassuolo VS Cesena + Polessya VS Zoria Luhansk + De Graafschap VS Jong Az Alkmaar | MS 2 + MS 2 + MS X | 105.66 | 77 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-16T22:12:03.849Z
+- Guncelleme: 2026-08-17T00:40:05.505Z
 - Ham fixture sayisi: 7368
 - Bugun/yarin kaynak mac: 111
-- Aktif bulten maci: 93
+- Aktif bulten maci: 77
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 18
+- Bultenden dusurulen mac: 34
 
-- 1. 2026-08-17 01:30 | Brezilya Serie A | Corinthians - Cruzeiro | scheduled
-- 2. 2026-08-17 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Zamora | scheduled
-- 3. 2026-08-17 01:30 | ABD USL Lig 1 | Portland Heart - Forward Madison | scheduled
-- 4. 2026-08-17 02:00 | Venezuela Premier Lig Clausura | Carabobo - Metropolitanos | scheduled
-- 5. 2026-08-17 02:00 | Meksika Liga MX Apertura | Club America - Atletico San Lu | scheduled
-- 6. 2026-08-17 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Marquense | scheduled
-- 7. 2026-08-17 02:00 | ABD USL Lig 1 | Union Omaha - Richmond Kicker | scheduled
-- 8. 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Barracas - Rosario Central | scheduled
-- 9. 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Instituto Cordo | scheduled
-- 10. 2026-08-17 02:15 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Depor Motagua | scheduled
-- 11. 2026-08-17 02:30 | Peru Premier Lig Clausura | Cienciano - Deportivo Garci | scheduled
-- 12. 2026-08-17 02:30 | Bolivya Premier Lig | Independiente - Gualberto Villa | scheduled
-- 13. 2026-08-17 03:00 | Ekvador Pro Lig | Aucas - Ldu Quito | scheduled
-- 14. 2026-08-17 03:00 | El Salvador Primera Lig Apertura | Platense - Deportivo Fas | scheduled
-- 15. 2026-08-17 03:00 | Nikaragua Premier Lig Apertura | Unan Managua - Jalapa | scheduled
+- 1. 2026-08-17 04:10 | Meksika Liga MX Apertura | Santos Laguna - Guadalajara | scheduled
+- 2. 2026-08-17 04:30 | Honduras Ulusal Lig Apertura | Olancho - Juticalpa | scheduled
+- 3. 2026-08-17 05:30 | ABD MLS | Seattle - Vancouver | scheduled
+- 4. 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | scheduled
+- 5. 2026-08-17 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Northcote City | scheduled
+- 6. 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | scheduled
+- 7. 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | scheduled
+- 8. 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | scheduled
+- 9. 2026-08-17 18:00 | Letonya Kupa Çeyrek Final | Auda - Grobina | scheduled
+- 10. 2026-08-17 18:00 | Litvanya A Ligi | Fa Siauliai - Fk Panevezys | scheduled
+- 11. 2026-08-17 18:00 | Finlandiya Veikkausliiga | Gnistan - Ilves | scheduled
+- 12. 2026-08-17 18:00 | Ukrayna Premier Lig | Polessya - Zoria Luhansk | scheduled
+- 13. 2026-08-17 18:00 | Slovakya 2.Lig | Slovan Bratisl - Humenne | scheduled
+- 14. 2026-08-17 18:30 | Azerbaycan Premier Lig | Qarabagh - Keshla | scheduled
+- 15. 2026-08-17 18:30 | Romanya 1.Lig | Universitatea - Uta Arad | scheduled
