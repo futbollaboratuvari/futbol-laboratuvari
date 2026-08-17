@@ -2,19 +2,19 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 113
+Ham mac: 114
 Aktif mac: 75
-Canli mac: 0
+Canli mac: 1
 Biten mac: 38
-Bultenden dusurulen mac: 38
+Bultenden dusurulen mac: 39
 Bugun: 68
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Northcote City | scheduled | -
 - 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | scheduled | -
 - 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | scheduled | -
 - 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | scheduled | -
+- 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Police - Maroons | scheduled | -
 - 2026-08-17 18:00 | Finlandiya Veikkausliiga | Gnistan - Ilves | scheduled | -
 - 2026-08-17 18:00 | Ukrayna Premier Lig | Polessya - Zoria Luhansk | scheduled | -
 - 2026-08-17 18:00 | Litvanya A Ligi | Fa Siauliai - Fk Panevezys | scheduled | -
@@ -88,7 +88,7 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-17 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Northcote City | live | -
 
 ## Biten Maclar
 - 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | finished | -

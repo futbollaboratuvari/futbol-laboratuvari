@@ -1,16 +1,16 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-17T09:56:34.757Z
-- Ham fixture sayisi: 7370
-- Bugun/yarin kaynak mac: 113
+- Guncelleme: 2026-08-17T10:22:57.634Z
+- Ham fixture sayisi: 7371
+- Bugun/yarin kaynak mac: 114
 - Aktif bulten maci: 75
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 38
+- Bultenden dusurulen mac: 39
 
-- 1. 2026-08-17 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Northcote City | scheduled
-- 2. 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | scheduled
-- 3. 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | scheduled
-- 4. 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | scheduled
+- 1. 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | scheduled
+- 2. 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | scheduled
+- 3. 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | scheduled
+- 4. 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Police - Maroons | scheduled
 - 5. 2026-08-17 18:00 | Letonya Kupa Çeyrek Final | Auda - Grobina | scheduled
 - 6. 2026-08-17 18:00 | Litvanya A Ligi | Fa Siauliai - Fk Panevezys | scheduled
 - 7. 2026-08-17 18:00 | Finlandiya Veikkausliiga | Gnistan - Ilves | scheduled
