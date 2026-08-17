@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-17T14:51:20.501Z
+- Güncelleme: 2026-08-17T14:53:27.313Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -58,7 +58,7 @@
 | Utrecht (Ii) VS Vitesse | Hollanda Eerste Divisie | 21:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ajax (B) VS Emmen | Hollanda Eerste Divisie | 21:00 | MS X | 3.26 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Novi Pazar VS Vojvodina | Sırbistan Süper Lig | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Rfc Liege VS Francs Borains | Belçika Challenger Pro Lig | 21:00 | MS 2 | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rfc Liege VS Francs Borains | Belçika Challenger Pro Lig | 21:00 | MS 2 | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | All Boys VS Nueva Chicago | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Valur VS Ka Akureyri | İzlanda Urvalsdeild | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Völsungur VS Vestri | İzlanda 1.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -67,11 +67,11 @@
 | Leiknir Reykja VS Aegir | İzlanda 1.Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Arda Kardzhali VS Lokomotiv Sofia | Bulgaristan 1.Lig | 21:15 | MS 2 | 4.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Samsunspor VS Göztepe | Türkiye Süper Lig | 21:30 | MS X | 2.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Fc Steaua VS Botosani | Romanya 1.Lig | 21:30 | MS 2 | 5.08 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Hamrun VS Mosta Fc | Malta Premier Lig Açılış | 21:30 | MS X | 5.70 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Fc Steaua VS Botosani | Romanya 1.Lig | 21:30 | MS 2 | 4.90 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Hamrun VS Mosta Fc | Malta Premier Lig Açılış | 21:30 | MS X | 5.50 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Batman Petrol VS Boluspor | Türkiye TFF 1. Lig | 21:30 | MS 2 | 4.32 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Cremonese VS Sampdoria | İtalya Kupa 1.Tur | 21:45 | MS 2 | 3.44 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| D.La Coruna VS Elche | İspanya LaLiga | 22:00 | MS 2 | 3.24 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| D.La Coruna VS Elche | İspanya LaLiga | 22:00 | MS 2 | 3.29 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cardiff VS Wrexham | İngiltere Championship | 22:00 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Casa Pia VS Benfica | Portekiz Premier Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Palermo VS Lecce | İtalya Kupa 1.Tur | 22:15 | MS X | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -91,9 +91,9 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hamrun VS Mosta Fc | MS X | 5.70 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Hamrun VS Mosta Fc | MS X | 5.50 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Internacional VS Remo | MS 2 | 5.61 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Fc Steaua VS Botosani | MS 2 | 5.08 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Fc Steaua VS Botosani | MS 2 | 4.90 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Pachuca VS Puebla | MS 2 | 4.85 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | De Graafschap VS Jong Az Alkmaar | MS X | 3.82 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Ajax (B) VS Emmen | MS X | 3.26 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
@@ -101,12 +101,12 @@
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hamrun VS Mosta Fc + Internacional VS Remo | MS X + MS 2 | 31.98 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Fc Steaua VS Botosani + Pachuca VS Puebla | MS 2 + MS 2 | 24.64 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Hamrun VS Mosta Fc + Internacional VS Remo | MS X + MS 2 | 30.86 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Fc Steaua VS Botosani + Pachuca VS Puebla | MS 2 + MS 2 | 23.77 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | De Graafschap VS Jong Az Alkmaar + Ajax (B) VS Emmen | MS X + MS X | 12.45 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hamrun VS Mosta Fc + Internacional VS Remo + Fc Steaua VS Botosani | MS X + MS 2 + MS 2 | 162.44 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Hamrun VS Mosta Fc + Internacional VS Remo + Fc Steaua VS Botosani | MS X + MS 2 + MS 2 | 151.19 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
 | Pachuca VS Puebla + De Graafschap VS Jong Az Alkmaar + Ajax (B) VS Emmen | MS 2 + MS X + MS X | 60.40 | 72 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
