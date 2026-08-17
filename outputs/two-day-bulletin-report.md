@@ -3,20 +3,14 @@
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
 Ham mac: 118
-Aktif mac: 15
+Aktif mac: 9
 Canli mac: 30
-Biten mac: 73
-Bultenden dusurulen mac: 103
-Bugun: 7
+Biten mac: 79
+Bultenden dusurulen mac: 109
+Bugun: 1
 Yarin: 8
 
 ## Baslamamis Maclar
-- 2026-08-17 22:15 | Portekiz Premier Lig | Casa Pia - Benfica | scheduled | -
-- 2026-08-17 22:15 | İtalya Kupa 1.Tur | Palermo - Lecce | scheduled | -
-- 2026-08-17 22:15 | İzlanda Urvalsdeild | Fram - Stjarnan | scheduled | -
-- 2026-08-17 22:15 | İzlanda 1.Lig | Throttur - Fylkir | scheduled | -
-- 2026-08-17 22:15 | İzlanda 1.Lig | Afturelding - Hk Kopavogur | scheduled | -
-- 2026-08-17 22:30 | İspanya 2.Lig | Almeria - Eldense | scheduled | -
 - 2026-08-17 23:00 | Arjantin Premier Lig 2. Aşama | Lanus - Independiente | scheduled | -
 - 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | scheduled | -
 - 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | scheduled | -
@@ -28,12 +22,6 @@ Yarin: 8
 - 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 20:00 | İspanya 2.Lig | Sporting Gijon - Sabadell | live | -
-- 2026-08-17 20:00 | Danimarka Süperlig | Brondby - Sonderjyske | live | -
-- 2026-08-17 20:00 | İsveç Allsvenskan | Hacken - Halmstads | live | -
-- 2026-08-17 20:00 | Portekiz 2.Lig | Felgueiras 193 - Avs | live | -
-- 2026-08-17 20:00 | Polonya 1.Lig | Arka Gdynia - Puszcza Niepolo | live | -
-- 2026-08-17 20:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Nordstrand | live | -
 - 2026-08-17 20:30 | İsveç 2.Lig Norra Götaland | Vanersborgs If - Vanersborgs Fk | live | -
 - 2026-08-17 20:30 | Faroe Adaları Master Lig | Ab Argir - Kí Klaksvík | live | -
 - 2026-08-17 20:45 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Atletico Tucuma | live | -
@@ -58,6 +46,12 @@ Yarin: 8
 - 2026-08-17 21:45 | İtalya Kupa 1.Tur | Cremonese - Sampdoria | live | -
 - 2026-08-17 22:00 | İspanya LaLiga | D.La Coruna - Elche | live | -
 - 2026-08-17 22:00 | İngiltere Championship | Cardiff - Wrexham | live | -
+- 2026-08-17 22:15 | Portekiz Premier Lig | Casa Pia - Benfica | live | -
+- 2026-08-17 22:15 | İtalya Kupa 1.Tur | Palermo - Lecce | live | -
+- 2026-08-17 22:15 | İzlanda Urvalsdeild | Fram - Stjarnan | live | -
+- 2026-08-17 22:15 | İzlanda 1.Lig | Throttur - Fylkir | live | -
+- 2026-08-17 22:15 | İzlanda 1.Lig | Afturelding - Hk Kopavogur | live | -
+- 2026-08-17 22:30 | İspanya 2.Lig | Almeria - Eldense | live | -
 
 ## Biten Maclar
 - 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | finished | -
@@ -133,3 +127,9 @@ Yarin: 8
 - 2026-08-17 19:30 | İtalya Kupa 1.Tur | Sassuolo - Cesena | finished | -
 - 2026-08-17 19:30 | Rusya FNL | Spartak Kostro - Ufa | finished | -
 - 2026-08-17 19:30 | Norveç 3.Lig Grup 2 | Kvik Trond - Aalesund B | finished | -
+- 2026-08-17 20:00 | İspanya 2.Lig | Sporting Gijon - Sabadell | finished | -
+- 2026-08-17 20:00 | Danimarka Süperlig | Brondby - Sonderjyske | finished | -
+- 2026-08-17 20:00 | İsveç Allsvenskan | Hacken - Halmstads | finished | -
+- 2026-08-17 20:00 | Portekiz 2.Lig | Felgueiras 193 - Avs | finished | -
+- 2026-08-17 20:00 | Polonya 1.Lig | Arka Gdynia - Puszcza Niepolo | finished | -
+- 2026-08-17 20:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Nordstrand | finished | -

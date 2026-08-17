@@ -4,19 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-17T19:07:09.373Z
+- Güncelleme: 2026-08-17T19:40:14.000Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Sporting Gijon VS Sabadell | İspanya 2.Lig | 20:00 | MS 2 | 3.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Brondby VS Sonderjyske | Danimarka Süperlig | 20:00 | MS 2 | 6.43 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | live |
-| Hacken VS Halmstads | İsveç Allsvenskan | 20:00 | MS 2 | 6.60 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Felgueiras 193 VS Avs | Portekiz 2.Lig | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Arka Gdynia VS Puszcza Niepolo | Polonya 1.Lig | 20:00 | MS 2 | 3.33 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Kfum Ii VS Nordstrand | Norveç 3.Lig Grup 1 | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Vanersborgs If VS Vanersborgs Fk | İsveç 2.Lig Norra Götaland | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ab Argir VS Kí Klaksvík | Faroe Adaları Master Lig | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Rio Cuarto VS Atletico Tucuma | Arjantin Premier Lig 2. Aşama | 20:45 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -42,11 +36,11 @@
 | D.La Coruna VS Elche | İspanya LaLiga | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Cardiff VS Wrexham | İngiltere Championship | 22:00 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Casa Pia VS Benfica | Portekiz Premier Lig | 22:15 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Palermo VS Lecce | İtalya Kupa 1.Tur | 22:15 | MS X | 3.01 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Palermo VS Lecce | İtalya Kupa 1.Tur | 22:15 | MS X | 3.01 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Fram VS Stjarnan | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Throttur VS Fylkir | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Afturelding VS Hk Kopavogur | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Almeria VS Eldense | İspanya 2.Lig | 22:30 | MS 2 | 5.73 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Almeria VS Eldense | İspanya 2.Lig | 22:30 | MS 2 | 5.73 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
 | Lanus VS Independiente | Arjantin Premier Lig 2. Aşama | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Velez Sarsfiel VS Defensa Justici | Arjantin Premier Lig 2. Aşama | 01:15 | MS 2 | 4.25 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Internacional VS Remo | Brezilya Serie A | 02:00 | MS 2 | 5.79 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
@@ -60,22 +54,22 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Brondby VS Sonderjyske | MS 2 | 6.43 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Internacional VS Remo | MS 2 | 5.79 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Almeria VS Eldense | MS 2 | 5.73 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Batman Petrol VS Boluspor | MS 2 | 5.69 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Pachuca VS Puebla | MS 2 | 5.06 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Fc Steaua VS Botosani | MS 2 | 4.90 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| De Graafschap VS Jong Az Alkmaar | MS X | 3.61 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Brondby VS Sonderjyske + Internacional VS Remo | MS 2 + MS 2 | 37.23 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Almeria VS Eldense + Batman Petrol VS Boluspor | MS 2 + MS 2 | 32.60 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Pachuca VS Puebla + Fc Steaua VS Botosani | MS 2 + MS 2 | 24.79 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Internacional VS Remo + Almeria VS Eldense | MS 2 + MS 2 | 33.18 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Batman Petrol VS Boluspor + Pachuca VS Puebla | MS 2 + MS 2 | 28.79 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Fc Steaua VS Botosani + De Graafschap VS Jong Az Alkmaar | MS 2 + MS X | 17.69 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Brondby VS Sonderjyske + Internacional VS Remo + Almeria VS Eldense | MS 2 + MS 2 + MS 2 | 213.33 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Batman Petrol VS Boluspor + Pachuca VS Puebla + Fc Steaua VS Botosani | MS 2 + MS 2 + MS 2 | 141.08 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Internacional VS Remo + Almeria VS Eldense + Batman Petrol VS Boluspor | MS 2 + MS 2 + MS 2 | 188.78 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Pachuca VS Puebla + Fc Steaua VS Botosani + De Graafschap VS Jong Az Alkmaar | MS 2 + MS 2 + MS X | 89.51 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

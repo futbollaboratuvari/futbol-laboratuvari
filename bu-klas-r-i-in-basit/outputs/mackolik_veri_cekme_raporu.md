@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T19:06:45.804694+00:00
+Tarih: 2026-08-17T19:39:55.924816+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 14
+- Kac mac bulundu: 8
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 14
+- Kac mac zaten vardi: 8
 - Ham veri havuzu toplam mac sayisi: 7415
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
@@ -18,11 +18,6 @@ Tarih: 2026-08-17T19:06:45.804694+00:00
 - Brezilya Serie A
 - Ekvador Pro Lig
 - Meksika Liga MX Apertura
-- Portekiz Premier Lig
-- İspanya 2.Lig
-- İtalya Kupa 1.Tur
-- İzlanda 1.Lig
-- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -80,8 +75,8 @@ Tarih: 2026-08-17T19:06:45.804694+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 11
-- Acilan detay: 11
+- Denenen Tumu alani: 6
+- Acilan detay: 6
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -94,20 +89,14 @@ Tarih: 2026-08-17T19:06:45.804694+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 17.08.2026 | 22:15 | Portekiz Premier Lig | Casa Pia | Benfica | 34067 | 4 |
-| 17.08.2026 | 22:30 | İspanya 2.Lig | Almeria | Eldense | 26570 | 5 |
-| 17.08.2026 | 22:15 | İtalya Kupa 1.Tur | Palermo | Lecce | 29418 | 5 |
 | 18.08.2026 | 02:00 | Brezilya Serie A | Internacional | Remo | 38544 | 5 |
 | 17.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Lanus | Independiente | 34501 | 5 |
-| 18.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Defensa Justici | 34584 | 5 |
 | 18.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo | Talleres | 34705 | 5 |
-| 18.08.2026 | 04:00 | Meksika Liga MX Apertura | Necaxa | Club Leon | 38636 | 5 |
+| 18.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Defensa Justici | 34584 | 5 |
 | 18.08.2026 | 06:06 | Meksika Liga MX Apertura | Pachuca | Puebla | 38678 | 5 |
+| 18.08.2026 | 04:00 | Meksika Liga MX Apertura | Necaxa | Club Leon | 38636 | 5 |
 | 18.08.2026 | 03:30 | Şili Premier Lig | Palestino | Huachipato | 38619 | 5 |
-| 17.08.2026 | 22:15 | İzlanda Urvalsdeild | Fram | Stjarnan | 38525 | 3 |
 | 18.08.2026 | 03:00 | Ekvador Pro Lig | Depor Macara | Univ Catolica ( | 38602 | 5 |
-| 17.08.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Hk Kopavogur | 44630 | 3 |
-| 17.08.2026 | 22:15 | İzlanda 1.Lig | Throttur | Fylkir | 38542 | 3 |
 
 ## Sonuc
 
