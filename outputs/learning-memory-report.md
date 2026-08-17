@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 01:04:08
+Oluşturma: 18.08.2026 01:12:28
 
 ## Özet
 
-- Toplam tahmin: 20
-- Bekleyen tahmin: 20
+- Toplam tahmin: 70
+- Bekleyen tahmin: 70
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 15
+- Lig sayısı: 31
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 18.08.2026 01:04:08
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
-- MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS X: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-18 | Şili Premier Lig | Palestino - Huachipato | MS 2 | pending | 50/100
-- 2026-08-18 | Meksika Liga MX Apertura | Necaxa - Club Leon | MS X | pending | 50/100
-- 2026-08-18 | Meksika Liga MX Apertura | Pachuca - Puebla | MS 2 | pending | 60/100
-- 2026-08-18 | Meksika Liga MX Apertura | Pachuca - Puebla | MS 2 | pending | 75/100
-- 2026-08-18 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | MS 2 | pending | 40/100
-- 2026-08-18 | Brezilya Serie A | Internacional - Remo | MS 2 | pending | 75/100
-- 2026-08-18 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | MS 1 | pending | 40/100
-- 2026-08-17 | Hollanda Eerste Divisie | De Graafschap - Jong Az Alkmaar | MS X | pending | 70/100
-- 2026-08-17 | Hollanda Eerste Divisie | Utrecht (Ii) - Vitesse | MS X | pending | 50/100
-- 2026-08-17 | Hollanda Eerste Divisie | Ajax (B) - Emmen | MS X | pending | 70/100
-- 2026-08-17 | Belçika Challenger Pro Lig | Rfc Liege - Francs Borains | MS 2 | pending | 50/100
-- 2026-08-17 | İzlanda 1.Lig | Völsungur - Vestri | MS X | pending | 50/100
-- 2026-08-17 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | MS 2 | pending | 50/100
-- 2026-08-17 | Türkiye Süper Lig | Samsunspor - Göztepe | MS X | pending | 50/100
-- 2026-08-17 | Romanya 1.Lig | Fc Steaua - Botosani | MS 2 | pending | 75/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | MS X | pending | 40/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Maidstone Unit - Folkestone Invi | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Redcar Athleti - Lancaster City | MS 2 | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Hyde - United Of Manch | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Guiseley - Bury | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Rylands - Quorn | MS 2 | pending | 60/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Leek Town - Afc Emley | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | MS 2 | pending | 40/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | MS 2 | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Ilkeston Town - Warrington Town | MS X | pending | 40/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Curzon Ashton - Bamber Bridge | MS 2 | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Cleethorpes To - Alfreton | MS X | pending | 50/100
+- 2026-08-18 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb - Viking | MS 2 | pending | 50/100
 
