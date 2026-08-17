@@ -4,20 +4,14 @@ Gunler: 2026-08-17 / 2026-08-18
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 73
-Aktif mac: 44
-Canli mac: 29
+Aktif mac: 38
+Canli mac: 35
 Biten mac: 0
-Bultenden dusurulen mac: 29
-Bugun: 37
+Bultenden dusurulen mac: 35
+Bugun: 31
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 20:00 | İspanya 2.Lig | Sporting Gijon - Sabadell | scheduled | -
-- 2026-08-17 20:00 | Danimarka Süperlig | Brondby - Sonderjyske | scheduled | -
-- 2026-08-17 20:00 | İsveç Allsvenskan | Hacken - Halmstads | scheduled | -
-- 2026-08-17 20:00 | Portekiz 2.Lig | Felgueiras 193 - Avs | scheduled | -
-- 2026-08-17 20:00 | Polonya 1.Lig | Arka Gdynia - Puszcza Niepolo | scheduled | -
-- 2026-08-17 20:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Nordstrand | scheduled | -
 - 2026-08-17 20:30 | İsveç 2.Lig Norra Götaland | Vanersborgs If - Vanersborgs Fk | scheduled | -
 - 2026-08-17 20:30 | Faroe Adaları Master Lig | Ab Argir - Kí Klaksvík | scheduled | -
 - 2026-08-17 20:45 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - Atletico Tucuma | scheduled | -
@@ -58,6 +52,12 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
+- 2026-08-17 20:00 | İspanya 2.Lig | Sporting Gijon - Sabadell | live | -
+- 2026-08-17 20:00 | Danimarka Süperlig | Brondby - Sonderjyske | live | -
+- 2026-08-17 20:00 | İsveç Allsvenskan | Hacken - Halmstads | live | -
+- 2026-08-17 20:00 | Portekiz 2.Lig | Felgueiras 193 - Avs | live | -
+- 2026-08-17 20:00 | Polonya 1.Lig | Arka Gdynia - Puszcza Niepolo | live | -
+- 2026-08-17 20:00 | Norveç 3.Lig Grup 1 | Kfum Ii - Nordstrand | live | -
 - 2026-08-17 17:00 | Norveç 3.Lig Grup 5 | Bossekop - Tromso Ii | live | -
 - 2026-08-17 18:00 | Finlandiya Veikkausliiga | Gnistan - Ilves | live | -
 - 2026-08-17 18:00 | Ukrayna Premier Lig | Polessya - Zoria Luhansk | live | -
