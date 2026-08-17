@@ -1,24 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T19:39:55.924816+00:00
+Tarih: 2026-08-17T19:44:41.413581+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 8
+- Kac mac bulundu: 1
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 8
+- Kac mac zaten vardi: 1
 - Ham veri havuzu toplam mac sayisi: 7415
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Arjantin Premier Lig 2. Aşama
-- Brezilya Serie A
-- Ekvador Pro Lig
-- Meksika Liga MX Apertura
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -89,14 +85,7 @@ Tarih: 2026-08-17T19:39:55.924816+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 18.08.2026 | 02:00 | Brezilya Serie A | Internacional | Remo | 38544 | 5 |
 | 17.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Lanus | Independiente | 34501 | 5 |
-| 18.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo | Talleres | 34705 | 5 |
-| 18.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel | Defensa Justici | 34584 | 5 |
-| 18.08.2026 | 06:06 | Meksika Liga MX Apertura | Pachuca | Puebla | 38678 | 5 |
-| 18.08.2026 | 04:00 | Meksika Liga MX Apertura | Necaxa | Club Leon | 38636 | 5 |
-| 18.08.2026 | 03:30 | Şili Premier Lig | Palestino | Huachipato | 38619 | 5 |
-| 18.08.2026 | 03:00 | Ekvador Pro Lig | Depor Macara | Univ Catolica ( | 38602 | 5 |
 
 ## Sonuc
 
