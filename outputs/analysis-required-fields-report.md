@@ -1,27 +1,18 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 96
-Tam analiz: 6
-Eksik analiz: 90
+Toplam analiz: 74
+Tam analiz: 63
+Eksik analiz: 11
 
-- Penarol VS Central Espanol: eksik score, confidence
-- Chicago VS Portland: eksik score, confidence
-- New York City VS Philadelphia: eksik score, confidence
-- Perez Zeledon VS Inter San Carlo: eksik score, confidence
-- Inca-Aruba VS Firpo: eksik score, confidence
-- Corinthians VS Cruzeiro: eksik score, confidence
-- Deportivo La G VS Zamora: eksik score, confidence
-- Portland Heart VS Forward Madison: eksik score, confidence
-- Club America VS Atletico San Lu: eksik score, confidence
-- Carabobo VS Metropolitanos: eksik score, confidence
-- Suchitepequez VS Marquense: eksik score, confidence
-- Union Omaha VS Richmond Kicker: eksik score, confidence
-- Barracas VS Rosario Central: eksik score, confidence
-- Corboda Santia VS Instituto Cordo: eksik score, confidence
-- Depor. Olimpia VS Depor Motagua: eksik score, confidence
-- Cienciano VS Deportivo Garci: eksik score, confidence
-- Independiente VS Gualberto Villa: eksik score, confidence
-- Aucas VS Ldu Quito: eksik score, confidence
-- Unan Managua VS Jalapa: eksik score, confidence
-- Platense VS Deportivo Fas: eksik score, confidence
+- Auda VS Grobina: eksik score, confidence
+- Qarabagh VS Keshla: eksik score, confidence
+- Al Anwar VS Al Ahli (Cidde): eksik score, confidence
+- Varhaug VS Stabaek 2: eksik score, confidence
+- Ff Lillehammer VS Lyn Oslo B: eksik score, confidence
+- Al Taee VS Al-Qadsiah: eksik score, confidence
+- Ab Argir VS Kí Klaksvík: eksik score, confidence
+- Al-Raed VS Al Hilal (Riyad: eksik score, confidence
+- All Boys VS Nueva Chicago: eksik score, confidence
+- Leiknir Reykja VS Aegir: eksik score, confidence
+- Afturelding VS Hk Kopavogur: eksik score, confidence
