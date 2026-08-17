@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.08.2026 08:52:48
+Oluşturma: 17.08.2026 08:57:36
 
 ## Özet
 
-- Toplam tahmin: 48
-- Bekleyen tahmin: 48
+- Toplam tahmin: 49
+- Bekleyen tahmin: 49
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 35
+- Lig sayısı: 36
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 17.08.2026 08:52:48
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
 - MS X: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-17 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | MS 2 | pending | 60/100
 - 2026-08-17 | Sırbistan Süper Lig | Novi Pazar - Vojvodina | MS X | pending | 50/100
 - 2026-08-17 | Norveç 3.Lig Grup 3 | Brann Ii - Os Turn Fotball | MS X | pending | 55/100
 - 2026-08-17 | Belçika Challenger Pro Lig | Rfc Liege - Francs Borains | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 17.08.2026 08:52:48
 - 2026-08-17 | Bulgaristan 1.Lig | Spartak Varna - Septemvri Sofia | MS 2 | pending | 40/100
 - 2026-08-17 | Gürcistan Erovnuli Liga | Gagra - Spaeri | MS X | pending | 40/100
 - 2026-08-17 | Çek Cumhuriyeti FNL | Trinec - Usti Nad Labem | MS X | pending | 50/100
-- 2026-08-17 | Norveç 3.Lig Grup 3 | Brann Ii - Os Turn Fotball | MS 1 | pending | 40/100
 
