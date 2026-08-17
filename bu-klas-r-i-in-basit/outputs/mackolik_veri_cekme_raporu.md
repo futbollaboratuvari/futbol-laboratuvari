@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T16:03:29.519171+00:00
+Tarih: 2026-08-17T16:48:46.633596+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 50
+- Kac mac bulundu: 37
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 50
+- Kac mac zaten vardi: 37
 - Ham veri havuzu toplam mac sayisi: 7414
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
@@ -20,19 +20,13 @@ Tarih: 2026-08-17T16:03:29.519171+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Faroe Adaları Master Lig
-- Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
 - Malta Premier Lig Açılış
 - Norveç 3.Lig Grup 1
-- Norveç 3.Lig Grup 2
-- Norveç 3.Lig Grup 3
-- Norveç 3.Lig Grup 4
-- Norveç 3.Lig Grup 6
 - Polonya 1.Lig
 - Portekiz 2.Lig
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya FNL
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Sırbistan Süper Lig
 - Türkiye Süper Lig
@@ -101,8 +95,8 @@ Tarih: 2026-08-17T16:03:29.519171+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 36
-- Acilan detay: 36
+- Denenen Tumu alani: 30
+- Acilan detay: 30
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -119,22 +113,22 @@ Tarih: 2026-08-17T16:03:29.519171+00:00
 | 17.08.2026 | 21:30 | Türkiye TFF 1. Lig | Batman Petrol | Boluspor | 02680 | 5 |
 | 17.08.2026 | 22:00 | İspanya LaLiga | D.La Coruna | Elche | 26453 | 5 |
 | 17.08.2026 | 22:15 | Portekiz Premier Lig | Casa Pia | Benfica | 34067 | 5 |
-| 17.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Taee | Al-Qadsiah | 03275 | 2 |
-| 17.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Zulfi | Al Riyadh | 03337 | 5 |
-| 17.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Adalah | Al Feiha | 12516 | 5 |
 | 17.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al-Raed | Al Hilal (Riyad | 12521 | 2 |
+| 17.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Adalah | Al Feiha | 12516 | 5 |
 | 17.08.2026 | 22:00 | İngiltere Championship | Cardiff | Wrexham | 24993 | 5 |
 | 17.08.2026 | 20:00 | İspanya 2.Lig | Sporting Gijon | Sabadell | 26321 | 5 |
 | 17.08.2026 | 22:30 | İspanya 2.Lig | Almeria | Eldense | 26570 | 5 |
-| 17.08.2026 | 19:30 | İtalya Kupa 1.Tur | Sassuolo | Cesena | 29206 | 5 |
-| 17.08.2026 | 19:00 | İtalya Kupa 1.Tur | Pisa | Empoli | 29092 | 5 |
 | 17.08.2026 | 21:45 | İtalya Kupa 1.Tur | Cremonese | Sampdoria | 29310 | 5 |
 | 17.08.2026 | 22:15 | İtalya Kupa 1.Tur | Palermo | Lecce | 29418 | 5 |
+| 17.08.2026 | 21:00 | Hollanda Eerste Divisie | Ajax (B) | Emmen | 38281 | 5 |
 | 17.08.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Vitesse | 38335 | 5 |
 | 17.08.2026 | 21:00 | Hollanda Eerste Divisie | De Graafschap | Jong Az Alkmaar | 38223 | 5 |
-| 17.08.2026 | 21:00 | Hollanda Eerste Divisie | Ajax (B) | Emmen | 38281 | 5 |
 | 17.08.2026 | 20:00 | Danimarka Süperlig | Brondby | Sonderjyske | 38169 | 5 |
 | 17.08.2026 | 20:00 | İsveç Allsvenskan | Hacken | Halmstads | 34789 | 5 |
+| 17.08.2026 | 21:00 | Sırbistan Süper Lig | Novi Pazar | Vojvodina | 33693 | 5 |
+| 17.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Lanus | Independiente | 34501 | 5 |
+| 17.08.2026 | 20:45 | Arjantin Premier Lig 2. Aşama | Rio Cuarto | Atletico Tucuma | 34426 | 5 |
+| 17.08.2026 | 20:00 | Portekiz 2.Lig | Felgueiras 193 | Avs | 34034 | 5 |
 
 ## Sonuc
 
