@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.08.2026 10:18:42
+Oluşturma: 17.08.2026 10:37:14
 
 ## Özet
 
-- Toplam tahmin: 50
-- Bekleyen tahmin: 50
+- Toplam tahmin: 51
+- Bekleyen tahmin: 51
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 36
@@ -20,12 +20,13 @@ Oluşturma: 17.08.2026 10:18:42
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 24, bekleyen 24, başarı bekleniyor, ağırlık 1
+- MS X: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-17 | Slovakya 2.Lig | Slovan Bratisl - Humenne | MS X | pending | 50/100
 - 2026-08-17 | Malta Premier Lig Açılış | Hamrun - Mosta Fc | MS X | pending | 85/100
 - 2026-08-17 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | MS 2 | pending | 60/100
 - 2026-08-17 | Sırbistan Süper Lig | Novi Pazar - Vojvodina | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 17.08.2026 10:18:42
 - 2026-08-17 | Litvanya A Ligi | Dziugas Telsia - Suduva | MS 1 | pending | 40/100
 - 2026-08-17 | İtalya Kupa 1.Tur | Pisa - Empoli | MS 2 | pending | 40/100
 - 2026-08-17 | Bulgaristan 1.Lig | Spartak Varna - Septemvri Sofia | MS 2 | pending | 40/100
-- 2026-08-17 | Gürcistan Erovnuli Liga | Gagra - Spaeri | MS X | pending | 40/100
 
