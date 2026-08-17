@@ -2,26 +2,25 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-17T17:34:08.641Z
+- Güncelleme: 2026-08-17T17:47:32.022Z
 - Ham maç sayısı: 68
 - Yarın bülteni maç sayısı: 8
 - Detay blok sayısı: 183
-- Aktif bülten maçı: 37
-- Bültenden düşürülen maç: 31
+- Aktif bülten maçı: 36
+- Bültenden düşürülen maç: 32
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rio Cuarto - Atletico Tucuma | Arjantin Premier Lig 2. Aşama | 20:45 | Veri bekleniyor | - | 3.28 | 8 |
 | Al-Raed - Al Hilal (Riyad | Suudi Arabistan Kral Kupası Son 32 Turu | 21:00 | Veri bekleniyor | - | 17.5 | 3 |
-| Al Adalah - Al Feiha | Suudi Arabistan Kral Kupası Son 32 Turu | 21:00 | Veri bekleniyor | - | 4.1 | 8 |
+| Al Adalah - Al Feiha | Suudi Arabistan Kral Kupası Son 32 Turu | 21:00 | Veri bekleniyor | - | 5.46 | 7 |
 | De Graafschap - Jong Az Alkmaar | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 1.7 | 8 |
 | Utrecht (Ii) - Vitesse | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 3.12 | 8 |
 | Ajax (B) - Emmen | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 2.14 | 8 |
 | Novi Pazar - Vojvodina | Sırbistan Süper Lig | 21:00 | Veri bekleniyor | - | 3.38 | 8 |
 | Rfc Liege - Francs Borains | Belçika Challenger Pro Lig | 21:00 | Veri bekleniyor | - | 1.76 | 8 |
 | All Boys - Nueva Chicago | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 2.07 | 6 |
-| Valur - Ka Akureyri | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.52 | 6 |
+| Valur - Ka Akureyri | İzlanda Urvalsdeild | 21:00 | Veri bekleniyor | - | 1.42 | 6 |
 | Völsungur - Vestri | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.49 | 8 |
 | Ir Reykjavik - Njardvik | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 3.04 | 6 |
 | Grindavik - Grotta | İzlanda 1.Lig | 21:00 | Veri bekleniyor | - | 2.11 | 6 |
@@ -31,8 +30,8 @@
 | Fc Steaua - Botosani | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 1.33 | 7 |
 | Hamrun - Mosta Fc | Malta Premier Lig Açılış | 21:30 | Veri bekleniyor | - | 1.07 | 6 |
 | Batman Petrol - Boluspor | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 1.4 | 7 |
-| Cremonese - Sampdoria | İtalya Kupa 1.Tur | 21:45 | Veri bekleniyor | - | 1.89 | 8 |
-| D.La Coruna - Elche | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.96 | 8 |
+| Cremonese - Sampdoria | İtalya Kupa 1.Tur | 21:45 | Veri bekleniyor | - | 1.93 | 8 |
+| D.La Coruna - Elche | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.97 | 8 |
 | Cardiff - Wrexham | İngiltere Championship | 22:00 | Veri bekleniyor | - | 2.26 | 8 |
 | Casa Pia - Benfica | Portekiz Premier Lig | 22:15 | Veri bekleniyor | - | 12.65 | 6 |
 | Palermo - Lecce | İtalya Kupa 1.Tur | 22:15 | Veri bekleniyor | - | 2 | 8 |
