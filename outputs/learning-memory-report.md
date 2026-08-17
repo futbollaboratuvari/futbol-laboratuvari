@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 17.08.2026 14:43:43
-=======
-Oluşturma: 17.08.2026 14:45:14
->>>>>>> Stashed changes
+Oluşturma: 17.08.2026 14:47:17
 
 ## Özet
 
-- Toplam tahmin: 31
-- Bekleyen tahmin: 31
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 22
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 17.08.2026 14:45:14
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-17 | Portekiz 2.Lig | Felgueiras 193 - Avs | MS 2 | pending | 40/100
-- 2026-08-17 | Uganda Süper 8 Beşincilik Maçı | Bul - Entebbe Uppc | MS X | pending | 40/100
-- 2026-08-17 | İtalya Kupa 1.Tur | Sassuolo - Cesena | MS 2 | pending | 85/100
-- 2026-08-17 | Rusya FNL | Spartak Kostro - Ufa | MS 2 | pending | 50/100
-- 2026-08-17 | İspanya 2.Lig | Sporting Gijon - Sabadell | MS 2 | pending | 40/100
-- 2026-08-17 | İsveç Allsvenskan | Hacken - Halmstads | MS 2 | pending | 40/100
-- 2026-08-17 | Portekiz 2.Lig | Felgueiras 193 - Avs | MS X | pending | 40/100
-- 2026-08-17 | Polonya 1.Lig | Arka Gdynia - Puszcza Niepolo | MS 2 | pending | 50/100
-- 2026-08-17 | Hollanda Eerste Divisie | De Graafschap - Jong Az Alkmaar | MS X | pending | 70/100
-- 2026-08-17 | Hollanda Eerste Divisie | Utrecht (Ii) - Vitesse | MS X | pending | 50/100
-- 2026-08-17 | Hollanda Eerste Divisie | Ajax (B) - Emmen | MS X | pending | 60/100
-- 2026-08-17 | Belçika Challenger Pro Lig | Rfc Liege - Francs Borains | MS 2 | pending | 50/100
-- 2026-08-17 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | MS 2 | pending | 50/100
-- 2026-08-17 | Türkiye Süper Lig | Samsunspor - Göztepe | MS X | pending | 40/100
-- 2026-08-17 | Malta Premier Lig Açılış | Hamrun - Mosta Fc | MS X | pending | 85/100
 
