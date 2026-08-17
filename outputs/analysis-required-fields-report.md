@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 70
-Tam analiz: 61
+Toplam analiz: 71
+Tam analiz: 62
 Eksik analiz: 9
 
 - Auda VS Grobina: eksik score, confidence
