@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 103
-Aktif mac: 81
-Canli mac: 22
+Ham mac: 97
+Aktif mac: 77
+Canli mac: 20
 Biten mac: 0
-Bultenden dusurulen mac: 22
-Bugun: 74
+Bultenden dusurulen mac: 20
+Bugun: 70
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 03:00 | Ekvador Pro Lig | Aucas - Ldu Quito | scheduled | -
-- 2026-08-17 03:00 | Nikaragua Premier Lig Apertura | Unan Managua - Jalapa | scheduled | -
-- 2026-08-17 03:00 | El Salvador Primera Lig Apertura | Platense - Deportivo Fas | scheduled | -
-- 2026-08-17 03:30 | ABD MLS | Austin - Dallas | scheduled | -
 - 2026-08-17 04:10 | Meksika Liga MX Apertura | Santos Laguna - Guadalajara | scheduled | -
 - 2026-08-17 04:30 | Honduras Ulusal Lig Apertura | Olancho - Juticalpa | scheduled | -
 - 2026-08-17 05:30 | ABD MLS | Seattle - Vancouver | scheduled | -
@@ -94,12 +90,6 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 00:30 | Brezilya Serie A | Vitoria Bahia - Botafogo | live | -
-- 2026-08-17 00:30 | Brezilya Serie A | Mirassol - Flamengo | live | -
-- 2026-08-17 00:30 | Şili Premier Lig | Colo Colo - O Higgins | live | -
-- 2026-08-17 00:30 | Brezilya Serie B | America Mineir - Athletic Club | live | -
-- 2026-08-17 00:30 | Brezilya Serie B | Regatas - Novorizontino | live | -
-- 2026-08-17 00:30 | Uruguay Premier Lig Clausura | Penarol - Central Espanol | live | -
 - 2026-08-17 01:00 | ABD MLS | Chicago - Portland | live | -
 - 2026-08-17 01:00 | ABD MLS | New York City - Philadelphia | live | -
 - 2026-08-17 01:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Inter San Carlo | live | -
@@ -116,6 +106,10 @@ Yarin: 7
 - 2026-08-17 02:15 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Depor Motagua | live | -
 - 2026-08-17 02:30 | Peru Premier Lig Clausura | Cienciano - Deportivo Garci | live | -
 - 2026-08-17 02:30 | Bolivya Premier Lig | Independiente - Gualberto Villa | live | -
+- 2026-08-17 03:00 | Ekvador Pro Lig | Aucas - Ldu Quito | live | -
+- 2026-08-17 03:00 | Nikaragua Premier Lig Apertura | Unan Managua - Jalapa | live | -
+- 2026-08-17 03:00 | El Salvador Primera Lig Apertura | Platense - Deportivo Fas | live | -
+- 2026-08-17 03:30 | ABD MLS | Austin - Dallas | live | -
 
 ## Biten Maclar
 Biten mac yok.

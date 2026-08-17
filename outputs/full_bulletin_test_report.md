@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 81
-- Live match count: 22
-- Finished removed count: 0
+- Scheduled match count: 77
+- Live match count: 16
+- Finished removed count: 10
 - Date window: 2026-08-17 / 2026-08-18 23:59
 
-- 2026-08-17 00:30 | Mirassol - Flamengo | live
-- 2026-08-17 00:30 | Vitoria Bahia - Botafogo | live
-- 2026-08-17 00:30 | America Mineir - Athletic Club | live
-- 2026-08-17 00:30 | Regatas - Novorizontino | live
-- 2026-08-17 00:30 | Colo Colo - O Higgins | live
-- 2026-08-17 00:30 | Penarol - Central Espanol | live
-- 2026-08-17 01:00 | Chicago - Portland | live
-- 2026-08-17 01:00 | New York City - Philadelphia | live
-- 2026-08-17 01:00 | Inca-Aruba - Firpo | live
-- 2026-08-17 01:00 | Perez Zeledon - Inter San Carlo | live
+- 2026-08-17 01:30 | Portland Heart - Forward Madison | live
+- 2026-08-17 01:30 | Corinthians - Cruzeiro | live
+- 2026-08-17 01:30 | Deportivo La G - Zamora | live
+- 2026-08-17 02:00 | Union Omaha - Richmond Kicker | live
+- 2026-08-17 02:00 | Suchitepequez - Marquense | live
+- 2026-08-17 02:00 | Club America - Atletico San Lu | live
+- 2026-08-17 02:00 | Carabobo - Metropolitanos | live
+- 2026-08-17 02:15 | Barracas - Rosario Central | live
+- 2026-08-17 02:15 | Corboda Santia - Instituto Cordo | live
+- 2026-08-17 02:15 | Depor. Olimpia - Depor Motagua | live
