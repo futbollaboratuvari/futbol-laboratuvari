@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 17.08.2026 23:51:40
+Oluşturma: 18.08.2026 00:15:56
 
 ## Özet
 
-- Toplam tahmin: 13
-- Bekleyen tahmin: 13
+- Toplam tahmin: 20
+- Bekleyen tahmin: 20
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 10
-- Seçenek sayısı: 2
+- Lig sayısı: 15
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,11 +20,19 @@ Oluşturma: 17.08.2026 23:51:40
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
+- MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-18 | Şili Premier Lig | Palestino - Huachipato | MS 2 | pending | 50/100
+- 2026-08-18 | Meksika Liga MX Apertura | Necaxa - Club Leon | MS X | pending | 50/100
+- 2026-08-18 | Meksika Liga MX Apertura | Pachuca - Puebla | MS 2 | pending | 60/100
+- 2026-08-18 | Meksika Liga MX Apertura | Pachuca - Puebla | MS 2 | pending | 75/100
+- 2026-08-18 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | MS 2 | pending | 40/100
+- 2026-08-18 | Brezilya Serie A | Internacional - Remo | MS 2 | pending | 75/100
+- 2026-08-18 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | MS 1 | pending | 40/100
 - 2026-08-17 | Hollanda Eerste Divisie | De Graafschap - Jong Az Alkmaar | MS X | pending | 70/100
 - 2026-08-17 | Hollanda Eerste Divisie | Utrecht (Ii) - Vitesse | MS X | pending | 50/100
 - 2026-08-17 | Hollanda Eerste Divisie | Ajax (B) - Emmen | MS X | pending | 70/100
@@ -33,9 +41,4 @@ Oluşturma: 17.08.2026 23:51:40
 - 2026-08-17 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | MS 2 | pending | 50/100
 - 2026-08-17 | Türkiye Süper Lig | Samsunspor - Göztepe | MS X | pending | 50/100
 - 2026-08-17 | Romanya 1.Lig | Fc Steaua - Botosani | MS 2 | pending | 75/100
-- 2026-08-17 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | MS 2 | pending | 75/100
-- 2026-08-17 | İtalya Kupa 1.Tur | Cremonese - Sampdoria | MS 2 | pending | 40/100
-- 2026-08-17 | İngiltere Championship | Cardiff - Wrexham | MS X | pending | 50/100
-- 2026-08-17 | İtalya Kupa 1.Tur | Palermo - Lecce | MS X | pending | 40/100
-- 2026-08-17 | İspanya 2.Lig | Almeria - Eldense | MS 2 | pending | 75/100
 

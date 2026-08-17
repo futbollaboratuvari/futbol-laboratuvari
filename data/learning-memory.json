@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-17T19:48:46.600Z",
-  "updated_at": "2026-08-17T20:51:40.729Z",
+  "updated_at": "2026-08-17T21:15:57.670Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 13,
-    "pending_predictions": 13,
+    "total_predictions": 20,
+    "pending_predictions": 20,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 10,
-    "market_count": 2,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "league_count": 15,
+    "market_count": 3,
+    "added_predictions": 7,
+    "updated_predictions": 0,
+    "last_score_link_checked": 20,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS X": {
-      "total": 7,
-      "pending": 7,
+    "MS 2": {
+      "total": 11,
+      "pending": 11,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -26,9 +30,19 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 2": {
-      "total": 6,
-      "pending": 6,
+    "MS X": {
+      "total": 8,
+      "pending": 8,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 1": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -38,6 +52,56 @@
     }
   },
   "league_memory": {
+    "Şili Premier Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Meksika Liga MX Apertura": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Arjantin Premier Lig 2. Aşama": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Ekvador Pro Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Hollanda Eerste Divisie": {
       "total": 3,
       "pending": 3,
@@ -140,6 +204,66 @@
     }
   },
   "league_market_memory": {
+    "Şili Premier Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Meksika Liga MX Apertura :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Meksika Liga MX Apertura :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Arjantin Premier Lig 2. Aşama :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Ekvador Pro Lig :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Hollanda Eerste Divisie :: MS X": {
       "total": 3,
       "pending": 3,
@@ -252,6 +376,125 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-08-18|sili premier lig|palestino huachipato|ms 2|03 30",
+      "date": "2026-08-18",
+      "created_at": "2026-08-17T21:15:56.085Z",
+      "match_name": "Palestino - Huachipato",
+      "league": "Şili Premier Lig",
+      "start_time": "03:30",
+      "market": "MS 2",
+      "odds": "3.96",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-18|meksika liga mx apertura|necaxa club leon|ms x|04 00",
+      "date": "2026-08-18",
+      "created_at": "2026-08-17T21:15:56.085Z",
+      "match_name": "Necaxa - Club Leon",
+      "league": "Meksika Liga MX Apertura",
+      "start_time": "04:00",
+      "market": "MS X",
+      "odds": "2.96",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-18|meksika liga mx apertura|pachuca puebla|ms 2|06 00",
+      "date": "2026-08-18",
+      "created_at": "2026-08-17T21:15:56.085Z",
+      "match_name": "Pachuca - Puebla",
+      "league": "Meksika Liga MX Apertura",
+      "start_time": "06:00",
+      "market": "MS 2",
+      "odds": "4.85",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-18|meksika liga mx apertura|pachuca puebla|ms 2|06 06",
+      "date": "2026-08-18",
+      "created_at": "2026-08-17T21:15:56.085Z",
+      "match_name": "Pachuca - Puebla",
+      "league": "Meksika Liga MX Apertura",
+      "start_time": "06:06",
+      "market": "MS 2",
+      "odds": "5.06",
+      "confidence_score": "75%",
+      "analysis_score": 75,
+      "risk_level": "Düşük",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-18|arjantin premier lig 2 asama|velez sarsfiel defensa justici|ms 2|01 15",
+      "date": "2026-08-18",
+      "created_at": "2026-08-17T21:15:56.084Z",
+      "match_name": "Velez Sarsfiel - Defensa Justici",
+      "league": "Arjantin Premier Lig 2. Aşama",
+      "start_time": "01:15",
+      "market": "MS 2",
+      "odds": "4.10",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-18|brezilya serie a|internacional remo|ms 2|02 00",
+      "date": "2026-08-18",
+      "created_at": "2026-08-17T21:15:56.084Z",
+      "match_name": "Internacional - Remo",
+      "league": "Brezilya Serie A",
+      "start_time": "02:00",
+      "market": "MS 2",
+      "odds": "5.99",
+      "confidence_score": "75%",
+      "analysis_score": 75,
+      "risk_level": "Düşük",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-18|ekvador pro lig|depor macara univ catolica|ms 1|03 00",
+      "date": "2026-08-18",
+      "created_at": "2026-08-17T21:15:56.084Z",
+      "match_name": "Depor Macara - Univ Catolica (",
+      "league": "Ekvador Pro Lig",
+      "start_time": "03:00",
+      "market": "MS 1",
+      "odds": "3.51",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-08-17|hollanda eerste divisie|de graafschap jong az alkmaar|ms x|21 00",
       "date": "2026-08-17",

@@ -3,17 +3,15 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 8
-- Live match count: 10
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-08-17 / 2026-08-18 23:59
+- Date window: 2026-08-18 / 2026-08-19 23:59
 
-- 2026-08-17 21:45 | Cremonese - Sampdoria | live
-- 2026-08-17 22:00 | Cardiff - Wrexham | live
-- 2026-08-17 22:00 | D.La Coruna - Elche | live
-- 2026-08-17 22:15 | Palermo - Lecce | live
-- 2026-08-17 22:15 | Afturelding - Hk Kopavogur | live
-- 2026-08-17 22:15 | Throttur - Fylkir | live
-- 2026-08-17 22:15 | Fram - Stjarnan | live
-- 2026-08-17 22:15 | Casa Pia - Benfica | live
-- 2026-08-17 22:30 | Almeria - Eldense | live
-- 2026-08-17 23:00 | Lanus - Independiente | live
+- 2026-08-18 01:15 | Velez Sarsfiel - Defensa Justici | scheduled
+- 2026-08-18 02:00 | Internacional - Remo | scheduled
+- 2026-08-18 03:00 | Depor Macara - Univ Catolica ( | scheduled
+- 2026-08-18 03:30 | Gimnasia Mendo - Talleres | scheduled
+- 2026-08-18 03:30 | Palestino - Huachipato | scheduled
+- 2026-08-18 04:00 | Necaxa - Club Leon | scheduled
+- 2026-08-18 06:00 | Pachuca - Puebla | scheduled
+- 2026-08-18 06:06 | Pachuca - Puebla | scheduled
