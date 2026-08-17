@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T14:52:44.237877+00:00
+Tarih: 2026-08-17T15:05:40.883651+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 71
+- Kac mac bulundu: 61
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 71
+- Kac mac zaten vardi: 61
 - Ham veri havuzu toplam mac sayisi: 7414
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
@@ -18,19 +18,14 @@ Tarih: 2026-08-17T14:52:44.237877+00:00
 - Arjantin Ulusal Primera Lig
 - Azerbaycan Premier Lig
 - Belçika Challenger Pro Lig
-- Brezilya Serie A
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
-- Letonya Kupa Çeyrek Final
 - Litvanya A Ligi
 - Macaristan NB I
 - Malta Premier Lig Açılış
-- Meksika Liga MX Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
@@ -41,13 +36,11 @@ Tarih: 2026-08-17T14:52:44.237877+00:00
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Rusya FNL
-- Slovakya 2.Lig
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Sırbistan Süper Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uganda Süper 8 Beşincilik Maçı
-- Ukrayna Premier Lig
 - Çek Cumhuriyeti FNL
 - İngiltere Championship
 - İspanya 2.Lig
@@ -57,7 +50,6 @@ Tarih: 2026-08-17T14:52:44.237877+00:00
 - İtalya Kupa 1.Tur
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -114,8 +106,8 @@ Tarih: 2026-08-17T14:52:44.237877+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 45
-- Acilan detay: 45
+- Denenen Tumu alani: 41
+- Acilan detay: 41
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
