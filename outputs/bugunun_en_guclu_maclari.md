@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-17T07:40:15.817Z
+- Güncelleme: 2026-08-17T08:25:37.998Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -18,7 +18,7 @@
 | Gnistan VS Ilves | Finlandiya Veikkausliiga | 18:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Polessya VS Zoria Luhansk | Ukrayna Premier Lig | 18:00 | MS 2 | 5.42 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Fa Siauliai VS Fk Panevezys | Litvanya A Ligi | 18:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Slovan Bratisl VS Humenne | Slovakya 2.Lig | 18:00 | MS X | 3.22 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Slovan Bratisl VS Humenne | Slovakya 2.Lig | 18:00 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Auda VS Grobina | Letonya Kupa Çeyrek Final | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Qarabagh VS Keshla | Azerbaycan Premier Lig | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Zalaegerszeg VS Ferencvaros | Macaristan NB I | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -26,10 +26,10 @@
 | Dziugas Telsia VS Suduva | Litvanya A Ligi | 18:45 | MS 1 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Anwar VS Al Ahli (Cidde) | Suudi Arabistan Kral Kupası Son 32 Turu | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Pisa VS Empoli | İtalya Kupa 1.Tur | 19:00 | MS 2 | 3.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Spartak Varna VS Septemvri Sofia | Bulgaristan 1.Lig | 19:00 | MS 2 | 3.29 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Spartak Varna VS Septemvri Sofia | Bulgaristan 1.Lig | 19:00 | MS 2 | 3.15 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gagra VS Spaeri | Gürcistan Erovnuli Liga | 19:00 | MS X | 2.95 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Trinec VS Usti Nad Labem | Çek Cumhuriyeti FNL | 19:00 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Brann Ii VS Os Turn Fotball | Norveç 3.Lig Grup 3 | 19:00 | MS X | 4.07 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Brann Ii VS Os Turn Fotball | Norveç 3.Lig Grup 3 | 19:00 | MS X | 4.14 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Viking B VS Madla | Norveç 3.Lig Grup 4 | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Staal Jorpelan VS Haugesund Ii | Norveç 3.Lig Grup 4 | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Varhaug VS Stabaek 2 | Norveç 3.Lig Grup 4 | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
