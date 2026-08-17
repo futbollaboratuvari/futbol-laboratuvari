@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-17T17:52:47.487Z
+- Guncelleme: 2026-08-17T19:06:48.850Z
 - Ham fixture sayisi: 7375
 - Bugun/yarin kaynak mac: 118
-- Aktif bulten maci: 36
+- Aktif bulten maci: 15
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 82
+- Bultenden dusurulen mac: 103
 
-- 1. 2026-08-17 21:00 | Hollanda Eerste Divisie | Ajax (B) - Emmen | scheduled
-- 2. 2026-08-17 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Adalah - Al Feiha | scheduled
-- 3. 2026-08-17 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al-Raed - Al Hilal (Riyad | scheduled
-- 4. 2026-08-17 21:00 | Arjantin Ulusal Primera Lig | All Boys - Nueva Chicago | scheduled
-- 5. 2026-08-17 21:00 | Hollanda Eerste Divisie | De Graafschap - Jong Az Alkmaar | scheduled
-- 6. 2026-08-17 21:00 | İzlanda 1.Lig | Grindavik - Grotta | scheduled
-- 7. 2026-08-17 21:00 | İzlanda 1.Lig | Ir Reykjavik - Njardvik | scheduled
-- 8. 2026-08-17 21:00 | İzlanda 1.Lig | Leiknir Reykja - Aegir | scheduled
-- 9. 2026-08-17 21:00 | Sırbistan Süper Lig | Novi Pazar - Vojvodina | scheduled
-- 10. 2026-08-17 21:00 | Belçika Challenger Pro Lig | Rfc Liege - Francs Borains | scheduled
-- 11. 2026-08-17 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) - Vitesse | scheduled
-- 12. 2026-08-17 21:00 | İzlanda Urvalsdeild | Valur - Ka Akureyri | scheduled
-- 13. 2026-08-17 21:00 | İzlanda 1.Lig | Völsungur - Vestri | scheduled
-- 14. 2026-08-17 21:15 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | scheduled
-- 15. 2026-08-17 21:30 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | scheduled
+- 1. 2026-08-17 22:15 | İzlanda 1.Lig | Afturelding - Hk Kopavogur | scheduled
+- 2. 2026-08-17 22:15 | Portekiz Premier Lig | Casa Pia - Benfica | scheduled
+- 3. 2026-08-17 22:15 | İzlanda Urvalsdeild | Fram - Stjarnan | scheduled
+- 4. 2026-08-17 22:15 | İtalya Kupa 1.Tur | Palermo - Lecce | scheduled
+- 5. 2026-08-17 22:15 | İzlanda 1.Lig | Throttur - Fylkir | scheduled
+- 6. 2026-08-17 22:30 | İspanya 2.Lig | Almeria - Eldense | scheduled
+- 7. 2026-08-17 23:00 | Arjantin Premier Lig 2. Aşama | Lanus - Independiente | scheduled
+- 8. 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | scheduled
+- 9. 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | scheduled
+- 10. 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | scheduled
+- 11. 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | scheduled
+- 12. 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | scheduled
+- 13. 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | scheduled
+- 14. 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled
+- 15. 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled
