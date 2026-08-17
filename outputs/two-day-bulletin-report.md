@@ -1,18 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-17 / 2026-08-18
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 77
-Aktif mac: 75
-Canli mac: 2
+Aktif mac: 74
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 68
+Bultenden dusurulen mac: 3
+Bugun: 67
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | scheduled | -
 - 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | scheduled | -
 - 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Police - Maroons | scheduled | -
 - 2026-08-17 18:00 | Finlandiya Veikkausliiga | Gnistan - Ilves | scheduled | -
@@ -91,6 +89,7 @@ Yarin: 7
 ## Canli Maclar
 - 2026-08-17 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Northcote City | live | -
 - 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | live | -
+- 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | live | -
 
 ## Biten Maclar
 Biten mac yok.
