@@ -1,10 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 71
-Tam analiz: 62
-Eksik analiz: 9
+Toplam analiz: 69
+Tam analiz: 59
+Eksik analiz: 10
 
+- Bossekop VS Tromso Ii: eksik score, confidence
 - Auda VS Grobina: eksik score, confidence
 - Qarabagh VS Keshla: eksik score, confidence
 - Al Anwar VS Al Ahli (Cidde): eksik score, confidence
