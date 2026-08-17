@@ -2,7 +2,7 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 8
+- Scheduled match count: 109
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-18 / 2026-08-19 23:59
@@ -15,3 +15,5 @@
 - 2026-08-18 04:00 | Necaxa - Club Leon | scheduled
 - 2026-08-18 06:00 | Pachuca - Puebla | scheduled
 - 2026-08-18 06:06 | Pachuca - Puebla | scheduled
+- 2026-08-18 12:30 | Sd Raiders - Sydney | scheduled
+- 2026-08-18 14:35 | Shanghai Shenh - Beijing Guoan | scheduled
