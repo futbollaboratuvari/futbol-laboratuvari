@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-17T09:12:47.942087+00:00
+Tarih: 2026-08-17T09:56:30.348231+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 67
+- Kac mac bulundu: 74
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 67
+- Kac mac zaten vardi: 74
 - Ham veri havuzu toplam mac sayisi: 7410
 - Hedef tarih: 17.08.2026 Europe/Istanbul
 
@@ -19,8 +19,10 @@ Tarih: 2026-08-17T09:12:47.942087+00:00
 - Avustralya Victoria NPL 1
 - Azerbaycan Premier Lig
 - Belçika Challenger Pro Lig
+- Brezilya Serie A
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
 - Gürcistan Erovnuli Liga
@@ -29,6 +31,7 @@ Tarih: 2026-08-17T09:12:47.942087+00:00
 - Litvanya A Ligi
 - Macaristan NB I
 - Malta Premier Lig Açılış
+- Meksika Liga MX Apertura
 - Norveç 3.Lig Grup 1
 - Norveç 3.Lig Grup 2
 - Norveç 3.Lig Grup 3
@@ -55,6 +58,7 @@ Tarih: 2026-08-17T09:12:47.942087+00:00
 - İtalya Kupa 1.Tur
 - İzlanda 1.Lig
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
