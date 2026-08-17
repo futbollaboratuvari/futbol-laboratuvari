@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 115
+Ham mac: 77
 Aktif mac: 75
 Canli mac: 2
-Biten mac: 38
-Bultenden dusurulen mac: 40
+Biten mac: 0
+Bultenden dusurulen mac: 2
 Bugun: 68
 Yarin: 7
 
@@ -92,41 +92,4 @@ Yarin: 7
 - 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | live | -
 
 ## Biten Maclar
-- 2026-08-17 00:00 | Arjantin Premier Lig 2. Aşama | River Plate - Argentinos Jr | finished | -
-- 2026-08-17 00:00 | Venezuela Premier Lig Clausura | Depor Tachira - Monagas | finished | -
-- 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | Atl Temperley - Los Andes | finished | -
-- 2026-08-17 00:00 | Arjantin Ulusal Primera Lig | San Martin Tuc - Deportivo Madry | finished | -
-- 2026-08-17 00:00 | Guatemala Ulusal Lig Apertura | Deportivo San - Aurora | finished | -
-- 2026-08-17 00:00 | Honduras Ulusal Lig Apertura | Choloma - Marathon | finished | -
-- 2026-08-17 00:15 | Ekvador Pro Lig | Emelec - T.Universitario | finished | -
-- 2026-08-17 00:15 | Bolivya Premier Lig | Nacional Potos - Academia Del Ba | finished | -
-- 2026-08-17 00:30 | Brezilya Serie A | Vitoria Bahia - Botafogo | finished | -
-- 2026-08-17 00:30 | Brezilya Serie A | Mirassol - Flamengo | finished | -
-- 2026-08-17 00:30 | Şili Premier Lig | Colo Colo - O Higgins | finished | -
-- 2026-08-17 00:30 | Brezilya Serie B | America Mineir - Athletic Club | finished | -
-- 2026-08-17 00:30 | Brezilya Serie B | Regatas - Novorizontino | finished | -
-- 2026-08-17 00:30 | Uruguay Premier Lig Clausura | Penarol - Central Espanol | finished | -
-- 2026-08-17 01:00 | ABD MLS | Chicago - Portland | finished | -
-- 2026-08-17 01:00 | ABD MLS | New York City - Philadelphia | finished | -
-- 2026-08-17 01:00 | Kosta Rika Premier Lig Apertura | Perez Zeledon - Inter San Carlo | finished | -
-- 2026-08-17 01:00 | El Salvador Primera Lig Apertura | Inca-Aruba - Firpo | finished | -
-- 2026-08-17 01:30 | Brezilya Serie A | Corinthians - Cruzeiro | finished | -
-- 2026-08-17 01:30 | Venezuela Premier Lig Clausura | Deportivo La G - Zamora | finished | -
-- 2026-08-17 01:30 | ABD USL Lig 1 | Portland Heart - Forward Madison | finished | -
-- 2026-08-17 02:00 | Meksika Liga MX Apertura | Club America - Atletico San Lu | finished | -
-- 2026-08-17 02:00 | Venezuela Premier Lig Clausura | Carabobo - Metropolitanos | finished | -
-- 2026-08-17 02:00 | Guatemala Ulusal Lig Apertura | Suchitepequez - Marquense | finished | -
-- 2026-08-17 02:00 | ABD USL Lig 1 | Union Omaha - Richmond Kicker | finished | -
-- 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Barracas - Rosario Central | finished | -
-- 2026-08-17 02:15 | Arjantin Premier Lig 2. Aşama | Corboda Santia - Instituto Cordo | finished | -
-- 2026-08-17 02:15 | Honduras Ulusal Lig Apertura | Depor. Olimpia - Depor Motagua | finished | -
-- 2026-08-17 02:30 | Peru Premier Lig Clausura | Cienciano - Deportivo Garci | finished | -
-- 2026-08-17 02:30 | Bolivya Premier Lig | Independiente - Gualberto Villa | finished | -
-- 2026-08-17 03:00 | Ekvador Pro Lig | Aucas - Ldu Quito | finished | -
-- 2026-08-17 03:00 | Nikaragua Premier Lig Apertura | Unan Managua - Jalapa | finished | -
-- 2026-08-17 03:00 | El Salvador Primera Lig Apertura | Platense - Deportivo Fas | finished | -
-- 2026-08-17 03:30 | ABD MLS | Austin - Dallas | finished | -
-- 2026-08-17 04:10 | Meksika Liga MX Apertura | Santos Laguna - Guadalajara | finished | -
-- 2026-08-17 04:30 | Honduras Ulusal Lig Apertura | Olancho - Juticalpa | finished | -
-- 2026-08-17 05:30 | ABD MLS | Seattle - Vancouver | finished | -
-- 2026-08-17 06:00 | Meksika Liga MX Apertura | Club Tijuana - Cruz Azul | finished | -
+Biten mac yok.
