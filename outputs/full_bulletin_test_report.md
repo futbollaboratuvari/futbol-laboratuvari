@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 49
-- Live match count: 23
-- Finished removed count: 1
+- Scheduled match count: 44
+- Live match count: 0
+- Finished removed count: 0
 - Date window: 2026-08-17 / 2026-08-18 23:59
 
-- 2026-08-17 18:00 | Gnistan - Ilves | live
-- 2026-08-17 18:00 | Auda - Grobina | live
-- 2026-08-17 18:00 | Fa Siauliai - Fk Panevezys | live
-- 2026-08-17 18:00 | Slovan Bratisl - Humenne | live
-- 2026-08-17 18:00 | Polessya - Zoria Luhansk | live
-- 2026-08-17 18:30 | Qarabagh - Keshla | live
-- 2026-08-17 18:30 | Zalaegerszeg - Ferencvaros | live
-- 2026-08-17 18:30 | Universitatea - Uta Arad | live
-- 2026-08-17 18:45 | Dziugas Telsia - Suduva | live
-- 2026-08-17 19:00 | Spartak Varna - Septemvri Sofia | live
+- 2026-08-17 20:00 | Brondby - Sonderjyske | scheduled
+- 2026-08-17 20:00 | Sporting Gijon - Sabadell | scheduled
+- 2026-08-17 20:00 | Hacken - Halmstads | scheduled
+- 2026-08-17 20:00 | Kfum Ii - Nordstrand | scheduled
+- 2026-08-17 20:00 | Arka Gdynia - Puszcza Niepolo | scheduled
+- 2026-08-17 20:00 | Felgueiras 193 - Avs | scheduled
+- 2026-08-17 20:30 | Ab Argir - Kí Klaksvík | scheduled
+- 2026-08-17 20:30 | Vanersborgs If - Vanersborgs Fk | scheduled
+- 2026-08-17 20:45 | Rio Cuarto - Atletico Tucuma | scheduled
+- 2026-08-17 21:00 | All Boys - Nueva Chicago | scheduled
