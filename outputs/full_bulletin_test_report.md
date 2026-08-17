@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 8
 - Live match count: 15
-- Finished removed count: 13
+- Finished removed count: 0
 - Date window: 2026-08-17 / 2026-08-18 23:59
 
 - 2026-08-17 21:15 | Arda Kardzhali - Lokomotiv Sofia | live
