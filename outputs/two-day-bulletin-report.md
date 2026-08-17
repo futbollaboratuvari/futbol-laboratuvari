@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 109
+Ham mac: 110
 Aktif mac: 109
-Canli mac: 0
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
+Bultenden dusurulen mac: 1
 Bugun: 97
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | scheduled | -
 - 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | scheduled | -
 - 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | scheduled | -
 - 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | scheduled | -
@@ -106,6 +105,7 @@ Yarin: 12
 - 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb - Viking | scheduled | -
 - 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Levski Sofya - Aek | scheduled | -
 - 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe - Lyon | scheduled | -
+- 2026-08-18 22:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | scheduled | -
 - 2026-08-18 22:30 | Paraguay Kupa 3.Tur | Benjamin Aceva - Nacional Asunci | scheduled | -
 - 2026-08-18 23:00 | Arjantin Kupa Son 16 Turu | Riestra - Gimnasia La Pla | scheduled | -
 - 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | scheduled | -
@@ -122,7 +122,7 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | live | -
 
 ## Biten Maclar
 Biten mac yok.
