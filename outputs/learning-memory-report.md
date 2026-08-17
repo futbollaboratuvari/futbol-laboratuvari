@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 17.08.2026 11:26:47
-=======
-Oluşturma: 17.08.2026 11:28:18
->>>>>>> Stashed changes
+Oluşturma: 17.08.2026 12:03:05
 
 ## Özet
 
-- Toplam tahmin: 51
-- Bekleyen tahmin: 51
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 36
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 17.08.2026 11:28:18
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 22, bekleyen 22, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-17 | Slovakya 2.Lig | Slovan Bratisl - Humenne | MS X | pending | 50/100
-- 2026-08-17 | Malta Premier Lig Açılış | Hamrun - Mosta Fc | MS X | pending | 85/100
-- 2026-08-17 | Türkiye TFF 1. Lig | Batman Petrol - Boluspor | MS 2 | pending | 60/100
-- 2026-08-17 | Sırbistan Süper Lig | Novi Pazar - Vojvodina | MS X | pending | 50/100
-- 2026-08-17 | Norveç 3.Lig Grup 3 | Brann Ii - Os Turn Fotball | MS X | pending | 55/100
-- 2026-08-17 | Belçika Challenger Pro Lig | Rfc Liege - Francs Borains | MS X | pending | 50/100
-- 2026-08-17 | Bulgaristan 1.Lig | Arda Kardzhali - Lokomotiv Sofia | MS 2 | pending | 50/100
-- 2026-08-17 | Türkiye Süper Lig | Samsunspor - Göztepe | MS 2 | pending | 50/100
-- 2026-08-17 | Romanya 1.Lig | Fc Steaua - Botosani | MS 2 | pending | 60/100
-- 2026-08-17 | İtalya Kupa 1.Tur | Cremonese - Sampdoria | MS 2 | pending | 40/100
-- 2026-08-17 | Slovakya 2.Lig | Slovan Bratisl - Humenne | MS 2 | pending | 50/100
-- 2026-08-17 | Romanya 1.Lig | Universitatea - Uta Arad | MS 2 | pending | 40/100
-- 2026-08-17 | Litvanya A Ligi | Dziugas Telsia - Suduva | MS 1 | pending | 40/100
-- 2026-08-17 | İtalya Kupa 1.Tur | Pisa - Empoli | MS 2 | pending | 40/100
-- 2026-08-17 | Bulgaristan 1.Lig | Spartak Varna - Septemvri Sofia | MS 2 | pending | 40/100
 
