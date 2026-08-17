@@ -2,15 +2,16 @@
 
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
-Ham mac: 78
-Aktif mac: 72
-Canli mac: 6
+Ham mac: 77
+Aktif mac: 73
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 65
+Bultenden dusurulen mac: 4
+Bugun: 66
 Yarin: 7
 
 ## Baslamamis Maclar
+- 2026-08-17 17:00 | Norveç 3.Lig Grup 5 | Bossekop - Tromso Ii | scheduled | -
 - 2026-08-17 18:00 | Finlandiya Veikkausliiga | Gnistan - Ilves | scheduled | -
 - 2026-08-17 18:00 | Ukrayna Premier Lig | Polessya - Zoria Luhansk | scheduled | -
 - 2026-08-17 18:00 | Litvanya A Ligi | Fa Siauliai - Fk Panevezys | scheduled | -
@@ -85,8 +86,6 @@ Yarin: 7
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 
 ## Canli Maclar
-- 2026-08-17 13:15 | Avustralya Victoria NPL 1 | Melbourne Vict - Northcote City | live | -
-- 2026-08-17 13:30 | Avustralya Victoria NPL 1 | Bulleen Lions - North Sunshine | live | -
 - 2026-08-17 15:00 | İngiltere Professional Development Lig | Swansea (B) - Sheffield Unite | live | -
 - 2026-08-17 16:00 | Norveç 3.Lig Grup 2 | Molde 2 - Rosenborg 2 | live | -
 - 2026-08-17 16:00 | Uganda Süper 8 Yedincilik Maçı | Police - Maroons | live | -
