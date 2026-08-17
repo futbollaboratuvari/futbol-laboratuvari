@@ -3,19 +3,14 @@
 Gunler: 2026-08-17 / 2026-08-18
 Kaynak: fixtures.json
 Ham mac: 73
-Aktif mac: 49
-Canli mac: 24
+Aktif mac: 44
+Canli mac: 29
 Biten mac: 0
-Bultenden dusurulen mac: 24
-Bugun: 42
+Bultenden dusurulen mac: 29
+Bugun: 37
 Yarin: 7
 
 ## Baslamamis Maclar
-- 2026-08-17 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Zulfi - Al Riyadh | scheduled | -
-- 2026-08-17 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Taee - Al-Qadsiah | scheduled | -
-- 2026-08-17 19:30 | İtalya Kupa 1.Tur | Sassuolo - Cesena | scheduled | -
-- 2026-08-17 19:30 | Rusya FNL | Spartak Kostro - Ufa | scheduled | -
-- 2026-08-17 19:30 | Norveç 3.Lig Grup 2 | Kvik Trond - Aalesund B | scheduled | -
 - 2026-08-17 20:00 | İspanya 2.Lig | Sporting Gijon - Sabadell | scheduled | -
 - 2026-08-17 20:00 | Danimarka Süperlig | Brondby - Sonderjyske | scheduled | -
 - 2026-08-17 20:00 | İsveç Allsvenskan | Hacken - Halmstads | scheduled | -
@@ -86,6 +81,11 @@ Yarin: 7
 - 2026-08-17 19:00 | Malta Premier Lig Açılış | Birkirkara - Gzira United | live | -
 - 2026-08-17 19:00 | Norveç 3.Lig Grup 3 | Stord Sunnhord - Asane Ii | live | -
 - 2026-08-17 19:00 | Uganda Süper 8 Beşincilik Maçı | Bul - Entebbe Uppc | live | -
+- 2026-08-17 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Zulfi - Al Riyadh | live | -
+- 2026-08-17 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Taee - Al-Qadsiah | live | -
+- 2026-08-17 19:30 | İtalya Kupa 1.Tur | Sassuolo - Cesena | live | -
+- 2026-08-17 19:30 | Rusya FNL | Spartak Kostro - Ufa | live | -
+- 2026-08-17 19:30 | Norveç 3.Lig Grup 2 | Kvik Trond - Aalesund B | live | -
 
 ## Biten Maclar
 Biten mac yok.

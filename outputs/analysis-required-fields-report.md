@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 69
-Tam analiz: 59
-Eksik analiz: 10
+Toplam analiz: 66
+Tam analiz: 58
+Eksik analiz: 8
 
 - Bossekop VS Tromso Ii: eksik score, confidence
 - Auda VS Grobina: eksik score, confidence
@@ -13,5 +13,3 @@ Eksik analiz: 10
 - Al Taee VS Al-Qadsiah: eksik score, confidence
 - Al-Raed VS Al Hilal (Riyad: eksik score, confidence
 - All Boys VS Nueva Chicago: eksik score, confidence
-- Leiknir Reykja VS Aegir: eksik score, confidence
-- Afturelding VS Hk Kopavogur: eksik score, confidence
