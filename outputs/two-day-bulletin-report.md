@@ -4,8 +4,8 @@ Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
 Ham mac: 116
 Aktif mac: 99
-Canli mac: 7
-Biten mac: 10
+Canli mac: 5
+Biten mac: 12
 Bultenden dusurulen mac: 17
 Bugun: 87
 Yarin: 12
@@ -112,8 +112,6 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | live | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | live | -
 - 2026-08-18 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) - (1) Singapur | live | -
 - 2026-08-18 16:00 | İngiltere Professional Development Lig | Cardiff City U - Barnsley U21 | live | -
 - 2026-08-18 16:00 | Uganda Süper 8 Üçüncülük Maçı | Kitara - Sc Villa | live | -
@@ -131,3 +129,5 @@ Yarin: 12
 - 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
 - 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | finished | -
 - 2026-08-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Beijing Guoan | finished | -
+- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | finished | -
+- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | finished | -
