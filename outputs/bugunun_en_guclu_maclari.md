@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-18T08:48:06.268Z
+- Güncelleme: 2026-08-18T08:55:37.289Z
 - Ham maç sayısı: 103
 - Yarın bülteni maç sayısı: 12
 - Detay blok sayısı: 281
@@ -12,19 +12,19 @@
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sd Raiders - Sydney | Avustralya FFA Kupası Çeyrek Final | 12:30 | Veri bekleniyor | - | 6.74 | 4 |
+| Sd Raiders - Sydney | Avustralya FFA Kupası Çeyrek Final | 12:30 | Veri bekleniyor | - | 7.06 | 4 |
 | Shanghai Shenh - Beijing Guoan | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.84 | 8 |
 | Peterborough U - Queens Park Ran | İngiltere Professional Development Lig | 15:00 | Veri bekleniyor | - | 1.93 | 6 |
 | Bristol City U - Wigan Athletic | İngiltere Professional Development Lig | 15:00 | Veri bekleniyor | - | 1.77 | 6 |
 | Tayland (3) - (1) Singapur | AFF Şampiyonası Yarı Final | 16:00 | Veri bekleniyor | - | 1.3 | 7 |
 | Cardiff City U - Barnsley U21 | İngiltere Professional Development Lig | 16:00 | Veri bekleniyor | - | 1.57 | 6 |
-| Kitara - Sc Villa | Uganda Süper 8 Üçüncülük Maçı | 16:00 | Veri bekleniyor | - | 2.44 | 3 |
+| Kitara - Sc Villa | Uganda Süper 8 Üçüncülük Maçı | 16:00 | Veri bekleniyor | - | 2.3 | 3 |
 | Fountain Gate - Mashujaa | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 2.33 | 8 |
 | Fk Rodina Mosk - Orenburg | Rusya Kupa Premier Lig Yolu Grup A | 18:30 | Veri bekleniyor | - | 2.19 | 8 |
 | Cska Moskova - Akron | Rusya Kupa Premier Lig Yolu Grup D | 18:30 | Veri bekleniyor | - | 1.32 | 7 |
 | Nassaji Mazand - Esteghlal | İran Persian Gulf Pro Lig | 18:45 | Veri bekleniyor | - | 5.02 | 7 |
 | Peykan - Gol Gohar Sirja | İran Persian Gulf Pro Lig | 18:45 | Veri bekleniyor | - | 2.27 | 8 |
-| Shahrdari Arak - Chadormalu | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.84 | 8 |
+| Shahrdari Arak - Chadormalu | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.86 | 8 |
 | Heidenheim - B.Münih | Hazırlık Kulüpler | 19:00 | Veri bekleniyor | - | 10.75 | 6 |
 | Kampala City - Nec | Uganda Süper 8 Final | 19:00 | Veri bekleniyor | - | 1.96 | 3 |
 | Farense U23 - Estoril U23 | Portekiz U23 Ulusal Şampiyona | 19:00 | Veri bekleniyor | - | 2.16 | 8 |
@@ -58,7 +58,7 @@
 | Hornchurch - Norwich City U2 | İngiltere Ulusal Lig Kupası Grup B | 21:00 | Veri bekleniyor | - | 1.71 | 6 |
 | Solihull Moors - Middlesbrough ( | İngiltere Ulusal Lig Kupası Grup C | 21:00 | Veri bekleniyor | - | 2.34 | 6 |
 | Boreham Wood - Leeds United U2 | İngiltere Ulusal Lig Kupası Grup C | 21:00 | Veri bekleniyor | - | 1.27 | 4 |
-| Boston United - Birmingham City | İngiltere Ulusal Lig Kupası Grup D | 21:00 | Veri bekleniyor | - | 1.65 | 6 |
+| Boston United - Birmingham City | İngiltere Ulusal Lig Kupası Grup D | 21:00 | Veri bekleniyor | - | 1.68 | 6 |
 | Truro City - Southampton (B) | İngiltere Ulusal Lig Kupası Grup D | 21:00 | Veri bekleniyor | - | 2.25 | 8 |
 | Sutton United - Leicester (B) | İngiltere Ulusal Lig Kupası Grup D | 21:00 | Veri bekleniyor | - | 1.82 | 6 |
 | Braintree - Ipswich Town U2 | İngiltere Ulusal Lig Kupası Grup B | 21:30 | Veri bekleniyor | - | 2.64 | 6 |
@@ -69,7 +69,7 @@
 | Bedford Town - Buxton | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 3.75 | 8 |
 | Darlington 188 - Chester | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.82 | 8 |
 | Hebburn Town - Worksop Town | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.69 | 8 |
-| Merthyr Town - Telford | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.24 | 8 |
+| Merthyr Town - Telford | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.29 | 8 |
 | Morecambe - Gateshead(South | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.91 | 8 |
 | Oxford City - Harborough Town | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.01 | 8 |
 | Marine - Chorley | İngiltere Ulusal Lig N / S Kuzey | 21:45 | Veri bekleniyor | - | 2.35 | 8 |
@@ -81,7 +81,7 @@
 | Afc Totton - Dorking Wand. | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.7 | 8 |
 | Horsham - Hampton Richmon | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.92 | 8 |
 | Hemel - Maidenhead Utd | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.99 | 8 |
-| Slough Town - Farnham Town | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.46 | 8 |
+| Slough Town - Farnham Town | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.51 | 8 |
 | Walton And Her - Dagenham & Red | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 3.9 | 8 |
 | Maidstone Unit - Folkestone Invi | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 1.8 | 8 |
 | Aldershot - Fulham (B) | İngiltere Ulusal Lig Kupası Grup B | 21:45 | Veri bekleniyor | - | 2.21 | 6 |
@@ -93,12 +93,12 @@
 | Rylands - Quorn | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.42 | 7 |
 | Leek Town - Afc Emley | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.96 | 8 |
 | Gainsborough T - Stockton Town | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.79 | 8 |
-| Ashton United - Whitby Town | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.55 | 8 |
+| Ashton United - Whitby Town | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.58 | 8 |
 | Ilkeston Town - Warrington Town | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 2.17 | 8 |
 | Curzon Ashton - Bamber Bridge | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.52 | 8 |
 | Cleethorpes To - Alfreton | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.92 | 8 |
 | Dinamo Zagreb - Viking | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.57 | 8 |
-| Levski Sofya - Aek | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.81 | 8 |
+| Levski Sofya - Aek | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.91 | 8 |
 | Fenerbahçe - Lyon | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.82 | 8 |
 | Farense U23 - Estoril U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.18 | 8 |
 | Benjamin Aceva - Nacional Asunci | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 3.78 | 5 |

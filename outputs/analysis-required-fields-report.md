@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 90
-Tam analiz: 82
+Toplam analiz: 91
+Tam analiz: 83
 Eksik analiz: 8
 
 - Sd Raiders VS Sydney: eksik score, confidence
