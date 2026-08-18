@@ -1,20 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T15:17:29.929319+00:00
+Tarih: 2026-08-18T15:22:37.552058+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 85
+- Kac mac bulundu: 97
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 85
+- Kac mac zaten vardi: 97
 - Ham veri havuzu toplam mac sayisi: 7524
 - Hedef tarih: 18.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Arjantin Kupa Son 16 Turu
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -130,10 +136,10 @@ Tarih: 2026-08-18T15:17:29.929319+00:00
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient | Afc Wimbledon | 08708 | 5 |
 | 18.08.2026 | 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet | Arsenal U21 | 09288 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup G | Northampton | Brighton (B) | 08810 | 5 |
-| 18.08.2026 | 23:00 | Arjantin Kupa Son 16 Turu | Riestra | Gimnasia La Pla | 09193 | 3 |
-| 18.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Orenburg | 05603 | 5 |
-| 18.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny | Fakel Voronezh | 05696 | 5 |
-| 18.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup D | Rostov | L.Moskova | 05894 | 5 |
+| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
+| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
+| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
+| 19.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) | (3) Boca Juniors | 10128 | 5 |
 
 ## Sonuc
 
