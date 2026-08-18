@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 114
-Aktif mac: 104
-Canli mac: 1
-Biten mac: 9
-Bultenden dusurulen mac: 10
-Bugun: 92
+Ham mac: 105
+Aktif mac: 102
+Canli mac: 3
+Biten mac: 0
+Bultenden dusurulen mac: 3
+Bugun: 90
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | scheduled | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | scheduled | -
 - 2026-08-18 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) - (1) Singapur | scheduled | -
 - 2026-08-18 16:00 | İngiltere Professional Development Lig | Cardiff City U - Barnsley U21 | scheduled | -
 - 2026-08-18 16:00 | Uganda Süper 8 Üçüncülük Maçı | Kitara - Sc Villa | scheduled | -
@@ -118,14 +116,8 @@ Yarin: 12
 
 ## Canli Maclar
 - 2026-08-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Beijing Guoan | live | -
+- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | live | -
+- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | live | -
 
 ## Biten Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
-- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
-- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
-- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
-- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
-- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
-- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | finished | -
+Biten mac yok.
