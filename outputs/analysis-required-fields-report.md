@@ -1,11 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 66
-Tam analiz: 62
-Eksik analiz: 4
+Durum: ok
+Toplam analiz: 44
+Tam analiz: 44
+Eksik analiz: 0
 
-- Huddersfield T VS Gillingham U21: eksik score, confidence
-- Scunthorpe VS Stoke (B): eksik score, confidence
-- Boreham Wood VS Leeds United U2: eksik score, confidence
-- Al Faisaly VS Neom Sc: eksik score, confidence

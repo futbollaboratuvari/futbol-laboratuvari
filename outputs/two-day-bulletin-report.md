@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 117
+Ham mac: 56
 Aktif mac: 12
 Canli mac: 44
-Biten mac: 61
-Bultenden dusurulen mac: 105
+Biten mac: 0
+Bultenden dusurulen mac: 44
 Bugun: 0
 Yarin: 12
 
@@ -71,64 +71,4 @@ Yarin: 12
 - 2026-08-18 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | live | -
 
 ## Biten Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
-- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
-- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
-- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
-- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
-- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
-- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | finished | -
-- 2026-08-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Beijing Guoan | finished | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | finished | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | finished | -
-- 2026-08-18 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) - (1) Singapur | finished | -
-- 2026-08-18 16:00 | İngiltere Professional Development Lig | Cardiff City U - Barnsley U21 | finished | -
-- 2026-08-18 16:00 | Uganda Süper 8 Üçüncülük Maçı | Kitara - Sc Villa | finished | -
-- 2026-08-18 16:00 | Tanzanya Kuu Bara Ligi | Fountain Gate - Mashujaa | finished | -
-- 2026-08-18 16:00 | İngiltere Professional Development Lig | Charlton Athle - Bolton U21 | finished | -
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Orenburg | finished | -
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | finished | -
-- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Nassaji Mazand - Esteghlal | finished | -
-- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Peykan - Gol Gohar Sirja | finished | -
-- 2026-08-18 19:00 | İran Persian Gulf Pro Lig | Shahrdari Arak - Chadormalu | finished | -
-- 2026-08-18 19:00 | Hazırlık Kulüpler | Heidenheim - B.Münih | finished | -
-- 2026-08-18 19:00 | Uganda Süper 8 Final | Kampala City - Nec | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Gil Vicente U2 - Academico Viseu | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Marítimo U23 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Estrela U23 - Leixoes U23 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Torreense U23 - Portimonense U2 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Sporting Cp U23 | finished | -
-- 2026-08-18 19:00 | Tanzanya Kuu Bara Ligi | Namungo - Geita Gold | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Felgueiras U23 - Sporting Braga | finished | -
-- 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Akhdoud - Al Khaleej | finished | -
-- 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Najma - Al Ittihad (Cid | finished | -
-- 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain - Al Ettifaq | finished | -
-- 2026-08-18 19:30 | İran Persian Gulf Pro Lig | Sepahan - Tractor Fc | finished | -
-- 2026-08-18 19:30 | İsveç 2.Lig Södra Götaland | Nosaby If - Ifk Trelleborg | finished | -
-- 2026-08-18 20:00 | Hazırlık Kulüpler | Spelle-Venhaus - Osnabruck | finished | -
-- 2026-08-18 20:00 | Hazırlık Kulüpler | Mutilvera - Pena Sport | finished | -
-- 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny - Fakel Voronezh | finished | -
-- 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup D | Rostov - L.Moskova | finished | -
-- 2026-08-18 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah - Al Nassr (Riyad | finished | -
-- 2026-08-18 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan - Aston Villa U21 | finished | -
-- 2026-08-18 21:00 | İngiltere EFL Trophy Kuzey Grup E | Stockport - Everton (B) | finished | -
-- 2026-08-18 21:00 | İngiltere EFL Trophy Güney Grup C | Reading - Wycombe | finished | -
-- 2026-08-18 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient - Afc Wimbledon | finished | -
-- 2026-08-18 21:00 | İngiltere EFL Trophy Güney Grup G | Northampton - Brighton (B) | finished | -
-- 2026-08-18 21:00 | İngiltere Premier Lig Kupası Grup C | Huddersfield T - Gillingham U21 | finished | -
-- 2026-08-18 21:00 | İngiltere Premier Lig Kupası Grup E | Fleetwood Town - Preston North E | finished | -
-- 2026-08-18 21:00 | İsviçre 1.Lig Promotion | Bellinzona - Basel Ii | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup A | Wealdstone - Wolverhampton U | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup A | Halifax - Derby County U2 | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup A | Gateshead - Nottingham Fore | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup A | Scunthorpe - Stoke (B) | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup B | Hornchurch - Norwich City U2 | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup C | Solihull Moors - Middlesbrough ( | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup C | Boreham Wood - Leeds United U2 | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Boston United - Birmingham City | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Truro City - Southampton (B) | finished | -
-- 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Sutton United - Leicester (B) | finished | -
-- 2026-08-18 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Faisaly - Neom Sc | finished | -
+Biten mac yok.
