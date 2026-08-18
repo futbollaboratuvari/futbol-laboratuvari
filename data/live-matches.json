@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-18T15:24:54.173Z",
+  "generated_at": "2026-08-18T15:30:11.843Z",
   "date": "2026-08-18",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
   "title": "Futbol Laboratuvarı Canlı Veri",
-  "status": "waiting",
-  "message": "Şu anda başlayan karşılaşma yok.",
+  "status": "active",
+  "message": "Başlayan karşılaşmalar canlı listede.",
   "counts": {
     "total": 99,
     "current_window": 99,
-    "live": 0,
-    "scheduled": 99,
+    "live": 2,
+    "scheduled": 97,
     "finished": 0,
     "active_analysis": 87,
     "completed_analysis": 0,
     "coupon_candidates": 4,
     "watch_candidates": 37,
     "focused_markets": 16,
-    "wide_market_odds": 1281
+    "wide_market_odds": 1283
   },
   "next_match": {
     "date": "2026-08-19",
@@ -197,7 +197,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     },
     {
       "id": "Tekli-2",
@@ -292,7 +292,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     },
     {
       "id": "Tekli-3",
@@ -385,7 +385,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     },
     {
       "id": "Tekli-4",
@@ -478,7 +478,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     },
     {
       "id": "Tekli-5",
@@ -571,7 +571,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     },
     {
       "id": "2'li-1",
@@ -700,7 +700,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     },
     {
       "id": "2'li-2",
@@ -827,7 +827,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     },
     {
       "id": "3'lü-1",
@@ -1001,20 +1001,19 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-18T15:23:42.730Z"
+      "created_at": "2026-08-18T15:28:31.446Z"
     }
   ],
   "completed_items": [],
-  "matches": [],
-  "scheduled_matches": [
+  "matches": [
     {
       "date": "2026-08-18",
       "time": "18:30",
       "league": "Rusya Kupa Premier Lig Yolu Grup A",
       "home": "Fk Rodina Mosk",
       "away": "Orenburg",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
+      "status": "live",
+      "liveStatus": "live",
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
@@ -1097,8 +1096,8 @@
       "league": "Rusya Kupa Premier Lig Yolu Grup D",
       "home": "Cska Moskova",
       "away": "Akron",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
+      "status": "live",
+      "liveStatus": "live",
       "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
@@ -1166,7 +1165,9 @@
       "robot_reason": "Market: MS X | Oran: 5.53 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "raw_market_value_count": 6
-    },
+    }
+  ],
+  "scheduled_matches": [
     {
       "date": "2026-08-18",
       "time": "18:45",
@@ -1444,7 +1445,9 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 11.55,
+        "bttsNo_guess": 7.55
       },
       "odds": {
         "ms1": 6.89,
@@ -1459,12 +1462,14 @@
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
         "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
+        "secondHalfBttsNo": "-",
+        "bttsYes_guess": 11.55,
+        "bttsNo_guess": 7.55
       },
       "raw_market_guess_odds": {
-        "ms1": 9.01,
-        "msx": 6.79,
-        "ms2": 1.09,
+        "ms1": 6.89,
+        "msx": 5.89,
+        "ms2": 1.16,
         "under25": 4.18,
         "over25": 1.07
       },
@@ -1482,9 +1487,11 @@
         "firstHalfBttsYes",
         "firstHalfBttsNo",
         "secondHalfBttsYes",
-        "secondHalfBttsNo"
+        "secondHalfBttsNo",
+        "bttsYes_guess",
+        "bttsNo_guess"
       ],
-      "wide_market_odds_count": 11,
+      "wide_market_odds_count": 13,
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
       "analysis_score": 45,
@@ -2680,7 +2687,7 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
         "bttsYes_guess": 17.5,
-        "bttsNo_guess": 11.4
+        "bttsNo_guess": 11.6
       },
       "odds": {
         "ms1": 17.5,
@@ -2697,11 +2704,11 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-",
         "bttsYes_guess": 17.5,
-        "bttsNo_guess": 11.4
+        "bttsNo_guess": 11.6
       },
       "raw_market_guess_odds": {
         "bttsYes_guess": 17.5,
-        "bttsNo_guess": 11.4
+        "bttsNo_guess": 11.6
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -3817,10 +3824,10 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.93,
-        "msx": 3.29,
-        "ms2": 2.56,
-        "under25": 1.22,
+        "ms1": 2.03,
+        "msx": 3.28,
+        "ms2": 2.42,
+        "under25": 1.25,
         "over25": 1.12
       },
       "raw_odds_sequence": [],
@@ -8216,8 +8223,8 @@
         "ms1": 5.47,
         "msx": 3.7,
         "ms2": 1.38,
-        "under25": 1.65,
-        "over25": 1.76,
+        "under25": 1.67,
+        "over25": 1.72,
         "bttsYes_guess": 2.14,
         "bttsNo_guess": 1.1
       },
@@ -8328,7 +8335,7 @@
         "ms2": 3.68,
         "under25": 1.38,
         "over25": 2.05,
-        "bttsYes_guess": 1.07,
+        "bttsYes_guess": 1.08,
         "bttsNo_guess": 1.16,
         "bttsYes": null,
         "bttsNo": null
@@ -8339,18 +8346,18 @@
         "ms2": 3.68,
         "under25": 1.38,
         "over25": 2.05,
-        "bttsYes_guess": 1.07,
+        "bttsYes_guess": 1.08,
         "bttsNo_guess": 1.16,
         "bttsYes": null,
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "ms1": 1.67,
-        "msx": 2.86,
-        "ms2": 3.79,
+        "ms1": 1.69,
+        "msx": 2.88,
+        "ms2": 3.68,
         "under25": 1.38,
         "over25": 2.05,
-        "bttsYes_guess": 1.07,
+        "bttsYes_guess": 1.08,
         "bttsNo_guess": 1.16
       },
       "raw_odds_sequence": [],
@@ -8526,8 +8533,8 @@
         "ms2": 6.59,
         "under25": 1.79,
         "over25": 1.62,
-        "bttsYes_guess": 1.06,
-        "bttsNo_guess": 2.55,
+        "bttsYes_guess": 1.07,
+        "bttsNo_guess": 2.48,
         "bttsYes": null,
         "bttsNo": null
       },
@@ -8537,19 +8544,19 @@
         "ms2": 6.59,
         "under25": 1.79,
         "over25": 1.62,
-        "bttsYes_guess": 1.06,
-        "bttsNo_guess": 2.55,
+        "bttsYes_guess": 1.07,
+        "bttsNo_guess": 2.48,
         "bttsYes": null,
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "ms1": 1.25,
-        "msx": 4.31,
-        "ms2": 6.88,
+        "ms1": 1.27,
+        "msx": 4.22,
+        "ms2": 6.59,
         "under25": 1.79,
         "over25": 1.62,
-        "bttsYes_guess": 1.06,
-        "bttsNo_guess": 2.55
+        "bttsYes_guess": 1.07,
+        "bttsNo_guess": 2.48
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
@@ -8719,10 +8726,10 @@
       "source": "Maçkolik canlı robot",
       "matchCode": "05031",
       "available_odds": {
+        "bttsYes_guess": 11.85,
+        "bttsNo_guess": 17.5,
         "msx": 11.85,
         "ms2": 17.5,
-        "bttsYes_guess": 13.65,
-        "bttsNo_guess": 17.5,
         "ms1": null,
         "over25": null,
         "under25": null,
@@ -8730,10 +8737,10 @@
         "bttsNo": null
       },
       "odds": {
+        "bttsYes_guess": 11.85,
+        "bttsNo_guess": 17.5,
         "msx": 11.85,
         "ms2": 17.5,
-        "bttsYes_guess": 13.65,
-        "bttsNo_guess": 17.5,
         "ms1": null,
         "over25": null,
         "under25": null,
@@ -8741,15 +8748,15 @@
         "bttsNo": null
       },
       "raw_market_guess_odds": {
-        "bttsYes_guess": 13.65,
+        "bttsYes_guess": 11.85,
         "bttsNo_guess": 17.5
       },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
-        "msx",
-        "ms2",
         "bttsYes_guess",
         "bttsNo_guess",
+        "msx",
+        "ms2",
         "ms1",
         "over25",
         "under25",
