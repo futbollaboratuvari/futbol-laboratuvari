@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 22:07:51
+Oluşturma: 18.08.2026 22:34:40
 
 ## Özet
 
-- Toplam tahmin: 61
-- Bekleyen tahmin: 61
+- Toplam tahmin: 62
+- Bekleyen tahmin: 62
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 20
@@ -20,12 +20,13 @@ Oluşturma: 18.08.2026 22:07:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
+- MS X: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-18 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | MS X | pending | 50/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | MS X | pending | 40/100
 - 2026-08-18 | İngiltere EFL Trophy Güney Grup F | Barnet - Arsenal U21 | MS X | pending | 80/100
 - 2026-08-18 | İngiltere EFL Trophy Kuzey Grup E | Stockport - Everton (B) | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 18.08.2026 22:07:51
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | MS X | pending | 40/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | MS X | pending | 50/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Maidstone Unit - Folkestone Invi | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Redcar Athleti - Lancaster City | MS 2 | pending | 50/100
 
