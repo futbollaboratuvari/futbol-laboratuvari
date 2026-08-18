@@ -1,11 +1,10 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-<<<<<<< Updated upstream
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-18T07:03:46.839Z
+- Güncelleme: 2026-08-18T07:12:22.003Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -126,16 +125,3 @@
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-=======
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-18T07:06:56.528Z
-- Ham maç sayısı: 0
-- Yarın bülteni maç sayısı: 0
-- Detay blok sayısı: 0
-- Aktif bülten maçı: 0
-- Bültenden düşürülen maç: 0
-
-## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
->>>>>>> Stashed changes
