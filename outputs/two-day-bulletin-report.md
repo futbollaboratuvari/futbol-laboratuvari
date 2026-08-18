@@ -3,16 +3,14 @@
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
 Ham mac: 116
-Aktif mac: 81
-Canli mac: 18
+Aktif mac: 79
+Canli mac: 20
 Biten mac: 17
-Bultenden dusurulen mac: 35
-Bugun: 69
+Bultenden dusurulen mac: 37
+Bugun: 67
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 19:30 | İran Persian Gulf Pro Lig | Sepahan - Tractor Fc | scheduled | -
-- 2026-08-18 19:30 | İsveç 2.Lig Södra Götaland | Nosaby If - Ifk Trelleborg | scheduled | -
 - 2026-08-18 20:00 | Hazırlık Kulüpler | Spelle-Venhaus - Osnabruck | scheduled | -
 - 2026-08-18 20:00 | Hazırlık Kulüpler | Mutilvera - Pena Sport | scheduled | -
 - 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny - Fakel Voronezh | scheduled | -
@@ -112,6 +110,8 @@ Yarin: 12
 - 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Akhdoud - Al Khaleej | live | -
 - 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Najma - Al Ittihad (Cid | live | -
 - 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain - Al Ettifaq | live | -
+- 2026-08-18 19:30 | İran Persian Gulf Pro Lig | Sepahan - Tractor Fc | live | -
+- 2026-08-18 19:30 | İsveç 2.Lig Södra Götaland | Nosaby If - Ifk Trelleborg | live | -
 
 ## Biten Maclar
 - 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
