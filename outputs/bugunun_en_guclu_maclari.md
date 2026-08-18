@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-18T10:18:06.412Z
+- Güncelleme: 2026-08-18T10:19:55.119Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -15,7 +15,7 @@
 | Shanghai Shenh VS Beijing Guoan | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS X | 3.47 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Peterborough U VS Queens Park Ran | İngiltere Professional Development Lig | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bristol City U VS Wigan Athletic | İngiltere Professional Development Lig | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Tayland (3) VS (1) Singapur | AFF Şampiyonası Yarı Final | 16:00 | MS 2 | 5.78 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Tayland (3) VS (1) Singapur | AFF Şampiyonası Yarı Final | 16:00 | MS 2 | 5.56 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Cardiff City U VS Barnsley U21 | İngiltere Professional Development Lig | 16:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Kitara VS Sc Villa | Uganda Süper 8 Üçüncülük Maçı | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Fountain Gate VS Mashujaa | Tanzanya Kuu Bara Ligi | 16:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -51,7 +51,7 @@
 | Northampton VS Brighton (B) | İngiltere EFL Trophy Güney Grup G | 21:00 | MS 2 | 4.45 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Huddersfield T VS Gillingham U21 | İngiltere Premier Lig Kupası Grup C | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Fleetwood Town VS Preston North E | İngiltere Premier Lig Kupası Grup E | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Bellinzona VS Basel Ii | İsviçre 1.Lig Promotion | 21:00 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bellinzona VS Basel Ii | İsviçre 1.Lig Promotion | 21:00 | MS X | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Wealdstone VS Wolverhampton U | İngiltere Ulusal Lig Kupası Grup A | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Halifax VS Derby County U2 | İngiltere Ulusal Lig Kupası Grup A | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gateshead VS Nottingham Fore | İngiltere Ulusal Lig Kupası Grup A | 21:00 | MS X | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

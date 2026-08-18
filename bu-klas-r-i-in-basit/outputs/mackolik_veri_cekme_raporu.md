@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T10:06:05.153604+00:00
+Tarih: 2026-08-18T10:19:05.755169+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 91
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 89
+- Kac mac bulundu: 103
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 103
 - Ham veri havuzu toplam mac sayisi: 7521
 - Hedef tarih: 18.08.2026 Europe/Istanbul
 
@@ -16,6 +16,12 @@ Tarih: 2026-08-18T10:06:05.153604+00:00
 
 - AFF Şampiyonası Yarı Final
 - Arjantin Kupa Son 16 Turu
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -134,8 +140,8 @@ Tarih: 2026-08-18T10:06:05.153604+00:00
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient | Afc Wimbledon | 08708 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup G | Northampton | Brighton (B) | 08810 | 5 |
 | 18.08.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh | Beijing Guoan | 18481 | 5 |
-| 18.08.2026 | 23:00 | Arjantin Kupa Son 16 Turu | Riestra | Gimnasia La Pla | 09193 | 3 |
-| 18.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Orenburg | 05603 | 5 |
+| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
+| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
 
 ## Sonuc
 
