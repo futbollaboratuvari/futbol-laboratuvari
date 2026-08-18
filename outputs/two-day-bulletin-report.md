@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 116
-Aktif mac: 77
-Canli mac: 22
-Biten mac: 17
-Bultenden dusurulen mac: 39
-Bugun: 65
+Ham mac: 99
+Aktif mac: 75
+Canli mac: 24
+Biten mac: 0
+Bultenden dusurulen mac: 24
+Bugun: 63
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny - Fakel Voronezh | scheduled | -
-- 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup D | Rostov - L.Moskova | scheduled | -
 - 2026-08-18 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah - Al Nassr (Riyad | scheduled | -
 - 2026-08-18 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan - Aston Villa U21 | scheduled | -
 - 2026-08-18 21:00 | İngiltere EFL Trophy Kuzey Grup E | Stockport - Everton (B) | scheduled | -
@@ -112,22 +110,8 @@ Yarin: 12
 - 2026-08-18 19:30 | İsveç 2.Lig Södra Götaland | Nosaby If - Ifk Trelleborg | live | -
 - 2026-08-18 20:00 | Hazırlık Kulüpler | Spelle-Venhaus - Osnabruck | live | -
 - 2026-08-18 20:00 | Hazırlık Kulüpler | Mutilvera - Pena Sport | live | -
+- 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny - Fakel Voronezh | live | -
+- 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup D | Rostov - L.Moskova | live | -
 
 ## Biten Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
-- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
-- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
-- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
-- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
-- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
-- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | finished | -
-- 2026-08-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Beijing Guoan | finished | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | finished | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | finished | -
-- 2026-08-18 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) - (1) Singapur | finished | -
-- 2026-08-18 16:00 | İngiltere Professional Development Lig | Cardiff City U - Barnsley U21 | finished | -
-- 2026-08-18 16:00 | Uganda Süper 8 Üçüncülük Maçı | Kitara - Sc Villa | finished | -
-- 2026-08-18 16:00 | Tanzanya Kuu Bara Ligi | Fountain Gate - Mashujaa | finished | -
-- 2026-08-18 16:00 | İngiltere Professional Development Lig | Charlton Athle - Bolton U21 | finished | -
+Biten mac yok.
