@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 110
+Ham mac: 109
 Aktif mac: 104
 Canli mac: 5
-Biten mac: 1
-Bultenden dusurulen mac: 6
+Biten mac: 0
+Bultenden dusurulen mac: 5
 Bugun: 92
 Yarin: 12
 
@@ -124,4 +124,4 @@ Yarin: 12
 - 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | live | -
 
 ## Biten Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
+Biten mac yok.
