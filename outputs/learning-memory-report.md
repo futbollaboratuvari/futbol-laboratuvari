@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 16:12:52
+Oluşturma: 18.08.2026 16:16:15
 
 ## Özet
 
-- Toplam tahmin: 52
-- Bekleyen tahmin: 52
+- Toplam tahmin: 54
+- Bekleyen tahmin: 54
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 17
-- Seçenek sayısı: 2
+- Lig sayısı: 19
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,11 +20,14 @@ Oluşturma: 18.08.2026 16:12:52
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 - MS X: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-18 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | MS 2 | pending | 50/100
+- 2026-08-18 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | MS 1 | pending | 40/100
 - 2026-08-18 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe - Lyon | MS 2 | pending | 50/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | MS 2 | pending | 50/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | MS X | pending | 40/100
@@ -38,6 +41,4 @@ Oluşturma: 18.08.2026 16:12:52
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | MS 2 | pending | 40/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | MS 2 | pending | 50/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Ilkeston Town - Warrington Town | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Curzon Ashton - Bamber Bridge | MS 2 | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Cleethorpes To - Alfreton | MS X | pending | 50/100
 
