@@ -1,10 +1,10 @@
 # Analiz Sağlık Kontrolü
 
 Durum: ok
-Tarih: 2026-08-18
-Bugünkü bülten maçı: 44
-Robot analiz maçı: 44
-Canlı veri maçı: 44
+Tarih: 2026-08-19
+Bugünkü bülten maçı: 5
+Robot analiz maçı: 5
+Canlı veri maçı: 5
 Tekrar eden analiz: 0
 Marketsiz analiz: 0
 Skorsuz analiz: 0
