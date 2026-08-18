@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 102
 - Live match count: 2
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-18 / 2026-08-19 23:59
 
 - 2026-08-18 06:00 | Pachuca - Puebla | live
