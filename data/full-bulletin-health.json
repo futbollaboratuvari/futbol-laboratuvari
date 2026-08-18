@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:12:21.754Z",
+  "generated_at": "2026-08-18T07:59:38.965Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
@@ -19,7 +19,7 @@
     "homeScore": null,
     "awayScore": null,
     "score": "",
-    "lastLiveUpdate": "2026-08-18T07:12:18.758Z",
+    "lastLiveUpdate": "2026-08-18T07:56:12.066Z",
     "source": "Maçkolik canlı robot",
     "matchCode": "10475",
     "oddsSource": "Robot ham veri havuzu",
@@ -140,14 +140,54 @@
     "raw_market_block_count": 2,
     "raw_market_value_count": 4,
     "raw_market_source": "Robot ham veri hücreleri",
-    "flow_status": "scheduled",
-    "mbs": null,
-    "odds": {
+    "available_odds": {
       "ms1": 6.23,
       "msx": 4.67,
       "ms2": 1.2
     },
-    "available_odds": {
+    "market_odds_inventory": [
+      "ms1",
+      "msx",
+      "ms2"
+    ],
+    "wide_market_odds_count": 3,
+    "wide_market_learning_source": "fixture_odds_inventory",
+    "metric_source": "odds_proxy_pending_form_archive",
+    "metric_quality": "proxy",
+    "metric_notes": [
+      "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+      "Geniş market oran envanteri robot öğrenme verisine eklendi."
+    ],
+    "home_form_profile": {
+      "played": 0,
+      "scored": 0,
+      "conceded": 0,
+      "bttsPercent": null,
+      "over25Percent": null,
+      "over35Percent": null,
+      "goalsForAvg": null,
+      "goalsAgainstAvg": null
+    },
+    "away_form_profile": {
+      "played": 0,
+      "scored": 0,
+      "conceded": 0,
+      "bttsPercent": null,
+      "over25Percent": null,
+      "over35Percent": null,
+      "goalsForAvg": null,
+      "goalsAgainstAvg": null
+    },
+    "league_goal_profile": {
+      "played": 0,
+      "goalAverage": null,
+      "bttsPercent": null,
+      "over25Percent": null,
+      "over35Percent": null
+    },
+    "flow_status": "scheduled",
+    "mbs": null,
+    "odds": {
       "ms1": 6.23,
       "msx": 4.67,
       "ms2": 1.2
@@ -173,17 +213,40 @@
         "source": "Robot ham veri havuzu"
       }
     ],
-    "wide_market_odds_count": 3,
     "detail": {
       "analysis": "Detay analizi icin robot verisi bekleniyor.",
       "prediction": "Tahmin verisi bekleniyor",
       "confidence": null,
       "risk": "",
       "team_info": {
-        "home": null,
-        "away": null
+        "home": {
+          "played": 0,
+          "scored": 0,
+          "conceded": 0,
+          "bttsPercent": null,
+          "over25Percent": null,
+          "over35Percent": null,
+          "goalsForAvg": null,
+          "goalsAgainstAvg": null
+        },
+        "away": {
+          "played": 0,
+          "scored": 0,
+          "conceded": 0,
+          "bttsPercent": null,
+          "over25Percent": null,
+          "over35Percent": null,
+          "goalsForAvg": null,
+          "goalsAgainstAvg": null
+        }
       },
-      "league_info": null,
+      "league_info": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
       "goal_expectation": null,
       "markets": [
         {

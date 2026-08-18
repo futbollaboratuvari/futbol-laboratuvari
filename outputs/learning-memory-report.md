@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 18.08.2026 10:56:12
-=======
-Oluşturma: 18.08.2026 10:57:32
->>>>>>> Stashed changes
+Oluşturma: 18.08.2026 10:59:39
 
 ## Özet
 
-- Toplam tahmin: 51
-- Bekleyen tahmin: 51
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 17
-- Seçenek sayısı: 2
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,24 +20,8 @@ Oluşturma: 18.08.2026 10:57:32
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Dover Athletic - Tonbridge Angel | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Torquay - Weston-S-Mare | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Afc Totton - Dorking Wand. | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | MS X | pending | 40/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Maidstone Unit - Folkestone Invi | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Redcar Athleti - Lancaster City | MS 2 | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Hyde - United Of Manch | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Guiseley - Bury | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Rylands - Quorn | MS 2 | pending | 60/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Leek Town - Afc Emley | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | MS 2 | pending | 40/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | MS 2 | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Ilkeston Town - Warrington Town | MS X | pending | 50/100
 
