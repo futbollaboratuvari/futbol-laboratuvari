@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 12
-- Live match count: 8
+- Scheduled match count: 11
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-08-18 / 2026-08-19 23:59
+- Date window: 2026-08-19 / 2026-08-20 23:59
 
-- 2026-08-18 22:00 | Farense U23 - Estoril U23 | live
-- 2026-08-18 22:00 | Dinamo Zagreb - Viking | live
-- 2026-08-18 22:00 | Fenerbahçe - Lyon | live
-- 2026-08-18 22:00 | Levski Sofya - Aek | live
-- 2026-08-18 22:30 | Benjamin Aceva - Nacional Asunci | live
-- 2026-08-18 23:00 | Riestra - Gimnasia La Pla | live
-- 2026-08-18 23:00 | Yaracuyanos - Caracas Fc | live
-- 2026-08-18 23:00 | Trujillanos - Urena Fc | live
-- 2026-08-19 01:00 | Rivadavia (0) - (0) Fluminense | scheduled
-- 2026-08-19 01:00 | Deportivo Reco (1) - (3) Boca Juniors | scheduled
+- 2026-08-19 22:00 | Atletico Madri - Malaga | scheduled
+- 2026-08-19 22:00 | Moreirense U23 - Famalicão U23 | scheduled
+- 2026-08-19 22:00 | Celtic - Lask Linz | scheduled
+- 2026-08-19 22:00 | Hapoel Beer Sh - Sabah | scheduled
+- 2026-08-19 22:00 | Nijmegen - Bodo Glimt | scheduled
+- 2026-08-19 22:00 | Slovan Bratisl - Celje | scheduled
+- 2026-08-19 22:30 | Paraguari - Sportivo Luquen | scheduled
+- 2026-08-19 22:30 | Atletico Barin - Zamora | scheduled
+- 2026-08-19 22:30 | Bolívar - Dinamo Puerto L | scheduled
+- 2026-08-19 23:00 | Aragua - Fundacion Lara | scheduled
