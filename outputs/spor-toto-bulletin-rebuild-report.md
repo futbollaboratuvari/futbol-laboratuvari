@@ -1,9 +1,9 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-18T07:02:50.419Z
-- Ham fixture sayisi: 7477
-- Bugun/yarin kaynak mac: 110
-- Aktif bulten maci: 102
+- Guncelleme: 2026-08-18T08:24:42.378Z
+- Ham fixture sayisi: 7478
+- Bugun/yarin kaynak mac: 111
+- Aktif bulten maci: 103
 - Gosterilen mac: 15
 - Bultenden dusurulen mac: 8
 
@@ -21,4 +21,4 @@
 - 12. 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Peykan - Gol Gohar Sirja | scheduled
 - 13. 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Estrela U23 - Leixoes U23 | scheduled
 - 14. 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | scheduled
-- 15. 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Gil Vicente U2 - Academico Viseu | scheduled
+- 15. 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Felgueiras U23 - Sporting Braga | scheduled
