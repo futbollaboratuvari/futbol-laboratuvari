@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 21:50:45
+Oluşturma: 18.08.2026 22:06:58
 
 ## Özet
 
@@ -30,7 +30,7 @@ Oluşturma: 18.08.2026 21:50:45
 - 2026-08-18 | İngiltere EFL Trophy Güney Grup F | Barnet - Arsenal U21 | MS X | pending | 80/100
 - 2026-08-18 | İngiltere EFL Trophy Kuzey Grup E | Stockport - Everton (B) | MS X | pending | 40/100
 - 2026-08-18 | İngiltere Ulusal Lig Kupası Grup A | Gateshead - Nottingham Fore | MS 1 | pending | 50/100
-- 2026-08-18 | İngiltere EFL Trophy Kuzey Grup B | Wigan - Aston Villa U21 | MS X | pending | 40/100
+- 2026-08-18 | İngiltere EFL Trophy Kuzey Grup B | Wigan - Aston Villa U21 | MS X | pending | 70/100
 - 2026-08-18 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | MS X | pending | 40/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Torquay - Weston-S-Mare | MS 2 | pending | 50/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | MS 2 | pending | 50/100

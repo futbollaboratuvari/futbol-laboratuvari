@@ -2,55 +2,15 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 117
-Aktif mac: 56
-Canli mac: 29
-Biten mac: 32
-Bultenden dusurulen mac: 61
-Bugun: 44
+Ham mac: 80
+Aktif mac: 16
+Canli mac: 64
+Biten mac: 0
+Bultenden dusurulen mac: 64
+Bugun: 4
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Braintree - Ipswich Town U2 | scheduled | -
-- 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Worthing - West Ham (B) | scheduled | -
-- 2026-08-18 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet - Arsenal U21 | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hednesford Tow - Southport | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hereford Fc - Radcliffe Borou | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Bedford Town - Buxton | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Darlington 188 - Chester | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hebburn Town - Worksop Town | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Merthyr Town - Telford | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Morecambe - Gateshead(South | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Oxford City - Harborough Town | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Marine - Chorley | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Spalding Unite - Macclesfield | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Scarborough At - Spennymoor | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Brackley Town - Lynn Town | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Dover Athletic - Tonbridge Angel | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Torquay - Weston-S-Mare | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Afc Totton - Dorking Wand. | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Walton And Her - Dagenham & Red | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Maidstone Unit - Folkestone Invi | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig Kupası Grup B | Aldershot - Fulham (B) | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig Kupası Grup C | Tamworth - Newcastle (B) | scheduled | -
-- 2026-08-18 21:45 | İngiltere Ulusal Lig Kupası Grup D | Woking - West Brom (B) | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Redcar Athleti - Lancaster City | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Hyde - United Of Manch | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Guiseley - Bury | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Rylands - Quorn | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Leek Town - Afc Emley | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Ilkeston Town - Warrington Town | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Curzon Ashton - Bamber Bridge | scheduled | -
-- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Cleethorpes To - Alfreton | scheduled | -
-- 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb - Viking | scheduled | -
-- 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Levski Sofya - Aek | scheduled | -
-- 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe - Lyon | scheduled | -
-- 2026-08-18 22:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | scheduled | -
 - 2026-08-18 22:30 | Paraguay Kupa 3.Tur | Benjamin Aceva - Nacional Asunci | scheduled | -
 - 2026-08-18 23:00 | Arjantin Kupa Son 16 Turu | Riestra - Gimnasia La Pla | scheduled | -
 - 2026-08-18 23:00 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | scheduled | -
@@ -69,11 +29,6 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-- 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Akhdoud - Al Khaleej | live | -
-- 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Najma - Al Ittihad (Cid | live | -
-- 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain - Al Ettifaq | live | -
-- 2026-08-18 19:30 | İran Persian Gulf Pro Lig | Sepahan - Tractor Fc | live | -
-- 2026-08-18 19:30 | İsveç 2.Lig Södra Götaland | Nosaby If - Ifk Trelleborg | live | -
 - 2026-08-18 20:00 | Hazırlık Kulüpler | Spelle-Venhaus - Osnabruck | live | -
 - 2026-08-18 20:00 | Hazırlık Kulüpler | Mutilvera - Pena Sport | live | -
 - 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny - Fakel Voronezh | live | -
@@ -98,37 +53,46 @@ Yarin: 12
 - 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Truro City - Southampton (B) | live | -
 - 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Sutton United - Leicester (B) | live | -
 - 2026-08-18 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Faisaly - Neom Sc | live | -
+- 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Braintree - Ipswich Town U2 | live | -
+- 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Worthing - West Ham (B) | live | -
+- 2026-08-18 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet - Arsenal U21 | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hednesford Tow - Southport | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hereford Fc - Radcliffe Borou | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Bedford Town - Buxton | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Darlington 188 - Chester | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hebburn Town - Worksop Town | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Merthyr Town - Telford | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Morecambe - Gateshead(South | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Oxford City - Harborough Town | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Marine - Chorley | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Spalding Unite - Macclesfield | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Scarborough At - Spennymoor | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Brackley Town - Lynn Town | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Dover Athletic - Tonbridge Angel | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Torquay - Weston-S-Mare | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Afc Totton - Dorking Wand. | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Walton And Her - Dagenham & Red | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Maidstone Unit - Folkestone Invi | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig Kupası Grup B | Aldershot - Fulham (B) | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig Kupası Grup C | Tamworth - Newcastle (B) | live | -
+- 2026-08-18 21:45 | İngiltere Ulusal Lig Kupası Grup D | Woking - West Brom (B) | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Redcar Athleti - Lancaster City | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Hyde - United Of Manch | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Guiseley - Bury | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Rylands - Quorn | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Leek Town - Afc Emley | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Ilkeston Town - Warrington Town | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Curzon Ashton - Bamber Bridge | live | -
+- 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Cleethorpes To - Alfreton | live | -
+- 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb - Viking | live | -
+- 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Levski Sofya - Aek | live | -
+- 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe - Lyon | live | -
+- 2026-08-18 22:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | live | -
 
 ## Biten Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
-- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
-- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
-- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
-- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
-- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
-- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
-- 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | finished | -
-- 2026-08-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Beijing Guoan | finished | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | finished | -
-- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | finished | -
-- 2026-08-18 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) - (1) Singapur | finished | -
-- 2026-08-18 16:00 | İngiltere Professional Development Lig | Cardiff City U - Barnsley U21 | finished | -
-- 2026-08-18 16:00 | Uganda Süper 8 Üçüncülük Maçı | Kitara - Sc Villa | finished | -
-- 2026-08-18 16:00 | Tanzanya Kuu Bara Ligi | Fountain Gate - Mashujaa | finished | -
-- 2026-08-18 16:00 | İngiltere Professional Development Lig | Charlton Athle - Bolton U21 | finished | -
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Orenburg | finished | -
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | finished | -
-- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Nassaji Mazand - Esteghlal | finished | -
-- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Peykan - Gol Gohar Sirja | finished | -
-- 2026-08-18 19:00 | İran Persian Gulf Pro Lig | Shahrdari Arak - Chadormalu | finished | -
-- 2026-08-18 19:00 | Hazırlık Kulüpler | Heidenheim - B.Münih | finished | -
-- 2026-08-18 19:00 | Uganda Süper 8 Final | Kampala City - Nec | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Gil Vicente U2 - Academico Viseu | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Penafiel U23 - Marítimo U23 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Estrela U23 - Leixoes U23 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Torreense U23 - Portimonense U2 | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Vizela U23 - Sporting Cp U23 | finished | -
-- 2026-08-18 19:00 | Tanzanya Kuu Bara Ligi | Namungo - Geita Gold | finished | -
-- 2026-08-18 19:00 | Portekiz U23 Ulusal Şampiyona | Felgueiras U23 - Sporting Braga | finished | -
+Biten mac yok.
