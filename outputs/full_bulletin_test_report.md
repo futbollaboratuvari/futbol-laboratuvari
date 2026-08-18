@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 95
-- Live match count: 4
+- Scheduled match count: 81
+- Live match count: 18
 - Finished removed count: 0
 - Date window: 2026-08-18 / 2026-08-19 23:59
 
@@ -11,9 +11,9 @@
 - 2026-08-18 18:30 | Cska Moskova - Akron | live
 - 2026-08-18 18:45 | Nassaji Mazand - Esteghlal | live
 - 2026-08-18 18:45 | Peykan - Gol Gohar Sirja | live
-- 2026-08-18 19:00 | Heidenheim - B.Münih | scheduled
-- 2026-08-18 19:00 | Shahrdari Arak - Chadormalu | scheduled
-- 2026-08-18 19:00 | Estrela U23 - Leixoes U23 | scheduled
-- 2026-08-18 19:00 | Farense U23 - Estoril U23 | scheduled
-- 2026-08-18 19:00 | Felgueiras U23 - Sporting Braga | scheduled
-- 2026-08-18 19:00 | Gil Vicente U2 - Academico Viseu | scheduled
+- 2026-08-18 19:00 | Heidenheim - B.Münih | live
+- 2026-08-18 19:00 | Shahrdari Arak - Chadormalu | live
+- 2026-08-18 19:00 | Estrela U23 - Leixoes U23 | live
+- 2026-08-18 19:00 | Farense U23 - Estoril U23 | live
+- 2026-08-18 19:00 | Felgueiras U23 - Sporting Braga | live
+- 2026-08-18 19:00 | Gil Vicente U2 - Academico Viseu | live
