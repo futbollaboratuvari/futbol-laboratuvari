@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 20:46:22
+Oluşturma: 18.08.2026 20:49:35
 
 ## Özet
 
-- Toplam tahmin: 57
-- Bekleyen tahmin: 57
+- Toplam tahmin: 59
+- Bekleyen tahmin: 59
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 19
+- Lig sayısı: 20
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,14 @@ Oluşturma: 18.08.2026 20:46:22
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 39, bekleyen 39, başarı bekleniyor, ağırlık 1
+- MS X: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-18 | İngiltere EFL Trophy Kuzey Grup E | Stockport - Everton (B) | MS X | pending | 40/100
+- 2026-08-18 | İngiltere Ulusal Lig Kupası Grup A | Gateshead - Nottingham Fore | MS 1 | pending | 50/100
 - 2026-08-18 | İngiltere EFL Trophy Kuzey Grup B | Wigan - Aston Villa U21 | MS X | pending | 40/100
 - 2026-08-18 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | MS X | pending | 40/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Torquay - Weston-S-Mare | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 18.08.2026 20:46:22
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Redcar Athleti - Lancaster City | MS 2 | pending | 50/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Hyde - United Of Manch | MS X | pending | 50/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Guiseley - Bury | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Rylands - Quorn | MS 2 | pending | 60/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Leek Town - Afc Emley | MS X | pending | 50/100
 
