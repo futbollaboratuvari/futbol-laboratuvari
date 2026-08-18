@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 12
-- Live match count: 42
-- Finished removed count: 2
+- Live match count: 8
+- Finished removed count: 0
 - Date window: 2026-08-18 / 2026-08-19 23:59
 
-- 2026-08-18 21:45 | Barnet - Arsenal U21 | live
-- 2026-08-18 21:45 | Ashton United - Whitby Town | live
-- 2026-08-18 21:45 | Cleethorpes To - Alfreton | live
-- 2026-08-18 21:45 | Curzon Ashton - Bamber Bridge | live
-- 2026-08-18 21:45 | Gainsborough T - Stockton Town | live
-- 2026-08-18 21:45 | Guiseley - Bury | live
-- 2026-08-18 21:45 | Hyde - United Of Manch | live
-- 2026-08-18 21:45 | Ilkeston Town - Warrington Town | live
-- 2026-08-18 21:45 | Leek Town - Afc Emley | live
-- 2026-08-18 21:45 | Redcar Athleti - Lancaster City | live
+- 2026-08-18 22:00 | Farense U23 - Estoril U23 | live
+- 2026-08-18 22:00 | Dinamo Zagreb - Viking | live
+- 2026-08-18 22:00 | Fenerbahçe - Lyon | live
+- 2026-08-18 22:00 | Levski Sofya - Aek | live
+- 2026-08-18 22:30 | Benjamin Aceva - Nacional Asunci | live
+- 2026-08-18 23:00 | Riestra - Gimnasia La Pla | live
+- 2026-08-18 23:00 | Yaracuyanos - Caracas Fc | live
+- 2026-08-18 23:00 | Trujillanos - Urena Fc | live
+- 2026-08-19 01:00 | Rivadavia (0) - (0) Fluminense | scheduled
+- 2026-08-19 01:00 | Deportivo Reco (1) - (3) Boca Juniors | scheduled
