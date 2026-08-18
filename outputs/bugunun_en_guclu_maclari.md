@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-18T23:13:01.400Z
+- Güncelleme: 2026-08-18T23:15:07.937Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -100,7 +100,7 @@
 | Columbus VS Montreal | ABD MLS | 02:30 | MS 2 | 4.28 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | New York VS Nashville Sc | ABD MLS | 02:30 | MS X | 3.33 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Toronto VS Charlotte | ABD MLS | 02:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cincinnati VS New York City | ABD MLS | 02:30 | MS X | 3.58 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Cincinnati VS New York City | ABD MLS | 02:30 | MS X | 3.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Orlando City VS Chicago | ABD MLS | 02:30 | MS X | 3.53 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Dc United VS New England | ABD MLS | 02:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Philadelphia VS Inter Miami | ABD MLS | 02:30 | MS X | 3.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
@@ -131,7 +131,7 @@
 | Vancouver VS Houston | MS 2 | 5.02 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Sao Paulo (1) VS (1) Bolivar | MS 2 | 6.59 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Monagas VS Mineros | MS 2 | 6.41 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Cincinnati VS New York City | MS X | 3.58 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Cincinnati VS New York City | MS X | 3.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Philadelphia VS Inter Miami | MS X | 3.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Portland VS San Diego | MS X | 3.55 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
@@ -139,11 +139,11 @@
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Vancouver VS Houston + Sao Paulo (1) VS (1) Bolivar | MS 2 + MS 2 | 33.08 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Monagas VS Mineros + Cincinnati VS New York City | MS 2 + MS X | 22.95 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Monagas VS Mineros + Cincinnati VS New York City | MS 2 + MS X | 22.88 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Philadelphia VS Inter Miami + Portland VS San Diego | MS X + MS X | 12.67 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Vancouver VS Houston + Sao Paulo (1) VS (1) Bolivar + Monagas VS Mineros | MS 2 + MS 2 + MS 2 | 212.05 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Cincinnati VS New York City + Philadelphia VS Inter Miami + Portland VS San Diego | MS X + MS X + MS X | 45.37 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Cincinnati VS New York City + Philadelphia VS Inter Miami + Portland VS San Diego | MS X + MS X + MS X | 45.24 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
