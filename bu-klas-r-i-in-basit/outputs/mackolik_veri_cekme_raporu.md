@@ -1,28 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T19:56:15.449054+00:00
+Tarih: 2026-08-18T20:00:53.617678+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 15
+- Kac mac bulundu: 2
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 15
+- Kac mac zaten vardi: 2
 - Ham veri havuzu toplam mac sayisi: 7525
 - Hedef tarih: 18.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Arjantin Kupa Son 16 Turu
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Venezuela Kupa 1.Tur Grup C
-- Venezuela Kupa 1.Tur Grup D
 
 ## Okunabilen Oran Alanlari
 
@@ -79,8 +72,8 @@ Tarih: 2026-08-18T19:56:15.449054+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 10
-- Acilan detay: 10
+- Denenen Tumu alani: 9
+- Acilan detay: 9
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -93,21 +86,8 @@ Tarih: 2026-08-18T19:56:15.449054+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
-| 19.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) | (1) Bolivar | 10884 | 5 |
-| 19.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) | (3) Boca Juniors | 10128 | 5 |
-| 19.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju | Diriangen | 02065 | 5 |
-| 19.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli | Herediano | 01858 | 5 |
-| 19.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines | Hankook Verdes | 05031 | 2 |
 | 18.08.2026 | 23:00 | Arjantin Kupa Son 16 Turu | Riestra | Gimnasia La Pla | 09193 | 3 |
-| 19.08.2026 | 03:15 | Arjantin Kupa Son 16 Turu | Banfield | Midland | 17688 | 5 |
-| 19.08.2026 | 03:35 | Brezilya Serie B | Goias | Juventude | 15739 | 5 |
-| 19.08.2026 | 03:30 | Brezilya Serie B | Nautico | Ceara | 15706 | 5 |
-| 19.08.2026 | 01:30 | Brezilya Serie B | Londrina | Atletico Goiani | 05829 | 5 |
 | 18.08.2026 | 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos | Caracas Fc | 10103 | 5 |
-| 18.08.2026 | 23:00 | Venezuela Kupa 1.Tur Grup D | Trujillanos | Urena Fc | 02550 | 5 |
 
 ## Sonuc
 
