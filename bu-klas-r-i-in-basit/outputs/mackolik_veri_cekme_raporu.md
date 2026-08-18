@@ -1,27 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T09:47:57.123204+00:00
+Tarih: 2026-08-18T10:06:05.153604+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 101
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 101
-- Ham veri havuzu toplam mac sayisi: 7519
+- Kac mac bulundu: 91
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 89
+- Ham veri havuzu toplam mac sayisi: 7521
 - Hedef tarih: 18.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - AFF Şampiyonası Yarı Final
 - Arjantin Kupa Son 16 Turu
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -122,26 +116,26 @@ Tarih: 2026-08-18T09:47:57.123204+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb | Viking | 06212 | 5 |
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Levski Sofya | Aek | 09975 | 5 |
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe | Lyon | 09814 | 5 |
-| 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb | Viking | 06212 | 5 |
-| 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain | Al Ettifaq | 04797 | 5 |
 | 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Akhdoud | Al Khaleej | 05354 | 5 |
 | 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Najma | Al Ittihad (Cid | 04802 | 3 |
+| 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain | Al Ettifaq | 04797 | 5 |
 | 18.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah | Al Nassr (Riyad | 04733 | 5 |
 | 18.08.2026 | 19:00 | Hazırlık Kulüpler | Heidenheim | B.Münih | 01656 | 5 |
+| 18.08.2026 | 20:00 | Hazırlık Kulüpler | Spelle-Venhaus | Osnabruck | 06684 | 2 |
+| 18.08.2026 | 20:00 | Hazırlık Kulüpler | Mutilvera | Pena Sport | 07239 | 5 |
 | 18.08.2026 | 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) | (1) Singapur | 09195 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Aston Villa U21 | 05995 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup E | Stockport | Everton (B) | 08963 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup C | Reading | Wycombe | 08890 | 5 |
-| 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient | Afc Wimbledon | 08708 | 5 |
 | 18.08.2026 | 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet | Arsenal U21 | 09288 | 5 |
+| 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient | Afc Wimbledon | 08708 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup G | Northampton | Brighton (B) | 08810 | 5 |
 | 18.08.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh | Beijing Guoan | 18481 | 5 |
-| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
-| 19.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) | (3) Boca Juniors | 10128 | 5 |
+| 18.08.2026 | 23:00 | Arjantin Kupa Son 16 Turu | Riestra | Gimnasia La Pla | 09193 | 3 |
+| 18.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Orenburg | 05603 | 5 |
 
 ## Sonuc
 
