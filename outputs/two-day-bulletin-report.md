@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 105
-Aktif mac: 102
+Ham mac: 115
+Aktif mac: 103
 Canli mac: 3
-Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 90
+Biten mac: 9
+Bultenden dusurulen mac: 12
+Bugun: 91
 Yarin: 12
 
 ## Baslamamis Maclar
@@ -101,6 +101,7 @@ Yarin: 12
 - 2026-08-18 22:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | scheduled | -
 - 2026-08-18 22:30 | Paraguay Kupa 3.Tur | Benjamin Aceva - Nacional Asunci | scheduled | -
 - 2026-08-18 23:00 | Arjantin Kupa Son 16 Turu | Riestra - Gimnasia La Pla | scheduled | -
+- 2026-08-18 23:00 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | scheduled | -
 - 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | scheduled | -
 - 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | scheduled | -
 - 2026-08-19 01:30 | Brezilya Serie B | Londrina - Atletico Goiani | scheduled | -
@@ -120,4 +121,12 @@ Yarin: 12
 - 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
+- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
+- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
+- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
+- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
+- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
+- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
+- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
+- 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | finished | -
