@@ -1,29 +1,42 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T22:38:01.639987+00:00
+Tarih: 2026-08-18T22:48:47.561013+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 60
+- Kac mac bulundu: 101
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 60
+- Kac mac zaten vardi: 101
 - Ham veri havuzu toplam mac sayisi: 7626
 - Hedef tarih: 19.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya Bölgesel Lig Kuzey
+- Arjantin Kupa Son 16 Turu
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Çeyrek Final
 - Avustralya NPL Victoria
 - Belarus Premier Lig
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Güney Kore FA Kupası Son 16 Turu
 - Hazırlık Joan Gamper Kupası Final
+- Kanada Premier Lig
 - Kazakistan Kupa Yarı Final
+- Kolombiya Primera A Clausura
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeydoğu
 - Paraguay Kupa 3.Tur
@@ -35,8 +48,10 @@ Tarih: 2026-08-18T22:38:01.639987+00:00
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Tanzanya Kuu Bara Ligi
 - UEFA Şampiyonlar Ligi Play Off
+- Venezuela Kupa 1.Tur Grup A
 - Venezuela Kupa 1.Tur Grup B
 - Venezuela Kupa 1.Tur Grup C
+- Venezuela Kupa 1.Tur Grup D
 - Venezuela Kupa 1.Tur Grup E
 - Çin Halk Cumhuriyeti Süper Lig
 - İngiltere EFL Trophy Kuzey Grup D
@@ -128,14 +143,14 @@ Tarih: 2026-08-18T22:38:01.639987+00:00
 | 19.08.2026 | 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia | Melbourne Victo | 04610 | 5 |
 | 19.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield | Man City U21 | 09353 | 5 |
 | 19.08.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port | Dalian Zhixing | 09714 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen | Gwangju | 04952 | 5 |
-| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon | Seongnam | 08131 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa | Daejeon Citizen | 07882 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Gimpo Citizen | Gimcheon Sangmu | 07884 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Pohang Steeler | Jinju Citizen | 07887 | 5 |
-| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark | Bucheon | 07888 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Jeonbuk Hm | Dangjin Citizen | 07885 | 5 |
-| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang | Jeju Utd | 18257 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Seattle | Austin | 16677 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Portland | San Diego | 16826 | 5 |
+| 20.08.2026 | 03:00 | ABD MLS | Kansas | St. Louis City | 16445 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Vancouver | Houston | 16884 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Los Angeles | San Jose | 16768 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Columbus | Montreal | 16003 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | New York | Nashville Sc | 16195 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Salt Lake | Dallas | 16619 | 5 |
 
 ## Sonuc
 
