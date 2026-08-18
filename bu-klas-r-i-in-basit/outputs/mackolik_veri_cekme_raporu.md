@@ -1,26 +1,51 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T20:59:01.574635+00:00
+Tarih: 2026-08-18T21:04:20.127029+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 12
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 12
-- Ham veri havuzu toplam mac sayisi: 7525
-- Hedef tarih: 18.08.2026 Europe/Istanbul
+- Kac mac bulundu: 60
+- Kac mac kaydedildi: 60
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 7585
+- Hedef tarih: 19.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Kupa Son 16 Turu
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
+- AFF Şampiyonası Yarı Final
+- Almanya Bölgesel Lig Kuzey
+- Arjantin Ulusal Primera Lig
+- Avustralya FFA Kupası Çeyrek Final
+- Avustralya NPL Victoria
+- Belarus Premier Lig
+- Güney Afrika PSL
+- Güney Kore FA Kupası Son 16 Turu
+- Hazırlık Joan Gamper Kupası Final
+- Kazakistan Kupa Yarı Final
+- Macaristan NB III Güneydoğu
+- Macaristan NB III Kuzeydoğu
+- Paraguay Kupa 3.Tur
+- Portekiz U23 Ulusal Şampiyona
+- Rusya FNL
+- Rusya Kupa Premier Lig Yolu Grup A
+- Rusya Kupa Premier Lig Yolu Grup B
+- Rusya Kupa Premier Lig Yolu Grup C
+- Suudi Arabistan Kral Kupası Son 32 Turu
+- Tanzanya Kuu Bara Ligi
+- UEFA Şampiyonlar Ligi Play Off
+- Venezuela Kupa 1.Tur Grup B
+- Venezuela Kupa 1.Tur Grup C
+- Venezuela Kupa 1.Tur Grup E
+- Çin Halk Cumhuriyeti Süper Lig
+- İngiltere EFL Trophy Kuzey Grup D
+- İngiltere Non League Premier Kuzey
+- İngiltere Ulusal Lig N / S Güney
+- İran Persian Gulf Pro Lig
+- İspanya LaLiga
+- İsviçre 1.Lig Promotion
+- İzlanda 2.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -77,8 +102,8 @@ Tarih: 2026-08-18T20:59:01.574635+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 7
-- Acilan detay: 7
+- Denenen Tumu alani: 47
+- Acilan detay: 47
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -91,18 +116,26 @@ Tarih: 2026-08-18T20:59:01.574635+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
-| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
-| 19.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) | (1) Bolivar | 10884 | 5 |
-| 19.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) | (3) Boca Juniors | 10128 | 5 |
-| 19.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju | Diriangen | 02065 | 5 |
-| 19.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli | Herediano | 01858 | 5 |
-| 19.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines | Hankook Verdes | 05031 | 2 |
-| 19.08.2026 | 03:15 | Arjantin Kupa Son 16 Turu | Banfield | Midland | 17688 | 5 |
-| 19.08.2026 | 03:30 | Brezilya Serie B | Nautico | Ceara | 15706 | 5 |
-| 19.08.2026 | 03:35 | Brezilya Serie B | Goias | Juventude | 15739 | 5 |
-| 19.08.2026 | 01:30 | Brezilya Serie B | Londrina | Atletico Goiani | 05829 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl | Celje | 12550 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen | Bodo Glimt | 11505 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic | Lask Linz | 11091 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh | Sabah | 11248 | 5 |
+| 19.08.2026 | 22:00 | İspanya LaLiga | Atletico Madri | Malaga | 17456 | 5 |
+| 19.08.2026 | 21:00 | Hazırlık Joan Gamper Kupası Final | Barcelona | Al Ahly | 18622 | 4 |
+| 19.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak | Al Taawon | 07889 | 3 |
+| 19.08.2026 | 19:30 | Suudi Arabistan Kral Kupası Son 32 Turu | Jeddah Club | Al Kholood | 07900 | 3 |
+| 19.08.2026 | 16:00 | AFF Şampiyonası Yarı Final | Vietnam (2) | (0) Malezya | 09180 | 5 |
+| 19.08.2026 | 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia | Melbourne Victo | 04610 | 5 |
+| 19.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield | Man City U21 | 09353 | 5 |
+| 19.08.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port | Dalian Zhixing | 09714 | 5 |
+| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen | Gwangju | 04952 | 5 |
+| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon | Seongnam | 08131 | 5 |
+| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa | Daejeon Citizen | 07882 | 5 |
+| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Gimpo Citizen | Gimcheon Sangmu | 07884 | 5 |
+| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Pohang Steeler | Jinju Citizen | 07887 | 5 |
+| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark | Bucheon | 07888 | 5 |
+| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Jeonbuk Hm | Dangjin Citizen | 07885 | 5 |
+| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang | Jeju Utd | 18257 | 5 |
 
 ## Sonuc
 

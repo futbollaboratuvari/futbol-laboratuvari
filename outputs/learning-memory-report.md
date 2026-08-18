@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 23:59:42
+Oluşturma: 19.08.2026 00:05:09
 
 ## Özet
 
-- Toplam tahmin: 62
-- Bekleyen tahmin: 62
+- Toplam tahmin: 67
+- Bekleyen tahmin: 67
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 20
+- Lig sayısı: 24
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,17 @@ Oluşturma: 18.08.2026 23:59:42
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
+- MS X: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 21, bekleyen 21, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-19 | Brezilya Serie B | Londrina - Atletico Goiani | MS X | pending | 40/100
+- 2026-08-19 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | MS 2 | pending | 75/100
+- 2026-08-19 | Brezilya Serie B | Nautico - Ceara | MS 2 | pending | 40/100
+- 2026-08-19 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | MS 2 | pending | 50/100
+- 2026-08-19 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | MS 2 | pending | 40/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | MS X | pending | 50/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | MS X | pending | 40/100
 - 2026-08-18 | İngiltere EFL Trophy Güney Grup F | Barnet - Arsenal U21 | MS X | pending | 80/100
@@ -36,9 +41,4 @@ Oluşturma: 18.08.2026 23:59:42
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Torquay - Weston-S-Mare | MS 2 | pending | 50/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | MS 2 | pending | 50/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | MS 1 | pending | 40/100
-- 2026-08-18 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe - Lyon | MS 2 | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | MS 2 | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | MS X | pending | 40/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | MS X | pending | 50/100
-- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Maidstone Unit - Folkestone Invi | MS X | pending | 50/100
 
