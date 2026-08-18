@@ -1,14 +1,13 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-18 / 2026-08-19
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 105
-Aktif mac: 104
+Kaynak: fixtures.json
+Ham mac: 114
+Aktif mac: 105
 Canli mac: 1
-Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 92
+Biten mac: 8
+Bultenden dusurulen mac: 9
+Bugun: 93
 Yarin: 12
 
 ## Baslamamis Maclar
@@ -19,6 +18,7 @@ Yarin: 12
 - 2026-08-18 16:00 | İngiltere Professional Development Lig | Cardiff City U - Barnsley U21 | scheduled | -
 - 2026-08-18 16:00 | Uganda Süper 8 Üçüncülük Maçı | Kitara - Sc Villa | scheduled | -
 - 2026-08-18 16:00 | Tanzanya Kuu Bara Ligi | Fountain Gate - Mashujaa | scheduled | -
+- 2026-08-18 16:00 | İngiltere Professional Development Lig | Charlton Athle - Bolton U21 | scheduled | -
 - 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Orenburg | scheduled | -
 - 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | scheduled | -
 - 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Nassaji Mazand - Esteghlal | scheduled | -
@@ -121,4 +121,11 @@ Yarin: 12
 - 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
+- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
+- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
+- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
+- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
+- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
+- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
+- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
