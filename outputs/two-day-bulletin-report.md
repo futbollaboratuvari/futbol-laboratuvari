@@ -3,15 +3,14 @@
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
 Ham mac: 110
-Aktif mac: 105
+Aktif mac: 104
 Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 93
+Biten mac: 1
+Bultenden dusurulen mac: 6
+Bugun: 92
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | scheduled | -
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 - 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 - 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | scheduled | -
@@ -118,11 +117,11 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | live | -
 - 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | live | -
 - 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | live | -
 - 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | live | -
 - 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | live | -
+- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
