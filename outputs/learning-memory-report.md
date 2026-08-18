@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 18:01:47
+Oluşturma: 18.08.2026 18:18:32
 
 ## Özet
 
-- Toplam tahmin: 55
-- Bekleyen tahmin: 55
+- Toplam tahmin: 56
+- Bekleyen tahmin: 56
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 19
@@ -20,12 +20,13 @@ Oluşturma: 18.08.2026 18:01:47
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
-- MS X: toplam 37, bekleyen 37, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-18 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | MS X | pending | 40/100
 - 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Torquay - Weston-S-Mare | MS 2 | pending | 50/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | MS 2 | pending | 50/100
 - 2026-08-18 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | MS 1 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 18.08.2026 18:01:47
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Rylands - Quorn | MS 2 | pending | 60/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Leek Town - Afc Emley | MS X | pending | 50/100
 - 2026-08-18 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | MS 2 | pending | 40/100
-- 2026-08-18 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | MS 2 | pending | 50/100
 
