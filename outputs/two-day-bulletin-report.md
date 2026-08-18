@@ -3,15 +3,14 @@
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
 Ham mac: 117
-Aktif mac: 16
-Canli mac: 64
-Biten mac: 37
-Bultenden dusurulen mac: 101
-Bugun: 4
+Aktif mac: 15
+Canli mac: 63
+Biten mac: 39
+Bultenden dusurulen mac: 102
+Bugun: 3
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 22:30 | Paraguay Kupa 3.Tur | Benjamin Aceva - Nacional Asunci | scheduled | -
 - 2026-08-18 23:00 | Arjantin Kupa Son 16 Turu | Riestra - Gimnasia La Pla | scheduled | -
 - 2026-08-18 23:00 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | scheduled | -
 - 2026-08-18 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | scheduled | -
@@ -29,8 +28,6 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-- 2026-08-18 20:00 | Hazırlık Kulüpler | Spelle-Venhaus - Osnabruck | live | -
-- 2026-08-18 20:00 | Hazırlık Kulüpler | Mutilvera - Pena Sport | live | -
 - 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny - Fakel Voronezh | live | -
 - 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup D | Rostov - L.Moskova | live | -
 - 2026-08-18 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah - Al Nassr (Riyad | live | -
@@ -93,6 +90,7 @@ Yarin: 12
 - 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Levski Sofya - Aek | live | -
 - 2026-08-18 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe - Lyon | live | -
 - 2026-08-18 22:00 | Portekiz U23 Ulusal Şampiyona | Farense U23 - Estoril U23 | live | -
+- 2026-08-18 22:30 | Paraguay Kupa 3.Tur | Benjamin Aceva - Nacional Asunci | live | -
 
 ## Biten Maclar
 - 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
@@ -132,3 +130,5 @@ Yarin: 12
 - 2026-08-18 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain - Al Ettifaq | finished | -
 - 2026-08-18 19:30 | İran Persian Gulf Pro Lig | Sepahan - Tractor Fc | finished | -
 - 2026-08-18 19:30 | İsveç 2.Lig Södra Götaland | Nosaby If - Ifk Trelleborg | finished | -
+- 2026-08-18 20:00 | Hazırlık Kulüpler | Spelle-Venhaus - Osnabruck | finished | -
+- 2026-08-18 20:00 | Hazırlık Kulüpler | Mutilvera - Pena Sport | finished | -
