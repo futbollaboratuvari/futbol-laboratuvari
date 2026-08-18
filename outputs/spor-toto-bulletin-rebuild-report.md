@@ -1,11 +1,11 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-18T20:59:06.086Z
-- Ham fixture sayisi: 7484
-- Bugun/yarin kaynak mac: 117
-- Aktif bulten maci: 12
-- Gosterilen mac: 12
-- Bultenden dusurulen mac: 105
+- Guncelleme: 2026-08-18T21:21:58.674Z
+- Ham fixture sayisi: 7585
+- Bugun/yarin kaynak mac: 113
+- Aktif bulten maci: 113
+- Gosterilen mac: 15
+- Bultenden dusurulen mac: 0
 
 - 1. 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | scheduled
 - 2. 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | scheduled
@@ -19,3 +19,6 @@
 - 10. 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | scheduled
 - 11. 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled
 - 12. 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | scheduled
+- 13. 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | scheduled
+- 14. 2026-08-19 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia - Melbourne Victo | scheduled
+- 15. 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa - Daejeon Citizen | scheduled
