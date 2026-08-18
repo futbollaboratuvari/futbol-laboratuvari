@@ -1,9 +1,15 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 2
-Tam analiz: 0
-Eksik analiz: 2
+Toplam analiz: 93
+Tam analiz: 85
+Eksik analiz: 8
 
-- Benjamin Aceva VS Nacional Asunci: eksik score, confidence
-- Riestra VS Gimnasia La Pla: eksik score, confidence
+- Sd Raiders VS Sydney: eksik score, confidence
+- Tayland (3) VS (1) Singapur: eksik score, confidence
+- Kitara VS Sc Villa: eksik score, confidence
+- Kampala City VS Nec: eksik score, confidence
+- Al Najma VS Al Ittihad (Cid: eksik score, confidence
+- Huddersfield T VS Gillingham U21: eksik score, confidence
+- Scunthorpe VS Stoke (B): eksik score, confidence
+- Boreham Wood VS Leeds United U2: eksik score, confidence

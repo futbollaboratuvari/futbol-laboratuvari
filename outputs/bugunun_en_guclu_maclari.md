@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-18T03:02:50.826Z
-- Ham maç sayısı: 107
+- Güncelleme: 2026-08-18T03:10:54.807Z
+- Ham maç sayısı: 105
 - Yarın bülteni maç sayısı: 12
-- Detay blok sayısı: 292
-- Aktif bülten maçı: 103
-- Bültenden düşürülen maç: 4
+- Detay blok sayısı: 286
+- Aktif bülten maçı: 102
+- Bültenden düşürülen maç: 3
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pachuca - Puebla | Meksika Liga MX Apertura | 06:06 | Veri bekleniyor | - | 1.34 | 7 |
 | Sd Raiders - Sydney | Avustralya FFA Kupası Çeyrek Final | 12:30 | Veri bekleniyor | - | 6.36 | 4 |
 | Shanghai Shenh - Beijing Guoan | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.83 | 8 |
 | Peterborough U - Queens Park Ran | İngiltere Professional Development Lig | 15:00 | Veri bekleniyor | - | 1.98 | 6 |

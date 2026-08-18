@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 110
-Aktif mac: 104
+Ham mac: 105
+Aktif mac: 102
 Canli mac: 3
-Biten mac: 3
-Bultenden dusurulen mac: 6
-Bugun: 92
+Biten mac: 0
+Bultenden dusurulen mac: 3
+Bugun: 90
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
-- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | scheduled | -
 - 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | scheduled | -
 - 2026-08-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Beijing Guoan | scheduled | -
 - 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | scheduled | -
@@ -117,11 +115,9 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | live | -
-- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | live | -
 - 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | live | -
+- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | live | -
+- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | live | -
 
 ## Biten Maclar
-- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
-- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
-- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
+Biten mac yok.
