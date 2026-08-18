@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 105
+Ham mac: 104
 Aktif mac: 102
-Canli mac: 3
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 3
+Bultenden dusurulen mac: 2
 Bugun: 90
 Yarin: 12
 
@@ -115,7 +115,6 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | live | -
 - 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | live | -
 - 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | live | -
 
