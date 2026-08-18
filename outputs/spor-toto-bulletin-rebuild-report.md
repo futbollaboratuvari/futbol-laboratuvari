@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-18T18:22:54.812Z
+- Guncelleme: 2026-08-18T19:05:48.513Z
 - Ham fixture sayisi: 7484
 - Bugun/yarin kaynak mac: 117
-- Aktif bulten maci: 56
+- Aktif bulten maci: 16
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 61
+- Bultenden dusurulen mac: 101
 
-- 1. 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Braintree - Ipswich Town U2 | scheduled
-- 2. 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Worthing - West Ham (B) | scheduled
-- 3. 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Afc Totton - Dorking Wand. | scheduled
-- 4. 2026-08-18 21:45 | İngiltere Ulusal Lig Kupası Grup B | Aldershot - Fulham (B) | scheduled
-- 5. 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | scheduled
-- 6. 2026-08-18 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet - Arsenal U21 | scheduled
-- 7. 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Bedford Town - Buxton | scheduled
-- 8. 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Brackley Town - Lynn Town | scheduled
-- 9. 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Cleethorpes To - Alfreton | scheduled
-- 10. 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Curzon Ashton - Bamber Bridge | scheduled
-- 11. 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Darlington 188 - Chester | scheduled
-- 12. 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Güney | Dover Athletic - Tonbridge Angel | scheduled
-- 13. 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | scheduled
-- 14. 2026-08-18 21:45 | İngiltere Non League Premier Kuzey | Guiseley - Bury | scheduled
-- 15. 2026-08-18 21:45 | İngiltere Ulusal Lig N / S Kuzey | Hebburn Town - Worksop Town | scheduled
+- 1. 2026-08-18 22:30 | Paraguay Kupa 3.Tur | Benjamin Aceva - Nacional Asunci | scheduled
+- 2. 2026-08-18 23:00 | Arjantin Kupa Son 16 Turu | Riestra - Gimnasia La Pla | scheduled
+- 3. 2026-08-18 23:00 | Venezuela Kupa 1.Tur Grup D | Trujillanos - Urena Fc | scheduled
+- 4. 2026-08-18 23:00 | Venezuela Kupa 1.Tur Grup C | Yaracuyanos - Caracas Fc | scheduled
+- 5. 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | scheduled
+- 6. 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | scheduled
+- 7. 2026-08-19 01:30 | Brezilya Serie B | Londrina - Atletico Goiani | scheduled
+- 8. 2026-08-19 03:15 | Arjantin Kupa Son 16 Turu | Banfield - Midland | scheduled
+- 9. 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | scheduled
+- 10. 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | scheduled
+- 11. 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | scheduled
+- 12. 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) - (1) Estudiantes Lp | scheduled
+- 13. 2026-08-19 03:35 | Brezilya Serie B | Goias - Juventude | scheduled
+- 14. 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | scheduled
+- 15. 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled

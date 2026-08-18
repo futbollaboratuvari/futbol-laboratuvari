@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-18T19:05:34.646Z
+- Güncelleme: 2026-08-18T19:06:32.867Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -77,7 +77,7 @@
 | Farense U23 VS Estoril U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Benjamin Aceva VS Nacional Asunci | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Riestra VS Gimnasia La Pla | Arjantin Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Trujillanos VS Urena Fc | Venezuela Kupa 1.Tur Grup D | 23:00 | MS 2 | 3.29 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Trujillanos VS Urena Fc | Venezuela Kupa 1.Tur Grup D | 23:00 | MS 2 | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Yaracuyanos VS Caracas Fc | Venezuela Kupa 1.Tur Grup C | 23:00 | MS X | 3.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Rivadavia (0) VS (0) Fluminense | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Deportivo Reco (1) VS (3) Boca Juniors | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |

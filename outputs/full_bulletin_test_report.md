@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 16
 - Live match count: 64
-- Finished removed count: 5
+- Finished removed count: 0
 - Date window: 2026-08-18 / 2026-08-19 23:59
 
 - 2026-08-18 20:00 | Mutilvera - Pena Sport | live
