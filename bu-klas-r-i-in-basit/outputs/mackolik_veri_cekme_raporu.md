@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T17:51:56.436102+00:00
+Tarih: 2026-08-18T18:22:51.580720+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 77
+- Kac mac bulundu: 57
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 77
+- Kac mac zaten vardi: 57
 - Ham veri havuzu toplam mac sayisi: 7525
 - Hedef tarih: 18.08.2026 Europe/Istanbul
 
@@ -23,26 +23,17 @@ Tarih: 2026-08-18T17:51:56.436102+00:00
 - Copa Sudamericana Son 16 Turu
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
-- Rusya Kupa Premier Lig Yolu Grup D
-- Suudi Arabistan Kral Kupası Son 32 Turu
 - UEFA Şampiyonlar Ligi Play Off
 - Venezuela Kupa 1.Tur Grup C
 - Venezuela Kupa 1.Tur Grup D
-- İngiltere EFL Trophy Güney Grup C
 - İngiltere EFL Trophy Güney Grup F
-- İngiltere EFL Trophy Güney Grup G
-- İngiltere EFL Trophy Kuzey Grup B
-- İngiltere EFL Trophy Kuzey Grup E
 - İngiltere Non League Premier Kuzey
-- İngiltere Premier Lig Kupası Grup C
 - İngiltere Premier Lig Kupası Grup E
-- İngiltere Ulusal Lig Kupası Grup A
 - İngiltere Ulusal Lig Kupası Grup B
 - İngiltere Ulusal Lig Kupası Grup C
 - İngiltere Ulusal Lig Kupası Grup D
 - İngiltere Ulusal Lig N / S Güney
 - İngiltere Ulusal Lig N / S Kuzey
-- İsviçre 1.Lig Promotion
 
 ## Okunabilen Oran Alanlari
 
@@ -99,8 +90,8 @@ Tarih: 2026-08-18T17:51:56.436102+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 30
-- Acilan detay: 30
+- Denenen Tumu alani: 21
+- Acilan detay: 21
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -113,26 +104,26 @@ Tarih: 2026-08-18T17:51:56.436102+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb | Viking | 06212 | 5 |
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Levski Sofya | Aek | 09975 | 5 |
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe | Lyon | 09814 | 5 |
-| 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb | Viking | 06212 | 5 |
-| 18.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah | Al Nassr (Riyad | 04733 | 5 |
-| 18.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Faisaly | Neom Sc | 00153 | 3 |
-| 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Aston Villa U21 | 05995 | 5 |
-| 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup E | Stockport | Everton (B) | 08963 | 5 |
-| 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup C | Reading | Wycombe | 08890 | 5 |
 | 18.08.2026 | 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet | Arsenal U21 | 09288 | 5 |
-| 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient | Afc Wimbledon | 08708 | 5 |
-| 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup G | Northampton | Brighton (B) | 08810 | 5 |
-| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
 | 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
+| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
+| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
 | 19.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) | (1) Bolivar | 10884 | 5 |
 | 19.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) | (3) Boca Juniors | 10128 | 5 |
 | 19.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju | Diriangen | 02065 | 5 |
 | 19.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli | Herediano | 01858 | 5 |
 | 19.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines | Hankook Verdes | 05031 | 2 |
 | 18.08.2026 | 23:00 | Arjantin Kupa Son 16 Turu | Riestra | Gimnasia La Pla | 09193 | 3 |
+| 19.08.2026 | 03:15 | Arjantin Kupa Son 16 Turu | Banfield | Midland | 17688 | 5 |
+| 18.08.2026 | 21:00 | İngiltere Premier Lig Kupası Grup E | Fleetwood Town | Preston North E | 10493 | 3 |
+| 19.08.2026 | 01:30 | Brezilya Serie B | Londrina | Atletico Goiani | 05829 | 5 |
+| 19.08.2026 | 03:30 | Brezilya Serie B | Nautico | Ceara | 15706 | 5 |
+| 19.08.2026 | 03:35 | Brezilya Serie B | Goias | Juventude | 15739 | 5 |
+| 18.08.2026 | 21:45 | İngiltere Ulusal Lig N / S Kuzey | Spalding Unite | Macclesfield | 08051 | 5 |
+| 18.08.2026 | 21:45 | İngiltere Ulusal Lig N / S Kuzey | Brackley Town | Lynn Town | 07251 | 5 |
 
 ## Sonuc
 

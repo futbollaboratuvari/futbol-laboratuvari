@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 76
-- Live match count: 22
+- Scheduled match count: 56
+- Live match count: 29
 - Finished removed count: 0
 - Date window: 2026-08-18 / 2026-08-19 23:59
 
-- 2026-08-18 18:45 | Nassaji Mazand - Esteghlal | live
-- 2026-08-18 18:45 | Peykan - Gol Gohar Sirja | live
-- 2026-08-18 19:00 | Heidenheim - B.Münih | live
-- 2026-08-18 19:00 | Shahrdari Arak - Chadormalu | live
-- 2026-08-18 19:00 | Estrela U23 - Leixoes U23 | live
-- 2026-08-18 19:00 | Farense U23 - Estoril U23 | live
-- 2026-08-18 19:00 | Felgueiras U23 - Sporting Braga | live
-- 2026-08-18 19:00 | Gil Vicente U2 - Academico Viseu | live
-- 2026-08-18 19:00 | Penafiel U23 - Marítimo U23 | live
-- 2026-08-18 19:00 | Torreense U23 - Portimonense U2 | live
+- 2026-08-18 19:15 | Al Akhdoud - Al Khaleej | live
+- 2026-08-18 19:15 | Al Jabalain - Al Ettifaq | live
+- 2026-08-18 19:15 | Al Najma - Al Ittihad (Cid | live
+- 2026-08-18 19:30 | Sepahan - Tractor Fc | live
+- 2026-08-18 19:30 | Nosaby If - Ifk Trelleborg | live
+- 2026-08-18 20:00 | Mutilvera - Pena Sport | live
+- 2026-08-18 20:00 | Spelle-Venhaus - Osnabruck | live
+- 2026-08-18 20:45 | Akhmat Grozny - Fakel Voronezh | live
+- 2026-08-18 20:45 | Rostov - L.Moskova | live
+- 2026-08-18 21:00 | Reading - Wycombe | live
