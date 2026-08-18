@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
-Ham mac: 99
-Aktif mac: 75
-Canli mac: 24
-Biten mac: 0
-Bultenden dusurulen mac: 24
-Bugun: 63
+Ham mac: 117
+Aktif mac: 76
+Canli mac: 22
+Biten mac: 19
+Bultenden dusurulen mac: 41
+Bugun: 64
 Yarin: 12
 
 ## Baslamamis Maclar
@@ -30,6 +30,7 @@ Yarin: 12
 - 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Boston United - Birmingham City | scheduled | -
 - 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Truro City - Southampton (B) | scheduled | -
 - 2026-08-18 21:00 | İngiltere Ulusal Lig Kupası Grup D | Sutton United - Leicester (B) | scheduled | -
+- 2026-08-18 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Faisaly - Neom Sc | scheduled | -
 - 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Braintree - Ipswich Town U2 | scheduled | -
 - 2026-08-18 21:30 | İngiltere Ulusal Lig Kupası Grup B | Worthing - West Ham (B) | scheduled | -
 - 2026-08-18 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet - Arsenal U21 | scheduled | -
@@ -88,8 +89,6 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Orenburg | live | -
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | live | -
 - 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Nassaji Mazand - Esteghlal | live | -
 - 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Peykan - Gol Gohar Sirja | live | -
 - 2026-08-18 19:00 | İran Persian Gulf Pro Lig | Shahrdari Arak - Chadormalu | live | -
@@ -114,4 +113,22 @@ Yarin: 12
 - 2026-08-18 20:45 | Rusya Kupa Premier Lig Yolu Grup D | Rostov - L.Moskova | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-18 01:15 | Arjantin Premier Lig 2. Aşama | Velez Sarsfiel - Defensa Justici | finished | -
+- 2026-08-18 02:00 | Brezilya Serie A | Internacional - Remo | finished | -
+- 2026-08-18 03:00 | Ekvador Pro Lig | Depor Macara - Univ Catolica ( | finished | -
+- 2026-08-18 03:30 | Arjantin Premier Lig 2. Aşama | Gimnasia Mendo - Talleres | finished | -
+- 2026-08-18 03:30 | Şili Premier Lig | Palestino - Huachipato | finished | -
+- 2026-08-18 04:00 | Meksika Liga MX Apertura | Necaxa - Club Leon | finished | -
+- 2026-08-18 06:00 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
+- 2026-08-18 06:06 | Meksika Liga MX Apertura | Pachuca - Puebla | finished | -
+- 2026-08-18 12:30 | Avustralya FFA Kupası Çeyrek Final | Sd Raiders - Sydney | finished | -
+- 2026-08-18 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Shenh - Beijing Guoan | finished | -
+- 2026-08-18 15:00 | İngiltere Professional Development Lig | Peterborough U - Queens Park Ran | finished | -
+- 2026-08-18 15:00 | İngiltere Professional Development Lig | Bristol City U - Wigan Athletic | finished | -
+- 2026-08-18 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) - (1) Singapur | finished | -
+- 2026-08-18 16:00 | İngiltere Professional Development Lig | Cardiff City U - Barnsley U21 | finished | -
+- 2026-08-18 16:00 | Uganda Süper 8 Üçüncülük Maçı | Kitara - Sc Villa | finished | -
+- 2026-08-18 16:00 | Tanzanya Kuu Bara Ligi | Fountain Gate - Mashujaa | finished | -
+- 2026-08-18 16:00 | İngiltere Professional Development Lig | Charlton Athle - Bolton U21 | finished | -
+- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Orenburg | finished | -
+- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | finished | -
