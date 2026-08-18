@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 18.08.2026 03:02:50
+Oluşturma: 18.08.2026 03:35:58
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 58
+- Bekleyen tahmin: 58
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 21
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 18.08.2026 03:02:50
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS X: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Afc Totton - Dorking Wand. | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Horsham - Hampton Richmon | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Hemel - Maidenhead Utd | MS X | pending | 40/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Slough Town - Farnham Town | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Ulusal Lig N / S Güney | Maidstone Unit - Folkestone Invi | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Redcar Athleti - Lancaster City | MS 2 | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Hyde - United Of Manch | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Guiseley - Bury | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Rylands - Quorn | MS 2 | pending | 60/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Leek Town - Afc Emley | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Gainsborough T - Stockton Town | MS 2 | pending | 40/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Ashton United - Whitby Town | MS 2 | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Ilkeston Town - Warrington Town | MS X | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Curzon Ashton - Bamber Bridge | MS 2 | pending | 50/100
+- 2026-08-18 | İngiltere Non League Premier Kuzey | Cleethorpes To - Alfreton | MS X | pending | 50/100
 
