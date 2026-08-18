@@ -4,22 +4,20 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-18T02:09:33.717Z
+- Güncelleme: 2026-08-18T02:19:09.293Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Internacional VS Remo | Brezilya Serie A | 02:00 | MS 2 | 5.99 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
-| Depor Macara VS Univ Catolica ( | Ekvador Pro Lig | 03:00 | MS 1 | 3.51 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Gimnasia Mendo VS Talleres | Arjantin Premier Lig 2. Aşama | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Palestino VS Huachipato | Şili Premier Lig | 03:30 | MS 2 | 3.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Necaxa VS Club Leon | Meksika Liga MX Apertura | 04:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Pachuca VS Puebla | Meksika Liga MX Apertura | 06:00 | MS 2 | 4.85 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Pachuca VS Puebla | Meksika Liga MX Apertura | 06:06 | MS 2 | 5.06 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Sd Raiders VS Sydney | Avustralya FFA Kupası Çeyrek Final | 12:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Shanghai Shenh VS Beijing Guoan | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS X | 3.51 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Shanghai Shenh VS Beijing Guoan | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS X | 3.53 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Peterborough U VS Queens Park Ran | İngiltere Professional Development Lig | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bristol City U VS Wigan Athletic | İngiltere Professional Development Lig | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Tayland (3) VS (1) Singapur | AFF Şampiyonası Yarı Final | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -78,7 +76,7 @@
 | Morecambe VS Gateshead(South | İngiltere Ulusal Lig N / S Kuzey | 21:45 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Oxford City VS Harborough Town | İngiltere Ulusal Lig N / S Kuzey | 21:45 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Marine VS Chorley | İngiltere Ulusal Lig N / S Kuzey | 21:45 | MS X | 2.90 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Spalding Unite VS Macclesfield | İngiltere Ulusal Lig N / S Kuzey | 21:45 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Spalding Unite VS Macclesfield | İngiltere Ulusal Lig N / S Kuzey | 21:45 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Scarborough At VS Spennymoor | İngiltere Ulusal Lig N / S Kuzey | 21:45 | MS X | 3.03 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Brackley Town VS Lynn Town | İngiltere Ulusal Lig N / S Kuzey | 21:45 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Dover Athletic VS Tonbridge Angel | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -86,7 +84,7 @@
 | Afc Totton VS Dorking Wand. | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Horsham VS Hampton Richmon | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hemel VS Maidenhead Utd | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Slough Town VS Farnham Town | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Slough Town VS Farnham Town | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Walton And Her VS Dagenham & Red | İngiltere Ulusal Lig N / S Güney | 21:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Maidstone Unit VS Folkestone Invi | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Aldershot VS Fulham (B) | İngiltere Ulusal Lig Kupası Grup B | 21:45 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -97,12 +95,12 @@
 | Guiseley VS Bury | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Rylands VS Quorn | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 4.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Leek Town VS Afc Emley | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Gainsborough T VS Stockton Town | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.02 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gainsborough T VS Stockton Town | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.19 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ashton United VS Whitby Town | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ilkeston Town VS Warrington Town | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Ilkeston Town VS Warrington Town | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.40 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Curzon Ashton VS Bamber Bridge | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.78 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cleethorpes To VS Alfreton | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Dinamo Zagreb VS Viking | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 3.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cleethorpes To VS Alfreton | İngiltere Non League Premier Kuzey | 21:45 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Dinamo Zagreb VS Viking | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 3.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Levski Sofya VS Aek | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fenerbahçe VS Lyon | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Farense U23 VS Estoril U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -127,19 +125,19 @@
 | Barnet VS Arsenal U21 | MS 2 | 4.55 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Northampton VS Brighton (B) | MS 2 | 4.30 | 80 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Sao Paulo (1) VS (1) Bolivar | MS 2 | 6.97 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Internacional VS Remo | MS 2 | 5.99 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Torreense U23 VS Portimonense U2 | MS 2 | 5.48 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Pachuca VS Puebla | MS 2 | 5.06 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Cska Moskova VS Akron | MS 2 | 4.94 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Barnet VS Arsenal U21 + Northampton VS Brighton (B) | MS 2 + MS 2 | 19.56 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Sao Paulo (1) VS (1) Bolivar + Internacional VS Remo | MS 2 + MS 2 | 41.75 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Torreense U23 VS Portimonense U2 + Pachuca VS Puebla | MS 2 + MS 2 | 27.73 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Sao Paulo (1) VS (1) Bolivar + Torreense U23 VS Portimonense U2 | MS 2 + MS 2 | 38.20 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Pachuca VS Puebla + Cska Moskova VS Akron | MS 2 + MS 2 | 25.00 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Barnet VS Arsenal U21 + Northampton VS Brighton (B) + Sao Paulo (1) VS (1) Bolivar | MS 2 + MS 2 + MS 2 | 136.37 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Internacional VS Remo + Torreense U23 VS Portimonense U2 + Pachuca VS Puebla | MS 2 + MS 2 + MS 2 | 166.10 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Torreense U23 VS Portimonense U2 + Pachuca VS Puebla + Cska Moskova VS Akron | MS 2 + MS 2 + MS 2 | 136.98 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
