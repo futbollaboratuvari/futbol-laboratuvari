@@ -3,18 +3,14 @@
 Gunler: 2026-08-18 / 2026-08-19
 Kaynak: fixtures.json
 Ham mac: 99
-Aktif mac: 99
-Canli mac: 0
+Aktif mac: 95
+Canli mac: 4
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 87
+Bultenden dusurulen mac: 4
+Bugun: 83
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Orenburg | scheduled | -
-- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | scheduled | -
-- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Nassaji Mazand - Esteghlal | scheduled | -
-- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Peykan - Gol Gohar Sirja | scheduled | -
 - 2026-08-18 19:00 | İran Persian Gulf Pro Lig | Shahrdari Arak - Chadormalu | scheduled | -
 - 2026-08-18 19:00 | Hazırlık Kulüpler | Heidenheim - B.Münih | scheduled | -
 - 2026-08-18 19:00 | Uganda Süper 8 Final | Kampala City - Nec | scheduled | -
@@ -112,7 +108,10 @@ Yarin: 12
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk - Orenburg | live | -
+- 2026-08-18 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova - Akron | live | -
+- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Nassaji Mazand - Esteghlal | live | -
+- 2026-08-18 18:45 | İran Persian Gulf Pro Lig | Peykan - Gol Gohar Sirja | live | -
 
 ## Biten Maclar
 Biten mac yok.
