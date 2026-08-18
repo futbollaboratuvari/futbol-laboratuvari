@@ -1,27 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-18T12:24:37.957227+00:00
+Tarih: 2026-08-18T13:11:54.411530+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 101
+- Kac mac bulundu: 87
 - Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 100
-- Ham veri havuzu toplam mac sayisi: 7523
+- Kac mac zaten vardi: 86
+- Ham veri havuzu toplam mac sayisi: 7524
 - Hedef tarih: 18.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- AFF Şampiyonası Yarı Final
 - Arjantin Kupa Son 16 Turu
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup B
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Hazırlık Kulüpler
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -32,7 +25,7 @@ Tarih: 2026-08-18T12:24:37.957227+00:00
 - Tanzanya Kuu Bara Ligi
 - UEFA Şampiyonlar Ligi Play Off
 - Uganda Süper 8 Final
-- Uganda Süper 8 Üçüncülük Maçı
+- Venezuela Kupa 1.Tur Grup C
 - Venezuela Kupa 1.Tur Grup D
 - İngiltere EFL Trophy Güney Grup C
 - İngiltere EFL Trophy Güney Grup F
@@ -108,8 +101,8 @@ Tarih: 2026-08-18T12:24:37.957227+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 39
-- Acilan detay: 39
+- Denenen Tumu alani: 38
+- Acilan detay: 38
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -125,23 +118,23 @@ Tarih: 2026-08-18T12:24:37.957227+00:00
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Levski Sofya | Aek | 09975 | 5 |
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Fenerbahçe | Lyon | 09814 | 5 |
 | 18.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Dinamo Zagreb | Viking | 06212 | 5 |
-| 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain | Al Ettifaq | 04797 | 5 |
-| 18.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah | Al Nassr (Riyad | 04733 | 5 |
 | 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Akhdoud | Al Khaleej | 05354 | 5 |
+| 18.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Diriyah | Al Nassr (Riyad | 04733 | 5 |
 | 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Najma | Al Ittihad (Cid | 04802 | 3 |
+| 18.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Jabalain | Al Ettifaq | 04797 | 5 |
+| 18.08.2026 | 19:00 | Hazırlık Kulüpler | Heidenheim | B.Münih | 01656 | 4 |
 | 18.08.2026 | 20:00 | Hazırlık Kulüpler | Mutilvera | Pena Sport | 07239 | 5 |
-| 18.08.2026 | 19:00 | Hazırlık Kulüpler | Heidenheim | B.Münih | 01656 | 5 |
 | 18.08.2026 | 20:00 | Hazırlık Kulüpler | Spelle-Venhaus | Osnabruck | 06684 | 2 |
-| 18.08.2026 | 16:00 | AFF Şampiyonası Yarı Final | Tayland (3) | (1) Singapur | 09195 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup B | Wigan | Aston Villa U21 | 05995 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup E | Stockport | Everton (B) | 08963 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup C | Reading | Wycombe | 08890 | 5 |
-| 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient | Afc Wimbledon | 08708 | 5 |
 | 18.08.2026 | 21:45 | İngiltere EFL Trophy Güney Grup F | Barnet | Arsenal U21 | 09288 | 5 |
+| 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup F | Leyton Orient | Afc Wimbledon | 08708 | 5 |
 | 18.08.2026 | 21:00 | İngiltere EFL Trophy Güney Grup G | Northampton | Brighton (B) | 08810 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) | (1) Estudiantes Lp | 10758 | 5 |
-| 19.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim | Indep. Jose Ter | 10527 | 5 |
-| 19.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) | (0) Fluminense | 10236 | 5 |
+| 18.08.2026 | 23:00 | Arjantin Kupa Son 16 Turu | Riestra | Gimnasia La Pla | 09193 | 3 |
+| 18.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Fk Rodina Mosk | Orenburg | 05603 | 5 |
+| 18.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Akhmat Grozny | Fakel Voronezh | 05696 | 5 |
+| 18.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup D | Cska Moskova | Akron | 05152 | 5 |
 
 ## Sonuc
 
