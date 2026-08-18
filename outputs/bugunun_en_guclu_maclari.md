@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-18T23:15:07.937Z
+- Güncelleme: 2026-08-18T23:37:38.823Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -71,7 +71,7 @@
 | Vikingur Ol. VS Throttur Vogar | İzlanda 2.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Selfoss VS Kari | İzlanda 2.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Farnborough VS Chesham United | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Avro VS Workington | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.85 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Avro VS Workington | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 3.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Slovan Bratisl VS Celje | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 4.36 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Nijmegen VS Bodo Glimt | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 3.37 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Celtic VS Lask Linz | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 4.65 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
