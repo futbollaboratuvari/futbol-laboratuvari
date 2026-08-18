@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-16T07:00:19+03:00
+Güncelleme: 2026-08-18T06:58:58+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 549
+- Toplam tahmin kaydı: 183
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -17,11 +17,10 @@ Güncelleme: 2026-08-16T07:00:19+03:00
 | - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 196 | 0 | 0 | 196 | %0 | 0 |
+| Değerli market yok | 78 | 0 | 0 | 78 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 24 | 0 | 0 | 24 | %0 | 3.52 |
-| MS 2 | 146 | 0 | 0 | 146 | %0 | 4.17 |
-| MS X | 182 | 0 | 0 | 182 | %0 | 3.11 |
+| MS 2 | 26 | 0 | 0 | 26 | %0 | 4.31 |
+| MS X | 78 | 0 | 0 | 78 | %0 | 3.11 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -31,44 +30,44 @@ Güncelleme: 2026-08-16T07:00:19+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 70 | 0 | 0 | 70 | %0 | 2.85 |
-| 3.00-4.99 | 256 | 0 | 0 | 256 | %0 | 3.55 |
-| 5.00+ | 26 | 0 | 0 | 26 | %0 | 5.86 |
-| bilinmiyor | 197 | 0 | 0 | 197 | %0 | 0 |
+| 2.00-2.99 | 20 | 0 | 0 | 20 | %0 | 2.92 |
+| 3.00-4.99 | 79 | 0 | 0 | 79 | %0 | 3.42 |
+| 5.00+ | 5 | 0 | 0 | 5 | %0 | 5.21 |
+| bilinmiyor | 79 | 0 | 0 | 79 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| ABD MLS | 8 | 0 | 0 | 8 | %0 | 4.07 |
-| ABD USL | 14 | 0 | 0 | 14 | %0 | 3.15 |
-| ABD USL Lig 1 | 2 | 0 | 0 | 2 | %0 | 4.0 |
 | AFF Şampiyonası Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
-| Almanya 2. Bundesliga | 6 | 0 | 0 | 6 | %0 | 3.51 |
-| Almanya 3. Lig | 6 | 0 | 0 | 6 | %0 | 3.52 |
-| Almanya Bölgesel Lig Güney Batı | 2 | 0 | 0 | 2 | %0 | 0 |
-| Almanya Bölgesel Lig Kuzey | 6 | 0 | 0 | 6 | %0 | 3.16 |
-| Almanya Bölgesel Lig Kuzey Doğu | 2 | 0 | 0 | 2 | %0 | 3.08 |
-| Arjantin Premier Lig 2. Aşama | 2 | 0 | 0 | 2 | %0 | 0 |
-| Arjantin Ulusal Primera Lig | 8 | 0 | 0 | 8 | %0 | 0 |
-| Avustralya NPL Başkent Bölgesi | 4 | 0 | 0 | 4 | %0 | 0 |
+| Arjantin Kupa Son 16 Turu | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya FFA Kupası Çeyrek Final | 2 | 0 | 0 | 2 | %0 | 0 |
+| Hazırlık Kulüpler | 2 | 0 | 0 | 2 | %0 | 0 |
+| Meksika Liga MX Apertura | 5 | 0 | 0 | 5 | %0 | 3.96 |
+| Paraguay Kupa 3.Tur | 2 | 0 | 0 | 2 | %0 | 0 |
+| Portekiz U23 Ulusal Şampiyona | 12 | 0 | 0 | 12 | %0 | 3.42 |
+| Rusya Kupa Premier Lig Yolu Grup A | 2 | 0 | 0 | 2 | %0 | 3.02 |
+| Rusya Kupa Premier Lig Yolu Grup B | 2 | 0 | 0 | 2 | %0 | 3.67 |
+| Rusya Kupa Premier Lig Yolu Grup D | 4 | 0 | 0 | 4 | %0 | 3.96 |
+| Suudi Arabistan Kral Kupası Son 32 Turu | 8 | 0 | 0 | 8 | %0 | 0 |
+| Tanzanya Kuu Bara Ligi | 4 | 0 | 0 | 4 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Aalesund VS Valerenga | 2 | 0 | 0 | 2 | %0 | 3.42 |
-| Ab Argir VS Kí Klaksvík | 2 | 0 | 0 | 2 | %0 | 0 |
-| Ajax VS Heerenveen | 2 | 0 | 0 | 2 | %0 | 5.49 |
-| Al Bukayriyah VS Al Hazm | 2 | 0 | 0 | 2 | %0 | 3.56 |
-| Al Orubah Club VS Abha | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Shorta VS Karbala | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Wahda VS Al Shabab (Riya | 2 | 0 | 0 | 2 | %0 | 0 |
-| Alianza VS Cacahuatique | 2 | 0 | 0 | 2 | %0 | 4.2 |
-| Altglienicke VS Hallescher | 2 | 0 | 0 | 2 | %0 | 3.08 |
-| Always Ready VS Real Potosi | 2 | 0 | 0 | 2 | %0 | 0 |
-| Amarante Fc VS Lusitania De Lo | 2 | 0 | 0 | 2 | %0 | 2.83 |
-| Amed Sk VS Erzurumspor Fk | 2 | 0 | 0 | 2 | %0 | 3.1 |
+| Afc Totton VS Dorking Wand. | 2 | 0 | 0 | 2 | %0 | 3.17 |
+| Akhmat Grozny VS Fakel Voronezh | 2 | 0 | 0 | 2 | %0 | 3.67 |
+| Al Akhdoud VS Al Khaleej | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Jabalain VS Al Ettifaq | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Najma VS Al Ittihad (Cid | 2 | 0 | 0 | 2 | %0 | 0 |
+| Aldershot VS Fulham (B) | 2 | 0 | 0 | 2 | %0 | 0 |
+| Ashton United VS Whitby Town | 2 | 0 | 0 | 2 | %0 | 3.96 |
+| Barnet VS Arsenal U21 | 2 | 0 | 0 | 2 | %0 | 4.55 |
+| Bedford Town VS Buxton | 2 | 0 | 0 | 2 | %0 | 0 |
+| Bellinzona VS Basel Ii | 2 | 0 | 0 | 2 | %0 | 3.29 |
+| Benjamin Aceva VS Nacional Asunci | 2 | 0 | 0 | 2 | %0 | 0 |
+| Boreham Wood VS Leeds United U2 | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -79,7 +78,6 @@ Güncelleme: 2026-08-16T07:00:19+03:00
 | 3.5 Üst | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | Değerli market yok | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
