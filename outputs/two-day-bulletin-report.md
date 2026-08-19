@@ -1,22 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-20 / 2026-08-21
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 120
-Aktif mac: 112
-Canli mac: 8
+Aktif mac: 106
+Canli mac: 14
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 102
+Bultenden dusurulen mac: 14
+Bugun: 96
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-20 02:00 | Kolombiya Primera A Clausura | Depor Cucuta - Inter Bogota | scheduled | -
-- 2026-08-20 02:00 | Kanada Premier Lig | Forge - Supra Du Quebec | scheduled | -
-- 2026-08-20 02:00 | Kanada Premier Lig | Atletico Ottaw - Vancouver Fc | scheduled | -
-- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup A | Atletico Avila - Deportivo Petar | scheduled | -
-- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Rayo Zuliano | scheduled | -
-- 2026-08-20 02:00 | ABD USL Lig 1 | One Knoxville - Portland Hearts | scheduled | -
 - 2026-08-20 02:30 | ABD MLS | Columbus - Montreal | scheduled | -
 - 2026-08-20 02:30 | ABD MLS | New York - Nashville Sc | scheduled | -
 - 2026-08-20 02:30 | ABD MLS | Toronto - Charlotte | scheduled | -
@@ -125,6 +120,12 @@ Yarin: 10
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled | -
 
 ## Canli Maclar
+- 2026-08-20 02:00 | Kolombiya Primera A Clausura | Depor Cucuta - Inter Bogota | live | -
+- 2026-08-20 02:00 | Kanada Premier Lig | Forge - Supra Du Quebec | live | -
+- 2026-08-20 02:00 | Kanada Premier Lig | Atletico Ottaw - Vancouver Fc | live | -
+- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup A | Atletico Avila - Deportivo Petar | live | -
+- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Rayo Zuliano | live | -
+- 2026-08-20 02:00 | ABD USL Lig 1 | One Knoxville - Portland Hearts | live | -
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | live | -
 - 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | live | -
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | live | -
