@@ -4,15 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-19T19:24:36.531Z
+- Güncelleme: 2026-08-19T19:28:54.904Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Foolad Khuzest VS Shams Azar Qazv | İran Persian Gulf Pro Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Deportivo Obre VS Fernando De La | Paraguay Kupa 3.Tur | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Mamelodi Sundo VS Marumo Gallants | Güney Afrika PSL | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Breiternrain VS Young Boys Ii | İsviçre 1.Lig Promotion | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Fc Kreuzlingen VS Cham | İsviçre 1.Lig Promotion | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -35,14 +33,14 @@
 | Nijmegen VS Bodo Glimt | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 3.40 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Celtic VS Lask Linz | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 3.64 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Hapoel Beer Sh VS Sabah | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Atletico Madri VS Malaga | İspanya LaLiga | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Atletico Madri VS Malaga | İspanya LaLiga | 22:00 | MS 2 | 5.88 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
 | Moreirense U23 VS Famalicão U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Atletico Barin VS Zamora | Venezuela Kupa 1.Tur Grup B | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Bolívar VS Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | MS 2 | 5.79 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bolívar VS Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | MS 2 | 5.82 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Paraguari VS Sportivo Luquen | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| El Vigia VS Real Frontera | Venezuela Kupa 1.Tur Grup B | 22:30 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| El Vigia VS Real Frontera | Venezuela Kupa 1.Tur Grup B | 22:30 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Aragua VS Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Monagas VS Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | MS 2 | 4.38 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Monagas VS Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | MS 2 | 4.51 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Rionegro Aguil VS Llaneros | Kolombiya Primera A Clausura | 00:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Coban Imperial VS Antigua Guatema | Guatemala Ulusal Lig Apertura | 00:00 | MS 2 | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cerro Porteno (1) VS (1) Palmeiras | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -58,7 +56,7 @@
 | Deportivo Lara VS Rayo Zuliano | Venezuela Kupa 1.Tur Grup D | 02:00 | MS 2 | 3.02 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | One Knoxville VS Portland Hearts | ABD USL Lig 1 | 02:00 | MS 2 | 3.86 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Columbus VS Montreal | ABD MLS | 02:30 | MS 2 | 3.98 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| New York VS Nashville Sc | ABD MLS | 02:30 | MS X | 3.40 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| New York VS Nashville Sc | ABD MLS | 02:30 | MS X | 3.36 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Toronto VS Charlotte | ABD MLS | 02:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cincinnati VS New York City | ABD MLS | 02:30 | MS X | 3.65 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Orlando City VS Chicago | ABD MLS | 02:30 | MS X | 3.58 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
@@ -88,22 +86,22 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Atletico Madri VS Malaga | MS 2 | 5.88 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Vancouver VS Houston | MS 2 | 4.95 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Portland VS San Diego | MS X | 3.70 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Philadelphia VS Inter Miami | MS X | 3.69 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Cincinnati VS New York City | MS X | 3.65 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Orlando City VS Chicago | MS X | 3.58 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Los Angeles VS San Jose | MS X | 3.51 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vancouver VS Houston + Portland VS San Diego | MS 2 + MS X | 18.32 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Philadelphia VS Inter Miami + Cincinnati VS New York City | MS X + MS X | 13.47 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Orlando City VS Chicago + Los Angeles VS San Jose | MS X + MS X | 12.57 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Atletico Madri VS Malaga + Vancouver VS Houston | MS 2 + MS 2 | 29.11 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Portland VS San Diego + Philadelphia VS Inter Miami | MS X + MS X | 13.65 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Cincinnati VS New York City + Orlando City VS Chicago | MS X + MS X | 13.07 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vancouver VS Houston + Portland VS San Diego + Philadelphia VS Inter Miami | MS 2 + MS X + MS X | 67.58 | 72 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Cincinnati VS New York City + Orlando City VS Chicago + Los Angeles VS San Jose | MS X + MS X + MS X | 45.87 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Atletico Madri VS Malaga + Vancouver VS Houston + Portland VS San Diego | MS 2 + MS 2 + MS X | 107.69 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Philadelphia VS Inter Miami + Cincinnati VS New York City + Orlando City VS Chicago | MS X + MS X + MS X | 48.22 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 47
 - Live match count: 24
-- Finished removed count: 2
+- Finished removed count: 0
 - Date window: 2026-08-19 / 2026-08-20 23:59
 
 - 2026-08-19 20:30 | Mamelodi Sundo - Marumo Gallants | live
