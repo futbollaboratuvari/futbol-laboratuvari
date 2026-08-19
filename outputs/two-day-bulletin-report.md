@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 91
-Aktif mac: 87
+Ham mac: 89
+Aktif mac: 85
 Canli mac: 4
 Biten mac: 0
 Bultenden dusurulen mac: 4
-Bugun: 46
+Bugun: 44
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan - Spartak Moskova | scheduled | -
-- 2026-08-19 18:30 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Dvsc Deac | scheduled | -
 - 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Fajr Sepasi - Sanat Naft | scheduled | -
 - 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Malavan Fc - Zob Ahan Fc | scheduled | -
 - 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Persepolis - Esteghlal Khuze | scheduled | -
@@ -100,10 +98,10 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-- 2026-08-19 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto - Zenit | live | -
-- 2026-08-19 16:15 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Simba | live | -
 - 2026-08-19 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) - (3) Kaisar | live | -
 - 2026-08-19 18:00 | Rusya FNL | Kamaz - Tekstilshchik | live | -
+- 2026-08-19 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan - Spartak Moskova | live | -
+- 2026-08-19 18:30 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Dvsc Deac | live | -
 
 ## Biten Maclar
 Biten mac yok.

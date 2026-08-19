@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-19T15:38:38.101Z
-- Ham maç sayısı: 91
+- Güncelleme: 2026-08-19T15:48:34.596Z
+- Ham maç sayısı: 89
 - Yarın bülteni maç sayısı: 41
-- Detay blok sayısı: 249
+- Detay blok sayısı: 243
 - Aktif bülten maçı: 85
-- Bültenden düşürülen maç: 6
+- Bültenden düşürülen maç: 4
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -18,7 +18,7 @@
 | Mes Shahr-E Ba - Kheybar Khorram | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 4.28 | 5 |
 | Ml Vitebsk - Baranovichi | Belarus Premier Lig | 19:00 | Veri bekleniyor | - | 1.14 | 6 |
 | Kagera Sugar - Singida Black S | Tanzanya Kuu Bara Ligi | 19:00 | Veri bekleniyor | - | 4.14 | 8 |
-| Damak - Al Taawon | Suudi Arabistan Kral Kupası Son 32 Turu | 19:15 | Veri bekleniyor | - | 3.17 | 8 |
+| Damak - Al Taawon | Suudi Arabistan Kral Kupası Son 32 Turu | 19:15 | Veri bekleniyor | - | 3.91 | 8 |
 | Jeddah Club - Al Kholood | Suudi Arabistan Kral Kupası Son 32 Turu | 19:30 | Veri bekleniyor | - | 9.98 | 4 |
 | Veles - Olimpiyets | Rusya FNL | 19:30 | Veri bekleniyor | - | 4.24 | 7 |
 | Werder Bremen - Weiche Flensbur | Almanya Bölgesel Lig Kuzey | 19:30 | Veri bekleniyor | - | 2.63 | 6 |
@@ -41,8 +41,8 @@
 | Kormakur - Haukar | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 3.82 | 6 |
 | Vikingur Ol. - Throttur Vogar | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.85 | 6 |
 | Selfoss - Kari | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.52 | 6 |
-| Al Ula - Al Fateh | Suudi Arabistan Kral Kupası Son 32 Turu | 21:00 | Veri bekleniyor | - | 2.94 | 3 |
-| Farnborough - Chesham United | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.52 | 8 |
+| Al Ula - Al Fateh | Suudi Arabistan Kral Kupası Son 32 Turu | 21:00 | Veri bekleniyor | - | 2.84 | 3 |
+| Farnborough - Chesham United | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.46 | 8 |
 | Avro - Workington | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.41 | 7 |
 | Slovan Bratisl - Celje | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
 | Nijmegen - Bodo Glimt | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.37 | 8 |
@@ -53,8 +53,8 @@
 | Atletico Barin - Zamora | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 2.33 | 6 |
 | Bolívar - Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | Veri bekleniyor | - | 1.69 | 8 |
 | Paraguari - Sportivo Luquen | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 4.75 | 5 |
-| El Vigia - Real Frontera | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 1.85 | 8 |
-| Aragua - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 1.91 | 8 |
+| El Vigia - Real Frontera | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 1.89 | 8 |
+| Aragua - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 1.86 | 8 |
 | Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.52 | 8 |
 | Rionegro Aguil - Llaneros | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.81 | 8 |
 | Coban Imperial - Antigua Guatema | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.97 | 8 |
