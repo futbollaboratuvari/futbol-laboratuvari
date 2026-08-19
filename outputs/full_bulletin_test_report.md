@@ -2,13 +2,13 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 102
-- Live match count: 1
+- Scheduled match count: 101
+- Live match count: 2
 - Finished removed count: 0
 - Date window: 2026-08-19 / 2026-08-20 23:59
 
 - 2026-08-19 12:00 | Vasas Ii - Honved Ii | live
-- 2026-08-19 12:30 | Apia - Melbourne Victo | scheduled
+- 2026-08-19 12:30 | Apia - Melbourne Victo | live
 - 2026-08-19 13:00 | Asan Mugunghwa - Daejeon Citizen | scheduled
 - 2026-08-19 13:00 | Gimpo Citizen - Gimcheon Sangmu | scheduled
 - 2026-08-19 13:00 | Jeonbuk Hm - Dangjin Citizen | scheduled
