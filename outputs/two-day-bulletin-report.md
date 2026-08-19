@@ -3,15 +3,14 @@
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
 Ham mac: 103
-Aktif mac: 102
-Canli mac: 1
+Aktif mac: 101
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 61
+Bultenden dusurulen mac: 2
+Bugun: 60
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia - Melbourne Victo | scheduled | -
 - 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen - Gwangju | scheduled | -
 - 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa - Daejeon Citizen | scheduled | -
 - 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Gimpo Citizen - Gimcheon Sangmu | scheduled | -
@@ -116,6 +115,7 @@ Yarin: 41
 
 ## Canli Maclar
 - 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | live | -
+- 2026-08-19 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia - Melbourne Victo | live | -
 
 ## Biten Maclar
 Biten mac yok.
