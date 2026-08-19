@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 114
-Aktif mac: 102
+Ham mac: 115
+Aktif mac: 103
 Canli mac: 0
 Biten mac: 12
 Bultenden dusurulen mac: 12
-Bugun: 61
+Bugun: 62
 Yarin: 41
 
 ## Baslamamis Maclar
@@ -44,6 +44,7 @@ Yarin: 41
 - 2026-08-19 19:30 | Almanya Bölgesel Lig Kuzey | Werder Bremen - Weiche Flensbur | scheduled | -
 - 2026-08-19 19:30 | İsviçre 1.Lig Promotion | Zürich Ii - Amical Saint-Pr | scheduled | -
 - 2026-08-19 20:00 | İran Persian Gulf Pro Lig | Foolad Khuzest - Shams Azar Qazv | scheduled | -
+- 2026-08-19 20:00 | Paraguay Kupa 3.Tur | Deportivo Obre - Fernando De La | scheduled | -
 - 2026-08-19 20:30 | Güney Afrika PSL | Mamelodi Sundo - Marumo Gallants | scheduled | -
 - 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Breiternrain - Young Boys Ii | scheduled | -
 - 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Fc Kreuzlingen - Cham | scheduled | -
