@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T18:19:50.611174+00:00
+Tarih: 2026-08-19T19:01:01.258768+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 55
+- Kac mac bulundu: 53
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 55
+- Kac mac zaten vardi: 53
 - Ham veri havuzu toplam mac sayisi: 7633
 - Hedef tarih: 19.08.2026 Europe/Istanbul
 
@@ -35,8 +35,6 @@ Tarih: 2026-08-19T18:19:50.611174+00:00
 - Venezuela Kupa 1.Tur Grup C
 - Venezuela Kupa 1.Tur Grup D
 - Venezuela Kupa 1.Tur Grup E
-- İngiltere Non League Premier Kuzey
-- İngiltere Ulusal Lig N / S Güney
 - İspanya LaLiga
 
 ## Okunabilen Oran Alanlari
@@ -94,8 +92,8 @@ Tarih: 2026-08-19T18:19:50.611174+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 24
-- Acilan detay: 24
+- Denenen Tumu alani: 22
+- Acilan detay: 22
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -109,25 +107,25 @@ Tarih: 2026-08-19T18:19:50.611174+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen | Bodo Glimt | 11505 | 5 |
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl | Celje | 12550 | 5 |
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh | Sabah | 11248 | 5 |
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic | Lask Linz | 11091 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh | Sabah | 11248 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl | Celje | 12550 | 5 |
 | 19.08.2026 | 22:00 | İspanya LaLiga | Atletico Madri | Malaga | 17456 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Seattle | Austin | 16677 | 5 |
 | 20.08.2026 | 02:30 | ABD MLS | New York | Nashville Sc | 16195 | 5 |
-| 20.08.2026 | 05:30 | ABD MLS | Portland | San Diego | 16826 | 5 |
-| 20.08.2026 | 02:30 | ABD MLS | Orlando City | Chicago | 16253 | 5 |
 | 20.08.2026 | 04:30 | ABD MLS | Salt Lake | Dallas | 16619 | 5 |
-| 20.08.2026 | 02:30 | ABD MLS | Toronto | Charlotte | 16387 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Portland | San Diego | 16826 | 5 |
 | 20.08.2026 | 02:30 | ABD MLS | Columbus | Montreal | 16003 | 5 |
 | 20.08.2026 | 03:00 | ABD MLS | Kansas | St. Louis City | 16445 | 5 |
-| 20.08.2026 | 03:30 | ABD MLS | Minnesota Utd | Atlanta Utd | 16503 | 5 |
 | 20.08.2026 | 05:30 | ABD MLS | Los Angeles | San Jose | 16768 | 5 |
 | 20.08.2026 | 05:30 | ABD MLS | Vancouver | Houston | 16884 | 5 |
-| 20.08.2026 | 04:30 | ABD MLS | Seattle | Austin | 16677 | 5 |
-| 20.08.2026 | 04:30 | ABD MLS | Colorado | Los Angeles Fc | 16561 | 5 |
+| 20.08.2026 | 03:30 | ABD MLS | Minnesota Utd | Atlanta Utd | 16503 | 5 |
 | 20.08.2026 | 02:30 | ABD MLS | Philadelphia | Inter Miami | 16311 | 5 |
-| 20.08.2026 | 02:30 | ABD MLS | Dc United | New England | 16061 | 5 |
 | 20.08.2026 | 02:30 | ABD MLS | Cincinnati | New York City | 16137 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Dc United | New England | 16061 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Orlando City | Chicago | 16253 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Colorado | Los Angeles Fc | 16561 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Toronto | Charlotte | 16387 | 5 |
 
 ## Sonuc
 
