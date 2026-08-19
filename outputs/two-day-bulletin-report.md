@@ -1,18 +1,16 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-19 / 2026-08-20
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 100
-Aktif mac: 88
-Canli mac: 12
+Kaynak: fixtures.json
+Ham mac: 94
+Aktif mac: 87
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 12
-Bugun: 47
+Bultenden dusurulen mac: 7
+Bugun: 46
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) - (3) Kaisar | scheduled | -
 - 2026-08-19 18:00 | Rusya FNL | Kamaz - Tekstilshchik | scheduled | -
 - 2026-08-19 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan - Spartak Moskova | scheduled | -
 - 2026-08-19 18:30 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Dvsc Deac | scheduled | -
@@ -102,18 +100,13 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-- 2026-08-19 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto - Zenit | live | -
-- 2026-08-19 16:15 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Simba | live | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon - Seongnam | live | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark - Bucheon | live | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang - Jeju Utd | live | -
-- 2026-08-19 13:30 | Avustralya NPL Victoria | Preston Lions - Melbourne City | live | -
-- 2026-08-19 14:00 | Tanzanya Kuu Bara Ligi | Mbeya City - Dodoma Jiji | live | -
-- 2026-08-19 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Dalian Zhixing | live | -
 - 2026-08-19 15:00 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | live | -
 - 2026-08-19 15:30 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | live | -
 - 2026-08-19 16:00 | AFF Şampiyonası Yarı Final | Vietnam (2) - (0) Malezya | live | -
 - 2026-08-19 16:00 | Kazakistan Kupa Yarı Final | Altay (1) - (3) Ordabasy | live | -
+- 2026-08-19 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto - Zenit | live | -
+- 2026-08-19 16:15 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Simba | live | -
+- 2026-08-19 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) - (3) Kaisar | live | -
 
 ## Biten Maclar
 Biten mac yok.
