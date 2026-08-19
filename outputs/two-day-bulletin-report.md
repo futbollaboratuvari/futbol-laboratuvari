@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 103
-Aktif mac: 103
-Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 62
+Ham mac: 115
+Aktif mac: 102
+Canli mac: 1
+Biten mac: 12
+Bultenden dusurulen mac: 13
+Bugun: 61
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | scheduled | -
 - 2026-08-19 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia - Melbourne Victo | scheduled | -
 - 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen - Gwangju | scheduled | -
 - 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa - Daejeon Citizen | scheduled | -
@@ -116,7 +115,18 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | finished | -
+- 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | finished | -
+- 2026-08-19 01:30 | Brezilya Serie B | Londrina - Atletico Goiani | finished | -
+- 2026-08-19 03:15 | Arjantin Kupa Son 16 Turu | Banfield - Midland | finished | -
+- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) - (1) Estudiantes Lp | finished | -
+- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | finished | -
+- 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | finished | -
+- 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | finished | -
+- 2026-08-19 03:35 | Brezilya Serie B | Goias - Juventude | finished | -
+- 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | finished | -
+- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | finished | -
+- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | finished | -
