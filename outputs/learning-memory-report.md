@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.08.2026 22:02:34
+Oluşturma: 19.08.2026 22:25:34
 
 ## Özet
 
-- Toplam tahmin: 13
-- Bekleyen tahmin: 13
+- Toplam tahmin: 14
+- Bekleyen tahmin: 14
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 9
+- Lig sayısı: 10
 - Seçenek sayısı: 2
 
 ## Öğrenme Mantığı
@@ -20,11 +20,12 @@ Oluşturma: 19.08.2026 22:02:34
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-19 | İspanya LaLiga | Atletico Madri - Malaga | MS 2 | pending | 75/100
 - 2026-08-19 | UEFA Şampiyonlar Ligi Play Off | Celtic - Lask Linz | MS 2 | pending | 60/100
 - 2026-08-19 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh - Sabah | MS X | pending | 50/100
 - 2026-08-19 | Portekiz U23 Ulusal Şampiyona | Moreirense U23 - Famalicão U23 | MS X | pending | 50/100
