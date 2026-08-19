@@ -1,12 +1,12 @@
 # Analiz Sağlık Kontrolü
 
-Durum: warning
+Durum: no_fixture
 Tarih: 2026-08-19
-Bugünkü bülten maçı: 59
-Robot analiz maçı: 59
-Canlı veri maçı: 59
-Tekrar eden analiz: 1
+Bugünkü bülten maçı: 0
+Robot analiz maçı: 0
+Canlı veri maçı: 0
+Tekrar eden analiz: 0
 Marketsiz analiz: 0
-Skorsuz analiz: 7
+Skorsuz analiz: 0
 
 Sonraki aksiyon: Analiz verisi kontrol edilmeli.
