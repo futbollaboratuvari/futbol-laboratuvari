@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-19T05:37:43.045Z
-- Ham maç sayısı: 104
+- Güncelleme: 2026-08-19T05:48:35.817Z
+- Ham maç sayısı: 102
 - Yarın bülteni maç sayısı: 41
-- Detay blok sayısı: 284
+- Detay blok sayısı: 279
 - Aktif bülten maçı: 102
-- Bültenden düşürülen maç: 2
+- Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -49,11 +49,11 @@
 | Breiternrain - Young Boys Ii | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 1.78 | 6 |
 | Fc Kreuzlingen - Cham | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.77 | 6 |
 | Grand-Saconnex - Schaffhausen | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.04 | 6 |
-| Bruhl - Biel-Bienne | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.21 | 6 |
+| Bruhl - Biel-Bienne | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.14 | 6 |
 | Dinamo Moskova - Krasnodar | Rusya Kupa Premier Lig Yolu Grup B | 20:45 | Veri bekleniyor | - | 2.27 | 8 |
 | Barcelona - Al Ahly | Hazırlık Joan Gamper Kupası Final | 21:00 | Veri bekleniyor | - | - | 5 |
 | Mansfield - Man City U21 | İngiltere EFL Trophy Kuzey Grup D | 21:00 | Veri bekleniyor | - | 1.78 | 8 |
-| Chacarita Juni - Club Atletico G | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.59 | 5 |
+| Chacarita Juni - Club Atletico G | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.59 | 7 |
 | Dalvik - Magni | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.43 | 6 |
 | Fjolnir - Kfa | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.66 | 6 |
 | Hviti - Kfg Gardabar | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.62 | 6 |
@@ -64,7 +64,7 @@
 | Avro - Workington | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.41 | 7 |
 | Slovan Bratisl - Celje | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.51 | 8 |
 | Nijmegen - Bodo Glimt | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.32 | 8 |
-| Celtic - Lask Linz | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.46 | 8 |
+| Celtic - Lask Linz | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.49 | 8 |
 | Hapoel Beer Sh - Sabah | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.09 | 8 |
 | Atletico Madri - Malaga | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.17 | 6 |
 | Moreirense U23 - Famalicão U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.55 | 8 |

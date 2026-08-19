@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 104
+Ham mac: 102
 Aktif mac: 102
-Canli mac: 2
+Canli mac: 0
 Biten mac: 0
-Bultenden dusurulen mac: 2
+Bultenden dusurulen mac: 0
 Bugun: 61
 Yarin: 41
 
@@ -115,8 +115,7 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | live | -
-- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | live | -
+Canli mac yok.
 
 ## Biten Maclar
 Biten mac yok.
