@@ -3,17 +3,14 @@
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 120
-Aktif mac: 118
-Canli mac: 2
+Aktif mac: 115
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 108
+Bultenden dusurulen mac: 5
+Bugun: 105
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | scheduled | -
-- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Coquimbo Unido (1) - (1) Platense | scheduled | -
-- 2026-08-20 01:00 | Copa Sudamericana Son 16 Turu | Atletico Mg (1) - (0) Bragantino | scheduled | -
 - 2026-08-20 01:15 | Arjantin Kupa Son 16 Turu | Racing Club - Belgrano | scheduled | -
 - 2026-08-20 01:30 | Brezilya Serie B | Fortaleza Ce - Sao Bernardo | scheduled | -
 - 2026-08-20 01:30 | Brezilya Serie B | Avai - Sport Recife | scheduled | -
@@ -133,6 +130,9 @@ Yarin: 10
 ## Canli Maclar
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | live | -
 - 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | live | -
+- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | live | -
+- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Coquimbo Unido (1) - (1) Platense | live | -
+- 2026-08-20 01:00 | Copa Sudamericana Son 16 Turu | Atletico Mg (1) - (0) Bragantino | live | -
 
 ## Biten Maclar
 Biten mac yok.
