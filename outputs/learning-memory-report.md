@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.08.2026 12:06:16
+Oluşturma: 19.08.2026 12:24:47
 
 ## Özet
 
-- Toplam tahmin: 21
-- Bekleyen tahmin: 21
+- Toplam tahmin: 22
+- Bekleyen tahmin: 22
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 14
+- Lig sayısı: 15
 - Seçenek sayısı: 2
 
 ## Öğrenme Mantığı
@@ -20,11 +20,12 @@ Oluşturma: 19.08.2026 12:06:16
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 12, bekleyen 12, başarı bekleniyor, ağırlık 1
 - MS X: toplam 10, bekleyen 10, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-19 | Tanzanya Kuu Bara Ligi | Mbeya City - Dodoma Jiji | MS 2 | pending | 50/100
 - 2026-08-19 | İngiltere Ulusal Lig N / S Güney | Farnborough - Chesham United | MS X | pending | 50/100
 - 2026-08-19 | İngiltere Non League Premier Kuzey | Avro - Workington | MS 2 | pending | 50/100
 - 2026-08-19 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl - Celje | MS 2 | pending | 50/100
@@ -39,5 +40,4 @@ Oluşturma: 19.08.2026 12:06:16
 - 2026-08-19 | Güney Kore FA Kupası Son 16 Turu | Gangwon - Seongnam | MS 2 | pending | 60/100
 - 2026-08-19 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark - Bucheon | MS X | pending | 40/100
 - 2026-08-19 | Güney Kore FA Kupası Son 16 Turu | Anyang - Jeju Utd | MS X | pending | 40/100
-- 2026-08-19 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Dalian Zhixing | MS 2 | pending | 40/100
 
