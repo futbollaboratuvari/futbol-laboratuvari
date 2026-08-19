@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T13:13:01.424823+00:00
+Tarih: 2026-08-19T14:01:14.007051+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 48
+- Kac mac bulundu: 46
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 48
+- Kac mac zaten vardi: 46
 - Ham veri havuzu toplam mac sayisi: 7632
 - Hedef tarih: 19.08.2026 Europe/Istanbul
 
@@ -27,7 +27,6 @@ Tarih: 2026-08-19T13:13:01.424823+00:00
 - Rusya FNL
 - Rusya Kupa Premier Lig Yolu Grup A
 - Rusya Kupa Premier Lig Yolu Grup B
-- Rusya Kupa Premier Lig Yolu Grup C
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Tanzanya Kuu Bara Ligi
 - UEFA Şampiyonlar Ligi Play Off
@@ -96,8 +95,8 @@ Tarih: 2026-08-19T13:13:01.424823+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 41
-- Acilan detay: 41
+- Denenen Tumu alani: 40
+- Acilan detay: 40
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -121,15 +120,15 @@ Tarih: 2026-08-19T13:13:01.424823+00:00
 | 19.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield | Man City U21 | 09353 | 5 |
 | 19.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan | Spartak Moskova | 06456 | 5 |
 | 19.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova | Krasnodar | 06782 | 5 |
-| 19.08.2026 | 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto | Zenit | 06184 | 5 |
 | 19.08.2026 | 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) | (3) Kaisar | 18237 | 5 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Persepolis | Esteghlal Khuze | 04368 | 5 |
 | 19.08.2026 | 20:00 | İran Persian Gulf Pro Lig | Foolad Khuzest | Shams Azar Qazv | 06165 | 3 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Malavan Fc | Zob Ahan Fc | 11070 | 3 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Fajr Sepasi | Sanat Naft | 09776 | 5 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba | Kheybar Khorram | 11073 | 3 |
-| 19.08.2026 | 19:30 | Rusya FNL | Veles | Olimpiyets | 06757 | 5 |
 | 19.08.2026 | 18:00 | Rusya FNL | Kamaz | Tekstilshchik | 06426 | 5 |
+| 19.08.2026 | 19:30 | Rusya FNL | Veles | Olimpiyets | 06757 | 5 |
+| 19.08.2026 | 19:00 | Belarus Premier Lig | Ml Vitebsk | Baranovichi | 03401 | 5 |
 
 ## Sonuc
 
