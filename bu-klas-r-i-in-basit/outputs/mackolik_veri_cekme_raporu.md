@@ -1,30 +1,43 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T06:18:26.743620+00:00
+Tarih: 2026-08-19T07:04:33.802705+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 61
+- Kac mac bulundu: 102
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 61
+- Kac mac zaten vardi: 102
 - Ham veri havuzu toplam mac sayisi: 7627
 - Hedef tarih: 19.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya Bölgesel Lig Kuzey
 - Almanya U19 Bundesliga Grup D
+- Arjantin Kupa Son 16 Turu
 - Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Çeyrek Final
 - Avustralya NPL Victoria
 - Belarus Premier Lig
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Güney Kore FA Kupası Son 16 Turu
 - Hazırlık Joan Gamper Kupası Final
+- Kanada Premier Lig
 - Kazakistan Kupa Yarı Final
+- Kolombiya Primera A Clausura
 - Macaristan NB III Güneydoğu
 - Macaristan NB III Kuzeydoğu
 - Paraguay Kupa 3.Tur
@@ -36,8 +49,10 @@ Tarih: 2026-08-19T06:18:26.743620+00:00
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Tanzanya Kuu Bara Ligi
 - UEFA Şampiyonlar Ligi Play Off
+- Venezuela Kupa 1.Tur Grup A
 - Venezuela Kupa 1.Tur Grup B
 - Venezuela Kupa 1.Tur Grup C
+- Venezuela Kupa 1.Tur Grup D
 - Venezuela Kupa 1.Tur Grup E
 - Çin Halk Cumhuriyeti Süper Lig
 - İngiltere EFL Trophy Kuzey Grup D
@@ -118,25 +133,25 @@ Tarih: 2026-08-19T06:18:26.743620+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl | Celje | 12550 | 5 |
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh | Sabah | 11248 | 5 |
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic | Lask Linz | 11091 | 5 |
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen | Bodo Glimt | 11505 | 5 |
-| 19.08.2026 | 22:00 | İspanya LaLiga | Atletico Madri | Malaga | 17456 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic | Lask Linz | 11091 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh | Sabah | 11248 | 5 |
 | 19.08.2026 | 21:00 | Hazırlık Joan Gamper Kupası Final | Barcelona | Al Ahly | 18622 | 4 |
+| 19.08.2026 | 22:00 | İspanya LaLiga | Atletico Madri | Malaga | 17456 | 5 |
 | 19.08.2026 | 19:30 | Suudi Arabistan Kral Kupası Son 32 Turu | Jeddah Club | Al Kholood | 07900 | 3 |
 | 19.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak | Al Taawon | 07889 | 5 |
 | 19.08.2026 | 16:00 | AFF Şampiyonası Yarı Final | Vietnam (2) | (0) Malezya | 09180 | 5 |
 | 19.08.2026 | 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia | Melbourne Victo | 04610 | 5 |
 | 19.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield | Man City U21 | 09353 | 5 |
 | 19.08.2026 | 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port | Dalian Zhixing | 09714 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen | Gwangju | 04952 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa | Daejeon Citizen | 07882 | 5 |
-| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark | Bucheon | 07888 | 5 |
-| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang | Jeju Utd | 18257 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Pohang Steeler | Jinju Citizen | 07887 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Gimpo Citizen | Gimcheon Sangmu | 07884 | 5 |
-| 19.08.2026 | 13:00 | Güney Kore FA Kupası Son 16 Turu | Jeonbuk Hm | Dangjin Citizen | 07885 | 5 |
-| 19.08.2026 | 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon | Seongnam | 08131 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Los Angeles | San Jose | 16768 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Vancouver | Houston | 16884 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Columbus | Montreal | 16003 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | New York | Nashville Sc | 16195 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Toronto | Charlotte | 16387 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Salt Lake | Dallas | 16619 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Cincinnati | New York City | 16137 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Philadelphia | Inter Miami | 16311 | 5 |
 
 ## Sonuc
 
