@@ -3,15 +3,14 @@
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
 Ham mac: 113
-Aktif mac: 104
-Canli mac: 6
+Aktif mac: 103
+Canli mac: 7
 Biten mac: 3
-Bultenden dusurulen mac: 9
-Bugun: 63
+Bultenden dusurulen mac: 10
+Bugun: 62
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | scheduled | -
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | scheduled | -
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 - 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | scheduled | -
@@ -123,6 +122,7 @@ Yarin: 41
 - 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | live | -
 - 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | live | -
 - 2026-08-19 03:35 | Brezilya Serie B | Goias - Juventude | live | -
+- 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | live | -
 
 ## Biten Maclar
 - 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | finished | -
