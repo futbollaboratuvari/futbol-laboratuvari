@@ -1,19 +1,17 @@
 # Iki Gunluk Bulten
 
-Gunler: 2026-08-19 / 2026-08-20
+Gunler: 2026-08-20 / 2026-08-21
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 55
-Aktif mac: 41
-Canli mac: 14
+Ham mac: 41
+Aktif mac: 39
+Canli mac: 2
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 0
-Yarin: 41
+Bultenden dusurulen mac: 2
+Bugun: 39
+Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | scheduled | -
-- 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | scheduled | -
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | scheduled | -
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Coquimbo Unido (1) - (1) Platense | scheduled | -
 - 2026-08-20 01:00 | Copa Sudamericana Son 16 Turu | Atletico Mg (1) - (0) Bragantino | scheduled | -
@@ -55,20 +53,8 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-- 2026-08-19 21:45 | İngiltere Ulusal Lig N / S Güney | Farnborough - Chesham United | live | -
-- 2026-08-19 21:45 | İngiltere Non League Premier Kuzey | Avro - Workington | live | -
-- 2026-08-19 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl - Celje | live | -
-- 2026-08-19 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen - Bodo Glimt | live | -
-- 2026-08-19 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic - Lask Linz | live | -
-- 2026-08-19 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh - Sabah | live | -
-- 2026-08-19 22:00 | İspanya LaLiga | Atletico Madri - Malaga | live | -
-- 2026-08-19 22:00 | Portekiz U23 Ulusal Şampiyona | Moreirense U23 - Famalicão U23 | live | -
-- 2026-08-19 22:30 | Venezuela Kupa 1.Tur Grup B | Atletico Barin - Zamora | live | -
-- 2026-08-19 22:30 | Venezuela Kupa 1.Tur Grup E | Bolívar - Dinamo Puerto L | live | -
-- 2026-08-19 22:30 | Paraguay Kupa 3.Tur | Paraguari - Sportivo Luquen | live | -
-- 2026-08-19 22:30 | Venezuela Kupa 1.Tur Grup B | El Vigia - Real Frontera | live | -
-- 2026-08-19 23:00 | Venezuela Kupa 1.Tur Grup C | Aragua - Fundacion Lara | live | -
-- 2026-08-19 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas - Mineros | live | -
+- 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | live | -
+- 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | live | -
 
 ## Biten Maclar
 Biten mac yok.
