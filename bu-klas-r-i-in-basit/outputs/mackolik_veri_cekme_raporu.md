@@ -1,27 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T16:05:53.268348+00:00
+Tarih: 2026-08-19T16:50:07.877967+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 42
+- Kac mac bulundu: 32
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 42
+- Kac mac zaten vardi: 32
 - Ham veri havuzu toplam mac sayisi: 7633
 - Hedef tarih: 19.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Almanya Bölgesel Lig Kuzey
-- Almanya U19 Bundesliga Grup G
 - Arjantin Ulusal Primera Lig
 - Güney Afrika PSL
 - Hazırlık Joan Gamper Kupası Final
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
-- Rusya FNL
 - Rusya Kupa Premier Lig Yolu Grup B
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - UEFA Şampiyonlar Ligi Play Off
@@ -91,8 +88,8 @@ Tarih: 2026-08-19T16:05:53.268348+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 36
-- Acilan detay: 36
+- Denenen Tumu alani: 33
+- Acilan detay: 33
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -105,26 +102,26 @@ Tarih: 2026-08-19T16:05:53.268348+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen | Bodo Glimt | 11505 | 5 |
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic | Lask Linz | 11091 | 5 |
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl | Celje | 12550 | 5 |
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh | Sabah | 11248 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen | Bodo Glimt | 11505 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl | Celje | 12550 | 5 |
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic | Lask Linz | 11091 | 5 |
 | 19.08.2026 | 21:00 | Hazırlık Joan Gamper Kupası Final | Barcelona | Al Ahly | 18622 | 4 |
 | 19.08.2026 | 22:00 | İspanya LaLiga | Atletico Madri | Malaga | 17456 | 5 |
-| 19.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak | Al Taawon | 07889 | 5 |
-| 19.08.2026 | 19:30 | Suudi Arabistan Kral Kupası Son 32 Turu | Jeddah Club | Al Kholood | 07900 | 2 |
 | 19.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Ula | Al Fateh | 03245 | 3 |
 | 19.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield | Man City U21 | 09353 | 5 |
 | 19.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova | Krasnodar | 06782 | 5 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Persepolis | Esteghlal Khuze | 04368 | 5 |
 | 19.08.2026 | 20:00 | İran Persian Gulf Pro Lig | Foolad Khuzest | Shams Azar Qazv | 06165 | 3 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Malavan Fc | Zob Ahan Fc | 11070 | 3 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Fajr Sepasi | Sanat Naft | 09776 | 5 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba | Kheybar Khorram | 11073 | 5 |
-| 19.08.2026 | 19:30 | Rusya FNL | Veles | Olimpiyets | 06757 | 5 |
 | 19.08.2026 | 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni | Club Atletico G | 17705 | 5 |
 | 19.08.2026 | 20:30 | Güney Afrika PSL | Mamelodi Sundo | Marumo Gallants | 18235 | 5 |
-| 19.08.2026 | 19:30 | Almanya Bölgesel Lig Kuzey | Werder Bremen | Weiche Flensbur | 02056 | 3 |
+| 19.08.2026 | 20:30 | İsviçre 1.Lig Promotion | Grand-Saconnex | Schaffhausen | 11076 | 3 |
+| 19.08.2026 | 20:30 | İsviçre 1.Lig Promotion | Breiternrain | Young Boys Ii | 11002 | 3 |
+| 19.08.2026 | 20:30 | İsviçre 1.Lig Promotion | Fc Kreuzlingen | Cham | 10311 | 3 |
+| 19.08.2026 | 20:30 | İsviçre 1.Lig Promotion | Bruhl | Biel-Bienne | 06752 | 3 |
+| 19.08.2026 | 21:45 | İngiltere Ulusal Lig N / S Güney | Farnborough | Chesham United | 08662 | 5 |
+| 19.08.2026 | 21:00 | İzlanda 2.Lig | Dalvik | Magni | 03665 | 3 |
+| 19.08.2026 | 21:00 | İzlanda 2.Lig | Fjolnir | Kfa | 04676 | 3 |
+| 19.08.2026 | 21:00 | İzlanda 2.Lig | Vikingur Ol. | Throttur Vogar | 03820 | 3 |
 
 ## Sonuc
 
