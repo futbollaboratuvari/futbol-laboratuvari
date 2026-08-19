@@ -1,21 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-19 / 2026-08-20
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 113
-Aktif mac: 110
-Canli mac: 3
+Aktif mac: 105
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 69
+Bultenden dusurulen mac: 8
+Bugun: 64
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 03:15 | Arjantin Kupa Son 16 Turu | Banfield - Midland | scheduled | -
-- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) - (1) Estudiantes Lp | scheduled | -
-- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | scheduled | -
-- 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | scheduled | -
-- 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | scheduled | -
 - 2026-08-19 03:35 | Brezilya Serie B | Goias - Juventude | scheduled | -
 - 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | scheduled | -
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | scheduled | -
@@ -123,6 +119,11 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
+- 2026-08-19 03:15 | Arjantin Kupa Son 16 Turu | Banfield - Midland | live | -
+- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) - (1) Estudiantes Lp | live | -
+- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | live | -
+- 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | live | -
+- 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | live | -
 - 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | live | -
 - 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | live | -
 - 2026-08-19 01:30 | Brezilya Serie B | Londrina - Atletico Goiani | live | -
