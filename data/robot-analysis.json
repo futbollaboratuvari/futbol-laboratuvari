@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:47:13.221Z",
+  "generated_at": "2026-08-19T21:48:56.267Z",
   "date": "2026-08-20",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -904,7 +904,7 @@
       "value_label": "Normal Değer",
       "band_attention_level": "Düşük",
       "band_attention_notes": [
-        "Bant kontrol verisi yok."
+        "Bant ile skor arasında belirgin çelişki yok."
       ],
       "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | Hafıza: arşiv verisi henüz sınırlı",
       "include_in_coupon": false,
@@ -1403,42 +1403,26 @@
       "value_label": "Yüksek Değer",
       "band_attention_level": "Düşük",
       "band_attention_notes": [
-        "Bant kontrol verisi yok."
+        "Bant ile skor arasında belirgin çelişki yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 2.92 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Düşük",
-      "status": "live",
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "learning_adjustment": {
-        "market": "MS 2",
-        "league": "Guatemala Ulusal Lig Apertura",
-        "delta": 0,
-        "weight": 1,
-        "applied": false,
-        "notes": [
-          "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-        ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
-      },
+      "data_gap_risk": "Yüksek",
+      "status": "filtered_no_value_market",
+      "expected_scores": [],
+      "learning_adjustment": null,
       "metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 50,
-        "over25Percent": 44,
-        "over35Percent": 26,
-        "firstHalfGoalTrend": 36,
-        "secondHalfGoalTrend": 56,
-        "leagueGoalAverage": 2.66,
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -1472,24 +1456,18 @@
             "Hafıza: arşiv verisi henüz sınırlı"
           ]
         },
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
       },
       "signals": [
-        "Market: MS 2",
-        "Oran: 2.92",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
+        "Düşük oran veya eksik veri nedeniyle elendi",
+        "Çifte şans kullanılmadı",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
+        "Veri eksikliği var: -15",
+        "Veri eksikliği riski: Yüksek",
+        "100 puan analiz sınıfı: Oynama"
       ]
     }
   ]
