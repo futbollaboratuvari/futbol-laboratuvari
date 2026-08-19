@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.08.2026 17:59:37
+Oluşturma: 19.08.2026 18:24:28
 
 ## Özet
 
-- Toplam tahmin: 17
-- Bekleyen tahmin: 17
+- Toplam tahmin: 18
+- Bekleyen tahmin: 18
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 13
@@ -20,12 +20,13 @@ Oluşturma: 19.08.2026 17:59:37
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS X: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-19 | Venezuela Kupa 1.Tur Grup B | El Vigia - Real Frontera | MS X | pending | 50/100
 - 2026-08-19 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Dvsc Deac | MS X | pending | 50/100
 - 2026-08-19 | İngiltere Ulusal Lig N / S Güney | Farnborough - Chesham United | MS X | pending | 60/100
 - 2026-08-19 | İngiltere Non League Premier Kuzey | Avro - Workington | MS 2 | pending | 60/100
@@ -40,5 +41,4 @@ Oluşturma: 19.08.2026 17:59:37
 - 2026-08-19 | AFF Şampiyonası Yarı Final | Vietnam (2) - (0) Malezya | MS 2 | pending | 65/100
 - 2026-08-19 | Rusya FNL | Kamaz - Tekstilshchik | MS 2 | pending | 40/100
 - 2026-08-19 | Belarus Premier Lig | Ml Vitebsk - Baranovichi | MS X | pending | 40/100
-- 2026-08-19 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak - Al Taawon | MS 1 | pending | 50/100
 
