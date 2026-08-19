@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-19T19:32:41.354Z
+- Güncelleme: 2026-08-19T19:42:26.418Z
 - Ham maç sayısı: 71
 - Yarın bülteni maç sayısı: 41
 - Detay blok sayısı: 198
@@ -13,7 +13,7 @@
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
 | Aragua - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 1.3 | 7 |
-| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.43 | 7 |
+| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.4 | 7 |
 | Rionegro Aguil - Llaneros | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.74 | 8 |
 | Coban Imperial - Antigua Guatema | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.97 | 8 |
 | Cerro Porteno (1) - (1) Palmeiras | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 4.32 | 8 |
