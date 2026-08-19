@@ -1,6 +1,7 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
+<<<<<<< Updated upstream
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
@@ -147,3 +148,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Vancouver VS Houston + Sao Paulo (1) VS (1) Bolivar + Monagas VS Mineros | MS 2 + MS 2 + MS 2 | 212.05 | 78 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
 | Cincinnati VS New York City + Philadelphia VS Inter Miami + Portland VS San Diego | MS X + MS X + MS X | 45.24 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+=======
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-08-19T00:01:10.319Z
+- Ham maç sayısı: 0
+- Yarın bülteni maç sayısı: 0
+- Detay blok sayısı: 0
+- Aktif bülten maçı: 0
+- Bültenden düşürülen maç: 0
+
+## Skorlanan Maclar
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+>>>>>>> Stashed changes
