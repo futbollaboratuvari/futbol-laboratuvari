@@ -1,9 +1,9 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-19T04:30:30.322Z
-- Ham fixture sayisi: 7585
-- Bugun/yarin kaynak mac: 113
-- Aktif bulten maci: 101
+- Guncelleme: 2026-08-19T05:04:12.180Z
+- Ham fixture sayisi: 7586
+- Bugun/yarin kaynak mac: 114
+- Aktif bulten maci: 102
 - Gosterilen mac: 15
 - Bultenden dusurulen mac: 12
 
@@ -20,5 +20,5 @@
 - 11. 2026-08-19 13:30 | Avustralya NPL Victoria | Preston Lions - Melbourne City | scheduled
 - 12. 2026-08-19 14:00 | Tanzanya Kuu Bara Ligi | Mbeya City - Dodoma Jiji | scheduled
 - 13. 2026-08-19 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Dalian Zhixing | scheduled
-- 14. 2026-08-19 16:00 | Kazakistan Kupa Yarı Final | Altay (1) - (3) Ordabasy | scheduled
-- 15. 2026-08-19 16:00 | AFF Şampiyonası Yarı Final | Vietnam (2) - (0) Malezya | scheduled
+- 14. 2026-08-19 15:00 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | scheduled
+- 15. 2026-08-19 16:00 | Kazakistan Kupa Yarı Final | Altay (1) - (3) Ordabasy | scheduled
