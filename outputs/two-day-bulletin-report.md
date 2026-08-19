@@ -2,24 +2,15 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 103
-Aktif mac: 101
-Canli mac: 2
+Ham mac: 104
+Aktif mac: 93
+Canli mac: 11
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 60
+Bultenden dusurulen mac: 11
+Bugun: 52
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen - Gwangju | scheduled | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa - Daejeon Citizen | scheduled | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Gimpo Citizen - Gimcheon Sangmu | scheduled | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Pohang Steeler - Jinju Citizen | scheduled | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Jeonbuk Hm - Dangjin Citizen | scheduled | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon - Seongnam | scheduled | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark - Bucheon | scheduled | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang - Jeju Utd | scheduled | -
-- 2026-08-19 13:30 | Avustralya NPL Victoria | Preston Lions - Melbourne City | scheduled | -
 - 2026-08-19 14:00 | Tanzanya Kuu Bara Ligi | Mbeya City - Dodoma Jiji | scheduled | -
 - 2026-08-19 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Dalian Zhixing | scheduled | -
 - 2026-08-19 15:00 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | scheduled | -
@@ -36,6 +27,7 @@ Yarin: 41
 - 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Persepolis - Esteghlal Khuze | scheduled | -
 - 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba - Kheybar Khorram | scheduled | -
 - 2026-08-19 19:00 | Belarus Premier Lig | Ml Vitebsk - Baranovichi | scheduled | -
+- 2026-08-19 19:00 | Tanzanya Kuu Bara Ligi | Kagera Sugar - Singida Black S | scheduled | -
 - 2026-08-19 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak - Al Taawon | scheduled | -
 - 2026-08-19 19:30 | Suudi Arabistan Kral Kupası Son 32 Turu | Jeddah Club - Al Kholood | scheduled | -
 - 2026-08-19 19:30 | Rusya FNL | Veles - Olimpiyets | scheduled | -
@@ -116,6 +108,15 @@ Yarin: 41
 ## Canli Maclar
 - 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | live | -
 - 2026-08-19 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia - Melbourne Victo | live | -
+- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen - Gwangju | live | -
+- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa - Daejeon Citizen | live | -
+- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Gimpo Citizen - Gimcheon Sangmu | live | -
+- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Pohang Steeler - Jinju Citizen | live | -
+- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Jeonbuk Hm - Dangjin Citizen | live | -
+- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon - Seongnam | live | -
+- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark - Bucheon | live | -
+- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang - Jeju Utd | live | -
+- 2026-08-19 13:30 | Avustralya NPL Victoria | Preston Lions - Melbourne City | live | -
 
 ## Biten Maclar
 Biten mac yok.
