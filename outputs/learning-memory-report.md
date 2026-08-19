@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.08.2026 00:43:43
+Oluşturma: 20.08.2026 00:47:13
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 1
+- Bekleyen tahmin: 1
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 1
+- Seçenek sayısı: 1
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,9 @@ Oluşturma: 20.08.2026 00:43:43
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-20 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | MS 2 | pending | 40/100
 
