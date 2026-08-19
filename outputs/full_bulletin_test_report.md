@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 101
-- Live match count: 2
+- Scheduled match count: 93
+- Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-19 / 2026-08-20 23:59
 
-- 2026-08-19 12:00 | Vasas Ii - Honved Ii | live
-- 2026-08-19 12:30 | Apia - Melbourne Victo | live
-- 2026-08-19 13:00 | Asan Mugunghwa - Daejeon Citizen | scheduled
-- 2026-08-19 13:00 | Gimpo Citizen - Gimcheon Sangmu | scheduled
-- 2026-08-19 13:00 | Jeonbuk Hm - Dangjin Citizen | scheduled
-- 2026-08-19 13:00 | Pohang Steeler - Jinju Citizen | scheduled
-- 2026-08-19 13:00 | Ulsan Citizen - Gwangju | scheduled
-- 2026-08-19 13:30 | Preston Lions - Melbourne City | scheduled
-- 2026-08-19 13:30 | Anyang - Jeju Utd | scheduled
-- 2026-08-19 13:30 | Busan Ipark - Bucheon | scheduled
+- 2026-08-19 14:00 | Mbeya City - Dodoma Jiji | scheduled
+- 2026-08-19 14:35 | Shanghai Port - Dalian Zhixing | scheduled
+- 2026-08-19 15:00 | Bayern München - Vfb Stuttgart U | scheduled
+- 2026-08-19 16:00 | Vietnam (2) - (0) Malezya | scheduled
+- 2026-08-19 16:00 | Altay (1) - (3) Ordabasy | scheduled
+- 2026-08-19 16:15 | Krylya Sovieto - Zenit | scheduled
+- 2026-08-19 16:15 | Pamba Jiji - Simba | scheduled
+- 2026-08-19 17:00 | Zhenys (1) - (3) Kaisar | scheduled
+- 2026-08-19 18:00 | Kamaz - Tekstilshchik | scheduled
+- 2026-08-19 18:30 | Disgyor Ii - Dvsc Deac | scheduled
