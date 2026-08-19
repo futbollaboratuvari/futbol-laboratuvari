@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-19T11:32:31.364Z
+- Güncelleme: 2026-08-19T11:43:37.223Z
 - Ham maç sayısı: 105
 - Yarın bülteni maç sayısı: 41
 - Detay blok sayısı: 289
-- Aktif bülten maçı: 94
-- Bültenden düşürülen maç: 11
+- Aktif bülten maçı: 93
+- Bültenden düşürülen maç: 12
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shanghai Port - Dalian Zhixing | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.16 | 6 |
 | Bayern München - Vfb Stuttgart U | Almanya U19 Bundesliga Grup D | 15:00 | Veri bekleniyor | - | 2.2 | 6 |
 | Vietnam (2) - (0) Malezya | AFF Şampiyonası Yarı Final | 16:00 | Veri bekleniyor | - | 1.3 | 7 |
 | Altay (1) - (3) Ordabasy | Kazakistan Kupa Yarı Final | 16:00 | Veri bekleniyor | - | 5.54 | 6 |
@@ -29,11 +28,11 @@
 | Ml Vitebsk - Baranovichi | Belarus Premier Lig | 19:00 | Veri bekleniyor | - | 1.13 | 6 |
 | Kagera Sugar - Singida Black S | Tanzanya Kuu Bara Ligi | 19:00 | Veri bekleniyor | - | 4.14 | 8 |
 | Damak - Al Taawon | Suudi Arabistan Kral Kupası Son 32 Turu | 19:15 | Veri bekleniyor | - | 3.48 | 8 |
-| Jeddah Club - Al Kholood | Suudi Arabistan Kral Kupası Son 32 Turu | 19:30 | Veri bekleniyor | - | 9.76 | 4 |
+| Jeddah Club - Al Kholood | Suudi Arabistan Kral Kupası Son 32 Turu | 19:30 | Veri bekleniyor | - | 9.23 | 4 |
 | Veles - Olimpiyets | Rusya FNL | 19:30 | Veri bekleniyor | - | 4.24 | 7 |
 | Werder Bremen - Weiche Flensbur | Almanya Bölgesel Lig Kuzey | 19:30 | Veri bekleniyor | - | 2.46 | 6 |
 | Zürich Ii - Amical Saint-Pr | İsviçre 1.Lig Promotion | 19:30 | Veri bekleniyor | - | 1.53 | 6 |
-| Borussia Mglad - B. Leverkusen U | Almanya U19 Bundesliga Grup G | 19:30 | Veri bekleniyor | - | 2.05 | 6 |
+| Borussia Mglad - B. Leverkusen U | Almanya U19 Bundesliga Grup G | 19:30 | Veri bekleniyor | - | 2.16 | 6 |
 | Foolad Khuzest - Shams Azar Qazv | İran Persian Gulf Pro Lig | 20:00 | Veri bekleniyor | - | 1.69 | 6 |
 | Deportivo Obre - Fernando De La | Paraguay Kupa 3.Tur | 20:00 | Veri bekleniyor | - | 12.15 | 2 |
 | Mamelodi Sundo - Marumo Gallants | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 1.09 | 6 |
@@ -64,7 +63,7 @@
 | Paraguari - Sportivo Luquen | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 4.75 | 5 |
 | El Vigia - Real Frontera | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 1.79 | 8 |
 | Aragua - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 2.36 | 8 |
-| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.25 | 7 |
+| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.29 | 7 |
 | Rionegro Aguil - Llaneros | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.76 | 8 |
 | Coban Imperial - Antigua Guatema | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.97 | 8 |
 | Cerro Porteno (1) - (1) Palmeiras | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 4.34 | 8 |
