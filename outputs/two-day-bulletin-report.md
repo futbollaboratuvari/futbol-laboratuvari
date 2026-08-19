@@ -3,16 +3,14 @@
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
 Ham mac: 120
-Aktif mac: 43
-Canli mac: 23
-Biten mac: 54
-Bultenden dusurulen mac: 77
-Bugun: 2
+Aktif mac: 41
+Canli mac: 14
+Biten mac: 65
+Bultenden dusurulen mac: 79
+Bugun: 0
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 23:00 | Venezuela Kupa 1.Tur Grup C | Aragua - Fundacion Lara | scheduled | -
-- 2026-08-19 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas - Mineros | scheduled | -
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | scheduled | -
 - 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | scheduled | -
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | scheduled | -
@@ -56,17 +54,6 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-- 2026-08-19 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova - Krasnodar | live | -
-- 2026-08-19 21:00 | Hazırlık Joan Gamper Kupası Final | Barcelona - Al Ahly | live | -
-- 2026-08-19 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield - Man City U21 | live | -
-- 2026-08-19 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni - Club Atletico G | live | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Dalvik - Magni | live | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Fjolnir - Kfa | live | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Hviti - Kfg Gardabar | live | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Kormakur - Haukar | live | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Vikingur Ol. - Throttur Vogar | live | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Selfoss - Kari | live | -
-- 2026-08-19 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Ula - Al Fateh | live | -
 - 2026-08-19 21:45 | İngiltere Ulusal Lig N / S Güney | Farnborough - Chesham United | live | -
 - 2026-08-19 21:45 | İngiltere Non League Premier Kuzey | Avro - Workington | live | -
 - 2026-08-19 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl - Celje | live | -
@@ -79,6 +66,8 @@ Yarin: 41
 - 2026-08-19 22:30 | Venezuela Kupa 1.Tur Grup E | Bolívar - Dinamo Puerto L | live | -
 - 2026-08-19 22:30 | Paraguay Kupa 3.Tur | Paraguari - Sportivo Luquen | live | -
 - 2026-08-19 22:30 | Venezuela Kupa 1.Tur Grup B | El Vigia - Real Frontera | live | -
+- 2026-08-19 23:00 | Venezuela Kupa 1.Tur Grup C | Aragua - Fundacion Lara | live | -
+- 2026-08-19 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas - Mineros | live | -
 
 ## Biten Maclar
 - 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | finished | -
@@ -135,3 +124,14 @@ Yarin: 41
 - 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Fc Kreuzlingen - Cham | finished | -
 - 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Grand-Saconnex - Schaffhausen | finished | -
 - 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Bruhl - Biel-Bienne | finished | -
+- 2026-08-19 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova - Krasnodar | finished | -
+- 2026-08-19 21:00 | Hazırlık Joan Gamper Kupası Final | Barcelona - Al Ahly | finished | -
+- 2026-08-19 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield - Man City U21 | finished | -
+- 2026-08-19 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni - Club Atletico G | finished | -
+- 2026-08-19 21:00 | İzlanda 2.Lig | Dalvik - Magni | finished | -
+- 2026-08-19 21:00 | İzlanda 2.Lig | Fjolnir - Kfa | finished | -
+- 2026-08-19 21:00 | İzlanda 2.Lig | Hviti - Kfg Gardabar | finished | -
+- 2026-08-19 21:00 | İzlanda 2.Lig | Kormakur - Haukar | finished | -
+- 2026-08-19 21:00 | İzlanda 2.Lig | Vikingur Ol. - Throttur Vogar | finished | -
+- 2026-08-19 21:00 | İzlanda 2.Lig | Selfoss - Kari | finished | -
+- 2026-08-19 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Ula - Al Fateh | finished | -
