@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 103
+Ham mac: 113
 Aktif mac: 101
 Canli mac: 2
-Biten mac: 0
-Bultenden dusurulen mac: 2
+Biten mac: 10
+Bultenden dusurulen mac: 12
 Bugun: 60
 Yarin: 41
 
@@ -118,4 +118,13 @@ Yarin: 41
 - 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | finished | -
+- 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | finished | -
+- 2026-08-19 01:30 | Brezilya Serie B | Londrina - Atletico Goiani | finished | -
+- 2026-08-19 03:15 | Arjantin Kupa Son 16 Turu | Banfield - Midland | finished | -
+- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) - (1) Estudiantes Lp | finished | -
+- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | finished | -
+- 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | finished | -
+- 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | finished | -
+- 2026-08-19 03:35 | Brezilya Serie B | Goias - Juventude | finished | -
+- 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | finished | -
