@@ -3,24 +3,14 @@
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 120
-Aktif mac: 106
-Canli mac: 12
+Aktif mac: 96
+Canli mac: 22
 Biten mac: 2
-Bultenden dusurulen mac: 14
-Bugun: 96
+Bultenden dusurulen mac: 24
+Bugun: 86
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-20 02:30 | ABD MLS | Columbus - Montreal | scheduled | -
-- 2026-08-20 02:30 | ABD MLS | New York - Nashville Sc | scheduled | -
-- 2026-08-20 02:30 | ABD MLS | Toronto - Charlotte | scheduled | -
-- 2026-08-20 02:30 | ABD MLS | Cincinnati - New York City | scheduled | -
-- 2026-08-20 02:30 | ABD MLS | Orlando City - Chicago | scheduled | -
-- 2026-08-20 02:30 | ABD MLS | Dc United - New England | scheduled | -
-- 2026-08-20 02:30 | ABD MLS | Philadelphia - Inter Miami | scheduled | -
-- 2026-08-20 02:30 | Brezilya Serie B | Cuiaba - Operario | scheduled | -
-- 2026-08-20 02:30 | Brezilya Serie B | Vila Nova - Ponte Preta | scheduled | -
-- 2026-08-20 02:30 | ABD USL Lig 1 | Sarasota Parad - Chattanooga Red | scheduled | -
 - 2026-08-20 03:00 | ABD MLS | Kansas - St. Louis City | scheduled | -
 - 2026-08-20 03:30 | ABD MLS | Minnesota Utd - Atlanta Utd | scheduled | -
 - 2026-08-20 03:30 | Copa Libertadores Son 16 Turu | Flamengo (1) - (1) Cruzeiro | scheduled | -
@@ -131,6 +121,16 @@ Yarin: 10
 - 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup A | Atletico Avila - Deportivo Petar | live | -
 - 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Rayo Zuliano | live | -
 - 2026-08-20 02:00 | ABD USL Lig 1 | One Knoxville - Portland Hearts | live | -
+- 2026-08-20 02:30 | ABD MLS | Columbus - Montreal | live | -
+- 2026-08-20 02:30 | ABD MLS | New York - Nashville Sc | live | -
+- 2026-08-20 02:30 | ABD MLS | Toronto - Charlotte | live | -
+- 2026-08-20 02:30 | ABD MLS | Cincinnati - New York City | live | -
+- 2026-08-20 02:30 | ABD MLS | Orlando City - Chicago | live | -
+- 2026-08-20 02:30 | ABD MLS | Dc United - New England | live | -
+- 2026-08-20 02:30 | ABD MLS | Philadelphia - Inter Miami | live | -
+- 2026-08-20 02:30 | Brezilya Serie B | Cuiaba - Operario | live | -
+- 2026-08-20 02:30 | Brezilya Serie B | Vila Nova - Ponte Preta | live | -
+- 2026-08-20 02:30 | ABD USL Lig 1 | Sarasota Parad - Chattanooga Red | live | -
 
 ## Biten Maclar
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
