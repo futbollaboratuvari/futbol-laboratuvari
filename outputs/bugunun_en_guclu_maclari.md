@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-19T05:53:54.785Z
+- Güncelleme: 2026-08-19T06:05:21.238Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -15,16 +15,16 @@
 | Apia VS Melbourne Victo | Avustralya FFA Kupası Çeyrek Final | 12:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Ulsan Citizen VS Gwangju | Güney Kore FA Kupası Son 16 Turu | 13:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Asan Mugunghwa VS Daejeon Citizen | Güney Kore FA Kupası Son 16 Turu | 13:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Gimpo Citizen VS Gimcheon Sangmu | Güney Kore FA Kupası Son 16 Turu | 13:00 | MS X | 2.99 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gimpo Citizen VS Gimcheon Sangmu | Güney Kore FA Kupası Son 16 Turu | 13:00 | MS X | 2.95 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Pohang Steeler VS Jinju Citizen | Güney Kore FA Kupası Son 16 Turu | 13:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Jeonbuk Hm VS Dangjin Citizen | Güney Kore FA Kupası Son 16 Turu | 13:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gangwon VS Seongnam | Güney Kore FA Kupası Son 16 Turu | 13:30 | MS 2 | 4.73 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Busan Ipark VS Bucheon | Güney Kore FA Kupası Son 16 Turu | 13:30 | MS X | 2.90 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Anyang VS Jeju Utd | Güney Kore FA Kupası Son 16 Turu | 13:30 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Anyang VS Jeju Utd | Güney Kore FA Kupası Son 16 Turu | 13:30 | MS X | 2.93 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Preston Lions VS Melbourne City | Avustralya NPL Victoria | 13:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Mbeya City VS Dodoma Jiji | Tanzanya Kuu Bara Ligi | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Shanghai Port VS Dalian Zhixing | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS 2 | 5.08 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Bayern München VS Vfb Stuttgart U | Almanya U19 Bundesliga Grup D | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Bayern München VS Vfb Stuttgart U | Almanya U19 Bundesliga Grup D | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Vietnam (2) VS (0) Malezya | AFF Şampiyonası Yarı Final | 16:00 | MS 2 | 5.99 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Altay (1) VS (3) Ordabasy | Kazakistan Kupa Yarı Final | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Krylya Sovieto VS Zenit | Rusya Kupa Premier Lig Yolu Grup C | 16:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -49,10 +49,10 @@
 | Fc Kreuzlingen VS Cham | İsviçre 1.Lig Promotion | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Grand-Saconnex VS Schaffhausen | İsviçre 1.Lig Promotion | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Bruhl VS Biel-Bienne | İsviçre 1.Lig Promotion | 20:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Dinamo Moskova VS Krasnodar | Rusya Kupa Premier Lig Yolu Grup B | 20:45 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Dinamo Moskova VS Krasnodar | Rusya Kupa Premier Lig Yolu Grup B | 20:45 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Barcelona VS Al Ahly | Hazırlık Joan Gamper Kupası Final | 21:00 | Değerli market yok | - | 75 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Mansfield VS Man City U21 | İngiltere EFL Trophy Kuzey Grup D | 21:00 | MS X | 3.32 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Chacarita Juni VS Club Atletico G | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
+| Chacarita Juni VS Club Atletico G | Arjantin Ulusal Primera Lig | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Dalvik VS Magni | İzlanda 2.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Fjolnir VS Kfa | İzlanda 2.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Hviti VS Kfg Gardabar | İzlanda 2.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -61,9 +61,9 @@
 | Selfoss VS Kari | İzlanda 2.Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Farnborough VS Chesham United | İngiltere Ulusal Lig N / S Güney | 21:45 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Avro VS Workington | İngiltere Non League Premier Kuzey | 21:45 | MS 2 | 4.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Slovan Bratisl VS Celje | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 4.36 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Slovan Bratisl VS Celje | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 4.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Nijmegen VS Bodo Glimt | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 3.41 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Celtic VS Lask Linz | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 4.38 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Celtic VS Lask Linz | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 2 | 4.24 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hapoel Beer Sh VS Sabah | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS X | 2.95 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Atletico Madri VS Malaga | İspanya LaLiga | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Moreirense U23 VS Famalicão U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -89,7 +89,7 @@
 | Columbus VS Montreal | ABD MLS | 02:30 | MS 2 | 4.28 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | New York VS Nashville Sc | ABD MLS | 02:30 | MS X | 3.33 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Toronto VS Charlotte | ABD MLS | 02:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cincinnati VS New York City | ABD MLS | 02:30 | MS X | 3.47 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Cincinnati VS New York City | ABD MLS | 02:30 | MS X | 3.50 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Orlando City VS Chicago | ABD MLS | 02:30 | MS X | 3.55 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Dc United VS New England | ABD MLS | 02:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Philadelphia VS Inter Miami | ABD MLS | 02:30 | MS X | 3.64 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
@@ -104,7 +104,7 @@
 | Botafogo Ribei VS Criciuma | Brezilya Serie B | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Corpus Christi VS New York Cosmos | ABD USL Lig 1 | 03:30 | MS 2 | 3.69 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Marathon VS Alianza | CONCACAF Orta Amerika Kupası Grup B | 04:00 | MS 2 | 4.38 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Mixco VS Umecit | CONCACAF Orta Amerika Kupası Grup C | 04:00 | MS 2 | 3.62 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Mixco VS Umecit | CONCACAF Orta Amerika Kupası Grup C | 04:00 | MS 2 | 3.75 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Seattle VS Austin | ABD MLS | 04:30 | MS 2 | 4.01 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Salt Lake VS Dallas | ABD MLS | 04:30 | MS X | 3.43 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Colorado VS Los Angeles Fc | ABD MLS | 04:30 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -122,17 +122,17 @@
 | Philadelphia VS Inter Miami | MS X | 3.64 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Orlando City VS Chicago | MS X | 3.55 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Portland VS San Diego | MS X | 3.55 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Los Angeles VS San Jose | MS X | 3.48 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Cincinnati VS New York City | MS X | 3.50 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Vancouver VS Houston + Monagas VS Mineros | MS 2 + MS 2 | 33.05 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | Philadelphia VS Inter Miami + Orlando City VS Chicago | MS X + MS X | 12.92 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Portland VS San Diego + Los Angeles VS San Jose | MS X + MS X | 12.35 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Portland VS San Diego + Cincinnati VS New York City | MS X + MS X | 12.42 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Vancouver VS Houston + Monagas VS Mineros + Philadelphia VS Inter Miami | MS 2 + MS 2 + MS X | 120.29 | 77 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Orlando City VS Chicago + Portland VS San Diego + Los Angeles VS San Jose | MS X + MS X + MS X | 43.86 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Orlando City VS Chicago + Portland VS San Diego + Cincinnati VS New York City | MS X + MS X + MS X | 44.11 | 70 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
