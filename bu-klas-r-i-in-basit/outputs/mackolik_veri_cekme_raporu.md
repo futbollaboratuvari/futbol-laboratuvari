@@ -1,32 +1,43 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T18:02:25.417854+00:00
+Tarih: 2026-08-19T18:19:50.611174+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 23
+- Kac mac bulundu: 55
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 23
+- Kac mac zaten vardi: 55
 - Ham veri havuzu toplam mac sayisi: 7633
 - Hedef tarih: 19.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Ulusal Primera Lig
-- Hazırlık Joan Gamper Kupası Final
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
+- Arjantin Kupa Son 16 Turu
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Guatemala Ulusal Lig Apertura
+- Kanada Premier Lig
+- Kolombiya Primera A Clausura
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
-- Suudi Arabistan Kral Kupası Son 32 Turu
 - UEFA Şampiyonlar Ligi Play Off
+- Venezuela Kupa 1.Tur Grup A
 - Venezuela Kupa 1.Tur Grup B
 - Venezuela Kupa 1.Tur Grup C
+- Venezuela Kupa 1.Tur Grup D
 - Venezuela Kupa 1.Tur Grup E
 - İngiltere Non League Premier Kuzey
 - İngiltere Ulusal Lig N / S Güney
 - İspanya LaLiga
-- İzlanda 2.Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -83,8 +94,8 @@ Tarih: 2026-08-19T18:02:25.417854+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 28
-- Acilan detay: 28
+- Denenen Tumu alani: 24
+- Acilan detay: 24
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -97,26 +108,26 @@ Tarih: 2026-08-19T18:02:25.417854+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen | Bodo Glimt | 11505 | 5 |
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl | Celje | 12550 | 5 |
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Hapoel Beer Sh | Sabah | 11248 | 5 |
-| 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Nijmegen | Bodo Glimt | 11505 | 5 |
 | 19.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celtic | Lask Linz | 11091 | 5 |
-| 19.08.2026 | 21:00 | Hazırlık Joan Gamper Kupası Final | Barcelona | Al Ahly | 18622 | 4 |
 | 19.08.2026 | 22:00 | İspanya LaLiga | Atletico Madri | Malaga | 17456 | 5 |
-| 19.08.2026 | 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Ula | Al Fateh | 03245 | 3 |
-| 19.08.2026 | 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni | Club Atletico G | 17705 | 5 |
-| 19.08.2026 | 21:45 | İngiltere Ulusal Lig N / S Güney | Farnborough | Chesham United | 08662 | 5 |
-| 19.08.2026 | 21:00 | İzlanda 2.Lig | Kormakur | Haukar | 03715 | 3 |
-| 19.08.2026 | 21:00 | İzlanda 2.Lig | Vikingur Ol. | Throttur Vogar | 03820 | 3 |
-| 19.08.2026 | 21:00 | İzlanda 2.Lig | Fjolnir | Kfa | 04676 | 3 |
-| 19.08.2026 | 21:00 | İzlanda 2.Lig | Dalvik | Magni | 03665 | 3 |
-| 19.08.2026 | 21:00 | İzlanda 2.Lig | Selfoss | Kari | 03773 | 3 |
-| 19.08.2026 | 21:00 | İzlanda 2.Lig | Hviti | Kfg Gardabar | 03674 | 3 |
-| 19.08.2026 | 22:30 | Venezuela Kupa 1.Tur Grup B | El Vigia | Real Frontera | 08048 | 5 |
-| 19.08.2026 | 22:30 | Venezuela Kupa 1.Tur Grup B | Atletico Barin | Zamora | 07285 | 3 |
-| 19.08.2026 | 23:00 | Venezuela Kupa 1.Tur Grup C | Aragua | Fundacion Lara | 02198 | 5 |
-| 19.08.2026 | 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas | Mineros | 08454 | 5 |
-| 19.08.2026 | 22:30 | Venezuela Kupa 1.Tur Grup E | Bolívar | Dinamo Puerto L | 06539 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | New York | Nashville Sc | 16195 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Portland | San Diego | 16826 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Orlando City | Chicago | 16253 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Salt Lake | Dallas | 16619 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Toronto | Charlotte | 16387 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Columbus | Montreal | 16003 | 5 |
+| 20.08.2026 | 03:00 | ABD MLS | Kansas | St. Louis City | 16445 | 5 |
+| 20.08.2026 | 03:30 | ABD MLS | Minnesota Utd | Atlanta Utd | 16503 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Los Angeles | San Jose | 16768 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Vancouver | Houston | 16884 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Seattle | Austin | 16677 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Colorado | Los Angeles Fc | 16561 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Philadelphia | Inter Miami | 16311 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Dc United | New England | 16061 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Cincinnati | New York City | 16137 | 5 |
 
 ## Sonuc
 
