@@ -1,25 +1,29 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T23:11:01.858251+00:00
+Tarih: 2026-08-19T23:22:30.668276+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 69
+- Durum: success
+- Kac mac bulundu: 79
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Kac mac zaten vardi: 79
+- Ham veri havuzu toplam mac sayisi: 7712
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Belarus Premier Lig
+- Brezilya Serie B
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Danimarka 1.Lig
 - Finlandiya Ykkösliiga
 - Fransa Ligue 3
 - Irak Premier Lig
 - Katar Yıldızlar Ligi
+- Meksika Ascenso MX Apertura
 - Mısır 2. Lig
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -96,8 +100,7 @@ Tarih: 2026-08-19T23:11:01.858251+00:00
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
@@ -126,4 +129,4 @@ Tarih: 2026-08-19T23:11:01.858251+00:00
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET

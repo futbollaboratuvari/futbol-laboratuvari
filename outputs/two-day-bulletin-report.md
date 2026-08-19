@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-20 / 2026-08-21
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 120
 Aktif mac: 106
-Canli mac: 14
-Biten mac: 0
+Canli mac: 12
+Biten mac: 2
 Bultenden dusurulen mac: 14
 Bugun: 96
 Yarin: 10
@@ -120,20 +119,19 @@ Yarin: 10
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled | -
 
 ## Canli Maclar
-- 2026-08-20 02:00 | Kolombiya Primera A Clausura | Depor Cucuta - Inter Bogota | live | -
-- 2026-08-20 02:00 | Kanada Premier Lig | Forge - Supra Du Quebec | live | -
-- 2026-08-20 02:00 | Kanada Premier Lig | Atletico Ottaw - Vancouver Fc | live | -
-- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup A | Atletico Avila - Deportivo Petar | live | -
-- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Rayo Zuliano | live | -
-- 2026-08-20 02:00 | ABD USL Lig 1 | One Knoxville - Portland Hearts | live | -
-- 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | live | -
-- 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | live | -
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | live | -
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Coquimbo Unido (1) - (1) Platense | live | -
 - 2026-08-20 01:00 | Copa Sudamericana Son 16 Turu | Atletico Mg (1) - (0) Bragantino | live | -
 - 2026-08-20 01:15 | Arjantin Kupa Son 16 Turu | Racing Club - Belgrano | live | -
 - 2026-08-20 01:30 | Brezilya Serie B | Fortaleza Ce - Sao Bernardo | live | -
 - 2026-08-20 01:30 | Brezilya Serie B | Avai - Sport Recife | live | -
+- 2026-08-20 02:00 | Kolombiya Primera A Clausura | Depor Cucuta - Inter Bogota | live | -
+- 2026-08-20 02:00 | Kanada Premier Lig | Forge - Supra Du Quebec | live | -
+- 2026-08-20 02:00 | Kanada Premier Lig | Atletico Ottaw - Vancouver Fc | live | -
+- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup A | Atletico Avila - Deportivo Petar | live | -
+- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Rayo Zuliano | live | -
+- 2026-08-20 02:00 | ABD USL Lig 1 | One Knoxville - Portland Hearts | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | finished | -

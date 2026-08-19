@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 106
 - Live match count: 12
-- Finished removed count: 2
+- Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
 - 2026-08-20 01:00 | Cerro Porteno (1) - (1) Palmeiras | live
