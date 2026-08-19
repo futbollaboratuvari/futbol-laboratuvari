@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-18T06:58:58+03:00
+Güncelleme: 2026-08-19T06:59:37+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 183
+- Toplam tahmin kaydı: 127
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -17,10 +17,10 @@ Güncelleme: 2026-08-18T06:58:58+03:00
 | - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 78 | 0 | 0 | 78 | %0 | 0 |
+| Değerli market yok | 84 | 0 | 0 | 84 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 2 | 26 | 0 | 0 | 26 | %0 | 4.31 |
-| MS X | 78 | 0 | 0 | 78 | %0 | 3.11 |
+| MS 2 | 22 | 0 | 0 | 22 | %0 | 4.64 |
+| MS X | 20 | 0 | 0 | 20 | %0 | 3.06 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -30,44 +30,44 @@ Güncelleme: 2026-08-18T06:58:58+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 20 | 0 | 0 | 20 | %0 | 2.92 |
-| 3.00-4.99 | 79 | 0 | 0 | 79 | %0 | 3.42 |
-| 5.00+ | 5 | 0 | 0 | 5 | %0 | 5.21 |
-| bilinmiyor | 79 | 0 | 0 | 79 | %0 | 0 |
+| 2.00-2.99 | 8 | 0 | 0 | 8 | %0 | 2.91 |
+| 3.00-4.99 | 28 | 0 | 0 | 28 | %0 | 3.71 |
+| 5.00+ | 6 | 0 | 0 | 6 | %0 | 6.07 |
+| bilinmiyor | 85 | 0 | 0 | 85 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| AFF Şampiyonası Yarı Final | 2 | 0 | 0 | 2 | %0 | 0 |
-| Arjantin Kupa Son 16 Turu | 2 | 0 | 0 | 2 | %0 | 0 |
+| AFF Şampiyonası Yarı Final | 2 | 0 | 0 | 2 | %0 | 6.18 |
+| Almanya Bölgesel Lig Kuzey | 2 | 0 | 0 | 2 | %0 | 0 |
+| Arjantin Ulusal Primera Lig | 2 | 0 | 0 | 2 | %0 | 0 |
 | Avustralya FFA Kupası Çeyrek Final | 2 | 0 | 0 | 2 | %0 | 0 |
-| Hazırlık Kulüpler | 2 | 0 | 0 | 2 | %0 | 0 |
-| Meksika Liga MX Apertura | 5 | 0 | 0 | 5 | %0 | 3.96 |
-| Paraguay Kupa 3.Tur | 2 | 0 | 0 | 2 | %0 | 0 |
-| Portekiz U23 Ulusal Şampiyona | 12 | 0 | 0 | 12 | %0 | 3.42 |
-| Rusya Kupa Premier Lig Yolu Grup A | 2 | 0 | 0 | 2 | %0 | 3.02 |
-| Rusya Kupa Premier Lig Yolu Grup B | 2 | 0 | 0 | 2 | %0 | 3.67 |
-| Rusya Kupa Premier Lig Yolu Grup D | 4 | 0 | 0 | 4 | %0 | 3.96 |
-| Suudi Arabistan Kral Kupası Son 32 Turu | 8 | 0 | 0 | 8 | %0 | 0 |
-| Tanzanya Kuu Bara Ligi | 4 | 0 | 0 | 4 | %0 | 0 |
+| Avustralya NPL Victoria | 2 | 0 | 0 | 2 | %0 | 0 |
+| Belarus Premier Lig | 2 | 0 | 0 | 2 | %0 | 0 |
+| CONCACAF Orta Amerika Kupası Grup A | 2 | 0 | 0 | 2 | %0 | 4.32 |
+| CONCACAF Orta Amerika Kupası Grup B | 2 | 0 | 0 | 2 | %0 | 3.39 |
+| CONCACAF Orta Amerika Kupası Grup D | 3 | 0 | 0 | 3 | %0 | 0 |
+| Güney Afrika PSL | 2 | 0 | 0 | 2 | %0 | 0 |
+| Güney Kore FA Kupası Son 16 Turu | 16 | 0 | 0 | 16 | %0 | 3.35 |
+| Hazırlık Joan Gamper Kupası Final | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Afc Totton VS Dorking Wand. | 2 | 0 | 0 | 2 | %0 | 3.17 |
-| Akhmat Grozny VS Fakel Voronezh | 2 | 0 | 0 | 2 | %0 | 3.67 |
-| Al Akhdoud VS Al Khaleej | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Jabalain VS Al Ettifaq | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Najma VS Al Ittihad (Cid | 2 | 0 | 0 | 2 | %0 | 0 |
-| Aldershot VS Fulham (B) | 2 | 0 | 0 | 2 | %0 | 0 |
-| Ashton United VS Whitby Town | 2 | 0 | 0 | 2 | %0 | 3.96 |
-| Barnet VS Arsenal U21 | 2 | 0 | 0 | 2 | %0 | 4.55 |
-| Bedford Town VS Buxton | 2 | 0 | 0 | 2 | %0 | 0 |
-| Bellinzona VS Basel Ii | 2 | 0 | 0 | 2 | %0 | 3.29 |
-| Benjamin Aceva VS Nacional Asunci | 2 | 0 | 0 | 2 | %0 | 0 |
-| Boreham Wood VS Leeds United U2 | 2 | 0 | 0 | 2 | %0 | 0 |
+| Altay (1) VS (3) Ordabasy | 2 | 0 | 0 | 2 | %0 | 0 |
+| Anyang VS Jeju Utd | 2 | 0 | 0 | 2 | %0 | 2.84 |
+| Apia VS Melbourne Victo | 2 | 0 | 0 | 2 | %0 | 0 |
+| Aragua VS Fundacion Lara | 2 | 0 | 0 | 2 | %0 | 0 |
+| Asan Mugunghwa VS Daejeon Citizen | 2 | 0 | 0 | 2 | %0 | 0 |
+| Atletico Barin VS Zamora | 2 | 0 | 0 | 2 | %0 | 0 |
+| Atletico Madri VS Malaga | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avro VS Workington | 2 | 0 | 0 | 2 | %0 | 4.09 |
+| Barcelona VS Al Ahly | 2 | 0 | 0 | 2 | %0 | 0 |
+| Bolívar VS Dinamo Puerto L | 2 | 0 | 0 | 2 | %0 | 3.53 |
+| Breiternrain VS Young Boys Ii | 2 | 0 | 0 | 2 | %0 | 0 |
+| Bruhl VS Biel-Bienne | 2 | 0 | 0 | 2 | %0 | 0 |
 
 ## Öğrenme Ağırlıkları - Market
 
