@@ -3,17 +3,14 @@
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 120
-Aktif mac: 115
-Canli mac: 5
+Aktif mac: 112
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 105
+Bultenden dusurulen mac: 8
+Bugun: 102
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-20 01:15 | Arjantin Kupa Son 16 Turu | Racing Club - Belgrano | scheduled | -
-- 2026-08-20 01:30 | Brezilya Serie B | Fortaleza Ce - Sao Bernardo | scheduled | -
-- 2026-08-20 01:30 | Brezilya Serie B | Avai - Sport Recife | scheduled | -
 - 2026-08-20 02:00 | Kolombiya Primera A Clausura | Depor Cucuta - Inter Bogota | scheduled | -
 - 2026-08-20 02:00 | Kanada Premier Lig | Forge - Supra Du Quebec | scheduled | -
 - 2026-08-20 02:00 | Kanada Premier Lig | Atletico Ottaw - Vancouver Fc | scheduled | -
@@ -133,6 +130,9 @@ Yarin: 10
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | live | -
 - 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Coquimbo Unido (1) - (1) Platense | live | -
 - 2026-08-20 01:00 | Copa Sudamericana Son 16 Turu | Atletico Mg (1) - (0) Bragantino | live | -
+- 2026-08-20 01:15 | Arjantin Kupa Son 16 Turu | Racing Club - Belgrano | live | -
+- 2026-08-20 01:30 | Brezilya Serie B | Fortaleza Ce - Sao Bernardo | live | -
+- 2026-08-20 01:30 | Brezilya Serie B | Avai - Sport Recife | live | -
 
 ## Biten Maclar
 Biten mac yok.
