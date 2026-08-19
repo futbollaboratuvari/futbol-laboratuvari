@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T14:01:14.007051+00:00
+Tarih: 2026-08-19T14:48:34.999434+00:00
 
 ## Ozet
 
@@ -20,7 +20,6 @@ Tarih: 2026-08-19T14:01:14.007051+00:00
 - Belarus Premier Lig
 - Güney Afrika PSL
 - Hazırlık Joan Gamper Kupası Final
-- Kazakistan Kupa Yarı Final
 - Macaristan NB III Kuzeydoğu
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -31,6 +30,7 @@ Tarih: 2026-08-19T14:01:14.007051+00:00
 - Tanzanya Kuu Bara Ligi
 - UEFA Şampiyonlar Ligi Play Off
 - Venezuela Kupa 1.Tur Grup B
+- Venezuela Kupa 1.Tur Grup C
 - Venezuela Kupa 1.Tur Grup E
 - İngiltere EFL Trophy Kuzey Grup D
 - İngiltere Non League Premier Kuzey
@@ -120,15 +120,15 @@ Tarih: 2026-08-19T14:01:14.007051+00:00
 | 19.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield | Man City U21 | 09353 | 5 |
 | 19.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan | Spartak Moskova | 06456 | 5 |
 | 19.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova | Krasnodar | 06782 | 5 |
-| 19.08.2026 | 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) | (3) Kaisar | 18237 | 5 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Persepolis | Esteghlal Khuze | 04368 | 5 |
 | 19.08.2026 | 20:00 | İran Persian Gulf Pro Lig | Foolad Khuzest | Shams Azar Qazv | 06165 | 3 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Malavan Fc | Zob Ahan Fc | 11070 | 3 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Fajr Sepasi | Sanat Naft | 09776 | 5 |
 | 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba | Kheybar Khorram | 11073 | 3 |
-| 19.08.2026 | 18:00 | Rusya FNL | Kamaz | Tekstilshchik | 06426 | 5 |
 | 19.08.2026 | 19:30 | Rusya FNL | Veles | Olimpiyets | 06757 | 5 |
+| 19.08.2026 | 18:00 | Rusya FNL | Kamaz | Tekstilshchik | 06426 | 5 |
 | 19.08.2026 | 19:00 | Belarus Premier Lig | Ml Vitebsk | Baranovichi | 03401 | 5 |
+| 19.08.2026 | 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni | Club Atletico G | 17705 | 5 |
 
 ## Sonuc
 
