@@ -1,28 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-19T14:04:02.830Z",
-  "updated_at": "2026-08-19T14:55:08.718Z",
+  "updated_at": "2026-08-19T14:59:37.897Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 16,
-    "pending_predictions": 16,
+    "total_predictions": 17,
+    "pending_predictions": 17,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 12,
+    "league_count": 13,
     "market_count": 3,
-    "added_predictions": 0,
+    "added_predictions": 1,
     "updated_predictions": 0,
-    "last_score_link_checked": 16,
+    "last_score_link_checked": 17,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
     "MS X": {
-      "total": 7,
-      "pending": 7,
+      "total": 8,
+      "pending": 8,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -52,6 +52,16 @@
     }
   },
   "league_memory": {
+    "Macaristan NB III Kuzeydoğu": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İngiltere Ulusal Lig N / S Güney": {
       "total": 1,
       "pending": 1,
@@ -174,6 +184,16 @@
     }
   },
   "league_market_memory": {
+    "Macaristan NB III Kuzeydoğu :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "İngiltere Ulusal Lig N / S Güney :: MS X": {
       "total": 1,
       "pending": 1,
@@ -307,6 +327,23 @@
   },
   "predictions": [
     {
+      "id": "2026-08-19|macaristan nb iii kuzeydogu|disgyor ii dvsc deac|ms x|18 30",
+      "date": "2026-08-19",
+      "created_at": "2026-08-19T14:59:37.444Z",
+      "match_name": "Disgyor Ii - Dvsc Deac",
+      "league": "Macaristan NB III Kuzeydoğu",
+      "start_time": "18:30",
+      "market": "MS X",
+      "odds": "3.00",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-19|ingiltere ulusal lig n s guney|farnborough chesham united|ms x|21 45",
       "date": "2026-08-19",
       "created_at": "2026-08-19T14:04:02.839Z",
@@ -322,7 +359,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|ingiltere non league premier kuzey|avro workington|ms 2|21 45",
@@ -340,7 +377,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|slovan bratisl celje|ms 2|22 00",
@@ -358,7 +395,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|nijmegen bodo glimt|ms x|22 00",
@@ -376,7 +413,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|celtic lask linz|ms 2|22 00",
@@ -394,7 +431,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|hapoel beer sh sabah|ms x|22 00",
@@ -412,7 +449,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|portekiz u23 ulusal sampiyona|moreirense u23 famalicao u23|ms x|22 00",
@@ -430,7 +467,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|venezuela kupa 1 tur grup e|bolivar dinamo puerto l|ms 2|22 30",
@@ -448,7 +485,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|venezuela kupa 1 tur grup b|el vigia real frontera|ms 2|22 30",
@@ -466,7 +503,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|venezuela kupa 1 tur grup e|monagas mineros|ms 2|23 00",
@@ -484,7 +521,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|aff sampiyonasi yari final|vietnam 2 0 malezya|ms 2|16 00",
@@ -502,7 +539,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.444Z"
     },
     {
       "id": "2026-08-19|rusya fnl|kamaz tekstilshchik|ms 2|18 00",
@@ -520,7 +557,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.444Z"
     },
     {
       "id": "2026-08-19|belarus premier lig|ml vitebsk baranovichi|ms x|19 00",
@@ -538,7 +575,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|suudi arabistan kral kupasi son 32 turu|damak al taawon|ms 1|19 15",
@@ -556,7 +593,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|rusya kupa premier lig yolu grup b|dinamo moskova krasnodar|ms x|20 45",
@@ -574,7 +611,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     },
     {
       "id": "2026-08-19|ingiltere efl trophy kuzey grup d|mansfield man city u21|ms x|21 00",
@@ -592,7 +629,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-19T14:55:08.434Z"
+      "updated_at": "2026-08-19T14:59:37.445Z"
     }
   ]
 }

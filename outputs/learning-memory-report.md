@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.08.2026 17:55:08
+Oluşturma: 19.08.2026 17:59:37
 
 ## Özet
 
-- Toplam tahmin: 16
-- Bekleyen tahmin: 16
+- Toplam tahmin: 17
+- Bekleyen tahmin: 17
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 12
+- Lig sayısı: 13
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 19.08.2026 17:55:08
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
+- MS X: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-19 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Dvsc Deac | MS X | pending | 50/100
 - 2026-08-19 | İngiltere Ulusal Lig N / S Güney | Farnborough - Chesham United | MS X | pending | 60/100
 - 2026-08-19 | İngiltere Non League Premier Kuzey | Avro - Workington | MS 2 | pending | 60/100
 - 2026-08-19 | UEFA Şampiyonlar Ligi Play Off | Slovan Bratisl - Celje | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 19.08.2026 17:55:08
 - 2026-08-19 | Rusya FNL | Kamaz - Tekstilshchik | MS 2 | pending | 40/100
 - 2026-08-19 | Belarus Premier Lig | Ml Vitebsk - Baranovichi | MS X | pending | 40/100
 - 2026-08-19 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak - Al Taawon | MS 1 | pending | 50/100
-- 2026-08-19 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova - Krasnodar | MS X | pending | 50/100
 
