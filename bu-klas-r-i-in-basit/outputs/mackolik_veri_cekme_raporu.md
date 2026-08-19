@@ -1,28 +1,41 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-19T12:04:01.093782+00:00
+Tarih: 2026-08-19T12:24:34.007043+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 52
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 52
-- Ham veri havuzu toplam mac sayisi: 7631
+- Kac mac bulundu: 93
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 92
+- Ham veri havuzu toplam mac sayisi: 7632
 - Hedef tarih: 19.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - AFF Şampiyonası Yarı Final
 - Almanya Bölgesel Lig Kuzey
 - Almanya U19 Bundesliga Grup D
 - Almanya U19 Bundesliga Grup G
+- Arjantin Kupa Son 16 Turu
 - Arjantin Ulusal Primera Lig
 - Belarus Premier Lig
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup B
+- CONCACAF Orta Amerika Kupası Grup C
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika PSL
 - Hazırlık Joan Gamper Kupası Final
+- Kanada Premier Lig
 - Kazakistan Kupa Yarı Final
+- Kolombiya Primera A Clausura
 - Macaristan NB III Kuzeydoğu
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
@@ -33,8 +46,10 @@ Tarih: 2026-08-19T12:04:01.093782+00:00
 - Suudi Arabistan Kral Kupası Son 32 Turu
 - Tanzanya Kuu Bara Ligi
 - UEFA Şampiyonlar Ligi Play Off
+- Venezuela Kupa 1.Tur Grup A
 - Venezuela Kupa 1.Tur Grup B
 - Venezuela Kupa 1.Tur Grup C
+- Venezuela Kupa 1.Tur Grup D
 - Venezuela Kupa 1.Tur Grup E
 - İngiltere EFL Trophy Kuzey Grup D
 - İngiltere Non League Premier Kuzey
@@ -123,16 +138,16 @@ Tarih: 2026-08-19T12:04:01.093782+00:00
 | 19.08.2026 | 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak | Al Taawon | 07889 | 5 |
 | 19.08.2026 | 16:00 | AFF Şampiyonası Yarı Final | Vietnam (2) | (0) Malezya | 09180 | 5 |
 | 19.08.2026 | 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield | Man City U21 | 09353 | 5 |
-| 19.08.2026 | 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan | Spartak Moskova | 06456 | 5 |
-| 19.08.2026 | 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova | Krasnodar | 06782 | 5 |
-| 19.08.2026 | 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto | Zenit | 06184 | 5 |
-| 19.08.2026 | 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) | (3) Kaisar | 18237 | 5 |
-| 19.08.2026 | 16:00 | Kazakistan Kupa Yarı Final | Altay (1) | (3) Ordabasy | 09210 | 5 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Persepolis | Esteghlal Khuze | 04368 | 5 |
-| 19.08.2026 | 20:00 | İran Persian Gulf Pro Lig | Foolad Khuzest | Shams Azar Qazv | 06165 | 3 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Malavan Fc | Zob Ahan Fc | 11070 | 3 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Fajr Sepasi | Sanat Naft | 09776 | 5 |
-| 19.08.2026 | 19:00 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba | Kheybar Khorram | 11073 | 3 |
+| 20.08.2026 | 04:30 | ABD MLS | Seattle | Austin | 16677 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Portland | San Diego | 16826 | 5 |
+| 20.08.2026 | 03:00 | ABD MLS | Kansas | St. Louis City | 16445 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Los Angeles | San Jose | 16768 | 5 |
+| 20.08.2026 | 05:30 | ABD MLS | Vancouver | Houston | 16884 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Orlando City | Chicago | 16253 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | New York | Nashville Sc | 16195 | 5 |
+| 20.08.2026 | 04:30 | ABD MLS | Salt Lake | Dallas | 16619 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Toronto | Charlotte | 16387 | 5 |
+| 20.08.2026 | 02:30 | ABD MLS | Cincinnati | New York City | 16137 | 5 |
 
 ## Sonuc
 
