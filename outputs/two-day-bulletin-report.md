@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 113
-Aktif mac: 103
-Canli mac: 7
-Biten mac: 3
-Bultenden dusurulen mac: 10
-Bugun: 62
+Ham mac: 104
+Aktif mac: 101
+Canli mac: 3
+Biten mac: 0
+Bultenden dusurulen mac: 3
+Bugun: 60
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | scheduled | -
-- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | scheduled | -
 - 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | scheduled | -
 - 2026-08-19 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia - Melbourne Victo | scheduled | -
 - 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen - Gwangju | scheduled | -
@@ -116,15 +114,9 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-- 2026-08-19 03:15 | Arjantin Kupa Son 16 Turu | Banfield - Midland | live | -
-- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) - (1) Estudiantes Lp | live | -
-- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | live | -
-- 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | live | -
-- 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | live | -
-- 2026-08-19 03:35 | Brezilya Serie B | Goias - Juventude | live | -
 - 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | live | -
+- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | live | -
+- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | live | -
 
 ## Biten Maclar
-- 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | finished | -
-- 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | finished | -
-- 2026-08-19 01:30 | Brezilya Serie B | Londrina - Atletico Goiani | finished | -
+Biten mac yok.

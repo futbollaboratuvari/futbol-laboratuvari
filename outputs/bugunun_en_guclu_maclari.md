@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-19T03:05:12.934Z
-- Ham maç sayısı: 110
+- Güncelleme: 2026-08-19T03:12:57.973Z
+- Ham maç sayısı: 104
 - Yarın bülteni maç sayısı: 41
-- Detay blok sayısı: 301
+- Detay blok sayısı: 284
 - Aktif bülten maçı: 101
-- Bültenden düşürülen maç: 9
+- Bültenden düşürülen maç: 3
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -16,12 +16,12 @@
 | Apia - Melbourne Victo | Avustralya FFA Kupası Çeyrek Final | 12:30 | Veri bekleniyor | - | 3.61 | 8 |
 | Ulsan Citizen - Gwangju | Güney Kore FA Kupası Son 16 Turu | 13:00 | Veri bekleniyor | - | 3.52 | 8 |
 | Asan Mugunghwa - Daejeon Citizen | Güney Kore FA Kupası Son 16 Turu | 13:00 | Veri bekleniyor | - | 3.81 | 8 |
-| Gimpo Citizen - Gimcheon Sangmu | Güney Kore FA Kupası Son 16 Turu | 13:00 | Veri bekleniyor | - | 2.83 | 8 |
+| Gimpo Citizen - Gimcheon Sangmu | Güney Kore FA Kupası Son 16 Turu | 13:00 | Veri bekleniyor | - | 2.91 | 8 |
 | Pohang Steeler - Jinju Citizen | Güney Kore FA Kupası Son 16 Turu | 13:00 | Veri bekleniyor | - | 1.19 | 6 |
-| Jeonbuk Hm - Dangjin Citizen | Güney Kore FA Kupası Son 16 Turu | 13:00 | Veri bekleniyor | - | 1.14 | 6 |
-| Gangwon - Seongnam | Güney Kore FA Kupası Son 16 Turu | 13:30 | Veri bekleniyor | - | 1.36 | 7 |
+| Jeonbuk Hm - Dangjin Citizen | Güney Kore FA Kupası Son 16 Turu | 13:00 | Veri bekleniyor | - | 1.13 | 6 |
+| Gangwon - Seongnam | Güney Kore FA Kupası Son 16 Turu | 13:30 | Veri bekleniyor | - | 1.37 | 7 |
 | Busan Ipark - Bucheon | Güney Kore FA Kupası Son 16 Turu | 13:30 | Veri bekleniyor | - | 2.46 | 8 |
-| Anyang - Jeju Utd | Güney Kore FA Kupası Son 16 Turu | 13:30 | Veri bekleniyor | - | 2.45 | 8 |
+| Anyang - Jeju Utd | Güney Kore FA Kupası Son 16 Turu | 13:30 | Veri bekleniyor | - | 2.54 | 8 |
 | Preston Lions - Melbourne City | Avustralya NPL Victoria | 13:30 | Veri bekleniyor | - | 1.07 | 4 |
 | Mbeya City - Dodoma Jiji | Tanzanya Kuu Bara Ligi | 14:00 | Veri bekleniyor | - | 2.05 | 6 |
 | Shanghai Port - Dalian Zhixing | Çin Halk Cumhuriyeti Süper Lig | 14:35 | Veri bekleniyor | - | 1.25 | 6 |
@@ -39,13 +39,13 @@
 | Mes Shahr-E Ba - Kheybar Khorram | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 4.68 | 5 |
 | Ml Vitebsk - Baranovichi | Belarus Premier Lig | 19:00 | Veri bekleniyor | - | 1.13 | 6 |
 | Damak - Al Taawon | Suudi Arabistan Kral Kupası Son 32 Turu | 19:15 | Veri bekleniyor | - | 3.48 | 3 |
-| Jeddah Club - Al Kholood | Suudi Arabistan Kral Kupası Son 32 Turu | 19:30 | Veri bekleniyor | - | 11.3 | 3 |
+| Jeddah Club - Al Kholood | Suudi Arabistan Kral Kupası Son 32 Turu | 19:30 | Veri bekleniyor | - | 11.3 | 4 |
 | Veles - Olimpiyets | Rusya FNL | 19:30 | Veri bekleniyor | - | 4.18 | 7 |
-| Werder Bremen - Weiche Flensbur | Almanya Bölgesel Lig Kuzey | 19:30 | Veri bekleniyor | - | 2.54 | 6 |
+| Werder Bremen - Weiche Flensbur | Almanya Bölgesel Lig Kuzey | 19:30 | Veri bekleniyor | - | 2.57 | 6 |
 | Zürich Ii - Amical Saint-Pr | İsviçre 1.Lig Promotion | 19:30 | Veri bekleniyor | - | 1.53 | 6 |
 | Foolad Khuzest - Shams Azar Qazv | İran Persian Gulf Pro Lig | 20:00 | Veri bekleniyor | - | 1.69 | 6 |
 | Mamelodi Sundo - Marumo Gallants | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 1.1 | 6 |
-| Breiternrain - Young Boys Ii | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 1.79 | 6 |
+| Breiternrain - Young Boys Ii | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 1.78 | 6 |
 | Fc Kreuzlingen - Cham | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.77 | 6 |
 | Grand-Saconnex - Schaffhausen | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.04 | 6 |
 | Bruhl - Biel-Bienne | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.21 | 6 |
@@ -67,11 +67,11 @@
 | Hapoel Beer Sh - Sabah | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.09 | 8 |
 | Atletico Madri - Malaga | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.17 | 6 |
 | Moreirense U23 - Famalicão U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.55 | 8 |
-| Atletico Barin - Zamora | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 3.41 | 6 |
-| Bolívar - Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | Veri bekleniyor | - | 1.77 | 8 |
+| Atletico Barin - Zamora | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 2.87 | 6 |
+| Bolívar - Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | Veri bekleniyor | - | 1.69 | 8 |
 | Paraguari - Sportivo Luquen | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 4.8 | 5 |
 | Aragua - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 2.5 | 8 |
-| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.25 | 7 |
+| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.24 | 7 |
 | Rionegro Aguil - Llaneros | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.74 | 8 |
 | Coban Imperial - Antigua Guatema | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 2.04 | 8 |
 | Cerro Porteno (1) - (1) Palmeiras | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 4.32 | 8 |
