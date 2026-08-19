@@ -2,19 +2,19 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-19T14:47:44.877Z
-- Ham maç sayısı: 94
+- Güncelleme: 2026-08-19T14:55:07.933Z
+- Ham maç sayısı: 92
 - Yarın bülteni maç sayısı: 41
-- Detay blok sayısı: 256
+- Detay blok sayısı: 253
 - Aktif bülten maçı: 87
-- Bültenden düşürülen maç: 7
+- Bültenden düşürülen maç: 5
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
 | Kamaz - Tekstilshchik | Rusya FNL | 18:00 | Veri bekleniyor | - | 1.77 | 8 |
-| Rubin Kazan - Spartak Moskova | Rusya Kupa Premier Lig Yolu Grup A | 18:30 | Veri bekleniyor | - | 3.93 | 8 |
-| Disgyor Ii - Dvsc Deac | Macaristan NB III Kuzeydoğu | 18:30 | Veri bekleniyor | - | 2.54 | 6 |
+| Rubin Kazan - Spartak Moskova | Rusya Kupa Premier Lig Yolu Grup A | 18:30 | Veri bekleniyor | - | 3.45 | 8 |
+| Disgyor Ii - Dvsc Deac | Macaristan NB III Kuzeydoğu | 18:30 | Veri bekleniyor | - | 2.55 | 8 |
 | Fajr Sepasi - Sanat Naft | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.38 | 8 |
 | Malavan Fc - Zob Ahan Fc | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 1.94 | 6 |
 | Persepolis - Esteghlal Khuze | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 1.16 | 6 |
@@ -22,42 +22,42 @@
 | Ml Vitebsk - Baranovichi | Belarus Premier Lig | 19:00 | Veri bekleniyor | - | 1.14 | 6 |
 | Kagera Sugar - Singida Black S | Tanzanya Kuu Bara Ligi | 19:00 | Veri bekleniyor | - | 4.14 | 8 |
 | Damak - Al Taawon | Suudi Arabistan Kral Kupası Son 32 Turu | 19:15 | Veri bekleniyor | - | 3.17 | 8 |
-| Jeddah Club - Al Kholood | Suudi Arabistan Kral Kupası Son 32 Turu | 19:30 | Veri bekleniyor | - | 10.75 | 4 |
+| Jeddah Club - Al Kholood | Suudi Arabistan Kral Kupası Son 32 Turu | 19:30 | Veri bekleniyor | - | 10.8 | 4 |
 | Veles - Olimpiyets | Rusya FNL | 19:30 | Veri bekleniyor | - | 4.24 | 7 |
 | Werder Bremen - Weiche Flensbur | Almanya Bölgesel Lig Kuzey | 19:30 | Veri bekleniyor | - | 2.46 | 6 |
 | Zürich Ii - Amical Saint-Pr | İsviçre 1.Lig Promotion | 19:30 | Veri bekleniyor | - | 1.53 | 6 |
 | Borussia Mglad - B. Leverkusen U | Almanya U19 Bundesliga Grup G | 19:30 | Veri bekleniyor | - | 2.22 | 6 |
-| Foolad Khuzest - Shams Azar Qazv | İran Persian Gulf Pro Lig | 20:00 | Veri bekleniyor | - | 1.69 | 6 |
+| Foolad Khuzest - Shams Azar Qazv | İran Persian Gulf Pro Lig | 20:00 | Veri bekleniyor | - | 1.65 | 6 |
 | Deportivo Obre - Fernando De La | Paraguay Kupa 3.Tur | 20:00 | Veri bekleniyor | - | 12.15 | 2 |
-| Mamelodi Sundo - Marumo Gallants | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 1.09 | 6 |
+| Mamelodi Sundo - Marumo Gallants | Güney Afrika PSL | 20:30 | Veri bekleniyor | - | 1.1 | 6 |
 | Breiternrain - Young Boys Ii | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.23 | 6 |
 | Fc Kreuzlingen - Cham | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.77 | 6 |
 | Grand-Saconnex - Schaffhausen | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 2.04 | 6 |
 | Bruhl - Biel-Bienne | İsviçre 1.Lig Promotion | 20:30 | Veri bekleniyor | - | 1.93 | 6 |
 | Dinamo Moskova - Krasnodar | Rusya Kupa Premier Lig Yolu Grup B | 20:45 | Veri bekleniyor | - | 2.21 | 8 |
 | Barcelona - Al Ahly | Hazırlık Joan Gamper Kupası Final | 21:00 | Veri bekleniyor | - | - | 5 |
-| Mansfield - Man City U21 | İngiltere EFL Trophy Kuzey Grup D | 21:00 | Veri bekleniyor | - | 1.89 | 8 |
+| Mansfield - Man City U21 | İngiltere EFL Trophy Kuzey Grup D | 21:00 | Veri bekleniyor | - | 1.98 | 8 |
 | Chacarita Juni - Club Atletico G | Arjantin Ulusal Primera Lig | 21:00 | Veri bekleniyor | - | 1.78 | 8 |
 | Dalvik - Magni | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.63 | 6 |
 | Fjolnir - Kfa | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.65 | 6 |
 | Hviti - Kfg Gardabar | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.53 | 6 |
 | Kormakur - Haukar | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 3.82 | 6 |
-| Vikingur Ol. - Throttur Vogar | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.79 | 6 |
+| Vikingur Ol. - Throttur Vogar | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.85 | 6 |
 | Selfoss - Kari | İzlanda 2.Lig | 21:00 | Veri bekleniyor | - | 1.52 | 6 |
 | Farnborough - Chesham United | İngiltere Ulusal Lig N / S Güney | 21:45 | Veri bekleniyor | - | 2.59 | 8 |
 | Avro - Workington | İngiltere Non League Premier Kuzey | 21:45 | Veri bekleniyor | - | 1.41 | 7 |
-| Slovan Bratisl - Celje | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.68 | 8 |
+| Slovan Bratisl - Celje | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.72 | 8 |
 | Nijmegen - Bodo Glimt | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.37 | 8 |
 | Celtic - Lask Linz | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.56 | 8 |
 | Hapoel Beer Sh - Sabah | UEFA Şampiyonlar Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.09 | 8 |
-| Atletico Madri - Malaga | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.21 | 6 |
+| Atletico Madri - Malaga | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 1.2 | 6 |
 | Moreirense U23 - Famalicão U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | Veri bekleniyor | - | 2.55 | 8 |
-| Atletico Barin - Zamora | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 2.2 | 6 |
+| Atletico Barin - Zamora | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 2.33 | 6 |
 | Bolívar - Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | Veri bekleniyor | - | 1.69 | 8 |
 | Paraguari - Sportivo Luquen | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 4.75 | 5 |
 | El Vigia - Real Frontera | Venezuela Kupa 1.Tur Grup B | 22:30 | Veri bekleniyor | - | 1.79 | 8 |
-| Aragua - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 2.7 | 8 |
-| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.47 | 7 |
+| Aragua - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 23:00 | Veri bekleniyor | - | 1.81 | 8 |
+| Monagas - Mineros | Venezuela Kupa 1.Tur Grup E | 23:00 | Veri bekleniyor | - | 1.52 | 8 |
 | Rionegro Aguil - Llaneros | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 1.76 | 8 |
 | Coban Imperial - Antigua Guatema | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.97 | 8 |
 | Cerro Porteno (1) - (1) Palmeiras | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 4.34 | 8 |

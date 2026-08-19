@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 94
+Ham mac: 92
 Aktif mac: 87
-Canli mac: 7
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 7
+Bultenden dusurulen mac: 5
 Bugun: 46
 Yarin: 41
 
@@ -100,8 +100,6 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
-- 2026-08-19 15:00 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | live | -
-- 2026-08-19 15:30 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | live | -
 - 2026-08-19 16:00 | AFF Şampiyonası Yarı Final | Vietnam (2) - (0) Malezya | live | -
 - 2026-08-19 16:00 | Kazakistan Kupa Yarı Final | Altay (1) - (3) Ordabasy | live | -
 - 2026-08-19 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto - Zenit | live | -
