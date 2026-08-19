@@ -1,25 +1,31 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-19T10:52:28.660Z",
-  "updated_at": "2026-08-19T11:49:58.347Z",
+  "updated_at": "2026-08-19T12:04:53.568Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 23,
-    "pending_predictions": 23,
+    "total_predictions": 24,
+    "pending_predictions": 24,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 15,
     "market_count": 3,
-    "added_predictions": 23,
-    "updated_predictions": 0,
-    "last_score_link_checked": 23,
-    "last_score_linked": 0,
-    "last_finalizer_checked": 0,
-    "last_finalizer_updated": 0
+    "added_predictions": 1,
+    "updated_predictions": 0
   },
   "market_memory": {
+    "MS 1": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS 2": {
       "total": 11,
       "pending": 11,
@@ -39,19 +45,19 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS 1": {
-      "total": 1,
-      "pending": 1,
+    }
+  },
+  "league_memory": {
+    "İzlanda 2.Lig": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
+    },
     "Rusya FNL": {
       "total": 1,
       "pending": 1,
@@ -83,16 +89,6 @@
       "confidence_adjustment": 0
     },
     "İngiltere EFL Trophy Kuzey Grup D": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "İzlanda 2.Lig": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -204,6 +200,16 @@
     }
   },
   "league_market_memory": {
+    "İzlanda 2.Lig :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Rusya FNL :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -387,14 +393,14 @@
   },
   "predictions": [
     {
-      "id": "2026-08-19|rusya fnl|kamaz tekstilshchik|ms 2|18 00",
+      "id": "2026-08-19|izlanda 2 lig|kormakur haukar|ms 1|21 00",
       "date": "2026-08-19",
-      "created_at": "2026-08-19T11:49:56.732Z",
-      "match_name": "Kamaz - Tekstilshchik",
-      "league": "Rusya FNL",
-      "start_time": "18:00",
-      "market": "MS 2",
-      "odds": "3.26",
+      "created_at": "2026-08-19T12:04:53.567Z",
+      "match_name": "Kormakur - Haukar",
+      "league": "İzlanda 2.Lig",
+      "start_time": "21:00",
+      "market": "MS 1",
+      "odds": "3.82",
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
@@ -402,6 +408,24 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-19|rusya fnl|kamaz tekstilshchik|ms 2|18 00",
+      "date": "2026-08-19",
+      "created_at": "2026-08-19T11:49:56.732Z",
+      "match_name": "Kamaz - Tekstilshchik",
+      "league": "Rusya FNL",
+      "start_time": "18:00",
+      "market": "MS 2",
+      "odds": "3.35",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|belarus premier lig|ml vitebsk baranovichi|ms x|19 00",
@@ -418,7 +442,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|rusya kupa premier lig yolu grup b|dinamo moskova krasnodar|ms x|20 45",
@@ -435,7 +460,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|ingiltere efl trophy kuzey grup d|mansfield man city u21|ms x|21 00",
@@ -452,7 +478,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|izlanda 2 lig|kormakur haukar|ms x|21 00",
@@ -486,7 +513,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|ingiltere non league premier kuzey|avro workington|ms 2|21 45",
@@ -503,7 +531,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|slovan bratisl celje|ms 2|22 00",
@@ -513,14 +542,15 @@
       "league": "UEFA Şampiyonlar Ligi Play Off",
       "start_time": "22:00",
       "market": "MS 2",
-      "odds": "3.83",
+      "odds": "3.70",
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|nijmegen bodo glimt|ms x|22 00",
@@ -537,7 +567,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|celtic lask linz|ms 2|22 00",
@@ -554,7 +585,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|uefa sampiyonlar ligi play off|hapoel beer sh sabah|ms x|22 00",
@@ -571,7 +603,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|portekiz u23 ulusal sampiyona|moreirense u23 famalicao u23|ms x|22 00",
@@ -588,7 +621,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|venezuela kupa 1 tur grup e|bolivar dinamo puerto l|ms 2|22 30",
@@ -605,7 +639,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|venezuela kupa 1 tur grup b|el vigia real frontera|ms 2|22 30",
@@ -622,7 +657,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|venezuela kupa 1 tur grup e|monagas mineros|ms 2|23 00",
@@ -632,14 +668,15 @@
       "league": "Venezuela Kupa 1.Tur Grup E",
       "start_time": "23:00",
       "market": "MS 2",
-      "odds": "5.71",
+      "odds": "4.77",
       "confidence_score": "75%",
       "analysis_score": 75,
       "risk_level": "Düşük",
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.567Z"
     },
     {
       "id": "2026-08-19|guney kore fa kupasi son 16 turu|ulsan citizen gwangju|ms 1|13 00",
@@ -656,7 +693,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|guney kore fa kupasi son 16 turu|gimpo citizen gimcheon sangmu|ms x|13 00",
@@ -673,7 +711,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|guney kore fa kupasi son 16 turu|gangwon seongnam|ms 2|13 30",
@@ -690,7 +729,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|guney kore fa kupasi son 16 turu|busan ipark bucheon|ms x|13 30",
@@ -707,7 +747,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|guney kore fa kupasi son 16 turu|anyang jeju utd|ms x|13 30",
@@ -724,7 +765,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|tanzanya kuu bara ligi|mbeya city dodoma jiji|ms 2|14 00",
@@ -741,7 +783,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|cin halk cumhuriyeti super lig|shanghai port dalian zhixing|ms 2|14 35",
@@ -758,7 +801,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     },
     {
       "id": "2026-08-19|aff sampiyonasi yari final|vietnam 2 0 malezya|ms 2|16 00",
@@ -775,7 +819,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-19T12:04:53.566Z"
     }
   ]
 }

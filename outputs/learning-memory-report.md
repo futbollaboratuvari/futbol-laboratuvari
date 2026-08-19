@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 19.08.2026 14:49:56
+Oluşturma: 19.08.2026 15:04:53
 
 ## Özet
 
-- Toplam tahmin: 23
-- Bekleyen tahmin: 23
+- Toplam tahmin: 24
+- Bekleyen tahmin: 24
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 15
@@ -20,12 +20,13 @@ Oluşturma: 19.08.2026 14:49:56
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
 - MS X: toplam 11, bekleyen 11, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 1, bekleyen 1, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-19 | İzlanda 2.Lig | Kormakur - Haukar | MS 1 | pending | 40/100
 - 2026-08-19 | Rusya FNL | Kamaz - Tekstilshchik | MS 2 | pending | 40/100
 - 2026-08-19 | Belarus Premier Lig | Ml Vitebsk - Baranovichi | MS X | pending | 40/100
 - 2026-08-19 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova - Krasnodar | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 19.08.2026 14:49:56
 - 2026-08-19 | Portekiz U23 Ulusal Şampiyona | Moreirense U23 - Famalicão U23 | MS X | pending | 50/100
 - 2026-08-19 | Venezuela Kupa 1.Tur Grup E | Bolívar - Dinamo Puerto L | MS 2 | pending | 40/100
 - 2026-08-19 | Venezuela Kupa 1.Tur Grup B | El Vigia - Real Frontera | MS 2 | pending | 50/100
-- 2026-08-19 | Venezuela Kupa 1.Tur Grup E | Monagas - Mineros | MS 2 | pending | 75/100
 
