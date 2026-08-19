@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
-Ham mac: 120
+Ham mac: 55
 Aktif mac: 41
 Canli mac: 14
-Biten mac: 65
-Bultenden dusurulen mac: 79
+Biten mac: 0
+Bultenden dusurulen mac: 14
 Bugun: 0
 Yarin: 41
 
@@ -70,68 +70,4 @@ Yarin: 41
 - 2026-08-19 23:00 | Venezuela Kupa 1.Tur Grup E | Monagas - Mineros | live | -
 
 ## Biten Maclar
-- 2026-08-19 01:00 | Copa Libertadores Son 16 Turu | Rivadavia (0) - (0) Fluminense | finished | -
-- 2026-08-19 01:00 | Copa Sudamericana Son 16 Turu | Deportivo Reco (1) - (3) Boca Juniors | finished | -
-- 2026-08-19 01:30 | Brezilya Serie B | Londrina - Atletico Goiani | finished | -
-- 2026-08-19 03:15 | Arjantin Kupa Son 16 Turu | Banfield - Midland | finished | -
-- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Univ. Catolica (1) - (1) Estudiantes Lp | finished | -
-- 2026-08-19 03:30 | Copa Libertadores Son 16 Turu | Deportes Tolim - Indep. Jose Ter | finished | -
-- 2026-08-19 03:30 | Copa Sudamericana Son 16 Turu | Sao Paulo (1) - (1) Bolivar | finished | -
-- 2026-08-19 03:30 | Brezilya Serie B | Nautico - Ceara | finished | -
-- 2026-08-19 03:35 | Brezilya Serie B | Goias - Juventude | finished | -
-- 2026-08-19 04:00 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines - Hankook Verdes | finished | -
-- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Diriangen | finished | -
-- 2026-08-19 06:00 | CONCACAF Orta Amerika Kupası Grup B | Real Esteli - Herediano | finished | -
-- 2026-08-19 12:00 | Macaristan NB III Güneydoğu | Vasas Ii - Honved Ii | finished | -
-- 2026-08-19 12:30 | Avustralya FFA Kupası Çeyrek Final | Apia - Melbourne Victo | finished | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Ulsan Citizen - Gwangju | finished | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Asan Mugunghwa - Daejeon Citizen | finished | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Gimpo Citizen - Gimcheon Sangmu | finished | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Pohang Steeler - Jinju Citizen | finished | -
-- 2026-08-19 13:00 | Güney Kore FA Kupası Son 16 Turu | Jeonbuk Hm - Dangjin Citizen | finished | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon - Seongnam | finished | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark - Bucheon | finished | -
-- 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang - Jeju Utd | finished | -
-- 2026-08-19 13:30 | Avustralya NPL Victoria | Preston Lions - Melbourne City | finished | -
-- 2026-08-19 14:00 | Tanzanya Kuu Bara Ligi | Mbeya City - Dodoma Jiji | finished | -
-- 2026-08-19 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Dalian Zhixing | finished | -
-- 2026-08-19 15:00 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | finished | -
-- 2026-08-19 15:30 | Almanya U19 Bundesliga Grup D | Bayern München - Vfb Stuttgart U | finished | -
-- 2026-08-19 16:00 | AFF Şampiyonası Yarı Final | Vietnam (2) - (0) Malezya | finished | -
-- 2026-08-19 16:00 | Kazakistan Kupa Yarı Final | Altay (1) - (3) Ordabasy | finished | -
-- 2026-08-19 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto - Zenit | finished | -
-- 2026-08-19 16:15 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Simba | finished | -
-- 2026-08-19 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) - (3) Kaisar | finished | -
-- 2026-08-19 18:00 | Rusya FNL | Kamaz - Tekstilshchik | finished | -
-- 2026-08-19 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan - Spartak Moskova | finished | -
-- 2026-08-19 18:30 | Macaristan NB III Kuzeydoğu | Disgyor Ii - Dvsc Deac | finished | -
-- 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Fajr Sepasi - Sanat Naft | finished | -
-- 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Malavan Fc - Zob Ahan Fc | finished | -
-- 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Persepolis - Esteghlal Khuze | finished | -
-- 2026-08-19 19:00 | İran Persian Gulf Pro Lig | Mes Shahr-E Ba - Kheybar Khorram | finished | -
-- 2026-08-19 19:00 | Belarus Premier Lig | Ml Vitebsk - Baranovichi | finished | -
-- 2026-08-19 19:00 | Tanzanya Kuu Bara Ligi | Kagera Sugar - Singida Black S | finished | -
-- 2026-08-19 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak - Al Taawon | finished | -
-- 2026-08-19 19:30 | Suudi Arabistan Kral Kupası Son 32 Turu | Jeddah Club - Al Kholood | finished | -
-- 2026-08-19 19:30 | Rusya FNL | Veles - Olimpiyets | finished | -
-- 2026-08-19 19:30 | Almanya Bölgesel Lig Kuzey | Werder Bremen - Weiche Flensbur | finished | -
-- 2026-08-19 19:30 | İsviçre 1.Lig Promotion | Zürich Ii - Amical Saint-Pr | finished | -
-- 2026-08-19 19:30 | Almanya U19 Bundesliga Grup G | Borussia Mglad - B. Leverkusen U | finished | -
-- 2026-08-19 20:00 | İran Persian Gulf Pro Lig | Foolad Khuzest - Shams Azar Qazv | finished | -
-- 2026-08-19 20:00 | Paraguay Kupa 3.Tur | Deportivo Obre - Fernando De La | finished | -
-- 2026-08-19 20:30 | Güney Afrika PSL | Mamelodi Sundo - Marumo Gallants | finished | -
-- 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Breiternrain - Young Boys Ii | finished | -
-- 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Fc Kreuzlingen - Cham | finished | -
-- 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Grand-Saconnex - Schaffhausen | finished | -
-- 2026-08-19 20:30 | İsviçre 1.Lig Promotion | Bruhl - Biel-Bienne | finished | -
-- 2026-08-19 20:45 | Rusya Kupa Premier Lig Yolu Grup B | Dinamo Moskova - Krasnodar | finished | -
-- 2026-08-19 21:00 | Hazırlık Joan Gamper Kupası Final | Barcelona - Al Ahly | finished | -
-- 2026-08-19 21:00 | İngiltere EFL Trophy Kuzey Grup D | Mansfield - Man City U21 | finished | -
-- 2026-08-19 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni - Club Atletico G | finished | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Dalvik - Magni | finished | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Fjolnir - Kfa | finished | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Hviti - Kfg Gardabar | finished | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Kormakur - Haukar | finished | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Vikingur Ol. - Throttur Vogar | finished | -
-- 2026-08-19 21:00 | İzlanda 2.Lig | Selfoss - Kari | finished | -
-- 2026-08-19 21:00 | Suudi Arabistan Kral Kupası Son 32 Turu | Al Ula - Al Fateh | finished | -
+Biten mac yok.

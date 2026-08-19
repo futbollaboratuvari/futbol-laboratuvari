@@ -1,8 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 30
-Tam analiz: 29
-Eksik analiz: 1
+Durum: ok
+Toplam analiz: 14
+Tam analiz: 14
+Eksik analiz: 0
 
-- Al Ula VS Al Fateh: eksik score, confidence
