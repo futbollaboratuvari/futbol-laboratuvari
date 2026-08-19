@@ -3,19 +3,14 @@
 Gunler: 2026-08-19 / 2026-08-20
 Kaynak: fixtures.json
 Ham mac: 89
-Aktif mac: 78
-Canli mac: 11
+Aktif mac: 73
+Canli mac: 16
 Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 37
+Bultenden dusurulen mac: 16
+Bugun: 32
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 19:30 | Suudi Arabistan Kral Kupası Son 32 Turu | Jeddah Club - Al Kholood | scheduled | -
-- 2026-08-19 19:30 | Rusya FNL | Veles - Olimpiyets | scheduled | -
-- 2026-08-19 19:30 | Almanya Bölgesel Lig Kuzey | Werder Bremen - Weiche Flensbur | scheduled | -
-- 2026-08-19 19:30 | İsviçre 1.Lig Promotion | Zürich Ii - Amical Saint-Pr | scheduled | -
-- 2026-08-19 19:30 | Almanya U19 Bundesliga Grup G | Borussia Mglad - B. Leverkusen U | scheduled | -
 - 2026-08-19 20:00 | İran Persian Gulf Pro Lig | Foolad Khuzest - Shams Azar Qazv | scheduled | -
 - 2026-08-19 20:00 | Paraguay Kupa 3.Tur | Deportivo Obre - Fernando De La | scheduled | -
 - 2026-08-19 20:30 | Güney Afrika PSL | Mamelodi Sundo - Marumo Gallants | scheduled | -
@@ -102,6 +97,11 @@ Yarin: 41
 - 2026-08-19 19:00 | Belarus Premier Lig | Ml Vitebsk - Baranovichi | live | -
 - 2026-08-19 19:00 | Tanzanya Kuu Bara Ligi | Kagera Sugar - Singida Black S | live | -
 - 2026-08-19 19:15 | Suudi Arabistan Kral Kupası Son 32 Turu | Damak - Al Taawon | live | -
+- 2026-08-19 19:30 | Suudi Arabistan Kral Kupası Son 32 Turu | Jeddah Club - Al Kholood | live | -
+- 2026-08-19 19:30 | Rusya FNL | Veles - Olimpiyets | live | -
+- 2026-08-19 19:30 | Almanya Bölgesel Lig Kuzey | Werder Bremen - Weiche Flensbur | live | -
+- 2026-08-19 19:30 | İsviçre 1.Lig Promotion | Zürich Ii - Amical Saint-Pr | live | -
+- 2026-08-19 19:30 | Almanya U19 Bundesliga Grup G | Borussia Mglad - B. Leverkusen U | live | -
 
 ## Biten Maclar
 Biten mac yok.
