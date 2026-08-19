@@ -1,18 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-19 / 2026-08-20
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 100
-Aktif mac: 90
-Canli mac: 10
+Aktif mac: 88
+Canli mac: 12
 Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 49
+Bultenden dusurulen mac: 12
+Bugun: 47
 Yarin: 41
 
 ## Baslamamis Maclar
-- 2026-08-19 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto - Zenit | scheduled | -
-- 2026-08-19 16:15 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Simba | scheduled | -
 - 2026-08-19 17:00 | Kazakistan Kupa Yarı Final | Zhenys (1) - (3) Kaisar | scheduled | -
 - 2026-08-19 18:00 | Rusya FNL | Kamaz - Tekstilshchik | scheduled | -
 - 2026-08-19 18:30 | Rusya Kupa Premier Lig Yolu Grup A | Rubin Kazan - Spartak Moskova | scheduled | -
@@ -103,6 +102,8 @@ Yarin: 41
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | scheduled | -
 
 ## Canli Maclar
+- 2026-08-19 16:15 | Rusya Kupa Premier Lig Yolu Grup C | Krylya Sovieto - Zenit | live | -
+- 2026-08-19 16:15 | Tanzanya Kuu Bara Ligi | Pamba Jiji - Simba | live | -
 - 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Gangwon - Seongnam | live | -
 - 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Busan Ipark - Bucheon | live | -
 - 2026-08-19 13:30 | Güney Kore FA Kupası Son 16 Turu | Anyang - Jeju Utd | live | -
