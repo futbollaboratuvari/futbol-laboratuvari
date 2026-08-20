@@ -1,7 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: ok
-Toplam analiz: 40
-Tam analiz: 40
-Eksik analiz: 0
+Durum: warning
+Toplam analiz: 21
+Tam analiz: 20
+Eksik analiz: 1
 
+- Tacuary VS Libertad: eksik score, confidence
