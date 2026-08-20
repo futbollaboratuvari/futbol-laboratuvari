@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 12
-- Live match count: 38
-- Finished removed count: 0
+- Live match count: 27
+- Finished removed count: 11
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 21:00 | Al Golan - Al Karkh | live
-- 2026-08-20 21:00 | Al Minaa Basra - Zakho | live
-- 2026-08-20 21:00 | Al Feiha - Al Hilal (Riyad | live
-- 2026-08-20 21:00 | Azam Fc - Tabora United | live
-- 2026-08-20 21:00 | Kizilyildiz - Viktoria Plzen | live
-- 2026-08-20 21:00 | Ofi - Cska Sofia | live
-- 2026-08-20 21:00 | St. Truidense - Omonia | live
-- 2026-08-20 21:00 | Fc Drita - Inter Escaldes | live
-- 2026-08-20 21:00 | Gornik Zabrze - Monaco | live
-- 2026-08-20 21:00 | Twente - Qarabagh | live
+- 2026-08-20 21:15 | Sion - Ajax | live
+- 2026-08-20 21:30 | Atalanta - Hapoel Tel Aviv | live
+- 2026-08-20 21:30 | Gent - Hibernian | live
+- 2026-08-20 21:30 | Lugano - Maccabi Tel Avi | live
+- 2026-08-20 21:30 | Motherwell - Freiburg | live
+- 2026-08-20 21:30 | Panathinaikos - Hradec Kralove | live
+- 2026-08-20 21:45 | Bastia - Versailles | live
+- 2026-08-20 21:45 | Bourg-Peronnas - Thionville Lusi | live
+- 2026-08-20 21:45 | Caen - Aubagne Air Bel | live
+- 2026-08-20 21:45 | Concarneau - Fc Villefranche | live
