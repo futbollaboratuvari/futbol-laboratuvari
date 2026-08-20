@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:01:50.502Z",
+  "generated_at": "2026-08-20T17:24:02.887Z",
   "date": "2026-08-20",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -28037,8 +28037,8 @@
       "league": "Paraguay Kupa 3.Tur",
       "start_time": "20:00",
       "recommended_market": "Değerli market yok",
-      "confidence_score": "0%",
-      "analysis_score": 0,
+      "confidence_score": "45%",
+      "analysis_score": 45,
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
@@ -28520,24 +28520,24 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol attı: +15 | 2.5 Üst yüzdesi %60 üzeri: +10",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Orta",
+      "data_gap_risk": "Düşük",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
+        "homeScoredLast10": 6,
+        "awayScoredLast10": 6,
         "homeConcededLast10": 3,
         "awayConcededLast10": 3,
         "bttsPercent": 36,
-        "over25Percent": null,
-        "over35Percent": null,
+        "over25Percent": 76,
+        "over35Percent": 58,
         "firstHalfGoalTrend": 35,
         "secondHalfGoalTrend": 42,
-        "leagueGoalAverage": null,
+        "leagueGoalAverage": 3.02,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -28571,18 +28571,21 @@
             "Hafıza: arşiv verisi henüz sınırlı"
           ]
         },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
+        "homeScoredLast10Count": 6,
+        "awayScoredLast10Count": 6,
         "homeConcededLast10Count": 3,
         "awayConcededLast10Count": 3
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
+        "2.5 Üst yüzdesi %60 üzeri: +10",
+        "3.5 Üst yüzdesi %45 üzeri: +10",
+        "Lig gol ortalaması 2.70 üzeri: +10",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Orta",
-        "100 puan analiz sınıfı: Oynama"
+        "Veri eksikliği riski: Düşük",
+        "100 puan analiz sınıfı: Sadece izleme"
       ]
     },
     {
