@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 63
-- Live match count: 14
-- Finished removed count: 1
+- Scheduled match count: 52
+- Live match count: 25
+- Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
 - 2026-08-20 18:00 | Kapa - Jippo Joensuu | live
