@@ -1,32 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T15:57:16.680232+00:00
+Tarih: 2026-08-20T16:15:24.469771+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 69
+- Kac mac bulundu: 52
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 69
+- Kac mac zaten vardi: 52
 - Ham veri havuzu toplam mac sayisi: 7720
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup C
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
 - Danimarka 1.Lig
 - Ekvador Kupa Son 16 Turu
 - Fransa Ligue 3
 - Irak Premier Lig
 - Katar Yıldızlar Ligi
-- Meksika Ascenso MX Apertura
 - Paraguay Kupa 3.Tur
-- Portekiz U23 Ulusal Şampiyona
-- Rusya FNL
 - Rusya Kupa Premier Lig Yolu Grup C
 - Suudi Arabistan Pro Lig
 - Tanzanya Kuu Bara Ligi
@@ -90,8 +83,8 @@ Tarih: 2026-08-20T15:57:16.680232+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -104,26 +97,26 @@ Tarih: 2026-08-20T15:57:16.680232+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 20.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Mjallby | Salzburg | 13341 | 5 |
 | 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Beşiktaş | Kauno Zalgiris | 13400 | 4 |
-| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Egnatia | Lillestrom | 13460 | 5 |
-| 20.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Jagiellonia | Fc Iberia | 13225 | 5 |
 | 20.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Kizilyildiz | Viktoria Plzen | 14118 | 5 |
+| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Lech Poznan | Thun | 13518 | 5 |
+| 20.08.2026 | 22:00 | UEFA Avrupa Ligi Play Off | Benfica | Aarhus | 15059 | 4 |
+| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Egnatia | Lillestrom | 13460 | 5 |
+| 20.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Ofi | Cska Sofia | 14170 | 5 |
 | 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Trabzonspor | Ferencvaros | 13691 | 5 |
 | 20.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | St. Truidense | Omonia | 14228 | 5 |
-| 20.08.2026 | 22:00 | UEFA Avrupa Ligi Play Off | Benfica | Aarhus | 15059 | 4 |
-| 20.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Ofi | Cska Sofia | 14170 | 5 |
 | 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Universitatea | Ararat-Armenia | 13807 | 5 |
-| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Lech Poznan | Thun | 13518 | 5 |
-| 20.08.2026 | 21:00 | UEFA Konferans Ligi Play Off | Vikingur Reykj | Borac Banja Luk | 14370 | 5 |
-| 20.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Lincoln Red Im | Larne Fc | 13283 | 5 |
-| 20.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Dinamo Tirana | Pafos Fc | 15172 | 5 |
-| 20.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Nordsjaelland | St Gallen | 13634 | 5 |
+| 20.08.2026 | 21:15 | UEFA Konferans Ligi Play Off | Sion | Ajax | 14435 | 5 |
 | 20.08.2026 | 21:00 | UEFA Konferans Ligi Play Off | Gornik Zabrze | Monaco | 13993 | 5 |
 | 20.08.2026 | 21:45 | UEFA Konferans Ligi Play Off | Glasgow Ranger | Jablonec | 15001 | 5 |
 | 20.08.2026 | 21:30 | UEFA Konferans Ligi Play Off | Panathinaikos | Hradec Kralove | 14885 | 5 |
-| 20.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Inter Turku | Kopenhag | 13135 | 5 |
 | 20.08.2026 | 21:30 | UEFA Konferans Ligi Play Off | Gent | Hibernian | 14663 | 5 |
+| 20.08.2026 | 21:45 | UEFA Konferans Ligi Play Off | Hearts | Rapid Wien | 14943 | 5 |
+| 20.08.2026 | 21:30 | UEFA Konferans Ligi Play Off | Lugano | Maccabi Tel Avi | 14732 | 5 |
+| 20.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Getafe | Partizan Belgra | 15230 | 5 |
+| 20.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Nordsjaelland | St Gallen | 13634 | 5 |
+| 20.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Dinamo Tirana | Pafos Fc | 15172 | 5 |
+| 20.08.2026 | 20:30 | UEFA Konferans Ligi Play Off | Kí Klaksvík | Riga Fc | 13865 | 5 |
 
 ## Sonuc
 
