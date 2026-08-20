@@ -1,26 +1,31 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T14:04:22.720584+00:00
+Tarih: 2026-08-20T14:53:57.421544+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 66
+- Kac mac bulundu: 76
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 66
+- Kac mac zaten vardi: 76
 - Ham veri havuzu toplam mac sayisi: 7720
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Belarus Premier Lig
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Danimarka 1.Lig
 - Ekvador Kupa Son 16 Turu
 - Finlandiya Ykkösliiga
 - Fransa Ligue 3
 - Irak Premier Lig
 - Katar Yıldızlar Ligi
+- Meksika Ascenso MX Apertura
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
 - Rusya FNL
@@ -101,26 +106,26 @@ Tarih: 2026-08-20T14:04:22.720584+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 20.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Mjallby | Salzburg | 13341 | 5 |
-| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Beşiktaş | Kauno Zalgiris | 13400 | 4 |
-| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Egnatia | Lillestrom | 13460 | 5 |
-| 20.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Jagiellonia | Fc Iberia | 13225 | 5 |
+| 20.08.2026 | 18:00 | UEFA Avrupa Ligi Play Off | Kairat Almaty | Anderlecht | 13078 | 5 |
 | 20.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Kizilyildiz | Viktoria Plzen | 14118 | 5 |
-| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Trabzonspor | Ferencvaros | 13691 | 5 |
 | 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Lech Poznan | Thun | 13518 | 5 |
 | 20.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | St. Truidense | Omonia | 14228 | 5 |
-| 20.08.2026 | 22:00 | UEFA Avrupa Ligi Play Off | Benfica | Aarhus | 15059 | 4 |
+| 20.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Mjallby | Salzburg | 13341 | 5 |
+| 20.08.2026 | 19:00 | UEFA Avrupa Ligi Play Off | Jagiellonia | Fc Iberia | 13225 | 5 |
+| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Egnatia | Lillestrom | 13460 | 5 |
 | 20.08.2026 | 21:00 | UEFA Avrupa Ligi Play Off | Ofi | Cska Sofia | 14170 | 5 |
+| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Trabzonspor | Ferencvaros | 13691 | 5 |
+| 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Beşiktaş | Kauno Zalgiris | 13400 | 4 |
+| 20.08.2026 | 22:00 | UEFA Avrupa Ligi Play Off | Benfica | Aarhus | 15059 | 4 |
 | 20.08.2026 | 20:00 | UEFA Avrupa Ligi Play Off | Universitatea | Ararat-Armenia | 13807 | 5 |
-| 20.08.2026 | 18:00 | UEFA Avrupa Ligi Play Off | Kairat Almaty | Anderlecht | 13078 | 5 |
-| 20.08.2026 | 21:00 | UEFA Konferans Ligi Play Off | Vikingur Reykj | Borac Banja Luk | 14370 | 5 |
-| 20.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Lincoln Red Im | Larne Fc | 13283 | 5 |
-| 20.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Dinamo Tirana | Pafos Fc | 15172 | 5 |
-| 20.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Nordsjaelland | St Gallen | 13634 | 5 |
-| 20.08.2026 | 21:00 | UEFA Konferans Ligi Play Off | Gornik Zabrze | Monaco | 13993 | 5 |
-| 20.08.2026 | 21:45 | UEFA Konferans Ligi Play Off | Glasgow Ranger | Jablonec | 15001 | 5 |
-| 20.08.2026 | 21:30 | UEFA Konferans Ligi Play Off | Panathinaikos | Hradec Kralove | 14885 | 5 |
+| 20.08.2026 | 21:30 | UEFA Konferans Ligi Play Off | Gent | Hibernian | 14663 | 5 |
 | 20.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Inter Turku | Kopenhag | 13135 | 5 |
+| 20.08.2026 | 21:30 | UEFA Konferans Ligi Play Off | Panathinaikos | Hradec Kralove | 14885 | 5 |
+| 20.08.2026 | 21:45 | UEFA Konferans Ligi Play Off | Glasgow Ranger | Jablonec | 15001 | 5 |
+| 20.08.2026 | 21:00 | UEFA Konferans Ligi Play Off | Gornik Zabrze | Monaco | 13993 | 5 |
+| 20.08.2026 | 20:00 | UEFA Konferans Ligi Play Off | Nordsjaelland | St Gallen | 13634 | 5 |
+| 20.08.2026 | 22:00 | UEFA Konferans Ligi Play Off | Dinamo Tirana | Pafos Fc | 15172 | 5 |
+| 20.08.2026 | 19:00 | UEFA Konferans Ligi Play Off | Lincoln Red Im | Larne Fc | 13283 | 5 |
 
 ## Sonuc
 
