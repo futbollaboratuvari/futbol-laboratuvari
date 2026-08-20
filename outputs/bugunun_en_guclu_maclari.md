@@ -4,16 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-20T17:24:02.361Z
+- Güncelleme: 2026-08-20T17:29:28.001Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kairat Almaty VS Anderlecht | UEFA Avrupa Ligi Play Off | 18:00 | MS 1 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Kapa VS Jippo Joensuu | Finlandiya Ykkösliiga | 18:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Neftekhimik VS Pfc Sochi | Rusya FNL | 18:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Arsenal Tula VS Rotor Volgograd | Rusya FNL | 18:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Gaz Al-Shamal VS Al Kahraba | Irak Premier Lig | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Young Africans VS Coastal Union | Tanzanya Kuu Bara Ligi | 18:30 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
@@ -35,16 +32,16 @@
 | Tromso VS Brighton | UEFA Konferans Ligi Play Off | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Midtjylland VS Rijeka | UEFA Konferans Ligi Play Off | 20:00 | MS 2 | 5.81 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
 | Vendsyssel VS Hillerod | Danimarka 1.Lig | 20:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Humaita VS 2 De Mayo | Paraguay Kupa 3.Tur | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Kí Klaksvík VS Riga Fc | UEFA Konferans Ligi Play Off | 20:30 | MS X | 3.29 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Paok VS Brann | UEFA Konferans Ligi Play Off | 20:45 | MS 2 | 5.49 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Humaita VS 2 De Mayo | Paraguay Kupa 3.Tur | 20:00 | Değerli market yok | - | 45 | Sadece izleme | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Kí Klaksvík VS Riga Fc | UEFA Konferans Ligi Play Off | 20:30 | MS X | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Paok VS Brann | UEFA Konferans Ligi Play Off | 20:45 | MS 2 | 5.72 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Baltika Kalini VS Makhachkala | Rusya Kupa Premier Lig Yolu Grup C | 20:45 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Kizilyildiz VS Viktoria Plzen | UEFA Avrupa Ligi Play Off | 21:00 | MS 2 | 3.63 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Kizilyildiz VS Viktoria Plzen | UEFA Avrupa Ligi Play Off | 21:00 | MS 2 | 3.83 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | St. Truidense VS Omonia | UEFA Avrupa Ligi Play Off | 21:00 | MS 2 | 3.53 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Ofi VS Cska Sofia | UEFA Avrupa Ligi Play Off | 21:00 | MS 1 | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Vikingur Reykj VS Borac Banja Luk | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 4.72 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Gornik Zabrze VS Monaco | UEFA Konferans Ligi Play Off | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Twente VS Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 5.18 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Twente VS Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 5.64 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Fc Drita VS Inter Escaldes | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 3.87 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Feiha VS Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Al Minaa Basra VS Zakho | Irak Premier Lig | 21:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -54,7 +51,7 @@
 | Panathinaikos VS Hradec Kralove | UEFA Konferans Ligi Play Off | 21:30 | MS 2 | 6.15 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Gent VS Hibernian | UEFA Konferans Ligi Play Off | 21:30 | MS 2 | 5.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Motherwell VS Freiburg | UEFA Konferans Ligi Play Off | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Lugano VS Maccabi Tel Avi | UEFA Konferans Ligi Play Off | 21:30 | MS 2 | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Lugano VS Maccabi Tel Avi | UEFA Konferans Ligi Play Off | 21:30 | MS 2 | 3.41 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Atalanta VS Hapoel Tel Aviv | UEFA Konferans Ligi Play Off | 21:30 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Glasgow Ranger VS Jablonec | UEFA Konferans Ligi Play Off | 21:45 | MS X | 4.45 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Hearts VS Rapid Wien | UEFA Konferans Ligi Play Off | 21:45 | MS X | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -63,14 +60,14 @@
 | Fc Fleury 91 VS Orleans | Fransa Ligue 3 | 21:45 | MS X | 2.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Le Puy VS Amiens | Fransa Ligue 3 | 21:45 | MS 2 | 2.99 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Bastia VS Versailles | Fransa Ligue 3 | 21:45 | MS 2 | 3.05 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| La Roche-Sur-Y VS Cannes | Fransa Ligue 3 | 21:45 | MS 2 | 3.28 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| La Roche-Sur-Y VS Cannes | Fransa Ligue 3 | 21:45 | MS 2 | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Caen VS Aubagne Air Bel | Fransa Ligue 3 | 21:45 | MS 2 | 3.28 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Paris 13 Atlet VS Valenciennes | Fransa Ligue 3 | 21:45 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Rouen VS Quevilly-Rouen | Fransa Ligue 3 | 21:45 | MS 2 | 4.09 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Benfica VS Aarhus | UEFA Avrupa Ligi Play Off | 22:00 | Değerli market yok | - | 85 | Ana kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Dinamo Tirana VS Pafos Fc | UEFA Konferans Ligi Play Off | 22:00 | MS 1 | 3.53 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Shamrock Rover VS Kuopion | UEFA Konferans Ligi Play Off | 22:00 | MS X | 2.97 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Braga VS Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | MS 2 | 6.84 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Braga VS Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | MS 2 | 7.14 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Hajduk Split VS Rakow Czestocho | UEFA Konferans Ligi Play Off | 22:00 | MS 2 | 3.26 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Getafe VS Partizan Belgra | UEFA Konferans Ligi Play Off | 22:00 | MS X | 4.24 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Vallecano VS Alaves | İspanya LaLiga | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -81,7 +78,7 @@
 | Olimpia Asunci (0) VS (0) Vasco Da Gama | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Depor Macara (1) VS (2) Santos | Copa Sudamericana Son 16 Turu | 01:00 | MS 2 | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Athletic Club VS Regatas | Brezilya Serie B | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Venados Fc VS Dorados | Meksika Ascenso MX Apertura | 02:00 | MS 2 | 4.24 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Venados Fc VS Dorados | Meksika Ascenso MX Apertura | 02:00 | MS 2 | 4.06 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Novorizontino VS America Mineiro | Brezilya Serie B | 02:30 | MS 2 | 5.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Corinthians (0) VS (0) Rosario Central | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Botafogo (1) VS (6) Cienciano | Copa Sudamericana Son 16 Turu | 03:30 | Değerli market yok | - | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
@@ -93,21 +90,21 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Lech Poznan VS Thun | MS 2 | 5.38 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Twente VS Qarabagh | MS 2 | 5.18 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Braga VS Austria Vienna | MS 2 | 6.84 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Twente VS Qarabagh | MS 2 | 5.64 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Braga VS Austria Vienna | MS 2 | 7.14 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Midtjylland VS Rijeka | MS 2 | 5.81 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Paok VS Brann | MS 2 | 5.49 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Paok VS Brann | MS 2 | 5.72 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Universitatea VS Ararat-Armenia | MS X | 4.75 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Lech Poznan VS Thun + Twente VS Qarabagh | MS 2 + MS 2 | 27.87 | 90 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Braga VS Austria Vienna + Midtjylland VS Rijeka | MS 2 + MS 2 | 39.74 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Paok VS Brann + Universitatea VS Ararat-Armenia | MS 2 + MS X | 26.08 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Lech Poznan VS Thun + Twente VS Qarabagh | MS 2 + MS 2 | 30.34 | 90 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Braga VS Austria Vienna + Midtjylland VS Rijeka | MS 2 + MS 2 | 41.48 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Paok VS Brann + Universitatea VS Ararat-Armenia | MS 2 + MS X | 27.17 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Lech Poznan VS Thun + Twente VS Qarabagh + Braga VS Austria Vienna | MS 2 + MS 2 + MS 2 | 190.62 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Midtjylland VS Rijeka + Paok VS Brann + Universitatea VS Ararat-Armenia | MS 2 + MS 2 + MS X | 151.51 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Lech Poznan VS Thun + Twente VS Qarabagh + Braga VS Austria Vienna | MS 2 + MS 2 + MS 2 | 216.65 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Midtjylland VS Rijeka + Paok VS Brann + Universitatea VS Ararat-Armenia | MS 2 + MS 2 + MS X | 157.86 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
