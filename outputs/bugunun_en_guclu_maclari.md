@@ -2,21 +2,22 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-20T08:07:50.224Z
-- Ham maç sayısı: 82
+- Güncelleme: 2026-08-20T08:58:20.992Z
+- Ham maç sayısı: 83
 - Yarın bülteni maç sayısı: 11
-- Detay blok sayısı: 237
-- Aktif bülten maçı: 82
+- Detay blok sayısı: 238
+- Aktif bülten maçı: 83
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Dinaz Vyshhoro - Yarud Mariupol | Ukrayna Kupa 1.Tur | 12:00 | Veri bekleniyor | - | 7.22 | 3 |
+| Dinaz Vyshhoro - Yarud Mariupol | Ukrayna Kupa 1.Tur | 12:00 | Veri bekleniyor | - | 7.96 | 3 |
+| Phnom Penh Cro - Kaya (K) | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | 13:00 | Veri bekleniyor | - | 16.85 | 2 |
 | Polisi Morogor - Jkt Tanzania | Tanzanya Kuu Bara Ligi | 16:00 | Veri bekleniyor | - | 2.72 | 8 |
 | El Mansura - Baladiyyat | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 2.57 | 6 |
 | El Daklyeh - Delta United | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 1.98 | 8 |
-| El Harby - Nasr | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 2.11 | 8 |
+| El Harby - Nasr | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 1.96 | 8 |
 | La Viena Fc - Kahraba Ismaili | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 2.2 | 6 |
 | Haras El Hodoo - Telecom Egypt | Mısır 2. Lig | 16:30 | Veri bekleniyor | - | 1.68 | 6 |
 | Al Wakrah - Qatar Sc | Katar Yıldızlar Ligi | 17:15 | Veri bekleniyor | - | 2.07 | 8 |
@@ -27,7 +28,7 @@
 | Gaz Al-Shamal - Al Kahraba | Irak Premier Lig | 18:30 | Veri bekleniyor | - | 2.7 | 6 |
 | Young Africans - Coastal Union | Tanzanya Kuu Bara Ligi | 18:30 | Veri bekleniyor | - | - | 5 |
 | Dinamo Minsk - Torpedo Zhodino | Belarus Premier Lig | 18:45 | Veri bekleniyor | - | 1.57 | 7 |
-| Mjallby - Salzburg | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 3.72 | 8 |
+| Mjallby - Salzburg | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 3.96 | 8 |
 | Jagiellonia - Fc Iberia | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.21 | 6 |
 | Lincoln Red Im - Larne Fc | UEFA Konferans Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.79 | 8 |
 | Inter Turku - Kopenhag | UEFA Konferans Ligi Play Off | 19:00 | Veri bekleniyor | - | 5.43 | 7 |
@@ -46,21 +47,21 @@
 | Kí Klaksvík - Riga Fc | UEFA Konferans Ligi Play Off | 20:30 | Veri bekleniyor | - | 3.01 | 8 |
 | Paok - Brann | UEFA Konferans Ligi Play Off | 20:45 | Veri bekleniyor | - | 1.51 | 8 |
 | Baltika Kalini - Makhachkala | Rusya Kupa Premier Lig Yolu Grup C | 20:45 | Veri bekleniyor | - | 1.65 | 8 |
-| Kizilyildiz - Viktoria Plzen | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.55 | 8 |
+| Kizilyildiz - Viktoria Plzen | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.58 | 8 |
 | St. Truidense - Omonia | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.65 | 8 |
 | Ofi - Cska Sofia | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 2.42 | 8 |
 | Vikingur Reykj - Borac Banja Luk | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.42 | 7 |
 | Gornik Zabrze - Monaco | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 4.92 | 7 |
-| Twente - Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.4 | 7 |
+| Twente - Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Fc Drita - Inter Escaldes | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.52 | 8 |
-| Al Feiha - Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 9.1 | 6 |
+| Al Feiha - Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 9.45 | 6 |
 | Al Minaa Basra - Zakho | Irak Premier Lig | 21:00 | Veri bekleniyor | - | 2.9 | 8 |
 | Azam Fc - Tabora United | Tanzanya Kuu Bara Ligi | 21:00 | Veri bekleniyor | - | 1.2 | 6 |
 | Sion - Ajax | UEFA Konferans Ligi Play Off | 21:15 | Veri bekleniyor | - | 3.56 | 8 |
 | Panathinaikos - Hradec Kralove | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.34 | 7 |
-| Gent - Hibernian | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.41 | 7 |
+| Gent - Hibernian | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.44 | 7 |
 | Motherwell - Freiburg | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 5.83 | 7 |
-| Lugano - Maccabi Tel Avi | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.84 | 8 |
+| Lugano - Maccabi Tel Avi | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.8 | 8 |
 | Atalanta - Hapoel Tel Aviv | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | - | 5 |
 | Glasgow Ranger - Jablonec | UEFA Konferans Ligi Play Off | 21:45 | Veri bekleniyor | - | 1.23 | 7 |
 | Hearts - Rapid Wien | UEFA Konferans Ligi Play Off | 21:45 | Veri bekleniyor | - | 2.14 | 8 |
@@ -75,10 +76,10 @@
 | Rouen - Quevilly-Rouen | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.57 | 8 |
 | Benfica - Aarhus | UEFA Avrupa Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.05 | 5 |
 | Dinamo Tirana - Pafos Fc | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 3.53 | 8 |
-| Shamrock Rover - Kuopion | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.01 | 8 |
-| Braga - Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.23 | 7 |
+| Shamrock Rover - Kuopion | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.92 | 8 |
+| Braga - Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.22 | 6 |
 | Hajduk Split - Rakow Czestocho | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.82 | 8 |
-| Getafe - Partizan Belgra | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.2 | 7 |
+| Getafe - Partizan Belgra | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.22 | 7 |
 | Vallecano - Alaves | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 2.05 | 8 |
 | Sheffield Wed - Bradford | İngiltere 1.Lig | 22:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Tacuary - Libertad | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 7.23 | 5 |

@@ -2,16 +2,17 @@
 
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
-Ham mac: 82
-Aktif mac: 82
+Ham mac: 83
+Aktif mac: 83
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 71
+Bugun: 72
 Yarin: 11
 
 ## Baslamamis Maclar
 - 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | scheduled | -
+- 2026-08-20 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Phnom Penh Cro - Kaya (K) | scheduled | -
 - 2026-08-20 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Jkt Tanzania | scheduled | -
 - 2026-08-20 16:30 | Mısır 2. Lig | El Mansura - Baladiyyat | scheduled | -
 - 2026-08-20 16:30 | Mısır 2. Lig | El Daklyeh - Delta United | scheduled | -
