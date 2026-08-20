@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 20.08.2026 11:58:21
-=======
-Oluşturma: 20.08.2026 11:59:36
->>>>>>> Stashed changes
+Oluşturma: 20.08.2026 12:03:29
 
 ## Özet
 
-- Toplam tahmin: 63
-- Bekleyen tahmin: 63
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 16
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 20.08.2026 11:59:36
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 34, bekleyen 34, başarı bekleniyor, ağırlık 1
-- MS X: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Lugano - Maccabi Tel Avi | MS 2 | pending | 50/100
-- 2026-08-20 | Fransa Ligue 3 | Bastia - Versailles | MS X | pending | 40/100
-- 2026-08-20 | UEFA Avrupa Ligi Play Off | Universitatea - Ararat-Armenia | MS X | pending | 75/100
-- 2026-08-20 | UEFA Avrupa Ligi Play Off | Jagiellonia - Fc Iberia | MS X | pending | 75/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Braga - Austria Vienna | MS 2 | pending | 75/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Shamrock Rover - Kuopion | MS X | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Nordsjaelland - St Gallen | MS 2 | pending | 70/100
-- 2026-08-20 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Avrupa Ligi Play Off | St. Truidense - Omonia | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | MS X | pending | 40/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Vikingur Reykj - Borac Banja Luk | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Twente - Qarabagh | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Fc Drita - Inter Escaldes | MS 2 | pending | 50/100
-- 2026-08-20 | Suudi Arabistan Pro Lig | Al Feiha - Al Hilal (Riyad | MS X | pending | 40/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Panathinaikos - Hradec Kralove | MS 2 | pending | 65/100
 

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-20T08:58:21.221Z",
+  "generated_at": "2026-08-20T09:03:24.139Z",
   "timezone": "Europe/Istanbul",
-  "source": "fixtures.json",
-  "warning": "",
+  "source": "son saglam two-day-bulletin yedegi",
+  "warning": "Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.",
   "days": [
     "2026-08-20",
     "2026-08-21"
   ],
   "total_source_matches": 83,
-  "total_matches": 83,
-  "active_match_count": 83,
-  "live_match_count": 0,
+  "total_matches": 82,
+  "active_match_count": 82,
+  "live_match_count": 1,
   "finished_match_count": 0,
-  "removed_finished_count": 0,
+  "removed_finished_count": 1,
   "removed_statuses": [
     "live",
     "finished",
@@ -20,183 +20,10 @@
     "postponed"
   ],
   "by_day": {
-    "2026-08-20": 72,
+    "2026-08-20": 71,
     "2026-08-21": 11
   },
   "matches": [
-    {
-      "date": "2026-08-20",
-      "time": "12:00",
-      "league": "Ukrayna Kupa 1.Tur",
-      "home": "Dinaz Vyshhoro",
-      "away": "Yarud Mariupol",
-      "status": "scheduled",
-      "liveStatus": "scheduled",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "",
-      "lastLiveUpdate": "2026-08-20T08:58:20.947Z",
-      "source": "Maçkolik canlı robot",
-      "matchCode": "03306",
-      "oddsSource": "Robot ham veri havuzu",
-      "one": 7.96,
-      "oneOdd": 7.96,
-      "ms1": 7.96,
-      "odd1": 7.96,
-      "draw": 4.46,
-      "drawOdd": 4.46,
-      "msx": 4.46,
-      "oddX": 4.46,
-      "two": 1.16,
-      "twoOdd": 1.16,
-      "ms2": 1.16,
-      "odd2": 1.16,
-      "raw_market_blocks": [
-        {
-          "market_code": "03306",
-          "values": [
-            7.96,
-            4.46,
-            1.16
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 7.96,
-            "msx": 4.46,
-            "ms2": 1.16
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 7.96,
-                "msx": 4.46,
-                "ms2": 1.16
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 7.96,
-                "firstHalfX_guess": 4.46,
-                "firstHalf2_guess": 1.16
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 7.96,
-                "secondHalfX_guess": 4.46,
-                "secondHalf2_guess": 1.16
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 7.96,
-                "handicapX_guess": 4.46,
-                "handicap2_guess": 1.16
-              }
-            }
-          ]
-        }
-      ],
-      "raw_market_guess_odds": {
-        "ms1": 7.96,
-        "msx": 4.46,
-        "ms2": 1.16
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "03306",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 7.96,
-            "msx": 4.46,
-            "ms2": 1.16
-          }
-        },
-        {
-          "market_code": "03306",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 7.96,
-            "firstHalfX_guess": 4.46,
-            "firstHalf2_guess": 1.16
-          }
-        },
-        {
-          "market_code": "03306",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 7.96,
-            "secondHalfX_guess": 4.46,
-            "secondHalf2_guess": 1.16
-          }
-        },
-        {
-          "market_code": "03306",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 7.96,
-            "handicapX_guess": 4.46,
-            "handicap2_guess": 1.16
-          }
-        }
-      ],
-      "raw_market_block_count": 1,
-      "raw_market_value_count": 3,
-      "raw_market_source": "Robot ham veri hücreleri",
-      "available_odds": {
-        "ms1": 7.22,
-        "msx": 4.37,
-        "ms2": 1.18
-      },
-      "market_odds_inventory": [
-        "ms1",
-        "msx",
-        "ms2"
-      ],
-      "wide_market_odds_count": 3,
-      "wide_market_learning_source": "fixture_odds_inventory",
-      "metric_source": "odds_proxy_pending_form_archive",
-      "metric_quality": "proxy",
-      "metric_notes": [
-        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
-        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
-        "Geniş market oran envanteri robot öğrenme verisine eklendi."
-      ],
-      "home_form_profile": {
-        "played": 0,
-        "scored": 0,
-        "conceded": 0,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "goalsForAvg": null,
-        "goalsAgainstAvg": null
-      },
-      "away_form_profile": {
-        "played": 0,
-        "scored": 0,
-        "conceded": 0,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "goalsForAvg": null,
-        "goalsAgainstAvg": null
-      },
-      "league_goal_profile": {
-        "played": 0,
-        "goalAverage": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null
-      },
-      "flow_status": "scheduled"
-    },
     {
       "date": "2026-08-20",
       "time": "13:00",
@@ -42724,6 +42551,180 @@
       "flow_status": "scheduled"
     }
   ],
-  "live_matches": [],
+  "live_matches": [
+    {
+      "date": "2026-08-20",
+      "time": "12:00",
+      "league": "Ukrayna Kupa 1.Tur",
+      "home": "Dinaz Vyshhoro",
+      "away": "Yarud Mariupol",
+      "status": "live",
+      "liveStatus": "live",
+      "minute": null,
+      "homeScore": null,
+      "awayScore": null,
+      "score": "",
+      "lastLiveUpdate": "2026-08-20T08:58:20.947Z",
+      "source": "Maçkolik canlı robot",
+      "matchCode": "03306",
+      "oddsSource": "Robot ham veri havuzu",
+      "one": 7.96,
+      "oneOdd": 7.96,
+      "ms1": 7.96,
+      "odd1": 7.96,
+      "draw": 4.46,
+      "drawOdd": 4.46,
+      "msx": 4.46,
+      "oddX": 4.46,
+      "two": 1.16,
+      "twoOdd": 1.16,
+      "ms2": 1.16,
+      "odd2": 1.16,
+      "raw_market_blocks": [
+        {
+          "market_code": "03306",
+          "values": [
+            7.96,
+            4.46,
+            1.16
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 7.96,
+            "msx": 4.46,
+            "ms2": 1.16
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 7.96,
+                "msx": 4.46,
+                "ms2": 1.16
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 7.96,
+                "firstHalfX_guess": 4.46,
+                "firstHalf2_guess": 1.16
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 7.96,
+                "secondHalfX_guess": 4.46,
+                "secondHalf2_guess": 1.16
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 7.96,
+                "handicapX_guess": 4.46,
+                "handicap2_guess": 1.16
+              }
+            }
+          ]
+        }
+      ],
+      "raw_market_guess_odds": {
+        "ms1": 7.96,
+        "msx": 4.46,
+        "ms2": 1.16
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "03306",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 7.96,
+            "msx": 4.46,
+            "ms2": 1.16
+          }
+        },
+        {
+          "market_code": "03306",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 7.96,
+            "firstHalfX_guess": 4.46,
+            "firstHalf2_guess": 1.16
+          }
+        },
+        {
+          "market_code": "03306",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 7.96,
+            "secondHalfX_guess": 4.46,
+            "secondHalf2_guess": 1.16
+          }
+        },
+        {
+          "market_code": "03306",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 7.96,
+            "handicapX_guess": 4.46,
+            "handicap2_guess": 1.16
+          }
+        }
+      ],
+      "raw_market_block_count": 1,
+      "raw_market_value_count": 3,
+      "raw_market_source": "Robot ham veri hücreleri",
+      "available_odds": {
+        "ms1": 7.22,
+        "msx": 4.37,
+        "ms2": 1.18
+      },
+      "market_odds_inventory": [
+        "ms1",
+        "msx",
+        "ms2"
+      ],
+      "wide_market_odds_count": 3,
+      "wide_market_learning_source": "fixture_odds_inventory",
+      "metric_source": "odds_proxy_pending_form_archive",
+      "metric_quality": "proxy",
+      "metric_notes": [
+        "Kalıcı form arşivi henüz sınırlı; geçici metrikler oran sinyalinden üretildi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi.",
+        "Geniş market oran envanteri robot öğrenme verisine eklendi."
+      ],
+      "home_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "away_form_profile": {
+        "played": 0,
+        "scored": 0,
+        "conceded": 0,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "goalsForAvg": null,
+        "goalsAgainstAvg": null
+      },
+      "league_goal_profile": {
+        "played": 0,
+        "goalAverage": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null
+      },
+      "flow_status": "live"
+    }
+  ],
   "finished_matches": []
 }

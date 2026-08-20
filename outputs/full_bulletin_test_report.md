@@ -7,7 +7,7 @@
 - Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 12:00 | Dinaz Vyshhoro - Yarud Mariupol | scheduled
+- 2026-08-20 13:00 | Phnom Penh Cro - Kaya (K) | scheduled
 - 2026-08-20 16:00 | Polisi Morogor - Jkt Tanzania | scheduled
 - 2026-08-20 16:30 | El Daklyeh - Delta United | scheduled
 - 2026-08-20 16:30 | El Harby - Nasr | scheduled

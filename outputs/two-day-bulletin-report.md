@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-20 / 2026-08-21
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 83
-Aktif mac: 83
-Canli mac: 0
+Aktif mac: 82
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 72
+Bultenden dusurulen mac: 1
+Bugun: 71
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | scheduled | -
 - 2026-08-20 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Phnom Penh Cro - Kaya (K) | scheduled | -
 - 2026-08-20 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Jkt Tanzania | scheduled | -
 - 2026-08-20 16:30 | Mısır 2. Lig | El Mansura - Baladiyyat | scheduled | -
@@ -96,7 +96,7 @@ Yarin: 11
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | live | -
 
 ## Biten Maclar
 Biten mac yok.
