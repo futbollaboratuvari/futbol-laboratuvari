@@ -2,13 +2,13 @@
 
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
-Ham mac: 79
-Aktif mac: 79
+Ham mac: 123
+Aktif mac: 82
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 69
-Yarin: 10
+Biten mac: 41
+Bultenden dusurulen mac: 41
+Bugun: 71
+Yarin: 11
 
 ## Baslamamis Maclar
 - 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | scheduled | -
@@ -41,6 +41,7 @@ Yarin: 10
 - 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Tromso - Brighton | scheduled | -
 - 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Midtjylland - Rijeka | scheduled | -
 - 2026-08-20 20:00 | Danimarka 1.Lig | Vendsyssel - Hillerod | scheduled | -
+- 2026-08-20 20:00 | Paraguay Kupa 3.Tur | Humaita - 2 De Mayo | scheduled | -
 - 2026-08-20 20:30 | UEFA Konferans Ligi Play Off | Kí Klaksvík - Riga Fc | scheduled | -
 - 2026-08-20 20:45 | UEFA Konferans Ligi Play Off | Paok - Brann | scheduled | -
 - 2026-08-20 20:45 | Rusya Kupa Premier Lig Yolu Grup C | Baltika Kalini - Makhachkala | scheduled | -
@@ -80,6 +81,7 @@ Yarin: 10
 - 2026-08-20 22:00 | İspanya LaLiga | Vallecano - Alaves | scheduled | -
 - 2026-08-20 22:00 | İngiltere 1.Lig | Sheffield Wed - Bradford | scheduled | -
 - 2026-08-20 22:30 | Paraguay Kupa 3.Tur | Tacuary - Libertad | scheduled | -
+- 2026-08-20 23:00 | Ekvador Kupa Son 16 Turu | Juventud Itali - Delfin | scheduled | -
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | scheduled | -
 - 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | scheduled | -
 - 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | scheduled | -
@@ -90,9 +92,50 @@ Yarin: 10
 - 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | scheduled | -
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | scheduled | -
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled | -
+- 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
+- 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | finished | -
+- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | finished | -
+- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Coquimbo Unido (1) - (1) Platense | finished | -
+- 2026-08-20 01:00 | Copa Sudamericana Son 16 Turu | Atletico Mg (1) - (0) Bragantino | finished | -
+- 2026-08-20 01:15 | Arjantin Kupa Son 16 Turu | Racing Club - Belgrano | finished | -
+- 2026-08-20 01:30 | Brezilya Serie B | Fortaleza Ce - Sao Bernardo | finished | -
+- 2026-08-20 01:30 | Brezilya Serie B | Avai - Sport Recife | finished | -
+- 2026-08-20 02:00 | Kolombiya Primera A Clausura | Depor Cucuta - Inter Bogota | finished | -
+- 2026-08-20 02:00 | Kanada Premier Lig | Forge - Supra Du Quebec | finished | -
+- 2026-08-20 02:00 | Kanada Premier Lig | Atletico Ottaw - Vancouver Fc | finished | -
+- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup A | Atletico Avila - Deportivo Petar | finished | -
+- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Rayo Zuliano | finished | -
+- 2026-08-20 02:00 | ABD USL Lig 1 | One Knoxville - Portland Hearts | finished | -
+- 2026-08-20 02:30 | ABD MLS | Columbus - Montreal | finished | -
+- 2026-08-20 02:30 | ABD MLS | New York - Nashville Sc | finished | -
+- 2026-08-20 02:30 | ABD MLS | Toronto - Charlotte | finished | -
+- 2026-08-20 02:30 | ABD MLS | Cincinnati - New York City | finished | -
+- 2026-08-20 02:30 | ABD MLS | Orlando City - Chicago | finished | -
+- 2026-08-20 02:30 | ABD MLS | Dc United - New England | finished | -
+- 2026-08-20 02:30 | ABD MLS | Philadelphia - Inter Miami | finished | -
+- 2026-08-20 02:30 | Brezilya Serie B | Cuiaba - Operario | finished | -
+- 2026-08-20 02:30 | Brezilya Serie B | Vila Nova - Ponte Preta | finished | -
+- 2026-08-20 02:30 | ABD USL Lig 1 | Sarasota Parad - Chattanooga Red | finished | -
+- 2026-08-20 03:00 | ABD MLS | Kansas - St. Louis City | finished | -
+- 2026-08-20 03:30 | ABD MLS | Minnesota Utd - Atlanta Utd | finished | -
+- 2026-08-20 03:30 | Copa Libertadores Son 16 Turu | Flamengo (1) - (1) Cruzeiro | finished | -
+- 2026-08-20 03:30 | Copa Sudamericana Son 16 Turu | Santa Fe - River Plate | finished | -
+- 2026-08-20 03:30 | Copa Sudamericana Son 16 Turu | Torque (1) - (0) Tigre | finished | -
+- 2026-08-20 03:30 | Brezilya Serie B | Botafogo Ribei - Criciuma | finished | -
+- 2026-08-20 03:30 | ABD USL Lig 1 | Corpus Christi - New York Cosmos | finished | -
+- 2026-08-20 04:00 | CONCACAF Orta Amerika Kupası Grup B | Marathon - Alianza | finished | -
+- 2026-08-20 04:00 | CONCACAF Orta Amerika Kupası Grup C | Mixco - Umecit | finished | -
+- 2026-08-20 04:30 | ABD MLS | Seattle - Austin | finished | -
+- 2026-08-20 04:30 | ABD MLS | Salt Lake - Dallas | finished | -
+- 2026-08-20 04:30 | ABD MLS | Colorado - Los Angeles Fc | finished | -
+- 2026-08-20 05:00 | ABD USL | Phoenix Rising - Colorado Spring | finished | -
+- 2026-08-20 05:30 | ABD MLS | Portland - San Diego | finished | -
+- 2026-08-20 05:30 | ABD MLS | Vancouver - Houston | finished | -
+- 2026-08-20 05:30 | ABD MLS | Los Angeles - San Jose | finished | -
+- 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | finished | -
