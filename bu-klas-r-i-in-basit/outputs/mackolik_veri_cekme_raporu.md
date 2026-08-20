@@ -1,40 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T19:09:55.534742+00:00
+Tarih: 2026-08-20T19:44:38.148370+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 14
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 13
+- Kac mac bulundu: 0
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 7721
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Brezilya Serie B
-- CONCACAF Orta Amerika Kupası Grup A
-- CONCACAF Orta Amerika Kupası Grup C
-- Copa Libertadores Son 16 Turu
-- Copa Sudamericana Son 16 Turu
-- Ekvador Kupa Son 16 Turu
-- Meksika Ascenso MX Apertura
-- Paraguay Kupa 3.Tur
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -78,34 +72,34 @@ Tarih: 2026-08-20T19:09:55.534742+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 8
-- Acilan detay: 8
+- Denenen Tumu alani: 7
+- Acilan detay: 3
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Hata yok.
+- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
+
+- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
+
+- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
+
+- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
+
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 21.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) | (1) Mirassol | 15511 | 5 |
-| 21.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) | (0) Rosario Central | 15623 | 5 |
-| 21.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) | (0) Vasco Da Gama | 15457 | 5 |
-| 21.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) | (2) Santos | 15403 | 5 |
-| 21.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) | (6) Cienciano | 15569 | 4 |
-| 21.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo | Alajuelense | 05225 | 5 |
-| 21.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc | Depor. Olimpia | 05947 | 5 |
-| 21.08.2026 | 02:30 | Brezilya Serie B | Novorizontino | America Mineiro | 15970 | 5 |
-| 21.08.2026 | 01:30 | Brezilya Serie B | Athletic Club | Regatas | 15937 | 5 |
-| 21.08.2026 | 02:00 | Meksika Ascenso MX Apertura | Venados Fc | Dorados | 03105 | 5 |
-| 21.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Monarcas | Correcaminos Ua | 18021 | 5 |
-| 21.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De | Tlaxcala | 18038 | 5 |
-| 20.08.2026 | 23:00 | Ekvador Kupa Son 16 Turu | Juventud Itali | Delfin | 00162 | 5 |
-| 20.08.2026 | 22:30 | Paraguay Kupa 3.Tur | Tacuary | Libertad | 01825 | 3 |
+- Ornek mac yok.
 
 ## Sonuc
 

@@ -3,15 +3,14 @@
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 129
-Aktif mac: 14
-Canli mac: 49
-Biten mac: 66
-Bultenden dusurulen mac: 115
-Bugun: 2
+Aktif mac: 13
+Canli mac: 39
+Biten mac: 77
+Bultenden dusurulen mac: 116
+Bugun: 1
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-20 22:30 | Paraguay Kupa 3.Tur | Tacuary - Libertad | scheduled | -
 - 2026-08-20 23:00 | Ekvador Kupa Son 16 Turu | Juventud Itali - Delfin | scheduled | -
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | scheduled | -
 - 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | scheduled | -
@@ -27,17 +26,6 @@ Yarin: 12
 - 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | scheduled | -
 
 ## Canli Maclar
-- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Beşiktaş - Kauno Zalgiris | live | -
-- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Egnatia - Lillestrom | live | -
-- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Trabzonspor - Ferencvaros | live | -
-- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Universitatea - Ararat-Armenia | live | -
-- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Lech Poznan - Thun | live | -
-- 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Nordsjaelland - St Gallen | live | -
-- 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Tromso - Brighton | live | -
-- 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Midtjylland - Rijeka | live | -
-- 2026-08-20 20:00 | Danimarka 1.Lig | Vendsyssel - Hillerod | live | -
-- 2026-08-20 20:00 | Paraguay Kupa 3.Tur | Humaita - 2 De Mayo | live | -
-- 2026-08-20 20:30 | UEFA Konferans Ligi Play Off | Kí Klaksvík - Riga Fc | live | -
 - 2026-08-20 20:45 | UEFA Konferans Ligi Play Off | Paok - Brann | live | -
 - 2026-08-20 20:45 | Rusya Kupa Premier Lig Yolu Grup C | Baltika Kalini - Makhachkala | live | -
 - 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | live | -
@@ -76,6 +64,7 @@ Yarin: 12
 - 2026-08-20 22:00 | UEFA Konferans Ligi Play Off | Getafe - Partizan Belgra | live | -
 - 2026-08-20 22:00 | İspanya LaLiga | Vallecano - Alaves | live | -
 - 2026-08-20 22:00 | İngiltere 1.Lig | Sheffield Wed - Bradford | live | -
+- 2026-08-20 22:30 | Paraguay Kupa 3.Tur | Tacuary - Libertad | live | -
 
 ## Biten Maclar
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
@@ -144,3 +133,14 @@ Yarin: 12
 - 2026-08-20 19:00 | Portekiz U23 Ulusal Şampiyona | Benfica U23 - Rio Ave U23 | finished | -
 - 2026-08-20 19:00 | Rusya FNL | Neftekhimik - Pfc Sochi | finished | -
 - 2026-08-20 19:30 | Katar Yıldızlar Ligi | Al Rayyan - Lusail City | finished | -
+- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Beşiktaş - Kauno Zalgiris | finished | -
+- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Egnatia - Lillestrom | finished | -
+- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Trabzonspor - Ferencvaros | finished | -
+- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Universitatea - Ararat-Armenia | finished | -
+- 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Lech Poznan - Thun | finished | -
+- 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Nordsjaelland - St Gallen | finished | -
+- 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Tromso - Brighton | finished | -
+- 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Midtjylland - Rijeka | finished | -
+- 2026-08-20 20:00 | Danimarka 1.Lig | Vendsyssel - Hillerod | finished | -
+- 2026-08-20 20:00 | Paraguay Kupa 3.Tur | Humaita - 2 De Mayo | finished | -
+- 2026-08-20 20:30 | UEFA Konferans Ligi Play Off | Kí Klaksvík - Riga Fc | finished | -
