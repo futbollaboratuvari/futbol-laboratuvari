@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.08.2026 08:23:56
+Oluşturma: 20.08.2026 08:33:31
 
 ## Özet
 
-- Toplam tahmin: 58
-- Bekleyen tahmin: 58
+- Toplam tahmin: 59
+- Bekleyen tahmin: 59
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 16
@@ -20,12 +20,13 @@ Oluşturma: 20.08.2026 08:23:56
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 33, bekleyen 33, başarı bekleniyor, ağırlık 1
 - MS X: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 32, bekleyen 32, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Braga - Austria Vienna | MS 2 | pending | 75/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Shamrock Rover - Kuopion | MS X | pending | 50/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Nordsjaelland - St Gallen | MS 2 | pending | 70/100
 - 2026-08-20 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 20.08.2026 08:23:56
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Lugano - Maccabi Tel Avi | MS X | pending | 50/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Glasgow Ranger - Jablonec | MS 2 | pending | 75/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Hearts - Rapid Wien | MS X | pending | 50/100
-- 2026-08-20 | Fransa Ligue 3 | Bourg-Peronnas - Thionville Lusi | MS X | pending | 50/100
 
