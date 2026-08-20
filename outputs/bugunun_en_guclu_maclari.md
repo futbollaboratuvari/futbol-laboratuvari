@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-20T10:20:57.185Z
+- Güncelleme: 2026-08-20T10:25:26.370Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -12,7 +12,7 @@
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Dinaz Vyshhoro VS Yarud Mariupol | Ukrayna Kupa 1.Tur | 12:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Phnom Penh Cro VS Kaya (K) | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Phnom Penh Cro VS Kaya (K) | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | 13:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Polisi Morogor VS Jkt Tanzania | Tanzanya Kuu Bara Ligi | 16:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | El Mansura VS Baladiyyat | Mısır 2. Lig | 16:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | El Daklyeh VS Delta United | Mısır 2. Lig | 16:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
