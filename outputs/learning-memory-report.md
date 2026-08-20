@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.08.2026 01:08:38
+Oluşturma: 21.08.2026 01:21:11
 
 ## Özet
 
-- Toplam tahmin: 27
-- Bekleyen tahmin: 27
+- Toplam tahmin: 144
+- Bekleyen tahmin: 144
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 4
+- Lig sayısı: 66
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,25 +20,25 @@ Oluşturma: 21.08.2026 01:08:38
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 16, bekleyen 16, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
-- MS X: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
+- MS X: toplam 79, bekleyen 79, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 58, bekleyen 58, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 7, bekleyen 7, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-20 | Fransa Ligue 3 | Rouen - Quevilly-Rouen | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Dinamo Tirana - Pafos Fc | MS 1 | pending | 40/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Shamrock Rover - Kuopion | MS X | pending | 40/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Braga - Austria Vienna | MS 2 | pending | 65/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Hajduk Split - Rakow Czestocho | MS 2 | pending | 40/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Getafe - Partizan Belgra | MS X | pending | 65/100
-- 2026-08-20 | İngiltere 1.Lig | Sheffield Wed - Bradford | MS X | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Gornik Zabrze - Monaco | MS X | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Twente - Qarabagh | MS 2 | pending | 40/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Fc Drita - Inter Escaldes | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Sion - Ajax | MS X | pending | 45/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Panathinaikos - Hradec Kralove | MS 2 | pending | 65/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Gent - Hibernian | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Lugano - Maccabi Tel Avi | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Glasgow Ranger - Jablonec | MS 2 | pending | 75/100
+- 2026-08-21 | Galler Premier Lig 1.Aşama | Flint Town - Briton Ferry | MS X | pending | 50/100
+- 2026-08-21 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | MS 2 | pending | 50/100
+- 2026-08-21 | Kuzey İrlanda Premiership | Ballymena - Glentoran | MS 1 | pending | 50/100
+- 2026-08-21 | Kuzey İrlanda Premiership | Linfield - Cliftonville | MS X | pending | 50/100
+- 2026-08-21 | İrlanda 1.Lig | Kerry - Ucd | MS X | pending | 50/100
+- 2026-08-21 | İrlanda 1.Lig | Wexford Youths - Athlone | MS X | pending | 50/100
+- 2026-08-21 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | MS X | pending | 50/100
+- 2026-08-21 | Kuzey İrlanda Championship | Newry City Afc - Warrenpoint Tow | MS X | pending | 50/100
+- 2026-08-21 | Galler FAW Championship Güney | Caerau Ely - Swansea Univers | MS X | pending | 50/100
+- 2026-08-21 | İspanya LaLiga | Real Betis - Real Sociedad | MS 2 | pending | 50/100
+- 2026-08-21 | İspanya 2.Lig | Cordoba - Girona | MS X | pending | 50/100
+- 2026-08-21 | İrlanda Premier Lig | Sligo Rovers - Waterford | MS X | pending | 50/100
+- 2026-08-21 | İtalya Serie C Grup B | F.C. Vado - Atalanta Ii | MS 1 | pending | 40/100
+- 2026-08-21 | İtalya Serie C Grup C | Rossoblu Poten - Casarano | MS X | pending | 40/100
+- 2026-08-21 | İtalya Serie C Grup C | Ssc Giugliano - Scafatese | MS 2 | pending | 40/100
 
