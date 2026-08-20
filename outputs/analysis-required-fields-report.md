@@ -1,10 +1,11 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 3
-Tam analiz: 0
-Eksik analiz: 3
+Toplam analiz: 79
+Tam analiz: 75
+Eksik analiz: 4
 
-- Rionegro Aguil VS Llaneros: eksik score, confidence
-- Coban Imperial VS Antigua Guatema: eksik score, confidence
-- Tacuary VS Libertad: eksik score, confidence
+- Dinaz Vyshhoro VS Yarud Mariupol: eksik score, confidence
+- El Mansura VS Baladiyyat: eksik score, confidence
+- Haras El Hodoo VS Telecom Egypt: eksik score, confidence
+- Azam Fc VS Tabora United: eksik score, confidence

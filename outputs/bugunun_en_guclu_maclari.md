@@ -2,12 +2,12 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-20T03:04:41.330Z
-- Ham maç sayısı: 95
+- Güncelleme: 2026-08-20T03:11:53.342Z
+- Ham maç sayısı: 89
 - Yarın bülteni maç sayısı: 10
-- Detay blok sayısı: 278
+- Detay blok sayısı: 260
 - Aktif bülten maçı: 79
-- Bültenden düşürülen maç: 16
+- Bültenden düşürülen maç: 10
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
@@ -35,12 +35,12 @@
 | Al Rayyan - Lusail City | Katar Yıldızlar Ligi | 19:30 | Veri bekleniyor | - | 1.14 | 6 |
 | Beşiktaş - Kauno Zalgiris | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | - | 5 |
 | Egnatia - Lillestrom | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 2.98 | 8 |
-| Trabzonspor - Ferencvaros | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.47 | 8 |
+| Trabzonspor - Ferencvaros | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.51 | 8 |
 | Universitatea - Ararat-Armenia | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.26 | 7 |
 | Lech Poznan - Thun | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.41 | 7 |
 | Nordsjaelland - St Gallen | UEFA Konferans Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.53 | 8 |
 | Tromso - Brighton | UEFA Konferans Ligi Play Off | 20:00 | Veri bekleniyor | - | 4.87 | 7 |
-| Midtjylland - Rijeka | UEFA Konferans Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.42 | 7 |
+| Midtjylland - Rijeka | UEFA Konferans Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.39 | 7 |
 | Vendsyssel - Hillerod | Danimarka 1.Lig | 20:00 | Veri bekleniyor | - | 2.07 | 8 |
 | Kí Klaksvík - Riga Fc | UEFA Konferans Ligi Play Off | 20:30 | Veri bekleniyor | - | 3.01 | 8 |
 | Paok - Brann | UEFA Konferans Ligi Play Off | 20:45 | Veri bekleniyor | - | 1.49 | 8 |
@@ -52,7 +52,7 @@
 | Gornik Zabrze - Monaco | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 5.07 | 7 |
 | Twente - Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.46 | 8 |
 | Fc Drita - Inter Escaldes | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.45 | 8 |
-| Al Feiha - Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 9.1 | 6 |
+| Al Feiha - Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 9.14 | 6 |
 | Al Minaa Basra - Zakho | Irak Premier Lig | 21:00 | Veri bekleniyor | - | 2.56 | 8 |
 | Azam Fc - Tabora United | Tanzanya Kuu Bara Ligi | 21:00 | Veri bekleniyor | - | 1.2 | 6 |
 | Sion - Ajax | UEFA Konferans Ligi Play Off | 21:15 | Veri bekleniyor | - | 3.56 | 8 |
@@ -78,7 +78,7 @@
 | Braga - Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.21 | 6 |
 | Hajduk Split - Rakow Czestocho | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.82 | 8 |
 | Getafe - Partizan Belgra | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.2 | 7 |
-| Vallecano - Alaves | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 2.05 | 8 |
+| Vallecano - Alaves | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 2.03 | 8 |
 | Sheffield Wed - Bradford | İngiltere 1.Lig | 22:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Tacuary - Libertad | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 7.23 | 5 |
 | Ldu Quito (1) - (1) Mirassol | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.42 | 7 |
