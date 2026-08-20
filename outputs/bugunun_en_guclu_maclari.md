@@ -4,16 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-20T04:05:45.243Z
+- Güncelleme: 2026-08-20T04:06:47.444Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Seattle VS Austin | ABD MLS | 04:30 | MS 2 | 3.78 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Salt Lake VS Dallas | ABD MLS | 04:30 | MS X | 3.42 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Colorado VS Los Angeles Fc | ABD MLS | 04:30 | MS X | 3.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Phoenix Rising VS Colorado Spring | ABD USL | 05:00 | MS X | 2.97 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Portland VS San Diego | ABD MLS | 05:30 | MS X | 3.70 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Vancouver VS Houston | ABD MLS | 05:30 | MS 2 | 4.95 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
@@ -29,7 +26,7 @@
 | Al Wakrah VS Qatar Sc | Katar Yıldızlar Ligi | 17:15 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kairat Almaty VS Anderlecht | UEFA Avrupa Ligi Play Off | 18:00 | MS X | 3.08 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kapa VS Jippo Joensuu | Finlandiya Ykkösliiga | 18:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Neftekhimik VS Pfc Sochi | Rusya FNL | 18:00 | MS 1 | 3.47 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Neftekhimik VS Pfc Sochi | Rusya FNL | 18:00 | MS 1 | 3.40 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Arsenal Tula VS Rotor Volgograd | Rusya FNL | 18:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Gaz Al-Shamal VS Al Kahraba | Irak Premier Lig | 18:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Young Africans VS Coastal Union | Tanzanya Kuu Bara Ligi | 18:30 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
@@ -44,8 +41,8 @@
 | Egnatia VS Lillestrom | UEFA Avrupa Ligi Play Off | 20:00 | MS X | 3.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Trabzonspor VS Ferencvaros | UEFA Avrupa Ligi Play Off | 20:00 | MS 2 | 4.20 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Universitatea VS Ararat-Armenia | UEFA Avrupa Ligi Play Off | 20:00 | MS 2 | 6.69 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Lech Poznan VS Thun | UEFA Avrupa Ligi Play Off | 20:00 | MS 2 | 4.79 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Nordsjaelland VS St Gallen | UEFA Konferans Ligi Play Off | 20:00 | MS X | 3.87 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Lech Poznan VS Thun | UEFA Avrupa Ligi Play Off | 20:00 | MS 2 | 4.94 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Nordsjaelland VS St Gallen | UEFA Konferans Ligi Play Off | 20:00 | MS X | 3.98 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Tromso VS Brighton | UEFA Konferans Ligi Play Off | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Midtjylland VS Rijeka | UEFA Konferans Ligi Play Off | 20:00 | MS 2 | 4.98 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Vendsyssel VS Hillerod | Danimarka 1.Lig | 20:00 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -57,7 +54,7 @@
 | Ofi VS Cska Sofia | UEFA Avrupa Ligi Play Off | 21:00 | MS X | 2.90 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Vikingur Reykj VS Borac Banja Luk | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 4.56 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gornik Zabrze VS Monaco | UEFA Konferans Ligi Play Off | 21:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Twente VS Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 4.67 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Twente VS Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 4.70 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fc Drita VS Inter Escaldes | UEFA Konferans Ligi Play Off | 21:00 | MS 2 | 4.60 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Feiha VS Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | MS X | 5.59 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Al Minaa Basra VS Zakho | Irak Premier Lig | 21:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -89,7 +86,7 @@
 | Sheffield Wed VS Bradford | İngiltere 1.Lig | 22:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Tacuary VS Libertad | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Ldu Quito (1) VS (1) Mirassol | Copa Libertadores Son 16 Turu | 01:00 | MS 2 | 5.75 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Olimpia Asunci (0) VS (0) Vasco Da Gama | Copa Sudamericana Son 16 Turu | 01:00 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Olimpia Asunci (0) VS (0) Vasco Da Gama | Copa Sudamericana Son 16 Turu | 01:00 | MS X | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Depor Macara (1) VS (2) Santos | Copa Sudamericana Son 16 Turu | 01:00 | MS X | 2.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Athletic Club VS Regatas | Brezilya Serie B | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Venados Fc VS Dorados | Meksika Ascenso MX Apertura | 02:00 | MS 2 | 4.24 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
@@ -97,7 +94,7 @@
 | Corinthians (0) VS (0) Rosario Central | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Botafogo (1) VS (6) Cienciano | Copa Sudamericana Son 16 Turu | 03:30 | Değerli market yok | - | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Monarcas VS Correcaminos Ua | Meksika Ascenso MX Apertura | 04:00 | MS X | 3.40 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Tepatitlan De VS Tlaxcala | Meksika Ascenso MX Apertura | 04:00 | MS X | 3.00 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Tepatitlan De VS Tlaxcala | Meksika Ascenso MX Apertura | 04:00 | MS X | 3.03 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
@@ -106,18 +103,18 @@
 | Glasgow Ranger VS Jablonec | MS 2 | 7.38 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Universitatea VS Ararat-Armenia | MS 2 | 6.69 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Vancouver VS Houston | MS 2 | 4.95 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Lech Poznan VS Thun | MS 2 | 4.79 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Nordsjaelland VS St Gallen | MS X | 3.87 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Lech Poznan VS Thun | MS 2 | 4.94 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Nordsjaelland VS St Gallen | MS X | 3.98 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Jagiellonia VS Fc Iberia + Glasgow Ranger VS Jablonec | MS 2 + MS 2 | 55.13 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 | Universitatea VS Ararat-Armenia + Vancouver VS Houston | MS 2 + MS 2 | 33.12 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-| Lech Poznan VS Thun + Nordsjaelland VS St Gallen | MS 2 + MS X | 18.54 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
+| Lech Poznan VS Thun + Nordsjaelland VS St Gallen | MS 2 + MS X | 19.66 | 73 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Jagiellonia VS Fc Iberia + Glasgow Ranger VS Jablonec + Universitatea VS Ararat-Armenia | MS 2 + MS 2 + MS 2 | 368.81 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Vancouver VS Houston + Lech Poznan VS Thun + Nordsjaelland VS St Gallen | MS 2 + MS 2 + MS X | 91.76 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Vancouver VS Houston + Lech Poznan VS Thun + Nordsjaelland VS St Gallen | MS 2 + MS 2 + MS X | 97.32 | 73 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |

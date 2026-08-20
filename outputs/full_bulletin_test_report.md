@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 79
 - Live match count: 5
-- Finished removed count: 3
+- Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
 - 2026-08-20 05:00 | Phoenix Rising - Colorado Spring | live
