@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 96
-- Live match count: 22
+- Scheduled match count: 87
+- Live match count: 25
 - Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 01:00 | Cerro Porteno (1) - (1) Palmeiras | live
-- 2026-08-20 01:00 | Coquimbo Unido (1) - (1) Platense | live
-- 2026-08-20 01:00 | Atletico Mg (1) - (0) Bragantino | live
-- 2026-08-20 01:15 | Racing Club - Belgrano | live
-- 2026-08-20 01:30 | Avai - Sport Recife | live
-- 2026-08-20 01:30 | Fortaleza Ce - Sao Bernardo | live
 - 2026-08-20 02:00 | One Knoxville - Portland Hearts | live
 - 2026-08-20 02:00 | Atletico Ottaw - Vancouver Fc | live
 - 2026-08-20 02:00 | Forge - Supra Du Quebec | live
 - 2026-08-20 02:00 | Depor Cucuta - Inter Bogota | live
+- 2026-08-20 02:00 | Atletico Avila - Deportivo Petar | live
+- 2026-08-20 02:00 | Deportivo Lara - Rayo Zuliano | live
+- 2026-08-20 02:30 | Cincinnati - New York City | live
+- 2026-08-20 02:30 | Columbus - Montreal | live
+- 2026-08-20 02:30 | Dc United - New England | live
+- 2026-08-20 02:30 | New York - Nashville Sc | live
