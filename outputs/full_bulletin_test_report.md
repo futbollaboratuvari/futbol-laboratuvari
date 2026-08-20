@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 87
-- Live match count: 25
-- Finished removed count: 0
+- Scheduled match count: 83
+- Live match count: 13
+- Finished removed count: 16
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 02:00 | One Knoxville - Portland Hearts | live
-- 2026-08-20 02:00 | Atletico Ottaw - Vancouver Fc | live
-- 2026-08-20 02:00 | Forge - Supra Du Quebec | live
-- 2026-08-20 02:00 | Depor Cucuta - Inter Bogota | live
-- 2026-08-20 02:00 | Atletico Avila - Deportivo Petar | live
-- 2026-08-20 02:00 | Deportivo Lara - Rayo Zuliano | live
-- 2026-08-20 02:30 | Cincinnati - New York City | live
-- 2026-08-20 02:30 | Columbus - Montreal | live
-- 2026-08-20 02:30 | Dc United - New England | live
-- 2026-08-20 02:30 | New York - Nashville Sc | live
+- 2026-08-20 03:00 | Kansas - St. Louis City | live
+- 2026-08-20 03:30 | Minnesota Utd - Atlanta Utd | live
+- 2026-08-20 03:30 | Corpus Christi - New York Cosmos | live
+- 2026-08-20 03:30 | Botafogo Ribei - Criciuma | live
+- 2026-08-20 03:30 | Flamengo (1) - (1) Cruzeiro | live
+- 2026-08-20 03:30 | Santa Fe - River Plate | live
+- 2026-08-20 03:30 | Torque (1) - (0) Tigre | live
+- 2026-08-20 04:00 | Marathon - Alianza | live
+- 2026-08-20 04:00 | Mixco - Umecit | live
+- 2026-08-20 04:30 | Colorado - Los Angeles Fc | live

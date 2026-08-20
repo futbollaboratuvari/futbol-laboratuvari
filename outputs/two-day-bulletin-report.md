@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
-Ham mac: 120
-Aktif mac: 87
-Canli mac: 25
-Biten mac: 8
-Bultenden dusurulen mac: 33
-Bugun: 77
+Ham mac: 96
+Aktif mac: 83
+Canli mac: 13
+Biten mac: 0
+Bultenden dusurulen mac: 13
+Bugun: 73
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-20 04:30 | ABD MLS | Seattle - Austin | scheduled | -
-- 2026-08-20 04:30 | ABD MLS | Salt Lake - Dallas | scheduled | -
-- 2026-08-20 04:30 | ABD MLS | Colorado - Los Angeles Fc | scheduled | -
-- 2026-08-20 05:00 | ABD USL | Phoenix Rising - Colorado Spring | scheduled | -
 - 2026-08-20 05:30 | ABD MLS | Portland - San Diego | scheduled | -
 - 2026-08-20 05:30 | ABD MLS | Vancouver - Houston | scheduled | -
 - 2026-08-20 05:30 | ABD MLS | Los Angeles - San Jose | scheduled | -
@@ -100,22 +96,6 @@ Yarin: 10
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled | -
 
 ## Canli Maclar
-- 2026-08-20 02:00 | Kolombiya Primera A Clausura | Depor Cucuta - Inter Bogota | live | -
-- 2026-08-20 02:00 | Kanada Premier Lig | Forge - Supra Du Quebec | live | -
-- 2026-08-20 02:00 | Kanada Premier Lig | Atletico Ottaw - Vancouver Fc | live | -
-- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup A | Atletico Avila - Deportivo Petar | live | -
-- 2026-08-20 02:00 | Venezuela Kupa 1.Tur Grup D | Deportivo Lara - Rayo Zuliano | live | -
-- 2026-08-20 02:00 | ABD USL Lig 1 | One Knoxville - Portland Hearts | live | -
-- 2026-08-20 02:30 | ABD MLS | Columbus - Montreal | live | -
-- 2026-08-20 02:30 | ABD MLS | New York - Nashville Sc | live | -
-- 2026-08-20 02:30 | ABD MLS | Toronto - Charlotte | live | -
-- 2026-08-20 02:30 | ABD MLS | Cincinnati - New York City | live | -
-- 2026-08-20 02:30 | ABD MLS | Orlando City - Chicago | live | -
-- 2026-08-20 02:30 | ABD MLS | Dc United - New England | live | -
-- 2026-08-20 02:30 | ABD MLS | Philadelphia - Inter Miami | live | -
-- 2026-08-20 02:30 | Brezilya Serie B | Cuiaba - Operario | live | -
-- 2026-08-20 02:30 | Brezilya Serie B | Vila Nova - Ponte Preta | live | -
-- 2026-08-20 02:30 | ABD USL Lig 1 | Sarasota Parad - Chattanooga Red | live | -
 - 2026-08-20 03:00 | ABD MLS | Kansas - St. Louis City | live | -
 - 2026-08-20 03:30 | ABD MLS | Minnesota Utd - Atlanta Utd | live | -
 - 2026-08-20 03:30 | Copa Libertadores Son 16 Turu | Flamengo (1) - (1) Cruzeiro | live | -
@@ -125,13 +105,10 @@ Yarin: 10
 - 2026-08-20 03:30 | ABD USL Lig 1 | Corpus Christi - New York Cosmos | live | -
 - 2026-08-20 04:00 | CONCACAF Orta Amerika Kupası Grup B | Marathon - Alianza | live | -
 - 2026-08-20 04:00 | CONCACAF Orta Amerika Kupası Grup C | Mixco - Umecit | live | -
+- 2026-08-20 04:30 | ABD MLS | Seattle - Austin | live | -
+- 2026-08-20 04:30 | ABD MLS | Salt Lake - Dallas | live | -
+- 2026-08-20 04:30 | ABD MLS | Colorado - Los Angeles Fc | live | -
+- 2026-08-20 05:00 | ABD USL | Phoenix Rising - Colorado Spring | live | -
 
 ## Biten Maclar
-- 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
-- 2026-08-20 00:00 | Guatemala Ulusal Lig Apertura | Coban Imperial - Antigua Guatema | finished | -
-- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Cerro Porteno (1) - (1) Palmeiras | finished | -
-- 2026-08-20 01:00 | Copa Libertadores Son 16 Turu | Coquimbo Unido (1) - (1) Platense | finished | -
-- 2026-08-20 01:00 | Copa Sudamericana Son 16 Turu | Atletico Mg (1) - (0) Bragantino | finished | -
-- 2026-08-20 01:15 | Arjantin Kupa Son 16 Turu | Racing Club - Belgrano | finished | -
-- 2026-08-20 01:30 | Brezilya Serie B | Fortaleza Ce - Sao Bernardo | finished | -
-- 2026-08-20 01:30 | Brezilya Serie B | Avai - Sport Recife | finished | -
+Biten mac yok.
