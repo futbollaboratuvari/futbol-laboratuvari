@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-20T05:37:50.405Z
+- Güncelleme: 2026-08-20T05:48:46.854Z
 - Ham maç sayısı: 79
 - Yarın bülteni maç sayısı: 10
 - Detay blok sayısı: 230
@@ -26,9 +26,9 @@
 | Arsenal Tula - Rotor Volgograd | Rusya FNL | 18:30 | Veri bekleniyor | - | 2.36 | 8 |
 | Gaz Al-Shamal - Al Kahraba | Irak Premier Lig | 18:30 | Veri bekleniyor | - | 2.65 | 6 |
 | Young Africans - Coastal Union | Tanzanya Kuu Bara Ligi | 18:30 | Veri bekleniyor | - | - | 5 |
-| Dinamo Minsk - Torpedo Zhodino | Belarus Premier Lig | 18:45 | Veri bekleniyor | - | 1.54 | 7 |
+| Dinamo Minsk - Torpedo Zhodino | Belarus Premier Lig | 18:45 | Veri bekleniyor | - | 1.57 | 7 |
 | Mjallby - Salzburg | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 3.72 | 8 |
-| Jagiellonia - Fc Iberia | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.22 | 7 |
+| Jagiellonia - Fc Iberia | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.2 | 6 |
 | Lincoln Red Im - Larne Fc | UEFA Konferans Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.79 | 8 |
 | Inter Turku - Kopenhag | UEFA Konferans Ligi Play Off | 19:00 | Veri bekleniyor | - | 5.43 | 7 |
 | Benfica U23 - Rio Ave U23 | Portekiz U23 Ulusal Şampiyona | 19:00 | Veri bekleniyor | - | 1.67 | 8 |
@@ -49,7 +49,7 @@
 | St. Truidense - Omonia | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.65 | 8 |
 | Ofi - Cska Sofia | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 2.42 | 8 |
 | Vikingur Reykj - Borac Banja Luk | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.42 | 7 |
-| Gornik Zabrze - Monaco | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 5.07 | 7 |
+| Gornik Zabrze - Monaco | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 4.92 | 7 |
 | Twente - Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.42 | 7 |
 | Fc Drita - Inter Escaldes | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.52 | 8 |
 | Al Feiha - Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 9.1 | 6 |

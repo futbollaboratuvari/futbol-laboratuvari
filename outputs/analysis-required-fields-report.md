@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 79
-Tam analiz: 75
+Toplam analiz: 69
+Tam analiz: 65
 Eksik analiz: 4
 
 - Dinaz Vyshhoro VS Yarud Mariupol: eksik score, confidence
