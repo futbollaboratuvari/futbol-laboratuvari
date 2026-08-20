@@ -3,17 +3,17 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 69
-- Live match count: 0
+- Live match count: 10
 - Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 19:00 | Benfica U23 - Rio Ave U23 | scheduled
-- 2026-08-20 19:00 | Neftekhimik - Pfc Sochi | scheduled
-- 2026-08-20 19:00 | Jagiellonia - Fc Iberia | scheduled
-- 2026-08-20 19:00 | Mjallby - Salzburg | scheduled
-- 2026-08-20 19:00 | Inter Turku - Kopenhag | scheduled
-- 2026-08-20 19:00 | Lincoln Red Im - Larne Fc | scheduled
-- 2026-08-20 19:30 | Al Rayyan - Lusail City | scheduled
-- 2026-08-20 20:00 | Vendsyssel - Hillerod | scheduled
-- 2026-08-20 20:00 | Humaita - 2 De Mayo | scheduled
-- 2026-08-20 20:00 | Beşiktaş - Kauno Zalgiris | scheduled
+- 2026-08-20 17:00 | Ilbirs (K) - Tsl (K) | live
+- 2026-08-20 17:15 | Al Wakrah - Qatar Sc | live
+- 2026-08-20 18:00 | Kapa - Jippo Joensuu | live
+- 2026-08-20 18:00 | Neftekhimik - Pfc Sochi | live
+- 2026-08-20 18:00 | Kairat Almaty - Anderlecht | live
+- 2026-08-20 18:30 | Gaz Al-Shamal - Al Kahraba | live
+- 2026-08-20 18:30 | Naft Maysan - Naft | live
+- 2026-08-20 18:30 | Arsenal Tula - Rotor Volgograd | live
+- 2026-08-20 18:30 | Young Africans - Coastal Union | live
+- 2026-08-20 18:45 | Dinamo Minsk - Torpedo Zhodino | live

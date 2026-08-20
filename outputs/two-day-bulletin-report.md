@@ -1,12 +1,11 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-20 / 2026-08-21
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
+Kaynak: fixtures.json
 Ham mac: 128
 Aktif mac: 69
-Canli mac: 16
-Biten mac: 43
+Canli mac: 10
+Biten mac: 49
 Bultenden dusurulen mac: 59
 Bugun: 58
 Yarin: 11
@@ -83,6 +82,8 @@ Yarin: 11
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
+- 2026-08-20 17:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Ilbirs (K) - Tsl (K) | live | -
+- 2026-08-20 17:15 | Katar Yıldızlar Ligi | Al Wakrah - Qatar Sc | live | -
 - 2026-08-20 18:00 | UEFA Avrupa Ligi Play Off | Kairat Almaty - Anderlecht | live | -
 - 2026-08-20 18:00 | Finlandiya Ykkösliiga | Kapa - Jippo Joensuu | live | -
 - 2026-08-20 18:00 | Rusya FNL | Neftekhimik - Pfc Sochi | live | -
@@ -91,14 +92,6 @@ Yarin: 11
 - 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | live | -
 - 2026-08-20 18:30 | Irak Premier Lig | Naft Maysan - Naft | live | -
 - 2026-08-20 18:45 | Belarus Premier Lig | Dinamo Minsk - Torpedo Zhodino | live | -
-- 2026-08-20 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Jkt Tanzania | live | -
-- 2026-08-20 16:30 | Mısır 2. Lig | El Mansura - Baladiyyat | live | -
-- 2026-08-20 16:30 | Mısır 2. Lig | El Daklyeh - Delta United | live | -
-- 2026-08-20 16:30 | Mısır 2. Lig | El Harby - Nasr | live | -
-- 2026-08-20 16:30 | Mısır 2. Lig | La Viena Fc - Kahraba Ismaili | live | -
-- 2026-08-20 16:30 | Mısır 2. Lig | Haras El Hodoo - Telecom Egypt | live | -
-- 2026-08-20 17:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Ilbirs (K) - Tsl (K) | live | -
-- 2026-08-20 17:15 | Katar Yıldızlar Ligi | Al Wakrah - Qatar Sc | live | -
 
 ## Biten Maclar
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
@@ -144,3 +137,9 @@ Yarin: 11
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | finished | -
 - 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | finished | -
 - 2026-08-20 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Phnom Penh Cro - Kaya (K) | finished | -
+- 2026-08-20 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Jkt Tanzania | finished | -
+- 2026-08-20 16:30 | Mısır 2. Lig | El Mansura - Baladiyyat | finished | -
+- 2026-08-20 16:30 | Mısır 2. Lig | El Daklyeh - Delta United | finished | -
+- 2026-08-20 16:30 | Mısır 2. Lig | El Harby - Nasr | finished | -
+- 2026-08-20 16:30 | Mısır 2. Lig | La Viena Fc - Kahraba Ismaili | finished | -
+- 2026-08-20 16:30 | Mısır 2. Lig | Haras El Hodoo - Telecom Egypt | finished | -
