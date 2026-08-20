@@ -3,17 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 202
-Aktif mac: 202
-Canli mac: 0
+Aktif mac: 199
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 181
+Bultenden dusurulen mac: 3
+Bugun: 178
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | scheduled | -
-- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | scheduled | -
-- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | scheduled | -
 - 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | scheduled | -
 - 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | scheduled | -
 - 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | scheduled | -
@@ -215,7 +212,9 @@ Yarin: 21
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | live | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | live | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | live | -
 
 ## Biten Maclar
 Biten mac yok.
