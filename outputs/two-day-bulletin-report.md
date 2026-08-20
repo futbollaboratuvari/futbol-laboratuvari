@@ -4,8 +4,8 @@ Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 125
 Aktif mac: 82
-Canli mac: 2
-Biten mac: 41
+Canli mac: 1
+Biten mac: 42
 Bultenden dusurulen mac: 43
 Bugun: 71
 Yarin: 11
@@ -95,7 +95,6 @@ Yarin: 11
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | live | -
 - 2026-08-20 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Phnom Penh Cro - Kaya (K) | live | -
 
 ## Biten Maclar
@@ -140,3 +139,4 @@ Yarin: 11
 - 2026-08-20 05:30 | ABD MLS | Vancouver - Houston | finished | -
 - 2026-08-20 05:30 | ABD MLS | Los Angeles - San Jose | finished | -
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | finished | -
+- 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | finished | -

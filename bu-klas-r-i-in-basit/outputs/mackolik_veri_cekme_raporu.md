@@ -1,13 +1,13 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T10:55:50.397113+00:00
+Tarih: 2026-08-20T11:18:43.544566+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 83
-- Kac mac kaydedildi: 1
+- Kac mac bulundu: 82
+- Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 82
 - Ham veri havuzu toplam mac sayisi: 7717
 - Hedef tarih: 20.08.2026 Europe/Istanbul
@@ -36,7 +36,6 @@ Tarih: 2026-08-20T10:55:50.397113+00:00
 - Tanzanya Kuu Bara Ligi
 - UEFA Avrupa Ligi Play Off
 - UEFA Konferans Ligi Play Off
-- Ukrayna Kupa 1.Tur
 - İngiltere 1.Lig
 - İspanya LaLiga
 
@@ -95,8 +94,8 @@ Tarih: 2026-08-20T10:55:50.397113+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 25
-- Acilan detay: 25
+- Denenen Tumu alani: 24
+- Acilan detay: 24
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
