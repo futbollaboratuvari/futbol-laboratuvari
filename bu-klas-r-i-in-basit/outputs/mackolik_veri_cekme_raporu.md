@@ -1,34 +1,33 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T19:44:38.148370+00:00
+Tarih: 2026-08-20T19:48:53.709218+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
+- Kac mac bulundu: 1
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
+- Kac mac zaten vardi: 1
 - Ham veri havuzu toplam mac sayisi: 7721
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- Ekvador Kupa Son 16 Turu
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -73,33 +72,20 @@ Tarih: 2026-08-20T19:44:38.148370+00:00
 ## Mac Detay Pencereleri
 
 - Denenen Tumu alani: 7
-- Acilan detay: 3
+- Acilan detay: 7
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
-
-- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
-
-- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
-
-- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
-
+- Hata yok.
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 20.08.2026 | 23:00 | Ekvador Kupa Son 16 Turu | Juventud Itali | Delfin | 00162 | 5 |
 
 ## Sonuc
 
