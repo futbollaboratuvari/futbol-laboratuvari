@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T11:45:40.518Z",
+  "generated_at": "2026-08-20T11:49:30.594Z",
   "date": "2026-08-20",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
@@ -18790,23 +18790,23 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | Hafıza: arşiv verisi henüz sınırlı",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Yüksek",
+      "data_gap_risk": "Orta",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
         "homeScoredLast10": null,
         "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 42,
         "over25Percent": null,
         "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 48,
         "leagueGoalAverage": null,
         "memory": {
           "scoreDelta": 0,
@@ -18843,15 +18843,16 @@
         },
         "homeScoredLast10Count": null,
         "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 4
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Yüksek",
+        "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
       ]
     },
@@ -39699,8 +39700,8 @@
       "league": "Irak Premier Lig",
       "start_time": "21:00",
       "recommended_market": "Değerli market yok",
-      "confidence_score": "0%",
-      "analysis_score": 0,
+      "confidence_score": "15%",
+      "analysis_score": 15,
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
@@ -40128,24 +40129,24 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "robot_comment": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | İki takım son 10 maçta en az 4 gol yedi: +15 | Hafıza: arşiv verisi henüz sınırlı",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Yüksek",
+      "data_gap_risk": "Düşük",
       "status": "filtered_no_value_market",
       "expected_scores": [],
       "learning_adjustment": null,
       "metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 3,
+        "awayScoredLast10": 3,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 49,
+        "over25Percent": 38,
+        "over35Percent": 25,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 55,
+        "leagueGoalAverage": 2.59,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -40179,17 +40180,17 @@
             "Hafıza: arşiv verisi henüz sınırlı"
           ]
         },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 3,
+        "awayScoredLast10Count": 3,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 4
       },
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
+        "İki takım son 10 maçta en az 4 gol yedi: +15",
         "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Yüksek",
+        "Veri eksikliği riski: Düşük",
         "100 puan analiz sınıfı: Oynama"
       ]
     },
