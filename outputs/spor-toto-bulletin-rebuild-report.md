@@ -1,11 +1,11 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-20T20:45:04.074Z
-- Ham fixture sayisi: 7680
-- Bugun/yarin kaynak mac: 129
-- Aktif bulten maci: 12
-- Gosterilen mac: 12
-- Bultenden dusurulen mac: 117
+- Guncelleme: 2026-08-20T21:07:40.165Z
+- Ham fixture sayisi: 7870
+- Bugun/yarin kaynak mac: 202
+- Aktif bulten maci: 202
+- Gosterilen mac: 15
+- Bultenden dusurulen mac: 0
 
 - 1. 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | scheduled
 - 2. 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | scheduled
@@ -19,3 +19,6 @@
 - 10. 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | scheduled
 - 11. 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled
 - 12. 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | scheduled
+- 13. 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | scheduled
+- 14. 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | scheduled
+- 15. 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | scheduled
