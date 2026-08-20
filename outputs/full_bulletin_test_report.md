@@ -2,12 +2,11 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 37
-- Live match count: 26
-- Finished removed count: 0
+- Scheduled match count: 13
+- Live match count: 49
+- Finished removed count: 1
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 19:30 | Al Rayyan - Lusail City | live
 - 2026-08-20 20:00 | Vendsyssel - Hillerod | live
 - 2026-08-20 20:00 | Humaita - 2 De Mayo | live
 - 2026-08-20 20:00 | Beşiktaş - Kauno Zalgiris | live
@@ -17,3 +16,4 @@
 - 2026-08-20 20:00 | Universitatea - Ararat-Armenia | live
 - 2026-08-20 20:00 | Midtjylland - Rijeka | live
 - 2026-08-20 20:00 | Nordsjaelland - St Gallen | live
+- 2026-08-20 20:00 | Tromso - Brighton | live
