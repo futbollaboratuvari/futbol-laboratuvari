@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.08.2026 19:53:52
+Oluşturma: 20.08.2026 19:58:07
 
 ## Özet
 
-- Toplam tahmin: 43
-- Bekleyen tahmin: 43
+- Toplam tahmin: 45
+- Bekleyen tahmin: 45
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 8
@@ -20,12 +20,14 @@ Oluşturma: 20.08.2026 19:53:52
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
-- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-20 | UEFA Avrupa Ligi Play Off | Egnatia - Lillestrom | MS 1 | pending | 50/100
+- 2026-08-20 | UEFA Avrupa Ligi Play Off | Universitatea - Ararat-Armenia | MS X | pending | 75/100
 - 2026-08-20 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | MS 1 | pending | 40/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Glasgow Ranger - Jablonec | MS X | pending | 75/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Getafe - Partizan Belgra | MS X | pending | 65/100
@@ -39,6 +41,4 @@ Oluşturma: 20.08.2026 19:53:52
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Panathinaikos - Hradec Kralove | MS 2 | pending | 65/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Gent - Hibernian | MS 2 | pending | 50/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Lugano - Maccabi Tel Avi | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Glasgow Ranger - Jablonec | MS 2 | pending | 75/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Hearts - Rapid Wien | MS X | pending | 50/100
 
