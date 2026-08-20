@@ -1,31 +1,25 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-<<<<<<< Updated upstream
-- Güncelleme: 2026-08-20T19:48:12.925Z
-=======
-- Güncelleme: 2026-08-20T19:48:35.300Z
->>>>>>> Stashed changes
-- Ham maç sayısı: 52
-- Yarın bülteni maç sayısı: 12
-- Detay blok sayısı: 154
-- Aktif bülten maçı: 13
-- Bültenden düşürülen maç: 39
+- Kaynak: Güncel veri bekleniyor
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-08-20T19:52:47.295Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Juventud Itali - Delfin | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 4.6 | 7 |
-| Ldu Quito (1) - (1) Mirassol | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.41 | 7 |
-| Olimpia Asunci (0) - (0) Vasco Da Gama | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 2.32 | 8 |
-| Depor Macara (1) - (2) Santos | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 2 | 8 |
-| Athletic Club - Regatas | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 2.18 | 8 |
-| Venados Fc - Dorados | Meksika Ascenso MX Apertura | 02:00 | Veri bekleniyor | - | 1.57 | 8 |
-| Novorizontino - America Mineiro | Brezilya Serie B | 02:30 | Veri bekleniyor | - | 1.39 | 7 |
-| Corinthians (0) - (0) Rosario Central | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 1.99 | 8 |
-| Botafogo (1) - (6) Cienciano | Copa Sudamericana Son 16 Turu | 03:30 | Veri bekleniyor | - | - | 5 |
-| Monarcas - Correcaminos Ua | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 1.58 | 8 |
-| Tepatitlan De - Tlaxcala | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 2.5 | 8 |
-| Alianza Fc - Depor. Olimpia | CONCACAF Orta Amerika Kupası Grup C | 04:00 | Veri bekleniyor | - | 3.97 | 8 |
-| Firpo - Alajuelense | CONCACAF Orta Amerika Kupası Grup A | 06:00 | Veri bekleniyor | - | 2.85 | 8 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
