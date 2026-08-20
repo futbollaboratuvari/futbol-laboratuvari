@@ -1,24 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-20 / 2026-08-21
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 128
-Aktif mac: 77
-Canli mac: 8
+Aktif mac: 69
+Canli mac: 16
 Biten mac: 43
-Bultenden dusurulen mac: 51
-Bugun: 66
+Bultenden dusurulen mac: 59
+Bugun: 58
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-20 18:00 | UEFA Avrupa Ligi Play Off | Kairat Almaty - Anderlecht | scheduled | -
-- 2026-08-20 18:00 | Finlandiya Ykkösliiga | Kapa - Jippo Joensuu | scheduled | -
-- 2026-08-20 18:00 | Rusya FNL | Neftekhimik - Pfc Sochi | scheduled | -
-- 2026-08-20 18:30 | Rusya FNL | Arsenal Tula - Rotor Volgograd | scheduled | -
-- 2026-08-20 18:30 | Irak Premier Lig | Gaz Al-Shamal - Al Kahraba | scheduled | -
-- 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | scheduled | -
-- 2026-08-20 18:30 | Irak Premier Lig | Naft Maysan - Naft | scheduled | -
-- 2026-08-20 18:45 | Belarus Premier Lig | Dinamo Minsk - Torpedo Zhodino | scheduled | -
 - 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Mjallby - Salzburg | scheduled | -
 - 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Jagiellonia - Fc Iberia | scheduled | -
 - 2026-08-20 19:00 | UEFA Konferans Ligi Play Off | Lincoln Red Im - Larne Fc | scheduled | -
@@ -90,6 +83,14 @@ Yarin: 11
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
+- 2026-08-20 18:00 | UEFA Avrupa Ligi Play Off | Kairat Almaty - Anderlecht | live | -
+- 2026-08-20 18:00 | Finlandiya Ykkösliiga | Kapa - Jippo Joensuu | live | -
+- 2026-08-20 18:00 | Rusya FNL | Neftekhimik - Pfc Sochi | live | -
+- 2026-08-20 18:30 | Rusya FNL | Arsenal Tula - Rotor Volgograd | live | -
+- 2026-08-20 18:30 | Irak Premier Lig | Gaz Al-Shamal - Al Kahraba | live | -
+- 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | live | -
+- 2026-08-20 18:30 | Irak Premier Lig | Naft Maysan - Naft | live | -
+- 2026-08-20 18:45 | Belarus Premier Lig | Dinamo Minsk - Torpedo Zhodino | live | -
 - 2026-08-20 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Jkt Tanzania | live | -
 - 2026-08-20 16:30 | Mısır 2. Lig | El Mansura - Baladiyyat | live | -
 - 2026-08-20 16:30 | Mısır 2. Lig | El Daklyeh - Delta United | live | -
