@@ -3,17 +3,14 @@
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 128
-Aktif mac: 52
-Canli mac: 22
-Biten mac: 54
-Bultenden dusurulen mac: 76
-Bugun: 41
+Aktif mac: 49
+Canli mac: 20
+Biten mac: 59
+Bultenden dusurulen mac: 79
+Bugun: 38
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-20 20:30 | UEFA Konferans Ligi Play Off | Kí Klaksvík - Riga Fc | scheduled | -
-- 2026-08-20 20:45 | UEFA Konferans Ligi Play Off | Paok - Brann | scheduled | -
-- 2026-08-20 20:45 | Rusya Kupa Premier Lig Yolu Grup C | Baltika Kalini - Makhachkala | scheduled | -
 - 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | scheduled | -
 - 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | St. Truidense - Omonia | scheduled | -
 - 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | scheduled | -
@@ -65,11 +62,6 @@ Yarin: 11
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-20 18:30 | Rusya FNL | Arsenal Tula - Rotor Volgograd | live | -
-- 2026-08-20 18:30 | Irak Premier Lig | Gaz Al-Shamal - Al Kahraba | live | -
-- 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | live | -
-- 2026-08-20 18:30 | Irak Premier Lig | Naft Maysan - Naft | live | -
-- 2026-08-20 18:45 | Belarus Premier Lig | Dinamo Minsk - Torpedo Zhodino | live | -
 - 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Mjallby - Salzburg | live | -
 - 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Jagiellonia - Fc Iberia | live | -
 - 2026-08-20 19:00 | UEFA Konferans Ligi Play Off | Lincoln Red Im - Larne Fc | live | -
@@ -87,6 +79,9 @@ Yarin: 11
 - 2026-08-20 20:00 | UEFA Konferans Ligi Play Off | Midtjylland - Rijeka | live | -
 - 2026-08-20 20:00 | Danimarka 1.Lig | Vendsyssel - Hillerod | live | -
 - 2026-08-20 20:00 | Paraguay Kupa 3.Tur | Humaita - 2 De Mayo | live | -
+- 2026-08-20 20:30 | UEFA Konferans Ligi Play Off | Kí Klaksvík - Riga Fc | live | -
+- 2026-08-20 20:45 | UEFA Konferans Ligi Play Off | Paok - Brann | live | -
+- 2026-08-20 20:45 | Rusya Kupa Premier Lig Yolu Grup C | Baltika Kalini - Makhachkala | live | -
 
 ## Biten Maclar
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
@@ -143,3 +138,8 @@ Yarin: 11
 - 2026-08-20 18:00 | UEFA Avrupa Ligi Play Off | Kairat Almaty - Anderlecht | finished | -
 - 2026-08-20 18:00 | Finlandiya Ykkösliiga | Kapa - Jippo Joensuu | finished | -
 - 2026-08-20 18:00 | Rusya FNL | Neftekhimik - Pfc Sochi | finished | -
+- 2026-08-20 18:30 | Rusya FNL | Arsenal Tula - Rotor Volgograd | finished | -
+- 2026-08-20 18:30 | Irak Premier Lig | Gaz Al-Shamal - Al Kahraba | finished | -
+- 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | finished | -
+- 2026-08-20 18:30 | Irak Premier Lig | Naft Maysan - Naft | finished | -
+- 2026-08-20 18:45 | Belarus Premier Lig | Dinamo Minsk - Torpedo Zhodino | finished | -
