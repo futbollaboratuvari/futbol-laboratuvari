@@ -3,26 +3,14 @@
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 128
-Aktif mac: 49
-Canli mac: 20
-Biten mac: 59
-Bultenden dusurulen mac: 79
-Bugun: 38
+Aktif mac: 37
+Canli mac: 26
+Biten mac: 65
+Bultenden dusurulen mac: 91
+Bugun: 26
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | scheduled | -
-- 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | St. Truidense - Omonia | scheduled | -
-- 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | scheduled | -
-- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Vikingur Reykj - Borac Banja Luk | scheduled | -
-- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Gornik Zabrze - Monaco | scheduled | -
-- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Twente - Qarabagh | scheduled | -
-- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Fc Drita - Inter Escaldes | scheduled | -
-- 2026-08-20 21:00 | Suudi Arabistan Pro Lig | Al Feiha - Al Hilal (Riyad | scheduled | -
-- 2026-08-20 21:00 | Irak Premier Lig | Al Minaa Basra - Zakho | scheduled | -
-- 2026-08-20 21:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Tabora United | scheduled | -
-- 2026-08-20 21:00 | Irak Premier Lig | Al Golan - Al Karkh | scheduled | -
-- 2026-08-20 21:15 | UEFA Konferans Ligi Play Off | Sion - Ajax | scheduled | -
 - 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Panathinaikos - Hradec Kralove | scheduled | -
 - 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Gent - Hibernian | scheduled | -
 - 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Motherwell - Freiburg | scheduled | -
@@ -62,12 +50,6 @@ Yarin: 11
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Mjallby - Salzburg | live | -
-- 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Jagiellonia - Fc Iberia | live | -
-- 2026-08-20 19:00 | UEFA Konferans Ligi Play Off | Lincoln Red Im - Larne Fc | live | -
-- 2026-08-20 19:00 | UEFA Konferans Ligi Play Off | Inter Turku - Kopenhag | live | -
-- 2026-08-20 19:00 | Portekiz U23 Ulusal Şampiyona | Benfica U23 - Rio Ave U23 | live | -
-- 2026-08-20 19:00 | Rusya FNL | Neftekhimik - Pfc Sochi | live | -
 - 2026-08-20 19:30 | Katar Yıldızlar Ligi | Al Rayyan - Lusail City | live | -
 - 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Beşiktaş - Kauno Zalgiris | live | -
 - 2026-08-20 20:00 | UEFA Avrupa Ligi Play Off | Egnatia - Lillestrom | live | -
@@ -82,6 +64,18 @@ Yarin: 11
 - 2026-08-20 20:30 | UEFA Konferans Ligi Play Off | Kí Klaksvík - Riga Fc | live | -
 - 2026-08-20 20:45 | UEFA Konferans Ligi Play Off | Paok - Brann | live | -
 - 2026-08-20 20:45 | Rusya Kupa Premier Lig Yolu Grup C | Baltika Kalini - Makhachkala | live | -
+- 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | live | -
+- 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | St. Truidense - Omonia | live | -
+- 2026-08-20 21:00 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | live | -
+- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Vikingur Reykj - Borac Banja Luk | live | -
+- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Gornik Zabrze - Monaco | live | -
+- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Twente - Qarabagh | live | -
+- 2026-08-20 21:00 | UEFA Konferans Ligi Play Off | Fc Drita - Inter Escaldes | live | -
+- 2026-08-20 21:00 | Suudi Arabistan Pro Lig | Al Feiha - Al Hilal (Riyad | live | -
+- 2026-08-20 21:00 | Irak Premier Lig | Al Minaa Basra - Zakho | live | -
+- 2026-08-20 21:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Tabora United | live | -
+- 2026-08-20 21:00 | Irak Premier Lig | Al Golan - Al Karkh | live | -
+- 2026-08-20 21:15 | UEFA Konferans Ligi Play Off | Sion - Ajax | live | -
 
 ## Biten Maclar
 - 2026-08-20 00:00 | Kolombiya Primera A Clausura | Rionegro Aguil - Llaneros | finished | -
@@ -143,3 +137,9 @@ Yarin: 11
 - 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | finished | -
 - 2026-08-20 18:30 | Irak Premier Lig | Naft Maysan - Naft | finished | -
 - 2026-08-20 18:45 | Belarus Premier Lig | Dinamo Minsk - Torpedo Zhodino | finished | -
+- 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Mjallby - Salzburg | finished | -
+- 2026-08-20 19:00 | UEFA Avrupa Ligi Play Off | Jagiellonia - Fc Iberia | finished | -
+- 2026-08-20 19:00 | UEFA Konferans Ligi Play Off | Lincoln Red Im - Larne Fc | finished | -
+- 2026-08-20 19:00 | UEFA Konferans Ligi Play Off | Inter Turku - Kopenhag | finished | -
+- 2026-08-20 19:00 | Portekiz U23 Ulusal Şampiyona | Benfica U23 - Rio Ave U23 | finished | -
+- 2026-08-20 19:00 | Rusya FNL | Neftekhimik - Pfc Sochi | finished | -
