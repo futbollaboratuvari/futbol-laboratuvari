@@ -1,475 +1,17 @@
 {
-  "generated_at": "2026-08-20T02:10:37.721Z",
+  "generated_at": "2026-08-20T02:25:22.335Z",
   "date": "2026-08-20",
   "engine": "High Value Coupon Engine + Learning Memory",
   "scoring_mode": "net_threshold_rules_with_learning_memory",
   "stale_data_policy": "Eski veri gösterme. Bugünün verisi yoksa boş mesaj göster.",
   "summary": {
-    "fixture_count": 86,
-    "scored_match_count": 86,
+    "fixture_count": 85,
+    "scored_match_count": 85,
     "coupon_candidate_count": 10,
-    "watch_candidate_count": 46,
+    "watch_candidate_count": 45,
     "learning_adjusted_count": 0
   },
   "watchlist": [
-    {
-      "match_name": "Kansas VS St. Louis City",
-      "league": "ABD MLS",
-      "start_time": "03:00",
-      "recommended_market": "MS X",
-      "confidence_score": "45%",
-      "analysis_score": 45,
-      "risk_level": "Yüksek",
-      "estimated_odds": "3.54",
-      "available_odds": {
-        "ms1": "3.38",
-        "msx": "3.54",
-        "ms2": "1.67",
-        "over25": "1.39",
-        "under25": "2.18",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "1.71",
-        "bttsNo": "1.13",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 3.38,
-        "msx": 3.54,
-        "ms2": 1.67,
-        "under25": 2.18,
-        "over25": 1.39,
-        "bttsYes_guess": 1.71,
-        "bttsNo_guess": 1.13
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "16445",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 3.38,
-            "msx": 3.54,
-            "ms2": 1.67
-          }
-        },
-        {
-          "market_code": "16445",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 3.38,
-            "firstHalfX_guess": 3.54,
-            "firstHalf2_guess": 1.67
-          }
-        },
-        {
-          "market_code": "16445",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 3.38,
-            "secondHalfX_guess": 3.54,
-            "secondHalf2_guess": 1.67
-          }
-        },
-        {
-          "market_code": "16445",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 3.38,
-            "handicapX_guess": 3.54,
-            "handicap2_guess": 1.67
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 2.18,
-            "bttsNo_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 2.18,
-            "firstHalfBttsNo_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 2.18,
-            "secondHalfBttsNo_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 2.18,
-            "over05_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 2.18,
-            "over15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 2.18,
-            "over25_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 2.18,
-            "over35_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 2.18,
-            "over45_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 2.18,
-            "firstHalfOver05_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 2.18,
-            "firstHalfOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 2.18,
-            "secondHalfOver05_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 2.18,
-            "secondHalfOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 2.18,
-            "homeOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 2.18,
-            "awayOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.71,
-            "msx": 1.13,
-            "ms2": 1.14
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.71,
-            "firstHalfX_guess": 1.13,
-            "firstHalf2_guess": 1.14
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.71,
-            "secondHalfX_guess": 1.13,
-            "secondHalf2_guess": 1.14
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.71,
-            "handicapX_guess": 1.13,
-            "handicap2_guess": 1.14
-          }
-        }
-      ],
-      "raw_market_blocks": [
-        {
-          "market_code": "16445",
-          "values": [
-            3.38,
-            3.54,
-            1.67
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 3.38,
-            "msx": 3.54,
-            "ms2": 1.67
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 3.38,
-                "msx": 3.54,
-                "ms2": 1.67
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 3.38,
-                "firstHalfX_guess": 3.54,
-                "firstHalf2_guess": 1.67
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 3.38,
-                "secondHalfX_guess": 3.54,
-                "secondHalf2_guess": 1.67
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 3.38,
-                "handicapX_guess": 3.54,
-                "handicap2_guess": 1.67
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "16458",
-          "values": [
-            2.18,
-            1.39
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 2.18,
-            "over25": 1.39
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 2.18,
-                "bttsNo_guess": 1.39
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 2.18,
-                "firstHalfBttsNo_guess": 1.39
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 2.18,
-                "secondHalfBttsNo_guess": 1.39
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 2.18,
-                "over05_guess": 1.39
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 2.18,
-                "over15_guess": 1.39
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 2.18,
-                "over25_guess": 1.39
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 2.18,
-                "over35_guess": 1.39
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 2.18,
-                "over45_guess": 1.39
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 2.18,
-                "firstHalfOver05_guess": 1.39
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 2.18,
-                "firstHalfOver15_guess": 1.39
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 2.18,
-                "secondHalfOver05_guess": 1.39
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 2.18,
-                "secondHalfOver15_guess": 1.39
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 2.18,
-                "homeOver15_guess": 1.39
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 2.18,
-                "awayOver15_guess": 1.39
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "16446",
-          "values": [
-            1.71,
-            1.13,
-            1.14
-          ],
-          "guess": "KG Var / Yok tahmini",
-          "named_values": {
-            "bttsYes_guess": 1.71,
-            "bttsNo_guess": 1.13
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.71,
-                "msx": 1.13,
-                "ms2": 1.14
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.71,
-                "firstHalfX_guess": 1.13,
-                "firstHalf2_guess": 1.14
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.71,
-                "secondHalfX_guess": 1.13,
-                "secondHalf2_guess": 1.14
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.71,
-                "handicapX_guess": 1.13,
-                "handicap2_guess": 1.14
-              }
-            }
-          ]
-        }
-      ],
-      "odds_source": "Robot ham veri havuzu",
-      "value_label": "Yüksek Değer",
-      "band_attention_level": "Düşük",
-      "band_attention_notes": [
-        "Bant kontrol verisi yok."
-      ],
-      "robot_comment": "Market: MS X | Oran: 3.54 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
-      "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Düşük",
-      "status": "live",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "learning_adjustment": {
-        "market": "MS X",
-        "league": "ABD MLS",
-        "delta": 0,
-        "weight": 1,
-        "applied": false,
-        "notes": [
-          "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-        ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
-      }
-    },
     {
       "match_name": "Minnesota Utd VS Atlanta Utd",
       "league": "ABD MLS",
@@ -923,9 +465,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -1522,9 +1091,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -1980,9 +1576,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -2579,9 +2202,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -3037,9 +2687,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -3495,9 +3172,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -3953,9 +3657,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -4411,9 +4142,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -4869,9 +4627,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -5327,9 +5112,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 2,
+          "pending": 2,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -5785,9 +5597,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -6243,9 +6082,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -6842,9 +6708,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -7300,9 +7193,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -7758,9 +7678,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -8140,9 +8087,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 2,
+          "pending": 2,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -8598,9 +8572,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -9056,9 +9057,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -9655,9 +9683,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -10113,9 +10168,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -10571,9 +10653,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -10584,11 +10693,11 @@
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
-      "estimated_odds": "4.54",
+      "estimated_odds": "4.70",
       "available_odds": {
-        "ms1": "1.51",
-        "msx": "3.36",
-        "ms2": "4.54",
+        "ms1": "1.49",
+        "msx": "3.42",
+        "ms2": "4.70",
         "over25": "1.69",
         "under25": "1.71",
         "over35": "-",
@@ -10601,9 +10710,9 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.51,
-        "msx": 3.36,
-        "ms2": 4.54,
+        "ms1": 1.49,
+        "msx": 3.42,
+        "ms2": 4.7,
         "under25": 1.71,
         "over25": 1.69,
         "bttsYes_guess": 1.05,
@@ -10614,36 +10723,36 @@
           "market_code": "13922",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.51,
-            "msx": 3.36,
-            "ms2": 4.54
+            "ms1": 1.49,
+            "msx": 3.42,
+            "ms2": 4.7
           }
         },
         {
           "market_code": "13922",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.51,
-            "firstHalfX_guess": 3.36,
-            "firstHalf2_guess": 4.54
+            "firstHalf1_guess": 1.49,
+            "firstHalfX_guess": 3.42,
+            "firstHalf2_guess": 4.7
           }
         },
         {
           "market_code": "13922",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.51,
-            "secondHalfX_guess": 3.36,
-            "secondHalf2_guess": 4.54
+            "secondHalf1_guess": 1.49,
+            "secondHalfX_guess": 3.42,
+            "secondHalf2_guess": 4.7
           }
         },
         {
           "market_code": "13922",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.51,
-            "handicapX_guess": 3.36,
-            "handicap2_guess": 4.54
+            "handicap1_guess": 1.49,
+            "handicapX_guess": 3.42,
+            "handicap2_guess": 4.7
           }
         },
         {
@@ -10764,7 +10873,7 @@
           "values": {
             "ms1": 1.05,
             "msx": 1.14,
-            "ms2": 1.89
+            "ms2": 1.93
           }
         },
         {
@@ -10773,7 +10882,7 @@
           "values": {
             "firstHalf1_guess": 1.05,
             "firstHalfX_guess": 1.14,
-            "firstHalf2_guess": 1.89
+            "firstHalf2_guess": 1.93
           }
         },
         {
@@ -10782,7 +10891,7 @@
           "values": {
             "secondHalf1_guess": 1.05,
             "secondHalfX_guess": 1.14,
-            "secondHalf2_guess": 1.89
+            "secondHalf2_guess": 1.93
           }
         },
         {
@@ -10791,7 +10900,7 @@
           "values": {
             "handicap1_guess": 1.05,
             "handicapX_guess": 1.14,
-            "handicap2_guess": 1.89
+            "handicap2_guess": 1.93
           }
         }
       ],
@@ -10799,47 +10908,47 @@
         {
           "market_code": "13922",
           "values": [
-            1.51,
-            3.36,
-            4.54
+            1.49,
+            3.42,
+            4.7
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.51,
-            "msx": 3.36,
-            "ms2": 4.54
+            "ms1": 1.49,
+            "msx": 3.42,
+            "ms2": 4.7
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.51,
-                "msx": 3.36,
-                "ms2": 4.54
+                "ms1": 1.49,
+                "msx": 3.42,
+                "ms2": 4.7
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.51,
-                "firstHalfX_guess": 3.36,
-                "firstHalf2_guess": 4.54
+                "firstHalf1_guess": 1.49,
+                "firstHalfX_guess": 3.42,
+                "firstHalf2_guess": 4.7
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.51,
-                "secondHalfX_guess": 3.36,
-                "secondHalf2_guess": 4.54
+                "secondHalf1_guess": 1.49,
+                "secondHalfX_guess": 3.42,
+                "secondHalf2_guess": 4.7
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.51,
-                "handicapX_guess": 3.36,
-                "handicap2_guess": 4.54
+                "handicap1_guess": 1.49,
+                "handicapX_guess": 3.42,
+                "handicap2_guess": 4.7
               }
             }
           ]
@@ -10961,7 +11070,7 @@
           "values": [
             1.05,
             1.14,
-            1.89
+            1.93
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
@@ -10974,7 +11083,7 @@
               "values": {
                 "ms1": 1.05,
                 "msx": 1.14,
-                "ms2": 1.89
+                "ms2": 1.93
               }
             },
             {
@@ -10982,7 +11091,7 @@
               "values": {
                 "firstHalf1_guess": 1.05,
                 "firstHalfX_guess": 1.14,
-                "firstHalf2_guess": 1.89
+                "firstHalf2_guess": 1.93
               }
             },
             {
@@ -10990,7 +11099,7 @@
               "values": {
                 "secondHalf1_guess": 1.05,
                 "secondHalfX_guess": 1.14,
-                "secondHalf2_guess": 1.89
+                "secondHalf2_guess": 1.93
               }
             },
             {
@@ -10998,7 +11107,7 @@
               "values": {
                 "handicap1_guess": 1.05,
                 "handicapX_guess": 1.14,
-                "handicap2_guess": 1.89
+                "handicap2_guess": 1.93
               }
             }
           ]
@@ -11010,7 +11119,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 4.54 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS 2 | Oran: 4.70 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Düşük",
@@ -11029,9 +11138,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -11487,9 +11623,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -11945,9 +12108,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -12403,9 +12593,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -12861,9 +13078,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -13319,9 +13563,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -13777,9 +14048,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -14159,9 +14457,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -14758,9 +15083,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -15216,9 +15568,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -15674,9 +16053,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -16132,9 +16538,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -16590,9 +17023,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -17048,9 +17508,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -17506,9 +17993,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -17964,9 +18478,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -18422,9 +18963,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -18880,9 +19448,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -19338,9 +19933,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -19351,16 +19973,16 @@
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "3.96",
+      "estimated_odds": "4.09",
       "available_odds": {
-        "ms1": "1.59",
-        "msx": "3.04",
-        "ms2": "3.96",
+        "ms1": "1.57",
+        "msx": "3.06",
+        "ms2": "4.09",
         "over25": "1.86",
         "under25": "1.48",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.06",
+        "bttsYes": "1.05",
         "bttsNo": "1.14",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -19368,12 +19990,12 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.59,
-        "msx": 3.04,
-        "ms2": 3.96,
+        "ms1": 1.57,
+        "msx": 3.06,
+        "ms2": 4.09,
         "under25": 1.48,
         "over25": 1.86,
-        "bttsYes_guess": 1.06,
+        "bttsYes_guess": 1.05,
         "bttsNo_guess": 1.14
       },
       "detail_market_candidates": [
@@ -19381,36 +20003,36 @@
           "market_code": "17847",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.59,
-            "msx": 3.04,
-            "ms2": 3.96
+            "ms1": 1.57,
+            "msx": 3.06,
+            "ms2": 4.09
           }
         },
         {
           "market_code": "17847",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.59,
-            "firstHalfX_guess": 3.04,
-            "firstHalf2_guess": 3.96
+            "firstHalf1_guess": 1.57,
+            "firstHalfX_guess": 3.06,
+            "firstHalf2_guess": 4.09
           }
         },
         {
           "market_code": "17847",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.59,
-            "secondHalfX_guess": 3.04,
-            "secondHalf2_guess": 3.96
+            "secondHalf1_guess": 1.57,
+            "secondHalfX_guess": 3.06,
+            "secondHalf2_guess": 4.09
           }
         },
         {
           "market_code": "17847",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.59,
-            "handicapX_guess": 3.04,
-            "handicap2_guess": 3.96
+            "handicap1_guess": 1.57,
+            "handicapX_guess": 3.06,
+            "handicap2_guess": 4.09
           }
         },
         {
@@ -19529,36 +20151,36 @@
           "market_code": "17848",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.06,
+            "ms1": 1.05,
             "msx": 1.14,
-            "ms2": 1.66
+            "ms2": 1.7
           }
         },
         {
           "market_code": "17848",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.06,
+            "firstHalf1_guess": 1.05,
             "firstHalfX_guess": 1.14,
-            "firstHalf2_guess": 1.66
+            "firstHalf2_guess": 1.7
           }
         },
         {
           "market_code": "17848",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.06,
+            "secondHalf1_guess": 1.05,
             "secondHalfX_guess": 1.14,
-            "secondHalf2_guess": 1.66
+            "secondHalf2_guess": 1.7
           }
         },
         {
           "market_code": "17848",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.06,
+            "handicap1_guess": 1.05,
             "handicapX_guess": 1.14,
-            "handicap2_guess": 1.66
+            "handicap2_guess": 1.7
           }
         }
       ],
@@ -19566,47 +20188,47 @@
         {
           "market_code": "17847",
           "values": [
-            1.59,
-            3.04,
-            3.96
+            1.57,
+            3.06,
+            4.09
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.59,
-            "msx": 3.04,
-            "ms2": 3.96
+            "ms1": 1.57,
+            "msx": 3.06,
+            "ms2": 4.09
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.59,
-                "msx": 3.04,
-                "ms2": 3.96
+                "ms1": 1.57,
+                "msx": 3.06,
+                "ms2": 4.09
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.59,
-                "firstHalfX_guess": 3.04,
-                "firstHalf2_guess": 3.96
+                "firstHalf1_guess": 1.57,
+                "firstHalfX_guess": 3.06,
+                "firstHalf2_guess": 4.09
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.59,
-                "secondHalfX_guess": 3.04,
-                "secondHalf2_guess": 3.96
+                "secondHalf1_guess": 1.57,
+                "secondHalfX_guess": 3.06,
+                "secondHalf2_guess": 4.09
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.59,
-                "handicapX_guess": 3.04,
-                "handicap2_guess": 3.96
+                "handicap1_guess": 1.57,
+                "handicapX_guess": 3.06,
+                "handicap2_guess": 4.09
               }
             }
           ]
@@ -19726,46 +20348,46 @@
         {
           "market_code": "17848",
           "values": [
-            1.06,
+            1.05,
             1.14,
-            1.66
+            1.7
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.06,
+            "bttsYes_guess": 1.05,
             "bttsNo_guess": 1.14
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.06,
+                "ms1": 1.05,
                 "msx": 1.14,
-                "ms2": 1.66
+                "ms2": 1.7
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.06,
+                "firstHalf1_guess": 1.05,
                 "firstHalfX_guess": 1.14,
-                "firstHalf2_guess": 1.66
+                "firstHalf2_guess": 1.7
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.06,
+                "secondHalf1_guess": 1.05,
                 "secondHalfX_guess": 1.14,
-                "secondHalf2_guess": 1.66
+                "secondHalf2_guess": 1.7
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.06,
+                "handicap1_guess": 1.05,
                 "handicapX_guess": 1.14,
-                "handicap2_guess": 1.66
+                "handicap2_guess": 1.7
               }
             }
           ]
@@ -19777,7 +20399,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 3.96 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS 2 | Oran: 4.09 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Düşük",
@@ -19796,9 +20418,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -20254,9 +20903,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -20712,9 +21388,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -21170,9 +21873,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     },
     {
@@ -21628,535 +22358,40 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       }
     }
   ],
   "matches": [
-    {
-      "match_name": "Kansas VS St. Louis City",
-      "league": "ABD MLS",
-      "start_time": "03:00",
-      "recommended_market": "MS X",
-      "confidence_score": "45%",
-      "analysis_score": 45,
-      "risk_level": "Yüksek",
-      "estimated_odds": "3.54",
-      "available_odds": {
-        "ms1": "3.38",
-        "msx": "3.54",
-        "ms2": "1.67",
-        "over25": "1.39",
-        "under25": "2.18",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "1.71",
-        "bttsNo": "1.13",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 3.38,
-        "msx": 3.54,
-        "ms2": 1.67,
-        "under25": 2.18,
-        "over25": 1.39,
-        "bttsYes_guess": 1.71,
-        "bttsNo_guess": 1.13
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "16445",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 3.38,
-            "msx": 3.54,
-            "ms2": 1.67
-          }
-        },
-        {
-          "market_code": "16445",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 3.38,
-            "firstHalfX_guess": 3.54,
-            "firstHalf2_guess": 1.67
-          }
-        },
-        {
-          "market_code": "16445",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 3.38,
-            "secondHalfX_guess": 3.54,
-            "secondHalf2_guess": 1.67
-          }
-        },
-        {
-          "market_code": "16445",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 3.38,
-            "handicapX_guess": 3.54,
-            "handicap2_guess": 1.67
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "KG Var / Yok",
-          "values": {
-            "bttsYes_guess": 2.18,
-            "bttsNo_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İlk Yarı KG Var / Yok",
-          "values": {
-            "firstHalfBttsYes_guess": 2.18,
-            "firstHalfBttsNo_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İkinci Yarı KG Var / Yok",
-          "values": {
-            "secondHalfBttsYes_guess": 2.18,
-            "secondHalfBttsNo_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "0.5 Alt / Üst",
-          "values": {
-            "under05_guess": 2.18,
-            "over05_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "1.5 Alt / Üst",
-          "values": {
-            "under15_guess": 2.18,
-            "over15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "2.5 Alt / Üst",
-          "values": {
-            "under25_guess": 2.18,
-            "over25_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "3.5 Alt / Üst",
-          "values": {
-            "under35_guess": 2.18,
-            "over35_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "4.5 Alt / Üst",
-          "values": {
-            "under45_guess": 2.18,
-            "over45_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İlk Yarı 0.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder05_guess": 2.18,
-            "firstHalfOver05_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İlk Yarı 1.5 Alt / Üst",
-          "values": {
-            "firstHalfUnder15_guess": 2.18,
-            "firstHalfOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İkinci Yarı 0.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder05_guess": 2.18,
-            "secondHalfOver05_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "İkinci Yarı 1.5 Alt / Üst",
-          "values": {
-            "secondHalfUnder15_guess": 2.18,
-            "secondHalfOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "Ev Sahibi 1.5 Alt / Üst",
-          "values": {
-            "homeUnder15_guess": 2.18,
-            "homeOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16458",
-          "market": "Deplasman 1.5 Alt / Üst",
-          "values": {
-            "awayUnder15_guess": 2.18,
-            "awayOver15_guess": 1.39
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.71,
-            "msx": 1.13,
-            "ms2": 1.14
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.71,
-            "firstHalfX_guess": 1.13,
-            "firstHalf2_guess": 1.14
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.71,
-            "secondHalfX_guess": 1.13,
-            "secondHalf2_guess": 1.14
-          }
-        },
-        {
-          "market_code": "16446",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.71,
-            "handicapX_guess": 1.13,
-            "handicap2_guess": 1.14
-          }
-        }
-      ],
-      "raw_market_blocks": [
-        {
-          "market_code": "16445",
-          "values": [
-            3.38,
-            3.54,
-            1.67
-          ],
-          "guess": "Maç Sonucu 1/X/2",
-          "named_values": {
-            "ms1": 3.38,
-            "msx": 3.54,
-            "ms2": 1.67
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 3.38,
-                "msx": 3.54,
-                "ms2": 1.67
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 3.38,
-                "firstHalfX_guess": 3.54,
-                "firstHalf2_guess": 1.67
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 3.38,
-                "secondHalfX_guess": 3.54,
-                "secondHalf2_guess": 1.67
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 3.38,
-                "handicapX_guess": 3.54,
-                "handicap2_guess": 1.67
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "16458",
-          "values": [
-            2.18,
-            1.39
-          ],
-          "guess": "2.5 Alt / Üst",
-          "named_values": {
-            "under25": 2.18,
-            "over25": 1.39
-          },
-          "detail_market_candidates": [
-            {
-              "market": "KG Var / Yok",
-              "values": {
-                "bttsYes_guess": 2.18,
-                "bttsNo_guess": 1.39
-              }
-            },
-            {
-              "market": "İlk Yarı KG Var / Yok",
-              "values": {
-                "firstHalfBttsYes_guess": 2.18,
-                "firstHalfBttsNo_guess": 1.39
-              }
-            },
-            {
-              "market": "İkinci Yarı KG Var / Yok",
-              "values": {
-                "secondHalfBttsYes_guess": 2.18,
-                "secondHalfBttsNo_guess": 1.39
-              }
-            },
-            {
-              "market": "0.5 Alt / Üst",
-              "values": {
-                "under05_guess": 2.18,
-                "over05_guess": 1.39
-              }
-            },
-            {
-              "market": "1.5 Alt / Üst",
-              "values": {
-                "under15_guess": 2.18,
-                "over15_guess": 1.39
-              }
-            },
-            {
-              "market": "2.5 Alt / Üst",
-              "values": {
-                "under25_guess": 2.18,
-                "over25_guess": 1.39
-              }
-            },
-            {
-              "market": "3.5 Alt / Üst",
-              "values": {
-                "under35_guess": 2.18,
-                "over35_guess": 1.39
-              }
-            },
-            {
-              "market": "4.5 Alt / Üst",
-              "values": {
-                "under45_guess": 2.18,
-                "over45_guess": 1.39
-              }
-            },
-            {
-              "market": "İlk Yarı 0.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder05_guess": 2.18,
-                "firstHalfOver05_guess": 1.39
-              }
-            },
-            {
-              "market": "İlk Yarı 1.5 Alt / Üst",
-              "values": {
-                "firstHalfUnder15_guess": 2.18,
-                "firstHalfOver15_guess": 1.39
-              }
-            },
-            {
-              "market": "İkinci Yarı 0.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder05_guess": 2.18,
-                "secondHalfOver05_guess": 1.39
-              }
-            },
-            {
-              "market": "İkinci Yarı 1.5 Alt / Üst",
-              "values": {
-                "secondHalfUnder15_guess": 2.18,
-                "secondHalfOver15_guess": 1.39
-              }
-            },
-            {
-              "market": "Ev Sahibi 1.5 Alt / Üst",
-              "values": {
-                "homeUnder15_guess": 2.18,
-                "homeOver15_guess": 1.39
-              }
-            },
-            {
-              "market": "Deplasman 1.5 Alt / Üst",
-              "values": {
-                "awayUnder15_guess": 2.18,
-                "awayOver15_guess": 1.39
-              }
-            }
-          ]
-        },
-        {
-          "market_code": "16446",
-          "values": [
-            1.71,
-            1.13,
-            1.14
-          ],
-          "guess": "KG Var / Yok tahmini",
-          "named_values": {
-            "bttsYes_guess": 1.71,
-            "bttsNo_guess": 1.13
-          },
-          "detail_market_candidates": [
-            {
-              "market": "Maç Sonucu 1/X/2",
-              "values": {
-                "ms1": 1.71,
-                "msx": 1.13,
-                "ms2": 1.14
-              }
-            },
-            {
-              "market": "İlk Yarı 1/X/2",
-              "values": {
-                "firstHalf1_guess": 1.71,
-                "firstHalfX_guess": 1.13,
-                "firstHalf2_guess": 1.14
-              }
-            },
-            {
-              "market": "İkinci Yarı 1/X/2",
-              "values": {
-                "secondHalf1_guess": 1.71,
-                "secondHalfX_guess": 1.13,
-                "secondHalf2_guess": 1.14
-              }
-            },
-            {
-              "market": "Handikap 1/X/2",
-              "values": {
-                "handicap1_guess": 1.71,
-                "handicapX_guess": 1.13,
-                "handicap2_guess": 1.14
-              }
-            }
-          ]
-        }
-      ],
-      "odds_source": "Robot ham veri havuzu",
-      "value_label": "Yüksek Değer",
-      "band_attention_level": "Düşük",
-      "band_attention_notes": [
-        "Bant kontrol verisi yok."
-      ],
-      "robot_comment": "Market: MS X | Oran: 3.54 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
-      "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
-      "data_gap_risk": "Düşük",
-      "status": "live",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "learning_adjustment": {
-        "market": "MS X",
-        "league": "ABD MLS",
-        "delta": 0,
-        "weight": 1,
-        "applied": false,
-        "notes": [
-          "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-        ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
-      },
-      "metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 3,
-        "awayConcededLast10": 3,
-        "bttsPercent": 40,
-        "over25Percent": 61,
-        "over35Percent": 43,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 46,
-        "leagueGoalAverage": 2.85,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 3,
-        "awayConcededLast10Count": 3
-      },
-      "signals": [
-        "Market: MS X",
-        "Oran: 3.54",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "2.5 Üst yüzdesi %60 üzeri: +10",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme",
-        "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
-      ]
-    },
     {
       "match_name": "Minnesota Utd VS Atlanta Utd",
       "league": "ABD MLS",
@@ -22610,9 +22845,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -23273,9 +23535,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -25292,9 +25581,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -25955,9 +26271,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -26477,9 +26820,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -26999,9 +27369,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -27521,9 +27918,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -28044,9 +28468,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -28566,9 +29017,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -29088,9 +29566,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 6,
@@ -29753,9 +30258,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -30277,9 +30809,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 8,
+          "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 6,
@@ -33808,9 +34367,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 2,
+          "pending": 2,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -34330,9 +34916,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -35492,9 +36105,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -37495,9 +38135,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -38658,9 +39325,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -39182,9 +39876,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -40344,9 +41065,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -40790,9 +41538,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 2,
+          "pending": 2,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 6,
@@ -41882,9 +42657,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -42404,9 +43206,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -43067,9 +43896,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -43732,9 +44588,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -44256,9 +45139,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -45562,9 +46472,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -46085,9 +47022,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -46607,9 +47571,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -46684,11 +47675,11 @@
       "confidence_score": "50%",
       "analysis_score": 50,
       "risk_level": "Yüksek",
-      "estimated_odds": "4.54",
+      "estimated_odds": "4.70",
       "available_odds": {
-        "ms1": "1.51",
-        "msx": "3.36",
-        "ms2": "4.54",
+        "ms1": "1.49",
+        "msx": "3.42",
+        "ms2": "4.70",
         "over25": "1.69",
         "under25": "1.71",
         "over35": "-",
@@ -46701,9 +47692,9 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.51,
-        "msx": 3.36,
-        "ms2": 4.54,
+        "ms1": 1.49,
+        "msx": 3.42,
+        "ms2": 4.7,
         "under25": 1.71,
         "over25": 1.69,
         "bttsYes_guess": 1.05,
@@ -46714,36 +47705,36 @@
           "market_code": "13922",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.51,
-            "msx": 3.36,
-            "ms2": 4.54
+            "ms1": 1.49,
+            "msx": 3.42,
+            "ms2": 4.7
           }
         },
         {
           "market_code": "13922",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.51,
-            "firstHalfX_guess": 3.36,
-            "firstHalf2_guess": 4.54
+            "firstHalf1_guess": 1.49,
+            "firstHalfX_guess": 3.42,
+            "firstHalf2_guess": 4.7
           }
         },
         {
           "market_code": "13922",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.51,
-            "secondHalfX_guess": 3.36,
-            "secondHalf2_guess": 4.54
+            "secondHalf1_guess": 1.49,
+            "secondHalfX_guess": 3.42,
+            "secondHalf2_guess": 4.7
           }
         },
         {
           "market_code": "13922",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.51,
-            "handicapX_guess": 3.36,
-            "handicap2_guess": 4.54
+            "handicap1_guess": 1.49,
+            "handicapX_guess": 3.42,
+            "handicap2_guess": 4.7
           }
         },
         {
@@ -46864,7 +47855,7 @@
           "values": {
             "ms1": 1.05,
             "msx": 1.14,
-            "ms2": 1.89
+            "ms2": 1.93
           }
         },
         {
@@ -46873,7 +47864,7 @@
           "values": {
             "firstHalf1_guess": 1.05,
             "firstHalfX_guess": 1.14,
-            "firstHalf2_guess": 1.89
+            "firstHalf2_guess": 1.93
           }
         },
         {
@@ -46882,7 +47873,7 @@
           "values": {
             "secondHalf1_guess": 1.05,
             "secondHalfX_guess": 1.14,
-            "secondHalf2_guess": 1.89
+            "secondHalf2_guess": 1.93
           }
         },
         {
@@ -46891,7 +47882,7 @@
           "values": {
             "handicap1_guess": 1.05,
             "handicapX_guess": 1.14,
-            "handicap2_guess": 1.89
+            "handicap2_guess": 1.93
           }
         }
       ],
@@ -46899,47 +47890,47 @@
         {
           "market_code": "13922",
           "values": [
-            1.51,
-            3.36,
-            4.54
+            1.49,
+            3.42,
+            4.7
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.51,
-            "msx": 3.36,
-            "ms2": 4.54
+            "ms1": 1.49,
+            "msx": 3.42,
+            "ms2": 4.7
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.51,
-                "msx": 3.36,
-                "ms2": 4.54
+                "ms1": 1.49,
+                "msx": 3.42,
+                "ms2": 4.7
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.51,
-                "firstHalfX_guess": 3.36,
-                "firstHalf2_guess": 4.54
+                "firstHalf1_guess": 1.49,
+                "firstHalfX_guess": 3.42,
+                "firstHalf2_guess": 4.7
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.51,
-                "secondHalfX_guess": 3.36,
-                "secondHalf2_guess": 4.54
+                "secondHalf1_guess": 1.49,
+                "secondHalfX_guess": 3.42,
+                "secondHalf2_guess": 4.7
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.51,
-                "handicapX_guess": 3.36,
-                "handicap2_guess": 4.54
+                "handicap1_guess": 1.49,
+                "handicapX_guess": 3.42,
+                "handicap2_guess": 4.7
               }
             }
           ]
@@ -47061,7 +48052,7 @@
           "values": [
             1.05,
             1.14,
-            1.89
+            1.93
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
@@ -47074,7 +48065,7 @@
               "values": {
                 "ms1": 1.05,
                 "msx": 1.14,
-                "ms2": 1.89
+                "ms2": 1.93
               }
             },
             {
@@ -47082,7 +48073,7 @@
               "values": {
                 "firstHalf1_guess": 1.05,
                 "firstHalfX_guess": 1.14,
-                "firstHalf2_guess": 1.89
+                "firstHalf2_guess": 1.93
               }
             },
             {
@@ -47090,7 +48081,7 @@
               "values": {
                 "secondHalf1_guess": 1.05,
                 "secondHalfX_guess": 1.14,
-                "secondHalf2_guess": 1.89
+                "secondHalf2_guess": 1.93
               }
             },
             {
@@ -47098,7 +48089,7 @@
               "values": {
                 "handicap1_guess": 1.05,
                 "handicapX_guess": 1.14,
-                "handicap2_guess": 1.89
+                "handicap2_guess": 1.93
               }
             }
           ]
@@ -47110,7 +48101,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 4.54 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS 2 | Oran: 4.70 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Düşük",
@@ -47129,9 +48120,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -47184,7 +48202,7 @@
       },
       "signals": [
         "Market: MS 2",
-        "Oran: 4.54",
+        "Oran: 4.70",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -48150,9 +49168,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -48672,9 +49717,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 6,
+          "pending": 6,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -49194,9 +50266,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -49715,9 +50814,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -50878,9 +52004,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -51400,9 +52553,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -51846,9 +53026,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -53934,9 +55141,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -54598,9 +55832,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -55762,9 +57023,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -56993,9 +58281,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -57517,9 +58832,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -58039,9 +59381,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -58561,9 +59930,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -59082,9 +60478,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -59604,9 +61027,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -60125,9 +61575,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -60646,9 +62123,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -61168,9 +62672,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 5,
@@ -61690,9 +63221,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -61766,16 +63324,16 @@
       "confidence_score": "40%",
       "analysis_score": 40,
       "risk_level": "Yüksek",
-      "estimated_odds": "3.96",
+      "estimated_odds": "4.09",
       "available_odds": {
-        "ms1": "1.59",
-        "msx": "3.04",
-        "ms2": "3.96",
+        "ms1": "1.57",
+        "msx": "3.06",
+        "ms2": "4.09",
         "over25": "1.86",
         "under25": "1.48",
         "over35": "-",
         "under35": "-",
-        "bttsYes": "1.06",
+        "bttsYes": "1.05",
         "bttsNo": "1.14",
         "firstHalfBttsYes": "-",
         "firstHalfBttsNo": "-",
@@ -61783,12 +63341,12 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 1.59,
-        "msx": 3.04,
-        "ms2": 3.96,
+        "ms1": 1.57,
+        "msx": 3.06,
+        "ms2": 4.09,
         "under25": 1.48,
         "over25": 1.86,
-        "bttsYes_guess": 1.06,
+        "bttsYes_guess": 1.05,
         "bttsNo_guess": 1.14
       },
       "detail_market_candidates": [
@@ -61796,36 +63354,36 @@
           "market_code": "17847",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.59,
-            "msx": 3.04,
-            "ms2": 3.96
+            "ms1": 1.57,
+            "msx": 3.06,
+            "ms2": 4.09
           }
         },
         {
           "market_code": "17847",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.59,
-            "firstHalfX_guess": 3.04,
-            "firstHalf2_guess": 3.96
+            "firstHalf1_guess": 1.57,
+            "firstHalfX_guess": 3.06,
+            "firstHalf2_guess": 4.09
           }
         },
         {
           "market_code": "17847",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.59,
-            "secondHalfX_guess": 3.04,
-            "secondHalf2_guess": 3.96
+            "secondHalf1_guess": 1.57,
+            "secondHalfX_guess": 3.06,
+            "secondHalf2_guess": 4.09
           }
         },
         {
           "market_code": "17847",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.59,
-            "handicapX_guess": 3.04,
-            "handicap2_guess": 3.96
+            "handicap1_guess": 1.57,
+            "handicapX_guess": 3.06,
+            "handicap2_guess": 4.09
           }
         },
         {
@@ -61944,36 +63502,36 @@
           "market_code": "17848",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 1.06,
+            "ms1": 1.05,
             "msx": 1.14,
-            "ms2": 1.66
+            "ms2": 1.7
           }
         },
         {
           "market_code": "17848",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 1.06,
+            "firstHalf1_guess": 1.05,
             "firstHalfX_guess": 1.14,
-            "firstHalf2_guess": 1.66
+            "firstHalf2_guess": 1.7
           }
         },
         {
           "market_code": "17848",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 1.06,
+            "secondHalf1_guess": 1.05,
             "secondHalfX_guess": 1.14,
-            "secondHalf2_guess": 1.66
+            "secondHalf2_guess": 1.7
           }
         },
         {
           "market_code": "17848",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 1.06,
+            "handicap1_guess": 1.05,
             "handicapX_guess": 1.14,
-            "handicap2_guess": 1.66
+            "handicap2_guess": 1.7
           }
         }
       ],
@@ -61981,47 +63539,47 @@
         {
           "market_code": "17847",
           "values": [
-            1.59,
-            3.04,
-            3.96
+            1.57,
+            3.06,
+            4.09
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 1.59,
-            "msx": 3.04,
-            "ms2": 3.96
+            "ms1": 1.57,
+            "msx": 3.06,
+            "ms2": 4.09
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.59,
-                "msx": 3.04,
-                "ms2": 3.96
+                "ms1": 1.57,
+                "msx": 3.06,
+                "ms2": 4.09
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.59,
-                "firstHalfX_guess": 3.04,
-                "firstHalf2_guess": 3.96
+                "firstHalf1_guess": 1.57,
+                "firstHalfX_guess": 3.06,
+                "firstHalf2_guess": 4.09
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.59,
-                "secondHalfX_guess": 3.04,
-                "secondHalf2_guess": 3.96
+                "secondHalf1_guess": 1.57,
+                "secondHalfX_guess": 3.06,
+                "secondHalf2_guess": 4.09
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.59,
-                "handicapX_guess": 3.04,
-                "handicap2_guess": 3.96
+                "handicap1_guess": 1.57,
+                "handicapX_guess": 3.06,
+                "handicap2_guess": 4.09
               }
             }
           ]
@@ -62141,46 +63699,46 @@
         {
           "market_code": "17848",
           "values": [
-            1.06,
+            1.05,
             1.14,
-            1.66
+            1.7
           ],
           "guess": "KG Var / Yok tahmini",
           "named_values": {
-            "bttsYes_guess": 1.06,
+            "bttsYes_guess": 1.05,
             "bttsNo_guess": 1.14
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 1.06,
+                "ms1": 1.05,
                 "msx": 1.14,
-                "ms2": 1.66
+                "ms2": 1.7
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 1.06,
+                "firstHalf1_guess": 1.05,
                 "firstHalfX_guess": 1.14,
-                "firstHalf2_guess": 1.66
+                "firstHalf2_guess": 1.7
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 1.06,
+                "secondHalf1_guess": 1.05,
                 "secondHalfX_guess": 1.14,
-                "secondHalf2_guess": 1.66
+                "secondHalf2_guess": 1.7
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 1.06,
+                "handicap1_guess": 1.05,
                 "handicapX_guess": 1.14,
-                "handicap2_guess": 1.66
+                "handicap2_guess": 1.7
               }
             }
           ]
@@ -62192,7 +63750,7 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 3.96 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
+      "robot_comment": "Market: MS 2 | Oran: 4.09 | Veri tipi: standard | Değer etiketi: Yüksek Değer",
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Düşük",
@@ -62211,9 +63769,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 9,
+          "pending": 9,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 4,
+          "pending": 4,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -62266,7 +63851,7 @@
       },
       "signals": [
         "Market: MS 2",
-        "Oran: 3.96",
+        "Oran: 4.09",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -63299,9 +64884,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 3,
+          "pending": 3,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -63820,9 +65432,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -64767,9 +66406,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 31,
+          "pending": 31,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 11,
+          "pending": 11,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -65429,9 +67095,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 17,
+          "pending": 17,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 5,
+          "pending": 5,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -66451,9 +68144,36 @@
         "notes": [
           "Öğrenme: yeterli geçmiş sonuç oluşmadığı için ağırlık nötr."
         ],
-        "market_bucket": null,
-        "league_bucket": null,
-        "league_market_bucket": null
+        "market_bucket": {
+          "total": 22,
+          "pending": 22,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 1,
+          "pending": 1,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
       },
       "metrics": {
         "homeScoredLast10": 4,
@@ -66530,9 +68250,9 @@
       "risk_level": "Yüksek",
       "estimated_odds": "-",
       "available_odds": {
-        "ms1": "7.03",
-        "msx": "4.30",
-        "ms2": "1.20",
+        "ms1": "7.23",
+        "msx": "4.41",
+        "ms2": "1.18",
         "over25": "1.40",
         "under25": "2.02",
         "over35": "-",
@@ -66545,9 +68265,9 @@
         "secondHalfBttsNo": "-"
       },
       "raw_market_guess_odds": {
-        "ms1": 7.03,
-        "msx": 4.3,
-        "ms2": 1.2,
+        "ms1": 7.23,
+        "msx": 4.41,
+        "ms2": 1.18,
         "under25": 2.02,
         "over25": 1.4
       },
@@ -66556,36 +68276,36 @@
           "market_code": "01825",
           "market": "Maç Sonucu 1/X/2",
           "values": {
-            "ms1": 7.03,
-            "msx": 4.3,
-            "ms2": 1.2
+            "ms1": 7.23,
+            "msx": 4.41,
+            "ms2": 1.18
           }
         },
         {
           "market_code": "01825",
           "market": "İlk Yarı 1/X/2",
           "values": {
-            "firstHalf1_guess": 7.03,
-            "firstHalfX_guess": 4.3,
-            "firstHalf2_guess": 1.2
+            "firstHalf1_guess": 7.23,
+            "firstHalfX_guess": 4.41,
+            "firstHalf2_guess": 1.18
           }
         },
         {
           "market_code": "01825",
           "market": "İkinci Yarı 1/X/2",
           "values": {
-            "secondHalf1_guess": 7.03,
-            "secondHalfX_guess": 4.3,
-            "secondHalf2_guess": 1.2
+            "secondHalf1_guess": 7.23,
+            "secondHalfX_guess": 4.41,
+            "secondHalf2_guess": 1.18
           }
         },
         {
           "market_code": "01825",
           "market": "Handikap 1/X/2",
           "values": {
-            "handicap1_guess": 7.03,
-            "handicapX_guess": 4.3,
-            "handicap2_guess": 1.2
+            "handicap1_guess": 7.23,
+            "handicapX_guess": 4.41,
+            "handicap2_guess": 1.18
           }
         },
         {
@@ -66705,47 +68425,47 @@
         {
           "market_code": "01825",
           "values": [
-            7.03,
-            4.3,
-            1.2
+            7.23,
+            4.41,
+            1.18
           ],
           "guess": "Maç Sonucu 1/X/2",
           "named_values": {
-            "ms1": 7.03,
-            "msx": 4.3,
-            "ms2": 1.2
+            "ms1": 7.23,
+            "msx": 4.41,
+            "ms2": 1.18
           },
           "detail_market_candidates": [
             {
               "market": "Maç Sonucu 1/X/2",
               "values": {
-                "ms1": 7.03,
-                "msx": 4.3,
-                "ms2": 1.2
+                "ms1": 7.23,
+                "msx": 4.41,
+                "ms2": 1.18
               }
             },
             {
               "market": "İlk Yarı 1/X/2",
               "values": {
-                "firstHalf1_guess": 7.03,
-                "firstHalfX_guess": 4.3,
-                "firstHalf2_guess": 1.2
+                "firstHalf1_guess": 7.23,
+                "firstHalfX_guess": 4.41,
+                "firstHalf2_guess": 1.18
               }
             },
             {
               "market": "İkinci Yarı 1/X/2",
               "values": {
-                "secondHalf1_guess": 7.03,
-                "secondHalfX_guess": 4.3,
-                "secondHalf2_guess": 1.2
+                "secondHalf1_guess": 7.23,
+                "secondHalfX_guess": 4.41,
+                "secondHalf2_guess": 1.18
               }
             },
             {
               "market": "Handikap 1/X/2",
               "values": {
-                "handicap1_guess": 7.03,
-                "handicapX_guess": 4.3,
-                "handicap2_guess": 1.2
+                "handicap1_guess": 7.23,
+                "handicapX_guess": 4.41,
+                "handicap2_guess": 1.18
               }
             }
           ]
