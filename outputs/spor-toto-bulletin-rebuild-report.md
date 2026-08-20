@@ -1,13 +1,13 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-20T07:16:05.004Z
-- Ham fixture sayisi: 7674
-- Bugun/yarin kaynak mac: 123
+- Guncelleme: 2026-08-20T09:17:13.469Z
+- Ham fixture sayisi: 7675
+- Bugun/yarin kaynak mac: 124
 - Aktif bulten maci: 82
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 41
+- Bultenden dusurulen mac: 42
 
-- 1. 2026-08-20 12:00 | Ukrayna Kupa 1.Tur | Dinaz Vyshhoro - Yarud Mariupol | scheduled
+- 1. 2026-08-20 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Phnom Penh Cro - Kaya (K) | scheduled
 - 2. 2026-08-20 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Jkt Tanzania | scheduled
 - 3. 2026-08-20 16:30 | Mısır 2. Lig | El Daklyeh - Delta United | scheduled
 - 4. 2026-08-20 16:30 | Mısır 2. Lig | El Harby - Nasr | scheduled
