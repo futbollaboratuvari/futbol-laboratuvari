@@ -1,19 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T10:24:38.961898+00:00
+Tarih: 2026-08-20T10:55:50.397113+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 82
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 83
+- Kac mac kaydedildi: 1
 - Kac mac zaten vardi: 82
-- Ham veri havuzu toplam mac sayisi: 7716
+- Ham veri havuzu toplam mac sayisi: 7717
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B
 - Belarus Premier Lig
 - Brezilya Serie B
 - CONCACAF Orta Amerika Kupası Grup C
@@ -94,8 +95,8 @@ Tarih: 2026-08-20T10:24:38.961898+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 24
-- Acilan detay: 24
+- Denenen Tumu alani: 25
+- Acilan detay: 25
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
