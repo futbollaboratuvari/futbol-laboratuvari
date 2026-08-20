@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-20T07:25:09.624Z
+- Güncelleme: 2026-08-20T07:58:43.978Z
 - Ham maç sayısı: 82
 - Yarın bülteni maç sayısı: 11
 - Detay blok sayısı: 237
@@ -28,7 +28,7 @@
 | Young Africans - Coastal Union | Tanzanya Kuu Bara Ligi | 18:30 | Veri bekleniyor | - | - | 5 |
 | Dinamo Minsk - Torpedo Zhodino | Belarus Premier Lig | 18:45 | Veri bekleniyor | - | 1.57 | 7 |
 | Mjallby - Salzburg | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 3.72 | 8 |
-| Jagiellonia - Fc Iberia | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.2 | 6 |
+| Jagiellonia - Fc Iberia | UEFA Avrupa Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.21 | 6 |
 | Lincoln Red Im - Larne Fc | UEFA Konferans Ligi Play Off | 19:00 | Veri bekleniyor | - | 1.79 | 8 |
 | Inter Turku - Kopenhag | UEFA Konferans Ligi Play Off | 19:00 | Veri bekleniyor | - | 5.43 | 7 |
 | Benfica U23 - Rio Ave U23 | Portekiz U23 Ulusal Şampiyona | 19:00 | Veri bekleniyor | - | 1.67 | 8 |
@@ -75,11 +75,11 @@
 | Rouen - Quevilly-Rouen | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.57 | 8 |
 | Benfica - Aarhus | UEFA Avrupa Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.05 | 5 |
 | Dinamo Tirana - Pafos Fc | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 3.53 | 8 |
-| Shamrock Rover - Kuopion | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.95 | 8 |
+| Shamrock Rover - Kuopion | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.01 | 8 |
 | Braga - Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.23 | 7 |
 | Hajduk Split - Rakow Czestocho | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.82 | 8 |
 | Getafe - Partizan Belgra | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.2 | 7 |
-| Vallecano - Alaves | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 2.04 | 8 |
+| Vallecano - Alaves | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 2.05 | 8 |
 | Sheffield Wed - Bradford | İngiltere 1.Lig | 22:00 | Veri bekleniyor | - | 2.15 | 8 |
 | Tacuary - Libertad | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 7.23 | 5 |
 | Juventud Itali - Delfin | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 3.56 | 8 |
