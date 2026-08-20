@@ -1,77 +1,103 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-20T16:15:01.235Z
-- Ham maç sayısı: 79
-- Yarın bülteni maç sayısı: 11
-- Detay blok sayısı: 231
-- Aktif bülten maçı: 63
-- Bültenden düşürülen maç: 16
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-08-20T16:21:04.052Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Al Rayyan - Lusail City | Katar Yıldızlar Ligi | 19:30 | Veri bekleniyor | - | 1.12 | 6 |
-| Beşiktaş - Kauno Zalgiris | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | - | 5 |
-| Egnatia - Lillestrom | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 2.91 | 8 |
-| Trabzonspor - Ferencvaros | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.51 | 8 |
-| Universitatea - Ararat-Armenia | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.23 | 7 |
-| Lech Poznan - Thun | UEFA Avrupa Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.26 | 7 |
-| Nordsjaelland - St Gallen | UEFA Konferans Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.35 | 7 |
-| Tromso - Brighton | UEFA Konferans Ligi Play Off | 20:00 | Veri bekleniyor | - | 5.28 | 7 |
-| Midtjylland - Rijeka | UEFA Konferans Ligi Play Off | 20:00 | Veri bekleniyor | - | 1.3 | 7 |
-| Vendsyssel - Hillerod | Danimarka 1.Lig | 20:00 | Veri bekleniyor | - | 1.94 | 8 |
-| Humaita - 2 De Mayo | Paraguay Kupa 3.Tur | 20:00 | Veri bekleniyor | - | 17.5 | 2 |
-| Kí Klaksvík - Riga Fc | UEFA Konferans Ligi Play Off | 20:30 | Veri bekleniyor | - | 3.01 | 8 |
-| Paok - Brann | UEFA Konferans Ligi Play Off | 20:45 | Veri bekleniyor | - | 1.4 | 7 |
-| Baltika Kalini - Makhachkala | Rusya Kupa Premier Lig Yolu Grup C | 20:45 | Veri bekleniyor | - | 1.86 | 8 |
-| Kizilyildiz - Viktoria Plzen | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.62 | 8 |
-| St. Truidense - Omonia | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.78 | 8 |
-| Ofi - Cska Sofia | UEFA Avrupa Ligi Play Off | 21:00 | Veri bekleniyor | - | 2.78 | 8 |
-| Vikingur Reykj - Borac Banja Luk | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.42 | 7 |
-| Gornik Zabrze - Monaco | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 3.79 | 8 |
-| Twente - Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.37 | 7 |
-| Fc Drita - Inter Escaldes | UEFA Konferans Ligi Play Off | 21:00 | Veri bekleniyor | - | 1.6 | 8 |
-| Al Feiha - Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 9.71 | 6 |
-| Al Minaa Basra - Zakho | Irak Premier Lig | 21:00 | Veri bekleniyor | - | 3.95 | 8 |
-| Azam Fc - Tabora United | Tanzanya Kuu Bara Ligi | 21:00 | Veri bekleniyor | - | 1.37 | 7 |
-| Al Golan - Al Karkh | Irak Premier Lig | 21:00 | Veri bekleniyor | - | 2.56 | 8 |
-| Sion - Ajax | UEFA Konferans Ligi Play Off | 21:15 | Veri bekleniyor | - | 3.75 | 8 |
-| Panathinaikos - Hradec Kralove | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.32 | 7 |
-| Gent - Hibernian | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.44 | 7 |
-| Motherwell - Freiburg | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 4.95 | 7 |
-| Lugano - Maccabi Tel Avi | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | 1.77 | 8 |
-| Atalanta - Hapoel Tel Aviv | UEFA Konferans Ligi Play Off | 21:30 | Veri bekleniyor | - | - | 5 |
-| Glasgow Ranger - Jablonec | UEFA Konferans Ligi Play Off | 21:45 | Veri bekleniyor | - | 1.23 | 7 |
-| Hearts - Rapid Wien | UEFA Konferans Ligi Play Off | 21:45 | Veri bekleniyor | - | 2.17 | 8 |
-| Bourg-Peronnas - Thionville Lusi | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 2.61 | 8 |
-| Concarneau - Fc Villefranche | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.69 | 8 |
-| Fc Fleury 91 - Orleans | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.85 | 8 |
-| Le Puy - Amiens | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.94 | 8 |
-| Bastia - Versailles | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.88 | 8 |
-| La Roche-Sur-Y - Cannes | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.65 | 8 |
-| Caen - Aubagne Air Bel | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.68 | 8 |
-| Paris 13 Atlet - Valenciennes | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 2.71 | 8 |
-| Rouen - Quevilly-Rouen | Fransa Ligue 3 | 21:45 | Veri bekleniyor | - | 1.57 | 8 |
-| Benfica - Aarhus | UEFA Avrupa Ligi Play Off | 22:00 | Veri bekleniyor | - | - | 5 |
-| Dinamo Tirana - Pafos Fc | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 3.53 | 8 |
-| Shamrock Rover - Kuopion | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 2.06 | 8 |
-| Braga - Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.28 | 7 |
-| Hajduk Split - Rakow Czestocho | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.82 | 8 |
-| Getafe - Partizan Belgra | UEFA Konferans Ligi Play Off | 22:00 | Veri bekleniyor | - | 1.22 | 7 |
-| Vallecano - Alaves | İspanya LaLiga | 22:00 | Veri bekleniyor | - | 2.07 | 8 |
-| Sheffield Wed - Bradford | İngiltere 1.Lig | 22:00 | Veri bekleniyor | - | 2.46 | 8 |
-| Tacuary - Libertad | Paraguay Kupa 3.Tur | 22:30 | Veri bekleniyor | - | 7.34 | 5 |
-| Juventud Itali - Delfin | Ekvador Kupa Son 16 Turu | 23:00 | Veri bekleniyor | - | 5.01 | 7 |
-| Ldu Quito (1) - (1) Mirassol | Copa Libertadores Son 16 Turu | 01:00 | Veri bekleniyor | - | 1.41 | 7 |
-| Olimpia Asunci (0) - (0) Vasco Da Gama | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 2.32 | 8 |
-| Depor Macara (1) - (2) Santos | Copa Sudamericana Son 16 Turu | 01:00 | Veri bekleniyor | - | 2.09 | 8 |
-| Athletic Club - Regatas | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 2.13 | 8 |
-| Venados Fc - Dorados | Meksika Ascenso MX Apertura | 02:00 | Veri bekleniyor | - | 1.42 | 7 |
-| Novorizontino - America Mineiro | Brezilya Serie B | 02:30 | Veri bekleniyor | - | 1.37 | 7 |
-| Corinthians (0) - (0) Rosario Central | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 1.99 | 8 |
-| Botafogo (1) - (6) Cienciano | Copa Sudamericana Son 16 Turu | 03:30 | Veri bekleniyor | - | - | 5 |
-| Monarcas - Correcaminos Ua | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 1.44 | 7 |
-| Tepatitlan De - Tlaxcala | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 2.37 | 8 |
-| Alianza Fc - Depor. Olimpia | CONCACAF Orta Amerika Kupası Grup C | 04:00 | Veri bekleniyor | - | 3.97 | 8 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Al Wakrah VS Qatar Sc | Katar Yıldızlar Ligi | 17:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Kairat Almaty VS Anderlecht | UEFA Avrupa Ligi Play Off | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Kapa VS Jippo Joensuu | Finlandiya Ykkösliiga | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Neftekhimik VS Pfc Sochi | Rusya FNL | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Arsenal Tula VS Rotor Volgograd | Rusya FNL | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Gaz Al-Shamal VS Al Kahraba | Irak Premier Lig | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Young Africans VS Coastal Union | Tanzanya Kuu Bara Ligi | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Naft Maysan VS Naft | Irak Premier Lig | 18:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Dinamo Minsk VS Torpedo Zhodino | Belarus Premier Lig | 18:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Mjallby VS Salzburg | UEFA Avrupa Ligi Play Off | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Jagiellonia VS Fc Iberia | UEFA Avrupa Ligi Play Off | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Lincoln Red Im VS Larne Fc | UEFA Konferans Ligi Play Off | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Inter Turku VS Kopenhag | UEFA Konferans Ligi Play Off | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Benfica U23 VS Rio Ave U23 | Portekiz U23 Ulusal Şampiyona | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Neftekhimik VS Pfc Sochi | Rusya FNL | 19:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Al Rayyan VS Lusail City | Katar Yıldızlar Ligi | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Beşiktaş VS Kauno Zalgiris | UEFA Avrupa Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Egnatia VS Lillestrom | UEFA Avrupa Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Trabzonspor VS Ferencvaros | UEFA Avrupa Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Universitatea VS Ararat-Armenia | UEFA Avrupa Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Lech Poznan VS Thun | UEFA Avrupa Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Nordsjaelland VS St Gallen | UEFA Konferans Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Tromso VS Brighton | UEFA Konferans Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Midtjylland VS Rijeka | UEFA Konferans Ligi Play Off | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Vendsyssel VS Hillerod | Danimarka 1.Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Humaita VS 2 De Mayo | Paraguay Kupa 3.Tur | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Kí Klaksvík VS Riga Fc | UEFA Konferans Ligi Play Off | 20:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Paok VS Brann | UEFA Konferans Ligi Play Off | 20:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Baltika Kalini VS Makhachkala | Rusya Kupa Premier Lig Yolu Grup C | 20:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Kizilyildiz VS Viktoria Plzen | UEFA Avrupa Ligi Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| St. Truidense VS Omonia | UEFA Avrupa Ligi Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Ofi VS Cska Sofia | UEFA Avrupa Ligi Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Vikingur Reykj VS Borac Banja Luk | UEFA Konferans Ligi Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Gornik Zabrze VS Monaco | UEFA Konferans Ligi Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Twente VS Qarabagh | UEFA Konferans Ligi Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Fc Drita VS Inter Escaldes | UEFA Konferans Ligi Play Off | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Al Feiha VS Al Hilal (Riyad | Suudi Arabistan Pro Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Al Minaa Basra VS Zakho | Irak Premier Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Azam Fc VS Tabora United | Tanzanya Kuu Bara Ligi | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Al Golan VS Al Karkh | Irak Premier Lig | 21:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Sion VS Ajax | UEFA Konferans Ligi Play Off | 21:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Panathinaikos VS Hradec Kralove | UEFA Konferans Ligi Play Off | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Gent VS Hibernian | UEFA Konferans Ligi Play Off | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Motherwell VS Freiburg | UEFA Konferans Ligi Play Off | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Lugano VS Maccabi Tel Avi | UEFA Konferans Ligi Play Off | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Atalanta VS Hapoel Tel Aviv | UEFA Konferans Ligi Play Off | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Glasgow Ranger VS Jablonec | UEFA Konferans Ligi Play Off | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Hearts VS Rapid Wien | UEFA Konferans Ligi Play Off | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Bourg-Peronnas VS Thionville Lusi | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Concarneau VS Fc Villefranche | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Fc Fleury 91 VS Orleans | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Le Puy VS Amiens | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Bastia VS Versailles | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| La Roche-Sur-Y VS Cannes | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Caen VS Aubagne Air Bel | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Paris 13 Atlet VS Valenciennes | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Rouen VS Quevilly-Rouen | Fransa Ligue 3 | 21:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Benfica VS Aarhus | UEFA Avrupa Ligi Play Off | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Dinamo Tirana VS Pafos Fc | UEFA Konferans Ligi Play Off | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Shamrock Rover VS Kuopion | UEFA Konferans Ligi Play Off | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Braga VS Austria Vienna | UEFA Konferans Ligi Play Off | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Hajduk Split VS Rakow Czestocho | UEFA Konferans Ligi Play Off | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Getafe VS Partizan Belgra | UEFA Konferans Ligi Play Off | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Vallecano VS Alaves | İspanya LaLiga | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Sheffield Wed VS Bradford | İngiltere 1.Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Tacuary VS Libertad | Paraguay Kupa 3.Tur | 22:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Juventud Itali VS Delfin | Ekvador Kupa Son 16 Turu | 23:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Ldu Quito (1) VS (1) Mirassol | Copa Libertadores Son 16 Turu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Olimpia Asunci (0) VS (0) Vasco Da Gama | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Depor Macara (1) VS (2) Santos | Copa Sudamericana Son 16 Turu | 01:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Athletic Club VS Regatas | Brezilya Serie B | 01:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Venados Fc VS Dorados | Meksika Ascenso MX Apertura | 02:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Novorizontino VS America Mineiro | Brezilya Serie B | 02:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Corinthians (0) VS (0) Rosario Central | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Botafogo (1) VS (6) Cienciano | Copa Sudamericana Son 16 Turu | 03:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Monarcas VS Correcaminos Ua | Meksika Ascenso MX Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Tepatitlan De VS Tlaxcala | Meksika Ascenso MX Apertura | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+| Alianza Fc VS Depor. Olimpia | CONCACAF Orta Amerika Kupası Grup C | 04:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
