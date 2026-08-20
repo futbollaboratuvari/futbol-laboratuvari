@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:06:47.444Z",
+  "generated_at": "2026-08-20T04:51:56.139Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -13,7 +13,18 @@
       "İkinci Yarı KG Var",
       "KG Var",
       "2.5 Üst",
-      "3.5 Üst"
+      "3.5 Üst",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
     ],
     "scoring_classes": {
       "80-100": "Ana kupon adayı",
@@ -23,625 +34,9 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 84,
+  "match_count": 80,
   "analysis_count": 11,
   "matches": [
-    {
-      "home_team_name": "Seattle",
-      "away_team_name": "Austin",
-      "competition_name": "ABD MLS",
-      "date": "2026-08-20",
-      "time": "04:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "3.78",
-      "confidence_score": "50%",
-      "trust_score": "50/100",
-      "analysis_score": 50,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 51,
-        "over25Percent": 58,
-        "over35Percent": 40,
-        "firstHalfGoalTrend": 37,
-        "secondHalfGoalTrend": 57,
-        "leagueGoalAverage": 2.82,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "signals": [
-        "Market: MS 2",
-        "Oran: 3.78",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme"
-      ]
-    },
-    {
-      "home_team_name": "Salt Lake",
-      "away_team_name": "Dallas",
-      "competition_name": "ABD MLS",
-      "date": "2026-08-20",
-      "time": "04:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "3.42",
-      "confidence_score": "60%",
-      "trust_score": "60/100",
-      "analysis_score": 60,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 49,
-        "over25Percent": 63,
-        "over35Percent": 45,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 55,
-        "leagueGoalAverage": 2.87,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: MS X",
-        "Oran: 3.42",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "2.5 Üst yüzdesi %60 üzeri: +10",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme"
-      ]
-    },
-    {
-      "home_team_name": "Colorado",
-      "away_team_name": "Los Angeles Fc",
-      "competition_name": "ABD MLS",
-      "date": "2026-08-20",
-      "time": "04:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "3.20",
-      "confidence_score": "50%",
-      "trust_score": "50/100",
-      "analysis_score": 50,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 47,
-        "over25Percent": 56,
-        "over35Percent": 38,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 53,
-        "leagueGoalAverage": 2.79,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: MS X",
-        "Oran: 3.20",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme"
-      ]
-    },
-    {
-      "home_team_name": "Phoenix Rising",
-      "away_team_name": "Colorado Spring",
-      "competition_name": "ABD USL",
-      "date": "2026-08-20",
-      "time": "05:00",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "2.97",
-      "confidence_score": "50%",
-      "trust_score": "50/100",
-      "analysis_score": 50,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 4,
-        "awayScoredLast10": 4,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 47,
-        "over25Percent": 52,
-        "over35Percent": 34,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 53,
-        "leagueGoalAverage": 2.75,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 4,
-        "awayScoredLast10Count": 4,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: MS X",
-        "Oran: 2.97",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Sadece izleme"
-      ]
-    },
-    {
-      "home_team_name": "Portland",
-      "away_team_name": "San Diego",
-      "competition_name": "ABD MLS",
-      "date": "2026-08-20",
-      "time": "05:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "3.70",
-      "confidence_score": "70%",
-      "trust_score": "70/100",
-      "analysis_score": 70,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 6,
-        "awayScoredLast10": 6,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 48,
-        "over25Percent": 69,
-        "over35Percent": 51,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 54,
-        "leagueGoalAverage": 2.94,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 6,
-        "awayScoredLast10Count": 6,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: MS X",
-        "Oran: 3.70",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "2.5 Üst yüzdesi %60 üzeri: +10",
-        "3.5 Üst yüzdesi %45 üzeri: +10",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Orta risk kupon adayı"
-      ]
-    },
-    {
-      "home_team_name": "Vancouver",
-      "away_team_name": "Houston",
-      "competition_name": "ABD MLS",
-      "date": "2026-08-20",
-      "time": "05:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "4.95",
-      "confidence_score": "75%",
-      "trust_score": "75/100",
-      "analysis_score": 75,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Düşük",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 5,
-        "awayScoredLast10": 5,
-        "homeConcededLast10": 6,
-        "awayConcededLast10": 6,
-        "bttsPercent": 66,
-        "over25Percent": 57,
-        "over35Percent": 39,
-        "firstHalfGoalTrend": 52,
-        "secondHalfGoalTrend": 72,
-        "leagueGoalAverage": 2.81,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 5,
-        "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": 6,
-        "awayConcededLast10Count": 6
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "signals": [
-        "Market: MS 2",
-        "Oran: 4.95",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "KG Var yüzdesi %65 üzeri: +15",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "İkinci yarı gol eğilimi yüksek: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Orta risk kupon adayı"
-      ]
-    },
-    {
-      "home_team_name": "Los Angeles",
-      "away_team_name": "San Jose",
-      "competition_name": "ABD MLS",
-      "date": "2026-08-20",
-      "time": "05:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "3.51",
-      "confidence_score": "70%",
-      "trust_score": "70/100",
-      "analysis_score": 70,
-      "analysis_class": "Orta risk kupon adayı",
-      "value_label": "Yüksek Değer",
-      "risk_level": "Orta",
-      "data_gap_risk": "Düşük",
-      "analysis_metrics": {
-        "homeScoredLast10": 6,
-        "awayScoredLast10": 6,
-        "homeConcededLast10": 4,
-        "awayConcededLast10": 4,
-        "bttsPercent": 47,
-        "over25Percent": 67,
-        "over35Percent": 49,
-        "firstHalfGoalTrend": 35,
-        "secondHalfGoalTrend": 53,
-        "leagueGoalAverage": 2.92,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: arşiv verisi henüz sınırlı"
-          ]
-        },
-        "homeScoredLast10Count": 6,
-        "awayScoredLast10Count": 6,
-        "homeConcededLast10Count": 4,
-        "awayConcededLast10Count": 4
-      },
-      "tag": "Orta risk kupon adayı",
-      "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: MS X",
-        "Oran: 3.51",
-        "Veri tipi: standard",
-        "Değer etiketi: Yüksek Değer",
-        "İki takım son 10 maçta en az 4 gol attı: +15",
-        "İki takım son 10 maçta en az 4 gol yedi: +15",
-        "2.5 Üst yüzdesi %60 üzeri: +10",
-        "3.5 Üst yüzdesi %45 üzeri: +10",
-        "Lig gol ortalaması 2.70 üzeri: +10",
-        "Oran 1.70 üzeri: +10",
-        "Oran 2.20 üzeri: Yüksek Değer etiketi",
-        "Hafıza: arşiv verisi henüz sınırlı",
-        "Veri eksikliği riski: Düşük",
-        "100 puan analiz sınıfı: Orta risk kupon adayı"
-      ]
-    },
     {
       "home_team_name": "Deportivo Fas",
       "away_team_name": "Municipal",
@@ -2011,7 +1406,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "7.47",
+      "suggested_odds": "7.49",
       "confidence_score": "75%",
       "trust_score": "75/100",
       "analysis_score": 75,
@@ -2076,7 +1471,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 7.47",
+        "Oran: 7.49",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -2351,7 +1746,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "7.30",
+      "suggested_odds": "6.97",
       "confidence_score": "40%",
       "trust_score": "40/100",
       "analysis_score": 40,
@@ -2416,7 +1811,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 7.30",
+        "Oran: 6.97",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -2874,8 +2269,8 @@
       "time": "20:00",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "MS X",
-      "suggested_odds": "3.98",
+      "suggested_option": "MS 2",
+      "suggested_odds": "4.30",
       "confidence_score": "70%",
       "trust_score": "70/100",
       "analysis_score": 70,
@@ -2934,13 +2329,13 @@
       },
       "tag": "Orta risk kupon adayı",
       "expected_scores": [
-        "0-0",
-        "1-1",
-        "2-2"
+        "0-1",
+        "0-2",
+        "1-2"
       ],
       "signals": [
-        "Market: MS X",
-        "Oran: 3.98",
+        "Market: MS 2",
+        "Oran: 4.30",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -3728,7 +3123,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "4.56",
+      "suggested_odds": "4.72",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -3793,7 +3188,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 4.56",
+        "Oran: 4.72",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -3893,7 +3288,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "4.70",
+      "suggested_odds": "4.86",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -3958,7 +3353,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 4.70",
+        "Oran: 4.86",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -3980,7 +3375,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 2",
-      "suggested_odds": "4.60",
+      "suggested_odds": "4.26",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -4045,7 +3440,7 @@
       ],
       "signals": [
         "Market: MS 2",
-        "Oran: 4.60",
+        "Oran: 4.26",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -4067,7 +3462,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "5.59",
+      "suggested_odds": "5.43",
       "confidence_score": "40%",
       "trust_score": "40/100",
       "analysis_score": 40,
@@ -4132,7 +3527,7 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 5.59",
+        "Oran: 5.43",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",
@@ -4989,7 +4384,7 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS X",
-      "suggested_odds": "2.91",
+      "suggested_odds": "2.88",
       "confidence_score": "50%",
       "trust_score": "50/100",
       "analysis_score": 50,
@@ -5054,7 +4449,7 @@
       ],
       "signals": [
         "Market: MS X",
-        "Oran: 2.91",
+        "Oran: 2.88",
         "Veri tipi: standard",
         "Değer etiketi: Yüksek Değer",
         "İki takım son 10 maçta en az 4 gol attı: +15",

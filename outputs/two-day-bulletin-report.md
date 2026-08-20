@@ -2,10 +2,10 @@
 
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
-Ham mac: 87
+Ham mac: 120
 Aktif mac: 79
-Canli mac: 5
-Biten mac: 36
+Canli mac: 1
+Biten mac: 40
 Bultenden dusurulen mac: 41
 Bugun: 69
 Yarin: 10
@@ -92,10 +92,6 @@ Yarin: 10
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled | -
 
 ## Canli Maclar
-- 2026-08-20 05:00 | ABD USL | Phoenix Rising - Colorado Spring | live | -
-- 2026-08-20 05:30 | ABD MLS | Portland - San Diego | live | -
-- 2026-08-20 05:30 | ABD MLS | Vancouver - Houston | live | -
-- 2026-08-20 05:30 | ABD MLS | Los Angeles - San Jose | live | -
 - 2026-08-20 06:00 | CONCACAF Orta Amerika Kupası Grup D | Deportivo Fas - Municipal | live | -
 
 ## Biten Maclar
@@ -135,3 +131,7 @@ Yarin: 10
 - 2026-08-20 04:30 | ABD MLS | Seattle - Austin | finished | -
 - 2026-08-20 04:30 | ABD MLS | Salt Lake - Dallas | finished | -
 - 2026-08-20 04:30 | ABD MLS | Colorado - Los Angeles Fc | finished | -
+- 2026-08-20 05:00 | ABD USL | Phoenix Rising - Colorado Spring | finished | -
+- 2026-08-20 05:30 | ABD MLS | Portland - San Diego | finished | -
+- 2026-08-20 05:30 | ABD MLS | Vancouver - Houston | finished | -
+- 2026-08-20 05:30 | ABD MLS | Los Angeles - San Jose | finished | -
