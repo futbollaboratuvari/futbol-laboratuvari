@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.08.2026 19:21:05
+Oluşturma: 20.08.2026 19:27:02
 
 ## Özet
 
-- Toplam tahmin: 41
-- Bekleyen tahmin: 41
+- Toplam tahmin: 43
+- Bekleyen tahmin: 43
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 8
@@ -20,12 +20,14 @@ Oluşturma: 20.08.2026 19:21:05
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 13, bekleyen 13, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 3, bekleyen 3, başarı bekleniyor, ağırlık 1
+- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 2, bekleyen 2, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-20 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | MS 1 | pending | 40/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Glasgow Ranger - Jablonec | MS X | pending | 75/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Getafe - Partizan Belgra | MS X | pending | 65/100
 - 2026-08-20 | İngiltere 1.Lig | Sheffield Wed - Bradford | MS X | pending | 50/100
 - 2026-08-20 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 20.08.2026 19:21:05
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Lugano - Maccabi Tel Avi | MS 2 | pending | 50/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Glasgow Ranger - Jablonec | MS 2 | pending | 75/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Hearts - Rapid Wien | MS X | pending | 50/100
-- 2026-08-20 | Fransa Ligue 3 | Bourg-Peronnas - Thionville Lusi | MS X | pending | 50/100
-- 2026-08-20 | Fransa Ligue 3 | Concarneau - Fc Villefranche | MS 2 | pending | 40/100
 
