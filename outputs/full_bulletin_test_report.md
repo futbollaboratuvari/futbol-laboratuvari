@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 13
-- Live match count: 49
-- Finished removed count: 1
+- Scheduled match count: 14
+- Live match count: 39
+- Finished removed count: 10
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 20:00 | Vendsyssel - Hillerod | live
-- 2026-08-20 20:00 | Humaita - 2 De Mayo | live
-- 2026-08-20 20:00 | Beşiktaş - Kauno Zalgiris | live
-- 2026-08-20 20:00 | Egnatia - Lillestrom | live
-- 2026-08-20 20:00 | Lech Poznan - Thun | live
-- 2026-08-20 20:00 | Trabzonspor - Ferencvaros | live
-- 2026-08-20 20:00 | Universitatea - Ararat-Armenia | live
-- 2026-08-20 20:00 | Midtjylland - Rijeka | live
-- 2026-08-20 20:00 | Nordsjaelland - St Gallen | live
-- 2026-08-20 20:00 | Tromso - Brighton | live
+- 2026-08-20 20:30 | Kí Klaksvík - Riga Fc | live
+- 2026-08-20 20:45 | Baltika Kalini - Makhachkala | live
+- 2026-08-20 20:45 | Paok - Brann | live
+- 2026-08-20 21:00 | Al Golan - Al Karkh | live
+- 2026-08-20 21:00 | Al Minaa Basra - Zakho | live
+- 2026-08-20 21:00 | Al Feiha - Al Hilal (Riyad | live
+- 2026-08-20 21:00 | Azam Fc - Tabora United | live
+- 2026-08-20 21:00 | Kizilyildiz - Viktoria Plzen | live
+- 2026-08-20 21:00 | Ofi - Cska Sofia | live
+- 2026-08-20 21:00 | St. Truidense - Omonia | live

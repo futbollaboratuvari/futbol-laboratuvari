@@ -1,24 +1,23 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-20T18:24:09.272Z
-- Ham fixture sayisi: 7679
-- Bugun/yarin kaynak mac: 128
-- Aktif bulten maci: 37
-- Gosterilen mac: 15
-- Bultenden dusurulen mac: 91
+- Guncelleme: 2026-08-20T19:10:00.114Z
+- Ham fixture sayisi: 7680
+- Bugun/yarin kaynak mac: 129
+- Aktif bulten maci: 14
+- Gosterilen mac: 14
+- Bultenden dusurulen mac: 115
 
-- 1. 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Atalanta - Hapoel Tel Aviv | scheduled
-- 2. 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Gent - Hibernian | scheduled
-- 3. 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Lugano - Maccabi Tel Avi | scheduled
-- 4. 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Motherwell - Freiburg | scheduled
-- 5. 2026-08-20 21:30 | UEFA Konferans Ligi Play Off | Panathinaikos - Hradec Kralove | scheduled
-- 6. 2026-08-20 21:45 | Fransa Ligue 3 | Bastia - Versailles | scheduled
-- 7. 2026-08-20 21:45 | Fransa Ligue 3 | Bourg-Peronnas - Thionville Lusi | scheduled
-- 8. 2026-08-20 21:45 | Fransa Ligue 3 | Caen - Aubagne Air Bel | scheduled
-- 9. 2026-08-20 21:45 | Fransa Ligue 3 | Concarneau - Fc Villefranche | scheduled
-- 10. 2026-08-20 21:45 | Fransa Ligue 3 | Fc Fleury 91 - Orleans | scheduled
-- 11. 2026-08-20 21:45 | UEFA Konferans Ligi Play Off | Glasgow Ranger - Jablonec | scheduled
-- 12. 2026-08-20 21:45 | UEFA Konferans Ligi Play Off | Hearts - Rapid Wien | scheduled
-- 13. 2026-08-20 21:45 | Fransa Ligue 3 | La Roche-Sur-Y - Cannes | scheduled
-- 14. 2026-08-20 21:45 | Fransa Ligue 3 | Le Puy - Amiens | scheduled
-- 15. 2026-08-20 21:45 | Fransa Ligue 3 | Paris 13 Atlet - Valenciennes | scheduled
+- 1. 2026-08-20 22:30 | Paraguay Kupa 3.Tur | Tacuary - Libertad | scheduled
+- 2. 2026-08-20 23:00 | Ekvador Kupa Son 16 Turu | Juventud Itali - Delfin | scheduled
+- 3. 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | scheduled
+- 4. 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | scheduled
+- 5. 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | scheduled
+- 6. 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | scheduled
+- 7. 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | scheduled
+- 8. 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | scheduled
+- 9. 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | scheduled
+- 10. 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | scheduled
+- 11. 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled
+- 12. 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | scheduled
+- 13. 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled
+- 14. 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | scheduled

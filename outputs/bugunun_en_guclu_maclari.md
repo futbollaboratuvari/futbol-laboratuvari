@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-20T19:09:14.172Z
+- Güncelleme: 2026-08-20T19:10:37.945Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -70,9 +70,10 @@
 | Novorizontino VS America Mineiro | Brezilya Serie B | 02:30 | MS 2 | 5.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Corinthians (0) VS (0) Rosario Central | Copa Libertadores Son 16 Turu | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Botafogo (1) VS (6) Cienciano | Copa Sudamericana Son 16 Turu | 03:30 | Değerli market yok | - | 70 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Monarcas VS Correcaminos Ua | Meksika Ascenso MX Apertura | 04:00 | MS 2 | 3.58 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Monarcas VS Correcaminos Ua | Meksika Ascenso MX Apertura | 04:00 | MS 2 | 3.46 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Tepatitlan De VS Tlaxcala | Meksika Ascenso MX Apertura | 04:00 | MS X | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Alianza Fc VS Depor. Olimpia | CONCACAF Orta Amerika Kupası Grup C | 04:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
+| Firpo VS Alajuelense | CONCACAF Orta Amerika Kupası Grup A | 06:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |

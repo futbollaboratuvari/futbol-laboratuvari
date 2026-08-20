@@ -1,20 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T19:05:59.682032+00:00
+Tarih: 2026-08-20T19:09:55.534742+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 2
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 2
-- Ham veri havuzu toplam mac sayisi: 7720
+- Kac mac bulundu: 14
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 13
+- Ham veri havuzu toplam mac sayisi: 7721
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
 - Ekvador Kupa Son 16 Turu
+- Meksika Ascenso MX Apertura
 - Paraguay Kupa 3.Tur
 
 ## Okunabilen Oran Alanlari
@@ -86,6 +92,18 @@ Tarih: 2026-08-20T19:05:59.682032+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 21.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) | (1) Mirassol | 15511 | 5 |
+| 21.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) | (0) Rosario Central | 15623 | 5 |
+| 21.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) | (0) Vasco Da Gama | 15457 | 5 |
+| 21.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) | (2) Santos | 15403 | 5 |
+| 21.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) | (6) Cienciano | 15569 | 4 |
+| 21.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo | Alajuelense | 05225 | 5 |
+| 21.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc | Depor. Olimpia | 05947 | 5 |
+| 21.08.2026 | 02:30 | Brezilya Serie B | Novorizontino | America Mineiro | 15970 | 5 |
+| 21.08.2026 | 01:30 | Brezilya Serie B | Athletic Club | Regatas | 15937 | 5 |
+| 21.08.2026 | 02:00 | Meksika Ascenso MX Apertura | Venados Fc | Dorados | 03105 | 5 |
+| 21.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Monarcas | Correcaminos Ua | 18021 | 5 |
+| 21.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De | Tlaxcala | 18038 | 5 |
 | 20.08.2026 | 23:00 | Ekvador Kupa Son 16 Turu | Juventud Itali | Delfin | 00162 | 5 |
 | 20.08.2026 | 22:30 | Paraguay Kupa 3.Tur | Tacuary | Libertad | 01825 | 3 |
 
