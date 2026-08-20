@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 83
-- Live match count: 12
+- Scheduled match count: 79
+- Live match count: 8
 - Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 03:30 | Minnesota Utd - Atlanta Utd | live
-- 2026-08-20 03:30 | Corpus Christi - New York Cosmos | live
-- 2026-08-20 03:30 | Botafogo Ribei - Criciuma | live
-- 2026-08-20 03:30 | Flamengo (1) - (1) Cruzeiro | live
-- 2026-08-20 03:30 | Santa Fe - River Plate | live
-- 2026-08-20 03:30 | Torque (1) - (0) Tigre | live
-- 2026-08-20 04:00 | Marathon - Alianza | live
-- 2026-08-20 04:00 | Mixco - Umecit | live
 - 2026-08-20 04:30 | Colorado - Los Angeles Fc | live
 - 2026-08-20 04:30 | Salt Lake - Dallas | live
+- 2026-08-20 04:30 | Seattle - Austin | live
+- 2026-08-20 05:00 | Phoenix Rising - Colorado Spring | live
+- 2026-08-20 05:30 | Los Angeles - San Jose | live
+- 2026-08-20 05:30 | Portland - San Diego | live
+- 2026-08-20 05:30 | Vancouver - Houston | live
+- 2026-08-20 06:00 | Deportivo Fas - Municipal | live
+- 2026-08-20 12:00 | Dinaz Vyshhoro - Yarud Mariupol | scheduled
+- 2026-08-20 16:00 | Polisi Morogor - Jkt Tanzania | scheduled
