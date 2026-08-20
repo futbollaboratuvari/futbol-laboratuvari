@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.08.2026 12:52:15
+Oluşturma: 20.08.2026 12:56:53
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 43
+- Bekleyen tahmin: 43
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 9
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 20.08.2026 12:52:15
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
+- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Dinamo Tirana - Pafos Fc | MS 1 | pending | 40/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Shamrock Rover - Kuopion | MS X | pending | 50/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Braga - Austria Vienna | MS 2 | pending | 75/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Hajduk Split - Rakow Czestocho | MS 2 | pending | 40/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Getafe - Partizan Belgra | MS X | pending | 65/100
+- 2026-08-20 | İngiltere 1.Lig | Sheffield Wed - Bradford | MS X | pending | 50/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Paok - Brann | MS 2 | pending | 50/100
+- 2026-08-20 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | MS 2 | pending | 50/100
+- 2026-08-20 | UEFA Avrupa Ligi Play Off | St. Truidense - Omonia | MS 2 | pending | 50/100
+- 2026-08-20 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | MS X | pending | 40/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Vikingur Reykj - Borac Banja Luk | MS 2 | pending | 75/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Twente - Qarabagh | MS 2 | pending | 75/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Fc Drita - Inter Escaldes | MS 2 | pending | 50/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Panathinaikos - Hradec Kralove | MS 2 | pending | 65/100
+- 2026-08-20 | UEFA Konferans Ligi Play Off | Gent - Hibernian | MS 2 | pending | 50/100
 
