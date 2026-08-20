@@ -1,8 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 67
-Tam analiz: 66
-Eksik analiz: 1
+Durum: ok
+Toplam analiz: 40
+Tam analiz: 40
+Eksik analiz: 0
 
-- Humaita VS 2 De Mayo: eksik score, confidence
