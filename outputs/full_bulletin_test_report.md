@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 85
-- Live match count: 0
+- Scheduled match count: 84
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-20 / 2026-08-21 23:59
 
-- 2026-08-20 16:00 | Polisi Morogor - Jkt Tanzania | scheduled
+- 2026-08-20 16:00 | Polisi Morogor - Jkt Tanzania | live
 - 2026-08-20 16:30 | El Daklyeh - Delta United | scheduled
 - 2026-08-20 16:30 | El Harby - Nasr | scheduled
 - 2026-08-20 16:30 | El Mansura - Baladiyyat | scheduled

@@ -1,21 +1,35 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-20T09:03:29.114Z",
-  "updated_at": "2026-08-20T13:15:44.060Z",
+  "updated_at": "2026-08-20T13:25:39.901Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 48,
-    "pending_predictions": 48,
+    "total_predictions": 49,
+    "pending_predictions": 49,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 9,
+    "league_count": 10,
     "market_count": 3,
-    "added_predictions": 3,
-    "updated_predictions": 0
+    "added_predictions": 1,
+    "updated_predictions": 0,
+    "last_score_link_checked": 49,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
+    "MS 2": {
+      "total": 27,
+      "pending": 27,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "MS X": {
       "total": 17,
       "pending": 17,
@@ -35,19 +49,19 @@
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    },
-    "MS 2": {
-      "total": 26,
-      "pending": 26,
+    }
+  },
+  "league_memory": {
+    "Tanzanya Kuu Bara Ligi": {
+      "total": 1,
+      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
       "success_rate": null,
       "weight": 1,
       "confidence_adjustment": 0
-    }
-  },
-  "league_memory": {
+    },
     "UEFA Avrupa Ligi Play Off": {
       "total": 10,
       "pending": 10,
@@ -140,6 +154,16 @@
     }
   },
   "league_market_memory": {
+    "Tanzanya Kuu Bara Ligi :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "UEFA Avrupa Ligi Play Off :: MS X": {
       "total": 3,
       "pending": 3,
@@ -303,6 +327,23 @@
   },
   "predictions": [
     {
+      "id": "2026-08-20|tanzanya kuu bara ligi|azam fc tabora united|ms 2|21 00",
+      "date": "2026-08-20",
+      "created_at": "2026-08-20T13:25:39.443Z",
+      "match_name": "Azam Fc - Tabora United",
+      "league": "Tanzanya Kuu Bara Ligi",
+      "start_time": "21:00",
+      "market": "MS 2",
+      "odds": "6.22",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-20|uefa avrupa ligi play off|jagiellonia fc iberia|ms x|19 00",
       "date": "2026-08-20",
       "created_at": "2026-08-20T13:15:44.057Z",
@@ -317,7 +358,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|rusya fnl|neftekhimik pfc sochi|ms 1|19 00",
@@ -334,7 +376,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|katar yildizlar ligi|al rayyan lusail city|ms x|19 30",
@@ -351,7 +394,8 @@
       "status": "pending",
       "result_score": "",
       "source": "Robot ham veri havuzu",
-      "learning_note": "Sonuç bekleniyor."
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|fc fleury 91 orleans|ms x|21 45",
@@ -369,7 +413,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|la roche sur y cannes|ms 2|21 45",
@@ -387,7 +431,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|dinamo tirana pafos fc|ms 1|22 00",
@@ -405,7 +449,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|shamrock rover kuopion|ms x|22 00",
@@ -423,7 +467,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|braga austria vienna|ms 2|22 00",
@@ -441,7 +485,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|hajduk split rakow czestocho|ms 2|22 00",
@@ -459,7 +503,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|getafe partizan belgra|ms x|22 00",
@@ -477,7 +521,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|ingiltere 1 lig|sheffield wed bradford|ms x|22 00",
@@ -495,7 +539,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|paok brann|ms 2|20 45",
@@ -513,7 +557,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|kizilyildiz viktoria plzen|ms 2|21 00",
@@ -531,7 +575,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|st truidense omonia|ms 2|21 00",
@@ -549,7 +593,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|ofi cska sofia|ms x|21 00",
@@ -567,7 +611,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|vikingur reykj borac banja luk|ms 2|21 00",
@@ -585,7 +629,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|twente qarabagh|ms 2|21 00",
@@ -603,7 +647,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|fc drita inter escaldes|ms 2|21 00",
@@ -621,7 +665,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|panathinaikos hradec kralove|ms 2|21 30",
@@ -639,7 +683,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|gent hibernian|ms 2|21 30",
@@ -657,7 +701,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|lugano maccabi tel avi|ms 2|21 30",
@@ -675,7 +719,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|glasgow ranger jablonec|ms 2|21 45",
@@ -693,7 +737,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|hearts rapid wien|ms x|21 45",
@@ -711,7 +755,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|bourg peronnas thionville lusi|ms x|21 45",
@@ -729,7 +773,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|concarneau fc villefranche|ms 2|21 45",
@@ -747,7 +791,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|fc fleury 91 orleans|ms 2|21 45",
@@ -783,7 +827,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|bastia versailles|ms x|21 45",
@@ -801,7 +845,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|la roche sur y cannes|ms x|21 45",
@@ -837,7 +881,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|paris 13 atlet valenciennes|ms 1|21 45",
@@ -855,7 +899,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|fransa ligue 3|rouen quevilly rouen|ms 2|21 45",
@@ -873,7 +917,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.059Z"
+      "updated_at": "2026-08-20T13:25:39.444Z"
     },
     {
       "id": "2026-08-20|katar yildizlar ligi|al wakrah qatar sc|ms x|17 15",
@@ -891,7 +935,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.057Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|kairat almaty anderlecht|ms 1|18 00",
@@ -909,7 +953,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.057Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|rusya fnl|neftekhimik pfc sochi|ms 1|18 00",
@@ -927,7 +971,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.057Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|belarus premier lig|dinamo minsk torpedo zhodino|ms 2|18 45",
@@ -945,7 +989,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.057Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|jagiellonia fc iberia|ms 2|19 00",
@@ -981,7 +1025,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.057Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|portekiz u23 ulusal sampiyona|benfica u23 rio ave u23|ms x|19 00",
@@ -999,7 +1043,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.057Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|katar yildizlar ligi|al rayyan lusail city|ms 2|19 30",
@@ -1035,7 +1079,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|trabzonspor ferencvaros|ms 2|20 00",
@@ -1053,7 +1097,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|universitatea ararat armenia|ms 2|20 00",
@@ -1071,7 +1115,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.442Z"
     },
     {
       "id": "2026-08-20|uefa avrupa ligi play off|lech poznan thun|ms 2|20 00",
@@ -1089,7 +1133,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|nordsjaelland st gallen|ms 2|20 00",
@@ -1107,7 +1151,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|midtjylland rijeka|ms 2|20 00",
@@ -1125,7 +1169,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|danimarka 1 lig|vendsyssel hillerod|ms x|20 00",
@@ -1143,7 +1187,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     },
     {
       "id": "2026-08-20|uefa konferans ligi play off|ki klaksvik riga fc|ms x|20 30",
@@ -1161,7 +1205,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-20T13:15:44.058Z"
+      "updated_at": "2026-08-20T13:25:39.443Z"
     }
   ]
 }

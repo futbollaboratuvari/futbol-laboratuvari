@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.08.2026 16:15:44
+Oluşturma: 20.08.2026 16:25:39
 
 ## Özet
 
-- Toplam tahmin: 48
-- Bekleyen tahmin: 48
+- Toplam tahmin: 49
+- Bekleyen tahmin: 49
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 9
+- Lig sayısı: 10
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 20.08.2026 16:15:44
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
 - MS X: toplam 17, bekleyen 17, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-20 | Tanzanya Kuu Bara Ligi | Azam Fc - Tabora United | MS 2 | pending | 50/100
 - 2026-08-20 | UEFA Avrupa Ligi Play Off | Jagiellonia - Fc Iberia | MS X | pending | 75/100
 - 2026-08-20 | Rusya FNL | Neftekhimik - Pfc Sochi | MS 1 | pending | 50/100
 - 2026-08-20 | Katar Yıldızlar Ligi | Al Rayyan - Lusail City | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 20.08.2026 16:15:44
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Paok - Brann | MS 2 | pending | 50/100
 - 2026-08-20 | UEFA Avrupa Ligi Play Off | Kizilyildiz - Viktoria Plzen | MS 2 | pending | 50/100
 - 2026-08-20 | UEFA Avrupa Ligi Play Off | St. Truidense - Omonia | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Avrupa Ligi Play Off | Ofi - Cska Sofia | MS X | pending | 40/100
 
