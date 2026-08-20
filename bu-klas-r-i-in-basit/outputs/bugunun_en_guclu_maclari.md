@@ -87,7 +87,7 @@ MAC_SAYISI: 5
 
 ## Rapor Bilgisi
 
-OLUSTURMA_ZAMANI: 2026-08-20T17:38:14.849125+00:00
+OLUSTURMA_ZAMANI: 2026-08-20T18:15:00.801019+00:00
 TOPLAM_TAHMIN: 310
 SONUCLANAN_TAHMIN: 0
 BEKLEYEN_TAHMIN: 310
@@ -164,9 +164,12 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 
 ## Mackolik Veri Cekme Durumu
 
-- Durum: success
-- Bulunan mac: 40
+- Durum: error
+- Bulunan mac: 0
 - Yeni kaydedilen mac: 0
-- Tekrar mac: 40
+- Tekrar mac: 0
 - Ham havuz toplam mac: 7720
 - Rapor: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/outputs/mackolik_veri_cekme_raporu.md
+- Hata: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://arsiv.mackolik.com/Iddaa-Programi", waiting until "domcontentloaded"
