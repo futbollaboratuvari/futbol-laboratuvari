@@ -1,34 +1,38 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-20T20:37:09.846768+00:00
+Tarih: 2026-08-20T20:44:59.459334+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
+- Kac mac bulundu: 12
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
+- Kac mac zaten vardi: 12
 - Ham veri havuzu toplam mac sayisi: 7721
 - Hedef tarih: 20.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- Brezilya Serie B
+- CONCACAF Orta Amerika Kupası Grup A
+- CONCACAF Orta Amerika Kupası Grup C
+- Copa Libertadores Son 16 Turu
+- Copa Sudamericana Son 16 Turu
+- Meksika Ascenso MX Apertura
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -84,7 +88,20 @@ Tarih: 2026-08-20T20:37:09.846768+00:00
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 21.08.2026 | 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) | (1) Mirassol | 15511 | 5 |
+| 21.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) | (0) Rosario Central | 15623 | 5 |
+| 21.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) | (0) Vasco Da Gama | 15457 | 5 |
+| 21.08.2026 | 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) | (6) Cienciano | 15569 | 4 |
+| 21.08.2026 | 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) | (2) Santos | 15403 | 5 |
+| 21.08.2026 | 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo | Alajuelense | 05225 | 5 |
+| 21.08.2026 | 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc | Depor. Olimpia | 05947 | 5 |
+| 21.08.2026 | 02:30 | Brezilya Serie B | Novorizontino | America Mineiro | 15970 | 5 |
+| 21.08.2026 | 01:30 | Brezilya Serie B | Athletic Club | Regatas | 15937 | 5 |
+| 21.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Monarcas | Correcaminos Ua | 18021 | 5 |
+| 21.08.2026 | 02:00 | Meksika Ascenso MX Apertura | Venados Fc | Dorados | 03105 | 5 |
+| 21.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De | Tlaxcala | 18038 | 5 |
 
 ## Sonuc
 
