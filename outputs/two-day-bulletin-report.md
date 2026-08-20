@@ -3,20 +3,14 @@
 Gunler: 2026-08-20 / 2026-08-21
 Kaynak: fixtures.json
 Ham mac: 85
-Aktif mac: 84
-Canli mac: 1
+Aktif mac: 78
+Canli mac: 7
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 73
+Bultenden dusurulen mac: 7
+Bugun: 67
 Yarin: 11
 
 ## Baslamamis Maclar
-- 2026-08-20 16:30 | Mısır 2. Lig | El Mansura - Baladiyyat | scheduled | -
-- 2026-08-20 16:30 | Mısır 2. Lig | El Daklyeh - Delta United | scheduled | -
-- 2026-08-20 16:30 | Mısır 2. Lig | El Harby - Nasr | scheduled | -
-- 2026-08-20 16:30 | Mısır 2. Lig | La Viena Fc - Kahraba Ismaili | scheduled | -
-- 2026-08-20 16:30 | Mısır 2. Lig | Haras El Hodoo - Telecom Egypt | scheduled | -
-- 2026-08-20 17:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Ilbirs (K) - Tsl (K) | scheduled | -
 - 2026-08-20 17:15 | Katar Yıldızlar Ligi | Al Wakrah - Qatar Sc | scheduled | -
 - 2026-08-20 18:00 | UEFA Avrupa Ligi Play Off | Kairat Almaty - Anderlecht | scheduled | -
 - 2026-08-20 18:00 | Finlandiya Ykkösliiga | Kapa - Jippo Joensuu | scheduled | -
@@ -98,6 +92,12 @@ Yarin: 11
 
 ## Canli Maclar
 - 2026-08-20 16:00 | Tanzanya Kuu Bara Ligi | Polisi Morogor - Jkt Tanzania | live | -
+- 2026-08-20 16:30 | Mısır 2. Lig | El Mansura - Baladiyyat | live | -
+- 2026-08-20 16:30 | Mısır 2. Lig | El Daklyeh - Delta United | live | -
+- 2026-08-20 16:30 | Mısır 2. Lig | El Harby - Nasr | live | -
+- 2026-08-20 16:30 | Mısır 2. Lig | La Viena Fc - Kahraba Ismaili | live | -
+- 2026-08-20 16:30 | Mısır 2. Lig | Haras El Hodoo - Telecom Egypt | live | -
+- 2026-08-20 17:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Ilbirs (K) - Tsl (K) | live | -
 
 ## Biten Maclar
 Biten mac yok.
