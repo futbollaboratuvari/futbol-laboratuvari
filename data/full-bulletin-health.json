@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:00:12.851Z",
+  "generated_at": "2026-08-20T10:20:56.827Z",
   "status": "pass",
   "source_status": "active",
   "full_bulletin_exists": true,
@@ -16,160 +16,80 @@
     "status": "live",
     "liveStatus": "live",
     "minute": 17,
-    "homeScore": null,
-    "awayScore": null,
     "score": "",
-    "lastLiveUpdate": "2026-08-20T09:56:48.209Z",
     "source": "Maçkolik canlı robot",
     "matchCode": "03306",
-    "oddsSource": "Robot ham veri havuzu",
-    "one": 8.25,
-    "oneOdd": 8.25,
-    "ms1": 8.25,
-    "odd1": 8.25,
-    "draw": 4.67,
-    "drawOdd": 4.67,
-    "msx": 4.67,
-    "oddX": 4.67,
-    "two": 1.14,
-    "twoOdd": 1.14,
-    "ms2": 1.14,
-    "odd2": 1.14,
-    "raw_market_blocks": [
-      {
-        "market_code": "03306",
-        "values": [
-          8.25,
-          4.67,
-          1.14
-        ],
-        "guess": "Maç Sonucu 1/X/2",
-        "named_values": {
-          "ms1": 8.25,
-          "msx": 4.67,
-          "ms2": 1.14
-        },
-        "detail_market_candidates": [
-          {
-            "market": "Maç Sonucu 1/X/2",
-            "values": {
-              "ms1": 8.25,
-              "msx": 4.67,
-              "ms2": 1.14
-            }
-          },
-          {
-            "market": "İlk Yarı 1/X/2",
-            "values": {
-              "firstHalf1_guess": 8.25,
-              "firstHalfX_guess": 4.67,
-              "firstHalf2_guess": 1.14
-            }
-          },
-          {
-            "market": "İkinci Yarı 1/X/2",
-            "values": {
-              "secondHalf1_guess": 8.25,
-              "secondHalfX_guess": 4.67,
-              "secondHalf2_guess": 1.14
-            }
-          },
-          {
-            "market": "Handikap 1/X/2",
-            "values": {
-              "handicap1_guess": 8.25,
-              "handicapX_guess": 4.67,
-              "handicap2_guess": 1.14
-            }
-          }
-        ]
-      }
-    ],
-    "raw_market_guess_odds": {
-      "ms1": 8.25,
-      "msx": 4.67,
-      "ms2": 1.14
-    },
-    "detail_market_candidates": [
-      {
-        "market_code": "03306",
-        "market": "Maç Sonucu 1/X/2",
-        "values": {
-          "ms1": 8.25,
-          "msx": 4.67,
-          "ms2": 1.14
-        }
-      },
-      {
-        "market_code": "03306",
-        "market": "İlk Yarı 1/X/2",
-        "values": {
-          "firstHalf1_guess": 8.25,
-          "firstHalfX_guess": 4.67,
-          "firstHalf2_guess": 1.14
-        }
-      },
-      {
-        "market_code": "03306",
-        "market": "İkinci Yarı 1/X/2",
-        "values": {
-          "secondHalf1_guess": 8.25,
-          "secondHalfX_guess": 4.67,
-          "secondHalf2_guess": 1.14
-        }
-      },
-      {
-        "market_code": "03306",
-        "market": "Handikap 1/X/2",
-        "values": {
-          "handicap1_guess": 8.25,
-          "handicapX_guess": 4.67,
-          "handicap2_guess": 1.14
-        }
-      }
-    ],
-    "raw_market_block_count": 1,
-    "raw_market_value_count": 3,
-    "raw_market_source": "Robot ham veri hücreleri",
-    "flow_status": "live",
-    "mbs": null,
-    "odds": {
-      "ms1": 8.25,
-      "msx": 4.67,
-      "ms2": 1.14
-    },
     "available_odds": {
       "ms1": 8.25,
       "msx": 4.67,
       "ms2": 1.14
     },
+    "odds": {
+      "ms1": 8.25,
+      "msx": 4.67,
+      "ms2": 1.14
+    },
+    "raw_market_guess_odds": {
+      "ms1": 8.25,
+      "msx": 4.67,
+      "ms2": 1.14
+    },
     "raw_odds_sequence": [],
+    "market_odds_inventory": [
+      "ms1",
+      "msx",
+      "ms2",
+      "over25",
+      "under25",
+      "over35",
+      "under35",
+      "bttsYes",
+      "bttsNo",
+      "firstHalfBttsYes",
+      "firstHalfBttsNo",
+      "secondHalfBttsYes",
+      "secondHalfBttsNo"
+    ],
+    "wide_market_odds_count": 3,
+    "suggested_option": "Değerli market yok",
+    "suggested_odds": "-",
+    "analysis_score": 0,
+    "confidence": "0%",
+    "risk_level": "Yüksek",
+    "decision": "Oynama",
+    "robot_reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+    "include_in_coupon": false,
+    "raw_market_value_count": 3,
+    "mbs": null,
+    "raw_market_blocks": [],
+    "detail_market_candidates": [],
     "detail_markets": [
       {
         "key": "ms1",
         "label": "MS 1",
         "odd": 8.25,
-        "source": "Robot ham veri havuzu"
+        "source": "Maçkolik canlı robot"
       },
       {
         "key": "msx",
         "label": "MS X",
         "odd": 4.67,
-        "source": "Robot ham veri havuzu"
+        "source": "Maçkolik canlı robot"
       },
       {
         "key": "ms2",
         "label": "MS 2",
         "odd": 1.14,
-        "source": "Robot ham veri havuzu"
+        "source": "Maçkolik canlı robot"
       }
     ],
-    "wide_market_odds_count": 3,
+    "raw_market_source": "Maçkolik canlı robot",
+    "oddsSource": "Maçkolik canlı robot",
     "detail": {
-      "analysis": "Detay analizi icin robot verisi bekleniyor.",
-      "prediction": "Tahmin verisi bekleniyor",
-      "confidence": null,
-      "risk": "",
+      "analysis": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Hafıza: arşiv verisi henüz sınırlı | Veri eksikliği var: -15",
+      "prediction": "Oynama",
+      "confidence": 0,
+      "risk": "Yüksek",
       "team_info": {
         "home": null,
         "away": null
@@ -181,19 +101,19 @@
           "key": "ms1",
           "label": "MS 1",
           "odd": 8.25,
-          "source": "Robot ham veri havuzu"
+          "source": "Maçkolik canlı robot"
         },
         {
           "key": "msx",
           "label": "MS X",
           "odd": 4.67,
-          "source": "Robot ham veri havuzu"
+          "source": "Maçkolik canlı robot"
         },
         {
           "key": "ms2",
           "label": "MS 2",
           "odd": 1.14,
-          "source": "Robot ham veri havuzu"
+          "source": "Maçkolik canlı robot"
         }
       ]
     }
