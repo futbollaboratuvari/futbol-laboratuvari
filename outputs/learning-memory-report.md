@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 20.08.2026 15:22:54
+Oluşturma: 20.08.2026 15:29:32
 
 ## Özet
 
-- Toplam tahmin: 44
-- Bekleyen tahmin: 44
+- Toplam tahmin: 45
+- Bekleyen tahmin: 45
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 9
@@ -20,12 +20,13 @@ Oluşturma: 20.08.2026 15:22:54
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 15, bekleyen 15, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 4, bekleyen 4, başarı bekleniyor, ağırlık 1
-- MS X: toplam 14, bekleyen 14, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-20 | Fransa Ligue 3 | Fc Fleury 91 - Orleans | MS X | pending | 50/100
 - 2026-08-20 | Fransa Ligue 3 | La Roche-Sur-Y - Cannes | MS 2 | pending | 50/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Dinamo Tirana - Pafos Fc | MS 1 | pending | 40/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Shamrock Rover - Kuopion | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 20.08.2026 15:22:54
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Vikingur Reykj - Borac Banja Luk | MS 2 | pending | 75/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Twente - Qarabagh | MS 2 | pending | 75/100
 - 2026-08-20 | UEFA Konferans Ligi Play Off | Fc Drita - Inter Escaldes | MS 2 | pending | 50/100
-- 2026-08-20 | UEFA Konferans Ligi Play Off | Panathinaikos - Hradec Kralove | MS 2 | pending | 65/100
 

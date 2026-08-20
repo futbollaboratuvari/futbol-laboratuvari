@@ -1,9 +1,9 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-20T11:51:26.433Z
-- Ham fixture sayisi: 7677
-- Bugun/yarin kaynak mac: 126
-- Aktif bulten maci: 83
+- Guncelleme: 2026-08-20T12:27:18.962Z
+- Ham fixture sayisi: 7679
+- Bugun/yarin kaynak mac: 128
+- Aktif bulten maci: 85
 - Gosterilen mac: 15
 - Bultenden dusurulen mac: 43
 
@@ -20,5 +20,5 @@
 - 11. 2026-08-20 18:00 | Rusya FNL | Neftekhimik - Pfc Sochi | scheduled
 - 12. 2026-08-20 18:30 | Rusya FNL | Arsenal Tula - Rotor Volgograd | scheduled
 - 13. 2026-08-20 18:30 | Irak Premier Lig | Gaz Al-Shamal - Al Kahraba | scheduled
-- 14. 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | scheduled
-- 15. 2026-08-20 18:45 | Belarus Premier Lig | Dinamo Minsk - Torpedo Zhodino | scheduled
+- 14. 2026-08-20 18:30 | Irak Premier Lig | Naft Maysan - Naft | scheduled
+- 15. 2026-08-20 18:30 | Tanzanya Kuu Bara Ligi | Young Africans - Coastal Union | scheduled
