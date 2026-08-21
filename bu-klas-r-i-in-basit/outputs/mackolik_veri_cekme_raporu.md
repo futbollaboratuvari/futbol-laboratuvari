@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T11:47:54.857595+00:00
+Tarih: 2026-08-21T12:19:45.385911+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 175
+- Kac mac bulundu: 174
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 175
+- Kac mac zaten vardi: 174
 - Ham veri havuzu toplam mac sayisi: 7926
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
@@ -45,7 +45,6 @@ Tarih: 2026-08-21T11:47:54.857595+00:00
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
-- Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig

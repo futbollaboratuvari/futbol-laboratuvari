@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.08.2026 14:49:35
+Oluşturma: 21.08.2026 15:19:56
 
 ## Özet
 
-- Toplam tahmin: 122
-- Bekleyen tahmin: 122
+- Toplam tahmin: 123
+- Bekleyen tahmin: 123
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 62
@@ -20,12 +20,13 @@ Oluşturma: 21.08.2026 14:49:35
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 70, bekleyen 70, başarı bekleniyor, ağırlık 1
+- MS X: toplam 71, bekleyen 71, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-21 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | MS X | pending | 50/100
 - 2026-08-21 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | MS X | pending | 50/100
 - 2026-08-21 | Hazırlık Kulüpler | Lorca Deportiv - Atletico Pulpil | MS 2 | pending | 50/100
 - 2026-08-21 | Hazırlık Kulüpler | Puente Genil - Linares Deporti | MS X | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 21.08.2026 14:49:35
 - 2026-08-21 | Galler FAW Championship Güney | Caerau Ely - Swansea Univers | MS X | pending | 50/100
 - 2026-08-21 | İspanya LaLiga | Real Betis - Real Sociedad | MS 2 | pending | 50/100
 - 2026-08-21 | İspanya 2.Lig | Cordoba - Girona | MS X | pending | 50/100
-- 2026-08-21 | İrlanda Premier Lig | Sligo Rovers - Waterford | MS X | pending | 50/100
 
