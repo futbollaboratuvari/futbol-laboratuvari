@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-21 / 2026-08-22
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 208
-Aktif mac: 196
-Canli mac: 0
+Aktif mac: 195
+Canli mac: 1
 Biten mac: 12
-Bultenden dusurulen mac: 12
-Bugun: 175
+Bultenden dusurulen mac: 13
+Bugun: 174
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | scheduled | -
 - 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | scheduled | -
 - 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | scheduled | -
 - 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | scheduled | -
@@ -209,7 +209,7 @@ Yarin: 21
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | live | -
 
 ## Biten Maclar
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -

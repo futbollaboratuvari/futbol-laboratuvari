@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 21.08.2026 11:09:48
-=======
-Oluşturma: 21.08.2026 11:11:10
->>>>>>> Stashed changes
+Oluşturma: 21.08.2026 12:00:22
 
 ## Özet
 
-- Toplam tahmin: 116
-- Bekleyen tahmin: 116
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 60
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 21.08.2026 11:11:10
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 70, bekleyen 70, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-21 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Wahda | MS X | pending | 50/100
-- 2026-08-21 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | MS 1 | pending | 45/100
-- 2026-08-21 | Fransa Ligue 2 | Boulogne - Red Star Paris | MS 1 | pending | 40/100
-- 2026-08-21 | Litvanya 1.Lig | Be1 Nfa - Garliava | MS 2 | pending | 50/100
-- 2026-08-21 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | MS 2 | pending | 50/100
-- 2026-08-21 | Galler Premier Lig 1.Aşama | Penybont - Llandudno | MS 2 | pending | 50/100
-- 2026-08-21 | Galler Premier Lig 1.Aşama | Colwyn Bay - Airbus Uk | MS 2 | pending | 75/100
-- 2026-08-21 | Galler Premier Lig 1.Aşama | Flint Town - Briton Ferry | MS X | pending | 50/100
-- 2026-08-21 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | MS 2 | pending | 50/100
-- 2026-08-21 | Kuzey İrlanda Premiership | Ballymena - Glentoran | MS 1 | pending | 50/100
-- 2026-08-21 | Kuzey İrlanda Premiership | Linfield - Cliftonville | MS X | pending | 50/100
-- 2026-08-21 | İrlanda 1.Lig | Kerry - Ucd | MS X | pending | 50/100
-- 2026-08-21 | İrlanda 1.Lig | Wexford Youths - Athlone | MS X | pending | 50/100
-- 2026-08-21 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | MS X | pending | 50/100
-- 2026-08-21 | Kuzey İrlanda Championship | Newry City Afc - Warrenpoint Tow | MS X | pending | 50/100
 
