@@ -18,12 +18,14 @@ function randomToken(bytes = 3) {
 }
 
 function orderCode(now = new Date()) {
-  const date = new Intl.DateTimeFormat("en-CA", {
+  const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: "Europe/Istanbul",
     year: "2-digit",
     month: "2-digit",
     day: "2-digit",
-  }).format(now).replaceAll("-", "");
+  }).formatToParts(now);
+  const map = Object.fromEntries(parts.map(part => [part.type, part.value]));
+  const date = `${map.year}${map.month}${map.day}`;
   return `FL-${date}-${randomToken(3)}`;
 }
 
