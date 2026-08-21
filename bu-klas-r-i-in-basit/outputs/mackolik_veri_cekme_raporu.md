@@ -1,25 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-21T14:07:40.673726+00:00
-=======
-Tarih: 2026-08-21T14:11:57.448089+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-21T14:58:28.351765+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 192
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 191
-=======
-- Kac mac bulundu: 170
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 169
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 7929
+- Durum: error
+- Kac mac bulundu: 167
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 0
+- Ham veri havuzu toplam mac sayisi: 0
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -31,7 +21,6 @@ Tarih: 2026-08-21T14:11:57.448089+00:00
 - Arjantin Ulusal Primera Lig
 - Avusturya 1.Lig
 - Avusturya Bundesliga
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -168,7 +157,8 @@ Tarih: 2026-08-21T14:11:57.448089+00:00
 
 ## Hatalar
 
-- Hata yok.
+- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
 
 ## Ornek Maclar
 
@@ -197,4 +187,4 @@ Tarih: 2026-08-21T14:11:57.448089+00:00
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
