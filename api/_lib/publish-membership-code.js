@@ -4,7 +4,12 @@ const { getUsageToken } = require("../lib/usage-token");
 const MEMBERSHIP_PATH = "data/membership-codes.json";
 
 function targetBranch() {
-  return String(process.env.MEMBERSHIP_PUBLISH_BRANCH || "main").trim() || "main";
+  const explicit = String(process.env.MEMBERSHIP_PUBLISH_BRANCH || "").trim();
+  if (explicit) return explicit;
+  if (process.env.VERCEL_ENV === "production") return "main";
+  const previewBranch = String(process.env.VERCEL_GIT_COMMIT_REF || "").trim();
+  if (previewBranch) return previewBranch;
+  throw new Error("MEMBERSHIP_PUBLISH_BRANCH missing outside production");
 }
 
 async function publishMembershipCode(record) {
