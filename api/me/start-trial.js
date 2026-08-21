@@ -1,6 +1,4 @@
-const { json, readBody } = require("../_lib/http");
-const { getPlan } = require("../_lib/plans");
-const { createTrialMembershipFromPlan } = require("../_lib/membership");
+const { json, readBody, getPlan, createTrialMembershipFromPlan } = require("../../server-lib/backend");
 
 function clean(value) {
   return String(value || "").trim();
