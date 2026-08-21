@@ -19,8 +19,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: learning-output-check
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   check-learning-output:
@@ -50,4 +50,12 @@ jobs:
             exit 0
           fi
           git commit -m "Update learning output check"
-          git push origin HEAD:main
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && node scripts/repair-conflict-markers.js && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 2))
+          done
+          echo "Learning Output push failed after retries"
+          exit 1
