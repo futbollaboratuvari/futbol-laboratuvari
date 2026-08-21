@@ -2,20 +2,23 @@
 
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
-Ham mac: 191
-Aktif mac: 191
+Ham mac: 206
+Aktif mac: 194
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 170
+Biten mac: 12
+Bultenden dusurulen mac: 12
+Bugun: 173
 Yarin: 21
 
 ## Baslamamis Maclar
+- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | scheduled | -
 - 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | scheduled | -
 - 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | scheduled | -
 - 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | scheduled | -
 - 2026-08-21 13:30 | Japonya J1 Lig | Fc Tokyo - Jef Utd Chiba | scheduled | -
 - 2026-08-21 13:30 | Avustralya Victoria NPL 1 | Northcote City - Moreland Zebras | scheduled | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | scheduled | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | scheduled | -
 - 2026-08-21 15:00 | Hong Kong Premier Lig | Eastern - Shatin | scheduled | -
 - 2026-08-21 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Dinamo Batumi | scheduled | -
 - 2026-08-21 16:00 | Malezya Süper Lig | Johor Dt - Kuching Fa | scheduled | -

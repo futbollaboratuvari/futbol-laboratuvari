@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T05:57:45.151609+00:00
+Tarih: 2026-08-21T06:30:36.084321+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 191
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 194
+- Kac mac kaydedildi: 3
 - Kac mac zaten vardi: 191
-- Ham veri havuzu toplam mac sayisi: 7912
+- Ham veri havuzu toplam mac sayisi: 7915
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -83,6 +83,7 @@ Tarih: 2026-08-21T05:57:45.151609+00:00
 - Suudi Arabistan Pro Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
+- Ukrayna Kupa 1.Tur
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti FNL
