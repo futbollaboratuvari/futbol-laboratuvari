@@ -1,4 +1,4 @@
-const { json } = require("../_lib/http");
+const { json } = require("../../server-lib/backend");
 
 module.exports = async function handler(req, res) {
   if (req.method !== "GET") {
