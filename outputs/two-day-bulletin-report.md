@@ -3,17 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 222
-Aktif mac: 27
-Canli mac: 108
-Biten mac: 87
-Bultenden dusurulen mac: 195
-Bugun: 5
+Aktif mac: 24
+Canli mac: 93
+Biten mac: 105
+Bultenden dusurulen mac: 198
+Bugun: 2
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-08-21 22:15 | Portekiz 2.Lig | Tondela - Academica | scheduled | -
-- 2026-08-21 22:15 | İzlanda 1.Lig | Grotta - Ir Reykjavik | scheduled | -
-- 2026-08-21 22:30 | Portekiz 3.Lig Grup A | Fafe - Guimaraes (B) | scheduled | -
 - 2026-08-21 23:00 | Peru Premier Lig Clausura | Alianza Atleti - Sporting Crista | scheduled | -
 - 2026-08-21 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa - Trujillanos | scheduled | -
 - 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | scheduled | -
@@ -40,24 +37,6 @@ Yarin: 22
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 20:00 | İsveç Allsvenskan | Sirius - Hacken | live | -
-- 2026-08-21 20:00 | Portekiz 2.Lig | Benfica (B) - Portimonense | live | -
-- 2026-08-21 20:00 | Danimarka 1.Lig | Fredericia - Aarhus Fremad | live | -
-- 2026-08-21 20:00 | Mısır Premier Lig | Al Zamalek Cai - Al Ittihad Al S | live | -
-- 2026-08-21 20:00 | Mısır Premier Lig | Abu Qair - National Bank O | live | -
-- 2026-08-21 20:00 | Peru Premier Lig Clausura | Fc Cajamarca - Atletico Grau | live | -
-- 2026-08-21 20:00 | Slovenya 2.SNL | Krka Novo Mest - Nd Slovan Ljubl | live | -
-- 2026-08-21 20:00 | Slovenya 2.SNL | Triglav Kranj - Brezice | live | -
-- 2026-08-21 20:00 | Almanya Bölgesel Lig Batı | Sportfreunde S - Monchengladbach | live | -
-- 2026-08-21 20:00 | Danimarka 2.Lig | Fremad Amager - Roskilde | live | -
-- 2026-08-21 20:00 | Danimarka 2.Lig | Thisted - Skive | live | -
-- 2026-08-21 20:00 | Danimarka 2.Lig | B93 Kopenhag - Hellerup Ik | live | -
-- 2026-08-21 20:00 | Danimarka 3.Lig | Bronshoj - Holbæk | live | -
-- 2026-08-21 20:00 | İsveç 2.Lig Norra Götaland | Herrestads - Vanersborgs If | live | -
-- 2026-08-21 20:00 | İsveç 2.Lig Norrland Düşme Grubu | Umea Ff - Ifk Umea | live | -
-- 2026-08-21 20:00 | Ürdün Süper Kupa Yarı Final | Al Faisaly Amm - Al Wihdat Amman | live | -
-- 2026-08-21 20:00 | Hazırlık Kulüpler | Lugo - Ourense Cf | live | -
-- 2026-08-21 20:15 | İsveç 2.Lig Norra Götaland | Vanersborgs Fk - Ifk Skövde | live | -
 - 2026-08-21 20:30 | Avusturya Bundesliga | Ried - Grazer Ak | live | -
 - 2026-08-21 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Union Santa Fe | live | -
 - 2026-08-21 20:30 | Romanya 1.Lig | Petrolul 52 - Rapid Bükreş | live | -
@@ -148,6 +127,9 @@ Yarin: 22
 - 2026-08-21 22:00 | İtalya Serie C Grup C | Ssc Giugliano - Scafatese | live | -
 - 2026-08-21 22:00 | İtalya Serie C Grup C | Bari - Cavese | live | -
 - 2026-08-21 22:00 | Malta Premier Lig Açılış | Marsaxlokk Fc - Hibernians | live | -
+- 2026-08-21 22:15 | Portekiz 2.Lig | Tondela - Academica | live | -
+- 2026-08-21 22:15 | İzlanda 1.Lig | Grotta - Ir Reykjavik | live | -
+- 2026-08-21 22:30 | Portekiz 3.Lig Grup A | Fafe - Guimaraes (B) | live | -
 
 ## Biten Maclar
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
@@ -237,3 +219,21 @@ Yarin: 22
 - 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Lidkopings - Ahlafors If | finished | -
 - 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Husqvarna | finished | -
 - 2026-08-21 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Wahda | finished | -
+- 2026-08-21 20:00 | İsveç Allsvenskan | Sirius - Hacken | finished | -
+- 2026-08-21 20:00 | Portekiz 2.Lig | Benfica (B) - Portimonense | finished | -
+- 2026-08-21 20:00 | Danimarka 1.Lig | Fredericia - Aarhus Fremad | finished | -
+- 2026-08-21 20:00 | Mısır Premier Lig | Al Zamalek Cai - Al Ittihad Al S | finished | -
+- 2026-08-21 20:00 | Mısır Premier Lig | Abu Qair - National Bank O | finished | -
+- 2026-08-21 20:00 | Peru Premier Lig Clausura | Fc Cajamarca - Atletico Grau | finished | -
+- 2026-08-21 20:00 | Slovenya 2.SNL | Krka Novo Mest - Nd Slovan Ljubl | finished | -
+- 2026-08-21 20:00 | Slovenya 2.SNL | Triglav Kranj - Brezice | finished | -
+- 2026-08-21 20:00 | Almanya Bölgesel Lig Batı | Sportfreunde S - Monchengladbach | finished | -
+- 2026-08-21 20:00 | Danimarka 2.Lig | Fremad Amager - Roskilde | finished | -
+- 2026-08-21 20:00 | Danimarka 2.Lig | Thisted - Skive | finished | -
+- 2026-08-21 20:00 | Danimarka 2.Lig | B93 Kopenhag - Hellerup Ik | finished | -
+- 2026-08-21 20:00 | Danimarka 3.Lig | Bronshoj - Holbæk | finished | -
+- 2026-08-21 20:00 | İsveç 2.Lig Norra Götaland | Herrestads - Vanersborgs If | finished | -
+- 2026-08-21 20:00 | İsveç 2.Lig Norrland Düşme Grubu | Umea Ff - Ifk Umea | finished | -
+- 2026-08-21 20:00 | Ürdün Süper Kupa Yarı Final | Al Faisaly Amm - Al Wihdat Amman | finished | -
+- 2026-08-21 20:00 | Hazırlık Kulüpler | Lugo - Ourense Cf | finished | -
+- 2026-08-21 20:15 | İsveç 2.Lig Norra Götaland | Vanersborgs Fk - Ifk Skövde | finished | -
