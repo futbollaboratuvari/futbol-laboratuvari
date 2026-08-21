@@ -32,6 +32,20 @@ function nowTR() {
   return new Date().toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
 }
 
+function dataBranch() {
+  return String(
+    process.env.MEMBERSHIP_VERIFY_BRANCH ||
+    process.env.MEMBERSHIP_PUBLISH_BRANCH ||
+    process.env.VERCEL_GIT_COMMIT_REF ||
+    "main"
+  ).trim() || "main";
+}
+
+function rawDataUrl(filePath) {
+  const branch = encodeURIComponent(dataBranch());
+  return `https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/${branch}/${filePath}?ts=${Date.now()}`;
+}
+
 function readEnvCodes() {
   const envHashes = String(process.env.MEMBERSHIP_CODE_HASHES || "")
     .split(/[\n,;]+/)
@@ -60,8 +74,7 @@ function readEnvCodes() {
 }
 
 async function readManagedCodes() {
-  const url = `https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/membership-codes.json?ts=${Date.now()}`;
-  const response = await fetch(url, { cache: "no-store" });
+  const response = await fetch(rawDataUrl("data/membership-codes.json"), { cache: "no-store" });
   if (!response.ok) return {};
 
   const data = await response.json();
@@ -84,8 +97,7 @@ async function readManagedCodes() {
 }
 
 async function readPermanentUsageLog() {
-  const url = `https://raw.githubusercontent.com/futbollaboratuvari/futbol-laboratuvari/main/data/usage-log.json?ts=${Date.now()}`;
-  const response = await fetch(url, { cache: "no-store" });
+  const response = await fetch(rawDataUrl("data/usage-log.json"), { cache: "no-store" });
   if (!response.ok) return [];
   const data = await response.json();
   return data.records || [];
@@ -128,6 +140,7 @@ module.exports = async function handler(req, res) {
     return res.status(200).json({
       ok: true,
       storage: "permanent-file-read",
+      branch: dataBranch(),
       message: "Kullanim gecmisi kalici dosyadan okunur. Hak dusurme modulu baglandi.",
       records: await getUsageLog()
     });
