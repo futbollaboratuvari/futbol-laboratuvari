@@ -37,6 +37,23 @@ function scoreNumber(value) {
   return Number.isFinite(number) ? number : 0;
 }
 
+function useful(value) {
+  return value !== undefined && value !== null && String(value).trim() !== '';
+}
+
+function firstUseful(...values) {
+  return values.find(useful);
+}
+
+function firstNumber(...values) {
+  for (const value of values) {
+    if (!useful(value)) continue;
+    const number = Number(String(value).replace('%', '').replace(',', '.'));
+    if (Number.isFinite(number)) return number;
+  }
+  return null;
+}
+
 function getTeams(row) {
   const matchName = String(row.match_name || row.match || '');
   const parts = matchName.includes(' VS ') ? matchName.split(' VS ') : [];
@@ -69,27 +86,69 @@ function collectRows() {
   ].filter((x) => rowKey(x).replace(/\|/g, '').trim());
 }
 
+function compactArchiveRow(row, previous = {}, key = '') {
+  const merged = { ...previous, ...row };
+  const teams = getTeams(merged);
+  const homeScore = firstNumber(
+    row.home_score, row.home_goals, row.homeScore, row.ev_sahibi_gol,
+    previous.home_score, previous.home_goals, previous.homeScore, previous.ev_sahibi_gol
+  );
+  const awayScore = firstNumber(
+    row.away_score, row.away_goals, row.awayScore, row.deplasman_gol,
+    previous.away_score, previous.away_goals, previous.awayScore, previous.deplasman_gol
+  );
+  const score = homeScore !== null && awayScore !== null
+    ? `${homeScore}-${awayScore}`
+    : firstUseful(row.score, row.result, row.skor, previous.score, previous.result, previous.skor, '');
+  const previousSources = Array.isArray(previous.sources) ? previous.sources : [];
+  const rowSources = Array.isArray(row.sources) ? row.sources : [];
+  const sources = Array.from(new Set([
+    ...previousSources,
+    ...rowSources,
+    row.row_source,
+    row.source
+  ].filter(useful)));
+
+  return {
+    archive_key: key || row.archive_key || previous.archive_key || rowKey(merged),
+    match_name: firstUseful(row.match_name, row.match, previous.match_name, previous.match, `${teams.home} VS ${teams.away}`),
+    home_team_name: teams.home,
+    away_team_name: teams.away,
+    league: firstUseful(row.league, row.competition_name, row.lig, previous.league, previous.competition_name, previous.lig, 'Unknown League'),
+    date: String(firstUseful(row.date, row.tarih, row.utc_date, previous.date, previous.tarih, previous.utc_date, '')).slice(0, 10),
+    time: firstUseful(row.time, row.saat, row.start_time, previous.time, previous.saat, previous.start_time, '-'),
+    status: firstUseful(row.status, row.liveStatus, previous.status, previous.liveStatus, ''),
+    home_score: homeScore,
+    away_score: awayScore,
+    score,
+    analysis_score: firstNumber(row.analysis_score, row.confidence_score, previous.analysis_score, previous.confidence_score),
+    recommended_market: firstUseful(
+      row.recommended_market, row.suggested_option, row.market, row.selection,
+      previous.recommended_market, previous.suggested_option, previous.market, previous.selection,
+      '-'
+    ),
+    risk_level: firstUseful(row.risk_level, row.risk, previous.risk_level, previous.risk, '-'),
+    value_label: firstUseful(row.value_label, previous.value_label, '-'),
+    match_code: firstUseful(row.match_code, row.matchCode, previous.match_code, previous.matchCode, ''),
+    last_seen_at: new Date().toISOString(),
+    sources
+  };
+}
+
 function buildArchive(oldArchive, rows) {
-  const byKey = { ...(oldArchive.matches_by_key || {}) };
+  const byKey = {};
+
+  for (const [key, row] of Object.entries(oldArchive.matches_by_key || {})) {
+    byKey[key] = compactArchiveRow(row, {}, key);
+  }
+
   for (const row of rows) {
     const key = rowKey(row);
-    const teams = getTeams(row);
-    const previous = byKey[key] || {};
-    byKey[key] = {
-      ...previous,
-      ...row,
-      archive_key: key,
-      match_name: row.match_name || row.match || `${teams.home} VS ${teams.away}`,
-      home_team_name: teams.home,
-      away_team_name: teams.away,
-      league: row.league || row.competition_name || row.lig || 'Unknown League',
-      date: String(row.date || row.tarih || row.utc_date || '').slice(0, 10),
-      time: row.time || row.saat || row.start_time || '-',
-      last_seen_at: new Date().toISOString(),
-      sources: Array.from(new Set([...(previous.sources || []), row.row_source || row.source || 'unknown']))
-    };
+    byKey[key] = compactArchiveRow(row, byKey[key] || {}, key);
   }
+
   return {
+    schema_version: 2,
     updated_at: new Date().toISOString(),
     match_count: Object.keys(byKey).length,
     matches_by_key: byKey
@@ -116,9 +175,9 @@ function buildProfileSet(archive, mode) {
       }
       const profile = profiles[key];
       profile.seen_matches += 1;
-      profile.average_analysis_score += scoreNumber(row.analysis_score || row.score || row.confidence_score);
-      const market = row.recommended_market || row.suggested_option || row.market || row.selection || '-';
-      const risk = row.risk_level || row.risk || '-';
+      profile.average_analysis_score += scoreNumber(row.analysis_score);
+      const market = row.recommended_market || '-';
+      const risk = row.risk_level || '-';
       const value = row.value_label || '-';
       profile.recommended_markets[market] = (profile.recommended_markets[market] || 0) + 1;
       profile.risk_levels[risk] = (profile.risk_levels[risk] || 0) + 1;
@@ -166,4 +225,4 @@ function runProfileLite() {
 }
 
 if (require.main === module) runProfileLite();
-module.exports = { collectRows, buildArchive, buildProfileSet, runProfileLite };
+module.exports = { collectRows, compactArchiveRow, buildArchive, buildProfileSet, runProfileLite };
