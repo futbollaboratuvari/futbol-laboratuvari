@@ -1,11 +1,11 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-21T20:15:14.322Z
-- Ham fixture sayisi: 7890
-- Bugun/yarin kaynak mac: 222
-- Aktif bulten maci: 22
+- Guncelleme: 2026-08-21T21:00:07.875Z
+- Ham fixture sayisi: 7896
+- Bugun/yarin kaynak mac: 28
+- Aktif bulten maci: 28
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 200
+- Bultenden dusurulen mac: 0
 
 - 1. 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | scheduled
 - 2. 2026-08-22 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ca Mitre | scheduled
