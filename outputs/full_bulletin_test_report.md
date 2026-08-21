@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 24
-- Live match count: 93
+- Scheduled match count: 22
+- Live match count: 58
 - Finished removed count: 0
 - Date window: 2026-08-21 / 2026-08-22 23:59
 
-- 2026-08-21 20:30 | Aldosivi - Union Santa Fe | live
-- 2026-08-21 20:30 | Ried - Grazer Ak | live
-- 2026-08-21 20:30 | Vikingur Gota - B36 Torshavn | live
-- 2026-08-21 20:30 | Colegios Dioce - Galapagar | live
-- 2026-08-21 20:30 | Neuchatel Xama - Stade Ouchy | live
-- 2026-08-21 20:30 | Stade Nyonnais - Etoile Carouge | live
-- 2026-08-21 20:30 | Petrolul 52 - Rapid Bükreş | live
-- 2026-08-21 20:50 | Al Wahda - Al Adalah | live
-- 2026-08-21 21:00 | Acassuso - Godoy Cruz | live
-- 2026-08-21 21:00 | Lokeren-Temse - Eupen | live
+- 2026-08-21 21:15 | Cherno More - Dunav | live
+- 2026-08-21 21:15 | Rappersvil Jon - Winterthur | live
+- 2026-08-21 21:15 | Olimpija Ljubl - Nafta | live
+- 2026-08-21 21:30 | San Telmo - Moron | live
+- 2026-08-21 21:30 | Admira Wacker - First Vienna | live
+- 2026-08-21 21:30 | Afan Lido - Pontardawe | live
+- 2026-08-21 21:30 | Newport City - Baglan Dragons | live
+- 2026-08-21 21:30 | Pontypridd Tow - Trethomas Blueb | live
+- 2026-08-21 21:30 | Holyhead - Bangor | live
+- 2026-08-21 21:30 | Puente Genil - Linares Deporti | live

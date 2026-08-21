@@ -3,16 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 222
-Aktif mac: 24
-Canli mac: 93
-Biten mac: 105
-Bultenden dusurulen mac: 198
-Bugun: 2
+Aktif mac: 22
+Canli mac: 58
+Biten mac: 142
+Bultenden dusurulen mac: 200
+Bugun: 0
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-08-21 23:00 | Peru Premier Lig Clausura | Alianza Atleti - Sporting Crista | scheduled | -
-- 2026-08-21 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa - Trujillanos | scheduled | -
 - 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | scheduled | -
 - 2026-08-22 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ca Mitre | scheduled | -
 - 2026-08-22 01:00 | Uruguay Premier Lig Clausura | Liverpool Mont - Cerro | scheduled | -
@@ -37,43 +35,6 @@ Yarin: 22
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 20:30 | Avusturya Bundesliga | Ried - Grazer Ak | live | -
-- 2026-08-21 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Union Santa Fe | live | -
-- 2026-08-21 20:30 | Romanya 1.Lig | Petrolul 52 - Rapid Bükreş | live | -
-- 2026-08-21 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Stade Ouchy | live | -
-- 2026-08-21 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Etoile Carouge | live | -
-- 2026-08-21 20:30 | Faroe Adaları Master Lig | Vikingur Gota - B36 Torshavn | live | -
-- 2026-08-21 20:30 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | live | -
-- 2026-08-21 20:50 | Suudi Arabistan 1.Lig | Al Wahda - Al Adalah | live | -
-- 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al Faisaly - Neom Sc | live | -
-- 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ittihad (Cid | live | -
-- 2026-08-21 21:00 | Fransa Ligue 2 | Dunkerque - Montpellier | live | -
-- 2026-08-21 21:00 | Fransa Ligue 2 | Boulogne - Red Star Paris | live | -
-- 2026-08-21 21:00 | Fransa Ligue 2 | Pau Fc - Nancy | live | -
-- 2026-08-21 21:00 | Fransa Ligue 2 | Clermont - Dijon | live | -
-- 2026-08-21 21:00 | Fransa Ligue 2 | Sochaux - Guingamp | live | -
-- 2026-08-21 21:00 | Hollanda Eerste Divisie | Helmond Sport - Waalwijk | live | -
-- 2026-08-21 21:00 | Hollanda Eerste Divisie | Dordrecht - Roda | live | -
-- 2026-08-21 21:00 | Hollanda Eerste Divisie | Emmen - Jong Az Alkmaar | live | -
-- 2026-08-21 21:00 | Hollanda Eerste Divisie | Maastricht - Volendam | live | -
-- 2026-08-21 21:00 | Hollanda Eerste Divisie | Den Bosch - Fc Eindhoven | live | -
-- 2026-08-21 21:00 | Hollanda Eerste Divisie | Vitesse - Almere City | live | -
-- 2026-08-21 21:00 | Hırvatistan 1.HNL | Rudes - Lokomotiva | live | -
-- 2026-08-21 21:00 | Belçika Challenger Pro Lig | Lokeren-Temse - Eupen | live | -
-- 2026-08-21 21:00 | Belçika Challenger Pro Lig | Rsc Anderlecht - Excelsior Virto | live | -
-- 2026-08-21 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Godoy Cruz | live | -
-- 2026-08-21 21:00 | İzlanda 1.Lig | Aegir - Afturelding | live | -
-- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Bournemouth U2 - Chelsea (B) | live | -
-- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Fulham (B) - Burnley U21 | live | -
-- 2026-08-21 21:00 | İngiltere Premier Lig 2 | West Ham (B) - Southampton (B) | live | -
-- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Stoke (B) - Brentford U21 | live | -
-- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Aston Villa U2 - Brighton (B) | live | -
-- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Leicester (B) - Blackburn Rover | live | -
-- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Everton (B) - Liverpool U21 | live | -
-- 2026-08-21 21:00 | Bosna-Hersek Premier Lig | Sarajevo - Bsk Banja Luka | live | -
-- 2026-08-21 21:00 | Galler FAW Championship Kuzey | Mold Alexandra - Buckley Town | live | -
-- 2026-08-21 21:00 | Hazırlık Kulüpler | Lorca Deportiv - Atletico Pulpil | live | -
-- 2026-08-21 21:00 | Irak Premier Lig | Al Karma - Al Shorta | live | -
 - 2026-08-21 21:15 | Bulgaristan 1.Lig | Cherno More - Dunav 2010 | live | -
 - 2026-08-21 21:15 | İsviçre Challenge Lig | Rappersvil Jon - Winterthur | live | -
 - 2026-08-21 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Nafta | live | -
@@ -130,6 +91,8 @@ Yarin: 22
 - 2026-08-21 22:15 | Portekiz 2.Lig | Tondela - Academica | live | -
 - 2026-08-21 22:15 | İzlanda 1.Lig | Grotta - Ir Reykjavik | live | -
 - 2026-08-21 22:30 | Portekiz 3.Lig Grup A | Fafe - Guimaraes (B) | live | -
+- 2026-08-21 23:00 | Peru Premier Lig Clausura | Alianza Atleti - Sporting Crista | live | -
+- 2026-08-21 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa - Trujillanos | live | -
 
 ## Biten Maclar
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
@@ -237,3 +200,40 @@ Yarin: 22
 - 2026-08-21 20:00 | Ürdün Süper Kupa Yarı Final | Al Faisaly Amm - Al Wihdat Amman | finished | -
 - 2026-08-21 20:00 | Hazırlık Kulüpler | Lugo - Ourense Cf | finished | -
 - 2026-08-21 20:15 | İsveç 2.Lig Norra Götaland | Vanersborgs Fk - Ifk Skövde | finished | -
+- 2026-08-21 20:30 | Avusturya Bundesliga | Ried - Grazer Ak | finished | -
+- 2026-08-21 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Union Santa Fe | finished | -
+- 2026-08-21 20:30 | Romanya 1.Lig | Petrolul 52 - Rapid Bükreş | finished | -
+- 2026-08-21 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Stade Ouchy | finished | -
+- 2026-08-21 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Etoile Carouge | finished | -
+- 2026-08-21 20:30 | Faroe Adaları Master Lig | Vikingur Gota - B36 Torshavn | finished | -
+- 2026-08-21 20:30 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | finished | -
+- 2026-08-21 20:50 | Suudi Arabistan 1.Lig | Al Wahda - Al Adalah | finished | -
+- 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al Faisaly - Neom Sc | finished | -
+- 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ittihad (Cid | finished | -
+- 2026-08-21 21:00 | Fransa Ligue 2 | Dunkerque - Montpellier | finished | -
+- 2026-08-21 21:00 | Fransa Ligue 2 | Boulogne - Red Star Paris | finished | -
+- 2026-08-21 21:00 | Fransa Ligue 2 | Pau Fc - Nancy | finished | -
+- 2026-08-21 21:00 | Fransa Ligue 2 | Clermont - Dijon | finished | -
+- 2026-08-21 21:00 | Fransa Ligue 2 | Sochaux - Guingamp | finished | -
+- 2026-08-21 21:00 | Hollanda Eerste Divisie | Helmond Sport - Waalwijk | finished | -
+- 2026-08-21 21:00 | Hollanda Eerste Divisie | Dordrecht - Roda | finished | -
+- 2026-08-21 21:00 | Hollanda Eerste Divisie | Emmen - Jong Az Alkmaar | finished | -
+- 2026-08-21 21:00 | Hollanda Eerste Divisie | Maastricht - Volendam | finished | -
+- 2026-08-21 21:00 | Hollanda Eerste Divisie | Den Bosch - Fc Eindhoven | finished | -
+- 2026-08-21 21:00 | Hollanda Eerste Divisie | Vitesse - Almere City | finished | -
+- 2026-08-21 21:00 | Hırvatistan 1.HNL | Rudes - Lokomotiva | finished | -
+- 2026-08-21 21:00 | Belçika Challenger Pro Lig | Lokeren-Temse - Eupen | finished | -
+- 2026-08-21 21:00 | Belçika Challenger Pro Lig | Rsc Anderlecht - Excelsior Virto | finished | -
+- 2026-08-21 21:00 | Arjantin Ulusal Primera Lig | Acassuso - Godoy Cruz | finished | -
+- 2026-08-21 21:00 | İzlanda 1.Lig | Aegir - Afturelding | finished | -
+- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Bournemouth U2 - Chelsea (B) | finished | -
+- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Fulham (B) - Burnley U21 | finished | -
+- 2026-08-21 21:00 | İngiltere Premier Lig 2 | West Ham (B) - Southampton (B) | finished | -
+- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Stoke (B) - Brentford U21 | finished | -
+- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Aston Villa U2 - Brighton (B) | finished | -
+- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Leicester (B) - Blackburn Rover | finished | -
+- 2026-08-21 21:00 | İngiltere Premier Lig 2 | Everton (B) - Liverpool U21 | finished | -
+- 2026-08-21 21:00 | Bosna-Hersek Premier Lig | Sarajevo - Bsk Banja Luka | finished | -
+- 2026-08-21 21:00 | Galler FAW Championship Kuzey | Mold Alexandra - Buckley Town | finished | -
+- 2026-08-21 21:00 | Hazırlık Kulüpler | Lorca Deportiv - Atletico Pulpil | finished | -
+- 2026-08-21 21:00 | Irak Premier Lig | Al Karma - Al Shorta | finished | -

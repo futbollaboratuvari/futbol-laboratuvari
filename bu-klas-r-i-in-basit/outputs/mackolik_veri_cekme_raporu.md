@@ -1,23 +1,36 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T20:01:05.951878+00:00
+Tarih: 2026-08-21T20:15:11.096350+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 4
+- Durum: success
+- Kac mac bulundu: 23
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Kac mac zaten vardi: 23
+- Ham veri havuzu toplam mac sayisi: 7931
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
+- Arjantin Ulusal Primera Lig
+- Avustralya NPL Başkent Bölgesi
+- Avustralya Victoria NPL 1
+- Bolivya Premier Lig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
+- Honduras Ulusal Lig Apertura
+- Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Mısır 2. Lig
-- Peru Premier Lig Clausura
 - Slovenya 2.SNL
+- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -74,26 +87,41 @@ Tarih: 2026-08-21T20:01:05.951878+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 20
-- Acilan detay: 20
+- Denenen Tumu alani: 18
+- Acilan detay: 18
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 21.08.2026 | 23:00 | Peru Premier Lig Clausura | Alianza Atleti | Sporting Crista | 26749 | 5 |
-| 21.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa | Trujillanos | 04940 | 5 |
+| 22.08.2026 | 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto | San Lorenzo | 31899 | 5 |
+| 22.08.2026 | 04:00 | Meksika Liga MX Apertura | Tigres Uanl | Atlante | 26311 | 5 |
+| 22.08.2026 | 06:10 | Meksika Liga MX Apertura | Fc Juarez | Club America | 26370 | 5 |
+| 22.08.2026 | 06:10 | Meksika Liga MX Apertura | Queretaro | Toluca | 26446 | 5 |
+| 22.08.2026 | 04:00 | Meksika Liga MX Apertura | Club Leon | Monterrey | 26269 | 5 |
+| 22.08.2026 | 00:05 | Kolombiya Primera A Clausura | Jaguares | Chico | 43963 | 5 |
+| 22.08.2026 | 03:30 | Kolombiya Primera A Clausura | Alianza Petrol | Pereira | 43980 | 5 |
+| 22.08.2026 | 02:00 | Venezuela Premier Lig Clausura | Caracas Fc | Carabobo | 43337 | 5 |
+| 22.08.2026 | 03:30 | Şili Premier Lig | Audax Italiano | Union La Calera | 36426 | 5 |
+| 22.08.2026 | 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr | Ca Mitre | 31882 | 3 |
 | 21.08.2026 | 20:00 | Slovenya 2.SNL | Triglav Kranj | Brezice | 46491 | 5 |
-| 21.08.2026 | 16:30 | Mısır 2. Lig | Ismaily | Masar | 02086 | 5 |
+| 22.08.2026 | 01:00 | Uruguay Premier Lig Clausura | Liverpool Mont | Cerro | 11747 | 5 |
+| 22.08.2026 | 06:00 | Meksika Ascenso MX Apertura | Ca La Paz | Cruz Azul Hidal | 26353 | 3 |
+| 22.08.2026 | 04:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc | Perez Zeledon | 04975 | 5 |
+| 22.08.2026 | 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp | Brindabella Blu | 08905 | 3 |
+| 22.08.2026 | 03:00 | Ekvador Pro Lig | Deportivo Cuen | Mushuc Runa | 25830 | 5 |
+| 22.08.2026 | 03:00 | Ekvador Pro Lig | Leones Del Nor | Indep. Jose Ter | 25863 | 5 |
+| 22.08.2026 | 07:00 | Avustralya Victoria NPL 1 | Port Melbourne | Eltham Redbacks | 08843 | 3 |
+| 22.08.2026 | 01:30 | Bolivya Premier Lig | The Strongest | Universitario D | 26377 | 3 |
+| 22.08.2026 | 03:30 | Bolivya Premier Lig | Oriente Petrol | San Antonio Bul | 26411 | 3 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
