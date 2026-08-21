@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.08.2026 16:30:28
+Oluşturma: 21.08.2026 16:39:58
 
 ## Özet
 
-- Toplam tahmin: 127
-- Bekleyen tahmin: 127
+- Toplam tahmin: 128
+- Bekleyen tahmin: 128
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 62
@@ -20,12 +20,13 @@ Oluşturma: 21.08.2026 16:30:28
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 47, bekleyen 47, başarı bekleniyor, ağırlık 1
 - MS X: toplam 72, bekleyen 72, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-21 | Hazırlık Kulüpler | Lugo - Ourense Cf | MS 2 | pending | 50/100
 - 2026-08-21 | Avusturya 1.Lig | Austria Salzbu - Kapfenberg | MS X | pending | 50/100
 - 2026-08-21 | Slovenya 2.SNL | Krka Novo Mest - Nd Slovan Ljubl | MS 2 | pending | 50/100
 - 2026-08-21 | Hırvatistan 2.HNL | Zdralovi - Vukovar | MS 1 | pending | 40/100
@@ -40,5 +41,4 @@ Oluşturma: 21.08.2026 16:30:28
 - 2026-08-21 | Kuzey İrlanda Premiership | Linfield - Cliftonville | MS X | pending | 50/100
 - 2026-08-21 | İrlanda 1.Lig | Kerry - Ucd | MS X | pending | 50/100
 - 2026-08-21 | İrlanda 1.Lig | Wexford Youths - Athlone | MS X | pending | 50/100
-- 2026-08-21 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | MS X | pending | 50/100
 
