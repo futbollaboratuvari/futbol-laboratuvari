@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 80
-- Live match count: 91
-- Finished removed count: 0
+- Scheduled match count: 77
+- Live match count: 69
+- Finished removed count: 2
 - Date window: 2026-08-21 / 2026-08-22 23:59
 
-- 2026-08-21 18:50 | Al Jeel - Al Zulfi | live
-- 2026-08-21 19:00 | Preussen Munst - Karlsruhe | live
-- 2026-08-21 19:00 | Sc St. Tönis - E.Frankfurt | live
-- 2026-08-21 19:00 | Waldhof Mannhe - Kaiserslautern | live
-- 2026-08-21 19:00 | Jihlava - Sezimivo Usti | live
-- 2026-08-21 19:00 | Karvina - Viktoria Zizkov | live
-- 2026-08-21 19:00 | Opava - Trinec | live
-- 2026-08-21 19:00 | Prostejov - Kladno | live
-- 2026-08-21 19:00 | Usti Nad Labem - Dukla Prag | live
-- 2026-08-21 19:00 | Vlasim - Pribram | live
+- 2026-08-21 19:20 | Union Berlin ( - Bayern München | live
+- 2026-08-21 19:30 | Amstetten - Wspg Wels | live
+- 2026-08-21 19:30 | Austria Salzbu - Kapfenberg | live
+- 2026-08-21 19:30 | Liefering - Avusturya Wien | live
+- 2026-08-21 19:30 | Wacker Innsbru - St Polten | live
+- 2026-08-21 19:30 | Ifk Kumla - Husqvarna | live
+- 2026-08-21 19:30 | Lidkopings - Ahlafors If | live
+- 2026-08-21 19:30 | Al Arabi - Al Shamal | live
+- 2026-08-21 19:30 | Floriana - Sliema | live
+- 2026-08-21 19:30 | Torpedo Moskov - Spartak Kostrom | live
