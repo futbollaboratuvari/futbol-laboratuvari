@@ -1,25 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-<<<<<<< Updated upstream
-Tarih: 2026-08-21T08:05:49.533634+00:00
-=======
-Tarih: 2026-08-21T08:10:59.934612+00:00
->>>>>>> Stashed changes
+Tarih: 2026-08-21T09:28:45.288740+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-<<<<<<< Updated upstream
-- Kac mac bulundu: 196
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 196
-=======
-- Kac mac bulundu: 175
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 175
->>>>>>> Stashed changes
-- Ham veri havuzu toplam mac sayisi: 7917
+- Kac mac bulundu: 198
+- Kac mac kaydedildi: 3
+- Kac mac zaten vardi: 195
+- Ham veri havuzu toplam mac sayisi: 7920
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -35,6 +25,7 @@ Tarih: 2026-08-21T08:10:59.934612+00:00
 - Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
+- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -111,6 +102,7 @@ Tarih: 2026-08-21T08:10:59.934612+00:00
 - İsveç 2.Lig Södra Götaland
 - İsveç Allsvenskan
 - İsviçre Challenge Lig
+- İtalya Serie A Kadınlar Kupası Grup A
 - İtalya Serie B
 - İtalya Serie C Grup A
 - İtalya Serie C Grup B

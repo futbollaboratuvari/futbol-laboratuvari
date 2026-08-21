@@ -1,14 +1,13 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-21 / 2026-08-22
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 208
-Aktif mac: 195
+Kaynak: fixtures.json
+Ham mac: 211
+Aktif mac: 198
 Canli mac: 1
 Biten mac: 12
 Bultenden dusurulen mac: 13
-Bugun: 174
+Bugun: 177
 Yarin: 21
 
 ## Baslamamis Maclar
@@ -30,6 +29,8 @@ Yarin: 21
 - 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | scheduled | -
 - 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | scheduled | -
 - 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | scheduled | -
+- 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | scheduled | -
+- 2026-08-21 17:45 | Belarus 1.Lig | Molodechno - Soligorsk | scheduled | -
 - 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | scheduled | -
 - 2026-08-21 18:00 | Slovenya 2.SNL | Jadran Dekani - Jesenice | scheduled | -
 - 2026-08-21 18:00 | Letonya Virsliga | Liepaja - Grobina | scheduled | -
@@ -148,6 +149,7 @@ Yarin: 21
 - 2026-08-21 21:30 | Galler FAW Championship Güney | Afan Lido - Pontardawe | scheduled | -
 - 2026-08-21 21:30 | Galler FAW Championship Güney | Newport City - Baglan Dragons | scheduled | -
 - 2026-08-21 21:30 | Türkiye TFF 1. Lig | Fatih Karagümr - Bursaspor | scheduled | -
+- 2026-08-21 21:30 | İtalya Serie A Kadınlar Kupası Grup A | Parma (K) - Inter Milano (K | scheduled | -
 - 2026-08-21 21:45 | Fransa Ligue 1 | Marsilya - Strasbourg | scheduled | -
 - 2026-08-21 21:45 | Belçika Pro Lig | Standard Liege - La Louvière | scheduled | -
 - 2026-08-21 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock - Stuttgart | scheduled | -
