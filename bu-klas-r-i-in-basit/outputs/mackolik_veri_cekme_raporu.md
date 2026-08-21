@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T04:04:33.898003+00:00
+Tarih: 2026-08-21T04:54:47.801306+00:00
 
 ## Ozet
 
@@ -175,7 +175,7 @@ Tarih: 2026-08-21T04:04:33.898003+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 21.08.2026 | 21:30 | Türkiye Süper Lig | Erzurumspor Fk | Galatasaray | 02227 | 5 |
-| 21.08.2026 | 22:00 | İngiltere Premier Lig | Arsenal | Coventry | 34527 | 4 |
+| 21.08.2026 | 22:00 | İngiltere Premier Lig | Arsenal | Coventry | 34527 | 5 |
 | 21.08.2026 | 22:00 | İspanya LaLiga | Real Betis | Real Sociedad | 06887 | 5 |
 | 21.08.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Strasbourg | 01940 | 5 |
 | 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Faisaly | Neom Sc | 22590 | 5 |
