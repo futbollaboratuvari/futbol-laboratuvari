@@ -122,12 +122,6 @@
     localStorage.setItem(CUSTOMER_KEY, JSON.stringify(customer));
     allowOriginalTrialClick = true;
     original.click();
-    setTimeout(() => {
-      const current = root.querySelector("[data-membership-output]");
-      if (current && current.innerHTML.includes("PayTR")) {
-        current.innerHTML = current.innerHTML.replace(/PayTR[^<]*Şimdilik üyelik kodu manuel verilecek\./, "Satın alma Havale / EFT / FAST ile yapılır.");
-      }
-    }, 20);
   }
 
   function addStyle() {
@@ -151,7 +145,7 @@
     const note = root.querySelector(".membership-customer-note");
     if (note) note.textContent = "Ödeme talebi oluşmadan para göndermeyin.";
     const small = root.querySelector(".membership-small");
-    if (small) small.textContent = "Kart/PayTR kullanılmaz. Satın alma Havale / EFT / FAST ile yapılır.";
+    if (small) small.textContent = "Kartlı ödeme kullanılmaz. Satın alma Havale / EFT / FAST ile yapılır.";
 
     root.querySelectorAll(".membership-pay[data-plan]").forEach((button) => {
       if (button.dataset.bankBridgeEnhanced === "1") return;
