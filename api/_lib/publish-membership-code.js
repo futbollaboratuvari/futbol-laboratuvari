@@ -3,16 +3,21 @@ const { getUsageToken } = require("../lib/usage-token");
 
 const MEMBERSHIP_PATH = "data/membership-codes.json";
 
+function targetBranch() {
+  return String(process.env.MEMBERSHIP_PUBLISH_BRANCH || "main").trim() || "main";
+}
+
 async function publishMembershipCode(record) {
   const token = getUsageToken();
   if (!token) throw new Error("Membership publish token missing");
 
-  const current = await readJsonFile(token, MEMBERSHIP_PATH);
+  const branch = targetBranch();
+  const current = await readJsonFile(token, MEMBERSHIP_PATH, branch);
   const codes = Array.isArray(current.data.codes) ? current.data.codes : [];
   const hash = String(record.codeHash || "").toLowerCase();
 
   if (codes.some(item => String(item.codeHash || "").toLowerCase() === hash)) {
-    return { published: true, reason: "already-exists" };
+    return { published: true, reason: "already-exists", branch };
   }
 
   const safeRecord = {
@@ -34,8 +39,15 @@ async function publishMembershipCode(record) {
     codes: [safeRecord, ...codes],
   };
 
-  await writeJsonFile(token, MEMBERSHIP_PATH, current.sha, nextData, "Banka transferi odemesi icin uyelik kodu eklendi");
-  return { published: true, reason: "created" };
+  await writeJsonFile(
+    token,
+    MEMBERSHIP_PATH,
+    current.sha,
+    nextData,
+    "Banka transferi odemesi icin uyelik kodu eklendi",
+    branch
+  );
+  return { published: true, reason: "created", branch };
 }
 
 module.exports = { publishMembershipCode };
