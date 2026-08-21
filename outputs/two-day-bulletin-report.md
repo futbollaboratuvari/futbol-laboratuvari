@@ -3,16 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 198
-Aktif mac: 191
-Canli mac: 7
+Aktif mac: 189
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 170
+Bultenden dusurulen mac: 9
+Bugun: 168
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | scheduled | -
-- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | scheduled | -
 - 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | scheduled | -
 - 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | scheduled | -
 - 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | scheduled | -
@@ -211,6 +209,8 @@ Yarin: 21
 - 2026-08-21 16:30 | Mısır 2. Lig | El Saka El Had - Tersana | live | -
 - 2026-08-21 16:30 | Mısır 2. Lig | Ismaily - Masar | live | -
 - 2026-08-21 16:30 | Mısır 2. Lig | Derot - Maleyet Kafr El | live | -
+- 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | live | -
+- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | live | -
 
 ## Biten Maclar
 Biten mac yok.
