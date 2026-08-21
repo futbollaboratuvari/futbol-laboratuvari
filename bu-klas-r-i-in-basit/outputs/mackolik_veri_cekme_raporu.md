@@ -1,22 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T21:28:29.549244+00:00
+Tarih: 2026-08-21T21:47:02.888621+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 594
-- Kac mac kaydedildi: 588
-- Kac mac zaten vardi: 6
-- Ham veri havuzu toplam mac sayisi: 8525
+- Kac mac bulundu: 521
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 520
+- Ham veri havuzu toplam mac sayisi: 8526
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Final
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Güney Batı
@@ -28,7 +25,6 @@ Tarih: 2026-08-21T21:28:29.549244+00:00
 - Avustralya NPL Batı Avustralya
 - Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Güney Avustralya Eleme Final
-- Avustralya NPL Kuzey YGG Eleme Final
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
 - Avustralya U20 NSW NPL 1
@@ -44,13 +40,11 @@ Tarih: 2026-08-21T21:28:29.549244+00:00
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
@@ -60,7 +54,6 @@ Tarih: 2026-08-21T21:28:29.549244+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Yarı Final
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
@@ -71,7 +64,6 @@ Tarih: 2026-08-21T21:28:29.549244+00:00
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
@@ -82,7 +74,6 @@ Tarih: 2026-08-21T21:28:29.549244+00:00
 - Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -92,11 +83,8 @@ Tarih: 2026-08-21T21:28:29.549244+00:00
 - Macaristan NB II
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Mısır Premier Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
@@ -167,7 +155,6 @@ Tarih: 2026-08-21T21:28:29.549244+00:00
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
