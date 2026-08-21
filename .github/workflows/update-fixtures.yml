@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-fixtures-live-data
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   update-fixtures:

@@ -2,7 +2,7 @@ name: Update profile archive
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "5,20,35,50 * * * *"
   workflow_dispatch:
   push:
     branches:
@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-profile-archive
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   update-profile-archive:

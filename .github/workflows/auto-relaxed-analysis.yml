@@ -3,15 +3,21 @@ name: Auto relaxed analysis
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - "package.json"
       - "scripts/**"
       - ".github/workflows/auto-relaxed-analysis.yml"
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "10,40 * * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   auto-relaxed-analysis:
