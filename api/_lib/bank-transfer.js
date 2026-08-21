@@ -13,7 +13,7 @@ function validEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizeEmail(value));
 }
 
-function randomToken(bytes = 3) {
+function randomToken(bytes = 5) {
   return crypto.randomBytes(bytes).toString("hex").toUpperCase();
 }
 
@@ -26,7 +26,7 @@ function orderCode(now = new Date()) {
   }).formatToParts(now);
   const map = Object.fromEntries(parts.map(part => [part.type, part.value]));
   const date = `${map.year}${map.month}${map.day}`;
-  return `FL-${date}-${randomToken(3)}`;
+  return `FL-${date}-${randomToken(5)}`;
 }
 
 function normalizeIban(value) {
