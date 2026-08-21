@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Futbol Laboratuvarı | Banka Ödemeleri</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#020611;color:#f8fbff;font-family:Arial,sans-serif}.wrap{width:min(1180px,100%);margin:auto;padding:24px}.panel{padding:18px;margin-bottom:16px;border:1px solid rgba(57,255,136,.22);border-radius:20px;background:#061126}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}input,select{min-height:42px;border:1px solid rgba(255,255,255,.14);border-radius:11px;background:#020817;color:#fff;padding:0 12px}input{min-width:310px}button,.link{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);color:#06110d;font-weight:900;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.link.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff}button:disabled{opacity:.5;cursor:not-allowed}table{width:100%;border-collapse:collapse;min-width:900px}th,td{padding:10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;font-size:13px}th{color:#ffe08a}.scroll{overflow:auto}.muted{color:#9fb0c7}.ok{color:#39ff88}.err{color:#ff9da6}.code{font-weight:900;color:#ffe08a}.warning{padding:12px;border:1px solid rgba(255,224,138,.28);border-radius:12px;background:rgba(255,224,138,.08);color:#ffe08a;line-height:1.5}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <section class="panel">
+    <div class="row" style="justify-content:space-between"><div><h1 style="margin:0 0 8px">Banka Ödemeleri</h1><p class="muted" style="margin:0">Havale / EFT / FAST siparişlerini kontrol et.</p></div><div class="row"><a class="link secondary" href="./admin.html">Kod Yönetimi</a><a class="link secondary" href="./index.html">Ana Site</a></div></div>
+    <p class="warning"><strong>Önemli:</strong> “Ödemeyi Onayla” butonuna yalnız tutar ve FL-... açıklama kodu banka hesabında gerçekten görüldüğünde bas. Admin anahtarı tarayıcıda kaydedilmez.</p>
+    <div class="row"><input id="secret" type="password" autocomplete="off" placeholder="Ödeme admin anahtarı"><select id="status"><option value="payment_reported">Ödeme bildirildi</option><option value="pending">Bekliyor</option><option value="paid">Ödendi</option></select><button id="load">Listeyi Getir</button></div><p id="msg" class="muted"></p>
+  </section>
+  <section class="panel scroll"><table><thead><tr><th>Sipariş</th><th>Müşteri</th><th>Paket</th><th>Tutar</th><th>Açıklama</th><th>Durum</th><th>İşlem</th></tr></thead><tbody id="rows"></tbody></table></section>
+</div>
+<script>
+  const BASE='https://lnngvkitcwwgrljtjwsd.supabase.co/functions/v1/fl-bank-transfer';
+  const $=s=>document.querySelector(s);
+  const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+  const money=k=>new Intl.NumberFormat('tr-TR',{style:'currency',currency:'TRY'}).format(Number(k||0)/100);
+  const setMsg=(text,type='muted')=>{$('#msg').className=type;$('#msg').textContent=text;};
+  async function api(action,options={}){
+    const secret=$('#secret').value.trim();
+    if(!secret) throw new Error('Ödeme admin anahtarı girilmedi.');
+    const r=await fetch(`${BASE}?action=${encodeURIComponent(action)}`,{...options,mode:'cors',credentials:'omit',cache:'no-store',headers:{'Content-Type':'application/json','x-admin-payment-secret':secret,...(options.headers||{})}});
+    const d=await r.json().catch(()=>({}));
+    if(!r.ok||d.ok===false) throw new Error(d.error||d.message||'İşlem başarısız');
+    return d;
+  }
+  async function load(){
+    setMsg('Yükleniyor...');
+    try{
+      const d=await api('admin-orders',{method:'POST',body:JSON.stringify({status:$('#status').value})});
+      $('#rows').innerHTML=(d.orders||[]).map(o=>`<tr><td class="code">${esc(o.order_code)}</td><td>${esc(o.customer_name)}<br><span class="muted">${esc(o.email)} · ${esc(o.phone)}</span></td><td>${esc(o.plan_name)}</td><td>${esc(money(o.amount_kurus))}</td><td class="code">${esc(o.payment_reference)}</td><td>${esc(o.status)}</td><td>${['pending','payment_reported'].includes(o.status)?`<button data-approve="${esc(o.order_code)}" data-amount="${esc(money(o.amount_kurus))}" data-ref="${esc(o.payment_reference)}">Ödemeyi Onayla</button>`:'-'}</td></tr>`).join('');
+      setMsg(`${(d.orders||[]).length} kayıt bulundu.`,'ok');
+      document.querySelectorAll('[data-approve]').forEach(btn=>btn.onclick=()=>approve(btn));
+    }catch(e){setMsg(e.message,'err');}
+  }
+  async function approve(button){
+    const orderCode=button.dataset.approve,amount=button.dataset.amount,ref=button.dataset.ref;
+    if(!confirm(`${orderCode}\n${amount}\nAçıklama: ${ref}\n\nBu transfer banka hesabında gerçekten görünüyor mu?`)) return;
+    button.disabled=true;
+    try{
+      const d=await api('approve',{method:'POST',body:JSON.stringify({order_code:orderCode,approved_by:'bank-transfer-admin'})});
+      alert('Ödeme onaylandı. Üyelik kodu: '+(d.membership_code||''));
+      await load();
+    }catch(e){alert(e.message);}finally{button.disabled=false;}
+  }
+  $('#load').onclick=load;
+  $('#status').onchange=()=>{if($('#secret').value.trim())load();};
+</script>
+</body>
+</html>
