@@ -1,38 +1,40 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-21T19:36:26.733194+00:00
+=======
+Tarih: 2026-08-21T19:40:51.813214+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 26
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 26
+=======
+- Kac mac bulundu: 5
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 5
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 7931
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Başkent Bölgesi
-- Avustralya Victoria NPL 1
-- Bolivya Premier Lig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Honduras Ulusal Lig Apertura
-- Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Peru Premier Lig Clausura
 - Slovenya 2.SNL
+<<<<<<< Updated upstream
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Şili Premier Lig
+=======
+- Venezuela Premier Lig Clausura
+>>>>>>> Stashed changes
 
 ## Okunabilen Oran Alanlari
 
@@ -103,6 +105,7 @@ Tarih: 2026-08-21T19:36:26.733194+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+<<<<<<< Updated upstream
 | 22.08.2026 | 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto | San Lorenzo | 31899 | 5 |
 | 22.08.2026 | 06:10 | Meksika Liga MX Apertura | Queretaro | Toluca | 26446 | 5 |
 | 22.08.2026 | 06:10 | Meksika Liga MX Apertura | Fc Juarez | Club America | 26370 | 5 |
@@ -123,6 +126,13 @@ Tarih: 2026-08-21T19:36:26.733194+00:00
 | 22.08.2026 | 03:00 | Ekvador Pro Lig | Leones Del Nor | Indep. Jose Ter | 25863 | 5 |
 | 22.08.2026 | 03:00 | Ekvador Pro Lig | Deportivo Cuen | Mushuc Runa | 25830 | 5 |
 | 22.08.2026 | 07:00 | Avustralya Victoria NPL 1 | Port Melbourne | Eltham Redbacks | 08843 | 3 |
+=======
+| 21.08.2026 | 23:00 | Peru Premier Lig Clausura | Alianza Atleti | Sporting Crista | 26749 | 5 |
+| 21.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Academia Anzoa | Trujillanos | 04940 | 5 |
+| 21.08.2026 | 20:00 | Slovenya 2.SNL | Triglav Kranj | Brezice | 46491 | 5 |
+| 21.08.2026 | 16:30 | Mısır 2. Lig | Ismaily | Masar | 02086 | 5 |
+| 21.08.2026 | 22:00 | Malta Premier Lig Açılış | Marsaxlokk Fc | Hibernians | 10374 | 5 |
+>>>>>>> Stashed changes
 
 ## Sonuc
 
