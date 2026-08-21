@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
-Ham mac: 201
-Aktif mac: 193
-Canli mac: 8
-Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 172
+Ham mac: 219
+Aktif mac: 195
+Canli mac: 3
+Biten mac: 21
+Bultenden dusurulen mac: 24
+Bugun: 174
 Yarin: 21
 
 ## Baslamamis Maclar
@@ -37,6 +37,7 @@ Yarin: 21
 - 2026-08-21 18:30 | Litvanya 1.Lig | Be1 Nfa - Garliava | scheduled | -
 - 2026-08-21 18:30 | Hırvatistan 2.HNL | Zdralovi - Vukovar | scheduled | -
 - 2026-08-21 18:30 | Hırvatistan 2.HNL | Radnik Sesvete - Karlovac 1919 | scheduled | -
+- 2026-08-21 18:30 | Irak Premier Lig | Karbala - Al Zawraa | scheduled | -
 - 2026-08-21 18:50 | Suudi Arabistan 1.Lig | Al Jeel - Al Zulfi | scheduled | -
 - 2026-08-21 19:00 | Suudi Arabistan Pro Lig | Al Riyadh - Al Nassr (Riyad | scheduled | -
 - 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis - E.Frankfurt | scheduled | -
@@ -59,6 +60,7 @@ Yarin: 21
 - 2026-08-21 19:00 | Litvanya 1.Lig | Hegelmann Ii - Ekranas | scheduled | -
 - 2026-08-21 19:00 | Litvanya 1.Lig | Lietava Jonava - Fa Siauliai Ii | scheduled | -
 - 2026-08-21 19:00 | İtalya Serie A Kadınlar Kupası Grup C | Como (K) - Juventus (K) | scheduled | -
+- 2026-08-21 19:00 | Norveç NM Kupası 1.Tur | Uraedd - Pors Grenland | scheduled | -
 - 2026-08-21 19:15 | Suudi Arabistan Pro Lig | Al Hazm - Diriyah | scheduled | -
 - 2026-08-21 19:15 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Anwar | scheduled | -
 - 2026-08-21 19:20 | Almanya Kadınlar Bundesliga | Union Berlin ( - Bayern München | scheduled | -
@@ -206,14 +208,29 @@ Yarin: 21
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 13:30 | Japonya J1 Lig | Fc Tokyo - Jef Utd Chiba | live | -
-- 2026-08-21 13:30 | Avustralya Victoria NPL 1 | Northcote City - Moreland Zebras | live | -
-- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | live | -
-- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | live | -
-- 2026-08-21 14:00 | Hazırlık Kulüpler | Power Dynamos - Zesco United | live | -
 - 2026-08-21 15:00 | Hong Kong Premier Lig | Eastern - Shatin | live | -
 - 2026-08-21 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Dinamo Batumi | live | -
 - 2026-08-21 16:00 | Malezya Süper Lig | Johor Dt - Kuching Fa | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | finished | -
+- 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | finished | -
+- 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | finished | -
+- 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | finished | -
+- 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | finished | -
+- 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | finished | -
+- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | finished | -
+- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | finished | -
+- 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | finished | -
+- 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | finished | -
+- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | finished | -
+- 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | finished | -
+- 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | finished | -
+- 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | finished | -
+- 2026-08-21 13:30 | Japonya J1 Lig | Fc Tokyo - Jef Utd Chiba | finished | -
+- 2026-08-21 13:30 | Avustralya Victoria NPL 1 | Northcote City - Moreland Zebras | finished | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | finished | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | finished | -
+- 2026-08-21 14:00 | Hazırlık Kulüpler | Power Dynamos - Zesco United | finished | -

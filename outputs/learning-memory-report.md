@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.08.2026 16:14:51
+Oluşturma: 21.08.2026 16:30:28
 
 ## Özet
 
-- Toplam tahmin: 124
-- Bekleyen tahmin: 124
+- Toplam tahmin: 127
+- Bekleyen tahmin: 127
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 62
@@ -20,12 +20,15 @@ Oluşturma: 21.08.2026 16:14:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
-- MS X: toplam 71, bekleyen 71, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS X: toplam 72, bekleyen 72, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 9, bekleyen 9, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-21 | Avusturya 1.Lig | Austria Salzbu - Kapfenberg | MS X | pending | 50/100
+- 2026-08-21 | Slovenya 2.SNL | Krka Novo Mest - Nd Slovan Ljubl | MS 2 | pending | 50/100
+- 2026-08-21 | Hırvatistan 2.HNL | Zdralovi - Vukovar | MS 1 | pending | 40/100
 - 2026-08-21 | Belçika Challenger Pro Lig | Lokeren-Temse - Eupen | MS 2 | pending | 50/100
 - 2026-08-21 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | MS X | pending | 50/100
 - 2026-08-21 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | MS X | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 21.08.2026 16:14:51
 - 2026-08-21 | İrlanda 1.Lig | Kerry - Ucd | MS X | pending | 50/100
 - 2026-08-21 | İrlanda 1.Lig | Wexford Youths - Athlone | MS X | pending | 50/100
 - 2026-08-21 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | MS X | pending | 50/100
-- 2026-08-21 | Kuzey İrlanda Championship | Newry City Afc - Warrenpoint Tow | MS X | pending | 50/100
-- 2026-08-21 | Galler FAW Championship Güney | Caerau Ely - Swansea Univers | MS X | pending | 50/100
-- 2026-08-21 | İspanya LaLiga | Real Betis - Real Sociedad | MS 2 | pending | 50/100
 

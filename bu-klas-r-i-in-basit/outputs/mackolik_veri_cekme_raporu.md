@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T12:28:17.814708+00:00
+Tarih: 2026-08-21T13:27:28.558428+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
 - Kac mac bulundu: 195
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 195
-- Ham veri havuzu toplam mac sayisi: 7926
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 193
+- Ham veri havuzu toplam mac sayisi: 7928
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -47,7 +47,6 @@ Tarih: 2026-08-21T12:28:17.814708+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Honduras Ulusal Lig Apertura
@@ -62,12 +61,12 @@ Tarih: 2026-08-21T12:28:17.814708+00:00
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Macaristan NB I
-- Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
+- Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
