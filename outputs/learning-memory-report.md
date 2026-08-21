@@ -1,10 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 22.08.2026 00:42:24
-=======
-Oluşturma: 22.08.2026 00:52:56
->>>>>>> Stashed changes
+Oluşturma: 22.08.2026 01:07:49
 
 ## Özet
 
