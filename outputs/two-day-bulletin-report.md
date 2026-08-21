@@ -3,17 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 217
-Aktif mac: 199
-Canli mac: 6
-Biten mac: 12
-Bultenden dusurulen mac: 18
-Bugun: 178
+Aktif mac: 196
+Canli mac: 8
+Biten mac: 13
+Bultenden dusurulen mac: 21
+Bugun: 175
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | scheduled | -
-- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | scheduled | -
-- 2026-08-21 14:00 | Hazırlık Kulüpler | Power Dynamos - Zesco United | scheduled | -
 - 2026-08-21 15:00 | Hong Kong Premier Lig | Eastern - Shatin | scheduled | -
 - 2026-08-21 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Dinamo Batumi | scheduled | -
 - 2026-08-21 16:00 | Malezya Süper Lig | Johor Dt - Kuching Fa | scheduled | -
@@ -212,12 +209,14 @@ Yarin: 21
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | live | -
 - 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | live | -
 - 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | live | -
 - 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | live | -
 - 2026-08-21 13:30 | Japonya J1 Lig | Fc Tokyo - Jef Utd Chiba | live | -
 - 2026-08-21 13:30 | Avustralya Victoria NPL 1 | Northcote City - Moreland Zebras | live | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | live | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | live | -
+- 2026-08-21 14:00 | Hazırlık Kulüpler | Power Dynamos - Zesco United | live | -
 
 ## Biten Maclar
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
@@ -232,3 +231,4 @@ Yarin: 21
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | finished | -
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | finished | -
 - 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | finished | -
+- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | finished | -
