@@ -1,8 +1,6 @@
 name: Update profile archive
 
 on:
-  schedule:
-    - cron: "5,20,35,50 * * * *"
   workflow_dispatch:
   push:
     branches:
@@ -58,7 +56,7 @@ jobs:
           fi
           git commit -m "Update profile archive"
           for attempt in 1 2 3; do
-            if git pull --rebase origin main && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
