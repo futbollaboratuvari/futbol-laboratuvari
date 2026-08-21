@@ -4,32 +4,14 @@ Gunler: 2026-08-21 / 2026-08-22
 Kaynak: son saglam two-day-bulletin yedegi
 Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 220
-Aktif mac: 186
-Canli mac: 13
+Aktif mac: 168
+Canli mac: 31
 Biten mac: 21
-Bultenden dusurulen mac: 34
-Bugun: 165
+Bultenden dusurulen mac: 52
+Bugun: 147
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | scheduled | -
-- 2026-08-21 18:00 | Slovenya 2.SNL | Jadran Dekani - Jesenice | scheduled | -
-- 2026-08-21 18:00 | Letonya Virsliga | Liepaja - Grobina | scheduled | -
-- 2026-08-21 18:00 | Letonya Virsliga | Auda - Fk Tukums 2000 | scheduled | -
-- 2026-08-21 18:00 | Litvanya 1.Lig | Babrungas - Tauras | scheduled | -
-- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | City Fc Dubai - Dubba Al Fujair | scheduled | -
-- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Urooba - Al Thaid | scheduled | -
-- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Bataeh - Al Ittifaq | scheduled | -
-- 2026-08-21 18:30 | Finlandiya Ykkösliiga | Haka - Sjk Ii | scheduled | -
-- 2026-08-21 18:30 | Macaristan NB I | Paksi - Ujpest | scheduled | -
-- 2026-08-21 18:30 | Slovenya 1.SNL | Aluminij - Nk Brinje Grosu | scheduled | -
-- 2026-08-21 18:30 | Finlandiya Ykkönen | Kpv Kokkola - Kups Ak. | scheduled | -
-- 2026-08-21 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Jyvaskyla | scheduled | -
-- 2026-08-21 18:30 | Litvanya 1.Lig | Be1 Nfa - Garliava | scheduled | -
-- 2026-08-21 18:30 | Hırvatistan 2.HNL | Zdralovi - Vukovar | scheduled | -
-- 2026-08-21 18:30 | Hırvatistan 2.HNL | Radnik Sesvete - Karlovac 1919 | scheduled | -
-- 2026-08-21 18:30 | Irak Premier Lig | Karbala - Al Zawraa | scheduled | -
-- 2026-08-21 18:50 | Suudi Arabistan 1.Lig | Al Jeel - Al Zulfi | scheduled | -
 - 2026-08-21 19:00 | Suudi Arabistan Pro Lig | Al Riyadh - Al Nassr (Riyad | scheduled | -
 - 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis - E.Frankfurt | scheduled | -
 - 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst - Karlsruhe | scheduled | -
@@ -200,6 +182,24 @@ Yarin: 21
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
+- 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | live | -
+- 2026-08-21 18:00 | Slovenya 2.SNL | Jadran Dekani - Jesenice | live | -
+- 2026-08-21 18:00 | Letonya Virsliga | Liepaja - Grobina | live | -
+- 2026-08-21 18:00 | Letonya Virsliga | Auda - Fk Tukums 2000 | live | -
+- 2026-08-21 18:00 | Litvanya 1.Lig | Babrungas - Tauras | live | -
+- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | City Fc Dubai - Dubba Al Fujair | live | -
+- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Urooba - Al Thaid | live | -
+- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Bataeh - Al Ittifaq | live | -
+- 2026-08-21 18:30 | Finlandiya Ykkösliiga | Haka - Sjk Ii | live | -
+- 2026-08-21 18:30 | Macaristan NB I | Paksi - Ujpest | live | -
+- 2026-08-21 18:30 | Slovenya 1.SNL | Aluminij - Nk Brinje Grosu | live | -
+- 2026-08-21 18:30 | Finlandiya Ykkönen | Kpv Kokkola - Kups Ak. | live | -
+- 2026-08-21 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Jyvaskyla | live | -
+- 2026-08-21 18:30 | Litvanya 1.Lig | Be1 Nfa - Garliava | live | -
+- 2026-08-21 18:30 | Hırvatistan 2.HNL | Zdralovi - Vukovar | live | -
+- 2026-08-21 18:30 | Hırvatistan 2.HNL | Radnik Sesvete - Karlovac 1919 | live | -
+- 2026-08-21 18:30 | Irak Premier Lig | Karbala - Al Zawraa | live | -
+- 2026-08-21 18:50 | Suudi Arabistan 1.Lig | Al Jeel - Al Zulfi | live | -
 - 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | live | -
 - 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | live | -
 - 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | live | -
