@@ -1,14 +1,15 @@
-const { json } = require("../_lib/http");
+const { json, readBody } = require("../_lib/http");
 const { selectOne } = require("../_lib/supabase-rest");
 const { clean, normalizeEmail, decryptMembershipCode } = require("../_lib/bank-transfer");
 
 module.exports = async function handler(req, res) {
   if (req.method === "OPTIONS") return json(res, 200, { ok: true });
-  if (req.method !== "GET") return json(res, 405, { ok: false, error: "Method Not Allowed" });
+  if (req.method !== "POST") return json(res, 405, { ok: false, error: "Method Not Allowed" });
 
   try {
-    const orderCode = clean(req.query?.order_code, 80).toUpperCase();
-    const email = normalizeEmail(req.query?.email);
+    const body = await readBody(req);
+    const orderCode = clean(body.order_code, 80).toUpperCase();
+    const email = normalizeEmail(body.email);
     if (!orderCode || !email) return json(res, 400, { ok: false, error: "Sipariş kodu ve e-posta zorunludur." });
 
     const order = await selectOne("bank_transfer_orders", { order_code: orderCode });
