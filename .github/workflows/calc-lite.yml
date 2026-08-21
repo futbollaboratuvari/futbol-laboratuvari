@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: futbol-main-data-writer
+  cancel-in-progress: false
+
 jobs:
   calc-lite:
     runs-on: ubuntu-latest
