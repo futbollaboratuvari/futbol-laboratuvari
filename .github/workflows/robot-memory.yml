@@ -3,7 +3,7 @@ name: Robot Hafiza Motoru
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 3 * * *"
+    - cron: "33 3 * * *"
 
 permissions:
   contents: write
@@ -37,12 +37,12 @@ jobs:
             exit 0
           fi
           git commit -m "Robot hafızası otomatik güncellendi"
-          for attempt in 1 2 3; do
-            if git pull --rebase origin main && git push origin HEAD:main; then
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
-            sleep $((attempt * 2))
+            sleep $((attempt * 3))
           done
           echo "Robot memory push failed after retries"
           exit 1
