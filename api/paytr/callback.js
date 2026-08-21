@@ -1,8 +1,4 @@
-const { readBody, text } = require("../_lib/http");
-const { verifyCallbackHash } = require("../_lib/paytr");
-const { findOrderByMerchantOid } = require("../_lib/order-read");
-const { getUsageToken } = require("../lib/usage-token");
-const { stageCodeRecord } = require("../lib/membership-decrement");
+const { readBody, text, verifyCallbackHash, findOrderByMerchantOid, getUsageToken, stageCodeRecord } = require("../../server-lib/backend");
 
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {
