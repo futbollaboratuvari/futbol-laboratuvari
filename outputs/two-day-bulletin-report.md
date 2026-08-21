@@ -3,16 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 202
-Aktif mac: 196
-Canli mac: 6
+Aktif mac: 194
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 6
-Bugun: 175
+Bultenden dusurulen mac: 8
+Bugun: 173
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | scheduled | -
-- 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | scheduled | -
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | scheduled | -
 - 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | scheduled | -
 - 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | scheduled | -
@@ -215,6 +213,8 @@ Yarin: 21
 - 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | live | -
 - 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | live | -
 - 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | live | -
+- 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | live | -
+- 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | live | -
 
 ## Biten Maclar
 Biten mac yok.
