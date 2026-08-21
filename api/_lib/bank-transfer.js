@@ -29,11 +29,34 @@ function orderCode(now = new Date()) {
   return `FL-${date}-${randomToken(3)}`;
 }
 
+function normalizeIban(value) {
+  return String(value || "").replace(/\s+/g, "").toUpperCase();
+}
+
+function validIban(value) {
+  const iban = normalizeIban(value);
+  if (!/^[A-Z]{2}[0-9]{2}[A-Z0-9]+$/.test(iban)) return false;
+  if (iban.startsWith("TR") && iban.length !== 26) return false;
+  if (iban.length < 15 || iban.length > 34) return false;
+
+  const rearranged = `${iban.slice(4)}${iban.slice(0, 4)}`;
+  let remainder = 0;
+  for (const char of rearranged) {
+    const numeric = /[0-9]/.test(char) ? char : String(char.charCodeAt(0) - 55);
+    for (const digit of numeric) {
+      remainder = (remainder * 10 + Number(digit)) % 97;
+    }
+  }
+  return remainder === 1;
+}
+
 function publicBankDetails() {
+  const iban = normalizeIban(requireEnv("BANK_IBAN"));
+  if (!validIban(iban)) throw new Error("BANK_IBAN geçersiz");
   return {
     bank_name: clean(process.env.BANK_NAME || "", 120),
     account_holder: requireEnv("BANK_ACCOUNT_HOLDER"),
-    iban: requireEnv("BANK_IBAN").replace(/\s+/g, "").toUpperCase(),
+    iban,
   };
 }
 
@@ -68,7 +91,7 @@ function decryptMembershipCode(payload) {
 }
 
 function maskIban(iban) {
-  const normalized = String(iban || "").replace(/\s+/g, "");
+  const normalized = normalizeIban(iban);
   if (normalized.length < 10) return normalized;
   return `${normalized.slice(0, 6)}••••••••••••${normalized.slice(-6)}`;
 }
@@ -78,6 +101,8 @@ module.exports = {
   normalizeEmail,
   validEmail,
   orderCode,
+  normalizeIban,
+  validIban,
   publicBankDetails,
   membershipPlanCode,
   encryptMembershipCode,
