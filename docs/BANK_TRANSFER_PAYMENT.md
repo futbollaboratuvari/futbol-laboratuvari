@@ -30,10 +30,12 @@ Supabase üretim projesinde `bank_transfer_orders` tablosu kurulmuş, RLS doğru
 - `nav-routing.js`, üyelik panelinden sonra sırasıyla `bank-transfer-payment.js`, `membership-bank-transfer-bridge.js` ve deneme mesajı düzeltmesini yükler.
 - Mevcut paket kartı ana satın alma butonu `Havale / EFT / FAST ile Öde` olarak kullanılır.
 - Mevcut 1 günlük deneme ayrı ikincil buton olarak korunur.
+- Eski `membership-submit-guard.js` yeni banka butonunu hedeflemez; selector çakışması kontrol edilmiştir.
 - IBAN frontend kaynak koduna yazılmaz.
 - IBAN yalnız başarılı sipariş oluşturma cevabından sonra ekranda görünür.
 - Sipariş kodu oluşmadan kullanıcıya para göndermemesi açıkça belirtilir.
 - Seçilen paket banka formunda kilitlenir; fiyat ve tutar yine backend plan tanımından doğrulanır.
+- Banka modülü yüklenemezse akış fail-closed davranır ve kullanıcıya para göndermemesi söylenir.
 
 ## Yönetim ekranı
 
@@ -108,6 +110,8 @@ Yardımcı modüller `/server/routes` altına taşındı. `/api` altında yalnı
 - Kullanıcı üyelik paneli -> banka ödeme modülü bağlantısı: feature branch'te tamamlandı.
 - Admin banka ödeme ekranı: feature branch'te tamamlandı.
 - PayTR mesajları banka satın alma ve deneme akışından kaldırıldı.
+- Eski üyelik submit guard ile yeni banka köprüsü arasında selector çakışması yok.
+- Banka köprüsü JavaScript sözdizimi kontrolünden geçti.
 - Vercel function-count yapısal düzeltmesi: feature branch'te tamamlandı.
 - PR mergeable durumdadır ancak bilerek draft tutulur.
 
