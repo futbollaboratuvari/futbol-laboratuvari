@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T15:58:32.236087+00:00
+Tarih: 2026-08-21T16:23:08.022633+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 170
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 168
+- Kac mac bulundu: 146
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 146
 - Ham veri havuzu toplam mac sayisi: 7931
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
@@ -34,10 +34,7 @@ Tarih: 2026-08-21T15:58:32.236087+00:00
 - Danimarka 3.Lig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
-- Estonya Premium Lig
 - Faroe Adaları Master Lig
-- Finlandiya Veikkausliiga
-- Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
 - Galler FAW Championship Güney
@@ -53,13 +50,11 @@ Tarih: 2026-08-21T15:58:32.236087+00:00
 - Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
-- Litvanya 1.Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
-- Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
 - Polonya 2.Lig
@@ -76,7 +71,6 @@ Tarih: 2026-08-21T15:58:32.236087+00:00
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
-- Çek Cumhuriyeti FNL
 - Ürdün Süper Kupa Yarı Final
 - İngiltere Premier Lig
 - İngiltere Premier Lig 2
@@ -87,11 +81,9 @@ Tarih: 2026-08-21T15:58:32.236087+00:00
 - İspanya LaLiga
 - İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norrland Düşme Grubu
-- İsveç 2.Lig Södra Götaland
 - İsveç Allsvenskan
 - İsviçre Challenge Lig
 - İtalya Serie A Kadınlar Kupası Grup A
-- İtalya Serie A Kadınlar Kupası Grup C
 - İtalya Serie B
 - İtalya Serie C Grup A
 - İtalya Serie C Grup B
@@ -154,8 +146,8 @@ Tarih: 2026-08-21T15:58:32.236087+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 89
-- Acilan detay: 89
+- Denenen Tumu alani: 81
+- Acilan detay: 81
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -173,12 +165,7 @@ Tarih: 2026-08-21T15:58:32.236087+00:00
 | 21.08.2026 | 22:00 | İngiltere Premier Lig | Arsenal | Coventry | 34527 | 5 |
 | 21.08.2026 | 22:00 | İspanya LaLiga | Real Betis | Real Sociedad | 06887 | 5 |
 | 21.08.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Strasbourg | 01940 | 5 |
-| 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Waldhof Mannhe | Kaiserslautern | 21041 | 5 |
-| 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst | Karlsruhe | 06945 | 5 |
 | 21.08.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock | Stuttgart | 27912 | 5 |
-| 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis | E.Frankfurt | 46087 | 2 |
-| 21.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Riyadh | Al Nassr (Riyad | 20903 | 5 |
-| 21.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Hazm | Diriyah | 21333 | 5 |
 | 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Faisaly | Neom Sc | 22590 | 5 |
 | 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ittihad (Cid | 22781 | 5 |
 | 21.08.2026 | 21:45 | Belçika Pro Lig | Standard Liege | La Louvière | 28540 | 5 |
@@ -188,6 +175,11 @@ Tarih: 2026-08-21T15:58:32.236087+00:00
 | 21.08.2026 | 21:00 | Fransa Ligue 2 | Sochaux | Guingamp | 24407 | 5 |
 | 21.08.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Nancy | 24293 | 5 |
 | 21.08.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Montpellier | 23667 | 5 |
+| 21.08.2026 | 21:00 | Fransa Ligue 2 | Clermont | Dijon | 23383 | 5 |
+| 21.08.2026 | 21:00 | Hollanda Eerste Divisie | Helmond Sport | Waalwijk | 23384 | 5 |
+| 21.08.2026 | 21:00 | Hollanda Eerste Divisie | Dordrecht | Roda | 23259 | 5 |
+| 21.08.2026 | 21:00 | Hollanda Eerste Divisie | Emmen | Jong Az Alkmaar | 23328 | 5 |
+| 21.08.2026 | 21:00 | Hollanda Eerste Divisie | Den Bosch | Fc Eindhoven | 02231 | 5 |
 
 ## Sonuc
 

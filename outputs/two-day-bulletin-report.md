@@ -3,39 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 222
-Aktif mac: 170
-Canli mac: 24
-Biten mac: 28
-Bultenden dusurulen mac: 52
-Bugun: 148
+Aktif mac: 145
+Canli mac: 47
+Biten mac: 30
+Bultenden dusurulen mac: 77
+Bugun: 123
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-08-21 19:00 | Suudi Arabistan Pro Lig | Al Riyadh - Al Nassr (Riyad | scheduled | -
-- 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis - E.Frankfurt | scheduled | -
-- 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst - Karlsruhe | scheduled | -
-- 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Waldhof Mannhe - Kaiserslautern | scheduled | -
-- 2026-08-21 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Lahti | scheduled | -
-- 2026-08-21 19:00 | Danimarka 1.Lig | Hobro - Aalborg | scheduled | -
-- 2026-08-21 19:00 | Danimarka 1.Lig | Vejle - Esbjerg | scheduled | -
-- 2026-08-21 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry - Japs | scheduled | -
-- 2026-08-21 19:00 | Polonya 1.Lig | Chrobry Glogow - Warta Poznan | scheduled | -
-- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Usti Nad Labem - Dukla Prag | scheduled | -
-- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Karvina - Viktoria Zizkov | scheduled | -
-- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Opava - Trinec | scheduled | -
-- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Prostejov - Kladno | scheduled | -
-- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Jihlava - Sezimivo Usti | scheduled | -
-- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Vlasim - Pribram | scheduled | -
-- 2026-08-21 19:00 | Polonya 2.Lig | Sandecja Nowy - Gornik Leczna | scheduled | -
-- 2026-08-21 19:00 | Estonya Premium Lig | Levadia Tallin - Trans Narva | scheduled | -
-- 2026-08-21 19:00 | İsveç 2.Lig Södra Götaland | Sölvesborgs Go - Karlshamn | scheduled | -
-- 2026-08-21 19:00 | Litvanya 1.Lig | Hegelmann Ii - Ekranas | scheduled | -
-- 2026-08-21 19:00 | Litvanya 1.Lig | Lietava Jonava - Fa Siauliai Ii | scheduled | -
-- 2026-08-21 19:00 | İtalya Serie A Kadınlar Kupası Grup C | Como (K) - Juventus (K) | scheduled | -
-- 2026-08-21 19:00 | Norveç NM Kupası 1.Tur | Uraedd - Pors Grenland | scheduled | -
-- 2026-08-21 19:15 | Suudi Arabistan Pro Lig | Al Hazm - Diriyah | scheduled | -
-- 2026-08-21 19:15 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Anwar | scheduled | -
-- 2026-08-21 19:20 | Almanya Kadınlar Bundesliga | Union Berlin ( - Bayern München | scheduled | -
 - 2026-08-21 19:30 | Rusya FNL | Torpedo Moskov - Spartak Kostrom | scheduled | -
 - 2026-08-21 19:30 | Katar Yıldızlar Ligi | Al Arabi - Al Shamal | scheduled | -
 - 2026-08-21 19:30 | Avusturya 1.Lig | Liefering - Avusturya Wien | scheduled | -
@@ -183,8 +158,6 @@ Yarin: 22
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | live | -
-- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | live | -
 - 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | live | -
 - 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | live | -
 - 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | live | -
@@ -207,6 +180,31 @@ Yarin: 22
 - 2026-08-21 18:30 | Hırvatistan 2.HNL | Radnik Sesvete - Karlovac 1919 | live | -
 - 2026-08-21 18:30 | Irak Premier Lig | Karbala - Al Zawraa | live | -
 - 2026-08-21 18:50 | Suudi Arabistan 1.Lig | Al Jeel - Al Zulfi | live | -
+- 2026-08-21 19:00 | Suudi Arabistan Pro Lig | Al Riyadh - Al Nassr (Riyad | live | -
+- 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis - E.Frankfurt | live | -
+- 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst - Karlsruhe | live | -
+- 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Waldhof Mannhe - Kaiserslautern | live | -
+- 2026-08-21 19:00 | Finlandiya Veikkausliiga | Seinajoen Jk - Lahti | live | -
+- 2026-08-21 19:00 | Danimarka 1.Lig | Hobro - Aalborg | live | -
+- 2026-08-21 19:00 | Danimarka 1.Lig | Vejle - Esbjerg | live | -
+- 2026-08-21 19:00 | Finlandiya Ykkösliiga | Pk-35 Ry - Japs | live | -
+- 2026-08-21 19:00 | Polonya 1.Lig | Chrobry Glogow - Warta Poznan | live | -
+- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Usti Nad Labem - Dukla Prag | live | -
+- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Karvina - Viktoria Zizkov | live | -
+- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Opava - Trinec | live | -
+- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Prostejov - Kladno | live | -
+- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Jihlava - Sezimivo Usti | live | -
+- 2026-08-21 19:00 | Çek Cumhuriyeti FNL | Vlasim - Pribram | live | -
+- 2026-08-21 19:00 | Polonya 2.Lig | Sandecja Nowy - Gornik Leczna | live | -
+- 2026-08-21 19:00 | Estonya Premium Lig | Levadia Tallin - Trans Narva | live | -
+- 2026-08-21 19:00 | İsveç 2.Lig Södra Götaland | Sölvesborgs Go - Karlshamn | live | -
+- 2026-08-21 19:00 | Litvanya 1.Lig | Hegelmann Ii - Ekranas | live | -
+- 2026-08-21 19:00 | Litvanya 1.Lig | Lietava Jonava - Fa Siauliai Ii | live | -
+- 2026-08-21 19:00 | İtalya Serie A Kadınlar Kupası Grup C | Como (K) - Juventus (K) | live | -
+- 2026-08-21 19:00 | Norveç NM Kupası 1.Tur | Uraedd - Pors Grenland | live | -
+- 2026-08-21 19:15 | Suudi Arabistan Pro Lig | Al Hazm - Diriyah | live | -
+- 2026-08-21 19:15 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Anwar | live | -
+- 2026-08-21 19:20 | Almanya Kadınlar Bundesliga | Union Berlin ( - Bayern München | live | -
 
 ## Biten Maclar
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
@@ -237,3 +235,5 @@ Yarin: 22
 - 2026-08-21 16:30 | Mısır 2. Lig | El Saka El Had - Tersana | finished | -
 - 2026-08-21 16:30 | Mısır 2. Lig | Ismaily - Masar | finished | -
 - 2026-08-21 16:30 | Mısır 2. Lig | Derot - Maleyet Kafr El | finished | -
+- 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | finished | -
+- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | finished | -
