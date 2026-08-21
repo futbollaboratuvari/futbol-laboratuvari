@@ -1,12 +1,12 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T14:58:28.351765+00:00
+Tarih: 2026-08-21T15:43:21.826771+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: error
-- Kac mac bulundu: 167
+- Kac mac bulundu: 152
 - Kac mac kaydedildi: 0
 - Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 0
@@ -21,10 +21,8 @@ Tarih: 2026-08-21T14:58:28.351765+00:00
 - Arjantin Ulusal Primera Lig
 - Avusturya 1.Lig
 - Avusturya Bundesliga
-- Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
-- Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
 - Bosna-Hersek Premier Lig
 - Bulgaristan 1.Lig
@@ -44,14 +42,11 @@ Tarih: 2026-08-21T14:58:28.351765+00:00
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hırvatistan 1.HNL
-- Hırvatistan 2.HNL
 - Irak Premier Lig
 - Katar Yıldızlar Ligi
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
-- Letonya Virsliga
 - Litvanya 1.Lig
-- Macaristan NB I
 - Malta Premier Lig Açılış
 - Mısır 2. Lig
 - Mısır Premier Lig
@@ -170,20 +165,20 @@ Tarih: 2026-08-21T14:58:28.351765+00:00
 | 21.08.2026 | 22:00 | İspanya LaLiga | Real Betis | Real Sociedad | 06887 | 5 |
 | 21.08.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Strasbourg | 01940 | 5 |
 | 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Waldhof Mannhe | Kaiserslautern | 21041 | 5 |
-| 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst | Karlsruhe | 06945 | 5 |
 | 21.08.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock | Stuttgart | 27912 | 5 |
+| 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst | Karlsruhe | 06945 | 5 |
 | 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis | E.Frankfurt | 46087 | 2 |
+| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ittihad (Cid | 22781 | 5 |
+| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Faisaly | Neom Sc | 22590 | 5 |
 | 21.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Riyadh | Al Nassr (Riyad | 20903 | 5 |
 | 21.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Hazm | Diriyah | 21333 | 5 |
-| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Faisaly | Neom Sc | 22590 | 5 |
-| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ittihad (Cid | 22781 | 5 |
 | 21.08.2026 | 21:45 | Belçika Pro Lig | Standard Liege | La Louvière | 28540 | 5 |
 | 21.08.2026 | 22:00 | İspanya 2.Lig | Cordoba | Girona | 38010 | 5 |
 | 21.08.2026 | 21:30 | İtalya Serie B | Vicenza | Catanzaro | 24984 | 5 |
-| 21.08.2026 | 21:00 | Fransa Ligue 2 | Boulogne | Red Star Paris | 01958 | 5 |
+| 21.08.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Montpellier | 23667 | 5 |
+| 21.08.2026 | 21:00 | Fransa Ligue 2 | Clermont | Dijon | 23383 | 5 |
 | 21.08.2026 | 21:00 | Fransa Ligue 2 | Sochaux | Guingamp | 24407 | 5 |
 | 21.08.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Nancy | 24293 | 5 |
-| 21.08.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Montpellier | 23667 | 5 |
 
 ## Sonuc
 
