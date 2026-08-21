@@ -15,6 +15,11 @@ data/detail-raw-signals.json
 data/longterm-match-archive.json
 data/robot_match_archive.json
 
+# Shared backend helpers are imported from /server-lib.
+# Legacy helper copies under /api must never become Vercel Functions.
+api/_lib/
+api/lib/
+
 # Media/debug captures
 *.avi
 *.mkv
