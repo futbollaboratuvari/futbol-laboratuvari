@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T10:01:18.637627+00:00
+Tarih: 2026-08-21T10:29:53.147043+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 197
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 197
-- Ham veri havuzu toplam mac sayisi: 7920
+- Kac mac bulundu: 196
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 195
+- Ham veri havuzu toplam mac sayisi: 7921
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -20,7 +20,6 @@ Tarih: 2026-08-21T10:01:18.637627+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Başkent Bölgesi
-- Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
@@ -49,6 +48,7 @@ Tarih: 2026-08-21T10:01:18.637627+00:00
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
 - Gürcistan Erovnuli Liga
+- Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
