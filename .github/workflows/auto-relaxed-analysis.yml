@@ -10,7 +10,7 @@ on:
       - "scripts/**"
       - ".github/workflows/auto-relaxed-analysis.yml"
   schedule:
-    - cron: "10,40 * * * *"
+    - cron: "13,43 * * * *"
 
 permissions:
   contents: write
@@ -87,12 +87,12 @@ jobs:
             exit 0
           fi
           git commit -m "Auto live data and robot analysis update"
-          for attempt in 1 2 3; do
-            if git pull --rebase origin main && git push origin HEAD:main; then
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
-            sleep $((attempt * 2))
+            sleep $((attempt * 3))
           done
           echo "Auto analysis push failed after retries"
           exit 1
