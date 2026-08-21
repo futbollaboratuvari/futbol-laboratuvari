@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.08.2026 10:59:43
+Oluşturma: 21.08.2026 11:03:07
 
 ## Özet
 
-- Toplam tahmin: 114
-- Bekleyen tahmin: 114
+- Toplam tahmin: 116
+- Bekleyen tahmin: 116
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 59
+- Lig sayısı: 60
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,14 @@ Oluşturma: 21.08.2026 10:59:43
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
+- MS X: toplam 70, bekleyen 70, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
-- MS X: toplam 69, bekleyen 69, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-21 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Wahda | MS X | pending | 50/100
+- 2026-08-21 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | MS 1 | pending | 45/100
 - 2026-08-21 | Fransa Ligue 2 | Boulogne - Red Star Paris | MS 1 | pending | 40/100
 - 2026-08-21 | Litvanya 1.Lig | Be1 Nfa - Garliava | MS 2 | pending | 50/100
 - 2026-08-21 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | MS 2 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 21.08.2026 10:59:43
 - 2026-08-21 | İrlanda 1.Lig | Wexford Youths - Athlone | MS X | pending | 50/100
 - 2026-08-21 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | MS X | pending | 50/100
 - 2026-08-21 | Kuzey İrlanda Championship | Newry City Afc - Warrenpoint Tow | MS X | pending | 50/100
-- 2026-08-21 | Galler FAW Championship Güney | Caerau Ely - Swansea Univers | MS X | pending | 50/100
-- 2026-08-21 | İspanya LaLiga | Real Betis - Real Sociedad | MS 2 | pending | 50/100
 
