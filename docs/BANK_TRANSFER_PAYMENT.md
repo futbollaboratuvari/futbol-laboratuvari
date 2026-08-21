@@ -46,7 +46,7 @@ Supabase üretim projesinde `bank_transfer_orders` tablosu kurulmuş, RLS doğru
 - Yönetici banka hesabında transferi gerçekten görmeden onay vermemesi konusunda uyarılır.
 - Onay sonrası üyelik kodu oluşturulur.
 
-`bank-transfer-test.html` ise bilerek korunur. Bu sayfa ana üyelik panelinden bağımsız izole uçtan uca API testi için kullanılacaktır; canlı müşteri girişi olarak kullanılmayacaktır.
+`bank-transfer-test.html` bilerek korunur. Bu sayfa ana üyelik panelinden bağımsız izole uçtan uca API testi için kullanılacaktır; canlı müşteri girişi değildir.
 
 ## Vercel ortam değişkenleri
 
@@ -109,10 +109,11 @@ Yardımcı modüller `/server/routes` altına taşındı. `/api` altında yalnı
 - Admin banka ödeme ekranı: feature branch'te tamamlandı.
 - PayTR mesajları banka satın alma ve deneme akışından kaldırıldı.
 - Vercel function-count yapısal düzeltmesi: feature branch'te tamamlandı.
+- PR mergeable durumdadır ancak bilerek draft tutulur.
 
 ## Canlıya alma öncesi kalan dış engeller
 
-1. Vercel hesabındaki `build-rate-limit` kalkmalı veya hesap limiti çözülmeli.
+1. Vercel hesabındaki `build-rate-limit` kalkmalı veya hesap limiti çözülmeli. Güncel GitHub/Vercel check bu nedenle başarısızdır; build henüz başlamamaktadır.
 2. Vercel environment variables girilmeli.
 3. Güncel feature branch preview deployment alınmalı.
 4. İzole `bank-transfer-test.html` ile sipariş API akışı kontrol edilmeli.
