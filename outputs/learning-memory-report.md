@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.08.2026 12:53:43
+Oluşturma: 21.08.2026 13:03:58
 
 ## Özet
 
-- Toplam tahmin: 0
-- Bekleyen tahmin: 0
+- Toplam tahmin: 118
+- Bekleyen tahmin: 118
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 0
-- Seçenek sayısı: 0
+- Lig sayısı: 61
+- Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
 
@@ -20,8 +20,25 @@ Oluşturma: 21.08.2026 12:53:43
 
 ## En Güçlü Seçenek Hafızası
 
-- Henüz seçenek hafızası oluşmadı.
+- MS 2: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
+- MS X: toplam 67, bekleyen 67, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-21 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | MS 2 | pending | 50/100
+- 2026-08-21 | Kuzey İrlanda Premiership | Ballymena - Glentoran | MS 1 | pending | 50/100
+- 2026-08-21 | Kuzey İrlanda Premiership | Linfield - Cliftonville | MS X | pending | 50/100
+- 2026-08-21 | İrlanda 1.Lig | Kerry - Ucd | MS X | pending | 50/100
+- 2026-08-21 | İrlanda 1.Lig | Wexford Youths - Athlone | MS X | pending | 50/100
+- 2026-08-21 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | MS X | pending | 50/100
+- 2026-08-21 | Kuzey İrlanda Championship | Newry City Afc - Warrenpoint Tow | MS X | pending | 50/100
+- 2026-08-21 | Galler FAW Championship Güney | Caerau Ely - Swansea Univers | MS X | pending | 50/100
+- 2026-08-21 | İspanya LaLiga | Real Betis - Real Sociedad | MS 2 | pending | 50/100
+- 2026-08-21 | İspanya 2.Lig | Cordoba - Girona | MS X | pending | 50/100
+- 2026-08-21 | İrlanda Premier Lig | Sligo Rovers - Waterford | MS X | pending | 50/100
+- 2026-08-21 | İtalya Serie C Grup B | F.C. Vado - Atalanta Ii | MS 1 | pending | 40/100
+- 2026-08-21 | İtalya Serie C Grup C | Rossoblu Poten - Casarano | MS X | pending | 50/100
+- 2026-08-21 | İtalya Serie C Grup C | Ssc Giugliano - Scafatese | MS 2 | pending | 40/100
+- 2026-08-21 | İtalya Serie C Grup C | Bari - Cavese | MS 2 | pending | 65/100
 

@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
-Ham mac: 211
-Aktif mac: 198
-Canli mac: 1
-Biten mac: 12
-Bultenden dusurulen mac: 13
-Bugun: 177
+Ham mac: 199
+Aktif mac: 196
+Canli mac: 3
+Biten mac: 0
+Bultenden dusurulen mac: 3
+Bugun: 175
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | scheduled | -
-- 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | scheduled | -
 - 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | scheduled | -
 - 2026-08-21 13:30 | Japonya J1 Lig | Fc Tokyo - Jef Utd Chiba | scheduled | -
 - 2026-08-21 13:30 | Avustralya Victoria NPL 1 | Northcote City - Moreland Zebras | scheduled | -
@@ -212,17 +210,8 @@ Yarin: 21
 
 ## Canli Maclar
 - 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | live | -
+- 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | live | -
+- 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | live | -
 
 ## Biten Maclar
-- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
-- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | finished | -
-- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | finished | -
-- 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | finished | -
-- 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | finished | -
-- 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | finished | -
-- 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | finished | -
-- 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | finished | -
-- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | finished | -
-- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | finished | -
-- 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | finished | -
-- 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | finished | -
+Biten mac yok.
