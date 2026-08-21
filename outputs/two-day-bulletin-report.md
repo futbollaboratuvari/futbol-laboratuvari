@@ -1,20 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-21 / 2026-08-22
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 220
-Aktif mac: 190
-Canli mac: 9
+Aktif mac: 186
+Canli mac: 13
 Biten mac: 21
-Bultenden dusurulen mac: 30
-Bugun: 169
+Bultenden dusurulen mac: 34
+Bugun: 165
 Yarin: 21
 
 ## Baslamamis Maclar
-- 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | scheduled | -
-- 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | scheduled | -
-- 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | scheduled | -
-- 2026-08-21 17:45 | Belarus 1.Lig | Molodechno - Soligorsk | scheduled | -
 - 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | scheduled | -
 - 2026-08-21 18:00 | Slovenya 2.SNL | Jadran Dekani - Jesenice | scheduled | -
 - 2026-08-21 18:00 | Letonya Virsliga | Liepaja - Grobina | scheduled | -
@@ -203,6 +200,10 @@ Yarin: 21
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
+- 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | live | -
+- 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | live | -
+- 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | live | -
+- 2026-08-21 17:45 | Belarus 1.Lig | Molodechno - Soligorsk | live | -
 - 2026-08-21 15:00 | Hong Kong Premier Lig | Eastern - Shatin | live | -
 - 2026-08-21 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Dinamo Batumi | live | -
 - 2026-08-21 16:00 | Malezya Süper Lig | Johor Dt - Kuching Fa | live | -
