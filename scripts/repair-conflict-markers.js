@@ -59,7 +59,7 @@ const resolveConflictPass = (text) => {
     }
 
     const selected = incoming.length ? incoming : current;
-    output.push(...selected);
+    for (const selectedLine of selected) output.push(selectedLine);
 
     if (!closed) break;
   }
