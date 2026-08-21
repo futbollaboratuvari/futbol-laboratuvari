@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T05:26:30.540962+00:00
+Tarih: 2026-08-21T05:43:11.018448+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 190
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 190
-- Ham veri havuzu toplam mac sayisi: 7911
+- Kac mac bulundu: 170
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 169
+- Ham veri havuzu toplam mac sayisi: 7912
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -19,7 +19,6 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 - Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Başkent Bölgesi
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
 - Avustralya Victoria NPL 1
@@ -29,14 +28,11 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri 1.Lig
-- Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
@@ -49,15 +45,12 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 - Galler Premier Lig 1.Aşama
 - Gürcistan Erovnuli Liga
 - Hollanda Eerste Divisie
-- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
 - Japonya J1 Lig
 - Katar Yıldızlar Ligi
-- Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya Virsliga
@@ -65,8 +58,6 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 - Macaristan NB I
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Peru Premier Lig Clausura
@@ -82,6 +73,7 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 - Suudi Arabistan 1.Lig
 - Suudi Arabistan Pro Lig
 - Türkiye Süper Lig
+- Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - Çek Cumhuriyeti FNL
@@ -103,7 +95,6 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -175,13 +166,14 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 21.08.2026 | 21:30 | Türkiye Süper Lig | Erzurumspor Fk | Galatasaray | 02227 | 5 |
+| 21.08.2026 | 21:30 | Türkiye TFF 1. Lig | Fatih Karagümr | Bursaspor | 00301 | 5 |
 | 21.08.2026 | 22:00 | İngiltere Premier Lig | Arsenal | Coventry | 34527 | 5 |
 | 21.08.2026 | 22:00 | İspanya LaLiga | Real Betis | Real Sociedad | 06887 | 5 |
 | 21.08.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Strasbourg | 01940 | 5 |
+| 21.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Riyadh | Al Nassr (Riyad | 20903 | 5 |
+| 21.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Hazm | Diriyah | 21333 | 5 |
 | 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Faisaly | Neom Sc | 22590 | 5 |
 | 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ittihad (Cid | 22781 | 5 |
-| 21.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Hazm | Diriyah | 21333 | 5 |
-| 21.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Riyadh | Al Nassr (Riyad | 20903 | 5 |
 | 21.08.2026 | 21:45 | Belçika Pro Lig | Standard Liege | La Louvière | 28540 | 5 |
 | 21.08.2026 | 22:00 | İspanya 2.Lig | Cordoba | Girona | 38010 | 5 |
 | 21.08.2026 | 21:30 | İtalya Serie B | Vicenza | Catanzaro | 24984 | 5 |
@@ -193,7 +185,6 @@ Tarih: 2026-08-21T05:26:30.540962+00:00
 | 21.08.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock | Stuttgart | 27912 | 5 |
 | 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis | E.Frankfurt | 46087 | 2 |
 | 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst | Karlsruhe | 06945 | 5 |
-| 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Waldhof Mannhe | Kaiserslautern | 21041 | 5 |
 
 ## Sonuc
 
