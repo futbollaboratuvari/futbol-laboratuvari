@@ -35,8 +35,7 @@
   }
 
   function getStatus(orderCode, email) {
-    const qs = new URLSearchParams({ order_code: orderCode, email });
-    return request(`${API.status}?${qs.toString()}`);
+    return request(API.status, { method: "POST", body: JSON.stringify({ order_code: orderCode, email }) });
   }
 
   async function copy(value, button) {
