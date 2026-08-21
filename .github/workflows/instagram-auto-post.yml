@@ -6,15 +6,11 @@ on:
       dry_run:
         description: "Instagram'a paylaşmadan sadece test et"
         required: false
-        default: "false"
+        default: "true"
         type: choice
         options:
-          - "false"
           - "true"
-  schedule:
-    - cron: "17 7 * * *"
-    - cron: "17 13 * * *"
-    - cron: "17 18 * * *"
+          - "false"
 
 concurrency:
   group: instagram-auto-post
@@ -40,67 +36,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Safe Instagram secret debug
-        shell: bash
-        env:
-          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
-          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-          SITE_URL: ${{ secrets.SITE_URL }}
-        run: |
-          python - <<'PY'
-          import os
-          token = os.getenv("INSTAGRAM_ACCESS_TOKEN", "").strip().upper()
-          for name in ("INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_USER_ID", "SITE_URL"):
-              value = os.getenv(name, "")
-              print(f"{name}: {'VAR' if value else 'YOK'}")
-              print(f"{name}_UZUNLUK: {len(value)}")
-          if token.startswith("IG"):
-              mode = "instagram_login"
-          else:
-              mode = "facebook_login"
-          print(f"INSTAGRAM_API_MODE: {mode}")
-          PY
-
-      - name: Ensure default Instagram media
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import struct, zlib
-          p = Path('content/instagram/media')
-          p.mkdir(parents=True, exist_ok=True)
-          allowed = {'.jpg', '.jpeg', '.png', '.mp4', '.mov'}
-          if any(x.is_file() and x.suffix.lower() in allowed for x in p.iterdir()):
-              print('Medya mevcut.')
-              raise SystemExit(0)
-          w = h = 1080
-          raw = bytearray()
-          for y in range(h):
-              raw.append(0)
-              for x in range(w):
-                  raw.extend((15, 25 + y * 40 // h, 65 + x * 80 // w))
-          def chunk(t, d):
-              return struct.pack('>I', len(d)) + t + d + struct.pack('>I', zlib.crc32(t + d) & 0xffffffff)
-          png = b'\x89PNG\r\n\x1a\n'
-          png += chunk(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 2, 0, 0, 0))
-          png += chunk(b'IDAT', zlib.compress(bytes(raw), 9))
-          png += chunk(b'IEND', b'')
-          out = p / 'futbol-lab-auto.png'
-          out.write_bytes(png)
-          print(f'Varsayılan medya oluşturuldu: {out}')
-          PY
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/instagram/media/futbol-lab-auto.png
-          if git diff --cached --quiet; then
-            echo "Medya değişikliği yok."
-          else
-            git commit -m "Instagram varsayılan medya eklendi"
-            git push
-          fi
-
-      - name: Run Instagram robot
+      - name: Run Instagram robot manually
         id: instagram_robot
-        continue-on-error: true
         shell: bash
         env:
           SITE_URL: ${{ secrets.SITE_URL }}
@@ -109,7 +46,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           IG_SAFE_DEBUG: "true"
         run: |
-          DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
+          DRY_RUN="${{ github.event.inputs.dry_run || 'true' }}"
           if [ "$DRY_RUN" = "true" ]; then
             python scripts/instagram_publish.py --dry-run
           else
@@ -121,55 +58,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin main
-          git add logs/instagram_posts.json
+          git add logs/instagram_posts.json || true
           if git diff --cached --quiet; then
             echo "Log değişikliği yok."
-          else
-            git commit -m "Instagram robot log güncellendi"
-            for attempt in 1 2 3; do
-              if git push; then
-                exit 0
-              fi
-              echo "Push çakıştı, tekrar deneniyor: $attempt"
-              git pull --rebase --autostash origin main
-            done
-            echo "Log push başarısız."
-            exit 1
+            exit 0
           fi
-
-      - name: Fail job if robot failed
-        if: steps.instagram_robot.outcome == 'failure'
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          path = Path('logs/instagram_posts.json')
-          print('Instagram robot başarısız oldu.')
-          print('Token değeri güvenlik için yazdırılmıyor.')
-
-          if not path.exists():
-              print('Son hata: logs/instagram_posts.json bulunamadı.')
-              raise SystemExit(1)
-
-          try:
-              logs = json.loads(path.read_text(encoding='utf-8'))
-          except Exception as exc:
-              print(f'Son hata logu okunamadı: {exc}')
-              raise SystemExit(1)
-
-          last_failed = next((entry for entry in reversed(logs) if entry.get('durum') == 'failed'), None)
-          if not last_failed:
-              print('Son hata: başarısız robot kaydı bulunamadı.')
-              raise SystemExit(1)
-
-          error = str(last_failed.get('hata_özeti') or 'Bilinmeyen hata')
-          print(f'Son hata: {error}')
-          if 'Cannot parse access token' in error or 'code":190' in error:
-              print('Çözüm: Token Meta tarafından okunamadı. INSTAGRAM_ACCESS_TOKEN değerinin tamamını, başında Bearer/metin/boşluk olmadan kaydedin.')
-          if 'Application does not have permission for this action' in error or 'GraphMethodException' in error or 'error_subcode":33' in error:
-              print('Çözüm: Token okunuyor ama Meta bu Instagram hesabına yayın izni vermiyor. Facebook Login kullanılıyorsa INSTAGRAM_USER_ID /me/accounts sonucundaki instagram_business_account.id olmalı.')
-              print('Not: Eski başarısız job rerun edilirse eski commit ile çalışır. Actions > Instagram Auto Post > Run workflow ile main branch üstünden yeni çalışma başlatın.')
-          PY
+          git commit -m "Instagram robot log güncellendi"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 2))
+          done
+          echo "Instagram log push başarısız."
           exit 1
