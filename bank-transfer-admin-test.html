@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Futbol Laboratuvarı | Banka Ödeme Yönetimi</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#020611;color:#f8fbff;font-family:Arial,sans-serif}.wrap{width:min(1180px,100%);margin:auto;padding:24px}.panel{padding:18px;margin-bottom:16px;border:1px solid rgba(57,255,136,.22);border-radius:20px;background:#061126}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}input,select{min-height:42px;border:1px solid rgba(255,255,255,.14);border-radius:11px;background:#020817;color:#fff;padding:0 12px}input{min-width:310px}button{min-height:42px;border:0;border-radius:11px;padding:0 14px;background:linear-gradient(135deg,#ff9f1c,#39ff88);font-weight:900;cursor:pointer}table{width:100%;border-collapse:collapse;min-width:900px}th,td{padding:10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;font-size:13px}th{color:#ffe08a}.scroll{overflow:auto}.muted{color:#9fb0c7}.ok{color:#39ff88}.err{color:#ff9da6}.code{font-weight:900;color:#ffe08a}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <section class="panel"><h1>Banka Ödeme Yönetimi</h1><p class="muted">Test branch için izole panel. Admin anahtarı tarayıcıda kaydedilmez.</p><div class="row"><input id="secret" type="password" placeholder="ADMIN_PAYMENT_SECRET"><select id="status"><option value="payment_reported">Ödeme bildirildi</option><option value="pending">Bekliyor</option><option value="paid">Ödendi</option></select><button id="load">Listeyi Getir</button></div><p id="msg" class="muted"></p></section>
+  <section class="panel scroll"><table><thead><tr><th>Sipariş</th><th>Müşteri</th><th>Paket</th><th>Tutar</th><th>Açıklama</th><th>Durum</th><th>İşlem</th></tr></thead><tbody id="rows"></tbody></table></section>
+</div>
+<script>
+  const $ = s => document.querySelector(s);
+  const esc = v => String(v ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+  const money = k => new Intl.NumberFormat('tr-TR',{style:'currency',currency:'TRY'}).format(Number(k||0)/100);
+  async function api(url, options={}){ const r=await fetch(url,{...options,headers:{'Content-Type':'application/json','x-admin-payment-secret':$('#secret').value,...(options.headers||{})},cache:'no-store'}); const d=await r.json().catch(()=>({})); if(!r.ok||d.ok===false) throw new Error(d.error||'İşlem başarısız'); return d; }
+  async function load(){ $('#msg').textContent='Yükleniyor...'; try{ const d=await api('/api/admin/bank-transfer/orders?status='+encodeURIComponent($('#status').value)); $('#rows').innerHTML=d.orders.map(o=>`<tr><td class="code">${esc(o.order_code)}</td><td>${esc(o.customer_name)}<br><span class="muted">${esc(o.email)} · ${esc(o.phone)}</span></td><td>${esc(o.plan_name)}</td><td>${esc(money(o.amount_kurus))}</td><td>${esc(o.payment_reference)}</td><td>${esc(o.status)}</td><td>${['pending','payment_reported'].includes(o.status)?`<button data-approve="${esc(o.order_code)}">Ödemeyi Onayla</button>`:'-'}</td></tr>`).join(''); $('#msg').textContent=`${d.orders.length} kayıt bulundu.`; document.querySelectorAll('[data-approve]').forEach(btn=>btn.onclick=()=>approve(btn.dataset.approve)); }catch(e){ $('#msg').className='err'; $('#msg').textContent=e.message; } }
+  async function approve(orderCode){ if(!confirm(orderCode+' banka hesabında gerçekten görünüyor mu?')) return; try{ const d=await api('/api/admin/bank-transfer/approve',{method:'POST',body:JSON.stringify({order_code:orderCode,approved_by:'admin-panel'})}); alert('Onaylandı. Üyelik kodu: '+(d.membership_code||'')); await load(); }catch(e){ alert(e.message); } }
+  $('#load').onclick=load; $('#status').onchange=load;
+</script>
+</body>
+</html>
