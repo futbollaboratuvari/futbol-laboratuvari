@@ -1,19 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-<<<<<<< Updated upstream
-Oluşturma: 21.08.2026 08:39:39
-=======
-Oluşturma: 21.08.2026 08:44:53
->>>>>>> Stashed changes
+Oluşturma: 21.08.2026 08:50:05
 
 ## Özet
 
-- Toplam tahmin: 121
-- Bekleyen tahmin: 121
+- Toplam tahmin: 0
+- Bekleyen tahmin: 0
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 63
-- Seçenek sayısı: 3
+- Lig sayısı: 0
+- Seçenek sayısı: 0
 
 ## Öğrenme Mantığı
 
@@ -24,25 +20,8 @@ Oluşturma: 21.08.2026 08:44:53
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 72, bekleyen 72, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
+- Henüz seçenek hafızası oluşmadı.
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-21 | Litvanya 1.Lig | Hegelmann Ii - Ekranas | MS X | pending | 50/100
-- 2026-08-21 | Galler FAW Championship Güney | Pontypridd Tow - Trethomas Blueb | MS X | pending | 50/100
-- 2026-08-21 | Fransa Ligue 2 | Boulogne - Red Star Paris | MS 1 | pending | 40/100
-- 2026-08-21 | Litvanya 1.Lig | Babrungas - Tauras | MS 2 | pending | 50/100
-- 2026-08-21 | Peru Premier Lig Clausura | Alianza Atleti - Sporting Crista | MS X | pending | 40/100
-- 2026-08-21 | Venezuela Premier Lig Clausura | Academia Anzoa - Trujillanos | MS 2 | pending | 40/100
-- 2026-08-21 | Galler FAW Championship Güney | Pontypridd Tow - Trethomas Blueb | MS 2 | pending | 50/100
-- 2026-08-21 | Galler FAW Championship Güney | Newport City - Baglan Dragons | MS 2 | pending | 60/100
-- 2026-08-21 | Fransa Ligue 1 | Marsilya - Strasbourg | MS 2 | pending | 60/100
-- 2026-08-21 | Belçika Pro Lig | Standard Liege - La Louvière | MS 2 | pending | 40/100
-- 2026-08-21 | Almanya DFB Kupası 1.Tur | Hansa Rostock - Stuttgart | MS X | pending | 40/100
-- 2026-08-21 | İrlanda Premier Lig | Bohemian - Derry City | MS 2 | pending | 40/100
-- 2026-08-21 | İrlanda Premier Lig | Dundalk - Galway United | MS 2 | pending | 50/100
-- 2026-08-21 | Galler Premier Lig 1.Aşama | Penybont - Llandudno | MS 2 | pending | 60/100
-- 2026-08-21 | Galler Premier Lig 1.Aşama | Colwyn Bay - Airbus Uk | MS 2 | pending | 75/100
 
