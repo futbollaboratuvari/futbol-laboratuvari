@@ -2,15 +2,15 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 196
-- Live match count: 3
+- Scheduled match count: 195
+- Live match count: 4
 - Finished removed count: 0
 - Date window: 2026-08-21 / 2026-08-22 23:59
 
 - 2026-08-21 12:00 | Fc Rebel - Ahrobiznes Vol | live
 - 2026-08-21 12:30 | Green Gully - St. Albans Sain | live
 - 2026-08-21 12:30 | Sydney Ii - Rockdale Cs | live
-- 2026-08-21 13:00 | Kashiwa - V-Varen Nagasak | scheduled
+- 2026-08-21 13:00 | Kashiwa - V-Varen Nagasak | live
 - 2026-08-21 13:30 | Northcote City - Moreland Zebras | scheduled
 - 2026-08-21 13:30 | Fc Tokyo - Jef Utd Chiba | scheduled
 - 2026-08-21 14:00 | Lokomotiv Kyiv - Probiy Horodenk | scheduled
