@@ -1,17 +1,17 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-22 / 2026-08-23
-Kaynak: fixtures.json
+Kaynak: son saglam two-day-bulletin yedegi
+Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
 Ham mac: 28
-Aktif mac: 28
-Canli mac: 0
+Aktif mac: 27
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 28
+Bultenden dusurulen mac: 1
+Bugun: 27
 Yarin: 0
 
 ## Baslamamis Maclar
-- 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | scheduled | -
 - 2026-08-22 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ca Mitre | scheduled | -
 - 2026-08-22 01:00 | Uruguay Premier Lig Clausura | Liverpool Mont - Cerro | scheduled | -
 - 2026-08-22 01:30 | Bolivya Premier Lig | The Strongest - Universitario D | scheduled | -
@@ -41,7 +41,7 @@ Yarin: 0
 - 2026-08-22 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Brunswick City | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | live | -
 
 ## Biten Maclar
 Biten mac yok.
