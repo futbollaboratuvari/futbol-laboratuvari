@@ -1,15 +1,14 @@
 # Iki Gunluk Bulten
 
 Gunler: 2026-08-21 / 2026-08-22
-Kaynak: son saglam two-day-bulletin yedegi
-Uyari: Yeni Maçkolik/fixtures kaynağı boş geldi; son geçerli iki günlük bülten korundu.
-Ham mac: 220
-Aktif mac: 168
-Canli mac: 31
-Biten mac: 21
+Kaynak: fixtures.json
+Ham mac: 222
+Aktif mac: 170
+Canli mac: 24
+Biten mac: 28
 Bultenden dusurulen mac: 52
-Bugun: 147
-Yarin: 21
+Bugun: 148
+Yarin: 22
 
 ## Baslamamis Maclar
 - 2026-08-21 19:00 | Suudi Arabistan Pro Lig | Al Riyadh - Al Nassr (Riyad | scheduled | -
@@ -121,6 +120,7 @@ Yarin: 21
 - 2026-08-21 21:30 | Türkiye TFF 1. Lig | Fatih Karagümr - Bursaspor | scheduled | -
 - 2026-08-21 21:30 | İtalya Serie A Kadınlar Kupası Grup A | Parma (K) - Inter Milano (K | scheduled | -
 - 2026-08-21 21:30 | Hazırlık Kulüpler | Puente Genil - Linares Deporti | scheduled | -
+- 2026-08-21 21:30 | Irak Premier Lig | Erbil Sc - Al Jawiya | scheduled | -
 - 2026-08-21 21:45 | Fransa Ligue 1 | Marsilya - Strasbourg | scheduled | -
 - 2026-08-21 21:45 | Belçika Pro Lig | Standard Liege - La Louvière | scheduled | -
 - 2026-08-21 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock - Stuttgart | scheduled | -
@@ -178,10 +178,17 @@ Yarin: 21
 - 2026-08-22 06:00 | Meksika Liga MX Apertura | Fc Juarez - Club America | scheduled | -
 - 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | scheduled | -
 - 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | scheduled | -
+- 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | scheduled | -
 - 2026-08-22 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Eltham Redbacks | scheduled | -
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
+- 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | live | -
+- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | live | -
+- 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | live | -
+- 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | live | -
+- 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | live | -
+- 2026-08-21 17:45 | Belarus 1.Lig | Molodechno - Soligorsk | live | -
 - 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | live | -
 - 2026-08-21 18:00 | Slovenya 2.SNL | Jadran Dekani - Jesenice | live | -
 - 2026-08-21 18:00 | Letonya Virsliga | Liepaja - Grobina | live | -
@@ -200,19 +207,6 @@ Yarin: 21
 - 2026-08-21 18:30 | Hırvatistan 2.HNL | Radnik Sesvete - Karlovac 1919 | live | -
 - 2026-08-21 18:30 | Irak Premier Lig | Karbala - Al Zawraa | live | -
 - 2026-08-21 18:50 | Suudi Arabistan 1.Lig | Al Jeel - Al Zulfi | live | -
-- 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | live | -
-- 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | live | -
-- 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | live | -
-- 2026-08-21 17:45 | Belarus 1.Lig | Molodechno - Soligorsk | live | -
-- 2026-08-21 15:00 | Hong Kong Premier Lig | Eastern - Shatin | live | -
-- 2026-08-21 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Dinamo Batumi | live | -
-- 2026-08-21 16:00 | Malezya Süper Lig | Johor Dt - Kuching Fa | live | -
-- 2026-08-21 16:30 | Mısır 2. Lig | Proxy - Pharco | live | -
-- 2026-08-21 16:30 | Mısır 2. Lig | El Saka El Had - Tersana | live | -
-- 2026-08-21 16:30 | Mısır 2. Lig | Ismaily - Masar | live | -
-- 2026-08-21 16:30 | Mısır 2. Lig | Derot - Maleyet Kafr El | live | -
-- 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | live | -
-- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | live | -
 
 ## Biten Maclar
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
@@ -236,3 +230,10 @@ Yarin: 21
 - 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | finished | -
 - 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | finished | -
 - 2026-08-21 14:00 | Hazırlık Kulüpler | Power Dynamos - Zesco United | finished | -
+- 2026-08-21 15:00 | Hong Kong Premier Lig | Eastern - Shatin | finished | -
+- 2026-08-21 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Dinamo Batumi | finished | -
+- 2026-08-21 16:00 | Malezya Süper Lig | Johor Dt - Kuching Fa | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | Proxy - Pharco | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | El Saka El Had - Tersana | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | Ismaily - Masar | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | Derot - Maleyet Kafr El | finished | -

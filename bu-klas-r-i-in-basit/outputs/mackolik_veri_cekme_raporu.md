@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T15:43:21.826771+00:00
+Tarih: 2026-08-21T15:58:32.236087+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
-- Durum: error
-- Kac mac bulundu: 152
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 0
+- Durum: success
+- Kac mac bulundu: 170
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 168
+- Ham veri havuzu toplam mac sayisi: 7931
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -19,20 +19,24 @@ Tarih: 2026-08-21T15:43:21.826771+00:00
 - Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya NPL Başkent Bölgesi
+- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
+- Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
+- Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
@@ -41,13 +45,18 @@ Tarih: 2026-08-21T15:43:21.826771+00:00
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
 - Katar Yıldızlar Ligi
+- Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Litvanya 1.Lig
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Norveç NM Kupası 1.Tur
@@ -88,6 +97,7 @@ Tarih: 2026-08-21T15:43:21.826771+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -144,16 +154,15 @@ Tarih: 2026-08-21T15:43:21.826771+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 89
+- Acilan detay: 89
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
-- Ham veri havuzu okunamadi: Ham veri havuzu JSON bozuk: /home/runner/work/futbol-laboratuvari/futbol-laboratuvari/bu-klas-r-i-in-basit/data/ham_mac_havuzu.json
+- Hata yok.
 
 ## Ornek Maclar
 
@@ -165,21 +174,21 @@ Tarih: 2026-08-21T15:43:21.826771+00:00
 | 21.08.2026 | 22:00 | İspanya LaLiga | Real Betis | Real Sociedad | 06887 | 5 |
 | 21.08.2026 | 21:45 | Fransa Ligue 1 | Marsilya | Strasbourg | 01940 | 5 |
 | 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Waldhof Mannhe | Kaiserslautern | 21041 | 5 |
-| 21.08.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock | Stuttgart | 27912 | 5 |
 | 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Preussen Munst | Karlsruhe | 06945 | 5 |
+| 21.08.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock | Stuttgart | 27912 | 5 |
 | 21.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis | E.Frankfurt | 46087 | 2 |
-| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ittihad (Cid | 22781 | 5 |
-| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Faisaly | Neom Sc | 22590 | 5 |
 | 21.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Riyadh | Al Nassr (Riyad | 20903 | 5 |
 | 21.08.2026 | 19:15 | Suudi Arabistan Pro Lig | Al Hazm | Diriyah | 21333 | 5 |
+| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Faisaly | Neom Sc | 22590 | 5 |
+| 21.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah | Al Ittihad (Cid | 22781 | 5 |
 | 21.08.2026 | 21:45 | Belçika Pro Lig | Standard Liege | La Louvière | 28540 | 5 |
 | 21.08.2026 | 22:00 | İspanya 2.Lig | Cordoba | Girona | 38010 | 5 |
 | 21.08.2026 | 21:30 | İtalya Serie B | Vicenza | Catanzaro | 24984 | 5 |
-| 21.08.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Montpellier | 23667 | 5 |
-| 21.08.2026 | 21:00 | Fransa Ligue 2 | Clermont | Dijon | 23383 | 5 |
+| 21.08.2026 | 21:00 | Fransa Ligue 2 | Boulogne | Red Star Paris | 01958 | 5 |
 | 21.08.2026 | 21:00 | Fransa Ligue 2 | Sochaux | Guingamp | 24407 | 5 |
 | 21.08.2026 | 21:00 | Fransa Ligue 2 | Pau Fc | Nancy | 24293 | 5 |
+| 21.08.2026 | 21:00 | Fransa Ligue 2 | Dunkerque | Montpellier | 23667 | 5 |
 
 ## Sonuc
 
-MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? HAYIR
+MAÇKOLİK VERİ ÇEKME SİSTEMİ HAZIR MI? EVET
