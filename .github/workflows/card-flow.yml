@@ -1,8 +1,6 @@
 name: Card Flow
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   workflow_dispatch:
   push:
     branches:
@@ -48,7 +46,7 @@ jobs:
           fi
           git commit -m "Update card flow data"
           for attempt in 1 2 3; do
-            if git pull --rebase origin main && node scripts/repair-conflict-markers.js && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true

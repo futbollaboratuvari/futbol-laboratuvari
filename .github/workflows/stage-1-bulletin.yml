@@ -3,9 +3,9 @@ name: Stage 1 Bulletin Flow
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 21 * * *"
-    - cron: "0 5 * * *"
-    - cron: "0 9 * * *"
+    - cron: "2 21 * * *"
+    - cron: "2 5 * * *"
+    - cron: "2 9 * * *"
 
 permissions:
   contents: write
@@ -45,12 +45,12 @@ jobs:
             exit 0
           fi
           git commit -m "Update stage 1 bulletin flow"
-          for attempt in 1 2 3; do
-            if git pull --rebase origin main && node scripts/repair-conflict-markers.js && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
-            sleep $((attempt * 2))
+            sleep $((attempt * 3))
           done
           echo "Stage 1 push failed after retries"
           exit 1
