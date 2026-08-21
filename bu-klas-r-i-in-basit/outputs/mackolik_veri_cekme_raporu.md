@@ -1,14 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
+<<<<<<< Updated upstream
 Tarih: 2026-08-21T14:07:40.673726+00:00
+=======
+Tarih: 2026-08-21T14:11:57.448089+00:00
+>>>>>>> Stashed changes
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
+<<<<<<< Updated upstream
 - Kac mac bulundu: 192
 - Kac mac kaydedildi: 1
 - Kac mac zaten vardi: 191
+=======
+- Kac mac bulundu: 170
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 169
+>>>>>>> Stashed changes
 - Ham veri havuzu toplam mac sayisi: 7929
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
@@ -19,8 +29,6 @@ Tarih: 2026-08-21T14:07:40.673726+00:00
 - Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Başkent Bölgesi
-- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belarus 1.Lig
@@ -29,14 +37,11 @@ Tarih: 2026-08-21T14:07:40.673726+00:00
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri 1.Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
-- Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
@@ -49,21 +54,16 @@ Tarih: 2026-08-21T14:07:40.673726+00:00
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
 - Katar Yıldızlar Ligi
-- Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya Virsliga
 - Litvanya 1.Lig
 - Macaristan NB I
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Norveç NM Kupası 1.Tur
@@ -104,7 +104,6 @@ Tarih: 2026-08-21T14:07:40.673726+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
