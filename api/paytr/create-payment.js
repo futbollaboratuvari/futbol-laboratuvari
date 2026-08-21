@@ -1,7 +1,4 @@
-const { json, readBody, requireEnv } = require("../_lib/http");
-const { getPlan } = require("../_lib/plans");
-const { paytrToken, orderId, getIframeToken } = require("../_lib/paytr");
-const { appendPendingOrder } = require("../_lib/order-write");
+const { json, readBody, requireEnv, getPlan, paytrToken, orderId, getIframeToken, appendPendingOrder } = require("../../server-lib/backend");
 
 function clean(value) {
   return String(value || "").trim();
