@@ -39,11 +39,14 @@ Supabase üretim projesinde `bank_transfer_orders` tablosu kurulmuş, RLS doğru
 
 `bank-transfer-admin.html` gerçek banka ödeme yönetim ekranıdır.
 
+- Eski `bank-transfer-admin-test.html` adresi yeni gerçek yönetim ekranına yönlendirilir.
 - `ADMIN_PAYMENT_SECRET` tarayıcıda saklanmaz.
 - Bekleyen / ödeme bildirildi / ödendi filtreleri bulunur.
 - Onay öncesi sipariş kodu, tutar ve ödeme açıklaması tekrar gösterilir.
 - Yönetici banka hesabında transferi gerçekten görmeden onay vermemesi konusunda uyarılır.
 - Onay sonrası üyelik kodu oluşturulur.
+
+`bank-transfer-test.html` ise bilerek korunur. Bu sayfa ana üyelik panelinden bağımsız izole uçtan uca API testi için kullanılacaktır; canlı müşteri girişi olarak kullanılmayacaktır.
 
 ## Vercel ortam değişkenleri
 
@@ -104,7 +107,7 @@ Yardımcı modüller `/server/routes` altına taşındı. `/api` altında yalnı
 - Test verisinin temizlenmesi: başarılı.
 - Kullanıcı üyelik paneli -> banka ödeme modülü bağlantısı: feature branch'te tamamlandı.
 - Admin banka ödeme ekranı: feature branch'te tamamlandı.
-- PayTR mesajları banka satın alma akışından kaldırıldı.
+- PayTR mesajları banka satın alma ve deneme akışından kaldırıldı.
 - Vercel function-count yapısal düzeltmesi: feature branch'te tamamlandı.
 
 ## Canlıya alma öncesi kalan dış engeller
@@ -112,9 +115,10 @@ Yardımcı modüller `/server/routes` altına taşındı. `/api` altında yalnı
 1. Vercel hesabındaki `build-rate-limit` kalkmalı veya hesap limiti çözülmeli.
 2. Vercel environment variables girilmeli.
 3. Güncel feature branch preview deployment alınmalı.
-4. Preview üzerinde sipariş oluşturma -> ödeme bildirimi -> admin onayı -> üyelik kodu -> `/api/verify-code` uçtan uca testi yapılmalı.
-5. Gerçek para testi yapılacaksa önce çok küçük kontrollü bir transferle FL-... açıklama eşleştirmesi doğrulanmalı.
-6. Tüm kontroller başarılı olunca PR `main` dalına merge edilmelidir.
+4. İzole `bank-transfer-test.html` ile sipariş API akışı kontrol edilmeli.
+5. Preview ana üyelik panelinde sipariş oluşturma -> ödeme bildirimi -> admin onayı -> üyelik kodu -> `/api/verify-code` uçtan uca testi yapılmalı.
+6. Gerçek para testi yapılacaksa önce çok küçük kontrollü bir transferle FL-... açıklama eşleştirmesi doğrulanmalı.
+7. Tüm kontroller başarılı olunca PR `main` dalına merge edilmelidir.
 
 ## Kritik güvenlik kararları
 
