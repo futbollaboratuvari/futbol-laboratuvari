@@ -34,21 +34,21 @@ async function githubJson(token, url, options = {}) {
   return data;
 }
 
-async function readJsonFile(token, filePath) {
-  const file = await githubJson(token, contentUrl(filePath));
+async function readJsonFile(token, filePath, ref = "main") {
+  const file = await githubJson(token, contentUrl(filePath, ref));
   return {
     sha: file.sha,
     data: JSON.parse(decodeContent(file.content) || "{}")
   };
 }
 
-async function writeJsonFile(token, filePath, sha, data, message) {
+async function writeJsonFile(token, filePath, sha, data, message, branch = "main") {
   const encodedPath = encodeURIComponent(filePath).replace(/%2F/g, "/");
   const url = `https://api.github.com/repos/${owner}/${repo}/contents/${encodedPath}`;
   return githubJson(token, url, {
     method: "PUT",
     body: JSON.stringify({
-      branch: "main",
+      branch,
       sha,
       message,
       content: encodeContent(`${JSON.stringify(data, null, 2)}\n`)
