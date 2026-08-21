@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-21T16:23:08.022633+00:00
+Tarih: 2026-08-21T16:57:33.515377+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 146
+- Kac mac bulundu: 114
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 146
+- Kac mac zaten vardi: 114
 - Ham veri havuzu toplam mac sayisi: 7931
 - Hedef tarih: 21.08.2026 Europe/Istanbul
 
@@ -16,24 +16,17 @@ Tarih: 2026-08-21T16:23:08.022633+00:00
 
 - Almanya Bölgesel Lig Batı
 - Almanya DFB Kupası 1.Tur
-- Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Başkent Bölgesi
-- Avustralya Victoria NPL 1
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
-- Birleşik Arap Emirlikleri Arap Körfez Ligi
-- Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Faroe Adaları Master Lig
 - Fransa Ligue 1
 - Fransa Ligue 2
@@ -42,17 +35,11 @@ Tarih: 2026-08-21T16:23:08.022633+00:00
 - Galler Premier Lig 1.Aşama
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Irak Premier Lig
-- Katar Yıldızlar Ligi
-- Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Mısır 2. Lig
 - Mısır Premier Lig
 - Peru Premier Lig Clausura
@@ -62,7 +49,6 @@ Tarih: 2026-08-21T16:23:08.022633+00:00
 - Portekiz 2.Lig
 - Portekiz 3.Lig Grup A
 - Romanya 1.Lig
-- Rusya FNL
 - Slovenya 1.SNL
 - Slovenya 2.SNL
 - Suudi Arabistan 1.Lig
@@ -89,7 +75,6 @@ Tarih: 2026-08-21T16:23:08.022633+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -146,8 +131,8 @@ Tarih: 2026-08-21T16:23:08.022633+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 81
-- Acilan detay: 81
+- Denenen Tumu alani: 77
+- Acilan detay: 77
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
