@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
-Ham mac: 194
-Aktif mac: 194
+Ham mac: 196
+Aktif mac: 196
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 173
+Bugun: 175
 Yarin: 21
 
 ## Baslamamis Maclar
@@ -27,6 +27,7 @@ Yarin: 21
 - 2026-08-21 16:30 | Mısır 2. Lig | Ismaily - Masar | scheduled | -
 - 2026-08-21 16:30 | Mısır 2. Lig | Derot - Maleyet Kafr El | scheduled | -
 - 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | scheduled | -
+- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | scheduled | -
 - 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | scheduled | -
 - 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | scheduled | -
 - 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | scheduled | -
@@ -78,6 +79,7 @@ Yarin: 21
 - 2026-08-21 19:30 | Malta Premier Lig Açılış | Floriana - Sliema | scheduled | -
 - 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Lidkopings - Ahlafors If | scheduled | -
 - 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Husqvarna | scheduled | -
+- 2026-08-21 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Wahda | scheduled | -
 - 2026-08-21 20:00 | İsveç Allsvenskan | Sirius - Hacken | scheduled | -
 - 2026-08-21 20:00 | Portekiz 2.Lig | Benfica (B) - Portimonense | scheduled | -
 - 2026-08-21 20:00 | Danimarka 1.Lig | Fredericia - Aarhus Fremad | scheduled | -
