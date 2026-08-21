@@ -86,6 +86,9 @@
     ensureScript("daily-live-score-presenter.js", "daily-live-score-presenter-script");
     ensureScript("match-results-widget.js", "match-results-widget-script");
     ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
+    ensureScript("bank-transfer-payment.js", "bank-transfer-payment-script");
+    ensureScript("membership-bank-transfer-bridge.js", "membership-bank-transfer-bridge-script");
+    ensureScript("bank-transfer-trial-message.js", "bank-transfer-trial-message-script");
     ensureScript("membership-submit-guard.js", "membership-submit-guard-script");
     ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
     ensureScript("premium-analysis-history.js", "premium-analysis-history-script");

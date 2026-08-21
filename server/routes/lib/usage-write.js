@@ -4,16 +4,27 @@ const { getUsageToken } = require("./usage-token");
 const path = "data/usage-log.json";
 const MAX_RECORDS = 200;
 
+function dataBranch() {
+  return String(
+    process.env.USAGE_LOG_BRANCH ||
+    process.env.MEMBERSHIP_VERIFY_BRANCH ||
+    process.env.MEMBERSHIP_PUBLISH_BRANCH ||
+    process.env.VERCEL_GIT_COMMIT_REF ||
+    "main"
+  ).trim() || "main";
+}
+
 async function appendUsageRecord(record) {
   const recordId = record && record.id ? record.id : "";
   const token = getUsageToken();
+  const branch = dataBranch();
 
   if (!token) {
-    return { saved: false, reason: "token-missing", recordId };
+    return { saved: false, reason: "token-missing", recordId, branch };
   }
 
   try {
-    const current = await readJsonFile(token, path);
+    const current = await readJsonFile(token, path, branch);
 
     const nextData = {
       version: 1,
@@ -21,11 +32,11 @@ async function appendUsageRecord(record) {
       records: [record, ...(current.data.records || [])].slice(0, MAX_RECORDS)
     };
 
-    await writeJsonFile(token, path, current.sha, nextData, "Kullanim gecmisi kaydi eklendi");
+    await writeJsonFile(token, path, current.sha, nextData, "Kullanim gecmisi kaydi eklendi", branch);
 
-    return { saved: true, recordId };
+    return { saved: true, recordId, branch };
   } catch (error) {
-    return { saved: false, reason: "write-failed", recordId };
+    return { saved: false, reason: "write-failed", recordId, branch };
   }
 }
 
@@ -36,5 +47,6 @@ function helperRoute(req, res) {
 }
 
 helperRoute.appendUsageRecord = appendUsageRecord;
+helperRoute.dataBranch = dataBranch;
 
 module.exports = helperRoute;
