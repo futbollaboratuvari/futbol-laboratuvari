@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 21.08.2026 13:50:31
+Oluşturma: 21.08.2026 13:55:13
 
 ## Özet
 
-- Toplam tahmin: 118
-- Bekleyen tahmin: 118
+- Toplam tahmin: 121
+- Bekleyen tahmin: 121
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 61
+- Lig sayısı: 62
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,15 @@ Oluşturma: 21.08.2026 13:50:31
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 43, bekleyen 43, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 44, bekleyen 44, başarı bekleniyor, ağırlık 1
+- MS X: toplam 69, bekleyen 69, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 8, bekleyen 8, başarı bekleniyor, ağırlık 1
-- MS X: toplam 67, bekleyen 67, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-21 | Hazırlık Kulüpler | Lorca Deportiv - Atletico Pulpil | MS 2 | pending | 50/100
+- 2026-08-21 | Hazırlık Kulüpler | Puente Genil - Linares Deporti | MS X | pending | 40/100
+- 2026-08-21 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | MS X | pending | 50/100
 - 2026-08-21 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | MS 2 | pending | 50/100
 - 2026-08-21 | Kuzey İrlanda Premiership | Ballymena - Glentoran | MS 1 | pending | 50/100
 - 2026-08-21 | Kuzey İrlanda Premiership | Linfield - Cliftonville | MS X | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 21.08.2026 13:50:31
 - 2026-08-21 | İspanya 2.Lig | Cordoba - Girona | MS X | pending | 50/100
 - 2026-08-21 | İrlanda Premier Lig | Sligo Rovers - Waterford | MS X | pending | 50/100
 - 2026-08-21 | İtalya Serie C Grup B | F.C. Vado - Atalanta Ii | MS 1 | pending | 40/100
-- 2026-08-21 | İtalya Serie C Grup C | Rossoblu Poten - Casarano | MS X | pending | 50/100
-- 2026-08-21 | İtalya Serie C Grup C | Ssc Giugliano - Scafatese | MS 2 | pending | 40/100
-- 2026-08-21 | İtalya Serie C Grup C | Bari - Cavese | MS 2 | pending | 65/100
 
