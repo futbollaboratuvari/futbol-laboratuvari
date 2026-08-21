@@ -293,17 +293,13 @@ Bu motorun çalışması için fixtures.json dolu olmalı. fixtures.json boş ol
 
 ## Ödeme / Üyelik Dosyaları
 
-Repo içinde PayTR ve üyelik altyapısı dosyaları göründü:
+Repo içinde üyelik altyapısı dosyaları göründü:
 
-- api/paytr/create-payment.js
-- api/paytr/callback.js
-- api/_lib/paytr.js
 - api/_lib/http.js
 - api/_lib/plans.js
 - api/_lib/membership.js
 - api/me/start-trial.js
 - api/me/subscription.js
-- serverless/paytr/...
 - vercel.json
 
 Bu dosyalar sadece tespit edildi; içeriklerine müdahale edilmedi.
@@ -320,7 +316,6 @@ Repo içinde hafıza ve proje dokümanları duruyor:
 - SAYFA_DUZENLEME_ILKELERI.md
 - docs/GERCEK_VERI_ANALIZ_ILKELERI.md
 - docs/PRO_ROBOT_KUPON_AKIS_ZORUNLULUGU.md
-- docs/PREMIUM_ODEME_PLANI.md
 
 ## Kök Sebep Özeti
 

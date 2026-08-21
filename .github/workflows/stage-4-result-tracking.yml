@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: stage-4-result-tracking
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   result-tracking:
@@ -23,6 +23,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+      - name: Repair input conflicts
+        run: node scripts/repair-conflict-markers.js
 
       - name: Update bulletin before result tracking
         run: node scripts/update-fixtures.js
@@ -64,4 +67,12 @@ jobs:
             exit 0
           fi
           git commit -m "Update robot automatic pipeline"
-          git push origin HEAD:main
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && node scripts/repair-conflict-markers.js && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 2))
+          done
+          echo "Stage 4 push failed after retries"
+          exit 1

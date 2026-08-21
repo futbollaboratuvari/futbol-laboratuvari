@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: repair-ham-pool-only
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   repair-ham-pool:
@@ -57,4 +57,12 @@ jobs:
             exit 0
           fi
           git commit -m "Repair robot ham raw pool JSON"
-          git push origin HEAD:main
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 2))
+          done
+          echo "Ham pool push failed after retries"
+          exit 1

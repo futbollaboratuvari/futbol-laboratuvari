@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: run-robot-now
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   run-robot-now:
