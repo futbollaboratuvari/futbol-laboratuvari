@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-league-expansion
-  cancel-in-progress: true
+  group: futbol-main-data-writer
+  cancel-in-progress: false
 
 jobs:
   update-league-expansion:
@@ -33,7 +33,21 @@ jobs:
         run: node scripts/league-expansion-lite.js
 
       - name: Commit league expansion outputs
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update league expansion signals"
-          file_pattern: data/league-expansion-signals.json data/archive/*-league-expansion.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/league-expansion-signals.json data/archive/*-league-expansion.json
+          if git diff --cached --quiet; then
+            echo "No league expansion changes"
+            exit 0
+          fi
+          git commit -m "Update league expansion signals"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 2))
+          done
+          echo "League expansion push failed after retries"
+          exit 1
