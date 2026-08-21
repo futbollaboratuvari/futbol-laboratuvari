@@ -48,7 +48,21 @@ jobs:
         run: node scripts/standings-lite.js
 
       - name: Commit profile archive outputs
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update profile archive"
-          file_pattern: data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/source-reading-plan.json data/team-status-signals.json data/lineup-signals.json data/home-away-performance.json data/standings-signals.json data/archive/*-profiles.json data/archive/*-source-plan.json data/archive/*-team-status.json data/archive/*-lineups.json data/archive/*-home-away.json data/archive/*-standings.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/source-reading-plan.json data/team-status-signals.json data/lineup-signals.json data/home-away-performance.json data/standings-signals.json data/archive/*-profiles.json data/archive/*-source-plan.json data/archive/*-team-status.json data/archive/*-lineups.json data/archive/*-home-away.json data/archive/*-standings.json
+          if git diff --cached --quiet; then
+            echo "No profile archive changes"
+            exit 0
+          fi
+          git commit -m "Update profile archive"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 2))
+          done
+          echo "Profile archive push failed after retries"
+          exit 1
