@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
-Ham mac: 180
-Aktif mac: 110
-Canli mac: 70
-Biten mac: 0
-Bultenden dusurulen mac: 70
-Bugun: 88
+Ham mac: 222
+Aktif mac: 109
+Canli mac: 62
+Biten mac: 51
+Bultenden dusurulen mac: 113
+Bugun: 87
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-08-21 20:50 | Suudi Arabistan 1.Lig | Al Wahda - Al Adalah | scheduled | -
 - 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al Faisaly - Neom Sc | scheduled | -
 - 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ittihad (Cid | scheduled | -
 - 2026-08-21 21:00 | Fransa Ligue 2 | Dunkerque - Montpellier | scheduled | -
@@ -123,15 +122,6 @@ Yarin: 22
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 18:30 | Finlandiya Ykkösliiga | Haka - Sjk Ii | live | -
-- 2026-08-21 18:30 | Macaristan NB I | Paksi - Ujpest | live | -
-- 2026-08-21 18:30 | Slovenya 1.SNL | Aluminij - Nk Brinje Grosu | live | -
-- 2026-08-21 18:30 | Finlandiya Ykkönen | Kpv Kokkola - Kups Ak. | live | -
-- 2026-08-21 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Jyvaskyla | live | -
-- 2026-08-21 18:30 | Litvanya 1.Lig | Be1 Nfa - Garliava | live | -
-- 2026-08-21 18:30 | Hırvatistan 2.HNL | Zdralovi - Vukovar | live | -
-- 2026-08-21 18:30 | Hırvatistan 2.HNL | Radnik Sesvete - Karlovac 1919 | live | -
-- 2026-08-21 18:30 | Irak Premier Lig | Karbala - Al Zawraa | live | -
 - 2026-08-21 18:50 | Suudi Arabistan 1.Lig | Al Jeel - Al Zulfi | live | -
 - 2026-08-21 19:00 | Suudi Arabistan Pro Lig | Al Riyadh - Al Nassr (Riyad | live | -
 - 2026-08-21 19:00 | Almanya DFB Kupası 1.Tur | Sc St. Tönis - E.Frankfurt | live | -
@@ -193,6 +183,57 @@ Yarin: 22
 - 2026-08-21 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Etoile Carouge | live | -
 - 2026-08-21 20:30 | Faroe Adaları Master Lig | Vikingur Gota - B36 Torshavn | live | -
 - 2026-08-21 20:30 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | live | -
+- 2026-08-21 20:50 | Suudi Arabistan 1.Lig | Al Wahda - Al Adalah | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | finished | -
+- 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | finished | -
+- 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | finished | -
+- 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | finished | -
+- 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | finished | -
+- 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | finished | -
+- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | finished | -
+- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | finished | -
+- 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | finished | -
+- 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | finished | -
+- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | finished | -
+- 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | finished | -
+- 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | finished | -
+- 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | finished | -
+- 2026-08-21 13:30 | Japonya J1 Lig | Fc Tokyo - Jef Utd Chiba | finished | -
+- 2026-08-21 13:30 | Avustralya Victoria NPL 1 | Northcote City - Moreland Zebras | finished | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | finished | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | finished | -
+- 2026-08-21 14:00 | Hazırlık Kulüpler | Power Dynamos - Zesco United | finished | -
+- 2026-08-21 15:00 | Hong Kong Premier Lig | Eastern - Shatin | finished | -
+- 2026-08-21 16:00 | Gürcistan Erovnuli Liga | Meshakhte - Dinamo Batumi | finished | -
+- 2026-08-21 16:00 | Malezya Süper Lig | Johor Dt - Kuching Fa | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | Proxy - Pharco | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | El Saka El Had - Tersana | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | Ismaily - Masar | finished | -
+- 2026-08-21 16:30 | Mısır 2. Lig | Derot - Maleyet Kafr El | finished | -
+- 2026-08-21 17:00 | Mısır Premier Lig | Wadi Degla - Zed | finished | -
+- 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | finished | -
+- 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | finished | -
+- 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | finished | -
+- 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | finished | -
+- 2026-08-21 17:45 | Belarus 1.Lig | Molodechno - Soligorsk | finished | -
+- 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | finished | -
+- 2026-08-21 18:00 | Slovenya 2.SNL | Jadran Dekani - Jesenice | finished | -
+- 2026-08-21 18:00 | Letonya Virsliga | Liepaja - Grobina | finished | -
+- 2026-08-21 18:00 | Letonya Virsliga | Auda - Fk Tukums 2000 | finished | -
+- 2026-08-21 18:00 | Litvanya 1.Lig | Babrungas - Tauras | finished | -
+- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | City Fc Dubai - Dubba Al Fujair | finished | -
+- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Urooba - Al Thaid | finished | -
+- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Bataeh - Al Ittifaq | finished | -
+- 2026-08-21 18:30 | Finlandiya Ykkösliiga | Haka - Sjk Ii | finished | -
+- 2026-08-21 18:30 | Macaristan NB I | Paksi - Ujpest | finished | -
+- 2026-08-21 18:30 | Slovenya 1.SNL | Aluminij - Nk Brinje Grosu | finished | -
+- 2026-08-21 18:30 | Finlandiya Ykkönen | Kpv Kokkola - Kups Ak. | finished | -
+- 2026-08-21 18:30 | Finlandiya Ykkönen | Pk Keski Uusim - Jyvaskyla | finished | -
+- 2026-08-21 18:30 | Litvanya 1.Lig | Be1 Nfa - Garliava | finished | -
+- 2026-08-21 18:30 | Hırvatistan 2.HNL | Zdralovi - Vukovar | finished | -
+- 2026-08-21 18:30 | Hırvatistan 2.HNL | Radnik Sesvete - Karlovac 1919 | finished | -
+- 2026-08-21 18:30 | Irak Premier Lig | Karbala - Al Zawraa | finished | -

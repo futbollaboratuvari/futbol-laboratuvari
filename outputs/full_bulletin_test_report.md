@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 145
-- Live match count: 46
-- Finished removed count: 1
+- Scheduled match count: 80
+- Live match count: 91
+- Finished removed count: 0
 - Date window: 2026-08-21 / 2026-08-22 23:59
 
-- 2026-08-21 17:30 | Orsha - Bate Ii | live
-- 2026-08-21 17:30 | Al Mosul - Diala | live
-- 2026-08-21 17:45 | Molodechno - Soligorsk | live
-- 2026-08-21 18:00 | Minsk - Vitebsk | live
-- 2026-08-21 18:00 | Auda - Fk Tukums | live
-- 2026-08-21 18:00 | Liepaja - Grobina | live
-- 2026-08-21 18:00 | Babrungas - Tauras | live
-- 2026-08-21 18:00 | Jadran Dekani - Jesenice | live
-- 2026-08-21 18:15 | Al Bataeh - Al Ittifaq | live
-- 2026-08-21 18:15 | Al Urooba - Al Thaid | live
+- 2026-08-21 18:50 | Al Jeel - Al Zulfi | live
+- 2026-08-21 19:00 | Preussen Munst - Karlsruhe | live
+- 2026-08-21 19:00 | Sc St. Tönis - E.Frankfurt | live
+- 2026-08-21 19:00 | Waldhof Mannhe - Kaiserslautern | live
+- 2026-08-21 19:00 | Jihlava - Sezimivo Usti | live
+- 2026-08-21 19:00 | Karvina - Viktoria Zizkov | live
+- 2026-08-21 19:00 | Opava - Trinec | live
+- 2026-08-21 19:00 | Prostejov - Kladno | live
+- 2026-08-21 19:00 | Usti Nad Labem - Dukla Prag | live
+- 2026-08-21 19:00 | Vlasim - Pribram | live
