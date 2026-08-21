@@ -1,7 +1,7 @@
 # Tahmin Kayit Saglik Kontrolu
 
 Durum: aday_yok_izleme
-Robot analiz maci: 158
+Robot analiz maci: 55
 Aday tahmin: 0
 Toplam tahmin: 0
 Bekleyen: 0
