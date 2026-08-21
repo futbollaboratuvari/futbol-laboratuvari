@@ -75,7 +75,8 @@ async function readManagedCodes() {
       remainingAnalysisCount: Number(item.remainingAnalysisCount || 0),
       active: item.active !== false,
       codeLabel: item.codeLabel || "",
-      owner: item.owner || ""
+      owner: item.owner || "",
+      expiresAt: item.expiresAt || null
     };
   }
 
@@ -152,6 +153,10 @@ module.exports = async function handler(req, res) {
       return res.status(401).json({ ok: false, message: "Kod pasif durumda." });
     }
 
+    if (managedCode?.expiresAt && new Date(managedCode.expiresAt).getTime() <= Date.now()) {
+      return res.status(403).json({ ok: false, message: "Üyelik süresi doldu." });
+    }
+
     const codeInfo = managedCode || CODE_DATABASE[codeHash] || readEnvCodes()[codeHash];
 
     if (!codeInfo) {
@@ -173,7 +178,8 @@ module.exports = async function handler(req, res) {
       membership: {
         planCode: codeInfo.planCode,
         planName: codeInfo.planName,
-        remainingAnalysisCount: nextRemaining
+        remainingAnalysisCount: nextRemaining,
+        expiresAt: codeInfo.expiresAt || null
       },
       usageRecordId: usageRecord.id,
       saveResult,
