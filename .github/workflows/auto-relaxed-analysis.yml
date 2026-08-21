@@ -34,6 +34,49 @@ jobs:
           npm run build:live
           npm run sync:results
           npm run check:learning
+
+      - name: Guard against sudden data collapse
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const { execFileSync } = require('child_process');
+
+          const readCurrent = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
+          const readPrevious = (file) => JSON.parse(execFileSync(
+            'git', ['show', `HEAD:${file}`],
+            { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024 }
+          ));
+
+          const currentFixtures = readCurrent('data/fixtures.json');
+          const previousFixtures = readPrevious('data/fixtures.json');
+          const currentArchive = readCurrent('data/robot_match_archive.json');
+          const previousArchive = readPrevious('data/robot_match_archive.json');
+
+          const currentFixtureCount = Array.isArray(currentFixtures) ? currentFixtures.length : 0;
+          const previousFixtureCount = Array.isArray(previousFixtures) ? previousFixtures.length : 0;
+          const currentArchiveCount = Array.isArray(currentArchive.matches) ? currentArchive.matches.length : 0;
+          const previousArchiveCount = Array.isArray(previousArchive.matches) ? previousArchive.matches.length : 0;
+
+          const fixtureFloor = previousFixtureCount >= 50
+            ? Math.max(10, Math.floor(previousFixtureCount * 0.10))
+            : 0;
+          const archiveFloor = previousArchiveCount >= 1000
+            ? Math.floor(previousArchiveCount * 0.50)
+            : 0;
+
+          console.log(`Data guard fixtures: ${previousFixtureCount} -> ${currentFixtureCount}`);
+          console.log(`Data guard archive: ${previousArchiveCount} -> ${currentArchiveCount}`);
+
+          if (fixtureFloor && currentFixtureCount < fixtureFloor) {
+            console.error(`Guard blocked commit: fixtures collapsed below ${fixtureFloor}.`);
+            process.exit(1);
+          }
+          if (archiveFloor && currentArchiveCount < archiveFloor) {
+            console.error(`Guard blocked commit: archive collapsed below ${archiveFloor}.`);
+            process.exit(1);
+          }
+          NODE
+
       - name: Commit auto analysis outputs
         run: |
           git config user.name "github-actions[bot]"
