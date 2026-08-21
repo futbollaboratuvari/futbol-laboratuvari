@@ -1,0 +1,72 @@
+name: Derived Data Pipeline
+
+on:
+  schedule:
+    - cron: "10,25,40,55 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ops/derived-data-run.txt"
+      - ".github/workflows/derived-data.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: futbol-main-data-writer
+  cancel-in-progress: false
+
+jobs:
+  derived-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Repair input conflicts
+        run: node scripts/repair-conflict-markers.js
+
+      - name: Build derived data atomically
+        run: |
+          node scripts/profile-lite.js
+          node scripts/source-plan-lite.js
+          node scripts/team-status-lite.js
+          node scripts/lineup-lite.js
+          node scripts/home-away-lite.js
+          node scripts/standings-lite.js
+          node scripts/league-structure-lite.js
+          node scripts/league-expansion-lite.js
+          node scripts/stats-memory-lite.js
+          node scripts/team-style-note.js
+          node scripts/card-flow-lite.js
+          node scripts/cards-user-choice.js
+
+      - name: Validate derived outputs
+        run: node scripts/validate-json-no-conflicts.js
+
+      - name: Commit derived data as one transaction
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data outputs
+          if git diff --cached --quiet; then
+            echo "No derived data changes"
+            exit 0
+          fi
+          git commit -m "Update derived football data"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 3))
+          done
+          echo "Derived data push failed after retries"
+          exit 1
