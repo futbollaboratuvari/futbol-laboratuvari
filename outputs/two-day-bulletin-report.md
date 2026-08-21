@@ -4,8 +4,8 @@ Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 202
 Aktif mac: 194
-Canli mac: 8
-Biten mac: 0
+Canli mac: 4
+Biten mac: 4
 Bultenden dusurulen mac: 8
 Bugun: 173
 Yarin: 21
@@ -207,14 +207,13 @@ Yarin: 21
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | live | -
-- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | live | -
-- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | live | -
-- 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | live | -
 - 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | live | -
 - 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | live | -
 - 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | live | -
 - 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | finished | -
+- 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | finished | -
