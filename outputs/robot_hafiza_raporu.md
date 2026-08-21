@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-20T06:59:59+03:00
+Güncelleme: 2026-08-21T07:02:55+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 83
+- Toplam tahmin kaydı: 341
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -17,15 +17,13 @@ Güncelleme: 2026-08-20T06:59:59+03:00
 | - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 27 | 0 | 0 | 27 | %0 | 0 |
+| Değerli market yok | 118 | 0 | 0 | 118 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 3 | 0 | 0 | 3 | %0 | 3.35 |
-| MS 2 | 26 | 0 | 0 | 26 | %0 | 4.64 |
-| MS 2 + MS 2 | 2 | 0 | 0 | 2 | %0 | 44.12 |
-| MS 2 + MS 2 + MS 2 | 1 | 0 | 0 | 1 | %0 | 368.81 |
-| MS 2 + MS 2 + MS X | 1 | 0 | 0 | 1 | %0 | 91.76 |
-| MS 2 + MS X | 1 | 0 | 0 | 1 | %0 | 18.54 |
-| MS X | 21 | 0 | 0 | 21 | %0 | 3.34 |
+| MS 1 | 8 | 0 | 0 | 8 | %0 | 3.16 |
+| MS 2 | 76 | 0 | 0 | 76 | %0 | 4.03 |
+| MS X | 138 | 0 | 0 | 138 | %0 | 3.21 |
+| İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
+| İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
 ## Oran Aralığı Performansı
 
@@ -33,44 +31,44 @@ Güncelleme: 2026-08-20T06:59:59+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 7 | 0 | 0 | 7 | %0 | 2.92 |
-| 3.00-4.99 | 36 | 0 | 0 | 36 | %0 | 3.74 |
-| 5.00+ | 12 | 0 | 0 | 12 | %0 | 51.1 |
-| bilinmiyor | 28 | 0 | 0 | 28 | %0 | 0 |
+| 2.00-2.99 | 36 | 0 | 0 | 36 | %0 | 2.9 |
+| 3.00-4.99 | 174 | 0 | 0 | 174 | %0 | 3.47 |
+| 5.00+ | 12 | 0 | 0 | 12 | %0 | 5.47 |
+| bilinmiyor | 119 | 0 | 0 | 119 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| ABD MLS | 6 | 0 | 0 | 6 | %0 | 3.52 |
-| ABD USL | 1 | 0 | 0 | 1 | %0 | 2.97 |
-| Belarus Premier Lig | 1 | 0 | 0 | 1 | %0 | 4.29 |
-| CONCACAF Orta Amerika Kupası Grup D | 1 | 0 | 0 | 1 | %0 | 0 |
-| Danimarka 1.Lig | 1 | 0 | 0 | 1 | %0 | 3.14 |
-| Finlandiya Ykkösliiga | 1 | 0 | 0 | 1 | %0 | 0 |
-| Fransa Ligue 3 | 9 | 0 | 0 | 9 | %0 | 3.19 |
-| Irak Premier Lig | 2 | 0 | 0 | 2 | %0 | 0 |
-| Katar Yıldızlar Ligi | 2 | 0 | 0 | 2 | %0 | 5.2 |
-| Mısır 2. Lig | 5 | 0 | 0 | 5 | %0 | 0 |
-| Paraguay Kupa 3.Tur | 1 | 0 | 0 | 1 | %0 | 0 |
-| Portekiz U23 Ulusal Şampiyona | 1 | 0 | 0 | 1 | %0 | 3.28 |
+| Almanya Bölgesel Lig Batı | 2 | 0 | 0 | 2 | %0 | 3.17 |
+| Almanya DFB Kupası 1.Tur | 8 | 0 | 0 | 8 | %0 | 4.09 |
+| Almanya Kadınlar Bundesliga | 2 | 0 | 0 | 2 | %0 | 0 |
+| Arjantin Premier Lig 2. Aşama | 2 | 0 | 0 | 2 | %0 | 0 |
+| Arjantin Ulusal Primera Lig | 4 | 0 | 0 | 4 | %0 | 0 |
+| Avustralya NPL Victoria | 2 | 0 | 0 | 2 | %0 | 3.2 |
+| Avustralya NPL Yeni Güney Galler | 2 | 0 | 0 | 2 | %0 | 0 |
+| Avustralya Victoria NPL 1 | 2 | 0 | 0 | 2 | %0 | 3.26 |
+| Avusturya 1.Lig | 10 | 0 | 0 | 10 | %0 | 3.33 |
+| Avusturya Bundesliga | 2 | 0 | 0 | 2 | %0 | 3.33 |
+| Belarus Premier Lig | 2 | 0 | 0 | 2 | %0 | 2.72 |
+| Belçika Challenger Pro Lig | 4 | 0 | 0 | 4 | %0 | 3.1 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Al Feiha VS Al Hilal (Riyad | 1 | 0 | 0 | 1 | %0 | 5.59 |
-| Al Minaa Basra VS Zakho | 1 | 0 | 0 | 1 | %0 | 0 |
-| Al Rayyan VS Lusail City | 1 | 0 | 0 | 1 | %0 | 7.3 |
-| Al Wakrah VS Qatar Sc | 1 | 0 | 0 | 1 | %0 | 3.1 |
-| Arsenal Tula VS Rotor Volgograd | 1 | 0 | 0 | 1 | %0 | 0 |
-| Atalanta VS Hapoel Tel Aviv | 1 | 0 | 0 | 1 | %0 | 0 |
-| Azam Fc VS Tabora United | 1 | 0 | 0 | 1 | %0 | 0 |
-| Baltika Kalini VS Makhachkala | 1 | 0 | 0 | 1 | %0 | 0 |
-| Bastia VS Versailles | 1 | 0 | 0 | 1 | %0 | 3.02 |
-| Benfica U23 VS Rio Ave U23 | 1 | 0 | 0 | 1 | %0 | 3.28 |
-| Benfica VS Aarhus | 1 | 0 | 0 | 1 | %0 | 0 |
-| Beşiktaş VS Kauno Zalgiris | 1 | 0 | 0 | 1 | %0 | 0 |
+| Abu Qair VS National Bank O | 2 | 0 | 0 | 2 | %0 | 0 |
+| Academia Anzoa VS Trujillanos | 2 | 0 | 0 | 2 | %0 | 3.57 |
+| Acassuso VS Godoy Cruz | 2 | 0 | 0 | 2 | %0 | 0 |
+| Admira Wacker VS First Vienna | 2 | 0 | 0 | 2 | %0 | 3.03 |
+| Aegir VS Afturelding | 2 | 0 | 0 | 2 | %0 | 0 |
+| Afan Lido VS Pontardawe | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Arabi VS Al Shamal | 2 | 0 | 0 | 2 | %0 | 3.22 |
+| Al Bataeh VS Al Ittifaq | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Bukayriyah VS Al Anwar | 2 | 0 | 0 | 2 | %0 | 2.86 |
+| Al Faisaly Amm VS Al Wihdat Amman | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Faisaly VS Neom Sc | 2 | 0 | 0 | 2 | %0 | 0 |
+| Al Hazm VS Diriyah | 2 | 0 | 0 | 2 | %0 | 3.08 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -83,11 +81,9 @@ Güncelleme: 2026-08-20T06:59:59+03:00
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS 2 + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
-| MS 2 + MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 
 ## Öğrenme Ağırlıkları - Oran Aralığı
 
