@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
-Ham mac: 198
-Aktif mac: 189
+Ham mac: 220
+Aktif mac: 190
 Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 168
+Biten mac: 21
+Bultenden dusurulen mac: 30
+Bugun: 169
 Yarin: 21
 
 ## Baslamamis Maclar
@@ -122,6 +122,7 @@ Yarin: 21
 - 2026-08-21 21:00 | Bosna-Hersek Premier Lig | Sarajevo - Bsk Banja Luka | scheduled | -
 - 2026-08-21 21:00 | Galler FAW Championship Kuzey | Mold Alexandra - Buckley Town | scheduled | -
 - 2026-08-21 21:00 | Hazırlık Kulüpler | Lorca Deportiv - Atletico Pulpil | scheduled | -
+- 2026-08-21 21:00 | Irak Premier Lig | Al Karma - Al Shorta | scheduled | -
 - 2026-08-21 21:15 | Bulgaristan 1.Lig | Cherno More - Dunav 2010 | scheduled | -
 - 2026-08-21 21:15 | İsviçre Challenge Lig | Rappersvil Jon - Winterthur | scheduled | -
 - 2026-08-21 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Nafta | scheduled | -
@@ -213,4 +214,24 @@ Yarin: 21
 - 2026-08-21 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ittihad Kal - Al Wasl | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Olimpia Asunci (0) - (0) Vasco Da Gama | finished | -
+- 2026-08-21 01:00 | Copa Sudamericana Son 16 Turu | Depor Macara (1) - (2) Santos | finished | -
+- 2026-08-21 01:30 | Brezilya Serie B | Athletic Club - Regatas | finished | -
+- 2026-08-21 02:00 | Meksika Ascenso MX Apertura | Venados Fc - Dorados | finished | -
+- 2026-08-21 02:30 | Brezilya Serie B | Novorizontino - America Mineiro | finished | -
+- 2026-08-21 03:30 | Copa Libertadores Son 16 Turu | Corinthians (0) - (0) Rosario Central | finished | -
+- 2026-08-21 03:30 | Copa Sudamericana Son 16 Turu | Botafogo (1) - (6) Cienciano | finished | -
+- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Monarcas - Correcaminos Ua | finished | -
+- 2026-08-21 04:00 | Meksika Ascenso MX Apertura | Tepatitlan De - Tlaxcala | finished | -
+- 2026-08-21 04:00 | CONCACAF Orta Amerika Kupası Grup C | Alianza Fc - Depor. Olimpia | finished | -
+- 2026-08-21 06:00 | CONCACAF Orta Amerika Kupası Grup A | Firpo - Alajuelense | finished | -
+- 2026-08-21 12:00 | Ukrayna Kupa 1.Tur | Fc Rebel - Ahrobiznes Vol | finished | -
+- 2026-08-21 12:30 | Avustralya NPL Yeni Güney Galler | Sydney Ii - Rockdale Cs | finished | -
+- 2026-08-21 12:30 | Avustralya NPL Victoria | Green Gully - St. Albans Sain | finished | -
+- 2026-08-21 13:00 | Japonya J1 Lig | Kashiwa - V-Varen Nagasak | finished | -
+- 2026-08-21 13:30 | Japonya J1 Lig | Fc Tokyo - Jef Utd Chiba | finished | -
+- 2026-08-21 13:30 | Avustralya Victoria NPL 1 | Northcote City - Moreland Zebras | finished | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Lokomotiv Kyiv - Probiy Horodenk | finished | -
+- 2026-08-21 14:00 | Ukrayna Kupa 1.Tur | Podillya Khmel - Viktoriya Mykol | finished | -
+- 2026-08-21 14:00 | Hazırlık Kulüpler | Power Dynamos - Zesco United | finished | -
