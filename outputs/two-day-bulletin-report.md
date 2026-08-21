@@ -3,64 +3,14 @@
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
 Ham mac: 222
-Aktif mac: 77
-Canli mac: 71
-Biten mac: 74
-Bultenden dusurulen mac: 145
-Bugun: 55
+Aktif mac: 27
+Canli mac: 108
+Biten mac: 87
+Bultenden dusurulen mac: 195
+Bugun: 5
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-08-21 21:30 | Türkiye Süper Lig | Erzurumspor Fk - Galatasaray | scheduled | -
-- 2026-08-21 21:30 | İtalya Serie B | Vicenza - Catanzaro | scheduled | -
-- 2026-08-21 21:30 | Polonya Ekstraklasa | Cracovia Krako - Ks Wieczysta Kr | scheduled | -
-- 2026-08-21 21:30 | Polonya 1.Lig | Lechia Gdansk - Pogon Siedlce | scheduled | -
-- 2026-08-21 21:30 | Arjantin Ulusal Primera Lig | San Telmo - Moron | scheduled | -
-- 2026-08-21 21:30 | İskoçya Championship | Inverness Ct - Partick Thistle | scheduled | -
-- 2026-08-21 21:30 | Avusturya 1.Lig | Admira Wacker - First Vienna | scheduled | -
-- 2026-08-21 21:30 | Polonya 2.Lig | Chojniczanka - Stal S Wola | scheduled | -
-- 2026-08-21 21:30 | Uruguay Premier Lig Clausura | Albion - Boston River | scheduled | -
-- 2026-08-21 21:30 | Galler FAW Championship Kuzey | Holyhead - Bangor | scheduled | -
-- 2026-08-21 21:30 | Galler FAW Championship Güney | Pontypridd Tow - Trethomas Blueb | scheduled | -
-- 2026-08-21 21:30 | Galler FAW Championship Güney | Afan Lido - Pontardawe | scheduled | -
-- 2026-08-21 21:30 | Galler FAW Championship Güney | Newport City - Baglan Dragons | scheduled | -
-- 2026-08-21 21:30 | Türkiye TFF 1. Lig | Fatih Karagümr - Bursaspor | scheduled | -
-- 2026-08-21 21:30 | İtalya Serie A Kadınlar Kupası Grup A | Parma (K) - Inter Milano (K | scheduled | -
-- 2026-08-21 21:30 | Hazırlık Kulüpler | Puente Genil - Linares Deporti | scheduled | -
-- 2026-08-21 21:30 | Irak Premier Lig | Erbil Sc - Al Jawiya | scheduled | -
-- 2026-08-21 21:45 | Fransa Ligue 1 | Marsilya - Strasbourg | scheduled | -
-- 2026-08-21 21:45 | Belçika Pro Lig | Standard Liege - La Louvière | scheduled | -
-- 2026-08-21 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock - Stuttgart | scheduled | -
-- 2026-08-21 21:45 | İrlanda Premier Lig | Bohemian - Derry City | scheduled | -
-- 2026-08-21 21:45 | İrlanda Premier Lig | Drogheda - St Patricks | scheduled | -
-- 2026-08-21 21:45 | İrlanda Premier Lig | Dundalk - Galway United | scheduled | -
-- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Penybont - Llandudno | scheduled | -
-- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Colwyn Bay - Airbus Uk | scheduled | -
-- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Holywell Town - Barry Town | scheduled | -
-- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Flint Town - Briton Ferry | scheduled | -
-- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Cardiff Mu - The New Saints | scheduled | -
-- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | scheduled | -
-- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Trefelin - Caernarfon | scheduled | -
-- 2026-08-21 21:45 | Kuzey İrlanda Premiership | Ballymena - Glentoran | scheduled | -
-- 2026-08-21 21:45 | Kuzey İrlanda Premiership | Linfield - Cliftonville | scheduled | -
-- 2026-08-21 21:45 | İrlanda 1.Lig | Kerry - Ucd | scheduled | -
-- 2026-08-21 21:45 | İrlanda 1.Lig | Wexford Youths - Athlone | scheduled | -
-- 2026-08-21 21:45 | İrlanda 1.Lig | Treaty Unt. - Cork City | scheduled | -
-- 2026-08-21 21:45 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | scheduled | -
-- 2026-08-21 21:45 | Kuzey İrlanda Championship | Newry City Afc - Warrenpoint Tow | scheduled | -
-- 2026-08-21 21:45 | Galler FAW Championship Kuzey | Denbigh Town - Porthmadog | scheduled | -
-- 2026-08-21 21:45 | Galler FAW Championship Güney | Caerau Ely - Swansea Univers | scheduled | -
-- 2026-08-21 22:00 | İngiltere Premier Lig | Arsenal - Coventry | scheduled | -
-- 2026-08-21 22:00 | İspanya LaLiga | Real Betis - Real Sociedad | scheduled | -
-- 2026-08-21 22:00 | İspanya 2.Lig | Cordoba - Girona | scheduled | -
-- 2026-08-21 22:00 | İrlanda Premier Lig | Sligo Rovers - Waterford | scheduled | -
-- 2026-08-21 22:00 | İtalya Serie C Grup A | Alcione - Renate | scheduled | -
-- 2026-08-21 22:00 | İtalya Serie C Grup A | Union Brescia - Athletic Carpi | scheduled | -
-- 2026-08-21 22:00 | İtalya Serie C Grup B | F.C. Vado - Atalanta Ii | scheduled | -
-- 2026-08-21 22:00 | İtalya Serie C Grup C | Rossoblu Poten - Casarano | scheduled | -
-- 2026-08-21 22:00 | İtalya Serie C Grup C | Ssc Giugliano - Scafatese | scheduled | -
-- 2026-08-21 22:00 | İtalya Serie C Grup C | Bari - Cavese | scheduled | -
-- 2026-08-21 22:00 | Malta Premier Lig Açılış | Marsaxlokk Fc - Hibernians | scheduled | -
 - 2026-08-21 22:15 | Portekiz 2.Lig | Tondela - Academica | scheduled | -
 - 2026-08-21 22:15 | İzlanda 1.Lig | Grotta - Ir Reykjavik | scheduled | -
 - 2026-08-21 22:30 | Portekiz 3.Lig Grup A | Fafe - Guimaraes (B) | scheduled | -
@@ -90,19 +40,6 @@ Yarin: 22
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 19:15 | Suudi Arabistan Pro Lig | Al Hazm - Diriyah | live | -
-- 2026-08-21 19:15 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Anwar | live | -
-- 2026-08-21 19:20 | Almanya Kadınlar Bundesliga | Union Berlin ( - Bayern München | live | -
-- 2026-08-21 19:30 | Rusya FNL | Torpedo Moskov - Spartak Kostrom | live | -
-- 2026-08-21 19:30 | Katar Yıldızlar Ligi | Al Arabi - Al Shamal | live | -
-- 2026-08-21 19:30 | Avusturya 1.Lig | Liefering - Avusturya Wien | live | -
-- 2026-08-21 19:30 | Avusturya 1.Lig | Amstetten - Wspg Wels | live | -
-- 2026-08-21 19:30 | Avusturya 1.Lig | Wacker Innsbru - St Polten | live | -
-- 2026-08-21 19:30 | Avusturya 1.Lig | Austria Salzbu - Kapfenberg | live | -
-- 2026-08-21 19:30 | Malta Premier Lig Açılış | Floriana - Sliema | live | -
-- 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Lidkopings - Ahlafors If | live | -
-- 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Husqvarna | live | -
-- 2026-08-21 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Wahda | live | -
 - 2026-08-21 20:00 | İsveç Allsvenskan | Sirius - Hacken | live | -
 - 2026-08-21 20:00 | Portekiz 2.Lig | Benfica (B) - Portimonense | live | -
 - 2026-08-21 20:00 | Danimarka 1.Lig | Fredericia - Aarhus Fremad | live | -
@@ -161,6 +98,56 @@ Yarin: 22
 - 2026-08-21 21:15 | Bulgaristan 1.Lig | Cherno More - Dunav 2010 | live | -
 - 2026-08-21 21:15 | İsviçre Challenge Lig | Rappersvil Jon - Winterthur | live | -
 - 2026-08-21 21:15 | Slovenya 1.SNL | Olimpija Ljubl - Nafta | live | -
+- 2026-08-21 21:30 | Türkiye Süper Lig | Erzurumspor Fk - Galatasaray | live | -
+- 2026-08-21 21:30 | İtalya Serie B | Vicenza - Catanzaro | live | -
+- 2026-08-21 21:30 | Polonya Ekstraklasa | Cracovia Krako - Ks Wieczysta Kr | live | -
+- 2026-08-21 21:30 | Polonya 1.Lig | Lechia Gdansk - Pogon Siedlce | live | -
+- 2026-08-21 21:30 | Arjantin Ulusal Primera Lig | San Telmo - Moron | live | -
+- 2026-08-21 21:30 | İskoçya Championship | Inverness Ct - Partick Thistle | live | -
+- 2026-08-21 21:30 | Avusturya 1.Lig | Admira Wacker - First Vienna | live | -
+- 2026-08-21 21:30 | Polonya 2.Lig | Chojniczanka - Stal S Wola | live | -
+- 2026-08-21 21:30 | Uruguay Premier Lig Clausura | Albion - Boston River | live | -
+- 2026-08-21 21:30 | Galler FAW Championship Kuzey | Holyhead - Bangor | live | -
+- 2026-08-21 21:30 | Galler FAW Championship Güney | Pontypridd Tow - Trethomas Blueb | live | -
+- 2026-08-21 21:30 | Galler FAW Championship Güney | Afan Lido - Pontardawe | live | -
+- 2026-08-21 21:30 | Galler FAW Championship Güney | Newport City - Baglan Dragons | live | -
+- 2026-08-21 21:30 | Türkiye TFF 1. Lig | Fatih Karagümr - Bursaspor | live | -
+- 2026-08-21 21:30 | İtalya Serie A Kadınlar Kupası Grup A | Parma (K) - Inter Milano (K | live | -
+- 2026-08-21 21:30 | Hazırlık Kulüpler | Puente Genil - Linares Deporti | live | -
+- 2026-08-21 21:30 | Irak Premier Lig | Erbil Sc - Al Jawiya | live | -
+- 2026-08-21 21:45 | Fransa Ligue 1 | Marsilya - Strasbourg | live | -
+- 2026-08-21 21:45 | Belçika Pro Lig | Standard Liege - La Louvière | live | -
+- 2026-08-21 21:45 | Almanya DFB Kupası 1.Tur | Hansa Rostock - Stuttgart | live | -
+- 2026-08-21 21:45 | İrlanda Premier Lig | Bohemian - Derry City | live | -
+- 2026-08-21 21:45 | İrlanda Premier Lig | Drogheda - St Patricks | live | -
+- 2026-08-21 21:45 | İrlanda Premier Lig | Dundalk - Galway United | live | -
+- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Penybont - Llandudno | live | -
+- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Colwyn Bay - Airbus Uk | live | -
+- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Holywell Town - Barry Town | live | -
+- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Flint Town - Briton Ferry | live | -
+- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Cardiff Mu - The New Saints | live | -
+- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Haverfordwest - Cambrian | live | -
+- 2026-08-21 21:45 | Galler Premier Lig 1.Aşama | Trefelin - Caernarfon | live | -
+- 2026-08-21 21:45 | Kuzey İrlanda Premiership | Ballymena - Glentoran | live | -
+- 2026-08-21 21:45 | Kuzey İrlanda Premiership | Linfield - Cliftonville | live | -
+- 2026-08-21 21:45 | İrlanda 1.Lig | Kerry - Ucd | live | -
+- 2026-08-21 21:45 | İrlanda 1.Lig | Wexford Youths - Athlone | live | -
+- 2026-08-21 21:45 | İrlanda 1.Lig | Treaty Unt. - Cork City | live | -
+- 2026-08-21 21:45 | İrlanda 1.Lig | Finn Harps - Cobh Ramblers | live | -
+- 2026-08-21 21:45 | Kuzey İrlanda Championship | Newry City Afc - Warrenpoint Tow | live | -
+- 2026-08-21 21:45 | Galler FAW Championship Kuzey | Denbigh Town - Porthmadog | live | -
+- 2026-08-21 21:45 | Galler FAW Championship Güney | Caerau Ely - Swansea Univers | live | -
+- 2026-08-21 22:00 | İngiltere Premier Lig | Arsenal - Coventry | live | -
+- 2026-08-21 22:00 | İspanya LaLiga | Real Betis - Real Sociedad | live | -
+- 2026-08-21 22:00 | İspanya 2.Lig | Cordoba - Girona | live | -
+- 2026-08-21 22:00 | İrlanda Premier Lig | Sligo Rovers - Waterford | live | -
+- 2026-08-21 22:00 | İtalya Serie C Grup A | Alcione - Renate | live | -
+- 2026-08-21 22:00 | İtalya Serie C Grup A | Union Brescia - Athletic Carpi | live | -
+- 2026-08-21 22:00 | İtalya Serie C Grup B | F.C. Vado - Atalanta Ii | live | -
+- 2026-08-21 22:00 | İtalya Serie C Grup C | Rossoblu Poten - Casarano | live | -
+- 2026-08-21 22:00 | İtalya Serie C Grup C | Ssc Giugliano - Scafatese | live | -
+- 2026-08-21 22:00 | İtalya Serie C Grup C | Bari - Cavese | live | -
+- 2026-08-21 22:00 | Malta Premier Lig Açılış | Marsaxlokk Fc - Hibernians | live | -
 
 ## Biten Maclar
 - 2026-08-21 01:00 | Copa Libertadores Son 16 Turu | Ldu Quito (1) - (1) Mirassol | finished | -
@@ -237,3 +224,16 @@ Yarin: 22
 - 2026-08-21 19:00 | Litvanya 1.Lig | Lietava Jonava - Fa Siauliai Ii | finished | -
 - 2026-08-21 19:00 | İtalya Serie A Kadınlar Kupası Grup C | Como (K) - Juventus (K) | finished | -
 - 2026-08-21 19:00 | Norveç NM Kupası 1.Tur | Uraedd - Pors Grenland | finished | -
+- 2026-08-21 19:15 | Suudi Arabistan Pro Lig | Al Hazm - Diriyah | finished | -
+- 2026-08-21 19:15 | Suudi Arabistan 1.Lig | Al Bukayriyah - Al Anwar | finished | -
+- 2026-08-21 19:20 | Almanya Kadınlar Bundesliga | Union Berlin ( - Bayern München | finished | -
+- 2026-08-21 19:30 | Rusya FNL | Torpedo Moskov - Spartak Kostrom | finished | -
+- 2026-08-21 19:30 | Katar Yıldızlar Ligi | Al Arabi - Al Shamal | finished | -
+- 2026-08-21 19:30 | Avusturya 1.Lig | Liefering - Avusturya Wien | finished | -
+- 2026-08-21 19:30 | Avusturya 1.Lig | Amstetten - Wspg Wels | finished | -
+- 2026-08-21 19:30 | Avusturya 1.Lig | Wacker Innsbru - St Polten | finished | -
+- 2026-08-21 19:30 | Avusturya 1.Lig | Austria Salzbu - Kapfenberg | finished | -
+- 2026-08-21 19:30 | Malta Premier Lig Açılış | Floriana - Sliema | finished | -
+- 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Lidkopings - Ahlafors If | finished | -
+- 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Husqvarna | finished | -
+- 2026-08-21 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Wahda | finished | -

@@ -4,26 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-21T18:25:31.822Z
+- Güncelleme: 2026-08-21T19:08:34.108Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Al Hazm VS Diriyah | Suudi Arabistan Pro Lig | 19:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Al Bukayriyah VS Al Anwar | Suudi Arabistan 1.Lig | 19:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Union Berlin ( VS Bayern München | Almanya Kadınlar Bundesliga | 19:20 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Torpedo Moskov VS Spartak Kostrom | Rusya FNL | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Al Arabi VS Al Shamal | Katar Yıldızlar Ligi | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Liefering VS Avusturya Wien | Avusturya 1.Lig | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Amstetten VS Wspg Wels | Avusturya 1.Lig | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Wacker Innsbru VS St Polten | Avusturya 1.Lig | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Austria Salzbu VS Kapfenberg | Avusturya 1.Lig | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Floriana VS Sliema | Malta Premier Lig Açılış | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Lidkopings VS Ahlafors If | İsveç 2.Lig Norra Götaland | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Ifk Kumla VS Husqvarna | İsveç 2.Lig Norra Götaland | 19:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Al Nasr VS Al Wahda | Birleşik Arap Emirlikleri Arap Körfez Ligi | 19:35 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Sirius VS Hacken | İsveç Allsvenskan | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Benfica (B) VS Portimonense | Portekiz 2.Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Fredericia VS Aarhus Fremad | Danimarka 1.Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |

@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 77
-- Live match count: 69
-- Finished removed count: 2
+- Scheduled match count: 27
+- Live match count: 91
+- Finished removed count: 17
 - Date window: 2026-08-21 / 2026-08-22 23:59
 
-- 2026-08-21 19:20 | Union Berlin ( - Bayern München | live
-- 2026-08-21 19:30 | Amstetten - Wspg Wels | live
-- 2026-08-21 19:30 | Austria Salzbu - Kapfenberg | live
-- 2026-08-21 19:30 | Liefering - Avusturya Wien | live
-- 2026-08-21 19:30 | Wacker Innsbru - St Polten | live
-- 2026-08-21 19:30 | Ifk Kumla - Husqvarna | live
-- 2026-08-21 19:30 | Lidkopings - Ahlafors If | live
-- 2026-08-21 19:30 | Al Arabi - Al Shamal | live
-- 2026-08-21 19:30 | Floriana - Sliema | live
-- 2026-08-21 19:30 | Torpedo Moskov - Spartak Kostrom | live
+- 2026-08-21 20:15 | Vanersborgs Fk - Ifk Skövde | live
+- 2026-08-21 20:30 | Aldosivi - Union Santa Fe | live
+- 2026-08-21 20:30 | Ried - Grazer Ak | live
+- 2026-08-21 20:30 | Vikingur Gota - B36 Torshavn | live
+- 2026-08-21 20:30 | Colegios Dioce - Galapagar | live
+- 2026-08-21 20:30 | Neuchatel Xama - Stade Ouchy | live
+- 2026-08-21 20:30 | Stade Nyonnais - Etoile Carouge | live
+- 2026-08-21 20:30 | Petrolul 52 - Rapid Bükreş | live
+- 2026-08-21 20:50 | Al Wahda - Al Adalah | live
+- 2026-08-21 21:00 | Acassuso - Godoy Cruz | live
