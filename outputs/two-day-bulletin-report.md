@@ -3,16 +3,14 @@
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
 Ham mac: 615
-Aktif mac: 611
-Canli mac: 4
+Aktif mac: 609
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 537
+Bultenden dusurulen mac: 6
+Bugun: 535
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - San Lorenzo | scheduled | -
-- 2026-08-22 02:00 | Venezuela Premier Lig Clausura | Caracas Fc - Carabobo | scheduled | -
 - 2026-08-22 03:00 | Ekvador Pro Lig | Leones Del Nor - Indep. Jose Ter | scheduled | -
 - 2026-08-22 03:00 | Ekvador Pro Lig | Deportivo Cuen - Mushuc Runa | scheduled | -
 - 2026-08-22 03:30 | Kolombiya Primera A Clausura | Alianza Petrol - Pereira | scheduled | -
@@ -628,6 +626,8 @@ Yarin: 74
 - 2026-08-22 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ca Mitre | live | -
 - 2026-08-22 01:00 | Uruguay Premier Lig Clausura | Liverpool Mont - Cerro | live | -
 - 2026-08-22 01:30 | Bolivya Premier Lig | The Strongest - Universitario D | live | -
+- 2026-08-22 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - San Lorenzo | live | -
+- 2026-08-22 02:00 | Venezuela Premier Lig Clausura | Caracas Fc - Carabobo | live | -
 
 ## Biten Maclar
 Biten mac yok.
