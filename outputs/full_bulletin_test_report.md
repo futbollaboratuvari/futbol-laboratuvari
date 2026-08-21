@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 28
-- Live match count: 0
+- Scheduled match count: 613
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 00:05 | Jaguares - Chico | scheduled
+- 2026-08-22 00:05 | Jaguares - Chico | live
 - 2026-08-22 01:00 | Deportivo Madr - Ca Mitre | scheduled
 - 2026-08-22 01:00 | Liverpool Mont - Cerro | scheduled
 - 2026-08-22 01:30 | The Strongest - Universitario D | scheduled
