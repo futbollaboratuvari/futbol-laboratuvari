@@ -6,19 +6,44 @@ Gerçek modül `feature/bank-transfer-payment` branch'inde izole olarak kurulmu�
 
 Supabase üretim projesinde `bank_transfer_orders` tablosu kurulmuş, RLS doğrulanmış ve geçici test siparişi ile `pending -> payment_reported -> paid` yaşam döngüsü test edilip test kaydı temizlenmiştir.
 
+Üyelik paneli banka transferi modülüne `membership-bank-transfer-bridge.js` üzerinden bağlanmıştır. Köprü, mevcut üyelik paneli kodunu büyük ölçüde değiştirmeden satın alma tıklamasını Havale / EFT / FAST akışına yönlendirir. 1 günlük deneme ayrı buton olarak korunur.
+
 ## Akış
 
 1. Kullanıcı paket, ad soyad, e-posta ve telefon bilgilerini girer.
-2. `POST /api/bank-transfer/create-order` paket/tutarı sunucudaki mevcut plan dosyasından doğrular.
-3. Sipariş Supabase `bank_transfer_orders` tablosuna yazılır.
-4. API banka adı, hesap sahibi, IBAN, tutar ve yüksek entropili benzersiz `FL-...` ödeme açıklamasını döndürür.
-5. Kullanıcı Havale / EFT / FAST yapar ve `POST /api/bank-transfer/report-payment` ile bildirim verir.
-6. Admin `GET /api/admin/bank-transfer/orders?status=payment_reported` ile bekleyenleri görür.
-7. Banka hesabında transfer görüldüğünde `POST /api/admin/bank-transfer/approve` çağrılır.
-8. Sunucu üyelik kodu üretir. Düz kod yalnız AES-256-GCM ile şifreli biçimde özel sipariş tablosunda saklanır.
-9. Üyelik veri dosyasına yalnız SHA-256 kod özeti, paket, kalan hak ve son kullanma tarihi yazılır. Müşteri PII veya IBAN yazılmaz.
-10. Kullanıcı `POST /api/bank-transfer/order-status` ile durumunu kontrol eder. E-posta URL/query string içine yazılmaz.
-11. Ödeme onaylandıysa kullanıcı üyelik kodunu alır ve mevcut Özel Analiz panelinde kullanır.
+2. Kullanıcı `Havale / EFT / FAST ile Öde` butonuna basar.
+3. Banka ödeme paneli seçilen paket ve müşteri bilgileri ile açılır.
+4. Kullanıcı `Ödeme Talebi Oluştur` butonuna basar.
+5. `POST /api/bank-transfer/create-order` paket/tutarı sunucudaki plan tanımından doğrular.
+6. Sipariş Supabase `bank_transfer_orders` tablosuna yazılır.
+7. API banka adı, hesap sahibi, IBAN, tutar ve yüksek entropili benzersiz `FL-...` ödeme açıklamasını döndürür.
+8. Kullanıcı Havale / EFT / FAST yapar ve `POST /api/bank-transfer/report-payment` ile bildirim verir.
+9. Admin `bank-transfer-admin.html` ekranından bekleyen ödemeleri listeler.
+10. Banka hesabında tutar ve FL-... açıklaması gerçekten görüldüğünde admin `POST /api/admin/bank-transfer/approve` ile onay verir.
+11. Sunucu üyelik kodu üretir. Düz kod yalnız AES-256-GCM ile şifreli biçimde özel sipariş tablosunda saklanır.
+12. Üyelik veri dosyasına yalnız SHA-256 kod özeti, paket, kalan hak ve son kullanma tarihi yazılır. Müşteri PII veya IBAN yazılmaz.
+13. Kullanıcı `POST /api/bank-transfer/order-status` ile durumunu kontrol eder. E-posta URL/query string içine yazılmaz.
+14. Ödeme onaylandıysa kullanıcı üyelik kodunu alır ve mevcut Özel Analiz panelinde kullanır.
+
+## Kullanıcı arayüzü bağlantısı
+
+- `nav-routing.js`, üyelik panelinden sonra sırasıyla `bank-transfer-payment.js`, `membership-bank-transfer-bridge.js` ve deneme mesajı düzeltmesini yükler.
+- Mevcut paket kartı ana satın alma butonu `Havale / EFT / FAST ile Öde` olarak kullanılır.
+- Mevcut 1 günlük deneme ayrı ikincil buton olarak korunur.
+- IBAN frontend kaynak koduna yazılmaz.
+- IBAN yalnız başarılı sipariş oluşturma cevabından sonra ekranda görünür.
+- Sipariş kodu oluşmadan kullanıcıya para göndermemesi açıkça belirtilir.
+- Seçilen paket banka formunda kilitlenir; fiyat ve tutar yine backend plan tanımından doğrulanır.
+
+## Yönetim ekranı
+
+`bank-transfer-admin.html` gerçek banka ödeme yönetim ekranıdır.
+
+- `ADMIN_PAYMENT_SECRET` tarayıcıda saklanmaz.
+- Bekleyen / ödeme bildirildi / ödendi filtreleri bulunur.
+- Onay öncesi sipariş kodu, tutar ve ödeme açıklaması tekrar gösterilir.
+- Yönetici banka hesabında transferi gerçekten görmeden onay vermemesi konusunda uyarılır.
+- Onay sonrası üyelik kodu oluşturulur.
 
 ## Vercel ortam değişkenleri
 
@@ -45,11 +70,11 @@ USAGE_LOG_BRANCH=feature/bank-transfer-payment
 
 Vercel preview ortamında bu değerler verilmezse kod `VERCEL_GIT_COMMIT_REF` üzerinden preview branch'ini kullanır. Production ortamında üyelik yayını varsayılan olarak `main` dalına gider. Production dışındaki üyelik yayını branch tespit edemezse güvenli biçimde hata verir; `main`e sessizce yazmaz.
 
-`BANK_IBAN` yalnız Vercel sunucu ortamında tutulur. Frontend kaynak dosyasında sabit IBAN yoktur.
+`BANK_IBAN` yalnız Vercel sunucu ortamında tutulur. Frontend kaynak dosyasında sabit IBAN yoktur. Sunucuda Türkiye IBAN biçimi ve mod-97 checksum kontrolü yapılır.
 
 `BANK_TRANSFER_CODE_SECRET` en az 32 karakter rastgele değer olmalıdır. Üyelik kodunu AES-256-GCM ile şifrelemek için kullanılır.
 
-`ADMIN_PAYMENT_SECRET` public admin HTML dosyasında bulunmaz; admin ekranında elle girilir ve localStorage'a kaydedilmez.
+`ADMIN_PAYMENT_SECRET` public admin HTML dosyasında bulunmaz; admin ekranında elle girilir ve tarayıcı depolamasına kaydedilmez.
 
 `USAGE_LOG_TOKEN` mevcut sistemde üyelik kod özetini ve kullanım haklarını GitHub veri dosyalarında sunucu çağrısıyla yönetmek için kullanılır.
 
@@ -59,43 +84,47 @@ Vercel preview ortamında bu değerler verilmezse kod `VERCEL_GIT_COMMIT_REF` ü
 
 Gerçek Supabase projesinde şema uygulanmıştır. Tabloda RLS açıktır ve anon/authenticated policy yoktur. Browser Supabase tablosuna doğrudan erişemez. Yalnız Vercel API `SUPABASE_SERVICE_ROLE_KEY` ile erişir.
 
-Güvenlik advisor kontrolünde bu değişiklik için uyarı bulunmamıştır.
+Güvenlik ve performans advisor kontrolünde bu değişiklik için uyarı bulunmamıştır.
 
-## Test sayfaları
+## Vercel function sınırı düzeltmesi
 
-- `bank-transfer-test.html`: müşteri ödeme akışı
-- `bank-transfer-admin-test.html`: bekleyen ödeme listesi ve manuel banka onayı
+Önceki production ve preview deploymentlarında Vercel Hobby planının 12 Serverless Function sınırı aşılıyordu. Kök neden `/api/_lib` ve `/api/lib` altındaki yardımcı JavaScript dosyalarının function olarak paketlenmesiydi.
 
-Bu sayfalar `noindex,nofollow` işaretlidir ve ana siteye bağlı değildir.
+Yardımcı modüller `/server/routes` altına taşındı. `/api` altında yalnız ince HTTP wrapper dosyaları bırakıldı. PayTR create/callback endpointleri feature branch'te kaldırıldığı için banka ödeme yapısı ile birlikte 11 gerçek HTTP function kalır.
 
 ## Doğrulananlar
 
 - Supabase tablo oluşturma: başarılı.
 - RLS: aktif.
+- Supabase security/performance advisor: temiz.
 - `pending` sipariş kaydı: başarılı.
 - `payment_reported` geçişi: başarılı.
 - `paid` geçişi: başarılı.
 - `updated_at` trigger: başarılı.
 - Test verisinin temizlenmesi: başarılı.
-- Vercel branch build: build aşaması başarılı.
-- Vercel deploy check: kod hatası yerine hesap `build-rate-limit` engeline takılıyor.
+- Kullanıcı üyelik paneli -> banka ödeme modülü bağlantısı: feature branch'te tamamlandı.
+- Admin banka ödeme ekranı: feature branch'te tamamlandı.
+- PayTR mesajları banka satın alma akışından kaldırıldı.
+- Vercel function-count yapısal düzeltmesi: feature branch'te tamamlandı.
 
 ## Canlıya alma öncesi kalan dış engeller
 
-- Vercel build-rate-limit kalkmalı veya hesap limiti çözülmeli.
-- Vercel env değerleri girilmeli.
-- Güncel feature branch preview deployment alınmalı.
-- Preview üzerinde sipariş oluşturma -> ödeme bildirimi -> admin onayı -> üyelik kodu -> `/api/verify-code` uçtan uca testi yapılmalı.
-- Son test başarılı olunca yalnız gerekli script/HTML bağlantısı `index.html` içine küçük bir değişiklikle alınmalı.
+1. Vercel hesabındaki `build-rate-limit` kalkmalı veya hesap limiti çözülmeli.
+2. Vercel environment variables girilmeli.
+3. Güncel feature branch preview deployment alınmalı.
+4. Preview üzerinde sipariş oluşturma -> ödeme bildirimi -> admin onayı -> üyelik kodu -> `/api/verify-code` uçtan uca testi yapılmalı.
+5. Gerçek para testi yapılacaksa önce çok küçük kontrollü bir transferle FL-... açıklama eşleştirmesi doğrulanmalı.
+6. Tüm kontroller başarılı olunca PR `main` dalına merge edilmelidir.
 
 ## Kritik güvenlik kararları
 
 - Müşteri adı/e-posta/telefon public GitHub JSON'a yazılmaz.
 - IBAN public GitHub'a yazılmaz.
 - Admin secret public kaynağa yazılmaz.
-- Paket tutarı frontend'den kabul edilmez; `api/_lib/plans.js` kaynak kabul edilir.
-- Sipariş kodu 40-bit rastgele bölüm içerir ve transfer açıklaması olarak kullanılır.
+- Paket tutarı frontend'den kabul edilmez; backend plan tanımı kaynak kabul edilir.
+- Sipariş kodu yüksek entropili rastgele bölüm içerir ve transfer açıklaması olarak kullanılır.
 - Sipariş durumunda e-posta query string/log URL içine taşınmaz.
 - Admin onayı idempotent davranır; ödenmiş sipariş ikinci kez yeni üyelik üretmez.
 - Yeni banka üyelik kodlarında paket süresi `expiresAt` ile backend doğrulamasında zorunlu kontrol edilir.
 - Preview üyelik kodu, kullanım logu ve hak düşümü preview branch'inde kalır; `main` dalına test verisi sızdırılmaz.
+- Sipariş oluşturulmadan IBAN gösterilmez; kullanıcıya FL-... referans kodu oluşmadan para göndermemesi söylenir.
