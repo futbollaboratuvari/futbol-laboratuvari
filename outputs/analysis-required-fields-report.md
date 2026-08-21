@@ -1,22 +1,10 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 170
+Toplam analiz: 158
 Tam analiz: 0
-Eksik analiz: 170
+Eksik analiz: 158
 
-- Gharrafa VS Shahaniya: eksik score, confidence
-- Al Mosul VS Diala: eksik score, confidence
-- Orsha VS Bate Ii: eksik score, confidence
-- Molodechno VS Soligorsk: eksik score, confidence
-- Minsk VS Vitebsk: eksik score, confidence
-- Jadran Dekani VS Jesenice: eksik score, confidence
-- Liepaja VS Grobina: eksik score, confidence
-- Auda VS Fk Tukums 2000: eksik score, confidence
-- Babrungas VS Tauras: eksik score, confidence
-- City Fc Dubai VS Dubba Al Fujair: eksik score, confidence
-- Al Urooba VS Al Thaid: eksik score, confidence
-- Al Bataeh VS Al Ittifaq: eksik score, confidence
 - Haka VS Sjk Ii: eksik score, confidence
 - Paksi VS Ujpest: eksik score, confidence
 - Aluminij VS Nk Brinje Grosu: eksik score, confidence
@@ -25,3 +13,15 @@ Eksik analiz: 170
 - Be1 Nfa VS Garliava: eksik score, confidence
 - Zdralovi VS Vukovar: eksik score, confidence
 - Radnik Sesvete VS Karlovac 1919: eksik score, confidence
+- Karbala VS Al Zawraa: eksik score, confidence
+- Al Jeel VS Al Zulfi: eksik score, confidence
+- Al Riyadh VS Al Nassr (Riyad: eksik score, confidence
+- Sc St. Tönis VS E.Frankfurt: eksik score, confidence
+- Preussen Munst VS Karlsruhe: eksik score, confidence
+- Waldhof Mannhe VS Kaiserslautern: eksik score, confidence
+- Seinajoen Jk VS Lahti: eksik score, confidence
+- Hobro VS Aalborg: eksik score, confidence
+- Vejle VS Esbjerg: eksik score, confidence
+- Pk-35 Ry VS Japs: eksik score, confidence
+- Chrobry Glogow VS Warta Poznan: eksik score, confidence
+- Usti Nad Labem VS Dukla Prag: eksik score, confidence

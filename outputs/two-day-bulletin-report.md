@@ -2,40 +2,15 @@
 
 Gunler: 2026-08-21 / 2026-08-22
 Kaynak: fixtures.json
-Ham mac: 192
-Aktif mac: 135
-Canli mac: 57
+Ham mac: 180
+Aktif mac: 110
+Canli mac: 70
 Biten mac: 0
-Bultenden dusurulen mac: 57
-Bugun: 113
+Bultenden dusurulen mac: 70
+Bugun: 88
 Yarin: 22
 
 ## Baslamamis Maclar
-- 2026-08-21 20:00 | İsveç Allsvenskan | Sirius - Hacken | scheduled | -
-- 2026-08-21 20:00 | Portekiz 2.Lig | Benfica (B) - Portimonense | scheduled | -
-- 2026-08-21 20:00 | Danimarka 1.Lig | Fredericia - Aarhus Fremad | scheduled | -
-- 2026-08-21 20:00 | Mısır Premier Lig | Al Zamalek Cai - Al Ittihad Al S | scheduled | -
-- 2026-08-21 20:00 | Mısır Premier Lig | Abu Qair - National Bank O | scheduled | -
-- 2026-08-21 20:00 | Peru Premier Lig Clausura | Fc Cajamarca - Atletico Grau | scheduled | -
-- 2026-08-21 20:00 | Slovenya 2.SNL | Krka Novo Mest - Nd Slovan Ljubl | scheduled | -
-- 2026-08-21 20:00 | Slovenya 2.SNL | Triglav Kranj - Brezice | scheduled | -
-- 2026-08-21 20:00 | Almanya Bölgesel Lig Batı | Sportfreunde S - Monchengladbach | scheduled | -
-- 2026-08-21 20:00 | Danimarka 2.Lig | Fremad Amager - Roskilde | scheduled | -
-- 2026-08-21 20:00 | Danimarka 2.Lig | Thisted - Skive | scheduled | -
-- 2026-08-21 20:00 | Danimarka 2.Lig | B93 Kopenhag - Hellerup Ik | scheduled | -
-- 2026-08-21 20:00 | Danimarka 3.Lig | Bronshoj - Holbæk | scheduled | -
-- 2026-08-21 20:00 | İsveç 2.Lig Norra Götaland | Herrestads - Vanersborgs If | scheduled | -
-- 2026-08-21 20:00 | İsveç 2.Lig Norrland Düşme Grubu | Umea Ff - Ifk Umea | scheduled | -
-- 2026-08-21 20:00 | Ürdün Süper Kupa Yarı Final | Al Faisaly Amm - Al Wihdat Amman | scheduled | -
-- 2026-08-21 20:00 | Hazırlık Kulüpler | Lugo - Ourense Cf | scheduled | -
-- 2026-08-21 20:15 | İsveç 2.Lig Norra Götaland | Vanersborgs Fk - Ifk Skövde | scheduled | -
-- 2026-08-21 20:30 | Avusturya Bundesliga | Ried - Grazer Ak | scheduled | -
-- 2026-08-21 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Union Santa Fe | scheduled | -
-- 2026-08-21 20:30 | Romanya 1.Lig | Petrolul 52 - Rapid Bükreş | scheduled | -
-- 2026-08-21 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Stade Ouchy | scheduled | -
-- 2026-08-21 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Etoile Carouge | scheduled | -
-- 2026-08-21 20:30 | Faroe Adaları Master Lig | Vikingur Gota - B36 Torshavn | scheduled | -
-- 2026-08-21 20:30 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | scheduled | -
 - 2026-08-21 20:50 | Suudi Arabistan 1.Lig | Al Wahda - Al Adalah | scheduled | -
 - 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al Faisaly - Neom Sc | scheduled | -
 - 2026-08-21 21:00 | Suudi Arabistan Pro Lig | Al-Qadsiah - Al Ittihad (Cid | scheduled | -
@@ -148,18 +123,6 @@ Yarin: 22
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 
 ## Canli Maclar
-- 2026-08-21 17:15 | Katar Yıldızlar Ligi | Gharrafa - Shahaniya | live | -
-- 2026-08-21 17:30 | Irak Premier Lig | Al Mosul - Diala | live | -
-- 2026-08-21 17:30 | Belarus 1.Lig | Orsha - Bate Ii | live | -
-- 2026-08-21 17:45 | Belarus 1.Lig | Molodechno - Soligorsk | live | -
-- 2026-08-21 18:00 | Belarus Premier Lig | Minsk - Vitebsk | live | -
-- 2026-08-21 18:00 | Slovenya 2.SNL | Jadran Dekani - Jesenice | live | -
-- 2026-08-21 18:00 | Letonya Virsliga | Liepaja - Grobina | live | -
-- 2026-08-21 18:00 | Letonya Virsliga | Auda - Fk Tukums 2000 | live | -
-- 2026-08-21 18:00 | Litvanya 1.Lig | Babrungas - Tauras | live | -
-- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | City Fc Dubai - Dubba Al Fujair | live | -
-- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Urooba - Al Thaid | live | -
-- 2026-08-21 18:15 | Birleşik Arap Emirlikleri 1.Lig | Al Bataeh - Al Ittifaq | live | -
 - 2026-08-21 18:30 | Finlandiya Ykkösliiga | Haka - Sjk Ii | live | -
 - 2026-08-21 18:30 | Macaristan NB I | Paksi - Ujpest | live | -
 - 2026-08-21 18:30 | Slovenya 1.SNL | Aluminij - Nk Brinje Grosu | live | -
@@ -205,6 +168,31 @@ Yarin: 22
 - 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Lidkopings - Ahlafors If | live | -
 - 2026-08-21 19:30 | İsveç 2.Lig Norra Götaland | Ifk Kumla - Husqvarna | live | -
 - 2026-08-21 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Nasr - Al Wahda | live | -
+- 2026-08-21 20:00 | İsveç Allsvenskan | Sirius - Hacken | live | -
+- 2026-08-21 20:00 | Portekiz 2.Lig | Benfica (B) - Portimonense | live | -
+- 2026-08-21 20:00 | Danimarka 1.Lig | Fredericia - Aarhus Fremad | live | -
+- 2026-08-21 20:00 | Mısır Premier Lig | Al Zamalek Cai - Al Ittihad Al S | live | -
+- 2026-08-21 20:00 | Mısır Premier Lig | Abu Qair - National Bank O | live | -
+- 2026-08-21 20:00 | Peru Premier Lig Clausura | Fc Cajamarca - Atletico Grau | live | -
+- 2026-08-21 20:00 | Slovenya 2.SNL | Krka Novo Mest - Nd Slovan Ljubl | live | -
+- 2026-08-21 20:00 | Slovenya 2.SNL | Triglav Kranj - Brezice | live | -
+- 2026-08-21 20:00 | Almanya Bölgesel Lig Batı | Sportfreunde S - Monchengladbach | live | -
+- 2026-08-21 20:00 | Danimarka 2.Lig | Fremad Amager - Roskilde | live | -
+- 2026-08-21 20:00 | Danimarka 2.Lig | Thisted - Skive | live | -
+- 2026-08-21 20:00 | Danimarka 2.Lig | B93 Kopenhag - Hellerup Ik | live | -
+- 2026-08-21 20:00 | Danimarka 3.Lig | Bronshoj - Holbæk | live | -
+- 2026-08-21 20:00 | İsveç 2.Lig Norra Götaland | Herrestads - Vanersborgs If | live | -
+- 2026-08-21 20:00 | İsveç 2.Lig Norrland Düşme Grubu | Umea Ff - Ifk Umea | live | -
+- 2026-08-21 20:00 | Ürdün Süper Kupa Yarı Final | Al Faisaly Amm - Al Wihdat Amman | live | -
+- 2026-08-21 20:00 | Hazırlık Kulüpler | Lugo - Ourense Cf | live | -
+- 2026-08-21 20:15 | İsveç 2.Lig Norra Götaland | Vanersborgs Fk - Ifk Skövde | live | -
+- 2026-08-21 20:30 | Avusturya Bundesliga | Ried - Grazer Ak | live | -
+- 2026-08-21 20:30 | Arjantin Premier Lig 2. Aşama | Aldosivi - Union Santa Fe | live | -
+- 2026-08-21 20:30 | Romanya 1.Lig | Petrolul 52 - Rapid Bükreş | live | -
+- 2026-08-21 20:30 | İsviçre Challenge Lig | Neuchatel Xama - Stade Ouchy | live | -
+- 2026-08-21 20:30 | İsviçre Challenge Lig | Stade Nyonnais - Etoile Carouge | live | -
+- 2026-08-21 20:30 | Faroe Adaları Master Lig | Vikingur Gota - B36 Torshavn | live | -
+- 2026-08-21 20:30 | Hazırlık Kulüpler | Colegios Dioce - Galapagar | live | -
 
 ## Biten Maclar
 Biten mac yok.
