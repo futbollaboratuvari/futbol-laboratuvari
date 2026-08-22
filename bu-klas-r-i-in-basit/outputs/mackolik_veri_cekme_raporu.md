@@ -1,64 +1,36 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T19:02:21.163594+00:00
+Tarih: 2026-08-22T19:10:52.473109+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 114
+- Kac mac bulundu: 22
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 114
+- Kac mac zaten vardi: 22
 - Ham veri havuzu toplam mac sayisi: 8548
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG Eleme Final
-- Avustralya NPL Yeni Güney Galler
-- Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
 - Hazırlık Kulüpler
-- Hollanda Eredivisie
-- Honduras Ulusal Lig Apertura
-- Hırvatistan 1.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB II
-- Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
 - Portekiz 3.Lig Grup A
 - Portekiz Premier Lig
 - Slovenya 2.SNL
-- Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
-- Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
 - İspanya 2.Lig
 - İspanya LaLiga
-- İtalya Serie B
-- İtalya Serie C Grup A
 - İtalya Serie C Grup B
-- İtalya Serie C Grup C
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -115,8 +87,8 @@ Tarih: 2026-08-22T19:02:21.163594+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 54
-- Acilan detay: 54
+- Denenen Tumu alani: 41
+- Acilan detay: 41
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -130,25 +102,25 @@ Tarih: 2026-08-22T19:02:21.163594+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 22.08.2026 | 22:30 | İspanya LaLiga | Espanyol | Real Madrid | 38418 | 5 |
-| 22.08.2026 | 22:00 | Hollanda Eredivisie | Heerenveen | Zwolle | 23839 | 5 |
 | 22.08.2026 | 22:30 | Portekiz Premier Lig | Sporting Cp | Alverca | 30239 | 5 |
 | 22.08.2026 | 22:30 | İspanya 2.Lig | Eldense | Cadiz | 38360 | 5 |
-| 22.08.2026 | 22:00 | İtalya Serie B | Benevento | Modena | 29724 | 5 |
-| 22.08.2026 | 22:00 | İtalya Serie B | Empoli | Cremonese | 29970 | 5 |
-| 22.08.2026 | 22:00 | İtalya Serie B | Avellino | Arezzo | 29600 | 5 |
-| 22.08.2026 | 22:00 | Sırbistan Süper Lig | Ofk Beograd | Zemun Belg. | 35470 | 5 |
-| 23.08.2026 | 02:30 | ABD MLS | Cincinnati | Seattle | 39347 | 5 |
-| 23.08.2026 | 03:30 | ABD MLS | Austin | Philadelphia | 39704 | 5 |
-| 23.08.2026 | 05:30 | ABD MLS | San Diego | Colorado | 40277 | 5 |
-| 23.08.2026 | 03:30 | ABD MLS | St. Louis City | Houston | 39820 | 5 |
-| 23.08.2026 | 05:30 | ABD MLS | Los Angeles Fc | Portland | 40168 | 5 |
-| 23.08.2026 | 05:30 | ABD MLS | San Jose | Minnesota Utd | 40382 | 5 |
-| 23.08.2026 | 02:30 | ABD MLS | Charlotte | Dc United | 39229 | 5 |
-| 23.08.2026 | 03:30 | ABD MLS | Nashville Sc | Columbus | 39762 | 5 |
-| 23.08.2026 | 02:30 | ABD MLS | Orlando City | Salt Lake | 39579 | 5 |
-| 23.08.2026 | 02:30 | ABD MLS | Montreal | Los Angeles | 39463 | 5 |
-| 23.08.2026 | 04:30 | ABD MLS | Vancouver | Dallas | 39982 | 5 |
-| 23.08.2026 | 02:30 | ABD MLS | New York | Chicago | 39521 | 5 |
+| 22.08.2026 | 22:00 | İtalya Serie C Grup B | Pescara | Vis Pasaro | 30089 | 5 |
+| 22.08.2026 | 13:00 | Hazırlık Kulüpler | Ss Reyes | Atletico Balear | 10606 | 5 |
+| 22.08.2026 | 23:30 | Kolombiya Primera A Clausura | Rionegro Aguil | Los Millionario | 44236 | 5 |
+| 22.08.2026 | 23:30 | Peru Premier Lig Clausura | Juan Pablo Ii | Adt | 26800 | 5 |
+| 22.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Monagas | Portuguesa | 04342 | 5 |
+| 22.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Zamora | Ucv | 04421 | 5 |
+| 22.08.2026 | 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc | Academia Puerto | 04286 | 5 |
+| 22.08.2026 | 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano | Deportivo La Gu | 04203 | 5 |
+| 22.08.2026 | 17:00 | Norveç NM Kupası 1.Tur | Eik Toensberg | Honefoss | 08361 | 3 |
+| 22.08.2026 | 19:00 | Norveç NM Kupası 1.Tur | Gjovik-Lyn | Eidsvold Tf | 47352 | 2 |
+| 22.08.2026 | 18:00 | Slovenya 2.SNL | Dren Vrhnika | Dravinja | 10696 | 5 |
+| 22.08.2026 | 22:30 | Portekiz 3.Lig Grup A | Pacos Ferreira | Varzim | 13674 | 5 |
+| 22.08.2026 | 18:30 | Macaristan NB II | Mol Vidi | Mezokovesd Zsor | 45960 | 5 |
+| 22.08.2026 | 18:30 | Macaristan NB II | Tiszakecske | Diosgyor | 45926 | 5 |
+| 22.08.2026 | 23:30 | Kanada Premier Lig | Cavalry | Atletico Ottawa | 42748 | 5 |
+| 22.08.2026 | 18:30 | Irak Premier Lig | Al Gharraf | Newroz | 04330 | 5 |
+| 22.08.2026 | 17:00 | Letonya 1.Lig | Tukums Ii | Jfk Ventspils | 20211 | 3 |
 
 ## Sonuc
 
