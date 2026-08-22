@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-22T15:53:10.150Z
+- Guncelleme: 2026-08-22T16:25:14.987Z
 - Ham fixture sayisi: 8505
 - Bugun/yarin kaynak mac: 637
-- Aktif bulten maci: 210
+- Aktif bulten maci: 179
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 427
+- Bultenden dusurulen mac: 458
 
-- 1. 2026-08-22 19:00 | Almanya DFB Kupası 1.Tur | 1860 Münih - Holstein Kiel | scheduled
-- 2. 2026-08-22 19:00 | İtalya Serie C Grup A | Cittadella - Pergolettese | scheduled
-- 3. 2026-08-22 19:00 | Türkiye Süper Lig | Çorum - Kasimpaşa | scheduled
-- 4. 2026-08-22 19:00 | Slovakya Süper Lig | Dac - Podbrezova | scheduled
-- 5. 2026-08-22 19:00 | Almanya DFB Kupası 1.Tur | Eintracht Trie - Rb Leipzig | scheduled
-- 6. 2026-08-22 19:00 | Norveç NM Kupası 1.Tur | Frigg - Kjelsas | scheduled
-- 7. 2026-08-22 19:00 | Norveç NM Kupası 1.Tur | Gjovik-Lyn - Eidsvold Tf | scheduled
-- 8. 2026-08-22 19:00 | Estonya Premium Lig | Harju Jalgpall - Nomme Kalju | scheduled
-- 9. 2026-08-22 19:00 | Türkiye TFF 1. Lig | Iğdır Fk - Kayserispor | scheduled
-- 10. 2026-08-22 19:00 | İtalya Serie C Grup A | Juventus Ii - Novara | scheduled
-- 11. 2026-08-22 19:00 | Finlandiya Ykkösliiga | Klubi 04 - Mikkelin | scheduled
-- 12. 2026-08-22 19:00 | Bulgaristan 1.Lig | Ludogorets - Slavia Sofia | scheduled
-- 13. 2026-08-22 19:00 | Portekiz 3.Lig Grup B | Lusitano Evora - Cd Mafra | scheduled
-- 14. 2026-08-22 19:00 | İsviçre Süper Lig | Luzern - Lausanne | scheduled
-- 15. 2026-08-22 19:00 | İzlanda 1.Lig | Njardvik - Völsungur | scheduled
+- 1. 2026-08-22 19:30 | Danimarka 1.Lig | Ab Gladsaxe - Hvidovre | scheduled
+- 2. 2026-08-22 19:30 | Katar Yıldızlar Ligi | Al Sadd - Al Ahli | scheduled
+- 3. 2026-08-22 19:30 | Malta Premier Lig Açılış | Birkirkara - Hamrun | scheduled
+- 4. 2026-08-22 19:30 | İngiltere Premier Lig | Brentford - Tottenham | scheduled
+- 5. 2026-08-22 19:30 | Hazırlık Kulüpler | Cd Laredo - Arenas De Getxo | scheduled
+- 6. 2026-08-22 19:30 | İtalya Serie A | Inter - Monza | scheduled
+- 7. 2026-08-22 19:30 | Sırbistan Süper Lig | Macva - Radnicki Nis | scheduled
+- 8. 2026-08-22 19:30 | Hırvatistan 1.HNL | Slaven Belupo - Hnk Gorica | scheduled
+- 9. 2026-08-22 19:30 | İtalya Serie A | Udinese - Como | scheduled
+- 10. 2026-08-22 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Khorfakkan Club | scheduled
+- 11. 2026-08-22 19:45 | İskoçya Premiership | Dundee Utd - Dundee | scheduled
+- 12. 2026-08-22 19:45 | Hollanda Eredivisie | Sparta Rotterd - Utrecht | scheduled
+- 13. 2026-08-22 19:45 | Azerbaycan Premier Lig | Zira - İmişli Fk | scheduled
+- 14. 2026-08-22 20:00 | Yunanistan Süper Lig | Aek - Iraklis 1908 | scheduled
+- 15. 2026-08-22 20:00 | Ürdün Süper Kupa Yarı Final | Al-Ramtha - Al-Hussein | scheduled

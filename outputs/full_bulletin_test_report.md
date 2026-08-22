@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 183
-- Live match count: 221
-- Finished removed count: 0
+- Scheduled match count: 170
+- Live match count: 94
+- Finished removed count: 1
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 17:00 | Smorgon - Ostrovets Fc | live
-- 2026-08-22 17:00 | Club Brugge Ii - Rfc Seraing | live
-- 2026-08-22 17:00 | Dender - Beerschot-Wilri | live
-- 2026-08-22 17:00 | Zulte Waregem - Waasland Bevere | live
-- 2026-08-22 17:00 | Ajman - Hatta Dubai | live
-- 2026-08-22 17:00 | Al Ahli Dubai - Al Dhafra | live
-- 2026-08-22 17:00 | Tammeka Tartu - Kuressaare | live
-- 2026-08-22 17:00 | Ilves - Vaasa | live
-- 2026-08-22 17:00 | Jaro - Oulu | live
-- 2026-08-22 17:00 | Afc Wimbledon - Reading | live
+- 2026-08-22 17:30 | Qabala - Safa | live
+- 2026-08-22 17:30 | Slonim - Volna Pinsk | live
+- 2026-08-22 17:30 | Segesta - Orijent | live
+- 2026-08-22 17:30 | Breda - Ajax (B) | live
+- 2026-08-22 17:30 | Fortuna Sittar - Az Alkmaar | live
+- 2026-08-22 17:30 | Ajax (K) - Pec Zwolle (K) | live
+- 2026-08-22 17:30 | Feyenoord (K) - Az (K) | live
+- 2026-08-22 17:30 | Znicz Pruszkow - Swit Skolwin | live
+- 2026-08-22 17:30 | Maritimo - Academico Viseu | live
+- 2026-08-22 17:30 | Banik Lehota P - Slovan Bratisla | live
