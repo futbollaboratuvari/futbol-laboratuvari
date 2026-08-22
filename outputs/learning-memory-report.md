@@ -1,15 +1,15 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 23:52:43
+Oluşturma: 23.08.2026 00:00:25
 
 ## Özet
 
-- Toplam tahmin: 382
-- Bekleyen tahmin: 382
+- Toplam tahmin: 541
+- Bekleyen tahmin: 541
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 112
-- Seçenek sayısı: 3
+- Lig sayısı: 130
+- Seçenek sayısı: 4
 
 ## Öğrenme Mantığı
 
@@ -20,25 +20,26 @@ Oluşturma: 22.08.2026 23:52:43
 
 ## En Güçlü Seçenek Hafızası
 
+- Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 - MS X: toplam 219, bekleyen 219, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 132, bekleyen 132, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-22 | Fransa Ligue 2 | St Etienne - Grenoble | MS X | pending | 75/100
-- 2026-08-22 | Avusturya Bundesliga | Sturm Graz - Avusturya Luste | MS 2 | pending | 85/100
-- 2026-08-22 | Yunanistan Süper Lig | Aek - Iraklis 1908 | MS X | pending | 85/100
-- 2026-08-22 | İsveç 2.Lig Södra Svealand | Ragsved - Sleipner | MS X | pending | 50/100
-- 2026-08-22 | İtalya Serie B | Empoli - Cremonese | MS 1 | pending | 40/100
-- 2026-08-22 | Letonya Virsliga | Ogre United - Fs Jelgava | MS 1 | pending | 50/100
-- 2026-08-22 | İngiltere Ulusal Lig N / S Kuzey | Southport - Bedford Town | MS X | pending | 50/100
-- 2026-08-22 | Portekiz 2.Lig | Lusitania De L - Torreense | MS 1 | pending | 40/100
-- 2026-08-22 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Khorfakkan Club | MS 2 | pending | 40/100
-- 2026-08-22 | Türkiye Süper Lig | Çorum - Kasimpaşa | MS 2 | pending | 50/100
-- 2026-08-22 | İngiltere Non League Premier Güney Merkez | Real Bedford - Stratford Town | MS 2 | pending | 50/100
-- 2026-08-22 | İngiltere Championship | Derby County - Cardiff | MS X | pending | 50/100
-- 2026-08-22 | Slovenya 2.SNL | Dren Vrhnika - Dravinja | MS 2 | pending | 50/100
-- 2026-08-22 | Letonya Virsliga | Super Nova - Bfc Daugavpils | MS 1 | pending | 50/100
-- 2026-08-22 | İskoçya Premiership | Dundee Utd - Dundee | MS 2 | pending | 50/100
+- 2026-08-23 | Kolombiya Primera A Clausura | Rionegro Aguil - Los Millionario | Güncel maç değil | pending | 30/100
+- 2026-08-23 | Peru Premier Lig Clausura | Juan Pablo Ii - Adt | Güncel maç değil | pending | 40/100
+- 2026-08-23 | Kanada Premier Lig | Cavalry - Atletico Ottawa | Güncel maç değil | pending | 50/100
+- 2026-08-23 | İtalya Serie B | Benevento - Modena | Güncel maç değil | pending | 30/100
+- 2026-08-23 | İtalya Serie B | Empoli - Cremonese | Güncel maç değil | pending | 30/100
+- 2026-08-23 | İtalya Serie B | Avellino - Arezzo | Güncel maç değil | pending | 30/100
+- 2026-08-23 | Sırbistan Süper Lig | Ofk Beograd - Zemun Belg. | Güncel maç değil | pending | 65/100
+- 2026-08-23 | Brezilya Serie A | Fluminense - Remo | Güncel maç değil | pending | 65/100
+- 2026-08-23 | Arjantin Premier Lig 2. Aşama | Gimnasia La Pl - Gimnasia Mendoz | Güncel maç değil | pending | 15/100
+- 2026-08-23 | Arjantin Premier Lig 2. Aşama | Atletico Tucum - Instituto Cordo | Güncel maç değil | pending | 15/100
+- 2026-08-23 | İtalya Serie C Grup A | Lecco - Union Arzignano | Güncel maç değil | pending | 15/100
+- 2026-08-23 | İtalya Serie C Grup A | Giana Erminio - Albinoleffe | Güncel maç değil | pending | 15/100
+- 2026-08-23 | İtalya Serie C Grup B | Pescara - Vis Pasaro | Güncel maç değil | pending | 55/100
+- 2026-08-23 | İtalya Serie C Grup C | Audace Cerigno - Cosenza | Güncel maç değil | pending | 30/100
+- 2026-08-23 | İtalya Serie C Grup C | Casertana - Barletta | Güncel maç değil | pending | 30/100
 
