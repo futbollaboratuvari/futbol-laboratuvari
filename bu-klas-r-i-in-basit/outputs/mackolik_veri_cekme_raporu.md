@@ -1,22 +1,19 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T08:33:44.812649+00:00
+Tarih: 2026-08-22T09:18:36.875333+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 585
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 583
-- Ham veri havuzu toplam mac sayisi: 8541
+- Kac mac bulundu: 497
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 496
+- Ham veri havuzu toplam mac sayisi: 8542
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - AFF Şampiyonası Final
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Güney Batı
@@ -26,8 +23,6 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Güney Avustralya Eleme Final
-- Avustralya NPL Kuzey YGG Eleme Final
-- Avustralya NPL Yeni Güney Galler
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -38,13 +33,11 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
@@ -54,7 +47,6 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Galler Premier Lig 1.Aşama
-- Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Yarı Final
 - Güney Kore K Lig 1
 - Güney Kore K Lig 2
@@ -65,7 +57,6 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
 - Hollanda Tweede Divisie
-- Honduras Ulusal Lig Apertura
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
@@ -77,7 +68,6 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 - Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -87,11 +77,8 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 - Macaristan NB II
 - Malezya Süper Lig
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Mısır Premier Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
@@ -163,7 +150,6 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -252,7 +238,7 @@ Tarih: 2026-08-22T08:33:44.812649+00:00
 | 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
 | 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 4 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 
 ## Sonuc

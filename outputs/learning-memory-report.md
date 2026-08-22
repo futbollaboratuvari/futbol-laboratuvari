@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 11:50:27
+Oluşturma: 22.08.2026 12:23:38
 
 ## Özet
 
-- Toplam tahmin: 351
-- Bekleyen tahmin: 351
+- Toplam tahmin: 355
+- Bekleyen tahmin: 355
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 108
@@ -20,12 +20,16 @@ Oluşturma: 22.08.2026 11:50:27
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 119, bekleyen 119, başarı bekleniyor, ağırlık 1
-- MS X: toplam 206, bekleyen 206, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 121, bekleyen 121, başarı bekleniyor, ağırlık 1
+- MS X: toplam 208, bekleyen 208, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Peru Premier Lig Clausura | Juan Pablo Ii - Adt | MS 2 | pending | 50/100
+- 2026-08-22 | Suudi Arabistan Pro Lig | Al Ahli (Cidde - Abha | MS X | pending | 40/100
+- 2026-08-22 | İngiltere Ulusal Lig N / S Güney | Farnham Town - Billericay Town | MS 2 | pending | 50/100
+- 2026-08-22 | Japonya J1 Lig | Kyoto Sanga - Mito Hollyhock | MS X | pending | 40/100
 - 2026-08-22 | İtalya Serie C Grup C | Audace Cerigno - Cosenza | MS 2 | pending | 40/100
 - 2026-08-22 | İsveç 2.Lig Södra Götaland | Karlskrona - Växjö Norra | MS 2 | pending | 50/100
 - 2026-08-22 | Türkiye TFF 1. Lig | Antalyaspor - Pendikspor | MS X | pending | 50/100
@@ -37,8 +41,4 @@ Oluşturma: 22.08.2026 11:50:27
 - 2026-08-22 | Fransa Ligue 1 | Nice - Lorient | MS 2 | pending | 50/100
 - 2026-08-22 | Türkiye Süper Lig | Rizespor - Samsunspor | MS 2 | pending | 50/100
 - 2026-08-22 | Japonya J1 Lig | Yokohama Marin - Vissel Kobe | MS X | pending | 40/100
-- 2026-08-22 | Japonya J3 Lig | Nara Club - Renofa Yamaguch | MS X | pending | 50/100
-- 2026-08-22 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Khorfakkan Club | MS X | pending | 40/100
-- 2026-08-22 | İngiltere Ulusal Lig N / S Kuzey | Harborough Tow - Darlington 1883 | MS 2 | pending | 50/100
-- 2026-08-22 | Polonya 1.Lig | P. Bielsko - Odra Opole | MS X | pending | 50/100
 
