@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 80
-- Live match count: 62
-- Finished removed count: 0
+- Scheduled match count: 78
+- Live match count: 51
+- Finished removed count: 3
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 20:50 | Al Orubah Club - Al-Raed | live
-- 2026-08-22 21:00 | Tristan - Agropecuario | live
-- 2026-08-22 21:00 | Lierse Kempenz - Patro Eisden | live
-- 2026-08-22 21:00 | Slavia Prag - Bohemians | live
-- 2026-08-22 21:00 | St Etienne - Grenoble | live
-- 2026-08-22 21:00 | Alcoyano - Valencia Ii | live
-- 2026-08-22 21:00 | Duhok - Al Talaba | live
-- 2026-08-22 21:00 | Hfx Wanderers - Vancouver Fc | live
-- 2026-08-22 21:00 | Al Ahli (Cidde - Abha | live
-- 2026-08-22 21:00 | Al Khaleej - Al Shabab (Riya | live
+- 2026-08-22 21:30 | B.Dortmund - B.Münih | live
+- 2026-08-22 21:30 | Almagro - Colegiales | live
+- 2026-08-22 21:30 | D Belgrano - Almirante | live
+- 2026-08-22 21:30 | Nueva Chicago - Atlanta | live
+- 2026-08-22 21:30 | Patronato - Gimnasia Jujuy | live
+- 2026-08-22 21:30 | San Martin Sj - Gimnasia Y Tiro | live
+- 2026-08-22 21:30 | San Miguel - Colon Santa Fe | live
+- 2026-08-22 21:30 | Longford - Bray Wanderers | live
+- 2026-08-22 21:30 | Zurich - Basel | live
+- 2026-08-22 21:30 | Ac Milan (K) - Como (K) | live
