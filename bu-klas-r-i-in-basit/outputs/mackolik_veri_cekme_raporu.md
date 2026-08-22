@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T05:31:17.747998+00:00
+Tarih: 2026-08-22T05:59:32.837973+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 590
-- Kac mac kaydedildi: 0
+- Kac mac bulundu: 594
+- Kac mac kaydedildi: 4
 - Kac mac zaten vardi: 590
-- Ham veri havuzu toplam mac sayisi: 8528
+- Ham veri havuzu toplam mac sayisi: 8532
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -118,6 +118,7 @@ Tarih: 2026-08-22T05:31:17.747998+00:00
 - Sırbistan Süper Lig
 - Tunus 1.Lig
 - Türkiye Süper Lig
+- Türkiye TFF 1. Lig
 - Ukrayna Kupa 1.Tur
 - Uruguay Premier Lig Clausura
 - Venezuela Premier Lig Clausura
@@ -237,26 +238,26 @@ Tarih: 2026-08-22T05:31:17.747998+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 22.08.2026 | 19:00 | Türkiye Süper Lig | Rizespor | Samsunspor | 00412 | 5 |
-| 22.08.2026 | 19:00 | Türkiye Süper Lig | Çorum | Kasimpaşa | 00450 | 5 |
 | 22.08.2026 | 21:30 | Türkiye Süper Lig | Fenerbahçe | Konyaspor | 00524 | 5 |
-| 22.08.2026 | 17:00 | İngiltere Premier Lig | Ipswich | Sunderland | 36330 | 5 |
+| 22.08.2026 | 19:00 | Türkiye Süper Lig | Çorum | Kasimpaşa | 00450 | 5 |
+| 22.08.2026 | 19:00 | Türkiye Süper Lig | Rizespor | Samsunspor | 00412 | 5 |
+| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Pendikspor | 02718 | 5 |
+| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Ümraniyespor | Esenler Erokspo | 02622 | 5 |
+| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bodrum Fk | Muğlaspor | 02799 | 5 |
+| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Iğdır Fk | Kayserispor | 01881 | 5 |
 | 22.08.2026 | 19:30 | İngiltere Premier Lig | Brentford | Tottenham | 37716 | 5 |
-| 22.08.2026 | 17:00 | İngiltere Premier Lig | Nottingham F | Leeds Utd | 36565 | 5 |
 | 22.08.2026 | 14:30 | İngiltere Premier Lig | Hull | Man. Utd | 35076 | 5 |
+| 22.08.2026 | 17:00 | İngiltere Premier Lig | Nottingham F | Leeds Utd | 36565 | 5 |
 | 22.08.2026 | 17:00 | İngiltere Premier Lig | Everton | Crystal Palace | 11755 | 5 |
+| 22.08.2026 | 17:00 | İngiltere Premier Lig | Ipswich | Sunderland | 36330 | 5 |
 | 22.08.2026 | 20:30 | İspanya LaLiga | Valencia | Celta Vigo | 38302 | 5 |
-| 22.08.2026 | 22:30 | İspanya LaLiga | Espanyol | Real Madrid | 38418 | 5 |
 | 22.08.2026 | 18:00 | İspanya LaLiga | Athletic Bilba | Sevilla | 38070 | 5 |
-| 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
+| 22.08.2026 | 22:30 | İspanya LaLiga | Espanyol | Real Madrid | 38418 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
+| 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
-| 22.08.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lyon | 40686 | 5 |
-| 22.08.2026 | 21:45 | Fransa Ligue 1 | Nice | Lorient | 40570 | 5 |
-| 22.08.2026 | 18:15 | Fransa Ligue 1 | Lens | Auxerre | 40205 | 5 |
-| 22.08.2026 | 21:45 | Fransa Ligue 1 | Troyes | Paris Fc | 40792 | 5 |
 
 ## Sonuc
 

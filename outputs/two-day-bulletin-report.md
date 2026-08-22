@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
-Ham mac: 617
-Aktif mac: 588
+Ham mac: 621
+Aktif mac: 592
 Canli mac: 9
 Biten mac: 20
 Bultenden dusurulen mac: 29
-Bugun: 514
+Bugun: 518
 Yarin: 74
 
 ## Baslamamis Maclar
@@ -420,6 +420,8 @@ Yarin: 74
 - 2026-08-22 19:00 | İzlanda 1.Lig | Njardvik - Völsungur | scheduled | -
 - 2026-08-22 19:00 | Estonya Premium Lig | Harju Jalgpall - Nomme Kalju | scheduled | -
 - 2026-08-22 19:00 | İtalya Serie A Kadınlar Kupası Grup B | Ternana (K) - Roma (K) | scheduled | -
+- 2026-08-22 19:00 | Türkiye TFF 1. Lig | Ümraniyespor - Esenler Erokspo | scheduled | -
+- 2026-08-22 19:00 | Türkiye TFF 1. Lig | Iğdır Fk - Kayserispor | scheduled | -
 - 2026-08-22 19:10 | Suudi Arabistan Pro Lig | Al Kholood - Al Taawon | scheduled | -
 - 2026-08-22 19:15 | Belçika Pro Lig | Charleroi - Mechelen | scheduled | -
 - 2026-08-22 19:15 | Suudi Arabistan 1.Lig | Al Najma - Al-Jandal | scheduled | -
@@ -487,6 +489,8 @@ Yarin: 74
 - 2026-08-22 21:30 | Arjantin Ulusal Primera Lig | Nueva Chicago - Atlanta | scheduled | -
 - 2026-08-22 21:30 | Arjantin Ulusal Primera Lig | D Belgrano - Almirante | scheduled | -
 - 2026-08-22 21:30 | İtalya Serie A Kadınlar Kupası Grup C | Ac Milan (K) - Como (K) | scheduled | -
+- 2026-08-22 21:30 | Türkiye TFF 1. Lig | Antalyaspor - Pendikspor | scheduled | -
+- 2026-08-22 21:30 | Türkiye TFF 1. Lig | Bodrum Fk - Muğlaspor | scheduled | -
 - 2026-08-22 21:45 | İtalya Serie A | Parma - Cagliari | scheduled | -
 - 2026-08-22 21:45 | İtalya Serie A | Genoa - Napoli | scheduled | -
 - 2026-08-22 21:45 | Fransa Ligue 1 | Le Mans - Brest | scheduled | -
