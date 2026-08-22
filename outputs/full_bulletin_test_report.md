@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 482
-- Live match count: 79
-- Finished removed count: 5
+- Scheduled match count: 443
+- Live match count: 119
+- Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
 - 2026-08-22 13:00 | E. Frankfurt ( - Köln (K) | live
