@@ -1,2572 +1,10 @@
 {
-  "generated_at": "2026-08-22T18:23:17.409Z",
+  "generated_at": "2026-08-22T18:57:49.046Z",
   "date": "2026-08-22",
   "source_count": 8,
-  "match_count": 82,
+  "match_count": 70,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
-    {
-      "match_name": "Rizespor VS Samsunspor",
-      "league": "Türkiye Süper Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Çorum VS Kasimpaşa",
-      "league": "Türkiye Süper Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Eintracht Trie VS Rb Leipzig",
-      "league": "Almanya DFB Kupası 1.Tur",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Sonnenhof Gros VS Arminia Bielefe",
-      "league": "Almanya DFB Kupası 1.Tur",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "1860 Münih VS Holstein Kiel",
-      "league": "Almanya DFB Kupası 1.Tur",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Luzern VS Lausanne",
-      "league": "İsviçre Süper Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Ludogorets VS Slavia Sofia",
-      "league": "Bulgaristan 1.Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Juventus Ii VS Novara",
-      "league": "İtalya Serie C Grup A",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Ospitaletto VS Lumezzane",
-      "league": "İtalya Serie C Grup A",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Cittadella VS Pergolettese",
-      "league": "İtalya Serie C Grup A",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Nuova Monteros VS Gubbio",
-      "league": "İtalya Serie C Grup B",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Klubi 04 VS Mikkelin",
-      "league": "Finlandiya Ykkösliiga",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Zemplin VS Skalica",
-      "league": "Slovakya Süper Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Ruzomberok VS Dukla Banska By",
-      "league": "Slovakya Süper Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Dac VS Podbrezova",
-      "league": "Slovakya Süper Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Wil VS Sc Kriens",
-      "league": "İsviçre Challenge Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Sport Huancayo VS Deportivo Moque",
-      "league": "Peru Premier Lig Clausura",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Frigg VS Kjelsas",
-      "league": "Norveç NM Kupası 1.Tur",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Gjovik-Lyn VS Eidsvold Tf",
-      "league": "Norveç NM Kupası 1.Tur",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Tatran Presov VS Inter Bratislav",
-      "league": "Slovakya 2.Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Trofense VS Sao Joao Ver",
-      "league": "Portekiz 3.Lig Grup A",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Lusitano Evora VS Cd Mafra",
-      "league": "Portekiz 3.Lig Grup B",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Njardvik VS Völsungur",
-      "league": "İzlanda 1.Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Harju Jalgpall VS Nomme Kalju",
-      "league": "Estonya Premium Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Ternana (K) VS Roma (K)",
-      "league": "İtalya Serie A Kadınlar Kupası Grup B",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Ümraniyespor VS Esenler Erokspo",
-      "league": "Türkiye TFF 1. Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Iğdır Fk VS Kayserispor",
-      "league": "Türkiye TFF 1. Lig",
-      "start_time": "19:00",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Al Kholood VS Al Taawon",
-      "league": "Suudi Arabistan Pro Lig",
-      "start_time": "19:10",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Charleroi VS Mechelen",
-      "league": "Belçika Pro Lig",
-      "start_time": "19:15",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Al Najma VS Al-Jandal",
-      "league": "Suudi Arabistan 1.Lig",
-      "start_time": "19:15",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Al Taee VS Al Akhdoud",
-      "league": "Suudi Arabistan 1.Lig",
-      "start_time": "19:20",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Brentford VS Tottenham",
-      "league": "İngiltere Premier Lig",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Inter VS Monza",
-      "league": "İtalya Serie A",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Udinese VS Como",
-      "league": "İtalya Serie A",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Macva VS Radnicki Nis",
-      "league": "Sırbistan Süper Lig",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "TRT Spor",
-          "url": "https://www.trtspor.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "resmi_yayin",
-            "mac_onu",
-            "mac_sonu"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "beIN Sports Turkiye",
-          "url": "https://beinsports.com.tr/",
-          "priority": 2,
-          "use_for": [
-            "super_lig",
-            "ozet",
-            "haber",
-            "yorum"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fanatik",
-          "url": "https://www.fanatik.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Fotomac",
-          "url": "https://www.fotomac.com.tr/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yazar_yorumu",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Ajansspor",
-          "url": "https://ajansspor.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "yorum",
-            "transfer",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Ab Gladsaxe VS Hvidovre",
-      "league": "Danimarka 1.Lig",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Slaven Belupo VS Hnk Gorica",
-      "league": "Hırvatistan 1.HNL",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Cd Laredo VS Arenas De Getxo",
-      "league": "Hazırlık Kulüpler",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Al Sadd VS Al Ahli",
-      "league": "Katar Yıldızlar Ligi",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
-    {
-      "match_name": "Birkirkara VS Hamrun",
-      "league": "Malta Premier Lig Açılış",
-      "start_time": "19:30",
-      "recommended_market": "-",
-      "data_gap_risk": "-",
-      "source_plan": [
-        {
-          "name": "Mackolik",
-          "url": "https://www.mackolik.com/",
-          "priority": 1,
-          "use_for": [
-            "mac_listesi",
-            "oran",
-            "skor",
-            "program",
-            "istatistik"
-          ],
-          "status": "active_existing_source"
-        },
-        {
-          "name": "NTV Spor",
-          "url": "https://www.ntvspor.net/",
-          "priority": 2,
-          "use_for": [
-            "haber",
-            "yorum",
-            "analiz",
-            "guncel_gelisme"
-          ],
-          "status": "planned_source"
-        },
-        {
-          "name": "Sporx",
-          "url": "https://www.sporx.com/",
-          "priority": 3,
-          "use_for": [
-            "haber",
-            "mac_merkezi",
-            "takim_gundemi"
-          ],
-          "status": "planned_source"
-        }
-      ],
-      "reading_tasks": [
-        "mac_programi_ve_skor_kontrolu",
-        "takim_gundemi_kontrolu",
-        "mac_onu_yorum_kontrolu",
-        "risk_haberi_kontrolu"
-      ]
-    },
     {
       "match_name": "Al Ain VS Khorfakkan Club",
       "league": "Birleşik Arap Emirlikleri Arap Körfez Ligi",
@@ -4683,6 +2121,1782 @@
       "match_name": "Duhok VS Al Talaba",
       "league": "Irak Premier Lig",
       "start_time": "21:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Slask Wroclaw VS Widzew Lodz",
+      "league": "Polonya Ekstraklasa",
+      "start_time": "21:15",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Levski Sofya VS Spartak Varna",
+      "league": "Bulgaristan 1.Lig",
+      "start_time": "21:15",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Univ De Cajama VS Comerciantes Un",
+      "league": "Peru Premier Lig Clausura",
+      "start_time": "21:15",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Fenerbahçe VS Konyaspor",
+      "league": "Türkiye Süper Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "TRT Spor",
+          "url": "https://www.trtspor.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "resmi_yayin",
+            "mac_onu",
+            "mac_sonu"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "beIN Sports Turkiye",
+          "url": "https://beinsports.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "super_lig",
+            "ozet",
+            "haber",
+            "yorum"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fanatik",
+          "url": "https://www.fanatik.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fotomac",
+          "url": "https://www.fotomac.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Ajansspor",
+          "url": "https://ajansspor.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yorum",
+            "transfer",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "B.Dortmund VS B.Münih",
+      "league": "Almanya Süper Kupa",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Olympiakos VS Atromitos",
+      "league": "Yunanistan Süper Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "TRT Spor",
+          "url": "https://www.trtspor.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "resmi_yayin",
+            "mac_onu",
+            "mac_sonu"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "beIN Sports Turkiye",
+          "url": "https://beinsports.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "super_lig",
+            "ozet",
+            "haber",
+            "yorum"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fanatik",
+          "url": "https://www.fanatik.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fotomac",
+          "url": "https://www.fotomac.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Ajansspor",
+          "url": "https://ajansspor.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yorum",
+            "transfer",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Zurich VS Basel",
+      "league": "İsviçre Süper Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "TRT Spor",
+          "url": "https://www.trtspor.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "resmi_yayin",
+            "mac_onu",
+            "mac_sonu"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "beIN Sports Turkiye",
+          "url": "https://beinsports.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "super_lig",
+            "ozet",
+            "haber",
+            "yorum"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fanatik",
+          "url": "https://www.fanatik.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fotomac",
+          "url": "https://www.fotomac.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Ajansspor",
+          "url": "https://ajansspor.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yorum",
+            "transfer",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Dinamo Bükreş VS Universitatea C",
+      "league": "Romanya 1.Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Fk Kosice VS Slovan Bratisla",
+      "league": "Slovakya Süper Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "TRT Spor",
+          "url": "https://www.trtspor.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "resmi_yayin",
+            "mac_onu",
+            "mac_sonu"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "beIN Sports Turkiye",
+          "url": "https://beinsports.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "super_lig",
+            "ozet",
+            "haber",
+            "yorum"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fanatik",
+          "url": "https://www.fanatik.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fotomac",
+          "url": "https://www.fotomac.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Ajansspor",
+          "url": "https://ajansspor.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yorum",
+            "transfer",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Longford VS Bray Wanderers",
+      "league": "İrlanda 1.Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Almagro VS Colegiales",
+      "league": "Arjantin Ulusal Primera Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "San Miguel VS Colon Santa Fe",
+      "league": "Arjantin Ulusal Primera Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Patronato VS Gimnasia Jujuy",
+      "league": "Arjantin Ulusal Primera Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "San Martin Sj VS Gimnasia Y Tiro",
+      "league": "Arjantin Ulusal Primera Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Nueva Chicago VS Atlanta",
+      "league": "Arjantin Ulusal Primera Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "D Belgrano VS Almirante",
+      "league": "Arjantin Ulusal Primera Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Ac Milan (K) VS Como (K)",
+      "league": "İtalya Serie A Kadınlar Kupası Grup C",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Antalyaspor VS Pendikspor",
+      "league": "Türkiye TFF 1. Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "TRT Spor",
+          "url": "https://www.trtspor.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "resmi_yayin",
+            "mac_onu",
+            "mac_sonu"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "beIN Sports Turkiye",
+          "url": "https://beinsports.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "super_lig",
+            "ozet",
+            "haber",
+            "yorum"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fanatik",
+          "url": "https://www.fanatik.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fotomac",
+          "url": "https://www.fotomac.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Ajansspor",
+          "url": "https://ajansspor.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yorum",
+            "transfer",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Bodrum Fk VS Muğlaspor",
+      "league": "Türkiye TFF 1. Lig",
+      "start_time": "21:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "TRT Spor",
+          "url": "https://www.trtspor.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "resmi_yayin",
+            "mac_onu",
+            "mac_sonu"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "beIN Sports Turkiye",
+          "url": "https://beinsports.com.tr/",
+          "priority": 2,
+          "use_for": [
+            "super_lig",
+            "ozet",
+            "haber",
+            "yorum"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fanatik",
+          "url": "https://www.fanatik.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Fotomac",
+          "url": "https://www.fotomac.com.tr/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yazar_yorumu",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Ajansspor",
+          "url": "https://ajansspor.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "yorum",
+            "transfer",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Parma VS Cagliari",
+      "league": "İtalya Serie A",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Genoa VS Napoli",
+      "league": "İtalya Serie A",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Le Mans VS Brest",
+      "league": "Fransa Ligue 1",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Toulouse VS Lyon",
+      "league": "Fransa Ligue 1",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Nice VS Lorient",
+      "league": "Fransa Ligue 1",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Troyes VS Paris Fc",
+      "league": "Fransa Ligue 1",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Antwerp VS Genk",
+      "league": "Belçika Pro Lig",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Velez Mostar VS Sloga Doboj",
+      "league": "Bosna-Hersek Premier Lig",
+      "start_time": "21:45",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Siroki Brijeg VS Radnik Bijeljin",
+      "league": "Bosna-Hersek Premier Lig",
+      "start_time": "21:45",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
