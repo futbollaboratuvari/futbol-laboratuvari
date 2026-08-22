@@ -2,17 +2,15 @@
 
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
-Ham mac: 617
-Aktif mac: 601
-Canli mac: 8
-Biten mac: 8
-Bultenden dusurulen mac: 16
-Bugun: 527
+Ham mac: 606
+Aktif mac: 599
+Canli mac: 7
+Biten mac: 0
+Bultenden dusurulen mac: 7
+Bugun: 525
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 06:00 | Meksika Liga MX Apertura | Fc Juarez - Club America | scheduled | -
-- 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | scheduled | -
 - 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | scheduled | -
 - 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | scheduled | -
 - 2026-08-22 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Eltham Redbacks | scheduled | -
@@ -614,21 +612,13 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 03:30 | Kolombiya Primera A Clausura | Alianza Petrol - Pereira | live | -
-- 2026-08-22 03:30 | Şili Premier Lig | Audax Italiano - Union La Calera | live | -
-- 2026-08-22 03:30 | Bolivya Premier Lig | Oriente Petrol - San Antonio Bul | live | -
 - 2026-08-22 04:00 | Meksika Liga MX Apertura | Club Leon - Monterrey | live | -
 - 2026-08-22 04:00 | Meksika Liga MX Apertura | Tigres Uanl - Atlante | live | -
 - 2026-08-22 04:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Perez Zeledon | live | -
 - 2026-08-22 04:00 | Honduras Ulusal Lig Apertura | Depor Motagua - Upnfm | live | -
 - 2026-08-22 04:00 | El Salvador Primera Lig Apertura | Inter Fa - Inca-Aruba | live | -
+- 2026-08-22 06:00 | Meksika Liga MX Apertura | Fc Juarez - Club America | live | -
+- 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | live | -
 
 ## Biten Maclar
-- 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
-- 2026-08-22 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ca Mitre | finished | -
-- 2026-08-22 01:00 | Uruguay Premier Lig Clausura | Liverpool Mont - Cerro | finished | -
-- 2026-08-22 01:30 | Bolivya Premier Lig | The Strongest - Universitario D | finished | -
-- 2026-08-22 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - San Lorenzo | finished | -
-- 2026-08-22 02:00 | Venezuela Premier Lig Clausura | Caracas Fc - Carabobo | finished | -
-- 2026-08-22 03:00 | Ekvador Pro Lig | Leones Del Nor - Indep. Jose Ter | finished | -
-- 2026-08-22 03:00 | Ekvador Pro Lig | Deportivo Cuen - Mushuc Runa | finished | -
+Biten mac yok.
