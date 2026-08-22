@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 142
-- Live match count: 86
+- Scheduled match count: 141
+- Live match count: 70
 - Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 18:30 | Bregenz - Strum Graz Ii | live
-- 2026-08-22 18:30 | Dugopolje - Kustosija | live
-- 2026-08-22 18:30 | Jadran Lp - Opatija | live
-- 2026-08-22 18:30 | Al Gharraf - Newroz | live
-- 2026-08-22 18:30 | Mtk - Nyiregyhaza | live
-- 2026-08-22 18:30 | Ajka - Nagykanizsai Ul | live
-- 2026-08-22 18:30 | Gyirmot - Kecskemeti | live
-- 2026-08-22 18:30 | Kozarmisleny - Szeged | live
-- 2026-08-22 18:30 | Mol Vidi - Mezokovesd Zsor | live
-- 2026-08-22 18:30 | Tiszakecske - Diosgyor | live
+- 2026-08-22 18:45 | Al Fateh - Al Ettifaq | live
+- 2026-08-22 19:00 | 1860 Münih - Holstein Kiel | live
+- 2026-08-22 19:00 | Eintracht Trie - Rb Leipzig | live
+- 2026-08-22 19:00 | Sonnenhof Gros - Arminia Bielefe | live
+- 2026-08-22 19:00 | Ludogorets - Slavia Sofia | live
+- 2026-08-22 19:00 | Harju Jalgpall - Nomme Kalju | live
+- 2026-08-22 19:00 | Klubi 04 - Mikkelin | live
+- 2026-08-22 19:00 | Wil - Sc Kriens | live
+- 2026-08-22 19:00 | Luzern - Lausanne | live
+- 2026-08-22 19:00 | Ternana (K) - Roma (K) | live
