@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Repoyu al
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Python kur
         uses: actions/setup-python@v5
