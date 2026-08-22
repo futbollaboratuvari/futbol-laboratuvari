@@ -4,8 +4,8 @@ Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
 Ham mac: 617
 Aktif mac: 601
-Canli mac: 10
-Biten mac: 6
+Canli mac: 8
+Biten mac: 8
 Bultenden dusurulen mac: 16
 Bugun: 527
 Yarin: 74
@@ -614,8 +614,6 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 03:00 | Ekvador Pro Lig | Leones Del Nor - Indep. Jose Ter | live | -
-- 2026-08-22 03:00 | Ekvador Pro Lig | Deportivo Cuen - Mushuc Runa | live | -
 - 2026-08-22 03:30 | Kolombiya Primera A Clausura | Alianza Petrol - Pereira | live | -
 - 2026-08-22 03:30 | Şili Premier Lig | Audax Italiano - Union La Calera | live | -
 - 2026-08-22 03:30 | Bolivya Premier Lig | Oriente Petrol - San Antonio Bul | live | -
@@ -632,3 +630,5 @@ Yarin: 74
 - 2026-08-22 01:30 | Bolivya Premier Lig | The Strongest - Universitario D | finished | -
 - 2026-08-22 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - San Lorenzo | finished | -
 - 2026-08-22 02:00 | Venezuela Premier Lig Clausura | Caracas Fc - Carabobo | finished | -
+- 2026-08-22 03:00 | Ekvador Pro Lig | Leones Del Nor - Indep. Jose Ter | finished | -
+- 2026-08-22 03:00 | Ekvador Pro Lig | Deportivo Cuen - Mushuc Runa | finished | -
