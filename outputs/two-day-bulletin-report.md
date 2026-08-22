@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
-Ham mac: 621
-Aktif mac: 592
-Canli mac: 9
-Biten mac: 20
-Bultenden dusurulen mac: 29
-Bugun: 518
+Ham mac: 623
+Aktif mac: 590
+Canli mac: 11
+Biten mac: 22
+Bultenden dusurulen mac: 33
+Bugun: 516
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 09:00 | Japonya J2 Lig | Sapporo - Omiya | scheduled | -
-- 2026-08-22 09:00 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - St George City | scheduled | -
-- 2026-08-22 09:00 | Avustralya NPL Victoria | Hume City - Caroline S. | scheduled | -
-- 2026-08-22 09:30 | Avustralya U20 NSW NPL 1 | St. George Sai - Blacktown City | scheduled | -
 - 2026-08-22 10:00 | Avustralya NPL Victoria | Dandenong City - Preston Lions | scheduled | -
 - 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Fremantle City | scheduled | -
 - 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Stirling Lions - Western Knights | scheduled | -
@@ -345,6 +341,7 @@ Yarin: 74
 - 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Kettering - Peterborough Sp | scheduled | -
 - 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Bishops Stortf - Alvechurch | scheduled | -
 - 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Real Bedford - Stratford Town | scheduled | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Eik Toensberg - Honefoss | scheduled | -
 - 2026-08-22 17:15 | Katar Yıldızlar Ligi | Al Duhail Sc - Al Sailiya | scheduled | -
 - 2026-08-22 17:30 | Hollanda Eredivisie | Fortuna Sittar - Az Alkmaar | scheduled | -
 - 2026-08-22 17:30 | Portekiz Premier Lig | Maritimo - Academico Viseu | scheduled | -
@@ -472,6 +469,7 @@ Yarin: 74
 - 2026-08-22 21:00 | Uruguay Premier Lig Clausura | Cerro Largo - Defensor Sporti | scheduled | -
 - 2026-08-22 21:00 | Kanada Premier Lig | Hfx Wanderers - Vancouver Fc | scheduled | -
 - 2026-08-22 21:00 | Hazırlık Kulüpler | Alcoyano - Valencia Ii | scheduled | -
+- 2026-08-22 21:00 | Irak Premier Lig | Duhok - Al Talaba | scheduled | -
 - 2026-08-22 21:15 | Polonya Ekstraklasa | Slask Wroclaw - Widzew Lodz | scheduled | -
 - 2026-08-22 21:15 | Bulgaristan 1.Lig | Levski Sofya - Spartak Varna | scheduled | -
 - 2026-08-22 21:15 | Peru Premier Lig Clausura | Univ De Cajama - Comerciantes Un | scheduled | -
@@ -605,8 +603,6 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Eltham Redbacks | live | -
-- 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | live | -
 - 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra Juvent | live | -
 - 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - O Connor Knight | live | -
 - 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Canberra White - Monaro Panthers | live | -
@@ -614,6 +610,10 @@ Yarin: 74
 - 2026-08-22 08:00 | Avustralya NPL Victoria | Melbourne City - Bentleigh Green | live | -
 - 2026-08-22 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Brunswick City | live | -
 - 2026-08-22 08:30 | Avustralya NPL Güney Avustralya Eleme Final | Playford City - White City Wood | live | -
+- 2026-08-22 09:00 | Japonya J2 Lig | Sapporo - Omiya | live | -
+- 2026-08-22 09:00 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - St George City | live | -
+- 2026-08-22 09:00 | Avustralya NPL Victoria | Hume City - Caroline S. | live | -
+- 2026-08-22 09:30 | Avustralya U20 NSW NPL 1 | St. George Sai - Blacktown City | live | -
 
 ## Biten Maclar
 - 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
@@ -636,3 +636,5 @@ Yarin: 74
 - 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | finished | -
 - 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | finished | -
 - 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | finished | -
+- 2026-08-22 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Eltham Redbacks | finished | -
+- 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | finished | -

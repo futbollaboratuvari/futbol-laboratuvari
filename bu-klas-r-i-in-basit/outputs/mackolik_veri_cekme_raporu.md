@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T05:59:32.837973+00:00
+Tarih: 2026-08-22T06:43:17.308756+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 594
-- Kac mac kaydedildi: 4
-- Kac mac zaten vardi: 590
-- Ham veri havuzu toplam mac sayisi: 8532
+- Kac mac bulundu: 591
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 589
+- Ham veri havuzu toplam mac sayisi: 8534
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -30,7 +30,6 @@ Tarih: 2026-08-22T05:59:32.837973+00:00
 - Avustralya NPL Kuzey YGG Eleme Final
 - Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
-- Avustralya U20 NSW NPL 1
 - Avustralya Victoria NPL 1
 - Avustralya Victoria NPL 2
 - Avusturya 1.Lig
@@ -74,6 +73,7 @@ Tarih: 2026-08-22T05:59:32.837973+00:00
 - Hong Kong Premier Lig
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
+- Irak Premier Lig
 - Japonya J1 Lig
 - Japonya J2 Lig
 - Japonya J3 Lig
@@ -256,7 +256,7 @@ Tarih: 2026-08-22T05:59:32.837973+00:00
 | 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
 | 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 4 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 
 ## Sonuc

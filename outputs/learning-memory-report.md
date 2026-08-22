@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 09:15:06
+Oluşturma: 22.08.2026 09:59:31
 
 ## Özet
 
-- Toplam tahmin: 339
-- Bekleyen tahmin: 339
+- Toplam tahmin: 343
+- Bekleyen tahmin: 343
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 107
@@ -20,12 +20,16 @@ Oluşturma: 22.08.2026 09:15:06
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 200, bekleyen 200, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 114, bekleyen 114, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 116, bekleyen 116, başarı bekleniyor, ağırlık 1
+- MS X: toplam 202, bekleyen 202, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Fransa Ligue 1 | Nice - Lorient | MS 2 | pending | 50/100
+- 2026-08-22 | Türkiye Süper Lig | Rizespor - Samsunspor | MS 2 | pending | 50/100
+- 2026-08-22 | Japonya J1 Lig | Yokohama Marin - Vissel Kobe | MS X | pending | 40/100
+- 2026-08-22 | Japonya J3 Lig | Nara Club - Renofa Yamaguch | MS X | pending | 50/100
 - 2026-08-22 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Khorfakkan Club | MS X | pending | 40/100
 - 2026-08-22 | İngiltere Ulusal Lig N / S Kuzey | Harborough Tow - Darlington 1883 | MS 2 | pending | 50/100
 - 2026-08-22 | Polonya 1.Lig | P. Bielsko - Odra Opole | MS X | pending | 50/100
@@ -37,8 +41,4 @@ Oluşturma: 22.08.2026 09:15:06
 - 2026-08-22 | Belçika Pro Lig | Antwerp - Genk | MS X | pending | 50/100
 - 2026-08-22 | Hollanda Eredivisie | Heerenveen - Zwolle | MS 2 | pending | 70/100
 - 2026-08-22 | İtalya Serie B | Benevento - Modena | MS X | pending | 40/100
-- 2026-08-22 | İtalya Serie B | Empoli - Cremonese | MS X | pending | 40/100
-- 2026-08-22 | İtalya Serie B | Avellino - Arezzo | MS 2 | pending | 40/100
-- 2026-08-22 | Brezilya Serie A | Fluminense - Remo | MS 2 | pending | 75/100
-- 2026-08-22 | İtalya Serie C Grup B | Pescara - Vis Pasaro | MS 2 | pending | 65/100
 
