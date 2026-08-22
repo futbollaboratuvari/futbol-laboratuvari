@@ -1,0 +1,86 @@
+/* Futbol Laboratuvari - approved mobile-first Premium Analysis UI */
+#premium-analysis-panel.pa-v2 {
+  --pa-v2-green: #39ff88;
+  --pa-v2-gold: #ffbd36;
+  --pa-v2-bg: #031023;
+  --pa-v2-card: rgba(8, 26, 49, .92);
+  overflow: hidden;
+}
+
+.pa-v2 .pa-head { align-items: center; }
+.pa-v2 .pa-badge { border-color: rgba(255,189,54,.55); background: rgba(255,189,54,.1); color: #ffe49c; }
+.pa-v2-steps { display: grid; grid-template-columns: repeat(4,1fr); margin: 6px 0 18px; }
+.pa-v2-step { position: relative; display: grid; justify-items: center; gap: 6px; color: #718197; font-size: 11px; font-weight: 900; }
+.pa-v2-step::before { content: ""; position: absolute; z-index: 0; left: -50%; right: 50%; top: 13px; height: 2px; background: #25364b; }
+.pa-v2-step:first-child::before { display: none; }
+.pa-v2-step i { position: relative; z-index: 1; display: grid; place-items: center; width: 28px; height: 28px; border: 2px solid #35475e; border-radius: 50%; background: var(--pa-v2-bg); color: #9ba9ba; font-style: normal; }
+.pa-v2-step.active { color: #f6fbff; }
+.pa-v2-step.active i { border-color: var(--pa-v2-gold); background: var(--pa-v2-gold); color: #15200e; box-shadow: 0 0 18px rgba(255,189,54,.22); }
+.pa-v2-step.active::before { background: var(--pa-v2-gold); }
+
+.pa-v2 .pa-state { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.pa-v2 .pa-state div:nth-child(n+3) { display: none; }
+.pa-v2 .pa-grid { grid-template-columns: minmax(0,1.03fr) minmax(360px,.97fr); }
+.pa-v2 .pa-card { background: var(--pa-v2-card); }
+.pa-v2 .pa-code { padding: 10px 12px; }
+.pa-v2 .pa-code > .pa-small { display: none; }
+.pa-v2 .pa-select { position: absolute !important; width: 1px !important; height: 1px !important; min-height: 0 !important; opacity: 0 !important; pointer-events: none !important; }
+.pa-v2-match-list { display: grid; gap: 10px; max-height: 580px; overflow: auto; padding: 2px; scrollbar-width: thin; }
+.pa-v2-match { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; padding: 14px; border: 1px solid rgba(151,170,194,.25); border-radius: 16px; background: rgba(1,10,25,.58); color: #f8fbff; text-align: left; cursor: pointer; transition: border-color .2s, background .2s, transform .2s; }
+.pa-v2-match:hover { transform: translateY(-1px); border-color: rgba(255,189,54,.5); }
+.pa-v2-match.selected { border-color: var(--pa-v2-green); background: rgba(57,255,136,.08); box-shadow: inset 0 0 0 1px rgba(57,255,136,.16); }
+.pa-v2-match:disabled { opacity: .45; cursor: not-allowed; }
+.pa-v2-match-main { min-width: 0; }
+.pa-v2-match-kicker { display: block; margin-bottom: 6px; color: #91a3b9; font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .04em; }
+.pa-v2-match-title { display: block; overflow: hidden; color: #fff; font-size: 14px; font-weight: 950; text-overflow: ellipsis; white-space: nowrap; }
+.pa-v2-match-meta { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 9px; }
+.pa-v2-pill { padding: 5px 7px; border-radius: 999px; background: rgba(255,255,255,.07); color: #c8d4e2; font-size: 10px; font-weight: 900; }
+.pa-v2-pill.recommend { background: rgba(57,255,136,.12); color: #8dffbd; }
+.pa-v2-check { display: grid; place-items: center; width: 28px; height: 28px; border: 2px solid #41546c; border-radius: 50%; color: transparent; }
+.pa-v2-match.selected .pa-v2-check { border-color: var(--pa-v2-green); background: var(--pa-v2-green); color: #052117; }
+
+.pa-v2-category-tabs { display: flex; gap: 7px; overflow-x: auto; padding-bottom: 3px; scrollbar-width: none; }
+.pa-v2-category { flex: 0 0 auto; min-height: 38px; padding: 0 11px; border: 1px solid rgba(255,255,255,.13); border-radius: 11px; background: rgba(255,255,255,.045); color: #dbe6f3; font-size: 11px; font-weight: 900; cursor: pointer; }
+.pa-v2-category.active { border-color: rgba(57,255,136,.55); background: rgba(57,255,136,.16); color: #baffd5; }
+.pa-v2 .pa-market-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.pa-v2 .pa-market[hidden] { display: none; }
+.pa-v2 .pa-button[data-pa-analyze] { position: sticky; bottom: 10px; z-index: 5; min-height: 54px; box-shadow: 0 12px 34px rgba(0,0,0,.48); }
+.pa-v2-selection-summary { margin: -2px 0 2px; color: #dbe6f3; font-size: 12px; font-weight: 900; text-align: center; }
+.pa-v2-selection-summary b { color: var(--pa-v2-green); }
+
+.pa-v2 .pa-result > h4 { margin: 0; color: #fff; font-size: 22px; }
+.pa-v2 .pa-analysis-card { padding: 15px; border-color: rgba(255,189,54,.36); background: rgba(1,10,24,.78); }
+.pa-v2 .pa-analysis-title { font-size: 15px; }
+.pa-v2 .pa-tag { border-color: rgba(255,189,54,.38); background: rgba(255,189,54,.1); color: #ffe49c; }
+.pa-v2 .pa-row { min-height: 39px; align-items: center; }
+.pa-v2 .pa-row strong { font-size: 13px; }
+.pa-v2 .pa-result .pa-row:nth-of-type(2) strong { color: var(--pa-v2-green); }
+.pa-v2 .pa-reason { margin: 2px 0 0; padding: 12px; border: 1px solid rgba(57,255,136,.28); border-radius: 12px; background: rgba(57,255,136,.055); color: #d2dfed; }
+
+@media (max-width: 900px) {
+  #premium-analysis-panel.pa-v2 { margin-inline: 14px; }
+  .pa-v2 .pa-grid { grid-template-columns: 1fr; }
+  .pa-v2 .pa-card:last-child { scroll-margin-top: 78px; }
+  .pa-v2 .pa-state { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .pa-v2 .pa-market-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+
+@media (max-width: 560px) {
+  #premium-analysis-panel.pa-v2 { margin: 16px 10px 0; padding: 12px; border-radius: 20px; }
+  .pa-v2 .pa-head { display: flex; }
+  .pa-v2 .pa-title { font-size: 21px; }
+  .pa-v2 .pa-sub { display: none; }
+  .pa-v2 .pa-badge { padding: 7px 9px; font-size: 10px; }
+  .pa-v2 .pa-state strong { font-size: 14px; }
+  .pa-v2 .pa-code-row { grid-template-columns: 1fr auto; }
+  .pa-v2 .pa-code-row .pa-button { padding-inline: 11px; font-size: 12px; }
+  .pa-v2-match-list { max-height: 520px; }
+  .pa-v2 .pa-market-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .pa-v2 .pa-market { min-height: 44px; font-size: 11px; }
+  .pa-v2 .pa-odds-grid { grid-template-columns: repeat(4,minmax(0,1fr)); overflow-x: auto; }
+  .pa-v2 .pa-odd { min-width: 66px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pa-v2-match { transition: none; }
+}
