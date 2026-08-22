@@ -44,7 +44,7 @@
 .pa-v2-category.active { border-color: rgba(57,255,136,.55); background: rgba(57,255,136,.16); color: #baffd5; }
 .pa-v2 .pa-market-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
 .pa-v2 .pa-market[hidden] { display: none; }
-.pa-v2 .pa-button[data-pa-analyze] { position: sticky; bottom: 10px; z-index: 5; min-height: 54px; box-shadow: 0 12px 34px rgba(0,0,0,.48); }
+.pa-v2 .pa-button[data-pa-analyze], .pa-v2 .pa-button[data-single-analyze] { position: sticky; bottom: 10px; z-index: 5; min-height: 54px; box-shadow: 0 12px 34px rgba(0,0,0,.48); }
 .pa-v2-selection-summary { margin: -2px 0 2px; color: #dbe6f3; font-size: 12px; font-weight: 900; text-align: center; }
 .pa-v2-selection-summary b { color: var(--pa-v2-green); }
 
