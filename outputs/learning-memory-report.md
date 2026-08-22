@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 16:37:08
+Oluşturma: 22.08.2026 16:49:58
 
 ## Özet
 
-- Toplam tahmin: 373
-- Bekleyen tahmin: 373
+- Toplam tahmin: 375
+- Bekleyen tahmin: 375
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 110
@@ -20,12 +20,14 @@ Oluşturma: 22.08.2026 16:37:08
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 130, bekleyen 130, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 29, bekleyen 29, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 131, bekleyen 131, başarı bekleniyor, ağırlık 1
 - MS X: toplam 215, bekleyen 215, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Portekiz 2.Lig | Lusitania De L - Torreense | MS 1 | pending | 40/100
+- 2026-08-22 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Khorfakkan Club | MS 2 | pending | 40/100
 - 2026-08-22 | Türkiye Süper Lig | Çorum - Kasimpaşa | MS 2 | pending | 50/100
 - 2026-08-22 | İngiltere Non League Premier Güney Merkez | Real Bedford - Stratford Town | MS 2 | pending | 50/100
 - 2026-08-22 | İngiltere Championship | Derby County - Cardiff | MS X | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 22.08.2026 16:37:08
 - 2026-08-22 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Hebei Kungfu | MS X | pending | 40/100
 - 2026-08-22 | Japonya J3 Lig | Kagoshima Unit - Fc Gifu | MS 2 | pending | 40/100
 - 2026-08-22 | Portekiz 2.Lig | Leixoes - Leiria | MS 2 | pending | 50/100
-- 2026-08-22 | Sırbistan Süper Lig | Ofk Beograd - Zemun Belg. | MS 2 | pending | 75/100
-- 2026-08-22 | Hırvatistan 1.HNL | Dinamo Zagreb - Varazdin | MS 2 | pending | 75/100
 

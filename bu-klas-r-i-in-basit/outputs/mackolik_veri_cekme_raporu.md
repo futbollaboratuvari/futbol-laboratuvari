@@ -1,28 +1,23 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T13:24:02.989434+00:00
+Tarih: 2026-08-22T13:44:33.479152+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 427
-- Kac mac kaydedildi: 2
-- Kac mac zaten vardi: 425
+- Kac mac bulundu: 334
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 334
 - Ham veri havuzu toplam mac sayisi: 8546
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD MLS
-- ABD USL
-- ABD USL Lig 1
 - Almanya DFB Kupası 1.Tur
 - Almanya Süper Kupa
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Kuzey YGG Eleme Final
-- Avustralya NPL Yeni Güney Galler
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -34,32 +29,25 @@ Tarih: 2026-08-22T13:24:02.989434+00:00
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
-- Galler FAW Championship Güney
-- Galler FAW Championship Kuzey
-- Guatemala Ulusal Lig Apertura
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -68,15 +56,11 @@ Tarih: 2026-08-22T13:24:02.989434+00:00
 - Macaristan NB I
 - Macaristan NB II
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Mısır Premier Lig
-- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
-- Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
 - Portekiz 2.Lig
@@ -133,7 +117,6 @@ Tarih: 2026-08-22T13:24:02.989434+00:00
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
 - İzlanda 2.Lig
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -204,24 +187,24 @@ Tarih: 2026-08-22T13:24:02.989434+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 22.08.2026 | 19:00 | Türkiye Süper Lig | Rizespor | Samsunspor | 00412 | 5 |
 | 22.08.2026 | 21:30 | Türkiye Süper Lig | Fenerbahçe | Konyaspor | 00524 | 5 |
+| 22.08.2026 | 19:00 | Türkiye Süper Lig | Rizespor | Samsunspor | 00412 | 5 |
 | 22.08.2026 | 19:00 | Türkiye Süper Lig | Çorum | Kasimpaşa | 00450 | 5 |
-| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Iğdır Fk | Kayserispor | 01881 | 5 |
 | 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Ümraniyespor | Esenler Erokspo | 02622 | 5 |
-| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Pendikspor | 02718 | 5 |
 | 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bodrum Fk | Muğlaspor | 02799 | 5 |
-| 22.08.2026 | 17:00 | İngiltere Premier Lig | Nottingham F | Leeds Utd | 36565 | 5 |
+| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Iğdır Fk | Kayserispor | 01881 | 5 |
+| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Pendikspor | 02718 | 5 |
 | 22.08.2026 | 19:30 | İngiltere Premier Lig | Brentford | Tottenham | 37716 | 5 |
-| 22.08.2026 | 17:00 | İngiltere Premier Lig | Everton | Crystal Palace | 11755 | 5 |
 | 22.08.2026 | 17:00 | İngiltere Premier Lig | Ipswich | Sunderland | 36330 | 5 |
+| 22.08.2026 | 17:00 | İngiltere Premier Lig | Nottingham F | Leeds Utd | 36565 | 5 |
+| 22.08.2026 | 17:00 | İngiltere Premier Lig | Everton | Crystal Palace | 11755 | 5 |
 | 22.08.2026 | 20:30 | İspanya LaLiga | Valencia | Celta Vigo | 38302 | 5 |
 | 22.08.2026 | 18:00 | İspanya LaLiga | Athletic Bilba | Sevilla | 38070 | 5 |
 | 22.08.2026 | 22:30 | İspanya LaLiga | Espanyol | Real Madrid | 38418 | 5 |
+| 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
 | 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 4 |
-| 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lyon | 40686 | 5 |
 
