@@ -15,6 +15,11 @@ data/detail-raw-signals.json
 data/longterm-match-archive.json
 data/robot_match_archive.json
 
+# Shared helper modules live outside /api for runtime imports.
+# Ignore the legacy copies so Vercel counts only real API endpoints.
+api/_lib/
+api/lib/
+
 # Media/debug captures
 *.avi
 *.mkv

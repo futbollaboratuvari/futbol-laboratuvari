@@ -1,6 +1,6 @@
 const crypto = require("crypto");
-const { appendUsageRecord } = require("./lib/usage-write");
-const { decreaseMembershipCount } = require("./lib/membership-decrement");
+const { appendUsageRecord } = require("../server-lib/lib/usage-write");
+const { decreaseMembershipCount } = require("../server-lib/lib/membership-decrement");
 
 const CODE_DATABASE = {
   "d0e366399638702f7f4fd5cae64e544617bc4ec948a277a34c2a9d7cb855d290": {
