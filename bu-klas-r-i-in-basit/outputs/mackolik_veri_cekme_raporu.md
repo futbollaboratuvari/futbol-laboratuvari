@@ -1,23 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T13:44:33.479152+00:00
+Tarih: 2026-08-22T13:57:04.243460+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 334
+- Kac mac bulundu: 408
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 334
+- Kac mac zaten vardi: 408
 - Ham veri havuzu toplam mac sayisi: 8546
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- ABD MLS
+- ABD USL
+- ABD USL Lig 1
 - Almanya DFB Kupası 1.Tur
 - Almanya Süper Kupa
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Avustralya NPL Kuzey YGG Eleme Final
+- Avustralya NPL Yeni Güney Galler
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -29,25 +34,30 @@ Tarih: 2026-08-22T13:44:33.479152+00:00
 - Bolivya Premier Lig
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
+- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
+- Guatemala Ulusal Lig Apertura
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
 - Katar Yıldızlar Ligi
 - Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
@@ -56,8 +66,11 @@ Tarih: 2026-08-22T13:44:33.479152+00:00
 - Macaristan NB I
 - Macaristan NB II
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Mısır Premier Lig
+- Nikaragua Premier Lig Apertura
 - Norveç 1.Lig
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
@@ -117,6 +130,7 @@ Tarih: 2026-08-22T13:44:33.479152+00:00
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
 - İzlanda 2.Lig
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
