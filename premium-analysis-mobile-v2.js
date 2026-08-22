@@ -152,7 +152,7 @@
     analyze.textContent = "Özel Analizi Oluştur";
     analyze.addEventListener("click", () => {
       setStep(panel, 4);
-      requestAnimationFrame(() => panel.querySelector("[data-pa-output]")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+      requestAnimationFrame(() => panel.querySelector("[data-pa-output], [data-single-output]")?.scrollIntoView({ behavior: "smooth", block: "start" }));
     });
   };
 
