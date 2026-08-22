@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 12:52:12
+Oluşturma: 22.08.2026 13:11:30
 
 ## Özet
 
-- Toplam tahmin: 360
-- Bekleyen tahmin: 360
+- Toplam tahmin: 363
+- Bekleyen tahmin: 363
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 109
@@ -20,12 +20,15 @@ Oluşturma: 22.08.2026 12:52:12
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 123, bekleyen 123, başarı bekleniyor, ağırlık 1
-- MS X: toplam 210, bekleyen 210, başarı bekleniyor, ağırlık 1
+- MS X: toplam 211, bekleyen 211, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 125, bekleyen 125, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Hebei Kungfu | MS X | pending | 40/100
+- 2026-08-22 | Japonya J3 Lig | Kagoshima Unit - Fc Gifu | MS 2 | pending | 40/100
+- 2026-08-22 | Portekiz 2.Lig | Leixoes - Leiria | MS 2 | pending | 50/100
 - 2026-08-22 | Sırbistan Süper Lig | Ofk Beograd - Zemun Belg. | MS 2 | pending | 75/100
 - 2026-08-22 | Hırvatistan 1.HNL | Dinamo Zagreb - Varazdin | MS 2 | pending | 75/100
 - 2026-08-22 | Danimarka 3.Lig | Holstebro - Helsingor | MS X | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 22.08.2026 12:52:12
 - 2026-08-22 | İtalya Serie C Grup C | Audace Cerigno - Cosenza | MS 2 | pending | 40/100
 - 2026-08-22 | İsveç 2.Lig Södra Götaland | Karlskrona - Växjö Norra | MS 2 | pending | 50/100
 - 2026-08-22 | Türkiye TFF 1. Lig | Antalyaspor - Pendikspor | MS X | pending | 50/100
-- 2026-08-22 | Türkiye TFF 1. Lig | Bodrum Fk - Muğlaspor | MS 2 | pending | 50/100
-- 2026-08-22 | Türkiye TFF 1. Lig | Ümraniyespor - Esenler Erokspo | MS 1 | pending | 50/100
-- 2026-08-22 | Türkiye TFF 1. Lig | Iğdır Fk - Kayserispor | MS X | pending | 40/100
 
