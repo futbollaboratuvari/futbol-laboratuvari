@@ -3,16 +3,14 @@
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
 Ham mac: 606
-Aktif mac: 599
-Canli mac: 7
+Aktif mac: 597
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 525
+Bultenden dusurulen mac: 9
+Bugun: 523
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | scheduled | -
-- 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | scheduled | -
 - 2026-08-22 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Eltham Redbacks | scheduled | -
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | scheduled | -
 - 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra Juvent | scheduled | -
@@ -619,6 +617,8 @@ Yarin: 74
 - 2026-08-22 04:00 | El Salvador Primera Lig Apertura | Inter Fa - Inca-Aruba | live | -
 - 2026-08-22 06:00 | Meksika Liga MX Apertura | Fc Juarez - Club America | live | -
 - 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | live | -
+- 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | live | -
+- 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | live | -
 
 ## Biten Maclar
 Biten mac yok.
