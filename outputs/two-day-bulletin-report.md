@@ -2,31 +2,15 @@
 
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
-Ham mac: 635
-Aktif mac: 262
-Canli mac: 184
-Biten mac: 189
-Bultenden dusurulen mac: 373
-Bugun: 188
+Ham mac: 637
+Aktif mac: 248
+Canli mac: 193
+Biten mac: 196
+Bultenden dusurulen mac: 389
+Bugun: 174
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 17:30 | Hollanda Eredivisie | Fortuna Sittar - Az Alkmaar | scheduled | -
-- 2026-08-22 17:30 | Portekiz Premier Lig | Maritimo - Academico Viseu | scheduled | -
-- 2026-08-22 17:30 | Hollanda Eerste Divisie | Breda - Ajax (B) | scheduled | -
-- 2026-08-22 17:30 | Azerbaycan Premier Lig | Qabala - Safa | scheduled | -
-- 2026-08-22 17:30 | Slovakya 2.Lig | Mfk Bytca - Zlate Moravce | scheduled | -
-- 2026-08-22 17:30 | Slovakya 2.Lig | Galanta - Pohronie | scheduled | -
-- 2026-08-22 17:30 | Slovakya 2.Lig | Banik Lehota P - Slovan Bratisla | scheduled | -
-- 2026-08-22 17:30 | Slovakya 2.Lig | Humenne - Liptovsky Mikul | scheduled | -
-- 2026-08-22 17:30 | Slovakya 2.Lig | Povazska Bystr - Samorin | scheduled | -
-- 2026-08-22 17:30 | Polonya 2.Lig | Znicz Pruszkow - Swit Skolwin | scheduled | -
-- 2026-08-22 17:30 | Hollanda Kadınlar Eredivisie | Ajax (K) - Pec Zwolle (K) | scheduled | -
-- 2026-08-22 17:30 | Hollanda Kadınlar Eredivisie | Feyenoord (K) - Az (K) | scheduled | -
-- 2026-08-22 17:30 | Hırvatistan 2.HNL | Segesta - Orijent 1919 | scheduled | -
-- 2026-08-22 17:30 | Belarus 1.Lig | Slonim - Volna Pinsk | scheduled | -
-- 2026-08-22 17:45 | Belarus Premier Lig | Naftan - Neman Grodno | scheduled | -
-- 2026-08-22 17:45 | İtalya Primavera Şampiyonası 1 | Sassuolo U20 - Fiorentina U20 | scheduled | -
 - 2026-08-22 18:00 | İspanya LaLiga | Athletic Bilba - Sevilla | scheduled | -
 - 2026-08-22 18:00 | İspanya 2.Lig | Oviedo - Leganes | scheduled | -
 - 2026-08-22 18:00 | Avusturya Bundesliga | Altach - Hartberg | scheduled | -
@@ -45,6 +29,7 @@ Yarin: 74
 - 2026-08-22 18:00 | Litvanya 1.Lig | Minija - Kauno Zalgiris | scheduled | -
 - 2026-08-22 18:00 | Moldova Ulusal Lig | Csf Balti - Zimbru | scheduled | -
 - 2026-08-22 18:00 | Slovenya 2.SNL | Dren Vrhnika - Dravinja | scheduled | -
+- 2026-08-22 18:00 | Tanzanya Kuu Bara Ligi | Singida Black - Simba | scheduled | -
 - 2026-08-22 18:15 | Fransa Ligue 1 | Lens - Auxerre | scheduled | -
 - 2026-08-22 18:30 | Polonya Ekstraklasa | Piast Gliwice - Legia Varşova | scheduled | -
 - 2026-08-22 18:30 | Macaristan NB I | Mtk - Nyiregyhaza | scheduled | -
@@ -131,6 +116,7 @@ Yarin: 74
 - 2026-08-22 20:30 | İspanya LaLiga | Valencia - Celta Vigo | scheduled | -
 - 2026-08-22 20:30 | Avusturya Bundesliga | Sturm Graz - Avusturya Luste | scheduled | -
 - 2026-08-22 20:30 | Hazırlık Kulüpler | Santomera - Cieza | scheduled | -
+- 2026-08-22 20:30 | Tanzanya Kuu Bara Ligi | Geita Gold - Kagera Sugar | scheduled | -
 - 2026-08-22 20:50 | Suudi Arabistan 1.Lig | Al Orubah Club - Al-Raed | scheduled | -
 - 2026-08-22 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde - Abha | scheduled | -
 - 2026-08-22 21:00 | Suudi Arabistan Pro Lig | Al Khaleej - Al Shabab (Riya | scheduled | -
@@ -275,13 +261,6 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 15:30 | Rusya Premier Lig | Fakel Voronezh - Orenburg | live | -
-- 2026-08-22 15:30 | Danimarka 3.Lig | Holstebro - Helsingor | live | -
-- 2026-08-22 15:30 | Hollanda Tweede Divisie | Rkav Volendam - Sv Spakenburg | live | -
-- 2026-08-22 15:30 | Hollanda Tweede Divisie | Rijnsburgse Bo - Jong Sparta | live | -
-- 2026-08-22 15:30 | Hollanda Tweede Divisie | Gvvv - Afc Amsterdamsc | live | -
-- 2026-08-22 15:30 | Hollanda Tweede Divisie | Hhc - Jong Almere Cit | live | -
-- 2026-08-22 15:30 | Letonya Virsliga | Super Nova - Bfc Daugavpils | live | -
 - 2026-08-22 15:45 | Polonya Ekstraklasa | Korona Kielce - Motor Lublin | live | -
 - 2026-08-22 16:00 | İsveç Allsvenskan | Orgryte - Halmstads | live | -
 - 2026-08-22 16:00 | AFF Şampiyonası Final | Tayland - Vietnam | live | -
@@ -459,6 +438,22 @@ Yarin: 74
 - 2026-08-22 17:00 | Mısır Premier Lig | Asyut Petroleu - Petrojet | live | -
 - 2026-08-22 17:00 | Belarus 1.Lig | Smorgon - Ostrovets Fc | live | -
 - 2026-08-22 17:15 | Katar Yıldızlar Ligi | Al Duhail Sc - Al Sailiya | live | -
+- 2026-08-22 17:30 | Hollanda Eredivisie | Fortuna Sittar - Az Alkmaar | live | -
+- 2026-08-22 17:30 | Portekiz Premier Lig | Maritimo - Academico Viseu | live | -
+- 2026-08-22 17:30 | Hollanda Eerste Divisie | Breda - Ajax (B) | live | -
+- 2026-08-22 17:30 | Azerbaycan Premier Lig | Qabala - Safa | live | -
+- 2026-08-22 17:30 | Slovakya 2.Lig | Mfk Bytca - Zlate Moravce | live | -
+- 2026-08-22 17:30 | Slovakya 2.Lig | Galanta - Pohronie | live | -
+- 2026-08-22 17:30 | Slovakya 2.Lig | Banik Lehota P - Slovan Bratisla | live | -
+- 2026-08-22 17:30 | Slovakya 2.Lig | Humenne - Liptovsky Mikul | live | -
+- 2026-08-22 17:30 | Slovakya 2.Lig | Povazska Bystr - Samorin | live | -
+- 2026-08-22 17:30 | Polonya 2.Lig | Znicz Pruszkow - Swit Skolwin | live | -
+- 2026-08-22 17:30 | Hollanda Kadınlar Eredivisie | Ajax (K) - Pec Zwolle (K) | live | -
+- 2026-08-22 17:30 | Hollanda Kadınlar Eredivisie | Feyenoord (K) - Az (K) | live | -
+- 2026-08-22 17:30 | Hırvatistan 2.HNL | Segesta - Orijent 1919 | live | -
+- 2026-08-22 17:30 | Belarus 1.Lig | Slonim - Volna Pinsk | live | -
+- 2026-08-22 17:45 | Belarus Premier Lig | Naftan - Neman Grodno | live | -
+- 2026-08-22 17:45 | İtalya Primavera Şampiyonası 1 | Sassuolo U20 - Fiorentina U20 | live | -
 
 ## Biten Maclar
 - 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
@@ -650,3 +645,10 @@ Yarin: 74
 - 2026-08-22 15:00 | Litvanya 1.Lig | Bfa - Neptüna Klaiped | finished | -
 - 2026-08-22 15:00 | Litvanya 1.Lig | Fk Dainava - Atmosfera | finished | -
 - 2026-08-22 15:00 | Hollanda Tweede Divisie | Koninklijke Hf - Bvv Barendrecht | finished | -
+- 2026-08-22 15:30 | Rusya Premier Lig | Fakel Voronezh - Orenburg | finished | -
+- 2026-08-22 15:30 | Danimarka 3.Lig | Holstebro - Helsingor | finished | -
+- 2026-08-22 15:30 | Hollanda Tweede Divisie | Rkav Volendam - Sv Spakenburg | finished | -
+- 2026-08-22 15:30 | Hollanda Tweede Divisie | Rijnsburgse Bo - Jong Sparta | finished | -
+- 2026-08-22 15:30 | Hollanda Tweede Divisie | Gvvv - Afc Amsterdamsc | finished | -
+- 2026-08-22 15:30 | Hollanda Tweede Divisie | Hhc - Jong Almere Cit | finished | -
+- 2026-08-22 15:30 | Letonya Virsliga | Super Nova - Bfc Daugavpils | finished | -
