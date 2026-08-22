@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 527
+- Scheduled match count: 510
 - Live match count: 56
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 12:00 | Dangjin Citize - Yeoju Sejong | live
-- 2026-08-22 12:00 | Pocheon - Mokpo City | live
-- 2026-08-22 12:00 | Yangpyeong - Gyeongju Hnp | live
-- 2026-08-22 12:00 | Deportivo Alav - Amorebieta | live
-- 2026-08-22 12:00 | G.Segoviana - Rayo Majadahond | live
-- 2026-08-22 12:00 | Lecce U20 - Lazio U20 | live
-- 2026-08-22 12:00 | Roma U20 - Monza U20 | live
-- 2026-08-22 12:00 | Kashima - Avispa Fukuoka | live
-- 2026-08-22 12:00 | Blaublitz Akit - Kofu | live
-- 2026-08-22 12:00 | Matsumoto Yama - Ehime Fc | live
+- 2026-08-22 12:30 | Ne Metrostars - Croydon Kings | live
+- 2026-08-22 12:30 | Cristo Atletic - Atletico Tordes | live
+- 2026-08-22 12:30 | Fagiano Okayam - Tokyo Verdy | live
+- 2026-08-22 12:30 | Kataller Toyam - Fc Imabari | live
+- 2026-08-22 12:30 | Ural - Tekstilshchik | live
+- 2026-08-22 13:00 | E. Frankfurt ( - Köln (K) | live
+- 2026-08-22 13:00 | Busan Transpor - Changwon City | live
+- 2026-08-22 13:00 | Ss Reyes - Atletico Balear | live
+- 2026-08-22 13:00 | Qviding - Torslanda Ik | live
+- 2026-08-22 13:00 | Cerezo Osaka - Shimizu | live
