@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 18:04:33
+Oluşturma: 22.08.2026 18:18:54
 
 ## Özet
 
-- Toplam tahmin: 378
-- Bekleyen tahmin: 378
+- Toplam tahmin: 379
+- Bekleyen tahmin: 379
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 110
+- Lig sayısı: 111
 - Seçenek sayısı: 3
 
 ## Öğrenme Mantığı
@@ -20,12 +20,13 @@ Oluşturma: 22.08.2026 18:04:33
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 217, bekleyen 217, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
-- MS X: toplam 216, bekleyen 216, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 131, bekleyen 131, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | İsveç 2.Lig Södra Svealand | Ragsved - Sleipner | MS X | pending | 50/100
 - 2026-08-22 | İtalya Serie B | Empoli - Cremonese | MS 1 | pending | 40/100
 - 2026-08-22 | Letonya Virsliga | Ogre United - Fs Jelgava | MS 1 | pending | 50/100
 - 2026-08-22 | İngiltere Ulusal Lig N / S Kuzey | Southport - Bedford Town | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 22.08.2026 18:04:33
 - 2026-08-22 | Bolivya Premier Lig | Academia Del B - Gualberto Villa | MS X | pending | 50/100
 - 2026-08-22 | İngiltere Ulusal Lig N / S Güney | Maidenhead Utd - Farnborough | MS X | pending | 50/100
 - 2026-08-22 | İngiltere 1.Lig | Doncaster - Barnsley | MS 2 | pending | 50/100
-- 2026-08-22 | Peru Premier Lig Clausura | Univ De Cajama - Comerciantes Un | MS X | pending | 40/100
 

@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T14:56:42.946Z
+- Güncelleme: 2026-08-22T15:10:23.147Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -204,24 +204,24 @@
 | Slonim VS Volna Pinsk | Belarus 1.Lig | 17:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Naftan VS Neman Grodno | Belarus Premier Lig | 17:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sassuolo U20 VS Fiorentina U20 | İtalya Primavera Şampiyonası 1 | 17:45 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Athletic Bilba VS Sevilla | İspanya LaLiga | 18:00 | MS 2 | 4.44 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Athletic Bilba VS Sevilla | İspanya LaLiga | 18:00 | MS 2 | 4.44 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Oviedo VS Leganes | İspanya 2.Lig | 18:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Altach VS Hartberg | Avusturya Bundesliga | 18:00 | MS 2 | 4.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Akhmat Grozny VS Rostov | Rusya Premier Lig | 18:00 | MS X | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Zlin VS Slovan Liberec | Çek Cumhuriyeti Czech Liga | 18:00 | MS 1 | 3.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Altach VS Hartberg | Avusturya Bundesliga | 18:00 | MS 2 | 4.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Akhmat Grozny VS Rostov | Rusya Premier Lig | 18:00 | MS X | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Zlin VS Slovan Liberec | Çek Cumhuriyeti Czech Liga | 18:00 | MS 1 | 3.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Sk Artis Brno VS Sparta Prag | Çek Cumhuriyeti Czech Liga | 18:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Mlada Boleslav VS Slovacko | Çek Cumhuriyeti Czech Liga | 18:00 | MS 2 | 3.51 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Mlada Boleslav VS Slovacko | Çek Cumhuriyeti Czech Liga | 18:00 | MS 2 | 3.51 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Karpaty Lviv VS Obolon-Brovar | Ukrayna Kupa 1.Tur | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Dila Gori VS Torpedo Kutaisi | Gürcistan Erovnuli Liga | 18:00 | MS X | 2.85 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Spaeri VS Samgurali | Gürcistan Erovnuli Liga | 18:00 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Nk Bilje VS Bistrica | Slovenya 2.SNL | 18:00 | MS X | 3.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ilirija VS Rudar | Slovenya 2.SNL | 18:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Paradiso VS Fc Kreuzlingen | İsviçre 1.Lig Promotion | 18:00 | MS 2 | 3.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Dila Gori VS Torpedo Kutaisi | Gürcistan Erovnuli Liga | 18:00 | MS X | 2.85 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Spaeri VS Samgurali | Gürcistan Erovnuli Liga | 18:00 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Nk Bilje VS Bistrica | Slovenya 2.SNL | 18:00 | MS X | 3.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Ilirija VS Rudar | Slovenya 2.SNL | 18:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Paradiso VS Fc Kreuzlingen | İsviçre 1.Lig Promotion | 18:00 | MS 2 | 3.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Vestri VS Leiknir Reykjav | İzlanda 1.Lig | 18:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Syrianska VS Smedby Ais | İsveç 2.Lig Södra Svealand | 18:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Minija VS Kauno Zalgiris | Litvanya 1.Lig | 18:00 | Değerli market yok | - | 50 | Sadece izleme | Normal Değer | Orta | Düşük | filtered_no_value_market |
 | Csf Balti VS Zimbru | Moldova Ulusal Lig | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Dren Vrhnika VS Dravinja | Slovenya 2.SNL | 18:00 | MS 2 | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Dren Vrhnika VS Dravinja | Slovenya 2.SNL | 18:00 | MS 2 | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Singida Black VS Simba | Tanzanya Kuu Bara Ligi | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Lens VS Auxerre | Fransa Ligue 1 | 18:15 | MS 2 | 5.29 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Piast Gliwice VS Legia Varşova | Polonya Ekstraklasa | 18:30 | MS 1 | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
