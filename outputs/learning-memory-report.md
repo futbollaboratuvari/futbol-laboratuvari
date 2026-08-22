@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 13:11:30
+Oluşturma: 22.08.2026 13:47:20
 
 ## Özet
 
-- Toplam tahmin: 363
-- Bekleyen tahmin: 363
+- Toplam tahmin: 364
+- Bekleyen tahmin: 364
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 109
@@ -20,12 +20,13 @@ Oluşturma: 22.08.2026 13:11:30
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 211, bekleyen 211, başarı bekleniyor, ağırlık 1
+- MS X: toplam 212, bekleyen 212, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 125, bekleyen 125, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Peru Premier Lig Clausura | Univ De Cajama - Comerciantes Un | MS X | pending | 40/100
 - 2026-08-22 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Hebei Kungfu | MS X | pending | 40/100
 - 2026-08-22 | Japonya J3 Lig | Kagoshima Unit - Fc Gifu | MS 2 | pending | 40/100
 - 2026-08-22 | Portekiz 2.Lig | Leixoes - Leiria | MS 2 | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 22.08.2026 13:11:30
 - 2026-08-22 | Japonya J1 Lig | Kyoto Sanga - Mito Hollyhock | MS X | pending | 40/100
 - 2026-08-22 | İtalya Serie C Grup C | Audace Cerigno - Cosenza | MS 2 | pending | 40/100
 - 2026-08-22 | İsveç 2.Lig Södra Götaland | Karlskrona - Växjö Norra | MS 2 | pending | 50/100
-- 2026-08-22 | Türkiye TFF 1. Lig | Antalyaspor - Pendikspor | MS X | pending | 50/100
 

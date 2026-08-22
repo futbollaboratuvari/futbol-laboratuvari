@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-22T08:33:50.950Z
-- Ham fixture sayisi: 8498
-- Bugun/yarin kaynak mac: 630
-- Aktif bulten maci: 582
+- Guncelleme: 2026-08-22T10:38:04.733Z
+- Ham fixture sayisi: 8499
+- Bugun/yarin kaynak mac: 631
+- Aktif bulten maci: 527
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 48
+- Bultenden dusurulen mac: 104
 
-- 1. 2026-08-22 12:00 | Japonya J2 Lig | Blaublitz Akit - Kofu | scheduled
-- 2. 2026-08-22 12:00 | Güney Kore K3 Ligi | Dangjin Citize - Yeoju Sejong | scheduled
-- 3. 2026-08-22 12:00 | Hazırlık Kulüpler | Deportivo Alav - Amorebieta | scheduled
-- 4. 2026-08-22 12:00 | Hazırlık Kulüpler | G.Segoviana - Rayo Majadahond | scheduled
-- 5. 2026-08-22 12:00 | Japonya WE Ligi Kadınlar | Inac Kobe Leon - Sanfrecce Hiros | scheduled
-- 6. 2026-08-22 12:00 | Japonya J1 Lig | Kashima - Avispa Fukuoka | scheduled
-- 7. 2026-08-22 12:00 | İtalya Primavera Şampiyonası 1 | Lecce U20 - Lazio U20 | scheduled
-- 8. 2026-08-22 12:00 | Japonya J3 Lig | Matsumoto Yama - Ehime Fc | scheduled
-- 9. 2026-08-22 12:00 | Japonya J3 Lig | Nara Club - Renofa Yamaguch | scheduled
-- 10. 2026-08-22 12:00 | Malezya Süper Lig | Negeri Sembila - Kuala Lumpur | scheduled
-- 11. 2026-08-22 12:00 | Japonya WE Ligi Kadınlar | Nojima Stella - Elfen Saitama ( | scheduled
-- 12. 2026-08-22 12:00 | Japonya WE Ligi Kadınlar | Omiya (K) - Urawa Red (K) | scheduled
-- 13. 2026-08-22 12:00 | Japonya J3 Lig | Osaka - Ryukyu | scheduled
-- 14. 2026-08-22 12:00 | Güney Kore K3 Ligi | Pocheon - Mokpo City | scheduled
-- 15. 2026-08-22 12:00 | İtalya Primavera Şampiyonası 1 | Roma U20 - Monza U20 | scheduled
+- 1. 2026-08-22 14:00 | İsveç 2.Lig Vastra Götaland | Astrio - Böljan | scheduled
+- 2. 2026-08-22 14:00 | Polonya 2.Lig | Avia Swidnik - Zawisza Bydgosz | scheduled
+- 3. 2026-08-22 14:00 | Belarus Premier Lig | Belshina Bobru - Arsenal | scheduled
+- 4. 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Ifk Ostersund | scheduled
+- 5. 2026-08-22 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Wuxi Wugou | scheduled
+- 6. 2026-08-22 14:00 | Almanya DFB Kupası 1.Tur | E.Cottbus - Augsburg | scheduled
+- 7. 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Forward - Nacka Iliria | scheduled
+- 8. 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Skelleftea | scheduled
+- 9. 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Haninge - Nykobing Fa | scheduled
+- 10. 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Kubikenborgs If | scheduled
+- 11. 2026-08-22 14:00 | Danimarka 3.Lig | Ishoj - Naesby | scheduled
+- 12. 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Lindo Ff - Karlslunds If | scheduled
+- 13. 2026-08-22 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Yanbian Longdin | scheduled
+- 14. 2026-08-22 14:00 | İngiltere Professional Development Lig | Sheffield Wedn - Bristol City U2 | scheduled
+- 15. 2026-08-22 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Kungsangen | scheduled
