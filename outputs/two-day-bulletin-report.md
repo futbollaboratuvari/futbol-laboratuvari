@@ -3,19 +3,14 @@
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
 Ham mac: 637
-Aktif mac: 85
-Canli mac: 81
-Biten mac: 471
-Bultenden dusurulen mac: 552
-Bugun: 11
+Aktif mac: 80
+Canli mac: 66
+Biten mac: 491
+Bultenden dusurulen mac: 557
+Bugun: 6
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 22:30 | İspanya LaLiga | Espanyol - Real Madrid | scheduled | -
-- 2026-08-22 22:30 | Portekiz Premier Lig | Sporting Cp - Alverca | scheduled | -
-- 2026-08-22 22:30 | İspanya 2.Lig | Eldense - Cadiz | scheduled | -
-- 2026-08-22 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano - Deportivo La Gu | scheduled | -
-- 2026-08-22 22:30 | Portekiz 3.Lig Grup A | Pacos Ferreira - Varzim | scheduled | -
 - 2026-08-22 23:00 | Venezuela Premier Lig Clausura | Zamora - Ucv | scheduled | -
 - 2026-08-22 23:00 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | scheduled | -
 - 2026-08-22 23:00 | Venezuela Premier Lig Clausura | Estudiantes Fc - Academia Puerto | scheduled | -
@@ -98,26 +93,6 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 20:00 | Portekiz Premier Lig | Estoril - Rio Ave | live | -
-- 2026-08-22 20:00 | İspanya 2.Lig | Albacete - Real Sociedad I | live | -
-- 2026-08-22 20:00 | İspanya 2.Lig | Ceuta - Las Palmas | live | -
-- 2026-08-22 20:00 | İtalya Serie B | Sudtirol - Virtus Entella | live | -
-- 2026-08-22 20:00 | İtalya Serie B | Carrarese - Mantova | live | -
-- 2026-08-22 20:00 | Yunanistan Süper Lig | Kalamata - Aris | live | -
-- 2026-08-22 20:00 | Yunanistan Süper Lig | Aek - Iraklis 1908 | live | -
-- 2026-08-22 20:00 | Sırbistan Süper Lig | Radnicki 1923 - Imt Novi Beogra | live | -
-- 2026-08-22 20:00 | Portekiz 2.Lig | Lusitania De L - Torreense | live | -
-- 2026-08-22 20:00 | Kuzey İrlanda Premiership | Crusaders - Portadown Fc | live | -
-- 2026-08-22 20:00 | Hazırlık Kulüpler | Real Avila - Pozuelo Alarcon | live | -
-- 2026-08-22 20:00 | Mısır Premier Lig | Masryal Masry - Smouha | live | -
-- 2026-08-22 20:00 | Mısır Premier Lig | Ghazl El Mehal - Pyramids Fc | live | -
-- 2026-08-22 20:00 | Gürcistan Erovnuli Liga | Fc Rustavi - Gagra | live | -
-- 2026-08-22 20:00 | Moldova Ulusal Lig | Milsami-Ursido - Petrocub | live | -
-- 2026-08-22 20:00 | Portekiz 3.Lig Grup B | Sporting Covil - Atletico | live | -
-- 2026-08-22 20:00 | Letonya 1.Lig | Rigas Fs Ii - Jdfs Alberts | live | -
-- 2026-08-22 20:00 | Hırvatistan 2.HNL | Cibalia - Dubrava Zagred | live | -
-- 2026-08-22 20:00 | Ürdün Süper Kupa Yarı Final | Al-Ramtha - Al-Hussein | live | -
-- 2026-08-22 20:15 | Rusya Premier Lig | Cska Moskova - L.Moskova | live | -
 - 2026-08-22 20:30 | İspanya LaLiga | Valencia - Celta Vigo | live | -
 - 2026-08-22 20:30 | Avusturya Bundesliga | Sturm Graz - Avusturya Luste | live | -
 - 2026-08-22 20:30 | Hazırlık Kulüpler | Santomera - Cieza | live | -
@@ -179,6 +154,11 @@ Yarin: 74
 - 2026-08-22 22:00 | Ekvador Pro Lig | Univ Catolica - Manta | live | -
 - 2026-08-22 22:00 | Bolivya Premier Lig | Academia Del B - Gualberto Villa | live | -
 - 2026-08-22 22:00 | Malta Premier Lig Açılış | Zabbar St Patr - Birzebbuga | live | -
+- 2026-08-22 22:30 | İspanya LaLiga | Espanyol - Real Madrid | live | -
+- 2026-08-22 22:30 | Portekiz Premier Lig | Sporting Cp - Alverca | live | -
+- 2026-08-22 22:30 | İspanya 2.Lig | Eldense - Cadiz | live | -
+- 2026-08-22 22:30 | Venezuela Premier Lig Clausura | Rayo Zuliano - Deportivo La Gu | live | -
+- 2026-08-22 22:30 | Portekiz 3.Lig Grup A | Pacos Ferreira - Varzim | live | -
 
 ## Biten Maclar
 - 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
@@ -652,3 +632,23 @@ Yarin: 74
 - 2026-08-22 19:45 | Hollanda Eredivisie | Sparta Rotterd - Utrecht | finished | -
 - 2026-08-22 19:45 | İskoçya Premiership | Dundee Utd - Dundee | finished | -
 - 2026-08-22 19:45 | Azerbaycan Premier Lig | Zira - İmişli Fk | finished | -
+- 2026-08-22 20:00 | Portekiz Premier Lig | Estoril - Rio Ave | finished | -
+- 2026-08-22 20:00 | İspanya 2.Lig | Albacete - Real Sociedad I | finished | -
+- 2026-08-22 20:00 | İspanya 2.Lig | Ceuta - Las Palmas | finished | -
+- 2026-08-22 20:00 | İtalya Serie B | Sudtirol - Virtus Entella | finished | -
+- 2026-08-22 20:00 | İtalya Serie B | Carrarese - Mantova | finished | -
+- 2026-08-22 20:00 | Yunanistan Süper Lig | Kalamata - Aris | finished | -
+- 2026-08-22 20:00 | Yunanistan Süper Lig | Aek - Iraklis 1908 | finished | -
+- 2026-08-22 20:00 | Sırbistan Süper Lig | Radnicki 1923 - Imt Novi Beogra | finished | -
+- 2026-08-22 20:00 | Portekiz 2.Lig | Lusitania De L - Torreense | finished | -
+- 2026-08-22 20:00 | Kuzey İrlanda Premiership | Crusaders - Portadown Fc | finished | -
+- 2026-08-22 20:00 | Hazırlık Kulüpler | Real Avila - Pozuelo Alarcon | finished | -
+- 2026-08-22 20:00 | Mısır Premier Lig | Masryal Masry - Smouha | finished | -
+- 2026-08-22 20:00 | Mısır Premier Lig | Ghazl El Mehal - Pyramids Fc | finished | -
+- 2026-08-22 20:00 | Gürcistan Erovnuli Liga | Fc Rustavi - Gagra | finished | -
+- 2026-08-22 20:00 | Moldova Ulusal Lig | Milsami-Ursido - Petrocub | finished | -
+- 2026-08-22 20:00 | Portekiz 3.Lig Grup B | Sporting Covil - Atletico | finished | -
+- 2026-08-22 20:00 | Letonya 1.Lig | Rigas Fs Ii - Jdfs Alberts | finished | -
+- 2026-08-22 20:00 | Hırvatistan 2.HNL | Cibalia - Dubrava Zagred | finished | -
+- 2026-08-22 20:00 | Ürdün Süper Kupa Yarı Final | Al-Ramtha - Al-Hussein | finished | -
+- 2026-08-22 20:15 | Rusya Premier Lig | Cska Moskova - L.Moskova | finished | -
