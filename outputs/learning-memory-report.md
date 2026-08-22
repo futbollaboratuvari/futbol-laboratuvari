@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 20:11:27
+Oluşturma: 22.08.2026 20:26:41
 
 ## Özet
 
-- Toplam tahmin: 381
-- Bekleyen tahmin: 381
+- Toplam tahmin: 382
+- Bekleyen tahmin: 382
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 112
@@ -20,12 +20,13 @@ Oluşturma: 22.08.2026 20:11:27
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 219, bekleyen 219, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 132, bekleyen 132, başarı bekleniyor, ağırlık 1
-- MS X: toplam 218, bekleyen 218, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Fransa Ligue 2 | St Etienne - Grenoble | MS X | pending | 75/100
 - 2026-08-22 | Avusturya Bundesliga | Sturm Graz - Avusturya Luste | MS 2 | pending | 85/100
 - 2026-08-22 | Yunanistan Süper Lig | Aek - Iraklis 1908 | MS X | pending | 85/100
 - 2026-08-22 | İsveç 2.Lig Södra Svealand | Ragsved - Sleipner | MS X | pending | 50/100
@@ -40,5 +41,4 @@ Oluşturma: 22.08.2026 20:11:27
 - 2026-08-22 | Slovenya 2.SNL | Dren Vrhnika - Dravinja | MS 2 | pending | 50/100
 - 2026-08-22 | Letonya Virsliga | Super Nova - Bfc Daugavpils | MS 1 | pending | 50/100
 - 2026-08-22 | İskoçya Premiership | Dundee Utd - Dundee | MS 2 | pending | 50/100
-- 2026-08-22 | Bolivya Premier Lig | Academia Del B - Gualberto Villa | MS X | pending | 50/100
 

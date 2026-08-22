@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T16:55:44.723681+00:00
+Tarih: 2026-08-22T17:22:10.885715+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 182
+- Kac mac bulundu: 161
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 182
+- Kac mac zaten vardi: 161
 - Ham veri havuzu toplam mac sayisi: 8548
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
@@ -36,36 +36,28 @@ Tarih: 2026-08-22T16:55:44.723681+00:00
 - Fransa Ligue 2
 - Galler FAW Championship Kuzey
 - Guatemala Ulusal Lig Apertura
-- Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eredivisie
 - Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
-- Hırvatistan 2.HNL
 - Irak Premier Lig
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
 - Kosta Rika Premier Lig Apertura
 - Kuzey İrlanda Championship
-- Kuzey İrlanda Premiership
 - Letonya 1.Lig
 - Litvanya 1.Lig
 - Macaristan NB II
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
-- Moldova Ulusal Lig
-- Mısır Premier Lig
 - Nikaragua Premier Lig Apertura
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
 - Polonya Ekstraklasa
-- Portekiz 2.Lig
 - Portekiz 3.Lig Grup A
-- Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya Premier Lig
 - Slovakya Süper Lig
 - Slovenya 2.SNL
 - Suudi Arabistan 1.Lig
@@ -78,7 +70,6 @@ Tarih: 2026-08-22T16:55:44.723681+00:00
 - Venezuela Premier Lig Clausura
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
-- Ürdün Süper Kupa Yarı Final
 - İrlanda 1.Lig
 - İspanya 2.Lig
 - İspanya LaLiga
@@ -150,8 +141,8 @@ Tarih: 2026-08-22T16:55:44.723681+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 90
-- Acilan detay: 90
+- Denenen Tumu alani: 81
+- Acilan detay: 81
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -165,25 +156,25 @@ Tarih: 2026-08-22T16:55:44.723681+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 22.08.2026 | 21:30 | Türkiye Süper Lig | Fenerbahçe | Konyaspor | 00524 | 5 |
-| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Pendikspor | 02718 | 5 |
 | 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bodrum Fk | Muğlaspor | 02799 | 5 |
+| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Pendikspor | 02718 | 5 |
 | 22.08.2026 | 20:30 | İspanya LaLiga | Valencia | Celta Vigo | 38302 | 5 |
 | 22.08.2026 | 22:30 | İspanya LaLiga | Espanyol | Real Madrid | 38418 | 5 |
-| 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
-| 22.08.2026 | 21:45 | Fransa Ligue 1 | Troyes | Paris Fc | 40792 | 5 |
+| 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lyon | 40686 | 5 |
+| 22.08.2026 | 21:45 | Fransa Ligue 1 | Troyes | Paris Fc | 40792 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Nice | Lorient | 40570 | 5 |
 | 22.08.2026 | 21:30 | Almanya Süper Kupa | B.Dortmund | B.Münih | 01894 | 5 |
 | 22.08.2026 | 22:00 | Hollanda Eredivisie | Heerenveen | Zwolle | 23839 | 5 |
-| 22.08.2026 | 20:00 | Portekiz Premier Lig | Estoril | Rio Ave | 30046 | 5 |
 | 22.08.2026 | 22:30 | Portekiz Premier Lig | Sporting Cp | Alverca | 30239 | 5 |
-| 22.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Khaleej | Al Shabab (Riya | 42199 | 5 |
 | 22.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ahli (Cidde | Abha | 42281 | 5 |
+| 22.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Khaleej | Al Shabab (Riya | 42199 | 5 |
 | 22.08.2026 | 21:45 | Belçika Pro Lig | Antwerp | Genk | 28749 | 5 |
-| 22.08.2026 | 20:00 | İspanya 2.Lig | Albacete | Real Sociedad I | 38244 | 5 |
-| 22.08.2026 | 20:00 | İspanya 2.Lig | Ceuta | Las Palmas | 38186 | 5 |
+| 22.08.2026 | 22:30 | İspanya 2.Lig | Eldense | Cadiz | 38360 | 5 |
+| 22.08.2026 | 22:00 | İtalya Serie B | Benevento | Modena | 29724 | 5 |
+| 22.08.2026 | 22:00 | İtalya Serie B | Empoli | Cremonese | 29970 | 5 |
 
 ## Sonuc
 
