@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 229
-- Live match count: 211
-- Finished removed count: 1
+- Scheduled match count: 211
+- Live match count: 212
+- Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 16:00 | Tayland - Vietnam | live
-- 2026-08-22 16:00 | Slavia Mozyr - Gomel | live
-- 2026-08-22 16:00 | Salpa Salo - Oulun Ls | live
-- 2026-08-22 16:00 | Sekhukhune Uni - Orlando Pirates | live
-- 2026-08-22 16:00 | Ijsselmeervoge - Quick Boys | live
-- 2026-08-22 16:00 | Katwijk - Hoek Hsv | live
-- 2026-08-22 16:00 | Vv Kloetinge - Kozakken Boys | live
-- 2026-08-22 16:00 | Sunnersta Aif - Angby | live
-- 2026-08-22 16:00 | Ifk Berga - Staffanstorp Un | live
-- 2026-08-22 16:00 | Orgryte - Halmstads | live
+- 2026-08-22 16:30 | Aue - Hoffenheim | live
+- 2026-08-22 16:30 | Duisburg - Elversberg | live
+- 2026-08-22 16:30 | Hemelingen - Hannover | live
+- 2026-08-22 16:30 | Lsk Hansa - Werder Bremen | live
+- 2026-08-22 16:30 | Saarbrucken - Hertha Berlin | live
+- 2026-08-22 16:30 | Viktoria Köln - Nürnberg | live
+- 2026-08-22 16:30 | Rapid Vienna ( - Floridsdorfer | live
+- 2026-08-22 16:30 | Aberystwyth To - Llantwit Major | live
+- 2026-08-22 16:30 | Caerphilly Ath - Ynyshir Albions | live
+- 2026-08-22 16:30 | Cardiff Dracon - Llanelli Town | live
