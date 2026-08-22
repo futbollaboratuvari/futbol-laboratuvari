@@ -3,17 +3,14 @@
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
 Ham mac: 349
-Aktif mac: 324
-Canli mac: 25
-Biten mac: 0
-Bultenden dusurulen mac: 25
-Bugun: 293
+Aktif mac: 321
+Canli mac: 22
+Biten mac: 6
+Bultenden dusurulen mac: 28
+Bugun: 290
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 02:07 | Meksika Liga MX Apertura | Guadalajara - Club Tijuana | scheduled | -
-- 2026-08-23 02:10 | Kolombiya Primera A Clausura | Santa Fe - America De Cali | scheduled | -
-- 2026-08-23 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Juticalpa | scheduled | -
 - 2026-08-23 02:30 | ABD MLS | Inter Miami - Toronto | scheduled | -
 - 2026-08-23 02:30 | ABD MLS | Cincinnati - Seattle | scheduled | -
 - 2026-08-23 02:30 | ABD MLS | Montreal - Los Angeles | scheduled | -
@@ -337,12 +334,6 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | live | -
-- 2026-08-23 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Suchitepequez | live | -
-- 2026-08-23 00:00 | Honduras Ulusal Lig Apertura | Atlético Indep - Genesis Pn | live | -
-- 2026-08-23 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Municipal Limen | live | -
-- 2026-08-23 00:00 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | live | -
-- 2026-08-23 00:05 | Kolombiya Primera A Clausura | Deportes Tolim - Bucaramanga | live | -
 - 2026-08-23 00:15 | Bolivya Premier Lig | Aurora - Real Potosi | live | -
 - 2026-08-23 00:30 | Brezilya Serie A | Internacional - Atletico Mg | live | -
 - 2026-08-23 00:30 | Arjantin Premier Lig 2. Aşama | Independiente - Rivadavia | live | -
@@ -362,6 +353,14 @@ Yarin: 31
 - 2026-08-23 02:00 | ABD USL Lig 1 | Chattanooga Re - New York Cosmos | live | -
 - 2026-08-23 02:00 | ABD USL Lig 1 | Union Omaha - Sarasota Paradi | live | -
 - 2026-08-23 02:00 | ABD USL Lig 1 | Richmond Kicke - Portland Hearts | live | -
+- 2026-08-23 02:07 | Meksika Liga MX Apertura | Guadalajara - Club Tijuana | live | -
+- 2026-08-23 02:10 | Kolombiya Primera A Clausura | Santa Fe - America De Cali | live | -
+- 2026-08-23 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Juticalpa | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
+- 2026-08-23 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Suchitepequez | finished | -
+- 2026-08-23 00:00 | Honduras Ulusal Lig Apertura | Atlético Indep - Genesis Pn | finished | -
+- 2026-08-23 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Municipal Limen | finished | -
+- 2026-08-23 00:00 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | finished | -
+- 2026-08-23 00:05 | Kolombiya Primera A Clausura | Deportes Tolim - Bucaramanga | finished | -
