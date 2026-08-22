@@ -1,0 +1,42 @@
+name: External Visual Smoke
+
+on:
+  push:
+    branches:
+      - qa/external-visual-smoke-20260822
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  visual-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Run external visual smoke test
+        env:
+          TARGET_URL: https://www.futbollaboratuuvari.org/
+        run: node qa/external-visual-smoke.mjs
+
+      - name: Upload visual evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-visual-smoke
+          path: qa-artifacts/
+          if-no-files-found: warn
