@@ -1,27 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 541
-Tam analiz: 0
-Eksik analiz: 541
+Toplam analiz: 510
+Tam analiz: 464
+Eksik analiz: 46
 
-- Jaguares VS Chico: eksik score, confidence
-- Deportivo Madr VS Ca Mitre: eksik score, confidence
-- Liverpool Mont VS Cerro: eksik score, confidence
-- The Strongest VS Universitario D: eksik score, confidence
-- Rio Cuarto VS San Lorenzo: eksik score, confidence
-- Caracas Fc VS Carabobo: eksik score, confidence
-- Leones Del Nor VS Indep. Jose Ter: eksik score, confidence
-- Deportivo Cuen VS Mushuc Runa: eksik score, confidence
-- Alianza Petrol VS Pereira: eksik score, confidence
-- Audax Italiano VS Union La Calera: eksik score, confidence
-- Oriente Petrol VS San Antonio Bul: eksik score, confidence
-- Club Leon VS Monterrey: eksik score, confidence
-- Tigres Uanl VS Atlante: eksik score, confidence
-- Puntarenas Fc VS Perez Zeledon: eksik score, confidence
-- Depor Motagua VS Upnfm: eksik score, confidence
-- Inter Fa VS Inca-Aruba: eksik score, confidence
-- Fc Juarez VS Club America: eksik score, confidence
-- Ca La Paz VS Cruz Azul Hidal: eksik score, confidence
-- Queretaro VS Toluca: eksik score, confidence
-- Fc Juarez VS Club America: eksik score, confidence
+- Ucsa VS Kolos Kovalivka: eksik score, confidence
+- E. Frankfurt ( VS Köln (K): eksik score, confidence
+- Buler Rangers VS Kitchee Footbal: eksik score, confidence
+- Inhulets VS Veres Rivne: eksik score, confidence
+- Spjelkavik VS Hodd: eksik score, confidence
+- Asker VS Kvik Halden: eksik score, confidence
+- Nordstrand VS Skeid: eksik score, confidence
+- Nürnberg (K) VS Wolfsburg (K): eksik score, confidence
+- Skara VS Ik Tord: eksik score, confidence
+- Friska Viljor VS Storfors: eksik score, confidence
+- Nyva Vinnytsia VS Rukh Vynnyky: eksik score, confidence
+- Rade VS Follo: eksik score, confidence
+- Sekhukhune Uni VS Orlando Pirates: eksik score, confidence
+- Kelantan Red W VS Selangor Fa: eksik score, confidence
+- Sunnersta Aif VS Angby: eksik score, confidence
+- Hemelingen VS Hannover: eksik score, confidence
+- Lsk Hansa VS Werder Bremen: eksik score, confidence
+- Guilsfield Fc VS Ruthin Town: eksik score, confidence
+- Brickfield Ran VS Penrhyncoch: eksik score, confidence
+- Vindbjart VS Flekkeroy: eksik score, confidence
