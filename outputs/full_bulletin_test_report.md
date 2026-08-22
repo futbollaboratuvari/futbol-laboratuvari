@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 211
-- Live match count: 212
+- Scheduled match count: 183
+- Live match count: 221
 - Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 16:30 | Aue - Hoffenheim | live
-- 2026-08-22 16:30 | Duisburg - Elversberg | live
-- 2026-08-22 16:30 | Hemelingen - Hannover | live
-- 2026-08-22 16:30 | Lsk Hansa - Werder Bremen | live
-- 2026-08-22 16:30 | Saarbrucken - Hertha Berlin | live
-- 2026-08-22 16:30 | Viktoria Köln - Nürnberg | live
-- 2026-08-22 16:30 | Rapid Vienna ( - Floridsdorfer | live
-- 2026-08-22 16:30 | Aberystwyth To - Llantwit Major | live
-- 2026-08-22 16:30 | Caerphilly Ath - Ynyshir Albions | live
-- 2026-08-22 16:30 | Cardiff Dracon - Llanelli Town | live
+- 2026-08-22 17:00 | Smorgon - Ostrovets Fc | live
+- 2026-08-22 17:00 | Club Brugge Ii - Rfc Seraing | live
+- 2026-08-22 17:00 | Dender - Beerschot-Wilri | live
+- 2026-08-22 17:00 | Zulte Waregem - Waasland Bevere | live
+- 2026-08-22 17:00 | Ajman - Hatta Dubai | live
+- 2026-08-22 17:00 | Al Ahli Dubai - Al Dhafra | live
+- 2026-08-22 17:00 | Tammeka Tartu - Kuressaare | live
+- 2026-08-22 17:00 | Ilves - Vaasa | live
+- 2026-08-22 17:00 | Jaro - Oulu | live
+- 2026-08-22 17:00 | Afc Wimbledon - Reading | live

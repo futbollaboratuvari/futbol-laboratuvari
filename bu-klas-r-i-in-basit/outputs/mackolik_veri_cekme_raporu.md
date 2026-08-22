@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T15:23:52.460635+00:00
+Tarih: 2026-08-22T15:53:04.597368+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 242
+- Kac mac bulundu: 229
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 242
+- Kac mac zaten vardi: 229
 - Ham veri havuzu toplam mac sayisi: 8548
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
@@ -23,10 +23,8 @@ Tarih: 2026-08-22T15:23:52.460635+00:00
 - Arjantin Ulusal Primera Lig
 - Avustralya NPL Kuzey YGG Eleme Final
 - Avustralya NPL Yeni Güney Galler
-- Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
-- Belarus 1.Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
 - Birleşik Arap Emirlikleri Arap Körfez Ligi
@@ -59,7 +57,6 @@ Tarih: 2026-08-22T15:23:52.460635+00:00
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
 - Litvanya 1.Lig
-- Macaristan NB I
 - Macaristan NB II
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
@@ -78,13 +75,11 @@ Tarih: 2026-08-22T15:23:52.460635+00:00
 - Rusya Premier Lig
 - Slovakya 2.Lig
 - Slovakya Süper Lig
-- Slovenya 1.SNL
 - Slovenya 2.SNL
 - Suudi Arabistan 1.Lig
 - Suudi Arabistan Pro Lig
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
-- Tunus 1.Lig
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
 - Uruguay Premier Lig Clausura
@@ -192,16 +187,16 @@ Tarih: 2026-08-22T15:23:52.460635+00:00
 | 22.08.2026 | 19:30 | İngiltere Premier Lig | Brentford | Tottenham | 37716 | 5 |
 | 22.08.2026 | 20:30 | İspanya LaLiga | Valencia | Celta Vigo | 38302 | 5 |
 | 22.08.2026 | 22:30 | İspanya LaLiga | Espanyol | Real Madrid | 38418 | 5 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
 | 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
-| 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lyon | 40686 | 5 |
+| 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Nice | Lorient | 40570 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Troyes | Paris Fc | 40792 | 5 |
 | 22.08.2026 | 21:30 | Almanya Süper Kupa | B.Dortmund | B.Münih | 01894 | 5 |
-| 22.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Sonnenhof Gros | Arminia Bielefe | 28168 | 5 |
+| 22.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Eintracht Trie | Rb Leipzig | 28167 | 2 |
 
 ## Sonuc
 
