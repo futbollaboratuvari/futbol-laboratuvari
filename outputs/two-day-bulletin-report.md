@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
-Ham mac: 348
+Ham mac: 349
 Aktif mac: 334
-Canli mac: 14
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 14
+Bultenden dusurulen mac: 15
 Bugun: 303
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 01:30 | ABD USL | Loudoun United - New Mexico Unit | scheduled | -
 - 2026-08-23 02:00 | Kosta Rika Premier Lig Apertura | Liberia - Cs Cartagines | scheduled | -
 - 2026-08-23 02:00 | Kanada Premier Lig | Forge - Pacific Fc | scheduled | -
 - 2026-08-23 02:00 | ABD USL | Detroit City - Tampa Bay Rowdi | scheduled | -
@@ -234,6 +233,7 @@ Yarin: 31
 - 2026-08-23 19:00 | Estonya Premium Lig | Vaprus - Flora Tallinn | scheduled | -
 - 2026-08-23 19:00 | İtalya Serie A Kadınlar Kupası Grup B | Fiorentina (K) - Sassuolo (K) | scheduled | -
 - 2026-08-23 19:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Pamba Jiji | scheduled | -
+- 2026-08-23 19:00 | Slovenya 2.SNL | Krsko - Tabor Sezana | scheduled | -
 - 2026-08-23 19:15 | Faroe Adaları Master Lig | B68 Toftir - Skala | scheduled | -
 - 2026-08-23 19:30 | İtalya Serie A | Frosinone - Juventus | scheduled | -
 - 2026-08-23 19:30 | İtalya Serie A | Unione V. - Lecce | scheduled | -
@@ -361,6 +361,7 @@ Yarin: 31
 - 2026-08-23 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Penarol | live | -
 - 2026-08-23 00:30 | Ekvador Pro Lig | T.Universitari - Guayaquil City | live | -
 - 2026-08-23 01:00 | Venezuela Premier Lig Clausura | Metropolitanos - Depor Tachira | live | -
+- 2026-08-23 01:30 | ABD USL | Loudoun United - New Mexico Unit | live | -
 
 ## Biten Maclar
 Biten mac yok.
