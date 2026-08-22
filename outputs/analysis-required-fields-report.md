@@ -1,10 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 54
-Tam analiz: 51
-Eksik analiz: 3
+Toplam analiz: 21
+Tam analiz: 19
+Eksik analiz: 2
 
-- San Martin Sj VS Gimnasia Y Tiro: eksik score, confidence
-- D Belgrano VS Almirante: eksik score, confidence
-- Chaco For Ever VS Los Andes: eksik score, confidence
+- Atlético Indep VS Genesis Pn: eksik score, confidence
+- Deportivo Mald VS Penarol: eksik score, confidence
