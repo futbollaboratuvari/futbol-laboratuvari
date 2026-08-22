@@ -3,154 +3,14 @@
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
 Ham mac: 635
-Aktif mac: 402
-Canli mac: 84
-Biten mac: 149
-Bultenden dusurulen mac: 233
-Bugun: 328
+Aktif mac: 262
+Canli mac: 184
+Biten mac: 189
+Bultenden dusurulen mac: 373
+Bugun: 188
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 17:00 | İngiltere Premier Lig | Ipswich - Sunderland | scheduled | -
-- 2026-08-22 17:00 | İngiltere Premier Lig | Nottingham F - Leeds Utd | scheduled | -
-- 2026-08-22 17:00 | İngiltere Premier Lig | Everton - Crystal Palace | scheduled | -
-- 2026-08-22 17:00 | Belçika Pro Lig | Zulte Waregem - Waasland Bevere | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | West Ham - Charlton | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | Derby County - Cardiff | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | Swansea - Sheffield Utd | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | Prest - Wolverhampton | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | Southam - Stoke | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | Qpr - Bolton | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | Blackburn - Middlesbrough | scheduled | -
-- 2026-08-22 17:00 | İngiltere Championship | Wrexham - Watford | scheduled | -
-- 2026-08-22 17:00 | Finlandiya Veikkausliiga | Ilves - Vaasa | scheduled | -
-- 2026-08-22 17:00 | Finlandiya Veikkausliiga | Jaro - Oulu | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Mk Dons - Huddersfield | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Bromley - Cambridge | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Wigan - Leyton Orient | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Peterborough - Mansfield | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Afc Wimbledon - Reading | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Leicester - Burton Albion | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Stevenage - Oxford | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Stockport - Blackpool | scheduled | -
-- 2026-08-22 17:00 | İngiltere 1.Lig | Wycombe - Plymouth | scheduled | -
-- 2026-08-22 17:00 | Kuzey İrlanda Premiership | Dungannon - Bangor Fc | scheduled | -
-- 2026-08-22 17:00 | Kuzey İrlanda Premiership | Carrick Ranger - Coleraine | scheduled | -
-- 2026-08-22 17:00 | Belçika Challenger Pro Lig | Club Brugge Ii - Rfc Seraing | scheduled | -
-- 2026-08-22 17:00 | Belçika Challenger Pro Lig | Dender - Beerschot-Wilri | scheduled | -
-- 2026-08-22 17:00 | Mısır Premier Lig | El Geish - Al Mokawloon Al | scheduled | -
-- 2026-08-22 17:00 | Norveç 1.Lig | Sandnes - Bryne | scheduled | -
-- 2026-08-22 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ahli Dubai - Al Dhafra | scheduled | -
-- 2026-08-22 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Ajman - Hatta Dubai | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Crewe - Northampton | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Rotherham - York | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Exeter - Accrington | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Port Vale - Tranmere | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Swindon - Cheltenham | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Shrewsbury - Barnet | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Rochdale - Crawley | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Fleetwood Town - Gillingham | scheduled | -
-- 2026-08-22 17:00 | İngiltere 2.Lig | Colchester - Oldham | scheduled | -
-- 2026-08-22 17:00 | İskoçya Championship | Queens Park - Stenhousemuir | scheduled | -
-- 2026-08-22 17:00 | İskoçya Championship | Morton - Arbroath | scheduled | -
-- 2026-08-22 17:00 | İskoçya Championship | Livingston - Dunfermline | scheduled | -
-- 2026-08-22 17:00 | İskoçya Championship | Raith Rovers - Ayr Utd | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Vindbjart - Flekkeroy | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Flekkefjord - Start | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Lokomotiv Oslo - Grorud Il | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Gamle Oslo - Drobak/Frogn | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Baerum - Mjondalen | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Vag Fk - Egersunds | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Vard Haugesund - Haugesund | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Fana - Bjarg | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Eidsvold If - Fredrikstad | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Madla - Vidar | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Strindheim - Levanger | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Lorenskog - Moss | scheduled | -
-- 2026-08-22 17:00 | Kuzey İrlanda Championship | Annagh United - Moyola Park | scheduled | -
-- 2026-08-22 17:00 | Kuzey İrlanda Championship | Ards Fc - Loughgall Fc | scheduled | -
-- 2026-08-22 17:00 | Kuzey İrlanda Championship | Queens Univers - Institute Fc | scheduled | -
-- 2026-08-22 17:00 | Kuzey İrlanda Championship | Strabane Athle - Hw Welders | scheduled | -
-- 2026-08-22 17:00 | Kuzey İrlanda Championship | Newington Yc - Rathfriland Ran | scheduled | -
-- 2026-08-22 17:00 | İsviçre 1.Lig Promotion | Bavois - Bruhl | scheduled | -
-- 2026-08-22 17:00 | İsviçre 1.Lig Promotion | Cham - Grand-Saconnex | scheduled | -
-- 2026-08-22 17:00 | İskoçya 1.Lig | East Fife - Hamilton | scheduled | -
-- 2026-08-22 17:00 | İskoçya 1.Lig | Cove Rangers - Peterhead | scheduled | -
-- 2026-08-22 17:00 | İskoçya 1.Lig | Airdrieonians - Ross County | scheduled | -
-- 2026-08-22 17:00 | İskoçya 1.Lig | Queen Of South - Alloa | scheduled | -
-- 2026-08-22 17:00 | İskoçya 1.Lig | Montrose - East Kilbride | scheduled | -
-- 2026-08-22 17:00 | İskoçya 2.Lig | Edinburg C. - Annan | scheduled | -
-- 2026-08-22 17:00 | İskoçya 2.Lig | Spartans - Elgin | scheduled | -
-- 2026-08-22 17:00 | İskoçya 2.Lig | Stirling Albio - Stranraer | scheduled | -
-- 2026-08-22 17:00 | İskoçya 2.Lig | Clyde - Forfar | scheduled | -
-- 2026-08-22 17:00 | İskoçya 2.Lig | Kelty Hearts - Dumbarton | scheduled | -
-- 2026-08-22 17:00 | İzlanda 1.Lig | Hk Kopavogur - Throttur | scheduled | -
-- 2026-08-22 17:00 | İzlanda 1.Lig | Fylkir - Grindavik | scheduled | -
-- 2026-08-22 17:00 | Letonya Virsliga | Ogre United - Fs Jelgava | scheduled | -
-- 2026-08-22 17:00 | Estonya Premium Lig | Tammeka Tartu - Kuressaare | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Chorley - Scarborough Ath | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Chester - Spalding United | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Lynn Town - Marine | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Worksop Town - Hereford Fc | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Buxton - Hebburn Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Macclesfield - Brackley Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Southport - Bedford Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Spennymoor - Oxford City | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Harborough Tow - Darlington 1883 | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Radcliffe Boro - Morecambe | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Gateshead(Sout - Merthyr Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Telford - Hednesford Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Dorking Wand. - Maidstone Unite | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Torquay | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Braintree - Horsham | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Tonbridge Ange - Truro City | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Folkestone Inv - Chelmsford | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Maidenhead Utd - Farnborough | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Weston-S-Mare - Dover Athletic | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Salisbury - Hemel | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Farnham Town - Billericay Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Chesham United - Walton And Hers | scheduled | -
-- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Hampton Richmo - Slough Town | scheduled | -
-- 2026-08-22 17:00 | İsveç 2.Lig Södra Svealand | Ragsved - Sleipner | scheduled | -
-- 2026-08-22 17:00 | Letonya 1.Lig | Tukums Ii - Jfk Ventspils | scheduled | -
-- 2026-08-22 17:00 | İzlanda 2.Lig | Kfg Gardabar - Kormakur | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Leek Town - Bamber Bridge | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Stockton Town - Alfreton | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Hyde - Avro | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Lancaster City - Quorn | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | United Of Manc - Workington | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Rylands - Redcar Athletic | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Whitby Town - Warrington Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Ilkeston Town - Cleethorpes Tow | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Gainsborough T - Bury | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Curzon Ashton - Guiseley | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Afc Emley - Ashton United | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Chichester Cit - Chippenham Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Frome Town - Gosport Borough | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Hanworth Villa - Evesham United | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Basingstoke - Bath City | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Gloucester Cit - Hanwell | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Malvern Town - Wimborne Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Berkhamsted - Poole Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Plymouth Parkw - Havant And W. | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Sholing - Chertsey Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Uxbridge - Taunton Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Yate Town - Bracknell Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Stourbridge - Leiston | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Bury Town - Leamington | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Racing Club Wa - Hitchin Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Rushall Olympi - Banbury United | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Needham Market - Halesowen Town | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Worcester City - Stamford | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Redditch Unite - Bromsgrove Spor | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Kettering - Peterborough Sp | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Bishops Stortf - Alvechurch | scheduled | -
-- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Real Bedford - Stratford Town | scheduled | -
-- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Eik Toensberg - Honefoss | scheduled | -
-- 2026-08-22 17:00 | Uruguay Premier Lig Clausura | Central Espano - Juventud Dl Pie | scheduled | -
-- 2026-08-22 17:00 | Mısır Premier Lig | Asyut Petroleu - Petrojet | scheduled | -
-- 2026-08-22 17:00 | Belarus 1.Lig | Smorgon - Ostrovets Fc | scheduled | -
-- 2026-08-22 17:15 | Katar Yıldızlar Ligi | Al Duhail Sc - Al Sailiya | scheduled | -
 - 2026-08-22 17:30 | Hollanda Eredivisie | Fortuna Sittar - Az Alkmaar | scheduled | -
 - 2026-08-22 17:30 | Portekiz Premier Lig | Maritimo - Academico Viseu | scheduled | -
 - 2026-08-22 17:30 | Hollanda Eerste Divisie | Breda - Ajax (B) | scheduled | -
@@ -415,46 +275,6 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 15:00 | Fransa Ligue 2 | Metz - Stade Lavallois | live | -
-- 2026-08-22 15:00 | Fransa Ligue 2 | Nantes - Rodez Aveyron | live | -
-- 2026-08-22 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Shandong Taisha | live | -
-- 2026-08-22 15:00 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Yunnan Yukun | live | -
-- 2026-08-22 15:00 | Finlandiya Ykkösliiga | Ekenas If - Kotka | live | -
-- 2026-08-22 15:00 | Ukrayna Kupa 1.Tur | Inhulets - Veres Rivne | live | -
-- 2026-08-22 15:00 | Norveç NM Kupası 1.Tur | Spjelkavik - Hodd | live | -
-- 2026-08-22 15:00 | Norveç NM Kupası 1.Tur | Asker - Kvik Halden | live | -
-- 2026-08-22 15:00 | Norveç NM Kupası 1.Tur | Nordstrand - Skeid | live | -
-- 2026-08-22 15:00 | Finlandiya Ykkönen | Tampere Utd - Rops | live | -
-- 2026-08-22 15:00 | Finlandiya Ykkönen | Inter Turku Ii - Tpv Tampere | live | -
-- 2026-08-22 15:00 | Almanya Bölgesel Lig Batı | Fc Bocholt - Rödinghausen | live | -
-- 2026-08-22 15:00 | Almanya Bölgesel Lig Güney Batı | Fsv Frankfurt - Astoria Walldor | live | -
-- 2026-08-22 15:00 | Almanya Bölgesel Lig Güney Batı | Stuttgarter Ki - Freiburg Ii | live | -
-- 2026-08-22 15:00 | Almanya Bölgesel Lig Güney Batı | Sandhausen - Homburg | live | -
-- 2026-08-22 15:00 | İsviçre 1.Lig Promotion | Luzern Ii - Bulle | live | -
-- 2026-08-22 15:00 | Letonya Virsliga | Super Nova - Bfc Daugavpils | live | -
-- 2026-08-22 15:00 | İngiltere Premier Lig 2 | Arsenal U21 - Crystal Palace | live | -
-- 2026-08-22 15:00 | Danimarka 2.Lig | Middelfart - Nykobing | live | -
-- 2026-08-22 15:00 | Danimarka 2.Lig | Fa 2000 - Brabrand | live | -
-- 2026-08-22 15:00 | Hollanda Kadınlar Eredivisie | Psv Eindhoven - Utrecht (K) | live | -
-- 2026-08-22 15:00 | Almanya Kadınlar Bundesliga | Nürnberg (K) - Wolfsburg (K) | live | -
-- 2026-08-22 15:00 | Danimarka 3.Lig | Sundby - Horsholm-Ussero | live | -
-- 2026-08-22 15:00 | Danimarka 3.Lig | Frem - Asa Aarhus | live | -
-- 2026-08-22 15:00 | Danimarka 3.Lig | Vanlose - Ringsted | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Norra Svealand | Bollstanas - Taby | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Vastra Götaland | Dalstorps If - Hestrafor | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Vastra Götaland | Astorp - Kongahalla | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Rappe - Österlen | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Oskarshamns Ai - Linero | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Nosaby If - Torns | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Karlskrona - Växjö Norra | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Norra Götaland | Grebbestads If - Stenungsund | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Norra Götaland | Skara - Ik Tord | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Norrland Yükselme Grubu | Taftea - Lucksta | live | -
-- 2026-08-22 15:00 | İsveç 2.Lig Norrland Düşme Grubu | Friska Viljor - Storfors | live | -
-- 2026-08-22 15:00 | Letonya 1.Lig | Valmieras Fk/B - Marupe | live | -
-- 2026-08-22 15:00 | Litvanya 1.Lig | Bfa - Neptüna Klaiped | live | -
-- 2026-08-22 15:00 | Litvanya 1.Lig | Fk Dainava - Atmosfera | live | -
-- 2026-08-22 15:00 | Hollanda Tweede Divisie | Koninklijke Hf - Bvv Barendrecht | live | -
 - 2026-08-22 15:30 | Rusya Premier Lig | Fakel Voronezh - Orenburg | live | -
 - 2026-08-22 15:30 | Danimarka 3.Lig | Holstebro - Helsingor | live | -
 - 2026-08-22 15:30 | Hollanda Tweede Divisie | Rkav Volendam - Sv Spakenburg | live | -
@@ -499,6 +319,146 @@ Yarin: 74
 - 2026-08-22 16:30 | Galler FAW Championship Güney | Aberystwyth To - Llantwit Major | live | -
 - 2026-08-22 16:30 | Galler FAW Championship Güney | Cardiff Dracon - Llanelli Town | live | -
 - 2026-08-22 16:30 | Galler FAW Championship Güney | Carmarthen - Treowen Stars | live | -
+- 2026-08-22 17:00 | İngiltere Premier Lig | Ipswich - Sunderland | live | -
+- 2026-08-22 17:00 | İngiltere Premier Lig | Nottingham F - Leeds Utd | live | -
+- 2026-08-22 17:00 | İngiltere Premier Lig | Everton - Crystal Palace | live | -
+- 2026-08-22 17:00 | Belçika Pro Lig | Zulte Waregem - Waasland Bevere | live | -
+- 2026-08-22 17:00 | İngiltere Championship | West Ham - Charlton | live | -
+- 2026-08-22 17:00 | İngiltere Championship | Derby County - Cardiff | live | -
+- 2026-08-22 17:00 | İngiltere Championship | Swansea - Sheffield Utd | live | -
+- 2026-08-22 17:00 | İngiltere Championship | Prest - Wolverhampton | live | -
+- 2026-08-22 17:00 | İngiltere Championship | Southam - Stoke | live | -
+- 2026-08-22 17:00 | İngiltere Championship | Qpr - Bolton | live | -
+- 2026-08-22 17:00 | İngiltere Championship | Blackburn - Middlesbrough | live | -
+- 2026-08-22 17:00 | İngiltere Championship | Wrexham - Watford | live | -
+- 2026-08-22 17:00 | Finlandiya Veikkausliiga | Ilves - Vaasa | live | -
+- 2026-08-22 17:00 | Finlandiya Veikkausliiga | Jaro - Oulu | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Mk Dons - Huddersfield | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Bromley - Cambridge | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Wigan - Leyton Orient | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Peterborough - Mansfield | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Afc Wimbledon - Reading | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Leicester - Burton Albion | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Stevenage - Oxford | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Stockport - Blackpool | live | -
+- 2026-08-22 17:00 | İngiltere 1.Lig | Wycombe - Plymouth | live | -
+- 2026-08-22 17:00 | Kuzey İrlanda Premiership | Dungannon - Bangor Fc | live | -
+- 2026-08-22 17:00 | Kuzey İrlanda Premiership | Carrick Ranger - Coleraine | live | -
+- 2026-08-22 17:00 | Belçika Challenger Pro Lig | Club Brugge Ii - Rfc Seraing | live | -
+- 2026-08-22 17:00 | Belçika Challenger Pro Lig | Dender - Beerschot-Wilri | live | -
+- 2026-08-22 17:00 | Mısır Premier Lig | El Geish - Al Mokawloon Al | live | -
+- 2026-08-22 17:00 | Norveç 1.Lig | Sandnes - Bryne | live | -
+- 2026-08-22 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ahli Dubai - Al Dhafra | live | -
+- 2026-08-22 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Ajman - Hatta Dubai | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Crewe - Northampton | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Rotherham - York | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Exeter - Accrington | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Port Vale - Tranmere | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Swindon - Cheltenham | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Shrewsbury - Barnet | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Rochdale - Crawley | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Fleetwood Town - Gillingham | live | -
+- 2026-08-22 17:00 | İngiltere 2.Lig | Colchester - Oldham | live | -
+- 2026-08-22 17:00 | İskoçya Championship | Queens Park - Stenhousemuir | live | -
+- 2026-08-22 17:00 | İskoçya Championship | Morton - Arbroath | live | -
+- 2026-08-22 17:00 | İskoçya Championship | Livingston - Dunfermline | live | -
+- 2026-08-22 17:00 | İskoçya Championship | Raith Rovers - Ayr Utd | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Vindbjart - Flekkeroy | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Flekkefjord - Start | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Lokomotiv Oslo - Grorud Il | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Gamle Oslo - Drobak/Frogn | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Baerum - Mjondalen | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Vag Fk - Egersunds | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Vard Haugesund - Haugesund | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Fana - Bjarg | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Eidsvold If - Fredrikstad | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Madla - Vidar | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Strindheim - Levanger | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Lorenskog - Moss | live | -
+- 2026-08-22 17:00 | Kuzey İrlanda Championship | Annagh United - Moyola Park | live | -
+- 2026-08-22 17:00 | Kuzey İrlanda Championship | Ards Fc - Loughgall Fc | live | -
+- 2026-08-22 17:00 | Kuzey İrlanda Championship | Queens Univers - Institute Fc | live | -
+- 2026-08-22 17:00 | Kuzey İrlanda Championship | Strabane Athle - Hw Welders | live | -
+- 2026-08-22 17:00 | Kuzey İrlanda Championship | Newington Yc - Rathfriland Ran | live | -
+- 2026-08-22 17:00 | İsviçre 1.Lig Promotion | Bavois - Bruhl | live | -
+- 2026-08-22 17:00 | İsviçre 1.Lig Promotion | Cham - Grand-Saconnex | live | -
+- 2026-08-22 17:00 | İskoçya 1.Lig | East Fife - Hamilton | live | -
+- 2026-08-22 17:00 | İskoçya 1.Lig | Cove Rangers - Peterhead | live | -
+- 2026-08-22 17:00 | İskoçya 1.Lig | Airdrieonians - Ross County | live | -
+- 2026-08-22 17:00 | İskoçya 1.Lig | Queen Of South - Alloa | live | -
+- 2026-08-22 17:00 | İskoçya 1.Lig | Montrose - East Kilbride | live | -
+- 2026-08-22 17:00 | İskoçya 2.Lig | Edinburg C. - Annan | live | -
+- 2026-08-22 17:00 | İskoçya 2.Lig | Spartans - Elgin | live | -
+- 2026-08-22 17:00 | İskoçya 2.Lig | Stirling Albio - Stranraer | live | -
+- 2026-08-22 17:00 | İskoçya 2.Lig | Clyde - Forfar | live | -
+- 2026-08-22 17:00 | İskoçya 2.Lig | Kelty Hearts - Dumbarton | live | -
+- 2026-08-22 17:00 | İzlanda 1.Lig | Hk Kopavogur - Throttur | live | -
+- 2026-08-22 17:00 | İzlanda 1.Lig | Fylkir - Grindavik | live | -
+- 2026-08-22 17:00 | Letonya Virsliga | Ogre United - Fs Jelgava | live | -
+- 2026-08-22 17:00 | Estonya Premium Lig | Tammeka Tartu - Kuressaare | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Chorley - Scarborough Ath | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Chester - Spalding United | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Lynn Town - Marine | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Worksop Town - Hereford Fc | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Buxton - Hebburn Town | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Macclesfield - Brackley Town | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Southport - Bedford Town | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Spennymoor - Oxford City | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Harborough Tow - Darlington 1883 | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Radcliffe Boro - Morecambe | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Gateshead(Sout - Merthyr Town | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Kuzey | Telford - Hednesford Town | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Dorking Wand. - Maidstone Unite | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Dagenham & Red - Torquay | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Braintree - Horsham | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Tonbridge Ange - Truro City | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Folkestone Inv - Chelmsford | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Maidenhead Utd - Farnborough | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Weston-S-Mare - Dover Athletic | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Salisbury - Hemel | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Farnham Town - Billericay Town | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Chesham United - Walton And Hers | live | -
+- 2026-08-22 17:00 | İngiltere Ulusal Lig N / S Güney | Hampton Richmo - Slough Town | live | -
+- 2026-08-22 17:00 | İsveç 2.Lig Södra Svealand | Ragsved - Sleipner | live | -
+- 2026-08-22 17:00 | Letonya 1.Lig | Tukums Ii - Jfk Ventspils | live | -
+- 2026-08-22 17:00 | İzlanda 2.Lig | Kfg Gardabar - Kormakur | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Leek Town - Bamber Bridge | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Stockton Town - Alfreton | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Hyde - Avro | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Lancaster City - Quorn | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | United Of Manc - Workington | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Rylands - Redcar Athletic | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Whitby Town - Warrington Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Ilkeston Town - Cleethorpes Tow | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Gainsborough T - Bury | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Curzon Ashton - Guiseley | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Kuzey | Afc Emley - Ashton United | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Chichester Cit - Chippenham Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Frome Town - Gosport Borough | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Hanworth Villa - Evesham United | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Basingstoke - Bath City | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Gloucester Cit - Hanwell | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Malvern Town - Wimborne Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Berkhamsted - Poole Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Plymouth Parkw - Havant And W. | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Sholing - Chertsey Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Uxbridge - Taunton Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney | Yate Town - Bracknell Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Stourbridge - Leiston | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Bury Town - Leamington | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Racing Club Wa - Hitchin Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Rushall Olympi - Banbury United | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Needham Market - Halesowen Town | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Worcester City - Stamford | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Redditch Unite - Bromsgrove Spor | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Kettering - Peterborough Sp | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Bishops Stortf - Alvechurch | live | -
+- 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Real Bedford - Stratford Town | live | -
+- 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Eik Toensberg - Honefoss | live | -
+- 2026-08-22 17:00 | Uruguay Premier Lig Clausura | Central Espano - Juventud Dl Pie | live | -
+- 2026-08-22 17:00 | Mısır Premier Lig | Asyut Petroleu - Petrojet | live | -
+- 2026-08-22 17:00 | Belarus 1.Lig | Smorgon - Ostrovets Fc | live | -
+- 2026-08-22 17:15 | Katar Yıldızlar Ligi | Al Duhail Sc - Al Sailiya | live | -
 
 ## Biten Maclar
 - 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
@@ -650,3 +610,43 @@ Yarin: 74
 - 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Hebei Kungfu | finished | -
 - 2026-08-22 14:35 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. - Shanghai Shenhu | finished | -
 - 2026-08-22 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Zhejiang G. Fc | finished | -
+- 2026-08-22 15:00 | Fransa Ligue 2 | Metz - Stade Lavallois | finished | -
+- 2026-08-22 15:00 | Fransa Ligue 2 | Nantes - Rodez Aveyron | finished | -
+- 2026-08-22 15:00 | Çin Halk Cumhuriyeti Süper Lig | Qingdao West C - Shandong Taisha | finished | -
+- 2026-08-22 15:00 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Yunnan Yukun | finished | -
+- 2026-08-22 15:00 | Finlandiya Ykkösliiga | Ekenas If - Kotka | finished | -
+- 2026-08-22 15:00 | Ukrayna Kupa 1.Tur | Inhulets - Veres Rivne | finished | -
+- 2026-08-22 15:00 | Norveç NM Kupası 1.Tur | Spjelkavik - Hodd | finished | -
+- 2026-08-22 15:00 | Norveç NM Kupası 1.Tur | Asker - Kvik Halden | finished | -
+- 2026-08-22 15:00 | Norveç NM Kupası 1.Tur | Nordstrand - Skeid | finished | -
+- 2026-08-22 15:00 | Finlandiya Ykkönen | Tampere Utd - Rops | finished | -
+- 2026-08-22 15:00 | Finlandiya Ykkönen | Inter Turku Ii - Tpv Tampere | finished | -
+- 2026-08-22 15:00 | Almanya Bölgesel Lig Batı | Fc Bocholt - Rödinghausen | finished | -
+- 2026-08-22 15:00 | Almanya Bölgesel Lig Güney Batı | Fsv Frankfurt - Astoria Walldor | finished | -
+- 2026-08-22 15:00 | Almanya Bölgesel Lig Güney Batı | Stuttgarter Ki - Freiburg Ii | finished | -
+- 2026-08-22 15:00 | Almanya Bölgesel Lig Güney Batı | Sandhausen - Homburg | finished | -
+- 2026-08-22 15:00 | İsviçre 1.Lig Promotion | Luzern Ii - Bulle | finished | -
+- 2026-08-22 15:00 | Letonya Virsliga | Super Nova - Bfc Daugavpils | finished | -
+- 2026-08-22 15:00 | İngiltere Premier Lig 2 | Arsenal U21 - Crystal Palace | finished | -
+- 2026-08-22 15:00 | Danimarka 2.Lig | Middelfart - Nykobing | finished | -
+- 2026-08-22 15:00 | Danimarka 2.Lig | Fa 2000 - Brabrand | finished | -
+- 2026-08-22 15:00 | Hollanda Kadınlar Eredivisie | Psv Eindhoven - Utrecht (K) | finished | -
+- 2026-08-22 15:00 | Almanya Kadınlar Bundesliga | Nürnberg (K) - Wolfsburg (K) | finished | -
+- 2026-08-22 15:00 | Danimarka 3.Lig | Sundby - Horsholm-Ussero | finished | -
+- 2026-08-22 15:00 | Danimarka 3.Lig | Frem - Asa Aarhus | finished | -
+- 2026-08-22 15:00 | Danimarka 3.Lig | Vanlose - Ringsted | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Norra Svealand | Bollstanas - Taby | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Vastra Götaland | Dalstorps If - Hestrafor | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Vastra Götaland | Astorp - Kongahalla | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Rappe - Österlen | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Oskarshamns Ai - Linero | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Nosaby If - Torns | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Södra Götaland | Karlskrona - Växjö Norra | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Norra Götaland | Grebbestads If - Stenungsund | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Norra Götaland | Skara - Ik Tord | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Norrland Yükselme Grubu | Taftea - Lucksta | finished | -
+- 2026-08-22 15:00 | İsveç 2.Lig Norrland Düşme Grubu | Friska Viljor - Storfors | finished | -
+- 2026-08-22 15:00 | Letonya 1.Lig | Valmieras Fk/B - Marupe | finished | -
+- 2026-08-22 15:00 | Litvanya 1.Lig | Bfa - Neptüna Klaiped | finished | -
+- 2026-08-22 15:00 | Litvanya 1.Lig | Fk Dainava - Atmosfera | finished | -
+- 2026-08-22 15:00 | Hollanda Tweede Divisie | Koninklijke Hf - Bvv Barendrecht | finished | -

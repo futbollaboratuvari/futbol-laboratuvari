@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T13:57:04.243460+00:00
+Tarih: 2026-08-22T14:23:38.788136+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 408
+- Kac mac bulundu: 275
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 408
+- Kac mac zaten vardi: 275
 - Ham veri havuzu toplam mac sayisi: 8546
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
@@ -40,7 +40,6 @@ Tarih: 2026-08-22T13:57:04.243460+00:00
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
 - Estonya Premium Lig
-- Finlandiya Veikkausliiga
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
@@ -61,7 +60,6 @@ Tarih: 2026-08-22T13:57:04.243460+00:00
 - Kuzey İrlanda Championship
 - Kuzey İrlanda Premiership
 - Letonya 1.Lig
-- Letonya Virsliga
 - Litvanya 1.Lig
 - Macaristan NB I
 - Macaristan NB II
@@ -71,7 +69,6 @@ Tarih: 2026-08-22T13:57:04.243460+00:00
 - Moldova Ulusal Lig
 - Mısır Premier Lig
 - Nikaragua Premier Lig Apertura
-- Norveç 1.Lig
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
@@ -98,19 +95,10 @@ Tarih: 2026-08-22T13:57:04.243460+00:00
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
 - Ürdün Süper Kupa Yarı Final
-- İngiltere 1.Lig
-- İngiltere 2.Lig
-- İngiltere Championship
 - İngiltere Non League Premier Güney
 - İngiltere Non League Premier Güney Merkez
-- İngiltere Non League Premier Kuzey
 - İngiltere Premier Lig
-- İngiltere Ulusal Lig N / S Güney
-- İngiltere Ulusal Lig N / S Kuzey
 - İrlanda 1.Lig
-- İskoçya 1.Lig
-- İskoçya 2.Lig
-- İskoçya Championship
 - İskoçya Premiership
 - İspanya 2.Lig
 - İspanya LaLiga
@@ -129,7 +117,6 @@ Tarih: 2026-08-22T13:57:04.243460+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda 1.Lig
-- İzlanda 2.Lig
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -201,26 +188,26 @@ Tarih: 2026-08-22T13:57:04.243460+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 22.08.2026 | 21:30 | Türkiye Süper Lig | Fenerbahçe | Konyaspor | 00524 | 5 |
 | 22.08.2026 | 19:00 | Türkiye Süper Lig | Rizespor | Samsunspor | 00412 | 5 |
 | 22.08.2026 | 19:00 | Türkiye Süper Lig | Çorum | Kasimpaşa | 00450 | 5 |
-| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Ümraniyespor | Esenler Erokspo | 02622 | 5 |
-| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bodrum Fk | Muğlaspor | 02799 | 5 |
-| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Iğdır Fk | Kayserispor | 01881 | 5 |
+| 22.08.2026 | 21:30 | Türkiye Süper Lig | Fenerbahçe | Konyaspor | 00524 | 5 |
 | 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Antalyaspor | Pendikspor | 02718 | 5 |
+| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Iğdır Fk | Kayserispor | 01881 | 5 |
+| 22.08.2026 | 21:30 | Türkiye TFF 1. Lig | Bodrum Fk | Muğlaspor | 02799 | 5 |
+| 22.08.2026 | 19:00 | Türkiye TFF 1. Lig | Ümraniyespor | Esenler Erokspo | 02622 | 5 |
 | 22.08.2026 | 19:30 | İngiltere Premier Lig | Brentford | Tottenham | 37716 | 5 |
-| 22.08.2026 | 17:00 | İngiltere Premier Lig | Ipswich | Sunderland | 36330 | 5 |
-| 22.08.2026 | 17:00 | İngiltere Premier Lig | Nottingham F | Leeds Utd | 36565 | 5 |
-| 22.08.2026 | 17:00 | İngiltere Premier Lig | Everton | Crystal Palace | 11755 | 5 |
-| 22.08.2026 | 20:30 | İspanya LaLiga | Valencia | Celta Vigo | 38302 | 5 |
-| 22.08.2026 | 18:00 | İspanya LaLiga | Athletic Bilba | Sevilla | 38070 | 5 |
 | 22.08.2026 | 22:30 | İspanya LaLiga | Espanyol | Real Madrid | 38418 | 5 |
-| 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
+| 22.08.2026 | 18:00 | İspanya LaLiga | Athletic Bilba | Sevilla | 38070 | 5 |
+| 22.08.2026 | 20:30 | İspanya LaLiga | Valencia | Celta Vigo | 38302 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
 | 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
+| 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Toulouse | Lyon | 40686 | 5 |
+| 22.08.2026 | 21:45 | Fransa Ligue 1 | Nice | Lorient | 40570 | 5 |
+| 22.08.2026 | 18:15 | Fransa Ligue 1 | Lens | Auxerre | 40205 | 5 |
+| 22.08.2026 | 21:45 | Fransa Ligue 1 | Troyes | Paris Fc | 40792 | 5 |
 
 ## Sonuc
 
