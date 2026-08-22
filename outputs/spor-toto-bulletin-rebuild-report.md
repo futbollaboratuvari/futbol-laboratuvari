@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-22T11:34:14.991Z
-- Ham fixture sayisi: 8499
-- Bugun/yarin kaynak mac: 631
-- Aktif bulten maci: 484
+- Guncelleme: 2026-08-22T12:40:57.166Z
+- Ham fixture sayisi: 8501
+- Bugun/yarin kaynak mac: 633
+- Aktif bulten maci: 437
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 147
+- Bultenden dusurulen mac: 196
 
-- 1. 2026-08-22 14:35 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. - Shanghai Shenhu | scheduled
-- 2. 2026-08-22 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Zhejiang G. Fc | scheduled
-- 3. 2026-08-22 15:00 | İngiltere Premier Lig 2 | Arsenal U21 - Crystal Palace | scheduled
-- 4. 2026-08-22 15:00 | Norveç NM Kupası 1.Tur | Asker - Kvik Halden | scheduled
-- 5. 2026-08-22 15:00 | İsveç 2.Lig Vastra Götaland | Astorp - Kongahalla | scheduled
-- 6. 2026-08-22 15:00 | Çin Halk Cumhuriyeti Süper Lig | Beijing Guoan - Yunnan Yukun | scheduled
-- 7. 2026-08-22 15:00 | Litvanya 1.Lig | Bfa - Neptüna Klaiped | scheduled
-- 8. 2026-08-22 15:00 | İsveç 2.Lig Norra Svealand | Bollstanas - Taby | scheduled
-- 9. 2026-08-22 15:00 | İsveç 2.Lig Vastra Götaland | Dalstorps If - Hestrafor | scheduled
-- 10. 2026-08-22 15:00 | Finlandiya Ykkösliiga | Ekenas If - Kotka | scheduled
-- 11. 2026-08-22 15:00 | Danimarka 2.Lig | Fa 2000 - Brabrand | scheduled
-- 12. 2026-08-22 15:00 | Almanya Bölgesel Lig Batı | Fc Bocholt - Rödinghausen | scheduled
-- 13. 2026-08-22 15:00 | Litvanya 1.Lig | Fk Dainava - Atmosfera | scheduled
-- 14. 2026-08-22 15:00 | Danimarka 3.Lig | Frem - Asa Aarhus | scheduled
-- 15. 2026-08-22 15:00 | İsveç 2.Lig Norrland Düşme Grubu | Friska Viljor - Storfors | scheduled
+- 1. 2026-08-22 15:45 | Polonya Ekstraklasa | Korona Kielce - Motor Lublin | scheduled
+- 2. 2026-08-22 16:00 | Norveç NM Kupası 1.Tur | Ff Lillehammer - Strommen | scheduled
+- 3. 2026-08-22 16:00 | İsveç 2.Lig Södra Götaland | Ifk Berga - Staffanstorp Un | scheduled
+- 4. 2026-08-22 16:00 | Hollanda Tweede Divisie | Ijsselmeervoge - Quick Boys | scheduled
+- 5. 2026-08-22 16:00 | Hollanda Tweede Divisie | Katwijk - Hoek Hsv | scheduled
+- 6. 2026-08-22 16:00 | Malezya Süper Lig | Kelantan Red W - Selangor Fa | scheduled
+- 7. 2026-08-22 16:00 | Ukrayna Kupa 1.Tur | Nyva Vinnytsia - Rukh Vynnyky | scheduled
+- 8. 2026-08-22 16:00 | İsveç Allsvenskan | Orgryte - Halmstads | scheduled
+- 9. 2026-08-22 16:00 | Norveç NM Kupası 1.Tur | Rade - Follo | scheduled
+- 10. 2026-08-22 16:00 | Finlandiya Ykkönen | Salpa Salo - Oulun Ls | scheduled
+- 11. 2026-08-22 16:00 | Güney Afrika 8 Kupası Yarı Final | Sekhukhune Uni - Orlando Pirates | scheduled
+- 12. 2026-08-22 16:00 | Belarus Premier Lig | Slavia Mozyr - Gomel | scheduled
+- 13. 2026-08-22 16:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Angby | scheduled
+- 14. 2026-08-22 16:00 | AFF Şampiyonası Final | Tayland - Vietnam | scheduled
+- 15. 2026-08-22 16:00 | Malezya Süper Lig | Terengganu - Melaka | scheduled
