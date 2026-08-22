@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 01:00:51
+Oluşturma: 23.08.2026 01:14:01
 
 ## Özet
 
-- Toplam tahmin: 553
-- Bekleyen tahmin: 553
+- Toplam tahmin: 746
+- Bekleyen tahmin: 746
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 135
+- Lig sayısı: 147
 - Seçenek sayısı: 4
 
 ## Öğrenme Mantığı
@@ -20,26 +20,26 @@ Oluşturma: 23.08.2026 01:00:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 137, bekleyen 137, başarı bekleniyor, ağırlık 1
-- MS X: toplam 226, bekleyen 226, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 225, bekleyen 225, başarı bekleniyor, ağırlık 1
+- MS X: toplam 324, bekleyen 324, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 31, bekleyen 31, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-23 | Bolivya Premier Lig | Aurora - Real Potosi | MS 2 | pending | 50/100
-- 2026-08-23 | Brezilya Serie A | Internacional - Atletico Mg | MS 2 | pending | 40/100
-- 2026-08-23 | Şili Premier Lig | Huachipato - Deportes Limach | MS X | pending | 50/100
-- 2026-08-23 | İspanya LaLiga | Elche - Barcelona | MS X | pending | 40/100
-- 2026-08-23 | İspanya 2.Lig | Tenerife - Almeria | MS X | pending | 40/100
-- 2026-08-23 | Kanada Premier Lig | Inter Toronto - Supra Du Quebec | MS X | pending | 60/100
-- 2026-08-23 | ABD MLS | New England - New York City | MS X | pending | 50/100
-- 2026-08-23 | Peru Premier Lig Clausura | Melgar - Alianza Lima | MS 2 | pending | 40/100
-- 2026-08-23 | Brezilya Serie B | Ceara - Londrina | MS 2 | pending | 40/100
-- 2026-08-23 | Guatemala Ulusal Lig Apertura | Aurora - Suchitepequez | MS 2 | pending | 40/100
-- 2026-08-23 | El Salvador Primera Lig Apertura | Cacahuatique - Municipal Limen | MS X | pending | 40/100
-- 2026-08-23 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | MS X | pending | 40/100
-- 2026-08-23 | Kolombiya Primera A Clausura | Rionegro Aguil - Los Millionario | Güncel maç değil | pending | 30/100
-- 2026-08-23 | Peru Premier Lig Clausura | Juan Pablo Ii - Adt | Güncel maç değil | pending | 40/100
-- 2026-08-23 | Kanada Premier Lig | Cavalry - Atletico Ottawa | Güncel maç değil | pending | 50/100
+- 2026-08-23 | Fransa Ligue 1 | Rennes - Psg | MS 1 | pending | 55/100
+- 2026-08-23 | İtalya Serie B | Palermo - Juve Stabia | MS 2 | pending | 50/100
+- 2026-08-23 | İtalya Serie B | Cesena - Sampdoria | MS X | pending | 40/100
+- 2026-08-23 | Sırbistan Süper Lig | Vojvodina - Zeleznicar Panc | MS 2 | pending | 60/100
+- 2026-08-23 | Brezilya Serie A | Bragantino - Gremio | MS 2 | pending | 50/100
+- 2026-08-23 | Brezilya Serie A | Palmeiras - Vasco Da Gama | MS 2 | pending | 60/100
+- 2026-08-23 | Brezilya Serie A | Vitoria Bahia - Bahia | MS X | pending | 50/100
+- 2026-08-23 | İtalya Serie C Grup A | Trento Calcio - Treviso | MS 2 | pending | 50/100
+- 2026-08-23 | İtalya Serie C Grup B | Perugia - Ostia Mare Lido | MS 2 | pending | 40/100
+- 2026-08-23 | Hırvatistan 1.HNL | Hajduk Split - Osijek | MS X | pending | 50/100
+- 2026-08-23 | Kolombiya Primera A Clausura | Fortaleza - Atletico Nacion | MS 1 | pending | 40/100
+- 2026-08-23 | Şili Premier Lig | Univ. De Şili - Colo Colo | MS X | pending | 50/100
+- 2026-08-23 | Brezilya Serie B | Sao Bernardo - Nautico | MS 2 | pending | 40/100
+- 2026-08-23 | Bosna-Hersek Premier Lig | Borac Banja Lu - Celik | MS X | pending | 75/100
+- 2026-08-23 | Almanya Kadınlar Bundesliga | Hamburger Sv ( - Freiburg (K) | MS X | pending | 50/100
 

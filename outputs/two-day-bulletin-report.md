@@ -3,15 +3,14 @@
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
 Ham mac: 348
-Aktif mac: 335
-Canli mac: 13
+Aktif mac: 334
+Canli mac: 14
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 304
+Bultenden dusurulen mac: 14
+Bugun: 303
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 01:00 | Venezuela Premier Lig Clausura | Metropolitanos - Depor Tachira | scheduled | -
 - 2026-08-23 01:30 | ABD USL | Loudoun United - New Mexico Unit | scheduled | -
 - 2026-08-23 02:00 | Kosta Rika Premier Lig Apertura | Liberia - Cs Cartagines | scheduled | -
 - 2026-08-23 02:00 | Kanada Premier Lig | Forge - Pacific Fc | scheduled | -
@@ -361,6 +360,7 @@ Yarin: 31
 - 2026-08-23 00:30 | Brezilya Serie B | Cuiaba - Goias | live | -
 - 2026-08-23 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Penarol | live | -
 - 2026-08-23 00:30 | Ekvador Pro Lig | T.Universitari - Guayaquil City | live | -
+- 2026-08-23 01:00 | Venezuela Premier Lig Clausura | Metropolitanos - Depor Tachira | live | -
 
 ## Biten Maclar
 Biten mac yok.
