@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T12:45:33.710Z
+- Güncelleme: 2026-08-22T13:04:55.827Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -115,7 +115,7 @@
 | Gvvv VS Afc Amsterdamsc | Hollanda Tweede Divisie | 15:30 | MS X | 3.21 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Hhc VS Jong Almere Cit | Hollanda Tweede Divisie | 15:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Super Nova VS Bfc Daugavpils | Letonya Virsliga | 15:30 | MS 1 | 3.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Korona Kielce VS Motor Lublin | Polonya Ekstraklasa | 15:45 | MS 2 | 3.58 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Korona Kielce VS Motor Lublin | Polonya Ekstraklasa | 15:45 | MS 2 | 3.58 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Orgryte VS Halmstads | İsveç Allsvenskan | 16:00 | MS X | 3.38 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Tayland VS Vietnam | AFF Şampiyonası Final | 16:00 | Değerli market yok | - | 5 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Vizela VS Amarante Fc | Portekiz 2.Lig | 16:00 | MS 2 | 3.40 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
