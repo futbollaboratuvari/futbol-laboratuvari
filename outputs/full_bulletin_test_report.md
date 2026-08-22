@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 146
-- Live match count: 82
-- Finished removed count: 1
+- Scheduled match count: 142
+- Live match count: 86
+- Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
 - 2026-08-22 18:30 | Bregenz - Strum Graz Ii | live
