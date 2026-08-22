@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T07:30:41.954Z
+- Güncelleme: 2026-08-22T07:52:54.559Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -25,7 +25,7 @@
 | Perth VS Sorrento | Avustralya NPL Batı Avustralya | 10:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Unsw Fc VS Manly United | Avustralya NPL Yeni Güney Galler | 10:15 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Dandenong Thun VS Oakleigh Cannon | Avustralya NPL Victoria | 10:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Nws Spirit VS Sd Raiders | Avustralya NPL Yeni Güney Galler | 10:30 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Nws Spirit VS Sd Raiders | Avustralya NPL Yeni Güney Galler | 10:30 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Vanraure VS Sendai | Japonya J2 Lig | 11:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sd Rsa VS Hong Kong Fc | Hong Kong Premier Lig | 11:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Altona City VS Eastern Lions | Avustralya Victoria NPL 2 | 11:15 | MS 1 | 3.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
