@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-08-22T21:37:17.118Z",
+  "updated_at": "2026-08-22T21:40:36.935Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 541,
-    "pending_predictions": 541,
+    "total_predictions": 553,
+    "pending_predictions": 553,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
-    "league_count": 130,
+    "league_count": 135,
     "market_count": 4,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 12,
+    "updated_predictions": 0,
+    "last_score_link_checked": 553,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "Güncel maç değil": {
-      "total": 159,
-      "pending": 159,
+    "MS 2": {
+      "total": 137,
+      "pending": 137,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -27,8 +31,8 @@
       "confidence_adjustment": 0
     },
     "MS X": {
-      "total": 219,
-      "pending": 219,
+      "total": 226,
+      "pending": 226,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -36,9 +40,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 2": {
-      "total": 132,
-      "pending": 132,
+    "Güncel maç değil": {
+      "total": 159,
+      "pending": 159,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -58,9 +62,9 @@
     }
   },
   "league_memory": {
-    "Kolombiya Primera A Clausura": {
-      "total": 2,
-      "pending": 2,
+    "Bolivya Premier Lig": {
+      "total": 3,
+      "pending": 3,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -68,7 +72,37 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Peru Premier Lig Clausura": {
+    "Brezilya Serie A": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Premier Lig": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "İspanya LaLiga": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "İspanya 2.Lig": {
       "total": 7,
       "pending": 7,
       "won": 0,
@@ -79,8 +113,78 @@
       "confidence_adjustment": 0
     },
     "Kanada Premier Lig": {
-      "total": 4,
-      "pending": 4,
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD MLS": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Peru Premier Lig Clausura": {
+      "total": 8,
+      "pending": 8,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Guatemala Ulusal Lig Apertura": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "El Salvador Primera Lig Apertura": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Venezuela Premier Lig Clausura": {
+      "total": 8,
+      "pending": 8,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kolombiya Primera A Clausura": {
+      "total": 2,
+      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -101,16 +205,6 @@
     "Sırbistan Süper Lig": {
       "total": 6,
       "pending": 6,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie A": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -188,16 +282,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Bolivya Premier Lig": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Malta Premier Lig Açılış": {
       "total": 3,
       "pending": 3,
@@ -208,39 +292,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "İspanya LaLiga": {
-      "total": 4,
-      "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Portekiz Premier Lig": {
       "total": 4,
       "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "İspanya 2.Lig": {
-      "total": 6,
-      "pending": 6,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Venezuela Premier Lig Clausura": {
-      "total": 7,
-      "pending": 7,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -1360,6 +1414,126 @@
     }
   },
   "league_market_memory": {
+    "Bolivya Premier Lig :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Şili Premier Lig :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "İspanya LaLiga :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "İspanya 2.Lig :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Kanada Premier Lig :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "ABD MLS :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Peru Premier Lig Clausura :: MS 2": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Guatemala Ulusal Lig Apertura :: MS 2": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "El Salvador Primera Lig Apertura :: MS X": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Venezuela Premier Lig Clausura :: MS X": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Kolombiya Primera A Clausura :: Güncel maç değil": {
       "total": 1,
       "pending": 1,
@@ -2390,16 +2564,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Peru Premier Lig Clausura :: MS 2": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Suudi Arabistan Pro Lig :: MS X": {
       "total": 4,
       "pending": 4,
@@ -2610,16 +2774,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Brezilya Serie A :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "İtalya Serie C Grup B :: MS 2": {
       "total": 1,
       "pending": 1,
@@ -2663,16 +2817,6 @@
     "Portekiz 3.Lig Grup A :: MS X": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Venezuela Premier Lig Clausura :: MS X": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -2780,16 +2924,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "İspanya LaLiga :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Suudi Arabistan 1.Lig :: MS X": {
       "total": 2,
       "pending": 2,
@@ -2813,16 +2947,6 @@
     "Belçika Challenger Pro Lig :: MS X": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Kanada Premier Lig :: MS X": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -3043,16 +3167,6 @@
     "Portekiz Premier Lig :: MS 2": {
       "total": 2,
       "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "İspanya 2.Lig :: MS X": {
-      "total": 1,
-      "pending": 1,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -4022,6 +4136,210 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-08-23|bolivya premier lig|aurora real potosi|ms 2|00 15",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "Aurora - Real Potosi",
+      "league": "Bolivya Premier Lig",
+      "start_time": "00:15",
+      "market": "MS 2",
+      "odds": "3.85",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|brezilya serie a|internacional atletico mg|ms 2|00 30",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "Internacional - Atletico Mg",
+      "league": "Brezilya Serie A",
+      "start_time": "00:30",
+      "market": "MS 2",
+      "odds": "3.88",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|sili premier lig|huachipato deportes limach|ms x|00 30",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "Huachipato - Deportes Limach",
+      "league": "Şili Premier Lig",
+      "start_time": "00:30",
+      "market": "MS X",
+      "odds": "3.10",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|ispanya laliga|elche barcelona|ms x|22 30",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "Elche - Barcelona",
+      "league": "İspanya LaLiga",
+      "start_time": "22:30",
+      "market": "MS X",
+      "odds": "5.15",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|ispanya 2 lig|tenerife almeria|ms x|22 30",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "Tenerife - Almeria",
+      "league": "İspanya 2.Lig",
+      "start_time": "22:30",
+      "market": "MS X",
+      "odds": "2.86",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|kanada premier lig|inter toronto supra du quebec|ms x|23 00",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "Inter Toronto - Supra Du Quebec",
+      "league": "Kanada Premier Lig",
+      "start_time": "23:00",
+      "market": "MS X",
+      "odds": "3.20",
+      "confidence_score": "60%",
+      "analysis_score": 60,
+      "risk_level": "Orta",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|abd mls|new england new york city|ms x|23 30",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "New England - New York City",
+      "league": "ABD MLS",
+      "start_time": "23:30",
+      "market": "MS X",
+      "odds": "3.24",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|peru premier lig clausura|melgar alianza lima|ms 2|23 30",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.037Z",
+      "match_name": "Melgar - Alianza Lima",
+      "league": "Peru Premier Lig Clausura",
+      "start_time": "23:30",
+      "market": "MS 2",
+      "odds": "3.40",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|brezilya serie b|ceara londrina|ms 2|00 00",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.036Z",
+      "match_name": "Ceara - Londrina",
+      "league": "Brezilya Serie B",
+      "start_time": "00:00",
+      "market": "MS 2",
+      "odds": "3.41",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|guatemala ulusal lig apertura|aurora suchitepequez|ms 2|00 00",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.036Z",
+      "match_name": "Aurora - Suchitepequez",
+      "league": "Guatemala Ulusal Lig Apertura",
+      "start_time": "00:00",
+      "market": "MS 2",
+      "odds": "3.82",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|el salvador primera lig apertura|cacahuatique municipal limen|ms x|00 00",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.036Z",
+      "match_name": "Cacahuatique - Municipal Limen",
+      "league": "El Salvador Primera Lig Apertura",
+      "start_time": "00:00",
+      "market": "MS X",
+      "odds": "2.82",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-23|venezuela premier lig clausura|monagas portuguesa|ms x|00 00",
+      "date": "2026-08-23",
+      "created_at": "2026-08-22T21:40:35.036Z",
+      "match_name": "Monagas - Portuguesa",
+      "league": "Venezuela Premier Lig Clausura",
+      "start_time": "00:00",
+      "market": "MS X",
+      "odds": "2.91",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
     {
       "id": "2026-08-23|kolombiya primera a clausura|rionegro aguil los millionario|guncel mac degil|23 30",
       "date": "2026-08-23",
