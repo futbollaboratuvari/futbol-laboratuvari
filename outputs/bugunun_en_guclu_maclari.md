@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T22:56:24.337Z
+- Güncelleme: 2026-08-22T23:08:06.612Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -26,16 +26,16 @@
 | T.Universitari VS Guayaquil City | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Metropolitanos VS Depor Tachira | Venezuela Premier Lig Clausura | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Loudoun United VS New Mexico Unit | ABD USL | 01:30 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Liberia VS Cs Cartagines | Kosta Rika Premier Lig Apertura | 02:00 | MS X | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Forge VS Pacific Fc | Kanada Premier Lig | 02:00 | MS X | 5.08 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Detroit City VS Tampa Bay Rowdi | ABD USL | 02:00 | MS X | 2.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Lexington VS Las Vegas Light | ABD USL | 02:00 | MS 2 | 4.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Indy Eleven VS Louisville City | ABD USL | 02:00 | MS X | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Brooklyn VS Pittsburgh Rive | ABD USL | 02:00 | MS X | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Managua VS Export Sebaco | Nikaragua Premier Lig Apertura | 02:00 | MS 2 | 4.21 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Chattanooga Re VS New York Cosmos | ABD USL Lig 1 | 02:00 | MS 2 | 3.89 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Union Omaha VS Sarasota Paradi | ABD USL Lig 1 | 02:00 | MS 2 | 4.92 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Richmond Kicke VS Portland Hearts | ABD USL Lig 1 | 02:00 | MS X | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Liberia VS Cs Cartagines | Kosta Rika Premier Lig Apertura | 02:00 | MS X | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Forge VS Pacific Fc | Kanada Premier Lig | 02:00 | MS X | 5.08 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
+| Detroit City VS Tampa Bay Rowdi | ABD USL | 02:00 | MS X | 2.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Lexington VS Las Vegas Light | ABD USL | 02:00 | MS 2 | 4.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Indy Eleven VS Louisville City | ABD USL | 02:00 | MS X | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Brooklyn VS Pittsburgh Rive | ABD USL | 02:00 | MS X | 2.78 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Managua VS Export Sebaco | Nikaragua Premier Lig Apertura | 02:00 | MS 2 | 4.21 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Chattanooga Re VS New York Cosmos | ABD USL Lig 1 | 02:00 | MS 2 | 3.89 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Union Omaha VS Sarasota Paradi | ABD USL Lig 1 | 02:00 | MS 2 | 4.92 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
+| Richmond Kicke VS Portland Hearts | ABD USL Lig 1 | 02:00 | MS X | 3.27 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Guadalajara VS Club Tijuana | Meksika Liga MX Apertura | 02:07 | MS 2 | 5.28 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Santa Fe VS America De Cali | Kolombiya Primera A Clausura | 02:10 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Estrella Roja VS Juticalpa | Honduras Ulusal Lig Apertura | 02:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
