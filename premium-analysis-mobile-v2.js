@@ -18,12 +18,13 @@
     const [lead = "", ...details] = String(text || "").split(" · ");
     const [leagueTime = "", teams = ""] = lead.split(" | ");
     const divider = leagueTime.lastIndexOf(" — ");
+    const singleBulletinFormat = divider === -1 && teams;
     return {
-      league: divider > -1 ? leagueTime.slice(0, divider) : "Maç",
-      time: divider > -1 ? leagueTime.slice(divider + 3) : "--:--",
+      league: singleBulletinFormat ? (details[0] || "Futbol Bülteni") : (divider > -1 ? leagueTime.slice(0, divider) : "Maç"),
+      time: singleBulletinFormat ? leagueTime.trim() : (divider > -1 ? leagueTime.slice(divider + 3) : "--:--"),
       teams: teams || lead,
-      market: details[0] || "Robot analizi bekleniyor",
-      score: details[1] || ""
+      market: singleBulletinFormat ? (details[1] || "Analiz bekleniyor") : (details[0] || "Analiz bekleniyor"),
+      score: singleBulletinFormat ? (details[2] || "") : (details[1] || "")
     };
   };
 
@@ -54,7 +55,7 @@
   };
 
   const buildMatchCards = (panel) => {
-    const select = panel.querySelector("[data-pa-match]");
+    const select = panel.querySelector("[data-pa-match], [data-single-match]");
     if (!select || select.nextElementSibling?.classList.contains("pa-v2-match-list")) return;
     const list = document.createElement("div");
     list.className = "pa-v2-match-list";
@@ -62,8 +63,9 @@
     list.setAttribute("aria-label", "Maç seçimi");
 
     const render = () => {
-      list.innerHTML = Array.from(select.options)
-        .filter((option) => option.value !== "")
+      const options = Array.from(select.options).filter((option) => option.value !== "");
+      const visibleOptions = options.slice(0, 100);
+      list.innerHTML = visibleOptions
         .map((option) => {
           const item = parseOption(option.textContent);
           return `<button class="pa-v2-match${option.selected ? " selected" : ""}" type="button" data-pa-v2-option="${esc(option.value)}" aria-pressed="${option.selected}" ${select.disabled ? "disabled" : ""}>
@@ -74,6 +76,9 @@
             </span><span class="pa-v2-check" aria-hidden="true">✓</span>
           </button>`;
         }).join("") || `<p class="pa-small">Filtreye uygun maç bulunamadı.</p>`;
+      if (options.length > visibleOptions.length) {
+        list.insertAdjacentHTML("beforeend", `<p class="pa-small">İlk 100 maç gösteriliyor. Aradığın maçı bulmak için arama alanını kullan.</p>`);
+      }
     };
 
     render();
@@ -99,7 +104,24 @@
 
   const buildMarketGroups = (panel) => {
     const grid = panel.querySelector(".pa-market-grid");
-    if (!grid || grid.previousElementSibling?.classList.contains("pa-v2-category-tabs")) return;
+    if (!grid) return;
+    const marketName = (button) => button.dataset.paMarket || button.dataset.singleMarket || button.textContent.trim();
+    const belongsTo = (name, key) => {
+      if (key === "robot") return /robot|analiz sistemi önerisi/i.test(name);
+      if (key === "result") return /^(MS|HND)/i.test(name) && !/(üst|ust|alt|gol|kg)/i.test(name);
+      if (key === "goals") return /(üst|ust|alt|gol|kg|şut|sut)/i.test(name) && !/^(1Y|2Y|IY|İY)/i.test(name);
+      return !belongsTo(name, "robot") && !belongsTo(name, "result") && !belongsTo(name, "goals");
+    };
+    const showGroup = (key) => {
+      panel.dataset.paV2Group = key;
+      grid.querySelectorAll(".pa-market").forEach((button) => { button.hidden = !belongsTo(marketName(button), key); });
+      panel.querySelectorAll("[data-pa-v2-group]").forEach((button) => button.classList.toggle("active", button.dataset.paV2Group === key));
+      setStep(panel, 2);
+    };
+    if (grid.previousElementSibling?.classList.contains("pa-v2-category-tabs")) {
+      showGroup(panel.dataset.paV2Group || "robot");
+      return;
+    }
     const tabs = document.createElement("div");
     tabs.className = "pa-v2-category-tabs";
     tabs.innerHTML = [
@@ -107,12 +129,6 @@
     ].map(([key, label], index) => `<button type="button" class="pa-v2-category${index === 0 ? " active" : ""}" data-pa-v2-group="${key}">${label}</button>`).join("");
     grid.before(tabs);
 
-    const showGroup = (key) => {
-      const allowed = new Set(groups[key] || []);
-      grid.querySelectorAll("[data-pa-market]").forEach((button) => { button.hidden = !allowed.has(button.dataset.paMarket); });
-      tabs.querySelectorAll("[data-pa-v2-group]").forEach((button) => button.classList.toggle("active", button.dataset.paV2Group === key));
-      setStep(panel, 2);
-    };
     tabs.addEventListener("click", (event) => {
       const button = event.target.closest("[data-pa-v2-group]");
       if (button) showGroup(button.dataset.paV2Group);
@@ -121,18 +137,17 @@
   };
 
   const addStickySummary = (panel) => {
-    const analyze = panel.querySelector("[data-pa-analyze]");
-    const count = panel.querySelector("[data-pa-count]");
+    const analyze = panel.querySelector("[data-pa-analyze], [data-single-analyze]");
     if (!analyze || analyze.previousElementSibling?.classList.contains("pa-v2-selection-summary")) return;
     const summary = document.createElement("div");
     summary.className = "pa-v2-selection-summary";
     const update = () => {
-      const selected = panel.querySelector("[data-pa-match]")?.selectedOptions.length || 0;
+      const selected = panel.querySelector("[data-pa-match], [data-single-match]")?.selectedOptions.length || 0;
       const remaining = panel.querySelectorAll(".pa-state strong")[1]?.textContent || "—";
       summary.innerHTML = `${selected} maç seçildi · <b>${esc(remaining)} hak kaldı</b>`;
     };
     analyze.before(summary);
-    panel.querySelector("[data-pa-match]")?.addEventListener("change", update);
+    panel.querySelector("[data-pa-match], [data-single-match]")?.addEventListener("change", update);
     update();
     analyze.textContent = "Özel Analizi Oluştur";
     analyze.addEventListener("click", () => {
@@ -142,7 +157,7 @@
   };
 
   const enhance = (panel) => {
-    if (!panel || (panel.getAttribute(ENHANCED) === "1" && panel.querySelector(".pa-v2-steps"))) return;
+    if (!panel) return;
     panel.setAttribute(ENHANCED, "1");
     panel.classList.add("pa-v2");
     const title = panel.querySelector(".pa-title");
