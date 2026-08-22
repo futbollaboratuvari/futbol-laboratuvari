@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-22T04:28:09.433Z",
+  "generated_at": "2026-08-22T08:20:15.899Z",
   "date": "2026-08-22",
   "source_count": 8,
-  "match_count": 10,
+  "match_count": 17,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
-      "match_name": "Club Leon VS Monterrey",
-      "league": "Meksika Liga MX Apertura",
-      "start_time": "04:00",
+      "match_name": "Playford City VS White City Wood",
+      "league": "Avustralya NPL Güney Avustralya Eleme Final",
+      "start_time": "08:30",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "match_name": "Tigres Uanl VS Atlante",
-      "league": "Meksika Liga MX Apertura",
-      "start_time": "04:00",
+      "match_name": "Sapporo VS Omiya",
+      "league": "Japonya J2 Lig",
+      "start_time": "09:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -108,9 +108,9 @@
       ]
     },
     {
-      "match_name": "Puntarenas Fc VS Perez Zeledon",
-      "league": "Kosta Rika Premier Lig Apertura",
-      "start_time": "04:00",
+      "match_name": "Sutherland Sha VS St George City",
+      "league": "Avustralya NPL Yeni Güney Galler",
+      "start_time": "09:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -159,9 +159,9 @@
       ]
     },
     {
-      "match_name": "Depor Motagua VS Upnfm",
-      "league": "Honduras Ulusal Lig Apertura",
-      "start_time": "04:00",
+      "match_name": "Hume City VS Caroline S.",
+      "league": "Avustralya NPL Victoria",
+      "start_time": "09:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -210,9 +210,9 @@
       ]
     },
     {
-      "match_name": "Inter Fa VS Inca-Aruba",
-      "league": "El Salvador Primera Lig Apertura",
-      "start_time": "04:00",
+      "match_name": "St. George Sai VS Blacktown City",
+      "league": "Avustralya U20 NSW NPL 1",
+      "start_time": "09:30",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -261,9 +261,9 @@
       ]
     },
     {
-      "match_name": "Fc Juarez VS Club America",
-      "league": "Meksika Liga MX Apertura",
-      "start_time": "06:00",
+      "match_name": "Dandenong City VS Preston Lions",
+      "league": "Avustralya NPL Victoria",
+      "start_time": "10:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -312,9 +312,9 @@
       ]
     },
     {
-      "match_name": "Ca La Paz VS Cruz Azul Hidal",
-      "league": "Meksika Ascenso MX Apertura",
-      "start_time": "06:00",
+      "match_name": "Olympic Kingsw VS Fremantle City",
+      "league": "Avustralya NPL Batı Avustralya",
+      "start_time": "10:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -363,9 +363,9 @@
       ]
     },
     {
-      "match_name": "Queretaro VS Toluca",
-      "league": "Meksika Liga MX Apertura",
-      "start_time": "06:10",
+      "match_name": "Stirling Lions VS Western Knights",
+      "league": "Avustralya NPL Batı Avustralya",
+      "start_time": "10:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -414,9 +414,9 @@
       ]
     },
     {
-      "match_name": "Fc Juarez VS Club America",
-      "league": "Meksika Liga MX Apertura",
-      "start_time": "06:10",
+      "match_name": "Balcatta VS Dianella White",
+      "league": "Avustralya NPL Batı Avustralya",
+      "start_time": "10:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -465,9 +465,366 @@
       ]
     },
     {
-      "match_name": "Port Melbourne VS Eltham Redbacks",
-      "league": "Avustralya Victoria NPL 1",
-      "start_time": "07:00",
+      "match_name": "Bayswater City VS Perth Glory Ii",
+      "league": "Avustralya NPL Batı Avustralya",
+      "start_time": "10:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Armadale VS Perth Redstar F",
+      "league": "Avustralya NPL Batı Avustralya",
+      "start_time": "10:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Perth VS Sorrento",
+      "league": "Avustralya NPL Batı Avustralya",
+      "start_time": "10:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Unsw Fc VS Manly United",
+      "league": "Avustralya NPL Yeni Güney Galler",
+      "start_time": "10:15",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Dandenong Thun VS Oakleigh Cannon",
+      "league": "Avustralya NPL Victoria",
+      "start_time": "10:15",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Nws Spirit VS Sd Raiders",
+      "league": "Avustralya NPL Yeni Güney Galler",
+      "start_time": "10:30",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Vanraure VS Sendai",
+      "league": "Japonya J2 Lig",
+      "start_time": "11:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Sd Rsa VS Hong Kong Fc",
+      "league": "Hong Kong Premier Lig",
+      "start_time": "11:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
