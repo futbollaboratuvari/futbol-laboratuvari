@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 582
-- Live match count: 15
-- Finished removed count: 1
+- Scheduled match count: 561
+- Live match count: 28
+- Finished removed count: 9
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 10:00 | Armadale - Perth Redstar F | live
-- 2026-08-22 10:00 | Balcatta - Dianella White | live
-- 2026-08-22 10:00 | Bayswater City - Perth Glory Ii | live
-- 2026-08-22 10:00 | Olympic Kingsw - Fremantle City | live
-- 2026-08-22 10:00 | Perth - Sorrento | live
-- 2026-08-22 10:00 | Stirling Lions - Western Knights | live
-- 2026-08-22 10:00 | Dandenong City - Preston Lions | live
-- 2026-08-22 10:15 | Dandenong Thun - Oakleigh Cannon | live
-- 2026-08-22 10:15 | Unsw Fc - Manly United | live
 - 2026-08-22 10:30 | Nws Spirit - Sd Raiders | live
+- 2026-08-22 11:00 | Sd Rsa - Hong Kong Fc | live
+- 2026-08-22 11:00 | Vanraure - Sendai | live
+- 2026-08-22 11:15 | Melbourne Srbi - Bulleen Lions | live
+- 2026-08-22 11:15 | Altona City - Eastern Lions | live
+- 2026-08-22 11:30 | Espanyol Ii - Tarragona | live
+- 2026-08-22 12:00 | Dangjin Citize - Yeoju Sejong | live
+- 2026-08-22 12:00 | Pocheon - Mokpo City | live
+- 2026-08-22 12:00 | Yangpyeong - Gyeongju Hnp | live
+- 2026-08-22 12:00 | Deportivo Alav - Amorebieta | live
