@@ -2,32 +2,15 @@
 
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
-Ham mac: 541
-Aktif mac: 436
-Canli mac: 105
-Biten mac: 0
-Bultenden dusurulen mac: 105
-Bugun: 362
+Ham mac: 635
+Aktif mac: 421
+Canli mac: 93
+Biten mac: 121
+Bultenden dusurulen mac: 214
+Bugun: 347
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 16:00 | İsveç Allsvenskan | Orgryte - Halmstads | scheduled | -
-- 2026-08-22 16:00 | AFF Şampiyonası Final | Tayland - Vietnam | scheduled | -
-- 2026-08-22 16:00 | Portekiz 2.Lig | Vizela - Amarante Fc | scheduled | -
-- 2026-08-22 16:00 | Rusya FNL | Volga Ulyanovs - Shinnik Yarosla | scheduled | -
-- 2026-08-22 16:00 | Ukrayna Kupa 1.Tur | Nyva Vinnytsia - Rukh Vynnyky | scheduled | -
-- 2026-08-22 16:00 | Belarus Premier Lig | Slavia Mozyr - Gomel | scheduled | -
-- 2026-08-22 16:00 | Norveç NM Kupası 1.Tur | Ff Lillehammer - Strommen | scheduled | -
-- 2026-08-22 16:00 | Norveç NM Kupası 1.Tur | Rade - Follo | scheduled | -
-- 2026-08-22 16:00 | Finlandiya Ykkönen | Salpa Salo - Oulun Ls | scheduled | -
-- 2026-08-22 16:00 | Güney Afrika 8 Kupası Yarı Final | Sekhukhune Uni - Orlando Pirates | scheduled | -
-- 2026-08-22 16:00 | Malezya Süper Lig | Kelantan Red W - Selangor Fa | scheduled | -
-- 2026-08-22 16:00 | Malezya Süper Lig | Terengganu - Melaka | scheduled | -
-- 2026-08-22 16:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Angby | scheduled | -
-- 2026-08-22 16:00 | İsveç 2.Lig Södra Götaland | Ifk Berga - Staffanstorp Un | scheduled | -
-- 2026-08-22 16:00 | Hollanda Tweede Divisie | Ijsselmeervoge - Quick Boys | scheduled | -
-- 2026-08-22 16:00 | Hollanda Tweede Divisie | Katwijk - Hoek Hsv | scheduled | -
-- 2026-08-22 16:00 | Hollanda Tweede Divisie | Vv Kloetinge - Kozakken Boys | scheduled | -
 - 2026-08-22 16:30 | Almanya DFB Kupası 1.Tur | Hemelingen - Hannover | scheduled | -
 - 2026-08-22 16:30 | Almanya DFB Kupası 1.Tur | Saarbrucken - Hertha Berlin | scheduled | -
 - 2026-08-22 16:30 | Almanya DFB Kupası 1.Tur | Viktoria Köln - Nürnberg | scheduled | -
@@ -184,6 +167,8 @@ Yarin: 74
 - 2026-08-22 17:00 | İngiltere Non League Premier Güney Merkez | Real Bedford - Stratford Town | scheduled | -
 - 2026-08-22 17:00 | Norveç NM Kupası 1.Tur | Eik Toensberg - Honefoss | scheduled | -
 - 2026-08-22 17:00 | Uruguay Premier Lig Clausura | Central Espano - Juventud Dl Pie | scheduled | -
+- 2026-08-22 17:00 | Mısır Premier Lig | Asyut Petroleu - Petrojet | scheduled | -
+- 2026-08-22 17:00 | Belarus 1.Lig | Smorgon - Ostrovets Fc | scheduled | -
 - 2026-08-22 17:15 | Katar Yıldızlar Ligi | Al Duhail Sc - Al Sailiya | scheduled | -
 - 2026-08-22 17:30 | Hollanda Eredivisie | Fortuna Sittar - Az Alkmaar | scheduled | -
 - 2026-08-22 17:30 | Portekiz Premier Lig | Maritimo - Academico Viseu | scheduled | -
@@ -449,35 +434,6 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 13:30 | Güney Kore K Lig 1 | Bucheon - Pohang Steelers | live | -
-- 2026-08-22 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gimcheon Sangmu | live | -
-- 2026-08-22 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Ulsan | live | -
-- 2026-08-22 13:30 | Güney Kore K Lig 1 | Anyang - Fc Seoul | live | -
-- 2026-08-22 13:30 | Japonya J1 Lig | Yokohama Marin - Vissel Kobe | live | -
-- 2026-08-22 13:30 | Hong Kong Premier Lig | Buler Rangers - Kitchee Footbal | live | -
-- 2026-08-22 13:30 | Güney Kore K Lig 2 | Suwon City - Gimhae City | live | -
-- 2026-08-22 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Seongnam | live | -
-- 2026-08-22 13:30 | Güney Kore K Lig 2 | Cheonan City F - Suwon Sb | live | -
-- 2026-08-22 13:30 | Güney Kore K Lig 2 | Daegu - Busan Ipark | live | -
-- 2026-08-22 13:30 | İsveç 2.Lig Norra Svealand | Korsnas If Fk - Fc Gute | live | -
-- 2026-08-22 13:30 | Japonya WE Ligi Kadınlar | Omiya (K) - Urawa Red (K) | live | -
-- 2026-08-22 14:00 | Almanya DFB Kupası 1.Tur | E.Cottbus - Augsburg | live | -
-- 2026-08-22 14:00 | Almanya DFB Kupası 1.Tur | Wehen - B.Leverkusen | live | -
-- 2026-08-22 14:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Tianjin Teda | live | -
-- 2026-08-22 14:00 | Belarus Premier Lig | Belshina Bobru - Arsenal | live | -
-- 2026-08-22 14:00 | Polonya 2.Lig | Avia Swidnik - Zawisza Bydgosz | live | -
-- 2026-08-22 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Yanbian Longdin | live | -
-- 2026-08-22 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Wuxi Wugou | live | -
-- 2026-08-22 14:00 | İngiltere Professional Development Lig | Sheffield Wedn - Bristol City U2 | live | -
-- 2026-08-22 14:00 | Danimarka 3.Lig | Ishoj - Naesby | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Kungsangen | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Vastra Götaland | Astrio - Böljan | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Forward - Nacka Iliria | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Haninge - Nykobing Fa | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Lindo Ff - Karlslunds If | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Skelleftea | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Kubikenborgs If | live | -
-- 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Ifk Ostersund | live | -
 - 2026-08-22 14:30 | İngiltere Premier Lig | Hull - Man. Utd | live | -
 - 2026-08-22 14:30 | İngiltere Championship | Millwall - Norwich | live | -
 - 2026-08-22 14:30 | İngiltere Championship | Lincoln - Portsmouth | live | -
@@ -554,6 +510,143 @@ Yarin: 74
 - 2026-08-22 15:30 | Hollanda Tweede Divisie | Hhc - Jong Almere Cit | live | -
 - 2026-08-22 15:30 | Letonya Virsliga | Super Nova - Bfc Daugavpils | live | -
 - 2026-08-22 15:45 | Polonya Ekstraklasa | Korona Kielce - Motor Lublin | live | -
+- 2026-08-22 16:00 | İsveç Allsvenskan | Orgryte - Halmstads | live | -
+- 2026-08-22 16:00 | AFF Şampiyonası Final | Tayland - Vietnam | live | -
+- 2026-08-22 16:00 | Portekiz 2.Lig | Vizela - Amarante Fc | live | -
+- 2026-08-22 16:00 | Rusya FNL | Volga Ulyanovs - Shinnik Yarosla | live | -
+- 2026-08-22 16:00 | Ukrayna Kupa 1.Tur | Nyva Vinnytsia - Rukh Vynnyky | live | -
+- 2026-08-22 16:00 | Belarus Premier Lig | Slavia Mozyr - Gomel | live | -
+- 2026-08-22 16:00 | Norveç NM Kupası 1.Tur | Ff Lillehammer - Strommen | live | -
+- 2026-08-22 16:00 | Norveç NM Kupası 1.Tur | Rade - Follo | live | -
+- 2026-08-22 16:00 | Finlandiya Ykkönen | Salpa Salo - Oulun Ls | live | -
+- 2026-08-22 16:00 | Güney Afrika 8 Kupası Yarı Final | Sekhukhune Uni - Orlando Pirates | live | -
+- 2026-08-22 16:00 | Malezya Süper Lig | Kelantan Red W - Selangor Fa | live | -
+- 2026-08-22 16:00 | Malezya Süper Lig | Terengganu - Melaka | live | -
+- 2026-08-22 16:00 | İsveç 2.Lig Norra Svealand | Sunnersta Aif - Angby | live | -
+- 2026-08-22 16:00 | İsveç 2.Lig Södra Götaland | Ifk Berga - Staffanstorp Un | live | -
+- 2026-08-22 16:00 | Hollanda Tweede Divisie | Ijsselmeervoge - Quick Boys | live | -
+- 2026-08-22 16:00 | Hollanda Tweede Divisie | Katwijk - Hoek Hsv | live | -
+- 2026-08-22 16:00 | Hollanda Tweede Divisie | Vv Kloetinge - Kozakken Boys | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
+- 2026-08-22 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ca Mitre | finished | -
+- 2026-08-22 01:00 | Uruguay Premier Lig Clausura | Liverpool Mont - Cerro | finished | -
+- 2026-08-22 01:30 | Bolivya Premier Lig | The Strongest - Universitario D | finished | -
+- 2026-08-22 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - San Lorenzo | finished | -
+- 2026-08-22 02:00 | Venezuela Premier Lig Clausura | Caracas Fc - Carabobo | finished | -
+- 2026-08-22 03:00 | Ekvador Pro Lig | Leones Del Nor - Indep. Jose Ter | finished | -
+- 2026-08-22 03:00 | Ekvador Pro Lig | Deportivo Cuen - Mushuc Runa | finished | -
+- 2026-08-22 03:30 | Kolombiya Primera A Clausura | Alianza Petrol - Pereira | finished | -
+- 2026-08-22 03:30 | Şili Premier Lig | Audax Italiano - Union La Calera | finished | -
+- 2026-08-22 03:30 | Bolivya Premier Lig | Oriente Petrol - San Antonio Bul | finished | -
+- 2026-08-22 04:00 | Meksika Liga MX Apertura | Club Leon - Monterrey | finished | -
+- 2026-08-22 04:00 | Meksika Liga MX Apertura | Tigres Uanl - Atlante | finished | -
+- 2026-08-22 04:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Perez Zeledon | finished | -
+- 2026-08-22 04:00 | Honduras Ulusal Lig Apertura | Depor Motagua - Upnfm | finished | -
+- 2026-08-22 04:00 | El Salvador Primera Lig Apertura | Inter Fa - Inca-Aruba | finished | -
+- 2026-08-22 06:00 | Meksika Liga MX Apertura | Fc Juarez - Club America | finished | -
+- 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | finished | -
+- 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | finished | -
+- 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | finished | -
+- 2026-08-22 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Eltham Redbacks | finished | -
+- 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | finished | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra Juvent | finished | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - O Connor Knight | finished | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Canberra White - Monaro Panthers | finished | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Belconnen Unite | finished | -
+- 2026-08-22 08:00 | Avustralya NPL Victoria | Melbourne City - Bentleigh Green | finished | -
+- 2026-08-22 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Brunswick City | finished | -
+- 2026-08-22 08:30 | Avustralya NPL Güney Avustralya Eleme Final | Playford City - White City Wood | finished | -
+- 2026-08-22 09:00 | Japonya J2 Lig | Sapporo - Omiya | finished | -
+- 2026-08-22 09:00 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - St George City | finished | -
+- 2026-08-22 09:00 | Avustralya NPL Victoria | Hume City - Caroline S. | finished | -
+- 2026-08-22 09:30 | Avustralya U20 NSW NPL 1 | St. George Sai - Blacktown City | finished | -
+- 2026-08-22 10:00 | Avustralya NPL Victoria | Dandenong City - Preston Lions | finished | -
+- 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Olympic Kingsw - Fremantle City | finished | -
+- 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Stirling Lions - Western Knights | finished | -
+- 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Balcatta - Dianella White | finished | -
+- 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Bayswater City - Perth Glory Ii | finished | -
+- 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Armadale - Perth Redstar F | finished | -
+- 2026-08-22 10:00 | Avustralya NPL Batı Avustralya | Perth - Sorrento | finished | -
+- 2026-08-22 10:15 | Avustralya NPL Yeni Güney Galler | Unsw Fc - Manly United | finished | -
+- 2026-08-22 10:15 | Avustralya NPL Victoria | Dandenong Thun - Oakleigh Cannon | finished | -
+- 2026-08-22 10:30 | Avustralya NPL Yeni Güney Galler | Nws Spirit - Sd Raiders | finished | -
+- 2026-08-22 11:00 | Japonya J2 Lig | Vanraure - Sendai | finished | -
+- 2026-08-22 11:00 | Hong Kong Premier Lig | Sd Rsa - Hong Kong Fc | finished | -
+- 2026-08-22 11:15 | Avustralya Victoria NPL 2 | Altona City - Eastern Lions | finished | -
+- 2026-08-22 11:15 | Avustralya Victoria NPL 1 | Melbourne Srbi - Bulleen Lions | finished | -
+- 2026-08-22 11:30 | Hazırlık Kulüpler | Espanyol Ii - Tarragona | finished | -
+- 2026-08-22 12:00 | Japonya J1 Lig | Kashima - Avispa Fukuoka | finished | -
+- 2026-08-22 12:00 | Hazırlık Kulüpler | G.Segoviana - Rayo Majadahond | finished | -
+- 2026-08-22 12:00 | Ukrayna Kupa 1.Tur | Ucsa - Kolos Kovalivka | finished | -
+- 2026-08-22 12:00 | İtalya Primavera Şampiyonası 1 | Lecce U20 - Lazio U20 | finished | -
+- 2026-08-22 12:00 | İtalya Primavera Şampiyonası 1 | Roma U20 - Monza U20 | finished | -
+- 2026-08-22 12:00 | Japonya J2 Lig | Blaublitz Akit - Kofu | finished | -
+- 2026-08-22 12:00 | Güney Kore K3 Ligi | Pocheon - Mokpo City | finished | -
+- 2026-08-22 12:00 | Güney Kore K3 Ligi | Yangpyeong - Gyeongju Hnp | finished | -
+- 2026-08-22 12:00 | Güney Kore K3 Ligi | Dangjin Citize - Yeoju Sejong | finished | -
+- 2026-08-22 12:00 | Japonya WE Ligi Kadınlar | Nojima Stella - Elfen Saitama ( | finished | -
+- 2026-08-22 12:00 | Japonya WE Ligi Kadınlar | Inac Kobe Leon - Sanfrecce Hiros | finished | -
+- 2026-08-22 12:00 | Japonya WE Ligi Kadınlar | Omiya (K) - Urawa Red (K) | finished | -
+- 2026-08-22 12:00 | Malezya Süper Lig | Negeri Sembila - Kuala Lumpur | finished | -
+- 2026-08-22 12:00 | Japonya J3 Lig | Osaka - Ryukyu | finished | -
+- 2026-08-22 12:00 | Japonya J3 Lig | Nara Club - Renofa Yamaguch | finished | -
+- 2026-08-22 12:00 | Japonya J3 Lig | Matsumoto Yama - Ehime Fc | finished | -
+- 2026-08-22 12:00 | Hazırlık Kulüpler | Deportivo Alav - Amorebieta | finished | -
+- 2026-08-22 12:30 | Japonya J1 Lig | Fagiano Okayam - Tokyo Verdy | finished | -
+- 2026-08-22 12:30 | Rusya FNL | Ural - Tekstilshchik | finished | -
+- 2026-08-22 12:30 | Japonya J2 Lig | Kataller Toyam - Fc Imabari | finished | -
+- 2026-08-22 12:30 | Avustralya NPL Güney Avustralya Eleme Final | Ne Metrostars - Croydon Kings | finished | -
+- 2026-08-22 12:30 | Hazırlık Kulüpler | Cristo Atletic - Atletico Tordes | finished | -
+- 2026-08-22 13:00 | Japonya J1 Lig | Cerezo Osaka - Shimizu | finished | -
+- 2026-08-22 13:00 | Japonya J1 Lig | Nagoya - Gamba Osaka | finished | -
+- 2026-08-22 13:00 | Japonya J1 Lig | Kyoto Sanga - Mito Hollyhock | finished | -
+- 2026-08-22 13:00 | Portekiz 2.Lig | Leixoes - Leiria | finished | -
+- 2026-08-22 13:00 | Polonya 2.Lig | Nkp Podhale - Resovia Rzeszow | finished | -
+- 2026-08-22 13:00 | Japonya J2 Lig | Oita Trinita - Iwaki | finished | -
+- 2026-08-22 13:00 | Japonya J2 Lig | Niigata - Fujieda | finished | -
+- 2026-08-22 13:00 | Japonya J2 Lig | Tegevajaro Miy - Shonan | finished | -
+- 2026-08-22 13:00 | Japonya J2 Lig | Iwata - Tokushima | finished | -
+- 2026-08-22 13:00 | Japonya J2 Lig | Yamagata - Yokohama Fc | finished | -
+- 2026-08-22 13:00 | Japonya J2 Lig | Sagan Tosu - Tochigi City | finished | -
+- 2026-08-22 13:00 | Portekiz 3.Lig Grup B | Cf Os Belenens - Uniao Santarem | finished | -
+- 2026-08-22 13:00 | Almanya Kadınlar Bundesliga | E. Frankfurt ( - Köln (K) | finished | -
+- 2026-08-22 13:00 | Güney Kore K3 Ligi | Busan Transpor - Changwon City | finished | -
+- 2026-08-22 13:00 | İsveç 2.Lig Vastra Götaland | Qviding - Torslanda Ik | finished | -
+- 2026-08-22 13:00 | Japonya J3 Lig | Tochigi Sc - Gira Kitakyushu | finished | -
+- 2026-08-22 13:00 | Japonya J3 Lig | Roasso Kumamot - Parceiro Nagano | finished | -
+- 2026-08-22 13:00 | Japonya J3 Lig | Kusatsu Gunma - Mio Biwako Shig | finished | -
+- 2026-08-22 13:00 | Japonya J3 Lig | Gainare Tottor - Fukushima Unite | finished | -
+- 2026-08-22 13:00 | Japonya J3 Lig | Kagoshima Unit - Fc Gifu | finished | -
+- 2026-08-22 13:00 | Hazırlık Kulüpler | Ss Reyes - Atletico Balear | finished | -
+- 2026-08-22 13:15 | Japonya J1 Lig | Hiroshima - Kawasaki | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 1 | Bucheon - Pohang Steelers | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 1 | Jeju Utd - Gimcheon Sangmu | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 1 | Jeonbuk Hm - Ulsan | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 1 | Anyang - Fc Seoul | finished | -
+- 2026-08-22 13:30 | Japonya J1 Lig | Yokohama Marin - Vissel Kobe | finished | -
+- 2026-08-22 13:30 | Hong Kong Premier Lig | Buler Rangers - Kitchee Footbal | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 2 | Suwon City - Gimhae City | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 2 | Ansan Greeners - Seongnam | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 2 | Cheonan City F - Suwon Sb | finished | -
+- 2026-08-22 13:30 | Güney Kore K Lig 2 | Daegu - Busan Ipark | finished | -
+- 2026-08-22 13:30 | İsveç 2.Lig Norra Svealand | Korsnas If Fk - Fc Gute | finished | -
+- 2026-08-22 13:30 | Japonya WE Ligi Kadınlar | Omiya (K) - Urawa Red (K) | finished | -
+- 2026-08-22 14:00 | Almanya DFB Kupası 1.Tur | E.Cottbus - Augsburg | finished | -
+- 2026-08-22 14:00 | Almanya DFB Kupası 1.Tur | Wehen - B.Leverkusen | finished | -
+- 2026-08-22 14:00 | Çin Halk Cumhuriyeti Süper Lig | Wuhan Three To - Tianjin Teda | finished | -
+- 2026-08-22 14:00 | Belarus Premier Lig | Belshina Bobru - Arsenal | finished | -
+- 2026-08-22 14:00 | Polonya 2.Lig | Avia Swidnik - Zawisza Bydgosz | finished | -
+- 2026-08-22 14:00 | Çin Halk Cumhuriyeti 1.Lig | Ningbo - Yanbian Longdin | finished | -
+- 2026-08-22 14:00 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Wuxi Wugou | finished | -
+- 2026-08-22 14:00 | İngiltere Professional Development Lig | Sheffield Wedn - Bristol City U2 | finished | -
+- 2026-08-22 14:00 | Danimarka 3.Lig | Ishoj - Naesby | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Norra Svealand | Viggbyholms Ik - Kungsangen | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Vastra Götaland | Astrio - Böljan | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Forward - Nacka Iliria | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Haninge - Nykobing Fa | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Södra Svealand | Lindo Ff - Karlslunds If | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Skelleftea | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Kubikenborgs If | finished | -
+- 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Ifk Ostersund | finished | -

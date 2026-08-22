@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 16:15:32
+Oluşturma: 22.08.2026 16:37:08
 
 ## Özet
 
-- Toplam tahmin: 370
-- Bekleyen tahmin: 370
+- Toplam tahmin: 373
+- Bekleyen tahmin: 373
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 110
@@ -20,12 +20,15 @@ Oluşturma: 22.08.2026 16:15:32
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 128, bekleyen 128, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 130, bekleyen 130, başarı bekleniyor, ağırlık 1
+- MS X: toplam 215, bekleyen 215, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 28, bekleyen 28, başarı bekleniyor, ağırlık 1
-- MS X: toplam 214, bekleyen 214, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Türkiye Süper Lig | Çorum - Kasimpaşa | MS 2 | pending | 50/100
+- 2026-08-22 | İngiltere Non League Premier Güney Merkez | Real Bedford - Stratford Town | MS 2 | pending | 50/100
+- 2026-08-22 | İngiltere Championship | Derby County - Cardiff | MS X | pending | 50/100
 - 2026-08-22 | Slovenya 2.SNL | Dren Vrhnika - Dravinja | MS 2 | pending | 50/100
 - 2026-08-22 | Letonya Virsliga | Super Nova - Bfc Daugavpils | MS 1 | pending | 50/100
 - 2026-08-22 | İskoçya Premiership | Dundee Utd - Dundee | MS 2 | pending | 50/100
@@ -38,7 +41,4 @@ Oluşturma: 22.08.2026 16:15:32
 - 2026-08-22 | Portekiz 2.Lig | Leixoes - Leiria | MS 2 | pending | 50/100
 - 2026-08-22 | Sırbistan Süper Lig | Ofk Beograd - Zemun Belg. | MS 2 | pending | 75/100
 - 2026-08-22 | Hırvatistan 1.HNL | Dinamo Zagreb - Varazdin | MS 2 | pending | 75/100
-- 2026-08-22 | Danimarka 3.Lig | Holstebro - Helsingor | MS X | pending | 50/100
-- 2026-08-22 | Japonya WE Ligi Kadınlar | Omiya (K) - Urawa Red (K) | MS 1 | pending | 40/100
-- 2026-08-22 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Skelleftea | MS X | pending | 50/100
 

@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T12:40:52.089367+00:00
+Tarih: 2026-08-22T13:24:02.989434+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 444
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 444
-- Ham veri havuzu toplam mac sayisi: 8544
+- Kac mac bulundu: 427
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 425
+- Ham veri havuzu toplam mac sayisi: 8546
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -17,7 +17,6 @@ Tarih: 2026-08-22T12:40:52.089367+00:00
 - ABD MLS
 - ABD USL
 - ABD USL Lig 1
-- AFF Şampiyonası Final
 - Almanya DFB Kupası 1.Tur
 - Almanya Süper Kupa
 - Arjantin Premier Lig 2. Aşama
@@ -38,25 +37,21 @@ Tarih: 2026-08-22T12:40:52.089367+00:00
 - Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
-- Danimarka 3.Lig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Finlandiya Veikkausliiga
-- Finlandiya Ykkönen
 - Finlandiya Ykkösliiga
 - Fransa Ligue 1
 - Fransa Ligue 2
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Guatemala Ulusal Lig Apertura
-- Güney Afrika 8 Kupası Yarı Final
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
-- Hollanda Tweede Divisie
 - Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
@@ -72,7 +67,6 @@ Tarih: 2026-08-22T12:40:52.089367+00:00
 - Litvanya 1.Lig
 - Macaristan NB I
 - Macaristan NB II
-- Malezya Süper Lig
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
@@ -90,7 +84,6 @@ Tarih: 2026-08-22T12:40:52.089367+00:00
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
-- Rusya FNL
 - Rusya Premier Lig
 - Slovakya 2.Lig
 - Slovakya Süper Lig
@@ -115,7 +108,6 @@ Tarih: 2026-08-22T12:40:52.089367+00:00
 - İngiltere Non League Premier Güney Merkez
 - İngiltere Non League Premier Kuzey
 - İngiltere Premier Lig
-- İngiltere Professional Development Lig
 - İngiltere Ulusal Lig N / S Güney
 - İngiltere Ulusal Lig N / S Kuzey
 - İrlanda 1.Lig
@@ -128,7 +120,6 @@ Tarih: 2026-08-22T12:40:52.089367+00:00
 - İsveç 2.Lig Norra Svealand
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Södra Svealand
-- İsveç Allsvenskan
 - İsviçre 1.Lig Promotion
 - İsviçre Challenge Lig
 - İsviçre Süper Lig
