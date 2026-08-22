@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 595
-- Live match count: 6
-- Finished removed count: 5
+- Scheduled match count: 588
+- Live match count: 9
+- Finished removed count: 0
 - Date window: 2026-08-22 / 2026-08-23 23:59
 
-- 2026-08-22 06:00 | Ca La Paz - Cruz Azul Hidal | live
-- 2026-08-22 06:00 | Fc Juarez - Club America | live
-- 2026-08-22 06:10 | Fc Juarez - Club America | live
-- 2026-08-22 06:10 | Queretaro - Toluca | live
 - 2026-08-22 07:00 | Port Melbourne - Eltham Redbacks | live
 - 2026-08-22 07:30 | Canberra Olymp - Brindabella Blu | live
-- 2026-08-22 08:00 | Canberra - Belconnen Unite | scheduled
-- 2026-08-22 08:00 | Canberra White - Monaro Panthers | scheduled
-- 2026-08-22 08:00 | Queanbeyan Cit - O Connor Knight | scheduled
-- 2026-08-22 08:00 | Tuggeranong Un - Canberra Juvent | scheduled
+- 2026-08-22 08:00 | Canberra - Belconnen Unite | live
+- 2026-08-22 08:00 | Canberra White - Monaro Panthers | live
+- 2026-08-22 08:00 | Queanbeyan Cit - O Connor Knight | live
+- 2026-08-22 08:00 | Tuggeranong Un - Canberra Juvent | live
+- 2026-08-22 08:00 | Melbourne City - Bentleigh Green | live
+- 2026-08-22 08:00 | North Sunshine - Brunswick City | live
+- 2026-08-22 08:30 | Playford City - White City Wood | live
+- 2026-08-22 09:00 | Hume City - Caroline S. | scheduled

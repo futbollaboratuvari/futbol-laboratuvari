@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 08:05:25
+Oluşturma: 22.08.2026 08:48:06
 
 ## Özet
 
-- Toplam tahmin: 335
-- Bekleyen tahmin: 335
+- Toplam tahmin: 339
+- Bekleyen tahmin: 339
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 107
@@ -20,12 +20,16 @@ Oluşturma: 22.08.2026 08:05:25
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 198, bekleyen 198, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 112, bekleyen 112, başarı bekleniyor, ağırlık 1
+- MS X: toplam 200, bekleyen 200, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 114, bekleyen 114, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 25, bekleyen 25, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Khorfakkan Club | MS X | pending | 40/100
+- 2026-08-22 | İngiltere Ulusal Lig N / S Kuzey | Harborough Tow - Darlington 1883 | MS 2 | pending | 50/100
+- 2026-08-22 | Polonya 1.Lig | P. Bielsko - Odra Opole | MS X | pending | 50/100
+- 2026-08-22 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Wuxi Wugou | MS 2 | pending | 50/100
 - 2026-08-22 | Fransa Ligue 1 | Le Mans - Brest | MS X | pending | 50/100
 - 2026-08-22 | Fransa Ligue 1 | Toulouse - Lyon | MS X | pending | 50/100
 - 2026-08-22 | Fransa Ligue 1 | Nice - Lorient | MS X | pending | 50/100
@@ -37,8 +41,4 @@ Oluşturma: 22.08.2026 08:05:25
 - 2026-08-22 | İtalya Serie B | Avellino - Arezzo | MS 2 | pending | 40/100
 - 2026-08-22 | Brezilya Serie A | Fluminense - Remo | MS 2 | pending | 75/100
 - 2026-08-22 | İtalya Serie C Grup B | Pescara - Vis Pasaro | MS 2 | pending | 65/100
-- 2026-08-22 | İtalya Serie C Grup C | Audace Cerigno - Cosenza | MS X | pending | 40/100
-- 2026-08-22 | İtalya Serie C Grup C | Casertana - Barletta | MS 2 | pending | 40/100
-- 2026-08-22 | Malta Premier Lig Açılış | Zabbar St Patr - Birzebbuga | MS X | pending | 40/100
-- 2026-08-22 | İspanya 2.Lig | Eldense - Cadiz | MS 2 | pending | 40/100
 

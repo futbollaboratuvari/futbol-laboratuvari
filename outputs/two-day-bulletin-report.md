@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
-Ham mac: 606
-Aktif mac: 595
-Canli mac: 11
-Biten mac: 0
-Bultenden dusurulen mac: 11
-Bugun: 521
+Ham mac: 617
+Aktif mac: 588
+Canli mac: 9
+Biten mac: 20
+Bultenden dusurulen mac: 29
+Bugun: 514
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra Juvent | scheduled | -
-- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - O Connor Knight | scheduled | -
-- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Canberra White - Monaro Panthers | scheduled | -
-- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Belconnen Unite | scheduled | -
-- 2026-08-22 08:00 | Avustralya NPL Victoria | Melbourne City - Bentleigh Green | scheduled | -
-- 2026-08-22 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Brunswick City | scheduled | -
-- 2026-08-22 08:30 | Avustralya NPL Güney Avustralya Eleme Final | Playford City - White City Wood | scheduled | -
 - 2026-08-22 09:00 | Japonya J2 Lig | Sapporo - Omiya | scheduled | -
 - 2026-08-22 09:00 | Avustralya NPL Yeni Güney Galler | Sutherland Sha - St George City | scheduled | -
 - 2026-08-22 09:00 | Avustralya NPL Victoria | Hume City - Caroline S. | scheduled | -
@@ -608,17 +601,34 @@ Yarin: 74
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | scheduled | -
 
 ## Canli Maclar
-- 2026-08-22 04:00 | Meksika Liga MX Apertura | Club Leon - Monterrey | live | -
-- 2026-08-22 04:00 | Meksika Liga MX Apertura | Tigres Uanl - Atlante | live | -
-- 2026-08-22 04:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Perez Zeledon | live | -
-- 2026-08-22 04:00 | Honduras Ulusal Lig Apertura | Depor Motagua - Upnfm | live | -
-- 2026-08-22 04:00 | El Salvador Primera Lig Apertura | Inter Fa - Inca-Aruba | live | -
-- 2026-08-22 06:00 | Meksika Liga MX Apertura | Fc Juarez - Club America | live | -
-- 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | live | -
-- 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | live | -
-- 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | live | -
 - 2026-08-22 07:00 | Avustralya Victoria NPL 1 | Port Melbourne - Eltham Redbacks | live | -
 - 2026-08-22 07:30 | Avustralya NPL Başkent Bölgesi | Canberra Olymp - Brindabella Blu | live | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Tuggeranong Un - Canberra Juvent | live | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Queanbeyan Cit - O Connor Knight | live | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Canberra White - Monaro Panthers | live | -
+- 2026-08-22 08:00 | Avustralya NPL Başkent Bölgesi | Canberra - Belconnen Unite | live | -
+- 2026-08-22 08:00 | Avustralya NPL Victoria | Melbourne City - Bentleigh Green | live | -
+- 2026-08-22 08:00 | Avustralya Victoria NPL 1 | North Sunshine - Brunswick City | live | -
+- 2026-08-22 08:30 | Avustralya NPL Güney Avustralya Eleme Final | Playford City - White City Wood | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
+- 2026-08-22 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Ca Mitre | finished | -
+- 2026-08-22 01:00 | Uruguay Premier Lig Clausura | Liverpool Mont - Cerro | finished | -
+- 2026-08-22 01:30 | Bolivya Premier Lig | The Strongest - Universitario D | finished | -
+- 2026-08-22 02:00 | Arjantin Premier Lig 2. Aşama | Rio Cuarto - San Lorenzo | finished | -
+- 2026-08-22 02:00 | Venezuela Premier Lig Clausura | Caracas Fc - Carabobo | finished | -
+- 2026-08-22 03:00 | Ekvador Pro Lig | Leones Del Nor - Indep. Jose Ter | finished | -
+- 2026-08-22 03:00 | Ekvador Pro Lig | Deportivo Cuen - Mushuc Runa | finished | -
+- 2026-08-22 03:30 | Kolombiya Primera A Clausura | Alianza Petrol - Pereira | finished | -
+- 2026-08-22 03:30 | Şili Premier Lig | Audax Italiano - Union La Calera | finished | -
+- 2026-08-22 03:30 | Bolivya Premier Lig | Oriente Petrol - San Antonio Bul | finished | -
+- 2026-08-22 04:00 | Meksika Liga MX Apertura | Club Leon - Monterrey | finished | -
+- 2026-08-22 04:00 | Meksika Liga MX Apertura | Tigres Uanl - Atlante | finished | -
+- 2026-08-22 04:00 | Kosta Rika Premier Lig Apertura | Puntarenas Fc - Perez Zeledon | finished | -
+- 2026-08-22 04:00 | Honduras Ulusal Lig Apertura | Depor Motagua - Upnfm | finished | -
+- 2026-08-22 04:00 | El Salvador Primera Lig Apertura | Inter Fa - Inca-Aruba | finished | -
+- 2026-08-22 06:00 | Meksika Liga MX Apertura | Fc Juarez - Club America | finished | -
+- 2026-08-22 06:00 | Meksika Ascenso MX Apertura | Ca La Paz - Cruz Azul Hidal | finished | -
+- 2026-08-22 06:10 | Meksika Liga MX Apertura | Queretaro - Toluca | finished | -
+- 2026-08-22 06:10 | Meksika Liga MX Apertura | Fc Juarez - Club America | finished | -
