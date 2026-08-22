@@ -1,24 +1,21 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T11:55:33.049472+00:00
+Tarih: 2026-08-22T12:23:32.957341+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 416
+- Kac mac bulundu: 376
 - Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 415
-- Ham veri havuzu toplam mac sayisi: 8543
+- Kac mac zaten vardi: 375
+- Ham veri havuzu toplam mac sayisi: 8544
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - AFF Şampiyonası Final
-- Almanya Bölgesel Lig Batı
-- Almanya Bölgesel Lig Güney Batı
 - Almanya DFB Kupası 1.Tur
-- Almanya Kadınlar Bundesliga
 - Almanya Süper Kupa
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
@@ -35,7 +32,6 @@ Tarih: 2026-08-22T11:55:33.049472+00:00
 - Brezilya Serie A
 - Bulgaristan 1.Lig
 - Danimarka 1.Lig
-- Danimarka 2.Lig
 - Danimarka 3.Lig
 - Ekvador Pro Lig
 - Estonya Premium Lig
@@ -47,7 +43,6 @@ Tarih: 2026-08-22T11:55:33.049472+00:00
 - Galler FAW Championship Güney
 - Galler FAW Championship Kuzey
 - Güney Afrika 8 Kupası Yarı Final
-- Güney Kore K3 Ligi
 - Gürcistan Erovnuli Liga
 - Hazırlık Kulüpler
 - Hollanda Eerste Divisie
@@ -99,7 +94,6 @@ Tarih: 2026-08-22T11:55:33.049472+00:00
 - Venezuela Premier Lig Clausura
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
-- Çin Halk Cumhuriyeti Süper Lig
 - Ürdün Süper Kupa Yarı Final
 - İngiltere 1.Lig
 - İngiltere 2.Lig
@@ -108,7 +102,6 @@ Tarih: 2026-08-22T11:55:33.049472+00:00
 - İngiltere Non League Premier Güney Merkez
 - İngiltere Non League Premier Kuzey
 - İngiltere Premier Lig
-- İngiltere Premier Lig 2
 - İngiltere Professional Development Lig
 - İngiltere Ulusal Lig N / S Güney
 - İngiltere Ulusal Lig N / S Kuzey
@@ -119,13 +112,9 @@ Tarih: 2026-08-22T11:55:33.049472+00:00
 - İskoçya Premiership
 - İspanya 2.Lig
 - İspanya LaLiga
-- İsveç 2.Lig Norra Götaland
 - İsveç 2.Lig Norra Svealand
-- İsveç 2.Lig Norrland Düşme Grubu
-- İsveç 2.Lig Norrland Yükselme Grubu
 - İsveç 2.Lig Södra Götaland
 - İsveç 2.Lig Södra Svealand
-- İsveç 2.Lig Vastra Götaland
 - İsveç Allsvenskan
 - İsviçre 1.Lig Promotion
 - İsviçre Challenge Lig
