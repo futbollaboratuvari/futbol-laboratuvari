@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T23:27:11.962Z
+- Güncelleme: 2026-08-22T23:38:28.306Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -33,17 +33,17 @@
 | Guadalajara VS Club Tijuana | Meksika Liga MX Apertura | 02:07 | MS 2 | 5.28 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
 | Santa Fe VS America De Cali | Kolombiya Primera A Clausura | 02:10 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Estrella Roja VS Juticalpa | Honduras Ulusal Lig Apertura | 02:15 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Inter Miami VS Toronto | ABD MLS | 02:30 | MS 2 | 6.55 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Cincinnati VS Seattle | ABD MLS | 02:30 | MS X | 3.87 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Montreal VS Los Angeles | ABD MLS | 02:30 | MS X | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Orlando City VS Salt Lake | ABD MLS | 02:30 | MS X | 3.64 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Charlotte VS Dc United | ABD MLS | 02:30 | MS 2 | 3.89 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| New York VS Chicago | ABD MLS | 02:30 | MS X | 3.52 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
-| Cruzeiro VS Flamengo | Brezilya Serie A | 02:30 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Nacional Potos VS Independiente P | Bolivya Premier Lig | 02:30 | MS 2 | 4.31 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Inter Miami VS Toronto | ABD MLS | 02:30 | MS 2 | 6.55 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
+| Cincinnati VS Seattle | ABD MLS | 02:30 | MS X | 3.87 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
+| Montreal VS Los Angeles | ABD MLS | 02:30 | MS X | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Orlando City VS Salt Lake | ABD MLS | 02:30 | MS X | 3.64 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
+| Charlotte VS Dc United | ABD MLS | 02:30 | MS 2 | 3.89 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| New York VS Chicago | ABD MLS | 02:30 | MS X | 3.52 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
+| Cruzeiro VS Flamengo | Brezilya Serie A | 02:30 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Nacional Potos VS Independiente P | Bolivya Premier Lig | 02:30 | MS 2 | 4.31 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Rhode Island VS Monterey Bay | ABD USL | 02:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Charleston Bat VS Miami Fc | ABD USL | 02:30 | MS 2 | 5.37 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| One Knoxville VS Athletic Club B | ABD USL Lig 1 | 02:30 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Charleston Bat VS Miami Fc | ABD USL | 02:30 | MS 2 | 5.37 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | live |
+| One Knoxville VS Athletic Club B | ABD USL Lig 1 | 02:30 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Newells Old Bo VS Banfield | Arjantin Premier Lig 2. Aşama | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Huracan VS Riestra | Arjantin Premier Lig 2. Aşama | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Deportivo Garc VS Cusco Fc | Peru Premier Lig Clausura | 03:00 | MS X | 2.70 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
