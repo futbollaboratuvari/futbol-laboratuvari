@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T15:27:44.098Z
+- Güncelleme: 2026-08-22T15:40:23.275Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -206,21 +206,21 @@
 | Dren Vrhnika VS Dravinja | Slovenya 2.SNL | 18:00 | MS 2 | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Singida Black VS Simba | Tanzanya Kuu Bara Ligi | 18:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Lens VS Auxerre | Fransa Ligue 1 | 18:15 | MS 2 | 5.29 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
-| Piast Gliwice VS Legia Varşova | Polonya Ekstraklasa | 18:30 | MS 1 | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Mtk VS Nyiregyhaza | Macaristan NB I | 18:30 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Uta Arad VS Hunedoara | Romanya 1.Lig | 18:30 | MS 2 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Piast Gliwice VS Legia Varşova | Polonya Ekstraklasa | 18:30 | MS 1 | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Mtk VS Nyiregyhaza | Macaristan NB I | 18:30 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Uta Arad VS Hunedoara | Romanya 1.Lig | 18:30 | MS 2 | 2.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Stade Tunis VS Cs Sfaxien | Tunus 1.Lig | 18:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Us Ben Guerdan VS Hammam-Lif | Tunus 1.Lig | 18:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Es Hammam-Sous VS Monastir | Tunus 1.Lig | 18:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Bregenz VS Strum Graz Ii | Avusturya 1.Lig | 18:30 | MS X | 3.35 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Mura VS Koper | Slovenya 1.SNL | 18:30 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ajka VS Nagykanizsai Ul | Macaristan NB II | 18:30 | MS 2 | 3.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bregenz VS Strum Graz Ii | Avusturya 1.Lig | 18:30 | MS X | 3.35 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Mura VS Koper | Slovenya 1.SNL | 18:30 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Ajka VS Nagykanizsai Ul | Macaristan NB II | 18:30 | MS 2 | 3.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Kozarmisleny VS Szeged 2011 | Macaristan NB II | 18:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Gyirmot VS Kecskemeti | Macaristan NB II | 18:30 | MS X | 2.95 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Tiszakecske VS Diosgyor | Macaristan NB II | 18:30 | MS X | 3.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Mol Vidi VS Mezokovesd Zsor | Macaristan NB II | 18:30 | MS 2 | 3.31 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Dugopolje VS Kustosija | Hırvatistan 2.HNL | 18:30 | MS 2 | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Jadran Lp VS Opatija | Hırvatistan 2.HNL | 18:30 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Gyirmot VS Kecskemeti | Macaristan NB II | 18:30 | MS X | 2.95 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Tiszakecske VS Diosgyor | Macaristan NB II | 18:30 | MS X | 3.01 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Mol Vidi VS Mezokovesd Zsor | Macaristan NB II | 18:30 | MS 2 | 3.31 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Dugopolje VS Kustosija | Hırvatistan 2.HNL | 18:30 | MS 2 | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Jadran Lp VS Opatija | Hırvatistan 2.HNL | 18:30 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Progrès Sakiet VS Jeunesse Sporti | Tunus 1.Lig | 18:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Al Gharraf VS Newroz | Irak Premier Lig | 18:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Al Fateh VS Al Ettifaq | Suudi Arabistan Pro Lig | 18:45 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
