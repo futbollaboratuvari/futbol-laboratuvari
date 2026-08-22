@@ -100,12 +100,7 @@ jobs:
                   if line.strip() != 'uses: actions/checkout@v4':
                       continue
                   checked += 1
-                  indent = len(line) - len(line.lstrip())
-                  window = []
-                  for candidate in lines[i+1:]:
-                      if candidate.strip() and len(candidate) - len(candidate.lstrip()) <= indent:
-                          break
-                      window.append(candidate.strip())
+                  window = [candidate.strip() for candidate in lines[i + 1:i + 8]]
                   if 'ref: main' not in window:
                       failures.append(f'{path}:{i+1}')
 
