@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 13:53:20
+Oluşturma: 22.08.2026 14:05:40
 
 ## Özet
 
-- Toplam tahmin: 364
-- Bekleyen tahmin: 364
+- Toplam tahmin: 366
+- Bekleyen tahmin: 366
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 109
@@ -20,12 +20,14 @@ Oluşturma: 22.08.2026 13:53:20
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 212, bekleyen 212, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 125, bekleyen 125, başarı bekleniyor, ağırlık 1
+- MS X: toplam 213, bekleyen 213, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 126, bekleyen 126, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 27, bekleyen 27, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | İngiltere Ulusal Lig N / S Güney | Maidenhead Utd - Farnborough | MS X | pending | 50/100
+- 2026-08-22 | İngiltere 1.Lig | Doncaster - Barnsley | MS 2 | pending | 50/100
 - 2026-08-22 | Peru Premier Lig Clausura | Univ De Cajama - Comerciantes Un | MS X | pending | 40/100
 - 2026-08-22 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Hebei Kungfu | MS X | pending | 40/100
 - 2026-08-22 | Japonya J3 Lig | Kagoshima Unit - Fc Gifu | MS 2 | pending | 40/100
@@ -39,6 +41,4 @@ Oluşturma: 22.08.2026 13:53:20
 - 2026-08-22 | Suudi Arabistan Pro Lig | Al Ahli (Cidde - Abha | MS X | pending | 40/100
 - 2026-08-22 | İngiltere Ulusal Lig N / S Güney | Farnham Town - Billericay Town | MS 2 | pending | 50/100
 - 2026-08-22 | Japonya J1 Lig | Kyoto Sanga - Mito Hollyhock | MS X | pending | 40/100
-- 2026-08-22 | İtalya Serie C Grup C | Audace Cerigno - Cosenza | MS 2 | pending | 40/100
-- 2026-08-22 | İsveç 2.Lig Södra Götaland | Karlskrona - Växjö Norra | MS 2 | pending | 50/100
 
