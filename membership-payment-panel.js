@@ -3,10 +3,6 @@
   const PANEL_ID = "membership-payment-panel";
   const SELECTED_PLAN_KEY = "fl_selected_membership_plan";
   const CUSTOMER_KEY = "fl_membership_customer_info";
-  const ACCESS_KEY = "fl_premium_beta_access";
-  const MEMBER_KEY = "fl_premium_membership";
-  const TRIAL_KEY = "fl_premium_trial";
-  const TRIAL_MS = 24 * 60 * 60 * 1000;
 
   const DEFAULT_PLANS = [
     { id: "starter", name: "Gold Paket", price: "149 TL / 3 Gün", duration_label: "3 Gün", trial_label: "1 Gün Ücretsiz Deneme", features: ["10 özel analiz hakkı", "Günlük kuponları görme", "Maç bülteni ve sonuçlar", "Özel Analiz paneli öncelikli erişim"] },
@@ -29,19 +25,6 @@
 
   const readStored = (key) => {
     try { return JSON.parse(localStorage.getItem(key) || "{}"); } catch { return {}; }
-  };
-
-  const trialCountForPlan = (plan) => plan?.id === "vip" ? 120 : plan?.id === "pro" ? 40 : 10;
-
-  const activateTrial = (plan, customer) => {
-    const startedAt = Date.now();
-    const expiresAt = startedAt + TRIAL_MS;
-    localStorage.setItem(TRIAL_KEY, JSON.stringify({ planId: plan.id, planName: plan.name, customerName: customer.name, customerEmail: customer.email, customerPhone: customer.phone, startedAt, expiresAt }));
-    localStorage.setItem(ACCESS_KEY, "1");
-    localStorage.setItem(MEMBER_KEY, JSON.stringify({ planCode: plan.id, planName: `${plan.name} Deneme`, remainingAnalysisCount: trialCountForPlan(plan), trial: true }));
-    localStorage.setItem("fl_premium_access_note", "trial");
-    localStorage.setItem("fl_premium_access_level", "trial");
-    return expiresAt;
   };
 
   const injectStyle = () => {
@@ -72,7 +55,7 @@
     return shell;
   };
 
-  const startTrial = (shell, plan) => {
+  const fallbackClick = (shell, plan) => {
     const customer = {
       name: shell.querySelector('[data-customer-field="name"]')?.value?.trim() || "",
       email: shell.querySelector('[data-customer-field="email"]')?.value?.trim() || "",
@@ -84,9 +67,8 @@
       return;
     }
     localStorage.setItem(CUSTOMER_KEY, JSON.stringify(customer));
-    const expiresAt = activateTrial(plan, customer);
-    output.innerHTML = `<strong>${esc(plan.name)} 1 günlük deneme aktif.</strong><br>Deneme bitişi: ${esc(new Date(expiresAt).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" }))}<br>Satın alma Havale / EFT / FAST ile yapılır.`;
-    document.dispatchEvent(new CustomEvent("fl:trial-access-started", { detail: { plan, customer, expiresAt } }));
+    localStorage.setItem(SELECTED_PLAN_KEY, JSON.stringify({ id: plan.id, name: plan.name, price: plan.price || "" }));
+    output.innerHTML = "<strong>Güvenli üyelik katmanı hazırlanıyor.</strong><br>Ücretsiz deneme yalnız sunucu doğrulamasıyla başlatılır; tarayıcı üzerinden doğrudan deneme erişimi verilmez. Lütfen seçenekler hazır olduğunda tekrar deneyin.";
   };
 
   const render = (plans) => {
@@ -107,9 +89,8 @@
       button.addEventListener("click", () => {
         const plan = visiblePlans.find((item) => item.id === button.dataset.plan);
         if (!plan) return;
-        localStorage.setItem(SELECTED_PLAN_KEY, JSON.stringify({ id: plan.id, name: plan.name, price: plan.price || "" }));
         shell.querySelectorAll("[data-plan-card]").forEach((card) => card.classList.toggle("selected", card === button.closest("[data-plan-card]")));
-        startTrial(shell, plan);
+        fallbackClick(shell, plan);
       });
     });
   };
