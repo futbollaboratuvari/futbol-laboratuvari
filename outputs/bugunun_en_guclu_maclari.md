@@ -2,18 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-21T23:47:27.931Z
+- Güncelleme: 2026-08-22T00:20:04.774Z
 - Ham maç sayısı: 615
 - Yarın bülteni maç sayısı: 74
 - Detay blok sayısı: 1699
-- Aktif bülten maçı: 609
-- Bültenden düşürülen maç: 6
+- Aktif bülten maçı: 607
+- Bültenden düşürülen maç: 8
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Leones Del Nor - Indep. Jose Ter | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 4.38 | 7 |
-| Deportivo Cuen - Mushuc Runa | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 2.11 | 8 |
 | Alianza Petrol - Pereira | Kolombiya Primera A Clausura | 03:30 | Veri bekleniyor | - | 1.39 | 7 |
 | Audax Italiano - Union La Calera | Şili Premier Lig | 03:30 | Veri bekleniyor | - | 1.8 | 8 |
 | Oriente Petrol - San Antonio Bul | Bolivya Premier Lig | 03:30 | Veri bekleniyor | - | 1.35 | 5 |
