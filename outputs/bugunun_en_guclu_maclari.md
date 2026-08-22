@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T16:58:20.360Z
+- Güncelleme: 2026-08-22T17:06:40.446Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -95,24 +95,24 @@
 | Sparta Rotterd VS Utrecht | Hollanda Eredivisie | 19:45 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Dundee Utd VS Dundee | İskoçya Premiership | 19:45 | MS 2 | 3.32 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Zira VS İmişli Fk | Azerbaycan Premier Lig | 19:45 | MS 2 | 5.87 | 65 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
-| Estoril VS Rio Ave | Portekiz Premier Lig | 20:00 | MS 2 | 3.43 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Albacete VS Real Sociedad I | İspanya 2.Lig | 20:00 | MS 2 | 4.49 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ceuta VS Las Palmas | İspanya 2.Lig | 20:00 | MS X | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Estoril VS Rio Ave | Portekiz Premier Lig | 20:00 | MS 2 | 3.43 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Albacete VS Real Sociedad I | İspanya 2.Lig | 20:00 | MS 2 | 4.49 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Ceuta VS Las Palmas | İspanya 2.Lig | 20:00 | MS X | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Sudtirol VS Virtus Entella | İtalya Serie B | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Carrarese VS Mantova | İtalya Serie B | 20:00 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Carrarese VS Mantova | İtalya Serie B | 20:00 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Kalamata VS Aris | Yunanistan Süper Lig | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Aek VS Iraklis 1908 | Yunanistan Süper Lig | 20:00 | MS X | 5.50 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Radnicki 1923 VS Imt Novi Beogra | Sırbistan Süper Lig | 20:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Lusitania De L VS Torreense | Portekiz 2.Lig | 20:00 | MS X | 2.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Crusaders VS Portadown Fc | Kuzey İrlanda Premiership | 20:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Real Avila VS Pozuelo Alarcon | Hazırlık Kulüpler | 20:00 | MS 2 | 4.64 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
+| Aek VS Iraklis 1908 | Yunanistan Süper Lig | 20:00 | MS X | 5.50 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | live |
+| Radnicki 1923 VS Imt Novi Beogra | Sırbistan Süper Lig | 20:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Lusitania De L VS Torreense | Portekiz 2.Lig | 20:00 | MS X | 2.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Crusaders VS Portadown Fc | Kuzey İrlanda Premiership | 20:00 | MS X | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Real Avila VS Pozuelo Alarcon | Hazırlık Kulüpler | 20:00 | MS 2 | 4.64 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Masryal Masry VS Smouha | Mısır Premier Lig | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Ghazl El Mehal VS Pyramids Fc | Mısır Premier Lig | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Fc Rustavi VS Gagra | Gürcistan Erovnuli Liga | 20:00 | MS 2 | 3.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Fc Rustavi VS Gagra | Gürcistan Erovnuli Liga | 20:00 | MS 2 | 3.72 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Milsami-Ursido VS Petrocub | Moldova Ulusal Lig | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sporting Covil VS Atletico | Portekiz 3.Lig Grup B | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Rigas Fs Ii VS Jdfs Alberts | Letonya 1.Lig | 20:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Cibalia VS Dubrava Zagred | Hırvatistan 2.HNL | 20:00 | MS 2 | 4.76 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Cibalia VS Dubrava Zagred | Hırvatistan 2.HNL | 20:00 | MS 2 | 4.76 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
 | Al-Ramtha VS Al-Hussein | Ürdün Süper Kupa Yarı Final | 20:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Cska Moskova VS L.Moskova | Rusya Premier Lig | 20:15 | MS 2 | 3.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Valencia VS Celta Vigo | İspanya LaLiga | 20:30 | MS X | 2.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
