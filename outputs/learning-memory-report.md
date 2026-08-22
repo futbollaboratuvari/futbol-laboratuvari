@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 22.08.2026 11:04:49
+Oluşturma: 22.08.2026 11:50:27
 
 ## Özet
 
-- Toplam tahmin: 349
-- Bekleyen tahmin: 349
+- Toplam tahmin: 351
+- Bekleyen tahmin: 351
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 108
@@ -20,12 +20,14 @@ Oluşturma: 22.08.2026 11:04:49
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 119, bekleyen 119, başarı bekleniyor, ağırlık 1
 - MS X: toplam 206, bekleyen 206, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 117, bekleyen 117, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 26, bekleyen 26, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-22 | İtalya Serie C Grup C | Audace Cerigno - Cosenza | MS 2 | pending | 40/100
+- 2026-08-22 | İsveç 2.Lig Södra Götaland | Karlskrona - Växjö Norra | MS 2 | pending | 50/100
 - 2026-08-22 | Türkiye TFF 1. Lig | Antalyaspor - Pendikspor | MS X | pending | 50/100
 - 2026-08-22 | Türkiye TFF 1. Lig | Bodrum Fk - Muğlaspor | MS 2 | pending | 50/100
 - 2026-08-22 | Türkiye TFF 1. Lig | Ümraniyespor - Esenler Erokspo | MS 1 | pending | 50/100
@@ -39,6 +41,4 @@ Oluşturma: 22.08.2026 11:04:49
 - 2026-08-22 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Ain - Khorfakkan Club | MS X | pending | 40/100
 - 2026-08-22 | İngiltere Ulusal Lig N / S Kuzey | Harborough Tow - Darlington 1883 | MS 2 | pending | 50/100
 - 2026-08-22 | Polonya 1.Lig | P. Bielsko - Odra Opole | MS X | pending | 50/100
-- 2026-08-22 | Çin Halk Cumhuriyeti 1.Lig | Dalian Huayi - Wuxi Wugou | MS 2 | pending | 50/100
-- 2026-08-22 | Fransa Ligue 1 | Le Mans - Brest | MS X | pending | 50/100
 

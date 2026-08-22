@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-22T07:24:42.876319+00:00
+Tarih: 2026-08-22T08:33:44.812649+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 590
-- Kac mac kaydedildi: 5
-- Kac mac zaten vardi: 585
-- Ham veri havuzu toplam mac sayisi: 8539
+- Kac mac bulundu: 585
+- Kac mac kaydedildi: 2
+- Kac mac zaten vardi: 583
+- Ham veri havuzu toplam mac sayisi: 8541
 - Hedef tarih: 22.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -25,13 +25,9 @@ Tarih: 2026-08-22T07:24:42.876319+00:00
 - Almanya Süper Kupa
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Avustralya NPL Batı Avustralya
 - Avustralya NPL Güney Avustralya Eleme Final
 - Avustralya NPL Kuzey YGG Eleme Final
-- Avustralya NPL Victoria
 - Avustralya NPL Yeni Güney Galler
-- Avustralya Victoria NPL 1
-- Avustralya Victoria NPL 2
 - Avusturya 1.Lig
 - Avusturya Bundesliga
 - Azerbaycan Premier Lig
@@ -256,7 +252,7 @@ Tarih: 2026-08-22T07:24:42.876319+00:00
 | 22.08.2026 | 21:45 | İtalya Serie A | Genoa | Napoli | 29484 | 5 |
 | 22.08.2026 | 21:45 | İtalya Serie A | Parma | Cagliari | 29542 | 5 |
 | 22.08.2026 | 19:30 | İtalya Serie A | Udinese | Como | 29310 | 5 |
-| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 4 |
+| 22.08.2026 | 19:30 | İtalya Serie A | Inter | Monza | 29253 | 5 |
 | 22.08.2026 | 21:45 | Fransa Ligue 1 | Le Mans | Brest | 40452 | 5 |
 
 ## Sonuc
