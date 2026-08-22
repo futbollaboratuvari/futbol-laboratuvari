@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 75
-- Live match count: 38
+- Scheduled match count: 70
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-08-22 / 2026-08-23 23:59
+- Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-22 21:45 | Antwerp - Genk | live
-- 2026-08-22 21:45 | Siroki Brijeg - Radnik Bijeljin | live
-- 2026-08-22 21:45 | Velez Mostar - Sloga Doboj | live
-- 2026-08-22 21:45 | Le Mans - Brest | live
-- 2026-08-22 21:45 | Nice - Lorient | live
-- 2026-08-22 21:45 | Toulouse - Lyon | live
-- 2026-08-22 21:45 | Troyes - Paris Fc | live
-- 2026-08-22 21:45 | Genoa - Napoli | live
-- 2026-08-22 21:45 | Parma - Cagliari | live
-- 2026-08-22 22:00 | Atletico Tucum - Instituto Cordo | live
+- 2026-08-23 00:05 | Deportes Tolim - Bucaramanga | scheduled
+- 2026-08-23 00:15 | Aurora - Real Potosi | scheduled
+- 2026-08-23 00:30 | Independiente - Rivadavia | scheduled
+- 2026-08-23 00:30 | Internacional - Atletico Mg | scheduled
+- 2026-08-23 00:30 | Cuiaba - Goias | scheduled
+- 2026-08-23 00:30 | T.Universitari - Guayaquil City | scheduled
+- 2026-08-23 00:30 | Huachipato - Deportes Limach | scheduled
+- 2026-08-23 00:30 | Deportivo Mald - Penarol | scheduled
+- 2026-08-23 01:00 | Metropolitanos - Depor Tachira | scheduled
+- 2026-08-23 01:30 | Loudoun United - New Mexico Unit | scheduled
