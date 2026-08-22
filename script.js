@@ -101,7 +101,7 @@ const getSignalsText = (item) => {
   return String(signals || "");
 };
 
-const couponCard = (item) => `
+const proAnalysisCouponCard = (item) => `
   <article class="robot-live-card">
     <h3>${escapeHtml(normalizeTitle(item))}</h3>
     <div class="robot-row"><span>Seçenek</span><strong>${escapeHtml(normalizeMarket(item))}</strong></div>
@@ -164,7 +164,7 @@ const renderProAnalysisCenter = (payload, bulletinPayload = null) => {
 
   if (strongestPickCard) {
     strongestPickCard.innerHTML = candidateItems[0]
-      ? couponCard(candidateItems[0])
+      ? proAnalysisCouponCard(candidateItems[0])
       : emptyBox(visibleItems.length
         ? `${visibleItems.length} robot kaydı geldi ancak kupon/izleme eşiğini geçen güçlü aday yok.`
         : "Maç listesi geldi; günün seçimi PRO analiz çıktısı oluşunca gösterilecek.");
