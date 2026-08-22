@@ -3,40 +3,14 @@
 Gunler: 2026-08-22 / 2026-08-23
 Kaynak: fixtures.json
 Ham mac: 631
-Aktif mac: 510
-Canli mac: 56
+Aktif mac: 484
+Canli mac: 82
 Biten mac: 65
-Bultenden dusurulen mac: 121
-Bugun: 436
+Bultenden dusurulen mac: 147
+Bugun: 410
 Yarin: 74
 
 ## Baslamamis Maclar
-- 2026-08-22 14:30 | İngiltere Premier Lig | Hull - Man. Utd | scheduled | -
-- 2026-08-22 14:30 | İngiltere Championship | Millwall - Norwich | scheduled | -
-- 2026-08-22 14:30 | İngiltere Championship | Lincoln - Portsmouth | scheduled | -
-- 2026-08-22 14:30 | İngiltere Championship | Birmingham - Bristol City | scheduled | -
-- 2026-08-22 14:30 | İngiltere 1.Lig | Doncaster - Barnsley | scheduled | -
-- 2026-08-22 14:30 | İngiltere 1.Lig | Luton - Notts County | scheduled | -
-- 2026-08-22 14:30 | Galler Premier Lig 1.Aşama | Ammanford - Gap Connahs Qua | scheduled | -
-- 2026-08-22 14:30 | İngiltere 2.Lig | Walsall - Grimsby | scheduled | -
-- 2026-08-22 14:30 | İngiltere 2.Lig | Bristol Rovers - Newport County | scheduled | -
-- 2026-08-22 14:30 | İngiltere 2.Lig | Salford City - Chesterfield | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Solihull Moors - Southend | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Eastleigh - Scunthorpe | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Woking - Afc Fylde | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Carlisle - Hornchurch | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Forest Green - Boreham Wood | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Harrogate - Barrow | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Yeovil - Gateshead | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Sutton United - Hartlepool | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Halifax - Tamworth | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Worthing - Wealdstone | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Boston United - Altrincham | scheduled | -
-- 2026-08-22 14:30 | İngiltere Ulusal Lig | Kidderminster - Aldershot | scheduled | -
-- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Guangzhou E-Pow | scheduled | -
-- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Suzhou Dongwu | scheduled | -
-- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nantong Zhiyun - Shaanxi Union | scheduled | -
-- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Hebei Kungfu | scheduled | -
 - 2026-08-22 14:35 | Çin Halk Cumhuriyeti Süper Lig | Chengdu Ron. - Shanghai Shenhu | scheduled | -
 - 2026-08-22 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shenzhen Peng - Zhejiang G. Fc | scheduled | -
 - 2026-08-22 15:00 | Fransa Ligue 2 | Metz - Stade Lavallois | scheduled | -
@@ -579,6 +553,32 @@ Yarin: 74
 - 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Gottne - Skelleftea | live | -
 - 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Ifk Lulea - Kubikenborgs If | live | -
 - 2026-08-22 14:00 | İsveç 2.Lig Norrland Yükselme Grubu | Bodens - Ifk Ostersund | live | -
+- 2026-08-22 14:30 | İngiltere Premier Lig | Hull - Man. Utd | live | -
+- 2026-08-22 14:30 | İngiltere Championship | Millwall - Norwich | live | -
+- 2026-08-22 14:30 | İngiltere Championship | Lincoln - Portsmouth | live | -
+- 2026-08-22 14:30 | İngiltere Championship | Birmingham - Bristol City | live | -
+- 2026-08-22 14:30 | İngiltere 1.Lig | Doncaster - Barnsley | live | -
+- 2026-08-22 14:30 | İngiltere 1.Lig | Luton - Notts County | live | -
+- 2026-08-22 14:30 | Galler Premier Lig 1.Aşama | Ammanford - Gap Connahs Qua | live | -
+- 2026-08-22 14:30 | İngiltere 2.Lig | Walsall - Grimsby | live | -
+- 2026-08-22 14:30 | İngiltere 2.Lig | Bristol Rovers - Newport County | live | -
+- 2026-08-22 14:30 | İngiltere 2.Lig | Salford City - Chesterfield | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Solihull Moors - Southend | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Eastleigh - Scunthorpe | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Woking - Afc Fylde | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Carlisle - Hornchurch | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Forest Green - Boreham Wood | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Harrogate - Barrow | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Yeovil - Gateshead | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Sutton United - Hartlepool | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Halifax - Tamworth | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Worthing - Wealdstone | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Boston United - Altrincham | live | -
+- 2026-08-22 14:30 | İngiltere Ulusal Lig | Kidderminster - Aldershot | live | -
+- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Meizhou Hakka - Guangzhou E-Pow | live | -
+- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Guangxi Hengch - Suzhou Dongwu | live | -
+- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Nantong Zhiyun - Shaanxi Union | live | -
+- 2026-08-22 14:30 | Çin Halk Cumhuriyeti 1.Lig | Heilongjiang L - Hebei Kungfu | live | -
 
 ## Biten Maclar
 - 2026-08-22 00:05 | Kolombiya Primera A Clausura | Jaguares - Chico | finished | -
