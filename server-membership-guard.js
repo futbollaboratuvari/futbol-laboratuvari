@@ -198,6 +198,14 @@
       analyzeBypass = false;
       return;
     }
+
+    // Analiz oluşmadan hak tüketme: kullanıcı en az bir gerçek maç seçmiş olmalı.
+    // Seçim yoksa mevcut panel kendi "En az 1 maç seç" uyarısını gösterebilir.
+    const matchSelect = document.querySelector("#premium-analysis-panel [data-pa-match]");
+    const hasSelection = Array.from(matchSelect?.selectedOptions || [])
+      .some((option) => String(option.value || "") !== "");
+    if (!hasSelection) return;
+
     event.preventDefault();
     event.stopPropagation();
     event.stopImmediatePropagation();
