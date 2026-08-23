@@ -182,9 +182,12 @@
 
   async function readJson(url) {
     try {
-      const r = await fetch(`${url}?v=${Date.now()}`, { cache: "no-store" });
-      if (!r.ok) throw new Error(String(r.status));
-      return { ok: true, data: await r.json() };
+      if (typeof window.__flReadJsonShared === "function") {
+        return { ok: true, data: await window.__flReadJsonShared(url) };
+      }
+      const response = await fetch(url, { cache: "no-cache" });
+      if (!response.ok) throw new Error(String(response.status));
+      return { ok: true, data: await response.json() };
     } catch (error) {
       return { ok: false, data: null, error };
     }
@@ -204,15 +207,21 @@
   }
 
   async function load() {
-    const [fullRes, liveRes, twoDayRes] = await Promise.all([
+    const [fullRes, liveRes] = await Promise.all([
       readJson("./data/full-bulletin.json"),
-      readJson("./data/live-matches.json"),
-      readJson("./data/two-day-bulletin.json")
+      readJson("./data/live-matches.json")
     ]);
+    const fullHasMatches = fullRes.ok && [
+      ...(Array.isArray(fullRes.data?.matches) ? fullRes.data.matches : []),
+      ...(Array.isArray(fullRes.data?.scheduled_matches) ? fullRes.data.scheduled_matches : [])
+    ].length > 0;
+    const twoDayRes = fullHasMatches
+      ? { ok: true, data: null, skipped: true }
+      : await readJson("./data/two-day-bulletin.json");
     const full = fullRes.data;
     const live = liveRes.data;
     const twoDay = twoDayRes.data;
-    app.dataWarning = !fullRes.ok || !liveRes.ok || !twoDayRes.ok ? "Veri akışı kesildi; son geçerli liste korunuyor." : "";
+    app.dataWarning = !liveRes.ok || (!fullRes.ok && !twoDayRes.ok) ? "Veri akışı kesildi; son geçerli liste korunuyor." : "";
 
     if (!fullRes.ok && !twoDayRes.ok && (app.bulletin.length || app.live.length || app.finished.length)) {
       draw();
@@ -236,6 +245,10 @@
     app.bulletin = sortMatches(classified.filter((m) => m._state === "scheduled"));
     app.live = sortMatches(classified.filter((m) => m._state === "live"));
     app.finished = sortMatches(classified.filter((m) => m._state === "finished"));
+    window.__flPremiumBulletinMatches = app.bulletin;
+    window.dispatchEvent(new CustomEvent("fl:bulletin-ready", {
+      detail: { matches: app.bulletin, generatedAt: app.lastUpdated, source: app.source }
+    }));
     draw();
   }
 

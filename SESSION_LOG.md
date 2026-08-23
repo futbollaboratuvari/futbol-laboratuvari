@@ -126,3 +126,19 @@ Summary:
 - Added Node tests for upcoming filtering, schema normalization, goal analysis, no-pick behavior, coupon calculations and Turkish search.
 - JavaScript syntax checks, core tests, real-bulletin scenario checks, CSS/HTML structural checks and the static build completed successfully. The sparse local checkout caused the build to skip an unavailable optional bulletin merge module; no bulletin file was modified.
 - Did not change daily-matches-widget.js, bulletin JSON data, Kuponum, workflows, CNAME, DNS or payment configuration.
+
+2026-08-23
+
+Homepage performance repair completed.
+
+Summary:
+- Measured the live startup graph and found repeated robot-analysis.json downloads (about 4.9 MB each), unconditional two-day-bulletin.json loading (about 1.5 MB), duplicated full bulletin reads and legacy panel scripts running against selectors that no longer exist.
+- Gated robot-analysis.json, raw pool and report downloads behind the admin elements that actually consume them.
+- Removed learning visibility, legacy wide-market, obsolete daily-row and coupon fallback chains from homepage startup while keeping their files in the repository for rollback.
+- Added a short-lived shared JSON request layer so concurrent full bulletin, fixtures, live, coupon and history readers use one network request without blocking later refreshes.
+- Changed the daily widget to load two-day-bulletin.json only when full-bulletin.json is missing or empty, and exposed its normalized upcoming list to Özel Analiz V3.
+- Deferred membership/payment code until the membership panel opens, and moved the guide/visual helpers to browser idle time.
+- Debounced the site language mutation work and reduced repeated header cleanup frequency.
+- Added performance regression tests covering shared requests, skipped 4.9 MB admin data and removal of obsolete startup chains.
+- JavaScript syntax checks, Özel Analiz tests, performance tests and local/remote asset-reference validation passed.
+- Did not change any bulletin JSON, workflow, CNAME/DNS, bank endpoint or payment configuration.

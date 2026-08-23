@@ -480,12 +480,34 @@
   };
 
   const fetchBulletin = async () => {
+    const sharedMatches = () => Array.isArray(window.__flPremiumBulletinMatches)
+      ? window.__flPremiumBulletinMatches
+      : [];
+    if (!sharedMatches().length) {
+      await new Promise((resolve) => {
+        let settled = false;
+        const done = () => {
+          if (settled) return;
+          settled = true;
+          window.removeEventListener("fl:bulletin-ready", done);
+          resolve();
+        };
+        window.addEventListener("fl:bulletin-ready", done, { once: true });
+        window.setTimeout(done, 5000);
+      });
+    }
+    const shared = CORE.filterUpcoming(sharedMatches(), new Date());
+    if (shared.length) return shared;
+
     const sources = ["./data/full-bulletin.json", "./data/two-day-bulletin.json"];
     for (const source of sources) {
       try {
-        const response = await fetch(`${source}?ts=${Date.now()}`, { cache: "no-store" });
-        if (!response.ok) continue;
-        const data = await response.json();
+        const data = typeof window.__flReadJsonShared === "function"
+          ? await window.__flReadJsonShared(source)
+          : await fetch(source, { cache: "no-cache" }).then((response) => {
+            if (!response.ok) throw new Error(String(response.status));
+            return response.json();
+          });
         const matches = Array.isArray(data.matches) ? data.matches : Array.isArray(data.fixtures) ? data.fixtures : [];
         const upcoming = CORE.filterUpcoming(matches, new Date());
         if (upcoming.length) return upcoming;

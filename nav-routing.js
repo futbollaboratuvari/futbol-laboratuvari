@@ -32,6 +32,26 @@
     document.head.appendChild(link);
   };
 
+  let membershipLoaded = false;
+  let idleEnhancementsQueued = false;
+
+  const loadMembership = () => {
+    if (membershipLoaded) return;
+    membershipLoaded = true;
+    ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
+    ensureScript("bank-transfer-payment.js", "bank-transfer-payment-script");
+    ensureScript("membership-bank-transfer-bridge.js", "membership-bank-transfer-bridge-script");
+    ensureScript("membership-submit-guard.js", "membership-submit-guard-script");
+  };
+
+  const queueIdleEnhancements = () => {
+    if (idleEnhancementsQueued) return;
+    idleEnhancementsQueued = true;
+    const load = () => ensureScript("guide-bot.js", "guide-bot-script");
+    if ("requestIdleCallback" in window) window.requestIdleCallback(load, { timeout: 3500 });
+    else window.setTimeout(load, 2200);
+  };
+
   const removeHeaderAccessButtons = () => {
     const header = document.querySelector(".site-header");
     if (!header) return;
@@ -51,7 +71,7 @@
     window.__flHeaderAccessGuard = true;
     const observer = new MutationObserver(removeHeaderAccessButtons);
     observer.observe(document.documentElement, { childList: true, subtree: true });
-    setInterval(removeHeaderAccessButtons, 800);
+    setInterval(removeHeaderAccessButtons, 5000);
   };
 
   const resolveHash = (hash) => hash === "#yaklasan-maclar" ? "#daily-matches-widget" : hash;
@@ -82,21 +102,15 @@
     ensureStylesheet("premium-analysis-v3.css", "premium-analysis-v3-style");
     ensureScript("panel-stabilizer.js", "panel-stabilizer-script");
     ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
-    ensureScript("daily-toggle.js", "daily-toggle-script");
-    ensureScript("daily-past-filter.js", "daily-past-filter-script");
-    ensureScript("daily-live-score-presenter.js", "daily-live-score-presenter-script");
     ensureScript("server-membership-guard.js", "server-membership-guard-script");
-    ensureScript("membership-payment-panel.js", "membership-payment-panel-script");
-    ensureScript("bank-transfer-payment.js", "bank-transfer-payment-script");
-    ensureScript("membership-bank-transfer-bridge.js", "membership-bank-transfer-bridge-script");
-    ensureScript("membership-submit-guard.js", "membership-submit-guard-script");
     ensureScript("premium-analysis-v3-core.js", "premium-analysis-v3-core-script");
     ensureScript("premium-analysis-v3.js", "premium-analysis-v3-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
     ensureScript("hero-vitrin.js", "hero-vitrin-script");
     ensureScript("site-human-language.js", "site-human-language-script");
-    ensureScript("guide-bot.js", "guide-bot-script");
+    queueIdleEnhancements();
+    if (window.location.hash === "#membership-payment-panel") loadMembership();
 
     const button = document.querySelector(".menu-toggle");
     const nav = document.querySelector(".nav-links");
@@ -110,6 +124,7 @@
   };
 
   document.addEventListener("click", (event) => {
+    if (event.target.closest?.('[data-target-panel="membership-payment-panel"]')) loadMembership();
     const link = event.target.closest?.('a[href*="#"]');
     if (!link) return;
     const url = new URL(link.getAttribute("href"), window.location.href);
@@ -117,6 +132,10 @@
     event.preventDefault();
     goToSection(url.hash);
   }, true);
+
+  window.addEventListener("fl:open-panel", (event) => {
+    if (event.detail?.id === "membership-payment-panel") loadMembership();
+  });
 
   boot();
   document.addEventListener("DOMContentLoaded", boot, { once: true });

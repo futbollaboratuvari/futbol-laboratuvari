@@ -40,6 +40,8 @@
   const waitingText = "Bugün için uygun kupon adayı hazırlanıyor.";
   let candidateLoading = false;
   let fallbackLoading = false;
+  let candidateCheckedAt = 0;
+  let fallbackCheckedAt = 0;
 
   const injectLiveBlinkCss = () => {
     if (document.querySelector("#fl-live-text-style")) return;
@@ -92,12 +94,13 @@
 
   const normalizeHeroCandidate = async () => {
     const target = document.querySelector("#top-market");
-    if (!target || candidateLoading) return;
+    if (!target || candidateLoading || Date.now() - candidateCheckedAt < 30000) return;
     const current = (target.textContent || "").trim();
     if (current && current !== "-" && !/hazırlanıyor|değerli market yok/i.test(current)) return;
     candidateLoading = true;
+    candidateCheckedAt = Date.now();
     try {
-      const response = await fetch("./data/daily-coupons.json", { cache: "no-store" });
+      const response = await fetch("./data/daily-coupons.json", { cache: "no-cache" });
       if (!response.ok) throw new Error("not ready");
       const data = await response.json();
       const coupons = data.coupons || {};
@@ -120,7 +123,8 @@
     .replaceAll("'", "&#039;");
   const readJson = async (url, fallback) => {
     try {
-      const res = await fetch(url, { cache: "no-store" });
+      if (typeof window.__flReadJsonShared === "function") return await window.__flReadJsonShared(url);
+      const res = await fetch(url, { cache: "no-cache" });
       return res.ok ? await res.json() : fallback;
     } catch {
       return fallback;
@@ -153,8 +157,9 @@
   };
 
   const renderCouponFallback = async () => {
-    if (fallbackLoading) return;
+    if (fallbackLoading || Date.now() - fallbackCheckedAt < 30000) return;
     fallbackLoading = true;
+    fallbackCheckedAt = Date.now();
     try {
       const [live, history, daily] = await Promise.all([
         readJson("./data/live-matches.json", { matches: [], active_items: [], counts: {} }),
@@ -279,27 +284,32 @@
   };
 
   run();
-  document.addEventListener("DOMContentLoaded", run, { once: true });
   window.addEventListener("load", () => {
-    run();
-    setTimeout(run, 300);
-    setTimeout(run, 1000);
-    setTimeout(run, 2500);
+    setTimeout(run, 600);
+    setTimeout(run, 2200);
   }, { once: true });
 
   if (window.MutationObserver) {
+    const pendingNodes = new Set();
+    let mutationTimer = 0;
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
-        mutation.addedNodes.forEach(humanizeNode);
-        if (mutation.type === "characterData") humanizeNode(mutation.target);
+        mutation.addedNodes.forEach((node) => pendingNodes.add(node));
+        if (mutation.type === "characterData") pendingNodes.add(mutation.target);
       });
-      injectLiveBlinkCss();
-      humanizeAttributes();
-      normalizeHeroStatus();
-      normalizeHeroCandidate();
-      normalizeLiveStatusText();
-      polishPremiumMatchList();
-      renderCouponFallback().then(cleanupCouponCards);
+      if (mutationTimer) return;
+      mutationTimer = window.setTimeout(() => {
+        mutationTimer = 0;
+        pendingNodes.forEach(humanizeNode);
+        pendingNodes.clear();
+        injectLiveBlinkCss();
+        humanizeAttributes();
+        normalizeHeroStatus();
+        normalizeHeroCandidate();
+        normalizeLiveStatusText();
+        polishPremiumMatchList();
+        renderCouponFallback().then(cleanupCouponCards);
+      }, 180);
     });
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
   }

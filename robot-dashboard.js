@@ -14,7 +14,7 @@ const emptyMessage = "Bugün için güncel veri henüz oluşmadı.";
 
 async function robotReadText(path) {
   try {
-    const response = await fetch(path, { cache: "no-store" });
+    const response = await fetch(path, { cache: "no-cache" });
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     return { ok: true, data: await response.text(), error: null };
   } catch (error) {
@@ -23,6 +23,13 @@ async function robotReadText(path) {
 }
 
 async function robotReadJson(path, fallback) {
+  if (typeof window.__flReadJsonShared === "function") {
+    try {
+      return { ok: true, data: await window.__flReadJsonShared(path), error: null };
+    } catch (error) {
+      return { ok: false, data: fallback, error: error.message };
+    }
+  }
   const result = await robotReadText(path);
   if (!result.ok) return { ok: false, data: fallback, error: result.error };
   try {
@@ -203,16 +210,21 @@ function renderReports(reports) {
 }
 
 async function robotLoadState() {
+  const needsAnalysis = Boolean(document.querySelector("[data-admin-matches], [data-prediction-table]"));
+  const needsRawPool = Boolean(document.querySelector("[data-raw-table], [data-raw-count]"));
+  const needsReports = Boolean(document.querySelector("[data-report-status]"));
+  const skippedJson = (data) => Promise.resolve({ ok: true, data, error: null });
+  const skippedText = () => Promise.resolve({ ok: true, data: "", error: null });
   const [live, coupons, analysis, bridge, raw, history, mainReport, sourceReport, successReport] = await Promise.all([
     robotReadJson(robotPaths.liveMatches, { matches: [], message: emptyMessage }),
     robotReadJson(robotPaths.dailyCoupons, { coupons: {}, message: emptyMessage }),
-    robotReadJson(robotPaths.robotAnalysis, { matches: [], summary: {} }),
+    needsAnalysis ? robotReadJson(robotPaths.robotAnalysis, { matches: [], summary: {} }) : skippedJson({ matches: [], summary: {} }),
     robotReadJson(robotPaths.robotBridge, { status: "missing" }),
-    robotReadJson(robotPaths.rawPool, { match_count: 0, matches: [] }),
+    needsRawPool ? robotReadJson(robotPaths.rawPool, { match_count: 0, matches: [] }) : skippedJson({ match_count: 0, matches: [] }),
     robotReadJson(robotPaths.history, { active_items: [], completed_items: [] }),
-    robotReadText(robotPaths.mainReport),
-    robotReadText(robotPaths.sourceReport),
-    robotReadText(robotPaths.successReport)
+    needsReports ? robotReadText(robotPaths.mainReport) : skippedText(),
+    needsReports ? robotReadText(robotPaths.sourceReport) : skippedText(),
+    needsReports ? robotReadText(robotPaths.successReport) : skippedText()
   ]);
 
   return {

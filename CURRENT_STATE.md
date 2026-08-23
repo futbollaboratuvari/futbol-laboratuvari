@@ -2,7 +2,17 @@
 
 2026-08-23
 
-Main focus: Özel Analiz V3 kullanıcı akışı.
+Main focus: ana sayfa açılış performansı ve Özel Analiz V3 sürekliliği.
+
+Current performance state:
+- Ana sayfa artık yaklaşık 4,9 MB boyutundaki robot-analysis.json dosyasını yalnız yönetim/tahmin tabloları gerçekten varsa ister.
+- learning-visibility ve learning-output-visibility katmanları ana sayfa başlangıcında otomatik yüklenmez.
+- Günlük maç widget'ı önce full-bulletin.json ve live-matches.json dosyalarını okur; two-day-bulletin.json yalnız ana bülten boş veya erişilemezse yedek olarak çağrılır.
+- Aynı JSON dosyasına eş zamanlı erişen ana sayfa bölümleri 15 saniyelik kısa bir ortak istek penceresi kullanır; bu pencere yalnız yinelenen çağrıları birleştirir, dakikalık güncellemeleri engellemez.
+- Özel Analiz V3, günlük widget'ın hazırladığı yaklaşan maç listesini yeniden kullanır ve gereksiz ikinci bülten indirmesini önler.
+- Yeni flw günlük maç paneliyle uyumsuz eski daily-toggle, daily-past-filter ve daily-live-score-presenter eklentileri başlangıç zincirinden çıkarıldı.
+- Üyelik/ödeme betikleri yalnız Üyelik paneli açıldığında yüklenir; rehber ve görsel yardımcılar boş zamanda başlatılır.
+- Veri üretim iş akışları, bülten JSON dosyaları, CNAME/DNS ve ödeme yapılandırması değiştirilmedi.
 
 Current special analysis state:
 - Özel Analiz artık statik olarak HTML içinde bulunur ve Maç → Analiz → Sonuç olmak üzere üç adımda ilerler.
@@ -12,7 +22,7 @@ Current special analysis state:
 - Maç kaynağı full-bulletin.json, güvenli yedek kaynak two-day-bulletin.json dosyasıdır. Canlı, bitmiş, iptal veya ertelenmiş maçlar Özel Analiz listesine alınmaz.
 - Üyelik kodu ve analiz hakkı server-membership-guard.js üzerinden sunucuda kontrol edilir; kalan hak üst çipte gösterilir.
 - Eski premium panel katmanları geri dönüş için repoda korunur ancak ana sayfada ve dinamik yönlendirmede yüklenmez.
-- Günlük maç widget'ı, bülten JSON dosyaları, Kuponum ve veri üretim iş akışları değiştirilmedi.
+- Günlük maç widget'ının görünümü ve Kuponum davranışı korundu; yalnız ağ istekleri birleştirildi ve iki günlük büyük dosya yedek koşuluna bağlandı.
 
 2026-07-03
 

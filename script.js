@@ -56,11 +56,30 @@ const fixtureStatusLabel = (status) => {
 
 const emptyBox = (message) => `<div class="fixtures-empty">${escapeHtml(message)}</div>`;
 
+const flSharedJsonRequests = window.__flSharedJsonRequests instanceof Map
+  ? window.__flSharedJsonRequests
+  : new Map();
+window.__flSharedJsonRequests = flSharedJsonRequests;
+
+const readJsonShared = (path, maxAge = 15 * 1000) => {
+  const key = new URL(path, window.location.href).href;
+  const current = flSharedJsonRequests.get(key);
+  if (current && Date.now() - current.startedAt < maxAge) return current.promise;
+  const promise = fetch(path, { cache: "no-cache" }).then(async (response) => {
+    if (!response.ok) throw new Error(`${path} ${response.status}`);
+    return response.json();
+  });
+  flSharedJsonRequests.set(key, { startedAt: Date.now(), promise });
+  promise.catch(() => {
+    if (flSharedJsonRequests.get(key)?.promise === promise) flSharedJsonRequests.delete(key);
+  });
+  return promise;
+};
+window.__flReadJsonShared = readJsonShared;
+
 const readJson = async (path, fallback) => {
   try {
-    const response = await fetch(path, { cache: "no-store" });
-    if (!response.ok) throw new Error(`${path} ${response.status}`);
-    return await response.json();
+    return await readJsonShared(path);
   } catch (error) {
     return fallback;
   }

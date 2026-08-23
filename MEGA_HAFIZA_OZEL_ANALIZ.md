@@ -137,3 +137,11 @@ Güncel ana dosyalar:
 - tests/premium-analysis-v3.test.js
 
 Veri kaynağı sırası full-bulletin.json ve güvenli yedek olarak two-day-bulletin.json dosyasıdır. Canlı, bitmiş, iptal ve ertelenmiş maçlar Özel Analiz listesine girmez. Eski premium dosyaları geri dönüş amacıyla repoda tutulur fakat V3 sayfasında yüklenmez.
+
+## 2026-08-23 performans koruması
+
+- V3 önce günlük maç widget'ının normalize ettiği yaklaşan maç listesini kullanır.
+- full-bulletin.json eş zamanlı istekleri ortak kısa süreli ağ katmanında birleşir.
+- two-day-bulletin.json yalnız ana bülten boş veya erişilemez olduğunda indirilir.
+- Ana sayfa robot-analysis.json ve eski learning/premium eklentilerini başlangıçta yüklemez.
+- Bu kurallar değiştirilirken V3 üyelik doğrulaması ve analiz hakkı tüketimi korunmalıdır.
