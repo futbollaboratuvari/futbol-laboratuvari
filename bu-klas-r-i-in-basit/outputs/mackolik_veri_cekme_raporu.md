@@ -1,38 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T20:22:29.097319+00:00
+Tarih: 2026-08-23T20:35:01.714389+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 36
+- Kac mac bulundu: 3
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 36
+- Kac mac zaten vardi: 3
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- Arjantin Premier Lig 2. Aşama
-- Bolivya Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
-- Guatemala Ulusal Lig Apertura
-- Honduras Ulusal Lig Apertura
-- Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
-- Peru Premier Lig Clausura
 - Tanzanya Kuu Bara Ligi
-- Uruguay Premier Lig Clausura
 - İtalya Primavera Şampiyonası 1
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -89,8 +73,8 @@ Tarih: 2026-08-23T20:22:29.097319+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 22
-- Acilan detay: 22
+- Denenen Tumu alani: 20
+- Acilan detay: 20
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -104,25 +88,8 @@ Tarih: 2026-08-23T20:22:29.097319+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 23.08.2026 | 23:30 | ABD MLS | New England | New York City | 40549 | 5 |
-| 24.08.2026 | 02:00 | ABD MLS | Atlanta Utd | Kansas | 40663 | 5 |
-| 24.08.2026 | 00:30 | Brezilya Serie A | Chapecoense | Sao Paulo | 42417 | 5 |
-| 24.08.2026 | 00:30 | Brezilya Serie A | Santos | Mirassol | 42508 | 5 |
-| 24.08.2026 | 01:30 | Brezilya Serie A | Coritiba | Corinthians | 42566 | 5 |
-| 24.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | River Plate | Velez Sarsfield | 32748 | 5 |
-| 24.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club | Boca Juniors | 32878 | 5 |
-| 24.08.2026 | 02:00 | Meksika Liga MX Apertura | Atletico San L | Pachuca | 26663 | 5 |
-| 24.08.2026 | 04:00 | Meksika Liga MX Apertura | Pumas Unam | Necaxa | 26707 | 5 |
-| 24.08.2026 | 00:05 | Kolombiya Primera A Clausura | Deportivo Past | Llaneros | 44788 | 5 |
-| 24.08.2026 | 02:10 | Kolombiya Primera A Clausura | Deportivo Cali | Inter Bogota | 44805 | 5 |
-| 24.08.2026 | 04:15 | Kolombiya Primera A Clausura | Atletico Junio | Once Caldas | 44839 | 5 |
-| 23.08.2026 | 23:30 | Peru Premier Lig Clausura | Melgar | Alianza Lima | 26851 | 5 |
-| 24.08.2026 | 02:30 | Peru Premier Lig Clausura | Universitario | Chankas Cyc | 26868 | 5 |
-| 24.08.2026 | 02:00 | Şili Premier Lig | O Higgins | Palestino | 36631 | 5 |
 | 23.08.2026 | 17:45 | İtalya Primavera Şampiyonası 1 | Genoa U20 | Internazionale | 07031 | 5 |
-| 24.08.2026 | 00:30 | Brezilya Serie B | Criciuma | Fortaleza Ce | 42475 | 5 |
-| 24.08.2026 | 00:00 | Brezilya Serie B | Operario | Vila Nova | 42385 | 5 |
-| 24.08.2026 | 00:30 | Uruguay Premier Lig Clausura | Nacional Df | Progreso | 33839 | 5 |
-| 24.08.2026 | 04:00 | Meksika Ascenso MX Apertura | Cd Tapatio | Zacatecas | 26690 | 5 |
+| 23.08.2026 | 16:00 | Tanzanya Kuu Bara Ligi | Mbeya City | Mashujaa | 01278 | 3 |
 
 ## Sonuc
 
