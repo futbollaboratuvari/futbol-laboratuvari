@@ -4,20 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T23:38:28.306Z
+- Güncelleme: 2026-08-22T23:53:47.041Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Aurora VS Real Potosi | Bolivya Premier Lig | 00:15 | MS 2 | 3.85 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Internacional VS Atletico Mg | Brezilya Serie A | 00:30 | MS 2 | 3.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Independiente VS Rivadavia | Arjantin Premier Lig 2. Aşama | 00:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Huachipato VS Deportes Limach | Şili Premier Lig | 00:30 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Cuiaba VS Goias | Brezilya Serie B | 00:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Deportivo Mald VS Penarol | Uruguay Premier Lig Clausura | 00:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| T.Universitari VS Guayaquil City | Ekvador Pro Lig | 00:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Metropolitanos VS Depor Tachira | Venezuela Premier Lig Clausura | 01:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Loudoun United VS New Mexico Unit | ABD USL | 01:30 | MS X | 3.16 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Liberia VS Cs Cartagines | Kosta Rika Premier Lig Apertura | 02:00 | MS X | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
@@ -157,7 +150,7 @@
 | Falubaz Zielon VS Hutnik Krakow | Polonya 2.Lig | 15:30 | MS X | 2.95 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Radomiak Radom VS Zaglebie Lubin | Polonya Ekstraklasa | 15:45 | MS X | 2.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Brighton VS Aston Villa | İngiltere Premier Lig | 16:00 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Manchester Cit VS Bournemouth | İngiltere Premier Lig | 16:00 | MS 2 | 5.13 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Manchester Cit VS Bournemouth | İngiltere Premier Lig | 16:00 | MS 2 | 5.20 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Angers VS Lille | Fransa Ligue 1 | 16:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Penafiel VS Sporting Cp (B) | Portekiz 2.Lig | 16:00 | MS X | 2.83 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Brage VS United Nordic | İsveç Superettan | 16:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -182,7 +175,7 @@
 | Paide Linnamee VS Nomme United | Estonya Premium Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Rb Leipzig (K) VS Bayer Leverkuse | Almanya Kadınlar Bundesliga | 17:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Örebro Syrians VS Farsta | İsveç 2.Lig Södra Svealand | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Kí Klaksvík VS Runavik | Faroe Adaları Master Lig | 17:00 | MS 2 | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Kí Klaksvík VS Runavik | Faroe Adaları Master Lig | 17:00 | MS 2 | 2.96 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Streymur VS Ab Argir | Faroe Adaları Master Lig | 17:00 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hb Torshavn VS Vestur Sorvagur | Faroe Adaları Master Lig | 17:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Throttur Vogar VS Selfoss | İzlanda 2.Lig | 17:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -358,7 +351,7 @@
 ## Tek Mac Onerileri
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Manchester Cit VS Bournemouth | MS 2 | 5.13 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Manchester Cit VS Bournemouth | MS 2 | 5.20 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Vancouver VS Dallas | MS 2 | 5.08 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Vjs VS Fc Jazz | MS 2 | 4.45 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Hammarby VS Gais | MS 2 | 6.40 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
@@ -368,12 +361,12 @@
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Manchester Cit VS Bournemouth + Vancouver VS Dallas | MS 2 + MS 2 | 26.06 | 95 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Manchester Cit VS Bournemouth + Vancouver VS Dallas | MS 2 + MS 2 | 26.42 | 95 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | Vjs VS Fc Jazz + Hammarby VS Gais | MS 2 + MS 2 | 28.48 | 90 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 | Charleston Bat VS Miami Fc + Dinamo Moskova VS Fk Rodina Moskv | MS 2 + MS 2 | 36.25 | 80 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Manchester Cit VS Bournemouth + Vancouver VS Dallas + Vjs VS Fc Jazz | MS 2 + MS 2 + MS 2 | 115.97 | 95 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Manchester Cit VS Bournemouth + Vancouver VS Dallas + Vjs VS Fc Jazz | MS 2 + MS 2 + MS 2 | 117.55 | 95 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
 | Hammarby VS Gais + Charleston Bat VS Miami Fc + Dinamo Moskova VS Fk Rodina Moskv | MS 2 + MS 2 + MS 2 | 231.98 | 82 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |

@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
-Ham mac: 343
+Ham mac: 349
 Aktif mac: 310
-Canli mac: 33
-Biten mac: 0
-Bultenden dusurulen mac: 33
+Canli mac: 26
+Biten mac: 13
+Bultenden dusurulen mac: 39
 Bugun: 279
 Yarin: 31
 
@@ -323,13 +323,6 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 00:15 | Bolivya Premier Lig | Aurora - Real Potosi | live | -
-- 2026-08-23 00:30 | Brezilya Serie A | Internacional - Atletico Mg | live | -
-- 2026-08-23 00:30 | Arjantin Premier Lig 2. Aşama | Independiente - Rivadavia | live | -
-- 2026-08-23 00:30 | Şili Premier Lig | Huachipato - Deportes Limach | live | -
-- 2026-08-23 00:30 | Brezilya Serie B | Cuiaba - Goias | live | -
-- 2026-08-23 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Penarol | live | -
-- 2026-08-23 00:30 | Ekvador Pro Lig | T.Universitari - Guayaquil City | live | -
 - 2026-08-23 01:00 | Venezuela Premier Lig Clausura | Metropolitanos - Depor Tachira | live | -
 - 2026-08-23 01:30 | ABD USL | Loudoun United - New Mexico Unit | live | -
 - 2026-08-23 02:00 | Kosta Rika Premier Lig Apertura | Liberia - Cs Cartagines | live | -
@@ -358,4 +351,16 @@ Yarin: 31
 - 2026-08-23 02:30 | ABD USL Lig 1 | One Knoxville - Athletic Club B | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
+- 2026-08-23 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Suchitepequez | finished | -
+- 2026-08-23 00:00 | Honduras Ulusal Lig Apertura | Atlético Indep - Genesis Pn | finished | -
+- 2026-08-23 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Municipal Limen | finished | -
+- 2026-08-23 00:00 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | finished | -
+- 2026-08-23 00:05 | Kolombiya Primera A Clausura | Deportes Tolim - Bucaramanga | finished | -
+- 2026-08-23 00:15 | Bolivya Premier Lig | Aurora - Real Potosi | finished | -
+- 2026-08-23 00:30 | Brezilya Serie A | Internacional - Atletico Mg | finished | -
+- 2026-08-23 00:30 | Arjantin Premier Lig 2. Aşama | Independiente - Rivadavia | finished | -
+- 2026-08-23 00:30 | Şili Premier Lig | Huachipato - Deportes Limach | finished | -
+- 2026-08-23 00:30 | Brezilya Serie B | Cuiaba - Goias | finished | -
+- 2026-08-23 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Penarol | finished | -
+- 2026-08-23 00:30 | Ekvador Pro Lig | T.Universitari - Guayaquil City | finished | -
