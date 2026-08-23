@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 08:53:16
+Oluşturma: 23.08.2026 09:28:02
 
 ## Özet
 
-- Toplam tahmin: 758
-- Bekleyen tahmin: 758
+- Toplam tahmin: 762
+- Bekleyen tahmin: 762
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 148
@@ -20,13 +20,17 @@ Oluşturma: 23.08.2026 08:53:16
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 329, bekleyen 329, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 229, bekleyen 229, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 230, bekleyen 230, başarı bekleniyor, ağırlık 1
+- MS X: toplam 332, bekleyen 332, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Polonya 1.Lig | Lks Lodz - Stal Mielec | MS 2 | pending | 50/100
+- 2026-08-23 | İsveç Allsvenskan | Brommapojkarna - Degerfors | MS X | pending | 50/100
+- 2026-08-23 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Emirates | MS X | pending | 50/100
+- 2026-08-23 | Polonya Ekstraklasa | Gks Katowice - Wisla Plock | MS X | pending | 50/100
 - 2026-08-23 | Türkiye TFF 1. Lig | Van Spor Fk - İstanbulspor | MS X | pending | 50/100
 - 2026-08-23 | Türkiye TFF 1. Lig | Sarıyer - Batman Petrol | MS X | pending | 40/100
 - 2026-08-23 | Hırvatistan 1.HNL | Rijeka - Istra | MS 2 | pending | 75/100
@@ -38,8 +42,4 @@ Oluşturma: 23.08.2026 08:53:16
 - 2026-08-23 | İngiltere Premier Lig | Newcastle Utd - Liverpool | MS 1 | pending | 55/100
 - 2026-08-23 | Slovenya 2.SNL | Beltinci - Nd Primorje | MS 2 | pending | 50/100
 - 2026-08-23 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | MS 2 | pending | 40/100
-- 2026-08-23 | Güney Kore K Lig 2 | Jeonnam Dragon - Hwaseong | MS X | pending | 50/100
-- 2026-08-23 | Fransa Ligue 1 | Rennes - Psg | MS 1 | pending | 55/100
-- 2026-08-23 | İtalya Serie B | Palermo - Juve Stabia | MS 2 | pending | 50/100
-- 2026-08-23 | İtalya Serie B | Cesena - Sampdoria | MS X | pending | 40/100
 
