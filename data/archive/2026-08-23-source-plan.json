@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T07:46:01.944Z",
+  "generated_at": "2026-08-23T08:20:47.973Z",
   "date": "2026-08-23",
   "source_count": 8,
-  "match_count": 2,
+  "match_count": 4,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
-      "match_name": "Manningham Uni VS Melbourne Victo",
-      "league": "Avustralya Victoria NPL 1",
-      "start_time": "08:15",
+      "match_name": "North District VS Wofoo Tai Po",
+      "league": "Hong Kong Premier Lig",
+      "start_time": "11:00",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
@@ -57,9 +57,111 @@
       ]
     },
     {
-      "match_name": "South Melbourn VS Heidelberg Unit",
-      "league": "Avustralya NPL Victoria",
-      "start_time": "08:30",
+      "match_name": "Jeonbuk Motors VS Ulsan Citizen",
+      "league": "Güney Kore K3 Ligi",
+      "start_time": "11:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Siheung Citize VS Daejeon Korail",
+      "league": "Güney Kore K3 Ligi",
+      "start_time": "11:00",
+      "recommended_market": "-",
+      "data_gap_risk": "-",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Slavia Praha I VS Hanacka Slavia",
+      "league": "Çek Cumhuriyeti FNL",
+      "start_time": "11:15",
       "recommended_market": "-",
       "data_gap_risk": "-",
       "source_plan": [
