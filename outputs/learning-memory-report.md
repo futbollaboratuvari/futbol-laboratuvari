@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 11:58:52
+Oluşturma: 23.08.2026 12:09:57
 
 ## Özet
 
-- Toplam tahmin: 774
-- Bekleyen tahmin: 774
+- Toplam tahmin: 776
+- Bekleyen tahmin: 776
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 148
@@ -20,13 +20,15 @@ Oluşturma: 23.08.2026 11:58:52
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
+- MS X: toplam 337, bekleyen 337, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 234, bekleyen 234, başarı bekleniyor, ağırlık 1
-- MS X: toplam 336, bekleyen 336, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Danimarka 1.Lig | Hb Koge - Kolding If | MS 1 | pending | 50/100
+- 2026-08-23 | Malezya Süper Lig | Pulau Pinang - Dpmm Fc | MS X | pending | 50/100
 - 2026-08-23 | Hırvatistan 2.HNL | Croatia Zmijav - Hrvace | MS 2 | pending | 40/100
 - 2026-08-23 | Almanya DFB Kupası 1.Tur | Fortuna Düssel - Freiburg | MS X | pending | 40/100
 - 2026-08-23 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | MS X | pending | 40/100
@@ -40,6 +42,4 @@ Oluşturma: 23.08.2026 11:58:52
 - 2026-08-23 | Portekiz 3.Lig Grup A | Paredes - Leca | MS 2 | pending | 40/100
 - 2026-08-23 | Almanya DFB Kupası 1.Tur | Braunschweig - Union Berlin | MS 1 | pending | 45/100
 - 2026-08-23 | Polonya 1.Lig | Lks Lodz - Stal Mielec | MS 2 | pending | 50/100
-- 2026-08-23 | İsveç Allsvenskan | Brommapojkarna - Degerfors | MS X | pending | 50/100
-- 2026-08-23 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Emirates | MS X | pending | 50/100
 
