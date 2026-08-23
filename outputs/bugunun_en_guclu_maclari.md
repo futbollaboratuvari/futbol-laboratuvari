@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-23T14:56:15.996Z
+- Güncelleme: 2026-08-23T15:03:48.100Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -61,16 +61,16 @@
 | Vvv Venlo VS De Graafschap | Hollanda Eerste Divisie | 17:45 | MS X | 3.40 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Genoa U20 VS Internazionale | İtalya Primavera Şampiyonası 1 | 17:45 | MS X | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Ado Den Haag ( VS Twente (K) | Hollanda Kadınlar Eredivisie | 17:45 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Atletico Madri VS Villarreal | İspanya LaLiga | 18:00 | MS 2 | 3.81 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Eibar VS Valladolid | İspanya 2.Lig | 18:00 | MS 2 | 3.70 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atletico Madri VS Villarreal | İspanya LaLiga | 18:00 | MS 2 | 3.81 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Eibar VS Valladolid | İspanya 2.Lig | 18:00 | MS 2 | 3.70 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Turku VS Inter Turku | Finlandiya Veikkausliiga | 18:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Teplice VS Brno | Çek Cumhuriyeti Czech Liga | 18:00 | MS X | 2.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Norrby VS Sandvikens | İsveç Superettan | 18:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Teplice VS Brno | Çek Cumhuriyeti Czech Liga | 18:00 | MS X | 2.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Norrby VS Sandvikens | İsveç Superettan | 18:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Trencin VS Spartak Trnava | Slovakya Süper Lig | 18:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Puszcza Niepol VS Unia Skierniewi | Polonya 1.Lig | 18:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Puszcza Niepol VS Unia Skierniewi | Polonya 1.Lig | 18:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Flint VS Orn Horten | Norveç NM Kupası 1.Tur | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Beltinci VS Nd Primorje | Slovenya 2.SNL | 18:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Sireti VS Dacia-Buiucani | Moldova Ulusal Lig | 18:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Beltinci VS Nd Primorje | Slovenya 2.SNL | 18:00 | MS X | 3.03 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Sireti VS Dacia-Buiucani | Moldova Ulusal Lig | 18:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Fyllingen VS Brann | Norveç NM Kupası 1.Tur | 18:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Le Havre VS Monaco | Fransa Ligue 1 | 18:15 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Gulf Heroes VS Emirates | Birleşik Arap Emirlikleri 1.Lig | 18:15 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
