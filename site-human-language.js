@@ -59,6 +59,8 @@
 
   const humanizeNode = (node) => {
     if (!node) return;
+    const owner = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
+    if (owner?.closest?.("[data-pa3-root]")) return;
     if (node.nodeType === Node.TEXT_NODE) {
       const next = humanizeText(node.nodeValue || "");
       if (next !== node.nodeValue) node.nodeValue = next;

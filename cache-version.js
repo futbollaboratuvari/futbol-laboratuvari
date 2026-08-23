@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260627-wide-detail-select-v1";
+  const version = "20260823-premium-analysis-v3";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -63,7 +63,9 @@
   loadScript("site-bulletin-active-guard.js", "site-bulletin-active-guard-script");
   loadScript("learning-visibility.js", "learning-visibility-script");
   loadScript("learning-output-visibility.js", "learning-output-visibility-script");
-  loadScript("premium-analysis-extra-markets.js", "premium-analysis-extra-markets-script");
+  if (!document.querySelector("#premium-analysis-panel[data-pa3-root]")) {
+    loadScript("premium-analysis-extra-markets.js", "premium-analysis-extra-markets-script");
+  }
   loadScript("pro12-2-wide-market-engine.js", "pro122-wide-market-engine-script");
   loadScript("fl-pagination-slider.js", "fl-pagination-slider-script");
   loadScript("mobile-hero-panel-fix.js", "mobile-hero-panel-fix-script");

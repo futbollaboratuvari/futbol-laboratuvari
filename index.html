@@ -53,7 +53,7 @@
           ]
     }
     </script>
-    <meta name="deploy-version" content="20260822-floating-results-cleanup-v1" />
+    <meta name="deploy-version" content="20260823-premium-analysis-v3" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4488561171980540" crossorigin="anonymous"></script>
     <style>
       .reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="nav-theme.css?v=20260629-live-flow-v1" />
     <link rel="stylesheet" href="header-fixes.css?v=20260629-live-flow-v1" />
     <link rel="stylesheet" href="hero-vitrin.css?v=20260629-live-flow-v1" />
-    <link rel="stylesheet" href="premium-analysis-mobile-v2.css?v=20260822-mobile-analysis-v2-final" />
+    <link rel="stylesheet" href="premium-analysis-v3.css?v=20260823-premium-analysis-v3" />
     <style id="remove-header-after-widget">
       .site-header::after { content: none !important; display: none !important; visibility: hidden !important; opacity: 0 !important; width: 0 !important; height: 0 !important; overflow: hidden !important; }
     </style>
@@ -116,6 +116,82 @@
         <p class="robot-disclaimer">Bu sayfadaki içerikler maç yorumu ve kişisel değerlendirmedir; kesin sonuç garantisi vermez.</p>
       </section>
 
+      <section class="section fl-pa3" id="premium-analysis-panel" data-pa3-root aria-labelledby="fl-pa3-title">
+        <div class="fl-pa3-head">
+          <div>
+            <p class="eyebrow">Üyeye Özel · Gerekçeli Değerlendirme</p>
+            <h2 id="fl-pa3-title">Özel Analiz</h2>
+            <p>Maçı seç, analiz türünü belirle; öneri, güven, risk ve kısa gerekçeleri tek ekranda gör.</p>
+          </div>
+          <span class="fl-pa3-rights" data-pa3-rights data-state="locked" aria-live="polite">Üyelik gerekli</span>
+        </div>
+
+        <div class="fl-pa3-mode" role="group" aria-label="Analiz modu">
+          <button class="is-active" type="button" aria-pressed="true" data-pa3-mode="single"><span>Tek Maç</span><small>Hızlı ve odaklı</small></button>
+          <button type="button" aria-pressed="false" data-pa3-mode="coupon"><span>Kupon</span><small>Ortak risk görünümü</small></button>
+        </div>
+        <p class="fl-pa3-mode-hint" data-pa3-mode-hint>Tek karşılaşma için net ve gerekçeli sonuç.</p>
+
+        <ol class="fl-pa3-steps" aria-label="Özel analiz adımları">
+          <li class="is-active" data-pa3-step="1" aria-current="step"><span>1</span><div><strong>Maç</strong><small>Karşılaşmayı seç</small></div></li>
+          <li data-pa3-step="2"><span>2</span><div><strong>Analiz</strong><small>Türü belirle</small></div></li>
+          <li data-pa3-step="3"><span>3</span><div><strong>Sonuç</strong><small>Risk ve gerekçe</small></div></li>
+        </ol>
+
+        <div class="fl-pa3-layout">
+          <div class="fl-pa3-workspace">
+            <section class="fl-pa3-card fl-pa3-match-card" aria-labelledby="fl-pa3-match-title">
+              <div class="fl-pa3-card-head">
+                <div><span>1</span><div><h3 id="fl-pa3-match-title">Maçını seç</h3><p>Yalnızca başlamamış karşılaşmalar gösterilir.</p></div></div>
+                <strong data-pa3-total>Maçlar yükleniyor</strong>
+              </div>
+              <div class="fl-pa3-filters">
+                <label><span>Maç ara</span><input type="search" inputmode="search" autocomplete="off" placeholder="Takım veya lig ara" data-pa3-search /></label>
+                <label><span>Tarih</span><select data-pa3-date><option value="">Hazırlanıyor</option></select></label>
+              </div>
+              <div class="fl-pa3-match-list" data-pa3-match-list aria-live="polite" aria-busy="true"></div>
+              <button class="fl-pa3-more" type="button" data-pa3-more hidden>Daha fazla göster</button>
+              <select class="fl-pa3-compat-select" data-pa-match multiple tabindex="-1" aria-hidden="true"></select>
+              <div class="fl-pa3-selection" aria-live="polite"><span><b data-pa3-selected-count>0</b></span><div><strong data-pa3-selected-caption>Bir maç seç</strong><small>Seçimini istediğin zaman değiştirebilirsin.</small></div></div>
+            </section>
+
+            <section class="fl-pa3-card fl-pa3-analysis-card" aria-labelledby="fl-pa3-analysis-title">
+              <div class="fl-pa3-card-head">
+                <div><span>2</span><div><h3 id="fl-pa3-analysis-title">Ne öğrenmek istiyorsun?</h3><p>En uygun analiz türünü seç.</p></div></div>
+              </div>
+              <div class="fl-pa3-types" aria-label="Analiz türü">
+                <button class="is-active" type="button" aria-pressed="true" data-pa3-type="robot"><i aria-hidden="true">✦</i><span><strong>Robot Önerisi</strong><small>En güçlü seçeneği bulur</small></span><b aria-hidden="true">✓</b></button>
+                <button type="button" aria-pressed="false" data-pa3-type="match"><i aria-hidden="true">1X2</i><span><strong>Maç Sonucu</strong><small>Taraf ve beraberlik dengesi</small></span><b aria-hidden="true">✓</b></button>
+                <button type="button" aria-pressed="false" data-pa3-type="goals"><i aria-hidden="true">2.5</i><span><strong>Gol Analizi</strong><small>Alt, üst ve karşılıklı gol</small></span><b aria-hidden="true">✓</b></button>
+              </div>
+              <details class="fl-pa3-advanced" data-pa3-advanced>
+                <summary>Gelişmiş market seç</summary>
+                <label><span>Market</span><select data-pa3-advanced-market><option>MS 1</option><option>MS X</option><option>MS 2</option><option>2.5 Üst</option><option>2.5 Alt</option><option>KG Var</option><option>KG Yok</option><option>1Y KG Var</option><option>2Y KG Var</option><option>İY/MS 1/1</option><option>İY/MS X/1</option><option>İY/MS 2/2</option></select></label>
+                <p>Eksik oran bulunan gelişmiş marketlerde seçim zorlanmaz ve bu durum sonuçta belirtilir.</p>
+              </details>
+              <div class="fl-pa3-cta-wrap">
+                <button class="fl-pa3-cta" type="button" data-pa-analyze disabled>Analizi Oluştur</button>
+                <p class="fl-pa3-message" data-pa3-message data-kind="info" aria-live="polite">Önce maç seç.</p>
+              </div>
+            </section>
+          </div>
+
+          <aside class="fl-pa3-result" data-pa-output aria-live="polite" aria-label="Özel analiz sonucu">
+            <div class="fl-pa3-result-empty"><span>3</span><h3>Sonuç burada görünecek</h3><p>Maç ve analiz türü seçildiğinde öneri, güven, risk ve üç kısa gerekçe birlikte sunulur.</p></div>
+          </aside>
+        </div>
+
+        <div class="fl-pa3-access" data-pa3-access hidden aria-hidden="true" role="region" aria-labelledby="fl-pa3-access-title">
+          <button class="fl-pa3-access-close" type="button" aria-label="Üyelik kodu alanını kapat" data-pa3-access-close>×</button>
+          <span class="fl-pa3-access-icon" aria-hidden="true">◆</span>
+          <div><p class="eyebrow">Üye Erişimi</p><h3 id="fl-pa3-access-title">Analizi aç</h3><p>Üyelik kodun yalnızca analiz hakkını güvenli biçimde kontrol etmek için kullanılır.</p></div>
+          <label><span>Üyelik kodu</span><input type="password" autocomplete="one-time-code" placeholder="Kodunu gir" data-pa3-code /></label>
+          <button class="fl-pa3-access-submit" type="button" data-pa3-unlock>Kodu Kontrol Et ve Analiz Et</button>
+          <p class="fl-pa3-access-status" data-pa3-access-status data-kind="info" aria-live="polite">Analizi oluşturmak için üyelik kodunu gir.</p>
+          <a href="#membership-payment-panel">Kodun yok mu? Üyelik seçeneklerini gör</a>
+        </div>
+      </section>
+
       <section class="section strongest-pick" id="guclu-tahmin"><div class="section-heading reveal visible"><p class="eyebrow">Günün Seçimi</p><h2>Bugünün en güçlü adayı</h2></div><div id="strongest-pick-card" class="strongest-card reveal visible"><div class="fixtures-empty">Günün seçimi güncel maç listesi oluştuktan sonra gösterilecek.</div></div></section>
       <section class="section" id="son-analizler"><div class="section-heading reveal visible"><p class="eyebrow">Maç Yorumları</p><h2>Maç bazlı detaylı değerlendirmeler</h2><p>Her maç; form, kadro, oran hareketi, topa sahip olma, pas, şut, korner, kart dengesi ve maç hikayesiyle birlikte okunur.</p></div><div id="analysis-list" class="analysis-list"></div></section>
       <section class="section spor-toto-section" id="spor-toto-performansi"><div class="section-heading reveal visible"><p class="eyebrow">Spor Toto</p><h2>1-X-2 seçimleri ve kupon ayrımı</h2><p>Banko, beraberlik adayı ve sürpriz adayları maç bazlı oran, risk ve oyun dengesiyle değerlendirilir.</p></div><div id="spor-toto-summary" class="spor-summary reveal visible"></div><div id="spor-toto-grid" class="spor-grid"></div></section>
@@ -143,16 +219,14 @@
     <script src="site-visible-fix.js?v=20260629-live-flow-v1"></script>
     <script src="script.js?v=20260629-live-flow-v1"></script>
     <script src="daily-matches-widget.js?v=20260629-live-flow-v1"></script>
-    <script src="premium-analysis-panel.js?v=20260629-live-flow-v1"></script>
-    <script src="premium-analysis-mobile-v2.js?v=20260822-mobile-analysis-v2-final"></script>
-    <script src="premium-panel-fix.js?v=20260629-live-flow-v1"></script>
-    <script src="premium-robot-engine.js?v=20260629-live-flow-v1"></script>
-    <script src="premium-state-panel.js?v=20260629-live-flow-v1"></script>
+    <script src="server-membership-guard.js?v=20260823-premium-analysis-v3"></script>
+    <script src="premium-analysis-v3-core.js?v=20260823-premium-analysis-v3"></script>
+    <script src="premium-analysis-v3.js?v=20260823-premium-analysis-v3"></script>
     <script src="robot-dashboard.js?v=20260629-live-flow-v1"></script>
-    <script src="cache-version.js?v=20260629-live-flow-v1"></script>
+    <script src="cache-version.js?v=20260823-premium-analysis-v3"></script>
     <script src="membership-form-hint.js?v=20260629-live-flow-v1"></script>
     <script src="hero-vitrin.js?v=20260629-live-flow-v1"></script>
     <script src="site-human-language.js?v=20260629-live-flow-v1"></script>
-    <script src="nav-routing.js?v=20260822-floating-results-cleanup-v1"></script>
+    <script src="nav-routing.js?v=20260823-premium-analysis-v3"></script>
   </body>
 </html>

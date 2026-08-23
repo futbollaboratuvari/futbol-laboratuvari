@@ -79,6 +79,7 @@
     ensureStylesheet("nav-position.css", "nav-position-style");
     ensureStylesheet("header-fixes.css", "header-fixes-style");
     ensureStylesheet("hero-vitrin.css", "hero-vitrin-style");
+    ensureStylesheet("premium-analysis-v3.css", "premium-analysis-v3-style");
     ensureScript("panel-stabilizer.js", "panel-stabilizer-script");
     ensureScript("daily-matches-widget.js", "daily-matches-widget-script");
     ensureScript("daily-toggle.js", "daily-toggle-script");
@@ -89,8 +90,8 @@
     ensureScript("bank-transfer-payment.js", "bank-transfer-payment-script");
     ensureScript("membership-bank-transfer-bridge.js", "membership-bank-transfer-bridge-script");
     ensureScript("membership-submit-guard.js", "membership-submit-guard-script");
-    ensureScript("premium-analysis-panel.js", "premium-analysis-panel-script");
-    ensureScript("premium-analysis-history.js", "premium-analysis-history-script");
+    ensureScript("premium-analysis-v3-core.js", "premium-analysis-v3-core-script");
+    ensureScript("premium-analysis-v3.js", "premium-analysis-v3-script");
     ensureScript("section-order.js", "section-order-script");
     ensureScript("hero-summary-sync.js", "hero-summary-sync-script");
     ensureScript("hero-vitrin.js", "hero-vitrin-script");

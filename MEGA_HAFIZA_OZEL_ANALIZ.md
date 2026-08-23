@@ -110,3 +110,30 @@ Faaliyet aşamasında ilk yapılacaklar:
 6. Analiz geçmişi alanı eklenecek.
 7. Ücretsiz kullanıcı için kilitli ön izleme geliştirilecek.
 8. İleride gerçek ödeme ve üyelik kontrolüne geçilecek.
+
+## 2026-08-23 V3 güncellemesi
+
+Özel Analiz alanı, eski üst üste çalışan panel katmanları yerine tek ve mobil öncelikli bir akışa geçirildi.
+
+Güncel kullanıcı akışı:
+
+1. Kullanıcı Tek Maç veya Kupon modunu seçer. Varsayılan Tek Maçtır.
+2. Sadece başlamamış maçlar arasından arama ve tarih filtresiyle seçim yapar.
+3. Robot Önerisi, Maç Sonucu veya Gol Analizi türünü seçer. Gelişmiş marketler ayrı açılır alandadır.
+4. Analizi başlattığında üyelik kodu ve kalan hak sunucuda kontrol edilir.
+5. Sonuçta seçim, güven seviyesi, risk, üç kısa gerekçe ve açılır veri detayları gösterilir.
+6. Güçlü ortak sinyal yoksa zorunlu tahmin yerine açıkça “Seçim yok” kararı verilir.
+7. Sonuç tarayıcı geçmişi, son analiz kaydı ve analiz kuyruğuyla uyumlu biçimde saklanır.
+
+Güncel ana dosyalar:
+
+- index.html
+- premium-analysis-v3.css
+- premium-analysis-v3-core.js
+- premium-analysis-v3.js
+- server-membership-guard.js
+- nav-routing.js
+- cache-version.js
+- tests/premium-analysis-v3.test.js
+
+Veri kaynağı sırası full-bulletin.json ve güvenli yedek olarak two-day-bulletin.json dosyasıdır. Canlı, bitmiş, iptal ve ertelenmiş maçlar Özel Analiz listesine girmez. Eski premium dosyaları geri dönüş amacıyla repoda tutulur fakat V3 sayfasında yüklenmez.

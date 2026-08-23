@@ -110,3 +110,19 @@ Summary:
 - Updated CANONICAL_DOMAIN.txt to document the actual final public host.
 - CNAME and DNS settings were not changed.
 - Did not change site layout, bulletin data, widgets, workflows or payment logic.
+
+2026-08-23
+
+Özel Analiz V3 mobile-first flow completed.
+
+Summary:
+- Replaced the conflicting multi-script premium panel runtime with one static, branded three-step flow: Maç, Analiz, Sonuç.
+- Added separate Tek Maç and Kupon modes, upcoming-match search/date filters, a 10-match coupon limit and a mobile-safe sticky analysis action.
+- Kept Robot Önerisi, Maç Sonucu and Gol Analizi as the three primary choices; moved advanced markets into a secondary disclosure.
+- Added honest no-pick handling, confidence, risk, three concise reasons, expandable data details, copy/new-analysis actions and local history continuity.
+- Connected the new interface to full-bulletin.json with two-day-bulletin.json fallback while excluding live, finished, cancelled and postponed matches.
+- Preserved server-side membership consumption through server-membership-guard.js and replaced the legacy inline error with the V3 access drawer events.
+- Stopped cache-version.js and nav-routing.js from reloading old premium usability/market layers over the V3 interface. Legacy files remain in the repository for rollback.
+- Added Node tests for upcoming filtering, schema normalization, goal analysis, no-pick behavior, coupon calculations and Turkish search.
+- JavaScript syntax checks, core tests, real-bulletin scenario checks, CSS/HTML structural checks and the static build completed successfully. The sparse local checkout caused the build to skip an unavailable optional bulletin merge module; no bulletin file was modified.
+- Did not change daily-matches-widget.js, bulletin JSON data, Kuponum, workflows, CNAME, DNS or payment configuration.

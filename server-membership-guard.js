@@ -135,7 +135,13 @@
     const code = String(localStorage.getItem(CODE_KEY) || "").trim();
     const resultBox = document.querySelector("#premium-analysis-panel [data-pa-output]");
     if (!code) {
-      if (resultBox) resultBox.innerHTML = "<h4>Üyelik doğrulaması gerekli</h4><p class=\"pa-small\">Kodunu yeniden doğrula veya 1 günlük denemeyi başlat.</p>";
+      if (document.querySelector("#premium-analysis-panel[data-pa3-root]")) {
+        window.dispatchEvent(new CustomEvent("fl:premium-access-required", {
+          detail: { message: "Analizi oluşturmak için üyelik kodunu gir veya üyelik seçeneklerini aç." }
+        }));
+      } else if (resultBox) {
+        resultBox.innerHTML = "<h4>Üyelik doğrulaması gerekli</h4><p class=\"pa-small\">Kodunu yeniden doğrula veya 1 günlük denemeyi başlat.</p>";
+      }
       return;
     }
 
@@ -164,7 +170,11 @@
     } catch (error) {
       const message = String(error?.message || "Analiz hakkı kullanılamadı.");
       if (/süresi dol|aktif değil|hakkı kalmamış/i.test(message)) clearInvalidAccess();
-      if (resultBox) resultBox.innerHTML = `<h4>Analiz başlatılamadı</h4><p class="pa-small">${esc(message)}</p>`;
+      if (document.querySelector("#premium-analysis-panel[data-pa3-root]")) {
+        window.dispatchEvent(new CustomEvent("fl:premium-access-error", { detail: { message } }));
+      } else if (resultBox) {
+        resultBox.innerHTML = `<h4>Analiz başlatılamadı</h4><p class="pa-small">${esc(message)}</p>`;
+      }
       button.disabled = false;
       button.textContent = oldText;
     }
