@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 249
-- Live match count: 37
-- Finished removed count: 7
+- Scheduled match count: 248
+- Live match count: 38
+- Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
 - 2026-08-23 13:00 | Kaya (K) - Tsl (K) | live

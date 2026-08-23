@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 14:35:32
+Oluşturma: 23.08.2026 14:45:59
 
 ## Özet
 
-- Toplam tahmin: 784
-- Bekleyen tahmin: 784
+- Toplam tahmin: 786
+- Bekleyen tahmin: 786
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 148
+- Lig sayısı: 149
 - Seçenek sayısı: 4
 
 ## Öğrenme Mantığı
@@ -20,13 +20,15 @@ Oluşturma: 23.08.2026 14:35:32
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 343, bekleyen 343, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 236, bekleyen 236, başarı bekleniyor, ağırlık 1
-- MS X: toplam 341, bekleyen 341, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Tunus 1.Lig | Es Tunis - Etoile Sportive | MS X | pending | 65/100
+- 2026-08-23 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - If Karlstad Ii | MS X | pending | 50/100
 - 2026-08-23 | Almanya Bölgesel Lig Batı | Paderborn 07 I - Bonner Sc | MS 2 | pending | 50/100
 - 2026-08-23 | Finlandiya Ykkönen | Vjs - Fc Jazz | MS X | pending | 95/100
 - 2026-08-23 | Danimarka Süperlig | Aarhus - Odense | MS X | pending | 50/100
@@ -40,6 +42,4 @@ Oluşturma: 23.08.2026 14:35:32
 - 2026-08-23 | Hırvatistan 2.HNL | Croatia Zmijav - Hrvace | MS 2 | pending | 40/100
 - 2026-08-23 | Almanya DFB Kupası 1.Tur | Fortuna Düssel - Freiburg | MS X | pending | 40/100
 - 2026-08-23 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | MS X | pending | 40/100
-- 2026-08-23 | İspanya LaLiga | Elche - Barcelona | MS 1 | pending | 40/100
-- 2026-08-23 | Şili Premier Lig | Concepcion - Coquimbo Unido | MS 1 | pending | 40/100
 
