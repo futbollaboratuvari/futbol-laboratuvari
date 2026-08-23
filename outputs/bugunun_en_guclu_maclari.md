@@ -1,93 +1,45 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Kaynak: Maçkolik canlı robot
-- Motor: High Value Coupon Engine
-- Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-23T20:52:16.491Z
-- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
-- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
+- Maçkolik canlı veri bekleniyor
+- Güncelleme: 2026-08-23T20:55:31.112Z
+- Ham maç sayısı: 63
+- Yarın bülteni maç sayısı: 31
+- Detay blok sayısı: 183
+- Aktif bülten maçı: 31
+- Bültenden düşürülen maç: 32
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Torino VS Ac Milan | İtalya Serie A | 21:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Atalanta VS Sassuolo | İtalya Serie A | 21:45 | MS 2 | 5.34 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
-| Rennes VS Psg | Fransa Ligue 1 | 21:45 | MS 1 | 5.41 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Palermo VS Juve Stabia | İtalya Serie B | 22:00 | MS 2 | 5.95 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Cesena VS Sampdoria | İtalya Serie B | 22:00 | MS X | 2.89 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Mladost Lucani VS Partizan Belgra | Sırbistan Süper Lig | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Vojvodina VS Zeleznicar Panc | Sırbistan Süper Lig | 22:00 | MS 2 | 4.03 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Bragantino VS Gremio | Brezilya Serie A | 22:00 | MS 2 | 5.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Palmeiras VS Vasco Da Gama | Brezilya Serie A | 22:00 | MS 2 | 4.94 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| Vitoria Bahia VS Bahia | Brezilya Serie A | 22:00 | MS X | 2.79 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Trento Calcio VS Treviso | İtalya Serie C Grup A | 22:00 | MS 2 | 3.92 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Perugia VS Ostia Mare Lido | İtalya Serie C Grup B | 22:00 | MS 2 | 3.68 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Grosseto VS Spezia | İtalya Serie C Grup B | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Sambenedetese VS Forli | İtalya Serie C Grup B | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Hajduk Split VS Osijek | Hırvatistan 1.HNL | 22:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Fortaleza VS Atletico Nacion | Kolombiya Primera A Clausura | 22:00 | MS 1 | 4.73 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Univ. De Şili VS Colo Colo | Şili Premier Lig | 22:00 | MS X | 3.08 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Atl Temperley VS Midland | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Ponte Preta VS Avai | Brezilya Serie B | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Sao Bernardo VS Nautico | Brezilya Serie B | 22:00 | MS 2 | 3.04 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Zrinjski VS Zeljeznicar | Bosna-Hersek Premier Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Real Oruro VS Bolivar | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Mosta Fc VS Balzan Fc | Malta Premier Lig Açılış | 22:00 | MS 1 | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Vikingur Reykj VS Valur | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Elche VS Barcelona | İspanya LaLiga | 22:30 | MS X | 4.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Porto VS Arouca | Portekiz Premier Lig | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Tenerife VS Almeria | İspanya 2.Lig | 22:30 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Belgrano VS Defensa Justici | Arjantin Premier Lig 2. Aşama | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Inter Toronto VS Supra Du Quebec | Kanada Premier Lig | 23:00 | MS X | 3.42 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
-| New England VS New York City | ABD MLS | 23:30 | MS X | 3.22 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Melgar VS Alianza Lima | Peru Premier Lig Clausura | 23:30 | MS 2 | 3.33 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Delfin VS Aucas | Ekvador Pro Lig | 23:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Operario VS Vila Nova | Brezilya Serie B | 00:00 | MS 2 | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Inter San Carl VS Deportivo Sapri | Kosta Rika Premier Lig Apertura | 00:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Mixco VS Guastatoya | Guatemala Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Jalapa VS Matagalpa | Nikaragua Premier Lig Apertura | 00:00 | MS 2 | 3.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Marathon VS Real Espana | Honduras Ulusal Lig Apertura | 00:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Balboa VS Fuerte San Fran | El Salvador Primera Lig Apertura | 00:00 | MS 2 | 3.05 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Deportivo Past VS Llaneros | Kolombiya Primera A Clausura | 00:05 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Guabira VS Blooming | Bolivya Premier Lig | 00:15 | MS X | 3.37 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Chapecoense VS Sao Paulo | Brezilya Serie A | 00:30 | MS 1 | 3.45 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Santos VS Mirassol | Brezilya Serie A | 00:30 | MS 2 | 3.84 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Criciuma VS Fortaleza Ce | Brezilya Serie B | 00:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Nacional Df VS Progreso | Uruguay Premier Lig Clausura | 00:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Rancho Santana VS San Marcos | Nikaragua Premier Lig Apertura | 01:00 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| River Plate VS Velez Sarsfield | Arjantin Premier Lig 2. Aşama | 01:15 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Coritiba VS Corinthians | Brezilya Serie A | 01:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Atlanta Utd VS Kansas | ABD MLS | 02:00 | MS 2 | 4.03 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Atletico San L VS Pachuca | Meksika Liga MX Apertura | 02:00 | MS X | 3.00 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| O Higgins VS Palestino | Şili Premier Lig | 02:00 | MS 2 | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Deportivo Cali VS Inter Bogota | Kolombiya Primera A Clausura | 02:10 | MS 2 | 5.66 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Olancho VS Depor. Olimpia | Honduras Ulusal Lig Apertura | 02:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Universitario VS Chankas Cyc | Peru Premier Lig Clausura | 02:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Firpo VS Platense | El Salvador Primera Lig Apertura | 02:30 | MS 2 | 5.35 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Alajuelense VS Ad San Carlos | Kosta Rika Premier Lig Apertura | 03:00 | MS 2 | 5.19 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Marquense VS Coban Imperial | Guatemala Ulusal Lig Apertura | 03:00 | MS 2 | 3.67 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Ldu Quito VS Emelec | Ekvador Pro Lig | 03:00 | MS 2 | 5.17 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Racing Club VS Boca Juniors | Arjantin Premier Lig 2. Aşama | 03:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Pumas Unam VS Necaxa | Meksika Liga MX Apertura | 04:00 | MS 2 | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Cd Tapatio VS Zacatecas | Meksika Ascenso MX Apertura | 04:00 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Walter Ferrett VS Unan Managua | Nikaragua Premier Lig Apertura | 04:00 | MS 2 | 3.68 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Atletico Junio VS Once Caldas | Kolombiya Primera A Clausura | 04:15 | MS 2 | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Malacateco VS Deportivo San P | Guatemala Ulusal Lig Apertura | 05:00 | MS X | 4.95 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-
-## Tek Mac Onerileri
-| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Atalanta VS Sassuolo | MS 2 | 5.34 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Alajuelense VS Ad San Carlos | MS 2 | 5.19 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Malacateco VS Deportivo San P | MS X | 4.95 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük |
-
-## 2'li Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Atalanta VS Sassuolo + Alajuelense VS Ad San Carlos | MS 2 + MS 2 | 27.71 | 75 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük |
-
-## 3'lu Kupon Onerileri
-| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Atalanta VS Sassuolo + Alajuelense VS Ad San Carlos + Malacateco VS Deportivo San P | MS 2 + MS 2 + MS X | 137.19 | 75 | Orta risk kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
+| --- | --- | --- | --- | --- | --- | --- |
+| Operario - Vila Nova | Brezilya Serie B | 00:00 | Veri bekleniyor | - | 2.05 | 8 |
+| Inter San Carl - Deportivo Sapri | Kosta Rika Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 4.17 | 8 |
+| Mixco - Guastatoya | Guatemala Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 1.71 | 8 |
+| Jalapa - Matagalpa | Nikaragua Premier Lig Apertura | 00:00 | Veri bekleniyor | - | 1.67 | 8 |
+| Marathon - Real Espana | Honduras Ulusal Lig Apertura | 00:00 | Veri bekleniyor | - | 2.06 | 5 |
+| Balboa - Fuerte San Fran | El Salvador Primera Lig Apertura | 00:00 | Veri bekleniyor | - | 1.93 | 8 |
+| Deportivo Past - Llaneros | Kolombiya Primera A Clausura | 00:05 | Veri bekleniyor | - | 1.79 | 8 |
+| Guabira - Blooming | Bolivya Premier Lig | 00:15 | Veri bekleniyor | - | 1.83 | 8 |
+| Chapecoense - Sao Paulo | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 3.45 | 8 |
+| Santos - Mirassol | Brezilya Serie A | 00:30 | Veri bekleniyor | - | 1.65 | 8 |
+| Criciuma - Fortaleza Ce | Brezilya Serie B | 00:30 | Veri bekleniyor | - | 1.72 | 8 |
+| Nacional Df - Progreso | Uruguay Premier Lig Clausura | 00:30 | Veri bekleniyor | - | 1.27 | 5 |
+| Rancho Santana - San Marcos | Nikaragua Premier Lig Apertura | 01:00 | Veri bekleniyor | - | 2.43 | 8 |
+| River Plate - Velez Sarsfield | Arjantin Premier Lig 2. Aşama | 01:15 | Veri bekleniyor | - | 1.52 | 7 |
+| Coritiba - Corinthians | Brezilya Serie A | 01:30 | Veri bekleniyor | - | 2.68 | 8 |
+| Atlanta Utd - Kansas | ABD MLS | 02:00 | Veri bekleniyor | - | 1.52 | 8 |
+| Atletico San L - Pachuca | Meksika Liga MX Apertura | 02:00 | Veri bekleniyor | - | 2.66 | 8 |
+| O Higgins - Palestino | Şili Premier Lig | 02:00 | Veri bekleniyor | - | 1.79 | 8 |
+| Deportivo Cali - Inter Bogota | Kolombiya Primera A Clausura | 02:10 | Veri bekleniyor | - | 1.34 | 7 |
+| Olancho - Depor. Olimpia | Honduras Ulusal Lig Apertura | 02:15 | Veri bekleniyor | - | 2.98 | 5 |
+| Universitario - Chankas Cyc | Peru Premier Lig Clausura | 02:30 | Veri bekleniyor | - | 1.09 | 6 |
+| Firpo - Platense | El Salvador Primera Lig Apertura | 02:30 | Veri bekleniyor | - | 1.34 | 7 |
+| Alajuelense - Ad San Carlos | Kosta Rika Premier Lig Apertura | 03:00 | Veri bekleniyor | - | 1.33 | 7 |
+| Marquense - Coban Imperial | Guatemala Ulusal Lig Apertura | 03:00 | Veri bekleniyor | - | 1.65 | 8 |
+| Ldu Quito - Emelec | Ekvador Pro Lig | 03:00 | Veri bekleniyor | - | 1.37 | 7 |
+| Racing Club - Boca Juniors | Arjantin Premier Lig 2. Aşama | 03:30 | Veri bekleniyor | - | 3.01 | 8 |
+| Pumas Unam - Necaxa | Meksika Liga MX Apertura | 04:00 | Veri bekleniyor | - | 1.71 | 8 |
+| Cd Tapatio - Zacatecas | Meksika Ascenso MX Apertura | 04:00 | Veri bekleniyor | - | 1.71 | 8 |
+| Walter Ferrett - Unan Managua | Nikaragua Premier Lig Apertura | 04:00 | Veri bekleniyor | - | 1.6 | 8 |
+| Atletico Junio - Once Caldas | Kolombiya Primera A Clausura | 04:15 | Veri bekleniyor | - | 1.74 | 8 |
+| Malacateco - Deportivo San P | Guatemala Ulusal Lig Apertura | 05:00 | Veri bekleniyor | - | 1.09 | 6 |
