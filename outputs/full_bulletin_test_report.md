@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 276
-- Live match count: 23
-- Finished removed count: 0
+- Scheduled match count: 266
+- Live match count: 27
+- Finished removed count: 2
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 11:00 | Jeonbuk Motors - Ulsan Citizen | live
-- 2026-08-23 11:00 | Siheung Citize - Daejeon Korail | live
-- 2026-08-23 11:00 | North District - Wofoo Tai Po | live
-- 2026-08-23 11:15 | Slavia Praha I - Hanacka Slavia | live
-- 2026-08-23 11:30 | Blau-Weiss Lin - Voitsberg | live
-- 2026-08-23 11:30 | Zilina Ii - Malzenice | live
 - 2026-08-23 12:00 | Hoffenheim U19 - Karlsruher Sc U | live
 - 2026-08-23 12:00 | Bologna U20 - Atalanta U20 | live
 - 2026-08-23 12:00 | Sagamihara - Zweigen Kanazaw | live
 - 2026-08-23 12:00 | Cerezo Osaka ( - Albirex Niigata | live
+- 2026-08-23 12:00 | Mynavi Sendai - Parceiro Nagano | live
+- 2026-08-23 12:00 | Ntv Beleza (K) - Jef United (K) | live
+- 2026-08-23 12:00 | Pulau Pinang - Dpmm Fc | live
+- 2026-08-23 13:00 | Kaya (K) - Tsl (K) | live
+- 2026-08-23 13:00 | Sonderjyske - Nordsjaelland | live
+- 2026-08-23 13:00 | Gangneung City - Chuncheon Citiz | live
