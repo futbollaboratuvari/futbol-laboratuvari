@@ -69,3 +69,13 @@ Summary:
 - Added a no-empty-overwrite guard so data/full-bulletin.json is not overwritten when no usable scheduled/live bulletin data is produced.
 - Updated scripts/full-bulletin-output-check.js because the workflow runs it after build-full-bulletin.js and it still enforced the old tomorrow 08:00 cutoff.
 - Did not change daily-matches-widget.js, index.html, admin panel, Kuponum panel, Analiz Et button, workflow/domain/CNAME/Pages settings, or data/full-bulletin.json manually.
+
+2026-08-23
+
+Organic promotion and SEO foundation prepared.
+
+Summary:
+- Added search and social sharing metadata to the home page: description, canonical, robots directives, Open Graph, Twitter Card and Schema.org WebSite/Organization JSON-LD.
+- Added a 1200x630 social sharing image for clean link previews.
+- Added robots.txt and sitemap.xml with only public pages; admin, payment administration, usage logs and backend/API paths remain excluded from crawling.
+- Did not change bulletin data, match ordering, daily-matches-widget.js, protected coupon/analysis panels, workflows or runtime behavior.
