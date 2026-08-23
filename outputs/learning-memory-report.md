@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 08:14:10
+Oluşturma: 23.08.2026 08:24:55
 
 ## Özet
 
-- Toplam tahmin: 753
-- Bekleyen tahmin: 753
+- Toplam tahmin: 754
+- Bekleyen tahmin: 754
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 147
+- Lig sayısı: 148
 - Seçenek sayısı: 4
 
 ## Öğrenme Mantığı
@@ -20,13 +20,14 @@ Oluşturma: 23.08.2026 08:14:10
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 40, bekleyen 40, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
 - MS X: toplam 326, bekleyen 326, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 228, bekleyen 228, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Emirates | MS 1 | pending | 50/100
 - 2026-08-23 | Danimarka Süperlig | Sonderjyske - Nordsjaelland | MS 1 | pending | 55/100
 - 2026-08-23 | Slovenya 2.SNL | Beltinci - Nd Primorje | MS X | pending | 50/100
 - 2026-08-23 | Macaristan NB I | Gyor - Zalaegerszeg | MS 2 | pending | 85/100
@@ -41,5 +42,4 @@ Oluşturma: 23.08.2026 08:14:10
 - 2026-08-23 | Brezilya Serie A | Bragantino - Gremio | MS 2 | pending | 50/100
 - 2026-08-23 | Brezilya Serie A | Palmeiras - Vasco Da Gama | MS 2 | pending | 60/100
 - 2026-08-23 | Brezilya Serie A | Vitoria Bahia - Bahia | MS X | pending | 50/100
-- 2026-08-23 | İtalya Serie C Grup A | Trento Calcio - Treviso | MS 2 | pending | 50/100
 
