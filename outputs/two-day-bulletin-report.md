@@ -3,34 +3,14 @@
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
 Ham mac: 381
-Aktif mac: 204
-Canli mac: 45
-Biten mac: 132
-Bultenden dusurulen mac: 177
-Bugun: 173
+Aktif mac: 184
+Canli mac: 46
+Biten mac: 151
+Bultenden dusurulen mac: 197
+Bugun: 153
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 17:00 | Belçika Pro Lig | Lommel - Westerlo | scheduled | -
-- 2026-08-23 17:00 | Danimarka Süperlig | Horsens - Lyngby | scheduled | -
-- 2026-08-23 17:00 | Belçika Challenger Pro Lig | Krc Genk Ii - Rfc Liege | scheduled | -
-- 2026-08-23 17:00 | Mısır Premier Lig | El Gounah - Modern Sc | scheduled | -
-- 2026-08-23 17:00 | Rusya FNL | Ufa - Yenisey | scheduled | -
-- 2026-08-23 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Banniyas - Dubai United | scheduled | -
-- 2026-08-23 17:00 | Uruguay Premier Lig Clausura | Danubio - Racing Montevid | scheduled | -
-- 2026-08-23 17:00 | Finlandiya Ykkönen | Vjs - Fc Jazz | scheduled | -
-- 2026-08-23 17:00 | Estonya Premium Lig | Paide Linnamee - Nomme United | scheduled | -
-- 2026-08-23 17:00 | Almanya Kadınlar Bundesliga | Rb Leipzig (K) - Bayer Leverkuse | scheduled | -
-- 2026-08-23 17:00 | İsveç 2.Lig Södra Svealand | Örebro Syrians - Farsta | scheduled | -
-- 2026-08-23 17:00 | Faroe Adaları Master Lig | Kí Klaksvík - Runavik | scheduled | -
-- 2026-08-23 17:00 | Faroe Adaları Master Lig | Streymur - Ab Argir | scheduled | -
-- 2026-08-23 17:00 | Faroe Adaları Master Lig | Hb Torshavn - Vestur Sorvagur | scheduled | -
-- 2026-08-23 17:00 | İzlanda 2.Lig | Throttur Vogar - Selfoss | scheduled | -
-- 2026-08-23 17:00 | Letonya 1.Lig | Rezekne / Bjss - Metta / Lu | scheduled | -
-- 2026-08-23 17:00 | İzlanda 2.Lig | Magni - Vikingur Ol. | scheduled | -
-- 2026-08-23 17:00 | Türkiye TFF 1. Lig | Bandirmaspor - A. Keçiörengücü | scheduled | -
-- 2026-08-23 17:00 | İzlanda 2.Lig | Kfa - Hviti | scheduled | -
-- 2026-08-23 17:00 | Belarus 1.Lig | Lida - Niva Dolbizno | scheduled | -
 - 2026-08-23 17:30 | Portekiz Premier Lig | Guimaraes - Nacional Madeir | scheduled | -
 - 2026-08-23 17:30 | İsveç Allsvenskan | Brommapojkarna - Degerfors | scheduled | -
 - 2026-08-23 17:30 | İsveç Allsvenskan | Hammarby - Gais | scheduled | -
@@ -217,25 +197,6 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 15:00 | Danimarka Süperlig | Midtjylland - Randers | live | -
-- 2026-08-23 15:00 | Danimarka Süperlig | Aarhus - Odense | live | -
-- 2026-08-23 15:00 | İsveç Allsvenskan | Vasteras - Kalmar | live | -
-- 2026-08-23 15:00 | İsveç Allsvenskan | Göteborg - Elfsborg | live | -
-- 2026-08-23 15:00 | Finlandiya Veikkausliiga | Helsinki - Gnistan | live | -
-- 2026-08-23 15:00 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | live | -
-- 2026-08-23 15:00 | İsviçre Süper Lig | Young Boys - Vaduz | live | -
-- 2026-08-23 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong - Dalian Zhixing | live | -
-- 2026-08-23 15:00 | İsviçre Challenge Lig | Yverdon - Aarau | live | -
-- 2026-08-23 15:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Weiche Flensbur | live | -
-- 2026-08-23 15:00 | Almanya Bölgesel Lig Batı | Sportfreunde L - Bochum Ii | live | -
-- 2026-08-23 15:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I - Bonner Sc | live | -
-- 2026-08-23 15:00 | İngiltere Professional Development Lig | Barnsley U21 - Charlton Athlet | live | -
-- 2026-08-23 15:00 | İngiltere Premier Lig 2 | Leeds United U - West Brom (B) | live | -
-- 2026-08-23 15:00 | Almanya Kadınlar Bundesliga | Hoffenheim (K) - Stuttgart (K) | live | -
-- 2026-08-23 15:00 | İsveç 2.Lig Vastra Götaland | Galtabacks - Jonsereds If | live | -
-- 2026-08-23 15:00 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - If Karlstad Ii | live | -
-- 2026-08-23 15:00 | Hollanda Tweede Divisie | Rohda Raalte - De Treffers | live | -
-- 2026-08-23 15:00 | Belarus 1.Lig | Gomel Ii - Uni Minsk | live | -
 - 2026-08-23 15:15 | Rusya Premier Lig | Dinamo Moskova - Fk Rodina Moskv | live | -
 - 2026-08-23 15:30 | Hollanda Eredivisie | Psv Eindhoven - Groningen | live | -
 - 2026-08-23 15:30 | Polonya 1.Lig | Miedz Legnica - Arka Gdynia | live | -
@@ -262,6 +223,26 @@ Yarin: 31
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Westfalia Rhyn - Dynamo Dresden | live | -
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Bahlinger Sc - Magdeburg | live | -
 - 2026-08-23 16:30 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | live | -
+- 2026-08-23 17:00 | Belçika Pro Lig | Lommel - Westerlo | live | -
+- 2026-08-23 17:00 | Danimarka Süperlig | Horsens - Lyngby | live | -
+- 2026-08-23 17:00 | Belçika Challenger Pro Lig | Krc Genk Ii - Rfc Liege | live | -
+- 2026-08-23 17:00 | Mısır Premier Lig | El Gounah - Modern Sc | live | -
+- 2026-08-23 17:00 | Rusya FNL | Ufa - Yenisey | live | -
+- 2026-08-23 17:00 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Banniyas - Dubai United | live | -
+- 2026-08-23 17:00 | Uruguay Premier Lig Clausura | Danubio - Racing Montevid | live | -
+- 2026-08-23 17:00 | Finlandiya Ykkönen | Vjs - Fc Jazz | live | -
+- 2026-08-23 17:00 | Estonya Premium Lig | Paide Linnamee - Nomme United | live | -
+- 2026-08-23 17:00 | Almanya Kadınlar Bundesliga | Rb Leipzig (K) - Bayer Leverkuse | live | -
+- 2026-08-23 17:00 | İsveç 2.Lig Södra Svealand | Örebro Syrians - Farsta | live | -
+- 2026-08-23 17:00 | Faroe Adaları Master Lig | Kí Klaksvík - Runavik | live | -
+- 2026-08-23 17:00 | Faroe Adaları Master Lig | Streymur - Ab Argir | live | -
+- 2026-08-23 17:00 | Faroe Adaları Master Lig | Hb Torshavn - Vestur Sorvagur | live | -
+- 2026-08-23 17:00 | İzlanda 2.Lig | Throttur Vogar - Selfoss | live | -
+- 2026-08-23 17:00 | Letonya 1.Lig | Rezekne / Bjss - Metta / Lu | live | -
+- 2026-08-23 17:00 | İzlanda 2.Lig | Magni - Vikingur Ol. | live | -
+- 2026-08-23 17:00 | Türkiye TFF 1. Lig | Bandirmaspor - A. Keçiörengücü | live | -
+- 2026-08-23 17:00 | İzlanda 2.Lig | Kfa - Hviti | live | -
+- 2026-08-23 17:00 | Belarus 1.Lig | Lida - Niva Dolbizno | live | -
 
 ## Biten Maclar
 - 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
@@ -396,3 +377,22 @@ Yarin: 31
 - 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Lindome Gif | finished | -
 - 2026-08-23 14:00 | İsveç 2.Lig Södra Svealand | Eker Örebro - Fittja | finished | -
 - 2026-08-23 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Qingdao Zhongne | finished | -
+- 2026-08-23 15:00 | Danimarka Süperlig | Midtjylland - Randers | finished | -
+- 2026-08-23 15:00 | Danimarka Süperlig | Aarhus - Odense | finished | -
+- 2026-08-23 15:00 | İsveç Allsvenskan | Vasteras - Kalmar | finished | -
+- 2026-08-23 15:00 | İsveç Allsvenskan | Göteborg - Elfsborg | finished | -
+- 2026-08-23 15:00 | Finlandiya Veikkausliiga | Helsinki - Gnistan | finished | -
+- 2026-08-23 15:00 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | finished | -
+- 2026-08-23 15:00 | İsviçre Süper Lig | Young Boys - Vaduz | finished | -
+- 2026-08-23 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong - Dalian Zhixing | finished | -
+- 2026-08-23 15:00 | İsviçre Challenge Lig | Yverdon - Aarau | finished | -
+- 2026-08-23 15:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Weiche Flensbur | finished | -
+- 2026-08-23 15:00 | Almanya Bölgesel Lig Batı | Sportfreunde L - Bochum Ii | finished | -
+- 2026-08-23 15:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I - Bonner Sc | finished | -
+- 2026-08-23 15:00 | İngiltere Professional Development Lig | Barnsley U21 - Charlton Athlet | finished | -
+- 2026-08-23 15:00 | İngiltere Premier Lig 2 | Leeds United U - West Brom (B) | finished | -
+- 2026-08-23 15:00 | Almanya Kadınlar Bundesliga | Hoffenheim (K) - Stuttgart (K) | finished | -
+- 2026-08-23 15:00 | İsveç 2.Lig Vastra Götaland | Galtabacks - Jonsereds If | finished | -
+- 2026-08-23 15:00 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - If Karlstad Ii | finished | -
+- 2026-08-23 15:00 | Hollanda Tweede Divisie | Rohda Raalte - De Treffers | finished | -
+- 2026-08-23 15:00 | Belarus 1.Lig | Gomel Ii - Uni Minsk | finished | -

@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T14:09:38.788947+00:00
+Tarih: 2026-08-23T14:25:31.736621+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 162
+- Kac mac bulundu: 187
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 162
+- Kac mac zaten vardi: 187
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
@@ -20,7 +20,6 @@ Tarih: 2026-08-23T14:09:38.788947+00:00
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Azerbaycan Premier Lig
-- Belarus 1.Lig
 - Belarus Premier Lig
 - Belçika Challenger Pro Lig
 - Belçika Pro Lig
@@ -33,25 +32,32 @@ Tarih: 2026-08-23T14:09:38.788947+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
 - Fransa Ligue 1
+- Guatemala Ulusal Lig Apertura
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Mısır Premier Lig
+- Nikaragua Premier Lig Apertura
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -79,7 +85,6 @@ Tarih: 2026-08-23T14:09:38.788947+00:00
 - İspanya 2.Lig
 - İspanya LaLiga
 - İsveç 2.Lig Södra Götaland
-- İsveç 2.Lig Södra Svealand
 - İsveç Allsvenskan
 - İsveç Superettan
 - İsviçre 1.Lig Promotion
