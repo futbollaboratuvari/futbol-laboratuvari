@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 10:06:45
+Oluşturma: 23.08.2026 10:14:42
 
 ## Özet
 
-- Toplam tahmin: 762
-- Bekleyen tahmin: 762
+- Toplam tahmin: 763
+- Bekleyen tahmin: 763
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 148
@@ -20,13 +20,14 @@ Oluşturma: 23.08.2026 10:06:45
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 42, bekleyen 42, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 230, bekleyen 230, başarı bekleniyor, ağırlık 1
 - MS X: toplam 332, bekleyen 332, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 41, bekleyen 41, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Almanya DFB Kupası 1.Tur | Braunschweig - Union Berlin | MS 1 | pending | 45/100
 - 2026-08-23 | Polonya 1.Lig | Lks Lodz - Stal Mielec | MS 2 | pending | 50/100
 - 2026-08-23 | İsveç Allsvenskan | Brommapojkarna - Degerfors | MS X | pending | 50/100
 - 2026-08-23 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Emirates | MS X | pending | 50/100
@@ -41,5 +42,4 @@ Oluşturma: 23.08.2026 10:06:45
 - 2026-08-23 | Macaristan NB I | Gyor - Zalaegerszeg | MS 2 | pending | 85/100
 - 2026-08-23 | İngiltere Premier Lig | Newcastle Utd - Liverpool | MS 1 | pending | 55/100
 - 2026-08-23 | Slovenya 2.SNL | Beltinci - Nd Primorje | MS 2 | pending | 50/100
-- 2026-08-23 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | MS 2 | pending | 40/100
 
