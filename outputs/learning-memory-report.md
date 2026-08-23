@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 15:17:37
+Oluşturma: 23.08.2026 15:49:16
 
 ## Özet
 
-- Toplam tahmin: 787
-- Bekleyen tahmin: 787
+- Toplam tahmin: 788
+- Bekleyen tahmin: 788
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 149
@@ -20,13 +20,14 @@ Oluşturma: 23.08.2026 15:17:37
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 237, bekleyen 237, başarı bekleniyor, ağırlık 1
 - MS X: toplam 344, bekleyen 344, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 236, bekleyen 236, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | İngiltere Premier Lig | Brighton - Aston Villa | MS 2 | pending | 50/100
 - 2026-08-23 | Faroe Adaları Master Lig | Kí Klaksvík - Runavik | MS X | pending | 50/100
 - 2026-08-23 | Tunus 1.Lig | Es Tunis - Etoile Sportive | MS X | pending | 65/100
 - 2026-08-23 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - If Karlstad Ii | MS X | pending | 50/100
@@ -41,5 +42,4 @@ Oluşturma: 23.08.2026 15:17:37
 - 2026-08-23 | Danimarka 1.Lig | Hb Koge - Kolding If | MS 1 | pending | 50/100
 - 2026-08-23 | Malezya Süper Lig | Pulau Pinang - Dpmm Fc | MS X | pending | 50/100
 - 2026-08-23 | Hırvatistan 2.HNL | Croatia Zmijav - Hrvace | MS 2 | pending | 40/100
-- 2026-08-23 | Almanya DFB Kupası 1.Tur | Fortuna Düssel - Freiburg | MS X | pending | 40/100
 
