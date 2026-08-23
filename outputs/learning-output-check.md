@@ -1,6 +1,6 @@
 # Learning Output Check
 
-Generated: 2026-08-23T02:14:01.261Z
+Generated: 2026-08-23T03:29:52.688Z
 Status: ready
 
 ## Checks
@@ -17,10 +17,10 @@ Status: ready
 
 - Robot engine: High Value Coupon Engine + Learning Memory
 - Scoring mode: net_threshold_rules_with_learning_memory
-- Robot matches: 280
+- Robot matches: 260
 - Learning adjusted count: 0
-- Memory predictions: 749
-- Pending predictions: 749
+- Memory predictions: 751
+- Pending predictions: 751
 
 Learning output fields are present. The site can display learning notes.
 
