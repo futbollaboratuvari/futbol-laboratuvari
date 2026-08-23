@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 23:59:47
+Oluşturma: 24.08.2026 00:23:19
 
 ## Özet
 
-- Toplam tahmin: 795
-- Bekleyen tahmin: 795
+- Toplam tahmin: 799
+- Bekleyen tahmin: 799
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 149
@@ -20,13 +20,17 @@ Oluşturma: 23.08.2026 23:59:47
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 348, bekleyen 348, başarı bekleniyor, ağırlık 1
+- MS X: toplam 349, bekleyen 349, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 242, bekleyen 242, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 49, bekleyen 49, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 239, bekleyen 239, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | Bolivya Premier Lig | Guabira - Blooming | MS X | pending | 50/100
+- 2026-08-24 | Brezilya Serie B | Operario - Vila Nova | MS 2 | pending | 40/100
+- 2026-08-24 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | MS 2 | pending | 50/100
+- 2026-08-24 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | MS 2 | pending | 40/100
 - 2026-08-23 | Mısır Premier Lig | Al Ahly - Enppi | MS X | pending | 65/100
 - 2026-08-23 | Yunanistan Süper Lig | Ofi - Volos Nfc | MS X | pending | 50/100
 - 2026-08-23 | Peru Premier Lig Clausura | Sport Boys - Cienciano | MS X | pending | 40/100
@@ -38,8 +42,4 @@ Oluşturma: 23.08.2026 23:59:47
 - 2026-08-23 | Faroe Adaları Master Lig | Kí Klaksvík - Runavik | MS X | pending | 50/100
 - 2026-08-23 | Tunus 1.Lig | Es Tunis - Etoile Sportive | MS X | pending | 65/100
 - 2026-08-23 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - If Karlstad Ii | MS X | pending | 50/100
-- 2026-08-23 | Almanya Bölgesel Lig Batı | Paderborn 07 I - Bonner Sc | MS 2 | pending | 50/100
-- 2026-08-23 | Finlandiya Ykkönen | Vjs - Fc Jazz | MS X | pending | 95/100
-- 2026-08-23 | Danimarka Süperlig | Aarhus - Odense | MS X | pending | 50/100
-- 2026-08-23 | Türkiye TFF 1. Lig | Van Spor Fk - İstanbulspor | MS 1 | pending | 50/100
 

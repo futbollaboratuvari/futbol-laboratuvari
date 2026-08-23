@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 31
-- Live match count: 32
+- Scheduled match count: 97
+- Live match count: 8
 - Finished removed count: 0
-- Date window: 2026-08-23 / 2026-08-24 23:59
+- Date window: 2026-08-24 / 2026-08-25 23:59
 
-- 2026-08-23 21:45 | Rennes - Psg | live
-- 2026-08-23 21:45 | Atalanta - Sassuolo | live
-- 2026-08-23 21:45 | Torino - Ac Milan | live
-- 2026-08-23 22:00 | Atl Temperley - Midland | live
-- 2026-08-23 22:00 | Real Oruro - Bolivar | live
-- 2026-08-23 22:00 | Zrinjski - Zeljeznicar | live
-- 2026-08-23 22:00 | Bragantino - Gremio | live
-- 2026-08-23 22:00 | Palmeiras - Vasco Da Gama | live
-- 2026-08-23 22:00 | Vitoria Bahia - Bahia | live
-- 2026-08-23 22:00 | Ponte Preta - Avai | live
+- 2026-08-24 00:00 | Operario - Vila Nova | live
+- 2026-08-24 00:00 | Balboa - Fuerte San Fran | live
+- 2026-08-24 00:00 | Mixco - Guastatoya | live
+- 2026-08-24 00:00 | Marathon - Real Espana | live
+- 2026-08-24 00:00 | Inter San Carl - Deportivo Sapri | live
+- 2026-08-24 00:00 | Jalapa - Matagalpa | live
+- 2026-08-24 00:05 | Deportivo Past - Llaneros | live
+- 2026-08-24 00:15 | Guabira - Blooming | live
+- 2026-08-24 00:30 | Chapecoense - Sao Paulo | scheduled
+- 2026-08-24 00:30 | Santos - Mirassol | scheduled

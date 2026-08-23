@@ -1,12 +1,12 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-08-23T20:59:47.889Z",
+  "updated_at": "2026-08-23T21:23:19.031Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 795,
-    "pending_predictions": 795,
+    "total_predictions": 799,
+    "pending_predictions": 799,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
@@ -17,8 +17,18 @@
   },
   "market_memory": {
     "MS X": {
-      "total": 348,
-      "pending": 348,
+      "total": 349,
+      "pending": 349,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "MS 2": {
+      "total": 242,
+      "pending": 242,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -29,16 +39,6 @@
     "MS 1": {
       "total": 49,
       "pending": 49,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "MS 2": {
-      "total": 239,
-      "pending": 239,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -58,6 +58,46 @@
     }
   },
   "league_memory": {
+    "Bolivya Premier Lig": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Nikaragua Premier Lig Apertura": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "El Salvador Primera Lig Apertura": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Mısır Premier Lig": {
       "total": 4,
       "pending": 4,
@@ -488,16 +528,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Brezilya Serie B": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Bosna-Hersek Premier Lig": {
       "total": 3,
       "pending": 3,
@@ -888,16 +918,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "El Salvador Primera Lig Apertura": {
-      "total": 2,
-      "pending": 2,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "ABD MLS": {
       "total": 14,
       "pending": 14,
@@ -988,16 +1008,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Bolivya Premier Lig": {
-      "total": 4,
-      "pending": 4,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "Ekvador Pro Lig": {
       "total": 2,
       "pending": 2,
@@ -1011,16 +1021,6 @@
     "Meksika Ascenso MX Apertura": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Nikaragua Premier Lig Apertura": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -1550,6 +1550,46 @@
     }
   },
   "league_market_memory": {
+    "Bolivya Premier Lig :: MS X": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie B :: MS 2": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Nikaragua Premier Lig Apertura :: MS 2": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "El Salvador Primera Lig Apertura :: MS 2": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Mısır Premier Lig :: MS X": {
       "total": 1,
       "pending": 1,
@@ -2103,16 +2143,6 @@
     "Şili Premier Lig :: MS X": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie B :: MS 2": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -2840,16 +2870,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "El Salvador Primera Lig Apertura :: MS 2": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "ABD MLS :: MS X": {
       "total": 9,
       "pending": 9,
@@ -2993,16 +3013,6 @@
     "Meksika Ascenso MX Apertura :: MS 2": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Nikaragua Premier Lig Apertura :: MS 2": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -3940,16 +3950,6 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "Bolivya Premier Lig :: MS X": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
     "İngiltere Ulusal Lig N / S Güney :: MS X": {
       "total": 9,
       "pending": 9,
@@ -4872,6 +4872,78 @@
     }
   },
   "predictions": [
+    {
+      "id": "2026-08-24|bolivya premier lig|guabira blooming|ms x|00 15",
+      "date": "2026-08-24",
+      "created_at": "2026-08-23T21:23:16.214Z",
+      "match_name": "Guabira - Blooming",
+      "league": "Bolivya Premier Lig",
+      "start_time": "00:15",
+      "market": "MS X",
+      "odds": "3.37",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-23T21:23:19.029Z"
+    },
+    {
+      "id": "2026-08-24|brezilya serie b|operario vila nova|ms 2|00 00",
+      "date": "2026-08-24",
+      "created_at": "2026-08-23T21:23:16.213Z",
+      "match_name": "Operario - Vila Nova",
+      "league": "Brezilya Serie B",
+      "start_time": "00:00",
+      "market": "MS 2",
+      "odds": "2.77",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-23T21:23:19.029Z"
+    },
+    {
+      "id": "2026-08-24|nikaragua premier lig apertura|jalapa matagalpa|ms 2|00 00",
+      "date": "2026-08-24",
+      "created_at": "2026-08-23T21:23:16.213Z",
+      "match_name": "Jalapa - Matagalpa",
+      "league": "Nikaragua Premier Lig Apertura",
+      "start_time": "00:00",
+      "market": "MS 2",
+      "odds": "3.44",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-23T21:23:19.029Z"
+    },
+    {
+      "id": "2026-08-24|el salvador primera lig apertura|balboa fuerte san fran|ms 2|00 00",
+      "date": "2026-08-24",
+      "created_at": "2026-08-23T21:23:16.213Z",
+      "match_name": "Balboa - Fuerte San Fran",
+      "league": "El Salvador Primera Lig Apertura",
+      "start_time": "00:00",
+      "market": "MS 2",
+      "odds": "3.05",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-23T21:23:19.029Z"
+    },
     {
       "id": "2026-08-23|misir premier lig|al ahly enppi|ms x|20 00",
       "date": "2026-08-23",
