@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 31
 - Live match count: 32
-- Finished removed count: 10
+- Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
 - 2026-08-23 21:45 | Rennes - Psg | live
