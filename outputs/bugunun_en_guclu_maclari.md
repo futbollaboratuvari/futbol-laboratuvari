@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-23T11:57:10.994Z
+- Güncelleme: 2026-08-23T12:06:26.279Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -49,23 +49,23 @@
 | Onsala VS Lindome Gif | İsveç 2.Lig Vastra Götaland | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Eker Örebro VS Fittja | İsveç 2.Lig Södra Svealand | 14:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Shanghai Port VS Qingdao Zhongne | Çin Halk Cumhuriyeti Süper Lig | 14:35 | MS 2 | 7.28 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
-| Midtjylland VS Randers | Danimarka Süperlig | 15:00 | MS 2 | 6.28 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Aarhus VS Odense | Danimarka Süperlig | 15:00 | MS X | 3.43 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Vasteras VS Kalmar | İsveç Allsvenskan | 15:00 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Göteborg VS Elfsborg | İsveç Allsvenskan | 15:00 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Helsinki VS Gnistan | Finlandiya Veikkausliiga | 15:00 | MS 2 | 4.35 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Kuopion VS Mariehamn | Finlandiya Veikkausliiga | 15:00 | MS 2 | 6.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Young Boys VS Vaduz | İsviçre Süper Lig | 15:00 | MS 2 | 7.22 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Chongqing Tong VS Dalian Zhixing | Çin Halk Cumhuriyeti Süper Lig | 15:00 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Yverdon VS Aarau | İsviçre Challenge Lig | 15:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Midtjylland VS Randers | Danimarka Süperlig | 15:00 | MS 2 | 6.28 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
+| Aarhus VS Odense | Danimarka Süperlig | 15:00 | MS X | 3.43 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Vasteras VS Kalmar | İsveç Allsvenskan | 15:00 | MS X | 3.12 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Göteborg VS Elfsborg | İsveç Allsvenskan | 15:00 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Helsinki VS Gnistan | Finlandiya Veikkausliiga | 15:00 | MS 2 | 4.35 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
+| Kuopion VS Mariehamn | Finlandiya Veikkausliiga | 15:00 | MS 2 | 6.98 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
+| Young Boys VS Vaduz | İsviçre Süper Lig | 15:00 | MS 2 | 7.22 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
+| Chongqing Tong VS Dalian Zhixing | Çin Halk Cumhuriyeti Süper Lig | 15:00 | MS X | 2.86 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Yverdon VS Aarau | İsviçre Challenge Lig | 15:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Norderstedt VS Weiche Flensbur | Almanya Bölgesel Lig Kuzey | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Sportfreunde L VS Bochum Ii | Almanya Bölgesel Lig Batı | 15:00 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Paderborn 07 I VS Bonner Sc | Almanya Bölgesel Lig Batı | 15:00 | MS 2 | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Sportfreunde L VS Bochum Ii | Almanya Bölgesel Lig Batı | 15:00 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Paderborn 07 I VS Bonner Sc | Almanya Bölgesel Lig Batı | 15:00 | MS 2 | 3.23 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Barnsley U21 VS Charlton Athlet | İngiltere Professional Development Lig | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Leeds United U VS West Brom (B) | İngiltere Premier Lig 2 | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Hoffenheim (K) VS Stuttgart (K) | Almanya Kadınlar Bundesliga | 15:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Galtabacks VS Jonsereds If | İsveç 2.Lig Vastra Götaland | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Motala Aif Fk VS If Karlstad Ii | İsveç 2.Lig Norra Götaland | 15:00 | MS X | 3.32 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Motala Aif Fk VS If Karlstad Ii | İsveç 2.Lig Norra Götaland | 15:00 | MS X | 3.32 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Rohda Raalte VS De Treffers | Hollanda Tweede Divisie | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Gomel Ii VS Uni Minsk | Belarus 1.Lig | 15:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Dinamo Moskova VS Fk Rodina Moskv | Rusya Premier Lig | 15:15 | MS 2 | 6.46 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
