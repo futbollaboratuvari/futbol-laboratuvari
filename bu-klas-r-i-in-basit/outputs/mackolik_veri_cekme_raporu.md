@@ -1,21 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T09:41:17.857218+00:00
+Tarih: 2026-08-23T10:12:02.258985+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 255
+- Kac mac bulundu: 248
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 255
+- Kac mac zaten vardi: 248
 - Ham veri havuzu toplam mac sayisi: 8856
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B
 - Almanya Bölgesel Lig Batı
 - Almanya Bölgesel Lig Kuzey
 - Almanya DFB Kupası 1.Tur
@@ -55,7 +54,6 @@ Tarih: 2026-08-23T09:41:17.857218+00:00
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Japonya J1 Lig
-- Japonya J3 Lig
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
 - Letonya 1.Lig

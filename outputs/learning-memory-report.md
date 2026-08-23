@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 13:07:19
+Oluşturma: 23.08.2026 13:15:34
 
 ## Özet
 
-- Toplam tahmin: 777
-- Bekleyen tahmin: 777
+- Toplam tahmin: 780
+- Bekleyen tahmin: 780
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 148
@@ -20,13 +20,16 @@ Oluşturma: 23.08.2026 13:07:19
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 339, bekleyen 339, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 47, bekleyen 47, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 235, bekleyen 235, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 46, bekleyen 46, başarı bekleniyor, ağırlık 1
-- MS X: toplam 337, bekleyen 337, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Belarus Premier Lig | Ml Vitebsk - Bate Borisov | MS X | pending | 75/100
+- 2026-08-23 | Romanya 1.Lig | Cfr Cluj - Fc Steaua | MS 1 | pending | 50/100
+- 2026-08-23 | Hollanda Eredivisie | Psv Eindhoven - Groningen | MS X | pending | 40/100
 - 2026-08-23 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | MS 2 | pending | 40/100
 - 2026-08-23 | Danimarka 1.Lig | Hb Koge - Kolding If | MS 1 | pending | 50/100
 - 2026-08-23 | Malezya Süper Lig | Pulau Pinang - Dpmm Fc | MS X | pending | 50/100
@@ -39,7 +42,4 @@ Oluşturma: 23.08.2026 13:07:19
 - 2026-08-23 | Malta Premier Lig Açılış | Mosta Fc - Balzan Fc | MS 1 | pending | 40/100
 - 2026-08-23 | Suudi Arabistan 1.Lig | Al Ula - Al Jabalain | MS 2 | pending | 60/100
 - 2026-08-23 | Moldova Ulusal Lig | Sireti - Dacia-Buiucani | MS X | pending | 50/100
-- 2026-08-23 | Birleşik Arap Emirlikleri 1.Lig | Dubba Al Husun - Al Hamriyah | MS X | pending | 50/100
-- 2026-08-23 | Portekiz 3.Lig Grup A | Paredes - Leca | MS 2 | pending | 40/100
-- 2026-08-23 | Almanya DFB Kupası 1.Tur | Braunschweig - Union Berlin | MS 1 | pending | 45/100
 
