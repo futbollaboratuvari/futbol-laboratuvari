@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-23T19:30:25.266Z
+- Güncelleme: 2026-08-23T19:34:14.751Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -57,9 +57,9 @@
 | Real Oruro VS Bolivar | Bolivya Premier Lig | 22:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
 | Mosta Fc VS Balzan Fc | Malta Premier Lig Açılış | 22:00 | MS 1 | 2.85 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Vikingur Reykj VS Valur | İzlanda Urvalsdeild | 22:15 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
-| Elche VS Barcelona | İspanya LaLiga | 22:30 | MS X | 4.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Elche VS Barcelona | İspanya LaLiga | 22:30 | MS X | 4.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | live |
 | Porto VS Arouca | Portekiz Premier Lig | 22:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Tenerife VS Almeria | İspanya 2.Lig | 22:30 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Tenerife VS Almeria | İspanya 2.Lig | 22:30 | MS X | 2.92 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Belgrano VS Defensa Justici | Arjantin Premier Lig 2. Aşama | 23:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Inter Toronto VS Supra Du Quebec | Kanada Premier Lig | 23:00 | MS X | 3.42 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | New England VS New York City | ABD MLS | 23:30 | MS X | 3.25 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
