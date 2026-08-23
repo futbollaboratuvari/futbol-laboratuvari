@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
-Ham mac: 286
-Aktif mac: 279
-Canli mac: 7
-Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 248
+Ham mac: 374
+Aktif mac: 293
+Canli mac: 2
+Biten mac: 79
+Bultenden dusurulen mac: 81
+Bugun: 262
 Yarin: 31
 
 ## Baslamamis Maclar
@@ -23,12 +23,17 @@ Yarin: 31
 - 2026-08-23 12:00 | Japonya WE Ligi Kadınlar | Cerezo Osaka ( - Albirex Niigata | scheduled | -
 - 2026-08-23 12:00 | Malezya Süper Lig | Pulau Pinang - Dpmm Fc | scheduled | -
 - 2026-08-23 12:00 | Japonya J3 Lig | Sagamihara - Zweigen Kanazaw | scheduled | -
+- 2026-08-23 12:00 | Almanya U19 Bundesliga Grup E | Hoffenheim U19 - Karlsruher Sc U | scheduled | -
 - 2026-08-23 13:00 | Danimarka Süperlig | Sonderjyske - Nordsjaelland | scheduled | -
 - 2026-08-23 13:00 | Rusya Premier Lig | Akron - Krylya Sovietov | scheduled | -
 - 2026-08-23 13:00 | Portekiz 2.Lig | Chaves - Avs | scheduled | -
 - 2026-08-23 13:00 | Polonya 2.Lig | Legia Warszawa - Sokol Kleczew | scheduled | -
 - 2026-08-23 13:00 | Güney Kore K3 Ligi | Gangneung City - Chuncheon Citiz | scheduled | -
 - 2026-08-23 13:00 | Japonya J3 Lig | Kochi United - Kamatamare Sanu | scheduled | -
+- 2026-08-23 13:00 | Portekiz 3.Lig Grup A | Paredes - Leca | scheduled | -
+- 2026-08-23 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Kaya (K) - Tsl (K) | scheduled | -
+- 2026-08-23 13:00 | Letonya 1.Lig | Super Nova Ii - Skanste | scheduled | -
+- 2026-08-23 13:00 | Letonya 1.Lig | Leevon / Ppk - Smiltene | scheduled | -
 - 2026-08-23 13:15 | Hollanda Eredivisie | Go Ahead Eagle - Den Haag | scheduled | -
 - 2026-08-23 13:15 | Hollanda Kadınlar Eredivisie | De Graafschap - Heerenveen (K) | scheduled | -
 - 2026-08-23 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Gangwon | scheduled | -
@@ -80,6 +85,7 @@ Yarin: 31
 - 2026-08-23 15:30 | Polonya 1.Lig | Miedz Legnica - Arka Gdynia | scheduled | -
 - 2026-08-23 15:30 | Çek Cumhuriyeti FNL | Banik Ostrava - Arsenal Ceska L | scheduled | -
 - 2026-08-23 15:30 | Polonya 2.Lig | Falubaz Zielon - Hutnik Krakow | scheduled | -
+- 2026-08-23 15:30 | İzlanda 2.Lig | Kari - Fjolnir | scheduled | -
 - 2026-08-23 15:45 | Polonya Ekstraklasa | Radomiak Radom - Zaglebie Lubin | scheduled | -
 - 2026-08-23 16:00 | İngiltere Premier Lig | Brighton - Aston Villa | scheduled | -
 - 2026-08-23 16:00 | İngiltere Premier Lig | Manchester Cit - Bournemouth | scheduled | -
@@ -90,6 +96,7 @@ Yarin: 31
 - 2026-08-23 16:00 | Romanya 1.Lig | Sepsi - Ssc Farul | scheduled | -
 - 2026-08-23 16:00 | Güney Afrika 8 Kupası Yarı Final | Mamelodi Sundo - Golden Arrows | scheduled | -
 - 2026-08-23 16:00 | İsveç 2.Lig Södra Götaland | Ifk Trelleborg - Lilla Torg | scheduled | -
+- 2026-08-23 16:00 | İsviçre 1.Lig Promotion | Biel-Bienne - Lugano Ii | scheduled | -
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Krieschow - Mainz | scheduled | -
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Braunschweig - Union Berlin | scheduled | -
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Schott Mainz - M Gladbach | scheduled | -
@@ -115,6 +122,7 @@ Yarin: 31
 - 2026-08-23 17:00 | Letonya 1.Lig | Rezekne / Bjss - Metta / Lu | scheduled | -
 - 2026-08-23 17:00 | İzlanda 2.Lig | Magni - Vikingur Ol. | scheduled | -
 - 2026-08-23 17:00 | Türkiye TFF 1. Lig | Bandirmaspor - A. Keçiörengücü | scheduled | -
+- 2026-08-23 17:00 | İzlanda 2.Lig | Kfa - Hviti | scheduled | -
 - 2026-08-23 17:30 | Portekiz Premier Lig | Guimaraes - Nacional Madeir | scheduled | -
 - 2026-08-23 17:30 | İsveç Allsvenskan | Brommapojkarna - Degerfors | scheduled | -
 - 2026-08-23 17:30 | İsveç Allsvenskan | Hammarby - Gais | scheduled | -
@@ -134,8 +142,10 @@ Yarin: 31
 - 2026-08-23 18:00 | Polonya 1.Lig | Puszcza Niepol - Unia Skierniewi | scheduled | -
 - 2026-08-23 18:00 | Norveç NM Kupası 1.Tur | Flint - Orn Horten | scheduled | -
 - 2026-08-23 18:00 | Slovenya 2.SNL | Beltinci - Nd Primorje | scheduled | -
+- 2026-08-23 18:00 | Moldova Ulusal Lig | Sireti - Dacia-Buiucani | scheduled | -
 - 2026-08-23 18:15 | Fransa Ligue 1 | Le Havre - Monaco | scheduled | -
 - 2026-08-23 18:15 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Emirates | scheduled | -
+- 2026-08-23 18:15 | Birleşik Arap Emirlikleri 1.Lig | Dubba Al Husun - Al Hamriyah | scheduled | -
 - 2026-08-23 18:30 | İngiltere Premier Lig | Newcastle Utd - Liverpool | scheduled | -
 - 2026-08-23 18:30 | Polonya Ekstraklasa | Gks Katowice - Wisla Plock | scheduled | -
 - 2026-08-23 18:30 | Macaristan NB I | Kisvarda - Debreceni | scheduled | -
@@ -176,6 +186,7 @@ Yarin: 31
 - 2026-08-23 19:00 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Nassaji Mazanda | scheduled | -
 - 2026-08-23 19:00 | Türkiye TFF 1. Lig | Boluspor - Mardin 1969 | scheduled | -
 - 2026-08-23 19:15 | Faroe Adaları Master Lig | B68 Toftir - Skala | scheduled | -
+- 2026-08-23 19:15 | Suudi Arabistan 1.Lig | Al-Saqer - Damak | scheduled | -
 - 2026-08-23 19:30 | İtalya Serie A | Frosinone - Juventus | scheduled | -
 - 2026-08-23 19:30 | İtalya Serie A | Unione V. - Lecce | scheduled | -
 - 2026-08-23 19:30 | Belçika Pro Lig | Club Brugge - Cercle Brugge | scheduled | -
@@ -185,6 +196,7 @@ Yarin: 31
 - 2026-08-23 19:30 | Portekiz 3.Lig Grup B | Oliveirense - Vitoria De Sern | scheduled | -
 - 2026-08-23 19:30 | Bosna-Hersek Premier Lig | Borac Banja Lu - Celik | scheduled | -
 - 2026-08-23 19:30 | Almanya Kadınlar Bundesliga | Hamburger Sv ( - Freiburg (K) | scheduled | -
+- 2026-08-23 19:30 | Malta Premier Lig Açılış | Gzira United - Valletta | scheduled | -
 - 2026-08-23 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Sharjah - Al Jazira | scheduled | -
 - 2026-08-23 19:45 | Azerbaycan Premier Lig | Neftchi Baku - Araz | scheduled | -
 - 2026-08-23 20:00 | Portekiz Premier Lig | Santa Clara - Famalicao | scheduled | -
@@ -216,6 +228,7 @@ Yarin: 31
 - 2026-08-23 21:00 | Peru Premier Lig Clausura | Sport Boys - Cienciano | scheduled | -
 - 2026-08-23 21:00 | Uruguay Premier Lig Clausura | Torque - Montevideo Wand | scheduled | -
 - 2026-08-23 21:00 | Arjantin Ulusal Primera Lig | Chacarita Juni - San Martin Tucu | scheduled | -
+- 2026-08-23 21:00 | Suudi Arabistan 1.Lig | Al Ula - Al Jabalain | scheduled | -
 - 2026-08-23 21:15 | Polonya Ekstraklasa | Pogon Szczecin - Wisla Krakow | scheduled | -
 - 2026-08-23 21:15 | Slovenya 1.SNL | Maribor - Ask Bravo | scheduled | -
 - 2026-08-23 21:30 | Türkiye Süper Lig | Göztepe - Gençlerbirliği | scheduled | -
@@ -250,6 +263,7 @@ Yarin: 31
 - 2026-08-23 22:00 | Brezilya Serie B | Sao Bernardo - Nautico | scheduled | -
 - 2026-08-23 22:00 | Bosna-Hersek Premier Lig | Zrinjski - Zeljeznicar | scheduled | -
 - 2026-08-23 22:00 | Bolivya Premier Lig | Real Oruro - Bolivar | scheduled | -
+- 2026-08-23 22:00 | Malta Premier Lig Açılış | Mosta Fc - Balzan Fc | scheduled | -
 - 2026-08-23 22:15 | İzlanda Urvalsdeild | Vikingur Reykj - Valur | scheduled | -
 - 2026-08-23 22:30 | İspanya LaLiga | Elche - Barcelona | scheduled | -
 - 2026-08-23 22:30 | Portekiz Premier Lig | Porto - Arouca | scheduled | -
@@ -292,13 +306,86 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | live | -
-- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Western Sydney | live | -
-- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Marconi | live | -
-- 2026-08-23 08:00 | Avustralya Victoria NPL 1 | Melbourne Knig - Langwarrin | live | -
-- 2026-08-23 08:00 | Avustralya NPL Kuzey YGG Eleme Final | Maitland - Weston Bears | live | -
 - 2026-08-23 08:15 | Avustralya Victoria NPL 1 | Manningham Uni - Melbourne Victo | live | -
 - 2026-08-23 08:30 | Avustralya NPL Victoria | South Melbourn - Heidelberg Unit | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
+- 2026-08-23 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Suchitepequez | finished | -
+- 2026-08-23 00:00 | Honduras Ulusal Lig Apertura | Atlético Indep - Genesis Pn | finished | -
+- 2026-08-23 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Municipal Limen | finished | -
+- 2026-08-23 00:00 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | finished | -
+- 2026-08-23 00:05 | Kolombiya Primera A Clausura | Deportes Tolim - Bucaramanga | finished | -
+- 2026-08-23 00:15 | Bolivya Premier Lig | Aurora - Real Potosi | finished | -
+- 2026-08-23 00:30 | Brezilya Serie A | Internacional - Atletico Mg | finished | -
+- 2026-08-23 00:30 | Arjantin Premier Lig 2. Aşama | Independiente - Rivadavia | finished | -
+- 2026-08-23 00:30 | Şili Premier Lig | Huachipato - Deportes Limach | finished | -
+- 2026-08-23 00:30 | Brezilya Serie B | Cuiaba - Goias | finished | -
+- 2026-08-23 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Penarol | finished | -
+- 2026-08-23 00:30 | Ekvador Pro Lig | T.Universitari - Guayaquil City | finished | -
+- 2026-08-23 01:00 | Venezuela Premier Lig Clausura | Metropolitanos - Depor Tachira | finished | -
+- 2026-08-23 01:30 | ABD USL | Loudoun United - New Mexico Unit | finished | -
+- 2026-08-23 02:00 | Kosta Rika Premier Lig Apertura | Liberia - Cs Cartagines | finished | -
+- 2026-08-23 02:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
+- 2026-08-23 02:00 | ABD USL | Detroit City - Tampa Bay Rowdi | finished | -
+- 2026-08-23 02:00 | ABD USL | Lexington - Las Vegas Light | finished | -
+- 2026-08-23 02:00 | ABD USL | Indy Eleven - Louisville City | finished | -
+- 2026-08-23 02:00 | ABD USL | Brooklyn - Pittsburgh Rive | finished | -
+- 2026-08-23 02:00 | Nikaragua Premier Lig Apertura | Managua - Export Sebaco | finished | -
+- 2026-08-23 02:00 | ABD USL Lig 1 | Chattanooga Re - New York Cosmos | finished | -
+- 2026-08-23 02:00 | ABD USL Lig 1 | Union Omaha - Sarasota Paradi | finished | -
+- 2026-08-23 02:00 | ABD USL Lig 1 | Richmond Kicke - Portland Hearts | finished | -
+- 2026-08-23 02:07 | Meksika Liga MX Apertura | Guadalajara - Club Tijuana | finished | -
+- 2026-08-23 02:10 | Kolombiya Primera A Clausura | Santa Fe - America De Cali | finished | -
+- 2026-08-23 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Juticalpa | finished | -
+- 2026-08-23 02:30 | ABD MLS | Inter Miami - Toronto | finished | -
+- 2026-08-23 02:30 | ABD MLS | Cincinnati - Seattle | finished | -
+- 2026-08-23 02:30 | ABD MLS | Montreal - Los Angeles | finished | -
+- 2026-08-23 02:30 | ABD MLS | Orlando City - Salt Lake | finished | -
+- 2026-08-23 02:30 | ABD MLS | Charlotte - Dc United | finished | -
+- 2026-08-23 02:30 | ABD MLS | New York - Chicago | finished | -
+- 2026-08-23 02:30 | Brezilya Serie A | Cruzeiro - Flamengo | finished | -
+- 2026-08-23 02:30 | Bolivya Premier Lig | Nacional Potos - Independiente P | finished | -
+- 2026-08-23 02:30 | ABD USL | Rhode Island - Monterey Bay | finished | -
+- 2026-08-23 02:30 | ABD USL | Charleston Bat - Miami Fc | finished | -
+- 2026-08-23 02:30 | ABD USL Lig 1 | One Knoxville - Athletic Club B | finished | -
+- 2026-08-23 03:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Banfield | finished | -
+- 2026-08-23 03:00 | Arjantin Premier Lig 2. Aşama | Huracan - Riestra | finished | -
+- 2026-08-23 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Cusco Fc | finished | -
+- 2026-08-23 03:00 | Şili Premier Lig | Univ. Catolica - Atletico Nublen | finished | -
+- 2026-08-23 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Comunicaciones | finished | -
+- 2026-08-23 03:00 | Ekvador Pro Lig | Barcelona Gua - Orense | finished | -
+- 2026-08-23 03:00 | ABD USL | Birmingham Leg - Sporting Jax | finished | -
+- 2026-08-23 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Alianza | finished | -
+- 2026-08-23 03:00 | ABD USL Lig 1 | Forward Madiso - Charlotte Indep | finished | -
+- 2026-08-23 03:30 | ABD MLS | St. Louis City - Houston | finished | -
+- 2026-08-23 03:30 | ABD MLS | Austin - Philadelphia | finished | -
+- 2026-08-23 03:30 | ABD MLS | Nashville Sc - Columbus | finished | -
+- 2026-08-23 03:30 | ABD USL Lig 1 | Corpus Christi - Westchester Sc | finished | -
+- 2026-08-23 04:00 | Meksika Liga MX Apertura | Puebla - Santos Laguna | finished | -
+- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Alebrijes | finished | -
+- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Piratas - Cancun Fc | finished | -
+- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Durango - Leones Negros | finished | -
+- 2026-08-23 04:00 | ABD USL | San Antonio - Oakland Roots | finished | -
+- 2026-08-23 04:00 | ABD USL | Colorado Sprin - El Paso Locomot | finished | -
+- 2026-08-23 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Diriangen | finished | -
+- 2026-08-23 04:15 | Kolombiya Primera A Clausura | Independiente - Depor Cucuta | finished | -
+- 2026-08-23 04:30 | ABD MLS | Vancouver - Dallas | finished | -
+- 2026-08-23 04:30 | Honduras Ulusal Lig Apertura | Choloma - Platense | finished | -
+- 2026-08-23 04:30 | ABD USL Lig 1 | Spokane Veloci - Greenville Triu | finished | -
+- 2026-08-23 05:00 | Kosta Rika Premier Lig Apertura | Herediano - Sporting San Jo | finished | -
+- 2026-08-23 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Xelaju | finished | -
+- 2026-08-23 05:00 | ABD USL | Orange County - Tulsa Roughneck | finished | -
+- 2026-08-23 05:00 | El Salvador Primera Lig Apertura | Deportivo Fas - Aguila | finished | -
+- 2026-08-23 05:30 | ABD MLS | San Jose - Minnesota Utd | finished | -
+- 2026-08-23 05:30 | ABD MLS | Los Angeles Fc - Portland | finished | -
+- 2026-08-23 05:30 | ABD MLS | San Diego - Colorado | finished | -
+- 2026-08-23 06:00 | Meksika Liga MX Apertura | Cruz Azul - Atlas | finished | -
+- 2026-08-23 06:00 | ABD USL | Sacramento Rep - Phoenix Rising | finished | -
+- 2026-08-23 06:00 | ABD USL Lig 1 | Alta - Naples | finished | -
+- 2026-08-23 06:00 | Avustralya NPL Kuzey YGG Eleme Final | Edgeworth Eagl - Belmont Swansea | finished | -
+- 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | finished | -
+- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Western Sydney | finished | -
+- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Marconi | finished | -
+- 2026-08-23 08:00 | Avustralya Victoria NPL 1 | Melbourne Knig - Langwarrin | finished | -
+- 2026-08-23 08:00 | Avustralya NPL Kuzey YGG Eleme Final | Maitland - Weston Bears | finished | -
