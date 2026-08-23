@@ -99,3 +99,14 @@ Summary:
 - Planned submission scope is limited to the seven public URLs already listed in sitemap.xml.
 - No admin, payment administration, API, backend, match data or private operational URLs are included.
 - Did not change bulletin logic, widgets, workflows or credentials.
+
+2026-08-23
+
+Canonical host alignment completed.
+
+Summary:
+- Live HTTP checks confirmed that www redirects permanently to the apex host.
+- Updated homepage canonical, Open Graph URLs, structured data, robots sitemap URL and sitemap entries to https://futbollaboratuuvari.org/.
+- Updated CANONICAL_DOMAIN.txt to document the actual final public host.
+- CNAME and DNS settings were not changed.
+- Did not change site layout, bulletin data, widgets, workflows or payment logic.
