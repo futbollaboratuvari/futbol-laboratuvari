@@ -3,21 +3,14 @@
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
 Ham mac: 381
-Aktif mac: 211
-Canli mac: 39
-Biten mac: 131
-Bultenden dusurulen mac: 170
-Bugun: 180
+Aktif mac: 204
+Canli mac: 45
+Biten mac: 132
+Bultenden dusurulen mac: 177
+Bugun: 173
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Krieschow - Mainz | scheduled | -
-- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Braunschweig - Union Berlin | scheduled | -
-- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Schott Mainz - M Gladbach | scheduled | -
-- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Carl Zeiss Jen - Darmstadt | scheduled | -
-- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Westfalia Rhyn - Dynamo Dresden | scheduled | -
-- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Bahlinger Sc - Magdeburg | scheduled | -
-- 2026-08-23 16:30 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | scheduled | -
 - 2026-08-23 17:00 | Belçika Pro Lig | Lommel - Westerlo | scheduled | -
 - 2026-08-23 17:00 | Danimarka Süperlig | Horsens - Lyngby | scheduled | -
 - 2026-08-23 17:00 | Belçika Challenger Pro Lig | Krc Genk Ii - Rfc Liege | scheduled | -
@@ -224,7 +217,6 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Qingdao Zhongne | live | -
 - 2026-08-23 15:00 | Danimarka Süperlig | Midtjylland - Randers | live | -
 - 2026-08-23 15:00 | Danimarka Süperlig | Aarhus - Odense | live | -
 - 2026-08-23 15:00 | İsveç Allsvenskan | Vasteras - Kalmar | live | -
@@ -263,6 +255,13 @@ Yarin: 31
 - 2026-08-23 16:00 | İsviçre 1.Lig Promotion | Biel-Bienne - Lugano Ii | live | -
 - 2026-08-23 16:00 | Norveç NM Kupası 1.Tur | Floya - Ik Junkeren | live | -
 - 2026-08-23 16:00 | Tanzanya Kuu Bara Ligi | Mbeya City - Mashujaa | live | -
+- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Krieschow - Mainz | live | -
+- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Braunschweig - Union Berlin | live | -
+- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Schott Mainz - M Gladbach | live | -
+- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Carl Zeiss Jen - Darmstadt | live | -
+- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Westfalia Rhyn - Dynamo Dresden | live | -
+- 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Bahlinger Sc - Magdeburg | live | -
+- 2026-08-23 16:30 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | live | -
 
 ## Biten Maclar
 - 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
@@ -396,3 +395,4 @@ Yarin: 31
 - 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Frolunda - Landvetter Is | finished | -
 - 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Lindome Gif | finished | -
 - 2026-08-23 14:00 | İsveç 2.Lig Södra Svealand | Eker Örebro - Fittja | finished | -
+- 2026-08-23 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Qingdao Zhongne | finished | -
