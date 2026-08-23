@@ -2,27 +2,15 @@
 
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
-Ham mac: 336
-Aktif mac: 301
-Canli mac: 35
-Biten mac: 0
-Bultenden dusurulen mac: 35
-Bugun: 270
+Ham mac: 350
+Aktif mac: 290
+Canli mac: 34
+Biten mac: 26
+Bultenden dusurulen mac: 60
+Bugun: 259
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 03:30 | ABD MLS | St. Louis City - Houston | scheduled | -
-- 2026-08-23 03:30 | ABD MLS | Austin - Philadelphia | scheduled | -
-- 2026-08-23 03:30 | ABD MLS | Nashville Sc - Columbus | scheduled | -
-- 2026-08-23 03:30 | ABD USL Lig 1 | Corpus Christi - Westchester Sc | scheduled | -
-- 2026-08-23 04:00 | Meksika Liga MX Apertura | Puebla - Santos Laguna | scheduled | -
-- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Alebrijes | scheduled | -
-- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Piratas - Cancun Fc | scheduled | -
-- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Durango - Leones Negros | scheduled | -
-- 2026-08-23 04:00 | ABD USL | San Antonio - Oakland Roots | scheduled | -
-- 2026-08-23 04:00 | ABD USL | Colorado Sprin - El Paso Locomot | scheduled | -
-- 2026-08-23 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Diriangen | scheduled | -
-- 2026-08-23 04:15 | Kolombiya Primera A Clausura | Independiente - Depor Cucuta | scheduled | -
 - 2026-08-23 04:30 | ABD MLS | Vancouver - Dallas | scheduled | -
 - 2026-08-23 04:30 | Honduras Ulusal Lig Apertura | Choloma - Platense | scheduled | -
 - 2026-08-23 04:30 | ABD USL Lig 1 | Spokane Veloci - Greenville Triu | scheduled | -
@@ -129,6 +117,7 @@ Yarin: 31
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Carl Zeiss Jen - Darmstadt | scheduled | -
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Westfalia Rhyn - Dynamo Dresden | scheduled | -
 - 2026-08-23 16:30 | Almanya DFB Kupası 1.Tur | Bahlinger Sc - Magdeburg | scheduled | -
+- 2026-08-23 16:30 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | scheduled | -
 - 2026-08-23 17:00 | Belçika Pro Lig | Lommel - Westerlo | scheduled | -
 - 2026-08-23 17:00 | Danimarka Süperlig | Horsens - Lyngby | scheduled | -
 - 2026-08-23 17:00 | Belçika Challenger Pro Lig | Krc Genk Ii - Rfc Liege | scheduled | -
@@ -314,19 +303,6 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 01:00 | Venezuela Premier Lig Clausura | Metropolitanos - Depor Tachira | live | -
-- 2026-08-23 01:30 | ABD USL | Loudoun United - New Mexico Unit | live | -
-- 2026-08-23 02:00 | Kosta Rika Premier Lig Apertura | Liberia - Cs Cartagines | live | -
-- 2026-08-23 02:00 | Kanada Premier Lig | Forge - Pacific Fc | live | -
-- 2026-08-23 02:00 | ABD USL | Detroit City - Tampa Bay Rowdi | live | -
-- 2026-08-23 02:00 | ABD USL | Lexington - Las Vegas Light | live | -
-- 2026-08-23 02:00 | ABD USL | Indy Eleven - Louisville City | live | -
-- 2026-08-23 02:00 | ABD USL | Brooklyn - Pittsburgh Rive | live | -
-- 2026-08-23 02:00 | Nikaragua Premier Lig Apertura | Managua - Export Sebaco | live | -
-- 2026-08-23 02:00 | ABD USL Lig 1 | Chattanooga Re - New York Cosmos | live | -
-- 2026-08-23 02:00 | ABD USL Lig 1 | Union Omaha - Sarasota Paradi | live | -
-- 2026-08-23 02:00 | ABD USL Lig 1 | Richmond Kicke - Portland Hearts | live | -
-- 2026-08-23 02:07 | Meksika Liga MX Apertura | Guadalajara - Club Tijuana | live | -
 - 2026-08-23 02:10 | Kolombiya Primera A Clausura | Santa Fe - America De Cali | live | -
 - 2026-08-23 02:15 | Honduras Ulusal Lig Apertura | Estrella Roja - Juticalpa | live | -
 - 2026-08-23 02:30 | ABD MLS | Inter Miami - Toronto | live | -
@@ -349,6 +325,43 @@ Yarin: 31
 - 2026-08-23 03:00 | ABD USL | Birmingham Leg - Sporting Jax | live | -
 - 2026-08-23 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Alianza | live | -
 - 2026-08-23 03:00 | ABD USL Lig 1 | Forward Madiso - Charlotte Indep | live | -
+- 2026-08-23 03:30 | ABD MLS | St. Louis City - Houston | live | -
+- 2026-08-23 03:30 | ABD MLS | Austin - Philadelphia | live | -
+- 2026-08-23 03:30 | ABD MLS | Nashville Sc - Columbus | live | -
+- 2026-08-23 03:30 | ABD USL Lig 1 | Corpus Christi - Westchester Sc | live | -
+- 2026-08-23 04:00 | Meksika Liga MX Apertura | Puebla - Santos Laguna | live | -
+- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Cds Tampico Ma - Alebrijes | live | -
+- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Piratas - Cancun Fc | live | -
+- 2026-08-23 04:00 | Meksika Ascenso MX Apertura | Durango - Leones Negros | live | -
+- 2026-08-23 04:00 | ABD USL | San Antonio - Oakland Roots | live | -
+- 2026-08-23 04:00 | ABD USL | Colorado Sprin - El Paso Locomot | live | -
+- 2026-08-23 04:00 | Nikaragua Premier Lig Apertura | Real Esteli - Diriangen | live | -
+- 2026-08-23 04:15 | Kolombiya Primera A Clausura | Independiente - Depor Cucuta | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
+- 2026-08-23 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Suchitepequez | finished | -
+- 2026-08-23 00:00 | Honduras Ulusal Lig Apertura | Atlético Indep - Genesis Pn | finished | -
+- 2026-08-23 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Municipal Limen | finished | -
+- 2026-08-23 00:00 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | finished | -
+- 2026-08-23 00:05 | Kolombiya Primera A Clausura | Deportes Tolim - Bucaramanga | finished | -
+- 2026-08-23 00:15 | Bolivya Premier Lig | Aurora - Real Potosi | finished | -
+- 2026-08-23 00:30 | Brezilya Serie A | Internacional - Atletico Mg | finished | -
+- 2026-08-23 00:30 | Arjantin Premier Lig 2. Aşama | Independiente - Rivadavia | finished | -
+- 2026-08-23 00:30 | Şili Premier Lig | Huachipato - Deportes Limach | finished | -
+- 2026-08-23 00:30 | Brezilya Serie B | Cuiaba - Goias | finished | -
+- 2026-08-23 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Penarol | finished | -
+- 2026-08-23 00:30 | Ekvador Pro Lig | T.Universitari - Guayaquil City | finished | -
+- 2026-08-23 01:00 | Venezuela Premier Lig Clausura | Metropolitanos - Depor Tachira | finished | -
+- 2026-08-23 01:30 | ABD USL | Loudoun United - New Mexico Unit | finished | -
+- 2026-08-23 02:00 | Kosta Rika Premier Lig Apertura | Liberia - Cs Cartagines | finished | -
+- 2026-08-23 02:00 | Kanada Premier Lig | Forge - Pacific Fc | finished | -
+- 2026-08-23 02:00 | ABD USL | Detroit City - Tampa Bay Rowdi | finished | -
+- 2026-08-23 02:00 | ABD USL | Lexington - Las Vegas Light | finished | -
+- 2026-08-23 02:00 | ABD USL | Indy Eleven - Louisville City | finished | -
+- 2026-08-23 02:00 | ABD USL | Brooklyn - Pittsburgh Rive | finished | -
+- 2026-08-23 02:00 | Nikaragua Premier Lig Apertura | Managua - Export Sebaco | finished | -
+- 2026-08-23 02:00 | ABD USL Lig 1 | Chattanooga Re - New York Cosmos | finished | -
+- 2026-08-23 02:00 | ABD USL Lig 1 | Union Omaha - Sarasota Paradi | finished | -
+- 2026-08-23 02:00 | ABD USL Lig 1 | Richmond Kicke - Portland Hearts | finished | -
+- 2026-08-23 02:07 | Meksika Liga MX Apertura | Guadalajara - Club Tijuana | finished | -

@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 03:19:50
+Oluşturma: 23.08.2026 04:28:12
 
 ## Özet
 
-- Toplam tahmin: 746
-- Bekleyen tahmin: 746
+- Toplam tahmin: 747
+- Bekleyen tahmin: 747
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 147
@@ -20,13 +20,14 @@ Oluşturma: 23.08.2026 03:19:50
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 325, bekleyen 325, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 38, bekleyen 38, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 225, bekleyen 225, başarı bekleniyor, ağırlık 1
-- MS X: toplam 324, bekleyen 324, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Güney Kore K Lig 2 | Jeonnam Dragon - Hwaseong | MS X | pending | 50/100
 - 2026-08-23 | Fransa Ligue 1 | Rennes - Psg | MS 1 | pending | 55/100
 - 2026-08-23 | İtalya Serie B | Palermo - Juve Stabia | MS 2 | pending | 50/100
 - 2026-08-23 | İtalya Serie B | Cesena - Sampdoria | MS X | pending | 40/100
@@ -41,5 +42,4 @@ Oluşturma: 23.08.2026 03:19:50
 - 2026-08-23 | Şili Premier Lig | Univ. De Şili - Colo Colo | MS X | pending | 50/100
 - 2026-08-23 | Brezilya Serie B | Sao Bernardo - Nautico | MS 2 | pending | 40/100
 - 2026-08-23 | Bosna-Hersek Premier Lig | Borac Banja Lu - Celik | MS X | pending | 75/100
-- 2026-08-23 | Almanya Kadınlar Bundesliga | Hamburger Sv ( - Freiburg (K) | MS X | pending | 50/100
 
