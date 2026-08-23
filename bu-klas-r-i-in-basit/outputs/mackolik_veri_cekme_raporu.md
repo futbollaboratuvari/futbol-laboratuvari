@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T17:48:11.874277+00:00
+Tarih: 2026-08-23T17:55:31.831976+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 83
+- Kac mac bulundu: 52
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 83
+- Kac mac zaten vardi: 52
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
@@ -22,18 +22,11 @@ Tarih: 2026-08-23T17:48:11.874277+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Fransa Ligue 1
-- Guatemala Ulusal Lig Apertura
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya Ekstraklasa
 - Portekiz Premier Lig
@@ -147,7 +140,7 @@ Tarih: 2026-08-23T17:48:11.874277+00:00
 | 23.08.2026 | 22:00 | Sırbistan Süper Lig | Vojvodina | Zeleznicar Panc | 35595 | 5 |
 | 23.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Partizan Belgra | 35565 | 5 |
 | 23.08.2026 | 23:30 | ABD MLS | New England | New York City | 40549 | 5 |
-| 24.08.2026 | 02:00 | ABD MLS | Atlanta Utd | Kansas | 40663 | 5 |
+| 23.08.2026 | 22:00 | Brezilya Serie A | Vitoria Bahia | Bahia | 42290 | 5 |
 
 ## Sonuc
 
