@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T17:55:31.831976+00:00
+Tarih: 2026-08-23T18:11:21.323277+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 52
+- Kac mac bulundu: 46
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 52
+- Kac mac zaten vardi: 46
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
@@ -32,14 +32,11 @@ Tarih: 2026-08-23T17:55:31.831976+00:00
 - Portekiz Premier Lig
 - Romanya 1.Lig
 - Slovenya 1.SNL
-- Suudi Arabistan 1.Lig
 - Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
 - Türkiye TFF 1. Lig
-- Uruguay Premier Lig Clausura
 - Yunanistan Süper Lig
-- Çek Cumhuriyeti Czech Liga
 - İspanya 2.Lig
 - İspanya LaLiga
 - İsveç 2.Lig Södra Götaland
@@ -107,8 +104,8 @@ Tarih: 2026-08-23T17:55:31.831976+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 54
-- Acilan detay: 54
+- Denenen Tumu alani: 51
+- Acilan detay: 51
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -133,14 +130,14 @@ Tarih: 2026-08-23T17:55:31.831976+00:00
 | 23.08.2026 | 22:30 | İspanya 2.Lig | Tenerife | Almeria | 38798 | 5 |
 | 23.08.2026 | 22:00 | İtalya Serie B | Cesena | Sampdoria | 30942 | 5 |
 | 23.08.2026 | 22:00 | İtalya Serie B | Palermo | Juve Stabia | 31099 | 5 |
-| 23.08.2026 | 21:00 | Yunanistan Süper Lig | Paok | Apo Levadeiakos | 17700 | 5 |
 | 23.08.2026 | 21:30 | Yunanistan Süper Lig | Panetolikos | Asteras Tripoli | 18308 | 5 |
 | 23.08.2026 | 21:15 | Polonya Ekstraklasa | Pogon Szczecin | Wisla Krakow | 19845 | 5 |
-| 23.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Sigma Olomouc | Pardubice | 43556 | 5 |
-| 23.08.2026 | 22:00 | Sırbistan Süper Lig | Vojvodina | Zeleznicar Panc | 35595 | 5 |
 | 23.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Partizan Belgra | 35565 | 5 |
+| 23.08.2026 | 22:00 | Sırbistan Süper Lig | Vojvodina | Zeleznicar Panc | 35595 | 5 |
 | 23.08.2026 | 23:30 | ABD MLS | New England | New York City | 40549 | 5 |
+| 23.08.2026 | 22:00 | Brezilya Serie A | Bragantino | Gremio | 41977 | 5 |
 | 23.08.2026 | 22:00 | Brezilya Serie A | Vitoria Bahia | Bahia | 42290 | 5 |
+| 23.08.2026 | 22:00 | Brezilya Serie A | Palmeiras | Vasco Da Gama | 42035 | 5 |
 
 ## Sonuc
 
