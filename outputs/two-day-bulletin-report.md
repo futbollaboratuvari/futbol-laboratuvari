@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
-Ham mac: 353
-Aktif mac: 278
-Canli mac: 8
-Biten mac: 67
-Bultenden dusurulen mac: 75
-Bugun: 247
+Ham mac: 355
+Aktif mac: 276
+Canli mac: 9
+Biten mac: 70
+Bultenden dusurulen mac: 79
+Bugun: 245
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Western Sydney | scheduled | -
-- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Marconi | scheduled | -
-- 2026-08-23 08:00 | Avustralya Victoria NPL 1 | Melbourne Knig - Langwarrin | scheduled | -
-- 2026-08-23 08:00 | Avustralya NPL Kuzey YGG Eleme Final | Maitland - Weston Bears | scheduled | -
 - 2026-08-23 08:15 | Avustralya Victoria NPL 1 | Manningham Uni - Melbourne Victo | scheduled | -
 - 2026-08-23 08:30 | Avustralya NPL Victoria | South Melbourn - Heidelberg Unit | scheduled | -
 - 2026-08-23 11:00 | Hong Kong Premier Lig | North District - Wofoo Tai Po | scheduled | -
@@ -140,6 +136,7 @@ Yarin: 31
 - 2026-08-23 18:00 | Norveç NM Kupası 1.Tur | Flint - Orn Horten | scheduled | -
 - 2026-08-23 18:00 | Slovenya 2.SNL | Beltinci - Nd Primorje | scheduled | -
 - 2026-08-23 18:15 | Fransa Ligue 1 | Le Havre - Monaco | scheduled | -
+- 2026-08-23 18:15 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Emirates | scheduled | -
 - 2026-08-23 18:30 | İngiltere Premier Lig | Newcastle Utd - Liverpool | scheduled | -
 - 2026-08-23 18:30 | Polonya Ekstraklasa | Gks Katowice - Wisla Plock | scheduled | -
 - 2026-08-23 18:30 | Macaristan NB I | Kisvarda - Debreceni | scheduled | -
@@ -177,6 +174,7 @@ Yarin: 31
 - 2026-08-23 19:00 | İtalya Serie A Kadınlar Kupası Grup B | Fiorentina (K) - Sassuolo (K) | scheduled | -
 - 2026-08-23 19:00 | Tanzanya Kuu Bara Ligi | Azam Fc - Pamba Jiji | scheduled | -
 - 2026-08-23 19:00 | Slovenya 2.SNL | Krsko - Tabor Sezana | scheduled | -
+- 2026-08-23 19:00 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Nassaji Mazanda | scheduled | -
 - 2026-08-23 19:15 | Faroe Adaları Master Lig | B68 Toftir - Skala | scheduled | -
 - 2026-08-23 19:30 | İtalya Serie A | Frosinone - Juventus | scheduled | -
 - 2026-08-23 19:30 | İtalya Serie A | Unione V. - Lecce | scheduled | -
@@ -291,14 +289,15 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 05:30 | ABD MLS | San Jose - Minnesota Utd | live | -
-- 2026-08-23 05:30 | ABD MLS | Los Angeles Fc - Portland | live | -
-- 2026-08-23 05:30 | ABD MLS | San Diego - Colorado | live | -
 - 2026-08-23 06:00 | Meksika Liga MX Apertura | Cruz Azul - Atlas | live | -
 - 2026-08-23 06:00 | ABD USL | Sacramento Rep - Phoenix Rising | live | -
 - 2026-08-23 06:00 | ABD USL Lig 1 | Alta - Naples | live | -
 - 2026-08-23 06:00 | Avustralya NPL Kuzey YGG Eleme Final | Edgeworth Eagl - Belmont Swansea | live | -
 - 2026-08-23 07:30 | Avustralya NPL Yeni Güney Galler | Sydney United - Apia | live | -
+- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Wollongong Wol - Western Sydney | live | -
+- 2026-08-23 08:00 | Avustralya NPL Yeni Güney Galler | Sydney Olympic - Marconi | live | -
+- 2026-08-23 08:00 | Avustralya Victoria NPL 1 | Melbourne Knig - Langwarrin | live | -
+- 2026-08-23 08:00 | Avustralya NPL Kuzey YGG Eleme Final | Maitland - Weston Bears | live | -
 
 ## Biten Maclar
 - 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
@@ -368,3 +367,6 @@ Yarin: 31
 - 2026-08-23 05:00 | Guatemala Ulusal Lig Apertura | Municipal - Xelaju | finished | -
 - 2026-08-23 05:00 | ABD USL | Orange County - Tulsa Roughneck | finished | -
 - 2026-08-23 05:00 | El Salvador Primera Lig Apertura | Deportivo Fas - Aguila | finished | -
+- 2026-08-23 05:30 | ABD MLS | San Jose - Minnesota Utd | finished | -
+- 2026-08-23 05:30 | ABD MLS | Los Angeles Fc - Portland | finished | -
+- 2026-08-23 05:30 | ABD MLS | San Diego - Colorado | finished | -

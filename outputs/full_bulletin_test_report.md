@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 278
+- Scheduled match count: 276
 - Live match count: 5
-- Finished removed count: 3
+- Finished removed count: 4
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 06:00 | Alta - Naples | live
-- 2026-08-23 06:00 | Sacramento Rep - Phoenix Rising | live
-- 2026-08-23 06:00 | Edgeworth Eagl - Belmont Swansea | live
-- 2026-08-23 06:00 | Cruz Azul - Atlas | live
 - 2026-08-23 07:30 | Sydney United - Apia | live
-- 2026-08-23 08:00 | Maitland - Weston Bears | scheduled
-- 2026-08-23 08:00 | Sydney Olympic - Marconi | scheduled
-- 2026-08-23 08:00 | Wollongong Wol - Western Sydney | scheduled
-- 2026-08-23 08:00 | Melbourne Knig - Langwarrin | scheduled
+- 2026-08-23 08:00 | Maitland - Weston Bears | live
+- 2026-08-23 08:00 | Sydney Olympic - Marconi | live
+- 2026-08-23 08:00 | Wollongong Wol - Western Sydney | live
+- 2026-08-23 08:00 | Melbourne Knig - Langwarrin | live
 - 2026-08-23 08:15 | Manningham Uni - Melbourne Victo | scheduled
+- 2026-08-23 08:30 | South Melbourn - Heidelberg Unit | scheduled
+- 2026-08-23 11:00 | Jeonbuk Motors - Ulsan Citizen | scheduled
+- 2026-08-23 11:00 | Siheung Citize - Daejeon Korail | scheduled
+- 2026-08-23 11:00 | North District - Wofoo Tai Po | scheduled
