@@ -89,3 +89,13 @@ Summary:
 - The creative uses the current live domain and avoids guaranteed-win, money and betting-slip claims.
 - Publishing was not triggered because the stored Instagram access token is expired; the media is ready for the next successful authorized run.
 - Did not change match data, bulletin logic, widgets, payment flow or Instagram API credentials.
+
+2026-08-23
+
+IndexNow organic search discovery prepared.
+
+Summary:
+- Added a root verification key file for IndexNow ownership validation.
+- Planned submission scope is limited to the seven public URLs already listed in sitemap.xml.
+- No admin, payment administration, API, backend, match data or private operational URLs are included.
+- Did not change bulletin logic, widgets, workflows or credentials.
