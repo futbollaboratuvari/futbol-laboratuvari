@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 14:14:25
+Oluşturma: 23.08.2026 14:35:32
 
 ## Özet
 
-- Toplam tahmin: 781
-- Bekleyen tahmin: 781
+- Toplam tahmin: 784
+- Bekleyen tahmin: 784
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 148
@@ -20,13 +20,16 @@ Oluşturma: 23.08.2026 14:14:25
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 236, bekleyen 236, başarı bekleniyor, ağırlık 1
+- MS X: toplam 341, bekleyen 341, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
-- MS X: toplam 339, bekleyen 339, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 235, bekleyen 235, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Almanya Bölgesel Lig Batı | Paderborn 07 I - Bonner Sc | MS 2 | pending | 50/100
+- 2026-08-23 | Finlandiya Ykkönen | Vjs - Fc Jazz | MS X | pending | 95/100
+- 2026-08-23 | Danimarka Süperlig | Aarhus - Odense | MS X | pending | 50/100
 - 2026-08-23 | Türkiye TFF 1. Lig | Van Spor Fk - İstanbulspor | MS 1 | pending | 50/100
 - 2026-08-23 | Belarus Premier Lig | Ml Vitebsk - Bate Borisov | MS X | pending | 75/100
 - 2026-08-23 | Romanya 1.Lig | Cfr Cluj - Fc Steaua | MS 1 | pending | 50/100
@@ -39,7 +42,4 @@ Oluşturma: 23.08.2026 14:14:25
 - 2026-08-23 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | MS X | pending | 40/100
 - 2026-08-23 | İspanya LaLiga | Elche - Barcelona | MS 1 | pending | 40/100
 - 2026-08-23 | Şili Premier Lig | Concepcion - Coquimbo Unido | MS 1 | pending | 40/100
-- 2026-08-23 | İsviçre Süper Lig | Young Boys - Vaduz | MS 2 | pending | 40/100
-- 2026-08-23 | Malta Premier Lig Açılış | Mosta Fc - Balzan Fc | MS 1 | pending | 40/100
-- 2026-08-23 | Suudi Arabistan 1.Lig | Al Ula - Al Jabalain | MS 2 | pending | 60/100
 
