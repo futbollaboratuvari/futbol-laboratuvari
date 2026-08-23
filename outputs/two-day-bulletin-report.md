@@ -3,15 +3,14 @@
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
 Ham mac: 105
-Aktif mac: 91
-Canli mac: 14
+Aktif mac: 90
+Canli mac: 15
 Biten mac: 0
-Bultenden dusurulen mac: 14
-Bugun: 81
+Bultenden dusurulen mac: 15
+Bugun: 80
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 01:30 | Brezilya Serie A | Coritiba - Corinthians | scheduled | -
 - 2026-08-24 02:00 | ABD MLS | Atlanta Utd - Kansas | scheduled | -
 - 2026-08-24 02:00 | Meksika Liga MX Apertura | Atletico San L - Pachuca | scheduled | -
 - 2026-08-24 02:00 | Şili Premier Lig | O Higgins - Palestino | scheduled | -
@@ -118,6 +117,7 @@ Yarin: 10
 - 2026-08-24 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Progreso | live | -
 - 2026-08-24 01:00 | Nikaragua Premier Lig Apertura | Rancho Santana - San Marcos | live | -
 - 2026-08-24 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Velez Sarsfield | live | -
+- 2026-08-24 01:30 | Brezilya Serie A | Coritiba - Corinthians | live | -
 
 ## Biten Maclar
 Biten mac yok.

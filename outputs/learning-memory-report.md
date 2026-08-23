@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 01:37:01
+Oluşturma: 24.08.2026 01:42:13
 
 ## Özet
 
-- Toplam tahmin: 801
-- Bekleyen tahmin: 801
+- Toplam tahmin: 848
+- Bekleyen tahmin: 848
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
-- Lig sayısı: 149
+- Lig sayısı: 150
 - Seçenek sayısı: 4
 
 ## Öğrenme Mantığı
@@ -20,26 +20,26 @@ Oluşturma: 24.08.2026 01:37:01
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 1: toplam 50, bekleyen 50, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 243, bekleyen 243, başarı bekleniyor, ağırlık 1
-- MS X: toplam 349, bekleyen 349, başarı bekleniyor, ağırlık 1
+- MS 1: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
+- MS X: toplam 363, bekleyen 363, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 270, bekleyen 270, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-24 | Brezilya Serie A | Chapecoense - Sao Paulo | MS 1 | pending | 40/100
-- 2026-08-24 | Brezilya Serie A | Santos - Mirassol | MS 2 | pending | 50/100
-- 2026-08-24 | Bolivya Premier Lig | Guabira - Blooming | MS X | pending | 50/100
-- 2026-08-24 | Brezilya Serie B | Operario - Vila Nova | MS 2 | pending | 40/100
-- 2026-08-24 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | MS 2 | pending | 50/100
-- 2026-08-24 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | MS 2 | pending | 40/100
-- 2026-08-23 | Mısır Premier Lig | Al Ahly - Enppi | MS X | pending | 65/100
-- 2026-08-23 | Yunanistan Süper Lig | Ofi - Volos Nfc | MS X | pending | 50/100
-- 2026-08-23 | Peru Premier Lig Clausura | Sport Boys - Cienciano | MS X | pending | 40/100
-- 2026-08-23 | Danimarka Süperlig | Horsens - Lyngby | MS 1 | pending | 50/100
-- 2026-08-23 | Belçika Challenger Pro Lig | Francs Borains - Sporting Hassel | MS 2 | pending | 50/100
-- 2026-08-23 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | MS X | pending | 40/100
-- 2026-08-23 | Romanya 1.Lig | Universitatea - Voluntari | MS 2 | pending | 75/100
-- 2026-08-23 | İngiltere Premier Lig | Brighton - Aston Villa | MS 2 | pending | 50/100
-- 2026-08-23 | Faroe Adaları Master Lig | Kí Klaksvík - Runavik | MS X | pending | 50/100
+- 2026-08-24 | Suudi Arabistan Pro Lig | Neom Sc - Al-Qadsiah | MS 1 | pending | 45/100
+- 2026-08-24 | İspanya 2.Lig | Celta Vigo Ii - Fc Andorra | MS X | pending | 50/100
+- 2026-08-24 | Danimarka Süperlig | Brondby - Silkeborg | MS 2 | pending | 85/100
+- 2026-08-24 | İsveç Allsvenskan | Malmö - Djurgarden | MS X | pending | 50/100
+- 2026-08-24 | İsveç Superettan | Ostersund - Ljungskile | MS 2 | pending | 50/100
+- 2026-08-24 | İsveç Superettan | Varnamo - Landskrona | MS X | pending | 50/100
+- 2026-08-24 | İtalya Primavera Şampiyonası 1 | Milan U20 - Torino U20 | MS X | pending | 50/100
+- 2026-08-24 | İsveç Superettan | Norrkoping - Falkenberg | MS 2 | pending | 60/100
+- 2026-08-24 | İspanya LaLiga | Osasuna - Levante | MS 2 | pending | 40/100
+- 2026-08-24 | Belarus Premier Lig | Torpedo Zhodin - Dnepr Mogilev | MS 2 | pending | 40/100
+- 2026-08-24 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Hazm | MS 2 | pending | 85/100
+- 2026-08-24 | Hollanda Eerste Divisie | Utrecht (Ii) - Heracles | MS 1 | pending | 55/100
+- 2026-08-24 | Hollanda Eerste Divisie | Psv (B) - Oss | MS 2 | pending | 70/100
+- 2026-08-24 | Türkiye Süper Lig | Kocaelispor - Amed Sk | MS X | pending | 40/100
+- 2026-08-24 | İtalya Serie A | Roma - Fiorentina | MS 2 | pending | 50/100
 
