@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T11:32:28.442871+00:00
+Tarih: 2026-08-23T11:54:14.216763+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 223
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 223
-- Ham veri havuzu toplam mac sayisi: 8856
+- Kac mac bulundu: 254
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 253
+- Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -35,28 +35,35 @@ Tarih: 2026-08-23T11:32:28.442871+00:00
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
 - Ekvador Pro Lig
+- El Salvador Primera Lig Apertura
 - Estonya Premium Lig
 - Faroe Adaları Master Lig
 - Finlandiya Veikkausliiga
 - Finlandiya Ykkönen
 - Fransa Ligue 1
+- Guatemala Ulusal Lig Apertura
 - Güney Afrika 8 Kupası Yarı Final
 - Hollanda Eerste Divisie
 - Hollanda Eredivisie
 - Hollanda Kadınlar Eredivisie
 - Hollanda Tweede Divisie
+- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Hırvatistan 2.HNL
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
+- Kosta Rika Premier Lig Apertura
 - Letonya 1.Lig
 - Letonya Virsliga
 - Litvanya A Ligi
 - Macaristan NB I
 - Macaristan NB II
 - Malta Premier Lig Açılış
+- Meksika Ascenso MX Apertura
+- Meksika Liga MX Apertura
 - Moldova Ulusal Lig
 - Mısır Premier Lig
+- Nikaragua Premier Lig Apertura
 - Norveç NM Kupası 1.Tur
 - Peru Premier Lig Clausura
 - Polonya 1.Lig
@@ -181,23 +188,23 @@ Tarih: 2026-08-23T11:32:28.442871+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.08.2026 | 19:00 | Türkiye Süper Lig | Eyüpspor | Gaziantep Fk | 03702 | 5 |
 | 23.08.2026 | 19:00 | Türkiye Süper Lig | Trabzonspor | Başakşehir Fk | 03513 | 5 |
 | 23.08.2026 | 21:30 | Türkiye Süper Lig | Alanyaspor | Beşiktaş | 03508 | 5 |
 | 23.08.2026 | 21:30 | Türkiye Süper Lig | Göztepe | Gençlerbirliği | 03477 | 5 |
+| 23.08.2026 | 19:00 | Türkiye Süper Lig | Eyüpspor | Gaziantep Fk | 03702 | 5 |
 | 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Sarıyer | Batman Petrol | 07071 | 5 |
-| 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Van Spor Fk | İstanbulspor | 08340 | 5 |
-| 23.08.2026 | 19:00 | Türkiye TFF 1. Lig | Boluspor | Mardin 1969 | 06183 | 5 |
 | 23.08.2026 | 17:00 | Türkiye TFF 1. Lig | Bandirmaspor | A. Keçiörengücü | 01014 | 5 |
+| 23.08.2026 | 19:00 | Türkiye TFF 1. Lig | Boluspor | Mardin 1969 | 06183 | 5 |
+| 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Van Spor Fk | İstanbulspor | 08340 | 5 |
 | 23.08.2026 | 16:00 | İngiltere Premier Lig | Manchester Cit | Bournemouth | 37890 | 5 |
-| 23.08.2026 | 18:30 | İngiltere Premier Lig | Newcastle Utd | Liverpool | 06874 | 5 |
 | 23.08.2026 | 16:00 | İngiltere Premier Lig | Brighton | Aston Villa | 37832 | 5 |
-| 23.08.2026 | 20:30 | İspanya LaLiga | Getafe | Santander | 38682 | 5 |
-| 23.08.2026 | 22:30 | İspanya LaLiga | Elche | Barcelona | 38740 | 5 |
+| 23.08.2026 | 18:30 | İngiltere Premier Lig | Newcastle Utd | Liverpool | 06874 | 5 |
 | 23.08.2026 | 18:00 | İspanya LaLiga | Atletico Madri | Villarreal | 01945 | 5 |
+| 23.08.2026 | 22:30 | İspanya LaLiga | Elche | Barcelona | 38740 | 5 |
+| 23.08.2026 | 20:30 | İspanya LaLiga | Getafe | Santander | 38682 | 5 |
 | 23.08.2026 | 21:45 | İtalya Serie A | Torino | Ac Milan | 07083 | 5 |
-| 23.08.2026 | 19:30 | İtalya Serie A | Unione V. | Lecce | 30583 | 5 |
 | 23.08.2026 | 19:30 | İtalya Serie A | Frosinone | Juventus | 30464 | 5 |
+| 23.08.2026 | 19:30 | İtalya Serie A | Unione V. | Lecce | 30583 | 5 |
 | 23.08.2026 | 21:45 | İtalya Serie A | Atalanta | Sassuolo | 30884 | 5 |
 | 23.08.2026 | 16:00 | Fransa Ligue 1 | Angers | Lille | 40850 | 5 |
 | 23.08.2026 | 21:45 | Fransa Ligue 1 | Rennes | Psg | 45305 | 5 |
