@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 20:00:06
+Oluşturma: 23.08.2026 20:07:09
 
 ## Özet
 
-- Toplam tahmin: 794
-- Bekleyen tahmin: 794
+- Toplam tahmin: 795
+- Bekleyen tahmin: 795
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 149
@@ -20,13 +20,14 @@ Oluşturma: 23.08.2026 20:00:06
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 347, bekleyen 347, başarı bekleniyor, ağırlık 1
+- MS X: toplam 348, bekleyen 348, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 49, bekleyen 49, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 239, bekleyen 239, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Mısır Premier Lig | Al Ahly - Enppi | MS X | pending | 65/100
 - 2026-08-23 | Yunanistan Süper Lig | Ofi - Volos Nfc | MS X | pending | 50/100
 - 2026-08-23 | Peru Premier Lig Clausura | Sport Boys - Cienciano | MS X | pending | 40/100
 - 2026-08-23 | Danimarka Süperlig | Horsens - Lyngby | MS 1 | pending | 50/100
@@ -41,5 +42,4 @@ Oluşturma: 23.08.2026 20:00:06
 - 2026-08-23 | Finlandiya Ykkönen | Vjs - Fc Jazz | MS X | pending | 95/100
 - 2026-08-23 | Danimarka Süperlig | Aarhus - Odense | MS X | pending | 50/100
 - 2026-08-23 | Türkiye TFF 1. Lig | Van Spor Fk - İstanbulspor | MS 1 | pending | 50/100
-- 2026-08-23 | Belarus Premier Lig | Ml Vitebsk - Bate Borisov | MS X | pending | 75/100
 
