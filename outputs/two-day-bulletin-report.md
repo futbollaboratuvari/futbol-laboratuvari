@@ -3,19 +3,14 @@
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
 Ham mac: 105
-Aktif mac: 90
-Canli mac: 15
-Biten mac: 0
-Bultenden dusurulen mac: 15
-Bugun: 80
+Aktif mac: 85
+Canli mac: 13
+Biten mac: 7
+Bultenden dusurulen mac: 20
+Bugun: 75
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 02:00 | ABD MLS | Atlanta Utd - Kansas | scheduled | -
-- 2026-08-24 02:00 | Meksika Liga MX Apertura | Atletico San L - Pachuca | scheduled | -
-- 2026-08-24 02:00 | Şili Premier Lig | O Higgins - Palestino | scheduled | -
-- 2026-08-24 02:10 | Kolombiya Primera A Clausura | Deportivo Cali - Inter Bogota | scheduled | -
-- 2026-08-24 02:15 | Honduras Ulusal Lig Apertura | Olancho - Depor. Olimpia | scheduled | -
 - 2026-08-24 02:30 | Peru Premier Lig Clausura | Universitario - Chankas Cyc | scheduled | -
 - 2026-08-24 02:30 | El Salvador Primera Lig Apertura | Firpo - Platense | scheduled | -
 - 2026-08-24 03:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Ad San Carlos | scheduled | -
@@ -103,13 +98,6 @@ Yarin: 10
 - 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | scheduled | -
 
 ## Canli Maclar
-- 2026-08-24 00:00 | Brezilya Serie B | Operario - Vila Nova | live | -
-- 2026-08-24 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Deportivo Sapri | live | -
-- 2026-08-24 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | live | -
-- 2026-08-24 00:00 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | live | -
-- 2026-08-24 00:00 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | live | -
-- 2026-08-24 00:00 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | live | -
-- 2026-08-24 00:05 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | live | -
 - 2026-08-24 00:15 | Bolivya Premier Lig | Guabira - Blooming | live | -
 - 2026-08-24 00:30 | Brezilya Serie A | Chapecoense - Sao Paulo | live | -
 - 2026-08-24 00:30 | Brezilya Serie A | Santos - Mirassol | live | -
@@ -118,6 +106,17 @@ Yarin: 10
 - 2026-08-24 01:00 | Nikaragua Premier Lig Apertura | Rancho Santana - San Marcos | live | -
 - 2026-08-24 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Velez Sarsfield | live | -
 - 2026-08-24 01:30 | Brezilya Serie A | Coritiba - Corinthians | live | -
+- 2026-08-24 02:00 | ABD MLS | Atlanta Utd - Kansas | live | -
+- 2026-08-24 02:00 | Meksika Liga MX Apertura | Atletico San L - Pachuca | live | -
+- 2026-08-24 02:00 | Şili Premier Lig | O Higgins - Palestino | live | -
+- 2026-08-24 02:10 | Kolombiya Primera A Clausura | Deportivo Cali - Inter Bogota | live | -
+- 2026-08-24 02:15 | Honduras Ulusal Lig Apertura | Olancho - Depor. Olimpia | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-24 00:00 | Brezilya Serie B | Operario - Vila Nova | finished | -
+- 2026-08-24 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Deportivo Sapri | finished | -
+- 2026-08-24 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | finished | -
+- 2026-08-24 00:00 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | finished | -
+- 2026-08-24 00:00 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | finished | -
+- 2026-08-24 00:00 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | finished | -
+- 2026-08-24 00:05 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | finished | -
