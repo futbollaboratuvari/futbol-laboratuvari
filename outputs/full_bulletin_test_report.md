@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 86
 - Live match count: 88
-- Finished removed count: 4
+- Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
 - 2026-08-23 18:00 | Teplice - Brno | live
