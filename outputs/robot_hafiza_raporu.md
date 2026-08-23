@@ -1,11 +1,11 @@
 # Robot Hafıza Raporu
 
-Güncelleme: 2026-08-21T07:02:55+03:00
+Güncelleme: 2026-08-23T07:13:33+03:00
 
 ## Genel Durum
 
 - Hafıza durumu: Öğrenen hafıza sistemi aktif
-- Toplam tahmin kaydı: 341
+- Toplam tahmin kaydı: 328
 - Sonuçlanan tahmin: 0
 - Yanılma kaydı: 0
 - Güvenlik: Robot kupon onaylamaz, para yatırmaz, para çekmez. Son karar kullanıcıya aittir.
@@ -17,11 +17,13 @@ Güncelleme: 2026-08-21T07:02:55+03:00
 | - | 1 | 0 | 0 | 1 | %0 | 0 |
 | 2.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
 | 3.5 Üst | 0 | 0 | 0 | 0 | %0 | 0 |
-| Değerli market yok | 118 | 0 | 0 | 118 | %0 | 0 |
+| Değerli market yok | 159 | 0 | 0 | 159 | %0 | 0 |
 | KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
-| MS 1 | 8 | 0 | 0 | 8 | %0 | 3.16 |
-| MS 2 | 76 | 0 | 0 | 76 | %0 | 4.03 |
-| MS X | 138 | 0 | 0 | 138 | %0 | 3.21 |
+| MS 1 | 6 | 0 | 0 | 6 | %0 | 4.3 |
+| MS 2 | 73 | 0 | 0 | 73 | %0 | 4.33 |
+| MS 2 + MS 2 | 3 | 0 | 0 | 3 | %0 | 29.03 |
+| MS 2 + MS 2 + MS 2 | 2 | 0 | 0 | 2 | %0 | 161.41 |
+| MS X | 84 | 0 | 0 | 84 | %0 | 3.25 |
 | İkinci Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 | İlk Yarı KG Var | 0 | 0 | 0 | 0 | %0 | 0 |
 
@@ -31,44 +33,44 @@ Güncelleme: 2026-08-21T07:02:55+03:00
 |---|---:|---:|---:|---:|---:|---:|
 | 1.01-1.49 | 0 | 0 | 0 | 0 | %0 | 0 |
 | 1.50-1.99 | 0 | 0 | 0 | 0 | %0 | 0 |
-| 2.00-2.99 | 36 | 0 | 0 | 36 | %0 | 2.9 |
-| 3.00-4.99 | 174 | 0 | 0 | 174 | %0 | 3.47 |
-| 5.00+ | 12 | 0 | 0 | 12 | %0 | 5.47 |
-| bilinmiyor | 119 | 0 | 0 | 119 | %0 | 0 |
+| 2.00-2.99 | 27 | 0 | 0 | 27 | %0 | 2.9 |
+| 3.00-4.99 | 112 | 0 | 0 | 112 | %0 | 3.56 |
+| 5.00+ | 29 | 0 | 0 | 29 | %0 | 18.92 |
+| bilinmiyor | 160 | 0 | 0 | 160 | %0 | 0 |
 
 ## Lig Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Almanya Bölgesel Lig Batı | 2 | 0 | 0 | 2 | %0 | 3.17 |
-| Almanya DFB Kupası 1.Tur | 8 | 0 | 0 | 8 | %0 | 4.09 |
-| Almanya Kadınlar Bundesliga | 2 | 0 | 0 | 2 | %0 | 0 |
-| Arjantin Premier Lig 2. Aşama | 2 | 0 | 0 | 2 | %0 | 0 |
+| ABD MLS | 13 | 0 | 0 | 13 | %0 | 3.55 |
+| ABD USL | 12 | 0 | 0 | 12 | %0 | 3.27 |
+| ABD USL Lig 1 | 8 | 0 | 0 | 8 | %0 | 3.23 |
+| Almanya Bölgesel Lig Batı | 2 | 0 | 0 | 2 | %0 | 2.98 |
+| Almanya Bölgesel Lig Kuzey | 1 | 0 | 0 | 1 | %0 | 0 |
+| Almanya DFB Kupası 1.Tur | 11 | 0 | 0 | 11 | %0 | 4.02 |
+| Almanya Kadınlar Bundesliga | 3 | 0 | 0 | 3 | %0 | 3.26 |
+| Arjantin Premier Lig 2. Aşama | 6 | 0 | 0 | 6 | %0 | 0 |
 | Arjantin Ulusal Primera Lig | 4 | 0 | 0 | 4 | %0 | 0 |
-| Avustralya NPL Victoria | 2 | 0 | 0 | 2 | %0 | 3.2 |
-| Avustralya NPL Yeni Güney Galler | 2 | 0 | 0 | 2 | %0 | 0 |
-| Avustralya Victoria NPL 1 | 2 | 0 | 0 | 2 | %0 | 3.26 |
-| Avusturya 1.Lig | 10 | 0 | 0 | 10 | %0 | 3.33 |
-| Avusturya Bundesliga | 2 | 0 | 0 | 2 | %0 | 3.33 |
-| Belarus Premier Lig | 2 | 0 | 0 | 2 | %0 | 2.72 |
-| Belçika Challenger Pro Lig | 4 | 0 | 0 | 4 | %0 | 3.1 |
+| Avustralya NPL Kuzey YGG Eleme Final | 2 | 0 | 0 | 2 | %0 | 3.73 |
+| Avustralya NPL Victoria | 1 | 0 | 0 | 1 | %0 | 3.16 |
+| Avustralya NPL Yeni Güney Galler | 3 | 0 | 0 | 3 | %0 | 3.06 |
 
 ## Takım Hafızası
 
 | Başlık | Toplam | Kazandı | Kaybetti | Bekliyor | Başarı | Ortalama Oran |
 |---|---:|---:|---:|---:|---:|---:|
-| Abu Qair VS National Bank O | 2 | 0 | 0 | 2 | %0 | 0 |
-| Academia Anzoa VS Trujillanos | 2 | 0 | 0 | 2 | %0 | 3.57 |
-| Acassuso VS Godoy Cruz | 2 | 0 | 0 | 2 | %0 | 0 |
-| Admira Wacker VS First Vienna | 2 | 0 | 0 | 2 | %0 | 3.03 |
-| Aegir VS Afturelding | 2 | 0 | 0 | 2 | %0 | 0 |
-| Afan Lido VS Pontardawe | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Arabi VS Al Shamal | 2 | 0 | 0 | 2 | %0 | 3.22 |
-| Al Bataeh VS Al Ittifaq | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Bukayriyah VS Al Anwar | 2 | 0 | 0 | 2 | %0 | 2.86 |
-| Al Faisaly Amm VS Al Wihdat Amman | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Faisaly VS Neom Sc | 2 | 0 | 0 | 2 | %0 | 0 |
-| Al Hazm VS Diriyah | 2 | 0 | 0 | 2 | %0 | 3.08 |
+| Aarhus VS Odense | 1 | 0 | 0 | 1 | %0 | 3.75 |
+| Ad Marco 09 VS Vianense | 1 | 0 | 0 | 1 | %0 | 3.25 |
+| Ado Den Haag ( VS Twente (K) | 1 | 0 | 0 | 1 | %0 | 0 |
+| Akranes VS Hafnarfjordur | 1 | 0 | 0 | 1 | %0 | 0 |
+| Akron VS Krylya Sovietov | 1 | 0 | 0 | 1 | %0 | 3.05 |
+| Al Ahly VS Enppi | 1 | 0 | 0 | 1 | %0 | 7.21 |
+| Al Sharjah VS Al Jazira | 1 | 0 | 0 | 1 | %0 | 3.16 |
+| Alanyaspor VS Beşiktaş | 1 | 0 | 0 | 1 | %0 | 0 |
+| Alta VS Naples | 1 | 0 | 0 | 1 | %0 | 3.11 |
+| Angers VS Lille | 1 | 0 | 0 | 1 | %0 | 0 |
+| Antigua Guatem VS Comunicaciones | 1 | 0 | 0 | 1 | %0 | 0 |
+| Asan Mugunghwa VS Yongin | 1 | 0 | 0 | 1 | %0 | 3.12 |
 
 ## Öğrenme Ağırlıkları - Market
 
@@ -81,6 +83,8 @@ Güncelleme: 2026-08-21T07:02:55+03:00
 | KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 1 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
+| MS 2 + MS 2 + MS 2 | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | MS X | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İkinci Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
 | İlk Yarı KG Var | 1.0 | veri_yetersiz | 0 | Yeterli sonuç yok; ağırlık değiştirme. |
