@@ -9,6 +9,7 @@ Current performance state:
 - learning-visibility ve learning-output-visibility katmanları ana sayfa başlangıcında otomatik yüklenmez.
 - Günlük maç widget'ı önce full-bulletin.json ve live-matches.json dosyalarını okur; two-day-bulletin.json yalnız ana bülten boş veya erişilemezse yedek olarak çağrılır.
 - Aynı JSON dosyasına eş zamanlı erişen ana sayfa bölümleri 15 saniyelik kısa bir ortak istek penceresi kullanır; bu pencere yalnız yinelenen çağrıları birleştirir, dakikalık güncellemeleri engellemez.
+- Ana sayfada fixtures-list bulunmadığı için kullanılmayan fixtures.json dosyası başlangıçta indirilmez.
 - Özel Analiz V3, günlük widget'ın hazırladığı yaklaşan maç listesini yeniden kullanır ve gereksiz ikinci bülten indirmesini önler.
 - Yeni flw günlük maç paneliyle uyumsuz eski daily-toggle, daily-past-filter ve daily-live-score-presenter eklentileri başlangıç zincirinden çıkarıldı.
 - Üyelik/ödeme betikleri yalnız Üyelik paneli açıldığında yüklenir; rehber ve görsel yardımcılar boş zamanda başlatılır.

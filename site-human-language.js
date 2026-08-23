@@ -100,9 +100,8 @@
     candidateLoading = true;
     candidateCheckedAt = Date.now();
     try {
-      const response = await fetch("./data/daily-coupons.json", { cache: "no-cache" });
-      if (!response.ok) throw new Error("not ready");
-      const data = await response.json();
+      const data = await readJson("./data/daily-coupons.json", null);
+      if (!data) throw new Error("not ready");
       const coupons = data.coupons || {};
       const lists = [coupons.laboratory_today, coupons.balanced, coupons.high_value, coupons.risk_lab];
       const leg = lists.flatMap((coupon) => Array.isArray(coupon?.selected_matches) ? coupon.selected_matches : [])

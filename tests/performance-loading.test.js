@@ -44,6 +44,7 @@ async function testSharedJsonRequests() {
   ]);
 
   assert.equal(calls.filter((url) => url.includes("full-bulletin.json")).length, 1);
+  assert.equal(calls.some((url) => url.includes("fixtures.json")), false);
   assert.equal(typeof window.__flReadJsonShared, "function");
 }
 

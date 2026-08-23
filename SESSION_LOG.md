@@ -136,6 +136,7 @@ Summary:
 - Gated robot-analysis.json, raw pool and report downloads behind the admin elements that actually consume them.
 - Removed learning visibility, legacy wide-market, obsolete daily-row and coupon fallback chains from homepage startup while keeping their files in the repository for rollback.
 - Added a short-lived shared JSON request layer so concurrent full bulletin, fixtures, live, coupon and history readers use one network request without blocking later refreshes.
+- Stopped the unused fixtures.json request when the legacy fixtures list is not present on the homepage.
 - Changed the daily widget to load two-day-bulletin.json only when full-bulletin.json is missing or empty, and exposed its normalized upcoming list to Özel Analiz V3.
 - Deferred membership/payment code until the membership panel opens, and moved the guide/visual helpers to browser idle time.
 - Debounced the site language mutation work and reduced repeated header cleanup frequency.

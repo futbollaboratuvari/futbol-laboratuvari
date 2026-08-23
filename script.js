@@ -272,7 +272,9 @@ const setupObservers = () => {
 
 const init = async () => {
   renderStaticEmptySections();
-  await Promise.all([loadFixtures(), loadProAnalysisCenter()]);
+  const tasks = [loadProAnalysisCenter()];
+  if (fixturesList) tasks.push(loadFixtures());
+  await Promise.all(tasks);
   setupObservers();
 };
 
