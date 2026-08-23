@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
-Ham mac: 105
+Ham mac: 93
 Aktif mac: 83
 Canli mac: 10
-Biten mac: 12
-Bultenden dusurulen mac: 22
+Biten mac: 0
+Bultenden dusurulen mac: 10
 Bugun: 73
 Yarin: 10
 
@@ -108,15 +108,4 @@ Yarin: 10
 - 2026-08-24 02:30 | El Salvador Primera Lig Apertura | Firpo - Platense | live | -
 
 ## Biten Maclar
-- 2026-08-24 00:00 | Brezilya Serie B | Operario - Vila Nova | finished | -
-- 2026-08-24 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Deportivo Sapri | finished | -
-- 2026-08-24 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | finished | -
-- 2026-08-24 00:00 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | finished | -
-- 2026-08-24 00:00 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | finished | -
-- 2026-08-24 00:00 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | finished | -
-- 2026-08-24 00:05 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | finished | -
-- 2026-08-24 00:15 | Bolivya Premier Lig | Guabira - Blooming | finished | -
-- 2026-08-24 00:30 | Brezilya Serie A | Chapecoense - Sao Paulo | finished | -
-- 2026-08-24 00:30 | Brezilya Serie A | Santos - Mirassol | finished | -
-- 2026-08-24 00:30 | Brezilya Serie B | Criciuma - Fortaleza Ce | finished | -
-- 2026-08-24 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Progreso | finished | -
+Biten mac yok.
