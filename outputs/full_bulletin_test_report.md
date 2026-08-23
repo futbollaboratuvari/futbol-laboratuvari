@@ -3,11 +3,10 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 279
-- Live match count: 7
-- Finished removed count: 0
+- Live match count: 6
+- Finished removed count: 1
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 07:30 | Sydney United - Apia | live
 - 2026-08-23 08:00 | Maitland - Weston Bears | live
 - 2026-08-23 08:00 | Sydney Olympic - Marconi | live
 - 2026-08-23 08:00 | Wollongong Wol - Western Sydney | live
@@ -17,3 +16,4 @@
 - 2026-08-23 11:00 | Jeonbuk Motors - Ulsan Citizen | scheduled
 - 2026-08-23 11:00 | Siheung Citize - Daejeon Korail | scheduled
 - 2026-08-23 11:00 | North District - Wofoo Tai Po | scheduled
+- 2026-08-23 11:15 | Slavia Praha I - Hanacka Slavia | scheduled
