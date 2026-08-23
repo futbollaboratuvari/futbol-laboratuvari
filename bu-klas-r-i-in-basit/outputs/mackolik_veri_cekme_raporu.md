@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T17:21:55.927065+00:00
+Tarih: 2026-08-23T17:29:47.972961+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 88
+- Kac mac bulundu: 57
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 88
+- Kac mac zaten vardi: 57
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
@@ -22,18 +22,11 @@ Tarih: 2026-08-23T17:21:55.927065+00:00
 - Brezilya Serie A
 - Brezilya Serie B
 - Ekvador Pro Lig
-- El Salvador Primera Lig Apertura
 - Fransa Ligue 1
-- Guatemala Ulusal Lig Apertura
-- Honduras Ulusal Lig Apertura
 - Hırvatistan 1.HNL
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
-- Kosta Rika Premier Lig Apertura
 - Malta Premier Lig Açılış
-- Meksika Ascenso MX Apertura
-- Meksika Liga MX Apertura
-- Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Polonya 2.Lig
 - Polonya Ekstraklasa
@@ -132,8 +125,8 @@ Tarih: 2026-08-23T17:21:55.927065+00:00
 |---|---|---|---|---|---|---:|
 | 23.08.2026 | 21:30 | Türkiye Süper Lig | Alanyaspor | Beşiktaş | 03508 | 5 |
 | 23.08.2026 | 21:30 | Türkiye Süper Lig | Göztepe | Gençlerbirliği | 03477 | 5 |
-| 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Sarıyer | Batman Petrol | 07071 | 5 |
 | 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Van Spor Fk | İstanbulspor | 08340 | 5 |
+| 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Sarıyer | Batman Petrol | 07071 | 5 |
 | 23.08.2026 | 20:30 | İspanya LaLiga | Getafe | Santander | 38682 | 5 |
 | 23.08.2026 | 22:30 | İspanya LaLiga | Elche | Barcelona | 38740 | 5 |
 | 23.08.2026 | 21:45 | İtalya Serie A | Atalanta | Sassuolo | 30884 | 5 |
@@ -143,8 +136,8 @@ Tarih: 2026-08-23T17:21:55.927065+00:00
 | 23.08.2026 | 22:30 | İspanya 2.Lig | Tenerife | Almeria | 38798 | 5 |
 | 23.08.2026 | 22:00 | İtalya Serie B | Palermo | Juve Stabia | 31099 | 5 |
 | 23.08.2026 | 22:00 | İtalya Serie B | Cesena | Sampdoria | 30942 | 5 |
-| 23.08.2026 | 21:00 | Yunanistan Süper Lig | Paok | Apo Levadeiakos | 17700 | 5 |
 | 23.08.2026 | 21:30 | Yunanistan Süper Lig | Panetolikos | Asteras Tripoli | 18308 | 5 |
+| 23.08.2026 | 21:00 | Yunanistan Süper Lig | Paok | Apo Levadeiakos | 17700 | 5 |
 | 23.08.2026 | 21:15 | Polonya Ekstraklasa | Pogon Szczecin | Wisla Krakow | 19845 | 5 |
 | 23.08.2026 | 21:00 | Çek Cumhuriyeti Czech Liga | Sigma Olomouc | Pardubice | 43556 | 5 |
 | 23.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Partizan Belgra | 35565 | 5 |
