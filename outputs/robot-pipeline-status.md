@@ -1,11 +1,11 @@
 # Robot Hedef Hatti Durumu
 
-Olusma: 2026-08-23T13:13:10.452Z
+Olusma: 2026-08-23T15:42:44.160Z
 Durum: 6/6
 
-- OK | 1. Bulteni ceker: 267 mac
-- OK | 2. Analiz eder: 236 analiz
-- OK | 3. Tahmini kaydeder: 789 hafiza kaydi
+- OK | 1. Bulteni ceker: 211 mac
+- OK | 2. Analiz eder: 350 analiz
+- OK | 3. Tahmini kaydeder: 793 hafiza kaydi
 - OK | 4. Mac sonucunu takip eder: 8812 arsiv kaydi
 - OK | 5. Kendi tahminini olcer: 0 guncelleme
 - OK | 6. Sonraki tahminde agirlik degistirir: rapor hazir
