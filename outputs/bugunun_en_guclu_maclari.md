@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-23T18:31:11.111Z
+- Güncelleme: 2026-08-23T18:48:57.178Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -55,19 +55,19 @@
 | Al Ula VS Al Jabalain | Suudi Arabistan 1.Lig | 21:00 | MS 2 | 4.49 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | live |
 | Pogon Szczecin VS Wisla Krakow | Polonya Ekstraklasa | 21:15 | MS X | 3.19 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Maribor VS Ask Bravo | Slovenya 1.SNL | 21:15 | MS 2 | 4.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
-| Göztepe VS Gençlerbirliği | Türkiye Süper Lig | 21:30 | MS 2 | 3.48 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Göztepe VS Gençlerbirliği | Türkiye Süper Lig | 21:30 | MS 2 | 3.48 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Alanyaspor VS Beşiktaş | Türkiye Süper Lig | 21:30 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Panetolikos VS Asteras Tripoli | Yunanistan Süper Lig | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Cfr Cluj VS Fc Steaua | Romanya 1.Lig | 21:30 | MS 1 | 3.41 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Cfr Cluj VS Fc Steaua | Romanya 1.Lig | 21:30 | MS 1 | 3.41 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Chacarita Juni VS San Martin Tucu | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Maipu VS Quilmes | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Ciudad De Bolí VS R Cordoba | Arjantin Ulusal Primera Lig | 21:30 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Lazio (K) VS Napoli (K) | İtalya Serie A Kadınlar Kupası Grup A | 21:30 | MS X | 2.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Van Spor Fk VS İstanbulspor | Türkiye TFF 1. Lig | 21:30 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Sarıyer VS Batman Petrol | Türkiye TFF 1. Lig | 21:30 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Lazio (K) VS Napoli (K) | İtalya Serie A Kadınlar Kupası Grup A | 21:30 | MS X | 2.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Van Spor Fk VS İstanbulspor | Türkiye TFF 1. Lig | 21:30 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Sarıyer VS Batman Petrol | Türkiye TFF 1. Lig | 21:30 | MS X | 2.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Torino VS Ac Milan | İtalya Serie A | 21:45 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Atalanta VS Sassuolo | İtalya Serie A | 21:45 | MS 2 | 5.34 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Rennes VS Psg | Fransa Ligue 1 | 21:45 | MS 1 | 5.41 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Atalanta VS Sassuolo | İtalya Serie A | 21:45 | MS 2 | 5.34 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | live |
+| Rennes VS Psg | Fransa Ligue 1 | 21:45 | MS 1 | 5.41 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Palermo VS Juve Stabia | İtalya Serie B | 22:00 | MS 2 | 5.61 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Cesena VS Sampdoria | İtalya Serie B | 22:00 | MS X | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Mladost Lucani VS Partizan Belgra | Sırbistan Süper Lig | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |

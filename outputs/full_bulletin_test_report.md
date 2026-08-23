@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 63
-- Live match count: 54
-- Finished removed count: 0
+- Scheduled match count: 60
+- Live match count: 46
+- Finished removed count: 11
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 19:30 | Hamburger Sv ( - Freiburg (K) | live
-- 2026-08-23 19:30 | Club Brugge - Cercle Brugge | live
-- 2026-08-23 19:30 | Borac Banja Lu - Celik | live
-- 2026-08-23 19:30 | Rijeka - Istra | live
-- 2026-08-23 19:30 | Frosinone - Juventus | live
-- 2026-08-23 19:30 | Unione V. - Lecce | live
-- 2026-08-23 19:30 | Zalgiris Vilni - Dziugas Telsiai | live
-- 2026-08-23 19:30 | Gzira United - Valletta | live
-- 2026-08-23 19:30 | Oliveirense - Vitoria De Sern | live
-- 2026-08-23 19:30 | Ofi - Volos Nfc | live
+- 2026-08-23 19:45 | Neftchi Baku - Araz | live
+- 2026-08-23 20:00 | Ml Vitebsk - Bate Borisov | live
+- 2026-08-23 20:00 | Esteghlal Khuz - Nassaji Mazanda | live
+- 2026-08-23 20:00 | Castellon - Sabadell | live
+- 2026-08-23 20:00 | Sporting Gijon - Burgos | live
+- 2026-08-23 20:00 | Pisa - Padova | live
+- 2026-08-23 20:00 | Verona - Ascoli Picchio | live
+- 2026-08-23 20:00 | Akranes - Hafnarfjordur | live
+- 2026-08-23 20:00 | Ka Akureyri - Kr Reykjavik | live
+- 2026-08-23 20:00 | Keflavik - Vestmannaeyjar | live
