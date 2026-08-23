@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 275
-- Live match count: 6
-- Finished removed count: 4
+- Scheduled match count: 278
+- Live match count: 7
+- Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
 - 2026-08-23 07:30 | Sydney United - Apia | live
@@ -13,7 +13,7 @@
 - 2026-08-23 08:00 | Wollongong Wol - Western Sydney | live
 - 2026-08-23 08:00 | Melbourne Knig - Langwarrin | live
 - 2026-08-23 08:15 | Manningham Uni - Melbourne Victo | live
-- 2026-08-23 08:30 | South Melbourn - Heidelberg Unit | scheduled
+- 2026-08-23 08:30 | South Melbourn - Heidelberg Unit | live
 - 2026-08-23 11:00 | Jeonbuk Motors - Ulsan Citizen | scheduled
 - 2026-08-23 11:00 | Siheung Citize - Daejeon Korail | scheduled
 - 2026-08-23 11:00 | North District - Wofoo Tai Po | scheduled
