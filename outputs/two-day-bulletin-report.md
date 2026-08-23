@@ -3,31 +3,14 @@
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
 Ham mac: 380
-Aktif mac: 266
-Canli mac: 29
-Biten mac: 85
-Bultenden dusurulen mac: 114
-Bugun: 235
+Aktif mac: 249
+Canli mac: 44
+Biten mac: 87
+Bultenden dusurulen mac: 131
+Bugun: 218
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 14:00 | Almanya DFB Kupası 1.Tur | Jeddeloh - Heidenheim | scheduled | -
-- 2026-08-23 14:00 | Almanya DFB Kupası 1.Tur | Greuther Furth - Bochum | scheduled | -
-- 2026-08-23 14:00 | İngiltere Championship | West Bromwich - Burnley | scheduled | -
-- 2026-08-23 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Tiere - Henan Jianye | scheduled | -
-- 2026-08-23 14:00 | İsveç Superettan | Oddevold - Helsingborg | scheduled | -
-- 2026-08-23 14:00 | Danimarka 1.Lig | Hb Koge - Kolding If | scheduled | -
-- 2026-08-23 14:00 | Belarus Premier Lig | Baranovichi - Dinamo Brest | scheduled | -
-- 2026-08-23 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Foshan Nanshi | scheduled | -
-- 2026-08-23 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Nanjing City | scheduled | -
-- 2026-08-23 14:00 | İngiltere Premier Lig 2 | Middlesbrough - Norwich City U2 | scheduled | -
-- 2026-08-23 14:00 | Danimarka 2.Lig | Nastved - Vsk Arhus | scheduled | -
-- 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Helges - Falu Bs | scheduled | -
-- 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Lidingö - Enskede | scheduled | -
-- 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Franke - Skiljebo Sk | scheduled | -
-- 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Frolunda - Landvetter Is | scheduled | -
-- 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Lindome Gif | scheduled | -
-- 2026-08-23 14:00 | İsveç 2.Lig Södra Svealand | Eker Örebro - Fittja | scheduled | -
 - 2026-08-23 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Qingdao Zhongne | scheduled | -
 - 2026-08-23 15:00 | Danimarka Süperlig | Midtjylland - Randers | scheduled | -
 - 2026-08-23 15:00 | Danimarka Süperlig | Aarhus - Odense | scheduled | -
@@ -279,8 +262,6 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 11:30 | Avusturya 1.Lig | Blau-Weiss Lin - Voitsberg | live | -
-- 2026-08-23 11:30 | Slovakya 2.Lig | Zilina Ii - Malzenice | live | -
 - 2026-08-23 12:00 | İtalya Primavera Şampiyonası 1 | Bologna U20 - Atalanta U20 | live | -
 - 2026-08-23 12:00 | Japonya WE Ligi Kadınlar | Mynavi Sendai - Parceiro Nagano | live | -
 - 2026-08-23 12:00 | Japonya WE Ligi Kadınlar | Ntv Beleza (K) - Jef United (K) | live | -
@@ -308,6 +289,23 @@ Yarin: 31
 - 2026-08-23 13:30 | Güney Kore K Lig 2 | Jeonnam Dragon - Hwaseong | live | -
 - 2026-08-23 13:30 | Güney Kore K Lig 2 | Asan Mugunghwa - Yongin | live | -
 - 2026-08-23 13:30 | Güney Kore K Lig 2 | Seoul E-Land - Paju Citizen | live | -
+- 2026-08-23 14:00 | Almanya DFB Kupası 1.Tur | Jeddeloh - Heidenheim | live | -
+- 2026-08-23 14:00 | Almanya DFB Kupası 1.Tur | Greuther Furth - Bochum | live | -
+- 2026-08-23 14:00 | İngiltere Championship | West Bromwich - Burnley | live | -
+- 2026-08-23 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Tiere - Henan Jianye | live | -
+- 2026-08-23 14:00 | İsveç Superettan | Oddevold - Helsingborg | live | -
+- 2026-08-23 14:00 | Danimarka 1.Lig | Hb Koge - Kolding If | live | -
+- 2026-08-23 14:00 | Belarus Premier Lig | Baranovichi - Dinamo Brest | live | -
+- 2026-08-23 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Foshan Nanshi | live | -
+- 2026-08-23 14:00 | Çin Halk Cumhuriyeti 1.Lig | Shenzhen Junio - Nanjing City | live | -
+- 2026-08-23 14:00 | İngiltere Premier Lig 2 | Middlesbrough - Norwich City U2 | live | -
+- 2026-08-23 14:00 | Danimarka 2.Lig | Nastved - Vsk Arhus | live | -
+- 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Helges - Falu Bs | live | -
+- 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Lidingö - Enskede | live | -
+- 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Franke - Skiljebo Sk | live | -
+- 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Frolunda - Landvetter Is | live | -
+- 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Lindome Gif | live | -
+- 2026-08-23 14:00 | İsveç 2.Lig Södra Svealand | Eker Örebro - Fittja | live | -
 
 ## Biten Maclar
 - 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
@@ -395,3 +393,5 @@ Yarin: 31
 - 2026-08-23 11:00 | Güney Kore K3 Ligi | Jeonbuk Motors - Ulsan Citizen | finished | -
 - 2026-08-23 11:00 | Güney Kore K3 Ligi | Siheung Citize - Daejeon Korail | finished | -
 - 2026-08-23 11:15 | Çek Cumhuriyeti FNL | Slavia Praha I - Hanacka Slavia | finished | -
+- 2026-08-23 11:30 | Avusturya 1.Lig | Blau-Weiss Lin - Voitsberg | finished | -
+- 2026-08-23 11:30 | Slovakya 2.Lig | Zilina Ii - Malzenice | finished | -

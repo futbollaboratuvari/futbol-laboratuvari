@@ -1,24 +1,24 @@
 # Spor Toto Bulten Rebuild Raporu
 
-- Guncelleme: 2026-08-23T10:37:01.034Z
+- Guncelleme: 2026-08-23T11:06:31.395Z
 - Ham fixture sayisi: 8811
 - Bugun/yarin kaynak mac: 380
-- Aktif bulten maci: 266
+- Aktif bulten maci: 249
 - Gosterilen mac: 15
-- Bultenden dusurulen mac: 114
+- Bultenden dusurulen mac: 131
 
-- 1. 2026-08-23 14:00 | Belarus Premier Lig | Baranovichi - Dinamo Brest | scheduled
-- 2. 2026-08-23 14:00 | Çin Halk Cumhuriyeti 1.Lig | Changchun Yata - Foshan Nanshi | scheduled
-- 3. 2026-08-23 14:00 | İsveç 2.Lig Södra Svealand | Eker Örebro - Fittja | scheduled
-- 4. 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Franke - Skiljebo Sk | scheduled
-- 5. 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Frolunda - Landvetter Is | scheduled
-- 6. 2026-08-23 14:00 | Almanya DFB Kupası 1.Tur | Greuther Furth - Bochum | scheduled
-- 7. 2026-08-23 14:00 | Danimarka 1.Lig | Hb Koge - Kolding If | scheduled
-- 8. 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Helges - Falu Bs | scheduled
-- 9. 2026-08-23 14:00 | Almanya DFB Kupası 1.Tur | Jeddeloh - Heidenheim | scheduled
-- 10. 2026-08-23 14:00 | Çin Halk Cumhuriyeti Süper Lig | Liaoning Tiere - Henan Jianye | scheduled
-- 11. 2026-08-23 14:00 | İsveç 2.Lig Norra Svealand | Lidingö - Enskede | scheduled
-- 12. 2026-08-23 14:00 | İngiltere Premier Lig 2 | Middlesbrough - Norwich City U2 | scheduled
-- 13. 2026-08-23 14:00 | Danimarka 2.Lig | Nastved - Vsk Arhus | scheduled
-- 14. 2026-08-23 14:00 | İsveç Superettan | Oddevold - Helsingborg | scheduled
-- 15. 2026-08-23 14:00 | İsveç 2.Lig Vastra Götaland | Onsala - Lindome Gif | scheduled
+- 1. 2026-08-23 14:35 | Çin Halk Cumhuriyeti Süper Lig | Shanghai Port - Qingdao Zhongne | scheduled
+- 2. 2026-08-23 15:00 | Danimarka Süperlig | Aarhus - Odense | scheduled
+- 3. 2026-08-23 15:00 | İngiltere Professional Development Lig | Barnsley U21 - Charlton Athlet | scheduled
+- 4. 2026-08-23 15:00 | Çin Halk Cumhuriyeti Süper Lig | Chongqing Tong - Dalian Zhixing | scheduled
+- 5. 2026-08-23 15:00 | İsveç 2.Lig Vastra Götaland | Galtabacks - Jonsereds If | scheduled
+- 6. 2026-08-23 15:00 | Belarus 1.Lig | Gomel Ii - Uni Minsk | scheduled
+- 7. 2026-08-23 15:00 | İsveç Allsvenskan | Göteborg - Elfsborg | scheduled
+- 8. 2026-08-23 15:00 | Finlandiya Veikkausliiga | Helsinki - Gnistan | scheduled
+- 9. 2026-08-23 15:00 | Almanya Kadınlar Bundesliga | Hoffenheim (K) - Stuttgart (K) | scheduled
+- 10. 2026-08-23 15:00 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | scheduled
+- 11. 2026-08-23 15:00 | İngiltere Premier Lig 2 | Leeds United U - West Brom (B) | scheduled
+- 12. 2026-08-23 15:00 | Danimarka Süperlig | Midtjylland - Randers | scheduled
+- 13. 2026-08-23 15:00 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - If Karlstad Ii | scheduled
+- 14. 2026-08-23 15:00 | Almanya Bölgesel Lig Kuzey | Norderstedt - Weiche Flensbur | scheduled
+- 15. 2026-08-23 15:00 | Almanya Bölgesel Lig Batı | Paderborn 07 I - Bonner Sc | scheduled
