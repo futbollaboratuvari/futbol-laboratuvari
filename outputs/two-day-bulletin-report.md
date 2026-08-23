@@ -3,15 +3,14 @@
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
 Ham mac: 381
-Aktif mac: 40
-Canli mac: 65
-Biten mac: 276
-Bultenden dusurulen mac: 341
-Bugun: 9
+Aktif mac: 39
+Canli mac: 46
+Biten mac: 296
+Bultenden dusurulen mac: 342
+Bugun: 8
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 22:15 | İzlanda Urvalsdeild | Vikingur Reykj - Valur | scheduled | -
 - 2026-08-23 22:30 | İspanya LaLiga | Elche - Barcelona | scheduled | -
 - 2026-08-23 22:30 | Portekiz Premier Lig | Porto - Arouca | scheduled | -
 - 2026-08-23 22:30 | İspanya 2.Lig | Tenerife - Almeria | scheduled | -
@@ -53,26 +52,6 @@ Yarin: 31
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 
 ## Canli Maclar
-- 2026-08-23 20:00 | Portekiz Premier Lig | Santa Clara - Famalicao | live | -
-- 2026-08-23 20:00 | İspanya 2.Lig | Castellon - Sabadell | live | -
-- 2026-08-23 20:00 | İspanya 2.Lig | Sporting Gijon - Burgos | live | -
-- 2026-08-23 20:00 | İtalya Serie B | Pisa - Padova | live | -
-- 2026-08-23 20:00 | İtalya Serie B | Verona - Ascoli Picchio | live | -
-- 2026-08-23 20:00 | Rusya Premier Lig | Spartak Moskov - Zenit | live | -
-- 2026-08-23 20:00 | Sırbistan Süper Lig | Kizilyildiz - Cukaricki | live | -
-- 2026-08-23 20:00 | Sırbistan Süper Lig | Radnik Surduli - Novi Pazar | live | -
-- 2026-08-23 20:00 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Nassaji Mazanda | live | -
-- 2026-08-23 20:00 | Mısır Premier Lig | Ceramica Cleop - Al Qanah | live | -
-- 2026-08-23 20:00 | Mısır Premier Lig | Al Ahly - Enppi | live | -
-- 2026-08-23 20:00 | Slovakya Süper Lig | Zilina - Kfc Komarno | live | -
-- 2026-08-23 20:00 | Polonya 1.Lig | Lks Lodz - Stal Mielec | live | -
-- 2026-08-23 20:00 | Belarus Premier Lig | Ml Vitebsk - Bate Borisov | live | -
-- 2026-08-23 20:00 | Moldova Ulusal Lig | Sheriff Tirasp - Politeh Chişina | live | -
-- 2026-08-23 20:00 | İzlanda Urvalsdeild | Keflavik - Vestmannaeyjar | live | -
-- 2026-08-23 20:00 | İzlanda Urvalsdeild | Akranes - Hafnarfjordur | live | -
-- 2026-08-23 20:00 | İzlanda Urvalsdeild | Stjarnan - Thor Akureyri | live | -
-- 2026-08-23 20:00 | İzlanda Urvalsdeild | Ka Akureyri - Kr Reykjavik | live | -
-- 2026-08-23 20:15 | Belçika Challenger Pro Lig | Francs Borains - Sporting Hassel | live | -
 - 2026-08-23 20:30 | İspanya LaLiga | Getafe - Santander | live | -
 - 2026-08-23 20:30 | Polonya 2.Lig | Gks Tychy - Slask Wroclaw I | live | -
 - 2026-08-23 20:45 | Arjantin Premier Lig 2. Aşama | Barracas - Platense | live | -
@@ -118,6 +97,7 @@ Yarin: 31
 - 2026-08-23 22:00 | Bosna-Hersek Premier Lig | Zrinjski - Zeljeznicar | live | -
 - 2026-08-23 22:00 | Bolivya Premier Lig | Real Oruro - Bolivar | live | -
 - 2026-08-23 22:00 | Malta Premier Lig Açılış | Mosta Fc - Balzan Fc | live | -
+- 2026-08-23 22:15 | İzlanda Urvalsdeild | Vikingur Reykj - Valur | live | -
 
 ## Biten Maclar
 - 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
@@ -396,3 +376,23 @@ Yarin: 31
 - 2026-08-23 19:30 | Malta Premier Lig Açılış | Gzira United - Valletta | finished | -
 - 2026-08-23 19:35 | Birleşik Arap Emirlikleri Arap Körfez Ligi | Al Sharjah - Al Jazira | finished | -
 - 2026-08-23 19:45 | Azerbaycan Premier Lig | Neftchi Baku - Araz | finished | -
+- 2026-08-23 20:00 | Portekiz Premier Lig | Santa Clara - Famalicao | finished | -
+- 2026-08-23 20:00 | İspanya 2.Lig | Castellon - Sabadell | finished | -
+- 2026-08-23 20:00 | İspanya 2.Lig | Sporting Gijon - Burgos | finished | -
+- 2026-08-23 20:00 | İtalya Serie B | Pisa - Padova | finished | -
+- 2026-08-23 20:00 | İtalya Serie B | Verona - Ascoli Picchio | finished | -
+- 2026-08-23 20:00 | Rusya Premier Lig | Spartak Moskov - Zenit | finished | -
+- 2026-08-23 20:00 | Sırbistan Süper Lig | Kizilyildiz - Cukaricki | finished | -
+- 2026-08-23 20:00 | Sırbistan Süper Lig | Radnik Surduli - Novi Pazar | finished | -
+- 2026-08-23 20:00 | İran Persian Gulf Pro Lig | Esteghlal Khuz - Nassaji Mazanda | finished | -
+- 2026-08-23 20:00 | Mısır Premier Lig | Ceramica Cleop - Al Qanah | finished | -
+- 2026-08-23 20:00 | Mısır Premier Lig | Al Ahly - Enppi | finished | -
+- 2026-08-23 20:00 | Slovakya Süper Lig | Zilina - Kfc Komarno | finished | -
+- 2026-08-23 20:00 | Polonya 1.Lig | Lks Lodz - Stal Mielec | finished | -
+- 2026-08-23 20:00 | Belarus Premier Lig | Ml Vitebsk - Bate Borisov | finished | -
+- 2026-08-23 20:00 | Moldova Ulusal Lig | Sheriff Tirasp - Politeh Chişina | finished | -
+- 2026-08-23 20:00 | İzlanda Urvalsdeild | Keflavik - Vestmannaeyjar | finished | -
+- 2026-08-23 20:00 | İzlanda Urvalsdeild | Akranes - Hafnarfjordur | finished | -
+- 2026-08-23 20:00 | İzlanda Urvalsdeild | Stjarnan - Thor Akureyri | finished | -
+- 2026-08-23 20:00 | İzlanda Urvalsdeild | Ka Akureyri - Kr Reykjavik | finished | -
+- 2026-08-23 20:15 | Belçika Challenger Pro Lig | Francs Borains - Sporting Hassel | finished | -

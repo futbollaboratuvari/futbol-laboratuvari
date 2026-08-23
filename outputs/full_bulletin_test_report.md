@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 40
-- Live match count: 65
+- Scheduled match count: 36
+- Live match count: 49
 - Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 20:00 | Ml Vitebsk - Bate Borisov | live
-- 2026-08-23 20:00 | Esteghlal Khuz - Nassaji Mazanda | live
-- 2026-08-23 20:00 | Castellon - Sabadell | live
-- 2026-08-23 20:00 | Sporting Gijon - Burgos | live
-- 2026-08-23 20:00 | Pisa - Padova | live
-- 2026-08-23 20:00 | Verona - Ascoli Picchio | live
-- 2026-08-23 20:00 | Akranes - Hafnarfjordur | live
-- 2026-08-23 20:00 | Ka Akureyri - Kr Reykjavik | live
-- 2026-08-23 20:00 | Keflavik - Vestmannaeyjar | live
-- 2026-08-23 20:00 | Stjarnan - Thor Akureyri | live
+- 2026-08-23 20:30 | Getafe - Santander | live
+- 2026-08-23 20:30 | Gks Tychy - Slask Wroclaw I | live
+- 2026-08-23 20:45 | Barracas - Platense | live
+- 2026-08-23 20:45 | Sarmiento - Estudiantes Lp | live
+- 2026-08-23 21:00 | Chacarita Juni - San Martin Tucu | live
+- 2026-08-23 21:00 | Sigma Olomouc - Pardubice | live
+- 2026-08-23 21:00 | Sport Boys - Cienciano | live
+- 2026-08-23 21:00 | Al Ula - Al Jabalain | live
+- 2026-08-23 21:00 | Torque - Montevideo Wand | live
+- 2026-08-23 21:00 | Paok - Apo Levadeiakos | live

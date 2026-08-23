@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T19:01:27.782371+00:00
+Tarih: 2026-08-23T19:29:23.183230+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 58
+- Kac mac bulundu: 42
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 58
+- Kac mac zaten vardi: 42
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
@@ -16,9 +16,7 @@ Tarih: 2026-08-23T19:01:27.782371+00:00
 
 - ABD MLS
 - Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
 - Bolivya Premier Lig
-- Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
 - Ekvador Pro Lig
@@ -28,23 +26,17 @@ Tarih: 2026-08-23T19:01:27.782371+00:00
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
 - Kosta Rika Premier Lig Apertura
-- Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
 - Meksika Liga MX Apertura
 - Nikaragua Premier Lig Apertura
 - Peru Premier Lig Clausura
 - Portekiz Premier Lig
-- Sırbistan Süper Lig
 - Tanzanya Kuu Bara Ligi
 - Uruguay Premier Lig Clausura
 - İspanya 2.Lig
 - İspanya LaLiga
 - İsveç 2.Lig Södra Götaland
 - İtalya Primavera Şampiyonası 1
-- İtalya Serie B
-- İtalya Serie C Grup A
-- İtalya Serie C Grup B
-- İzlanda Urvalsdeild
 - Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
@@ -102,8 +94,8 @@ Tarih: 2026-08-23T19:01:27.782371+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 40
-- Acilan detay: 40
+- Denenen Tumu alani: 28
+- Acilan detay: 28
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -119,23 +111,23 @@ Tarih: 2026-08-23T19:01:27.782371+00:00
 | 23.08.2026 | 22:30 | İspanya LaLiga | Elche | Barcelona | 38740 | 5 |
 | 23.08.2026 | 22:30 | Portekiz Premier Lig | Porto | Arouca | 30721 | 5 |
 | 23.08.2026 | 22:30 | İspanya 2.Lig | Tenerife | Almeria | 38798 | 5 |
-| 23.08.2026 | 22:00 | İtalya Serie B | Palermo | Juve Stabia | 31099 | 5 |
-| 23.08.2026 | 22:00 | İtalya Serie B | Cesena | Sampdoria | 30942 | 5 |
-| 23.08.2026 | 22:00 | Sırbistan Süper Lig | Vojvodina | Zeleznicar Panc | 35595 | 5 |
-| 23.08.2026 | 22:00 | Sırbistan Süper Lig | Mladost Lucani | Partizan Belgra | 35565 | 5 |
 | 23.08.2026 | 23:30 | ABD MLS | New England | New York City | 40549 | 5 |
 | 24.08.2026 | 02:00 | ABD MLS | Atlanta Utd | Kansas | 40663 | 5 |
-| 23.08.2026 | 22:00 | Brezilya Serie A | Bragantino | Gremio | 41977 | 5 |
-| 23.08.2026 | 22:00 | Brezilya Serie A | Vitoria Bahia | Bahia | 42290 | 5 |
-| 24.08.2026 | 00:30 | Brezilya Serie A | Santos | Mirassol | 42508 | 5 |
-| 24.08.2026 | 01:30 | Brezilya Serie A | Coritiba | Corinthians | 42566 | 5 |
 | 24.08.2026 | 00:30 | Brezilya Serie A | Chapecoense | Sao Paulo | 42417 | 5 |
+| 24.08.2026 | 01:30 | Brezilya Serie A | Coritiba | Corinthians | 42566 | 5 |
+| 24.08.2026 | 00:30 | Brezilya Serie A | Santos | Mirassol | 42508 | 5 |
 | 23.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Belgrano | Defensa Justici | 32614 | 5 |
-| 24.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club | Boca Juniors | 32878 | 5 |
 | 24.08.2026 | 01:15 | Arjantin Premier Lig 2. Aşama | River Plate | Velez Sarsfield | 32748 | 5 |
-| 24.08.2026 | 04:00 | Meksika Liga MX Apertura | Pumas Unam | Necaxa | 26707 | 5 |
+| 24.08.2026 | 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club | Boca Juniors | 32878 | 5 |
 | 24.08.2026 | 02:00 | Meksika Liga MX Apertura | Atletico San L | Pachuca | 26663 | 5 |
-| 23.08.2026 | 22:00 | İtalya Serie C Grup A | Trento Calcio | Treviso | 31000 | 5 |
+| 24.08.2026 | 04:00 | Meksika Liga MX Apertura | Pumas Unam | Necaxa | 26707 | 5 |
+| 24.08.2026 | 00:05 | Kolombiya Primera A Clausura | Deportivo Past | Llaneros | 44788 | 5 |
+| 24.08.2026 | 02:10 | Kolombiya Primera A Clausura | Deportivo Cali | Inter Bogota | 44805 | 5 |
+| 24.08.2026 | 04:15 | Kolombiya Primera A Clausura | Atletico Junio | Once Caldas | 44839 | 5 |
+| 23.08.2026 | 23:30 | Peru Premier Lig Clausura | Melgar | Alianza Lima | 26851 | 5 |
+| 24.08.2026 | 02:30 | Peru Premier Lig Clausura | Universitario | Chankas Cyc | 26868 | 5 |
+| 24.08.2026 | 02:00 | Şili Premier Lig | O Higgins | Palestino | 36631 | 5 |
+| 23.08.2026 | 17:45 | İtalya Primavera Şampiyonası 1 | Genoa U20 | Internazionale | 07031 | 5 |
 
 ## Sonuc
 
