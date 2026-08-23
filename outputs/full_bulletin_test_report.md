@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 85
-- Live match count: 75
-- Finished removed count: 3
+- Scheduled match count: 83
+- Live match count: 77
+- Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
 - 2026-08-23 18:30 | Croatia Zmijav - Hrvace | live
