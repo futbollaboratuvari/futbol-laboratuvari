@@ -171,8 +171,8 @@
   function displayRank(m) {
     const mainDay = app.window?.main_day;
     const nextDay = String(app.window?.includes_next_day_until || "").slice(0, 10);
-    if (m.date === nextDay && isEarly(m)) return `0|${m.time}|${m.league}|${m.home}`;
-    if (m.date === mainDay) return `1|${m.time}|${m.league}|${m.home}`;
+    if (m.date === mainDay) return `0|${m.time}|${m.league}|${m.home}`;
+    if (m.date === nextDay && isEarly(m)) return `1|${m.time}|${m.league}|${m.home}`;
     return `2|${m.date}|${m.time}|${m.league}|${m.home}`;
   }
 
