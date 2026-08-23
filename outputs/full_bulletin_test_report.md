@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 86
-- Live match count: 88
-- Finished removed count: 0
+- Scheduled match count: 85
+- Live match count: 75
+- Finished removed count: 3
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 18:00 | Teplice - Brno | live
-- 2026-08-23 18:00 | Turku - Inter Turku | live
-- 2026-08-23 18:00 | Eibar - Valladolid | live
-- 2026-08-23 18:00 | Atletico Madri - Villarreal | live
-- 2026-08-23 18:00 | Norrby - Sandvikens | live
-- 2026-08-23 18:00 | Sireti - Dacia-Buiucani | live
-- 2026-08-23 18:00 | Flint - Orn Horten | live
-- 2026-08-23 18:00 | Fyllingen - Brann | live
-- 2026-08-23 18:00 | Puszcza Niepol - Unia Skierniewi | live
-- 2026-08-23 18:00 | Trencin - Spartak Trnava | live
+- 2026-08-23 18:30 | Croatia Zmijav - Hrvace | live
+- 2026-08-23 18:30 | Newcastle Utd - Liverpool | live
+- 2026-08-23 18:30 | Hegelmann - Banga | live
+- 2026-08-23 18:30 | Gyor - Zalaegerszeg | live
+- 2026-08-23 18:30 | Kisvarda - Debreceni | live
+- 2026-08-23 18:30 | Csakvari Tk - Kazincbarcika | live
+- 2026-08-23 18:30 | Soroksar - Szentlorinc Se | live
+- 2026-08-23 18:30 | Gks Katowice - Wisla Plock | live
+- 2026-08-23 18:30 | Universitatea - Voluntari | live
+- 2026-08-23 18:30 | Ca Bizertin - Marsa | live
