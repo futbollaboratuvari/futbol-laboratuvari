@@ -79,3 +79,13 @@ Summary:
 - Added a 1200x630 social sharing image for clean link previews.
 - Added robots.txt and sitemap.xml with only public pages; admin, payment administration, usage logs and backend/API paths remain excluded from crawling.
 - Did not change bulletin data, match ordering, daily-matches-widget.js, protected coupon/analysis panels, workflows or runtime behavior.
+
+2026-08-23
+
+Instagram organic campaign media prepared.
+
+Summary:
+- Added a new 1080x1350 feed creative to content/instagram/media for the official Instagram publisher.
+- The creative uses the current live domain and avoids guaranteed-win, money and betting-slip claims.
+- Publishing was not triggered because the stored Instagram access token is expired; the media is ready for the next successful authorized run.
+- Did not change match data, bulletin logic, widgets, payment flow or Instagram API credentials.
