@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-22T23:53:47.041Z
+- Güncelleme: 2026-08-23T00:04:54.973Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -39,11 +39,11 @@
 | One Knoxville VS Athletic Club B | ABD USL Lig 1 | 02:30 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Newells Old Bo VS Banfield | Arjantin Premier Lig 2. Aşama | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Huracan VS Riestra | Arjantin Premier Lig 2. Aşama | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Deportivo Garc VS Cusco Fc | Peru Premier Lig Clausura | 03:00 | MS X | 2.70 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Univ. Catolica VS Atletico Nublen | Şili Premier Lig | 03:00 | MS 2 | 4.10 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Antigua Guatem VS Comunicaciones | Guatemala Ulusal Lig Apertura | 03:00 | MS 2 | 4.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Barcelona Gua VS Orense | Ekvador Pro Lig | 03:00 | MS 2 | 3.50 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Birmingham Leg VS Sporting Jax | ABD USL | 03:00 | MS 2 | 4.06 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
+| Deportivo Garc VS Cusco Fc | Peru Premier Lig Clausura | 03:00 | MS X | 2.70 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Univ. Catolica VS Atletico Nublen | Şili Premier Lig | 03:00 | MS 2 | 4.10 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Antigua Guatem VS Comunicaciones | Guatemala Ulusal Lig Apertura | 03:00 | MS 2 | 4.71 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Barcelona Gua VS Orense | Ekvador Pro Lig | 03:00 | MS 2 | 3.50 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Birmingham Leg VS Sporting Jax | ABD USL | 03:00 | MS 2 | 4.06 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | live |
 | Isidro Metapan VS Alianza | El Salvador Primera Lig Apertura | 03:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Forward Madiso VS Charlotte Indep | ABD USL Lig 1 | 03:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | St. Louis City VS Houston | ABD MLS | 03:30 | MS X | 3.15 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |

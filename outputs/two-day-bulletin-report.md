@@ -2,24 +2,15 @@
 
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
-Ham mac: 349
-Aktif mac: 310
-Canli mac: 26
-Biten mac: 13
-Bultenden dusurulen mac: 39
-Bugun: 279
+Ham mac: 336
+Aktif mac: 301
+Canli mac: 35
+Biten mac: 0
+Bultenden dusurulen mac: 35
+Bugun: 270
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 03:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Banfield | scheduled | -
-- 2026-08-23 03:00 | Arjantin Premier Lig 2. Aşama | Huracan - Riestra | scheduled | -
-- 2026-08-23 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Cusco Fc | scheduled | -
-- 2026-08-23 03:00 | Şili Premier Lig | Univ. Catolica - Atletico Nublen | scheduled | -
-- 2026-08-23 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Comunicaciones | scheduled | -
-- 2026-08-23 03:00 | Ekvador Pro Lig | Barcelona Gua - Orense | scheduled | -
-- 2026-08-23 03:00 | ABD USL | Birmingham Leg - Sporting Jax | scheduled | -
-- 2026-08-23 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Alianza | scheduled | -
-- 2026-08-23 03:00 | ABD USL Lig 1 | Forward Madiso - Charlotte Indep | scheduled | -
 - 2026-08-23 03:30 | ABD MLS | St. Louis City - Houston | scheduled | -
 - 2026-08-23 03:30 | ABD MLS | Austin - Philadelphia | scheduled | -
 - 2026-08-23 03:30 | ABD MLS | Nashville Sc - Columbus | scheduled | -
@@ -349,18 +340,15 @@ Yarin: 31
 - 2026-08-23 02:30 | ABD USL | Rhode Island - Monterey Bay | live | -
 - 2026-08-23 02:30 | ABD USL | Charleston Bat - Miami Fc | live | -
 - 2026-08-23 02:30 | ABD USL Lig 1 | One Knoxville - Athletic Club B | live | -
+- 2026-08-23 03:00 | Arjantin Premier Lig 2. Aşama | Newells Old Bo - Banfield | live | -
+- 2026-08-23 03:00 | Arjantin Premier Lig 2. Aşama | Huracan - Riestra | live | -
+- 2026-08-23 03:00 | Peru Premier Lig Clausura | Deportivo Garc - Cusco Fc | live | -
+- 2026-08-23 03:00 | Şili Premier Lig | Univ. Catolica - Atletico Nublen | live | -
+- 2026-08-23 03:00 | Guatemala Ulusal Lig Apertura | Antigua Guatem - Comunicaciones | live | -
+- 2026-08-23 03:00 | Ekvador Pro Lig | Barcelona Gua - Orense | live | -
+- 2026-08-23 03:00 | ABD USL | Birmingham Leg - Sporting Jax | live | -
+- 2026-08-23 03:00 | El Salvador Primera Lig Apertura | Isidro Metapan - Alianza | live | -
+- 2026-08-23 03:00 | ABD USL Lig 1 | Forward Madiso - Charlotte Indep | live | -
 
 ## Biten Maclar
-- 2026-08-23 00:00 | Brezilya Serie B | Ceara - Londrina | finished | -
-- 2026-08-23 00:00 | Guatemala Ulusal Lig Apertura | Aurora - Suchitepequez | finished | -
-- 2026-08-23 00:00 | Honduras Ulusal Lig Apertura | Atlético Indep - Genesis Pn | finished | -
-- 2026-08-23 00:00 | El Salvador Primera Lig Apertura | Cacahuatique - Municipal Limen | finished | -
-- 2026-08-23 00:00 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | finished | -
-- 2026-08-23 00:05 | Kolombiya Primera A Clausura | Deportes Tolim - Bucaramanga | finished | -
-- 2026-08-23 00:15 | Bolivya Premier Lig | Aurora - Real Potosi | finished | -
-- 2026-08-23 00:30 | Brezilya Serie A | Internacional - Atletico Mg | finished | -
-- 2026-08-23 00:30 | Arjantin Premier Lig 2. Aşama | Independiente - Rivadavia | finished | -
-- 2026-08-23 00:30 | Şili Premier Lig | Huachipato - Deportes Limach | finished | -
-- 2026-08-23 00:30 | Brezilya Serie B | Cuiaba - Goias | finished | -
-- 2026-08-23 00:30 | Uruguay Premier Lig Clausura | Deportivo Mald - Penarol | finished | -
-- 2026-08-23 00:30 | Ekvador Pro Lig | T.Universitari - Guayaquil City | finished | -
+Biten mac yok.
