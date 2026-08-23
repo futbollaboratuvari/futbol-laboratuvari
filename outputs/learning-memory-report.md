@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 16:13:06
+Oluşturma: 23.08.2026 16:31:45
 
 ## Özet
 
-- Toplam tahmin: 789
-- Bekleyen tahmin: 789
+- Toplam tahmin: 791
+- Bekleyen tahmin: 791
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 149
@@ -20,13 +20,15 @@ Oluşturma: 23.08.2026 16:13:06
 
 ## En Güçlü Seçenek Hafızası
 
-- MS 2: toplam 238, bekleyen 238, başarı bekleniyor, ağırlık 1
-- MS X: toplam 344, bekleyen 344, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 239, bekleyen 239, başarı bekleniyor, ağırlık 1
+- MS X: toplam 345, bekleyen 345, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 48, bekleyen 48, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Belçika Challenger Pro Lig | Francs Borains - Sporting Hassel | MS 2 | pending | 50/100
+- 2026-08-23 | Venezuela Premier Lig Clausura | Monagas - Portuguesa | MS X | pending | 40/100
 - 2026-08-23 | Romanya 1.Lig | Universitatea - Voluntari | MS 2 | pending | 75/100
 - 2026-08-23 | İngiltere Premier Lig | Brighton - Aston Villa | MS 2 | pending | 50/100
 - 2026-08-23 | Faroe Adaları Master Lig | Kí Klaksvík - Runavik | MS X | pending | 50/100
@@ -40,6 +42,4 @@ Oluşturma: 23.08.2026 16:13:06
 - 2026-08-23 | Romanya 1.Lig | Cfr Cluj - Fc Steaua | MS 1 | pending | 50/100
 - 2026-08-23 | Hollanda Eredivisie | Psv Eindhoven - Groningen | MS X | pending | 40/100
 - 2026-08-23 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | MS 2 | pending | 40/100
-- 2026-08-23 | Danimarka 1.Lig | Hb Koge - Kolding If | MS 1 | pending | 50/100
-- 2026-08-23 | Malezya Süper Lig | Pulau Pinang - Dpmm Fc | MS X | pending | 50/100
 
