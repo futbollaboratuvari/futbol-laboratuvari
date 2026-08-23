@@ -1,24 +1,28 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-08-23T21:32:52.609Z",
+  "updated_at": "2026-08-23T21:36:59.046Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 799,
-    "pending_predictions": 799,
+    "total_predictions": 801,
+    "pending_predictions": 801,
     "won_predictions": 0,
     "lost_predictions": 0,
     "void_predictions": 0,
     "league_count": 149,
     "market_count": 4,
-    "added_predictions": 0,
-    "updated_predictions": 0
+    "added_predictions": 2,
+    "updated_predictions": 0,
+    "last_score_link_checked": 801,
+    "last_score_linked": 0,
+    "last_finalizer_checked": 0,
+    "last_finalizer_updated": 0
   },
   "market_memory": {
-    "MS X": {
-      "total": 349,
-      "pending": 349,
+    "MS 1": {
+      "total": 50,
+      "pending": 50,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -27,8 +31,8 @@
       "confidence_adjustment": 0
     },
     "MS 2": {
-      "total": 242,
-      "pending": 242,
+      "total": 243,
+      "pending": 243,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -36,9 +40,9 @@
       "weight": 1,
       "confidence_adjustment": 0
     },
-    "MS 1": {
-      "total": 49,
-      "pending": 49,
+    "MS X": {
+      "total": 349,
+      "pending": 349,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -58,6 +62,16 @@
     }
   },
   "league_memory": {
+    "Brezilya Serie A": {
+      "total": 9,
+      "pending": 9,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Bolivya Premier Lig": {
       "total": 5,
       "pending": 5,
@@ -481,16 +495,6 @@
     "Sırbistan Süper Lig": {
       "total": 8,
       "pending": 8,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie A": {
-      "total": 7,
-      "pending": 7,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -1550,6 +1554,26 @@
     }
   },
   "league_market_memory": {
+    "Brezilya Serie A :: MS 1": {
+      "total": 1,
+      "pending": 1,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Brezilya Serie A :: MS 2": {
+      "total": 5,
+      "pending": 5,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Bolivya Premier Lig :: MS X": {
       "total": 2,
       "pending": 2,
@@ -2073,16 +2097,6 @@
     "Sırbistan Süper Lig :: MS 2": {
       "total": 3,
       "pending": 3,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Brezilya Serie A :: MS 2": {
-      "total": 4,
-      "pending": 4,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -4873,6 +4887,40 @@
   },
   "predictions": [
     {
+      "id": "2026-08-24|brezilya serie a|chapecoense sao paulo|ms 1|00 30",
+      "date": "2026-08-24",
+      "created_at": "2026-08-23T21:36:57.121Z",
+      "match_name": "Chapecoense - Sao Paulo",
+      "league": "Brezilya Serie A",
+      "start_time": "00:30",
+      "market": "MS 1",
+      "odds": "3.45",
+      "confidence_score": "40%",
+      "analysis_score": 40,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
+      "id": "2026-08-24|brezilya serie a|santos mirassol|ms 2|00 30",
+      "date": "2026-08-24",
+      "created_at": "2026-08-23T21:36:57.121Z",
+      "match_name": "Santos - Mirassol",
+      "league": "Brezilya Serie A",
+      "start_time": "00:30",
+      "market": "MS 2",
+      "odds": "3.84",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor."
+    },
+    {
       "id": "2026-08-24|bolivya premier lig|guabira blooming|ms x|00 15",
       "date": "2026-08-24",
       "created_at": "2026-08-23T21:23:16.214Z",
@@ -4888,7 +4936,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-23T21:32:52.607Z"
+      "updated_at": "2026-08-23T21:36:57.121Z"
     },
     {
       "id": "2026-08-24|brezilya serie b|operario vila nova|ms 2|00 00",
@@ -4906,7 +4954,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-23T21:32:52.606Z"
+      "updated_at": "2026-08-23T21:36:57.120Z"
     },
     {
       "id": "2026-08-24|nikaragua premier lig apertura|jalapa matagalpa|ms 2|00 00",
@@ -4924,7 +4972,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-23T21:32:52.606Z"
+      "updated_at": "2026-08-23T21:36:57.121Z"
     },
     {
       "id": "2026-08-24|el salvador primera lig apertura|balboa fuerte san fran|ms 2|00 00",
@@ -4942,7 +4990,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-23T21:32:52.607Z"
+      "updated_at": "2026-08-23T21:36:57.121Z"
     },
     {
       "id": "2026-08-23|misir premier lig|al ahly enppi|ms x|20 00",

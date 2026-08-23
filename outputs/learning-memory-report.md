@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 00:32:52
+Oluşturma: 24.08.2026 00:36:57
 
 ## Özet
 
-- Toplam tahmin: 799
-- Bekleyen tahmin: 799
+- Toplam tahmin: 801
+- Bekleyen tahmin: 801
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 149
@@ -20,13 +20,15 @@ Oluşturma: 24.08.2026 00:32:52
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 1: toplam 50, bekleyen 50, başarı bekleniyor, ağırlık 1
+- MS 2: toplam 243, bekleyen 243, başarı bekleniyor, ağırlık 1
 - MS X: toplam 349, bekleyen 349, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 242, bekleyen 242, başarı bekleniyor, ağırlık 1
-- MS 1: toplam 49, bekleyen 49, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | Brezilya Serie A | Chapecoense - Sao Paulo | MS 1 | pending | 40/100
+- 2026-08-24 | Brezilya Serie A | Santos - Mirassol | MS 2 | pending | 50/100
 - 2026-08-24 | Bolivya Premier Lig | Guabira - Blooming | MS X | pending | 50/100
 - 2026-08-24 | Brezilya Serie B | Operario - Vila Nova | MS 2 | pending | 40/100
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | MS 2 | pending | 50/100
@@ -40,6 +42,4 @@ Oluşturma: 24.08.2026 00:32:52
 - 2026-08-23 | Romanya 1.Lig | Universitatea - Voluntari | MS 2 | pending | 75/100
 - 2026-08-23 | İngiltere Premier Lig | Brighton - Aston Villa | MS 2 | pending | 50/100
 - 2026-08-23 | Faroe Adaları Master Lig | Kí Klaksvík - Runavik | MS X | pending | 50/100
-- 2026-08-23 | Tunus 1.Lig | Es Tunis - Etoile Sportive | MS X | pending | 65/100
-- 2026-08-23 | İsveç 2.Lig Norra Götaland | Motala Aif Fk - If Karlstad Ii | MS X | pending | 50/100
 
