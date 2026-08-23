@@ -1,21 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T19:53:20.299972+00:00
+Tarih: 2026-08-23T20:02:35.658925+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 7
+- Kac mac bulundu: 6
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 7
+- Kac mac zaten vardi: 6
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- Arjantin Premier Lig 2. Aşama
 - Ekvador Pro Lig
 - Kanada Premier Lig
 - Peru Premier Lig Clausura
@@ -77,8 +76,8 @@ Tarih: 2026-08-23T19:53:20.299972+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 24
-- Acilan detay: 24
+- Denenen Tumu alani: 23
+- Acilan detay: 23
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -92,7 +91,6 @@ Tarih: 2026-08-23T19:53:20.299972+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 23.08.2026 | 23:30 | ABD MLS | New England | New York City | 40549 | 5 |
-| 23.08.2026 | 23:00 | Arjantin Premier Lig 2. Aşama | Belgrano | Defensa Justici | 32614 | 5 |
 | 23.08.2026 | 23:30 | Peru Premier Lig Clausura | Melgar | Alianza Lima | 26851 | 5 |
 | 23.08.2026 | 17:45 | İtalya Primavera Şampiyonası 1 | Genoa U20 | Internazionale | 07031 | 5 |
 | 23.08.2026 | 23:30 | Ekvador Pro Lig | Delfin | Aucas | 25989 | 5 |
