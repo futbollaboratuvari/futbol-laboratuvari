@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-23T12:44:24.848Z
+- Güncelleme: 2026-08-23T13:03:48.186Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -54,14 +54,14 @@
 | Banik Ostrava VS Arsenal Ceska L | Çek Cumhuriyeti FNL | 15:30 | MS 2 | 3.89 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Falubaz Zielon VS Hutnik Krakow | Polonya 2.Lig | 15:30 | MS X | 2.91 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Kari VS Fjolnir | İzlanda 2.Lig | 15:30 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Radomiak Radom VS Zaglebie Lubin | Polonya Ekstraklasa | 15:45 | MS X | 2.90 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Brighton VS Aston Villa | İngiltere Premier Lig | 16:00 | MS 2 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Manchester Cit VS Bournemouth | İngiltere Premier Lig | 16:00 | MS 2 | 5.50 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Radomiak Radom VS Zaglebie Lubin | Polonya Ekstraklasa | 15:45 | MS X | 2.90 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Brighton VS Aston Villa | İngiltere Premier Lig | 16:00 | MS 2 | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Manchester Cit VS Bournemouth | İngiltere Premier Lig | 16:00 | MS 2 | 5.50 | 95 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | live |
 | Angers VS Lille | Fransa Ligue 1 | 16:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Penafiel VS Sporting Cp (B) | Portekiz 2.Lig | 16:00 | MS X | 2.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Brage VS United Nordic | İsveç Superettan | 16:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Penafiel VS Sporting Cp (B) | Portekiz 2.Lig | 16:00 | MS X | 2.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
+| Brage VS United Nordic | İsveç Superettan | 16:00 | MS X | 3.18 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Leningradets VS Chelyabinsk | Rusya FNL | 16:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Sepsi VS Ssc Farul | Romanya 1.Lig | 16:00 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Sepsi VS Ssc Farul | Romanya 1.Lig | 16:00 | MS X | 2.77 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Mamelodi Sundo VS Golden Arrows | Güney Afrika 8 Kupası Yarı Final | 16:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Ifk Trelleborg VS Lilla Torg | İsveç 2.Lig Södra Götaland | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Biel-Bienne VS Lugano Ii | İsviçre 1.Lig Promotion | 16:00 | Değerli market yok | - | 0 | Oynama | Normal Değer | Yüksek | Yüksek | filtered_no_value_market |
