@@ -3,24 +3,14 @@
 Gunler: 2026-08-23 / 2026-08-24
 Kaynak: fixtures.json
 Ham mac: 299
-Aktif mac: 286
-Canli mac: 13
+Aktif mac: 276
+Canli mac: 23
 Biten mac: 0
-Bultenden dusurulen mac: 13
-Bugun: 255
+Bultenden dusurulen mac: 23
+Bugun: 245
 Yarin: 31
 
 ## Baslamamis Maclar
-- 2026-08-23 13:00 | Danimarka Süperlig | Sonderjyske - Nordsjaelland | scheduled | -
-- 2026-08-23 13:00 | Rusya Premier Lig | Akron - Krylya Sovietov | scheduled | -
-- 2026-08-23 13:00 | Portekiz 2.Lig | Chaves - Avs | scheduled | -
-- 2026-08-23 13:00 | Polonya 2.Lig | Legia Warszawa - Sokol Kleczew | scheduled | -
-- 2026-08-23 13:00 | Güney Kore K3 Ligi | Gangneung City - Chuncheon Citiz | scheduled | -
-- 2026-08-23 13:00 | Japonya J3 Lig | Kochi United - Kamatamare Sanu | scheduled | -
-- 2026-08-23 13:00 | Portekiz 3.Lig Grup A | Paredes - Leca | scheduled | -
-- 2026-08-23 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Kaya (K) - Tsl (K) | scheduled | -
-- 2026-08-23 13:00 | Letonya 1.Lig | Super Nova Ii - Skanste | scheduled | -
-- 2026-08-23 13:00 | Letonya 1.Lig | Leevon / Ppk - Smiltene | scheduled | -
 - 2026-08-23 13:15 | Hollanda Eredivisie | Go Ahead Eagle - Den Haag | scheduled | -
 - 2026-08-23 13:15 | Hollanda Kadınlar Eredivisie | De Graafschap - Heerenveen (K) | scheduled | -
 - 2026-08-23 13:30 | Güney Kore K Lig 1 | Daejeon Citize - Gangwon | scheduled | -
@@ -312,6 +302,16 @@ Yarin: 31
 - 2026-08-23 12:00 | Malezya Süper Lig | Pulau Pinang - Dpmm Fc | live | -
 - 2026-08-23 12:00 | Japonya J3 Lig | Sagamihara - Zweigen Kanazaw | live | -
 - 2026-08-23 12:00 | Almanya U19 Bundesliga Grup E | Hoffenheim U19 - Karlsruher Sc U | live | -
+- 2026-08-23 13:00 | Danimarka Süperlig | Sonderjyske - Nordsjaelland | live | -
+- 2026-08-23 13:00 | Rusya Premier Lig | Akron - Krylya Sovietov | live | -
+- 2026-08-23 13:00 | Portekiz 2.Lig | Chaves - Avs | live | -
+- 2026-08-23 13:00 | Polonya 2.Lig | Legia Warszawa - Sokol Kleczew | live | -
+- 2026-08-23 13:00 | Güney Kore K3 Ligi | Gangneung City - Chuncheon Citiz | live | -
+- 2026-08-23 13:00 | Japonya J3 Lig | Kochi United - Kamatamare Sanu | live | -
+- 2026-08-23 13:00 | Portekiz 3.Lig Grup A | Paredes - Leca | live | -
+- 2026-08-23 13:00 | AFC Kadınlar Şampiyonlar Ligi Ön Eleme Turu Grup B | Kaya (K) - Tsl (K) | live | -
+- 2026-08-23 13:00 | Letonya 1.Lig | Super Nova Ii - Skanste | live | -
+- 2026-08-23 13:00 | Letonya 1.Lig | Leevon / Ppk - Smiltene | live | -
 
 ## Biten Maclar
 Biten mac yok.
