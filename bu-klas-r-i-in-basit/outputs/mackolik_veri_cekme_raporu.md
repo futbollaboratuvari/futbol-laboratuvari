@@ -1,21 +1,20 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-23T15:50:31.786057+00:00
+Tarih: 2026-08-23T16:25:56.870219+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 146
+- Kac mac bulundu: 120
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 146
+- Kac mac zaten vardi: 120
 - Ham veri havuzu toplam mac sayisi: 8857
 - Hedef tarih: 23.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - ABD MLS
-- Almanya DFB Kupası 1.Tur
 - Almanya Kadınlar Bundesliga
 - Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
@@ -28,12 +27,8 @@ Tarih: 2026-08-23T15:50:31.786057+00:00
 - Bosna-Hersek Premier Lig
 - Brezilya Serie A
 - Brezilya Serie B
-- Bulgaristan 1.Lig
-- Danimarka Süperlig
 - Ekvador Pro Lig
 - El Salvador Primera Lig Apertura
-- Estonya Premium Lig
-- Faroe Adaları Master Lig
 - Fransa Ligue 1
 - Guatemala Ulusal Lig Apertura
 - Honduras Ulusal Lig Apertura
@@ -41,7 +36,6 @@ Tarih: 2026-08-23T15:50:31.786057+00:00
 - Kanada Premier Lig
 - Kolombiya Primera A Clausura
 - Kosta Rika Premier Lig Apertura
-- Letonya Virsliga
 - Litvanya A Ligi
 - Malta Premier Lig Açılış
 - Meksika Ascenso MX Apertura
@@ -53,7 +47,6 @@ Tarih: 2026-08-23T15:50:31.786057+00:00
 - Polonya 1.Lig
 - Polonya 2.Lig
 - Polonya Ekstraklasa
-- Portekiz 3.Lig Grup A
 - Portekiz 3.Lig Grup B
 - Portekiz Premier Lig
 - Romanya 1.Lig
@@ -68,19 +61,16 @@ Tarih: 2026-08-23T15:50:31.786057+00:00
 - Uruguay Premier Lig Clausura
 - Yunanistan Süper Lig
 - Çek Cumhuriyeti Czech Liga
-- İran Persian Gulf Pro Lig
 - İspanya 2.Lig
 - İspanya LaLiga
 - İsveç 2.Lig Södra Götaland
 - İsviçre 1.Lig Promotion
+- İtalya Primavera Şampiyonası 1
 - İtalya Serie A
 - İtalya Serie A Kadınlar Kupası Grup A
-- İtalya Serie A Kadınlar Kupası Grup B
 - İtalya Serie B
 - İtalya Serie C Grup A
 - İtalya Serie C Grup B
-- İtalya Serie C Grup C
-- İzlanda 2.Lig
 - İzlanda Urvalsdeild
 - Şili Premier Lig
 
@@ -139,8 +129,8 @@ Tarih: 2026-08-23T15:50:31.786057+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 79
-- Acilan detay: 79
+- Denenen Tumu alani: 69
+- Acilan detay: 69
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -153,26 +143,26 @@ Tarih: 2026-08-23T15:50:31.786057+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 23.08.2026 | 21:30 | Türkiye Süper Lig | Alanyaspor | Beşiktaş | 03508 | 5 |
-| 23.08.2026 | 19:00 | Türkiye Süper Lig | Eyüpspor | Gaziantep Fk | 03702 | 5 |
 | 23.08.2026 | 21:30 | Türkiye Süper Lig | Göztepe | Gençlerbirliği | 03477 | 5 |
-| 23.08.2026 | 19:00 | Türkiye Süper Lig | Trabzonspor | Başakşehir Fk | 03513 | 5 |
-| 23.08.2026 | 19:00 | Türkiye TFF 1. Lig | Boluspor | Mardin 1969 | 06183 | 5 |
-| 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Sarıyer | Batman Petrol | 07071 | 5 |
+| 23.08.2026 | 21:30 | Türkiye Süper Lig | Alanyaspor | Beşiktaş | 03508 | 5 |
 | 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Van Spor Fk | İstanbulspor | 08340 | 5 |
+| 23.08.2026 | 21:30 | Türkiye TFF 1. Lig | Sarıyer | Batman Petrol | 07071 | 5 |
 | 23.08.2026 | 22:30 | İspanya LaLiga | Elche | Barcelona | 38740 | 5 |
 | 23.08.2026 | 20:30 | İspanya LaLiga | Getafe | Santander | 38682 | 5 |
-| 23.08.2026 | 19:30 | İtalya Serie A | Unione V. | Lecce | 30583 | 5 |
-| 23.08.2026 | 21:45 | İtalya Serie A | Atalanta | Sassuolo | 30884 | 5 |
 | 23.08.2026 | 21:45 | İtalya Serie A | Torino | Ac Milan | 07083 | 5 |
 | 23.08.2026 | 19:30 | İtalya Serie A | Frosinone | Juventus | 30464 | 5 |
+| 23.08.2026 | 19:30 | İtalya Serie A | Unione V. | Lecce | 30583 | 5 |
+| 23.08.2026 | 21:45 | İtalya Serie A | Atalanta | Sassuolo | 30884 | 5 |
 | 23.08.2026 | 21:45 | Fransa Ligue 1 | Rennes | Psg | 45305 | 5 |
-| 23.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Essen | St Pauli | 28375 | 5 |
-| 23.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Fortuna Düssel | Freiburg | 28341 | 5 |
-| 23.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Phönix Lübeck | Paderborn | 28374 | 2 |
-| 23.08.2026 | 20:00 | Portekiz Premier Lig | Santa Clara | Famalicao | 30604 | 5 |
 | 23.08.2026 | 22:30 | Portekiz Premier Lig | Porto | Arouca | 30721 | 5 |
+| 23.08.2026 | 20:00 | Portekiz Premier Lig | Santa Clara | Famalicao | 30604 | 5 |
 | 23.08.2026 | 19:30 | Belçika Pro Lig | Club Brugge | Cercle Brugge | 28987 | 5 |
+| 23.08.2026 | 20:00 | İspanya 2.Lig | Castellon | Sabadell | 38566 | 5 |
+| 23.08.2026 | 22:30 | İspanya 2.Lig | Tenerife | Almeria | 38798 | 5 |
+| 23.08.2026 | 20:00 | İspanya 2.Lig | Sporting Gijon | Burgos | 38624 | 5 |
+| 23.08.2026 | 22:00 | İtalya Serie B | Palermo | Juve Stabia | 31099 | 5 |
+| 23.08.2026 | 22:00 | İtalya Serie B | Cesena | Sampdoria | 30942 | 5 |
+| 23.08.2026 | 20:00 | İtalya Serie B | Pisa | Padova | 30698 | 5 |
 
 ## Sonuc
 

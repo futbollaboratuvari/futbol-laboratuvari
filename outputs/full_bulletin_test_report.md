@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 145
-- Live match count: 59
+- Scheduled match count: 107
+- Live match count: 77
 - Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 17:00 | Rb Leipzig (K) - Bayer Leverkuse | live
-- 2026-08-23 17:00 | Lida - Niva Dolbizno | live
-- 2026-08-23 17:00 | Krc Genk Ii - Rfc Liege | live
-- 2026-08-23 17:00 | Lommel - Westerlo | live
-- 2026-08-23 17:00 | Banniyas - Dubai United | live
-- 2026-08-23 17:00 | Horsens - Lyngby | live
-- 2026-08-23 17:00 | Paide Linnamee - Nomme United | live
-- 2026-08-23 17:00 | Hb Torshavn - Vestur Sorvagur | live
-- 2026-08-23 17:00 | Kí Klaksvík - Runavik | live
-- 2026-08-23 17:00 | Streymur - Ab Argir | live
+- 2026-08-23 17:30 | Turan - Keshla | live
+- 2026-08-23 17:30 | Brommapojkarna - Degerfors | live
+- 2026-08-23 17:30 | Hammarby - Gais | live
+- 2026-08-23 17:30 | Rekord Bielsko - Olimpia Grudzia | live
+- 2026-08-23 17:30 | Guimaraes - Nacional Madeir | live
+- 2026-08-23 17:30 | Makhachkala - Krasnodar | live
+- 2026-08-23 17:45 | Vvv Venlo - De Graafschap | live
+- 2026-08-23 17:45 | Cambuur - Feyenoord | live
+- 2026-08-23 17:45 | Ado Den Haag ( - Twente (K) | live
+- 2026-08-23 17:45 | Genoa U20 - Internazionale | live
