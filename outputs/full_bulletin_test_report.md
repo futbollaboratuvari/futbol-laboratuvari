@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 81
-- Live match count: 65
-- Finished removed count: 1
+- Scheduled match count: 63
+- Live match count: 54
+- Finished removed count: 0
 - Date window: 2026-08-23 / 2026-08-24 23:59
 
-- 2026-08-23 18:50 | Hajer - Jeddah Club | live
-- 2026-08-23 19:00 | Essen - St Pauli | live
-- 2026-08-23 19:00 | Fortuna Düssel - Freiburg | live
-- 2026-08-23 19:00 | Phönix Lübeck - Paderborn | live
-- 2026-08-23 19:00 | Septemvri Sofi - Cska | live
-- 2026-08-23 19:00 | Viborg - Kopenhag | live
-- 2026-08-23 19:00 | Vaprus - Flora Tallinn | live
-- 2026-08-23 19:00 | Esteghlal - Sepahan | live
-- 2026-08-23 19:00 | Esteghlal Khuz - Nassaji Mazanda | live
-- 2026-08-23 19:00 | Shams Azar Qaz - Shahrdari Arak | live
+- 2026-08-23 19:30 | Hamburger Sv ( - Freiburg (K) | live
+- 2026-08-23 19:30 | Club Brugge - Cercle Brugge | live
+- 2026-08-23 19:30 | Borac Banja Lu - Celik | live
+- 2026-08-23 19:30 | Rijeka - Istra | live
+- 2026-08-23 19:30 | Frosinone - Juventus | live
+- 2026-08-23 19:30 | Unione V. - Lecce | live
+- 2026-08-23 19:30 | Zalgiris Vilni - Dziugas Telsiai | live
+- 2026-08-23 19:30 | Gzira United - Valletta | live
+- 2026-08-23 19:30 | Oliveirense - Vitoria De Sern | live
+- 2026-08-23 19:30 | Ofi - Volos Nfc | live
