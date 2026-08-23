@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 23.08.2026 11:19:15
+Oluşturma: 23.08.2026 11:38:32
 
 ## Özet
 
-- Toplam tahmin: 771
-- Bekleyen tahmin: 771
+- Toplam tahmin: 773
+- Bekleyen tahmin: 773
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 148
@@ -20,13 +20,15 @@ Oluşturma: 23.08.2026 11:19:15
 
 ## En Güçlü Seçenek Hafızası
 
+- MS X: toplam 336, bekleyen 336, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 45, bekleyen 45, başarı bekleniyor, ağırlık 1
 - MS 2: toplam 233, bekleyen 233, başarı bekleniyor, ağırlık 1
-- MS X: toplam 334, bekleyen 334, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-23 | Almanya DFB Kupası 1.Tur | Fortuna Düssel - Freiburg | MS X | pending | 40/100
+- 2026-08-23 | Finlandiya Veikkausliiga | Kuopion - Mariehamn | MS X | pending | 40/100
 - 2026-08-23 | İspanya LaLiga | Elche - Barcelona | MS 1 | pending | 40/100
 - 2026-08-23 | Şili Premier Lig | Concepcion - Coquimbo Unido | MS 1 | pending | 40/100
 - 2026-08-23 | İsviçre Süper Lig | Young Boys - Vaduz | MS 2 | pending | 40/100
@@ -40,6 +42,4 @@ Oluşturma: 23.08.2026 11:19:15
 - 2026-08-23 | İsveç Allsvenskan | Brommapojkarna - Degerfors | MS X | pending | 50/100
 - 2026-08-23 | Birleşik Arap Emirlikleri 1.Lig | Gulf Heroes - Emirates | MS X | pending | 50/100
 - 2026-08-23 | Polonya Ekstraklasa | Gks Katowice - Wisla Plock | MS X | pending | 50/100
-- 2026-08-23 | Türkiye TFF 1. Lig | Van Spor Fk - İstanbulspor | MS X | pending | 50/100
-- 2026-08-23 | Türkiye TFF 1. Lig | Sarıyer - Batman Petrol | MS X | pending | 40/100
 
