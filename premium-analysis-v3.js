@@ -279,6 +279,9 @@
     modelVersion: result.modelVersion,
     risk: result.risk,
     noPick: result.noPick,
+    hasOpinion: result.hasOpinion,
+    couponEligible: result.couponEligible,
+    recommendationStatus: result.recommendationStatus,
     reasons: result.reasons,
   });
 
@@ -310,16 +313,39 @@
     return `<div class="fl-pa3-validation"><strong>Geçmiş doğrulama</strong><span>${historical ? `${esc(historical)} tamamlanan eski tahmin ölçüldü.` : "Tamamlanan sonuç örneği biriktiriliyor."} ${samples >= 30 && brier !== null && Number.isFinite(brier) ? `PRO olasılık Brier skoru ${esc(brier.toFixed(3))}.` : "PRO olasılık kalibrasyonu için yeni örnekler biriktiriliyor."}</span></div>`;
   };
 
+  const recommendationLabel = (result) => ({
+    coupon: "Kupona uygun seçim",
+    analysis: "Robot görüşü",
+    watch: "İzleme görüşü",
+    unavailable: "Kontrollü karar",
+  }[result.recommendationStatus] || (result.noPick ? "Kontrollü karar" : "Öne çıkan seçim"));
+
+  const recommendationNote = (result) => {
+    if (result.recommendationStatus === "coupon") return `Kupon ölçütleri doğrulandı · Oran ${oddText(result.odd)}`;
+    if (result.recommendationStatus === "analysis") return `Otomatik kupon adayı değil · Oran ${oddText(result.odd)}`;
+    if (result.recommendationStatus === "watch") return `Kupon hesabına katılmaz · Oran ${oddText(result.odd)}`;
+    if (!result.noPick) return `Oran ${oddText(result.odd)}`;
+    return modelScoreValue(result.modelScore ?? result.confidence) === null
+      ? "PRO veri kaydı bulunamadı"
+      : "Güvenilir market görüşü oluşmadı";
+  };
+
+  const couponLegStatus = (leg) => ({
+    coupon: "Kupona uygun",
+    watch: "İzleme",
+    unavailable: "Veri yetersiz",
+  }[leg.recommendationStatus] || (leg.noPick ? "Kupona uygun değil" : "Kupona uygun"));
+
   const singleResultHtml = (result) => `<div class="fl-pa3-result-head">
       <span class="fl-pa3-kicker">3 · Sonuç</span>
       <span class="fl-pa3-risk is-${riskClass(result.risk)}">${esc(result.risk)} risk</span>
     </div>
     <p class="fl-pa3-result-match">${esc(result.match.league)} · ${esc(result.match.time)}</p>
     <h3>${esc(result.match.home)} <span>–</span> ${esc(result.match.away)}</h3>
-    <div class="fl-pa3-pick${result.noPick ? " is-no-pick" : ""}">
-      <span>${result.noPick ? "Kontrollü karar" : "Öne çıkan seçim"}</span>
+    <div class="fl-pa3-pick${result.noPick || ["analysis", "watch", "unavailable"].includes(result.recommendationStatus) ? " is-no-pick" : ""}">
+      <span>${esc(recommendationLabel(result))}</span>
       <strong>${esc(result.market)}</strong>
-      <small>${result.noPick ? (modelScoreValue(result.modelScore ?? result.confidence) === null ? "PRO veri kaydı bulunamadı" : "Güven eşiği aşılmadı") : `Oran ${esc(oddText(result.odd))}`}</small>
+      <small>${esc(recommendationNote(result))}</small>
     </div>
     <div class="fl-pa3-confidence"><div><span>Model gücü <small>olasılık değildir</small></span><strong>${esc(modelScoreText(result.modelScore ?? result.confidence))}</strong></div><progress max="100" value="${esc(modelScoreValue(result.modelScore ?? result.confidence) ?? 0)}" aria-label="Model gücü ${esc(modelScoreText(result.modelScore ?? result.confidence))}">${esc(modelScoreText(result.modelScore ?? result.confidence))}</progress></div>
     <div class="fl-pa3-score-grid">
@@ -339,9 +365,9 @@
       <span class="fl-pa3-risk is-${riskClass(coupon.risk)}">${esc(coupon.risk)} risk</span>
     </div>
     <h3>${coupon.legs.length} maçlık kupon görünümü</h3>
-    <div class="fl-pa3-coupon-summary"><div><span>Ort. model gücü</span><strong>${esc(modelScoreText(coupon.averageModelScore))}</strong></div><div><span>Birleşik olasılık</span><strong>${esc(percentText(coupon.combinedProbability, 2))}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div><div><span>Seçim oluşan</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div></div>
-    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · Model ${esc(modelScoreText(leg.modelScore ?? leg.confidence))} · ${esc(percentText(leg.estimatedProbability, 1))}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
-    <div class="fl-pa3-reasons"><h4>Kupon notu</h4><ol><li>Birleşik olasılık, tüm ayakların tahmini olasılıklarının çarpımıdır ve maçların bağımsız olduğu varsayımını kullanır.</li><li>Seçim oluşmayan ${esc(coupon.noPickCount || 0)} maç açıkça işaretlenir; zorunlu tahmin eklenmez.</li><li>Maç sayısı arttıkça birleşik olasılık hızla düşer.</li></ol></div>
+    <div class="fl-pa3-coupon-summary"><div><span>Ort. model gücü</span><strong>${esc(modelScoreText(coupon.averageModelScore))}</strong></div><div><span>Robot görüşü</span><strong>${esc(coupon.opinionCount)}/${esc(coupon.legs.length)}</strong></div><div><span>Kupona uygun</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div><div><span>Birleşik olasılık</span><strong>${esc(percentText(coupon.combinedProbability, 2))}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div></div>
+    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · ${esc(couponLegStatus(leg))} · Model ${esc(modelScoreText(leg.modelScore ?? leg.confidence))} · ${esc(percentText(leg.estimatedProbability, 1))}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
+    <div class="fl-pa3-reasons"><h4>Kupon notu</h4><ol><li>Toplam oran ve birleşik olasılık yalnız bütün ayaklar kupona uygun olduğunda hesaplanır.</li><li>${esc(coupon.watchCount)} izleme görüşü marketiyle birlikte gösterildi fakat kupon hesabına katılmadı.</li><li>${esc(coupon.unavailableCount)} maçta güvenilir market görüşü oluşmadı; eksik veriyle tahmin uydurulmadı.</li></ol></div>
     <p class="fl-pa3-disclaimer">Model gücü olasılık değildir. Kupon olasılığı yaklaşık bir risk göstergesidir; bütçe ve süre sınırını koru.</p>
     <div class="fl-pa3-result-actions"><button type="button" data-pa3-copy>Sonucu Kopyala</button><button type="button" data-pa3-new>Yeni Analiz</button></div>`;
 
@@ -582,15 +608,18 @@
   const updateProStatus = () => {
     const node = query("[data-pa3-pro-status]");
     if (!node) return;
-    const readyCount = state.matches.filter((match) => match.pro?.available && match.pro?.fresh).length;
+    const matched = state.matches.filter((match) => match.pro?.available && match.pro?.fresh);
+    const opinionCount = matched.filter((match) => CORE.marketKey(match.pro.recommendedMarket)
+      && Number(match.pro.dataCompleteness || 0) >= 35).length;
+    const couponCount = matched.filter((match) => match.pro.includeInCoupon === true).length;
     const generatedAt = Date.parse(state.proMeta?.generated_at || "");
     const time = Number.isFinite(generatedAt)
       ? new Intl.DateTimeFormat("tr-TR", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Istanbul" }).format(new Date(generatedAt))
       : "";
-    node.textContent = readyCount
-      ? `PRO veri: ${readyCount} maç${time ? ` · ${time} güncellemesi` : ""}`
+    node.textContent = matched.length
+      ? `PRO veri: ${matched.length} maç · ${opinionCount} robot görüşü · ${couponCount} kupon adayı${time ? ` · ${time}` : ""}`
       : "PRO veri eşleşmesi bekleniyor; oran-only robot seçimi kapalı.";
-    node.dataset.state = readyCount ? "ready" : "waiting";
+    node.dataset.state = matched.length ? "ready" : "waiting";
   };
 
   const boot = async () => {

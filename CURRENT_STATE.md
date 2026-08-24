@@ -2,6 +2,19 @@
 
 2026-08-24
 
+Main focus: Özel Analiz kuponunda “Seçim yok” belirsizliği ve kupon uygunluk tutarsızlığının giderilmesi.
+
+Current premium decision state:
+- Güncel ve tanımlı PRO marketi model gücü 60 altında kaldığında market artık kaybolmaz; “İzleme görüşü” olarak market, oran, model gücü ve olasılık ile gösterilir.
+- Gerçek veri/market oluşmayan durum “Görüş oluşmadı” olarak ayrılır; izleme görüşü ile veri yokluğu aynı metin altında birleştirilmez.
+- Kupon ayağı yalnız `include_in_coupon=true`, bağımsız kanıt, model gücü en az 65, veri kapsamı en az 45, tahmini olasılık en az %42 ve yüksek olmayan risk birlikte doğrulandığında hesaba girer.
+- Kupon özeti “Robot görüşü” ve “Kupona uygun” sayılarını ayrı gösterir. İzleme görüşleri toplam oran ve birleşik olasılık hesabına katılmaz.
+- Son otomatik veri yenilemesi sonrasında 9 yaklaşan/PRO eşleşme, 8 görünür robot görüşü, 1 doğrulanmış kupon adayı, 7 izleme görüşü ve 1 veri yetersiz kayıt doğru ayrıldı.
+- Özel Analiz, PRO indeks, performans, sonuç ve Spor Toto regresyon testleri; JavaScript sözdizimi, çatışma kontrolü ve üretim paketi başarılıdır.
+- Bülten verisi, günlük maç widget'ı, Kuponum, üyelik hakkı, ödeme, workflow, CNAME ve DNS değiştirilmedi.
+
+2026-08-24
+
 Main focus: Spor Toto haftalık 15 maç akışının bağlantı kesintisi sonrası tamamlanması ve kanıt etiketlerinin doğrulanması.
 
 Current Spor Toto state:

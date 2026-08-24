@@ -186,3 +186,18 @@ Summary:
 - Updated the cache version so the corrected mobile and desktop dashboard loads without an old-script flash.
 - Spor Toto archive, market and weekly tests, JavaScript syntax checks, JSON conflict validation and the Vercel production build passed.
 - Did not change daily-matches-widget.js, the main bulletin separation rules, Kuponum, Analiz Et, membership, payment, CNAME or DNS.
+
+2026-08-24
+
+Özel Analiz kupon karar görünümü ve uygunluk doğrulaması tamamlandı.
+
+Summary:
+- Kullanıcının altı maçlık kuponunda beş marketin “Seçim yok” olarak gizlenmesi ve `include_in_coupon: false` olan bir maçın seçim gibi gösterilmesi birlikte incelendi.
+- Kök nedenin tarayıcı karar çekirdeğinin eşik altı PRO marketini silmesi ve kupon uygunluk bayrağını hesapta kullanmaması olduğu doğrulandı.
+- Eşik altı fakat tanımlı marketler “İzleme görüşü” olarak market ve oranıyla görünür tutuldu; gerçekten veri/market olmayan kayıt “Görüş oluşmadı” olarak ayrıldı.
+- Kupon uygunluğu bağımsız kanıt, model gücü, veri kapsamı, tahmini olasılık, risk ve `include_in_coupon` bayrağıyla hem kompakt veri üretiminde hem tarayıcıda yeniden doğrulandı.
+- İzleme görüşleri kupon ayağı, toplam oran veya birleşik olasılık hesabına katılmıyor; arayüz robot görüşü ve kupona uygun sayılarını ayrı gösteriyor.
+- Ekrandaki altı maçlık örneği kapsayan regresyon testi eklendi: altı görüş görünür, sıfır doğrulanmış kupon ayağı, sıfır sahte toplam oran.
+- Son otomatik veri yenilemesi alındıktan sonraki uçtan uca kontrolde 9 yaklaşan/PRO eşleşme, 8 robot görüşü, 1 kupon adayı, 7 izleme ve 1 veri yetersiz kayıt doğrulandı.
+- PRO, performans, sonuç ve Spor Toto testleri; sözdizimi, çatışma kontrolü ve ayrı kopyadaki üretim paketi başarılıdır.
+- Bülten JSON dosyaları, daily-matches-widget.js, Kuponum, üyelik, ödeme, workflow, CNAME ve DNS değiştirilmedi.

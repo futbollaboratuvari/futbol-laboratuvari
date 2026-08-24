@@ -285,7 +285,7 @@
     return {
       match,
       type,
-      market: "Seçim yok",
+      market: "Görüş oluşmadı",
       odd: null,
       confidence: measuredModelScore === null ? null : clamp(Math.round(measuredModelScore), 42, 58),
       modelScore: measuredModelScore,
@@ -299,6 +299,9 @@
       calibration: match.pro.calibration,
       risk: "Yüksek",
       noPick: true,
+      hasOpinion: false,
+      couponEligible: false,
+      recommendationStatus: "unavailable",
       headline: "Bu maçta güçlü seçim oluşmadı",
       reasons: (reasons || [
         "Mevcut göstergeler tek bir seçeneği yeterince ayırmıyor.",
@@ -308,6 +311,15 @@
       details: detailRows(match, impliedProbabilities(match)),
     };
   };
+
+  const watchResult = (match, type, explicitKey, reasons) => ({
+    ...noPickResult(match, type, reasons),
+    market: marketLabel(explicitKey),
+    odd: match.pro.recommendedOdd ?? oddsForMarket(match, match.pro.recommendedMarket),
+    hasOpinion: true,
+    recommendationStatus: "watch",
+    headline: `${marketLabel(explicitKey)} robot görüşü olarak izlemeye alındı`,
+  });
 
   const analyzeMatchResult = (match, forcedKey = "") => {
     const probabilities = impliedProbabilities(match);
@@ -499,10 +511,10 @@
     const blocked = BLOCKED_DECISIONS.test(`${match.decision} ${pro.recommendedMarket}`);
     const modelScore = pro.modelScore ?? 0;
     const dataCompleteness = pro.dataCompleteness ?? 0;
-    if (blocked || modelScore < 60 || dataCompleteness < 35) {
+    if (blocked) {
       return noPickResult(match, "robot", [
-        modelScore < 60 ? `PRO model gücü ${Math.round(modelScore)}/100 ile seçim eşiğinin altında.` : "Güncel PRO kararı bu maçı oynama eşiğinin dışında tutuyor.",
-        dataCompleteness < 35 ? `Veri kapsama %${Math.round(dataCompleteness)}; güvenilir seçim için yetersiz.` : "Sinyaller tek bir markette yeterince birleşmiyor.",
+        "Güncel PRO kararı bu maçı oynama eşiğinin dışında tutuyor.",
+        "Sinyaller tek bir markette güvenli biçimde birleşmiyor.",
         "Sistem zorunlu tahmin yerine açık bir seçim yok kararı veriyor.",
       ]);
     }
@@ -514,9 +526,27 @@
       "Market eşlemesi güncellendiğinde analiz yeniden kullanılabilir olacak.",
     ]);
 
+    if (dataCompleteness < 35) return noPickResult(match, "robot", [
+      `Veri kapsama %${Math.round(dataCompleteness)}; güvenilir görüş için en az %35 gerekiyor.`,
+      "Eksik veriyle market görüşü veya kupon ayağı oluşturulmadı.",
+      "Veri akışı tamamlandığında analiz otomatik olarak yeniden kullanılabilir olacak.",
+    ]);
+
+    if (modelScore < 60) return watchResult(match, "robot", explicitKey, [
+      `PRO model gücü ${Math.round(modelScore)}/100; güçlü seçim eşiği 60/100.`,
+      "Market görüşü korunarak yalnız izleme düzeyinde gösterildi.",
+      "Bu görüş kupon oranı ve birleşik olasılık hesabına katılmadı.",
+    ]);
+
     const reasons = pro.signals
       .filter((value) => !/^(market:|oran:|veri tipi:|değer etiketi:)/i.test(String(value).trim()))
       .slice(0, 3);
+    const couponEligible = pro.includeInCoupon === true
+      && pro.independentEvidence === true
+      && modelScore >= 65
+      && dataCompleteness >= 45
+      && Number(pro.estimatedProbability || 0) >= 42
+      && !normalizeText(pro.riskLevel).includes("yuksek");
     const fallbackReasons = [
       "PRO model ve piyasa dengesi birlikte kontrol edildi.",
       `Veri kapsama puanı ${Math.round(dataCompleteness)}/100 olarak ölçüldü.`,
@@ -540,6 +570,9 @@
       calibration: pro.calibration,
       risk: pro.riskLevel || riskFor(modelScore, pro.recommendedOdd, match.riskLevel),
       noPick: false,
+      hasOpinion: true,
+      couponEligible,
+      recommendationStatus: couponEligible ? "coupon" : "analysis",
       headline: `${marketLabel(explicitKey)} PRO ortak sinyallerinde öne çıkıyor`,
       reasons,
       details: detailRows(match, impliedProbabilities(match)),
@@ -555,8 +588,14 @@
   };
 
   const analyzeCoupon = (matches, type = "robot", advancedMarket = "") => {
-    const legs = (Array.isArray(matches) ? matches : []).map((match) => analyze(match, type, advancedMarket));
+    const analyzedLegs = (Array.isArray(matches) ? matches : []).map((match) => analyze(match, type, advancedMarket));
+    const legs = analyzedLegs.map((leg) => type === "robot" && !leg.noPick && leg.couponEligible !== true
+      ? { ...leg, noPick: true, recommendationStatus: "watch" }
+      : leg);
     const picked = legs.filter((leg) => !leg.noPick);
+    const opinionCount = legs.filter((leg) => leg.hasOpinion || !leg.noPick).length;
+    const watchCount = legs.filter((leg) => leg.recommendationStatus === "watch").length;
+    const unavailableCount = legs.length - opinionCount;
     const averageConfidence = picked.length
       ? Math.round(picked.reduce((sum, leg) => sum + leg.confidence, 0) / picked.length)
       : 0;
@@ -580,8 +619,8 @@
     const averageDataCompleteness = qualityLegs.length
       ? Math.round(qualityLegs.reduce((sum, value) => sum + value, 0) / qualityLegs.length)
       : 0;
-    const validOdds = legs.map((leg) => leg.odd).filter((value) => value && value > 1);
-    const totalOdd = legs.length && validOdds.length === legs.length
+    const validOdds = picked.map((leg) => leg.odd).filter((value) => value && value > 1);
+    const totalOdd = picked.length && picked.length === legs.length && validOdds.length === picked.length
       ? Number(validOdds.reduce((total, value) => total * value, 1).toFixed(2))
       : null;
     const noPickCount = legs.length - picked.length;
@@ -594,6 +633,9 @@
       legs,
       pickedCount: picked.length,
       noPickCount,
+      opinionCount,
+      watchCount,
+      unavailableCount,
       averageConfidence,
       averageModelScore,
       averageDataCompleteness,

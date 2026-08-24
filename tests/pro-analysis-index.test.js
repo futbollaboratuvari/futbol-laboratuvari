@@ -34,6 +34,33 @@ test("kompakt PRO kaydı model gücü ve olasılığı ayrı tutar", () => {
   assert.equal(row.independent_evidence, true);
 });
 
+test("kupon uygunluk bayrağı bütün kanıt eşiklerini birlikte doğrular", () => {
+  const inconsistent = compactMatch({
+    home: "A",
+    away: "B",
+    market: "2.5 Alt",
+    model_score: 64,
+    estimated_probability: 55,
+    data_completeness: 40,
+    independent_evidence: false,
+    risk_level: "Yüksek",
+    include_in_coupon: true,
+  }, {});
+  const verified = compactMatch({
+    home: "C",
+    away: "D",
+    market: "2.5 Alt",
+    model_score: 68,
+    estimated_probability: 55,
+    data_completeness: 46,
+    independent_evidence: true,
+    risk_level: "Orta",
+    include_in_coupon: true,
+  }, {});
+  assert.equal(inconsistent.include_in_coupon, false);
+  assert.equal(verified.include_in_coupon, true);
+});
+
 test("kompakt metrikler büyük ham ve hafıza bloklarını dışarıda bırakır", () => {
   const metrics = compactMetrics({
     analysis_metrics: {

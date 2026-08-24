@@ -80,7 +80,7 @@ test("oynama kararı ve düşük skor zorunlu seçim üretmez", () => {
     ms2: 2.7,
   }, "robot");
   assert.equal(result.noPick, true);
-  assert.equal(result.market, "Seçim yok");
+  assert.equal(result.market, "Görüş oluşmadı");
   assert.equal(result.risk, "Yüksek");
 });
 
@@ -135,29 +135,103 @@ test("PRO kaydı olmayan kupon sahte model puanı üretmez", () => {
     { date: "2026-08-25", time: "03:15", home: "Talleres", away: "Rosario Central", status: "scheduled", ms1: 2.4, msx: 2.63, ms2: 2.64 },
   ], "robot");
   assert.equal(coupon.pickedCount, 0);
+  assert.equal(coupon.opinionCount, 0);
+  assert.equal(coupon.unavailableCount, 2);
   assert.equal(coupon.averageModelScore, null);
   assert.deepEqual(coupon.legs.map((leg) => leg.modelScore), [null, null]);
 });
 
+test("eşik altı PRO marketi seçim yok diye gizlenmez, izleme görüşü olur", () => {
+  const result = core.analyze({
+    date: "2026-08-25",
+    time: "01:00",
+    home: "Tigre",
+    away: "Cordoba Santiago",
+    status: "scheduled",
+    proAnalysis: {
+      available: true,
+      fresh: true,
+      recommended_market: "MS 1",
+      recommended_odd: 1.48,
+      model_score: 46,
+      estimated_probability: 57.4,
+      market_probability: 57.4,
+      edge_percent: 0,
+      data_completeness: 40,
+      include_in_coupon: false,
+    },
+  }, "robot");
+  assert.equal(result.noPick, true);
+  assert.equal(result.hasOpinion, true);
+  assert.equal(result.recommendationStatus, "watch");
+  assert.equal(result.market, "MS 1");
+  assert.equal(result.odd, 1.48);
+  assert.match(result.reasons.join(" "), /46\/100.*60\/100/);
+});
+
+test("kupon görünümü PRO görüşlerini gösterir ama uygun olmayanları hesaba katmaz", () => {
+  const rows = [
+    ["Tigre", "Cordoba Santiago", "MS 1", 46, 57.4, 1.48],
+    ["Athletic Club", "Novorizontino", "MS 2", 33, 40.3, 2.05],
+    ["Sport Recife", "America Mineiro", "MS 1", 41, 57.2, 1.44],
+    ["Charleston Battery", "Miami FC", "MS 1", 44, 64.2, 1.29],
+    ["Ferro Carril", "All Boys", "MS 1", 46, 55.8, 1.48],
+    ["Botafogo", "Atletico PR", "2.5 Alt", 64, 50.7, 1.67],
+  ].map(([home, away, market, score, probability, odd]) => ({
+    date: "2026-08-25",
+    time: "02:00",
+    home,
+    away,
+    status: "scheduled",
+    proAnalysis: {
+      available: true,
+      fresh: true,
+      recommended_market: market,
+      recommended_odd: odd,
+      model_score: score,
+      estimated_probability: probability,
+      market_probability: probability,
+      edge_percent: 0,
+      data_completeness: 40,
+      independent_evidence: false,
+      include_in_coupon: false,
+    },
+  }));
+  const coupon = core.analyzeCoupon(rows, "robot");
+  assert.equal(coupon.pickedCount, 0);
+  assert.equal(coupon.opinionCount, 6);
+  assert.equal(coupon.watchCount, 6);
+  assert.equal(coupon.unavailableCount, 0);
+  assert.equal(coupon.totalOdd, null);
+  assert.equal(coupon.combinedProbability, null);
+  assert.deepEqual(coupon.legs.map((leg) => leg.market), ["MS 1", "MS 2", "MS 1", "MS 1", "MS 1", "2.5 Alt"]);
+  assert.ok(coupon.legs.every((leg) => leg.noPick && leg.recommendationStatus === "watch"));
+});
+
 test("kupon ortalama model gücü seçim oluşmayan ölçülmüş ayakları da kapsar", () => {
-  const pro = (modelScore, market) => ({
+  const pro = (modelScore, market, includeInCoupon = false) => ({
     available: true,
     fresh: true,
     recommended_market: market,
     recommended_odd: market === "MS 1" ? 2.28 : 1.4,
     model_score: modelScore,
     estimated_probability: modelScore === 37 ? 37.2 : 60.7,
-    market_probability: modelScore === 37 ? 37.2 : 60.7,
+    market_probability: modelScore === 37 ? 37.2 : 55.2,
     edge_percent: 0,
-    data_completeness: 40,
-    risk_level: "Yüksek",
+    data_completeness: includeInCoupon ? 46 : 40,
+    independent_evidence: includeInCoupon,
+    risk_level: includeInCoupon ? "Orta" : "Yüksek",
+    include_in_coupon: includeInCoupon,
   });
   const coupon = core.analyzeCoupon([
     { date: "2026-08-25", time: "03:15", home: "Lanus", away: "Argentinos Jr", status: "scheduled", proAnalysis: pro(37, "MS 1") },
-    { date: "2026-08-25", time: "03:15", home: "Talleres", away: "Rosario Central", status: "scheduled", proAnalysis: pro(64, "2.5 Alt") },
+    { date: "2026-08-25", time: "03:15", home: "Talleres", away: "Rosario Central", status: "scheduled", proAnalysis: pro(68, "2.5 Alt", true) },
   ], "robot");
   assert.equal(coupon.pickedCount, 1);
-  assert.equal(coupon.averageModelScore, 51);
+  assert.equal(coupon.opinionCount, 2);
+  assert.equal(coupon.watchCount, 1);
+  assert.equal(coupon.averageModelScore, 53);
+  assert.equal(coupon.totalOdd, null);
 });
 
 test("PRO indeksi bültene kod ve Türkçe takım anahtarıyla bağlanır", () => {
@@ -205,6 +279,8 @@ test("ham kaynak etiketi PRO birleşimini ve doğrudan analizi bozmaz", () => {
   assert.equal(result.noPick, false);
   assert.equal(result.market, "2.5 Alt");
   assert.equal(result.modelScore, 64);
+  assert.equal(result.couponEligible, false);
+  assert.equal(result.recommendationStatus, "analysis");
 });
 
 test("kupon özeti ortalama güveni ve eksiksiz toplam oranı hesaplar", () => {

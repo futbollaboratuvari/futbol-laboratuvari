@@ -201,6 +201,9 @@ function testLegacyStartupChainRemoved() {
   assert.match(dailyWidget, /__flPremiumBulletinMatches = app\.bulletin/);
   assert.match(premiumAnalysis, /pro-analysis-index\.json/);
   assert.equal(premiumAnalysis.includes("robot-analysis.json"), false, "Özel Analiz büyük robot çıktısını indirmemeli");
+  assert.match(premiumAnalysis, /Robot görüşü/);
+  assert.match(premiumAnalysis, /Kupona uygun/);
+  assert.match(premiumAnalysis, /izleme görüşü marketiyle birlikte gösterildi/);
   assert.match(homepage, /id="results-data-status"[\s\S]*Doğrulanmış sonuçlar yükleniyor/);
   assert.match(homepage, /id="result-archive"[\s\S]*Sonuçlar yükleniyor/);
   assert.match(homepage, /id="success-grid"[\s\S]*Performans yükleniyor/);

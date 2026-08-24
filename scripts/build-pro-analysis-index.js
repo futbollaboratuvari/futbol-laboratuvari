@@ -133,12 +133,24 @@ function compactMetrics(item) {
   return compact;
 }
 
+function couponEligibility(item, modelScore, dataCompleteness, market) {
+  const estimatedProbability = finite(item.estimated_probability);
+  return Boolean(item.include_in_coupon)
+    && Boolean(item.independent_evidence)
+    && modelScore >= 65
+    && dataCompleteness >= 45
+    && Number(estimatedProbability || 0) >= 42
+    && !/degerli market yok|oynama|secim yok|pas gec/.test(clean(market))
+    && !clean(item.risk_level || item.risk).includes("yuksek");
+}
+
 function compactMatch(item, parent) {
   const teams = teamsOf(item);
   const date = String(item.date || parent.date || "").slice(0, 10);
   const modelScore = finite(item.model_score ?? item.analysis_score ?? item.confidence_score) || 0;
   const dataCompleteness = finite(item.data_completeness) || 0;
   const market = String(item.recommended_market || item.market || "Değerli market yok");
+  const includeInCoupon = couponEligibility(item, modelScore, dataCompleteness, market);
   const signals = (Array.isArray(item.signals) && item.signals.length ? item.signals
     : Array.isArray(item.pro_signals) && item.pro_signals.length ? item.pro_signals
       : item.robot_comment ? [item.robot_comment] : [])
@@ -168,7 +180,7 @@ function compactMatch(item, parent) {
     data_gap_risk: String(item.data_gap_risk || "Yüksek"),
     risk_level: String(item.risk_level || item.risk || "Yüksek"),
     recommended_odd: finite(item.estimated_odds || item.odds),
-    include_in_coupon: Boolean(item.include_in_coupon),
+    include_in_coupon: includeInCoupon,
     value_label: String(item.value_label || "Piyasa ile Uyumlu"),
     expected_scores: Array.isArray(item.expected_scores) ? item.expected_scores.slice(0, 3) : [],
     metrics: compactMetrics(item),
@@ -219,4 +231,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildCalibration, buildProAnalysisIndex, compactMatch, compactMetrics, main, matchId, teamsOf };
+module.exports = { buildCalibration, buildProAnalysisIndex, compactMatch, compactMetrics, couponEligibility, main, matchId, teamsOf };

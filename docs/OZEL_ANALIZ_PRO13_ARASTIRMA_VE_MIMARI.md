@@ -48,11 +48,12 @@ Model sürümü: `pro13-market-conditioned-v1`
 
 | Karar | Kural |
 |---|---|
-| Özel Analiz robot seçimi | Güncel kayıt, model gücü ≥ 60, veri kapsamı ≥ 35 |
-| Seçim yok | Eski kayıt, bilinmeyen market, düşük model gücü veya düşük veri kapsamı |
+| Özel Analiz güçlü robot görüşü | Güncel kayıt, bilinen market, model gücü ≥ 60, veri kapsamı ≥ 35 |
+| İzleme görüşü | Bilinen market ve veri kapsamı ≥ 35; model gücü 60 altında veya otomatik kupon ölçütleri tamamlanmamış |
+| Görüş oluşmadı | Eski kayıt, bilinmeyen market, engellenmiş karar veya veri kapsamı 35 altında |
 | Değerli | Bağımsız kanıt, fark ≥ 3 puan, veri kapsamı ≥ 45 |
 | Yüksek Değer | Bağımsız kanıt, fark ≥ 7 puan, veri kapsamı ≥ 60, tahmini olasılık ≥ %45 |
-| Kupon adayı | Model gücü ≥ 65, veri kapsamı ≥ 45, tahmini olasılık ≥ %42 ve bant riski yüksek değil |
+| Kupon adayı | `include_in_coupon=true`, bağımsız kanıt, model gücü ≥ 65, veri kapsamı ≥ 45, tahmini olasılık ≥ %42 ve risk yüksek değil |
 | Veri güncelliği | PRO indeks yaşı en fazla 6 saat |
 
 ## Sonuç ekranı semantiği
@@ -64,6 +65,7 @@ Model sürümü: `pro13-market-conditioned-v1`
 - **Veri kapsamı:** Kullanılabilir ve güvenilir katmanların kapsama puanı.
 - **Kanıt modu:** Piyasa tabanı veya piyasa + bağımsız veri.
 - **Geçmiş doğrulama:** Eski skorlar olasılık gibi kullanılmaz; yeni PRO olasılık örneği en az 30 sonuca ulaştığında Brier skoru görünür.
+- **Robot görüşü / kupon uygunluğu:** Eşik altı ama tanımlı market görüşü gizlenmez; “İzleme” olarak gösterilir. Yalnız doğrulanmış kupon adayları toplam oran ve birleşik olasılık hesabına girer.
 
 ## Üretim verisi doğrulaması
 
