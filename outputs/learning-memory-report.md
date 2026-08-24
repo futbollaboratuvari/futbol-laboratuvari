@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 17:08:55
+Oluşturma: 24.08.2026 17:24:21
 
 ## Özet
 
-- Toplam tahmin: 948
-- Bekleyen tahmin: 686
+- Toplam tahmin: 950
+- Bekleyen tahmin: 688
 - Kazanan tahmin: 92
 - Kaybeden tahmin: 169
 - Lig sayısı: 154
@@ -20,7 +20,7 @@ Oluşturma: 24.08.2026 17:08:55
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 44, bekleyen 27, başarı %100, ağırlık 1.12
+- 2.5 Alt: toplam 46, bekleyen 29, başarı %100, ağırlık 1.12
 - 2.5 Üst: toplam 12, bekleyen 8, başarı %100, ağırlık 1
 - MS X: toplam 366, bekleyen 251, başarı %31, ağırlık 0.88
 - MS 1: toplam 81, bekleyen 57, başarı %29, ağırlık 0.88
@@ -29,6 +29,8 @@ Oluşturma: 24.08.2026 17:08:55
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | İngiltere Premier Lig 2 | Newcastle (B) - Tottenham U21 | 2.5 Alt | pending | 63/100
+- 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | 2.5 Alt | pending | 63/100
 - 2026-08-24 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Gil Vicente U23 | 2.5 Alt | pending | 63/100
 - 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | MS 1 | pending | 44/100
 - 2026-08-24 | Arjantin Ulusal Primera Lig | Club Atletico - Rafaela | MS X | pending | 35/100
@@ -42,6 +44,4 @@ Oluşturma: 24.08.2026 17:08:55
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | 2.5 Üst | pending | 57/100
 - 2026-08-24 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | 2.5 Alt | won | 82/100
 - 2026-08-24 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | 2.5 Alt | won | 76/100
-- 2026-08-24 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | 2.5 Alt | won | 82/100
-- 2026-08-24 | Bolivya Premier Lig | Guabira - Blooming | 2.5 Alt | won | 72/100
 
