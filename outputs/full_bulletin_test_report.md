@@ -2,18 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 10
-- Live match count: 16
+- Scheduled match count: 134
+- Live match count: 0
 - Finished removed count: 0
-- Date window: 2026-08-24 / 2026-08-25 23:59
+- Date window: 2026-08-25 / 2026-08-26 23:59
 
-- 2026-08-24 21:45 | Hallescher - Schalke | live
-- 2026-08-24 21:45 | Reims - Annecy | live
-- 2026-08-24 21:45 | Roma - Fiorentina | live
-- 2026-08-24 22:00 | Club Atletico - Rafaela | live
-- 2026-08-24 22:00 | Fulham - Chelsea | live
-- 2026-08-24 22:00 | Folgore Carate - Dolomiti Bellun | live
-- 2026-08-24 22:00 | Reggiana - Ravenna | live
-- 2026-08-24 22:00 | Crotone - Foggia | live
-- 2026-08-24 22:00 | Salernitana - Sorrento Calcio | live
-- 2026-08-24 22:00 | Team Altamura - Ss Monopoli 196 | live
+- 2026-08-25 01:00 | Tigre - Corboda Santiag | scheduled
+- 2026-08-25 01:30 | Athletic Club - Novorizontino | scheduled
+- 2026-08-25 01:30 | Sport Recife - America Mineiro | scheduled
+- 2026-08-25 02:00 | Charleston Bat - Miami Fc | scheduled
+- 2026-08-25 02:00 | Ferro Carril O - All Boys | scheduled
+- 2026-08-25 02:00 | Botafogo - Atletico Pr | scheduled
+- 2026-08-25 02:30 | Everton De Vin - Univ De Concepc | scheduled
+- 2026-08-25 03:00 | Libertad - Depor Macara | scheduled
+- 2026-08-25 03:15 | Lanus - Argentinos Jr | scheduled
+- 2026-08-25 03:15 | Talleres - Rosario Central | scheduled

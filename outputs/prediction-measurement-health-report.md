@@ -1,13 +1,13 @@
 # Tahmin Olcum Saglik Kontrolu
 
 Durum: ok
-Toplam tahmin: 966
-Olculen tahmin: 271
-Bekleyen tahmin: 694
-Kazanan: 98
-Kaybeden: 173
+Toplam tahmin: 976
+Olculen tahmin: 288
+Bekleyen tahmin: 687
+Kazanan: 108
+Kaybeden: 180
 Skoru olup pending kalan: 0
-Son finalizer kontrolu: 0
-Son finalizer guncelleme: 0
+Son finalizer kontrolu: 17
+Son finalizer guncelleme: 17
 
 Sonraki aksiyon: Olculen tahminler agirlik hesaplamasinda kullanilabilir.
