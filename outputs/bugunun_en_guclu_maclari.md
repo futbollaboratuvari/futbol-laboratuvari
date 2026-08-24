@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T04:29:43.763Z
+- Güncelleme: 2026-08-24T04:34:26.047Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -16,15 +16,15 @@
 | Isloch VS Dinamo Minsk | Belarus Premier Lig | 17:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Tractor Fc VS Persepolis | İran Persian Gulf Pro Lig | 18:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Hellas Verona VS Cesena U20 | İtalya Primavera Şampiyonası 1 | 18:00 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Lokomotiva Zvo VS Petrzalka | Slovakya 2.Lig | 18:00 | MS 1 | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Lokomotiva Zvo VS Petrzalka | Slovakya 2.Lig | 18:00 | MS 1 | 3.45 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Young Africans VS Jkt Tanzania | Tanzanya Kuu Bara Ligi | 18:00 | MS X | 5.80 | 75 | Orta risk kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 2 | 4.63 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 2 | 4.80 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 2 | 4.43 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Transinvest Vi VS Fa Siauliai | Litvanya A Ligi | 18:45 | MS 2 | 4.62 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Würzburger Kic VS Köln | Almanya DFB Kupası 1.Tur | 19:00 | MS X | 4.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Altglienicke VS Wolfsburg | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 45 | Sadece izleme | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Verl 1924 VS Hamburg | Almanya DFB Kupası 1.Tur | 19:00 | MS 1 | 5.13 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Botev Vratsa VS Botev Plovdiv | Bulgaristan 1.Lig | 19:00 | MS 1 | 3.22 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Botev Vratsa VS Botev Plovdiv | Bulgaristan 1.Lig | 19:00 | MS 1 | 3.19 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kheybar Khorra VS Peykan | İran Persian Gulf Pro Lig | 19:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Malavan Fc VS Fajr Sepasi | İran Persian Gulf Pro Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Zob Ahan Fc VS Mes Shahr-E Bab | İran Persian Gulf Pro Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -59,7 +59,7 @@
 | Kocaelispor VS Amed Sk | Türkiye Süper Lig | 21:30 | MS X | 3.05 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Livorno VS Sassari Torres | İtalya Serie C Grup B | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Otelul Galati VS Argesul Pitesti | Romanya 1.Lig | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 2 | 4.53 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 2 | 4.49 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | MS X | 4.80 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Reims VS Annecy | Fransa Ligue 2 | 21:45 | MS 2 | 3.38 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fulham VS Chelsea | İngiltere Premier Lig | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
