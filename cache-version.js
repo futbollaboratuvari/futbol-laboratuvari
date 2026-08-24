@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260824-spor-toto-pro-v5";
+  const version = "20260824-spor-toto-pro-v6";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {

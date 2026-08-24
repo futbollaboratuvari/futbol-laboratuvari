@@ -22,16 +22,19 @@ const publicOnly = applyOne(base, {
   probability_basis: "cross_verified_public_distribution",
   confidence: 50,
   data_completeness: 28,
-  form: { home: { count: 0, recent: [] }, away: { count: 0, recent: [] } },
+  form: { home: { count: 1, recent: ["W"] }, away: { count: 1, recent: ["L"] } },
   h2h: [],
 });
 assert.strictEqual(publicOnly.analysis_ready, true, "oynanma dağılımı boş kart bırakmamalı");
 assert.strictEqual(publicOnly.independent_evidence, false, "oynanma dağılımı arşiv kanıtı sayılmamalı");
+assert.strictEqual(publicOnly.archive_analysis.ready, false, "yetersiz arşiv örneği açıkça false kalmalı");
 assert.strictEqual(isDistributionOnly(publicOnly), true, "oynanma dağılımı modu ayrıştırılmalı");
 const publicFinal = normalizeReady(publicOnly);
 assert.strictEqual(publicFinal.evidence_mode, "cross_verified_public_distribution", "dağılım modu finalizer sonrası korunmalı");
+assert.strictEqual(publicFinal.independent_evidence, false, "tek maçlık örnek bağımsız arşiv kanıtına dönüşmemeli");
 assert(publicFinal.classification.includes("Oynanma Dağılımı"), "dağılım bazlı sınıf korunmalı");
 assert(publicFinal.confidence <= 54, "dağılım bazlı güven yüksek gösterilmemeli");
+assert(!publicFinal.reasons.some((reason) => /doğrulanmış sonuç hafızası mevcut/i.test(reason)), "dağılım bazlı kart arşiv doğrulaması iddia etmemeli");
 
 const archiveBacked = applyOne(base, {
   archive_ready: true,

@@ -14,13 +14,19 @@ const clean = (value) => String(value || "").toLocaleLowerCase("tr-TR").replace(
 const programKey = (m) => `${String(m.date || "").slice(0, 10)}|${clean(m.home)}|${clean(m.away)}`;
 const ranked = (match) => [...OPTIONS].sort((a, b) => Number(match.probabilities?.[b] || 0) - Number(match.probabilities?.[a] || 0));
 const hasArchiveEvidence = (match) => {
+  if (typeof match.archive_analysis?.ready === "boolean") return match.archive_analysis.ready;
+  if (match.independent_evidence === true) return true;
   const home = match.form?.home || {}; const away = match.form?.away || {};
-  return Number(home.sample ?? home.count ?? 0) > 0 || Number(away.sample ?? away.count ?? 0) > 0
-    || (Array.isArray(home.recent) && home.recent.length > 0) || (Array.isArray(away.recent) && away.recent.length > 0)
-    || (Array.isArray(match.h2h) && match.h2h.length > 0)
-    || Boolean(match.archive_analysis?.ready);
+  const homeSample = Number(home.sample ?? home.count ?? 0);
+  const awaySample = Number(away.sample ?? away.count ?? 0);
+  const homeRecent = Array.isArray(home.recent) ? home.recent.length : 0;
+  const awayRecent = Array.isArray(away.recent) ? away.recent.length : 0;
+  return Math.min(homeSample, awaySample) >= 3
+    || Math.min(homeRecent, awayRecent) >= 3
+    || (Array.isArray(match.h2h) && match.h2h.length > 0);
 };
-const isDistributionOnly = (match) => /public_distribution|oynanma/i.test(String(match.probability_basis || match.evidence_mode || "")) && !hasArchiveEvidence(match);
+const isDistributionOnly = (match) => /public_distribution|oynanma/i.test(String(match.probability_basis || match.evidence_mode || ""))
+  && match.archive_analysis?.ready !== true;
 const cleanForm = (profile, keep) => {
   const base = profile && typeof profile === "object" ? { ...profile } : { recent: [], sample: 0 };
   const sample = Number(base.sample ?? base.count ?? 0);

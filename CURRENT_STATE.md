@@ -2,6 +2,19 @@
 
 2026-08-24
 
+Main focus: Spor Toto haftalık 15 maç akışının bağlantı kesintisi sonrası tamamlanması ve kanıt etiketlerinin doğrulanması.
+
+Current Spor Toto state:
+- 2026/2027 3. Hafta programı 15 maç ve doğru sıra ile korunur; veri üretimi `spor_toto_weekly_program.json` üzerinden çalışır.
+- Küçük `spor_toto_archive_analysis.json` cache'i otomatik akışta üretilir ve Vercel/GitHub Pages çıktısından önce bültene yeniden uygulanır.
+- Mevcut hafta için iki takımda da en az üç sonuç örneği sağlayan maç yoktur; tek maçlık örnekler artık yanlış biçimde bağımsız arşiv kanıtı sayılmaz.
+- 15 kart boş değildir ancak tamamı yalnız haftalık oynanma dağılımı tabanındadır; model olasılığı veya doğrulanmış piyasa verisi gibi sunulmaz, güven 54 altında ve risk Yüksek tutulur.
+- Güncel kupon çalışma listesi 13 tek + 2 çifte seçimden 4 kolon üretir; kesin sonuç veya kazanç garantisi verilmez.
+- Spor Toto arayüzü arşiv, dağılım ve piyasa kaynak sayılarını ayrı gösterir; dağılım yüzdelerini detay ekranında açıkça adlandırır.
+- Spor Toto arşiv, market ve haftalık bütünlük testleri; JSON çatışma kontrolü ve Vercel üretim paketi başarılıdır.
+
+2026-08-24
+
 Main focus: Özel Analiz PRO 13 açıklanabilir olasılık ve veri kalitesi yükseltmesi.
 
 Current PRO analysis state:

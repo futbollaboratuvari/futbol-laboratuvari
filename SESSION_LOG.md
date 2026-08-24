@@ -171,3 +171,18 @@ Summary:
 - Added PRO model, compact-index and client regression tests; all premium, performance and result pipeline tests passed.
 - Added `docs/OZEL_ANALIZ_PRO13_ARASTIRMA_VE_MIMARI.md` with primary research sources, audit evidence, thresholds, limitations and next data priority.
 - Did not modify bulletin JSON files, daily-matches-widget.js, Kuponum, membership consumption, payment, workflows, CNAME or DNS.
+
+2026-08-24
+
+Spor Toto weekly 15 continuation and evidence-label repair completed.
+
+Summary:
+- Resumed the interrupted Spor Toto work from the latest main branch and confirmed the background pipeline had already created the 15-match program plus the compact archive-analysis cache.
+- Found the remaining failure: the generated cache was not yet reflected in the published bulletin at the interruption point, and the finalizer treated one-sided one-match samples as independent archive evidence.
+- Reapplied the archive cache before finalization, producing 15 visible high-risk distribution-based cards, 13 singles, 2 doubles and 4 total working columns.
+- Tightened `hasArchiveEvidence` so an explicit `archive_analysis.ready: false` cannot be overridden by one tiny form sample; all 15 current matches are now honestly counted as distribution-based, not archive-backed.
+- Added regression coverage for the false archive-evidence case and verified that distribution-only cards never claim confirmed result-memory support.
+- Updated the Spor Toto dashboard to label distribution percentages as playing distribution rather than model probabilities, and to show archive/distribution/market evidence counts.
+- Updated the cache version so the corrected mobile and desktop dashboard loads without an old-script flash.
+- Spor Toto archive, market and weekly tests, JavaScript syntax checks, JSON conflict validation and the Vercel production build passed.
+- Did not change daily-matches-widget.js, the main bulletin separation rules, Kuponum, Analiz Et, membership, payment, CNAME or DNS.

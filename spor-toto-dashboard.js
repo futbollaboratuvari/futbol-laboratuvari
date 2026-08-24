@@ -1,7 +1,7 @@
 (() => {
   const DATA_URL = "./data/spor_toto_bulteni.json";
-  const STYLE_ID = "spor-toto-pro-style-v4";
-  const VERSION = "20260824-spor-toto-pro-v4";
+  const STYLE_ID = "spor-toto-pro-style-v6";
+  const VERSION = "20260824-spor-toto-pro-v6";
 
   const escapeHtml = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -109,6 +109,9 @@
 
   const selectedClass = (item, option) => (Array.isArray(item.selected_options) && item.selected_options.includes(option)) ? "is-selected" : "";
   const riskClass = (value) => String(value || "").toLocaleLowerCase("tr-TR").replace("ü", "u");
+  const isDistributionOnly = (item) => /public_distribution|oynanma/i.test(String(item?.evidence_mode || item?.probability_basis || ""))
+    && item?.independent_evidence !== true;
+  const probabilityTitle = (item) => isDistributionOnly(item) ? "Haftalık oynanma dağılımı" : "1-X-2 model olasılıkları";
 
   const tableRow = (item, index) => `
     <div class="st-row" data-st-index="${index}">
@@ -170,13 +173,13 @@
       <div class="st-drawer-backdrop" data-st-close></div>
       <aside class="st-drawer-panel" role="dialog" aria-modal="true" aria-label="Spor Toto maç analizi">
         <header><div><small>${escapeHtml(text(item.date, ""))} · ${escapeHtml(text(item.time, ""))}</small><h3>${escapeHtml(text(item.home, "Ev sahibi"))} – ${escapeHtml(text(item.away, "Deplasman"))}</h3><p>${escapeHtml(text(item.classification, "1-X-2 analizi"))} · ${escapeHtml(text(item.selection, item.decision))}</p></div><button type="button" data-st-close aria-label="Kapat">×</button></header>
-        <section><h4>1-X-2 olasılıkları</h4><div class="st-drawer-probs">${["1", "X", "2"].map((option) => `<div class="${selectedClass(item, option)}"><b>${option}</b><strong>${formatPct(item.probabilities?.[option])}</strong><span>Oran ${formatOdd(option === "1" ? item.one : option === "X" ? item.draw : item.two)}</span></div>`).join("")}</div></section>
+        <section><h4>${escapeHtml(probabilityTitle(item))}</h4><div class="st-drawer-probs">${["1", "X", "2"].map((option) => `<div class="${selectedClass(item, option)}"><b>${option}</b><strong>${formatPct(item.probabilities?.[option])}</strong><span>Oran ${formatOdd(option === "1" ? item.one : option === "X" ? item.draw : item.two)}</span></div>`).join("")}</div></section>
         <section><h4>Karar gerekçesi</h4><ul>${(reasons.length ? reasons : ["Gerekçe verisi bekleniyor."]).map((row) => `<li>${escapeHtml(row)}</li>`).join("")}</ul></section>
         <section><h4>Gerçek form hafızası</h4><p>${escapeHtml(formSummary(item.form?.home, item.home))}</p><p>${escapeHtml(formSummary(item.form?.away, item.away))}</p></section>
         <section><h4>İkili rekabet</h4>${h2h.length ? `<ul>${h2h.map((row) => `<li>${escapeHtml(text(row.date, ""))} · ${escapeHtml(text(row.home, ""))} ${escapeHtml(text(row.score, "-"))} ${escapeHtml(text(row.away, ""))}</li>`).join("")}</ul>` : "<p>Doğrulanmış H2H örneği bulunamadı; veri uydurulmadı.</p>"}</section>
         <section><h4>Oran hareketi</h4><ul>${oddsMovement(item).map((row) => `<li>${escapeHtml(row)}</li>`).join("")}</ul></section>
         <section><h4>Eksik / kadro</h4>${item.squad?.available ? `<p><b>${escapeHtml(item.home)}:</b> ${escapeHtml(squadHome.join(", ") || "kayıt yok")}</p><p><b>${escapeHtml(item.away)}:</b> ${escapeHtml(squadAway.join(", ") || "kayıt yok")}</p>` : `<p>${escapeHtml(text(item.squad?.note, "Doğrulanmış eksik/kadro verisi bulunmuyor."))}</p>`}</section>
-        <footer><span>Model ${escapeHtml(text(item.model_version, "1-X-2"))}</span><span>Veri kapsama ${escapeHtml(text(item.data_completeness, "—"))}/100</span><span>Güven ${escapeHtml(text(item.confidence, "—"))}/100</span></footer>
+        <footer><span>${isDistributionOnly(item) ? "Kaynak: oynanma dağılımı" : `Model ${escapeHtml(text(item.model_version, "1-X-2"))}`}</span><span>Veri kapsama ${escapeHtml(text(item.data_completeness, "—"))}/100</span><span>Güven ${escapeHtml(text(item.confidence, "—"))}/100</span></footer>
       </aside>`;
     drawer.classList.add("is-open");
     drawer.querySelectorAll("[data-st-close]").forEach((button) => button.addEventListener("click", () => drawer.classList.remove("is-open")));
@@ -217,6 +220,14 @@
     grid.style.maxWidth = "100%";
     if (summary) { summary.innerHTML = ""; summary.style.display = "none"; }
 
+    const matches = Array.isArray(payload?.matches) ? payload.matches : [];
+    const coupon = payload?.coupon || {};
+    const evidence = payload?.evidence_summary || {};
+    const distributionCount = number(evidence.distribution_based_match_count) ?? matches.filter(isDistributionOnly).length;
+    const archiveCount = number(evidence.archive_backed_match_count) ?? matches.filter((item) => item.independent_evidence === true).length;
+    const marketCount = number(evidence.market_baseline_match_count) ?? Math.max(0, matches.length - distributionCount - archiveCount);
+    const distributionOnlyWeek = matches.length > 0 && distributionCount === matches.length;
+
     const heading = section.querySelector(".section-heading");
     if (heading) {
       const eyebrow = heading.querySelector(".eyebrow");
@@ -224,11 +235,11 @@
       const paragraph = heading.querySelector("p:not(.eyebrow)");
       if (eyebrow) eyebrow.textContent = "Spor Toto · PRO 1-X-2";
       if (title) title.textContent = "15 maçlık 1-X-2 karar merkezi";
-      if (paragraph) paragraph.textContent = "PRO 13, güncel 1-X-2 oranları ve doğrulanmış sonuç hafızası birlikte kullanılır. Eksik veri uydurulmaz.";
+      if (paragraph) paragraph.textContent = distributionOnlyWeek
+        ? "Bu haftada doğrulanmış piyasa ve arşiv örneği sınırlı; gerçek oynanma dağılımı model olasılığına çevrilmeden, yüksek risk etiketiyle ayrı gösterilir."
+        : "PRO 13, güncel 1-X-2 oranları ve doğrulanmış sonuç hafızasını veri bulunduğu ölçüde birlikte kullanır. Eksik veri uydurulmaz.";
     }
 
-    const matches = Array.isArray(payload?.matches) ? payload.matches : [];
-    const coupon = payload?.coupon || {};
     const bankoCount = matches.filter((item) => String(item.classification || "").includes("Banko")).length;
     const doubleCount = number(coupon.double_count) ?? matches.filter((item) => (item.selected_options || []).length === 2).length;
     const totalColumns = number(coupon.total_columns) ?? matches.reduce((total, item) => total * Math.max(1, number(item.column_multiplier) || 1), matches.length ? 1 : 0);
@@ -241,14 +252,14 @@
           <div>
             <span class="st-pro-kicker">🏆 Futbol Laboratuvarı Spor Toto PRO</span>
             <h3>1-X-2 kupon karar ekranı</h3>
-            <p>Her maçta model olasılığı, güncel oran, güven, risk ve gerçek sonuç hafızası birlikte okunur. Çifte şanslar belirsizliği azaltmak için otomatik seçilir.</p>
+            <p>${distributionOnlyWeek ? "Bu görünümdeki yüzdeler model tahmini değil, haftalık oynanma dağılımıdır. Seçimler bilgi amaçlıdır; tüm maçlar yüksek riskli tutulur." : "Her maçta model olasılığı, güncel oran, güven, risk ve gerçek sonuç hafızası birlikte okunur. Çifte şanslar belirsizliği azaltmak için otomatik seçilir."}</p>
             <p class="st-pro-note">${escapeHtml(text(payload?.bulletin_note, "Bu alan Futbol Laboratuvarı analiz çalışma listesidir."))}</p>
-            <div class="st-source"><span>${escapeHtml(text(payload?.engine_version, "1-X-2"))}</span><span>${escapeHtml(text(payload?.source, "Veri kaynağı"))}</span><span>Güncelleme ${escapeHtml(generated)}</span></div>
+            <div class="st-source"><span>${escapeHtml(text(payload?.engine_version, "1-X-2"))}</span><span>Arşiv ${archiveCount}</span><span>Dağılım ${distributionCount}</span><span>Piyasa ${marketCount}</span><span>Güncelleme ${escapeHtml(generated)}</span></div>
           </div>
           <div class="st-pro-metrics">
             <div class="st-pro-metric"><span>Maç</span><strong>${matches.length}</strong></div>
             <div class="st-pro-metric"><span>Toplam Kolon</span><strong>${totalColumns || 0}</strong></div>
-            <div class="st-pro-metric"><span>Banko Adayı</span><strong>${bankoCount}</strong></div>
+            <div class="st-pro-metric"><span>${distributionCount ? "Dağılım Bazlı" : "Banko Adayı"}</span><strong>${distributionCount || bankoCount}</strong></div>
             <div class="st-pro-metric"><span>Çifte Şans</span><strong>${doubleCount}</strong></div>
             <div class="st-pro-metric"><span>Ort. Güven</span><strong>${avgConfidence || "—"}/100</strong></div>
             <div class="st-pro-metric"><span>Veri Kapsama</span><strong>${escapeHtml(text(coupon.average_data_completeness, "—"))}/100</strong></div>
