@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 23:12:53
+Oluşturma: 24.08.2026 23:42:38
 
 ## Özet
 
-- Toplam tahmin: 956
-- Bekleyen tahmin: 684
+- Toplam tahmin: 966
+- Bekleyen tahmin: 694
 - Kazanan tahmin: 98
 - Kaybeden tahmin: 173
 - Lig sayısı: 154
@@ -20,28 +20,28 @@ Oluşturma: 24.08.2026 23:12:53
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 50, bekleyen 32, başarı %100, ağırlık 1.12
-- 2.5 Üst: toplam 12, bekleyen 8, başarı %100, ağırlık 1
+- 2.5 Alt: toplam 53, bekleyen 35, başarı %100, ağırlık 1.12
+- 2.5 Üst: toplam 13, bekleyen 9, başarı %100, ağırlık 1
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
-- MS 2: toplam 286, bekleyen 180, başarı %30, ağırlık 0.88
-- MS 1: toplam 83, bekleyen 56, başarı %30, ağırlık 0.88
+- MS 2: toplam 287, bekleyen 181, başarı %30, ağırlık 0.88
+- MS 1: toplam 88, bekleyen 61, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | MS 1 | pending | 47/100
+- 2026-08-24 | Brezilya Serie B | Sport Recife - America Mineiro | MS 1 | pending | 41/100
+- 2026-08-24 | Brezilya Serie B | Athletic Club - Novorizontino | MS 2 | pending | 33/100
+- 2026-08-24 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Alt | pending | 64/100
+- 2026-08-24 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | MS 1 | pending | 46/100
+- 2026-08-24 | ABD USL | Charleston Bat - Miami Fc | MS 1 | pending | 44/100
+- 2026-08-24 | Şili Premier Lig | Everton De Vin - Univ De Concepc | 2.5 Üst | pending | 57/100
+- 2026-08-24 | Ekvador Pro Lig | Libertad - Depor Macara | 2.5 Alt | pending | 64/100
+- 2026-08-24 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | MS 1 | pending | 37/100
+- 2026-08-24 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Alt | pending | 64/100
 - 2026-08-24 | İtalya Serie A | Roma - Fiorentina | 2.5 Alt | pending | 64/100
 - 2026-08-24 | Belarus Premier Lig | Torpedo Zhodin - Dnepr Mogilev | 2.5 Alt | pending | 64/100
 - 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | MS 1 | pending | 38/100
 - 2026-08-24 | İspanya 2.Lig | Celta Vigo Ii - Fc Andorra | 2.5 Alt | pending | 64/100
 - 2026-08-24 | Rusya Premier Lig | Baltika Kalini - Rubin Kazan | MS 1 | pending | 37/100
-- 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | 2.5 Alt | pending | 64/100
-- 2026-08-24 | İngiltere Premier Lig 2 | Newcastle (B) - Tottenham U21 | 2.5 Alt | pending | 63/100
-- 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | 2.5 Alt | pending | 63/100
-- 2026-08-24 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Gil Vicente U23 | 2.5 Alt | pending | 63/100
-- 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | MS 1 | pending | 44/100
-- 2026-08-24 | Arjantin Ulusal Primera Lig | Club Atletico - Rafaela | MS X | pending | 35/100
-- 2026-08-24 | Arjantin Premier Lig 2. Aşama | Racing Club - Boca Juniors | MS 2 | lost | 39/100
-- 2026-08-24 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | 2.5 Alt | won | 78/100
-- 2026-08-24 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | MS 1 | won | 43/100
-- 2026-08-24 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | 2.5 Üst | pending | 57/100
 
