@@ -4,6 +4,7 @@ const assert = require("node:assert/strict");
 const {
   apiFootballResults,
   applyResults,
+  datesToCheck,
   espnResults,
   findResultForMatch,
   sportsDbResults,
@@ -79,6 +80,13 @@ test("kısaltılmış takım adları aynı tarihte güvenli biçimde eşleşir",
   assert.equal(updated.updated, 1);
   assert.equal(updated.matches[0].score, "2-1");
   assert.equal(updated.matches[0].inferred_finished, false);
+});
+
+test("kısmi kaynak hatası olan tarih bekleme süresine takılmadan yeniden denenir", () => {
+  const now = new Date("2026-08-24T09:00:00Z");
+  const memory = { predictions: [{ date: "2026-08-23", start_time: "20:00", status: "pending", result_score: "" }] };
+  const status = { date_checks: { "2026-08-23": { last_success_at: now.toISOString(), error_count: 1 } } };
+  assert.deepEqual(datesToCheck(memory, status, now), ["2026-08-23"]);
 });
 
 test("skor bağlayıcı aynı takımların farklı tarihlerini karıştırmaz", () => {

@@ -305,14 +305,23 @@ async function fetchDateResults(date) {
     }
   }
 
-  try {
-    const compactDate = date.replaceAll("-", "");
-    const payload = await requestJson(`https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates=${compactDate}&limit=1000`);
-    results.push(...espnResults(payload));
-    sources.push("ESPN Scoreboard");
-  } catch (error) {
-    errors.push(`ESPN Scoreboard: ${error.message}`);
+  const compactDate = date.replaceAll("-", "");
+  const espnErrors = [];
+  for (const host of ["site.web.api.espn.com", "site.api.espn.com"]) {
+    try {
+      const payload = await requestJson(
+        `https://${host}/apis/site/v2/sports/soccer/all/scoreboard?dates=${compactDate}&limit=1000`,
+        { "User-Agent": "Mozilla/5.0 (compatible; FutbolLaboratuvari/1.0)", Referer: "https://www.espn.com/" },
+      );
+      results.push(...espnResults(payload));
+      sources.push("ESPN Scoreboard");
+      espnErrors.length = 0;
+      break;
+    } catch (error) {
+      espnErrors.push(`${host}: ${error.message}`);
+    }
   }
+  if (espnErrors.length) errors.push(`ESPN Scoreboard: ${espnErrors.join(" | ")}`);
 
   try {
     const payload = await requestJson(`https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=${encodeURIComponent(date)}&s=Soccer`);
@@ -348,6 +357,7 @@ function datesToCheck(memory, previousStatus, now = new Date()) {
   const dates = [...new Set((memory.predictions || []).filter((item) => eligiblePrediction(item, now)).map(dateOf))].sort();
   const checks = previousStatus?.date_checks || {};
   return dates.filter((date) => {
+    if (Number(checks[date]?.error_count || 0) > 0) return true;
     const lastSuccess = Date.parse(checks[date]?.last_success_at || "");
     return !Number.isFinite(lastSuccess) || now.getTime() - lastSuccess >= RECHECK_INTERVAL_MS;
   }).slice(0, MAX_DATES_PER_RUN);
