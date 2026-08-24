@@ -199,6 +199,54 @@ function footballDataResults(payload) {
   });
 }
 
+function espnResults(payload) {
+  return (Array.isArray(payload?.events) ? payload.events : []).flatMap((event) => {
+    const competition = event?.competitions?.[0] || {};
+    const status = event?.status?.type || competition?.status?.type || {};
+    if (!status.completed || !["STATUS_FULL_TIME", "STATUS_FINAL_PEN"].includes(String(status.name || ""))) return [];
+    const competitors = Array.isArray(competition.competitors) ? competition.competitors : [];
+    const home = competitors.find((item) => item.homeAway === "home") || competitors[0];
+    const away = competitors.find((item) => item.homeAway === "away") || competitors[1];
+    const homeScore = Number(home?.score);
+    const awayScore = Number(away?.score);
+    const score = scoreText(homeScore, awayScore);
+    if (!home || !away || !score) return [];
+    return [{
+      date: istanbulDate(new Date(event.date || competition.date)),
+      home: home?.team?.displayName || home?.team?.shortDisplayName || home?.team?.name || "",
+      away: away?.team?.displayName || away?.team?.shortDisplayName || away?.team?.name || "",
+      homeScore,
+      awayScore,
+      score,
+      status: "finished",
+      source: "ESPN Scoreboard",
+      source_match_id: event.id || competition.id || null,
+    }];
+  });
+}
+
+function sportsDbResults(payload) {
+  return (Array.isArray(payload?.events) ? payload.events : []).flatMap((event) => {
+    const status = String(event.strStatus || "").toUpperCase();
+    if (status && !["FT", "MATCH FINISHED", "FINISHED"].includes(status)) return [];
+    const homeScore = Number(event.intHomeScore);
+    const awayScore = Number(event.intAwayScore);
+    const score = scoreText(homeScore, awayScore);
+    if (!event.strHomeTeam || !event.strAwayTeam || !score) return [];
+    return [{
+      date: String(event.dateEvent || "").slice(0, 10),
+      home: event.strHomeTeam,
+      away: event.strAwayTeam,
+      homeScore,
+      awayScore,
+      score,
+      status: "finished",
+      source: "TheSportsDB",
+      source_match_id: event.idEvent || null,
+    }];
+  });
+}
+
 function requestJson(url, headers = {}) {
   return new Promise((resolve, reject) => {
     const request = https.get(url, { headers: { Accept: "application/json", "User-Agent": "FutbolLaboratuvari-ResultSync/1.0", ...headers } }, (response) => {
@@ -226,6 +274,8 @@ function uniqueKeys(values) {
 async function fetchDateResults(date) {
   const apiFootballKeys = uniqueKeys([process.env.API_FOOTBALL_KEY, process.env.API_FOOTBALL_KEY2]);
   const errors = [];
+  const results = [];
+  const sources = [];
   for (const apiKey of apiFootballKeys) {
     try {
       const payload = await requestJson(
@@ -233,7 +283,9 @@ async function fetchDateResults(date) {
         { "x-apisports-key": apiKey },
       );
       if (payload?.errors && Object.keys(payload.errors).length) throw new Error(JSON.stringify(payload.errors));
-      return { source: "API-Football", results: apiFootballResults(payload), errors };
+      results.push(...apiFootballResults(payload));
+      sources.push("API-Football");
+      break;
     } catch (error) {
       errors.push(`API-Football: ${error.message}`);
     }
@@ -246,16 +298,34 @@ async function fetchDateResults(date) {
         `https://api.football-data.org/v4/matches?dateFrom=${encodeURIComponent(date)}&dateTo=${encodeURIComponent(date)}`,
         { "X-Auth-Token": footballDataKey },
       );
-      return { source: "football-data.org", results: footballDataResults(payload), errors };
+      results.push(...footballDataResults(payload));
+      sources.push("football-data.org");
     } catch (error) {
       errors.push(`football-data.org: ${error.message}`);
     }
   }
 
+  try {
+    const compactDate = date.replaceAll("-", "");
+    const payload = await requestJson(`https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates=${compactDate}&limit=1000`);
+    results.push(...espnResults(payload));
+    sources.push("ESPN Scoreboard");
+  } catch (error) {
+    errors.push(`ESPN Scoreboard: ${error.message}`);
+  }
+
+  try {
+    const payload = await requestJson(`https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=${encodeURIComponent(date)}&s=Soccer`);
+    results.push(...sportsDbResults(payload));
+    sources.push("TheSportsDB");
+  } catch (error) {
+    errors.push(`TheSportsDB: ${error.message}`);
+  }
+
   return {
-    source: "unavailable",
-    results: [],
-    errors: errors.length ? errors : ["FOOTBALL_DATA_API_KEY veya API_FOOTBALL_KEY tanımlı değil."],
+    source: sources.join(" + ") || "unavailable",
+    results: dedupeResults(results),
+    errors,
   };
 }
 
@@ -398,10 +468,13 @@ module.exports = {
   applyResults,
   datesToCheck,
   eligiblePrediction,
+  espnResults,
+  fetchDateResults,
   findResultForMatch,
   footballDataResults,
   normalizeTeam,
   pairSimilarity,
   runFinalScoreSync,
+  sportsDbResults,
   teamSimilarity,
 };

@@ -4,7 +4,9 @@ const assert = require("node:assert/strict");
 const {
   apiFootballResults,
   applyResults,
+  espnResults,
   findResultForMatch,
+  sportsDbResults,
   teamSimilarity,
 } = require("../scripts/update-final-scores");
 const { buildScoreIndexFromRows, findScore } = require("../scripts/learning-score-linker");
@@ -34,6 +36,30 @@ test("API-Football biten maç yanıtı final skor kaydına dönüşür", () => {
   assert.equal(results.length, 1);
   assert.equal(results[0].date, "2026-08-22");
   assert.equal(results[0].score, "2-1");
+});
+
+test("anahtarsız ESPN ve TheSportsDB yanıtları ortak skor şemasına dönüşür", () => {
+  const espn = espnResults({ events: [{
+    id: "espn-1",
+    date: "2026-08-23T17:00:00Z",
+    status: { type: { name: "STATUS_FULL_TIME", completed: true } },
+    competitions: [{ competitors: [
+      { homeAway: "home", score: "3", team: { displayName: "Al Ahly" } },
+      { homeAway: "away", score: "2", team: { displayName: "ENPPI" } },
+    ] }],
+  }] });
+  const sportsDb = sportsDbResults({ events: [{
+    idEvent: "sportsdb-1",
+    dateEvent: "2026-08-23",
+    strStatus: "FT",
+    strHomeTeam: "Al Ahly",
+    strAwayTeam: "ENPPI",
+    intHomeScore: "3",
+    intAwayScore: "2",
+  }] });
+  assert.equal(espn[0].score, "3-2");
+  assert.equal(espn[0].source, "ESPN Scoreboard");
+  assert.equal(sportsDb[0].score, "3-2");
 });
 
 test("kısaltılmış takım adları aynı tarihte güvenli biçimde eşleşir", () => {
