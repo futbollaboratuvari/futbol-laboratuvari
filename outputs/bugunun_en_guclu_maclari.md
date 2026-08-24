@@ -4,16 +4,15 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T03:17:58.106Z
+- Güncelleme: 2026-08-24T03:41:54.917Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Atletico Junio VS Once Caldas | Kolombiya Primera A Clausura | 04:15 | MS 2 | 3.35 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | live |
 | Malacateco VS Deportivo San P | Guatemala Ulusal Lig Apertura | 05:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Sabah VS Imigresen | Malezya Süper Lig | 15:15 | MS X | 3.09 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Sabah VS Imigresen | Malezya Süper Lig | 15:15 | MS X | 3.10 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kamaz VS Pfc Sochi | Rusya FNL | 17:30 | MS 1 | 3.42 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Isloch VS Dinamo Minsk | Belarus Premier Lig | 17:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Tractor Fc VS Persepolis | İran Persian Gulf Pro Lig | 18:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
