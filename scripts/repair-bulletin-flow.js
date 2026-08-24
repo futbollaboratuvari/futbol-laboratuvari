@@ -110,3 +110,5 @@ if (usableForToday(current)) {
   writeHealth('waiting', empty, ['full-bulletin.json henuz mac listesi uretmedi.', 'Kullanilabilir gunluk bulten yedegi bulunamadi.']);
   console.log('Bulletin flow waiting. No usable source or cache.');
 }
+
+require('./enhance-spor-toto-pro').run();
