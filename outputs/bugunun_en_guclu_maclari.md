@@ -4,15 +4,15 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T14:29:37.668Z
+- Güncelleme: 2026-08-24T14:31:47.481Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Kamaz VS Pfc Sochi | Rusya FNL | 17:30 | 2.5 Alt | 1.53 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Isloch VS Dinamo Minsk | Belarus Premier Lig | 17:30 | 2.5 Alt | 1.61 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Kamaz VS Pfc Sochi | Rusya FNL | 17:30 | 2.5 Alt | 1.53 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Isloch VS Dinamo Minsk | Belarus Premier Lig | 17:30 | 2.5 Alt | 1.61 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Tractor Fc VS Persepolis | İran Persian Gulf Pro Lig | 18:00 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Hellas Verona VS Cesena U20 | İtalya Primavera Şampiyonası 1 | 18:00 | 2.5 Alt | 1.96 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lokomotiva Zvo VS Petrzalka | Slovakya 2.Lig | 18:00 | 2.5 Alt | 1.76 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
