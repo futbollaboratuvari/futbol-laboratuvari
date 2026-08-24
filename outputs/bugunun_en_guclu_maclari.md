@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-24T21:38:39.145Z
+- Güncelleme: 2026-08-24T21:41:27.038Z
 - Ham maç sayısı: 9
 - Yarın bülteni maç sayısı: 9
 - Detay blok sayısı: 26
