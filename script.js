@@ -5,12 +5,19 @@ const analysisList = document.querySelector("#analysis-list");
 const strongestPickCard = document.querySelector("#strongest-pick-card");
 const resultArchive = document.querySelector("#result-archive");
 const successGrid = document.querySelector("#success-grid");
+const resultsDataStatus = document.querySelector("#results-data-status");
 const databaseBody = document.querySelector("#analysis-database-body");
 const fixturesList = document.querySelector("#fixtures-list");
 const fixtureTabs = [...document.querySelectorAll(".fixture-tab")];
 
+const RESULTS_SUMMARY_PATH = "./data/results-summary.json";
+const RESULTS_CACHE_KEY = "fl_results_performance_last_good_v2";
+const RESULTS_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
+
 let fixtures = [];
 let activeFixtureDay = "today";
+let hasRenderedResults = false;
+let renderedResultsTimestamp = 0;
 
 const escapeHtml = (value) =>
   String(value ?? "")
@@ -83,6 +90,29 @@ const readJson = async (path, fallback) => {
   } catch (error) {
     return fallback;
   }
+};
+
+const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+const resultsRequestPath = (path, attempt = 0) => {
+  const fiveMinuteBucket = Math.floor(Date.now() / (5 * 60 * 1000));
+  const separator = String(path).includes("?") ? "&" : "?";
+  return `${path}${separator}fl_data=${fiveMinuteBucket}-${attempt}`;
+};
+
+const readJsonWithRetry = async (path, attempts = 3, validate = null) => {
+  let lastError = null;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      const payload = await readJsonShared(resultsRequestPath(path, attempt), 0);
+      if (validate && !validate(payload)) throw new Error(`${path} şeması geçersiz`);
+      return payload;
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts - 1) await wait(300 * (attempt + 1));
+    }
+  }
+  throw lastError || new Error(`${path} yüklenemedi`);
 };
 
 const hasRealProSignals = (item) => {
@@ -261,6 +291,118 @@ const renderResultsAndPerformance = (payload) => {
   if (successGrid) successGrid.innerHTML = performanceCards(payload).map(performanceCard).join("");
 };
 
+const hasResultsPayload = (payload) => Boolean(
+  payload
+  && typeof payload === "object"
+  && payload.generated_at
+  && Array.isArray(payload.completed_items)
+  && payload.performance
+  && typeof payload.performance === "object",
+);
+
+const compactResultsPayload = (payload) => ({
+  generated_at: payload.generated_at,
+  date: payload.date || "",
+  timezone: payload.timezone || "Europe/Istanbul",
+  source: payload.source || "Doğrulanmış sonuç akışı",
+  completed_items: payload.completed_items.slice(0, 30),
+  performance: payload.performance,
+});
+
+const resultsTimestamp = (payload) => {
+  const value = Date.parse(payload?.generated_at || "");
+  return Number.isFinite(value) ? value : 0;
+};
+
+const resultsUpdatedLabel = (payload) => {
+  const timestamp = resultsTimestamp(payload);
+  if (!timestamp) return "Güncel doğrulanmış sonuçlar gösteriliyor.";
+  return `Son güncelleme: ${new Intl.DateTimeFormat("tr-TR", {
+    timeZone: "Europe/Istanbul",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(new Date(timestamp))}`;
+};
+
+const setResultsDataStatus = (message, state = "loading") => {
+  if (!resultsDataStatus) return;
+  resultsDataStatus.textContent = message;
+  resultsDataStatus.dataset.state = state;
+};
+
+const readCachedResults = () => {
+  try {
+    if (!window.localStorage) return null;
+    const cached = JSON.parse(window.localStorage.getItem(RESULTS_CACHE_KEY) || "null");
+    if (!cached || Date.now() - Number(cached.saved_at || 0) > RESULTS_CACHE_MAX_AGE) return null;
+    return hasResultsPayload(cached.payload) ? cached.payload : null;
+  } catch (error) {
+    return null;
+  }
+};
+
+const writeCachedResults = (payload) => {
+  try {
+    if (!window.localStorage) return;
+    window.localStorage.setItem(RESULTS_CACHE_KEY, JSON.stringify({
+      saved_at: Date.now(),
+      payload: compactResultsPayload(payload),
+    }));
+  } catch (error) {
+    // Depolama kapalıysa canlı veri yine normal biçimde gösterilir.
+  }
+};
+
+const applyResultsPayload = (payload, source = "network") => {
+  if (!hasResultsPayload(payload)) return false;
+  const compact = compactResultsPayload(payload);
+  const timestamp = resultsTimestamp(compact);
+  if (hasRenderedResults && timestamp && timestamp < renderedResultsTimestamp) return true;
+  renderResultsAndPerformance(compact);
+  hasRenderedResults = true;
+  renderedResultsTimestamp = Math.max(renderedResultsTimestamp, timestamp);
+  if (source === "network") {
+    writeCachedResults(compact);
+    setResultsDataStatus(resultsUpdatedLabel(compact), "current");
+  } else {
+    setResultsDataStatus("Bağlantı yenileniyor; son doğrulanmış kayıtlar gösteriliyor.", "cached");
+  }
+  return true;
+};
+
+const renderResultsLoadingState = () => {
+  if (resultArchive) {
+    resultArchive.innerHTML = `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuçlar yükleniyor</strong><span>Son doğrulanmış skorlar getiriliyor.</span></div></td></tr>`;
+  }
+  if (successGrid) {
+    successGrid.innerHTML = `<article class="success-card reveal visible" data-state="loading"><strong data-unit="">—</strong><span>Performans yükleniyor</span><small>Doğrulanmış ölçümler getiriliyor</small></article>`;
+  }
+  setResultsDataStatus("Doğrulanmış sonuçlar yükleniyor.", "loading");
+};
+
+const renderResultsUnavailableState = () => {
+  if (resultArchive) {
+    resultArchive.innerHTML = `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Sonuç verisi yenilenemedi</strong><span>Sıfır değer gösterilmedi; bağlantı düzeldiğinde kayıtlar otomatik olarak geri gelir.</span></div></td></tr>`;
+  }
+  if (successGrid) {
+    successGrid.innerHTML = `<article class="success-card reveal visible" data-state="waiting"><strong data-unit="">—</strong><span>Ölçüm korunuyor</span><small>Yanlış bir %0 değeri gösterilmiyor</small></article>`;
+  }
+  setResultsDataStatus("Veri bağlantısı geçici olarak yenilenemedi.", "error");
+};
+
+const loadResultsAndPerformance = async () => {
+  try {
+    const payload = await readJsonWithRetry(RESULTS_SUMMARY_PATH, 3, hasResultsPayload);
+    applyResultsPayload(payload, "network");
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
 const bulletinMatchCount = (payload) => {
   const directCount = Number(payload?.match_count ?? payload?.counts?.total ?? 0);
   if (Number.isFinite(directCount) && directCount > 0) return directCount;
@@ -309,7 +451,6 @@ const renderProAnalysisCenter = (payload, bulletinPayload = null) => {
   }
 
   setSummary(visibleItems, payload?.source || "PRO analiz bekleniyor", bulletinPayload);
-  renderResultsAndPerformance(payload);
 };
 
 const loadProAnalysisCenter = async () => {
@@ -326,6 +467,7 @@ const loadProAnalysisCenter = async () => {
     }),
   ]);
   renderProAnalysisCenter(payload, bulletinPayload);
+  applyResultsPayload(payload, "network");
 };
 
 const renderFixtures = () => {
@@ -365,7 +507,6 @@ const loadFixtures = async () => {
 const renderStaticEmptySections = () => {
   if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO analiz bekleniyor. Eski sabit/uydurma veriler gösterilmez.");
   if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Günün seçimi gerçek PRO analiz geldikten sonra otomatik üretilecek.");
-  renderResultsAndPerformance({ completed_items: [], performance: { prediction_count: 0, pending_count: 0, measured_count: 0 } });
   if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
   setSummary([], "PRO analiz bekleniyor");
 };
@@ -375,6 +516,8 @@ window.__flResultsPerformance = {
   performanceCards,
   performanceFromPayload,
   resultOutcome,
+  compactResultsPayload,
+  hasResultsPayload,
 };
 
 const setupObservers = () => {
@@ -398,9 +541,14 @@ const setupObservers = () => {
 
 const init = async () => {
   renderStaticEmptySections();
-  const tasks = [loadProAnalysisCenter()];
+  const cachedResults = readCachedResults();
+  if (cachedResults) applyResultsPayload(cachedResults, "cache");
+  else renderResultsLoadingState();
+
+  const tasks = [loadProAnalysisCenter(), loadResultsAndPerformance()];
   if (fixturesList) tasks.push(loadFixtures());
   await Promise.all(tasks);
+  if (!hasRenderedResults) renderResultsUnavailableState();
   setupObservers();
 };
 
