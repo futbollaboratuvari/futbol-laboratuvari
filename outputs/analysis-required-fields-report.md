@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 65
-Tam analiz: 59
+Toplam analiz: 63
+Tam analiz: 57
 Eksik analiz: 6
 
 - Young Africans VS Jkt Tanzania: eksik score, confidence
