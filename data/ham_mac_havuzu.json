@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T07:46:44.683Z",
+  "generated_at": "2026-08-24T08:08:45.421Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -1538,24 +1538,24 @@
       "source": "Maçkolik canlı robot",
       "suggested_option": "Değerli market yok",
       "suggested_odds": "-",
-      "confidence_score": "0%",
-      "trust_score": "0/100",
-      "analysis_score": 0,
+      "confidence_score": "20%",
+      "trust_score": "20/100",
+      "analysis_score": 20,
       "analysis_class": "Oynama",
       "value_label": "Normal Değer",
       "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
+      "data_gap_risk": "Orta",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
         "homeConcededLast10": null,
         "awayConcededLast10": null,
         "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
+        "over25Percent": 63,
+        "over35Percent": 45,
         "firstHalfGoalTrend": null,
         "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "leagueGoalAverage": 2.87,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -1589,8 +1589,8 @@
             "Hafıza: arşiv verisi henüz sınırlı"
           ]
         },
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
+        "homeScoredLast10Count": 5,
+        "awayScoredLast10Count": 5,
         "homeConcededLast10Count": null,
         "awayConcededLast10Count": null
       },
@@ -1599,9 +1599,12 @@
       "signals": [
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
+        "İki takım son 10 maçta en az 4 gol attı: +15",
+        "2.5 Üst yüzdesi %60 üzeri: +10",
+        "Lig gol ortalaması 2.70 üzeri: +10",
         "Hafıza: arşiv verisi henüz sınırlı",
         "Veri eksikliği var: -15",
-        "Veri eksikliği riski: Yüksek",
+        "Veri eksikliği riski: Orta",
         "100 puan analiz sınıfı: Oynama"
       ]
     },

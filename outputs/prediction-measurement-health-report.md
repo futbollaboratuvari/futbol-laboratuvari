@@ -1,6 +1,6 @@
 # Tahmin Olcum Saglik Kontrolu
 
-Durum: ok
+Durum: waiting
 Toplam tahmin: 850
 Olculen tahmin: 0
 Bekleyen tahmin: 850
@@ -10,4 +10,4 @@ Skoru olup pending kalan: 0
 Son finalizer kontrolu: 0
 Son finalizer guncelleme: 0
 
-Sonraki aksiyon: Agirlik degistirme asamasina gecilebilir.
+Sonraki aksiyon: Bekleyen tahminler icin dogrulanmis final skor bekleniyor.
