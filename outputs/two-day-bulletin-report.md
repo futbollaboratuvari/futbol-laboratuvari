@@ -3,16 +3,14 @@
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
 Ham mac: 134
-Aktif mac: 133
-Canli mac: 1
+Aktif mac: 131
+Canli mac: 3
 Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 124
+Bultenden dusurulen mac: 3
+Bugun: 122
 Yarin: 9
 
 ## Baslamamis Maclar
-- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | scheduled | -
-- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | scheduled | -
 - 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | scheduled | -
 - 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | scheduled | -
 - 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | scheduled | -
@@ -147,6 +145,8 @@ Yarin: 9
 
 ## Canli Maclar
 - 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | live | -
+- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | live | -
+- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | live | -
 
 ## Biten Maclar
 Biten mac yok.

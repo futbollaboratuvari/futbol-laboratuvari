@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 01:40:33
+Oluşturma: 25.08.2026 01:44:25
 
 ## Özet
 
-- Toplam tahmin: 1079
-- Bekleyen tahmin: 790
+- Toplam tahmin: 1080
+- Bekleyen tahmin: 791
 - Kazanan tahmin: 108
 - Kaybeden tahmin: 180
 - Lig sayısı: 169
@@ -21,7 +21,7 @@ Oluşturma: 25.08.2026 01:40:33
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 24, bekleyen 18, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 86, bekleyen 62, başarı %92, ağırlık 1.12
+- 2.5 Alt: toplam 87, bekleyen 63, başarı %92, ağırlık 1.12
 - MS 1: toplam 136, bekleyen 105, başarı %36, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 308, bekleyen 197, başarı %30, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 25.08.2026 01:40:33
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - Kilmarnock Ii | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Paraguay Kupa 3.Tur | General Caball - Rubio Nu | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Annan - Berwick | MS 1 | pending | 48/100
@@ -43,5 +44,4 @@ Oluşturma: 25.08.2026 01:40:33
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - Kilmarnock Ii | MS 2 | pending | 38/100
 - 2026-08-25 | Irak Premier Lig | Al Jawiya - Gaz Al-Shamal | MS 1 | pending | 49/100
 - 2026-08-25 | İngiltere Non League Premier Kuzey | Redcar Athleti - Afc Emley | MS 1 | pending | 44/100
-- 2026-08-25 | İngiltere Non League Premier Kuzey | Ashton United - Ilkeston Town | MS 1 | pending | 45/100
 
