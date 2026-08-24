@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 15:03:51
+Oluşturma: 24.08.2026 15:18:24
 
 ## Özet
 
@@ -32,16 +32,16 @@ Oluşturma: 24.08.2026 15:03:51
 - 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | MS 1 | pending | 44/100
 - 2026-08-24 | Arjantin Ulusal Primera Lig | Club Atletico - Rafaela | MS X | pending | 35/100
 - 2026-08-24 | Arjantin Premier Lig 2. Aşama | Racing Club - Boca Juniors | MS 2 | lost | 39/100
-- 2026-08-24 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | 2.5 Alt | won | 57/100
+- 2026-08-24 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | 2.5 Alt | won | 78/100
 - 2026-08-24 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | MS 1 | won | 43/100
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | 2.5 Üst | pending | 57/100
-- 2026-08-24 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | 2.5 Alt | won | 66/100
-- 2026-08-24 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | 2.5 Alt | won | 63/100
+- 2026-08-24 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | 2.5 Alt | won | 78/100
+- 2026-08-24 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | 2.5 Alt | won | 75/100
 - 2026-08-24 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | 2.5 Üst | won | 61/100
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | 2.5 Üst | pending | 57/100
-- 2026-08-24 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | 2.5 Alt | won | 70/100
-- 2026-08-24 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | 2.5 Alt | won | 70/100
-- 2026-08-24 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | 2.5 Alt | won | 70/100
-- 2026-08-24 | Bolivya Premier Lig | Guabira - Blooming | 2.5 Alt | won | 61/100
-- 2026-08-24 | Brezilya Serie A | Chapecoense - Sao Paulo | 2.5 Alt | won | 66/100
+- 2026-08-24 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | 2.5 Alt | won | 82/100
+- 2026-08-24 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | 2.5 Alt | won | 76/100
+- 2026-08-24 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | 2.5 Alt | won | 82/100
+- 2026-08-24 | Bolivya Premier Lig | Guabira - Blooming | 2.5 Alt | won | 72/100
+- 2026-08-24 | Brezilya Serie A | Chapecoense - Sao Paulo | 2.5 Alt | won | 78/100
 
