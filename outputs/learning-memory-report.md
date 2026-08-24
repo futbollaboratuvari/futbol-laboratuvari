@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 19:06:22
+Oluşturma: 24.08.2026 19:51:07
 
 ## Özet
 
@@ -30,8 +30,8 @@ Oluşturma: 24.08.2026 19:06:22
 ## Son Tahmin Kayıtları
 
 - 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | MS 1 | pending | 38/100
-- 2026-08-24 | İspanya 2.Lig | Celta Vigo Ii - Fc Andorra | 2.5 Alt | pending | 63/100
-- 2026-08-24 | Rusya Premier Lig | Baltika Kalini - Rubin Kazan | MS 1 | pending | 36/100
+- 2026-08-24 | İspanya 2.Lig | Celta Vigo Ii - Fc Andorra | 2.5 Alt | pending | 64/100
+- 2026-08-24 | Rusya Premier Lig | Baltika Kalini - Rubin Kazan | MS 1 | pending | 37/100
 - 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | 2.5 Alt | pending | 64/100
 - 2026-08-24 | İngiltere Premier Lig 2 | Newcastle (B) - Tottenham U21 | 2.5 Alt | pending | 63/100
 - 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | 2.5 Alt | pending | 63/100
