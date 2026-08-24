@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T15:10:19.578Z
+- Güncelleme: 2026-08-24T15:13:35.966Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -18,7 +18,7 @@
 | Lokomotiva Zvo VS Petrzalka | Slovakya 2.Lig | 18:00 | 2.5 Alt | 1.76 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Young Africans VS Jkt Tanzania | Tanzanya Kuu Bara Ligi | 18:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 1 | 1.58 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 1 | 1.55 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Transinvest Vi VS Fa Siauliai | Litvanya A Ligi | 18:45 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Würzburger Kic VS Köln | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Altglienicke VS Wolfsburg | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -49,9 +49,9 @@
 | Torpedo Zhodin VS Dnepr Mogilev | Belarus Premier Lig | 20:30 | MS 1 | 1.52 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al Ittihad (Ci VS Al Hazm | Suudi Arabistan Pro Lig | 21:00 | MS 1 | 1.32 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Utrecht (Ii) VS Heracles | Hollanda Eerste Divisie | 21:00 | MS 2 | 1.42 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Psv (B) VS Oss | Hollanda Eerste Divisie | 21:00 | MS 1 | 1.38 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Psv (B) VS Oss | Hollanda Eerste Divisie | 21:00 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Sunderland (B) VS Nottingham Fore | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Manchester Uni VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.57 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Manchester Uni VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.63 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Reading (B) VS Derby County U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.68 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.36 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Man City U21 VS Wolverhampton U | İngiltere Premier Lig 2 | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -78,7 +78,7 @@
 | Granada VS Mallorca | İspanya 2.Lig | 22:30 | 2.5 Alt | 1.40 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Tigre VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Sport Recife VS America Mineiro | Brezilya Serie B | 01:30 | 2.5 Alt | 1.56 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Athletic Club VS Novorizontino | Brezilya Serie B | 01:30 | MS 2 | 2.21 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Athletic Club VS Novorizontino | Brezilya Serie B | 01:30 | MS 2 | 2.10 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Botafogo VS Atletico Pr | Brezilya Serie A | 02:00 | 2.5 Alt | 1.65 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Ferro Carril O VS All Boys | Arjantin Ulusal Primera Lig | 02:00 | MS 1 | 1.46 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Charleston Bat VS Miami Fc | ABD USL | 02:00 | MS 1 | 1.29 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
