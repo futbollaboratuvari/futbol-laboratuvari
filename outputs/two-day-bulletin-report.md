@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
-Ham mac: 93
-Aktif mac: 83
-Canli mac: 10
-Biten mac: 0
-Bultenden dusurulen mac: 10
-Bugun: 73
+Ham mac: 105
+Aktif mac: 76
+Canli mac: 11
+Biten mac: 18
+Bultenden dusurulen mac: 29
+Bugun: 66
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 03:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Ad San Carlos | scheduled | -
-- 2026-08-24 03:00 | Guatemala Ulusal Lig Apertura | Marquense - Coban Imperial | scheduled | -
-- 2026-08-24 03:00 | Ekvador Pro Lig | Ldu Quito - Emelec | scheduled | -
-- 2026-08-24 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Boca Juniors | scheduled | -
-- 2026-08-24 04:00 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | scheduled | -
-- 2026-08-24 04:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | scheduled | -
-- 2026-08-24 04:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | scheduled | -
 - 2026-08-24 04:15 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | scheduled | -
 - 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 - 2026-08-24 15:15 | Malezya Süper Lig | Sabah - Imigresen | scheduled | -
@@ -96,16 +89,34 @@ Yarin: 10
 - 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | scheduled | -
 
 ## Canli Maclar
-- 2026-08-24 01:00 | Nikaragua Premier Lig Apertura | Rancho Santana - San Marcos | live | -
-- 2026-08-24 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Velez Sarsfield | live | -
-- 2026-08-24 01:30 | Brezilya Serie A | Coritiba - Corinthians | live | -
-- 2026-08-24 02:00 | ABD MLS | Atlanta Utd - Kansas | live | -
-- 2026-08-24 02:00 | Meksika Liga MX Apertura | Atletico San L - Pachuca | live | -
-- 2026-08-24 02:00 | Şili Premier Lig | O Higgins - Palestino | live | -
 - 2026-08-24 02:10 | Kolombiya Primera A Clausura | Deportivo Cali - Inter Bogota | live | -
 - 2026-08-24 02:15 | Honduras Ulusal Lig Apertura | Olancho - Depor. Olimpia | live | -
 - 2026-08-24 02:30 | Peru Premier Lig Clausura | Universitario - Chankas Cyc | live | -
 - 2026-08-24 02:30 | El Salvador Primera Lig Apertura | Firpo - Platense | live | -
+- 2026-08-24 03:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Ad San Carlos | live | -
+- 2026-08-24 03:00 | Guatemala Ulusal Lig Apertura | Marquense - Coban Imperial | live | -
+- 2026-08-24 03:00 | Ekvador Pro Lig | Ldu Quito - Emelec | live | -
+- 2026-08-24 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Boca Juniors | live | -
+- 2026-08-24 04:00 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | live | -
+- 2026-08-24 04:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | live | -
+- 2026-08-24 04:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-24 00:00 | Brezilya Serie B | Operario - Vila Nova | finished | -
+- 2026-08-24 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Deportivo Sapri | finished | -
+- 2026-08-24 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | finished | -
+- 2026-08-24 00:00 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | finished | -
+- 2026-08-24 00:00 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | finished | -
+- 2026-08-24 00:00 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | finished | -
+- 2026-08-24 00:05 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | finished | -
+- 2026-08-24 00:15 | Bolivya Premier Lig | Guabira - Blooming | finished | -
+- 2026-08-24 00:30 | Brezilya Serie A | Chapecoense - Sao Paulo | finished | -
+- 2026-08-24 00:30 | Brezilya Serie A | Santos - Mirassol | finished | -
+- 2026-08-24 00:30 | Brezilya Serie B | Criciuma - Fortaleza Ce | finished | -
+- 2026-08-24 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Progreso | finished | -
+- 2026-08-24 01:00 | Nikaragua Premier Lig Apertura | Rancho Santana - San Marcos | finished | -
+- 2026-08-24 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Velez Sarsfield | finished | -
+- 2026-08-24 01:30 | Brezilya Serie A | Coritiba - Corinthians | finished | -
+- 2026-08-24 02:00 | ABD MLS | Atlanta Utd - Kansas | finished | -
+- 2026-08-24 02:00 | Meksika Liga MX Apertura | Atletico San L - Pachuca | finished | -
+- 2026-08-24 02:00 | Şili Premier Lig | O Higgins - Palestino | finished | -
