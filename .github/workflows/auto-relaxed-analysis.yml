@@ -40,9 +40,13 @@ jobs:
       - name: Finalize verified weekly Spor Toto before commit
         run: |
           node scripts/sync-spor-toto-weekly-program.js || true
+          node scripts/build-spor-toto-archive-analysis.js
+          node scripts/enrich-spor-toto-weekly-api.js || true
           node scripts/rebuild-spor-toto-bulletin.js
+          node scripts/apply-spor-toto-archive-analysis.js
           node scripts/apply-spor-toto-weekly-market.js
           node scripts/finalize-spor-toto-pro.js
+          node tests/spor-toto-archive.test.js
           node tests/spor-toto-market.test.js
           node tests/spor-toto-weekly.test.js
 
@@ -99,7 +103,7 @@ jobs:
           fi
           git commit -m "Auto live data and robot analysis update"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
