@@ -1,24 +1,28 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-24T16:50:57.504163+00:00
+Tarih: 2026-08-24T16:58:08.184573+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 43
+- Kac mac bulundu: 52
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 43
+- Kac mac zaten vardi: 52
 - Ham veri havuzu toplam mac sayisi: 8933
 - Hedef tarih: 24.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Almanya DFB Kupası 1.Tur
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belarus Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
+- Ekvador Pro Lig
 - Fransa Ligue 2
 - Hollanda Eerste Divisie
 - Polonya 1.Lig
@@ -44,6 +48,7 @@ Tarih: 2026-08-24T16:50:57.504163+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -131,9 +136,9 @@ Tarih: 2026-08-24T16:50:57.504163+00:00
 | 24.08.2026 | 20:00 | Danimarka Süperlig | Brondby | Silkeborg | 22941 | 5 |
 | 24.08.2026 | 20:00 | İsveç Allsvenskan | Malmö | Djurgarden | 33572 | 5 |
 | 24.08.2026 | 20:30 | Rusya Premier Lig | Baltika Kalini | Rubin Kazan | 41684 | 5 |
-| 24.08.2026 | 22:15 | Portekiz 2.Lig | Feirense | Porto (B) | 41558 | 5 |
-| 24.08.2026 | 20:00 | Portekiz 2.Lig | Farense | Felgueiras 1932 | 41497 | 5 |
-| 24.08.2026 | 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov | Arda Kardzhali | 44909 | 5 |
+| 25.08.2026 | 02:00 | Brezilya Serie A | Botafogo | Atletico Pr | 42657 | 5 |
+| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Lanus | Argentinos Jr | 33503 | 5 |
+| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Talleres | Rosario Central | 33614 | 5 |
 
 ## Sonuc
 

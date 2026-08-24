@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 53
 - Live match count: 20
-- Finished removed count: 2
+- Finished removed count: 0
 - Date window: 2026-08-24 / 2026-08-25 23:59
 
 - 2026-08-24 18:00 | Tractor Fc - Persepolis | live
