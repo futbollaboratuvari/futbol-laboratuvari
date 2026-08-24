@@ -19,6 +19,25 @@ const writeJson = (file, value) => {
 const clean = (value) => String(value || "").toLocaleLowerCase("tr-TR").replace(/ı/g, "i").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
 const keyOf = (row) => `${String(row.date || "").slice(0, 10)}|${clean(row.home)}|${clean(row.away)}`;
 const ranked = (probabilities) => [...OPTIONS].sort((a, b) => Number(probabilities?.[b] || 0) - Number(probabilities?.[a] || 0));
+const normalizeProfile = (profile) => {
+  const source = profile && typeof profile === "object" ? profile : {};
+  const sample = Number(source.sample ?? source.count ?? 0);
+  return {
+    ...source,
+    sample,
+    count: sample,
+    wins: Number(source.wins || 0),
+    draws: Number(source.draws || 0),
+    losses: Number(source.losses || 0),
+    ppg: Number(source.ppg ?? source.pointsPerGame ?? 0),
+    pointsPerGame: Number(source.pointsPerGame ?? source.ppg ?? 0),
+    goals_for_avg: Number(source.goals_for_avg ?? source.goalsForAvg ?? 0),
+    goals_against_avg: Number(source.goals_against_avg ?? source.goalsAgainstAvg ?? 0),
+    goalsForAvg: Number(source.goalsForAvg ?? source.goals_for_avg ?? 0),
+    goalsAgainstAvg: Number(source.goalsAgainstAvg ?? source.goals_against_avg ?? 0),
+    recent: Array.isArray(source.recent) ? source.recent.slice(-5) : [],
+  };
+};
 
 function applyOne(match, archiveRow) {
   if (!archiveRow?.probabilities) return match;
@@ -30,6 +49,8 @@ function applyOne(match, archiveRow) {
   const topP = Number(probabilities[top]); const secondP = Number(probabilities[second]);
   const gap = Number((topP - secondP).toFixed(1));
   const archiveBacked = Boolean(archiveRow.archive_ready);
+  const homeForm = normalizeProfile(archiveRow.form?.home);
+  const awayForm = normalizeProfile(archiveRow.form?.away);
   let classification;
   let risk;
   if (!archiveBacked) {
@@ -46,7 +67,7 @@ function applyOne(match, archiveRow) {
     risk = "Orta";
   }
   const reasons = archiveBacked ? [
-    `Gerçek sonuç arşivi: ev ${archiveRow.form?.home?.count || 0}, deplasman ${archiveRow.form?.away?.count || 0} maç örneği kullanıldı.`,
+    `Gerçek sonuç arşivi: ev ${homeForm.sample}, deplasman ${awayForm.sample} maç örneği kullanıldı.`,
     `Poisson/form modeli ile haftalık oynanma dağılımı birlikte değerlendirildi; ${top} seçeneği %${topP.toFixed(1)} ile önde.`,
     Number.isFinite(Number(archiveRow.agreement_score)) ? `Arşiv modeli ile oynanma dağılımı uyumu %${Number(archiveRow.agreement_score).toFixed(1)}.` : "Arşiv ve dağılım birlikte değerlendirildi.",
   ] : [
@@ -74,8 +95,8 @@ function applyOne(match, archiveRow) {
     independent_evidence: archiveBacked,
     evidence_mode: archiveBacked ? "archive_poisson_plus_public_distribution" : "cross_verified_public_distribution",
     reasons,
-    form: archiveRow.form || match.form,
-    h2h: archiveRow.h2h || match.h2h || [],
+    form: { home: homeForm, away: awayForm },
+    h2h: Array.isArray(archiveRow.h2h) ? archiveRow.h2h : (match.h2h || []),
     archive_analysis: {
       ready: archiveBacked,
       generated_from_real_results: archiveBacked,
@@ -122,4 +143,4 @@ function run() {
 }
 
 if (require.main === module) run();
-module.exports = { run, applyOne };
+module.exports = { run, applyOne, normalizeProfile };
