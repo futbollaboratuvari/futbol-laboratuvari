@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 09:07:08
+Oluşturma: 24.08.2026 09:26:46
 
 ## Özet
 
-- Toplam tahmin: 848
-- Bekleyen tahmin: 848
+- Toplam tahmin: 849
+- Bekleyen tahmin: 849
 - Kazanan tahmin: 0
 - Kaybeden tahmin: 0
 - Lig sayısı: 150
@@ -20,13 +20,14 @@ Oluşturma: 24.08.2026 09:07:08
 
 ## En Güçlü Seçenek Hafızası
 
+- MS 2: toplam 271, bekleyen 271, başarı bekleniyor, ağırlık 1
 - MS 1: toplam 56, bekleyen 56, başarı bekleniyor, ağırlık 1
 - MS X: toplam 363, bekleyen 363, başarı bekleniyor, ağırlık 1
-- MS 2: toplam 270, bekleyen 270, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 159, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | Türkiye TFF 1. Lig | Sivasspor - Manisa Futbol K | MS 2 | pending | 50/100
 - 2026-08-24 | Suudi Arabistan Pro Lig | Neom Sc - Al-Qadsiah | MS 1 | pending | 45/100
 - 2026-08-24 | İspanya 2.Lig | Celta Vigo Ii - Fc Andorra | MS X | pending | 50/100
 - 2026-08-24 | Danimarka Süperlig | Brondby - Silkeborg | MS 2 | pending | 85/100
@@ -41,5 +42,4 @@ Oluşturma: 24.08.2026 09:07:08
 - 2026-08-24 | Hollanda Eerste Divisie | Utrecht (Ii) - Heracles | MS 1 | pending | 55/100
 - 2026-08-24 | Hollanda Eerste Divisie | Psv (B) - Oss | MS 2 | pending | 70/100
 - 2026-08-24 | Türkiye Süper Lig | Kocaelispor - Amed Sk | MS X | pending | 40/100
-- 2026-08-24 | İtalya Serie A | Roma - Fiorentina | MS 2 | pending | 50/100
 
