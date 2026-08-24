@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 66
-- Live match count: 9
+- Scheduled match count: 57
+- Live match count: 18
 - Finished removed count: 0
 - Date window: 2026-08-24 / 2026-08-25 23:59
 
@@ -16,4 +16,4 @@
 - 2026-08-24 18:30 | Botosani - Csikszereda | live
 - 2026-08-24 18:30 | Rotor Volgogra - Neftekhimik | live
 - 2026-08-24 18:45 | Transinvest Vi - Fa Siauliai | live
-- 2026-08-24 19:00 | Altglienicke - Wolfsburg | scheduled
+- 2026-08-24 19:00 | Altglienicke - Wolfsburg | live
