@@ -93,27 +93,12 @@ try {
   console.warn(`PRO analiz indeksi atlandi: ${error.message}`);
 }
 
-const sportArchivePath = path.join(root, "data", "robot_match_archive.json");
-const sportBulletinPath = path.join(root, "data", "spor_toto_bulteni.json");
-const sportArchiveAvailable = fs.existsSync(sportArchivePath);
-let committedSportTotoIsV2 = false;
-try {
-  const currentSportToto = JSON.parse(fs.readFileSync(sportBulletinPath, "utf8"));
-  committedSportTotoIsV2 = String(currentSportToto?.engine_version || "").startsWith("spor-toto-pro-v2")
-    && Array.isArray(currentSportToto?.matches);
-} catch {}
-
-try {
-  if (sportArchiveAvailable || !committedSportTotoIsV2) {
-    require("./rebuild-spor-toto-bulletin").run();
-    require("./enhance-spor-toto-pro").run();
-  } else {
-    console.log("Spor Toto PRO v2 committed data preserved; full archive is not present in Vercel source.");
-  }
-} catch (error) {
-  if (!committedSportTotoIsV2) throw error;
-  console.warn(`Spor Toto PRO rebuild atlandi; doğrulanmış v2 çıktı korunuyor: ${error.message}`);
-}
+// Vercel build ağdan haftalık program aramaz. GitHub'da iki bağımsız kaynaktan
+// doğrulanmış ve repoya kaydedilmiş son sağlam 15 maçlık programı kullanır.
+// Böylece dış kaynak geçici kapanırsa production günlük rastgele 15 maça düşmez.
+require("./rebuild-spor-toto-bulletin").run();
+require("./finalize-spor-toto-pro").run();
+require("../tests/spor-toto-weekly.test");
 
 fs.rmSync(outDir, { recursive: true, force: true });
 fs.mkdirSync(outDir, { recursive: true });
