@@ -1,5 +1,16 @@
 # State
 
+2026-08-24
+
+Main focus: sonuç arşivi ve performans alanlarının mobil/ağ kesintilerine dayanıklı yüklenmesi.
+
+Current results state:
+- Ana sayfa sonuç ve performans için 30 kayıtlık `data/results-summary.json` dosyasını öncelikli okur; büyük analiz dosyası yedek kaynak olarak korunur.
+- Sonuç özeti üç kez denenir ve beş dakikalık veri sürüm anahtarıyla eski CDN kaydına takılmaz.
+- Son geçerli doğrulanmış sonuç özeti tarayıcıda yedi gün korunur; geçici ağ hatasında yanlış `%0` veya boş tablo yerine bu kayıt gösterilir.
+- İlk açılış HTML'i boş alan yerine açık bir yükleniyor durumu taşır.
+- Futbol Bülteni, Kuponum, Analiz Et, üyelik, ödeme, workflow ve veri ayrımı değiştirilmedi.
+
 2026-08-23
 
 Main focus: ana sayfa açılış performansı ve Özel Analiz V3 sürekliliği.

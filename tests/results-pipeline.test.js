@@ -13,7 +13,7 @@ const {
 const { buildScoreIndexFromRows, findScore } = require("../scripts/learning-score-linker");
 const { settle } = require("../scripts/learning-finalizer");
 const { mergePrediction } = require("../scripts/robot-learning-memory");
-const { buildCompletedItems, buildPerformance } = require("../scripts/sync-analysis-results");
+const { buildCompletedItems, buildPerformance, buildResultsSummary } = require("../scripts/sync-analysis-results");
 
 const test = (name, fn) => {
   try {
@@ -131,6 +131,27 @@ test("sonuç arşivi ve performans yalnızca doğrulanmış kayıtlardan üretil
   assert.equal(performance.pending_count, 1);
   assert.equal(performance.success_rate, 50);
   assert.equal(performance.groups[0].label, "Maç Sonucu");
+});
+
+test("ana sayfa için küçük sonuç özeti yalnız gerekli alanları taşır", () => {
+  const completedItems = Array.from({ length: 40 }, (_, index) => ({
+    id: `result-${index}`,
+    date: "2026-08-24",
+    match: `Takım ${index} - Rakip ${index}`,
+    status: index % 2 ? "won" : "lost",
+  }));
+  const summary = buildResultsSummary({
+    generated_at: "2026-08-24T09:00:00.000Z",
+    date: "2026-08-24",
+    timezone: "Europe/Istanbul",
+    source: "Test sonuç akışı",
+    active_items: Array.from({ length: 100 }, () => ({ large: true })),
+    completed_items: completedItems,
+    performance: { measured_count: 40, won_count: 20, lost_count: 20, success_rate: 50 },
+  });
+  assert.equal(summary.completed_items.length, 30);
+  assert.equal(summary.performance.success_rate, 50);
+  assert.equal("active_items" in summary, false);
 });
 
 process.stdout.write("Sonuç ve performans zinciri testleri tamamlandı.\n");

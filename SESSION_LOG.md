@@ -143,3 +143,16 @@ Summary:
 - Added performance regression tests covering shared requests, skipped 4.9 MB admin data and removal of obsolete startup chains.
 - JavaScript syntax checks, Özel Analiz tests, performance tests and local/remote asset-reference validation passed.
 - Did not change any bulletin JSON, workflow, CNAME/DNS, bank endpoint or payment configuration.
+
+2026-08-24
+
+Results and performance resilience repair completed.
+
+Summary:
+- Diagnosed the empty mobile sections: the page rendered an empty fallback before asynchronously downloading `data/analiz_sonuclari.json`; request failure or delay was silently converted into empty arrays and zero measurements.
+- Added a generated `data/results-summary.json` containing only the latest 30 completed records and performance totals, reducing the primary results payload from about 634 KB to about 20 KB.
+- Added three request attempts with a five-minute data version, a seven-day last-known-good public results cache and a full analysis payload fallback.
+- Replaced initial empty/zero UI with explicit loading and unavailable states; a transport failure no longer appears as genuine 0% performance.
+- Added regression coverage for summary failure, full-payload fallback, offline cached fallback, compact output size and summary schema.
+- JavaScript syntax, performance loading, results pipeline and Özel Analiz V3 tests passed.
+- Did not change daily-matches-widget.js, bulletin JSON files, Kuponum, Analiz Et, workflows, CNAME/DNS, membership or payment logic.

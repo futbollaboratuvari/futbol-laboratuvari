@@ -93,10 +93,95 @@ async function testHomepageSkipsAdminPayloads() {
   assert.equal(calls.some((url) => url.includes("live-matches.json")), true);
 }
 
+async function testResultsFallbackAndLastGoodCache() {
+  const resultArchive = { innerHTML: "" };
+  const successGrid = { innerHTML: "" };
+  const resultsStatus = { textContent: "", dataset: {} };
+  const nodes = {
+    "#result-archive": resultArchive,
+    "#success-grid": successGrid,
+    "#results-data-status": resultsStatus,
+  };
+  const stored = new Map();
+  const localStorage = {
+    getItem: (key) => stored.get(key) || null,
+    setItem: (key, value) => stored.set(key, value),
+  };
+  const payload = {
+    generated_at: "2026-08-24T09:00:00.000Z",
+    date: "2026-08-24",
+    completed_items: [{ date: "2026-08-24", match: "A - B", prediction: "MS 1", odds: "1.80", result_score: "2-0", confidence: "75%", status: "won" }],
+    performance: { prediction_count: 10, pending_count: 2, measured_count: 8, won_count: 6, lost_count: 2, success_rate: 75 },
+  };
+  const document = {
+    querySelector: (selector) => nodes[selector] || null,
+    querySelectorAll: () => [],
+  };
+  const window = { location: { href: "https://futbollaboratuuvari.org/" }, localStorage };
+  const fetch = async (url) => {
+    if (String(url).includes("results-summary.json")) throw new Error("Özet bağlantısı geçici olarak kesildi");
+    if (String(url).includes("analiz_sonuclari.json")) return { ok: true, status: 200, json: async () => payload };
+    return { ok: true, status: 200, json: async () => ({ matches: [], match_count: 0 }) };
+  };
+  const immediateTimeout = (fn) => { fn(); return 0; };
+
+  vm.runInNewContext(read("script.js"), {
+    window,
+    document,
+    fetch,
+    URL,
+    Intl,
+    Date,
+    Map,
+    Promise,
+    setTimeout: immediateTimeout,
+    clearTimeout: () => {},
+  });
+  await waitForTasks();
+
+  assert.match(resultArchive.innerHTML, /A - B/);
+  assert.match(successGrid.innerHTML, />75</);
+  assert.equal(resultsStatus.dataset.state, "current");
+  assert.ok([...stored.keys()].some((key) => key.includes("last_good")));
+
+  const cachedResultArchive = { innerHTML: "" };
+  const cachedSuccessGrid = { innerHTML: "" };
+  const cachedStatus = { textContent: "", dataset: {} };
+  const cachedDocument = {
+    querySelector: (selector) => ({
+      "#result-archive": cachedResultArchive,
+      "#success-grid": cachedSuccessGrid,
+      "#results-data-status": cachedStatus,
+    })[selector] || null,
+    querySelectorAll: () => [],
+  };
+  const cachedWindow = { location: { href: "https://futbollaboratuuvari.org/" }, localStorage };
+  vm.runInNewContext(read("script.js"), {
+    window: cachedWindow,
+    document: cachedDocument,
+    fetch: async () => { throw new Error("Tüm ağ bağlantısı kesildi"); },
+    URL,
+    Intl,
+    Date,
+    Map,
+    Promise,
+    setTimeout: immediateTimeout,
+    clearTimeout: () => {},
+  });
+  await waitForTasks();
+
+  assert.match(cachedResultArchive.innerHTML, /A - B/);
+  assert.match(cachedSuccessGrid.innerHTML, />75</);
+  assert.equal(cachedStatus.dataset.state, "cached");
+}
+
 function testLegacyStartupChainRemoved() {
   const cacheVersion = read("cache-version.js");
   const navigation = read("nav-routing.js");
   const dailyWidget = read("daily-matches-widget.js");
+  const homepage = read("index.html");
+  const resultsSummaryText = read("data/results-summary.json");
+  const resultsSummary = JSON.parse(resultsSummaryText);
 
   [
     "robot-analysis.json",
@@ -112,6 +197,11 @@ function testLegacyStartupChainRemoved() {
 
   assert.match(dailyWidget, /const twoDayRes = fullHasMatches[\s\S]*skipped: true/);
   assert.match(dailyWidget, /__flPremiumBulletinMatches = app\.bulletin/);
+  assert.match(homepage, /id="results-data-status"[\s\S]*Doğrulanmış sonuçlar yükleniyor/);
+  assert.match(homepage, /id="result-archive"[\s\S]*Sonuçlar yükleniyor/);
+  assert.match(homepage, /id="success-grid"[\s\S]*Performans yükleniyor/);
+  assert.ok(Buffer.byteLength(resultsSummaryText, "utf8") < 50 * 1024, "sonuç özeti 50 KB altında kalmalı");
+  assert.equal(resultsSummary.completed_items.length <= 30, true);
 }
 
 (async () => {
@@ -119,6 +209,8 @@ function testLegacyStartupChainRemoved() {
   console.log("✓ aynı JSON isteği başlangıçta tek ağ çağrısında birleşir");
   await testHomepageSkipsAdminPayloads();
   console.log("✓ ana sayfa yönetim ve 4,9 MB robot yüklerini indirmez");
+  await testResultsFallbackAndLastGoodCache();
+  console.log("✓ küçük sonuç özeti kesilse bile büyük veri ve son geçerli kayıtlar alanları dolu tutar");
   testLegacyStartupChainRemoved();
   console.log("✓ eski panel zinciri kaldırıldı ve bülten geri dönüşü koşullu çalışır");
   console.log("Performans yükleme testleri tamamlandı.");

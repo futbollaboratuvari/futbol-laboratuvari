@@ -6,9 +6,11 @@ const dataDir = path.join(root, 'data');
 const robotAnalysisFile = path.join(dataDir, 'robot-analysis.json');
 const liveMatchesFile = path.join(dataDir, 'live-matches.json');
 const analysisResultsFile = path.join(dataDir, 'analiz_sonuclari.json');
+const resultsSummaryFile = path.join(dataDir, 'results-summary.json');
 const focusFile = path.join(dataDir, 'focused_markets.json');
 const learningMemoryFile = path.join(dataDir, 'learning-memory.json');
 const MAX_COMPLETED_ITEMS = 250;
+const MAX_RESULT_SUMMARY_ITEMS = 30;
 
 function readJson(file, fallback) {
   try {
@@ -182,6 +184,27 @@ function buildPerformance(memory) {
   };
 }
 
+function buildResultsSummary(payload) {
+  return {
+    generated_at: payload.generated_at,
+    date: payload.date,
+    timezone: payload.timezone || 'Europe/Istanbul',
+    source: payload.source || 'Doğrulanmış sonuç akışı',
+    completed_items: (Array.isArray(payload.completed_items) ? payload.completed_items : [])
+      .slice(0, MAX_RESULT_SUMMARY_ITEMS),
+    performance: payload.performance || {
+      prediction_count: 0,
+      measured_count: 0,
+      pending_count: 0,
+      won_count: 0,
+      lost_count: 0,
+      void_count: 0,
+      success_rate: null,
+      groups: [],
+    },
+  };
+}
+
 function main() {
   const today = todayKey();
   const robotAnalysis = readJson(robotAnalysisFile, { matches: [], summary: {} });
@@ -226,9 +249,10 @@ function main() {
   };
 
   writeJson(analysisResultsFile, payload);
+  writeJson(resultsSummaryFile, buildResultsSummary(payload));
   console.log(`analiz_sonuclari.json synced. Active: ${activeItems.length}. Coupon: ${couponCandidates}. Watch: ${watchCandidates}.`);
 }
 
 if (require.main === module) main();
 
-module.exports = { buildCompletedItems, buildPerformance, main, marketGroup, outcomeStatus, toCompletedItem };
+module.exports = { buildCompletedItems, buildPerformance, buildResultsSummary, main, marketGroup, outcomeStatus, toCompletedItem };
