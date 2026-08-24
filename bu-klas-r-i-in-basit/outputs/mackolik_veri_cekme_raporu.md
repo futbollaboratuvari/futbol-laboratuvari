@@ -1,30 +1,25 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-24T05:23:29.471960+00:00
+Tarih: 2026-08-24T05:52:03.760165+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 74
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 74
-- Ham veri havuzu toplam mac sayisi: 8931
+- Kac mac bulundu: 65
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 64
+- Ham veri havuzu toplam mac sayisi: 8932
 - Hedef tarih: 24.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- ABD USL
 - Almanya DFB Kupası 1.Tur
 - Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belarus Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
 - Fransa Ligue 2
 - Hollanda Eerste Divisie
 - Litvanya A Ligi
@@ -40,6 +35,7 @@ Tarih: 2026-08-24T05:23:29.471960+00:00
 - Suudi Arabistan Pro Lig
 - Tanzanya Kuu Bara Ligi
 - Türkiye Süper Lig
+- Türkiye TFF 1. Lig
 - İngiltere Premier Lig
 - İngiltere Premier Lig 2
 - İran Persian Gulf Pro Lig
@@ -53,7 +49,6 @@ Tarih: 2026-08-24T05:23:29.471960+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -110,8 +105,8 @@ Tarih: 2026-08-24T05:23:29.471960+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 41
-- Acilan detay: 41
+- Denenen Tumu alani: 42
+- Acilan detay: 42
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -125,15 +120,16 @@ Tarih: 2026-08-24T05:23:29.471960+00:00
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
 | 24.08.2026 | 21:30 | Türkiye Süper Lig | Kocaelispor | Amed Sk | 00407 | 5 |
+| 24.08.2026 | 21:30 | Türkiye TFF 1. Lig | Sivasspor | Manisa Futbol K | 00454 | 5 |
 | 24.08.2026 | 22:00 | İngiltere Premier Lig | Fulham | Chelsea | 37948 | 5 |
 | 24.08.2026 | 22:30 | İspanya LaLiga | Malaga | D.La Coruna | 39234 | 5 |
 | 24.08.2026 | 20:30 | İspanya LaLiga | Osasuna | Levante | 38974 | 5 |
-| 24.08.2026 | 21:45 | İtalya Serie A | Roma | Fiorentina | 31331 | 5 |
 | 24.08.2026 | 19:30 | İtalya Serie A | Bologna | Lazio | 31157 | 5 |
-| 24.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Würzburger Kic | Köln | 28474 | 5 |
-| 24.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Altglienicke | Wolfsburg | 28408 | 4 |
-| 24.08.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hallescher | Schalke | 28507 | 5 |
+| 24.08.2026 | 21:45 | İtalya Serie A | Roma | Fiorentina | 31331 | 5 |
 | 24.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Verl 1924 | Hamburg | 28441 | 5 |
+| 24.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Altglienicke | Wolfsburg | 28408 | 4 |
+| 24.08.2026 | 19:00 | Almanya DFB Kupası 1.Tur | Würzburger Kic | Köln | 28474 | 5 |
+| 24.08.2026 | 21:45 | Almanya DFB Kupası 1.Tur | Hallescher | Schalke | 28507 | 5 |
 | 24.08.2026 | 22:15 | Portekiz Premier Lig | Gil Vicente | Casa Pia | 41593 | 5 |
 | 24.08.2026 | 19:40 | Suudi Arabistan Pro Lig | Neom Sc | Al-Qadsiah | 03666 | 5 |
 | 24.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Hazm | 13233 | 5 |
@@ -143,7 +139,6 @@ Tarih: 2026-08-24T05:23:29.471960+00:00
 | 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Heracles | 24244 | 5 |
 | 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Oss | 24157 | 5 |
 | 24.08.2026 | 20:00 | Danimarka Süperlig | Brondby | Silkeborg | 22941 | 5 |
-| 24.08.2026 | 20:00 | İsveç Allsvenskan | Malmö | Djurgarden | 33572 | 5 |
 
 ## Sonuc
 
