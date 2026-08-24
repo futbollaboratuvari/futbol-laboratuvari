@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
-Ham mac: 39
+Ham mac: 31
 Aktif mac: 10
-Canli mac: 29
+Canli mac: 21
 Biten mac: 0
-Bultenden dusurulen mac: 29
+Bultenden dusurulen mac: 21
 Bugun: 0
 Yarin: 10
 
@@ -23,14 +23,6 @@ Yarin: 10
 - 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | scheduled | -
 
 ## Canli Maclar
-- 2026-08-24 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Hazm | live | -
-- 2026-08-24 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) - Heracles | live | -
-- 2026-08-24 21:00 | Hollanda Eerste Divisie | Psv (B) - Oss | live | -
-- 2026-08-24 21:00 | İngiltere Premier Lig 2 | Sunderland (B) - Nottingham Fore | live | -
-- 2026-08-24 21:00 | İngiltere Premier Lig 2 | Manchester Uni - Ipswich Town U2 | live | -
-- 2026-08-24 21:00 | İngiltere Premier Lig 2 | Reading (B) - Derby County U2 | live | -
-- 2026-08-24 21:00 | İngiltere Premier Lig 2 | Newcastle (B) - Tottenham U21 | live | -
-- 2026-08-24 21:00 | İngiltere Premier Lig 2 | Man City U21 - Wolverhampton U | live | -
 - 2026-08-24 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov - Arda Kardzhali | live | -
 - 2026-08-24 21:30 | Türkiye Süper Lig | Kocaelispor - Amed Sk | live | -
 - 2026-08-24 21:30 | İtalya Serie C Grup B | Livorno - Sassari Torres | live | -
