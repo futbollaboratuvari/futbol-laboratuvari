@@ -1,23 +1,34 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-24T21:41:27.038Z
-- Ham maç sayısı: 9
-- Yarın bülteni maç sayısı: 9
-- Detay blok sayısı: 26
-- Aktif bülten maçı: 9
-- Bültenden düşürülen maç: 0
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-08-24T21:43:45.602Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Deportivo Madr - Godoy Cruz | Arjantin Ulusal Primera Lig | 01:00 | Veri bekleniyor | - | 2.13 | 6 |
-| Atletico Goian - Botafogo Ribeir | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 1.86 | 8 |
-| Juventude - Regatas | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 1.79 | 8 |
-| Universitario - Nacional Potosi | Bolivya Premier Lig | 02:00 | Veri bekleniyor | - | 2.3 | 8 |
-| Cruzeiro - Atletico Mg | Brezilya Kupa Çeyrek Final | 03:00 | Veri bekleniyor | - | 1.72 | 8 |
-| Monterrey - Chicago | CONCACAF Ligler Kupası Çeyrek Final | 03:30 | Veri bekleniyor | - | 2.62 | 8 |
-| Indep. Jose Te (1) - (0) Deportes Tolima | Copa Libertadores Son 16 Turu | 03:30 | Veri bekleniyor | - | 1.38 | 7 |
-| Depor Cucuta - Alianza Petrole | Kolombiya Primera A Clausura | 04:00 | Veri bekleniyor | - | 1.96 | 8 |
-| Club Leon - Salt Lake | CONCACAF Ligler Kupası Çeyrek Final | 05:30 | Veri bekleniyor | - | 2.56 | 8 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Deportivo Madr VS Godoy Cruz | Arjantin Ulusal Primera Lig | 01:00 | MS 1 | 2.13 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Atletico Goian VS Botafogo Ribeir | Brezilya Serie B | 01:30 | MS 1 | 1.86 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Juventude VS Regatas | Brezilya Serie B | 01:30 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Universitario VS Nacional Potosi | Bolivya Premier Lig | 02:00 | MS 2 | 2.16 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Cruzeiro VS Atletico Mg | Brezilya Kupa Çeyrek Final | 03:00 | 2.5 Alt | 1.47 | 57 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Monterrey VS Chicago | CONCACAF Ligler Kupası Çeyrek Final | 03:30 | MS 2 | 1.93 | 43 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Indep. Jose Te (1) VS (0) Deportes Tolima | Copa Libertadores Son 16 Turu | 03:30 | MS 1 | 1.38 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Depor Cucuta VS Alianza Petrole | Kolombiya Primera A Clausura | 04:00 | 2.5 Alt | 1.39 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Club Leon VS Salt Lake | CONCACAF Ligler Kupası Çeyrek Final | 05:30 | 2.5 Alt | 1.89 | 45 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
