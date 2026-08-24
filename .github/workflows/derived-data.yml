@@ -39,6 +39,7 @@ jobs:
         run: |
           node scripts/profile-lite.js
           node scripts/source-plan-lite.js
+          node scripts/team-news-auto.js
           node scripts/team-status-lite.js
           node scripts/lineup-lite.js
           node scripts/home-away-lite.js
@@ -47,8 +48,12 @@ jobs:
           node scripts/league-expansion-lite.js
           node scripts/stats-memory-lite.js
           node scripts/team-style-note.js
+          node scripts/band-lite.js
           node scripts/card-flow-lite.js
           node scripts/cards-user-choice.js
+
+      - name: Test team intelligence rules
+        run: node tests/team-intelligence.test.js
 
       - name: Validate derived outputs
         run: node scripts/validate-json-no-conflicts.js
