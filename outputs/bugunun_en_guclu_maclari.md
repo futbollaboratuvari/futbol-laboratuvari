@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T18:58:49.591Z
+- Güncelleme: 2026-08-24T19:02:17.297Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -31,7 +31,7 @@
 | Sunderland (B) VS Nottingham Fore | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Manchester Uni VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.30 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Reading (B) VS Derby County U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.86 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.38 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.36 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Man City U21 VS Wolverhampton U | İngiltere Premier Lig 2 | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Lokomotiv Plov VS Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | MS 2 | 1.83 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Kocaelispor VS Amed Sk | Türkiye Süper Lig | 21:30 | 2.5 Alt | 1.48 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
@@ -41,20 +41,20 @@
 | Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 1 | 1.53 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Reims VS Annecy | Fransa Ligue 2 | 21:45 | 2.5 Alt | 1.63 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Fulham VS Chelsea | İngiltere Premier Lig | 22:00 | 2.5 Üst | 1.69 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Folgore Carate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Reggiana VS Ravenna | İtalya Serie C Grup B | 22:00 | 2.5 Alt | 1.50 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Salernitana VS Sorrento Calcio | İtalya Serie C Grup C | 22:00 | MS 1 | 1.30 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Crotone VS Foggia | İtalya Serie C Grup C | 22:00 | 2.5 Alt | 1.56 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Team Altamura VS Ss Monopoli 196 | İtalya Serie C Grup C | 22:00 | MS 2 | 1.96 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Club Atletico VS Rafaela | Arjantin Ulusal Primera Lig | 22:00 | MS 1 | 2.10 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Sporting Braga VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Alt | 1.89 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Fulham VS Chelsea | İngiltere Premier Lig | 22:00 | 2.5 Üst | 1.69 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Folgore Carate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Reggiana VS Ravenna | İtalya Serie C Grup B | 22:00 | 2.5 Alt | 1.50 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Salernitana VS Sorrento Calcio | İtalya Serie C Grup C | 22:00 | MS 1 | 1.30 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Crotone VS Foggia | İtalya Serie C Grup C | 22:00 | 2.5 Alt | 1.56 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Team Altamura VS Ss Monopoli 196 | İtalya Serie C Grup C | 22:00 | MS 2 | 1.96 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Club Atletico VS Rafaela | Arjantin Ulusal Primera Lig | 22:00 | MS 1 | 2.10 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Sporting Braga VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Alt | 1.89 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Gil Vicente VS Casa Pia | Portekiz Premier Lig | 22:15 | 2.5 Alt | 1.44 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Feirense VS Porto (B) | Portekiz 2.Lig | 22:15 | 2.5 Alt | 1.41 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Breidablik VS Fram | İzlanda Urvalsdeild | 22:15 | MS 2 | 2.15 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Malaga VS D.La Coruna | İspanya LaLiga | 22:30 | 2.5 Alt | 1.49 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Granada VS Mallorca | İspanya 2.Lig | 22:30 | 2.5 Alt | 1.40 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tigre VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.47 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Tigre VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Sport Recife VS America Mineiro | Brezilya Serie B | 01:30 | 2.5 Alt | 1.56 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Athletic Club VS Novorizontino | Brezilya Serie B | 01:30 | MS 2 | 2.05 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Botafogo VS Atletico Pr | Brezilya Serie A | 02:00 | 2.5 Alt | 1.67 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

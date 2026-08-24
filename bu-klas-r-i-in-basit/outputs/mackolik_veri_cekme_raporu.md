@@ -1,20 +1,24 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-24T18:54:02.919972+00:00
+Tarih: 2026-08-24T19:01:58.497383+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 13
+- Kac mac bulundu: 21
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 13
+- Kac mac zaten vardi: 21
 - Ham veri havuzu toplam mac sayisi: 8933
 - Hedef tarih: 24.08.2026 Europe/Istanbul
 
 ## Ligler
 
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
+- Brezilya Serie A
+- Brezilya Serie B
+- Ekvador Pro Lig
 - Portekiz 2.Lig
 - Portekiz Premier Lig
 - Portekiz U23 Ulusal Şampiyona
@@ -25,6 +29,7 @@ Tarih: 2026-08-24T18:54:02.919972+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -99,15 +104,22 @@ Tarih: 2026-08-24T18:54:02.919972+00:00
 | 24.08.2026 | 22:30 | İspanya LaLiga | Malaga | D.La Coruna | 39234 | 5 |
 | 24.08.2026 | 22:15 | Portekiz Premier Lig | Gil Vicente | Casa Pia | 41593 | 5 |
 | 24.08.2026 | 22:30 | İspanya 2.Lig | Granada | Mallorca | 39106 | 5 |
+| 25.08.2026 | 02:00 | Brezilya Serie A | Botafogo | Atletico Pr | 42657 | 5 |
+| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Talleres | Rosario Central | 33614 | 5 |
+| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Lanus | Argentinos Jr | 33503 | 5 |
+| 25.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Tigre | Corboda Santiag | 33370 | 5 |
 | 24.08.2026 | 22:15 | Portekiz 2.Lig | Feirense | Porto (B) | 41558 | 5 |
 | 24.08.2026 | 22:00 | İtalya Serie C Grup A | Folgore Carate | Dolomiti Bellun | 31626 | 5 |
 | 24.08.2026 | 22:00 | İtalya Serie C Grup B | Reggiana | Ravenna | 31451 | 5 |
-| 24.08.2026 | 22:00 | İtalya Serie C Grup C | Salernitana | Sorrento Calcio | 31565 | 5 |
-| 24.08.2026 | 22:00 | İtalya Serie C Grup C | Crotone | Foggia | 14714 | 5 |
 | 24.08.2026 | 22:00 | İtalya Serie C Grup C | Team Altamura | Ss Monopoli 196 | 31510 | 5 |
+| 24.08.2026 | 22:00 | İtalya Serie C Grup C | Crotone | Foggia | 14714 | 5 |
+| 25.08.2026 | 02:30 | Şili Premier Lig | Everton De Vin | Univ De Concepc | 36661 | 5 |
 | 24.08.2026 | 22:00 | Arjantin Ulusal Primera Lig | Club Atletico | Rafaela | 33341 | 3 |
+| 25.08.2026 | 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O | All Boys | 33476 | 3 |
+| 25.08.2026 | 01:30 | Brezilya Serie B | Sport Recife | America Mineiro | 42624 | 5 |
+| 25.08.2026 | 01:30 | Brezilya Serie B | Athletic Club | Novorizontino | 03402 | 5 |
 | 24.08.2026 | 22:15 | İzlanda Urvalsdeild | Breidablik | Fram | 44926 | 3 |
-| 24.08.2026 | 22:00 | Portekiz U23 Ulusal Şampiyona | Sporting Braga | Gil Vicente U23 | 00493 | 5 |
+| 25.08.2026 | 03:00 | Ekvador Pro Lig | Libertad | Depor Macara | 26050 | 5 |
 
 ## Sonuc
 

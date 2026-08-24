@@ -2,9 +2,9 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 23
-- Live match count: 30
-- Finished removed count: 13
+- Scheduled match count: 15
+- Live match count: 38
+- Finished removed count: 0
 - Date window: 2026-08-24 / 2026-08-25 23:59
 
 - 2026-08-24 20:00 | Brondby - Silkeborg | live
