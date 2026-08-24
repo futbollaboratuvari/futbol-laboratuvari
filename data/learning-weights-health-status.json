@@ -1,40 +1,52 @@
 {
-  "generated_at": "2026-08-24T10:58:49.127Z",
+  "generated_at": "2026-08-24T11:49:26.227Z",
   "status": "active",
-  "prediction_count": 914,
+  "prediction_count": 946,
   "market_memory": {
     "total": 6,
-    "ready": 3,
-    "boost": 0,
+    "ready": 4,
+    "boost": 1,
     "penalty": 3,
-    "best": [],
+    "best": [
+      {
+        "name": "2.5 Alt",
+        "total": 43,
+        "pending": 26,
+        "won": 17,
+        "lost": 0,
+        "void": 0,
+        "success_rate": 1,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      }
+    ],
     "weak": [
       {
-        "name": "MS 1",
-        "total": 76,
-        "pending": 54,
-        "won": 6,
-        "lost": 16,
+        "name": "MS 2",
+        "total": 286,
+        "pending": 185,
+        "won": 28,
+        "lost": 73,
         "void": 0,
-        "success_rate": 0.273,
+        "success_rate": 0.277,
         "weight": 0.88,
         "confidence_adjustment": -5
       },
       {
-        "name": "MS 2",
-        "total": 285,
-        "pending": 185,
-        "won": 28,
-        "lost": 72,
+        "name": "MS 1",
+        "total": 80,
+        "pending": 56,
+        "won": 7,
+        "lost": 17,
         "void": 0,
-        "success_rate": 0.28,
+        "success_rate": 0.292,
         "weight": 0.88,
         "confidence_adjustment": -5
       },
       {
         "name": "MS X",
-        "total": 365,
-        "pending": 250,
+        "total": 366,
+        "pending": 251,
         "won": 36,
         "lost": 79,
         "void": 0,
@@ -45,9 +57,9 @@
     ]
   },
   "league_memory": {
-    "total": 153,
-    "ready": 23,
-    "boost": 2,
+    "total": 154,
+    "ready": 26,
+    "boost": 3,
     "penalty": 19,
     "best": [
       {
@@ -60,6 +72,17 @@
         "success_rate": 0.636,
         "weight": 1.12,
         "confidence_adjustment": 4
+      },
+      {
+        "name": "Meksika Liga MX Apertura",
+        "total": 9,
+        "pending": 2,
+        "won": 4,
+        "lost": 3,
+        "void": 0,
+        "success_rate": 0.571,
+        "weight": 1.06,
+        "confidence_adjustment": 2
       },
       {
         "name": "İtalya Serie B",
@@ -76,8 +99,8 @@
     "weak": [
       {
         "name": "Peru Premier Lig Clausura",
-        "total": 11,
-        "pending": 5,
+        "total": 12,
+        "pending": 6,
         "won": 0,
         "lost": 6,
         "void": 0,
@@ -108,17 +131,6 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Brezilya Serie A",
-        "total": 9,
-        "pending": 1,
-        "won": 1,
-        "lost": 7,
-        "void": 0,
-        "success_rate": 0.125,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
         "name": "İspanya 2.Lig",
         "total": 12,
         "pending": 6,
@@ -137,6 +149,17 @@
         "lost": 9,
         "void": 0,
         "success_rate": 0.182,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Brezilya Serie B",
+        "total": 5,
+        "pending": 0,
+        "won": 1,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.2,
         "weight": 0.88,
         "confidence_adjustment": -5
       },
@@ -187,7 +210,7 @@
     ]
   },
   "league_market_memory": {
-    "total": 389,
+    "total": 412,
     "ready": 12,
     "boost": 2,
     "penalty": 9,
