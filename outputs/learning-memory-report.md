@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 13:12:51
+Oluşturma: 24.08.2026 13:22:49
 
 ## Özet
 
-- Toplam tahmin: 851
-- Bekleyen tahmin: 613
+- Toplam tahmin: 852
+- Bekleyen tahmin: 614
 - Kazanan tahmin: 70
 - Kaybeden tahmin: 167
 - Lig sayısı: 150
@@ -20,13 +20,14 @@ Oluşturma: 24.08.2026 13:12:51
 
 ## En Güçlü Seçenek Hafızası
 
-- MS X: toplam 364, bekleyen 249, başarı %31, ağırlık 0.88
+- MS X: toplam 365, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 272, bekleyen 172, başarı %28, ağırlık 0.88
 - MS 1: toplam 56, bekleyen 34, başarı %27, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | İtalya Serie C Grup B | Reggiana - Ravenna | MS X | pending | 30/100
 - 2026-08-24 | Arjantin Ulusal Primera Lig | Club Atletico - Rafaela | MS 2 | pending | 39/100
 - 2026-08-24 | İtalya Serie C Grup C | Crotone - Foggia | MS X | pending | 30/100
 - 2026-08-24 | Türkiye TFF 1. Lig | Sivasspor - Manisa Futbol K | MS 2 | pending | 39/100
@@ -41,5 +42,4 @@ Oluşturma: 24.08.2026 13:12:51
 - 2026-08-24 | İspanya LaLiga | Osasuna - Levante | MS 2 | pending | 26/100
 - 2026-08-24 | Belarus Premier Lig | Torpedo Zhodin - Dnepr Mogilev | MS 2 | pending | 30/100
 - 2026-08-24 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Hazm | MS 2 | pending | 70/100
-- 2026-08-24 | Hollanda Eerste Divisie | Utrecht (Ii) - Heracles | MS 1 | pending | 43/100
 
