@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T15:29:53.500Z
+- Güncelleme: 2026-08-24T15:43:11.524Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -17,8 +17,8 @@
 | Hellas Verona VS Cesena U20 | İtalya Primavera Şampiyonası 1 | 18:00 | 2.5 Alt | 1.96 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Lokomotiva Zvo VS Petrzalka | Slovakya 2.Lig | 18:00 | 2.5 Alt | 1.76 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Young Africans VS Jkt Tanzania | Tanzanya Kuu Bara Ligi | 18:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 1 | 1.55 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 1 | 1.55 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Transinvest Vi VS Fa Siauliai | Litvanya A Ligi | 18:45 | MS 1 | 1.39 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Würzburger Kic VS Köln | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Altglienicke VS Wolfsburg | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
