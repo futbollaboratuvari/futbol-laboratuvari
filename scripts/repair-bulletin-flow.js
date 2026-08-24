@@ -111,4 +111,5 @@ if (usableForToday(current)) {
   console.log('Bulletin flow waiting. No usable source or cache.');
 }
 
+require('./apply-spor-toto-weekly-market').run();
 require('./finalize-spor-toto-pro').run();
