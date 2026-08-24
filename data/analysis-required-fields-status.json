@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T10:36:05.002Z",
-  "total": 66,
-  "ok_count": 61,
-  "bad_count": 5,
+  "generated_at": "2026-08-24T16:01:10.938Z",
+  "total": 65,
+  "ok_count": 59,
+  "bad_count": 6,
   "status": "warning",
   "bad_examples": [
     {
@@ -31,6 +31,18 @@
     },
     {
       "match": "Altglienicke VS Wolfsburg",
+      "market": "Değerli market yok",
+      "score": 0,
+      "confidence": 0,
+      "risk": "Yüksek",
+      "reason": "Düşük oran veya eksik veri nedeniyle elendi | Çifte şans kullanılmadı | Markete özel olasılık ve veri doğrulaması oluşmadı.",
+      "missing": [
+        "score",
+        "confidence"
+      ]
+    },
+    {
+      "match": "Verl 1924 VS Hamburg",
       "market": "Değerli market yok",
       "score": 0,
       "confidence": 0,

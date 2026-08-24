@@ -3,23 +3,14 @@
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
 Ham mac: 75
-Aktif mac: 66
-Canli mac: 9
+Aktif mac: 57
+Canli mac: 18
 Biten mac: 0
-Bultenden dusurulen mac: 9
-Bugun: 56
+Bultenden dusurulen mac: 18
+Bugun: 47
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Würzburger Kic - Köln | scheduled | -
-- 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Altglienicke - Wolfsburg | scheduled | -
-- 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Verl 1924 - Hamburg | scheduled | -
-- 2026-08-24 19:00 | Bulgaristan 1.Lig | Botev Vratsa - Botev Plovdiv | scheduled | -
-- 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Kheybar Khorra - Peykan | scheduled | -
-- 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Malavan Fc - Fajr Sepasi | scheduled | -
-- 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Zob Ahan Fc - Mes Shahr-E Bab | scheduled | -
-- 2026-08-24 19:00 | Almanya Kadınlar Bundesliga | Mainz 05 (K) - Werder Bremen ( | scheduled | -
-- 2026-08-24 19:00 | Letonya 1.Lig | Riga Ii - Riga Mariners | scheduled | -
 - 2026-08-24 19:30 | İtalya Serie A | Bologna - Lazio | scheduled | -
 - 2026-08-24 19:30 | İran Persian Gulf Pro Lig | Gol Gohar Sirj - Chadormalu | scheduled | -
 - 2026-08-24 19:30 | Rusya FNL | Veles - Arsenal Tula | scheduled | -
@@ -88,6 +79,15 @@ Yarin: 10
 - 2026-08-24 18:30 | Rusya FNL | Rotor Volgogra - Neftekhimik | live | -
 - 2026-08-24 18:30 | Romanya 1.Lig | Botosani - Csikszereda | live | -
 - 2026-08-24 18:45 | Litvanya A Ligi | Transinvest Vi - Fa Siauliai | live | -
+- 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Würzburger Kic - Köln | live | -
+- 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Altglienicke - Wolfsburg | live | -
+- 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Verl 1924 - Hamburg | live | -
+- 2026-08-24 19:00 | Bulgaristan 1.Lig | Botev Vratsa - Botev Plovdiv | live | -
+- 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Kheybar Khorra - Peykan | live | -
+- 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Malavan Fc - Fajr Sepasi | live | -
+- 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Zob Ahan Fc - Mes Shahr-E Bab | live | -
+- 2026-08-24 19:00 | Almanya Kadınlar Bundesliga | Mainz 05 (K) - Werder Bremen ( | live | -
+- 2026-08-24 19:00 | Letonya 1.Lig | Riga Ii - Riga Mariners | live | -
 
 ## Biten Maclar
 Biten mac yok.
