@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
-Ham mac: 74
-Aktif mac: 74
+Ham mac: 75
+Aktif mac: 75
 Canli mac: 0
 Biten mac: 0
 Bultenden dusurulen mac: 0
-Bugun: 64
+Bugun: 65
 Yarin: 10
 
 ## Baslamamis Maclar
@@ -59,6 +59,7 @@ Yarin: 10
 - 2026-08-24 21:30 | Türkiye Süper Lig | Kocaelispor - Amed Sk | scheduled | -
 - 2026-08-24 21:30 | İtalya Serie C Grup B | Livorno - Sassari Torres | scheduled | -
 - 2026-08-24 21:30 | Romanya 1.Lig | Otelul Galati - Argesul Pitesti | scheduled | -
+- 2026-08-24 21:30 | Türkiye TFF 1. Lig | Sivasspor - Manisa Futbol K | scheduled | -
 - 2026-08-24 21:45 | İtalya Serie A | Roma - Fiorentina | scheduled | -
 - 2026-08-24 21:45 | Almanya DFB Kupası 1.Tur | Hallescher - Schalke | scheduled | -
 - 2026-08-24 21:45 | Fransa Ligue 2 | Reims - Annecy | scheduled | -

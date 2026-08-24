@@ -2,11 +2,11 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-24T05:51:11.843Z
-- Ham maç sayısı: 74
+- Güncelleme: 2026-08-24T05:58:59.561Z
+- Ham maç sayısı: 75
 - Yarın bülteni maç sayısı: 10
-- Detay blok sayısı: 211
-- Aktif bülten maçı: 74
+- Detay blok sayısı: 214
+- Aktif bülten maçı: 75
 - Bültenden düşürülen maç: 0
 
 ## Skorlanan Maclar
@@ -30,7 +30,7 @@
 | Malavan Fc - Fajr Sepasi | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.01 | 6 |
 | Zob Ahan Fc - Mes Shahr-E Bab | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.01 | 6 |
 | Mainz 05 (K) - Werder Bremen ( | Almanya Kadınlar Bundesliga | 19:00 | Veri bekleniyor | - | 3.39 | 8 |
-| Bologna - Lazio | İtalya Serie A | 19:30 | Veri bekleniyor | - | 2 | 8 |
+| Bologna - Lazio | İtalya Serie A | 19:30 | Veri bekleniyor | - | 2.01 | 8 |
 | Gol Gohar Sirj - Chadormalu | İran Persian Gulf Pro Lig | 19:30 | Veri bekleniyor | - | 2.28 | 8 |
 | Veles - Arsenal Tula | Rusya FNL | 19:30 | Veri bekleniyor | - | 2.68 | 8 |
 | Neom Sc - Al-Qadsiah | Suudi Arabistan Pro Lig | 19:40 | Veri bekleniyor | - | 4.24 | 7 |
@@ -60,10 +60,11 @@
 | Kocaelispor - Amed Sk | Türkiye Süper Lig | 21:30 | Veri bekleniyor | - | 1.97 | 8 |
 | Livorno - Sassari Torres | İtalya Serie C Grup B | 21:30 | Veri bekleniyor | - | 1.94 | 8 |
 | Otelul Galati - Argesul Pitesti | Romanya 1.Lig | 21:30 | Veri bekleniyor | - | 2.08 | 8 |
+| Sivasspor - Manisa Futbol K | Türkiye TFF 1. Lig | 21:30 | Veri bekleniyor | - | 1.8 | 8 |
 | Roma - Fiorentina | İtalya Serie A | 21:45 | Veri bekleniyor | - | 1.51 | 8 |
-| Hallescher - Schalke | Almanya DFB Kupası 1.Tur | 21:45 | Veri bekleniyor | - | 6.86 | 6 |
+| Hallescher - Schalke | Almanya DFB Kupası 1.Tur | 21:45 | Veri bekleniyor | - | 7.12 | 6 |
 | Reims - Annecy | Fransa Ligue 2 | 21:45 | Veri bekleniyor | - | 1.75 | 8 |
-| Fulham - Chelsea | İngiltere Premier Lig | 22:00 | Veri bekleniyor | - | 3.54 | 8 |
+| Fulham - Chelsea | İngiltere Premier Lig | 22:00 | Veri bekleniyor | - | 3.61 | 8 |
 | Folgore Carate - Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | Veri bekleniyor | - | 2.06 | 8 |
 | Reggiana - Ravenna | İtalya Serie C Grup B | 22:00 | Veri bekleniyor | - | 1.94 | 8 |
 | Salernitana - Sorrento Calcio | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.38 | 7 |
