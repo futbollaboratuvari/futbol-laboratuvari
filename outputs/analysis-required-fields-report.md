@@ -1,9 +1,7 @@
 # Analiz Zorunlu Alan Kontrolu
 
-Durum: warning
-Toplam analiz: 29
-Tam analiz: 27
-Eksik analiz: 2
+Durum: ok
+Toplam analiz: 9
+Tam analiz: 9
+Eksik analiz: 0
 
-- Man City U21 VS Wolverhampton U: eksik score, confidence
-- Hallescher VS Schalke: eksik score, confidence

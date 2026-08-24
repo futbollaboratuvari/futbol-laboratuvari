@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-08-24T19:52:09.937Z",
+  "generated_at": "2026-08-24T21:50:07.097Z",
   "status": "active",
-  "prediction_count": 956,
+  "prediction_count": 1079,
   "market_memory": {
     "total": 6,
-    "ready": 4,
-    "boost": 1,
+    "ready": 5,
+    "boost": 2,
     "penalty": 3,
     "best": [
       {
-        "name": "2.5 Alt",
-        "total": 50,
-        "pending": 32,
-        "won": 18,
+        "name": "2.5 Üst",
+        "total": 24,
+        "pending": 18,
+        "won": 6,
         "lost": 0,
         "void": 0,
         "success_rate": 1,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "2.5 Alt",
+        "total": 86,
+        "pending": 62,
+        "won": 22,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.917,
         "weight": 1.12,
         "confidence_adjustment": 4
       }
     ],
     "weak": [
       {
-        "name": "MS 1",
-        "total": 83,
-        "pending": 56,
-        "won": 8,
-        "lost": 19,
-        "void": 0,
-        "success_rate": 0.296,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
         "name": "MS 2",
-        "total": 286,
-        "pending": 180,
-        "won": 32,
-        "lost": 74,
+        "total": 308,
+        "pending": 197,
+        "won": 33,
+        "lost": 78,
         "void": 0,
-        "success_rate": 0.302,
+        "success_rate": 0.297,
         "weight": 0.88,
         "confidence_adjustment": -5
       },
@@ -53,14 +53,25 @@
         "success_rate": 0.31,
         "weight": 0.88,
         "confidence_adjustment": -5
+      },
+      {
+        "name": "MS 1",
+        "total": 136,
+        "pending": 105,
+        "won": 11,
+        "lost": 20,
+        "void": 0,
+        "success_rate": 0.355,
+        "weight": 0.88,
+        "confidence_adjustment": -5
       }
     ]
   },
   "league_memory": {
-    "total": 154,
-    "ready": 28,
+    "total": 169,
+    "ready": 30,
     "boost": 3,
-    "penalty": 21,
+    "penalty": 22,
     "best": [
       {
         "name": "İngiltere 1.Lig",
@@ -109,17 +120,6 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "İngiltere Premier Lig",
-        "total": 12,
-        "pending": 3,
-        "won": 1,
-        "lost": 8,
-        "void": 0,
-        "success_rate": 0.111,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
         "name": "Almanya DFB Kupası 1.Tur",
         "total": 20,
         "pending": 5,
@@ -127,17 +127,6 @@
         "lost": 13,
         "void": 0,
         "success_rate": 0.133,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
-        "name": "İspanya 2.Lig",
-        "total": 13,
-        "pending": 7,
-        "won": 1,
-        "lost": 5,
-        "void": 0,
-        "success_rate": 0.167,
         "weight": 0.88,
         "confidence_adjustment": -5
       },
@@ -153,20 +142,9 @@
         "confidence_adjustment": -5
       },
       {
-        "name": "Rusya Premier Lig",
-        "total": 10,
-        "pending": 5,
-        "won": 1,
-        "lost": 4,
-        "void": 0,
-        "success_rate": 0.2,
-        "weight": 0.88,
-        "confidence_adjustment": -5
-      },
-      {
         "name": "Brezilya Serie B",
-        "total": 5,
-        "pending": 0,
+        "total": 11,
+        "pending": 6,
         "won": 1,
         "lost": 4,
         "void": 0,
@@ -176,8 +154,8 @@
       },
       {
         "name": "ABD USL",
-        "total": 11,
-        "pending": 1,
+        "total": 13,
+        "pending": 3,
         "won": 2,
         "lost": 8,
         "void": 0,
@@ -197,6 +175,17 @@
         "confidence_adjustment": -5
       },
       {
+        "name": "İngiltere Premier Lig",
+        "total": 12,
+        "pending": 1,
+        "won": 3,
+        "lost": 8,
+        "void": 0,
+        "success_rate": 0.273,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
         "name": "İngiltere 2.Lig",
         "total": 12,
         "pending": 1,
@@ -206,11 +195,33 @@
         "success_rate": 0.273,
         "weight": 0.88,
         "confidence_adjustment": -5
+      },
+      {
+        "name": "İspanya 2.Lig",
+        "total": 13,
+        "pending": 6,
+        "won": 2,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.286,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Rusya Premier Lig",
+        "total": 10,
+        "pending": 3,
+        "won": 2,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.286,
+        "weight": 0.88,
+        "confidence_adjustment": -5
       }
     ]
   },
   "league_market_memory": {
-    "total": 417,
+    "total": 463,
     "ready": 13,
     "boost": 3,
     "penalty": 9,

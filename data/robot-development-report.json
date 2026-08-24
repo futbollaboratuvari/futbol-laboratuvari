@@ -1,25 +1,43 @@
 {
-  "generated_at": "2026-08-24T19:52:09.949Z",
+  "generated_at": "2026-08-24T21:50:07.110Z",
   "totals": {
-    "predictions": 956,
-    "finished": 272,
-    "pending": 684
+    "predictions": 1079,
+    "finished": 289,
+    "pending": 790
   },
   "learning_output_status": "ready",
   "market_development": {
     "label": "market",
     "strong": [
       {
-        "name": "2.5 Alt",
-        "won": 18,
+        "name": "2.5 Üst",
+        "won": 6,
         "lost": 0,
-        "total": 18,
+        "total": 6,
         "success_rate": 100,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "2.5 Alt",
+        "won": 22,
+        "lost": 2,
+        "total": 24,
+        "success_rate": 92,
         "weight": 1.12,
         "ready": true
       }
     ],
     "weak": [
+      {
+        "name": "MS 1",
+        "won": 11,
+        "lost": 20,
+        "total": 31,
+        "success_rate": 35,
+        "weight": 0.88,
+        "ready": true
+      },
       {
         "name": "MS X",
         "won": 36,
@@ -31,18 +49,9 @@
       },
       {
         "name": "MS 2",
-        "won": 32,
-        "lost": 74,
-        "total": 106,
-        "success_rate": 30,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "MS 1",
-        "won": 8,
-        "lost": 19,
-        "total": 27,
+        "won": 33,
+        "lost": 78,
+        "total": 111,
         "success_rate": 30,
         "weight": 0.88,
         "ready": true
@@ -64,6 +73,24 @@
     ],
     "weak": [
       {
+        "name": "ABD USL",
+        "won": 2,
+        "lost": 8,
+        "total": 10,
+        "success_rate": 20,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Brezilya Serie B",
+        "won": 1,
+        "lost": 4,
+        "total": 5,
+        "success_rate": 20,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
         "name": "İngiltere Ulusal Lig",
         "won": 2,
         "lost": 9,
@@ -73,29 +100,11 @@
         "ready": true
       },
       {
-        "name": "İspanya 2.Lig",
-        "won": 1,
-        "lost": 5,
-        "total": 6,
-        "success_rate": 17,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
         "name": "Almanya DFB Kupası 1.Tur",
         "won": 2,
         "lost": 13,
         "total": 15,
         "success_rate": 13,
-        "weight": 0.88,
-        "ready": true
-      },
-      {
-        "name": "İngiltere Premier Lig",
-        "won": 1,
-        "lost": 8,
-        "total": 9,
-        "success_rate": 11,
         "weight": 0.88,
         "ready": true
       },
