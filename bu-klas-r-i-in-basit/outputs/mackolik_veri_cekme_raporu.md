@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-24T12:54:24.571828+00:00
+Tarih: 2026-08-24T13:20:06.999655+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 74
+- Kac mac bulundu: 65
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 74
+- Kac mac zaten vardi: 65
 - Ham veri havuzu toplam mac sayisi: 8933
 - Hedef tarih: 24.08.2026 Europe/Istanbul
 
@@ -16,14 +16,10 @@ Tarih: 2026-08-24T12:54:24.571828+00:00
 
 - Almanya DFB Kupası 1.Tur
 - Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belarus Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
 - Fransa Ligue 2
 - Hollanda Eerste Divisie
 - Letonya 1.Lig
@@ -53,7 +49,6 @@ Tarih: 2026-08-24T12:54:24.571828+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
