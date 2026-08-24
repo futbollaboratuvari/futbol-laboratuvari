@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T08:08:45.421Z
+- Güncelleme: 2026-08-24T08:14:09.744Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -21,7 +21,7 @@
 | Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 2 | 4.80 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 2 | 4.43 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Transinvest Vi VS Fa Siauliai | Litvanya A Ligi | 18:45 | MS 2 | 4.62 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Würzburger Kic VS Köln | Almanya DFB Kupası 1.Tur | 19:00 | MS X | 4.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Würzburger Kic VS Köln | Almanya DFB Kupası 1.Tur | 19:00 | MS X | 5.09 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Altglienicke VS Wolfsburg | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 45 | Sadece izleme | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Verl 1924 VS Hamburg | Almanya DFB Kupası 1.Tur | 19:00 | MS 1 | 5.12 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
 | Botev Vratsa VS Botev Plovdiv | Bulgaristan 1.Lig | 19:00 | MS 1 | 3.19 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -33,7 +33,7 @@
 | Bologna VS Lazio | İtalya Serie A | 19:30 | MS 2 | 3.02 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gol Gohar Sirj VS Chadormalu | İran Persian Gulf Pro Lig | 19:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Veles VS Arsenal Tula | Rusya FNL | 19:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Neom Sc VS Al-Qadsiah | Suudi Arabistan Pro Lig | 19:40 | MS 1 | 4.24 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Neom Sc VS Al-Qadsiah | Suudi Arabistan Pro Lig | 19:40 | MS 1 | 4.40 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Celta Vigo Ii VS Fc Andorra | İspanya 2.Lig | 20:00 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Brondby VS Silkeborg | Danimarka Süperlig | 20:00 | MS 2 | 5.70 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Malmö VS Djurgarden | İsveç Allsvenskan | 20:00 | MS X | 3.26 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -45,7 +45,7 @@
 | Rzeszow VS Ruch Chorzow | Polonya 1.Lig | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Milan U20 VS Torino U20 | İtalya Primavera Şampiyonası 1 | 20:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Norrkoping VS Falkenberg | İsveç Superettan | 20:05 | MS 2 | 4.50 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Osasuna VS Levante | İspanya LaLiga | 20:30 | MS 2 | 3.84 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Osasuna VS Levante | İspanya LaLiga | 20:30 | MS 2 | 3.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Baltika Kalini VS Rubin Kazan | Rusya Premier Lig | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Torpedo Zhodin VS Dnepr Mogilev | Belarus Premier Lig | 20:30 | MS 2 | 3.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Ittihad (Ci VS Al Hazm | Suudi Arabistan Pro Lig | 21:00 | MS 2 | 4.70 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
@@ -62,13 +62,13 @@
 | Otelul Galati VS Argesul Pitesti | Romanya 1.Lig | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sivasspor VS Manisa Futbol K | Türkiye TFF 1. Lig | 21:30 | MS 2 | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 2 | 4.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | MS X | 5.01 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
-| Reims VS Annecy | Fransa Ligue 2 | 21:45 | MS 2 | 3.57 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | MS X | 5.10 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Orta | scheduled |
+| Reims VS Annecy | Fransa Ligue 2 | 21:45 | MS 2 | 3.68 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fulham VS Chelsea | İngiltere Premier Lig | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Folgore Carate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Reggiana VS Ravenna | İtalya Serie C Grup B | 22:00 | MS 2 | 2.91 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Salernitana VS Sorrento Calcio | İtalya Serie C Grup C | 22:00 | MS 2 | 4.99 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Crotone VS Foggia | İtalya Serie C Grup C | 22:00 | MS X | 2.88 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Crotone VS Foggia | İtalya Serie C Grup C | 22:00 | MS X | 2.82 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Team Altamura VS Ss Monopoli 196 | İtalya Serie C Grup C | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Club Atletico VS Rafaela | Arjantin Ulusal Primera Lig | 22:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Sporting Braga VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS X | 3.11 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
