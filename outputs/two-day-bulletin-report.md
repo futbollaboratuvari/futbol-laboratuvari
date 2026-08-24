@@ -2,12 +2,12 @@
 
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
-Ham mac: 75
-Aktif mac: 75
+Ham mac: 107
+Aktif mac: 76
 Canli mac: 0
-Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 65
+Biten mac: 31
+Bultenden dusurulen mac: 31
+Bugun: 66
 Yarin: 10
 
 ## Baslamamis Maclar
@@ -29,6 +29,7 @@ Yarin: 10
 - 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Malavan Fc - Fajr Sepasi | scheduled | -
 - 2026-08-24 19:00 | İran Persian Gulf Pro Lig | Zob Ahan Fc - Mes Shahr-E Bab | scheduled | -
 - 2026-08-24 19:00 | Almanya Kadınlar Bundesliga | Mainz 05 (K) - Werder Bremen ( | scheduled | -
+- 2026-08-24 19:00 | Letonya 1.Lig | Riga Ii - Riga Mariners | scheduled | -
 - 2026-08-24 19:30 | İtalya Serie A | Bologna - Lazio | scheduled | -
 - 2026-08-24 19:30 | İran Persian Gulf Pro Lig | Gol Gohar Sirj - Chadormalu | scheduled | -
 - 2026-08-24 19:30 | Rusya FNL | Veles - Arsenal Tula | scheduled | -
@@ -91,4 +92,34 @@ Yarin: 10
 Canli mac yok.
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-24 00:00 | Brezilya Serie B | Operario - Vila Nova | finished | -
+- 2026-08-24 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Deportivo Sapri | finished | -
+- 2026-08-24 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | finished | -
+- 2026-08-24 00:00 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | finished | -
+- 2026-08-24 00:00 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | finished | -
+- 2026-08-24 00:00 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | finished | -
+- 2026-08-24 00:05 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | finished | -
+- 2026-08-24 00:15 | Bolivya Premier Lig | Guabira - Blooming | finished | -
+- 2026-08-24 00:30 | Brezilya Serie A | Chapecoense - Sao Paulo | finished | -
+- 2026-08-24 00:30 | Brezilya Serie A | Santos - Mirassol | finished | -
+- 2026-08-24 00:30 | Brezilya Serie B | Criciuma - Fortaleza Ce | finished | -
+- 2026-08-24 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Progreso | finished | -
+- 2026-08-24 01:00 | Nikaragua Premier Lig Apertura | Rancho Santana - San Marcos | finished | -
+- 2026-08-24 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Velez Sarsfield | finished | -
+- 2026-08-24 01:30 | Brezilya Serie A | Coritiba - Corinthians | finished | -
+- 2026-08-24 02:00 | ABD MLS | Atlanta Utd - Kansas | finished | -
+- 2026-08-24 02:00 | Meksika Liga MX Apertura | Atletico San L - Pachuca | finished | -
+- 2026-08-24 02:00 | Şili Premier Lig | O Higgins - Palestino | finished | -
+- 2026-08-24 02:10 | Kolombiya Primera A Clausura | Deportivo Cali - Inter Bogota | finished | -
+- 2026-08-24 02:15 | Honduras Ulusal Lig Apertura | Olancho - Depor. Olimpia | finished | -
+- 2026-08-24 02:30 | Peru Premier Lig Clausura | Universitario - Chankas Cyc | finished | -
+- 2026-08-24 02:30 | El Salvador Primera Lig Apertura | Firpo - Platense | finished | -
+- 2026-08-24 03:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Ad San Carlos | finished | -
+- 2026-08-24 03:00 | Guatemala Ulusal Lig Apertura | Marquense - Coban Imperial | finished | -
+- 2026-08-24 03:00 | Ekvador Pro Lig | Ldu Quito - Emelec | finished | -
+- 2026-08-24 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Boca Juniors | finished | -
+- 2026-08-24 04:00 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | finished | -
+- 2026-08-24 04:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | finished | -
+- 2026-08-24 04:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | finished | -
+- 2026-08-24 04:15 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | finished | -
+- 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | finished | -
