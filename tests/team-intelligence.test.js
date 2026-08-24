@@ -30,7 +30,7 @@ assert.strictEqual(status.countRisk(unknown), 'Belirsiz');
 assert.strictEqual(status.combineRisk('Düşük', 'Belirsiz'), 'Belirsiz');
 assert.strictEqual(apply.worstRisk('Düşük', 'Yüksek'), 'Yüksek');
 assert.strictEqual(apply.worstRisk('Düşük', 'Belirsiz'), 'Orta');
-assert.strictEqual(news.isFresh({ checked_at: new Date().toISOString() }));
-assert(!news.isFresh({ checked_at: '2020-01-01T00:00:00.000Z' }));
+assert.strictEqual(news.isFresh({ checked_at: new Date().toISOString() }), true);
+assert.strictEqual(news.isFresh({ checked_at: '2020-01-01T00:00:00.000Z' }), false);
 
 console.log('team-intelligence.test.js OK');
