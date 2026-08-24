@@ -82,6 +82,12 @@ function copyRecursive(source, target, relativePath) {
 }
 
 try {
+  require("./rebuild-spor-toto-bulletin").run();
+} catch (error) {
+  console.warn(`Spor Toto PRO build atlandi: ${error.message}`);
+}
+
+try {
   require("./merge-bulletin-detail-fields");
 } catch (error) {
   console.warn(`Bulten detay birlestirme atlandi: ${error.message}`);
