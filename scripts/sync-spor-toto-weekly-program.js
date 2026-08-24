@@ -21,7 +21,15 @@ const textLines = (html) => decode(html)
   .replace(/<[^>]+>/g, " ").split(/\r?\n/).map((line) => line.replace(/\s+/g, " ").trim()).filter(Boolean);
 const clean = (value) => String(value || "").toLocaleLowerCase("tr-TR").replace(/ı/g, "i")
   .normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
-const keyOf = (m) => `${m.date}|${clean(m.home)}|${clean(m.away)}`;
+const teamKey = (value) => clean(value)
+  .replace(/\b(tumosan|corendon|arca|rams)\b/g, " ")
+  .replace(/\b(fk|fc|sk)\b/g, " ")
+  .replace(/sportif faaliyetler/g, " ")
+  .replace(/istanbul basaksehir/g, "basaksehir")
+  .replace(/paris saint germain|paris st germain|psg/g, "paris sg")
+  .replace(/hamburger sv/g, "hamburg")
+  .replace(/\s+/g, " ").trim();
+const keyOf = (m) => `${m.date}|${teamKey(m.home)}|${teamKey(m.away)}`;
 const normalizeTeam = (value) => String(value || "").replace(/\s+/g, " ").trim();
 const normalizeDistribution = (values) => {
   if (!values) return null;
@@ -164,4 +172,4 @@ async function run() {
 }
 
 if (require.main === module) run().catch((error) => { console.error(error); process.exitCode = 1; });
-module.exports = { run, parseFormul15, parseTahmin, validate15, overlapCount };
+module.exports = { run, parseFormul15, parseTahmin, validate15, overlapCount, teamKey };
