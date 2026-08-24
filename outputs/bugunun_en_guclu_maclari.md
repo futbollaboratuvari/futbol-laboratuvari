@@ -4,33 +4,33 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T09:02:11.748Z
+- Güncelleme: 2026-08-24T09:08:07.925Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Sabah VS Imigresen | Malezya Süper Lig | 15:15 | MS X | 3.04 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Kamaz VS Pfc Sochi | Rusya FNL | 17:30 | MS 1 | 3.36 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Sabah VS Imigresen | Malezya Süper Lig | 15:15 | MS X | 3.02 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Kamaz VS Pfc Sochi | Rusya FNL | 17:30 | MS 1 | 3.32 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Isloch VS Dinamo Minsk | Belarus Premier Lig | 17:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Tractor Fc VS Persepolis | İran Persian Gulf Pro Lig | 18:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Hellas Verona VS Cesena U20 | İtalya Primavera Şampiyonası 1 | 18:00 | MS X | 3.14 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Hellas Verona VS Cesena U20 | İtalya Primavera Şampiyonası 1 | 18:00 | MS X | 3.13 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Lokomotiva Zvo VS Petrzalka | Slovakya 2.Lig | 18:00 | MS 1 | 3.34 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Young Africans VS Jkt Tanzania | Tanzanya Kuu Bara Ligi | 18:00 | Değerli market yok | - | 65 | Orta risk kupon adayı | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 2 | 4.80 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 2 | 4.94 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 2 | 4.43 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Transinvest Vi VS Fa Siauliai | Litvanya A Ligi | 18:45 | MS 2 | 4.62 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
 | Würzburger Kic VS Köln | Almanya DFB Kupası 1.Tur | 19:00 | MS X | 5.09 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Altglienicke VS Wolfsburg | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 50 | Sadece izleme | Normal Değer | Orta | Düşük | filtered_no_value_market |
-| Verl 1924 VS Hamburg | Almanya DFB Kupası 1.Tur | 19:00 | MS 1 | 5.12 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Verl 1924 VS Hamburg | Almanya DFB Kupası 1.Tur | 19:00 | MS 1 | 5.30 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Botev Vratsa VS Botev Plovdiv | Bulgaristan 1.Lig | 19:00 | MS 1 | 3.19 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Kheybar Khorra VS Peykan | İran Persian Gulf Pro Lig | 19:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Malavan Fc VS Fajr Sepasi | İran Persian Gulf Pro Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Zob Ahan Fc VS Mes Shahr-E Bab | İran Persian Gulf Pro Lig | 19:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Mainz 05 (K) VS Werder Bremen ( | Almanya Kadınlar Bundesliga | 19:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Riga Ii VS Riga Mariners | Letonya 1.Lig | 19:00 | Değerli market yok | - | 20 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
-| Bologna VS Lazio | İtalya Serie A | 19:30 | MS 2 | 3.02 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Bologna VS Lazio | İtalya Serie A | 19:30 | MS 2 | 2.99 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Gol Gohar Sirj VS Chadormalu | İran Persian Gulf Pro Lig | 19:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Veles VS Arsenal Tula | Rusya FNL | 19:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Neom Sc VS Al-Qadsiah | Suudi Arabistan Pro Lig | 19:40 | MS 1 | 4.40 | 45 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
@@ -43,13 +43,13 @@
 | Sanat Naft VS Foolad Khuzesta | İran Persian Gulf Pro Lig | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Olimpiyets VS Ska-Khabarovsk | Rusya FNL | 20:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Rzeszow VS Ruch Chorzow | Polonya 1.Lig | 20:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Milan U20 VS Torino U20 | İtalya Primavera Şampiyonası 1 | 20:00 | MS X | 2.98 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Milan U20 VS Torino U20 | İtalya Primavera Şampiyonası 1 | 20:00 | MS X | 3.05 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Norrkoping VS Falkenberg | İsveç Superettan | 20:05 | MS 2 | 4.50 | 60 | Sadece izleme | Yüksek Değer | Orta | Düşük | scheduled |
-| Osasuna VS Levante | İspanya LaLiga | 20:30 | MS 2 | 3.79 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Osasuna VS Levante | İspanya LaLiga | 20:30 | MS 2 | 3.81 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Baltika Kalini VS Rubin Kazan | Rusya Premier Lig | 20:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
-| Torpedo Zhodin VS Dnepr Mogilev | Belarus Premier Lig | 20:30 | MS 2 | 3.94 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Torpedo Zhodin VS Dnepr Mogilev | Belarus Premier Lig | 20:30 | MS 2 | 3.87 | 40 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Al Ittihad (Ci VS Al Hazm | Suudi Arabistan Pro Lig | 21:00 | MS 2 | 4.70 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
-| Utrecht (Ii) VS Heracles | Hollanda Eerste Divisie | 21:00 | MS 1 | 4.48 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Utrecht (Ii) VS Heracles | Hollanda Eerste Divisie | 21:00 | MS 1 | 4.17 | 55 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Psv (B) VS Oss | Hollanda Eerste Divisie | 21:00 | MS 2 | 3.96 | 70 | Orta risk kupon adayı | Yüksek Değer | Orta | Düşük | scheduled |
 | Sunderland (B) VS Nottingham Fore | İngiltere Premier Lig 2 | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
 | Manchester Uni VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | Değerli market yok | - | 10 | Oynama | Normal Değer | Yüksek | Orta | filtered_no_value_market |
@@ -61,8 +61,8 @@
 | Livorno VS Sassari Torres | İtalya Serie C Grup B | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Otelul Galati VS Argesul Pitesti | Romanya 1.Lig | 21:30 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Sivasspor VS Manisa Futbol K | Türkiye TFF 1. Lig | 21:30 | MS 2 | 3.06 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 2 | 4.44 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
-| Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | MS X | 5.10 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
+| Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 2 | 4.49 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
+| Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | MS X | 4.99 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük | scheduled |
 | Reims VS Annecy | Fransa Ligue 2 | 21:45 | MS 2 | 3.68 | 50 | Sadece izleme | Yüksek Değer | Yüksek | Düşük | scheduled |
 | Fulham VS Chelsea | İngiltere Premier Lig | 22:00 | Değerli market yok | - | 25 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
 | Folgore Carate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | Değerli market yok | - | 15 | Oynama | Normal Değer | Yüksek | Düşük | filtered_no_value_market |
@@ -93,20 +93,20 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Brondby VS Silkeborg | MS 2 | 5.70 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Charleston Bat VS Miami Fc | MS 2 | 5.37 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Verl 1924 VS Hamburg | MS 1 | 5.12 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
-| Hallescher VS Schalke | MS X | 5.10 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Verl 1924 VS Hamburg | MS 1 | 5.30 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Würzburger Kic VS Köln | MS X | 5.09 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
+| Hallescher VS Schalke | MS X | 4.99 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 | Al Ittihad (Ci VS Al Hazm | MS 2 | 4.70 | 85 | Ana kupon adayı | Yüksek Değer | Düşük | Düşük |
 
 ## 2'li Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Brondby VS Silkeborg + Charleston Bat VS Miami Fc | MS 2 + MS 2 | 30.61 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Verl 1924 VS Hamburg + Hallescher VS Schalke | MS 1 + MS X | 26.11 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
-| Würzburger Kic VS Köln + Al Ittihad (Ci VS Al Hazm | MS X + MS 2 | 23.92 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Verl 1924 VS Hamburg + Würzburger Kic VS Köln | MS 1 + MS X | 26.98 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
+| Hallescher VS Schalke + Al Ittihad (Ci VS Al Hazm | MS X + MS 2 | 23.45 | 85 | Ana kupon adayı | Yüksek Değer | Orta | Düşük |
 
 ## 3'lu Kupon Onerileri
 | Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Brondby VS Silkeborg + Charleston Bat VS Miami Fc + Verl 1924 VS Hamburg | MS 2 + MS 2 + MS 1 | 156.72 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
-| Hallescher VS Schalke + Würzburger Kic VS Köln + Al Ittihad (Ci VS Al Hazm | MS X + MS X + MS 2 | 122.01 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Brondby VS Silkeborg + Charleston Bat VS Miami Fc + Verl 1924 VS Hamburg | MS 2 + MS 2 + MS 1 | 162.23 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
+| Würzburger Kic VS Köln + Hallescher VS Schalke + Al Ittihad (Ci VS Al Hazm | MS X + MS X + MS 2 | 119.38 | 85 | Ana kupon adayı | Yüksek Değer | Yüksek | Düşük |
