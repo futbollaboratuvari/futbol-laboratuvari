@@ -2,17 +2,18 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 9
+- Scheduled match count: 134
 - Live match count: 0
 - Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
-- 2026-08-26 01:00 | Deportivo Madr - Godoy Cruz | scheduled
-- 2026-08-26 01:30 | Atletico Goian - Botafogo Ribeir | scheduled
-- 2026-08-26 01:30 | Juventude - Regatas | scheduled
-- 2026-08-26 02:00 | Universitario - Nacional Potosi | scheduled
-- 2026-08-26 03:00 | Cruzeiro - Atletico Mg | scheduled
-- 2026-08-26 03:30 | Monterrey - Chicago | scheduled
-- 2026-08-26 03:30 | Indep. Jose Te (1) - (0) Deportes Tolima | scheduled
-- 2026-08-26 04:00 | Depor Cucuta - Alianza Petrole | scheduled
-- 2026-08-26 05:30 | Club Leon - Salt Lake | scheduled
+- 2026-08-25 01:00 | Tigre - Corboda Santiag | scheduled
+- 2026-08-25 01:30 | Athletic Club - Novorizontino | scheduled
+- 2026-08-25 01:30 | Sport Recife - America Mineiro | scheduled
+- 2026-08-25 02:00 | Charleston Bat - Miami Fc | scheduled
+- 2026-08-25 02:00 | Ferro Carril O - All Boys | scheduled
+- 2026-08-25 02:00 | Botafogo - Atletico Pr | scheduled
+- 2026-08-25 02:30 | Everton De Vin - Univ De Concepc | scheduled
+- 2026-08-25 03:00 | Libertad - Depor Macara | scheduled
+- 2026-08-25 03:15 | Lanus - Argentinos Jr | scheduled
+- 2026-08-25 03:15 | Talleres - Rosario Central | scheduled
