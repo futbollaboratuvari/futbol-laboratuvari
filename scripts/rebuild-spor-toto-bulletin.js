@@ -1,456 +1,317 @@
 const fs = require("fs");
 const path = require("path");
-const { filterActiveBulletinMatches, countInactiveBulletinMatches } = require("./bulletin-active-filter");
 const { buildMatchAnalysis, memoryFor, MODEL_VERSION } = require("./robot-exact-scoring");
 
-const rootDir = path.join(__dirname, "..");
-const fixturesPath = path.join(rootDir, "data", "fixtures.json");
-const archivePath = path.join(rootDir, "data", "robot_match_archive.json");
-const bulletinPath = path.join(rootDir, "data", "spor_toto_bulteni.json");
-const reportPath = path.join(rootDir, "outputs", "spor-toto-bulletin-rebuild-report.md");
-const MAX_MATCHES = 15;
-const MAX_DOUBLES = 4;
+const root = path.join(__dirname, "..");
+const programPath = path.join(root, "data", "spor_toto_weekly_program.json");
+const fixturesPath = path.join(root, "data", "fixtures.json");
+const bulletinPath = path.join(root, "data", "spor_toto_bulteni.json");
+const reportPath = path.join(root, "outputs", "spor-toto-bulletin-rebuild-report.md");
+const OPTIONS = ["1", "X", "2"];
 
-const readJson = (filePath, fallback) => {
+const readJson = (file, fallback) => {
   try {
-    const text = fs.readFileSync(filePath, "utf8").trim();
+    const text = fs.readFileSync(file, "utf8").trim();
     return text ? JSON.parse(text) : fallback;
-  } catch {
-    return fallback;
-  }
+  } catch { return fallback; }
 };
-
-const writeText = (filePath, value) => {
-  fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, value, "utf8");
+const writeJson = (file, value) => {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 };
-
-const trDate = (offset = 0) => {
-  const now = new Date();
-  const local = new Date(now.toLocaleString("en-US", { timeZone: "Europe/Istanbul" }));
-  local.setDate(local.getDate() + offset);
-  const year = local.getFullYear();
-  const month = String(local.getMonth() + 1).padStart(2, "0");
-  const day = String(local.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
+const n = (value) => {
+  if (value === null || value === undefined || value === "" || value === "-") return null;
+  const parsed = Number(String(value).replace("%", "").replace(",", "."));
+  return Number.isFinite(parsed) ? parsed : null;
 };
-
-const safeNumber = (value) => {
-  if (value === undefined || value === null || value === "" || value === "-") return null;
-  const number = Number(String(value).replace(",", "."));
-  return Number.isFinite(number) ? number : null;
-};
-
-const clamp = (value, min = 0, max = 100) => Math.max(min, Math.min(max, value));
-const cleanKey = (value) => String(value || "")
+const clean = (value) => String(value || "")
   .toLocaleLowerCase("tr-TR")
   .replace(/ı/g, "i")
   .normalize("NFD")
   .replace(/[\u0300-\u036f]/g, "")
+  .replace(/\b(a s|as|fk|fc|sk|spor kulubu|sportif faaliyetler|corendon|tumosan|arca|rams)\b/g, " ")
   .replace(/[^a-z0-9]+/g, " ")
+  .replace(/\s+/g, " ")
   .trim();
-
-const teams = (fixture) => ({
-  home: String(fixture.home || fixture.home_team_name || "").trim(),
-  away: String(fixture.away || fixture.away_team_name || "").trim(),
+const alias = (value) => clean(value)
+  .replace(/paris saint germain/g, "paris sg")
+  .replace(/paris st germain/g, "paris sg")
+  .replace(/psg/g, "paris sg")
+  .replace(/istanbul basaksehir/g, "basaksehir")
+  .replace(/hamburger sv/g, "hamburg")
+  .replace(/newcastle utd/g, "newcastle united")
+  .replace(/atletico madrid/g, "a madrid")
+  .replace(/konyaspor/g, "konya")
+  .replace(/caykur rizespor/g, "rize")
+  .replace(/alanyaspor/g, "alanya")
+  .replace(/genclerbirligi/g, "genclerbirligi");
+const tokens = (value) => new Set(alias(value).split(" ").filter((x) => x.length > 1));
+const similarity = (a, b) => {
+  const aa = alias(a); const bb = alias(b);
+  if (!aa || !bb) return 0;
+  if (aa === bb) return 1;
+  if (aa.includes(bb) || bb.includes(aa)) return 0.88;
+  const A = tokens(aa); const B = tokens(bb);
+  const inter = [...A].filter((x) => B.has(x)).length;
+  const union = new Set([...A, ...B]).size || 1;
+  return inter / union;
+};
+const teams = (row) => ({
+  home: row.home || row.home_team_name || row.ev_sahibi || "",
+  away: row.away || row.away_team_name || row.deplasman || "",
 });
-
-const oddsFor = (fixture) => ({
-  one: safeNumber(fixture.one ?? fixture.oneOdd ?? fixture.ms1 ?? fixture.odd1),
-  draw: safeNumber(fixture.draw ?? fixture.drawOdd ?? fixture.msx ?? fixture.oddX),
-  two: safeNumber(fixture.two ?? fixture.twoOdd ?? fixture.ms2 ?? fixture.odd2),
+const odds = (row) => ({
+  "1": n(row.one ?? row.oneOdd ?? row.ms1 ?? row.odd1 ?? row.available_odds?.ms1),
+  X: n(row.draw ?? row.drawOdd ?? row.msx ?? row.oddX ?? row.available_odds?.msx),
+  "2": n(row.two ?? row.twoOdd ?? row.ms2 ?? row.odd2 ?? row.available_odds?.ms2),
 });
-
-const isUsableOdd = (value) => Number.isFinite(value) && value > 1.01 && value < 100;
-const hasCompleteOneXTwo = (fixture) => {
-  const odds = oddsFor(fixture);
-  return isUsableOdd(odds.one) && isUsableOdd(odds.draw) && isUsableOdd(odds.two);
+const completeOdds = (row) => OPTIONS.every((option) => {
+  const value = odds(row)[option];
+  return Number.isFinite(value) && value > 1.01 && value < 100;
+});
+const normalized = (map) => {
+  const values = OPTIONS.map((option) => Math.max(0, Number(map?.[option]) || 0));
+  const total = values.reduce((a, b) => a + b, 0);
+  if (!total) return { "1": null, X: null, "2": null };
+  const result = {};
+  OPTIONS.forEach((option, index) => { result[option] = Number(((values[index] / total) * 100).toFixed(1)); });
+  const drift = Number((100 - OPTIONS.reduce((sum, option) => sum + result[option], 0)).toFixed(1));
+  result[OPTIONS[0]] = Number((result[OPTIONS[0]] + drift).toFixed(1));
+  return result;
 };
 
-const marketKey = { "1": "ms1", X: "msx", "2": "ms2" };
-const optionOdd = (odds, option) => option === "1" ? odds.one : option === "X" ? odds.draw : odds.two;
-
-const normalizeProbabilities = (rows) => {
-  const known = rows.map((row) => Number(row.value)).filter(Number.isFinite);
-  const total = known.reduce((sum, value) => sum + Math.max(0, value), 0);
-  if (!total) return Object.fromEntries(rows.map((row) => [row.option, null]));
-  return Object.fromEntries(rows.map((row) => [
-    row.option,
-    Number.isFinite(Number(row.value)) ? Number(((Math.max(0, Number(row.value)) / total) * 100).toFixed(1)) : null,
-  ]));
-};
-
-const parseArchiveScore = (match) => {
-  const homeScore = safeNumber(match?.homeScore ?? match?.home_score ?? match?.homeGoals ?? match?.home_goals);
-  const awayScore = safeNumber(match?.awayScore ?? match?.away_score ?? match?.awayGoals ?? match?.away_goals);
-  if (homeScore !== null && awayScore !== null) return { home: homeScore, away: awayScore };
-  const found = String(match?.score || match?.result_score || match?.final_score || "").match(/(\d+)\D+(\d+)/);
-  return found ? { home: Number(found[1]), away: Number(found[2]) } : null;
-};
-
-const archiveContext = (() => {
-  const archive = readJson(archivePath, { matches: [], team_index: {} });
-  const matches = Array.isArray(archive?.matches) ? archive.matches : [];
-  const teamIndex = archive?.team_index && typeof archive.team_index === "object" ? archive.team_index : {};
-  const indexedTeams = new Map();
-  Object.values(teamIndex).forEach((entry) => {
-    const key = cleanKey(entry?.team);
-    if (key) indexedTeams.set(key, entry);
+function validateProgram(program) {
+  if (!program || !Array.isArray(program.matches)) throw new Error("Spor Toto haftalık programı yok");
+  if (program.matches.length !== 15 || Number(program.match_count) !== 15) throw new Error(`Spor Toto programı 15 maç olmalı; bulunan ${program.matches.length}`);
+  const seen = new Set();
+  program.matches.forEach((match, index) => {
+    if (Number(match.no) !== index + 1) throw new Error(`Spor Toto maç sırası bozuk: ${match.no}`);
+    if (!match.date || !match.time || !match.home || !match.away) throw new Error(`Spor Toto program satırı eksik: ${index + 1}`);
+    const key = `${clean(match.home)}|${clean(match.away)}|${match.date}`;
+    if (seen.has(key)) throw new Error(`Spor Toto tekrar maç: ${match.home}-${match.away}`);
+    seen.add(key);
   });
-  return { matches, indexedTeams };
-})();
+  return true;
+}
 
-const recentForm = (teamName) => {
-  const key = cleanKey(teamName);
-  if (!key) return [];
-  const indexed = archiveContext.indexedTeams.get(key);
-  const recent = Array.isArray(indexed?.recent) ? indexed.recent.slice(-5) : [];
-  if (recent.length) {
-    return recent.map((row) => {
-      const direct = String(row?.result || "").toUpperCase();
-      if (["W", "D", "L"].includes(direct)) return direct;
-      const score = parseArchiveScore(row);
-      if (!score) return null;
-      return score.home > score.away ? "W" : score.home === score.away ? "D" : "L";
-    }).filter(Boolean);
+function findFixture(programMatch, fixtures) {
+  let best = null;
+  for (const fixture of fixtures) {
+    const t = teams(fixture);
+    const homeScore = similarity(programMatch.home, t.home);
+    const awayScore = similarity(programMatch.away, t.away);
+    if (homeScore < 0.45 || awayScore < 0.45) continue;
+    const sameDate = String(fixture.date || "").slice(0, 10) === programMatch.date;
+    const score = homeScore + awayScore + (sameDate ? 0.35 : 0);
+    if (!best || score > best.score) best = { fixture, score };
   }
+  return best && best.score >= 1.35 ? best.fixture : null;
+}
 
-  return archiveContext.matches
-    .filter((row) => [cleanKey(row?.home || row?.home_team_name), cleanKey(row?.away || row?.away_team_name)].includes(key))
-    .slice(-5)
-    .map((row) => {
-      const score = parseArchiveScore(row);
-      if (!score) return null;
-      const isHome = cleanKey(row?.home || row?.home_team_name) === key;
-      const gf = isHome ? score.home : score.away;
-      const ga = isHome ? score.away : score.home;
-      return gf > ga ? "W" : gf === ga ? "D" : "L";
-    })
-    .filter(Boolean);
-};
-
-const h2hFor = (home, away) => {
-  const homeKey = cleanKey(home);
-  const awayKey = cleanKey(away);
-  if (!homeKey || !awayKey) return [];
-  return archiveContext.matches
-    .filter((row) => {
-      const a = cleanKey(row?.home || row?.home_team_name);
-      const b = cleanKey(row?.away || row?.away_team_name);
-      return (a === homeKey && b === awayKey) || (a === awayKey && b === homeKey);
-    })
-    .slice(-5)
-    .map((row) => ({
-      date: String(row?.date || row?.tarih || "").slice(0, 10),
-      home: row?.home || row?.home_team_name || "",
-      away: row?.away || row?.away_team_name || "",
-      score: (() => {
-        const score = parseArchiveScore(row);
-        return score ? `${score.home}-${score.away}` : String(row?.score || "-");
-      })(),
-    }));
-};
-
-const openingOddsFor = (fixture) => ({
-  one: safeNumber(fixture.openingOne ?? fixture.oneOpen ?? fixture.openOne ?? fixture.open_ms1),
-  draw: safeNumber(fixture.openingDraw ?? fixture.drawOpen ?? fixture.openDraw ?? fixture.open_msx),
-  two: safeNumber(fixture.openingTwo ?? fixture.twoOpen ?? fixture.openTwo ?? fixture.open_ms2),
-});
-
-const squadFor = (fixture) => {
-  const home = fixture.homeMissingPlayers ?? fixture.homeInjuries ?? fixture.home_absences ?? null;
-  const away = fixture.awayMissingPlayers ?? fixture.awayInjuries ?? fixture.away_absences ?? null;
-  const normalize = (value) => Array.isArray(value) ? value.map(String).filter(Boolean).slice(0, 8) : typeof value === "string" && value.trim() ? [value.trim()] : [];
-  const homeRows = normalize(home);
-  const awayRows = normalize(away);
-  return {
-    available: Boolean(homeRows.length || awayRows.length),
-    home: homeRows,
-    away: awayRows,
-    note: homeRows.length || awayRows.length ? "Fixture kaynağındaki eksik/kadro verisi." : "Doğrulanmış eksik/kadro verisi bulunmuyor.",
-  };
-};
-
-const analysisForOption = (fixture, option, odd) => {
-  const key = marketKey[option];
-  return buildMatchAnalysis(fixture, {
-    key,
-    odd,
-    entry: { odd, source: "standard", key },
+function analyzeFixture(programMatch, fixture) {
+  if (!fixture || !completeOdds(fixture)) return null;
+  const matchOdds = odds(fixture);
+  const rows = OPTIONS.map((option) => {
+    const key = option === "1" ? "ms1" : option === "X" ? "msx" : "ms2";
+    const odd = matchOdds[option];
+    const analysis = buildMatchAnalysis(fixture, { key, odd, entry: { odd, source: "standard", key } });
+    return { option, analysis };
   });
-};
-
-const buildScoredMatch = (fixture) => {
-  const odds = oddsFor(fixture);
-  if (![odds.one, odds.draw, odds.two].every(isUsableOdd)) return null;
-  const optionRows = ["1", "X", "2"].map((option) => {
-    const odd = optionOdd(odds, option);
-    const analysis = analysisForOption(fixture, option, odd);
-    return { option, odd, analysis };
-  });
-
-  const modelProbabilities = normalizeProbabilities(optionRows.map((row) => ({
-    option: row.option,
-    value: row.analysis.estimated_probability,
-  })));
-  const marketProbabilities = normalizeProbabilities(optionRows.map((row) => ({
-    option: row.option,
-    value: row.analysis.market_probability ?? (100 / row.odd),
-  })));
-
-  const ranked = optionRows
-    .map((row) => ({
-      ...row,
-      probability: modelProbabilities[row.option] ?? marketProbabilities[row.option] ?? 0,
-      marketProbability: marketProbabilities[row.option] ?? 0,
-      edge: Number(((modelProbabilities[row.option] ?? 0) - (marketProbabilities[row.option] ?? 0)).toFixed(1)),
-    }))
-    .sort((a, b) => b.probability - a.probability || b.analysis.analysis_score - a.analysis.analysis_score);
-
-  const top = ranked[0];
-  const second = ranked[1];
-  const probabilityGap = Number((top.probability - second.probability).toFixed(1));
-  const avgCompleteness = Math.round(optionRows.reduce((sum, row) => sum + Number(row.analysis.data_completeness || 0), 0) / 3);
-  const confidence = Math.round(clamp((Number(top.analysis.analysis_score || 0) * 0.7) + (avgCompleteness * 0.3), 0, 92));
-  const memory = memoryFor(fixture, { key: marketKey[top.option] });
-  const t = teams(fixture);
-
+  const probabilities = normalized(Object.fromEntries(rows.map(({ option, analysis }) => [option, analysis.estimated_probability])));
+  const marketProbabilities = normalized(Object.fromEntries(rows.map(({ option, analysis }) => [option, analysis.market_probability])));
+  const ranked = [...OPTIONS].sort((a, b) => (probabilities[b] || 0) - (probabilities[a] || 0));
+  const top = ranked[0]; const second = ranked[1];
+  const topRow = rows.find((row) => row.option === top);
+  const completeness = Math.round(rows.reduce((sum, row) => sum + Number(row.analysis.data_completeness || 0), 0) / rows.length);
+  const confidence = Math.round(Math.max(0, Math.min(92, (Number(topRow.analysis.analysis_score || 0) * 0.72) + (completeness * 0.28))));
+  const gap = Number(((probabilities[top] || 0) - (probabilities[second] || 0)).toFixed(1));
+  const independent = Boolean(topRow.analysis.independent_evidence);
   let classification = "Kontrollü Tek";
-  let risk = "Orta";
-  if (top.probability >= 56 && probabilityGap >= 13 && confidence >= 68 && avgCompleteness >= 50) {
-    classification = "Banko Adayı";
-    risk = avgCompleteness >= 65 ? "Düşük" : "Orta";
-  } else if (top.probability < 44 || probabilityGap < 6 || confidence < 52) {
-    classification = "Çifte Şans Adayı";
-    risk = "Yüksek";
-  } else if (top.odd >= 3.25 && top.edge >= 4) {
-    classification = "Sürpriz Adayı";
-    risk = "Yüksek";
-  }
-  if (avgCompleteness < 35 || !top.analysis.independent_evidence) risk = "Yüksek";
+  if (!independent || completeness < 35) classification = "Piyasa Bazlı Tek";
+  else if ((probabilities[top] || 0) >= 58 && gap >= 14 && confidence >= 68) classification = "Banko Adayı";
+  else if ((probabilities[top] || 0) < 45 || gap < 8) classification = "Çifte Şans Adayı";
+  const risk = !independent || completeness < 35 ? "Yüksek" : confidence >= 72 && gap >= 16 ? "Düşük" : "Orta";
+  const memory = memoryFor(fixture, { key: top === "1" ? "ms1" : top === "X" ? "msx" : "ms2" });
+  return { probabilities, marketProbabilities, ranked, top, second, completeness, confidence, gap, independent, classification, risk, memory, matchOdds, analysis: topRow.analysis };
+}
 
-  const reasons = [
-    `PRO 13: ${top.option} olasılığı %${top.probability.toFixed(1)}; ikinci seçenek %${second.probability.toFixed(1)}.`,
-    `Model-piyasa farkı ${top.edge >= 0 ? "+" : ""}${top.edge.toFixed(1)} puan; veri kapsama ${avgCompleteness}/100.`,
-    ...(Array.isArray(top.analysis.signals) ? top.analysis.signals.slice(0, 2) : []),
-  ];
-
-  return {
-    fixture,
-    home: t.home,
-    away: t.away,
-    odds,
-    openingOdds: openingOddsFor(fixture),
-    probabilities: modelProbabilities,
-    marketProbabilities,
-    ranked,
-    primary: top.option,
-    secondary: second.option,
-    probabilityGap,
-    confidence,
-    dataCompleteness: avgCompleteness,
-    classification,
-    risk,
-    reasons,
-    memory,
-    recentForm: { home: recentForm(t.home), away: recentForm(t.away) },
-    h2h: h2hFor(t.home, t.away),
-    squad: squadFor(fixture),
-  };
-};
-
-const sortFixtures = (items) => [...items].sort((a, b) =>
-  String(a.date || "").localeCompare(String(b.date || ""))
-  || String(a.time || "99:99").localeCompare(String(b.time || "99:99"))
-  || String(a.home || "").localeCompare(String(b.home || ""))
-);
-
-const selectBulletinMatches = (fixtures) => {
-  const scored = fixtures.map(buildScoredMatch).filter(Boolean);
-  const strongest = [...scored]
-    .sort((a, b) => b.dataCompleteness - a.dataCompleteness
-      || b.confidence - a.confidence
-      || a.probabilityGap - b.probabilityGap
-      || String(a.fixture.date || "").localeCompare(String(b.fixture.date || ""))
-      || String(a.fixture.time || "99:99").localeCompare(String(b.fixture.time || "99:99")))
-    .slice(0, MAX_MATCHES);
-  return strongest.sort((a, b) =>
-    String(a.fixture.date || "").localeCompare(String(b.fixture.date || ""))
-    || String(a.fixture.time || "99:99").localeCompare(String(b.fixture.time || "99:99"))
-    || String(a.home).localeCompare(String(b.home))
-  );
-};
-
-const applyCouponCoverage = (matches) => {
-  const doubleIndexes = matches
-    .map((item, index) => ({
-      index,
-      uncertainty: (100 - item.confidence) + (12 - Math.min(12, item.probabilityGap)) * 2 + (item.risk === "Yüksek" ? 12 : 0),
-      qualifies: item.classification === "Çifte Şans Adayı" || item.probabilityGap < 8 || item.confidence < 58,
-    }))
-    .filter((row) => row.qualifies)
-    .sort((a, b) => b.uncertainty - a.uncertainty)
-    .slice(0, MAX_DOUBLES)
-    .map((row) => row.index);
-  const doubleSet = new Set(doubleIndexes);
-
-  return matches.map((item, index) => {
-    const selectedOptions = doubleSet.has(index) ? [item.primary, item.secondary] : [item.primary];
+function outputMatch(programMatch, fixture) {
+  const analyzed = analyzeFixture(programMatch, fixture);
+  const publicDistribution = normalized(programMatch.public_distribution || {});
+  if (!analyzed) {
     return {
-      ...item,
-      selectedOptions,
-      selection: selectedOptions.join(""),
-      columnMultiplier: selectedOptions.length,
-      couponRole: selectedOptions.length === 2 ? "Çifte Şans" : item.classification,
+      no: programMatch.no,
+      week: null,
+      date: programMatch.date,
+      time: programMatch.time,
+      league: programMatch.league || "Spor Toto",
+      home: programMatch.home,
+      away: programMatch.away,
+      match: `${programMatch.home} - ${programMatch.away}`,
+      status: fixture?.status || "scheduled",
+      source: fixture?.source || "Haftalık Spor Toto programı",
+      matchCode: fixture?.matchCode || fixture?.match_code || null,
+      one: fixture ? odds(fixture)["1"] : null,
+      draw: fixture ? odds(fixture).X : null,
+      two: fixture ? odds(fixture)["2"] : null,
+      oneOdd: fixture ? odds(fixture)["1"] : null,
+      drawOdd: fixture ? odds(fixture).X : null,
+      twoOdd: fixture ? odds(fixture)["2"] : null,
+      probabilities: { "1": null, X: null, "2": null },
+      market_probabilities: { "1": null, X: null, "2": null },
+      public_distribution: publicDistribution,
+      probability_basis: "awaiting_verified_1x2_data",
+      analysis_ready: false,
+      decision: null,
+      selected_options: [],
+      selection: null,
+      coupon_role: "Analiz Verisi Bekleniyor",
+      classification: "Analiz Verisi Bekleniyor",
+      confidence: 0,
+      confidence_score: 0,
+      risk: "Veri Bekleniyor",
+      risk_level: "Veri Bekleniyor",
+      data_completeness: 0,
+      probability_gap: null,
+      column_multiplier: 0,
+      reasons: [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        `Halk/oynanma dağılımı bilgi amaçlıdır: 1 %${publicDistribution["1"] ?? "-"}, X %${publicDistribution.X ?? "-"}, 2 %${publicDistribution["2"] ?? "-"}.`
+      ],
+      model_version: MODEL_VERSION,
+      score_type: "spor_toto_1x2",
+      form: { home: { recent: [], sample: 0 }, away: { recent: [], sample: 0 } },
+      h2h: [],
+      squad: { available: false, home: [], away: [], note: "Doğrulanmış eksik/kadro verisi bulunmuyor." }
     };
-  });
-};
-
-const normalizeOutput = (item, index, weekLabel) => {
-  const fixture = item.fixture;
-  const memoryHome = item.memory?.home || {};
-  const memoryAway = item.memory?.away || {};
+  }
+  const mh = analyzed.memory?.home || {}; const ma = analyzed.memory?.away || {};
   return {
-    no: index + 1,
-    week: weekLabel,
-    date: fixture.date || "",
-    time: fixture.time || "",
-    league: fixture.league || fixture.competition_name || "Lig",
-    home: item.home,
-    away: item.away,
-    match: `${item.home} - ${item.away}`,
+    no: programMatch.no,
+    week: null,
+    date: programMatch.date,
+    time: programMatch.time,
+    league: programMatch.league || fixture.league || "Spor Toto",
+    home: programMatch.home,
+    away: programMatch.away,
+    match: `${programMatch.home} - ${programMatch.away}`,
     status: fixture.status || fixture.liveStatus || "scheduled",
-    minute: fixture.minute ?? null,
-    score: fixture.score || "-",
-    source: fixture.source || "Maçkolik canlı robot",
+    source: fixture.source || "Futbol Laboratuvarı fixture akışı",
     matchCode: fixture.matchCode || fixture.match_code || null,
-    one: item.odds.one,
-    draw: item.odds.draw,
-    two: item.odds.two,
-    oneOdd: item.odds.one,
-    drawOdd: item.odds.draw,
-    twoOdd: item.odds.two,
-    opening_odds: item.openingOdds,
-    probabilities: item.probabilities,
-    market_probabilities: item.marketProbabilities,
-    decision: item.primary,
-    selected_options: item.selectedOptions,
-    selection: item.selection,
-    coupon_role: item.couponRole,
-    classification: item.classification,
-    confidence: item.confidence,
-    confidence_score: item.confidence,
-    risk: item.risk,
-    risk_level: item.risk,
-    data_completeness: item.dataCompleteness,
-    probability_gap: item.probabilityGap,
-    column_multiplier: item.columnMultiplier,
-    reasons: item.reasons,
+    one: analyzed.matchOdds["1"], draw: analyzed.matchOdds.X, two: analyzed.matchOdds["2"],
+    oneOdd: analyzed.matchOdds["1"], drawOdd: analyzed.matchOdds.X, twoOdd: analyzed.matchOdds["2"],
+    probabilities: analyzed.probabilities,
+    market_probabilities: analyzed.marketProbabilities,
+    public_distribution: publicDistribution,
+    probability_basis: analyzed.independent ? "market_plus_independent" : "verified_market_baseline",
+    analysis_ready: true,
+    decision: analyzed.top,
+    selected_options: [analyzed.top],
+    selection: analyzed.top,
+    coupon_role: analyzed.classification,
+    classification: analyzed.classification,
+    confidence: analyzed.confidence,
+    confidence_score: analyzed.confidence,
+    risk: analyzed.risk,
+    risk_level: analyzed.risk,
+    data_completeness: analyzed.completeness,
+    probability_gap: analyzed.gap,
+    column_multiplier: 1,
+    reasons: [
+      `PRO 13: ${analyzed.top} olasılığı %${analyzed.probabilities[analyzed.top].toFixed(1)}; ikinci seçenek %${analyzed.probabilities[analyzed.second].toFixed(1)}.`,
+      analyzed.independent ? "Karar doğrulanmış piyasa verisi ve bağımsız sonuç hafızasıyla sınandı." : "Bağımsız sonuç hafızası sınırlı; karar doğrulanmış 1-X-2 piyasa tabanı olarak işaretlendi.",
+      ...(Array.isArray(analyzed.analysis?.signals) ? analyzed.analysis.signals.slice(0, 2) : [])
+    ],
     model_version: MODEL_VERSION,
     score_type: "spor_toto_1x2",
+    independent_evidence: analyzed.independent,
     form: {
-      home: {
-        recent: item.recentForm.home,
-        sample: Number(memoryHome.count || 0),
-        wins: Number(memoryHome.wins || 0),
-        draws: Number(memoryHome.draws || 0),
-        losses: Number(memoryHome.losses || 0),
-        ppg: Number(memoryHome.pointsPerGame || 0),
-        goals_for_avg: Number(memoryHome.goalsForAvg || 0),
-        goals_against_avg: Number(memoryHome.goalsAgainstAvg || 0),
-      },
-      away: {
-        recent: item.recentForm.away,
-        sample: Number(memoryAway.count || 0),
-        wins: Number(memoryAway.wins || 0),
-        draws: Number(memoryAway.draws || 0),
-        losses: Number(memoryAway.losses || 0),
-        ppg: Number(memoryAway.pointsPerGame || 0),
-        goals_for_avg: Number(memoryAway.goalsForAvg || 0),
-        goals_against_avg: Number(memoryAway.goalsAgainstAvg || 0),
-      },
+      home: { recent: [], sample: Number(mh.count || 0), wins: Number(mh.wins || 0), draws: Number(mh.draws || 0), losses: Number(mh.losses || 0), ppg: Number(mh.pointsPerGame || 0), goals_for_avg: Number(mh.goalsForAvg || 0), goals_against_avg: Number(mh.goalsAgainstAvg || 0) },
+      away: { recent: [], sample: Number(ma.count || 0), wins: Number(ma.wins || 0), draws: Number(ma.draws || 0), losses: Number(ma.losses || 0), ppg: Number(ma.pointsPerGame || 0), goals_for_avg: Number(ma.goalsForAvg || 0), goals_against_avg: Number(ma.goalsAgainstAvg || 0) }
     },
-    h2h: item.h2h,
-    squad: item.squad,
+    h2h: [],
+    squad: { available: false, home: [], away: [], note: "Doğrulanmış eksik/kadro verisi bulunmuyor." }
   };
-};
+}
 
-const validateBulletin = (bulletin) => {
-  if (!bulletin || !Array.isArray(bulletin.matches)) throw new Error("Spor Toto bülteni geçersiz: matches yok");
-  const invalid = bulletin.matches.filter((item) => !item.home || !item.away || !["1", "X", "2"].includes(item.decision));
-  if (invalid.length) throw new Error(`Spor Toto bülteni geçersiz karar içeriyor: ${invalid.length}`);
-  const badProbability = bulletin.matches.filter((item) => {
-    const values = [item.probabilities?.["1"], item.probabilities?.X, item.probabilities?.["2"]].map(Number);
-    const sum = values.reduce((a, b) => a + b, 0);
-    return values.some((value) => !Number.isFinite(value)) || Math.abs(sum - 100) > 0.3;
+function validateBulletin(payload) {
+  if (!payload || !Array.isArray(payload.matches) || payload.matches.length !== 15) throw new Error("Spor Toto bülteni tam 15 maç içermeli");
+  payload.matches.forEach((match, index) => {
+    if (Number(match.no) !== index + 1) throw new Error(`Spor Toto sıra hatası: ${match.no}`);
+    if (!match.home || !match.away) throw new Error(`Spor Toto takım bilgisi eksik: ${index + 1}`);
+    if (match.analysis_ready) {
+      if (!OPTIONS.includes(match.decision)) throw new Error(`Hazır analizde geçersiz karar: ${match.match}`);
+      const sum = OPTIONS.reduce((total, option) => total + Number(match.probabilities?.[option] || 0), 0);
+      if (Math.abs(sum - 100) > 0.3) throw new Error(`Hazır analiz olasılık toplamı hatalı: ${match.match}`);
+    } else if (match.decision !== null || OPTIONS.some((option) => match.probabilities?.[option] !== null)) {
+      throw new Error(`Veri bekleyen maçta tahmin üretildi: ${match.match}`);
+    }
   });
-  if (badProbability.length) throw new Error(`Spor Toto olasılık toplamı hatalı: ${badProbability.length}`);
   return true;
-};
+}
 
-const run = () => {
+function run() {
+  const program = readJson(programPath, null);
+  validateProgram(program);
   const fixtures = readJson(fixturesPath, []);
-  const sourceMatches = Array.isArray(fixtures) ? fixtures : [];
-  const today = trDate(0);
-  const tomorrow = trDate(1);
-  const weekLabel = `${today} / ${trDate(6)}`;
-  const sourceWindowMatches = sourceMatches.filter((fixture) => [today, tomorrow].includes(String(fixture.date || "").slice(0, 10)));
-  const activeMatches = sortFixtures(filterActiveBulletinMatches(sourceWindowMatches));
-  const eligibleMatches = activeMatches.filter(hasCompleteOneXTwo);
-  const selected = applyCouponCoverage(selectBulletinMatches(eligibleMatches));
-  const matches = selected.map((item, index) => normalizeOutput(item, index, weekLabel));
-  const removedInactiveCount = countInactiveBulletinMatches(sourceWindowMatches);
-  const totalColumns = matches.reduce((total, item) => total * Math.max(1, Number(item.column_multiplier || 1)), 1);
-  const doubles = matches.filter((item) => Number(item.column_multiplier) === 2).length;
-  const averageConfidence = matches.length ? Math.round(matches.reduce((sum, item) => sum + Number(item.confidence || 0), 0) / matches.length) : 0;
-  const averageCompleteness = matches.length ? Math.round(matches.reduce((sum, item) => sum + Number(item.data_completeness || 0), 0) / matches.length) : 0;
-
-  const bulletin = {
+  const list = Array.isArray(fixtures) ? fixtures : [];
+  const matches = program.matches.map((programMatch) => outputMatch(programMatch, findFixture(programMatch, list)));
+  matches.forEach((match) => { match.week = program.week_label; });
+  const ready = matches.filter((match) => match.analysis_ready);
+  const output = {
     generated_at: new Date().toISOString(),
     timezone: "Europe/Istanbul",
-    source: "Futbol Laboratuvarı PRO 13 + Maçkolik 1-X-2 oranları + sonuç hafızası",
+    source: "Haftalık Spor Toto programı + Futbol Laboratuvarı PRO 13",
+    official_game_format_verified: true,
     official_bulletin: false,
-    bulletin_note: "Bu alan resmî Spor Toto bülteni değildir; Futbol Laboratuvarı'nın güncel 15 maçlık 1-X-2 analiz çalışma listesidir.",
-    engine_version: `spor-toto-pro-${MODEL_VERSION}`,
-    week_label: weekLabel,
-    total_source_matches: sourceWindowMatches.length,
-    active_match_count: activeMatches.length,
-    eligible_1x2_match_count: eligibleMatches.length,
-    removed_finished_count: removedInactiveCount,
-    removed_statuses: ["finished", "cancelled", "postponed"],
-    match_count: matches.length,
+    program_verification_status: program.verification_status || "verified_seed",
+    bulletin_note: "Spor Toto oyunu haftalık 15 maçtır. Bu liste haftalık program kaynaklarıyla çapraz doğrulanır; Futbol Laboratuvarı yalnız doğrulanmış kendi verisi geldiğinde model tahmini üretir.",
+    engine_version: `spor-toto-weekly15-${MODEL_VERSION}`,
+    season: program.season,
+    week: program.week,
+    week_label: program.week_label,
+    program_start: program.program_start,
+    program_end: program.program_end,
+    match_count: 15,
+    analysis_ready_count: ready.length,
+    analysis_waiting_count: 15 - ready.length,
+    source_match_count: list.length,
+    verification_sources: program.sources || [],
     coupon: {
-      total_columns: matches.length ? totalColumns : 0,
-      single_count: matches.length - doubles,
-      double_count: doubles,
+      ready: ready.length === 15,
+      total_columns: ready.length === 15 ? 1 : 0,
+      single_count: ready.length,
+      double_count: 0,
       triple_count: 0,
-      average_confidence: averageConfidence,
-      average_data_completeness: averageCompleteness,
+      average_confidence: ready.length ? Math.round(ready.reduce((sum, match) => sum + Number(match.confidence || 0), 0) / ready.length) : 0,
+      average_data_completeness: ready.length ? Math.round(ready.reduce((sum, match) => sum + Number(match.data_completeness || 0), 0) / ready.length) : 0,
       unit_stake: null,
       estimated_cost: null,
-      note: "Parasal maliyet için güncel resmî birim kolon bedeli ayrıca doğrulanmalıdır; sistem uydurma ücret göstermez.",
+      note: ready.length === 15 ? "15 maçın tamamı analiz için hazır." : `${15 - ready.length} maç için doğrulanmış 1-X-2 veri bekleniyor; eksik veriyle kupon üretilmez.`
     },
-    matches,
+    matches
   };
-
-  validateBulletin(bulletin);
-
-  const rows = matches.map((match) =>
-    `- ${match.no}. ${match.date} ${match.time || "--:--"} | ${match.home} - ${match.away} | ${match.selection} | Güven ${match.confidence}/100 | Risk ${match.risk} | Veri ${match.data_completeness}/100`
-  ).join("\n");
-  const report = `# Spor Toto PRO Bülten Raporu\n\n- Güncelleme: ${bulletin.generated_at}\n- Motor: ${bulletin.engine_version}\n- Ham bugün/yarın maç: ${sourceWindowMatches.length}\n- Aktif maç: ${activeMatches.length}\n- Tam 1-X-2 oranlı maç: ${eligibleMatches.length}\n- Analiz listesi: ${matches.length}\n- Çifte şans: ${doubles}\n- Toplam kolon: ${bulletin.coupon.total_columns}\n- Ortalama güven: ${averageConfidence}/100\n- Ortalama veri kapsama: ${averageCompleteness}/100\n- Not: ${bulletin.bulletin_note}\n\n${rows || "Uygun maç bekleniyor."}\n`;
-
-  writeText(bulletinPath, `${JSON.stringify(bulletin, null, 2)}\n`);
-  writeText(reportPath, report);
-  console.log(`Spor Toto PRO rebuilt. Active=${activeMatches.length}, eligible=${eligibleMatches.length}, visible=${matches.length}, doubles=${doubles}, columns=${bulletin.coupon.total_columns}.`);
-  return bulletin;
-};
+  validateBulletin(output);
+  writeJson(bulletinPath, output);
+  const report = [
+    "# Spor Toto Haftalık 15 Maç Raporu",
+    "",
+    `- Güncelleme: ${output.generated_at}`,
+    `- Hafta: ${output.week_label}`,
+    `- Program: ${output.program_start} / ${output.program_end}`,
+    `- Program maçı: ${output.match_count}`,
+    `- Analize hazır: ${output.analysis_ready_count}`,
+    `- Veri bekleyen: ${output.analysis_waiting_count}`,
+    `- Motor: ${output.engine_version}`,
+    "",
+    ...matches.map((match) => `- ${match.no}. ${match.date} ${match.time} | ${match.home} - ${match.away} | ${match.analysis_ready ? `${match.decision} / güven ${match.confidence}` : "veri bekleniyor"}`)
+  ].join("\n");
+  fs.mkdirSync(path.dirname(reportPath), { recursive: true });
+  fs.writeFileSync(reportPath, `${report}\n`, "utf8");
+  console.log(`Spor Toto weekly 15 rebuilt. Week=${output.week_label}, matches=15, ready=${ready.length}, waiting=${15 - ready.length}.`);
+  return output;
+}
 
 if (require.main === module) run();
-module.exports = {
-  run,
-  buildScoredMatch,
-  selectBulletinMatches,
-  applyCouponCoverage,
-  validateBulletin,
-};
+module.exports = { run, validateProgram, validateBulletin, findFixture, similarity };
