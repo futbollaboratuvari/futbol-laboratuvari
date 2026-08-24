@@ -93,10 +93,12 @@ try {
   console.warn(`PRO analiz indeksi atlandi: ${error.message}`);
 }
 
-// Vercel build ağdan haftalık program aramaz. GitHub'da iki bağımsız kaynaktan
-// doğrulanmış ve repoya kaydedilmiş son sağlam 15 maçlık programı kullanır.
-// Böylece dış kaynak geçici kapanırsa production günlük rastgele 15 maça düşmez.
+// Vercel build ağdan veri toplamaz; GitHub Actions tarafından doğrulanıp repoya
+// kaydedilmiş haftalık 15 maç programı ve çoklu-market cache'i kullanılır.
+// Böylece production build hem deterministik kalır hem de günlük fixture listesi
+// Spor Toto programının üzerine yazamaz.
 require("./rebuild-spor-toto-bulletin").run();
+require("./apply-spor-toto-weekly-market").run();
 require("./finalize-spor-toto-pro").run();
 require("../tests/spor-toto-weekly.test");
 
