@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-24T09:27:47.966Z
+- Güncelleme: 2026-08-24T09:57:24.789Z
 - Ham maç sayısı: 76
 - Yarın bülteni maç sayısı: 10
 - Detay blok sayısı: 216
@@ -13,14 +13,14 @@
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sabah - Imigresen | Malezya Süper Lig | 15:15 | Veri bekleniyor | - | 1.95 | 8 |
-| Kamaz - Pfc Sochi | Rusya FNL | 17:30 | Veri bekleniyor | - | 3.32 | 8 |
+| Kamaz - Pfc Sochi | Rusya FNL | 17:30 | Veri bekleniyor | - | 2.9 | 8 |
 | Isloch - Dinamo Minsk | Belarus Premier Lig | 17:30 | Veri bekleniyor | - | 2.89 | 8 |
-| Tractor Fc - Persepolis | İran Persian Gulf Pro Lig | 18:00 | Veri bekleniyor | - | 2.05 | 8 |
-| Hellas Verona - Cesena U20 | İtalya Primavera Şampiyonası 1 | 18:00 | Veri bekleniyor | - | 2.38 | 8 |
+| Tractor Fc - Persepolis | İran Persian Gulf Pro Lig | 18:00 | Veri bekleniyor | - | 2.07 | 8 |
+| Hellas Verona - Cesena U20 | İtalya Primavera Şampiyonası 1 | 18:00 | Veri bekleniyor | - | 2.8 | 8 |
 | Lokomotiva Zvo - Petrzalka | Slovakya 2.Lig | 18:00 | Veri bekleniyor | - | 3.34 | 8 |
 | Young Africans - Jkt Tanzania | Tanzanya Kuu Bara Ligi | 18:00 | Veri bekleniyor | - | - | 5 |
 | Rotor Volgogra - Neftekhimik | Rusya FNL | 18:30 | Veri bekleniyor | - | 1.42 | 7 |
-| Botosani - Csikszereda | Romanya 1.Lig | 18:30 | Veri bekleniyor | - | 1.45 | 7 |
+| Botosani - Csikszereda | Romanya 1.Lig | 18:30 | Veri bekleniyor | - | 1.5 | 8 |
 | Transinvest Vi - Fa Siauliai | Litvanya A Ligi | 18:45 | Veri bekleniyor | - | 1.37 | 7 |
 | Würzburger Kic - Köln | Almanya DFB Kupası 1.Tur | 19:00 | Veri bekleniyor | - | 7.29 | 6 |
 | Altglienicke - Wolfsburg | Almanya DFB Kupası 1.Tur | 19:00 | Veri bekleniyor | - | 12.1 | 5 |
@@ -28,12 +28,12 @@
 | Botev Vratsa - Botev Plovdiv | Bulgaristan 1.Lig | 19:00 | Veri bekleniyor | - | 3.19 | 8 |
 | Kheybar Khorra - Peykan | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.32 | 8 |
 | Malavan Fc - Fajr Sepasi | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.06 | 6 |
-| Zob Ahan Fc - Mes Shahr-E Bab | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 2.01 | 6 |
-| Mainz 05 (K) - Werder Bremen ( | Almanya Kadınlar Bundesliga | 19:00 | Veri bekleniyor | - | 4.72 | 7 |
-| Riga Ii - Riga Mariners | Letonya 1.Lig | 19:00 | Veri bekleniyor | - | 3.86 | 6 |
+| Zob Ahan Fc - Mes Shahr-E Bab | İran Persian Gulf Pro Lig | 19:00 | Veri bekleniyor | - | 1.98 | 6 |
+| Mainz 05 (K) - Werder Bremen ( | Almanya Kadınlar Bundesliga | 19:00 | Veri bekleniyor | - | 4.85 | 7 |
+| Riga Ii - Riga Mariners | Letonya 1.Lig | 19:00 | Veri bekleniyor | - | 3.96 | 6 |
 | Bologna - Lazio | İtalya Serie A | 19:30 | Veri bekleniyor | - | 2.05 | 8 |
 | Gol Gohar Sirj - Chadormalu | İran Persian Gulf Pro Lig | 19:30 | Veri bekleniyor | - | 2.28 | 8 |
-| Veles - Arsenal Tula | Rusya FNL | 19:30 | Veri bekleniyor | - | 2.63 | 8 |
+| Veles - Arsenal Tula | Rusya FNL | 19:30 | Veri bekleniyor | - | 2.72 | 8 |
 | Neom Sc - Al-Qadsiah | Suudi Arabistan Pro Lig | 19:40 | Veri bekleniyor | - | 4.4 | 7 |
 | Celta Vigo Ii - Fc Andorra | İspanya 2.Lig | 20:00 | Veri bekleniyor | - | 3 | 8 |
 | Brondby - Silkeborg | Danimarka Süperlig | 20:00 | Veri bekleniyor | - | 1.29 | 7 |
@@ -42,14 +42,14 @@
 | Ostersund - Ljungskile | İsveç Superettan | 20:00 | Veri bekleniyor | - | 1.72 | 8 |
 | Varnamo - Landskrona | İsveç Superettan | 20:00 | Veri bekleniyor | - | 2.06 | 8 |
 | Sanat Naft - Foolad Khuzesta | İran Persian Gulf Pro Lig | 20:00 | Veri bekleniyor | - | 3.87 | 6 |
-| Olimpiyets - Ska-Khabarovsk | Rusya FNL | 20:00 | Veri bekleniyor | - | 1.15 | 6 |
+| Olimpiyets - Ska-Khabarovsk | Rusya FNL | 20:00 | Veri bekleniyor | - | 1.14 | 6 |
 | Rzeszow - Ruch Chorzow | Polonya 1.Lig | 20:00 | Veri bekleniyor | - | 3.4 | 8 |
 | Milan U20 - Torino U20 | İtalya Primavera Şampiyonası 1 | 20:00 | Veri bekleniyor | - | 2.07 | 8 |
 | Norrkoping - Falkenberg | İsveç Superettan | 20:05 | Veri bekleniyor | - | 1.38 | 7 |
-| Osasuna - Levante | İspanya LaLiga | 20:30 | Veri bekleniyor | - | 1.68 | 8 |
+| Osasuna - Levante | İspanya LaLiga | 20:30 | Veri bekleniyor | - | 1.67 | 8 |
 | Baltika Kalini - Rubin Kazan | Rusya Premier Lig | 20:30 | Veri bekleniyor | - | 1.86 | 8 |
 | Torpedo Zhodin - Dnepr Mogilev | Belarus Premier Lig | 20:30 | Veri bekleniyor | - | 1.6 | 8 |
-| Al Ittihad (Ci - Al Hazm | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 1.34 | 7 |
+| Al Ittihad (Ci - Al Hazm | Suudi Arabistan Pro Lig | 21:00 | Veri bekleniyor | - | 1.32 | 7 |
 | Utrecht (Ii) - Heracles | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 4.17 | 7 |
 | Psv (B) - Oss | Hollanda Eerste Divisie | 21:00 | Veri bekleniyor | - | 1.45 | 8 |
 | Sunderland (B) - Nottingham Fore | İngiltere Premier Lig 2 | 21:00 | Veri bekleniyor | - | 2.32 | 6 |
@@ -66,7 +66,7 @@
 | Hallescher - Schalke | Almanya DFB Kupası 1.Tur | 21:45 | Veri bekleniyor | - | 7.52 | 6 |
 | Reims - Annecy | Fransa Ligue 2 | 21:45 | Veri bekleniyor | - | 1.66 | 8 |
 | Fulham - Chelsea | İngiltere Premier Lig | 22:00 | Veri bekleniyor | - | 3.62 | 8 |
-| Folgore Carate - Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | Veri bekleniyor | - | 2.06 | 8 |
+| Folgore Carate - Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | Veri bekleniyor | - | 1.91 | 8 |
 | Reggiana - Ravenna | İtalya Serie C Grup B | 22:00 | Veri bekleniyor | - | 1.94 | 8 |
 | Salernitana - Sorrento Calcio | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 1.38 | 7 |
 | Crotone - Foggia | İtalya Serie C Grup C | 22:00 | Veri bekleniyor | - | 2.06 | 8 |
@@ -76,7 +76,7 @@
 | Gil Vicente - Casa Pia | Portekiz Premier Lig | 22:15 | Veri bekleniyor | - | 1.52 | 7 |
 | Feirense - Porto (B) | Portekiz 2.Lig | 22:15 | Veri bekleniyor | - | 1.85 | 8 |
 | Breidablik - Fram | İzlanda Urvalsdeild | 22:15 | Veri bekleniyor | - | 2.18 | 6 |
-| Malaga - D.La Coruna | İspanya LaLiga | 22:30 | Veri bekleniyor | - | 2.16 | 8 |
+| Malaga - D.La Coruna | İspanya LaLiga | 22:30 | Veri bekleniyor | - | 2.14 | 8 |
 | Granada - Mallorca | İspanya 2.Lig | 22:30 | Veri bekleniyor | - | 2.84 | 8 |
 | Tigre - Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | Veri bekleniyor | - | 1.4 | 7 |
 | Sport Recife - America Mineiro | Brezilya Serie B | 01:30 | Veri bekleniyor | - | 1.44 | 7 |
