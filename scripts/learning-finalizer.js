@@ -20,6 +20,10 @@ function parse(score) {
 }
 
 function settle(market, score) {
+  const normalizedMarket = String(market || "").toLocaleLowerCase("tr-TR");
+  if (/güncel maç değil|guncel mac degil|değerli (market|seçenek) yok|degerli (market|secenek) yok|oynama|belirsiz/.test(normalizedMarket)) {
+    return "void";
+  }
   const s = parse(score);
   if (!s) return "pending";
   const h = s[0], a = s[1], total = h + a, both = h > 0 && a > 0;
@@ -76,7 +80,11 @@ function runLearningFinalizer() {
       ...item,
       status: next,
       finalized_at: new Date().toISOString(),
-      learning_note: next === "won" ? "Tahmin doğru sonuçlandı." : "Tahmin yanlış sonuçlandı."
+      learning_note: next === "won"
+        ? "Tahmin doğru sonuçlandı."
+        : next === "lost"
+          ? "Tahmin yanlış sonuçlandı."
+          : "Tahmin ölçüm dışı bırakıldı."
     };
   });
   memory.predictions = predictions;
@@ -87,6 +95,7 @@ function runLearningFinalizer() {
     pending_predictions: predictions.filter((x) => x.status === "pending").length,
     won_predictions: predictions.filter((x) => x.status === "won").length,
     lost_predictions: predictions.filter((x) => x.status === "lost").length,
+    void_predictions: predictions.filter((x) => x.status === "void").length,
     last_finalizer_checked: checked,
     last_finalizer_updated: updated
   };

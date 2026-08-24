@@ -103,6 +103,7 @@ test("final skor tahmini doğru ve yanlış olarak sonuçlandırır", () => {
   assert.equal(settle("MS 1", "2-1"), "won");
   assert.equal(settle("MS X", "2-1"), "lost");
   assert.equal(settle("2.5 Üst", "2-1"), "won");
+  assert.equal(settle("Güncel maç değil", "0-0"), "void");
 });
 
 test("sonuçlanan tahmin yeni analiz turunda tekrar pending olmaz", () => {
