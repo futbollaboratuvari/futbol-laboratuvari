@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T15:08:16.103Z
+- Güncelleme: 2026-08-24T15:10:19.578Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -53,7 +53,7 @@
 | Sunderland (B) VS Nottingham Fore | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Manchester Uni VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.57 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Reading (B) VS Derby County U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.68 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.41 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.36 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Man City U21 VS Wolverhampton U | İngiltere Premier Lig 2 | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Lokomotiv Plov VS Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | MS 2 | 1.86 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Kocaelispor VS Amed Sk | Türkiye Süper Lig | 21:30 | 2.5 Alt | 1.48 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
