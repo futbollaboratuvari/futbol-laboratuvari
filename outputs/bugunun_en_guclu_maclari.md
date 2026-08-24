@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T22:44:02.342Z
+- Güncelleme: 2026-08-24T22:56:12.731Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -115,7 +115,7 @@
 | Peterhead VS Dundee Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Fraserburgh VS Aberdeen Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 2.04 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | East Fife VS St. Mirren Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Cumbernauld Co VS Kilmarnock Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 2.09 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Cumbernauld Co VS Kilmarnock Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Ross County VS Banks O Dee | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Al Jawiya VS Gaz Al-Shamal | Irak Premier Lig | 21:45 | MS 1 | 1.30 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Redcar Athleti VS Afc Emley | İngiltere Non League Premier Kuzey | 21:45 | MS 1 | 1.54 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -123,7 +123,7 @@
 | Cleethorpes To VS Whitby Town | İngiltere Non League Premier Kuzey | 21:45 | MS 1 | 1.44 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bamber Bridge VS United Of Manch | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bury VS Lancaster City | İngiltere Non League Premier Kuzey | 21:45 | MS 1 | 1.40 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Guiseley VS Stockton Town | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Alt | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Guiseley VS Stockton Town | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Alt | 1.63 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Quorn VS Gainsborough Tr | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Üst | 1.64 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Warrington Tow VS Curzon Ashton | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Üst | 1.62 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Alfreton VS Hyde | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -136,7 +136,7 @@
 | General Caball VS Rubio Nu | Paraguay Kupa 3.Tur | 22:00 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Sporting Cp U2 VS Benfica U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Alt | 1.83 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Afturelding VS Grotta | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Deportivo Madr VS Godoy Cruz | Arjantin Ulusal Primera Lig | 01:00 | MS 1 | 2.13 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Deportivo Madr VS Godoy Cruz | Arjantin Ulusal Primera Lig | 01:00 | MS 1 | 2.09 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Atletico Goian VS Botafogo Ribeir | Brezilya Serie B | 01:30 | MS 1 | 1.86 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Juventude VS Regatas | Brezilya Serie B | 01:30 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Universitario VS Nacional Potosi | Bolivya Premier Lig | 02:00 | MS 2 | 2.16 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
