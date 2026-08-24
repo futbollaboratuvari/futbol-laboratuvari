@@ -65,7 +65,9 @@ jobs:
         run: |
           node scripts/sync-spor-toto-weekly-program.js || true
           node scripts/rebuild-spor-toto-bulletin.js
+          node scripts/apply-spor-toto-weekly-market.js
           node scripts/finalize-spor-toto-pro.js
+          node tests/spor-toto-market.test.js
           node tests/spor-toto-weekly.test.js
 
       - name: Commit and push outputs
