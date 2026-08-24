@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T23:40:39.173Z
+- Güncelleme: 2026-08-24T23:49:15.742Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -71,7 +71,7 @@
 | Magdeburg Ii VS Chemie Leipzig | Almanya Bölgesel Lig Kuzey Doğu | 20:00 | MS 1 | 2.11 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Zalgiris Ii VS Transinvest Vil | Litvanya 1.Lig | 20:00 | MS 1 | 1.37 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bk Skjold VS Espergaerde | Danimarka DBU Kupası 2.Tur | 20:30 | MS 2 | 2.11 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Kruger United VS Durban City | Güney Afrika PSL | 20:30 | MS 2 | 2.21 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Kruger United VS Durban City | Güney Afrika PSL | 20:30 | MS 2 | 2.14 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Marumo Gallant VS Ts Galaxy | Güney Afrika PSL | 20:30 | MS 1 | 2.24 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Siwelele VS Chippa United | Güney Afrika PSL | 20:30 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Orlando Pirate VS Sekhukhune Unit | Güney Afrika PSL | 20:30 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
