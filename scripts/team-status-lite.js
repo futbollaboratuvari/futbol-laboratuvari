@@ -139,10 +139,10 @@ function combineRisk(homeRisk, awayRisk) {
 }
 
 function buildTeamStatusSignals() {
-  const live = readJson(path.join(dataDir, 'live-matches.json'), { matches: [] }).matches || [];
-  const analysis = readJson(path.join(dataDir, 'robot-analysis.json'), { matches: [] }).matches || [];
   const full = readJson(path.join(dataDir, 'full-bulletin.json'), { matches: [] }).matches || [];
-  const rows = live.length ? live : (full.length ? full : analysis);
+  const analysis = readJson(path.join(dataDir, 'robot-analysis.json'), { matches: [] }).matches || [];
+  const live = readJson(path.join(dataDir, 'live-matches.json'), { matches: [] }).matches || [];
+  const rows = full.length ? full : (analysis.length ? analysis : live);
   const manualDb = readJson(path.join(dataDir, 'team-status-manual.json'), { teams: {} });
   const autoDb = readJson(path.join(dataDir, 'team-status-auto.json'), { teams: {} });
   const matches = rows.map((row) => {
@@ -171,7 +171,7 @@ function buildTeamStatusSignals() {
     generated_at: new Date().toISOString(),
     date: todayTR(),
     match_count: matches.length,
-    policy: 'Manual verified data and approved public-source signals are merged. Missing news is not treated as proof of a healthy squad.',
+    policy: 'Manual verified data and approved public-source signals are merged for the full upcoming bulletin. Missing news is not treated as proof of a healthy squad.',
     matches
   };
   writeJson(path.join(dataDir, 'team-status-signals.json'), output);
