@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T15:19:14.034Z
+- Güncelleme: 2026-08-24T15:21:17.331Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -73,7 +73,7 @@
 | Sporting Braga VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Alt | 1.89 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Gil Vicente VS Casa Pia | Portekiz Premier Lig | 22:15 | 2.5 Alt | 1.44 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Feirense VS Porto (B) | Portekiz 2.Lig | 22:15 | 2.5 Alt | 1.41 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Breidablik VS Fram | İzlanda Urvalsdeild | 22:15 | 2.5 Alt | 1.36 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Breidablik VS Fram | İzlanda Urvalsdeild | 22:15 | 2.5 Alt | 1.37 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Malaga VS D.La Coruna | İspanya LaLiga | 22:30 | 2.5 Alt | 1.47 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Granada VS Mallorca | İspanya 2.Lig | 22:30 | 2.5 Alt | 1.40 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Tigre VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
