@@ -131,6 +131,24 @@ function buildPrediction(item, date, liveMap) {
   };
 }
 
+function mergePrediction(old, next, nowIso = new Date().toISOString()) {
+  const oldIsSettled = ["won", "lost", "void"].includes(old?.status);
+  const nextHasNoResult = next?.status === "pending" && !next?.result_score;
+  return {
+    ...old,
+    ...next,
+    ...(oldIsSettled && nextHasNoResult ? {
+      status: old.status,
+      result_score: old.result_score,
+      finalized_at: old.finalized_at,
+      score_linked_at: old.score_linked_at,
+      learning_note: old.learning_note || "Sonuç işlendi.",
+    } : {}),
+    created_at: old?.created_at || next.created_at,
+    updated_at: nowIso,
+  };
+}
+
 function makeBucket() {
   return {
     total: 0,
@@ -267,12 +285,7 @@ function runLearningMemory() {
       existing.set(prediction.id, prediction);
       added += 1;
     } else {
-      const merged = {
-        ...old,
-        ...prediction,
-        created_at: old.created_at || prediction.created_at,
-        updated_at: new Date().toISOString()
-      };
+      const merged = mergePrediction(old, prediction);
       if (old.status !== merged.status || old.result_score !== merged.result_score || old.analysis_score !== merged.analysis_score) updated += 1;
       existing.set(prediction.id, merged);
     }
@@ -319,5 +332,6 @@ module.exports = {
   runLearningMemory,
   evaluateMarket,
   canonicalMarket,
-  buildMemory
+  buildMemory,
+  mergePrediction,
 };

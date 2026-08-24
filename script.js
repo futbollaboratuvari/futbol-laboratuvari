@@ -142,6 +142,125 @@ const analysisCommentCard = (item, index) => `
   </article>
 `;
 
+const resultOutcome = (value) => {
+  const status = String(value || "").toLocaleLowerCase("tr-TR");
+  if (["won", "kazandı", "kazandi", "doğru", "dogru"].includes(status)) return { key: "won", label: "Doğru" };
+  if (["lost", "kaybetti", "yanlış", "yanlis"].includes(status)) return { key: "lost", label: "Yanlış" };
+  if (["void", "iptal", "iade"].includes(status)) return { key: "pending", label: "İade" };
+  return { key: "pending", label: "Bekliyor" };
+};
+
+const resultDateLabel = (value) => {
+  const [year, month, day] = String(value || "").slice(0, 10).split("-");
+  return year && month && day ? `${day}.${month}.${year}` : "-";
+};
+
+const normalizeCompletedResult = (item) => {
+  const outcome = resultOutcome(item?.status || item?.result);
+  return {
+    date: item?.date || "",
+    match: item?.match || item?.title || item?.match_name || "Maç",
+    prediction: item?.prediction || item?.market || "-",
+    odds: item?.odds || item?.estimated_odds || "-",
+    score: item?.result_score || item?.score || item?.final_score || "-",
+    confidence: item?.confidence || item?.confidence_score || "-",
+    outcome,
+  };
+};
+
+const performanceFromPayload = (payload) => {
+  const completed = (Array.isArray(payload?.completed_items) ? payload.completed_items : []).map(normalizeCompletedResult);
+  const fallbackWon = completed.filter((item) => item.outcome.key === "won").length;
+  const fallbackLost = completed.filter((item) => item.outcome.key === "lost").length;
+  const source = payload?.performance || {};
+  const won = Number(source.won_count ?? fallbackWon) || 0;
+  const lost = Number(source.lost_count ?? fallbackLost) || 0;
+  const measured = Number(source.measured_count ?? (won + lost)) || 0;
+  const pending = Number(source.pending_count ?? 0) || 0;
+  const predictionCount = Number(source.prediction_count ?? (measured + pending)) || 0;
+  const rateValue = source.success_rate === null || source.success_rate === undefined
+    ? (measured ? Math.round((won / measured) * 100) : null)
+    : Number(source.success_rate);
+  return {
+    predictionCount,
+    measured,
+    pending,
+    won,
+    lost,
+    successRate: Number.isFinite(rateValue) ? Math.max(0, Math.min(100, Math.round(rateValue))) : null,
+    groups: Array.isArray(source.groups) ? source.groups : [],
+  };
+};
+
+const performanceCards = (payload) => {
+  const summary = performanceFromPayload(payload);
+  const overall = {
+    value: summary.successRate === null ? "—" : summary.successRate,
+    unit: summary.successRate === null ? "" : "%",
+    label: "Genel başarı",
+    detail: summary.measured ? `${summary.won} doğru · ${summary.lost} yanlış` : "Sonuç doğrulanınca hesaplanır",
+    rate: summary.successRate,
+    state: summary.measured ? "measured" : "waiting",
+  };
+  if (!summary.measured) {
+    return [
+      overall,
+      { value: summary.predictionCount, unit: "", label: "Kaydedilen tahmin", detail: "Ölçüm havuzundaki toplam kayıt", rate: null, state: "neutral" },
+      { value: summary.pending, unit: "", label: "Skor bekleyen", detail: "Final skor kaynağıyla eşleşecek", rate: null, state: "waiting" },
+      { value: 0, unit: "", label: "Doğrulanan", detail: "Sahte yüzde gösterilmez", rate: null, state: "neutral" },
+    ];
+  }
+
+  const groupCards = summary.groups.slice(0, 3).map((group) => ({
+    value: Number(group.success_rate) || 0,
+    unit: "%",
+    label: group.label || "Tahmin grubu",
+    detail: `${Number(group.won) || 0} doğru · ${Number(group.lost) || 0} yanlış`,
+    rate: Number(group.success_rate) || 0,
+    state: "measured",
+  }));
+  const fallbacks = [
+    { value: summary.won, unit: "", label: "Doğru tahmin", detail: `${summary.measured} ölçüm içinde`, rate: null, state: "measured" },
+    { value: summary.lost, unit: "", label: "Yanlış tahmin", detail: `${summary.measured} ölçüm içinde`, rate: null, state: "measured" },
+    { value: summary.pending, unit: "", label: "Skor bekleyen", detail: "Henüz başarı oranına dahil değil", rate: null, state: "waiting" },
+  ];
+  return [overall, ...groupCards, ...fallbacks].slice(0, 4);
+};
+
+const resultArchiveRow = (raw) => {
+  const item = normalizeCompletedResult(raw);
+  return `<tr>
+    <td>${escapeHtml(resultDateLabel(item.date))}</td>
+    <td>${escapeHtml(item.match)}</td>
+    <td>${escapeHtml(item.prediction)}</td>
+    <td>${escapeHtml(item.odds)}</td>
+    <td><strong class="result-score">${escapeHtml(item.score)}</strong></td>
+    <td>${escapeHtml(item.confidence)}</td>
+    <td><span class="status ${item.outcome.key}">${escapeHtml(item.outcome.label)}</span></td>
+  </tr>`;
+};
+
+const performanceCard = (card) => {
+  const width = Number.isFinite(card.rate) ? Math.max(0, Math.min(100, card.rate)) : 0;
+  return `<article class="success-card reveal visible" data-state="${escapeHtml(card.state)}">
+    <strong data-unit="${escapeHtml(card.unit)}">${escapeHtml(card.value)}</strong>
+    <span>${escapeHtml(card.label)}</span>
+    <small>${escapeHtml(card.detail)}</small>
+    ${Number.isFinite(card.rate) ? `<div class="performance-bar" aria-hidden="true"><i style="width:${width}%"></i></div>` : ""}
+  </article>`;
+};
+
+const renderResultsAndPerformance = (payload) => {
+  const completed = Array.isArray(payload?.completed_items) ? payload.completed_items : [];
+  const performance = performanceFromPayload(payload);
+  if (resultArchive) {
+    resultArchive.innerHTML = completed.length
+      ? completed.slice(0, 30).map(resultArchiveRow).join("")
+      : `<tr><td class="result-empty-cell" colspan="7"><div class="result-empty-state"><strong>Henüz doğrulanmış sonuç yok</strong><span>${escapeHtml(performance.pending)} tahmin final skorla eşleşmeyi bekliyor. Sonuç gelmeden başarı yüzdesi üretilmez.</span></div></td></tr>`;
+  }
+  if (successGrid) successGrid.innerHTML = performanceCards(payload).map(performanceCard).join("");
+};
+
 const bulletinMatchCount = (payload) => {
   const directCount = Number(payload?.match_count ?? payload?.counts?.total ?? 0);
   if (Number.isFinite(directCount) && directCount > 0) return directCount;
@@ -190,6 +309,7 @@ const renderProAnalysisCenter = (payload, bulletinPayload = null) => {
   }
 
   setSummary(visibleItems, payload?.source || "PRO analiz bekleniyor", bulletinPayload);
+  renderResultsAndPerformance(payload);
 };
 
 const loadProAnalysisCenter = async () => {
@@ -245,10 +365,16 @@ const loadFixtures = async () => {
 const renderStaticEmptySections = () => {
   if (analysisList) analysisList.innerHTML = emptyBox("Maç bazlı PRO analiz bekleniyor. Eski sabit/uydurma veriler gösterilmez.");
   if (strongestPickCard) strongestPickCard.innerHTML = emptyBox("Günün seçimi gerçek PRO analiz geldikten sonra otomatik üretilecek.");
-  if (resultArchive) resultArchive.innerHTML = `<tr><td colspan="7">Canlı sonuç arşivi bekleniyor.</td></tr>`;
-  if (successGrid) successGrid.innerHTML = `<article class="success-card reveal visible"><strong data-count="0">0</strong><span>Canlı performans bekleniyor</span><div class="spark"></div></article>`;
+  renderResultsAndPerformance({ completed_items: [], performance: { prediction_count: 0, pending_count: 0, measured_count: 0 } });
   if (databaseBody) databaseBody.innerHTML = `<tr><td colspan="10">Canlı veri görünümü bekleniyor. Eski sabit maç kayıtları gösterilmez.</td></tr>`;
   setSummary([], "PRO analiz bekleniyor");
+};
+
+window.__flResultsPerformance = {
+  normalizeCompletedResult,
+  performanceCards,
+  performanceFromPayload,
+  resultOutcome,
 };
 
 const setupObservers = () => {

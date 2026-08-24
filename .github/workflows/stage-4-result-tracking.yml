@@ -15,6 +15,10 @@ concurrency:
 jobs:
   result-tracking:
     runs-on: ubuntu-latest
+    env:
+      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

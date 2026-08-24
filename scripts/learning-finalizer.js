@@ -72,7 +72,12 @@ function runLearningFinalizer() {
     const next = settle(item.market, item.result_score);
     if (next === "pending") return item;
     updated += 1;
-    return { ...item, status: next, finalized_at: new Date().toISOString() };
+    return {
+      ...item,
+      status: next,
+      finalized_at: new Date().toISOString(),
+      learning_note: next === "won" ? "Tahmin doğru sonuçlandı." : "Tahmin yanlış sonuçlandı."
+    };
   });
   memory.predictions = predictions;
   memory.updated_at = new Date().toISOString();

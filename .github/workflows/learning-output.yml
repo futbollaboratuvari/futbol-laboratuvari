@@ -13,6 +13,9 @@ on:
       - "scripts/learning-result-sync.js"
       - "scripts/learning-score-linker.js"
       - "scripts/learning-finalizer.js"
+      - "scripts/update-final-scores.js"
+      - "scripts/sync-analysis-results.js"
+      - "scripts/robot-learning-memory.js"
       - "package.json"
 
 permissions:
@@ -25,6 +28,10 @@ concurrency:
 jobs:
   check-learning-output:
     runs-on: ubuntu-latest
+    env:
+      FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      API_FOOTBALL_KEY2: ${{ secrets.API_FOOTBALL_KEY2 }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

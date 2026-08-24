@@ -46,6 +46,17 @@ async function testSharedJsonRequests() {
   assert.equal(calls.filter((url) => url.includes("full-bulletin.json")).length, 1);
   assert.equal(calls.some((url) => url.includes("fixtures.json")), false);
   assert.equal(typeof window.__flReadJsonShared, "function");
+  const waitingCards = window.__flResultsPerformance.performanceCards({
+    completed_items: [],
+    performance: { prediction_count: 850, pending_count: 850, measured_count: 0, success_rate: null }
+  });
+  assert.equal(waitingCards.length, 4);
+  assert.equal(waitingCards[0].value, "—");
+  assert.equal(waitingCards[2].value, 850);
+  const measured = window.__flResultsPerformance.performanceFromPayload({
+    performance: { prediction_count: 10, pending_count: 2, measured_count: 8, won_count: 6, lost_count: 2, success_rate: 75 }
+  });
+  assert.equal(measured.successRate, 75);
 }
 
 async function testHomepageSkipsAdminPayloads() {

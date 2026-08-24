@@ -7,6 +7,8 @@ const robotAnalysisFile = path.join(dataDir, 'robot-analysis.json');
 const liveMatchesFile = path.join(dataDir, 'live-matches.json');
 const analysisResultsFile = path.join(dataDir, 'analiz_sonuclari.json');
 const focusFile = path.join(dataDir, 'focused_markets.json');
+const learningMemoryFile = path.join(dataDir, 'learning-memory.json');
+const MAX_COMPLETED_ITEMS = 250;
 
 function readJson(file, fallback) {
   try {
@@ -86,12 +88,107 @@ function sortItems(a, b) {
   return normalizeScore(b.score) - normalizeScore(a.score) || String(a.time || '').localeCompare(String(b.time || ''), 'tr');
 }
 
+function outcomeStatus(value) {
+  const status = String(value || '').toLocaleLowerCase('tr-TR');
+  if (['won', 'kazandı', 'kazandi', 'doğru', 'dogru'].includes(status)) return 'won';
+  if (['lost', 'kaybetti', 'yanlış', 'yanlis'].includes(status)) return 'lost';
+  if (['void', 'iptal', 'iade'].includes(status)) return 'void';
+  return 'pending';
+}
+
+function marketGroup(value) {
+  const market = String(value || '').toLocaleLowerCase('tr-TR');
+  if (/^ms\s|maç sonucu|mac sonucu|çş|cs|çifte şans|cifte sans/.test(market)) return { key: 'match_result', label: 'Maç Sonucu' };
+  if (/kg|karşılıklı gol|karsilikli gol|btts/.test(market)) return { key: 'btts', label: 'Karşılıklı Gol' };
+  if (/üst|ust|alt|gol/.test(market)) return { key: 'goals', label: 'Gol Marketleri' };
+  return { key: 'other', label: 'Diğer Marketler' };
+}
+
+function toCompletedItem(item) {
+  const status = outcomeStatus(item.status || item.result);
+  const group = marketGroup(item.market || item.prediction);
+  return {
+    id: item.id || [item.date, item.match_name || item.match, item.market || item.prediction].join('|'),
+    date: String(item.date || '').slice(0, 10),
+    time: item.start_time || item.time || '',
+    title: item.match_name || item.match || item.title || 'Maç',
+    match: item.match_name || item.match || item.title || 'Maç',
+    market: item.market || item.prediction || '-',
+    prediction: item.market || item.prediction || '-',
+    odds: item.odds || item.estimated_odds || '-',
+    score: item.result_score || item.final_score || item.score || '-',
+    result_score: item.result_score || item.final_score || item.score || '-',
+    confidence: item.confidence_score || item.confidence || '-',
+    confidence_score: item.confidence_score || item.confidence || '-',
+    risk: item.risk_level || item.risk || '-',
+    status,
+    result: status,
+    market_group: group.key,
+    market_group_label: group.label,
+    finalized_at: item.finalized_at || item.updated_at || '',
+    source: item.source || 'Robot öğrenme hafızası',
+  };
+}
+
+function completedSort(a, b) {
+  return `${b.date || ''} ${b.time || ''} ${b.finalized_at || ''}`.localeCompare(`${a.date || ''} ${a.time || ''} ${a.finalized_at || ''}`, 'tr');
+}
+
+function buildCompletedItems(memory, previousItems = []) {
+  const verified = (memory.predictions || [])
+    .filter((item) => ['won', 'lost', 'void'].includes(outcomeStatus(item.status)))
+    .map(toCompletedItem);
+  const map = new Map();
+  (Array.isArray(previousItems) ? previousItems : [])
+    .map(toCompletedItem)
+    .filter((item) => ['won', 'lost', 'void'].includes(item.status))
+    .forEach((item) => map.set(item.id, item));
+  verified.forEach((item) => map.set(item.id, item));
+  return [...map.values()].sort(completedSort).slice(0, MAX_COMPLETED_ITEMS);
+}
+
+function buildPerformance(memory) {
+  const predictions = Array.isArray(memory.predictions) ? memory.predictions : [];
+  const won = predictions.filter((item) => outcomeStatus(item.status) === 'won');
+  const lost = predictions.filter((item) => outcomeStatus(item.status) === 'lost');
+  const voidItems = predictions.filter((item) => outcomeStatus(item.status) === 'void');
+  const pending = predictions.filter((item) => outcomeStatus(item.status) === 'pending');
+  const measured = won.length + lost.length;
+  const groups = new Map();
+  [...won, ...lost].forEach((item) => {
+    const group = marketGroup(item.market || item.prediction);
+    const row = groups.get(group.key) || { key: group.key, label: group.label, measured: 0, won: 0, lost: 0, success_rate: null };
+    row.measured += 1;
+    if (outcomeStatus(item.status) === 'won') row.won += 1;
+    else row.lost += 1;
+    row.success_rate = Math.round((row.won / row.measured) * 100);
+    groups.set(group.key, row);
+  });
+  const verifiedAt = predictions
+    .map((item) => item.finalized_at || '')
+    .filter(Boolean)
+    .sort()
+    .at(-1) || null;
+  return {
+    prediction_count: predictions.length,
+    measured_count: measured,
+    pending_count: pending.length,
+    won_count: won.length,
+    lost_count: lost.length,
+    void_count: voidItems.length,
+    success_rate: measured ? Math.round((won.length / measured) * 100) : null,
+    verified_at: verifiedAt,
+    groups: [...groups.values()].sort((a, b) => b.measured - a.measured || b.success_rate - a.success_rate),
+  };
+}
+
 function main() {
   const today = todayKey();
   const robotAnalysis = readJson(robotAnalysisFile, { matches: [], summary: {} });
   const liveMatches = readJson(liveMatchesFile, { matches: [], active_items: [], completed_items: [] });
   const previous = readJson(analysisResultsFile, { active_items: [], completed_items: [] });
   const focus = readJson(focusFile, { focused_markets: [] });
+  const learningMemory = readJson(learningMemoryFile, { predictions: [] });
 
   const sourceMatches = Array.isArray(robotAnalysis.matches) && robotAnalysis.matches.length
     ? robotAnalysis.matches
@@ -103,7 +200,8 @@ function main() {
     .map(toActiveItem)
     .sort(sortItems);
 
-  const completedItems = Array.isArray(previous.completed_items) ? previous.completed_items : [];
+  const completedItems = buildCompletedItems(learningMemory, previous.completed_items);
+  const performance = buildPerformance(learningMemory);
   const couponCandidates = activeItems.filter((item) => item.decision === 'Kupon Adayı').length;
   const watchCandidates = activeItems.filter((item) => item.decision === 'İzleme').length;
 
@@ -122,6 +220,7 @@ function main() {
     },
     active_items: activeItems,
     completed_items: completedItems,
+    performance,
     focused_markets: Array.isArray(focus.focused_markets) ? focus.focused_markets : (previous.focused_markets || []),
     focused_market_note: previous.focused_market_note || 'Robot analiz çıktısı siteye bağlandı.'
   };
@@ -132,4 +231,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { main };
+module.exports = { buildCompletedItems, buildPerformance, main, marketGroup, outcomeStatus, toCompletedItem };

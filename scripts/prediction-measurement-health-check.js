@@ -32,7 +32,15 @@ function runPredictionMeasurementHealthCheck() {
   const scoredPending = pending.filter((p) => hasScore(p.result_score));
   const measured = won.length + lost.length;
   const watchOnly = predictions.length === 0 && resultTracking.status === "izleme";
-  const status = watchOnly ? "izleme" : predictions.length === 0 ? "empty" : scoredPending.length ? "warning" : "ok";
+  const status = watchOnly
+    ? "izleme"
+    : predictions.length === 0
+      ? "empty"
+      : scoredPending.length
+        ? "warning"
+        : measured > 0
+          ? "ok"
+          : "waiting";
   const report = {
     generated_at: new Date().toISOString(),
     status,
@@ -45,7 +53,13 @@ function runPredictionMeasurementHealthCheck() {
     last_checked: finalizer.checked || 0,
     last_updated: finalizer.updated || 0,
     scored_pending_examples: scoredPending.slice(0, 50).map((p) => ({ id: p.id, match_name: p.match_name, market: p.market, result_score: p.result_score })),
-    next_action: status === "ok" ? "Agirlik degistirme asamasina gecilebilir." : status === "izleme" ? "Olculecek tahmin yok. Izleme devam." : "Skoru olan pending tahminler finalizer tarafindan olculmeli."
+    next_action: status === "ok"
+      ? "Olculen tahminler agirlik hesaplamasinda kullanilabilir."
+      : status === "izleme"
+        ? "Olculecek tahmin yok. Izleme devam."
+        : status === "waiting"
+          ? "Bekleyen tahminler icin dogrulanmis final skor bekleniyor."
+          : "Skoru olan pending tahminler finalizer tarafindan olculmeli."
   };
   const md = [
     "# Tahmin Olcum Saglik Kontrolu",

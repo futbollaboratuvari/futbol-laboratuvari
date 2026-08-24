@@ -12,6 +12,7 @@ function runNode(script) {
 
 function runStage4ResultTrackingCheck() {
   runNode("scripts/update-match-archive.js");
+  runNode("scripts/update-final-scores.js");
   const linker = runLearningScoreLinker();
   const health = runResultTrackingHealthCheck();
   return { linker, health };

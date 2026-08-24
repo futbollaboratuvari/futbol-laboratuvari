@@ -1035,12 +1035,66 @@ th {
 }
 
 .success-card strong::after {
-  content: "%";
+  content: attr(data-unit);
   font-size: 20px;
 }
 
 .success-card span {
+  display: block;
+  margin-top: 8px;
+  color: var(--soft);
+  font-weight: 850;
+}
+
+.success-card small {
+  display: block;
+  margin-top: 6px;
   color: var(--muted);
+  line-height: 1.45;
+}
+
+.success-card[data-state="waiting"] strong {
+  color: #ffe08a;
+}
+
+.performance-bar {
+  height: 7px;
+  margin-top: 18px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.performance-bar i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--green-2), var(--green));
+}
+
+.result-score {
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.result-empty-cell {
+  padding: 28px !important;
+}
+
+.result-empty-state {
+  display: grid;
+  gap: 8px;
+  max-width: 620px;
+}
+
+.result-empty-state strong {
+  color: #ffe08a;
+  font-size: 17px;
+}
+
+.result-empty-state span {
+  color: var(--muted);
+  line-height: 1.55;
 }
 
 .spark {
