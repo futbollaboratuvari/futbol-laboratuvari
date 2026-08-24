@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-24T15:29:35.650788+00:00
+Tarih: 2026-08-24T15:53:47.425937+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 68
+- Kac mac bulundu: 56
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 68
+- Kac mac zaten vardi: 56
 - Ham veri havuzu toplam mac sayisi: 8933
 - Hedef tarih: 24.08.2026 Europe/Istanbul
 
@@ -16,18 +16,13 @@ Tarih: 2026-08-24T15:29:35.650788+00:00
 
 - Almanya DFB Kupası 1.Tur
 - Almanya Kadınlar Bundesliga
-- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
 - Belarus Premier Lig
-- Brezilya Serie A
-- Brezilya Serie B
 - Bulgaristan 1.Lig
 - Danimarka Süperlig
-- Ekvador Pro Lig
 - Fransa Ligue 2
 - Hollanda Eerste Divisie
 - Letonya 1.Lig
-- Litvanya A Ligi
 - Polonya 1.Lig
 - Portekiz 2.Lig
 - Portekiz Premier Lig
@@ -51,7 +46,6 @@ Tarih: 2026-08-24T15:29:35.650788+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda Urvalsdeild
-- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -108,8 +102,8 @@ Tarih: 2026-08-24T15:29:35.650788+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 39
-- Acilan detay: 39
+- Denenen Tumu alani: 38
+- Acilan detay: 38
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -139,8 +133,8 @@ Tarih: 2026-08-24T15:29:35.650788+00:00
 | 24.08.2026 | 22:30 | İspanya 2.Lig | Granada | Mallorca | 39106 | 5 |
 | 24.08.2026 | 20:00 | İspanya 2.Lig | Celta Vigo Ii | Fc Andorra | 38859 | 5 |
 | 24.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Annecy | 41024 | 5 |
-| 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Oss | 24157 | 5 |
 | 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Heracles | 24244 | 5 |
+| 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Oss | 24157 | 5 |
 | 24.08.2026 | 20:00 | Danimarka Süperlig | Brondby | Silkeborg | 22941 | 5 |
 
 ## Sonuc
