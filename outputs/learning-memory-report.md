@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 00:30:07
+Oluşturma: 25.08.2026 00:39:40
 
 ## Özet
 
-- Toplam tahmin: 976
-- Bekleyen tahmin: 704
-- Kazanan tahmin: 98
-- Kaybeden tahmin: 173
-- Lig sayısı: 157
+- Toplam tahmin: 1079
+- Bekleyen tahmin: 790
+- Kazanan tahmin: 108
+- Kaybeden tahmin: 180
+- Lig sayısı: 169
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -20,28 +20,28 @@ Oluşturma: 25.08.2026 00:30:07
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 57, bekleyen 39, başarı %100, ağırlık 1.12
-- 2.5 Üst: toplam 13, bekleyen 9, başarı %100, ağırlık 1
+- 2.5 Üst: toplam 24, bekleyen 18, başarı %100, ağırlık 1.12
+- 2.5 Alt: toplam 86, bekleyen 62, başarı %92, ağırlık 1.12
+- MS 1: toplam 136, bekleyen 105, başarı %36, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
-- MS 2: toplam 290, bekleyen 184, başarı %30, ağırlık 0.88
-- MS 1: toplam 91, bekleyen 64, başarı %30, ağırlık 0.88
+- MS 2: toplam 308, bekleyen 197, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-25 | Arjantin Ulusal Primera Lig | Deportivo Madr - Godoy Cruz | MS 1 | pending | 38/100
-- 2026-08-25 | Brezilya Serie B | Atletico Goian - Botafogo Ribeir | MS 1 | pending | 36/100
-- 2026-08-25 | Brezilya Serie B | Juventude - Regatas | 2.5 Alt | pending | 64/100
-- 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 2 | pending | 37/100
-- 2026-08-25 | Brezilya Kupa Çeyrek Final | Cruzeiro - Atletico Mg | 2.5 Alt | pending | 68/100
-- 2026-08-25 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey - Chicago | MS 2 | pending | 33/100
-- 2026-08-25 | Copa Libertadores Son 16 Turu | Indep. Jose Te (1) - (0) Deportes Tolima | MS 1 | pending | 48/100
-- 2026-08-25 | Kolombiya Primera A Clausura | Depor Cucuta - Alianza Petrole | 2.5 Alt | pending | 64/100
-- 2026-08-25 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | 2.5 Alt | pending | 54/100
-- 2026-08-24 | İngiltere Premier Lig 2 | Sunderland (B) - Nottingham Fore | MS 2 | pending | 38/100
-- 2026-08-24 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | MS 1 | pending | 46/100
-- 2026-08-24 | Brezilya Serie B | Sport Recife - America Mineiro | MS 1 | pending | 41/100
-- 2026-08-24 | Brezilya Serie B | Athletic Club - Novorizontino | MS 2 | pending | 33/100
-- 2026-08-24 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Alt | pending | 64/100
-- 2026-08-24 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | MS 1 | pending | 46/100
+- 2026-08-25 | Paraguay Kupa 3.Tur | General Caball - Rubio Nu | 2.5 Alt | pending | 64/100
+- 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Alt | pending | 64/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Annan - Berwick | MS 1 | pending | 48/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Clachnacuddin - Elgin | MS 2 | pending | 43/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Hamilton - Edinburg C. | MS 1 | pending | 46/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 1 | pending | 39/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Montrose - Clyde | MS 1 | pending | 43/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank | 2.5 Alt | pending | 64/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Airdrieonians - Stirling Albion | MS 1 | pending | 45/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Forfar - Formartine Unit | MS 1 | pending | 43/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Fraserburgh - Aberdeen Ii | MS 1 | pending | 39/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - Kilmarnock Ii | MS 2 | pending | 38/100
+- 2026-08-25 | Irak Premier Lig | Al Jawiya - Gaz Al-Shamal | MS 1 | pending | 49/100
+- 2026-08-25 | İngiltere Non League Premier Kuzey | Redcar Athleti - Afc Emley | MS 1 | pending | 44/100
+- 2026-08-25 | İngiltere Non League Premier Kuzey | Ashton United - Ilkeston Town | MS 1 | pending | 45/100
 
