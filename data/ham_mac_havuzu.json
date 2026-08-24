@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:36:29.892Z",
+  "generated_at": "2026-08-24T23:40:39.173Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -13,7 +13,18 @@
       "İkinci Yarı KG Var",
       "KG Var",
       "2.5 Üst",
-      "3.5 Üst"
+      "3.5 Üst",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
     ],
     "scoring_classes": {
       "80-100": "Ana kupon adayı",
@@ -10635,10 +10646,10 @@
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
-      "suggested_odds": "1.45",
-      "confidence_score": "58%",
-      "trust_score": "58/100",
-      "analysis_score": 58,
+      "suggested_odds": "1.43",
+      "confidence_score": "59%",
+      "trust_score": "59/100",
+      "analysis_score": 59,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -10715,17 +10726,17 @@
       ],
       "signals": [
         "Market: MS 1",
-        "Oran: 1.45",
+        "Oran: 1.43",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %57.",
-        "Birleşik tahmini olasılık %57.",
+        "Marjı temizlenmiş piyasa olasılığı %58.",
+        "Birleşik tahmini olasılık %58.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 316; ham isabet %40.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 58/100: Sadece izleme."
+        "Model gücü 59/100: Sadece izleme."
       ]
     },
     {
@@ -12654,11 +12665,11 @@
       "time": "02:00",
       "status": "scheduled",
       "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 2",
-      "suggested_odds": "2.16",
-      "confidence_score": "48%",
-      "trust_score": "48/100",
-      "analysis_score": 48,
+      "suggested_option": "MS 1",
+      "suggested_odds": "2.17",
+      "confidence_score": "49%",
+      "trust_score": "49/100",
+      "analysis_score": 49,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -12729,23 +12740,23 @@
       },
       "tag": "Sadece izleme",
       "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
+        "1-0",
+        "2-0",
+        "2-1"
       ],
       "signals": [
-        "Market: MS 2",
-        "Oran: 2.16",
+        "Market: MS 1",
+        "Oran: 2.17",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %38.",
         "Birleşik tahmini olasılık %38.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 316; ham isabet %34.",
+        "Geçmiş market örneği 316; ham isabet %40.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 48/100: Sadece izleme."
+        "Model gücü 49/100: Sadece izleme."
       ]
     },
     {
@@ -13261,5 +13272,6 @@
         "Model gücü 45/100: Sadece izleme."
       ]
     }
-  ]
+  ],
+  "focused_market_count": 16
 }
