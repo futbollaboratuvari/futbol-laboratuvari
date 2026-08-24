@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 10
 - Live match count: 16
-- Finished removed count: 13
+- Finished removed count: 0
 - Date window: 2026-08-24 / 2026-08-25 23:59
 
 - 2026-08-24 21:45 | Hallescher - Schalke | live

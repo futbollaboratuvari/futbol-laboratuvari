@@ -4,18 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T20:47:45.162Z
+- Güncelleme: 2026-08-24T20:50:18.342Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Lokomotiv Plov VS Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | MS 2 | 1.83 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Kocaelispor VS Amed Sk | Türkiye Süper Lig | 21:30 | 2.5 Alt | 1.48 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Livorno VS Sassari Torres | İtalya Serie C Grup B | 21:30 | 2.5 Alt | 1.40 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Otelul Galati VS Argesul Pitesti | Romanya 1.Lig | 21:30 | MS 1 | 2.40 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Sivasspor VS Manisa Futbol K | Türkiye TFF 1. Lig | 21:30 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Roma VS Fiorentina | İtalya Serie A | 21:45 | 2.5 Alt | 1.66 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Reims VS Annecy | Fransa Ligue 2 | 21:45 | 2.5 Alt | 1.63 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
@@ -32,11 +27,11 @@
 | Breidablik VS Fram | İzlanda Urvalsdeild | 22:15 | MS 2 | 2.15 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Malaga VS D.La Coruna | İspanya LaLiga | 22:30 | 2.5 Alt | 1.49 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Granada VS Mallorca | İspanya 2.Lig | 22:30 | 2.5 Alt | 1.40 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Tigre VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.44 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Sport Recife VS America Mineiro | Brezilya Serie B | 01:30 | MS 1 | 1.46 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Tigre VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.48 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sport Recife VS America Mineiro | Brezilya Serie B | 01:30 | MS 1 | 1.44 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Athletic Club VS Novorizontino | Brezilya Serie B | 01:30 | MS 2 | 2.05 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Botafogo VS Atletico Pr | Brezilya Serie A | 02:00 | 2.5 Alt | 1.67 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Ferro Carril O VS All Boys | Arjantin Ulusal Primera Lig | 02:00 | MS 1 | 1.46 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ferro Carril O VS All Boys | Arjantin Ulusal Primera Lig | 02:00 | MS 1 | 1.48 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Charleston Bat VS Miami Fc | ABD USL | 02:00 | MS 1 | 1.29 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Everton De Vin VS Univ De Concepc | Şili Premier Lig | 02:30 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Libertad VS Depor Macara | Ekvador Pro Lig | 03:00 | 2.5 Alt | 1.44 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

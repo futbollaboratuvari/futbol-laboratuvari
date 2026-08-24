@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 23:47:53
+Oluşturma: 24.08.2026 23:50:26
 
 ## Özet
 
@@ -29,7 +29,7 @@ Oluşturma: 24.08.2026 23:47:53
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-24 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | MS 1 | pending | 47/100
+- 2026-08-24 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | MS 1 | pending | 46/100
 - 2026-08-24 | Brezilya Serie B | Sport Recife - America Mineiro | MS 1 | pending | 41/100
 - 2026-08-24 | Brezilya Serie B | Athletic Club - Novorizontino | MS 2 | pending | 33/100
 - 2026-08-24 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Alt | pending | 64/100
