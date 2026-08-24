@@ -3,15 +3,14 @@
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
 Ham mac: 83
-Aktif mac: 75
-Canli mac: 8
+Aktif mac: 74
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 65
+Bultenden dusurulen mac: 9
+Bugun: 64
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | scheduled | -
 - 2026-08-24 15:15 | Malezya Süper Lig | Sabah - Imigresen | scheduled | -
 - 2026-08-24 17:30 | Rusya FNL | Kamaz - Pfc Sochi | scheduled | -
 - 2026-08-24 17:30 | Belarus Premier Lig | Isloch - Dinamo Minsk | scheduled | -
@@ -96,6 +95,7 @@ Yarin: 10
 - 2026-08-24 04:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | live | -
 - 2026-08-24 04:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | live | -
 - 2026-08-24 04:15 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | live | -
+- 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | live | -
 
 ## Biten Maclar
 Biten mac yok.
