@@ -144,6 +144,11 @@ function validate(payload, program) {
 }
 
 function run() {
+  try { require("./apply-spor-toto-archive-analysis").run(); }
+  catch (error) { console.warn(`Spor Toto archive cache apply skipped: ${error.message}`); }
+  try { require("./apply-spor-toto-weekly-market").run(); }
+  catch (error) { console.warn(`Spor Toto market cache apply skipped: ${error.message}`); }
+
   const current = readJson(file, null); const program = readJson(programFile, null);
   if (!current) throw new Error("Spor Toto bülteni bulunamadı");
   const normalized = (current.matches || []).map((match) => match.analysis_ready ? normalizeReady(match) : normalizeWaiting(match));
