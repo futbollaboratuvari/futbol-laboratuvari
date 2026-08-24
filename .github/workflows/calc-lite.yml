@@ -20,12 +20,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
       - run: node scripts/raw-block-lite.js
       - run: node scripts/band-lite.js
+      - name: Finalize verified weekly Spor Toto
+        run: |
+          node scripts/sync-spor-toto-weekly-program.js || true
+          node scripts/rebuild-spor-toto-bulletin.js
+          node scripts/finalize-spor-toto-pro.js
+          node tests/spor-toto-weekly.test.js
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update calc lite"
-          file_pattern: data/*.json
+          file_pattern: data/*.json outputs/*.md
