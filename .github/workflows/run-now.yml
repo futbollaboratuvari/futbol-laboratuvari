@@ -61,6 +61,13 @@ jobs:
       - name: Update profile archive
         run: node scripts/profile-lite.js
 
+      - name: Finalize verified weekly Spor Toto
+        run: |
+          node scripts/sync-spor-toto-weekly-program.js || true
+          node scripts/rebuild-spor-toto-bulletin.js
+          node scripts/finalize-spor-toto-pro.js
+          node tests/spor-toto-weekly.test.js
+
       - name: Commit and push outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
