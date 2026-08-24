@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 22:02:23
+Oluşturma: 24.08.2026 22:07:16
 
 ## Özet
 
-- Toplam tahmin: 955
-- Bekleyen tahmin: 693
-- Kazanan tahmin: 92
-- Kaybeden tahmin: 169
+- Toplam tahmin: 956
+- Bekleyen tahmin: 684
+- Kazanan tahmin: 98
+- Kaybeden tahmin: 173
 - Lig sayısı: 154
 - Seçenek sayısı: 6
 
@@ -20,15 +20,16 @@ Oluşturma: 24.08.2026 22:02:23
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 49, bekleyen 32, başarı %100, ağırlık 1.12
+- 2.5 Alt: toplam 50, bekleyen 32, başarı %100, ağırlık 1.12
 - 2.5 Üst: toplam 12, bekleyen 8, başarı %100, ağırlık 1
-- MS X: toplam 366, bekleyen 251, başarı %31, ağırlık 0.88
-- MS 1: toplam 83, bekleyen 59, başarı %29, ağırlık 0.88
-- MS 2: toplam 286, bekleyen 185, başarı %28, ağırlık 0.88
+- MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
+- MS 2: toplam 286, bekleyen 180, başarı %30, ağırlık 0.88
+- MS 1: toplam 83, bekleyen 56, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | İtalya Serie A | Roma - Fiorentina | 2.5 Alt | pending | 64/100
 - 2026-08-24 | Belarus Premier Lig | Torpedo Zhodin - Dnepr Mogilev | 2.5 Alt | pending | 64/100
 - 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | MS 1 | pending | 38/100
 - 2026-08-24 | İspanya 2.Lig | Celta Vigo Ii - Fc Andorra | 2.5 Alt | pending | 64/100
@@ -43,5 +44,4 @@ Oluşturma: 24.08.2026 22:02:23
 - 2026-08-24 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | 2.5 Alt | won | 78/100
 - 2026-08-24 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | MS 1 | won | 43/100
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | 2.5 Üst | pending | 57/100
-- 2026-08-24 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | 2.5 Alt | won | 78/100
 

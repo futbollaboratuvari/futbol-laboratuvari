@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:02:18.378Z",
+  "generated_at": "2026-08-24T19:07:16.688Z",
   "date": "2026-08-24",
   "engine": "Futbol Laboratuvarı PRO 13",
   "model_version": "pro13-market-conditioned-v1",
@@ -529,7 +529,7 @@
       "estimated_probability": 66.1,
       "market_probability": 66.1,
       "edge_percent": 0,
-      "data_completeness": 40,
+      "data_completeness": 43,
       "evidence_mode": "market_baseline",
       "independent_evidence": false,
       "probability_source": [],
@@ -1106,7 +1106,7 @@
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Yüksek",
-      "status": "live",
+      "status": "finished",
       "expected_scores": [
         "1-0",
         "2-0",
@@ -11009,13 +11009,13 @@
       "match_code": "31331",
       "league": "İtalya Serie A",
       "start_time": "21:45",
-      "recommended_market": "MS 1",
-      "confidence_score": "45%",
-      "model_score": 45,
-      "analysis_score": 45,
+      "recommended_market": "2.5 Alt",
+      "confidence_score": "64%",
+      "model_score": 64,
+      "analysis_score": 64,
       "score_type": "signal_strength",
-      "estimated_probability": 55.6,
-      "market_probability": 55.6,
+      "estimated_probability": 51.2,
+      "market_probability": 51.2,
       "edge_percent": 0,
       "data_completeness": 40,
       "evidence_mode": "market_baseline",
@@ -11023,7 +11023,7 @@
       "probability_source": [],
       "model_version": "pro13-market-conditioned-v1",
       "risk_level": "Yüksek",
-      "estimated_odds": "1.53",
+      "estimated_odds": "1.66",
       "available_odds": {
         "ms1": "1.53",
         "msx": "3.38",
@@ -11449,34 +11449,34 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 1 | Oran: 1.53 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "robot_comment": "Market: 2.5 Alt | Oran: 1.66 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
+      "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Yüksek",
       "status": "live",
       "expected_scores": [
+        "0-0",
         "1-0",
-        "2-0",
-        "2-1"
+        "1-1"
       ],
       "learning_adjustment": {
-        "market": "MS 1",
+        "market": "2.5 Alt",
         "league": "İtalya Serie A",
-        "delta": -5,
-        "weight": 0.88,
+        "delta": 4,
+        "weight": 1.12,
         "applied": true,
         "notes": [
-          "Öğrenme: MS 1 başarı hafızası %29 (-5)"
+          "Öğrenme: 2.5 Alt başarı hafızası %100 (+4)"
         ],
         "market_bucket": {
-          "total": 83,
-          "pending": 59,
-          "won": 7,
-          "lost": 17,
+          "total": 49,
+          "pending": 32,
+          "won": 17,
+          "lost": 0,
           "void": 0,
-          "success_rate": 0.292,
-          "weight": 0.88,
-          "confidence_adjustment": -5
+          "success_rate": 1,
+          "weight": 1.12,
+          "confidence_adjustment": 4
         },
         "league_bucket": {
           "total": 10,
@@ -17915,7 +17915,7 @@
       "estimated_probability": 66.1,
       "market_probability": 66.1,
       "edge_percent": 0,
-      "data_completeness": 40,
+      "data_completeness": 43,
       "evidence_mode": "market_baseline",
       "independent_evidence": false,
       "probability_source": [],
@@ -18492,7 +18492,7 @@
       "include_in_coupon": false,
       "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Yüksek",
-      "status": "live",
+      "status": "finished",
       "expected_scores": [
         "1-0",
         "2-0",
@@ -18551,46 +18551,46 @@
         "leagueGoalAverage": 2.87,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 2,
+          "totalMatches": 5,
           "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
+            "count": 1,
+            "scored": 1,
+            "conceded": 1,
+            "bttsRate": 100,
+            "over25Rate": 100,
+            "over35Rate": 100,
+            "goalsForAvg": 3,
+            "goalsAgainstAvg": 1,
+            "wins": 1,
             "draws": 0,
             "losses": 0,
-            "winRate": 0,
+            "winRate": 100,
             "drawRate": 0,
             "lossRate": 0,
-            "pointsPerGame": 0
+            "pointsPerGame": 3
           },
           "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
+            "count": 1,
+            "scored": 1,
+            "conceded": 1,
+            "bttsRate": 100,
+            "over25Rate": 100,
+            "over35Rate": 100,
+            "goalsForAvg": 1,
+            "goalsAgainstAvg": 3,
             "wins": 0,
             "draws": 0,
-            "losses": 0,
+            "losses": 1,
             "winRate": 0,
             "drawRate": 0,
-            "lossRate": 0,
+            "lossRate": 100,
             "pointsPerGame": 0
           },
           "league": {
-            "count": 2,
-            "goalAverage": 2,
-            "bttsRate": 50,
-            "over25Rate": 50
+            "count": 3,
+            "goalAverage": 2.67,
+            "bttsRate": 67,
+            "over25Rate": 67
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -18653,7 +18653,7 @@
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 302; ham isabet %39.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
         "Model gücü 63/100: Sadece izleme.",
         "Öğrenme: MS 1 başarı hafızası %29 (-5)",
         "Öğrenme etkisi: 63/100 → 50/100"
@@ -18668,14 +18668,14 @@
       "league": "İsveç Allsvenskan",
       "start_time": "20:00",
       "recommended_market": "MS 2",
-      "confidence_score": "37%",
-      "model_score": 37,
-      "analysis_score": 37,
+      "confidence_score": "38%",
+      "model_score": 38,
+      "analysis_score": 38,
       "score_type": "signal_strength",
       "estimated_probability": 37.6,
       "market_probability": 37.6,
       "edge_percent": 0,
-      "data_completeness": 40,
+      "data_completeness": 43,
       "evidence_mode": "market_baseline",
       "independent_evidence": false,
       "probability_source": [],
@@ -19111,7 +19111,7 @@
       "include_in_coupon": false,
       "suitable_coupon_type": "Oynama",
       "data_gap_risk": "Yüksek",
-      "status": "live",
+      "status": "finished",
       "expected_scores": [
         "0-1",
         "0-2",
@@ -19171,46 +19171,46 @@
         "leagueGoalAverage": 2.83,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 5,
+          "totalMatches": 8,
           "home": {
-            "count": 0,
+            "count": 1,
             "scored": 0,
-            "conceded": 0,
+            "conceded": 1,
             "bttsRate": 0,
-            "over25Rate": 0,
+            "over25Rate": 100,
             "over35Rate": 0,
             "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
+            "goalsAgainstAvg": 3,
             "wins": 0,
             "draws": 0,
-            "losses": 0,
+            "losses": 1,
             "winRate": 0,
             "drawRate": 0,
-            "lossRate": 0,
+            "lossRate": 100,
             "pointsPerGame": 0
           },
           "away": {
-            "count": 0,
-            "scored": 0,
+            "count": 1,
+            "scored": 1,
             "conceded": 0,
             "bttsRate": 0,
-            "over25Rate": 0,
+            "over25Rate": 100,
             "over35Rate": 0,
-            "goalsForAvg": 0,
+            "goalsForAvg": 3,
             "goalsAgainstAvg": 0,
-            "wins": 0,
+            "wins": 1,
             "draws": 0,
             "losses": 0,
-            "winRate": 0,
+            "winRate": 100,
             "drawRate": 0,
             "lossRate": 0,
-            "pointsPerGame": 0
+            "pointsPerGame": 3
           },
           "league": {
-            "count": 5,
-            "goalAverage": 1.6,
-            "bttsRate": 40,
-            "over25Rate": 0
+            "count": 6,
+            "goalAverage": 1.83,
+            "bttsRate": 33,
+            "over25Rate": 17
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -19274,11 +19274,11 @@
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 302; ham isabet %33.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 48/100: Sadece izleme.",
+        "Veri kapsama puanı 43/100 (Yüksek eksik veri riski).",
+        "Model gücü 49/100: Sadece izleme.",
         "Öğrenme: MS 2 başarı hafızası %28 (-5)",
         "Öğrenme: İsveç Allsvenskan lig hafızası %50 (+0)",
-        "Öğrenme etkisi: 48/100 → 37/100"
+        "Öğrenme etkisi: 49/100 → 38/100"
       ]
     },
     {
@@ -26731,7 +26731,7 @@
         "leagueGoalAverage": 2.86,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 4,
+          "totalMatches": 5,
           "home": {
             "count": 0,
             "scored": 0,
@@ -26767,10 +26767,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 4,
-            "goalAverage": 2.5,
-            "bttsRate": 25,
-            "over25Rate": 50
+            "count": 5,
+            "goalAverage": 2.4,
+            "bttsRate": 20,
+            "over25Rate": 40
           },
           "signals": [
             "Hafıza: takım sonuç örneği henüz sınırlı"
@@ -32995,13 +32995,13 @@
       "match_code": "31331",
       "league": "İtalya Serie A",
       "start_time": "21:45",
-      "recommended_market": "MS 1",
-      "confidence_score": "45%",
-      "model_score": 45,
-      "analysis_score": 45,
+      "recommended_market": "2.5 Alt",
+      "confidence_score": "64%",
+      "model_score": 64,
+      "analysis_score": 64,
       "score_type": "signal_strength",
-      "estimated_probability": 55.6,
-      "market_probability": 55.6,
+      "estimated_probability": 51.2,
+      "market_probability": 51.2,
       "edge_percent": 0,
       "data_completeness": 40,
       "evidence_mode": "market_baseline",
@@ -33009,7 +33009,7 @@
       "probability_source": [],
       "model_version": "pro13-market-conditioned-v1",
       "risk_level": "Yüksek",
-      "estimated_odds": "1.53",
+      "estimated_odds": "1.66",
       "available_odds": {
         "ms1": "1.53",
         "msx": "3.38",
@@ -33435,34 +33435,34 @@
       "band_attention_notes": [
         "Bant kontrol verisi yok."
       ],
-      "robot_comment": "Market: MS 1 | Oran: 1.53 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "robot_comment": "Market: 2.5 Alt | Oran: 1.66 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
+      "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Yüksek",
       "status": "live",
       "expected_scores": [
+        "0-0",
         "1-0",
-        "2-0",
-        "2-1"
+        "1-1"
       ],
       "learning_adjustment": {
-        "market": "MS 1",
+        "market": "2.5 Alt",
         "league": "İtalya Serie A",
-        "delta": -5,
-        "weight": 0.88,
+        "delta": 4,
+        "weight": 1.12,
         "applied": true,
         "notes": [
-          "Öğrenme: MS 1 başarı hafızası %29 (-5)"
+          "Öğrenme: 2.5 Alt başarı hafızası %100 (+4)"
         ],
         "market_bucket": {
-          "total": 83,
-          "pending": 59,
-          "won": 7,
-          "lost": 17,
+          "total": 49,
+          "pending": 32,
+          "won": 17,
+          "lost": 0,
           "void": 0,
-          "success_rate": 0.292,
-          "weight": 0.88,
-          "confidence_adjustment": -5
+          "success_rate": 1,
+          "weight": 1.12,
+          "confidence_adjustment": 4
         },
         "league_bucket": {
           "total": 10,
@@ -33497,8 +33497,8 @@
         "secondHalfGoalTrend": 58,
         "leagueGoalAverage": 2.72,
         "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 7,
+          "scoreDelta": 5,
+          "totalMatches": 8,
           "home": {
             "count": 0,
             "scored": 0,
@@ -33534,12 +33534,13 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 7,
-            "goalAverage": 2.43,
-            "bttsRate": 57,
-            "over25Rate": 43
+            "count": 8,
+            "goalAverage": 2.25,
+            "bttsRate": 50,
+            "over25Rate": 38
           },
           "signals": [
+            "Hafıza: düşük lig gol ortalaması 2.25: +5",
             "Hafıza: takım sonuç örneği henüz sınırlı"
           ]
         },
@@ -33549,23 +33550,23 @@
         "homeConcededLast10Count": 4,
         "awayConcededLast10Count": 4,
         "learning_adjustment": {
-          "market": "MS 1",
+          "market": "2.5 Alt",
           "league": "İtalya Serie A",
-          "delta": -5,
-          "weight": 0.88,
+          "delta": 4,
+          "weight": 1.12,
           "applied": true,
           "notes": [
-            "Öğrenme: MS 1 başarı hafızası %29 (-5)"
+            "Öğrenme: 2.5 Alt başarı hafızası %100 (+4)"
           ],
           "market_bucket": {
-            "total": 83,
-            "pending": 59,
-            "won": 7,
-            "lost": 17,
+            "total": 49,
+            "pending": 32,
+            "won": 17,
+            "lost": 0,
             "void": 0,
-            "success_rate": 0.292,
-            "weight": 0.88,
-            "confidence_adjustment": -5
+            "success_rate": 1,
+            "weight": 1.12,
+            "confidence_adjustment": 4
           },
           "league_bucket": {
             "total": 10,
@@ -33590,20 +33591,21 @@
         }
       },
       "signals": [
-        "Market: MS 1",
-        "Oran: 1.53",
+        "Market: 2.5 Alt",
+        "Oran: 1.66",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %56.",
-        "Birleşik tahmini olasılık %56.",
+        "Marjı temizlenmiş piyasa olasılığı %51.",
+        "Birleşik tahmini olasılık %51.",
         "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: düşük lig gol ortalaması 2.25: +5",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 302; ham isabet %39.",
+        "Geçmiş market örneği 302; ham isabet %50.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 57/100: Sadece izleme.",
-        "Öğrenme: MS 1 başarı hafızası %29 (-5)",
-        "Öğrenme etkisi: 57/100 → 45/100"
+        "Model gücü 59/100: Sadece izleme.",
+        "Öğrenme: 2.5 Alt başarı hafızası %100 (+4)",
+        "Öğrenme etkisi: 59/100 → 64/100"
       ]
     },
     {
@@ -33998,7 +34000,7 @@
         "leagueGoalAverage": 2.89,
         "memory": {
           "scoreDelta": 0,
-          "totalMatches": 17,
+          "totalMatches": 19,
           "home": {
             "count": 0,
             "scored": 0,
@@ -34034,10 +34036,10 @@
             "pointsPerGame": 0
           },
           "league": {
-            "count": 17,
+            "count": 19,
             "goalAverage": 4.53,
-            "bttsRate": 59,
-            "over25Rate": 71
+            "bttsRate": 58,
+            "over25Rate": 74
           },
           "signals": []
         }

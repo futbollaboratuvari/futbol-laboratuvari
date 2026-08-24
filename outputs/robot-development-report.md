@@ -1,17 +1,17 @@
 # Robot Gelişim Raporu
 
-Oluşturma: 2026-08-24T17:55:45.197Z
-Toplam tahmin: 955
-Sonuçlanan: 262
-Bekleyen: 693
+Oluşturma: 2026-08-24T19:07:20.984Z
+Toplam tahmin: 956
+Sonuçlanan: 272
+Bekleyen: 684
 
 ## Güçlü Marketler
-- 2.5 Alt: %100 (17/17)
+- 2.5 Alt: %100 (18/18)
 
 ## Zayıf Marketler
-- MS X: %31 (36/115)
-- MS 1: %29 (7/24)
-- MS 2: %28 (28/101)
+- MS X: %31 (36/116)
+- MS 2: %30 (32/106)
+- MS 1: %30 (8/27)
 
 ## Sonraki Aksiyonlar
 - Pending kayitlar icin skor senkronunu takip et.
