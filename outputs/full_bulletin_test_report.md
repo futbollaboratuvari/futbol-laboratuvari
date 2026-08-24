@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 67
-- Live match count: 8
+- Scheduled match count: 66
+- Live match count: 9
 - Finished removed count: 0
 - Date window: 2026-08-24 / 2026-08-25 23:59
 
@@ -15,5 +15,5 @@
 - 2026-08-24 18:00 | Young Africans - Jkt Tanzania | live
 - 2026-08-24 18:30 | Botosani - Csikszereda | live
 - 2026-08-24 18:30 | Rotor Volgogra - Neftekhimik | live
-- 2026-08-24 18:45 | Transinvest Vi - Fa Siauliai | scheduled
+- 2026-08-24 18:45 | Transinvest Vi - Fa Siauliai | live
 - 2026-08-24 19:00 | Altglienicke - Wolfsburg | scheduled

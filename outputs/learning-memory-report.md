@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 18:53:58
+Oluşturma: 24.08.2026 18:56:20
 
 ## Özet
 
-- Toplam tahmin: 953
-- Bekleyen tahmin: 691
+- Toplam tahmin: 954
+- Bekleyen tahmin: 692
 - Kazanan tahmin: 92
 - Kaybeden tahmin: 169
 - Lig sayısı: 154
@@ -23,12 +23,13 @@ Oluşturma: 24.08.2026 18:53:58
 - 2.5 Alt: toplam 48, bekleyen 31, başarı %100, ağırlık 1.12
 - 2.5 Üst: toplam 12, bekleyen 8, başarı %100, ağırlık 1
 - MS X: toplam 366, bekleyen 251, başarı %31, ağırlık 0.88
-- MS 1: toplam 82, bekleyen 58, başarı %29, ağırlık 0.88
+- MS 1: toplam 83, bekleyen 59, başarı %29, ağırlık 0.88
 - MS 2: toplam 286, bekleyen 185, başarı %28, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | MS 1 | pending | 38/100
 - 2026-08-24 | İspanya 2.Lig | Celta Vigo Ii - Fc Andorra | 2.5 Alt | pending | 63/100
 - 2026-08-24 | Rusya Premier Lig | Baltika Kalini - Rubin Kazan | MS 1 | pending | 36/100
 - 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | 2.5 Alt | pending | 64/100
@@ -43,5 +44,4 @@ Oluşturma: 24.08.2026 18:53:58
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | 2.5 Üst | pending | 57/100
 - 2026-08-24 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | 2.5 Alt | won | 78/100
 - 2026-08-24 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | 2.5 Alt | won | 75/100
-- 2026-08-24 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | 2.5 Üst | won | 61/100
 

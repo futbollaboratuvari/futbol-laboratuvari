@@ -3,15 +3,14 @@
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
 Ham mac: 75
-Aktif mac: 67
-Canli mac: 8
+Aktif mac: 66
+Canli mac: 9
 Biten mac: 0
-Bultenden dusurulen mac: 8
-Bugun: 57
+Bultenden dusurulen mac: 9
+Bugun: 56
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 18:45 | Litvanya A Ligi | Transinvest Vi - Fa Siauliai | scheduled | -
 - 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Würzburger Kic - Köln | scheduled | -
 - 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Altglienicke - Wolfsburg | scheduled | -
 - 2026-08-24 19:00 | Almanya DFB Kupası 1.Tur | Verl 1924 - Hamburg | scheduled | -
@@ -88,6 +87,7 @@ Yarin: 10
 - 2026-08-24 18:00 | Tanzanya Kuu Bara Ligi | Young Africans - Jkt Tanzania | live | -
 - 2026-08-24 18:30 | Rusya FNL | Rotor Volgogra - Neftekhimik | live | -
 - 2026-08-24 18:30 | Romanya 1.Lig | Botosani - Csikszereda | live | -
+- 2026-08-24 18:45 | Litvanya A Ligi | Transinvest Vi - Fa Siauliai | live | -
 
 ## Biten Maclar
 Biten mac yok.
