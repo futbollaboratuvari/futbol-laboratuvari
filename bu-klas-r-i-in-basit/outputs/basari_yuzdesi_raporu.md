@@ -2,10 +2,10 @@
 
 ## Rapor Bilgisi
 
-OLUSTURMA_ZAMANI: 2026-08-23T23:52:28.163653+00:00
-TOPLAM_TAHMIN: 325
+OLUSTURMA_ZAMANI: 2026-08-24T00:04:03.119205+00:00
+TOPLAM_TAHMIN: 330
 SONUCLANAN_TAHMIN: 0
-BEKLEYEN_TAHMIN: 325
+BEKLEYEN_TAHMIN: 330
 VOID_TAHMIN: 0
 GENEL_BASARI_ORANI: -
 
@@ -19,27 +19,27 @@ Faz 4'te mac sonuclari API'den tekrar cekilecek, bekleyen tahminler mac skoruyla
 
 | Market | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| KG_VAR | 0 | 0 | 130 | 0 | - |
-| UST_25 | 0 | 0 | 195 | 0 | - |
+| KG_VAR | 0 | 0 | 132 | 0 | - |
+| UST_25 | 0 | 0 | 198 | 0 | - |
 
 ## Tahmin Turu Bazli Basari
 
 | Tahmin Turu | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| KG_VAR | 0 | 0 | 130 | 0 | - |
-| UST_25 | 0 | 0 | 195 | 0 | - |
+| KG_VAR | 0 | 0 | 132 | 0 | - |
+| UST_25 | 0 | 0 | 198 | 0 | - |
 
 ## Lig Bazli Basari
 
 | Lig | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| Premier League | 0 | 0 | 325 | 0 | - |
+| Premier League | 0 | 0 | 330 | 0 | - |
 
 ## Confidence Bazli Basari
 
 | Confidence | Won | Lost | Pending | Void | Basari |
 |---|---:|---:|---:|---:|---:|
-| low | 0 | 0 | 325 | 0 | - |
+| low | 0 | 0 | 330 | 0 | - |
 
 ## Faz 5 Notu
 
