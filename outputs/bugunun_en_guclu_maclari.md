@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T10:52:32.551Z
+- Güncelleme: 2026-08-24T10:55:56.115Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -19,7 +19,7 @@
 | Lokomotiva Zvo VS Petrzalka | Slovakya 2.Lig | 18:00 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Young Africans VS Jkt Tanzania | Tanzanya Kuu Bara Ligi | 18:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Rotor Volgogra VS Neftekhimik | Rusya FNL | 18:30 | MS 1 | 1.42 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 1 | 1.55 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Botosani VS Csikszereda | Romanya 1.Lig | 18:30 | MS 1 | 1.58 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Transinvest Vi VS Fa Siauliai | Litvanya A Ligi | 18:45 | MS 1 | 1.36 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Würzburger Kic VS Köln | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Altglienicke VS Wolfsburg | Almanya DFB Kupası 1.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -53,25 +53,25 @@
 | Psv (B) VS Oss | Hollanda Eerste Divisie | 21:00 | MS 1 | 1.45 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Sunderland (B) VS Nottingham Fore | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Manchester Uni VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.50 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Reading (B) VS Derby County U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.84 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Reading (B) VS Derby County U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.76 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | MS 2 | 1.72 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Man City U21 VS Wolverhampton U | İngiltere Premier Lig 2 | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Lokomotiv Plov VS Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | MS 2 | 2.00 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Kocaelispor VS Amed Sk | Türkiye Süper Lig | 21:30 | 2.5 Alt | 1.53 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Livorno VS Sassari Torres | İtalya Serie C Grup B | 21:30 | 2.5 Alt | 1.40 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Kocaelispor VS Amed Sk | Türkiye Süper Lig | 21:30 | 2.5 Alt | 1.51 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Livorno VS Sassari Torres | İtalya Serie C Grup B | 21:30 | 2.5 Alt | 1.38 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Otelul Galati VS Argesul Pitesti | Romanya 1.Lig | 21:30 | MS 1 | 2.14 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Sivasspor VS Manisa Futbol K | Türkiye TFF 1. Lig | 21:30 | 2.5 Üst | 1.61 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 1 | 1.51 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Roma VS Fiorentina | İtalya Serie A | 21:45 | MS 1 | 1.50 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Hallescher VS Schalke | Almanya DFB Kupası 1.Tur | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Reims VS Annecy | Fransa Ligue 2 | 21:45 | 2.5 Üst | 1.65 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Fulham VS Chelsea | İngiltere Premier Lig | 22:00 | MS 2 | 1.63 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Fulham VS Chelsea | İngiltere Premier Lig | 22:00 | 2.5 Üst | 1.60 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Folgore Carate VS Dolomiti Bellun | İtalya Serie C Grup A | 22:00 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Reggiana VS Ravenna | İtalya Serie C Grup B | 22:00 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Salernitana VS Sorrento Calcio | İtalya Serie C Grup C | 22:00 | MS 1 | 1.38 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Crotone VS Foggia | İtalya Serie C Grup C | 22:00 | 2.5 Alt | 1.56 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Team Altamura VS Ss Monopoli 196 | İtalya Serie C Grup C | 22:00 | MS 2 | 1.96 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Club Atletico VS Rafaela | Arjantin Ulusal Primera Lig | 22:00 | MS 1 | 2.34 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Sporting Braga VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS 1 | 1.80 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sporting Braga VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | MS 1 | 1.65 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Gil Vicente VS Casa Pia | Portekiz Premier Lig | 22:15 | 2.5 Alt | 1.44 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Feirense VS Porto (B) | Portekiz 2.Lig | 22:15 | 2.5 Alt | 1.43 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Breidablik VS Fram | İzlanda Urvalsdeild | 22:15 | MS 2 | 2.12 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 13:52:44
+Oluşturma: 24.08.2026 13:56:03
 
 ## Özet
 
-- Toplam tahmin: 913
-- Bekleyen tahmin: 675
+- Toplam tahmin: 914
+- Bekleyen tahmin: 676
 - Kazanan tahmin: 70
 - Kaybeden tahmin: 167
 - Lig sayısı: 153
@@ -23,15 +23,16 @@ Oluşturma: 24.08.2026 13:52:44
 - MS X: toplam 365, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 285, bekleyen 185, başarı %28, ağırlık 0.88
 - MS 1: toplam 76, bekleyen 54, başarı %27, ağırlık 0.88
+- 2.5 Üst: toplam 6, bekleyen 6, başarı bekleniyor, ağırlık 1
 - 2.5 Alt: toplam 23, bekleyen 23, başarı bekleniyor, ağırlık 1
-- 2.5 Üst: toplam 5, bekleyen 5, başarı bekleniyor, ağırlık 1
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | İngiltere Premier Lig | Fulham - Chelsea | 2.5 Üst | pending | 52/100
 - 2026-08-24 | İtalya Serie C Grup C | Team Altamura - Ss Monopoli 196 | MS 2 | pending | 39/100
 - 2026-08-24 | Arjantin Ulusal Primera Lig | Club Atletico - Rafaela | MS 1 | pending | 36/100
-- 2026-08-24 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Gil Vicente U23 | MS 1 | pending | 42/100
+- 2026-08-24 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Gil Vicente U23 | MS 1 | pending | 43/100
 - 2026-08-24 | Portekiz Premier Lig | Gil Vicente - Casa Pia | 2.5 Alt | pending | 61/100
 - 2026-08-24 | Portekiz 2.Lig | Feirense - Porto (B) | 2.5 Alt | pending | 60/100
 - 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | MS 2 | pending | 38/100
@@ -43,5 +44,4 @@ Oluşturma: 24.08.2026 13:52:44
 - 2026-08-24 | Hollanda Eerste Divisie | Utrecht (Ii) - Heracles | MS 2 | pending | 47/100
 - 2026-08-24 | Hollanda Eerste Divisie | Psv (B) - Oss | MS 1 | pending | 46/100
 - 2026-08-24 | İngiltere Premier Lig 2 | Sunderland (B) - Nottingham Fore | 2.5 Alt | pending | 54/100
-- 2026-08-24 | İngiltere Premier Lig 2 | Manchester Uni - Ipswich Town U2 | MS 1 | pending | 45/100
 
