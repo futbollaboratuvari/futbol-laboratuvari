@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - "ops/main-run.txt"
+      - ".github/workflows/update-fixtures.yml"
 
 permissions:
   contents: write
@@ -133,6 +134,14 @@ jobs:
           node scripts/ensure-live-json.js
           node scripts/full-bulletin-output-check.js
           node scripts/update-match-archive.js || true
+
+      - name: Resolve final scores and publish performance
+        run: |
+          node scripts/update-final-scores.js
+          node scripts/learning-score-linker.js
+          node scripts/learning-finalizer.js
+          node scripts/sync-analysis-results.js
+          node scripts/prediction-measurement-health-check.js
 
       - name: Validate data outputs before commit
         run: node scripts/validate-json-no-conflicts.js
