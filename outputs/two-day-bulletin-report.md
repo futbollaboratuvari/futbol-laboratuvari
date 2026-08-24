@@ -3,17 +3,14 @@
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
 Ham mac: 134
-Aktif mac: 131
-Canli mac: 3
+Aktif mac: 128
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 3
-Bugun: 122
+Bultenden dusurulen mac: 6
+Bugun: 119
 Yarin: 9
 
 ## Baslamamis Maclar
-- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | scheduled | -
-- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | scheduled | -
-- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | scheduled | -
 - 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | scheduled | -
 - 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | scheduled | -
 - 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | scheduled | -
@@ -147,6 +144,9 @@ Yarin: 9
 - 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | live | -
 - 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | live | -
 - 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | live | -
+- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | live | -
+- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | live | -
+- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | live | -
 
 ## Biten Maclar
 Biten mac yok.

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T22:56:14.009Z",
+  "generated_at": "2026-08-24T23:04:10.319Z",
   "date": "2026-08-25",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -210,7 +210,7 @@
       "home": "Botafogo",
       "away": "Atletico Pr",
       "match_code": "42657",
-      "status": "scheduled",
+      "status": "live",
       "recommended_market": "2.5 Alt",
       "model_score": 64,
       "score_type": "signal_strength",
@@ -264,7 +264,7 @@
       "home": "Ferro Carril O",
       "away": "All Boys",
       "match_code": "33476",
-      "status": "scheduled",
+      "status": "live",
       "recommended_market": "MS 1",
       "model_score": 46,
       "score_type": "signal_strength",
@@ -318,7 +318,7 @@
       "home": "Charleston Bat",
       "away": "Miami Fc",
       "match_code": "39172",
-      "status": "scheduled",
+      "status": "live",
       "recommended_market": "MS 1",
       "model_score": 44,
       "score_type": "signal_strength",
@@ -5439,8 +5439,13 @@
       "metrics": {
         "homeScoredLast10": 5,
         "awayScoredLast10": 5,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
         "over25Percent": 60,
         "over35Percent": 42,
+        "firstHalfGoalTrend": 36,
+        "secondHalfGoalTrend": 56,
         "leagueGoalAverage": 2.84
       },
       "signals": [
