@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 75
 - Live match count: 0
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-24 / 2026-08-25 23:59
 
 - 2026-08-24 17:30 | Isloch - Dinamo Minsk | scheduled

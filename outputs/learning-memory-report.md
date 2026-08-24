@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 17:26:37
+Oluşturma: 24.08.2026 17:29:42
 
 ## Özet
 
-- Toplam tahmin: 950
-- Bekleyen tahmin: 688
+- Toplam tahmin: 951
+- Bekleyen tahmin: 689
 - Kazanan tahmin: 92
 - Kaybeden tahmin: 169
 - Lig sayısı: 154
@@ -20,7 +20,7 @@ Oluşturma: 24.08.2026 17:26:37
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Alt: toplam 46, bekleyen 29, başarı %100, ağırlık 1.12
+- 2.5 Alt: toplam 47, bekleyen 30, başarı %100, ağırlık 1.12
 - 2.5 Üst: toplam 12, bekleyen 8, başarı %100, ağırlık 1
 - MS X: toplam 366, bekleyen 251, başarı %31, ağırlık 0.88
 - MS 1: toplam 81, bekleyen 57, başarı %29, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 24.08.2026 17:26:37
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | 2.5 Alt | pending | 64/100
 - 2026-08-24 | İngiltere Premier Lig 2 | Newcastle (B) - Tottenham U21 | 2.5 Alt | pending | 63/100
 - 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | 2.5 Alt | pending | 63/100
 - 2026-08-24 | Portekiz U23 Ulusal Şampiyona | Sporting Braga - Gil Vicente U23 | 2.5 Alt | pending | 63/100
@@ -43,5 +44,4 @@ Oluşturma: 24.08.2026 17:26:37
 - 2026-08-24 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | 2.5 Üst | won | 61/100
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | 2.5 Üst | pending | 57/100
 - 2026-08-24 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | 2.5 Alt | won | 82/100
-- 2026-08-24 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | 2.5 Alt | won | 76/100
 
