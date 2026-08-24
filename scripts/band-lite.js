@@ -52,6 +52,7 @@ function mergeSignals(row, maps) {
     ...row,
     band_extra: {
       squad_risk_level: status.squad_risk_level,
+      squad_verified_team_count: status.verified_team_count,
       lineup_risk_level: lineup.lineup_risk_level,
       home_edge: homeAway.home_edge,
       away_edge: homeAway.away_edge,
@@ -68,6 +69,7 @@ function labelFor(row, bands) {
   const s = readNumber(row, ['analysis_score', 'score', 'confidence']);
   const missing = readNumber(row, ['data_missing_count']) || 0;
   const squad = readText(row, ['squad_risk_level', 'lineup_risk_level']).toLocaleLowerCase('tr-TR');
+  const verifiedTeams = readNumber(row, ['squad_verified_team_count']);
   const homeEdge = readNumber(row, ['home_edge']);
   const awayEdge = readNumber(row, ['away_edge']);
   const momentum = readNumber(row, ['momentum_difference']);
@@ -91,6 +93,13 @@ function labelFor(row, bands) {
   } else if (/orta/.test(squad) && level === 'Düşük') {
     level = 'Orta';
     notes.push('Kadro veya ilk 11 riski orta.');
+  } else if (/belirsiz|veri yok|no verified|source error/.test(squad)) {
+    if (level === 'Düşük') level = 'Orta';
+    notes.push('Kadro istihbaratı doğrulanamadı; düşük risk varsayılmadı.');
+  }
+  if (verifiedTeams !== null && verifiedTeams < 2 && level === 'Düşük') {
+    level = 'Orta';
+    notes.push('İki takım için de doğrulanmış kadro verisi yok.');
   }
   if (q !== null && q <= bands.short && homeEdge !== null && awayEdge !== null && Math.abs(homeEdge - awayEdge) < 0.15) {
     level = level === 'Yüksek' ? 'Yüksek' : 'Orta';
