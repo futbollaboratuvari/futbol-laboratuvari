@@ -2,6 +2,15 @@ name: Stage 4 Result Tracking
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update-final-scores.js"
+      - "scripts/learning-score-linker.js"
+      - "scripts/learning-finalizer.js"
+      - "scripts/sync-analysis-results.js"
+      - ".github/workflows/stage-4-result-tracking.yml"
   schedule:
     - cron: "23 * * * *"
 
