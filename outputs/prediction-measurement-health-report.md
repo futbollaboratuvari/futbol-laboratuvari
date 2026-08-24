@@ -1,13 +1,13 @@
 # Tahmin Olcum Saglik Kontrolu
 
-Durum: waiting
+Durum: ok
 Toplam tahmin: 850
-Olculen tahmin: 0
-Bekleyen tahmin: 850
-Kazanan: 0
-Kaybeden: 0
+Olculen tahmin: 3
+Bekleyen tahmin: 847
+Kazanan: 1
+Kaybeden: 2
 Skoru olup pending kalan: 0
-Son finalizer kontrolu: 0
-Son finalizer guncelleme: 0
+Son finalizer kontrolu: 3
+Son finalizer guncelleme: 3
 
-Sonraki aksiyon: Bekleyen tahminler icin dogrulanmis final skor bekleniyor.
+Sonraki aksiyon: Olculen tahminler agirlik hesaplamasinda kullanilabilir.
