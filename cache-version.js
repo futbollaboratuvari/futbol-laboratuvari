@@ -1,5 +1,5 @@
 (() => {
-  const version = "20260824-spor-toto-pro-v4";
+  const version = "20260824-spor-toto-pro-v5";
   const resetKey = "fl_membership_full_reset_20260622_v9";
 
   if (localStorage.getItem(resetKey) !== "1") {
@@ -32,6 +32,7 @@
 
   loadScript("site-bulletin-active-guard.js", "site-bulletin-active-guard-script");
   loadScript("spor-toto-dashboard.js", "spor-toto-dashboard-script");
+  loadScript("spor-toto-metric-ui.js", "spor-toto-metric-ui-script");
 
   const loadVisualEnhancements = () => {
     loadScript("fl-pagination-slider.js", "fl-pagination-slider-script");
