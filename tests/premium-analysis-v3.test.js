@@ -125,7 +125,39 @@ test("PRO kaydı yoksa robot oran-only seçim uydurmaz", () => {
     ms2: 12,
   }, "robot");
   assert.equal(result.noPick, true);
+  assert.equal(result.modelScore, null);
   assert.match(result.reasons.join(" "), /PRO veri/i);
+});
+
+test("PRO kaydı olmayan kupon sahte model puanı üretmez", () => {
+  const coupon = core.analyzeCoupon([
+    { date: "2026-08-25", time: "03:15", home: "Lanus", away: "Argentinos Jr", status: "scheduled", ms1: 2.28, msx: 2.64, ms2: 2.77 },
+    { date: "2026-08-25", time: "03:15", home: "Talleres", away: "Rosario Central", status: "scheduled", ms1: 2.4, msx: 2.63, ms2: 2.64 },
+  ], "robot");
+  assert.equal(coupon.pickedCount, 0);
+  assert.equal(coupon.averageModelScore, null);
+  assert.deepEqual(coupon.legs.map((leg) => leg.modelScore), [null, null]);
+});
+
+test("kupon ortalama model gücü seçim oluşmayan ölçülmüş ayakları da kapsar", () => {
+  const pro = (modelScore, market) => ({
+    available: true,
+    fresh: true,
+    recommended_market: market,
+    recommended_odd: market === "MS 1" ? 2.28 : 1.4,
+    model_score: modelScore,
+    estimated_probability: modelScore === 37 ? 37.2 : 60.7,
+    market_probability: modelScore === 37 ? 37.2 : 60.7,
+    edge_percent: 0,
+    data_completeness: 40,
+    risk_level: "Yüksek",
+  });
+  const coupon = core.analyzeCoupon([
+    { date: "2026-08-25", time: "03:15", home: "Lanus", away: "Argentinos Jr", status: "scheduled", proAnalysis: pro(37, "MS 1") },
+    { date: "2026-08-25", time: "03:15", home: "Talleres", away: "Rosario Central", status: "scheduled", proAnalysis: pro(64, "2.5 Alt") },
+  ], "robot");
+  assert.equal(coupon.pickedCount, 1);
+  assert.equal(coupon.averageModelScore, 51);
 });
 
 test("PRO indeksi bültene kod ve Türkçe takım anahtarıyla bağlanır", () => {
@@ -139,6 +171,40 @@ test("PRO indeksi bültene kod ve Türkçe takım anahtarıyla bağlanır", () =
   assert.equal(merged[0].pro.available, true);
   assert.equal(merged[0].pro.fresh, true);
   assert.equal(merged[0].pro.modelScore, 70);
+});
+
+test("ham kaynak etiketi PRO birleşimini ve doğrudan analizi bozmaz", () => {
+  const bulletin = [{
+    date: "2026-08-25",
+    time: "03:15",
+    home: "Talleres",
+    away: "Rosario Central",
+    matchCode: "33614",
+    source: "Maçkolik canlı robot",
+  }];
+  const payload = {
+    generated_at: "2026-08-24T20:30:00Z",
+    matches: [{
+      date: "2026-08-25",
+      time: "03:15",
+      home: "Talleres",
+      away: "Rosario Central",
+      match_code: "33614",
+      source: "Robot ham veri havuzu",
+      recommended_market: "2.5 Alt",
+      recommended_odd: 1.4,
+      model_score: 64,
+      estimated_probability: 60.7,
+      market_probability: 60.7,
+      edge_percent: 0,
+      data_completeness: 40,
+    }],
+  };
+  const merged = core.mergeProAnalysis(bulletin, payload, new Date("2026-08-24T20:35:00Z"));
+  const result = core.analyze(merged[0], "robot");
+  assert.equal(result.noPick, false);
+  assert.equal(result.market, "2.5 Alt");
+  assert.equal(result.modelScore, 64);
 });
 
 test("kupon özeti ortalama güveni ve eksiksiz toplam oranı hesaplar", () => {

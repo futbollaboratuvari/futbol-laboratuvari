@@ -99,6 +99,13 @@
   const signedPercentText = (value) => value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value))
     ? `${Number(value) > 0 ? "+" : ""}${Number(value).toFixed(1)} puan`
     : "Ölçülmedi";
+  const modelScoreValue = (value) => value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value))
+    ? Math.round(Number(value))
+    : null;
+  const modelScoreText = (value) => {
+    const score = modelScoreValue(value);
+    return score === null ? "Ölçülmedi" : `${score}/100`;
+  };
   const root = () => document.querySelector("[data-pa3-root]");
   const query = (selector) => root()?.querySelector(selector) || null;
 
@@ -312,9 +319,9 @@
     <div class="fl-pa3-pick${result.noPick ? " is-no-pick" : ""}">
       <span>${result.noPick ? "Kontrollü karar" : "Öne çıkan seçim"}</span>
       <strong>${esc(result.market)}</strong>
-      <small>${result.noPick ? "Güven eşiği aşılmadı" : `Oran ${esc(oddText(result.odd))}`}</small>
+      <small>${result.noPick ? (modelScoreValue(result.modelScore ?? result.confidence) === null ? "PRO veri kaydı bulunamadı" : "Güven eşiği aşılmadı") : `Oran ${esc(oddText(result.odd))}`}</small>
     </div>
-    <div class="fl-pa3-confidence"><div><span>Model gücü <small>olasılık değildir</small></span><strong>${esc(Math.round(result.modelScore ?? result.confidence ?? 0))}/100</strong></div><progress max="100" value="${esc(Math.round(result.modelScore ?? result.confidence ?? 0))}" aria-label="Model gücü">${esc(Math.round(result.modelScore ?? result.confidence ?? 0))}/100</progress></div>
+    <div class="fl-pa3-confidence"><div><span>Model gücü <small>olasılık değildir</small></span><strong>${esc(modelScoreText(result.modelScore ?? result.confidence))}</strong></div><progress max="100" value="${esc(modelScoreValue(result.modelScore ?? result.confidence) ?? 0)}" aria-label="Model gücü ${esc(modelScoreText(result.modelScore ?? result.confidence))}">${esc(modelScoreText(result.modelScore ?? result.confidence))}</progress></div>
     <div class="fl-pa3-score-grid">
       <div><span>Tahmini olasılık</span><strong>${esc(percentText(result.estimatedProbability, 1))}</strong></div>
       <div><span>Piyasa olasılığı</span><strong>${esc(percentText(result.marketProbability, 1))}</strong></div>
@@ -332,8 +339,8 @@
       <span class="fl-pa3-risk is-${riskClass(coupon.risk)}">${esc(coupon.risk)} risk</span>
     </div>
     <h3>${coupon.legs.length} maçlık kupon görünümü</h3>
-    <div class="fl-pa3-coupon-summary"><div><span>Ort. model gücü</span><strong>${esc(coupon.averageModelScore || 0)}/100</strong></div><div><span>Birleşik olasılık</span><strong>${esc(percentText(coupon.combinedProbability, 2))}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div><div><span>Seçim oluşan</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div></div>
-    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · Model ${esc(Math.round(leg.modelScore ?? leg.confidence ?? 0))}/100 · ${esc(percentText(leg.estimatedProbability, 1))}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
+    <div class="fl-pa3-coupon-summary"><div><span>Ort. model gücü</span><strong>${esc(modelScoreText(coupon.averageModelScore))}</strong></div><div><span>Birleşik olasılık</span><strong>${esc(percentText(coupon.combinedProbability, 2))}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div><div><span>Seçim oluşan</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div></div>
+    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · Model ${esc(modelScoreText(leg.modelScore ?? leg.confidence))} · ${esc(percentText(leg.estimatedProbability, 1))}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
     <div class="fl-pa3-reasons"><h4>Kupon notu</h4><ol><li>Birleşik olasılık, tüm ayakların tahmini olasılıklarının çarpımıdır ve maçların bağımsız olduğu varsayımını kullanır.</li><li>Seçim oluşmayan ${esc(coupon.noPickCount || 0)} maç açıkça işaretlenir; zorunlu tahmin eklenmez.</li><li>Maç sayısı arttıkça birleşik olasılık hızla düşer.</li></ol></div>
     <p class="fl-pa3-disclaimer">Model gücü olasılık değildir. Kupon olasılığı yaklaşık bir risk göstergesidir; bütçe ve süre sınırını koru.</p>
     <div class="fl-pa3-result-actions"><button type="button" data-pa3-copy>Sonucu Kopyala</button><button type="button" data-pa3-new>Yeni Analiz</button></div>`;

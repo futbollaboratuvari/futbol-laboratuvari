@@ -24,7 +24,7 @@
     "learn:robot": "node scripts/robot-learning-memory.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js",
     "check:learning": "node scripts/learning-output-check.js",
     "test:spor-toto": "node tests/spor-toto-archive.test.js && node tests/spor-toto-market.test.js && node tests/spor-toto-weekly.test.js",
-    "test:premium-analysis": "node tests/robot-pro-v2.test.js && node tests/pro-analysis-index.test.js && node tests/premium-analysis-v3.test.js",
+    "test:premium-analysis": "node tests/robot-pro-v2.test.js && node tests/pro-analysis-index.test.js && node tests/export-high-value-json.test.js && node tests/premium-analysis-v3.test.js",
     "test:performance": "node tests/performance-loading.test.js",
     "test:results": "node tests/results-pipeline.test.js",
     "update:all": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/two-day-bulletin-window.js && node scripts/build-full-bulletin.js && node scripts/merge-bulletin-detail-fields.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js && npm run build:spor-toto"

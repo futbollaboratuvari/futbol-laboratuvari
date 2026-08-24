@@ -88,7 +88,21 @@ const loadBandMap = () => {
 
 const bandFor = (item, map) => map.get(cleanKey(item.match_name || item.match)) || { level: "Düşük", notes: ["Bant kontrol verisi yok."] };
 
-const isToday = (fixture, today) => String(fixture.date || fixture.tarih || fixture.utc_date || "").slice(0, 10) === today;
+const fixtureDate = (fixture) => String(fixture.date || fixture.tarih || fixture.utc_date || "").slice(0, 10);
+
+const isToday = (fixture, today) => fixtureDate(fixture) === today;
+
+// The fixture feed already defines the current bulletin window (today + upcoming
+// matches). Daily cards must stay limited to today, while PRO analysis must cover
+// every current/future fixture that the Special Analysis UI can display.
+const selectDailyMatches = (fixtures, today) => (Array.isArray(fixtures) ? fixtures : [])
+  .filter((fixture) => isToday(fixture, today));
+
+const selectAnalysisMatches = (fixtures, today) => (Array.isArray(fixtures) ? fixtures : [])
+  .filter((fixture) => {
+    const date = fixtureDate(fixture);
+    return Boolean(date) && date >= today;
+  });
 
 const score_match = (match) => applyLearningWeightsToScoredItem(scoreFixture(match));
 
@@ -273,10 +287,11 @@ function build_daily_coupons(matches) {
   };
 }
 
-function export_json_outputs(couponBundle, matches) {
+function export_json_outputs(couponBundle, matches, analysisBundle = couponBundle, analysisMatches = matches) {
   const today = todayTR();
   const sourceExists = matches.length > 0;
   const scored = couponBundle.scored || [];
+  const analysisScored = analysisBundle.scored || [];
   const dailyCoupons = {
     generated_at: new Date().toISOString(),
     date: today,
@@ -297,16 +312,16 @@ function export_json_outputs(couponBundle, matches) {
     engine: "Futbol Laboratuvarı PRO 13",
     model_version: MODEL_VERSION,
     scoring_mode: "market_conditioned_probability_ensemble_with_learning_memory",
-    stale_data_policy: "Eski veri gösterme. Bugünün verisi yoksa boş mesaj göster.",
+    stale_data_policy: "Eski veri gösterme. Güncel bülten penceresindeki bugün ve yaklaşan maçları analiz et.",
     summary: {
-      fixture_count: matches.length,
-      scored_match_count: scored.length,
-      coupon_candidate_count: couponBundle.available.length,
-      watch_candidate_count: (couponBundle.watchlist || []).length,
-      learning_adjusted_count: scored.filter((item) => item.learning_adjustment?.applied).length,
+      fixture_count: analysisMatches.length,
+      scored_match_count: analysisScored.length,
+      coupon_candidate_count: analysisBundle.available.length,
+      watch_candidate_count: (analysisBundle.watchlist || []).length,
+      learning_adjusted_count: analysisScored.filter((item) => item.learning_adjustment?.applied).length,
     },
-    watchlist: (couponBundle.watchlist || []).map((item) => live_match_output(item)),
-    matches: scored.map((item) => ({
+    watchlist: (analysisBundle.watchlist || []).map((item) => live_match_output(item)),
+    matches: analysisScored.map((item) => ({
       ...live_match_output(item),
       metrics: item.analysis_metrics || {},
       signals: item.pro_signals || [],
@@ -325,10 +340,12 @@ function export_json_outputs(couponBundle, matches) {
 function main() {
   const today = todayTR();
   const fixtures = readJson(fixturesPath, []);
-  const matches = fixtures.filter((fixture) => isToday(fixture, today));
-  const coupons = build_daily_coupons(matches);
-  export_json_outputs(coupons, matches);
-  console.log(`High Value JSON çıktı dosyaları üretildi: ${today}`);
+  const dailyMatches = selectDailyMatches(fixtures, today);
+  const analysisMatches = selectAnalysisMatches(fixtures, today);
+  const dailyCoupons = build_daily_coupons(dailyMatches);
+  const analysisBundle = build_daily_coupons(analysisMatches);
+  export_json_outputs(dailyCoupons, dailyMatches, analysisBundle, analysisMatches);
+  console.log(`High Value JSON çıktı dosyaları üretildi: ${today}. Günlük: ${dailyMatches.length}. PRO pencere: ${analysisMatches.length}.`);
 }
 
 if (require.main === module) main();
@@ -341,4 +358,6 @@ module.exports = {
   build_daily_coupons,
   generate_robot_explanation,
   export_json_outputs,
+  selectAnalysisMatches,
+  selectDailyMatches,
 };

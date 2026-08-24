@@ -136,9 +136,11 @@
   };
 
   const normalizeMatches = (matches) => (Array.isArray(matches) ? matches : []).map(normalizeMatch);
+  const isNormalizedMatch = (match) => Object.prototype.hasOwnProperty.call(match || {}, "timestamp")
+    && Boolean(match?.odds && match?.metrics && match?.pro);
 
   const joinKeysFor = (match) => {
-    const normalized = match?.source ? match : normalizeMatch(match);
+    const normalized = isNormalizedMatch(match) ? match : normalizeMatch(match);
     const teams = `${normalizeText(normalized.home)}|${normalizeText(normalized.away)}`;
     return [
       normalized.matchCode ? `code:${normalized.matchCode}` : "",
@@ -176,9 +178,7 @@
   };
 
   const isUpcoming = (match, now = new Date()) => {
-    const normalized = Object.prototype.hasOwnProperty.call(match || {}, "timestamp") && match?.odds
-      ? match
-      : normalizeMatch(match);
+    const normalized = isNormalizedMatch(match) ? match : normalizeMatch(match);
     if (BLOCKED_STATUSES.test(normalized.status)) return false;
     if (normalized.timestamp === null) return normalized.status.toLocaleLowerCase("tr-TR") === "scheduled";
     return normalized.timestamp >= now.getTime() - (5 * 60 * 1000);
@@ -280,31 +280,34 @@
     return rows;
   };
 
-  const noPickResult = (match, type, reasons) => ({
-    match,
-    type,
-    market: "Seçim yok",
-    odd: null,
-    confidence: clamp(Math.round(match.analysisScore || 50), 42, 58),
-    modelScore: match.pro.modelScore ?? match.analysisScore ?? 50,
-    estimatedProbability: match.pro.estimatedProbability,
-    marketProbability: match.pro.marketProbability,
-    edgePercent: match.pro.edgePercent,
-    dataCompleteness: match.pro.dataCompleteness ?? 0,
-    dataQuality: match.pro.dataQuality || "Sınırlı",
-    modelVersion: match.pro.modelVersion || "",
-    sourceMode: match.pro.available ? "pro" : "market",
-    calibration: match.pro.calibration,
-    risk: "Yüksek",
-    noPick: true,
-    headline: "Bu maçta güçlü seçim oluşmadı",
-    reasons: (reasons || [
-      "Mevcut göstergeler tek bir seçeneği yeterince ayırmıyor.",
-      "Oran ve eğilim dengesi güven eşiğinin altında kalıyor.",
-      "Maçı izleme listesinde tutmak daha kontrollü bir yaklaşım.",
-    ]).slice(0, 3),
-    details: detailRows(match, impliedProbabilities(match)),
-  });
+  const noPickResult = (match, type, reasons) => {
+    const measuredModelScore = match.pro.modelScore ?? match.analysisScore;
+    return {
+      match,
+      type,
+      market: "Seçim yok",
+      odd: null,
+      confidence: measuredModelScore === null ? null : clamp(Math.round(measuredModelScore), 42, 58),
+      modelScore: measuredModelScore,
+      estimatedProbability: match.pro.estimatedProbability,
+      marketProbability: match.pro.marketProbability,
+      edgePercent: match.pro.edgePercent,
+      dataCompleteness: match.pro.dataCompleteness ?? 0,
+      dataQuality: match.pro.dataQuality || "Sınırlı",
+      modelVersion: match.pro.modelVersion || "",
+      sourceMode: match.pro.available ? "pro" : "market",
+      calibration: match.pro.calibration,
+      risk: "Yüksek",
+      noPick: true,
+      headline: "Bu maçta güçlü seçim oluşmadı",
+      reasons: (reasons || [
+        "Mevcut göstergeler tek bir seçeneği yeterince ayırmıyor.",
+        "Oran ve eğilim dengesi güven eşiğinin altında kalıyor.",
+        "Maçı izleme listesinde tutmak daha kontrollü bir yaklaşım.",
+      ]).slice(0, 3),
+      details: detailRows(match, impliedProbabilities(match)),
+    };
+  };
 
   const analyzeMatchResult = (match, forcedKey = "") => {
     const probabilities = impliedProbabilities(match);
@@ -544,7 +547,7 @@
   };
 
   const analyze = (input, type = "robot", advancedMarket = "") => {
-    const match = input?.source ? input : normalizeMatch(input);
+    const match = isNormalizedMatch(input) ? input : normalizeMatch(input);
     if (type === "match") return analyzeMatchResult(match);
     if (type === "goals") return analyzeGoals(match);
     if (type === "advanced") return analyzeAdvanced(match, advancedMarket);
@@ -557,6 +560,12 @@
     const averageConfidence = picked.length
       ? Math.round(picked.reduce((sum, leg) => sum + leg.confidence, 0) / picked.length)
       : 0;
+    const measuredModelScores = legs
+      .map((leg) => finite(leg.modelScore))
+      .filter((value) => value !== null);
+    const averageModelScore = measuredModelScores.length
+      ? Math.round(measuredModelScores.reduce((sum, value) => sum + value, 0) / measuredModelScores.length)
+      : null;
     const probabilityLegs = picked
       .map((leg) => finite(leg.estimatedProbability))
       .filter((value) => value !== null && value >= 0 && value <= 100);
@@ -586,7 +595,7 @@
       pickedCount: picked.length,
       noPickCount,
       averageConfidence,
-      averageModelScore: averageConfidence,
+      averageModelScore,
       averageDataCompleteness,
       combinedProbability,
       totalOdd,
