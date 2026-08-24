@@ -37,6 +37,13 @@ jobs:
           npm run sync:results
           npm run check:learning
 
+      - name: Finalize verified weekly Spor Toto before commit
+        run: |
+          node scripts/sync-spor-toto-weekly-program.js || true
+          node scripts/rebuild-spor-toto-bulletin.js
+          node scripts/finalize-spor-toto-pro.js
+          node tests/spor-toto-weekly.test.js
+
       - name: Guard against sudden data collapse
         run: |
           node - <<'NODE'
@@ -90,7 +97,7 @@ jobs:
           fi
           git commit -m "Auto live data and robot analysis update"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node tests/spor-toto-weekly.test.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
