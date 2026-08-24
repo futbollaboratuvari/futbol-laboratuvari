@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T14:24:08.957Z
+- Güncelleme: 2026-08-24T14:26:21.189Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -54,7 +54,7 @@
 | Sunderland (B) VS Nottingham Fore | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Manchester Uni VS Ipswich Town U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.50 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Reading (B) VS Derby County U2 | İngiltere Premier Lig 2 | 21:00 | MS 1 | 1.68 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | MS 2 | 1.89 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Newcastle (B) VS Tottenham U21 | İngiltere Premier Lig 2 | 21:00 | 2.5 Alt | 1.44 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Man City U21 VS Wolverhampton U | İngiltere Premier Lig 2 | 21:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Lokomotiv Plov VS Arda Kardzhali | Bulgaristan 1.Lig | 21:15 | MS 2 | 1.86 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Kocaelispor VS Amed Sk | Türkiye Süper Lig | 21:30 | 2.5 Alt | 1.48 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -74,7 +74,7 @@
 | Sporting Braga VS Gil Vicente U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Alt | 1.89 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Gil Vicente VS Casa Pia | Portekiz Premier Lig | 22:15 | 2.5 Alt | 1.44 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Feirense VS Porto (B) | Portekiz 2.Lig | 22:15 | 2.5 Alt | 1.43 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Breidablik VS Fram | İzlanda Urvalsdeild | 22:15 | MS 2 | 2.08 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Breidablik VS Fram | İzlanda Urvalsdeild | 22:15 | 2.5 Alt | 1.36 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Malaga VS D.La Coruna | İspanya LaLiga | 22:30 | 2.5 Alt | 1.46 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Granada VS Mallorca | İspanya 2.Lig | 22:30 | 2.5 Alt | 1.40 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Tigre VS Corboda Santiag | Arjantin Premier Lig 2. Aşama | 01:00 | MS 1 | 1.46 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

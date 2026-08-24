@@ -1,377 +1,1175 @@
 {
-  "generated_at": "2026-08-24T14:23:54.643Z",
+  "generated_at": "2026-08-24T14:26:20.043Z",
   "timezone": "Europe/Istanbul",
-  "source": "Maçkolik canlı veri bekleniyor",
-  "week_label": "2026-08-24 / 2026-08-30",
-  "total_source_matches": 76,
-  "active_match_count": 75,
-  "removed_finished_count": 1,
-  "removed_statuses": [
-    "finished",
-    "cancelled",
-    "postponed"
-  ],
+  "source": "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
+  "official_game_format_verified": true,
+  "official_bulletin": false,
+  "program_verification_status": "cross_verified",
+  "bulletin_note": "Spor Toto oyunu haftalık 15 maçtır. Bu liste haftalık program kaynaklarıyla çapraz doğrulanır; Futbol Laboratuvarı yalnız doğrulanmış kendi verisi geldiğinde model tahmini üretir.",
+  "engine_version": "spor-toto-weekly15-safe-pro13-v1",
+  "season": "2026/2027",
+  "week": 3,
+  "week_label": "2026/2027 3. Hafta",
+  "program_start": "2026-08-28",
+  "program_end": "2026-08-31",
   "match_count": 15,
+  "analysis_ready_count": 0,
+  "analysis_waiting_count": 15,
+  "source_match_count": 76,
+  "verification_sources": [
+    {
+      "name": "Spor Toto Teşkilat Başkanlığı",
+      "url": "https://sportoto.gov.tr/spor-toto-listeler",
+      "role": "official_program_page"
+    },
+    {
+      "name": "Spor Toto Formül 15",
+      "url": "https://sportotoformul15.com/",
+      "role": "current_week_cross_check"
+    },
+    {
+      "name": "Spor Toto Tahmin",
+      "url": "https://sportototahmin.com/blog",
+      "role": "current_week_cross_check"
+    },
+    {
+      "name": "Spor Toto Hedef 15",
+      "url": "https://www.sportotohedef15.com/sportoto_formul_yuzdeselformulu.php",
+      "role": "secondary_cross_check"
+    },
+    {
+      "name": "TFF",
+      "url": "https://www.tff.org/",
+      "role": "turkish_fixture_cross_check"
+    }
+  ],
+  "coupon": {
+    "ready": false,
+    "total_columns": 0,
+    "single_count": 0,
+    "double_count": 0,
+    "triple_count": 0,
+    "average_confidence": 0,
+    "average_data_completeness": 0,
+    "unit_stake": null,
+    "estimated_cost": null,
+    "note": "15 maç için doğrulanmış analiz verisi bekleniyor; eksik veriyle kupon/maliyet üretilmez."
+  },
   "matches": [
     {
       "no": 1,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "17:30",
-      "league": "Rusya FNL",
-      "home": "Kamaz",
-      "away": "Pfc Sochi",
-      "match": "Kamaz - Pfc Sochi",
-      "one": 2.92,
-      "draw": 2.86,
-      "two": 1.93,
-      "oneOdd": 2.92,
-      "drawOdd": 2.86,
-      "twoOdd": 1.93,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-28",
+      "time": "21:30",
+      "league": "Türkiye Süper Lig",
+      "home": "Gençlerbirliği",
+      "away": "Erzurumspor FK",
+      "match": "Gençlerbirliği - Erzurumspor FK",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 66,
+        "2": 15,
+        "X": 19
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %66, X %19, 2 %15."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 2,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "17:30",
-      "league": "Belarus Premier Lig",
-      "home": "Isloch",
-      "away": "Dinamo Minsk",
-      "match": "Isloch - Dinamo Minsk",
-      "one": 2.57,
-      "draw": 2.78,
-      "two": 2.15,
-      "oneOdd": 2.57,
-      "drawOdd": 2.78,
-      "twoOdd": 2.15,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-29",
+      "time": "19:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Tümosan Konyaspor",
+      "away": "Kocaelispor",
+      "match": "Tümosan Konyaspor - Kocaelispor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 64,
+        "2": 10,
+        "X": 26
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %64, X %26, 2 %10."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 3,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "18:00",
-      "league": "İran Persian Gulf Pro Lig",
-      "home": "Tractor Fc",
-      "away": "Persepolis",
-      "match": "Tractor Fc - Persepolis",
-      "one": 2.07,
-      "draw": 2.77,
-      "two": 2.73,
-      "oneOdd": 2.07,
-      "drawOdd": 2.77,
-      "twoOdd": 2.73,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-29",
+      "time": "21:30",
+      "league": "Türkiye Süper Lig",
+      "home": "Galatasaray",
+      "away": "Göztepe",
+      "match": "Galatasaray - Göztepe",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 72,
+        "2": 12,
+        "X": 16
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %72, X %16, 2 %12."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 4,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "18:00",
-      "league": "İtalya Primavera Şampiyonası 1",
-      "home": "Hellas Verona",
-      "away": "Cesena U20",
-      "match": "Hellas Verona - Cesena U20",
-      "one": 2.72,
-      "draw": 3.2,
-      "two": 1.88,
-      "oneOdd": 2.72,
-      "drawOdd": 3.2,
-      "twoOdd": 1.88,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-29",
+      "time": "21:30",
+      "league": "Türkiye Süper Lig",
+      "home": "Gaziantep FK",
+      "away": "Çaykur Rizespor",
+      "match": "Gaziantep FK - Çaykur Rizespor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 30,
+        "2": 29,
+        "X": 41
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %30, X %41, 2 %29."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 5,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "18:00",
-      "league": "Slovakya 2.Lig",
-      "home": "Lokomotiva Zvo",
-      "away": "Petrzalka",
-      "match": "Lokomotiva Zvo - Petrzalka",
-      "one": 2.63,
-      "draw": 3.04,
-      "two": 1.99,
-      "oneOdd": 2.63,
-      "drawOdd": 3.04,
-      "twoOdd": 1.99,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-30",
+      "time": "19:00",
+      "league": "Türkiye Süper Lig",
+      "home": "Eyüpspor",
+      "away": "Corendon Alanyaspor",
+      "match": "Eyüpspor - Corendon Alanyaspor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 23,
+        "2": 49,
+        "X": 28
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %23, X %28, 2 %49."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 6,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "18:00",
-      "league": "Tanzanya Kuu Bara Ligi",
-      "home": "Young Africans",
-      "away": "Jkt Tanzania",
-      "match": "Young Africans - Jkt Tanzania",
-      "one": null,
-      "draw": 7.9,
-      "two": 17.5,
-      "oneOdd": null,
-      "drawOdd": 7.9,
-      "twoOdd": 17.5,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-30",
+      "time": "21:30",
+      "league": "Türkiye Süper Lig",
+      "home": "İstanbul Başakşehir",
+      "away": "Kasımpaşa",
+      "match": "İstanbul Başakşehir - Kasımpaşa",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 67,
+        "2": 13,
+        "X": 20
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %67, X %20, 2 %13."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 7,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "18:30",
-      "league": "Rusya FNL",
-      "home": "Rotor Volgogra",
-      "away": "Neftekhimik",
-      "match": "Rotor Volgogra - Neftekhimik",
-      "one": 1.4,
-      "draw": 3.32,
-      "two": 5.14,
-      "oneOdd": 1.4,
-      "drawOdd": 3.32,
-      "twoOdd": 5.14,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-30",
+      "time": "21:30",
+      "league": "Türkiye Süper Lig",
+      "home": "Samsunspor",
+      "away": "Fenerbahçe",
+      "match": "Samsunspor - Fenerbahçe",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 12,
+        "2": 70,
+        "X": 18
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %12, X %18, 2 %70."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 8,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "18:30",
-      "league": "Romanya 1.Lig",
-      "home": "Botosani",
-      "away": "Csikszereda",
-      "match": "Botosani - Csikszereda",
-      "one": 1.58,
-      "draw": 3.2,
-      "two": 3.78,
-      "oneOdd": 1.58,
-      "drawOdd": 3.2,
-      "twoOdd": 3.78,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-31",
+      "time": "21:30",
+      "league": "Türkiye Süper Lig",
+      "home": "Amed Sportif Faaliyetler",
+      "away": "Trabzonspor",
+      "match": "Amed Sportif Faaliyetler - Trabzonspor",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 13,
+        "2": 64,
+        "X": 23
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %13, X %23, 2 %64."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 9,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "18:45",
-      "league": "Litvanya A Ligi",
-      "home": "Transinvest Vi",
-      "away": "Fa Siauliai",
-      "match": "Transinvest Vi - Fa Siauliai",
-      "one": 1.37,
-      "draw": 3.82,
-      "two": 4.57,
-      "oneOdd": 1.37,
-      "drawOdd": 3.82,
-      "twoOdd": 4.57,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-31",
+      "time": "21:30",
+      "league": "Türkiye Süper Lig",
+      "home": "Beşiktaş",
+      "away": "Arca Çorum FK",
+      "match": "Beşiktaş - Arca Çorum FK",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 87,
+        "2": 5,
+        "X": 8
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %87, X %8, 2 %5."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 10,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "19:00",
-      "league": "Almanya DFB Kupası 1.Tur",
-      "home": "Würzburger Kic",
-      "away": "Köln",
-      "match": "Würzburger Kic - Köln",
-      "one": 7.23,
-      "draw": 5.15,
-      "two": 1.14,
-      "oneOdd": 7.23,
-      "drawOdd": 5.15,
-      "twoOdd": 1.14,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-29",
+      "time": "19:30",
+      "league": "Almanya Bundesliga",
+      "home": "Borussia Dortmund",
+      "away": "Hamburger SV",
+      "match": "Borussia Dortmund - Hamburger SV",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 86,
+        "2": 6,
+        "X": 8
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %86, X %8, 2 %6."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 11,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "19:00",
-      "league": "Almanya DFB Kupası 1.Tur",
-      "home": "Altglienicke",
-      "away": "Wolfsburg",
-      "match": "Altglienicke - Wolfsburg",
-      "one": 15.6,
-      "draw": 8.35,
-      "two": null,
-      "oneOdd": 15.6,
-      "drawOdd": 8.35,
-      "twoOdd": null,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-28",
+      "time": "21:45",
+      "league": "Fransa Ligue 1",
+      "home": "Lille",
+      "away": "Paris Saint-Germain",
+      "match": "Lille - Paris Saint-Germain",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 9,
+        "2": 70,
+        "X": 21
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %9, X %21, 2 %70."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 12,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "19:00",
-      "league": "Almanya DFB Kupası 1.Tur",
-      "home": "Verl 1924",
-      "away": "Hamburg",
-      "match": "Verl 1924 - Hamburg",
-      "one": 5.8,
-      "draw": 4.74,
-      "two": 1.21,
-      "oneOdd": 5.8,
-      "drawOdd": 4.74,
-      "twoOdd": 1.21,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-30",
+      "time": "21:45",
+      "league": "Fransa Ligue 1",
+      "home": "Monaco",
+      "away": "Marsilya",
+      "match": "Monaco - Marsilya",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 37,
+        "2": 20,
+        "X": 43
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %37, X %43, 2 %20."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 13,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "19:00",
-      "league": "Bulgaristan 1.Lig",
-      "home": "Botev Vratsa",
-      "away": "Botev Plovdiv",
-      "match": "Botev Vratsa - Botev Plovdiv",
-      "one": 3.76,
-      "draw": 3.06,
-      "two": 1.62,
-      "oneOdd": 3.76,
-      "drawOdd": 3.06,
-      "twoOdd": 1.62,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-29",
+      "time": "19:30",
+      "league": "İngiltere Premier Lig",
+      "home": "Tottenham Hotspur",
+      "away": "Newcastle United",
+      "match": "Tottenham Hotspur - Newcastle United",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 51,
+        "2": 28,
+        "X": 21
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %51, X %21, 2 %28."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 14,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "19:00",
-      "league": "İran Persian Gulf Pro Lig",
-      "home": "Kheybar Khorra",
-      "away": "Peykan",
-      "match": "Kheybar Khorra - Peykan",
-      "one": 2.32,
-      "draw": 2.35,
-      "two": 2.81,
-      "oneOdd": 2.32,
-      "drawOdd": 2.35,
-      "twoOdd": 2.81,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-29",
+      "time": "22:30",
+      "league": "İspanya La Liga",
+      "home": "Sevilla",
+      "away": "Atletico Madrid",
+      "match": "Sevilla - Atletico Madrid",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 19,
+        "2": 57,
+        "X": 24
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %19, X %24, 2 %57."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     },
     {
       "no": 15,
-      "week": "2026-08-24 / 2026-08-30",
-      "date": "2026-08-24",
-      "time": "19:00",
-      "league": "İran Persian Gulf Pro Lig",
-      "home": "Malavan Fc",
-      "away": "Fajr Sepasi",
-      "match": "Malavan Fc - Fajr Sepasi",
-      "one": 2.06,
-      "draw": 2.64,
-      "two": 2.89,
-      "oneOdd": 2.06,
-      "drawOdd": 2.64,
-      "twoOdd": 2.89,
-      "decision": "Bekleniyor",
-      "className": "Haftalık Spor Toto",
-      "minute": null,
-      "homeScore": null,
-      "awayScore": null,
-      "score": "-",
+      "week": "2026/2027 3. Hafta",
+      "date": "2026-08-30",
+      "time": "21:45",
+      "league": "İtalya Serie A",
+      "home": "Cagliari",
+      "away": "Inter",
+      "match": "Cagliari - Inter",
       "status": "scheduled",
-      "source": "Maçkolik canlı robot"
+      "source": "Haftalık Spor Toto programı",
+      "matchCode": null,
+      "one": null,
+      "draw": null,
+      "two": null,
+      "oneOdd": null,
+      "drawOdd": null,
+      "twoOdd": null,
+      "probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "market_probabilities": {
+        "1": null,
+        "2": null,
+        "X": null
+      },
+      "public_distribution": {
+        "1": 8,
+        "2": 84,
+        "X": 8
+      },
+      "probability_basis": "awaiting_verified_1x2_data",
+      "analysis_ready": false,
+      "decision": null,
+      "selected_options": [],
+      "selection": null,
+      "coupon_role": "Analiz Verisi Bekleniyor",
+      "classification": "Analiz Verisi Bekleniyor",
+      "confidence": 0,
+      "confidence_score": 0,
+      "risk": "Veri Bekleniyor",
+      "risk_level": "Veri Bekleniyor",
+      "data_completeness": 0,
+      "probability_gap": null,
+      "column_multiplier": 0,
+      "reasons": [
+        "Bu karşılaşma haftalık 15 maçlık Spor Toto programındadır.",
+        "Futbol Laboratuvarı 1-X-2 oranı ve bağımsız veri doğrulanmadan model olasılığı veya tahmin üretmez.",
+        "Halk/oynanma dağılımı bilgi amaçlıdır: 1 %8, X %8, 2 %84."
+      ],
+      "model_version": "pro13-market-conditioned-v1",
+      "score_type": "spor_toto_1x2",
+      "form": {
+        "home": {
+          "recent": [],
+          "sample": 0
+        },
+        "away": {
+          "recent": [],
+          "sample": 0
+        }
+      },
+      "h2h": [],
+      "squad": {
+        "available": false,
+        "home": [],
+        "away": [],
+        "note": "Doğrulanmış eksik/kadro verisi bulunmuyor."
+      },
+      "independent_evidence": false,
+      "evidence_mode": "waiting_verified_data"
     }
-  ]
+  ],
+  "evidence_summary": {
+    "archive_backed_match_count": 0,
+    "market_baseline_match_count": 0,
+    "waiting_match_count": 15
+  }
 }

@@ -1,10 +1,11 @@
-# Spor Toto PRO Güvenli Rapor
+# Spor Toto Haftalık 15 Güvenli Rapor
 
-- Güncelleme: 2026-08-24T13:53:07.719Z
-- Maç: 15
-- Arşiv destekli: 15
+- Güncelleme: 2026-08-24T14:26:20.043Z
+- Hafta: 2026/2027 3. Hafta
+- Program maçı: 15
+- Analize hazır: 0
+- Veri bekleyen: 15
+- Arşiv destekli: 0
 - Piyasa tabanlı: 0
-- Çifte şans: 0
-- Toplam kolon: 1
-- Ortalama güven: 55/100
-- Ortalama veri: 40/100
+- Kupon hazır: hayır
+- Toplam kolon: 0
