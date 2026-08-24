@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
-Ham mac: 73
-Aktif mac: 43
+Ham mac: 107
+Aktif mac: 39
 Canli mac: 30
-Biten mac: 0
-Bultenden dusurulen mac: 30
-Bugun: 33
+Biten mac: 38
+Bultenden dusurulen mac: 68
+Bugun: 29
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 20:05 | İsveç Superettan | Norrkoping - Falkenberg | scheduled | -
-- 2026-08-24 20:30 | İspanya LaLiga | Osasuna - Levante | scheduled | -
-- 2026-08-24 20:30 | Rusya Premier Lig | Baltika Kalini - Rubin Kazan | scheduled | -
-- 2026-08-24 20:30 | Belarus Premier Lig | Torpedo Zhodin - Dnepr Mogilev | scheduled | -
 - 2026-08-24 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci - Al Hazm | scheduled | -
 - 2026-08-24 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) - Heracles | scheduled | -
 - 2026-08-24 21:00 | Hollanda Eerste Divisie | Psv (B) - Oss | scheduled | -
@@ -56,10 +52,6 @@ Yarin: 10
 - 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | scheduled | -
 
 ## Canli Maclar
-- 2026-08-24 18:00 | İran Persian Gulf Pro Lig | Tractor Fc - Persepolis | live | -
-- 2026-08-24 18:00 | İtalya Primavera Şampiyonası 1 | Hellas Verona - Cesena U20 | live | -
-- 2026-08-24 18:00 | Slovakya 2.Lig | Lokomotiva Zvo - Petrzalka | live | -
-- 2026-08-24 18:00 | Tanzanya Kuu Bara Ligi | Young Africans - Jkt Tanzania | live | -
 - 2026-08-24 18:30 | Rusya FNL | Rotor Volgogra - Neftekhimik | live | -
 - 2026-08-24 18:30 | Romanya 1.Lig | Botosani - Csikszereda | live | -
 - 2026-08-24 18:45 | Litvanya A Ligi | Transinvest Vi - Fa Siauliai | live | -
@@ -86,6 +78,47 @@ Yarin: 10
 - 2026-08-24 20:00 | Rusya FNL | Olimpiyets - Ska-Khabarovsk | live | -
 - 2026-08-24 20:00 | Polonya 1.Lig | Rzeszow - Ruch Chorzow | live | -
 - 2026-08-24 20:00 | İtalya Primavera Şampiyonası 1 | Milan U20 - Torino U20 | live | -
+- 2026-08-24 20:05 | İsveç Superettan | Norrkoping - Falkenberg | live | -
+- 2026-08-24 20:30 | İspanya LaLiga | Osasuna - Levante | live | -
+- 2026-08-24 20:30 | Rusya Premier Lig | Baltika Kalini - Rubin Kazan | live | -
+- 2026-08-24 20:30 | Belarus Premier Lig | Torpedo Zhodin - Dnepr Mogilev | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-24 00:00 | Brezilya Serie B | Operario - Vila Nova | finished | -
+- 2026-08-24 00:00 | Kosta Rika Premier Lig Apertura | Inter San Carl - Deportivo Sapri | finished | -
+- 2026-08-24 00:00 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | finished | -
+- 2026-08-24 00:00 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | finished | -
+- 2026-08-24 00:00 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | finished | -
+- 2026-08-24 00:00 | El Salvador Primera Lig Apertura | Balboa - Fuerte San Fran | finished | -
+- 2026-08-24 00:05 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | finished | -
+- 2026-08-24 00:15 | Bolivya Premier Lig | Guabira - Blooming | finished | -
+- 2026-08-24 00:30 | Brezilya Serie A | Chapecoense - Sao Paulo | finished | -
+- 2026-08-24 00:30 | Brezilya Serie A | Santos - Mirassol | finished | -
+- 2026-08-24 00:30 | Brezilya Serie B | Criciuma - Fortaleza Ce | finished | -
+- 2026-08-24 00:30 | Uruguay Premier Lig Clausura | Nacional Df - Progreso | finished | -
+- 2026-08-24 01:00 | Nikaragua Premier Lig Apertura | Rancho Santana - San Marcos | finished | -
+- 2026-08-24 01:15 | Arjantin Premier Lig 2. Aşama | River Plate - Velez Sarsfield | finished | -
+- 2026-08-24 01:30 | Brezilya Serie A | Coritiba - Corinthians | finished | -
+- 2026-08-24 02:00 | ABD MLS | Atlanta Utd - Kansas | finished | -
+- 2026-08-24 02:00 | Meksika Liga MX Apertura | Atletico San L - Pachuca | finished | -
+- 2026-08-24 02:00 | Şili Premier Lig | O Higgins - Palestino | finished | -
+- 2026-08-24 02:10 | Kolombiya Primera A Clausura | Deportivo Cali - Inter Bogota | finished | -
+- 2026-08-24 02:15 | Honduras Ulusal Lig Apertura | Olancho - Depor. Olimpia | finished | -
+- 2026-08-24 02:30 | Peru Premier Lig Clausura | Universitario - Chankas Cyc | finished | -
+- 2026-08-24 02:30 | El Salvador Primera Lig Apertura | Firpo - Platense | finished | -
+- 2026-08-24 03:00 | Kosta Rika Premier Lig Apertura | Alajuelense - Ad San Carlos | finished | -
+- 2026-08-24 03:00 | Guatemala Ulusal Lig Apertura | Marquense - Coban Imperial | finished | -
+- 2026-08-24 03:00 | Ekvador Pro Lig | Ldu Quito - Emelec | finished | -
+- 2026-08-24 03:30 | Arjantin Premier Lig 2. Aşama | Racing Club - Boca Juniors | finished | -
+- 2026-08-24 04:00 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | finished | -
+- 2026-08-24 04:00 | Meksika Ascenso MX Apertura | Cd Tapatio - Zacatecas | finished | -
+- 2026-08-24 04:00 | Nikaragua Premier Lig Apertura | Walter Ferrett - Unan Managua | finished | -
+- 2026-08-24 04:15 | Kolombiya Primera A Clausura | Atletico Junio - Once Caldas | finished | -
+- 2026-08-24 05:00 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | finished | -
+- 2026-08-24 15:15 | Malezya Süper Lig | Sabah - Imigresen | finished | -
+- 2026-08-24 17:30 | Rusya FNL | Kamaz - Pfc Sochi | finished | -
+- 2026-08-24 17:30 | Belarus Premier Lig | Isloch - Dinamo Minsk | finished | -
+- 2026-08-24 18:00 | İran Persian Gulf Pro Lig | Tractor Fc - Persepolis | finished | -
+- 2026-08-24 18:00 | İtalya Primavera Şampiyonası 1 | Hellas Verona - Cesena U20 | finished | -
+- 2026-08-24 18:00 | Slovakya 2.Lig | Lokomotiva Zvo - Petrzalka | finished | -
+- 2026-08-24 18:00 | Tanzanya Kuu Bara Ligi | Young Africans - Jkt Tanzania | finished | -

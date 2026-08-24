@@ -1,23 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-24T17:21:01.479210+00:00
+Tarih: 2026-08-24T17:31:28.404374+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 32
+- Kac mac bulundu: 40
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 32
+- Kac mac zaten vardi: 40
 - Ham veri havuzu toplam mac sayisi: 8933
 - Hedef tarih: 24.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Almanya DFB Kupası 1.Tur
+- Arjantin Premier Lig 2. Aşama
 - Arjantin Ulusal Primera Lig
-- Belarus Premier Lig
+- Brezilya Serie A
+- Brezilya Serie B
 - Bulgaristan 1.Lig
+- Ekvador Pro Lig
 - Fransa Ligue 2
 - Hollanda Eerste Divisie
 - Portekiz 2.Lig
@@ -37,6 +40,7 @@ Tarih: 2026-08-24T17:21:01.479210+00:00
 - İtalya Serie C Grup B
 - İtalya Serie C Grup C
 - İzlanda Urvalsdeild
+- Şili Premier Lig
 
 ## Okunabilen Oran Alanlari
 
@@ -93,8 +97,8 @@ Tarih: 2026-08-24T17:21:01.479210+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 29
-- Acilan detay: 29
+- Denenen Tumu alani: 28
+- Acilan detay: 28
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -118,15 +122,15 @@ Tarih: 2026-08-24T17:21:01.479210+00:00
 | 24.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ittihad (Ci | Al Hazm | 13233 | 5 |
 | 24.08.2026 | 22:30 | İspanya 2.Lig | Granada | Mallorca | 39106 | 5 |
 | 24.08.2026 | 21:45 | Fransa Ligue 2 | Reims | Annecy | 41024 | 5 |
-| 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Oss | 24157 | 5 |
 | 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Utrecht (Ii) | Heracles | 24244 | 5 |
+| 24.08.2026 | 21:00 | Hollanda Eerste Divisie | Psv (B) | Oss | 24157 | 5 |
 | 24.08.2026 | 20:30 | Rusya Premier Lig | Baltika Kalini | Rubin Kazan | 41684 | 5 |
+| 25.08.2026 | 02:00 | Brezilya Serie A | Botafogo | Atletico Pr | 42657 | 5 |
+| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Lanus | Argentinos Jr | 33503 | 5 |
+| 25.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Tigre | Corboda Santiag | 33370 | 5 |
+| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Talleres | Rosario Central | 33614 | 5 |
 | 24.08.2026 | 22:15 | Portekiz 2.Lig | Feirense | Porto (B) | 41558 | 5 |
 | 24.08.2026 | 21:15 | Bulgaristan 1.Lig | Lokomotiv Plov | Arda Kardzhali | 44909 | 5 |
-| 24.08.2026 | 22:00 | İtalya Serie C Grup A | Folgore Carate | Dolomiti Bellun | 31626 | 5 |
-| 24.08.2026 | 21:30 | İtalya Serie C Grup B | Livorno | Sassari Torres | 31268 | 5 |
-| 24.08.2026 | 22:00 | İtalya Serie C Grup B | Reggiana | Ravenna | 31451 | 5 |
-| 24.08.2026 | 22:00 | İtalya Serie C Grup C | Salernitana | Sorrento Calcio | 31565 | 5 |
 
 ## Sonuc
 
