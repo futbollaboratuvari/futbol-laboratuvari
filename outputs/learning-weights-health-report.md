@@ -1,15 +1,18 @@
 # Ogrenme Agirlik Saglik Kontrolu
 
-Durum: waiting_data
+Durum: active
 Tahmin sayisi: 850
-Hazir market hafizasi: 0/4
-Hazir lig hafizasi: 0/150
-Hazir lig+market hafizasi: 0/347
-Guclendirilen toplam: 0
-Dusurulen toplam: 0
+Hazir market hafizasi: 3/4
+Hazir lig hafizasi: 23/150
+Hazir lig+market hafizasi: 12/347
+Guclendirilen toplam: 4
+Dusurulen toplam: 31
 
 ## Guclu Marketler
 
 ## Zayif Marketler
+- MS 1: basari 0.273, agirlik 0.88, guven -5
+- MS 2: basari 0.28, agirlik 0.88, guven -5
+- MS X: basari 0.313, agirlik 0.88, guven -5
 
-Sonraki aksiyon: En az 5 sonuclu veri birikene kadar agirliklar notr kalir.
+Sonraki aksiyon: Sonraki analizlerde agirliklar uygulanir.

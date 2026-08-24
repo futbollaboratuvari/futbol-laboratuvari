@@ -1,25 +1,174 @@
 {
-  "generated_at": "2026-08-24T08:35:44.407Z",
+  "generated_at": "2026-08-24T08:41:51.256Z",
   "totals": {
     "predictions": 850,
-    "finished": 237,
-    "pending": 613
+    "finished": 238,
+    "pending": 612
   },
   "learning_output_status": "ready",
   "market_development": {
     "label": "market",
     "strong": [],
-    "weak": []
+    "weak": [
+      {
+        "name": "MS X",
+        "won": 36,
+        "lost": 79,
+        "total": 115,
+        "success_rate": 31,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "MS 2",
+        "won": 28,
+        "lost": 72,
+        "total": 100,
+        "success_rate": 28,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "MS 1",
+        "won": 6,
+        "lost": 16,
+        "total": 22,
+        "success_rate": 27,
+        "weight": 0.88,
+        "ready": true
+      }
+    ]
   },
   "league_development": {
     "label": "league",
-    "strong": [],
-    "weak": []
+    "strong": [
+      {
+        "name": "İngiltere 1.Lig",
+        "won": 7,
+        "lost": 4,
+        "total": 11,
+        "success_rate": 64,
+        "weight": 1.12,
+        "ready": true
+      }
+    ],
+    "weak": [
+      {
+        "name": "İspanya 2.Lig",
+        "won": 1,
+        "lost": 5,
+        "total": 6,
+        "success_rate": 17,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Brezilya Serie A",
+        "won": 1,
+        "lost": 7,
+        "total": 8,
+        "success_rate": 13,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "İngiltere Premier Lig",
+        "won": 1,
+        "lost": 8,
+        "total": 9,
+        "success_rate": 11,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Almanya DFB Kupası 1.Tur",
+        "won": 1,
+        "lost": 12,
+        "total": 13,
+        "success_rate": 8,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Peru Premier Lig Clausura",
+        "won": 0,
+        "lost": 6,
+        "total": 6,
+        "success_rate": 0,
+        "weight": 0.88,
+        "ready": true
+      }
+    ]
   },
   "league_market_development": {
     "label": "league_market",
-    "strong": [],
-    "weak": []
+    "strong": [
+      {
+        "name": "İngiltere 1.Lig :: MS X",
+        "won": 4,
+        "lost": 2,
+        "total": 6,
+        "success_rate": 67,
+        "weight": 1.12,
+        "ready": true
+      },
+      {
+        "name": "İngiltere 1.Lig :: MS 2",
+        "won": 3,
+        "lost": 2,
+        "total": 5,
+        "success_rate": 60,
+        "weight": 1.06,
+        "ready": true
+      }
+    ],
+    "weak": [
+      {
+        "name": "Almanya DFB Kupası 1.Tur :: MS X",
+        "won": 1,
+        "lost": 5,
+        "total": 6,
+        "success_rate": 17,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "İngiltere Premier Lig :: MS X",
+        "won": 1,
+        "lost": 5,
+        "total": 6,
+        "success_rate": 17,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "ABD USL :: MS X",
+        "won": 1,
+        "lost": 6,
+        "total": 7,
+        "success_rate": 14,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Almanya DFB Kupası 1.Tur :: MS 1",
+        "won": 0,
+        "lost": 7,
+        "total": 7,
+        "success_rate": 0,
+        "weight": 0.88,
+        "ready": true
+      },
+      {
+        "name": "Brezilya Serie A :: MS 2",
+        "won": 0,
+        "lost": 5,
+        "total": 5,
+        "success_rate": 0,
+        "weight": 0.88,
+        "ready": true
+      }
+    ]
   },
   "next_actions": [
     "Pending kayitlar icin skor senkronunu takip et.",

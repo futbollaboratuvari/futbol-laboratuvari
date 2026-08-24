@@ -1,30 +1,321 @@
 {
-  "generated_at": "2026-08-24T08:35:44.395Z",
-  "status": "waiting_data",
+  "generated_at": "2026-08-24T08:41:51.245Z",
+  "status": "active",
   "prediction_count": 850,
   "market_memory": {
     "total": 4,
-    "ready": 0,
+    "ready": 3,
     "boost": 0,
-    "penalty": 0,
+    "penalty": 3,
     "best": [],
-    "weak": []
+    "weak": [
+      {
+        "name": "MS 1",
+        "total": 56,
+        "pending": 34,
+        "won": 6,
+        "lost": 16,
+        "void": 0,
+        "success_rate": 0.273,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "MS 2",
+        "total": 271,
+        "pending": 171,
+        "won": 28,
+        "lost": 72,
+        "void": 0,
+        "success_rate": 0.28,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "MS X",
+        "total": 364,
+        "pending": 249,
+        "won": 36,
+        "lost": 79,
+        "void": 0,
+        "success_rate": 0.313,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      }
+    ]
   },
   "league_memory": {
     "total": 150,
-    "ready": 0,
-    "boost": 0,
-    "penalty": 0,
-    "best": [],
-    "weak": []
+    "ready": 23,
+    "boost": 2,
+    "penalty": 19,
+    "best": [
+      {
+        "name": "İngiltere 1.Lig",
+        "total": 12,
+        "pending": 1,
+        "won": 7,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.636,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "İtalya Serie B",
+        "total": 14,
+        "pending": 5,
+        "won": 5,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.556,
+        "weight": 1.06,
+        "confidence_adjustment": 2
+      }
+    ],
+    "weak": [
+      {
+        "name": "Peru Premier Lig Clausura",
+        "total": 11,
+        "pending": 5,
+        "won": 0,
+        "lost": 6,
+        "void": 0,
+        "success_rate": 0,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Almanya DFB Kupası 1.Tur",
+        "total": 19,
+        "pending": 6,
+        "won": 1,
+        "lost": 12,
+        "void": 0,
+        "success_rate": 0.077,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere Premier Lig",
+        "total": 10,
+        "pending": 1,
+        "won": 1,
+        "lost": 8,
+        "void": 0,
+        "success_rate": 0.111,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Brezilya Serie A",
+        "total": 9,
+        "pending": 1,
+        "won": 1,
+        "lost": 7,
+        "void": 0,
+        "success_rate": 0.125,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İspanya 2.Lig",
+        "total": 10,
+        "pending": 4,
+        "won": 1,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.167,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere Ulusal Lig",
+        "total": 11,
+        "pending": 0,
+        "won": 2,
+        "lost": 9,
+        "void": 0,
+        "success_rate": 0.182,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Rusya Premier Lig",
+        "total": 8,
+        "pending": 3,
+        "won": 1,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.2,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "ABD USL",
+        "total": 11,
+        "pending": 1,
+        "won": 2,
+        "lost": 8,
+        "void": 0,
+        "success_rate": 0.2,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Japonya J1 Lig",
+        "total": 8,
+        "pending": 0,
+        "won": 2,
+        "lost": 6,
+        "void": 0,
+        "success_rate": 0.25,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere 2.Lig",
+        "total": 12,
+        "pending": 1,
+        "won": 3,
+        "lost": 8,
+        "void": 0,
+        "success_rate": 0.273,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      }
+    ]
   },
   "league_market_memory": {
     "total": 347,
-    "ready": 0,
-    "boost": 0,
-    "penalty": 0,
-    "best": [],
-    "weak": []
+    "ready": 12,
+    "boost": 2,
+    "penalty": 9,
+    "best": [
+      {
+        "name": "İngiltere 1.Lig :: MS X",
+        "total": 7,
+        "pending": 1,
+        "won": 4,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.667,
+        "weight": 1.12,
+        "confidence_adjustment": 4
+      },
+      {
+        "name": "İngiltere 1.Lig :: MS 2",
+        "total": 5,
+        "pending": 0,
+        "won": 3,
+        "lost": 2,
+        "void": 0,
+        "success_rate": 0.6,
+        "weight": 1.06,
+        "confidence_adjustment": 2
+      }
+    ],
+    "weak": [
+      {
+        "name": "Almanya DFB Kupası 1.Tur :: MS 1",
+        "total": 8,
+        "pending": 1,
+        "won": 0,
+        "lost": 7,
+        "void": 0,
+        "success_rate": 0,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Brezilya Serie A :: MS 2",
+        "total": 5,
+        "pending": 0,
+        "won": 0,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "ABD USL :: MS X",
+        "total": 7,
+        "pending": 0,
+        "won": 1,
+        "lost": 6,
+        "void": 0,
+        "success_rate": 0.143,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "Almanya DFB Kupası 1.Tur :: MS X",
+        "total": 8,
+        "pending": 2,
+        "won": 1,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.167,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere Premier Lig :: MS X",
+        "total": 6,
+        "pending": 0,
+        "won": 1,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.167,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere Championship :: MS 2",
+        "total": 6,
+        "pending": 1,
+        "won": 1,
+        "lost": 4,
+        "void": 0,
+        "success_rate": 0.2,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere Ulusal Lig :: MS X",
+        "total": 8,
+        "pending": 0,
+        "won": 2,
+        "lost": 6,
+        "void": 0,
+        "success_rate": 0.25,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere 2.Lig :: MS 2",
+        "total": 7,
+        "pending": 0,
+        "won": 2,
+        "lost": 5,
+        "void": 0,
+        "success_rate": 0.286,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      },
+      {
+        "name": "İngiltere Championship :: MS X",
+        "total": 5,
+        "pending": 0,
+        "won": 2,
+        "lost": 3,
+        "void": 0,
+        "success_rate": 0.4,
+        "weight": 0.88,
+        "confidence_adjustment": -5
+      }
+    ]
   },
-  "next_action": "En az 5 sonuclu veri birikene kadar agirliklar notr kalir."
+  "next_action": "Sonraki analizlerde agirliklar uygulanir."
 }
