@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-24T23:22:37.843Z
+- Güncelleme: 2026-08-24T23:30:55.124Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -17,7 +17,7 @@
 | Botafogo VS Atletico Pr | Brezilya Serie A | 02:00 | 2.5 Alt | 1.67 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Ferro Carril O VS All Boys | Arjantin Ulusal Primera Lig | 02:00 | MS 1 | 1.48 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Charleston Bat VS Miami Fc | ABD USL | 02:00 | MS 1 | 1.29 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Everton De Vin VS Univ De Concepc | Şili Premier Lig | 02:30 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Everton De Vin VS Univ De Concepc | Şili Premier Lig | 02:30 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Libertad VS Depor Macara | Ekvador Pro Lig | 03:00 | 2.5 Alt | 1.44 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Lanus VS Argentinos Jr | Arjantin Premier Lig 2. Aşama | 03:15 | MS 1 | 2.28 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Talleres VS Rosario Central | Arjantin Premier Lig 2. Aşama | 03:15 | 2.5 Alt | 1.40 | 64 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
