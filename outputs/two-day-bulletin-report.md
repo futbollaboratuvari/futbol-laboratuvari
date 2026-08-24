@@ -3,18 +3,14 @@
 Gunler: 2026-08-24 / 2026-08-25
 Kaynak: fixtures.json
 Ham mac: 75
-Aktif mac: 73
-Canli mac: 2
+Aktif mac: 69
+Canli mac: 6
 Biten mac: 0
-Bultenden dusurulen mac: 2
-Bugun: 63
+Bultenden dusurulen mac: 6
+Bugun: 59
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-24 18:00 | İran Persian Gulf Pro Lig | Tractor Fc - Persepolis | scheduled | -
-- 2026-08-24 18:00 | İtalya Primavera Şampiyonası 1 | Hellas Verona - Cesena U20 | scheduled | -
-- 2026-08-24 18:00 | Slovakya 2.Lig | Lokomotiva Zvo - Petrzalka | scheduled | -
-- 2026-08-24 18:00 | Tanzanya Kuu Bara Ligi | Young Africans - Jkt Tanzania | scheduled | -
 - 2026-08-24 18:30 | Rusya FNL | Rotor Volgogra - Neftekhimik | scheduled | -
 - 2026-08-24 18:30 | Romanya 1.Lig | Botosani - Csikszereda | scheduled | -
 - 2026-08-24 18:45 | Litvanya A Ligi | Transinvest Vi - Fa Siauliai | scheduled | -
@@ -88,6 +84,10 @@ Yarin: 10
 ## Canli Maclar
 - 2026-08-24 17:30 | Rusya FNL | Kamaz - Pfc Sochi | live | -
 - 2026-08-24 17:30 | Belarus Premier Lig | Isloch - Dinamo Minsk | live | -
+- 2026-08-24 18:00 | İran Persian Gulf Pro Lig | Tractor Fc - Persepolis | live | -
+- 2026-08-24 18:00 | İtalya Primavera Şampiyonası 1 | Hellas Verona - Cesena U20 | live | -
+- 2026-08-24 18:00 | Slovakya 2.Lig | Lokomotiva Zvo - Petrzalka | live | -
+- 2026-08-24 18:00 | Tanzanya Kuu Bara Ligi | Young Africans - Jkt Tanzania | live | -
 
 ## Biten Maclar
 Biten mac yok.
