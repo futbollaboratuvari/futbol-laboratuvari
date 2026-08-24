@@ -96,6 +96,13 @@ jobs:
       - name: Ensure live json
         run: node scripts/ensure-live-json.js
 
+      - name: Finalize verified weekly Spor Toto before commit
+        run: |
+          node scripts/sync-spor-toto-weekly-program.js || true
+          node scripts/rebuild-spor-toto-bulletin.js
+          node scripts/finalize-spor-toto-pro.js
+          node tests/spor-toto-weekly.test.js
+
       - name: Commit data outputs
         run: |
           git config user.name "github-actions[bot]"
@@ -107,7 +114,7 @@ jobs:
           fi
           git commit -m "Live data outputs updated"
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && git push origin HEAD:main; then
+            if git pull --rebase --autostash origin main && node scripts/validate-json-no-conflicts.js && node tests/spor-toto-weekly.test.js && git push origin HEAD:main; then
               exit 0
             fi
             git rebase --abort || true
