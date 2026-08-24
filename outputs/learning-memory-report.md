@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 14:43:50
+Oluşturma: 24.08.2026 14:58:28
 
 ## Özet
 
-- Toplam tahmin: 946
-- Bekleyen tahmin: 684
+- Toplam tahmin: 947
+- Bekleyen tahmin: 685
 - Kazanan tahmin: 92
 - Kaybeden tahmin: 169
 - Lig sayısı: 154
@@ -23,12 +23,13 @@ Oluşturma: 24.08.2026 14:43:50
 - 2.5 Alt: toplam 43, bekleyen 26, başarı %100, ağırlık 1.12
 - 2.5 Üst: toplam 12, bekleyen 8, başarı %100, ağırlık 1
 - MS X: toplam 366, bekleyen 251, başarı %31, ağırlık 0.88
-- MS 1: toplam 80, bekleyen 56, başarı %29, ağırlık 0.88
+- MS 1: toplam 81, bekleyen 57, başarı %29, ağırlık 0.88
 - MS 2: toplam 286, bekleyen 185, başarı %28, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | MS 1 | pending | 44/100
 - 2026-08-24 | Arjantin Ulusal Primera Lig | Club Atletico - Rafaela | MS X | pending | 35/100
 - 2026-08-24 | Arjantin Premier Lig 2. Aşama | Racing Club - Boca Juniors | MS 2 | lost | 39/100
 - 2026-08-24 | Meksika Liga MX Apertura | Pumas Unam - Necaxa | 2.5 Alt | won | 57/100
@@ -43,5 +44,4 @@ Oluşturma: 24.08.2026 14:43:50
 - 2026-08-24 | Kolombiya Primera A Clausura | Deportivo Past - Llaneros | 2.5 Alt | won | 70/100
 - 2026-08-24 | Bolivya Premier Lig | Guabira - Blooming | 2.5 Alt | won | 61/100
 - 2026-08-24 | Brezilya Serie A | Chapecoense - Sao Paulo | 2.5 Alt | won | 66/100
-- 2026-08-24 | Brezilya Serie A | Santos - Mirassol | 2.5 Alt | won | 62/100
 
