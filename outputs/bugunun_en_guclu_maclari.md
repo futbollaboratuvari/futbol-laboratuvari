@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-24T17:01:51.126Z
+- Güncelleme: 2026-08-24T17:20:27.739Z
 - Ham maç sayısı: 73
 - Yarın bülteni maç sayısı: 10
 - Detay blok sayısı: 210
-- Aktif bülten maçı: 43
-- Bültenden düşürülen maç: 30
+- Aktif bülten maçı: 42
+- Bültenden düşürülen maç: 31
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Norrkoping - Falkenberg | İsveç Superettan | 20:05 | Veri bekleniyor | - | 1.36 | 7 |
 | Osasuna - Levante | İspanya LaLiga | 20:30 | Veri bekleniyor | - | 1.71 | 8 |
 | Baltika Kalini - Rubin Kazan | Rusya Premier Lig | 20:30 | Veri bekleniyor | - | 1.81 | 8 |
 | Torpedo Zhodin - Dnepr Mogilev | Belarus Premier Lig | 20:30 | Veri bekleniyor | - | 1.55 | 8 |
