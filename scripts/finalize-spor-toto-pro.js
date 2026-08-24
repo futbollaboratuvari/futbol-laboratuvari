@@ -15,12 +15,17 @@ const programKey = (m) => `${String(m.date || "").slice(0, 10)}|${clean(m.home)}
 const ranked = (match) => [...OPTIONS].sort((a, b) => Number(match.probabilities?.[b] || 0) - Number(match.probabilities?.[a] || 0));
 const hasArchiveEvidence = (match) => {
   const home = match.form?.home || {}; const away = match.form?.away || {};
-  return Number(home.sample || 0) > 0 || Number(away.sample || 0) > 0
+  return Number(home.sample ?? home.count ?? 0) > 0 || Number(away.sample ?? away.count ?? 0) > 0
     || (Array.isArray(home.recent) && home.recent.length > 0) || (Array.isArray(away.recent) && away.recent.length > 0)
-    || (Array.isArray(match.h2h) && match.h2h.length > 0);
+    || (Array.isArray(match.h2h) && match.h2h.length > 0)
+    || Boolean(match.archive_analysis?.ready);
 };
+const isDistributionOnly = (match) => /public_distribution|oynanma/i.test(String(match.probability_basis || match.evidence_mode || "")) && !hasArchiveEvidence(match);
 const cleanForm = (profile, keep) => {
   const base = profile && typeof profile === "object" ? { ...profile } : { recent: [], sample: 0 };
+  const sample = Number(base.sample ?? base.count ?? 0);
+  base.sample = sample;
+  base.count = sample;
   if (!keep) { delete base.scored_last10; delete base.conceded_last10; }
   return base;
 };
@@ -57,19 +62,32 @@ function normalizeReady(match) {
   const topP = Number(match.probabilities[top]); const secondP = Number(match.probabilities[second]);
   const gap = Number((topP - secondP).toFixed(1));
   const archive = hasArchiveEvidence(match);
+  const distributionOnly = isDistributionOnly(match);
   let confidence = Number(match.confidence || match.confidence_score || 0);
   let classification = String(match.classification || "Kontrollü Tek");
   let risk = String(match.risk || match.risk_level || "Yüksek");
+
   if (!archive) {
-    confidence = Math.min(confidence || 60, 60);
-    classification = topP < 45 || gap < 8 ? "Çifte Şans Adayı" : "Piyasa Bazlı Tek";
+    if (distributionOnly) {
+      confidence = Math.min(confidence || 52, 54);
+      classification = topP < 45 || gap < 8 ? "Oynanma Dağılımı · Çifte Adayı" : "Oynanma Dağılımı Bazlı";
+    } else {
+      confidence = Math.min(confidence || 60, 60);
+      classification = topP < 45 || gap < 8 ? "Çifte Şans Adayı" : "Piyasa Bazlı Tek";
+    }
     risk = "Yüksek";
   }
+
   const reasons = [
     `PRO 13: ${top} olasılığı %${topP.toFixed(1)}; ikinci seçenek %${secondP.toFixed(1)}.`,
-    archive ? "Doğrulanmış sonuç hafızası mevcut; piyasa verisi bağımsız sonuç verisiyle birlikte sınandı." : "Doğrulanmış sonuç hafızası sınırlı; çıktı yalnız doğrulanmış 1-X-2 piyasa tabanı olarak işaretlendi.",
+    archive
+      ? "Doğrulanmış sonuç hafızası mevcut; haftalık 1-X-2 kararı gerçek geçmiş sonuçlarla sınandı."
+      : distributionOnly
+        ? "Takım arşiv örneği güven eşiğinin altında; çıktı yalnız gerçek haftalık oynanma dağılımı olarak işaretlendi."
+        : "Doğrulanmış sonuç hafızası sınırlı; çıktı yalnız doğrulanmış 1-X-2 piyasa tabanı olarak işaretlendi.",
     ...(Array.isArray(match.reasons) ? match.reasons.filter((r) => !/proxy|PRO metrik profili/i.test(String(r))).slice(0, 2) : []),
   ];
+
   return {
     ...match,
     analysis_ready: true,
@@ -81,7 +99,9 @@ function normalizeReady(match) {
     risk,
     risk_level: risk,
     independent_evidence: archive,
-    evidence_mode: archive ? "archive_plus_market" : "verified_market_baseline",
+    evidence_mode: archive
+      ? (match.evidence_mode || "archive_poisson_plus_public_distribution")
+      : distributionOnly ? "cross_verified_public_distribution" : "verified_market_baseline",
     reasons,
     form: { home: cleanForm(match.form?.home, archive), away: cleanForm(match.form?.away, archive) },
   };
@@ -91,7 +111,8 @@ function applyCoverage(matches) {
   const candidates = matches.map((match, index) => {
     if (!match.analysis_ready) return null;
     const order = ranked(match); const topP = Number(match.probabilities[order[0]] || 0); const gap = Number(match.probability_gap || 0);
-    return { index, qualifies: match.classification === "Çifte Şans Adayı" || topP < 45 || gap < 8, uncertainty: (100 - Number(match.confidence || 0)) + Math.max(0, 10 - gap) * 3 };
+    const uncertainClass = /Çifte/.test(String(match.classification || ""));
+    return { index, qualifies: uncertainClass || topP < 45 || gap < 8, uncertainty: (100 - Number(match.confidence || 0)) + Math.max(0, 10 - gap) * 3 };
   }).filter(Boolean).filter((r) => r.qualifies).sort((a, b) => b.uncertainty - a.uncertainty).slice(0, MAX_DOUBLES);
   const doubleSet = new Set(candidates.map((r) => r.index));
   return matches.map((match, index) => {
@@ -132,29 +153,36 @@ function run() {
   const allReady = ready.length === 15;
   const totalColumns = allReady ? matches.reduce((total, m) => total * Math.max(1, Number(m.column_multiplier || 1)), 1) : 0;
   const avg = (field) => ready.length ? Math.round(ready.reduce((s, m) => s + Number(m[field] || 0), 0) / ready.length) : 0;
+  const distributionCount = ready.filter((m) => !m.independent_evidence && m.evidence_mode === "cross_verified_public_distribution").length;
+  const marketCount = ready.filter((m) => !m.independent_evidence && m.evidence_mode !== "cross_verified_public_distribution").length;
   const output = {
     ...current,
     generated_at: new Date().toISOString(),
     source: "Haftalık 15 maç programı + Futbol Laboratuvarı PRO 13",
-    engine_version: "spor-toto-weekly15-safe-pro13-v1",
+    engine_version: "spor-toto-weekly15-safe-pro13-v2",
     match_count: 15,
     analysis_ready_count: ready.length,
     analysis_waiting_count: 15 - ready.length,
-    evidence_summary: { archive_backed_match_count: ready.filter((m) => m.independent_evidence).length, market_baseline_match_count: ready.filter((m) => !m.independent_evidence).length, waiting_match_count: 15 - ready.length },
+    evidence_summary: {
+      archive_backed_match_count: ready.filter((m) => m.independent_evidence).length,
+      distribution_based_match_count: distributionCount,
+      market_baseline_match_count: marketCount,
+      waiting_match_count: 15 - ready.length,
+    },
     coupon: {
       ...(current.coupon || {}), ready: allReady, total_columns: totalColumns,
       single_count: ready.filter((m) => m.column_multiplier === 1).length, double_count: doubles, triple_count: 0,
       average_confidence: avg("confidence"), average_data_completeness: avg("data_completeness"), unit_stake: null, estimated_cost: null,
-      note: allReady ? "15 maçın tamamı doğrulanmış analiz verisiyle kupon hesabına hazır." : `${15 - ready.length} maç için doğrulanmış analiz verisi bekleniyor; eksik veriyle kupon/maliyet üretilmez.`
+      note: allReady ? "15 maçın tamamı analiz sinyaliyle kupon hesabına hazır; dağılım bazlı maçlar yüksek risk olarak işaretlenmiştir." : `${15 - ready.length} maç için doğrulanmış analiz verisi bekleniyor; eksik veriyle kupon/maliyet üretilmez.`
     },
     matches
   };
   validate(output, program); writeJson(file, output);
   fs.mkdirSync(path.dirname(reportFile), { recursive: true });
-  fs.writeFileSync(reportFile, `# Spor Toto Haftalık 15 Güvenli Rapor\n\n- Güncelleme: ${output.generated_at}\n- Hafta: ${output.week_label}\n- Program maçı: 15\n- Analize hazır: ${ready.length}\n- Veri bekleyen: ${15 - ready.length}\n- Arşiv destekli: ${output.evidence_summary.archive_backed_match_count}\n- Piyasa tabanlı: ${output.evidence_summary.market_baseline_match_count}\n- Kupon hazır: ${allReady ? "evet" : "hayır"}\n- Toplam kolon: ${totalColumns}\n`, "utf8");
-  console.log(`Spor Toto weekly 15 safe finalized. matches=15, ready=${ready.length}, waiting=${15 - ready.length}, doubles=${doubles}, couponReady=${allReady}.`);
+  fs.writeFileSync(reportFile, `# Spor Toto Haftalık 15 Güvenli Rapor\n\n- Güncelleme: ${output.generated_at}\n- Hafta: ${output.week_label}\n- Program maçı: 15\n- Analize hazır: ${ready.length}\n- Veri bekleyen: ${15 - ready.length}\n- Arşiv destekli: ${output.evidence_summary.archive_backed_match_count}\n- Oynanma dağılımı bazlı: ${distributionCount}\n- Piyasa tabanlı: ${marketCount}\n- Kupon hazır: ${allReady ? "evet" : "hayır"}\n- Toplam kolon: ${totalColumns}\n`, "utf8");
+  console.log(`Spor Toto weekly 15 safe finalized. matches=15, ready=${ready.length}, waiting=${15 - ready.length}, archive=${output.evidence_summary.archive_backed_match_count}, distribution=${distributionCount}, doubles=${doubles}, couponReady=${allReady}.`);
   return output;
 }
 
 if (require.main === module) run();
-module.exports = { run, validate, normalizeReady, normalizeWaiting, applyCoverage };
+module.exports = { run, validate, normalizeReady, normalizeWaiting, applyCoverage, hasArchiveEvidence, isDistributionOnly };
