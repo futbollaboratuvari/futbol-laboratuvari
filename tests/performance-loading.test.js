@@ -179,8 +179,10 @@ function testLegacyStartupChainRemoved() {
   const cacheVersion = read("cache-version.js");
   const navigation = read("nav-routing.js");
   const dailyWidget = read("daily-matches-widget.js");
+  const premiumAnalysis = read("premium-analysis-v3.js");
   const homepage = read("index.html");
   const resultsSummaryText = read("data/results-summary.json");
+  const proIndexText = read("data/pro-analysis-index.json");
   const resultsSummary = JSON.parse(resultsSummaryText);
 
   [
@@ -197,10 +199,13 @@ function testLegacyStartupChainRemoved() {
 
   assert.match(dailyWidget, /const twoDayRes = fullHasMatches[\s\S]*skipped: true/);
   assert.match(dailyWidget, /__flPremiumBulletinMatches = app\.bulletin/);
+  assert.match(premiumAnalysis, /pro-analysis-index\.json/);
+  assert.equal(premiumAnalysis.includes("robot-analysis.json"), false, "Özel Analiz büyük robot çıktısını indirmemeli");
   assert.match(homepage, /id="results-data-status"[\s\S]*Doğrulanmış sonuçlar yükleniyor/);
   assert.match(homepage, /id="result-archive"[\s\S]*Sonuçlar yükleniyor/);
   assert.match(homepage, /id="success-grid"[\s\S]*Performans yükleniyor/);
   assert.ok(Buffer.byteLength(resultsSummaryText, "utf8") < 50 * 1024, "sonuç özeti 50 KB altında kalmalı");
+  assert.ok(Buffer.byteLength(proIndexText, "utf8") < 150 * 1024, "PRO analiz indeksi 150 KB altında kalmalı");
   assert.equal(resultsSummary.completed_items.length <= 30, true);
 }
 

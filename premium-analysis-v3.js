@@ -12,6 +12,7 @@
   const HISTORY_KEY = "fl_premium_analysis_history";
   const LAST_KEY = "fl_last_premium_robot_analysis";
   const QUEUE_KEY = "fl_premium_robot_queue";
+  const ANALYSIS_COUNT_KEY = "fl_premium_analysis_count";
   const PAGE_SIZE = 12;
   const MAX_COUPON = 10;
 
@@ -26,6 +27,7 @@
     visibleLimit: PAGE_SIZE,
     resultReady: false,
     loading: true,
+    proMeta: null,
   };
 
   const esc = (value) => String(value ?? "")
@@ -91,6 +93,12 @@
   };
 
   const oddText = (value) => Number.isFinite(Number(value)) && Number(value) > 1 ? Number(value).toFixed(2) : "—";
+  const percentText = (value, digits = 0) => value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value))
+    ? `%${Number(value).toFixed(digits)}`
+    : "Ölçülmedi";
+  const signedPercentText = (value) => value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value))
+    ? `${Number(value) > 0 ? "+" : ""}${Number(value).toFixed(1)} puan`
+    : "Ölçülmedi";
   const root = () => document.querySelector("[data-pa3-root]");
   const query = (selector) => root()?.querySelector(selector) || null;
 
@@ -163,11 +171,15 @@
   const matchCard = (match) => {
     const selected = state.selected.has(match.id);
     const code = match.matchCode ? `<span class="fl-pa3-match-code">#${esc(match.matchCode)}</span>` : "";
-    const quality = CORE.normalizeText(match.metricQuality).includes("proxy") ? "Model destekli" : "Güncel veri";
+    const hasPro = Boolean(match.pro?.available);
+    const quality = hasPro
+      ? `${match.pro.dataQuality || "Sınırlı"} veri${Number.isFinite(match.pro.dataCompleteness) ? ` · %${Math.round(match.pro.dataCompleteness)}` : ""}`
+      : "Piyasa verisi";
+    const source = `<span class="fl-pa3-quality ${hasPro ? "is-pro" : "is-market"}">${hasPro ? "PRO" : "Piyasa"}</span>`;
     return `<button class="fl-pa3-match${selected ? " is-selected" : ""}" type="button" data-pa3-match-id="${esc(match.id)}" aria-pressed="${selected}">
       <span class="fl-pa3-match-time"><strong>${esc(match.time || "--:--")}</strong><small>${esc(formatDate(match.date))}</small></span>
       <span class="fl-pa3-match-main"><small>${esc(match.league || "Lig")}</small><strong>${esc(match.home)} <i>–</i> ${esc(match.away)}</strong></span>
-      <span class="fl-pa3-match-meta">${code}<small>${esc(quality)}</small><b aria-hidden="true">${selected ? "✓" : "+"}</b></span>
+      <span class="fl-pa3-match-meta">${source}${code}<small>${esc(quality)}</small><b aria-hidden="true">${selected ? "✓" : "+"}</b></span>
     </button>`;
   };
 
@@ -251,6 +263,13 @@
     market: result.market,
     odd: result.odd,
     confidence: result.confidence,
+    modelScore: result.modelScore,
+    estimatedProbability: result.estimatedProbability,
+    marketProbability: result.marketProbability,
+    edgePercent: result.edgePercent,
+    dataCompleteness: result.dataCompleteness,
+    dataQuality: result.dataQuality,
+    modelVersion: result.modelVersion,
     risk: result.risk,
     noPick: result.noPick,
     reasons: result.reasons,
@@ -273,7 +292,16 @@
 
   const riskClass = (risk) => CORE.normalizeText(risk).includes("yuksek") ? "high" : CORE.normalizeText(risk).includes("dusuk") ? "low" : "medium";
 
-  const detailsHtml = (result) => `<details class="fl-pa3-details"><summary>Veri detaylarını göster</summary><dl>${result.details.map((item) => `<div><dt>${esc(item.label)}</dt><dd>${esc(item.value)}</dd></div>`).join("")}</dl></details>`;
+  const detailsHtml = (result) => `<details class="fl-pa3-details"><summary>Veri detaylarını göster</summary><dl>${(result.details || []).map((item) => `<div><dt>${esc(item.label)}</dt><dd>${esc(item.value)}</dd></div>`).join("")}</dl></details>`;
+
+  const validationHtml = (result) => {
+    const calibration = result.calibration;
+    if (!calibration) return `<div class="fl-pa3-validation"><strong>Doğrulama durumu</strong><span>Bu analiz türü için olasılık geçmişi henüz bağlanmadı.</span></div>`;
+    const samples = Number(calibration.probability_sample_count || 0);
+    const brier = calibration.brier_score === null || calibration.brier_score === undefined ? null : Number(calibration.brier_score);
+    const historical = Number(calibration.measured_count || 0);
+    return `<div class="fl-pa3-validation"><strong>Geçmiş doğrulama</strong><span>${historical ? `${esc(historical)} tamamlanan eski tahmin ölçüldü.` : "Tamamlanan sonuç örneği biriktiriliyor."} ${samples >= 30 && brier !== null && Number.isFinite(brier) ? `PRO olasılık Brier skoru ${esc(brier.toFixed(3))}.` : "PRO olasılık kalibrasyonu için yeni örnekler biriktiriliyor."}</span></div>`;
+  };
 
   const singleResultHtml = (result) => `<div class="fl-pa3-result-head">
       <span class="fl-pa3-kicker">3 · Sonuç</span>
@@ -286,10 +314,17 @@
       <strong>${esc(result.market)}</strong>
       <small>${result.noPick ? "Güven eşiği aşılmadı" : `Oran ${esc(oddText(result.odd))}`}</small>
     </div>
-    <div class="fl-pa3-confidence"><div><span>Güven seviyesi</span><strong>%${esc(result.confidence)}</strong></div><progress max="100" value="${esc(result.confidence)}">%${esc(result.confidence)}</progress></div>
+    <div class="fl-pa3-confidence"><div><span>Model gücü <small>olasılık değildir</small></span><strong>${esc(Math.round(result.modelScore ?? result.confidence ?? 0))}/100</strong></div><progress max="100" value="${esc(Math.round(result.modelScore ?? result.confidence ?? 0))}" aria-label="Model gücü">${esc(Math.round(result.modelScore ?? result.confidence ?? 0))}/100</progress></div>
+    <div class="fl-pa3-score-grid">
+      <div><span>Tahmini olasılık</span><strong>${esc(percentText(result.estimatedProbability, 1))}</strong></div>
+      <div><span>Piyasa olasılığı</span><strong>${esc(percentText(result.marketProbability, 1))}</strong></div>
+      <div><span>Model–piyasa farkı</span><strong>${esc(signedPercentText(result.edgePercent))}</strong></div>
+      <div><span>Veri kapsamı</span><strong>${esc(percentText(result.dataCompleteness))}</strong><small>${esc(result.dataQuality || "Sınırlı")}</small></div>
+    </div>
     <div class="fl-pa3-reasons"><h4>Neden?</h4><ol>${result.reasons.map((reason) => `<li>${esc(reason)}</li>`).join("")}</ol></div>
+    ${validationHtml(result)}
     ${detailsHtml(result)}
-    <p class="fl-pa3-disclaimer">Bu değerlendirme olasılık ve mevcut verilere dayanır; kesin sonuç garantisi değildir.</p>
+    <p class="fl-pa3-disclaimer">Model gücü, sinyallerin tutarlılığını gösterir; kazanma olasılığı değildir. Tahmini olasılık da belirsizlik içerir ve kesin sonuç garantisi vermez.</p>
     <div class="fl-pa3-result-actions"><button type="button" data-pa3-copy>Sonucu Kopyala</button><button type="button" data-pa3-new>Yeni Analiz</button></div>`;
 
   const couponResultHtml = (coupon) => `<div class="fl-pa3-result-head">
@@ -297,10 +332,10 @@
       <span class="fl-pa3-risk is-${riskClass(coupon.risk)}">${esc(coupon.risk)} risk</span>
     </div>
     <h3>${coupon.legs.length} maçlık kupon görünümü</h3>
-    <div class="fl-pa3-coupon-summary"><div><span>Ortalama güven</span><strong>%${esc(coupon.averageConfidence || 0)}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div><div><span>Güçlü seçim</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div></div>
-    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · Güven %${esc(leg.confidence)}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
-    <div class="fl-pa3-reasons"><h4>Kupon notu</h4><ol><li>Toplam oran yalnızca tüm seçimlerin güncel oranı varsa hesaplanır.</li><li>Güçlü seçim oluşmayan maçlar kupondan çıkarmak için açıkça işaretlenir.</li><li>Maç sayısı arttıkça ortak risk de yükselir.</li></ol></div>
-    <p class="fl-pa3-disclaimer">Bu değerlendirme olasılık ve mevcut verilere dayanır; kesin sonuç garantisi değildir.</p>
+    <div class="fl-pa3-coupon-summary"><div><span>Ort. model gücü</span><strong>${esc(coupon.averageModelScore || 0)}/100</strong></div><div><span>Birleşik olasılık</span><strong>${esc(percentText(coupon.combinedProbability, 2))}</strong></div><div><span>Toplam oran</span><strong>${esc(oddText(coupon.totalOdd))}</strong></div><div><span>Seçim oluşan</span><strong>${esc(coupon.pickedCount)}/${esc(coupon.legs.length)}</strong></div></div>
+    <div class="fl-pa3-coupon-legs">${coupon.legs.map((leg, index) => `<article class="${leg.noPick ? "is-no-pick" : ""}"><span>${index + 1}</span><div><strong>${esc(leg.match.home)} – ${esc(leg.match.away)}</strong><small>${esc(leg.market)} · Model ${esc(Math.round(leg.modelScore ?? leg.confidence ?? 0))}/100 · ${esc(percentText(leg.estimatedProbability, 1))}</small></div><b>${esc(oddText(leg.odd))}</b></article>`).join("")}</div>
+    <div class="fl-pa3-reasons"><h4>Kupon notu</h4><ol><li>Birleşik olasılık, tüm ayakların tahmini olasılıklarının çarpımıdır ve maçların bağımsız olduğu varsayımını kullanır.</li><li>Seçim oluşmayan ${esc(coupon.noPickCount || 0)} maç açıkça işaretlenir; zorunlu tahmin eklenmez.</li><li>Maç sayısı arttıkça birleşik olasılık hızla düşer.</li></ol></div>
+    <p class="fl-pa3-disclaimer">Model gücü olasılık değildir. Kupon olasılığı yaklaşık bir risk göstergesidir; bütçe ve süre sınırını koru.</p>
     <div class="fl-pa3-result-actions"><button type="button" data-pa3-copy>Sonucu Kopyala</button><button type="button" data-pa3-new>Yeni Analiz</button></div>`;
 
   const resultText = () => {
@@ -376,7 +411,11 @@
     closeAccess();
     state.resultReady = true;
     updateSteps();
-    setMessage("Analiz hazırlandı. Risk ve gerekçeleri birlikte değerlendir.", "success");
+    const analysisCount = Number(readJson(ANALYSIS_COUNT_KEY, 0) || 0) + 1;
+    writeJson(ANALYSIS_COUNT_KEY, analysisCount);
+    setMessage(analysisCount > 0 && analysisCount % 3 === 0
+      ? "Analiz hazır. Kısa bir ara verip bütçe ve süre sınırını yeniden kontrol et."
+      : "Analiz hazırlandı. Risk, olasılık ve veri kapsamını birlikte değerlendir.", analysisCount % 3 === 0 ? "warning" : "success");
     document.dispatchEvent(new CustomEvent("fl:premium-analysis-complete", { detail: { mode: state.mode, count: matches.length } }));
     if (window.matchMedia("(max-width: 900px)").matches) output.scrollIntoView({ behavior: "smooth", block: "start" });
   };
@@ -406,7 +445,7 @@
     state.resultReady = false;
     state.selected.clear();
     const output = query("[data-pa-output]");
-    if (output) output.innerHTML = `<div class="fl-pa3-result-empty"><span>3</span><h3>Sonuç burada görünecek</h3><p>Maç ve analiz türü seçildiğinde öneri, güven, risk ve üç kısa gerekçe birlikte sunulur.</p></div>`;
+    if (output) output.innerHTML = `<div class="fl-pa3-result-empty"><span>3</span><h3>Sonuç burada görünecek</h3><p>Öneriyle birlikte model gücü, tahmini olasılık, veri kapsamı, risk ve gerekçeler sunulur.</p></div>`;
     renderMatches();
     query("[data-pa3-match-list]")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
   };
@@ -518,14 +557,46 @@
     return [];
   };
 
+  const fetchProIndex = async () => {
+    try {
+      const source = "./data/pro-analysis-index.json";
+      const data = typeof window.__flReadJsonShared === "function"
+        ? await window.__flReadJsonShared(source)
+        : await fetch(source, { cache: "no-cache" }).then((response) => {
+          if (!response.ok) throw new Error(String(response.status));
+          return response.json();
+        });
+      return data && typeof data === "object" && Array.isArray(data.matches) ? data : null;
+    } catch {
+      return null;
+    }
+  };
+
+  const updateProStatus = () => {
+    const node = query("[data-pa3-pro-status]");
+    if (!node) return;
+    const readyCount = state.matches.filter((match) => match.pro?.available && match.pro?.fresh).length;
+    const generatedAt = Date.parse(state.proMeta?.generated_at || "");
+    const time = Number.isFinite(generatedAt)
+      ? new Intl.DateTimeFormat("tr-TR", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Istanbul" }).format(new Date(generatedAt))
+      : "";
+    node.textContent = readyCount
+      ? `PRO veri: ${readyCount} maç${time ? ` · ${time} güncellemesi` : ""}`
+      : "PRO veri eşleşmesi bekleniyor; oran-only robot seçimi kapalı.";
+    node.dataset.state = readyCount ? "ready" : "waiting";
+  };
+
   const boot = async () => {
     if (!CORE || !root()) return;
     bind();
     updateAccessView();
     renderDates();
     renderMatches();
-    state.matches = await fetchBulletin();
+    const [bulletin, proIndex] = await Promise.all([fetchBulletin(), fetchProIndex()]);
+    state.proMeta = proIndex;
+    state.matches = CORE.filterUpcoming(CORE.mergeProAnalysis(bulletin, proIndex, new Date()), new Date());
     state.loading = false;
+    updateProStatus();
     renderDates();
     renderMatches();
     setMode("single");

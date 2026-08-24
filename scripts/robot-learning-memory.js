@@ -49,6 +49,12 @@ function clean(value) {
     .trim();
 }
 
+function numberOrNull(value) {
+  if (value === undefined || value === null || value === "" || value === "-") return null;
+  const number = Number(String(value).replace("%", "").replace(",", "."));
+  return Number.isFinite(number) ? number : null;
+}
+
 function canonicalMarket(value) {
   const text = String(value || "").trim();
   const key = clean(text);
@@ -123,6 +129,12 @@ function buildPrediction(item, date, liveMap) {
     odds: item.estimated_odds || item.odds || "-",
     confidence_score: item.confidence_score || item.confidence || "-",
     analysis_score: Number(item.analysis_score ?? item.score ?? 0),
+    model_score: Number(item.model_score ?? item.analysis_score ?? item.score ?? 0),
+    estimated_probability: numberOrNull(item.estimated_probability),
+    market_probability: numberOrNull(item.market_probability),
+    edge_percent: numberOrNull(item.edge_percent),
+    data_completeness: numberOrNull(item.data_completeness) || 0,
+    model_version: item.model_version || "",
     risk_level: item.risk_level || item.risk || "-",
     status: result,
     result_score: score || "",

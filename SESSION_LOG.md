@@ -156,3 +156,18 @@ Summary:
 - Added regression coverage for summary failure, full-payload fallback, offline cached fallback, compact output size and summary schema.
 - JavaScript syntax, performance loading, results pipeline and Özel Analiz V3 tests passed.
 - Did not change daily-matches-widget.js, bulletin JSON files, Kuponum, Analiz Et, workflows, CNAME/DNS, membership or payment logic.
+
+2026-08-24
+
+Özel Analiz PRO 13 research and explainable model upgrade completed.
+
+Summary:
+- Audited the live robot, archive, fixture, result and V3 client flow. Found cross-market signal leakage, high-odds tie breaking, model-score/probability conflation and proxy metrics counted as independent evidence.
+- Rebuilt robot scoring as a market-conditioned ensemble with de-vig market probabilities, market-specific evidence, optional form/Poisson signals, independent-evidence gates, explicit data coverage and conservative no-value behavior.
+- Separated model strength, estimated probability, market probability and edge throughout robot output, learning memory, result tracking and UI persistence.
+- Added a compact `data/pro-analysis-index.json` feed, automatic rebuild hooks and a browser join keyed by match code/date/teams. The feed is about 104 KB instead of the roughly 1.68 MB robot payload.
+- Indexed archive team/league lookups once; production-like 76-match scoring fell from roughly 80 seconds to 1.5 seconds.
+- Updated the mobile result card with model/market comparison, data quality, evidence mode, calibration status and responsible-use reminders. Coupon mode now shows compounded probability and no-pick count.
+- Added PRO model, compact-index and client regression tests; all premium, performance and result pipeline tests passed.
+- Added `docs/OZEL_ANALIZ_PRO13_ARASTIRMA_VE_MIMARI.md` with primary research sources, audit evidence, thresholds, limitations and next data priority.
+- Did not modify bulletin JSON files, daily-matches-widget.js, Kuponum, membership consumption, payment, workflows, CNAME or DNS.

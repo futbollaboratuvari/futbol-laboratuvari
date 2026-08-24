@@ -16,11 +16,12 @@
     "build:live": "node scripts/build-live-now.js",
     "enrich:metrics": "node scripts/enrich-fixture-metrics.js",
     "update:analysis": "node scripts/update-analysis-report.js",
+    "build:pro-index": "node scripts/build-pro-analysis-index.js",
     "export:live": "node scripts/enrich-fixture-metrics.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-output-check.js",
     "sync:results": "node scripts/update-match-archive.js && node scripts/update-final-scores.js && node scripts/learning-result-sync.js && node scripts/sync-analysis-results.js && node scripts/prediction-measurement-health-check.js",
     "learn:robot": "node scripts/robot-learning-memory.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js",
     "check:learning": "node scripts/learning-output-check.js",
-    "test:premium-analysis": "node tests/premium-analysis-v3.test.js",
+    "test:premium-analysis": "node tests/robot-pro-v2.test.js && node tests/pro-analysis-index.test.js && node tests/premium-analysis-v3.test.js",
     "test:performance": "node tests/performance-loading.test.js",
     "test:results": "node tests/results-pipeline.test.js",
     "update:all": "node scripts/update-fixtures.js && node scripts/update-night-window.js && node scripts/two-day-bulletin-window.js && node scripts/build-full-bulletin.js && node scripts/merge-bulletin-detail-fields.js && node scripts/full-bulletin-output-check.js && node scripts/build-live-now.js && node scripts/enrich-fixture-metrics.js && node scripts/update-analysis-report.js && node scripts/export-high-value-json.js && node scripts/ensure-live-json.js && node scripts/sync-analysis-results.js && node scripts/learning-result-sync.js && node scripts/learning-output-check.js"

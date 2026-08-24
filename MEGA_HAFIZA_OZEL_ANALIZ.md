@@ -145,3 +145,17 @@ Veri kaynağı sırası full-bulletin.json ve güvenli yedek olarak two-day-bull
 - two-day-bulletin.json yalnız ana bülten boş veya erişilemez olduğunda indirilir.
 - Ana sayfa robot-analysis.json ve eski learning/premium eklentilerini başlangıçta yüklemez.
 - Bu kurallar değiştirilirken V3 üyelik doğrulaması ve analiz hakkı tüketimi korunmalıdır.
+
+## 2026-08-24 PRO 13 güncellemesi
+
+- Robotun 0–100 değeri `model_score` yani sinyal gücüdür; kazanma olasılığı değildir.
+- Sonuç olasılığı `estimated_probability`, marjı temizlenmiş piyasa karşılığı `market_probability`, aradaki fark `edge_percent` alanında tutulur.
+- Gol/KG sinyalleri 1X2 marketlerini yükseltemez; her kanıt yalnız kendi market grubuna etki eder.
+- Yüksek oran eşitlik bozucu değildir. Aday sırası model gücü, veri kapsamı, tahmini olasılık ve daha düşük oran düzenindedir.
+- Orandan türetilmiş proxy metrik bağımsız kanıt değildir. Bağımsız sonuç/form verisi yoksa model puanı 64 ile sınırlanır, risk Yüksek ve veri niteliği Sınırlı olur.
+- Değer etiketi için pozitif model–piyasa farkı ve bağımsız kanıt zorunludur.
+- Tarayıcı büyük robot-analysis.json yerine `data/pro-analysis-index.json` kompakt akışını okur.
+- PRO kaydı yoksa veya altı saatten eskiyse robot zorunlu seçim üretmez.
+- Kupon ortak olasılığı ayak olasılıklarının çarpımıyla gösterilir; bağımsızlık varsayımı ve artan maç sayısı riski açıkça yazılır.
+- Eski skor geçmişi olasılık kalibrasyonu değildir. Yeni tahmini olasılık örnekleri en az 30 sonuca ulaştığında Brier skoru açılır.
+- Ayrıntılı araştırma ve eşikler `docs/OZEL_ANALIZ_PRO13_ARASTIRMA_VE_MIMARI.md` dosyasındadır.
