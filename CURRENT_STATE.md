@@ -2,6 +2,22 @@
 
 2026-08-24
 
+Main focus: Özel Analiz PRO 13 açıklanabilir olasılık ve veri kalitesi yükseltmesi.
+
+Current PRO analysis state:
+- `model_score` artık 0–100 sinyal gücüdür ve sonuç olasılığı olarak sunulmaz; `estimated_probability`, `market_probability`, `edge_percent` ve `data_completeness` ayrı alanlardır.
+- 1X2, gol ve KG sinyalleri markete özel hesaplanır; yüksek oran eşitlik bozucu değildir. Tam marketlerde bahis marjı temizlenmiş piyasa olasılığı kullanılır.
+- Proxy/orandan türetilmiş metrik bağımsız kanıt sayılmaz. Bağımsız form/gol örneği yoksa model puanı 64 ile sınırlanır, risk Yüksek ve veri niteliği Sınırlı olur; değer veya otomatik kupon adayı üretilmez.
+- Takım ve lig arşivi tek geçişli indekslerle okunur. Güncel denetim süresi yaklaşık 80 saniyeden 1,5 saniyeye düştü.
+- Ana sayfa büyük robot-analysis.json yerine yaklaşık 104 KB `data/pro-analysis-index.json` dosyasını yükler.
+- Sonuç ekranı model gücü, tahmini olasılık, piyasa olasılığı, model–piyasa farkı, veri kapsamı, kanıt modu ve geçmiş doğrulama durumunu ayrı gösterir.
+- Kupon görünümü birleşik tahmini olasılığı çarpar, bağımsızlık varsayımını açıklar ve seçim yok ayaklarını yüksek risk sayar.
+- Yeni olasılık örnekleri sonuçlandıkça Brier skoru ve kalibrasyon kovaları otomatik oluşur; eski model skorları olasılık örneği sayılmaz.
+- Araştırma ve mimari raporu `docs/OZEL_ANALIZ_PRO13_ARASTIRMA_VE_MIMARI.md` dosyasındadır.
+- Bülten JSON dosyaları, günlük maç widget'ı, üyelik hakkı tüketimi, ödeme, Kuponum, workflow, CNAME ve DNS değiştirilmedi.
+
+2026-08-24
+
 Main focus: sonuç arşivi ve performans alanlarının mobil/ağ kesintilerine dayanıklı yüklenmesi.
 
 Current results state:

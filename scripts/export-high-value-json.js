@@ -1,7 +1,8 @@
 const fs = require("fs");
 const path = require("path");
-const { scoreFixture } = require("./robot-exact-scoring");
+const { MODEL_VERSION, scoreFixture } = require("./robot-exact-scoring");
 const { applyLearningWeightsToScoredItem } = require("./apply-learning-weights");
+const { buildProAnalysisIndex } = require("./build-pro-analysis-index");
 
 const rootDir = path.join(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -35,6 +36,12 @@ const writeJson = (filePath, data) => {
 const parseOdd = (value) => {
   const number = Number(String(value || "").replace(",", "."));
   return Number.isFinite(number) && number > 1 ? number : null;
+};
+
+const numberOrNull = (value) => {
+  if (value === undefined || value === null || value === "" || value === "-") return null;
+  const number = Number(String(value).replace("%", "").replace(",", "."));
+  return Number.isFinite(number) ? number : null;
 };
 
 const pickOdd = (row, keys) => {
@@ -122,7 +129,7 @@ function coupon_type_for_match(match) {
   const market = String(scored.market || scored.selection || "").toLocaleLowerCase("tr-TR");
   if (scored.band_check?.level === "Yüksek") return "Sadece izleme";
   if (/ilk yarı kg|ikinci yarı kg|3\.5/.test(market) && score >= 50) return "Riskli Laboratuvar Kuponu";
-  if (odd >= 2.2 && score >= 65) return "Yüksek Oranlı Kupon";
+  if (scored.value_label === "Yüksek Değer" && odd >= 2.2 && score >= 65) return "Yüksek Oranlı Kupon";
   if (score >= 65 && (scored.risk === "Düşük" || scored.risk === "Orta")) return "Dengeli Kupon";
   if (score >= 50) return "Sadece izleme";
   return "Oynama";
@@ -134,11 +141,25 @@ function live_match_output(match) {
   const availableOdds = oddsSnapshot(scored);
   return {
     match_name: scored.match,
+    home: scored.home || scored.home_team_name || "",
+    away: scored.away || scored.away_team_name || "",
+    date: scored.date || scored.tarih || "",
+    match_code: scored.matchCode || scored.match_code || "",
     league: scored.league || scored.competition_name || "-",
     start_time: scored.time || "-",
     recommended_market: scored.selection || scored.market || "-",
     confidence_score: scored.confidence || "-",
+    model_score: Number(scored.model_score ?? scored.analysis_score ?? scored.score ?? 0),
     analysis_score: scored.analysis_score ?? scored.score ?? 0,
+    score_type: scored.score_type || "signal_strength",
+    estimated_probability: numberOrNull(scored.estimated_probability),
+    market_probability: numberOrNull(scored.market_probability),
+    edge_percent: numberOrNull(scored.edge_percent),
+    data_completeness: numberOrNull(scored.data_completeness) || 0,
+    evidence_mode: scored.evidence_mode || "market_baseline",
+    independent_evidence: Boolean(scored.independent_evidence),
+    probability_source: Array.isArray(scored.probability_source) ? scored.probability_source : [],
+    model_version: scored.model_version || MODEL_VERSION,
     risk_level: scored.risk || "-",
     estimated_odds: scored.odds || "-",
     available_odds: availableOdds,
@@ -150,7 +171,11 @@ function live_match_output(match) {
     band_attention_level: band.level,
     band_attention_notes: band.notes || [],
     robot_comment: generate_robot_explanation(scored),
-    include_in_coupon: Boolean(scored.hasOdds && Number(scored.score || 0) >= 65 && band.level !== "Yüksek"),
+    include_in_coupon: Boolean(scored.hasOdds
+      && Number(scored.score || 0) >= 65
+      && Number(scored.data_completeness || 0) >= 45
+      && Number(scored.estimated_probability || 0) >= 42
+      && band.level !== "Yüksek"),
     suitable_coupon_type: coupon_type_for_match(scored),
     data_gap_risk: scored.data_gap_risk || "-",
     status: scored.status || "scheduled",
@@ -180,7 +205,13 @@ function make_coupon(type, items, size) {
     start_time: item.time || "-",
     recommended_market: item.selection || item.market || "-",
     confidence_score: item.confidence || "-",
+    model_score: Number(item.model_score ?? item.analysis_score ?? item.score ?? 0),
     analysis_score: item.analysis_score ?? item.score ?? 0,
+    estimated_probability: numberOrNull(item.estimated_probability),
+    market_probability: numberOrNull(item.market_probability),
+    edge_percent: numberOrNull(item.edge_percent),
+    data_completeness: numberOrNull(item.data_completeness) || 0,
+    model_version: item.model_version || MODEL_VERSION,
     risk_level: item.risk || "-",
     estimated_odds: item.odds || "-",
     available_odds: oddsSnapshot(item),
@@ -194,6 +225,9 @@ function make_coupon(type, items, size) {
   }));
   const total = legs.reduce((acc, leg) => acc * (parseOdd(leg.estimated_odds) || 1), 1);
   const averageScore = legs.length ? Math.round(legs.reduce((acc, leg) => acc + Number(leg.analysis_score || 0), 0) / legs.length) : 0;
+  const combinedProbability = legs.length && legs.every((leg) => Number.isFinite(leg.estimated_probability))
+    ? Number((legs.reduce((acc, leg) => acc * (leg.estimated_probability / 100), 1) * 100).toFixed(1))
+    : null;
   const risk = !legs.length ? "-" : type === "risk_lab" ? "Yüksek" : type === "high_value" ? "Orta-Yüksek" : "Düşük-Orta";
   return {
     coupon_name: coupon_name(type),
@@ -201,10 +235,11 @@ function make_coupon(type, items, size) {
     selected_matches: legs,
     total_odds: legs.length ? total.toFixed(2) : "-",
     average_confidence_score: legs.length ? `${averageScore}%` : "-",
+    combined_estimated_probability: combinedProbability,
     risk_level: risk,
     short_description: coupon_description(type, legs),
     robot_reason: legs.length
-      ? `${coupon_name(type)}; ${legs.length} maç, toplam oran ${total.toFixed(2)}, ortalama güven ${averageScore}%.`
+      ? `${coupon_name(type)}; ${legs.length} maç, toplam oran ${total.toFixed(2)}, ortalama model gücü ${averageScore}/100.`
       : "Bugün için güncel veri henüz oluşmadı.",
     is_available: Boolean(legs.length),
   };
@@ -213,14 +248,14 @@ function make_coupon(type, items, size) {
 function build_daily_coupons(matches) {
   const bandMap = loadBandMap();
   const scored = matches.map(score_match).map((item) => ({ ...item, band_check: bandFor(item, bandMap) }));
-    const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 65 && item.band_check?.level !== "Yüksek");
+  const available = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 65 && item.band_check?.level !== "Yüksek");
   const watchlist = scored.filter((item) => item.hasOdds && Number(item.score || 0) >= 40 && Number(item.score || 0) < 65 && item.band_check?.level !== "Yüksek");
   const balancedPool = available
     .filter((item) => Number(item.score || 0) >= 65 && item.risk !== "Yüksek")
     .sort((a, b) => Number(b.score || 0) - Number(a.score || 0));
   const highValuePool = available
-    .filter((item) => parseOdd(item.odds) >= 2.2 && Number(item.score || 0) >= 65)
-    .sort((a, b) => (parseOdd(b.odds) || 0) - (parseOdd(a.odds) || 0));
+    .filter((item) => item.value_label === "Yüksek Değer" && parseOdd(item.odds) >= 2.2 && Number(item.score || 0) >= 65)
+    .sort((a, b) => Number(b.edge_percent || 0) - Number(a.edge_percent || 0));
   const riskLabPool = available
     .filter((item) => /İlk Yarı KG|İkinci Yarı KG|3\.5 Üst/.test(String(item.market || item.selection || "")) && Number(item.score || 0) >= 50)
     .sort((a, b) => (parseOdd(b.odds) || 0) - (parseOdd(a.odds) || 0));
@@ -232,7 +267,7 @@ function build_daily_coupons(matches) {
     coupons: {
       laboratory_today: make_coupon("balanced", balancedPool, 3),
       balanced: make_coupon("balanced", balancedPool, 3),
-      high_value: make_coupon("high_value", highValuePool.length ? highValuePool : available.filter((item) => Number(item.score || 0) >= 65), 4),
+      high_value: make_coupon("high_value", highValuePool, 4),
       risk_lab: make_coupon("risk_lab", riskLabPool, 3),
     },
   };
@@ -259,8 +294,9 @@ function export_json_outputs(couponBundle, matches) {
   const robotAnalysis = {
     generated_at: new Date().toISOString(),
     date: today,
-    engine: "High Value Coupon Engine + Learning Memory",
-    scoring_mode: "net_threshold_rules_with_learning_memory",
+    engine: "Futbol Laboratuvarı PRO 13",
+    model_version: MODEL_VERSION,
+    scoring_mode: "market_conditioned_probability_ensemble_with_learning_memory",
     stale_data_policy: "Eski veri gösterme. Bugünün verisi yoksa boş mesaj göster.",
     summary: {
       fixture_count: matches.length,
@@ -282,6 +318,7 @@ function export_json_outputs(couponBundle, matches) {
   writeJson(dailyCouponsPath, dailyCoupons);
   writeJson(robotAnalysisPath, robotAnalysis);
   writeJson(path.join(archiveDir, `${today}.json`), { liveMatches, dailyCoupons, robotAnalysis });
+  buildProAnalysisIndex();
   return { liveMatches, dailyCoupons, robotAnalysis };
 }
 
@@ -305,7 +342,3 @@ module.exports = {
   generate_robot_explanation,
   export_json_outputs,
 };
-
-
-
-

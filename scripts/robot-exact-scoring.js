@@ -1,8 +1,15 @@
 const fs = require("fs");
 const path = require("path");
 
-const archivePath = path.join(__dirname, "..", "data", "robot_match_archive.json");
+const archivePath = process.env.ROBOT_ARCHIVE_PATH
+  ? path.resolve(process.env.ROBOT_ARCHIVE_PATH)
+  : path.join(__dirname, "..", "data", "robot_match_archive.json");
+const MODEL_VERSION = "pro13-market-conditioned-v1";
 let memoryCache = null;
+let teamIndexCache = null;
+let archiveLookupCache = null;
+const teamProfileCache = new Map();
+const leagueProfileCache = new Map();
 
 const parseOdd = (value) => {
   if (value === undefined || value === null || value === "" || value === "-") return null;
@@ -119,27 +126,64 @@ const loadMemory = () => {
   if (memoryCache) return memoryCache;
   memoryCache = readJson(archivePath, { matches: [], team_index: {} });
   if (!Array.isArray(memoryCache.matches)) memoryCache.matches = [];
+  if (!memoryCache.team_index || typeof memoryCache.team_index !== "object") memoryCache.team_index = {};
   return memoryCache;
 };
 
 const parseScore = (match) => {
+  const homeScore = Number(match?.homeScore ?? match?.home_score ?? match?.homeGoals ?? match?.home_goals);
+  const awayScore = Number(match?.awayScore ?? match?.away_score ?? match?.awayGoals ?? match?.away_goals);
+  if (Number.isFinite(homeScore) && Number.isFinite(awayScore)) return { home: homeScore, away: awayScore };
   const raw = match.score || match.result || match.result_score || "";
   const found = String(raw).match(/(\d+)\D+(\d+)/);
   if (!found) return null;
   return { home: Number(found[1]), away: Number(found[2]) };
 };
 
+const indexedTeam = (teamName) => {
+  if (!teamIndexCache) {
+    teamIndexCache = new Map();
+    Object.values(loadMemory().team_index || {}).forEach((item) => {
+      const key = cleanKey(item?.team);
+      if (key) teamIndexCache.set(key, item);
+    });
+  }
+  return teamIndexCache.get(cleanKey(teamName)) || null;
+};
+
+const archiveLookups = () => {
+  if (archiveLookupCache) return archiveLookupCache;
+  const teamsByKey = new Map();
+  const leaguesByKey = new Map();
+  const append = (map, key, match) => {
+    if (!key) return;
+    const rows = map.get(key) || [];
+    rows.push(match);
+    map.set(key, rows);
+  };
+  loadMemory().matches.forEach((match) => {
+    const homeKey = cleanKey(match.home || match.home_team_name);
+    const awayKey = cleanKey(match.away || match.away_team_name);
+    append(teamsByKey, homeKey, match);
+    if (awayKey !== homeKey) append(teamsByKey, awayKey, match);
+    append(leaguesByKey, cleanKey(match.league || match.competition_name), match);
+  });
+  archiveLookupCache = { teamsByKey, leaguesByKey };
+  return archiveLookupCache;
+};
+
 const teamRecentMatches = (teamName) => {
   const key = cleanKey(teamName);
   if (!key) return [];
-  return loadMemory().matches
-    .filter((match) => cleanKey(match.home || match.home_team_name) === key || cleanKey(match.away || match.away_team_name) === key)
-    .slice(-10);
+  return (archiveLookups().teamsByKey.get(key) || []).slice(-10);
 };
 
 const teamProfile = (teamName) => {
   const key = cleanKey(teamName);
-  const rows = teamRecentMatches(teamName);
+  if (teamProfileCache.has(key)) return teamProfileCache.get(key);
+  const indexed = indexedTeam(teamName);
+  const indexedRows = Array.isArray(indexed?.recent) ? indexed.recent.slice(-10) : [];
+  const rows = indexedRows.length ? indexedRows : teamRecentMatches(teamName);
   let count = 0;
   let scored = 0;
   let conceded = 0;
@@ -148,24 +192,45 @@ const teamProfile = (teamName) => {
   let over35 = 0;
   let goalsFor = 0;
   let goalsAgainst = 0;
+  let wins = 0;
+  let draws = 0;
+  let losses = 0;
 
   rows.forEach((match) => {
     const score = parseScore(match);
-    if (!score) return;
+    const indexedResult = String(match?.result || "").toUpperCase();
+    if (!score && !/[WDL]/.test(indexedResult)) return;
+    const isIndexedRow = indexedRows.length > 0;
     const isHome = cleanKey(match.home || match.home_team_name) === key;
-    const gf = isHome ? score.home : score.away;
-    const ga = isHome ? score.away : score.home;
+    const gf = score ? (isIndexedRow || isHome ? score.home : score.away) : null;
+    const ga = score ? (isIndexedRow || isHome ? score.away : score.home) : null;
     count += 1;
-    goalsFor += gf;
-    goalsAgainst += ga;
-    if (gf > 0) scored += 1;
-    if (ga > 0) conceded += 1;
-    if (gf > 0 && ga > 0) btts += 1;
-    if (gf + ga >= 3) over25 += 1;
-    if (gf + ga >= 4) over35 += 1;
+    if (gf !== null && ga !== null) {
+      goalsFor += gf;
+      goalsAgainst += ga;
+      if (gf > 0) scored += 1;
+      if (ga > 0) conceded += 1;
+      if (gf > 0 && ga > 0) btts += 1;
+      if (gf + ga >= 3) over25 += 1;
+      if (gf + ga >= 4) over35 += 1;
+      if (gf > ga) wins += 1;
+      else if (gf === ga) draws += 1;
+      else losses += 1;
+    } else if (indexedResult === "W") wins += 1;
+    else if (indexedResult === "D") draws += 1;
+    else if (indexedResult === "L") losses += 1;
   });
 
-  return {
+  if (!count && Number(indexed?.finished) > 0) {
+    count = Number(indexed.finished);
+    wins = Number(indexed.wins || 0);
+    draws = Number(indexed.draws || 0);
+    losses = Number(indexed.losses || 0);
+    goalsFor = Number(indexed.goals_for || 0);
+    goalsAgainst = Number(indexed.goals_against || 0);
+  }
+
+  const profile = {
     count,
     scored,
     conceded,
@@ -174,12 +239,22 @@ const teamProfile = (teamName) => {
     over35Rate: count ? Math.round((over35 / count) * 100) : 0,
     goalsForAvg: count ? Number((goalsFor / count).toFixed(2)) : 0,
     goalsAgainstAvg: count ? Number((goalsAgainst / count).toFixed(2)) : 0,
+    wins,
+    draws,
+    losses,
+    winRate: count ? Math.round((wins / count) * 100) : 0,
+    drawRate: count ? Math.round((draws / count) * 100) : 0,
+    lossRate: count ? Math.round((losses / count) * 100) : 0,
+    pointsPerGame: count ? Number((((wins * 3) + draws) / count).toFixed(2)) : 0,
   };
+  teamProfileCache.set(key, profile);
+  return profile;
 };
 
 const leagueProfile = (fixture) => {
   const league = cleanKey(fixture.league || fixture.competition_name);
-  const rows = loadMemory().matches.filter((match) => league && cleanKey(match.league || match.competition_name) === league).slice(-30);
+  if (leagueProfileCache.has(league)) return leagueProfileCache.get(league);
+  const rows = league ? (archiveLookups().leaguesByKey.get(league) || []).slice(-30) : [];
   let count = 0;
   let totalGoals = 0;
   let btts = 0;
@@ -194,12 +269,14 @@ const leagueProfile = (fixture) => {
     if (score.home + score.away >= 3) over25 += 1;
   });
 
-  return {
+  const profile = {
     count,
     goalAverage: count ? Number((totalGoals / count).toFixed(2)) : 0,
     bttsRate: count ? Math.round((btts / count) * 100) : 0,
     over25Rate: count ? Math.round((over25 / count) * 100) : 0,
   };
+  leagueProfileCache.set(league, profile);
+  return profile;
 };
 
 const memoryFor = (fixture, candidate = null) => {
@@ -210,37 +287,66 @@ const memoryFor = (fixture, candidate = null) => {
   const totalMatches = home.count + away.count + league.count;
   let delta = 0;
   const signals = [];
+  const key = candidate?.key || "";
+  const isBtts = ["kgVar", "kgYok", "firstHalfBttsYes", "firstHalfBttsNo", "secondHalfBttsYes", "secondHalfBttsNo"].includes(key);
+  const isGoals = ["over15", "over25", "under25", "over35", "homeGoal", "awayGoal"].includes(key);
+  const isMatchResult = ["ms1", "msx", "ms2"].includes(key);
 
   if (home.count >= 3 && away.count >= 3) {
-    if (home.scored >= 5 && away.scored >= 5) { delta += 7; signals.push("Hafıza: iki takım son arşiv maçlarında gol buluyor: +7"); }
-    if (home.conceded >= 5 && away.conceded >= 5) { delta += 7; signals.push("Hafıza: iki takım son arşiv maçlarında gol yiyor: +7"); }
     const avgBtts = Math.round((home.bttsRate + away.bttsRate) / 2);
     const avgOver25 = Math.round((home.over25Rate + away.over25Rate) / 2);
     const avgOver35 = Math.round((home.over35Rate + away.over35Rate) / 2);
 
-    if (["kgVar", "firstHalfBttsYes", "secondHalfBttsYes"].includes(candidate?.key) && avgBtts >= 60) {
+    if (["kgVar", "firstHalfBttsYes", "secondHalfBttsYes"].includes(key) && avgBtts >= 60) {
       delta += 8;
       signals.push(`Hafıza: KG Var eğilimi yüksek (%${avgBtts}): +8`);
     }
-    if (candidate?.key === "over25" && avgOver25 >= 55) {
+    if (["kgYok", "firstHalfBttsNo", "secondHalfBttsNo"].includes(key) && avgBtts <= 40) {
+      delta += 8;
+      signals.push(`Hafıza: KG Yok eğilimi destekli (%${100 - avgBtts}): +8`);
+    }
+    if (key === "over25" && avgOver25 >= 55) {
       delta += 8;
       signals.push(`Hafıza: 2.5 Üst eğilimi yüksek (%${avgOver25}): +8`);
     }
-    if (candidate?.key === "over35" && avgOver35 >= 40) {
+    if (key === "under25" && avgOver25 <= 45) {
+      delta += 8;
+      signals.push(`Hafıza: 2.5 Alt eğilimi destekli (%${100 - avgOver25}): +8`);
+    }
+    if (key === "over35" && avgOver35 >= 40) {
       delta += 6;
       signals.push(`Hafıza: 3.5 Üst eğilimi destekli (%${avgOver35}): +6`);
+    }
+    if (key === "homeGoal" && home.scored >= Math.ceil(home.count * 0.6) && away.conceded >= Math.ceil(away.count * 0.5)) {
+      delta += 6;
+      signals.push("Hafıza: ev golü takım profilleriyle destekleniyor: +6");
+    }
+    if (key === "awayGoal" && away.scored >= Math.ceil(away.count * 0.6) && home.conceded >= Math.ceil(home.count * 0.5)) {
+      delta += 6;
+      signals.push("Hafıza: deplasman golü takım profilleriyle destekleniyor: +6");
+    }
+    if (isMatchResult) {
+      const formEdge = home.pointsPerGame - away.pointsPerGame;
+      if (key === "ms1" && formEdge >= 0.55) { delta += 7; signals.push(`Hafıza: ev sahibi form puanında önde (${home.pointsPerGame}-${away.pointsPerGame}): +7`); }
+      if (key === "ms2" && formEdge <= -0.55) { delta += 7; signals.push(`Hafıza: deplasman form puanında önde (${away.pointsPerGame}-${home.pointsPerGame}): +7`); }
+      if (key === "msx" && Math.abs(formEdge) <= 0.25 && home.drawRate >= 25 && away.drawRate >= 25) {
+        delta += 6;
+        signals.push("Hafıza: dengeli form ve beraberlik oranları MS X'i destekliyor: +6");
+      }
     }
   }
 
   if (league.count >= 8) {
-    if (league.goalAverage >= 2.7) { delta += 5; signals.push(`Hafıza: lig gol ortalaması ${league.goalAverage}: +5`); }
-    if (league.bttsRate >= 60 && ["kgVar", "firstHalfBttsYes", "secondHalfBttsYes"].includes(candidate?.key)) { delta += 4; signals.push(`Hafıza: lig KG Var oranı %${league.bttsRate}: +4`); }
+    if (isGoals && key !== "under25" && league.goalAverage >= 2.7) { delta += 5; signals.push(`Hafıza: lig gol ortalaması ${league.goalAverage}: +5`); }
+    if (key === "under25" && league.goalAverage > 0 && league.goalAverage <= 2.35) { delta += 5; signals.push(`Hafıza: düşük lig gol ortalaması ${league.goalAverage}: +5`); }
+    if (league.bttsRate >= 60 && ["kgVar", "firstHalfBttsYes", "secondHalfBttsYes"].includes(key)) { delta += 4; signals.push(`Hafıza: lig KG Var oranı %${league.bttsRate}: +4`); }
+    if (league.bttsRate <= 40 && ["kgYok", "firstHalfBttsNo", "secondHalfBttsNo"].includes(key)) { delta += 4; signals.push(`Hafıza: lig KG Yok oranı %${100 - league.bttsRate}: +4`); }
   }
 
-  if (totalMatches < 6) signals.push("Hafıza: arşiv verisi henüz sınırlı");
+  if ((isBtts || isGoals || isMatchResult) && home.count + away.count < 6) signals.push("Hafıza: takım sonuç örneği henüz sınırlı");
 
   return {
-    scoreDelta: Math.max(-10, Math.min(22, delta)),
+    scoreDelta: Math.max(-8, Math.min(12, delta)),
     totalMatches,
     home,
     away,
@@ -275,15 +381,223 @@ const marketRules = {
   homeGoal: { label: "Ev Sahibi Gol Atar", keys: ["homeGoalYes", "homeScores", "home_to_score", "evGolAtar", "ev_sahibi_gol_atar", "homeGoalYes_guess"], minOdd: 1.20, maxOdd: 3.80, scores: ["1-0", "1-1", "2-1"] },
   awayGoal: { label: "Deplasman Gol Atar", keys: ["awayGoalYes", "awayScores", "away_to_score", "depGolAtar", "deplasman_gol_atar", "awayGoalYes_guess"], minOdd: 1.20, maxOdd: 3.80, scores: ["0-1", "1-1", "1-2"] },
   over25: { label: "2.5 Üst", keys: ["over25", "ust25", "over", "ust", "ust_25", "over25_guess"], minOdd: 1.58, maxOdd: 3.20, scores: ["2-1", "3-1", "2-2"] },
+  under25: { label: "2.5 Alt", keys: ["under25", "alt25", "under", "alt", "alt_25", "under25_guess"], minOdd: 1.35, maxOdd: 3.20, scores: ["0-0", "1-0", "1-1"] },
   over35: { label: "3.5 Üst", keys: ["over35", "ust35", "over3_5", "ust_35", "over35_guess"], minOdd: 1.90, maxOdd: 5.80, scores: ["3-1", "2-2", "3-2"] },
 };
 
-const oddFor = (fixture, keys) => {
-  for (const key of keys) {
-    const odd = parseOdd(get(fixture, key));
-    if (odd) return odd;
+const oddEntryFor = (fixture, keys) => {
+  const sources = [
+    { value: fixture, source: "standard" },
+    { value: fixture?.available_odds, source: "standard" },
+    { value: fixture?.odds, source: "standard" },
+    { value: fixture?.oranlar, source: "standard" },
+    { value: fixture?.detay_oranlar, source: "detail" },
+    { value: fixture?.raw_market_guess_odds, source: "raw_market_guess_odds" },
+    { value: fixture?.analysis, source: "analysis" },
+    { value: fixture?.stats, source: "stats" },
+  ];
+  for (const row of sources) {
+    for (const key of keys) {
+      const odd = parseOdd(row.value?.[key]);
+      if (odd) return { odd, source: row.source, key };
+    }
   }
   return null;
+};
+
+const oddFor = (fixture, keys) => oddEntryFor(fixture, keys)?.odd || null;
+
+const meanKnown = (values) => {
+  const known = values.filter((value) => Number.isFinite(value));
+  return known.length ? known.reduce((sum, value) => sum + value, 0) / known.length : null;
+};
+
+const normalizeProbabilitySet = (entries, target) => {
+  if (!entries.length || entries.some((entry) => !entry?.odd)) return null;
+  const total = entries.reduce((sum, entry) => sum + (1 / entry.odd), 0);
+  const selected = entries.find((entry) => entry.key === target);
+  if (!selected || !total) return null;
+  return {
+    probability: (1 / selected.odd / total) * 100,
+    complete: true,
+    source: entries.some((entry) => entry.source === "raw_market_guess_odds") ? "raw_market_guess_odds" : "standard",
+  };
+};
+
+const fairProbabilityFor = (fixture, key, selectedEntry) => {
+  if (["ms1", "msx", "ms2"].includes(key)) {
+    return normalizeProbabilitySet(["ms1", "msx", "ms2"].map((item) => ({
+      key: item,
+      ...oddEntryFor(fixture, marketRules[item].keys),
+    })), key);
+  }
+
+  const pairMap = {
+    over25: ["under25", marketRules.under25.keys],
+    under25: ["over25", marketRules.over25.keys],
+    kgVar: ["kgYok", marketRules.kgYok.keys],
+    kgYok: ["kgVar", marketRules.kgVar.keys],
+    firstHalfBttsYes: ["firstHalfBttsNo", marketRules.firstHalfBttsNo.keys],
+    firstHalfBttsNo: ["firstHalfBttsYes", marketRules.firstHalfBttsYes.keys],
+    secondHalfBttsYes: ["secondHalfBttsNo", marketRules.secondHalfBttsNo.keys],
+    secondHalfBttsNo: ["secondHalfBttsYes", marketRules.secondHalfBttsYes.keys],
+    over15: ["under15", ["under15", "alt15", "under1_5", "alt_15", "under15_guess"]],
+    over35: ["under35", ["under35", "alt35", "under3_5", "alt_35", "under35_guess"]],
+  };
+  const pair = pairMap[key];
+  if (pair) {
+    const paired = oddEntryFor(fixture, pair[1]);
+    const normalized = normalizeProbabilitySet([
+      { key, ...selectedEntry },
+      { key: pair[0], ...paired },
+    ], key);
+    if (normalized) return normalized;
+  }
+
+  if (!selectedEntry?.odd) return null;
+  return {
+    probability: clamp((1 / selectedEntry.odd) * 100, 5, 95),
+    complete: false,
+    source: selectedEntry.source || "single_odd",
+  };
+};
+
+const poissonMass = (lambda, goals) => {
+  let factorial = 1;
+  for (let index = 2; index <= goals; index += 1) factorial *= index;
+  return (Math.exp(-lambda) * (lambda ** goals)) / factorial;
+};
+
+const poissonProbabilities = (fixture, memory, metrics) => {
+  const { home, away } = memory;
+  if (home.count < 3 || away.count < 3) return null;
+  const leagueAverage = memory.league.goalAverage > 0
+    ? memory.league.goalAverage
+    : metrics.leagueGoalAverage > 0 ? metrics.leagueGoalAverage : 2.6;
+  const baseline = clamp(leagueAverage / 2, 0.8, 1.8);
+  const shrink = (value, count) => baseline + ((value - baseline) * (count / (count + 5)));
+  const homeAttack = shrink(home.goalsForAvg, home.count);
+  const homeDefence = shrink(home.goalsAgainstAvg, home.count);
+  const awayAttack = shrink(away.goalsForAvg, away.count);
+  const awayDefence = shrink(away.goalsAgainstAvg, away.count);
+  const homeLambda = clamp(((homeAttack + awayDefence) / 2) * 1.08, 0.2, 3.6);
+  const awayLambda = clamp(((awayAttack + homeDefence) / 2) * 0.92, 0.2, 3.6);
+  const result = { ms1: 0, msx: 0, ms2: 0, over15: 0, over25: 0, under25: 0, over35: 0, kgVar: 0, kgYok: 0, homeGoal: 0, awayGoal: 0 };
+  let mass = 0;
+  for (let homeGoals = 0; homeGoals <= 8; homeGoals += 1) {
+    for (let awayGoals = 0; awayGoals <= 8; awayGoals += 1) {
+      const probability = poissonMass(homeLambda, homeGoals) * poissonMass(awayLambda, awayGoals);
+      mass += probability;
+      if (homeGoals > awayGoals) result.ms1 += probability;
+      else if (homeGoals === awayGoals) result.msx += probability;
+      else result.ms2 += probability;
+      const total = homeGoals + awayGoals;
+      if (total >= 2) result.over15 += probability;
+      if (total >= 3) result.over25 += probability;
+      else result.under25 += probability;
+      if (total >= 4) result.over35 += probability;
+      if (homeGoals > 0 && awayGoals > 0) result.kgVar += probability;
+      else result.kgYok += probability;
+      if (homeGoals > 0) result.homeGoal += probability;
+      if (awayGoals > 0) result.awayGoal += probability;
+    }
+  }
+  if (!mass) return null;
+  Object.keys(result).forEach((key) => { result[key] = (result[key] / mass) * 100; });
+  return {
+    probabilities: result,
+    homeLambda: Number(homeLambda.toFixed(2)),
+    awayLambda: Number(awayLambda.toFixed(2)),
+    samples: home.count + away.count,
+    reliability: clamp((home.count + away.count) / 16, 0.25, 1),
+  };
+};
+
+const metricReliability = (fixture) => {
+  const quality = cleanKey(fixture?.metric_quality || fixture?.metric_source || "");
+  if (/proxy|odds|tahmin|inferred/.test(quality)) return 0;
+  if (/archive|verified|real|form|history|gercek|doğrulan|dogrulan/.test(quality)) return 1;
+  return 0.45;
+};
+
+const formProbabilities = (memory) => {
+  const { home, away } = memory;
+  if (home.count + away.count < 6) return null;
+  const values = {
+    ms1: ((home.winRate + away.lossRate) / 2) + 4,
+    msx: (home.drawRate + away.drawRate) / 2,
+    ms2: Math.max(1, ((away.winRate + home.lossRate) / 2) - 1),
+  };
+  const total = values.ms1 + values.msx + values.ms2;
+  if (!total) return null;
+  Object.keys(values).forEach((key) => { values[key] = (values[key] / total) * 100; });
+  return { values, reliability: clamp((home.count + away.count) / 16, 0.25, 1) };
+};
+
+const independentProbabilityFor = (fixture, key, metrics, memory) => {
+  const poisson = poissonProbabilities(fixture, memory, metrics);
+  const form = formProbabilities(memory);
+  const values = [];
+  const add = (value, weight, source) => {
+    if (Number.isFinite(value) && weight > 0) values.push({ value: clamp(value, 1, 99), weight, source });
+  };
+  const directWeight = metricReliability(fixture);
+  const teamReliability = clamp((memory.home.count + memory.away.count) / 16, 0, 1);
+
+  if (["ms1", "msx", "ms2"].includes(key)) {
+    add(form?.values?.[key], form?.reliability || 0, "takım formu");
+    add(poisson?.probabilities?.[key], poisson ? poisson.reliability * 0.75 : 0, "Poisson gol modeli");
+  } else if (["over15", "over25", "under25", "over35", "kgVar", "kgYok", "homeGoal", "awayGoal"].includes(key)) {
+    add(poisson?.probabilities?.[key], poisson?.reliability || 0, "Poisson gol modeli");
+    if (key === "over25") add(metrics.over25Percent, directWeight, "2.5 üst metriği");
+    if (key === "under25") add(Number.isFinite(metrics.over25Percent) ? 100 - metrics.over25Percent : null, directWeight, "2.5 alt metriği");
+    if (key === "over35") add(metrics.over35Percent, directWeight, "3.5 üst metriği");
+    if (key === "kgVar") add(metrics.bttsPercent, directWeight, "KG metriği");
+    if (key === "kgYok") add(Number.isFinite(metrics.bttsPercent) ? 100 - metrics.bttsPercent : null, directWeight, "KG yok metriği");
+    if (key === "homeGoal") add(meanKnown([toPercent(metrics.homeScoredLast10), toPercent(metrics.awayConcededLast10)]), directWeight, "ev gol profili");
+    if (key === "awayGoal") add(meanKnown([toPercent(metrics.awayScoredLast10), toPercent(metrics.homeConcededLast10)]), directWeight, "deplasman gol profili");
+    const over25Memory = meanKnown(memory.home.count && memory.away.count ? [memory.home.over25Rate, memory.away.over25Rate] : []);
+    const bttsMemory = meanKnown(memory.home.count && memory.away.count ? [memory.home.bttsRate, memory.away.bttsRate] : []);
+    const homeAwayRate = key === "over25" ? over25Memory
+      : key === "under25" ? (over25Memory === null ? null : 100 - over25Memory)
+        : key === "over35" ? meanKnown(memory.home.count && memory.away.count ? [memory.home.over35Rate, memory.away.over35Rate] : [])
+          : key === "kgVar" ? bttsMemory
+            : key === "kgYok" ? (bttsMemory === null ? null : 100 - bttsMemory) : null;
+    add(homeAwayRate, teamReliability, "sonuç hafızası");
+  } else if (["firstHalfBttsYes", "firstHalfBttsNo"].includes(key)) {
+    const value = metrics.firstHalfGoalTrend;
+    add(key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null, directWeight * 0.35, "ilk yarı eğilimi");
+  } else if (["secondHalfBttsYes", "secondHalfBttsNo"].includes(key)) {
+    const value = metrics.secondHalfGoalTrend;
+    add(key.endsWith("Yes") ? value : Number.isFinite(value) ? 100 - value : null, directWeight * 0.35, "ikinci yarı eğilimi");
+  }
+
+  const totalWeight = values.reduce((sum, item) => sum + item.weight, 0);
+  if (!totalWeight) return { probability: null, reliability: 0, sources: [], poisson };
+  return {
+    probability: values.reduce((sum, item) => sum + (item.value * item.weight), 0) / totalWeight,
+    reliability: clamp(totalWeight / 2.2, 0.1, 1),
+    sources: values.map((item) => item.source),
+    poisson,
+  };
+};
+
+const modelPriorFor = (key) => {
+  const row = loadMemory().model_weights?.markets?.[key];
+  if (!row || !Number.isFinite(Number(row.samples))) return null;
+  return {
+    samples: Number(row.samples),
+    hitRate: Number(row.hit_rate),
+    weight: clamp(Number(row.weight || 0), -8, 8),
+  };
+};
+
+const dataGapForQuality = (quality) => quality < 35 ? "Yüksek" : quality < 60 ? "Orta" : "Düşük";
+
+const riskForAnalysis = (score, probability, odd, quality, forcedHigh) => {
+  if (forcedHigh || quality < 35 || probability < 40 || odd >= 3.25) return "Yüksek";
+  if (score >= 75 && probability >= 58 && quality >= 65 && odd <= 2.15) return "Düşük";
+  return "Orta";
 };
 
 const metricsFor = (fixture) => ({
@@ -302,46 +616,101 @@ const metricsFor = (fixture) => ({
 const buildMatchAnalysis = (fixture, candidate = null) => {
   const m = metricsFor(fixture);
   const memory = memoryFor(fixture, candidate);
-  let score = 0;
-  let missing = 0;
+  if (!candidate) {
+    return {
+      analysis_score: 0,
+      analysis_class: "Oynama",
+      value_label: "Değerli market yok",
+      data_gap_risk: "Yüksek",
+      data_missing_count: Object.values(m).filter((value) => value === null).length,
+      data_completeness: 0,
+      estimated_probability: null,
+      market_probability: null,
+      edge_percent: null,
+      model_version: MODEL_VERSION,
+      score_type: "signal_strength",
+      metrics: { ...m, memory },
+      signals: ["Markete özel olasılık ve veri doğrulaması oluşmadı."],
+    };
+  }
+
+  const fair = fairProbabilityFor(fixture, candidate.key, candidate.entry);
+  const independent = independentProbabilityFor(fixture, candidate.key, m, memory);
+  const prior = modelPriorFor(candidate.key);
+  const fairProbability = fair?.probability ?? null;
+  const independentProbability = independent.probability;
+  const blendWeight = independentProbability === null ? 0 : clamp(0.15 + (independent.reliability * 0.3), 0.15, 0.45);
+  const estimatedProbability = fairProbability !== null && independentProbability !== null
+    ? (fairProbability * (1 - blendWeight)) + (independentProbability * blendWeight)
+    : independentProbability ?? fairProbability;
+  const agreement = fairProbability !== null && independentProbability !== null
+    ? clamp(100 - Math.abs(fairProbability - independentProbability), 0, 100)
+    : estimatedProbability !== null ? 55 : 0;
+  const oddsQuality = fair?.complete ? (fair.source === "standard" ? 35 : 18) : fairProbability !== null ? 8 : 0;
+  const historyQuality = clamp((memory.home.count + memory.away.count) * 1.5, 0, 20);
+  const independentQuality = independentProbability === null ? 0 : independent.reliability * 30;
+  const priorQuality = prior?.samples >= 50 ? 5 : prior ? 3 : 0;
+  const dataCompleteness = Math.round(clamp(oddsQuality + historyQuality + independentQuality + priorQuality, 0, 100));
+  const hasIndependentEvidence = independentProbability !== null && independent.sources.length > 0;
+  const edge = fairProbability !== null && estimatedProbability !== null ? estimatedProbability - fairProbability : null;
+  let score = estimatedProbability === null ? 0
+    : 32 + (Math.max(0, estimatedProbability - 35) * 0.5) + (dataCompleteness * 0.25) + (agreement * 0.12) + (Math.max(0, edge || 0) * 0.45);
+  score += memory.scoreDelta * 0.45;
+  if (prior) score += prior.weight * 0.5;
   const signals = [];
-  const valueLabel = candidate?.odd > 2.20 ? "Yüksek Değer" : "Normal Değer";
-
-  Object.values(m).forEach((value) => { if (value === null) missing += 1; });
-
-  if (toCount(m.homeScoredLast10) >= 4 && toCount(m.awayScoredLast10) >= 4) { score += 15; signals.push("İki takım son 10 maçta en az 4 gol attı: +15"); }
-  if (toCount(m.homeConcededLast10) >= 4 && toCount(m.awayConcededLast10) >= 4) { score += 15; signals.push("İki takım son 10 maçta en az 4 gol yedi: +15"); }
-  if (m.bttsPercent !== null && m.bttsPercent > 65) { score += 15; signals.push("KG Var yüzdesi %65 üzeri: +15"); }
-  if (m.over25Percent !== null && m.over25Percent > 60) { score += 10; signals.push("2.5 Üst yüzdesi %60 üzeri: +10"); }
-  if (m.over35Percent !== null && m.over35Percent > 45) { score += 10; signals.push("3.5 Üst yüzdesi %45 üzeri: +10"); }
-  if (m.leagueGoalAverage !== null && m.leagueGoalAverage > 2.70) { score += 10; signals.push("Lig gol ortalaması 2.70 üzeri: +10"); }
-  if (trendHigh(fixture, ["firstHalfGoalTrend", "ilk_yari_gol_egilimi", "iy_gol_egilimi", "first_half_goal_pct"])) { score += 10; signals.push("İlk yarı gol eğilimi yüksek: +10"); }
-  if (trendHigh(fixture, ["secondHalfGoalTrend", "ikinci_yari_gol_egilimi", "second_half_goal_pct"])) { score += 10; signals.push("İkinci yarı gol eğilimi yüksek: +10"); }
-  if (candidate?.odd > 1.70) { score += 10; signals.push("Oran 1.70 üzeri: +10"); }
-  if (candidate?.odd > 2.20) signals.push("Oran 2.20 üzeri: Yüksek Değer etiketi");
-  if (candidate?.oddSource === "raw_market_guess_odds") signals.push("Ham detay blok tahmini kullanıldı");
-  if (memory.scoreDelta) { score += memory.scoreDelta; signals.push(...memory.signals, `Hafıza toplam etkisi: +${memory.scoreDelta}`); }
-  else signals.push(...memory.signals);
-  if (missing > 0 && memory.totalMatches >= 10) { score += 5; signals.push("Arşiv hafızası veri eksikliğini kısmen dengeledi: +5"); }
-  if (riskyContext(fixture)) { score -= 10; signals.push("Kritik/derbi/belirsiz maç: -10"); }
-  if (closedDefense(fixture)) { score -= 10; signals.push("Kapalı savunma riski: -10"); }
-  if (missing > 0) { score -= 15; signals.push("Veri eksikliği var: -15"); }
-
-  score = Math.round(clamp(score));
+  if (fairProbability !== null) signals.push(`Marjı temizlenmiş piyasa olasılığı %${Math.round(fairProbability)}.`);
+  if (independentProbability !== null) signals.push(`Bağımsız ${independent.sources.join(" + ")} tahmini %${Math.round(independentProbability)}.`);
+  if (estimatedProbability !== null) signals.push(`Birleşik tahmini olasılık %${Math.round(estimatedProbability)}.`);
+  if (edge !== null) signals.push(`Model-piyasa farkı ${edge >= 0 ? "+" : ""}${edge.toFixed(1)} puan.`);
+  if (independent.poisson) signals.push(`Poisson gol beklentisi ${independent.poisson.homeLambda}-${independent.poisson.awayLambda}.`);
+  signals.push(...memory.signals.slice(0, 2));
+  if (prior?.samples) signals.push(`Geçmiş market örneği ${prior.samples}; ham isabet %${Math.round(prior.hitRate * 100)}.`);
+  if (candidate.entry.source === "raw_market_guess_odds") {
+    score -= 6;
+    signals.push("Market oranı ham tahmin bloğundan geldi; güven sınırlandı.");
+  }
+  if (!fair?.complete) {
+    score -= 5;
+    signals.push("Karşı market oranı eksik; marj kontrolü tamamlanamadı.");
+  }
+  if (!hasIndependentEvidence) {
+    score = Math.min(score, 64);
+    signals.push("Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.");
+  }
+  if (riskyContext(fixture)) { score -= 8; signals.push("Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü."); }
+  if (closedDefense(fixture) && ["over15", "over25", "over35", "kgVar"].includes(candidate.key)) {
+    score -= 6;
+    signals.push("Kapalı savunma sinyali gol marketi puanını düşürdü.");
+  }
+  score = Math.round(clamp(score, 0, 92));
+  const valueLabel = hasIndependentEvidence && edge !== null && edge >= 7 && dataCompleteness >= 60 && estimatedProbability >= 45
+    ? "Yüksek Değer"
+    : hasIndependentEvidence && edge !== null && edge >= 3 && dataCompleteness >= 45 ? "Değerli" : "Piyasa ile Uyumlu";
   const klass = classFor(score);
-  const dataRisk = gapRisk(missing);
-  signals.push(`Veri eksikliği riski: ${dataRisk}`);
-  signals.push(`100 puan analiz sınıfı: ${klass}`);
+  const dataRisk = hasIndependentEvidence ? dataGapForQuality(dataCompleteness) : "Yüksek";
+  signals.push(`Veri kapsama puanı ${dataCompleteness}/100 (${dataRisk} eksik veri riski).`);
+  signals.push(`Model gücü ${score}/100: ${klass}.`);
 
   return {
     analysis_score: score,
     analysis_class: klass,
     value_label: valueLabel,
     data_gap_risk: dataRisk,
-    data_missing_count: missing,
+    data_missing_count: Object.values(m).filter((value) => value === null).length,
+    data_completeness: dataCompleteness,
+    estimated_probability: estimatedProbability === null ? null : Number(estimatedProbability.toFixed(1)),
+    market_probability: fairProbability === null ? null : Number(fairProbability.toFixed(1)),
+    independent_probability: independentProbability === null ? null : Number(independentProbability.toFixed(1)),
+    edge_percent: edge === null ? null : Number(edge.toFixed(1)),
+    probability_source: independent.sources,
+    evidence_mode: hasIndependentEvidence ? "market_plus_independent" : "market_baseline",
+    independent_evidence: hasIndependentEvidence,
+    model_version: MODEL_VERSION,
+    score_type: "signal_strength",
     metrics: {
       ...m,
       memory,
+      poisson: independent.poisson,
       homeScoredLast10Count: toCount(m.homeScoredLast10),
       awayScoredLast10Count: toCount(m.awayScoredLast10),
       homeConcededLast10Count: toCount(m.homeConcededLast10),
@@ -352,23 +721,43 @@ const buildMatchAnalysis = (fixture, candidate = null) => {
 };
 
 const candidateFor = (fixture, key, rule) => {
-  const odd = oddFor(fixture, rule.keys);
-  if (!odd || odd < rule.minOdd || odd > rule.maxOdd) return null;
-  const oddSource = rule.keys.some((item) => String(item).includes("_guess")) && fixture?.raw_market_guess_odds ? "raw_market_guess_odds" : "standard";
-  const analysis = buildMatchAnalysis(fixture, { key, odd, oddSource });
-  if (analysis.analysis_score < 40) return null;
-  return { key, label: rule.label, odd, confidence: analysis.analysis_score, risk: analysis.analysis_score >= 75 ? "Düşük" : analysis.analysis_score >= 60 ? "Orta" : "Yüksek", expected_scores: rule.scores, analysis, value_label: analysis.value_label, odd_source_type: oddSource, signals: [`Market: ${rule.label}`, `Oran: ${formatOdd(odd)}`, `Veri tipi: ${oddSource}`, `Değer etiketi: ${analysis.value_label}`, ...analysis.signals] };
+  const entry = oddEntryFor(fixture, rule.keys);
+  if (!entry?.odd || entry.odd < rule.minOdd || entry.odd > rule.maxOdd) return null;
+  const analysis = buildMatchAnalysis(fixture, { key, odd: entry.odd, entry });
+  const probabilityFloor = key === "msx" ? 27 : ["ms1", "ms2"].includes(key) ? 34 : 42;
+  if (analysis.analysis_score < 42 || Number(analysis.estimated_probability || 0) < probabilityFloor) return null;
+  if (entry.source === "raw_market_guess_odds" && analysis.data_completeness < 45) return null;
+  return {
+    key,
+    label: rule.label,
+    odd: entry.odd,
+    confidence: analysis.analysis_score,
+    estimated_probability: analysis.estimated_probability,
+    market_probability: analysis.market_probability,
+    edge_percent: analysis.edge_percent,
+    data_completeness: analysis.data_completeness,
+    model_version: MODEL_VERSION,
+    risk: riskForAnalysis(analysis.analysis_score, analysis.estimated_probability, entry.odd, analysis.data_completeness, analysis.data_gap_risk === "Yüksek" || !analysis.independent_evidence),
+    expected_scores: rule.scores,
+    analysis,
+    value_label: analysis.value_label,
+    odd_source_type: entry.source,
+    signals: [`Market: ${rule.label}`, `Oran: ${formatOdd(entry.odd)}`, `Veri tipi: ${entry.source}`, `Değer etiketi: ${analysis.value_label}`, ...analysis.signals],
+  };
 };
 
 const candidatesFor = (fixture) => Object.entries(marketRules)
   .map(([key, rule]) => candidateFor(fixture, key, rule))
   .filter(Boolean)
-  .sort((a, b) => b.confidence - a.confidence || b.odd - a.odd);
+  .sort((a, b) => b.confidence - a.confidence
+    || b.data_completeness - a.data_completeness
+    || b.estimated_probability - a.estimated_probability
+    || a.odd - b.odd);
 
 const emptyScore = (fixture, reason, status, extraSignals) => {
   const t = teams(fixture);
   const analysis = buildMatchAnalysis(fixture, null);
-  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: reason, selection: reason, odds: "-", confidence: pct(analysis.analysis_score), lab_probability: pct(analysis.analysis_score), trust_score: `${analysis.analysis_score}/100`, tag: analysis.analysis_class, value_label: analysis.value_label, expected_scores: [], score: analysis.analysis_score, risk: analysis.analysis_score < 50 ? "Yüksek" : "Orta", status, hasOdds: false, analysis_score: analysis.analysis_score, analysis_class: analysis.analysis_class, data_gap_risk: analysis.data_gap_risk, analysis_metrics: analysis.metrics, pro_signals: [...extraSignals, ...analysis.signals] };
+  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: reason, selection: reason, odds: "-", confidence: pct(analysis.analysis_score), lab_probability: "-", trust_score: `${analysis.analysis_score}/100`, tag: analysis.analysis_class, value_label: analysis.value_label, expected_scores: [], score: analysis.analysis_score, model_score: analysis.analysis_score, risk: "Yüksek", status, hasOdds: false, analysis_score: analysis.analysis_score, analysis_class: analysis.analysis_class, data_gap_risk: analysis.data_gap_risk, data_completeness: analysis.data_completeness, estimated_probability: null, market_probability: null, edge_percent: null, model_version: MODEL_VERSION, score_type: "signal_strength", analysis_metrics: analysis.metrics, pro_signals: [...extraSignals, ...analysis.signals] };
 };
 
 const scoreFixture = (fixture) => {
@@ -377,10 +766,10 @@ const scoreFixture = (fixture) => {
   if (!best) return emptyScore(fixture, "Değerli market yok", "filtered_no_value_market", ["Düşük oran veya eksik veri nedeniyle elendi", "Çifte şans kullanılmadı"]);
   const t = teams(fixture);
   const score = best.confidence;
-  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: best.label, selection: best.label, odds: formatOdd(best.odd), confidence: pct(score), lab_probability: pct(score), trust_score: `${score}/100`, tag: best.analysis.analysis_class, value_label: best.value_label, expected_scores: best.expected_scores, score, risk: best.risk, status: fixture.status || "scheduled", hasOdds: true, analysis_score: score, analysis_class: best.analysis.analysis_class, data_gap_risk: best.analysis.data_gap_risk, analysis_metrics: best.analysis.metrics, odd_source_type: best.odd_source_type, pro_signals: best.signals };
+  return { ...fixture, home: t.home, away: t.away, match: `${t.home} VS ${t.away}`, market: best.label, selection: best.label, odds: formatOdd(best.odd), confidence: pct(score), lab_probability: best.estimated_probability === null ? "-" : pct(best.estimated_probability), trust_score: `${score}/100`, tag: best.analysis.analysis_class, value_label: best.value_label, expected_scores: best.expected_scores, score, model_score: score, risk: best.risk, status: fixture.status || "scheduled", hasOdds: true, analysis_score: score, analysis_class: best.analysis.analysis_class, data_gap_risk: best.analysis.data_gap_risk, data_completeness: best.data_completeness, estimated_probability: best.estimated_probability, market_probability: best.market_probability, edge_percent: best.edge_percent, model_version: MODEL_VERSION, score_type: "signal_strength", probability_source: best.analysis.probability_source, evidence_mode: best.analysis.evidence_mode, independent_evidence: best.analysis.independent_evidence, analysis_metrics: best.analysis.metrics, odd_source_type: best.odd_source_type, pro_signals: best.signals };
 };
 
-const legFromItem = (item, number) => ({ number, home: item.home, away: item.away, match: item.match, date: item.date || "", time: item.time || "", league: item.league || item.competition_name || "", selection: item.selection || item.market, option: item.selection || item.market, odds: item.odds, lab_probability: item.lab_probability || item.confidence, confidence: item.confidence, trust_score: item.trust_score, risk: item.risk, tag: item.tag, value_label: item.value_label, analysis_score: item.analysis_score, analysis_class: item.analysis_class, data_gap_risk: item.data_gap_risk, expected_scores: item.expected_scores || [], signals: item.pro_signals || [] });
+const legFromItem = (item, number) => ({ number, home: item.home, away: item.away, match: item.match, date: item.date || "", time: item.time || "", league: item.league || item.competition_name || "", selection: item.selection || item.market, option: item.selection || item.market, odds: item.odds, lab_probability: item.lab_probability || "-", confidence: item.confidence, trust_score: item.trust_score, risk: item.risk, tag: item.tag, value_label: item.value_label, analysis_score: item.analysis_score, analysis_class: item.analysis_class, data_gap_risk: item.data_gap_risk, data_completeness: item.data_completeness, estimated_probability: item.estimated_probability, market_probability: item.market_probability, edge_percent: item.edge_percent, model_version: item.model_version || MODEL_VERSION, expected_scores: item.expected_scores || [], signals: item.pro_signals || [] });
 const combinedOdds = (items) => items.reduce((acc, item) => acc * (parseOdd(item.odds) || 1), 1).toFixed(2);
 const dataGapFor = (items) => items.some((item) => item.data_gap_risk === "Yüksek") ? "Yüksek" : items.some((item) => item.data_gap_risk === "Orta") ? "Orta" : "Düşük";
 const valueFor = (items) => items.some((item) => item.value_label === "Yüksek Değer") ? "Yüksek Değer" : "Normal Değer";
@@ -388,7 +777,7 @@ const valueFor = (items) => items.some((item) => item.value_label === "Yüksek D
 const buildCouponAnalysis = (fixtures = []) => {
   const scored = fixtures.map(scoreFixture);
   const ranked = scored.filter((item) => item.hasOdds && item.score >= 65).sort((a, b) => b.score - a.score || (parseOdd(b.odds) || 0) - (parseOdd(a.odds) || 0)).slice(0, 14);
-  const singles = ranked.slice(0, 6).map((item) => ({ match: item.match, market: item.market, odds: item.odds, confidence: item.confidence, score: item.score, risk: item.risk, tag: item.tag, value_label: item.value_label, analysis_score: item.analysis_score, analysis_class: item.analysis_class, data_gap_risk: item.data_gap_risk, expected_scores: item.expected_scores, signals: item.pro_signals, legs: [legFromItem(item, 1)] }));
+  const singles = ranked.slice(0, 6).map((item) => ({ match: item.match, market: item.market, odds: item.odds, confidence: item.confidence, score: item.score, risk: item.risk, tag: item.tag, value_label: item.value_label, analysis_score: item.analysis_score, analysis_class: item.analysis_class, data_gap_risk: item.data_gap_risk, data_completeness: item.data_completeness, estimated_probability: item.estimated_probability, market_probability: item.market_probability, edge_percent: item.edge_percent, model_version: item.model_version || MODEL_VERSION, expected_scores: item.expected_scores, signals: item.pro_signals, legs: [legFromItem(item, 1)] }));
   const doubles = [];
   const triples = [];
   const pool = ranked.filter((item) => parseOdd(item.odds) >= 1.60);
@@ -398,7 +787,9 @@ const buildCouponAnalysis = (fixtures = []) => {
     const score = Math.round(pair.reduce((sum, item) => sum + item.score, 0) / 2);
     const odd = parseOdd(combinedOdds(pair));
     if (!odd || odd < 2.40) continue;
-    doubles.push({ match: pair.map((item) => item.match).join(" + "), market: pair.map((item) => item.market).join(" + "), odds: odd.toFixed(2), confidence: pct(score), score, risk: pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta", tag: classFor(score), value_label: valueFor(pair), analysis_score: score, analysis_class: classFor(score), data_gap_risk: dataGapFor(pair), expected_scores: pair.flatMap((item) => item.expected_scores || []).slice(0, 4), signals: pair.flatMap((item) => item.pro_signals || []).slice(0, 5), legs: pair.map((item, index) => legFromItem(item, index + 1)) });
+    const combinedProbability = pair.every((item) => Number.isFinite(item.estimated_probability))
+      ? Number((pair.reduce((total, item) => total * (item.estimated_probability / 100), 1) * 100).toFixed(1)) : null;
+    doubles.push({ match: pair.map((item) => item.match).join(" + "), market: pair.map((item) => item.market).join(" + "), odds: odd.toFixed(2), confidence: pct(score), score, risk: pair.some((item) => item.risk === "Yüksek") ? "Yüksek" : "Orta", tag: classFor(score), value_label: valueFor(pair), analysis_score: score, analysis_class: classFor(score), data_gap_risk: dataGapFor(pair), data_completeness: Math.round(pair.reduce((sum, item) => sum + Number(item.data_completeness || 0), 0) / pair.length), estimated_probability: combinedProbability, model_version: MODEL_VERSION, expected_scores: pair.flatMap((item) => item.expected_scores || []).slice(0, 4), signals: pair.flatMap((item) => item.pro_signals || []).slice(0, 5), legs: pair.map((item, index) => legFromItem(item, index + 1)) });
   }
 
   for (let i = 0; i + 2 < pool.length && triples.length < 2; i += 3) {
@@ -406,14 +797,25 @@ const buildCouponAnalysis = (fixtures = []) => {
     const score = Math.round(trio.reduce((sum, item) => sum + item.score, 0) / 3);
     const odd = parseOdd(combinedOdds(trio));
     if (!odd || odd < 3.20) continue;
-    triples.push({ match: trio.map((item) => item.match).join(" + "), market: trio.map((item) => item.market).join(" + "), odds: odd.toFixed(2), confidence: pct(score), score, risk: "Yüksek", tag: classFor(score), value_label: valueFor(trio), analysis_score: score, analysis_class: classFor(score), data_gap_risk: dataGapFor(trio), expected_scores: trio.flatMap((item) => item.expected_scores || []).slice(0, 6), signals: trio.flatMap((item) => item.pro_signals || []).slice(0, 6), legs: trio.map((item, index) => legFromItem(item, index + 1)) });
+    const combinedProbability = trio.every((item) => Number.isFinite(item.estimated_probability))
+      ? Number((trio.reduce((total, item) => total * (item.estimated_probability / 100), 1) * 100).toFixed(1)) : null;
+    triples.push({ match: trio.map((item) => item.match).join(" + "), market: trio.map((item) => item.market).join(" + "), odds: odd.toFixed(2), confidence: pct(score), score, risk: "Yüksek", tag: classFor(score), value_label: valueFor(trio), analysis_score: score, analysis_class: classFor(score), data_gap_risk: dataGapFor(trio), data_completeness: Math.round(trio.reduce((sum, item) => sum + Number(item.data_completeness || 0), 0) / trio.length), estimated_probability: combinedProbability, model_version: MODEL_VERSION, expected_scores: trio.flatMap((item) => item.expected_scores || []).slice(0, 6), signals: trio.flatMap((item) => item.pro_signals || []).slice(0, 6), legs: trio.map((item, index) => legFromItem(item, index + 1)) });
   }
 
   return { scored, ranked, singles, doubles, triples };
 };
 
-module.exports = { scoreFixture, buildCouponAnalysis, buildMatchAnalysis, memoryFor };
-
-
-
-
+module.exports = {
+  MODEL_VERSION,
+  scoreFixture,
+  buildCouponAnalysis,
+  buildMatchAnalysis,
+  memoryFor,
+  _internals: {
+    candidateFor,
+    candidatesFor,
+    fairProbabilityFor,
+    independentProbabilityFor,
+    poissonProbabilities,
+  },
+};

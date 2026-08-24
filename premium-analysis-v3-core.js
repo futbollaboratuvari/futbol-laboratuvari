@@ -10,6 +10,7 @@
 
   const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
   const finite = (value) => {
+    if (value === undefined || value === null || value === "" || value === "-") return null;
     const parsed = Number(String(value ?? "").replace(",", ".").replace(/[^0-9.-]/g, ""));
     return Number.isFinite(parsed) ? parsed : null;
   };
@@ -50,14 +51,15 @@
   };
 
   const normalizeMatch = (match, index = 0) => {
-    const rawTitle = first(match?.match_name, match?.match, match?.title, "");
+    const pro = match?.proAnalysis || match?.pro_analysis || match?.pro || {};
+    const rawTitle = first(match?.match_name, match?.match, match?.title, "") ?? "";
     const titleParts = String(rawTitle || "").split(/\s+(?:vs\.?|v|-)\s+/i);
     const home = String(first(match?.home, match?.home_team_name, match?.ev_sahibi, titleParts[0], "Ev sahibi")).trim();
     const away = String(first(match?.away, match?.away_team_name, match?.deplasman, titleParts[1], "Deplasman")).trim();
-    const date = String(first(match?.date, match?.tarih, "")).slice(0, 10);
+    const date = String(first(match?.date, match?.tarih, "") ?? "").slice(0, 10);
     const time = String(first(match?.time, match?.saat, match?.start_time, "--:--")).slice(0, 5);
     const status = String(first(match?.status, match?.liveStatus, match?.state, "scheduled"));
-    const matchCode = String(first(match?.matchCode, match?.match_code, match?.mac_kodu, ""));
+    const matchCode = String(first(match?.matchCode, match?.match_code, match?.mac_kodu, "") ?? "");
     const identity = matchCode || `${date}-${time}-${normalizeText(home)}-${normalizeText(away)}-${index}`;
     const availableOdds = {
       ms1: readOdd(match, ["ms1", "one", "oneOdd", "odd1"]),
@@ -84,24 +86,49 @@
       away,
       status,
       matchCode,
-      decision: String(first(match?.decision, "")),
-      recommendedMarket: String(first(match?.recommended_market, match?.suggested_option, match?.prediction, "")),
-      recommendedOdd: odd(first(match?.estimated_odds, match?.suggested_odds)),
-      analysisScore: percent(first(match?.analysis_score, match?.confidence_score, match?.confidence)),
-      riskLevel: String(first(match?.risk_level, "")),
-      reason: String(first(match?.robot_reason, match?.robot_comment, match?.commentary, "")),
-      metricQuality: String(first(match?.metric_quality, "unknown")),
+      decision: String(first(match?.decision, "") ?? ""),
+      recommendedMarket: String(first(pro?.recommended_market, match?.recommended_market, match?.suggested_option, match?.prediction, "") ?? ""),
+      recommendedOdd: odd(first(pro?.recommended_odd, match?.estimated_odds, match?.suggested_odds)),
+      analysisScore: percent(first(pro?.model_score, match?.model_score, match?.analysis_score, match?.confidence_score, match?.confidence)),
+      riskLevel: String(first(pro?.risk_level, match?.risk_level, "") ?? ""),
+      reason: String(first(pro?.signals?.[0], match?.robot_reason, match?.robot_comment, match?.commentary, "") ?? ""),
+      metricQuality: String(first(pro?.data_quality, match?.metric_quality, "unknown")),
+      pro: {
+        available: Boolean(pro?.available ?? pro?.recommended_market),
+        fresh: pro?.fresh !== false,
+        generatedAt: String(first(pro?.generated_at, "") ?? ""),
+        modelVersion: String(first(pro?.model_version, match?.model_version, "") ?? ""),
+        modelScore: percent(first(pro?.model_score, match?.model_score, match?.analysis_score)),
+        estimatedProbability: percent(first(pro?.estimated_probability, match?.estimated_probability)),
+        marketProbability: percent(first(pro?.market_probability, match?.market_probability)),
+        edgePercent: finite(first(pro?.edge_percent, match?.edge_percent)),
+        dataCompleteness: percent(first(pro?.data_completeness, match?.data_completeness)),
+        dataQuality: String(first(pro?.data_quality, "Sınırlı")),
+        evidenceMode: String(first(pro?.evidence_mode, "market_baseline")),
+        independentEvidence: Boolean(pro?.independent_evidence),
+        probabilitySource: Array.isArray(pro?.probability_source) ? pro.probability_source.map(String).slice(0, 4) : [],
+        dataGapRisk: String(first(pro?.data_gap_risk, match?.data_gap_risk, "Yüksek")),
+        riskLevel: String(first(pro?.risk_level, match?.risk_level, "Yüksek")),
+        recommendedMarket: String(first(pro?.recommended_market, match?.recommended_market, "") ?? ""),
+        recommendedOdd: odd(first(pro?.recommended_odd, match?.estimated_odds)),
+        includeInCoupon: Boolean(pro?.include_in_coupon),
+        valueLabel: String(first(pro?.value_label, "") ?? ""),
+        signals: Array.isArray(pro?.signals) ? pro.signals.map(String).filter(Boolean).slice(0, 7) : [],
+        calibration: pro?.calibration && typeof pro.calibration === "object" ? pro.calibration : null,
+      },
       metrics: {
-        homeScored: finite(first(match?.homeScoredLast10, match?.metrics?.homeScoredLast10)),
-        awayScored: finite(first(match?.awayScoredLast10, match?.metrics?.awayScoredLast10)),
-        homeConceded: finite(first(match?.homeConcededLast10, match?.metrics?.homeConcededLast10)),
-        awayConceded: finite(first(match?.awayConcededLast10, match?.metrics?.awayConcededLast10)),
-        btts: percent(first(match?.bttsPercent, match?.metrics?.bttsPercent)),
-        over25: percent(first(match?.over25Percent, match?.metrics?.over25Percent)),
-        over35: percent(first(match?.over35Percent, match?.metrics?.over35Percent)),
-        firstHalfGoal: percent(first(match?.firstHalfGoalTrend, match?.metrics?.firstHalfGoalTrend)),
-        secondHalfGoal: percent(first(match?.secondHalfGoalTrend, match?.metrics?.secondHalfGoalTrend)),
-        leagueGoalAverage: finite(first(match?.leagueGoalAverage, match?.metrics?.leagueGoalAverage)),
+        homeScored: finite(first(pro?.metrics?.homeScoredLast10, match?.homeScoredLast10, match?.metrics?.homeScoredLast10)),
+        awayScored: finite(first(pro?.metrics?.awayScoredLast10, match?.awayScoredLast10, match?.metrics?.awayScoredLast10)),
+        homeConceded: finite(first(pro?.metrics?.homeConcededLast10, match?.homeConcededLast10, match?.metrics?.homeConcededLast10)),
+        awayConceded: finite(first(pro?.metrics?.awayConcededLast10, match?.awayConcededLast10, match?.metrics?.awayConcededLast10)),
+        btts: percent(first(pro?.metrics?.bttsPercent, match?.bttsPercent, match?.metrics?.bttsPercent)),
+        over25: percent(first(pro?.metrics?.over25Percent, match?.over25Percent, match?.metrics?.over25Percent)),
+        over35: percent(first(pro?.metrics?.over35Percent, match?.over35Percent, match?.metrics?.over35Percent)),
+        firstHalfGoal: percent(first(pro?.metrics?.firstHalfGoalTrend, match?.firstHalfGoalTrend, match?.metrics?.firstHalfGoalTrend)),
+        secondHalfGoal: percent(first(pro?.metrics?.secondHalfGoalTrend, match?.secondHalfGoalTrend, match?.metrics?.secondHalfGoalTrend)),
+        leagueGoalAverage: finite(first(pro?.metrics?.leagueGoalAverage, match?.leagueGoalAverage, match?.metrics?.leagueGoalAverage)),
+        poissonHome: finite(first(pro?.metrics?.poisson?.homeLambda, pro?.metrics?.poisson?.home_lambda, pro?.metrics?.poisson_home)),
+        poissonAway: finite(first(pro?.metrics?.poisson?.awayLambda, pro?.metrics?.poisson?.away_lambda, pro?.metrics?.poisson_away)),
       },
       odds: availableOdds,
       source: match,
@@ -109,6 +136,44 @@
   };
 
   const normalizeMatches = (matches) => (Array.isArray(matches) ? matches : []).map(normalizeMatch);
+
+  const joinKeysFor = (match) => {
+    const normalized = match?.source ? match : normalizeMatch(match);
+    const teams = `${normalizeText(normalized.home)}|${normalizeText(normalized.away)}`;
+    return [
+      normalized.matchCode ? `code:${normalized.matchCode}` : "",
+      `full:${normalized.date}|${normalized.time}|${teams}`,
+      `date:${normalized.date}|${teams}`,
+    ].filter(Boolean);
+  };
+
+  const mergeProAnalysis = (matches, payload, now = new Date()) => {
+    const rows = Array.isArray(payload) ? payload : Array.isArray(payload?.matches) ? payload.matches : [];
+    if (!Array.isArray(matches) || !rows.length) return Array.isArray(matches) ? matches.slice() : [];
+    const generatedAt = String(payload?.generated_at || "");
+    const generatedTime = Date.parse(generatedAt);
+    const age = Number.isFinite(generatedTime) ? now.getTime() - generatedTime : Number.POSITIVE_INFINITY;
+    const fresh = age >= -(15 * 60 * 1000) && age <= (6 * 60 * 60 * 1000);
+    const lookup = new Map();
+    rows.forEach((row) => joinKeysFor(row).forEach((key) => {
+      if (!lookup.has(key)) lookup.set(key, row);
+    }));
+    return matches.map((match) => {
+      const row = joinKeysFor(match).map((key) => lookup.get(key)).find(Boolean);
+      if (!row) return match;
+      return {
+        ...match,
+        proAnalysis: {
+          ...row,
+          available: true,
+          fresh,
+          generated_at: generatedAt,
+          calibration: payload?.calibration || null,
+          model_version: row.model_version || payload?.model_version || "",
+        },
+      };
+    });
+  };
 
   const isUpcoming = (match, now = new Date()) => {
     const normalized = Object.prototype.hasOwnProperty.call(match || {}, "timestamp") && match?.odds
@@ -194,14 +259,26 @@
     return match.odds[key] ?? null;
   };
 
-  const detailRows = (match, probabilities) => [
-    { label: "Lig gol ortalaması", value: match.metrics.leagueGoalAverage === null ? "Veri yok" : match.metrics.leagueGoalAverage.toFixed(2) },
-    { label: "2.5 üst eğilimi", value: match.metrics.over25 === null ? "Veri yok" : `%${Math.round(match.metrics.over25)}` },
-    { label: "Karşılıklı gol eğilimi", value: match.metrics.btts === null ? "Veri yok" : `%${Math.round(match.metrics.btts)}` },
-    { label: "İkinci yarı gol eğilimi", value: match.metrics.secondHalfGoal === null ? "Veri yok" : `%${Math.round(match.metrics.secondHalfGoal)}` },
-    { label: "Piyasa dengesi", value: probabilities ? `%${Math.round(probabilities.home)} / %${Math.round(probabilities.draw)} / %${Math.round(probabilities.away)}` : "Oran verisi eksik" },
-    { label: "Veri niteliği", value: normalizeText(match.metricQuality).includes("proxy") ? "Model destekli" : "Güncel kayıt" },
-  ];
+  const detailRows = (match, probabilities) => {
+    const rows = [
+      { label: "Lig gol ortalaması", value: match.metrics.leagueGoalAverage === null ? "Veri yok" : match.metrics.leagueGoalAverage.toFixed(2) },
+      { label: "2.5 üst eğilimi", value: match.metrics.over25 === null ? "Veri yok" : `%${Math.round(match.metrics.over25)}` },
+      { label: "Karşılıklı gol eğilimi", value: match.metrics.btts === null ? "Veri yok" : `%${Math.round(match.metrics.btts)}` },
+      { label: "İkinci yarı gol eğilimi", value: match.metrics.secondHalfGoal === null ? "Veri yok" : `%${Math.round(match.metrics.secondHalfGoal)}` },
+      { label: "Piyasa dengesi", value: probabilities ? `%${Math.round(probabilities.home)} / %${Math.round(probabilities.draw)} / %${Math.round(probabilities.away)}` : "Oran verisi eksik" },
+    ];
+    if (match.pro.available) {
+      rows.push(
+        { label: "PRO model gücü", value: match.pro.modelScore === null ? "Ölçülmedi" : `${Math.round(match.pro.modelScore)}/100` },
+        { label: "Tahmini olasılık", value: match.pro.estimatedProbability === null ? "Biriktiriliyor" : `%${Math.round(match.pro.estimatedProbability)}` },
+        { label: "Veri kapsama", value: match.pro.dataCompleteness === null ? "Bilinmiyor" : `%${Math.round(match.pro.dataCompleteness)} · ${match.pro.dataQuality}` },
+        { label: "Kanıt modu", value: match.pro.independentEvidence ? "Piyasa + bağımsız form/gol verisi" : "Piyasa tabanı · bağımsız örnek sınırlı" },
+      );
+    } else {
+      rows.push({ label: "Veri niteliği", value: normalizeText(match.metricQuality).includes("proxy") ? "Oran destekli sınırlı veri" : "Piyasa verisi" });
+    }
+    return rows;
+  };
 
   const noPickResult = (match, type, reasons) => ({
     match,
@@ -209,6 +286,15 @@
     market: "Seçim yok",
     odd: null,
     confidence: clamp(Math.round(match.analysisScore || 50), 42, 58),
+    modelScore: match.pro.modelScore ?? match.analysisScore ?? 50,
+    estimatedProbability: match.pro.estimatedProbability,
+    marketProbability: match.pro.marketProbability,
+    edgePercent: match.pro.edgePercent,
+    dataCompleteness: match.pro.dataCompleteness ?? 0,
+    dataQuality: match.pro.dataQuality || "Sınırlı",
+    modelVersion: match.pro.modelVersion || "",
+    sourceMode: match.pro.available ? "pro" : "market",
+    calibration: match.pro.calibration,
     risk: "Yüksek",
     noPick: true,
     headline: "Bu maçta güçlü seçim oluşmadı",
@@ -262,6 +348,15 @@
       market: marketLabel(key),
       odd: selectedOdd,
       confidence,
+      modelScore: confidence,
+      estimatedProbability: Number.isFinite(lead) ? Number(lead.toFixed(1)) : null,
+      marketProbability: Number.isFinite(lead) ? Number(lead.toFixed(1)) : null,
+      edgePercent: 0,
+      dataCompleteness: probabilities ? 45 : 20,
+      dataQuality: probabilities ? "Orta" : "Sınırlı",
+      modelVersion: "market-baseline-v1",
+      sourceMode: "market",
+      calibration: null,
       risk: riskFor(confidence, selectedOdd, match.riskLevel),
       noPick: false,
       headline: `${marketLabel(key)} öne çıkıyor`,
@@ -288,6 +383,13 @@
     };
   };
 
+  const binaryMarketProbability = (selectedOdd, oppositeOdd) => {
+    if (!selectedOdd || !oppositeOdd) return null;
+    const selected = 1 / selectedOdd;
+    const opposite = 1 / oppositeOdd;
+    return (selected / (selected + opposite)) * 100;
+  };
+
   const analyzeGoals = (match, forcedKey = "") => {
     const strengths = goalStrengths(match);
     const allowed = Object.keys(strengths);
@@ -304,6 +406,8 @@
 
     const confidence = clamp(Math.round(52 + (strength - 50) * 0.85), 54, 81);
     const selectedOdd = match.odds[key] ?? null;
+    const oppositeKey = ({ over25: "under25", under25: "over25", bttsYes: "bttsNo", bttsNo: "bttsYes" })[key];
+    const marketProbability = oppositeKey ? binaryMarketProbability(selectedOdd, match.odds[oppositeKey]) : null;
     const isBtts = key === "bttsYes" || key === "bttsNo";
     const mainMetric = isBtts ? match.metrics.btts : match.metrics.over25;
     const reasons = [
@@ -323,6 +427,15 @@
       market: marketLabel(key),
       odd: selectedOdd,
       confidence,
+      modelScore: confidence,
+      estimatedProbability: Number(strength.toFixed(1)),
+      marketProbability: marketProbability === null ? null : Number(marketProbability.toFixed(1)),
+      edgePercent: marketProbability === null ? null : Number((strength - marketProbability).toFixed(1)),
+      dataCompleteness: [mainMetric, match.metrics.leagueGoalAverage, match.metrics.secondHalfGoal].filter((value) => value !== null).length * 22,
+      dataQuality: mainMetric !== null && match.metrics.leagueGoalAverage !== null ? "Orta" : "Sınırlı",
+      modelVersion: "goal-trend-v1",
+      sourceMode: "trend",
+      calibration: null,
       risk: riskFor(confidence, selectedOdd, match.riskLevel),
       noPick: false,
       headline: `${marketLabel(key)} gol senaryosunda öne çıkıyor`,
@@ -364,32 +477,70 @@
   };
 
   const analyzeRobot = (match) => {
-    const blocked = BLOCKED_DECISIONS.test(`${match.decision} ${match.recommendedMarket}`);
-    if (blocked && (match.analysisScore === null || match.analysisScore < 60)) {
+    const pro = match.pro;
+    if (!pro.available) {
       return noPickResult(match, "robot", [
-        "Güncel değerlendirme bu maç için oynama eşiğini aşmıyor.",
-        "Sinyaller arasında yeterli ortak yön bulunmuyor.",
-        "Sistem, zorunlu tahmin yerine izleme kararı veriyor.",
+        "Bu karşılaşma için güncel PRO veri kaydı henüz eşleşmedi.",
+        "Yalnız oran verisine bakarak robot seçimi üretilmedi.",
+        "PRO veri akışı yenilendiğinde analiz otomatik olarak kullanılabilir olacak.",
+      ]);
+    }
+    if (!pro.fresh) {
+      return noPickResult(match, "robot", [
+        "PRO veri kaydı güncellik süresini aştı.",
+        "Eski model çıktısı yeni tahmin gibi gösterilmedi.",
+        "Bir sonraki veri yenilemesinden sonra tekrar analiz edebilirsin.",
       ]);
     }
 
-    const explicitKey = marketKey(match.recommendedMarket);
-    let result;
-    if (["ms1", "msx", "ms2"].includes(explicitKey)) result = analyzeMatchResult(match, explicitKey);
-    else if (explicitKey) result = analyzeAdvanced(match, match.recommendedMarket);
-    else {
-      const matchResult = analyzeMatchResult(match);
-      const goalResult = analyzeGoals(match);
-      const candidates = [matchResult, goalResult].filter((item) => !item.noPick);
-      result = candidates.sort((a, b) => b.confidence - a.confidence)[0] || noPickResult(match, "robot");
+    const blocked = BLOCKED_DECISIONS.test(`${match.decision} ${pro.recommendedMarket}`);
+    const modelScore = pro.modelScore ?? 0;
+    const dataCompleteness = pro.dataCompleteness ?? 0;
+    if (blocked || modelScore < 60 || dataCompleteness < 35) {
+      return noPickResult(match, "robot", [
+        modelScore < 60 ? `PRO model gücü ${Math.round(modelScore)}/100 ile seçim eşiğinin altında.` : "Güncel PRO kararı bu maçı oynama eşiğinin dışında tutuyor.",
+        dataCompleteness < 35 ? `Veri kapsama %${Math.round(dataCompleteness)}; güvenilir seçim için yetersiz.` : "Sinyaller tek bir markette yeterince birleşmiyor.",
+        "Sistem zorunlu tahmin yerine açık bir seçim yok kararı veriyor.",
+      ]);
     }
 
-    if (match.analysisScore !== null && match.analysisScore >= 35 && !result.noPick) {
-      result.confidence = clamp(Math.round((result.confidence * 0.65) + (match.analysisScore * 0.35)), 48, 84);
-      result.risk = riskFor(result.confidence, result.odd, match.riskLevel);
-    }
-    if (match.reason && !result.noPick) result.reasons[0] = match.reason;
-    return { ...result, type: "robot" };
+    const explicitKey = marketKey(pro.recommendedMarket);
+    if (!explicitKey) return noPickResult(match, "robot", [
+      "PRO çıktısındaki market güvenli biçimde eşleştirilemedi.",
+      "Bilinmeyen market için tahmin uydurulmadı.",
+      "Market eşlemesi güncellendiğinde analiz yeniden kullanılabilir olacak.",
+    ]);
+
+    const reasons = pro.signals
+      .filter((value) => !/^(market:|oran:|veri tipi:|değer etiketi:)/i.test(String(value).trim()))
+      .slice(0, 3);
+    const fallbackReasons = [
+      "PRO model ve piyasa dengesi birlikte kontrol edildi.",
+      `Veri kapsama puanı ${Math.round(dataCompleteness)}/100 olarak ölçüldü.`,
+      pro.edgePercent === null ? "Market farkı ölçülemedi; risk seviyesi buna göre sınırlandı." : `Model-piyasa farkı ${pro.edgePercent >= 0 ? "+" : ""}${pro.edgePercent.toFixed(1)} puan.`,
+    ];
+    while (reasons.length < 3) reasons.push(fallbackReasons[reasons.length] || fallbackReasons[0]);
+    return {
+      match,
+      type: "robot",
+      market: marketLabel(explicitKey),
+      odd: pro.recommendedOdd ?? oddsForMarket(match, pro.recommendedMarket),
+      confidence: Math.round(modelScore),
+      modelScore: Math.round(modelScore),
+      estimatedProbability: pro.estimatedProbability,
+      marketProbability: pro.marketProbability,
+      edgePercent: pro.edgePercent,
+      dataCompleteness: Math.round(dataCompleteness),
+      dataQuality: pro.dataQuality,
+      modelVersion: pro.modelVersion,
+      sourceMode: "pro",
+      calibration: pro.calibration,
+      risk: pro.riskLevel || riskFor(modelScore, pro.recommendedOdd, match.riskLevel),
+      noPick: false,
+      headline: `${marketLabel(explicitKey)} PRO ortak sinyallerinde öne çıkıyor`,
+      reasons,
+      details: detailRows(match, impliedProbabilities(match)),
+    };
   };
 
   const analyze = (input, type = "robot", advancedMarket = "") => {
@@ -406,14 +557,41 @@
     const averageConfidence = picked.length
       ? Math.round(picked.reduce((sum, leg) => sum + leg.confidence, 0) / picked.length)
       : 0;
+    const probabilityLegs = picked
+      .map((leg) => finite(leg.estimatedProbability))
+      .filter((value) => value !== null && value >= 0 && value <= 100);
+    const combinedProbability = picked.length
+      && picked.length === legs.length
+      && probabilityLegs.length === picked.length
+      ? Number((probabilityLegs.reduce((total, value) => total * (value / 100), 1) * 100).toFixed(2))
+      : null;
+    const qualityLegs = picked
+      .map((leg) => finite(leg.dataCompleteness))
+      .filter((value) => value !== null);
+    const averageDataCompleteness = qualityLegs.length
+      ? Math.round(qualityLegs.reduce((sum, value) => sum + value, 0) / qualityLegs.length)
+      : 0;
     const validOdds = legs.map((leg) => leg.odd).filter((value) => value && value > 1);
     const totalOdd = legs.length && validOdds.length === legs.length
       ? Number(validOdds.reduce((total, value) => total * value, 1).toFixed(2))
       : null;
-    const risk = !picked.length || averageConfidence < 57 || legs.length >= 7
+    const noPickCount = legs.length - picked.length;
+    const risk = !picked.length || noPickCount > 0 || averageConfidence < 57
+      || (combinedProbability !== null && combinedProbability < 12) || legs.length >= 7
       ? "Yüksek"
-      : averageConfidence >= 70 && legs.length <= 3 ? "Düşük" : "Orta";
-    return { legs, pickedCount: picked.length, averageConfidence, totalOdd, risk };
+      : averageConfidence >= 70 && averageDataCompleteness >= 60
+        && combinedProbability !== null && combinedProbability >= 25 && legs.length <= 3 ? "Düşük" : "Orta";
+    return {
+      legs,
+      pickedCount: picked.length,
+      noPickCount,
+      averageConfidence,
+      averageModelScore: averageConfidence,
+      averageDataCompleteness,
+      combinedProbability,
+      totalOdd,
+      risk,
+    };
   };
 
   return {
@@ -424,6 +602,7 @@
     isUpcoming,
     marketKey,
     marketLabel,
+    mergeProAnalysis,
     normalizeMatch,
     normalizeMatches,
     normalizeText,

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { buildProAnalysisIndex } = require('./build-pro-analysis-index');
 
 const root = path.join(__dirname, '..');
 const dataDir = path.join(root, 'data');
@@ -40,6 +41,12 @@ function normalizeScore(value) {
   return Number.isFinite(number) ? Math.max(0, Math.min(100, Math.round(number))) : 0;
 }
 
+function nullableNumber(value) {
+  if (value === undefined || value === null || value === '' || value === '-') return null;
+  const number = Number(String(value).replace('%', '').replace(',', '.'));
+  return Number.isFinite(number) ? number : null;
+}
+
 function itemTitle(item) {
   return item.match_name || item.match || `${item.home || ''} - ${item.away || ''}`.trim() || 'Maç';
 }
@@ -69,6 +76,13 @@ function toActiveItem(item, index) {
     score: `${score}%`,
     confidence: `${score}%`,
     confidence_score: `${score}%`,
+    model_score: normalizeScore(item.model_score ?? item.analysis_score ?? item.score),
+    score_type: item.score_type || 'signal_strength',
+    estimated_probability: nullableNumber(item.estimated_probability),
+    market_probability: nullableNumber(item.market_probability),
+    edge_percent: nullableNumber(item.edge_percent),
+    data_completeness: nullableNumber(item.data_completeness) || 0,
+    model_version: item.model_version || '',
     risk,
     risk_level: risk,
     status: item.status || item.liveStatus || 'scheduled',
@@ -122,6 +136,12 @@ function toCompletedItem(item) {
     result_score: item.result_score || item.final_score || item.score || '-',
     confidence: item.confidence_score || item.confidence || '-',
     confidence_score: item.confidence_score || item.confidence || '-',
+    model_score: normalizeScore(item.model_score ?? item.analysis_score ?? item.confidence_score ?? item.confidence),
+    estimated_probability: nullableNumber(item.estimated_probability),
+    market_probability: nullableNumber(item.market_probability),
+    edge_percent: nullableNumber(item.edge_percent),
+    data_completeness: nullableNumber(item.data_completeness) || 0,
+    model_version: item.model_version || '',
     risk: item.risk_level || item.risk || '-',
     status,
     result: status,
@@ -156,6 +176,29 @@ function buildPerformance(memory) {
   const voidItems = predictions.filter((item) => outcomeStatus(item.status) === 'void');
   const pending = predictions.filter((item) => outcomeStatus(item.status) === 'pending');
   const measured = won.length + lost.length;
+  const probabilityRows = [...won, ...lost]
+    .map((item) => ({
+      probability: nullableNumber(item.estimated_probability),
+      outcome: outcomeStatus(item.status) === 'won' ? 1 : 0,
+    }))
+    .filter((item) => item.probability !== null && item.probability >= 0 && item.probability <= 100);
+  const brierScore = probabilityRows.length
+    ? probabilityRows.reduce((sum, item) => sum + (((item.probability / 100) - item.outcome) ** 2), 0) / probabilityRows.length
+    : null;
+  const calibrationMap = new Map();
+  probabilityRows.forEach((item) => {
+    const lower = Math.min(90, Math.floor(item.probability / 10) * 10);
+    const row = calibrationMap.get(lower) || { lower, upper: lower + 9, predictions: 0, won: 0, average_probability: 0, observed_rate: null };
+    row.predictions += 1;
+    row.won += item.outcome;
+    row.average_probability += item.probability;
+    calibrationMap.set(lower, row);
+  });
+  const calibrationBuckets = [...calibrationMap.values()].map((row) => ({
+    ...row,
+    average_probability: Number((row.average_probability / row.predictions).toFixed(1)),
+    observed_rate: Number(((row.won / row.predictions) * 100).toFixed(1)),
+  })).sort((a, b) => a.lower - b.lower);
   const groups = new Map();
   [...won, ...lost].forEach((item) => {
     const group = marketGroup(item.market || item.prediction);
@@ -179,6 +222,10 @@ function buildPerformance(memory) {
     lost_count: lost.length,
     void_count: voidItems.length,
     success_rate: measured ? Math.round((won.length / measured) * 100) : null,
+    probability_sample_count: probabilityRows.length,
+    brier_score: brierScore === null ? null : Number(brierScore.toFixed(4)),
+    calibration_status: probabilityRows.length >= 30 ? 'measured' : 'collecting_probability_history',
+    calibration_buckets: calibrationBuckets,
     verified_at: verifiedAt,
     groups: [...groups.values()].sort((a, b) => b.measured - a.measured || b.success_rate - a.success_rate),
   };
@@ -200,6 +247,10 @@ function buildResultsSummary(payload) {
       lost_count: 0,
       void_count: 0,
       success_rate: null,
+      probability_sample_count: 0,
+      brier_score: null,
+      calibration_status: 'collecting_probability_history',
+      calibration_buckets: [],
       groups: [],
     },
   };
@@ -250,6 +301,7 @@ function main() {
 
   writeJson(analysisResultsFile, payload);
   writeJson(resultsSummaryFile, buildResultsSummary(payload));
+  buildProAnalysisIndex();
   console.log(`analiz_sonuclari.json synced. Active: ${activeItems.length}. Coupon: ${couponCandidates}. Watch: ${watchCandidates}.`);
 }
 

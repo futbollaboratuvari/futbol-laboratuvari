@@ -69,7 +69,8 @@ function classFor(score) {
   return "Oynama";
 }
 
-function riskFor(score, oldRisk) {
+function riskFor(score, oldRisk, scoredItem) {
+  if (scoredItem?.data_gap_risk === "Yüksek" || scoredItem?.independent_evidence === false || oldRisk === "Yüksek") return "Yüksek";
   if (score >= 75) return "Düşük";
   if (score >= 60) return "Orta";
   if (score >= 50) return oldRisk || "Yüksek";
@@ -137,9 +138,10 @@ function applyLearningWeightsToScoredItem(scoredItem) {
     };
   }
 
-  const weightedScore = Math.round(clamp((baseScore * adjustment.weight) + adjustment.delta));
+  const rawWeightedScore = Math.round(clamp((baseScore * adjustment.weight) + adjustment.delta));
+  const weightedScore = scoredItem.independent_evidence === false ? Math.min(64, rawWeightedScore) : rawWeightedScore;
   const analysisClass = classFor(weightedScore);
-  const risk = riskFor(weightedScore, scoredItem.risk);
+  const risk = riskFor(weightedScore, scoredItem.risk, scoredItem);
   const signals = [
     ...(scoredItem.pro_signals || []),
     ...adjustment.notes,
@@ -149,9 +151,10 @@ function applyLearningWeightsToScoredItem(scoredItem) {
   return {
     ...scoredItem,
     score: weightedScore,
+    model_score: weightedScore,
     analysis_score: weightedScore,
     confidence: `${weightedScore}%`,
-    lab_probability: `${weightedScore}%`,
+    lab_probability: Number.isFinite(Number(scoredItem.estimated_probability)) ? `${Math.round(Number(scoredItem.estimated_probability))}%` : "-",
     trust_score: `${weightedScore}/100`,
     tag: analysisClass,
     analysis_class: analysisClass,

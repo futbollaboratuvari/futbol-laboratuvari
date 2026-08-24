@@ -84,6 +84,63 @@ test("oynama kararı ve düşük skor zorunlu seçim üretmez", () => {
   assert.equal(result.risk, "Yüksek");
 });
 
+test("PRO robot yalnız güncel ve yeterli veriyle açık market üretir", () => {
+  const result = core.analyze({
+    date: "2026-08-24",
+    time: "20:00",
+    home: "A",
+    away: "B",
+    status: "scheduled",
+    over25: 1.85,
+    under25: 1.95,
+    proAnalysis: {
+      available: true,
+      fresh: true,
+      recommended_market: "2.5 Üst",
+      recommended_odd: 1.85,
+      model_score: 72,
+      estimated_probability: 59,
+      market_probability: 51,
+      edge_percent: 8,
+      data_completeness: 68,
+      data_quality: "Orta",
+      signals: ["Doğrulanmış gol verisi marketi destekliyor."],
+    },
+  }, "robot");
+  assert.equal(result.noPick, false);
+  assert.equal(result.market, "2.5 Üst");
+  assert.equal(result.modelScore, 72);
+  assert.equal(result.estimatedProbability, 59);
+});
+
+test("PRO kaydı yoksa robot oran-only seçim uydurmaz", () => {
+  const result = core.analyze({
+    date: "2026-08-24",
+    time: "20:00",
+    home: "A",
+    away: "B",
+    status: "scheduled",
+    ms1: 1.2,
+    msx: 6,
+    ms2: 12,
+  }, "robot");
+  assert.equal(result.noPick, true);
+  assert.match(result.reasons.join(" "), /PRO veri/i);
+});
+
+test("PRO indeksi bültene kod ve Türkçe takım anahtarıyla bağlanır", () => {
+  const bulletin = [{ date: "2026-08-24", time: "21:00", home: "Fenerbahçe", away: "Göztepe", matchCode: "123" }];
+  const payload = {
+    generated_at: "2026-08-24T17:00:00Z",
+    matches: [{ date: "2026-08-24", time: "21:00", home: "Fenerbahce", away: "Goztepe", match_code: "123", recommended_market: "MS 1", model_score: 70, data_completeness: 60 }],
+  };
+  const merged = core.filterUpcoming(core.mergeProAnalysis(bulletin, payload, new Date("2026-08-24T18:00:00Z")), new Date("2026-08-24T18:00:00Z"));
+  assert.equal(merged.length, 1);
+  assert.equal(merged[0].pro.available, true);
+  assert.equal(merged[0].pro.fresh, true);
+  assert.equal(merged[0].pro.modelScore, 70);
+});
+
 test("kupon özeti ortalama güveni ve eksiksiz toplam oranı hesaplar", () => {
   const coupon = core.analyzeCoupon([
     { date: "2026-08-24", time: "18:00", home: "A", away: "B", status: "scheduled", ms1: 1.5, msx: 4, ms2: 6 },
@@ -93,6 +150,8 @@ test("kupon özeti ortalama güveni ve eksiksiz toplam oranı hesaplar", () => {
   assert.equal(coupon.pickedCount, 2);
   assert.equal(coupon.totalOdd, 2.7);
   assert.ok(coupon.averageConfidence > 0);
+  assert.ok(coupon.combinedProbability > 0);
+  assert.ok(coupon.combinedProbability < coupon.legs[0].estimatedProbability);
   assert.ok(["Düşük", "Orta", "Yüksek"].includes(coupon.risk));
 });
 
