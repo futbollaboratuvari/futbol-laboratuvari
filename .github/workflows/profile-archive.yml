@@ -35,6 +35,9 @@ jobs:
       - name: Build source reading plan
         run: node scripts/source-plan-lite.js
 
+      - name: Refresh public squad intelligence
+        run: node scripts/team-news-auto.js
+
       - name: Build team status signals
         run: node scripts/team-status-lite.js
 
@@ -47,11 +50,14 @@ jobs:
       - name: Build standings signals
         run: node scripts/standings-lite.js
 
+      - name: Validate team intelligence
+        run: node tests/team-intelligence.test.js
+
       - name: Commit profile archive outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/source-reading-plan.json data/team-status-signals.json data/lineup-signals.json data/home-away-performance.json data/standings-signals.json data/archive/*-profiles.json data/archive/*-source-plan.json data/archive/*-team-status.json data/archive/*-lineups.json data/archive/*-home-away.json data/archive/*-standings.json
+          git add data/longterm-match-archive.json data/team-profile-index.json data/league-profile-index.json data/profile-index.json data/source-reading-plan.json data/team-status-auto.json data/team-status-signals.json data/lineup-signals.json data/home-away-performance.json data/standings-signals.json data/archive/*-profiles.json data/archive/*-source-plan.json data/archive/*-team-status-auto.json data/archive/*-team-status.json data/archive/*-lineups.json data/archive/*-home-away.json data/archive/*-standings.json
           if git diff --cached --quiet; then
             echo "No profile archive changes"
             exit 0
