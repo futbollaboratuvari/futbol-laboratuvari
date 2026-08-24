@@ -5,6 +5,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Update fixtures and High Value Engine"
+      - "Stage 4 Result Tracking"
+      - "Auto relaxed analysis"
+      - "Live Data Trigger"
+      - "Learning Output Check"
+    types:
+      - completed
 
 permissions:
   contents: read
@@ -17,6 +26,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
