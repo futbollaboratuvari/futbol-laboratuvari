@@ -111,4 +111,4 @@ if (usableForToday(current)) {
   console.log('Bulletin flow waiting. No usable source or cache.');
 }
 
-require('./enhance-spor-toto-pro').run();
+require('./finalize-spor-toto-pro').run();
