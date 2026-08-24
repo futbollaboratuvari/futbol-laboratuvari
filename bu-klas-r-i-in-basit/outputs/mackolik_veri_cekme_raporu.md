@@ -1,38 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-24T20:04:14.103942+00:00
+Tarih: 2026-08-24T20:12:41.040557+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 9
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 9
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 8933
 - Hedef tarih: 24.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Premier Lig 2. Aşama
-- Arjantin Ulusal Primera Lig
-- Brezilya Serie A
-- Brezilya Serie B
-- Ekvador Pro Lig
-- Şili Premier Lig
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -88,17 +84,7 @@ Tarih: 2026-08-24T20:04:14.103942+00:00
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 25.08.2026 | 02:00 | Brezilya Serie A | Botafogo | Atletico Pr | 42657 | 5 |
-| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Talleres | Rosario Central | 33614 | 5 |
-| 25.08.2026 | 03:15 | Arjantin Premier Lig 2. Aşama | Lanus | Argentinos Jr | 33503 | 5 |
-| 25.08.2026 | 01:00 | Arjantin Premier Lig 2. Aşama | Tigre | Corboda Santiag | 33370 | 5 |
-| 25.08.2026 | 02:30 | Şili Premier Lig | Everton De Vin | Univ De Concepc | 36661 | 5 |
-| 25.08.2026 | 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O | All Boys | 33476 | 3 |
-| 25.08.2026 | 01:30 | Brezilya Serie B | Sport Recife | America Mineiro | 42624 | 5 |
-| 25.08.2026 | 01:30 | Brezilya Serie B | Athletic Club | Novorizontino | 03402 | 5 |
-| 25.08.2026 | 03:00 | Ekvador Pro Lig | Libertad | Depor Macara | 26050 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
