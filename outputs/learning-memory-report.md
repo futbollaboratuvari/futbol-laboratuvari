@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 24.08.2026 18:23:37
+Oluşturma: 24.08.2026 18:26:50
 
 ## Özet
 
-- Toplam tahmin: 951
-- Bekleyen tahmin: 689
+- Toplam tahmin: 952
+- Bekleyen tahmin: 690
 - Kazanan tahmin: 92
 - Kaybeden tahmin: 169
 - Lig sayısı: 154
@@ -23,12 +23,13 @@ Oluşturma: 24.08.2026 18:23:37
 - 2.5 Alt: toplam 47, bekleyen 30, başarı %100, ağırlık 1.12
 - 2.5 Üst: toplam 12, bekleyen 8, başarı %100, ağırlık 1
 - MS X: toplam 366, bekleyen 251, başarı %31, ağırlık 0.88
-- MS 1: toplam 81, bekleyen 57, başarı %29, ağırlık 0.88
+- MS 1: toplam 82, bekleyen 58, başarı %29, ağırlık 0.88
 - MS 2: toplam 286, bekleyen 185, başarı %28, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-24 | Rusya Premier Lig | Baltika Kalini - Rubin Kazan | MS 1 | pending | 36/100
 - 2026-08-24 | Fransa Ligue 2 | Reims - Annecy | 2.5 Alt | pending | 64/100
 - 2026-08-24 | İngiltere Premier Lig 2 | Newcastle (B) - Tottenham U21 | 2.5 Alt | pending | 63/100
 - 2026-08-24 | İzlanda Urvalsdeild | Breidablik - Fram | 2.5 Alt | pending | 63/100
@@ -43,5 +44,4 @@ Oluşturma: 24.08.2026 18:23:37
 - 2026-08-24 | Guatemala Ulusal Lig Apertura | Malacateco - Deportivo San P | 2.5 Alt | won | 75/100
 - 2026-08-24 | Guatemala Ulusal Lig Apertura | Mixco - Guastatoya | 2.5 Üst | won | 61/100
 - 2026-08-24 | Nikaragua Premier Lig Apertura | Jalapa - Matagalpa | 2.5 Üst | pending | 57/100
-- 2026-08-24 | Honduras Ulusal Lig Apertura | Marathon - Real Espana | 2.5 Alt | won | 82/100
 
