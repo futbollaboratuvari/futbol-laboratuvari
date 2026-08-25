@@ -3,11 +3,10 @@
 - Status: pass
 - Restored from cache: false
 - Scheduled match count: 119
-- Live match count: 8
+- Live match count: 7
 - Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
-- 2026-08-25 13:00 | Estoril U23 - Moreirense U23 | live
 - 2026-08-25 13:30 | Fc Seoul - Bucheon | live
 - 2026-08-25 13:30 | Gimcheon Sangm - Jeonbuk Hm | live
 - 2026-08-25 13:30 | Jeju Utd - Pohang Steelers | live
@@ -17,3 +16,4 @@
 - 2026-08-25 15:00 | Wigan Athletic - Cardiff City U2 | live
 - 2026-08-25 15:30 | Bolton U21 - Colchester Unit | scheduled
 - 2026-08-25 16:00 | Queens Park Ra - Hull City U21 | scheduled
+- 2026-08-25 17:00 | Tobol Kostanay - Kaisar | scheduled

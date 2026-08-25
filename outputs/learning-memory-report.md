@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 15:04:55
+Oluşturma: 25.08.2026 15:19:11
 
 ## Özet
 
@@ -31,7 +31,7 @@ Oluşturma: 25.08.2026 15:04:55
 
 - 2026-08-25 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | 2.5 Alt | pending | 63/100
 - 2026-08-25 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | MS 2 | pending | 38/100
-- 2026-08-25 | Brezilya Serie B | Juventude - Regatas | MS 1 | pending | 43/100
+- 2026-08-25 | Brezilya Serie B | Juventude - Regatas | MS 1 | pending | 42/100
 - 2026-08-25 | İngiltere Non League Premier Kuzey | Workington - Rylands | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Kuveyt Premier Lig | Al Fahaheel - Al Qadsia | MS 2 | pending | 49/100
 - 2026-08-25 | Tanzanya Kuu Bara Ligi | Namungo - Fountain Gate | MS 1 | pending | 41/100
@@ -43,5 +43,5 @@ Oluşturma: 25.08.2026 15:04:55
 - 2026-08-25 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | MS 1 | pending | 47/100
 - 2026-08-25 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | 2.5 Alt | pending | 62/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | 2.5 Alt | pending | 64/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | 2.5 Alt | pending | 63/100
 
