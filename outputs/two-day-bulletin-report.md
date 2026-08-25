@@ -2,21 +2,15 @@
 
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
-Ham mac: 140
-Aktif mac: 86
-Canli mac: 30
-Biten mac: 24
-Bultenden dusurulen mac: 54
-Bugun: 74
+Ham mac: 116
+Aktif mac: 80
+Canli mac: 36
+Biten mac: 0
+Bultenden dusurulen mac: 36
+Bugun: 68
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-25 20:00 | İsveç Superettan | Orebro - Varbergs | scheduled | -
-- 2026-08-25 20:00 | İsveç Superettan | Oster - Sundsvall | scheduled | -
-- 2026-08-25 20:00 | Danimarka DBU Kupası 2.Tur | Skive - Esbjerg | scheduled | -
-- 2026-08-25 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Chemnitzer | scheduled | -
-- 2026-08-25 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Magdeburg Ii - Chemie Leipzig | scheduled | -
-- 2026-08-25 20:00 | Litvanya 1.Lig | Zalgiris Ii - Transinvest Vil | scheduled | -
 - 2026-08-25 20:30 | Danimarka DBU Kupası 2.Tur | Bk Skjold - Espergaerde | scheduled | -
 - 2026-08-25 20:30 | Güney Afrika PSL | Kruger United - Durban City | scheduled | -
 - 2026-08-25 20:30 | Güney Afrika PSL | Marumo Gallant - Ts Galaxy | scheduled | -
@@ -129,29 +123,12 @@ Yarin: 12
 - 2026-08-25 19:30 | Danimarka DBU Kupası 2.Tur | Bronshoj - Ab Gladsaxe | live | -
 - 2026-08-25 19:30 | Portekiz U23 Ulusal Şampiyona | Portimonense U - Farense U23 | live | -
 - 2026-08-25 19:45 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) - (2) Hapoel Beer She | live | -
+- 2026-08-25 20:00 | İsveç Superettan | Orebro - Varbergs | live | -
+- 2026-08-25 20:00 | İsveç Superettan | Oster - Sundsvall | live | -
+- 2026-08-25 20:00 | Danimarka DBU Kupası 2.Tur | Skive - Esbjerg | live | -
+- 2026-08-25 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Chemnitzer | live | -
+- 2026-08-25 20:00 | Almanya Bölgesel Lig Kuzey Doğu | Magdeburg Ii - Chemie Leipzig | live | -
+- 2026-08-25 20:00 | Litvanya 1.Lig | Zalgiris Ii - Transinvest Vil | live | -
 
 ## Biten Maclar
-- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
-- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
-- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
-- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
-- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
-- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
-- 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | finished | -
-- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | finished | -
-- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | finished | -
-- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | finished | -
-- 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | finished | -
-- 2026-08-25 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | finished | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | finished | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | finished | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | finished | -
-- 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | finished | -
-- 2026-08-25 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | finished | -
-- 2026-08-25 15:00 | İngiltere Professional Development Lig | Coventry City - Fleetwood Town | finished | -
-- 2026-08-25 15:00 | İngiltere Professional Development Lig | Millwall U21 - Huddersfield To | finished | -
-- 2026-08-25 15:30 | İngiltere Professional Development Lig | Bolton U21 - Colchester Unit | finished | -
-- 2026-08-25 16:00 | İngiltere Professional Development Lig | Queens Park Ra - Hull City U21 | finished | -
-- 2026-08-25 17:00 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Estrela U23 | finished | -
-- 2026-08-25 17:00 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | finished | -
-- 2026-08-25 17:15 | Danimarka DBU Kupası 2.Tur | Nb Bolrholm - Hellerup Ik | finished | -
+Biten mac yok.

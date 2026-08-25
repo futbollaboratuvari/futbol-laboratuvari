@@ -1,13 +1,12 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 122
-Tam analiz: 103
-Eksik analiz: 19
+Toplam analiz: 116
+Tam analiz: 98
+Eksik analiz: 18
 
-- Nb Bolrholm VS Hellerup Ik: eksik score, confidence
 - Horni Redice VS Dukla Prag: eksik score, confidence
-- Sokol Zapy VS Bohemians 1905: eksik score, confidence
+- Unicov VS Zlin: eksik score, confidence
 - Avarta VS Hillerod: eksik score, confidence
 - Saby VS Roskilde: eksik score, confidence
 - Oks VS Middelfart: eksik score, confidence
