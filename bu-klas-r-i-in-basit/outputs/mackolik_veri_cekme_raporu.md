@@ -1,6 +1,6 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T05:53:44.275385+00:00
+Tarih: 2026-08-25T06:22:34.406343+00:00
 
 ## Ozet
 
@@ -111,14 +111,15 @@ Tarih: 2026-08-25T05:53:44.275385+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) | (3) Celtic | 05782 | 5 |
 | 25.08.2026 | 19:45 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) | (2) Hapoel Beer She | 05169 | 5 |
 | 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Bodo Glimt (3) | (1) Nijmegen | 05591 | 5 |
+| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) | (3) Celtic | 05782 | 5 |
 | 25.08.2026 | 22:00 | İspanya LaLiga | Valencia | Real Betis | 15664 | 5 |
 | 25.08.2026 | 19:10 | Suudi Arabistan Pro Lig | Al Taawon | Al Feiha | 14387 | 5 |
 | 25.08.2026 | 19:05 | Suudi Arabistan Pro Lig | Abha | Al Khaleej | 02370 | 5 |
-| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Riyadh | 14863 | 5 |
 | 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Nassr (Riyad | 14803 | 5 |
+| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Riyadh | 14863 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Barnsley | Crewe | 12559 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Cambridge | Millwall | 12726 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Stevenage | Reading | 13147 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Plymouth | Coventry | 12941 | 5 |
@@ -126,11 +127,10 @@ Tarih: 2026-08-25T05:53:44.275385+00:00
 | 25.08.2026 | 21:00 | İngiltere Lig Kupası 2.Tur | Cardiff | Norwich | 12421 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Ipswich | Leicester | 12869 | 5 |
 | 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Birmingham | Brentford | 13407 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Stoke | Hull | 13201 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Fleetwood Town | Shrewsbury | 12780 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Sheffield Wed | Wolverhampton | 12995 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Barnsley | Crewe | 12559 | 5 |
 | 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Nottingham F | Leeds Utd | 13465 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Watford | Peterborough | 13353 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Stoke | Hull | 13201 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Blackburn | Sheffield Utd | 12613 | 5 |
 
 ## Sonuc
 

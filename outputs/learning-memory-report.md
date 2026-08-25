@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 08:55:55
+Oluşturma: 25.08.2026 09:22:46
 
 ## Özet
 
-- Toplam tahmin: 1093
-- Bekleyen tahmin: 792
+- Toplam tahmin: 1094
+- Bekleyen tahmin: 793
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 169
@@ -21,7 +21,7 @@ Oluşturma: 25.08.2026 08:55:55
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 28, bekleyen 18, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 90, bekleyen 63, başarı %85, ağırlık 1.12
+- 2.5 Alt: toplam 91, bekleyen 64, başarı %85, ağırlık 1.12
 - MS 1: toplam 140, bekleyen 105, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 310, bekleyen 198, başarı %30, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 25.08.2026 08:55:55
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 2 | pending | 38/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | East Fife - St. Mirren Ii | MS 1 | pending | 50/100
 - 2026-08-25 | Irak Premier Lig | Al Golan - Al Shorta | 2.5 Alt | pending | 64/100
@@ -43,5 +44,4 @@ Oluşturma: 25.08.2026 08:55:55
 - 2026-08-25 | Irak Premier Lig | Zakho - Diala | MS 1 | pending | 46/100
 - 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 39/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - Kilmarnock Ii | 2.5 Alt | pending | 64/100
-- 2026-08-25 | Paraguay Kupa 3.Tur | General Caball - Rubio Nu | 2.5 Alt | pending | 64/100
 
