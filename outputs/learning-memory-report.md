@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 06:13:22
+Oluşturma: 25.08.2026 06:17:19
 
 ## Özet
 
 - Toplam tahmin: 1086
-- Bekleyen tahmin: 792
-- Kazanan tahmin: 112
+- Bekleyen tahmin: 789
+- Kazanan tahmin: 115
 - Kaybeden tahmin: 181
 - Lig sayısı: 169
 - Seçenek sayısı: 6
@@ -20,7 +20,7 @@ Oluşturma: 25.08.2026 06:13:22
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 27, bekleyen 21, başarı %100, ağırlık 1.12
+- 2.5 Üst: toplam 27, bekleyen 18, başarı %100, ağırlık 1.12
 - 2.5 Alt: toplam 87, bekleyen 62, başarı %88, ağırlık 1.12
 - MS 1: toplam 139, bekleyen 105, başarı %41, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
@@ -29,9 +29,9 @@ Oluşturma: 25.08.2026 06:13:22
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-25 | Brezilya Serie B | Sport Recife - America Mineiro | 2.5 Üst | pending | 73/100
-- 2026-08-25 | Brezilya Serie B | Athletic Club - Novorizontino | 2.5 Üst | pending | 68/100
-- 2026-08-25 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Üst | pending | 70/100
+- 2026-08-25 | Brezilya Serie B | Sport Recife - America Mineiro | 2.5 Üst | won | 73/100
+- 2026-08-25 | Brezilya Serie B | Athletic Club - Novorizontino | 2.5 Üst | won | 68/100
+- 2026-08-25 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Üst | won | 70/100
 - 2026-08-25 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Chemnitzer | MS 1 | pending | 43/100
 - 2026-08-25 | Irak Premier Lig | Zakho - Diala | MS 1 | pending | 46/100
 - 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 40/100
