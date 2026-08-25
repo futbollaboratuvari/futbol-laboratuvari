@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:32:57.804Z",
+  "generated_at": "2026-08-25T17:46:12.599Z",
   "date": "2026-08-25",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -9,7 +9,7 @@
     "scored_match_count": 114,
     "active_item_count": 114,
     "coupon_candidate_count": 12,
-    "watch_candidate_count": 38
+    "watch_candidate_count": 37
   },
   "active_items": [
     {
@@ -11293,168 +11293,6 @@
         "Model gücü 53/100: Sadece izleme.",
         "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)",
         "Öğrenme etkisi: 53/100 → 63/100"
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
-      "id": "auto-45",
-      "date": "2026-08-25",
-      "time": "21:00",
-      "league": "İngiltere Premier Lig Kupası Grup F",
-      "title": "Sheffield Unit VS West Ham (B)",
-      "match": "Sheffield Unit VS West Ham (B)",
-      "market": "2.5 Alt",
-      "prediction": "2.5 Alt",
-      "decision": "İzleme",
-      "score": "62%",
-      "confidence": "62%",
-      "confidence_score": "62%",
-      "model_score": 62,
-      "score_type": "signal_strength",
-      "estimated_probability": 42.7,
-      "market_probability": 42.7,
-      "edge_percent": 0,
-      "data_completeness": 40,
-      "model_version": "pro13-market-conditioned-v1",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "scheduled",
-      "estimated_odds": "1.46",
-      "available_odds": {
-        "ms1": "2.20",
-        "msx": "3.52",
-        "ms2": "2.12",
-        "over25": "1.09",
-        "under25": "1.34",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 2.2,
-        "msx": 3.52,
-        "ms2": 2.12,
-        "under25": 1.34,
-        "over25": 1.09
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "21605",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.2,
-            "msx": 3.52,
-            "ms2": 2.12
-          }
-        },
-        {
-          "market_code": "21605",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.2,
-            "firstHalfX_guess": 3.52,
-            "firstHalf2_guess": 2.12
-          }
-        },
-        {
-          "market_code": "21605",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.2,
-            "secondHalfX_guess": 3.52,
-            "secondHalf2_guess": 2.12
-          }
-        },
-        {
-          "market_code": "21605",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.2,
-            "handicapX_guess": 3.52,
-            "handicap2_guess": 2.12
-          }
-        },
-        {
-          "market_code": "21606",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.34,
-            "msx": 1.09,
-            "ms2": 1.31
-          }
-        },
-        {
-          "market_code": "21606",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.34,
-            "firstHalfX_guess": 1.09,
-            "firstHalf2_guess": 1.31
-          }
-        },
-        {
-          "market_code": "21606",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.34,
-            "secondHalfX_guess": 1.09,
-            "secondHalf2_guess": 1.31
-          }
-        },
-        {
-          "market_code": "21606",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.34,
-            "handicapX_guess": 1.09,
-            "handicap2_guess": 1.31
-          }
-        }
-      ],
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "value_label": "Piyasa ile Uyumlu",
-      "commentary": "Market: 2.5 Alt | Oran: 1.46 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
-      "robot_comment": "Market: 2.5 Alt | Oran: 1.46 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
-      "pro_signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.46",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 324; ham isabet %49.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 52/100: Sadece izleme.",
-        "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)",
-        "Öğrenme etkisi: 52/100 → 62/100"
-      ],
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.46",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Birleşik tahmini olasılık %43.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 324; ham isabet %49.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 52/100: Sadece izleme.",
-        "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)",
-        "Öğrenme etkisi: 52/100 → 62/100"
       ],
       "source": "Robot ham veri havuzu"
     },
@@ -24585,6 +24423,168 @@
       "source": "Robot ham veri havuzu"
     },
     {
+      "id": "auto-45",
+      "date": "2026-08-25",
+      "time": "21:00",
+      "league": "İngiltere Premier Lig Kupası Grup F",
+      "title": "Sheffield Unit VS West Ham (B)",
+      "match": "Sheffield Unit VS West Ham (B)",
+      "market": "MS 2",
+      "prediction": "MS 2",
+      "decision": "Oynama",
+      "score": "38%",
+      "confidence": "38%",
+      "confidence_score": "38%",
+      "model_score": 38,
+      "score_type": "signal_strength",
+      "estimated_probability": 39,
+      "market_probability": 39,
+      "edge_percent": 0,
+      "data_completeness": 40,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "status": "scheduled",
+      "estimated_odds": "2.12",
+      "available_odds": {
+        "ms1": "2.20",
+        "msx": "3.52",
+        "ms2": "2.12",
+        "over25": "1.09",
+        "under25": "1.34",
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "-",
+        "bttsNo": "-",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.2,
+        "msx": 3.52,
+        "ms2": 2.12,
+        "under25": 1.34,
+        "over25": 1.09
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "21605",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.2,
+            "msx": 3.52,
+            "ms2": 2.12
+          }
+        },
+        {
+          "market_code": "21605",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.2,
+            "firstHalfX_guess": 3.52,
+            "firstHalf2_guess": 2.12
+          }
+        },
+        {
+          "market_code": "21605",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.2,
+            "secondHalfX_guess": 3.52,
+            "secondHalf2_guess": 2.12
+          }
+        },
+        {
+          "market_code": "21605",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.2,
+            "handicapX_guess": 3.52,
+            "handicap2_guess": 2.12
+          }
+        },
+        {
+          "market_code": "21606",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.34,
+            "msx": 1.09,
+            "ms2": 1.31
+          }
+        },
+        {
+          "market_code": "21606",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.34,
+            "firstHalfX_guess": 1.09,
+            "firstHalf2_guess": 1.31
+          }
+        },
+        {
+          "market_code": "21606",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.34,
+            "secondHalfX_guess": 1.09,
+            "secondHalf2_guess": 1.31
+          }
+        },
+        {
+          "market_code": "21606",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.34,
+            "handicapX_guess": 1.09,
+            "handicap2_guess": 1.31
+          }
+        }
+      ],
+      "expected_scores": [
+        "0-1",
+        "0-2",
+        "1-2"
+      ],
+      "value_label": "Piyasa ile Uyumlu",
+      "commentary": "Market: MS 2 | Oran: 2.12 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "robot_comment": "Market: MS 2 | Oran: 2.12 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "pro_signals": [
+        "Market: MS 2",
+        "Oran: 2.12",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %39.",
+        "Birleşik tahmini olasılık %39.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 324; ham isabet %33.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 49/100: Sadece izleme.",
+        "Öğrenme: MS 2 başarı hafızası %30 (-5)",
+        "Öğrenme etkisi: 49/100 → 38/100"
+      ],
+      "signals": [
+        "Market: MS 2",
+        "Oran: 2.12",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %39.",
+        "Birleşik tahmini olasılık %39.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 324; ham isabet %33.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 49/100: Sadece izleme.",
+        "Öğrenme: MS 2 başarı hafızası %30 (-5)",
+        "Öğrenme etkisi: 49/100 → 38/100"
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
       "id": "auto-59",
       "date": "2026-08-25",
       "time": "21:45",
@@ -35271,5 +35271,5 @@
     "İY/MS 2/X",
     "İY/MS 2/2"
   ],
-  "focused_market_note": "First half result, second half result and HT/FT markets are focus markets."
+  "focused_market_note": "Robot analiz çıktısı siteye bağlandı."
 }

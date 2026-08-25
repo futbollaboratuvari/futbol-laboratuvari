@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T17:32:42.753Z",
+  "generated_at": "2026-08-25T17:46:03.807Z",
   "date": "2026-08-25",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -9,7 +9,7 @@
   "source": "robot-analysis.json compact verified projection",
   "summary": {
     "match_count": 114,
-    "pro_ready_count": 42,
+    "pro_ready_count": 41,
     "coupon_candidate_count": 12,
     "average_data_completeness": 35
   },
@@ -2205,11 +2205,11 @@
       "away": "West Ham (B)",
       "match_code": "21605",
       "status": "scheduled",
-      "recommended_market": "2.5 Alt",
-      "model_score": 62,
+      "recommended_market": "MS 2",
+      "model_score": 38,
       "score_type": "signal_strength",
-      "estimated_probability": 42.7,
-      "market_probability": 42.7,
+      "estimated_probability": 39,
+      "market_probability": 39,
       "edge_percent": 0,
       "data_completeness": 40,
       "data_quality": "Sınırlı",
@@ -2218,13 +2218,13 @@
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 1.46,
+      "recommended_odd": 2.12,
       "include_in_coupon": false,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        "0-1",
+        "0-2",
+        "1-2"
       ],
       "metrics": {
         "homeScoredLast10": 5,
@@ -2234,12 +2234,12 @@
         "leagueGoalAverage": 2.84
       },
       "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.46",
+        "Market: MS 2",
+        "Oran: 2.12",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %43.",
-        "Birleşik tahmini olasılık %43.",
+        "Marjı temizlenmiş piyasa olasılığı %39.",
+        "Birleşik tahmini olasılık %39.",
         "Model-piyasa farkı +0.0 puan."
       ],
       "model_version": "pro13-market-conditioned-v1",
