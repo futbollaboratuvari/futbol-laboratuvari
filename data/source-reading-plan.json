@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T06:29:31.415Z",
+  "generated_at": "2026-08-25T07:31:26.776Z",
   "date": "2026-08-25",
   "source_count": 8,
-  "match_count": 134,
+  "match_count": 135,
   "policy": "Only allowed public data, API, RSS or manual import. No login bypass.",
   "plans": [
     {
@@ -4344,8 +4344,8 @@
       "match_name": "Watford VS Peterborough",
       "league": "İngiltere Lig Kupası 2.Tur",
       "start_time": "21:45",
-      "recommended_market": "MS 1",
-      "data_gap_risk": "Yüksek",
+      "recommended_market": "2.5 Alt",
+      "data_gap_risk": "Orta",
       "source_plan": [
         {
           "name": "Mackolik",
@@ -5313,7 +5313,7 @@
       "match_name": "Cumbernauld Co VS Kilmarnock Ii",
       "league": "İskoçya Challenge Kupası Lig Aşaması",
       "start_time": "21:45",
-      "recommended_market": "2.5 Alt",
+      "recommended_market": "MS 2",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
@@ -5875,6 +5875,57 @@
       "league": "İngiltere Non League Premier Kuzey",
       "start_time": "21:45",
       "recommended_market": "2.5 Üst",
+      "data_gap_risk": "Yüksek",
+      "source_plan": [
+        {
+          "name": "Mackolik",
+          "url": "https://www.mackolik.com/",
+          "priority": 1,
+          "use_for": [
+            "mac_listesi",
+            "oran",
+            "skor",
+            "program",
+            "istatistik"
+          ],
+          "status": "active_existing_source"
+        },
+        {
+          "name": "NTV Spor",
+          "url": "https://www.ntvspor.net/",
+          "priority": 2,
+          "use_for": [
+            "haber",
+            "yorum",
+            "analiz",
+            "guncel_gelisme"
+          ],
+          "status": "planned_source"
+        },
+        {
+          "name": "Sporx",
+          "url": "https://www.sporx.com/",
+          "priority": 3,
+          "use_for": [
+            "haber",
+            "mac_merkezi",
+            "takim_gundemi"
+          ],
+          "status": "planned_source"
+        }
+      ],
+      "reading_tasks": [
+        "mac_programi_ve_skor_kontrolu",
+        "takim_gundemi_kontrolu",
+        "mac_onu_yorum_kontrolu",
+        "risk_haberi_kontrolu"
+      ]
+    },
+    {
+      "match_name": "Kelty Hearts VS Clydebank Fc",
+      "league": "İskoçya Challenge Kupası Lig Aşaması",
+      "start_time": "21:45",
+      "recommended_market": "2.5 Alt",
       "data_gap_risk": "Yüksek",
       "source_plan": [
         {
