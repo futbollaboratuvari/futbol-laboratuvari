@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T21:57:37.462Z",
+  "generated_at": "2026-08-25T22:01:51.919Z",
   "date": "2026-08-26",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik İddaa Futbol",
@@ -7,17 +7,17 @@
   "status": "active",
   "message": "Başlayan karşılaşmalar canlı listede.",
   "counts": {
-    "total": 171,
-    "current_window": 171,
-    "live": 3,
-    "scheduled": 26,
-    "finished": 142,
+    "total": 29,
+    "current_window": 29,
+    "live": 1,
+    "scheduled": 28,
+    "finished": 0,
     "active_analysis": 29,
     "completed_analysis": 250,
     "coupon_candidates": 6,
     "watch_candidates": 13,
     "focused_markets": 16,
-    "wide_market_odds": 974
+    "wide_market_odds": 404
   },
   "next_match": {
     "date": "2026-08-27",
@@ -209,7 +209,7 @@
       ],
       "commentary": "High Value Coupon Engine; net eşik kurallarıyla 100 puan üzerinden analiz yapar.",
       "source": "high_value_coupon_engine",
-      "created_at": "2026-08-25T21:57:32.041Z"
+      "created_at": "2026-08-25T22:01:43.673Z"
     }
   ],
   "completed_items": [
@@ -7007,7 +7007,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 3.17,
+        "msx": 2.74,
+        "ms2": 1.88,
+        "under25": 1.37,
+        "over25": 2.09
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -7034,16 +7040,18 @@
       "robot_reason": "Market: 2.5 Alt | Oran: 1.37 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
       "include_in_coupon": false,
       "raw_market_value_count": 5
-    },
+    }
+  ],
+  "scheduled_matches": [
     {
       "date": "2026-08-26",
       "time": "23:00",
       "league": "Venezuela Kupa 1.Tur Grup C",
       "home": "Aragua",
       "away": "Yaracuyanos",
-      "status": "live",
-      "liveStatus": "live",
-      "minute": 83,
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "00628",
@@ -7117,9 +7125,9 @@
       "league": "Venezuela Kupa 1.Tur Grup D",
       "home": "Trujillanos",
       "away": "Deportivo Lara",
-      "status": "live",
-      "liveStatus": "live",
-      "minute": 83,
+      "status": "scheduled",
+      "liveStatus": "scheduled",
+      "minute": null,
       "score": "",
       "source": "Maçkolik canlı robot",
       "matchCode": "02932",
@@ -7194,9 +7202,7 @@
       "robot_reason": "Market: 2.5 Alt | Oran: 1.47 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
       "include_in_coupon": false,
       "raw_market_value_count": 8
-    }
-  ],
-  "scheduled_matches": [
+    },
     {
       "date": "2026-08-27",
       "time": "00:00",
@@ -8798,7 +8804,13 @@
         "secondHalfBttsYes": "-",
         "secondHalfBttsNo": "-"
       },
-      "raw_market_guess_odds": {},
+      "raw_market_guess_odds": {
+        "ms1": 1.3,
+        "msx": 3.58,
+        "ms2": 6.34,
+        "under25": 1.57,
+        "over25": 1.74
+      },
       "raw_odds_sequence": [],
       "market_odds_inventory": [
         "ms1",
@@ -8824,7 +8836,7 @@
       "decision": "İzleme",
       "robot_reason": "Market: MS 1 | Oran: 1.30 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
       "include_in_coupon": false,
-      "raw_market_value_count": 5
+      "raw_market_value_count": 6
     },
     {
       "date": "2026-08-27",
