@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 21:56:58
+Oluşturma: 25.08.2026 21:59:53
 
 ## Özet
 
-- Toplam tahmin: 1125
+- Toplam tahmin: 1127
 - Bekleyen tahmin: 821
-- Kazanan tahmin: 118
-- Kaybeden tahmin: 185
+- Kazanan tahmin: 119
+- Kaybeden tahmin: 186
 - Lig sayısı: 171
 - Seçenek sayısı: 6
 
@@ -20,8 +20,8 @@ Oluşturma: 25.08.2026 21:56:58
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 33, bekleyen 22, başarı %91, ağırlık 1.12
-- 2.5 Alt: toplam 106, bekleyen 78, başarı %86, ağırlık 1.12
+- 2.5 Alt: toplam 107, bekleyen 78, başarı %86, ağırlık 1.12
+- 2.5 Üst: toplam 34, bekleyen 22, başarı %83, ağırlık 1.12
 - MS 1: toplam 145, bekleyen 109, başarı %39, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 316, bekleyen 204, başarı %30, ağırlık 0.88
@@ -29,9 +29,11 @@ Oluşturma: 25.08.2026 21:56:58
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-25 | Suudi Arabistan Pro Lig | Al Taawon - Al Feiha | 2.5 Alt | pending | 69/100
+- 2026-08-25 | İngiltere Lig Kupası 2.Tur | Birmingham - Brentford | 2.5 Üst | pending | 79/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | 2.5 Alt | pending | 62/100
+- 2026-08-25 | Suudi Arabistan Pro Lig | Al Taawon - Al Feiha | 2.5 Alt | won | 69/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Fraserburgh - Aberdeen Ii | MS 2 | pending | 38/100
-- 2026-08-25 | Suudi Arabistan Pro Lig | Al Taawon - Al Feiha | 2.5 Üst | pending | 68/100
+- 2026-08-25 | Suudi Arabistan Pro Lig | Al Taawon - Al Feiha | 2.5 Üst | lost | 68/100
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Doncaster - Middlesbrough | MS 2 | pending | 50/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Forfar - Formartine Unit | 2.5 Üst | pending | 64/100
 - 2026-08-25 | Tanzanya Kuu Bara Ligi | Dodoma Jiji - Polisi Morogoro | 2.5 Alt | pending | 64/100
@@ -42,6 +44,4 @@ Oluşturma: 25.08.2026 21:56:58
 - 2026-08-25 | Suudi Arabistan Pro Lig | Abha - Al Khaleej | 2.5 Alt | won | 68/100
 - 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Sokol Zapy - Bohemians 1905 | MS 2 | pending | 50/100
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Southam - West Ham | MS 2 | pending | 38/100
-- 2026-08-25 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) - (2) Hapoel Beer She | MS 1 | pending | 43/100
-- 2026-08-25 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | 2.5 Üst | pending | 64/100
 

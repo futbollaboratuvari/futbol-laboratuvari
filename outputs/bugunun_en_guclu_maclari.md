@@ -4,18 +4,13 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-25T18:56:41.607Z
+- Güncelleme: 2026-08-25T18:59:48.054Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Al Taawon VS Al Feiha | Suudi Arabistan Pro Lig | 19:10 | 2.5 Alt | 1.68 | 64 | Sadece izleme | Değerli | Orta | Orta | live |
-| Fuglebakken Kf VS Vendsyssel | Danimarka DBU Kupası 2.Tur | 19:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Bronshoj VS Ab Gladsaxe | Danimarka DBU Kupası 2.Tur | 19:30 | MS 2 | 1.46 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Portimonense U VS Farense U23 | Portekiz U23 Ulusal Şampiyona | 19:30 | 2.5 Alt | 1.63 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Sabah (1) VS (2) Hapoel Beer She | UEFA Şampiyonlar Ligi Play Off | 19:45 | MS 1 | 1.70 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Orebro VS Varbergs | İsveç Superettan | 20:00 | 2.5 Alt | 1.78 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Oster VS Sundsvall | İsveç Superettan | 20:00 | MS 1 | 1.40 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Skive VS Esbjerg | Danimarka DBU Kupası 2.Tur | 20:00 | MS 2 | 1.44 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
@@ -81,23 +76,24 @@
 | Alfreton VS Hyde | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Kelty Hearts VS Clydebank Fc | İskoçya Challenge Kupası Lig Aşaması | 21:45 | 2.5 Alt | 1.87 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Workington VS Rylands | İngiltere Non League Premier Kuzey | 21:45 | 2.5 Alt | 1.64 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Lask Linz (0) VS (3) Celtic | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 1 | 1.77 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Bodo Glimt (3) VS (1) Nijmegen | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 1 | 1.35 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Lask Linz (0) VS (3) Celtic | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 1 | 1.69 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Bodo Glimt (3) VS (1) Nijmegen | UEFA Şampiyonlar Ligi Play Off | 22:00 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Valencia VS Real Betis | İspanya LaLiga | 22:00 | 2.5 Alt | 1.53 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Birmingham VS Brentford | İngiltere Lig Kupası 2.Tur | 22:00 | MS 2 | 1.65 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Birmingham VS Brentford | İngiltere Lig Kupası 2.Tur | 22:00 | 2.5 Üst | 1.59 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Nottingham F VS Leeds Utd | İngiltere Lig Kupası 2.Tur | 22:00 | 2.5 Alt | 1.64 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
-| Gualberto Vill VS Oriente Petrole | Bolivya Premier Lig | 22:00 | MS 1 | 1.72 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Gualberto Vill VS Oriente Petrole | Bolivya Premier Lig | 22:00 | MS 1 | 1.71 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | General Caball VS Rubio Nu | Paraguay Kupa 3.Tur | 22:00 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Sporting Cp U2 VS Benfica U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Üst | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sporting Cp U2 VS Benfica U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Üst | 1.63 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Kelty Hearts VS Clydebank Fc | İskoçya Challenge Kupası Lig Aşaması | 22:00 | 2.5 Alt | 1.94 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Afturelding VS Grotta | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Sol De America VS Sportivo Trinid | Paraguay Kupa 3.Tur | 00:30 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Deportivo Madr VS Godoy Cruz | Arjantin Ulusal Primera Lig | 01:00 | MS 1 | 1.87 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Atletico Goian VS Botafogo Ribeir | Brezilya Serie B | 01:30 | MS 1 | 1.91 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Juventude VS Regatas | Brezilya Serie B | 01:30 | MS 1 | 1.93 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Juventude VS Regatas | Brezilya Serie B | 01:30 | 2.5 Alt | 1.42 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Universitario VS Nacional Potosi | Bolivya Premier Lig | 02:00 | MS 1 | 1.85 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cruzeiro VS Atletico Mg | Brezilya Kupa Çeyrek Final | 03:00 | 2.5 Alt | 1.40 | 58 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Monterrey VS Chicago | CONCACAF Ligler Kupası Çeyrek Final | 03:30 | MS 2 | 2.02 | 42 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Indep. Jose Te (1) VS (0) Deportes Tolima | Copa Libertadores Son 16 Turu | 03:30 | MS 1 | 1.38 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Indep. Jose Te (1) VS (0) Deportes Tolima | Copa Libertadores Son 16 Turu | 03:30 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Depor Cucuta VS Alianza Petrole | Kolombiya Primera A Clausura | 04:00 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Club Leon VS Salt Lake | CONCACAF Ligler Kupası Çeyrek Final | 05:30 | 2.5 Alt | 1.89 | 45 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cs Cartagines VS Deportivo Fas | CONCACAF Orta Amerika Kupası Grup D | 05:30 | 2.5 Alt | 1.50 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -107,6 +103,7 @@
 | Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Blackpool VS Lincoln | 2.5 Üst | 1.59 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta |
+| Birmingham VS Brentford | 2.5 Üst | 1.59 | 67 | Orta risk kupon adayı | Değerli | Orta | Orta |
 | Nottingham F VS Leeds Utd | 2.5 Alt | 1.64 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta |
 | Walsall VS Leyton Orient | 2.5 Alt | 1.71 | 65 | Orta risk kupon adayı | Değerli | Orta | Orta |
 | Stevenage VS Reading | 2.5 Alt | 1.47 | 65 | Orta risk kupon adayı | Piyasa ile Uyumlu | Orta | Orta |
