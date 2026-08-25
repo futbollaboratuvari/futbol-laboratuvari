@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T03:18:56.700Z",
+  "generated_at": "2026-08-25T04:06:11.303Z",
   "totals": {
-    "predictions": 1086,
-    "finished": 299,
+    "predictions": 1088,
+    "finished": 301,
     "pending": 787
   },
   "learning_output_status": "ready",
@@ -11,24 +11,33 @@
     "strong": [
       {
         "name": "2.5 Üst",
-        "won": 9,
+        "won": 10,
         "lost": 0,
-        "total": 9,
+        "total": 10,
         "success_rate": 100,
         "weight": 1.12,
         "ready": true
       },
       {
         "name": "2.5 Alt",
-        "won": 22,
-        "lost": 3,
-        "total": 25,
-        "success_rate": 88,
+        "won": 23,
+        "lost": 4,
+        "total": 27,
+        "success_rate": 85,
         "weight": 1.12,
         "ready": true
       }
     ],
     "weak": [
+      {
+        "name": "MS 1",
+        "won": 14,
+        "lost": 21,
+        "total": 35,
+        "success_rate": 40,
+        "weight": 0.88,
+        "ready": true
+      },
       {
         "name": "MS X",
         "won": 36,

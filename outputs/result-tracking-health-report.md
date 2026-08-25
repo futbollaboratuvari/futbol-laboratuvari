@@ -4,11 +4,11 @@ Durum: ok
 Aktif bulten maci: 124
 Arsiv maci: 9012
 Biten mac: 8888
-Skorlu arsiv maci: 323
-Tahmin sayisi: 1086
-Bekleyen tahmin: 789
-Skor baglanan tahmin: 299
-Son kontrol: 789
-Son baglanan: 2
+Skorlu arsiv maci: 324
+Tahmin sayisi: 1088
+Bekleyen tahmin: 787
+Skor baglanan tahmin: 301
+Son kontrol: 787
+Son baglanan: 0
 
 Sonraki aksiyon: Tahmin olcum asamasina gecilebilir.

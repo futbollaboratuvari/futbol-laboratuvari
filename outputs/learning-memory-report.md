@@ -1,12 +1,12 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 07:01:46
+Oluşturma: 25.08.2026 07:06:05
 
 ## Özet
 
 - Toplam tahmin: 1088
-- Bekleyen tahmin: 789
-- Kazanan tahmin: 115
+- Bekleyen tahmin: 787
+- Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 169
 - Seçenek sayısı: 6
@@ -20,8 +20,8 @@ Oluşturma: 25.08.2026 07:01:46
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 28, bekleyen 19, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 87, bekleyen 61, başarı %85, ağırlık 1.12
+- 2.5 Üst: toplam 28, bekleyen 18, başarı %100, ağırlık 1.12
+- 2.5 Alt: toplam 87, bekleyen 60, başarı %85, ağırlık 1.12
 - MS 1: toplam 139, bekleyen 104, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 309, bekleyen 197, başarı %30, ağırlık 0.88
@@ -29,7 +29,7 @@ Oluşturma: 25.08.2026 07:01:46
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-25 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Üst | pending | 72/100
+- 2026-08-25 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Üst | won | 72/100
 - 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Fk Varnsdorf - Usti Nad Labem | MS 2 | pending | 50/100
 - 2026-08-25 | Brezilya Serie B | Sport Recife - America Mineiro | 2.5 Üst | won | 79/100
 - 2026-08-25 | Brezilya Serie B | Athletic Club - Novorizontino | 2.5 Üst | won | 74/100
