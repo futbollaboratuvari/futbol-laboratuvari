@@ -37,12 +37,25 @@ assert.strictEqual(status.combineRisk('Belirsiz', 'Yüksek'), 'Belirsiz');
 assert.strictEqual(apply.worstRisk('Düşük', 'Yüksek'), 'Yüksek');
 assert.strictEqual(apply.worstRisk('Düşük', 'Belirsiz'), 'Orta');
 
+const bands = { very_short: 1.3, short: 1.7, long: 3, min_score_very_short: 80, min_score_short: 70 };
 const unknownBand = band.labelFor(
   { band_extra: { squad_risk_level: 'Belirsiz', squad_verified_team_count: 1 } },
-  { very_short: 1.3, short: 1.7, long: 3, min_score_very_short: 80, min_score_short: 70 }
+  bands
 );
 assert.notStrictEqual(unknownBand.level, 'Düşük');
 assert(unknownBand.notes.some((note) => note.includes('doğrulanamadı')));
+
+const missingBand = band.labelFor({ band_extra: {} }, bands);
+assert.notStrictEqual(missingBand.level, 'Düşük');
+assert(missingBand.notes.some((note) => note.includes('doğrulanamadı')));
+
+const mergedWithoutStatus = band.mergeSignals(
+  { match_name: 'Missing Status FC VS No Data FC' },
+  { status: {}, lineup: {}, homeAway: {}, standing: {}, league: {} }
+);
+assert.strictEqual(mergedWithoutStatus.band_extra.squad_risk_level, 'Belirsiz');
+assert.strictEqual(mergedWithoutStatus.band_extra.squad_verified_team_count, 0);
+assert.notStrictEqual(band.labelFor(mergedWithoutStatus, bands).level, 'Düşük');
 
 assert.strictEqual(news.isFresh({ checked_at: new Date().toISOString() }), true);
 assert.strictEqual(news.isFresh({ checked_at: '2020-01-01T00:00:00.000Z' }), false);
