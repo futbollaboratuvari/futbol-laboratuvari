@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 01:51:10
+Oluşturma: 26.08.2026 01:58:58
 
 ## Özet
 
 - Toplam tahmin: 1265
-- Bekleyen tahmin: 915
-- Kazanan tahmin: 141
-- Kaybeden tahmin: 208
+- Bekleyen tahmin: 906
+- Kazanan tahmin: 147
+- Kaybeden tahmin: 211
 - Lig sayısı: 197
 - Seçenek sayısı: 6
 
@@ -20,10 +20,10 @@ Oluşturma: 26.08.2026 01:51:10
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 46, bekleyen 30, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 154, bekleyen 110, başarı %75, ağırlık 1.12
-- MS 1: toplam 203, bekleyen 153, başarı %34, ağırlık 0.88
-- MS 2: toplam 337, bekleyen 214, başarı %33, ağırlık 0.88
+- 2.5 Üst: toplam 46, bekleyen 29, başarı %88, ağırlık 1.12
+- 2.5 Alt: toplam 154, bekleyen 104, başarı %72, ağırlık 1.12
+- MS 1: toplam 203, bekleyen 152, başarı %35, ağırlık 0.88
+- MS 2: toplam 337, bekleyen 213, başarı %34, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
@@ -32,16 +32,16 @@ Oluşturma: 26.08.2026 01:51:10
 - 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | 2.5 Alt | pending | 62/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | 2.5 Üst | pending | 64/100
-- 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | MS 2 | pending | 40/100
+- 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | MS 2 | pending | 41/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Alt | pending | 75/100
 - 2026-08-26 | Norveç 1.Lig | Moss - Sogndal | MS 1 | pending | 40/100
-- 2026-08-26 | Norveç 1.Lig | Odds Bk - Kongsvinger | MS 2 | pending | 38/100
-- 2026-08-26 | Norveç 1.Lig | Asane - Lyn Oslo | MS 2 | pending | 40/100
-- 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | MS 2 | pending | 40/100
+- 2026-08-26 | Norveç 1.Lig | Odds Bk - Kongsvinger | MS 2 | pending | 39/100
+- 2026-08-26 | Norveç 1.Lig | Asane - Lyn Oslo | MS 2 | pending | 41/100
+- 2026-08-26 | Almanya Bölgesel Lig Kuzey | Jeddeloh - Hannover 96 (Am | MS 2 | pending | 41/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Lübeck - Hamburger Sv (A | MS 1 | pending | 43/100
 - 2026-08-26 | Gürcistan David Kipiani Kupası Çeyrek Final | Torpedo Kutais - Dinamo Batumi | MS 1 | pending | 36/100
 - 2026-08-26 | Güney Afrika PSL | Golden Arrows - Stellenbosch Fc | MS 1 | pending | 36/100
-- 2026-08-26 | Güney Afrika PSL | Richards Bay - Kaizer Chiefs | MS 2 | pending | 41/100
+- 2026-08-26 | Güney Afrika PSL | Richards Bay - Kaizer Chiefs | MS 2 | pending | 42/100
 - 2026-08-26 | Güney Afrika PSL | Polokwane City - Milford | MS 1 | pending | 41/100
 - 2026-08-26 | Güney Afrika PSL | Mamelodi Sundo - Amazulu | 2.5 Alt | pending | 64/100
 
