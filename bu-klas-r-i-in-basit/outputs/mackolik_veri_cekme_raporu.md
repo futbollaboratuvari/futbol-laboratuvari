@@ -1,26 +1,32 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T06:22:34.406343+00:00
+Tarih: 2026-08-25T06:45:47.443095+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 115
+- Kac mac bulundu: 124
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 115
+- Kac mac zaten vardi: 124
 - Ham veri havuzu toplam mac sayisi: 9057
 - Hedef tarih: 25.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Almanya Bölgesel Lig Kuzey Doğu
+- Arjantin Ulusal Primera Lig
 - Avustralya FFA Kupası Çeyrek Final
 - Bolivya Premier Lig
+- Brezilya Kupa Çeyrek Final
+- Brezilya Serie B
+- CONCACAF Ligler Kupası Çeyrek Final
+- Copa Libertadores Son 16 Turu
 - Danimarka DBU Kupası 2.Tur
 - Güney Afrika PSL
 - Güney Kore K Lig 1
 - Irak Premier Lig
+- Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
@@ -111,15 +117,14 @@ Tarih: 2026-08-25T06:22:34.406343+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) | (3) Celtic | 05782 | 5 |
 | 25.08.2026 | 19:45 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) | (2) Hapoel Beer She | 05169 | 5 |
 | 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Bodo Glimt (3) | (1) Nijmegen | 05591 | 5 |
-| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) | (3) Celtic | 05782 | 5 |
 | 25.08.2026 | 22:00 | İspanya LaLiga | Valencia | Real Betis | 15664 | 5 |
 | 25.08.2026 | 19:10 | Suudi Arabistan Pro Lig | Al Taawon | Al Feiha | 14387 | 5 |
 | 25.08.2026 | 19:05 | Suudi Arabistan Pro Lig | Abha | Al Khaleej | 02370 | 5 |
-| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Nassr (Riyad | 14803 | 5 |
 | 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Riyadh | 14863 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Barnsley | Crewe | 12559 | 5 |
+| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Nassr (Riyad | 14803 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Cambridge | Millwall | 12726 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Stevenage | Reading | 13147 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Plymouth | Coventry | 12941 | 5 |
@@ -127,10 +132,11 @@ Tarih: 2026-08-25T06:22:34.406343+00:00
 | 25.08.2026 | 21:00 | İngiltere Lig Kupası 2.Tur | Cardiff | Norwich | 12421 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Ipswich | Leicester | 12869 | 5 |
 | 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Birmingham | Brentford | 13407 | 5 |
-| 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Nottingham F | Leeds Utd | 13465 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Watford | Peterborough | 13353 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Stoke | Hull | 13201 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Blackburn | Sheffield Utd | 12613 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Fleetwood Town | Shrewsbury | 12780 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Sheffield Wed | Wolverhampton | 12995 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Barnsley | Crewe | 12559 | 5 |
+| 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Nottingham F | Leeds Utd | 13465 | 5 |
 
 ## Sonuc
 
