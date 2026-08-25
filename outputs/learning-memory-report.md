@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 12:13:05
+Oluşturma: 25.08.2026 12:49:47
 
 ## Özet
 
-- Toplam tahmin: 1101
-- Bekleyen tahmin: 800
+- Toplam tahmin: 1103
+- Bekleyen tahmin: 802
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 170
@@ -21,14 +21,16 @@ Oluşturma: 25.08.2026 12:13:05
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 29, bekleyen 19, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 96, bekleyen 69, başarı %85, ağırlık 1.12
-- MS 1: toplam 141, bekleyen 106, başarı %40, ağırlık 0.88
+- 2.5 Alt: toplam 97, bekleyen 70, başarı %85, ağırlık 1.12
+- MS 1: toplam 142, bekleyen 107, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 310, bekleyen 198, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | Irak Premier Lig | Al Zawraa - Naft Maysan | MS 1 | pending | 46/100
+- 2026-08-25 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | 2.5 Alt | pending | 62/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Üst | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Rangers Ii | 2.5 Alt | pending | 63/100
 - 2026-08-25 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | MS 1 | pending | 47/100
@@ -42,6 +44,4 @@ Oluşturma: 25.08.2026 12:13:05
 - 2026-08-25 | Irak Premier Lig | Al Golan - Al Shorta | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İsveç Superettan | Orebro - Varbergs | 2.5 Alt | pending | 63/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Estrela U23 | 2.5 Alt | pending | 64/100
-- 2026-08-25 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Üst | won | 66/100
-- 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Fk Varnsdorf - Usti Nad Labem | MS 2 | pending | 49/100
 

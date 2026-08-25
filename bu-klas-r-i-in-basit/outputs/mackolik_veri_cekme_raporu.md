@@ -1,33 +1,26 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T09:10:18.101489+00:00
+Tarih: 2026-08-25T09:49:36.112800+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 126
-- Kac mac kaydedildi: 1
-- Kac mac zaten vardi: 125
+- Kac mac bulundu: 115
+- Kac mac kaydedildi: 0
+- Kac mac zaten vardi: 115
 - Ham veri havuzu toplam mac sayisi: 9060
 - Hedef tarih: 25.08.2026 Europe/Istanbul
 
 ## Ligler
 
 - Almanya Bölgesel Lig Kuzey Doğu
-- Arjantin Ulusal Primera Lig
-- Avustralya FFA Kupası Çeyrek Final
 - Bolivya Premier Lig
-- Brezilya Kupa Çeyrek Final
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Çeyrek Final
-- Copa Libertadores Son 16 Turu
 - Danimarka DBU Kupası 2.Tur
 - Güney Afrika PSL
 - Güney Kore K Lig 1
 - Irak Premier Lig
 - Kazakistan Premier Lig
-- Kolombiya Primera A Clausura
 - Kuveyt Premier Lig
 - Letonya Virsliga
 - Litvanya 1.Lig
@@ -104,8 +97,8 @@ Tarih: 2026-08-25T09:10:18.101489+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 36
-- Acilan detay: 36
+- Denenen Tumu alani: 35
+- Acilan detay: 35
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -118,26 +111,26 @@ Tarih: 2026-08-25T09:10:18.101489+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) | (3) Celtic | 05782 | 5 |
 | 25.08.2026 | 19:45 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) | (2) Hapoel Beer She | 05169 | 5 |
 | 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Bodo Glimt (3) | (1) Nijmegen | 05591 | 5 |
+| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) | (3) Celtic | 05782 | 5 |
 | 25.08.2026 | 22:00 | İspanya LaLiga | Valencia | Real Betis | 15664 | 5 |
+| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Riyadh | 14863 | 5 |
 | 25.08.2026 | 19:10 | Suudi Arabistan Pro Lig | Al Taawon | Al Feiha | 14387 | 5 |
 | 25.08.2026 | 19:05 | Suudi Arabistan Pro Lig | Abha | Al Khaleej | 02370 | 5 |
 | 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Nassr (Riyad | 14803 | 5 |
-| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Riyadh | 14863 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Walsall | Leyton Orient | 13299 | 5 |
+| 25.08.2026 | 21:30 | İngiltere Lig Kupası 2.Tur | Doncaster | Middlesbrough | 12488 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Blackburn | Sheffield Utd | 12613 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Blackpool | Lincoln | 12672 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Fleetwood Town | Shrewsbury | 12780 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Walsall | Leyton Orient | 13299 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Sheffield Wed | Wolverhampton | 12995 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Southam | West Ham | 13063 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Watford | Peterborough | 13353 | 5 |
 | 25.08.2026 | 21:00 | İngiltere Lig Kupası 2.Tur | Cardiff | Norwich | 12421 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Cambridge | Millwall | 12726 | 5 |
 | 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Nottingham F | Leeds Utd | 13465 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Barnsley | Crewe | 12559 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Ipswich | Leicester | 12869 | 5 |
-| 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Birmingham | Brentford | 13407 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Cambridge | Millwall | 12726 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Stevenage | Reading | 13147 | 5 |
-| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Plymouth | Coventry | 12941 | 5 |
 
 ## Sonuc
 
