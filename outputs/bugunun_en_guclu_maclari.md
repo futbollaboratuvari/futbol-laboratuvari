@@ -2,7 +2,7 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-25T05:09:54.724Z
+- Güncelleme: 2026-08-25T05:39:49.934Z
 - Ham maç sayısı: 124
 - Yarın bülteni maç sayısı: 9
 - Detay blok sayısı: 314
@@ -17,8 +17,8 @@
 | Gimcheon Sangm - Jeonbuk Hm | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.91 | 8 |
 | Jeju Utd - Pohang Steelers | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.15 | 8 |
 | Fc Seoul - Bucheon | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.3 | 7 |
-| Swansea (B) - Peterborough Un | İngiltere Professional Development Lig | 14:00 | Veri bekleniyor | - | 1.6 | 6 |
-| Wigan Athletic - Cardiff City U2 | İngiltere Professional Development Lig | 15:00 | Veri bekleniyor | - | 1.68 | 6 |
+| Swansea (B) - Peterborough Un | İngiltere Professional Development Lig | 14:00 | Veri bekleniyor | - | 1.58 | 6 |
+| Wigan Athletic - Cardiff City U2 | İngiltere Professional Development Lig | 15:00 | Veri bekleniyor | - | 1.72 | 6 |
 | Coventry City - Fleetwood Town | İngiltere Professional Development Lig | 15:00 | Veri bekleniyor | - | 1.43 | 6 |
 | Millwall U21 - Huddersfield To | İngiltere Professional Development Lig | 15:00 | Veri bekleniyor | - | 1.85 | 6 |
 | Bolton U21 - Colchester Unit | İngiltere Professional Development Lig | 15:30 | Veri bekleniyor | - | 1.84 | 6 |
