@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 116
-Tam analiz: 98
+Toplam analiz: 114
+Tam analiz: 96
 Eksik analiz: 18
 
 - Horni Redice VS Dukla Prag: eksik score, confidence
