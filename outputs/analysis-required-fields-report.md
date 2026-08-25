@@ -1,9 +1,9 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 125
-Tam analiz: 105
-Eksik analiz: 20
+Toplam analiz: 127
+Tam analiz: 106
+Eksik analiz: 21
 
 - Queensland Lio VS North Sunshine: eksik score, confidence
 - Nb Bolrholm VS Hellerup Ik: eksik score, confidence
@@ -23,5 +23,5 @@ Eksik analiz: 20
 - Spartans VS Hearts Ii: eksik score, confidence
 - Stranraer VS Gala Fairydean: eksik score, confidence
 - Peterhead VS Dundee Ii: eksik score, confidence
+- East Fife VS St. Mirren Ii: eksik score, confidence
 - Ross County VS Banks O Dee: eksik score, confidence
-- Afturelding VS Grotta: eksik score, confidence
