@@ -2,22 +2,15 @@
 
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
-Ham mac: 114
-Aktif mac: 74
-Canli mac: 40
-Biten mac: 0
-Bultenden dusurulen mac: 40
-Bugun: 62
+Ham mac: 140
+Aktif mac: 67
+Canli mac: 33
+Biten mac: 40
+Bultenden dusurulen mac: 73
+Bugun: 55
 Yarin: 12
 
 ## Baslamamis Maclar
-- 2026-08-25 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al Riyadh | scheduled | -
-- 2026-08-25 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Nassr (Riyad | scheduled | -
-- 2026-08-25 21:00 | İngiltere Lig Kupası 2.Tur | Cardiff - Norwich | scheduled | -
-- 2026-08-25 21:00 | İngiltere EFL Trophy Güney Grup C | Bristol Rovers - Chelsea (B) | scheduled | -
-- 2026-08-25 21:00 | İngiltere Premier Lig Kupası Grup F | Sheffield Unit - West Ham (B) | scheduled | -
-- 2026-08-25 21:00 | Kuveyt Premier Lig | Al Fahaheel - Al Qadsia | scheduled | -
-- 2026-08-25 21:00 | Irak Premier Lig | Al Zawraa - Naft Maysan | scheduled | -
 - 2026-08-25 21:30 | İngiltere Lig Kupası 2.Tur | Doncaster - Middlesbrough | scheduled | -
 - 2026-08-25 21:45 | İngiltere Lig Kupası 2.Tur | Cambridge - Millwall | scheduled | -
 - 2026-08-25 21:45 | İngiltere Lig Kupası 2.Tur | Stevenage - Reading | scheduled | -
@@ -87,20 +80,6 @@ Yarin: 12
 - 2026-08-26 05:30 | CONCACAF Orta Amerika Kupası Grup D | Municipal - Depor Motagua | scheduled | -
 
 ## Canli Maclar
-- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Motorlet Praha - Jihlava | live | -
-- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Horni Redice - Dukla Prag | live | -
-- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Unicov - Zlin | live | -
-- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Sokol Zapy - Bohemians 1905 | live | -
-- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Frederikssund - Sundby | live | -
-- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Avarta - Hillerod | live | -
-- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Helsingor - Horsholm-Ussero | live | -
-- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Saby - Roskilde | live | -
-- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Allerod Fk - Vanlose | live | -
-- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Oks - Middelfart | live | -
-- 2026-08-25 18:30 | Irak Premier Lig | Al Karkh - Erbil Sc | live | -
-- 2026-08-25 18:45 | Kuveyt Premier Lig | Al-Kuwait - Al Arabi | live | -
-- 2026-08-25 18:45 | Irak Premier Lig | Zakho - Diala | live | -
-- 2026-08-25 18:45 | Irak Premier Lig | Al Golan - Al Shorta | live | -
 - 2026-08-25 19:00 | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | Brann (K) - Austria Wien (K | live | -
 - 2026-08-25 19:00 | Çek Cumhuriyeti Kupa 2.Tur | Hluboka Nad Vl - Viktoria Zizkov | live | -
 - 2026-08-25 19:00 | Danimarka DBU Kupası 2.Tur | Skovshoved - Tarnby Ff | live | -
@@ -127,6 +106,52 @@ Yarin: 12
 - 2026-08-25 20:30 | Güney Afrika PSL | Siwelele - Chippa United | live | -
 - 2026-08-25 20:30 | Güney Afrika PSL | Orlando Pirate - Sekhukhune Unit | live | -
 - 2026-08-25 20:30 | Tanzanya Kuu Bara Ligi | Dodoma Jiji - Polisi Morogoro | live | -
+- 2026-08-25 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy - Al Riyadh | live | -
+- 2026-08-25 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq - Al Nassr (Riyad | live | -
+- 2026-08-25 21:00 | İngiltere Lig Kupası 2.Tur | Cardiff - Norwich | live | -
+- 2026-08-25 21:00 | İngiltere EFL Trophy Güney Grup C | Bristol Rovers - Chelsea (B) | live | -
+- 2026-08-25 21:00 | İngiltere Premier Lig Kupası Grup F | Sheffield Unit - West Ham (B) | live | -
+- 2026-08-25 21:00 | Kuveyt Premier Lig | Al Fahaheel - Al Qadsia | live | -
+- 2026-08-25 21:00 | Irak Premier Lig | Al Zawraa - Naft Maysan | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
+- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
+- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
+- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
+- 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | finished | -
+- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | finished | -
+- 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | finished | -
+- 2026-08-25 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | finished | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | finished | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | finished | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | finished | -
+- 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | finished | -
+- 2026-08-25 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | finished | -
+- 2026-08-25 15:00 | İngiltere Professional Development Lig | Coventry City - Fleetwood Town | finished | -
+- 2026-08-25 15:00 | İngiltere Professional Development Lig | Millwall U21 - Huddersfield To | finished | -
+- 2026-08-25 15:30 | İngiltere Professional Development Lig | Bolton U21 - Colchester Unit | finished | -
+- 2026-08-25 16:00 | İngiltere Professional Development Lig | Queens Park Ra - Hull City U21 | finished | -
+- 2026-08-25 17:00 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Estrela U23 | finished | -
+- 2026-08-25 17:00 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | finished | -
+- 2026-08-25 17:15 | Danimarka DBU Kupası 2.Tur | Nb Bolrholm - Hellerup Ik | finished | -
+- 2026-08-25 18:00 | Çek Cumhuriyeti Kupa 2.Tur | Fk Varnsdorf - Usti Nad Labem | finished | -
+- 2026-08-25 18:00 | Tanzanya Kuu Bara Ligi | Namungo - Fountain Gate | finished | -
+- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Motorlet Praha - Jihlava | finished | -
+- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Horni Redice - Dukla Prag | finished | -
+- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Unicov - Zlin | finished | -
+- 2026-08-25 18:30 | Çek Cumhuriyeti Kupa 2.Tur | Sokol Zapy - Bohemians 1905 | finished | -
+- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Frederikssund - Sundby | finished | -
+- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Avarta - Hillerod | finished | -
+- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Helsingor - Horsholm-Ussero | finished | -
+- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Saby - Roskilde | finished | -
+- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Allerod Fk - Vanlose | finished | -
+- 2026-08-25 18:30 | Danimarka DBU Kupası 2.Tur | Oks - Middelfart | finished | -
+- 2026-08-25 18:30 | Irak Premier Lig | Al Karkh - Erbil Sc | finished | -
+- 2026-08-25 18:45 | Kuveyt Premier Lig | Al-Kuwait - Al Arabi | finished | -
+- 2026-08-25 18:45 | Irak Premier Lig | Zakho - Diala | finished | -
+- 2026-08-25 18:45 | Irak Premier Lig | Al Golan - Al Shorta | finished | -
