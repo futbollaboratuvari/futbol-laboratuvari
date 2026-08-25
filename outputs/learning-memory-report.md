@@ -1,14 +1,14 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 12:05:45
+Oluşturma: 25.08.2026 12:10:43
 
 ## Özet
 
-- Toplam tahmin: 1098
-- Bekleyen tahmin: 797
+- Toplam tahmin: 1101
+- Bekleyen tahmin: 800
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
-- Lig sayısı: 169
+- Lig sayısı: 170
 - Seçenek sayısı: 6
 
 ## Öğrenme Mantığı
@@ -20,15 +20,18 @@ Oluşturma: 25.08.2026 12:05:45
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 28, bekleyen 18, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 95, bekleyen 68, başarı %85, ağırlık 1.12
-- MS 1: toplam 140, bekleyen 105, başarı %40, ağırlık 0.88
+- 2.5 Üst: toplam 29, bekleyen 19, başarı %100, ağırlık 1.12
+- 2.5 Alt: toplam 96, bekleyen 69, başarı %85, ağırlık 1.12
+- MS 1: toplam 141, bekleyen 106, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 310, bekleyen 198, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Üst | pending | 64/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Rangers Ii | 2.5 Alt | pending | 62/100
+- 2026-08-25 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | MS 1 | pending | 47/100
 - 2026-08-25 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | 2.5 Alt | pending | 63/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | 2.5 Alt | pending | 64/100
@@ -41,7 +44,4 @@ Oluşturma: 25.08.2026 12:05:45
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Estrela U23 | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Üst | won | 66/100
 - 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Fk Varnsdorf - Usti Nad Labem | MS 2 | pending | 49/100
-- 2026-08-25 | Brezilya Serie B | Sport Recife - America Mineiro | 2.5 Üst | won | 79/100
-- 2026-08-25 | Brezilya Serie B | Athletic Club - Novorizontino | 2.5 Üst | won | 74/100
-- 2026-08-25 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Üst | won | 70/100
 
