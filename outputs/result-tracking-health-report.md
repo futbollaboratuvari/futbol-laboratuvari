@@ -5,10 +5,10 @@ Aktif bulten maci: 124
 Arsiv maci: 9012
 Biten mac: 8888
 Skorlu arsiv maci: 324
-Tahmin sayisi: 1090
-Bekleyen tahmin: 789
+Tahmin sayisi: 1093
+Bekleyen tahmin: 792
 Skor baglanan tahmin: 301
-Son kontrol: 789
+Son kontrol: 792
 Son baglanan: 0
 
 Sonraki aksiyon: Tahmin olcum asamasina gecilebilir.
