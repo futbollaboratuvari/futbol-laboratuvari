@@ -132,9 +132,9 @@ function buildComment(teamName, record) {
 }
 
 function combineRisk(homeRisk, awayRisk) {
+  if (homeRisk === 'Belirsiz' || awayRisk === 'Belirsiz') return 'Belirsiz';
   if (homeRisk === 'Yüksek' || awayRisk === 'Yüksek') return 'Yüksek';
   if (homeRisk === 'Orta' || awayRisk === 'Orta') return 'Orta';
-  if (homeRisk === 'Belirsiz' || awayRisk === 'Belirsiz') return 'Belirsiz';
   return 'Düşük';
 }
 
