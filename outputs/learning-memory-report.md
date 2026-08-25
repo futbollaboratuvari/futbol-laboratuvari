@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 20:02:05
+Oluşturma: 25.08.2026 20:21:53
 
 ## Özet
 
@@ -42,6 +42,6 @@ Oluşturma: 25.08.2026 20:02:05
 - 2026-08-25 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | MS 2 | pending | 38/100
 - 2026-08-25 | Brezilya Serie B | Juventude - Regatas | MS 1 | pending | 42/100
 - 2026-08-25 | İngiltere Non League Premier Kuzey | Workington - Rylands | 2.5 Alt | pending | 64/100
-- 2026-08-25 | Kuveyt Premier Lig | Al Fahaheel - Al Qadsia | MS 2 | pending | 48/100
+- 2026-08-25 | Kuveyt Premier Lig | Al Fahaheel - Al Qadsia | MS 2 | pending | 50/100
 - 2026-08-25 | Tanzanya Kuu Bara Ligi | Namungo - Fountain Gate | MS 1 | pending | 40/100
 
