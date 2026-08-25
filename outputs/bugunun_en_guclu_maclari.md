@@ -2,17 +2,16 @@
 
 ## Aktif Veri
 - Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-25T09:58:00.629Z
+- Güncelleme: 2026-08-25T10:17:28.923Z
 - Ham maç sayısı: 127
 - Yarın bülteni maç sayısı: 10
 - Detay blok sayısı: 327
-- Aktif bülten maçı: 126
-- Bültenden düşürülen maç: 1
+- Aktif bülten maçı: 125
+- Bültenden düşürülen maç: 2
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
 | --- | --- | --- | --- | --- | --- | --- |
-| Estoril U23 - Moreirense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | Veri bekleniyor | - | 2.04 | 8 |
 | Gimcheon Sangm - Jeonbuk Hm | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.91 | 8 |
 | Jeju Utd - Pohang Steelers | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 2.15 | 8 |
 | Fc Seoul - Bucheon | Güney Kore K Lig 1 | 13:30 | Veri bekleniyor | - | 1.23 | 7 |
