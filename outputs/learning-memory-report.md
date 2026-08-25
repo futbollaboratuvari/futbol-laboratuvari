@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 07:23:00
+Oluşturma: 25.08.2026 07:26:34
 
 ## Özet
 
@@ -38,7 +38,7 @@ Oluşturma: 25.08.2026 07:23:00
 - 2026-08-25 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Üst | won | 70/100
 - 2026-08-25 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Chemnitzer | MS 1 | pending | 43/100
 - 2026-08-25 | Irak Premier Lig | Zakho - Diala | MS 1 | pending | 46/100
-- 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 40/100
+- 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 39/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - Kilmarnock Ii | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Paraguay Kupa 3.Tur | General Caball - Rubio Nu | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Alt | pending | 64/100
