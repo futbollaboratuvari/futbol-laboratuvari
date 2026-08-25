@@ -1,13 +1,13 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 06:17:19
+Oluşturma: 25.08.2026 06:34:20
 
 ## Özet
 
-- Toplam tahmin: 1086
-- Bekleyen tahmin: 789
+- Toplam tahmin: 1087
+- Bekleyen tahmin: 788
 - Kazanan tahmin: 115
-- Kaybeden tahmin: 181
+- Kaybeden tahmin: 183
 - Lig sayısı: 169
 - Seçenek sayısı: 6
 
@@ -21,14 +21,15 @@ Oluşturma: 25.08.2026 06:17:19
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 27, bekleyen 18, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 87, bekleyen 62, başarı %88, ağırlık 1.12
-- MS 1: toplam 139, bekleyen 105, başarı %41, ağırlık 0.88
+- 2.5 Alt: toplam 87, bekleyen 61, başarı %85, ağırlık 1.12
+- MS 1: toplam 139, bekleyen 104, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
-- MS 2: toplam 308, bekleyen 196, başarı %30, ağırlık 0.88
+- MS 2: toplam 309, bekleyen 197, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Fk Varnsdorf - Usti Nad Labem | MS 2 | pending | 50/100
 - 2026-08-25 | Brezilya Serie B | Sport Recife - America Mineiro | 2.5 Üst | won | 73/100
 - 2026-08-25 | Brezilya Serie B | Athletic Club - Novorizontino | 2.5 Üst | won | 68/100
 - 2026-08-25 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Üst | won | 70/100
@@ -43,5 +44,4 @@ Oluşturma: 25.08.2026 06:17:19
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Hamilton - Edinburg C. | MS 1 | pending | 46/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 1 | pending | 39/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Montrose - Clyde | MS 1 | pending | 43/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank | 2.5 Alt | pending | 64/100
 
