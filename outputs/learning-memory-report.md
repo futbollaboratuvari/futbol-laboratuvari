@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 12:10:43
+Oluşturma: 25.08.2026 12:13:05
 
 ## Özet
 
@@ -30,7 +30,7 @@ Oluşturma: 25.08.2026 12:10:43
 ## Son Tahmin Kayıtları
 
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Üst | pending | 64/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Rangers Ii | 2.5 Alt | pending | 62/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Rangers Ii | 2.5 Alt | pending | 63/100
 - 2026-08-25 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | MS 1 | pending | 47/100
 - 2026-08-25 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | 2.5 Alt | pending | 63/100
