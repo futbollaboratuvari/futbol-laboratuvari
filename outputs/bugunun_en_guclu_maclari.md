@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-25T13:30:33.681Z
+- Güncelleme: 2026-08-25T14:04:26.549Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -16,8 +16,8 @@
 | Millwall U21 VS Huddersfield To | İngiltere Professional Development Lig | 15:00 | MS 1 | 2.07 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Bolton U21 VS Colchester Unit | İngiltere Professional Development Lig | 15:30 | MS 1 | 1.87 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Queens Park Ra VS Hull City U21 | İngiltere Professional Development Lig | 16:00 | MS 1 | 1.69 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Marítimo U23 VS Estrela U23 | Portekiz U23 Ulusal Şampiyona | 17:00 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Tobol Kostanay VS Kaisar | Kazakistan Premier Lig | 17:00 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Marítimo U23 VS Estrela U23 | Portekiz U23 Ulusal Şampiyona | 17:00 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Tobol Kostanay VS Kaisar | Kazakistan Premier Lig | 17:00 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Nb Bolrholm VS Hellerup Ik | Danimarka DBU Kupası 2.Tur | 17:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Fk Varnsdorf VS Usti Nad Labem | Çek Cumhuriyeti Kupa 2.Tur | 18:00 | MS 2 | 1.28 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Namungo VS Fountain Gate | Tanzanya Kuu Bara Ligi | 18:00 | MS 1 | 2.00 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
