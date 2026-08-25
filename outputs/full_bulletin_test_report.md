@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 112
-- Live match count: 5
+- Scheduled match count: 98
+- Live match count: 19
 - Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
@@ -12,8 +12,8 @@
 - 2026-08-25 17:15 | Nb Bolrholm - Hellerup Ik | live
 - 2026-08-25 18:00 | Fk Varnsdorf - Usti Nad Labem | live
 - 2026-08-25 18:00 | Namungo - Fountain Gate | live
-- 2026-08-25 18:30 | Horni Redice - Dukla Prag | scheduled
-- 2026-08-25 18:30 | Motorlet Praha - Jihlava | scheduled
-- 2026-08-25 18:30 | Sokol Zapy - Bohemians | scheduled
-- 2026-08-25 18:30 | Unicov - Zlin | scheduled
-- 2026-08-25 18:30 | Allerod Fk - Vanlose | scheduled
+- 2026-08-25 18:30 | Horni Redice - Dukla Prag | live
+- 2026-08-25 18:30 | Motorlet Praha - Jihlava | live
+- 2026-08-25 18:30 | Sokol Zapy - Bohemians | live
+- 2026-08-25 18:30 | Unicov - Zlin | live
+- 2026-08-25 18:30 | Allerod Fk - Vanlose | live

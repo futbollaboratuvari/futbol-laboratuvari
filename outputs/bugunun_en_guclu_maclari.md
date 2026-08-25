@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-25T15:23:56.321Z
+- Güncelleme: 2026-08-25T15:59:05.836Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -16,20 +16,20 @@
 | Nb Bolrholm VS Hellerup Ik | Danimarka DBU Kupası 2.Tur | 17:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Fk Varnsdorf VS Usti Nad Labem | Çek Cumhuriyeti Kupa 2.Tur | 18:00 | MS 2 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Namungo VS Fountain Gate | Tanzanya Kuu Bara Ligi | 18:00 | MS 1 | 2.00 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Motorlet Praha VS Jihlava | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | MS 2 | 1.27 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Motorlet Praha VS Jihlava | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | MS 2 | 1.27 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Horni Redice VS Dukla Prag | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Unicov VS Zlin | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Sokol Zapy VS Bohemians 1905 | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | MS 2 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Frederikssund VS Sundby | Danimarka DBU Kupası 2.Tur | 18:30 | MS 2 | 1.72 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sokol Zapy VS Bohemians 1905 | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | MS 2 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Frederikssund VS Sundby | Danimarka DBU Kupası 2.Tur | 18:30 | MS 2 | 1.72 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Avarta VS Hillerod | Danimarka DBU Kupası 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Helsingor VS Horsholm-Ussero | Danimarka DBU Kupası 2.Tur | 18:30 | MS 1 | 1.49 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Helsingor VS Horsholm-Ussero | Danimarka DBU Kupası 2.Tur | 18:30 | MS 1 | 1.49 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Saby VS Roskilde | Danimarka DBU Kupası 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Allerod Fk VS Vanlose | Danimarka DBU Kupası 2.Tur | 18:30 | MS 2 | 1.38 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Allerod Fk VS Vanlose | Danimarka DBU Kupası 2.Tur | 18:30 | MS 2 | 1.38 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Oks VS Middelfart | Danimarka DBU Kupası 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Al Karkh VS Erbil Sc | Irak Premier Lig | 18:30 | 2.5 Alt | 1.45 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Al-Kuwait VS Al Arabi | Kuveyt Premier Lig | 18:45 | 2.5 Alt | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Zakho VS Diala | Irak Premier Lig | 18:45 | 2.5 Alt | 1.44 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Al Golan VS Al Shorta | Irak Premier Lig | 18:45 | 2.5 Alt | 1.50 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Al Karkh VS Erbil Sc | Irak Premier Lig | 18:30 | 2.5 Alt | 1.45 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Al-Kuwait VS Al Arabi | Kuveyt Premier Lig | 18:45 | 2.5 Alt | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Zakho VS Diala | Irak Premier Lig | 18:45 | 2.5 Alt | 1.44 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Al Golan VS Al Shorta | Irak Premier Lig | 18:45 | 2.5 Alt | 1.50 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Brann (K) VS Austria Wien (K | UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Hluboka Nad Vl VS Viktoria Zizkov | Çek Cumhuriyeti Kupa 2.Tur | 19:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Skovshoved VS Tarnby Ff | Danimarka DBU Kupası 2.Tur | 19:00 | MS 1 | 1.71 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
