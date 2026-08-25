@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
-Ham mac: 126
+Ham mac: 138
 Aktif mac: 117
-Canli mac: 9
-Biten mac: 0
-Bultenden dusurulen mac: 9
+Canli mac: 5
+Biten mac: 16
+Bultenden dusurulen mac: 21
 Bugun: 107
 Yarin: 10
 
@@ -130,10 +130,6 @@ Yarin: 10
 - 2026-08-26 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | scheduled | -
 
 ## Canli Maclar
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | live | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | live | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | live | -
-- 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | live | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | live | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Coventry City - Fleetwood Town | live | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Millwall U21 - Huddersfield To | live | -
@@ -141,4 +137,19 @@ Yarin: 10
 - 2026-08-25 16:00 | İngiltere Professional Development Lig | Queens Park Ra - Hull City U21 | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
+- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
+- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
+- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
+- 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | finished | -
+- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | finished | -
+- 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | finished | -
+- 2026-08-25 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | finished | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | finished | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | finished | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | finished | -
+- 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | finished | -
