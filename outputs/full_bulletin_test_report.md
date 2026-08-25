@@ -2,12 +2,12 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 127
-- Live match count: 0
+- Scheduled match count: 126
+- Live match count: 1
 - Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
-- 2026-08-25 12:30 | Queensland Lio - North Sunshine | scheduled
+- 2026-08-25 12:30 | Queensland Lio - North Sunshine | live
 - 2026-08-25 13:00 | Estoril U23 - Moreirense U23 | scheduled
 - 2026-08-25 13:30 | Fc Seoul - Bucheon | scheduled
 - 2026-08-25 13:30 | Gimcheon Sangm - Jeonbuk Hm | scheduled
