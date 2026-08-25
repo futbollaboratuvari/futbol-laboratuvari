@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-25T05:46:57.824Z
+- Güncelleme: 2026-08-25T05:50:46.391Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -12,12 +12,12 @@
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Queensland Lio VS North Sunshine | Avustralya FFA Kupası Çeyrek Final | 12:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Estoril U23 VS Moreirense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | 2.5 Üst | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Estoril U23 VS Moreirense U23 | Portekiz U23 Ulusal Şampiyona | 13:00 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Gimcheon Sangm VS Jeonbuk Hm | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 1.62 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Jeju Utd VS Pohang Steelers | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 1.45 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Jeju Utd VS Pohang Steelers | Güney Kore K Lig 1 | 13:30 | 2.5 Alt | 1.47 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Fc Seoul VS Bucheon | Güney Kore K Lig 1 | 13:30 | MS 1 | 1.30 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Swansea (B) VS Peterborough Un | İngiltere Professional Development Lig | 14:00 | MS 1 | 1.58 | 56 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Wigan Athletic VS Cardiff City U2 | İngiltere Professional Development Lig | 15:00 | MS 1 | 1.72 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Swansea (B) VS Peterborough Un | İngiltere Professional Development Lig | 14:00 | MS 1 | 1.54 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Wigan Athletic VS Cardiff City U2 | İngiltere Professional Development Lig | 15:00 | MS 1 | 1.76 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Coventry City VS Fleetwood Town | İngiltere Professional Development Lig | 15:00 | MS 1 | 1.43 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Millwall U21 VS Huddersfield To | İngiltere Professional Development Lig | 15:00 | MS 1 | 1.85 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Bolton U21 VS Colchester Unit | İngiltere Professional Development Lig | 15:30 | MS 1 | 1.84 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -34,7 +34,7 @@
 | Avarta VS Hillerod | Danimarka DBU Kupası 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Helsingor VS Horsholm-Ussero | Danimarka DBU Kupası 2.Tur | 18:30 | MS 1 | 1.50 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Saby VS Roskilde | Danimarka DBU Kupası 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Allerod Fk VS Vanlose | Danimarka DBU Kupası 2.Tur | 18:30 | MS 2 | 1.37 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Allerod Fk VS Vanlose | Danimarka DBU Kupası 2.Tur | 18:30 | MS 2 | 1.35 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Oks VS Middelfart | Danimarka DBU Kupası 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Al Karkh VS Erbil Sc | Irak Premier Lig | 18:30 | 2.5 Alt | 1.45 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Al-Kuwait VS Al Arabi | Kuveyt Premier Lig | 18:45 | 2.5 Alt | 1.60 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -89,11 +89,11 @@
 | Watford VS Peterborough | İngiltere Lig Kupası 2.Tur | 21:45 | MS 1 | 1.46 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cowdenbeath VS East Kilbride | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Bonnyrigg Rose VS Rangers Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 1.79 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Annan VS Berwick | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.36 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Annan VS Berwick | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.34 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Clachnacuddin VS Elgin | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 1.68 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Alloa VS Motherwell Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Hamilton VS Edinburg C. | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.47 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Dumbarton VS Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 2.03 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Dumbarton VS Celtic Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 2 | 2.11 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Queen Of South VS Hibernian Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Montrose VS Clyde | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.70 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Kelty Hearts VS Clydebank | İskoçya Challenge Kupası Lig Aşaması | 21:45 | 2.5 Alt | 1.79 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -104,7 +104,7 @@
 | Stranraer VS Gala Fairydean | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Peterhead VS Dundee Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Fraserburgh VS Aberdeen Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 2.04 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| East Fife VS St. Mirren Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.26 | 63 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| East Fife VS St. Mirren Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | MS 1 | 1.28 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cumbernauld Co VS Kilmarnock Ii | İskoçya Challenge Kupası Lig Aşaması | 21:45 | 2.5 Alt | 1.35 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Ross County VS Banks O Dee | İskoçya Challenge Kupası Lig Aşaması | 21:45 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Al Jawiya VS Gaz Al-Shamal | Irak Premier Lig | 21:45 | MS 1 | 1.30 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
@@ -124,12 +124,12 @@
 | Nottingham F VS Leeds Utd | İngiltere Lig Kupası 2.Tur | 22:00 | 2.5 Alt | 1.66 | 66 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Gualberto Vill VS Oriente Petrole | Bolivya Premier Lig | 22:00 | MS 1 | 1.67 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | General Caball VS Rubio Nu | Paraguay Kupa 3.Tur | 22:00 | 2.5 Alt | 1.52 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Sporting Cp U2 VS Benfica U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Alt | 1.83 | 54 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Sporting Cp U2 VS Benfica U23 | Portekiz U23 Ulusal Şampiyona | 22:00 | 2.5 Alt | 1.75 | 55 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Afturelding VS Grotta | İzlanda 1.Lig | 22:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Deportivo Madr VS Godoy Cruz | Arjantin Ulusal Primera Lig | 01:00 | MS 1 | 2.05 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Atletico Goian VS Botafogo Ribeir | Brezilya Serie B | 01:30 | MS 1 | 1.86 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Juventude VS Regatas | Brezilya Serie B | 01:30 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Universitario VS Nacional Potosi | Bolivya Premier Lig | 02:00 | MS 1 | 2.13 | 49 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Universitario VS Nacional Potosi | Bolivya Premier Lig | 02:00 | MS 1 | 2.06 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Cruzeiro VS Atletico Mg | Brezilya Kupa Çeyrek Final | 03:00 | 2.5 Alt | 1.47 | 57 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Monterrey VS Chicago | CONCACAF Ligler Kupası Çeyrek Final | 03:30 | MS 2 | 2.02 | 42 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Indep. Jose Te (1) VS (0) Deportes Tolima | Copa Libertadores Son 16 Turu | 03:30 | MS 1 | 1.38 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
