@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 124
-Tam analiz: 104
+Toplam analiz: 125
+Tam analiz: 105
 Eksik analiz: 20
 
 - Queensland Lio VS North Sunshine: eksik score, confidence
