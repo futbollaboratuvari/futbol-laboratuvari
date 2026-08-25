@@ -1,15 +1,27 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 67
-Tam analiz: 59
-Eksik analiz: 8
+Toplam analiz: 171
+Tam analiz: 128
+Eksik analiz: 43
 
-- Cowdenbeath VS East Kilbride: eksik score, confidence
-- Alloa VS Motherwell Ii: eksik score, confidence
-- Cove Rangers VS Dundee United I: eksik score, confidence
-- Spartans VS Hearts Ii: eksik score, confidence
-- Stranraer VS Gala Fairydean: eksik score, confidence
-- Peterhead VS Dundee Ii: eksik score, confidence
-- Ross County VS Banks O Dee: eksik score, confidence
-- Afturelding VS Grotta: eksik score, confidence
+- Tokushima VS Fc Tokushima: eksik score, confidence
+- Hiroshima VS Okinawa Sv: eksik score, confidence
+- Cerezo Osaka VS Fc Gifu: eksik score, confidence
+- Machida Zelvia VS Grulla Morioka: eksik score, confidence
+- Tokyo Verdy VS Kusatsu Gunma: eksik score, confidence
+- Nagoya VS Gainare Tottori: eksik score, confidence
+- V-Varen Nagasa VS Ehime Fc: eksik score, confidence
+- Kashima VS Suzuka Unlimite: eksik score, confidence
+- Avispa Fukuoka VS Verspah Oita: eksik score, confidence
+- Vissel Kobe VS Veroskronos Tsu: eksik score, confidence
+- Gamba Osaka VS Mio Biwako Shig: eksik score, confidence
+- Fc Tokyo VS Parceiro Nagano: eksik score, confidence
+- Kawasaki VS Tochigi Sc: eksik score, confidence
+- Kyoto Sanga VS Maruyasu Indust: eksik score, confidence
+- Fagiano Okayam VS Bergarosso Hama: eksik score, confidence
+- Kozlovice VS Karvina: eksik score, confidence
+- Sparta Brno VS Banik Ostrava: eksik score, confidence
+- Pisek VS Pardubice: eksik score, confidence
+- Frydlant VS Brno: eksik score, confidence
+- Velka Bites VS Slovacko: eksik score, confidence
