@@ -2,16 +2,16 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 126
-- Live match count: 1
+- Scheduled match count: 123
+- Live match count: 5
 - Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
 - 2026-08-25 12:30 | Queensland Lio - North Sunshine | live
-- 2026-08-25 13:00 | Estoril U23 - Moreirense U23 | scheduled
-- 2026-08-25 13:30 | Fc Seoul - Bucheon | scheduled
-- 2026-08-25 13:30 | Gimcheon Sangm - Jeonbuk Hm | scheduled
-- 2026-08-25 13:30 | Jeju Utd - Pohang Steelers | scheduled
+- 2026-08-25 13:00 | Estoril U23 - Moreirense U23 | live
+- 2026-08-25 13:30 | Fc Seoul - Bucheon | live
+- 2026-08-25 13:30 | Gimcheon Sangm - Jeonbuk Hm | live
+- 2026-08-25 13:30 | Jeju Utd - Pohang Steelers | live
 - 2026-08-25 14:00 | Swansea (B) - Peterborough Un | scheduled
 - 2026-08-25 15:00 | Coventry City - Fleetwood Town | scheduled
 - 2026-08-25 15:00 | Millwall U21 - Huddersfield To | scheduled

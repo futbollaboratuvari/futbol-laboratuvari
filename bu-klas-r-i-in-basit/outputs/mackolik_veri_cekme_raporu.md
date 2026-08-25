@@ -1,34 +1,64 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T10:18:45.791324+00:00
+Tarih: 2026-08-25T10:33:35.455033+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 0
-- Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 9060
+- Kac mac bulundu: 122
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 121
+- Ham veri havuzu toplam mac sayisi: 9061
 - Hedef tarih: 25.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Lig verisi okunamadi veya mac bulunamadi.
+- Almanya Bölgesel Lig Kuzey Doğu
+- Arjantin Ulusal Primera Lig
+- Bolivya Premier Lig
+- Brezilya Kupa Çeyrek Final
+- Brezilya Serie B
+- CONCACAF Ligler Kupası Çeyrek Final
+- Copa Libertadores Son 16 Turu
+- Danimarka DBU Kupası 2.Tur
+- Güney Afrika PSL
+- Irak Premier Lig
+- Kazakistan Premier Lig
+- Kolombiya Primera A Clausura
+- Kuveyt Premier Lig
+- Letonya Virsliga
+- Litvanya 1.Lig
+- Paraguay Kupa 3.Tur
+- Portekiz U23 Ulusal Şampiyona
+- Suudi Arabistan Pro Lig
+- Tanzanya Kuu Bara Ligi
+- UEFA Kadınlar Şampiyonlar Ligi 3. Eleme Turu
+- UEFA Şampiyonlar Ligi Play Off
+- Çek Cumhuriyeti Kupa 2.Tur
+- İngiltere EFL Trophy Güney Grup C
+- İngiltere Lig Kupası 2.Tur
+- İngiltere Non League Premier Kuzey
+- İngiltere Premier Lig Kupası Grup F
+- İngiltere Professional Development Lig
+- İskoçya Challenge Kupası Lig Aşaması
+- İspanya LaLiga
+- İsveç 2.Lig Södra Götaland
+- İsveç Superettan
+- İzlanda 1.Lig
 
 ## Okunabilen Oran Alanlari
 
-- Oran alani okunamadi.
+- alt_25
+- ms_1
+- ms_2
+- ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
-- ms_1
-- ms_x
-- ms_2
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -72,146 +102,40 @@ Tarih: 2026-08-25T10:18:45.791324+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 35
-- Acilan detay: 3
+- Denenen Tumu alani: 34
+- Acilan detay: 34
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
 
 ## Hatalar
 
-- Detay acilamadi #4: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(3)
-
-- Detay acilamadi #5: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(4)
-
-- Detay acilamadi #6: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(5)
-
-- Detay acilamadi #7: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(6)
-
-- Detay acilamadi #8: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(7)
-
-- Detay acilamadi #9: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(8)
-
-- Detay acilamadi #10: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(9)
-
-- Detay acilamadi #11: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(10)
-
-- Detay acilamadi #12: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(11)
-
-- Detay acilamadi #13: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(12)
-
-- Detay acilamadi #14: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(13)
-
-- Detay acilamadi #15: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(14)
-
-- Detay acilamadi #16: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(15)
-
-- Detay acilamadi #17: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(16)
-
-- Detay acilamadi #18: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(17)
-
-- Detay acilamadi #19: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(18)
-
-- Detay acilamadi #20: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(19)
-
-- Detay acilamadi #21: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(20)
-
-- Detay acilamadi #22: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(21)
-
-- Detay acilamadi #23: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(22)
-
-- Detay acilamadi #24: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(23)
-
-- Detay acilamadi #25: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(24)
-
-- Detay acilamadi #26: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(25)
-
-- Detay acilamadi #27: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(26)
-
-- Detay acilamadi #28: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(27)
-
-- Detay acilamadi #29: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(28)
-
-- Detay acilamadi #30: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(29)
-
-- Detay acilamadi #31: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(30)
-
-- Detay acilamadi #32: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(31)
-
-- Detay acilamadi #33: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(32)
-
-- Detay acilamadi #34: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(33)
-
-- Detay acilamadi #35: Locator.inner_text: Timeout 1000ms exceeded.
-Call log:
-  - waiting for locator("text=/^\\s*T(ü|u)m(ü|u)?\\s*$/i").nth(34)
-
+- Hata yok.
 
 ## Ornek Maclar
 
-- Ornek mac yok.
+| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
+|---|---|---|---|---|---|---:|
+| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) | (3) Celtic | 05782 | 5 |
+| 25.08.2026 | 19:45 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) | (2) Hapoel Beer She | 05169 | 5 |
+| 25.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Bodo Glimt (3) | (1) Nijmegen | 05591 | 5 |
+| 25.08.2026 | 22:00 | İspanya LaLiga | Valencia | Real Betis | 15664 | 5 |
+| 25.08.2026 | 19:05 | Suudi Arabistan Pro Lig | Abha | Al Khaleej | 02370 | 5 |
+| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Ettifaq | Al Nassr (Riyad | 14803 | 5 |
+| 25.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Al Shabab (Riy | Al Riyadh | 14863 | 5 |
+| 25.08.2026 | 19:10 | Suudi Arabistan Pro Lig | Al Taawon | Al Feiha | 14387 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Plymouth | Coventry | 12941 | 5 |
+| 25.08.2026 | 21:30 | İngiltere Lig Kupası 2.Tur | Doncaster | Middlesbrough | 12488 | 5 |
+| 25.08.2026 | 21:00 | İngiltere Lig Kupası 2.Tur | Cardiff | Norwich | 12421 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Ipswich | Leicester | 12869 | 5 |
+| 25.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Birmingham | Brentford | 13407 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Watford | Peterborough | 13353 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Sheffield Wed | Wolverhampton | 12995 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Walsall | Leyton Orient | 13299 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Fleetwood Town | Shrewsbury | 12780 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Blackpool | Lincoln | 12672 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Blackburn | Sheffield Utd | 12613 | 5 |
+| 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Stoke | Hull | 13201 | 5 |
 
 ## Sonuc
 

@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 13:18:58
+Oluşturma: 25.08.2026 13:34:23
 
 ## Özet
 
-- Toplam tahmin: 1104
-- Bekleyen tahmin: 803
+- Toplam tahmin: 1107
+- Bekleyen tahmin: 806
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 170
@@ -21,14 +21,17 @@ Oluşturma: 25.08.2026 13:18:58
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 30, bekleyen 20, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 97, bekleyen 70, başarı %85, ağırlık 1.12
-- MS 1: toplam 142, bekleyen 107, başarı %40, ağırlık 0.88
+- 2.5 Alt: toplam 98, bekleyen 71, başarı %85, ağırlık 1.12
+- MS 1: toplam 143, bekleyen 108, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
-- MS 2: toplam 310, bekleyen 198, başarı %30, ağırlık 0.88
+- MS 2: toplam 311, bekleyen 199, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | İngiltere Non League Premier Kuzey | Workington - Rylands | 2.5 Alt | pending | 64/100
+- 2026-08-25 | Kuveyt Premier Lig | Al Fahaheel - Al Qadsia | MS 2 | pending | 49/100
+- 2026-08-25 | Tanzanya Kuu Bara Ligi | Namungo - Fountain Gate | MS 1 | pending | 41/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Leixoes U23 - União De Leiria | 2.5 Üst | pending | 64/100
 - 2026-08-25 | Irak Premier Lig | Al Zawraa - Naft Maysan | MS 1 | pending | 46/100
 - 2026-08-25 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | 2.5 Alt | pending | 62/100
@@ -41,7 +44,4 @@ Oluşturma: 25.08.2026 13:18:58
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Watford - Peterborough | 2.5 Alt | pending | 70/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 2 | pending | 38/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | East Fife - St. Mirren Ii | MS 1 | pending | 50/100
-- 2026-08-25 | Irak Premier Lig | Al Golan - Al Shorta | 2.5 Alt | pending | 64/100
-- 2026-08-25 | İsveç Superettan | Orebro - Varbergs | 2.5 Alt | pending | 63/100
 

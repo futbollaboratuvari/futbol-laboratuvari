@@ -2,19 +2,15 @@
 
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
-Ham mac: 127
-Aktif mac: 126
-Canli mac: 1
-Biten mac: 0
-Bultenden dusurulen mac: 1
-Bugun: 116
+Ham mac: 138
+Aktif mac: 123
+Canli mac: 5
+Biten mac: 10
+Bultenden dusurulen mac: 15
+Bugun: 113
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-25 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | scheduled | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | scheduled | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | scheduled | -
-- 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | scheduled | -
 - 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | scheduled | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | scheduled | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Coventry City - Fleetwood Town | scheduled | -
@@ -118,6 +114,7 @@ Yarin: 10
 - 2026-08-25 21:45 | İngiltere Non League Premier Kuzey | Warrington Tow - Curzon Ashton | scheduled | -
 - 2026-08-25 21:45 | İngiltere Non League Premier Kuzey | Alfreton - Hyde | scheduled | -
 - 2026-08-25 21:45 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | scheduled | -
+- 2026-08-25 21:45 | İngiltere Non League Premier Kuzey | Workington - Rylands | scheduled | -
 - 2026-08-25 22:00 | UEFA Şampiyonlar Ligi Play Off | Lask Linz (0) - (3) Celtic | scheduled | -
 - 2026-08-25 22:00 | UEFA Şampiyonlar Ligi Play Off | Bodo Glimt (3) - (1) Nijmegen | scheduled | -
 - 2026-08-25 22:00 | İspanya LaLiga | Valencia - Real Betis | scheduled | -
@@ -140,6 +137,19 @@ Yarin: 10
 
 ## Canli Maclar
 - 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | live | -
+- 2026-08-25 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | live | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | live | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | live | -
+- 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
+- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
+- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
+- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
+- 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | finished | -
+- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | finished | -
