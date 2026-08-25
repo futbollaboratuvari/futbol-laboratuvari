@@ -2,6 +2,7 @@ const assert = require('assert');
 const news = require('../scripts/team-news-auto');
 const status = require('../scripts/team-status-lite');
 const apply = require('../scripts/team-status-apply');
+const band = require('../scripts/band-lite');
 
 const rss = `<?xml version="1.0"?><rss><channel>
 <item><title><![CDATA[Example FC captain ruled out with knee injury - Sports Desk]]></title><link>https://example.com/a</link><pubDate>${new Date().toUTCString()}</pubDate><source url="https://example.com">Sports Desk</source><description>Example FC injury update</description></item>
@@ -28,8 +29,21 @@ assert.strictEqual(status.countRisk(merged), 'Orta');
 const unknown = status.mergeTeamRecord('Unknown FC', { teams: {} }, { teams: {} });
 assert.strictEqual(status.countRisk(unknown), 'Belirsiz');
 assert.strictEqual(status.combineRisk('Düşük', 'Belirsiz'), 'Belirsiz');
+assert.strictEqual(status.combineRisk('Belirsiz', 'Düşük'), 'Belirsiz');
+assert.strictEqual(status.combineRisk('Orta', 'Belirsiz'), 'Belirsiz');
+assert.strictEqual(status.combineRisk('Belirsiz', 'Orta'), 'Belirsiz');
+assert.strictEqual(status.combineRisk('Yüksek', 'Belirsiz'), 'Belirsiz');
+assert.strictEqual(status.combineRisk('Belirsiz', 'Yüksek'), 'Belirsiz');
 assert.strictEqual(apply.worstRisk('Düşük', 'Yüksek'), 'Yüksek');
 assert.strictEqual(apply.worstRisk('Düşük', 'Belirsiz'), 'Orta');
+
+const unknownBand = band.labelFor(
+  { band_extra: { squad_risk_level: 'Belirsiz', squad_verified_team_count: 1 } },
+  { very_short: 1.3, short: 1.7, long: 3, min_score_very_short: 80, min_score_short: 70 }
+);
+assert.notStrictEqual(unknownBand.level, 'Düşük');
+assert(unknownBand.notes.some((note) => note.includes('doğrulanamadı')));
+
 assert.strictEqual(news.isFresh({ checked_at: new Date().toISOString() }), true);
 assert.strictEqual(news.isFresh({ checked_at: '2020-01-01T00:00:00.000Z' }), false);
 
