@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 01:07:04
+Oluşturma: 26.08.2026 01:28:50
 
 ## Özet
 
-- Toplam tahmin: 1262
-- Bekleyen tahmin: 912
+- Toplam tahmin: 1263
+- Bekleyen tahmin: 913
 - Kazanan tahmin: 141
 - Kaybeden tahmin: 208
 - Lig sayısı: 197
@@ -20,7 +20,7 @@ Oluşturma: 26.08.2026 01:07:04
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 45, bekleyen 29, başarı %88, ağırlık 1.12
+- 2.5 Üst: toplam 46, bekleyen 30, başarı %88, ağırlık 1.12
 - 2.5 Alt: toplam 152, bekleyen 108, başarı %75, ağırlık 1.12
 - MS 1: toplam 203, bekleyen 153, başarı %34, ağırlık 0.88
 - MS 2: toplam 337, bekleyen 214, başarı %33, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 26.08.2026 01:07:04
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | Venezuela Kupa 1.Tur Grup B | El Vigia - Atletico Barina | 2.5 Üst | pending | 64/100
 - 2026-08-26 | Bolivya Premier Lig | San Antonio Bu - The Strongest | MS 2 | pending | 40/100
 - 2026-08-26 | Venezuela Kupa 1.Tur Grup E | Bolívar - Monagas | 2.5 Alt | pending | 75/100
 - 2026-08-26 | Norveç 1.Lig | Moss - Sogndal | MS 1 | pending | 40/100
@@ -43,5 +44,4 @@ Oluşturma: 26.08.2026 01:07:04
 - 2026-08-26 | Güney Afrika PSL | Mamelodi Sundo - Amazulu | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Almanya Bölgesel Lig Kuzey | Drochtersen / - Werder Bremen ( | MS 1 | pending | 48/100
 - 2026-08-26 | İsviçre 1.Lig Promotion | Bulle - Young Boys Ii | MS 1 | pending | 45/100
-- 2026-08-26 | Suudi Arabistan Pro Lig | Diriyah - Al Kholood | MS 1 | pending | 39/100
 
