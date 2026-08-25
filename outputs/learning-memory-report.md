@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 10:29:42
+Oluşturma: 25.08.2026 10:34:54
 
 ## Özet
 
@@ -35,7 +35,7 @@ Oluşturma: 25.08.2026 10:29:42
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 2 | pending | 38/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | East Fife - St. Mirren Ii | MS 1 | pending | 50/100
 - 2026-08-25 | Irak Premier Lig | Al Golan - Al Shorta | 2.5 Alt | pending | 64/100
-- 2026-08-25 | İsveç Superettan | Orebro - Varbergs | 2.5 Alt | pending | 64/100
+- 2026-08-25 | İsveç Superettan | Orebro - Varbergs | 2.5 Alt | pending | 63/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Estrela U23 | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Üst | won | 66/100
 - 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Fk Varnsdorf - Usti Nad Labem | MS 2 | pending | 49/100
