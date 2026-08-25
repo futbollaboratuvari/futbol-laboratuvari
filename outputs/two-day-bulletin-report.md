@@ -4,8 +4,8 @@ Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
 Ham mac: 171
 Aktif mac: 166
-Canli mac: 5
-Biten mac: 0
+Canli mac: 4
+Biten mac: 1
 Bultenden dusurulen mac: 5
 Bugun: 140
 Yarin: 26
@@ -179,11 +179,10 @@ Yarin: 26
 - 2026-08-27 05:45 | CONCACAF Ligler Kupası Çeyrek Final | Club America - Columbus | scheduled | -
 
 ## Canli Maclar
-- 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | live | -
 - 2026-08-26 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Godoy Cruz | live | -
 - 2026-08-26 01:30 | Brezilya Serie B | Atletico Goian - Botafogo Ribeir | live | -
 - 2026-08-26 01:30 | Brezilya Serie B | Juventude - Regatas | live | -
 - 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-26 00:30 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | finished | -

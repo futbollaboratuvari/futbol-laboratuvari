@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T23:44:17.682Z",
+  "generated_at": "2026-08-25T23:52:43.336Z",
   "date": "2026-08-26",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -8,8 +8,8 @@
   "score_semantics": "model_score is signal strength from 0 to 100; it is not an outcome probability",
   "source": "robot-analysis.json compact verified projection",
   "summary": {
-    "match_count": 171,
-    "pro_ready_count": 49,
+    "match_count": 170,
+    "pro_ready_count": 48,
     "coupon_candidate_count": 8,
     "average_data_completeness": 31
   },
@@ -40,55 +40,6 @@
     "note": "Tahmini olasılıklar tamamlanan sonuçlarla Brier skoru üzerinden ölçülüyor."
   },
   "matches": [
-    {
-      "id": "00739",
-      "date": "2026-08-26",
-      "time": "00:30",
-      "league": "Paraguay Kupa 3.Tur",
-      "home": "Sol De America",
-      "away": "Sportivo Trinid",
-      "match_code": "00739",
-      "status": "finished",
-      "recommended_market": "2.5 Alt",
-      "model_score": 64,
-      "score_type": "signal_strength",
-      "estimated_probability": 60.4,
-      "market_probability": 60.4,
-      "edge_percent": 0,
-      "data_completeness": 40,
-      "data_quality": "Sınırlı",
-      "evidence_mode": "market_baseline",
-      "independent_evidence": false,
-      "probability_source": [],
-      "data_gap_risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "recommended_odd": 1.37,
-      "include_in_coupon": false,
-      "value_label": "Piyasa ile Uyumlu",
-      "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
-      ],
-      "metrics": {
-        "homeScoredLast10": 3,
-        "awayScoredLast10": 3,
-        "over25Percent": 40,
-        "over35Percent": 25,
-        "leagueGoalAverage": 2.61
-      },
-      "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.37",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %60.",
-        "Birleşik tahmini olasılık %60.",
-        "Model-piyasa farkı +0.0 puan."
-      ],
-      "model_version": "pro13-market-conditioned-v1",
-      "source": "Robot ham veri havuzu"
-    },
     {
       "id": "12136",
       "date": "2026-08-26",
@@ -7811,9 +7762,9 @@
       "recommended_market": "2.5 Alt",
       "model_score": 67,
       "score_type": "signal_strength",
-      "estimated_probability": 53.2,
-      "market_probability": 53.9,
-      "edge_percent": -0.7,
+      "estimated_probability": 54,
+      "market_probability": 54.9,
+      "edge_percent": -0.9,
       "data_completeness": 46,
       "data_quality": "Orta",
       "evidence_mode": "market_plus_independent",
@@ -7823,7 +7774,7 @@
       ],
       "data_gap_risk": "Orta",
       "risk_level": "Orta",
-      "recommended_odd": 1.53,
+      "recommended_odd": 1.51,
       "include_in_coupon": true,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
@@ -7845,12 +7796,12 @@
       },
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.53",
+        "Oran: 1.51",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %54.",
+        "Marjı temizlenmiş piyasa olasılığı %55.",
         "Bağımsız sonuç hafızası tahmini %50.",
-        "Birleşik tahmini olasılık %53."
+        "Birleşik tahmini olasılık %54."
       ],
       "model_version": "pro13-market-conditioned-v1",
       "source": "Robot ham veri havuzu"
