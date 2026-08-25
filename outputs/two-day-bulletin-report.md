@@ -3,17 +3,14 @@
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
 Ham mac: 127
-Aktif mac: 122
-Canli mac: 5
+Aktif mac: 119
+Canli mac: 8
 Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 112
+Bultenden dusurulen mac: 8
+Bugun: 109
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-25 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | scheduled | -
-- 2026-08-25 15:00 | İngiltere Professional Development Lig | Coventry City - Fleetwood Town | scheduled | -
-- 2026-08-25 15:00 | İngiltere Professional Development Lig | Millwall U21 - Huddersfield To | scheduled | -
 - 2026-08-25 15:30 | İngiltere Professional Development Lig | Bolton U21 - Colchester Unit | scheduled | -
 - 2026-08-25 16:00 | İngiltere Professional Development Lig | Queens Park Ra - Hull City U21 | scheduled | -
 - 2026-08-25 17:00 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Estrela U23 | scheduled | -
@@ -140,6 +137,9 @@ Yarin: 10
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | live | -
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | live | -
 - 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | live | -
+- 2026-08-25 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | live | -
+- 2026-08-25 15:00 | İngiltere Professional Development Lig | Coventry City - Fleetwood Town | live | -
+- 2026-08-25 15:00 | İngiltere Professional Development Lig | Millwall U21 - Huddersfield To | live | -
 
 ## Biten Maclar
 Biten mac yok.
