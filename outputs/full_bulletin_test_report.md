@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 122
 - Live match count: 5
-- Finished removed count: 1
+- Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
 - 2026-08-25 13:00 | Estoril U23 - Moreirense U23 | live
