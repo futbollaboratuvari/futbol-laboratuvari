@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-25T14:24:42.288Z
+- Güncelleme: 2026-08-25T15:03:26.676Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -16,8 +16,8 @@
 | Marítimo U23 VS Estrela U23 | Portekiz U23 Ulusal Şampiyona | 17:00 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Tobol Kostanay VS Kaisar | Kazakistan Premier Lig | 17:00 | 2.5 Üst | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Nb Bolrholm VS Hellerup Ik | Danimarka DBU Kupası 2.Tur | 17:15 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
-| Fk Varnsdorf VS Usti Nad Labem | Çek Cumhuriyeti Kupa 2.Tur | 18:00 | MS 2 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
-| Namungo VS Fountain Gate | Tanzanya Kuu Bara Ligi | 18:00 | MS 1 | 2.00 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Fk Varnsdorf VS Usti Nad Labem | Çek Cumhuriyeti Kupa 2.Tur | 18:00 | MS 2 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Namungo VS Fountain Gate | Tanzanya Kuu Bara Ligi | 18:00 | MS 1 | 2.00 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Motorlet Praha VS Jihlava | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | MS 2 | 1.27 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Horni Redice VS Dukla Prag | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
 | Unicov VS Zlin | Çek Cumhuriyeti Kupa 2.Tur | 18:30 | MS 2 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
