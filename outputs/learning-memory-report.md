@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 13:34:23
+Oluşturma: 25.08.2026 13:49:37
 
 ## Özet
 
@@ -39,7 +39,7 @@ Oluşturma: 25.08.2026 13:34:23
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Rangers Ii | 2.5 Alt | pending | 63/100
 - 2026-08-25 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | MS 1 | pending | 47/100
 - 2026-08-25 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | 2.5 Alt | pending | 64/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | 2.5 Alt | pending | 63/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | 2.5 Alt | pending | 62/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Watford - Peterborough | 2.5 Alt | pending | 70/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | 2.5 Alt | pending | 64/100

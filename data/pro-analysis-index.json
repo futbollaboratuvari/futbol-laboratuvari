@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T10:34:19.758Z",
+  "generated_at": "2026-08-25T10:49:35.660Z",
   "date": "2026-08-25",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -4222,10 +4222,10 @@
       "match_code": "15164",
       "status": "scheduled",
       "recommended_market": "2.5 Alt",
-      "model_score": 63,
+      "model_score": 62,
       "score_type": "signal_strength",
-      "estimated_probability": 43.1,
-      "market_probability": 43.1,
+      "estimated_probability": 42.7,
+      "market_probability": 42.7,
       "edge_percent": 0,
       "data_completeness": 40,
       "data_quality": "Sınırlı",
@@ -4234,7 +4234,7 @@
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 1.44,
+      "recommended_odd": 1.46,
       "include_in_coupon": false,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
@@ -4251,7 +4251,7 @@
       },
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.44",
+        "Oran: 1.46",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %43.",
@@ -4752,8 +4752,13 @@
       "metrics": {
         "homeScoredLast10": 5,
         "awayScoredLast10": 5,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 6,
+        "bttsPercent": 66,
         "over25Percent": 60,
         "over35Percent": 42,
+        "firstHalfGoalTrend": 52,
+        "secondHalfGoalTrend": 72,
         "leagueGoalAverage": 2.84
       },
       "signals": [
@@ -5487,7 +5492,18 @@
         "1-0",
         "1-1"
       ],
-      "metrics": {},
+      "metrics": {
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 49,
+        "over25Percent": 50,
+        "over35Percent": 32,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 55,
+        "leagueGoalAverage": 2.72
+      },
       "signals": [
         "Market: 2.5 Alt",
         "Oran: 1.64",
