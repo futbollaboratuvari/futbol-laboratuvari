@@ -4,18 +4,16 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-25T21:42:40.916Z
+- Güncelleme: 2026-08-25T21:57:32.041Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
 | Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| El Vigia VS Atletico Barina | Venezuela Kupa 1.Tur Grup B | 22:30 | 2.5 Alt | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Rayo Zuliano VS Urena Fc | Venezuela Kupa 1.Tur Grup D | 22:30 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Mineros VS Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | MS 1 | 2.03 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Aragua VS Yaracuyanos | Venezuela Kupa 1.Tur Grup C | 23:00 | MS 1 | 2.05 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Trujillanos VS Deportivo Lara | Venezuela Kupa 1.Tur Grup D | 23:00 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Sol De America VS Sportivo Trinid | Paraguay Kupa 3.Tur | 00:30 | 2.5 Alt | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Aragua VS Yaracuyanos | Venezuela Kupa 1.Tur Grup C | 23:00 | MS 1 | 2.05 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Trujillanos VS Deportivo Lara | Venezuela Kupa 1.Tur Grup D | 23:00 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Chico VS Fortaleza | Kolombiya Primera A Clausura | 00:00 | MS 1 | 2.39 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Platense VS Alianza | El Salvador Primera Lig Apertura | 00:00 | 2.5 Alt | 1.41 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
 | Zamora VS Real Frontera | Venezuela Kupa 1.Tur Grup B | 00:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
@@ -35,6 +33,7 @@
 | Recoleta VS O Higgins | Şili Kupa Grup E | 03:30 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Central Norte VS Moron | Arjantin Ulusal Primera Lig | 03:30 | MS 1 | 2.39 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Blooming VS Real Oruro | Bolivya Premier Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Herediano VS Antigua Guatema | CONCACAF Orta Amerika Kupası Grup B | 03:30 | MS 1 | 1.30 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | El Paso Locomo VS Pittsburgh Rive | ABD USL | 04:00 | 2.5 Alt | 1.44 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Atletico Nacio VS Deportivo Cali | Kolombiya Primera A Clausura | 04:30 | MS 1 | 1.44 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | New Mexico Uni VS Lexington | ABD USL | 04:30 | 2.5 Üst | 1.61 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |

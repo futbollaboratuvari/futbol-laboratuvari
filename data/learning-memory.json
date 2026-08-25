@@ -1,12 +1,12 @@
 {
   "schema_version": "learning_memory_v1",
   "created_at": "2026-08-21T22:07:49.740Z",
-  "updated_at": "2026-08-25T21:43:03.294Z",
+  "updated_at": "2026-08-25T21:57:43.452Z",
   "status": "active",
   "description": "Robotun tahminlerini, sonuçlarını ve lig/market performansını takip etmek için öğrenme hafızası.",
   "summary": {
-    "total_predictions": 1162,
-    "pending_predictions": 812,
+    "total_predictions": 1164,
+    "pending_predictions": 814,
     "won_predictions": 141,
     "lost_predictions": 208,
     "void_predictions": 1,
@@ -14,21 +14,31 @@
     "market_count": 6,
     "added_predictions": 0,
     "updated_predictions": 0,
-    "last_score_link_checked": 812,
+    "last_score_link_checked": 814,
     "last_score_linked": 0,
     "last_finalizer_checked": 0,
     "last_finalizer_updated": 0
   },
   "market_memory": {
     "MS 1": {
-      "total": 156,
-      "pending": 106,
+      "total": 157,
+      "pending": 107,
       "won": 17,
       "lost": 33,
       "void": 0,
       "success_rate": 0.34,
       "weight": 0.88,
       "confidence_adjustment": -5
+    },
+    "2.5 Alt": {
+      "total": 124,
+      "pending": 80,
+      "won": 33,
+      "lost": 11,
+      "void": 0,
+      "success_rate": 0.75,
+      "weight": 1.12,
+      "confidence_adjustment": 4
     },
     "2.5 Üst": {
       "total": 41,
@@ -37,16 +47,6 @@
       "lost": 2,
       "void": 0,
       "success_rate": 0.875,
-      "weight": 1.12,
-      "confidence_adjustment": 4
-    },
-    "2.5 Alt": {
-      "total": 123,
-      "pending": 79,
-      "won": 33,
-      "lost": 11,
-      "void": 0,
-      "success_rate": 0.75,
       "weight": 1.12,
       "confidence_adjustment": 4
     },
@@ -82,6 +82,26 @@
     }
   },
   "league_memory": {
+    "CONCACAF Orta Amerika Kupası Grup B": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Paraguay Kupa 3.Tur": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Kolombiya Primera A Clausura": {
       "total": 12,
       "pending": 8,
@@ -223,16 +243,6 @@
       "confidence_adjustment": -2
     },
     "Copa Sudamericana Son 16 Turu": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "CONCACAF Orta Amerika Kupası Grup B": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -425,16 +435,6 @@
     "Güney Kore K Lig 1": {
       "total": 7,
       "pending": 7,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Paraguay Kupa 3.Tur": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -1904,6 +1904,26 @@
     }
   },
   "league_market_memory": {
+    "CONCACAF Orta Amerika Kupası Grup B :: MS 1": {
+      "total": 2,
+      "pending": 2,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
+    "Paraguay Kupa 3.Tur :: 2.5 Alt": {
+      "total": 3,
+      "pending": 3,
+      "won": 0,
+      "lost": 0,
+      "void": 0,
+      "success_rate": null,
+      "weight": 1,
+      "confidence_adjustment": 0
+    },
     "Kolombiya Primera A Clausura :: MS 1": {
       "total": 5,
       "pending": 4,
@@ -2085,16 +2105,6 @@
       "confidence_adjustment": 0
     },
     "Copa Sudamericana Son 16 Turu :: MS 1": {
-      "total": 1,
-      "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "CONCACAF Orta Amerika Kupası Grup B :: MS 1": {
       "total": 1,
       "pending": 1,
       "won": 0,
@@ -2407,16 +2417,6 @@
     "Kazakistan Premier Lig :: MS 1": {
       "total": 1,
       "pending": 1,
-      "won": 0,
-      "lost": 0,
-      "void": 0,
-      "success_rate": null,
-      "weight": 1,
-      "confidence_adjustment": 0
-    },
-    "Paraguay Kupa 3.Tur :: 2.5 Alt": {
-      "total": 2,
-      "pending": 2,
       "won": 0,
       "lost": 0,
       "void": 0,
@@ -6837,6 +6837,54 @@
   },
   "predictions": [
     {
+      "id": "2026-08-26|concacaf orta amerika kupasi grup b|herediano antigua guatema|ms 1|03 30",
+      "date": "2026-08-26",
+      "created_at": "2026-08-25T21:57:34.978Z",
+      "match_name": "Herediano - Antigua Guatema",
+      "league": "CONCACAF Orta Amerika Kupası Grup B",
+      "start_time": "03:30",
+      "market": "MS 1",
+      "odds": "1.30",
+      "confidence_score": "50%",
+      "analysis_score": 50,
+      "model_score": 50,
+      "estimated_probability": 63.8,
+      "market_probability": 63.8,
+      "edge_percent": 0,
+      "data_completeness": 42,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-25T21:57:37.481Z"
+    },
+    {
+      "id": "2026-08-26|paraguay kupa 3 tur|sol de america sportivo trinid|2 5 alt|00 30",
+      "date": "2026-08-26",
+      "created_at": "2026-08-25T21:57:34.976Z",
+      "match_name": "Sol De America - Sportivo Trinid",
+      "league": "Paraguay Kupa 3.Tur",
+      "start_time": "00:30",
+      "market": "2.5 Alt",
+      "odds": "1.37",
+      "confidence_score": "64%",
+      "analysis_score": 64,
+      "model_score": 64,
+      "estimated_probability": 60.4,
+      "market_probability": 60.4,
+      "edge_percent": 0,
+      "data_completeness": 40,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk_level": "Yüksek",
+      "status": "pending",
+      "result_score": "",
+      "source": "Robot ham veri havuzu",
+      "learning_note": "Sonuç bekleniyor.",
+      "updated_at": "2026-08-25T21:57:37.479Z"
+    },
+    {
       "id": "2026-08-26|kolombiya primera a clausura|atletico nacio deportivo cali|ms 1|04 30",
       "date": "2026-08-26",
       "created_at": "2026-08-25T21:29:36.336Z",
@@ -6858,7 +6906,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-26|abd usl|new mexico uni lexington|2 5 ust|04 30",
@@ -6882,7 +6930,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-26|concacaf orta amerika kupasi grup a|xelaju firpo|2 5 alt|05 30",
@@ -6906,7 +6954,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-26|concacaf orta amerika kupasi grup a|alajuelense plaza amador|2 5 ust|05 30",
@@ -6930,7 +6978,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-26|concacaf ligler kupasi ceyrek final|club america columbus|ms 1|05 45",
@@ -6954,7 +7002,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-26|venezuela kupa 1 tur grup b|el vigia atletico barina|2 5 alt|22 30",
@@ -7050,7 +7098,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.479Z"
     },
     {
       "id": "2026-08-26|venezuela kupa 1 tur grup d|trujillanos deportivo lara|2 5 alt|23 00",
@@ -7074,7 +7122,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.479Z"
     },
     {
       "id": "2026-08-26|kolombiya primera a clausura|chico fortaleza|ms 1|00 00",
@@ -7098,7 +7146,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.479Z"
     },
     {
       "id": "2026-08-26|el salvador primera lig apertura|platense alianza|2 5 alt|00 00",
@@ -7122,7 +7170,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|sili premier lig|coquimbo unido univ catolica|2 5 alt|01 00",
@@ -7146,7 +7194,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|ekvador kupa ceyrek final|ldu quito aucas|2 5 alt|01 00",
@@ -7170,7 +7218,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|venezuela kupa 1 tur grup c|caracas fc fundacion lara|2 5 alt|01 00",
@@ -7194,7 +7242,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|arjantin kupa son 16 turu|aldosivi rivadavia|ms 2|01 15",
@@ -7218,7 +7266,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|venezuela kupa 1 tur grup a|deportivo peta academia anzoat|2 5 alt|02 00",
@@ -7242,7 +7290,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|kolombiya primera a clausura|america de cal atletico junior|2 5 alt|02 20",
@@ -7266,7 +7314,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.470Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|abd usl lig 1|naples union omaha|2 5 alt|02 30",
@@ -7290,7 +7338,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|concacaf ligler kupasi ceyrek final|toluca austin|ms 1|03 30",
@@ -7314,7 +7362,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|copa sudamericana son 16 turu|river plate 0 0 santa fe|ms 1|03 30",
@@ -7338,7 +7386,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|concacaf orta amerika kupasi grup b|marathon real esteli|ms 1|03 30",
@@ -7362,7 +7410,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|brezilya kupa ceyrek final|vasco da gama vitoria bahia|2 5 alt|03 30",
@@ -7386,7 +7434,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|brezilya kupa ceyrek final|palmeiras santos|2 5 ust|03 30",
@@ -7410,7 +7458,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|sili kupa grup e|colo colo union espanola|ms 1|03 30",
@@ -7434,7 +7482,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.480Z"
     },
     {
       "id": "2026-08-26|sili kupa grup e|recoleta o higgins|2 5 ust|03 30",
@@ -7458,7 +7506,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-26|arjantin ulusal primera lig|central norte moron|ms 1|03 30",
@@ -7482,7 +7530,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-26|abd usl|el paso locomo pittsburgh rive|2 5 alt|04 00",
@@ -7506,7 +7554,7 @@
       "result_score": "",
       "source": "Robot ham veri havuzu",
       "learning_note": "Sonuç bekleniyor.",
-      "updated_at": "2026-08-25T21:42:49.471Z"
+      "updated_at": "2026-08-25T21:57:37.481Z"
     },
     {
       "id": "2026-08-25|ingiltere lig kupasi 2 tur|barnsley crewe|ms 1|21 45",

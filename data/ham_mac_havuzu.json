@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T21:42:40.916Z",
+  "generated_at": "2026-08-25T21:57:32.041Z",
   "timezone": "Europe/Istanbul",
   "source": "Maçkolik canlı robot",
   "engine": "High Value Coupon Engine",
@@ -13,7 +13,18 @@
       "İkinci Yarı KG Var",
       "KG Var",
       "2.5 Üst",
-      "3.5 Üst"
+      "3.5 Üst",
+      "İlk Yarı 1/X/2",
+      "İkinci Yarı 1/X/2",
+      "İY/MS 1/1",
+      "İY/MS 1/X",
+      "İY/MS 1/2",
+      "İY/MS X/1",
+      "İY/MS X/X",
+      "İY/MS X/2",
+      "İY/MS 2/1",
+      "İY/MS 2/X",
+      "İY/MS 2/2"
     ],
     "scoring_classes": {
       "80-100": "Ana kupon adayı",
@@ -23,22 +34,22 @@
     },
     "stale_data_policy": "Güncel maç değilse analiz dışı bırakılır."
   },
-  "match_count": 30,
+  "match_count": 29,
   "analysis_count": 1,
   "matches": [
     {
-      "home_team_name": "El Vigia",
-      "away_team_name": "Atletico Barina",
-      "competition_name": "Venezuela Kupa 1.Tur Grup B",
+      "home_team_name": "Sol De America",
+      "away_team_name": "Sportivo Trinid",
+      "competition_name": "Paraguay Kupa 3.Tur",
       "date": "2026-08-26",
-      "time": "22:30",
+      "time": "00:30",
       "status": "live",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
-      "suggested_odds": "1.58",
-      "confidence_score": "57%",
-      "trust_score": "57/100",
-      "analysis_score": 57,
+      "suggested_odds": "1.37",
+      "confidence_score": "61%",
+      "trust_score": "61/100",
+      "analysis_score": 61,
       "analysis_class": "Sadece izleme",
       "value_label": "Piyasa ile Uyumlu",
       "risk_level": "Yüksek",
@@ -115,282 +126,18 @@
       ],
       "signals": [
         "Market: 2.5 Alt",
-        "Oran: 1.58",
+        "Oran: 1.37",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
-        "Birleşik tahmini olasılık %52.",
+        "Marjı temizlenmiş piyasa olasılığı %60.",
+        "Birleşik tahmini olasılık %60.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 364; ham isabet %48.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 57/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Rayo Zuliano",
-      "away_team_name": "Urena Fc",
-      "competition_name": "Venezuela Kupa 1.Tur Grup D",
-      "date": "2026-08-26",
-      "time": "22:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "2.5 Üst",
-      "suggested_odds": "1.59",
-      "confidence_score": "58%",
-      "trust_score": "58/100",
-      "analysis_score": 58,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 1,
-          "home": {
-            "count": 1,
-            "scored": 1,
-            "conceded": 1,
-            "bttsRate": 100,
-            "over25Rate": 100,
-            "over35Rate": 100,
-            "goalsForAvg": 1,
-            "goalsAgainstAvg": 4,
-            "wins": 0,
-            "draws": 0,
-            "losses": 1,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 100,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "2-1",
-        "3-1",
-        "2-2"
-      ],
-      "signals": [
-        "Market: 2.5 Üst",
-        "Oran: 1.59",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %52.",
-        "Birleşik tahmini olasılık %52.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 364; ham isabet %53.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
-        "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
-    },
-    {
-      "home_team_name": "Mineros",
-      "away_team_name": "Dinamo Puerto L",
-      "competition_name": "Venezuela Kupa 1.Tur Grup E",
-      "date": "2026-08-26",
-      "time": "22:30",
-      "status": "live",
-      "source": "Maçkolik canlı robot",
-      "suggested_option": "MS 1",
-      "suggested_odds": "2.03",
-      "confidence_score": "50%",
-      "trust_score": "50/100",
-      "analysis_score": 50,
-      "analysis_class": "Sadece izleme",
-      "value_label": "Piyasa ile Uyumlu",
-      "risk_level": "Yüksek",
-      "data_gap_risk": "Yüksek",
-      "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
-        "memory": {
-          "scoreDelta": 0,
-          "totalMatches": 0,
-          "home": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "away": {
-            "count": 0,
-            "scored": 0,
-            "conceded": 0,
-            "bttsRate": 0,
-            "over25Rate": 0,
-            "over35Rate": 0,
-            "goalsForAvg": 0,
-            "goalsAgainstAvg": 0,
-            "wins": 0,
-            "draws": 0,
-            "losses": 0,
-            "winRate": 0,
-            "drawRate": 0,
-            "lossRate": 0,
-            "pointsPerGame": 0
-          },
-          "league": {
-            "count": 0,
-            "goalAverage": 0,
-            "bttsRate": 0,
-            "over25Rate": 0
-          },
-          "signals": [
-            "Hafıza: takım sonuç örneği henüz sınırlı"
-          ]
-        },
-        "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
-      },
-      "tag": "Sadece izleme",
-      "expected_scores": [
-        "1-0",
-        "2-0",
-        "2-1"
-      ],
-      "signals": [
-        "Market: MS 1",
-        "Oran: 2.03",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %41.",
-        "Birleşik tahmini olasılık %41.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 364; ham isabet %39.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 50/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "Model gücü 61/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "Aragua",
@@ -398,7 +145,7 @@
       "competition_name": "Venezuela Kupa 1.Tur Grup C",
       "date": "2026-08-26",
       "time": "23:00",
-      "status": "live",
+      "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "MS 1",
       "suggested_odds": "2.05",
@@ -410,16 +157,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 4,
         "homeConcededLast10": null,
         "awayConcededLast10": null,
         "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
+        "over25Percent": 49,
+        "over35Percent": 31,
         "firstHalfGoalTrend": null,
         "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "leagueGoalAverage": 2.71,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -468,8 +215,8 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 4,
         "homeConcededLast10Count": null,
         "awayConcededLast10Count": null
       },
@@ -492,27 +239,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Trujillanos",
@@ -520,7 +247,7 @@
       "competition_name": "Venezuela Kupa 1.Tur Grup D",
       "date": "2026-08-26",
       "time": "23:00",
-      "status": "live",
+      "status": "scheduled",
       "source": "Maçkolik canlı robot",
       "suggested_option": "2.5 Alt",
       "suggested_odds": "1.47",
@@ -532,16 +259,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 50,
+        "over25Percent": 44,
+        "over35Percent": 26,
+        "firstHalfGoalTrend": 36,
+        "secondHalfGoalTrend": 56,
+        "leagueGoalAverage": 2.66,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -590,10 +317,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 4,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 4
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -614,27 +341,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Chico",
@@ -654,16 +361,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 3,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 1,
+        "bttsPercent": 40,
+        "over25Percent": 20,
+        "over35Percent": 0,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 55,
+        "leagueGoalAverage": 1.2,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 6,
@@ -712,10 +419,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 3,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 1
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -736,27 +443,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 48/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Platense",
@@ -776,16 +463,16 @@
       "risk_level": "Orta",
       "data_gap_risk": "Orta",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 0,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 1,
+        "bttsPercent": 25,
+        "over25Percent": 25,
+        "over35Percent": 25,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 54,
+        "leagueGoalAverage": 2,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 8,
@@ -834,10 +521,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 1,
+        "awayScoredLast10Count": 0,
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 1
       },
       "tag": "Orta risk kupon adayı",
       "expected_scores": [
@@ -858,27 +545,7 @@
         "Geçmiş market örneği 364; ham isabet %48.",
         "Veri kapsama puanı 49/100 (Orta eksik veri riski).",
         "Model gücü 69/100: Orta risk kupon adayı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Zamora",
@@ -898,16 +565,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 6,
+        "homeConcededLast10": 0,
+        "awayConcededLast10": 5,
+        "bttsPercent": 64,
+        "over25Percent": 75,
+        "over35Percent": 57,
+        "firstHalfGoalTrend": 50,
+        "secondHalfGoalTrend": 70,
+        "leagueGoalAverage": 3.01,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 1,
@@ -960,27 +627,7 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Coquimbo Unido",
@@ -1000,16 +647,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 1,
+        "awayConcededLast10": 6,
+        "bttsPercent": 75,
+        "over25Percent": 50,
+        "over35Percent": 50,
+        "firstHalfGoalTrend": 36,
+        "secondHalfGoalTrend": 56,
+        "leagueGoalAverage": 3.25,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 5,
@@ -1058,10 +705,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 1,
+        "awayScoredLast10Count": 4,
+        "homeConcededLast10Count": 1,
+        "awayConcededLast10Count": 6
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -1082,27 +729,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 57/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": null,
-          "avg_passes": null,
-          "avg_shots": null,
-          "avg_corners": null,
-          "avg_yellow_cards": null,
-          "avg_red_cards": null
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Ldu Quito",
@@ -1122,16 +749,16 @@
       "risk_level": "Orta",
       "data_gap_risk": "Orta",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 0,
+        "awayConcededLast10": 0,
+        "bttsPercent": 61,
+        "over25Percent": 47,
+        "over35Percent": 29,
+        "firstHalfGoalTrend": 47,
+        "secondHalfGoalTrend": 67,
+        "leagueGoalAverage": 2.69,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 2,
@@ -1180,10 +807,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 1,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 0,
+        "awayConcededLast10Count": 0
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -1205,27 +832,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Caracas Fc",
@@ -1245,16 +852,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
         "homeConcededLast10": null,
         "awayConcededLast10": null,
         "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
+        "over25Percent": 55,
+        "over35Percent": 37,
         "firstHalfGoalTrend": null,
         "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "leagueGoalAverage": 2.78,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -1303,8 +910,8 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
+        "homeScoredLast10Count": 5,
+        "awayScoredLast10Count": 5,
         "homeConcededLast10Count": null,
         "awayConcededLast10Count": null
       },
@@ -1327,27 +934,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Aldosivi",
@@ -1367,16 +954,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 3,
+        "awayScoredLast10": 0,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 0,
+        "bttsPercent": 44,
+        "over25Percent": 36,
+        "over35Percent": 25,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 50,
+        "leagueGoalAverage": 2.56,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 1,
@@ -1425,10 +1012,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 3,
+        "awayScoredLast10Count": 0,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 0
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -1449,27 +1036,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Deportivo Peta",
@@ -1489,16 +1056,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 48,
+        "over25Percent": 44,
+        "over35Percent": 26,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 54,
+        "leagueGoalAverage": 2.66,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -1547,10 +1114,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 4,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 4
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -1571,27 +1138,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "America De Cal",
@@ -1611,16 +1158,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 3,
+        "awayScoredLast10": 3,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 40,
+        "over25Percent": 20,
+        "over35Percent": 0,
+        "firstHalfGoalTrend": 38,
+        "secondHalfGoalTrend": 58,
+        "leagueGoalAverage": 1.2,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 5,
@@ -1669,10 +1216,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 3,
+        "awayScoredLast10Count": 3,
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 3
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -1693,27 +1240,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Naples",
@@ -1733,16 +1260,16 @@
       "risk_level": "Orta",
       "data_gap_risk": "Orta",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 1,
+        "awayConcededLast10": 1,
+        "bttsPercent": 100,
+        "over25Percent": 63,
+        "over35Percent": 38,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 49,
+        "leagueGoalAverage": 3.25,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 10,
@@ -1791,10 +1318,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 1,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 1,
+        "awayConcededLast10Count": 1
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -1815,27 +1342,7 @@
         "Geçmiş market örneği 364; ham isabet %48.",
         "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
         "Model gücü 59/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Toluca",
@@ -1855,16 +1362,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 1,
+        "bttsPercent": 66,
+        "over25Percent": 56,
+        "over35Percent": 38,
+        "firstHalfGoalTrend": 52,
+        "secondHalfGoalTrend": 72,
+        "leagueGoalAverage": 2.79,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 1,
@@ -1913,10 +1420,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 5,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 6,
+        "awayConcededLast10Count": 1
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -1938,27 +1445,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 53/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "River Plate (0)",
@@ -1978,16 +1465,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 3,
+        "awayScoredLast10": 3,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 6,
+        "bttsPercent": 68,
+        "over25Percent": 40,
+        "over35Percent": 25,
+        "firstHalfGoalTrend": 54,
+        "secondHalfGoalTrend": 74,
+        "leagueGoalAverage": 2.61,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -2036,10 +1523,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 3,
+        "awayScoredLast10Count": 3,
+        "homeConcededLast10Count": 6,
+        "awayConcededLast10Count": 6
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -2060,27 +1547,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Marathon",
@@ -2100,16 +1567,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 1,
         "awayConcededLast10": null,
         "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
+        "over25Percent": 49,
+        "over35Percent": 31,
         "firstHalfGoalTrend": null,
         "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "leagueGoalAverage": 2.71,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 1,
@@ -2158,9 +1625,9 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
+        "homeScoredLast10Count": 1,
+        "awayScoredLast10Count": 4,
+        "homeConcededLast10Count": 1,
         "awayConcededLast10Count": null
       },
       "tag": "Sadece izleme",
@@ -2182,27 +1649,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Vasco Da Gama",
@@ -2222,16 +1669,16 @@
       "risk_level": "Orta",
       "data_gap_risk": "Orta",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 0,
+        "homeConcededLast10": 1,
+        "awayConcededLast10": 1,
+        "bttsPercent": 62,
+        "over25Percent": 46,
+        "over35Percent": 28,
+        "firstHalfGoalTrend": 48,
+        "secondHalfGoalTrend": 68,
+        "leagueGoalAverage": 2.68,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 2,
@@ -2280,10 +1727,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 1,
+        "awayScoredLast10Count": 0,
+        "homeConcededLast10Count": 1,
+        "awayConcededLast10Count": 1
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -2305,27 +1752,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Palmeiras",
@@ -2345,16 +1772,16 @@
       "risk_level": "Orta",
       "data_gap_risk": "Orta",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 1,
+        "awayConcededLast10": 1,
+        "bttsPercent": 66,
+        "over25Percent": 50,
+        "over35Percent": 32,
+        "firstHalfGoalTrend": 52,
+        "secondHalfGoalTrend": 72,
+        "leagueGoalAverage": 2.72,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 2,
@@ -2403,10 +1830,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 1,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 1,
+        "awayConcededLast10Count": 1
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -2428,27 +1855,7 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
         "Model gücü 56/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Colo Colo",
@@ -2468,16 +1875,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 5,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 6,
+        "bttsPercent": 68,
+        "over25Percent": 56,
+        "over35Percent": 38,
+        "firstHalfGoalTrend": 54,
+        "secondHalfGoalTrend": 74,
+        "leagueGoalAverage": 2.79,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 0,
@@ -2526,10 +1933,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 5,
+        "awayScoredLast10Count": 5,
+        "homeConcededLast10Count": 6,
+        "awayConcededLast10Count": 6
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -2550,27 +1957,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 62/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Recoleta",
@@ -2590,16 +1977,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 0,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 1,
+        "bttsPercent": 41,
+        "over25Percent": 52,
+        "over35Percent": 34,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 47,
+        "leagueGoalAverage": 2.75,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 1,
@@ -2648,10 +2035,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 0,
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 1
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -2672,27 +2059,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Central Norte",
@@ -2712,16 +2079,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 45,
+        "over25Percent": 45,
+        "over35Percent": 90,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 51,
+        "leagueGoalAverage": 2,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 11,
@@ -2770,10 +2137,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 4,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 4
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -2794,27 +2161,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 47/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Blooming",
@@ -2834,16 +2181,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 1,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 1,
+        "awayConcededLast10": 1,
+        "bttsPercent": 50,
+        "over25Percent": 50,
+        "over35Percent": 25,
+        "firstHalfGoalTrend": 38,
+        "secondHalfGoalTrend": 56,
+        "leagueGoalAverage": 2.75,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 6,
@@ -2896,27 +2243,109 @@
         "Düşük oran veya eksik veri nedeniyle elendi",
         "Çifte şans kullanılmadı",
         "Markete özel olasılık ve veri doğrulaması oluşmadı."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
+      ]
+    },
+    {
+      "home_team_name": "Herediano",
+      "away_team_name": "Antigua Guatema",
+      "competition_name": "CONCACAF Orta Amerika Kupası Grup B",
+      "date": "2026-08-27",
+      "time": "03:30",
+      "status": "scheduled",
+      "source": "Maçkolik canlı robot",
+      "suggested_option": "MS 1",
+      "suggested_odds": "1.30",
+      "confidence_score": "62%",
+      "trust_score": "62/100",
+      "analysis_score": 62,
+      "analysis_class": "Sadece izleme",
+      "value_label": "Piyasa ile Uyumlu",
+      "risk_level": "Yüksek",
+      "data_gap_risk": "Yüksek",
+      "analysis_metrics": {
+        "homeScoredLast10": null,
+        "awayScoredLast10": null,
+        "homeConcededLast10": null,
+        "awayConcededLast10": null,
+        "bttsPercent": null,
+        "over25Percent": null,
+        "over35Percent": null,
+        "firstHalfGoalTrend": null,
+        "secondHalfGoalTrend": null,
+        "leagueGoalAverage": null,
+        "memory": {
+          "scoreDelta": 0,
+          "totalMatches": 1,
+          "home": {
+            "count": 1,
+            "scored": 0,
+            "conceded": 1,
+            "bttsRate": 0,
+            "over25Rate": 100,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 3,
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "winRate": 0,
+            "drawRate": 0,
+            "lossRate": 100,
+            "pointsPerGame": 0
+          },
+          "away": {
+            "count": 0,
+            "scored": 0,
+            "conceded": 0,
+            "bttsRate": 0,
+            "over25Rate": 0,
+            "over35Rate": 0,
+            "goalsForAvg": 0,
+            "goalsAgainstAvg": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "winRate": 0,
+            "drawRate": 0,
+            "lossRate": 0,
+            "pointsPerGame": 0
+          },
+          "league": {
+            "count": 0,
+            "goalAverage": 0,
+            "bttsRate": 0,
+            "over25Rate": 0
+          },
+          "signals": [
+            "Hafıza: takım sonuç örneği henüz sınırlı"
+          ]
         },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+        "poisson": null,
+        "homeScoredLast10Count": null,
+        "awayScoredLast10Count": null,
+        "homeConcededLast10Count": null,
+        "awayConcededLast10Count": null
+      },
+      "tag": "Sadece izleme",
+      "expected_scores": [
+        "1-0",
+        "2-0",
+        "2-1"
+      ],
+      "signals": [
+        "Market: MS 1",
+        "Oran: 1.30",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %64.",
+        "Birleşik tahmini olasılık %64.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 364; ham isabet %39.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
+        "Model gücü 62/100: Sadece izleme."
+      ]
     },
     {
       "home_team_name": "El Paso Locomo",
@@ -2936,16 +2365,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 0,
+        "bttsPercent": 42,
+        "over25Percent": 50,
+        "over35Percent": 42,
+        "firstHalfGoalTrend": 37,
+        "secondHalfGoalTrend": 57,
+        "leagueGoalAverage": 2.75,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 13,
@@ -2994,10 +2423,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 0
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -3018,27 +2447,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Atletico Nacio",
@@ -3058,16 +2467,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 3,
+        "awayScoredLast10": 3,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 40,
+        "over25Percent": 20,
+        "over35Percent": 0,
+        "firstHalfGoalTrend": 49,
+        "secondHalfGoalTrend": 69,
+        "leagueGoalAverage": 1.2,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 5,
@@ -3116,10 +2525,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 3,
+        "awayScoredLast10Count": 3,
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 3
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -3140,27 +2549,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "New Mexico Uni",
@@ -3180,16 +2569,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 4,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 0,
+        "bttsPercent": 42,
+        "over25Percent": 50,
+        "over35Percent": 42,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 53,
+        "leagueGoalAverage": 2.75,
         "memory": {
           "scoreDelta": 5,
           "totalMatches": 13,
@@ -3239,10 +2628,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 4,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 0
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -3264,27 +2653,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 60/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Xelaju",
@@ -3304,16 +2673,16 @@
       "risk_level": "Orta",
       "data_gap_risk": "Orta",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 0,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 1,
+        "awayConcededLast10": 0,
+        "bttsPercent": 49,
+        "over25Percent": 52,
+        "over35Percent": 34,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 55,
+        "leagueGoalAverage": 2.75,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 2,
@@ -3362,10 +2731,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 0,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 1,
+        "awayConcededLast10Count": 0
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -3386,27 +2755,7 @@
         "Geçmiş market örneği 364; ham isabet %48.",
         "Veri kapsama puanı 46/100 (Orta eksik veri riski).",
         "Model gücü 64/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Alajuelense",
@@ -3426,16 +2775,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 0,
+        "awayScoredLast10": 4,
+        "homeConcededLast10": 1,
+        "awayConcededLast10": 4,
+        "bttsPercent": 51,
+        "over25Percent": 52,
+        "over35Percent": 34,
+        "firstHalfGoalTrend": 37,
+        "secondHalfGoalTrend": 57,
+        "leagueGoalAverage": 2.75,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 1,
@@ -3484,10 +2833,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 0,
+        "awayScoredLast10Count": 4,
+        "homeConcededLast10Count": 1,
+        "awayConcededLast10Count": 4
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -3508,27 +2857,7 @@
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 58/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     },
     {
       "home_team_name": "Club America",
@@ -3548,16 +2877,16 @@
       "risk_level": "Yüksek",
       "data_gap_risk": "Yüksek",
       "analysis_metrics": {
-        "homeScoredLast10": null,
-        "awayScoredLast10": null,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
-        "over25Percent": null,
-        "over35Percent": null,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
-        "leagueGoalAverage": null,
+        "homeScoredLast10": 5,
+        "awayScoredLast10": 1,
+        "homeConcededLast10": 5,
+        "awayConcededLast10": 1,
+        "bttsPercent": 62,
+        "over25Percent": 54,
+        "over35Percent": 36,
+        "firstHalfGoalTrend": 48,
+        "secondHalfGoalTrend": 68,
+        "leagueGoalAverage": 2.77,
         "memory": {
           "scoreDelta": 0,
           "totalMatches": 1,
@@ -3606,10 +2935,10 @@
           ]
         },
         "poisson": null,
-        "homeScoredLast10Count": null,
-        "awayScoredLast10Count": null,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null
+        "homeScoredLast10Count": 5,
+        "awayScoredLast10Count": 1,
+        "homeConcededLast10Count": 5,
+        "awayConcededLast10Count": 1
       },
       "tag": "Sadece izleme",
       "expected_scores": [
@@ -3631,29 +2960,8 @@
         "Kritik/derbi/belirsiz maç nedeniyle model puanı düşürüldü.",
         "Veri kapsama puanı 42/100 (Yüksek eksik veri riski).",
         "Model gücü 50/100: Sadece izleme."
-      ],
-      "team_style_memory": {
-        "home": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        },
-        "away": {
-          "dominance_rate": 0,
-          "avg_possession": 0,
-          "avg_passes": 0,
-          "avg_shots": 0,
-          "avg_corners": 0,
-          "avg_yellow_cards": 0,
-          "avg_red_cards": 0
-        }
-      }
+      ]
     }
   ],
-  "team_style_memory_enabled": true,
-  "team_style_memory_updated_at": "2026-08-25T21:53:31.955Z"
+  "focused_market_count": 16
 }

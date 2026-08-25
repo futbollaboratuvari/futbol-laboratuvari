@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 26.08.2026 00:42:49
+Oluşturma: 26.08.2026 00:57:37
 
 ## Özet
 
-- Toplam tahmin: 1162
-- Bekleyen tahmin: 812
+- Toplam tahmin: 1164
+- Bekleyen tahmin: 814
 - Kazanan tahmin: 141
 - Kaybeden tahmin: 208
 - Lig sayısı: 182
@@ -21,14 +21,16 @@ Oluşturma: 26.08.2026 00:42:49
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 41, bekleyen 25, başarı %88, ağırlık 1.12
-- 2.5 Alt: toplam 123, bekleyen 79, başarı %75, ağırlık 1.12
-- MS 1: toplam 156, bekleyen 106, başarı %34, ağırlık 0.88
+- 2.5 Alt: toplam 124, bekleyen 80, başarı %75, ağırlık 1.12
+- MS 1: toplam 157, bekleyen 107, başarı %34, ağırlık 0.88
 - MS 2: toplam 317, bekleyen 194, başarı %33, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-26 | CONCACAF Orta Amerika Kupası Grup B | Herediano - Antigua Guatema | MS 1 | pending | 50/100
+- 2026-08-26 | Paraguay Kupa 3.Tur | Sol De America - Sportivo Trinid | 2.5 Alt | pending | 64/100
 - 2026-08-26 | Kolombiya Primera A Clausura | Atletico Nacio - Deportivo Cali | MS 1 | pending | 46/100
 - 2026-08-26 | ABD USL | New Mexico Uni - Lexington | 2.5 Üst | pending | 64/100
 - 2026-08-26 | CONCACAF Orta Amerika Kupası Grup A | Xelaju - Firpo | 2.5 Alt | pending | 76/100
@@ -42,6 +44,4 @@ Oluşturma: 26.08.2026 00:42:49
 - 2026-08-26 | Kolombiya Primera A Clausura | Chico - Fortaleza | MS 1 | pending | 37/100
 - 2026-08-26 | El Salvador Primera Lig Apertura | Platense - Alianza | 2.5 Alt | pending | 75/100
 - 2026-08-26 | Şili Premier Lig | Coquimbo Unido - Univ. Catolica | 2.5 Alt | pending | 64/100
-- 2026-08-26 | Ekvador Kupa Çeyrek Final | Ldu Quito - Aucas | 2.5 Alt | pending | 69/100
-- 2026-08-26 | Venezuela Kupa 1.Tur Grup C | Caracas Fc - Fundacion Lara | 2.5 Alt | pending | 63/100
 

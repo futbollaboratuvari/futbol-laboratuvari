@@ -1,15 +1,15 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T21:29:17.122188+00:00
+Tarih: 2026-08-25T21:57:04.039451+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 161
-- Kac mac kaydedildi: 161
-- Kac mac zaten vardi: 0
-- Ham veri havuzu toplam mac sayisi: 9225
+- Kac mac bulundu: 162
+- Kac mac kaydedildi: 1
+- Kac mac zaten vardi: 161
+- Ham veri havuzu toplam mac sayisi: 9226
 - Hedef tarih: 26.08.2026 Europe/Istanbul
 
 ## Ligler
@@ -138,19 +138,19 @@ Tarih: 2026-08-25T21:29:17.122188+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
+| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celje (1) | (1) Slovan Bratisla | 06619 | 5 |
 | 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Lyon (1) | (1) Fenerbahçe | 06471 | 5 |
 | 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Aek (0) | (0) Levski Sofya | 06322 | 5 |
 | 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Viking (2) | (2) Dinamo Zagreb | 06795 | 5 |
-| 26.08.2026 | 22:00 | UEFA Şampiyonlar Ligi Play Off | Celje (1) | (1) Slovan Bratisla | 06619 | 5 |
 | 26.08.2026 | 19:45 | UEFA Konferans Ligi Play Off | Rapid Wien (2) | (2) Hearts | 06151 | 5 |
 | 26.08.2026 | 22:00 | İspanya LaLiga | Real Madrid | Real Sociedad | 16821 | 5 |
 | 26.08.2026 | 21:00 | Suudi Arabistan Pro Lig | Diriyah | Al Kholood | 21358 | 5 |
 | 26.08.2026 | 19:00 | Suudi Arabistan Pro Lig | Al Faisaly | Al Fateh | 21316 | 5 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Tottenham | Charlton | 13645 | 5 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Bradford | Burnley | 13519 | 5 |
-| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Newcastle Utd | West Bromwich | 13573 | 5 |
 | 26.08.2026 | 22:00 | İngiltere Lig Kupası 2.Tur | Prest | Everton | 13699 | 5 |
-| 26.08.2026 | 21:00 | FIFA Kıtalararası Kupa 1. Tur | Al Ahli (Cidde | Auckland | 22596 | 5 |
+| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Bradford | Burnley | 13519 | 5 |
+| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Tottenham | Charlton | 13645 | 5 |
+| 26.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Newcastle Utd | West Bromwich | 13573 | 5 |
+| 26.08.2026 | 21:00 | FIFA Kıtalararası Kupa 1. Tur | Al Ahli (Cidde | Auckland | 22596 | 4 |
 | 26.08.2026 | 16:00 | AFF Şampiyonası Final | Vietnam (2) | (0) Tayland | 16383 | 5 |
 | 26.08.2026 | 12:30 | Avustralya FFA Kupası Çeyrek Final | Preston Lions | South Melbourne | 15926 | 5 |
 | 26.08.2026 | 13:30 | Güney Kore K Lig 1 | Daejeon Citize | Ulsan | 16097 | 5 |
