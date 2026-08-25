@@ -2,10 +2,9 @@
 
 Durum: warning
 Toplam analiz: 127
-Tam analiz: 106
-Eksik analiz: 21
+Tam analiz: 108
+Eksik analiz: 19
 
-- Queensland Lio VS North Sunshine: eksik score, confidence
 - Nb Bolrholm VS Hellerup Ik: eksik score, confidence
 - Horni Redice VS Dukla Prag: eksik score, confidence
 - Sokol Zapy VS Bohemians 1905: eksik score, confidence
@@ -23,5 +22,5 @@ Eksik analiz: 21
 - Spartans VS Hearts Ii: eksik score, confidence
 - Stranraer VS Gala Fairydean: eksik score, confidence
 - Peterhead VS Dundee Ii: eksik score, confidence
-- East Fife VS St. Mirren Ii: eksik score, confidence
 - Ross County VS Banks O Dee: eksik score, confidence
+- Afturelding VS Grotta: eksik score, confidence

@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
-Ham mac: 138
+Ham mac: 127
 Aktif mac: 122
 Canli mac: 5
-Biten mac: 11
-Bultenden dusurulen mac: 16
+Biten mac: 0
+Bultenden dusurulen mac: 5
 Bugun: 112
 Yarin: 10
 
@@ -142,14 +142,4 @@ Yarin: 10
 - 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | live | -
 
 ## Biten Maclar
-- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
-- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
-- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
-- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
-- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
-- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
-- 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | finished | -
-- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | finished | -
-- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | finished | -
-- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | finished | -
-- 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | finished | -
+Biten mac yok.
