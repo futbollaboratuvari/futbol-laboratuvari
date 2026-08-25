@@ -3,15 +3,14 @@
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
 Ham mac: 127
-Aktif mac: 127
-Canli mac: 0
+Aktif mac: 126
+Canli mac: 1
 Biten mac: 0
-Bultenden dusurulen mac: 0
-Bugun: 117
+Bultenden dusurulen mac: 1
+Bugun: 116
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | scheduled | -
 - 2026-08-25 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | scheduled | -
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | scheduled | -
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | scheduled | -
@@ -140,7 +139,7 @@ Yarin: 10
 - 2026-08-26 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | scheduled | -
 
 ## Canli Maclar
-Canli mac yok.
+- 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | live | -
 
 ## Biten Maclar
 Biten mac yok.
