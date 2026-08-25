@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 07:06:05
+Oluşturma: 25.08.2026 07:23:00
 
 ## Özet
 
-- Toplam tahmin: 1088
-- Bekleyen tahmin: 787
+- Toplam tahmin: 1090
+- Bekleyen tahmin: 789
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 169
@@ -21,7 +21,7 @@ Oluşturma: 25.08.2026 07:06:05
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 28, bekleyen 18, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 87, bekleyen 60, başarı %85, ağırlık 1.12
+- 2.5 Alt: toplam 89, bekleyen 62, başarı %85, ağırlık 1.12
 - MS 1: toplam 139, bekleyen 104, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 309, bekleyen 197, başarı %30, ağırlık 0.88
@@ -29,7 +29,9 @@ Oluşturma: 25.08.2026 07:06:05
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-25 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Üst | won | 72/100
+- 2026-08-25 | İsveç Superettan | Orebro - Varbergs | 2.5 Alt | pending | 64/100
+- 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Marítimo U23 - Estrela U23 | 2.5 Alt | pending | 64/100
+- 2026-08-25 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | 2.5 Üst | won | 66/100
 - 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Fk Varnsdorf - Usti Nad Labem | MS 2 | pending | 50/100
 - 2026-08-25 | Brezilya Serie B | Sport Recife - America Mineiro | 2.5 Üst | won | 79/100
 - 2026-08-25 | Brezilya Serie B | Athletic Club - Novorizontino | 2.5 Üst | won | 74/100
@@ -42,6 +44,4 @@ Oluşturma: 25.08.2026 07:06:05
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Annan - Berwick | MS 1 | pending | 49/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Clachnacuddin - Elgin | MS 2 | pending | 43/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Hamilton - Edinburg C. | MS 1 | pending | 46/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 1 | pending | 39/100
 
