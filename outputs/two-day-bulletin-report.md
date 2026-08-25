@@ -2,11 +2,11 @@
 
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
-Ham mac: 134
+Ham mac: 127
 Aktif mac: 124
-Canli mac: 4
-Biten mac: 6
-Bultenden dusurulen mac: 10
+Canli mac: 3
+Biten mac: 0
+Bultenden dusurulen mac: 3
 Bugun: 115
 Yarin: 9
 
@@ -137,15 +137,9 @@ Yarin: 9
 - 2026-08-26 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | scheduled | -
 
 ## Canli Maclar
-- 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | live | -
 - 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | live | -
 - 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | live | -
 - 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | live | -
 
 ## Biten Maclar
-- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
-- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
-- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
-- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
-- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
-- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
+Biten mac yok.
