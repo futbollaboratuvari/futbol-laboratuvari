@@ -1,39 +1,56 @@
 # Bugünün En Güçlü Maçları
 
 ## Aktif Veri
-- Maçkolik canlı veri bekleniyor
-- Güncelleme: 2026-08-25T21:38:14.826Z
-- Ham maç sayısı: 30
-- Yarın bülteni maç sayısı: 25
-- Detay blok sayısı: 86
-- Aktif bülten maçı: 25
-- Bültenden düşürülen maç: 5
+- Kaynak: Maçkolik canlı robot
+- Motor: High Value Coupon Engine
+- Puanlama: Net eşik kuralları
+- Güncelleme: 2026-08-25T21:42:40.916Z
+- Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
+- Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
 ## Skorlanan Maclar
-| Mac | Lig | Saat | En Guclu Market | Skor | Oran | Oran Degeri |
-| --- | --- | --- | --- | --- | --- | --- |
-| Chico - Fortaleza | Kolombiya Primera A Clausura | 00:00 | Veri bekleniyor | - | 2.39 | 8 |
-| Platense - Alianza | El Salvador Primera Lig Apertura | 00:00 | Veri bekleniyor | - | 2.59 | 8 |
-| Zamora - Real Frontera | Venezuela Kupa 1.Tur Grup B | 00:00 | Veri bekleniyor | - | - | 5 |
-| Coquimbo Unido - Univ. Catolica | Şili Premier Lig | 01:00 | Veri bekleniyor | - | 1.92 | 8 |
-| Ldu Quito - Aucas | Ekvador Kupa Çeyrek Final | 01:00 | Veri bekleniyor | - | 1.51 | 7 |
-| Caracas Fc - Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 01:00 | Veri bekleniyor | - | 1.12 | 6 |
-| Aldosivi - Rivadavia | Arjantin Kupa Son 16 Turu | 01:15 | Veri bekleniyor | - | 3.74 | 8 |
-| Deportivo Peta - Academia Anzoat | Venezuela Kupa 1.Tur Grup A | 02:00 | Veri bekleniyor | - | 2.5 | 8 |
-| America De Cal - Atletico Junior | Kolombiya Primera A Clausura | 02:20 | Veri bekleniyor | - | 1.7 | 8 |
-| Naples - Union Omaha | ABD USL Lig 1 | 02:30 | Veri bekleniyor | - | 2.96 | 8 |
-| Toluca - Austin | CONCACAF Ligler Kupası Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.34 | 7 |
-| River Plate (0) - (0) Santa Fe | Copa Sudamericana Son 16 Turu | 03:30 | Veri bekleniyor | - | 1.3 | 7 |
-| Marathon - Real Esteli | CONCACAF Orta Amerika Kupası Grup B | 03:30 | Veri bekleniyor | - | 2.11 | 6 |
-| Vasco Da Gama - Vitoria Bahia | Brezilya Kupa Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.48 | 7 |
-| Palmeiras - Santos | Brezilya Kupa Çeyrek Final | 03:30 | Veri bekleniyor | - | 1.33 | 7 |
-| Colo Colo - Union Espanola | Şili Kupa Grup E | 03:30 | Veri bekleniyor | - | 1.26 | 7 |
-| Recoleta - O Higgins | Şili Kupa Grup E | 03:30 | Veri bekleniyor | - | 3.29 | 8 |
-| Central Norte - Moron | Arjantin Ulusal Primera Lig | 03:30 | Veri bekleniyor | - | 2.39 | 6 |
-| Blooming - Real Oruro | Bolivya Premier Lig | 03:30 | Veri bekleniyor | - | 1.24 | 4 |
-| El Paso Locomo - Pittsburgh Rive | ABD USL | 04:00 | Veri bekleniyor | - | 1.93 | 8 |
-| Atletico Nacio - Deportivo Cali | Kolombiya Primera A Clausura | 04:30 | Veri bekleniyor | - | 1.44 | 7 |
-| New Mexico Uni - Lexington | ABD USL | 04:30 | Veri bekleniyor | - | 2.4 | 8 |
-| Xelaju - Firpo | CONCACAF Orta Amerika Kupası Grup A | 05:30 | Veri bekleniyor | - | 2 | 8 |
-| Alajuelense - Plaza Amador | CONCACAF Orta Amerika Kupası Grup A | 05:30 | Veri bekleniyor | - | 1.53 | 8 |
-| Club America - Columbus | CONCACAF Ligler Kupası Çeyrek Final | 05:45 | Veri bekleniyor | - | 1.49 | 7 |
+| Mac | Lig | Saat | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| El Vigia VS Atletico Barina | Venezuela Kupa 1.Tur Grup B | 22:30 | 2.5 Alt | 1.58 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Rayo Zuliano VS Urena Fc | Venezuela Kupa 1.Tur Grup D | 22:30 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Mineros VS Dinamo Puerto L | Venezuela Kupa 1.Tur Grup E | 22:30 | MS 1 | 2.03 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Aragua VS Yaracuyanos | Venezuela Kupa 1.Tur Grup C | 23:00 | MS 1 | 2.05 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Trujillanos VS Deportivo Lara | Venezuela Kupa 1.Tur Grup D | 23:00 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
+| Chico VS Fortaleza | Kolombiya Primera A Clausura | 00:00 | MS 1 | 2.39 | 48 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Platense VS Alianza | El Salvador Primera Lig Apertura | 00:00 | 2.5 Alt | 1.41 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta | scheduled |
+| Zamora VS Real Frontera | Venezuela Kupa 1.Tur Grup B | 00:00 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| Coquimbo Unido VS Univ. Catolica | Şili Premier Lig | 01:00 | 2.5 Alt | 1.62 | 57 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Ldu Quito VS Aucas | Ekvador Kupa Çeyrek Final | 01:00 | 2.5 Alt | 1.56 | 58 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Caracas Fc VS Fundacion Lara | Venezuela Kupa 1.Tur Grup C | 01:00 | 2.5 Alt | 1.85 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Aldosivi VS Rivadavia | Arjantin Kupa Son 16 Turu | 01:15 | MS 2 | 1.73 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Deportivo Peta VS Academia Anzoat | Venezuela Kupa 1.Tur Grup A | 02:00 | 2.5 Alt | 1.47 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| America De Cal VS Atletico Junior | Kolombiya Primera A Clausura | 02:20 | 2.5 Alt | 1.48 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Naples VS Union Omaha | ABD USL Lig 1 | 02:30 | 2.5 Alt | 1.94 | 59 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Toluca VS Austin | CONCACAF Ligler Kupası Çeyrek Final | 03:30 | MS 1 | 1.34 | 53 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| River Plate (0) VS (0) Santa Fe | Copa Sudamericana Son 16 Turu | 03:30 | MS 1 | 1.30 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Marathon VS Real Esteli | CONCACAF Orta Amerika Kupası Grup B | 03:30 | MS 1 | 2.11 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Vasco Da Gama VS Vitoria Bahia | Brezilya Kupa Çeyrek Final | 03:30 | 2.5 Alt | 1.53 | 56 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Palmeiras VS Santos | Brezilya Kupa Çeyrek Final | 03:30 | 2.5 Üst | 1.65 | 56 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
+| Colo Colo VS Union Espanola | Şili Kupa Grup E | 03:30 | MS 1 | 1.26 | 62 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Recoleta VS O Higgins | Şili Kupa Grup E | 03:30 | 2.5 Üst | 1.59 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Central Norte VS Moron | Arjantin Ulusal Primera Lig | 03:30 | MS 1 | 2.39 | 47 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Blooming VS Real Oruro | Bolivya Premier Lig | 03:30 | Değerli market yok | - | 0 | Oynama | Değerli market yok | Yüksek | Yüksek | filtered_no_value_market |
+| El Paso Locomo VS Pittsburgh Rive | ABD USL | 04:00 | 2.5 Alt | 1.44 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Atletico Nacio VS Deportivo Cali | Kolombiya Primera A Clausura | 04:30 | MS 1 | 1.44 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| New Mexico Uni VS Lexington | ABD USL | 04:30 | 2.5 Üst | 1.61 | 60 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Xelaju VS Firpo | CONCACAF Orta Amerika Kupası Grup A | 05:30 | 2.5 Alt | 1.71 | 64 | Sadece izleme | Değerli | Orta | Orta | scheduled |
+| Alajuelense VS Plaza Amador | CONCACAF Orta Amerika Kupası Grup A | 05:30 | 2.5 Üst | 1.58 | 58 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Club America VS Columbus | CONCACAF Ligler Kupası Çeyrek Final | 05:45 | MS 1 | 1.49 | 50 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+
+## Tek Mac Onerileri
+| Mac | Seçenek | Oran | Analiz Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Platense VS Alianza | 2.5 Alt | 1.41 | 69 | Orta risk kupon adayı | Değerli | Orta | Orta |
+
+## 2'li Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+## 3'lu Kupon Onerileri
+| Maclar | Seçenekler | Oran | Kupon Puanı | Sınıf | Değer Etiketi | Risk | Veri Eksikliği |
+| --- | --- | --- | --- | --- | --- | --- | --- |
