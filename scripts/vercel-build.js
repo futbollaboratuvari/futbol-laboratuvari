@@ -94,6 +94,12 @@ try {
 }
 
 try {
+  require("./band-lite").runBandLite();
+} catch (error) {
+  console.warn(`Bant sinyalleri yenilenemedi: ${error.message}`);
+}
+
+try {
   require("./build-pro-analysis-index").buildProAnalysisIndex();
 } catch (error) {
   console.warn(`PRO analiz indeksi atlandi: ${error.message}`);
