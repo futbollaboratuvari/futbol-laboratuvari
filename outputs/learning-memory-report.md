@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 10:16:41
+Oluşturma: 25.08.2026 10:29:42
 
 ## Özet
 
-- Toplam tahmin: 1095
-- Bekleyen tahmin: 794
+- Toplam tahmin: 1096
+- Bekleyen tahmin: 795
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 169
@@ -21,7 +21,7 @@ Oluşturma: 25.08.2026 10:16:41
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 28, bekleyen 18, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 92, bekleyen 65, başarı %85, ağırlık 1.12
+- 2.5 Alt: toplam 93, bekleyen 66, başarı %85, ağırlık 1.12
 - MS 1: toplam 140, bekleyen 105, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 310, bekleyen 198, başarı %30, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 25.08.2026 10:16:41
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Watford - Peterborough | 2.5 Alt | pending | 70/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 2 | pending | 38/100
@@ -43,5 +44,4 @@ Oluşturma: 25.08.2026 10:16:41
 - 2026-08-25 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Üst | won | 70/100
 - 2026-08-25 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Chemnitzer | MS 1 | pending | 43/100
 - 2026-08-25 | Irak Premier Lig | Zakho - Diala | MS 1 | pending | 46/100
-- 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 39/100
 
