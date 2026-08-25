@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T06:46:12.033Z",
+  "generated_at": "2026-08-25T07:07:55.798Z",
   "date": "2026-08-25",
   "timezone": "Europe/Istanbul",
   "engine": "Futbol Laboratuvarı PRO 13",
@@ -9,7 +9,7 @@
   "source": "robot-analysis.json compact verified projection",
   "summary": {
     "match_count": 124,
-    "pro_ready_count": 41,
+    "pro_ready_count": 40,
     "coupon_candidate_count": 11,
     "average_data_completeness": 34
   },
@@ -3988,8 +3988,13 @@
       "metrics": {
         "homeScoredLast10": 3,
         "awayScoredLast10": 3,
+        "homeConcededLast10": 6,
+        "awayConcededLast10": 6,
+        "bttsPercent": 66,
         "over25Percent": 35,
         "over35Percent": 25,
+        "firstHalfGoalTrend": 52,
+        "secondHalfGoalTrend": 72,
         "leagueGoalAverage": 2.55
       },
       "signals": [
@@ -4707,11 +4712,11 @@
       "away": "Kilmarnock Ii",
       "match_code": "15147",
       "status": "scheduled",
-      "recommended_market": "2.5 Alt",
-      "model_score": 64,
+      "recommended_market": "MS 2",
+      "model_score": 37,
       "score_type": "signal_strength",
-      "estimated_probability": 45.1,
-      "market_probability": 45.1,
+      "estimated_probability": 38.6,
+      "market_probability": 38.6,
       "edge_percent": 0,
       "data_completeness": 40,
       "data_quality": "Sınırlı",
@@ -4720,13 +4725,13 @@
       "probability_source": [],
       "data_gap_risk": "Yüksek",
       "risk_level": "Yüksek",
-      "recommended_odd": 1.35,
+      "recommended_odd": 2.14,
       "include_in_coupon": false,
       "value_label": "Piyasa ile Uyumlu",
       "expected_scores": [
-        "0-0",
-        "1-0",
-        "1-1"
+        "0-1",
+        "0-2",
+        "1-2"
       ],
       "metrics": {
         "homeScoredLast10": 5,
@@ -4736,12 +4741,12 @@
         "leagueGoalAverage": 2.78
       },
       "signals": [
-        "Market: 2.5 Alt",
-        "Oran: 1.35",
+        "Market: MS 2",
+        "Oran: 2.14",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %45.",
-        "Birleşik tahmini olasılık %45.",
+        "Marjı temizlenmiş piyasa olasılığı %39.",
+        "Birleşik tahmini olasılık %39.",
         "Model-piyasa farkı +0.0 puan."
       ],
       "model_version": "pro13-market-conditioned-v1",
