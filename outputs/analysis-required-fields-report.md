@@ -1,8 +1,8 @@
 # Analiz Zorunlu Alan Kontrolu
 
 Durum: warning
-Toplam analiz: 127
-Tam analiz: 108
+Toplam analiz: 122
+Tam analiz: 103
 Eksik analiz: 19
 
 - Nb Bolrholm VS Hellerup Ik: eksik score, confidence
