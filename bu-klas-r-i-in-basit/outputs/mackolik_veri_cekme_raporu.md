@@ -1,34 +1,41 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T19:05:53.358984+00:00
+Tarih: 2026-08-25T19:35:54.679151+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 2
+- Kac mac bulundu: 12
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 2
+- Kac mac zaten vardi: 12
 - Ham veri havuzu toplam mac sayisi: 9064
 - Hedef tarih: 25.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Danimarka DBU Kupası 2.Tur
-- İzlanda 1.Lig
+- Arjantin Ulusal Primera Lig
+- Bolivya Premier Lig
+- Brezilya Kupa Çeyrek Final
+- Brezilya Serie B
+- CONCACAF Ligler Kupası Çeyrek Final
+- CONCACAF Orta Amerika Kupası Grup D
+- Copa Libertadores Son 16 Turu
+- Kolombiya Primera A Clausura
+- Paraguay Kupa 3.Tur
 
 ## Okunabilen Oran Alanlari
 
+- alt_25
 - ms_1
 - ms_2
 - ms_x
+- ust_25
 
 ## Okunamayan Oran Alanlari
 
 - kg_var
 - kg_yok
-- alt_25
-- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -72,8 +79,8 @@ Tarih: 2026-08-25T19:05:53.358984+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 11
-- Acilan detay: 11
+- Denenen Tumu alani: 9
+- Acilan detay: 9
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
@@ -86,8 +93,18 @@ Tarih: 2026-08-25T19:05:53.358984+00:00
 
 | Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
 |---|---|---|---|---|---|---:|
-| 25.08.2026 | 18:30 | Danimarka DBU Kupası 2.Tur | Frederikssund | Sundby | 08595 | 3 |
-| 25.08.2026 | 22:15 | İzlanda 1.Lig | Afturelding | Grotta | 15734 | 3 |
+| 26.08.2026 | 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon | Salt Lake | 21658 | 5 |
+| 26.08.2026 | 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey | Chicago | 21607 | 5 |
+| 26.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Indep. Jose Te (1) | (0) Deportes Tolima | 05989 | 5 |
+| 26.08.2026 | 05:30 | CONCACAF Orta Amerika Kupası Grup D | Municipal | Depor Motagua | 19887 | 5 |
+| 26.08.2026 | 05:30 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines | Deportivo Fas | 02225 | 5 |
+| 26.08.2026 | 03:00 | Brezilya Kupa Çeyrek Final | Cruzeiro | Atletico Mg | 15848 | 5 |
+| 26.08.2026 | 04:00 | Kolombiya Primera A Clausura | Depor Cucuta | Alianza Petrole | 15909 | 5 |
+| 26.08.2026 | 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr | Godoy Cruz | 12136 | 3 |
+| 26.08.2026 | 01:30 | Brezilya Serie B | Juventude | Regatas | 15784 | 5 |
+| 26.08.2026 | 01:30 | Brezilya Serie B | Atletico Goian | Botafogo Ribeir | 15751 | 5 |
+| 26.08.2026 | 02:00 | Bolivya Premier Lig | Universitario | Nacional Potosi | 09207 | 5 |
+| 26.08.2026 | 00:30 | Paraguay Kupa 3.Tur | Sol De America | Sportivo Trinid | 00739 | 5 |
 
 ## Sonuc
 
