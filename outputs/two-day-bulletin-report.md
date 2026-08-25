@@ -2,16 +2,15 @@
 
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
-Ham mac: 128
-Aktif mac: 123
-Canli mac: 5
-Biten mac: 0
-Bultenden dusurulen mac: 5
-Bugun: 113
+Ham mac: 138
+Aktif mac: 122
+Canli mac: 6
+Biten mac: 10
+Bultenden dusurulen mac: 16
+Bugun: 112
 Yarin: 10
 
 ## Baslamamis Maclar
-- 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | scheduled | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | scheduled | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Coventry City - Fleetwood Town | scheduled | -
 - 2026-08-25 15:00 | İngiltere Professional Development Lig | Millwall U21 - Huddersfield To | scheduled | -
@@ -141,6 +140,16 @@ Yarin: 10
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | live | -
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Jeju Utd - Pohang Steelers | live | -
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | live | -
+- 2026-08-25 14:00 | İngiltere Professional Development Lig | Swansea (B) - Peterborough Un | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
+- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
+- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
+- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
+- 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | finished | -
+- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | finished | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | finished | -

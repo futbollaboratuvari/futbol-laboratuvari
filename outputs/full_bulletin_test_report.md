@@ -2,8 +2,8 @@
 
 - Status: pass
 - Restored from cache: false
-- Scheduled match count: 123
-- Live match count: 5
+- Scheduled match count: 122
+- Live match count: 6
 - Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
@@ -12,7 +12,7 @@
 - 2026-08-25 13:30 | Fc Seoul - Bucheon | live
 - 2026-08-25 13:30 | Gimcheon Sangm - Jeonbuk Hm | live
 - 2026-08-25 13:30 | Jeju Utd - Pohang Steelers | live
-- 2026-08-25 14:00 | Swansea (B) - Peterborough Un | scheduled
+- 2026-08-25 14:00 | Swansea (B) - Peterborough Un | live
 - 2026-08-25 15:00 | Coventry City - Fleetwood Town | scheduled
 - 2026-08-25 15:00 | Millwall U21 - Huddersfield To | scheduled
 - 2026-08-25 15:00 | Wigan Athletic - Cardiff City U2 | scheduled

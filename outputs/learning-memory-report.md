@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 13:55:31
+Oluşturma: 25.08.2026 14:07:35
 
 ## Özet
 
-- Toplam tahmin: 1107
-- Bekleyen tahmin: 806
+- Toplam tahmin: 1108
+- Bekleyen tahmin: 807
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 170
@@ -22,13 +22,14 @@ Oluşturma: 25.08.2026 13:55:31
 
 - 2.5 Üst: toplam 30, bekleyen 20, başarı %100, ağırlık 1.12
 - 2.5 Alt: toplam 98, bekleyen 71, başarı %85, ağırlık 1.12
-- MS 1: toplam 143, bekleyen 108, başarı %40, ağırlık 0.88
+- MS 1: toplam 144, bekleyen 109, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 311, bekleyen 199, başarı %30, ağırlık 0.88
 - Güncel maç değil: toplam 159, bekleyen 158, başarı bekleniyor, ağırlık 1
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | Brezilya Serie B | Juventude - Regatas | MS 1 | pending | 43/100
 - 2026-08-25 | İngiltere Non League Premier Kuzey | Workington - Rylands | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Kuveyt Premier Lig | Al Fahaheel - Al Qadsia | MS 2 | pending | 49/100
 - 2026-08-25 | Tanzanya Kuu Bara Ligi | Namungo - Fountain Gate | MS 1 | pending | 41/100
@@ -43,5 +44,4 @@ Oluşturma: 25.08.2026 13:55:31
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank Fc | 2.5 Alt | pending | 64/100
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Watford - Peterborough | 2.5 Alt | pending | 70/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | 2.5 Alt | pending | 64/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 2 | pending | 38/100
 
