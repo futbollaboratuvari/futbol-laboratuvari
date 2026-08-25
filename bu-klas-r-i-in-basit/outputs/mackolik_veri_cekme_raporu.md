@@ -1,14 +1,14 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T12:22:04.412867+00:00
+Tarih: 2026-08-25T13:17:39.665521+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 107
+- Kac mac bulundu: 105
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 107
+- Kac mac zaten vardi: 105
 - Ham veri havuzu toplam mac sayisi: 9061
 - Hedef tarih: 25.08.2026 Europe/Istanbul
 
@@ -34,7 +34,6 @@ Tarih: 2026-08-25T12:22:04.412867+00:00
 - İngiltere Lig Kupası 2.Tur
 - İngiltere Non League Premier Kuzey
 - İngiltere Premier Lig Kupası Grup F
-- İngiltere Professional Development Lig
 - İskoçya Challenge Kupası Lig Aşaması
 - İspanya LaLiga
 - İsveç 2.Lig Södra Götaland
@@ -96,8 +95,8 @@ Tarih: 2026-08-25T12:22:04.412867+00:00
 
 ## Mac Detay Pencereleri
 
-- Denenen Tumu alani: 34
-- Acilan detay: 34
+- Denenen Tumu alani: 33
+- Acilan detay: 33
 - Detaydan oran okunan mac: 0
 - Detaydan okunan oran alani: 0
 - Yasakli aksiyon nedeniyle atlanan: 0
