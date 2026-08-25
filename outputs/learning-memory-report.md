@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 05:34:43
+Oluşturma: 25.08.2026 05:48:23
 
 ## Özet
 
-- Toplam tahmin: 1083
-- Bekleyen tahmin: 789
+- Toplam tahmin: 1086
+- Bekleyen tahmin: 792
 - Kazanan tahmin: 112
 - Kaybeden tahmin: 181
 - Lig sayısı: 169
@@ -20,7 +20,7 @@ Oluşturma: 25.08.2026 05:34:43
 
 ## En Güçlü Seçenek Hafızası
 
-- 2.5 Üst: toplam 24, bekleyen 18, başarı %100, ağırlık 1.12
+- 2.5 Üst: toplam 27, bekleyen 21, başarı %100, ağırlık 1.12
 - 2.5 Alt: toplam 87, bekleyen 62, başarı %88, ağırlık 1.12
 - MS 1: toplam 139, bekleyen 105, başarı %41, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
@@ -29,6 +29,9 @@ Oluşturma: 25.08.2026 05:34:43
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | Brezilya Serie B | Sport Recife - America Mineiro | 2.5 Üst | pending | 73/100
+- 2026-08-25 | Brezilya Serie B | Athletic Club - Novorizontino | 2.5 Üst | pending | 68/100
+- 2026-08-25 | Brezilya Serie A | Botafogo - Atletico Pr | 2.5 Üst | pending | 70/100
 - 2026-08-25 | Almanya Bölgesel Lig Kuzey Doğu | Leipzig - Chemnitzer | MS 1 | pending | 43/100
 - 2026-08-25 | Irak Premier Lig | Zakho - Diala | MS 1 | pending | 46/100
 - 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 40/100
@@ -41,7 +44,4 @@ Oluşturma: 25.08.2026 05:34:43
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 1 | pending | 39/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Montrose - Clyde | MS 1 | pending | 43/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank | 2.5 Alt | pending | 64/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Airdrieonians - Stirling Albion | MS 1 | pending | 47/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Forfar - Formartine Unit | MS 1 | pending | 43/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Fraserburgh - Aberdeen Ii | MS 1 | pending | 39/100
 
