@@ -1,29 +1,22 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T18:05:47.590950+00:00
+Tarih: 2026-08-25T18:20:16.324734+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 67
+- Kac mac bulundu: 55
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 67
+- Kac mac zaten vardi: 55
 - Ham veri havuzu toplam mac sayisi: 9063
 - Hedef tarih: 25.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Ulusal Primera Lig
 - Bolivya Premier Lig
-- Brezilya Kupa Çeyrek Final
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Çeyrek Final
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
 - Danimarka DBU Kupası 2.Tur
 - Irak Premier Lig
-- Kolombiya Primera A Clausura
 - Paraguay Kupa 3.Tur
 - Portekiz U23 Ulusal Şampiyona
 - UEFA Şampiyonlar Ligi Play Off
@@ -121,7 +114,7 @@ Tarih: 2026-08-25T18:05:47.590950+00:00
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Sheffield Wed | Wolverhampton | 12995 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Southam | West Ham | 13063 | 5 |
 | 25.08.2026 | 21:45 | İngiltere Lig Kupası 2.Tur | Watford | Peterborough | 13353 | 5 |
-| 26.08.2026 | 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey | Chicago | 21607 | 5 |
+| 25.08.2026 | 21:45 | İskoçya Challenge Kupası Lig Aşaması | Cove Rangers | Dundee United I | 15113 | 2 |
 
 ## Sonuc
 
