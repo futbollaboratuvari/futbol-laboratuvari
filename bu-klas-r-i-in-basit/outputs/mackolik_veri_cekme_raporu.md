@@ -1,41 +1,34 @@
 # Mackolik Veri Cekme Raporu
 
-Tarih: 2026-08-25T20:02:52.118336+00:00
+Tarih: 2026-08-25T20:06:05.212153+00:00
 
 ## Ozet
 
 - Kaynak: https://arsiv.mackolik.com/Iddaa-Programi
 - Durum: success
-- Kac mac bulundu: 12
+- Kac mac bulundu: 0
 - Kac mac kaydedildi: 0
-- Kac mac zaten vardi: 12
+- Kac mac zaten vardi: 0
 - Ham veri havuzu toplam mac sayisi: 9064
 - Hedef tarih: 25.08.2026 Europe/Istanbul
 
 ## Ligler
 
-- Arjantin Ulusal Primera Lig
-- Bolivya Premier Lig
-- Brezilya Kupa Çeyrek Final
-- Brezilya Serie B
-- CONCACAF Ligler Kupası Çeyrek Final
-- CONCACAF Orta Amerika Kupası Grup D
-- Copa Libertadores Son 16 Turu
-- Kolombiya Primera A Clausura
-- Paraguay Kupa 3.Tur
+- Lig verisi okunamadi veya mac bulunamadi.
 
 ## Okunabilen Oran Alanlari
 
-- alt_25
-- ms_1
-- ms_2
-- ms_x
-- ust_25
+- Oran alani okunamadi.
 
 ## Okunamayan Oran Alanlari
 
+- ms_1
+- ms_x
+- ms_2
 - kg_var
 - kg_yok
+- alt_25
+- ust_25
 - alt_35
 - ust_35
 - iy_kg_var
@@ -91,20 +84,7 @@ Tarih: 2026-08-25T20:02:52.118336+00:00
 
 ## Ornek Maclar
 
-| Tarih | Saat | Lig | Ev Sahibi | Deplasman | Mac Kodu | Okunan Oran Sayisi |
-|---|---|---|---|---|---|---:|
-| 26.08.2026 | 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon | Salt Lake | 21658 | 5 |
-| 26.08.2026 | 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey | Chicago | 21607 | 5 |
-| 26.08.2026 | 03:30 | Copa Libertadores Son 16 Turu | Indep. Jose Te (1) | (0) Deportes Tolima | 05989 | 5 |
-| 26.08.2026 | 05:30 | CONCACAF Orta Amerika Kupası Grup D | Municipal | Depor Motagua | 19887 | 5 |
-| 26.08.2026 | 05:30 | CONCACAF Orta Amerika Kupası Grup D | Cs Cartagines | Deportivo Fas | 02225 | 5 |
-| 26.08.2026 | 03:00 | Brezilya Kupa Çeyrek Final | Cruzeiro | Atletico Mg | 15848 | 5 |
-| 26.08.2026 | 04:00 | Kolombiya Primera A Clausura | Depor Cucuta | Alianza Petrole | 15909 | 5 |
-| 26.08.2026 | 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr | Godoy Cruz | 12136 | 3 |
-| 26.08.2026 | 01:30 | Brezilya Serie B | Juventude | Regatas | 15784 | 5 |
-| 26.08.2026 | 01:30 | Brezilya Serie B | Atletico Goian | Botafogo Ribeir | 15751 | 5 |
-| 26.08.2026 | 02:00 | Bolivya Premier Lig | Universitario | Nacional Potosi | 09207 | 5 |
-| 26.08.2026 | 00:30 | Paraguay Kupa 3.Tur | Sol De America | Sportivo Trinid | 00739 | 5 |
+- Ornek mac yok.
 
 ## Sonuc
 
