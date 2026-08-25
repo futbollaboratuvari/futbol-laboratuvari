@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:34:49.450Z",
+  "generated_at": "2026-08-25T07:58:14.659Z",
   "date": "2026-08-25",
   "engine": "Futbol Laboratuvarı PRO 13",
   "model_version": "pro13-market-conditioned-v1",
@@ -9,7 +9,7 @@
     "fixture_count": 125,
     "scored_match_count": 125,
     "coupon_candidate_count": 11,
-    "watch_candidate_count": 81,
+    "watch_candidate_count": 82,
     "learning_adjusted_count": 105
   },
   "watchlist": [
@@ -23650,6 +23650,279 @@
         "league_market_bucket": {
           "total": 8,
           "pending": 8,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        }
+      }
+    },
+    {
+      "match_name": "Dumbarton VS Celtic Ii",
+      "home": "Dumbarton",
+      "away": "Celtic Ii",
+      "date": "2026-08-25",
+      "match_code": "15164",
+      "league": "İskoçya Challenge Kupası Lig Aşaması",
+      "start_time": "21:45",
+      "recommended_market": "2.5 Alt",
+      "confidence_score": "63%",
+      "model_score": 63,
+      "analysis_score": 63,
+      "score_type": "signal_strength",
+      "estimated_probability": 44.7,
+      "market_probability": 44.7,
+      "edge_percent": 0,
+      "data_completeness": 40,
+      "evidence_mode": "market_baseline",
+      "independent_evidence": false,
+      "probability_source": [],
+      "model_version": "pro13-market-conditioned-v1",
+      "risk_level": "Yüksek",
+      "estimated_odds": "1.36",
+      "available_odds": {
+        "ms1": "2.29",
+        "msx": "3.45",
+        "ms2": "2.07",
+        "over25": "1.10",
+        "under25": "1.36",
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "-",
+        "bttsNo": "-",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.29,
+        "msx": 3.45,
+        "ms2": 2.07,
+        "under25": 1.36,
+        "over25": 1.1
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "15164",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.29,
+            "msx": 3.45,
+            "ms2": 2.07
+          }
+        },
+        {
+          "market_code": "15164",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.29,
+            "firstHalfX_guess": 3.45,
+            "firstHalf2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "15164",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.29,
+            "secondHalfX_guess": 3.45,
+            "secondHalf2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "15164",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.29,
+            "handicapX_guess": 3.45,
+            "handicap2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.36,
+            "msx": 1.1,
+            "ms2": 1.29
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.36,
+            "firstHalfX_guess": 1.1,
+            "firstHalf2_guess": 1.29
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.36,
+            "secondHalfX_guess": 1.1,
+            "secondHalf2_guess": 1.29
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.36,
+            "handicapX_guess": 1.1,
+            "handicap2_guess": 1.29
+          }
+        }
+      ],
+      "raw_market_blocks": [
+        {
+          "market_code": "15164",
+          "values": [
+            2.29,
+            3.45,
+            2.07
+          ],
+          "guess": "Maç Sonucu 1/X/2",
+          "named_values": {
+            "ms1": 2.29,
+            "msx": 3.45,
+            "ms2": 2.07
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 2.29,
+                "msx": 3.45,
+                "ms2": 2.07
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 2.29,
+                "firstHalfX_guess": 3.45,
+                "firstHalf2_guess": 2.07
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 2.29,
+                "secondHalfX_guess": 3.45,
+                "secondHalf2_guess": 2.07
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 2.29,
+                "handicapX_guess": 3.45,
+                "handicap2_guess": 2.07
+              }
+            }
+          ]
+        },
+        {
+          "market_code": "15166",
+          "values": [
+            1.36,
+            1.1,
+            1.29
+          ],
+          "guess": "2.5 Alt / Üst",
+          "named_values": {
+            "under25": 1.36,
+            "over25": 1.1
+          },
+          "detail_market_candidates": [
+            {
+              "market": "Maç Sonucu 1/X/2",
+              "values": {
+                "ms1": 1.36,
+                "msx": 1.1,
+                "ms2": 1.29
+              }
+            },
+            {
+              "market": "İlk Yarı 1/X/2",
+              "values": {
+                "firstHalf1_guess": 1.36,
+                "firstHalfX_guess": 1.1,
+                "firstHalf2_guess": 1.29
+              }
+            },
+            {
+              "market": "İkinci Yarı 1/X/2",
+              "values": {
+                "secondHalf1_guess": 1.36,
+                "secondHalfX_guess": 1.1,
+                "secondHalf2_guess": 1.29
+              }
+            },
+            {
+              "market": "Handikap 1/X/2",
+              "values": {
+                "handicap1_guess": 1.36,
+                "handicapX_guess": 1.1,
+                "handicap2_guess": 1.29
+              }
+            }
+          ]
+        }
+      ],
+      "odds_source": "Robot ham veri havuzu",
+      "value_label": "Piyasa ile Uyumlu",
+      "band_attention_level": "Düşük",
+      "band_attention_notes": [
+        "Bant ile skor arasında belirgin çelişki yok."
+      ],
+      "robot_comment": "Market: 2.5 Alt | Oran: 1.36 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "include_in_coupon": false,
+      "suitable_coupon_type": "Sadece izleme",
+      "data_gap_risk": "Yüksek",
+      "status": "scheduled",
+      "expected_scores": [
+        "0-0",
+        "1-0",
+        "1-1"
+      ],
+      "learning_adjustment": {
+        "market": "2.5 Alt",
+        "league": "İskoçya Challenge Kupası Lig Aşaması",
+        "delta": 4,
+        "weight": 1.12,
+        "applied": true,
+        "notes": [
+          "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)"
+        ],
+        "market_bucket": {
+          "total": 93,
+          "pending": 66,
+          "won": 23,
+          "lost": 4,
+          "void": 0,
+          "success_rate": 0.852,
+          "weight": 1.12,
+          "confidence_adjustment": 4
+        },
+        "league_bucket": {
+          "total": 15,
+          "pending": 15,
+          "won": 0,
+          "lost": 0,
+          "void": 0,
+          "success_rate": null,
+          "weight": 1,
+          "confidence_adjustment": 0
+        },
+        "league_market_bucket": {
+          "total": 3,
+          "pending": 3,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -80015,13 +80288,13 @@
       "metrics": {
         "homeScoredLast10": 5,
         "awayScoredLast10": 5,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 3,
+        "awayConcededLast10": 3,
+        "bttsPercent": 41,
         "over25Percent": 59,
         "over35Percent": 41,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 47,
         "leagueGoalAverage": 2.83,
         "memory": {
           "scoreDelta": 0,
@@ -80073,8 +80346,8 @@
         "poisson": null,
         "homeScoredLast10Count": 5,
         "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null,
+        "homeConcededLast10Count": 3,
+        "awayConcededLast10Count": 3,
         "learning_adjustment": {
           "market": "MS 2",
           "league": "İskoçya Challenge Kupası Lig Aşaması",
@@ -81256,13 +81529,13 @@
       "match_code": "15164",
       "league": "İskoçya Challenge Kupası Lig Aşaması",
       "start_time": "21:45",
-      "recommended_market": "MS 2",
-      "confidence_score": "38%",
-      "model_score": 38,
-      "analysis_score": 38,
+      "recommended_market": "2.5 Alt",
+      "confidence_score": "63%",
+      "model_score": 63,
+      "analysis_score": 63,
       "score_type": "signal_strength",
-      "estimated_probability": 39.9,
-      "market_probability": 39.9,
+      "estimated_probability": 44.7,
+      "market_probability": 44.7,
       "edge_percent": 0,
       "data_completeness": 40,
       "evidence_mode": "market_baseline",
@@ -81270,7 +81543,7 @@
       "probability_source": [],
       "model_version": "pro13-market-conditioned-v1",
       "risk_level": "Yüksek",
-      "estimated_odds": "2.07",
+      "estimated_odds": "1.36",
       "available_odds": {
         "ms1": "2.29",
         "msx": "3.45",
@@ -81470,34 +81743,34 @@
       "band_attention_notes": [
         "Bant ile skor arasında belirgin çelişki yok."
       ],
-      "robot_comment": "Market: MS 2 | Oran: 2.07 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "robot_comment": "Market: 2.5 Alt | Oran: 1.36 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
       "include_in_coupon": false,
-      "suitable_coupon_type": "Oynama",
+      "suitable_coupon_type": "Sadece izleme",
       "data_gap_risk": "Yüksek",
       "status": "scheduled",
       "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
+        "0-0",
+        "1-0",
+        "1-1"
       ],
       "learning_adjustment": {
-        "market": "MS 2",
+        "market": "2.5 Alt",
         "league": "İskoçya Challenge Kupası Lig Aşaması",
-        "delta": -5,
-        "weight": 0.88,
+        "delta": 4,
+        "weight": 1.12,
         "applied": true,
         "notes": [
-          "Öğrenme: MS 2 başarı hafızası %30 (-5)"
+          "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)"
         ],
         "market_bucket": {
-          "total": 310,
-          "pending": 198,
-          "won": 34,
-          "lost": 78,
+          "total": 93,
+          "pending": 66,
+          "won": 23,
+          "lost": 4,
           "void": 0,
-          "success_rate": 0.304,
-          "weight": 0.88,
-          "confidence_adjustment": -5
+          "success_rate": 0.852,
+          "weight": 1.12,
+          "confidence_adjustment": 4
         },
         "league_bucket": {
           "total": 15,
@@ -81510,8 +81783,8 @@
           "confidence_adjustment": 0
         },
         "league_market_bucket": {
-          "total": 4,
-          "pending": 4,
+          "total": 3,
+          "pending": 3,
           "won": 0,
           "lost": 0,
           "void": 0,
@@ -81584,23 +81857,23 @@
         "homeConcededLast10Count": null,
         "awayConcededLast10Count": null,
         "learning_adjustment": {
-          "market": "MS 2",
+          "market": "2.5 Alt",
           "league": "İskoçya Challenge Kupası Lig Aşaması",
-          "delta": -5,
-          "weight": 0.88,
+          "delta": 4,
+          "weight": 1.12,
           "applied": true,
           "notes": [
-            "Öğrenme: MS 2 başarı hafızası %30 (-5)"
+            "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)"
           ],
           "market_bucket": {
-            "total": 310,
-            "pending": 198,
-            "won": 34,
-            "lost": 78,
+            "total": 93,
+            "pending": 66,
+            "won": 23,
+            "lost": 4,
             "void": 0,
-            "success_rate": 0.304,
-            "weight": 0.88,
-            "confidence_adjustment": -5
+            "success_rate": 0.852,
+            "weight": 1.12,
+            "confidence_adjustment": 4
           },
           "league_bucket": {
             "total": 15,
@@ -81613,8 +81886,8 @@
             "confidence_adjustment": 0
           },
           "league_market_bucket": {
-            "total": 4,
-            "pending": 4,
+            "total": 3,
+            "pending": 3,
             "won": 0,
             "lost": 0,
             "void": 0,
@@ -81625,20 +81898,20 @@
         }
       },
       "signals": [
-        "Market: MS 2",
-        "Oran: 2.07",
+        "Market: 2.5 Alt",
+        "Oran: 1.36",
         "Veri tipi: standard",
         "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Birleşik tahmini olasılık %40.",
+        "Marjı temizlenmiş piyasa olasılığı %45.",
+        "Birleşik tahmini olasılık %45.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 324; ham isabet %33.",
+        "Geçmiş market örneği 324; ham isabet %49.",
         "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
         "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 49/100: Sadece izleme.",
-        "Öğrenme: MS 2 başarı hafızası %30 (-5)",
-        "Öğrenme etkisi: 49/100 → 38/100"
+        "Model gücü 53/100: Sadece izleme.",
+        "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)",
+        "Öğrenme etkisi: 53/100 → 63/100"
       ]
     },
     {
@@ -87053,13 +87326,13 @@
       "metrics": {
         "homeScoredLast10": 5,
         "awayScoredLast10": 5,
-        "homeConcededLast10": null,
-        "awayConcededLast10": null,
-        "bttsPercent": null,
+        "homeConcededLast10": 4,
+        "awayConcededLast10": 4,
+        "bttsPercent": 45,
         "over25Percent": 55,
         "over35Percent": 37,
-        "firstHalfGoalTrend": null,
-        "secondHalfGoalTrend": null,
+        "firstHalfGoalTrend": 35,
+        "secondHalfGoalTrend": 51,
         "leagueGoalAverage": 2.78,
         "memory": {
           "scoreDelta": 0,
@@ -87111,8 +87384,8 @@
         "poisson": null,
         "homeScoredLast10Count": 5,
         "awayScoredLast10Count": 5,
-        "homeConcededLast10Count": null,
-        "awayConcededLast10Count": null,
+        "homeConcededLast10Count": 4,
+        "awayConcededLast10Count": 4,
         "learning_adjustment": {
           "market": "MS 2",
           "league": "İskoçya Challenge Kupası Lig Aşaması",

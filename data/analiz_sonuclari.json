@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:35:00.486Z",
+  "generated_at": "2026-08-25T07:58:25.078Z",
   "date": "2026-08-25",
   "timezone": "Europe/Istanbul",
   "source": "Futbol Laboratuvarı PRO 13",
@@ -9,7 +9,7 @@
     "scored_match_count": 125,
     "active_item_count": 125,
     "coupon_candidate_count": 11,
-    "watch_candidate_count": 38
+    "watch_candidate_count": 39
   },
   "active_items": [
     {
@@ -11363,6 +11363,168 @@
         "Değer etiketi: Piyasa ile Uyumlu",
         "Marjı temizlenmiş piyasa olasılığı %44.",
         "Birleşik tahmini olasılık %44.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 324; ham isabet %49.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 53/100: Sadece izleme.",
+        "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)",
+        "Öğrenme etkisi: 53/100 → 63/100"
+      ],
+      "source": "Robot ham veri havuzu"
+    },
+    {
+      "id": "auto-83",
+      "date": "2026-08-25",
+      "time": "21:45",
+      "league": "İskoçya Challenge Kupası Lig Aşaması",
+      "title": "Dumbarton VS Celtic Ii",
+      "match": "Dumbarton VS Celtic Ii",
+      "market": "2.5 Alt",
+      "prediction": "2.5 Alt",
+      "decision": "İzleme",
+      "score": "63%",
+      "confidence": "63%",
+      "confidence_score": "63%",
+      "model_score": 63,
+      "score_type": "signal_strength",
+      "estimated_probability": 44.7,
+      "market_probability": 44.7,
+      "edge_percent": 0,
+      "data_completeness": 40,
+      "model_version": "pro13-market-conditioned-v1",
+      "risk": "Yüksek",
+      "risk_level": "Yüksek",
+      "status": "scheduled",
+      "estimated_odds": "1.36",
+      "available_odds": {
+        "ms1": "2.29",
+        "msx": "3.45",
+        "ms2": "2.07",
+        "over25": "1.10",
+        "under25": "1.36",
+        "over35": "-",
+        "under35": "-",
+        "bttsYes": "-",
+        "bttsNo": "-",
+        "firstHalfBttsYes": "-",
+        "firstHalfBttsNo": "-",
+        "secondHalfBttsYes": "-",
+        "secondHalfBttsNo": "-"
+      },
+      "raw_market_guess_odds": {
+        "ms1": 2.29,
+        "msx": 3.45,
+        "ms2": 2.07,
+        "under25": 1.36,
+        "over25": 1.1
+      },
+      "detail_market_candidates": [
+        {
+          "market_code": "15164",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 2.29,
+            "msx": 3.45,
+            "ms2": 2.07
+          }
+        },
+        {
+          "market_code": "15164",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 2.29,
+            "firstHalfX_guess": 3.45,
+            "firstHalf2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "15164",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 2.29,
+            "secondHalfX_guess": 3.45,
+            "secondHalf2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "15164",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 2.29,
+            "handicapX_guess": 3.45,
+            "handicap2_guess": 2.07
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "Maç Sonucu 1/X/2",
+          "values": {
+            "ms1": 1.36,
+            "msx": 1.1,
+            "ms2": 1.29
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "İlk Yarı 1/X/2",
+          "values": {
+            "firstHalf1_guess": 1.36,
+            "firstHalfX_guess": 1.1,
+            "firstHalf2_guess": 1.29
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "İkinci Yarı 1/X/2",
+          "values": {
+            "secondHalf1_guess": 1.36,
+            "secondHalfX_guess": 1.1,
+            "secondHalf2_guess": 1.29
+          }
+        },
+        {
+          "market_code": "15166",
+          "market": "Handikap 1/X/2",
+          "values": {
+            "handicap1_guess": 1.36,
+            "handicapX_guess": 1.1,
+            "handicap2_guess": 1.29
+          }
+        }
+      ],
+      "expected_scores": [
+        "0-0",
+        "1-0",
+        "1-1"
+      ],
+      "value_label": "Piyasa ile Uyumlu",
+      "commentary": "Market: 2.5 Alt | Oran: 1.36 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "robot_comment": "Market: 2.5 Alt | Oran: 1.36 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
+      "pro_signals": [
+        "Market: 2.5 Alt",
+        "Oran: 1.36",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %45.",
+        "Birleşik tahmini olasılık %45.",
+        "Model-piyasa farkı +0.0 puan.",
+        "Hafıza: takım sonuç örneği henüz sınırlı",
+        "Geçmiş market örneği 324; ham isabet %49.",
+        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
+        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
+        "Model gücü 53/100: Sadece izleme.",
+        "Öğrenme: 2.5 Alt başarı hafızası %85 (+4)",
+        "Öğrenme etkisi: 53/100 → 63/100"
+      ],
+      "signals": [
+        "Market: 2.5 Alt",
+        "Oran: 1.36",
+        "Veri tipi: standard",
+        "Değer etiketi: Piyasa ile Uyumlu",
+        "Marjı temizlenmiş piyasa olasılığı %45.",
+        "Birleşik tahmini olasılık %45.",
         "Model-piyasa farkı +0.0 puan.",
         "Hafıza: takım sonuç örneği henüz sınırlı",
         "Geçmiş market örneği 324; ham isabet %49.",
@@ -26233,168 +26395,6 @@
       "source": "Robot ham veri havuzu"
     },
     {
-      "id": "auto-83",
-      "date": "2026-08-25",
-      "time": "21:45",
-      "league": "İskoçya Challenge Kupası Lig Aşaması",
-      "title": "Dumbarton VS Celtic Ii",
-      "match": "Dumbarton VS Celtic Ii",
-      "market": "MS 2",
-      "prediction": "MS 2",
-      "decision": "Oynama",
-      "score": "38%",
-      "confidence": "38%",
-      "confidence_score": "38%",
-      "model_score": 38,
-      "score_type": "signal_strength",
-      "estimated_probability": 39.9,
-      "market_probability": 39.9,
-      "edge_percent": 0,
-      "data_completeness": 40,
-      "model_version": "pro13-market-conditioned-v1",
-      "risk": "Yüksek",
-      "risk_level": "Yüksek",
-      "status": "scheduled",
-      "estimated_odds": "2.07",
-      "available_odds": {
-        "ms1": "2.29",
-        "msx": "3.45",
-        "ms2": "2.07",
-        "over25": "1.10",
-        "under25": "1.36",
-        "over35": "-",
-        "under35": "-",
-        "bttsYes": "-",
-        "bttsNo": "-",
-        "firstHalfBttsYes": "-",
-        "firstHalfBttsNo": "-",
-        "secondHalfBttsYes": "-",
-        "secondHalfBttsNo": "-"
-      },
-      "raw_market_guess_odds": {
-        "ms1": 2.29,
-        "msx": 3.45,
-        "ms2": 2.07,
-        "under25": 1.36,
-        "over25": 1.1
-      },
-      "detail_market_candidates": [
-        {
-          "market_code": "15164",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 2.29,
-            "msx": 3.45,
-            "ms2": 2.07
-          }
-        },
-        {
-          "market_code": "15164",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 2.29,
-            "firstHalfX_guess": 3.45,
-            "firstHalf2_guess": 2.07
-          }
-        },
-        {
-          "market_code": "15164",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 2.29,
-            "secondHalfX_guess": 3.45,
-            "secondHalf2_guess": 2.07
-          }
-        },
-        {
-          "market_code": "15164",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 2.29,
-            "handicapX_guess": 3.45,
-            "handicap2_guess": 2.07
-          }
-        },
-        {
-          "market_code": "15166",
-          "market": "Maç Sonucu 1/X/2",
-          "values": {
-            "ms1": 1.36,
-            "msx": 1.1,
-            "ms2": 1.29
-          }
-        },
-        {
-          "market_code": "15166",
-          "market": "İlk Yarı 1/X/2",
-          "values": {
-            "firstHalf1_guess": 1.36,
-            "firstHalfX_guess": 1.1,
-            "firstHalf2_guess": 1.29
-          }
-        },
-        {
-          "market_code": "15166",
-          "market": "İkinci Yarı 1/X/2",
-          "values": {
-            "secondHalf1_guess": 1.36,
-            "secondHalfX_guess": 1.1,
-            "secondHalf2_guess": 1.29
-          }
-        },
-        {
-          "market_code": "15166",
-          "market": "Handikap 1/X/2",
-          "values": {
-            "handicap1_guess": 1.36,
-            "handicapX_guess": 1.1,
-            "handicap2_guess": 1.29
-          }
-        }
-      ],
-      "expected_scores": [
-        "0-1",
-        "0-2",
-        "1-2"
-      ],
-      "value_label": "Piyasa ile Uyumlu",
-      "commentary": "Market: MS 2 | Oran: 2.07 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
-      "robot_comment": "Market: MS 2 | Oran: 2.07 | Veri tipi: standard | Değer etiketi: Piyasa ile Uyumlu",
-      "pro_signals": [
-        "Market: MS 2",
-        "Oran: 2.07",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Birleşik tahmini olasılık %40.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 324; ham isabet %33.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 49/100: Sadece izleme.",
-        "Öğrenme: MS 2 başarı hafızası %30 (-5)",
-        "Öğrenme etkisi: 49/100 → 38/100"
-      ],
-      "signals": [
-        "Market: MS 2",
-        "Oran: 2.07",
-        "Veri tipi: standard",
-        "Değer etiketi: Piyasa ile Uyumlu",
-        "Marjı temizlenmiş piyasa olasılığı %40.",
-        "Birleşik tahmini olasılık %40.",
-        "Model-piyasa farkı +0.0 puan.",
-        "Hafıza: takım sonuç örneği henüz sınırlı",
-        "Geçmiş market örneği 324; ham isabet %33.",
-        "Bağımsız form/gol örneği yok; çıktı piyasa tabanı olarak sınırlandı.",
-        "Veri kapsama puanı 40/100 (Yüksek eksik veri riski).",
-        "Model gücü 49/100: Sadece izleme.",
-        "Öğrenme: MS 2 başarı hafızası %30 (-5)",
-        "Öğrenme etkisi: 49/100 → 38/100"
-      ],
-      "source": "Robot ham veri havuzu"
-    },
-    {
       "id": "auto-51",
       "date": "2026-08-25",
       "time": "20:30",
@@ -36919,9 +36919,9 @@
     }
   ],
   "performance": {
-    "prediction_count": 1096,
+    "prediction_count": 1097,
     "measured_count": 300,
-    "pending_count": 795,
+    "pending_count": 796,
     "won_count": 117,
     "lost_count": 183,
     "void_count": 1,
@@ -37001,5 +37001,5 @@
     "İY/MS 2/X",
     "İY/MS 2/2"
   ],
-  "focused_market_note": "First half result, second half result and HT/FT markets are focus markets."
+  "focused_market_note": "Robot analiz çıktısı siteye bağlandı."
 }
