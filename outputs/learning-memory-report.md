@@ -1,6 +1,6 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 02:58:16
+Oluşturma: 25.08.2026 04:14:35
 
 ## Özet
 
@@ -29,7 +29,7 @@ Oluşturma: 25.08.2026 02:58:16
 
 ## Son Tahmin Kayıtları
 
-- 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 38/100
+- 2026-08-25 | Bolivya Premier Lig | Universitario - Nacional Potosi | MS 1 | pending | 40/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - Kilmarnock Ii | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Paraguay Kupa 3.Tur | General Caball - Rubio Nu | 2.5 Alt | pending | 64/100
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Alt | pending | 64/100
@@ -39,7 +39,7 @@ Oluşturma: 25.08.2026 02:58:16
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Dumbarton - Celtic Ii | MS 1 | pending | 39/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Montrose - Clyde | MS 1 | pending | 43/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Kelty Hearts - Clydebank | 2.5 Alt | pending | 64/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Airdrieonians - Stirling Albion | MS 1 | pending | 45/100
+- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Airdrieonians - Stirling Albion | MS 1 | pending | 46/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Forfar - Formartine Unit | MS 1 | pending | 43/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Fraserburgh - Aberdeen Ii | MS 1 | pending | 39/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Cumbernauld Co - Kilmarnock Ii | MS 2 | pending | 38/100

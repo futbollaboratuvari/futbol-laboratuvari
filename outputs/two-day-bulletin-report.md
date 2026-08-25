@@ -3,17 +3,14 @@
 Gunler: 2026-08-25 / 2026-08-26
 Kaynak: fixtures.json
 Ham mac: 134
-Aktif mac: 127
-Canli mac: 7
-Biten mac: 0
-Bultenden dusurulen mac: 7
-Bugun: 118
+Aktif mac: 124
+Canli mac: 4
+Biten mac: 6
+Bultenden dusurulen mac: 10
+Bugun: 115
 Yarin: 9
 
 ## Baslamamis Maclar
-- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | scheduled | -
-- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | scheduled | -
-- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | scheduled | -
 - 2026-08-25 12:30 | Avustralya FFA Kupası Çeyrek Final | Queensland Lio - North Sunshine | scheduled | -
 - 2026-08-25 13:00 | Portekiz U23 Ulusal Şampiyona | Estoril U23 - Moreirense U23 | scheduled | -
 - 2026-08-25 13:30 | Güney Kore K Lig 1 | Gimcheon Sangm - Jeonbuk Hm | scheduled | -
@@ -140,13 +137,15 @@ Yarin: 9
 - 2026-08-26 05:30 | CONCACAF Ligler Kupası Çeyrek Final | Club Leon - Salt Lake | scheduled | -
 
 ## Canli Maclar
-- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | live | -
-- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | live | -
-- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | live | -
-- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | live | -
-- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | live | -
-- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | live | -
 - 2026-08-25 02:30 | Şili Premier Lig | Everton De Vin - Univ De Concepc | live | -
+- 2026-08-25 03:00 | Ekvador Pro Lig | Libertad - Depor Macara | live | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Lanus - Argentinos Jr | live | -
+- 2026-08-25 03:15 | Arjantin Premier Lig 2. Aşama | Talleres - Rosario Central | live | -
 
 ## Biten Maclar
-Biten mac yok.
+- 2026-08-25 01:00 | Arjantin Premier Lig 2. Aşama | Tigre - Corboda Santiag | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Sport Recife - America Mineiro | finished | -
+- 2026-08-25 01:30 | Brezilya Serie B | Athletic Club - Novorizontino | finished | -
+- 2026-08-25 02:00 | Brezilya Serie A | Botafogo - Atletico Pr | finished | -
+- 2026-08-25 02:00 | Arjantin Ulusal Primera Lig | Ferro Carril O - All Boys | finished | -
+- 2026-08-25 02:00 | ABD USL | Charleston Bat - Miami Fc | finished | -
