@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 18:59:22
+Oluşturma: 25.08.2026 19:05:30
 
 ## Özet
 
-- Toplam tahmin: 1114
-- Bekleyen tahmin: 813
+- Toplam tahmin: 1116
+- Bekleyen tahmin: 815
 - Kazanan tahmin: 117
 - Kaybeden tahmin: 183
 - Lig sayısı: 170
@@ -21,7 +21,7 @@ Oluşturma: 25.08.2026 18:59:22
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 31, bekleyen 21, başarı %100, ağırlık 1.12
-- 2.5 Alt: toplam 99, bekleyen 72, başarı %85, ağırlık 1.12
+- 2.5 Alt: toplam 101, bekleyen 74, başarı %85, ağırlık 1.12
 - MS 1: toplam 145, bekleyen 110, başarı %40, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 314, bekleyen 202, başarı %30, ağırlık 0.88
@@ -29,6 +29,8 @@ Oluşturma: 25.08.2026 18:59:22
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | İngiltere Non League Premier Kuzey | Cleethorpes To - Whitby Town | 2.5 Alt | pending | 64/100
+- 2026-08-25 | Suudi Arabistan Pro Lig | Abha - Al Khaleej | 2.5 Alt | pending | 68/100
 - 2026-08-25 | Çek Cumhuriyeti Kupa 2.Tur | Sokol Zapy - Bohemians 1905 | MS 2 | pending | 50/100
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Southam - West Ham | MS 2 | pending | 38/100
 - 2026-08-25 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) - (2) Hapoel Beer She | MS 1 | pending | 43/100
@@ -42,6 +44,4 @@ Oluşturma: 25.08.2026 18:59:22
 - 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Leixoes U23 - União De Leiria | 2.5 Üst | pending | 64/100
 - 2026-08-25 | Irak Premier Lig | Al Zawraa - Naft Maysan | MS 1 | pending | 46/100
 - 2026-08-25 | Güney Kore K Lig 1 | Fc Seoul - Bucheon | 2.5 Alt | pending | 62/100
-- 2026-08-25 | Portekiz U23 Ulusal Şampiyona | Sporting Cp U2 - Benfica U23 | 2.5 Üst | pending | 64/100
-- 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Bonnyrigg Rose - Rangers Ii | 2.5 Alt | pending | 63/100
 
