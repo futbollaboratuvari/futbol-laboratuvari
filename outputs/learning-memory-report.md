@@ -1,11 +1,11 @@
 # Robot Öğrenme Hafızası Raporu
 
-Oluşturma: 25.08.2026 21:20:29
+Oluşturma: 25.08.2026 21:56:58
 
 ## Özet
 
-- Toplam tahmin: 1124
-- Bekleyen tahmin: 820
+- Toplam tahmin: 1125
+- Bekleyen tahmin: 821
 - Kazanan tahmin: 118
 - Kaybeden tahmin: 185
 - Lig sayısı: 171
@@ -21,7 +21,7 @@ Oluşturma: 25.08.2026 21:20:29
 ## En Güçlü Seçenek Hafızası
 
 - 2.5 Üst: toplam 33, bekleyen 22, başarı %91, ağırlık 1.12
-- 2.5 Alt: toplam 105, bekleyen 77, başarı %86, ağırlık 1.12
+- 2.5 Alt: toplam 106, bekleyen 78, başarı %86, ağırlık 1.12
 - MS 1: toplam 145, bekleyen 109, başarı %39, ağırlık 0.88
 - MS X: toplam 366, bekleyen 250, başarı %31, ağırlık 0.88
 - MS 2: toplam 316, bekleyen 204, başarı %30, ağırlık 0.88
@@ -29,6 +29,7 @@ Oluşturma: 25.08.2026 21:20:29
 
 ## Son Tahmin Kayıtları
 
+- 2026-08-25 | Suudi Arabistan Pro Lig | Al Taawon - Al Feiha | 2.5 Alt | pending | 69/100
 - 2026-08-25 | İskoçya Challenge Kupası Lig Aşaması | Fraserburgh - Aberdeen Ii | MS 2 | pending | 38/100
 - 2026-08-25 | Suudi Arabistan Pro Lig | Al Taawon - Al Feiha | 2.5 Üst | pending | 68/100
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Doncaster - Middlesbrough | MS 2 | pending | 50/100
@@ -43,5 +44,4 @@ Oluşturma: 25.08.2026 21:20:29
 - 2026-08-25 | İngiltere Lig Kupası 2.Tur | Southam - West Ham | MS 2 | pending | 38/100
 - 2026-08-25 | UEFA Şampiyonlar Ligi Play Off | Sabah (1) - (2) Hapoel Beer She | MS 1 | pending | 43/100
 - 2026-08-25 | Kazakistan Premier Lig | Tobol Kostanay - Kaisar | 2.5 Üst | pending | 64/100
-- 2026-08-25 | İngiltere Professional Development Lig | Wigan Athletic - Cardiff City U2 | 2.5 Alt | pending | 63/100
 
