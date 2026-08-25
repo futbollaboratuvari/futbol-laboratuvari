@@ -4,7 +4,7 @@
 - Restored from cache: false
 - Scheduled match count: 12
 - Live match count: 55
-- Finished removed count: 8
+- Finished removed count: 0
 - Date window: 2026-08-25 / 2026-08-26 23:59
 
 - 2026-08-25 21:45 | Al Jawiya - Gaz Al-Shamal | live
