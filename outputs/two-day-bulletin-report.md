@@ -3,15 +3,14 @@
 Gunler: 2026-08-26 / 2026-08-27
 Kaynak: fixtures.json
 Ham mac: 171
-Aktif mac: 167
-Canli mac: 4
+Aktif mac: 166
+Canli mac: 5
 Biten mac: 0
-Bultenden dusurulen mac: 4
-Bugun: 141
+Bultenden dusurulen mac: 5
+Bugun: 140
 Yarin: 26
 
 ## Baslamamis Maclar
-- 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | scheduled | -
 - 2026-08-26 03:00 | Brezilya Kupa Çeyrek Final | Cruzeiro - Atletico Mg | scheduled | -
 - 2026-08-26 03:30 | CONCACAF Ligler Kupası Çeyrek Final | Monterrey - Chicago | scheduled | -
 - 2026-08-26 03:30 | Copa Libertadores Son 16 Turu | Indep. Jose Te (1) - (0) Deportes Tolima | scheduled | -
@@ -184,6 +183,7 @@ Yarin: 26
 - 2026-08-26 01:00 | Arjantin Ulusal Primera Lig | Deportivo Madr - Godoy Cruz | live | -
 - 2026-08-26 01:30 | Brezilya Serie B | Atletico Goian - Botafogo Ribeir | live | -
 - 2026-08-26 01:30 | Brezilya Serie B | Juventude - Regatas | live | -
+- 2026-08-26 02:00 | Bolivya Premier Lig | Universitario - Nacional Potosi | live | -
 
 ## Biten Maclar
 Biten mac yok.

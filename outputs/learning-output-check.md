@@ -1,6 +1,6 @@
 # Learning Output Check
 
-Generated: 2026-08-25T22:45:01.521Z
+Generated: 2026-08-25T23:06:23.101Z
 Status: ready
 
 ## Checks
@@ -20,7 +20,7 @@ Status: ready
 - Robot matches: 171
 - Learning adjusted count: 128
 - Memory predictions: 1265
-- Pending predictions: 915
+- Pending predictions: 906
 
 Learning output fields are present. The site can display learning notes.
 

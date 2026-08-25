@@ -4,7 +4,7 @@
 - Kaynak: Maçkolik canlı robot
 - Motor: High Value Coupon Engine
 - Puanlama: Net eşik kuralları
-- Güncelleme: 2026-08-25T22:58:52.307Z
+- Güncelleme: 2026-08-25T23:05:45.148Z
 - Not: Çifte şans kullanılmaz. Düşük oranlı ve değersiz marketler elenir. Güncel veri yoksa eski veri gösterilmez.
 - Puan sınıfları: 80-100 Ana kupon adayı, 65-79 Orta risk kupon adayı, 50-64 Sadece izleme, 0-49 Oynama.
 
@@ -15,7 +15,7 @@
 | Deportivo Madr VS Godoy Cruz | Arjantin Ulusal Primera Lig | 01:00 | MS 1 | 1.82 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Atletico Goian VS Botafogo Ribeir | Brezilya Serie B | 01:30 | MS 1 | 1.91 | 51 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Juventude VS Regatas | Brezilya Serie B | 01:30 | 2.5 Alt | 1.45 | 59 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
-| Universitario VS Nacional Potosi | Bolivya Premier Lig | 02:00 | MS 1 | 1.85 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
+| Universitario VS Nacional Potosi | Bolivya Premier Lig | 02:00 | MS 1 | 1.85 | 52 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | live |
 | Cruzeiro VS Atletico Mg | Brezilya Kupa Çeyrek Final | 03:00 | 2.5 Alt | 1.40 | 57 | Sadece izleme | Piyasa ile Uyumlu | Orta | Orta | scheduled |
 | Monterrey VS Chicago | CONCACAF Ligler Kupası Çeyrek Final | 03:30 | MS 2 | 2.02 | 43 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
 | Indep. Jose Te (1) VS (0) Deportes Tolima | Copa Libertadores Son 16 Turu | 03:30 | MS 1 | 1.37 | 61 | Sadece izleme | Piyasa ile Uyumlu | Yüksek | Yüksek | scheduled |
